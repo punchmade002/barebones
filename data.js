@@ -2165,6 +2165,669 @@ const COURSE_DATA = {
           ]
         }
       ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 1 =================== */
+    {
+      id: "geo1",
+      number: 1,
+      subject: "geography",
+      title: "Plate Tectonics",
+      learningOutcomes: [
+        {
+          id: "geo1-1",
+          code: "1.1",
+          title: "Theory of Plate Tectonics",
+          notes: [
+            { h: "Continental Drift (Wegener)", b: "Alfred Wegener proposed Earth's crust is divided into large moving plates. Evidence 1: matching plant and animal fossils on opposite continents. Evidence 2: matching fold mountains (Appalachians and Caledonian Mountains). Evidence 3: continental fit — South America and Africa fit together like a jigsaw." },
+            { h: "Sea Floor Spreading & Mantle Convection", b: "Harry Hess (1960): new ocean floor forms at mid-ocean ridges as plates diverge. Sea floor rocks are older the further they are from divergent boundaries. Arthur Holmes (1928): mantle convection — heat from the inner core causes hot rock to rise, driving plate movement." },
+            { h: "Driving Forces", b: "Convection currents: heat from inner core pushes hot rock up, cooler rock circulates, moving plates. Slab pull: subducting plate edge drags the rest of the plate with it. Ridge push: tension at divergent boundaries causes plates to swell and push apart. Plates move at 2–15 cm per year." },
+            { h: "Plate Boundaries", b: "Divergent: plates separate — e.g. Mid-Atlantic Ridge, forming Iceland. Convergent (destructive): plates collide — forms trenches, fold mountains, volcanoes. Transform: plates slide past each other — e.g. San Andreas Fault; crust is neither created nor destroyed." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Discuss the theory of plate tectonics.", model: "Continental Drift: Alfred Wegener proposed Earth's crust is divided into large moving plates. Evidence: matching fossils on opposite continents; matching fold mountains (Appalachians and Caledonian); continental fit of South America and Africa. Sea Floor Spreading: Harry Hess (1960) — new ocean floor forms at mid-ocean ridges as plates diverge; rocks are older further from ridges. Arthur Holmes (1928) — mantle convection drives plate movement. Driving Forces: Convection currents push hot rock up; slab pull drags the subducting plate; ridge push causes plates to swell and separate. Plates move 2–15 cm per year. Plate Boundaries: Divergent (Mid-Atlantic Ridge, Iceland); Convergent/destructive (trenches, fold mountains, volcanoes); Transform (San Andreas Fault — no crust created or destroyed)." }
+          ]
+        },
+        {
+          id: "geo1-2",
+          code: "1.2",
+          title: "Destructive (Convergent) Plate Boundaries",
+          notes: [
+            { h: "Oceanic–Oceanic", b: "The older, denser plate subducts beneath the other into the mantle. A deep ocean trench forms at the subduction zone (up to 8 km deep). Rock and sediment build up an accretionary wedge at the boundary. As the descending plate melts, magma rises — forming island arc volcanoes (e.g. Japan)." },
+            { h: "Oceanic–Continental", b: "The denser oceanic plate subducts under the lighter continental plate. Compression forces thrust the coastal edge of the continental plate upward. Fold mountains form through orogeny — e.g. The Andes (Nazca and South American plates). Melting of the subducting plate produces magma chambers and explosive stratovolcanoes along the continental margin." },
+            { h: "Continental–Continental", b: "Neither plate subducts as both are composed of light continental crust. Huge compression forces fold and thrust sedimentary rock upward. Major fold mountain ranges form — e.g. The Himalayas (Indian and Eurasian plates, colliding ~50 mya). No volcanic activity typically occurs; earthquakes are common due to compression stress." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Describe and explain destructive (convergent) plate boundaries.", model: "Oceanic–Oceanic: The older, denser plate subducts into the mantle. A deep ocean trench forms (up to 8 km). Accretionary wedge builds up. Magma rises to form island arc volcanoes (e.g. Japan). Oceanic–Continental: Denser oceanic plate subducts under lighter continental plate. Compression forces thrust the coastal edge upward. Fold mountains form through orogeny — e.g. The Andes (Nazca and South American plates). Explosive stratovolcanoes form along the continental margin. Continental–Continental: Neither plate subducts (both light continental crust). Compression forces fold sedimentary rock upward. Major fold mountain ranges form — e.g. The Himalayas (Indian and Eurasian plates, ~50 mya). No volcanic activity; earthquakes common from compression stress." }
+          ]
+        },
+        {
+          id: "geo1-3",
+          code: "1.3",
+          title: "Constructive (Divergent) Plate Boundaries",
+          notes: [
+            { h: "What Happens at Divergent Boundaries", b: "Plates move apart driven by ridge push and mantle convection currents. Fissures form in the thinning crust as plates separate. Magma rises through the fissures — creating new oceanic crust. New crust forms symmetrically on both sides of the ridge." },
+            { h: "Mid-Ocean Ridges", b: "Continuous chains of underwater mountains and volcanoes — make up 90% of all mountains on Earth. The Mid-Atlantic Ridge runs from north to south beneath the Atlantic Ocean. Iceland sits on the Mid-Atlantic Ridge — a visible example of a divergent boundary above sea level. Basic (low-silica) lava is produced — runny, non-explosive, forms gently sloping shield volcanoes." },
+            { h: "Continental Rift Zones", b: "When divergent forces act on continental crust, rift valleys form. The East African Rift Valley is a current example — eastern Africa is slowly pulling away from the rest of the continent. Eventually the rift widens, sea water floods in, and a new ocean forms — the Red Sea is an early stage of this process. Earthquakes along divergent boundaries are shallow (less than 30 km) and relatively moderate in magnitude." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Describe and explain constructive (divergent) plate boundaries.", model: "Plates move apart driven by ridge push and mantle convection. Fissures form in thinning crust; magma rises to create new oceanic crust symmetrically on both sides of the ridge. Mid-Ocean Ridges: continuous underwater mountain chains making up 90% of all mountains on Earth. The Mid-Atlantic Ridge runs beneath the Atlantic — Iceland is a surface example above sea level. Basic (low-silica) lava forms non-explosive shield volcanoes. Continental Rift Zones: divergent forces on continental crust create rift valleys — e.g. East African Rift Valley, eastern Africa slowly pulling apart. Eventually the rift widens, sea floods in — the Red Sea is an early stage. Earthquakes at divergent boundaries are shallow (<30 km) and relatively moderate." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo1-eq-1",
+          source: "LC Geography — Sample 2019",
+          appliesTo: [
+            { chapterId: "geo2", questionTitle: "Explain how plate tectonics explains the global distribution of volcanoes" },
+            { chapterId: "geo2", questionTitle: "Explain how tectonic activity explains the global distribution of fold mountains" },
+            { chapterId: "geo3", questionTitle: "Examine the impact of tectonic activity on the landscape of Ireland" }
+          ],
+          parts: [
+            { label: "Q1.", question: "Discuss the theory of plate tectonics.", marks: 30, model: "Continental Drift: Alfred Wegener proposed Earth's crust is divided into large moving plates. Evidence: matching fossils on opposite continents; matching fold mountains (Appalachians and Caledonian); continental fit of South America and Africa. Sea Floor Spreading: Harry Hess (1960) — new ocean floor forms at mid-ocean ridges as plates diverge; rocks are older further from ridges. Arthur Holmes (1928) — mantle convection drives plate movement. Driving Forces: Convection currents push hot rock up; slab pull drags the subducting plate; ridge push causes plates to swell and separate. Plates move 2–15 cm per year. Plate Boundaries: Divergent (Mid-Atlantic Ridge, Iceland); Convergent/destructive (trenches, fold mountains, volcanoes); Transform (San Andreas Fault — no crust created or destroyed)." }
+          ]
+        },
+        {
+          id: "geo1-eq-2",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo2", questionTitle: "Explain how plate tectonics explains the global distribution of volcanoes" },
+            { chapterId: "geo2", questionTitle: "Explain how tectonic activity explains the global distribution of fold mountains" },
+            { chapterId: "geo3", questionTitle: "Explain how folding and faulting influence the development of landforms" }
+          ],
+          parts: [
+            { label: "Q2.", question: "Describe and explain destructive (convergent) plate boundaries.", marks: 30, model: "Oceanic–Oceanic: The older, denser plate subducts into the mantle. A deep ocean trench forms (up to 8 km). Accretionary wedge builds up. Magma rises to form island arc volcanoes (e.g. Japan). Oceanic–Continental: Denser oceanic plate subducts under lighter continental plate. Compression forces thrust the coastal edge upward. Fold mountains form through orogeny — e.g. The Andes (Nazca and South American plates). Explosive stratovolcanoes form along the continental margin. Continental–Continental: Neither plate subducts (both light continental crust). Compression forces fold sedimentary rock upward. Major fold mountain ranges form — e.g. The Himalayas (Indian and Eurasian plates, ~50 mya). No volcanic activity; earthquakes common from compression stress." }
+          ]
+        },
+        {
+          id: "geo1-eq-3",
+          source: "LC Geography — Sample 2020",
+          appliesTo: [
+            { chapterId: "geo2", questionTitle: "Explain how plate tectonics explains the global distribution of volcanoes" },
+            { chapterId: "geo2", questionTitle: "Explain how tectonic activity explains the global distribution of fold mountains" }
+          ],
+          parts: [
+            { label: "Q3.", question: "Describe and explain constructive (divergent) plate boundaries.", marks: 30, model: "Plates move apart driven by ridge push and mantle convection. Fissures form in thinning crust; magma rises to create new oceanic crust symmetrically on both sides of the ridge. Mid-Ocean Ridges: continuous underwater mountain chains making up 90% of all mountains on Earth. The Mid-Atlantic Ridge runs beneath the Atlantic — Iceland is a surface example above sea level. Basic (low-silica) lava forms non-explosive shield volcanoes. Continental Rift Zones: divergent forces on continental crust create rift valleys — e.g. East African Rift Valley, eastern Africa slowly pulling apart. Eventually the rift widens, sea floods in — the Red Sea is an early stage. Earthquakes at divergent boundaries are shallow (<30 km) and relatively moderate." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 2 =================== */
+    {
+      id: "geo2",
+      number: 2,
+      subject: "geography",
+      title: "Volcanoes & Earthquakes",
+      learningOutcomes: [
+        {
+          id: "geo2-1",
+          code: "2.1",
+          title: "Positive Impacts of Volcanoes",
+          notes: [
+            { h: "Fertile Soils", b: "Volcanic ash (tephra) is rich in minerals such as potassium and phosphorus — breaks down into highly fertile soils over time. The slopes of Mount Etna (Sicily) support intensive viticulture and citrus farming due to volcanic soils. Java, Indonesia — one of the world's most densely farmed islands due to fertile volcanic soils from nearby active volcanoes." },
+            { h: "Geothermal Energy", b: "Volcanic regions have geothermal energy potential — magma heats underground water, harnessed for electricity and heating. Iceland generates almost 100% of its heating and ~30% of its electricity from geothermal energy — derived from its position on the Mid-Atlantic Ridge. Geothermal energy is clean, renewable, and reduces dependence on fossil fuels." },
+            { h: "Tourism & Mineral Wealth", b: "Volcanic landscapes attract significant tourism — e.g. Hawaii's shield volcanoes, the Canary Islands, Iceland's geysers and lava fields. Volcanic regions are associated with mineral deposits — gold, silver, copper and diamonds found near igneous rock formations. The Antrim-Derry Lava Plateau (Giant's Causeway) is a UNESCO World Heritage Site attracting 600,000+ visitors per year to Ireland." },
+            { h: "Land Creation", b: "Successive lava flows build up new land above sea level — the Hawaiian Islands were entirely formed by hotspot volcanic activity. The island of Surtsey (Iceland) emerged from the ocean in 1963 through underwater volcanic eruptions. The Antrim-Derry Plateau was built up over 2 million years of fissure eruptions, forming a lava landscape up to 1,800 m thick." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Discuss the positive impacts of volcanoes.", model: "Fertile Soils: Volcanic ash (tephra) rich in potassium and phosphorus breaks down into highly fertile soils. Mount Etna (Sicily) supports intensive viticulture; Java, Indonesia is one of the world's most densely farmed islands. Geothermal Energy: Magma heats underground water for electricity and heating. Iceland generates almost 100% of its heating from geothermal energy — clean, renewable, reduces fossil fuel dependence. Tourism and Mineral Wealth: Volcanic landscapes attract tourists — Hawaii, Canary Islands, Iceland. Mineral deposits (gold, silver, copper, diamonds) form near igneous rock. Giant's Causeway: UNESCO World Heritage Site, 600,000+ visitors/year. Land Creation: Lava flows build new land — Hawaiian Islands entirely formed by hotspot activity. Surtsey (Iceland) emerged from ocean in 1963. Antrim-Derry Plateau built over 2 million years of fissure eruptions." }
+          ]
+        },
+        {
+          id: "geo2-2",
+          code: "2.2",
+          title: "Global Distribution of Volcanoes",
+          notes: [
+            { h: "Divergent Boundaries", b: "At divergent boundaries, plates separate and fissures allow magma to rise — creating volcanoes along mid-ocean ridges. Basic lava (low silica) rises at these boundaries — non-explosive, forming shield volcanoes. Iceland sits on the Mid-Atlantic Ridge — a surface example of divergent boundary volcanism." },
+            { h: "Convergent Boundaries", b: "The heavier plate subducts and melts — magma rises to form a magma chamber in the overlying crust. High silica content makes this magma viscous and volatile — produces explosive composite (strato) volcanoes. Volcanoes form along the continental margin or as island arcs — e.g. the Andes (Nazca/South American) and Japan." },
+            { h: "Hotspots", b: "Over 40 global hotspots exist, many away from plate boundaries — explained by plumes of magma (diapirs) rising from the mantle. The hotspot burns through the oceanic plate — successive volcanic islands form as the plate moves over it. Example: Hawaiian island chain — oldest islands furthest from the current hotspot, youngest still forming over it." },
+            { h: "Ring of Fire", b: "~75% of all volcanoes are located in the Ring of Fire — the boundary of the Pacific Plate — explained by multiple convergent subduction zones. Plate tectonics explains why volcanoes cluster at plate boundaries rather than being randomly distributed. Intraplate volcanoes (hotspots) are the exception — explained by mantle plumes rather than plate boundary processes." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain how the study of plate tectonics has helped us to understand the global distribution of volcanoes.", model: "Divergent Boundaries: Plates separate and fissures allow magma to rise — creating volcanoes along mid-ocean ridges. Basic lava (low silica): non-explosive shield volcanoes. Iceland on Mid-Atlantic Ridge — surface example. Convergent Boundaries: Heavier plate subducts and melts — magma rises to form magma chamber. High silica magma is viscous and volatile — explosive composite (strato) volcanoes. Andes (Nazca/South American); Japan (island arcs). Hotspots: Over 40 global hotspots away from plate boundaries — mantle plumes burn through oceanic plate. Successive volcanic islands form as plate moves over hotspot. Hawaiian island chain — oldest islands furthest from current hotspot. Ring of Fire: ~75% of all volcanoes at the boundary of the Pacific Plate — multiple convergent subduction zones. Plate tectonics explains volcanic clustering at boundaries; intraplate volcanoes (hotspots) explained by mantle plumes." }
+          ]
+        },
+        {
+          id: "geo2-3",
+          code: "2.3",
+          title: "Global Distribution of Fold Mountains",
+          notes: [
+            { h: "Caledonian Orogeny (~400 mya)", b: "North American and Eurasian plates collided — continental-continental convergence forced overlying rock upward. Formed the oldest mountains in Ireland — e.g. Sugarloaf, Co. Wicklow. Also formed the Scottish Highlands and Scandinavian Mountains — evidence of the same orogeny across separated landmasses." },
+            { h: "Armorican Orogeny (~250 mya)", b: "African and Eurasian plates collided — compression forces produced 3,000 km of mountains across Europe. Formed the Munster Ridge and Valley — e.g. Macgillycuddy's Reeks, stretching across Ireland, Portugal, England and Germany. Associated rock types: quartzite, shale and marble — formed under high pressure and heat." },
+            { h: "Alpine Orogeny (~60 mya — ongoing)", b: "Indo-Australian and Eurasian plates collided — forming the Himalayas. Mount Everest (8,848 m) — world's highest peak, still rising as subduction continues. Nazca and South American plates — forming the Andes (~50 mya), the world's longest mountain range. Fold mountains cluster at convergent plate boundaries worldwide — entirely explained by plate tectonics." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine how the tectonic cycle helps to explain the global distribution of fold mountains.", model: "Caledonian Orogeny (~400 mya): North American and Eurasian plates collided — continental-continental convergence. Formed oldest mountains in Ireland (Sugarloaf, Co. Wicklow), Scottish Highlands and Scandinavian Mountains — evidence of same orogeny across separated landmasses. Armorican Orogeny (~250 mya): African and Eurasian plates collided — 3,000 km of mountains across Europe. Formed Munster Ridge and Valley — e.g. Macgillycuddy's Reeks. Rock types: quartzite, shale and marble (high pressure and heat). Alpine Orogeny (~60 mya, ongoing): Indo-Australian and Eurasian plates — Himalayas; Mount Everest (8,848 m) still rising. Nazca and South American plates — Andes (~50 mya), world's longest mountain range. Fold mountains cluster at convergent plate boundaries worldwide — entirely explained by plate tectonics." }
+          ]
+        },
+        {
+          id: "geo2-4",
+          code: "2.4",
+          title: "Earthquake Prediction and Mitigation",
+          notes: [
+            { h: "Prediction Methods", b: "Rock stress: strainmeters placed along fault lines measure pressure buildup — help indicate when a fault is close to snapping. Radon gas: deformation of rock at fault lines releases radon — networks of radon detectors act as early warning systems. Foreshocks: minor tremors before major earthquakes — used to evacuate Haicheng, China, in 1975. Animal behaviour: animals reported to act erratically before earthquakes — not scientifically reliable." },
+            { h: "Monitoring Technology", b: "Seismographs installed globally in a seismographic network — detect and measure ground motion continuously. Tsunameters: pressure sensors on the seafloor detect tsunami waves and relay data via satellite buoy to monitoring centres. GPS satellites monitor ground deformation along fault lines — detect plate movement in real time." },
+            { h: "Reducing Effects", b: "Earthquake-resistant building design — flexible steel frames, base isolators, and counterweights absorb seismic energy. Japan uses strict building codes — buildings in Tokyo engineered to survive magnitude 7+ earthquakes. Early warning systems give seconds to minutes of advance notice — enough to stop trains, alert hospitals, and warn the public. Public education and earthquake drills (e.g. Japan's annual Disaster Prevention Day) reduce casualties. Emergency response planning — stockpiles, trained rescue teams, and designated evacuation zones limit secondary deaths." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain how the occurrence of earthquakes can be predicted and their effects reduced.", model: "Prediction Methods: Rock stress — strainmeters measure pressure buildup along fault lines. Radon gas — deformation releases radon; detector networks act as early warning systems. Foreshocks — minor tremors before major earthquakes; used to evacuate Haicheng, China (1975). Animal behaviour observed but not scientifically reliable. Monitoring Technology: Seismographs in global network detect ground motion continuously. Tsunameters — seafloor pressure sensors relay data via satellite. GPS satellites detect plate movement and ground deformation in real time. Reducing Effects: Earthquake-resistant building design — flexible steel frames, base isolators, counterweights. Japan: strict building codes, buildings engineered for magnitude 7+. Early warning systems give seconds to minutes of notice — stop trains, alert hospitals. Public education and earthquake drills (Japan's Disaster Prevention Day). Emergency response planning — stockpiles, rescue teams, evacuation zones." }
+          ]
+        },
+        {
+          id: "geo2-5",
+          code: "2.5",
+          title: "Volcanic Activity and Ireland's Landscape",
+          notes: [
+            { h: "Intrusive Features — The Leinster Batholith", b: "A batholith is a large body of igneous (granite) rock formed when magma rose into the crust and cooled slowly underground. The Leinster Batholith has a surface area of ~1,500 km² — formed ~400 mya during the Caledonian Orogeny. Slow cooling underground produced large crystals visible to the naked eye — characteristic coarse-grained granite. Exposed at the surface through denudation (removal of overlying rock) — forms upland areas such as the Wicklow Mountains." },
+            { h: "Intrusive Features — Dykes and Sills", b: "Dykes form when magma forces vertically through sedimentary rock layers and solidifies — creates near-perpendicular rock intrusions. Sills form when magma forces horizontally between sedimentary layers — can be exposed through erosion as resistant ridges. Both are visible in various parts of the Irish landscape, particularly in the northeast where igneous activity was most recent." },
+            { h: "Extrusive Features — Antrim-Derry Plateau", b: "Fissure eruptions of basic lava occurred over ~2 million years — building up a lava plateau up to 1,800 m thick. Lava cooled more quickly at the surface — forming the characteristic hexagonal basalt columns of the Giant's Causeway. The Giant's Causeway is a UNESCO World Heritage Site — ~40,000 interlocking basalt columns formed by rapid, uniform cooling. The Antrim plateau covers much of northeast Ireland — one of Europe's largest and best-preserved lava plateau landscapes." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the influence of volcanic activity on the development of the Irish landscape — intrusive and extrusive features.", model: "Intrusive — Leinster Batholith: a large body of granite rock formed when magma cooled slowly underground. Surface area ~1,500 km²; formed ~400 mya during the Caledonian Orogeny. Slow cooling produced large crystals — coarse-grained granite. Exposed through denudation — forms the Wicklow Mountains. Intrusive — Dykes and Sills: Dykes form when magma forces vertically through sedimentary rock and solidifies. Sills form horizontally between sedimentary layers — exposed through erosion as resistant ridges. Both visible in northeast Ireland. Extrusive — Antrim-Derry Plateau: Fissure eruptions of basic lava over ~2 million years — plateau up to 1,800 m thick. Rapid uniform cooling produced ~40,000 hexagonal basalt columns — the Giant's Causeway (UNESCO World Heritage Site). Antrim plateau covers much of northeast Ireland — one of Europe's largest lava plateau landscapes." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo2-eq-1",
+          source: "LC Geography — Long Question",
+          parts: [
+            { label: "Q1.", question: "Discuss the positive impacts of volcanoes.", marks: 30, model: "Fertile Soils: Volcanic ash (tephra) rich in potassium and phosphorus breaks down into highly fertile soils. Mount Etna (Sicily) supports intensive viticulture; Java, Indonesia is one of the world's most densely farmed islands. Geothermal Energy: Magma heats underground water for electricity and heating. Iceland generates almost 100% of its heating from geothermal energy — clean, renewable, reduces fossil fuel dependence. Tourism and Mineral Wealth: Volcanic landscapes attract tourists — Hawaii, Canary Islands, Iceland. Mineral deposits (gold, silver, copper, diamonds) form near igneous rock. Giant's Causeway: UNESCO World Heritage Site, 600,000+ visitors/year. Land Creation: Lava flows build new land — Hawaiian Islands entirely formed by hotspot activity. Surtsey (Iceland) emerged from ocean in 1963. Antrim-Derry Plateau built over 2 million years of fissure eruptions." }
+          ]
+        },
+        {
+          id: "geo2-eq-2",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo1", questionTitle: "Discuss the theory of plate tectonics" },
+            { chapterId: "geo1", questionTitle: "Describe and explain destructive (convergent) plate boundaries" },
+            { chapterId: "geo1", questionTitle: "Describe and explain constructive (divergent) plate boundaries" }
+          ],
+          parts: [
+            { label: "Q2.", question: "Explain how the study of plate tectonics has helped us to understand the global distribution of volcanoes.", marks: 30, model: "Divergent Boundaries: Plates separate and fissures allow magma to rise — creating volcanoes along mid-ocean ridges. Basic lava (low silica): non-explosive shield volcanoes. Iceland on Mid-Atlantic Ridge — surface example. Convergent Boundaries: Heavier plate subducts and melts — magma rises to form magma chamber. High silica magma is viscous and volatile — explosive composite (strato) volcanoes. Andes (Nazca/South American); Japan (island arcs). Hotspots: Over 40 global hotspots away from plate boundaries — mantle plumes burn through oceanic plate. Successive volcanic islands form as plate moves over hotspot. Hawaiian island chain — oldest islands furthest from current hotspot. Ring of Fire: ~75% of all volcanoes at the boundary of the Pacific Plate — multiple convergent subduction zones. Plate tectonics explains volcanic clustering at boundaries; intraplate volcanoes (hotspots) explained by mantle plumes." }
+          ]
+        },
+        {
+          id: "geo2-eq-3",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo1", questionTitle: "Discuss the theory of plate tectonics" },
+            { chapterId: "geo1", questionTitle: "Describe and explain destructive (convergent) plate boundaries" },
+            { chapterId: "geo3", questionTitle: "Explain how folding and faulting influence the development of landforms" }
+          ],
+          parts: [
+            { label: "Q3.", question: "Examine how the tectonic cycle helps to explain the global distribution of fold mountains.", marks: 30, model: "Caledonian Orogeny (~400 mya): North American and Eurasian plates collided — continental-continental convergence. Formed oldest mountains in Ireland (Sugarloaf, Co. Wicklow), Scottish Highlands and Scandinavian Mountains — evidence of same orogeny across separated landmasses. Armorican Orogeny (~250 mya): African and Eurasian plates collided — 3,000 km of mountains across Europe. Formed Munster Ridge and Valley — e.g. Macgillycuddy's Reeks. Rock types: quartzite, shale and marble (high pressure and heat). Alpine Orogeny (~60 mya, ongoing): Indo-Australian and Eurasian plates — Himalayas; Mount Everest (8,848 m) still rising. Nazca and South American plates — Andes (~50 mya), world's longest mountain range. Fold mountains cluster at convergent plate boundaries worldwide — entirely explained by plate tectonics." }
+          ]
+        },
+        {
+          id: "geo2-eq-4",
+          source: "LC Geography — Sample 2021",
+          parts: [
+            { label: "Q4.", question: "Explain how the occurrence of earthquakes can be predicted and their effects reduced.", marks: 30, model: "Prediction Methods: Rock stress — strainmeters measure pressure buildup along fault lines. Radon gas — deformation releases radon; detector networks act as early warning systems. Foreshocks — minor tremors before major earthquakes; used to evacuate Haicheng, China (1975). Animal behaviour observed but not scientifically reliable. Monitoring Technology: Seismographs in global network detect ground motion continuously. Tsunameters — seafloor pressure sensors relay data via satellite. GPS satellites detect plate movement and ground deformation in real time. Reducing Effects: Earthquake-resistant building design — flexible steel frames, base isolators, counterweights. Japan: strict building codes, buildings engineered for magnitude 7+. Early warning systems give seconds to minutes of notice — stop trains, alert hospitals. Public education and earthquake drills (Japan's Disaster Prevention Day). Emergency response planning — stockpiles, rescue teams, evacuation zones." }
+          ]
+        },
+        {
+          id: "geo2-eq-5",
+          source: "LC Geography — Sample 2019",
+          appliesTo: [
+            { chapterId: "geo3", questionTitle: "Examine the impact of tectonic activity on the landscape of Ireland" }
+          ],
+          parts: [
+            { label: "Q5.", question: "Examine the influence of volcanic activity on the development of the Irish landscape — intrusive and extrusive features.", marks: 30, model: "Intrusive — Leinster Batholith: a large body of granite rock formed when magma cooled slowly underground. Surface area ~1,500 km²; formed ~400 mya during the Caledonian Orogeny. Slow cooling produced large crystals — coarse-grained granite. Exposed through denudation — forms the Wicklow Mountains. Intrusive — Dykes and Sills: Dykes form when magma forces vertically through sedimentary rock and solidifies. Sills form horizontally between sedimentary layers — exposed through erosion as resistant ridges. Both visible in northeast Ireland. Extrusive — Antrim-Derry Plateau: Fissure eruptions of basic lava over ~2 million years — plateau up to 1,800 m thick. Rapid uniform cooling produced ~40,000 hexagonal basalt columns — the Giant's Causeway (UNESCO World Heritage Site). Antrim plateau covers much of northeast Ireland — one of Europe's largest lava plateau landscapes." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 3 =================== */
+    {
+      id: "geo3",
+      number: 3,
+      subject: "geography",
+      title: "Tectonic Activity / Folding & Faulting",
+      learningOutcomes: [
+        {
+          id: "geo3-1",
+          code: "3.1",
+          title: "Impact of Tectonic Activity on Ireland's Landscape",
+          notes: [
+            { h: "Fold Mountains", b: "Three orogenies shaped Ireland's upland landscape. Caledonian (~400 mya): formed NE-SW trending mountains in Leinster — e.g. Wicklow Mountains (Sugarloaf). Armorican (~250 mya): formed E-W trending ridges of Munster — e.g. Macgillycuddy's Reeks, Cork ridges and valleys. Between orogenies, Ireland's surface was worn flat by erosion." },
+            { h: "Rock Types", b: "Caledonian orogeny produced the Leinster Batholith (granite) through intrusive igneous activity during continental collision. Quartzite formed under high pressure and heat — e.g. Great Sugarloaf, Co. Wicklow. Limestone (Carboniferous, ~320 mya) formed in warm, shallow tropical seas — covers the Central Lowlands and the Burren, Co. Clare." },
+            { h: "Faulting", b: "Normal faulting at divergent boundaries and tension zones produced rift valleys and block mountain structures in Ireland. The Shannon Estuary follows a fault line — the river exploited a zone of crustal weakness created by tectonic faulting. Much of Ireland's drainage pattern (rivers following valleys) is structurally controlled — rivers exploit fault lines and weaker rock." },
+            { h: "Volcanic Activity", b: "Fissure eruptions of basic lava ~60 mya formed the Antrim-Derry Plateau — up to 1,800 m thick, covering northeast Ireland. The Giant's Causeway formed as lava cooled uniformly, producing ~40,000 hexagonal basalt columns — now a UNESCO World Heritage Site. The Fair Head sill (north Antrim) and multiple dykes across Ireland are further evidence of past igneous intrusive activity." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the impact of tectonic activity on the landscape of Ireland.", model: "Fold Mountains: Three orogenies shaped Ireland's upland landscape. Caledonian (~400 mya): NE-SW trending mountains in Leinster (Wicklow Mountains, Sugarloaf). Armorican (~250 mya): E-W ridges of Munster (Macgillycuddy's Reeks). Rock Types: Leinster Batholith (granite) from Caledonian intrusive igneous activity. Quartzite (Great Sugarloaf) from orogeny pressure. Limestone (Carboniferous, ~320 mya) formed in shallow tropical seas — covers Central Lowlands and Burren. Faulting: Normal faulting produced rift valleys and block structures. Shannon Estuary follows a fault line. Drainage pattern structurally controlled — rivers exploit fault lines. Volcanic Activity: Fissure eruptions ~60 mya formed Antrim-Derry Plateau (up to 1,800 m thick). Giant's Causeway: ~40,000 hexagonal basalt columns — UNESCO World Heritage Site. Fair Head sill and dykes are evidence of intrusive activity." }
+          ]
+        },
+        {
+          id: "geo3-2",
+          code: "3.2",
+          title: "Folding and Faulting Landforms",
+          notes: [
+            { h: "Folding — Process", b: "Folding occurs when compressional forces at convergent plate boundaries cause layers of sedimentary rock to buckle and deform. Rocks in the lower lithosphere are ductile (plastic) — bend without breaking under sustained pressure. Anticlines form where rock is folded upward; synclines form where rock is folded downward." },
+            { h: "Folding — Landforms", b: "Fold mountains form through orogeny — e.g. the Himalayas (Indo-Australian and Eurasian plates) and the Andes (Nazca and South American). In Ireland, the Armorican Orogeny (~250 mya) created the Munster Ridge and Valley landscape — alternating anticlines and synclines. Monoclines: tilted strata folded and faulted under compression — e.g. Ben Bulben, Co. Sligo. Domes: bowl-like upward structures from rising magma pressure — e.g. Slieve Bloom Mountains." },
+            { h: "Faulting — Process", b: "Faulting occurs when brittle rocks in the upper lithosphere fracture under tension or compression forces. Normal fault: tension forces (divergent boundaries) — hanging wall drops relative to footwall; e.g. East African Rift Valley. Reverse fault: compression forces (convergent boundaries) — hanging wall rises above footwall. Strike-slip fault: shearing forces (transform boundaries) — walls move laterally past each other; e.g. San Andreas Fault, California." },
+            { h: "Faulting — Landforms", b: "Graben: block of land dropped between two normal faults — forms rift valleys; e.g. East African Rift Valley. Horst: elevated block between two grabens — forms block mountains. Fault scarps: small but visible offsets where one side of a fault has moved vertically — common in Ireland." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain how folding and faulting influence the development of landforms.", model: "Folding Process: Compressional forces at convergent boundaries cause sedimentary rock to buckle. Lower lithosphere rocks are ductile — bend without breaking. Anticlines fold upward; synclines fold downward. Folding Landforms: Fold mountains — Himalayas (Indo-Australian and Eurasian), Andes (Nazca and South American). Ireland: Armorican Orogeny created Munster Ridge and Valley (alternating anticlines/synclines). Monoclines: Ben Bulben, Co. Sligo. Domes: Slieve Bloom Mountains. Faulting Process: Brittle upper lithosphere fractures under tension or compression. Normal fault (tension/divergent): hanging wall drops — e.g. East African Rift Valley. Reverse fault (compression/convergent): hanging wall rises. Strike-slip fault (shearing/transform): lateral movement — e.g. San Andreas Fault. Faulting Landforms: Graben (land dropped between two normal faults) — rift valley, e.g. East African Rift Valley. Horst (elevated block between grabens) — block mountains. Fault scarps (vertical offsets) — common in Ireland." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo3-eq-1",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo2", questionTitle: "Examine the influence of volcanic activity on the development of the Irish landscape" }
+          ],
+          parts: [
+            { label: "Q1.", question: "Examine the impact of tectonic activity on the landscape of Ireland.", marks: 30, model: "Fold Mountains: Three orogenies shaped Ireland's upland landscape. Caledonian (~400 mya): NE-SW trending mountains in Leinster (Wicklow Mountains, Sugarloaf). Armorican (~250 mya): E-W ridges of Munster (Macgillycuddy's Reeks). Rock Types: Leinster Batholith (granite) from Caledonian intrusive igneous activity. Quartzite (Great Sugarloaf) from orogeny pressure. Limestone (Carboniferous, ~320 mya) formed in shallow tropical seas — covers Central Lowlands and Burren. Faulting: Normal faulting produced rift valleys and block structures. Shannon Estuary follows a fault line. Drainage pattern structurally controlled — rivers exploit fault lines. Volcanic Activity: Fissure eruptions ~60 mya formed Antrim-Derry Plateau (up to 1,800 m thick). Giant's Causeway: ~40,000 hexagonal basalt columns — UNESCO World Heritage Site. Fair Head sill and dykes are evidence of intrusive activity." }
+          ]
+        },
+        {
+          id: "geo3-eq-2",
+          source: "LC Geography — Long Question (2007 & 2012)",
+          appliesTo: [
+            { chapterId: "geo1", questionTitle: "Describe and explain destructive (convergent) plate boundaries" },
+            { chapterId: "geo2", questionTitle: "Explain how tectonic activity explains the global distribution of fold mountains" }
+          ],
+          parts: [
+            { label: "Q2.", question: "Explain how folding and faulting influence the development of landforms.", marks: 30, model: "Folding Process: Compressional forces at convergent boundaries cause sedimentary rock to buckle. Lower lithosphere rocks are ductile — bend without breaking. Anticlines fold upward; synclines fold downward. Folding Landforms: Fold mountains — Himalayas (Indo-Australian and Eurasian), Andes (Nazca and South American). Ireland: Armorican Orogeny created Munster Ridge and Valley (alternating anticlines/synclines). Monoclines: Ben Bulben, Co. Sligo. Domes: Slieve Bloom Mountains. Faulting Process: Brittle upper lithosphere fractures under tension or compression. Normal fault (tension/divergent): hanging wall drops — e.g. East African Rift Valley. Reverse fault (compression/convergent): hanging wall rises. Strike-slip fault (shearing/transform): lateral movement — e.g. San Andreas Fault. Faulting Landforms: Graben (land dropped between two normal faults) — rift valley, e.g. East African Rift Valley. Horst (elevated block between grabens) — block mountains. Fault scarps (vertical offsets) — common in Ireland." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 4 =================== */
+    {
+      id: "geo4",
+      number: 4,
+      subject: "geography",
+      title: "Weathering",
+      learningOutcomes: [
+        {
+          id: "geo4-1",
+          code: "4.1",
+          title: "Physical Weathering — Role of Temperature",
+          notes: [
+            { h: "Freeze-Thaw (Frost Shattering)", b: "Most common type of physical weathering in Ireland. Three conditions required: adequate water, temperatures that fluctuate above and below 0°C, and pre-existing fractures in the rock. Water enters cracks; as it freezes it expands by ~9% — exerts pressure on the surrounding rock. Repeated freeze-thaw cycles progressively widen cracks until rock fragments break away — called scree. Example: Great Sugarloaf, Co. Wicklow — scree slopes on its flanks are evidence of freeze-thaw action." },
+            { h: "Haloclasty (Salt Weathering)", b: "Salt water seeps into pores of coastal rocks; water evaporates leaving salt crystals behind. Salt crystals expand when heated — repeated expansion exerts pressure, forming micro-fractures over time. Three conditions required: saline supply, porous rock, hot/sunny/windy climate for evaporation. Example: Killiney Beach, Co. Dublin — coastal rock faces show evidence of salt weathering." },
+            { h: "Thermal Expansion", b: "In regions with extreme diurnal temperature ranges (e.g. deserts), rocks expand when heated and contract when cooled. The outer surface of rock heats and cools faster than the interior — differential expansion causes the outer layers to peel away (exfoliation/onion-skin weathering). Dark-coloured rocks absorb more heat and are more susceptible to this process than light-coloured rocks." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain the role of temperature in the process of physical weathering.", model: "Freeze-Thaw (most common in Ireland): Conditions — adequate water, temperatures fluctuating above/below 0°C, pre-existing fractures. Water enters cracks, freezes, expands by ~9% — exerts pressure on surrounding rock. Repeated cycles widen cracks until fragments break away (scree). Example: Great Sugarloaf, Co. Wicklow. Haloclasty: Salt water seeps into coastal rock pores; evaporation leaves salt crystals. Crystals expand when heated — repeated expansion causes micro-fractures. Conditions: saline supply, porous rock, hot/windy climate. Example: Killiney Beach, Co. Dublin. Thermal Expansion: Extreme diurnal temperature ranges (deserts) cause rocks to expand and contract. Outer surface heats/cools faster than interior — differential expansion causes outer layers to peel away (exfoliation/onion-skin weathering). Dark-coloured rocks absorb more heat — more susceptible." }
+          ]
+        },
+        {
+          id: "geo4-2",
+          code: "4.2",
+          title: "Physical and Chemical Weathering",
+          notes: [
+            { h: "Physical Weathering — Freeze-Thaw", b: "Requires: fluctuating temperatures, water, and pre-existing fractures. Water enters cracks; freezes and expands by ~9%, widening fractures. Repeated cycles cause rock to break — fragments called scree accumulate at the base of slopes. Most common in Ireland — example: Great Sugarloaf, Co. Wicklow." },
+            { h: "Chemical Weathering — Carbonation", b: "Also called carbonate dissolution — calcium carbonate in limestone dissolves when exposed to carbonic acid (rainwater + CO₂). Three conditions required: rainfall, CO₂ in the atmosphere, and calcium carbonate rock (limestone). Cold water absorbs more CO₂ — carbonation is more effective in cold, wet climates. Water percolates through natural joints, dissolving rock and widening cracks into grikes; remaining rock surfaces form clints. Example: The Burren, Co. Clare — limestone pavement formed by carbonation over thousands of years." },
+            { h: "Chemical Weathering — Hydrolysis", b: "Occurs when minerals in rocks react with acidic water — part of the mineral dissolves, the rest transforms into a new substance (e.g. clay). Differs from carbonation — minerals are not fully washed away but changed into weaker materials. Feldspar minerals break down into kaolin (clay) — weakens the rock structure from within. Common in humid temperate climates — Ireland's rainfall makes hydrolysis a widespread weathering process." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain one process of physical weathering and one process of chemical weathering.", model: "Physical — Freeze-Thaw: Conditions: fluctuating temperatures, water, pre-existing fractures. Water enters cracks, freezes, expands by ~9% — widening fractures. Repeated cycles cause rock to break; scree accumulates at base of slopes. Most common in Ireland — Great Sugarloaf, Co. Wicklow. Chemical — Carbonation: Calcium carbonate in limestone dissolves in carbonic acid (rainwater + CO₂). Conditions: rainfall, CO₂, calcium carbonate rock. Cold water absorbs more CO₂ — more effective in cold, wet climates. Water percolates through joints, dissolving rock — grikes (dissolved joints) and clints (remaining surfaces) form. Example: The Burren, Co. Clare. Chemical — Hydrolysis: Minerals in rocks react with acidic water — part dissolves, rest transforms into clay. Feldspar breaks down into kaolin — weakens rock from within. Common in humid temperate climates — widespread in Ireland." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo4-eq-1",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo4", questionTitle: "Explain one process of physical and one process of chemical weathering" }
+          ],
+          parts: [
+            { label: "Q1.", question: "Explain the role of temperature in the process of physical weathering.", marks: 30, model: "Freeze-Thaw (most common in Ireland): Conditions — adequate water, temperatures fluctuating above/below 0°C, pre-existing fractures. Water enters cracks, freezes, expands by ~9% — exerts pressure on surrounding rock. Repeated cycles widen cracks until fragments break away (scree). Example: Great Sugarloaf, Co. Wicklow. Haloclasty: Salt water seeps into coastal rock pores; evaporation leaves salt crystals. Crystals expand when heated — repeated expansion causes micro-fractures. Conditions: saline supply, porous rock, hot/windy climate. Example: Killiney Beach, Co. Dublin. Thermal Expansion: Extreme diurnal temperature ranges (deserts) cause rocks to expand and contract. Outer surface heats/cools faster than interior — differential expansion causes outer layers to peel away (exfoliation/onion-skin weathering). Dark-coloured rocks absorb more heat — more susceptible." }
+          ]
+        },
+        {
+          id: "geo4-eq-2",
+          source: "LC Geography — Sample 2020",
+          appliesTo: [
+            { chapterId: "geo4", questionTitle: "Explain the role of temperature in physical weathering" },
+            { chapterId: "geo5", questionTitle: "Explain how chemical weathering has shaped the limestone pavement in a karst region" },
+            { chapterId: "geo5", questionTitle: "Examine the processes which have influenced the development of underground landforms in a karst region" }
+          ],
+          parts: [
+            { label: "Q2.", question: "Explain one process of physical weathering and one process of chemical weathering.", marks: 30, model: "Physical — Freeze-Thaw: Conditions: fluctuating temperatures, water, pre-existing fractures. Water enters cracks, freezes, expands by ~9% — widening fractures. Repeated cycles cause rock to break; scree accumulates at base of slopes. Most common in Ireland — Great Sugarloaf, Co. Wicklow. Chemical — Carbonation: Calcium carbonate in limestone dissolves in carbonic acid (rainwater + CO₂). Conditions: rainfall, CO₂, calcium carbonate rock. Cold water absorbs more CO₂ — more effective in cold, wet climates. Water percolates through joints, dissolving rock — grikes (dissolved joints) and clints (remaining surfaces) form. Example: The Burren, Co. Clare. Chemical — Hydrolysis: Minerals in rocks react with acidic water — part dissolves, rest transforms into clay. Feldspar breaks down into kaolin — weakens rock from within. Common in humid temperate climates — widespread in Ireland." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 5 =================== */
+    {
+      id: "geo5",
+      number: 5,
+      subject: "geography",
+      title: "Karst Regions / Limestone Landscapes",
+      learningOutcomes: [
+        {
+          id: "geo5-1",
+          code: "5.1",
+          title: "Limestone Pavement Formation",
+          notes: [
+            { h: "Formation of Limestone Pavement", b: "Limestone is a stratified sedimentary rock — contains joints, bedding planes and fissures that allow water to percolate through. Glaciers removed the soil cover — exposing bare limestone to exogenic (surface) forces. Limestone is permeable — water passes through it, dissolving the calcium carbonate through carbonation." },
+            { h: "Carbonation Process on the Pavement", b: "Rainwater absorbs CO₂ from the atmosphere to form weak carbonic acid. Acid reacts with calcium carbonate in the limestone — dissolving the rock along joints and bedding planes. Joints are widened by dissolution into grikes — the remaining raised blocks are called clints. Carbonation continues on the surface of clints — forming shallow channels called karrens; as water runs off the edge it creates flutings." },
+            { h: "Dolines", b: "Solution doline: water runs across a joint and progressively dissolves the rock — forming a funnel-shaped pit that deepens over time. Collapse doline: underlying cavity grows until the roof collapses — forms steep-walled circular hollows; common in Ireland. Both features are characteristic surface landforms of karst landscapes." },
+            { h: "Swallow Holes & Caves", b: "Swallow holes (sinkholes): funnel-shaped surface features where a river disappears underground into the cave system. Cave systems form as water flows from swallow holes through the rock — carbonation, solution and hydraulic action carve out large caverns. Stalactites form on cave ceilings — calcite deposited as mineral-rich water evaporates, building downward slowly over thousands of years. Stalagmites form on cave floors — calcite drips down and accumulates upward; pillars form when both join." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Explain how chemical weathering has shaped the limestone pavement in a karst region.", model: "Formation of Limestone Pavement: Limestone is a stratified sedimentary rock containing joints, bedding planes and fissures. Glaciers removed the soil cover — exposing bare limestone. Limestone is permeable — water percolates through, dissolving calcium carbonate. Carbonation Process: Rainwater absorbs CO₂ to form weak carbonic acid. Acid reacts with calcium carbonate — dissolving rock along joints and bedding planes. Joints widened into grikes; remaining raised blocks are clints. Karrens (shallow channels) form on clint surfaces; flutings form where water runs off edges. Dolines: Solution doline — water dissolves a joint, forming a funnel-shaped pit deepening over time. Collapse doline — underlying cavity collapses, forming steep-walled circular hollow; common in Ireland. Swallow Holes and Caves: Swallow holes — surface features where rivers disappear underground. Cave systems carved by carbonation, solution and hydraulic action. Stalactites form on ceilings (calcite deposits, ~1 cm per 100 years). Stalagmites form on floors — pillars form when both join." }
+          ]
+        },
+        {
+          id: "geo5-2",
+          code: "5.2",
+          title: "Underground Karst Landforms",
+          notes: [
+            { h: "How Cave Systems Form", b: "Swallow holes provide an entry point for surface water into the limestone bedrock. Carbonation dissolves the calcium carbonate along joints and bedding planes — gradually enlarging passages into cave systems. Hydraulic action of flowing water erodes the cave floor and walls — increasing the volume of the cave over time. Most karst caves form below the water table (zone of saturation) — the greater the water volume, the faster the cave develops." },
+            { h: "Stalactites", b: "Mineral-rich (calcium carbonate) water seeps through the cave ceiling. Water evaporates — leaving a tiny deposit of calcite behind. Repeated over thousands of years — calcite builds up into a spike hanging from the ceiling (stalactite). Growth is extremely slow — ~1 cm per 100 years in most cases." },
+            { h: "Stalagmites and Pillars", b: "Calcium carbonate-rich water drips to the cave floor and evaporates — building a column upward (stalagmite). Curtains form when water runs in a thin sheet along a sloping ceiling — depositing a thin wavy sheet of calcite. When a stalactite and stalagmite meet they form a pillar — a complete calcite column from floor to ceiling. Aillwee Cave, Co. Clare — one of Ireland's oldest known cave systems, formed in the Burren limestone; open to tourists; shows all these features." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "With reference to the Irish landscape, examine the processes which have influenced the development of an underground landform in a karst region.", model: "Cave Formation: Swallow holes provide entry for surface water into limestone bedrock. Carbonation dissolves calcium carbonate along joints and bedding planes — enlarging passages into cave systems. Hydraulic action erodes cave floor and walls — increasing volume. Most karst caves form below the water table — greater water volume, faster development. Stalactites: Mineral-rich (calcium carbonate) water seeps through cave ceiling. Water evaporates — tiny calcite deposit left behind. Repeated over thousands of years — builds into spike hanging from ceiling. Growth rate: ~1 cm per 100 years. Stalagmites and Pillars: Calcium carbonate-rich water drips to cave floor and evaporates — builds column upward (stalagmite). Curtains form when water runs in thin sheet along sloping ceiling — thin wavy calcite sheet. When stalactite and stalagmite meet — pillar forms (complete column, floor to ceiling). Aillwee Cave, Co. Clare — oldest known cave system in Ireland, formed in Burren limestone; shows all these features." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo5-eq-1",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo4", questionTitle: "Explain one process of physical and one process of chemical weathering — carbonation" }
+          ],
+          parts: [
+            { label: "Q1.", question: "Explain how chemical weathering has shaped the limestone pavement in a karst region.", marks: 30, model: "Formation of Limestone Pavement: Limestone is a stratified sedimentary rock containing joints, bedding planes and fissures. Glaciers removed the soil cover — exposing bare limestone. Limestone is permeable — water percolates through, dissolving calcium carbonate. Carbonation Process: Rainwater absorbs CO₂ to form weak carbonic acid. Acid reacts with calcium carbonate — dissolving rock along joints and bedding planes. Joints widened into grikes; remaining raised blocks are clints. Karrens (shallow channels) form on clint surfaces; flutings form where water runs off edges. Dolines: Solution doline — water dissolves a joint, forming a funnel-shaped pit deepening over time. Collapse doline — underlying cavity collapses, forming steep-walled circular hollow; common in Ireland. Swallow Holes and Caves: Swallow holes — surface features where rivers disappear underground. Cave systems carved by carbonation, solution and hydraulic action. Stalactites form on ceilings (calcite deposits, ~1 cm per 100 years). Stalagmites form on floors — pillars form when both join." }
+          ]
+        },
+        {
+          id: "geo5-eq-2",
+          source: "LC Geography — Sample 2010",
+          appliesTo: [
+            { chapterId: "geo4", questionTitle: "Explain one process of physical and one process of chemical weathering — carbonation" }
+          ],
+          parts: [
+            { label: "Q2.", question: "With reference to the Irish landscape, examine the processes which have influenced the development of an underground landform in a karst region.", marks: 30, model: "Cave Formation: Swallow holes provide entry for surface water into limestone bedrock. Carbonation dissolves calcium carbonate along joints and bedding planes — enlarging passages into cave systems. Hydraulic action erodes cave floor and walls — increasing volume. Most karst caves form below the water table — greater water volume, faster development. Stalactites: Mineral-rich (calcium carbonate) water seeps through cave ceiling. Water evaporates — tiny calcite deposit left behind. Repeated over thousands of years — builds into spike hanging from ceiling. Growth rate: ~1 cm per 100 years. Stalagmites and Pillars: Calcium carbonate-rich water drips to cave floor and evaporates — builds column upward (stalagmite). Curtains form when water runs in thin sheet along sloping ceiling — thin wavy calcite sheet. When stalactite and stalagmite meet — pillar forms (complete column, floor to ceiling). Aillwee Cave, Co. Clare — oldest known cave system in Ireland, formed in Burren limestone; shows all these features." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 6 =================== */
+    {
+      id: "geo6",
+      number: 6,
+      subject: "geography",
+      title: "Surface Processes — Rivers, Coasts & Mass Movement",
+      learningOutcomes: [
+        {
+          id: "geo6-1",
+          code: "6.1",
+          title: "Erosion — Meander Formation",
+          notes: [
+            { h: "River Erosion Processes", b: "Hydraulic action: force of moving water dislodges loose material from the river bed and banks. Abrasion: sediment carried by the river scrapes and wears down the bed and banks like sandpaper. Solution: slightly acidic river water dissolves soluble minerals (e.g. limestone) from the river bed. Attrition: sediment particles collide with each other, becoming smaller and more rounded as they travel downstream." },
+            { h: "Meander Formation", b: "In the middle course of a river, lateral (sideways) erosion dominates over vertical (downward) erosion. The thalweg (fastest current) swings to the outer bank of any slight bend — erosion cuts a steep river cliff here. On the inner bank, velocity is lower — deposition of sediment forms a gentle slip-off slope (point bar). The bend is progressively accentuated — a meander develops, widening the river valley laterally." },
+            { h: "Oxbow Lake Formation", b: "Continued erosion of the outer banks of adjacent meanders narrows the neck of land between them. During a flood, the river cuts through the neck — taking the straighter, shorter course. The abandoned meander loop is cut off — sealed by deposition to form an oxbow lake. Example: River Lee, Cork — shows meander features in its middle course through the Lee Valley." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the role of erosion on the formation of a fluvial landform.", model: "River Erosion Processes: Hydraulic action — force of moving water dislodges loose material from bed and banks. Abrasion — sediment scrapes and wears down bed and banks. Solution — acidic water dissolves soluble minerals (e.g. limestone). Attrition — sediment particles collide, becoming smaller and rounder downstream. Meander Formation: In the middle course, lateral erosion dominates. Thalweg (fastest current) swings to outer bank of any slight bend — erosion cuts steep river cliff. Inner bank: lower velocity — deposition forms gentle slip-off slope (point bar). Bend progressively accentuated — meander develops, widening valley. Oxbow Lake: Continued erosion narrows neck between adjacent meanders. During flood, river cuts through neck — shorter, straighter course. Abandoned meander loop cut off — sealed by deposition to form oxbow lake. Example: River Lee, Cork." }
+          ]
+        },
+        {
+          id: "geo6-2",
+          code: "6.2",
+          title: "Deposition — Beach and Spit Formation",
+          notes: [
+            { h: "Coastal Deposition Processes", b: "Longshore drift: waves approach the shore at an angle (driven by prevailing wind) — swash carries sediment up the beach at the same angle. Backwash returns directly down the slope under gravity — net movement of sediment along the coast. When energy is reduced (sheltered bay, change in coastal direction), sediment is deposited." },
+            { h: "Beach Formation", b: "Beaches form in sheltered bays where wave energy is low enough for deposition to exceed erosion. Constructive waves (low frequency, strong swash) build beaches up by depositing sand and shingle. Beach material is graded — coarser material near the back of the beach, finer material at the waterline. Storm beaches form ridges of coarser material above the normal high tide line — deposited by high-energy storm waves." },
+            { h: "Spit Formation", b: "Where the coastline changes direction abruptly, longshore drift continues to carry sediment in the original direction. Sediment is deposited in open water — extending as a narrow ridge of sand or shingle called a spit. Waves refract around the tip of the spit — causing it to curve into a hooked or recurved end. Sheltered water behind the spit allows mud and vegetation to accumulate — eventually forming a salt marsh. Example: Inch Spit, Co. Kerry — formed by longshore drift extending into Dingle Bay." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the role of deposition on the formation of a coastal landform.", model: "Coastal Deposition Processes: Longshore drift — waves approach at angle (prevailing wind); swash carries sediment up at same angle. Backwash returns directly down slope under gravity — net movement of sediment along coast. Energy reduced (sheltered bay, change in direction) — sediment deposited. Beach Formation: Beaches form in sheltered bays where deposition exceeds erosion. Constructive waves (low frequency, strong swash) build beaches. Beach material graded — coarser at back, finer at waterline. Storm beaches: ridges of coarser material above high tide line from storm waves. Spit Formation: Where coastline changes direction abruptly, longshore drift continues in original direction. Sediment deposited in open water — extends as narrow ridge (spit). Waves refract around tip — spit curves into hooked or recurved end. Sheltered water behind spit allows mud and vegetation — eventually salt marsh forms. Example: Inch Spit, Co. Kerry — extends into Dingle Bay." }
+          ]
+        },
+        {
+          id: "geo6-3",
+          code: "6.3",
+          title: "Human Activity — Flood Control on Rivers",
+          notes: [
+            { h: "Why Rivers Flood", b: "Natural flooding occurs when precipitation exceeds the river's capacity — occurs in lower course where the floodplain is wide. Urbanisation increases impermeable surfaces — rainwater runs off faster into rivers, increasing flood risk. Deforestation reduces interception and infiltration — more water reaches the river channel more quickly." },
+            { h: "Hard Engineering — Channel Modifications and Dams", b: "Channelisation (straightening and deepening) increases flow velocity — moves floodwater downstream more rapidly. Artificial levees (embankments) raise the bank height — contain higher water volumes within the channel. Flood walls in urban areas (e.g. Dublin City Quays) protect property — but increase risk downstream by concentrating flow. Dams hold back excess water in reservoirs — releasing it gradually to prevent flooding. Poulaphouca Reservoir, Co. Wicklow, built on the River Liffey — reduces flood risk to downstream areas including Dublin. Dams trap sediment — downstream channel is sediment-starved, increasing erosion (channel incision)." },
+            { h: "Soft Engineering", b: "Flood plain zoning: kept as open land — allows natural storage of floodwater. Wetland restoration and tree planting in catchment areas slow runoff — reducing peak discharge. Sustainable urban drainage systems (SUDS): permeable paving and retention ponds — mimic natural drainage patterns." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the impacts of flood control on river processes.", model: "Why Rivers Flood: Natural flooding — precipitation exceeds river's capacity (lower course, wide floodplain). Urbanisation: impermeable surfaces speed up runoff. Deforestation: reduces interception and infiltration — more water reaches channel faster. Hard Engineering — Channel Modifications: Channelisation (straightening/deepening) increases flow velocity — moves floodwater downstream faster. Artificial levees raise bank height — contain higher volumes. Flood walls (e.g. Dublin City Quays) protect property but increase risk downstream. Dams and Reservoirs: Dams hold back excess water — releasing gradually to prevent flooding. Poulaphouca Reservoir, Co. Wicklow (River Liffey) — reduces flood risk to Dublin. Dams trap sediment — downstream channel incision increases. Soft Engineering: Flood plain zoning — natural storage of floodwater. Wetland restoration and tree planting slow runoff — reduce peak discharge. SUDS (permeable paving and retention ponds) — mimic natural drainage." }
+          ]
+        },
+        {
+          id: "geo6-4",
+          code: "6.4",
+          title: "Mass Movement — Landslides",
+          notes: [
+            { h: "What is Mass Movement?", b: "Mass movement is the downslope movement of rock, soil or debris under the influence of gravity — no water or ice needed as a transport medium. The trigger can be natural (heavy rain, earthquakes) or human-induced (deforestation, construction, vibration from machinery)." },
+            { h: "Factors Governing Landslides", b: "Slope angle: steeper slopes increase gravitational stress on material — material more likely to fail above a critical angle. Water saturation: heavy rainfall adds weight to slope material and reduces friction between particles — known as pore water pressure. Rock/soil type: weak, impermeable rock (e.g. clay) becomes unstable when wet — impermeable layer below saturated soil acts as a slip plane. Vegetation removal: tree roots bind soil; deforestation removes this anchorage — greatly increases landslide risk." },
+            { h: "Human Factors and Consequences", b: "Road and building construction on steep slopes undercuts the natural support of the hillside — removes material from the base (toe) of the slope, triggering failure. Agricultural overgrazing strips vegetation — increases surface runoff and destabilises slope material. Example: Connemara and West Mayo — increased landslide frequency linked to overgrazing on blanket bog and peat soils. Primary consequences: direct burial of buildings, roads and infrastructure. Secondary: disruption to transport networks, contamination of water supplies." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Describe and explain the factors governing the operation of one mass movement process.", model: "Mass Movement: Downslope movement of rock, soil or debris under gravity — no water or ice needed as transport medium. Trigger: natural (heavy rain, earthquakes) or human-induced (deforestation, construction, vibration). Factors Governing Landslides: Slope angle — steeper slopes increase gravitational stress; material more likely to fail above critical angle. Water saturation — heavy rainfall adds weight and reduces friction (pore water pressure). Rock/soil type — weak, impermeable clay becomes unstable when wet; impermeable layer below saturated soil acts as slip plane. Vegetation removal — tree roots bind soil; deforestation removes anchorage, greatly increasing risk. Human Factors: Road/building construction on steep slopes undercuts hillside support — removes toe material, triggering failure. Agricultural overgrazing strips vegetation — increases runoff and destabilises slope. Example: Connemara and West Mayo — increased frequency linked to overgrazing on blanket bog. Consequences: Primary — burial of buildings and roads. Secondary — disruption to transport, water contamination." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo6-eq-1",
+          source: "LC Geography — Long Question",
+          parts: [
+            { label: "Q1.", question: "Examine the role of erosion on the formation of a fluvial landform.", marks: 30, model: "River Erosion Processes: Hydraulic action — force of moving water dislodges loose material from bed and banks. Abrasion — sediment scrapes and wears down bed and banks. Solution — acidic water dissolves soluble minerals (e.g. limestone). Attrition — sediment particles collide, becoming smaller and rounder downstream. Meander Formation: In the middle course, lateral erosion dominates. Thalweg (fastest current) swings to outer bank of any slight bend — erosion cuts steep river cliff. Inner bank: lower velocity — deposition forms gentle slip-off slope (point bar). Bend progressively accentuated — meander develops, widening valley. Oxbow Lake: Continued erosion narrows neck between adjacent meanders. During flood, river cuts through neck — shorter, straighter course. Abandoned meander loop cut off — sealed by deposition to form oxbow lake. Example: River Lee, Cork." }
+          ]
+        },
+        {
+          id: "geo6-eq-2",
+          source: "LC Geography — Long Question (Sample 2021)",
+          parts: [
+            { label: "Q2.", question: "Examine the role of deposition on the formation of a coastal landform.", marks: 30, model: "Coastal Deposition Processes: Longshore drift — waves approach at angle (prevailing wind); swash carries sediment up at same angle. Backwash returns directly down slope under gravity — net movement of sediment along coast. Energy reduced (sheltered bay, change in direction) — sediment deposited. Beach Formation: Beaches form in sheltered bays where deposition exceeds erosion. Constructive waves (low frequency, strong swash) build beaches. Beach material graded — coarser at back, finer at waterline. Storm beaches: ridges of coarser material above high tide line from storm waves. Spit Formation: Where coastline changes direction abruptly, longshore drift continues in original direction. Sediment deposited in open water — extends as narrow ridge (spit). Waves refract around tip — spit curves into hooked or recurved end. Sheltered water behind spit allows mud and vegetation — eventually salt marsh forms. Example: Inch Spit, Co. Kerry — extends into Dingle Bay." }
+          ]
+        },
+        {
+          id: "geo6-eq-3",
+          source: "LC Geography — Sample 2019",
+          parts: [
+            { label: "Q3.", question: "Examine the impacts of flood control on river processes.", marks: 30, model: "Why Rivers Flood: Natural flooding — precipitation exceeds river's capacity (lower course, wide floodplain). Urbanisation: impermeable surfaces speed up runoff. Deforestation: reduces interception and infiltration — more water reaches channel faster. Hard Engineering — Channel Modifications: Channelisation (straightening/deepening) increases flow velocity — moves floodwater downstream faster. Artificial levees raise bank height — contain higher volumes. Flood walls (e.g. Dublin City Quays) protect property but increase risk downstream. Dams and Reservoirs: Dams hold back excess water — releasing gradually to prevent flooding. Poulaphouca Reservoir, Co. Wicklow (River Liffey) — reduces flood risk to Dublin. Dams trap sediment — downstream channel incision increases. Soft Engineering: Flood plain zoning — natural storage of floodwater. Wetland restoration and tree planting slow runoff — reduce peak discharge. SUDS (permeable paving and retention ponds) — mimic natural drainage." }
+          ]
+        },
+        {
+          id: "geo6-eq-4",
+          source: "LC Geography — Sample 2022",
+          parts: [
+            { label: "Q4.", question: "Describe and explain the factors governing the operation of one mass movement process.", marks: 30, model: "Mass Movement: Downslope movement of rock, soil or debris under gravity — no water or ice needed as transport medium. Trigger: natural (heavy rain, earthquakes) or human-induced (deforestation, construction, vibration). Factors Governing Landslides: Slope angle — steeper slopes increase gravitational stress; material more likely to fail above critical angle. Water saturation — heavy rainfall adds weight and reduces friction (pore water pressure). Rock/soil type — weak, impermeable clay becomes unstable when wet; impermeable layer below saturated soil acts as slip plane. Vegetation removal — tree roots bind soil; deforestation removes anchorage, greatly increasing risk. Human Factors: Road/building construction on steep slopes undercuts hillside support — removes toe material, triggering failure. Agricultural overgrazing strips vegetation — increases runoff and destabilises slope. Example: Connemara and West Mayo — increased frequency linked to overgrazing on blanket bog. Consequences: Primary — burial of buildings and roads. Secondary — disruption to transport, water contamination." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 7 =================== */
+    {
+      id: "geo7",
+      number: 7,
+      subject: "geography",
+      title: "Concept of a Region / Regional Geography",
+      learningOutcomes: [
+        {
+          id: "geo7-1",
+          code: "7.1",
+          title: "Defining a Climatic Region",
+          notes: [
+            { h: "Defining a Climatic Region", b: "A climatic region is defined by average weather conditions recorded over a long period of time. Ireland has a cool temperate oceanic climate — shaped primarily by the Atlantic Ocean and its proximity to it." },
+            { h: "Ireland's Climate — Main Influences", b: "The Atlantic Ocean regulates temperature — preventing the extremes of heat and cold experienced at similar latitudes inland. The North Atlantic Drift carries warm water from the Gulf of Mexico — makes Irish winters milder than those of continental Europe. Prevailing winds come from the southwest — blow over the warm Atlantic, carrying heat and moisture; Ireland's damp climate results from this." },
+            { h: "Variation Within Ireland and France", b: "The west of Ireland receives significantly more precipitation than the east — Atlantic moisture released as relief rain when air rises over western mountains. Ireland sits on a polar front — frontal depressions bring heavy rainfall nationally. East coast: drier, sunnier — Dublin averages ~700 mm rainfall per year vs. 1,200+ mm in Connacht. Paris Basin: two sub-climatic regions — cool temperate oceanic (west) and cool temperate continental (east). Continental areas have colder winters, warmer summers and convectional rainfall — ideal for wheat and maize." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine how climate can be used to define regions, with reference to examples.", model: "Defining a Climatic Region: Defined by average weather conditions recorded over a long period. Ireland: cool temperate oceanic climate — shaped by the Atlantic Ocean. Ireland's Climate Influences: Atlantic Ocean regulates temperature — prevents extremes. North Atlantic Drift carries warm water from Gulf of Mexico — Irish winters milder than continental Europe. Prevailing southwest winds carry heat and moisture — Ireland's damp climate. Variation in Ireland: West receives much more precipitation — Atlantic moisture released as relief rain over western mountains. Ireland sits on polar front — frontal depressions bring heavy rainfall. East coast: Dublin ~700 mm per year vs. 1,200+ mm in Connacht. France — Paris Basin: cool temperate oceanic (west) vs. cool temperate continental (east). Continental areas: colder winters, warmer summers, convectional rainfall — ideal for wheat and maize. Transitional zone in middle." }
+          ]
+        },
+        {
+          id: "geo7-2",
+          code: "7.2",
+          title: "Defining a Language/Cultural Region",
+          notes: [
+            { h: "Defining a Language Region", b: "A language region is an area defined by its dominant spoken or written language — can exist within or across national borders. Language regions reflect historical, political and cultural forces rather than physical geography." },
+            { h: "The Gaeltacht — Ireland", b: "Gaeltacht regions are officially recognised areas where Irish is the primary spoken language — first designated by the Irish Free State in the 1920s. The language declined due to British plantation policies and the Great Famine — a million died, a million emigrated; most Irish speakers were in the west. English is more economically valuable internationally — Irish continues to decline despite government revival policies. The government funds TG4, Irish-medium schools (Gaelscoileanna) and Údarás na Gaeltachta to support language regions." },
+            { h: "Belgium — Language Regions", b: "Belgium is divided into four language communities: Flanders (Dutch), Wallonia (French), Ostbelgien (German) and Brussels (bilingual). Dutch, French and German are co-equal official languages written into law — creating distinct cultural and administrative regions. Historical economic divide: Wallonia was wealthier (coal-based industry) but declined in the 20th century as world shifted to oil — Flanders became wealthier; economic division deepens cultural tension. Belgium became a federal state to reduce tensions — national parliament handles foreign policy; regional parliaments handle education, policing and local affairs." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine how language can be used to define cultural regions.", model: "Defining a Language Region: An area defined by its dominant spoken or written language — can exist within or across national borders. Language regions reflect historical, political and cultural forces. The Gaeltacht — Ireland: Officially recognised areas where Irish is the primary language — designated in the 1920s. Declined due to British plantation policies and the Great Famine — a million died, a million emigrated; most Irish speakers were in the west. English more economically valuable — Irish continues to decline. Government funds TG4, Gaelscoileanna and Údarás na Gaeltachta. Belgium — Language Regions: Four language communities: Flanders (Dutch), Wallonia (French), Ostbelgien (German), Brussels (bilingual). Three co-equal official languages written into law — distinct cultural and administrative regions. Historical divide: Wallonia (coal-based industry) wealthy but declined; Flanders became wealthier as world shifted to oil. Belgium became a federal state — national parliament for foreign policy; regional parliaments for education, policing, local affairs." }
+          ]
+        },
+        {
+          id: "geo7-3",
+          code: "7.3",
+          title: "Defining a Geomorphological Region",
+          notes: [
+            { h: "Defining a Geomorphological Region", b: "A geomorphological region is defined by shared physical landform characteristics — rock type, relief, soils, and drainage pattern. Tectonic history and erosion/deposition processes determine these features over millions of years." },
+            { h: "Paris Basin — Geomorphology", b: "The Paris Basin is a large synclinal structure — layers of sedimentary rock (limestone, chalk) formed when the area was submerged under a shallow sea. The basin shape results from compaction and slight folding — rock layers dip toward the centre from all sides. Around the basin edges, denudation exposed tilted sedimentary rocks — forming steep-faced escarpments (e.g. the Champagne chalk escarpments). The gently sloping terrain of the basin interior defines it as an arable farming region — mechanisation possible on flat lowlands." },
+            { h: "West of Ireland — Geomorphology", b: "The western seaboard is characterised by mountainous terrain — upland areas formed during the Caledonian and Armorican orogenies. The eastern part of the region is flatter and lower-lying — divided from the west by the uplands. Glacial processes removed upper soil layers and deposited peat, gley and podzol soils — defining a region of poor drainage and low agricultural productivity. The coastline is highly indented with bays, headlands and drumlins — a geomorphological fingerprint of glacial deposition and Atlantic wave erosion." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine how geomorphology can be used to define regions.", model: "Defining a Geomorphological Region: Defined by shared physical landform characteristics — rock type, relief, soils, drainage pattern. Tectonic history and erosion/deposition processes determine features over millions of years. Paris Basin: Large synclinal structure — sedimentary rock (limestone, chalk) from shallow sea submersion. Basin shape from compaction and folding — rock layers dip toward centre from all sides. Denudation around basin edges exposed tilted rocks — steep-faced escarpments (Champagne chalk). Gently sloping terrain: arable farming region — mechanisation possible on flat lowlands. West of Ireland: Mountainous terrain — upland areas from Caledonian and Armorican orogenies. Eastern part flatter and lower-lying. Glacial processes deposited peat, gley and podzol soils — poor drainage, low agricultural productivity. Coastline highly indented with bays, headlands and drumlins — fingerprint of glacial deposition and Atlantic wave erosion." }
+          ]
+        },
+        {
+          id: "geo7-4",
+          code: "7.4",
+          title: "Causes and Impacts of Industrial Decline",
+          notes: [
+            { h: "Causes of Decline — Belfast", b: "Belfast developed during the Industrial Revolution — linen and shipbuilding industries (e.g. Harland and Wolff) dominated the economy. Post-WW1: unemployment rose to 23% — global demand for ships fell, hitting Belfast's core industry. Post-WW2 decline compounded by The Troubles (1960s–1990s) — political instability deterred foreign investment and destroyed consumer confidence. Globalisation shifted manufacturing to lower-cost economies — Belfast's traditional industries could not compete." },
+            { h: "Causes of Decline — West of Ireland", b: "The West is a peripheral region with poor transport infrastructure — mountainous terrain made road and rail construction expensive. The small labour force and low population density made it unattractive for foreign direct investment (FDI). Brain drain: educated young people leave for the GDA or abroad — reducing the skilled workforce. Legacy industries (food processing, timber) dominate — limited high-value manufacturing due to lack of raw materials." },
+            { h: "Impacts of Industrial Decline", b: "Unemployment rises — increased dependence on social welfare; poverty and social deprivation in affected areas. Outward migration — working-age population leaves; ageing population remains; declining tax base reduces public services investment. Urban dereliction — abandoned factory sites, vacant town centres, deteriorating housing. Recovery possible: Belfast's Titanic Quarter redeveloped as a tourism and education hub; West supported by EU funds and IDA initiatives attracting companies such as Boston Scientific and Pfizer." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the causes and impacts of industrial decline with reference to any region that you have studied.", model: "Causes — Belfast: Industrial Revolution — linen and shipbuilding (Harland and Wolff). Post-WW1: unemployment rose to 23%, global demand for ships fell. Post-WW2: The Troubles (1960s–1990s) deterred investment. Globalisation shifted manufacturing to lower-cost economies. Causes — West of Ireland: Peripheral region — poor transport infrastructure (mountainous terrain expensive). Small labour force and low population density unattractive for FDI. Brain drain: educated young people leave for GDA or abroad. Legacy industries (food processing, timber) dominate — limited high-value manufacturing. Impacts: Unemployment rises — increased social welfare dependence; poverty and deprivation. Outward migration — ageing population; declining tax base. Urban dereliction — abandoned factories, vacant town centres. Recovery: Belfast's Titanic Quarter — tourism and education hub. West: EU funds and IDA attracting companies (Boston Scientific, Pfizer)." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo7-eq-1",
+          source: "LC Geography — Long Question",
+          parts: [
+            { label: "Q1.", question: "Examine how climate can be used to define regions, with reference to examples.", marks: 30, model: "Defining a Climatic Region: Defined by average weather conditions recorded over a long period. Ireland: cool temperate oceanic climate — shaped by the Atlantic Ocean. Ireland's Climate Influences: Atlantic Ocean regulates temperature — prevents extremes. North Atlantic Drift carries warm water from Gulf of Mexico — Irish winters milder than continental Europe. Prevailing southwest winds carry heat and moisture — Ireland's damp climate. Variation in Ireland: West receives much more precipitation — Atlantic moisture released as relief rain over western mountains. Ireland sits on polar front — frontal depressions bring heavy rainfall. East coast: Dublin ~700 mm per year vs. 1,200+ mm in Connacht. France — Paris Basin: cool temperate oceanic (west) vs. cool temperate continental (east). Continental areas: colder winters, warmer summers, convectional rainfall — ideal for wheat and maize. Transitional zone in middle." }
+          ]
+        },
+        {
+          id: "geo7-eq-2",
+          source: "LC Geography — Long Question",
+          parts: [
+            { label: "Q2.", question: "Examine how language can be used to define cultural regions.", marks: 30, model: "Defining a Language Region: An area defined by its dominant spoken or written language — can exist within or across national borders. Language regions reflect historical, political and cultural forces. The Gaeltacht — Ireland: Officially recognised areas where Irish is the primary language — designated in the 1920s. Declined due to British plantation policies and the Great Famine — a million died, a million emigrated; most Irish speakers were in the west. English more economically valuable — Irish continues to decline. Government funds TG4, Gaelscoileanna and Údarás na Gaeltachta. Belgium — Language Regions: Four language communities: Flanders (Dutch), Wallonia (French), Ostbelgien (German), Brussels (bilingual). Three co-equal official languages written into law — distinct cultural and administrative regions. Historical divide: Wallonia (coal-based industry) wealthy but declined; Flanders became wealthier as world shifted to oil. Belgium became a federal state — national parliament for foreign policy; regional parliaments for education, policing, local affairs." }
+          ]
+        },
+        {
+          id: "geo7-eq-3",
+          source: "LC Geography — Long Question",
+          parts: [
+            { label: "Q3.", question: "Examine how geomorphology can be used to define regions.", marks: 30, model: "Defining a Geomorphological Region: Defined by shared physical landform characteristics — rock type, relief, soils, drainage pattern. Tectonic history and erosion/deposition processes determine features over millions of years. Paris Basin: Large synclinal structure — sedimentary rock (limestone, chalk) from shallow sea submersion. Basin shape from compaction and folding — rock layers dip toward centre from all sides. Denudation around basin edges exposed tilted rocks — steep-faced escarpments (Champagne chalk). Gently sloping terrain: arable farming region — mechanisation possible on flat lowlands. West of Ireland: Mountainous terrain — upland areas from Caledonian and Armorican orogenies. Eastern part flatter and lower-lying. Glacial processes deposited peat, gley and podzol soils — poor drainage, low agricultural productivity. Coastline highly indented with bays, headlands and drumlins — fingerprint of glacial deposition and Atlantic wave erosion." }
+          ]
+        },
+        {
+          id: "geo7-eq-4",
+          source: "LC Geography — Sample 2015",
+          appliesTo: [
+            { chapterId: "geo8", questionTitle: "Examine factors that influenced the development of tourism in an Irish region" },
+            { chapterId: "geo8", questionTitle: "Examine how economic activity in core and peripheral regions differs" },
+            { chapterId: "geo8", questionTitle: "Examine factors that influence the development of agriculture in two contrasting Irish regions" }
+          ],
+          parts: [
+            { label: "Q4.", question: "Examine the causes and impacts of industrial decline with reference to any region that you have studied.", marks: 30, model: "Causes — Belfast: Industrial Revolution — linen and shipbuilding (Harland and Wolff). Post-WW1: unemployment rose to 23%, global demand for ships fell. Post-WW2: The Troubles (1960s–1990s) deterred investment. Globalisation shifted manufacturing to lower-cost economies. Causes — West of Ireland: Peripheral region — poor transport infrastructure (mountainous terrain expensive). Small labour force and low population density unattractive for FDI. Brain drain: educated young people leave for GDA or abroad. Legacy industries (food processing, timber) dominate — limited high-value manufacturing. Impacts: Unemployment rises — increased social welfare dependence; poverty and deprivation. Outward migration — ageing population; declining tax base. Urban dereliction — abandoned factories, vacant town centres. Recovery: Belfast's Titanic Quarter — tourism and education hub. West: EU funds and IDA attracting companies (Boston Scientific, Pfizer)." }
+          ]
+        }
+      ]
+    },
+
+    /* =================== LC GEOGRAPHY CHAPTER 8 =================== */
+    {
+      id: "geo8",
+      number: 8,
+      subject: "geography",
+      title: "Economic Activity & Social-Economic Regions",
+      learningOutcomes: [
+        {
+          id: "geo8-1",
+          code: "8.1",
+          title: "Tourism in Irish Regions — GDA and West of Ireland",
+          notes: [
+            { h: "Tourist Attractions — GDA", b: "GDA: 11 million visitors per year; earns ~€6 billion annually — Dublin Castle, Guinness Storehouse, Trinity College attract year-round visitors (not weather-dependent). Benefits from events tourism — concerts, sports, conferences; also strong retail tourism (~€1 billion per year). 250,000 people in the GDA are employed in tourism-related industries." },
+            { h: "Tourist Attractions — West of Ireland", b: "Wild Atlantic Way (founded 2014) is one of the world's longest defined coastal routes — attracted almost €2 billion in tourist spending in 2019. The Gaeltacht attracts 30,000 Irish language students per year — a unique cultural tourism asset." },
+            { h: "Transport Infrastructure — GDA and West", b: "GDA: Dublin Airport is the primary international gateway — brings in the vast majority of overseas tourists; Luas and DART expanded to serve tourism. The M50 was upgraded — NDP (2006) drove major infrastructure development in the GDA. West of Ireland: transport is underdeveloped — mainly car-dependent; limited railway; mountainous terrain makes road construction expensive. Knock Airport has no freight services; only one motorway (M6). Despite this, Galway City is the most visited part of the West — Airbnb market has expanded significantly." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine two factors that have influenced the development of tourism in an Irish region.", model: "Factor 1 — Tourist Attractions: GDA: 11 million visitors/year, ~€6 billion earned annually — Dublin Castle, Guinness Storehouse, Trinity College. Events tourism (concerts, sports, conferences) and retail tourism (~€1 billion/year). 250,000 employed in tourism. West: Wild Atlantic Way (2014) — one of world's longest coastal routes; ~€2 billion tourist spending in 2019. Gaeltacht attracts 30,000 Irish language students/year — unique cultural tourism asset. Factor 2 — Transport Infrastructure: GDA: Dublin Airport is primary international gateway — brings vast majority of overseas tourists. Luas and DART expanded; M50 upgraded — NDP (2006) drove development. West: underdeveloped transport — mainly car-dependent; limited railway. Knock Airport: no freight, one motorway (M6); mountainous terrain expensive for construction. Despite this, Galway City is most visited in the West — Airbnb has expanded significantly, providing local economic benefit." }
+          ]
+        },
+        {
+          id: "geo8-2",
+          code: "8.2",
+          title: "Core vs Peripheral Regions — GDA and West of Ireland",
+          notes: [
+            { h: "Primary Activity — GDA (Core) vs West (Peripheral)", b: "GDA: fertile brown earth soils, gently rolling lowlands, 700 mm annual rainfall — ideal for commercial arable farming. Farms large, mechanised, commercially profitable. Co. Kildare's horse breeding industry globally competitive — well-drained limestone soils. West: peat, gley and podzol soils — poor drainage, prone to waterlogging. Mountainous terrain prevents mechanisation — small, semi-subsistence farms; ~50% rely on income outside farming. Average farmer income in the West is €20,000 less than in the GDA — heavily dependent on EU farm grants." },
+            { h: "Secondary Activity — Core vs Peripheral", b: "GDA: attracts vast majority of Ireland's FDI — 19 of world's 20 largest pharmaceutical companies have a presence in Ireland, most based in the GDA; Ireland exports €100+ billion in pharma annually. GDA has highly educated workforce (multiple universities), well-developed transport (M50, Dublin Airport, port) and population of 2.1 million — attractive to multinationals. West: industrial job growth 20% per year in Galway — above national average — but from a low base. West struggles: poor transport (one motorway), small labour force, brain drain of graduates." },
+            { h: "Tertiary Activity — Core vs Peripheral", b: "GDA: 11 million tourists/year, €6 billion revenue, 250,000 employed in tourism — well-developed hospitality, retail and financial services. West: tourism growing (Wild Atlantic Way) but employment in services limited by low population density and poor infrastructure. Core regions benefit from agglomeration — services cluster together, reducing costs and attracting further business; peripheral regions lack this self-reinforcing economic dynamic." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Economic activity in core regions differs from those in peripheral regions. Examine this statement with reference to examples.", model: "Primary Activity — GDA (Core): Fertile brown earth soils, gently rolling lowlands, 700 mm rainfall — ideal for commercial arable farming. Large, mechanised, commercially profitable farms. Co. Kildare horse breeding globally competitive. Primary Activity — West (Peripheral): Peat, gley and podzol soils — poor drainage, waterlogging. Mountainous terrain prevents mechanisation — small, semi-subsistence farms; ~50% rely on outside income. Average income €20,000 less than GDA; heavily dependent on EU farm grants. Secondary Activity — GDA: Majority of Ireland's FDI — 19 of world's 20 largest pharma companies in Ireland, most in GDA; €100+ billion in pharma exports annually. Educated workforce, strong infrastructure, 2.1 million population. West: Industrial job growth 20%/year in Galway but from low base; poor transport, small labour force, brain drain. Tertiary Activity: GDA: 11 million tourists/year, €6 billion revenue, 250,000 employed. West: tourism growing (Wild Atlantic Way) but employment limited. Core regions benefit from agglomeration — services cluster, reducing costs; peripheral regions lack this dynamic." }
+          ]
+        },
+        {
+          id: "geo8-3",
+          code: "8.3",
+          title: "Agriculture in Contrasting Irish Regions",
+          notes: [
+            { h: "Physical Factors — GDA and West", b: "GDA: gently rolling lowlands — ideal for mechanisation; fertile brown earth soils with low leaching risk — high calcium content supports grain, potato and horticulture. Cool temperate oceanic climate — 700 mm rainfall, mild winters, warm summers; good growing season. West: mountainous terrain — steep slopes prevent machinery; peat, gley and podzol soils — poor drainage, prone to waterlogging. Higher rainfall (1,200+ mm) — soils become saturated; leaching removes minerals, reducing fertility." },
+            { h: "Socio-Economic Factors — GDA and West", b: "GDA: population of 2.1 million — largest internal market; average disposable income 17% above national average. Majority of GDA farms profitable; younger farmers adopting modern practices; larger farm sizes allow machinery investment. Excellent road, rail and port networks — produce reaches markets quickly. West: peripheral location — distant from major markets; low population density; Galway Harbour only port but poorly positioned for European trade. Average income €20,000 below GDA farmers; most rely on EU grants; labour unattractive to young people. Underdeveloped roads — one motorway (M6); mountainous terrain makes construction expensive." }
+          ],
+          questions: [
+            { type: "short", marks: 30, prompt: "Examine the factors that influence the development of agriculture in two contrasting Irish regions.", model: "Physical Factors — GDA: Relief: gently rolling lowlands — ideal for mechanisation; combine harvesters used effectively. Soils: fertile brown earth with low leaching risk — high calcium content supports grain, potato and horticulture. Climate: cool temperate oceanic — 700 mm rainfall, mild winters, warm summers; good growing season. Physical Factors — West: Relief: mountainous — steep slopes prevent machinery; exposed to wind, rain and lower temperatures. Soils: peat, gley and podzol — poor drainage, waterlogging and flooding; unsuitable for most arable crops. Climate: higher rainfall (1,200+ mm) — soils saturated; leaching removes minerals, reducing fertility. Socio-Economic — GDA: Population of 2.1 million — largest internal market; disposable income 17% above national average. Commercialised farming: majority profitable; younger farmers adopt modern practices; larger farms allow investment. Excellent road, rail and port networks — produce reaches markets quickly. Socio-Economic — West: Peripheral — distant from markets; low population density; Galway Harbour only port but poorly positioned for European trade. Average income €20,000 below GDA; most rely on EU grants. Roads underdeveloped — one motorway (M6); mountainous terrain expensive." }
+          ]
+        }
+      ],
+      examQuestions: [
+        {
+          id: "geo8-eq-1",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo7", questionTitle: "Examine the causes and impacts of industrial decline — GDA and West of Ireland data" }
+          ],
+          parts: [
+            { label: "Q1.", question: "Examine two factors that have influenced the development of tourism in an Irish region.", marks: 30, model: "Factor 1 — Tourist Attractions: GDA: 11 million visitors/year, ~€6 billion earned annually — Dublin Castle, Guinness Storehouse, Trinity College. Events tourism (concerts, sports, conferences) and retail tourism (~€1 billion/year). 250,000 employed in tourism. West: Wild Atlantic Way (2014) — one of world's longest coastal routes; ~€2 billion tourist spending in 2019. Gaeltacht attracts 30,000 Irish language students/year — unique cultural tourism asset. Factor 2 — Transport Infrastructure: GDA: Dublin Airport is primary international gateway — brings vast majority of overseas tourists. Luas and DART expanded; M50 upgraded — NDP (2006) drove development. West: underdeveloped transport — mainly car-dependent; limited railway. Knock Airport: no freight, one motorway (M6); mountainous terrain expensive for construction. Despite this, Galway City is most visited in the West — Airbnb has expanded significantly, providing local economic benefit." }
+          ]
+        },
+        {
+          id: "geo8-eq-2",
+          source: "LC Geography — Long Question",
+          appliesTo: [
+            { chapterId: "geo7", questionTitle: "Examine the causes and impacts of industrial decline — GDA and West of Ireland data" }
+          ],
+          parts: [
+            { label: "Q2.", question: "Economic activity in core regions differs from those in peripheral regions. Examine this statement with reference to examples.", marks: 30, model: "Primary Activity — GDA (Core): Fertile brown earth soils, gently rolling lowlands, 700 mm rainfall — ideal for commercial arable farming. Large, mechanised, commercially profitable farms. Co. Kildare horse breeding globally competitive. Primary Activity — West (Peripheral): Peat, gley and podzol soils — poor drainage, waterlogging. Mountainous terrain prevents mechanisation — small, semi-subsistence farms; ~50% rely on outside income. Average income €20,000 less than GDA; heavily dependent on EU farm grants. Secondary Activity — GDA: Majority of Ireland's FDI — 19 of world's 20 largest pharma companies in Ireland, most in GDA; €100+ billion in pharma exports annually. Educated workforce, strong infrastructure, 2.1 million population. West: Industrial job growth 20%/year in Galway but from low base; poor transport, small labour force, brain drain. Tertiary Activity: GDA: 11 million tourists/year, €6 billion revenue, 250,000 employed. West: tourism growing (Wild Atlantic Way) but employment limited. Core regions benefit from agglomeration — services cluster, reducing costs; peripheral regions lack this dynamic." }
+          ]
+        },
+        {
+          id: "geo8-eq-3",
+          source: "LC Geography — Sample 2018",
+          appliesTo: [
+            { chapterId: "geo7", questionTitle: "Examine the causes and impacts of industrial decline — GDA and West of Ireland data" }
+          ],
+          parts: [
+            { label: "Q3.", question: "Examine the factors that influence the development of agriculture in two contrasting Irish regions.", marks: 30, model: "Physical Factors — GDA: Relief: gently rolling lowlands — ideal for mechanisation; combine harvesters used effectively. Soils: fertile brown earth with low leaching risk — high calcium content supports grain, potato and horticulture. Climate: cool temperate oceanic — 700 mm rainfall, mild winters, warm summers; good growing season. Physical Factors — West: Relief: mountainous — steep slopes prevent machinery; exposed to wind, rain and lower temperatures. Soils: peat, gley and podzol — poor drainage, waterlogging and flooding; unsuitable for most arable crops. Climate: higher rainfall (1,200+ mm) — soils saturated; leaching removes minerals, reducing fertility. Socio-Economic — GDA: Population of 2.1 million — largest internal market; disposable income 17% above national average. Commercialised farming: majority profitable; younger farmers adopt modern practices; larger farms allow investment. Excellent road, rail and port networks — produce reaches markets quickly. Socio-Economic — West: Peripheral — distant from markets; low population density; Galway Harbour only port but poorly positioned for European trade. Average income €20,000 below GDA; most rely on EU grants. Roads underdeveloped — one motorway (M6); mountainous terrain expensive." }
+          ]
+        }
+      ]
     }
   ]
 };

@@ -49,6 +49,12 @@ const BIOLOGY_SUBJECT = {
   chapters: buildSubjectChapters("biology"),
 };
 
+const GEOGRAPHY_SUBJECT = {
+  id: "geography",
+  title: "Geography",
+  chapters: buildSubjectChapters("geography"),
+};
+
 function buildOutcomes(ch) {
   const vocab = chapterVocabulary(ch);
   return [
@@ -235,6 +241,7 @@ const SUBJECTS = [
   BUSINESS_SUBJECT,
   PE_SUBJECT,
   BIOLOGY_SUBJECT,
+  GEOGRAPHY_SUBJECT,
 ];
 
 const SUBJECT_PROMPT_STYLES = {
@@ -259,12 +266,20 @@ const SUBJECT_PROMPT_STYLES = {
     (t) => `Outline ${t} and explain how it operates in the body or cell.`,
     (t) => `State the biological significance of ${t}.`,
   ],
+  geography: [
+    (t) => `State the key points about ${t} in geography.`,
+    (t) => `Explain ${t} and give a geographical example from Ireland or Europe.`,
+    (t) => `What processes are involved in ${t}?`,
+    (t) => `Describe ${t} and explain why it occurs.`,
+    (t) => `Examine the causes and effects of ${t}.`,
+  ],
 };
 
 const SUBJECT_FALLBACK_QUESTION = {
   business: (term) => `Explain "${term}" and give one simple business example.`,
   pe: (term) => `Explain "${term}" and give one example from sport or physical activity.`,
   biology: (term) => `Explain "${term}" and describe its role in a biological context.`,
+  geography: (term) => `Explain "${term}" and give a relevant geographical example.`,
 };
 
 const els = {
@@ -878,6 +893,13 @@ function renderExamSection() {
         </div>`
       : "";
 
+    const appliesToBlock = group.appliesTo && group.appliesTo.length
+      ? `<div class="applies-to-block">
+          <p class="muted small"><strong>This content also applies to:</strong></p>
+          <div class="applies-to-chips">${group.appliesTo.map((a) => `<span class="applies-to-chip">${escapeHtml(a.questionTitle)}</span>`).join("")}</div>
+        </div>`
+      : "";
+
     return `
       <div class="exam-group${group.caseStudy ? " exam-group--case-study" : ""}">
         <div class="exam-group-header">
@@ -885,6 +907,7 @@ function renderExamSection() {
         </div>
         ${contextBox}
         ${parts}
+        ${appliesToBlock}
       </div>`;
   }).join("");
 }
@@ -1158,6 +1181,16 @@ function synonymGroup(token) {
     protein: ["protein", "polypeptide"],
     chromosome: ["chromosome", "chromatid"],
     photosynthesis: ["photosynthesis", "photosynthesize"],
+    // Geography
+    tectonic: ["tectonic", "plate", "crust", "lithosphere"],
+    erosion: ["erosion", "abrasion", "hydraulic", "attrition"],
+    deposition: ["deposition", "sediment", "accumulation"],
+    carbonation: ["carbonation", "dissolution", "dissolve", "carbonic"],
+    weathering: ["weathering", "freeze", "frost", "haloclasty"],
+    orogeny: ["orogeny", "folding", "compression", "collision"],
+    subduction: ["subduction", "convergent", "destructive"],
+    volcanic: ["volcanic", "magma", "lava", "eruption"],
+    divergent: ["divergent", "constructive", "rift", "spreading"],
   };
   for (const v of Object.values(map)) {
     if (v.includes(token)) return v.map(stemToken);
