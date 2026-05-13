@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bare bones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=30" />
+  </head>
+  <body>
+    <pre class="ascii-header">,--.                         ,--.
+|  |-.  ,--,--.,--.--. ,---. |  |-.  ,---. ,--,--,  ,---.  ,---.
+| .-. '' ,-.  ||  .--'| .-. :| .-. '| .-. ||      \| .-. :(  .-'
+| `-' |\ '-'  ||  |   \   --.| `-' |' '-' '|  ||  |\   --..-'  `)
+ `---'  `--`--'`--'    `----' `---'  `---' `--''--' `----'`----'</pre>
+    <div class="profile-avatar-wrap">
+      <button id="profileAvatar" class="profile-avatar" aria-label="Profile picture"></button>
+      <span id="profileLevel" class="profile-level hidden" aria-label="Study level">Lv 0/30</span>
+      <div id="profileMenu" class="profile-menu hidden">
+        <select id="accountSwitcher" class="account-switcher"></select>
+        <p class="muted small theme-label">My subjects</p>
+        <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
+        <p class="muted small theme-label">Theme colour</p>
+        <div id="themePicker" class="avatar-picker theme-picker" aria-label="Theme colour picker"></div>
+        <button id="openAuthButton" class="button-secondary">Add / Log In</button>
+        <button id="signOutButton" class="button-secondary">Sign Out</button>
+      </div>
+    </div>
+    <div class="app-shell">
+      <main class="main-content">
+        <section id="authPanel" class="auth-panel card hidden">
+          <h2>Account</h2>
+          <input id="accountName" type="text" placeholder="Username" />
+          <p id="avatarLabel" class="muted small">Choose a profile color</p>
+          <div id="avatarPicker" class="avatar-picker" aria-label="Profile color picker"></div>
+          <button id="saveAccount" class="button-primary">Create / Log In</button>
+          <p id="accountStatus" class="muted small"></p>
+        </section>
+        <section class="subject-area card">
+          <div class="subject-list-wrap graph-wrap">
+            <div class="progress-button-row">
+              <button id="openProgress" class="button-secondary">Progress</button>
+            </div>
+            <div id="subjectGraph" class="subject-graph"></div>
+          </div>
+
+          <div id="subjectWorkbench" class="workbench hidden">
+            <div class="tabs">
+              <button class="tab active" data-tab="flashcards">Outcomes</button>
+              <button class="tab" data-tab="test">Test</button>
+              <button class="tab" data-tab="exam">Exam Qs</button>
+            </div>
+
+            <div id="flashcardsTab" class="tab-content active">
+              <div class="toolbar">
+                <h3>Learning Outcomes</h3>
+                <button id="openFullNotes" class="button-secondary">Full Notes</button>
+              </div>
+              <div id="flashcardStudy" class="flashcard-study"></div>
+              <ul id="flashcardList" class="resource-list"></ul>
+              <div id="hierarchyPanel" class="hierarchy-panel hidden"></div>
+            </div>
+
+            <div id="testTab" class="tab-content">
+              <div class="toolbar">
+                <h3>Outcome Test</h3>
+                <button id="startTest" class="button-primary">Start Test</button>
+              </div>
+              <div id="testContainer" class="test-container">
+                <p class="muted">Ready</p>
+              </div>
+            </div>
+
+            <div id="examTab" class="tab-content">
+              <div id="examContainer" class="exam-container"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="subjectItemTemplate">
+      <li class="subject-item">
+        <button class="subject-open"></button>
+      </li>
+    </template>
+
+    <template id="flashcardItemTemplate">
+      <li class="resource-item">
+        <div class="resource-item-main">
+          <strong class="term"></strong>
+          <p class="muted definition"></p>
+        </div>
+      </li>
+    </template>
+
+    <section id="progressScreen" class="full-notes-screen hidden">
+      <div class="full-notes-card progress-card">
+        <div class="toolbar">
+          <h3>Study Progress</h3>
+          <button id="closeProgress" class="button-secondary">Close</button>
+        </div>
+        <div id="progressBody" class="progress-body"></div>
+      </div>
+    </section>
+
+    <section id="fullNotesScreen" class="full-notes-screen hidden">
+      <div class="full-notes-card">
+        <div class="toolbar">
+          <h3 id="fullNotesTitle">Full Notes</h3>
+          <button id="closeFullNotes" class="button-secondary">Close</button>
+        </div>
+        <div id="fullNotesBody" class="full-notes-body"></div>
+      </div>
+    </section>
+
+    <script src="./data.js?v=30"></script>
+    <script src="./app.js?v=30"></script>
+  </body>
+</html>
