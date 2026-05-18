@@ -880,7 +880,7 @@ function renderExamSection() {
           <textarea class="exam-textarea" placeholder="Write your answer here…" rows="5"></textarea>
           <div class="exam-answer-wrap hidden" id="ans-${escapeHtml(partId)}">
             <p class="exam-answer-label">Model Answer</p>
-            <p class="exam-answer-text">${escapeHtml(part.model)}</p>
+            <div class="exam-answer-text">${formatModelAnswer(part.model)}</div>
           </div>
           <button class="button-secondary exam-toggle-btn" onclick="toggleExamAnswer('${escapeHtml(partId)}', this)">Show Model Answer</button>
         </div>`;
@@ -1412,6 +1412,60 @@ function getLearnedByOutcome() {
   if (!current) return {};
   if (!current.learnedByOutcome) current.learnedByOutcome = {};
   return current.learnedByOutcome;
+}
+
+function formatModelAnswer(rawText) {
+  if (!rawText) return '';
+
+  // Match "Heading Text: " at the start of the string or immediately after a sentence-ending period
+  const re = /([A-Z][A-Za-z0-9\s\-–—()\/&~]{1,60}?):\s+/g;
+  const sections = [];
+  let lastEnd = 0;
+  let match;
+
+  while ((match = re.exec(rawText)) !== null) {
+    const before = rawText.slice(0, match.index);
+    const isAtStart = match.index === 0;
+    const afterSentence = /[.!?]\s+$/.test(before);
+
+    if (isAtStart || afterSentence) {
+      if (match.index > lastEnd) {
+        const extra = rawText.slice(lastEnd, match.index).trim().replace(/\.$/, '').trim();
+        if (extra && sections.length > 0) {
+          sections[sections.length - 1].content += (sections[sections.length - 1].content ? ' ' : '') + extra;
+        }
+      }
+      sections.push({ heading: match[1].trim(), content: '' });
+      lastEnd = match.index + match[0].length;
+    }
+  }
+
+  if (lastEnd < rawText.length) {
+    const tail = rawText.slice(lastEnd).trim().replace(/\.$/, '');
+    if (sections.length > 0) {
+      sections[sections.length - 1].content += (sections[sections.length - 1].content ? ' ' : '') + tail;
+    } else {
+      sections.push({ heading: null, content: tail });
+    }
+  }
+
+  if (!sections.length) return `<p class="model-srp">${escapeHtml(rawText)}</p>`;
+
+  return sections.map(({ heading, content }) => {
+    const srps = splitModelSRPs(content);
+    const srpHtml = srps.map(s => `<p class="model-srp">${escapeHtml(s)}</p>`).join('');
+    return heading
+      ? `<h4 class="model-subheading">${escapeHtml(heading)}</h4>${srpHtml}`
+      : srpHtml;
+  }).join('');
+}
+
+function splitModelSRPs(text) {
+  if (!text) return [];
+  return text
+    .split(/(?<=[a-zA-Z]{4,})\.\s+(?=[A-Z])/)
+    .map(s => s.trim().replace(/\.$/, '').trim())
+    .filter(s => s.length > 3);
 }
 
 function escapeHtml(value) {
