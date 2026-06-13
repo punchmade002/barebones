@@ -1,0 +1,106 @@
+{
+  "_comment": "Stage 7 canonical store for History (sample). Built from the REAL 2023 LC History Higher Level paper, extracted live from examinations.ie on 2026-06-06 via the verified form-discovery + pdf.js text pass. Question text is verbatim; marks are from the paper. `model` is empty pending the Stage 6 marking-scheme (M99) pairing — exactly as the existing biology entries in exam-questions-db.js currently sit. Topic tags (Stage 5) were trivial here because History papers label every question by topic on the page.",
+  "subject": "history",
+  "scaffold": {
+    "field": "Later Modern, 1815-1993",
+    "sections": [
+      { "id": "hist-section1", "title": "Section 1 — Documents-Based Question (100 marks)" },
+      { "id": "hist-section2", "title": "Section 2 — Ireland (100 marks)" },
+      { "id": "hist-section3", "title": "Section 3 — Europe and the wider world (200 marks)" }
+    ],
+    "chapters": [
+      { "id": "hist-ire1", "title": "Ireland T1 — Ireland and the Union, 1815-1870" },
+      { "id": "hist-ire2", "title": "Ireland T2 — Movements for political and social reform, 1870-1914" },
+      { "id": "hist-ire3", "title": "Ireland T3 — The pursuit of sovereignty and the impact of partition" },
+      { "id": "hist-ire4", "title": "Ireland T4 — The Irish diaspora" },
+      { "id": "hist-ire5", "title": "Ireland T5 — Politics and society in Northern Ireland, 1949-1993" },
+      { "id": "hist-ire6", "title": "Ireland T6 — Government, economy and society in the Republic of Ireland" },
+      { "id": "hist-eur1", "title": "Europe T1 — Nationalism and state formation in Europe, 1815-1871" },
+      { "id": "hist-eur2", "title": "Europe T2 — Nation states and international tensions, 1871-1920" },
+      { "id": "hist-eur3", "title": "Europe T3 — Dictatorship and democracy in Europe, 1920-1945" },
+      { "id": "hist-eur4", "title": "Europe T4 — Division and realignment in Europe, 1945-1992" },
+      { "id": "hist-eur5", "title": "Europe T5 — European retreat from empire and the aftermath" },
+      { "id": "hist-eur6", "title": "Europe T6 — The United States and the world, 1945-1989" }
+    ]
+  },
+  "questions": [
+    {
+      "id": "history-pp-2023-HL-s1-q1",
+      "subject": "history",
+      "chapterId": "hist-ire5",
+      "sectionId": "hist-section1",
+      "source": "LC History HL 2023 — Section 1 Documents-Based Q1 — Case study: Sunningdale Agreement & power-sharing executive, 1973-74",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        {
+          "label": "Q1",
+          "question": "(a) In document A, what signs of disruption did the writer see as he entered Belfast?\n(b) In document A, how were the UDA men dressed and armed?\n(c) In document B, what was the effect of power cuts on the Europa Hotel?\n(d) According to document B, why was the writer’s mouth as dry as sawdust?",
+          "marks": 20,
+          "model": "",
+          "diagram": ""
+        }
+      ]
+    },
+    {
+      "id": "history-pp-2023-HL-s2-t1-q1",
+      "subject": "history",
+      "chapterId": "hist-ire1",
+      "sectionId": "hist-section2",
+      "source": "LC History HL 2023 — Section 2 Ireland Topic 1 (Ireland and the Union, 1815-1870) — Q1",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        { "label": "Q1", "question": "What were the fortunes of Irish landlords during the period 1815-1870?", "marks": 100, "model": "", "diagram": "" }
+      ]
+    },
+    {
+      "id": "history-pp-2023-HL-s2-t1-q2",
+      "subject": "history",
+      "chapterId": "hist-ire1",
+      "sectionId": "hist-section2",
+      "source": "LC History HL 2023 — Section 2 Ireland Topic 1 (Ireland and the Union, 1815-1870) — Q2",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        { "label": "Q2", "question": "What did you learn about Daniel O’Connell from your study of two of the following: the campaign for Catholic Emancipation; the Repeal campaign; O’Connell’s relations with Young Ireland?", "marks": 100, "model": "", "diagram": "" }
+      ]
+    },
+    {
+      "id": "history-pp-2023-HL-s2-t1-q3",
+      "subject": "history",
+      "chapterId": "hist-ire1",
+      "sectionId": "hist-section2",
+      "source": "LC History HL 2023 — Section 2 Ireland Topic 1 (Ireland and the Union, 1815-1870) — Q3",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        { "label": "Q3", "question": "How did Charles Trevelyan and/or Asenath Nicholson respond to Famine in Ireland?", "marks": 100, "model": "", "diagram": "" }
+      ]
+    },
+    {
+      "id": "history-pp-2023-HL-s2-t2-q1",
+      "subject": "history",
+      "chapterId": "hist-ire2",
+      "sectionId": "hist-section2",
+      "source": "LC History HL 2023 — Section 2 Ireland Topic 2 (Movements for political and social reform, 1870-1914) — Q1",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        { "label": "Q1", "question": "To what extent did Charles Stewart Parnell achieve success in his political career, 1875-1891?", "marks": 100, "model": "", "diagram": "" }
+      ]
+    },
+    {
+      "id": "history-pp-2023-HL-s2-t2-q3",
+      "subject": "history",
+      "chapterId": "hist-ire2",
+      "sectionId": "hist-section2",
+      "source": "LC History HL 2023 — Section 2 Ireland Topic 2 (Movements for political and social reform, 1870-1914) — Q3",
+      "year": 2023,
+      "tag_confidence": 1.0,
+      "parts": [
+        { "label": "Q3", "question": "Why did the 1913 strike and lockout take place, how was it carried out and what was its outcome?", "marks": 100, "model": "", "diagram": "" }
+      ]
+    }
+  ]
+}
