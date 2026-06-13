@@ -1,125 +1,326 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>bare bones</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css?v=32" />
-  </head>
-  <body>
-    <pre class="ascii-header">,--.                         ,--.
-|  |-.  ,--,--.,--.--. ,---. |  |-.  ,---. ,--,--,  ,---.  ,---.
-| .-. '' ,-.  ||  .--'| .-. :| .-. '| .-. ||      \| .-. :(  .-'
-| `-' |\ '-'  ||  |   \   --.| `-' |' '-' '|  ||  |\   --..-'  `)
- `---'  `--`--'`--'    `----' `---'  `---' `--''--' `----'`----'</pre>
-    <div class="profile-avatar-wrap">
-      <button id="profileAvatar" class="profile-avatar" aria-label="Profile picture"></button>
-      <span id="profileLevel" class="profile-level hidden" aria-label="Study level">Lv 0/30</span>
-      <div id="profileMenu" class="profile-menu hidden">
-        <select id="accountSwitcher" class="account-switcher"></select>
-        <p class="muted small theme-label">My subjects</p>
-        <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
-        <p class="muted small theme-label">Theme colour</p>
-        <div id="themePicker" class="avatar-picker theme-picker" aria-label="Theme colour picker"></div>
-        <button id="openAuthButton" class="button-secondary">Add / Log In</button>
-        <button id="signOutButton" class="button-secondary">Sign Out</button>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>barebones — Leaving Cert, stripped back</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="design_handoff_barebones_landing/styles.css" />
+</head>
+<body data-hero="c" data-accent="subtle" style="--bg:#d6d4cf">
+
+<!-- ============================ NAV ============================ -->
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="barebones home">
+      <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+    </a>
+    <nav class="nav-links">
+      <a href="#method">Method</a>
+      <a href="#features">Features</a>
+      <a href="#product">The App</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="app.html#signin" class="btn btn-primary">Sign in</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============================ HERO A — split ============================ -->
+<section class="hero" id="hero-a">
+  <div class="wrap">
+    <div class="grid">
+      <div class="copy">
+        <div class="eyebrow kicker">For Leaving Cert students</div>
+        <h1 class="hl reveal">The Leaving Cert,<br />stripped <span class="accent">back.</span></h1>
+        <p class="lede reveal">Every subject broken into two moves: learn the content, then drill real exam questions. Nothing you don't need.</p>
+        <div class="cta-row reveal">
+          <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+          <a href="#method" class="btn btn-ghost">See how it works</a>
+        </div>
+        <div class="micro reveal">
+          <span class="pix" data-text="01" data-size="5"></span>
+          Built around the 7 senior-cycle subjects you actually sit.
+        </div>
+      </div>
+      <div class="phone-stage reveal">
+        <div class="glow"></div>
+        <div class="phone" data-screen="flash"></div>
       </div>
     </div>
-    <div class="app-shell">
-      <main class="main-content">
-        <section id="authPanel" class="auth-panel card hidden">
-          <h2>Account</h2>
-          <input id="accountName" type="text" placeholder="Username" />
-          <p id="avatarLabel" class="muted small">Choose a profile color</p>
-          <div id="avatarPicker" class="avatar-picker" aria-label="Profile color picker"></div>
-          <button id="saveAccount" class="button-primary">Create / Log In</button>
-          <p id="accountStatus" class="muted small"></p>
-        </section>
-        <section class="subject-area card">
-          <div class="subject-list-wrap graph-wrap">
-            <div class="progress-button-row">
-              <button id="openProgress" class="button-secondary">Progress</button>
-            </div>
-            <div id="subjectGraph" class="subject-graph"></div>
-          </div>
+  </div>
+</section>
 
-          <div id="subjectWorkbench" class="workbench hidden">
-            <div class="tabs">
-              <button class="tab active" data-tab="flashcards">Outcomes</button>
-              <button class="tab" data-tab="test">Test</button>
-              <button class="tab" data-tab="exam">Exam Qs</button>
-            </div>
-
-            <div id="flashcardsTab" class="tab-content active">
-              <div class="toolbar">
-                <h3>Learning Outcomes</h3>
-                <button id="openFullNotes" class="button-secondary">Full Notes</button>
-              </div>
-              <div id="flashcardStudy" class="flashcard-study"></div>
-              <ul id="flashcardList" class="resource-list"></ul>
-              <div id="hierarchyPanel" class="hierarchy-panel hidden"></div>
-            </div>
-
-            <div id="testTab" class="tab-content">
-              <div class="toolbar">
-                <h3>Outcome Test</h3>
-                <button id="startTest" class="button-primary">Start Test</button>
-              </div>
-              <div id="testContainer" class="test-container">
-                <p class="muted">Ready</p>
-              </div>
-            </div>
-
-            <div id="examTab" class="tab-content">
-              <div id="examContainer" class="exam-container"></div>
-            </div>
-          </div>
-        </section>
-      </main>
+<!-- ============================ HERO B — centered ============================ -->
+<section class="hero" id="hero-b">
+  <div class="wrap">
+    <div class="word reveal"><img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" /></div>
+    <h1 class="hl reveal">The Leaving Cert, stripped back.</h1>
+    <p class="lede reveal">A study app that does two things brilliantly — teaches you the content, then drills you on real exam questions.</p>
+    <div class="cta-row reveal">
+      <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+      <a href="#method" class="btn btn-ghost">See the method</a>
     </div>
+    <div class="steps-row reveal">
+      <span class="chip"><span class="n pix" data-text="01" data-size="6"></span> Learn the content</span>
+      <span class="chip" style="align-self:center;color:var(--orange);font-size:24px;border:none;background:none;padding:0;">→</span>
+      <span class="chip"><span class="n pix" data-text="02" data-size="6"></span> Practice exam questions</span>
+    </div>
+    <div class="phone-stage reveal">
+      <div class="glow" style="left:50%;transform:translateX(-50%);"></div>
+      <div class="phone" data-screen="flash"></div>
+      <div class="phone" data-screen="exam"></div>
+    </div>
+  </div>
+</section>
 
-    <template id="subjectItemTemplate">
-      <li class="subject-item">
-        <button class="subject-open"></button>
-      </li>
-    </template>
-
-    <template id="flashcardItemTemplate">
-      <li class="resource-item">
-        <div class="resource-item-main">
-          <strong class="term"></strong>
-          <p class="muted definition"></p>
+<!-- ============================ HERO C — orange block ============================ -->
+<section class="hero" id="hero-c">
+  <div class="wrap">
+    <div class="grid">
+      <div class="panel">
+        <div class="dotfield"></div>
+        <div class="eyebrow">625 is closer than you think</div>
+        <h1 class="hl">The Leaving Cert,<br />stripped back.</h1>
+        <p class="lede">Two steps. Learn the content, drill the exam questions. That's the whole app — and that's the point.</p>
+        <div class="cta-row">
+          <a href="app.html#signin" class="btn btn-primary">Get started free</a>
+          <a href="#method" class="btn btn-ghost">See how it works</a>
         </div>
-      </li>
-    </template>
-
-    <section id="progressScreen" class="full-notes-screen hidden">
-      <div class="full-notes-card progress-card">
-        <div class="toolbar">
-          <h3>Study Progress</h3>
-          <button id="closeProgress" class="button-secondary">Close</button>
-        </div>
-        <div id="progressBody" class="progress-body"></div>
       </div>
-    </section>
-
-    <section id="fullNotesScreen" class="full-notes-screen hidden">
-      <div class="full-notes-card">
-        <div class="toolbar">
-          <h3 id="fullNotesTitle">Full Notes</h3>
-          <button id="closeFullNotes" class="button-secondary">Close</button>
-        </div>
-        <div id="fullNotesBody" class="full-notes-body"></div>
+      <div class="phone-stage">
+        <div class="phone" data-screen="exam"></div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <script src="./data.js?v=32"></script>
-    <script src="./app.js?v=32"></script>
-  </body>
+<!-- ============================ METHOD ============================ -->
+<section class="section-pad band" id="method">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="margin-bottom:20px;">The method</div>
+      <h2>Two steps.<br />That's it.</h2>
+      <p>No endless feature list, no busywork. The course only ever asks two things of you, so the app only does two things.</p>
+    </div>
+    <div class="method-grid">
+      <div class="step-card reveal">
+        <span class="num pix" data-text="01" data-size="11"></span>
+        <span class="tag">Learn</span>
+        <h3>Learn the content</h3>
+        <p>AI turns each topic into tight flashcards and quick quizzes, so the definitions, dates and diagrams actually stick.</p>
+        <div class="ill">
+          <div class="mini-card">
+            <div class="l">Biology · Flashcard</div>
+            <div class="q">Define homeostasis.</div>
+          </div>
+        </div>
+      </div>
+      <div class="step-card reveal">
+        <span class="num pix" data-text="02" data-size="11"></span>
+        <span class="tag">Practice</span>
+        <h3>Practice exam questions</h3>
+        <p>Then drill exam-style questions marked the way the examiner marks them — so you know exactly where you stand.</p>
+        <div class="ill">
+          <div class="mini-opt correct"><span class="k">A</span> Maintaining a stable internal environment</div>
+          <div class="mini-opt"><span class="k">B</span> Producing energy from glucose</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FEATURES ============================ -->
+<section class="section-pad" id="features">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" style="margin-bottom:20px;">What's inside</div>
+      <h2>Less app. More marks.</h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7"/><circle cx="18" cy="16" r="3"/></svg></span>
+        <h3>AI flashcards &amp; quizzes</h3>
+        <p>Drop in a topic and get clean, on-spec flashcards and quizzes in seconds — no making them yourself at 1am.</p>
+      </div>
+      <div class="feat reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M9 11l3 3 6-6"/><rect x="3" y="4" width="18" height="16" rx="2"/></svg></span>
+        <h3>Real exam questions</h3>
+        <p>Practise the question styles that actually come up, with marking that mirrors the real exam scheme.</p>
+      </div>
+      <div class="feat reveal">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M3 17l5-5 4 4 8-9"/><path d="M21 7v5h-5"/></svg></span>
+        <h3>Know where you stand</h3>
+        <p>Every subject shows what you've nailed and what still needs work, so revision time goes where it counts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PRODUCT ============================ -->
+<section class="section-pad band" id="product">
+  <div class="wrap">
+    <div class="product-grid">
+      <div class="product-phones reveal">
+        <div class="glow" style="left:50%;top:50%;transform:translate(-50%,-50%);"></div>
+        <div class="phone" data-screen="flash"></div>
+        <div class="phone" data-screen="exam"></div>
+      </div>
+      <div class="copy reveal">
+        <div class="eyebrow" style="margin-bottom:20px;">The app</div>
+        <h2 style="font-size:clamp(32px,4.4vw,52px);text-transform:uppercase;">Open it. <br />Start studying.</h2>
+        <ul class="product-list">
+          <li><span class="b">1</span><div><h3>Pick a subject &amp; topic</h3><p>Seven senior-cycle subjects, each split into the topics on the course.</p></div></li>
+          <li><span class="b">2</span><div><h3>Learn with flashcards</h3><p>AI-built cards and quizzes drill the content until it's locked in.</p></div></li>
+          <li><span class="b">3</span><div><h3>Sit exam questions</h3><p>Switch to practice mode and answer real exam-style questions, marked instantly.</p></div></li>
+        </ul>
+        <a href="app.html#signin" class="btn btn-primary" style="margin-top:30px;">Get started free</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA / SIGN UP ============================ -->
+<section class="section-pad" id="start">
+  <div class="wrap">
+    <div class="cta reveal">
+      <div class="dotfield"></div>
+      <div class="left">
+        <img class="word-c" src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" style="margin-bottom:24px;" />
+        <h2>Get it before<br />the next exam.</h2>
+        <p>Free to use — study right in your browser. No install needed.</p>
+      </div>
+      <div class="right">
+        <a href="app.html#signin" class="btn btn-primary signup-btn">Get started free</a>
+        <p class="signin-note">Already have an account? <a href="app.html#signin">Sign in</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img class="fwm" src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+        <p style="max-width:30ch;color:var(--ink-2);font-weight:500;margin:0;">The bare-bones way to study for the Leaving Cert.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="#method">Method</a>
+          <a href="#features">Features</a>
+          <a href="#product">The app</a>
+          <a href="app.html#signin">Sign in</a>
+        </div>
+        <div class="foot-col">
+          <h4>Company</h4>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 barebones. Made in Ireland.</span>
+      <span>Not affiliated with the State Examinations Commission.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================ PHONE SCREEN TEMPLATES ============================ -->
+<template id="tpl-screen-flash">
+  <div class="screen">
+    <div class="statusbar"><span>08:15</span><span class="dots"><span></span><span></span><span></span></span></div>
+    <div class="app">
+      <div class="app-top">
+        <span class="subject"><span class="sw"></span>Biology</span>
+        <span class="prog">12 / 40 cards</span>
+      </div>
+      <div class="app-tabs"><span class="t on">Learn</span><span class="t">Practice</span></div>
+      <div class="flashcard">
+        <div class="dotrow"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="qlabel">Flashcard</div>
+        <div class="q">Define homeostasis.</div>
+        <div class="tapline"><span class="corner-arrow">↺</span> Tap to flip</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template id="tpl-screen-exam">
+  <div class="screen">
+    <div class="statusbar"><span>08:15</span><span class="dots"><span></span><span></span><span></span></span></div>
+    <div class="app">
+      <div class="app-top">
+        <span class="subject"><span class="sw"></span>Biology</span>
+        <span class="prog">Q4 · 6 marks</span>
+      </div>
+      <div class="app-tabs"><span class="t">Learn</span><span class="t on">Practice</span></div>
+      <div class="exam">
+        <div class="meta">Exam question · Higher level</div>
+        <div class="qtext">Homeostasis is best described as…</div>
+        <div class="opts">
+          <div class="opt correct"><span class="k">A</span> Keeping a stable internal environment</div>
+          <div class="opt"><span class="k">B</span> Releasing energy from glucose</div>
+          <div class="opt"><span class="k">C</span> Copying DNA before division</div>
+          <div class="opt"><span class="k">D</span> Moving water across a membrane</div>
+        </div>
+        <div class="check">Check answer</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<!-- ============================ SCRIPTS ============================ -->
+<script src="design_handoff_barebones_landing/pixelfont.js"></script>
+<script>
+  (function () {
+    function fill() {
+      var tF = document.getElementById('tpl-screen-flash');
+      var tE = document.getElementById('tpl-screen-exam');
+      document.querySelectorAll('.phone[data-screen]').forEach(function (p) {
+        if (p.dataset.filled) return;
+        var t = p.dataset.screen === 'exam' ? tE : tF;
+        p.appendChild(t.content.cloneNode(true));
+        p.dataset.filled = '1';
+      });
+    }
+    fill();
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.01, rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+    setTimeout(function () { document.querySelectorAll('.reveal:not(.in)').forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight) el.classList.add('in');
+    }); }, 1200);
+    document.addEventListener('click', function (ev) {
+      var fc = ev.target.closest('.flashcard');
+      if (!fc) return;
+      fc.classList.toggle('flipped');
+      var q = fc.querySelector('.q');
+      var lbl = fc.querySelector('.qlabel');
+      if (!q) return;
+      if (fc.classList.contains('flipped')) {
+        q.dataset.front = q.textContent;
+        q.textContent = 'The maintenance of a stable internal environment despite changes outside.';
+        q.style.fontSize = '15px';
+        if (lbl) lbl.textContent = 'Answer';
+      } else {
+        if (q.dataset.front) q.textContent = q.dataset.front;
+        q.style.fontSize = '';
+        if (lbl) lbl.textContent = 'Flashcard';
+      }
+    });
+  })();
+</script>
+</body>
 </html>

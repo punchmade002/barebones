@@ -1,0 +1,11 @@
+# OS junk
+.DS_Store
+**/.DS_Store
+
+# Claude Code local config, worktrees, and agent state
+.claude/
+
+# Pipeline generated data (raw PDFs, digests, caches)
+pipeline/_data/
+pipeline/__pycache__/
+**/__pycache__/

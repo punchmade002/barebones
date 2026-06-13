@@ -1,0 +1,37 @@
+{
+  "subject": "chemistry",
+  "field": "Leaving Certificate Chemistry — Higher Level",
+  "note": "Chapters mirror the app's existing chem1..chem26 (data.js) so tagged questions merge directly. Section A = questions based on the mandatory experiments; Section B = general theory questions. Tag each exam question to the single chapter it best fits.",
+  "sections": [
+    { "id": "chem-sectionA", "title": "Section A — Questions based on mandatory experiments" },
+    { "id": "chem-sectionB", "title": "Section B — General theory questions" }
+  ],
+  "chapters": [
+    { "id": "chem1",  "title": "The Nature of Science" },
+    { "id": "chem2",  "title": "Atomic Structure: The Nuclear Model" },
+    { "id": "chem3",  "title": "Atomic Structure: The Bohr and Orbital Models" },
+    { "id": "chem4",  "title": "The Periodic Table: Arrangement of Electrons" },
+    { "id": "chem5",  "title": "Chemical Bonding and Structure" },
+    { "id": "chem6",  "title": "Electronegativity and the Continuum of Chemical Bonding" },
+    { "id": "chem7",  "title": "Families and Trends in the Periodic Table" },
+    { "id": "chem8",  "title": "The Mole: The Chemist's Counting Unit" },
+    { "id": "chem9",  "title": "Kinetic Theory of Matter and Behaviour of Gases" },
+    { "id": "chem10", "title": "Law of Conservation of Mass: Introducing Stoichiometry" },
+    { "id": "chem11", "title": "Acids and Bases" },
+    { "id": "chem12", "title": "Volumetric Analysis: Acid–Base" },
+    { "id": "chem13", "title": "Acid–Base Volumetric Exam-Style Questions" },
+    { "id": "chem14", "title": "Oxidation and Reduction" },
+    { "id": "chem15", "title": "Volumetric Analysis: Oxidation-Reduction" },
+    { "id": "chem16", "title": "Oxidation–Reduction Volumetric Exam-Style Questions" },
+    { "id": "chem17", "title": "Rates of Reaction" },
+    { "id": "chem18", "title": "Chemical Equilibrium" },
+    { "id": "chem19", "title": "pH and Indicators" },
+    { "id": "chem20", "title": "Environmental Chemistry" },
+    { "id": "chem21", "title": "Thermochemistry" },
+    { "id": "chem22", "title": "Electrochemistry" },
+    { "id": "chem23", "title": "Allotropes of Carbon. Hydrocarbons" },
+    { "id": "chem24", "title": "More Families of Organic Compounds" },
+    { "id": "chem25", "title": "Reactions of Organic Compounds" },
+    { "id": "chem26", "title": "Stoichiometry: Limiting Reactants and Percentage Yield" }
+  ]
+}

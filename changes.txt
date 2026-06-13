@@ -1,0 +1,75 @@
+BAREBONES — CHANGE LOG
+======================
+
+[2026-05-18] Removed large ASCII header logo from main app shell
+  - Deleted the #asciiHeader / .ascii-header <pre> block from index.html (was inside .app-shell above main content)
+
+[2026-05-18] Scaled top-left brand-mark logo
+  - styles.css: .brand-ascii transform scale increased 0.135 → 0.16 (initial bump)
+  - styles.css: .brand-ascii transform scale increased 0.16 → 0.24 (user requested 50% bigger)
+
+[2026-05-18] Full Notes body made full screen width
+  - styles.css: removed max-width: 820px and margin: 0 auto from #fullNotesScreen .full-notes-body
+  - Content now spans the full width of the screen
+
+[2026-05-18] Removed dead secondary progress store
+  - progress.js was a write-only secondary snapshot store; getUserProgressData / deleteUserProgressData / getAllProgressUsernames were never called anywhere
+  - Removed buildProgressSnapshot() function from app.js
+  - Removed saveUserProgressData() call from persist() in app.js
+  - Removed <script src="./progress.js"> tag from index.html
+  - Primary store (bare-bones-app-v4 in localStorage) remains the sole source of truth, tracking all concept points via progressByOutcome and learnedByOutcome per learning outcome
+
+[2026-05-18] Subject name hover dissolves into chapter bar
+  - styles.css: added background: linear-gradient(to bottom, var(--accent-xlight) 0%, transparent 100%) to .graph-subject-main:hover
+  - Orange tint now fades smoothly into the chapter list rather than cutting off with a hard line
+
+[2026-05-18] Refined subject name hover — darker fill, gradient constrained to chapter area
+  - styles.css: .graph-subject-main:hover changed from gradient to solid var(--accent-light) background for stronger, darker orange
+  - styles.css: added .graph-subject:has(.graph-subject-main:hover) .graph-chapters gradient (accent-xlight → transparent over 55%) so dissolve starts at the chapter boxes rather than bleeding into the padding above them
+
+[2026-05-18] Subject hover gradient constrained above chapter boxes
+  - styles.css: added padding-top: 0.5rem to .graph-chapters to create a gap between header and chapter boxes
+  - styles.css: gradient on :has() selector now fades over exactly 0.5rem (matching the new top padding) so it is fully transparent before the chapter boxes begin
+
+[2026-05-18] Progress graphs now update from Mark Learned, no test required
+  - app.js: computeUserProgress() now counts individually-learned cards (learnedByOutcome[lo.id].length) when no test score exists for an outcome, instead of requiring progressByOutcome >= 1
+  - app.js: buildProgressSubjectStats() updated with the same logic so the Progress screen chapter/subject bars reflect learned cards
+  - app.js: markLearned handler now calls renderProfileLevel() so the % badge in the avatar updates immediately when a concept is marked learned
+
+[2026-05-19] Added Maths (LC HL) as a 5th subject
+  - app.js: added MATHS_SUBJECT constant, added to SUBJECTS array, added maths entry to SUBJECT_PROMPT_STYLES and SUBJECT_FALLBACK_QUESTION, added maths disclaimer to getExamDisclaimer()
+  - data.js: appended MATHS_CHAPTERS array (26 chapters, ids maths1–maths26) covering all LC HL Maths topics with stub notes/LOs per chapter; injected into COURSE_DATA.chapters via push()
+  - examQuestions arrays are empty stubs — populated as past papers are provided
+
+[2026-05-19] Added LC Maths HL past paper exam questions (2022–2025, Papers 1 & 2)
+  - Created maths-papers.js: patches COURSE_DATA.chapters for maths1–maths11 (Algebra Cubics through Differentiation Applications)
+    - maths1 (Cubics): 4 questions — 2025P1Q1c, 2022P1Q5b, 2022P1Q1c, 2024P1Q6a
+    - maths2 (Expressions): 4 questions — 2025P1Q1ab, 2024P1Q1ab, 2023P1Q1ab, 2022P1Q1ab
+    - maths3 (Inequalities): 3 questions — 2025P1Q2a, 2023P1Q2a, 2022P1Q2a
+    - maths4 (Quadratics): 4 questions — 2025P1Q1d, 2024P1Q2a, 2023P1Q1c, 2022P1Q3a
+    - maths5 (Simultaneous Equations): 2 questions — 2025P1Q3a, 2023P1Q3a
+    - maths6 (Solving Equations): 1 question — 2022P1Q4a
+    - maths7 (Area & Volume): 4 questions — 2025P2Q4, 2024P2Q3, 2023P2Q4, 2022P2Q3
+    - maths8 (Circle): 5 questions — 2025P2Q2, 2024P2Q2, 2023P2Q2, 2022P2Q2a, 2022P2Q2b
+    - maths9 (Line): 4 questions — 2025P2Q1, 2024P2Q1, 2023P2Q1, 2022P2Q1
+    - maths10 (Complex Numbers): 4 questions — 2025P1Q4, 2024P1Q4, 2023P1Q4, 2022P1Q4
+    - maths11 (Differentiation Applications): 5 questions — 2025P1Q7, 2024P1Q7, 2023P1Q6b, 2022P1Q7, 2023P1Q7b
+  - Created maths-papers-2.js: patches COURSE_DATA.chapters for maths12–maths20 (Differentiation Rules through Probability)
+    - maths12 (Differentiation Rules): 7 questions — first principles, chain rule, product rule, quotient rule across 2022–2025
+    - maths13 (Financial Maths): 3 questions — percentage reduction, mortgage PV, AER/compound interest
+    - maths14 (Functions): 3 questions — graph reading, composite functions, transformations
+    - maths15 (Geometry): 2 questions — enlargement theorem, circle geometry
+    - maths16 (Geometry Proofs): 3 questions — congruence, parallel lines theorem, rectangle proof
+    - maths17 (Indices & Logs): 4 questions — log laws, irrationality of √2, e^k sequences, exponentials
+    - maths18 (Induction): 2 questions — H(n)=(n+1)² induction, geometric series induction
+    - maths19 (Integration): 5 questions — definite integrals, area between curves, average value
+    - maths20 (Probability): 4 questions — Venn diagrams, expected value, binomial trials, basic probability
+  - Created maths-papers-3.js: patches COURSE_DATA.chapters for maths21–maths26 (Sequences through Trig Triangles)
+    - maths21 (Sequences & Series): 4 questions — spider web AP/GP, AP/GP mixed, geometric series drug problem
+    - maths22 (Stats Descriptive): 3 questions — frequency table median/IQR/mean, stem-and-leaf, correlation coefficient
+    - maths23 (Stats Inferential): 4 questions — confidence intervals, hypothesis tests with H₀/H₁/z-test/conclusion
+    - maths24 (Z-Scores): 4 questions — z-score lookups, normal distribution probabilities, inverse normal
+    - maths25 (Trig Functions & Identities): 4 questions — general solutions, period/range of |4sinx|−1, sin(A+B) proof, tan(A−B)/tan15°
+    - maths26 (Trig Triangles): 5 questions — cosine rule with tan, parallelogram area, ambiguous sine rule, hill height, triangular field area
+  - index.html: added three new script tags between data.js and app.js to load the above files
+  - All model solutions written to Irish LC curriculum standard: numbered steps, rule/formula named at each step, unicode math notation, "Final Answer:" on last line

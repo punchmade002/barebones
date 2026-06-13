@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bare bones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=40" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
+    <script>
+      (function () {
+        var saved = localStorage.getItem('bare-bones-app-v4');
+        var isLoggedIn = false;
+        try { isLoggedIn = !!(JSON.parse(saved).session.currentUser); } catch (e) {}
+        if (!isLoggedIn && location.hash !== '#signin' && !sessionStorage.getItem('bb_seen_landing')) {
+          location.replace('index.html');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="brand-mark" href="index.html" aria-label="barebones home">
+      <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+    </a>
+    <div class="profile-avatar-wrap">
+      <button id="profileAvatar" class="profile-avatar" aria-label="Profile picture"></button>
+      <span id="profileLevel" class="profile-level hidden" aria-label="Study level">Lv 0/30</span>
+      <div id="profileMenu" class="profile-menu hidden">
+        <select id="accountSwitcher" class="account-switcher"></select>
+        <p class="muted small theme-label">My subjects</p>
+        <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
+        <button id="openAuthButton" class="button-secondary">Add / Log In</button>
+        <button id="signOutButton" class="button-secondary">Sign Out</button>
+      </div>
+    </div>
+    <div class="app-shell">
+      <main class="main-content">
+        <section id="authPanel" class="auth-panel card hidden">
+          <h2>Account</h2>
+          <input id="accountName" type="text" placeholder="Username" />
+          <button id="saveAccount" class="button-primary">Create / Log In</button>
+          <p id="accountStatus" class="muted small"></p>
+        </section>
+        <section class="subject-area">
+          <div class="subject-list-wrap graph-wrap">
+            <div class="subject-list-scroll">
+              <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
+              <div id="subjectGraph" class="subject-graph"></div>
+            </div>
+          </div>
+
+          <div id="subjectWorkbench" class="workbench hidden">
+            <div id="subjectOverview" class="subject-overview hidden"></div>
+            <div class="tabs">
+              <button class="tab active" data-tab="flashcards">Outcomes</button>
+              <button class="tab" data-tab="test">Test</button>
+              <button class="tab" data-tab="exam">Exam Qs</button>
+            </div>
+
+            <div id="flashcardsTab" class="tab-content active">
+              <div class="toolbar">
+                <h3>Learning Outcomes</h3>
+              </div>
+              <button id="openFullNotes" class="button-primary full-notes-wide">Full Notes</button>
+              <div id="flashcardStudy" class="flashcard-study"></div>
+              <ul id="flashcardList" class="resource-list"></ul>
+              <div id="hierarchyPanel" class="hierarchy-panel hidden"></div>
+            </div>
+
+            <div id="testTab" class="tab-content">
+              <div class="toolbar">
+                <h3>Outcome Test</h3>
+                <button id="startTest" class="button-primary">Start Test</button>
+              </div>
+              <div id="testContainer" class="test-container">
+                <p class="muted">Ready</p>
+              </div>
+            </div>
+
+            <div id="examTab" class="tab-content">
+              <div id="examContainer" class="exam-container"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <template id="subjectItemTemplate">
+      <li class="subject-item">
+        <button class="subject-open"></button>
+      </li>
+    </template>
+
+    <template id="flashcardItemTemplate">
+      <li class="resource-item">
+        <div class="resource-item-main">
+          <strong class="term"></strong>
+          <p class="muted definition"></p>
+        </div>
+      </li>
+    </template>
+
+    <section id="progressScreen" class="full-notes-screen hidden">
+      <div class="full-notes-card progress-card">
+        <div class="toolbar">
+          <h3>Study Progress</h3>
+          <button id="closeProgress" class="button-secondary">Close</button>
+        </div>
+        <div id="progressBody" class="progress-body"></div>
+      </div>
+    </section>
+
+    <section id="fullNotesScreen" class="full-notes-screen hidden">
+      <div class="full-notes-card">
+        <div class="toolbar">
+          <h3 id="fullNotesTitle">Full Notes</h3>
+          <button id="closeFullNotes" class="button-secondary">Close</button>
+        </div>
+        <div id="fullNotesBody" class="full-notes-body"></div>
+      </div>
+    </section>
+
+    <section id="examBreakdownModal" class="full-notes-screen hidden" role="dialog" aria-modal="true">
+      <div class="full-notes-card breakdown-modal-card">
+        <button class="full-notes-close" onclick="closeExamBreakdown()" aria-label="Close">✕</button>
+        <div id="examBreakdownContent"></div>
+      </div>
+    </section>
+
+    <div id="loginOverlay" class="login-overlay" aria-hidden="true">
+      <div class="login-ascii-wrap">
+        <div class="login-scan"></div>
+        <pre class="login-ascii"></pre>
+      </div>
+      <p class="login-welcome"></p>
+    </div>
+
+    <!-- Study Timer Widget -->
+    <div id="timerWidget" class="timer-widget">
+      <div id="timerIdle" class="timer-idle">
+        <div class="timer-picker" id="timerPicker">
+          <button class="timer-opt" data-mode="custom" data-minutes="20">20 min</button>
+          <button class="timer-opt" data-mode="custom" data-minutes="45">45 min</button>
+          <button class="timer-opt" data-mode="custom" data-minutes="60">1 hr</button>
+          <button class="timer-opt timer-opt-pomo" data-mode="pomodoro">Pomodoro<span class="timer-opt-sub">25 on · 5 off · loops</span></button>
+          <button class="timer-opt" id="timerCustomBtn">Custom</button>
+          <div class="timer-custom-row hidden" id="timerCustomRow">
+            <input id="timerCustomInput" class="timer-custom-input" type="text" inputmode="numeric" placeholder="minutes" aria-label="Custom minutes" />
+            <button id="timerCustomGo" class="timer-custom-go">Go</button>
+          </div>
+        </div>
+        <button class="timer-clock-btn" id="timerClockBtn" aria-label="Study timer">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </button>
+      </div>
+      <div id="timerActive" class="timer-active hidden">
+        <div class="timer-active-fill" id="timerFill"></div>
+        <span class="timer-active-text" id="timerText"></span>
+        <button class="timer-stop-btn" id="timerStopBtn" aria-label="Stop timer">✕</button>
+      </div>
+    </div>
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+    <script src="./data.js?v=41"></script>
+    <script src="./business-content.js?v=1"></script>
+    <script src="./pe-content.js?v=1"></script>
+    <script src="./bio-content.js?v=2"></script>
+    <script src="./geo-content.js?v=2"></script>
+    <script src="./maths-content.js?v=1"></script>
+    <script src="./chemistry-content.js?v=1"></script>
+    <script src="./history-flashcards.js?v=1"></script>
+    <script src="./history-content.js?v=1"></script>
+    <script src="./exam-questions-db.js?v=1"></script>
+    <script src="./history-exam-questions.js?v=1"></script>
+    <script src="./chemistry-exam-questions.js?v=1"></script>
+    <script src="./exam-breakdown.js?v=1"></script>
+    <script src="./app.js?v=46"></script>
+    <script src="./timer.js?v=1"></script>
+    <script>
+      if (window.location.hash === '#signin') {
+        sessionStorage.setItem('bb_seen_landing', '1');
+        var authPanel = document.getElementById('authPanel');
+        if (authPanel) authPanel.classList.remove('hidden');
+        var input = document.getElementById('accountName');
+        if (input) input.focus();
+        history.replaceState(null, '', window.location.pathname);
+      }
+    </script>
+  </body>
+</html>

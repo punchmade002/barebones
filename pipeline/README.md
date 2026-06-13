@@ -3,15 +3,39 @@
 Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_PIPELINE.md`](../DATA_PIPELINE.md).
 
 ```
-run.py           ⭐ one command: input a subject -> all relevant papers, digested
+run.py           ⭐ one command: input a subject -> all relevant papers, digested (+ --segment)
 config.py        paths, subjects, and SYLLABUS_CUTOFF (the 'relevant years' rule)
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
+segment.py       Stages 3-6 — batched Haiku: questions + model answers + topic tags + flashcards
+scaffold/        per-subject section+chapter lists the tagger assigns to
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
-stages_3to8.py   Stages 3–8 — segment, pair, tag, derive, load, QA (typed stubs)
-_data/           generated store (gitignore this) — raw, digest, reports
+stages_3to8.py   reference stubs / the Stage 7 renderer
+_data/           generated store (gitignore this) — raw, digest, canonical, reports
 ```
+
+## What costs tokens, and what doesn't
+
+Stages 1-2+ (`run.py` without `--segment`) are **plain Python — zero tokens**. Never run
+them through a Claude agent; just `python run.py history` (or `./run_all.sh`).
+
+Only `segment.py` (Stages 3-6) uses a model, and it does so as **batched Haiku API calls,
+not an interactive agent** — predictable and cheap (a full 20-year subject is a few dollars
+at batch rates). One call per paper returns questions, marking-scheme model answers, topic
+tags, and flashcards as structured JSON.
+
+```bash
+pip install anthropic --break-system-packages
+export ANTHROPIC_API_KEY=sk-ant-...
+python run.py history --segment        # full pipeline, unattended (Batch API)
+python segment.py history --sync --limit 2   # quick 2-paper test, immediate
+```
+
+Output: `_data/canonical/history.json` (source of truth) +
+`_data/canonical/exam-questions-db.history.generated.js` (diff into the app) +
+`_data/reports/segment-history.json` (coverage by chapter + a low-confidence review queue —
+the only place a human is needed).
 
 ## ⭐ One command per subject
 

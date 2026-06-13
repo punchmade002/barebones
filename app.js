@@ -1,5 +1,4 @@
 const storageKey = "bare-bones-app-v4";
-const AVATAR_COLORS = ["#ff4d4d", "#ff8a00", "#ffd400", "#63e000", "#00d084", "#00c2ff", "#2f6bff", "#8e44ff", "#ff4fd8", "#ff6b9a"];
 let APPROVED_USERNAMES = ["gabriel", "whatever"];
 
 async function loadApprovedUsernames() {
@@ -53,6 +52,24 @@ const GEOGRAPHY_SUBJECT = {
   id: "geography",
   title: "Geography",
   chapters: buildSubjectChapters("geography"),
+};
+
+const MATHS_SUBJECT = {
+  id: "maths",
+  title: "Maths",
+  chapters: buildSubjectChapters("maths"),
+};
+
+const CHEMISTRY_SUBJECT = {
+  id: "chemistry",
+  title: "Chemistry",
+  chapters: buildSubjectChapters("chemistry"),
+};
+
+const HISTORY_SUBJECT = {
+  id: "history",
+  title: "History",
+  chapters: buildSubjectChapters("history"),
 };
 
 function buildOutcomes(ch) {
@@ -175,27 +192,65 @@ function buildSubjectChapters(subjectId) {
   if (!filtered.length) {
     return subjectId === "business" ? FALLBACK_CHAPTERS : [];
   }
-  return filtered.map((chapter) => ({
-    id: chapter.id,
-    title: `${chapter.number}. ${chapter.title}`,
-    learningOutcomes: [
-      {
-        id: `${chapter.id}-core`,
-        code: `${chapter.number}.0`,
-        title: "Core Concepts",
-        keyTerms: ensureMinimumConcepts(
-          (chapter.learningOutcomes || []).flatMap((lo, loIndex) =>
-            (lo.notes || []).map((note, idx) => ({
-              term: note.h || `${lo.title} ${idx + 1}`,
-              definition: note.b || "",
-              section: lo.title || `Section ${loIndex + 1}`,
-            }))
-          ),
-          chapter
-        ),
-      },
-    ],
-  }));
+
+  const results = [];
+  for (const chapter of filtered) {
+    const los = chapter.learningOutcomes || [];
+    const hasInjected = los.some((lo) => lo.keyTerms && lo.keyTerms.length > 0);
+
+    if (hasInjected && los.length > 1) {
+      // Expose each LO as its own chapter so sidecar content stays granular.
+      for (const lo of los) {
+        results.push({
+          id: lo.id,
+          title: `${chapter.number}. ${lo.title}`,
+          learningOutcomes: [
+            {
+              id: `${lo.id}-core`,
+              code: lo.code,
+              title: lo.title,
+              keyTerms: (lo.keyTerms && lo.keyTerms.length)
+                ? lo.keyTerms
+                : ensureMinimumConcepts(
+                    (lo.notes || []).map((note, idx) => ({
+                      term: note.h || `${lo.title} ${idx + 1}`,
+                      definition: note.b || "",
+                      section: lo.title,
+                    })),
+                    chapter
+                  ),
+            },
+          ],
+        });
+      }
+    } else {
+      // Single-LO chapters or chapters without injected keyTerms: one merged chapter.
+      results.push({
+        id: chapter.id,
+        title: `${chapter.number}. ${chapter.title}`,
+        learningOutcomes: [
+          {
+            id: `${chapter.id}-core`,
+            code: `${chapter.number}.0`,
+            title: "Core Concepts",
+            keyTerms: ensureMinimumConcepts(
+              los.flatMap((lo, loIndex) =>
+                (lo.keyTerms && lo.keyTerms.length)
+                  ? lo.keyTerms
+                  : (lo.notes || []).map((note, idx) => ({
+                      term: note.h || `${lo.title} ${idx + 1}`,
+                      definition: note.b || "",
+                      section: lo.title || `Section ${loIndex + 1}`,
+                    }))
+              ),
+              chapter
+            ),
+          },
+        ],
+      });
+    }
+  }
+  return results;
 }
 
 function getExternalCourseData() {
@@ -214,6 +269,7 @@ function getExternalCourseData() {
 function ensureMinimumConcepts(points, chapter) {
   const base = Array.isArray(points) ? points.filter((p) => p.term || p.definition) : [];
   if (base.length >= 5) return base; // Keep all original notes when already sufficient.
+  if (base.length === 0) return []; // No real content — don't generate placeholder fillers.
 
   const fillers = [];
   (chapter.learningOutcomes || []).forEach((lo, idx) => {
@@ -242,52 +298,74 @@ const SUBJECTS = [
   PE_SUBJECT,
   BIOLOGY_SUBJECT,
   GEOGRAPHY_SUBJECT,
+  MATHS_SUBJECT,
+  CHEMISTRY_SUBJECT,
+  HISTORY_SUBJECT,
 ];
 
-const SUBJECT_PROMPT_STYLES = {
-  business: [
-    (t) => `Explain ${t} in business terms.`,
-    (t) => `State what ${t} means and why it matters to a firm.`,
-    (t) => `Define ${t} and outline its impact on a business.`,
-    (t) => `Outline the key idea behind ${t} and give a business application.`,
-    (t) => `Describe ${t} with a business-focused explanation.`,
-  ],
-  pe: [
-    (t) => `Explain ${t} in the context of physical education.`,
-    (t) => `State what ${t} means and its relevance to athletic performance.`,
-    (t) => `Describe ${t} and how it applies to sport or training.`,
-    (t) => `Outline ${t} and explain how a coach or athlete would apply it.`,
-    (t) => `Define ${t} in sport science terms.`,
-  ],
-  biology: [
-    (t) => `Explain ${t} in biological terms.`,
-    (t) => `State what ${t} means and its role in a biological process.`,
-    (t) => `Define ${t} and describe its function in living organisms.`,
-    (t) => `Outline ${t} and explain how it operates in the body or cell.`,
-    (t) => `State the biological significance of ${t}.`,
-  ],
-  geography: [
-    (t) => `State the key points about ${t} in geography.`,
-    (t) => `Explain ${t} and give a geographical example from Ireland or Europe.`,
-    (t) => `What processes are involved in ${t}?`,
-    (t) => `Describe ${t} and explain why it occurs.`,
-    (t) => `Examine the causes and effects of ${t}.`,
-  ],
-};
+const SINGULAR_S_WORDS = new Set([
+  "virus","axis","basis","crisis","thesis","nexus","status","campus","focus",
+  "bonus","minus","calculus","stimulus","syllabus","apparatus","process",
+  "success","class","glass","grass","mass","pass","boss","loss","cross",
+  "address","access","business","consensus","genius","series","means","news",
+  "physics","mathematics","economics","statistics","athletics","gymnastics",
+  "politics","ethics","logistics","lens","canvas","bias","gas","atlas",
+  "analysis","emphasis","diagnosis","hypothesis","synthesis","species",
+  "diabetes","progress","stress","taxis","oasis","osis","asis",
+]);
+
+function isPersonTerm(term) {
+  const stripped = term.replace(/\s*\(.*?\)\s*/g, "").trim();
+  const words = stripped.split(/\s+/);
+  const eventNouns = /\b(war|act|treaty|plan|policy|revolution|crisis|movement|system|agreement|election|bill|reform|conference|congress|council|commission|report|court|rising|rebellion|famine|massacre|partition|constitution|declaration|manifesto|league|union|society|party|organisation|organization)\b/i;
+  return (
+    words.length === 2 &&
+    /^[A-Z]/.test(words[0]) &&
+    /^[A-Z]/.test(words[1]) &&
+    !eventNouns.test(stripped)
+  );
+}
+
+function needsDefiniteArticle(term) {
+  return /\b(war|plan|act|treaty|crisis|movement|revolution|policy|system|agreement|conference|report|question|uprising|scheme|programme|rising|rebellion|famine|massacre|partition|constitution|declaration|manifesto|troubles|curtain|state|race|deal|blockade|purge|offensive|doctrine|scandal|holocaust|depression)\b/i.test(term);
+}
+
+function isPluralTerm(term) {
+  // Proper nouns (2+ title-case words) are never grammatically plural
+  const titleCaseWords = term.match(/\b[A-Z][a-z]+/g) || [];
+  if (titleCaseWords.length >= 2) return false;
+  const cleaned = term.replace(/\s*\(.*?\)\s*/g, "").trim();
+  const words = cleaned.split(/\s+/);
+  const isWordPlural = (raw) => {
+    const w = raw.toLowerCase().replace(/[^a-z]/g, "");
+    if (w.length < 3) return false;
+    if (/ss$/.test(w)) return false;
+    if (/(us|is)$/.test(w)) return false;
+    if (SINGULAR_S_WORDS.has(w)) return false;
+    return /s$/.test(w);
+  };
+  return isWordPlural(words[0]) || isWordPlural(words[words.length - 1]);
+}
+
+function termForSentence(term) {
+  const lettersOnly = term.replace(/[^A-Za-z]/g, "");
+  if (lettersOnly.length >= 2 && lettersOnly === lettersOnly.toUpperCase()) return term;
+  if (/'s\b/.test(term)) return term;
+  if (/^[A-Za-z\-]+\s+[A-Z]/.test(term)) return term;
+  return term.charAt(0).toLowerCase() + term.slice(1);
+}
 
 const SUBJECT_FALLBACK_QUESTION = {
   business: (term) => `Explain "${term}" and give one simple business example.`,
   pe: (term) => `Explain "${term}" and give one example from sport or physical activity.`,
   biology: (term) => `Explain "${term}" and describe its role in a biological context.`,
   geography: (term) => `Explain "${term}" and give a relevant geographical example.`,
+  maths: (term) => `Define "${term}" and demonstrate it with a worked example.`,
 };
 
 const els = {
   authPanel: document.getElementById("authPanel"),
   accountName: document.getElementById("accountName"),
-  avatarLabel: document.getElementById("avatarLabel"),
-  avatarPicker: document.getElementById("avatarPicker"),
-  themePicker: document.getElementById("themePicker"),
   openProgress: document.getElementById("openProgress"),
   closeProgress: document.getElementById("closeProgress"),
   progressScreen: document.getElementById("progressScreen"),
@@ -318,16 +396,18 @@ const els = {
   testTab: document.getElementById("testTab"),
   examTab: document.getElementById("examTab"),
   examContainer: document.getElementById("examContainer"),
+  subjectOverview: document.getElementById("subjectOverview"),
 };
 
 let state = loadState();
-let selectedAvatarColor = AVATAR_COLORS[0];
+let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
 let expandedSubjectId = SUBJECTS[0].id;
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
 let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
 let studyIndex = 0;
 let showAnswer = false;
+let viewMode = 'chapter';
 
 bindEvents();
 renderAll();
@@ -353,16 +433,16 @@ function bindEvents() {
     if (!state.usersByName[name]) {
       state.usersByName[name] = {
         username: name,
-        avatarColor: selectedAvatarColor,
         testsCompleted: 0,
         viewedNotesByChapter: {},
         progressByOutcome: {},
         learnedByOutcome: {},
-        subjects: SUBJECTS.map((s) => s.id),
+        disabledSubjects: [],
       };
     }
     state.session.currentUser = name;
     persist();
+    triggerLoginAnimation(name);
     renderAll();
     els.accountStatus.textContent = `Welcome, ${name}.`;
   });
@@ -371,6 +451,16 @@ function bindEvents() {
   els.closeFullNotes.addEventListener("click", closeFullNotes);
   els.openProgress.addEventListener("click", openProgress);
   els.closeProgress.addEventListener("click", closeProgress);
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
+      closeExamBreakdown();
+    } else if (!els.fullNotesScreen.classList.contains("hidden")) {
+      closeFullNotes();
+    } else if (!els.progressScreen.classList.contains("hidden")) {
+      closeProgress();
+    }
+  });
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchTab(tab.dataset.tab)));
   els.profileAvatar.addEventListener("click", () => {
     if (!getCurrentUser()) return;
@@ -424,6 +514,40 @@ function reconcileSelection() {
   }
 }
 
+function triggerLoginAnimation(name) {
+  const overlay = document.getElementById("loginOverlay");
+  if (!overlay) return;
+  const asciiEl = overlay.querySelector(".login-ascii");
+  const welcomeEl = overlay.querySelector(".login-welcome");
+  const src = document.getElementById("asciiHeader");
+  if (asciiEl && src) asciiEl.textContent = src.textContent;
+  if (welcomeEl) welcomeEl.textContent = "welcome, " + name.toLowerCase();
+  overlay.classList.remove("is-visible", "is-exiting");
+  void overlay.offsetWidth;
+  overlay.setAttribute("aria-hidden", "false");
+  overlay.classList.add("is-visible");
+  setTimeout(() => {
+    overlay.classList.add("is-exiting");
+    setTimeout(() => {
+      overlay.classList.remove("is-visible", "is-exiting");
+      overlay.setAttribute("aria-hidden", "true");
+    }, 600);
+  }, 2500);
+}
+
+function renderTabVisibility() {
+  const isMaths = selectedSubjectId === "maths";
+  els.tabs.forEach((btn) => {
+    const tab = btn.dataset.tab;
+    if (tab === "flashcards" || tab === "test") {
+      btn.classList.toggle("hidden", isMaths);
+    }
+  });
+  if (isMaths && !els.examTab.classList.contains("active")) {
+    switchTab("exam");
+  }
+}
+
 function renderAll() {
   reconcileSelection();
   renderAccount();
@@ -432,6 +556,8 @@ function renderAll() {
   renderAvatarPicker();
   renderSubjectPicker();
   renderGraph();
+  renderSubjectOverview();
+  renderTabVisibility();
   renderOutcomes();
   renderTestOverview();
   if (els.examTab?.classList.contains("active")) renderExamSection();
@@ -439,8 +565,10 @@ function renderAll() {
 
 function getEnabledSubjectIds(user) {
   if (!user) return SUBJECTS.map((s) => s.id);
-  if (!Array.isArray(user.subjects)) return SUBJECTS.map((s) => s.id);
-  return user.subjects.length ? user.subjects : SUBJECTS.map((s) => s.id);
+  const allIds = SUBJECTS.map((s) => s.id);
+  // New model: disabledSubjects stores explicit opt-outs; new subjects auto-appear.
+  const disabled = new Set(Array.isArray(user.disabledSubjects) ? user.disabledSubjects : []);
+  return allIds.filter((id) => !disabled.has(id));
 }
 
 function getEnabledSubjects() {
@@ -455,11 +583,11 @@ function renderSubjectPicker() {
     els.subjectPicker.innerHTML = "";
     return;
   }
-  const enabled = new Set(getEnabledSubjectIds(user));
+  const disabled = new Set(Array.isArray(user.disabledSubjects) ? user.disabledSubjects : []);
   els.subjectPicker.innerHTML = SUBJECTS.map(
     (s) => `
       <label>
-        <input type="checkbox" data-subject="${escapeHtml(s.id)}" ${enabled.has(s.id) ? "checked" : ""} />
+        <input type="checkbox" data-subject="${escapeHtml(s.id)}" ${!disabled.has(s.id) ? "checked" : ""} />
         <span>${escapeHtml(s.title)}</span>
       </label>`
   ).join("");
@@ -467,12 +595,13 @@ function renderSubjectPicker() {
     cb.addEventListener("change", () => {
       const u = getCurrentUser();
       if (!u) return;
-      const ids = Array.from(
-        els.subjectPicker.querySelectorAll("input[type=checkbox]:checked")
+      const unchecked = Array.from(
+        els.subjectPicker.querySelectorAll("input[type=checkbox]:not(:checked)")
       ).map((el) => el.dataset.subject);
-      u.subjects = ids.length ? ids : SUBJECTS.map((s) => s.id);
-      if (!u.subjects.includes(selectedSubjectId)) {
-        const first = SUBJECTS.find((s) => u.subjects.includes(s.id));
+      u.disabledSubjects = unchecked;
+      const enabledIds = getEnabledSubjectIds(u);
+      if (!enabledIds.includes(selectedSubjectId)) {
+        const first = SUBJECTS.find((s) => enabledIds.includes(s.id));
         if (first) {
           selectedSubjectId = first.id;
           selectedChapterId = first.chapters[0]?.id || "";
@@ -509,41 +638,16 @@ function renderAccountSwitcher() {
 }
 
 function renderAvatarPicker() {
-  [els.avatarPicker, els.themePicker].forEach((host) => {
-    if (!host) return;
-    host.innerHTML = "";
-    AVATAR_COLORS.forEach((color) => {
-      const swatch = document.createElement("button");
-      swatch.type = "button";
-      const activeColor = getCurrentUser()?.avatarColor || selectedAvatarColor;
-      swatch.className = `avatar-option${activeColor === color ? " selected" : ""}`;
-      swatch.style.background = color;
-      swatch.ariaLabel = `Select ${color} theme colour`;
-      swatch.addEventListener("click", () => {
-        const current = getCurrentUser();
-        if (current) {
-          current.avatarColor = color;
-        } else {
-          selectedAvatarColor = color;
-        }
-        persist();
-        renderAvatarPicker();
-        renderProfileAvatar();
-      });
-      host.appendChild(swatch);
-    });
-  });
+  // Color pickers removed — avatar is always the fixed orange accent.
 }
 
 function renderProfileAvatar() {
   if (!els.profileAvatar) return;
   const current = getCurrentUser();
-  const color = current?.avatarColor || selectedAvatarColor || AVATAR_COLORS[0];
-  els.profileAvatar.style.background = color;
-  els.profileAvatar.title = current ? `${current.username}'s profile` : "Profile picture";
+  els.profileAvatar.textContent = current ? current.username[0].toUpperCase() : "";
+  els.profileAvatar.title = current ? `${current.username}'s profile` : "Profile";
   els.profileAvatar.disabled = !current;
   if (!current) els.profileMenu.classList.add("hidden");
-  applyAccentColor(current ? color : "#f97316");
   renderProfileLevel();
 }
 
@@ -561,6 +665,7 @@ function renderProfileLevel() {
 
 function computeUserProgress(user) {
   const progress = user?.progressByOutcome || {};
+  const learned = user?.learnedByOutcome || {};
   let earned = 0;
   let total = 0;
   const enabledIds = getEnabledSubjectIds(user);
@@ -569,7 +674,11 @@ function computeUserProgress(user) {
       (ch.learningOutcomes || []).forEach((lo) => {
         const concepts = (lo.keyTerms || []).length;
         total += concepts;
-        if ((progress[lo.id] || 0) >= 1) earned += concepts;
+        if ((progress[lo.id] || 0) >= 1) {
+          earned += concepts;
+        } else {
+          earned += (learned[lo.id] || []).length;
+        }
       });
     });
   });
@@ -577,69 +686,35 @@ function computeUserProgress(user) {
   return { earned, total, percent };
 }
 
-function applyAccentColor(hex) {
-  const root = document.documentElement;
-  const hsl = hexToHsl(hex);
-  if (!hsl) return;
-  const { h, s } = hsl;
-  const sat = Math.max(60, Math.min(s, 90));
-  const isYellow = h >= 40 && h <= 70;
-  const accentL = isYellow ? 44 : 50;
-  const accent2L = isYellow ? 56 : 62;
-  const inkL = isYellow ? 22 : 18;
-  const strongL = isYellow ? 24 : 28;
-  const set = (name, l, sOverride) =>
-    root.style.setProperty(name, `hsl(${h} ${sOverride ?? sat}% ${l}%)`);
-  set("--accent", accentL);
-  set("--accent-2", accent2L);
-  set("--accent-strong", strongL);
-  set("--accent-ink", inkL, Math.max(70, sat));
-  set("--accent-edge", 70);
-  set("--accent-soft", 84);
-  set("--accent-softer", 94);
-  set("--accent-bg", 97);
-  set("--highlight-orange", 70, Math.max(70, sat));
-  set("--highlight-orange-soft", 88, Math.max(60, sat));
-}
-
-function hexToHsl(hex) {
-  const m = String(hex || "").trim().match(/^#?([a-f0-9]{6}|[a-f0-9]{3})$/i);
-  if (!m) return null;
-  let h = m[1];
-  if (h.length === 3) h = h.split("").map((c) => c + c).join("");
-  const r = parseInt(h.slice(0, 2), 16) / 255;
-  const g = parseInt(h.slice(2, 4), 16) / 255;
-  const b = parseInt(h.slice(4, 6), 16) / 255;
-  const max = Math.max(r, g, b);
-  const min = Math.min(r, g, b);
-  const l = (max + min) / 2;
-  let s = 0;
-  let hue = 0;
-  if (max !== min) {
-    const d = max - min;
-    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-    switch (max) {
-      case r: hue = (g - b) / d + (g < b ? 6 : 0); break;
-      case g: hue = (b - r) / d + 2; break;
-      default: hue = (r - g) / d + 4;
-    }
-    hue *= 60;
-  }
-  return { h: Math.round(hue), s: Math.round(s * 100), l: Math.round(l * 100) };
-}
 
 function renderGraph() {
   els.subjectGraph.innerHTML = "";
   getEnabledSubjects().forEach((subject) => {
     const block = document.createElement("div");
     block.className = "graph-subject";
+    const hasBreakdown = !!window.EXAM_BREAKDOWN?.[subject.id];
     block.innerHTML = `
-      <button class="graph-subject-main button-primary">${escapeHtml(subject.title)}</button>
+      <div class="graph-subject-header">
+        <button class="graph-subject-name${hasBreakdown ? ' has-breakdown' : ''}">${escapeHtml(subject.title)}</button>
+        <button class="graph-subject-chevron" aria-label="Expand chapters" title="Show chapters">›</button>
+      </div>
       <div class="graph-chapters ${expandedSubjectId === subject.id ? "" : "hidden"}"></div>
     `;
-    block.querySelector(".graph-subject-main").addEventListener("click", () => {
+    block.querySelector(".graph-subject-name").addEventListener("click", () => {
+      if (hasBreakdown) {
+        openExamBreakdown(subject.id);
+      } else {
+        expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
+        selectedSubjectId = subject.id;
+        viewMode = 'subject-overview';
+        renderAll();
+      }
+    });
+    block.querySelector(".graph-subject-chevron").addEventListener("click", () => {
       expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
-      renderGraph();
+      selectedSubjectId = subject.id;
+      viewMode = 'subject-overview';
+      renderAll();
     });
     const chaptersWrap = block.querySelector(".graph-chapters");
     subject.chapters.forEach((chapter) => {
@@ -652,6 +727,7 @@ function renderGraph() {
         selectedOutcomeId = chapter.learningOutcomes[0].id;
         studyIndex = 0;
         showAnswer = false;
+        viewMode = 'chapter';
         renderAll();
       });
       chaptersWrap.appendChild(chapterButton);
@@ -659,6 +735,62 @@ function renderGraph() {
     els.subjectGraph.appendChild(block);
   });
   els.subjectWorkbench.classList.toggle("hidden", !getCurrentUser());
+}
+
+function renderSubjectOverview() {
+  const overviewEl = els.subjectOverview;
+  if (!overviewEl) return;
+
+  const isOverview = viewMode === 'subject-overview' && Boolean(getCurrentUser());
+  els.subjectWorkbench.classList.toggle('overview-mode', isOverview);
+  overviewEl.classList.toggle('hidden', !isOverview);
+
+  if (!isOverview) return;
+
+  const user = getCurrentUser();
+  const subjectStats = buildProgressSubjectStats(user);
+  const ss = subjectStats.find(s => s.subject.id === selectedSubjectId);
+  if (!ss) { overviewEl.innerHTML = ''; return; }
+
+  const rows = ss.chStats.map(s => {
+    const pct = Math.round(s.ratio * 100);
+    return `
+      <button class="overview-chapter-row" onclick="selectChapterFromOverview('${escapeHtml(s.ch.id)}')">
+        <div class="overview-chapter-text">
+          <span class="overview-chapter-title">${escapeHtml(s.ch.title)}</span>
+          <span class="overview-chapter-score">${s.earned}/${s.total}</span>
+        </div>
+        <div class="overview-progress-bar">
+          <div class="overview-progress-fill" style="width:${pct}%"></div>
+        </div>
+      </button>`;
+  }).join('');
+
+  overviewEl.innerHTML = `
+    <div class="overview-header">
+      <div class="overview-header-text">
+        <h3>${escapeHtml(ss.subject.title)}</h3>
+        <span class="muted small">${ss.pct}% · ${ss.earned}/${ss.total} concepts</span>
+      </div>
+      <div class="overview-total-bar">
+        <div class="overview-total-fill" style="width:${ss.pct}%"></div>
+      </div>
+    </div>
+    <div class="overview-chapter-list">${rows}</div>
+  `;
+}
+
+function selectChapterFromOverview(chapterId) {
+  const subject = SUBJECTS.find(s => s.id === selectedSubjectId);
+  if (!subject) return;
+  const chapter = subject.chapters.find(c => c.id === chapterId);
+  if (!chapter) return;
+  selectedChapterId = chapterId;
+  selectedOutcomeId = chapter.learningOutcomes[0]?.id || '';
+  studyIndex = 0;
+  showAnswer = false;
+  viewMode = 'chapter';
+  renderAll();
 }
 
 function renderOutcomes() {
@@ -685,15 +817,22 @@ function renderOutcomes() {
   if (studyIndex >= cards.length) studyIndex = 0;
   const card = cards[studyIndex] || { term: "No content", definition: "No chapter concepts loaded." };
   const step = getProgressByOutcome()[outcome.id] || 0;
-  const pct = Math.round((step / 3) * 100);
-  const learnedSet = new Set(getLearnedByOutcome()[outcome.id] || []);
-  const learnedCount = learnedSet.size;
+  const learnedByOutcome = getLearnedByOutcome();
+  const learnedSet = new Set(learnedByOutcome[outcome.id] || []);
+  let chapterTotalCards = 0;
+  let chapterLearnedCards = 0;
+  chapter.learningOutcomes.forEach(lo => {
+    const loCards = cardsForOutcome(lo, selectedSubjectId);
+    chapterTotalCards += loCards.length;
+    const loLearned = new Set(learnedByOutcome[lo.id] || []);
+    chapterLearnedCards += loCards.filter(c => loLearned.has(c.id)).length;
+  });
+  const chapterPct = chapterTotalCards > 0 ? Math.round((chapterLearnedCards / chapterTotalCards) * 100) : 0;
 
   els.flashcardStudy.innerHTML = `
     <p class="muted small">${escapeHtml(chapter.title)}</p>
-    <p class="muted small">${allPoints.length} concept points</p>
-    <div class="progress-bar"><span style="width:${pct}%"></span></div>
-    <p class="muted small">Learned cards: ${learnedCount}/${cards.length}</p>
+    <p class="muted small">${chapterLearnedCards}/${chapterTotalCards} concept points learned</p>
+    <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
     <p class="muted small">Goal progress: ${step}/3</p>
     <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
     <div class="study-controls">
@@ -727,6 +866,7 @@ function renderOutcomes() {
     set.add(card.id);
     learnedByOutcome[outcome.id] = Array.from(set);
     persist();
+    renderProfileLevel();
     renderOutcomes();
     renderTestOverview();
   });
@@ -821,7 +961,7 @@ function renderTestOverview(latestScore) {
 function cardsForOutcome(outcome, subjectId) {
   return (outcome.keyTerms || []).map((kt, idx) => ({
     id: `${outcome.id}-k-${idx + 1}`,
-    term: buildPrompt(kt.term, idx, kt, subjectId),
+    term: kt.term,
     definition: compactText(kt.definition),
     keywords: extractKeywords(kt),
   }));
@@ -829,7 +969,10 @@ function cardsForOutcome(outcome, subjectId) {
 
 function getExamQuestionsForChapter(chapter) {
   const source = getOriginalChapter(chapter.id);
-  return source?.examQuestions || [];
+  const cached = source?.examQuestions || [];
+  if (cached.length) return cached;
+  // Fall back to live DB for chapters loaded via additive scripts after the initial push loop.
+  return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
 }
 
 function getExamDisclaimer(subject) {
@@ -843,6 +986,24 @@ function getExamDisclaimer(subject) {
     return `<div class="exam-disclaimer exam-disclaimer--info">
       <span class="exam-disclaimer-icon">ℹ</span>
       <span>The Biology course has minor differences from previous years. Past exam papers are still a <strong>reliable</strong> way to study — the core content is largely the same.</span>
+    </div>`;
+  }
+  if (subject === "maths") {
+    return `<div class="exam-disclaimer exam-disclaimer--info">
+      <span class="exam-disclaimer-icon">ℹ</span>
+      <span>LC Maths HL past papers are a <strong>highly reliable</strong> study tool — the course content and marking scheme are consistent year to year.</span>
+    </div>`;
+  }
+  if (subject === "geography") {
+    return `<div class="exam-disclaimer exam-disclaimer--info">
+      <span class="exam-disclaimer-icon">ℹ</span>
+      <span>Geography underwent a major restructure in 2020. Questions tagged <strong>[old course]</strong> are from the previous format and may not reflect current exam structure.</span>
+    </div>`;
+  }
+  if (subject === "pe") {
+    return `<div class="exam-disclaimer exam-disclaimer--info">
+      <span class="exam-disclaimer-icon">ℹ</span>
+      <span>PE past papers are available from 2020 onwards. Model answers are not yet available — use these questions for practice and self-review.</span>
     </div>`;
   }
   return "";
@@ -861,7 +1022,7 @@ function renderExamSection() {
     return;
   }
 
-  const disclaimer = getExamDisclaimer(chapter.subject);
+  const disclaimer = getExamDisclaimer(selectedSubjectId);
 
   els.examContainer.innerHTML = disclaimer + examGroups.map((group) => {
     const parts = (group.parts || []).map((part, pIdx) => {
@@ -900,16 +1061,29 @@ function renderExamSection() {
         </div>`
       : "";
 
+    const _sq = getSectionForQuestion(group.id);
+    const sectionBadge = examSectionBadge(_sq?.section, _sq?.data);
     return `
       <div class="exam-group${group.caseStudy ? " exam-group--case-study" : ""}">
         <div class="exam-group-header">
           <span class="exam-source-tag">${escapeHtml(group.source)}</span>
+          ${sectionBadge}
         </div>
         ${contextBox}
         ${parts}
         ${appliesToBlock}
       </div>`;
   }).join("");
+
+  if (typeof renderMathInElement !== "undefined") {
+    renderMathInElement(els.examContainer, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+      ],
+      throwOnError: false,
+    });
+  }
 }
 
 function toggleExamAnswer(partId, btn) {
@@ -1015,12 +1189,51 @@ function findKeywordHits(answer, keywords) {
   });
 }
 
-function buildPrompt(term, index, kt, subjectId) {
+function buildPrompt(term, index, kt) {
   const cleanTerm = compactText(term);
-  const styleSet = SUBJECT_PROMPT_STYLES[subjectId] || SUBJECT_PROMPT_STYLES.business;
-  let prompt = styleSet[index % styleSet.length](cleanTerm);
-  if (shouldAskForExamples(kt)) prompt += " State examples.";
-  return prompt;
+  const type = kt && kt.type;
+
+  // All-caps acronym: e.g. GDPR, ATP, ACE FACE, BREAKS
+  const lettersOnly = cleanTerm.replace(/[^A-Za-z]/g, "");
+  if (lettersOnly.length >= 2 && lettersOnly === lettersOnly.toUpperCase()) {
+    return `What does ${cleanTerm} stand for?`;
+  }
+
+  // Numbered mnemonic: "3 Cs", "4 Ms", "6 Rs"
+  if (/^\d+\s+[A-Z]/.test(cleanTerm)) {
+    return `What do the ${cleanTerm} stand for?`;
+  }
+
+  // Named theorem / rule / law / formula / equation
+  if (/\b(theorem|rule|law|formula|equation)\b/i.test(cleanTerm)) {
+    return `What does the ${termForSentence(cleanTerm)} state?`;
+  }
+
+  // Person: type annotation when present; heuristic only as fallback for untyped terms
+  const isPerson = type === "person" || (!type && isPersonTerm(cleanTerm));
+  if (isPerson) {
+    const pool = [
+      () => `Who was ${cleanTerm}?`,
+      () => `What role did ${cleanTerm} play?`,
+      () => `Why is ${cleanTerm} historically significant?`,
+    ];
+    return pool[index % pool.length]();
+  }
+
+  // Named event: add definite article for unquoted variant
+  // "event" type OR keyword match (policy/movement/concept: keyword match only, not type alone)
+  const alreadyHasThe = /^the\s/i.test(cleanTerm);
+  const hasArticle = !alreadyHasThe && (type === "event" || needsDefiniteArticle(cleanTerm));
+  const article = hasArticle ? "the " : "";
+  const inlineTerm = article + termForSentence(cleanTerm);
+  const plural = isPluralTerm(cleanTerm);
+  const pool = [
+    () => plural ? `What are ${inlineTerm}?` : `What is ${inlineTerm}?`,
+    () => `What is meant by "${cleanTerm}"?`,
+    () => `What does "${cleanTerm}" mean?`,
+    () => `How would you define "${cleanTerm}"?`,
+  ];
+  return pool[index % pool.length]();
 }
 
 function compactText(text) {
@@ -1033,11 +1246,12 @@ function compactText(text) {
 }
 
 function questionsForOutcome(outcome, subjectId) {
-  const fallback = SUBJECT_FALLBACK_QUESTION[subjectId] || SUBJECT_FALLBACK_QUESTION.business;
+  // DISABLED AUTO-GENERATION: biology uses hand-authored questions from bio-content.js
+  // const fallback = SUBJECT_FALLBACK_QUESTION[subjectId] || SUBJECT_FALLBACK_QUESTION.business;
   return (outcome.keyTerms || []).map((kt, idx) => ({
     id: `${outcome.id}-q-${idx + 1}`,
-    term: fallback(kt.term),
-    answer: `${kt.term} ${kt.definition}`,
+    term: kt.term,
+    answer: kt.definition,
     keywords: extractKeywords(kt),
   }));
 }
@@ -1226,7 +1440,11 @@ function openFullNotes() {
 function buildFullNotesHtml(chapter) {
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes) && source.learningOutcomes.length) {
-    return source.learningOutcomes
+    // If chapter.id is an LO id (not the chapter's own id), show only that LO's notes.
+    const losToShow = source.id === chapter.id
+      ? source.learningOutcomes
+      : source.learningOutcomes.filter((lo) => lo.id === chapter.id);
+    return (losToShow.length ? losToShow : source.learningOutcomes)
       .map((lo) => {
         const noteHtml = (lo.notes || [])
           .map(
@@ -1260,16 +1478,29 @@ function buildFullNotesHtml(chapter) {
 function getOriginalChapter(chapterId) {
   const data = getExternalCourseData();
   if (!data) return null;
-  return (data.chapters || []).find((c) => c.id === chapterId) || null;
+  const chapters = data.chapters || [];
+  // Direct match (e.g. "geo1", "bio1")
+  const direct = chapters.find((c) => c.id === chapterId);
+  if (direct) return direct;
+  // LO-based ID (e.g. "geo1-1") — return the parent chapter
+  return chapters.find((c) =>
+    (c.learningOutcomes || []).some((lo) => lo.id === chapterId)
+  ) || null;
 }
 
 function closeFullNotes() {
   els.fullNotesScreen.classList.add("hidden");
-  document.body.style.overflow = "";
+  if (_fullNotesReturnToBreakdown) {
+    openExamBreakdown(_fullNotesReturnToBreakdown);
+    _fullNotesReturnToBreakdown = null;
+  } else {
+    document.body.style.overflow = "";
+  }
 }
 
 function buildProgressSubjectStats(user) {
   const progress = user?.progressByOutcome || {};
+  const learned = user?.learnedByOutcome || {};
   return getEnabledSubjects().map((subject) => {
     let subEarned = 0, subTotal = 0;
     const chStats = (subject.chapters || []).map((ch) => {
@@ -1277,7 +1508,11 @@ function buildProgressSubjectStats(user) {
       (ch.learningOutcomes || []).forEach((lo) => {
         const concepts = (lo.keyTerms || []).length;
         chTotal += concepts;
-        if ((progress[lo.id] || 0) >= 1) chEarned += concepts;
+        if ((progress[lo.id] || 0) >= 1) {
+          chEarned += concepts;
+        } else {
+          chEarned += (learned[lo.id] || []).length;
+        }
       });
       subEarned += chEarned;
       subTotal += chTotal;
@@ -1395,6 +1630,7 @@ function persist() {
   localStorage.setItem(storageKey, JSON.stringify(state));
 }
 
+
 function getCurrentUser() {
   const username = state.session.currentUser;
   return username ? state.usersByName[username] || null : null;
@@ -1475,4 +1711,199 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+// ── Exam Breakdown Modal ──────────────────────────────────────
+
+function getSectionForQuestion(questionId) {
+  const q = window.EXAM_QUESTIONS_INDEX?.get(questionId);
+  if (!q?.sectionId || !q?.subject) return null;
+  const data = window.EXAM_BREAKDOWN?.[q.subject];
+  const section = data?.sections?.find(function (s) { return s.id === q.sectionId; });
+  return section ? { section, data } : null;
+}
+
+function examSectionBadge(section, data) {
+  if (!section) return '';
+  let mins = section.minutesPerQuestion;
+  if (mins == null && data?.totalMarks && data?.totalMinutes) {
+    mins = Math.round((section.marks / data.totalMarks) * data.totalMinutes);
+  }
+  const timeStr = mins != null ? ` · ~${mins} min` : '';
+  const bg = section.color + '22';
+  return `<span class="exam-section-badge" style="background:${bg};color:${section.color};border-color:${section.color}55">${escapeHtml(section.name)}${timeStr}</span>`;
+}
+
+function openExamBreakdown(subjectId) {
+  const data = window.EXAM_BREAKDOWN?.[subjectId];
+  if (!data) return;
+  document.getElementById('examBreakdownContent').innerHTML = renderBreakdownModal(data);
+  document.getElementById('examBreakdownModal').classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeExamBreakdown() {
+  document.getElementById('examBreakdownModal').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+
+function renderBreakdownModal(data) {
+  const subjectTitle = data.subject.charAt(0).toUpperCase() + data.subject.slice(1);
+  if (data.notice) {
+    return `
+      <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0.75rem 0">${subjectTitle} — Exam Breakdown</h2>
+      <div class="breakdown-tip-group" style="max-width:480px">
+        <div class="breakdown-tip-label">Notice</div>
+        <div class="breakdown-tip-text">${escapeHtml(data.notice)}</div>
+      </div>`;
+  }
+  const timeStr = data.timingNote ? ` · ${data.timingNote}` : data.totalMinutes ? ` · ${Math.floor(data.totalMinutes / 60)}h ${data.totalMinutes % 60}m` : '';
+  return `
+    <h2 style="font-size:1.1rem;font-weight:700;margin:0 2.5rem 0 0">${subjectTitle} — Exam Breakdown</h2>
+    <p style="font-size:0.82rem;color:var(--muted);margin:0.2rem 0 0">Total: ${data.totalMarks} marks${timeStr} — click a section to see tips and practice questions</p>
+    <div class="breakdown-layout">
+      <div>
+        ${renderBreakdownPie(data.sections, data.subject)}
+        <ul class="breakdown-section-list">
+          ${data.sections.map((s, i) => `
+            <li class="breakdown-section-item" onclick="selectBreakdownSection('${data.subject}', ${i})" data-idx="${i}">
+              <span class="breakdown-dot" style="background:${s.color}"></span>
+              <span>${s.name}</span>
+              <span class="breakdown-marks">${s.marks} marks</span>
+            </li>`).join('')}
+        </ul>
+      </div>
+      <div id="breakdownDetail" class="breakdown-detail">
+        <p class="breakdown-detail-empty">Select a section to see tips and practice questions.</p>
+      </div>
+    </div>`;
+}
+
+function renderBreakdownPie(sections, subjectId) {
+  const total = sections.reduce((s, x) => s + x.marks, 0);
+  const cx = 90, cy = 90, r = 78;
+  let angle = -Math.PI / 2;
+  const paths = sections.map((sec, i) => {
+    const sweep = (sec.marks / total) * 2 * Math.PI;
+    const x1 = cx + r * Math.cos(angle);
+    const y1 = cy + r * Math.sin(angle);
+    angle += sweep;
+    const x2 = cx + r * Math.cos(angle);
+    const y2 = cy + r * Math.sin(angle);
+    const large = sweep > Math.PI ? 1 : 0;
+    const pct = Math.round((sec.marks / total) * 100);
+    const midAngle = angle - sweep / 2;
+    const lx = cx + (r * 0.6) * Math.cos(midAngle);
+    const ly = cy + (r * 0.6) * Math.sin(midAngle);
+    return `<path class="breakdown-wedge" d="M${cx},${cy} L${x1.toFixed(2)},${y1.toFixed(2)} A${r},${r} 0 ${large},1 ${x2.toFixed(2)},${y2.toFixed(2)} Z"
+              fill="${sec.color}" data-idx="${i}"
+              onclick="selectBreakdownSection('${subjectId}', ${i})"
+              title="${sec.name} — ${sec.marks} marks"/>
+            <text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" text-anchor="middle" dominant-baseline="middle"
+              style="font-size:11px;font-weight:700;fill:#fff;pointer-events:none">${pct}%</text>`;
+  }).join('');
+  return `<div class="breakdown-pie-wrap"><svg viewBox="0 0 180 180">${paths}</svg></div>`;
+}
+
+function selectBreakdownSection(subjectId, idx) {
+  const data = window.EXAM_BREAKDOWN?.[subjectId];
+  if (!data) return;
+  const section = data.sections[idx];
+
+  document.querySelectorAll('.breakdown-section-item').forEach((el, i) => {
+    el.classList.toggle('active', i === idx);
+    el.style.borderColor = i === idx ? section.color : '';
+  });
+  document.querySelectorAll('.breakdown-wedge').forEach((el) => {
+    el.classList.toggle('active', parseInt(el.dataset.idx) === idx);
+  });
+
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
+
+  const tips = section.tips;
+  document.getElementById('breakdownDetail').innerHTML = `
+    <div class="breakdown-tip-group">
+      <div class="breakdown-tip-label">Timing</div>
+      <div class="breakdown-tip-text">${tips.timing}</div>
+    </div>
+    <div class="breakdown-tip-group">
+      <div class="breakdown-tip-label">Answer Structure</div>
+      <div class="breakdown-tip-text">${tips.structure}</div>
+    </div>
+    <div class="breakdown-tip-group">
+      <div class="breakdown-tip-label">Reminders</div>
+      <ul class="breakdown-reminders">
+        ${tips.reminders.map(r => `<li>${escapeHtml(r)}</li>`).join('')}
+      </ul>
+    </div>
+    ${questions.length
+      ? `<button class="button-primary" style="margin-top:0.25rem;align-self:flex-start"
+           onclick="openSectionQuestions('${subjectId}',${idx})">
+           Exam Questions (${questions.length})
+         </button>`
+      : '<p class="breakdown-detail-empty">No past-paper questions indexed for this section yet.</p>'
+    }`;
+}
+
+function openSectionQuestions(subjectId, sectionIdx) {
+  const data = window.EXAM_BREAKDOWN?.[subjectId];
+  if (!data) return;
+  const section = data.sections[sectionIdx];
+
+  const questions = (window.EXAM_QUESTIONS_DB || []).filter(q => q.sectionId === section.id);
+
+  const questionsHtml = questions.map((group, qi) => {
+    const parts = (group.parts || []).map((part, pIdx) => {
+      const partId = `bq-${qi}-p${pIdx}`;
+      const diagramHtml = part.diagram
+        ? `<div class="exam-diagram-inline">
+            <div class="exam-diagram-label">Diagram</div>
+            <img src="${escapeHtml(part.diagram)}" alt="Exam diagram" />
+           </div>`
+        : '';
+      return `
+        <div class="exam-part">
+          <div class="exam-part-header">
+            <span class="exam-part-label">${escapeHtml(part.label || '')}</span>
+            ${part.marks ? `<span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? '' : 's'}</span>` : ''}
+          </div>
+          <p class="exam-question-text">${escapeHtml(part.question || '')}</p>
+          ${diagramHtml}
+          <textarea class="exam-textarea" placeholder="Write your answer here…" rows="8"></textarea>
+          ${part.model ? `
+            <div class="exam-answer-wrap hidden" id="ans-${escapeHtml(partId)}">
+              <p class="exam-answer-label">Model Answer</p>
+              <div class="exam-answer-text">${formatModelAnswer(part.model)}</div>
+            </div>
+            <button class="button-secondary exam-toggle-btn" onclick="toggleExamAnswer('${escapeHtml(partId)}', this)">Show Model Answer</button>
+          ` : ''}
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="exam-group">
+        <div class="exam-group-header">
+          <span class="exam-source-tag">${escapeHtml(group.source || group.id)}</span>
+          ${examSectionBadge(section, data)}
+        </div>
+        ${parts}
+      </div>`;
+  }).join('');
+
+  // Hide the breakdown modal so the full-screen questions view is unobstructed
+  document.getElementById('examBreakdownModal').classList.add('hidden');
+  _fullNotesReturnToBreakdown = subjectId;
+
+  // Populate and open the full-notes screen (true full-screen overlay)
+  document.getElementById('fullNotesTitle').textContent = `${section.name} — Practice Questions`;
+  document.getElementById('fullNotesBody').innerHTML = `<div class="exam-container exam-container--fullscreen">${questionsHtml}</div>`;
+  els.fullNotesScreen.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+
+  if (typeof renderMathInElement !== 'undefined') {
+    renderMathInElement(els.fullNotesScreen, {
+      delimiters: [{ left: '$$', right: '$$', display: true }, { left: '$', right: '$', display: false }],
+      throwOnError: false,
+    });
+  }
 }

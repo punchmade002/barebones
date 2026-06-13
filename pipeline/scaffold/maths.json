@@ -1,0 +1,37 @@
+{
+  "subject": "maths",
+  "field": "Leaving Certificate Mathematics — Higher Level (Project Maths)",
+  "note": "Chapters mirror the app's existing maths1..maths26 (data.js). LC Maths has two papers (Paper 1: algebra, functions, calculus, complex numbers, sequences, financial maths; Paper 2: geometry, trig, coordinate geometry, probability, statistics). Each paper has Section A (concepts) and Section B (contexts & applications). Tag each question to the single chapter it best fits.",
+  "sections": [
+    { "id": "maths-sectionA", "title": "Section A — Concepts and Skills" },
+    { "id": "maths-sectionB", "title": "Section B — Contexts and Applications" }
+  ],
+  "chapters": [
+    { "id": "maths1",  "title": "Algebra - Cubics" },
+    { "id": "maths2",  "title": "Algebra - Expressions & Factorising" },
+    { "id": "maths3",  "title": "Algebra - Inequalities" },
+    { "id": "maths4",  "title": "Algebra - Quadratics" },
+    { "id": "maths5",  "title": "Algebra - Simultaneous Equations" },
+    { "id": "maths6",  "title": "Algebra - Solving Equations" },
+    { "id": "maths7",  "title": "Area & Volume" },
+    { "id": "maths8",  "title": "Co-Ordinate Geometry of the Circle" },
+    { "id": "maths9",  "title": "Co-Ordinate Geometry of the Line" },
+    { "id": "maths10", "title": "Complex Numbers" },
+    { "id": "maths11", "title": "Differentiation - Applications" },
+    { "id": "maths12", "title": "Differentiation - Rules" },
+    { "id": "maths13", "title": "Financial Maths" },
+    { "id": "maths14", "title": "Functions" },
+    { "id": "maths15", "title": "Geometry" },
+    { "id": "maths16", "title": "Geometry - Constructions & Proofs" },
+    { "id": "maths17", "title": "Indices and Logs" },
+    { "id": "maths18", "title": "Induction" },
+    { "id": "maths19", "title": "Integration" },
+    { "id": "maths20", "title": "Probability" },
+    { "id": "maths21", "title": "Sequences & Series" },
+    { "id": "maths22", "title": "Statistics - Descriptive Statistics" },
+    { "id": "maths23", "title": "Statistics - Inferential Statistics" },
+    { "id": "maths24", "title": "Statistics - Z Scores" },
+    { "id": "maths25", "title": "Trigonometry - Functions & Identities" },
+    { "id": "maths26", "title": "Trigonometry - Triangles" }
+  ]
+}

@@ -41,26 +41,29 @@ def run(subject: str) -> None:
     with manifest.open() as f:
         rows = [r for r in csv.DictReader(f) if int(r.get("bytes", 0) or 0) > 0]
 
-    # group by (year, level, status); pair papers + scheme
+    # group by (year, level, paper, status); pair each paper with its scheme. `paper` is ""
+    # for single-paper subjects (History, Chemistry) and "1"/"2" for Maths/English/Irish.
     groups: dict[tuple, dict] = defaultdict(dict)
     for r in rows:
-        groups[(r["year"], r["level"], r["status"])][r["kind"]] = r["path"]
+        groups[(r["year"], r["level"], r.get("paper", ""), r["status"])][r["kind"]] = r["path"]
 
     out_dir = DIGEST / subject
     out_dir.mkdir(parents=True, exist_ok=True)
     index, scans = [], 0
-    for (year, level, status), kinds in sorted(groups.items()):
+    for (year, level, paper, status), kinds in sorted(groups.items()):
         digest = {
-            "subject": subject, "year": int(year), "level": level, "status": status,
+            "subject": subject, "year": int(year), "level": level,
+            "paper_no": paper, "status": status,
             "paper":  {"pages": extract_pages(Path(kinds["papers"]))} if "papers" in kinds else None,
             "scheme": {"pages": extract_pages(Path(kinds["scheme"]))} if "scheme" in kinds else None,
         }
         n_ocr = sum(p["needs_ocr"] for src in (digest["paper"], digest["scheme"]) if src for p in src["pages"])
         scans += n_ocr
-        out = out_dir / f"{year}-{level}{'-REF' if status == 'reference' else ''}.json"
+        ptag = f"-P{paper}" if paper else ""
+        out = out_dir / f"{year}-{level}{ptag}{'-REF' if status == 'reference' else ''}.json"
         out.write_text(json.dumps(digest, ensure_ascii=False, indent=2))
-        index.append({"file": out.name, "year": int(year), "level": level, "status": status,
-                      "has_paper": digest["paper"] is not None,
+        index.append({"file": out.name, "year": int(year), "level": level, "paper": paper,
+                      "status": status, "has_paper": digest["paper"] is not None,
                       "has_scheme": digest["scheme"] is not None, "ocr_pages": n_ocr})
         print(f"[digest] {out.name}  paper={'Y' if digest['paper'] else '-'} "
               f"scheme={'Y' if digest['scheme'] else '-'}  ocr_pages={n_ocr}")

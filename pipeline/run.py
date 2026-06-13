@@ -35,7 +35,23 @@ def main() -> None:
         acquire_form.run(subject, headful=("--headful" in args),
                          include_irish=("--include-irish" in args))
     digest.run(subject)
-    print("\nDone. Next: segment the digests into questions (Stage 3) and tag them (Stage 5).")
+
+    if "--segment" in args:                 # the model stages (Haiku)
+        import segment
+        segment.run(subject, sync=("--sync" in args), limit=None)
+        if "--model-answers" in args:       # H1 samples for essays with no official answer
+            import model_answers
+            model_answers.run(subject, sync=("--sync" in args))
+        if "--flashcards" in args:          # deduplicated, per-chapter, after segmentation
+            import flashcards
+            flashcards.run(subject, sync=("--sync" in args))
+        extras = [n for n, f in (("H1 answers", "--model-answers"), ("deduped flashcards", "--flashcards")) if f in args]
+        print("\nDone end-to-end: PDFs -> digests -> tagged questions"
+              + (" + " + " + ".join(extras) if extras else "") + ".")
+    else:
+        print("\nDone (acquire + digest). Add --segment (and optionally --flashcards) to "
+              "run the Haiku stages, or run `python3 segment.py {0}` / "
+              "`python3 flashcards.py {0}` separately.".format(subject))
 
 
 if __name__ == "__main__":
