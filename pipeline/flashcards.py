@@ -144,49 +144,13 @@ def _chapters(subject: str, only: str | None):
     return items
 
 
-def run_sync(client, subject, items):
-    out: dict[str, list] = {}
-    def one(it):
-        cid, title, txt = it
-        msg = _retry(client.messages.create, model=MODEL, max_tokens=MAX_TOKENS, tools=[EMIT_TOOL],
-                     tool_choice={"type": "tool", "name": "emit_flashcards"},
-                     messages=[{"role": "user", "content": build_prompt(subject, title, txt)}])
-        return cid, dedup(parse_result(msg.content))
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        for cid, cards in ex.map(one, items):
-            print(f"[fc] {cid}: {len(cards)} cards")
-            out[cid] = cards
-    return out
+def _stage(subject: str) -> str:
+    return f"flashcards-{subject}"
 
 
-def run_batch(client, subject, items):
-    # Batch custom_id must match ^[a-zA-Z0-9_-]{1,64}$, but chapterIds from tagging may
-    # contain stray characters — use safe index ids and map back.
-    id_for = {f"c{i}": cid for i, (cid, _t, _x) in enumerate(items)}
-    reqs = [{
-        "custom_id": f"c{i}",
-        "params": {"model": MODEL, "max_tokens": MAX_TOKENS, "tools": [EMIT_TOOL],
-                   "tool_choice": {"type": "tool", "name": "emit_flashcards"},
-                   "messages": [{"role": "user", "content": build_prompt(subject, title, txt)}]},
-    } for i, (cid, title, txt) in enumerate(items)]
-    batch = _retry(client.messages.batches.create, requests=reqs)
-    print(f"[batch] submitted {len(reqs)} chapters as {batch.id}; polling…")
-    import time
-    while True:
-        b = _retry(client.messages.batches.retrieve, batch.id)
-        if b.processing_status == "ended":
-            break
-        time.sleep(20)
-    out: dict[str, list] = {}
-    for r in client.messages.batches.results(batch.id):
-        cid = id_for.get(r.custom_id, r.custom_id)
-        if r.result.type == "succeeded":
-            cards = dedup(parse_result(r.result.message.content))
-            print(f"[fc] {cid}: {len(cards)} cards")
-            out[cid] = cards
-        else:
-            print(f"[skip] {cid}: {getattr(r.result, 'type', '?')}")
-    return out
+_TASK = ("Build a deduplicated set of study flashcards for each topic. Each job's `prompt` "
+         "pools ~20 years of exam content for one topic; return ONE clean set of atomic cards "
+         "as `schema` describes (term, definition, type), no duplicates.")
 
 
 def render_js(subject: str, by_chapter: dict[str, list]) -> Path:
@@ -200,29 +164,46 @@ def render_js(subject: str, by_chapter: dict[str, list]) -> Path:
     return out
 
 
-def run(subject: str, sync: bool, only: str | None = None) -> None:
-    try:
-        import anthropic
-    except ImportError:
-        raise SystemExit("pip install anthropic --break-system-packages")
-    if not os.getenv("ANTHROPIC_API_KEY"):
-        raise SystemExit("Set ANTHROPIC_API_KEY in your environment first.")
-    client = anthropic.Anthropic(max_retries=6)
+def prepare(subject: str, only: str | None = None) -> int:
+    """One job per topic (chapter). chapterIds may contain stray chars, so jobs use index ids
+    c0,c1,… and carry the real chapterId in `meta`. Returns the job count (0 = nothing to do)."""
+    import agent_bridge as bridge
     items = _chapters(subject, only)
+    jobs = [{
+        "custom_id": f"c{i}",
+        "prompt": build_prompt(subject, title, txt),
+        "tool": EMIT_TOOL,
+        "meta": {"chapterId": cid},
+    } for i, (cid, title, txt) in enumerate(items)]
+    bridge.prepare(_stage(subject), jobs, task=_TASK)
+    print(f"[flashcards] {len(jobs)} topic(s) queued for the worker")
+    return len(jobs)
 
-    by_chapter = (run_sync if sync else run_batch)(client, subject, items)
 
+def collect(subject: str) -> None:
+    """Read the worker's per-topic cards, dedup, write the flashcards store + app JS."""
+    import agent_bridge as bridge
+    stage = _stage(subject)
+    ins, outs = bridge.inputs(stage), bridge.outputs(stage)
+    by_chapter: dict[str, list] = {}
+    for cid_key, content in outs.items():
+        chapter = ins.get(cid_key, {}).get("meta", {}).get("chapterId", cid_key)
+        cards = dedup(parse_result(content))
+        print(f"[fc] {chapter}: {len(cards)} cards")
+        by_chapter[chapter] = cards
     (CANONICAL / f"flashcards.{subject}.json").write_text(
         json.dumps(by_chapter, ensure_ascii=False, indent=2))
     js = render_js(subject, by_chapter)
     total = sum(len(v) for v in by_chapter.values())
-    print(f"\n{total} unique flashcards across {len(by_chapter)} chapters")
-    print(f"  -> {CANONICAL / ('flashcards.' + subject + '.json')}")
-    print(f"  -> {js.name}")
+    print(f"\n{total} unique flashcards across {len(by_chapter)} chapters -> {js.name}")
 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
     subject = next((a for a in args if not a.startswith("-")), "history")
     only = args[args.index("--chapter") + 1] if "--chapter" in args else None
-    run(subject, sync=("--sync" in args), only=only)
+    if "collect" in args:
+        collect(subject)
+    else:
+        n = prepare(subject, only=only)
+        print("nothing to do" if not n else f"{n} job(s) ready — spawn the pipeline-worker")

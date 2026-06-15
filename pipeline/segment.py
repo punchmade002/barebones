@@ -215,56 +215,14 @@ def _save(subject, rows):
     (CANONICAL / f"{subject}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2))
 
 
-def run_sync(client, subject, scaffold, digests, existing):
-    results = []
-    def one(dg):
-        msg = _retry(client.messages.create, model=MODEL, max_tokens=MAX_TOKENS, tools=[EMIT_TOOL],
-                     tool_choice={"type": "tool", "name": "emit_questions"},
-                     messages=[{"role": "user", "content": build_prompt(subject, dg, scaffold)}])
-        return dg, parse_result(msg.content), msg
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        for dg, qs, msg in ex.map(one, digests):
-            if len(qs) > MAX_QUESTIONS_PER_PAPER:
-                print(f"[skip] {dg['year']}-{dg['level']}: {len(qs)} items — malformed "
-                      f"(likely scanned/OCR); not added")
-                continue
-            print(f"[seg] {dg['year']}-{dg['level']}: {len(qs)} questions")
-            if not qs:                              # surface WHY a paper produced nothing
-                print(f"      ↳ {_diag(msg)}")
-            results += to_canonical(subject, dg, qs)
-            _save(subject, existing + results)      # durable after each paper
-    return results
+def _stage(subject: str) -> str:
+    return f"segment-{subject}"
 
 
-def run_batch(client, subject, scaffold, digests, existing):
-    reqs = [{
-        "custom_id": f"{dg['year']}-{dg['level']}-{dg['status']}",
-        "params": {"model": MODEL, "max_tokens": MAX_TOKENS, "tools": [EMIT_TOOL],
-                   "tool_choice": {"type": "tool", "name": "emit_questions"},
-                   "messages": [{"role": "user", "content": build_prompt(subject, dg, scaffold)}]},
-    } for dg in digests]
-    by_id = {f"{dg['year']}-{dg['level']}-{dg['status']}": dg for dg in digests}
-    batch = _retry(client.messages.batches.create, requests=reqs)
-    print(f"[batch] submitted {len(reqs)} requests as {batch.id}; polling…")
-    while True:
-        b = _retry(client.messages.batches.retrieve, batch.id)
-        if b.processing_status == "ended":
-            break
-        time.sleep(20)
-    results = []
-    for r in client.messages.batches.results(batch.id):
-        dg = by_id.get(r.custom_id)
-        if dg and r.result.type == "succeeded":
-            qs = parse_result(r.result.message.content)
-            if len(qs) > MAX_QUESTIONS_PER_PAPER:
-                print(f"[skip] {r.custom_id}: {len(qs)} items — malformed (likely scanned/OCR)")
-                continue
-            print(f"[seg] {r.custom_id}: {len(qs)} questions")
-            results += to_canonical(subject, dg, qs)
-            _save(subject, existing + results)      # durable as each result lands
-        else:
-            print(f"[skip] {r.custom_id}: {getattr(r.result,'type','?')}")
-    return results
+_TASK = ("Extract the exam questions from each paper. Every job's `prompt` contains one exam "
+         "paper + its marking scheme and the list of topics to tag against. Return the questions "
+         "object exactly as `schema` describes — split into parts with marks, the model answer "
+         "copied from the scheme, and a sectionId/chapterId for each question.")
 
 
 def render_js(subject: str, canonical: list[dict]) -> Path:
@@ -276,19 +234,14 @@ def render_js(subject: str, canonical: list[dict]) -> Path:
     return out
 
 
-def run(subject: str, sync: bool, limit: int | None, year: int | None = None,
-        force: bool = False, review_threshold: float = 0.6) -> None:
-    try:
-        import anthropic
-    except ImportError:
-        raise SystemExit("pip install anthropic --break-system-packages")
-    if not os.getenv("ANTHROPIC_API_KEY"):
-        raise SystemExit("Set ANTHROPIC_API_KEY in your environment first.")
-    client = anthropic.Anthropic(max_retries=6)   # SDK-level retries on top of _retry()
+def prepare(subject: str, limit: int | None = None, year: int | None = None,
+            force: bool = False) -> int:
+    """Write one job per paper that still needs segmenting. Returns the job count (0 = done)."""
+    import agent_bridge as bridge
     scaffold = load_scaffold(subject)
     digests = _digests(subject, limit, year)
 
-    # RESUME: skip papers already in the canonical store so re-runs never re-spend tokens.
+    # RESUME: skip papers already in the canonical store so re-runs never redo work.
     cpath = CANONICAL / f"{subject}.json"
     existing = json.loads(cpath.read_text()) if cpath.exists() else []
     if existing and not force:
@@ -298,17 +251,41 @@ def run(subject: str, sync: bool, limit: int | None, year: int | None = None,
         digests = [d for d in digests if (d["year"], d["level"]) not in done]
         print(f"resuming: {before - len(digests)} paper(s) already done, {len(digests)} to do")
     if not digests:
-        print("All selected papers already segmented — nothing to spend tokens on.")
-        return
+        return 0
+    jobs = [{
+        "custom_id": f"{dg['year']}_{dg['level']}_{dg['status']}",
+        "prompt": build_prompt(subject, dg, scaffold),
+        "tool": EMIT_TOOL,
+        "meta": {"year": dg["year"], "level": dg["level"], "status": dg["status"]},
+    } for dg in digests]
+    bridge.prepare(_stage(subject), jobs, task=_TASK)
+    print(f"[segment] {len(jobs)} paper(s) queued for the worker")
+    return len(jobs)
 
+
+def collect(subject: str, force: bool = False, review_threshold: float = 0.6) -> None:
+    """Read the worker's answers, merge into the canonical store, render the app JS + report."""
+    import agent_bridge as bridge
+    cpath = CANONICAL / f"{subject}.json"
+    existing = json.loads(cpath.read_text()) if cpath.exists() else []
+    stage = _stage(subject)
+    ins, outs = bridge.inputs(stage), bridge.outputs(stage)
     base = [] if force else existing
-    new = (run_sync if sync else run_batch)(client, subject, scaffold, digests, base)
-    canonical = base + new                                  # merge with prior progress
-
+    new: list[dict] = []
+    for cid, content in outs.items():
+        meta = ins.get(cid, {}).get("meta", {})
+        qs = parse_result(content)
+        if len(qs) > MAX_QUESTIONS_PER_PAPER:
+            print(f"[skip] {cid}: {len(qs)} items — malformed (likely scanned/OCR)")
+            continue
+        print(f"[seg] {cid}: {len(qs)} questions")
+        new += to_canonical(subject, meta, qs)
+        _save(subject, base + new)                          # durable as each lands
+    canonical = base + new
     cpath.write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     js = render_js(subject, canonical)
 
-    # Stage 8 lite: coverage + review queue
+    # coverage + review queue
     review = [q["id"] for q in canonical if q.get("tag_confidence", 0) < review_threshold]
     cov: dict[str, int] = {}
     for q in canonical:
@@ -316,15 +293,18 @@ def run(subject: str, sync: bool, limit: int | None, year: int | None = None,
     rep = {"subject": subject, "questions": len(canonical),
            "coverage_by_chapter": cov, "review_queue_low_confidence": review}
     (REPORTS / f"segment-{subject}.json").write_text(json.dumps(rep, indent=2))
-    print(f"\n{len(canonical)} questions -> {CANONICAL / (subject + '.json')}")
-    print(f"Rendered: {js.name}")
-    print(f"Review queue (confidence < {review_threshold}): {len(review)} questions")
-    print("Flashcards: handled separately (deduplicated across all years) — see flashcards.py")
+    print(f"\n{len(canonical)} questions -> {cpath}")
+    print(f"Rendered: {js.name} | review queue (<{review_threshold}): {len(review)}")
 
 
 if __name__ == "__main__":
+    # Manual per-stage use: `python3 segment.py <subject> prepare|collect`
     args = sys.argv[1:]
     subject = next((a for a in args if not a.startswith("-")), "history")
     limit = int(args[args.index("--limit") + 1]) if "--limit" in args else None
     year = int(args[args.index("--year") + 1]) if "--year" in args else None
-    run(subject, sync=("--sync" in args), limit=limit, year=year, force=("--force" in args))
+    if "collect" in args:
+        collect(subject, force=("--force" in args))
+    else:
+        n = prepare(subject, limit=limit, year=year, force=("--force" in args))
+        print("nothing to do" if not n else f"{n} job(s) ready — spawn the pipeline-worker")

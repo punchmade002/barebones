@@ -3,50 +3,91 @@
 Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_PIPELINE.md`](../DATA_PIPELINE.md).
 
 ```
-run.py           ⭐ one command: input a subject -> all relevant papers, digested (+ --segment)
-config.py        paths, subjects, and SYLLABUS_CUTOFF (the 'relevant years' rule)
+run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, NO API key
+agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
+config.py        paths, subjects, SYLLABUS_CUTOFF, and the diagram-crop tunables
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
-segment.py       Stages 3-6 — batched Haiku: questions + model answers + topic tags + flashcards
-scaffold/        per-subject section+chapter lists the tagger assigns to
+scaffold_gen.py  Stage 2.5 — auto-derive scaffold/<subject>.json from digests when missing
+segment.py       Stages 3-5 — questions + parts + marks + model answers + topic tags
+images.py        Stage 7 — diagram crops -> exam-images/, sets part.diagram (subagent finds the box)
+model_answers.py Stage 6a — H1 sample answers for questions the scheme doesn't model
+flashcards.py    Stage 6b — deduplicated, per-chapter flashcards across all years
+merge.py         Stage 8 — copy generated JS to repo root + wire <script> tags into app.html
+scaffold/        per-subject section+chapter lists the tagger assigns to (auto-made if absent)
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
-stages_3to8.py   reference stubs / the Stage 7 renderer
-_data/           generated store (gitignore this) — raw, digest, canonical, reports
+_data/           generated store (gitignore this) — raw, digest, canonical, reports, agent jobs
 ```
 
-## What costs tokens, and what doesn't
+## ⭐ One command — no API key (a subagent does the model work)
 
-Stages 1-2+ (`run.py` without `--segment`) are **plain Python — zero tokens**. Never run
-them through a Claude agent; just `python run.py history` (or `./run_all.sh`).
+There is **no `ANTHROPIC_API_KEY`**. The deterministic stages run as plain Python; each model
+stage WRITES its jobs to `_data/agent/<stage>/in/` and the orchestrator stops, printing
+`WORKER NEEDED <dir>`. A spawned **Haiku subagent** (`pipeline-worker`) reads those jobs (and any
+page images), writes answers to `out/`, and you re-run `run.py` to collect them and advance.
 
-Only `segment.py` (Stages 3-6) uses a model, and it does so as **batched Haiku API calls,
-not an interactive agent** — predictable and cheap (a full 20-year subject is a few dollars
-at batch rates). One call per paper returns questions, marking-scheme model answers, topic
-tags, and flashcards as structured JSON.
+The easiest way is the **`/run-pipeline` skill**, which runs that loop for you:
 
-```bash
-pip install anthropic --break-system-packages
-export ANTHROPIC_API_KEY=sk-ant-...
-python run.py history --segment        # full pipeline, unattended (Batch API)
-python segment.py history --sync --limit 2   # quick 2-paper test, immediate
+```
+/run-pipeline biology
+/run-pipeline biology --no-acquire --limit 2     # bounded smoke test
 ```
 
-Output: `_data/canonical/history.json` (source of truth) +
-`_data/canonical/exam-questions-db.history.generated.js` (diff into the app) +
-`_data/reports/segment-history.json` (coverage by chapter + a low-confidence review queue —
-the only place a human is needed).
-
-## ⭐ One command per subject
+Doing it by hand is the same loop:
 
 ```bash
-p2
+pip install pymupdf playwright --break-system-packages   # note: NO anthropic / no key
 playwright install chromium
 
-python run.py history                 # all relevant papers + schemes, then digest them
-python run.py history --headful       # watch the browser drive the archive
-python run.py history --no-acquire    # re-digest already-downloaded PDFs
+while :; do
+  python3 run.py biology            # advance one model stage (or finish)
+  # if it printed "WORKER NEEDED <dir>": spawn the pipeline-worker subagent on <dir>, then loop
+  # if it printed "PIPELINE COMPLETE": stop
+done
 ```
+
+Modifiers:
+
+| flag | effect |
+|------|--------|
+| `--no-acquire` | don't download; reuse `_data/raw/<subject>` |
+| `--no-images` | skip the diagram-crop stage (Stage 7) |
+| `--no-merge` | stop before wiring generated JS into `app.html` |
+| `--regen-scaffold` | rebuild `scaffold/<subject>.json` even if it exists |
+| `--limit N` | cap papers (segment) / candidates (images) — smoke tests |
+| `--restart` | clear queued worker jobs and redo the model stages (keeps PDFs/digests/canonical) |
+| `--headful`, `--include-irish` | acquire options |
+
+## How the keyless model stages work
+
+Stages 1-2 (acquire + digest) are plain Python. The five model stages each have a `prepare`
+(write jobs) and `collect` (read answers) half, bridged by `agent_bridge.py`:
+
+- `prepare` writes one `in/<id>.json` per unit of work — `{prompt, schema, meta, image?}`. For
+  `images`, it also renders the page PNG into `in/` for the worker to look at.
+- the **`pipeline-worker`** Haiku subagent fills `out/<id>.json` with JSON matching `schema`.
+- `collect` reads `out/`, wraps each answer so the existing `parse_result`/`to_canonical`/crop
+  code runs unchanged, and finalizes (canonical store, `.generated.js`, diagram crops, reports).
+
+It's fully **idempotent / resumable**: a stage already collected is skipped, a worker job that
+already has an `out/` file is never redone, segmented papers and cropped diagrams are not repeated,
+and `images` records every checked part in `_data/reports/figures-<subject>.json`. The `images`
+cost gate is `config.FIGURE_CUE_RE` — only figure-cued question parts get a worker call (widen it
+if a subject's figures are being missed). For a big stage you can split the `in/` files across a
+few parallel `pipeline-worker` agents — they only write `out/`, so they don't collide.
+
+Output: `_data/canonical/<subject>.json` (source of truth, with diagram paths) +
+`exam-questions-db.<subject>.generated.js` + `flashcards-<subject>.generated.js` +
+`_data/reports/segment-<subject>.json` + `figures-<subject>.json`. `merge` then copies the JS to
+`<subject>-exam-questions.js` / `<subject>-flashcards.js` at the repo root and wires `<script>`
+tags into `app.html`.
+
+> **Merge caveat:** `merge.py` overwrites the root `<subject>-*.js` files in place. That's the
+> intent for *new* subjects. If a subject already has **hand-curated** flashcards/questions under
+> the same filename, run with `--no-merge` and diff the generated files yourself before copying.
+
+## Relevant years & digest output
 
 **"Relevant" papers** = every year from the subject's current-syllabus cutoff
 (`config.SYLLABUS_CUTOFF`) to now, plus the single pre-change **reference** year (kept

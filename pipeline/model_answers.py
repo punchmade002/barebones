@@ -189,9 +189,9 @@ def _targets(subject: str, limit: int | None):
     return canonical, jobs
 
 
-def _apply(job, answers: list) -> int:
+def _apply(q, answers: list) -> int:
     """Match each empty part to an answer by label, else by position. Returns count filled."""
-    empties = needs_fill(job["q"])
+    empties = needs_fill(q)
     by_label = {a["label"].lower(): a["answer"] for a in answers if a.get("label")}
     filled = 0
     for i, p in enumerate(empties):
@@ -208,64 +208,50 @@ def _apply(job, answers: list) -> int:
     return filled
 
 
-def run_sync(client, subject, jobs):
-    def one(job):
-        msg = _retry(client.messages.create, model=MODEL, max_tokens=ANSWER_TOKENS, tools=[EMIT_TOOL],
-                     tool_choice={"type": "tool", "name": "emit_answers"},
-                     messages=[{"role": "user",
-                                "content": content_blocks(subject, job["q"], job["ctx"], job["fallback"], job["title"])}])
-        return job, parse_result(msg.content)
-    with ThreadPoolExecutor(max_workers=4) as ex:
-        for job, answers in ex.map(one, jobs):
-            n = _apply(job, answers)
-            print(f"[ans] {job['q']['id']}: {n} part(s) filled" + ("" if n else "  ← EMPTY"))
+def _stage(subject: str) -> str:
+    return f"answers-{subject}"
 
 
-def run_batch(client, subject, jobs):
-    id_for = {f"q{i}": job for i, job in enumerate(jobs)}
-    reqs = [{
-        "custom_id": f"q{i}",
-        "params": {"model": MODEL, "max_tokens": ANSWER_TOKENS, "tools": [EMIT_TOOL],
-                   "tool_choice": {"type": "tool", "name": "emit_answers"},
-                   "messages": [{"role": "user",
-                                 "content": content_blocks(subject, job["q"], job["ctx"], job["fallback"], job["title"])}]},
-    } for i, job in enumerate(jobs)]
-    batch = _retry(client.messages.batches.create, requests=reqs)
-    print(f"[batch] submitted {len(reqs)} answers as {batch.id}; polling…")
-    while True:
-        b = _retry(client.messages.batches.retrieve, batch.id)
-        if b.processing_status == "ended":
-            break
-        time.sleep(20)
-    for r in client.messages.batches.results(batch.id):
-        job = id_for.get(r.custom_id)
-        if job and r.result.type == "succeeded":
-            _apply(job, parse_result(r.result.message.content))
-        else:
-            print(f"[skip] {r.custom_id}: {getattr(r.result,'type','?')}")
+_TASK = ("Write an H1 (full-marks) sample answer for each exam question part in `prompt`, "
+         "satisfying the marking scheme/criteria it quotes. Return them as `schema` describes, "
+         "echoing each part label. Stay strictly on the Leaving Cert course; invent nothing.")
 
 
-def run(subject: str, sync: bool, limit: int | None = None) -> None:
-    try:
-        import anthropic
-    except ImportError:
-        raise SystemExit("pip install anthropic --break-system-packages")
-    if not os.getenv("ANTHROPIC_API_KEY"):
-        raise SystemExit("Set ANTHROPIC_API_KEY in your environment first.")
-    client = anthropic.Anthropic(max_retries=6)
+def prepare(subject: str, limit: int | None = None) -> int:
+    """Tag official answers, queue one job per question that still needs an H1 answer. The
+    `model_source` tagging done by _targets is persisted now so it survives. Returns job count."""
+    import agent_bridge as bridge
     canonical, jobs = _targets(subject, limit)
+    (CANONICAL / f"{subject}.json").write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     if not jobs:
-        print("Nothing to fill — run segment.py first, or all answers already present.")
-        return
-
-    # group questions that share a marking scheme (same year+level -> identical cached prefix)
+        return 0
+    # group questions that share a marking scheme (stable prefix) for tidy, comparable prompts
     jobs.sort(key=lambda j: (j["fallback"], j["q"].get("year", 0), q_level(j["q"])))
-    if not sync:
-        print("Tip: batch mode (this) is ~50% cheaper than --sync, and the scheme context is "
-              "prompt-cached across questions of the same year.")
+    out = []
+    for i, job in enumerate(jobs):
+        prompt = (cached_prefix(subject, job["ctx"], job["fallback"]) + "\n\n"
+                  + variable_suffix(subject, job["q"], job["title"]))
+        out.append({"custom_id": f"q{i}", "prompt": prompt, "tool": EMIT_TOOL,
+                    "meta": {"qid": job["q"]["id"]}})
+    bridge.prepare(_stage(subject), out, task=_TASK)
+    print(f"[model-answers] {len(out)} question(s) queued for the worker")
+    return len(out)
 
-    (run_sync if sync else run_batch)(client, subject, jobs)
 
+def collect(subject: str) -> None:
+    """Read the worker's answers, fill empty `model` fields (tagged ai-h1), re-render the JS."""
+    import agent_bridge as bridge
+    canonical = json.loads((CANONICAL / f"{subject}.json").read_text())
+    by_id = {q["id"]: q for q in canonical}
+    stage = _stage(subject)
+    ins, outs = bridge.inputs(stage), bridge.outputs(stage)
+    for cid, content in outs.items():
+        qid = ins.get(cid, {}).get("meta", {}).get("qid")
+        q = by_id.get(qid)
+        if not q:
+            continue
+        n = _apply(q, parse_result(content))
+        print(f"[ans] {qid}: {n} part(s) filled" + ("" if n else "  ← EMPTY"))
     (CANONICAL / f"{subject}.json").write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     import segment
     js = segment.render_js(subject, canonical)
@@ -280,4 +266,8 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     subject = next((a for a in args if not a.startswith("-")), "history")
     limit = int(args[args.index("--limit") + 1]) if "--limit" in args else None
-    run(subject, sync=("--sync" in args), limit=limit)
+    if "collect" in args:
+        collect(subject)
+    else:
+        n = prepare(subject, limit=limit)
+        print("nothing to fill" if not n else f"{n} job(s) ready — spawn the pipeline-worker")

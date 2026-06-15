@@ -22,6 +22,16 @@ for _p in (RAW, EXTRACTED, DIGEST, CANONICAL, REPORTS):
 EXAM_IMAGES = ROOT / "exam-images"
 EXAM_DB_OUT  = ROOT / "exam-questions-db.js"   # .with_name() used to produce generated variant
 
+# ── Diagram crops (Stage 7, images.py) ───────────────────────────────────────
+import re as _re
+IMAGE_DPI = 150                    # render DPI for page->PNG crops (enough for screen + zoom)
+BBOX_PADDING = 0.03                # pad the vision-returned bbox by 3% of page on each side
+# Only spend a vision call on a part whose text hints it leans on a figure. Cheap pre-filter;
+# the crop itself is fully vision-guided. Widen this if a subject's figures are being missed.
+FIGURE_CUE_RE = _re.compile(
+    r"\b(diagram|figure|fig\.?|graph|table|map|photograph|photo|image|chart|sketch|"
+    r"shown below|shown above|shown in the|illustrat|labelled|label the|the apparatus)\b", _re.I)
+
 # ── Years ────────────────────────────────────────────────────────────────────
 CURRENT_YEAR = datetime.date.today().year
 DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is unknown
@@ -41,6 +51,7 @@ SYLLABUS_CUTOFF = {
     "chemistry": (2002, False),   # estimate; verify
     "business":  (1999, False),   # estimate; verify
     "english":   (2001, False),   # estimate; verify
+    "home-economics": (2004, False),  # estimate — current S&S syllabus ~2004; verify
 }
 
 # subject_key must match bare bones `subject` ids. `code` is optional now (form-discovery
@@ -58,6 +69,7 @@ SUBJECTS = {
     "geography": {"code": "005", "label": "Geography"},
     "maths":     {"code": "003", "label": "Mathematics"},
     "pe":        {"code": "225", "label": "Physical Education"},
+    "home-economics": {"code": "180", "label": "Home Economics S & S"},  # exact SEC dropdown text
 }
 
 LEVELS = ("AL", "GL")              # AL = Higher (Ardleibhéal), GL = Ordinary
@@ -80,6 +92,7 @@ EXAM_FORMAT = {
     "history":   {"marks": 400, "minutes": 170},
     "chemistry": {"marks": 400, "minutes": 180},   # answer 8 of 11 Qs × 50 marks, 3 hours
     "maths":     {"marks": 300, "minutes": 150},   # per paper: Section A+B, 2h30m each
+    "home-economics": {"marks": 320, "minutes": 150},  # written paper 320 marks (A 60 / B 180 / C 80), 2h30m
 }
 
 
