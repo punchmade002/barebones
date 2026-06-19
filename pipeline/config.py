@@ -32,6 +32,35 @@ FIGURE_CUE_RE = _re.compile(
     r"\b(diagram|figure|fig\.?|graph|table|map|photograph|photo|image|chart|sketch|"
     r"shown below|shown above|shown in the|illustrat|labelled|label the|the apparatus)\b", _re.I)
 
+# ── Validation gate (validate.py) ─────────────────────────────────────────────
+# A part is structurally broken if its question text is missing or is only a label
+# stub like "Part (a)" / "Q1" / "(b)" — the actual question wording was lost upstream.
+MIN_QUESTION_CHARS = 12
+STUB_QUESTION_RE = _re.compile(r"^(part\s*)?\(?[a-z0-9]{1,4}\)?[\s.:;,)\-]*$", _re.I)
+# An answer should be within this band of its mark-derived target word count, else flag it.
+LENGTH_MIN_RATIO = 0.35
+LENGTH_MAX_RATIO = 2.5
+SEGMENT_RETRY_ATTEMPTS = 2         # times to re-segment papers that produced broken parts
+
+# ── Worker model tiers (reform B) ─────────────────────────────────────────────
+# Quality-critical stages (extraction, answer authoring) get a strong model; cheap
+# classification/vision stays on Haiku. run.py prints the tier so /run-pipeline spawns
+# the pipeline-worker subagent with that `model`.
+STAGE_MODEL = {
+    "scaffold":   "haiku",
+    "segment":    "opus",      # paper extraction — the foundation; must be exact
+    "images":     "haiku",
+    "schemes":    "sonnet",    # match official answers out of the marking scheme
+    "answers":    "sonnet",    # author H1 answers where no official one exists
+    "flashcards": "haiku",
+}
+
+
+def model_for_stage(name: str) -> str:
+    """Worker model recommended for a stage ('segment', 'answers', …)."""
+    return STAGE_MODEL.get(name, "haiku")
+
+
 # ── Years ────────────────────────────────────────────────────────────────────
 CURRENT_YEAR = datetime.date.today().year
 DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is unknown
