@@ -12,6 +12,7 @@ duplicate <script> tag.
     python3 merge.py chemistry
 """
 from __future__ import annotations
+import json
 import shutil
 import sys
 from pathlib import Path
@@ -62,18 +63,56 @@ def _wire(files: list[tuple[str, str]]) -> int:
     return added
 
 
-def run(subject: str) -> None:
+def gate(subject: str) -> list[str]:
+    """Auto-publish-if-clean pre-flight. Returns human-readable failure reasons (empty == clean):
+      * any placeholder/empty part still in the store (segment should have dropped these),
+      * more than 40% of answers being ai-h1 (a symptom of upstream segmentation failure),
+      * any question attributed to a year no paper was acquired for (fabricated years)."""
+    import validate
+    cpath = CANONICAL / f"{subject}.json"
+    if not cpath.exists():
+        return [f"no canonical store ({cpath.name}) — run segment first"]
+    canon = json.loads(cpath.read_text())
+    parts = [(q, p) for q in canon for p in q.get("parts", [])]
+    bad = [(q["id"], validate.part_problems(p)) for q, p in parts if validate.part_problems(p)]
+    ai = sum(1 for _, p in parts if p.get("model_source") == "ai-h1") / max(len(parts), 1)
+    fab_years = sorted({q.get("year") for q in canon
+                        if not validate.year_is_real(subject, q.get("year"))})
+    fails = []
+    if bad:
+        eg = f" (e.g. {bad[0][0]}: {','.join(bad[0][1])})"
+        fails.append(f"{len(bad)} placeholder/empty part(s){eg}")
+    if ai > 0.40:
+        fails.append(f"{ai:.0%} of answers are ai-h1 (>40% cap)")
+    if fab_years:
+        fails.append(f"questions from non-acquired year(s): {fab_years}")
+    return fails
+
+
+def run(subject: str, force: bool = False) -> bool:
+    """Merge generated content into the app. Returns True iff it actually published. A failing
+    gate blocks publishing unless force=True (the deliberate human override)."""
+    fails = gate(subject)
+    if fails:
+        head = "[merge] gate failures OVERRIDDEN by --force:" if force else \
+               "[merge] BLOCKED — fix these or re-run with --force:"
+        print(head)
+        for f in fails:
+            print(f"  - {f}")
+        if not force:
+            return False
     files = _copy(subject)
     if not files:
         print("[merge] nothing to merge — run segment/flashcards first.")
-        return
+        return False
     added = _wire(files)
     print(f"\nMerged {subject}: {len(files)} file(s) at repo root, {added} new <script> tag(s) in app.html.")
     print("Open app.html and check the subject's exam + flashcards.")
+    return True
 
 
 if __name__ == "__main__":
     subj = next((a for a in sys.argv[1:] if not a.startswith("-")), None)
     if not subj:
-        raise SystemExit("usage: python3 merge.py <subject>")
-    run(subj)
+        raise SystemExit("usage: python3 merge.py <subject> [--force]")
+    run(subj, force=("--force" in sys.argv[1:]))

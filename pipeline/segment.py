@@ -31,6 +31,11 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from config import DIGEST, CANONICAL, REPORTS, ROOT
+import validate
+
+# Exposed for run.py: pending() uses this to re-queue any paper whose extraction came back junk
+# (mostly placeholder/empty questions) instead of accepting it on the strength of the file existing.
+validate_output = validate.validate_output
 
 MODEL = "claude-haiku-4-5-20251001"
 SCAFFOLD_DIR = ROOT / "pipeline" / "scaffold"
@@ -263,6 +268,26 @@ def prepare(subject: str, limit: int | None = None, year: int | None = None,
     return len(jobs)
 
 
+def _drop_bad_parts(rows: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Remove parts whose extraction failed (placeholder/too-short question) from freshly
+    segmented rows. Returns (kept_rows, dropped) where dropped is [{id, label, problems}].
+    A question left with no usable parts is dropped entirely. 'empty-answer' is NOT a drop
+    reason here — model_answers.py fills those next."""
+    kept, dropped = [], []
+    for r in rows:
+        good = []
+        for p in r["parts"]:
+            probs = validate.extraction_problems(p)
+            if probs:
+                dropped.append({"id": r["id"], "label": p.get("label", ""), "problems": probs})
+            else:
+                good.append(p)
+        if good:
+            r["parts"] = good
+            kept.append(r)
+    return kept, dropped
+
+
 def collect(subject: str, force: bool = False, review_threshold: float = 0.6) -> None:
     """Read the worker's answers, merge into the canonical store, render the app JS + report."""
     import agent_bridge as bridge
@@ -272,29 +297,72 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
     ins, outs = bridge.inputs(stage), bridge.outputs(stage)
     base = [] if force else existing
     new: list[dict] = []
+    rejected: list[dict] = []
     for cid, content in outs.items():
         meta = ins.get(cid, {}).get("meta", {})
         qs = parse_result(content)
         if len(qs) > MAX_QUESTIONS_PER_PAPER:
             print(f"[skip] {cid}: {len(qs)} items — malformed (likely scanned/OCR)")
             continue
-        print(f"[seg] {cid}: {len(qs)} questions")
-        new += to_canonical(subject, meta, qs)
+        kept_rows, dropped = _drop_bad_parts(to_canonical(subject, meta, qs))
+        rejected += dropped
+        nparts = sum(len(r["parts"]) for r in kept_rows)
+        print(f"[seg] {cid}: {len(kept_rows)} questions, {nparts} parts"
+              + (f"  ({len(dropped)} bad part(s) dropped)" if dropped else ""))
+        new += kept_rows
         _save(subject, base + new)                          # durable as each lands
     canonical = base + new
     cpath.write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     js = render_js(subject, canonical)
 
-    # coverage + review queue
+    # review queue + per-chapter coverage
     review = [q["id"] for q in canonical if q.get("tag_confidence", 0) < review_threshold]
     cov: dict[str, int] = {}
     for q in canonical:
         cov[q["chapterId"]] = cov.get(q["chapterId"], 0) + 1
+
+    # paper coverage: of the papers we actually digested, how many produced ≥1 question?
+    digested: list[tuple] = []
+    dd = DIGEST / subject
+    if dd.exists():
+        for f in dd.glob("*.json"):
+            if f.name == "_index.json":
+                continue
+            dg = json.loads(f.read_text())
+            if _paper_chars(dg) >= 200:                     # had a usable exam paper
+                digested.append((dg["year"], dg["level"]))
+    seg_pairs = {(q["year"], "higher" if "Higher" in q.get("source", "") else "ordinary")
+                 for q in canonical}
+    papers_no_q = sorted(f"{y}-{l}" for (y, l) in digested if (y, l) not in seg_pairs)
+    paper_cov = (len(digested) - len(papers_no_q)) / max(1, len(digested))
+    all_chapters = [c["id"] for c in load_scaffold(subject)["chapters"]]
+    chapters_empty = [c for c in all_chapters if cov.get(c, 0) == 0]
+    low = paper_cov < 0.80 or bool(chapters_empty)
+
     rep = {"subject": subject, "questions": len(canonical),
-           "coverage_by_chapter": cov, "review_queue_low_confidence": review}
+           "coverage_by_chapter": cov, "review_queue_low_confidence": review,
+           "papers_digested": len(digested),
+           "papers_segmented": len(digested) - len(papers_no_q),
+           "paper_coverage": round(paper_cov, 3),
+           "papers_no_questions": papers_no_q,
+           "chapters_empty": chapters_empty,
+           "rejected_parts": rejected,
+           "low_coverage": low}
     (REPORTS / f"segment-{subject}.json").write_text(json.dumps(rep, indent=2))
+
     print(f"\n{len(canonical)} questions -> {cpath}")
     print(f"Rendered: {js.name} | review queue (<{review_threshold}): {len(review)}")
+    print(f"COVERAGE: {len(digested) - len(papers_no_q)}/{len(digested)} papers segmented "
+          f"({paper_cov:.0%}) | {len(chapters_empty)} empty chapter(s) | "
+          f"{len(rejected)} bad part(s) dropped")
+    if low:
+        print("\n⚠ COVERAGE LOW — segmentation looks incomplete:")
+        if papers_no_q:
+            print(f"   {len(papers_no_q)} paper(s) produced 0 questions: {papers_no_q[:8]}"
+                  + (" …" if len(papers_no_q) > 8 else ""))
+        if chapters_empty:
+            print(f"   {len(chapters_empty)} chapter(s) with 0 questions: {chapters_empty[:8]}"
+                  + (" …" if len(chapters_empty) > 8 else ""))
 
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ PREPARES new jobs and stops, printing `WORKER NEEDED <dir>`. The driving agent t
                                           #   stages fresh (does not delete PDFs/digests/canonical)
 
 Modifiers: --no-acquire  --no-images  --no-merge  --regen-scaffold  --limit N  --headful
-           --include-irish  --restart
+           --include-irish  --restart  --force-merge (publish despite low coverage / gate)
 """
 import sys
 
@@ -25,6 +25,20 @@ from config import relevant_years, cutoff_for, SUBJECTS
 
 def _arg(args, flag):
     return int(args[args.index(flag) + 1]) if flag in args else None
+
+
+def _coverage_low(subject: str) -> bool:
+    """True if segment.collect flagged this subject's coverage as low (few papers segmented, or a
+    chapter with zero questions). Read from the report so the gate is independent of run order."""
+    import json
+    from config import REPORTS
+    rep = REPORTS / f"segment-{subject}.json"
+    if not rep.exists():
+        return False
+    try:
+        return bool(json.loads(rep.read_text()).get("low_coverage"))
+    except Exception:
+        return False
 
 
 def _request_worker(stage: str, n: int) -> None:
@@ -88,9 +102,18 @@ def main() -> None:
         if bridge.is_collected(stage):
             continue                                  # finished in an earlier invocation
         if bridge.has_jobs(stage):                    # prepared already — worker may have run
-            pend = bridge.pending(stage)
+            # A stage may expose validate_output(answer)->bool; pending() then re-queues outputs
+            # that exist but fail it, so a bad answer is re-requested instead of accepted silently.
+            validate = getattr(mod, "validate_output", None)
+            pend = bridge.pending(stage, validate=validate)
             if pend:
                 _request_worker(stage, len(pend)); return
+            stuck = bridge.needs_human(stage)
+            if stuck:
+                shown = ", ".join(stuck[:5]) + (" …" if len(stuck) > 5 else "")
+                print(f"\n>>> NEEDS HUMAN: {len(stuck)} job(s) in '{stage}' failed validation "
+                      f"repeatedly and were given up on: {shown}")
+                print(">>> their last (rejected) output is kept; collect() salvages what it can.")
             mod.collect(subject)                      # all answers present -> finalize
             bridge.mark_collected(stage)
             continue
@@ -101,12 +124,22 @@ def main() -> None:
         _request_worker(stage, n); return             # stop so the agent can run the worker
 
     # All model stages done.
+    merged = False
     if "--no-merge" not in args:
-        merge.run(subject)
+        force_merge = "--force-merge" in args
+        if _coverage_low(subject) and not force_merge:
+            print(f"\n>>> ⚠ COVERAGE LOW — not auto-merging. Review "
+                  f"reports/segment-{subject}.json, then either:")
+            print(f">>>   python3 merge.py {subject}            (merge by hand; the gate still applies)")
+            print(f">>>   python3 run.py {subject} --force-merge  (skip this coverage stop)")
+        else:
+            merged = merge.run(subject, force=force_merge)
+    tail = (", and merged into app.html" if merged
+            else " (merge skipped)" if "--no-merge" in args
+            else " (merge pending — see above)")
     print(f"\nPIPELINE COMPLETE: {subject} is acquired, digested, scaffolded, segmented, "
           f"{'(images skipped) ' if '--no-images' in args else 'diagrammed, '}"
-          f"answered, flashcarded"
-          f"{'' if '--no-merge' in args else ', and merged into app.html'}.")
+          f"answered, flashcarded{tail}.")
 
 
 if __name__ == "__main__":

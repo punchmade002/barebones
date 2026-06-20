@@ -102,11 +102,59 @@ def inputs(stage: str) -> dict:
     return out
 
 
-def pending(stage: str) -> list[str]:
+def _attempts_path(stage: str) -> Path:
+    return _dirs(stage)[0] / ".attempts.json"
+
+
+def _load_attempts(stage: str) -> dict:
+    p = _attempts_path(stage)
+    if p.exists():
+        try:
+            return json.loads(p.read_text())
+        except Exception:
+            return {}
+    return {}
+
+
+def _bump_attempt(stage: str, stem: str) -> int:
+    a = _load_attempts(stage)
+    a[stem] = a.get(stem, 0) + 1
+    _attempts_path(stage).write_text(json.dumps(a, indent=2))
+    return a[stem]
+
+
+def needs_human(stage: str, max_attempts: int = 2) -> list[str]:
+    """Jobs whose output kept failing validation past `max_attempts` retries. The orchestrator
+    surfaces these instead of looping on them forever; their last bad output is quarantined."""
+    return sorted(s for s, n in _load_attempts(stage).items() if n > max_attempts)
+
+
+def pending(stage: str, validate=None, max_attempts: int = 2) -> list[str]:
+    """custom_ids still needing a (re)run.
+
+    A job is pending if it has no out/ file. With a `validate` callback, a job whose out/ file
+    EXISTS but FAILS validation is also returned — so the orchestrator re-requests it — and the
+    bad answer is renamed `<id>.rejected.<n>.json` (never silently overwritten, so you keep
+    evidence). To avoid an infinite loop, a job that has already failed `max_attempts` times is
+    NOT re-queued; it stays out of `pending` and is reported via `needs_human()` instead, leaving
+    its (last) output in place for collect() to salvage what it can."""
     _b, ind, outd = _dirs(stage)
     if not ind.exists():
         return []
-    return sorted(p.stem for p in ind.glob("*.json") if not (outd / p.name).exists())
+    out = []
+    for p in sorted(ind.glob("*.json")):
+        ans = outd / p.name
+        if not ans.exists():
+            out.append(p.stem)
+            continue
+        if validate is None or validate(_load_answer(ans)):
+            continue                                       # no validation, or it passed
+        n = _bump_attempt(stage, p.stem)
+        if n > max_attempts:
+            continue                                       # give up re-queueing; see needs_human()
+        ans.rename(outd / f"{p.stem}.rejected.{n}.json")   # quarantine, then re-queue clean
+        out.append(p.stem)
+    return out
 
 
 def _load_answer(path: Path):

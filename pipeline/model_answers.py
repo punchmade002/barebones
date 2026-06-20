@@ -26,8 +26,9 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
-from config import CANONICAL, DIGEST, recommended_words
+from config import CANONICAL, DIGEST, REPORTS, recommended_words
 from segment import _retry, MODEL, load_scaffold
+import validate
 
 ANSWER_TOKENS = 5_000           # room for a full essay per question
 SCHEME_CTX_CHARS = 12_000       # cap marking-scheme context per request (cached, so reused cheaply)
@@ -88,8 +89,11 @@ def is_documents_q(q: dict) -> bool:
 
 
 def needs_fill(q: dict) -> list[dict]:
-    """Parts with no model answer that aren't document-dependent."""
-    return [p for p in q["parts"] if not (p.get("model") or "").strip()]
+    """Parts with no model answer AND a real question to answer. A placeholder question
+    (e.g. 'Part (a)') is skipped — AI-filling it just manufactures a convincing answer to
+    nothing; the coverage/validator flags the missing question instead."""
+    return [p for p in q["parts"]
+            if not (p.get("model") or "").strip() and not validate.is_placeholder(p)]
 
 
 def _part_line(subject: str, p: dict) -> str:
@@ -258,8 +262,28 @@ def collect(subject: str) -> None:
     filled = sum(1 for q in canonical for p in q["parts"] if p.get("model_source") == "ai-h1")
     have = sum(1 for q in canonical for p in q["parts"] if (p.get("model") or "").strip())
     total = sum(len(q["parts"]) for q in canonical)
+
+    # Track the ai-h1 share (a high one is the symptom of upstream segmentation failure) so the
+    # merge gate can cap it and a human can see where the AI answers cluster by year.
+    by_year: dict = defaultdict(lambda: [0, 0])             # year -> [ai_h1, total]
+    for q in canonical:
+        for p in q["parts"]:
+            by_year[q["year"]][1] += 1
+            if p.get("model_source") == "ai-h1":
+                by_year[q["year"]][0] += 1
+    ratio = filled / max(1, total)
+    rep = {"subject": subject, "ai_h1_filled": filled, "answered_parts": have,
+           "parts_total": total, "ai_h1_ratio": round(ratio, 3),
+           "by_year": {str(y): {"ai_h1": a, "total": t, "ratio": round(a / max(1, t), 3)}
+                       for y, (a, t) in sorted(by_year.items())}}
+    REPORTS.mkdir(parents=True, exist_ok=True)
+    (REPORTS / f"answers-{subject}.json").write_text(json.dumps(rep, indent=2))
+
     print(f"\nFilled {filled} H1 answers. Coverage now {have}/{total} parts "
-          f"({100*have//max(1,total)}%). Rendered: {js.name}")
+          f"({100*have//max(1,total)}%). ai-h1 ratio {ratio:.0%}. Rendered: {js.name}")
+    if ratio > 0.40:
+        print("⚠ ai-h1 ratio exceeds the 40% cap — the merge gate will block publishing "
+              "unless segmentation is improved or --force is used.")
 
 
 if __name__ == "__main__":
