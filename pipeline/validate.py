@@ -30,8 +30,11 @@ import sys
 
 from config import (CANONICAL, REPORTS, MIN_QUESTION_CHARS, STUB_QUESTION_RE,
                     LENGTH_MIN_RATIO, LENGTH_MAX_RATIO, SEGMENT_RETRY_ATTEMPTS,
+                    MAX_QUARANTINE_FRAC, MAX_SOFT_WARN_FRAC, TAG_REVIEW_THRESHOLD,
                     recommended_words)
 from model_answers import q_level
+
+LOW_TAG_CONF = 0.6              # below this a question's chapter tag is "low confidence"
 
 
 def _load(subject: str) -> list[dict]:
@@ -64,7 +67,7 @@ def part_defects(subject: str, p: dict) -> list[str]:
         out.append("stub_question")
     if not isinstance(p.get("marks"), int) or p.get("marks", 0) <= 0:
         out.append("no_marks")
-    target = recommended_words(subject, p.get("marks", 0))
+    target = recommended_words(subject, p.get("marks", 0), p.get("scheme_points"))
     ans = (p.get("model") or "").strip()
     if target and ans:
         ratio = _word_count(ans) / target
@@ -220,7 +223,7 @@ def write_sample(subject: str, n_q: int = 12, n_cards: int = 15, seed: int = 0) 
         lines.append(f"## {q['id']}  ·  chapter `{q.get('chapterId','?')}`  ·  {q.get('source','')}")
         for p in q["parts"]:
             src = p.get("model_source", "—")
-            tgt = recommended_words(subject, p.get("marks", 0))
+            tgt = recommended_words(subject, p.get("marks", 0), p.get("scheme_points"))
             tgtxt = f", target ~{tgt}w, got {_word_count(p.get('model',''))}w" if tgt else ""
             lines.append(f"**[{p.get('label','')}] ({p.get('marks',0)} marks)** {p.get('question','')}")
             lines.append(f"> _({src}{tgtxt})_ {(p.get('model') or '(no answer)')}")
@@ -239,14 +242,54 @@ def write_sample(subject: str, n_q: int = 12, n_cards: int = 15, seed: int = 0) 
     return str(path)
 
 
+def tag_review(subject: str) -> dict:
+    """Best-guess tags stay (they're usable), but if MORE than TAG_REVIEW_THRESHOLD questions are
+    low-confidence, collect them into a review bucket so the scaffold/tagging can be fixed."""
+    canonical = _load(subject)
+    low = [{"id": q["id"], "chapterId": q.get("chapterId", ""),
+            "tag_confidence": q.get("tag_confidence", 0),
+            "first_q": (q["parts"][0]["question"][:100] if q.get("parts") else "")}
+           for q in canonical if q.get("tag_confidence", 1) < LOW_TAG_CONF]
+    path = None
+    if len(low) > TAG_REVIEW_THRESHOLD:
+        p = REPORTS / f"tag-review-{subject}.json"
+        p.write_text(json.dumps(low, indent=2, ensure_ascii=False))
+        path = str(p)
+    return {"low_confidence": len(low), "tag_review": path}
+
+
 def enforce(subject: str) -> dict:
-    """Pre-merge hard gate: drop stub parts, write quarantine + report + sample. Returns a summary."""
-    creport = clean(subject)
+    """Pre-merge hard gate. Drops stub parts AND generated questions that duplicate curated ones
+    (curated wins), raises a tag-review bucket if needed, writes quarantine/report/sample, and
+    decides whether the run is clean enough to auto-publish."""
+    import curated
+    import segment
+    before = len(_load(subject))
+    creport = clean(subject)                          # drop stub parts/questions -> quarantine
+
+    # curated wins: drop generated questions duplicating the hand-curated bank, then re-render
+    kept, dup_dropped = curated.drop_duplicates(_load(subject))
+    if dup_dropped:
+        _save(subject, kept)
+        segment.render_js(subject, kept)
+    creport["kept_questions"] = len(kept)            # reflect post-dedup final count
+
     rep = scan(subject)                              # re-scan the cleaned set (soft defects remain)
+    tr = tag_review(subject)
     report_path = write_report(subject)
     sample_path = write_sample(subject)
-    return {**creport, "remaining_soft": rep["soft"],
-            "report": report_path, "sample": sample_path}
+
+    total = max(1, before)
+    parts = max(1, rep["n_parts"])
+    quarantine_frac = creport["dropped_questions"] / total
+    soft_frac = rep["soft"] / parts
+    is_clean = (quarantine_frac <= MAX_QUARANTINE_FRAC
+                and soft_frac <= MAX_SOFT_WARN_FRAC
+                and not tr["tag_review"])
+    return {**creport, "dup_dropped": dup_dropped, "remaining_soft": rep["soft"],
+            "quarantine_frac": round(quarantine_frac, 3), "soft_frac": round(soft_frac, 3),
+            "low_confidence": tr["low_confidence"], "tag_review": tr["tag_review"],
+            "clean": is_clean, "report": report_path, "sample": sample_path}
 
 
 if __name__ == "__main__":

@@ -6,6 +6,7 @@ dropdowns by visible text. The only per-subject knowledge that matters for "whic
 are relevant" is the syllabus-change cutoff year (see SYLLABUS_CUTOFF below).
 """
 import datetime
+import json as _json
 from pathlib import Path
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -16,7 +17,9 @@ EXTRACTED = DATA / "extracted"                          # stage 2 page text/imag
 DIGEST = DATA / "digest"                                # app-ready per-paper digests
 CANONICAL = DATA / "canonical"                          # one <subject>.json per subject
 REPORTS = DATA / "reports"                              # manifests + coverage
-for _p in (RAW, EXTRACTED, DIGEST, CANONICAL, REPORTS):
+RESOURCES = ROOT / "pipeline" / "resources"            # per-subject authoritative material (drop folder)
+RESOURCE_CACHE = DATA / "resources"                    # extracted corpus + bundle-derived metadata
+for _p in (RAW, EXTRACTED, DIGEST, CANONICAL, REPORTS, RESOURCE_CACHE):
     _p.mkdir(parents=True, exist_ok=True)
 
 EXAM_IMAGES = ROOT / "exam-images"
@@ -42,17 +45,25 @@ LENGTH_MIN_RATIO = 0.35
 LENGTH_MAX_RATIO = 2.5
 SEGMENT_RETRY_ATTEMPTS = 2         # times to re-segment papers that produced broken parts
 
+# ── Publish gate (auto-publish if clean, else stop for review) ─────────────────
+# After validation, run.py merges automatically only when the run is this clean; otherwise it
+# stops and asks for `--merge`. (Tune per how much you trust the gate.)
+MAX_QUARANTINE_FRAC = 0.05        # >5% of questions dropped as stubs -> needs a human look
+MAX_SOFT_WARN_FRAC = 0.15         # >15% soft warnings (no_marks/length) -> needs a human look
+TAG_REVIEW_THRESHOLD = 5          # > this many low-confidence tags -> raise a review bucket
+
 # ── Worker model tiers (reform B) ─────────────────────────────────────────────
 # Quality-critical stages (extraction, answer authoring) get a strong model; cheap
 # classification/vision stays on Haiku. run.py prints the tier so /run-pipeline spawns
 # the pipeline-worker subagent with that `model`.
 STAGE_MODEL = {
-    "scaffold":   "haiku",
-    "segment":    "opus",      # paper extraction — the foundation; must be exact
-    "images":     "haiku",
-    "schemes":    "sonnet",    # match official answers out of the marking scheme
-    "answers":    "sonnet",    # author H1 answers where no official one exists
-    "flashcards": "haiku",
+    "scaffold":      "haiku",
+    "segment":       "opus",   # paper extraction — the foundation; must be exact
+    "images":        "haiku",
+    "images-verify": "haiku",  # confirm each crop is a real figure
+    "schemes":       "sonnet", # match official answers out of the marking scheme
+    "answers":       "sonnet", # author H1 answers where no official one exists
+    "flashcards":    "haiku",
 }
 
 
@@ -103,51 +114,53 @@ SUBJECTS = {
 
 LEVELS = ("AL", "GL")              # AL = Higher (Ardleibhéal), GL = Ordinary
 
-# ── Answer length model ──────────────────────────────────────────────────────
-# A model answer should be as long as a student could realistically WRITE in the time the
-# marks buy them — not an unbounded essay. Time for a question = (its marks / paper marks)
-# × exam minutes. A third of that is thinking, so writing time = 2/3. Length = writing time
-# × handwriting speed.
-WRITING_WPM = 22            # average sustained exam handwriting speed (words/minute)
-THINKING_FRACTION = 1 / 3   # share of available time spent planning, not writing
-# A model answer is an exemplar, so it's allowed to be fuller than a time-pressured student
-# answer. This scale lifts the realistic-time length to the target exemplar length. At 1.45
-# a 100-mark question lands at ~900 words.
-MODEL_ANSWER_SCALE = 1.45
-
-# Per subject: total written-paper marks a candidate answers, and the exam length (minutes).
-# History: written paper = 400 marks in 2h50m (the 100-mark research report is separate).
-EXAM_FORMAT = {
-    "history":   {"marks": 400, "minutes": 170},
-    "chemistry": {"marks": 400, "minutes": 180},   # answer 8 of 11 Qs × 50 marks, 3 hours
-    "maths":     {"marks": 300, "minutes": 150},   # per paper: Section A+B, 2h30m each
-    "home-economics": {"marks": 320, "minutes": 150},  # written paper 320 marks (A 60 / B 180 / C 80), 2h30m
+# ── Answer length model (scheme points, fallback words-per-mark) ───────────────
+# An answer should develop as many distinct points as the marking scheme rewards. When the
+# scheme's point count for a part is known (schemes.py returns it), target = points × words/point.
+# Otherwise fall back to a per-subject words-per-mark rule. The author is told to MEET OR EXCEED
+# this — it's a floor for the exemplar, not a time-pressured student's realistic length.
+WORDS_PER_POINT = 35            # a fully-developed exam point is ~30-40 words
+DEFAULT_WORDS_PER_MARK = 9      # fallback when the scheme's point count is unknown
+WORDS_PER_MARK = {             # per-subject overrides for the fallback (tune as needed)
+    # "history": 11,
 }
 
 
-def recommended_words(subject: str, marks: int) -> int | None:
-    """Realistic answer length in words for a question worth `marks`. None if unknown subject."""
-    fmt = EXAM_FORMAT.get(subject)
-    if not fmt or not marks:
-        return None
-    available = (marks / fmt["marks"]) * fmt["minutes"]      # minutes for this question
-    writing = available * (1 - THINKING_FRACTION)            # minus thinking time
-    words = writing * WRITING_WPM * MODEL_ANSWER_SCALE       # exemplar length
-    return max(15, round(words / 10) * 10)                   # rounded to nearest 10
+def words_per_mark(subject: str) -> int:
+    return WORDS_PER_MARK.get(subject, DEFAULT_WORDS_PER_MARK)
+
+
+def recommended_words(subject: str, marks: int, points: int | None = None) -> int | None:
+    """Target answer length (words). Prefer the scheme's reward-point count; else words-per-mark.
+    None when neither marks nor points are known."""
+    if points and points > 0:
+        return max(15, round(points * WORDS_PER_POINT / 10) * 10)
+    if marks and marks > 0:
+        return max(15, round(marks * words_per_mark(subject) / 10) * 10)
+    return None
 
 
 def cutoff_for(subject: str) -> tuple[int, bool]:
-    """Return (cutoff_year, is_verified). Unknown subjects use DEFAULT_CUTOFF (unverified)."""
+    """Return (cutoff_year, is_verified). Prefer a cutoff read from the subject's resource bundle
+    (resources.py caches it); else the SYLLABUS_CUTOFF table; else DEFAULT_CUTOFF (unverified)."""
+    meta = RESOURCE_CACHE / f"{subject}.meta.json"
+    if meta.exists():
+        try:
+            d = _json.loads(meta.read_text())
+            if d.get("cutoff"):
+                return int(d["cutoff"]), True        # bundle-derived = authoritative
+        except Exception:
+            pass
     if subject in SYLLABUS_CUTOFF:
         year, verified = SYLLABUS_CUTOFF[subject]
         return year, verified
     return DEFAULT_CUTOFF, False
 
 
-def relevant_years(subject: str, include_reference: bool = True) -> list[dict]:
-    """The years worth pulling for a subject, newest first.
-    Each item: {year, status} where status is 'on-course' or 'reference'.
-    'reference' = the single pre-change year (kept for overlapping content)."""
+def relevant_years(subject: str, include_reference: bool = False) -> list[dict]:
+    """The years worth pulling for a subject, newest first. Each item: {year, status}.
+    Design decision: CURRENT SYLLABUS ONLY — no reference year by default. Pass
+    include_reference=True to also pull the single pre-change year."""
     cutoff, _ = cutoff_for(subject)
     years = [{"year": y, "status": "on-course"} for y in range(CURRENT_YEAR, cutoff - 1, -1)]
     if include_reference:

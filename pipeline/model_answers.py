@@ -92,38 +92,52 @@ def needs_fill(q: dict) -> list[dict]:
     return [p for p in q["parts"] if not (p.get("model") or "").strip()]
 
 
+CORPUS_CTX_CHARS = 15_000       # cap the resource-bundle context in the cached prefix
+
+
 def _part_line(subject: str, p: dict) -> str:
     marks = p.get("marks", 0)
-    words = recommended_words(subject, marks)
-    target = f", aim ~{words} words" if words else ""
+    points = p.get("scheme_points")
+    words = recommended_words(subject, marks, points)
+    bits = []
+    if points:
+        bits.append(f"~{points} scheme points")
+    if words:
+        bits.append(f"AT LEAST {words} words")
+    target = f" [{'; '.join(bits)}]" if bits else ""
     return f"[{p.get('label') or 'part'}] ({marks} marks{target}) {p['question']}"
 
 
 def cached_prefix(subject: str, scheme_ctx: str, used_fallback: bool) -> str:
     """The big, STABLE part of the prompt — identical for every question that shares this
-    marking scheme. Sent with cache_control so repeats cost ~10%."""
+    marking scheme. Sent with cache_control so repeats cost ~10%. Includes the subject's
+    resource bundle (stable per subject) so answers are grounded in the course material."""
+    import resources
     note = ("NOTE: this year's marking scheme wasn't available, so the criteria below are "
             "pooled from other years of the same subject — use them to infer the standard.\n\n"
             if used_fallback else "")
     scheme = scheme_ctx[:SCHEME_CTX_CHARS] if scheme_ctx.strip() else \
         f"(use standard {subject} marking conventions)"
+    material = resources.corpus(subject)[:CORPUS_CTX_CHARS]
+    course = (f"\n\n=== COURSE MATERIAL (ground every answer in THIS; it is the authoritative "
+              f"source for the course) ===\n{material}" if material.strip() else "")
     return f"""You are a State Examinations Commission examiner AND a top H1 candidate for
 Leaving Certificate {subject}. Write sample answers that would score FULL MARKS.
 
-{note}Write each answer to the length given by the "aim ~N words" target on each part —
-dense, fully relevant, no padding or waffle. A shorter answer that nails the marking
-criteria beats a long one.
+{note}Each part states a length as "~N scheme points" and/or "AT LEAST N words". MEET OR EXCEED
+it — develop EVERY scheme point fully with specific, accurate detail. Do not stop short; a
+full-marks exemplar is thorough, not terse. No padding or waffle, but cover every creditable point.
 
 Match what the marking scheme rewards: sustained relevance to the question, accurate
 specific evidence (names, dates, events, statistics), clear structure, developed analysis,
 and a reasoned judgement.
 
-STAY ON COURSE: use ONLY material on the Leaving Certificate {subject} syllabus for the
-stated topic. Do not bring in facts, figures, examples, theories or events outside the
-course. Do not invent facts. Return ONLY via the emit_answers tool, echoing each label.
+STAY ON COURSE: ground answers in the COURSE MATERIAL below and the marking scheme. Use ONLY
+material on the Leaving Certificate {subject} syllabus for the stated topic. Do not bring in
+facts outside the course. Do not invent facts. Return ONLY via the emit_answers tool, echoing each label.
 
 === MARKING SCHEME / CRITERIA ===
-{scheme}"""
+{scheme}{course}"""
 
 
 def variable_suffix(subject: str, q: dict, title: str) -> str:

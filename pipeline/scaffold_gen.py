@@ -138,11 +138,17 @@ def prepare(subject: str, regen: bool = False) -> int:
     pooled = "\n\n".join(pages_text(dg.get("paper")) for dg in digests)[:MAX_POOL_CHARS]
     if not pooled.strip():
         raise SystemExit(f"No usable paper text for {subject} — run `python3 run.py {subject}` first.")
-    sp = _spec_path(subject)
-    spec = sp.read_text()[:MAX_SPEC_CHARS] if sp.exists() else ""
-    print(f"[scaffold] using official spec {sp.name}" if spec
-          else "[scaffold] no spec file — inferring topics from papers "
-               f"(drop one at {sp} for an authoritative scaffold)")
+    # Source priority for the topic list: resource bundle (authoritative) > spec.txt > papers.
+    import resources
+    spec = resources.corpus(subject)[:MAX_SPEC_CHARS]
+    if spec.strip():
+        print(f"[scaffold] deriving topics from the resource bundle ({len(spec)} chars)")
+    else:
+        sp = _spec_path(subject)
+        spec = sp.read_text()[:MAX_SPEC_CHARS] if sp.exists() else ""
+        print(f"[scaffold] using official spec {sp.name}" if spec
+              else f"[scaffold] no resource bundle/spec — inferring topics from papers "
+                   f"(drop course material in {resources.subject_dir(subject)} for accuracy)")
     job = {"custom_id": "scaffold", "prompt": build_prompt(subject, pooled, spec), "tool": EMIT_TOOL}
     bridge.prepare(_stage(subject), [job], task=_TASK)
     print(f"[scaffold] queued 1 job for the worker")

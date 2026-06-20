@@ -38,6 +38,7 @@ EMIT_TOOL = {
                     "properties": {
                         "pid": {"type": "string", "description": "the part id, echoed back exactly"},
                         "answer": {"type": "string", "description": "the model answer copied from the marking scheme; '' if the scheme has none"},
+                        "points": {"type": "integer", "description": "how many DISTINCT marking points/credits the scheme rewards for this part (0 if unclear)"},
                     },
                     "required": ["pid", "answer"],
                 },
@@ -78,6 +79,8 @@ Rules:
 - Copy the scheme's answer faithfully; you may tidy obvious OCR artefacts. Keep it concise.
 - If the scheme gives only marking *criteria* (points/keywords, not a usable answer) or does not
   cover a part, return "" for that pid — a later stage will author a full answer.
+- `points`: count how many DISTINCT marking points/credits the scheme rewards for the part (e.g.
+  "any 3 × 2 marks" -> 3; a 6-mark part credited as 3 points -> 3). Use 0 only if truly unclear.
 - Echo every `pid` exactly as given. Do NOT invent content that isn't in the scheme.
 - Return ONLY via the emit_scheme_answers tool.
 
@@ -96,8 +99,10 @@ def parse_result(content) -> list[dict]:
             out = []
             for a in raw:
                 if isinstance(a, dict) and a.get("pid"):
+                    pts = a.get("points")
                     out.append({"pid": str(a["pid"]).strip(),
-                                "answer": (a.get("answer") or "").strip()})
+                                "answer": (a.get("answer") or "").strip(),
+                                "points": int(pts) if isinstance(pts, int) or (isinstance(pts, str) and pts.isdigit()) else 0})
             return out
     return []
 
@@ -148,15 +153,19 @@ def collect(subject: str) -> None:
     filled = 0
     for _cid, content in outs.items():
         for a in parse_result(content):
-            pid, ans = a["pid"], a["answer"]
-            if not ans or PID_SEP not in pid:
+            pid, ans, pts = a["pid"], a["answer"], a.get("points", 0)
+            if PID_SEP not in pid:
                 continue
             qid, _, idx = pid.rpartition(PID_SEP)
             q = by_id.get(qid)
             if not q or not idx.isdigit():
                 continue
             i = int(idx)
-            if i < len(q["parts"]) and not (q["parts"][i].get("model") or "").strip():
+            if i >= len(q["parts"]):
+                continue
+            if pts:                                     # length target, kept regardless of answer
+                q["parts"][i]["scheme_points"] = pts
+            if ans and not (q["parts"][i].get("model") or "").strip():
                 q["parts"][i]["model"] = ans
                 q["parts"][i]["model_source"] = "scheme"
                 filled += 1

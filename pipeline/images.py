@@ -277,18 +277,16 @@ def collect(subject: str) -> None:
         rel = _crop(subject, meta, bbox) if (has_fig and bbox) else None
         if rel:
             qid, _, idx = key.partition("#")
-            q = by_id.get(qid)
-            if q and idx.isdigit() and int(idx) < len(q["parts"]):
-                q["parts"][int(idx)]["diagram"] = rel
-            sidecar[key] = {"has_figure": True, "diagram": rel}
+            # Don't attach yet — images_verify.py visually confirms the crop is a real figure
+            # before it reaches a part's `diagram`. Record it as pending.
+            sidecar[key] = {"has_figure": True, "pending_crop": rel,
+                            "qid": qid, "idx": int(idx) if idx.isdigit() else -1}
             cropped += 1
-            print(f"[crop] {key} -> {rel}")
+            print(f"[crop] {key} -> {rel} (pending visual check)")
         else:
             sidecar[key] = {"has_figure": False}
         side_path.write_text(json.dumps(sidecar, indent=2))
-        _save(subject, rows)                              # durable after each crop
-    js = render_js(subject, rows)
-    print(f"\n{cropped} diagram(s) cropped into exam-images/{subject}/ — re-rendered {js.name}")
+    print(f"\n{cropped} candidate crop(s) saved — images_verify will confirm before attaching.")
 
 
 if __name__ == "__main__":

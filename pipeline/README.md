@@ -5,18 +5,21 @@ Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_
 ```
 run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, NO API key
 agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
-config.py        paths, subjects, SYLLABUS_CUTOFF, and the diagram-crop tunables
+config.py        paths, subjects, models per stage, length/validation tunables, SYLLABUS_CUTOFF
+resources.py     Stage 0 — ingest pipeline/resources/<subject>/ (guide/summary/spec) -> corpus + cutoff
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
 scaffold_gen.py  Stage 2.5 — derive scaffold/<subject>.json (from <subject>.spec.txt if present, else digests)
 segment.py       Stages 3-5 — questions + parts + marks + topic tags, from the EXAM PAPER ONLY
 schemes.py       Stage 5b — match each part's official answer out of the MARKING SCHEME ONLY
-images.py        Stage 7 — diagram crops -> exam-images/, sets part.diagram (subagent finds the box)
-model_answers.py Stage 6a — H1 sample answers for parts the scheme doesn't model
-flashcards.py    Stage 6b — deduplicated, per-chapter flashcards across all years
-validate.py      gate — re-segment/quarantine broken questions, write review sample (blocks merge)
-merge.py         Stage 8 — copy generated JS to repo root + wire <script> tags into app.html (on --merge)
+images.py        Stage 7 — crop candidate figures from the page (subagent finds the box); marks pending
+images_verify.py Stage 7b — visually confirm each crop is a real figure before attaching; rejects bad crops
+model_answers.py Stage 6a — H1 answers for parts the scheme doesn't model; grounded in the resource bundle
+flashcards.py    Stage 6b — per-chapter flashcards sourced from the resource bundle (not question text)
+curated.py       guard — drop generated questions that duplicate the hand-curated exam-questions-db.js
+validate.py      gate — re-segment/quarantine broken questions, tag-review bucket, sample; auto-publish if clean
+merge.py         Stage 8 — copy generated JS to repo root + wire <script> tags into app.html
 scaffold/        per-subject section+chapter lists the tagger assigns to (auto-made if absent)
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
 _data/           generated store (gitignore this) — raw, digest, canonical, reports, agent jobs

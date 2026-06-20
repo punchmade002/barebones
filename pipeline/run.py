@@ -53,10 +53,21 @@ def main() -> None:
 
     limit = _arg(args, "--limit")
 
-    cutoff, verified = cutoff_for(subject)
-    yrs = relevant_years(subject)
+    # Stage 0: ingest the resource bundle FIRST — it is the source of truth for the scaffold,
+    # flashcards, answer grounding, AND the syllabus cutoff that drives which years we pull.
+    import resources
+    rs = resources.ingest(subject)
+    if rs["bundle"]:
+        print(f"resources: {rs['files']} file(s) {rs['roles']}, {rs['chars']} chars, "
+              f"cutoff {rs['cutoff'] or '(not stated — using estimate)'}")
+    else:
+        print(f"resources: NO bundle at {resources.subject_dir(subject)} — scaffold/flashcards/"
+              f"answers will be weaker. Drop the course guide/summary there for best accuracy.")
+
+    cutoff, verified = cutoff_for(subject)             # now bundle-aware
+    yrs = relevant_years(subject)                      # current-syllabus only (no reference year)
     print(f"=== {subject} ===  cutoff {cutoff}{'' if verified else ' (UNVERIFIED)'} | "
-          f"{len(yrs)} years ({yrs[-1]['year']}=reference … {yrs[0]['year']})\n")
+          f"{len(yrs)} years ({yrs[-1]['year']} … {yrs[0]['year']})\n")
 
     # Stage 1-2: acquire + digest — plain Python, idempotent, zero model work.
     if "--no-acquire" not in args:
@@ -67,6 +78,7 @@ def main() -> None:
     import scaffold_gen
     import segment
     import images
+    import images_verify
     import schemes
     import model_answers
     import flashcards
@@ -74,7 +86,7 @@ def main() -> None:
     import merge
 
     if "--restart" in args:
-        for mod in (scaffold_gen, segment, images, schemes, model_answers, flashcards):
+        for mod in (scaffold_gen, segment, images, images_verify, schemes, model_answers, flashcards):
             bridge.reset(mod._stage(subject))
         validate._reset_attempts(subject)
         print("restarted: cleared all queued worker jobs for this subject.\n")
@@ -88,6 +100,7 @@ def main() -> None:
     ]
     if "--no-images" not in args:
         stages.append(("images", images, lambda: images.prepare(subject, limit=limit)))
+        stages.append(("images-verify", images_verify, lambda: images_verify.prepare(subject)))
     stages += [
         ("schemes",    schemes,       lambda: schemes.prepare(subject)),
         ("answers",    model_answers, lambda: model_answers.prepare(subject, limit=limit)),
@@ -120,21 +133,29 @@ def main() -> None:
     # All model stages done — VALIDATION GATE before anything reaches the app (reform C/G).
     gate = validate.enforce(subject)
     print(f"\n=== VALIDATION GATE ===")
-    print(f"quarantined {gate['dropped_parts']} stub part(s) / {gate['dropped_questions']} question(s); "
-          f"{gate['kept_questions']} clean questions kept; {gate['remaining_soft']} soft warning(s).")
+    print(f"quarantined {gate['dropped_parts']} stub part(s) / {gate['dropped_questions']} question(s) "
+          f"({gate['quarantine_frac']:.0%}); dropped {gate['dup_dropped']} curated-duplicate question(s); "
+          f"{gate['kept_questions']} clean questions kept; "
+          f"{gate['remaining_soft']} soft warning(s) ({gate['soft_frac']:.0%}); "
+          f"{gate['low_confidence']} low-confidence tag(s).")
     if gate.get("quarantine"):
         print(f"quarantine: {gate['quarantine']}")
+    if gate.get("tag_review"):
+        print(f"TAG REVIEW ({gate['low_confidence']} low-confidence questions): {gate['tag_review']}")
     print(f"report:  {gate['report']}")
     print(f"SAMPLE FOR REVIEW:  {gate['sample']}")
 
     if "--no-merge" in args:
         print("\nVALIDATED (not merged: --no-merge).")
         return
-    if "--merge" not in args:
-        print("\nVALIDATED — review the sample above, then re-run with --merge to publish into app.html.")
+    # Auto-publish if clean; otherwise stop for review unless explicitly overridden with --merge.
+    if not gate["clean"] and "--merge" not in args:
+        print("\nNEEDS REVIEW — validation exceeded the clean thresholds (or raised a tag-review "
+              "bucket). Check the sample above, then re-run with --merge to publish anyway.")
         return
     merge.run(subject)
-    print(f"\nPIPELINE COMPLETE: {subject} is acquired, digested, scaffolded, segmented, "
+    why = "clean — auto-published" if gate["clean"] else "published (--merge override)"
+    print(f"\nPIPELINE COMPLETE ({why}): {subject} is acquired, digested, scaffolded, segmented, "
           f"{'(images skipped) ' if '--no-images' in args else 'diagrammed, '}"
           f"scheme-matched, answered, flashcarded, validated, and merged into app.html.")
 
