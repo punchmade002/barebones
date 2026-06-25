@@ -72,12 +72,6 @@ const HISTORY_SUBJECT = {
   chapters: buildSubjectChapters("history"),
 };
 
-const HOME_ECONOMICS_SUBJECT = {
-  id: "home-economics",
-  title: "Home Economics",
-  chapters: buildSubjectChapters("home-economics"),
-};
-
 function buildOutcomes(ch) {
   const vocab = chapterVocabulary(ch);
   return [
@@ -307,7 +301,6 @@ const SUBJECTS = [
   MATHS_SUBJECT,
   CHEMISTRY_SUBJECT,
   HISTORY_SUBJECT,
-  HOME_ECONOMICS_SUBJECT,
 ];
 
 const SINGULAR_S_WORDS = new Set([
