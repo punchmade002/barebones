@@ -39,7 +39,7 @@ npm run check
 npm start
 ```
 
-With `TELEGRAM_ALLOWED_CHAT_ID` blank, the bot ignores all normal messages. Send `/id` in the intended Telegram group; the bot replies with the group ID. Put that value in `telegram-bridge.env`, stop the bridge with `Ctrl+C`, and start it again.
+With `TELEGRAM_ALLOWED_CHAT_ID` blank, the bot ignores all normal messages. Send `/id@your_bot_username` in the intended Telegram group; the bot replies with the group ID. Put that value in `telegram-bridge.env`, stop the bridge with `Ctrl+C`, and start it again.
 
 In a group, trigger it with one of:
 

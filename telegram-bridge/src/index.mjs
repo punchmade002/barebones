@@ -99,7 +99,7 @@ async function handleMessage(telegram, bot, message) {
   if (!message?.text || message.from?.is_bot) return;
 
   const text = message.text.trim();
-  if (text === "/id") {
+  if (/^\/id(?:@[^\s]+)?\s*$/i.test(text)) {
     await reply(telegram, message, `This chat's ID is \`${message.chat.id}\`. Add it as TELEGRAM_ALLOWED_CHAT_ID, then restart me.`);
     return;
   }
