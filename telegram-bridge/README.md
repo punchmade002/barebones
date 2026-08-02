@@ -1,40 +1,33 @@
-# Barebones Telegram bridge
+# Barebones Telegram relay
 
-This is a lightweight local bridge between one Telegram bot and the OpenAI Responses API. It uses long polling, so it works from a Mac without a public URL or a paid hosting service.
+This is a free Telegram coordination relay for Codex, Claude, and the project owner. It does **not** call OpenAI, Anthropic, or any other model API. GitHub remains the durable source of truth for tasks, commits, and reviews.
 
-It is a separate API-backed chat participant, not a remote control for a live Codex or Claude session. It cannot inspect the repository, run commands, or automatically relay private agent-session messages. Use GitHub issue #1 for durable work tracking.
+The relay has two jobs:
 
-## Configure
+- Post labelled progress, handoff, blocker, and question messages through either agent's Telegram bot.
+- Listen through the Codex bot and write human group messages to a shared local inbox, which active agents can read.
 
-The OpenAI key is loaded from the local root file `openaiapi.env.txt`, which must contain:
+It cannot wake an inactive agent. An active agent should check the inbox at the start of work and after a Telegram notification.
 
-```env
-OPENAI_API_KEY=...
-```
+## Local configuration
 
-Create a second local file at the repository root called `telegram-bridge.env.txt`
-(or `telegram-bridge.env` if you prefer):
+Keep this in the ignored root file `openaiapi.env.txt` or `telegram-bridge.env.txt` (the OpenAI key is no longer used by this relay):
 
 ```env
-TELEGRAM_BOT_TOKEN=...
-TELEGRAM_ALLOWED_CHAT_ID=
-OPENAI_MODEL=gpt-5-mini
-BOT_LABEL=Barebones Codex
-TELEGRAM_REQUIRE_TRIGGER=true
+TELEGRAM_CODEX_BOT_TOKEN=...
+TELEGRAM_CLAUDE_BOT_TOKEN=...
+TELEGRAM_ALLOWED_GROUP_ID=-1001234567890
+TELEGRAM_CODEX_BOT_LABEL=Barebones Codex
+TELEGRAM_CLAUDE_BOT_LABEL=Barebones Claude
 ```
 
-Both files are ignored by Git. Never commit or share the bot/API tokens.
+The current Codex token can stay under the older name `TELEGRAM_BOT_TOKEN`, but the explicit name above is clearer. Never commit or share either token.
 
-If you keep a private test-chat ID too, put the real group in
-`TELEGRAM_ALLOWED_GROUP_ID`; it takes precedence over `TELEGRAM_ALLOWED_CHAT_ID`.
+For the inbox listener to capture normal group messages, use BotFather's `/setprivacy` command and disable privacy mode for the Codex bot. Otherwise, tag `@codex_barebones_bot` or use a command when you need an agent to see a message.
 
-If you run the bridge from a separate Git worktree while keeping secrets in
-another local checkout, set `BRIDGE_ENV_FILE` to the absolute path of the file
-that contains `OPENAI_API_KEY` instead of copying the key.
+## Run
 
-## First run
-
-Requires Node.js 18 or later. There are no npm dependencies to install.
+Requires Node.js 18+ and no npm install.
 
 ```sh
 cd telegram-bridge
@@ -42,19 +35,23 @@ npm run check
 npm start
 ```
 
-With `TELEGRAM_ALLOWED_CHAT_ID` blank, the bot ignores all normal messages. Send `/id@your_bot_username` in the intended Telegram group; the bot replies with the group ID. Put that value in `telegram-bridge.env`, stop the bridge with `Ctrl+C`, and start it again.
+`npm start` is the long-running inbox listener. It writes local, ignored data to `.relay/inbox.jsonl`; keep one listener instance only.
 
-In a group, trigger it with one of:
+Post a status update:
 
-```text
-/codex What should we work on next?
-/ask Summarise the current handoff.
-@your_bot_username What is our next task?
-/reset
+```sh
+npm run relay -- post --agent codex --kind update --message "Implemented the Telegram relay."
+npm run relay -- post --agent claude --kind handoff --message "Please review the bridge configuration."
 ```
 
-`/reset` clears the small in-memory conversation context for that group. The bot only responds in the configured group. A group ID typically starts with `-100`.
+Read recent human group messages:
 
-## Keep it running
+```sh
+npm run relay -- read --limit 20
+```
 
-Leave `npm start` running in a terminal while you want the bot online. Only one long-polling instance should use a bot token at a time. For always-on operation, deploy the same code to a host with a persistent process, then move the local environment variables to that host's secret store.
+## Working agreement
+
+- Post material changes, blockers, questions, and handoffs to Telegram using the agent's bot identity.
+- The Codex listener writes incoming human messages to the shared inbox; agents read it before selecting work.
+- Keep GitHub issue #1 and focused commits/PRs as the permanent task trail.

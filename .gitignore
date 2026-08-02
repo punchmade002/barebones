@@ -15,3 +15,6 @@ pipeline/__pycache__/
 *.env
 *.env.*
 !.env.example
+
+# Telegram relay's local inbox and polling cursor
+telegram-bridge/.relay/
