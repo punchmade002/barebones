@@ -1380,6 +1380,7 @@ details[open] > summary::before { transform: rotate(90deg); }
 }
 
 .exam-marks { font-size: 0.78rem; color: var(--muted); }
+.exam-question-timing { font-size: 0.78rem; }
 
 .exam-question-text {
   margin: 0;

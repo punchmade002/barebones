@@ -14,7 +14,7 @@
         b: "A systematic way of building knowledge about the natural world through observation, testing and reasoning, producing explanations supported by repeatable evidence."
       },
       {
-        h: "What are the steps of the scientific method?",
+        h: "How does the scientific method work?",
         b: "Steps: Observation -> Question -> Hypothesis -> Prediction -> Experiment -> Data collection -> Analysis -> Conclusion -> Publish/repeat."
       },
       {
@@ -57,8 +57,8 @@
         section: "1.1"
       },
       {
-        term: "What are the steps of the scientific method?",
-        definition: "Steps: Observation → Question → Hypothesis → Prediction → Experiment → Data collection → Analysis → Conclusion → Publish/repeat.",
+        term: "How does the scientific method work?",
+        definition: "The scientific method follows these steps: Observation → Question → Hypothesis → Prediction → Experiment → Data collection → Analysis → Conclusion → Publish/repeat.",
         section: "1.1"
       },
       {
@@ -449,8 +449,8 @@
         section: "3.1"
       },
       {
-        term: "What are the steps of peer review?",
-        definition: "The process by which scientific work is scrutinised by independent experts in the same field before publication, helping to ensure accuracy and validity.",
+        term: "How does the peer review process work?",
+        definition: "Peer review involves independent experts in the same field scrutinising scientific work before publication to check for errors, fraud and methodological flaws, ensuring the accuracy and validity of findings.",
         section: "3.1"
       },
       {
@@ -1535,8 +1535,8 @@
         section: "10.1"
       },
       {
-        term: "What are the steps of gene expression?",
-        definition: "The process by which the information in a gene is used to direct the synthesis of a protein. It involves transcription of DNA into RNA followed by translation of RNA into a polypeptide at a ribosome.",
+        term: "How does gene expression occur?",
+        definition: "Gene expression happens through two main steps: transcription, where DNA is copied into messenger RNA (mRNA), and translation, where the mRNA is read at a ribosome to synthesise a protein (polypeptide).",
         section: "10.1"
       },
       {
@@ -1726,8 +1726,8 @@
         section: "12.1"
       },
       {
-        term: "What are the steps of natural selection?",
-        definition: "The process by which individuals with genetically controlled traits that make them better adapted to their environment survive and reproduce more successfully, passing those advantageous traits to offspring over generations.",
+        term: "How does natural selection work?",
+        definition: "Natural selection occurs when individuals with genetically controlled traits that improve survival in their environment reproduce more successfully, passing advantageous traits to offspring over many generations until they become more common in the population.",
         section: "12.1"
       },
       {
@@ -1741,8 +1741,8 @@
         section: "12.1"
       },
       {
-        term: "What are the steps of speciation?",
-        definition: "The evolutionary process by which new species arise through the accumulation of genetic changes in isolated populations over time.",
+        term: "How does speciation occur?",
+        definition: "Speciation is the evolutionary process where new species arise when populations become geographically or reproductively isolated, accumulating genetic changes through natural selection over many generations until they can no longer interbreed.",
         section: "12.1"
       },
       {
@@ -2097,8 +2097,8 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What are the steps of photosynthesis?",
-        definition: "Anabolic process: 6CO2 + 6H2O → C6H12O6 + 6O2. Light energy captured by chlorophyll drives the synthesis of glucose from CO2 and water.",
+        term: "How does photosynthesis work?",
+        definition: "Photosynthesis is an anabolic process in which light energy captured by chlorophyll drives the synthesis of glucose from carbon dioxide and water (6CO2 + 6H2O → C6H12O6 + 6O2), releasing oxygen as a byproduct.",
         section: "14.1"
       },
       {
@@ -2667,8 +2667,8 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What are the steps of DNA replication?",
-        definition: "The process by which a DNA molecule is copied to produce two identical double-stranded DNA molecules, occurring during interphase and catalysed by DNA polymerase.",
+        term: "How does DNA replication occur?",
+        definition: "DNA replication is the process in which a double-stranded DNA molecule is unravelled and each strand serves as a template for synthesising a new complementary strand, catalysed by DNA polymerase during interphase, producing two identical DNA molecules.",
         section: "17.1"
       },
       {
@@ -2682,8 +2682,8 @@
         section: "17.1"
       },
       {
-        term: "What are the steps of translation?",
-        definition: "The ribosomal process that reads the mRNA base sequence (in codons) and assembles the corresponding chain of amino acids to form a protein.",
+        term: "How does translation work?",
+        definition: "Translation is the ribosomal process in which messenger RNA (mRNA) is read codon by codon, with each codon specifying an amino acid that is delivered by transfer RNA (tRNA) and assembled into a growing polypeptide chain to form a protein.",
         section: "17.1"
       },
       {
@@ -4832,8 +4832,8 @@
         section: "34.1"
       },
       {
-        term: "What are the steps of eutrophication?",
-        definition: "The process by which excess fertiliser nutrients (especially nitrates and phosphates) enter water, causing algal blooms, oxygen depletion and death of aquatic life.",
+        term: "How does eutrophication occur?",
+        definition: "Eutrophication happens when excess fertiliser nutrients (especially nitrates and phosphates) runoff into water bodies, causing rapid algal growth (blooms), which then die and decompose, consuming oxygen and creating dead zones lethal to aquatic life.",
         section: "34.1"
       },
       {

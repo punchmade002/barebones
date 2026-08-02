@@ -144,6 +144,7 @@ window.EXAM_BREAKDOWN.pe = {
 window.EXAM_BREAKDOWN.maths = {
   subject: "maths",
   totalMarks: 600,
+  totalMinutes: 300,
   timingNote: "2 papers · 2h 30m each",
   sections: [
     {
@@ -278,6 +279,52 @@ window.EXAM_BREAKDOWN.chemistry = {
         ]
       },
       chapterIds: ["chem1","chem2","chem3","chem4","chem5","chem6","chem7","chem8","chem9","chem10","chem11","chem12","chem13","chem14","chem15","chem16","chem17","chem18","chem19","chem20","chem21","chem22","chem23","chem24","chem25","chem26"]
+    }
+  ]
+};
+
+window.EXAM_BREAKDOWN.history = {
+  subject: "history",
+  totalMarks: 400,
+  totalMinutes: 170,
+  sections: [
+    {
+      id: "hist-section1",
+      name: "Section 1 – Documents",
+      color: "#F97316"
+    },
+    {
+      id: "hist-section2",
+      name: "Section 2 – Short Questions",
+      color: "#10B981"
+    },
+    {
+      id: "hist-section3",
+      name: "Section 3 – Long Questions",
+      color: "#3B82F6"
+    }
+  ]
+};
+
+window.EXAM_BREAKDOWN["home-economics"] = {
+  subject: "home-economics",
+  totalMarks: 320,
+  totalMinutes: 170,
+  sections: [
+    {
+      id: "hom-section-a",
+      name: "Section A – Short Questions",
+      color: "#F97316"
+    },
+    {
+      id: "hom-section-b",
+      name: "Section B – Medium Questions",
+      color: "#10B981"
+    },
+    {
+      id: "hom-section-c",
+      name: "Section C – Long Questions",
+      color: "#3B82F6"
     }
   ]
 };

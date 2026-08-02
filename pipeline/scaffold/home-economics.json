@@ -1,0 +1,109 @@
+{
+  "subject": "Home Economics - Scientific and Social",
+  "field": "Food science, nutrition, consumer studies, household management, textiles, and personal finance for the Leaving Certificate",
+  "note": "Questions may cover nutrition, food preparation, consumer protection, household economics, textiles, or environmental topics; assign to the most specific topic match.",
+  "sections": [
+    {
+      "id": "hom-section-a",
+      "title": "Short Answer Questions"
+    },
+    {
+      "id": "hom-section-b",
+      "title": "Extended Response Questions"
+    },
+    {
+      "id": "hom-section-c",
+      "title": "Electives and Core Options"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "hom-carbohydrates",
+      "title": "Carbohydrates and Dietary Fibre"
+    },
+    {
+      "id": "hom-proteins",
+      "title": "Proteins and Amino Acids"
+    },
+    {
+      "id": "hom-lipids",
+      "title": "Lipids and Fats"
+    },
+    {
+      "id": "hom-vitamins-minerals",
+      "title": "Vitamins and Minerals"
+    },
+    {
+      "id": "hom-digestion-metabolism",
+      "title": "Digestion and Metabolism"
+    },
+    {
+      "id": "hom-energy-nutrition",
+      "title": "Energy Balance and Nutritional Needs"
+    },
+    {
+      "id": "hom-meat-preparation",
+      "title": "Meat: Selection, Properties, and Cooking"
+    },
+    {
+      "id": "hom-fish-seafood",
+      "title": "Fish and Seafood"
+    },
+    {
+      "id": "hom-dairy-eggs",
+      "title": "Dairy Products and Eggs"
+    },
+    {
+      "id": "hom-cereals-grains",
+      "title": "Cereals and Grains"
+    },
+    {
+      "id": "hom-cooking-methods",
+      "title": "Cooking Methods and Heat Transfer"
+    },
+    {
+      "id": "hom-food-preservation",
+      "title": "Food Preservation and Storage"
+    },
+    {
+      "id": "hom-food-safety",
+      "title": "Food Safety and Microorganisms"
+    },
+    {
+      "id": "hom-meal-planning",
+      "title": "Meal Planning and Special Diets"
+    },
+    {
+      "id": "hom-food-additives",
+      "title": "Food Additives and Processing"
+    },
+    {
+      "id": "hom-consumer-rights",
+      "title": "Consumer Rights and Protection"
+    },
+    {
+      "id": "hom-personal-finance",
+      "title": "Personal Finance and Budgeting"
+    },
+    {
+      "id": "hom-housing",
+      "title": "Housing and Accommodation"
+    },
+    {
+      "id": "hom-textiles-fibres",
+      "title": "Textiles and Fabric Properties"
+    },
+    {
+      "id": "hom-clothing-selection",
+      "title": "Clothing Selection and Care"
+    },
+    {
+      "id": "hom-environmental-issues",
+      "title": "Environmental Issues and Sustainability"
+    },
+    {
+      "id": "hom-appliances-equipment",
+      "title": "Household Appliances and Equipment"
+    }
+  ]
+}

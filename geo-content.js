@@ -28,37 +28,37 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Inner Core?",
+        term: "What is the inner core?",
         definition: "Solid ball of ~90% iron with nickel and sulphur, ~1,220 km thick; temperature ~5,500°C — as hot as the surface of the sun.",
         section: "1.1"
       },
       {
-        term: "What is Outer Core?",
+        term: "What is the outer core?",
         definition: "Fluid layer of iron and nickel above the inner core, ~2,400 km thick; temperature 3,000–4,000°C.",
         section: "1.1"
       },
       {
-        term: "What is Mantle?",
+        term: "What is the mantle?",
         definition: "Layer of rock between the crust and outer core, ~2,900 km thick; mostly solid but behaves as a viscous fluid under long timescales.",
         section: "1.1"
       },
       {
-        term: "What is Asthenosphere?",
+        term: "What is the asthenosphere?",
         definition: "Soft, ductile layer of the upper mantle on which tectonic plates float and move.",
         section: "1.1"
       },
       {
-        term: "What is Lithosphere?",
+        term: "What is the lithosphere?",
         definition: "Rigid outer layer of Earth comprising the crust and upper mantle; divided into tectonic plates.",
         section: "1.1"
       },
       {
-        term: "What is Tectonic Plates?",
+        term: "What are tectonic plates?",
         definition: "Large segments of Earth's crust and upper mantle that move above the asthenosphere; seven major plates cover ~95% of Earth's surface.",
         section: "1.1"
       },
       {
-        term: "What is Continental Drift?",
+        term: "What is continental drift?",
         definition: "Wegener's theory that all continents were once a single landmass called Pangaea that broke apart and drifted to their current positions.",
         section: "1.2"
       },
@@ -68,27 +68,27 @@
         section: "1.2"
       },
       {
-        term: "What is Mantle Convection?",
+        term: "What is mantle convection?",
         definition: "Arthur Holmes' 1928 theory that heat-driven circulation of magma in the mantle drives plate movement.",
         section: "1.2"
       },
       {
-        term: "What are the steps of Seafloor Spreading?",
-        definition: "Process introduced by Harry Hess (1960) in which new oceanic crust forms at divergent boundaries as plates separate and magma fills the gap.",
+        term: "How does seafloor spreading work?",
+        definition: "Process introduced by Harry Hess (1960) at divergent boundaries: magma rises as plates separate, new oceanic crust forms and cools symmetrically on both sides of the ridge.",
         section: "1.3"
       },
       {
-        term: "What is Slab-Pull?",
+        term: "What is slab-pull?",
         definition: "Primary mechanism of plate movement (~90%); denser oceanic plate sinks into the mantle due to negative buoyancy, pulling the rest of the plate with it.",
         section: "1.4"
       },
       {
-        term: "What is Ridge-Push?",
+        term: "What is ridge-push?",
         definition: "Secondary mechanism of plate movement (~10%); upwelling mantle rock at mid-ocean ridges creates positive buoyancy that pushes plates apart.",
         section: "1.4"
       },
       {
-        term: "What is Mantle Plumes?",
+        term: "What are mantle plumes?",
         definition: "Large columns of hot rock rising through the mantle with positive buoyancy; form volcanic hotspots and are a driving force of mantle convection.",
         section: "1.4"
       }
@@ -118,42 +118,42 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Convergent Plate Boundary?",
+        term: "What is a convergent plate boundary?",
         definition: "Plate boundary where two tectonic plates collide; also called a destructive plate boundary. Three types: oceanic-oceanic, oceanic-continental, continental-continental.",
         section: "1.2"
       },
       {
-        term: "What are the steps of Subduction?",
-        definition: "Process where a denser oceanic plate sinks beneath a less dense plate into the asthenosphere and melts at ~100 km depth.",
+        term: "What happens during subduction?",
+        definition: "Process at convergent boundaries where a denser oceanic plate sinks beneath a less dense plate into the asthenosphere and melts at approximately 100 km depth.",
         section: "1.2"
       },
       {
-        term: "What is Ocean Trench?",
+        term: "What is an ocean trench?",
         definition: "Deep, narrow depression in the ocean floor formed where a plate subducts; typically 50–100 km wide and ~8 km deep.",
         section: "1.2"
       },
       {
-        term: "What are the steps of Orogeny?",
-        definition: "Mountain-building process driven by the collision between two tectonic plates at convergent boundaries.",
+        term: "What is orogeny?",
+        definition: "Mountain-building process driven by compression forces and collision between two tectonic plates at convergent boundaries.",
         section: "1.2"
       },
       {
-        term: "What is Accretionary Wedge?",
+        term: "What is an accretionary wedge?",
         definition: "Build-up of sediment scraped from the ocean floor and compressed against the continental plate edge as an oceanic plate subducts.",
         section: "1.2"
       },
       {
-        term: "What is Oceanic-Continental Boundary?",
+        term: "What is an oceanic-continental boundary?",
         definition: "Convergent boundary where dense oceanic plate subducts beneath lighter continental plate; forms fold mountains, ocean trenches and volcanoes. Example: Nazca and South American plates → Andes.",
         section: "1.2"
       },
       {
-        term: "What is Continental-Continental Boundary?",
+        term: "What is a continental-continental boundary?",
         definition: "Convergent boundary where two continental plates collide; neither subducts so rock is forced upward into fold mountains. Example: Indian and Eurasian plates → Himalayas.",
         section: "1.2"
       },
       {
-        term: "What is Oceanic-Oceanic Boundary?",
+        term: "What is an oceanic-oceanic boundary?",
         definition: "Convergent boundary between two oceanic plates; older, denser plate subducts, forming a deep trench and island arc of volcanoes. Example: Pacific and Philippine plates.",
         section: "1.2"
       }
@@ -183,32 +183,32 @@
     ];
     c.learningOutcomes[2].keyTerms = [
       {
-        term: "What is Divergent Plate Boundary?",
+        term: "What is a divergent plate boundary?",
         definition: "Plate boundary where tectonic plates move apart; also called a constructive plate boundary. New crust is created as magma fills the gap.",
         section: "1.3"
       },
       {
-        term: "What is Continental Rift Zone?",
+        term: "What is a continental rift zone?",
         definition: "Divergent boundary on continental crust where plates separate; the crust thins, drops below sea level and may eventually form a mid-ocean ridge.",
         section: "1.3"
       },
       {
-        term: "What is Mid-Ocean Ridge?",
+        term: "What is a mid-ocean ridge?",
         definition: "Extensive underwater mountain chain at divergent boundaries where new basalt crust is created; stretches ~65,000 km globally and makes up 90% of mountain ranges on Earth.",
         section: "1.3"
       },
       {
-        term: "What is Basic Lava?",
+        term: "What is basic lava?",
         definition: "Hot, runny lava low in silica content that erupts at mid-ocean ridges and divergent boundaries; cools to form basalt.",
         section: "1.3"
       },
       {
-        term: "What is Transform Plate Boundary?",
+        term: "What is a transform plate boundary?",
         definition: "Boundary where plates slide past each other laterally; Earth's crust is neither created nor destroyed. Creates fault lines and shallow earthquakes. Example: San Andreas Fault.",
         section: "1.3"
       },
       {
-        term: "What is Fault Line?",
+        term: "What is a fault line?",
         definition: "Fracture in Earth's crust where rocks are displaced by compression, tension or shearing forces.",
         section: "1.3"
       },
@@ -293,32 +293,32 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Geothermal Energy?",
+        term: "What is geothermal energy?",
         definition: "Energy harnessed from heat stored in Earth's crust; converted to electricity and heating. Exploited in volcanic regions like Iceland and Hawaii.",
         section: "2.1"
       },
       {
-        term: "What is Fertile Volcanic Soils?",
+        term: "What are fertile volcanic soils?",
         definition: "Mineral-rich soils (magnesium, potassium) produced by volcanic eruptions; highly porous and productive for agriculture.",
         section: "2.1"
       },
       {
-        term: "What is Volcanic Tourism?",
+        term: "What is volcanic tourism?",
         definition: "Tourism centred on visiting active, dormant or extinct volcanic landscapes; includes geotourism and ecotourism. Pompeii is a famous example.",
         section: "2.1"
       },
       {
-        term: "What is Active Volcano?",
+        term: "What is an active volcano?",
         definition: "Volcano that has erupted in the past 10,000 years.",
         section: "2.1"
       },
       {
-        term: "What is Dormant Volcano?",
+        term: "What is a dormant volcano?",
         definition: "Volcano that has not erupted in 10,000+ years but is expected to erupt again in the future.",
         section: "2.1"
       },
       {
-        term: "What is Extinct Volcano?",
+        term: "What is an extinct volcano?",
         definition: "Volcano that has not erupted in human history and is never expected to erupt again.",
         section: "2.1"
       }
@@ -352,42 +352,42 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Ring of Fire?",
+        term: "What is the Ring of Fire?",
         definition: "Horseshoe-shaped zone around the Pacific Ocean with the world's highest concentration of volcanic and seismic activity; located along convergent plate boundaries.",
         section: "2.2"
       },
       {
-        term: "What is Hotspot?",
+        term: "What is a hotspot?",
         definition: "Isolated volcanic area not at a plate boundary, caused by a mantle plume burning through thin oceanic plate. Forms chains of volcanic islands as the plate moves. Example: Hawaii.",
         section: "2.2"
       },
       {
-        term: "What is Composite Cone (Stratovolcano)?",
+        term: "What is a composite cone (stratovolcano)?",
         definition: "Steep cone-shaped volcano built from alternating layers of lava and pyroclastic material; forms at convergent boundaries; characterised by explosive eruptions.",
         section: "2.2"
       },
       {
-        term: "What is Shield Volcano?",
+        term: "What is a shield volcano?",
         definition: "Broad, low-profile volcano formed from basic lava that flows easily; typically at hotspots or divergent boundaries; non-explosive eruptions.",
         section: "2.2"
       },
       {
-        term: "What is Cinder Cone?",
+        term: "What is a cinder cone?",
         definition: "Smallest, most common volcanic landform; steep-sided with a wide crater; forms from explosive eruptions of pyroclastic material; generally erupts only once.",
         section: "2.2"
       },
       {
-        term: "What is Pyroclastic Flow?",
+        term: "What is a pyroclastic flow?",
         definition: "Fast-moving mixture of hot rock fragments, gases and ash that rushes down a volcano's slopes after an explosive eruption.",
         section: "2.2"
       },
       {
-        term: "What is Caldera?",
+        term: "What is a caldera?",
         definition: "Large depression formed when a volcano's magma chamber empties and the surface collapses; can fill with rainwater to form a caldera lake.",
         section: "2.2"
       },
       {
-        term: "What is Lava Plateau?",
+        term: "What is a lava plateau?",
         definition: "Flat landform built up by repeated fissure eruptions of basic lava solidifying over a large area in successive layers.",
         section: "2.2"
       }
@@ -417,42 +417,42 @@
     ];
     c.learningOutcomes[2].keyTerms = [
       {
-        term: "What is Fold Mountains?",
+        term: "What are fold mountains?",
         definition: "Mountain ranges formed by compression and folding of rock at convergent plate boundaries; among the world's most dramatic landscapes.",
         section: "2.3"
       },
       {
-        term: "What is Anticline?",
+        term: "What is an anticline?",
         definition: "Upward arch in folded rock created by compression forces at convergent plate boundaries.",
         section: "2.3"
       },
       {
-        term: "What is Syncline?",
+        term: "What is a syncline?",
         definition: "Downward fold in rock created by compression forces at convergent plate boundaries.",
         section: "2.3"
       },
       {
-        term: "What is Caledonian Orogeny?",
+        term: "What is the Caledonian orogeny?",
         definition: "Mountain-building period ~400 million years ago caused by North American and Eurasian plate collision; formed ranges in Ireland, Wales, Scotland and Norway.",
         section: "2.3"
       },
       {
-        term: "What is Armorican Orogeny?",
+        term: "What is the Armorican orogeny?",
         definition: "Mountain-building period ~250 million years ago caused by Eurasian-African plate collision; formed ranges across western Europe and uplifted limestone in southern Ireland.",
         section: "2.3"
       },
       {
-        term: "What is Alpine Orogeny?",
+        term: "What is the Alpine orogeny?",
         definition: "Ongoing mountain-building period beginning ~60 million years ago; responsible for the Alps stretching across France, Italy, Germany, Austria, Switzerland and Slovenia.",
         section: "2.3"
       },
       {
-        term: "What is Compression?",
+        term: "What is compression?",
         definition: "Squeezing force applied to rocks at convergent plate boundaries causing folding or faulting; rock becomes heated and ductile under this stress.",
         section: "2.3"
       },
       {
-        term: "What is Metamorphism?",
+        term: "What is metamorphism?",
         definition: "Change in mineral composition and texture of pre-existing rocks due to heat and pressure; occurs at convergent plate boundaries alongside fold mountain formation.",
         section: "2.3"
       }
@@ -482,17 +482,17 @@
     ];
     c.learningOutcomes[3].keyTerms = [
       {
-        term: "What is Seismograph?",
+        term: "What is a seismograph?",
         definition: "Instrument used to record ground motion during an earthquake; part of a global seismographic network.",
         section: "2.4"
       },
       {
-        term: "What is Richter Scale?",
+        term: "What is the Richter scale?",
         definition: "Logarithmic scale created in 1935 measuring earthquake magnitude; each step represents a tenfold increase in magnitude.",
         section: "2.4"
       },
       {
-        term: "What is Modified Mercalli Scale (MMI)?",
+        term: "What is the Modified Mercalli scale (MMI)?",
         definition: "Scale measuring earthquake intensity based on observable damage and human experience; twelve grades.",
         section: "2.4"
       },
@@ -502,27 +502,27 @@
         section: "2.4"
       },
       {
-        term: "What is Foreshocks?",
+        term: "What are foreshocks?",
         definition: "Minor tremors preceding a major earthquake; used as indicators to issue warnings and trigger safety measures.",
         section: "2.4"
       },
       {
-        term: "What is Strainmeter?",
+        term: "What is a strainmeter?",
         definition: "Instrument placed at fault lines to measure rock stress; monitors pressure build-up to predict when rock will fracture.",
         section: "2.4"
       },
       {
-        term: "What is Tsunami?",
+        term: "What is a tsunami?",
         definition: "Series of large waves caused by underwater displacement of water from an earthquake; can travel at 800 km/hr and inundate 5 km inland.",
         section: "2.4"
       },
       {
-        term: "What are the steps of Liquefaction?",
-        definition: "Process where saturated soil behaves like a liquid during an earthquake due to seismic S waves; causes buildings to tilt and collapse.",
+        term: "What is liquefaction?",
+        definition: "Process where saturated soil loses strength and behaves like a liquid during an earthquake due to seismic waves; causes buildings to tilt, settle and collapse.",
         section: "2.4"
       },
       {
-        term: "What is Earthquake-Resistant Buildings?",
+        term: "What are earthquake-resistant buildings?",
         definition: "Structures with flexible foundations, vibrational control devices and reinforced materials designed to counteract seismic wave forces.",
         section: "2.4"
       }
@@ -557,22 +557,22 @@
         section: "2.5"
       },
       {
-        term: "What is Batholith?",
+        term: "What is a batholith?",
         definition: "Large body of intrusive igneous rock (usually granite) that cools slowly deep in the crust; revealed at the surface through denudation.",
         section: "2.5"
       },
       {
-        term: "What is Granite?",
+        term: "What is granite?",
         definition: "Coarse-grained intrusive igneous rock composed mainly of quartz and feldspar; pink to white to grey colour; large crystals due to slow cooling.",
         section: "2.5"
       },
       {
-        term: "What is Basalt?",
+        term: "What is basalt?",
         definition: "Dark, fine-grained extrusive igneous rock low in silica and high in iron and magnesium; formed by rapid cooling of basic lava outside the crust.",
         section: "2.5"
       },
       {
-        term: "What is Antrim-Derry Plateau?",
+        term: "What is the Antrim-Derry Plateau?",
         definition: "Basalt landscape (~4,000 km²) in north-east Ireland formed ~65 million years ago by fissure eruptions as the North American and Eurasian plates began separating; home to the Giant's Causeway.",
         section: "2.5"
       },
@@ -582,8 +582,8 @@
         section: "2.5"
       },
       {
-        term: "What are the steps of Denudation?",
-        definition: "The combined processes of weathering and erosion that break down and remove rock material, exposing intrusive features like batholiths.",
+        term: "What is denudation?",
+        definition: "The combined processes of weathering and erosion that break down and remove rock material from Earth's surface, exposing intrusive features like batholiths.",
         section: "2.5"
       }
     ];
@@ -688,32 +688,32 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Iapetus Ocean?",
+        term: "What is the Iapetus Ocean?",
         definition: "Ancient ocean that ~850 million years ago separated the landmasses that would become Ireland; its closure drove the Caledonian orogeny.",
         section: "3.1"
       },
       {
-        term: "What is Caledonian Folding?",
+        term: "What is Caledonian folding?",
         definition: "Intense period of folding ~400 million years ago as North American and Eurasian plates collided; formed the Caledonian mountain range across Ireland, Scotland and Norway.",
         section: "3.1"
       },
       {
-        term: "What is Armorican Folding?",
+        term: "What is Armorican folding?",
         definition: "Collision of Eurasian and African plates ~300 million years ago that folded the southern half of Ireland, creating the Munster Ridge Valley and exposing the Burren limestone.",
         section: "3.1"
       },
       {
-        term: "What is Munster Ridge Valley?",
+        term: "What is the Munster Ridge valley?",
         definition: "Distinctive ridges-and-valleys landscape of south-west Ireland (including Macgillycuddy's Reeks) formed by Armorican folding of sandstone and limestone strata.",
         section: "3.1"
       },
       {
-        term: "What is Burren Limestone Pavement?",
+        term: "What is the Burren limestone pavement?",
         definition: "Limestone landscape in County Clare exposed by Armorican folding and glaciation; formed when Ireland was submerged in a shallow tropical sea ~320 million years ago.",
         section: "3.1"
       },
       {
-        term: "What is Atlantic Divergence?",
+        term: "What is Atlantic divergence?",
         definition: "Separation of North American and Eurasian plates ~65 million years ago that formed the North Atlantic and caused fissure eruptions creating the Antrim-Derry basalt plateau.",
         section: "3.1"
       },
@@ -752,42 +752,42 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Normal Fault?",
+        term: "What is a normal fault?",
         definition: "Fault formed under tension forces as plates separate; the hanging wall drops relative to the footwall. Creates rift valleys. Example: East African Rift Valley.",
         section: "3.2"
       },
       {
-        term: "What is Reverse Fault?",
+        term: "What is a reverse fault?",
         definition: "Fault formed under compression forces as plates collide; the hanging wall rises relative to the footwall. Found at convergent plate boundaries.",
         section: "3.2"
       },
       {
-        term: "What is Strike-Slip Fault?",
+        term: "What is a strike-slip fault?",
         definition: "Fault where plates slide past each other laterally; fault plane is vertical, with no hanging wall or footwall. Also called a transform fault. Example: San Andreas Fault.",
         section: "3.2"
       },
       {
-        term: "What is Hanging Wall?",
+        term: "What is a hanging wall?",
         definition: "Block of rock above a fault line; rises in a reverse fault and drops in a normal fault.",
         section: "3.2"
       },
       {
-        term: "What is Footwall?",
+        term: "What is a footwall?",
         definition: "Block of rock below a fault line.",
         section: "3.2"
       },
       {
-        term: "What is Rift Valley?",
+        term: "What is a rift valley?",
         definition: "Valley formed where tension forces pull the crust apart and a central block drops between two normal faults. Example: East African Rift Valley.",
         section: "3.2"
       },
       {
-        term: "What is Monocline?",
+        term: "What is a monocline?",
         definition: "Plateau-like upland structure of sedimentary rock formed by compression folding and faulting. Example: Ben Bulben, County Sligo.",
         section: "3.2"
       },
       {
-        term: "What is Overthrust Fold?",
+        term: "What is an overthrust fold?",
         definition: "Fold type where compressional forces cause one limb to fracture and be pushed on top of the other; indicates intense plate collision.",
         section: "3.2"
       }
@@ -850,42 +850,37 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Weathering?",
+        term: "What is weathering?",
         definition: "Breaking down and decaying of rocks and minerals on Earth's surface due to water, ice, acids, salts, plants, animals or temperature changes; no movement of material.",
         section: "4.1"
       },
       {
-        term: "What is Erosion?",
+        term: "What is erosion?",
         definition: "Breakdown and transport of rock material from its original position to another location by water, wind or ice.",
         section: "4.1"
       },
       {
-        term: "What are the steps of Denudation?",
-        definition: "Umbrella term for the combined processes of weathering and erosion that lower the Earth's surface.",
-        section: "4.1"
-      },
-      {
-        term: "What is Physical (Mechanical) Weathering?",
+        term: "What is physical (mechanical) weathering?",
         definition: "Breakdown of rock into smaller pieces without changing its chemical composition; most common in areas with little vegetation and extreme climates.",
         section: "4.1"
       },
       {
-        term: "What is Freeze-Thaw Action?",
+        term: "What is freeze-thaw action?",
         definition: "Most common physical weathering in Ireland; water fills rock joints, freezes and expands, exerting hydraulic pressure up to 1,800 kg/cm²; repeated cycles shatter rock.",
         section: "4.1"
       },
       {
-        term: "What is Scree?",
+        term: "What is scree?",
         definition: "Rock fragments produced by freeze-thaw action that accumulate at the base of a steep slope due to gravity.",
         section: "4.1"
       },
       {
-        term: "What is Haloclasty?",
+        term: "What is haloclasty?",
         definition: "Physical weathering by salt crystal growth in porous rocks; salt crystals expand up to three times in size when heated, fracturing the rock. Most common in coastal areas.",
         section: "4.2"
       },
       {
-        term: "What is Exfoliation?",
+        term: "What is exfoliation?",
         definition: "Physical weathering where temperature extremes cause rock to expand and contract, peeling away outer layers like an onion. Most common in deserts.",
         section: "4.2"
       }
@@ -915,42 +910,42 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Chemical Weathering?",
+        term: "What is chemical weathering?",
         definition: "Breakdown and change in chemical composition of rock through reactions with agents such as acids; requires warmth and moisture.",
         section: "4.2"
       },
       {
-        term: "What is Carbonation?",
+        term: "What is carbonation?",
         definition: "Chemical weathering where carbonic acid (rainwater + CO₂) dissolves calcium carbonate in limestone; most common in cool, wet climates with limestone bedrock.",
         section: "4.3"
       },
       {
-        term: "What is Carbonic Acid?",
+        term: "What is carbonic acid?",
         definition: "Weak acid (pH 3.7) formed when rainwater absorbs atmospheric CO₂; the primary agent of carbonation in limestone landscapes.",
         section: "4.3"
       },
       {
-        term: "What is Calcium Bicarbonate?",
+        term: "What is calcium bicarbonate?",
         definition: "Soluble product formed when carbonic acid reacts with calcium carbonate in limestone; dissolved and removed from rock through solution.",
         section: "4.3"
       },
       {
-        term: "What is Hydrolysis?",
+        term: "What is hydrolysis?",
         definition: "Most common chemical weathering; minerals in igneous rocks (e.g. feldspar) react with acidic water and are transformed into new solids (e.g. kaolin/clay) or washed away.",
         section: "4.4"
       },
       {
-        term: "What is Oxidation?",
+        term: "What is oxidation?",
         definition: "Chemical weathering where iron in rocks reacts with oxygen to form rust; rust expands, weakening and breaking apart the rock.",
         section: "4.4"
       },
       {
-        term: "What are the steps of Solution?",
-        definition: "Process where water dissolves and removes soluble minerals from rock; the final step in carbonation and hydrolysis.",
+        term: "What is solution weathering?",
+        definition: "Chemical weathering process where water dissolves and removes soluble minerals from rock; occurs in carbonation and hydrolysis reactions.",
         section: "4.3"
       },
       {
-        term: "What is Biological Weathering?",
+        term: "What is biological weathering?",
         definition: "Weathering caused by living organisms; plant roots widen rock cracks and burrowing animals loosen soil and rock.",
         section: "4.1"
       }
@@ -1017,42 +1012,42 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Karst Landscape?",
+        term: "What is a karst landscape?",
         definition: "Exposed landscape of soluble limestone rock characterised by surface and underground features shaped by carbonation, freeze-thaw and glacial erosion; ~13% of the world's land surface.",
         section: "5.1"
       },
       {
-        term: "What is Aquifer?",
+        term: "What is an aquifer?",
         definition: "Body of rock capable of holding groundwater; karst landscapes function as natural aquifers.",
         section: "5.1"
       },
       {
-        term: "What is Limestone Pavement?",
+        term: "What is a limestone pavement?",
         definition: "Large area of exposed, flat limestone from which soil has been removed by glaciation; the surface is patterned by clints and grikes through carbonation.",
         section: "5.2"
       },
       {
-        term: "What is Clints?",
+        term: "What are clints?",
         definition: "Flat-topped segments of limestone on a pavement separated from each other by grikes.",
         section: "5.2"
       },
       {
-        term: "What is Grikes?",
+        term: "What are grikes?",
         definition: "Gaps or fissures in a limestone pavement formed when carbonation progressively widens the natural joints between clints.",
         section: "5.2"
       },
       {
-        term: "What is Karrens?",
+        term: "What are karren?",
         definition: "Small hollows dissolved into the upper surface of clints by carbonic acid pooling on them.",
         section: "5.2"
       },
       {
-        term: "What is Doline (Sinkhole)?",
+        term: "What is a doline (sinkhole)?",
         definition: "Enclosed depression in a limestone landscape formed by slow solution or sudden collapse of rock; funnels surface water underground.",
         section: "5.2"
       },
       {
-        term: "What is Swallow Hole?",
+        term: "What is a swallow hole?",
         definition: "Funnel-shaped surface opening in a karst landscape into which a river flows and disappears underground; entrance to cave systems.",
         section: "5.2"
       },
@@ -1087,37 +1082,37 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Karst Cave System?",
+        term: "What is a karst cave system?",
         definition: "Underground passage carved by carbonation, erosion and solution from a swallow hole; forms below the water table along joints and bedding planes of limestone.",
         section: "5.3"
       },
       {
-        term: "What is Stalactite?",
+        term: "What is a stalactite?",
         definition: "Downward-growing calcite formation hanging from a cave ceiling; forms as mineral-rich water drips slowly and deposits calcite.",
         section: "5.3"
       },
       {
-        term: "What is Stalagmite?",
+        term: "What is a stalagmite?",
         definition: "Upward-growing calcite formation on a cave floor; forms directly below a stalactite from dripping mineral-rich water.",
         section: "5.3"
       },
       {
-        term: "What is Pillar?",
+        term: "What is a pillar?",
         definition: "Cave formation created when a stalactite and stalagmite grow together and join.",
         section: "5.3"
       },
       {
-        term: "What is Speleothems?",
+        term: "What are speleothems?",
         definition: "General term for all calcite formations (dripstone features) inside limestone caves; rate of growth depends on temperature and precipitation.",
         section: "5.3"
       },
       {
-        term: "What is Zone of Saturation?",
+        term: "What is the zone of saturation?",
         definition: "Area below the water table where all rock spaces are filled with water; most karst cave systems form here.",
         section: "5.3"
       },
       {
-        term: "What is Karst Life Cycle?",
+        term: "What is a karst life cycle?",
         definition: "Three stages of karst development: youthful (surface features form), mature (underground drainage develops), old (limestone removed, caves collapse, rivers flow over impermeable bedrock).",
         section: "5.4"
       }
@@ -1180,47 +1175,47 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Meander?",
+        term: "What is a meander?",
         definition: "Curving loop or bend in a river's middle to lower course formed by differential erosion and deposition; outer bank erodes while inner bank deposits sediment.",
         section: "6.1"
       },
       {
-        term: "What is Hydraulic Action?",
+        term: "What is hydraulic action?",
         definition: "River erosion caused by the force of water hitting rock surfaces; most powerful on the outside of meander bends.",
         section: "6.1"
       },
       {
-        term: "What is Abrasion?",
+        term: "What is abrasion?",
         definition: "River erosion where transported rocks scrape and wear away the bed and banks through friction.",
         section: "6.1"
       },
       {
-        term: "What is Attrition?",
+        term: "What is attrition?",
         definition: "River erosion where rocks carried by the river collide with each other, becoming smaller and smoother over time.",
         section: "6.1"
       },
       {
-        term: "What is Lateral Erosion?",
+        term: "What is lateral erosion?",
         definition: "Widening of a river channel; dominant in the middle and lower course; responsible for meander formation.",
         section: "6.1"
       },
       {
-        term: "What is Vertical Erosion?",
+        term: "What is vertical erosion?",
         definition: "Deepening of a river channel; dominant in the upper course; creates V-shaped valleys.",
         section: "6.1"
       },
       {
-        term: "What is Oxbow Lake?",
+        term: "What is an oxbow lake?",
         definition: "Crescent-shaped lake formed when a river cuts through a meander neck, isolating the loop and shortening its course.",
         section: "6.2"
       },
       {
-        term: "What is Floodplain?",
+        term: "What is a floodplain?",
         definition: "Wide, flat river valley floor that floods during heavy rainfall; built up by alluvium deposits from repeated flooding.",
         section: "6.2"
       },
       {
-        term: "What is Interlocking Spurs?",
+        term: "What are interlocking spurs?",
         definition: "Ridges of land alternating on either side of an upper course valley as the river winds around obstacles of hard rock.",
         section: "6.1"
       }
@@ -1250,42 +1245,42 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Longshore Drift?",
+        term: "What is longshore drift?",
         definition: "Movement of sediment along a coastline caused by waves approaching at an angle from the prevailing wind; swash moves sediment diagonally, backwash pulls it straight back.",
         section: "6.2"
       },
       {
-        term: "What is Constructive Wave?",
+        term: "What is a constructive wave?",
         definition: "Low-height, long-wavelength wave with a strong swash relative to backwash; deposits sediment and builds beaches.",
         section: "6.2"
       },
       {
-        term: "What is Destructive Wave?",
+        term: "What is a destructive wave?",
         definition: "High-height, short-wavelength wave with a strong backwash; produced in large oceans with large fetch; erodes the coastline.",
         section: "6.2"
       },
       {
-        term: "What is Spit?",
+        term: "What is a spit?",
         definition: "Long, narrow ridge of sand and shingle projecting from the coastline into the sea; formed by longshore drift depositing sediment beyond a bend in the coastline.",
         section: "6.2"
       },
       {
-        term: "What is Tombolo?",
+        term: "What is a tombolo?",
         definition: "Sand spit that has extended to connect the mainland to an offshore island.",
         section: "6.2"
       },
       {
-        term: "What is Bay Mouth Bar?",
+        term: "What is a bay mouth bar?",
         definition: "Sand spit that grows across the mouth of a bay, creating a lagoon behind it.",
         section: "6.2"
       },
       {
-        term: "What are the steps of Wave Refraction?",
-        definition: "Process where waves bend as they approach the coastline due to differences in water depth; concentrates erosion energy on headlands.",
+        term: "What is wave refraction?",
+        definition: "Process where waves bend as they approach the coastline due to differences in water depth; concentrates erosion energy on resistant headlands.",
         section: "6.1"
       },
       {
-        term: "What is Headland?",
+        term: "What is a headland?",
         definition: "Resistant rock mass projecting into the sea at a discordant coastline; formed when softer rock between bands of hard rock is eroded faster.",
         section: "6.2"
       }
@@ -1315,37 +1310,37 @@
     ];
     c.learningOutcomes[2].keyTerms = [
       {
-        term: "What is Drainage Basin?",
+        term: "What is a drainage basin?",
         definition: "Area of land where all precipitation collects and drains into a common body of water such as a river, lake or sea.",
         section: "6.3"
       },
       {
-        term: "What are the steps of Hard Engineering?",
+        term: "What is hard engineering?",
         definition: "Flood or coastal management using artificial structures (dams, sea walls, levees, groynes) to control natural processes.",
         section: "6.3"
       },
       {
-        term: "What are the steps of Soft Engineering?",
+        term: "What is soft engineering?",
         definition: "Sustainable flood or coastal management that works with natural processes (beach nourishment, managed retreat, floodplain zoning) rather than building structures.",
         section: "6.3"
       },
       {
-        term: "What is Natural Levee?",
+        term: "What is a natural levee?",
         definition: "Ridge that builds up along river banks through repeated alluvium deposits when a river floods and then drops sediment as it spreads across the floodplain.",
         section: "6.2"
       },
       {
-        term: "What is Urbanisation?",
+        term: "What is urbanisation?",
         definition: "Growth of urban settlement; increases surface run-off by replacing permeable vegetation with impermeable concrete, raising flood risk.",
         section: "6.3"
       },
       {
-        term: "What are the steps of Deposition?",
-        definition: "Process where a river drops transported material as it loses energy; dominant in the lower course; produces floodplains, levees and deltas.",
+        term: "What is deposition in rivers?",
+        definition: "Process where a river drops transported material as it loses energy; dominant in the lower course; produces floodplains, natural levees and deltas.",
         section: "6.2"
       },
       {
-        term: "What is River Delta?",
+        term: "What is a river delta?",
         definition: "Landform at a river's mouth where deposition creates new land as sediment accumulates; types include arcuate, bird's foot and estuarine.",
         section: "6.2"
       }
@@ -1361,7 +1356,7 @@
     // 6.4 — Mass Movement — Landslides
     c.learningOutcomes[3].notes = [
       {
-        h: "What is Mass Movement?",
+        h: "What is mass movement?",
         b: "Mass movement is the downslope movement of rock, soil or debris under the influence of gravity — no water or ice needed as a transport medium. The trigger can be natural (heavy rain, earthquakes) or human-induced (deforestation, construction, vibration from machinery)."
       },
       {
@@ -1375,52 +1370,52 @@
     ];
     c.learningOutcomes[3].keyTerms = [
       {
-        term: "What is Mass Movement?",
+        term: "What is mass movement?",
         definition: "Movement of regolith downslope under the influence of gravity; classified by type of failure, material, motion and rate of movement.",
         section: "6.4"
       },
       {
-        term: "What is Regolith?",
+        term: "What is regolith?",
         definition: "Layer of loose rock, soil, mud and dust sitting on bedrock; easily mobilised by gravity, water or seismic activity.",
         section: "6.4"
       },
       {
-        term: "What is Soil Creep?",
+        term: "What is soil creep?",
         definition: "Slowest form of mass movement; gradual downslope movement of soil driven by gravity, wetting-drying cycles and freeze-thaw action; evidence includes terracettes and tilting poles.",
         section: "6.4"
       },
       {
-        term: "What is Solifluction?",
+        term: "What is solifluction?",
         definition: "Slow downslope flow of saturated soil over permafrost; occurs in upland and polar areas where frozen ground prevents drainage.",
         section: "6.4"
       },
       {
-        term: "What is Rockslide?",
+        term: "What is a rockslide?",
         definition: "Fast downslope movement of large areas of solid bedrock triggered when gravitational force exceeds the slope's resistance; common in mountain and coastal areas.",
         section: "6.4"
       },
       {
-        term: "What is Slumping?",
+        term: "What is slumping?",
         definition: "Rotational sliding of loose regolith along a curved surface; triggered when the base of a slope is removed by river erosion or wave action.",
         section: "6.4"
       },
       {
-        term: "What is Mudflow?",
+        term: "What is a mudflow?",
         definition: "Fast-moving flow of extremely saturated loose soil down a slope; most common in high mountainous areas with thin vegetation.",
         section: "6.4"
       },
       {
-        term: "What is Lahar?",
+        term: "What is a lahar?",
         definition: "Volcanic mudflow composed of pyroclastic material; triggered when volcanic eruptions melt snow or glaciers.",
         section: "6.4"
       },
       {
-        term: "What is Bogburst?",
+        term: "What is a bogburst?",
         definition: "Sudden movement of saturated peatland or blanket bog downslope; triggered by heavy rainfall; a hazard in western Ireland.",
         section: "6.4"
       },
       {
-        term: "What is Permafrost?",
+        term: "What is permafrost?",
         definition: "Ground frozen for two or more years; makes overlying soil impermeable, causing waterlogging and increasing susceptibility to solifluction.",
         section: "6.4"
       }
@@ -1509,42 +1504,42 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is Region?",
+        term: "What is a region?",
         definition: "Any area with distinctive characteristics that distinguish it from surrounding areas; defined by borders and studied to identify patterns of change over time.",
         section: "7.1"
       },
       {
-        term: "What is Climate?",
+        term: "What is climate?",
         definition: "Average weather conditions (temperature, humidity, pressure, wind, precipitation) over an area measured over 30+ years.",
         section: "7.2"
       },
       {
-        term: "What is Cool Temperate Oceanic Climate?",
+        term: "What is a cool temperate oceanic climate?",
         definition: "Ireland's climate type; characterised by mild winters, cool summers and moderate year-round rainfall; influenced by the Atlantic Ocean and North Atlantic Drift.",
         section: "7.2"
       },
       {
-        term: "What is North Atlantic Drift?",
+        term: "What is the North Atlantic Drift?",
         definition: "Warm ocean current flowing from the equator towards Ireland; moderates Ireland's temperature so it doesn't experience continental extremes.",
         section: "7.2"
       },
       {
-        term: "What is Polar Front?",
+        term: "What is the Polar Front?",
         definition: "Zone of transition between warm and cold air masses that influences Ireland's weather patterns and precipitation.",
         section: "7.2"
       },
       {
-        term: "What is Seven Global Climates?",
+        term: "What are the seven global climates?",
         definition: "Major global climate types: Polar, Temperate, Continental, Arid, Tropical, Mediterranean and Mountain.",
         section: "7.2"
       },
       {
-        term: "What is Core Region?",
+        term: "What is a core region?",
         definition: "Central, well-connected region with high population density, developed infrastructure and concentrated economic power; typically holds high political capital.",
         section: "7.4"
       },
       {
-        term: "What is Peripheral Region?",
+        term: "What is a peripheral region?",
         definition: "Region on the outskirts of a country or continent with poor infrastructure, low population density and limited economic development.",
         section: "7.4"
       }
@@ -1574,12 +1569,12 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is Cultural Region?",
+        term: "What is a cultural region?",
         definition: "Area inhabited by people sharing one or more cultural traits such as language or religion; borders are difficult to define as cultures naturally overlap.",
         section: "7.6"
       },
       {
-        term: "What is Gaeltacht?",
+        term: "What is the Gaeltacht?",
         definition: "Region in Ireland where Irish is the predominant spoken language; seven areas in Cork, Donegal, Galway, Kerry, Meath, Mayo and Waterford; 63,664 daily Irish speakers.",
         section: "7.6"
       },
@@ -1589,22 +1584,22 @@
         section: "7.6"
       },
       {
-        term: "What is Belgium Language Communities?",
+        term: "What are Belgium's language communities?",
         definition: "Belgium has four language communities: Flemish (north), French/Walloon (south), German (east) and bilingual Brussels; language regions have legal geographical boundaries.",
         section: "7.6"
       },
       {
-        term: "What is Administrative Region?",
+        term: "What is an administrative region?",
         definition: "Geographical area defined by governmental borders responsible for specific governmental or political functions.",
         section: "7.5"
       },
       {
-        term: "What is Regional Assembly?",
+        term: "What is a regional assembly?",
         definition: "Tier of Irish government (3 assemblies: Eastern & Midland, Northern & Western, Southern) co-ordinating strategic planning and sustainable regional development.",
         section: "7.5"
       },
       {
-        term: "What is Northern Ireland Religious Divide?",
+        term: "What is the Northern Ireland religious divide?",
         definition: "Region where Protestant (Unionist) and Catholic (Nationalist) communities have experienced conflict since English plantations 400 years ago; shaped by the Government of Ireland Act (1920) and the Good Friday Agreement.",
         section: "7.7"
       }
@@ -1634,37 +1629,37 @@
     ];
     c.learningOutcomes[2].keyTerms = [
       {
-        term: "What are the steps of Geomorphology?",
+        term: "What is geomorphology?",
         definition: "Study of distinctive surface landforms and the physical, chemical and biological processes that created them.",
         section: "7.3"
       },
       {
-        term: "What is Geomorphological Region?",
+        term: "What is a geomorphological region?",
         definition: "Region characterised by unique relief, drainage patterns, rock types and ecosystems that make it distinctively different from surrounding areas.",
         section: "7.3"
       },
       {
-        term: "What is The Burren (as a Region)?",
+        term: "What is the Burren (as a region)?",
         definition: "Karst geomorphological region in County Clare awarded UNESCO Global Geopark status for its unique limestone landscape including pavements, dolines and cave systems.",
         section: "7.3"
       },
       {
-        term: "What is Industrial Decline?",
+        term: "What is industrial decline?",
         definition: "Reduction in industrial activity in a region, often affecting heavy industries (coal, steel); caused by exhaustion of raw materials, changing demand or cheaper competition.",
         section: "7.4"
       },
       {
-        term: "What is Primary Economic Activity?",
+        term: "What is primary economic activity?",
         definition: "Activity involving extraction of raw materials from the Earth (farming, fishing, mining).",
         section: "7.4"
       },
       {
-        term: "What are the steps of Secondary Economic Activity?",
+        term: "What is secondary economic activity?",
         definition: "Activity involving processing raw materials into finished goods (manufacturing, construction).",
         section: "7.4"
       },
       {
-        term: "What is Tertiary Economic Activity?",
+        term: "What is tertiary economic activity?",
         definition: "Activity providing services in an economy (education, healthcare, retail, tourism, transport).",
         section: "7.4"
       }
@@ -1694,12 +1689,12 @@
     ];
     c.learningOutcomes[3].keyTerms = [
       {
-        term: "What is Mezzogiorno?",
+        term: "What is the Mezzogiorno?",
         definition: "Peripheral socio-economic region in southern Italy characterised by mountainous terrain, poor infrastructure, high unemployment (double the northern rate) and slow economic development.",
         section: "7.4"
       },
       {
-        term: "What is Cassa Scheme?",
+        term: "What is the Cassa scheme?",
         definition: "Italian government intervention from the 1950s to stimulate economic growth in the Mezzogiorno by redistributing land, building infrastructure and attracting FDI; ended 1984.",
         section: "7.4"
       },
@@ -1709,27 +1704,27 @@
         section: "7.4"
       },
       {
-        term: "What is Brain Drain?",
+        term: "What is brain drain?",
         definition: "Loss of educated, skilled workers from a region through outward migration in search of better education and employment opportunities; affects both the Mezzogiorno and the west of Ireland.",
         section: "7.4"
       },
       {
-        term: "What is Foreign Direct Investment (FDI)?",
+        term: "What is foreign direct investment (FDI)?",
         definition: "Investment by foreign companies in a region's economy; attracted by low corporation tax, skilled workforce and government incentives.",
         section: "7.4"
       },
       {
-        term: "What is ERDF (European Regional Development Funds)?",
+        term: "What is the ERDF (European Regional Development Funds)?",
         definition: "EU funds that replaced the Cassa Scheme in 1984; support peripheral regions in developing infrastructure and economic activity.",
         section: "7.4"
       },
       {
-        term: "What is 2030 Plan for Southern Italy?",
+        term: "What is the 2030 plan for southern Italy?",
         definition: "Italian government initiative announced in 2020 pledging €33 billion to develop transport and economic infrastructure in the Mezzogiorno.",
         section: "7.4"
       },
       {
-        term: "What is Sirocco Wind?",
+        term: "What is the Sirocco wind?",
         definition: "Hot, dry prevailing wind in the Mezzogiorno blowing northward from the Sahara Desert; reduces summer rainfall and makes agriculture challenging.",
         section: "7.4"
       }
@@ -1818,12 +1813,12 @@
     ];
     c.learningOutcomes[0].keyTerms = [
       {
-        term: "What is GDA (Greater Dublin Area)?",
+        term: "What is the GDA (Greater Dublin Area)?",
         definition: "Core socio-economic region in eastern Ireland comprising counties Dublin, Meath, Kildare and Wicklow; contributes ~50% of Ireland's GDP and houses 40.5% of the population.",
         section: "8.1"
       },
       {
-        term: "What is Western Region?",
+        term: "What is the western region?",
         definition: "Peripheral socio-economic region comprising counties Galway, Mayo and Roscommon; occupies 21.4% of Ireland's land area but only 9.5% of the population.",
         section: "8.1"
       },
@@ -1833,22 +1828,22 @@
         section: "8.1"
       },
       {
-        term: "What is Year-Round Tourism (GDA)?",
+        term: "What is year-round tourism (GDA)?",
         definition: "GDA tourism is not reliant on seasonal patterns; 6.6 million overseas tourists in 2019 driven by historical, cultural, retail and events-based attractions.",
         section: "8.1"
       },
       {
-        term: "What is Seasonal Tourism (West)?",
+        term: "What is seasonal tourism (west)?",
         definition: "West of Ireland tourism is heavily dependent on summer visitors; lack of year-round demand limits economic returns compared with the GDA.",
         section: "8.1"
       },
       {
-        term: "What is Celtic Tiger?",
+        term: "What is the Celtic Tiger?",
         definition: "Period of rapid Irish economic growth in the 1990s–early 2000s; drove GDA population growth, urban sprawl and commuter town development.",
         section: "8.1"
       },
       {
-        term: "What is Urban Sprawl?",
+        term: "What is urban sprawl?",
         definition: "Expansion of urban settlement into surrounding rural land, driven by housing demand; characteristic of the GDA during the Celtic Tiger period.",
         section: "8.1"
       }
@@ -1878,12 +1873,12 @@
     ];
     c.learningOutcomes[1].keyTerms = [
       {
-        term: "What is GDA as Core Region?",
+        term: "Why is the GDA a core region?",
         definition: "GDA has favourable physical conditions (fertile soils, mild climate, flat terrain), excellent infrastructure, large skilled labour force and high economic output; contributes ~50% of Ireland's GDP.",
         section: "8.2"
       },
       {
-        term: "What is West as Peripheral Region?",
+        term: "Why is the West a peripheral region?",
         definition: "Western region has mountainous terrain, infertile soils, high rainfall, poor infrastructure and small labour force; low population density and limited FDI.",
         section: "8.2"
       },
@@ -1893,22 +1888,22 @@
         section: "8.2"
       },
       {
-        term: "What is Corporation Tax?",
+        term: "What is corporation tax?",
         definition: "Ireland's 12.5% tax rate on company profits; key incentive attracting multinational corporations (e.g. pharmaceuticals, tech) to locate in Ireland.",
         section: "8.2"
       },
       {
-        term: "What is Common Agricultural Policy (CAP)?",
+        term: "What is the Common Agricultural Policy (CAP)?",
         definition: "EU policy providing farm subsidies; essential to western Irish farmers who cannot compete profitably without support; Brexit has threatened CAP benefits.",
         section: "8.2"
       },
       {
-        term: "What is Rural Depopulation?",
+        term: "What is rural depopulation?",
         definition: "Decline in rural population due to outward migration; particularly affecting the west of Ireland; driven by lack of employment and educational opportunities.",
         section: "8.2"
       },
       {
-        term: "What is Commuter Towns?",
+        term: "What are commuter towns?",
         definition: "Towns beyond a city whose residents travel daily to work in the city; a result of urban sprawl in the GDA during the Celtic Tiger period.",
         section: "8.2"
       }
@@ -1934,42 +1929,42 @@
     ];
     c.learningOutcomes[2].keyTerms = [
       {
-        term: "What is Intensive Agriculture (GDA)?",
+        term: "What is intensive agriculture (GDA)?",
         definition: "Large-scale, mechanised, commercialised farming on fertile brown-earth soils; highly profitable; farms in the GDA are on average 41.3% larger than western farms.",
         section: "8.3"
       },
       {
-        term: "What is Commercialised Farming?",
+        term: "What is commercialised farming?",
         definition: "Farming where crops are grown for sale to return a profit using modern technology and machinery; dominant in the GDA.",
         section: "8.3"
       },
       {
-        term: "What is Brown-Earth Soils?",
+        term: "What are brown-earth soils?",
         definition: "Fertile soils of the GDA formed under deciduous woodland on limestone bedrock; ideal for horticulture and arable farming; high calcium content.",
         section: "8.3"
       },
       {
-        term: "What are the steps of Leaching?",
-        definition: "Process where rainfall washes nutrients down through the soil profile; less likely in the GDA due to lower annual rainfall (~700 mm) compared with the west.",
+        term: "What is leaching?",
+        definition: "Process where rainfall washes nutrients and minerals downward through the soil profile; more pronounced in the west due to higher annual rainfall (1,200+ mm) compared to the GDA.",
         section: "8.3"
       },
       {
-        term: "What is Semi-Subsistence Farming (West)?",
+        term: "What is semi-subsistence farming (west)?",
         definition: "Small-scale farming in the west of Ireland where most output is for household consumption; relies on off-farm income and EU CAP subsidies to survive.",
         section: "8.3"
       },
       {
-        term: "What is Peat Soils?",
+        term: "What are peat soils?",
         definition: "Waterlogged, infertile soils covering most of Connemara and west Mayo; formed from accumulating organic matter; unsuitable for arable farming.",
         section: "8.3"
       },
       {
-        term: "What is Gley Soils?",
+        term: "What are gley soils?",
         definition: "Poorly drained, frequently waterlogged soils common in drumlin lowlands of County Mayo; limits agricultural productivity.",
         section: "8.3"
       },
       {
-        term: "What is Brexit Impact on Western Farming?",
+        term: "What is the impact of Brexit on western farming?",
         definition: "UK's exit from the EU has reduced demand for Irish cattle exports; economists estimate up to 70% of western farmers face significant financial challenges.",
         section: "8.3"
       }

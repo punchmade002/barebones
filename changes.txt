@@ -73,3 +73,9 @@ BAREBONES — CHANGE LOG
     - maths26 (Trig Triangles): 5 questions — cosine rule with tan, parallelogram area, ambiguous sine rule, hill height, triangular field area
   - index.html: added three new script tags between data.js and app.js to load the above files
   - All model solutions written to Irish LC curriculum standard: numbered steps, rule/formula named at each step, unicode math notation, "Final Answer:" on last line
+
+[2026-08-02] Recommended timing feature for exam questions
+  - exam-breakdown.js (v2): added totalMinutes: 300 to maths; added history entry (400 marks, 170 min); added home-economics entry (320 marks, 170 min)
+  - app.js (v48): added getRecommendedMinutes(subjectId, marks) helper — computes Math.round((marks / totalMarks) * totalMinutes); renderExamSection now shows "~N min" per part inline with the marks badge, and "~N min total" badge per question in the group header
+  - flagged-exam-questions.js (new): 72 question IDs with marks: 0 that cannot show timing — 26 biology, 45 geography, 1 PE; fix by adding correct marks values to those question objects in exam-questions-db.js
+  - styles.css: added .exam-question-timing class

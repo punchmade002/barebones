@@ -66,6 +66,12 @@ const CHEMISTRY_SUBJECT = {
   chapters: buildSubjectChapters("chemistry"),
 };
 
+const HOME_ECONOMICS_SUBJECT = {
+  id: "home-economics",
+  title: "Home Economics",
+  chapters: buildSubjectChapters("home-economics"),
+};
+
 const HISTORY_SUBJECT = {
   id: "history",
   title: "History",
@@ -300,6 +306,7 @@ const SUBJECTS = [
   GEOGRAPHY_SUBJECT,
   MATHS_SUBJECT,
   CHEMISTRY_SUBJECT,
+  HOME_ECONOMICS_SUBJECT,
   HISTORY_SUBJECT,
 ];
 
@@ -1030,11 +1037,13 @@ function renderExamSection() {
       const diagramBtn = part.diagram
         ? `<button class="button-secondary exam-diagram-btn" onclick="openDiagramModal('${escapeHtml(part.diagram)}')">Show Diagram</button>`
         : "";
+      const partMins = getRecommendedMinutes(group.subject, part.marks);
+      const timingStr = partMins ? ` · ~${partMins} min` : "";
       return `
         <div class="exam-part">
           <div class="exam-part-header">
             <span class="exam-part-label">${escapeHtml(part.label)}</span>
-            <span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? "" : "s"}</span>
+            <span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? "" : "s"}${timingStr}</span>
             ${diagramBtn}
           </div>
           <p class="exam-question-text">${escapeHtml(part.question)}</p>
@@ -1063,11 +1072,17 @@ function renderExamSection() {
 
     const _sq = getSectionForQuestion(group.id);
     const sectionBadge = examSectionBadge(_sq?.section, _sq?.data);
+    const totalQMarks = (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
+    const totalQMins = getRecommendedMinutes(group.subject, totalQMarks);
+    const totalTimingBadge = totalQMins
+      ? `<span class="exam-question-timing muted small">~${totalQMins} min total</span>`
+      : "";
     return `
       <div class="exam-group${group.caseStudy ? " exam-group--case-study" : ""}">
         <div class="exam-group-header">
           <span class="exam-source-tag">${escapeHtml(group.source)}</span>
           ${sectionBadge}
+          ${totalTimingBadge}
         </div>
         ${contextBox}
         ${parts}
@@ -1721,6 +1736,14 @@ function getSectionForQuestion(questionId) {
   const data = window.EXAM_BREAKDOWN?.[q.subject];
   const section = data?.sections?.find(function (s) { return s.id === q.sectionId; });
   return section ? { section, data } : null;
+}
+
+function getRecommendedMinutes(subjectId, marks) {
+  if (!marks) return null;
+  const data = window.EXAM_BREAKDOWN?.[subjectId];
+  if (!data?.totalMarks || !data?.totalMinutes) return null;
+  const mins = Math.round((marks / data.totalMarks) * data.totalMinutes);
+  return mins > 0 ? mins : null;
 }
 
 function examSectionBadge(section, data) {
