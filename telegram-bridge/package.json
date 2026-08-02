@@ -1,0 +1,14 @@
+{
+  "name": "barebones-telegram-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local Telegram bridge for the Barebones agent group chat.",
+  "scripts": {
+    "check": "node --check src/config.mjs && node --check src/index.mjs",
+    "start": "node src/index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

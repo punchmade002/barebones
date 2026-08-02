@@ -9,3 +9,9 @@
 pipeline/_data/
 pipeline/__pycache__/
 **/__pycache__/
+
+# Local integration credentials (never commit these)
+.env
+*.env
+*.env.*
+!.env.example
