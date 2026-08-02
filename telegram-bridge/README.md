@@ -12,7 +12,8 @@ The OpenAI key is loaded from the local root file `openaiapi.env.txt`, which mus
 OPENAI_API_KEY=...
 ```
 
-Create a second local file at the repository root called `telegram-bridge.env`:
+Create a second local file at the repository root called `telegram-bridge.env.txt`
+(or `telegram-bridge.env` if you prefer):
 
 ```env
 TELEGRAM_BOT_TOKEN=...

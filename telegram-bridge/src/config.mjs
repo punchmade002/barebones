@@ -32,6 +32,7 @@ function loadLocalEnv() {
     process.env.BRIDGE_ENV_FILE,
     resolve(repositoryRoot, "openaiapi.env.txt"),
     resolve(repositoryRoot, "telegram-bridge.env"),
+    resolve(repositoryRoot, "telegram-bridge.env.txt"),
     resolve(bridgeRoot, ".env"),
   ];
 
