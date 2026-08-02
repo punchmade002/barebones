@@ -25,6 +25,9 @@ TELEGRAM_REQUIRE_TRIGGER=true
 
 Both files are ignored by Git. Never commit or share the bot/API tokens.
 
+If you keep a private test-chat ID too, put the real group in
+`TELEGRAM_ALLOWED_GROUP_ID`; it takes precedence over `TELEGRAM_ALLOWED_CHAT_ID`.
+
 If you run the bridge from a separate Git worktree while keeping secrets in
 another local checkout, set `BRIDGE_ENV_FILE` to the absolute path of the file
 that contains `OPENAI_API_KEY` instead of copying the key.

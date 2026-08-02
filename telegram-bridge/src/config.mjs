@@ -50,7 +50,9 @@ const get = (name, fallback = "") => process.env[name] ?? localEnv[name] ?? fall
 export const config = Object.freeze({
   openaiApiKey: get("OPENAI_API_KEY"),
   telegramBotToken: get("TELEGRAM_BOT_TOKEN"),
-  allowedChatId: get("TELEGRAM_ALLOWED_CHAT_ID"),
+  // Prefer the explicit group setting when both a private test chat and the
+  // project group are present in the local credentials file.
+  allowedChatId: get("TELEGRAM_ALLOWED_GROUP_ID") || get("TELEGRAM_ALLOWED_CHAT_ID"),
   model: get("OPENAI_MODEL", "gpt-5-mini"),
   botLabel: get("BOT_LABEL", "Barebones Codex"),
   requireTrigger: get("TELEGRAM_REQUIRE_TRIGGER", "true").toLowerCase() !== "false",
