@@ -80,7 +80,9 @@
     const normalized = normalizeUsername(username);
 
     if (!(await isUsernameAvailable(normalized))) {
-      throw new Error("That username is already taken.");
+      const error = new Error("That username is already taken.");
+      error.code = "username_taken";
+      throw error;
     }
 
     const { data, error } = await authClient.auth.signUp({
