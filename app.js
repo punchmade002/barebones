@@ -397,9 +397,15 @@ const els = {
   profileLevel: document.getElementById("profileLevel"),
   subjectPicker: document.getElementById("subjectPicker"),
   profileMenu: document.getElementById("profileMenu"),
+  profileMenuMain: document.getElementById("profileMenuMain"),
+  profileMenuSubjects: document.getElementById("profileMenuSubjects"),
+  openSubjectChoices: document.getElementById("openSubjectChoices"),
+  closeSubjectChoices: document.getElementById("closeSubjectChoices"),
+  subjectChoicesCount: document.getElementById("subjectChoicesCount"),
   accountIdentity: document.getElementById("accountIdentity"),
-  openAuthButton: document.getElementById("openAuthButton"),
   signOutButton: document.getElementById("signOutButton"),
+  subjectArea: document.getElementById("subjectArea"),
+  sidebarToggle: document.getElementById("sidebarToggle"),
   accountStatus: document.getElementById("accountStatus"),
   subjectGraph: document.getElementById("subjectGraph"),
   subjectWorkbench: document.getElementById("subjectWorkbench"),
@@ -444,10 +450,8 @@ initializeAccounts();
 
 function bindEvents() {
   renderAvatarPicker();
-  els.openAuthButton.addEventListener("click", () => {
-    els.profileMenu.classList.add("hidden");
-    showAuthMode("details");
-  });
+  els.openSubjectChoices.addEventListener("click", () => showProfilePane("subjects"));
+  els.closeSubjectChoices.addEventListener("click", () => showProfilePane("main"));
   els.closeAccountDetails.addEventListener("click", hideAuthPanel);
   els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
   els.showSignUp.addEventListener("click", () => showAuthMode("signup"));
@@ -497,9 +501,12 @@ function bindEvents() {
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchTab(tab.dataset.tab)));
   els.profileAvatar.addEventListener("click", () => {
     if (!getCurrentUser()) return;
+    const opening = els.profileMenu.classList.contains("hidden");
     els.profileMenu.classList.toggle("hidden");
-    renderAccountSwitcher();
+    if (opening) showProfilePane("main");
+    renderAccountIdentity();
   });
+  bindSidebarCollapse();
   els.signOutButton.addEventListener("click", async () => {
     els.profileMenu.classList.add("hidden");
     try {
@@ -518,6 +525,9 @@ function bindEvents() {
   });
   document.addEventListener("click", (event) => {
     const target = event.target;
+    // Toggling a subject re-renders the picker, so by the time this click
+    // bubbles its target is detached. That is not a click outside the menu.
+    if (target instanceof Node && !target.isConnected) return;
     if (
       target !== els.profileAvatar &&
       !els.profileMenu.contains(target) &&
@@ -526,6 +536,116 @@ function bindEvents() {
       els.profileMenu.classList.add("hidden");
     }
   });
+}
+
+function showProfilePane(pane) {
+  const subjects = pane === "subjects";
+  els.profileMenuMain.classList.toggle("hidden", subjects);
+  els.profileMenuSubjects.classList.toggle("hidden", !subjects);
+  els.profileMenu.classList.toggle("profile-menu-wide", subjects);
+}
+
+/* ── Sidebar collapse ──────────────────────────
+   Two-finger horizontal trackpad swipe over the subject area hides the
+   sidebar; swiping back (or the edge button) brings it in. Wheel deltas
+   are accumulated so a lazy gesture still lands, and a run of vertical
+   scrolling resets the tally so ordinary reading never trips it. */
+const SIDEBAR_COLLAPSE_KEY = "bare-bones-sidebar-collapsed";
+const SWIPE_THRESHOLD = 90;
+const EDGE_HOT_RADIUS = 44;
+let swipeAccum = 0;
+let swipeResetTimer = null;
+
+function isSidebarCollapsed() {
+  return els.subjectArea?.classList.contains("sidebar-collapsed");
+}
+
+function setSidebarCollapsed(collapsed) {
+  if (!els.subjectArea) return;
+  els.subjectArea.classList.toggle("sidebar-collapsed", collapsed);
+  if (els.sidebarToggle) {
+    els.sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
+    els.sidebarToggle.setAttribute(
+      "aria-label",
+      collapsed ? "Show subject sidebar" : "Hide subject sidebar"
+    );
+  }
+  swipeAccum = 0;
+  try {
+    localStorage.setItem(SIDEBAR_COLLAPSE_KEY, collapsed ? "1" : "0");
+  } catch (e) {
+    /* storage unavailable — collapse is session-only */
+  }
+}
+
+function hasHorizontalScroll(node) {
+  let el = node instanceof Element ? node : node?.parentElement;
+  while (el && el !== els.subjectArea) {
+    if (el.scrollWidth > el.clientWidth + 2) {
+      const overflow = getComputedStyle(el).overflowX;
+      if (overflow === "auto" || overflow === "scroll") return true;
+    }
+    el = el.parentElement;
+  }
+  return false;
+}
+
+function bindSidebarCollapse() {
+  if (!els.subjectArea) return;
+  try {
+    if (localStorage.getItem(SIDEBAR_COLLAPSE_KEY) === "1") setSidebarCollapsed(true);
+  } catch (e) {
+    /* ignore */
+  }
+
+  els.sidebarToggle?.addEventListener("click", () => {
+    setSidebarCollapsed(!isSidebarCollapsed());
+  });
+
+  // Reveal the handle when the pointer nears the left edge of the content window.
+  const edge = els.subjectArea.querySelector(".sidebar-edge");
+  if (edge) {
+    let queued = false;
+    document.addEventListener("mousemove", (event) => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => {
+        queued = false;
+        const box = edge.getBoundingClientRect();
+        const near =
+          event.clientY >= box.top &&
+          event.clientY <= box.bottom &&
+          Math.abs(event.clientX - (box.left + box.width / 2)) <= EDGE_HOT_RADIUS;
+        edge.classList.toggle("edge-hot", near);
+      });
+    });
+  }
+
+  els.subjectArea.addEventListener(
+    "wheel",
+    (event) => {
+      // Only a deliberate horizontal gesture counts.
+      if (Math.abs(event.deltaX) < Math.abs(event.deltaY) * 1.5) {
+        swipeAccum = 0;
+        return;
+      }
+      // Let genuinely scrollable content (wide tables, chapter strips) keep its gesture.
+      if (hasHorizontalScroll(event.target)) {
+        swipeAccum = 0;
+        return;
+      }
+      swipeAccum += event.deltaX;
+      clearTimeout(swipeResetTimer);
+      swipeResetTimer = setTimeout(() => { swipeAccum = 0; }, 220);
+
+      if (swipeAccum > SWIPE_THRESHOLD && !isSidebarCollapsed()) {
+        setSidebarCollapsed(true);
+      } else if (swipeAccum < -SWIPE_THRESHOLD && isSidebarCollapsed()) {
+        setSidebarCollapsed(false);
+      }
+    },
+    { passive: true }
+  );
 }
 
 async function initializeAccounts() {
@@ -1092,7 +1212,7 @@ function renderAll() {
   reconcileSelection();
   renderAccount();
   renderProfileAvatar();
-  renderAccountSwitcher();
+  renderAccountIdentity();
   renderAvatarPicker();
   renderSubjectPicker();
   renderGraph();
@@ -1126,13 +1246,25 @@ function renderSubjectPicker() {
     return;
   }
   const disabled = new Set(Array.isArray(user.disabledSubjects) ? user.disabledSubjects : []);
-  els.subjectPicker.innerHTML = SUBJECTS.map(
-    (s) => `
-      <label>
-        <input type="checkbox" data-subject="${escapeHtml(s.id)}" ${!disabled.has(s.id) ? "checked" : ""} />
-        <span>${escapeHtml(s.title)}</span>
-      </label>`
-  ).join("");
+  els.subjectPicker.innerHTML = SUBJECTS.map((s) => {
+    const on = !disabled.has(s.id);
+    const chapters = (s.chapters || []).length;
+    return `
+      <label class="subject-setting">
+        <span class="subject-setting-text">
+          <span class="subject-setting-name">${escapeHtml(s.title)}</span>
+          <span class="subject-setting-meta">${chapters} chapter${chapters === 1 ? "" : "s"}</span>
+        </span>
+        <input type="checkbox" class="subject-setting-input" data-subject="${escapeHtml(s.id)}" ${on ? "checked" : ""} />
+        <span class="subject-setting-switch" aria-hidden="true"></span>
+      </label>`;
+  }).join("");
+
+  if (els.subjectChoicesCount) {
+    const on = SUBJECTS.length - disabled.size;
+    els.subjectChoicesCount.textContent = `${on} of ${SUBJECTS.length}`;
+  }
+
   els.subjectPicker.querySelectorAll("input[type=checkbox]").forEach((cb) => {
     cb.addEventListener("change", () => {
       const u = getCurrentUser();
@@ -1140,6 +1272,11 @@ function renderSubjectPicker() {
       const unchecked = Array.from(
         els.subjectPicker.querySelectorAll("input[type=checkbox]:not(:checked)")
       ).map((el) => el.dataset.subject);
+      // Keep at least one subject on, otherwise the app has nothing to show.
+      if (unchecked.length === SUBJECTS.length) {
+        cb.checked = true;
+        return;
+      }
       u.disabledSubjects = unchecked;
       const enabledIds = getEnabledSubjectIds(u);
       if (!enabledIds.includes(selectedSubjectId)) {
@@ -1164,7 +1301,7 @@ function renderAccount() {
   els.accountDetailsEmail.textContent = current.email || authSnapshot?.user?.email || "";
 }
 
-function renderAccountSwitcher() {
+function renderAccountIdentity() {
   const current = getCurrentUser();
   if (!current) {
     els.accountIdentity.innerHTML = "";
@@ -1172,8 +1309,8 @@ function renderAccountSwitcher() {
   }
   const email = current.email || authSnapshot?.user?.email || "";
   els.accountIdentity.innerHTML = `
-    <strong>${escapeHtml(current.username)}</strong>
-    <span>${escapeHtml(email)}</span>
+    <strong class="account-username">${escapeHtml(current.username)}</strong>
+    ${email ? `<span class="account-email">${escapeHtml(email)}</span>` : ""}
   `;
 }
 
@@ -1233,28 +1370,29 @@ function renderGraph() {
     const block = document.createElement("div");
     block.className = "graph-subject";
     const hasBreakdown = !!window.EXAM_BREAKDOWN?.[subject.id];
+    const expanded = expandedSubjectId === subject.id;
+    block.classList.toggle("expanded", expanded);
     block.innerHTML = `
       <div class="graph-subject-header">
-        <button class="graph-subject-name${hasBreakdown ? ' has-breakdown' : ''}">${escapeHtml(subject.title)}</button>
-        <button class="graph-subject-chevron" aria-label="Expand chapters" title="Show chapters">›</button>
+        <button class="graph-subject-name" aria-expanded="${expanded}">
+          <span class="graph-subject-title">${escapeHtml(subject.title)}</span>
+          <span class="graph-subject-count">${subject.chapters.length} chapters</span>
+        </button>
+        ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Exam info</button>` : ""}
+        <span class="graph-subject-chevron" aria-hidden="true">›</span>
       </div>
-      <div class="graph-chapters ${expandedSubjectId === subject.id ? "" : "hidden"}"></div>
+      <div class="graph-chapters ${expanded ? "" : "hidden"}"></div>
     `;
-    block.querySelector(".graph-subject-name").addEventListener("click", () => {
-      if (hasBreakdown) {
-        openExamBreakdown(subject.id);
-      } else {
-        expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
-        selectedSubjectId = subject.id;
-        viewMode = 'subject-overview';
-        renderAll();
-      }
-    });
-    block.querySelector(".graph-subject-chevron").addEventListener("click", () => {
+    const openSubject = () => {
       expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
       selectedSubjectId = subject.id;
       viewMode = 'subject-overview';
       renderAll();
+    };
+    block.querySelector(".graph-subject-name").addEventListener("click", openSubject);
+    block.querySelector(".graph-subject-exam")?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openExamBreakdown(subject.id);
     });
     const chaptersWrap = block.querySelector(".graph-chapters");
     subject.chapters.forEach((chapter) => {
@@ -2077,30 +2215,46 @@ function renderProgressOverview() {
   const testsCompleted = user?.testsCompleted || 0;
   const subjectStats = buildProgressSubjectStats(user);
 
-  const subjectCards = subjectStats.map((ss) => {
+  const subjectRows = subjectStats.map((ss) => {
     const started = ss.chStats.filter((c) => c.earned > 0).length;
     const complete = ss.chStats.filter((c) => c.ratio === 1).length;
+    const chapters = ss.chStats.map((s) => {
+      const pct = Math.round(s.ratio * 100);
+      const num = (s.ch.title.match(/^(\d+)/) || [, ""])[1];
+      const state = s.ratio === 1 ? "done" : s.earned > 0 ? "part" : "none";
+      return `
+        <div class="progress-chapter-cell ${state}" title="${escapeHtml(s.ch.title)} — ${s.earned}/${s.total} concepts">
+          <div class="progress-chapter-track"><div class="progress-chapter-fill" style="height:${pct}%"></div></div>
+          <span class="progress-chapter-label">${num ? escapeHtml(num) : "·"}</span>
+        </div>`;
+    }).join("");
+
     return `
-      <div class="progress-subject-card">
-        <div class="progress-subject-pct" style="color:var(--accent)">${ss.pct}%</div>
-        <div class="progress-subject-title">${escapeHtml(ss.subject.title)}</div>
-        <div class="progress-subject-sub">${started} of ${ss.chStats.length} started &middot; ${complete} complete</div>
+      <article class="progress-subject-row">
+        <div class="progress-subject-head">
+          <div class="progress-subject-id">
+            <h2 class="progress-subject-title">${escapeHtml(ss.subject.title)}</h2>
+            <p class="progress-subject-sub">${started} of ${ss.chStats.length} chapters started &middot; ${complete} finished &middot; ${ss.earned}/${ss.total} concepts</p>
+          </div>
+          <div class="progress-subject-pct">${ss.pct}<span>%</span></div>
+        </div>
         <div class="progress-subject-bar-wrap">
           <div class="progress-subject-bar-fill" style="width:${ss.pct}%"></div>
         </div>
-        <button class="button-secondary progress-subject-btn" onclick="renderProgressSubjectDetail('${escapeHtml(ss.subject.id)}')">View Chapters ›</button>
-      </div>`;
+        <div class="progress-chapter-strip">${chapters}</div>
+        <button class="progress-subject-btn" onclick="renderProgressSubjectDetail('${escapeHtml(ss.subject.id)}')">Chapter detail ›</button>
+      </article>`;
   }).join("");
 
   els.progressBody.innerHTML = `
     <div class="progress-summary">
-      <div class="progress-percent">${percent}%</div>
+      <div class="progress-percent">${percent}<span>%</span></div>
       <div class="progress-summary-meta">
-        <strong>${testsCompleted} tests passed</strong>
-        <span class="muted small">${earned} of ${total} concept points earned</span>
+        <strong>${earned} of ${total} concept points earned</strong>
+        <span class="muted small">${testsCompleted} test${testsCompleted === 1 ? "" : "s"} passed across ${subjectStats.length} subject${subjectStats.length === 1 ? "" : "s"}</span>
       </div>
     </div>
-    <div class="progress-subject-grid">${subjectCards}</div>
+    <div class="progress-subject-list">${subjectRows}</div>
   `;
 }
 
@@ -2123,13 +2277,24 @@ function renderProgressSubjectDetail(subjectId) {
       </div>`;
   }).join("");
 
+  const chapterRows = ss.chStats.map((s) => {
+    const pct = Math.round(s.ratio * 100);
+    return `
+      <div class="progress-detail-row">
+        <span class="progress-detail-name">${escapeHtml(s.ch.title)}</span>
+        <div class="progress-detail-track"><div class="progress-detail-fill" style="width:${pct}%"></div></div>
+        <span class="progress-detail-score">${s.earned}/${s.total}</span>
+      </div>`;
+  }).join("");
+
   els.progressBody.innerHTML = `
     <div class="progress-detail-header">
-      <button class="button-secondary" onclick="renderProgressOverview()">← Overview</button>
-      <h4>${escapeHtml(ss.subject.title)} — Chapter Progress</h4>
+      <button class="button-secondary" onclick="renderProgressOverview()">← All subjects</button>
+      <h2>${escapeHtml(ss.subject.title)}</h2>
       <span class="muted small">${ss.pct}% overall &middot; ${ss.earned}/${ss.total} concepts</span>
     </div>
     <div class="progress-chart progress-chart-detail">${bars}</div>
+    <div class="progress-detail-list">${chapterRows}</div>
   `;
 }
 
