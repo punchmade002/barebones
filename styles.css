@@ -2489,25 +2489,23 @@ body.modal-open { overflow: hidden; }
 .graph-subject-exam {
   flex-shrink: 0;
   width: auto;
-  background: var(--panel-2);
-  border: 1.5px solid var(--line);
+  background: var(--accent);
+  border: 1.5px solid transparent;
   border-radius: var(--r-full);
-  box-shadow: none;
+  box-shadow: var(--so);
   padding: 0.28rem 0.72rem;
   font-family: var(--font);
   font-size: 0.72rem;
   font-weight: 600;
-  color: var(--ink-2);
+  color: #fff;
   cursor: pointer;
   white-space: nowrap;
-  transition: background var(--t) var(--ease), color var(--t) var(--ease),
-              border-color var(--t) var(--ease);
+  transition: background var(--t) var(--ease), box-shadow var(--t) var(--ease);
 }
 
 .graph-subject-exam:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
+  background: var(--accent-strong);
+  box-shadow: 0 6px 28px rgba(249,115,22,0.42);
 }
 
 .graph-subject-chevron {
