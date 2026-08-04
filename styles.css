@@ -287,54 +287,115 @@ h2, h3, h4 {
   background: var(--panel);
   border: 1.5px solid var(--line);
   border-radius: var(--r-lg);
-  padding: 0.7rem;
-  min-width: 210px;
+  padding: 0.5rem;
+  width: 244px;
   box-shadow: var(--s3);
   animation: menu-pop 0.18s var(--ease) both;
+  transition: width var(--t) var(--ease);
 }
+
+.profile-menu.profile-menu-wide { width: 288px; }
 
 @keyframes menu-pop {
   from { opacity: 0; transform: translateY(-8px) scale(0.96); }
   to   { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-.profile-menu button { width: 100%; }
+.profile-pane { display: grid; gap: 0.15rem; }
 
-.profile-menu .button-secondary {
-  background: var(--panel);
-  color: var(--ink-2);
-  border-color: var(--line);
-}
-
-.profile-menu .button-secondary:hover {
-  background: var(--accent-xlight);
-  color: var(--accent-strong);
-  border-color: var(--accent-light);
-}
-
-/* ── Account identity ────────────────────────── */
+/* ── Account identity: the username is the headline ── */
 .account-identity {
   display: grid;
-  gap: 0.05rem;
-  margin-bottom: 0.65rem;
-  padding: 0.65rem 0.75rem;
-  border: 1.5px solid var(--line);
-  border-radius: var(--r-sm);
-  background: var(--panel-2);
+  gap: 0.15rem;
+  padding: 0.55rem 0.7rem 0.75rem;
+  margin-bottom: 0.35rem;
+  border-bottom: 1.5px solid var(--line);
   overflow: hidden;
 }
 
-.account-identity strong {
-  font-size: 0.9rem;
-  line-height: 1.25;
+.account-username {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.account-identity span {
+.account-email {
   color: var(--muted);
   font-size: 0.74rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* ── Settings-style menu rows ── */
+.profile-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: var(--r-xs);
+  padding: 0.55rem 0.7rem;
+  font-family: var(--font);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background var(--t) var(--ease), color var(--t) var(--ease);
+}
+
+.profile-row:hover { background: var(--accent-xlight); color: var(--accent-strong); }
+.profile-row-label { flex: 1; }
+.profile-row-value { font-size: 0.78rem; font-weight: 500; color: var(--muted); }
+.profile-row:hover .profile-row-value { color: var(--accent-strong); }
+.profile-row-chevron { font-size: 1.05rem; color: var(--muted); line-height: 1; }
+.profile-row:hover .profile-row-chevron { color: var(--accent); }
+.profile-row-quiet { color: var(--muted); font-weight: 500; }
+
+.profile-pane-head {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.15rem 0.2rem 0.6rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1.5px solid var(--line);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.profile-pane-head span { flex: 1; white-space: nowrap; }
+
+.profile-pane-back {
+  flex-shrink: 0;
+  width: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0.1rem 0.35rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+  border-radius: var(--r-xs);
+  transition: color var(--t) var(--ease), background var(--t) var(--ease);
+}
+
+.profile-pane-back:hover { color: var(--accent); background: var(--accent-xlight); }
+
+.profile-pane-hint {
+  margin: 0 0.2rem 0.5rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--muted);
 }
 
 /* ── Authentication ──────────────────────────── */
@@ -614,8 +675,6 @@ body.auth-open {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-#openAuthButton { margin-bottom: 0.5rem; }
-
 /* ── Avatar / theme picker ───────────────────── */
 .avatar-picker {
   display: grid;
@@ -743,13 +802,74 @@ button:active { transform: scale(0.965) !important; }
 }
 
 .subject-area {
+  --sidebar-w: 440px;
+  position: relative;
   display: grid;
-  grid-template-columns: 270px 1fr;
+  grid-template-columns: var(--sidebar-w) 1fr;
   grid-template-rows: 1fr;
   gap: 1rem;
   align-items: stretch;
   height: calc(100vh - 5.5rem);
+  transition: grid-template-columns var(--t) var(--ease);
 }
+
+.subject-area.sidebar-collapsed { --sidebar-w: 0px; gap: 0; }
+
+.subject-area.sidebar-collapsed .subject-list-wrap {
+  opacity: 0;
+  transform: translateX(-1.5rem);
+  pointer-events: none;
+}
+
+/* ── Sidebar edge: hover-revealed show/hide handle ── */
+.sidebar-edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--sidebar-w);
+  width: 2.4rem;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: left var(--t) var(--ease);
+}
+
+.sidebar-toggle {
+  pointer-events: auto;
+  width: 22px;
+  height: 60px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background: var(--panel);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  box-shadow: var(--s1);
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.85);
+  transition: opacity var(--t) var(--ease), transform var(--t) var(--ease),
+              color var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+
+/* The zone is click-through, so :hover never fires on it — JS sets .edge-hot
+   from the pointer's distance to the content edge instead. */
+.sidebar-edge.edge-hot .sidebar-toggle,
+.sidebar-toggle:hover,
+.sidebar-toggle:focus-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.sidebar-toggle:hover { color: var(--accent); border-color: var(--accent-light); }
+
+.sidebar-toggle-arrow { display: block; transition: transform var(--t) var(--ease); }
+.sidebar-collapsed .sidebar-toggle-arrow { transform: rotate(180deg); }
 
 /* Left panel — subject/chapter picker */
 .subject-list-wrap {
@@ -761,6 +881,7 @@ button:active { transform: scale(0.965) !important; }
   display: flex;
   flex-direction: column;
   min-height: 0;
+  transition: opacity var(--t) var(--ease), transform var(--t) var(--ease);
 }
 
 .subject-list-scroll {
@@ -810,47 +931,6 @@ button:active { transform: scale(0.965) !important; }
 .graph-subject:hover {
   border-color: var(--accent-light);
   box-shadow: var(--s1);
-}
-
-.graph-subject-main {
-  width: 100%;
-  text-align: left;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0.8rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  font-weight: 700;
-  font-size: 0.88rem;
-  color: var(--ink);
-  border-radius: 0;
-}
-
-/* Orange dot indicator — no border-left side-stripe */
-.graph-subject-main::before {
-  content: '';
-  flex-shrink: 0;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--line);
-  transition: background var(--t) var(--ease), box-shadow var(--t) var(--ease);
-}
-
-.graph-subject-main:hover {
-  background: var(--accent-light);
-}
-
-.graph-subject:has(.graph-subject-main:hover) .graph-chapters {
-  background: linear-gradient(to bottom, var(--accent-xlight), transparent 0.5rem);
-}
-
-.graph-subject-main:hover::before,
-.graph-subject-main.active::before {
-  background: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-xlight);
 }
 
 .graph-chapters {
@@ -1271,27 +1351,80 @@ details[open] > summary::before { transform: rotate(90deg); }
 .subject-picker {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-  margin-bottom: 0.6rem;
+  gap: 0.1rem;
+  max-height: 42vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
-.subject-picker label {
+.subject-setting {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.85rem;
+  gap: 0.6rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: var(--r-xs);
   cursor: pointer;
-  padding: 0.25rem 0;
+  transition: background var(--t) var(--ease);
 }
 
-.subject-picker input[type="checkbox"] {
-  accent-color: var(--accent);
-  width: auto;
-  border: none;
+.subject-setting:hover { background: var(--panel-2); }
+
+.subject-setting-text { display: grid; gap: 0.05rem; flex: 1; min-width: 0; }
+
+.subject-setting-name {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.subject-setting-meta { font-size: 0.68rem; color: var(--muted); }
+
+/* Real checkbox stays in the a11y tree, the switch is the visual */
+.subject-setting-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
   padding: 0;
-  border-radius: 0;
+  border: none;
   box-shadow: none;
+  pointer-events: none;
+}
+
+.subject-setting-switch {
   flex-shrink: 0;
+  position: relative;
+  width: 34px;
+  height: 20px;
+  border-radius: var(--r-full);
+  background: var(--line);
+  transition: background var(--t) var(--ease);
+}
+
+.subject-setting-switch::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--panel);
+  box-shadow: var(--s0);
+  transition: transform var(--t) var(--ease);
+}
+
+.subject-setting-input:checked ~ .subject-setting-switch { background: var(--accent); }
+.subject-setting-input:checked ~ .subject-setting-switch::after { transform: translateX(14px); }
+.subject-setting-input:checked ~ .subject-setting-text .subject-setting-name { color: var(--ink); }
+.subject-setting-input:focus-visible ~ .subject-setting-switch {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 /* ── Full-screen overlays ────────────────────── */
@@ -1413,68 +1546,117 @@ details[open] > summary::before { transform: rotate(90deg); }
   line-height: 1.7;
 }
 
-/* ── Progress screen ─────────────────────────── */
-.progress-card { width: min(860px, 96vw); }
-.progress-body { display: grid; gap: 1.4rem; }
+/* ── Progress: a full page, not an overlay ───── */
+.progress-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: var(--bg);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.progress-page {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 2.25rem 2.5rem 4rem;
+}
+
+.progress-page-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1.1rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 1.5px solid var(--line);
+}
+
+.progress-page-head .button-secondary,
+.progress-detail-header .button-secondary {
+  width: auto;
+  flex-shrink: 0;
+}
+
+.progress-title {
+  margin: 0;
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.045em;
+  color: var(--accent);
+}
+
+.progress-body { display: grid; gap: 2rem; }
 
 .progress-summary {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.25rem 1.6rem;
+  gap: 1.75rem;
+  padding: 1.5rem 2rem;
   background: var(--accent-xxlight);
   border: 1.5px solid var(--accent-xlight);
   border-radius: var(--r-lg);
 }
 
 .progress-percent {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   color: var(--accent);
-  line-height: 1;
-  letter-spacing: -0.04em;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
 }
 
-.progress-summary-meta { display: grid; gap: 0.25rem; }
-.progress-summary-meta strong { font-size: 1rem; }
+.progress-percent span { font-size: 0.42em; font-weight: 700; margin-left: 0.06em; }
 
-.progress-subject-grid {
+.progress-summary-meta { display: grid; gap: 0.3rem; }
+.progress-summary-meta strong { font-size: 1.15rem; letter-spacing: -0.02em; }
+
+/* Subject rows — one per subject, chapter detail in place */
+.progress-subject-list { display: grid; gap: 1rem; }
+
+.progress-subject-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
-}
-
-.progress-subject-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 1.4rem 1rem 1.1rem;
+  gap: 0.9rem;
+  padding: 1.4rem 1.6rem 1.25rem;
   background: var(--panel);
   border: 1.5px solid var(--line);
   border-radius: var(--r-lg);
-  text-align: center;
-  transition: box-shadow var(--t) var(--ease), border-color var(--t) var(--ease);
+  transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease);
 }
 
-.progress-subject-card:hover {
-  box-shadow: var(--s2);
-  border-color: var(--accent-light);
+.progress-subject-row:hover { border-color: var(--accent-light); box-shadow: var(--s1); }
+
+.progress-subject-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.25rem;
 }
+
+.progress-subject-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.progress-subject-sub { margin: 0.2rem 0 0; font-size: 0.82rem; color: var(--muted); }
 
 .progress-subject-pct {
-  font-size: 2.6rem;
+  flex-shrink: 0;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.04em;
+  color: var(--accent);
 }
 
-.progress-subject-title { font-size: 0.95rem; font-weight: 700; }
-.progress-subject-sub   { font-size: 0.78rem; color: var(--muted); }
+.progress-subject-pct span { font-size: 0.5em; font-weight: 700; }
 
 .progress-subject-bar-wrap {
   width: 100%;
-  height: 6px;
+  height: 8px;
   background: var(--accent-xlight);
   border-radius: var(--r-full);
   overflow: hidden;
@@ -1487,12 +1669,75 @@ details[open] > summary::before { transform: rotate(90deg); }
   transition: width 0.5s var(--ease);
 }
 
-.progress-subject-btn {
-  margin-top: 0.2rem;
-  width: 100%;
-  font-size: 0.82rem;
-  padding: 0.4rem 0.7rem;
+/* Per-chapter mini columns, readable at a glance */
+.progress-chapter-strip {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3rem;
+  height: 62px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding-bottom: 0.1rem;
 }
+
+.progress-chapter-cell {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  gap: 0.25rem;
+  flex: 1 1 16px;
+  min-width: 16px;
+  max-width: 30px;
+  height: 100%;
+}
+
+.progress-chapter-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--panel-3);
+  border-radius: var(--r-xs) var(--r-xs) 2px 2px;
+  overflow: hidden;
+}
+
+.progress-chapter-fill {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  background: var(--accent);
+  border-radius: var(--r-xs) var(--r-xs) 0 0;
+  transition: height 0.45s var(--ease);
+}
+
+.progress-chapter-cell.part .progress-chapter-fill { background: var(--accent-3); }
+.progress-chapter-cell.done .progress-chapter-fill {
+  background: linear-gradient(180deg, var(--accent-2), var(--accent));
+}
+
+.progress-chapter-label {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--muted);
+  line-height: 1;
+}
+
+.progress-chapter-cell.done .progress-chapter-label { color: var(--accent-strong); }
+
+.progress-subject-btn {
+  justify-self: start;
+  width: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0.15rem 0;
+  font-family: var(--font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color var(--t) var(--ease);
+}
+
+.progress-subject-btn:hover { color: var(--accent); background: transparent; }
 
 .progress-detail-header {
   display: flex;
@@ -1501,7 +1746,61 @@ details[open] > summary::before { transform: rotate(90deg); }
   flex-wrap: wrap;
 }
 
-.progress-detail-header h4 { margin: 0; font-size: 1rem; flex: 1; }
+.progress-detail-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  flex: 1;
+}
+
+.progress-detail-list {
+  display: grid;
+  gap: 0.15rem;
+  background: var(--panel);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 0.9rem 1.25rem;
+}
+
+.progress-detail-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(120px, 34%) auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.55rem 0;
+}
+
+.progress-detail-row + .progress-detail-row { border-top: 1px solid var(--line); }
+
+.progress-detail-name {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ink-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.progress-detail-track {
+  height: 6px;
+  background: var(--accent-xlight);
+  border-radius: var(--r-full);
+  overflow: hidden;
+}
+
+.progress-detail-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  border-radius: var(--r-full);
+  transition: width 0.45s var(--ease);
+}
+
+.progress-detail-score {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
 
 .progress-chart {
   display: grid;
@@ -1980,9 +2279,20 @@ body.modal-open { overflow: hidden; }
   }
 
   .subject-area {
+    --sidebar-w: 100%;
     grid-template-columns: 1fr;
     height: calc(100vh - 7rem);
   }
+
+  /* Gesture-collapse is a trackpad affordance; drop the handle on small screens */
+  .sidebar-edge { display: none; }
+
+  .progress-page { padding: 1.5rem 1.1rem 3rem; }
+
+  .progress-summary { flex-direction: column; align-items: flex-start; gap: 0.75rem; padding: 1.25rem; }
+
+  .progress-detail-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .progress-detail-track { grid-column: 1 / -1; order: 3; }
 
   .tabs {
     width: 100%;
@@ -2132,37 +2442,86 @@ body.modal-open { overflow: hidden; }
 .breakdown-q-text-body { font-size: 0.86rem; line-height: 1.55; color: var(--ink-2); margin: 0.3rem 0 0.6rem; }
 .breakdown-q-answer { background: var(--accent-xlight); border-radius: var(--r-sm); padding: 0.75rem 0.85rem; margin-top: 0.5rem; font-size: 0.84rem; line-height: 1.55; color: var(--ink-2); }
 
-/* Subject header split (name → breakdown, chevron → expand) */
+/* Subject header: label + exam info side by side, chapters below */
 .graph-subject-header {
-  display: flex; align-items: stretch; width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.55rem 0.85rem 0.55rem 1rem;
 }
+
 .graph-subject-name {
-  flex: 1; text-align: left; background: transparent;
-  border: none; box-shadow: none; padding: 0.8rem 0.5rem 0.8rem 1rem;
-  font-weight: 700; font-size: 0.88rem; color: var(--ink);
-  cursor: pointer; display: flex; align-items: center; gap: 0.65rem;
+  flex: 1;
+  width: auto;
+  min-width: 0;
+  text-align: left;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0.3rem 0.15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  color: var(--ink);
 }
-.graph-subject-name::before {
-  content: ''; flex-shrink: 0; width: 9px; height: 9px;
-  border-radius: 50%; background: var(--line);
-  transition: background var(--t) var(--ease), box-shadow var(--t) var(--ease);
+
+.graph-subject-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: -0.015em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color var(--t) var(--ease);
 }
-.graph-subject-name:hover { background: var(--accent-light); }
-.graph-subject-name:hover::before,
-.graph-subject-name.active::before {
+
+.graph-subject-count {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.graph-subject-name:hover .graph-subject-title { color: var(--accent-strong); }
+
+.graph-subject-exam {
+  flex-shrink: 0;
+  width: auto;
+  background: var(--panel-2);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  box-shadow: none;
+  padding: 0.28rem 0.72rem;
+  font-family: var(--font);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background var(--t) var(--ease), color var(--t) var(--ease),
+              border-color var(--t) var(--ease);
+}
+
+.graph-subject-exam:hover {
   background: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-xlight);
+  border-color: var(--accent);
+  color: #fff;
 }
-.graph-subject-name.has-breakdown:hover { color: var(--accent); }
+
 .graph-subject-chevron {
-  flex-shrink: 0; background: transparent; border: none; box-shadow: none;
-  padding: 0.8rem 0.9rem 0.8rem 0.4rem;
-  font-size: 1rem; color: var(--muted); cursor: pointer;
-  display: flex; align-items: center;
-  transition: color var(--t) var(--ease), background var(--t) var(--ease);
-  border-left: 1px solid transparent;
+  flex-shrink: 0;
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1;
+  transition: transform var(--t) var(--ease), color var(--t) var(--ease);
 }
-.graph-subject-chevron:hover { color: var(--accent); background: var(--accent-xlight); }
+
+.graph-subject.expanded .graph-subject-chevron {
+  transform: rotate(90deg);
+  color: var(--accent);
+}
 
 /* ── Exam section badge ── */
 .exam-section-badge {
@@ -2237,7 +2596,7 @@ body.modal-open { overflow: hidden; }
   background: var(--accent-xxlight);
   box-shadow: var(--so);
 }
-.timer-opt-pomo { border-color: var(--accent-edge); background: var(--accent-bg); }
+/* Pomodoro sits level with the other presets — no orange highlight */
 .timer-opt-sub {
   font-size: 0.66rem; font-weight: 400; color: var(--muted);
 }

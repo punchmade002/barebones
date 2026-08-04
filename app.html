@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=41" />
+    <link rel="stylesheet" href="./styles.css?v=42" />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <script>
       (function () {
@@ -35,11 +36,25 @@
       <button id="profileAvatar" class="profile-avatar" aria-label="Profile picture"></button>
       <span id="profileLevel" class="profile-level hidden" aria-label="Study level">Lv 0/30</span>
       <div id="profileMenu" class="profile-menu hidden">
-        <div id="accountIdentity" class="account-identity"></div>
-        <p class="muted small theme-label">My subjects</p>
-        <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
-        <button id="openAuthButton" class="button-secondary">Account details</button>
-        <button id="signOutButton" class="button-secondary">Sign Out</button>
+        <div id="profileMenuMain" class="profile-pane">
+          <div id="accountIdentity" class="account-identity"></div>
+          <button id="openSubjectChoices" class="profile-row" type="button">
+            <span class="profile-row-label">Subject choices</span>
+            <span id="subjectChoicesCount" class="profile-row-value"></span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
+          <button id="signOutButton" class="profile-row profile-row-quiet" type="button">
+            <span class="profile-row-label">Sign out</span>
+          </button>
+        </div>
+        <div id="profileMenuSubjects" class="profile-pane hidden">
+          <div class="profile-pane-head">
+            <button id="closeSubjectChoices" class="profile-pane-back" type="button" aria-label="Back to account">‹</button>
+            <span>Subject choices</span>
+          </div>
+          <p class="profile-pane-hint">Turn off anything you are not studying. It disappears from the sidebar and stops counting toward your progress.</p>
+          <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
+        </div>
       </div>
     </div>
     <div class="app-shell">
@@ -152,12 +167,18 @@
             <p class="auth-privacy">Your password is never stored by barebones. Authentication is encrypted and your study data is protected per account.</p>
           </div>
         </section>
-        <section class="subject-area">
+        <section class="subject-area" id="subjectArea">
           <div class="subject-list-wrap graph-wrap">
             <div class="subject-list-scroll">
               <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
               <div id="subjectGraph" class="subject-graph"></div>
             </div>
+          </div>
+
+          <div class="sidebar-edge">
+            <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Hide subject sidebar" aria-expanded="true">
+              <span class="sidebar-toggle-arrow" aria-hidden="true">‹</span>
+            </button>
           </div>
 
           <div id="subjectWorkbench" class="workbench hidden">
@@ -211,12 +232,12 @@
       </li>
     </template>
 
-    <section id="progressScreen" class="full-notes-screen hidden">
-      <div class="full-notes-card progress-card">
-        <div class="toolbar">
-          <h3>Study Progress</h3>
+    <section id="progressScreen" class="progress-screen hidden">
+      <div class="progress-page">
+        <header class="progress-page-head">
+          <h1 class="progress-title">Study Progress</h1>
           <button id="closeProgress" class="button-secondary">Close</button>
-        </div>
+        </header>
         <div id="progressBody" class="progress-body"></div>
       </div>
     </section>
