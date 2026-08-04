@@ -60,6 +60,9 @@ SYLLABUS_CUTOFF = {
 # on it). `code` is the 3-digit SEC subject code — all read live from 2024 papers
 # (e.g. "2024L004" -> History 004). Codes aren't needed for form-discovery; kept for
 # the legacy direct-URL fallback and tidy filenames.
+# `display` is what a STUDENT sees in a source line ("LC Home Economics Higher 2019 — Q1").
+# It is deliberately separate from `label`: `label` is archive-dropdown text, so reusing it
+# would publish "LC Home Economics S & S Higher". Defaults to `label` when they agree.
 SUBJECTS = {
     "history":   {"code": "004", "label": "History"},
     "english":   {"code": "002", "label": "English"},
@@ -67,10 +70,23 @@ SUBJECTS = {
     "business":  {"code": "033", "label": "Business"},
     "chemistry": {"code": "022", "label": "Chemistry"},
     "geography": {"code": "005", "label": "Geography"},
-    "maths":     {"code": "003", "label": "Mathematics"},
+    "maths":     {"code": "003", "label": "Mathematics", "display": "Mathematics"},
     "pe":        {"code": "225", "label": "Physical Education"},
-    "home-economics": {"code": "180", "label": "Home Economics S & S"},  # exact SEC dropdown text
+    "home-economics": {"code": "180", "label": "Home Economics S & S",  # exact SEC dropdown text
+                       "display": "Home Economics"},
 }
+
+
+def display_name(subject: str) -> str:
+    """The student-facing subject name for source lines and report headings.
+
+    Never use `subject.capitalize()`: it renders every hyphenated subject wrong
+    ("home-economics" -> "Home-economics") and silently lowercases the rest of the words.
+    Unknown subjects fall back to a title-cased de-hyphenation rather than raising, so a
+    subject not yet in SUBJECTS still publishes something sane.
+    """
+    entry = SUBJECTS.get(subject) or {}
+    return entry.get("display") or entry.get("label") or subject.replace("-", " ").title()
 
 LEVELS = ("AL", "GL")              # AL = Higher (Ardleibhéal), GL = Ordinary
 

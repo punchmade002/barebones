@@ -30,7 +30,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from config import DIGEST, CANONICAL, REPORTS, ROOT
+from config import DIGEST, CANONICAL, REPORTS, ROOT, display_name
+import ids
 import validate
 
 # Exposed for run.py: pending() uses this to re-queue any paper whose extraction came back junk
@@ -99,6 +100,12 @@ def _retry(fn, *args, attempts: int = 6, **kwargs):
             time.sleep(wait)
 
 
+def level_of(q: dict) -> str:
+    """'higher' | 'ordinary' for a canonical row. Prefers the stored `level`, falling back to
+    the old source-string sniff so a store written before that field existed still reads."""
+    return q.get("level") or ("higher" if "Higher" in q.get("source", "") else "ordinary")
+
+
 def load_scaffold(subject: str) -> dict:
     f = SCAFFOLD_DIR / f"{subject}.json"
     if not f.exists():
@@ -156,17 +163,30 @@ def parse_result(content) -> list[dict]:
     return []
 
 
-def to_canonical(subject: str, digest: dict, questions: list[dict]) -> list[dict]:
+def to_canonical(subject: str, digest: dict, questions: list[dict],
+                 taken: set[str] | None = None) -> list[dict]:
+    """Shape one paper's extracted questions into canonical rows.
+
+    IDs are issued by ids.assign_unique_ids rather than formatted inline, because a label alone
+    is not unique — History repeats "Q1" per topic per section, and even within one chapter the
+    2005 OL paper labels two different questions "D4". `taken` reserves ids already committed by
+    earlier papers so a cross-paper collision can't reintroduce the problem.
+    """
     out = []
     yr, lvl = digest["year"], digest["level"]
     for i, q in enumerate(questions, 1):
         parts = [p for p in q.get("parts", []) if isinstance(p, dict)]
+        label = q.get("label") or f"q{i}"
         out.append({
-            "id": f"{subject}-pp-{yr}-{lvl[:2].upper()}-{q.get('label','q'+str(i))}".replace(" ", ""),
             "subject": subject,
             "chapterId": q.get("chapterId", ""),
             "sectionId": q.get("sectionId", ""),
-            "source": f"LC {subject.capitalize()} {lvl.capitalize()} {yr} — {q.get('label','')}"
+            # level/label are stored rather than re-derived: images.py used to recover the level
+            # by sniffing for "Higher" in the source string, which breaks the moment the display
+            # name or the REFERENCE suffix changes.
+            "level": lvl,
+            "label": label,
+            "source": f"LC {display_name(subject)} {lvl.capitalize()} {yr} — {q.get('label','')}"
                       + (" [REFERENCE — pre-current-syllabus]" if digest["status"] == "reference" else ""),
             "year": yr,
             "tag_confidence": q.get("tag_confidence", 0),
@@ -174,7 +194,7 @@ def to_canonical(subject: str, digest: dict, questions: list[dict]) -> list[dict
                        "marks": p.get("marks", 0), "model": p.get("model", ""), "diagram": ""}
                       for p in parts],
         })
-    return out
+    return ids.assign_unique_ids(out, taken=taken)
 
 
 # ── runners ───────────────────────────────────────────────────────────────────
@@ -250,8 +270,7 @@ def prepare(subject: str, limit: int | None = None, year: int | None = None,
     cpath = CANONICAL / f"{subject}.json"
     existing = json.loads(cpath.read_text()) if cpath.exists() else []
     if existing and not force:
-        done = {(q["year"], "higher" if "Higher" in q.get("source", "") else "ordinary")
-                for q in existing}
+        done = {(q["year"], level_of(q)) for q in existing}
         before = len(digests)
         digests = [d for d in digests if (d["year"], d["level"]) not in done]
         print(f"resuming: {before - len(digests)} paper(s) already done, {len(digests)} to do")
@@ -304,7 +323,9 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
         if len(qs) > MAX_QUESTIONS_PER_PAPER:
             print(f"[skip] {cid}: {len(qs)} items — malformed (likely scanned/OCR)")
             continue
-        kept_rows, dropped = _drop_bad_parts(to_canonical(subject, meta, qs))
+        # reserve ids already committed by earlier papers so this paper can't reuse one
+        taken = {r["id"] for r in base} | {r["id"] for r in new}
+        kept_rows, dropped = _drop_bad_parts(to_canonical(subject, meta, qs, taken=taken))
         rejected += dropped
         nparts = sum(len(r["parts"]) for r in kept_rows)
         print(f"[seg] {cid}: {len(kept_rows)} questions, {nparts} parts"
@@ -312,6 +333,13 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
         new += kept_rows
         _save(subject, base + new)                          # durable as each lands
     canonical = base + new
+
+    # A duplicate id here means answers and diagram crops would be misrouted downstream, so it
+    # is worth shouting about at the point it is introduced rather than at the merge gate.
+    dup_ids = ids.duplicate_ids(canonical)
+    if dup_ids:
+        print(f"\n⚠ {len(dup_ids)} DUPLICATE question id(s) in the store — "
+              f"run `python3 migrate_ids.py {subject}` before answers/images.")
     cpath.write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     js = render_js(subject, canonical)
 
@@ -331,8 +359,7 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
             dg = json.loads(f.read_text())
             if _paper_chars(dg) >= 200:                     # had a usable exam paper
                 digested.append((dg["year"], dg["level"]))
-    seg_pairs = {(q["year"], "higher" if "Higher" in q.get("source", "") else "ordinary")
-                 for q in canonical}
+    seg_pairs = {(q["year"], level_of(q)) for q in canonical}
     papers_no_q = sorted(f"{y}-{l}" for (y, l) in digested if (y, l) not in seg_pairs)
     paper_cov = (len(digested) - len(papers_no_q)) / max(1, len(digested))
     all_chapters = [c["id"] for c in load_scaffold(subject)["chapters"]]
