@@ -64,41 +64,35 @@ def _wire(files: list[tuple[str, str]]) -> int:
 
 
 def gate(subject: str) -> list[str]:
-    """Auto-publish-if-clean pre-flight. Returns human-readable failure reasons (empty == clean):
-      * any placeholder/empty part still in the store (segment should have dropped these),
-      * more than 40% of answers being ai-h1 (a symptom of upstream segmentation failure),
-      * any question attributed to a year no paper was acquired for (fabricated years)."""
-    import validate
-    cpath = CANONICAL / f"{subject}.json"
-    if not cpath.exists():
-        return [f"no canonical store ({cpath.name}) — run segment first"]
-    canon = json.loads(cpath.read_text())
-    parts = [(q, p) for q in canon for p in q.get("parts", [])]
-    bad = [(q["id"], validate.part_problems(p)) for q, p in parts if validate.part_problems(p)]
-    ai = sum(1 for _, p in parts if p.get("model_source") == "ai-h1") / max(len(parts), 1)
-    fab_years = sorted({q.get("year") for q in canon
-                        if not validate.year_is_real(subject, q.get("year"))})
-    fails = []
-    if bad:
-        eg = f" (e.g. {bad[0][0]}: {','.join(bad[0][1])})"
-        fails.append(f"{len(bad)} placeholder/empty part(s){eg}")
-    if ai > 0.40:
-        fails.append(f"{ai:.0%} of answers are ai-h1 (>40% cap)")
-    if fab_years:
-        fails.append(f"questions from non-acquired year(s): {fab_years}")
-    return fails
+    """Auto-publish-if-clean pre-flight. Returns human-readable failure reasons (empty == clean).
+
+    The checks themselves live in gate.py, which also reports WARN/INFO findings a human should
+    read but which must not block publishing. `python3 gate.py <subject>` prints the full report.
+    """
+    import gate as gate_mod
+    return gate_mod.blockers(subject)
 
 
 def run(subject: str, force: bool = False) -> bool:
     """Merge generated content into the app. Returns True iff it actually published. A failing
     gate blocks publishing unless force=True (the deliberate human override)."""
-    fails = gate(subject)
+    import gate as gate_mod
+    findings = gate_mod.run(subject)
+    fails = [f.message for f in findings if f.severity == gate_mod.BLOCK]
+    # WARN findings never block, but publishing without showing them is how 158 duplicate
+    # flashcards shipped unnoticed — print them either way.
+    warns = [f.message for f in findings if f.severity == gate_mod.WARN]
+    if warns:
+        print(f"[merge] {len(warns)} warning(s) — not blocking:")
+        for w in warns:
+            print(f"  ! {w}")
     if fails:
         head = "[merge] gate failures OVERRIDDEN by --force:" if force else \
                "[merge] BLOCKED — fix these or re-run with --force:"
         print(head)
         for f in fails:
             print(f"  - {f}")
+        print(f"  (full report: python3 gate.py {subject})")
         if not force:
             return False
     files = _copy(subject)
