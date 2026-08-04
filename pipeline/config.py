@@ -90,6 +90,111 @@ def display_name(subject: str) -> str:
 
 LEVELS = ("AL", "GL")              # AL = Higher (Ardleibhéal), GL = Ordinary
 
+# ── Flashcard type vocabulary (Stage 6, flashcards.py) ───────────────────────
+# The card `type` enum was originally written for History (person/event/movement/policy/law)
+# and then handed to every subject, so a Chemistry deck could only ever classify a titration
+# as "concept" — 231 of Chemistry's 244 cards collapsed to that one value, which makes the
+# field useless for filtering or for building typed study drills.
+#
+# Each subject gets a vocabulary that carves ITS content at the joints. Two rules hold for
+# every list, because the gate and the legacy decks both depend on them:
+#   * "concept" is always present — it is the catch-all, so the model is never forced to
+#     misclassify, and every card written under the old enum stays valid.
+#   * values are lowercase single words, so they are safe as CSS classes and filter keys.
+DEFAULT_CARD_TYPES = {
+    "concept":    "abstract idea, principle, or institution",
+    "process":    "a sequence of steps, mechanism, or procedure",
+    "term":       "a piece of subject vocabulary with a precise meaning",
+    "example":    "a named real-world case, specimen, or worked instance",
+}
+
+CARD_TYPES = {
+    "history": {
+        "person":   "named individual",
+        "event":    "dated/named occurrence (war, rising, crisis, famine)",
+        "movement": "organised campaign or political/social movement",
+        "policy":   "government strategy or doctrine (e.g. Containment, Appeasement)",
+        "law":      "legislation, act, treaty, or agreement",
+        "concept":  "abstract idea, principle, or institution",
+    },
+    "chemistry": {
+        "substance":  "a named element, compound, ion, or material",
+        "reaction":   "a named reaction or reaction class (e.g. esterification, neutralisation)",
+        "law":        "a law, rule, or principle (e.g. Le Chatelier's principle, Boyle's law)",
+        "apparatus":  "a named instrument or piece of equipment",
+        "technique":  "a laboratory procedure or method (e.g. titration, recrystallisation)",
+        "experiment": "a landmark or mandatory experiment (e.g. the gold foil experiment)",
+        "person":     "a named scientist whose work or model is examinable",
+        "quantity":   "a measurable quantity, unit, or constant",
+        "concept":    "abstract idea, model, or anything else",
+    },
+    "biology": {
+        "organism":  "a named organism, species, or group",
+        "structure": "an anatomical or cellular structure (organ, organelle, tissue)",
+        "process":   "a biological process (respiration, mitosis, transpiration)",
+        "molecule":  "a biologically important molecule or compound",
+        "disorder":  "a disease, deficiency, or disorder",
+        "technique": "a laboratory or field procedure",
+        "person":    "a named scientist whose work is examinable (Mendel, Darwin)",
+        "concept":   "abstract idea, principle, or anything else",
+    },
+    "geography": {
+        "landform":  "a named landform or physical feature",
+        "process":   "a physical or human process (erosion, migration, urbanisation)",
+        "region":    "a named place, region, or country used as a case study",
+        "theory":    "a named model or theory (e.g. Von Thünen, demographic transition)",
+        "hazard":    "a natural hazard or environmental problem",
+        "concept":   "abstract idea, principle, or anything else",
+    },
+    "home-economics": {
+        "nutrient":  "a nutrient, food component, or dietary element",
+        "food":      "a named food, food group, or commodity",
+        "process":   "a food-science, cooking, or preservation process",
+        "appliance": "an appliance, equipment, or textile/household material",
+        "policy":    "legislation, agency, standard, or consumer-protection body",
+        "concept":   "abstract idea, principle, or anything else",
+    },
+    "business": {
+        "concept":   "abstract idea, principle, or anything else",
+        "role":      "a person, job role, or stakeholder type",
+        "document":  "a business document, account, or financial statement",
+        "law":       "legislation, regulation, or a regulatory body",
+        "strategy":  "a management/marketing strategy or model",
+        "metric":    "a ratio, calculation, or measurable indicator",
+    },
+    "pe": {
+        "concept":    "abstract idea, principle, or anything else",
+        "system":     "a body system or physiological mechanism",
+        "component":  "a component of fitness or skill",
+        "training":   "a training method, principle, or programme type",
+        "test":       "a named fitness test or measurement protocol",
+        "policy":     "an organisation, initiative, or policy in sport",
+    },
+    "maths": {
+        "theorem":    "a named theorem, rule, or identity",
+        "method":     "a solution procedure or algorithm",
+        "definition": "a precise mathematical definition",
+        "formula":    "a formula to recall and apply",
+        "concept":    "abstract idea, structure, or anything else",
+    },
+    "english": {
+        "technique":  "a literary or rhetorical technique",
+        "form":       "a genre, form, or mode of writing",
+        "theme":      "a recurring theme or idea",
+        "text":       "a named text, author, or character",
+        "concept":    "abstract idea, principle, or anything else",
+    },
+}
+
+
+def card_types(subject: str) -> dict[str, str]:
+    """The {value: description} flashcard type vocabulary for a subject.
+
+    Unknown subjects get DEFAULT_CARD_TYPES rather than History's, so a new subject is never
+    silently forced into person/event/movement. Always contains 'concept'.
+    """
+    return dict(CARD_TYPES.get(subject) or DEFAULT_CARD_TYPES)
+
 # ── Answer length model ──────────────────────────────────────────────────────
 # A model answer should be as long as a student could realistically WRITE in the time the
 # marks buy them — not an unbounded essay. Time for a question = (its marks / paper marks)

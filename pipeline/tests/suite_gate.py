@@ -87,7 +87,91 @@ def test_missing_diagram_file_blocks():
 
 def test_empty_flashcard_blocks():
     f = list(gate.check_flashcards(ctx([row()], cards={"hist-ire1": [{"term": "", "definition": "d"}]})))
-    assert f and f[0].severity == gate.BLOCK
+    assert any(x.severity == gate.BLOCK for x in f), f
+
+
+def test_a_card_whose_prompt_is_just_the_term_is_reported():
+    """'Q1: Food Pyramid' — the defect the authored prompt replaces."""
+    cards = {"hist-ire1": [{"term": "Home Rule", "prompt": "Home Rule",
+                            "answer": "A campaign for Irish self-government within the UK."}]}
+    f = list(gate.check_flashcards(ctx([row()], cards=cards)))
+    assert any("prompt-is-term" in x.message for x in f), f
+
+
+def test_an_unanswerable_prompt_blocks():
+    """A flashcard carries no diagram, so a prompt pointing at one is broken content."""
+    cards = {"hist-ire1": [{"term": "Home Rule",
+                            "prompt": "Explain the process shown in the diagram above.",
+                            "answer": "A campaign for Irish self-government within the UK."}]}
+    f = list(gate.check_flashcards(ctx([row()], cards=cards)))
+    assert any(x.severity == gate.BLOCK and "self-contained" in x.message for x in f), f
+
+
+def test_a_legacy_deck_reports_but_does_not_block():
+    """Cards with no prompt render as they always did — bad, but not newly broken, so a
+    republish of existing content must not be blocked by the schema change alone."""
+    cards = {"hist-ire1": [{"term": "Home Rule",
+                            "definition": "A campaign for Irish self-government in the UK."}]}
+    f = list(gate.check_flashcards(ctx([row()], cards=cards)))
+    assert f and all(x.severity != gate.BLOCK for x in f), f
+
+
+def test_prompt_coverage_is_reported():
+    cards = {"hist-ire1": [{"term": "A", "definition": "x" * 30},
+                           {"term": "B", "prompt": "What is B?", "answer": "y" * 30}]}
+    f = list(gate.check_card_prompts(ctx([row()], cards=cards)))
+    assert f and "1/2" in f[0].message and f[0].severity == gate.WARN
+
+
+def test_full_prompt_coverage_is_not_a_warning():
+    cards = {"hist-ire1": [{"term": "B", "prompt": "What is B?", "answer": "y" * 30}]}
+    f = list(gate.check_card_prompts(ctx([row()], cards=cards)))
+    assert f and f[0].severity == gate.INFO
+
+
+def test_types_outside_the_subject_vocabulary_warn():
+    cards = {"hist-ire1": [{"term": "A", "definition": "x" * 30, "type": "substance"}]}
+    f = list(gate.check_card_types(ctx([row()], cards=cards)))
+    assert any("outside the history vocabulary" in x.message for x in f), f
+
+
+def test_a_deck_that_is_all_concept_warns_that_the_vocabulary_does_not_fit():
+    """Chemistry's deck was 91% 'concept' under History's enum."""
+    cards = {"hist-ire1": [{"term": f"t{i}", "definition": "x" * 30, "type": "concept"}
+                           for i in range(10)]}
+    f = list(gate.check_card_types(ctx([row()], cards=cards)))
+    assert any("not fitting this subject" in x.message for x in f), f
+
+
+def test_a_well_spread_type_distribution_is_only_informational():
+    cards = {"hist-ire1": [{"term": f"p{i}", "definition": "x" * 30, "type": "person"}
+                           for i in range(6)]
+             + [{"term": f"c{i}", "definition": "x" * 30, "type": "concept"} for i in range(4)]}
+    f = list(gate.check_card_types(ctx([row()], cards=cards)))
+    assert f and all(x.severity == gate.INFO for x in f), f
+
+
+def test_spelling_variants_are_reported():
+    """A hyphen vs an en-dash survives the duplicate check but is still one card."""
+    cards = {"hist-ire1": [{"term": "Berlin Wall (1961-1989)", "definition": "x" * 30}],
+             "hist-eur1": [{"term": "Berlin Wall (1961–1989)", "definition": "x" * 30}]}
+    f = list(gate.check_term_variants(ctx([row()], cards=cards)))
+    assert f and f[0].severity == gate.WARN and "Berlin Wall" in f[0].message
+
+
+def test_variants_never_block():
+    """variant_key folds aggressively, so it informs a human — it never deletes or blocks."""
+    cards = {"a": [{"term": f"gas law{'s' if i else ''}", "definition": "x" * 30}
+                   for i in range(2)]}
+    f = list(gate.check_term_variants(ctx([row()], cards=cards)))
+    assert f and all(x.severity != gate.BLOCK for x in f)
+
+
+def test_case_only_differences_are_left_to_the_duplicate_check():
+    """Otherwise the same defect is reported twice under two names."""
+    cards = {"a": [{"term": "Home Rule", "definition": "x" * 30}],
+             "b": [{"term": "home rule", "definition": "x" * 30}]}
+    assert not list(gate.check_term_variants(ctx([row()], cards=cards)))
 
 
 def test_cross_chapter_duplicate_cards_are_found():

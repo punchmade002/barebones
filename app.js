@@ -1323,10 +1323,10 @@ function renderOutcomes() {
     <p class="muted small">${chapterLearnedCards}/${chapterTotalCards} concept points learned</p>
     <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
     <p class="muted small">Goal progress: ${step}/3</p>
-    <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
+    <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(cardQuestion(card))}</strong>`}</div>
     <div class="study-controls">
       <button id="prevCard" class="button-secondary">Prev</button>
-      <button id="flipCard" class="button-primary">${showAnswer ? "Show Term" : "Show Point"}</button>
+      <button id="flipCard" class="button-primary">${showAnswer ? (card.prompt ? "Show Question" : "Show Term") : (card.prompt ? "Show Answer" : "Show Point")}</button>
       <button id="nextCard" class="button-secondary">Next</button>
       <button id="markLearned" class="button-secondary">${learnedSet.has(card.id) ? "Learned" : "Mark Learned"}</button>
     </div>
@@ -1388,7 +1388,7 @@ function startTest() {
     const div = document.createElement("div");
     div.className = "test-card";
     div.innerHTML = `
-      <p><strong>Q${idx + 1}:</strong> ${escapeHtml(card.term)}</p>
+      <p><strong>Q${idx + 1}:</strong> ${escapeHtml(cardQuestion(card))}</p>
       <textarea data-id="${card.id}" placeholder="Write your answer..."></textarea>
     `;
     els.testContainer.appendChild(div);
@@ -1447,10 +1447,19 @@ function renderTestOverview(latestScore) {
   `;
 }
 
+// The question face of a card. The pipeline now authors a real `prompt` ("What does the food
+// pyramid show about a balanced diet?"); older decks have only a `term`, which the app used to
+// render as the question itself — so a student was shown "Q1: Food Pyramid" and asked to write
+// an answer. Falling back to the term keeps those decks working until they are regenerated.
+function cardQuestion(card) {
+  return compactText(card?.prompt || card?.term || "");
+}
+
 function cardsForOutcome(outcome, subjectId) {
   return (outcome.keyTerms || []).map((kt, idx) => ({
     id: `${outcome.id}-k-${idx + 1}`,
     term: kt.term,
+    prompt: kt.prompt || "",
     definition: compactText(kt.definition),
     keywords: extractKeywords(kt),
   }));
@@ -1748,6 +1757,7 @@ function questionsForOutcome(outcome, subjectId) {
   return (outcome.keyTerms || []).map((kt, idx) => ({
     id: `${outcome.id}-q-${idx + 1}`,
     term: kt.term,
+    prompt: kt.prompt || "",
     answer: kt.definition,
     keywords: extractKeywords(kt),
   }));

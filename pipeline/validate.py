@@ -86,6 +86,113 @@ def scan_canonical(canon: list[dict]) -> list[dict]:
     return out
 
 
+# ── Flashcards ────────────────────────────────────────────────────────────────
+# A card used to be {term, definition}, and the app showed the bare `term` as the question —
+# so a student studying Home Economics was asked "Food Pyramid" and expected to write an
+# answer. A card now carries an authored `prompt` (a real question) and an `answer`. These
+# checks are what stop the generator regressing to term-only cards.
+
+# An exam prompt is either a question ("What is …?") or an imperative instruction
+# ("Explain …"). Anything else is a label, not something a student can answer.
+PROMPT_VERB = re.compile(
+    r'^(explain|describe|state|name|list|define|outline|give|identify|distinguish|'
+    r'differentiate|compare|contrast|account for|suggest|calculate|discuss|evaluate|'
+    r'justify|show|write|draw|label|classify|summarise|summarize)\b', re.I)
+
+# A prompt that points at something the card doesn't carry is unanswerable on its own.
+PROMPT_CONTEXT_LEAK = re.compile(
+    r'\b(shown (above|below|opposite)|(the|this) (diagram|figure|graph|table|passage|'
+    r'extract|document|photograph|image|map) (above|below|opposite|shown)|'
+    r'in the (passage|extract|document|table|diagram) above|as shown)\b', re.I)
+
+_ARTICLE = re.compile(r'^(the|a|an)\s+', re.I)
+_PUNCT = re.compile(r"[^\w\s]")
+_WS = re.compile(r"\s+")
+
+CARD_MIN_PROMPT = 15        # shorter than this is a label, not a question
+CARD_MIN_ANSWER = 20        # shorter than this cannot be an exam-worthy answer
+
+
+def normalise_term(term) -> str:
+    """STRICT dedup key: case and whitespace only.
+
+    Deliberately conservative — this key drives the deterministic merge, which DISCARDS
+    cards, so it must only ever collapse things that are unarguably the same string.
+    """
+    return _WS.sub(" ", str(term or "").strip().lower())
+
+
+def variant_key(term) -> str:
+    """LOOSE key: also folds punctuation, hyphens, leading articles and trailing plurals.
+
+    Used only to WARN. 'Food Pyramids', 'the food-pyramid' and 'Food Pyramid' share this key
+    but not `normalise_term`'s, so this catches exactly the near-variants the merge left
+    behind — without ever being trusted to delete a card.
+    """
+    s = normalise_term(term)
+    s = _ARTICLE.sub("", s)
+    s = _PUNCT.sub(" ", s)
+    s = _WS.sub(" ", s).strip()
+    words = []
+    for w in s.split():
+        if len(w) > 3 and w.endswith("ies"):
+            w = w[:-3] + "y"
+        elif len(w) > 3 and w.endswith("es") and not w.endswith(("ses", "zes")):
+            w = w[:-2]
+        elif len(w) > 3 and w.endswith("s") and not w.endswith(("ss", "us", "is")):
+            w = w[:-1]
+        words.append(w)
+    return " ".join(words)
+
+
+def card_problems(card: dict, types: set | None = None) -> list[str]:
+    """Every problem with one flashcard. `types` is the subject's allowed type vocabulary
+    (config.card_types(subject).keys()); omit it to skip the type check.
+
+    Returns problem CODES, not severities — the gate decides what blocks and what warns,
+    because a legacy deck missing every `prompt` should report, not block a republish.
+    """
+    probs = []
+    term = (card.get("term") or "").strip()
+    prompt = (card.get("prompt") or "").strip()
+    answer = (card.get("answer") or card.get("definition") or "").strip()
+
+    if not term:
+        probs.append("empty-term")
+    if not answer:
+        probs.append("empty-answer")
+    elif len(answer) < CARD_MIN_ANSWER:
+        probs.append("answer-too-short")
+
+    if not prompt:
+        probs.append("no-prompt")                     # legacy term-only card
+    else:
+        if len(prompt) < CARD_MIN_PROMPT:
+            probs.append("prompt-too-short")
+        if not prompt.endswith("?") and not PROMPT_VERB.match(prompt):
+            probs.append("prompt-not-a-question")
+        if term and normalise_term(prompt).rstrip("?") == normalise_term(term):
+            probs.append("prompt-is-term")            # the exact bug this schema replaces
+        if PROMPT_CONTEXT_LEAK.search(prompt):
+            probs.append("prompt-not-self-contained")
+
+    if types is not None and (card.get("type") or "concept") not in types:
+        probs.append("bad-type")
+    return probs
+
+
+def scan_cards(by_chapter: dict, types: set | None = None) -> list[dict]:
+    """Audit a whole flashcard store. Returns [{chapter, index, term, problems}] per bad card."""
+    out = []
+    for cid, deck in (by_chapter or {}).items():
+        for i, card in enumerate(deck or []):
+            probs = card_problems(card, types)
+            if probs:
+                out.append({"chapter": cid, "index": i,
+                            "term": (card.get("term") or "").strip(), "problems": probs})
+    return out
+
+
 @lru_cache(maxsize=None)
 def _acquired_years(subject: str) -> frozenset[int]:
     """Years for which a real paper was actually acquired — read from the digested papers and the

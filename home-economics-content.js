@@ -995,7 +995,11 @@
     if (!ch || !ch.learningOutcomes.length) return;
     if (DB[id]) {
       ch.learningOutcomes[0].keyTerms = DB[id].map(function (card) {
-        return { term: card.term, definition: card.definition, section: id };
+        // `prompt` is the authored question the app shows; without it the app falls back to
+        // rendering the bare term as the question. This map is a whitelist, so a field
+        // omitted here is dropped no matter what the pipeline generated.
+        return { term: card.term, prompt: card.prompt || '', definition: card.definition,
+                 section: id, type: card.type || 'concept' };
       });
     }
     if (NOTES[id]) ch.learningOutcomes[0].notes = NOTES[id];

@@ -13,7 +13,11 @@ scaffold_gen.py  Stage 2.5 — auto-derive scaffold/<subject>.json from digests 
 segment.py       Stages 3-5 — questions + parts + marks + model answers + topic tags
 images.py        Stage 7 — diagram crops -> exam-images/, sets part.diagram (subagent finds the box)
 model_answers.py Stage 6a — H1 sample answers for questions the scheme doesn't model
-flashcards.py    Stage 6b — deduplicated, per-chapter flashcards across all years
+flashcards.py    Stage 6b — flashcards per chapter: authored prompt + answer, per-subject types
+consolidate.py   Stage 6c — global cross-chapter merge; models only judge near-duplicates
+gate.py          the publication gate — every check that must pass before a subject ships
+validate.py      pure content checks for parts and cards (shared by the re-queue and the gate)
+ids.py           unique question ids by construction + a non-lossy index
 merge.py         Stage 8 — copy generated JS to repo root + wire <script> tags into app.html
 scaffold/        per-subject section+chapter lists the tagger assigns to (auto-made if absent)
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
@@ -148,6 +152,42 @@ python stages_3to8.py load biology   # -> exam-questions-db.biology.generated.js
 
 The generated `.js` is written beside the app file so you can **diff before merging** —
 nothing auto-overwrites your hand-curated content.
+
+## Flashcards: the card schema and the two dedup passes
+
+A card is `{term, prompt, answer, type}`:
+
+- `term` — a short index label. It is **not** the question. The app used to render the bare
+  term as the question, so a student was shown "Q1: Food Pyramid" and asked to answer it.
+- `prompt` — the authored exam-style question the student actually sees. Must stand alone:
+  a flashcard carries no diagram, so "explain the process shown above" is unanswerable and
+  the gate blocks it.
+- `answer` — the answer to `prompt`. Rendered to the app as `definition`, which is the field
+  name the app already reads, so existing render paths keep working.
+- `type` — from a **per-subject** vocabulary (`config.CARD_TYPES`). This used to be History's
+  enum for every subject, which is why 91% of the Chemistry deck was typed `concept`.
+
+Cards without a `prompt` still work — the app falls back to the term — so a legacy deck
+reports at the gate rather than blocking. Re-run the flashcards stage to author prompts.
+
+Deduplication happens twice, and the split is deliberate:
+
+| pass | where | sees | cost |
+|---|---|---|---|
+| per chapter | `flashcards.dedup` | one chapter | free |
+| **global, exact** | `consolidate.merge_exact` | the whole subject | free, deterministic |
+| **global, near** | `consolidate.py --clusters` | ambiguous pairs only | one model call per cluster |
+
+The per-chapter pass structurally cannot see a term repeated in another chapter — one model
+call is made per chapter, so it never sees the others. That blind spot is how Chemistry
+published 34 duplicated terms with every per-chapter check passing. `merge_exact` runs
+automatically inside `flashcards.collect`; it keeps a merged card in the chapter that
+introduces it (scaffold order) and takes the best copy of every field, and re-running it is a
+no-op. Only genuine judgement calls ("Covalent bond" vs "Covalent bonding") reach a model.
+
+Consolidation removes cards on purpose, which the gate's regression check cannot distinguish
+from a run that quietly halved the deck. It will say so; re-baseline deliberately with
+`python3 gate.py <subject> --snapshot` after checking the report.
 
 ## Why it's built this way
 - Everything converges on the `Question`/`Part` dataclass in `stages_3to8.py`. The app

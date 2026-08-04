@@ -27,7 +27,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from config import CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name
+from config import CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name, card_types
 import ids
 import validate
 
@@ -146,16 +146,105 @@ def check_diagrams(c: Ctx):
         yield Finding("diagrams", INFO, f"{total} part(s) carry a diagram")
 
 
+# Card defects that make PUBLISHED content wrong, rather than merely thin. A card with no
+# authored prompt falls back to showing the term, which is the old behaviour — bad, but not
+# newly broken by a republish, so it reports. A prompt referring to "the diagram above" is
+# genuinely unanswerable on a flashcard, so it blocks.
+CARD_BLOCK = frozenset({"empty-term", "empty-answer", "prompt-not-self-contained"})
+
+
 def check_flashcards(c: Ctx):
     if not c.cards:
         yield Finding("flashcards", WARN, "no flashcard store — run the flashcards stage")
         return
-    empty = [(cid, i) for cid, deck in c.cards.items() for i, card in enumerate(deck)
-             if not (card.get("term") or "").strip() or not (card.get("definition") or "").strip()]
-    if empty:
-        yield Finding("flashcards", BLOCK,
-                      f"{len(empty)} flashcard(s) with an empty term or definition "
-                      f"— e.g. {empty[0][0]}[{empty[0][1]}]", empty[:50])
+    types = set(card_types(c.subject))
+    bad = validate.scan_cards(c.cards, types)
+    by_problem = defaultdict(list)
+    for row in bad:
+        for p in row["problems"]:
+            by_problem[p].append(row)
+    for problem, rows in sorted(by_problem.items()):
+        sev = BLOCK if problem in CARD_BLOCK else WARN
+        eg = ", ".join(f"{r['term'] or '(blank)'} [{r['chapter']}]" for r in rows[:3])
+        yield Finding("flashcards", sev,
+                      f"{len(rows)} card(s): {problem} — e.g. {eg}",
+                      [{"chapter": r["chapter"], "term": r["term"]} for r in rows[:50]])
+
+
+def check_card_prompts(c: Ctx):
+    """How much of the deck has an authored question at all.
+
+    This is the headline number for the schema migration: a deck at 0% is still rendering
+    bare terms as questions, which is the defect the `prompt` field exists to fix.
+    """
+    if not c.cards:
+        return
+    all_cards = [card for deck in c.cards.values() for card in deck]
+    if not all_cards:
+        return
+    with_prompt = sum(1 for card in all_cards if (card.get("prompt") or "").strip())
+    share = with_prompt / len(all_cards)
+    sev = INFO if share == 1 else WARN
+    yield Finding("card-prompts", sev,
+                  f"{with_prompt}/{len(all_cards)} cards ({share:.0%}) carry an authored prompt"
+                  + ("" if share else " — the app is showing bare terms as questions; "
+                                     "re-run the flashcards stage"),
+                  round(share, 4))
+
+
+def check_card_types(c: Ctx):
+    """Types outside the subject's vocabulary, and a vocabulary that isn't being used.
+
+    A deck where nearly everything is 'concept' means the enum doesn't fit the subject — that
+    was true of every subject but History, which is why config.CARD_TYPES is now per subject.
+    """
+    if not c.cards:
+        return
+    allowed = card_types(c.subject)
+    counts = Counter((card.get("type") or "concept") for deck in c.cards.values() for card in deck)
+    total = sum(counts.values())
+    if not total:
+        return
+    unknown = {t: n for t, n in counts.items() if t not in allowed}
+    if unknown:
+        yield Finding("card-types", WARN,
+                      f"{sum(unknown.values())} card(s) use {len(unknown)} type(s) outside the "
+                      f"{c.subject} vocabulary: {', '.join(sorted(unknown))}", unknown)
+    catch_all = counts.get("concept", 0) / total
+    if catch_all > 0.80:
+        yield Finding("card-types", WARN,
+                      f"{catch_all:.0%} of cards are typed 'concept' — the type vocabulary "
+                      f"({', '.join(sorted(allowed))}) is not fitting this subject's content",
+                      round(catch_all, 3))
+    else:
+        yield Finding("card-types", INFO,
+                      f"types in use: {', '.join(f'{t}={n}' for t, n in counts.most_common(6))}")
+
+
+def check_term_variants(c: Ctx):
+    """Terms that differ only by plural, article, hyphen or punctuation.
+
+    Strictly a WARN, and deliberately separate from the duplicate check: `variant_key` folds
+    aggressively enough that it would sometimes be wrong to merge on it automatically
+    ('gas law' vs 'gas laws' is one card; 'base' vs 'bases' might not be). Reporting lets a
+    human decide, which is the whole reason it isn't wired into the merge.
+    """
+    if not c.cards:
+        return
+    groups = defaultdict(list)
+    for cid, deck in c.cards.items():
+        for card in deck:
+            term = (card.get("term") or "").strip()
+            if term:
+                groups[validate.variant_key(term)].append((term, cid))
+    variants = {k: v for k, v in groups.items()
+                if len({t.lower() for t, _ in v}) > 1}          # differ by more than case alone
+    if variants:
+        eg = "; ".join(" / ".join(sorted({t for t, _ in v}))
+                       for v in list(variants.values())[:3])
+        yield Finding("term-variants", WARN,
+                      f"{len(variants)} term(s) appear as spelling variants — e.g. {eg}",
+                      {k: sorted({t for t, _ in v}) for k, v in list(variants.items())[:50]})
 
 
 def check_flashcard_duplicates(c: Ctx):
@@ -177,7 +266,8 @@ def check_flashcard_duplicates(c: Ctx):
         eg = ", ".join(sorted(dup_groups)[:3])
         yield Finding("card-duplicates", sev,
                       f"{len(dup_groups)} term(s) duplicated across chapters covering "
-                      f"{dup_cards} redundant card(s) ({rate:.1%} of the deck) — e.g. {eg}",
+                      f"{dup_cards} redundant card(s) ({rate:.1%} of the deck) — e.g. {eg}; "
+                      f"run `python3 consolidate.py {c.subject} --apply`",
                       {"rate": round(rate, 4), "groups": len(dup_groups)})
 
 
@@ -258,7 +348,8 @@ def check_regression(c: Ctx):
 
 CHECKS = [check_store_exists, check_question_ids, check_part_labels, check_parts,
           check_ai_share, check_years, check_sources, check_diagrams, check_flashcards,
-          check_flashcard_duplicates, check_card_budgets, check_coverage, check_regression]
+          check_card_prompts, check_card_types, check_flashcard_duplicates,
+          check_term_variants, check_card_budgets, check_coverage, check_regression]
 
 
 # ── api ───────────────────────────────────────────────────────────────────────
