@@ -837,7 +837,9 @@ button:active { transform: scale(0.965) !important; }
 }
 
 .sidebar-toggle {
-  pointer-events: auto;
+  /* Hidden means non-interactive: at opacity 0 this would otherwise sit
+     invisible over the content edge and swallow clicks. */
+  pointer-events: none;
   width: 22px;
   height: 60px;
   padding: 0;
@@ -860,10 +862,10 @@ button:active { transform: scale(0.965) !important; }
 /* The zone is click-through, so :hover never fires on it — JS sets .edge-hot
    from the pointer's distance to the content edge instead. */
 .sidebar-edge.edge-hot .sidebar-toggle,
-.sidebar-toggle:hover,
 .sidebar-toggle:focus-visible {
   opacity: 1;
   transform: scale(1);
+  pointer-events: auto;
 }
 
 .sidebar-toggle:hover { color: var(--accent); border-color: var(--accent-light); }
