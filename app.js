@@ -1,5 +1,6 @@
 const storageKey = "bare-bones-app-v4";
 const pendingAuthUsernameKey = "bb_pending_auth_username";
+const pendingAuthEmailKey = "bb_pending_auth_email";
 const legacyBackupKeyPrefix = "bb-legacy-account-backup-v1:";
 const legacyAccountPriority = ["gabriel"];
 
@@ -381,6 +382,7 @@ const els = {
   legacyEmail: document.getElementById("legacyEmail"),
   legacyPassword: document.getElementById("legacyPassword"),
   legacyPasswordConfirm: document.getElementById("legacyPasswordConfirm"),
+  legacySignIn: document.getElementById("legacySignIn"),
   forgotEmail: document.getElementById("forgotEmail"),
   newPassword: document.getElementById("newPassword"),
   newPasswordConfirm: document.getElementById("newPasswordConfirm"),
@@ -465,6 +467,9 @@ function bindEvents() {
   els.signInForm.addEventListener("submit", handleSignIn);
   els.signUpForm.addEventListener("submit", handleSignUp);
   els.legacySetupForm.addEventListener("submit", handleLegacySetup);
+  els.legacySignIn.addEventListener("click", () => {
+    showExistingAccountSignIn(els.legacyEmail.value);
+  });
   els.forgotPasswordForm.addEventListener("submit", handleForgotPassword);
   els.newPasswordForm.addEventListener("submit", handleNewPassword);
   els.legacyAccountSelect.addEventListener("change", () => {
@@ -542,7 +547,16 @@ async function initializeAccounts() {
       await activateAuthenticatedSession(session, { animate: false });
     } else {
       const legacyUser = getCurrentUser();
-      if ((legacyUser && !legacyUser.authUserId) || getLegacyProfileNames().length) {
+      const legacyProfiles = getLegacyProfileNames();
+      const pendingUsername = accountAuth.normalizeUsername(
+        localStorage.getItem(pendingAuthUsernameKey)
+      );
+      const pendingProfileExists = legacyProfiles.some(
+        (name) => accountAuth.normalizeUsername(name) === pendingUsername
+      );
+      if (pendingUsername && pendingProfileExists) {
+        showExistingAccountSignIn();
+      } else if ((legacyUser && !legacyUser.authUserId) || legacyProfiles.length) {
         showAuthMode("legacy");
       } else {
         state.session.currentUser = "";
@@ -604,6 +618,10 @@ async function handleSignUp(event) {
   if (!passwordsMatch(els.signUpPassword, els.signUpPasswordConfirm)) return;
   const username = accountAuth.normalizeUsername(els.signUpUsername.value);
   localStorage.setItem(pendingAuthUsernameKey, username);
+  localStorage.setItem(
+    pendingAuthEmailKey,
+    String(els.signUpEmail.value || "").trim().toLowerCase()
+  );
 
   await runAuthAction(els.signUpForm, async () => {
     const data = await accountAuth.signUp({
@@ -633,14 +651,27 @@ async function handleLegacySetup(event) {
 
   const username = accountAuth.normalizeUsername(current.username);
   localStorage.setItem(pendingAuthUsernameKey, username);
+  localStorage.setItem(
+    pendingAuthEmailKey,
+    String(els.legacyEmail.value || "").trim().toLowerCase()
+  );
 
   await runAuthAction(els.legacySetupForm, async () => {
-    const data = await accountAuth.signUp({
-      username,
-      email: els.legacyEmail.value,
-      password: els.legacyPassword.value,
-      origin: "legacy_migration",
-    });
+    let data;
+    try {
+      data = await accountAuth.signUp({
+        username,
+        email: els.legacyEmail.value,
+        password: els.legacyPassword.value,
+        origin: "legacy_migration",
+      });
+    } catch (error) {
+      if (isUsernameTakenError(error)) {
+        showExistingAccountSignIn(els.legacyEmail.value);
+        return;
+      }
+      throw error;
+    }
     if (data.session) {
       await activateAuthenticatedSession(data.session);
     } else {
@@ -836,6 +867,25 @@ function friendlyAuthError(error) {
   return "Something went wrong with your account. Please try again.";
 }
 
+function isUsernameTakenError(error) {
+  const message = String(error?.message || error || "");
+  return error?.code === "username_taken" ||
+    /username.*taken|duplicate key|profiles_username/i.test(message);
+}
+
+function showExistingAccountSignIn(email = "") {
+  const rememberedEmail = String(
+    email || localStorage.getItem(pendingAuthEmailKey) || ""
+  ).trim().toLowerCase();
+  if (rememberedEmail) els.signInEmail.value = rememberedEmail;
+  els.signInPassword.value = "";
+  showAuthMode("signin");
+  setAuthStatus(
+    "This profile is already secured. Sign in with the email and password you added; your saved progress will reconnect automatically.",
+    "neutral"
+  );
+}
+
 async function activateAuthenticatedSession(session, options = {}) {
   if (!session?.user || activeAuthUserId === session.user.id) {
     if (session?.user && getCurrentUser()) hideAuthPanel();
@@ -870,6 +920,7 @@ async function activateAuthenticatedSession(session, options = {}) {
     activeAuthUserId = session.user.id;
     authSnapshot = snapshot;
     localStorage.removeItem(pendingAuthUsernameKey);
+    localStorage.removeItem(pendingAuthEmailKey);
     persist({ sync: false });
     await accountAuth.saveStudyData(serializeStudyUser(merged));
     renderAll();

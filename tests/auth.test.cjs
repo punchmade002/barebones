@@ -6,6 +6,7 @@ const vm = require("node:vm");
 
 function loadAuthHarness() {
   const calls = [];
+  let usernameAvailable = true;
   const session = {
     user: {
       id: "11111111-1111-1111-1111-111111111111",
@@ -46,7 +47,7 @@ function loadAuthHarness() {
     },
     async rpc(name, payload) {
       calls.push(["rpc", name, payload]);
-      return { data: true, error: null };
+      return { data: usernameAvailable, error: null };
     },
     from(table) {
       return {
@@ -93,7 +94,15 @@ function loadAuthHarness() {
   const context = vm.createContext({ window, localStorage, console });
   const source = fs.readFileSync(path.join(__dirname, "..", "auth.js"), "utf8");
   vm.runInContext(source, context);
-  return { auth: window.BarebonesAuth, calls, session, storage };
+  return {
+    auth: window.BarebonesAuth,
+    calls,
+    session,
+    storage,
+    setUsernameAvailable(value) {
+      usernameAvailable = value;
+    },
+  };
 }
 
 test("sign-up normalizes identity and uses the app callback URL", async () => {
@@ -122,6 +131,21 @@ test("password recovery uses a non-enumerating email flow", async () => {
   const resetCall = calls.find(([name]) => name === "resetPasswordForEmail");
   assert.equal(resetCall[1], "student@example.com");
   assert.equal(resetCall[2].redirectTo, "https://barebones.example/study/app.html");
+});
+
+test("sign-up identifies an existing username as a returning-account state", async () => {
+  const { auth, setUsernameAvailable } = loadAuthHarness();
+  await auth.ready();
+  setUsernameAvailable(false);
+
+  await assert.rejects(
+    auth.signUp({
+      username: "gabriel",
+      email: "gabriel@example.com",
+      password: "long-password",
+    }),
+    (error) => error.code === "username_taken"
+  );
 });
 
 test("study state is written against the authenticated immutable user id", async () => {
