@@ -497,7 +497,7 @@
         section: "2.4"
       },
       {
-        term: "Explain Elastic Rebound Theory.",
+        term: "What is the Elastic Rebound Theory?",
         definition: "Theory explaining earthquakes: stress builds in rocks at fault lines until it exceeds rock strength, causing sudden fracturing and release of seismic waves.",
         section: "2.4"
       },

@@ -28,6 +28,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from config import CANONICAL, DIGEST, REPORTS, recommended_words
 from segment import _retry, MODEL, load_scaffold
+import ids
 import validate
 
 ANSWER_TOKENS = 5_000           # room for a full essay per question
@@ -246,7 +247,9 @@ def collect(subject: str) -> None:
     """Read the worker's answers, fill empty `model` fields (tagged ai-h1), re-render the JS."""
     import agent_bridge as bridge
     canonical = json.loads((CANONICAL / f"{subject}.json").read_text())
-    by_id = {q["id"]: q for q in canonical}
+    # raises on duplicate ids: a lossy index here writes every colliding question's answer onto
+    # whichever row happened to be last, and leaves the rest unanswered
+    by_id = ids.index_by_id(canonical, where="model_answers.collect")
     stage = _stage(subject)
     ins, outs = bridge.inputs(stage), bridge.outputs(stage)
     for cid, content in outs.items():
