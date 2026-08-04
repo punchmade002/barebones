@@ -1,21 +1,7 @@
 const storageKey = "bare-bones-app-v4";
-let APPROVED_USERNAMES = ["gabriel", "whatever"];
-
-async function loadApprovedUsernames() {
-  try {
-    const res = await fetch(`./approved_usernames.txt?ts=${Date.now()}`, { cache: "no-store" });
-    if (!res.ok) return;
-    const text = await res.text();
-    const names = text
-      .split(/\r?\n/)
-      .map((l) => l.trim().toLowerCase())
-      .filter((l) => l && !l.startsWith("#"));
-    if (names.length) APPROVED_USERNAMES = names;
-  } catch (err) {
-    // Keep fallback list if file is unreachable.
-  }
-}
-loadApprovedUsernames();
+const pendingAuthUsernameKey = "bb_pending_auth_username";
+const legacyBackupKeyPrefix = "bb-legacy-account-backup-v1:";
+const legacyAccountPriority = ["gabriel"];
 
 const FALLBACK_CHAPTERS = [
   { id: "ch1", title: "1. Key Stakeholders", learningOutcomes: buildOutcomes("1") },
@@ -372,7 +358,35 @@ const SUBJECT_FALLBACK_QUESTION = {
 
 const els = {
   authPanel: document.getElementById("authPanel"),
-  accountName: document.getElementById("accountName"),
+  authTitle: document.getElementById("authTitle"),
+  authIntro: document.getElementById("authIntro"),
+  authTabs: document.getElementById("authTabs"),
+  showSignIn: document.getElementById("showSignIn"),
+  showSignUp: document.getElementById("showSignUp"),
+  signInForm: document.getElementById("signInForm"),
+  signUpForm: document.getElementById("signUpForm"),
+  legacySetupForm: document.getElementById("legacySetupForm"),
+  forgotPasswordForm: document.getElementById("forgotPasswordForm"),
+  newPasswordForm: document.getElementById("newPasswordForm"),
+  accountDetails: document.getElementById("accountDetails"),
+  signInEmail: document.getElementById("signInEmail"),
+  signInPassword: document.getElementById("signInPassword"),
+  signUpUsername: document.getElementById("signUpUsername"),
+  signUpEmail: document.getElementById("signUpEmail"),
+  signUpPassword: document.getElementById("signUpPassword"),
+  signUpPasswordConfirm: document.getElementById("signUpPasswordConfirm"),
+  legacyUsername: document.getElementById("legacyUsername"),
+  legacyAccountChoice: document.getElementById("legacyAccountChoice"),
+  legacyAccountSelect: document.getElementById("legacyAccountSelect"),
+  legacyEmail: document.getElementById("legacyEmail"),
+  legacyPassword: document.getElementById("legacyPassword"),
+  legacyPasswordConfirm: document.getElementById("legacyPasswordConfirm"),
+  forgotEmail: document.getElementById("forgotEmail"),
+  newPassword: document.getElementById("newPassword"),
+  newPasswordConfirm: document.getElementById("newPasswordConfirm"),
+  accountDetailsUsername: document.getElementById("accountDetailsUsername"),
+  accountDetailsEmail: document.getElementById("accountDetailsEmail"),
+  closeAccountDetails: document.getElementById("closeAccountDetails"),
   openProgress: document.getElementById("openProgress"),
   closeProgress: document.getElementById("closeProgress"),
   progressScreen: document.getElementById("progressScreen"),
@@ -381,10 +395,15 @@ const els = {
   profileLevel: document.getElementById("profileLevel"),
   subjectPicker: document.getElementById("subjectPicker"),
   profileMenu: document.getElementById("profileMenu"),
-  accountSwitcher: document.getElementById("accountSwitcher"),
-  openAuthButton: document.getElementById("openAuthButton"),
+  profileMenuMain: document.getElementById("profileMenuMain"),
+  profileMenuSubjects: document.getElementById("profileMenuSubjects"),
+  openSubjectChoices: document.getElementById("openSubjectChoices"),
+  closeSubjectChoices: document.getElementById("closeSubjectChoices"),
+  subjectChoicesCount: document.getElementById("subjectChoicesCount"),
+  accountIdentity: document.getElementById("accountIdentity"),
   signOutButton: document.getElementById("signOutButton"),
-  saveAccount: document.getElementById("saveAccount"),
+  subjectArea: document.getElementById("subjectArea"),
+  sidebarToggle: document.getElementById("sidebarToggle"),
   accountStatus: document.getElementById("accountStatus"),
   subjectGraph: document.getElementById("subjectGraph"),
   subjectWorkbench: document.getElementById("subjectWorkbench"),
@@ -407,6 +426,13 @@ const els = {
 };
 
 let state = loadState();
+const accountAuth = window.BarebonesAuth;
+let authSnapshot = null;
+let activeAuthUserId = "";
+let authSaveTimer = null;
+let authSaveInFlight = null;
+let authActivationPromise = null;
+let activatingAuthUserId = "";
 let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
 let expandedSubjectId = SUBJECTS[0].id;
 let selectedSubjectId = SUBJECTS[0].id;
@@ -418,40 +444,39 @@ let viewMode = 'chapter';
 
 bindEvents();
 renderAll();
+initializeAccounts();
 
 function bindEvents() {
   renderAvatarPicker();
-  els.openAuthButton.addEventListener("click", () => {
-    els.authPanel.classList.toggle("hidden");
-    els.profileMenu.classList.add("hidden");
+  els.openSubjectChoices.addEventListener("click", () => showProfilePane("subjects"));
+  els.closeSubjectChoices.addEventListener("click", () => showProfilePane("main"));
+  els.closeAccountDetails.addEventListener("click", hideAuthPanel);
+  els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
+  els.showSignUp.addEventListener("click", () => showAuthMode("signup"));
+  document.getElementById("showForgotPassword").addEventListener("click", () => {
+    els.forgotEmail.value = els.signInEmail.value;
+    showAuthMode("forgot");
   });
-  els.saveAccount.addEventListener("click", async () => {
-    const name = els.accountName.value.trim();
-    if (!name) {
-      els.accountStatus.textContent = "Enter a username.";
-      return;
-    }
-    await loadApprovedUsernames();
-    if (!APPROVED_USERNAMES.includes(name.toLowerCase())) {
-      els.accountStatus.textContent = "Username not approved. Contact the site owner for access.";
-      return;
-    }
-
-    if (!state.usersByName[name]) {
-      state.usersByName[name] = {
-        username: name,
-        testsCompleted: 0,
-        viewedNotesByChapter: {},
-        progressByOutcome: {},
-        learnedByOutcome: {},
-        disabledSubjects: [],
-      };
-    }
-    state.session.currentUser = name;
-    persist();
-    triggerLoginAnimation(name);
-    renderAll();
-    els.accountStatus.textContent = `Welcome, ${name}.`;
+  document.querySelectorAll("[data-auth-back]").forEach((button) => {
+    button.addEventListener("click", () => showAuthMode("signin"));
+  });
+  document.querySelectorAll("[data-password-toggle]").forEach((button) => {
+    button.addEventListener("click", () => togglePasswordVisibility(button));
+  });
+  [els.signUpPasswordConfirm, els.legacyPasswordConfirm, els.newPasswordConfirm].forEach((input) => {
+    input.addEventListener("input", () => input.setCustomValidity(""));
+  });
+  els.signInForm.addEventListener("submit", handleSignIn);
+  els.signUpForm.addEventListener("submit", handleSignUp);
+  els.legacySetupForm.addEventListener("submit", handleLegacySetup);
+  els.forgotPasswordForm.addEventListener("submit", handleForgotPassword);
+  els.newPasswordForm.addEventListener("submit", handleNewPassword);
+  els.legacyAccountSelect.addEventListener("change", () => {
+    const username = els.legacyAccountSelect.value;
+    if (!username || !state.usersByName[username]) return;
+    state.session.currentUser = username;
+    persist({ sync: false });
+    els.legacyUsername.textContent = username;
   });
   els.startTest.addEventListener("click", startTest);
   els.openFullNotes.addEventListener("click", openFullNotes);
@@ -471,26 +496,33 @@ function bindEvents() {
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchTab(tab.dataset.tab)));
   els.profileAvatar.addEventListener("click", () => {
     if (!getCurrentUser()) return;
+    const opening = els.profileMenu.classList.contains("hidden");
     els.profileMenu.classList.toggle("hidden");
-    renderAccountSwitcher();
+    if (opening) showProfilePane("main");
+    renderAccountIdentity();
   });
-  els.signOutButton.addEventListener("click", () => {
+  bindSidebarCollapse();
+  els.signOutButton.addEventListener("click", async () => {
+    els.profileMenu.classList.add("hidden");
+    try {
+      await flushRemoteStudySave();
+      await accountAuth?.signOut();
+    } catch (error) {
+      console.error(error);
+    }
+    activeAuthUserId = "";
+    authSnapshot = null;
     state.session.currentUser = "";
-    els.profileMenu.classList.add("hidden");
-    persist();
+    persist({ sync: false });
     renderAll();
-    els.accountStatus.textContent = "Signed out.";
-  });
-  els.accountSwitcher.addEventListener("change", () => {
-    const username = els.accountSwitcher.value;
-    if (!username) return;
-    state.session.currentUser = username;
-    persist();
-    renderAll();
-    els.profileMenu.classList.add("hidden");
+    showAuthMode(getLegacyProfileNames().length ? "legacy" : "signin");
+    setAuthStatus("Signed out.", "success");
   });
   document.addEventListener("click", (event) => {
     const target = event.target;
+    // Toggling a subject re-renders the picker, so by the time this click
+    // bubbles its target is detached. That is not a click outside the menu.
+    if (target instanceof Node && !target.isConnected) return;
     if (
       target !== els.profileAvatar &&
       !els.profileMenu.contains(target) &&
@@ -499,6 +531,576 @@ function bindEvents() {
       els.profileMenu.classList.add("hidden");
     }
   });
+}
+
+function showProfilePane(pane) {
+  const subjects = pane === "subjects";
+  els.profileMenuMain.classList.toggle("hidden", subjects);
+  els.profileMenuSubjects.classList.toggle("hidden", !subjects);
+  els.profileMenu.classList.toggle("profile-menu-wide", subjects);
+}
+
+/* ── Sidebar collapse ──────────────────────────
+   Two-finger horizontal trackpad swipe over the subject area hides the
+   sidebar; swiping back (or the edge button) brings it in. Wheel deltas
+   are accumulated so a lazy gesture still lands, and a run of vertical
+   scrolling resets the tally so ordinary reading never trips it. */
+const SIDEBAR_COLLAPSE_KEY = "bare-bones-sidebar-collapsed";
+const SWIPE_THRESHOLD = 90;
+const EDGE_HOT_RADIUS = 44;
+let swipeAccum = 0;
+let swipeResetTimer = null;
+
+function isSidebarCollapsed() {
+  return els.subjectArea?.classList.contains("sidebar-collapsed");
+}
+
+function setSidebarCollapsed(collapsed) {
+  if (!els.subjectArea) return;
+  els.subjectArea.classList.toggle("sidebar-collapsed", collapsed);
+  if (els.sidebarToggle) {
+    els.sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
+    els.sidebarToggle.setAttribute(
+      "aria-label",
+      collapsed ? "Show subject sidebar" : "Hide subject sidebar"
+    );
+  }
+  swipeAccum = 0;
+  try {
+    localStorage.setItem(SIDEBAR_COLLAPSE_KEY, collapsed ? "1" : "0");
+  } catch (e) {
+    /* storage unavailable — collapse is session-only */
+  }
+}
+
+function hasHorizontalScroll(node) {
+  let el = node instanceof Element ? node : node?.parentElement;
+  while (el && el !== els.subjectArea) {
+    if (el.scrollWidth > el.clientWidth + 2) {
+      const overflow = getComputedStyle(el).overflowX;
+      if (overflow === "auto" || overflow === "scroll") return true;
+    }
+    el = el.parentElement;
+  }
+  return false;
+}
+
+function bindSidebarCollapse() {
+  if (!els.subjectArea) return;
+  try {
+    if (localStorage.getItem(SIDEBAR_COLLAPSE_KEY) === "1") setSidebarCollapsed(true);
+  } catch (e) {
+    /* ignore */
+  }
+
+  els.sidebarToggle?.addEventListener("click", () => {
+    setSidebarCollapsed(!isSidebarCollapsed());
+  });
+
+  // Reveal the handle when the pointer nears the left edge of the content window.
+  const edge = els.subjectArea.querySelector(".sidebar-edge");
+  if (edge) {
+    let queued = false;
+    document.addEventListener("mousemove", (event) => {
+      if (queued) return;
+      queued = true;
+      requestAnimationFrame(() => {
+        queued = false;
+        const box = edge.getBoundingClientRect();
+        const near =
+          event.clientY >= box.top &&
+          event.clientY <= box.bottom &&
+          Math.abs(event.clientX - (box.left + box.width / 2)) <= EDGE_HOT_RADIUS;
+        edge.classList.toggle("edge-hot", near);
+      });
+    });
+  }
+
+  els.subjectArea.addEventListener(
+    "wheel",
+    (event) => {
+      // Only a deliberate horizontal gesture counts.
+      if (Math.abs(event.deltaX) < Math.abs(event.deltaY) * 1.5) {
+        swipeAccum = 0;
+        return;
+      }
+      // Let genuinely scrollable content (wide tables, chapter strips) keep its gesture.
+      if (hasHorizontalScroll(event.target)) {
+        swipeAccum = 0;
+        return;
+      }
+      swipeAccum += event.deltaX;
+      clearTimeout(swipeResetTimer);
+      swipeResetTimer = setTimeout(() => { swipeAccum = 0; }, 220);
+
+      if (swipeAccum > SWIPE_THRESHOLD && !isSidebarCollapsed()) {
+        setSidebarCollapsed(true);
+      } else if (swipeAccum < -SWIPE_THRESHOLD && isSidebarCollapsed()) {
+        setSidebarCollapsed(false);
+      }
+    },
+    { passive: true }
+  );
+}
+
+async function initializeAccounts() {
+  const requestedMode = window.location.hash === "#signup" ? "signup" : "signin";
+
+  if (!accountAuth?.configured) {
+    if (!getCurrentUser() || window.location.hash === "#signin" || window.location.hash === "#signup") {
+      showAuthMode(requestedMode);
+      setAuthStatus("Account services need to be connected before sign-in and registration can go live.", "error");
+    }
+    return;
+  }
+
+  accountAuth.subscribe(handleAuthEvent);
+
+  try {
+    const session = await accountAuth.ready();
+    if (session?.user) {
+      await activateAuthenticatedSession(session, { animate: false });
+    } else {
+      const legacyUser = getCurrentUser();
+      if ((legacyUser && !legacyUser.authUserId) || getLegacyProfileNames().length) {
+        showAuthMode("legacy");
+      } else {
+        state.session.currentUser = "";
+        persist({ sync: false });
+        renderAll();
+        showAuthMode(requestedMode);
+      }
+    }
+  } catch (error) {
+    console.error(error);
+    showAuthMode(requestedMode);
+    setAuthStatus(friendlyAuthError(error), "error");
+  } finally {
+    if (window.location.hash === "#signin" || window.location.hash === "#signup") {
+      history.replaceState(null, "", window.location.pathname);
+    }
+  }
+}
+
+async function handleAuthEvent(event, session) {
+  if (event === "PASSWORD_RECOVERY") {
+    showAuthMode("new-password");
+    setAuthStatus("Your reset link is verified. Choose a new password.", "success");
+    return;
+  }
+
+  if (event === "SIGNED_IN" && session?.user) {
+    try {
+      await activateAuthenticatedSession(session);
+    } catch (error) {
+      console.error(error);
+      showAuthMode("signin");
+      setAuthStatus(friendlyAuthError(error), "error");
+    }
+  }
+
+  if (event === "SIGNED_OUT") {
+    activeAuthUserId = "";
+    authSnapshot = null;
+    state.session.currentUser = "";
+    persist({ sync: false });
+    renderAll();
+    showAuthMode(getLegacyProfileNames().length ? "legacy" : "signin");
+  }
+}
+
+async function handleSignIn(event) {
+  event.preventDefault();
+  if (!els.signInForm.reportValidity()) return;
+  await runAuthAction(els.signInForm, async () => {
+    await accountAuth.signIn(els.signInEmail.value, els.signInPassword.value);
+    setAuthStatus("Signing you in…", "neutral");
+  });
+}
+
+async function handleSignUp(event) {
+  event.preventDefault();
+  if (!els.signUpForm.reportValidity()) return;
+  if (!passwordsMatch(els.signUpPassword, els.signUpPasswordConfirm)) return;
+  const username = accountAuth.normalizeUsername(els.signUpUsername.value);
+  localStorage.setItem(pendingAuthUsernameKey, username);
+
+  await runAuthAction(els.signUpForm, async () => {
+    const data = await accountAuth.signUp({
+      username,
+      email: els.signUpEmail.value,
+      password: els.signUpPassword.value,
+      origin: "self_service",
+    });
+    if (data.session) {
+      await activateAuthenticatedSession(data.session);
+    } else {
+      setAuthStatus("Account created. Check your email to confirm it, then you’ll be signed in.", "success");
+      els.signUpForm.reset();
+    }
+  });
+}
+
+async function handleLegacySetup(event) {
+  event.preventDefault();
+  if (!els.legacySetupForm.reportValidity()) return;
+  if (!passwordsMatch(els.legacyPassword, els.legacyPasswordConfirm)) return;
+  const current = getCurrentUser();
+  if (!current || current.authUserId) {
+    showAuthMode("signup");
+    return;
+  }
+
+  const username = accountAuth.normalizeUsername(current.username);
+  localStorage.setItem(pendingAuthUsernameKey, username);
+
+  await runAuthAction(els.legacySetupForm, async () => {
+    const data = await accountAuth.signUp({
+      username,
+      email: els.legacyEmail.value,
+      password: els.legacyPassword.value,
+      origin: "legacy_migration",
+    });
+    if (data.session) {
+      await activateAuthenticatedSession(data.session);
+    } else {
+      setAuthStatus("Nearly done. Confirm the email we sent you; your existing progress is waiting here.", "success");
+      els.legacyEmail.disabled = true;
+      els.legacyPassword.disabled = true;
+      els.legacyPasswordConfirm.disabled = true;
+      const submit = els.legacySetupForm.querySelector("[type='submit']");
+      submit.disabled = true;
+      submit.textContent = "Check your email";
+      els.legacySetupForm.dataset.locked = "true";
+    }
+  });
+}
+
+async function handleForgotPassword(event) {
+  event.preventDefault();
+  if (!els.forgotPasswordForm.reportValidity()) return;
+  await runAuthAction(els.forgotPasswordForm, async () => {
+    await accountAuth.sendPasswordReset(els.forgotEmail.value);
+    setAuthStatus("If an account exists for that email, a reset link is on its way.", "success");
+    els.forgotPasswordForm.reset();
+  });
+}
+
+async function handleNewPassword(event) {
+  event.preventDefault();
+  if (!els.newPasswordForm.reportValidity()) return;
+  if (!passwordsMatch(els.newPassword, els.newPasswordConfirm)) return;
+  await runAuthAction(els.newPasswordForm, async () => {
+    await accountAuth.updatePassword(els.newPassword.value);
+    els.newPasswordForm.reset();
+    setAuthStatus("Password updated.", "success");
+    const session = accountAuth.getSession();
+    if (session) await activateAuthenticatedSession(session);
+  });
+}
+
+async function runAuthAction(form, action) {
+  if (!accountAuth?.configured) {
+    setAuthStatus("Account services are not configured yet.", "error");
+    return;
+  }
+  const submit = form.querySelector("[type='submit']");
+  const originalText = submit?.textContent || "";
+  if (submit) {
+    submit.disabled = true;
+    submit.textContent = "Working…";
+  }
+  setAuthStatus("", "neutral");
+  try {
+    await action();
+  } catch (error) {
+    console.error(error);
+    setAuthStatus(friendlyAuthError(error), "error");
+  } finally {
+    if (submit && form.dataset.locked !== "true") {
+      submit.disabled = false;
+      submit.textContent = originalText;
+    }
+  }
+}
+
+function showAuthMode(mode) {
+  const forms = {
+    signin: els.signInForm,
+    signup: els.signUpForm,
+    legacy: els.legacySetupForm,
+    forgot: els.forgotPasswordForm,
+    "new-password": els.newPasswordForm,
+    details: els.accountDetails,
+  };
+  Object.values(forms).forEach((form) => form.classList.add("hidden"));
+  (forms[mode] || forms.signin).classList.remove("hidden");
+  els.authPanel.classList.remove("hidden");
+  document.body.classList.add("auth-open");
+  setAuthBackgroundInert(true);
+  els.authTabs.classList.toggle("hidden", !["signin", "signup"].includes(mode));
+  els.showSignIn.classList.toggle("active", mode === "signin");
+  els.showSignIn.setAttribute("aria-selected", String(mode === "signin"));
+  els.showSignUp.classList.toggle("active", mode === "signup");
+  els.showSignUp.setAttribute("aria-selected", String(mode === "signup"));
+  setAuthStatus("", "neutral");
+
+  const current = getCurrentUser();
+  if (mode === "legacy") {
+    const legacyProfiles = getLegacyProfileNames();
+    let username = current && !current.authUserId ? current.username : legacyProfiles[0];
+    if (username && state.usersByName[username]) {
+      state.session.currentUser = username;
+      persist({ sync: false });
+    }
+    username = username || "your existing account";
+    els.authTitle.textContent = "Secure your account.";
+    els.authIntro.textContent = "The old sign-in had no password. Add your details once and keep every bit of progress.";
+    els.legacyUsername.textContent = username;
+    els.legacyAccountSelect.innerHTML = legacyProfiles
+      .map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`)
+      .join("");
+    els.legacyAccountSelect.value = username;
+    els.legacyAccountChoice.classList.toggle("hidden", legacyProfiles.length < 2);
+    els.legacyEmail.disabled = false;
+    els.legacyPassword.disabled = false;
+    els.legacyPasswordConfirm.disabled = false;
+    const submit = els.legacySetupForm.querySelector("[type='submit']");
+    submit.disabled = false;
+    submit.textContent = "Secure my account";
+    delete els.legacySetupForm.dataset.locked;
+  } else if (mode === "signup") {
+    els.authTitle.textContent = "Start from zero. Build from there.";
+    els.authIntro.textContent = "Make an account to save progress across devices and recover your password.";
+  } else if (mode === "details") {
+    els.authTitle.textContent = "Your account.";
+    els.authIntro.textContent = "The details connected to this study profile.";
+    renderAccount();
+  } else if (mode === "forgot") {
+    els.authTitle.textContent = "Reset access.";
+    els.authIntro.textContent = "";
+  } else if (mode === "new-password") {
+    els.authTitle.textContent = "Set a new password.";
+    els.authIntro.textContent = "Use something you don’t reuse elsewhere.";
+  } else {
+    els.authTitle.textContent = "Welcome back.";
+    els.authIntro.textContent = "Sign in to keep your progress safe and available on every device.";
+  }
+
+  const focusTarget = {
+    signin: els.signInEmail,
+    signup: els.signUpUsername,
+    legacy: els.legacyEmail,
+    forgot: els.forgotEmail,
+    "new-password": els.newPassword,
+  }[mode];
+  window.setTimeout(() => focusTarget?.focus(), 40);
+}
+
+function hideAuthPanel() {
+  if (!getCurrentUser() || !activeAuthUserId) return;
+  els.authPanel.classList.add("hidden");
+  document.body.classList.remove("auth-open");
+  setAuthBackgroundInert(false);
+  setAuthStatus("", "neutral");
+}
+
+function setAuthBackgroundInert(isInert) {
+  [
+    document.querySelector(".brand-mark"),
+    document.querySelector(".profile-avatar-wrap"),
+    document.querySelector(".subject-area"),
+    document.getElementById("timerWidget"),
+  ].forEach((element) => {
+    if (!element) return;
+    element.inert = isInert;
+    if (isInert) {
+      element.setAttribute("aria-hidden", "true");
+    } else {
+      element.removeAttribute("aria-hidden");
+    }
+  });
+}
+
+function setAuthStatus(message, type = "neutral") {
+  els.accountStatus.textContent = message;
+  els.accountStatus.dataset.type = type;
+}
+
+function togglePasswordVisibility(button) {
+  const input = document.getElementById(button.dataset.passwordToggle);
+  if (!input) return;
+  const reveal = input.type === "password";
+  input.type = reveal ? "text" : "password";
+  button.textContent = reveal ? "Hide" : "Show";
+  button.setAttribute("aria-label", reveal ? "Hide password" : "Show password");
+}
+
+function passwordsMatch(password, confirmation) {
+  const matches = password.value === confirmation.value;
+  confirmation.setCustomValidity(matches ? "" : "Passwords do not match.");
+  if (!matches) confirmation.reportValidity();
+  return matches;
+}
+
+function friendlyAuthError(error) {
+  const message = String(error?.message || error || "");
+  if (/invalid login credentials/i.test(message)) return "Email or password is incorrect.";
+  if (/email not confirmed/i.test(message)) return "Confirm your email before signing in.";
+  if (/already registered|already exists/i.test(message)) return "An account already exists for that email.";
+  if (/username.*taken|duplicate key|profiles_username/i.test(message)) return "That username is already taken.";
+  if (/password/i.test(message) && /weak|least|characters/i.test(message)) return "Use a password with at least 8 characters.";
+  if (/rate limit|too many/i.test(message)) return "Too many attempts. Wait a moment and try again.";
+  if (/failed to fetch|network/i.test(message)) return "Couldn’t reach account services. Check your connection and try again.";
+  if (/not configured/i.test(message)) return "Account services are not configured yet.";
+  return "Something went wrong with your account. Please try again.";
+}
+
+async function activateAuthenticatedSession(session, options = {}) {
+  if (!session?.user || activeAuthUserId === session.user.id) {
+    if (session?.user && getCurrentUser()) hideAuthPanel();
+    return;
+  }
+  if (authActivationPromise && activatingAuthUserId === session.user.id) {
+    return authActivationPromise;
+  }
+
+  activatingAuthUserId = session.user.id;
+  authActivationPromise = (async () => {
+    const snapshot = await accountAuth.getAccountSnapshot();
+    if (!snapshot?.profile?.username) {
+      throw new Error("Your account profile could not be loaded.");
+    }
+
+    const username = accountAuth.normalizeUsername(snapshot.profile.username);
+    const existingKey = findLocalUsername(username);
+    const localUser = existingKey ? state.usersByName[existingKey] : null;
+    const isFirstLink = !localUser?.authUserId;
+    if (isFirstLink && localUser) backupLegacyProfile(username, localUser);
+    const merged = mergeStudyUser(localUser, snapshot.studyData, isFirstLink);
+
+    merged.username = username;
+    merged.authUserId = session.user.id;
+    merged.email = session.user.email || "";
+    merged.entitlements = snapshot.entitlements || [];
+
+    if (existingKey && existingKey !== username) delete state.usersByName[existingKey];
+    state.usersByName[username] = merged;
+    state.session.currentUser = username;
+    activeAuthUserId = session.user.id;
+    authSnapshot = snapshot;
+    localStorage.removeItem(pendingAuthUsernameKey);
+    persist({ sync: false });
+    await accountAuth.saveStudyData(serializeStudyUser(merged));
+    renderAll();
+    hideAuthPanel();
+
+    if (options.animate !== false) triggerLoginAnimation(username);
+  })();
+
+  try {
+    return await authActivationPromise;
+  } finally {
+    authActivationPromise = null;
+    activatingAuthUserId = "";
+  }
+}
+
+function findLocalUsername(username) {
+  const normalized = String(username || "").toLowerCase();
+  return Object.keys(state.usersByName).find((name) => name.toLowerCase() === normalized) || "";
+}
+
+function getLegacyProfileNames() {
+  return Object.keys(state.usersByName)
+    .filter((name) => !state.usersByName[name]?.authUserId)
+    .sort((a, b) => {
+      const aPriority = legacyAccountPriority.indexOf(a.toLowerCase());
+      const bPriority = legacyAccountPriority.indexOf(b.toLowerCase());
+      if (aPriority !== -1 || bPriority !== -1) {
+        if (aPriority === -1) return 1;
+        if (bPriority === -1) return -1;
+        return aPriority - bPriority;
+      }
+      return a.localeCompare(b);
+    });
+}
+
+function backupLegacyProfile(username, user) {
+  const normalized = String(username || "").toLowerCase();
+  const backupKey = `${legacyBackupKeyPrefix}${normalized}`;
+  if (localStorage.getItem(backupKey)) return;
+  localStorage.setItem(backupKey, JSON.stringify({
+    username: normalized,
+    backedUpAt: new Date().toISOString(),
+    studyData: serializeStudyUser(user),
+  }));
+}
+
+function createEmptyStudyUser(username = "") {
+  return {
+    username,
+    testsCompleted: 0,
+    viewedNotesByChapter: {},
+    progressByOutcome: {},
+    learnedByOutcome: {},
+    disabledSubjects: [],
+  };
+}
+
+function mergeStudyUser(localValue, remoteValue, preferLocal) {
+  const local = { ...createEmptyStudyUser(), ...(localValue || {}) };
+  const remote = { ...createEmptyStudyUser(), ...(remoteValue || {}) };
+  const progressKeys = new Set([
+    ...Object.keys(local.progressByOutcome || {}),
+    ...Object.keys(remote.progressByOutcome || {}),
+  ]);
+  const progressByOutcome = {};
+  progressKeys.forEach((key) => {
+    progressByOutcome[key] = Math.max(
+      Number(local.progressByOutcome?.[key] || 0),
+      Number(remote.progressByOutcome?.[key] || 0)
+    );
+  });
+
+  const learnedKeys = new Set([
+    ...Object.keys(local.learnedByOutcome || {}),
+    ...Object.keys(remote.learnedByOutcome || {}),
+  ]);
+  const learnedByOutcome = {};
+  learnedKeys.forEach((key) => {
+    learnedByOutcome[key] = Array.from(new Set([
+      ...(remote.learnedByOutcome?.[key] || []),
+      ...(local.learnedByOutcome?.[key] || []),
+    ]));
+  });
+
+  const viewedNotesByChapter = { ...(remote.viewedNotesByChapter || {}) };
+  Object.entries(local.viewedNotesByChapter || {}).forEach(([key, value]) => {
+    if (value) viewedNotesByChapter[key] = true;
+  });
+
+  return {
+    ...remote,
+    ...local,
+    testsCompleted: Math.max(Number(local.testsCompleted || 0), Number(remote.testsCompleted || 0)),
+    progressByOutcome,
+    learnedByOutcome,
+    viewedNotesByChapter,
+    disabledSubjects: preferLocal
+      ? [...(local.disabledSubjects || [])]
+      : [...(remote.disabledSubjects?.length ? remote.disabledSubjects : local.disabledSubjects || [])],
+  };
+}
+
+function serializeStudyUser(user) {
+  return {
+    testsCompleted: Number(user?.testsCompleted || 0),
+    viewedNotesByChapter: user?.viewedNotesByChapter || {},
+    progressByOutcome: user?.progressByOutcome || {},
+    learnedByOutcome: user?.learnedByOutcome || {},
+    disabledSubjects: Array.isArray(user?.disabledSubjects) ? user.disabledSubjects : [],
+  };
 }
 
 function switchTab(tab) {
@@ -559,7 +1161,7 @@ function renderAll() {
   reconcileSelection();
   renderAccount();
   renderProfileAvatar();
-  renderAccountSwitcher();
+  renderAccountIdentity();
   renderAvatarPicker();
   renderSubjectPicker();
   renderGraph();
@@ -568,6 +1170,8 @@ function renderAll() {
   renderOutcomes();
   renderTestOverview();
   if (els.examTab?.classList.contains("active")) renderExamSection();
+  const timerWidget = document.getElementById("timerWidget");
+  if (timerWidget) timerWidget.classList.toggle("hidden", !getCurrentUser());
 }
 
 function getEnabledSubjectIds(user) {
@@ -591,13 +1195,25 @@ function renderSubjectPicker() {
     return;
   }
   const disabled = new Set(Array.isArray(user.disabledSubjects) ? user.disabledSubjects : []);
-  els.subjectPicker.innerHTML = SUBJECTS.map(
-    (s) => `
-      <label>
-        <input type="checkbox" data-subject="${escapeHtml(s.id)}" ${!disabled.has(s.id) ? "checked" : ""} />
-        <span>${escapeHtml(s.title)}</span>
-      </label>`
-  ).join("");
+  els.subjectPicker.innerHTML = SUBJECTS.map((s) => {
+    const on = !disabled.has(s.id);
+    const chapters = (s.chapters || []).length;
+    return `
+      <label class="subject-setting">
+        <span class="subject-setting-text">
+          <span class="subject-setting-name">${escapeHtml(s.title)}</span>
+          <span class="subject-setting-meta">${chapters} chapter${chapters === 1 ? "" : "s"}</span>
+        </span>
+        <input type="checkbox" class="subject-setting-input" data-subject="${escapeHtml(s.id)}" ${on ? "checked" : ""} />
+        <span class="subject-setting-switch" aria-hidden="true"></span>
+      </label>`;
+  }).join("");
+
+  if (els.subjectChoicesCount) {
+    const on = SUBJECTS.length - disabled.size;
+    els.subjectChoicesCount.textContent = `${on} of ${SUBJECTS.length}`;
+  }
+
   els.subjectPicker.querySelectorAll("input[type=checkbox]").forEach((cb) => {
     cb.addEventListener("change", () => {
       const u = getCurrentUser();
@@ -605,6 +1221,11 @@ function renderSubjectPicker() {
       const unchecked = Array.from(
         els.subjectPicker.querySelectorAll("input[type=checkbox]:not(:checked)")
       ).map((el) => el.dataset.subject);
+      // Keep at least one subject on, otherwise the app has nothing to show.
+      if (unchecked.length === SUBJECTS.length) {
+        cb.checked = true;
+        return;
+      }
       u.disabledSubjects = unchecked;
       const enabledIds = getEnabledSubjectIds(u);
       if (!enabledIds.includes(selectedSubjectId)) {
@@ -624,24 +1245,22 @@ function renderSubjectPicker() {
 
 function renderAccount() {
   const current = getCurrentUser();
-  const isLoggedIn = Boolean(current);
-  els.accountName.value = "";
-  els.authPanel.classList.toggle("hidden", isLoggedIn);
-  if (isLoggedIn) {
-    els.accountStatus.textContent = `${current.username} logged in. Tests completed: ${current.testsCompleted || 0}`;
-  } else if (!els.accountStatus.textContent || els.accountStatus.textContent.includes("logged in")) {
-    els.accountStatus.textContent = "Create account or log in.";
-  }
+  if (!current) return;
+  els.accountDetailsUsername.textContent = current.username || "";
+  els.accountDetailsEmail.textContent = current.email || authSnapshot?.user?.email || "";
 }
 
-function renderAccountSwitcher() {
-  const usernames = Object.keys(state.usersByName).sort();
-  els.accountSwitcher.innerHTML = usernames.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("");
-  if (!usernames.length) {
-    els.accountSwitcher.innerHTML = "<option value=''>No accounts yet</option>";
+function renderAccountIdentity() {
+  const current = getCurrentUser();
+  if (!current) {
+    els.accountIdentity.innerHTML = "";
     return;
   }
-  els.accountSwitcher.value = state.session.currentUser || usernames[0];
+  const email = current.email || authSnapshot?.user?.email || "";
+  els.accountIdentity.innerHTML = `
+    <strong class="account-username">${escapeHtml(current.username)}</strong>
+    ${email ? `<span class="account-email">${escapeHtml(email)}</span>` : ""}
+  `;
 }
 
 function renderAvatarPicker() {
@@ -700,28 +1319,29 @@ function renderGraph() {
     const block = document.createElement("div");
     block.className = "graph-subject";
     const hasBreakdown = !!window.EXAM_BREAKDOWN?.[subject.id];
+    const expanded = expandedSubjectId === subject.id;
+    block.classList.toggle("expanded", expanded);
     block.innerHTML = `
       <div class="graph-subject-header">
-        <button class="graph-subject-name${hasBreakdown ? ' has-breakdown' : ''}">${escapeHtml(subject.title)}</button>
-        <button class="graph-subject-chevron" aria-label="Expand chapters" title="Show chapters">›</button>
+        <button class="graph-subject-name" aria-expanded="${expanded}">
+          <span class="graph-subject-title">${escapeHtml(subject.title)}</span>
+          <span class="graph-subject-count">${subject.chapters.length} chapters</span>
+        </button>
+        ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Exam info</button>` : ""}
+        <span class="graph-subject-chevron" aria-hidden="true">›</span>
       </div>
-      <div class="graph-chapters ${expandedSubjectId === subject.id ? "" : "hidden"}"></div>
+      <div class="graph-chapters ${expanded ? "" : "hidden"}"></div>
     `;
-    block.querySelector(".graph-subject-name").addEventListener("click", () => {
-      if (hasBreakdown) {
-        openExamBreakdown(subject.id);
-      } else {
-        expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
-        selectedSubjectId = subject.id;
-        viewMode = 'subject-overview';
-        renderAll();
-      }
-    });
-    block.querySelector(".graph-subject-chevron").addEventListener("click", () => {
+    const openSubject = () => {
       expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
       selectedSubjectId = subject.id;
       viewMode = 'subject-overview';
       renderAll();
+    };
+    block.querySelector(".graph-subject-name").addEventListener("click", openSubject);
+    block.querySelector(".graph-subject-exam")?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openExamBreakdown(subject.id);
     });
     const chaptersWrap = block.querySelector(".graph-chapters");
     subject.chapters.forEach((chapter) => {
@@ -1544,30 +2164,46 @@ function renderProgressOverview() {
   const testsCompleted = user?.testsCompleted || 0;
   const subjectStats = buildProgressSubjectStats(user);
 
-  const subjectCards = subjectStats.map((ss) => {
+  const subjectRows = subjectStats.map((ss) => {
     const started = ss.chStats.filter((c) => c.earned > 0).length;
     const complete = ss.chStats.filter((c) => c.ratio === 1).length;
+    const chapters = ss.chStats.map((s) => {
+      const pct = Math.round(s.ratio * 100);
+      const num = (s.ch.title.match(/^(\d+)/) || [, ""])[1];
+      const state = s.ratio === 1 ? "done" : s.earned > 0 ? "part" : "none";
+      return `
+        <div class="progress-chapter-cell ${state}" title="${escapeHtml(s.ch.title)} — ${s.earned}/${s.total} concepts">
+          <div class="progress-chapter-track"><div class="progress-chapter-fill" style="height:${pct}%"></div></div>
+          <span class="progress-chapter-label">${num ? escapeHtml(num) : "·"}</span>
+        </div>`;
+    }).join("");
+
     return `
-      <div class="progress-subject-card">
-        <div class="progress-subject-pct" style="color:var(--accent)">${ss.pct}%</div>
-        <div class="progress-subject-title">${escapeHtml(ss.subject.title)}</div>
-        <div class="progress-subject-sub">${started} of ${ss.chStats.length} started &middot; ${complete} complete</div>
+      <article class="progress-subject-row">
+        <div class="progress-subject-head">
+          <div class="progress-subject-id">
+            <h2 class="progress-subject-title">${escapeHtml(ss.subject.title)}</h2>
+            <p class="progress-subject-sub">${started} of ${ss.chStats.length} chapters started &middot; ${complete} finished &middot; ${ss.earned}/${ss.total} concepts</p>
+          </div>
+          <div class="progress-subject-pct">${ss.pct}<span>%</span></div>
+        </div>
         <div class="progress-subject-bar-wrap">
           <div class="progress-subject-bar-fill" style="width:${ss.pct}%"></div>
         </div>
-        <button class="button-secondary progress-subject-btn" onclick="renderProgressSubjectDetail('${escapeHtml(ss.subject.id)}')">View Chapters ›</button>
-      </div>`;
+        <div class="progress-chapter-strip">${chapters}</div>
+        <button class="progress-subject-btn" onclick="renderProgressSubjectDetail('${escapeHtml(ss.subject.id)}')">Chapter detail ›</button>
+      </article>`;
   }).join("");
 
   els.progressBody.innerHTML = `
     <div class="progress-summary">
-      <div class="progress-percent">${percent}%</div>
+      <div class="progress-percent">${percent}<span>%</span></div>
       <div class="progress-summary-meta">
-        <strong>${testsCompleted} tests passed</strong>
-        <span class="muted small">${earned} of ${total} concept points earned</span>
+        <strong>${earned} of ${total} concept points earned</strong>
+        <span class="muted small">${testsCompleted} test${testsCompleted === 1 ? "" : "s"} passed across ${subjectStats.length} subject${subjectStats.length === 1 ? "" : "s"}</span>
       </div>
     </div>
-    <div class="progress-subject-grid">${subjectCards}</div>
+    <div class="progress-subject-list">${subjectRows}</div>
   `;
 }
 
@@ -1590,13 +2226,24 @@ function renderProgressSubjectDetail(subjectId) {
       </div>`;
   }).join("");
 
+  const chapterRows = ss.chStats.map((s) => {
+    const pct = Math.round(s.ratio * 100);
+    return `
+      <div class="progress-detail-row">
+        <span class="progress-detail-name">${escapeHtml(s.ch.title)}</span>
+        <div class="progress-detail-track"><div class="progress-detail-fill" style="width:${pct}%"></div></div>
+        <span class="progress-detail-score">${s.earned}/${s.total}</span>
+      </div>`;
+  }).join("");
+
   els.progressBody.innerHTML = `
     <div class="progress-detail-header">
-      <button class="button-secondary" onclick="renderProgressOverview()">← Overview</button>
-      <h4>${escapeHtml(ss.subject.title)} — Chapter Progress</h4>
+      <button class="button-secondary" onclick="renderProgressOverview()">← All subjects</button>
+      <h2>${escapeHtml(ss.subject.title)}</h2>
       <span class="muted small">${ss.pct}% overall &middot; ${ss.earned}/${ss.total} concepts</span>
     </div>
     <div class="progress-chart progress-chart-detail">${bars}</div>
+    <div class="progress-detail-list">${chapterRows}</div>
   `;
 }
 
@@ -1641,8 +2288,32 @@ function loadState() {
   return { usersByName: {}, session: { currentUser: "" } };
 }
 
-function persist() {
+function persist(options = {}) {
   localStorage.setItem(storageKey, JSON.stringify(state));
+  if (options.sync !== false) scheduleRemoteStudySave();
+}
+
+function scheduleRemoteStudySave() {
+  const current = getCurrentUser();
+  if (!accountAuth?.configured || !activeAuthUserId || current?.authUserId !== activeAuthUserId) return;
+  window.clearTimeout(authSaveTimer);
+  authSaveTimer = window.setTimeout(() => {
+    authSaveInFlight = accountAuth
+      .saveStudyData(serializeStudyUser(getCurrentUser()))
+      .catch((error) => console.error("Could not sync study progress", error))
+      .finally(() => {
+        authSaveInFlight = null;
+      });
+  }, 500);
+}
+
+async function flushRemoteStudySave() {
+  window.clearTimeout(authSaveTimer);
+  const current = getCurrentUser();
+  if (accountAuth?.configured && activeAuthUserId && current?.authUserId === activeAuthUserId) {
+    authSaveInFlight = accountAuth.saveStudyData(serializeStudyUser(current));
+  }
+  if (authSaveInFlight) await authSaveInFlight;
 }
 
 

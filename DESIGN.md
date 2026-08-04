@@ -95,7 +95,12 @@ All interactive transitions use `var(--t) var(--ease)`. Modal entrance: `0.24s`.
 Active tab: orange bg, white text, `--so` shadow.
 
 ### Sidebar (Left Panel)
-Two-level: subject header buttons → chapter list (collapsed/expanded). Subject headers have an orange dot indicator on active/hover. Chapters: muted, `--panel-2` bg, small font. Both levels use `--r-md` radius.
+Two-level: subject header row → chapter list (collapsed/expanded). The header row carries the subject title, a chapter count, an "Exam info" pill (only where a breakdown exists) and a rotating chevron; chapters sit below. Chapters: muted, `--panel-2` bg, small font. Both levels use `--r-md` radius.
+
+Collapsible: a two-finger horizontal trackpad swipe over the subject area hides or restores the panel, and the state persists in `localStorage` under `bare-bones-sidebar-collapsed`. A pill handle (`.sidebar-toggle`) fades in when the pointer comes within 44px of the content window's left edge. The zone is click-through, so its visibility is driven by a `mousemove` listener setting `.edge-hot`, not by `:hover`.
+
+### Account Menu
+Two panes inside the avatar dropdown. Main pane: username as the headline (1.3rem/800), email beneath, then settings-style rows. "Subject choices" opens the second pane, where subjects are toggle switches rather than checkboxes; at least one must stay on. No sign-in or add-account control lives here.
 
 ### Flashcard Study Box
 `.flashcard-study` — `--r-lg` card, min-height 160px, grid layout. Contains: chapter title, progress bar, study face (term/definition), 4-button control row (Prev/Flip/Next/Mark Learned), keyword chip row.
@@ -117,8 +122,11 @@ Full-screen backdrop: `rgba(26,25,22,0.6)` + `backdrop-filter: blur(6px)`. Card:
 
 Full Notes is edge-to-edge (no backdrop), `background: --bg`.
 
+### Progress Page
+Not an overlay: `.progress-screen` is a fixed, full-viewport page on `--bg`. Title is orange, `clamp(2.4rem, 5vw, 3.6rem)`, weight 800. Body is a `min(1180px, 100%)` column: a summary band, then one row per subject carrying the percentage, an overall bar and a strip of per-chapter columns, with a "Chapter detail" link into a named-chapter list.
+
 ### Profile Avatar
 Fixed top-right. 46px circle, orange bg, white initial, `--accent-light` ring. Shows level % badge to its left.
 
 ## Layout
-Two-column grid: `270px` left sidebar + `1fr` right workbench. Both panels fill `calc(100vh - 5.5rem)` and scroll independently (`overflow-y: auto; overscroll-behavior: contain`). Page itself never scrolls (`body: overflow: hidden`).
+Two-column grid: `440px` left sidebar (via `--sidebar-w`, `0px` when collapsed) + `1fr` right workbench. Both panels fill `calc(100vh - 5.5rem)` and scroll independently (`overflow-y: auto; overscroll-behavior: contain`). Page itself never scrolls (`body: overflow: hidden`).

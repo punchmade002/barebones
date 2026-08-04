@@ -30,7 +30,8 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from config import CANONICAL, REPORTS, EXAM_IMAGES, IMAGE_DPI, BBOX_PADDING, FIGURE_CUE_RE
-from segment import MODEL, _retry, _digests, render_js, _save
+from segment import MODEL, _retry, _digests, render_js, _save, level_of
+import ids
 
 try:
     import fitz  # PyMuPDF
@@ -62,8 +63,31 @@ EMIT_TOOL = {
 }
 
 
-def _level_of(q: dict) -> str:
-    return "higher" if "Higher" in q.get("source", "") else "ordinary"
+_level_of = level_of          # canonical rows now carry `level`; kept as an alias for callers
+
+
+# ── sidecar ───────────────────────────────────────────────────────────────────
+# The sidecar is keyed by "<question id>#<part index>", so it is only meaningful for the ID
+# scheme that produced those keys. It is stored inside a versioned envelope: when the scheme
+# changes, the whole map is dropped rather than left to suppress re-evaluation of parts whose
+# ids have moved. The old un-versioned flat shape is read as version 1.
+def _load_sidecar(path: Path) -> dict:
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text())
+    version = raw.get("id_scheme_version", 1) if isinstance(raw, dict) else 1
+    entries = raw.get("entries", {}) if "id_scheme_version" in raw else raw
+    if version != ids.ID_SCHEME_VERSION:
+        print(f"[images] sidecar {path.name} was written for id scheme v{version} "
+              f"(now v{ids.ID_SCHEME_VERSION}) — discarding {len(entries)} stale entr(ies); "
+              f"figure candidates will be re-evaluated.")
+        return {}
+    return entries
+
+
+def _save_sidecar(path: Path, entries: dict) -> None:
+    path.write_text(json.dumps(
+        {"id_scheme_version": ids.ID_SCHEME_VERSION, "entries": entries}, indent=2))
 
 
 def _sanitize(s: str) -> str:
@@ -235,12 +259,12 @@ def prepare(subject: str, limit: int | None = None, force: bool = False) -> int:
         raise SystemExit(f"No {cpath.name} — segment {subject} first.")
     rows = json.loads(cpath.read_text())
     side_path = REPORTS / f"figures-{subject}.json"
-    sidecar = json.loads(side_path.read_text()) if side_path.exists() else {}
+    sidecar = _load_sidecar(side_path)
 
     pdf_map = _pdf_map(subject)
     pages_by_level = _pages_for(subject, pdf_map)
     cands = _candidates(rows, pages_by_level, sidecar, force)
-    side_path.write_text(json.dumps(sidecar, indent=2))   # persist page-not-located misses
+    _save_sidecar(side_path, sidecar)                     # persist page-not-located misses
     if limit:
         cands = cands[:limit]
     if not cands:
@@ -264,8 +288,10 @@ def collect(subject: str) -> None:
     cpath = CANONICAL / f"{subject}.json"
     rows = json.loads(cpath.read_text())
     side_path = REPORTS / f"figures-{subject}.json"
-    sidecar = json.loads(side_path.read_text()) if side_path.exists() else {}
-    by_id = {q["id"]: q for q in rows}
+    sidecar = _load_sidecar(side_path)
+    # raises on duplicate ids: a lossy index here attaches each crop to whichever row was last,
+    # so a figure can end up rendered against a question it does not belong to
+    by_id = ids.index_by_id(rows, where="images.collect")
     stage = _stage(subject)
     ins, outs = bridge.inputs(stage), bridge.outputs(stage)
 
@@ -285,7 +311,7 @@ def collect(subject: str) -> None:
             print(f"[crop] {key} -> {rel}")
         else:
             sidecar[key] = {"has_figure": False}
-        side_path.write_text(json.dumps(sidecar, indent=2))
+        _save_sidecar(side_path, sidecar)
         _save(subject, rows)                              # durable after each crop
     js = render_js(subject, rows)
     print(f"\n{cropped} diagram(s) cropped into exam-images/{subject}/ — re-rendered {js.name}")

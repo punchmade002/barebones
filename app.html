@@ -10,14 +10,18 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=40" />
+    <link rel="stylesheet" href="./styles.css?v=42" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
         var isLoggedIn = false;
         try { isLoggedIn = !!(JSON.parse(saved).session.currentUser); } catch (e) {}
-        if (!isLoggedIn && location.hash !== '#signin' && !sessionStorage.getItem('bb_seen_landing')) {
+        var isAuthCallback = location.search.indexOf('code=') !== -1 ||
+          location.hash.indexOf('access_token=') !== -1 ||
+          location.hash === '#reset-password';
+        var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
+        if (!isLoggedIn && !hasAuthSession && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
         }
       })();
@@ -31,27 +35,148 @@
       <button id="profileAvatar" class="profile-avatar" aria-label="Profile picture"></button>
       <span id="profileLevel" class="profile-level hidden" aria-label="Study level">Lv 0/30</span>
       <div id="profileMenu" class="profile-menu hidden">
-        <select id="accountSwitcher" class="account-switcher"></select>
-        <p class="muted small theme-label">My subjects</p>
-        <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
-        <button id="openAuthButton" class="button-secondary">Add / Log In</button>
-        <button id="signOutButton" class="button-secondary">Sign Out</button>
+        <div id="profileMenuMain" class="profile-pane">
+          <div id="accountIdentity" class="account-identity"></div>
+          <button id="openSubjectChoices" class="profile-row" type="button">
+            <span class="profile-row-label">Subject choices</span>
+            <span id="subjectChoicesCount" class="profile-row-value"></span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
+          <button id="signOutButton" class="profile-row profile-row-quiet" type="button">
+            <span class="profile-row-label">Sign out</span>
+          </button>
+        </div>
+        <div id="profileMenuSubjects" class="profile-pane hidden">
+          <div class="profile-pane-head">
+            <button id="closeSubjectChoices" class="profile-pane-back" type="button" aria-label="Back to account">‹</button>
+            <span>Subject choices</span>
+          </div>
+          <p class="profile-pane-hint">Turn off anything you are not studying. It disappears from the sidebar and stops counting toward your progress.</p>
+          <div id="subjectPicker" class="subject-picker" aria-label="Selected subjects"></div>
+        </div>
       </div>
     </div>
     <div class="app-shell">
       <main class="main-content">
-        <section id="authPanel" class="auth-panel card hidden">
-          <h2>Account</h2>
-          <input id="accountName" type="text" placeholder="Username" />
-          <button id="saveAccount" class="button-primary">Create / Log In</button>
-          <p id="accountStatus" class="muted small"></p>
+        <section id="authPanel" class="auth-screen hidden" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+          <div class="auth-card">
+            <a class="auth-brand" href="index.html" aria-label="Back to barebones home">
+              <img src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+            </a>
+            <div class="auth-kicker">Your study stays yours</div>
+            <h1 id="authTitle">Welcome back.</h1>
+            <p id="authIntro" class="auth-intro">Sign in to keep your progress safe and available on every device.</p>
+
+            <div id="authTabs" class="auth-tabs" role="tablist" aria-label="Account action">
+              <button id="showSignIn" class="auth-tab active" type="button" role="tab" aria-selected="true">Sign in</button>
+              <button id="showSignUp" class="auth-tab" type="button" role="tab" aria-selected="false">Make a new account</button>
+            </div>
+
+            <form id="signInForm" class="auth-form" novalidate>
+              <label for="signInEmail">Email</label>
+              <input id="signInEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <label for="signInPassword">Password</label>
+              <div class="password-field">
+                <input id="signInPassword" name="password" type="password" autocomplete="current-password" placeholder="Your password" required />
+                <button class="password-toggle" type="button" data-password-toggle="signInPassword" aria-label="Show password">Show</button>
+              </div>
+              <button class="button-primary auth-submit" type="submit">Sign in</button>
+              <button id="showForgotPassword" class="auth-text-button" type="button">Forgot your password?</button>
+            </form>
+
+            <form id="signUpForm" class="auth-form hidden" novalidate>
+              <label for="signUpUsername">Username</label>
+              <input id="signUpUsername" name="username" type="text" autocomplete="username" minlength="3" maxlength="24" pattern="[A-Za-z0-9_-]+" placeholder="How you’ll appear in the app" required />
+              <p class="field-hint">3–24 characters. Letters, numbers, _ and - only.</p>
+              <label for="signUpEmail">Email</label>
+              <input id="signUpEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <label for="signUpPassword">Password</label>
+              <div class="password-field">
+                <input id="signUpPassword" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required />
+                <button class="password-toggle" type="button" data-password-toggle="signUpPassword" aria-label="Show password">Show</button>
+              </div>
+              <label for="signUpPasswordConfirm">Confirm password</label>
+              <div class="password-field">
+                <input id="signUpPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
+                <button class="password-toggle" type="button" data-password-toggle="signUpPasswordConfirm" aria-label="Show password confirmation">Show</button>
+              </div>
+              <button class="button-primary auth-submit" type="submit">Create account</button>
+            </form>
+
+            <form id="legacySetupForm" class="auth-form hidden" novalidate>
+              <div class="legacy-badge">Existing account found</div>
+              <p class="legacy-copy">Your progress for <strong id="legacyUsername"></strong> is still here. Add an email and password to secure it.</p>
+              <div id="legacyAccountChoice" class="hidden">
+                <label for="legacyAccountSelect">Existing profile</label>
+                <select id="legacyAccountSelect"></select>
+              </div>
+              <label for="legacyEmail">Email</label>
+              <input id="legacyEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <label for="legacyPassword">Create a password</label>
+              <div class="password-field">
+                <input id="legacyPassword" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required />
+                <button class="password-toggle" type="button" data-password-toggle="legacyPassword" aria-label="Show password">Show</button>
+              </div>
+              <label for="legacyPasswordConfirm">Confirm password</label>
+              <div class="password-field">
+                <input id="legacyPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
+                <button class="password-toggle" type="button" data-password-toggle="legacyPasswordConfirm" aria-label="Show password confirmation">Show</button>
+              </div>
+              <button class="button-primary auth-submit" type="submit">Secure my account</button>
+            </form>
+
+            <form id="forgotPasswordForm" class="auth-form hidden" novalidate>
+              <button class="auth-back" type="button" data-auth-back>← Back to sign in</button>
+              <h2>Reset your password</h2>
+              <p class="auth-intro">We’ll send a secure reset link to your email.</p>
+              <label for="forgotEmail">Email</label>
+              <input id="forgotEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              <button class="button-primary auth-submit" type="submit">Send reset link</button>
+            </form>
+
+            <form id="newPasswordForm" class="auth-form hidden" novalidate>
+              <h2>Choose a new password</h2>
+              <label for="newPassword">New password</label>
+              <div class="password-field">
+                <input id="newPassword" name="password" type="password" autocomplete="new-password" minlength="8" placeholder="At least 8 characters" required />
+                <button class="password-toggle" type="button" data-password-toggle="newPassword" aria-label="Show password">Show</button>
+              </div>
+              <label for="newPasswordConfirm">Confirm new password</label>
+              <div class="password-field">
+                <input id="newPasswordConfirm" name="password-confirm" type="password" autocomplete="new-password" minlength="8" placeholder="Type it again" required />
+                <button class="password-toggle" type="button" data-password-toggle="newPasswordConfirm" aria-label="Show password confirmation">Show</button>
+              </div>
+              <button class="button-primary auth-submit" type="submit">Update password</button>
+            </form>
+
+            <div id="accountDetails" class="auth-form hidden">
+              <div class="account-details-row">
+                <span>Username</span>
+                <strong id="accountDetailsUsername"></strong>
+              </div>
+              <div class="account-details-row">
+                <span>Email</span>
+                <strong id="accountDetailsEmail"></strong>
+              </div>
+              <button id="closeAccountDetails" class="button-primary" type="button">Back to studying</button>
+            </div>
+
+            <p id="accountStatus" class="auth-status" role="status" aria-live="polite"></p>
+            <p class="auth-privacy">Your password is never stored by barebones. Authentication is encrypted and your study data is protected per account.</p>
+          </div>
         </section>
-        <section class="subject-area">
+        <section class="subject-area" id="subjectArea">
           <div class="subject-list-wrap graph-wrap">
             <div class="subject-list-scroll">
               <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
               <div id="subjectGraph" class="subject-graph"></div>
             </div>
+          </div>
+
+          <div class="sidebar-edge">
+            <button id="sidebarToggle" class="sidebar-toggle" type="button" aria-label="Hide subject sidebar" aria-expanded="true">
+              <span class="sidebar-toggle-arrow" aria-hidden="true">‹</span>
+            </button>
           </div>
 
           <div id="subjectWorkbench" class="workbench hidden">
@@ -105,12 +230,12 @@
       </li>
     </template>
 
-    <section id="progressScreen" class="full-notes-screen hidden">
-      <div class="full-notes-card progress-card">
-        <div class="toolbar">
-          <h3>Study Progress</h3>
+    <section id="progressScreen" class="progress-screen hidden">
+      <div class="progress-page">
+        <header class="progress-page-head">
+          <h1 class="progress-title">Study Progress</h1>
           <button id="closeProgress" class="button-secondary">Close</button>
-        </div>
+        </header>
         <div id="progressBody" class="progress-body"></div>
       </div>
     </section>
@@ -168,32 +293,34 @@
 
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-    <script src="./data.js?v=41"></script>
+    <script src="./data.js?v=42"></script>
     <script src="./business-content.js?v=1"></script>
     <script src="./pe-content.js?v=1"></script>
     <script src="./bio-content.js?v=2"></script>
-    <script src="./geo-content.js?v=2"></script>
+    <script src="./geo-content.js?v=3"></script>
     <script src="./maths-content.js?v=1"></script>
     <script src="./chemistry-content.js?v=1"></script>
-    <script src="./history-flashcards.js?v=1"></script>
-    <script src="./history-content.js?v=1"></script>
-    <script src="./exam-questions-db.js?v=1"></script>
+    <script src="./history-flashcards.js?v=2"></script>
+    <script src="./history-content.js?v=2"></script>
+    <script src="./exam-questions-db.js?v=2"></script>
     <script src="./history-exam-questions.js?v=1"></script>
     <script src="./chemistry-exam-questions.js?v=1"></script>
     <script src="./home-economics-exam-questions.js?v=1"></script>
     <script src="./home-economics-flashcards.js?v=1"></script>
-    <script src="./home-economics-content.js?v=1"></script>
+    <script src="./home-economics-content.js?v=2"></script>
     <script src="./exam-breakdown.js?v=2"></script>
-<script src="./app.js?v=48"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./auth-config.js?v=1"></script>
+    <script src="./auth.js?v=1"></script>
+    <script src="./app.js?v=50"></script>
     <script src="./timer.js?v=1"></script>
     <script>
-      if (window.location.hash === '#signin') {
+      if (window.location.hash === '#signin' || window.location.hash === '#signup') {
         sessionStorage.setItem('bb_seen_landing', '1');
         var authPanel = document.getElementById('authPanel');
         if (authPanel) authPanel.classList.remove('hidden');
-        var input = document.getElementById('accountName');
+        var input = document.getElementById(window.location.hash === '#signup' ? 'signUpUsername' : 'signInEmail');
         if (input) input.focus();
-        history.replaceState(null, '', window.location.pathname);
       }
     </script>
   </body>
