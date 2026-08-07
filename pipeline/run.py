@@ -71,6 +71,7 @@ def main() -> None:
     # Stage 0: ingest the resource bundle FIRST — it is the source of truth for the scaffold,
     # flashcards, answer grounding, AND the syllabus cutoff that drives which years we pull.
     import resources
+    resources.require_bundle(subject)
     rs = resources.ingest(subject)
     if rs["bundle"]:
         print(f"resources: {rs['files']} file(s) {rs['roles']}, {rs['chars']} chars, "
