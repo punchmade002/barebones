@@ -9,3 +9,6 @@
 pipeline/_data/
 pipeline/__pycache__/
 **/__pycache__/
+
+# Local export of account emails (contains personal data)
+/mailing list

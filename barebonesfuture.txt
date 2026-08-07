@@ -13,13 +13,13 @@ Features
 - [ ] Better maths legibility 
 - [x] Seperate scroll for chapters and notes 
 Subjects:
-Chemistry
-Physics 
+x Chemistry
+x Physics 
 Computer science
 Home economics 
 Economics 
 Accounting 
-History
+x History
 Ag sci 
 Art
 DCG
@@ -33,7 +33,8 @@ Resources like comparative and linking vocabulary
 
 ## Product
 - [x] Server hosting
-- [ ] Accounts with passwords, password reset capabilities 
+- [x] Accounts with passwords, 
+- [ ] Password reset 
 - [ ] Mailing list gathering 
 - [ ] Payment processing and verification
 - [ ] New device verification

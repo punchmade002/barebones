@@ -158,3 +158,22 @@ test("study state is written against the authenticated immutable user id", async
   assert.equal(upsertCall[2].user_id, session.user.id);
   assert.deepEqual(upsertCall[2].data, { testsCompleted: 3 });
 });
+
+test("account creation stores normalized emails in the protected mailing list", () => {
+  const schema = fs.readFileSync(
+    path.join(__dirname, "..", "supabase", "schema.sql"),
+    "utf8"
+  );
+
+  assert.match(schema, /create table if not exists public\.mailing_list/i);
+  assert.match(schema, /alter table public\.mailing_list enable row level security/i);
+  assert.match(schema, /revoke all on public\.mailing_list from anon, authenticated/i);
+  assert.match(
+    schema,
+    /insert into public\.mailing_list[\s\S]*lower\(trim\(new\.email\)\)/i
+  );
+  assert.match(
+    schema,
+    /from auth\.users[\s\S]*on conflict \(user_id\) do update/i
+  );
+});
