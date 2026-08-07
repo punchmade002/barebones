@@ -11,16 +11,22 @@ PREPARES new jobs and stops, printing `WORKER NEEDED <dir>`. The driving agent t
     python run.py biology --no-acquire    # don't download; reuse PDFs already on disk
     python run.py biology --restart       # wipe queued/inflight worker jobs and start the model
                                           #   stages fresh (does not delete PDFs/digests/canonical)
+    python run.py biology --merge         # after validation passes, publish into the app
 
-Modifiers: --no-acquire  --no-images  --no-merge  --regen-scaffold  --limit N  --headful
-           --include-irish  --restart  --force-merge (publish despite low coverage / gate)
+After all model stages, run.py runs the validation gate (validate.py): it quarantines any
+broken questions and writes a sample for review. If the run is clean (quarantine/soft-warning
+fractions under threshold, no tag-review bucket, coverage not flagged low) it publishes
+automatically; otherwise it STOPS and you re-run with `--merge` to publish anyway.
+
+Modifiers: --no-acquire  --no-images  --no-merge  --merge  --regen-scaffold  --limit N
+           --headful  --include-irish  --restart  --force-merge (alias for --merge)
 """
 import sys
 
 import acquire_form
 import digest
 import agent_bridge as bridge
-from config import relevant_years, cutoff_for, SUBJECTS
+from config import relevant_years, cutoff_for, SUBJECTS, model_for_stage
 
 
 def _arg(args, flag):
@@ -41,12 +47,13 @@ def _coverage_low(subject: str) -> bool:
         return False
 
 
-def _request_worker(stage: str, n: int) -> None:
+def _request_worker(stage: str, n: int, model: str) -> None:
     d = bridge.worker_dir(stage)
     print(f"\n>>> WORKER NEEDED: {n} job(s) for stage '{stage}'")
     print(f">>> dir: {d}")
-    print(">>> Spawn the `pipeline-worker` subagent on that dir (read in/*.json, write out/*.json),")
-    print(">>> then re-run this exact command. It will collect the answers and continue.")
+    print(f">>> model: {model}")
+    print(f">>> Spawn the `pipeline-worker` subagent (Agent tool, model={model}) on that dir")
+    print(">>> (read in/*.json, write out/*.json), then re-run this exact command to collect.")
 
 
 def main() -> None:
@@ -54,17 +61,28 @@ def main() -> None:
     subject = next((a for a in args if not a.startswith("-")), None)
     if not subject:
         raise SystemExit("usage: python run.py <subject> [--no-acquire] [--no-images] "
-                         "[--no-merge] [--regen-scaffold] [--limit N] [--restart] [--headful] "
-                         "[--include-irish]")
+                         "[--no-merge] [--merge] [--regen-scaffold] [--limit N] [--restart] "
+                         "[--headful] [--include-irish]")
     if subject not in SUBJECTS:
         print(f"note: '{subject}' isn't in config.SUBJECTS; using it as the archive subject label anyway.")
 
     limit = _arg(args, "--limit")
 
-    cutoff, verified = cutoff_for(subject)
-    yrs = relevant_years(subject)
+    # Stage 0: ingest the resource bundle FIRST — it is the source of truth for the scaffold,
+    # flashcards, answer grounding, AND the syllabus cutoff that drives which years we pull.
+    import resources
+    rs = resources.ingest(subject)
+    if rs["bundle"]:
+        print(f"resources: {rs['files']} file(s) {rs['roles']}, {rs['chars']} chars, "
+              f"cutoff {rs['cutoff'] or '(not stated — using estimate)'}")
+    else:
+        print(f"resources: NO bundle at {resources.subject_dir(subject)} — scaffold/flashcards/"
+              f"answers will be weaker. Drop the course guide/summary there for best accuracy.")
+
+    cutoff, verified = cutoff_for(subject)             # now bundle-aware
+    yrs = relevant_years(subject)                      # current-syllabus only (no reference year)
     print(f"=== {subject} ===  cutoff {cutoff}{'' if verified else ' (UNVERIFIED)'} | "
-          f"{len(yrs)} years ({yrs[-1]['year']}=reference … {yrs[0]['year']})\n")
+          f"{len(yrs)} years ({yrs[-1]['year']} … {yrs[0]['year']})\n")
 
     # Stage 1-2: acquire + digest — plain Python, idempotent, zero model work.
     if "--no-acquire" not in args:
@@ -75,39 +93,49 @@ def main() -> None:
     import scaffold_gen
     import segment
     import images
+    import images_verify
+    import schemes
     import model_answers
     import flashcards
+    import validate
     import merge
 
     if "--restart" in args:
-        for mod in (scaffold_gen, segment, images, model_answers, flashcards):
+        for mod in (scaffold_gen, segment, images, images_verify, schemes, model_answers, flashcards):
             bridge.reset(mod._stage(subject))
+        validate._reset_attempts(subject)
         print("restarted: cleared all queued worker jobs for this subject.\n")
 
-    # Ordered model stages. Each must be fully collected before the next starts (segment feeds
-    # images/answers/flashcards). prepare() returns 0 when there's nothing to do.
+    # Ordered model stages. Each must be fully collected before the next starts. Order matters:
+    # segment (paper only) -> images -> schemes (official answers from the scheme) -> answers
+    # (H1 fill for the rest) -> flashcards. prepare() returns 0 when there's nothing to do.
     stages = [
         ("scaffold",   scaffold_gen, lambda: scaffold_gen.prepare(subject, regen=("--regen-scaffold" in args))),
         ("segment",    segment,      lambda: segment.prepare(subject, limit=limit)),
     ]
     if "--no-images" not in args:
         stages.append(("images", images, lambda: images.prepare(subject, limit=limit)))
+        stages.append(("images-verify", images_verify, lambda: images_verify.prepare(subject)))
     stages += [
+        ("schemes",    schemes,       lambda: schemes.prepare(subject)),
         ("answers",    model_answers, lambda: model_answers.prepare(subject, limit=limit)),
         ("flashcards", flashcards,    lambda: flashcards.prepare(subject)),
     ]
 
-    for _name, mod, prep in stages:
+    for name, mod, prep in stages:
         stage = mod._stage(subject)
+        model = model_for_stage(name)
         if bridge.is_collected(stage):
             continue                                  # finished in an earlier invocation
         if bridge.has_jobs(stage):                    # prepared already — worker may have run
             # A stage may expose validate_output(answer)->bool; pending() then re-queues outputs
             # that exist but fail it, so a bad answer is re-requested instead of accepted silently.
-            validate = getattr(mod, "validate_output", None)
-            pend = bridge.pending(stage, validate=validate)
+            # NB: not named `validate` — that would shadow the validate *module* imported above,
+            # and the post-segment gate below calls validate.post_segment().
+            check = getattr(mod, "validate_output", None)
+            pend = bridge.pending(stage, validate=check)
             if pend:
-                _request_worker(stage, len(pend)); return
+                _request_worker(stage, len(pend), model); return
             stuck = bridge.needs_human(stage)
             if stuck:
                 shown = ", ".join(stuck[:5]) + (" …" if len(stuck) > 5 else "")
@@ -115,31 +143,61 @@ def main() -> None:
                       f"repeatedly and were given up on: {shown}")
                 print(">>> their last (rejected) output is kept; collect() salvages what it can.")
             mod.collect(subject)                      # all answers present -> finalize
+            # Validation gate after segment: re-segment broken papers, else quarantine stubs.
+            if name == "segment":
+                outcome = validate.post_segment(subject, limit=limit)
+                if outcome == "retry":                # offending papers re-queued -> run worker
+                    _request_worker(stage, len(bridge.pending(stage)), model); return
             bridge.mark_collected(stage)
             continue
         n = prep()                                    # not prepared yet -> write jobs
         if n == 0:
             bridge.mark_collected(stage)              # nothing to do; treat as done
             continue
-        _request_worker(stage, n); return             # stop so the agent can run the worker
+        _request_worker(stage, n, model); return      # stop so the agent can run the worker
 
-    # All model stages done.
-    merged = False
-    if "--no-merge" not in args:
-        force_merge = "--force-merge" in args
-        if _coverage_low(subject) and not force_merge:
-            print(f"\n>>> ⚠ COVERAGE LOW — not auto-merging. Review "
-                  f"reports/segment-{subject}.json, then either:")
-            print(f">>>   python3 merge.py {subject}            (merge by hand; the gate still applies)")
-            print(f">>>   python3 run.py {subject} --force-merge  (skip this coverage stop)")
-        else:
-            merged = merge.run(subject, force=force_merge)
-    tail = (", and merged into app.html" if merged
-            else " (merge skipped)" if "--no-merge" in args
-            else " (merge pending — see above)")
-    print(f"\nPIPELINE COMPLETE: {subject} is acquired, digested, scaffolded, segmented, "
+    # All model stages done — VALIDATION GATE before anything reaches the app (reform C/G).
+    gate = validate.enforce(subject)
+    print(f"\n=== VALIDATION GATE ===")
+    print(f"quarantined {gate['dropped_parts']} stub part(s) / {gate['dropped_questions']} question(s) "
+          f"({gate['quarantine_frac']:.0%}); dropped {gate['dup_dropped']} curated-duplicate question(s); "
+          f"{gate['kept_questions']} clean questions kept; "
+          f"{gate['remaining_soft']} soft warning(s) ({gate['soft_frac']:.0%}); "
+          f"{gate['low_confidence']} low-confidence tag(s).")
+    if gate.get("quarantine"):
+        print(f"quarantine: {gate['quarantine']}")
+    if gate.get("tag_review"):
+        print(f"TAG REVIEW ({gate['low_confidence']} low-confidence questions): {gate['tag_review']}")
+    print(f"report:  {gate['report']}")
+    print(f"SAMPLE FOR REVIEW:  {gate['sample']}")
+
+    if "--no-merge" in args:
+        print("\nVALIDATED (not merged: --no-merge).")
+        return
+
+    # Low coverage is a separate signal from the gate's defect fractions: the questions we DID
+    # extract can be flawless while whole papers or chapters are missing. Both must be clean
+    # for an unattended publish.
+    coverage_low = _coverage_low(subject)
+    if coverage_low:
+        print(f"\n>>> ⚠ COVERAGE LOW — few papers segmented, or a chapter has zero questions. "
+              f"Review reports/segment-{subject}.json.")
+
+    override = "--merge" in args or "--force-merge" in args
+    if (not gate["clean"] or coverage_low) and not override:
+        why = []
+        if not gate["clean"]:
+            why.append("validation exceeded the clean thresholds (or raised a tag-review bucket)")
+        if coverage_low:
+            why.append("coverage is low")
+        print(f"\nNEEDS REVIEW — {' and '.join(why)}. Check the sample above, then re-run with "
+              f"--merge to publish anyway.")
+        return
+    merge.run(subject, force=override)
+    why = "clean — auto-published" if (gate["clean"] and not coverage_low) else "published (--merge override)"
+    print(f"\nPIPELINE COMPLETE ({why}): {subject} is acquired, digested, scaffolded, segmented, "
           f"{'(images skipped) ' if '--no-images' in args else 'diagrammed, '}"
-          f"answered, flashcarded{tail}.")
+          f"scheme-matched, answered, flashcarded, validated, and merged into app.html.")
 
 
 if __name__ == "__main__":

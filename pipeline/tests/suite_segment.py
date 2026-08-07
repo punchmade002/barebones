@@ -18,6 +18,16 @@ def test_golden_2022_higher_paper():
     golden("segment-expected-history-2022-HL.json", rows)
 
 
+def test_segment_leaves_answers_empty():
+    """Paper-only segmentation: segment.py reads the exam paper alone and must NOT populate
+    `model`. Official answers are matched separately by schemes.py from the marking scheme, and
+    model_answers.py fills whatever the scheme doesn't cover. The old combined pass is what
+    produced answers written against half-extracted question stubs."""
+    rows = segment.to_canonical("history", FX["digest"], FX["questions"])
+    answered = [(r["id"], p.get("label")) for r in rows for p in r["parts"] if (p.get("model") or "").strip()]
+    assert not answered, f"segment populated {len(answered)} answer(s): {answered[:3]}"
+
+
 def test_golden_paper_really_does_reuse_labels():
     """Guards the fixture itself: if this stops being true the golden test proves nothing."""
     labels = [q["label"] for q in FX["questions"]]
