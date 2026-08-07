@@ -193,7 +193,13 @@ def main() -> None:
         print(f"\nNEEDS REVIEW — {' and '.join(why)}. Check the sample above, then re-run with "
               f"--merge to publish anyway.")
         return
-    merge.run(subject, force=override)
+    # merge.run applies gate.py's blockers on top of the validation gate and returns False if it
+    # refused to publish. Printing PIPELINE COMPLETE regardless would tell the /run-pipeline loop
+    # the subject shipped when nothing was written.
+    if not merge.run(subject, force=override):
+        print("\nNOT PUBLISHED — the merge gate blocked it (see the failures above). "
+              f"Fix them, or re-run: python3 run.py {subject} --merge")
+        return
     why = "clean — auto-published" if (gate["clean"] and not coverage_low) else "published (--merge override)"
     print(f"\nPIPELINE COMPLETE ({why}): {subject} is acquired, digested, scaffolded, segmented, "
           f"{'(images skipped) ' if '--no-images' in args else 'diagrammed, '}"

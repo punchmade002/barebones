@@ -147,8 +147,11 @@ def prepare(subject: str) -> int:
 def collect(subject: str) -> None:
     """Fold the worker's scheme answers into canonical (tagged 'scheme'), re-render the app JS."""
     import agent_bridge as bridge
+    import ids
     canonical = json.loads((CANONICAL / f"{subject}.json").read_text())
-    by_id = {q["id"]: q for q in canonical}
+    # raises on duplicate ids: a plain {q["id"]: q} keeps only the LAST row per id, so official
+    # marking-scheme answers would land on the wrong question (or vanish) without a word
+    by_id = ids.index_by_id(canonical, where="schemes.collect")
     outs = bridge.outputs(_stage(subject))
     filled = 0
     for _cid, content in outs.items():
