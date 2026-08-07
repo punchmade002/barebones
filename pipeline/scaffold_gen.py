@@ -21,8 +21,9 @@ from pathlib import Path
 
 from segment import SCAFFOLD_DIR, MODEL, _retry, _digests, pages_text
 
-MAX_SCAFFOLD_DIGESTS = 6           # how many recent papers to read when deriving topics
+MAX_SCAFFOLD_DIGESTS = 10          # how many recent papers to read when deriving topics from papers
 MAX_POOL_CHARS = 80_000            # cap pooled paper text to keep the single call cheap
+MAX_SPEC_CHARS = 120_000           # cap official-spec text (reform F)
 MAX_TOKENS = 4_000                 # a section+chapter list is small
 
 EMIT_TOOL = {
@@ -68,23 +69,37 @@ def _exists(subject: str) -> Path:
     return SCAFFOLD_DIR / f"{subject}.json"
 
 
-def build_prompt(subject: str, pooled: str) -> str:
+def _spec_path(subject: str) -> Path:
+    """Optional official syllabus/specification text. If present it is the AUTHORITATIVE source
+    for the topic list (reform F) — drop the subject's spec here as plain text and re-run."""
+    return SCAFFOLD_DIR / f"{subject}.spec.txt"
+
+
+def build_prompt(subject: str, pooled: str, spec: str = "") -> str:
+    if spec.strip():
+        source = (f"Below is the OFFICIAL syllabus/specification for {subject}. Derive the topic "
+                  f"list from it — it is authoritative and defines what is on the course. The exam "
+                  f"papers that follow are only to help you name the paper's top-level sections.\n\n"
+                  f"=== OFFICIAL SPECIFICATION ===\n{spec}\n\n"
+                  f"=== RECENT EXAM PAPERS (for section names only) ===\n{pooled}")
+    else:
+        source = (f"No official specification was provided, so infer the syllabus structure from "
+                  f"the exam papers below — cover the WHOLE course, not only what these papers "
+                  f"happened to ask.\n\n=== RECENT EXAM PAPERS ===\n{pooled}")
     return f"""You are designing the topic scaffold for a Leaving Certificate {subject} study app.
 A downstream tagger will assign every past-paper question to exactly one sectionId and one
 chapterId from the lists you return, so the lists must COVER the whole course and be mutually
 distinct.
 
-Below is the text of several recent {subject} exam papers. Infer the syllabus structure from it:
 - `sections`: the paper's top-level divisions (the way the exam itself is split into parts).
 - `chapters`: the examinable topics — finer-grained than sections; aim for 8-20 that span the
-  whole subject, not just what these papers happened to ask.
+  whole subject. When an official specification is given, mirror ITS topic structure.
 - Give every entry a kebab-case `id` with a short subject prefix (e.g. "{subject[:3]}-section1",
   "{subject[:3]}-cell"). Titles should read like a syllabus topic, not a question.
 - Also return a short `field` (the subject's scope) and a one-line `note` for the tagger.
 - Return ONLY via the emit_scaffold tool.
 
-=== RECENT EXAM PAPERS ===
-{pooled}
+{source}
 """
 
 
@@ -123,7 +138,18 @@ def prepare(subject: str, regen: bool = False) -> int:
     pooled = "\n\n".join(pages_text(dg.get("paper")) for dg in digests)[:MAX_POOL_CHARS]
     if not pooled.strip():
         raise SystemExit(f"No usable paper text for {subject} — run `python3 run.py {subject}` first.")
-    job = {"custom_id": "scaffold", "prompt": build_prompt(subject, pooled), "tool": EMIT_TOOL}
+    # Source priority for the topic list: resource bundle (authoritative) > spec.txt > papers.
+    import resources
+    spec = resources.corpus(subject)[:MAX_SPEC_CHARS]
+    if spec.strip():
+        print(f"[scaffold] deriving topics from the resource bundle ({len(spec)} chars)")
+    else:
+        sp = _spec_path(subject)
+        spec = sp.read_text()[:MAX_SPEC_CHARS] if sp.exists() else ""
+        print(f"[scaffold] using official spec {sp.name}" if spec
+              else f"[scaffold] no resource bundle/spec — inferring topics from papers "
+                   f"(drop course material in {resources.subject_dir(subject)} for accuracy)")
+    job = {"custom_id": "scaffold", "prompt": build_prompt(subject, pooled, spec), "tool": EMIT_TOOL}
     bridge.prepare(_stage(subject), [job], task=_TASK)
     print(f"[scaffold] queued 1 job for the worker")
     return 1
