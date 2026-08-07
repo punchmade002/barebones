@@ -39,19 +39,13 @@ EMIT_TOOL = {
                 "items": {
                     "type": "object",
                     "properties": {
-                        "term": {"type": "string", "description": "a concept, person, event or term"},
-                        "definition": {"type": "string", "description": "one-line, exam-relevant"},
+                        "term": {"type": "string", "description": "the concept/term itself (a noun phrase) — NEVER a question or instruction"},
+                        "definition": {"type": "string", "description": "concise, exam-relevant explanation of the term"},
                         "type": {
                             "type": "string",
-                            "enum": ["person", "event", "movement", "policy", "law", "concept"],
                             "description": (
-                                "Classify the term: "
-                                "person=named individual, "
-                                "event=dated/named occurrence (war, rising, crisis, famine), "
-                                "movement=organised campaign or political/social movement, "
-                                "policy=government strategy or doctrine (e.g. Containment, Appeasement), "
-                                "law=legislation, act, treaty, or agreement, "
-                                "concept=abstract idea, principle, or institution"
+                                "a short, subject-appropriate category — e.g. concept, term, "
+                                "process, person, example, definition. Default 'concept'."
                             ),
                         },
                     },
@@ -65,7 +59,8 @@ EMIT_TOOL = {
 
 
 def pool_by_chapter(canonical: list[dict]) -> dict[str, str]:
-    """Concatenate question text + marking-scheme model answers per chapterId, across years."""
+    """FALLBACK only (no resource bundle): pool question text + scheme answers per chapter. This
+    is the old, weaker source — terms drift toward question fragments, so the prompt forbids that."""
     buckets: dict[str, list[str]] = defaultdict(list)
     for q in canonical:
         cid = q.get("chapterId") or "untagged"
@@ -77,28 +72,30 @@ def pool_by_chapter(canonical: list[dict]) -> dict[str, str]:
     return {cid: "\n".join(parts)[:MAX_CHAPTER_CHARS] for cid, parts in buckets.items()}
 
 
-def build_prompt(subject: str, chapter_title: str, pooled: str) -> str:
-    return f"""You are building a DEDUPLICATED set of study flashcards for one topic of
-Leaving Certificate {subject}.
+def build_prompt(subject: str, chapter_title: str, material: str, from_guide: bool) -> str:
+    src = ("the COURSE MATERIAL (guide / summary / spec) below" if from_guide
+           else "the pooled past-paper text below (no course guide was supplied)")
+    return f"""You are building a clean set of study flashcards for ONE topic of Leaving
+Certificate {subject}, from {src}.
 
 TOPIC: {chapter_title}
 
-Below is the pooled content for this topic from ~20 years of exam questions and their
-marking schemes. Produce ONE clean set of atomic flashcards covering the key examinable
-concepts, people, events and terms.
+Produce the atomic concepts a student MUST know for this topic. Each card is a concept and its
+explanation — exactly the shape the app already uses for other subjects.
 
 Rules:
-- No duplicates. If the same concept appears many times, make ONE card and merge the best
-  detail. Treat variants of the same term as one card.
-- Each card: a short `term`, a one-line exam-relevant `definition`, and a `type` classification.
-- type values: person (named individual), event (war/rising/crisis/famine etc.), movement
-  (organised campaign/party/association), policy (government strategy/doctrine), law
-  (act/treaty/agreement/constitution), concept (abstract idea, institution, or anything else).
-- Prefer concepts a student must know to answer this topic; skip trivia and exam chrome.
+- `term` is the CONCEPT ITSELF — a noun phrase (e.g. "Recommended Daily Allowance", "Pasteurisation",
+  "High biological value protein"). It is NEVER a question or an instruction. Do NOT produce terms
+  like "Define the following", "Using the table, comment on…", or anything ending in "?".
+- `definition` explains the term concisely and accurately, grounded in the material.
+- `type`: a short subject-appropriate category (concept, term, process, person, example…); default "concept".
+- One card per concept — no duplicates; merge variants of the same concept.
+- Cover the topic's key examinable concepts; skip trivia, exam rubric, and page chrome.
+- Stay strictly on the Leaving Certificate {subject} course. Do not invent facts.
 - Return ONLY via the emit_flashcards tool.
 
-=== POOLED CONTENT ===
-{pooled}
+=== {'COURSE MATERIAL' if from_guide else 'POOLED PAST-PAPER TEXT'} ===
+{material}
 """
 
 
@@ -109,12 +106,27 @@ def parse_result(content) -> list[dict]:
     return []
 
 
+import re as _re
+# Reject "terms" that are really question stems / instructions (the old bug).
+_QUESTION_TERM_RE = _re.compile(
+    r"^\s*(define|describe|explain|outline|list|name|state|give|comment|using|discuss|"
+    r"identify|evaluate|account for|distinguish|what|why|how|when|where|who)\b", _re.I)
+
+
+def is_question_like(term: str) -> bool:
+    t = (term or "").strip()
+    return t.endswith("?") or bool(_QUESTION_TERM_RE.match(t)) or len(t.split()) > 9
+
+
 def dedup(cards: list[dict]) -> list[dict]:
-    """Final safety net: drop case/whitespace-identical terms, keep the longest definition."""
+    """Final safety net: drop question-stem 'terms', then case/whitespace-identical duplicates
+    (keeping the longest definition)."""
     best: dict[str, dict] = {}
+    dropped = 0
     for c in cards:
         term = (c.get("term") or "").strip()
-        if not term:
+        if not term or is_question_like(term):          # not a concept — discard
+            dropped += 1 if term else 0
             continue
         key = term.lower()
         if key not in best or len(c.get("definition", "")) > len(best[key].get("definition", "")):
@@ -123,24 +135,41 @@ def dedup(cards: list[dict]) -> list[dict]:
                 "definition": (c.get("definition") or "").strip(),
                 "type": c.get("type") or "concept",
             }
+    if dropped:
+        print(f"    dropped {dropped} question-like 'term(s)'")
     return list(best.values())
 
 
 def _chapters(subject: str, only: str | None):
-    canonical = json.loads((CANONICAL / f"{subject}.json").read_text())
-    pooled = pool_by_chapter(canonical)
-    titles = {c["id"]: c["title"] for c in load_scaffold(subject)["chapters"]}
-    # only build decks for real scaffold topics; off-scaffold tags (e.g. <UNKNOWN>) are
-    # left for the segmentation review queue, not turned into a junk flashcard set.
-    skipped = [cid for cid in pooled if cid not in titles]
-    if skipped:
-        print(f"skipping {len(skipped)} off-scaffold tag bucket(s): {', '.join(skipped)}")
-    items = [(cid, titles[cid], txt) for cid, txt in pooled.items() if cid in titles and txt.strip()]
+    """Return [(chapterId, title, material, from_guide)] — one deck source per scaffold chapter.
+
+    PRIMARY source is the resource bundle (course guide/summary/spec): concepts come from what the
+    course says must be learned, NOT from past-paper question text. Each chapter sees the corpus
+    (capped) and is told to pull just its topic's concepts. Only if there's no bundle do we fall
+    back to pooling past-paper text per chapter."""
+    import resources
+    chapters = load_scaffold(subject)["chapters"]
+    corpus = resources.corpus(subject)
+    if corpus.strip():
+        material = corpus[:MAX_CHAPTER_CHARS]
+        print(f"[flashcards] sourcing concepts from the resource bundle ({len(corpus)} chars)")
+        items = [(c["id"], c["title"], material, True) for c in chapters]
+    else:
+        print(f"[flashcards] no resource bundle — falling back to past-paper text "
+              f"(weaker; drop course material in {resources.subject_dir(subject)})")
+        canonical = json.loads((CANONICAL / f"{subject}.json").read_text())
+        pooled = pool_by_chapter(canonical)
+        titles = {c["id"]: c["title"] for c in chapters}
+        skipped = [cid for cid in pooled if cid not in titles]
+        if skipped:
+            print(f"skipping {len(skipped)} off-scaffold tag bucket(s): {', '.join(skipped)}")
+        items = [(cid, titles[cid], txt, False) for cid, txt in pooled.items()
+                 if cid in titles and txt.strip()]
     if only:
         items = [it for it in items if it[0] == only]
     if not items:
-        raise SystemExit(f"Nothing to do — is {CANONICAL / (subject + '.json')} populated? "
-                         f"Run `python3 segment.py {subject}` first.")
+        raise SystemExit(f"Nothing to do for {subject} — add a resource bundle at "
+                         f"pipeline/resources/{subject}/ or populate canonical first.")
     return items
 
 
@@ -148,9 +177,9 @@ def _stage(subject: str) -> str:
     return f"flashcards-{subject}"
 
 
-_TASK = ("Build a deduplicated set of study flashcards for each topic. Each job's `prompt` "
-         "pools ~20 years of exam content for one topic; return ONE clean set of atomic cards "
-         "as `schema` describes (term, definition, type), no duplicates.")
+_TASK = ("Build a clean set of study flashcards for each topic. Each job's `prompt` gives one "
+         "topic and the course material to draw from; return atomic cards as `schema` describes "
+         "(term = the concept itself, never a question; definition; type). No duplicates.")
 
 
 def render_js(subject: str, by_chapter: dict[str, list]) -> Path:
@@ -171,10 +200,10 @@ def prepare(subject: str, only: str | None = None) -> int:
     items = _chapters(subject, only)
     jobs = [{
         "custom_id": f"c{i}",
-        "prompt": build_prompt(subject, title, txt),
+        "prompt": build_prompt(subject, title, material, from_guide),
         "tool": EMIT_TOOL,
         "meta": {"chapterId": cid},
-    } for i, (cid, title, txt) in enumerate(items)]
+    } for i, (cid, title, material, from_guide) in enumerate(items)]
     bridge.prepare(_stage(subject), jobs, task=_TASK)
     print(f"[flashcards] {len(jobs)} topic(s) queued for the worker")
     return len(jobs)
