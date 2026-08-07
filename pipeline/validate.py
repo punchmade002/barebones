@@ -249,6 +249,31 @@ def _reset_attempts(subject: str) -> None:
     p = _attempts_path(subject)
     if p.exists():
         p.unlink()
+    _baseline_path(subject).unlink(missing_ok=True)
+
+
+# ── gate baseline ───────────────────────────────────────────────────────────────
+# `clean()` rewrites canonical without the stub parts it quarantined. That makes enforce()
+# destructive: a second enforce() measures the set the first one already sanitised, so a run
+# that quarantined 20% reports 0% the next time and auto-publishes. The gate has to judge the
+# WHOLE run, so the pre-clean total and the cumulative drops are persisted here and only reset
+# by --restart (via _reset_attempts).
+def _baseline_path(subject: str):
+    return REPORTS / f"gate-baseline-{subject}.json"
+
+
+def _load_baseline(subject: str) -> dict | None:
+    p = _baseline_path(subject)
+    if not p.exists():
+        return None
+    try:
+        return json.loads(p.read_text())
+    except Exception:
+        return None
+
+
+def _save_baseline(subject: str, data: dict) -> None:
+    _baseline_path(subject).write_text(json.dumps(data, indent=2))
 
 
 def _drop_papers(subject: str, keys) -> int:
@@ -390,8 +415,18 @@ def enforce(subject: str) -> dict:
     decides whether the run is clean enough to auto-publish."""
     import curated
     import segment
-    before = len(_load(subject))
+    # Judge the whole run, not just what survives this invocation — see _baseline_path above.
+    base = _load_baseline(subject)
+    before = base["before"] if base else len(_load(subject))
+    prior_dropped_q = base["dropped_questions"] if base else 0
+    prior_dropped_p = base["dropped_parts"] if base else 0
+
     creport = clean(subject)                          # drop stub parts/questions -> quarantine
+    creport["dropped_questions"] += prior_dropped_q   # cumulative across re-runs
+    creport["dropped_parts"] += prior_dropped_p
+    _save_baseline(subject, {"before": before,
+                             "dropped_questions": creport["dropped_questions"],
+                             "dropped_parts": creport["dropped_parts"]})
 
     # curated wins: drop generated questions duplicating the hand-curated bank, then re-render
     kept, dup_dropped = curated.drop_duplicates(_load(subject))

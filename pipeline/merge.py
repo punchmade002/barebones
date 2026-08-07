@@ -13,6 +13,7 @@ duplicate <script> tag.
 """
 from __future__ import annotations
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
@@ -47,8 +48,16 @@ def _wire(files: list[tuple[str, str]]) -> int:
     html = APP_HTML.read_text()
     added = 0
     for dest_name, _label in files:
-        if f"./{dest_name}" in html:                  # matches with or without a ?v= query string
-            continue                                  # already wired
+        # Already wired: the FILE was just overwritten, so the ?v= must move or every returning
+        # user keeps the cached previous build. Bump it rather than skipping.
+        existing = re.search(rf'(\./{re.escape(dest_name)})\?v=(\d+)', html)
+        if existing:
+            html = html.replace(existing.group(0), f"{existing.group(1)}?v={int(existing.group(2)) + 1}")
+            APP_HTML.write_text(html)
+            print(f"[merge] {dest_name} cache-buster -> v={int(existing.group(2)) + 1}")
+            continue
+        if f"./{dest_name}" in html:                  # wired, but with no ?v= to bump
+            continue
         tag = f'    <script src="./{dest_name}?v=1"></script>\n'
         idx = html.find(f'<script src="{APP_TAG}')
         if idx == -1:
