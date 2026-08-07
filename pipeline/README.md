@@ -5,15 +5,20 @@ Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_
 ```
 run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, NO API key
 agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
-config.py        paths, subjects, SYLLABUS_CUTOFF, and the diagram-crop tunables
+config.py        paths, subjects, models per stage, length/validation tunables, SYLLABUS_CUTOFF
+resources.py     Stage 0 — ingest pipeline/resources/<subject>/ (guide/summary/spec) -> corpus + cutoff
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
-scaffold_gen.py  Stage 2.5 — auto-derive scaffold/<subject>.json from digests when missing
-segment.py       Stages 3-5 — questions + parts + marks + model answers + topic tags
-images.py        Stage 7 — diagram crops -> exam-images/, sets part.diagram (subagent finds the box)
-model_answers.py Stage 6a — H1 sample answers for questions the scheme doesn't model
-flashcards.py    Stage 6b — deduplicated, per-chapter flashcards across all years
+scaffold_gen.py  Stage 2.5 — derive scaffold/<subject>.json (from <subject>.spec.txt if present, else digests)
+segment.py       Stages 3-5 — questions + parts + marks + topic tags, from the EXAM PAPER ONLY
+schemes.py       Stage 5b — match each part's official answer out of the MARKING SCHEME ONLY
+images.py        Stage 7 — crop candidate figures from the page (subagent finds the box); marks pending
+images_verify.py Stage 7b — visually confirm each crop is a real figure before attaching; rejects bad crops
+model_answers.py Stage 6a — H1 answers for parts the scheme doesn't model; grounded in the resource bundle
+flashcards.py    Stage 6b — per-chapter flashcards sourced from the resource bundle (not question text)
+curated.py       guard — drop generated questions that duplicate the hand-curated exam-questions-db.js
+validate.py      gate — re-segment/quarantine broken questions, tag-review bucket, sample; auto-publish if clean
 merge.py         Stage 8 — copy generated JS to repo root + wire <script> tags into app.html
 scaffold/        per-subject section+chapter lists the tagger assigns to (auto-made if absent)
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
@@ -61,14 +66,30 @@ Modifiers:
 
 ## How the keyless model stages work
 
-Stages 1-2 (acquire + digest) are plain Python. The five model stages each have a `prepare`
-(write jobs) and `collect` (read answers) half, bridged by `agent_bridge.py`:
+Stages 1-2 (acquire + digest) are plain Python. The six model stages (scaffold, segment, images,
+schemes, answers, flashcards) each have a `prepare` (write jobs) and `collect` (read answers)
+half, bridged by `agent_bridge.py`:
 
 - `prepare` writes one `in/<id>.json` per unit of work — `{prompt, schema, meta, image?}`. For
   `images`, it also renders the page PNG into `in/` for the worker to look at.
-- the **`pipeline-worker`** Haiku subagent fills `out/<id>.json` with JSON matching `schema`.
+- the **`pipeline-worker`** subagent fills `out/<id>.json` with JSON matching `schema`. `run.py`
+  prints a `model:` line per stage so the worker runs on the right model: **opus** for `segment`
+  (exact question text + marks is the foundation), **sonnet** for `schemes`/`answers` (authoring),
+  **haiku** for the rest.
 - `collect` reads `out/`, wraps each answer so the existing `parse_result`/`to_canonical`/crop
   code runs unchanged, and finalizes (canonical store, `.generated.js`, diagram crops, reports).
+
+**Paper vs scheme are read separately (reform A).** `segment` sees only the exam paper, so it
+can't mistake the marking scheme's mark-allocation skeleton for the question wording (the old
+combined call lost ~20% of question text that way). `schemes` then reads only the marking scheme
+and copies each part's official answer back by part id; `answers` writes H1 answers for whatever
+the scheme didn't cover.
+
+**Validation gate (reform C/D/G).** After segment, `validate.post_segment` re-segments any paper
+with stub question text or zero-mark parts (up to `SEGMENT_RETRY_ATTEMPTS` on opus); leftovers are
+quarantined. Before merge, `validate.enforce` drops any remaining stub parts to
+`_data/canonical/<subject>.quarantine.json`, writes `_data/reports/validate-<subject>.json` and a
+human `sample-<subject>.md`, and `run.py` STOPS — merge happens only when you re-run with `--merge`.
 
 It's fully **idempotent / resumable**: a stage already collected is skipped, a worker job that
 already has an `out/` file is never redone, segmented papers and cropped diagrams are not repeated,

@@ -1,26 +1,23 @@
-"""Stages 3-5 — SEGMENT + PAIR + TAG, batched on Claude Haiku.
+"""Stages 3-5 — SEGMENT + TAG, from the EXAM PAPER ONLY (reform A).
 
-Reads the digests produced by run.py/digest.py and, with ONE model call per paper, turns
-each into structured records: questions split into parts (with marks), the marking-scheme
-model answer for each part, a topic tag (chapterId/sectionId from scaffold/<subject>.json),
-and a confidence score. Output is the canonical store + the rendered EXAM_QUESTIONS_DB JS.
+Reads the digests produced by run.py/digest.py and, with one model call per paper, turns each
+into structured records: questions split into parts (with marks), and a topic tag
+(chapterId/sectionId from scaffold/<subject>.json) plus a confidence score. Output is the
+canonical store + the rendered EXAM_QUESTIONS_DB JS.
 
-Flashcards are deliberately NOT made here: per-paper generation would duplicate the same
-term across 20 years. They're a separate later step (flashcards.py) that dedups across the
-whole canonical pool, one set per chapter, from the marking-scheme `model` text.
+Crucially it is given ONLY the exam paper — never the marking scheme. The old combined call
+asked one model to read both documents at once and routinely emitted the scheme's
+mark-allocation skeleton ("Part (a) … 4 marks") as the question wording, losing ~20% of the
+real question text. Official answers are matched separately afterwards by schemes.py (scheme
+only); H1 answers for the rest by model_answers.py. Flashcards are a later per-chapter step.
 
-This is the ONLY stage that uses a model, and it does so as plain batched API calls — not
-an interactive agent. Default uses the Message Batches API (≈50% cheaper, unattended);
-`--sync` runs immediately with local concurrency for a quick test.
+Keyless: the model work is done by a spawned `pipeline-worker` subagent via agent_bridge.py
+(no ANTHROPIC_API_KEY). run.py recommends the `opus` model for this stage — exact question
+text and marks are the foundation everything downstream depends on.
 
-    pip install anthropic --break-system-packages
-    export ANTHROPIC_API_KEY=sk-ant-...
-    python segment.py history            # batch: submit, poll, write (one unattended run)
-    python segment.py history --sync     # immediate, concurrent (good for a 1-2 paper test)
-    python segment.py history --limit 2  # only process 2 papers (cheap smoke test)
-
-Cost is small: a paper+scheme is ~20-30k input tokens; Haiku at batch rates makes a full
-20-year subject a few dollars. Set MODEL below if you want a different Haiku build.
+    python3 segment.py history prepare    # queue one job per paper for the worker
+    python3 segment.py history collect      # fold the worker's answers into canonical
+    python3 segment.py history --limit 2 prepare   # only 2 papers (cheap smoke test)
 """
 from __future__ import annotations
 import json
@@ -45,9 +42,13 @@ MAX_TOKENS = 16_000                # output cap; a full paper's questions+answer
 MAX_QUESTIONS_PER_PAPER = 200      # above this, the paper is malformed (usually bad OCR) -> skip
 
 # ── structured-output tool: forces clean JSON back from the model ─────────────
+# PAPER-ONLY (reform A). This stage reads the EXAM PAPER alone — never the marking
+# scheme — so the model can't mistake the scheme's mark-allocation skeleton for the
+# question wording (the old combined call lost ~20% of question text that way).
+# Official model answers are matched out of the scheme later, by schemes.py.
 EMIT_TOOL = {
     "name": "emit_questions",
-    "description": "Return the exam questions extracted and tagged from this paper.",
+    "description": "Return the exam questions extracted and tagged from this exam paper.",
     "input_schema": {
         "type": "object",
         "properties": {
@@ -65,12 +66,11 @@ EMIT_TOOL = {
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "label": {"type": "string"},
-                                    "question": {"type": "string"},
-                                    "marks": {"type": "integer"},
-                                    "model": {"type": "string", "description": "model answer from the marking scheme; '' if none"},
+                                    "label": {"type": "string", "description": "sub-part label, e.g. '(a)'"},
+                                    "question": {"type": "string", "description": "the FULL question wording as printed on the paper — never just a label like 'Part (a)'"},
+                                    "marks": {"type": "integer", "description": "marks for this part; MUST be > 0 (use the section's marking rule if not printed beside the part)"},
                                 },
-                                "required": ["question", "marks"],
+                                "required": ["label", "question", "marks"],
                             },
                         },
                     },
@@ -123,8 +123,8 @@ def build_prompt(subject: str, digest: dict, scaffold: dict) -> str:
     sections = "\n".join(f"  {s['id']}: {s['title']}" for s in scaffold["sections"])
     chapters = "\n".join(f"  {c['id']}: {c['title']}" for c in scaffold["chapters"])
     paper = pages_text(digest.get("paper"))
-    scheme = pages_text(digest.get("scheme"))[:MAX_SCHEME_CHARS]
     return f"""You are extracting Leaving Certificate {subject} exam questions for a study app.
+You are given ONLY the exam paper (no marking scheme). Transcribe what the paper actually asks.
 
 YEAR {digest['year']} · {digest['level'].upper()} LEVEL · status: {digest['status']}
 
@@ -135,19 +135,21 @@ CHAPTERS:
 {chapters}
 
 Rules:
-- Split each exam question into its parts. Keep marks as integers; 0 if not shown.
-- Put each sub-part on its own line in `question` (join with \\n). Strip page numbers,
-  booklet titles, instructions and other chrome.
-- For each part, copy the corresponding model answer from the MARKING SCHEME into `model`
-  (concise, faithful; '' if the scheme has none).
+- Split each exam question into its parts (a), (b), (i), (ii)… as the paper prints them.
+- `question` MUST contain the FULL wording of what that part asks, exactly as printed.
+  NEVER output a bare label like "Part (a)" or "(i)" as the question — that is wrong;
+  put the label in `label` and the real question text in `question`. If a part has
+  sub-points, join them with \\n into the one `question` string.
+- `marks`: an integer GREATER THAN ZERO for every part. If marks aren't printed beside
+  the part, derive them from the section's marking rule stated in the paper's instructions
+  (e.g. "Section A: each question carries 6 marks", "Question 1 is worth 80 marks") and
+  split sensibly across the sub-parts so they sum to the question's total. Do not output 0.
+- Strip page numbers, booklet titles, "write your answers here", and other chrome.
 - Set tag_confidence 0-1 (1 = the paper labels the topic explicitly).
 - Return ONLY via the emit_questions tool.
 
 === EXAM PAPER ===
 {paper}
-
-=== MARKING SCHEME ===
-{scheme if scheme else '(none available)'}
 """
 
 
@@ -190,8 +192,10 @@ def to_canonical(subject: str, digest: dict, questions: list[dict],
                       + (" [REFERENCE — pre-current-syllabus]" if digest["status"] == "reference" else ""),
             "year": yr,
             "tag_confidence": q.get("tag_confidence", 0),
+            # `model` starts empty — schemes.py fills official answers from the marking
+            # scheme, then model_answers.py writes H1 answers for whatever's left.
             "parts": [{"label": p.get("label", ""), "question": p.get("question", ""),
-                       "marks": p.get("marks", 0), "model": p.get("model", ""), "diagram": ""}
+                       "marks": p.get("marks", 0), "model": "", "diagram": ""}
                       for p in parts],
         })
     return ids.assign_unique_ids(out, taken=taken)
