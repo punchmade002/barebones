@@ -192,56 +192,58 @@ function buildSubjectChapters(subjectId) {
     const hasInjected = los.some((lo) => lo.keyTerms && lo.keyTerms.length > 0);
 
     if (hasInjected && los.length > 1) {
-      // Expose each LO as its own chapter so sidecar content stays granular.
-      for (const lo of los) {
+      // A chapter holds many learning outcomes. Keep each LO as an outcome
+      // inside its chapter — never promote one to a chapter of its own.
+      const outcomes = los
+        .map((lo) => ({
+          id: `${lo.id}-core`,
+          code: lo.code,
+          title: lo.title,
+          keyTerms: (lo.keyTerms && lo.keyTerms.length)
+            ? lo.keyTerms
+            : (lo.notes || []).map((note, idx) => ({
+                term: note.h || `${lo.title} ${idx + 1}`,
+                definition: note.b || "",
+                section: lo.title,
+              })),
+        }))
+        .filter((lo) => lo.keyTerms.length);
+
+      if (outcomes.length) {
         results.push({
-          id: lo.id,
-          title: `${chapter.number}. ${lo.title}`,
-          learningOutcomes: [
-            {
-              id: `${lo.id}-core`,
-              code: lo.code,
-              title: lo.title,
-              keyTerms: (lo.keyTerms && lo.keyTerms.length)
-                ? lo.keyTerms
-                : ensureMinimumConcepts(
-                    (lo.notes || []).map((note, idx) => ({
-                      term: note.h || `${lo.title} ${idx + 1}`,
-                      definition: note.b || "",
-                      section: lo.title,
-                    })),
-                    chapter
-                  ),
-            },
-          ],
+          id: chapter.id,
+          title: `${chapter.number}. ${chapter.title}`,
+          learningOutcomes: outcomes,
         });
+        continue;
       }
-    } else {
-      // Single-LO chapters or chapters without injected keyTerms: one merged chapter.
-      results.push({
-        id: chapter.id,
-        title: `${chapter.number}. ${chapter.title}`,
-        learningOutcomes: [
-          {
-            id: `${chapter.id}-core`,
-            code: `${chapter.number}.0`,
-            title: "Core Concepts",
-            keyTerms: ensureMinimumConcepts(
-              los.flatMap((lo, loIndex) =>
-                (lo.keyTerms && lo.keyTerms.length)
-                  ? lo.keyTerms
-                  : (lo.notes || []).map((note, idx) => ({
-                      term: note.h || `${lo.title} ${idx + 1}`,
-                      definition: note.b || "",
-                      section: lo.title || `Section ${loIndex + 1}`,
-                    }))
-              ),
-              chapter
-            ),
-          },
-        ],
-      });
+      // Nothing usable on any outcome — fall through to the merged shape below.
     }
+
+    // Single-LO chapters, or chapters without injected keyTerms: one merged outcome.
+    results.push({
+      id: chapter.id,
+      title: `${chapter.number}. ${chapter.title}`,
+      learningOutcomes: [
+        {
+          id: `${chapter.id}-core`,
+          code: `${chapter.number}.0`,
+          title: "Core Concepts",
+          keyTerms: ensureMinimumConcepts(
+            los.flatMap((lo, loIndex) =>
+              (lo.keyTerms && lo.keyTerms.length)
+                ? lo.keyTerms
+                : (lo.notes || []).map((note, idx) => ({
+                    term: note.h || `${lo.title} ${idx + 1}`,
+                    definition: note.b || "",
+                    section: lo.title || `Section ${loIndex + 1}`,
+                  }))
+            ),
+            chapter
+          ),
+        },
+      ],
+    });
   }
   return results;
 }
@@ -411,6 +413,7 @@ const els = {
   subjectWorkbench: document.getElementById("subjectWorkbench"),
   flashcardList: document.getElementById("flashcardList"),
   flashcardStudy: document.getElementById("flashcardStudy"),
+  outcomeNav: document.getElementById("outcomeNav"),
   openFullNotes: document.getElementById("openFullNotes"),
   fullNotesScreen: document.getElementById("fullNotesScreen"),
   fullNotesTitle: document.getElementById("fullNotesTitle"),
@@ -1473,8 +1476,16 @@ function selectChapterFromOverview(chapterId) {
 
 function renderOutcomes() {
   const chapter = getSelectedChapter();
-  const outcome = getSelectedOutcome();
-  if (!chapter || !outcome) return;
+  if (!chapter) return;
+  let outcome = getSelectedOutcome();
+  if (!outcome) {
+    // Stale selection (e.g. chapter changed underneath) — fall back to its first outcome.
+    selectedOutcomeId = chapter.learningOutcomes[0]?.id || "";
+    outcome = getSelectedOutcome();
+  }
+  if (!outcome) return;
+
+  renderOutcomeNav(chapter, outcome);
 
   els.flashcardList.innerHTML = "";
   const allPoints = outcome.keyTerms || [];
@@ -1507,8 +1518,13 @@ function renderOutcomes() {
   });
   const chapterPct = chapterTotalCards > 0 ? Math.round((chapterLearnedCards / chapterTotalCards) * 100) : 0;
 
+  const outcomeLabel = chapter.learningOutcomes.length > 1
+    ? `<p class="muted small">${escapeHtml([outcome.code, compactText(outcome.title || "")].filter(Boolean).join(" · "))}</p>`
+    : "";
+
   els.flashcardStudy.innerHTML = `
     <p class="muted small">${escapeHtml(chapter.title)}</p>
+    ${outcomeLabel}
     <p class="muted small">${chapterLearnedCards}/${chapterTotalCards} concept points learned</p>
     <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
     <p class="muted small">Goal progress: ${step}/3</p>
@@ -1550,6 +1566,42 @@ function renderOutcomes() {
   });
 
   els.hierarchyPanel.classList.add("hidden");
+}
+
+// A chapter can hold many learning outcomes — this is how you move between them.
+function renderOutcomeNav(chapter, outcome) {
+  const nav = els.outcomeNav;
+  if (!nav) return;
+  const los = chapter.learningOutcomes || [];
+  if (los.length < 2) {
+    nav.innerHTML = "";
+    nav.classList.add("hidden");
+    return;
+  }
+  nav.classList.remove("hidden");
+
+  const learnedByOutcome = getLearnedByOutcome();
+  nav.innerHTML = los.map((lo, idx) => {
+    const cards = cardsForOutcome(lo, selectedSubjectId);
+    const learned = new Set(learnedByOutcome[lo.id] || []);
+    const done = cards.filter((c) => learned.has(c.id)).length;
+    const active = lo.id === outcome.id;
+    return `
+      <button class="outcome-chip ${active ? "active" : ""}" data-outcome-id="${escapeHtml(lo.id)}" title="${escapeHtml(compactText(lo.title || ""))}">
+        <span class="outcome-chip-code">${escapeHtml(lo.code || String(idx + 1))}</span>
+        <span class="outcome-chip-title">${escapeHtml(compactText(lo.title || ""))}</span>
+        <span class="outcome-chip-count">${done}/${cards.length}</span>
+      </button>`;
+  }).join("");
+
+  nav.querySelectorAll(".outcome-chip").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      selectedOutcomeId = btn.dataset.outcomeId;
+      studyIndex = 0;
+      showAnswer = false;
+      renderOutcomes();
+    });
+  });
 }
 
 function renderHierarchy(chapter) {

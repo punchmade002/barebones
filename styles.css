@@ -1096,6 +1096,94 @@ button:active { transform: scale(0.965) !important; }
   box-shadow: var(--s1);
 }
 
+/* ── Outcome nav — move between the outcomes inside one chapter ── */
+.outcome-nav {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+  padding: 0.15rem 0.15rem 0.45rem;
+  margin-bottom: 0.5rem;
+}
+
+.outcome-nav::-webkit-scrollbar { height: 6px; }
+.outcome-nav::-webkit-scrollbar-track { background: transparent; }
+.outcome-nav::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: var(--r-full);
+}
+.outcome-nav:hover::-webkit-scrollbar-thumb { background: var(--accent-light); }
+
+.outcome-chip {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  max-width: 17rem;
+  padding: 0.4rem 0.75rem;
+  background: var(--panel-2);
+  border: 1.5px solid transparent;
+  border-radius: var(--r-full);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: left;
+  box-shadow: none;
+  transition:
+    background var(--t) var(--ease),
+    color var(--t) var(--ease),
+    border-color var(--t) var(--ease);
+}
+
+.outcome-chip:hover {
+  background: var(--accent-xlight);
+  color: var(--accent-strong);
+  border-color: var(--accent-light);
+  transform: none;
+}
+
+.outcome-chip.active {
+  background: var(--accent-xlight);
+  color: var(--accent-strong);
+  border-color: var(--accent-edge);
+  font-weight: 600;
+}
+
+.outcome-chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.outcome-chip-code {
+  flex: 0 0 auto;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-2);
+}
+
+.outcome-chip:hover .outcome-chip-code,
+.outcome-chip.active .outcome-chip-code { color: var(--accent-strong); }
+
+.outcome-chip-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.outcome-chip-count {
+  flex: 0 0 auto;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.outcome-chip.active .outcome-chip-count { color: var(--accent-strong); }
+
 .study-face {
   font-size: 1rem;
   line-height: 1.65;
