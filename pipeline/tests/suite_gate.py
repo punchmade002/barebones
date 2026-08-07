@@ -98,10 +98,12 @@ def test_cross_chapter_duplicate_cards_are_found():
     assert f and "duplicated across chapters" in f[0].message
 
 
-def test_low_duplicate_rate_warns_rather_than_blocks():
+def test_even_one_duplicate_blocks():
+    """flashcards.consolidate() now eliminates duplicates outright, so the gate no longer
+    tolerates a small rate — a single survivor means the consolidation pass failed."""
     cards = {"a": [{"term": f"t{i}", "definition": "d"} for i in range(50)] + [{"term": "t0", "definition": "d"}]}
     f = list(gate.check_flashcard_duplicates(ctx([row()], cards=cards)))
-    assert f and f[0].severity == gate.WARN, f
+    assert f and f[0].severity == gate.BLOCK, f
 
 
 def test_high_duplicate_rate_blocks():

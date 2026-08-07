@@ -26,7 +26,8 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
-from config import CANONICAL, DIGEST, REPORTS, ANSWER_CTX_CHARS, recommended_words
+from config import (CANONICAL, DIGEST, REPORTS, ANSWER_CTX_CHARS, WRITING_WPM,
+                    recommended_words, recommended_minutes)
 from segment import _retry, MODEL, load_scaffold
 import ids
 import validate
@@ -103,12 +104,17 @@ CORPUS_CTX_CHARS = 15_000       # legacy cap, kept for the API path's cached_pre
 def _part_line(subject: str, p: dict) -> str:
     marks = p.get("marks", 0)
     points = p.get("scheme_points")
-    words = recommended_words(subject, marks, points)
+    minutes = p.get("time_minutes") or recommended_minutes(subject, marks)
+    words = recommended_words(subject, marks, points, minutes)
     bits = []
     if points:
         bits.append(f"~{points} scheme points")
+    if minutes:
+        # The time budget is stated explicitly, not just folded into the word count, because it
+        # is what makes the length a real constraint rather than an arbitrary number.
+        bits.append(f"{minutes} min in the exam")
     if words:
-        bits.append(f"AT LEAST {words} words")
+        bits.append(f"about {words} words" if minutes else f"at least {words} words")
     target = f" [{'; '.join(bits)}]" if bits else ""
     return f"[{p.get('label') or 'part'}] ({marks} marks{target}) {p['question']}"
 
@@ -132,9 +138,17 @@ def cached_prefix(subject: str, scheme_ctx: str, used_fallback: bool,
     return f"""You are a State Examinations Commission examiner AND a top H1 candidate for
 Leaving Certificate {subject}. Write sample answers that would score FULL MARKS.
 
-{note}Each part states a length as "~N scheme points" and/or "AT LEAST N words". MEET OR EXCEED
-it — develop EVERY scheme point fully with specific, accurate detail. Do not stop short; a
-full-marks exemplar is thorough, not terse. No padding or waffle, but cover every creditable point.
+{note}Each part states its budget as "~N scheme points", "N min in the exam" and "about N words".
+The word count is derived from the time: a student writes about {WRITING_WPM} words a minute under exam
+conditions, so that is genuinely all they can produce for that part.
+
+WRITE TO THAT BUDGET. The answer must be one a real candidate could actually write in the time
+allowed — an exemplar nobody can finish teaches nothing. Land within roughly ±15% of the stated
+word count: do not stop short, and do not overrun.
+
+Within that budget, maximise credit. Develop every scheme point you can fit, with specific,
+accurate detail. If the points do not all fit, cover the highest-scoring ones fully rather than
+covering everything thinly — and never pad, waffle, or restate the question to reach a length.
 
 Match what the marking scheme rewards: sustained relevance to the question, accurate
 specific evidence (names, dates, events, statistics), clear structure, developed analysis,

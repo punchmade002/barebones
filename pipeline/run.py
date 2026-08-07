@@ -92,6 +92,7 @@ def main() -> None:
     digest.run(subject)
 
     import scaffold_gen
+    import exam_info
     import segment
     import images
     import images_verify
@@ -102,7 +103,8 @@ def main() -> None:
     import merge
 
     if "--restart" in args:
-        for mod in (scaffold_gen, segment, images, images_verify, schemes, model_answers, flashcards):
+        for mod in (scaffold_gen, exam_info, segment, images, images_verify, schemes,
+                    model_answers, flashcards):
             bridge.reset(mod._stage(subject))
         validate._reset_attempts(subject)
         print("restarted: cleared all queued worker jobs for this subject.\n")
@@ -112,6 +114,10 @@ def main() -> None:
     # (H1 fill for the rest) -> flashcards. prepare() returns 0 when there's nothing to do.
     stages = [
         ("scaffold",   scaffold_gen, lambda: scaffold_gen.prepare(subject, regen=("--regen-scaffold" in args))),
+        # exam-info runs BEFORE segment: it supplies the paper's total marks/duration, which is
+        # what turns a part's marks into a time label and caps how long an answer may be. Running
+        # it later would mean answers were authored with no time budget.
+        ("exam-info",  exam_info,    lambda: exam_info.prepare(subject, regen=("--regen-scaffold" in args))),
         ("segment",    segment,      lambda: segment.prepare(subject, limit=limit)),
     ]
     if "--no-images" not in args:
@@ -165,6 +171,11 @@ def main() -> None:
           f"{gate['kept_questions']} clean questions kept; "
           f"{gate['remaining_soft']} soft warning(s) ({gate['soft_frac']:.0%}); "
           f"{gate['low_confidence']} low-confidence tag(s).")
+    if gate["untimed_parts"]:
+        print(f"timing: {gate['timed_parts']} part(s) labelled, {gate['untimed_parts']} without a "
+              f"time (missing marks, or exam-info didn't run).")
+    else:
+        print(f"timing: all {gate['timed_parts']} part(s) carry a time label.")
     if gate.get("quarantine"):
         print(f"quarantine: {gate['quarantine']}")
     if gate.get("tag_review"):
