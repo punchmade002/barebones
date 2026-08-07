@@ -1666,6 +1666,12 @@ function getExamDisclaimer(subject) {
       <span>The Biology course has minor differences from previous years. Past exam papers are still a <strong>reliable</strong> way to study — the core content is largely the same.</span>
     </div>`;
   }
+  if (subject === "chemistry") {
+    return `<div class="exam-disclaimer exam-disclaimer--warning">
+      <span class="exam-disclaimer-icon">⚠</span>
+      <span>Chemistry moved to a new specification in September 2025, first examined in 2027. <strong>Every past paper here is old course</strong> — none reflects the new exam structure, and none covers the Chemistry in Practice investigation. The underlying chemistry still transfers, so use these for content practice, but not as a guide to the format of the exam you will sit.</span>
+    </div>`;
+  }
   if (subject === "maths") {
     return `<div class="exam-disclaimer exam-disclaimer--info">
       <span class="exam-disclaimer-icon">ℹ</span>
