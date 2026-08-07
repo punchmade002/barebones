@@ -1,7 +1,8 @@
 """Stage 0 — RESOURCE BUNDLE ingestion (the pipeline's source of truth).
 
-Each subject gets a drop folder `pipeline/resources/<subject>/`. Put any authoritative material
-there — official spec, course summary, teacher's guide, worked questions, notes — as PDF or text.
+Each subject gets a contract folder `pipeline/resources/<subject>/`. Every folder must contain
+the same four files: `manifest.json`, `spec-syllabus.pdf`, `guide-simplestudy.md`, and
+`worked-example-guidance.md`.
 This module pools it all into one text corpus that the rest of the pipeline treats as ground truth:
 
   - scaffold_gen.py  derives the topic list from it (not inferred from papers)
@@ -29,6 +30,13 @@ except ImportError:
 
 MAX_CORPUS_CHARS = 400_000         # cap the pooled corpus so model calls stay bounded
 TEXT_SUFFIXES = {".txt", ".md", ".text"}
+REQUIRED_FILES = (
+    "manifest.json",
+    "spec-syllabus.pdf",
+    "guide-simplestudy.md",
+    "worked-example-guidance.md",
+)
+REQUIRED_MANIFEST_KEYS = ("schemaVersion", "subject", "level", "sources", "unitCount", "topicCount")
 
 # Phrases that introduce the year a syllabus was first examined / revised.
 _CUTOFF_RE = re.compile(
@@ -56,6 +64,8 @@ def _files(subject: str) -> list[Path]:
 def role_of(path: Path) -> str:
     """Light filename heuristic so callers can weight material. No manifest required."""
     n = path.name.lower()
+    if n == "manifest.json":
+        return "manifest"
     if n.startswith(("guide", "teacher")):
         return "guide"
     if n.startswith(("summary", "notes", "revision")):
@@ -65,6 +75,57 @@ def role_of(path: Path) -> str:
     if "worked" in n or "questions" in n or "answers" in n:
         return "worked-questions"
     return "material"
+
+
+def validate_bundle(subject: str) -> list[str]:
+    """Return actionable contract errors. An empty list means the bundle is pipeline-ready."""
+    d = subject_dir(subject)
+    if not d.is_dir():
+        return [f"missing directory: {d}"]
+    errors = [f"missing required file: {name}" for name in REQUIRED_FILES if not (d / name).is_file()]
+    manifest_path = d / "manifest.json"
+    if not manifest_path.is_file():
+        return errors
+    try:
+        manifest = json.loads(manifest_path.read_text())
+    except Exception as exc:
+        return [*errors, f"manifest.json is invalid JSON: {exc}"]
+    for key in REQUIRED_MANIFEST_KEYS:
+        if key not in manifest:
+            errors.append(f"manifest.json missing key: {key}")
+    if manifest.get("schemaVersion") != 1:
+        errors.append("manifest.json schemaVersion must be 1")
+    if manifest.get("subject") != subject:
+        errors.append(f"manifest subject must be '{subject}'")
+    if manifest.get("level") != "Higher":
+        errors.append("manifest level must be 'Higher'")
+    sources = manifest.get("sources") or {}
+    if (sources.get("research") or {}).get("provider") != "SimpleStudy":
+        errors.append("research provider must be SimpleStudy")
+    if (sources.get("syllabus") or {}).get("authority") != "NCCA":
+        errors.append("syllabus authority must be NCCA")
+    if not isinstance(manifest.get("unitCount"), int) or manifest.get("unitCount", 0) < 1:
+        errors.append("unitCount must be a positive integer")
+    if not isinstance(manifest.get("topicCount"), int) or manifest.get("topicCount", 0) < 1:
+        errors.append("topicCount must be a positive integer")
+    for filename, headings in {
+        "guide-simplestudy.md": ("## Source", "## Unit and topic structure", "## Pipeline guidance"),
+        "worked-example-guidance.md": ("## Source pattern", "## Required answer shape", "## Original model"),
+    }.items():
+        path = d / filename
+        if path.is_file():
+            text = path.read_text(errors="replace")
+            for heading in headings:
+                if heading not in text:
+                    errors.append(f"{filename} missing section: {heading}")
+    return errors
+
+
+def require_bundle(subject: str) -> None:
+    errors = validate_bundle(subject)
+    if errors:
+        detail = "\n".join(f"  - {error}" for error in errors)
+        raise SystemExit(f"Resource bundle for '{subject}' does not meet the contract:\n{detail}")
 
 
 def _read_file(path: Path) -> str:
@@ -81,6 +142,11 @@ def _read_file(path: Path) -> str:
             return f"[unreadable PDF: {e}]"
     if suf in TEXT_SUFFIXES:
         return path.read_text(errors="replace")
+    if suf == ".json":
+        try:
+            return json.dumps(json.loads(path.read_text()), ensure_ascii=False, indent=2)
+        except Exception as exc:
+            return f"[unreadable JSON: {exc}]"
     if suf == ".docx":
         try:
             import docx  # python-docx, optional
@@ -110,8 +176,10 @@ def _meta_path(subject: str) -> Path:
 def ingest(subject: str, force: bool = False) -> dict:
     """Build (or reuse) the corpus + meta for a subject. Returns a summary dict."""
     files = _files(subject)
+    errors = validate_bundle(subject) if files else []
     summary = {"subject": subject, "files": len(files), "chars": 0,
-               "cutoff": None, "roles": {}, "bundle": bool(files)}
+               "cutoff": None, "roles": {}, "bundle": bool(files),
+               "valid": bool(files) and not errors, "errors": errors}
     if not files:
         return summary
 
@@ -158,6 +226,10 @@ if __name__ == "__main__":
     s = ingest(subj, force=("--force" in sys.argv))
     if not s["bundle"]:
         print(f"No resource bundle at {subject_dir(subj)} — create it and drop files in.")
+    elif not s["valid"]:
+        print(f"[resources] {subj}: INVALID")
+        for error in s["errors"]:
+            print(f"  - {error}")
     else:
         print(f"[resources] {subj}: {s['files']} file(s) {s['roles']}, {s['chars']} chars, "
               f"cutoff {s['cutoff'] or '(not stated — will fall back to estimate)'}")
