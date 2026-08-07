@@ -1766,7 +1766,7 @@ function renderExamSection() {
       const diagramBtn = part.diagram
         ? `<button class="button-secondary exam-diagram-btn" onclick="openDiagramModal('${escapeHtml(part.diagram)}')">Show Diagram</button>`
         : "";
-      const partMins = getRecommendedMinutes(group.subject, part.marks);
+      const partMins = getRecommendedMinutes(group.subject, part.marks, part.time_minutes);
       const timingStr = partMins ? ` · ~${partMins} min` : "";
       return `
         <div class="exam-part">
@@ -1802,7 +1802,7 @@ function renderExamSection() {
     const _sq = getSectionForQuestion(group.id);
     const sectionBadge = examSectionBadge(_sq?.section, _sq?.data);
     const totalQMarks = (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
-    const totalQMins = getRecommendedMinutes(group.subject, totalQMarks);
+    const totalQMins = getRecommendedMinutes(group.subject, totalQMarks, group.time_minutes);
     const totalTimingBadge = totalQMins
       ? `<span class="exam-question-timing muted small">~${totalQMins} min total</span>`
       : "";
@@ -1992,9 +1992,13 @@ function compactText(text) {
 function questionsForOutcome(outcome, subjectId) {
   // DISABLED AUTO-GENERATION: biology uses hand-authored questions from bio-content.js
   // const fallback = SUBJECT_FALLBACK_QUESTION[subjectId] || SUBJECT_FALLBACK_QUESTION.business;
+  // `term` is what the card shows on its front. Pipeline-built decks author a real question per
+  // card (What is mitosis? / Who was Rosa Parks?), so prefer it; older hand-curated keyTerms have
+  // no `question` and keep showing the term, as they always did. Keyword extraction still reads
+  // the concept and definition, not the question.
   return (outcome.keyTerms || []).map((kt, idx) => ({
     id: `${outcome.id}-q-${idx + 1}`,
-    term: kt.term,
+    term: kt.question || kt.term,
     answer: kt.definition,
     keywords: extractKeywords(kt),
   }));
@@ -2518,7 +2522,12 @@ function getSectionForQuestion(questionId) {
   return section ? { section, data } : null;
 }
 
-function getRecommendedMinutes(subjectId, marks) {
+// `stored` is the time_minutes the pipeline stamped on the record. Prefer it: it was computed
+// from the same exam-info data, and it is the number the model answer was actually written to,
+// so trusting it keeps the label and the answer consistent. Computing from marks stays as the
+// fallback for hand-curated questions, which carry no stored timing.
+function getRecommendedMinutes(subjectId, marks, stored) {
+  if (stored) return stored;
   if (!marks) return null;
   const data = window.EXAM_BREAKDOWN?.[subjectId];
   if (!data?.totalMarks || !data?.totalMinutes) return null;

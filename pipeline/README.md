@@ -7,10 +7,13 @@ run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, 
 agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
 config.py        paths, subjects, models per stage, length/validation tunables, SYLLABUS_CUTOFF
 resources.py     Stage 0 — ingest pipeline/resources/<subject>/ (guide/summary/spec) -> corpus + cutoff
+syllabus.py      Stage 0b — parse the guide's unit/topic taxonomy; score flashcard coverage against it
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
 scaffold_gen.py  Stage 2.5 — derive scaffold/<subject>.json (from <subject>.spec.txt if present, else digests)
+exam_info.py     Stage 2.6 — exam-breakdown panel (marks/time/sections/tips) from the specification
+timing.py        stamps each part's "how long should this take" from its marks + the paper's duration
 segment.py       Stages 3-5 — questions + parts + marks + topic tags, from the EXAM PAPER ONLY
 schemes.py       Stage 5b — match each part's official answer out of the MARKING SCHEME ONLY
 images.py        Stage 7 — crop candidate figures from the page (subagent finds the box); marks pending
@@ -24,6 +27,26 @@ scaffold/        per-subject section+chapter lists the tagger assigns to (auto-m
 extract.py       Stage 2 (generic) — PDF -> page text + page PNGs
 _data/           generated store (gitignore this) — raw, digest, canonical, reports, agent jobs
 ```
+
+## Output standards
+
+Everything a run publishes has to meet these, and the gate enforces them rather than trusting the
+generator (`pipeline requirements .rtf` in the repo root is the source list):
+
+| Standard | Enforced by |
+|---|---|
+| One consistent source pool per subject (syllabus + guide) | `resources.require_bundle` — a subject with an incomplete bundle cannot start |
+| Every question has an H1 answer **writable in the time allowed** | `config.recommended_words` caps the target at `WRITING_WPM` × the part's minutes; `validate` flags `not_writable_in_time` |
+| Every relevant diagram cropped and attached | `images.py` + `images_verify.py`; unverified crops are rejected, not attached |
+| Flashcards cover all examinable knowledge | generation is steered by `syllabus.topics_for`, then **verified** by `gate.check_syllabus_coverage` against the guide's own taxonomy |
+| No duplicate flashcards between chapters | `flashcards.consolidate` removes them; `gate.check_flashcard_duplicates` blocks on any survivor |
+| Every card asks a real question | required by the schema, re-queued by `flashcards.validate_output`, blocked by `gate.check_card_questions` |
+| Question labels: year, marks, time, level, chapter | segmentation supplies four; `timing.stamp` adds the time from marks × the paper's duration |
+| Exam-information section filled from the specification | `exam_info.py` |
+
+Writing speed is **35 words per minute** (`config.WRITING_WPM`) — a sustained handwriting rate under
+exam pressure. It sets both the per-question time labels and the ceiling on answer length. Question
+*type* (short response / essay) is deliberately not populated yet.
 
 ## ⭐ One command — no API key (a subagent does the model work)
 
@@ -66,9 +89,9 @@ Modifiers:
 
 ## How the keyless model stages work
 
-Stages 1-2 (acquire + digest) are plain Python. The six model stages (scaffold, segment, images,
-schemes, answers, flashcards) each have a `prepare` (write jobs) and `collect` (read answers)
-half, bridged by `agent_bridge.py`:
+Stages 1-2 (acquire + digest) are plain Python. The seven model stages (scaffold, exam-info,
+segment, images, schemes, answers, flashcards) each have a `prepare` (write jobs) and `collect`
+(read answers) half, bridged by `agent_bridge.py`:
 
 - `prepare` writes one `in/<id>.json` per unit of work — `{prompt, schema, meta, image?}`. For
   `images`, it also renders the page PNG into `in/` for the worker to look at.
@@ -98,11 +121,12 @@ cost gate is `config.FIGURE_CUE_RE` — only figure-cued question parts get a wo
 if a subject's figures are being missed). For a big stage you can split the `in/` files across a
 few parallel `pipeline-worker` agents — they only write `out/`, so they don't collide.
 
-Output: `_data/canonical/<subject>.json` (source of truth, with diagram paths) +
-`exam-questions-db.<subject>.generated.js` + `flashcards-<subject>.generated.js` +
+Output: `_data/canonical/<subject>.json` (source of truth, with diagram paths and per-part
+`time_minutes`) + `exam-questions-db.<subject>.generated.js` + `flashcards-<subject>.generated.js`
++ `exam-breakdown-<subject>.generated.js` + `exam-info.<subject>.json` +
 `_data/reports/segment-<subject>.json` + `figures-<subject>.json`. `merge` then copies the JS to
-`<subject>-exam-questions.js` / `<subject>-flashcards.js` at the repo root and wires `<script>`
-tags into `app.html`.
+`<subject>-exam-questions.js` / `<subject>-flashcards.js` / `<subject>-exam-breakdown.js` at the
+repo root and wires `<script>` tags into `app.html`.
 
 > **Merge caveat:** `merge.py` overwrites the root `<subject>-*.js` files in place. That's the
 > intent for *new* subjects. If a subject already has **hand-curated** flashcards/questions under

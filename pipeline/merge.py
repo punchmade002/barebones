@@ -29,6 +29,9 @@ def _copy(subject: str) -> list[tuple[str, str]]:
     plan = [
         (CANONICAL / f"exam-questions-db.{subject}.generated.js", f"{subject}-exam-questions.js", "exam questions"),
         (CANONICAL / f"flashcards-{subject}.generated.js",        f"{subject}-flashcards.js",     "flashcards"),
+        # The exam-breakdown entry is additive too: it assigns into window.EXAM_BREAKDOWN rather
+        # than replacing it, so it sits alongside the hand-written entries in exam-breakdown.js.
+        (CANONICAL / f"exam-breakdown-{subject}.generated.js",    f"{subject}-exam-breakdown.js", "exam breakdown"),
     ]
     done = []
     for src, dest_name, label in plan:

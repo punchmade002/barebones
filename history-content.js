@@ -676,7 +676,9 @@
     if (!ch || !ch.learningOutcomes.length) return;
     if (DB[id]) {
       ch.learningOutcomes[0].keyTerms = DB[id].map(function (card) {
-        return { term: card.term, definition: card.definition, section: id };
+        // `question` is carried through so the card shows the authored prompt rather than the
+        // bare term; it is absent on older decks, and app.js falls back to the term then.
+        return { term: card.term, question: card.question, definition: card.definition, section: id };
       });
     }
     if (NOTES[id]) ch.learningOutcomes[0].notes = NOTES[id];

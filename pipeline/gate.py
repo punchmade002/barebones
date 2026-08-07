@@ -27,7 +27,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from config import CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name
+from config import (CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name,
+                    SYLLABUS_COVERAGE_MIN, SYLLABUS_COVERAGE_GOOD)
 import ids
 import validate
 
@@ -159,7 +160,9 @@ def check_flashcards(c: Ctx):
 
 
 def check_flashcard_duplicates(c: Ctx):
-    """Duplicates ACROSS chapters — the per-chapter dedup in flashcards.py cannot see these."""
+    """Duplicates ACROSS chapters. `flashcards.consolidate()` now removes these outright, so any
+    survivor means that pass didn't run or didn't work — hence BLOCK rather than a tolerated rate.
+    The requirement is zero duplicates between chapters, and a threshold cannot express zero."""
     if not c.cards:
         return
     norm = defaultdict(list)
@@ -173,12 +176,79 @@ def check_flashcard_duplicates(c: Ctx):
     dup_cards = sum(len(v) for v in dup_groups.values()) - len(dup_groups)
     rate = dup_cards / total if total else 0
     if dup_groups:
-        sev = WARN if rate <= CARD_DUP_RATE_MAX else BLOCK
         eg = ", ".join(sorted(dup_groups)[:3])
-        yield Finding("card-duplicates", sev,
+        yield Finding("card-duplicates", BLOCK,
                       f"{len(dup_groups)} term(s) duplicated across chapters covering "
-                      f"{dup_cards} redundant card(s) ({rate:.1%} of the deck) — e.g. {eg}",
+                      f"{dup_cards} redundant card(s) ({rate:.1%} of the deck) — e.g. {eg}. "
+                      f"Re-run the flashcards stage; consolidate() should leave none.",
                       {"rate": round(rate, 4), "groups": len(dup_groups)})
+
+
+def check_card_questions(c: Ctx):
+    """Every flashcard must ask a real question. A card that shows the bare term ("Mitosis")
+    is the defect this check exists for — the student sees a label, not a prompt."""
+    if not c.cards:
+        return
+    import flashcards
+    bad = [(cid, card.get("term", ""))
+           for cid, deck in c.cards.items() for card in deck
+           if not flashcards.is_usable_question(card.get("question", ""), card.get("term", ""))]
+    total = sum(len(d) for d in c.cards.values())
+    if bad:
+        eg = "; ".join(f"{cid}:{term}" for cid, term in bad[:3])
+        yield Finding("card-questions", BLOCK,
+                      f"{len(bad)} of {total} flashcard(s) have no usable question — e.g. {eg}",
+                      {"count": len(bad), "total": total})
+
+
+def check_syllabus_coverage(c: Ctx):
+    """Does the deck cover the course? Measured against the guide's own topic taxonomy, which is
+    independent of whatever the generator chose to write about."""
+    if not c.cards:
+        return
+    import syllabus
+    cov = syllabus.coverage(c.subject, c.cards)
+    if not cov["verifiable"]:
+        yield Finding("syllabus-coverage", WARN,
+                      f"no topic taxonomy in {c.subject}'s guide — flashcard coverage of the "
+                      f"course could not be verified")
+        return
+    rate, missing = cov["rate"], cov["missing"]
+    detail = {"rate": rate, "covered": cov["covered"], "total": cov["total"],
+              "missing": missing[:40]}
+    if rate < SYLLABUS_COVERAGE_MIN:
+        eg = "; ".join(missing[:5]) + (" …" if len(missing) > 5 else "")
+        yield Finding("syllabus-coverage", BLOCK,
+                      f"flashcards cover only {cov['covered']}/{cov['total']} syllabus topics "
+                      f"({rate:.0%}, floor {SYLLABUS_COVERAGE_MIN:.0%}) — missing e.g. {eg}", detail)
+    elif rate < SYLLABUS_COVERAGE_GOOD:
+        yield Finding("syllabus-coverage", WARN,
+                      f"{len(missing)} syllabus topic(s) have no flashcard "
+                      f"({cov['covered']}/{cov['total']} covered, {rate:.0%})", detail)
+    else:
+        yield Finding("syllabus-coverage", INFO,
+                      f"flashcards cover {cov['covered']}/{cov['total']} syllabus topics ({rate:.0%})")
+
+
+def check_question_timing(c: Ctx):
+    """Every question should carry how long it ought to take. Missing timing means either
+    exam_info never ran for this subject, or the parts have no marks to derive it from."""
+    timed = [p for _q, p in c.parts if p.get("time_minutes")]
+    if not c.parts:
+        return
+    from config import exam_info
+    if not exam_info(c.subject):
+        yield Finding("timing", WARN,
+                      f"no exam-info store for {c.subject} — questions carry no time labels and "
+                      f"answers were sized without a time budget; run the exam-info stage")
+        return
+    missing = len(c.parts) - len(timed)
+    if missing:
+        yield Finding("timing", WARN,
+                      f"{missing} of {len(c.parts)} part(s) have no time label (usually missing "
+                      f"marks)", {"missing": missing, "total": len(c.parts)})
+    else:
+        yield Finding("timing", INFO, f"all {len(c.parts)} part(s) carry a time label")
 
 
 def check_card_budgets(c: Ctx):
@@ -258,7 +328,8 @@ def check_regression(c: Ctx):
 
 CHECKS = [check_store_exists, check_question_ids, check_part_labels, check_parts,
           check_ai_share, check_years, check_sources, check_diagrams, check_flashcards,
-          check_flashcard_duplicates, check_card_budgets, check_coverage, check_regression]
+          check_flashcard_duplicates, check_card_questions, check_syllabus_coverage,
+          check_card_budgets, check_coverage, check_question_timing, check_regression]
 
 
 # ── api ───────────────────────────────────────────────────────────────────────

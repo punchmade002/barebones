@@ -32,7 +32,11 @@ from functools import lru_cache
 from config import (CANONICAL, REPORTS, MIN_QUESTION_CHARS, STUB_QUESTION_RE,
                     LENGTH_MIN_RATIO, LENGTH_MAX_RATIO, SEGMENT_RETRY_ATTEMPTS,
                     MAX_QUARANTINE_FRAC, MAX_SOFT_WARN_FRAC, TAG_REVIEW_THRESHOLD,
-                    recommended_words)
+                    recommended_words, writable_words)
+
+# How far past the time budget an answer may run before it's flagged as unwritable. Word counts
+# and handwriting speed are both approximations, so a small overshoot isn't worth a warning.
+OVER_TIME_TOLERANCE = 1.15
 
 # Questions that are really just structural chrome the segmenter failed to strip / fill.
 PLACEHOLDER = re.compile(
@@ -152,6 +156,7 @@ def year_is_real(subject: str, year) -> bool:
 #   HARD  stub_question   — question text missing or only a label; unusable -> dropped at the gate
 #   SOFT  no_marks        — marks <= 0; answer can't be sized -> triggers a retry, surfaced, kept
 #   SOFT  length_mismatch — answer far from its mark-derived target -> surfaced (warning only)
+#   SOFT  not_writable_in_time — answer longer than a student could write in the time allowed
 #
 #     python3 validate.py home-economics            # scan + write the report/sample (no changes)
 #     python3 validate.py home-economics --enforce  # drop stubs to quarantine, re-render, sample
@@ -195,10 +200,19 @@ def part_defects(subject: str, p: dict) -> list[str]:
         out.append("no_marks")
     target = recommended_words(subject, p.get("marks", 0), p.get("scheme_points"))
     ans = (p.get("model") or "").strip()
+    words = _word_count(ans) if ans else 0
     if target and ans:
-        ratio = _word_count(ans) / target
+        ratio = words / target
         if ratio < LENGTH_MIN_RATIO or ratio > LENGTH_MAX_RATIO:
             out.append("length_mismatch")
+    # A model answer has to be one a student could actually produce in the time the exam gives
+    # them. `recommended_words` already caps the target at WRITING_WPM, so this catches an author
+    # that overshot the stated budget anyway — the exemplar is unusable as a model if it can't
+    # be written in the time, however good the content is.
+    if ans:
+        writable = writable_words(p.get("time_minutes"))
+        if writable and words > writable * OVER_TIME_TOLERANCE:
+            out.append("not_writable_in_time")
     return out
 
 
@@ -430,9 +444,14 @@ def enforce(subject: str) -> dict:
 
     # curated wins: drop generated questions duplicating the hand-curated bank, then re-render
     kept, dup_dropped = curated.drop_duplicates(_load(subject))
-    if dup_dropped:
-        _save(subject, kept)
-        segment.render_js(subject, kept)
+    # Stamp the "how long should this take" label. This is the single choke point every publish
+    # passes through, so doing it here is what guarantees the labels exist on the records the app
+    # actually loads. Recomputed from marks each run, so it self-corrects; the store is rewritten
+    # unconditionally because that is also what re-renders the JS after the dedup above.
+    import timing
+    tstat = timing.stamp(subject, kept)
+    _save(subject, kept)
+    segment.render_js(subject, kept)
     creport["kept_questions"] = len(kept)            # reflect post-dedup final count
 
     rep = scan(subject)                              # re-scan the cleaned set (soft defects remain)
@@ -450,6 +469,7 @@ def enforce(subject: str) -> dict:
     return {**creport, "dup_dropped": dup_dropped, "remaining_soft": rep["soft"],
             "quarantine_frac": round(quarantine_frac, 3), "soft_frac": round(soft_frac, 3),
             "low_confidence": tr["low_confidence"], "tag_review": tr["tag_review"],
+            "timed_parts": tstat["stamped"], "untimed_parts": tstat["missing"],
             "clean": is_clean, "report": report_path, "sample": sample_path}
 
 
