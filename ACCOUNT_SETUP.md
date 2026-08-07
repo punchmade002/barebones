@@ -21,6 +21,27 @@ addresses and is not a production password-recovery service.
 The publishable key is safe to ship to browsers. Never put a secret or
 service-role key in this repository.
 
+## Mailing list
+
+Every email used to create an account is copied by the database trigger into
+`public.mailing_list`. This includes self-service registrations and secured
+legacy accounts. Applying `supabase/schema.sql` also backfills existing Auth
+users.
+
+The table has Row Level Security enabled and no browser-access policy. Only the
+Supabase service role can export it. To refresh the local root-level
+`mailing list` file:
+
+```sh
+SUPABASE_URL=https://your-project.supabase.co \
+SUPABASE_SERVICE_ROLE_KEY=your-secret-key \
+python3 scripts/export_mailing_list.py
+```
+
+The export contains one normalized email per line, starts with an `email`
+header, is written with owner-only permissions, and is ignored by Git. Never
+put the service-role key in `auth-config.js` or commit the exported list.
+
 Serve the repository over HTTP for local testing; browser auth redirects do not
 work reliably from a `file://` URL:
 
