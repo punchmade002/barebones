@@ -36,7 +36,15 @@ REQUIRED_FILES = (
     "guide-simplestudy.md",
     "worked-example-guidance.md",
 )
-REQUIRED_MANIFEST_KEYS = ("schemaVersion", "subject", "level", "sources", "unitCount", "topicCount")
+REQUIRED_MANIFEST_KEYS = (
+    "schemaVersion",
+    "subject",
+    "level",
+    "sources",
+    "unitCount",
+    "topicCount",
+    "alignmentStatus",
+)
 
 # Phrases that introduce the year a syllabus was first examined / revised.
 _CUTOFF_RE = re.compile(
@@ -104,6 +112,11 @@ def validate_bundle(subject: str) -> list[str]:
         errors.append("research provider must be SimpleStudy")
     if (sources.get("syllabus") or {}).get("authority") != "NCCA":
         errors.append("syllabus authority must be NCCA")
+    first_exam_year = (sources.get("syllabus") or {}).get("firstExamYear")
+    if not isinstance(first_exam_year, int) or not 1990 <= first_exam_year <= CURRENT_YEAR + 5:
+        errors.append("syllabus firstExamYear must be a plausible integer")
+    if manifest.get("alignmentStatus") not in {"aligned", "transitional"}:
+        errors.append("alignmentStatus must be 'aligned' or 'transitional'")
     if not isinstance(manifest.get("unitCount"), int) or manifest.get("unitCount", 0) < 1:
         errors.append("unitCount must be a positive integer")
     if not isinstance(manifest.get("topicCount"), int) or manifest.get("topicCount", 0) < 1:
@@ -165,6 +178,21 @@ def extract_cutoff(text: str) -> int | None:
     return min(years)                                  # the earliest stated intro year
 
 
+# Bump when a change to extraction would alter the corpus produced from unchanged inputs, so
+# every subject re-ingests instead of serving a corpus built by the older code.
+INGEST_VERSION = 2
+
+
+def _fingerprint(subject: str, files: list[Path]) -> str:
+    """Identity of the inputs a cached corpus was built from: every file's path, size and mtime,
+    plus the extractor version. Any drift rebuilds."""
+    parts = [f"v{INGEST_VERSION}"]
+    for f in files:
+        st = f.stat()
+        parts.append(f"{f.relative_to(subject_dir(subject))}:{st.st_size}:{int(st.st_mtime)}")
+    return "|".join(parts)
+
+
 def _corpus_path(subject: str) -> Path:
     return RESOURCE_CACHE / f"{subject}.corpus.txt"
 
@@ -183,10 +211,20 @@ def ingest(subject: str, force: bool = False) -> dict:
     if not files:
         return summary
 
-    # rebuild if any source file is newer than the cache (or force / missing)
+    # Rebuild unless the inputs fingerprint identically to what the cache was built from.
+    # A bare `cache mtime >= newest source mtime` check is not enough: a corpus written moments
+    # after its sources — but from a partial or failed read — looks fresh forever, and nothing in
+    # the pipeline passes force=True. That is not hypothetical. Every subject but one was serving
+    # ~5% of its bundle (spec-syllabus.pdf missing entirely) behind a cache that looked current.
     cpath, mpath = _corpus_path(subject), _meta_path(subject)
-    newest = max(f.stat().st_mtime for f in files)
-    if cpath.exists() and not force and cpath.stat().st_mtime >= newest:
+    fingerprint = _fingerprint(subject, files)
+    cached_fp = None
+    if mpath.exists():
+        try:
+            cached_fp = json.loads(mpath.read_text()).get("fingerprint")
+        except (json.JSONDecodeError, OSError):
+            cached_fp = None
+    if cpath.exists() and not force and cached_fp == fingerprint:
         corpus = cpath.read_text()
     else:
         chunks = []
@@ -199,14 +237,22 @@ def ingest(subject: str, force: bool = False) -> dict:
         corpus = "".join(chunks)[:MAX_CORPUS_CHARS]
         cpath.write_text(corpus)
 
-    cutoff = extract_cutoff(corpus)
+    # The manifest records the first examination year explicitly. This is safer than treating an
+    # implementation date mentioned in a specification as the first year with valid exam papers.
+    manifest_path = subject_dir(subject) / "manifest.json"
+    try:
+        manifest = json.loads(manifest_path.read_text())
+        cutoff = int(manifest["sources"]["syllabus"]["firstExamYear"])
+    except (FileNotFoundError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+        cutoff = extract_cutoff(corpus)
     summary["chars"] = len(corpus)
     summary["cutoff"] = cutoff
     if not summary["roles"]:                            # populate roles when reusing cached corpus
         for f in files:
             r = role_of(f); summary["roles"][r] = summary["roles"].get(r, 0) + 1
     mpath.write_text(json.dumps({"subject": subject, "cutoff": cutoff,
-                                 "files": len(files)}, indent=2))
+                                 "files": len(files), "chars": len(corpus),
+                                 "fingerprint": fingerprint}, indent=2))
     return summary
 
 

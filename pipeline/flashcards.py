@@ -23,10 +23,10 @@ from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from config import CANONICAL
+from config import CANONICAL, FLASHCARD_CTX_CHARS
 from segment import _retry, MODEL, MAX_TOKENS, load_scaffold   # reuse the hardened helpers
 
-MAX_CHAPTER_CHARS = 80_000          # cap pooled text per chapter to keep cost predictable
+MAX_CHAPTER_CHARS = 80_000          # cap for the no-bundle fallback (pooled past-paper text)
 
 EMIT_TOOL = {
     "name": "emit_flashcards",
@@ -148,12 +148,22 @@ def _chapters(subject: str, only: str | None):
     (capped) and is told to pull just its topic's concepts. Only if there's no bundle do we fall
     back to pooling past-paper text per chapter."""
     import resources
+    import retrieval
     chapters = load_scaffold(subject)["chapters"]
     corpus = resources.corpus(subject)
     if corpus.strip():
-        material = corpus[:MAX_CHAPTER_CHARS]
-        print(f"[flashcards] sourcing concepts from the resource bundle ({len(corpus)} chars)")
-        items = [(c["id"], c["title"], material, True) for c in chapters]
+        # Each chapter retrieves ITS OWN passages. Handing every chapter the same corpus[:80k]
+        # meant chapters whose material sat past that point never saw their source text at all.
+        print(f"[flashcards] sourcing concepts from the resource bundle ({len(corpus)} chars, "
+              f"retrieving up to {FLASHCARD_CTX_CHARS} chars per chapter)")
+        items = []
+        for c in chapters:
+            material = retrieval.excerpt(subject, c["title"], FLASHCARD_CTX_CHARS,
+                                         what=f"chapter '{c['title']}'")
+            if material.strip():
+                items.append((c["id"], c["title"], material, True))
+        if not items:
+            print("[flashcards] bundle matched no chapter — check it covers this subject")
     else:
         print(f"[flashcards] no resource bundle — falling back to past-paper text "
               f"(weaker; drop course material in {resources.subject_dir(subject)})")

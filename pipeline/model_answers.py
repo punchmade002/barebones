@@ -26,7 +26,7 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
-from config import CANONICAL, DIGEST, REPORTS, recommended_words
+from config import CANONICAL, DIGEST, REPORTS, ANSWER_CTX_CHARS, recommended_words
 from segment import _retry, MODEL, load_scaffold
 import ids
 import validate
@@ -97,7 +97,7 @@ def needs_fill(q: dict) -> list[dict]:
             if not (p.get("model") or "").strip() and not validate.is_placeholder(p)]
 
 
-CORPUS_CTX_CHARS = 15_000       # cap the resource-bundle context in the cached prefix
+CORPUS_CTX_CHARS = 15_000       # legacy cap, kept for the API path's cached_prefix()
 
 
 def _part_line(subject: str, p: dict) -> str:
@@ -113,17 +113,20 @@ def _part_line(subject: str, p: dict) -> str:
     return f"[{p.get('label') or 'part'}] ({marks} marks{target}) {p['question']}"
 
 
-def cached_prefix(subject: str, scheme_ctx: str, used_fallback: bool) -> str:
-    """The big, STABLE part of the prompt — identical for every question that shares this
-    marking scheme. Sent with cache_control so repeats cost ~10%. Includes the subject's
-    resource bundle (stable per subject) so answers are grounded in the course material."""
+def cached_prefix(subject: str, scheme_ctx: str, used_fallback: bool,
+                  material: str | None = None) -> str:
+    """The scheme + instruction block. `material` is the course material to ground answers in;
+    pass the retrieved, question-specific excerpt (what the keyless worker path does). When it is
+    None this falls back to a head slice of the corpus, which is only right for the API path
+    below, where a byte-identical prefix across questions is the point of the cache."""
     import resources
     note = ("NOTE: this year's marking scheme wasn't available, so the criteria below are "
             "pooled from other years of the same subject — use them to infer the standard.\n\n"
             if used_fallback else "")
     scheme = scheme_ctx[:SCHEME_CTX_CHARS] if scheme_ctx.strip() else \
         f"(use standard {subject} marking conventions)"
-    material = resources.corpus(subject)[:CORPUS_CTX_CHARS]
+    if material is None:
+        material = resources.corpus(subject)[:CORPUS_CTX_CHARS]
     course = (f"\n\n=== COURSE MATERIAL (ground every answer in THIS; it is the authoritative "
               f"source for the course) ===\n{material}" if material.strip() else "")
     return f"""You are a State Examinations Commission examiner AND a top H1 candidate for
@@ -246,12 +249,20 @@ def prepare(subject: str, limit: int | None = None) -> int:
         return 0
     # group questions that share a marking scheme (stable prefix) for tidy, comparable prompts
     jobs.sort(key=lambda j: (j["fallback"], j["q"].get("year", 0), q_level(j["q"])))
+    # Ground each question in the passages that concern IT. Nothing caches on the keyless path
+    # (prepare flattens the prompt to a string on disk), so the old shared corpus[:15k] was
+    # simply copied into every job file — the largest avoidable cost in the pipeline.
+    import retrieval
     out = []
     for i, job in enumerate(jobs):
-        prompt = (cached_prefix(subject, job["ctx"], job["fallback"]) + "\n\n"
-                  + variable_suffix(subject, job["q"], job["title"]))
+        q = job["q"]
+        asked = " ".join((p.get("question") or "") for p in needs_fill(q))
+        material = retrieval.excerpt(subject, job["title"], ANSWER_CTX_CHARS, extra=asked,
+                                     what=f"{q['id']} ({job['title']})")
+        prompt = (cached_prefix(subject, job["ctx"], job["fallback"], material=material) + "\n\n"
+                  + variable_suffix(subject, q, job["title"]))
         out.append({"custom_id": f"q{i}", "prompt": prompt, "tool": EMIT_TOOL,
-                    "meta": {"qid": job["q"]["id"]}})
+                    "meta": {"qid": q["id"]}})
     bridge.prepare(_stage(subject), out, task=_TASK)
     print(f"[model-answers] {len(out)} question(s) queued for the worker")
     return len(out)

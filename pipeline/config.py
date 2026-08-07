@@ -17,7 +17,7 @@ EXTRACTED = DATA / "extracted"                          # stage 2 page text/imag
 DIGEST = DATA / "digest"                                # app-ready per-paper digests
 CANONICAL = DATA / "canonical"                          # one <subject>.json per subject
 REPORTS = DATA / "reports"                              # manifests + coverage
-RESOURCES = ROOT / "pipeline" / "resources"            # per-subject authoritative material (drop folder)
+RESOURCES = ROOT / "pipeline" / "resources"            # validated per-subject resource contract
 RESOURCE_CACHE = DATA / "resources"                    # extracted corpus + bundle-derived metadata
 for _p in (RAW, EXTRACTED, DIGEST, CANONICAL, REPORTS, RESOURCE_CACHE):
     _p.mkdir(parents=True, exist_ok=True)
@@ -51,6 +51,19 @@ SEGMENT_RETRY_ATTEMPTS = 2         # times to re-segment papers that produced br
 MAX_QUARANTINE_FRAC = 0.05        # >5% of questions dropped as stubs -> needs a human look
 MAX_SOFT_WARN_FRAC = 0.15         # >15% soft warnings (no_marks/length) -> needs a human look
 TAG_REVIEW_THRESHOLD = 5          # > this many low-confidence tags -> raise a review bucket
+
+# ── Resource-bundle retrieval (retrieval.py) ──────────────────────────────────
+# Each job gets the slice of the bundle that concerns ITS topic, not a head slice of the whole
+# corpus. Context size is the main cost lever in the pipeline: the worker reads every char of
+# every job file, and these budgets are what it reads. Raise them only if answers/flashcards
+# are visibly starved of source material.
+RETRIEVAL_CHUNK_CHARS = 900        # retrieval window; ~a paragraph or two of a course guide
+RETRIEVAL_CHUNK_OVERLAP = 150      # so a definition straddling a boundary stays retrievable
+RETRIEVAL_MIN_SCORE = 0.0          # drop chunks at or below this BM25 score (0 = keep any match)
+FLASHCARD_CTX_CHARS = 10_000       # per-chapter material for flashcards (was a shared 80k slice)
+ANSWER_CTX_CHARS = 3_000           # per-question material for answers (was a shared 15k slice)
+# Marker resources.py writes between pooled files; retrieval splits on it to label excerpts.
+RETRIEVAL_SECTION_RE = _re.compile(r"^=====\s*[A-Z-]+:\s*(.+?)\s*=====$", _re.M)
 
 # ── Worker model tiers (reform B) ─────────────────────────────────────────────
 # Quality-critical stages (extraction, answer authoring) get a strong model; cheap
