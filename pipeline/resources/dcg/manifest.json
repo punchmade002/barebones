@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "dcg",
+  "level": "Higher",
+  "unitCount": 22,
+  "topicCount": 153,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/c288dafe-12a9-4641-b5bb-382b99871423/SCSEC33_Design_Comm_Graphics_syllabus_eng.pdf",
+      "effectiveFrom": "Published 2007",
+      "firstExamYear": 2009
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "current public subject catalogue",
+      "representativeLessonUrl": "https://simplestudy.com/ie/leaving-cert/dcg/revision-notes/orthographic-auxiliary-projection/sections-of-solids/the-tetrahedron",
+      "representativeLesson": "The Tetrahedron",
+      "h2Sections": 7,
+      "h3Sections": 27,
+      "workedExampleMentions": 0,
+      "noteCallouts": 6
+    }
+  }
+}

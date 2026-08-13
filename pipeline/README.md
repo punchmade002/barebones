@@ -6,7 +6,7 @@ Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_
 run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, NO API key
 agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
 config.py        paths, subjects, models per stage, length/validation tunables, SYLLABUS_CUTOFF
-resources.py     Stage 0 — ingest pipeline/resources/<subject>/ (guide/summary/spec) -> corpus + cutoff
+resources.py     Stage 0 — validate + ingest each fixed NCCA/SimpleStudy subject pack -> corpus + cutoff
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
 acquire.py       Stage 1 (legacy) — direct URL enumeration once you know the code
 digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JSON
@@ -61,7 +61,7 @@ Modifiers:
 | `--no-merge` | stop before wiring generated JS into `app.html` |
 | `--regen-scaffold` | rebuild `scaffold/<subject>.json` even if it exists |
 | `--limit N` | cap papers (segment) / candidates (images) — smoke tests |
-| `--restart` | clear queued worker jobs and redo the model stages (keeps PDFs/digests/canonical) |
+| `--restart` | redo all derived model stages from a clean canonical store (keeps PDFs, digests, resources, and scaffold) |
 | `--headful`, `--include-irish` | acquire options |
 
 ## How the keyless model stages work

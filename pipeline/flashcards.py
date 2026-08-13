@@ -118,6 +118,21 @@ def is_question_like(term: str) -> bool:
     return t.endswith("?") or bool(_QUESTION_TERM_RE.match(t)) or len(t.split()) > 9
 
 
+def validate_output(obj, job=None) -> bool:
+    """Do not finalize a chapter whose worker returned no usable concept cards."""
+    if not isinstance(obj, dict) or not isinstance(obj.get("cards"), list) or not obj["cards"]:
+        return False
+    for card in obj["cards"]:
+        if not isinstance(card, dict):
+            return False
+        term, definition = card.get("term"), card.get("definition")
+        if not isinstance(term, str) or not term.strip() or is_question_like(term):
+            return False
+        if not isinstance(definition, str) or not definition.strip():
+            return False
+    return True
+
+
 def dedup(cards: list[dict]) -> list[dict]:
     """Final safety net: drop question-stem 'terms', then case/whitespace-identical duplicates
     (keeping the longest definition)."""

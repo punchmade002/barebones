@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "subject": "home-economics",
+  "level": "Higher",
+  "unitCount": 12,
+  "topicCount": 32,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/b9bc688f-3a5d-48a7-90f1-b60063f49c74/SCSEC21_Home_Economics_syllabus_eng.pdf",
+      "effectiveFrom": "Published syllabus",
+      "firstExamYear": 2004
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/43008",
+      "representativeLesson": "Sociological Terms and Concepts",
+      "h2Sections": 9,
+      "h3Sections": 11,
+      "workedExampleMentions": 0,
+      "noteCallouts": 3
+    },
+    "courseInformationDatabase": {
+      "file": "course-information-database.js",
+      "chapterCount": 22,
+      "use": "taxonomy, answer grounding, and flashcard concept coverage"
+    }
+  }
+}

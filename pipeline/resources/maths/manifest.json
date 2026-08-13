@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "maths",
+  "level": "Higher",
+  "unitCount": 27,
+  "topicCount": 156,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/f6f2e822-2b0c-461e-bcd4-dfcde6decc0c/SCSEC25_Maths_syllabus_examination-2015_English.pdf",
+      "effectiveFrom": "Examinations from 2015",
+      "firstExamYear": 2015
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/993260",
+      "representativeLesson": "Expressions",
+      "h2Sections": 8,
+      "h3Sections": 10,
+      "workedExampleMentions": 5,
+      "noteCallouts": 5
+    }
+  }
+}

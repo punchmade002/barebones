@@ -2,8 +2,9 @@
 
 images.py crops each candidate figure out of the paper page but does NOT attach it — the
 bounding box can be wrong (blank, cut-off, or just text) even when has_figure was true. This
-stage looks at the actual CROP and confirms it shows a clear, complete figure before it reaches
-a question's `diagram` field. Rejected crops are deleted and recorded, never shown to a student.
+stage looks at the actual CROP and confirms it shows a clear, complete, relevant figure before it
+reaches a question's `diagram` field. Partial crops are retained as review blockers rather than
+being silently cached as "no figure".
 
 One worker job per pending crop (cheap haiku vision call). Reads/writes the same sidecar
 `_data/reports/figures-<subject>.json` images.py uses: entries with `pending_crop` become either
@@ -18,7 +19,7 @@ import re
 import sys
 from pathlib import Path
 
-from config import CANONICAL, REPORTS, EXAM_IMAGES
+from config import CANONICAL, REPORTS, EXAM_IMAGES, SUPPLIED_FIGURE_RE
 from segment import render_js, _save
 
 EMIT_TOOL = {
@@ -32,14 +33,16 @@ EMIT_TOOL = {
                                   "(diagram/graph/map/chemical structure/labelled apparatus/data "
                                   "table). false if it's blank, mostly plain text, or a cut-off/partial figure."},
             "reason": {"type": "string", "description": "short why"},
+            "needs_recrop": {"type": "boolean",
+                             "description": "true when a real relevant figure is present but the crop is cut off or incomplete"},
         },
-        "required": ["ok"],
+        "required": ["ok", "needs_recrop"],
     },
 }
 
-_TASK = ("Look at each cropped image and confirm it shows a clear, COMPLETE exam figure (diagram, "
-         "graph, map, chemical structure, labelled apparatus, or structured data table) — not blank, "
-         "not just text, not a partial/cut-off figure. Return `ok` true/false as `schema` describes.")
+_TASK = ("Look at each cropped image and the supplied question. Confirm the crop is a clear, "
+         "COMPLETE figure relevant to that question. Set needs_recrop=true only when the relevant "
+         "figure is real but cut off/incomplete; false for blank, prose-only, or unrelated crops.")
 
 
 def _stage(subject: str) -> str:
@@ -61,8 +64,13 @@ def _parse(content):
     for b in content:
         if getattr(b, "type", None) == "tool_use" and b.name == "emit_verify":
             inp = b.input if isinstance(b.input, dict) else {}
-            return bool(inp.get("ok")), inp.get("reason", "")
-    return False, ""
+            return bool(inp.get("ok")), inp.get("reason", ""), bool(inp.get("needs_recrop"))
+    return False, "malformed verifier output", False
+
+
+def validate_output(obj) -> bool:
+    return (isinstance(obj, dict) and isinstance(obj.get("ok"), bool)
+            and isinstance(obj.get("needs_recrop"), bool))
 
 
 def prepare(subject: str) -> int:
@@ -75,10 +83,12 @@ def prepare(subject: str) -> int:
         if not crop.exists():
             continue
         cid = re.sub(r"[^A-Za-z0-9_-]+", "_", key)
+        question = v.get("question", "")
         jobs.append({
             "custom_id": cid,
-            "prompt": "Does this cropped image show a clear, complete exam figure? "
-                      "Set ok=false if it is blank, mostly plain text, or a cut-off/partial figure.",
+            "prompt": "Does this crop show a clear, complete figure relevant to the question? "
+                      "Set needs_recrop=true if the relevant figure exists but is cut off.\n\n"
+                      f"QUESTION:\n{question[:1500]}",
             "tool": EMIT_TOOL,
             "image_png": crop.read_bytes(),
             "meta": {"key": key},
@@ -109,25 +119,52 @@ def collect(subject: str) -> None:
         rel = entry.get("pending_crop")
         if not rel:
             continue
-        ok, reason = _parse(content)
+        ok, reason, needs_recrop = _parse(content)
         if ok:
             q = by_id.get(entry.get("qid"))
             idx = entry.get("idx", -1)
             if q and 0 <= idx < len(q["parts"]):
                 q["parts"][idx]["diagram"] = rel
-            sidecar[key] = {"has_figure": True, "diagram": rel}
-            attached += 1
+                sidecar[key] = {"has_figure": True, "diagram": rel}
+                attached += 1
+            else:
+                sidecar[key] = {"has_figure": True, "needs_review": True,
+                                "reason": "verified crop target no longer exists", "diagram": rel}
         else:
             crop = EXAM_IMAGES.parent / rel
             if crop.exists():
                 crop.unlink()                              # don't leave rejected crops around
-            sidecar[key] = {"has_figure": False, "reason": f"rejected-crop: {reason}"[:120]}
+            if needs_recrop:
+                sidecar[key] = {"has_figure": True, "needs_review": True,
+                                "reason": f"needs-recrop: {reason}"[:160],
+                                "qid": entry.get("qid"), "idx": entry.get("idx")}
+            else:
+                sidecar[key] = {"has_figure": False,
+                                "reason": f"rejected-crop: {reason}"[:160]}
             rejected += 1
         _save_sidecar(side_path, sidecar)
         _save(subject, rows)
+    # One supplied stimulus often serves consecutive parts. Vision can correctly crop it for
+    # the first part yet reject a second, tighter crop as prose-only. If a sibling explicitly
+    # points above/below and this question has exactly one confirmed diagram, reuse it.
+    shared = 0
+    for q in rows:
+        diagrams = {p.get("diagram") for p in q.get("parts", []) if p.get("diagram")}
+        if len(diagrams) != 1:
+            continue
+        rel = next(iter(diagrams))
+        for idx, part in enumerate(q.get("parts", [])):
+            if part.get("diagram") or not SUPPLIED_FIGURE_RE.search(part.get("question", "")):
+                continue
+            part["diagram"] = rel
+            sidecar[f"{q['id']}#{idx}"] = {"has_figure": True, "diagram": rel,
+                                           "reason": "shared sibling stimulus"}
+            shared += 1
+    _save_sidecar(side_path, sidecar)
+    _save(subject, rows)
     js = render_js(subject, rows)
     print(f"\n[images-verify] attached {attached} confirmed diagram(s), rejected {rejected} bad "
-          f"crop(s) — re-rendered {js.name}")
+          f"crop(s), shared {shared} sibling stimulus link(s) — re-rendered {js.name}")
 
 
 if __name__ == "__main__":

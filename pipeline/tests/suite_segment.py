@@ -54,6 +54,15 @@ def test_source_line_uses_the_display_name_not_capitalize():
     assert "Home-economics" not in row["source"]
 
 
+def test_split_paper_component_is_preserved():
+    d = {"year": 2024, "level": "higher", "paper_no": "BC", "status": "on-course"}
+    q = [{"label": "Q1", "sectionId": "s", "chapterId": "c",
+          "parts": [{"question": "Explain the process shown.", "marks": 6, "source_page": 3}]}]
+    row = segment.to_canonical("home-economics", d, q)[0]
+    assert row["paper"] == "BC"
+    assert row["source"] == "LC Home Economics Higher 2024 Paper BC — Q1"
+
+
 def test_reference_papers_keep_their_suffix():
     d = {"year": 2005, "level": "ordinary", "status": "reference"}
     q = [{"label": "A1", "sectionId": "s", "chapterId": "c", "parts": [{"question": "x", "marks": 1}]}]

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "business",
+  "level": "Higher",
+  "unitCount": 22,
+  "topicCount": 35,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/e81ccca9-fdf5-42e9-a291-52e9549820c9/SC-Business-Spec-ENG.pdf",
+      "effectiveFrom": "September 2025",
+      "firstExamYear": 2027
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/41745",
+      "representativeLesson": "Developing Questions to Research",
+      "h2Sections": 6,
+      "h3Sections": 6,
+      "workedExampleMentions": 2,
+      "noteCallouts": 5
+    }
+  }
+}

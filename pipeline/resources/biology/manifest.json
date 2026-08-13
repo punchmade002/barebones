@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "biology",
+  "level": "Higher",
+  "unitCount": 32,
+  "topicCount": 53,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://curriculumonline.ie/getmedia/04e86311-7225-4cf3-a723-675e33154daf/SC-BIOLOGY-Spec-ENG.pdf",
+      "effectiveFrom": "September 2025",
+      "firstExamYear": 2027
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/46193",
+      "representativeLesson": "The Nature of Scientific Knowledge",
+      "h2Sections": 6,
+      "h3Sections": 4,
+      "workedExampleMentions": 0,
+      "noteCallouts": 3
+    }
+  }
+}

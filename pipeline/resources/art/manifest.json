@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "art",
+  "level": "Higher",
+  "unitCount": 36,
+  "topicCount": 53,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/d809df63-51e4-43dc-b091-3c5f18a8312d/Leaving-Certificate-Art-Specification_EN.pdf",
+      "effectiveFrom": "September 2021",
+      "firstExamYear": 2023
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "current public subject catalogue",
+      "representativeLessonUrl": "https://simplestudy.com/ie/leaving-cert/art/revision-notes/section-a-today-s-world/ai-and-art",
+      "representativeLesson": "AI and Art",
+      "h2Sections": 7,
+      "h3Sections": 27,
+      "workedExampleMentions": 0,
+      "noteCallouts": 7
+    }
+  }
+}

@@ -74,7 +74,7 @@ def _diff(exp, got, path="") -> str:
     return "\n".join(out) or "  (structures differ but no leaf diff found)"
 
 
-SUITES = ["ids", "segment", "validate", "gate", "flashcards", "resources", "retrieval"]
+SUITES = ["acquire", "ids", "segment", "retag", "schemes", "answers", "validate", "gate", "images", "flashcards", "resources", "retrieval"]
 
 
 def main() -> int:

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "pe",
+  "level": "Higher",
+  "unitCount": 12,
+  "topicCount": 25,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/41817053-8f40-4365-8893-dba1a68508f3/LCPE_Specification_en.pdf",
+      "effectiveFrom": "2018",
+      "firstExamYear": 2022
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/20510",
+      "representativeLesson": "Defining a Skilled Performance",
+      "h2Sections": 7,
+      "h3Sections": 7,
+      "workedExampleMentions": 0,
+      "noteCallouts": 5
+    }
+  }
+}

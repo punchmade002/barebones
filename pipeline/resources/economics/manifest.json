@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "economics",
+  "level": "Higher",
+  "unitCount": 16,
+  "topicCount": 20,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/3342d8a2-1e22-4f17-b82b-a8134fe16eb3/LCEconomics_0219_EN.pdf",
+      "effectiveFrom": "September 2019",
+      "firstExamYear": 2021
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "authenticated course",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/41960",
+      "representativeLesson": "Economics as a Way of Thinking",
+      "h2Sections": 7,
+      "h3Sections": 12,
+      "workedExampleMentions": 1,
+      "noteCallouts": 6
+    }
+  }
+}

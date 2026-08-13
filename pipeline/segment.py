@@ -22,6 +22,7 @@ text and marks are the foundation everything downstream depends on.
 from __future__ import annotations
 import json
 import os
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -69,8 +70,9 @@ EMIT_TOOL = {
                                     "label": {"type": "string", "description": "sub-part label, e.g. '(a)'"},
                                     "question": {"type": "string", "description": "the FULL question wording as printed on the paper — never just a label like 'Part (a)'"},
                                     "marks": {"type": "integer", "description": "marks for this part; MUST be > 0 (use the section's marking rule if not printed beside the part)"},
+                                    "source_page": {"type": "integer", "description": "PDF page number from the nearest === PDF PAGE N === marker"},
                                 },
-                                "required": ["label", "question", "marks"],
+                                "required": ["label", "question", "marks", "source_page"],
                             },
                         },
                     },
@@ -116,7 +118,10 @@ def load_scaffold(subject: str) -> dict:
 def pages_text(block: dict | None) -> str:
     if not block:
         return ""
-    return "\n".join(p["text"] for p in block["pages"] if p.get("text"))
+    return "\n\n".join(
+        f"=== PDF PAGE {p['page']} ===\n{p['text']}"
+        for p in block["pages"] if p.get("text")
+    )
 
 
 def build_prompt(subject: str, digest: dict, scaffold: dict) -> str:
@@ -144,6 +149,8 @@ Rules:
   the part, derive them from the section's marking rule stated in the paper's instructions
   (e.g. "Section A: each question carries 6 marks", "Question 1 is worth 80 marks") and
   split sensibly across the sub-parts so they sum to the question's total. Do not output 0.
+- `source_page`: copy N from the nearest preceding `=== PDF PAGE N ===` marker. If a
+  question continues across pages, use the page containing that specific part or stimulus.
 - Strip page numbers, booklet titles, "write your answers here", and other chrome.
 - Set tag_confidence 0-1 (1 = the paper labels the topic explicitly).
 - Return ONLY via the emit_questions tool.
@@ -188,14 +195,19 @@ def to_canonical(subject: str, digest: dict, questions: list[dict],
             # name or the REFERENCE suffix changes.
             "level": lvl,
             "label": label,
-            "source": f"LC {display_name(subject)} {lvl.capitalize()} {yr} — {q.get('label','')}"
+            "source": f"LC {display_name(subject)} {lvl.capitalize()} {yr}"
+                      + (f" Paper {digest.get('paper_no')}" if digest.get("paper_no") else "")
+                      + f" — {q.get('label','')}"
                       + (" [REFERENCE — pre-current-syllabus]" if digest["status"] == "reference" else ""),
             "year": yr,
+            **({"paper": digest.get("paper_no")} if digest.get("paper_no") else {}),
             "tag_confidence": q.get("tag_confidence", 0),
             # `model` starts empty — schemes.py fills official answers from the marking
             # scheme, then model_answers.py writes H1 answers for whatever's left.
             "parts": [{"label": p.get("label", ""), "question": p.get("question", ""),
-                       "marks": p.get("marks", 0), "model": "", "diagram": ""}
+                       "marks": p.get("marks", 0), "model": "", "diagram": "",
+                       **({"source_page": p.get("source_page") or p.get("page")}
+                          if (p.get("source_page") or p.get("page")) else {})}
                       for p in parts],
         })
     return ids.assign_unique_ids(out, taken=taken)
@@ -248,10 +260,10 @@ def _stage(subject: str) -> str:
     return f"segment-{subject}"
 
 
-_TASK = ("Extract the exam questions from each paper. Every job's `prompt` contains one exam "
-         "paper + its marking scheme and the list of topics to tag against. Return the questions "
-         "object exactly as `schema` describes — split into parts with marks, the model answer "
-         "copied from the scheme, and a sectionId/chapterId for each question.")
+_TASK = ("Extract the exam questions from each paper. Every job's `prompt` contains only the exam "
+         "paper, PDF page markers, and the list of topics to tag against. Return full wording, "
+         "parts, marks, source_page, and one sectionId/chapterId per question. Do not invent or "
+         "copy model answers in this stage.")
 
 
 def render_js(subject: str, canonical: list[dict]) -> Path:
@@ -274,17 +286,20 @@ def prepare(subject: str, limit: int | None = None, year: int | None = None,
     cpath = CANONICAL / f"{subject}.json"
     existing = json.loads(cpath.read_text()) if cpath.exists() else []
     if existing and not force:
-        done = {(q["year"], level_of(q)) for q in existing}
+        done = {(q["year"], level_of(q), str(q.get("paper", ""))) for q in existing}
         before = len(digests)
-        digests = [d for d in digests if (d["year"], d["level"]) not in done]
+        digests = [d for d in digests
+                   if (d["year"], d["level"], str(d.get("paper_no", ""))) not in done]
         print(f"resuming: {before - len(digests)} paper(s) already done, {len(digests)} to do")
     if not digests:
         return 0
     jobs = [{
-        "custom_id": f"{dg['year']}_{dg['level']}_{dg['status']}",
+        "custom_id": f"{dg['year']}_{dg['level']}"
+                     f"{'_P' + str(dg.get('paper_no')) if dg.get('paper_no') else ''}_{dg['status']}",
         "prompt": build_prompt(subject, dg, scaffold),
         "tool": EMIT_TOOL,
-        "meta": {"year": dg["year"], "level": dg["level"], "status": dg["status"]},
+        "meta": {"year": dg["year"], "level": dg["level"], "status": dg["status"],
+                 "paper_no": dg.get("paper_no", "")},
     } for dg in digests]
     bridge.prepare(_stage(subject), jobs, task=_TASK)
     print(f"[segment] {len(jobs)} paper(s) queued for the worker")
@@ -322,7 +337,14 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
     new: list[dict] = []
     rejected: list[dict] = []
     for cid, content in outs.items():
-        meta = ins.get(cid, {}).get("meta", {})
+        meta = dict(ins.get(cid, {}).get("meta", {}))
+        # Backward compatibility for queues prepared before paper_no was included in `meta`.
+        # The custom id has always encoded explicit components (`..._PA_...`, `..._PBC_...`),
+        # so recover it here rather than collapsing both components into one canonical paper.
+        if not meta.get("paper_no"):
+            component = re.search(r"_P([^_]+)_", cid)
+            if component:
+                meta["paper_no"] = component.group(1)
         qs = parse_result(content)
         if len(qs) > MAX_QUESTIONS_PER_PAPER:
             print(f"[skip] {cid}: {len(qs)} items — malformed (likely scanned/OCR)")
@@ -362,9 +384,10 @@ def collect(subject: str, force: bool = False, review_threshold: float = 0.6) ->
                 continue
             dg = json.loads(f.read_text())
             if _paper_chars(dg) >= 200:                     # had a usable exam paper
-                digested.append((dg["year"], dg["level"]))
-    seg_pairs = {(q["year"], level_of(q)) for q in canonical}
-    papers_no_q = sorted(f"{y}-{l}" for (y, l) in digested if (y, l) not in seg_pairs)
+                digested.append((dg["year"], dg["level"], str(dg.get("paper_no", ""))))
+    seg_pairs = {(q["year"], level_of(q), str(q.get("paper", ""))) for q in canonical}
+    papers_no_q = sorted(f"{y}-{l}{'-P' + p if p else ''}"
+                         for (y, l, p) in digested if (y, l, p) not in seg_pairs)
     paper_cov = (len(digested) - len(papers_no_q)) / max(1, len(digested))
     all_chapters = [c["id"] for c in load_scaffold(subject)["chapters"]]
     chapters_empty = [c for c in all_chapters if cov.get(c, 0) == 0]

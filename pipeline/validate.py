@@ -151,7 +151,8 @@ def year_is_real(subject: str, year) -> bool:
 # Defect taxonomy:
 #   HARD  stub_question   — question text missing or only a label; unusable -> dropped at the gate
 #   SOFT  no_marks        — marks <= 0; answer can't be sized -> triggers a retry, surfaced, kept
-#   SOFT  length_mismatch — answer far from its mark-derived target -> surfaced (warning only)
+#   SOFT  length_mismatch — an AI-authored answer is far from its mark-derived target -> warning
+#                           (official scheme bullets are intentionally concise and exempt)
 #
 #     python3 validate.py home-economics            # scan + write the report/sample (no changes)
 #     python3 validate.py home-economics --enforce  # drop stubs to quarantine, re-render, sample
@@ -172,7 +173,8 @@ def _paper_key(q: dict) -> str:
     # Imported lazily: model_answers imports this module at load time, so a module-level
     # `from model_answers import q_level` would be a circular import.
     from model_answers import q_level
-    return f"{q.get('year')}-{q_level(q)}"
+    paper = str(q.get("paper", "") or "")
+    return f"{q.get('year')}-{q_level(q)}{'-P' + paper if paper else ''}"
 
 
 # ── defect detection ──────────────────────────────────────────────────────────
@@ -195,7 +197,11 @@ def part_defects(subject: str, p: dict) -> list[str]:
         out.append("no_marks")
     target = recommended_words(subject, p.get("marks", 0), p.get("scheme_points"))
     ans = (p.get("model") or "").strip()
-    if target and ans:
+    # SEC marking schemes deliberately use compact credit-bearing bullets rather than student
+    # prose. Applying the H1 sample-answer word target to those official entries made a clean
+    # Home Economics run report 916 bogus warnings. Their completeness/boundaries are validated
+    # by schemes.py; length targets apply only to authored exemplars and legacy unprovenanced text.
+    if target and ans and p.get("model_source") != "scheme":
         ratio = _word_count(ans) / target
         if ratio < LENGTH_MIN_RATIO or ratio > LENGTH_MAX_RATIO:
             out.append("length_mismatch")

@@ -47,16 +47,19 @@ EMIT_TOOL = {
                 "items": {
                     "type": "object",
                     "properties": {
+                        "pid": {"type": "string", "description": "the stable part id, echoed back exactly"},
                         "label": {"type": "string", "description": "the part label, echoed back"},
                         "answer": {"type": "string", "description": "the H1 sample answer"},
                     },
-                    "required": ["label", "answer"],
+                    "required": ["pid", "answer"],
                 },
             }
         },
         "required": ["answers"],
     },
 }
+
+PID_SEP = "@@"
 
 
 def _scheme_text(block) -> str:
@@ -73,7 +76,8 @@ def load_scheme_context(subject: str):
         dg = json.loads(f.read_text())
         txt = _scheme_text(dg.get("scheme"))
         if txt.strip():
-            per[f"{dg['year']}-{dg['level']}"] = txt
+            paper = str(dg.get("paper_no", "") or "")
+            per[f"{dg['year']}-{dg['level']}{'-P' + paper if paper else ''}"] = txt
             pool.append(txt)
     fallback = "\n\n".join(pool)[:FALLBACK_CHARS]
     return per, fallback
@@ -100,7 +104,7 @@ def needs_fill(q: dict) -> list[dict]:
 CORPUS_CTX_CHARS = 15_000       # legacy cap, kept for the API path's cached_prefix()
 
 
-def _part_line(subject: str, p: dict) -> str:
+def _part_line(subject: str, qid: str, idx: int, p: dict) -> str:
     marks = p.get("marks", 0)
     points = p.get("scheme_points")
     words = recommended_words(subject, marks, points)
@@ -110,7 +114,8 @@ def _part_line(subject: str, p: dict) -> str:
     if words:
         bits.append(f"AT LEAST {words} words")
     target = f" [{'; '.join(bits)}]" if bits else ""
-    return f"[{p.get('label') or 'part'}] ({marks} marks{target}) {p['question']}"
+    return (f"[{qid}{PID_SEP}{idx}] (label: {p.get('label') or 'part'}; "
+            f"{marks} marks{target}) {p['question']}")
 
 
 def cached_prefix(subject: str, scheme_ctx: str, used_fallback: bool,
@@ -136,13 +141,13 @@ Leaving Certificate {subject}. Write sample answers that would score FULL MARKS.
 it — develop EVERY scheme point fully with specific, accurate detail. Do not stop short; a
 full-marks exemplar is thorough, not terse. No padding or waffle, but cover every creditable point.
 
-Match what the marking scheme rewards: sustained relevance to the question, accurate
+    Match what the marking scheme rewards: sustained relevance to the question, accurate
 specific evidence (names, dates, events, statistics), clear structure, developed analysis,
 and a reasoned judgement.
 
 STAY ON COURSE: ground answers in the COURSE MATERIAL below and the marking scheme. Use ONLY
 material on the Leaving Certificate {subject} syllabus for the stated topic. Do not bring in
-facts outside the course. Do not invent facts. Return ONLY via the emit_answers tool, echoing each label.
+facts outside the course. Do not invent facts. Return ONLY via the emit_answers tool, echoing each pid.
 
 === MARKING SCHEME / CRITERIA ===
 {scheme}{course}"""
@@ -150,7 +155,9 @@ facts outside the course. Do not invent facts. Return ONLY via the emit_answers 
 
 def variable_suffix(subject: str, q: dict, title: str) -> str:
     """The small, per-question part."""
-    parts = "\n".join(_part_line(subject, p) for p in needs_fill(q))
+    parts = "\n".join(_part_line(subject, q["id"], i, p)
+                      for i, p in enumerate(q["parts"])
+                      if not (p.get("model") or "").strip() and not validate.is_placeholder(p))
     return f"TOPIC: {title}\n\nQUESTION PART(S) TO ANSWER:\n{parts}"
 
 
@@ -172,12 +179,33 @@ def parse_result(content):
             out = []
             for a in raw:
                 if isinstance(a, dict):
-                    out.append({"label": str(a.get("label", "")).strip(),
+                    out.append({"pid": str(a.get("pid", "")).strip(),
+                                "label": str(a.get("label", "")).strip(),
                                 "answer": (a.get("answer") or a.get("text") or "").strip()})
                 elif isinstance(a, str):
-                    out.append({"label": "", "answer": a.strip()})
+                    out.append({"pid": "", "label": "", "answer": a.strip()})
             return out
     return []
+
+
+def validate_output(obj, job=None) -> bool:
+    """Require a complete, exactly addressed set of non-empty answers for one question job."""
+    if not isinstance(obj, dict) or not isinstance(obj.get("answers"), list) or not obj["answers"]:
+        return False
+    pids = []
+    for answer in obj["answers"]:
+        if not isinstance(answer, dict) or not isinstance(answer.get("pid"), str):
+            return False
+        if not isinstance(answer.get("answer"), str) or not answer["answer"].strip():
+            return False
+        pids.append(answer["pid"])
+    if len(set(pids)) != len(pids):
+        return False
+    if isinstance(job, dict):
+        expected = re.findall(r"^\[([^\]]+@@\d+)\]", job.get("prompt", ""), re.MULTILINE)
+        if expected and pids != expected:
+            return False
+    return True
 
 
 def _targets(subject: str, limit: int | None):
@@ -197,7 +225,8 @@ def _targets(subject: str, limit: int | None):
                 p["model_source"] = "needs-source"
             skipped_docs += 1
             continue
-        key = f"{q['year']}-{q_level(q)}"
+        paper = str(q.get("paper", "") or "")
+        key = f"{q['year']}-{q_level(q)}{'-P' + paper if paper else ''}"
         ctx = per.get(key, "")
         used_fallback = not ctx.strip()
         if used_fallback:
@@ -212,15 +241,19 @@ def _targets(subject: str, limit: int | None):
 
 
 def _apply(q, answers: list) -> int:
-    """Match each empty part to an answer by label, else by position. Returns count filled."""
-    empties = needs_fill(q)
+    """Match each empty part by stable id; tolerate old label/position outputs for old queues."""
+    empties = [(i, p) for i, p in enumerate(q["parts"])
+               if not (p.get("model") or "").strip() and not validate.is_placeholder(p)]
+    by_pid = {a["pid"]: a["answer"] for a in answers if a.get("pid")}
     by_label = {a["label"].lower(): a["answer"] for a in answers if a.get("label")}
     filled = 0
-    for i, p in enumerate(empties):
-        ans = by_label.get((p.get("label") or "").lower())
+    for pos, (idx, p) in enumerate(empties):
+        ans = by_pid.get(f"{q['id']}{PID_SEP}{idx}")
+        if not ans:
+            ans = by_label.get((p.get("label") or "").lower())
         if not ans:                                    # positional / single-answer fallback
-            if i < len(answers):
-                ans = answers[i]["answer"]
+            if pos < len(answers):
+                ans = answers[pos]["answer"]
             elif len(answers) == 1:
                 ans = answers[0]["answer"]
         if ans and ans.strip():

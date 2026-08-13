@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "english",
+  "level": "Higher",
+  "unitCount": 31,
+  "topicCount": 85,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/79aab7be-cdd3-4bf1-937f-34e203b1b915/SCSEC14_English_Syllabus.pdf",
+      "effectiveFrom": "For examination to June 2028",
+      "firstExamYear": 2001
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/995306",
+      "representativeLesson": "How Question A Works",
+      "h2Sections": 9,
+      "h3Sections": 5,
+      "workedExampleMentions": 1,
+      "noteCallouts": 8
+    }
+  }
+}

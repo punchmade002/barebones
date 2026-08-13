@@ -43,6 +43,7 @@ AGREE = "#MaterialArchive__noTable__cbv__AgreeCheck"
 VIEW_TYPES = {"exampapers": "papers", "markingschemes": "scheme"}   # -> short tag for filenames
 ROW_RE = re.compile(r"(Higher|Ordinary)\s+Level\s+\((EV|IV)\)", re.I)
 PAPER_RE = re.compile(r"Paper\s*(\d)", re.I)   # multi-paper subjects (Maths, English, Irish…)
+SECTION_RE = re.compile(r"Section\s*(A|B\s*&\s*C)", re.I)  # split Home Economics papers
 
 
 def _select(page, field: str, *, value: str | None = None, label: str | None = None) -> bool:
@@ -63,7 +64,8 @@ def _subject_label(subject_key: str) -> str:
     return SUBJECTS.get(subject_key, {}).get("label", subject_key.capitalize())
 
 
-def discover_and_download(subject: str, headful: bool, include_irish: bool) -> list[dict]:
+def discover_and_download(subject: str, headful: bool, include_irish: bool,
+                          only_years: set[int] | None = None, force: bool = False) -> list[dict]:
     from playwright.sync_api import sync_playwright
 
     label = _subject_label(subject)
@@ -83,7 +85,9 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool) -> l
         except Exception:
             page.wait_for_load_state("domcontentloaded")
 
-        years = relevant_years(subject)          # cutoff-aware: on-course + 1 reference year
+        years = relevant_years(subject)
+        if only_years:
+            years = [y for y in years if y["year"] in only_years]
         cutoff, verified = cutoff_for(subject)
         print(f"{label}: pulling {len(years)} year(s) back to syllabus cutoff {cutoff}"
               f"{'' if verified else ' (UNVERIFIED — set SYLLABUS_CUTOFF in config.py)'}\n")
@@ -124,16 +128,28 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool) -> l
                         continue                     # didn't render — retry the chain
 
                     got_any = False
+                    seen_destinations = set()
                     for a in page.locator("a", has_text="Click Here").all():
                         row_txt = a.evaluate("e => (e.closest('tr')?.cells[0]?.innerText)||''")
                         m = ROW_RE.search(row_txt or "")
                         if not m:
                             continue
+                        # Home Economics exposes a separate "Practical Paper / Higher Level"
+                        # scheme link. It is the coursework rubric, not answers for the written
+                        # exam; sharing the same destination used to let it shadow the real link.
+                        if vt_tag == "scheme" and re.search(r"\b(practical|coursework)\b", row_txt, re.I):
+                            continue
                         level, version = m.group(1).lower(), m.group(2).upper()
                         if version == "IV" and not include_irish:
                             continue
                         pm = PAPER_RE.search(row_txt or "")   # "Paper 1"/"Paper 2" if present
-                        paper = pm.group(1) if pm else ""
+                        sm = SECTION_RE.search(row_txt or "")
+                        if pm:
+                            paper = pm.group(1)
+                        elif sm:
+                            paper = "A" if sm.group(1).upper() == "A" else "BC"
+                        else:
+                            paper = ""
                         href = a.get_attribute("href")
                         if not href:
                             continue
@@ -141,7 +157,10 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool) -> l
                         ref = "-REF" if status == "reference" else ""
                         ptag = f"-P{paper}" if paper else ""
                         dest = out_dir / f"{year}-{level}{ptag}-{version}-{vt_tag}{ref}.pdf"
-                        if dest.exists() and dest.stat().st_size > 0:
+                        if dest in seen_destinations:
+                            continue                    # archive sometimes repeats the same link
+                        seen_destinations.add(dest)
+                        if not force and dest.exists() and dest.stat().st_size > 0:
                             ok = True                # cached
                         else:
                             resp = page.request.get(url)
@@ -155,7 +174,7 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool) -> l
                                      "status": status,
                                      "bytes": dest.stat().st_size if ok and dest.exists() else 0,
                                      "path": str(dest)})
-                        got_any = True
+                        got_any = got_any or ok
                     if got_any:
                         outcome = "done"; break
                 if outcome is None:                  # exhausted retries without results
@@ -167,18 +186,68 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool) -> l
     return rows
 
 
-def run(subject: str, headful: bool, include_irish: bool) -> None:
-    rows = discover_and_download(subject, headful=headful, include_irish=include_irish)
+def _merge_rows(existing: list[dict], fresh: list[dict]) -> list[dict]:
+    """Deduplicate manifest rows and preserve prior successes during targeted gap retries."""
+    by_key = {}
+    for row in existing:
+        key = tuple(str(row.get(k, "")) for k in
+                    ("subject", "year", "level", "paper", "version", "kind", "status"))
+        if key not in by_key or int(row.get("bytes", 0) or 0) >= int(by_key[key].get("bytes", 0) or 0):
+            by_key[key] = row
+    for row in fresh:
+        key = tuple(str(row.get(k, "")) for k in
+                    ("subject", "year", "level", "paper", "version", "kind", "status"))
+        # A successful targeted/forced download is authoritative even when the correct file is
+        # smaller than a wrong cached asset. Preserve an existing success only if this retry failed.
+        if int(row.get("bytes", 0) or 0) > 0 or key not in by_key:
+            by_key[key] = row
+    rows = list(by_key.values())
+
+    # The archive occasionally changes from a single-paper listing to separately named
+    # components (for example Home Economics Section A and Section B&C).  A manifest from an
+    # earlier run can therefore retain the old component-less alias alongside the new rows;
+    # that alias points at Section A and would make the digest/segment stages process it twice.
+    # Once two or more explicit components exist, the component-less paper is superseded.
+    component_counts: dict[tuple[str, ...], set[str]] = {}
+    for row in rows:
+        if row.get("kind") != "papers" or not row.get("paper"):
+            continue
+        group = tuple(str(row.get(k, "")) for k in
+                      ("subject", "year", "level", "version", "kind", "status"))
+        component_counts.setdefault(group, set()).add(str(row["paper"]))
+    rows = [row for row in rows if not (
+        row.get("kind") == "papers" and not row.get("paper") and
+        len(component_counts.get(tuple(str(row.get(k, "")) for k in
+            ("subject", "year", "level", "version", "kind", "status")), set())) >= 2
+    )]
+
+    return sorted(rows, key=lambda r: (int(r["year"]), r["kind"], r["level"],
+                                       r.get("paper", ""), r["version"]))
+
+
+def run(subject: str, headful: bool, include_irish: bool,
+        only_years: set[int] | None = None, force: bool = False) -> None:
+    fresh = discover_and_download(subject, headful=headful, include_irish=include_irish,
+                                  only_years=only_years, force=force)
     manifest = REPORTS / f"manifest-{subject}.csv"
+    existing = []
+    if manifest.exists():
+        with manifest.open() as f:
+            existing = list(csv.DictReader(f))
+    rows = _merge_rows(existing, fresh)
     if rows:
         with manifest.open("w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=["subject", "year", "level", "paper", "version", "kind", "status", "bytes", "path"])
             w.writeheader(); w.writerows(rows)
-    got = sum(1 for r in rows if r["bytes"] > 0)
+    got = sum(1 for r in rows if int(r.get("bytes", 0) or 0) > 0)
     print(f"\n{got}/{len(rows)} PDFs in {RAW / subject}\nManifest: {manifest}")
 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
     subject = next((a for a in args if not a.startswith("-")), "history")
-    run(subject, headful=("--headful" in args), include_irish=("--include-irish" in args))
+    only_years = None
+    if "--years" in args:
+        only_years = {int(y) for y in args[args.index("--years") + 1].split(",") if y.strip()}
+    run(subject, headful=("--headful" in args), include_irish=("--include-irish" in args),
+        only_years=only_years, force=("--force" in args))

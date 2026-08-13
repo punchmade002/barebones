@@ -9,8 +9,8 @@ PREPARES new jobs and stops, printing `WORKER NEEDED <dir>`. The driving agent t
 
     python run.py biology                 # advance the pipeline one model stage, then stop/finish
     python run.py biology --no-acquire    # don't download; reuse PDFs already on disk
-    python run.py biology --restart       # wipe queued/inflight worker jobs and start the model
-                                          #   stages fresh (does not delete PDFs/digests/canonical)
+    python run.py biology --restart       # start derived model stages fresh; retains acquired
+                                          #   PDFs, digests, resources, and scaffold
     python run.py biology --merge         # after validation passes, publish into the app
 
 After all model stages, run.py runs the validation gate (validate.py): it quarantines any
@@ -21,12 +21,45 @@ automatically; otherwise it STOPS and you re-run with `--merge` to publish anywa
 Modifiers: --no-acquire  --no-images  --no-merge  --merge  --regen-scaffold  --limit N
            --headful  --include-irish  --restart  --force-merge (alias for --merge)
 """
+import shutil
 import sys
 
 import acquire_form
 import digest
 import agent_bridge as bridge
-from config import relevant_years, cutoff_for, SUBJECTS, model_for_stage
+from config import (relevant_years, cutoff_for, SUBJECTS, model_for_stage,
+                    CANONICAL, REPORTS, EXAM_IMAGES)
+
+
+def _restart_marker(subject: str):
+    return REPORTS / f".restart-{subject}.active"
+
+
+def _reset_subject_outputs(subject: str, modules: tuple) -> None:
+    """Clear every derived model-stage output while preserving acquired PDFs, digests,
+    resources, and the subject scaffold. This is what a user reasonably expects `--restart`
+    to mean; retaining canonical rows made the segment stage silently skip every old paper.
+    """
+    for mod in modules:
+        bridge.reset(mod._stage(subject))
+    for path in (
+        CANONICAL / f"{subject}.json",
+        CANONICAL / f"{subject}.quarantine.json",
+        CANONICAL / f"exam-questions-db.{subject}.generated.js",
+        CANONICAL / f"flashcards.{subject}.json",
+        CANONICAL / f"flashcards-{subject}.generated.js",
+        REPORTS / f"segment-{subject}.json",
+        REPORTS / f"figures-{subject}.json",
+        REPORTS / f"answers-{subject}.json",
+        REPORTS / f"validate-{subject}.json",
+        REPORTS / f"sample-{subject}.md",
+        REPORTS / f"tag-review-{subject}.json",
+        REPORTS / f"gate-baseline-{subject}.json",
+    ):
+        path.unlink(missing_ok=True)
+    image_dir = EXAM_IMAGES / subject
+    if image_dir.exists():
+        shutil.rmtree(image_dir)
 
 
 def _arg(args, flag):
@@ -101,11 +134,21 @@ def main() -> None:
     import validate
     import merge
 
+    marker = _restart_marker(subject)
     if "--restart" in args:
-        for mod in (scaffold_gen, segment, images, images_verify, schemes, model_answers, flashcards):
-            bridge.reset(mod._stage(subject))
-        validate._reset_attempts(subject)
-        print("restarted: cleared all queued worker jobs for this subject.\n")
+        if marker.exists():
+            print("restart already applied for this run; continuing queued stages.\n")
+        else:
+            _reset_subject_outputs(
+                subject, (scaffold_gen, segment, images, images_verify, schemes,
+                          model_answers, flashcards))
+            validate._reset_attempts(subject)
+            marker.write_text("active\n")
+            print("restarted: cleared derived model outputs for this subject; retained PDFs, "
+                  "digests, resources, and scaffold.\n")
+    else:
+        # A later explicit restart should be possible after the caller has left restart mode.
+        marker.unlink(missing_ok=True)
 
     # Ordered model stages. Each must be fully collected before the next starts. Order matters:
     # segment (paper only) -> images -> schemes (official answers from the scheme) -> answers
@@ -201,6 +244,7 @@ def main() -> None:
         print("\nNOT PUBLISHED — the merge gate blocked it (see the failures above). "
               f"Fix them, or re-run: python3 run.py {subject} --merge")
         return
+    marker.unlink(missing_ok=True)
     why = "clean — auto-published" if (gate["clean"] and not coverage_low) else "published (--merge override)"
     print(f"\nPIPELINE COMPLETE ({why}): {subject} is acquired, digested, scaffolded, segmented, "
           f"{'(images skipped) ' if '--no-images' in args else 'diagrammed, '}"

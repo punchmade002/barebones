@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "computer-science",
+  "level": "Higher",
+  "unitCount": 21,
+  "topicCount": 27,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/cff6eb86-9ff8-4e68-abf9-e42ca637492d/LC-Computer-Science-specification-updated.pdf",
+      "effectiveFrom": "Updated specification for examination in 2025 and beyond",
+      "firstExamYear": 2025
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "authenticated course",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/7216",
+      "representativeLesson": "Python Programming: Basics",
+      "h2Sections": 5,
+      "h3Sections": 0,
+      "workedExampleMentions": 0,
+      "noteCallouts": 11
+    }
+  }
+}
