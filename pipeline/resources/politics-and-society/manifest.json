@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "politics-and-society",
+  "level": "Higher",
+  "unitCount": 10,
+  "topicCount": 57,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/ee597f5d-180a-4531-ba50-2f4c966f2df3/Politics-and-Society-new.pdf",
+      "effectiveFrom": "Updated specification for the 2019 intake",
+      "firstExamYear": 2021
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "authenticated course and current public lesson",
+      "representativeLessonUrl": "https://simplestudy.com/ie/leaving-cert/politics-and-society/revision-notes/assessment/key-concepts",
+      "representativeLesson": "Key Concepts",
+      "h2Sections": 7,
+      "h3Sections": 37,
+      "workedExampleMentions": 0,
+      "noteCallouts": 7
+    }
+  }
+}

@@ -39,6 +39,16 @@ def test_type_defaults_to_concept():
     assert out[0]["type"] == "concept"
 
 
+def test_empty_worker_deck_fails_validation():
+    assert not flashcards.validate_output({"cards": []})
+
+
+def test_question_term_fails_worker_validation():
+    assert not flashcards.validate_output({"cards": [
+        card("Explain pasteurisation", "A heat treatment.", "process")
+    ]})
+
+
 def test_distinct_terms_are_kept():
     assert len(flashcards.dedup([card("A"), card("B"), card("C")])) == 3
 

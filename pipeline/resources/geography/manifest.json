@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "geography",
+  "level": "Higher",
+  "unitCount": 23,
+  "topicCount": 63,
+  "alignmentStatus": "transitional",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/837bf939-b559-4b45-8c94-5590d8710083/SC-Geography-Spec-ENG-INT.pdf",
+      "effectiveFrom": "September 2026",
+      "firstExamYear": 2028
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/22282",
+      "representativeLesson": "The Earth's Structure",
+      "h2Sections": 5,
+      "h3Sections": 2,
+      "workedExampleMentions": 0,
+      "noteCallouts": 0
+    }
+  }
+}

@@ -29,12 +29,30 @@ except ImportError:
     fitz = None
 
 MAX_CORPUS_CHARS = 400_000         # cap the pooled corpus so model calls stay bounded
-TEXT_SUFFIXES = {".txt", ".md", ".text"}
+TEXT_SUFFIXES = {".txt", ".md", ".text", ".js"}
 REQUIRED_FILES = (
     "manifest.json",
     "spec-syllabus.pdf",
     "guide-simplestudy.md",
     "worked-example-guidance.md",
+)
+SUPPORTED_SUBJECTS = (
+    "accounting",
+    "art",
+    "biology",
+    "business",
+    "chemistry",
+    "computer-science",
+    "dcg",
+    "economics",
+    "english",
+    "geography",
+    "history",
+    "home-economics",
+    "maths",
+    "music",
+    "pe",
+    "politics-and-society",
 )
 REQUIRED_MANIFEST_KEYS = (
     "schemaVersion",
@@ -74,6 +92,8 @@ def role_of(path: Path) -> str:
     n = path.name.lower()
     if n == "manifest.json":
         return "manifest"
+    if "course-information" in n or "course-database" in n:
+        return "course-database"
     if n.startswith(("guide", "teacher")):
         return "guide"
     if n.startswith(("summary", "notes", "revision")):
@@ -180,7 +200,13 @@ def extract_cutoff(text: str) -> int | None:
 
 # Bump when a change to extraction would alter the corpus produced from unchanged inputs, so
 # every subject re-ingests instead of serving a corpus built by the older code.
-INGEST_VERSION = 2
+INGEST_VERSION = 3
+
+
+def _cache_is_complete(corpus: str) -> bool:
+    """A failed optional extractor must never become a permanently valid cache entry."""
+    low = corpus.lower()
+    return "[skipped " not in low and "[unreadable " not in low
 
 
 def _fingerprint(subject: str, files: list[Path]) -> str:
@@ -226,16 +252,25 @@ def ingest(subject: str, force: bool = False) -> dict:
             cached_fp = None
     if cpath.exists() and not force and cached_fp == fingerprint:
         corpus = cpath.read_text()
-    else:
+        if not _cache_is_complete(corpus):
+            force = True
+            print(f"[resources] rebuilding incomplete cached corpus for {subject}")
+    if not cpath.exists() or force or cached_fp != fingerprint:
         chunks = []
+        extraction_errors = []
         for f in files:
             role = role_of(f)
             summary["roles"][role] = summary["roles"].get(role, 0) + 1
             body = _read_file(f).strip()
+            if body.startswith(("[skipped ", "[unreadable ")):
+                extraction_errors.append(f"{f.name}: {body}")
             if body:
                 chunks.append(f"\n\n===== {role.upper()}: {f.relative_to(subject_dir(subject))} =====\n{body}")
         corpus = "".join(chunks)[:MAX_CORPUS_CHARS]
         cpath.write_text(corpus)
+        if extraction_errors:
+            summary["errors"].extend(extraction_errors)
+            summary["valid"] = False
 
     # The manifest records the first examination year explicitly. This is safer than treating an
     # implementation date mentioned in a specification as the first year with valid exam papers.

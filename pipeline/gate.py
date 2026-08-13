@@ -27,7 +27,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from config import CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name
+from config import (CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name,
+                    SUPPLIED_FIGURE_RE, SCAN_ALL_PARTS_FOR_FIGURES)
 import ids
 import validate
 
@@ -60,6 +61,11 @@ class Ctx:
         self.cards = self._json(CANONICAL / f"flashcards.{subject}.json") or {}
         self.scaffold = self._json(Path(__file__).parent / "scaffold" / f"{subject}.json") or {}
         self.baseline = self._json(REPORTS / f"baseline-{subject}.json")
+        figure_raw = self._json(REPORTS / f"figures-{subject}.json")
+        self.figure_report_exists = figure_raw is not None
+        self.figures = ((figure_raw or {}).get("entries", {})
+                        if isinstance(figure_raw, dict) and "id_scheme_version" in figure_raw
+                        else (figure_raw or {}))
         self.parts = [(q, p) for q in self.canon for p in q.get("parts", [])]
 
     @staticmethod
@@ -86,8 +92,13 @@ def check_part_labels(c: Ctx):
     """Repeated part labels inside one question are a segmentation smell, not a fatal defect:
     the app addresses parts positionally, so nothing breaks — but it usually means the model
     merged or split parts wrongly."""
-    bad = [q["id"] for q in c.canon
-           if len({p.get("label") for p in q.get("parts", [])}) != len(q.get("parts", []))]
+    bad = []
+    for q in c.canon:
+        # Several SEC short questions print two separately marked prompts with no (a)/(b)
+        # labels. Repeated empty labels faithfully represent the paper and are not a split smell.
+        labels = [p.get("label") for p in q.get("parts", []) if (p.get("label") or "").strip()]
+        if len(set(labels)) != len(labels):
+            bad.append(q["id"])
     if bad:
         yield Finding("part-labels", WARN,
                       f"{len(bad)} question(s) repeat a part label — e.g. {', '.join(bad[:3])}", bad)
@@ -122,7 +133,9 @@ def check_sources(c: Ctx):
     """Every source line must read 'LC <Display Name> <Level> <Year> — <label>'. This is what
     catches `.capitalize()` mangling ('LC Home-economics') and a stale display name."""
     want = display_name(c.subject)
-    pat = re.compile(rf"^LC {re.escape(want)} (Higher|Ordinary) \d{{4}} — ")
+    # Split papers/sections carry an explicit component between year and label (e.g. Paper A,
+    # Paper BC). It is part of the canonical source identity, not malformed display text.
+    pat = re.compile(rf"^LC {re.escape(want)} (Higher|Ordinary) \d{{4}}(?: Paper [A-Za-z0-9]+)? — ")
     bad = [q["id"] for q in c.canon if not pat.match(q.get("source", ""))]
     if bad:
         sample = next((q["source"] for q in c.canon if q["id"] == bad[0]), "")
@@ -144,6 +157,37 @@ def check_diagrams(c: Ctx):
     total = sum(1 for _, p in c.parts if (p.get("diagram") or "").strip())
     if total:
         yield Finding("diagrams", INFO, f"{total} part(s) carry a diagram")
+
+
+def check_figure_audit(c: Ctx):
+    """Reconcile canonical parts, exhaustive inspection state, and supplied-visual wording."""
+    figures = getattr(c, "figures", {}) or {}
+    report_exists = getattr(c, "figure_report_exists", bool(figures))
+    if SCAN_ALL_PARTS_FOR_FIGURES and c.parts and not report_exists:
+        yield Finding("figure-audit", BLOCK,
+                      "no exhaustive figure-inspection report — run the images stages")
+        return
+    expected = {f"{q['id']}#{i}" for q in c.canon for i, _p in enumerate(q.get("parts", []))}
+    missing = sorted(expected - set(figures))
+    if missing:
+        yield Finding("figure-audit", BLOCK,
+                      f"{len(missing)} part(s) were never visually inspected for supplied figures",
+                      missing[:50])
+    unresolved = sorted(k for k, v in figures.items()
+                        if isinstance(v, dict) and (v.get("pending_crop") or v.get("needs_review")
+                                                   or v.get("reason") == "page-not-located"))
+    if unresolved:
+        yield Finding("figure-audit", BLOCK,
+                      f"{len(unresolved)} figure inspection(s) remain unresolved/reviewable",
+                      unresolved[:50])
+    supplied_missing = []
+    for q, p in c.parts:
+        if SUPPLIED_FIGURE_RE.search(p.get("question", "")) and not (p.get("diagram") or "").strip():
+            supplied_missing.append(q["id"])
+    if supplied_missing:
+        yield Finding("figure-audit", BLOCK,
+                      f"{len(supplied_missing)} part(s) explicitly reference a supplied visual but have no diagram",
+                      supplied_missing[:50])
 
 
 def check_flashcards(c: Ctx):
@@ -257,7 +301,7 @@ def check_regression(c: Ctx):
 
 
 CHECKS = [check_store_exists, check_question_ids, check_part_labels, check_parts,
-          check_ai_share, check_years, check_sources, check_diagrams, check_flashcards,
+          check_ai_share, check_years, check_sources, check_diagrams, check_figure_audit, check_flashcards,
           check_flashcard_duplicates, check_card_budgets, check_coverage, check_regression]
 
 

@@ -14,6 +14,8 @@ def ctx(canon=None, cards=None, scaffold=None, baseline=None):
     c.cards = cards or {}
     c.scaffold = scaffold or {}
     c.baseline = baseline
+    c.figures = {}
+    c.figure_report_exists = False
     c.parts = [(q, p) for q in c.canon for p in q.get("parts", [])]
     return c
 
@@ -51,6 +53,13 @@ def test_wellformed_source_passes():
     assert not list(gate.check_sources(ctx([row()])))
 
 
+def test_split_paper_source_passes():
+    r = row(source="LC Home Economics Higher 2024 Paper BC — Q1")
+    c = ctx([r])
+    c.subject = "home-economics"
+    assert not list(gate.check_sources(c))
+
+
 def test_reference_suffix_does_not_trip_the_source_check():
     r = row(source="LC History Ordinary 2005 — A1 [REFERENCE — pre-current-syllabus]")
     assert not list(gate.check_sources(ctx([r])))
@@ -60,6 +69,14 @@ def test_placeholder_part_blocks():
     r = row(parts=[{"label": "", "question": "Part (a)", "marks": 0, "model": ""}])
     f = list(gate.check_parts(ctx([r])))
     assert f and f[0].severity == gate.BLOCK
+
+
+def test_repeated_empty_part_labels_are_allowed():
+    r = row(parts=[
+        {"label": "", "question": "First separately marked prompt.", "marks": 3, "model": "x"},
+        {"label": "", "question": "Second separately marked prompt.", "marks": 3, "model": "y"},
+    ])
+    assert not list(gate.check_part_labels(ctx([r])))
 
 
 def test_ai_share_over_cap_blocks():
@@ -83,6 +100,28 @@ def test_missing_diagram_file_blocks():
                     "model": "x", "diagram": "exam-images/history/does-not-exist.png"}])
     f = [x for x in gate.check_diagrams(ctx([r])) if x.severity == gate.BLOCK]
     assert f and "does not exist" in f[0].message
+
+
+def test_uninspected_parts_block_figure_audit():
+    c = ctx([row()])
+    c.figure_report_exists = True
+    f = list(gate.check_figure_audit(c))
+    assert f and f[0].severity == gate.BLOCK and "never visually inspected" in f[0].message
+
+
+def test_explicit_supplied_visual_without_diagram_blocks():
+    r = row(parts=[{"label": "", "question": "Study the following food label and answer.",
+                    "marks": 5, "model": "x", "diagram": ""}])
+    c = ctx([r])
+    c.figure_report_exists = True
+    c.figures = {f"{r['id']}#0": {"has_figure": False}}
+    f = list(gate.check_figure_audit(c))
+    assert any("explicitly reference" in x.message for x in f)
+
+
+def test_student_created_sketch_is_not_a_supplied_visual():
+    assert not gate.SUPPLIED_FIGURE_RE.search("Name one design principle shown on your sketch.")
+    assert not gate.SUPPLIED_FIGURE_RE.search("Name three charges shown on a domestic electricity bill.")
 
 
 def test_empty_flashcard_blocks():

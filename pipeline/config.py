@@ -29,11 +29,27 @@ EXAM_DB_OUT  = ROOT / "exam-questions-db.js"   # .with_name() used to produce ge
 import re as _re
 IMAGE_DPI = 150                    # render DPI for page->PNG crops (enough for screen + zoom)
 BBOX_PADDING = 0.03                # pad the vision-returned bbox by 3% of page on each side
-# Only spend a vision call on a part whose text hints it leans on a figure. Cheap pre-filter;
-# the crop itself is fully vision-guided. Widen this if a subject's figures are being missed.
+# Correctness-first mode. The former regex-only cost gate missed stimulus wording such as
+# "pictured above", food labels, advertisements, and unlabelled tables. Keep the cue regex for
+# prioritisation and smoke tests, but inspect every part during a full run.
+SCAN_ALL_PARTS_FOR_FIGURES = True
 FIGURE_CUE_RE = _re.compile(
     r"\b(diagram|figure|fig\.?|graph|table|map|photograph|photo|image|chart|sketch|"
-    r"shown below|shown above|shown in the|illustrat|labelled|label the|the apparatus)\b", _re.I)
+    r"shown below|shown above|shown in the|pictured|symbols? shown|food label|advertis|"
+    r"infographic|data presented|illustrat|labelled|label the|the apparatus)\b", _re.I)
+# Phrases that assert the paper supplied a visual stimulus. Unlike a bare word such as
+# "diagram", these do not match instructions asking the student to draw their own.
+SUPPLIED_FIGURE_RE = _re.compile(
+    # Bare "shown on/in" is too broad: "shown on your sketch" and "charges shown on a bill"
+    # describe student-created work or ordinary prose, not a supplied exam visual.
+    r"\b(shown|pictured|illustrated|presented)\s+(above|below)\b|"
+    r"\b(shown|pictured|illustrated|presented)\s+(in|on)\s+(the|this|following)\s+"
+    r"(diagram|figure|graph|table|map|photograph|photo|image|chart|food label|advertisement|"
+    r"infographic)\b|"
+    r"\b(refer to|study|examine|using)\s+(the\s+)?(following\s+)?"
+    r"(diagram|figure|graph|table|map|photograph|photo|image|chart|food label|advertisement|"
+    r"infographic)|\b(the|following)\s+(diagram|figure|graph|table|map|photograph|photo|image|"
+    r"chart|food label|advertisement|infographic)\s+(shows|illustrates|gives|presents)\b", _re.I)
 
 # ── Validation gate (validate.py) ─────────────────────────────────────────────
 # A part is structurally broken if its question text is missing or is only a label

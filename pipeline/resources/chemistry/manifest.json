@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "chemistry",
+  "level": "Higher",
+  "unitCount": 15,
+  "topicCount": 54,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/aa7e3dd7-c156-49d2-9b2e-51cbc49c9d7e/SC-Chemistry-Specification-EN.pdf",
+      "effectiveFrom": "September 2025",
+      "firstExamYear": 2027
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/46337",
+      "representativeLesson": "The Nuclear Model",
+      "h2Sections": 4,
+      "h3Sections": 2,
+      "workedExampleMentions": 1,
+      "noteCallouts": 2
+    }
+  }
+}

@@ -16,6 +16,7 @@ writes a full H1 answer for whatever is left. Answers placed here are tagged
 """
 from __future__ import annotations
 import json
+import re
 import sys
 
 from config import CANONICAL
@@ -23,7 +24,9 @@ from segment import load_scaffold, render_js
 from model_answers import load_scheme_context, q_level
 
 PID_SEP = "@@"                      # part id = "<question id>@@<part index>"
-MAX_SCHEME_CHARS = 60_000          # cap scheme text per paper to keep the call bounded
+# Home Economics combined written+coursework schemes reach ~107k extracted characters; the old
+# 60k cap cut off final Section C answers. Keep a generous bounded ceiling above observed files.
+MAX_SCHEME_CHARS = 140_000
 
 EMIT_TOOL = {
     "name": "emit_scheme_answers",
@@ -59,8 +62,41 @@ _TASK = ("Copy the official answer for each exam part out of the MARKING SCHEME 
          "marking criteria / doesn't cover that part. Be faithful to the scheme; invent nothing.")
 
 
+def validate_output(obj, job=None) -> bool:
+    """Reject placeholder files and obviously wrong scheme assets before collection.
+
+    A real written-paper marking scheme covers most listed parts. An all-empty answer list was
+    previously accepted when the archive supplied a practical-coursework rubric instead.
+    """
+    if not isinstance(obj, dict) or not isinstance(obj.get("answers"), list) or not obj["answers"]:
+        return False
+    pids = []
+    useful = 0
+    for answer in obj["answers"]:
+        if not isinstance(answer, dict) or not isinstance(answer.get("pid"), str) \
+                or not isinstance(answer.get("answer", ""), str):
+            return False
+        pids.append(answer["pid"])
+        points = answer.get("points", 0)
+        useful += bool(answer.get("answer", "").strip()) or (isinstance(points, int) and points > 0)
+    if len(set(pids)) != len(pids):
+        return False
+    # A lone table row/column number is an OCR/layout artefact, not an official answer.  These
+    # used to pass because the surrounding paper had enough valid answers to clear the coarse
+    # coverage threshold.
+    trivial = {str(n) for n in range(1, 21)} | {f"{n}." for n in range(1, 21)}
+    if any(a.get("answer", "").strip() in trivial for a in obj["answers"]):
+        return False
+    if isinstance(job, dict):
+        expected = re.findall(r"^\[([^\]]+@@\d+)\]", job.get("prompt", ""), re.MULTILINE)
+        if expected and pids != expected:
+            return False
+    return useful / len(obj["answers"]) >= 0.5
+
+
 def _paper_key(q: dict) -> str:
-    return f"{q.get('year')}-{q_level(q)}"
+    paper = str(q.get("paper", "") or "")
+    return f"{q.get('year')}-{q_level(q)}{'-P' + paper if paper else ''}"
 
 
 def _empty_parts(q: dict):
@@ -100,8 +136,13 @@ def parse_result(content) -> list[dict]:
             for a in raw:
                 if isinstance(a, dict) and a.get("pid"):
                     pts = a.get("points")
+                    answer = (a.get("answer") or "").strip()
+                    # PDF table extraction often appends the next bare question number to the
+                    # preceding marking-scheme cell ("... etc.\n\n7.").  It is page structure,
+                    # not answer content, so remove that narrow artefact at the ingestion edge.
+                    answer = re.sub(r"\n\s*(?:\[\d+\]\s*)?\d{1,2}\.\s*$", "", answer).strip()
                     out.append({"pid": str(a["pid"]).strip(),
-                                "answer": (a.get("answer") or "").strip(),
+                                "answer": answer,
                                 "points": int(pts) if isinstance(pts, int) or (isinstance(pts, str) and pts.isdigit()) else 0})
             return out
     return []

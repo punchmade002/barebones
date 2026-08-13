@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "music",
+  "level": "Higher",
+  "unitCount": 9,
+  "topicCount": 10,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/85bfed8e-207e-4fbc-b8ed-3120cd979a4b/SCSEC26_Music_syllabus_eng.pdf",
+      "effectiveFrom": "Published 1996-1997",
+      "firstExamYear": 1999
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "authenticated course and current public lesson",
+      "representativeLessonUrl": "https://simplestudy.com/ie/leaving-cert/music/revision-notes/melody-and-harmony/harmony-section",
+      "representativeLesson": "Harmony Section",
+      "h2Sections": 7,
+      "h3Sections": 18,
+      "workedExampleMentions": 0,
+      "noteCallouts": 1
+    }
+  }
+}

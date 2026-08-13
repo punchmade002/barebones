@@ -19,6 +19,7 @@ out/<id>.json. That's it — no code, no keys.
 """
 from __future__ import annotations
 import json
+import inspect
 import shutil
 from pathlib import Path
 from types import SimpleNamespace
@@ -147,7 +148,18 @@ def pending(stage: str, validate=None, max_attempts: int = 2) -> list[str]:
         if not ans.exists():
             out.append(p.stem)
             continue
-        if validate is None or validate(_load_answer(ans)):
+        if validate is None:
+            valid = True
+        else:
+            # Most stages only need the returned object.  Matching stages such as official
+            # schemes also need the originating job so they can prove that every requested id
+            # came back exactly once and in order.  Supporting both callback shapes keeps the
+            # bridge generic while closing the gap where a plausible-looking partial response
+            # could otherwise be collected silently.
+            params = inspect.signature(validate).parameters
+            valid = (validate(_load_answer(ans), json.loads(p.read_text()))
+                     if len(params) >= 2 else validate(_load_answer(ans)))
+        if valid:
             continue                                       # no validation, or it passed
         n = _bump_attempt(stage, p.stem)
         if n > max_attempts:

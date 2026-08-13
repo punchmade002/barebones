@@ -29,7 +29,8 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from config import CANONICAL, REPORTS, EXAM_IMAGES, IMAGE_DPI, BBOX_PADDING, FIGURE_CUE_RE
+from config import (CANONICAL, REPORTS, EXAM_IMAGES, IMAGE_DPI, BBOX_PADDING,
+                    FIGURE_CUE_RE, SCAN_ALL_PARTS_FOR_FIGURES)
 from segment import MODEL, _retry, _digests, render_js, _save, level_of
 import ids
 
@@ -43,22 +44,25 @@ LEVEL_TAG = {"higher": "HL", "ordinary": "OL"}
 
 EMIT_TOOL = {
     "name": "emit_figure",
-    "description": "Report whether this exam question has an accompanying figure on the page, and where.",
+    "description": "Report figure dependency and location for every listed question part on one page.",
     "input_schema": {
         "type": "object",
         "properties": {
-            "has_figure": {"type": "boolean",
-                           "description": "true only if there is a real diagram/graph/map/image/"
-                                          "structured table the question depends on (not plain prose)"},
-            "bbox": {
+            "results": {
                 "type": "array",
-                "description": "tight box around the figure as fractions of the page: "
-                               "[x0, y0, x1, y1], origin top-left, each 0-1",
-                "items": {"type": "number"},
-                "minItems": 4, "maxItems": 4,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "key": {"type": "string"},
+                        "has_figure": {"type": "boolean"},
+                        "bbox": {"type": "array", "items": {"type": "number"},
+                                 "minItems": 4, "maxItems": 4},
+                    },
+                    "required": ["key", "has_figure"],
+                },
             },
         },
-        "required": ["has_figure"],
+        "required": ["results"],
     },
 }
 
@@ -111,13 +115,13 @@ def _sample_words(text: str, n: int = 12) -> list[str]:
 
 
 def locate_page(part_text: str, pages: list[tuple]) -> tuple | None:
-    """pages: [(pdf_path, page_index0, page_text)]. Return the best (pdf_path, page_index) the
+    """pages: [(pdf_path, page_index0, page_text, paper_no)]. Return the best (pdf_path, page_index) the
     part text sits on, or None if no page is a confident match."""
     sample = _sample_words(part_text)
     if not sample:
         return None
     best, best_score = None, 0
-    for pdf_path, idx, text in pages:
+    for pdf_path, idx, text, *_rest in pages:
         low = (text or "").lower()
         score = sum(1 for w in sample if w in low)
         if score > best_score:
@@ -145,7 +149,7 @@ def _pdf_map(subject: str) -> dict:
 
 
 def _pages_for(subject: str, pdf_map: dict) -> dict:
-    """(year:int, level) -> [(pdf_path, page_index0, page_text)] across all that level's papers."""
+    """(year:int, level) -> [(pdf_path, page_index0, page_text, paper_no)]."""
     by_level: dict = {}
     for dg in _digests(subject, limit=None):
         paper = dg.get("paper")
@@ -156,29 +160,40 @@ def _pages_for(subject: str, pdf_map: dict) -> dict:
             continue
         bucket = by_level.setdefault((dg["year"], dg["level"]), [])
         for p in paper["pages"]:
-            bucket.append((pdf, p["page"] - 1, p.get("text", "")))
+            bucket.append((pdf, p["page"] - 1, p.get("text", ""), dg.get("paper_no", "")))
     return by_level
 
 
 # ── candidates ──────────────────────────────────────────────────────────────────
 def _candidates(rows: list[dict], pages_by_level: dict, sidecar: dict, force: bool) -> list[dict]:
     cands, multi = [], {}
-    # how many figure-cued parts per question (to decide whether to suffix filenames by part)
+    # In exhaustive mode every part is a candidate, so every multi-part question gets stable,
+    # collision-free filenames. Cue hits are still sorted first for bounded smoke tests.
     for q in rows:
-        multi[q["id"]] = sum(1 for p in q.get("parts", [])
-                             if FIGURE_CUE_RE.search(p.get("question", "")))
+        multi[q["id"]] = (len(q.get("parts", [])) if SCAN_ALL_PARTS_FOR_FIGURES else
+                          sum(1 for p in q.get("parts", [])
+                              if FIGURE_CUE_RE.search(p.get("question", ""))))
     for q in rows:
         level, year = _level_of(q), q["year"]
         for i, part in enumerate(q.get("parts", [])):
             key = f"{q['id']}#{i}"
             qtext = part.get("question", "")
-            if not FIGURE_CUE_RE.search(qtext):
+            cue = bool(FIGURE_CUE_RE.search(qtext))
+            if not SCAN_ALL_PARTS_FOR_FIGURES and not cue:
                 continue
             if part.get("diagram") and (EXAM_IMAGES.parent / part["diagram"]).exists():
                 continue                              # already cropped
             if not force and key in sidecar:
                 continue                              # already evaluated (hit or miss)
-            loc = locate_page(qtext, pages_by_level.get((year, level), []))
+            pages = pages_by_level.get((year, level), [])
+            loc = None
+            source_page = part.get("source_page")
+            paper_no = str(q.get("paper", "") or "")
+            if isinstance(source_page, int) and source_page > 0:
+                loc = next(((pdf, idx) for pdf, idx, _text, pno in pages
+                            if idx == source_page - 1 and (not paper_no or str(pno) == paper_no)), None)
+            if not loc:
+                loc = locate_page(qtext, pages)
             if not loc:
                 sidecar[key] = {"has_figure": False, "reason": "page-not-located"}
                 continue
@@ -188,17 +203,19 @@ def _candidates(rows: list[dict], pages_by_level: dict, sidecar: dict, force: bo
             if multi[q["id"]] > 1:
                 name += f"-{_sanitize(part.get('label') or str(i))}"
             cands.append({"key": key, "q": q, "part": part, "pdf": pdf_path,
-                          "page": page_index, "qtext": qtext, "name": name})
-    return cands
+                          "page": page_index, "qtext": qtext, "name": name,
+                          "cue": cue})
+    return sorted(cands, key=lambda c: (not c["cue"], c["key"]))
 
 
-def _prompt(qtext: str) -> str:
-    return ("This is one page of a Leaving Certificate exam paper. The question below is on this "
-            "page. If the question depends on an accompanying FIGURE on this page (a diagram, "
-            "graph, map, chemical structure, labelled apparatus, or a structured data table), set "
-            "has_figure=true and return a TIGHT bounding box around just that figure (exclude the "
-            "question text and surrounding prose). If the question is plain text with no figure to "
-            "show, set has_figure=false.\n\nQUESTION:\n" + qtext[:1500])
+def _prompt(items: list[dict]) -> str:
+    listed = "\n\n".join(f"KEY: {c['key']}\nQUESTION: {c['qtext'][:1200]}" for c in items)
+    return ("This is one page of a Leaving Certificate exam paper. Inspect the WHOLE page once, "
+            "then return exactly one result for EVERY keyed question part below. A supplied figure "
+            "can serve several parts; reuse its bbox for each dependent key. Figure means diagram, "
+            "graph, map, photo, illustration, food label, advertisement, symbol set, or structured "
+            "data table—not plain prose. For each dependent part set has_figure=true and give a "
+            "tight [x0,y0,x1,y1] fractional bbox around just the visual. Otherwise false.\n\n" + listed)
 
 
 def _page_png(pdf_path: str, page_index: int) -> bytes:
@@ -206,12 +223,27 @@ def _page_png(pdf_path: str, page_index: int) -> bytes:
     return fitz.open(pdf_path).load_page(page_index).get_pixmap(dpi=IMAGE_DPI).tobytes("png")
 
 
-def _parse(content) -> tuple[bool, list | None]:
+def _parse(content) -> list[dict]:
     for b in content:
         if getattr(b, "type", None) == "tool_use" and b.name == "emit_figure":
             inp = b.input if isinstance(b.input, dict) else {}
-            return bool(inp.get("has_figure")), inp.get("bbox")
-    return False, None
+            return inp.get("results", []) if isinstance(inp.get("results"), list) else []
+    return []
+
+
+def validate_output(obj) -> bool:
+    if not isinstance(obj, dict) or not isinstance(obj.get("results"), list) or not obj["results"]:
+        return False
+    for item in obj["results"]:
+        if not isinstance(item, dict) or not isinstance(item.get("key"), str) \
+                or not isinstance(item.get("has_figure"), bool):
+            return False
+        if item["has_figure"]:
+            bbox = item.get("bbox")
+            if not (isinstance(bbox, list) and len(bbox) == 4
+                    and all(isinstance(v, (int, float)) for v in bbox)):
+                return False
+    return True
 
 
 def _crop(subject: str, c: dict, bbox: list) -> str | None:
@@ -242,14 +274,13 @@ def _stage(subject: str) -> str:
     return f"images-{subject}"
 
 
-_TASK = ("Look at each exam-page image and decide if the question depends on a FIGURE on it "
-         "(diagram, graph, map, structure, labelled apparatus, structured data table). Return the "
-         "object `schema` describes: has_figure, and if true a TIGHT bounding box [x0,y0,x1,y1] as "
-         "fractions of the page (origin top-left) around JUST the figure — exclude question text.")
+_TASK = ("Inspect each exam page exhaustively once. Return one keyed result for every listed part; "
+         "a shared visual may use the same bbox for several keys. Include supplied photos, labels, "
+         "advertisements, symbol sets and data tables as well as conventional diagrams/graphs.")
 
 
 def prepare(subject: str, limit: int | None = None, force: bool = False) -> int:
-    """Render a page image per figure-cued question part and queue it for the worker. Page-not-
+    """Render a page image per question part and queue it for the worker. Page-not-
     located parts are recorded as misses in the sidecar now. Returns the job count (0 = done)."""
     if fitz is None:
         raise SystemExit("Install PyMuPDF:  pip install pymupdf --break-system-packages")
@@ -269,14 +300,18 @@ def prepare(subject: str, limit: int | None = None, force: bool = False) -> int:
         cands = cands[:limit]
     if not cands:
         return 0
-    jobs = []
+    grouped: dict[tuple, list[dict]] = {}
     for c in cands:
-        cid = re.sub(r"[^A-Za-z0-9_-]+", "_", c["key"])   # filesystem-safe id
-        jobs.append({"custom_id": cid, "prompt": _prompt(c["qtext"]), "tool": EMIT_TOOL,
-                     "image_png": _page_png(c["pdf"], c["page"]),
-                     "meta": {"key": c["key"], "pdf": c["pdf"], "page": c["page"], "name": c["name"]}})
+        grouped.setdefault((c["pdf"], c["page"]), []).append(c)
+    jobs = []
+    for n, ((pdf, page), items) in enumerate(sorted(grouped.items())):
+        jobs.append({"custom_id": f"page_{n:04d}", "prompt": _prompt(items), "tool": EMIT_TOOL,
+                     "image_png": _page_png(pdf, page),
+                     "meta": {"pdf": pdf, "page": page,
+                              "items": [{"key": c["key"], "name": c["name"],
+                                         "question": c["qtext"]} for c in items]}})
     bridge.prepare(_stage(subject), jobs, task=_TASK)
-    print(f"[images] {len(jobs)} figure candidate(s) queued for the worker")
+    print(f"[images] {len(cands)} part(s) grouped into {len(jobs)} page-level exhaustive inspection job(s)")
     return len(jobs)
 
 
@@ -298,20 +333,28 @@ def collect(subject: str) -> None:
     cropped = 0
     for cid, content in outs.items():
         meta = ins.get(cid, {}).get("meta", {})
-        key = meta.get("key", cid)
-        has_fig, bbox = _parse(content)
-        rel = _crop(subject, meta, bbox) if (has_fig and bbox) else None
-        if rel:
-            qid, _, idx = key.partition("#")
-            # Don't attach yet — images_verify.py visually confirms the crop is a real figure
-            # before it reaches a part's `diagram`. Record it as pending.
-            sidecar[key] = {"has_figure": True, "pending_crop": rel,
-                            "qid": qid, "idx": int(idx) if idx.isdigit() else -1}
-            cropped += 1
-            print(f"[crop] {key} -> {rel} (pending visual check)")
-        else:
-            sidecar[key] = {"has_figure": False}
-        _save_sidecar(side_path, sidecar)                 # durable after each crop
+        expected = {item["key"]: item for item in meta.get("items", [])}
+        returned = {item.get("key"): item for item in _parse(content) if isinstance(item, dict)}
+        for key, item_meta in expected.items():
+            result = returned.get(key)
+            if result is None:
+                sidecar[key] = {"needs_review": True, "reason": "page worker omitted this key"}
+                continue
+            crop_meta = {**meta, **item_meta}
+            rel = _crop(subject, crop_meta, result.get("bbox")) if result.get("has_figure") else None
+            if rel:
+                qid, _, idx = key.partition("#")
+                sidecar[key] = {"has_figure": True, "pending_crop": rel,
+                                "qid": qid, "idx": int(idx) if idx.isdigit() else -1,
+                                "question": item_meta.get("question", "")}
+                cropped += 1
+                print(f"[crop] {key} -> {rel} (pending visual check)")
+            elif result.get("has_figure"):
+                sidecar[key] = {"has_figure": True, "needs_review": True,
+                                "reason": "invalid/empty crop from reported figure"}
+            else:
+                sidecar[key] = {"has_figure": False}
+        _save_sidecar(side_path, sidecar)
     # `rows` is untouched here — images_verify attaches the confirmed crops and re-renders.
     print(f"\n{cropped} candidate crop(s) saved — images_verify will confirm before attaching.")
 

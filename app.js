@@ -189,23 +189,31 @@ function buildSubjectChapters(subjectId) {
   const results = [];
   for (const chapter of filtered) {
     const los = chapter.learningOutcomes || [];
-    const hasInjected = los.some((lo) => lo.keyTerms && lo.keyTerms.length > 0);
+    // Pipeline-generated subject packs populate FLASHCARDS_DB directly. A generated deck must
+    // remain visible even when there is no hand-written *-content.js adapter for the subject.
+    const generatedTerms = Array.isArray(globalThis.FLASHCARDS_DB?.[chapter.id])
+      ? globalThis.FLASHCARDS_DB[chapter.id]
+      : [];
+    const hasInjected = generatedTerms.length > 0
+      || los.some((lo) => lo.keyTerms && lo.keyTerms.length > 0);
 
     if (hasInjected && los.length > 1) {
       // A chapter holds many learning outcomes. Keep each LO as an outcome
       // inside its chapter — never promote one to a chapter of its own.
       const outcomes = los
-        .map((lo) => ({
+        .map((lo, loIndex) => ({
           id: `${lo.id}-core`,
           code: lo.code,
           title: lo.title,
           keyTerms: (lo.keyTerms && lo.keyTerms.length)
             ? lo.keyTerms
-            : (lo.notes || []).map((note, idx) => ({
-                term: note.h || `${lo.title} ${idx + 1}`,
-                definition: note.b || "",
-                section: lo.title,
-              })),
+            : ((lo.notes || []).length
+                ? (lo.notes || []).map((note, idx) => ({
+                    term: note.h || `${lo.title} ${idx + 1}`,
+                    definition: note.b || "",
+                    section: lo.title,
+                  }))
+                : (loIndex === 0 ? generatedTerms : [])),
         }))
         .filter((lo) => lo.keyTerms.length);
 
@@ -233,11 +241,13 @@ function buildSubjectChapters(subjectId) {
             los.flatMap((lo, loIndex) =>
               (lo.keyTerms && lo.keyTerms.length)
                 ? lo.keyTerms
-                : (lo.notes || []).map((note, idx) => ({
-                    term: note.h || `${lo.title} ${idx + 1}`,
-                    definition: note.b || "",
-                    section: lo.title || `Section ${loIndex + 1}`,
-                  }))
+                : ((lo.notes || []).length
+                    ? (lo.notes || []).map((note, idx) => ({
+                        term: note.h || `${lo.title} ${idx + 1}`,
+                        definition: note.b || "",
+                        section: lo.title || `Section ${loIndex + 1}`,
+                      }))
+                    : (loIndex === 0 ? generatedTerms : []))
             ),
             chapter
           ),

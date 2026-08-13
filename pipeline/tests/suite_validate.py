@@ -65,5 +65,15 @@ def test_scan_canonical_locates_bad_parts():
     assert len(found) == 1 and found[0]["problems"] == ["empty-answer"]
 
 
+def test_official_scheme_bullets_are_not_length_mismatches():
+    p = part(marks=20, model="Three official marking points.", model_source="scheme")
+    assert "length_mismatch" not in validate.part_defects("home-economics", p)
+
+
+def test_short_ai_answer_is_still_a_length_mismatch():
+    p = part(marks=20, model="Too short.", model_source="ai-h1")
+    assert "length_mismatch" in validate.part_defects("home-economics", p)
+
+
 TESTS = [(n[5:], f) for n, f in sorted(globals().items())
          if n.startswith("test_") and callable(f)]

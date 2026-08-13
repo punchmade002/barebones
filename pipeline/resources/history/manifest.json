@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "subject": "history",
+  "level": "Higher",
+  "unitCount": 6,
+  "topicCount": 66,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/da556505-f5fb-4921-869f-e0983fd80e50/SCSEC20_History_syllabus_eng.pdf",
+      "effectiveFrom": "Current syllabus",
+      "firstExamYear": 2006
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/995791",
+      "representativeLesson": "Isaac Butt and the Origins of the Home Rule Movement",
+      "h2Sections": 7,
+      "h3Sections": 15,
+      "workedExampleMentions": 0,
+      "noteCallouts": 4
+    }
+  }
+}

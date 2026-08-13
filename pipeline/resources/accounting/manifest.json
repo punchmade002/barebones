@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "subject": "accounting",
+  "level": "Higher",
+  "unitCount": 17,
+  "topicCount": 17,
+  "alignmentStatus": "aligned",
+  "sources": {
+    "syllabus": {
+      "authority": "NCCA",
+      "url": "https://www.curriculumonline.ie/getmedia/1cc50fb4-90da-428c-83d4-df53c8f49dd9/SCSEC01_Accounting_syllabus_English.pdf",
+      "effectiveFrom": "Current syllabus for examination to June 2028",
+      "firstExamYear": 2002
+    },
+    "research": {
+      "provider": "SimpleStudy",
+      "accessedAt": "2026-08-07",
+      "level": "Higher",
+      "accessSurface": "authenticated course",
+      "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/40342",
+      "representativeLesson": "Final Accounts",
+      "h2Sections": 4,
+      "h3Sections": 8,
+      "workedExampleMentions": 1,
+      "noteCallouts": 6
+    }
+  }
+}

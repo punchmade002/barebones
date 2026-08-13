@@ -44,13 +44,31 @@ def run(subject: str) -> None:
     # group by (year, level, paper, status); pair each paper with its scheme. `paper` is ""
     # for single-paper subjects (History, Chemistry) and "1"/"2" for Maths/English/Irish.
     groups: dict[tuple, dict] = defaultdict(dict)
+    shared_schemes: dict[tuple, str] = {}
     for r in rows:
-        groups[(r["year"], r["level"], r.get("paper", ""), r["status"])][r["kind"]] = r["path"]
+        paper = r.get("paper", "")
+        groups[(r["year"], r["level"], paper, r["status"])][r["kind"]] = r["path"]
+        if r["kind"] == "scheme" and not paper:
+            shared_schemes[(r["year"], r["level"], r["status"])] = r["path"]
+
+    # Some subjects publish Paper 1/2 or Section A/B&C separately but one combined marking
+    # scheme. Pair that shared scheme into every component digest instead of leaving each paper
+    # with scheme=None (and emitting a useless scheme-only digest).
+    for (year, level, paper, status), kinds in groups.items():
+        if paper and "papers" in kinds and "scheme" not in kinds:
+            shared = shared_schemes.get((year, level, status))
+            if shared:
+                kinds["scheme"] = shared
 
     out_dir = DIGEST / subject
     out_dir.mkdir(parents=True, exist_ok=True)
     index, scans = [], 0
     for (year, level, paper, status), kinds in sorted(groups.items()):
+        if "papers" not in kinds and not paper and any(
+            y == year and l == level and st == status and p and "papers" in other
+            for (y, l, p, st), other in groups.items()
+        ):
+            continue                                  # shared scheme already paired to components
         digest = {
             "subject": subject, "year": int(year), "level": level,
             "paper_no": paper, "status": status,
