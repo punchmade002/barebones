@@ -28,7 +28,10 @@ EXAM_DB_OUT  = ROOT / "exam-questions-db.js"   # .with_name() used to produce ge
 # ── Diagram crops (Stage 7, images.py) ───────────────────────────────────────
 import re as _re
 IMAGE_DPI = 150                    # render DPI for page->PNG crops (enough for screen + zoom)
-BBOX_PADDING = 0.03                # pad the vision-returned bbox by 3% of page on each side
+# Padding is page-relative. Three percent pulled one or two neighbouring lines of exam prose
+# into almost every otherwise-correct crop. 0.8% leaves a safe 10–14 px screen margin at 150dpi;
+# the context-aware verifier below rejects any box that is incomplete or still too loose.
+BBOX_PADDING = 0.008
 # Correctness-first mode. The former regex-only cost gate missed stimulus wording such as
 # "pictured above", food labels, advertisements, and unlabelled tables. Keep the cue regex for
 # prioritisation and smoke tests, but inspect every part during a full run.
@@ -76,29 +79,54 @@ TAG_REVIEW_THRESHOLD = 5          # > this many low-confidence tags -> raise a r
 RETRIEVAL_CHUNK_CHARS = 900        # retrieval window; ~a paragraph or two of a course guide
 RETRIEVAL_CHUNK_OVERLAP = 150      # so a definition straddling a boundary stays retrievable
 RETRIEVAL_MIN_SCORE = 0.0          # drop chunks at or below this BM25 score (0 = keep any match)
-FLASHCARD_CTX_CHARS = 10_000       # per-chapter material for flashcards (was a shared 80k slice)
+FLASHCARD_CTX_CHARS = 6_000        # retrieved per-chapter material; compact enough for cheap workers
 ANSWER_CTX_CHARS = 3_000           # per-question material for answers (was a shared 15k slice)
+SCHEME_MATCH_CTX_CHARS = 21_000    # fair per-part scheme windows, never a repeated full PDF
+SCHEME_ANSWER_CTX_CHARS = 4_000    # scheme criteria retrieved for one authored answer
+ANSWER_BATCH_SIZE = 3              # several short answers per worker invocation
 # Marker resources.py writes between pooled files; retrieval splits on it to label excerpts.
 RETRIEVAL_SECTION_RE = _re.compile(r"^=====\s*[A-Z-]+:\s*(.+?)\s*=====$", _re.M)
 
-# ── Worker model tiers (reform B) ─────────────────────────────────────────────
-# Quality-critical stages (extraction, answer authoring) get a strong model; cheap
-# classification/vision stays on Haiku. run.py prints the tier so /run-pipeline spawns
-# the pipeline-worker subagent with that `model`.
-STAGE_MODEL = {
-    "scaffold":      "haiku",
-    "segment":       "opus",   # paper extraction — the foundation; must be exact
-    "images":        "haiku",
-    "images-verify": "haiku",  # confirm each crop is a real figure
-    "schemes":       "sonnet", # match official answers out of the marking scheme
-    "answers":       "sonnet", # author H1 answers where no official one exists
-    "flashcards":    "haiku",
+# ── Worker cost policy ────────────────────────────────────────────────────────
+# All providers start on their cheapest capable model. A stronger model is requested ONLY for
+# an individual job that failed the stage's structural validator. Provider-specific aliases are
+# hints; the provider-neutral `cost_tier_for_stage` value printed by run.py is authoritative.
+STAGE_MODEL = {name: "haiku" for name in
+               ("scaffold", "segment", "images", "images-verify", "schemes", "answers", "flashcards")}
+STAGE_ESCALATION_MODEL = {
+    "segment": "sonnet", "schemes": "sonnet", "answers": "sonnet",
+}
+STAGE_FINAL_MODEL = {"segment": "opus"}
+
+# A stage cannot ask an agent to spend beyond these defaults without the operator explicitly
+# passing --approve-cost. They are estimates, not billing promises, and work with any provider.
+COST_MAX_PENDING_JOBS = 200
+COST_MAX_PROMPT_CHARS = 1_500_000
+COST_MAX_IMAGE_JOBS = 160
+COST_IMAGE_INPUT_TOKENS = 1_200   # deliberately conservative per attached page/composite
+COST_MAX_ESTIMATED_TOKENS = 1_000_000
+COST_OUTPUT_TOKENS_PER_JOB = {     # typical upper estimate, not the provider's hard max
+    "scaffold": 3_000, "segment": 6_000, "images": 300, "images-verify": 400,
+    "schemes": 4_000, "answers": 6_000, "flashcards": 2_500,
 }
 
 
-def model_for_stage(name: str) -> str:
-    """Worker model recommended for a stage ('segment', 'answers', …)."""
+def model_for_stage(name: str, attempt: int = 0) -> str:
+    """Provider alias for a stage. First pass is always economy; validation failures escalate."""
+    if attempt >= 2:
+        return STAGE_FINAL_MODEL.get(name, STAGE_ESCALATION_MODEL.get(name, "haiku"))
+    if attempt >= 1:
+        return STAGE_ESCALATION_MODEL.get(name, "haiku")
     return STAGE_MODEL.get(name, "haiku")
+
+
+def cost_tier_for_stage(name: str, attempt: int = 0) -> str:
+    """Provider-neutral routing understood by non-Anthropic/non-ChatGPT orchestrators."""
+    if attempt >= 2 and name in STAGE_FINAL_MODEL:
+        return "premium"
+    if attempt >= 1 and name in STAGE_ESCALATION_MODEL:
+        return "standard"
+    return "economy"
 
 
 # ── Years ────────────────────────────────────────────────────────────────────

@@ -75,5 +75,27 @@ def test_short_ai_answer_is_still_a_length_mismatch():
     assert "length_mismatch" in validate.part_defects("home-economics", p)
 
 
+def test_scheme_artifacts_are_reported_as_defects():
+    """The blind spot that let 720 raw marking-scheme dumps through the gate as CLEAN."""
+    p = part(model="4 points @ 6 marks each \nEnergy in excess of output. \n\n(c)",
+             model_source="scheme")
+    defects = validate.part_defects("home-economics", p)
+    assert "scheme_markup" in defects and "label_bleed" in defects
+
+
+def test_scheme_artifacts_never_trigger_a_re_segment():
+    """The expensive mistake: segment reads the question paper only and leaves answers empty, so
+    re-segmenting cannot repair a marking-scheme artefact. Counting these as retryable would put
+    every affected paper through the final (opus) model twice and change nothing."""
+    p = part(model="4 points @ 6 marks each \nEnergy in excess. \n\n(c)", model_source="scheme")
+    assert not (validate.RETRYABLE & set(validate.part_defects("home-economics", p)))
+
+
+def test_stub_and_missing_marks_are_still_retryable():
+    """The two defects re-segmentation genuinely can fix must keep driving the retry."""
+    assert validate.RETRYABLE & set(validate.part_defects("home-economics", part(question="Part (a)")))
+    assert validate.RETRYABLE & set(validate.part_defects("home-economics", part(marks=0)))
+
+
 TESTS = [(n[5:], f) for n, f in sorted(globals().items())
          if n.startswith("test_") and callable(f)]

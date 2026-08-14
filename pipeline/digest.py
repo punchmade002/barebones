@@ -15,6 +15,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from config import RAW, DIGEST, REPORTS
+from textclean import normalize_glyphs
 
 try:
     import fitz  # PyMuPDF
@@ -26,7 +27,10 @@ def extract_pages(pdf_path: Path) -> list[dict]:
     doc = fitz.open(pdf_path)
     pages = []
     for i, page in enumerate(doc):
-        text = page.get_text("text").strip()
+        # Normalise here, at the single point where PDF bytes become text. Symbol/Wingdings
+        # bullets arrive as private-use codepoints that render as tofu boxes in the app and cost
+        # worker tokens for nothing; fixing them once means no later stage has to know.
+        text = normalize_glyphs(page.get_text("text")).strip()
         pages.append({"page": i + 1, "text": text, "needs_ocr": len(text) < 40})
     doc.close()
     return pages

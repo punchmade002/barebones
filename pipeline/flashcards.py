@@ -1,4 +1,4 @@
-"""Stage 6 — FLASHCARDS, deduplicated per topic, batched on Claude Haiku.
+"""Stage 6 — FLASHCARDS, deduplicated per topic, batched on an economy-tier worker.
 
 Runs AFTER segment.py. Reads the canonical store (questions + marking-scheme model answers,
 already tagged to a chapter) and makes ONE model call PER CHAPTER — not per paper. Because

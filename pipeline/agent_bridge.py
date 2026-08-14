@@ -1,7 +1,7 @@
 """File-based bridge that lets a spawned Claude Code subagent stand in for the Anthropic API.
 
 There is NO ANTHROPIC_API_KEY and no network call anywhere in the pipeline. Instead, each model
-stage WRITES its work as plain files, a Haiku subagent (spawned by the orchestrating agent) READS
+stage WRITES its work as plain files, a low-cost worker selected by the orchestrating agent READS
 them and writes answers back as files, and the stage READS those answers. The answer JSON is
 wrapped to look exactly like a tool_use response block, so every stage's existing
 `parse_result(...)` / `to_canonical(...)` / crop code keeps working untouched.
@@ -20,6 +20,7 @@ out/<id>.json. That's it — no code, no keys.
 from __future__ import annotations
 import json
 import inspect
+import hashlib
 import shutil
 from pathlib import Path
 from types import SimpleNamespace
@@ -27,10 +28,12 @@ from types import SimpleNamespace
 from config import DATA
 
 AGENT = DATA / "agent"
+AGENT_CACHE = DATA / "agent-cache-v1"
 
 WORKER_PROTOCOL = """# Pipeline worker job
 
-You are the Haiku worker for the bare-bones exam pipeline. Do exactly this, then stop:
+You are the low-cost worker for the bare-bones exam pipeline. Use the cheapest capable model
+selected by the orchestrator. Do exactly this, then stop:
 
 1. List every file in `in/` matching `*.json`.
 2. For each one that does NOT already have a same-named file in `out/`:
@@ -65,6 +68,68 @@ def reset_all() -> None:
         shutil.rmtree(AGENT)
 
 
+def _cache_key(rec: dict, image_png: bytes | None = None) -> str:
+    """Content address independent of stage/job ids and of the AI provider."""
+    stable = {k: rec.get(k) for k in ("prompt", "tool_name", "schema", "meta")}
+    h = hashlib.sha256(json.dumps(stable, ensure_ascii=False, sort_keys=True,
+                                  separators=(",", ":")).encode())
+    if image_png is not None:
+        h.update(image_png)
+    return h.hexdigest()
+
+
+def _cache_path(key: str) -> Path:
+    return AGENT_CACHE / key[:2] / f"{key}.json"
+
+
+def _ensure_cache_key(input_path: Path) -> str:
+    rec = json.loads(input_path.read_text())
+    if rec.get("cache_key"):
+        return rec["cache_key"]
+    image = None
+    if rec.get("image"):
+        image_path = input_path.parent / rec["image"]
+        image = image_path.read_bytes() if image_path.exists() else None
+    rec["cache_key"] = _cache_key(rec, image)
+    input_path.write_text(json.dumps(rec, ensure_ascii=False, indent=2))
+    return rec["cache_key"]
+
+
+def _promote_cache(input_path: Path, answer_path: Path) -> None:
+    try:
+        key = _ensure_cache_key(input_path)
+        if not key or not answer_path.exists():
+            return
+        dest = _cache_path(key)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        if not dest.exists():
+            shutil.copy2(answer_path, dest)
+    except Exception:
+        pass
+
+
+def cache_valid_outputs(stage: str, validate=None) -> int:
+    """Seed the persistent cache from an old/collected queue before a restart deletes it."""
+    _base, ind, outd = _dirs(stage)
+    if not ind.exists():
+        return 0
+    count = 0
+    for input_path in ind.glob("*.json"):
+        answer_path = outd / input_path.name
+        if not answer_path.exists():
+            continue
+        obj = _load_answer(answer_path)
+        valid = obj is not None
+        if valid and validate is not None:
+            params = inspect.signature(validate).parameters
+            job = json.loads(input_path.read_text())
+            valid = validate(obj, job) if len(params) >= 2 else validate(obj)
+        if valid:
+            _promote_cache(input_path, answer_path)
+            count += 1
+    return count
+
+
 def prepare(stage: str, jobs: list[dict], *, task: str) -> Path:
     """Write jobs to in/. Idempotent: if jobs already exist, leave them (don't clobber partial
     worker output). `task` is a one-paragraph description of this stage prepended to INSTRUCTIONS.
@@ -81,10 +146,15 @@ def prepare(stage: str, jobs: list[dict], *, task: str) -> Path:
                "tool_name": j["tool"]["name"], "schema": j["tool"]["input_schema"]}
         if j.get("meta") is not None:
             rec["meta"] = j["meta"]
-        if j.get("image_png") is not None:
-            (ind / f"{cid}.png").write_bytes(j["image_png"])
+        image_png = j.get("image_png")
+        rec["cache_key"] = _cache_key(rec, image_png)
+        if image_png is not None:
+            (ind / f"{cid}.png").write_bytes(image_png)
             rec["image"] = f"{cid}.png"
         (ind / f"{cid}.json").write_text(json.dumps(rec, ensure_ascii=False, indent=2))
+        cached = _cache_path(rec["cache_key"])
+        if cached.exists():
+            shutil.copy2(cached, outd / f"{cid}.json")
     return base
 
 
@@ -117,6 +187,13 @@ def _load_attempts(stage: str) -> dict:
     return {}
 
 
+def max_attempt(stage: str, stems: list[str] | None = None) -> int:
+    """Highest validation-failure count among these jobs (used for selective escalation)."""
+    attempts = _load_attempts(stage)
+    wanted = set(stems or attempts)
+    return max((int(n) for stem, n in attempts.items() if stem in wanted), default=0)
+
+
 def _bump_attempt(stage: str, stem: str) -> int:
     a = _load_attempts(stage)
     a[stem] = a.get(stem, 0) + 1
@@ -146,8 +223,15 @@ def pending(stage: str, validate=None, max_attempts: int = 2) -> list[str]:
     for p in sorted(ind.glob("*.json")):
         ans = outd / p.name
         if not ans.exists():
-            out.append(p.stem)
-            continue
+            try:
+                cached = _cache_path(_ensure_cache_key(p))
+                if cached.exists():
+                    shutil.copy2(cached, ans)
+            except Exception:
+                pass
+            if not ans.exists():
+                out.append(p.stem)
+                continue
         if validate is None:
             valid = True
         else:
@@ -160,7 +244,12 @@ def pending(stage: str, validate=None, max_attempts: int = 2) -> list[str]:
             valid = (validate(_load_answer(ans), json.loads(p.read_text()))
                      if len(params) >= 2 else validate(_load_answer(ans)))
         if valid:
+            _promote_cache(p, ans)
             continue                                       # no validation, or it passed
+        try:
+            _cache_path(json.loads(p.read_text()).get("cache_key", "")).unlink(missing_ok=True)
+        except Exception:
+            pass
         n = _bump_attempt(stage, p.stem)
         if n > max_attempts:
             continue                                       # give up re-queueing; see needs_human()

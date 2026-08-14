@@ -29,6 +29,7 @@ def _copy(subject: str) -> list[tuple[str, str]]:
     plan = [
         (CANONICAL / f"exam-questions-db.{subject}.generated.js", f"{subject}-exam-questions.js", "exam questions"),
         (CANONICAL / f"flashcards-{subject}.generated.js",        f"{subject}-flashcards.js",     "flashcards"),
+        (CANONICAL / f"exam-info-{subject}.generated.js",         f"{subject}-exam-info.js",      "exam info"),
     ]
     done = []
     for src, dest_name, label in plan:
@@ -104,6 +105,15 @@ def run(subject: str, force: bool = False) -> bool:
         print(f"  (full report: python3 gate.py {subject})")
         if not force:
             return False
+    # Exam info is reviewed source data, not model output. Render it only after the gate has
+    # proved the complete schema is present; this keeps stale generated JS from masking a bad
+    # or deleted source record.
+    import exam_info
+    try:
+        exam_info.render(subject)
+    except ValueError as exc:
+        print(f"[merge] BLOCKED — invalid exam info: {exc}")
+        return False
     files = _copy(subject)
     if not files:
         print("[merge] nothing to merge — run segment/flashcards first.")

@@ -14,6 +14,12 @@ def ctx(canon=None, cards=None, scaffold=None, baseline=None):
     c.cards = cards or {}
     c.scaffold = scaffold or {}
     c.baseline = baseline
+    c.exam_info = {
+        "subject": c.subject, "totalMarks": 100, "totalMinutes": 60,
+        "sections": [{"id": "section-a", "name": "Section A", "marks": 100,
+                      "color": "#000", "tips": {"timing": "60 minutes",
+                      "structure": "Answer clearly", "reminders": ["Read carefully"]}}],
+    }
     c.figures = {}
     c.figure_report_exists = False
     c.parts = [(q, p) for q in c.canon for p in q.get("parts", [])]
@@ -51,6 +57,14 @@ def test_malformed_source_blocks():
 
 def test_wellformed_source_passes():
     assert not list(gate.check_sources(ctx([row()])))
+
+
+def test_incomplete_exam_info_blocks():
+    c = ctx([row()])
+    c.exam_info = {"subject": "history", "totalMarks": 400, "totalMinutes": 170,
+                   "sections": [{"id": "s", "name": "Section", "color": "#000"}]}
+    f = list(gate.check_exam_info(c))
+    assert f and f[0].severity == gate.BLOCK and "incomplete" in f[0].message
 
 
 def test_split_paper_source_passes():
@@ -107,6 +121,15 @@ def test_uninspected_parts_block_figure_audit():
     c.figure_report_exists = True
     f = list(gate.check_figure_audit(c))
     assert f and f[0].severity == gate.BLOCK and "never visually inspected" in f[0].message
+
+
+def test_diagram_without_tight_context_qa_blocks():
+    r = row(parts=[{"label": "", "question": "Use the supplied diagram.", "marks": 5,
+                    "model": "x", "diagram": "exam-images/history/diagram.png"}])
+    c = ctx([r]); c.figure_report_exists = True
+    c.figures = {f"{r['id']}#0": {"has_figure": True, "diagram": "exam-images/history/diagram.png"}}
+    f = list(gate.check_figure_audit(c))
+    assert any("tightness QA" in x.message for x in f)
 
 
 def test_explicit_supplied_visual_without_diagram_blocks():
@@ -198,6 +221,32 @@ def test_blockers_only_returns_block_severity():
     """merge.gate() delegates to this, so a WARN leaking in would stop publishing."""
     real = gate.run("history")
     assert set(gate.blockers("history")) == {f.message for f in real if f.severity == gate.BLOCK}
+
+
+def _scheme_part(model):
+    return {"label": "(a)", "question": "A real question of adequate length.",
+            "marks": 10, "model": model, "model_source": "scheme"}
+
+
+def test_raw_scheme_text_blocks_publication():
+    """720 raw marking-scheme dumps once passed this gate as CLEAN."""
+    dirty = _scheme_part("4 points @ 6 marks each \nEnergy in excess of output. \n\n(c)")
+    f = list(gate.check_text_artifacts(ctx([row(parts=[dirty])])))
+    assert f and f[0].severity == gate.BLOCK
+    assert "textclean.py" in f[0].message, "the block must name the free repair"
+
+
+def test_a_minority_of_text_artifacts_warns_rather_than_blocks():
+    """Below the threshold this is a quality signal, not a reason to withhold a whole subject."""
+    clean = [row(qid=f"q{i}") for i in range(20)]
+    clean[0]["parts"] = [_scheme_part("Energy in excess of output. \n\n(c)")]
+    f = list(gate.check_text_artifacts(ctx(clean)))
+    assert f and f[0].severity == gate.WARN
+
+
+def test_clean_answers_produce_no_text_artifact_finding():
+    f = list(gate.check_text_artifacts(ctx([row(), row(qid="q2")])))
+    assert f == []
 
 
 TESTS = [(n[5:], f) for n, f in sorted(globals().items())

@@ -2,7 +2,7 @@
 
 Runs AFTER segment.py. Many essay questions have no official model answer (the marking
 scheme gives marking *criteria*, not a sample essay). This step writes a high-quality,
-H1-standard answer for each such question with Claude Haiku, instructed to satisfy the
+H1-standard answer for each such question with an economy-tier worker, instructed to satisfy the
 marking scheme for FULL marks. It uses that year's marking scheme as the criteria; when a
 year has no scheme on disk, it falls back to the pooled criteria from other years.
 
@@ -26,13 +26,14 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
-from config import CANONICAL, DIGEST, REPORTS, ANSWER_CTX_CHARS, recommended_words
+from config import (CANONICAL, DIGEST, REPORTS, ANSWER_CTX_CHARS, SCHEME_ANSWER_CTX_CHARS,
+                    ANSWER_BATCH_SIZE, recommended_words)
 from segment import _retry, MODEL, load_scaffold
 import ids
 import validate
 
 ANSWER_TOKENS = 5_000           # room for a full essay per question
-SCHEME_CTX_CHARS = 12_000       # cap marking-scheme context per request (cached, so reused cheaply)
+SCHEME_CTX_CHARS = SCHEME_ANSWER_CTX_CHARS
 FALLBACK_CHARS = 12_000         # cap pooled cross-year criteria
 DOC_RE = re.compile(r"\bdocument\s+[A-Z]\b|in the (?:above|following) document", re.I)
 
@@ -171,7 +172,7 @@ def content_blocks(subject: str, q: dict, scheme_ctx: str, used_fallback: bool, 
 
 
 def parse_result(content):
-    """Normalise the tool output to a list of {label, answer}. Haiku sometimes returns the
+    """Normalise the tool output to a list of {label, answer}. Workers sometimes return the
     answers as bare strings or with missing labels — tolerate every shape."""
     for b in content:
         if getattr(b, "type", None) == "tool_use" and b.name == "emit_answers":
@@ -273,7 +274,7 @@ _TASK = ("Write an H1 (full-marks) sample answer for each exam question part in 
 
 
 def prepare(subject: str, limit: int | None = None) -> int:
-    """Tag official answers, queue one job per question that still needs an H1 answer. The
+    """Tag official answers, queue small batches of questions needing H1 answers. The
     `model_source` tagging done by _targets is persisted now so it survives. Returns job count."""
     import agent_bridge as bridge
     canonical, jobs = _targets(subject, limit)
@@ -286,18 +287,43 @@ def prepare(subject: str, limit: int | None = None) -> int:
     # (prepare flattens the prompt to a string on disk), so the old shared corpus[:15k] was
     # simply copied into every job file — the largest avoidable cost in the pipeline.
     import retrieval
-    out = []
-    for i, job in enumerate(jobs):
+    prepared = []
+    for job in jobs:
         q = job["q"]
         asked = " ".join((p.get("question") or "") for p in needs_fill(q))
         material = retrieval.excerpt(subject, job["title"], ANSWER_CTX_CHARS, extra=asked,
                                      what=f"{q['id']} ({job['title']})")
-        prompt = (cached_prefix(subject, job["ctx"], job["fallback"], material=material) + "\n\n"
-                  + variable_suffix(subject, q, job["title"]))
-        out.append({"custom_id": f"q{i}", "prompt": prompt, "tool": EMIT_TOOL,
-                    "meta": {"qid": q["id"]}})
+        scheme = retrieval.select_text_chunks(job["ctx"], [asked], SCHEME_ANSWER_CTX_CHARS,
+                                               per_query=3)
+        scheme = scheme or job["ctx"][:SCHEME_ANSWER_CTX_CHARS]
+        prepared.append({**job, "material": material, "scheme": scheme})
+
+    out = []
+    for i in range(0, len(prepared), ANSWER_BATCH_SIZE):
+        batch = prepared[i:i + ANSWER_BATCH_SIZE]
+        sections = []
+        for job in batch:
+            q = job["q"]
+            fallback_note = ("This paper has no local scheme; the excerpt is pooled from other "
+                             "years.\n" if job["fallback"] else "")
+            sections.append(
+                f"=== ITEM {q['id']} ===\n{fallback_note}"
+                f"MARKING SCHEME / CRITERIA:\n{job['scheme'] or '(use standard marking conventions)'}\n\n"
+                f"AUTHORITATIVE COURSE MATERIAL:\n{job['material'] or '(no matching bundle passage)'}\n\n"
+                f"{variable_suffix(subject, q, job['title'])}")
+        prompt = f"""You are a State Examinations Commission examiner and top H1 candidate for
+Leaving Certificate {subject}. Write a full-marks sample answer for EVERY pid below. Meet or
+exceed stated point/word targets; develop each creditable point with accurate course detail.
+Ground answers in the item-specific authoritative course material and marking criteria. Do not
+invent facts or import content from outside the course. Echo every pid in its listed order and
+return only via emit_answers.
+
+{chr(10).join(sections)}"""
+        qids = [job["q"]["id"] for job in batch]
+        out.append({"custom_id": f"batch_{i // ANSWER_BATCH_SIZE:04d}", "prompt": prompt,
+                    "tool": EMIT_TOOL, "meta": {"qids": qids}})
     bridge.prepare(_stage(subject), out, task=_TASK)
-    print(f"[model-answers] {len(out)} question(s) queued for the worker")
+    print(f"[model-answers] {len(prepared)} question(s) queued in {len(out)} batch job(s)")
     return len(out)
 
 
@@ -311,12 +337,16 @@ def collect(subject: str) -> None:
     stage = _stage(subject)
     ins, outs = bridge.inputs(stage), bridge.outputs(stage)
     for cid, content in outs.items():
-        qid = ins.get(cid, {}).get("meta", {}).get("qid")
-        q = by_id.get(qid)
-        if not q:
-            continue
-        n = _apply(q, parse_result(content))
-        print(f"[ans] {qid}: {n} part(s) filled" + ("" if n else "  ← EMPTY"))
+        meta = ins.get(cid, {}).get("meta", {})
+        qids = meta.get("qids") or ([meta["qid"]] if meta.get("qid") else [])
+        answers = parse_result(content)
+        for qid in qids:
+            q = by_id.get(qid)
+            if not q:
+                continue
+            own = [a for a in answers if a.get("pid", "").startswith(f"{qid}{PID_SEP}")]
+            n = _apply(q, own)
+            print(f"[ans] {qid}: {n} part(s) filled" + ("" if n else "  ← EMPTY"))
     (CANONICAL / f"{subject}.json").write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     import segment
     js = segment.render_js(subject, canonical)

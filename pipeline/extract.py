@@ -13,6 +13,7 @@ import json
 from pathlib import Path
 
 from config import EXTRACTED, REPORTS
+from textclean import normalize_glyphs
 
 try:
     import fitz  # PyMuPDF
@@ -28,7 +29,9 @@ def extract_pdf(pdf_path: Path, out_dir: Path) -> dict:
     pages, img_dir = [], out_dir / pdf_path.stem
     img_dir.mkdir(parents=True, exist_ok=True)
     for i, page in enumerate(doc):
-        text = page.get_text("text")
+        # Same normalisation as digest.extract_pages — font-encoded glyphs are fixed at the one
+        # boundary where PDF bytes become text, so no downstream stage has to handle them.
+        text = normalize_glyphs(page.get_text("text"))
         pix = page.get_pixmap(dpi=RENDER_DPI)
         img_path = img_dir / f"p{i + 1:02d}.png"
         pix.save(img_path)

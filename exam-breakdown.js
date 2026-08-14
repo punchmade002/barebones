@@ -305,26 +305,3 @@ window.EXAM_BREAKDOWN.history = {
     }
   ]
 };
-
-window.EXAM_BREAKDOWN["home-economics"] = {
-  subject: "home-economics",
-  totalMarks: 320,
-  totalMinutes: 170,
-  sections: [
-    {
-      id: "hom-section-a",
-      name: "Section A – Short Questions",
-      color: "#F97316"
-    },
-    {
-      id: "hom-section-b",
-      name: "Section B – Medium Questions",
-      color: "#10B981"
-    },
-    {
-      id: "hom-section-c",
-      name: "Section C – Long Questions",
-      color: "#3B82F6"
-    }
-  ]
-};

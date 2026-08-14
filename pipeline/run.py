@@ -1,7 +1,7 @@
 """One command: a subject -> playable in the app, with NO API key.
 
-The model work (scaffold, segment, diagrams, model answers, flashcards) is done by a spawned
-Haiku **subagent**, not the Anthropic API. This script is a re-invokable orchestrator: it runs
+The model work (scaffold, segment, diagrams, model answers, flashcards) is done by a file-backed
+low-cost worker, not a built-in API. This script is a re-invokable orchestrator: it runs
 the plain-Python stages, and at each model stage it either COLLECTS the worker's answers or
 PREPARES new jobs and stops, printing `WORKER NEEDED <dir>`. The driving agent then spawns the
 `pipeline-worker` subagent on that directory and re-runs this command. Repeat until it prints
@@ -20,6 +20,8 @@ automatically; otherwise it STOPS and you re-run with `--merge` to publish anywa
 
 Modifiers: --no-acquire  --no-images  --no-merge  --merge  --regen-scaffold  --limit N
            --headful  --include-irish  --restart  --force-merge (alias for --merge)
+           --estimate-cost  --approve-cost  --max-jobs N  --max-prompt-chars N  --max-images N
+           --max-estimated-tokens N
 """
 import shutil
 import sys
@@ -27,7 +29,7 @@ import sys
 import acquire_form
 import digest
 import agent_bridge as bridge
-from config import (relevant_years, cutoff_for, SUBJECTS, model_for_stage,
+from config import (relevant_years, cutoff_for, SUBJECTS, model_for_stage, cost_tier_for_stage,
                     CANONICAL, REPORTS, EXAM_IMAGES)
 
 
@@ -40,8 +42,12 @@ def _reset_subject_outputs(subject: str, modules: tuple) -> None:
     resources, and the subject scaffold. This is what a user reasonably expects `--restart`
     to mean; retaining canonical rows made the segment stage silently skip every old paper.
     """
+    cached = 0
     for mod in modules:
+        cached += bridge.cache_valid_outputs(mod._stage(subject), getattr(mod, "validate_output", None))
         bridge.reset(mod._stage(subject))
+    if cached:
+        print(f"restart: preserved {cached} validated worker result(s) in the persistent cache")
     for path in (
         CANONICAL / f"{subject}.json",
         CANONICAL / f"{subject}.quarantine.json",
@@ -80,13 +86,40 @@ def _coverage_low(subject: str) -> bool:
         return False
 
 
-def _request_worker(stage: str, n: int, model: str) -> None:
+def _request_worker(subject: str, stage_name: str, stage: str, pending: list[str], args: list[str]) -> bool:
+    """Print a provider-neutral worker request after enforcing the hard cost preflight.
+
+    Returns True when execution must stop (estimate, budget block, or worker needed).
+    """
+    import cost_control
+    attempt = bridge.max_attempt(stage, pending)
+    model = model_for_stage(stage_name, attempt)
+    tier = cost_tier_for_stage(stage_name, attempt)
+    stats = cost_control.stage_stats(stage, bridge.inputs(stage), pending)
+    problems = cost_control.violations(
+        stats, max_jobs=_arg(args, "--max-jobs"),
+        max_chars=_arg(args, "--max-prompt-chars"), max_images=_arg(args, "--max-images"),
+        max_tokens=_arg(args, "--max-estimated-tokens"))
+    report = cost_control.write_report(subject, stats, model, tier, problems)
+    print(f"\n>>> COST PREFLIGHT: {cost_control.format_stats(stats)}")
+    print(f">>> tier: {tier}; model hint: {model}; report: {report}")
+    if "--estimate-cost" in args:
+        print(">>> ESTIMATE ONLY — no worker requested. Remove --estimate-cost to continue.")
+        return True
+    if problems and "--approve-cost" not in args:
+        print(">>> COST BUDGET BLOCKED: " + "; ".join(problems))
+        print(">>> Reduce the workload/limits, or explicitly pass --approve-cost after review.")
+        return True
     d = bridge.worker_dir(stage)
-    print(f"\n>>> WORKER NEEDED: {n} job(s) for stage '{stage}'")
+    print(f"\n>>> WORKER NEEDED: {len(pending)} job(s) for stage '{stage}'")
     print(f">>> dir: {d}")
-    print(f">>> model: {model}")
-    print(f">>> Spawn the `pipeline-worker` subagent (Agent tool, model={model}) on that dir")
+    print(f">>> cost tier: {tier} (provider hint: {model})")
+    if attempt:
+        print(f">>> escalation reason: {attempt} prior validator failure(s); retry ONLY pending jobs")
+    print(">>> Run one `pipeline-worker` on that dir using the cheapest model in this tier.")
     print(">>> (read in/*.json, write out/*.json), then re-run this exact command to collect.")
+    print(">>> Do not parallelise merely for speed: parallel agents consume the same total input again.")
+    return True
 
 
 def main() -> None:
@@ -95,7 +128,7 @@ def main() -> None:
     if not subject:
         raise SystemExit("usage: python run.py <subject> [--no-acquire] [--no-images] "
                          "[--no-merge] [--merge] [--regen-scaffold] [--limit N] [--restart] "
-                         "[--headful] [--include-irish]")
+                         "[--headful] [--include-irish] [--estimate-cost] [--approve-cost]")
     if subject not in SUBJECTS:
         print(f"note: '{subject}' isn't in config.SUBJECTS; using it as the archive subject label anyway.")
 
@@ -168,7 +201,6 @@ def main() -> None:
 
     for name, mod, prep in stages:
         stage = mod._stage(subject)
-        model = model_for_stage(name)
         if bridge.is_collected(stage):
             continue                                  # finished in an earlier invocation
         if bridge.has_jobs(stage):                    # prepared already — worker may have run
@@ -179,7 +211,7 @@ def main() -> None:
             check = getattr(mod, "validate_output", None)
             pend = bridge.pending(stage, validate=check)
             if pend:
-                _request_worker(stage, len(pend), model); return
+                _request_worker(subject, name, stage, pend, args); return
             stuck = bridge.needs_human(stage)
             if stuck:
                 shown = ", ".join(stuck[:5]) + (" …" if len(stuck) > 5 else "")
@@ -191,14 +223,27 @@ def main() -> None:
             if name == "segment":
                 outcome = validate.post_segment(subject, limit=limit)
                 if outcome == "retry":                # offending papers re-queued -> run worker
-                    _request_worker(stage, len(bridge.pending(stage)), model); return
+                    pend = bridge.pending(stage)
+                    _request_worker(subject, name, stage, pend, args); return
             bridge.mark_collected(stage)
             continue
         n = prep()                                    # not prepared yet -> write jobs
         if n == 0:
             bridge.mark_collected(stage)              # nothing to do; treat as done
             continue
-        _request_worker(stage, n, model); return      # stop so the agent can run the worker
+        check = getattr(mod, "validate_output", None)
+        pend = bridge.pending(stage, validate=check)
+        if not pend:                                  # every prepared job was restored from cache
+            print(f"[cache] restored all {n} job(s) for '{stage}' — collecting without a worker")
+            mod.collect(subject)
+            if name == "segment":
+                outcome = validate.post_segment(subject, limit=limit)
+                if outcome == "retry":
+                    pend = bridge.pending(stage)
+                    _request_worker(subject, name, stage, pend, args); return
+            bridge.mark_collected(stage)
+            continue
+        _request_worker(subject, name, stage, pend, args); return
 
     # All model stages done — VALIDATION GATE before anything reaches the app (reform C/G).
     gate = validate.enforce(subject)
