@@ -188,55 +188,6 @@ window.EXAM_BREAKDOWN.maths = {
   ]
 };
 
-window.EXAM_BREAKDOWN.geography = {
-  subject: "geography",
-  totalMarks: 400,
-  totalMinutes: 170,
-  sections: [
-    {
-      id: "geo-part1",
-      name: "Part 1 – Short Questions",
-      marks: 80,
-      color: "#F97316",
-      minutesPerQuestion: 3,
-      tips: {
-        timing: "Aim to spend ~35 minutes on Part 1. You have 12 questions and are marked on your 10 best answers — you do not need to choose in advance. Attempt all 12 if time allows; your two weakest are simply dropped.",
-        structure: "Each answer should be 3–5 focused sentences. Include a labelled diagram where it adds marks — a good diagram can carry a whole answer. Be specific and use correct geographic terminology.",
-        reminders: [
-          "You are marked on your 10 best answers out of 12 — attempt all 12 if possible",
-          "Diagrams must be fully labelled to earn marks — an unlabelled diagram gets nothing",
-          "Questions can come from anywhere: physical geography, volcanoes, plate boundaries, OS maps, surveys, regional geography",
-          "Spend roughly 3 minutes per question — stop and move on rather than over-writing one answer",
-          "OS map questions: always quote grid references, contour values, or specific map evidence"
-        ]
-      },
-      chapterIds: ["geo1","geo2","geo3","geo4","geo5","geo6","geo7","geo8"],
-      questionIdPattern: "Part1"
-    },
-    {
-      id: "geo-part2",
-      name: "Part 2 – Structured & Essay Questions",
-      marks: 320,
-      color: "#3B82F6",
-      minutesPerQuestion: 34,
-      tips: {
-        timing: "~135 minutes for Part 2 (~34 minutes per question). You must answer 4 questions in total: one each from at least 3 of the 4 sections (Physical Environment, Regional Geography, Electives, Options), with your 4th question free choice from any section. Each question carries 80 marks.",
-        structure: "Each 80-mark question is split into three parts: two 30-mark SRP essays and one 20-mark flexible question. For a 30-mark essay: write exactly 15 Significant Relevant Points (SRPs) — one standalone piece of geographic information per line. For the 20-mark part: follow the specific instruction carefully (it may be a comprehension extract, a sketch map of a studied region, or a shorter written piece).",
-        reminders: [
-          "Each SRP must be a distinct, standalone point — repeating or rewording the same idea earns zero for that line",
-          "Name a real location in every SRP essay (e.g. 'The San Andreas Fault, California…' or 'The Shannon Region, Ireland…')",
-          "For Regional Geography: name your studied region in the very first sentence — examiners need to know which region you are writing about",
-          "For sketch maps: include a title, north arrow, legend, and at least 4 labelled features",
-          "Budget your 34 minutes per question: ~11 min per 30-mark part, ~8 min for the 20-mark part, ~4 min planning",
-          "You must take one question from at least 3 different sections — you cannot answer all 4 from the same section"
-        ]
-      },
-      chapterIds: ["geo1","geo2","geo3","geo4","geo5","geo6","geo7","geo8"],
-      questionIdPattern: "Part2"
-    }
-  ]
-};
-
 window.EXAM_BREAKDOWN.chemistry = {
   subject: "chemistry",
   totalMarks: 300,
