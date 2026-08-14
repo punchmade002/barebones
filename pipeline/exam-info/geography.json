@@ -1,0 +1,99 @@
+{
+  "subject": "geography",
+  "totalMarks": 400,
+  "totalMinutes": 170,
+  "timingNote": "2h 50m · 400 marks. Higher Level: Part One 80 marks (best 10 of 12 short questions) + Part Two 320 marks (four 80-mark questions, one from at least three of the four sections). Ordinary Level uses the same 400 marks and time but splits it 100/300 — Part One is worth 100 and you answer three 100-mark Part Two questions from Sections 1–3 only (no Options).",
+  "sections": [
+    {
+      "id": "geo-part1",
+      "name": "Part One – Short-Answer Questions",
+      "marks": 80,
+      "color": "#F97316",
+      "minutesPerQuestion": 3,
+      "tips": {
+        "timing": "Aim to spend about 35 minutes on Part One. There are 12 questions and you are marked on your 10 best answers — you do not need to choose in advance, so attempt all 12 if time allows and your two weakest are simply dropped.",
+        "structure": "Each answer should be 3–5 focused sentences, or the exact data the question asks for. Include a labelled diagram or sketch where it adds marks — a good diagram can carry a whole answer. Answers are written in the spaces provided in the answerbook, and anything outside the answer area may not be seen by the examiner.",
+        "reminders": [
+          "You are marked on your 10 best answers out of 12 — attempt all 12 if possible",
+          "Diagrams must be fully labelled to earn marks — an unlabelled diagram gets nothing",
+          "Questions range across the whole course: physical geography, OS maps, aerial photographs, weather charts, graphs and tables, regional and human geography",
+          "Spend roughly 3 minutes per question — stop and move on rather than over-writing one answer",
+          "OS map and photograph questions: always quote grid references, contour values, or specific visible evidence before drawing a conclusion",
+          "Write inside the answer areas only — the answerbook is scanned for on-screen marking"
+        ]
+      }
+    },
+    {
+      "id": "geo-section1",
+      "name": "Section 1 – Patterns and Processes in the Physical Environment",
+      "marks": 80,
+      "color": "#3B82F6",
+      "minutesPerQuestion": 34,
+      "tips": {
+        "timing": "About 34 minutes for the one question you choose from Questions 1–3. Budget roughly 11 minutes for each 30-mark part, 8 minutes for the 20-mark part, and 4 minutes planning.",
+        "structure": "An 80-mark question is normally two 30-mark essays plus one 20-mark structured part. For a 30-mark essay write 15 Significant Relevant Points (SRPs) — one standalone piece of geographic information per line. The 20-mark part follows a specific instruction: a data or diagram comprehension, a labelled sketch, or a shorter written answer.",
+        "reminders": [
+          "Each SRP must be a distinct, standalone point — repeating or rewording the same idea earns zero for that line",
+          "Name a real location in every SRP essay (e.g. 'The San Andreas Fault, California…')",
+          "Explain the process, then the evidence, then the resulting landform — do not just list landform names",
+          "Draw and fully label a diagram where the question mentions one; unlabelled sketches score nothing",
+          "Answer the exact command word: 'explain' needs causes, 'describe' needs detail, 'examine' needs both plus evaluation"
+        ]
+      }
+    },
+    {
+      "id": "geo-section2",
+      "name": "Section 2 – Regional Geography",
+      "marks": 80,
+      "color": "#10B981",
+      "minutesPerQuestion": 34,
+      "tips": {
+        "timing": "About 34 minutes for the one question you choose from Questions 4–6. Same split as Section 1: ~11 minutes per 30-mark part, ~8 for the 20-mark part, ~4 planning.",
+        "structure": "Regional answers must be anchored to a named region you have studied — Irish, European, or Continental/Sub-Continental, whichever the question specifies. Build each SRP as claim, named evidence, and geographic consequence.",
+        "reminders": [
+          "Name your studied region in the very first sentence — the examiner needs to know which region you are writing about",
+          "Check whether the question excludes a region ('not in Ireland', 'not in Europe') before you start",
+          "Use named places, real statistics, and specific industries or crops rather than general description",
+          "For sketch maps: include a title, north arrow, legend, and at least four labelled features",
+          "Have one Irish, one European and one Continental region prepared — the paper chooses, not you"
+        ]
+      }
+    },
+    {
+      "id": "geo-section3",
+      "name": "Section 3 – Electives: Economic Activities / The Human Environment",
+      "marks": 80,
+      "color": "#A855F7",
+      "minutesPerQuestion": 34,
+      "tips": {
+        "timing": "About 34 minutes for the one question you choose from Questions 7–12. Questions 7–9 are the Economic Activities elective and Questions 10–12 are the Human Environment elective.",
+        "structure": "Answer from the elective you actually studied. These questions lean on data — tables, graphs, population pyramids and maps — so the 20-mark part is often a calculation or data interpretation. Show your working and quote the figures you used.",
+        "reminders": [
+          "Only answer from the elective you studied — the two are not interchangeable",
+          "Quote the actual figures from any table or graph before interpreting them",
+          "Show working for percentage, rate and density calculations, and include units",
+          "Support every point with a named example: a specific country, city, company or scheme",
+          "Distinguish causes from effects clearly — many questions award marks separately for each"
+        ]
+      }
+    },
+    {
+      "id": "geo-section4",
+      "name": "Section 4 – Options (Higher Level only)",
+      "marks": 80,
+      "color": "#EF4444",
+      "minutesPerQuestion": 34,
+      "tips": {
+        "timing": "About 34 minutes for the one question you choose from the Options block. This section exists on the Higher Level paper only; Ordinary Level candidates answer three questions from Sections 1–3 instead.",
+        "structure": "Answer from the single option you studied — Global Interdependence, Geoecology, Culture and Identity, or The Atmosphere-Ocean Environment. Option answers are marked to the same SRP standard as the rest of Part Two, and examiners expect option-specific terminology.",
+        "reminders": [
+          "Answer only from the option you studied — mixing options loses the thread and the marks",
+          "Use the option's own vocabulary (e.g. soil horizons and leaching for Geoecology, ITCZ and ocean currents for Atmosphere-Ocean)",
+          "Bring a prepared case study with named places, dates and figures for each likely topic",
+          "The Options question is not optional at Higher Level if you need it as one of your four — decide early which section you will skip",
+          "Ordinary Level candidates: ignore this section entirely and answer three questions from Sections 1–3"
+        ]
+      }
+    }
+  ]
+}
