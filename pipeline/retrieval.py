@@ -172,3 +172,95 @@ def excerpt(subject: str, query: str, budget_chars: int, extra: str = "",
         print(f"[retrieval] weak match for {what or query!r} (score {top:.2f}) — "
               f"check the bundle covers this topic")
     return text
+
+
+def select_text_chunks(corpus: str, queries: list[str], budget_chars: int,
+                       per_query: int = 2) -> str:
+    """Retrieve small windows from an arbitrary text without a model call.
+
+    Unlike ``search`` this serves many independent queries (e.g. every part in one exam paper):
+    each query gets a chance to select its own best scheme window, then duplicate windows are
+    removed and restored to source order. This avoids both head truncation and repeating a full
+    100k-character marking scheme in every job.
+    """
+    chunks = _chunk(corpus)
+    if not chunks or not queries or budget_chars <= 0:
+        return ""
+    tfs, df = [], {}
+    for chunk in chunks:
+        tf: dict[str, int] = {}
+        for word in _tokens(chunk["text"]):
+            tf[word] = tf.get(word, 0) + 1
+        tfs.append(tf)
+        for word in tf:
+            df[word] = df.get(word, 0) + 1
+    lens = [sum(tf.values()) for tf in tfs]
+    avg = sum(lens) / len(lens) if lens else 0.0
+    rankings, coverage_terms = [], {}
+    for query in queries:
+        terms = _tokens(query)
+        ranked = sorted(((_score(terms, tfs[i], lens[i], df, len(chunks), avg), i)
+                         for i in range(len(chunks))), key=lambda pair: (-pair[0], pair[1]))
+        ranked = [(score, i) for score, i in ranked[:per_query]
+                  if score > RETRIEVAL_MIN_SCORE]
+        rankings.append(ranked)
+        if ranked:
+            coverage_terms.setdefault(ranked[0][1], []).extend(terms)
+
+    # First reserve the best window for EVERY query. If those windows exceed the whole budget,
+    # fairly focus each around its matching words instead of letting early scheme pages consume
+    # the budget and silently cutting off Section C again.
+    primary = set(coverage_terms)
+    if not primary:
+        return ""
+
+    def focused(body: str, terms: list[str], limit: int) -> str:
+        if len(body) <= limit:
+            return body
+        low = body.lower()
+        positions = [low.find(term) for term in terms if low.find(term) >= 0]
+        centre = min(positions) if positions else len(body) // 2
+        start = max(0, min(len(body) - limit, centre - limit // 3))
+        return body[start:start + limit]
+
+    bodies: dict[int, str] = {}
+    primary_chars = sum(len(chunks[i]["text"]) for i in primary)
+    if primary_chars > budget_chars:
+        share = max(80, budget_chars // len(primary))
+        for i in primary:
+            bodies[i] = focused(chunks[i]["text"], coverage_terms[i], share)
+    else:
+        bodies = {i: chunks[i]["text"] for i in primary}
+        used = primary_chars
+        # Spend remaining budget on second-choice neighbouring/relevant windows by rank, but only
+        # after every question already has coverage.
+        for rank in range(1, per_query):
+            for ranked in rankings:
+                if len(ranked) <= rank:
+                    continue
+                i = ranked[rank][1]
+                if i in bodies:
+                    continue
+                body = chunks[i]["text"]
+                if used + len(body) > budget_chars:
+                    continue
+                bodies[i] = body
+                used += len(body)
+
+    out, used, last_label = [], 0, None
+    for i in sorted(bodies, key=lambda j: chunks[j]["order"]):
+        body = bodies[i]
+        if used + len(body) > budget_chars:
+            remaining = budget_chars - used
+            if remaining < 80:
+                break
+            body = body[:remaining]
+        label = chunks[i]["label"]
+        if label != last_label:
+            out.append(f"\n--- from {label} ---")
+            last_label = label
+        out.append(body)
+        used += len(body)
+        if used >= budget_chars:
+            break
+    return "\n".join(out).strip()

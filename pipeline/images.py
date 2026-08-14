@@ -223,6 +223,27 @@ def _page_png(pdf_path: str, page_index: int) -> bytes:
     return fitz.open(pdf_path).load_page(page_index).get_pixmap(dpi=IMAGE_DPI).tobytes("png")
 
 
+def _page_has_visual_evidence(pdf_path: str, page_index: int, items: list[dict]) -> bool:
+    """Conservative zero-model rejection.
+
+    Never skip a cue-bearing page. Otherwise inspect the PDF object tree: raster/image blocks or
+    any vector drawing keep the page in vision review. We only reject genuinely text-only pages,
+    so reducing calls cannot hide an ordinary embedded diagram, graph, ruled table, or photo.
+    Any PDF inspection uncertainty also keeps the page.
+    """
+    if any(c.get("cue") for c in items):
+        return True
+    try:
+        doc = fitz.open(pdf_path)
+        page = doc.load_page(page_index)
+        if page.get_images(full=True) or page.get_drawings():
+            return True
+        blocks = page.get_text("dict").get("blocks", [])
+        return any(b.get("type") == 1 for b in blocks)  # inline raster block
+    except Exception:
+        return True
+
+
 def _parse(content) -> list[dict]:
     for b in content:
         if getattr(b, "type", None) == "tool_use" and b.name == "emit_figure":
@@ -304,14 +325,27 @@ def prepare(subject: str, limit: int | None = None, force: bool = False) -> int:
     for c in cands:
         grouped.setdefault((c["pdf"], c["page"]), []).append(c)
     jobs = []
+    skipped_pages = skipped_parts = 0
     for n, ((pdf, page), items) in enumerate(sorted(grouped.items())):
+        if not _page_has_visual_evidence(pdf, page, items):
+            skipped_pages += 1
+            skipped_parts += len(items)
+            for c in items:
+                sidecar[c["key"]] = {"has_figure": False,
+                                     "reason": "deterministic-text-only-page-v1"}
+            continue
         jobs.append({"custom_id": f"page_{n:04d}", "prompt": _prompt(items), "tool": EMIT_TOOL,
                      "image_png": _page_png(pdf, page),
                      "meta": {"pdf": pdf, "page": page,
                               "items": [{"key": c["key"], "name": c["name"],
                                          "question": c["qtext"]} for c in items]}})
+    _save_sidecar(side_path, sidecar)
+    if not jobs:
+        print(f"[images] skipped {skipped_pages} proven text-only page(s); no vision work remains")
+        return 0
     bridge.prepare(_stage(subject), jobs, task=_TASK)
-    print(f"[images] {len(cands)} part(s) grouped into {len(jobs)} page-level exhaustive inspection job(s)")
+    print(f"[images] {len(cands)} part(s) grouped into {len(jobs)} page-level inspection job(s); "
+          f"skipped {skipped_parts} part(s) on {skipped_pages} proven text-only page(s)")
     return len(jobs)
 
 
@@ -346,7 +380,11 @@ def collect(subject: str) -> None:
                 qid, _, idx = key.partition("#")
                 sidecar[key] = {"has_figure": True, "pending_crop": rel,
                                 "qid": qid, "idx": int(idx) if idx.isdigit() else -1,
-                                "question": item_meta.get("question", "")}
+                                "question": item_meta.get("question", ""),
+                                # Preserve source context so verification can compare the crop
+                                # with the page and prove both completeness and tightness.
+                                "bbox": result.get("bbox"), "source_pdf": meta.get("pdf"),
+                                "source_page": meta.get("page")}
                 cropped += 1
                 print(f"[crop] {key} -> {rel} (pending visual check)")
             elif result.get("has_figure"):

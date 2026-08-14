@@ -29,6 +29,7 @@ import re
 import sys
 from functools import lru_cache
 
+import textclean
 from config import (CANONICAL, REPORTS, MIN_QUESTION_CHARS, STUB_QUESTION_RE,
                     LENGTH_MIN_RATIO, LENGTH_MAX_RATIO, SEGMENT_RETRY_ATTEMPTS,
                     MAX_QUARANTINE_FRAC, MAX_SOFT_WARN_FRAC, TAG_REVIEW_THRESHOLD,
@@ -153,6 +154,13 @@ def year_is_real(subject: str, year) -> bool:
 #   SOFT  no_marks        — marks <= 0; answer can't be sized -> triggers a retry, surfaced, kept
 #   SOFT  length_mismatch — an AI-authored answer is far from its mark-derived target -> warning
 #                           (official scheme bullets are intentionally concise and exempt)
+#   SOFT  scheme_markup   — mark allocation ("4 points @ 6 marks each") left in the answer
+#   SOFT  label_bleed     — the next part's label trails the answer (PDF table artefact)
+#   SOFT  raw_wrap        — PDF hard-wrapping preserved; the answer reads as a dump, not prose
+#   SOFT  glyph_junk      — Symbol/Wingdings private-use codepoints; render as tofu boxes
+#
+# The last four come from textclean.artifacts and are all repairable with no model calls:
+#     python3 textclean.py <subject> --apply
 #
 #     python3 validate.py home-economics            # scan + write the report/sample (no changes)
 #     python3 validate.py home-economics --enforce  # drop stubs to quarantine, re-render, sample
@@ -205,20 +213,37 @@ def part_defects(subject: str, p: dict) -> list[str]:
         ratio = _word_count(ans) / target
         if ratio < LENGTH_MIN_RATIO or ratio > LENGTH_MAX_RATIO:
             out.append("length_mismatch")
+    # Exempting scheme parts from length_mismatch above left them with NO answer-quality check at
+    # all — 94% of a Home Economics run, which is how 720 raw marking-scheme dumps ("4 points @ 6
+    # marks each ...") passed the gate as CLEAN. These text defects apply to every part regardless
+    # of provenance, and share their regexes with the cleaner so a repaired part goes quiet.
+    out.extend(textclean.artifacts(p))
     return out
 
 
 HARD = {"stub_question"}
 
+# Defects that RE-SEGMENTING the paper could actually repair. Everything else is reported but must
+# never drive a retry: segment.py reads the question paper only and leaves answers empty, so no
+# amount of re-segmentation can fix a marking-scheme artefact — it would just re-run every
+# affected paper through the expensive final model (opus) twice and change nothing. Glyph junk is
+# excluded for the same reason: it is repaired by normalising the digest, not by asking again.
+RETRYABLE = {"stub_question", "no_marks"}
+
 
 def scan(subject: str) -> dict:
     """Tally defects without modifying anything. Returns counts, the offending paper keys, and
-    a few examples per defect for the report."""
+    a few examples per defect for the report.
+
+    `retryable`/`retry_paper_keys` are the subset post_segment acts on; `bad_paper_keys` stays the
+    full set so the report and the merge gate still show everything.
+    """
     canonical = _load(subject)
     parts = [(q, i, p) for q in canonical for i, p in enumerate(q["parts"])]
     by_defect: dict[str, list] = {}
     bad_paper_keys: set[str] = set()
-    hard = soft = 0
+    retry_paper_keys: set[str] = set()
+    hard = soft = retryable = 0
     for q, i, p in parts:
         defs = part_defects(subject, p)
         if not defs:
@@ -228,12 +253,16 @@ def scan(subject: str) -> dict:
             hard += 1
         else:
             soft += 1
+        if RETRYABLE & set(defs):
+            retryable += 1
+            retry_paper_keys.add(_paper_key(q))
         for d in defs:
             by_defect.setdefault(d, []).append({
                 "qid": q["id"], "label": p.get("label", ""), "marks": p.get("marks", 0),
                 "question": (p.get("question") or "")[:80]})
     return {"n_parts": len(parts), "hard": hard, "soft": soft,
             "n_bad_parts": hard + soft, "bad_paper_keys": sorted(bad_paper_keys),
+            "retryable": retryable, "retry_paper_keys": sorted(retry_paper_keys),
             "by_defect": {k: v for k, v in by_defect.items()}}
 
 
@@ -297,22 +326,28 @@ def post_segment(subject: str, limit: int | None = None) -> str:
     """After a segment collect. Returns 'ok' | 'retry' | 'cleaned'.
     'retry' means offending papers were re-queued — run.py should spawn the worker again."""
     rep = scan(subject)
-    if rep["n_bad_parts"] == 0:
+    # Gate on the RETRYABLE subset, not on every defect. Re-segmentation can fix a stub question
+    # or a missing mark total; it cannot fix scheme markup or glyph junk, so counting those here
+    # would re-run every affected paper through the final model twice for no change.
+    if rep["retryable"] == 0:
         _reset_attempts(subject)
-        print("[validate] segment clean — no stub/zero-mark parts")
+        extra = rep["n_bad_parts"]
+        print("[validate] segment clean — no stub/zero-mark parts"
+              + (f" ({extra} non-segment defect(s) reported for the merge gate)" if extra else ""))
         return "ok"
     attempts = _read_attempts(subject)
     if attempts < SEGMENT_RETRY_ATTEMPTS:
         import agent_bridge as bridge
         import segment
-        keys = rep["bad_paper_keys"]
+        keys = rep["retry_paper_keys"]
         dropped = _drop_papers(subject, keys)
         bridge.reset(segment._stage(subject))
         _bump_attempts(subject)
         segment.prepare(subject, limit=limit)     # re-queues exactly the dropped papers
-        print(f"[validate] {rep['hard']} stub + {rep['soft']} weak part(s) across "
-              f"{len(keys)} paper(s); re-segmenting them "
-              f"(attempt {attempts + 1}/{SEGMENT_RETRY_ATTEMPTS}, {dropped} questions re-queued)")
+        print(f"[validate] {rep['retryable']} re-segmentable part(s) across {len(keys)} paper(s); "
+              f"re-segmenting them (attempt {attempts + 1}/{SEGMENT_RETRY_ATTEMPTS}, "
+              f"{dropped} questions re-queued). "
+              f"{rep['n_bad_parts'] - rep['retryable']} other defect(s) left for the merge gate.")
         return "retry"
     _reset_attempts(subject)
     creport = clean(subject)

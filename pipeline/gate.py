@@ -30,6 +30,7 @@ from pathlib import Path
 from config import (CANONICAL, REPORTS, EXAM_IMAGES, ROOT, display_name,
                     SUPPLIED_FIGURE_RE, SCAN_ALL_PARTS_FOR_FIGURES)
 import ids
+import textclean
 import validate
 
 BLOCK, WARN, INFO = "BLOCK", "WARN", "INFO"
@@ -40,6 +41,7 @@ CARD_DUP_RATE_MAX = 0.05        # normalised-duplicate share of a subject's whol
 CARDS_PER_CHAPTER = (12, 45)    # soft band; outside it is a report line, never a block
 REGRESSION_BLOCK = 0.10         # >10% content loss vs baseline blocks
 REGRESSION_WARN = 0.02          # >2% is worth saying out loud
+TEXT_ARTIFACT_BLOCK = 0.25      # >25% of parts carrying raw PDF/scheme text is not publishable
 
 
 class Finding:
@@ -61,6 +63,7 @@ class Ctx:
         self.cards = self._json(CANONICAL / f"flashcards.{subject}.json") or {}
         self.scaffold = self._json(Path(__file__).parent / "scaffold" / f"{subject}.json") or {}
         self.baseline = self._json(REPORTS / f"baseline-{subject}.json")
+        self.exam_info = self._json(Path(__file__).parent / "exam-info" / f"{subject}.json")
         figure_raw = self._json(REPORTS / f"figures-{subject}.json")
         self.figure_report_exists = figure_raw is not None
         self.figures = ((figure_raw or {}).get("entries", {})
@@ -144,6 +147,15 @@ def check_sources(c: Ctx):
                       f"got {sample!r}", bad[:50])
 
 
+def check_exam_info(c: Ctx):
+    """Exam Info is a required pipeline artifact; incomplete shells must never publish."""
+    import exam_info
+    errors = exam_info.validate(getattr(c, "exam_info", None), c.subject)
+    if errors:
+        yield Finding("exam-info", BLOCK,
+                      f"exam info is missing/incomplete: {'; '.join(errors[:4])}", errors)
+
+
 def check_diagrams(c: Ctx):
     missing = []
     for q, p in c.parts:
@@ -180,6 +192,15 @@ def check_figure_audit(c: Ctx):
         yield Finding("figure-audit", BLOCK,
                       f"{len(unresolved)} figure inspection(s) remain unresolved/reviewable",
                       unresolved[:50])
+    weak_qa = sorted(k for k, v in figures.items() if isinstance(v, dict)
+                     and v.get("has_figure") is True and v.get("diagram")
+                     and not (v.get("qa_version", 0) >= 2 and v.get("relevant") is True
+                              and v.get("complete") is True and v.get("tight") is True
+                              and v.get("context_compared") is True))
+    if weak_qa:
+        yield Finding("figure-audit", BLOCK,
+                      f"{len(weak_qa)} diagram crop(s) lack context-aware relevance, completeness and tightness QA",
+                      weak_qa[:50])
     supplied_missing = []
     for q, p in c.parts:
         if SUPPLIED_FIGURE_RE.search(p.get("question", "")) and not (p.get("diagram") or "").strip():
@@ -188,6 +209,32 @@ def check_figure_audit(c: Ctx):
         yield Finding("figure-audit", BLOCK,
                       f"{len(supplied_missing)} part(s) explicitly reference a supplied visual but have no diagram",
                       supplied_missing[:50])
+
+
+def check_text_artifacts(c: Ctx):
+    """Marking-scheme markup, bled part labels, PDF hard-wrapping and font-encoded glyphs.
+
+    Home Economics shipped 720 raw scheme dumps and 155 tofu glyphs past a gate that reported
+    CLEAN, because the only answer-quality check exempted scheme-sourced text — 94% of the store.
+    These are WARN rather than BLOCK while they are a minority, since `textclean.py <subject>
+    --apply` clears them for free; past TEXT_ARTIFACT_BLOCK the subject is mostly raw PDF and
+    should not reach students at all.
+    """
+    counts = Counter()
+    for _q, p in c.parts:
+        for defect in textclean.artifacts(p):
+            counts[defect] += 1
+    if not counts:
+        return
+    worst = max(counts.values())
+    total = max(1, len(c.parts))
+    share = worst / total
+    detail = ", ".join(f"{k} {v}" for k, v in counts.most_common())
+    sev = BLOCK if share > TEXT_ARTIFACT_BLOCK else WARN
+    yield Finding("text-artifacts", sev,
+                  f"{worst} part(s) ({share:.1%}) carry raw PDF/marking-scheme text — {detail}. "
+                  f"Repair with: python3 textclean.py {c.subject} --apply",
+                  dict(counts))
 
 
 def check_flashcards(c: Ctx):
@@ -301,8 +348,9 @@ def check_regression(c: Ctx):
 
 
 CHECKS = [check_store_exists, check_question_ids, check_part_labels, check_parts,
-          check_ai_share, check_years, check_sources, check_diagrams, check_figure_audit, check_flashcards,
-          check_flashcard_duplicates, check_card_budgets, check_coverage, check_regression]
+          check_ai_share, check_years, check_sources, check_exam_info, check_diagrams, check_figure_audit, check_flashcards,
+          check_flashcard_duplicates, check_card_budgets, check_coverage, check_regression,
+          check_text_artifacts]
 
 
 # ── api ───────────────────────────────────────────────────────────────────────

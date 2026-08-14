@@ -4,7 +4,8 @@ Turns the free SEC archive PDFs into bare bones content. Full design: [`../DATA_
 
 ```
 run.py           ⭐ re-invokable orchestrator: subject -> playable in the app, NO API key
-agent_bridge.py  (NEW) file-based stand-in for the API: stages write jobs, a subagent answers
+agent_bridge.py  file-backed worker bridge + persistent content-addressed result cache
+cost_control.py  provider-neutral workload estimator and hard per-stage budget gate
 config.py        paths, subjects, models per stage, length/validation tunables, SYLLABUS_CUTOFF
 resources.py     Stage 0 — validate + ingest each fixed NCCA/SimpleStudy subject pack -> corpus + cutoff
 acquire_form.py  Stage 1 — form-discovery: no codes needed; downloads papers+schemes, HL+OL
@@ -13,6 +14,8 @@ digest.py        Stage 2+ — PDF -> paired paper+scheme page-text, app-ready JS
 scaffold_gen.py  Stage 2.5 — derive scaffold/<subject>.json (from <subject>.spec.txt if present, else digests)
 segment.py       Stages 3-5 — questions + parts + marks + topic tags, from the EXAM PAPER ONLY
 schemes.py       Stage 5b — match each part's official answer out of the MARKING SCHEME ONLY
+textclean.py     shared text repair — scheme markup, bled labels, PDF hard-wrap, font glyphs
+                 (pure Python, no model calls; `python3 textclean.py <subject> --apply` backfills)
 images.py        Stage 7 — crop candidate figures from the page (subagent finds the box); marks pending
 images_verify.py Stage 7b — visually confirm each crop is a real figure before attaching; rejects bad crops
 model_answers.py Stage 6a — H1 answers for parts the scheme doesn't model; grounded in the resource bundle
@@ -29,8 +32,8 @@ _data/           generated store (gitignore this) — raw, digest, canonical, re
 
 There is **no `ANTHROPIC_API_KEY`**. The deterministic stages run as plain Python; each model
 stage WRITES its jobs to `_data/agent/<stage>/in/` and the orchestrator stops, printing
-`WORKER NEEDED <dir>`. A spawned **Haiku subagent** (`pipeline-worker`) reads those jobs (and any
-page images), writes answers to `out/`, and you re-run `run.py` to collect them and advance.
+`WORKER NEEDED <dir>`. One economy-tier `pipeline-worker` reads those jobs (and any page images),
+writes answers to `out/`, and you re-run `run.py` to collect them and advance.
 
 The easiest way is the **`/run-pipeline` skill**, which runs that loop for you:
 
@@ -46,7 +49,8 @@ pip install pymupdf playwright --break-system-packages   # note: NO anthropic / 
 playwright install chromium
 
 while :; do
-  python3 run.py biology            # advance one model stage (or finish)
+  python3 run.py biology --estimate-cost  # inspect the next stage without requesting a worker
+  python3 run.py biology                  # advance one model stage (or finish)
   # if it printed "WORKER NEEDED <dir>": spawn the pipeline-worker subagent on <dir>, then loop
   # if it printed "PIPELINE COMPLETE": stop
 done
@@ -62,6 +66,9 @@ Modifiers:
 | `--regen-scaffold` | rebuild `scaffold/<subject>.json` even if it exists |
 | `--limit N` | cap papers (segment) / candidates (images) — smoke tests |
 | `--restart` | redo all derived model stages from a clean canonical store (keeps PDFs, digests, resources, and scaffold) |
+| `--estimate-cost` | prepare/report the next worker stage, but do not request a worker |
+| `--approve-cost` | explicitly override a hard budget violation after review |
+| `--max-jobs N`, `--max-prompt-chars N`, `--max-images N`, `--max-estimated-tokens N` | tighter/looser per-stage workload caps |
 | `--headful`, `--include-irish` | acquire options |
 
 ## How the keyless model stages work
@@ -72,10 +79,10 @@ half, bridged by `agent_bridge.py`:
 
 - `prepare` writes one `in/<id>.json` per unit of work — `{prompt, schema, meta, image?}`. For
   `images`, it also renders the page PNG into `in/` for the worker to look at.
-- the **`pipeline-worker`** subagent fills `out/<id>.json` with JSON matching `schema`. `run.py`
-  prints a `model:` line per stage so the worker runs on the right model: **opus** for `segment`
-  (exact question text + marks is the foundation), **sonnet** for `schemes`/`answers` (authoring),
-  **haiku** for the rest.
+- the **`pipeline-worker`** fills `out/<id>.json` with JSON matching `schema`. `run.py` prints a
+  provider-neutral `cost tier:` plus a provider-specific hint. Every fresh job starts at economy;
+  only a job that fails structural validation is retried at standard, with premium reserved for a
+  second failed segmentation retry.
 - `collect` reads `out/`, wraps each answer so the existing `parse_result`/`to_canonical`/crop
   code runs unchanged, and finalizes (canonical store, `.generated.js`, diagram crops, reports).
 
@@ -86,17 +93,17 @@ and copies each part's official answer back by part id; `answers` writes H1 answ
 the scheme didn't cover.
 
 **Validation gate (reform C/D/G).** After segment, `validate.post_segment` re-segments any paper
-with stub question text or zero-mark parts (up to `SEGMENT_RETRY_ATTEMPTS` on opus); leftovers are
+with stub question text or zero-mark parts (up to `SEGMENT_RETRY_ATTEMPTS`, selectively escalated); leftovers are
 quarantined. Before merge, `validate.enforce` drops any remaining stub parts to
 `_data/canonical/<subject>.quarantine.json`, writes `_data/reports/validate-<subject>.json` and a
 human `sample-<subject>.md`, and `run.py` STOPS — merge happens only when you re-run with `--merge`.
 
-It's fully **idempotent / resumable**: a stage already collected is skipped, a worker job that
-already has an `out/` file is never redone, segmented papers and cropped diagrams are not repeated,
-and `images` records every checked part in `_data/reports/figures-<subject>.json`. The `images`
-cost gate is `config.FIGURE_CUE_RE` — only figure-cued question parts get a worker call (widen it
-if a subject's figures are being missed). For a big stage you can split the `in/` files across a
-few parallel `pipeline-worker` agents — they only write `out/`, so they don't collide.
+It's fully **idempotent / resumable**: valid answers are content-addressed in
+`_data/agent-cache-v1/`, including across `--restart`; changed prompts/schemas/images miss the
+cache automatically. `images` considers every part, groups parts by page, and only skips a page
+locally when the PDF object tree proves it has no cue, raster/image block, or vector drawing.
+Crop QA groups up to six same-page crops in one contact-sheet call. Run one worker sequentially;
+do not multiply spend with parallel agents merely to finish sooner.
 
 Output: `_data/canonical/<subject>.json` (source of truth, with diagram paths) +
 `exam-questions-db.<subject>.generated.js` + `flashcards-<subject>.generated.js` +

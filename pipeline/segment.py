@@ -11,9 +11,9 @@ mark-allocation skeleton ("Part (a) … 4 marks") as the question wording, losin
 real question text. Official answers are matched separately afterwards by schemes.py (scheme
 only); H1 answers for the rest by model_answers.py. Flashcards are a later per-chapter step.
 
-Keyless: the model work is done by a spawned `pipeline-worker` subagent via agent_bridge.py
-(no ANTHROPIC_API_KEY). run.py recommends the `opus` model for this stage — exact question
-text and marks are the foundation everything downstream depends on.
+Keyless: the model work is done by a `pipeline-worker` via agent_bridge.py (no API key).
+run.py starts on the provider's economy tier and selectively escalates only a paper whose
+structured output fails validation.
 
     python3 segment.py history prepare    # queue one job per paper for the worker
     python3 segment.py history collect      # fold the worker's answers into canonical

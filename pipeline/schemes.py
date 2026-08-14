@@ -19,14 +19,12 @@ import json
 import re
 import sys
 
-from config import CANONICAL
+import textclean
+from config import CANONICAL, SCHEME_MATCH_CTX_CHARS
 from segment import load_scaffold, render_js
 from model_answers import load_scheme_context, q_level
 
 PID_SEP = "@@"                      # part id = "<question id>@@<part index>"
-# Home Economics combined written+coursework schemes reach ~107k extracted characters; the old
-# 60k cap cut off final Section C answers. Keep a generous bounded ceiling above observed files.
-MAX_SCHEME_CHARS = 140_000
 
 EMIT_TOOL = {
     "name": "emit_scheme_answers",
@@ -105,6 +103,11 @@ def _empty_parts(q: dict):
 
 
 def build_prompt(subject: str, scheme: str, lines: list[str]) -> str:
+    import retrieval
+    excerpt = retrieval.select_text_chunks(scheme, lines, SCHEME_MATCH_CTX_CHARS, per_query=2)
+    # A text-only/scanned scheme can have no retrievable tokens. Retain a bounded fallback, never
+    # the historical 140k-character repeat.
+    excerpt = excerpt or scheme[:SCHEME_MATCH_CTX_CHARS]
     return f"""You are reading the official State Examinations Commission MARKING SCHEME for one
 Leaving Certificate {subject} paper. Below it is the list of question PARTS already extracted from
 that paper's question paper. For each part, copy the corresponding model/expected answer out of
@@ -113,6 +116,8 @@ the marking scheme.
 Rules:
 - Match each part to the scheme by its label and question wording.
 - Copy the scheme's answer faithfully; you may tidy obvious OCR artefacts. Keep it concise.
+- Copy the ANSWER only. Leave out mark allocations ("4 points @ 6 marks each", "= 6 marks") and
+  any part label belonging to the NEXT part — that is the scheme's bookkeeping, not the answer.
 - If the scheme gives only marking *criteria* (points/keywords, not a usable answer) or does not
   cover a part, return "" for that pid — a later stage will author a full answer.
 - `points`: count how many DISTINCT marking points/credits the scheme rewards for the part (e.g.
@@ -121,7 +126,7 @@ Rules:
 - Return ONLY via the emit_scheme_answers tool.
 
 === MARKING SCHEME ===
-{scheme[:MAX_SCHEME_CHARS]}
+{excerpt}
 
 === QUESTION PARTS (answer each pid) ===
 {chr(10).join(lines)}
@@ -136,11 +141,12 @@ def parse_result(content) -> list[dict]:
             for a in raw:
                 if isinstance(a, dict) and a.get("pid"):
                     pts = a.get("points")
-                    answer = (a.get("answer") or "").strip()
-                    # PDF table extraction often appends the next bare question number to the
-                    # preceding marking-scheme cell ("... etc.\n\n7.").  It is page structure,
-                    # not answer content, so remove that narrow artefact at the ingestion edge.
-                    answer = re.sub(r"\n\s*(?:\[\d+\]\s*)?\d{1,2}\.\s*$", "", answer).strip()
+                    # Deterministic repair, not a re-prompt: schemes from some eras lead with a
+                    # mark allocation ("4 points @ 6 marks each") and PDF tables append the next
+                    # part's label to the previous cell. Both are mechanical, so they are stripped
+                    # in Python for free rather than by spending tokens asking the worker again.
+                    # May return "" — see collect(), which then leaves the part unanswered.
+                    answer = textclean.clean_scheme_answer(a.get("answer") or "")
                     out.append({"pid": str(a["pid"]).strip(),
                                 "answer": answer,
                                 "points": int(pts) if isinstance(pts, int) or (isinstance(pts, str) and pts.isdigit()) else 0})
@@ -194,10 +200,12 @@ def collect(subject: str) -> None:
     # marking-scheme answers would land on the wrong question (or vanish) without a word
     by_id = ids.index_by_id(canonical, where="schemes.collect")
     outs = bridge.outputs(_stage(subject))
-    filled = 0
+    filled = markup_only = 0
     for _cid, content in outs.items():
         for a in parse_result(content):
             pid, ans, pts = a["pid"], a["answer"], a.get("points", 0)
+            if not ans:
+                markup_only += 1              # nothing survived cleaning -> model_answers fills it
             if PID_SEP not in pid:
                 continue
             qid, _, idx = pid.rpartition(PID_SEP)
@@ -216,6 +224,9 @@ def collect(subject: str) -> None:
     (CANONICAL / f"{subject}.json").write_text(json.dumps(canonical, ensure_ascii=False, indent=2))
     js = render_js(subject, canonical)
     print(f"\n[schemes] filled {filled} official answer(s) from marking schemes. Rendered: {js.name}")
+    if markup_only:
+        print(f"[schemes] {markup_only} scheme entr(ies) were mark allocation only — left unanswered "
+              f"for model_answers.py rather than published as bookkeeping")
 
 
 if __name__ == "__main__":
