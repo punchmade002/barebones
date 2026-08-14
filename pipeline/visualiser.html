@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bare bones · exam pipeline map</title>
+<style>
+:root{
+  --bg:        oklch(93.5% 0.008 85);
+  --bg-deep:   oklch(90%   0.010 82);
+  --panel:     oklch(99%   0.004 85);
+  --panel-2:   oklch(96.4% 0.007 85);
+  --ink:       oklch(22%   0.010 72);
+  --ink-2:     oklch(34%   0.010 72);
+  --muted:     oklch(58%   0.010 75);
+  --line:      oklch(87.5% 0.010 80);
+  --line-soft: oklch(91%   0.008 80);
+
+  --accent:        oklch(70% 0.190 45);
+  --accent-strong: oklch(52% 0.165 42);
+  --accent-wash:   oklch(96.5% 0.030 68);
+
+  --det:        oklch(50% 0.055 205);
+  --det-wash:   oklch(96%  0.018 205);
+  --gate:       oklch(47% 0.145 28);
+  --gate-wash:  oklch(96%  0.028 30);
+
+  --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --t: 180ms;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink-2);
+  font:400 15px/1.6 var(--sans);
+  font-feature-settings:"cv05" 1,"ss01" 1;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{color:var(--ink); letter-spacing:-0.026em; line-height:1.15; margin:0; font-weight:640}
+p{margin:0}
+a{color:var(--accent-strong); text-decoration-thickness:1px; text-underline-offset:2px}
+
+.wrap{max-width:1280px; margin:0 auto; padding:0 clamp(1.1rem, 4vw, 3.5rem)}
+.rule{border:0; border-top:1px solid var(--line); margin:0}
+
+/* ── micro-label ─────────────────────────────────────────────── */
+.eyebrow{
+  font:600 0.685rem/1 var(--mono); letter-spacing:0.14em; text-transform:uppercase;
+  color:var(--muted);
+}
+
+/* ── masthead ────────────────────────────────────────────────── */
+header.mast{padding:clamp(2.6rem,7vw,5rem) 0 2.2rem}
+.mast-grid{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,20rem); gap:clamp(1.5rem,4vw,4rem); align-items:end}
+.mast h1{
+  font-size:clamp(2.4rem, 6.4vw, 4.2rem); font-weight:700; letter-spacing:-0.045em;
+  margin:.75rem 0 0;
+}
+.mast h1 em{font-style:normal; color:var(--accent-strong)}
+.mast .lede{margin-top:1.1rem; max-width:44ch; font-size:1.05rem; color:var(--ink-2)}
+.facts{display:grid; gap:.5rem; font:500 0.8rem/1.45 var(--mono); color:var(--muted)}
+.facts div{display:flex; justify-content:space-between; gap:1rem; border-top:1px solid var(--line); padding-top:.42rem}
+.facts b{color:var(--ink); font-weight:600}
+
+/* ── section scaffolding ─────────────────────────────────────── */
+section{padding:clamp(2.8rem,6vw,4.6rem) 0}
+.sec-head{display:flex; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:.55rem}
+.sec-head h2{font-size:clamp(1.35rem,2.6vw,1.85rem)}
+.sec-note{max-width:66ch; color:var(--muted); font-size:.94rem; margin-bottom:2rem}
+
+/* ── legend / filter ─────────────────────────────────────────── */
+.legend{display:flex; gap:.4rem; flex-wrap:wrap; margin:0 0 1.6rem}
+.chip{
+  font:600 .74rem/1 var(--mono); letter-spacing:.05em; text-transform:uppercase;
+  border:1px solid var(--line); background:var(--panel); color:var(--muted);
+  border-radius:999px; padding:.5rem .8rem; cursor:pointer;
+  transition:background var(--t) var(--ease), color var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+.chip:hover{border-color:var(--muted); color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:var(--bg)}
+.chip .dot{display:inline-block; width:7px; height:7px; border-radius:99px; margin-right:.45rem; vertical-align:1px}
+.dot.python{background:var(--det)} .dot.model{background:var(--accent)} .dot.gate{background:var(--gate)}
+
+/* ── the spine ───────────────────────────────────────────────── */
+.run{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,26.5rem); gap:clamp(1.5rem,3.5vw,3.2rem); align-items:start}
+.spine{border-top:1px solid var(--line)}
+.stage{
+  display:grid; grid-template-columns:5.2rem minmax(0,1fr) auto; align-items:start; gap:0 .9rem;
+  width:100%; text-align:left; background:none; border:0; border-bottom:1px solid var(--line-soft);
+  padding:.85rem .8rem .85rem .2rem; cursor:pointer; font:inherit; color:inherit;
+  position:relative; transition:background var(--t) var(--ease);
+}
+.stage:hover{background:var(--panel-2)}
+.stage:focus-visible{outline:2px solid var(--accent); outline-offset:-2px; border-radius:4px}
+.stage .num{
+  font:600 .74rem/1.5 var(--mono); color:var(--muted); letter-spacing:.02em;
+  display:flex; align-items:center; gap:.5rem; white-space:nowrap;
+}
+.stage .num i{width:6px; height:6px; border-radius:99px; background:var(--line); flex:none; transition:transform var(--t) var(--ease)}
+.stage[data-kind="python"] .num i{background:var(--det)}
+.stage[data-kind="model"]  .num i{background:var(--accent)}
+.stage[data-kind="gate"]   .num i{background:var(--gate)}
+.stage .name{font-weight:600; color:var(--ink); font-size:1.02rem; letter-spacing:-0.02em}
+.stage .file{font:500 .76rem/1.5 var(--mono); color:var(--muted)}
+.stage .one{grid-column:2; font-size:.88rem; color:var(--muted); margin-top:.12rem; max-width:52ch}
+.stage .tier{
+  font:600 .68rem/1 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--muted);
+  border:1px solid var(--line); border-radius:999px; padding:.34rem .5rem; white-space:nowrap; margin-top:.15rem;
+}
+.stage[aria-selected="true"]{background:var(--panel)}
+.stage[aria-selected="true"] .num i{transform:scale(2)}
+.stage[aria-selected="true"] .name{color:var(--accent-strong)}
+.stage.dim{opacity:.3}
+.stage.dim:hover{background:none}
+
+/* ── detail pane ─────────────────────────────────────────────── */
+.detail{
+  position:sticky; top:1.4rem; background:var(--panel); border:1px solid var(--line);
+  border-radius:18px; padding:1.5rem 1.5rem 1.7rem; box-shadow:0 1px 3px oklch(0% 0 0 / .04);
+}
+.detail-in{animation:rise .28s var(--ease) both}
+@keyframes rise{from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:none}}
+.detail .kicker{display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin-bottom:.7rem}
+.detail h3{font-size:1.5rem; letter-spacing:-0.035em}
+.detail .path{font:500 .78rem/1.5 var(--mono); color:var(--muted); margin-top:.2rem}
+.detail .body{margin-top:.9rem; font-size:.94rem; color:var(--ink-2)}
+.kind-tag{font:600 .68rem/1 var(--mono); letter-spacing:.1em; text-transform:uppercase; padding:.36rem .55rem; border-radius:999px}
+.kind-tag.python{background:var(--det-wash); color:var(--det)}
+.kind-tag.model{background:var(--accent-wash); color:var(--accent-strong)}
+.kind-tag.gate{background:var(--gate-wash); color:var(--gate)}
+
+.io{margin-top:1.3rem; display:grid; gap:.75rem}
+.io-row{display:grid; grid-template-columns:4.2rem minmax(0,1fr); gap:.75rem; align-items:baseline}
+.io-row .lbl{font:600 .68rem/1.6 var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--muted)}
+.io-row ul{margin:0; padding:0; list-style:none; display:flex; flex-wrap:wrap; gap:.3rem}
+.store{
+  font:500 .745rem/1 var(--mono); background:var(--panel-2); border:1px solid var(--line);
+  color:var(--ink-2); border-radius:6px; padding:.36rem .48rem; cursor:pointer;
+  transition:border-color var(--t) var(--ease), background var(--t) var(--ease);
+}
+.store:hover{border-color:var(--accent); background:var(--accent-wash); color:var(--accent-strong)}
+.store.flash{border-color:var(--accent); background:var(--accent-wash)}
+
+.ladder{margin-top:1.3rem}
+.ladder .steps{display:flex; align-items:center; gap:.4rem; margin-top:.5rem; flex-wrap:wrap}
+.rung{font:600 .72rem/1 var(--mono); text-transform:uppercase; letter-spacing:.06em; padding:.42rem .55rem; border-radius:6px; border:1px dashed var(--line); color:var(--muted)}
+.rung.on{border-style:solid; border-color:var(--accent); background:var(--accent-wash); color:var(--accent-strong)}
+.rung.na{opacity:.42; text-decoration:line-through}
+.arrow-mini{color:var(--muted); font:500 .8rem/1 var(--mono)}
+
+.why{margin-top:1.3rem; border-top:1px solid var(--line); padding-top:1rem}
+.why p{font-size:.9rem; color:var(--ink-2)}
+.why .eyebrow{display:block; margin-bottom:.4rem}
+.guards{margin:.8rem 0 0; padding:0; list-style:none; display:grid; gap:.45rem}
+.guards li{font-size:.875rem; color:var(--ink-2); padding-left:1.1rem; position:relative}
+.guards li::before{content:"·"; position:absolute; left:0; color:var(--accent); font-family:var(--mono)}
+code, .m{font:500 .86em/1.5 var(--mono); background:var(--panel-2); border:1px solid var(--line); border-radius:5px; padding:.08em .34em}
+
+/* ── worker loop ─────────────────────────────────────────────── */
+.loop{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,22rem); gap:clamp(1.5rem,3.5vw,3rem); align-items:start}
+.svg-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch}
+.loop-svg{width:100%; min-width:620px; height:auto; display:block; background:var(--panel); border:1px solid var(--line); border-radius:18px}
+.loop-svg .node rect{fill:var(--panel); stroke:var(--line); stroke-width:1.25}
+.loop-svg .node text{font:600 13px var(--sans); fill:var(--ink); letter-spacing:-0.01em}
+.loop-svg .node text.sub{font:500 10.5px var(--mono); fill:var(--muted); letter-spacing:0}
+.loop-svg .edge{stroke:var(--line); stroke-width:1.25; fill:none}
+.loop-svg .edge-label{font:500 10.5px var(--mono); fill:var(--muted)}
+.loop-svg .g{transition:opacity 260ms var(--ease)}
+.loop-svg.stepping .g{opacity:.2}
+.loop-svg.stepping .g.on{opacity:1}
+.loop-svg .g.on .node rect{stroke:var(--accent); stroke-width:1.75; fill:var(--accent-wash)}
+.loop-svg .g.on .node text{fill:var(--accent-strong)}
+.loop-svg .g.on .edge{stroke:var(--accent); stroke-width:1.75}
+.loop-svg .g.on .edge-label{fill:var(--accent-strong)}
+.loop-svg .g.on marker path{fill:var(--accent)}
+
+.steps-list{display:grid; gap:0; border-top:1px solid var(--line)}
+.step{
+  display:grid; grid-template-columns:1.8rem minmax(0,1fr); gap:.8rem; text-align:left;
+  background:none; border:0; border-bottom:1px solid var(--line-soft); padding:.85rem .4rem;
+  font:inherit; color:inherit; cursor:pointer; transition:background var(--t) var(--ease);
+}
+.step:hover{background:var(--panel-2)}
+.step:focus-visible{outline:2px solid var(--accent); outline-offset:-2px}
+.step .n{font:600 .74rem/1.7 var(--mono); color:var(--muted)}
+.step .t{display:block; font-weight:600; color:var(--ink); font-size:.96rem}
+.step .d{display:block; font-size:.86rem; color:var(--muted); margin-top:.2rem}
+.step[aria-pressed="true"]{background:var(--panel)}
+.step[aria-pressed="true"] .n{color:var(--accent-strong)}
+.step[aria-pressed="true"] .t{color:var(--accent-strong)}
+.term{
+  margin-top:1.1rem; background:oklch(24% 0.012 72); color:oklch(88% 0.012 82); border-radius:12px;
+  padding:1rem 1.1rem; font:500 .78rem/1.65 var(--mono); overflow-x:auto; white-space:pre;
+}
+.term .hi{color:oklch(78% 0.16 55)}
+.term .dimt{color:oklch(60% 0.010 82)}
+
+/* ── stores map ──────────────────────────────────────────────── */
+.stores{display:grid; gap:0; border-top:1px solid var(--line)}
+.store-row{display:grid; grid-template-columns:minmax(0,19rem) minmax(0,1fr); gap:1.2rem; padding:1rem .2rem; border-bottom:1px solid var(--line-soft); align-items:start}
+.store-row .k{font:600 .82rem/1.5 var(--mono); color:var(--ink)}
+.store-row .k span{display:block; font:400 .8rem/1.5 var(--sans); color:var(--muted); margin-top:.2rem}
+.store-row .v{display:flex; flex-wrap:wrap; gap:.3rem; align-items:center}
+.tw{font:600 .66rem/1 var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-right:.15rem}
+.store-row.hot{background:var(--accent-wash)}
+
+/* ── gates ───────────────────────────────────────────────────── */
+.gates{display:grid; gap:0; border-top:1px solid var(--line)}
+.gate-row{display:grid; grid-template-columns:minmax(0,15rem) minmax(0,1fr) minmax(0,15rem); gap:1.4rem; padding:1.15rem .2rem; border-bottom:1px solid var(--line-soft)}
+.gate-row h4{font-size:1rem}
+.gate-row .who{font:500 .76rem/1.6 var(--mono); color:var(--muted); margin-top:.2rem}
+.gate-row .what{font-size:.9rem; color:var(--ink-2)}
+.gate-row .nums{display:grid; gap:.28rem; font:500 .76rem/1.5 var(--mono); color:var(--muted)}
+.gate-row .nums b{color:var(--ink); font-weight:600}
+
+/* ── flags ───────────────────────────────────────────────────── */
+table.flags{width:100%; border-collapse:collapse; font-size:.9rem}
+table.flags th{text-align:left; font:600 .68rem/1 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--muted); padding:0 0 .7rem; border-bottom:1px solid var(--line)}
+table.flags td{padding:.62rem .9rem .62rem 0; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-2)}
+table.flags td:first-child{font:500 .82rem/1.5 var(--mono); color:var(--ink); min-width:11rem; overflow-wrap:anywhere}
+
+footer{padding:3rem 0 4rem; color:var(--muted); font-size:.85rem; border-top:1px solid var(--line)}
+
+@media (max-width: 1000px){
+  .run, .loop{grid-template-columns:minmax(0,1fr)}
+  .detail{position:static}
+  .mast-grid{grid-template-columns:minmax(0,1fr)}
+  .gate-row{grid-template-columns:minmax(0,1fr)}
+  .store-row{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:.01ms !important; transition-duration:.01ms !important}
+}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap mast-grid">
+    <div>
+      <p class="eyebrow">bare bones · pipeline/</p>
+      <h1>Free SEC exam PDFs<br>to <em>playable content</em>.</h1>
+      <p class="lede">Fourteen steps take a subject from the examinations.ie archive to questions, model answers, diagrams and flashcards wired into <code>app.html</code>. Nine of them are plain Python. Five need a model, and none of them hold an API key.</p>
+    </div>
+    <div class="facts">
+      <div><span>orchestrator</span><b>run.py</b></div>
+      <div><span>model access</span><b>file-backed worker</b></div>
+      <div><span>api keys</span><b>none</b></div>
+      <div><span>re-runnable</span><b>every stage</b></div>
+      <div><span>publishes to</span><b>app.html</b></div>
+    </div>
+  </div>
+</header>
+
+<hr class="rule">
+
+<!-- ═══ THE RUN ═══════════════════════════════════════════════ -->
+<section id="run">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">01</p>
+      <h2>The run, in order</h2>
+    </div>
+    <p class="sec-note">This is execution order, not the historical stage numbers: diagram cropping (7) runs before scheme matching (5b) because a crop only needs segmented parts, while an official answer needs the part list to match against. Pick a step to read what it consumes, what it writes, and what stops it.</p>
+
+    <div class="legend" role="group" aria-label="Filter steps by kind">
+      <button class="chip" data-filter="all" aria-pressed="true">All 14</button>
+      <button class="chip" data-filter="python" aria-pressed="false"><i class="dot python"></i>Deterministic</button>
+      <button class="chip" data-filter="model" aria-pressed="false"><i class="dot model"></i>Model worker</button>
+      <button class="chip" data-filter="gate" aria-pressed="false"><i class="dot gate"></i>Gate</button>
+    </div>
+
+    <div class="run">
+      <div class="spine" id="spine" role="tablist" aria-label="Pipeline steps"></div>
+      <div class="detail" id="detail" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ═══ WORKER LOOP ═══════════════════════════════════════════ -->
+<section id="loop">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">02</p>
+      <h2>The keyless worker loop</h2>
+    </div>
+    <p class="sec-note">There is no <code>ANTHROPIC_API_KEY</code> anywhere in the pipeline. Each model stage writes its jobs to disk and stops; a subagent fills them in; you re-run the same command to collect. Step through it.</p>
+
+    <div class="loop">
+      <div class="svg-scroll">
+      <svg class="loop-svg" id="loopsvg" viewBox="0 0 920 430" role="img" aria-label="Diagram of the file-backed worker loop between run.py, the job directory and the pipeline-worker subagent">
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0 0 L10 5 L0 10 z" fill="oklch(58% 0.010 75)"/>
+          </marker>
+        </defs>
+
+        <!-- run.py -->
+        <g class="g" data-step="1 4 5">
+          <g class="node">
+            <rect x="34" y="150" width="150" height="104" rx="14"/>
+            <text x="109" y="192" text-anchor="middle">run.py</text>
+            <text class="sub" x="109" y="212" text-anchor="middle">orchestrator</text>
+            <text class="sub" x="109" y="228" text-anchor="middle">re-invoked each pass</text>
+          </g>
+        </g>
+
+        <!-- prepare -> in/ -->
+        <g class="g" data-step="1">
+          <path class="edge" d="M184 178 C 226 178, 232 132, 274 132" marker-end="url(#ah)"/>
+          <text class="edge-label" x="196" y="146">prepare()</text>
+          <g class="node">
+            <rect x="278" y="92" width="196" height="84" rx="12"/>
+            <text x="376" y="126" text-anchor="middle">in/*.json</text>
+            <text class="sub" x="376" y="146" text-anchor="middle">prompt · schema · meta</text>
+            <text class="sub" x="376" y="162" text-anchor="middle">page PNG for vision jobs</text>
+          </g>
+        </g>
+
+        <!-- in/ -> worker -->
+        <g class="g" data-step="3">
+          <path class="edge" d="M474 134 C 528 134, 540 176, 592 176" marker-end="url(#ah)"/>
+          <text class="edge-label" x="492" y="150">reads</text>
+        </g>
+
+        <!-- worker -->
+        <g class="g" data-step="2 3">
+          <g class="node">
+            <rect x="596" y="150" width="188" height="104" rx="14"/>
+            <text x="690" y="188" text-anchor="middle">pipeline-worker</text>
+            <text class="sub" x="690" y="208" text-anchor="middle">a subagent, not an API</text>
+            <text class="sub" x="690" y="224" text-anchor="middle">one job in, one JSON out</text>
+          </g>
+        </g>
+
+        <!-- worker -> out/ -->
+        <g class="g" data-step="3">
+          <path class="edge" d="M592 232 C 540 232, 528 272, 474 272" marker-end="url(#ah)"/>
+          <text class="edge-label" x="492" y="288">writes</text>
+        </g>
+
+        <!-- out/ -->
+        <g class="g" data-step="3 4">
+          <g class="node">
+            <rect x="278" y="232" width="196" height="80" rx="12"/>
+            <text x="376" y="266" text-anchor="middle">out/*.json</text>
+            <text class="sub" x="376" y="286" text-anchor="middle">must match the schema</text>
+            <text class="sub" x="376" y="302" text-anchor="middle">validated on collect</text>
+          </g>
+        </g>
+
+        <!-- out/ -> run.py -->
+        <g class="g" data-step="4">
+          <path class="edge" d="M274 274 C 232 274, 226 226, 184 226" marker-end="url(#ah)"/>
+          <text class="edge-label" x="188" y="266">collect()</text>
+        </g>
+
+        <!-- cache -->
+        <g class="g" data-step="5">
+          <path class="edge" style="stroke-dasharray:4 4" d="M376 92 L376 72 L640 72 L640 62" marker-end="url(#ah)"/>
+          <g class="node">
+            <rect x="500" y="18" width="280" height="44" rx="10"/>
+            <text class="sub" x="640" y="45" text-anchor="middle">_data/agent-cache-v1/ · content-addressed</text>
+          </g>
+          <text class="edge-label" x="140" y="64">identical prompt + schema + image → no worker</text>
+        </g>
+
+        <!-- stop signal -->
+        <g class="g" data-step="2">
+          <path class="edge" d="M109 254 L109 320" marker-end="url(#ah)"/>
+          <g class="node">
+            <rect x="20" y="324" width="360" height="76" rx="12"/>
+            <text class="sub" x="40" y="352">&gt;&gt;&gt; COST PREFLIGHT: jobs · chars · images · tokens</text>
+            <text class="sub" x="40" y="372">&gt;&gt;&gt; WORKER NEEDED: n job(s) for stage 'segment'</text>
+            <text class="sub" x="40" y="390">&gt;&gt;&gt; cost tier: economy, then the run stops</text>
+          </g>
+        </g>
+
+        <!-- escalation -->
+        <g class="g" data-step="4">
+          <path class="edge" d="M690 254 L690 320" marker-end="url(#ah)"/>
+          <g class="node">
+            <rect x="520" y="324" width="380" height="76" rx="12"/>
+            <text class="sub" x="540" y="352">a job that fails its validator is re-queued alone</text>
+            <text class="sub" x="540" y="372">economy → standard → premium (segment only)</text>
+            <text class="sub" x="540" y="390">still bad after 2 tries → NEEDS HUMAN</text>
+          </g>
+        </g>
+      </svg>
+      </div>
+
+      <div>
+        <div class="steps-list" id="steps"></div>
+        <div class="term" id="term"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ═══ STORES ════════════════════════════════════════════════ -->
+<section id="stores">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">03</p>
+      <h2>Where everything lives</h2>
+    </div>
+    <p class="sec-note">Every stage is resumable because its output is a file, not memory. <code>_data/</code> is generated and gitignored; the repo-root JS is what the app actually loads. Click any step name to jump back up to it.</p>
+    <div class="stores" id="storemap"></div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ═══ GATES ═════════════════════════════════════════════════ -->
+<section id="gates">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">04</p>
+      <h2>Five places it refuses to continue</h2>
+    </div>
+    <p class="sec-note">A file existing is not proof its contents are good. These are the checks between the model and the student, with the constants they read from <code>config.py</code>.</p>
+    <div class="gates" id="gatelist"></div>
+  </div>
+</section>
+
+<hr class="rule">
+
+<!-- ═══ FLAGS ═════════════════════════════════════════════════ -->
+<section id="flags">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">05</p>
+      <h2>Driving it</h2>
+    </div>
+    <p class="sec-note">The <code>/run-pipeline</code> skill runs the whole loop for you. By hand it is the same command re-invoked until it prints <code>PIPELINE COMPLETE</code>.</p>
+    <div class="term" style="margin-bottom:2.2rem"><span class="dimt"># the loop, by hand</span>
+python3 run.py biology <span class="hi">--estimate-cost</span>   <span class="dimt"># inspect the next stage, request nothing</span>
+python3 run.py biology                  <span class="dimt"># advance one model stage, or finish</span>
+<span class="dimt"># prints WORKER NEEDED &lt;dir&gt; → run pipeline-worker on it → re-run the same line</span></div>
+    <table class="flags">
+      <thead><tr><th>Flag</th><th>Effect</th></tr></thead>
+      <tbody id="flagbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Generated from <code>pipeline/run.py</code>, <code>config.py</code> and the stage modules. Open it straight from disk; no build step, same as the app.</div>
+</footer>
+
+<script>
+/* ── data ─────────────────────────────────────────────────────── */
+const S = {
+  bundle:  'pipeline/resources/&lt;subject&gt;/',
+  corpus:  '_data/resources/',
+  raw:     '_data/raw/&lt;subject&gt;/',
+  digest:  '_data/digest/&lt;subject&gt;/',
+  scaffold:'scaffold/&lt;subject&gt;.json',
+  jobs:    '_data/agent/&lt;stage&gt;/',
+  cache:   '_data/agent-cache-v1/',
+  canon:   '_data/canonical/&lt;subject&gt;.json',
+  quar:    '_data/canonical/&lt;subject&gt;.quarantine.json',
+  gen:     '_data/canonical/*.generated.js',
+  images:  'exam-images/&lt;subject&gt;/',
+  reports: '_data/reports/',
+  root:    '&lt;subject&gt;-exam-questions.js',
+  cards:   '&lt;subject&gt;-flashcards.js',
+  app:     'app.html',
+  curated: 'exam-questions-db.js',
+};
+
+const STAGES = [
+{
+  id:'resources', num:'Stage 0', kind:'python', name:'Resource bundle', file:'resources.py',
+  one:'Validate and pool the subject’s course material: the pipeline’s source of truth.',
+  body:'Every subject gets a contract folder that must contain all four files: <code>manifest.json</code>, <code>spec-syllabus.pdf</code>, <code>guide-simplestudy.md</code>, <code>worked-example-guidance.md</code>. They are pooled into one corpus that the scaffold, the flashcards, the H1 answers and the syllabus cutoff all read from, so content comes from the syllabus rather than from a model’s general knowledge.',
+  reads:['bundle'], writes:['corpus'],
+  tiers:null,
+  why:'It runs first because the bundle decides which years are even relevant: <code>cutoff_for()</code> reads the current-syllabus year out of it.',
+  guards:['<code>require_bundle()</code> raises SystemExit if any of the four files is missing or malformed, so the run never starts on a partial bundle.']
+},
+{
+  id:'acquire', num:'Stage 1', kind:'python', name:'Acquire', file:'acquire_form.py  ·  Playwright',
+  one:'Drive the SEC archive form and download every relevant paper and marking scheme.',
+  body:'The archive’s download links are encrypted per-file tokens, not guessable URLs, so filenames cannot be enumerated. The script ticks the terms box and drives four cascading selects (type, year, examination, subject), each firing a POST reload, reads the results table (Higher/Ordinary × English/Irish) and downloads each PDF through the same browser session.',
+  reads:['corpus'], writes:['raw','reports'],
+  tiers:null,
+  why:'Relevant years = the current-syllabus cutoff to now, plus one pre-change reference year tagged <code>-REF</code>, because content usually overlaps the boundary.',
+  guards:['<code>--no-acquire</code> skips the download entirely and reuses whatever PDFs are already on disk.','<code>acquire.py</code> (direct-URL enumeration by subject code) is kept only as a legacy fallback.']
+},
+{
+  id:'digest', num:'Stage 2', kind:'python', name:'Digest', file:'digest.py  ·  PyMuPDF',
+  one:'Pair each exam paper with its marking scheme and pull page text out of both.',
+  body:'For every (year, level) it emits one JSON holding the paper and the scheme as page text, plus an <code>_index.json</code> recording which sets actually have both halves. Pages with almost no extractable text (older scans) are flagged <code>needs_ocr</code> rather than silently dropped.',
+  reads:['raw'], writes:['digest','reports'],
+  tiers:null,
+  why:'Pairing here is what lets the later stages read the paper and the scheme <em>separately</em> while still knowing they belong together.',
+  guards:['Idempotent: a digest already on disk is not rebuilt.']
+},
+{
+  id:'scaffold', num:'Stage 2.5', kind:'model', name:'Scaffold', file:'scaffold_gen.py',
+  one:'Derive the section and chapter list every question will later be tagged against.',
+  body:'One cheap model call produces <code>scaffold/&lt;subject&gt;.json</code> in the same shape the hand-written scaffolds use. If <code>&lt;subject&gt;.spec.txt</code> or a resource bundle is present it is treated as the authoritative topic list; otherwise the scaffold is inferred from a handful of digests.',
+  reads:['corpus','digest'], writes:['scaffold'],
+  tiers:{economy:true, standard:false, premium:false},
+  why:'This is what makes a brand-new subject run end-to-end with no setup. The output is plain JSON: hand-edit it, then <code>--restart</code> to re-tag against the revision.',
+  guards:['Idempotent: an existing scaffold is reused untouched unless you pass <code>--regen-scaffold</code>.']
+},
+{
+  id:'segment', num:'Stages 3–5', kind:'model', name:'Segment + tag', file:'segment.py',
+  one:'Turn each paper into questions, parts, marks and a topic tag, from the exam paper only.',
+  body:'One model call per paper produces structured records: questions split into parts with their marks, plus a <code>chapterId</code>/<code>sectionId</code> from the scaffold and a confidence score. The result is the canonical store and the rendered questions JS. It is the foundation everything downstream matches against.',
+  reads:['digest','scaffold'], writes:['jobs','canon','gen','reports'],
+  tiers:{economy:true, standard:true, premium:true},
+  why:'It is given <strong>only</strong> the exam paper, never the marking scheme. The old combined call asked one model to read both at once and routinely emitted the scheme’s mark-allocation skeleton (“Part (a) … 4 marks”) as the question wording, losing about 20% of the real question text.',
+  guards:['The only stage that can escalate all the way to premium, and only for a paper that failed structural validation twice.','<code>validate.post_segment</code> re-queues any paper with stub text or zero-mark parts, up to 2 attempts.']
+},
+{
+  id:'postseg', num:'Gate', kind:'gate', name:'Post-segment re-queue', file:'validate.post_segment',
+  one:'Re-segment papers that came back broken; quarantine what re-reading cannot fix.',
+  body:'Stub question text (<code>"Part (a)"</code>, under 12 characters) and zero-mark parts mean segmentation failed, not that the paper is odd. Those papers go back into the queue at a higher tier. Defects re-reading cannot repair (a marking-scheme artefact, for instance) are not retried, because re-running every affected paper through the strongest model costs a great deal and changes nothing.',
+  reads:['canon'], writes:['jobs','reports'],
+  tiers:null,
+  why:'Only defects listed in <code>validate.RETRYABLE</code> trigger a retry. Everything else waits for the final gate.',
+  guards:['<code>SEGMENT_RETRY_ATTEMPTS = 2</code>.','After two rejected outputs a job is listed under NEEDS HUMAN and <code>collect()</code> salvages what it can.']
+},
+{
+  id:'images', num:'Stage 7', kind:'model', name:'Diagram crops', file:'images.py  ·  vision',
+  one:'Find each figure’s bounding box on the page and cut it out of the PDF.',
+  body:'For each part, the page it sits on is rendered at 150 dpi and the vision worker returns the figure’s box. The region is cropped straight out of the PDF into <code>exam-images/&lt;subject&gt;/</code> and recorded as <code>pending_crop</code>; it is not attached to the question yet.',
+  reads:['canon','raw'], writes:['images','reports','jobs'],
+  tiers:{economy:true, standard:false, premium:false},
+  why:'<code>SCAN_ALL_PARTS_FOR_FIGURES</code> is on: the cue regex only prioritises, it no longer gates. Regex-only missed food labels, advertisements and unlabelled tables. Padding is 0.8% of the page; 3% pulled neighbouring lines of prose into almost every crop.',
+  guards:['A page is skipped locally only when the PDF object tree proves it has no cue, raster block or vector drawing.','A sidecar records every part already evaluated, so re-runs cost nothing.','<code>--no-images</code> skips the stage; <code>--limit N</code> caps candidates.']
+},
+{
+  id:'imgverify', num:'Stage 7b', kind:'model', name:'Crop verification', file:'images_verify.py  ·  vision',
+  one:'Look at the actual crop and confirm it is a real, complete figure before attaching it.',
+  body:'A bounding box can be wrong (blank, cut off, or just text) even when the page genuinely had a figure. This stage inspects up to six same-page crops at once in a labelled contact sheet and either attaches the crop to the part’s <code>diagram</code> field or rejects it.',
+  reads:['images','reports'], writes:['canon','reports','jobs'],
+  tiers:{economy:true, standard:false, premium:false},
+  why:'Partial crops are kept as review blockers rather than being cached as “no figure”, so a bad box cannot quietly become a permanent absence.',
+  guards:['Rejected crops are recorded as <code>reason: rejected-crop</code> and never reach the app.']
+},
+{
+  id:'schemes', num:'Stage 5b', kind:'model', name:'Scheme answers', file:'schemes.py',
+  one:'Copy each part’s official answer out of the marking scheme, and the scheme only.',
+  body:'One call per paper. The worker sees the marking scheme and the list of parts segment already extracted, and returns each part’s official answer, or an empty string where the scheme gives only marking criteria. Answers landed here are tagged <code>model_source: "scheme"</code>: real SEC material.',
+  reads:['digest','canon'], writes:['canon','jobs'],
+  tiers:{economy:true, standard:true, premium:false},
+  why:'This is the other half of the paper/scheme split. Segment reads the paper, this reads the scheme, and they meet by part id.',
+  guards:['Per-part scheme windows are retrieved (<code>SCHEME_MATCH_CTX_CHARS = 21,000</code>) rather than shipping the whole PDF into every job.']
+},
+{
+  id:'answers', num:'Stage 6a', kind:'model', name:'H1 answers', file:'model_answers.py',
+  one:'Write full-marks answers for every part the marking scheme never modelled.',
+  body:'Most essay questions have no official sample answer; the scheme gives criteria. This stage writes an H1-standard answer against those criteria, grounded in material retrieved from the resource bundle for that specific question. Everything it writes is tagged <code>model_source: "ai-h1"</code> so the app can tell a study aid from SEC material.',
+  reads:['canon','corpus','digest'], writes:['canon','reports','jobs'],
+  tiers:{economy:true, standard:true, premium:false},
+  why:'Retrieval is per question (<code>ANSWER_CTX_CHARS = 3,000</code>), not a head slice of the corpus. The old shared 15k slice meant any chapter past the slice never saw its own source text and the model fell back on general knowledge, exactly what the bundle exists to prevent.',
+  guards:['Document-based questions quoting a specific source (“In document A, …”) are skipped rather than guessed at.','Answers are batched three to a job.','Falls back to pooled criteria from other years when a year has no scheme on disk.']
+},
+{
+  id:'flashcards', num:'Stage 6b', kind:'model', name:'Flashcards', file:'flashcards.py',
+  one:'One call per chapter, built from the course material rather than from question text.',
+  body:'Because the worker sees a whole topic’s material at once and is told to return one unique set, the same term cannot be generated twenty times across twenty years of papers. A normalise pass then strips any case or whitespace near-duplicates that slip through.',
+  reads:['corpus','canon'], writes:['canon','gen','jobs'],
+  tiers:{economy:true, standard:false, premium:false},
+  why:'Concepts come from the resource bundle, not from past-paper wording. A flashcard should teach the syllabus, not echo an exam question.',
+  guards:['<code>FLASHCARD_CTX_CHARS = 6,000</code> of retrieved per-chapter material keeps jobs cheap enough for an economy worker.']
+},
+{
+  id:'textclean', num:'Repair', kind:'python', name:'Text repair', file:'textclean.py',
+  one:'Fix the mechanical PDF defects in plain Python, before anything judges the run.',
+  body:'Four families, all deterministic: marking-scheme mark allocations copied faithfully into an answer (“4 points @ 6 marks each”); the next part’s label bled onto the previous cell by PDF table extraction; preserved PDF hard-wrapping; and Symbol/Wingdings font glyphs.',
+  reads:['canon'], writes:['canon'],
+  tiers:null,
+  why:'It runs unconditionally and before the gate, because a run must never be blocked on a defect the pipeline can fix itself without a single model call.',
+  guards:['Idempotent and free. <code>python3 textclean.py &lt;subject&gt; --apply</code> backfills an already-built store.']
+},
+{
+  id:'validate', num:'Gate', kind:'gate', name:'Validation gate', file:'validate.py  ·  curated.py',
+  one:'Quarantine what is still broken, drop curated duplicates, and write a sample to read.',
+  body:'Remaining stub parts move to <code>&lt;subject&gt;.quarantine.json</code>. Generated questions that duplicate the hand-curated <code>exam-questions-db.js</code> are dropped so the generated bank only ever fills gaps. Then it writes a machine report and a human sample, and decides whether the run may publish itself.',
+  reads:['canon','curated'], writes:['quar','reports'],
+  tiers:null,
+  why:'Curated wins, generated fills gaps. Question wording is distinctive enough that a normalised text signature match means the same question.',
+  guards:['Clean means under 5% quarantined, under 15% soft warnings, and no tag-review bucket.','Low coverage is judged separately: the questions you did extract can be flawless while whole papers or chapters are missing.','Not clean → the run stops. Read the sample, then re-run with <code>--merge</code>.']
+},
+{
+  id:'merge', num:'Stage 8', kind:'gate', name:'Merge', file:'merge.py  ·  gate.py',
+  one:'Apply the publish blockers, copy the JS to the repo root and wire it into the app.',
+  body:'<code>gate.py</code> runs a second set of checks on top of validation: ids, part labels, AI-answer share, years that no paper was acquired for, diagram audit, flashcard duplicates and budgets, coverage, and a regression check against the previous snapshot. Only then are the two generated files copied out and script tags added to <code>app.html</code>.',
+  reads:['gen','images'], writes:['root','cards','app'],
+  tiers:null,
+  why:'Merge is additive only. It appends via <code>EXAM_QUESTIONS_DB.concat(...)</code> and <code>Object.assign(FLASHCARDS_DB, ...)</code>, and never edits a hand-curated file.',
+  guards:['A blocker means nothing is written, and the run says NOT PUBLISHED rather than PIPELINE COMPLETE.','It does overwrite the two root <code>&lt;subject&gt;-*.js</code> files in place. For a subject with hand-curated files of the same name, use <code>--no-merge</code> and diff first.']
+},
+];
+
+const STORES = [
+  {k:S.bundle,  d:'Contract input, checked in. Four required files per subject.'},
+  {k:S.corpus,  d:'Pooled corpus and bundle-derived syllabus cutoff.'},
+  {k:S.raw,     d:'Downloaded PDFs: papers and marking schemes, HL and OL.'},
+  {k:S.digest,  d:'Paired paper + scheme page text, plus a coverage index.'},
+  {k:S.scaffold,d:'Section and chapter tree every question is tagged against.'},
+  {k:S.jobs,    d:'The worker bridge: in/ jobs, out/ answers, per stage.'},
+  {k:S.cache,   d:'Content-addressed answers. Survives --restart.'},
+  {k:S.canon,   d:'Source of truth. Every stage reads and enriches this.'},
+  {k:S.quar,    d:'What the gate refused to publish, kept for inspection.'},
+  {k:S.gen,     d:'Rendered JS, still inside _data, not yet live.'},
+  {k:S.images,  d:'Diagram crops, referenced by each part’s diagram field.'},
+  {k:S.reports, d:'Manifests, segment/figure/answer reports, sample-&lt;subject&gt;.md.'},
+  {k:S.root,    d:'Live: additive question bank loaded by the app.'},
+  {k:S.cards,   d:'Live: additive flashcard bank loaded by the app.'},
+  {k:S.app,     d:'Script tags wired in. The subject is now playable.'},
+  {k:S.curated, d:'Hand-curated, never written by the pipeline. Read for dedup.'},
+];
+
+const LOOP = [
+  {t:'prepare', d:'run.py writes one in/&lt;id&gt;.json per unit of work: prompt, schema, meta, and a rendered page PNG for vision stages.',
+   term:'<span class="dimt">$</span> python3 run.py biology\n<span class="dimt">resources: 4 file(s), cutoff 2015</span>\n<span class="dimt">=== biology ===  11 years</span>'},
+  {t:'stop', d:'The cost preflight prices the stage in jobs, characters, images and estimated tokens. Over budget, it blocks until you pass --approve-cost. Otherwise it prints the request and exits.',
+   term:'<span class="hi">&gt;&gt;&gt; COST PREFLIGHT:</span> 12 jobs · 486k chars · 0 images\n<span class="hi">&gt;&gt;&gt; WORKER NEEDED:</span> 12 job(s) for stage \'segment\'\n&gt;&gt;&gt; dir: _data/agent/segment-biology\n&gt;&gt;&gt; cost tier: economy'},
+  {t:'work', d:'The pipeline-worker subagent reads every in/ job and writes out/&lt;same-name&gt;.json matching the schema. No API key, no network call from Python.',
+   term:'<span class="dimt"># subagent, cheapest model in the printed tier</span>\nin/2023-higher.json  <span class="hi">→</span>  out/2023-higher.json\nin/2022-higher.json  <span class="hi">→</span>  out/2022-higher.json\n<span class="dimt">…</span>'},
+  {t:'collect', d:'Re-run the exact same command. Answers are validated, failures are re-queued alone at the next tier up, and a clean stage is finalised and marked collected.',
+   term:'<span class="dimt">$</span> python3 run.py biology\n<span class="dimt">segment: collected 12/12</span>\n<span class="hi">&gt;&gt;&gt; WORKER NEEDED:</span> 41 job(s) for stage \'images\''},
+  {t:'or skip it entirely', d:'Answers are content-addressed by prompt, schema and image. An unchanged job is restored from cache with no worker at all, including across --restart.',
+   term:'<span class="dimt">$</span> python3 run.py biology --restart\nrestart: preserved 12 validated worker result(s)\n<span class="hi">[cache]</span> restored all 12 job(s) for \'segment\'\n<span class="dimt">— collecting without a worker</span>'},
+];
+
+const GATES = [
+  {n:'Resource contract', who:'resources.require_bundle', w:'All four bundle files must be present and valid or the run exits before downloading anything.', nums:['<b>4</b> required files','SystemExit on failure']},
+  {n:'Cost preflight', who:'cost_control.violations', w:'Every model stage is priced in provider-neutral units before a worker is ever requested. Over any cap, it blocks.', nums:['jobs ≤ <b>200</b>','chars ≤ <b>1,500,000</b>','image jobs ≤ <b>160</b>','tokens ≤ <b>1,000,000</b>']},
+  {n:'Output validation', who:'agent_bridge.pending', w:'A stage’s validate_output re-queues answers that exist but fail structurally, so a bad answer is re-requested rather than accepted silently.', nums:['max <b>2</b> attempts','then NEEDS HUMAN']},
+  {n:'Post-segment', who:'validate.post_segment', w:'Papers with stub question text or zero-mark parts are re-segmented at a higher tier; only retryable defect classes qualify.', nums:['question ≥ <b>12</b> chars','retries: <b>2</b>','answer length <b>0.35–2.5×</b> target']},
+  {n:'Publish', who:'validate.enforce + gate.blockers', w:'Quarantine, curated dedup, sample report, then the publish decision. Clean runs publish themselves; anything else stops for review.', nums:['quarantine ≤ <b>5%</b>','soft warnings ≤ <b>15%</b>','low-confidence tags ≤ <b>5</b>','coverage not flagged low']},
+];
+
+const FLAGS = [
+  ['--no-acquire','Do not download. Reuse the PDFs already in <code>_data/raw/&lt;subject&gt;</code>.'],
+  ['--no-images','Skip diagram cropping and crop verification (stages 7 and 7b).'],
+  ['--limit N','Cap papers at segment and figure candidates at images. The way to prove the loop cheaply.'],
+  ['--restart','Redo every derived model stage from a clean canonical store. Keeps PDFs, digests, resources, scaffold, and the answer cache.'],
+  ['--regen-scaffold','Rebuild <code>scaffold/&lt;subject&gt;.json</code> even though one exists.'],
+  ['--estimate-cost','Prepare and price the next worker stage, then stop. Requests nothing.'],
+  ['--approve-cost','Proceed past a hard budget violation, deliberately, after reading the report.'],
+  ['--merge','Publish anyway after the gate stopped the run. Read the sample first.'],
+  ['--no-merge','Validate, report, and stop short of touching <code>app.html</code>.'],
+  ['--max-jobs N  --max-prompt-chars N  --max-images N  --max-estimated-tokens N','Tighten or loosen an individual workload cap for this run.'],
+  ['--headful  --include-irish','Watch the archive form being driven; also pull the Irish-language versions.'],
+];
+
+/* ── spine + detail ───────────────────────────────────────────── */
+const spine = document.getElementById('spine');
+const detail = document.getElementById('detail');
+let selected = 0;
+
+STAGES.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.className = 'stage';
+  b.type = 'button';
+  b.setAttribute('role','tab');
+  b.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+  b.dataset.kind = s.kind;
+  b.dataset.id = s.id;
+  b.tabIndex = i === 0 ? 0 : -1;
+  b.innerHTML =
+    `<span class="num"><i></i>${s.num}</span>` +
+    `<span><span class="name">${s.name}</span> <span class="file">${s.file}</span></span>` +
+    `<span class="tier">${s.kind === 'model' ? 'worker' : s.kind === 'gate' ? 'gate' : 'python'}</span>` +
+    `<span class="one">${s.one}</span>`;
+  b.addEventListener('click', () => select(i));
+  spine.appendChild(b);
+});
+
+function tierRow(t){
+  if (!t) return '';
+  const rung = (k, label) => `<span class="rung ${t[k] ? (k==='economy'?'on':'') : 'na'}">${label}</span>`;
+  return `<div class="ladder"><span class="eyebrow">Cost ladder</span><div class="steps">
+    ${rung('economy','economy')}<span class="arrow-mini">→</span>
+    ${rung('standard','standard')}<span class="arrow-mini">→</span>
+    ${rung('premium','premium')}
+    </div></div>`;
+}
+
+function storeList(keys){
+  if (!keys || !keys.length) return '<span class="file" style="color:var(--muted)">none</span>';
+  return `<ul>${keys.map(k => `<li><button class="store" data-store="${k}">${S[k]}</button></li>`).join('')}</ul>`;
+}
+
+function select(i, scroll){
+  selected = i;
+  const s = STAGES[i];
+  [...spine.children].forEach((el, j) => {
+    el.setAttribute('aria-selected', j === i ? 'true' : 'false');
+    el.tabIndex = j === i ? 0 : -1;
+  });
+  detail.innerHTML = `<div class="detail-in">
+    <div class="kicker">
+      <span class="kind-tag ${s.kind}">${s.kind === 'model' ? 'model worker' : s.kind}</span>
+      <span class="eyebrow">${s.num}</span>
+    </div>
+    <h3>${s.name}</h3>
+    <p class="path">${s.file}</p>
+    <p class="body">${s.body}</p>
+    <div class="io">
+      <div class="io-row"><span class="lbl">Reads</span>${storeList(s.reads)}</div>
+      <div class="io-row"><span class="lbl">Writes</span>${storeList(s.writes)}</div>
+    </div>
+    ${tierRow(s.tiers)}
+    <div class="why">
+      <span class="eyebrow">Why it is built this way</span>
+      <p>${s.why}</p>
+      <ul class="guards">${s.guards.map(g => `<li>${g}</li>`).join('')}</ul>
+    </div>
+  </div>`;
+  detail.querySelectorAll('.store').forEach(btn =>
+    btn.addEventListener('click', () => flashStore(btn.dataset.store)));
+  if (scroll) {
+    spine.children[i].scrollIntoView({behavior:'smooth', block:'center'});
+    spine.children[i].focus();
+  }
+}
+
+spine.addEventListener('keydown', e => {
+  if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+  e.preventDefault();
+  const next = (selected + (e.key === 'ArrowDown' ? 1 : STAGES.length - 1)) % STAGES.length;
+  select(next);
+  spine.children[next].focus();
+});
+
+select(0);
+
+/* ── filter ───────────────────────────────────────────────────── */
+document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const f = chip.dataset.filter;
+    document.querySelectorAll('.chip[data-filter]').forEach(c =>
+      c.setAttribute('aria-pressed', c === chip ? 'true' : 'false'));
+    [...spine.children].forEach(el =>
+      el.classList.toggle('dim', f !== 'all' && el.dataset.kind !== f));
+  });
+});
+
+/* ── worker loop stepper ──────────────────────────────────────── */
+const stepsEl = document.getElementById('steps');
+const svg = document.getElementById('loopsvg');
+const term = document.getElementById('term');
+
+LOOP.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.className = 'step'; b.type = 'button';
+  b.setAttribute('aria-pressed', i === 0 ? 'true' : 'false');
+  b.innerHTML = `<span class="n">${String(i+1).padStart(2,'0')}</span>
+    <span><span class="t">${s.t}</span><span class="d">${s.d}</span></span>`;
+  b.addEventListener('click', () => step(i));
+  stepsEl.appendChild(b);
+});
+
+function step(i){
+  [...stepsEl.children].forEach((el, j) =>
+    el.setAttribute('aria-pressed', j === i ? 'true' : 'false'));
+  svg.classList.add('stepping');
+  svg.querySelectorAll('.g').forEach(g =>
+    g.classList.toggle('on', g.dataset.step.split(' ').includes(String(i+1))));
+  term.innerHTML = LOOP[i].term;
+}
+step(0);
+
+/* ── store map ────────────────────────────────────────────────── */
+const smap = document.getElementById('storemap');
+STORES.forEach(st => {
+  const key = Object.keys(S).find(k => S[k] === st.k);
+  const readers = STAGES.filter(s => (s.reads||[]).includes(key));
+  const writers = STAGES.filter(s => (s.writes||[]).includes(key));
+  const row = document.createElement('div');
+  row.className = 'store-row';
+  row.dataset.store = key;
+  const chips = (list) => list.map(s =>
+    `<button class="store" data-goto="${s.id}">${s.name}</button>`).join('');
+  row.innerHTML = `<div class="k">${st.k}<span>${st.d}</span></div>
+    <div class="v">
+      ${writers.length ? `<span class="tw">written by</span>${chips(writers)}` : ''}
+      ${readers.length ? `<span class="tw" style="margin-left:.4rem">read by</span>${chips(readers)}` : ''}
+      ${!writers.length && !readers.length ? '<span class="tw">terminal output</span>' : ''}
+    </div>`;
+  smap.appendChild(row);
+});
+smap.querySelectorAll('[data-goto]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const i = STAGES.findIndex(s => s.id === btn.dataset.goto);
+    document.getElementById('run').scrollIntoView({behavior:'smooth', block:'start'});
+    setTimeout(() => select(i, true), 420);
+  });
+});
+
+function flashStore(key){
+  const row = smap.querySelector(`[data-store="${key}"]`);
+  if (!row) return;
+  row.scrollIntoView({behavior:'smooth', block:'center'});
+  row.classList.add('hot');
+  setTimeout(() => row.classList.remove('hot'), 1600);
+}
+
+/* ── gates + flags ────────────────────────────────────────────── */
+const gl = document.getElementById('gatelist');
+GATES.forEach(g => {
+  const d = document.createElement('div');
+  d.className = 'gate-row';
+  d.innerHTML = `<div><h4>${g.n}</h4><p class="who">${g.who}</p></div>
+    <p class="what">${g.w}</p>
+    <div class="nums">${g.nums.map(n => `<span>${n}</span>`).join('')}</div>`;
+  gl.appendChild(d);
+});
+
+const fb = document.getElementById('flagbody');
+FLAGS.forEach(([f, d]) => {
+  const tr = document.createElement('tr');
+  tr.innerHTML = `<td>${f}</td><td>${d}</td>`;
+  fb.appendChild(tr);
+});
+</script>
+</body>
+</html>
