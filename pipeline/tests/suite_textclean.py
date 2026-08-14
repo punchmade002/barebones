@@ -213,5 +213,67 @@ def test_glyph_junk_is_detected_in_the_question_too():
     assert "glyph_junk" in tc.artifacts(part)
 
 
+# ── the pipeline stage ────────────────────────────────────────────────────────
+def _store(tmp, rows):
+    import json
+    (tmp / "sub.json").write_text(json.dumps(rows))
+
+
+def _with_store(rows, fn):
+    """Run fn() with config.CANONICAL pointed at a throwaway store containing `rows`."""
+    import json, shutil, tempfile
+    from pathlib import Path
+    import config
+    tmp = Path(tempfile.mkdtemp())
+    (tmp / "sub.json").write_text(json.dumps(rows))
+    original = config.CANONICAL
+    config.CANONICAL = tmp
+    try:
+        return fn()
+    finally:
+        config.CANONICAL = original
+        shutil.rmtree(tmp)
+
+
+def _row(model, source="scheme", question="A question of entirely adequate length."):
+    return {"id": "sub-q1", "parts": [{"label": "(a)", "question": question, "marks": 10,
+                                       "model": model, "model_source": source}]}
+
+
+def test_backfill_counts_defects_before_and_after():
+    rows = [_row("4 points @ 6 marks each \nEnergy in excess of output. \n\n(c)")]
+    stats = _with_store(rows, lambda: tc.backfill("sub"))
+    assert stats["before"]["scheme_markup"] == 1
+    assert stats["after"] == {}, "the repair must clear what it counted"
+    assert stats["answers_changed"] == 1
+
+
+def test_backfill_clears_a_bookkeeping_only_answer_for_reauthoring():
+    """model_source must go too, or model_answers.py will not pick the part up."""
+    rows = [_row("(Name = 4 marks; 2 sources @ 2 marks each)")]
+    stats = _with_store(rows, lambda: tc.backfill("sub"))
+    assert stats["emptied"] == 1 and stats["emptied_ids"] == ["sub-q1#0"]
+
+
+def test_backfill_does_not_strip_markup_from_authored_answers():
+    """An ai-h1 answer gets whitespace repair only — never the marking-scheme rules."""
+    text = "The scheme awards 3 marks for each named source of dietary iron."
+    rows = [_row(text, source="ai-h1")]
+    stats = _with_store(rows, lambda: tc.backfill("sub"))
+    assert stats["answers_changed"] == 0
+
+
+def test_backfill_on_a_missing_store_is_not_an_error():
+    """run.py calls repair() unconditionally, before it knows whether anything was segmented."""
+    assert tc.backfill("no-such-subject") == {}
+    assert tc.repair("no-such-subject") == {}
+
+
+def test_a_clean_store_needs_no_repair():
+    rows = [_row("Sensory preferences such as colour and flavour; culture; religion.")]
+    stats = _with_store(rows, lambda: tc.backfill("sub"))
+    assert stats["before"] == {} and stats["answers_changed"] == 0
+
+
 TESTS = [(n[5:], f) for n, f in sorted(globals().items())
          if n.startswith("test_") and callable(f)]

@@ -92,9 +92,17 @@ combined call lost ~20% of question text that way). `schemes` then reads only th
 and copies each part's official answer back by part id; `answers` writes H1 answers for whatever
 the scheme didn't cover.
 
+**Text repair.** After the model stages and before the gate, `run.py` calls `textclean.repair(subject)`: marking-scheme mark allocations, part labels bled in by PDF table
+extraction, preserved PDF hard-wrapping and Symbol/Wingdings glyphs are all removed deterministically. No model calls, idempotent, so it runs unconditionally — a run must never
+be blocked by a defect the pipeline can fix itself. `python3 textclean.py <subject> --apply` does
+the same to an already-built store.
+
 **Validation gate (reform C/D/G).** After segment, `validate.post_segment` re-segments any paper
 with stub question text or zero-mark parts (up to `SEGMENT_RETRY_ATTEMPTS`, selectively escalated); leftovers are
-quarantined. Before merge, `validate.enforce` drops any remaining stub parts to
+quarantined — only defects re-segmentation can actually fix (`validate.RETRYABLE`) trigger that,
+since re-reading the question paper cannot repair a marking-scheme artefact and re-running every
+affected paper through the final model would cost a great deal and change nothing.
+Before merge, `validate.enforce` drops any remaining stub parts to
 `_data/canonical/<subject>.quarantine.json`, writes `_data/reports/validate-<subject>.json` and a
 human `sample-<subject>.md`, and `run.py` STOPS — merge happens only when you re-run with `--merge`.
 

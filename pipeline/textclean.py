@@ -281,7 +281,7 @@ def backfill(subject: str, apply: bool = False) -> dict:
     from config import CANONICAL
     path = CANONICAL / f"{subject}.json"
     if not path.exists():
-        raise SystemExit(f"no canonical store for {subject}")
+        return {}                                     # nothing segmented yet; not an error
     canonical = json.loads(path.read_text())
 
     stats = {"subject": subject, "parts": 0, "answers_changed": 0, "questions_changed": 0,
@@ -327,6 +327,38 @@ def backfill(subject: str, apply: bool = False) -> dict:
         import segment
         stats["rendered"] = segment.render_js(subject, canonical).name
         _backfill_flashcards(subject, stats)
+    return stats
+
+
+def repair(subject: str) -> dict:
+    """The pipeline stage. Runs after the model stages and before the validation gate.
+
+    It exists because the per-edge wiring cannot cover everything on its own: digests built
+    before this module normalised glyphs still carry them, model_answers.py and flashcards.py
+    write text this module never sees, and a re-run of an older store would otherwise reach the
+    gate dirty and BLOCK on a defect the pipeline is perfectly capable of fixing itself.
+
+    Free and idempotent, so it runs unconditionally rather than behind a flag — a stage that has
+    to be remembered is a stage that gets forgotten on the one run that needed it.
+    """
+    stats = backfill(subject, apply=True)
+    if not stats:
+        return stats
+    fixed = sum(stats["before"].values())
+    if not (fixed or stats["answers_changed"] or stats["questions_changed"]):
+        print("[textclean] no text defects — nothing to repair")
+        return stats
+    left = sum(stats["after"].values())
+    detail = ", ".join(f"{k} {v}" for k, v in sorted(stats["before"].items(), key=lambda kv: -kv[1]))
+    print(f"[textclean] repaired {stats['answers_changed']} answer(s) and "
+          f"{stats['questions_changed']} question(s) — {detail}"
+          + (f"; {stats['pua_removed']} glyph(s) normalised" if stats["pua_removed"] else ""))
+    if stats["emptied"]:
+        print(f"[textclean] {stats['emptied']} answer(s) were marking-scheme bookkeeping only and "
+              f"were cleared — re-run to have model_answers.py author them")
+    if left:
+        print(f"[textclean] {left} defect(s) could not be repaired automatically — the gate will "
+              f"report them")
     return stats
 
 
