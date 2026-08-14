@@ -164,6 +164,7 @@ def main() -> None:
     import schemes
     import model_answers
     import flashcards
+    import textclean
     import validate
     import merge
 
@@ -245,7 +246,14 @@ def main() -> None:
             continue
         _request_worker(subject, name, stage, pend, args); return
 
-    # All model stages done — VALIDATION GATE before anything reaches the app (reform C/G).
+    # All model stages done. Repair the mechanical text defects BEFORE the gate judges the run:
+    # marking-scheme markup, bled part labels, PDF hard-wrapping and font-encoded glyphs. This is
+    # pure Python and idempotent, so it is unconditional — and it must come first, or the gate
+    # blocks a run on defects the pipeline could have fixed itself without a single model call.
+    print("\n=== TEXT REPAIR ===")
+    textclean.repair(subject)
+
+    # VALIDATION GATE before anything reaches the app (reform C/G).
     gate = validate.enforce(subject)
     print(f"\n=== VALIDATION GATE ===")
     print(f"quarantined {gate['dropped_parts']} stub part(s) / {gate['dropped_questions']} question(s) "
