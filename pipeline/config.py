@@ -215,13 +215,23 @@ def recommended_words(subject: str, marks: int, points: int | None = None) -> in
 
 def cutoff_for(subject: str) -> tuple[int, bool]:
     """Return (cutoff_year, is_verified). Prefer a cutoff read from the subject's resource bundle
-    (resources.py caches it); else the SYLLABUS_CUTOFF table; else DEFAULT_CUTOFF (unverified)."""
+    (resources.py caches it); else the SYLLABUS_CUTOFF table; else DEFAULT_CUTOFF (unverified).
+
+    A bundle cutoff in the FUTURE is ignored. Bundles increasingly describe a Senior Cycle
+    Redevelopment spec that is published but not yet examined (geography's says
+    firstExamYear 2028), and taking it literally makes relevant_years() empty — the run then
+    downloads nothing and crashes. Papers only exist for the syllabus being examined today,
+    so fall back to the table for those subjects.
+    """
     meta = RESOURCE_CACHE / f"{subject}.meta.json"
     if meta.exists():
         try:
             d = _json.loads(meta.read_text())
-            if d.get("cutoff"):
+            if d.get("cutoff") and int(d["cutoff"]) <= CURRENT_YEAR:
                 return int(d["cutoff"]), True        # bundle-derived = authoritative
+            if d.get("cutoff"):
+                print(f"note: {subject} resource bundle states first exam year {d['cutoff']}, "
+                      f"which has not happened yet — using the SYLLABUS_CUTOFF table instead.")
         except Exception:
             pass
     if subject in SYLLABUS_CUTOFF:

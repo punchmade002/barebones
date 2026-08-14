@@ -1,0 +1,39 @@
+{
+  "subject": "geography",
+  "field": "Leaving Certificate Geography (current syllabus, first examined 2006)",
+  "note": "One paper per level. Part One is 12 short questions (answer 10) covering OS maps, aerial photographs, weather charts, graphs/tables and general topics — tag each short question to the chapter its content belongs to, not to a catch-all. Part Two Section 1 is physical geography, Section 2 is regional geography, Section 3 is the two electives (Economic Activities Q7-Q9, Human Environment Q10-Q12), and Section 4 is the Higher-Level-only options (Q13-Q18). Ordinary Level papers have no Section 4. Tag by the topic actually examined; a question that asks for a case study still belongs to the topic chapter, not to a 'case study' chapter.",
+  "sections": [
+    { "id": "geo-part1", "title": "Part One — Short Questions (100)" },
+    { "id": "geo-section1", "title": "Section 1 — Patterns and Processes in the Physical Environment (80)" },
+    { "id": "geo-section2", "title": "Section 2 — Regional Geography (80)" },
+    { "id": "geo-section3", "title": "Section 3 — Electives: Economic Activities / The Human Environment (80)" },
+    { "id": "geo-section4", "title": "Section 4 — Options, Higher Level only (100)" }
+  ],
+  "chapters": [
+    { "id": "geo-plate-tectonics", "title": "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries" },
+    { "id": "geo-volcanoes-earthquakes", "title": "Volcanic and Earthquake Activity" },
+    { "id": "geo-rocks-weathering", "title": "Rocks, Weathering and Mass Movement" },
+    { "id": "geo-glaciation", "title": "Glaciation — Glacial Processes, Landforms and Isostasy" },
+    { "id": "geo-rivers", "title": "Rivers — Fluvial Processes and Landforms" },
+    { "id": "geo-sea", "title": "The Sea at Work — Coastal Processes and Landforms" },
+    { "id": "geo-aerial-photographs", "title": "Aerial Photographs — Interpretation, Location, Sketch Maps and Land Use" },
+    { "id": "geo-mapwork", "title": "Ordnance Survey Mapwork and the Geographical Investigation" },
+    { "id": "geo-weather-climate", "title": "Weather and Climate — Weather Maps and Satellite Imagery" },
+    { "id": "geo-graph-skills", "title": "Tables, Graphs and Data Skills" },
+    { "id": "geo-region-concept", "title": "The Concept of a Region — Defining and Classifying Regions" },
+    { "id": "geo-region-ireland", "title": "Irish Regions — Core and Peripheral" },
+    { "id": "geo-region-european", "title": "European Regions — Core, Peripheral and Complexity of Regions" },
+    { "id": "geo-region-continental", "title": "A Continental / Subcontinental Region" },
+    { "id": "geo-economic-development", "title": "Economic Development — Measuring Development and the Distribution of Wealth" },
+    { "id": "geo-economic-activities", "title": "Primary, Secondary and Tertiary Economic Activities" },
+    { "id": "geo-economic-environment", "title": "Economic Activity and Environmental Impact" },
+    { "id": "geo-economic-eu", "title": "Ireland and the European Union" },
+    { "id": "geo-economic-globalisation", "title": "The Global Economy — Multinationals and Globalisation" },
+    { "id": "geo-population-migration", "title": "Population Dynamics, Overpopulation and Migration" },
+    { "id": "geo-urban", "title": "Urban Geography — Settlement, Urban Land Use, Planning and Urban Problems" },
+    { "id": "geo-option-atmosphere-ocean", "title": "Option — The Atmosphere-Ocean Environment" },
+    { "id": "geo-option-culture-identity", "title": "Option — Culture and Identity" },
+    { "id": "geo-option-geoecology", "title": "Option — Geoecology (Soils and Biomes)" },
+    { "id": "geo-option-global-interdependence", "title": "Option — Global Interdependence" }
+  ]
+}
