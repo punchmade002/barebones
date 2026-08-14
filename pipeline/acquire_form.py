@@ -44,6 +44,12 @@ VIEW_TYPES = {"exampapers": "papers", "markingschemes": "scheme"}   # -> short t
 ROW_RE = re.compile(r"(Higher|Ordinary)\s+Level\s+\((EV|IV)\)", re.I)
 PAPER_RE = re.compile(r"Paper\s*(\d)", re.I)   # multi-paper subjects (Maths, English, Irish…)
 SECTION_RE = re.compile(r"Section\s*(A|B\s*&\s*C)", re.I)  # split Home Economics papers
+# Geography publishes "Part One and Answerbook" and "Part Two" as two separate rows for the SAME
+# level. Neither matches PAPER_RE nor SECTION_RE, so both used to be tagged paper="" — which made
+# them collide on one destination filename and let seen_destinations silently drop Part Two. That
+# is 320 of the paper's 400 marks. Treat a Part label as a paper component like Paper 1/2.
+PART_RE = re.compile(r"\bPart\s+(One|Two|Three|1|2|3)\b", re.I)
+_PART_NUM = {"one": "1", "two": "2", "three": "3", "1": "1", "2": "2", "3": "3"}
 
 
 def _select(page, field: str, *, value: str | None = None, label: str | None = None) -> bool:
@@ -144,10 +150,13 @@ def discover_and_download(subject: str, headful: bool, include_irish: bool,
                             continue
                         pm = PAPER_RE.search(row_txt or "")   # "Paper 1"/"Paper 2" if present
                         sm = SECTION_RE.search(row_txt or "")
+                        rm = PART_RE.search(row_txt or "")     # "Part One"/"Part Two" (Geography)
                         if pm:
                             paper = pm.group(1)
                         elif sm:
                             paper = "A" if sm.group(1).upper() == "A" else "BC"
+                        elif rm:
+                            paper = _PART_NUM[rm.group(1).lower()]
                         else:
                             paper = ""
                         href = a.get_attribute("href")
