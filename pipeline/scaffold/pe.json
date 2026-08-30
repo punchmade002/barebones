@@ -1,0 +1,85 @@
+{
+  "subject": "pe",
+  "field": "Physical performance, participation and contemporary issues in sport and physical activity.",
+  "note": "Tag by the main syllabus topic; use the physical activity areas chapter when a question is chiefly about an activity context or its techniques.",
+  "sections": [
+    {
+      "id": "pe-section-a",
+      "title": "Section A — Short Questions"
+    },
+    {
+      "id": "pe-section-b",
+      "title": "Section B — Case Study"
+    },
+    {
+      "id": "pe-section-c",
+      "title": "Section C — Extended Questions"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "pe-learning-skill-technique",
+      "title": "Learning and Improving Skill and Technique"
+    },
+    {
+      "id": "pe-performance-demands",
+      "title": "Physical and Psychological Demands of Performance"
+    },
+    {
+      "id": "pe-structures-strategies-roles-conventions",
+      "title": "Structures, Strategies, Roles and Conventions"
+    },
+    {
+      "id": "pe-planning-optimum-performance",
+      "title": "Planning for Optimum Performance"
+    },
+    {
+      "id": "pe-promoting-physical-activity",
+      "title": "Promoting Physical Activity"
+    },
+    {
+      "id": "pe-ethics-fair-play",
+      "title": "Ethics and Fair Play"
+    },
+    {
+      "id": "pe-physical-activity-inclusion",
+      "title": "Physical Activity and Inclusion"
+    },
+    {
+      "id": "pe-technology-media-sport",
+      "title": "Technology, Media and Sport"
+    },
+    {
+      "id": "pe-gender-physical-activity",
+      "title": "Gender and Physical Activity"
+    },
+    {
+      "id": "pe-business-enterprise-sport",
+      "title": "Business and Enterprise in Physical Activity and Sport"
+    },
+    {
+      "id": "pe-adventure-activities",
+      "title": "Adventure Activities"
+    },
+    {
+      "id": "pe-aquatics",
+      "title": "Aquatics"
+    },
+    {
+      "id": "pe-artistic-aesthetic-movement",
+      "title": "Artistic and Aesthetic Movement"
+    },
+    {
+      "id": "pe-athletics",
+      "title": "Athletics"
+    },
+    {
+      "id": "pe-games",
+      "title": "Games"
+    },
+    {
+      "id": "pe-personal-exercise-fitness",
+      "title": "Personal Exercise and Fitness Activities"
+    }
+  ]
+}
