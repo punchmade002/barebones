@@ -208,6 +208,24 @@ code, .m{font:500 .86em/1.5 var(--mono); background:var(--panel-2); border:1px s
 .tw{font:600 .66rem/1 var(--mono); letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin-right:.15rem}
 .store-row.hot{background:var(--accent-wash)}
 
+/* ── beside the run ──────────────────────────────────────────── */
+.aside{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,21rem),1fr)); gap:clamp(1.6rem,3vw,3rem)}
+.mod-group > .eyebrow{display:block; padding-bottom:.7rem; border-bottom:1px solid var(--line)}
+.mod{display:grid; gap:.2rem; padding:.85rem 0; border-bottom:1px solid var(--line-soft)}
+.mod b{font:600 .82rem/1.5 var(--mono); color:var(--ink); overflow-wrap:anywhere}
+.mod span{font-size:.865rem; color:var(--muted)}
+
+/* ── publish-gate checks ─────────────────────────────────────── */
+.sub-h{font-size:1.15rem; margin:3.4rem 0 .5rem}
+.checks{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr)); gap:0 clamp(1.5rem,3vw,3rem); border-top:1px solid var(--line)}
+.check{display:grid; grid-template-columns:4.1rem minmax(0,1fr); gap:.75rem; align-items:baseline; padding:.75rem .2rem; border-bottom:1px solid var(--line-soft)}
+.sev{font:600 .62rem/1 var(--mono); letter-spacing:.09em; padding:.36rem .3rem; border-radius:5px; text-align:center}
+.sev.block{background:var(--gate-wash); color:var(--gate)}
+.sev.warn{background:var(--accent-wash); color:var(--accent-strong)}
+.sev.info{background:var(--det-wash); color:var(--det)}
+.check .cn{font:600 .8rem/1.5 var(--mono); color:var(--ink)}
+.check .cd{display:block; font-size:.855rem; color:var(--muted); margin-top:.1rem}
+
 /* ── gates ───────────────────────────────────────────────────── */
 .gates{display:grid; gap:0; border-top:1px solid var(--line)}
 .gate-row{display:grid; grid-template-columns:minmax(0,15rem) minmax(0,1fr) minmax(0,15rem); gap:1.4rem; padding:1.15rem .2rem; border-bottom:1px solid var(--line-soft)}
@@ -244,7 +262,7 @@ footer{padding:3rem 0 4rem; color:var(--muted); font-size:.85rem; border-top:1px
     <div>
       <p class="eyebrow">bare bones · pipeline/</p>
       <h1>Free SEC exam PDFs<br>to <em>playable content</em>.</h1>
-      <p class="lede">Fourteen steps take a subject from the examinations.ie archive to questions, model answers, diagrams and flashcards wired into <code>app.html</code>. Nine of them are plain Python. Five need a model, and none of them hold an API key.</p>
+      <p class="lede">Fourteen steps take a subject from the examinations.ie archive to questions, model answers, diagrams and flashcards wired into <code>app.html</code>. Seven need a model worker, four are plain Python, three are gates, and not one of them holds an API key.</p>
     </div>
     <div class="facts">
       <div><span>orchestrator</span><b>run.py</b></div>
@@ -252,6 +270,7 @@ footer{padding:3rem 0 4rem; color:var(--muted); font-size:.85rem; border-top:1px
       <div><span>api keys</span><b>none</b></div>
       <div><span>re-runnable</span><b>every stage</b></div>
       <div><span>publishes to</span><b>app.html</b></div>
+      <div><span>test suite</span><b>153 passing</b></div>
     </div>
   </div>
 </header>
@@ -419,15 +438,33 @@ footer{padding:3rem 0 4rem; color:var(--muted); font-size:.85rem; border-top:1px
 
 <hr class="rule">
 
+<!-- ═══ BESIDE THE RUN ════════════════════════════════════════ -->
+<section id="aside">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">04</p>
+      <h2>Beside the run</h2>
+    </div>
+    <p class="sec-note">Nine modules never appear in <code>run.py</code>&rsquo;s stage list, and the pipeline does not work without them. One is a hand-authored contract the publish gate blocks on. One is a worker stage you invoke yourself. The rest are the machinery the stages sit on, plus the repair commands for stores that already shipped.</p>
+    <div class="aside" id="asidegrid"></div>
+  </div>
+</section>
+
+<hr class="rule">
+
 <!-- ═══ GATES ═════════════════════════════════════════════════ -->
 <section id="gates">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">04</p>
-      <h2>Five places it refuses to continue</h2>
+      <p class="eyebrow">05</p>
+      <h2>Where it refuses to continue</h2>
     </div>
     <p class="sec-note">A file existing is not proof its contents are good. These are the checks between the model and the student, with the constants they read from <code>config.py</code>.</p>
     <div class="gates" id="gatelist"></div>
+
+    <h3 class="sub-h">Then the publish gate&rsquo;s sixteen checks</h3>
+    <p class="sec-note"><code>gate.blockers()</code> is the list of BLOCK findings; <code>merge.run</code> refuses on any one of them. WARN and INFO are printed and survive.</p>
+    <div class="checks" id="checklist"></div>
   </div>
 </section>
 
@@ -437,7 +474,7 @@ footer{padding:3rem 0 4rem; color:var(--muted); font-size:.85rem; border-top:1px
 <section id="flags">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">05</p>
+      <p class="eyebrow">06</p>
       <h2>Driving it</h2>
     </div>
     <p class="sec-note">The <code>/run-pipeline</code> skill runs the whole loop for you. By hand it is the same command re-invoked until it prints <code>PIPELINE COMPLETE</code>.</p>
@@ -460,9 +497,11 @@ python3 run.py biology                  <span class="dimt"># advance one model s
 /* ── data ─────────────────────────────────────────────────────── */
 const S = {
   bundle:  'pipeline/resources/&lt;subject&gt;/',
+  examinfo:'pipeline/exam-info/&lt;subject&gt;.json',
   corpus:  '_data/resources/',
   raw:     '_data/raw/&lt;subject&gt;/',
   digest:  '_data/digest/&lt;subject&gt;/',
+  extracted:'_data/extracted/',
   scaffold:'scaffold/&lt;subject&gt;.json',
   jobs:    '_data/agent/&lt;stage&gt;/',
   cache:   '_data/agent-cache-v1/',
@@ -473,6 +512,7 @@ const S = {
   reports: '_data/reports/',
   root:    '&lt;subject&gt;-exam-questions.js',
   cards:   '&lt;subject&gt;-flashcards.js',
+  infojs:  '&lt;subject&gt;-exam-info.js',
   app:     'app.html',
   curated: 'exam-questions-db.js',
 };
@@ -598,19 +638,21 @@ const STAGES = [
 {
   id:'merge', num:'Stage 8', kind:'gate', name:'Merge', file:'merge.py  ·  gate.py',
   one:'Apply the publish blockers, copy the JS to the repo root and wire it into the app.',
-  body:'<code>gate.py</code> runs a second set of checks on top of validation: ids, part labels, AI-answer share, years that no paper was acquired for, diagram audit, flashcard duplicates and budgets, coverage, and a regression check against the previous snapshot. Only then are the two generated files copied out and script tags added to <code>app.html</code>.',
-  reads:['gen','images'], writes:['root','cards','app'],
+  body:'<code>gate.py</code> runs sixteen further checks on top of validation (all of them listed below). Only then are the three generated files copied to the repo root: questions, flashcards, and the exam-info record rendered from <code>pipeline/exam-info/&lt;subject&gt;.json</code>. Script tags are wired into <code>app.html</code> for whichever of them exist.',
+  reads:['gen','images','examinfo'], writes:['root','cards','infojs','app'],
   tiers:null,
   why:'Merge is additive only. It appends via <code>EXAM_QUESTIONS_DB.concat(...)</code> and <code>Object.assign(FLASHCARDS_DB, ...)</code>, and never edits a hand-curated file.',
-  guards:['A blocker means nothing is written, and the run says NOT PUBLISHED rather than PIPELINE COMPLETE.','It does overwrite the two root <code>&lt;subject&gt;-*.js</code> files in place. For a subject with hand-curated files of the same name, use <code>--no-merge</code> and diff first.']
+  guards:['A blocker means nothing is written, and the run says NOT PUBLISHED rather than PIPELINE COMPLETE.','An incomplete <code>exam-info</code> record is itself a blocker, so a subject can never publish the empty Exam Info shell Home Economics once shipped.','It does overwrite the root <code>&lt;subject&gt;-*.js</code> files in place. For a subject with hand-curated files of the same name, use <code>--no-merge</code> and diff first.']
 },
 ];
 
 const STORES = [
   {k:S.bundle,  d:'Contract input, checked in. Four required files per subject.'},
+  {k:S.examinfo,d:'Reviewed exam structure and timings. Hand-authored, never generated.'},
   {k:S.corpus,  d:'Pooled corpus and bundle-derived syllabus cutoff.'},
   {k:S.raw,     d:'Downloaded PDFs: papers and marking schemes, HL and OL.'},
   {k:S.digest,  d:'Paired paper + scheme page text, plus a coverage index.'},
+  {k:S.extracted,d:'Per-page text and PNGs from the legacy extract.py path.'},
   {k:S.scaffold,d:'Section and chapter tree every question is tagged against.'},
   {k:S.jobs,    d:'The worker bridge: in/ jobs, out/ answers, per stage.'},
   {k:S.cache,   d:'Content-addressed answers. Survives --restart.'},
@@ -621,6 +663,7 @@ const STORES = [
   {k:S.reports, d:'Manifests, segment/figure/answer reports, sample-&lt;subject&gt;.md.'},
   {k:S.root,    d:'Live: additive question bank loaded by the app.'},
   {k:S.cards,   d:'Live: additive flashcard bank loaded by the app.'},
+  {k:S.infojs,  d:'Live: the exam structure the Exam Info modal reads.'},
   {k:S.app,     d:'Script tags wired in. The subject is now playable.'},
   {k:S.curated, d:'Hand-curated, never written by the pipeline. Read for dedup.'},
 ];
@@ -644,6 +687,51 @@ const GATES = [
   {n:'Output validation', who:'agent_bridge.pending', w:'A stage’s validate_output re-queues answers that exist but fail structurally, so a bad answer is re-requested rather than accepted silently.', nums:['max <b>2</b> attempts','then NEEDS HUMAN']},
   {n:'Post-segment', who:'validate.post_segment', w:'Papers with stub question text or zero-mark parts are re-segmented at a higher tier; only retryable defect classes qualify.', nums:['question ≥ <b>12</b> chars','retries: <b>2</b>','answer length <b>0.35–2.5×</b> target']},
   {n:'Publish', who:'validate.enforce + gate.blockers', w:'Quarantine, curated dedup, sample report, then the publish decision. Clean runs publish themselves; anything else stops for review.', nums:['quarantine ≤ <b>5%</b>','soft warnings ≤ <b>15%</b>','low-confidence tags ≤ <b>5</b>','coverage not flagged low']},
+];
+
+const MODS = [
+ {g:'Load-bearing, off the stage list', items:[
+  ['exam_info.py','A reviewed record per subject at <code>pipeline/exam-info/&lt;subject&gt;.json</code>: total marks, total minutes, a timing note, and the section breakdown. Small and authoritative, so it is written by hand rather than generated. <code>merge.py</code> renders it; <code>gate.py</code> blocks publication on an incomplete one.'],
+  ['retag.py','A worker stage you run yourself after editing a scaffold: <code>python3 retag.py &lt;subject&gt;</code>, then <code>retag.py &lt;subject&gt; collect</code>. Ids, wording, marks, source pages, answers and diagrams stay untouched; only <code>chapterId</code> and <code>tag_confidence</code> change. <code>--review</code> runs the same pass over the low-confidence bucket.'],
+  ['ids.py','Question ids are unique by construction, never assumed from the inputs. The old <code>{subject}-pp-{year}-{LV}-{label}</code> scheme collapsed 1,752 History questions onto 587 ids, so two thirds of the store was unreachable and the answer and diagram stages wrote onto whichever row happened to be last.'],
+  ['retrieval.py','BM25 over the resource bundle, chunked at 900 characters with 150 of overlap. Context size is the pipeline&rsquo;s main cost lever, and this is what decides which 3k or 6k a job actually sees.'],
+  ['agent_bridge.py','The file bridge itself: job preparation, the content-addressed cache, per-job attempt counts, and the pending / needs-human accounting the loop runs on.'],
+  ['cost_control.py','Prices a stage in jobs, prompt characters, image inputs and estimated tokens before a worker is requested. Provider-neutral by design: the limit holds whether the worker is Claude, ChatGPT, a local model, or a person.'],
+  ['curated.py','Reads the hand-curated <code>exam-questions-db.js</code> by tolerant regex and drops any generated question whose normalised text signature matches.'],
+  ['config.py','Paths, subjects, syllabus cutoffs, figure regexes, retrieval budgets, model routing, and every threshold on this page.'],
+ ]},
+ {g:'Repair commands', items:[
+  ['textclean.py &lt;subject&gt; --apply','Backfill the deterministic text repair onto a store that already shipped.'],
+  ['crop_cleanup.py &lt;subject&gt;','Re-cut legacy crops made with the old 3% padding, using PDF text coordinates so it never cuts through ink.'],
+  ['recrop.py','Apply reviewed replacement bounding boxes and re-queue their crop-verification jobs. Old crops are archived, not deleted.'],
+  ['migrate_ids.py &lt;subject&gt;','Re-issue unique ids on an existing store (id scheme v1 to v2). <code>--dry-run</code> reports and writes nothing.'],
+  ['gate.py &lt;subject&gt; --snapshot','Record the current store as the baseline the regression check compares future runs against.'],
+  ['tests/run_tests.py','15 suites, 153 passing: acquire, ids, segment, retag, schemes, answers, textclean, validate, gate, images, exam_info, flashcards, resources, retrieval, cost.'],
+ ]},
+ {g:'Legacy, kept as fallback', items:[
+  ['acquire.py','Direct-URL enumeration by subject code, for the old static <code>/archive/exampapers/</code> paths. The form path replaced it.'],
+  ['extract.py','Generic PDF to per-page text and PNG, writing <code>_data/extracted/</code>. The paired digest superseded it.'],
+  ['stages_3to8.py','The original typed contract stubs, and the <code>Question</code>/<code>Part</code> record shape everything still converges on.'],
+ ]},
+];
+
+const CHECKS16 = [
+ ['block','store','No canonical store for the subject. Nothing else can run meaningfully.'],
+ ['block','question-ids','Duplicate question ids. Names the fix: <code>migrate_ids.py</code>.'],
+ ['warn','part-labels','A question repeats a part label. The app addresses parts positionally so nothing breaks, but it usually means the model merged or split parts wrongly.'],
+ ['block','parts','Placeholder or empty parts that survived the validation gate.'],
+ ['block','ai-share','More than 40% of answers are <code>ai-h1</code>. Usually a symptom of upstream segmentation failure, not of hard questions.'],
+ ['block','years','Questions attributed to a year no paper was ever acquired for.'],
+ ['block','sources','A source line that does not read <code>LC &lt;Display Name&gt; &lt;Level&gt; &lt;Year&gt;</code>. Catches <code>.capitalize()</code> mangling such as &ldquo;LC Home-economics&rdquo;.'],
+ ['block','exam-info','The exam-info record is missing or incomplete.'],
+ ['block','diagrams','A part references a diagram file that does not exist on disk. Also reports the total that carry one.'],
+ ['block','figure-audit','Five separate reconciliations: no inspection report, parts never inspected, unresolved or reviewable crops, crops lacking context-aware QA, and parts whose wording names a supplied visual but carry no diagram.'],
+ ['warn','text-artifacts','Raw PDF or marking-scheme text in an answer. WARN while it is a minority since <code>textclean --apply</code> clears it for free; BLOCK past 25%, where the subject is mostly raw PDF.'],
+ ['block','flashcards','A card with an empty term or definition. WARN instead when there is no flashcard store at all.'],
+ ['warn','card-duplicates','The same term across chapters, which per-chapter dedup cannot see. BLOCK past 5% of the deck.'],
+ ['info','card-budget','Deck size, and any chapter outside the 12&ndash;45 band. Never a block: a hard cap would push the generator to drop content to hit a number.'],
+ ['warn','coverage','A scaffold chapter with no questions. Either the scaffold is wrong or segmentation missed a topic.'],
+ ['block','regression','More than 10% content loss against the recorded baseline. This is the check that protects live content: every absolute threshold passes happily while a run quietly halves the deck.'],
 ];
 
 const FLAGS = [
@@ -793,7 +881,7 @@ STORES.forEach(st => {
     <div class="v">
       ${writers.length ? `<span class="tw">written by</span>${chips(writers)}` : ''}
       ${readers.length ? `<span class="tw" style="margin-left:.4rem">read by</span>${chips(readers)}` : ''}
-      ${!writers.length && !readers.length ? '<span class="tw">terminal output</span>' : ''}
+      ${!writers.length && !readers.length ? '<span class="tw">outside the run</span>' : ''}
     </div>`;
   smap.appendChild(row);
 });
@@ -814,6 +902,24 @@ function flashStore(key){
 }
 
 /* ── gates + flags ────────────────────────────────────────────── */
+const ag = document.getElementById('asidegrid');
+MODS.forEach(group => {
+  const d = document.createElement('div');
+  d.className = 'mod-group';
+  d.innerHTML = `<span class="eyebrow">${group.g}</span>` + group.items.map(([n, t]) =>
+    `<div class="mod"><b>${n}</b><span>${t}</span></div>`).join('');
+  ag.appendChild(d);
+});
+
+const cl = document.getElementById('checklist');
+CHECKS16.forEach(([sev, name, desc]) => {
+  const d = document.createElement('div');
+  d.className = 'check';
+  d.innerHTML = `<span class="sev ${sev}">${sev.toUpperCase()}</span>
+    <span><span class="cn">${name}</span><span class="cd">${desc}</span></span>`;
+  cl.appendChild(d);
+});
+
 const gl = document.getElementById('gatelist');
 GATES.forEach(g => {
   const d = document.createElement('div');
