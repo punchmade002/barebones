@@ -2195,12 +2195,21 @@ function buildFullNotesHtml(chapter) {
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes) && source.learningOutcomes.length) {
     // If chapter.id is an LO id (not the chapter's own id), show only that LO's notes.
-    const losToShow = source.id === chapter.id
+    const requestedOutcomes = source.id === chapter.id
       ? source.learningOutcomes
       : source.learningOutcomes.filter((lo) => lo.id === chapter.id);
-    return (losToShow.length ? losToShow : source.learningOutcomes)
+    // Several subjects intentionally store complete, consolidated chapter notes on
+    // their first outcome while retaining the remaining curriculum outcomes as shells.
+    // Empty shells are structure, not missing study material, so do not render a wall
+    // of misleading "No notes for this outcome" messages after the real notes.
+    const populatedOutcomes = (requestedOutcomes.length ? requestedOutcomes : source.learningOutcomes)
+      .filter((lo) => (lo.notes || []).length || (lo.keyTerms || []).length);
+    if (populatedOutcomes.length) return populatedOutcomes
       .map((lo) => {
-        const noteHtml = (lo.notes || [])
+        const points = (lo.notes || []).length
+          ? lo.notes
+          : (lo.keyTerms || []).map((point) => ({ h: point.term, b: point.definition }));
+        const noteHtml = points
           .map(
             (n) => `
               <div class="note-block">
@@ -2212,7 +2221,7 @@ function buildFullNotesHtml(chapter) {
         return `
           <section class="lo-block">
             <h4>${escapeHtml(lo.code || "")} ${escapeHtml(lo.title || "")}</h4>
-            ${noteHtml || "<p class='muted'>No notes for this outcome.</p>"}
+            ${noteHtml}
           </section>`;
       })
       .join("");
