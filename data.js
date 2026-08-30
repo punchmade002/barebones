@@ -659,8 +659,9 @@ const COURSE_DATA = {
     /* =================== LC CHEMISTRY HL =================== */
     /* learningOutcomes are the NCCA Senior Cycle Chemistry specification's own outcomes
        (spec introduced Sept 2025). `code` is the spec's strand.topic.outcome reference.
-       Content currently sits on each chapter's first outcome — app.js only ever renders
-       learningOutcomes[0], so nothing may be moved off it until an outcome selector exists. */
+       Content currently sits on each chapter's first outcome as consolidated chapter
+       notes. The Full Notes view intentionally suppresses the remaining empty outcome
+       shells until content is authored for them individually. */
     {
       id: "chem1", number: 1, subject: "chemistry", title: "The Nature of Science",
       examQuestions: [],
