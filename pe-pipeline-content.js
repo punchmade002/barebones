@@ -7,6 +7,24 @@
   if (typeof COURSE_DATA === "undefined") return;
 
   var decks = globalThis.FLASHCARDS_DB || {};
+  var legacyChapters = new Map(
+    COURSE_DATA.chapters
+      .filter(function (chapter) { return chapter.subject === "pe"; })
+      .map(function (chapter) { return [chapter.id, chapter]; })
+  );
+  var legacySources = {
+    "pe-learning-skill-technique": ["pe5", "pe6"],
+    "pe-performance-demands": ["pe1", "pe3", "pe4"],
+    "pe-structures-strategies-roles-conventions": ["pe7", "pe9"],
+    "pe-planning-optimum-performance": ["pe2", "pe-casestudy"],
+    "pe-ethics-fair-play": ["pe9"],
+    "pe-adventure-activities": ["pe8"],
+    "pe-aquatics": ["pe8"],
+    "pe-artistic-aesthetic-movement": ["pe7"],
+    "pe-athletics": ["pe1", "pe6"],
+    "pe-games": ["pe7", "pe9"],
+    "pe-personal-exercise-fitness": ["pe2", "pe4"],
+  };
   var chapterDefinitions = [
     ["pe-learning-skill-technique", "Learning and Improving Skill and Technique"],
     ["pe-performance-demands", "Physical and Psychological Demands of Performance"],
@@ -36,6 +54,12 @@
     var id = chapter[0];
     var title = chapter[1];
     var cards = Array.isArray(decks[id]) ? decks[id] : [];
+    var sourceOutcomes = (legacySources[id] || []).flatMap(function (sourceId) {
+      var source = legacyChapters.get(sourceId);
+      return source && Array.isArray(source.learningOutcomes) ? source.learningOutcomes : [];
+    });
+    var authoredNotes = sourceOutcomes.flatMap(function (outcome) { return outcome.notes || []; });
+    var authoredQuestions = sourceOutcomes.flatMap(function (outcome) { return outcome.questions || []; });
     return {
       id: id,
       number: index + 1,
@@ -47,11 +71,11 @@
           id: id + "-core",
           code: (index + 1) + ".0",
           title: "Core Concepts",
-          notes: cards.map(function (card) {
-            return { h: card.term || "Key idea", b: card.definition || "" };
-          }),
+          // Preserve relevant hand-authored depth from the original PE taxonomy.
+          // The final notes adapter adds the pipeline concepts and answer method.
+          notes: authoredNotes.slice(),
           keyTerms: cards.slice(),
-          questions: [],
+          questions: authoredQuestions.slice(),
         },
       ],
     };

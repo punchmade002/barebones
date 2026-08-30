@@ -1638,8 +1638,11 @@ function startTest() {
   sample.forEach((card, idx) => {
     const div = document.createElement("div");
     div.className = "test-card";
+    const marksLabel = Number.isFinite(card.marks)
+      ? ` <span class="muted small">(${card.marks} marks)</span>`
+      : "";
     div.innerHTML = `
-      <p><strong>Q${idx + 1}:</strong> ${escapeHtml(card.term)}</p>
+      <p><strong>Q${idx + 1}:</strong>${marksLabel} ${escapeHtml(card.term)}</p>
       <textarea data-id="${card.id}" placeholder="Write your answer..."></textarea>
     `;
     els.testContainer.appendChild(div);
@@ -2024,6 +2027,7 @@ function questionsForChapter(chapter) {
           id: `${lo.id}-q-${idx + 1}`,
           term: promptText,
           answer: modelText || promptText,
+          marks: Number.isFinite(q.marks) ? q.marks : null,
           keywords: extractKeywords({ term: promptText, definition: modelText }),
         });
       });
