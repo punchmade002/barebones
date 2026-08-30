@@ -1,0 +1,62 @@
+{
+  "subject": "pe",
+  "totalMarks": 250,
+  "totalMinutes": 150,
+  "timingNote": "2h 30m · 250 marks. The written examination is worth 50% of the overall LC Physical Education assessment at both Higher and Ordinary Level.",
+  "sections": [
+    {
+      "id": "pe-section-a",
+      "name": "Section A – Short Questions",
+      "marks": 80,
+      "color": "#F97316",
+      "minutesPerQuestion": 4.5,
+      "tips": {
+        "timing": "Aim for about 45 minutes. Answer any 10 of Questions 1–12; the section is worth 80 marks, so allow roughly 4–5 minutes for each chosen question.",
+        "structure": "Answer every requested part directly in the spaces provided. Match the number of distinct points, examples or labels to the wording and marks, and use precise Physical Education terminology.",
+        "reminders": [
+          "Read all 12 questions before choosing the 10 you will answer",
+          "Give separate answers where the question asks for two or more points",
+          "Name the selected physical activity, role, skill or fitness component when required",
+          "Label diagrams and complete every row of tables",
+          "Move on promptly so short questions do not consume long-answer time"
+        ]
+      }
+    },
+    {
+      "id": "pe-section-b",
+      "name": "Section B – Case Study",
+      "marks": 50,
+      "color": "#10B981",
+      "minutesPerQuestion": 30,
+      "tips": {
+        "timing": "Allow about 30 minutes. Question 13 is compulsory and the full case-study section is worth 50 marks.",
+        "structure": "Use the supplied text, data and images explicitly, then apply relevant course knowledge to the physical-activity scenario. Follow the printed sub-parts in order and keep each response proportional to its marks.",
+        "reminders": [
+          "Question 13 is compulsory",
+          "Read the case study and all sub-parts before beginning",
+          "Quote or identify specific evidence from the stimulus when asked",
+          "Connect case-study evidence to accurate course concepts",
+          "Label every sub-part clearly, including work written on supplementary paper"
+        ]
+      }
+    },
+    {
+      "id": "pe-section-c",
+      "name": "Section C – Long Questions",
+      "marks": 120,
+      "color": "#3B82F6",
+      "minutesPerQuestion": 23,
+      "tips": {
+        "timing": "Allow about 70 minutes plus final checking time. Answer any three of Questions 14–18; each chosen question is worth 40 marks, giving roughly 23 minutes per question.",
+        "structure": "Choose questions only after reading all five. Answer every sub-part of each selected question, develop the required number of points with course detail, and apply examples to the named performer, activity or participation context.",
+        "reminders": [
+          "Answer three questions from Questions 14–18",
+          "Complete every sub-part of each selected 40-mark question",
+          "Plan longer responses briefly before writing",
+          "Use relevant examples and Physical Education terminology rather than generic statements",
+          "Reserve a few minutes to check question numbers, labels and unfinished parts"
+        ]
+      }
+    }
+  ]
+}
