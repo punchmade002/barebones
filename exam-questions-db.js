@@ -13,166 +13,20 @@
 //      do not re-describe its contents in the question text.
 window.EXAM_QUESTIONS_DB = [
 
-  // ── BIOLOGY (26 questions) ───────────────────────────────────────────
+  // ── BIOLOGY (24 questions) ───────────────────────────────────────
 
-  // bio1 (2 questions)
+  // bio1 (1 question)
   {
-    id:        "biology-pp-2024-AB-q2",
+    id:        "biology-pp-2024-A-q2",
     subject:   "biology",
     chapterId: "bio1",
     sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2024 — A+B — Q2 [⚠ may not match current course]",
+    source:    "LC Biology HL 2024 — A — Q2 [⚠ may not match current course]",
     year:      2024,
     parts: [
       {
         label:    "Q2",
-        question: "Answer the following questions based on your knowledge of the scientific method.\n(a) After making an observation, a biologist often develops a hypothesis. What is a hypothesis?\n(b) A biologist tests their hypothesis by designing an experiment. State two principles of good experimentation.\n(c) Outline the steps of the scientific method that follow the design of an experiment.\n(d) The scientific method also has limitations. State any one limitation of the scientific method.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2024-A+B-Q2.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2025-AB-q2",
-    subject:   "biology",
-    chapterId: "bio1",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2025 — A+B — Q2 [⚠ may not match current course]",
-    year:      2025,
-    parts: [
-      {
-        label:    "Q2",
-        question: "(e) Where does a biologist normally publish their results?\n(f) What is meant by the term theory?",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2025-A+B-Q2.png"
-      },
-    ],
-  },
-
-  // bio7 (5 questions)
-  {
-    id:        "biology-pp-2019-AB-q2",
-    subject:   "biology",
-    chapterId: "bio7",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2019 — A+B — Q2 [⚠ may not match current course]",
-    year:      2019,
-    parts: [
-      {
-        label:    "Q2",
-        question: "(iv) How did you transfer the section to the microscope slide?\n(v) Name the part of the microscope you used to bring the section into a sharp focus.\n(vi) Draw a labelled diagram of the section that you observed under the microscope.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2019-A+B-Q2.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2021-C-q1",
-    subject:   "biology",
-    chapterId: "bio7",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2021 — C — Q1 [⚠ may not match current course]",
-    year:      2021,
-    parts: [
-      {
-        label:    "Q1",
-        question: "Outline how a scientist uses a coverslip.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2021-C-Q1.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2021-C-q2",
-    subject:   "biology",
-    chapterId: "bio7",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2021 — C — Q2 [⚠ may not match current course]",
-    year:      2021,
-    parts: [
-      {
-        label:    "Q2",
-        question: "Explain why a coverslip is used.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2021-C-Q2.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2023-AB-q1",
-    subject:   "biology",
-    chapterId: "bio7",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2023 — A+B — Q1 [⚠ may not match current course]",
-    year:      2023,
-    parts: [
-      {
-        label:    "Q1",
-        question: "Explain the importance of the section Sketch: being thin.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2023-A+B-Q1.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2023-AB-q2",
-    subject:   "biology",
-    chapterId: "bio7",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2023 — A+B — Q2 [⚠ may not match current course]",
-    year:      2023,
-    parts: [
-      {
-        label:    "Q2",
-        question: "In the space provided, sketch what you observed under the light microscope.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2023-A+B-Q2.png"
-      },
-    ],
-  },
-
-  // bio8 (2 questions)
-  {
-    id:        "biology-pp-2020-AB-q4",
-    subject:   "biology",
-    chapterId: "bio8",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2020 — A+B — Q4 [⚠ may not match current course]",
-    year:      2020,
-    parts: [
-      {
-        label:    "Q4",
-        question: "The diagram shows part of the structure of DNA. J K L Identify G\n(a) What do the letters DNA stand for?\n(b) Identify molecule G.\n(c) The structure labelled J is a sub‐unit of DNA. Identify the structure labelled J.\n(d) Name the part labelled K.\n(e) What type of bonding occurs at L?\n(f) State one structural difference between DNA and RNA, other than the number of strands.\n(g) Give one non‐nuclear location of DNA in cells.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2020-A+B-Q4.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2024-AB-q1",
-    subject:   "biology",
-    chapterId: "bio8",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2024 — A+B — Q1 [⚠ may not match current course]",
-    year:      2024,
-    parts: [
-      {
-        label:    "Q1",
-        question: "Answer any five of the following parts (a) to (f):\n(a) Which three chemical elements are present in all lipids?\n(b) How do fats and oils differ at room temperature?\n(c) Give one way phospholipids differ from triglycerides.\n(d) Give one metabolic role of lipids in cells.\n(e) Give one structural role of lipids in cells.\n(f) Name one fat-soluble vitamin.",
+        question: "Answer the following questions based on your knowledge of the scientific method.\n(a) After making an observation, a biologist often develops a hypothesis.\nWhat is a hypothesis?\n(b) A biologist tests their hypothesis by designing an experiment.\nState two principles of good experimentation.\n(c) Outline the steps of the scientific method that follow the design of an experiment.\n(d) The scientific method also has limitations.\nState any one limitation of the scientific method.",
         marks:    20,
         model:    "",
         diagram:  "exam-images/biology/2024-A+B-Q1.png"
@@ -180,316 +34,640 @@ window.EXAM_QUESTIONS_DB = [
     ],
   },
 
-  // bio13 (2 questions)
+  // bio2 (1 question)
   {
-    id:        "biology-pp-2020-AB-q7",
+    id:        "biology-pp-2018-B-q7",
     subject:   "biology",
-    chapterId: "bio13",
+    chapterId: "bio2",
+    sectionId: "bio-sectionB",
+    source:    "LC Biology HL 2018 — B — Q7 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Why is it important that scientists publish the results of their research?\n(ii) How can scientists avoid bias in scientific experiments?",
+        marks:    6,
+        model:    "",
+        diagram:  "exam-images/biology/2015-P1-Q3.png"
+      },
+      {
+        label:    "(b)",
+        question: "(i) When carrying out certain experiments at the laboratory bench:\n1. How would you ensure that reactants or organisms are maintained at a constant pH over a period of a few hours?\n2. How would you ensure that reactants or organisms are maintained at a constant temperature over a period of a few hours?\n(ii) When you used yeast to prepare alcohol:\n1. What other product was produced during the fermentation?\n2. What test did you use to confirm the presence of alcohol?\n(iii) When using a microscope to examine biological specimens, describe how you:\n1. Calculated the magnifying power of the microscope.\n2. Altered the amount of light shining on your specimens.\n(iv) In relation to investigations you carried out on food, state:\n1. Why the brown paper used to test for the presence of fat should be allowed to dry out.\n2. Which other food test required the application of heat.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio7 (1 question)
+  {
+    id:        "biology-pp-2020-A-q3",
+    subject:   "biology",
+    chapterId: "bio7",
     sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2020 — A+B — Q7 [⚠ may not match current course]",
+    source:    "LC Biology HL 2020 — A — Q3 [⚠ may not match current course]",
     year:      2020,
     parts: [
       {
-        label:    "Q7",
-        question: "(a) (i) What is an immobilised enzyme?\n(ii) (b) Give one advantage of using immobilised enzymes. Answer the following questions in relation to an investigation that you carried out to immobilise an enzyme or cell and examine its application. Name the enzyme or cell that you used.\n(i) Describe how you immobilised that enzyme or cell.\n(ii) Outline how you used the immobilised enzyme or cell to examine its application.",
+        label:    "Q3",
+        question: "Indicate whether the following statements are true or false by placing a tick (✓) in the appropriate box in each case.\n(a) Spindle fibres contract during metaphase of mitosis.\n(b) Glucose is produced by yeast cells during fermentation.\n(c) The process of translation results in a protein being made.\n(d) Prokaryotic cells contain a nucleus.\n(e) Darwin and Wallace proposed the Theory of Natural Selection.\n(f) A mutation to a cell’s DNA always has a negative impact for the cell.\n(g) The ribosome of the cell contains the chromosomes.",
         marks:    20,
         model:    "",
-        diagram:  "exam-images/biology/2020-A+B-Q7.png"
+        diagram:  "exam-images/biology/2020-A+B-Q2.png"
       },
     ],
   },
 
+  // bio11 (3 questions)
   {
-    id:        "biology-pp-2024-AB-q9",
+    id:        "biology-pp-2018-C-q13",
     subject:   "biology",
-    chapterId: "bio13",
-    sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2024 — A+B — Q9 [⚠ may not match current course]",
-    year:      2024,
-    parts: [
-      {
-        label:    "Q9",
-        question: "(a) Answer the following in relation to enzymes and enzyme immobilisation.\n(i) Briefly explain the term enzyme.\n(ii) (b) State one advantage of immobilising enzymes. During your practical studies, you prepared one enzyme immobilisation and examined its application.\n(i) Name the enzyme or cell you immobilised.\n(ii) Describe the procedure you used to immobilise the enzyme or cell. You may include a labelled diagram if you wish.\n(iii) Describe how you examined the application of the immobilised enzyme or cell.",
-        marks:    30,
-        model:    "",
-        diagram:  "exam-images/biology/2024-A+B-Q9.png"
-      },
-    ],
-  },
-
-  // bio14 (2 questions)
-  {
-    id:        "biology-pp-2022-AB-q1",
-    subject:   "biology",
-    chapterId: "bio14",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2022 — A+B — Q1 [⚠ may not match current course]",
-    year:      2022,
-    parts: [
-      {
-        label:    "Q1",
-        question: "Using a solid line ( ), sketch the expected result at 25 °C.",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2022-A+B-Q1.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2022-AB-q2",
-    subject:   "biology",
-    chapterId: "bio14",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2022 — A+B — Q2 [⚠ may not match current course]",
-    year:      2022,
-    parts: [
-      {
-        label:    "Q2",
-        question: "Using a dashed line (- - - - - -), sketch the expected result if the activity had been carried out at 60 °C. Rate of photosynthesis Light intensity or CO2 concentration",
-        marks:    20,
-        model:    "",
-        diagram:  "exam-images/biology/2022-A+B-Q2.png"
-      },
-    ],
-  },
-
-  // bio16 (2 questions)
-  {
-    id:        "biology-pp-2024-C-q1",
-    subject:   "biology",
-    chapterId: "bio16",
+    chapterId: "bio11",
     sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2024 — C — Q1 [⚠ may not match current course]",
+    source:    "LC Biology HL 2018 — C — Q13 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "Most organisms contain both nucleic acids, RNA and DNA.\n(i) Name the biologically active entities, each of which contains only one type of nucleic acid.\n(ii) Name two locations in eukaryotic cells where RNA but no DNA is found.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2015-P1-Q14.png"
+      },
+      {
+        label:    "(b)",
+        question: "Gregor Mendel studied the inheritance of various traits in pea plants. The results of some of his investigations are presented in the table.\n(i) As a result of his work, he put forward two laws, the Law of Segregation and the Law of Independent Assortment. State each of these laws.\n(ii) A dwarf pea plant with green seeds was crossed with a plant heterozygous for both height and seed colour. Indicate by means of a genetic cross, the possible genotypes and phenotypes of the progeny of this cross, if there is no linkage of genes.\n(iii) Explain how the results of the cross in (ii) above would differ if the genes for height and seed colour were linked.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "(i) What is meant by the term evolution?\n(ii) Outline the theory of evolution by natural selection.\n(iii) Describe evidence in support of evolution from any one named source.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2020-C-q12",
+    subject:   "biology",
+    chapterId: "bio11",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2020 — C — Q12 [⚠ may not match current course]",
+    year:      2020,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) What is meant by the term heredity?\n(ii) State Mendel’s Law of Independent Assortment (2nd Law).",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2020-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "The series of images below represents the four main stages of the DNA profiling technique invented by Sir Alec Jeffreys in 1984.\n(i) Distinguish between DNA profiling and genetic screening.\n(ii) Explain each of the Stages, 1 to 4, of DNA profiling shown above.\n(iii) Give any two applications of DNA profiling.\n(iv) Identical twins have the same DNA profile. Explain why this is so.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "In Andalusian chickens the allele for black feathers (B) exhibits incomplete dominance over the allele for white feathers (b). When a black, homozygous rooster (male) is crossed with a white, homozygous hen (female) all the newly hatched chicks will have an intermediate phenotype of speckled colour (Bb) known as “blue”.\n(i) Explain the terms underlined in the passage above.\n(ii) Determine all the possible genotypes and phenotypes of the offspring of a cross between the following chickens:\n“blue” rooster X “blue” hen\nInclude in your answer the ratio of the resulting phenotypes.\n(iii) What would be the effect on the offspring phenotype ratio, in the genetic cross at (ii) above, if there was no incomplete dominance between the two alleles for feather colour, and if black feather was the dominant trait and white feather was the recessive trait?",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2024-C-q15",
+    subject:   "biology",
+    chapterId: "bio11",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2024 — C — Q15 [⚠ may not match current course]",
     year:      2024,
     parts: [
       {
-        label:    "Q1",
-        question: "What name is given to the stage of mitosis shown in the image?",
-        marks:    60,
+        label:    "(a)",
+        question: "(i) What is meant by the term species?\n(ii) Give two causes of variation within a species.",
+        marks:    9,
         model:    "",
         diagram:  "exam-images/biology/2024-C-Q1.png"
       },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2024-C-q2",
-    subject:   "biology",
-    chapterId: "bio16",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2024 — C — Q2 [⚠ may not match current course]",
-    year:      2024,
-    parts: [
       {
-        label:    "Q2",
-        question: "Explain how you know it is this stage.\n(iv) What stage of mitosis occurs immediately before the stage you named in (d) (iii) 1. above?\n(v) Sketch a diagram of a cell with a diploid number of 4 (i.e. 2n = 4) that is at the stage of mitosis you named at part (d) (iv) above.\n(vi) What is the function of mitosis in multicellular organisms such as the onion?\n(vii) What name is given to the group of disorders where a cell loses control of mitosis and the number of cell divisions?",
-        marks:    60,
+        label:    "(b)",
+        question: "In snapdragon plants, the allele for tallness is dominant over the allele for dwarfness. However, the allele for red flower shows incomplete dominance with the allele for white flower. Pink flower is the phenotype that results in the heterozygous condition. The two genes are not linked.\n(i) Explain the underlined terms.\n(ii) A homozygous tall, red snapdragon plant is crossed with a dwarf, pink snapdragon plant.\nUsing suitable letters, give the genotypes of both plants in the above cross.\n(iii) Using a Punnett square, or otherwise, show the possible genotypes and matching phenotypes of the offspring of the cross described above.\n(iv) What percentage of the offspring of the cross have pink flowers?",
+        marks:    27,
         model:    "",
-        diagram:  "exam-images/biology/2024-C-Q2.png"
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Two famous biologists independently developed the theory of evolution by natural selection.\n(i) Name these two famous biologists.\n(ii) What is meant by the term evolution?\n(iii) Describe the main points of the theory of natural selection.\n(iv) Give one piece of evidence that supports the theory of natural selection.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
       },
     ],
   },
 
-  // bio25 (1 question)
+  // bio14 (3 questions)
   {
-    id:        "biology-pp-2025-AB-q9",
+    id:        "biology-pp-2018-B-q8",
     subject:   "biology",
-    chapterId: "bio25",
+    chapterId: "bio14",
     sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2025 — A+B — Q9 [⚠ may not match current course]",
+    source:    "LC Biology HL 2018 — B — Q8 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "The process of photosynthesis in plants is divided into two stages, the light stage and the dark stage.\n(i) Where in the cell does the dark stage take place?\n(ii) Why is the dark stage called the dark stage?",
+        marks:    6,
+        model:    "",
+        diagram:  "exam-images/biology/2015-P1-Q4.png"
+      },
+      {
+        label:    "(b)",
+        question: "Answer the following questions in relation to an activity that you carried out to investigate the influence of light intensity or carbon dioxide concentration on the rate of photosynthesis.\n(i) Name the plant you used for this investigation.\n(ii) Give a reason for using this plant.\n(iii) How did you measure the rate of photosynthesis?\n(iv) Label the axes below, and sketch a graph to show how the rate of photosynthesis would change as your chosen factor varied over a wide range.\n(v) Explain the shape of your graph.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2020-C-q11",
+    subject:   "biology",
+    chapterId: "bio14",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2020 — C — Q11 [⚠ may not match current course]",
+    year:      2020,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Name the type of nutrition exhibited by organisms that carry out photosynthesis.\n(ii) Write a balanced chemical equation to summarise photosynthesis.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2020-C-Q3.png"
+      },
+      {
+        label:    "(b)",
+        question: "The diagram is that of a transverse section (T.S.) of a leaf growing in a sunny area.\n(i) What is the role of the stomata in photosynthesis?\n(ii) Which of the labelled part (A, B or C) would you expect to contain the most chloroplasts?\n(iii) Chloroplasts contain chlorophyll molecules. What is the role of the chlorophyll molecules in photosynthesis?\n(iv) What particles are released from chlorophyll during the light dependent stage of photosynthesis.\n(v) These particles enter one of two pathways.\nGive an account of the events of pathway 2.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Answer the following questions in relation to the second stage of aerobic respiration.\n(i) Name the 3-carbon molecule which enters the mitochondrion.\n(ii) Name the two carbon containing molecules produced when the 3-carbon molecule at (i) above is broken down.\n(iii) One of these carbon containing molecules formed at (ii) above enters a series of reactions. Name this series of reactions.\n(iv) Outline the events that take place in the electron transport chain (system).",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2025-C-q13",
+    subject:   "biology",
+    chapterId: "bio14",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2025 — C — Q13 [⚠ may not match current course]",
     year:      2025,
     parts: [
       {
-        label:    "Q9",
-        question: "(a) Explain the term osmosis.\n(b) Answer the following questions in relation to a laboratory activity you carried out to demonstrate osmosis.\n(i) Name the tissue or membrane that you used in the activity.\n(ii) Describe how you carried out this activity, including the result. You may include a labelled diagram if you wish. Describe: Labelled diagram:",
-        marks:    30,
+        label:    "(a)",
+        question: "Metabolic reactions can be classified as anabolic or catabolic.\n(i) Explain why photosynthesis is an example of an anabolic reaction.\n(ii) Write a balanced chemical equation to represent photosynthesis.",
+        marks:    9,
         model:    "",
-        diagram:  "exam-images/biology/2025-A+B-Q9.png"
+        diagram:  "exam-images/biology/2025-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "During photosynthesis chlorophyll absorbs light energy.\n(i) Name the cell organelle shown in the diagram in which chlorophyll is located.\n(ii) Name the energised particles released by chlorophyll.\n(iii) These particles can enter one of two pathways which are known as pathway 1 and pathway 2.\nState the difference between each of these two pathways in terms of energised particle movement only.\n(iv) Two products of the light-dependent stage enter the light-independent stage.\nName the two products and describe each of their roles.\n(v) Name the two products of the light-independent stage that are regenerated and used in the light-dependent stage.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Enzymes control metabolic reactions, such as respiration and photosynthesis.\n(i) Briefly describe enzymes under the following headings:\n1. Biochemical nature\n2. Shape.\n(ii) Based on the biochemical nature of enzymes, name the cell component where enzymes are made.\n(iii) Enzymes can be denatured.\nExplain the underlined term and state one way in which an enzyme can be denatured.\n(iv) Enzymes can be immobilised, an example of which is shown in the image.\nDescribe a method of enzyme immobilisation.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
       },
     ],
   },
 
-  // bio27 (3 questions)
+  // bio15 (1 question)
   {
-    id:        "biology-pp-2020-AB-q8",
+    id:        "biology-pp-2018-C-q12",
+    subject:   "biology",
+    chapterId: "bio15",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2018 — C — Q12 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Suggest an advantage to the cell of using ATP as an energy source, instead of breaking down a sugar molecule every time energy is needed.\n(ii) Name the nitrogenous base and the sugar present in ATP.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2018-A-Q14.png"
+      },
+      {
+        label:    "(b)",
+        question: "Answer the following questions from your knowledge of respiration.\n(i) Give a balanced chemical equation to summarise the process of aerobic respiration.\n(ii) 1. Name the storage polysaccharide in humans from which glucose is produced.\n2. Give one major storage location of this polysaccharide in the body.\n(iii) What happens to pyruvate molecules that prepares them for the Krebs cycle?\n(iv) Name three products of the Krebs cycle.\n(v) Briefly describe the fate of any one of the products mentioned in part (iv) above.\n(vi) What is the final electron acceptor in aerobic respiration?",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Answer the following questions from your knowledge of enzymes.\n(i) Explain enzyme specificity with reference to the active site.\n(ii) What happens to the activity of enzymes when they are placed in a medium outside of their optimum pH?\nExplain your answer.\n(iii) Name two substances used in the school laboratory to immobilise enzymes or yeast cells.\n(iv) Give two advantages of using immobilised enzymes.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio17 (1 question)
+  {
+    id:        "biology-pp-2019-C-q11",
+    subject:   "biology",
+    chapterId: "bio17",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2019 — C — Q11 [⚠ may not match current course]",
+    year:      2019,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Name the sugar present in DNA.\n(ii) Other than the sugar, give two structural differences between DNA and RNA.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2019-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "Protein synthesis is a complex process, involving both transcription and translation, that occurs in all cells.\n(i) Where does transcription occur in animal and plant cells?\n(ii) Where precisely in the cell does translation occur?\n(iii) Name the three types of RNA involved in protein synthesis.\n(iv) Describe the events that occur during translation, leading to the formation of a functional protein.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "(i) Explain the following terms used in genetics:\n1. Sex linkage\n2. Heterozygous\n3. Genotype.\n(ii) The diagram below shows the pattern of inheritance of haemophilia in a family. The haemophilia gene (n) is sex-linked and recessive.\n1. What are the genotypes of the parents for both sex and haemophilia?\n2. If person 7 has a carrier daughter, give the phenotype and full genotype of the daughter's father.\nWhat was the chance of that couple having a carrier daughter?",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio23 (1 question)
+  {
+    id:        "biology-pp-2023-C-q15",
+    subject:   "biology",
+    chapterId: "bio23",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2023 — C — Q15 [⚠ may not match current course]",
+    year:      2023,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) What is meant by the term secondary sexual characteristics?\n(ii) Give two examples of secondary sexual characteristics present in males.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2023-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "(i) Draw a large diagram of the human male reproductive system, labelling the following parts: testis, sperm duct, prostate gland, epididymis, penis, scrotum.\n(ii) Give one function for each of the following parts:\n1. Prostate gland\n2. Epididymis\n(iii) The diagram shows a human sperm cell.\n1. How many chromosomes are found in the nucleus of a typical human sperm cell?\n2. Copy out the diagram of the human sperm cell into your answerbook and indicate on it the location of the mitochondria.\n3. In relation to the structure of the sperm cell, or otherwise, suggest one possible cause of male infertility.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "The graphs show the levels of female reproductive hormones (A and B) in the blood at various stages during one typical menstrual cycle. These hormones are released by the female reproductive system.\n(i) How long is the typical menstrual cycle in a human female?\n(ii) Name each of the hormones A and B.\n(iii) There are low levels of hormone A and hormone B during the first few days of the menstrual cycle. Describe one effect on the female reproductive system of the low levels of hormones A and B.\n(iv) Explain why hormone A levels increase after approximately day 5.\n(v) What event occurs around day 14 of the menstrual cycle?\n(vi) The event you named in part (c) (v) above is caused by a surge in a hormone released from the pituitary. Name this hormone.\n(vii) Explain why hormone B levels increase in the days after day 14.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio24 (2 questions)
+  {
+    id:        "biology-pp-2018-C-q14",
+    subject:   "biology",
+    chapterId: "bio24",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2018 — C — Q14 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Define dispersal in relation to seeds.\nSuggest two reasons why dispersal is important to plants.\n(ii) Give one way in which a knowledge of seed dormancy is useful to humans.\n(iii) Other than water, name two essential environmental requirements for successful germination of seeds.\n(iv) What is the role of digestion and the role of respiration in seed germination?\n(iv) The graph below shows variations in the dry mass of peas over a period of time after germination. Give a reason for:\n1. The initial decrease in mass\n2. The subsequent increase in mass.\n(vi) Name a substance which, because of its changing quantities in the seed, could be responsible for the changes shown in the graph.",
+        marks:    30,
+        model:    "",
+        diagram:  "exam-images/biology/2015-P1-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "(i) Draw a labelled diagram of a transverse section through a leaf.\n(ii) Place the letter X on your diagram, to show the part of the leaf in which most photosynthesis occurs and explain why it occurs mostly there.\n(iii) State two other ways in which the leaf is well adapted for photosynthesis.\n(iv) Name three substances which are involved in leaf metabolism and which pass through the stomata.\n(v) The concentration of which gas influences the diameter of the stomata?",
+        marks:    30,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "(i) The pancreas is both an exocrine and endocrine organ. Define the term endocrine.\n(ii) Using your knowledge of the endocrine role of the pancreas, state:\n1. A substance produced.\n2. The name of the endocrine tissue in the pancreas that produces it.\n3. A site of action of the substance mentioned in 1.\n4. The role of the substance mentioned in 1.\n(iii) Describe how a feedback mechanism works in the human endocrine system.\n(iv) Give two examples of the use of hormone supplements.",
+        marks:    30,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2021-C-q15",
+    subject:   "biology",
+    chapterId: "bio24",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2021 — C — Q15 [⚠ may not match current course]",
+    year:      2021,
+    parts: [
+      {
+        label:    "(a)",
+        question: "Organisms can respond to changes in their external and internal environment in different ways including through homeostasis.\n(i) Explain the underlined term.\n(ii) Name one anatomical and one chemical way plants can protect themselves.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2021-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "The diagram is of a flower.\n(i) Name the structures labelled A, B and C.\n(ii) Is this flower insect or wind-pollinated?\n(iii) Using the diagram, give two reasons to support your answer at part (ii) above.\n(iv) What is the role of each of the parts labelled A and D?\n(v) This flower can exhibit self-pollination.\nGive one disadvantage of self-pollination.\n(vi) Seed and fruit development follow successful fertilisation.\n1. Which labelled part develops into the fruit?\n2. Give one way seedless fruits may develop.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Germination in seeds follows dispersal and a period of dormancy.\n(i) Explain each of the underlined terms.\n(ii) Outline how dormancy in seeds benefits plant species.\n(iii) Give two roles of water in the process of germination.\n(iv) Identify two possible food stores in seeds.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio26 (2 questions)
+  {
+    id:        "biology-pp-2020-C-q13",
+    subject:   "biology",
+    chapterId: "bio26",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2020 — C — Q13 [⚠ may not match current course]",
+    year:      2020,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Explain what is meant by the term homeostasis.\n(ii) Give one reason why homeostasis is important in organisms.\n(iii) Explain what is meant by the term excretion.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2020-C-Q5.png"
+      },
+      {
+        label:    "(b)",
+        question: "Urine produced by the kidney contains water, salts and urea.\n(i) State the precise location in the body where urea is made.\n(ii) Name the food biomolecule from which urea is derived.\n(iii) A diagram of a human kidney is shown on the right.\n1. In which part of the kidney is the Bowman’s capsule located?\n2. In which part of the kidney is the Loop of Henle located?\n3. Name the part labelled ‘A’.\n(iv) Draw a large diagram of a nephron and its associated blood supply from a human kidney. Label the following parts: Bowman’s capsule, Loop of Henle, Proximal convoluted tubule, Collecting duct, Distal convoluted tubule, Glomerulus.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "The following table shows the representative composition of blood plasma, glomerular filtrate and urine from a typical adult, (each in g/100 cm³ of fluid).\n(i) Using the data from the table above, what is the main difference between the composition of blood plasma and glomerular filtrate? Explain why this is so.\n(ii) Using the data from the table above, in relation to glucose, explain the findings in the composition of the fluids between:\n1. Blood plasma and glomerular filtrate.\n2. Glomerular filtrate and urine.\n(iii) Using your knowledge of homeostasis and excretion:\n1. State the effect on the volume of urine produced by a high salt intake.\n2. Explain your answer to part 1.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2022-C-q15",
+    subject:   "biology",
+    chapterId: "bio26",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2022 — C — Q15 [⚠ may not match current course]",
+    year:      2022,
+    parts: [
+      {
+        label:    "(a)",
+        question: "Excretion is an important process in homeostasis in living organisms.\n(i) Explain the underlined terms.\n(ii) Name one excretory organ in plants.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2022-C-Q1.png"
+      },
+      {
+        label:    "(b)",
+        question: "The diagrams below are of a human kidney and one of its nephrons. (PCT = proximal convoluted tubule; DCT = distal convoluted tubule)\n(i) The kidneys are located in the abdomen surrounded by a thick layer of fat.\nWhat is the function of this layer of fat?\n(ii) Identify the regions of the kidney labelled A, B and C.\n(iii) Identify the region in the kidney, by name or label, where the process of filtration occurs.\n(iv) Explain the importance of blood entering the glomerulus under pressure.\n(v) State two reasons why there are many capillaries surrounding the proximal convoluted tubule (PCT), loop of Henle and distal convoluted tubule (DCT) of the nephron.\n(vi) Describe how ADH (anti-diuretic hormone) affects the volume of urine.\n(vii) Urine collects at the region labelled C on the diagram of the kidney and travels on towards the bladder.\nName the structure through which urine travels to the bladder.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Plants require water for survival.\n(i) By what process does water enter the root hairs?\n(ii) Draw a large diagram of a transverse section of a root and label the following tissues: dermal; ground; vascular.\n(iii) Name the two Irish scientists who first described the upward movement of water in plants.\n(iv) Describe in detail the upward movement of water in plants.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio27 (2 questions)
+  {
+    id:        "biology-pp-2020-B-q8",
     subject:   "biology",
     chapterId: "bio27",
     sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2020 — A+B — Q8 [⚠ may not match current course]",
+    source:    "LC Biology HL 2020 — B — Q8 [⚠ may not match current course]",
     year:      2020,
     parts: [
       {
         label:    "Q8",
-        question: "(a) (i) What is meant by the term germination?\n(ii) State three factors necessary for successful germination.\n(b) Answer the following questions in relation to an investigation you carried out to show digestive activity during seed germination. State whether your used starch agar or skimmed milk (protein) agar.\n(i) Why were the seeds soaked in water prior to the investigation?\n(ii) Describe how you further prepared the seeds and added them to the agar plate(s).\n(iii) Under what conditions did you store the plate(s) containing the seeds to allow germination to occur?\n(iv) How did you test to show that digestion had occurred?\n(v) State the result that showed digestion had occurred.",
+        question: "(a) (i) What is meant by the term germination?\n(ii) State three factors necessary for successful germination.\n(b) Answer the following questions in relation to an investigation you carried out to show digestive activity during seed germination.\nState whether your used starch agar or skimmed milk (protein) agar.\n(i) Why were the seeds soaked in water prior to the investigation?\n(ii) Describe how you further prepared the seeds and added them to the agar plate(s).\n(iii) Under what conditions did you store the plate(s) containing the seeds to allow germination to occur?\n(iv) How did you test to show that digestion had occurred?\n(v) State the result that showed digestion had occurred.",
         marks:    30,
         model:    "",
-        diagram:  "exam-images/biology/2020-A+B-Q8.png"
+        diagram:  "exam-images/biology/2020-A+B-Q3.png"
       },
     ],
   },
-
   {
-    id:        "biology-pp-2024-AB-q3",
+    id:        "biology-pp-2024-B-q10",
     subject:   "biology",
     chapterId: "bio27",
-    sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2024 — A+B — Q3 [⚠ may not match current course]",
+    sectionId: "bio-sectionB",
+    source:    "LC Biology HL 2024 — B — Q10 [⚠ may not match current course]",
     year:      2024,
     parts: [
       {
-        label:    "Q3",
-        question: "The diagram shows the human alimentary canal.\n(a) Name tube A, organ B and gland C. Tube A: Organ B: A Gland C:\n(b) Give one function of tube A. Function: B\n(c) C Give one function of organ B. Function:\n(d) Give one function of gland C in relation to the digestive system. Function: Small intestine\n(e) State one structural feature of the small intestine that enables it to carry out its function.\n(f) Symbiotic bacteria are present in the alimentary canal. Give two functions of these symbiotic bacteria.",
-        marks:    20,
+        label:    "Q10",
+        question: "(a) (i) What is meant by dormancy in seeds?\n(ii) Give one advantage of seed dormancy for plants.\n(b) During your practical studies you investigated the action of digestive enzymes in germinating seeds using either starch agar or skimmed milk plates.\n(i) Describe how you set up the apparatus for this investigation.\nYou may include a labelled diagram if you wish.\n(ii) Explain how you knew digestion had occurred.",
+        marks:    30,
         model:    "",
         diagram:  "exam-images/biology/2024-A+B-Q3.png"
       },
     ],
   },
 
-  {
-    id:        "biology-pp-2024-AB-q10",
-    subject:   "biology",
-    chapterId: "bio27",
-    sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2024 — A+B — Q10 [⚠ may not match current course]",
-    year:      2024,
-    parts: [
-      {
-        label:    "Q10",
-        question: "(a) (i) What is meant by dormancy in seeds?\n(ii) Give one advantage of seed dormancy for plants.\n(b) During your practical studies you investigated the action of digestive enzymes in germinating seeds using either starch agar or skimmed milk plates.\n(i) Describe how you set up the apparatus for this investigation. You may include a labelled diagram if you wish.\n(ii) Explain how you knew digestion had occurred.",
-        marks:    30,
-        model:    "",
-        diagram:  "exam-images/biology/2024-A+B-Q10.png"
-      },
-    ],
-  },
-
-  // bio28 (2 questions)
-  {
-    id:        "biology-pp-2023-C-q1",
-    subject:   "biology",
-    chapterId: "bio28",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2023 — C — Q1 [⚠ may not match current course]",
-    year:      2023,
-    parts: [
-      {
-        label:    "Q1",
-        question: "State which diagram (X or Y) represents inhalation.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2023-C-Q1.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2023-C-q2",
-    subject:   "biology",
-    chapterId: "bio28",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2023 — C — Q2 [⚠ may not match current course]",
-    year:      2023,
-    parts: [
-      {
-        label:    "Q2",
-        question: "Explain in detail how you know inhalation is occurring in this diagram.\n(d) The diagram shows part of a plant organ composed of various tissues. Vascular tissue A B C\n(i) Identify the plant organ.\n(ii) Name tissues A and B and the structure labelled C.\n(iii) Give one function for each part A, B and C.\n(iv) Give one function of vascular tissue in plants.\n(v) Name the two types of vascular tissue present in plants.\n(vi) Draw and label a longitudinal section (L.S.) of either type of vascular tissue you named in part (d) (v) above.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2023-C-Q2.png"
-      },
-    ],
-  },
-
-  // bio29 (3 questions)
-  {
-    id:        "biology-pp-2020-AB-q9",
-    subject:   "biology",
-    chapterId: "bio29",
-    sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2020 — A+B — Q9 [⚠ may not match current course]",
-    year:      2020,
-    parts: [
-      {
-        label:    "Q9",
-        question: "(a) (i) Why is the blood in the right side of the heart kept separate from the blood in the left?\n(ii) In relation to the heartbeat, what is meant by the term diastole?\n(b) Answer the following in relation to an investigation you carried out to dissect, display and identify the parts of a sheep’s or an ox’s heart.\n(i) How did you identify the right hand side from the left hand side of the heart?\n(ii) On which surface of the heart did you observe the coronary artery (groove)?\n(iii) Describe how you dissected the heart to identify the bicuspid valve.\n(iv) State the precise location of one semilunar valve and describe how you further dissected the heart to locate this valve.",
-        marks:    30,
-        model:    "",
-        diagram:  "exam-images/biology/2020-A+B-Q9.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2022-C-q1",
-    subject:   "biology",
-    chapterId: "bio29",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2022 — C — Q1 [⚠ may not match current course]",
-    year:      2022,
-    parts: [
-      {
-        label:    "Q1",
-        question: "the right ventricle pumps blood.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2022-C-Q1.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2022-C-q2",
-    subject:   "biology",
-    chapterId: "bio29",
-    sectionId: "bio-sectionC",
-    source:    "LC Biology HL 2022 — C — Q2 [⚠ may not match current course]",
-    year:      2022,
-    parts: [
-      {
-        label:    "Q2",
-        question: "the left ventricle pumps blood.\n(v) Each heartbeat creates two audible sounds. What causes these sounds?\n(vi) What is the function of the coronary (cardiac) artery?\n(vii) Describe the effect on the circulatory system of either one of the following: smoking or exercise.",
-        marks:    60,
-        model:    "",
-        diagram:  "exam-images/biology/2022-C-Q2.png"
-      },
-    ],
-  },
-
   // bio30 (2 questions)
   {
-    id:        "biology-pp-2022-AB-q10",
-    subject:   "biology",
-    chapterId: "bio30",
-    sectionId: "bio-sectionB",
-    source:    "LC Biology HL 2022 — A+B — Q10 [⚠ may not match current course]",
-    year:      2022,
-    parts: [
-      {
-        label:    "Q10",
-        question: "(a) (i) State a location in plants where growth regulators are produced.\n(ii) How are growth regulators transported around a plant?\n(b) Answer the following questions based on an investigation you carried out into the effect of IAA growth regulator on a plant tissue.\n(i) Name a suitable plant tissue you used in this investigation.\n(ii) Describe how you set up the investigation.\n(iii) Describe how you measured the effect of IAA on the plant tissue.\n(iv) Describe any one result of your investigation.\n(v) Describe one safety precaution you took in carrying out this investigation.",
-        marks:    30,
-        model:    "",
-        diagram:  "exam-images/biology/2022-A+B-Q10.png"
-      },
-    ],
-  },
-
-  {
-    id:        "biology-pp-2024-AB-q4",
+    id:        "biology-pp-2018-A-q5",
     subject:   "biology",
     chapterId: "bio30",
     sectionId: "bio-sectionA",
-    source:    "LC Biology HL 2024 — A+B — Q4 [⚠ may not match current course]",
+    source:    "LC Biology HL 2018 — A — Q5 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "Q5",
+        question: "(a) What is an auxin?\n(b) With regard to auxins, state:\n(i) A precise location in plants where they are produced.\n(ii) One example of an inhibitory function.\n(c) (i) Exactly how does an unequal concentration of auxin in the elongation zone affect the growth of either a shoot or a root?\n(ii) Suggest what could cause an unequal concentration of auxin in a shoot or in a root?\n(d) State two uses in horticulture of auxins or related compounds.",
+        marks:    20,
+        model:    "",
+        diagram:  "exam-images/biology/2018-A-Q1.png"
+      },
+    ],
+  },
+  {
+    id:        "biology-pp-2020-C-q15",
+    subject:   "biology",
+    chapterId: "bio30",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2020 — C — Q15 [⚠ may not match current course]",
+    year:      2020,
+    parts: [
+      {
+        label:    "(a)",
+        question: "Plants produce chemicals called growth regulators such as auxin to regulate tropisms.\n(i) What is a tropism?\n(ii) Where precisely in plants are auxins produced?\n(iii) What is the precise benefit to the plant that the shoot is positively phototropic?\n(iv) Give two uses in agriculture or horticulture of plant growth regulators.\n(v) The graph below shows the result of a student’s investigation on the effect of different concentrations of IAA on the growth of plant roots and shoots.\nCompare the effects the different concentrations of IAA have on the growth of the roots and the shoots.\n(vi) State two reasons why the action of an auxin is considered to be similar to the action of a hormone in the human body.",
+        marks:    30,
+        model:    "",
+        diagram:  "exam-images/biology/2020-C-Q2.png"
+      },
+    ],
+  },
+
+  // bio31 (1 question)
+  {
+    id:        "biology-pp-2018-C-q10",
+    subject:   "biology",
+    chapterId: "bio31",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2018 — C — Q10 [⚠ may not match current course]",
+    year:      2018,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Draw a pyramid of numbers to represent the information in the food chain below.\nRose bush → Caterpillars → Blackbirds → Hawk\n(ii) What term is used to describe the organisms at the top of food chains?\n(iii) Explain why pyramids of numbers are usually restricted to three or four levels.",
+        marks:    9,
+        model:    "",
+        diagram:  "exam-images/biology/2018-A-Q2.png"
+      },
+      {
+        label:    "(b)",
+        question: "Write notes on the following.\n(i) Factors which influence the size of the human population.\n(ii) Organism adaptations.\n(iii) Conservation.",
+        marks:    27,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "(i) Describe the steps you would take to estimate the size of the population of a particular animal species in the ecosystem you have studied.\n(ii) Name a plant from the ecosystem you have studied and indicate two abiotic conditions which favour its presence.\n(iii) How did you measure any one of the abiotic conditions mentioned in (ii)?",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio32 (1 question)
+  {
+    id:        "biology-pp-2025-B-q8",
+    subject:   "biology",
+    chapterId: "bio32",
+    sectionId: "bio-sectionB",
+    source:    "LC Biology HL 2025 — B — Q8 [⚠ may not match current course]",
+    year:      2025,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) What is meant by the term ecosystem?\n(ii) What could aid ecologists in identifying organisms in a study of an ecosystem?",
+        marks:    6,
+        model:    "",
+        diagram:  "exam-images/biology/2025-A+B-Q2.png"
+      },
+      {
+        label:    "(b)",
+        question: "Answer the following questions based on your study of a sample area of a selected ecosystem.\n(i) Describe how you carried out a quantitative study of a named plant species.\n(ii) Name any two abiotic factors you have investigated as part of your study and outline how you measured each factor.",
+        marks:    24,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio33 (1 question)
+  {
+    id:        "biology-pp-2019-C-q15",
+    subject:   "biology",
+    chapterId: "bio33",
+    sectionId: "bio-sectionC",
+    source:    "LC Biology HL 2019 — C — Q15 [⚠ may not match current course]",
+    year:      2019,
+    parts: [
+      {
+        label:    "(a)",
+        question: "(i) Draw a large labelled diagram to show the structure of Rhizopus during asexual reproduction.\n(ii) What mode of nutrition does Rhizopus use?\n(iii) Describe an environmental condition that would cause Rhizopus to reproduce sexually.\n(iv) Describe in detail the process of sexual reproduction in Rhizopus.",
+        marks:    30,
+        model:    "",
+        diagram:  "exam-images/biology/2019-C-Q2.png"
+      },
+      {
+        label:    "(b)",
+        question: "Answer the following questions from your knowledge of the human digestive system.\n(i) What is meant by the term digestion?\n(ii) Give two reasons why digestion is necessary.\n(iii) Name and describe the method by which food is passed along the alimentary canal.\n(iv) Name an enzyme that digests dietary protein.\n(v) Where is this enzyme produced?\n(vi) Where is this enzyme active?\n(vii) Name the products formed by the complete digestion of a protein molecule.\nThese products are transported to the liver.\n(viii) Name the blood vessel that transports these digestion products to the liver.",
+        marks:    30,
+        model:    "",
+        diagram:  ""
+      },
+      {
+        label:    "(c)",
+        question: "Answer the following questions from your knowledge of sexual reproduction in flowering plants.\n(i) Describe in detail the development of the embryo sac from a megaspore mother-cell.\n(ii) A double fertilisation occurs in the embryo sac.\n1. Outline what happens during each fertilisation.\n2. State what is produced by each fertilisation.\n(iii) Draw a large diagram of a seed and label the following parts: testa, plumule, radicle.",
+        marks:    30,
+        model:    "",
+        diagram:  ""
+      },
+    ],
+  },
+
+  // bio-acronyms (1 question)
+  {
+    id:        "biology-pp-2024-A-q6",
+    subject:   "biology",
+    chapterId: "bio-acronyms",
+    sectionId: "bio-sectionA",
+    source:    "LC Biology HL 2024 — A — Q6 [⚠ may not match current course]",
     year:      2024,
     parts: [
       {
-        label:    "Q4",
-        question: "The diagram shows a longitudinal view of xylem vessels and phloem in plants.\n(a) Label any one structure on the diagram below by writing in the box provided and draw an arrow from the box to the named structure. Label:\n(b) To which type of plant tissue do xylem and phloem belong?\n(c) Give one function of xylem.\n(d) Give one function of phloem.\n(e) The image shows how the tissue containing xylem and phloem is arranged in a transverse section (TS) of a stem.\n(i) Is this stem a monocotyledonous (monocot) stem or a dicotyledonous (dicot) stem?\n(ii) Justify your answer above.\n(f) State the location of the tissue containing xylem and phloem in a transverse section of a root.",
+        label:    "Q6",
+        question: "Distinguish clearly between each member of the following pairs of terms.\n(a) Ectotherm and endotherm\n(b) Ligament and tendon\n(c) Carpal and carpel\n(d) Haploid and diploid\n(e) Systole and diastole",
         marks:    20,
         model:    "",
-        diagram:  "exam-images/biology/2024-A+B-Q4.png"
+        diagram:  "exam-images/biology/2024-A+B-Q2.png"
       },
     ],
   },

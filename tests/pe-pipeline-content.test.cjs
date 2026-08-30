@@ -21,6 +21,7 @@ function load(files) {
 test("PE pipeline chapters are visible and address every generated asset", () => {
   const context = load([
     "data.js",
+    "pe-content.js",
     "pe-exam-questions.js",
     "pe-flashcards.js",
     "pe-pipeline-content.js",
@@ -41,6 +42,10 @@ test("PE pipeline chapters are visible and address every generated asset", () =>
   chapters.forEach((chapter) => {
     const cards = context.FLASHCARDS_DB[chapter.id];
     const notes = chapter.learningOutcomes.flatMap((outcome) => outcome.notes || []);
-    assert.equal(notes.length, cards.length, `${chapter.id} should expose its generated deck`);
+    assert.ok(cards.length > 0, `${chapter.id} should expose its generated deck`);
+    assert.ok(
+      !notes.some((note) => cards.some((card) => note.h === card.term && note.b === card.definition)),
+      `${chapter.id} should not copy its generated deck into notes`
+    );
   });
 });
