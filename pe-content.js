@@ -31,7 +31,7 @@
         h: "What is Fitness testing?", b: "Form of assessment for performer needs and optimum performance. Identifies strengths and weaknesses to set realistic goals. Test battery: collection of tests specific to the sport. Field tests are practical and school-friendly; lab tests are more accurate."
       },
       {
-        h: "What is Key fitness tests?", b: "Cardiorespiratory endurance: Cooper 12-minute run (estimates VO2 max) or multistage 20m bleep test. Muscular endurance: push-up test, sit-up test. Muscular strength: standing broad jump (lower), seated medicine ball throw (upper), 1RM/3RM, hand grip dynamometer. Flexibility: sit-and-reach. Body composition: BMI, body fat callipers, BODPOD, DEXA scan. Agility: Illinois Agility Test, T-drill. Balance: stork balance test. Coordination: alternative hand wall toss. Power: vertical jump. Reaction time: ruler drop test. Speed: 30m sprint."
+        h: "Which fitness test measures each component of fitness?", b: "Cardiorespiratory endurance: Cooper 12-minute run (estimates VO2 max) or multistage 20m bleep test. Muscular endurance: push-up test, sit-up test. Muscular strength: standing broad jump (lower), seated medicine ball throw (upper), 1RM/3RM, hand grip dynamometer. Flexibility: sit-and-reach. Body composition: BMI, body fat callipers, BODPOD, DEXA scan. Agility: Illinois Agility Test, T-drill. Balance: stork balance test. Coordination: alternative hand wall toss. Power: vertical jump. Reaction time: ruler drop test. Speed: 30m sprint."
       },
       {
         h: "What is Factors affecting assessment?", b: "Standardised test: same protocol every time. Valid: measures what it claims to measure. Reliable: produces consistent results when repeated. Normative data: results compared against population norms."
@@ -77,7 +77,7 @@
         h: "What is FITT formula?", b: "Frequency (how often), Intensity (how hard), Time (how long), Type (what kind). Used to apply progressive overload."
       },
       {
-        h: "What is Diminishing returns?", b: "Rate of fitness improvement decreases over time as fitness approaches its potential. Fitter performers gain less from each training session."
+        h: "What does the principle of diminishing returns state?", b: "Rate of fitness improvement decreases over time as fitness approaches its potential. Fitter performers gain less from each training session."
       },
       {
         h: "What is Continuous training?", b: "Exercising continuously without rest. Low intensity, minimum 20 minutes in the aerobic zone (70-80% MHR). Develops cardiorespiratory endurance."
@@ -253,7 +253,7 @@
         h: "What is the role of Fats?", b: "Most concentrated energy source; primary fuel for endurance; aids brain/cell function; insulates organs; absorbs fat-soluble vitamins. 1g = 9 calories. Saturated (limit): butter, fatty meat. Unsaturated (aim for): nuts, seeds, vegetable oils."
       },
       {
-        h: "What is Fibre and micronutrients?", b: "Fibre: indigestible, helps absorb vitamins, removes waste, creates fullness. Vitamins: fat-soluble (A, D, E, K) stored in fatty tissue; water-soluble (B, C) must be replenished daily. Minerals: calcium, potassium, iron."
+        h: "What roles do fibre, vitamins and minerals play in the diet?", b: "Fibre: indigestible, helps absorb vitamins, removes waste, creates fullness. Vitamins: fat-soluble (A, D, E, K) stored in fatty tissue; water-soluble (B, C) must be replenished daily. Minerals: calcium, potassium, iron."
       },
       {
         h: "What is Hydration and dehydration?", b: "Water transports oxygen, nutrients and hormones; lost through sweat which also removes salts. 2% body-weight fluid loss reduces performance; 3%+ risks heat exhaustion. Athletes can sweat 6-10% body weight in competition."
@@ -262,7 +262,7 @@
         h: "What is an Energy systems (ATP)?", b: "All produce ATP for muscle contraction. ATP-PCr system: immediate, max intensity, 8-10 sec, recovers in 2-3 min (100m sprint, powerlifting). Anaerobic glycolysis: uses glycogen without oxygen, up to 1-2 min, produces lactic acid (800m, circuit training); lactate clears in ~8 min. Aerobic glycolysis: uses oxygen with fats and carbs, 2 min to hours, recovery hours-3 days (marathon, long-distance cycling). The energy continuum describes how all three contribute together."
       },
       {
-        h: "What is Supplements and sports drinks?", b: "WADA and Sport Ireland do not endorse supplements; performers must check the prohibited list. Sports drinks: water + electrolytes + 6-8% carbohydrates, no stimulants. Energy drinks: contain stimulants (caffeine, guarana). Key supplements: protein (muscle repair), creatine (extends ATP-PCr), caffeine (CNS stimulant, fat metabolism), nitrates (oxygen uptake)."
+        h: "What should a performer know about supplements and sports drinks?", b: "WADA and Sport Ireland do not endorse supplements; performers must check the prohibited list. Sports drinks: water + electrolytes + 6-8% carbohydrates, no stimulants. Energy drinks: contain stimulants (caffeine, guarana). Key supplements: protein (muscle repair), creatine (extends ATP-PCr), caffeine (CNS stimulant, fat metabolism), nitrates (oxygen uptake)."
       },
       {
         h: "What is Metabolism and BMR?", b: "Metabolism converts food into energy. BMR (Basal Metabolic Rate): calories required at rest. Affected by gender, weight, height, age, body composition, genetics. Males have a 10-15% higher BMR; BMR falls 2-3% per decade after age 18."
@@ -496,16 +496,16 @@
         h: "What is Planes and axes paired?", b: "Frontal plane rotates around the sagittal axis (FP/SA). Transverse plane rotates around the vertical axis (TP/VA). Sagittal plane rotates around the frontal axis (SP/FA)."
       },
       {
-        h: "What is Levers?", b: "A lever is a rigid body moving around a fulcrum. In the body: bones are the lever, joints are the fulcrum, muscles supply the effort, body parts or weights are the load."
+        h: "What is a lever, and what forms the lever system in the body?", b: "A lever is a rigid body moving around a fulcrum. In the body: bones are the lever, joints are the fulcrum, muscles supply the effort, body parts or weights are the load."
       },
       {
-        h: "What is Three classes of levers?", b: "1st class — fulcrum in the middle (neck nodding). 2nd class — load in the middle (standing on tiptoe; gastrocnemius is the effort, body weight is the load, ball of foot is fulcrum). 3rd class — effort in the middle (biceps curl); most common in the human body."
+        h: "What are the three classes of lever?", b: "1st class — fulcrum in the middle (neck nodding). 2nd class — load in the middle (standing on tiptoe; gastrocnemius is the effort, body weight is the load, ball of foot is fulcrum). 3rd class — effort in the middle (biceps curl); most common in the human body."
       },
       {
         h: "Distinguish between Mechanical advantage and disadvantage.", b: "Load arm: load to fulcrum. Effort arm: effort to fulcrum. Mechanical advantage: effort arm longer than load arm — lifts large loads with small effort. 2nd class always has mechanical advantage; 3rd class always has mechanical disadvantage."
       },
       {
-        h: "What is Quantities and units?", b: "Scalar = magnitude only (time, length, mass, speed, temperature). Vector = magnitude + direction (force, weight, velocity, acceleration, displacement). Force/weight in Newtons (N), acceleration m/s2, velocity m/s, displacement m, mass kg."
+        h: "What is the difference between scalar and vector quantities?", b: "Scalar = magnitude only (time, length, mass, speed, temperature). Vector = magnitude + direction (force, weight, velocity, acceleration, displacement). Force/weight in Newtons (N), acceleration m/s2, velocity m/s, displacement m, mass kg."
       },
       {
         h: "What is the difference between Distance and displacement?", b: "Distance is the scalar interval covered along the path. Displacement is the shortest straight-line vector from start to finish. A 400m runner finishing in the same lane has covered 400m distance but 0m displacement."
@@ -625,7 +625,7 @@
         h: "What is an Injury prevention?", b: "Warm-up increases body temperature, blood flow, flexibility and range of motion. Cool-down removes lactic acid, prevents DOMS and blood pooling, and returns HR gradually to rest."
       },
       {
-        h: "What is Risk factors?", b: "Intrinsic: personal to the performer (previous injury, age, fitness). Extrinsic: external (surface, weather, equipment)."
+        h: "What are intrinsic and extrinsic risk factors?", b: "Intrinsic: personal to the performer (previous injury, age, fitness). Extrinsic: external (surface, weather, equipment)."
       },
       {
         h: "What is Common injuries?", b: "Ankle sprain, pulled groin, hamstring strain, shin splints, ACL tear, patellofemoral knee syndrome, tennis elbow (epicondylitis), head injury."

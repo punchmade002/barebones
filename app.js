@@ -1631,7 +1631,7 @@ function startTest() {
   const chapter = getSelectedChapter();
   const outcome = getSelectedOutcome();
   if (!outcome) return;
-  const pool = questionsForChapter(chapter);
+  const pool = questionsForChapter(chapter, outcome);
   const sample = shuffleArray(pool).slice(0, 3);
 
   els.testContainer.innerHTML = "";
@@ -2013,12 +2013,18 @@ function questionsForOutcome(outcome, subjectId) {
   }));
 }
 
-function questionsForChapter(chapter) {
+function questionsForChapter(chapter, selectedOutcome) {
   const subjectId = chapter.subject || "business";
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes)) {
     const all = [];
-    source.learningOutcomes.forEach((lo) => {
+    // Multi-outcome subjects such as Chemistry expose source outcome IDs with a
+    // display-only "-core" suffix. Keep the Test pool scoped to the outcome the
+    // learner selected; merged single-outcome chapters continue to use all source LOs.
+    const sourceOutcomeId = String(selectedOutcome?.id || "").replace(/-core$/, "");
+    const matchingOutcome = source.learningOutcomes.find((lo) => lo.id === sourceOutcomeId);
+    const outcomesToTest = matchingOutcome ? [matchingOutcome] : source.learningOutcomes;
+    outcomesToTest.forEach((lo) => {
       (lo.questions || []).forEach((q, idx) => {
         if (q.type !== "short" || !q.prompt) return;
         const promptText = compactText(q.prompt);
