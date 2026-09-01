@@ -1702,4 +1702,207 @@
     ];
   })();
 
+  // Outcome-level coverage repair.
+  //
+  // The textbook chapter order and the specification outcome order do not always
+  // coincide. Keep each note with the outcome it actually teaches so selecting a
+  // specification outcome never produces an empty panel or unrelated material.
+  (function () {
+    function outcome(id) {
+      var chapter = COURSE_DATA.chapters.find(function (item) {
+        return (item.learningOutcomes || []).some(function (entry) { return entry.id === id; });
+      });
+      return chapter && chapter.learningOutcomes.find(function (entry) { return entry.id === id; });
+    }
+
+    function setNotes(id, notes) {
+      outcome(id).notes = notes;
+    }
+
+    function takeNote(sourceId, heading) {
+      var source = outcome(sourceId);
+      var index = source.notes.findIndex(function (note) { return note.h === heading; });
+      if (index < 0) return null;
+      return source.notes.splice(index, 1)[0];
+    }
+
+    function moveItems(sourceId, targetId, field, predicate) {
+      var source = outcome(sourceId);
+      var target = outcome(targetId);
+      var moved = source[field].filter(predicate);
+      source[field] = source[field].filter(function (item) { return !predicate(item); });
+      target[field] = target[field].concat(moved);
+    }
+
+    // Unifying strand: these process outcomes need explicit guidance rather than
+    // being treated as chapter facts.
+    setNotes('chem1-3', [
+      { h: "Questions Suitable for Scientific Investigation", b: "A suitable scientific question is specific, testable with observations or measurements, and capable of producing evidence that could support or challenge an explanation. It should identify variables that can be changed, measured or controlled and should not depend on opinion or a value judgement. For example, ‘How does temperature affect the rate of the sodium thiosulfate–hydrochloric acid reaction?’ is investigable; ‘Is chemistry the most useful science?’ is not. Before investigating, check that the equipment can measure the expected change, the range is practical and safe, and the question asks one clear thing." }
+    ]);
+    setNotes('chem1-4', [
+      { h: "Testable Hypotheses and Investigation Strategies", b: "A hypothesis is a testable explanation, grounded in scientific theory, that predicts how the independent variable will affect the dependent variable and gives a scientific reason. A useful form is: if X changes, then Y will change in this way, because…. Compare possible strategies by asking whether each isolates the independent variable, measures the dependent variable over a suitable range, controls important variables, provides repeat data, uses suitable precision and can be completed safely. A strategy is not stronger merely because it uses more equipment; it is stronger when the evidence it produces is valid, reliable and capable of testing the hypothesis." }
+    ]);
+    setNotes('chem1-6', [
+      { h: "Selecting, Analysing and Concluding from Data", b: "Qualitative data describe properties such as colour, state or precipitate; quantitative data are numerical measurements with units. Record raw data before processing it, use an appropriate table and graph, and show calculations and uncertainties. Look for trends, proportional relationships, plateaus and anomalous points. An anomaly should be checked against the method and repeated where possible, not silently deleted. A conclusion must answer the question using the observed pattern and relevant figures, distinguish correlation from causation, state whether the hypothesis was supported, and acknowledge uncertainty or evidence that limits the claim." }
+    ]);
+    setNotes('chem1-7', [
+      { h: "Reviewing an Investigation and Transferring the Learning", b: "Reflection identifies what the evidence and method allow you to claim and what should change next time. Review planning, measurement, control of variables, safety, data handling and scientific reasoning. Name a limitation, explain its likely effect on the result, and propose a specific improvement—for example, use a gas syringe instead of counting bubbles because bubble size varies. In an unfamiliar problem, identify the underlying principle, separate known and unknown quantities, choose a related method or model, test the solution against units and chemical sense, and revise it if the evidence does not fit." }
+    ]);
+
+    // Relative atomic mass was taught in the periodic-table chapter even though
+    // the assessed outcome is in the mole chapter. Move the authored explanation,
+    // card and practice question to the outcome that owns it.
+    var relativeAtomicMass = takeNote('chem4-1', 'Relative atomic mass and the mass spectrometer');
+    setNotes('chem8-2', [relativeAtomicMass || {
+      h: "Relative Atomic Mass and Isotopic Abundance",
+      b: "Relative atomic mass is the weighted mean mass of an atom of an element compared with one twelfth of carbon-12. Multiply each isotope mass by its fractional abundance and add the products: Aᵣ = Σ(isotope mass × fractional abundance). If chlorine is 75% chlorine-35 and 25% chlorine-37, Aᵣ = (35 × 75 + 37 × 25)/100 = 35.5. The same relationship can be rearranged to find an unknown percentage abundance; all abundances must total 100%."
+    }]);
+    moveItems('chem4-1', 'chem8-2', 'keyTerms', function (item) {
+      return /relative atomic mass|mass spectrometer/i.test(item.term);
+    });
+    moveItems('chem4-1', 'chem8-2', 'questions', function (item) {
+      return /relative atomic mass/i.test(item.prompt);
+    });
+
+    // Gas-law teaching was bundled with ideal-gas calculations in chem9. The
+    // specification places Avogadro's law and the volatile-liquid experiment here.
+    var avogadroNote = takeNote('chem9-5', "Avogadro's Law and Molar Volume of a Gas");
+    var volatileLiquidNote = takeNote('chem9-5', 'Experiment 9.1: Measuring Mr of a Volatile Liquid');
+    setNotes('chem8-3', [avogadroNote]);
+    setNotes('chem8-4', [volatileLiquidNote]);
+    moveItems('chem9-5', 'chem8-3', 'keyTerms', function (item) {
+      return /Avogadro|molar volume/i.test(item.term);
+    });
+    moveItems('chem9-5', 'chem8-4', 'keyTerms', function (item) {
+      return /volatile liquid/i.test(item.term);
+    });
+    moveItems('chem9-5', 'chem8-3', 'questions', function (item) {
+      return /Avogadro|molar volume/i.test(item.prompt);
+    });
+    moveItems('chem9-5', 'chem8-4', 'questions', function (item) {
+      return /volatile liquid/i.test(item.prompt);
+    });
+
+    setNotes('chem8-5', [
+      { h: "Concentration, Dilution and Preparing Solutions", b: "Concentration describes the amount of solute in a stated volume of solution. For molar concentration, c = n/V, with n in moles and V in litres. To prepare a solution, calculate the required amount, weigh or measure it accurately, dissolve it in a beaker, transfer quantitatively to a volumetric flask, rinse all material into the flask, make the meniscus up to the mark with deionised water and invert repeatedly to mix. A primary standard must be pure, stable, soluble and suitable for accurate weighing. To prepare a range, use C₁V₁ = C₂V₂ or serial dilution; use a volumetric pipette and flask so every dilution factor is known." }
+    ]);
+    setNotes('chem8-6', [
+      { h: "Converting Concentration Units", b: "Choose a common volume basis before converting. Since 1 L = 1000 cm³, mol L⁻¹ to mol cm⁻³ requires division by 1000, while mol cm⁻³ to mol L⁻¹ requires multiplication by 1000. Convert mol L⁻¹ to g L⁻¹ using mass concentration = molar concentration × Mᵣ; reverse by dividing by Mᵣ. For dilute aqueous solutions, 1 mg L⁻¹ is approximately 1 ppm. Percentage concentration states grams or cubic centimetres per 100 g or 100 cm³ as specified. Always write units through the calculation: they reveal whether the conversion direction is correct." }
+    ]);
+
+    setNotes('chem9-3', [
+      { h: "Choosing a Separation Technique", b: "Choose a method from the property in which the components differ. Filtration separates an insoluble solid from a liquid by particle size; evaporation or crystallisation recovers a dissolved solid using volatility and solubility; simple distillation recovers a solvent or separates liquids with widely different boiling points; fractional distillation separates miscible liquids with closer boiling points; a separating funnel separates immiscible liquids by density; chromatography separates soluble substances by different attraction to the stationary and mobile phases; sublimation isolates a solid that changes directly to vapour. Justification must name the relevant property and the desired component, not merely name the apparatus." }
+    ]);
+
+    setNotes('chem12-3', [
+      { h: "How Acid–Base Indicators Work", b: "An acid–base indicator is a weak acid or weak base whose conjugate forms have different colours. For a weak-acid indicator: HIn ⇌ H⁺ + In⁻, where HIn and In⁻ have different colours. Adding acid increases [H⁺], so Le Châtelier's principle shifts the equilibrium left and the HIn colour dominates. Adding base removes H⁺ as water, so the equilibrium shifts right and the In⁻ colour dominates. The visible transition occurs over a narrow pH range around the indicator's pKa. Choose an indicator whose transition range lies inside the steep pH change near the titration equivalence point; this is why not every indicator suits every acid–base titration." }
+    ]);
+
+    setNotes('chem14-3', [
+      { h: "Metal Displacement and the Electrochemical Series", b: "A metal higher in the electrochemical series loses electrons more readily and displaces the ions of a metal below it. For zinc placed in copper(II) sulfate: Zn(s) → Zn²⁺(aq) + 2e⁻ and Cu²⁺(aq) + 2e⁻ → Cu(s), giving Zn + Cu²⁺ → Zn²⁺ + Cu. The blue solution fades and copper coats the zinc. To investigate, place cleaned metal strips into equal volumes and concentrations of different metal-ion solutions, keep time, temperature and surface area controlled, and record colour, coating, temperature or mass changes. A reaction confirms the solid metal is above the displaced metal in the series; no visible reaction sets a limit but is not proof that no very slow reaction is possible." }
+    ]);
+
+    setNotes('chem17-4', [
+      { h: "Catalysed and Uncatalysed Energy Profiles", b: "A reaction profile plots enthalpy against reaction progress. The vertical gap from reactants to the peak is the forward activation energy; the peak represents the activated complex; ΔH is products minus reactants. Products lie below reactants for an exothermic reaction (ΔH < 0) and above them for an endothermic reaction (ΔH > 0). A catalyst provides an alternative pathway with a lower activation-energy peak for both forward and reverse reactions. It does not change reactant or product enthalpy, ΔH, equilibrium position or yield; it only lets equilibrium be reached faster." }
+    ]);
+
+    setNotes('chem18-5', [
+      { h: "Investigating Temperature and Concentration at Equilibrium", b: "For Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq), the product is blood-red. Divide one equilibrium mixture into matched samples. Adding SCN⁻ increases a reactant concentration and shifts equilibrium right, intensifying red; removing Fe³⁺ with chloride shifts it left and fades the colour. For temperature, use a visibly reversible equilibrium such as 2NO₂(g) ⇌ N₂O₄(g), ΔH < 0: warming favours the endothermic reverse direction and darkens brown NO₂, while cooling favours colourless N₂O₄. Use controls and allow each sample to re-establish equilibrium. Concentration changes alter position but not Kc at fixed temperature; temperature changes both position and Kc." }
+    ]);
+
+    setNotes('chem19-5', [
+      { h: "Using Ka and Kb to Compare Dissociation", b: "For HA + H₂O ⇌ H₃O⁺ + A⁻, Ka = [H₃O⁺][A⁻]/[HA]. For B + H₂O ⇌ BH⁺ + OH⁻, Kb = [BH⁺][OH⁻]/[B]. At the same temperature and comparable concentration, a larger Ka means greater acid dissociation and a stronger acid; a larger Kb means a stronger base. Strong acids and bases dissociate essentially completely in water, so equilibrium-constant treatment is mainly used for weak species. Strength is not concentration: a dilute strong acid may have a higher pH than a concentrated weak acid. Conjugate strength is inverse, with Ka × Kb = Kw for a conjugate pair." }
+    ]);
+
+    setNotes('chem20-5', [
+      { h: "Lithium-Ion Cell: Operation and Life Cycle", b: "A lithium-ion cell has a graphite anode, a metal-oxide cathode, an electrolyte carrying Li⁺ ions and a separator that prevents direct contact. During discharge, lithium is oxidised at the anode; Li⁺ crosses the electrolyte while electrons travel through the external circuit and do electrical work. At the cathode, Li⁺ and electrons are incorporated into the metal-oxide structure. Charging uses an external voltage to reverse these processes. Life-cycle assessment includes mining lithium, cobalt, nickel and graphite; energy- and water-intensive manufacture; efficient repeated use; capacity loss and fire risk; collection, safe discharge, dismantling and recovery of valuable metals. Recycling and longer service life reduce, but do not remove, the environmental cost." }
+    ]);
+    setNotes('chem20-6', [
+      { h: "Researching Chemistry through a Cross-Cutting Theme", b: "Frame a focused question connecting course chemistry to health, sustainability or technology—for example, whether lithium-ion battery recycling materially reduces mining demand. Use several current, credible sources and distinguish measured data from claims or opinion. Explain the underlying chemistry, compare benefits, risks and trade-offs, and consider the full system or life cycle rather than one favourable stage. Record references, evaluate authorship, evidence, date and possible bias, then communicate a justified conclusion that answers the question and states remaining uncertainty. A good research outcome is evidence-led and chemically explained, not a collage of facts." }
+    ]);
+
+    // The combined source note is split so cell comparison remains in chem22 and
+    // lithium-ion operation/life-cycle sits with its chem20 outcome.
+    setNotes('chem22-1', [
+      { h: "Primary and Secondary Cells", b: "A primary cell is designed for one discharge: its chemical reaction is not readily reversible, so it is discarded when reactants are depleted. A secondary cell uses reactions that can be reversed by an external current and can be recharged many times. Compare cells by voltage, capacity, energy density, self-discharge, cycle life, cost, safety and environmental impact. Primary cells suit low-drain or long-storage uses; secondary cells usually have greater initial cost but lower cost and waste per use. Recharging does not restore a cell perfectly: side reactions and structural changes gradually reduce capacity." }
+    ]);
+
+    setNotes('chem21-5', [
+      { h: "Predicting ΔH from Average Bond Enthalpies", b: "Bond breaking is endothermic and bond making is exothermic. Estimate a reaction enthalpy using ΔH = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed). First draw or inspect every covalent reactant and product, count each bond with its coefficient, then substitute average bond enthalpies in kJ mol⁻¹. A negative result predicts an exothermic reaction; a positive result predicts an endothermic reaction. The answer is an estimate because tabulated values are averages from many gaseous molecules and may differ from the exact bonds and physical states in the reaction." }
+    ]);
+
+    setNotes('chem22-4', [
+      { h: "Chemical Cells Compared with Fuel Cells", b: "Both chemical cells and fuel cells use separated redox half-reactions to drive electrons through an external circuit. A conventional chemical cell stores a fixed quantity of reactants internally; its output ends when they are consumed and it must be replaced or recharged. A fuel cell receives fuel and oxidant continuously and can operate while supplies continue; products are removed. Hydrogen fuel cells can give water at point of use and avoid charging time, but hydrogen must be produced, compressed or liquefied, transported and stored. Compare full life-cycle efficiency, source of fuel or electricity, infrastructure, materials, emissions, safety and intended use rather than assuming either technology is automatically cleaner." }
+    ]);
+    setNotes('chem22-6', [
+      { h: "Electrochemistry in Sustainable Technology", b: "A research case should connect an electrochemical process to a real sustainability decision. Examples include lithium-ion recycling, hydrogen electrolysis and fuel cells, corrosion prevention, electroplating or electrochemical water treatment. State the oxidation and reduction processes, identify energy and material inputs, and use evidence to compare performance, lifetime, waste, emissions, scarcity, safety and cost. Include upstream electricity or feedstock and end-of-life treatment. Finish with a conditional judgement—for example, green hydrogen reduces operational carbon only when the electricity and hydrogen supply are genuinely low-carbon." }
+    ]);
+
+    // Split the broad hydrocarbon notes into the specification outcomes they teach.
+    setNotes('chem23-1', [
+      { h: "Sources and Uses of Hydrocarbons", b: "The main natural sources are natural gas (mostly methane), crude oil and coal. They are fossil fuels formed over geological time and are finite. Fractional distillation separates crude oil into fractions with different boiling ranges. Uses depend on molecular size and reactivity: methane and LPG for heating; petrol-range hydrocarbons for transport; heavier fractions for diesel, lubricants, bitumen and road surfacing; ethene and propene as polymer feedstocks; benzene derivatives in solvents, detergents, dyes and pharmaceuticals. Cracking converts less useful long molecules into shorter fuels and reactive alkenes for chemical manufacture." }
+    ]);
+    setNotes('chem23-2', [
+      { h: "Societal Impact of Extensive Hydrocarbon Use", b: "A major impact is anthropogenic climate change. Burning hydrocarbons transfers carbon from geological stores to atmospheric CO₂; methane leakage adds a more powerful short-lived greenhouse gas. Benefits—portable energy, transport, heating, fertiliser and materials—must be weighed against warming, air pollution, spills, habitat damage and dependence on finite resources. A strong research case uses evidence for one defined sector, distinguishes combustion emissions from full life-cycle emissions, compares credible alternatives and considers a just transition for workers and consumers. Efficiency and carbon capture may reduce impacts, while electrification and renewable energy can avoid combustion where infrastructure allows." }
+    ]);
+    setNotes('chem23-3', [
+      { h: "Preparing and Testing Ethene", b: "Place ethanol on glass wool in a horizontal boiling tube and aluminium oxide farther along the tube. Heat the aluminium oxide strongly, then warm the ethanol so its vapour passes over the hot catalyst. Ethanol undergoes dehydration: C₂H₅OH → C₂H₄ + H₂O. Collect ethene over water and discard the first jar because it contains displaced air. Ethene is a colourless gas, only slightly soluble in water, burns with a luminous flame, decolourises bromine water by addition across C=C and decolourises dilute acidified potassium permanganate. Wear eye protection, keep flammable ethanol and ethene away from unintended flames, and prevent suck-back by removing the delivery tube before heating stops." }
+    ]);
+    setNotes('chem23-6', [
+      { h: "Why Alkanes Are Relatively Stable", b: "Alkanes contain only strong C–C and C–H sigma bonds. Their C–H bonds have low polarity because carbon and hydrogen have similar electronegativities, so alkanes offer no strongly positive or negative site for common ionic reagents to attack. They do not react with bromine water in the dark and resist mild oxidising agents. They are not completely inert: combustion occurs after sufficient activation energy is supplied, and halogen substitution occurs by a free-radical chain mechanism under ultraviolet light. ‘Stable’ therefore means kinetically unreactive under ordinary conditions, not incapable of reaction." }
+    ]);
+    setNotes('chem23-7', [
+      { h: "3D Representations, Bonding and Isomerism", b: "A molecular formula gives composition, a displayed or structural formula shows connectivity, a skeletal formula abbreviates the carbon framework, and a ball-and-stick or space-filling model represents three-dimensional arrangement. Rotate models to compare conformations without changing connectivity. Carbon with four sigma bonds is tetrahedral (about 109.5°); a carbon in C=C is trigonal planar (about 120°) and cannot rotate freely because the pi bond would break; a carbon in C≡C is linear (180°). Structural isomers have different connectivity, while cis–trans isomers have the same connectivity but different spatial arrangement around a restricted double bond. A 2D drawing may hide these distinctions, so compare more than one representation." }
+    ]);
+
+    // Addition polymers were under chem24 while their outcome is in chem25.
+    var polymerNote = takeNote('chem24-1', 'Addition Polymers');
+    setNotes('chem24-1', [
+      { h: "Sources, Uses and Impacts of Organic Compounds", b: "Organic compounds come from living systems and natural products, fossil feedstocks such as crude oil and natural gas, and laboratory or industrial synthesis. Fuels, solvents, medicines, dyes, detergents, polymers, flavourings and fragrances depend on controlling carbon structure and functional groups. Their benefits include energy, sanitation, food preservation and healthcare; impacts include toxicity, volatile-organic-compound emissions, persistent plastic waste, resource depletion and greenhouse-gas emissions. Assess a product across raw materials, manufacture, use and disposal, and compare whether recycling, substitution, renewable feedstocks or safer molecular design reduces the overall impact." }
+    ]);
+    setNotes('chem24-3', [
+      { h: "Representing Organic Molecules", b: "Molecular formulae show atom totals; empirical formulae show the simplest ratio; displayed formulae show every atom and bond; condensed structural formulae show connectivity compactly; skeletal formulae omit carbon labels and hydrogens attached to carbon; 3D wedge-and-dash or model representations show spatial arrangement. Convert between representations by preserving carbon valency of four and the correct functional-group connectivity. Different representations of the same molecule must have the same atoms and bonds, while structural isomers share a molecular formula but differ in connectivity. No single model shows everything: skeletal formulae are efficient, displayed formulae make bonding explicit, and 3D models reveal shape." }
+    ]);
+    setNotes('chem24-4', [
+      { h: "Physical Properties from Size and Bonding", b: "Boiling point rises when intermolecular forces are stronger and generally rises down a homologous series as molecular size, electron count and London dispersion forces increase. Branching usually lowers boiling point by reducing surface contact. Polar functional groups add permanent dipole forces; O–H groups in alcohols and carboxylic acids form hydrogen bonds, giving much higher boiling points than similar-sized alkanes. Small alcohols and acids mix with water because they hydrogen-bond to it, but solubility falls as the non-polar hydrocarbon chain grows. Esters accept hydrogen bonds from water but cannot hydrogen-bond strongly to one another, so they are relatively volatile and only the smaller members are appreciably soluble." }
+    ]);
+    setNotes('chem24-5', [
+      { h: "Acidity of Alcohols and Carboxylic Acids", b: "Both functional groups can lose the proton from an O–H bond, but alcohols are extremely weak acids. An alkoxide ion, RO⁻, keeps its negative charge mainly on one oxygen and is not resonance-stabilised; alcohols therefore do not normally react with NaOH or carbonate, though reactive sodium metal releases H₂. A carboxylic acid forms RCOO⁻, in which the negative charge is delocalised across two oxygen atoms and the two C–O bonds become equivalent. This stabilises the conjugate base and makes proton loss more favourable. Electron-withdrawing groups further stabilise RCOO⁻ by induction and increase acidity; electron-releasing alkyl groups decrease it." }
+    ]);
+    setNotes('chem25-10', [polymerNote || {
+      h: "Addition Polymers",
+      b: "Addition polymers form when alkene monomers open their C=C bonds and join into long saturated chains. The repeat unit retains the substituents of the monomer. Poly(ethene), poly(propene), PVC and polystyrene have different properties and applications because their side groups change chain packing and intermolecular forces. Their strong C–C backbones are chemically stable and enzymes generally cannot attack them, so they are non-biodegradable and persist unless reused, recycled or recovered."
+    }]);
+    moveItems('chem24-1', 'chem25-10', 'keyTerms', function (item) {
+      return /addition polymer/i.test(item.term);
+    });
+    moveItems('chem24-1', 'chem25-10', 'questions', function (item) {
+      return /addition polymer|PVC/i.test(item.prompt);
+    });
+
+    // The final chem25 source note combined three different outcomes. Replace it
+    // with focused material and move the acidity practice to its chem24 owner.
+    setNotes('chem25-3', [
+      { h: "Reading and Predicting Organic Reaction Schemes", b: "Start by identifying each functional group and carbon skeleton. For every arrow, use the reagent, conditions and reaction type to decide what bond changes: substitution replaces a group; addition removes a multiple bond; elimination creates one; oxidation increases bonding to oxygen or decreases bonding to hydrogen; reduction does the reverse; acid–base steps transfer H⁺. Work both forward and backward: if the product is an aldehyde, a primary alcohol may have been mildly oxidised; if an alkene is required, an alcohol may undergo dehydration. Check carbon count, valency, atom balance and whether the stated conditions are selective. More than one route may be valid, but every intermediate must be chemically plausible." }
+    ]);
+    setNotes('chem25-4', [
+      { h: "Preparing an Ester by Reflux", b: "Mix a carboxylic acid and alcohol with a small amount of concentrated sulfuric acid and anti-bumping granules. Heat in a water bath under a vertical condenser: vapour cools and returns, allowing prolonged heating without losing volatile reactants. For methyl propanoate: C₂H₅COOH + CH₃OH ⇌ C₂H₅COOCH₃ + H₂O. Cool, transfer to a separating funnel with water, separate the organic layer, wash with sodium carbonate to remove acid and release pressure frequently as CO₂ forms. Separate again, dry the ester with anhydrous calcium chloride and decant or distil. Avoid a naked flame because the alcohol and ester are flammable." }
+    ]);
+    setNotes('chem25-7', [
+      { h: "Redox and Acid–Base Reactions of Organic Compounds", b: "Oxidation in organic chemistry usually increases C–O bonding or decreases C–H bonding; reduction does the reverse. Primary alcohols oxidise to aldehydes and then carboxylic acids, secondary alcohols to ketones, while tertiary alcohols resist mild oxidation because the carbon bearing –OH has no hydrogen. Aldehydes reduce Fehling's or Tollens' reagent and are oxidised themselves. In acid–base reactions, alcohols act as very weak proton donors to reactive sodium, while carboxylic acids neutralise bases and carbonates and react with active metals: CH₃COOH + NaOH → CH₃COONa + H₂O; 2CH₃COOH + Mg → Mg(CH₃COO)₂ + H₂. Classify from electron/oxidation-state change or proton transfer, not solely from the reagent name." }
+    ]);
+    setNotes('chem25-8', [
+      { h: "How Soap and Other Surfactants Work", b: "Soap is a sodium or potassium salt of a long-chain carboxylic acid. Each ion has a non-polar hydrophobic hydrocarbon tail and an ionic hydrophilic carboxylate head. The tail embeds in grease while the head remains attracted to water. Agitation produces micelles with grease trapped inside, tails inward and heads outward; the dispersed droplets can then be rinsed away. Surfactants lower surface tension and are used in detergents, shampoos, emulsions, wetting agents and dispersants. Soap forms insoluble scum with Ca²⁺ and Mg²⁺ in hard water, whereas many synthetic detergents remain effective." }
+    ]);
+    setNotes('chem25-9', [
+      { h: "Preparing Soap and Testing the Limiting Reagent", b: "Heat a measured fat or oil with ethanolic sodium hydroxide under reflux so ester bonds undergo saponification, producing glycerol and sodium salts of fatty acids. Add concentrated sodium chloride to ‘salt out’ the soap, cool, collect by filtration and wash with cold brine. Use goggles and a water bath: NaOH is corrosive and ethanol is flammable. If NaOH is limiting, some fat remains unreacted and the isolated soap amount is limited by moles of OH⁻. If NaOH is in excess, conversion of fat is promoted but residual alkali can make the product harsh; washing or neutralisation is required. Compare theoretical and actual yield and test pH, lather and cleaning action." }
+    ]);
+    moveItems('chem25-7', 'chem24-5', 'questions', function (item) {
+      return /why carboxylic acids are acidic/i.test(item.prompt);
+    });
+    moveItems('chem25-8', 'chem25-9', 'keyTerms', function (item) {
+      return /saponification|hydrolysis/i.test(item.term);
+    });
+  })();
+
 })();
