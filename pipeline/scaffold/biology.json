@@ -1,0 +1,165 @@
+{
+  "subject": "biology",
+  "field": "Leaving Certificate Biology — Higher Level",
+  "note": "Built deterministically from the app's existing Biology chapters for curated answer backfill.",
+  "sections": [
+    {
+      "id": "bio-sectionA",
+      "title": "Section A"
+    },
+    {
+      "id": "bio-sectionB",
+      "title": "Section B"
+    },
+    {
+      "id": "bio-sectionC",
+      "title": "Section C"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "bio1",
+      "title": "Scientific Knowledge"
+    },
+    {
+      "id": "bio2",
+      "title": "INVESTIGATING IN SCIENCE"
+    },
+    {
+      "id": "bio3",
+      "title": "SCIENCE IN SOCIETY"
+    },
+    {
+      "id": "bio4",
+      "title": "BIOLOGICAL REASONING"
+    },
+    {
+      "id": "bio5",
+      "title": "Characteristics of Life"
+    },
+    {
+      "id": "bio6",
+      "title": "Viruses, Classification and Domains of Life"
+    },
+    {
+      "id": "bio7",
+      "title": "The Unit of Life — The Cell"
+    },
+    {
+      "id": "bio8",
+      "title": "Biomolecules — The Chemicals of Life"
+    },
+    {
+      "id": "bio9",
+      "title": "Transfer Molecules"
+    },
+    {
+      "id": "bio10",
+      "title": "DNA, RNA and the Genetic Code"
+    },
+    {
+      "id": "bio11",
+      "title": "Genetic Inheritance"
+    },
+    {
+      "id": "bio12",
+      "title": "Evolution: The Origins of Life"
+    },
+    {
+      "id": "bio13",
+      "title": "Enzymes"
+    },
+    {
+      "id": "bio14",
+      "title": "Photosynthesis"
+    },
+    {
+      "id": "bio15",
+      "title": "Respiration"
+    },
+    {
+      "id": "bio16",
+      "title": "Cell Division and Cancer"
+    },
+    {
+      "id": "bio17",
+      "title": "DNA Replication, Protein Synthesis and Mutations"
+    },
+    {
+      "id": "bio18",
+      "title": "The Musculoskeletal System"
+    },
+    {
+      "id": "bio19",
+      "title": "The Nervous System"
+    },
+    {
+      "id": "bio20",
+      "title": "The Endocrine System"
+    },
+    {
+      "id": "bio21",
+      "title": "HOMEOSTASIS"
+    },
+    {
+      "id": "bio22",
+      "title": "IMMUNITY"
+    },
+    {
+      "id": "bio23",
+      "title": "HUMAN REPRODUCTION"
+    },
+    {
+      "id": "bio24",
+      "title": "PLANT REPRODUCTION"
+    },
+    {
+      "id": "bio25",
+      "title": "Transport Across Membranes"
+    },
+    {
+      "id": "bio26",
+      "title": "The Urinary System"
+    },
+    {
+      "id": "bio27",
+      "title": "The Digestive System"
+    },
+    {
+      "id": "bio28",
+      "title": "The Breathing System"
+    },
+    {
+      "id": "bio29",
+      "title": "The Circulatory System and Blood"
+    },
+    {
+      "id": "bio30",
+      "title": "Transport in Plants"
+    },
+    {
+      "id": "bio31",
+      "title": "Ecology, Ecosystems and Biodiversity"
+    },
+    {
+      "id": "bio32",
+      "title": "Investigating an Ecosystem"
+    },
+    {
+      "id": "bio33",
+      "title": "Microorganisms"
+    },
+    {
+      "id": "bio34",
+      "title": "Nutrient Cycling"
+    },
+    {
+      "id": "bio35",
+      "title": "Genetic Engineering"
+    },
+    {
+      "id": "bio-acronyms",
+      "title": "Acronyms"
+    }
+  ]
+}

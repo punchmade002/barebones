@@ -38,8 +38,15 @@ def test_output_must_cover_expected_pids_in_order():
     assert not model_answers.validate_output({"answers": list(reversed(good["answers"]))}, job)
 
 
+def test_curated_level_abbreviations_are_recognised():
+    assert model_answers.q_level({"source": "LC Biology HL 2018 — Q7"}) == "higher"
+    assert model_answers.q_level({"source": "LC Biology OL 2018 — Q7"}) == "ordinary"
+    assert model_answers.q_level({"level": "higher", "source": "legacy"}) == "higher"
+
+
 TESTS = [
     ("prompt uses stable ids for repeated labels", test_prompt_uses_stable_part_ids_for_repeated_labels),
     ("apply maps repeated labels by pid", test_apply_maps_repeated_labels_by_pid),
     ("output covers expected pids in order", test_output_must_cover_expected_pids_in_order),
+    ("curated level abbreviations are recognised", test_curated_level_abbreviations_are_recognised),
 ]

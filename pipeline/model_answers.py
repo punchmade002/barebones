@@ -85,9 +85,21 @@ def load_scheme_context(subject: str):
 
 
 def q_level(q: dict) -> str:
-    """Canonical questions don't store level explicitly — read it from `source`."""
+    """Return the canonical level, tolerating curated ``HL``/``OL`` source labels.
+
+    Generated rows carry an explicit ``level`` field, while the older hand-curated bank only
+    encoded the abbreviation in ``source``.  Treating ``HL`` as unknown prevents an otherwise
+    valid marking scheme from ever being paired to the question.
+    """
+    explicit = (q.get("level") or "").strip().lower()
+    if explicit in {"higher", "ordinary"}:
+        return explicit
     s = (q.get("source") or "").lower()
-    return "higher" if "higher" in s else "ordinary" if "ordinary" in s else ""
+    if "higher" in s or re.search(r"\bhl\b", s):
+        return "higher"
+    if "ordinary" in s or re.search(r"\bol\b", s):
+        return "ordinary"
+    return ""
 
 
 def is_documents_q(q: dict) -> bool:
