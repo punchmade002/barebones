@@ -21,6 +21,8 @@ import json
 import re
 import shutil
 import sys
+from collections import defaultdict
+from difflib import SequenceMatcher
 from pathlib import Path
 
 from config import CANONICAL, DIGEST, EXAM_IMAGES, REPORTS, ROOT
@@ -30,6 +32,8 @@ DB_PATH = ROOT / "exam-questions-db.js"
 SCAFFOLD_PATH = ROOT / "pipeline" / "scaffold" / "biology.json"
 IMAGE_DIR = EXAM_IMAGES / SUBJECT
 ARCHIVE_DIR = ROOT / "pipeline" / "_data" / "archive" / "biology-images-legacy"
+CURATED_BASELINE = ROOT / "pipeline" / "_data" / "archive" / "biology-curated-baseline.json"
+DUPLICATE_REPORT = REPORTS / "biology-duplicate-audit.json"
 
 
 ORPHAN_QUESTIONS = [
@@ -101,7 +105,13 @@ ORPHAN_QUESTIONS = [
 
 def _block_bounds(text: str) -> tuple[int, int]:
     start = text.index("  // ── BIOLOGY")
-    end = text.index("  // ── PE", start)
+    # Biology used to be followed by PE, but curated subjects can move out to additive files.
+    # Bound it by the next subject divider instead of coupling this adapter to one neighbour.
+    next_divider = re.search(r"(?m)^  // ── (?!BIOLOGY)[^\n]+$", text[start + 1:])
+    if next_divider:
+        end = start + 1 + next_divider.start()
+    else:
+        end = text.index("\n\n];", start)
     return start, end
 
 
@@ -151,6 +161,160 @@ def _normalise_source(source: str) -> str:
     source = re.sub(r"^LC Biology HL\b", "LC Biology Higher", source)
     source = source.replace(" [⚠ may not match current course]", "")
     return source + (" [LEGACY — pre-2027 syllabus]" if "[LEGACY" not in source else "")
+
+
+def _question_number(q: dict) -> int | None:
+    """Return the printed exam question number, independent of PDF component/section.
+
+    The archive calls the post-2018 Sections A/B booklet ``paper A`` even though the printed
+    question numbers continue into the separately stored Section C paper.  Year + level + printed
+    number is therefore the stable exam identity; the archive component is not.
+    """
+    label = str(q.get("label") or "").strip()
+    labelled = re.match(r"(?i)^(?:question|q)?\s*(\d{1,2})(?:\D.*)?$", label)
+    if labelled:
+        return int(labelled.group(1))
+    for value in (q.get("source"), q.get("id")):
+        matches = re.findall(r"(?i)(?:^|[^a-z0-9])q\s*(\d{1,2})(?:[^0-9]|$)", str(value or ""))
+        if matches:
+            return int(matches[-1])
+    return None
+
+
+def _level(q: dict) -> str:
+    explicit = str(q.get("level") or "").strip().lower()
+    if explicit in {"higher", "ordinary"}:
+        return explicit
+    source = str(q.get("source") or "").lower()
+    if "higher" in source or re.search(r"\bhl\b", source):
+        return "higher"
+    if "ordinary" in source or re.search(r"\bol\b", source):
+        return "ordinary"
+    return ""
+
+
+def exam_identity(q: dict) -> tuple[int, str, int] | None:
+    number = _question_number(q)
+    try:
+        year = int(q.get("year"))
+    except (TypeError, ValueError):
+        return None
+    level = _level(q)
+    return (year, level, number) if level and number is not None else None
+
+
+def _question_text(q: dict) -> str:
+    return "\n".join(str(p.get("question") or "") for p in q.get("parts", []))
+
+
+def _text_signature(q: dict) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", _question_text(q).lower())).strip()
+
+
+def _row_quality(q: dict) -> tuple[int, int, int]:
+    parts = q.get("parts", [])
+    return (sum(bool(str(p.get("question") or "").strip()) for p in parts),
+            sum(len(str(p.get("question") or "")) for p in parts),
+            sum(int(p.get("marks") or 0) > 0 for p in parts))
+
+
+def reconcile_rows(generated: list[dict], curated_rows: list[dict]) -> tuple[list[dict], dict]:
+    """Keep curated exam identities and return a duplicate-free additive expansion bank."""
+    curated_identities = {identity for q in curated_rows if (identity := exam_identity(q))}
+    curated_signatures = {sig for q in curated_rows if (sig := _text_signature(q))}
+    missing_identity = [q.get("id", "") for q in generated if not exam_identity(q)]
+    if missing_identity:
+        raise ValueError(f"{len(missing_identity)} generated Biology row(s) have no exam identity: "
+                         f"{missing_identity[:5]}")
+
+    identity_groups: dict[tuple[int, str, int], list[dict]] = defaultdict(list)
+    dropped_curated_identity = 0
+    dropped_curated_text = 0
+    for q in generated:
+        q["source"] = _normalise_source(str(q.get("source") or ""))
+        identity = exam_identity(q)
+        signature = _text_signature(q)
+        if identity in curated_identities:
+            dropped_curated_identity += 1
+            continue
+        if signature and signature in curated_signatures:
+            dropped_curated_text += 1
+            continue
+        identity_groups[identity].append(q)
+
+    identity_collisions = {str(k): [q.get("id", "") for q in v]
+                           for k, v in identity_groups.items() if len(v) > 1}
+    selected = [max(group, key=_row_quality) for group in identity_groups.values()]
+
+    # Exact whole-question repeats add no practice value.  Curated rows already won above; among
+    # generated rows retain the richer extraction, with Higher Level as the deterministic tie-break.
+    text_groups: dict[str, list[dict]] = defaultdict(list)
+    for q in selected:
+        text_groups[_text_signature(q)].append(q)
+    exact_groups = {sig: rows for sig, rows in text_groups.items() if sig and len(rows) > 1}
+    exact_dropped = 0
+    kept: list[dict] = []
+    for signature, rows in text_groups.items():
+        if not signature:
+            kept.extend(rows)
+            continue
+        winner = max(rows, key=lambda q: (_row_quality(q), _level(q) == "higher", int(q["year"])))
+        kept.append(winner)
+        exact_dropped += len(rows) - 1
+
+    kept.sort(key=lambda q: (int(q["year"]), _level(q), _question_number(q) or 0))
+    report = {
+        "generated_before": len(generated),
+        "curated_questions": len(curated_rows),
+        "dropped_curated_identity": dropped_curated_identity,
+        "dropped_curated_text": dropped_curated_text,
+        "generated_identity_collisions": identity_collisions,
+        "dropped_generated_identity_duplicates": sum(len(v) - 1 for v in identity_groups.values()),
+        "dropped_generated_exact_text_duplicates": exact_dropped,
+        "generated_after": len(kept),
+    }
+    return kept, report
+
+
+def audit_rows(rows: list[dict], near_threshold: float = 0.965) -> dict:
+    """Audit true identity/ID duplicates and exact or very-near whole-question repeats."""
+    by_id: dict[str, list[dict]] = defaultdict(list)
+    by_identity: dict[tuple, list[dict]] = defaultdict(list)
+    by_text: dict[str, list[dict]] = defaultdict(list)
+    for q in rows:
+        by_id[str(q.get("id") or "")].append(q)
+        by_identity[exam_identity(q)].append(q)
+        by_text[_text_signature(q)].append(q)
+    id_duplicates = {k: [q.get("source", "") for q in v] for k, v in by_id.items()
+                     if k and len(v) > 1}
+    identity_duplicates = {str(k): [q.get("id", "") for q in v]
+                           for k, v in by_identity.items() if k and len(v) > 1}
+    exact_duplicates = {sig[:160]: [q.get("id", "") for q in v]
+                        for sig, v in by_text.items() if sig and len(v) > 1}
+
+    # Keep the fuzzy check conservative and whole-question only.  Short definitions naturally
+    # recur between levels; requiring 100 normalized characters avoids noisy false positives.
+    candidates = [(q, _text_signature(q)) for q in rows if len(_text_signature(q)) >= 100]
+    near = []
+    for i, (left, ltext) in enumerate(candidates):
+        for right, rtext in candidates[i + 1:]:
+            if exam_identity(left) == exam_identity(right):
+                continue
+            if abs(len(ltext) - len(rtext)) > max(len(ltext), len(rtext)) * 0.12:
+                continue
+            ratio = SequenceMatcher(None, ltext, rtext, autojunk=False).ratio()
+            if ratio >= near_threshold:
+                near.append({"left": left.get("id", ""), "right": right.get("id", ""),
+                             "similarity": round(ratio, 4)})
+    return {
+        "questions": len(rows),
+        "parts": sum(len(q.get("parts", [])) for q in rows),
+        "duplicate_ids": id_duplicates,
+        "duplicate_exam_identities": identity_duplicates,
+        "exact_whole_question_duplicates": exact_duplicates,
+        "near_whole_question_duplicates": near,
+        "clean": not id_duplicates and not identity_duplicates and not exact_duplicates and not near,
+    }
 
 
 def _canonical_image(q: dict, legacy_name: str) -> str:
@@ -275,6 +439,52 @@ def export_curated() -> None:
     print(f"Exported {len(rows)} Biology questions / {sum(len(q['parts']) for q in rows)} answered parts -> {DB_PATH}")
 
 
+def snapshot_curated() -> None:
+    """Save the verified bank before the generated canonical store is replaced for expansion."""
+    rows = load_curated()
+    if len(rows) != 28:
+        raise SystemExit(f"Refusing expansion snapshot: expected 28 curated Biology rows, got {len(rows)}")
+    if any(not (p.get("model") or "").strip() for q in rows for p in q.get("parts", [])):
+        raise SystemExit("Refusing expansion snapshot: the curated Biology bank has unanswered parts")
+    CURATED_BASELINE.parent.mkdir(parents=True, exist_ok=True)
+    CURATED_BASELINE.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n")
+    print(f"Snapshotted {len(rows)} curated Biology questions -> {CURATED_BASELINE}")
+
+
+def reconcile_expansion() -> dict:
+    """Reconcile a fully segmented canonical store against the verified curated layer."""
+    import segment
+    cpath = CANONICAL / "biology.json"
+    generated = json.loads(cpath.read_text())
+    curated_rows = load_curated()
+    kept, report = reconcile_rows(generated, curated_rows)
+    cpath.write_text(json.dumps(kept, ensure_ascii=False, indent=2) + "\n")
+    segment.render_js(SUBJECT, kept)
+    REPORTS.mkdir(parents=True, exist_ok=True)
+    DUPLICATE_REPORT.write_text(json.dumps({"phase": "post-segment-reconcile", **report},
+                                           ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps(report, indent=2))
+    return report
+
+
+def audit_expansion() -> dict:
+    """Audit the live curated layer plus the generated additive canonical layer."""
+    generated_path = CANONICAL / "biology.json"
+    generated = json.loads(generated_path.read_text()) if generated_path.exists() else []
+    rows = load_curated() + generated
+    report = audit_rows(rows)
+    previous = {}
+    if DUPLICATE_REPORT.exists():
+        try:
+            previous = json.loads(DUPLICATE_REPORT.read_text())
+        except Exception:
+            previous = {}
+    DUPLICATE_REPORT.write_text(json.dumps({**previous, "final_audit": report},
+                                           ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps(report, indent=2))
+    return report
+
+
 def archive_images() -> None:
     cpath = CANONICAL / "biology.json"
     rows = json.loads(cpath.read_text())
@@ -316,8 +526,15 @@ def main() -> None:
         export_curated()
     elif action == "archive-images":
         archive_images()
+    elif action == "snapshot":
+        snapshot_curated()
+    elif action == "reconcile-expansion":
+        reconcile_expansion()
+    elif action == "audit-expansion":
+        audit_expansion()
     else:
-        raise SystemExit("usage: python3 biology_repair.py import|export|archive-images")
+        raise SystemExit("usage: python3 biology_repair.py "
+                         "import|export|archive-images|snapshot|reconcile-expansion|audit-expansion")
 
 
 if __name__ == "__main__":

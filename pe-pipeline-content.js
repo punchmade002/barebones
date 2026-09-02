@@ -25,6 +25,69 @@
     "pe-games": ["pe7", "pe9"],
     "pe-personal-exercise-fitness": ["pe2", "pe4"],
   };
+  // A legacy chapter may inform notes in several syllabus chapters, but each
+  // practice question needs one canonical home. Copying questions through
+  // `legacySources` attached every question from shared sources (for example
+  // all of pe6) to multiple chapters. Keep ownership positional and exclusive;
+  // if a new question is appended later, the first owner remains its safe,
+  // single fallback until this table is reviewed.
+  var legacyQuestionOwners = {
+    pe1: [
+      "pe-personal-exercise-fitness",
+      "pe-personal-exercise-fitness",
+      "pe-personal-exercise-fitness",
+      "pe-personal-exercise-fitness",
+    ],
+    pe2: [
+      "pe-planning-optimum-performance",
+      "pe-planning-optimum-performance",
+      "pe-personal-exercise-fitness",
+      "pe-ethics-fair-play",
+      "pe-planning-optimum-performance",
+    ],
+    pe3: [
+      "pe-performance-demands",
+      "pe-performance-demands",
+      "pe-performance-demands",
+      "pe-performance-demands",
+    ],
+    pe4: [
+      "pe-personal-exercise-fitness",
+      "pe-athletics",
+      "pe-aquatics",
+      "pe-aquatics",
+    ],
+    pe5: [
+      "pe-learning-skill-technique",
+      "pe-learning-skill-technique",
+      "pe-learning-skill-technique",
+      "pe-games",
+    ],
+    pe6: [
+      "pe-artistic-aesthetic-movement",
+      "pe-artistic-aesthetic-movement",
+      "pe-athletics",
+      "pe-athletics",
+    ],
+    pe7: [
+      "pe-artistic-aesthetic-movement",
+      "pe-games",
+      "pe-structures-strategies-roles-conventions",
+    ],
+    pe8: [
+      "pe-adventure-activities",
+      "pe-adventure-activities",
+      "pe-adventure-activities",
+      "pe-aquatics",
+    ],
+    pe9: [
+      "pe-structures-strategies-roles-conventions",
+      "pe-games",
+      "pe-ethics-fair-play",
+      "pe-structures-strategies-roles-conventions",
+    ],
+    "pe-casestudy": ["pe-planning-optimum-performance"],
+  };
   var chapterDefinitions = [
     ["pe-learning-skill-technique", "Learning and Improving Skill and Technique"],
     ["pe-performance-demands", "Physical and Psychological Demands of Performance"],
@@ -59,7 +122,16 @@
       return source && Array.isArray(source.learningOutcomes) ? source.learningOutcomes : [];
     });
     var authoredNotes = sourceOutcomes.flatMap(function (outcome) { return outcome.notes || []; });
-    var authoredQuestions = sourceOutcomes.flatMap(function (outcome) { return outcome.questions || []; });
+    var authoredQuestions = Object.keys(legacyQuestionOwners).flatMap(function (sourceId) {
+      var source = legacyChapters.get(sourceId);
+      var questions = source && Array.isArray(source.learningOutcomes)
+        ? source.learningOutcomes.flatMap(function (outcome) { return outcome.questions || []; })
+        : [];
+      var owners = legacyQuestionOwners[sourceId];
+      return questions.filter(function (_question, questionIndex) {
+        return (owners[questionIndex] || owners[0]) === id;
+      });
+    });
     return {
       id: id,
       number: index + 1,

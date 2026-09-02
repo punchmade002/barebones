@@ -1,4 +1,5 @@
-// Exam-style written questions for PE pipeline outcomes that had no authored set.
+// Exam-style written questions for PE pipeline outcomes without enough relevant
+// authored coverage.
 // Requires pe-pipeline-content.js to be loaded first.
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
@@ -7,7 +8,14 @@
     return { type: "short", marks: marks, prompt: prompt, model: model };
   }
 
+  function promptKey(prompt) {
+    return String(prompt || "").trim().toLowerCase().replace(/\s+/g, " ");
+  }
+
   var QUESTIONS = {
+    "pe-ethics-fair-play-core": [
+      q(10, "Evaluate how a school sports programme can protect fair play while still encouraging competitive performance.", "Set and teach clear rules, apply sanctions consistently, model respect for opponents and officials, and reward ethical decisions as well as results. Coaches should challenge cheating, intimidation and unsafe play immediately while giving performers a fair process to explain incidents. Competition remains meaningful when all participants face the same standards and welfare is not sacrificed for winning."),
+    ],
     "pe-promoting-physical-activity-core": [
       q(12, "Design a school-based intervention to increase physical-activity participation among teenage girls, justifying four features of your plan.", "Begin with participation records, a questionnaire and a focus group so barriers are evidenced rather than assumed. Offer a choice of social and competitive activities, visible female leaders, affordable access and a timetable shaped by the group. Choice supports autonomy, friends support belonging, role models challenge stereotypes and practical changes remove cost or transport barriers."),
       q(10, "Explain how the COM-B model could be applied to improve physical activity in a sedentary adult population.", "Capability may be developed through beginner instruction and gradual progression; opportunity through safe local facilities, convenient sessions and social support; motivation through personally meaningful goals, feedback and enjoyable choice. An intervention should address the diagnosed barrier rather than use promotion alone. Attendance, retention and activity levels should be compared with a baseline."),
@@ -39,7 +47,14 @@
     COURSE_DATA.chapters.some(function (chapter) {
       var outcome = (chapter.learningOutcomes || []).find(function (item) { return item.id === outcomeId; });
       if (!outcome) return false;
-      outcome.questions = QUESTIONS[outcomeId];
+      var questions = outcome.questions || [];
+      var seen = new Set(questions.map(function (question) { return promptKey(question.prompt); }));
+      outcome.questions = questions.concat(QUESTIONS[outcomeId].filter(function (question) {
+        var key = promptKey(question.prompt);
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      }));
       return true;
     });
   });
