@@ -1943,7 +1943,13 @@ function mathsGuideForStep(step) {
       pitfall: "Check the sign inside the divisor before choosing the value of a.",
     },
     {
-      test: /long division|divide|division/,
+      test: /bring down/,
+      rule: "Algebraic long division",
+      why: "After subtracting the previous product, copy the next unused term into the working. This creates the new expression whose leading terms determine the next quotient term.",
+      pitfall: "Bring down the sign with the term; dropping a minus sign changes every later line.",
+    },
+    {
+      test: /long division|divide|division|÷|quotient/,
       rule: "Algebraic division",
       why: "Work from the highest power down. Dividing the leading terms tells you the next quotient term; multiplying back and subtracting removes that power.",
       pitfall: "Keep every power of x aligned, including a zero placeholder for any missing power.",
