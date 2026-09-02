@@ -28,7 +28,7 @@ for (const config of [
     chapters: 16,
     outcomes: 16,
     minimumPerOutcome: 3,
-    added: 15,
+    added: 16,
     setup: ["data.js", "pe-content.js", "pe-flashcards.js", "pe-pipeline-content.js"],
     additions: "pe-test-questions.js",
   },

@@ -3,6 +3,8 @@ const pendingAuthUsernameKey = "bb_pending_auth_username";
 const pendingAuthEmailKey = "bb_pending_auth_email";
 const legacyBackupKeyPrefix = "bb-legacy-account-backup-v1:";
 const legacyAccountPriority = ["gabriel"];
+const isLocalMathsPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  && new URLSearchParams(window.location.search).get("preview") === "maths";
 
 const FALLBACK_CHAPTERS = [
   { id: "ch1", title: "1. Key Stakeholders", learningOutcomes: buildOutcomes("1") },
@@ -456,10 +458,22 @@ let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
 let studyIndex = 0;
 let showAnswer = false;
 let viewMode = 'chapter';
+const mathsSolutionStore = new Map();
+
+if (isLocalMathsPreview) {
+  const previewUsername = "maths-preview";
+  state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
+  state.session.currentUser = previewUsername;
+  expandedSubjectId = MATHS_SUBJECT.id;
+  selectedSubjectId = MATHS_SUBJECT.id;
+  selectedChapterId = MATHS_SUBJECT.chapters[0]?.id || "";
+  selectedOutcomeId = MATHS_SUBJECT.chapters[0]?.learningOutcomes[0]?.id || "";
+  viewMode = "chapter";
+}
 
 bindEvents();
 renderAll();
-initializeAccounts();
+if (!isLocalMathsPreview) initializeAccounts();
 
 function bindEvents() {
   renderAvatarPicker();
@@ -503,7 +517,10 @@ function bindEvents() {
   els.closeProgress.addEventListener("click", closeProgress);
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
-    if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
+    const openMathsPanel = document.querySelector(".maths-explanation-panel.is-open");
+    if (openMathsPanel) {
+      closeMathsExplanation(openMathsPanel);
+    } else if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
       closeExamBreakdown();
     } else if (!els.fullNotesScreen.classList.contains("hidden")) {
       closeFullNotes();
@@ -549,6 +566,9 @@ function bindEvents() {
       els.profileMenu.classList.add("hidden");
     }
   });
+  document.addEventListener("click", handleMathsSolutionClick);
+  document.addEventListener("pointerup", handleMathsSolutionSelection);
+  document.addEventListener("keydown", handleMathsSolutionKeyboard);
 }
 
 function showProfilePane(pane) {
@@ -1790,11 +1810,7 @@ function renderExamSection() {
           </div>
           <p class="exam-question-text">${escapeHtml(part.question)}</p>
           <textarea class="exam-textarea" placeholder="Write your answer here…" rows="5"></textarea>
-          <div class="exam-answer-wrap hidden" id="ans-${escapeHtml(partId)}">
-            <p class="exam-answer-label">Model Answer</p>
-            <div class="exam-answer-text">${formatModelAnswer(part.model)}</div>
-          </div>
-          <button class="button-secondary exam-toggle-btn" onclick="toggleExamAnswer('${escapeHtml(partId)}', this)">Show Model Answer</button>
+          ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join("");
 
@@ -1843,11 +1859,402 @@ function renderExamSection() {
   }
 }
 
+function renderExamAnswer(group, part, partId) {
+  if (!part.model && !part.workedSolution) return "";
+
+  const isMaths = group.subject === "maths";
+  const answerLabel = isMaths ? "Worked solution" : "Model Answer";
+  const answerHtml = isMaths
+    ? renderMathsWorkedSolution(part, partId)
+    : `<div class="exam-answer-text">${formatModelAnswer(part.model)}</div>`;
+  const showLabel = isMaths ? "Explore worked solution" : "Show Model Answer";
+  const hideLabel = isMaths ? "Hide worked solution" : "Hide Model Answer";
+
+  return `
+    <div class="exam-answer-wrap${isMaths ? " exam-answer-wrap--maths" : ""} hidden" id="ans-${escapeHtml(partId)}">
+      <p class="exam-answer-label">${answerLabel}</p>
+      ${answerHtml}
+    </div>
+    <button class="button-secondary exam-toggle-btn"
+      data-show-label="${showLabel}"
+      data-hide-label="${hideLabel}"
+      onclick="toggleExamAnswer('${escapeHtml(partId)}', this)">${showLabel}</button>`;
+}
+
+function parseMathsWorkedSolution(rawText) {
+  const raw = String(rawText || "").replace(/\r/g, "").trim();
+  if (!raw) return { steps: [], finalAnswer: "" };
+
+  const finalMarker = raw.match(/(?:^|\n{2,})Final Answer:\s*/i);
+  const workText = finalMarker ? raw.slice(0, finalMarker.index).trim() : raw;
+  let finalAnswer = finalMarker
+    ? raw.slice(finalMarker.index + finalMarker[0].length).trim()
+    : "";
+  const stepPattern = /(?:^|\n{2,})Step\s+(\d+)\s*[—–-]\s*/g;
+  const markers = Array.from(workText.matchAll(stepPattern));
+
+  if (!markers.length) {
+    return {
+      steps: [{
+        number: 1,
+        title: "Work through the solution",
+        work: workText,
+      }],
+      finalAnswer,
+    };
+  }
+
+  const steps = markers.map((marker, index) => {
+    const start = marker.index + marker[0].length;
+    const end = markers[index + 1]?.index ?? workText.length;
+    const content = workText.slice(start, end).trim();
+    const titleMatch = content.match(/^([^\n:]{2,90}):\s*([\s\S]*)$/);
+    return {
+      number: Number(marker[1]) || index + 1,
+      title: titleMatch ? titleMatch[1].trim() : `Step ${marker[1]}`,
+      work: titleMatch ? titleMatch[2].trim() : content,
+    };
+  });
+
+  if (!finalAnswer && steps.length) {
+    const closingLines = steps.at(-1).work
+      .split(/\n+/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    finalAnswer = closingLines.at(-1) || steps.at(-1).work;
+  }
+
+  return { steps, finalAnswer };
+}
+
+function mathsGuideForStep(step) {
+  const text = `${step.title || ""} ${step.work || ""}`.toLowerCase();
+  const guides = [
+    {
+      test: /factor theorem/,
+      rule: "Factor Theorem",
+      why: "If (x − a) is a factor of a polynomial, substituting x = a must give zero. This turns a statement about a factor into a value you can calculate.",
+      pitfall: "Use the value that makes the factor zero. For (x + 3), substitute x = −3, not 3.",
+    },
+    {
+      test: /remainder theorem/,
+      rule: "Remainder Theorem",
+      why: "When a polynomial is divided by (x − a), its remainder is the single value f(a). Substitution avoids carrying out the full division.",
+      pitfall: "Check the sign inside the divisor before choosing the value of a.",
+    },
+    {
+      test: /long division|divide|division/,
+      rule: "Algebraic division",
+      why: "Work from the highest power down. Dividing the leading terms tells you the next quotient term; multiplying back and subtracting removes that power.",
+      pitfall: "Keep every power of x aligned, including a zero placeholder for any missing power.",
+    },
+    {
+      test: /quadratic formula/,
+      rule: "Quadratic formula",
+      why: "For ax² + bx + c = 0, the formula gives every real or complex root directly from the three coefficients.",
+      pitfall: "Include the sign of b when identifying it, then use −b in the numerator.",
+    },
+    {
+      test: /factoris|full factor/,
+      rule: "Factorisation",
+      why: "Factorisation rewrites a sum as a product. Once the product equals zero, the zero-product rule lets you solve each factor separately.",
+      pitfall: "Multiply the factors back out briefly to check the middle term and signs.",
+    },
+    {
+      test: /differentiat|derivative|f[′']/,
+      rule: "Differentiation",
+      why: "Differentiation measures instantaneous rate of change. Apply the relevant derivative rule term by term before substituting any requested value.",
+      pitfall: "Reduce the power by one after multiplying by the original power.",
+    },
+    {
+      test: /integrat|antiderivative|area under/,
+      rule: "Integration",
+      why: "Integration reverses differentiation and accumulates change. For a definite integral, evaluate the antiderivative at both limits and subtract.",
+      pitfall: "Increase the power before dividing by the new power, and include + C for an indefinite integral.",
+    },
+    {
+      test: /substitut|replace|put .* into/,
+      rule: "Substitution",
+      why: "A known value is being inserted into the formula so the remaining unknowns or numerical result can be found.",
+      pitfall: "Put negative substituted values in brackets before applying powers.",
+    },
+    {
+      test: /expand|multiply.*bracket/,
+      rule: "Distributive law",
+      why: "Every term outside a bracket must multiply every term inside it. This preserves equality while removing the brackets.",
+      pitfall: "A negative sign outside a bracket changes the sign of every term inside.",
+    },
+    {
+      test: /collect|simplif|common denominator/,
+      rule: "Equivalent expressions",
+      why: "The expression is being rewritten in an equivalent form by combining like terms or using a common denominator. Its value does not change.",
+      pitfall: "Only like terms can be combined; their variable parts and powers must match exactly.",
+    },
+    {
+      test: /complete.*square/,
+      rule: "Completing the square",
+      why: "Adding and subtracting the same quantity creates a perfect-square expression without changing the original quadratic.",
+      pitfall: "When the coefficient of x² is not 1, factor it out before halving the x coefficient.",
+    },
+    {
+      test: /gradient|slope/,
+      rule: "Gradient",
+      why: "Gradient compares vertical change with horizontal change: rise divided by run. It describes both direction and steepness.",
+      pitfall: "Subtract the coordinates in the same order on the top and bottom.",
+    },
+    {
+      test: /midpoint/,
+      rule: "Midpoint formula",
+      why: "The midpoint lies halfway between the endpoints, so its x- and y-coordinates are the averages of the corresponding endpoint coordinates.",
+      pitfall: "Average x-values together and y-values together; do not cross-pair them.",
+    },
+    {
+      test: /distance/,
+      rule: "Distance formula",
+      why: "The horizontal and vertical changes form a right triangle, so Pythagoras gives the straight-line distance.",
+      pitfall: "Square each coordinate difference before adding, then take the square root at the end.",
+    },
+    {
+      test: /probab|binomial distribution/,
+      rule: "Probability model",
+      why: "The calculation counts the required outcomes and weights them by their probabilities. The chosen formula depends on whether order and repetition matter.",
+      pitfall: "Check whether the question asks for exactly, at least, or at most; those events contain different outcomes.",
+    },
+    {
+      test: /sin|cos|tan|trigon|angle/,
+      rule: "Trigonometric relationship",
+      why: "The selected trigonometric relationship connects the known sides or angles to the unknown one while preserving the geometry of the triangle.",
+      pitfall: "Confirm the calculator is in the required angle mode and label opposite, adjacent and hypotenuse from the chosen angle.",
+    },
+    {
+      test: /log|exponential/,
+      rule: "Logarithm laws",
+      why: "Logarithms convert powers into multipliers, making exponential equations easier to rearrange and solve.",
+      pitfall: "A logarithm is defined only for a positive argument, so check the final solution in the original equation.",
+    },
+    {
+      test: /induction/,
+      rule: "Mathematical induction",
+      why: "The base case starts the chain, and the inductive step proves that whenever one case is true the next case must also be true.",
+      pitfall: "In the inductive step, clearly state where the assumption for n = k is used.",
+    },
+    {
+      test: /solve|set .*zero|each factor/,
+      rule: "Solving an equation",
+      why: "The same valid operation is applied while preserving equality, reducing the equation until the unknown is isolated or each factor can be set to zero.",
+      pitfall: "Check candidate answers in the original equation, especially after squaring or clearing denominators.",
+    },
+  ];
+
+  return guides.find((guide) => guide.test.test(text)) || {
+    rule: "Equivalent mathematical step",
+    why: "This line follows from the previous one using an operation that keeps the mathematical statement equivalent. Compare the terms that changed and identify the operation applied to them.",
+    pitfall: "Change only the terms affected by the operation, and check that the next line can be reversed to recover the previous line.",
+  };
+}
+
+function normaliseMathsSolution(part) {
+  const parsed = part.workedSolution?.steps?.length
+    ? {
+        steps: part.workedSolution.steps.map((step, index) => ({
+          number: step.number || index + 1,
+          title: step.title || `Step ${index + 1}`,
+          work: step.work || step.expression || step.explanation || "",
+          reasoning: step.reasoning || step.explanation || "",
+          rule: step.rule || "",
+          pitfall: step.commonMistake || step.pitfall || "",
+        })),
+        finalAnswer: part.workedSolution.finalAnswer || "",
+      }
+    : parseMathsWorkedSolution(part.model);
+
+  parsed.steps = parsed.steps.map((step) => {
+    const guide = mathsGuideForStep(step);
+    return {
+      ...step,
+      reasoning: step.reasoning || guide.why,
+      rule: step.rule || guide.rule,
+      pitfall: step.pitfall || guide.pitfall,
+    };
+  });
+  return parsed;
+}
+
+function formatMathsText(text) {
+  return String(text || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => `<p>${escapeHtml(line)}</p>`)
+    .join("");
+}
+
+function renderMathsWorkedSolution(part, solutionKey) {
+  const solution = normaliseMathsSolution(part);
+  mathsSolutionStore.set(solutionKey, solution);
+  const countLabel = `${solution.steps.length} ${solution.steps.length === 1 ? "move" : "moves"}`;
+  const stepsHtml = solution.steps.map((step, index) => `
+    <article class="maths-step" tabindex="0" role="button" aria-pressed="false"
+      data-solution-key="${escapeHtml(solutionKey)}" data-step-index="${index}">
+      <div class="maths-step-rail" aria-hidden="true">
+        <span>${String(step.number).padStart(2, "0")}</span>
+        <i></i>
+      </div>
+      <div class="maths-step-content">
+        <div class="maths-step-heading">
+          <h5>${escapeHtml(step.title)}</h5>
+          <span class="maths-step-explain">Explain <span aria-hidden="true">↗</span></span>
+        </div>
+        <div class="maths-step-work">${formatMathsText(step.work)}</div>
+      </div>
+    </article>`).join("");
+  const finalHtml = solution.finalAnswer
+    ? `<div class="maths-final-answer">
+        <span>Final answer</span>
+        <div>${formatMathsText(solution.finalAnswer)}</div>
+      </div>`
+    : "";
+
+  return `
+    <div class="maths-worked-solution" data-solution-key="${escapeHtml(solutionKey)}">
+      <div class="maths-solution-toolbar">
+        <div>
+          <span class="maths-solution-kicker">Line-by-line</span>
+          <strong>Select any step to unpack it</strong>
+        </div>
+        <span class="maths-solution-count">${countLabel}</span>
+      </div>
+      <div class="maths-solution-layout">
+        <div class="maths-step-list" aria-label="Worked solution steps">
+          ${stepsHtml}
+          ${finalHtml}
+        </div>
+        <aside class="maths-explanation-panel is-empty" aria-live="polite">
+          ${renderEmptyMathsExplanation()}
+        </aside>
+      </div>
+    </div>`;
+}
+
+function renderEmptyMathsExplanation() {
+  return `
+    <div class="maths-panel-empty-mark" aria-hidden="true">?</div>
+    <p class="maths-panel-eyebrow">Explanation margin</p>
+    <h5>Choose the line that lost you.</h5>
+    <p>Tap a step—or highlight part of its working—to see the rule, the reason it works and a mistake to avoid.</p>`;
+}
+
+function handleMathsSolutionClick(event) {
+  const closeButton = event.target.closest(".maths-panel-close");
+  if (closeButton) {
+    closeMathsExplanation(closeButton.closest(".maths-explanation-panel"));
+    return;
+  }
+
+  const stepElement = event.target.closest(".maths-step");
+  if (!stepElement) return;
+  const selection = window.getSelection?.();
+  const selectedText = selection && !selection.isCollapsed
+    ? selection.toString().trim()
+    : "";
+  openMathsStepExplanation(stepElement, selectedText);
+}
+
+function handleMathsSolutionSelection() {
+  window.setTimeout(() => {
+    const selection = window.getSelection?.();
+    if (!selection || selection.isCollapsed || !selection.rangeCount) return;
+    const range = selection.getRangeAt(0);
+    const origin = range.commonAncestorContainer.nodeType === Node.TEXT_NODE
+      ? range.commonAncestorContainer.parentElement
+      : range.commonAncestorContainer;
+    const stepElement = origin?.closest?.(".maths-step");
+    if (!stepElement) return;
+    openMathsStepExplanation(stepElement, selection.toString().trim());
+  }, 0);
+}
+
+function handleMathsSolutionKeyboard(event) {
+  if (event.key !== "Enter" && event.key !== " ") return;
+  const stepElement = event.target.closest?.(".maths-step");
+  if (!stepElement || event.target !== stepElement) return;
+  event.preventDefault();
+  openMathsStepExplanation(stepElement);
+}
+
+function openMathsStepExplanation(stepElement, selectedText = "") {
+  const solutionElement = stepElement.closest(".maths-worked-solution");
+  const panel = solutionElement?.querySelector(".maths-explanation-panel");
+  const solutionKey = stepElement.dataset.solutionKey;
+  const stepIndex = Number(stepElement.dataset.stepIndex);
+  const step = mathsSolutionStore.get(solutionKey)?.steps?.[stepIndex];
+  if (!panel || !step) return;
+
+  solutionElement.querySelectorAll(".maths-step").forEach((candidate) => {
+    const active = candidate === stepElement;
+    candidate.classList.toggle("is-active", active);
+    candidate.setAttribute("aria-pressed", String(active));
+  });
+
+  const quote = selectedText.replace(/\s+/g, " ").trim().slice(0, 260);
+  panel.classList.remove("is-empty");
+  panel.classList.add("is-open");
+  document.body.classList.add("maths-explanation-open");
+  panel.innerHTML = `
+    <button class="maths-panel-close" type="button" aria-label="Close step explanation">×</button>
+    <p class="maths-panel-eyebrow">Step ${escapeHtml(step.number)} · unpacked</p>
+    <h5>${escapeHtml(step.title)}</h5>
+    ${quote ? `<blockquote><span>You highlighted</span>${escapeHtml(quote)}</blockquote>` : ""}
+    <section>
+      <span class="maths-panel-label">What happened</span>
+      <div class="maths-panel-work">${formatMathsText(step.work)}</div>
+    </section>
+    <section class="maths-panel-reason">
+      <span class="maths-panel-label">Why it works</span>
+      <p>${escapeHtml(step.reasoning)}</p>
+    </section>
+    <section class="maths-panel-rule">
+      <span class="maths-panel-label">Rule in use</span>
+      <strong>${escapeHtml(step.rule)}</strong>
+    </section>
+    <section class="maths-panel-pitfall">
+      <span class="maths-panel-label">Watch for</span>
+      <p>${escapeHtml(step.pitfall)}</p>
+    </section>`;
+
+  if (typeof renderMathInElement !== "undefined") {
+    renderMathInElement(panel, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+      ],
+      throwOnError: false,
+    });
+  }
+}
+
+function closeMathsExplanation(panel) {
+  const solutionElement = panel?.closest(".maths-worked-solution");
+  if (!panel || !solutionElement) return;
+  solutionElement.querySelectorAll(".maths-step").forEach((step) => {
+    step.classList.remove("is-active");
+    step.setAttribute("aria-pressed", "false");
+  });
+  panel.classList.remove("is-open");
+  panel.classList.add("is-empty");
+  panel.innerHTML = renderEmptyMathsExplanation();
+  if (!document.querySelector(".maths-explanation-panel.is-open")) {
+    document.body.classList.remove("maths-explanation-open");
+  }
+}
+
 function toggleExamAnswer(partId, btn) {
   const wrap = document.getElementById(`ans-${partId}`);
   if (!wrap) return;
   const hidden = wrap.classList.toggle("hidden");
-  btn.textContent = hidden ? "Show Model Answer" : "Hide Model Answer";
+  btn.textContent = hidden
+    ? (btn.dataset.showLabel || "Show Model Answer")
+    : (btn.dataset.hideLabel || "Hide Model Answer");
 }
 
 function openDiagramModal(src) {
@@ -2702,13 +3109,7 @@ function openSectionQuestions(subjectId, sectionIdx) {
           <p class="exam-question-text">${escapeHtml(part.question || '')}</p>
           ${diagramHtml}
           <textarea class="exam-textarea" placeholder="Write your answer here…" rows="8"></textarea>
-          ${part.model ? `
-            <div class="exam-answer-wrap hidden" id="ans-${escapeHtml(partId)}">
-              <p class="exam-answer-label">Model Answer</p>
-              <div class="exam-answer-text">${formatModelAnswer(part.model)}</div>
-            </div>
-            <button class="button-secondary exam-toggle-btn" onclick="toggleExamAnswer('${escapeHtml(partId)}', this)">Show Model Answer</button>
-          ` : ''}
+          ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join('');
 
