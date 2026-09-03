@@ -68,3 +68,11 @@ test("both exam views share the Maths renderer and accessible controls", () => {
   assert.match(appSource, /document\.addEventListener\("pointerup", handleMathsSolutionSelection\)/);
   assert.match(appSource, /data-show-label="\$\{showLabel\}"/);
 });
+
+test("step explanations open inline without an empty explanation margin", () => {
+  assert.match(appSource, /stepElement\.insertAdjacentElement\("afterend", panel\)/);
+  assert.match(appSource, /class="maths-explanation-panel" aria-live="polite" hidden/);
+  assert.doesNotMatch(appSource, /maths-panel-empty-mark/);
+  assert.doesNotMatch(appSource, /Explanation margin/);
+  assert.doesNotMatch(appSource, /maths-explanation-open/);
+});

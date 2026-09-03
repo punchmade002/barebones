@@ -423,6 +423,7 @@ const els = {
   accountStatus: document.getElementById("accountStatus"),
   subjectGraph: document.getElementById("subjectGraph"),
   subjectWorkbench: document.getElementById("subjectWorkbench"),
+  studyContext: document.getElementById("studyContext"),
   flashcardList: document.getElementById("flashcardList"),
   flashcardStudy: document.getElementById("flashcardStudy"),
   outcomeNav: document.getElementById("outcomeNav"),
@@ -1250,6 +1251,7 @@ function renderAll() {
   renderSubjectPicker();
   renderGraph();
   renderSubjectOverview();
+  renderStudyContext();
   renderTabVisibility();
   renderOutcomes();
   renderTestOverview();
@@ -1409,12 +1411,16 @@ function renderGraph() {
       <div class="graph-subject-header">
         <button class="graph-subject-name" aria-expanded="${expanded}">
           <span class="graph-subject-title">${escapeHtml(subject.title)}</span>
-          <span class="graph-subject-count">${subject.chapters.length} chapters</span>
+          <span class="graph-subject-count" aria-label="${subject.chapters.length} chapters">${subject.chapters.length}</span>
         </button>
-        ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Exam info</button>` : ""}
         <span class="graph-subject-chevron" aria-hidden="true">›</span>
       </div>
-      <div class="graph-chapters ${expanded ? "" : "hidden"}"></div>
+      <div class="graph-chapters" aria-label="${escapeHtml(subject.title)} chapters">
+        <div class="graph-menu-head">
+          <span>Chapters</span>
+          ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Paper guide</button>` : ""}
+        </div>
+      </div>
     `;
     const openSubject = () => {
       expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
@@ -1446,6 +1452,23 @@ function renderGraph() {
     els.subjectGraph.appendChild(block);
   });
   els.subjectWorkbench.classList.toggle("hidden", !getCurrentUser());
+}
+
+function renderStudyContext() {
+  if (!els.studyContext) return;
+  const subject = SUBJECTS.find((item) => item.id === selectedSubjectId);
+  const chapter = getSelectedChapter();
+  const isOverview = viewMode === "subject-overview";
+
+  if (!subject || isOverview) {
+    els.studyContext.innerHTML = "";
+    return;
+  }
+
+  els.studyContext.innerHTML = `
+    <span>${escapeHtml(subject.title)}</span>
+    <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
+  `;
 }
 
 function renderSubjectOverview() {
@@ -1535,7 +1558,6 @@ function renderOutcomes() {
   const cards = cardsForOutcome(outcome, selectedSubjectId);
   if (studyIndex >= cards.length) studyIndex = 0;
   const card = cards[studyIndex] || { term: "No content", definition: "No chapter concepts loaded." };
-  const step = getProgressByOutcome()[outcome.id] || 0;
   const learnedByOutcome = getLearnedByOutcome();
   const learnedSet = new Set(learnedByOutcome[outcome.id] || []);
   let chapterTotalCards = 0;
@@ -1548,25 +1570,31 @@ function renderOutcomes() {
   });
   const chapterPct = chapterTotalCards > 0 ? Math.round((chapterLearnedCards / chapterTotalCards) * 100) : 0;
 
-  const outcomeLabel = chapter.learningOutcomes.length > 1
-    ? `<p class="muted small">${escapeHtml([outcome.code, compactText(outcome.title || "")].filter(Boolean).join(" · "))}</p>`
-    : "";
-
   els.flashcardStudy.innerHTML = `
-    <p class="muted small">${escapeHtml(chapter.title)}</p>
-    ${outcomeLabel}
-    <p class="muted small">${chapterLearnedCards}/${chapterTotalCards} concept points learned</p>
-    <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
-    <p class="muted small">Goal progress: ${step}/3</p>
+    <header class="study-card-head">
+      <div class="study-progress" title="${chapterLearnedCards} of ${chapterTotalCards} concepts learned">
+        <div class="progress-bar"><span style="width:${chapterPct}%"></span></div>
+        <span>${chapterPct}%</span>
+      </div>
+      <span class="study-card-count">${cards.length ? studyIndex + 1 : 0}/${cards.length}</span>
+    </header>
     <div class="study-face">${showAnswer ? escapeHtml(card.definition) : `<strong>${escapeHtml(card.term)}</strong>`}</div>
-    <div class="study-controls">
-      <button id="prevCard" class="button-secondary">Prev</button>
-      <button id="flipCard" class="button-primary">${showAnswer ? "Show Term" : "Show Point"}</button>
-      <button id="nextCard" class="button-secondary">Next</button>
-      <button id="markLearned" class="button-secondary">${learnedSet.has(card.id) ? "Learned" : "Mark Learned"}</button>
+    <div class="study-card-footer">
+      <div class="study-controls">
+        <button id="prevCard" class="button-secondary study-step" aria-label="Previous concept">←</button>
+        <button id="flipCard" class="button-primary">${showAnswer ? "Question" : "Reveal"}</button>
+        <button id="nextCard" class="button-secondary study-step" aria-label="Next concept">→</button>
+        <button id="markLearned" class="button-secondary study-learned" aria-label="${learnedSet.has(card.id) ? "Concept learned" : "Mark concept learned"}">${learnedSet.has(card.id) ? "✓ Learned" : "Mark learned"}</button>
+      </div>
+      ${card.keywords?.length ? `
+        <details class="study-keywords">
+          <summary>Key words <span>${card.keywords.length}</span></summary>
+          <div class="study-keywords-panel">
+            ${renderKeywordRow(card.keywords)}
+            <p>Use these in your test answer for bonus marks.</p>
+          </div>
+        </details>` : ""}
     </div>
-    ${renderKeywordRow(card.keywords)}
-    <p class="muted small">Include these key words in your test answer to earn bonus marks.</p>
   `;
 
   document.getElementById("prevCard").addEventListener("click", () => {
@@ -1611,7 +1639,8 @@ function renderOutcomeNav(chapter, outcome) {
   nav.classList.remove("hidden");
 
   const learnedByOutcome = getLearnedByOutcome();
-  nav.innerHTML = los.map((lo, idx) => {
+  const activeIndex = Math.max(0, los.findIndex((lo) => lo.id === outcome.id));
+  const options = los.map((lo, idx) => {
     const cards = cardsForOutcome(lo, selectedSubjectId);
     const learned = new Set(learnedByOutcome[lo.id] || []);
     const done = cards.filter((c) => learned.has(c.id)).length;
@@ -1623,6 +1652,16 @@ function renderOutcomeNav(chapter, outcome) {
         <span class="outcome-chip-count">${done}/${cards.length}</span>
       </button>`;
   }).join("");
+
+  nav.innerHTML = `
+    <div class="outcome-switcher">
+      <button class="outcome-switcher-trigger" type="button" aria-haspopup="true" title="${escapeHtml(compactText(outcome.title || ""))}">
+        <span>${escapeHtml(outcome.code || `Outcome ${activeIndex + 1}`)}</span>
+        <small>${activeIndex + 1}/${los.length}</small>
+        <span aria-hidden="true">⌄</span>
+      </button>
+      <div class="outcome-menu" role="menu">${options}</div>
+    </div>`;
 
   nav.querySelectorAll(".outcome-chip").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1710,14 +1749,22 @@ function renderTestOverview(latestScore) {
   if (!outcome) return;
   const step = getProgressByOutcome()[outcome.id] || 0;
   const current = getCurrentUser();
-  const extra = typeof latestScore === "number" ? `<p>Latest score: <strong>${latestScore}%</strong></p>` : "";
+  const score = typeof latestScore === "number" ? `${latestScore}%` : "No score";
   els.testContainer.innerHTML = `
-    <p class="muted small">${escapeHtml(outcome.code)} ${escapeHtml(outcome.title)}</p>
-    <p>User: <strong>${escapeHtml(current?.username || "Guest")}</strong></p>
-    <p>Tests completed: <strong>${current?.testsCompleted || 0}</strong></p>
-    <p>Goal: <strong>${step}/3</strong></p>
-    ${extra}
-    <p class="muted">Pass mark: 70%. Each key word hit adds +5% to your score.</p>
+    <div class="test-ready">
+      <div class="test-ready-primary">
+        <span>${escapeHtml(outcome.code || "Outcome")}</span>
+        <strong>${escapeHtml(score)}</strong>
+      </div>
+      <div class="test-ready-stats" aria-label="Test progress">
+        <span title="Tests completed">${current?.testsCompleted || 0} tests</span>
+        <span title="Outcome goal">${step}/3 goal</span>
+      </div>
+      <details class="test-scoring">
+        <summary>Scoring</summary>
+        <p>Pass at 70%. Each key word adds 5%.</p>
+      </details>
+    </div>
   `;
 }
 
@@ -2109,7 +2156,7 @@ function renderMathsWorkedSolution(part, solutionKey) {
       <div class="maths-step-content">
         <div class="maths-step-heading">
           <h5>${escapeHtml(step.title)}</h5>
-          <span class="maths-step-explain">Explain <span aria-hidden="true">↗</span></span>
+          <span class="maths-step-explain">Explain</span>
         </div>
         <div class="maths-step-work">${formatMathsText(step.work)}</div>
       </div>
@@ -2126,7 +2173,7 @@ function renderMathsWorkedSolution(part, solutionKey) {
       <div class="maths-solution-toolbar">
         <div>
           <span class="maths-solution-kicker">Line-by-line</span>
-          <strong>Select any step to unpack it</strong>
+          <strong>Tap any line to see why it works</strong>
         </div>
         <span class="maths-solution-count">${countLabel}</span>
       </div>
@@ -2134,20 +2181,10 @@ function renderMathsWorkedSolution(part, solutionKey) {
         <div class="maths-step-list" aria-label="Worked solution steps">
           ${stepsHtml}
           ${finalHtml}
+          <aside class="maths-explanation-panel" aria-live="polite" hidden></aside>
         </div>
-        <aside class="maths-explanation-panel is-empty" aria-live="polite">
-          ${renderEmptyMathsExplanation()}
-        </aside>
       </div>
     </div>`;
-}
-
-function renderEmptyMathsExplanation() {
-  return `
-    <div class="maths-panel-empty-mark" aria-hidden="true">?</div>
-    <p class="maths-panel-eyebrow">Explanation margin</p>
-    <h5>Choose the line that lost you.</h5>
-    <p>Tap a step—or highlight part of its working—to see the rule, the reason it works and a mistake to avoid.</p>`;
 }
 
 function handleMathsSolutionClick(event) {
@@ -2203,30 +2240,39 @@ function openMathsStepExplanation(stepElement, selectedText = "") {
   });
 
   const quote = selectedText.replace(/\s+/g, " ").trim().slice(0, 260);
-  panel.classList.remove("is-empty");
-  panel.classList.add("is-open");
-  document.body.classList.add("maths-explanation-open");
+  panel.classList.remove("is-open");
   panel.innerHTML = `
-    <button class="maths-panel-close" type="button" aria-label="Close step explanation">×</button>
-    <p class="maths-panel-eyebrow">Step ${escapeHtml(step.number)} · unpacked</p>
-    <h5>${escapeHtml(step.title)}</h5>
+    <header class="maths-panel-header">
+      <div>
+        <p class="maths-panel-eyebrow">Step ${escapeHtml(step.number)} explained</p>
+        <h5>${escapeHtml(step.title)}</h5>
+      </div>
+      <button class="maths-panel-close" type="button" aria-label="Close step explanation">×</button>
+    </header>
     ${quote ? `<blockquote><span>You highlighted</span>${escapeHtml(quote)}</blockquote>` : ""}
-    <section>
-      <span class="maths-panel-label">What happened</span>
-      <div class="maths-panel-work">${formatMathsText(step.work)}</div>
-    </section>
-    <section class="maths-panel-reason">
-      <span class="maths-panel-label">Why it works</span>
-      <p>${escapeHtml(step.reasoning)}</p>
-    </section>
-    <section class="maths-panel-rule">
-      <span class="maths-panel-label">Rule in use</span>
-      <strong>${escapeHtml(step.rule)}</strong>
-    </section>
-    <section class="maths-panel-pitfall">
-      <span class="maths-panel-label">Watch for</span>
-      <p>${escapeHtml(step.pitfall)}</p>
-    </section>`;
+    <div class="maths-panel-grid">
+      <section class="maths-panel-work-section">
+        <span class="maths-panel-label">What happened</span>
+        <div class="maths-panel-work">${formatMathsText(step.work)}</div>
+      </section>
+      <section class="maths-panel-reason">
+        <span class="maths-panel-label">Why it works</span>
+        <p>${escapeHtml(step.reasoning)}</p>
+      </section>
+      <section class="maths-panel-rule">
+        <span class="maths-panel-label">Rule in use</span>
+        <strong>${escapeHtml(step.rule)}</strong>
+      </section>
+      <section class="maths-panel-pitfall">
+        <span class="maths-panel-label">Watch for</span>
+        <p>${escapeHtml(step.pitfall)}</p>
+      </section>
+    </div>`;
+
+  stepElement.insertAdjacentElement("afterend", panel);
+  panel.hidden = false;
+  void panel.offsetWidth;
+  panel.classList.add("is-open");
 
   if (typeof renderMathInElement !== "undefined") {
     renderMathInElement(panel, {
@@ -2247,17 +2293,18 @@ function closeMathsExplanation(panel) {
     step.setAttribute("aria-pressed", "false");
   });
   panel.classList.remove("is-open");
-  panel.classList.add("is-empty");
-  panel.innerHTML = renderEmptyMathsExplanation();
-  if (!document.querySelector(".maths-explanation-panel.is-open")) {
-    document.body.classList.remove("maths-explanation-open");
-  }
+  panel.hidden = true;
+  panel.innerHTML = "";
 }
 
 function toggleExamAnswer(partId, btn) {
   const wrap = document.getElementById(`ans-${partId}`);
   if (!wrap) return;
   const hidden = wrap.classList.toggle("hidden");
+  if (hidden) {
+    const openPanel = wrap.querySelector(".maths-explanation-panel.is-open");
+    if (openPanel) closeMathsExplanation(openPanel);
+  }
   btn.textContent = hidden
     ? (btn.dataset.showLabel || "Show Model Answer")
     : (btn.dataset.hideLabel || "Hide Model Answer");
