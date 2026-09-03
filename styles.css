@@ -216,9 +216,9 @@ h2, h3, h4 {
 
 /* ── App shell ───────────────────────────────── */
 .app-shell {
-  max-width: 1400px;
-  margin: 3.5rem auto 2rem;
-  padding: 0 1.25rem;
+  max-width: none;
+  margin: 3.5rem 0 2rem;
+  padding: 0 1.25rem 0 0.5rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
@@ -3254,35 +3254,44 @@ body.modal-open { overflow: hidden; }
 
   .sidebar-edge {
     align-items: flex-start;
-    width: 1.8rem;
+    width: 2.75rem;
     padding-top: 0.35rem;
   }
 
   .sidebar-toggle {
-    width: 24px;
-    height: 34px;
+    width: 34px;
+    height: 64px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(-50%) scale(0.86);
+  }
+
+  .sidebar-edge.edge-hot .sidebar-toggle,
+  .sidebar-toggle:focus-visible {
     pointer-events: auto;
     opacity: 1;
-    transform: none;
+    transform: translateX(-50%) scale(1);
   }
 }
 
 .subject-panel-btn {
-  width: auto;
-  margin: 0 0 0.6rem 0.45rem;
-  padding: 0.35rem 0.7rem;
-  background: transparent;
+  width: calc(100% - 0.8rem);
+  min-height: 44px;
+  margin: 0 0.8rem 0.85rem 0;
+  padding: 0.65rem 1rem;
+  background: var(--accent);
   border-color: transparent;
-  box-shadow: none;
-  color: var(--muted);
-  font-size: 0.76rem;
-  font-weight: 600;
+  box-shadow: var(--so);
+  color: oklch(0.985 0.006 55);
+  font-size: 0.9rem;
+  font-weight: 750;
 }
 
 .subject-panel-btn:hover {
-  background: var(--panel);
-  border-color: var(--line);
-  box-shadow: var(--s0);
+  background: var(--accent-strong);
+  border-color: transparent;
+  box-shadow: 0 6px 28px rgba(249,115,22,0.42);
+  color: oklch(0.985 0.006 55);
 }
 
 .subject-graph { gap: 0.16rem; }
@@ -3481,9 +3490,10 @@ body.modal-open { overflow: hidden; }
   min-height: 0;
   flex: 1;
   height: 100%;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-lg);
+  background: var(--panel);
+  box-shadow: var(--s1);
 }
 
 .workbench-menu { position: relative; }
@@ -3622,10 +3632,10 @@ body.modal-open { overflow: hidden; }
   padding: 1.1rem 1.25rem 1rem;
   grid-template-rows: auto minmax(180px, 1fr) auto;
   gap: 0.8rem;
-  background: color-mix(in oklch, var(--panel), var(--bg) 8%);
-  border-width: 1px;
+  background: var(--panel);
+  border-width: 1.5px;
   border-radius: var(--r-lg);
-  box-shadow: none;
+  box-shadow: var(--s1);
 }
 
 .study-card-head,
@@ -3659,15 +3669,15 @@ body.modal-open { overflow: hidden; }
 
 .study-controls button {
   flex: 0 0 auto;
-  min-height: 38px;
-  padding: 0.42rem 0.72rem;
+  min-height: 46px;
+  padding: 0.62rem 0.95rem;
   box-shadow: none;
-  font-size: 0.78rem;
+  font-size: 0.86rem;
 }
 
-.study-controls .study-step { width: 38px; padding: 0; justify-content: center; text-align: center; }
-.study-controls #flipCard { min-width: 88px; }
-.study-controls .study-learned { min-width: 98px; }
+.study-controls .study-step { width: 46px; padding: 0; justify-content: center; text-align: center; }
+.study-controls #flipCard { min-width: 104px; }
+.study-controls .study-learned { min-width: 116px; }
 
 .study-keywords { position: relative; margin-left: auto; }
 
@@ -3896,8 +3906,12 @@ body.modal-open { overflow: hidden; }
 
   .subject-panel-btn {
     flex: 0 0 auto;
+    width: auto;
+    min-height: 40px;
     margin: 0;
-    padding: 0.38rem 0.55rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+    box-shadow: none;
   }
 
   .subject-graph {

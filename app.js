@@ -1593,7 +1593,7 @@ function renderOutcomes() {
       </div>
       ${card.keywords?.length ? `
         <details class="study-keywords">
-          <summary>Key words <span>${card.keywords.length}</span></summary>
+          <summary>Key words</summary>
           <div class="study-keywords-panel">
             ${renderKeywordRow(card.keywords)}
             <p>Use these in your test answer for bonus marks.</p>
