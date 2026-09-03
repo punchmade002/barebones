@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=46" />
+    <link rel="stylesheet" href="./styles.css?v=47" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <script>
@@ -185,17 +185,24 @@
 
           <div id="subjectWorkbench" class="workbench hidden">
             <div id="subjectOverview" class="subject-overview hidden"></div>
-            <div class="tabs">
-              <button class="tab active" data-tab="flashcards">Outcomes</button>
-              <button class="tab" data-tab="test">Test</button>
-              <button class="tab" data-tab="exam">Exam Qs</button>
+            <div class="workbench-bar">
+              <div id="studyContext" class="study-context" aria-live="polite"></div>
+              <div class="workbench-nav">
+                <div class="tabs" aria-label="Study mode">
+                  <button class="tab active" data-tab="flashcards">Learn</button>
+                  <button class="tab" data-tab="test">Test</button>
+                  <button class="tab" data-tab="exam">Exam</button>
+                </div>
+                <div class="workbench-menu">
+                  <button class="workbench-menu-trigger" type="button" aria-label="More study options" aria-haspopup="true">•••</button>
+                  <div class="workbench-menu-panel">
+                    <button id="openFullNotes" type="button">Full notes</button>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div id="flashcardsTab" class="tab-content active">
-              <div class="toolbar">
-                <h3>Learning Outcomes</h3>
-              </div>
-              <button id="openFullNotes" class="button-primary full-notes-wide">Full Notes</button>
               <div id="outcomeNav" class="outcome-nav hidden"></div>
               <div id="flashcardStudy" class="flashcard-study"></div>
               <ul id="flashcardList" class="resource-list"></ul>
@@ -203,9 +210,8 @@
             </div>
 
             <div id="testTab" class="tab-content">
-              <div class="toolbar">
-                <h3>Outcome Test</h3>
-                <button id="startTest" class="button-primary">Start Test</button>
+              <div class="toolbar test-toolbar">
+                <button id="startTest" class="button-primary">Begin test</button>
               </div>
               <div id="testContainer" class="test-container">
                 <p class="muted">Ready</p>
@@ -332,7 +338,7 @@
     <script src="./pe-test-questions.js?v=2"></script>
     <script src="./pe-exam-info.js?v=2"></script>
     <script src="./generated-notes-content.js?v=2"></script>
-    <script src="./app.js?v=56"></script>
+    <script src="./app.js?v=57"></script>
     <script src="./timer.js?v=1"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
