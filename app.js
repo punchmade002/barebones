@@ -452,7 +452,7 @@ let authSaveInFlight = null;
 let authActivationPromise = null;
 let activatingAuthUserId = "";
 let _fullNotesReturnToBreakdown = null; // set when full notes opened from breakdown questions
-let expandedSubjectId = SUBJECTS[0].id;
+let expandedSubjectId = "";
 let selectedSubjectId = SUBJECTS[0].id;
 let selectedChapterId = SUBJECTS[0].chapters[0].id;
 let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
@@ -465,7 +465,7 @@ if (isLocalMathsPreview) {
   const previewUsername = "maths-preview";
   state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
   state.session.currentUser = previewUsername;
-  expandedSubjectId = MATHS_SUBJECT.id;
+  expandedSubjectId = "";
   selectedSubjectId = MATHS_SUBJECT.id;
   selectedChapterId = MATHS_SUBJECT.chapters[0]?.id || "";
   selectedOutcomeId = MATHS_SUBJECT.chapters[0]?.learningOutcomes[0]?.id || "";
@@ -1193,6 +1193,7 @@ function switchTab(tab) {
   els.flashcardsTab.classList.toggle("active", tab === "flashcards");
   els.testTab.classList.toggle("active", tab === "test");
   els.examTab.classList.toggle("active", tab === "exam");
+  els.subjectWorkbench?.classList.toggle("learn-mode", tab === "flashcards");
   if (tab === "exam") renderExamSection();
 }
 
@@ -1204,7 +1205,7 @@ function reconcileSelection() {
     selectedSubjectId = first.id;
     selectedChapterId = first.chapters[0]?.id || "";
     selectedOutcomeId = first.chapters[0]?.learningOutcomes[0]?.id || "";
-    expandedSubjectId = first.id;
+    expandedSubjectId = "";
   }
 }
 
@@ -1253,6 +1254,7 @@ function renderAll() {
   renderSubjectOverview();
   renderStudyContext();
   renderTabVisibility();
+  els.subjectWorkbench?.classList.toggle("learn-mode", els.flashcardsTab.classList.contains("active"));
   renderOutcomes();
   renderTestOverview();
   if (els.examTab?.classList.contains("active")) renderExamSection();
@@ -1320,7 +1322,7 @@ function renderSubjectPicker() {
           selectedSubjectId = first.id;
           selectedChapterId = first.chapters[0]?.id || "";
           selectedOutcomeId = first.chapters[0]?.learningOutcomes[0]?.id || "";
-          expandedSubjectId = first.id;
+          expandedSubjectId = "";
         }
       }
       persist();
@@ -1407,20 +1409,17 @@ function renderGraph() {
     const hasBreakdown = !!window.EXAM_BREAKDOWN?.[subject.id];
     const expanded = expandedSubjectId === subject.id;
     block.classList.toggle("expanded", expanded);
+    block.classList.toggle("selected", selectedSubjectId === subject.id);
     block.innerHTML = `
       <div class="graph-subject-header">
         <button class="graph-subject-name" aria-expanded="${expanded}">
+          <span class="graph-subject-chevron" aria-hidden="true">›</span>
           <span class="graph-subject-title">${escapeHtml(subject.title)}</span>
           <span class="graph-subject-count" aria-label="${subject.chapters.length} chapters">${subject.chapters.length}</span>
         </button>
-        <span class="graph-subject-chevron" aria-hidden="true">›</span>
+        ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Paper guide</button>` : ""}
       </div>
-      <div class="graph-chapters" aria-label="${escapeHtml(subject.title)} chapters">
-        <div class="graph-menu-head">
-          <span>Chapters</span>
-          ${hasBreakdown ? `<button class="graph-subject-exam" title="Marks, timing and structure for the ${escapeHtml(subject.title)} paper">Paper guide</button>` : ""}
-        </div>
-      </div>
+      <div class="graph-chapters ${expanded ? "" : "hidden"}" aria-label="${escapeHtml(subject.title)} chapters"></div>
     `;
     const openSubject = () => {
       expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
@@ -1442,6 +1441,7 @@ function renderGraph() {
         selectedSubjectId = subject.id;
         selectedChapterId = chapter.id;
         selectedOutcomeId = chapter.learningOutcomes[0].id;
+        expandedSubjectId = "";
         studyIndex = 0;
         showAnswer = false;
         viewMode = 'chapter';
@@ -1451,6 +1451,11 @@ function renderGraph() {
     });
     els.subjectGraph.appendChild(block);
   });
+  if (window.matchMedia("(max-width: 980px)").matches) {
+    requestAnimationFrame(() => {
+      els.subjectGraph.scrollLeft = 0;
+    });
+  }
   els.subjectWorkbench.classList.toggle("hidden", !getCurrentUser());
 }
 
@@ -1584,7 +1589,7 @@ function renderOutcomes() {
         <button id="prevCard" class="button-secondary study-step" aria-label="Previous concept">←</button>
         <button id="flipCard" class="button-primary">${showAnswer ? "Question" : "Reveal"}</button>
         <button id="nextCard" class="button-secondary study-step" aria-label="Next concept">→</button>
-        <button id="markLearned" class="button-secondary study-learned" aria-label="${learnedSet.has(card.id) ? "Concept learned" : "Mark concept learned"}">${learnedSet.has(card.id) ? "✓ Learned" : "Mark learned"}</button>
+        <button id="markLearned" class="button-secondary study-learned" aria-label="${learnedSet.has(card.id) ? "Mark concept unlearned" : "Mark concept learned"}" title="${learnedSet.has(card.id) ? "Press again to mark unlearned" : "Mark this concept learned"}">${learnedSet.has(card.id) ? "✓ Learned" : "Mark learned"}</button>
       </div>
       ${card.keywords?.length ? `
         <details class="study-keywords">
@@ -1615,7 +1620,11 @@ function renderOutcomes() {
     const learnedByOutcome = getLearnedByOutcome();
     if (!learnedByOutcome[outcome.id]) learnedByOutcome[outcome.id] = [];
     const set = new Set(learnedByOutcome[outcome.id]);
-    set.add(card.id);
+    if (set.has(card.id)) {
+      set.delete(card.id);
+    } else {
+      set.add(card.id);
+    }
     learnedByOutcome[outcome.id] = Array.from(set);
     persist();
     renderProfileLevel();
@@ -1785,44 +1794,59 @@ function getExamQuestionsForChapter(chapter) {
   return (window.EXAM_QUESTIONS_DB || []).filter(q => q.chapterId === chapter.id);
 }
 
+function compactExamSource(group) {
+  const source = String(group?.source || group?.id || "");
+  const year = String(group?.year || source.match(/\b20\d{2}\b/)?.[0] || group?.id?.match(/-((?:19|20)\d{2})-/)?.[1] || "");
+  const paper = source.match(/\bPaper\s*([12])\b/i)?.[1] || source.match(/\bP([12])\b/i)?.[1] || "";
+  const namedSection = source.match(/\bSection\s*([A-C]|\d+)\b/i)?.[1] || "";
+  const letterSection = source.match(/[—–-]\s*([A-C])\s*[—–-]/i)?.[1] || "";
+  const question = source.match(/\bQ(?:uestion)?\s*(\d+[A-Za-z]?)\b/i)?.[1] || group?.id?.match(/-q(\d+[a-z]?)/i)?.[1] || "";
+  const section = namedSection
+    ? (/^\d+$/.test(namedSection) ? `S${namedSection}` : namedSection.toUpperCase())
+    : letterSection.toUpperCase();
+  const pieces = [year, paper ? `P${paper}` : section, question ? `Q${question}` : ""].filter(Boolean);
+  return pieces.length >= 2 ? pieces.join(" ") : compactText(source).slice(0, 32);
+}
+
 function getExamDisclaimer(subject) {
-  if (subject === "business") {
-    return `<div class="exam-disclaimer exam-disclaimer--warning">
-      <span class="exam-disclaimer-icon">⚠</span>
-      <span>The Business course has changed significantly. Past exam papers may not reflect current course requirements and are <strong>not a reliable</strong> study tool on their own — use them with caution.</span>
-    </div>`;
-  }
-  if (subject === "biology") {
-    return `<div class="exam-disclaimer exam-disclaimer--info">
-      <span class="exam-disclaimer-icon">ℹ</span>
-      <span>The Biology course has minor differences from previous years. Past exam papers are still a <strong>reliable</strong> way to study — the core content is largely the same.</span>
-    </div>`;
-  }
-  if (subject === "chemistry") {
-    return `<div class="exam-disclaimer exam-disclaimer--warning">
-      <span class="exam-disclaimer-icon">⚠</span>
-      <span>Chemistry moved to a new specification in September 2025, first examined in 2027. <strong>Every past paper here is old course</strong> — none reflects the new exam structure, and none covers the Chemistry in Practice investigation. The underlying chemistry still transfers, so use these for content practice, but not as a guide to the format of the exam you will sit.</span>
-    </div>`;
-  }
-  if (subject === "maths") {
-    return `<div class="exam-disclaimer exam-disclaimer--info">
-      <span class="exam-disclaimer-icon">ℹ</span>
-      <span>LC Maths HL past papers are a <strong>highly reliable</strong> study tool — the course content and marking scheme are consistent year to year.</span>
-    </div>`;
-  }
-  if (subject === "geography") {
-    return `<div class="exam-disclaimer exam-disclaimer--info">
-      <span class="exam-disclaimer-icon">ℹ</span>
-      <span>Geography underwent a major restructure in 2020. Questions tagged <strong>[old course]</strong> are from the previous format and may not reflect current exam structure.</span>
-    </div>`;
-  }
-  if (subject === "pe") {
-    return `<div class="exam-disclaimer exam-disclaimer--info">
-      <span class="exam-disclaimer-icon">ℹ</span>
-      <span>PE past papers are available from 2020 onwards. Model answers are not yet available — use these questions for practice and self-review.</span>
-    </div>`;
-  }
-  return "";
+  const guidance = {
+    business: {
+      tone: "warning",
+      status: "Use with care",
+      body: "The Business course has changed significantly. Past papers may not reflect current course requirements, so use them for content practice rather than as a complete exam guide.",
+    },
+    biology: {
+      tone: "info",
+      status: "Mostly reliable",
+      body: "The Biology course has minor differences from previous years. The core content is largely unchanged, so past papers remain useful.",
+    },
+    chemistry: {
+      tone: "warning",
+      status: "Old course",
+      body: "Chemistry moved to a new specification in September 2025 and is first examined in 2027. These papers still help with content practice, but they do not show the new exam structure or Chemistry in Practice investigation.",
+    },
+    maths: {
+      tone: "info",
+      status: "Reliable",
+      body: "LC Maths HL past papers are highly reliable because the course content and marking approach are consistent from year to year.",
+    },
+    geography: {
+      tone: "info",
+      status: "Check the year",
+      body: "Geography was restructured in 2020. Questions marked old course may not match the current exam structure.",
+    },
+    pe: {
+      tone: "info",
+      status: "Questions only",
+      body: "PE papers are available from 2020 onwards. Model answers are not yet available, so use these questions for practice and self-review.",
+    },
+  }[subject];
+
+  if (!guidance) return "";
+  return `<details class="exam-guidance exam-guidance--${guidance.tone}">
+    <summary><span>Paper guidance</span><small>${guidance.status}</small></summary>
+    <div class="exam-guidance-panel">${guidance.body}</div>
+  </details>`;
 }
 
 function renderExamSection() {
@@ -1876,24 +1900,31 @@ function renderExamSection() {
       : "";
 
     const _sq = getSectionForQuestion(group.id);
-    const sectionBadge = examSectionBadge(_sq?.section, _sq?.data);
     const totalQMarks = (group.parts || []).reduce(function(s, p) { return s + (p.marks || 0); }, 0);
     const totalQMins = getRecommendedMinutes(group.subject, totalQMarks);
-    const totalTimingBadge = totalQMins
-      ? `<span class="exam-question-timing muted small">~${totalQMins} min total</span>`
-      : "";
+    const meta = [
+      totalQMarks ? `${totalQMarks} marks` : "",
+      totalQMins ? `${totalQMins} min` : "",
+      group.parts?.length > 1 ? `${group.parts.length} parts` : "",
+    ].filter(Boolean).join(" · ");
+    const fullSource = [group.source, _sq?.section?.name].filter(Boolean).join(" · ");
+    const bodyId = `exam-body-${group.id}`;
     return `
       <div class="exam-group${group.caseStudy ? " exam-group--case-study" : ""}">
-        <div class="exam-group-header">
-          <span class="exam-source-tag">${escapeHtml(group.source)}</span>
-          ${sectionBadge}
-          ${totalTimingBadge}
+        <button class="exam-group-header" type="button" data-exam-toggle aria-expanded="false" aria-controls="${escapeHtml(bodyId)}" title="${escapeHtml(fullSource)}">
+          <span class="exam-source-tag">${escapeHtml(compactExamSource(group))}</span>
+          <span class="exam-group-meta">${escapeHtml(meta)}</span>
+          <span class="exam-group-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="exam-group-body hidden" id="${escapeHtml(bodyId)}">
+          ${contextBox}
+          ${parts}
+          ${appliesToBlock}
         </div>
-        ${contextBox}
-        ${parts}
-        ${appliesToBlock}
       </div>`;
   }).join("");
+
+  bindExamAccordions(els.examContainer);
 
   if (typeof renderMathInElement !== "undefined") {
     renderMathInElement(els.examContainer, {
@@ -1904,6 +1935,27 @@ function renderExamSection() {
       throwOnError: false,
     });
   }
+}
+
+function bindExamAccordions(container) {
+  if (!container) return;
+  container.querySelectorAll("[data-exam-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const body = document.getElementById(button.getAttribute("aria-controls"));
+      if (!body) return;
+      const opening = button.getAttribute("aria-expanded") !== "true";
+
+      container.querySelectorAll("[data-exam-toggle][aria-expanded='true']").forEach((openButton) => {
+        if (openButton === button) return;
+        openButton.setAttribute("aria-expanded", "false");
+        const openBody = document.getElementById(openButton.getAttribute("aria-controls"));
+        openBody?.classList.add("hidden");
+      });
+
+      button.setAttribute("aria-expanded", String(opening));
+      body.classList.toggle("hidden", !opening);
+    });
+  });
 }
 
 function renderExamAnswer(group, part, partId) {
@@ -3166,13 +3218,17 @@ function openSectionQuestions(subjectId, sectionIdx) {
         </div>`;
     }).join('');
 
+    const totalMarks = (group.parts || []).reduce((sum, part) => sum + (part.marks || 0), 0);
+    const bodyId = `breakdown-exam-body-${qi}`;
+
     return `
       <div class="exam-group">
-        <div class="exam-group-header">
-          <span class="exam-source-tag">${escapeHtml(group.source || group.id)}</span>
-          ${examSectionBadge(section, data)}
-        </div>
-        ${parts}
+        <button class="exam-group-header" type="button" data-exam-toggle aria-expanded="false" aria-controls="${bodyId}" title="${escapeHtml(group.source || group.id)}">
+          <span class="exam-source-tag">${escapeHtml(compactExamSource(group))}</span>
+          <span class="exam-group-meta">${totalMarks ? `${totalMarks} marks` : ""}${group.parts?.length > 1 ? ` · ${group.parts.length} parts` : ""}</span>
+          <span class="exam-group-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="exam-group-body hidden" id="${bodyId}">${parts}</div>
       </div>`;
   }).join('');
 
@@ -3181,8 +3237,9 @@ function openSectionQuestions(subjectId, sectionIdx) {
   _fullNotesReturnToBreakdown = subjectId;
 
   // Populate and open the full-notes screen (true full-screen overlay)
-  document.getElementById('fullNotesTitle').textContent = `${section.name} — Practice Questions`;
+  document.getElementById('fullNotesTitle').textContent = `${section.name}: Practice questions`;
   document.getElementById('fullNotesBody').innerHTML = `<div class="exam-container exam-container--fullscreen">${questionsHtml}</div>`;
+  bindExamAccordions(document.getElementById('fullNotesBody'));
   els.fullNotesScreen.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
 
