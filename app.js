@@ -586,7 +586,6 @@ function showProfilePane(pane) {
    scrolling resets the tally so ordinary reading never trips it. */
 const SIDEBAR_COLLAPSE_KEY = "bare-bones-sidebar-collapsed";
 const SWIPE_THRESHOLD = 90;
-const EDGE_HOT_RADIUS = 44;
 let swipeAccum = 0;
 let swipeResetTimer = null;
 
@@ -635,25 +634,6 @@ function bindSidebarCollapse() {
   els.sidebarToggle?.addEventListener("click", () => {
     setSidebarCollapsed(!isSidebarCollapsed());
   });
-
-  // Reveal the handle when the pointer nears the left edge of the content window.
-  const edge = els.subjectArea.querySelector(".sidebar-edge");
-  if (edge) {
-    let queued = false;
-    document.addEventListener("mousemove", (event) => {
-      if (queued) return;
-      queued = true;
-      requestAnimationFrame(() => {
-        queued = false;
-        const box = edge.getBoundingClientRect();
-        const near =
-          event.clientY >= box.top &&
-          event.clientY <= box.bottom &&
-          Math.abs(event.clientX - (box.left + box.width / 2)) <= EDGE_HOT_RADIUS;
-        edge.classList.toggle("edge-hot", near);
-      });
-    });
-  }
 
   els.subjectArea.addEventListener(
     "wheel",
