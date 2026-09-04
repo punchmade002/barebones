@@ -1421,7 +1421,7 @@ function renderGraph() {
         selectedSubjectId = subject.id;
         selectedChapterId = chapter.id;
         selectedOutcomeId = chapter.learningOutcomes[0].id;
-        expandedSubjectId = "";
+        expandedSubjectId = subject.id;
         studyIndex = 0;
         showAnswer = false;
         viewMode = 'chapter';
@@ -1571,7 +1571,7 @@ function renderOutcomes() {
         <button id="nextCard" class="button-secondary study-step" aria-label="Next concept">→</button>
         <button id="markLearned" class="button-secondary study-learned" aria-label="${learnedSet.has(card.id) ? "Mark concept unlearned" : "Mark concept learned"}" title="${learnedSet.has(card.id) ? "Press again to mark unlearned" : "Mark this concept learned"}">${learnedSet.has(card.id) ? "✓ Learned" : "Mark learned"}</button>
       </div>
-      ${card.keywords?.length ? `
+      ${showAnswer && card.keywords?.length ? `
         <details class="study-keywords">
           <summary>Key words</summary>
           <div class="study-keywords-panel">
@@ -1860,7 +1860,6 @@ function renderExamSection() {
             ${diagramBtn}
           </div>
           <p class="exam-question-text">${escapeHtml(part.question)}</p>
-          <textarea class="exam-textarea" placeholder="Write your answer here…" rows="5"></textarea>
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join("");
@@ -3193,7 +3192,6 @@ function openSectionQuestions(subjectId, sectionIdx) {
           </div>
           <p class="exam-question-text">${escapeHtml(part.question || '')}</p>
           ${diagramHtml}
-          <textarea class="exam-textarea" placeholder="Write your answer here…" rows="8"></textarea>
           ${renderExamAnswer(group, part, partId)}
         </div>`;
     }).join('');
