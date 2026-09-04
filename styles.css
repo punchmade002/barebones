@@ -2049,35 +2049,6 @@ details[open] > summary::before { transform: rotate(90deg); }
   color: var(--ink);
 }
 
-.exam-textarea {
-  width: 100%;
-  padding: 0.65rem 0.85rem;
-  border: 1.5px solid var(--line);
-  border-radius: var(--r-sm);
-  font-family: var(--font);
-  font-size: 0.88rem;
-  resize: vertical;
-  background: #fffdfa;
-  color: #1a1916;
-  -webkit-text-fill-color: #1a1916;
-  caret-color: var(--accent);
-  font-weight: 500;
-  line-height: 1.55;
-  transition: border-color var(--t) var(--ease), box-shadow var(--t) var(--ease);
-}
-
-.exam-textarea::placeholder {
-  color: #68635b;
-  -webkit-text-fill-color: #68635b;
-  opacity: 1;
-}
-
-.exam-textarea:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px var(--accent-xlight);
-}
-
 .exam-toggle-btn {
   justify-self: start;
   font-size: 0.82rem;
@@ -2110,11 +2081,6 @@ details[open] > summary::before { transform: rotate(90deg); }
 .exam-container--fullscreen .exam-question-text {
   font-size: 1rem;
   line-height: 1.65;
-}
-
-.exam-container--fullscreen .exam-textarea {
-  min-height: 120px;
-  font-size: 0.92rem;
 }
 
 .exam-diagram-inline {
