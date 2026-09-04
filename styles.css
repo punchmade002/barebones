@@ -826,46 +826,40 @@ button:active { transform: scale(0.965) !important; }
   position: absolute;
   top: 0;
   bottom: 0;
-  left: var(--sidebar-w);
-  width: 2.4rem;
-  z-index: 6;
+  left: calc(var(--sidebar-w) - 0.875rem);
+  width: 1.75rem;
+  z-index: 30;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
+  align-items: stretch;
+  pointer-events: auto;
   transition: left var(--t) var(--ease);
 }
 
+.subject-area.sidebar-collapsed .sidebar-edge { left: 0; }
+
 .sidebar-toggle {
-  /* Hidden means non-interactive: at opacity 0 this would otherwise sit
-     invisible over the content edge and swallow clicks. */
-  pointer-events: none;
-  width: 22px;
-  height: 60px;
+  pointer-events: auto;
+  width: 100%;
+  height: 100%;
   padding: 0;
   display: grid;
   place-items: center;
   background: var(--panel);
-  border: 1.5px solid var(--line);
-  border-radius: var(--r-full);
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
   box-shadow: var(--s1);
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1;
   cursor: pointer;
   opacity: 0;
-  transform: scale(0.85);
-  transition: opacity var(--t) var(--ease), transform var(--t) var(--ease),
-              color var(--t) var(--ease), border-color var(--t) var(--ease);
+  transition: opacity var(--t) var(--ease), color var(--t) var(--ease),
+              background var(--t) var(--ease), border-color var(--t) var(--ease);
 }
 
-/* The zone is click-through, so :hover never fires on it — JS sets .edge-hot
-   from the pointer's distance to the content edge instead. */
-.sidebar-edge.edge-hot .sidebar-toggle,
+.sidebar-edge:hover .sidebar-toggle,
 .sidebar-toggle:focus-visible {
   opacity: 1;
-  transform: scale(1);
-  pointer-events: auto;
 }
 
 .sidebar-toggle:hover { color: var(--accent); border-color: var(--accent-light); }
@@ -3253,24 +3247,21 @@ body.modal-open { overflow: hidden; }
   }
 
   .sidebar-edge {
-    align-items: flex-start;
-    width: 2.75rem;
-    padding-top: 0.35rem;
+    align-items: stretch;
+    width: 1.75rem;
+    padding-top: 0;
   }
 
   .sidebar-toggle {
-    width: 34px;
-    height: 64px;
-    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
     opacity: 0;
-    transform: translateX(-50%) scale(0.86);
   }
 
-  .sidebar-edge.edge-hot .sidebar-toggle,
+  .sidebar-edge:hover .sidebar-toggle,
   .sidebar-toggle:focus-visible {
-    pointer-events: auto;
     opacity: 1;
-    transform: translateX(-50%) scale(1);
   }
 }
 
