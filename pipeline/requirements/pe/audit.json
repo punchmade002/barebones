@@ -1,0 +1,69 @@
+{
+  "status": "structural-checks-passed-editorial-review-open",
+  "specificationId": "ncca-pe-three-strand-2026",
+  "sourceSha256": "1ec8472aa4af49bc9efeb1b36891adb4eb3c440ad6439eeb19d06737ca5126fb",
+  "officialOutcomes": 32,
+  "mappedOfficialOutcomes": 32,
+  "sourceContentBullets": 87,
+  "mappedSourceContentBullets": 87,
+  "namedContentChecks": 113,
+  "learningPoints": 260,
+  "pointsByGroup": {
+    "S1": 74,
+    "S2": 112,
+    "S3": 64,
+    "PRACTICE": 3,
+    "AAC": 7
+  },
+  "requirementStatusCounts": {
+    "syllabus-explicit": 224,
+    "supported-decomposition": 36
+  },
+  "sourcePagesAccountedFor": 30,
+  "existingCoverageAccepted": 0,
+  "independentlyCertifiedExhaustive": false,
+  "openIssues": [
+    {
+      "id": "teacher-depth-review",
+      "kind": "editorial-review",
+      "blocks": "exhaustiveness-certification",
+      "detail": "All 32 outcomes and 87 content bullets have draft mappings, but the breadth and depth of the decomposition and rubrics need subject-expert review. Structural reconciliation is not independent pedagogical validation."
+    },
+    {
+      "id": "broad-anatomy-scope",
+      "kind": "contextual-depth",
+      "blocks": "activity-specific-completeness",
+      "detail": "The specification names relevant muscles, bones and joint actions without a fixed exhaustive anatomy list. Confirm concrete anatomy coverage for the activities used in teaching and assessment."
+    },
+    {
+      "id": "current-domain-sources",
+      "kind": "source-refresh",
+      "blocks": "affected-answer-generation",
+      "detail": "Anti-doping, supplement evidence, current governing-body rules, policies and development programmes require current authoritative sources before answers are written. A requirement statement is not the factual answer."
+    },
+    {
+      "id": "annual-project-brief",
+      "kind": "cohort-overlay",
+      "blocks": "assessment-profile-activation",
+      "detail": "No annual SEC project brief has been selected. Do not infer themes, deadlines, reporting format or accommodations from an older examination."
+    },
+    {
+      "id": "reported-cohort-alignment",
+      "kind": "administrative-verification",
+      "blocks": "exam-year-profile-activation",
+      "detail": "User selected the three-strand course and reports sixth year. NCCA labels this specification for introduction in September 2026. The content target is explicit, but no exam-year mapping is asserted."
+    },
+    {
+      "id": "secondary-source-limit",
+      "kind": "source-depth",
+      "blocks": "exhaustiveness-certification",
+      "detail": "The local SimpleStudy guide is an older topic taxonomy, not full three-strand lesson text. It cannot independently certify that all teachable detail has been captured."
+    },
+    {
+      "id": "existing-content-unreviewed",
+      "kind": "content-reuse",
+      "blocks": "automatic-coverage-credit",
+      "detail": "Existing notes/cards have not been matched or verified. Preserve them for review; no source-text similarity or presence check earns coverage credit."
+    }
+  ]
+}

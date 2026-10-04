@@ -1,0 +1,3401 @@
+{
+  "status": "inventory-only-no-coverage-accepted",
+  "sourceFingerprints": {
+    "pe-content.js": "c9ad8c9b6f713019281bb21c7f02ec932aca56406d0ef1a0bd6e5cc464cf44b4",
+    "pipeline/_data/canonical/flashcards.pe.json": "cac9e13d6d55ec23c118e903e9e7d2b18d829494bf3e506708c7ca28e8fdf069"
+  },
+  "counts": {
+    "legacyNotes": 121,
+    "canonicalFlashcards": 137
+  },
+  "notes": [
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 0,
+      "heading": "What is Health, Fitness, Well-being?",
+      "text": "Health (WHO): state of complete physical, mental and social well-being, not merely absence of disease. Fitness: ability to carry out everyday tasks without becoming overly tired. Well-being: combination of mental and social elements that contribute to fulfilment. Regular exercise reduces risk of heart disease, obesity, high blood pressure, adult-onset diabetes, osteoporosis and stroke.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 1,
+      "heading": "What are the two categories of fitness?",
+      "text": "Health-related fitness — 5 components essential for health (mnemonic: Cows Make Milk For Bones). Performance-related (skill-related) fitness — 6 components that enhance performance (mnemonic: All Big Cats Pounce Really Softly).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 2,
+      "heading": "What are the 5 health-related components of fitness?",
+      "text": "1. Cardiorespiratory endurance — delivering oxygen and nutrients to muscles over a sustained period. 2. Muscular endurance — ability of a muscle/muscle group to generate force repetitively without fatiguing. 3. Muscular strength — maximal force a muscle can produce. 4. Flexibility — range of motion at a joint. 5. Body composition — percentage of body fat vs non-fat mass.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 3,
+      "heading": "What is Body composition and somatotypes?",
+      "text": "Measured by body fat % or BMI (mass kg / height m squared; high muscle mass can give a false high BMI). Ectomorph: long, lean, low body fat, low musculature, fast metabolism (high jumper, long-distance runner). Mesomorph: broad shoulders, narrow hips, high musculature, moderate fat, gains muscle easily (sprinter, swimmer). Endomorph: apple-shaped, high body fat, slow metabolism, gains fat and muscle easily (sumo wrestler, prop forward).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 4,
+      "heading": "What is Performance-related components (6)?",
+      "text": "1. Agility — change direction and speed quickly and efficiently. 2. Balance — maintain equilibrium (static = stationary, dynamic = moving). 3. Coordination — move two or more body parts in a controlled, smooth way. 4. Power — exert maximal force in as short a time as possible (Power = force x time). 5. Reaction time — how quickly the brain initiates a response to a stimulus. 6. Speed — how fast a body is moving.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 5,
+      "heading": "What are the steps of Needs analysis?",
+      "text": "Process of determining the qualities necessary for a sport, an athlete, or a combination. Allows a training programme to target sport-specific fitness based on the demands of the sport, position and role.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 6,
+      "heading": "What is Fitness testing?",
+      "text": "Form of assessment for performer needs and optimum performance. Identifies strengths and weaknesses to set realistic goals. Test battery: collection of tests specific to the sport. Field tests are practical and school-friendly; lab tests are more accurate.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 7,
+      "heading": "Which fitness test measures each component of fitness?",
+      "text": "Cardiorespiratory endurance: Cooper 12-minute run (estimates VO2 max) or multistage 20m bleep test. Muscular endurance: push-up test, sit-up test. Muscular strength: standing broad jump (lower), seated medicine ball throw (upper), 1RM/3RM, hand grip dynamometer. Flexibility: sit-and-reach. Body composition: BMI, body fat callipers, BODPOD, DEXA scan. Agility: Illinois Agility Test, T-drill. Balance: stork balance test. Coordination: alternative hand wall toss. Power: vertical jump. Reaction time: ruler drop test. Speed: 30m sprint.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe1",
+      "chapterTitle": "Physical Demands of Performance",
+      "outcomeId": "pe1-1",
+      "noteIndex": 8,
+      "heading": "What is Factors affecting assessment?",
+      "text": "Standardised test: same protocol every time. Valid: measures what it claims to measure. Reliable: produces consistent results when repeated. Normative data: results compared against population norms.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe1-pe1-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 0,
+      "heading": "What does Principles of training (SPORRT) state?",
+      "text": "Specificity — training must match the activity and goals (energy systems, muscles, components, intensity, time). Progressive overload — gradually increase Frequency, Intensity, Time or Type. Recovery — time for the body to repair and adapt. Reversibility — training effects diminish without progression (use it or lose it). Tedium — vary training to avoid boredom and keep performers motivated.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 1,
+      "heading": "What is FITT formula?",
+      "text": "Frequency (how often), Intensity (how hard), Time (how long), Type (what kind). Used to apply progressive overload.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 2,
+      "heading": "What does the principle of diminishing returns state?",
+      "text": "Rate of fitness improvement decreases over time as fitness approaches its potential. Fitter performers gain less from each training session.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 3,
+      "heading": "What is Continuous training?",
+      "text": "Exercising continuously without rest. Low intensity, minimum 20 minutes in the aerobic zone (70-80% MHR). Develops cardiorespiratory endurance.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 4,
+      "heading": "What is Fartlek training?",
+      "text": "Swedish 'speed play' — continuous training with varied speed and terrain. Develops aerobic AND anaerobic systems, lactate threshold and recovery times.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 5,
+      "heading": "What is an Interval training?",
+      "text": "Periods of intense work followed by timed rest or cardiac-readiness rest. Structured in sets and reps; intensity expressed as % HR. Improves cardiorespiratory endurance, muscular endurance, speed and recovery.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 6,
+      "heading": "What are the types of circuit training?",
+      "text": "Series of 8-10 stations performed one after another, working different muscle groups. Types: aerobic, local muscular endurance, anaerobic, strength, flexibility, skill-related.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 7,
+      "heading": "What is Weight training?",
+      "text": "Uses external weights. Strength = high weight, low reps. Endurance = low weight, high reps. Power = moderate weight, explosive reps.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 8,
+      "heading": "What is Plyometric training?",
+      "text": "Uses speed and force to build muscle power: bounding, hopping, jumping, box jumps. Eccentric contraction (landing) followed quickly by concentric contraction (jumping).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 9,
+      "heading": "What is Flexibility training?",
+      "text": "Deliberate programme to permanently increase range of motion. Static (hold at resistance), active (partner-assisted), ballistic (momentum, bouncing), PNF (stretch + contract — most effective): stretch to resistance, contract 5-6 sec, relax, hold 20-30 sec, recover 30 sec, repeat 2-4 times.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 10,
+      "heading": "What is an Adaptation and recovery?",
+      "text": "Adaptation is the body getting accustomed to training through repeated exposure. Without rest, performance decreases and overtraining occurs. Strategies: passive recovery (complete rest), active recovery (low-intensity activity, improves blood flow), sleep (7-8 hours; non-REM releases growth hormones), nutrition, cryotherapy, foam rolling (self-myofascial release for DOMS), compression garments.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 11,
+      "heading": "What is Periodisation?",
+      "text": "Division of a training plan (usually yearly) into cycles. Macrocycle: full long-term cycle (yearly or 4-year Olympic plan) with preparation, competition and transition phases. Mesocycle: weeks emphasising the same type of adaptation. Microcycle: a small number of training sessions, often a daily breakdown.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-11",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe2",
+      "chapterTitle": "Training Methods and Fitness Plans",
+      "outcomeId": "pe2-1",
+      "noteIndex": 12,
+      "heading": "What is an Overtraining, peaking and tapering?",
+      "text": "Overtraining: imbalance between load and recovery, causing performance to fall. Peaking: performer in best physical, emotional and mental condition for the most important competition. Tapering: reduction in training VOLUME (intensity maintained) before competition to be fresh for peak performance.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe2-pe2-1-12",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 0,
+      "heading": "What are the steps of Psychological preparedness?",
+      "text": "Forming the mental functions, processes and personality traits required to solve problems during training and competition.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 1,
+      "heading": "Confidence and self-efficacy",
+      "text": "Self-confidence: belief in one's skills and ability. Self-efficacy: self-belief that enables better performance in a specific task. Trait confidence: confident in many situations. State confidence: confident only in specific situations. Extroverts tend to have high self-confidence.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 2,
+      "heading": "Bandura's model of self-efficacy",
+      "text": "Self-efficacy is formed and changed through four information sources: enactive mastery (past success), vicarious experiences (seeing others succeed), verbal persuasion (encouragement) and physiological arousal (how the body feels). High self-efficacy pursues challenges and persists; low self-efficacy avoids challenges and gives up.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 3,
+      "heading": "What is an Anxiety?",
+      "text": "Feeling of unease, worry or fear, ranging from mild to severe. Trait anxiety is part of personality across life areas. State anxiety is temporary, in specific situations. Cognitive anxiety: mental worries and expectations. Somatic anxiety: physical effects such as sweaty palms, raised HR and butterflies. SCAT (Sports Competition Anxiety Test, 1990) measures anxiety level.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 4,
+      "heading": "Arousal and the Inverted-U",
+      "text": "Arousal is a state of physical and mental readiness on a continuum from low to high. Inverted-U theory: performance improves with arousal up to an optimal point, then worsens. Low arousal = boredom; medium arousal = the 'zone'; high arousal = over-arousal and panic. Extroverts need higher arousal; introverts perform better at lower arousal.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 5,
+      "heading": "What is Motivation?",
+      "text": "Level of enthusiasm or desire to train and compete. Intrinsic motivation comes from within (satisfaction, pride). Extrinsic motivation comes from outside: tangible rewards (medals, money — use sparingly with young athletes) and intangible rewards (praise, recognition — use regularly). Amotivation: lack of motivation; performer likely to quit.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 6,
+      "heading": "What is Mental strategies — before performance?",
+      "text": "Positive self-talk: encouragement (I can, I will) maintains self-confidence and regulates thoughts. Mental rehearsal: imagining successful performance. Visualisation/imagery: like mental rehearsal but uses all five senses to recreate or create a successful experience. Pre-performance ritual: routine to focus the mind and combat anxiety. Music: matching rhythm to movement and uplifting lyrics energise the performer.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 7,
+      "heading": "What is Mental strategies — during performance?",
+      "text": "Accept anxiety as part of sport; reduce it when overwhelming. Manage emotions: accept and use them. Concentration: focus on the moment, resist distractions, regain focus when lost. Breathing control: slow, deep diaphragmatic breaths reduce anxiety and control arousal.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe3",
+      "chapterTitle": "Psychological Demands of Performance",
+      "outcomeId": "pe3-1",
+      "noteIndex": 8,
+      "heading": "Reframing and after performance",
+      "text": "Reframing: putting a new, growth-mindset frame on a setback to build confidence. WWW technique — 'What Will Work?' before and 'What Went Well?' after. After performance: breathing control, music, speak with coach/mentor, reframing and goal-setting.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe3-pe3-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 0,
+      "heading": "What is Balanced diet?",
+      "text": "Variety of foods providing adequate nutrients for good health. The food pyramid: bottom five levels eaten daily in varying amounts; top level limited. Ensures correct macronutrients, micronutrients, fibre and water.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 1,
+      "heading": "What is Carbohydrates?",
+      "text": "Main energy source. Stored as glycogen in muscles and liver, broken down to glucose during exercise. 1g = 4 calories; 50-60% of total daily calories. Daily intake: 5-7g/kg moderate, 7-10g/kg endurance, 10-12g/kg extreme. Complex (slow release: brown pasta, potatoes). Simple (quick release: juice, sweets).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 2,
+      "heading": "Distinguish between Glycogen and carb loading.",
+      "text": "Used by endurance athletes. 1 week pre-competition: 2-3 days high-protein/fat with intense exercise to deplete glycogen, then 3 days high-carb plus tapering. Supercompensates glycogen stores up to 2x normal, delaying fatigue.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 3,
+      "heading": "What is the role of Protein?",
+      "text": "Provides amino acids for muscle growth and repair, immune function and hormones. 1.7-2g/kg/day for performers. 1g = 4 calories.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 4,
+      "heading": "What is the role of Fats?",
+      "text": "Most concentrated energy source; primary fuel for endurance; aids brain/cell function; insulates organs; absorbs fat-soluble vitamins. 1g = 9 calories. Saturated (limit): butter, fatty meat. Unsaturated (aim for): nuts, seeds, vegetable oils.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 5,
+      "heading": "What roles do fibre, vitamins and minerals play in the diet?",
+      "text": "Fibre: indigestible, helps absorb vitamins, removes waste, creates fullness. Vitamins: fat-soluble (A, D, E, K) stored in fatty tissue; water-soluble (B, C) must be replenished daily. Minerals: calcium, potassium, iron.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 6,
+      "heading": "What is Hydration and dehydration?",
+      "text": "Water transports oxygen, nutrients and hormones; lost through sweat which also removes salts. 2% body-weight fluid loss reduces performance; 3%+ risks heat exhaustion. Athletes can sweat 6-10% body weight in competition.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 7,
+      "heading": "What is an Energy systems (ATP)?",
+      "text": "All produce ATP for muscle contraction. ATP-PCr system: immediate, max intensity, 8-10 sec, recovers in 2-3 min (100m sprint, powerlifting). Anaerobic glycolysis: uses glycogen without oxygen, up to 1-2 min, produces lactic acid (800m, circuit training); lactate clears in ~8 min. Aerobic glycolysis: uses oxygen with fats and carbs, 2 min to hours, recovery hours-3 days (marathon, long-distance cycling). The energy continuum describes how all three contribute together.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 8,
+      "heading": "What should a performer know about supplements and sports drinks?",
+      "text": "WADA and Sport Ireland do not endorse supplements; performers must check the prohibited list. Sports drinks: water + electrolytes + 6-8% carbohydrates, no stimulants. Energy drinks: contain stimulants (caffeine, guarana). Key supplements: protein (muscle repair), creatine (extends ATP-PCr), caffeine (CNS stimulant, fat metabolism), nitrates (oxygen uptake).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 9,
+      "heading": "What is Metabolism and BMR?",
+      "text": "Metabolism converts food into energy. BMR (Basal Metabolic Rate): calories required at rest. Affected by gender, weight, height, age, body composition, genetics. Males have a 10-15% higher BMR; BMR falls 2-3% per decade after age 18.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe4",
+      "chapterTitle": "Diet and Nutrition",
+      "outcomeId": "pe4-1",
+      "noteIndex": 10,
+      "heading": "What is Nutrition planning?",
+      "text": "Targets: =55% carbs, =30% fat, 15% protein. Before (fuel up): carb-rich; avoid high fat. During: usually no food if <2 hours. After (3 Rs): refuel glycogen, repair muscle, rehydrate.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe4-pe4-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 0,
+      "heading": "What is Skill?",
+      "text": "A sequence of movements performed effectively and efficiently to achieve a predetermined goal.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 1,
+      "heading": "What is Characteristics of skilful movement (ACE FACE)?",
+      "text": "Aesthetic (looks good), Coordinated, Efficient, Fluent, Accurate, Controlled/Consistent, Economical.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 2,
+      "heading": "Qualities of a skilled performer (TACK)",
+      "text": "Technique: correct practical procedure. Anticipation: reading and predicting opponents' movements. Consistency: repeating quality movement under various conditions. Kinaesthetic sense (muscle memory): awareness of own movement during execution, enabling error correction.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 3,
+      "heading": "What is the difference between Skill and ability?",
+      "text": "Skills are LEARNED through practice and produce permanent behaviour change. Abilities are INHERITED, INNATE and enduring traits that make tasks possible (coordination, flexibility, balance, power, endurance, speed).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 4,
+      "heading": "Domains of skill",
+      "text": "Psychomotor (the 'do' — physical movement, hand-eye, foot-eye). Cognitive (the 'think' — selecting skills, tactics, rules). Perceptual (the 'feel' — senses interpret the situation).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 5,
+      "heading": "What is Skill classification continua?",
+      "text": "Gross-Fine (muscle size). Open-Closed (environmental influence — open is externally paced and unpredictable; closed is self-paced and fixed). Simple-Complex (cognitive demand). Externally paced-Self-paced (timing). Discrete-Serial-Continuous (defined start/end). Individual-Coactive-Interactive (athlete interaction).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 6,
+      "heading": "What is an Information-processing model?",
+      "text": "Four stages: 1. Perceiving (input via senses), 2. Decision-making (short-term memory ~30 sec and long-term memory store motor programmes), 3. Acting (output), 4. Evaluating (feedback adapts performance).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 7,
+      "heading": "What is Fitts and Posner stages of learning (1967)?",
+      "text": "Cognitive: inconsistent, trial and error, relies on coach cues, 2-3/10 success. Associative: motor memories forming, internal feedback developing, 5-7/10 success. Autonomous: skill is automatic and motor programmes are in long-term memory, focus shifts to tactics, 9/10 success — must keep practising to retain. Learning plateau: performance levels off temporarily or at the limit of ability.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 8,
+      "heading": "What is Types of guidance (VVMM)?",
+      "text": "Visual: demonstrations, diagrams, videos (early stages, builds a model). Verbal: brief, focused explanation of key cues. Manual: physical support from coach (complex or dangerous skills). Mechanical: equipment assists or guides the movement.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 9,
+      "heading": "What is Feedback?",
+      "text": "Intrinsic: internal information from proprioception during execution. Extrinsic: from external sources (coach, video, results). Concurrent: during the action. Terminal: after the action. Knowledge of performance: feedback on the QUALITY of execution. Knowledge of results: feedback on the SUCCESS or final outcome.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe5",
+      "chapterTitle": "Skill, Ability and Skilled Performance",
+      "outcomeId": "pe5-1",
+      "noteIndex": 10,
+      "heading": "What is Practice types and organisation?",
+      "text": "Fixed (drill): repeated practice of one skill — suits closed skills. Variable: same skill in many contexts — suits open skills. Massed: no breaks; for fit, experienced performers. Distributed: rest breaks; for beginners or low fitness. Whole: skill in entirety (simple skills). Part: one element at a time (complex skills). Progressive-part: chain sub-routines together. Whole-part-whole: whole, isolate weakness, whole again. Effective practice (GAP VAT): Goal-orientated, Appropriate, Progressive, Varied, Adaptable, Time-bound.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe5-pe5-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 0,
+      "heading": "What is the role of Biomechanics?",
+      "text": "The study of structure, function and movement of a living body. Used to increase performance (speed, power, technique, economy) and reduce injury risk (lessen joint impact, fix technique, address imbalances).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 1,
+      "heading": "What is Planes (3)?",
+      "text": "Sagittal plane — divides body LEFT/RIGHT; movements are flexion/extension, forward/backward (running, squatting). Frontal plane — divides FRONT/BACK; movements are abduction/adduction. Transverse plane — horizontal, divides UPPER/LOWER; movements are rotation (360 twist).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 2,
+      "heading": "What is an Axes (3)?",
+      "text": "Sagittal axis: runs horizontally back-to-front. Vertical axis: runs vertically top-to-bottom. Frontal (transverse) axis: runs horizontally left-to-right.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 3,
+      "heading": "What is Planes and axes paired?",
+      "text": "Frontal plane rotates around the sagittal axis (FP/SA). Transverse plane rotates around the vertical axis (TP/VA). Sagittal plane rotates around the frontal axis (SP/FA).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 4,
+      "heading": "What is a lever, and what forms the lever system in the body?",
+      "text": "A lever is a rigid body moving around a fulcrum. In the body: bones are the lever, joints are the fulcrum, muscles supply the effort, body parts or weights are the load.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 5,
+      "heading": "What are the three classes of lever?",
+      "text": "1st class — fulcrum in the middle (neck nodding). 2nd class — load in the middle (standing on tiptoe; gastrocnemius is the effort, body weight is the load, ball of foot is fulcrum). 3rd class — effort in the middle (biceps curl); most common in the human body.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 6,
+      "heading": "Distinguish between Mechanical advantage and disadvantage.",
+      "text": "Load arm: load to fulcrum. Effort arm: effort to fulcrum. Mechanical advantage: effort arm longer than load arm — lifts large loads with small effort. 2nd class always has mechanical advantage; 3rd class always has mechanical disadvantage.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 7,
+      "heading": "What is the difference between scalar and vector quantities?",
+      "text": "Scalar = magnitude only (time, length, mass, speed, temperature). Vector = magnitude + direction (force, weight, velocity, acceleration, displacement). Force/weight in Newtons (N), acceleration m/s2, velocity m/s, displacement m, mass kg.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 8,
+      "heading": "What is the difference between Distance and displacement?",
+      "text": "Distance is the scalar interval covered along the path. Displacement is the shortest straight-line vector from start to finish. A 400m runner finishing in the same lane has covered 400m distance but 0m displacement.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 9,
+      "heading": "What is Speed, velocity, acceleration?",
+      "text": "Speed = distance / time. Velocity = displacement / time (vector). Acceleration = rate of change of velocity (vector); deceleration is negative acceleration. Mass = amount of matter (kg); Weight = mass x gravity (N).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 10,
+      "heading": "Newton's laws",
+      "text": "1st (Inertia): a body stays at rest or in uniform motion unless acted on by an external force — a ball stays still until kicked. 2nd (Acceleration): F = MA; a tennis smash applies more force than a drop shot, producing greater acceleration. 3rd (Counterforce): every action has an equal and opposite reaction — a runner pushes into the ground, the ground pushes back.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe6",
+      "chapterTitle": "Biomechanics",
+      "outcomeId": "pe6-1",
+      "noteIndex": 11,
+      "heading": "What is an Economy of movement?",
+      "text": "Energy efficiency of the body. Internal factors (controlled by performer): technique, coordination, mobility, stability. External factors: gravity, friction (a weightlifter uses chalk to increase grip), wind, weather. Creative application of skill is performing a skill in a new, high-risk, high-reward way.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe6-pe6-1-11",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 0,
+      "heading": "What is Composition?",
+      "text": "Arrangement of a series of movements or skills in a desired manner to achieve a performance goal.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 1,
+      "heading": "What is Compositional elements (5)?",
+      "text": "1. Shape — element of space: low (on ground), medium (standing), high (in air); symmetry vs asymmetry. 2. Space — path and pattern (straight, zigzag, circular, curved). 3. Timing — tempo (steady or varied) and rhythm. 4. Dynamics — variation in energy/effort (slow, sustained, powerful, explosive). 5. Relationships — connections with space, objects and people (lifts, passes, ribbons).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 2,
+      "heading": "What is the role of Structures?",
+      "text": "Set-up of an activity, competition format, or team formation. Examples: soccer 4-4-2, GAA backs/midfield/forwards, cycling stage races. A team is more than two people in an organised set-up where players take on positions, roles and responsibilities.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 3,
+      "heading": "What is Strategies (tactics)?",
+      "text": "Game plans pre-arranged and rehearsed to maximise the chance of success. Performers must adapt during performance through problem-solving and decision-making (who does what, use of space, on/off-ball action).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 4,
+      "heading": "What is Modifying structures and strategies (ACT)?",
+      "text": "Anticipate (read the opponent), Correct (adjust the plan), Timing (act at the right moment). Used to exploit opponent weaknesses or recover from setbacks.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe7",
+      "chapterTitle": "Structures and Strategies",
+      "outcomeId": "pe7-1",
+      "noteIndex": 5,
+      "heading": "Distinguish between Demands of performance and qualities of a performer.",
+      "text": "Physical qualities: health- and performance-related components. Personal qualities: personality and character. Technical qualities: execution of skill.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe7-pe7-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 0,
+      "heading": "What is Safe practice?",
+      "text": "Procedures to ensure safety of all stakeholders: safe facilities, fit equipment, correct attire, warm-up/cool-down and first-aid knowledge.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 1,
+      "heading": "What is Clothing and protective equipment?",
+      "text": "Compression clothing aids muscle recovery; base layers regulate temperature; supports and braces protect joints. Protective equipment (helmets, mouth guards, padding) must be maintained in good condition.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 2,
+      "heading": "What is an Injury prevention?",
+      "text": "Warm-up increases body temperature, blood flow, flexibility and range of motion. Cool-down removes lactic acid, prevents DOMS and blood pooling, and returns HR gradually to rest.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 3,
+      "heading": "What are intrinsic and extrinsic risk factors?",
+      "text": "Intrinsic: personal to the performer (previous injury, age, fitness). Extrinsic: external (surface, weather, equipment).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 4,
+      "heading": "What is Common injuries?",
+      "text": "Ankle sprain, pulled groin, hamstring strain, shin splints, ACL tear, patellofemoral knee syndrome, tennis elbow (epicondylitis), head injury.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 5,
+      "heading": "What is Types of injuries?",
+      "text": "Acute injuries (specific impact): hard tissue acute = dislocations, fractures; soft tissue acute = tears, strains, sprains. Chronic injuries (overuse): hard tissue chronic = stress fractures; soft tissue chronic = shin splints, tendinosis. Sprain grades: 1 = overstretched ligament, 2 = partial tear, 3 = full tear with popping sound.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 6,
+      "heading": "What is Concussion?",
+      "text": "Acute injury from head trauma. Symptoms: headache, dizziness, balance issues, nausea, possible loss of consciousness. Managed with the 6 Rs: Recognise, Remove, Refer, Rest, Recover, Return.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 7,
+      "heading": "What is First aid — SALTAPS?",
+      "text": "Stop the play, Ask about the injury, Look (bleeding, swelling), Touch with consent (pain/sensation), Active movement (can athlete move it?), Passive movement (full range?), Strength test (walk/run/jump?).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 8,
+      "heading": "What is PRICE protocol?",
+      "text": "Treats sprains, strains and closed fractures. Protection (stop activity), Rest (2-3 days), Ice (15-20 min several times a day), Compression (bandage to limit swelling), Elevation (above heart level).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 9,
+      "heading": "What is an Overtraining, fatigue and supercompensation?",
+      "text": "Overtraining is an imbalance between training load and recovery and causes performance to fall. Overreaching is a temporary, recoverable version. Fatigue is lack of energy. Supercompensation: after training and adequate recovery, the body adapts BEYOND pre-training levels — repeated cycles produce steady improvement.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 10,
+      "heading": "What is Monitoring load?",
+      "text": "Borg RPE: subjective rating of how hard exercise feels (1-10). Daily wellness parameters: sleep, mood, soreness, motivation, nutrition. Training load = duration x intensity (training units = RPE x session time). External exertion is measurable (kg lifted); internal exertion is perceived. Performance management: set goals, monitor load, evaluate and re-evaluate.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe8",
+      "chapterTitle": "Safe Practice in Sport and PA",
+      "outcomeId": "pe8-1",
+      "noteIndex": 11,
+      "heading": "What is BREAKS checklist?",
+      "text": "Body, Rules, Equipment, Ability, Kit, Surface — used before participation to ensure safe practice.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe8-pe8-1-11",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 0,
+      "heading": "What is the role of Rules, roles, rituals?",
+      "text": "Rules: agreed-upon principles governing a sport — for safety, sportsmanship and fair competition. Roles: playing (defender, captain) and non-playing (referee, coach). Rituals: behaviours believed to have a specific purpose or power (e.g. the Haka). Superstition: belief in supernatural good/bad luck attached to actions. Pre-performance rituals are task-relevant routines that prepare mind and body. Conventions (etiquette): unwritten rules such as the coin flip in soccer or glove touch in boxing.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 1,
+      "heading": "What is Role of the coach?",
+      "text": "Ensures each athlete or team reaches full potential. Duties: skill and strategy practice, line-ups, leadership, communication and support, working with the manager, considering both physical and psychological elements.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 2,
+      "heading": "What is the role of Effective coach roles?",
+      "text": "Facilitator of learning, problem-solver, time manager, innovator, aware of health and safety, good role model, motivator and inspiration.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 3,
+      "heading": "Coaching qualities",
+      "text": "Emotional intelligence: understanding and managing one's emotions positively to relieve stress, empathise and defuse conflict. Interpersonal skills: communicating with others. Intrapersonal skills: managing one's own emotions, self-awareness, self-control.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 4,
+      "heading": "What is Motivational strategies (coach)?",
+      "text": "Communicate effectively and openly. Create a positive training environment and healthy competition. Use praise appropriately. Avoid punishment to eliminate mistakes. Use SMARTER goal-setting (Specific, Measurable, Achievable, Realistic, Time-bound, Evaluated, Reviewed). Share a vision for success.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 5,
+      "heading": "Communication",
+      "text": "Non-verbal: gestures, facial expressions, tone, eye contact, body language, posture. Verbal: positive feedback and constructive criticism. A coach must be aware of their own non-verbal cues and read the performer's.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 6,
+      "heading": "Performance analysis and reflection",
+      "text": "Notational analysis: factual recording of events (tactics, technique, work rate). Video analysis: immediate feedback, highlights strengths/weaknesses. Sports analytics: statistical principles for competitive advantage. Reflection — concurrent ('in' action, during) and terminal ('on' action, after); self-, peer- or coach-reflection. Sport Ireland Coaching Development Programme: 50+ NGBs, 25,000 coaches per year, 130 awards.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 7,
+      "heading": "What is the role of Role of the official?",
+      "text": "Ensure competition is safe and fair, implement rules, protect player safety, guided by codes of conduct. Roles: athlete, rule enforcer, decision-maker, timekeeper, conflict manager, record-keeper. Characteristics: knowledge of rules, fitness, calmness, moral courage, safety awareness.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 8,
+      "heading": "What is Scoring and recording?",
+      "text": "Officials record goals, fouls and cards. In aesthetic sports (gymnastics, dance) judges rate performance against criteria; in outcome sports the result decides the winner.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 9,
+      "heading": "What is Psychological readiness (3 Cs)?",
+      "text": "Concentration: task-oriented focus on rules and events. Coping: handle the conditions using techniques. Confidence: belief in own knowledge and decisions.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 10,
+      "heading": "What is the role of Mental tools (4 Ms)?",
+      "text": "Moves: pre-performance routine to get into the zone. Maps: reflect on performance, set goals, use self-talk. Mood: control and monitor mood (relaxation, deep breathing). Movies: mental imagery of performing the role.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe9",
+      "chapterTitle": "Rules, Rituals, Coach and Officials",
+      "outcomeId": "pe9-1",
+      "noteIndex": 11,
+      "heading": "Managing conflict (official)",
+      "text": "Recognise causes early, be respectful, stay calm, step back if needed, avoid raising the voice, keep hand movements slow and open, be assertive not aggressive, ask for help from other officials, communicate with the captain, breathe deeply, self-talk ('Relax'), be proactive not reactive.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe9-pe9-1-11",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-casestudy",
+      "chapterTitle": "Case Study",
+      "outcomeId": "pe-cs-1",
+      "noteIndex": 0,
+      "heading": "What is the Case Study?",
+      "text": "Question 13 in the LC PE exam is a 50-mark Case Study. A text (with images, tables and figures) is provided in the exam paper and all sub-questions refer to that text. Sub-questions draw on multiple chapters — biomechanics, skill learning, fitness, nutrition, ethics.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-casestudy-pe-cs-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-casestudy",
+      "chapterTitle": "Case Study",
+      "outcomeId": "pe-cs-1",
+      "noteIndex": 1,
+      "heading": "What is How to Prepare?",
+      "text": "Practise applying concepts from multiple chapters to unseen scenarios. Read the case study carefully before answering, underlining key facts. Structure answers using specific PE terminology and physical activity examples.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-casestudy-pe-cs-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 0,
+      "heading": "What is SPORRT?",
+      "text": "Principles of training: Specificity, Progressive overload, Recovery, Reversibility, Tedium.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-0",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 1,
+      "heading": "What is FITT?",
+      "text": "Progressive overload formula: Frequency, Intensity, Time, Type.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-1",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 2,
+      "heading": "What is Cows Make Milk For Bones?",
+      "text": "Five health-related components of fitness: Cardiorespiratory endurance, Muscular endurance, Muscular strength, Flexibility, Body composition.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-2",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 3,
+      "heading": "What is an All Big Cats Pounce Really Softly?",
+      "text": "Six performance-related components: Agility, Balance, Coordination, Power, Reaction time, Speed.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-3",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 4,
+      "heading": "What is an ACE FACE?",
+      "text": "Characteristics of skilful movement: Aesthetic, Coordinated, Efficient, Fluent, Accurate, Controlled, Economical.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-4",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 5,
+      "heading": "What is TACK?",
+      "text": "Qualities of a skilled performance: Technique, Anticipation, Consistency, Kinaesthetic sense.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-5",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 6,
+      "heading": "What are the types of VVMM?",
+      "text": "Types of guidance: Visual, Verbal, Manual, Mechanical.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-6",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 7,
+      "heading": "What is GAP VAT?",
+      "text": "Effective practice design: Goal-orientated, Appropriate, Progressive, Varied, Adaptable, Time-bound.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-7",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 8,
+      "heading": "What is SCAT?",
+      "text": "Sports Competition Anxiety Test (1990) — measures level of anxiety with a points system.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-8",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 9,
+      "heading": "What is WWW?",
+      "text": "Reframing technique: What Will Work? (before performance) and What Went Well? (after performance).",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-9",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 10,
+      "heading": "What is SMARTER?",
+      "text": "Goal-setting framework: Specific, Measurable, Achievable, Realistic, Time-bound, Evaluated, Reviewed.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-10",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 11,
+      "heading": "What is an ACT?",
+      "text": "Modifying structures and strategies: Anticipate, Correct, Timing.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-11",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 12,
+      "heading": "What is SALTAPS?",
+      "text": "Injury assessment: Stop, Ask, Look, Touch, Active movement, Passive movement, Strength test.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-12",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 13,
+      "heading": "What is PRICE?",
+      "text": "Injury treatment: Protection, Rest, Ice, Compression, Elevation.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-13",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 14,
+      "heading": "What is BREAKS?",
+      "text": "Safe practice checklist: Body, Rules, Equipment, Ability, Kit, Surface.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-14",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 15,
+      "heading": "What is 6 Rs?",
+      "text": "Concussion management: Recognise, Remove, Refer, Rest, Recover, Return.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-15",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 16,
+      "heading": "What is RPE?",
+      "text": "Rating of Perceived Exertion (Borg scale) — measures intensity by how hard the performer feels they are working.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-16",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 17,
+      "heading": "What is 3 Cs?",
+      "text": "Psychological readiness of officials: Concentration, Coping, Confidence.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-17",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 18,
+      "heading": "What is 4 Ms?",
+      "text": "Mental tools for officials: Moves, Maps, Mood, Movies.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-18",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 19,
+      "heading": "F = MA",
+      "text": "Newton's 2nd Law: Force = Mass x Acceleration.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-19",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 20,
+      "heading": "What is Plane-Axis pairs?",
+      "text": "FP/SA: Frontal plane rotates around sagittal axis. TP/VA: Transverse plane rotates around vertical axis. SP/FA: Sagittal plane rotates around frontal axis.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-20",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 21,
+      "heading": "What is an Energy and testing acronyms?",
+      "text": "ATP: Adenosine Triphosphate. ATP-PCr: Adenosine Triphosphate-Phosphocreatine system. BMI: Body Mass Index. BMR: Basal Metabolic Rate. VO2 max: maximum oxygen consumption. DOMS: Delayed Onset Muscle Soreness. LME: Local Muscular Endurance. PNF: Proprioceptive Neuromuscular Facilitation. HIIT: High Intensity Interval Training. MHR: Maximum Heart Rate. 1RM/3RM: One/Three Repetition Maximum. DEXA: Dual-Energy X-ray Absorptiometry.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-21",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 22,
+      "heading": "What is Governance and bodies?",
+      "text": "WHO: World Health Organization. WADA: World Anti-Doping Agency. NGB: National Governing Body. GAA: Gaelic Athletic Association. FAI: Football Association of Ireland. FIFA: Federation Internationale de Football Association. RSA: Road Safety Authority.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-22",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "chapterId": "pe-acronyms",
+      "chapterTitle": "Acronyms and Mnemonics",
+      "outcomeId": "pe-acronyms-1",
+      "noteIndex": 23,
+      "heading": "What is Periodisation cycles?",
+      "text": "Macrocycle: full long-term plan (year+). Mesocycle: weeks emphasising one type of adaptation. Microcycle: small number of sessions, often a week or day plan.",
+      "sourcePath": "pe-content.js",
+      "status": "unassessed-existing-content",
+      "id": "legacy-note-pe-acronyms-pe-acronyms-1-23",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    }
+  ],
+  "canonicalFlashcards": [
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-0",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Personal exercise and fitness",
+        "definition": "One of the six LCPE physical activity areas, including aerobic exercise and activities such as weights, core stability and circuits.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-1",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Continuous training",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "training method"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-2",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Interval training",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "training method"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-3",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Fartlek training",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "training method"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-4",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Aerobics or step aerobics",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-5",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Spinning",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-6",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Indoor rowing",
+        "definition": "An aerobic personal-exercise activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-7",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Weights",
+        "definition": "A personal exercise and fitness activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-8",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Core stability",
+        "definition": "A personal exercise and fitness activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-personal-exercise-fitness-9",
+      "chapterId": "pe-personal-exercise-fitness",
+      "card": {
+        "term": "Circuit training",
+        "definition": "A personal exercise and fitness activity listed in LCPE.",
+        "type": "training method"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-0",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Optimum performance",
+        "definition": "The best performance a learner can achieve at a particular point in time.",
+        "type": "definition"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-1",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Performance analysis",
+        "definition": "Systematic examination of overall performance or specific aspects of it using appropriate tools and methods.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-2",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Method of analysis",
+        "definition": "A tool or approach used to focus on and assess particular elements of performance.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-3",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Performance goal",
+        "definition": "A realistic target set from analysis and informed by sound theoretical principles.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-4",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Training or practice programme",
+        "definition": "A planned programme designed to achieve identified performance goals.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-5",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Monitoring progress",
+        "definition": "Checking progress while following a programme so that performance development can be tracked.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-6",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Programme adaptation",
+        "definition": "Changing a training or practice programme in response to monitoring and progress.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-planning-optimum-performance-7",
+      "chapterId": "pe-planning-optimum-performance",
+      "card": {
+        "term": "Aesthetic and artistic criteria",
+        "definition": "Criteria used to identify and evaluate the artistic or aesthetic quality of performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-0",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Performance structure",
+        "definition": "The organised arrangement used in a physical activity to support performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-1",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Strategy",
+        "definition": "A planned approach used to maximise individual or team strengths in a performance scenario.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-2",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Compositional elements",
+        "definition": "Performance-design elements used to develop individual or group compositions and routines.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-3",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Role",
+        "definition": "A performer’s specific responsibility and contribution within an activity or team.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-4",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Team building",
+        "definition": "Developing effective relationships and cooperation towards shared performance goals.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-5",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Responsible leadership",
+        "definition": "Leading participants safely and effectively while taking responsibility for the activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-6",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Affiliation",
+        "definition": "Formal association with the relevant organisation or governing body for an activity.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-7",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Coach or choreographer",
+        "definition": "A non-playing role that plans, guides and develops performance.",
+        "type": "role"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-8",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Official",
+        "definition": "A non-playing role responsible for applying rules, managing the activity and ensuring safe practice.",
+        "type": "role"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-structures-strategies-roles-conventions-9",
+      "chapterId": "pe-structures-strategies-roles-conventions",
+      "card": {
+        "term": "Safe practice",
+        "definition": "Procedures and behaviours that protect participants while an activity is organised and performed.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-0",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Games",
+        "definition": "One of the six LCPE physical activity areas, including invasion, net or wall, and striking or fielding games.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-1",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Invasion games",
+        "definition": "Games category including Gaelic football, hurling or camogie, soccer, rugby, basketball, hockey, netball and Olympic handball.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-2",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Net or wall games",
+        "definition": "Games category including badminton, tennis, volleyball, table-tennis, handball and squash.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-3",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Striking or fielding games",
+        "definition": "Games category including cricket, softball and rounders.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-4",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Individual role",
+        "definition": "A player's responsibility and contribution to a team's overall performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-5",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Team strategy",
+        "definition": "A planned approach that uses team strengths in different competitive scenarios.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-6",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Rules and regulations",
+        "definition": "The rules governing participation in a selected physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-games-7",
+      "chapterId": "pe-games",
+      "card": {
+        "term": "Officiating",
+        "definition": "Applying rules, using scoring or recording systems and managing participants during an activity.",
+        "type": "role"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-0",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Athletics",
+        "definition": "One of the six LCPE physical activity areas, including running, throwing and jumping events.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-1",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Sprints",
+        "definition": "A running event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-2",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Middle-distance running",
+        "definition": "A running event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-3",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Long-distance running",
+        "definition": "A running event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-4",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Hurdles",
+        "definition": "A running event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-5",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Shot put",
+        "definition": "A throwing event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-6",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Discus",
+        "definition": "A throwing event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-7",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Javelin",
+        "definition": "A throwing event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-8",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Hammer",
+        "definition": "A throwing event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-9",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "High jump",
+        "definition": "A jumping event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-10",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Long jump",
+        "definition": "A jumping event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-athletics-11",
+      "chapterId": "pe-athletics",
+      "card": {
+        "term": "Triple jump",
+        "definition": "A jumping event listed within athletics.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-0",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Ethical practice",
+        "definition": "Conduct in sport guided by integrity, respect, fairness and equity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-1",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Integrity",
+        "definition": "Honest, principled behaviour in physical activity and sport.",
+        "type": "principle"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-2",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Respect",
+        "definition": "Consideration for participants, officials, opponents and the activity.",
+        "type": "principle"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-3",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Fairness",
+        "definition": "Impartial and just treatment in sporting participation and decisions.",
+        "type": "principle"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-4",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Equity",
+        "definition": "Fair access, treatment and opportunity in physical activity and sport.",
+        "type": "principle"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-5",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Code of ethics",
+        "definition": "A set of principles and standards that guide ethical behaviour in sport.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-6",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Fair play",
+        "definition": "Playing and organising sport according to rules, respect and ethical principles.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-7",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Therapeutic use exemption",
+        "definition": "Permission allowing an athlete to use a needed medicine that would otherwise be prohibited in sport.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-8",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Performance-enhancing drugs",
+        "definition": "Drugs used to improve performance, with implications for the performer and the activity.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-ethics-fair-play-9",
+      "chapterId": "pe-ethics-fair-play",
+      "card": {
+        "term": "Dietary supplements",
+        "definition": "Products used to supplement diet that may be intended to optimise performance.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-0",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Sponsorship",
+        "definition": "Commercial support for sport or physical activity, often providing essential income.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-1",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Endorsement",
+        "definition": "A promotional association between a performer and a product, service or brand.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-2",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Merchandising",
+        "definition": "The sale or promotion of goods connected with a sport, team, event or performer.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-3",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Sport-related advertising",
+        "definition": "Advertising linked to sport that communicates messages to audiences, including young people.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-4",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Commercial sponsorship code of practice",
+        "definition": "Guidelines for selecting suitable commercial sponsors for sport and physical activity involving young people.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-5",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Business dimension of sport",
+        "definition": "The involvement of businesses and enterprise in physical activity and sport.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-6",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Mass-participation sporting events",
+        "definition": "Events involving many participants that create opportunities for business and enterprise.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-7",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Sports marketing",
+        "definition": "Marketing connected with sport that can support the development of tourism in Ireland.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-business-enterprise-sport-8",
+      "chapterId": "pe-business-enterprise-sport",
+      "card": {
+        "term": "Sport-generated wealth",
+        "definition": "Income and economic value created through sport audiences, events and related business activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-0",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Gender identity",
+        "definition": "A person's gendered identity, which can significantly influence how active they are and how they participate.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-1",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Gender participation patterns",
+        "definition": "Differences in the physical activities and levels of participation of boys, girls, men and women.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-2",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Gender imbalance in participation",
+        "definition": "Unequal levels of participation in physical activity between boys and girls.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-3",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Body image",
+        "definition": "How a person perceives and feels about their body; it can influence and be influenced by physical activity participation.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-4",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Media representations of the body",
+        "definition": "Media portrayals of bodies that may affect young men's and young women's participation in physical activity and sport.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-5",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Gender socialisation",
+        "definition": "Social processes that shape expectations about gender and influence participation in physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-6",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Social regulation of the body",
+        "definition": "Social control and expectations about bodies that affect participation by men and women in physical activity and sport.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-7",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Hegemonic masculinity",
+        "definition": "Dominant social ideals of masculinity that may affect boys' and girls' participation in sport and physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-gender-physical-activity-8",
+      "chapterId": "pe-gender-physical-activity",
+      "card": {
+        "term": "Hegemonic femininity",
+        "definition": "Dominant social ideals of femininity that may affect boys' and girls' participation in sport and physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-0",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Physical activity",
+        "definition": "Movement and participation in activities that contribute to health, wellbeing and performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-1",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Play",
+        "definition": "A concept of physical activity included in the course.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-2",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Leisure and recreation",
+        "definition": "Physical activity undertaken in leisure time for enjoyment or recreation.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-3",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Physical education",
+        "definition": "Educational learning through physical activity.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-4",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Mass-participation sport",
+        "definition": "Sporting activity or events involving large numbers of participants.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-5",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Outdoor and adventure activities",
+        "definition": "Physical activities undertaken in outdoor or adventure settings.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-6",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Physical activity biography",
+        "definition": "A presentation of a person's physical-activity history and profile.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-7",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Supports and barriers to participation",
+        "definition": "Factors in school or community that encourage or hinder physical activity participation.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-8",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Physical activity promotion",
+        "definition": "Approaches, policies and initiatives intended to increase participation in physical activity.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-9",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "National governing body",
+        "definition": "The organisation responsible for governing and providing for a physical activity at relevant levels.",
+        "type": "organisation"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-promoting-physical-activity-10",
+      "chapterId": "pe-promoting-physical-activity",
+      "card": {
+        "term": "Pathways to excellence",
+        "definition": "Routes and supports that enable progression towards high-level performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-0",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Artistic and aesthetic activities",
+        "definition": "One of the six LCPE physical activity areas, including gymnastics and dance.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-1",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Artistic gymnastics",
+        "definition": "A gymnastics activity listed within artistic and aesthetic activities.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-2",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Rhythmic gymnastics",
+        "definition": "A gymnastics activity listed within artistic and aesthetic activities.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-3",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Dance",
+        "definition": "An artistic and aesthetic activity area including contemporary, folk, modern, ballet, jazz, tap, ethnic and traditional forms.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-4",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Choreography",
+        "definition": "The arrangement of movement in a dance or performance composition.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-5",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Aesthetic criteria",
+        "definition": "Criteria used to judge the aesthetic quality of a performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-artistic-aesthetic-movement-6",
+      "chapterId": "pe-artistic-aesthetic-movement",
+      "card": {
+        "term": "Artistic criteria",
+        "definition": "Criteria used to judge the artistic quality of a performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-0",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Technology in sport",
+        "definition": "Technological developments that affect performers, coaches or choreographers, officials and spectators.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-1",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Performance analysis technology",
+        "definition": "Technology used to analyse training and evaluate sporting performance.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-2",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Media in sport",
+        "definition": "Television, internet, newspapers and digital media through which sport and physical activity are represented.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-3",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Elite performance media coverage",
+        "definition": "Media coverage focused on high-level sporting performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-4",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Mass-participation media coverage",
+        "definition": "Media coverage focused on wide participation in physical activity and sport.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-5",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Gender stereotypes in sport media",
+        "definition": "Simplified or limiting representations of men and women in sport maintained through media coverage.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-6",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Media and spectator appeal",
+        "definition": "Characteristics of an activity that can attract media coverage or spectators.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-technology-media-sport-7",
+      "chapterId": "pe-technology-media-sport",
+      "card": {
+        "term": "Spectator behaviour",
+        "definition": "How spectators act and respond, including the effects of media coverage on that behaviour.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-aquatics-0",
+      "chapterId": "pe-aquatics",
+      "card": {
+        "term": "Aquatics",
+        "definition": "One of the six LCPE physical activity areas.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-aquatics-1",
+      "chapterId": "pe-aquatics",
+      "card": {
+        "term": "Lifesaving",
+        "definition": "An aquatics activity illustrated as a selected physical activity in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-0",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Adventure activities",
+        "definition": "One of the six LCPE physical activity areas, involving activities such as orienteering, canoeing or kayaking, rock-climbing, sailing and rowing or sculling.",
+        "type": "physical activity area"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-1",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Orienteering",
+        "definition": "An adventure activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-2",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Canoeing or kayaking",
+        "definition": "An adventure activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-3",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Rock-climbing",
+        "definition": "An adventure activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-4",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Sailing",
+        "definition": "An adventure activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-adventure-activities-5",
+      "chapterId": "pe-adventure-activities",
+      "card": {
+        "term": "Rowing or sculling",
+        "definition": "An adventure activity listed in LCPE.",
+        "type": "example"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-0",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Physical activity inclusion",
+        "definition": "Ensuring that people have access to and can participate meaningfully in physical activity and sport.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-1",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Supports to participation",
+        "definition": "Factors that help a selected group participate in physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-2",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Barriers to participation",
+        "definition": "Factors that restrict or prevent a selected group from participating in physical activity.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-3",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Inclusive provision",
+        "definition": "Physical-activity opportunities designed or adapted to meet the needs of different participants.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-4",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Adapted physical activity",
+        "definition": "Physical activity modified so that participants with a disability can take part.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-5",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Pathways towards excellence",
+        "definition": "Progression opportunities and supports for participants to develop towards high-level performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-6",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Representative groups",
+        "definition": "Groups that represent the interests and experiences of particular participants in physical activity.",
+        "type": "organisation"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-physical-activity-inclusion-7",
+      "chapterId": "pe-physical-activity-inclusion",
+      "card": {
+        "term": "Voluntary and statutory organisations",
+        "definition": "Non-governmental and legally established bodies that can provide or support physical activity opportunities.",
+        "type": "organisation"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-0",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Health-related fitness",
+        "definition": "Fitness components associated with health and wellbeing.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-1",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Performance-related fitness",
+        "definition": "Fitness components that support effective sporting performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-2",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Cardio-respiratory endurance",
+        "definition": "The ability of the heart, lungs and circulatory system to supply oxygen during sustained activity.",
+        "type": "fitness component"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-3",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Muscular endurance",
+        "definition": "The ability of a muscle or muscle group to perform repeated contractions over time.",
+        "type": "fitness component"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-4",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Strength",
+        "definition": "The ability of a muscle or muscle group to exert force.",
+        "type": "fitness component"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-5",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Flexibility",
+        "definition": "The range of movement possible at a joint or series of joints.",
+        "type": "fitness component"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-6",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Body composition",
+        "definition": "The relative proportions of fat, muscle, bone and other tissues in the body.",
+        "type": "fitness component"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-7",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Psychological preparation",
+        "definition": "Preparation of mental factors needed to perform effectively in physical activity.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-performance-demands-8",
+      "chapterId": "pe-performance-demands",
+      "card": {
+        "term": "Diet and nutrition",
+        "definition": "The intake of food and nutrients appropriate to the demands of performance.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-0",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Skilled performance",
+        "definition": "A fluent, controlled sequence of movements in which the performer selects the right options and uses skills reflecting their ability and experience.",
+        "type": "definition"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-1",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Technique",
+        "definition": "The way in which a skill is executed.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-2",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Skill",
+        "definition": "A learned ability to perform a task effectively and consistently.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-3",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Ability",
+        "definition": "An inherited or relatively stable capacity that underpins performance and learning of skills.",
+        "type": "term"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-4",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Biomechanical analysis",
+        "definition": "Analysis of skill using principles such as planes and axes and levers.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-5",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Movement analysis",
+        "definition": "Analysis of movement using vectors, scalars and Newton's laws of motion.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-6",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Economy of movement",
+        "definition": "Performing a movement efficiently with no unnecessary energy expenditure or action.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-7",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Creative application of skill",
+        "definition": "Using a skill imaginatively and effectively to meet the demands of a performance situation.",
+        "type": "concept"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-8",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Stages of learning",
+        "definition": "The progressive stages a performer passes through while acquiring a new skill.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    },
+    {
+      "id": "legacy-card-pe-learning-skill-technique-9",
+      "chapterId": "pe-learning-skill-technique",
+      "card": {
+        "term": "Practice schedule",
+        "definition": "A planned arrangement of practice that applies principles of effective practice and suitable practice methods.",
+        "type": "process"
+      },
+      "status": "unassessed-existing-content",
+      "proposedLearningPointIds": [],
+      "acceptedCoverage": false
+    }
+  ],
+  "reviewFlags": [
+    {
+      "sourcePath": "pe-content.js",
+      "line": 25,
+      "issue": "Power is written as force × time. This is not the definition/formula for power; do not carry it into accepted content.",
+      "status": "requires-correction-before-reuse"
+    },
+    {
+      "sourcePath": "pe-content.js",
+      "line": 763,
+      "issue": "A specific older exam question number and mark value is treated as universal. Verify against the applicable exam profile before reuse.",
+      "status": "requires-cohort-verification"
+    },
+    {
+      "sourcePath": "pe-content.js",
+      "line": 625,
+      "issue": "Injury-prevention and recovery claims require authoritative evidence review before reuse.",
+      "status": "requires-factual-review"
+    }
+  ],
+  "guideCrosscheck": [
+    {
+      "guideUnit": 1,
+      "title": "Learning and Improving Skill and Technique",
+      "targetOutcomes": [
+        "S1.01",
+        "S1.02",
+        "S1.03",
+        "S1.04",
+        "S1.05",
+        "S1.06",
+        "S1.07",
+        "S1.08"
+      ]
+    },
+    {
+      "guideUnit": 2,
+      "title": "Physical and Psychological Demands of Performance",
+      "targetOutcomes": [
+        "S1.10",
+        "S2.01",
+        "S2.02",
+        "S2.03",
+        "S2.04",
+        "S2.05",
+        "S2.06",
+        "S2.07",
+        "S2.08",
+        "S2.09"
+      ]
+    },
+    {
+      "guideUnit": 3,
+      "title": "Structures, Strategies, Roles, and Conventions",
+      "targetOutcomes": [
+        "S3.01",
+        "S3.02",
+        "S3.03",
+        "S3.04"
+      ]
+    },
+    {
+      "guideUnit": 4,
+      "title": "Planning for Optimum Performance",
+      "targetOutcomes": [
+        "S1.09",
+        "S2.10"
+      ]
+    },
+    {
+      "guideUnit": 5,
+      "title": "Promoting Physical Activity",
+      "targetOutcomes": [
+        "S1.11",
+        "S2.11",
+        "S3.09",
+        "S3.10"
+      ]
+    },
+    {
+      "guideUnit": 6,
+      "title": "Ethics and Fair Play",
+      "targetOutcomes": [
+        "S2.07",
+        "S3.05",
+        "S3.06"
+      ]
+    },
+    {
+      "guideUnit": 7,
+      "title": "Physical Activity and Inclusion",
+      "targetOutcomes": [
+        "S3.09",
+        "S3.10"
+      ]
+    },
+    {
+      "guideUnit": 8,
+      "title": "Technology, Media, and Sport",
+      "targetOutcomes": [
+        "S3.07",
+        "S3.08"
+      ]
+    },
+    {
+      "guideUnit": 9,
+      "title": "Gender and Physical Activity",
+      "targetOutcomes": [
+        "S3.08",
+        "S3.09",
+        "S3.10"
+      ]
+    },
+    {
+      "guideUnit": 10,
+      "title": "Business and Enterprise in Physical Activity and Sport",
+      "targetOutcomes": [
+        "S3.08",
+        "S3.10"
+      ],
+      "qualification": "Sponsorship and mass-participation aspects have explicit new anchors. Do not assume every old business/tourism item is an independent new requirement."
+    },
+    {
+      "guideUnit": 11,
+      "title": "Physical Activity Areas",
+      "targetOutcomes": [
+        "PRACTICE"
+      ],
+      "qualification": "Use the new activity-area and Appendix 2 lists. Do not copy the older performance-assessment activity catalogue as new mandatory content."
+    },
+    {
+      "guideUnit": 12,
+      "title": "Assessment",
+      "targetOutcomes": [
+        "AAC"
+      ],
+      "qualification": "New assessment structure supersedes the older three-component structure for this selected specification."
+    }
+  ],
+  "additionalCandidateTopics": [
+    {
+      "topic": "Levers and mechanical advantage",
+      "sourcePath": "pe-content.js",
+      "line": 502,
+      "status": "review-for-supporting-depth",
+      "reason": "Named in the older specification; not explicitly named in the new detailed bullet list. Potential support for movement mechanics, not automatically a new mandatory outcome."
+    },
+    {
+      "topic": "Scalars, vectors and kinematic quantities",
+      "sourcePath": "pe-content.js",
+      "line": 508,
+      "status": "review-for-supporting-depth",
+      "reason": "Potential prerequisites for Newton-law application. Confirm necessary depth with teaching sources."
+    },
+    {
+      "topic": "Injury first-aid protocols and named mnemonics",
+      "sourcePath": "pe-content.js",
+      "line": 631,
+      "status": "review-for-scope-and-currency",
+      "reason": "The new specification requires safe practice; detailed named protocols need current scope and evidence checks."
+    },
+    {
+      "topic": "Somatotypes and named fitness tests",
+      "sourcePath": "pe-content.js",
+      "line": 22,
+      "status": "review-for-scope-and-accuracy",
+      "reason": "A legacy heading or example does not establish mandatory scope or factual correctness."
+    }
+  ]
+}
