@@ -5,6 +5,9 @@ const legacyBackupKeyPrefix = "bb-legacy-account-backup-v1:";
 const legacyAccountPriority = ["gabriel"];
 const isLocalMathsPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
   && new URLSearchParams(window.location.search).get("preview") === "maths";
+// Localhost-only: ?preview=onboarding opens the first-run questionnaire without an account.
+const isLocalOnboardingPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  && new URLSearchParams(window.location.search).get("preview") === "onboarding";
 
 const FALLBACK_CHAPTERS = [
   { id: "ch1", title: "1. Key Stakeholders", learningOutcomes: buildOutcomes("1") },
@@ -472,9 +475,19 @@ if (isLocalMathsPreview) {
   viewMode = "chapter";
 }
 
+if (isLocalOnboardingPreview) {
+  const previewUsername = "onboarding-preview";
+  state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
+  state.session.currentUser = previewUsername;
+}
+
 bindEvents();
 renderAll();
-if (!isLocalMathsPreview) initializeAccounts();
+if (isLocalOnboardingPreview) {
+  showOnboarding(getCurrentUser());
+} else if (!isLocalMathsPreview) {
+  initializeAccounts();
+}
 
 function bindEvents() {
   renderAvatarPicker();
@@ -1107,7 +1120,8 @@ function showOnboarding(user) {
         selectedChapterId = priority.chapters[0]?.id || "";
         selectedOutcomeId = priority.chapters[0]?.learningOutcomes[0]?.id || "";
       }
-      persist();
+      // The preview profile is throwaway; saving it would surface as a legacy account.
+      if (!isLocalOnboardingPreview) persist();
       renderAll();
       window.setTimeout(() => triggerLoginAnimation(current.username), 420);
     },
