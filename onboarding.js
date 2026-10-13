@@ -18,6 +18,7 @@
     history: '<path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 20 7H4Z"/>',
     book: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>',
     check: '<polyline points="20 6 9 17 4 12"/>',
+    close: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
     arrowLeft: '<path d="M19 12H5"/><path d="m12 19-7-7 7-7"/>',
     arrowRight: '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
     target: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
@@ -71,7 +72,9 @@
   const reducedMotion = () =>
     window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
-  function open({ subjects, username = "", initial = {}, onComplete }) {
+  // `editing` reopens the questionnaire from the account menu: answers are
+  // prefilled, there's no welcome line, and it can be dismissed without saving.
+  function open({ subjects, username = "", initial = {}, editing = false, onComplete }) {
     const existing = document.getElementById("onboardingScreen");
     if (existing) existing.remove();
 
@@ -99,7 +102,10 @@
       </div>
       <div class="ob-frame">
         <header class="ob-head">
-          <img class="ob-logo" src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+          <div class="ob-head-top">
+            <img class="ob-logo" src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
+            ${editing ? `<button type="button" class="ob-close" data-ob-close aria-label="Close without saving">${icon("close")}</button>` : ""}
+          </div>
           <ol class="ob-rail" aria-label="Setup progress">
             ${STEPS.map((s, i) => `
               <li class="ob-rail-step" data-rail="${i}">
@@ -139,7 +145,7 @@
     function titleFor(id) {
       const first = escapeText(username ? `, ${username}` : "");
       return {
-        year: `Welcome${first}. What <em>year</em> are you in?`,
+        year: editing ? `What <em>year</em> are you in?` : `Welcome${first}. What <em>year</em> are you in?`,
         subjects: `Which <em>subjects</em> are you taking?`,
         levels: `Which <em>level</em> for each?`,
         days: `Which <em>days</em> will you study?`,
@@ -149,7 +155,7 @@
 
     function subtitleFor(id) {
       return {
-        year: "We'll pace your study around where you are.",
+        year: editing ? "Update anything that's changed." : "We'll pace your study around where you are.",
         subjects: "Pick every one you sit. You can change this later.",
         levels: "Everything starts at Higher. Tap to switch to Ordinary.",
         days: "Choose the days that work. Little and often wins.",
@@ -338,15 +344,15 @@
             ${Array.from({ length: 12 }, (_, i) => `<span style="--a:${i * 30}deg"></span>`).join("")}
             <span class="ob-burst-core">${icon("check")}</span>
           </div>
-          <h2 id="obTitle" class="ob-title">You're <em>all set.</em></h2>
-          <p class="ob-sub">Here's your plan. You can change subjects any time from your account menu.</p>
+          <h2 id="obTitle" class="ob-title">${editing ? "Plan <em>updated.</em>" : "You're <em>all set.</em>"}</h2>
+          <p class="ob-sub">Change any of this later from <b>Study plan</b> in your account menu.</p>
           <div class="ob-summary">
             <span class="ob-chip" style="--i:0">${icon(year?.icon || "cap")}${escapeText(year?.label || "")}</span>
             <span class="ob-chip" style="--i:1">${icon("stack")}${result.subjects.length} subject${result.subjects.length === 1 ? "" : "s"}</span>
             <span class="ob-chip" style="--i:2">${icon("calendar")}${escapeText(dayNames.join(" · "))}</span>
             <span class="ob-chip ob-chip-hot" style="--i:3">${icon(priority?.id || "target")}${escapeText(priority?.title || "")} first</span>
           </div>
-          <button type="button" class="ob-start" data-ob-start><span>Start studying</span>${icon("arrowRight")}</button>
+          <button type="button" class="ob-start" data-ob-start><span>${editing ? "Back to studying" : "Start studying"}</span>${icon("arrowRight")}</button>
         </div>`;
       const start = stage.querySelector("[data-ob-start]");
       window.setTimeout(() => start.focus({ preventScroll: true }), 300);
@@ -366,6 +372,10 @@
     }
 
     function onKey(event) {
+      if (editing && event.key === "Escape") {
+        event.preventDefault();
+        return close(null);
+      }
       if (root.classList.contains("is-done")) return;
       if (event.key === "Enter" && !event.target.closest?.("button")) {
         event.preventDefault();
@@ -377,6 +387,7 @@
       const t = event.target.closest("button");
       if (!t || !root.contains(t)) return;
 
+      if (t.matches("[data-ob-close]")) return close(null);
       if (t.matches("[data-ob-next]")) return go(1);
       if (t.matches("[data-ob-back]")) return go(-1);
 

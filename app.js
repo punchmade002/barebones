@@ -417,6 +417,8 @@ const els = {
   profileMenuMain: document.getElementById("profileMenuMain"),
   profileMenuSubjects: document.getElementById("profileMenuSubjects"),
   openSubjectChoices: document.getElementById("openSubjectChoices"),
+  openStudyPlan: document.getElementById("openStudyPlan"),
+  studyPlanValue: document.getElementById("studyPlanValue"),
   closeSubjectChoices: document.getElementById("closeSubjectChoices"),
   subjectChoicesCount: document.getElementById("subjectChoicesCount"),
   accountIdentity: document.getElementById("accountIdentity"),
@@ -492,6 +494,12 @@ if (isLocalOnboardingPreview) {
 function bindEvents() {
   renderAvatarPicker();
   els.openSubjectChoices.addEventListener("click", () => showProfilePane("subjects"));
+  els.openStudyPlan.addEventListener("click", () => {
+    const user = getCurrentUser();
+    if (!user || !window.BarebonesOnboarding) return;
+    els.profileMenu.classList.add("hidden");
+    showOnboarding(user, { editing: true });
+  });
   els.closeSubjectChoices.addEventListener("click", () => showProfilePane("main"));
   els.closeAccountDetails.addEventListener("click", hideAuthPanel);
   els.showSignIn.addEventListener("click", () => showAuthMode("signin"));
@@ -1100,11 +1108,17 @@ function needsOnboarding(user, snapshot) {
   return !hasStudied;
 }
 
-function showOnboarding(user) {
+function showOnboarding(user, { editing = false } = {}) {
+  // When editing, start from the live subject list: it may have changed via
+  // Subject choices since the plan was saved, or the account may predate plans.
+  const initial = editing
+    ? { ...(user.onboarding || {}), subjects: getEnabledSubjectIds(user) }
+    : user.onboarding || {};
   window.BarebonesOnboarding.open({
     subjects: SUBJECTS.map((s) => ({ id: s.id, title: s.title })),
     username: user.username,
-    initial: user.onboarding || {},
+    initial,
+    editing,
     onComplete(result) {
       if (!result) return;
       const current = getCurrentUser();
@@ -1114,7 +1128,7 @@ function showOnboarding(user) {
         .map((s) => s.id)
         .filter((id) => !result.subjects.includes(id));
       const priority = SUBJECTS.find((s) => s.id === result.prioritySubject);
-      if (priority) {
+      if (priority && !editing) {
         selectedSubjectId = priority.id;
         expandedSubjectId = priority.id;
         selectedChapterId = priority.chapters[0]?.id || "";
@@ -1123,7 +1137,7 @@ function showOnboarding(user) {
       // The preview profile is throwaway; saving it would surface as a legacy account.
       if (!isLocalOnboardingPreview) persist();
       renderAll();
-      window.setTimeout(() => triggerLoginAnimation(current.username), 420);
+      if (!editing) window.setTimeout(() => triggerLoginAnimation(current.username), 420);
     },
   });
 }
@@ -1339,6 +1353,11 @@ function renderSubjectPicker() {
   if (els.subjectChoicesCount) {
     const on = SUBJECTS.length - disabled.size;
     els.subjectChoicesCount.textContent = `${on} of ${SUBJECTS.length}`;
+  }
+
+  if (els.studyPlanValue) {
+    const year = { ty: "TY", "5th": "5th Year", "6th": "6th Year" }[user.onboarding?.year];
+    els.studyPlanValue.textContent = year || "Set up";
   }
 
   els.subjectPicker.querySelectorAll("input[type=checkbox]").forEach((cb) => {

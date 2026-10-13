@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=54" />
+    <link rel="stylesheet" href="./styles.css?v=55" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <script>
@@ -43,6 +43,11 @@
           <button id="openSubjectChoices" class="profile-row" type="button">
             <span class="profile-row-label">Subject choices</span>
             <span id="subjectChoicesCount" class="profile-row-value"></span>
+            <span class="profile-row-chevron" aria-hidden="true">›</span>
+          </button>
+          <button id="openStudyPlan" class="profile-row" type="button">
+            <span class="profile-row-label">Study plan</span>
+            <span id="studyPlanValue" class="profile-row-value"></span>
             <span class="profile-row-chevron" aria-hidden="true">›</span>
           </button>
           <button id="signOutButton" class="profile-row profile-row-quiet" type="button">
@@ -333,8 +338,8 @@
     <script src="./pe-test-questions.js?v=2"></script>
     <script src="./pe-exam-info.js?v=2"></script>
     <script src="./generated-notes-content.js?v=2"></script>
-    <script src="./onboarding.js?v=2"></script>
-    <script src="./app.js?v=63"></script>
+    <script src="./onboarding.js?v=3"></script>
+    <script src="./app.js?v=64"></script>
     <script src="./timer.js?v=1"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
