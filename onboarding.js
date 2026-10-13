@@ -28,9 +28,9 @@
   };
 
   const YEARS = [
-    { id: "ty", label: "Transition Year", hint: "Getting a head start", icon: "compass" },
-    { id: "5th", label: "5th Year", hint: "Building the foundations", icon: "sprout" },
-    { id: "6th", label: "6th Year", hint: "The Leaving Cert year", icon: "summit" },
+    { id: "ty", label: "Transition Year", icon: "compass" },
+    { id: "5th", label: "5th Year", icon: "sprout" },
+    { id: "6th", label: "6th Year", icon: "summit" },
   ];
 
   const DAYS = [
@@ -112,7 +112,6 @@
         <div class="ob-stage" aria-live="polite"></div>
         <footer class="ob-foot">
           <button type="button" class="ob-back" data-ob-back>${icon("arrowLeft")}<span>Back</span></button>
-          <span class="ob-count"><b class="ob-count-now">01</b> / 0${STEPS.length}</span>
           <button type="button" class="ob-next" data-ob-next><span>Continue</span>${icon("arrowRight")}</button>
         </footer>
       </div>`;
@@ -123,7 +122,6 @@
     const stage = root.querySelector(".ob-stage");
     const nextBtn = root.querySelector("[data-ob-next]");
     const backBtn = root.querySelector("[data-ob-back]");
-    const countNow = root.querySelector(".ob-count-now");
     const railFill = root.querySelector(".ob-rail-fill");
 
     const subjectById = (id) => subjects.find((s) => s.id === id);
@@ -167,7 +165,6 @@
               role="radio" aria-checked="${answers.year === y.id}" data-year="${y.id}" style="--i:${i}">
               <span class="ob-tile-icon">${icon(y.icon)}</span>
               <span class="ob-tile-label">${y.label}</span>
-              <span class="ob-tile-hint">${y.hint}</span>
               <span class="ob-tick">${icon("check")}</span>
             </button>`).join("")}
         </div>`;
@@ -245,7 +242,6 @@
 
     function renderFooter() {
       const step = STEPS[stepIndex];
-      countNow.textContent = String(stepIndex + 1).padStart(2, "0");
       backBtn.classList.toggle("is-hidden", stepIndex === 0);
       backBtn.tabIndex = stepIndex === 0 ? -1 : 0;
       nextBtn.disabled = !isStepValid(step.id);
