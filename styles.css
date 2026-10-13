@@ -4063,10 +4063,39 @@ body.onboarding-open .timer-widget {
   gap: 1.1rem;
 }
 
+.ob-head-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .ob-logo {
   height: 22px;
   width: auto;
-  justify-self: start;
+}
+
+.ob-close {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1.5px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel);
+  color: var(--muted);
+}
+
+.ob-close:hover {
+  border-color: var(--accent-light);
+  background: var(--accent-xlight);
+  color: var(--accent-strong);
+}
+
+.ob-close .ob-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .ob-rail {
