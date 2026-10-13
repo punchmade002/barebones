@@ -1060,7 +1060,11 @@ async function activateAuthenticatedSession(session, options = {}) {
     renderAll();
     hideAuthPanel();
 
-    if (options.animate !== false) triggerLoginAnimation(username);
+    if (needsOnboarding(merged, snapshot)) {
+      showOnboarding(merged);
+    } else if (options.animate !== false) {
+      triggerLoginAnimation(username);
+    }
   })();
 
   try {
@@ -1069,6 +1073,45 @@ async function activateAuthenticatedSession(session, options = {}) {
     authActivationPromise = null;
     activatingAuthUserId = "";
   }
+}
+
+// New self-service accounts answer a short questionnaire once. Anyone who has
+// already studied (or migrated a legacy profile) is never interrupted.
+function needsOnboarding(user, snapshot) {
+  if (!window.BarebonesOnboarding || user?.onboarding?.completedAt) return false;
+  if (snapshot?.profile?.account_origin === "legacy_migration") return false;
+  const hasStudied =
+    Number(user?.testsCompleted || 0) > 0 ||
+    Object.keys(user?.progressByOutcome || {}).length > 0 ||
+    Object.keys(user?.learnedByOutcome || {}).length > 0;
+  return !hasStudied;
+}
+
+function showOnboarding(user) {
+  window.BarebonesOnboarding.open({
+    subjects: SUBJECTS.map((s) => ({ id: s.id, title: s.title })),
+    username: user.username,
+    initial: user.onboarding || {},
+    onComplete(result) {
+      if (!result) return;
+      const current = getCurrentUser();
+      if (!current) return;
+      current.onboarding = result;
+      current.disabledSubjects = SUBJECTS
+        .map((s) => s.id)
+        .filter((id) => !result.subjects.includes(id));
+      const priority = SUBJECTS.find((s) => s.id === result.prioritySubject);
+      if (priority) {
+        selectedSubjectId = priority.id;
+        expandedSubjectId = priority.id;
+        selectedChapterId = priority.chapters[0]?.id || "";
+        selectedOutcomeId = priority.chapters[0]?.learningOutcomes[0]?.id || "";
+      }
+      persist();
+      renderAll();
+      window.setTimeout(() => triggerLoginAnimation(current.username), 420);
+    },
+  });
 }
 
 function findLocalUsername(username) {
@@ -1155,6 +1198,7 @@ function mergeStudyUser(localValue, remoteValue, preferLocal) {
     disabledSubjects: preferLocal
       ? [...(local.disabledSubjects || [])]
       : [...(remote.disabledSubjects?.length ? remote.disabledSubjects : local.disabledSubjects || [])],
+    onboarding: local.onboarding || remote.onboarding || null,
   };
 }
 
@@ -1165,6 +1209,7 @@ function serializeStudyUser(user) {
     progressByOutcome: user?.progressByOutcome || {},
     learnedByOutcome: user?.learnedByOutcome || {},
     disabledSubjects: Array.isArray(user?.disabledSubjects) ? user.disabledSubjects : [],
+    onboarding: user?.onboarding || null,
   };
 }
 
