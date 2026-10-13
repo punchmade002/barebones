@@ -22,7 +22,7 @@
           location.hash.indexOf('access_token=') !== -1 ||
           location.hash === '#reset-password';
         var isLocalMathsPreview = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') &&
-          new URLSearchParams(location.search).get('preview') === 'maths';
+          ['maths', 'onboarding'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         if (!isLoggedIn && !hasAuthSession && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
@@ -334,7 +334,7 @@
     <script src="./pe-exam-info.js?v=2"></script>
     <script src="./generated-notes-content.js?v=2"></script>
     <script src="./onboarding.js?v=1"></script>
-    <script src="./app.js?v=62"></script>
+    <script src="./app.js?v=63"></script>
     <script src="./timer.js?v=1"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
