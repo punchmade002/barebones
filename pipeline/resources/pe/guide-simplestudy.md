@@ -7,6 +7,11 @@
 - Coverage observed: 12 units and 25 topics.
 - Representative lesson: “Defining a Skilled Performance” (7 main sections, 7 subsections and
   5 note callouts).
+- Syllabus authority: the NCCA LCPE (2018) specification, for examination to June 2027
+  (`spec-syllabus.pdf`). Do not use the specification introduced in September 2026
+  (`relevant-resources/syllabi/pe-2026-spec.pdf`, first examined 2028). The full outline is
+  `course-outlines/pe.md`.
+- Only two of Topics 7–10 are prescribed for each cohort; SimpleStudy lists all four.
 - Use this taxonomy for consistent research/navigation. NCCA controls scope and assessment; SEC
   controls examination questions and marking.
 

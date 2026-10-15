@@ -53,5 +53,5 @@ python3 pipeline/tests/run_tests.py resources
 | Home Economics | 12 | 32 | 2004 | aligned |
 | Mathematics | 27 | 156 | 2015 | aligned |
 | Music | 9 | 10 | 1999 | aligned; prescribed works remain cycle-bound |
-| Physical Education | 12 | 25 | 2022 | aligned |
+| Physical Education | 12 | 25 | 2020 | aligned; 2018 specification examined to June 2027 |
 | Politics and Society | 10 | 57 | 2021 | aligned to updated specification |
