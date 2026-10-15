@@ -48,7 +48,7 @@ python3 pipeline/tests/run_tests.py resources
 | DCG | 22 | 153 | 2009 | aligned; repeated catalogue cards de-duplicated |
 | Economics | 16 | 20 | 2021 | aligned |
 | English | 31 | 85 | 2001 | aligned; prescribed texts remain year-bound |
-| Geography | 27 | 57 | 2006 | aligned; syllabus examined to June 2027 (local spec PDF is an interim outline) |
+| Geography | 27 | 57 | 2006 | aligned; syllabus examined to June 2027 |
 | History | 6 | 66 | 2006 | aligned |
 | Home Economics | 12 | 32 | 2004 | aligned |
 | Mathematics | 27 | 156 | 2015 | aligned |
