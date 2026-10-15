@@ -141,7 +141,7 @@ DEFAULT_CUTOFF = CURRENT_YEAR - 20          # used when a subject's cutoff is un
 # page. Anything not listed falls back to DEFAULT_CUTOFF (also flagged unverified).
 SYLLABUS_CUTOFF = {
     "history":   (2006, True),    # confirmed: documents-based study first examined 2006
-    "pe":        (2022, True),    # LCPE is a new exam subject, first examined 2022
+    "pe":        (2020, True),    # confirmed: 2018 LCPE specification first examined 2020, examined to June 2027
     "maths":     (2012, True),    # Project Maths national rollout (phased 2012-2015)
     "geography": (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2027
     "biology":   (2004, False),   # estimate — current syllabus ~2004; verify
