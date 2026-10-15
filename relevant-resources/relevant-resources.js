@@ -28,7 +28,6 @@
     },
     geography: {
       title: "Leaving Certificate Geography Syllabus (Ordinary and Higher Levels)",
-      // Local copy is an interim outline until the official SCSEC17 PDF is added.
       path: "./relevant-resources/syllabi/geography.pdf",
       sourceUrl: "https://www.curriculumonline.ie/getmedia/9da21be1-3f99-4f50-88ee-ba7ce6638e1a/SCSEC17_Geography_syllabus_eng.pdf",
       documentType: "Syllabus",

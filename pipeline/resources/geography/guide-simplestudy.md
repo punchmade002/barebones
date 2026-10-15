@@ -39,7 +39,7 @@ Core Unit 2 — Regional (Section 2)
     Tertiary Economic Activities; Human Processes).
 11. **Regions - Continental or Subcontinental** — A Continental or Subcontinental Region (India;
     Physical Processes; Primary, Secondary and Tertiary Economic Activities; Human Processes).
-12. **Complexities of Regions** [HL] — The Complexity of Regions (The Interaction of Economic,
+12. **Complexities of Regions** — The Complexity of Regions (The Interaction of Economic,
     Political, and Cultural Activities; The Interaction of Different Cultural Groups and
     Political Regions; Development and Expansion of the European Union; The Future of Europe and
     the European Union; The Impact of EU Enlargement on Ireland; Changes in the Boundaries and
@@ -110,6 +110,10 @@ Assessment
   Irish Aid, layers of the atmosphere, Ireland's temperate rainforest, urban food production,
   smart cities, Mediterranean mass tourism as a set case study, the Applied Geography Project).
 - Electives are alternatives: students answer one of Elective 4 or Elective 5, never both.
-- Options are Higher Level only, and students answer one.
-- `spec-syllabus.pdf` in this folder is currently an interim outline, not the official NCCA
-  document (see `manifest.json`). Replace it with the official syllabus when it is available.
+- Options are Higher Level only, and students answer one. The syllabus marks no other topic as
+  Higher Level only.
+- `spec-syllabus.pdf` is the official 2003 NCCA syllabus. Where SimpleStudy and the syllabus
+  differ, the syllabus wins: see Appendix A of `course-outlines/geography.md` for topics the
+  syllabus requires that SimpleStudy does not cover (e.g. wind erosion, human interaction with
+  the rock cycle, fluvial adjustment to base level, GIS studies, migration policy, the future of
+  urbanism, human alteration of biomes).
