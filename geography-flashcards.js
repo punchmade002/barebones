@@ -102,18 +102,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Organic Agricultural Approaches",
-      "definition": "Sustainable farming methods that avoid synthetic pesticides and fertilizers, representing changing agricultural practices.",
-      "section": "geo-economic-activities",
-      "type": "process"
-    },
-    {
-      "term": "Urban Food Production",
-      "definition": "Growing food crops in urban areas, representing a changing agricultural practice adapted to urban environments.",
-      "section": "geo-economic-activities",
-      "type": "example"
-    },
-    {
       "term": "Aquaculture",
       "definition": "Development within the fishing industry involving the farming of fish and marine organisms in controlled water environments.",
       "section": "geo-economic-activities",
@@ -190,18 +178,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "process"
     },
     {
-      "term": "Endogenic processes",
-      "definition": "Internal Earth processes that form rocks, including magma cooling (igneous rocks) and metamorphism under heat and pressure.",
-      "section": "geo-rocks-weathering",
-      "type": "concept"
-    },
-    {
-      "term": "Exogenic processes",
-      "definition": "External Earth processes including volcanic activity, weathering, erosion, and lithification that shape and reform rocks.",
-      "section": "geo-rocks-weathering",
-      "type": "concept"
-    },
-    {
       "term": "Mechanical weathering",
       "definition": "The breakdown of rocks into smaller pieces through physical processes like freeze-thaw, exfoliation, and abrasion without chemical change.",
       "section": "geo-rocks-weathering",
@@ -258,28 +234,10 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "concept"
     },
     {
-      "term": "Development Assistance",
-      "definition": "Government of Ireland's development cooperation programme that provides assistance to support development in other countries.",
-      "section": "geo-economic-development",
-      "type": "concept"
-    },
-    {
       "term": "Global South",
       "definition": "Countries with lower levels of economic and human development, typically located in Africa, Asia, and Latin America.",
       "section": "geo-economic-development",
       "type": "term"
-    },
-    {
-      "term": "Geopolitics",
-      "definition": "The influence of geography, territory, and natural resources on international relations and political power.",
-      "section": "geo-economic-development",
-      "type": "concept"
-    },
-    {
-      "term": "Territorial Dispute",
-      "definition": "Disagreement between nations or regions over control of land or maritime boundaries, influenced by geographical and political factors.",
-      "section": "geo-economic-development",
-      "type": "concept"
     },
     {
       "term": "Population Structure and Development",
@@ -364,54 +322,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "An area within a region that is economically less developed, often more sparsely populated, and more distant from the core, with lower levels of infrastructure and economic investment.",
       "section": "geo-region-continental",
       "type": "concept"
-    },
-    {
-      "term": "Climate zone",
-      "definition": "A large geographical area characterized by similar climate patterns, including specific ranges of temperature and precipitation. Major climate zones include tropical, temperate, continental, polar, and arid.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Tropical climate zone",
-      "definition": "A climate zone located near the equator characterized by high temperatures year-round and high precipitation, supporting lush vegetation and high biodiversity.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Temperate climate zone",
-      "definition": "A climate zone located between the tropical and polar regions, characterized by moderate temperatures with distinct seasons, moderate precipitation, and deciduous or mixed forests as the natural vegetation.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Continental climate zone",
-      "definition": "A climate zone characterized by extreme temperature variations between seasons, with very cold winters and warm summers, located in the interior of large landmasses away from moderating ocean influences.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Polar climate zone",
-      "definition": "A climate zone located at high latitudes near the North and South Poles, characterized by extremely cold temperatures year-round, minimal precipitation, and limited vegetation such as tundra.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Arid climate zone",
-      "definition": "A dry climate zone characterized by very low annual precipitation, high evaporation rates, and sparse vegetation. Often found in desert regions at specific latitudes.",
-      "section": "geo-region-continental",
-      "type": "concept"
-    },
-    {
-      "term": "Climate influence on soils",
-      "definition": "Different climate zones produce distinct soil types due to variations in temperature, precipitation, and weathering processes. For example, tropical climates produce deep, weathered soils while arid climates produce shallow, mineral-rich soils.",
-      "section": "geo-region-continental",
-      "type": "process"
-    },
-    {
-      "term": "Climate influence on flora and fauna",
-      "definition": "Climate zones determine the types of plants and animals found in a region. Tropical zones support rainforests with high biodiversity, while polar zones support limited species adapted to extreme cold.",
-      "section": "geo-region-continental",
-      "type": "process"
     },
     {
       "term": "Economic development distribution",
@@ -557,18 +467,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
     }
   ],
   "geo-weather-climate": [
-    {
-      "term": "Atmosphere layers",
-      "definition": "The vertical structure of Earth's atmosphere: troposphere (weather occurs here), stratosphere, mesosphere, thermosphere, and exosphere.",
-      "section": "geo-weather-climate",
-      "type": "concept"
-    },
-    {
-      "term": "Troposphere",
-      "definition": "The lowest atmosphere layer where weather occurs, temperature decreases with altitude, and most water vapor and clouds exist.",
-      "section": "geo-weather-climate",
-      "type": "concept"
-    },
     {
       "term": "High-pressure system",
       "definition": "An area where air pressure is higher than surroundings, associated with clear skies, light winds, and stable conditions.",
@@ -1134,12 +1032,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "EU regulations and policies controlling fishing practices, quotas and conservation measures affecting Ireland's fishing industry.",
       "section": "geo-economic-eu",
       "type": "term"
-    },
-    {
-      "term": "Four Freedoms of the EU",
-      "definition": "The fundamental principles of the EU allowing free movement of people, goods, services and capital between member states.",
-      "section": "geo-economic-eu",
-      "type": "concept"
     }
   ],
   "geo-economic-environment": [
@@ -1160,24 +1052,6 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "definition": "The effects of economic activities on communities, human welfare, and social structures.",
       "section": "geo-economic-environment",
       "type": "concept"
-    },
-    {
-      "term": "Tourism Infrastructure",
-      "definition": "The facilities and services required to support tourism development, including transport, accommodation and recreational facilities.",
-      "section": "geo-economic-environment",
-      "type": "term"
-    },
-    {
-      "term": "Mass Tourism",
-      "definition": "Large-scale tourism development with both positive economic benefits and negative environmental and social impacts.",
-      "section": "geo-economic-environment",
-      "type": "concept"
-    },
-    {
-      "term": "Mediterranean Coastal Tourism",
-      "definition": "A case study of mass tourism development in Mediterranean coastal regions, examining economic, environmental and social impacts.",
-      "section": "geo-economic-environment",
-      "type": "example"
     }
   ],
   "geo-plate-tectonics": [
@@ -1274,14 +1148,8 @@ window.FLASHCARDS_DB = Object.assign(window.FLASHCARDS_DB || {},
       "type": "concept"
     },
     {
-      "term": "Sustainable Responses to Rural Challenges",
-      "definition": "Planning strategies at local and national levels and community-based initiatives to address challenges in rural settlements.",
-      "section": "geo-urban",
-      "type": "concept"
-    },
-    {
       "term": "Urban Conservation and Renewal",
-      "definition": "Responses to urban development impacts including conservation, renewal, redevelopment, ecocities and smart cities.",
+      "definition": "Responses to urban problems such as inner-city decline: conservation of historic areas, urban renewal (rebuilding on the same site with the same function) and urban redevelopment (changing the function of an area), e.g. Ballymun regeneration and the Dublin Docklands.",
       "section": "geo-urban",
       "type": "concept"
     }
