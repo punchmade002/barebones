@@ -1630,6 +1630,16 @@ details[open] > summary::before { transform: rotate(90deg); }
   line-height: 1.7;
 }
 
+.full-notes-body .note-points {
+  margin: 0.35rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--ink-2);
+}
+
+.full-notes-body .note-points li {
+  margin-bottom: 0.3rem;
+}
+
 /* ── Progress: a full page, not an overlay ───── */
 .progress-screen {
   position: fixed;
