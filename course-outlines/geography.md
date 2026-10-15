@@ -2,6 +2,9 @@
 
 ## Read this first (instructions for the content model)
 
+- **How to write the notes:** follow `course-outlines/NOTES_STANDARD.md` (rules, output format,
+  and a fully worked example for `geo-rivers`). This outline says what to cover; that file says
+  how to write it.
 - **The syllabus:** the NCCA *Leaving Certificate Geography Syllabus (Ordinary and Higher
   Levels)*, © 2003, first examined 2006 and examined to June 2027. The official PDF is
   `pipeline/resources/geography/spec-syllabus.pdf` (also in

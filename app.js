@@ -215,7 +215,7 @@ function buildSubjectChapters(subjectId) {
             : ((lo.notes || []).length
                 ? (lo.notes || []).map((note, idx) => ({
                     term: note.h || `${lo.title} ${idx + 1}`,
-                    definition: note.b || "",
+                    definition: note.b || (note.points || []).join(" "),
                     section: lo.title,
                   }))
                 : (loIndex === 0 ? generatedTerms : [])),
@@ -249,7 +249,7 @@ function buildSubjectChapters(subjectId) {
                 : ((lo.notes || []).length
                     ? (lo.notes || []).map((note, idx) => ({
                         term: note.h || `${lo.title} ${idx + 1}`,
-                        definition: note.b || "",
+                        definition: note.b || (note.points || []).join(" "),
                         section: lo.title || `Section ${loIndex + 1}`,
                       }))
                     : (loIndex === 0 ? generatedTerms : []))
@@ -2793,7 +2793,12 @@ function buildFullNotesHtml(chapter) {
             (n) => `
               <div class="note-block">
                 <h5>${escapeHtml(compactText(n.h || ""))}</h5>
-                <p>${escapeHtml(compactText(n.b || ""))}</p>
+                ${n.b ? `<p>${escapeHtml(compactText(n.b))}</p>` : ""}
+                ${Array.isArray(n.points) && n.points.length
+                  ? `<ul class="note-points">${n.points
+                      .map((pt) => `<li>${escapeHtml(compactText(pt))}</li>`)
+                      .join("")}</ul>`
+                  : ""}
               </div>`
           )
           .join("");
