@@ -726,12 +726,6 @@
       {
         type: "short",
         marks: 4,
-        prompt: "Name the seven characteristics of life.",
-        model: "Response, Respiration, Nutrition, Excretion, Reproduction, Growth/Metabolism, Homeostasis. A common mnemonic is MRS GREN: Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, Nutrition."
-      },
-      {
-        type: "short",
-        marks: 4,
         prompt: "Distinguish between aerobic and anaerobic respiration.",
         model: "Aerobic respiration uses oxygen and occurs mainly in mitochondria, producing ~38 ATP plus CO2 and water. Anaerobic respiration occurs without oxygen in the cytoplasm, producing only ~2 ATP; it yields lactic acid in animals or ethanol + CO2 in yeast."
       },
@@ -1925,26 +1919,6 @@
         ]
       },
       {
-        id: "bio13-eq-2",
-        source: "LC Biology Past Paper — Q10(b)",
-        parts: [
-          {
-            label: "10. (b) (i)",
-            question: "During your practical studies you investigated the action of digestive enzymes in germinating seeds using either starch agar or skimmed milk plates. Describe how you set up the apparatus for this investigation.",
-            marks: 10,
-            model: "Starch agar method: 1. Prepare starch agar plates by dissolving starch and agar in boiling water, pouring into petri dishes and allowing to set. 2. Germinate barley or wheat seeds on moist cotton wool for 2–3 days. 3. Crush the germinating seeds in a pestle and mortar with a little distilled water to extract the enzyme. 4. Use a cork borer to cut wells in the starch agar. 5. Pipette a measured volume of the seed extract into the wells. As a control, add distilled water to another well. 6. Incubate at room temperature or 25–30°C for 24–48 hours. 7. Flood the plate with iodine solution and observe for clear (unstained) zones. Skimmed milk plate method: Use the same setup but with skimmed milk agar. After incubation, observe for clear transparent zones (halos) around the wells where protein was digested.",
-            diagram: ""
-          },
-          {
-            label: "10. (b) (ii)",
-            question: "Explain how you knew digestion had occurred.",
-            marks: 6,
-            model: "On starch agar: the plate was flooded with iodine solution. Iodine turns undigested starch blue-black. A clear (unstained) halo around the seed extract well showed that the enzyme (amylase) in the extract had digested the starch. No clear zone appeared around the control well. On skimmed milk plates: a clear transparent zone (halo) formed around the well containing seed extract, indicating that protease activity had broken down the milk protein (casein). The greater the zone of clearance, the greater the enzyme activity.",
-            diagram: ""
-          }
-        ]
-      },
-      {
         id: "bio13-eq-3",
         source: "LC Biology Past Paper — Q5 (Bioreactor)",
         parts: [
@@ -1967,13 +1941,6 @@
             question: "Name the two stages X and Y on the population growth curve.",
             marks: 4,
             model: "X: Lag phase — microorganisms adapt to their new environment; cells synthesise enzymes and adjust their metabolism; little or no increase in population. Y: Log (exponential) phase — population doubles at a constant rapid rate; nutrients are plentiful and conditions are optimal.",
-            diagram: ""
-          },
-          {
-            label: "5. (d)",
-            question: "The equipment is keeping the bacteria in steady growth phase Y. Which type of food processing technique is represented?",
-            marks: 3,
-            model: "Continuous culture (continuous fermentation) — fresh nutrient medium is continuously added and products/spent cells are continuously removed, maintaining bacteria in the exponential growth phase at a steady population.",
             diagram: ""
           },
           {
@@ -3377,10 +3344,6 @@
       {
         h: "Fruit and Seed Dispersal",
         b: "Dispersal is the transfer of a seed or fruit away from the parent plant, allowing seeds to avoid competition and colonise new areas. Wind dispersal occurs with light seeds (orchids) and parachute structures (dandelions, thistles) or winged fruits (sycamore, ash). Water dispersal uses light air-filled fruits that float (coconut, alder, water lily). Animal dispersal includes sticky hooked fruits (burdock, goose grass) and edible fruits whose seeds pass unharmed through digestive systems (strawberries). Self-dispersal uses explosive seed pods (peas, beans, gorse)."
-      },
-      {
-        h: "Germination",
-        b: "Germination is the growth of a seed when environmental conditions are suitable. Three conditions are required: water, which activates enzymes; oxygen, which is needed for aerobic respiration to supply energy; and a suitable temperature, which allows enzyme activity to proceed at the necessary rate."
       }
     ];
     c.learningOutcomes[0].keyTerms = [
@@ -3425,18 +3388,8 @@
         section: "24.1"
       },
       {
-        term: "What is abscisic acid (ABA)?",
-        definition: "A plant growth inhibitor that suppresses seed germination and maintains seed dormancy until environmental conditions are favourable.",
-        section: "24.1"
-      },
-      {
         term: "What is dispersal?",
         definition: "The transfer of a seed or fruit away from the parent plant by wind, water, animals, or explosive self-dispersal mechanisms, reducing competition and enabling colonisation of new areas.",
-        section: "24.1"
-      },
-      {
-        term: "What is germination?",
-        definition: "The resumption of growth by a seed when conditions are suitable; requires water (to activate enzymes), oxygen (for aerobic respiration), and a suitable temperature.",
         section: "24.1"
       }
     ];
@@ -4142,19 +4095,6 @@
     ];
     c.examQuestions = [
       {
-        id: "bio29-eq-1",
-        source: "LC Biology Past Paper — Q6(e)",
-        parts: [
-          {
-            label: "6. (e)",
-            question: "Distinguish clearly between systole and diastole.",
-            marks: 6,
-            model: "Systole: the phase of the cardiac cycle during which the heart muscle contracts. Ventricular systole forces blood out of the ventricles — from the right ventricle into the pulmonary artery and from the left ventricle into the aorta. Diastole: the phase during which the heart muscle relaxes and the chambers refill with blood. The atria and ventricles fill during diastole. The two phases alternate continuously to produce each heartbeat.",
-            diagram: ""
-          }
-        ]
-      },
-      {
         id: "bio29-eq-2",
         source: "LC Biology Past Paper — Q6 (g)",
         parts: [
@@ -4670,7 +4610,7 @@
       },
       {
         h: "Bacterial Structure",
-        b: "Bacteria belong to the Monera kingdom and are prokaryotic, meaning they have no nucleus or membrane-enclosed organelles. Key structures include a cell wall (prevents bursting in dilute solutions), a cell membrane, a protective capsule, a single chromosome, plasmids (small DNA loops carrying genes for antibiotic resistance), cytoplasm with ribosomes, and flagella for movement."
+        b: "Bacteria are prokaryotic, meaning they have no nucleus or membrane-enclosed organelles. Key structures include a cell wall (prevents bursting in dilute solutions), a cell membrane, a protective capsule, a single chromosome, plasmids (small DNA loops carrying genes for antibiotic resistance), cytoplasm with ribosomes, and flagella for movement."
       },
       {
         h: "Bacterial Nutrition",

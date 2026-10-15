@@ -7,8 +7,14 @@
 - Coverage observed: 32 units and 53 topics.
 - Representative lesson: “The Nature of Scientific Knowledge” (6 main sections, 4 subsections and
   3 note callouts).
+- Syllabus: the NCCA Leaving Certificate Biology specification introduced in September 2025 and
+  first examined in June 2027. SimpleStudy's units follow this specification, not the 2001
+  syllabus examined to June 2026.
 - Use the taxonomy below as a consistent secondary research map. The NCCA specification controls
-  scope; SEC papers and marking schemes control exam material.
+  scope; SEC papers and marking schemes control exam material. All existing SEC papers are from
+  the previous syllabus, so use them only for topics that are also in the specification.
+- The full chapter-by-chapter outline used for content generation, keyed to the app's 36 biology
+  chapter IDs, is `course-outlines/biology.md`.
 
 ## Unit and topic structure
 
