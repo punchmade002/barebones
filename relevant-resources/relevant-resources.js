@@ -27,12 +27,13 @@
       status: "Current",
     },
     geography: {
-      title: "Leaving Certificate Geography Curriculum Specification",
+      title: "Leaving Certificate Geography Syllabus (Ordinary and Higher Levels)",
+      // Local copy is an interim outline until the official SCSEC17 PDF is added.
       path: "./relevant-resources/syllabi/geography.pdf",
-      sourceUrl: "https://www.curriculumonline.ie/getmedia/837bf939-b559-4b45-8c94-5590d8710083/SC-Geography-Spec-ENG-INT.pdf",
-      documentType: "Curriculum specification",
-      effectiveFrom: "September 2026",
-      status: "Current for fifth-year students from 2026",
+      sourceUrl: "https://www.curriculumonline.ie/getmedia/9da21be1-3f99-4f50-88ee-ba7ce6638e1a/SCSEC17_Geography_syllabus_eng.pdf",
+      documentType: "Syllabus",
+      effectiveFrom: "Examinations from 2006",
+      status: "Current; examined to June 2027",
     },
     maths: {
       title: "Leaving Certificate Mathematics Syllabus",

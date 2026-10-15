@@ -4,7 +4,7 @@
 
 - **The syllabus:** the Leaving Certificate Geography syllabus first examined in 2006 and
   examined up to June 2027. This is **not** the 2026 specification (first exam 2028). Do not
-  use `relevant-resources/syllabi/geography.pdf`; it is the new spec.
+  use `relevant-resources/syllabi/geography-2026-spec.pdf`; it is the new course.
 - **The chapters** are the 25 chapter IDs already in the app (`data.js`) and the pipeline
   scaffold (`pipeline/scaffold/geography.json`). Past exam questions are tagged to these IDs,
   so keep every ID exactly as written.
