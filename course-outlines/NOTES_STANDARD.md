@@ -38,12 +38,21 @@ could be examined** in each subsection, **stated once**, with no padding.
 
 ## Output format
 
-Write each subsection as one JSON object. The app shows `h` as the heading, `b` as a short
-lead paragraph, and `points` as a bulleted list. `b` is optional when `points` carries the
-content.
+Write each subsection as one JSON file at `content/<subject>/<loId>.json`, where `loId` is the
+subsection's id in `data.js` (for geography: `<chapter-id>-s<n>`, e.g. `geo-rivers-s1`, in the
+same order as the outline's numbered subsections). The app shows `h` as the heading, `b` as a
+short lead paragraph, and `points` as a bulleted list. `b` is optional when `points` carries
+the content.
+
+Then run `python3 scripts/build_notes.py <subject>`. It rejects files that break the rules
+(missing fields, markdown, banned filler, repeated points, wrong ids) and compiles the valid
+ones into `<subject>-notes.js`, which the app loads. A chapter switches from the old generated
+notes to the new ones as soon as any of its subsections is written, so **write whole chapters
+at a time**; the build warns about part-written chapters.
 
 ```json
 {
+  "loId": "geo-rivers-s1",
   "chapterId": "geo-rivers",
   "subsection": "1. Fluvial processes, patterns and associated landforms",
   "syllabusRef": "1.5",
@@ -59,6 +68,8 @@ content.
 - `notes`: usually 4–10 blocks per subsection, each with 3–10 points.
 - `keyTerms`: the subsection's essential vocabulary for flashcards, one sentence each. These
   can overlap with the notes, because flashcards are a separate study mode.
+- `questions` (optional): exam-style practice questions for the subsection, each
+  `{ "marks": 30, "prompt": "...", "model": "..." }`, with the model answer as plain text.
 - No markdown inside strings: no `**`, no headings, no line breaks. The app strips them.
 
 ## Block types to use
@@ -78,6 +89,7 @@ first subsection of `geo-rivers`; real output must cover every subsection.
 
 ```json
 {
+  "loId": "geo-rivers-s1",
   "chapterId": "geo-rivers",
   "subsection": "1. Fluvial processes, patterns and associated landforms",
   "syllabusRef": "1.5",

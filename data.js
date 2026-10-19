@@ -448,31 +448,178 @@ const COURSE_DATA = {
       { id: "bio-acronyms-1", code: "A.1", title: "Acronyms and key terms to learn", notes: [], keyTerms: [], questions: [] }
       ],
     },
-    { id: "geo-plate-tectonics",               number: 1,  subject: "geography", title: "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries", examQuestions: [], learningOutcomes: [{ id: "geo-plate-tectonics-1",               code: "GEO1",  title: "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries", notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-volcanoes-earthquakes",         number: 2,  subject: "geography", title: "Volcanic and Earthquake Activity",                                                              examQuestions: [], learningOutcomes: [{ id: "geo-volcanoes-earthquakes-1",         code: "GEO2",  title: "Volcanic and Earthquake Activity",                                                              notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-rocks-weathering",              number: 3,  subject: "geography", title: "Rocks, Weathering and Mass Movement",                                                           examQuestions: [], learningOutcomes: [{ id: "geo-rocks-weathering-1",              code: "GEO3",  title: "Rocks, Weathering and Mass Movement",                                                           notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-glaciation",                    number: 4,  subject: "geography", title: "Glaciation — Glacial Processes, Landforms and Isostasy",                                        examQuestions: [], learningOutcomes: [{ id: "geo-glaciation-1",                    code: "GEO4",  title: "Glaciation — Glacial Processes, Landforms and Isostasy",                                        notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-rivers",                        number: 5,  subject: "geography", title: "Rivers — Fluvial Processes and Landforms",                                                      examQuestions: [], learningOutcomes: [{ id: "geo-rivers-1",                        code: "GEO5",  title: "Rivers — Fluvial Processes and Landforms",                                                      notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-sea",                           number: 6,  subject: "geography", title: "The Sea at Work — Coastal Processes and Landforms",                                             examQuestions: [], learningOutcomes: [{ id: "geo-sea-1",                           code: "GEO6",  title: "The Sea at Work — Coastal Processes and Landforms",                                             notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-aerial-photographs",            number: 7,  subject: "geography", title: "Aerial Photographs — Interpretation, Location, Sketch Maps and Land Use",                       examQuestions: [], learningOutcomes: [{ id: "geo-aerial-photographs-1",            code: "GEO7",  title: "Aerial Photographs — Interpretation, Location, Sketch Maps and Land Use",                       notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-mapwork",                       number: 8,  subject: "geography", title: "Ordnance Survey Mapwork and the Geographical Investigation",                                    examQuestions: [], learningOutcomes: [{ id: "geo-mapwork-1",                       code: "GEO8",  title: "Ordnance Survey Mapwork and the Geographical Investigation",                                    notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-weather-climate",               number: 9,  subject: "geography", title: "Weather and Climate — Weather Maps and Satellite Imagery",                                      examQuestions: [], learningOutcomes: [{ id: "geo-weather-climate-1",               code: "GEO9",  title: "Weather and Climate — Weather Maps and Satellite Imagery",                                      notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-graph-skills",                  number: 10, subject: "geography", title: "Tables, Graphs and Data Skills",                                                                examQuestions: [], learningOutcomes: [{ id: "geo-graph-skills-1",                  code: "GEO10", title: "Tables, Graphs and Data Skills",                                                                notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-region-concept",                number: 11, subject: "geography", title: "The Concept of a Region — Defining and Classifying Regions",                                    examQuestions: [], learningOutcomes: [{ id: "geo-region-concept-1",                code: "GEO11", title: "The Concept of a Region — Defining and Classifying Regions",                                    notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-region-ireland",                number: 12, subject: "geography", title: "Irish Regions — Core and Peripheral",                                                           examQuestions: [], learningOutcomes: [{ id: "geo-region-ireland-1",                code: "GEO12", title: "Irish Regions — Core and Peripheral",                                                           notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-region-european",               number: 13, subject: "geography", title: "European Regions — Core, Peripheral and Complexity of Regions",                                 examQuestions: [], learningOutcomes: [{ id: "geo-region-european-1",               code: "GEO13", title: "European Regions — Core, Peripheral and Complexity of Regions",                                 notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-region-continental",            number: 14, subject: "geography", title: "A Continental / Subcontinental Region",                                                         examQuestions: [], learningOutcomes: [{ id: "geo-region-continental-1",            code: "GEO14", title: "A Continental / Subcontinental Region",                                                         notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-economic-development",          number: 15, subject: "geography", title: "Economic Development — Measuring Development and the Distribution of Wealth",                   examQuestions: [], learningOutcomes: [{ id: "geo-economic-development-1",          code: "GEO15", title: "Economic Development — Measuring Development and the Distribution of Wealth",                   notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-economic-activities",           number: 16, subject: "geography", title: "Primary, Secondary and Tertiary Economic Activities",                                           examQuestions: [], learningOutcomes: [{ id: "geo-economic-activities-1",           code: "GEO16", title: "Primary, Secondary and Tertiary Economic Activities",                                           notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-economic-environment",          number: 17, subject: "geography", title: "Economic Activity and Environmental Impact",                                                    examQuestions: [], learningOutcomes: [{ id: "geo-economic-environment-1",          code: "GEO17", title: "Economic Activity and Environmental Impact",                                                    notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-economic-eu",                   number: 18, subject: "geography", title: "Ireland and the European Union",                                                                examQuestions: [], learningOutcomes: [{ id: "geo-economic-eu-1",                   code: "GEO18", title: "Ireland and the European Union",                                                                notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-economic-globalisation",        number: 19, subject: "geography", title: "The Global Economy — Multinationals and Globalisation",                                         examQuestions: [], learningOutcomes: [{ id: "geo-economic-globalisation-1",        code: "GEO19", title: "The Global Economy — Multinationals and Globalisation",                                         notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-population-migration",          number: 20, subject: "geography", title: "Population Dynamics, Overpopulation and Migration",                                             examQuestions: [], learningOutcomes: [{ id: "geo-population-migration-1",          code: "GEO20", title: "Population Dynamics, Overpopulation and Migration",                                             notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-urban",                         number: 21, subject: "geography", title: "Urban Geography — Settlement, Urban Land Use, Planning and Urban Problems",                     examQuestions: [], learningOutcomes: [{ id: "geo-urban-1",                         code: "GEO21", title: "Urban Geography — Settlement, Urban Land Use, Planning and Urban Problems",                     notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-option-atmosphere-ocean",       number: 22, subject: "geography", title: "Option — The Atmosphere-Ocean Environment",                                                     examQuestions: [], learningOutcomes: [{ id: "geo-option-atmosphere-ocean-1",       code: "GEO22", title: "Option — The Atmosphere-Ocean Environment",                                                     notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-option-culture-identity",       number: 23, subject: "geography", title: "Option — Culture and Identity",                                                                 examQuestions: [], learningOutcomes: [{ id: "geo-option-culture-identity-1",       code: "GEO23", title: "Option — Culture and Identity",                                                                 notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-option-geoecology",             number: 24, subject: "geography", title: "Option — Geoecology (Soils and Biomes)",                                                        examQuestions: [], learningOutcomes: [{ id: "geo-option-geoecology-1",             code: "GEO24", title: "Option — Geoecology (Soils and Biomes)",                                                        notes: [], keyTerms: [], questions: [] }] },
-    { id: "geo-option-global-interdependence", number: 25, subject: "geography", title: "Option — Global Interdependence",                                                               examQuestions: [], learningOutcomes: [{ id: "geo-option-global-interdependence-1", code: "GEO25", title: "Option — Global Interdependence",                                                               notes: [], keyTerms: [], questions: [] }] },
+    { id: "geo-plate-tectonics", number: 1, subject: "geography", title: "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries", examQuestions: [], learningOutcomes: [
+        { id: "geo-plate-tectonics-1", code: "GEO1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-plate-tectonics-s1", code: "GEO1.1", syllabusRef: "1.1", title: "The internal structure of the earth", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-plate-tectonics-s2", code: "GEO1.2", syllabusRef: "1.1", title: "The plate tectonics model", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-plate-tectonics-s3", code: "GEO1.3", syllabusRef: "1.1", title: "Plate boundaries as zones of crustal construction and destruction", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-volcanoes-earthquakes", number: 2, subject: "geography", title: "Volcanic and Earthquake Activity", examQuestions: [], learningOutcomes: [
+        { id: "geo-volcanoes-earthquakes-1", code: "GEO2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-volcanoes-earthquakes-s1", code: "GEO2.1", syllabusRef: "1.1", title: "The geography of volcanoes", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-volcanoes-earthquakes-s2", code: "GEO2.2", syllabusRef: "1.1", title: "The geography of earthquakes", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-volcanoes-earthquakes-s3", code: "GEO2.3", syllabusRef: "1.3", title: "Landforms from volcanic and plutonic structures", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-volcanoes-earthquakes-s4", code: "GEO2.4", syllabusRef: "1.3", title: "Landforms from sedimentary structures", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-volcanoes-earthquakes-s5", code: "GEO2.5", syllabusRef: "1.3", title: "Landforms from structures of deformation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-rocks-weathering", number: 3, subject: "geography", title: "Rocks, Weathering and Mass Movement", examQuestions: [], learningOutcomes: [
+        { id: "geo-rocks-weathering-1", code: "GEO3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s1", code: "GEO3.1", syllabusRef: "1.2", title: "The rock cycle and rock formation", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s2", code: "GEO3.2", syllabusRef: "1.2", title: "Human interaction with the rock cycle", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s3", code: "GEO3.3", syllabusRef: "1.2", title: "Weathering processes", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s4", code: "GEO3.4", syllabusRef: "1.4", title: "Landforms associated with particular rock types", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s5", code: "GEO3.5", syllabusRef: "1.2", title: "Mass movement (mass wasting) processes and the factors governing them", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s6", code: "GEO3.6", syllabusRef: "1.2", title: "Erosion by wind", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rocks-weathering-s7", code: "GEO3.7", syllabusRef: "1.7", title: "Human interaction: mass movement", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-glaciation", number: 4, subject: "geography", title: "Glaciation — Glacial Processes, Landforms and Isostasy", examQuestions: [], learningOutcomes: [
+        { id: "geo-glaciation-1", code: "GEO4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-glaciation-s1", code: "GEO4.1", syllabusRef: "1.5", title: "Glacial processes, patterns and associated landforms", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-glaciation-s2", code: "GEO4.2", syllabusRef: "1.6", title: "Isostasy", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-rivers", number: 5, subject: "geography", title: "Rivers — Fluvial Processes and Landforms", examQuestions: [], learningOutcomes: [
+        { id: "geo-rivers-1", code: "GEO5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rivers-s1", code: "GEO5.1", syllabusRef: "1.5", title: "Fluvial processes, patterns and associated landforms", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rivers-s2", code: "GEO5.2", syllabusRef: "1.6", title: "Fluvial adjustment to base level", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rivers-s3", code: "GEO5.3", syllabusRef: "1.6", title: "Cyclic landscape development and peneplains", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-rivers-s4", code: "GEO5.4", syllabusRef: "1.7", title: "Human interaction: river processes", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-sea", number: 6, subject: "geography", title: "The Sea at Work — Coastal Processes and Landforms", examQuestions: [], learningOutcomes: [
+        { id: "geo-sea-1", code: "GEO6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-sea-s1", code: "GEO6.1", syllabusRef: "1.5", title: "Coastal processes, patterns and associated landforms", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-sea-s2", code: "GEO6.2", syllabusRef: "1.7", title: "Human interaction: coastal processes", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-aerial-photographs", number: 7, subject: "geography", title: "Aerial Photographs — Interpretation, Location, Sketch Maps and Land Use", examQuestions: [], learningOutcomes: [
+        { id: "geo-aerial-photographs-1", code: "GEO7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-aerial-photographs-s1", code: "GEO7.1", syllabusRef: "3", title: "Aerial photograph interpretation", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-mapwork", number: 8, subject: "geography", title: "Ordnance Survey Mapwork and the Geographical Investigation", examQuestions: [], learningOutcomes: [
+        { id: "geo-mapwork-1", code: "GEO8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-mapwork-s1", code: "GEO8.1", syllabusRef: "3", title: "Map interpretation", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-mapwork-s2", code: "GEO8.2", syllabusRef: "3", title: "Textual sources", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-mapwork-s3", code: "GEO8.3", syllabusRef: "3", title: "The Geographical Investigation (20%)", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-weather-climate", number: 9, subject: "geography", title: "Weather and Climate — Weather Maps and Satellite Imagery", examQuestions: [], learningOutcomes: [
+        { id: "geo-weather-climate-1", code: "GEO9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-weather-climate-s1", code: "GEO9.1", syllabusRef: "3", title: "Weather maps and weather data", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-weather-climate-s2", code: "GEO9.2", syllabusRef: "3", title: "Satellite imagery", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-weather-climate-s3", code: "GEO9.3", syllabusRef: "3", title: "Geographical information systems (GIS)", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-graph-skills", number: 10, subject: "geography", title: "Tables, Graphs and Data Skills", examQuestions: [], learningOutcomes: [
+        { id: "geo-graph-skills-1", code: "GEO10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-graph-skills-s1", code: "GEO10.1", syllabusRef: "3", title: "Figure interpretation", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-graph-skills-s2", code: "GEO10.2", syllabusRef: "3", title: "Census of population data", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-region-concept", number: 11, subject: "geography", title: "The Concept of a Region — Defining and Classifying Regions", examQuestions: [], learningOutcomes: [
+        { id: "geo-region-concept-1", code: "GEO11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-concept-s1", code: "GEO11.1", syllabusRef: "2.1", title: "Physical regions", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-concept-s2", code: "GEO11.2", syllabusRef: "2.1", title: "Administrative regions at different scales", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-concept-s3", code: "GEO11.3", syllabusRef: "2.1", title: "Cultural regions", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-concept-s4", code: "GEO11.4", syllabusRef: "2.1", title: "Socio-economic regions", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-concept-s5", code: "GEO11.5", syllabusRef: "2.1", title: "Nodal/city/urban regions", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-region-ireland", number: 12, subject: "geography", title: "Irish Regions — Core and Peripheral", examQuestions: [], learningOutcomes: [
+        { id: "geo-region-ireland-1", code: "GEO12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-ireland-s1", code: "GEO12.1", syllabusRef: "2.2", title: "A Core Irish Region", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-ireland-s2", code: "GEO12.2", syllabusRef: "2.2", title: "A Peripheral Irish Region", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-region-european", number: 13, subject: "geography", title: "European Regions — Core, Peripheral and Complexity of Regions", examQuestions: [], learningOutcomes: [
+        { id: "geo-region-european-1", code: "GEO13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-european-s1", code: "GEO13.1", syllabusRef: "2.2", title: "A Core European Region: the Paris Basin", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-european-s2", code: "GEO13.2", syllabusRef: "2.2", title: "A Peripheral European Region: the Mezzogiorno", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-european-s3", code: "GEO13.3", syllabusRef: "2.3", title: "The complexity of regions (i)", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-european-s4", code: "GEO13.4", syllabusRef: "2.4", title: "The complexity of regions (ii)", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-region-continental", number: 14, subject: "geography", title: "A Continental / Subcontinental Region", examQuestions: [], learningOutcomes: [
+        { id: "geo-region-continental-1", code: "GEO14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-continental-s1", code: "GEO14.1", syllabusRef: "2.2", title: "India", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-economic-development", number: 15, subject: "geography", title: "Economic Development — Measuring Development and the Distribution of Wealth", examQuestions: [], learningOutcomes: [
+        { id: "geo-economic-development-1", code: "GEO15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-development-s1", code: "GEO15.1", syllabusRef: "4.1", title: "Measuring economic development", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-development-s2", code: "GEO15.2", syllabusRef: "4.2", title: "Spatial variations in development", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-development-s3", code: "GEO15.3", syllabusRef: "4.2", title: "Case study of a developing economy", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-development-s4", code: "GEO15.4", syllabusRef: "4.2", title: "Global issues and a justice perspective", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-economic-activities", number: 16, subject: "geography", title: "Primary, Secondary and Tertiary Economic Activities", examQuestions: [], learningOutcomes: [
+        { id: "geo-economic-activities-1", code: "GEO16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-activities-s1", code: "GEO16.1", syllabusRef: "4.2", title: "Case study of a developed economy", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-activities-s2", code: "GEO16.2", syllabusRef: "4.3", title: "The mobility of modern economic activities and factors in their location", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-economic-environment", number: 17, subject: "geography", title: "Economic Activity and Environmental Impact", examQuestions: [], learningOutcomes: [
+        { id: "geo-economic-environment-1", code: "GEO17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-environment-s1", code: "GEO17.1", syllabusRef: "4.5", title: "Renewable and non-renewable resources in the economy", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-environment-s2", code: "GEO17.2", syllabusRef: "4.5", title: "Burning fossil fuels and using alternative energy sources", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-environment-s3", code: "GEO17.3", syllabusRef: "4.5", title: "Environmental pollution", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-environment-s4", code: "GEO17.4", syllabusRef: "4.5", title: "Sustainable economic development", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-environment-s5", code: "GEO17.5", syllabusRef: "4.5", title: "Conflicts between economic interests and environmental interests", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-economic-eu", number: 18, subject: "geography", title: "Ireland and the European Union", examQuestions: [], learningOutcomes: [
+        { id: "geo-economic-eu-1", code: "GEO18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-eu-s1", code: "GEO18.1", syllabusRef: "4.4", title: "EU trading patterns", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-eu-s2", code: "GEO18.2", syllabusRef: "4.4", title: "Irish trading patterns with the EU", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-eu-s3", code: "GEO18.3", syllabusRef: "4.4", title: "How the EU influences the Irish economy", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-economic-globalisation", number: 19, subject: "geography", title: "The Global Economy — Multinationals and Globalisation", examQuestions: [], learningOutcomes: [
+        { id: "geo-economic-globalisation-1", code: "GEO19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-globalisation-s1", code: "GEO19.1", syllabusRef: "4.3", title: "One multinational company (MNC)", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-globalisation-s2", code: "GEO19.2", syllabusRef: "4.3", title: "The MNC and change", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-globalisation-s3", code: "GEO19.3", syllabusRef: "4.3", title: "Patterns in world trade", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-economic-globalisation-s4", code: "GEO19.4", syllabusRef: "4.3", title: "How the global economy is organised", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-population-migration", number: 20, subject: "geography", title: "Population Dynamics, Overpopulation and Migration", examQuestions: [], learningOutcomes: [
+        { id: "geo-population-migration-1", code: "GEO20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s1", code: "GEO20.1", syllabusRef: "5.1", title: "Changing population characteristics", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s2", code: "GEO20.2", syllabusRef: "5.2", title: "Overpopulation", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s3", code: "GEO20.3", syllabusRef: "5.3", title: "Changing migration patterns in Ireland", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s4", code: "GEO20.4", syllabusRef: "5.3", title: "Migration policy in Ireland and the EU", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s5", code: "GEO20.5", syllabusRef: "5.3", title: "Ethnic, racial and religious issues arising from migration", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-population-migration-s6", code: "GEO20.6", syllabusRef: "5.3", title: "Rural-to-urban migration in developed and developing regions", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-urban", number: 21, subject: "geography", title: "Urban Geography — Settlement, Urban Land Use, Planning and Urban Problems", examQuestions: [], learningOutcomes: [
+        { id: "geo-urban-1", code: "GEO21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s1", code: "GEO21.1", syllabusRef: "5.4", title: "Pre-historic and historic settlement", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s2", code: "GEO21.2", syllabusRef: "5.4", title: "Rural settlement", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s3", code: "GEO21.3", syllabusRef: "5.4", title: "Urban settlement: site, hierarchy, hinterland and central place theory", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s4", code: "GEO21.4", syllabusRef: "5.5", title: "Urban land use and planning", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s5", code: "GEO21.5", syllabusRef: "5.6", title: "Urban problems in developed-world cities", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s6", code: "GEO21.6", syllabusRef: "5.6", title: "Urban planning and renewal", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s7", code: "GEO21.7", syllabusRef: "5.6", title: "Developing-world cities", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-urban-s8", code: "GEO21.8", syllabusRef: "5.6", title: "The future of urbanism", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-option-atmosphere-ocean", number: 22, subject: "geography", title: "Option — The Atmosphere-Ocean Environment", examQuestions: [], learningOutcomes: [
+        { id: "geo-option-atmosphere-ocean-1", code: "GEO22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s1", code: "GEO22.1", syllabusRef: "9.1", title: "The atmosphere and oceans as linked systems", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s2", code: "GEO22.2", syllabusRef: "9.2", title: "Solar energy and its redistribution", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s3", code: "GEO22.3", syllabusRef: "9.3", title: "Exchanges of water between oceans and atmosphere", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s4", code: "GEO22.4", syllabusRef: "9.4", title: "Atmospheric and oceanic circulation", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s5", code: "GEO22.5", syllabusRef: "9.5", title: "Climatic environments and climate change", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-atmosphere-ocean-s6", code: "GEO22.6", syllabusRef: "9.6", title: "Climate and economic development", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-option-culture-identity", number: 23, subject: "geography", title: "Option — Culture and Identity", examQuestions: [], learningOutcomes: [
+        { id: "geo-option-culture-identity-1", code: "GEO23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s1", code: "GEO23.1", syllabusRef: "8.1", title: "Racial groupings", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s2", code: "GEO23.2", syllabusRef: "8.1", title: "Language as a cultural indicator", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s3", code: "GEO23.3", syllabusRef: "8.1", title: "Religion as a cultural indicator", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s4", code: "GEO23.4", syllabusRef: "8.1", title: "Everyday expressions of culture and identity", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s5", code: "GEO23.5", syllabusRef: "8.2", title: "Nationality and the nation state", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-culture-identity-s6", code: "GEO23.6", syllabusRef: "8.3", title: "A European regional case study of identity", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-option-geoecology", number: 24, subject: "geography", title: "Option — Geoecology (Soils and Biomes)", examQuestions: [], learningOutcomes: [
+        { id: "geo-option-geoecology-1", code: "GEO24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s1", code: "GEO24.1", syllabusRef: "7.1", title: "Soil composition and characteristics", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s2", code: "GEO24.2", syllabusRef: "7.2", title: "Soil processes and the global pattern of soils", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s3", code: "GEO24.3", syllabusRef: "7.2", title: "Human interference with soils", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s4", code: "GEO24.4", syllabusRef: "7.3", title: "One major biome in detail", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s5", code: "GEO24.5", syllabusRef: "7.4", title: "Human alteration of biomes", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "geo-option-global-interdependence", number: 25, subject: "geography", title: "Option — Global Interdependence", examQuestions: [], learningOutcomes: [
+        { id: "geo-option-global-interdependence-1", code: "GEO25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-global-interdependence-s1", code: "GEO25.1", syllabusRef: "6.1", title: "Views of development and underdevelopment", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-global-interdependence-s2", code: "GEO25.2", syllabusRef: "6.2", title: "An interdependent global economy", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-global-interdependence-s3", code: "GEO25.3", syllabusRef: "6.3", title: "Empowering people: linking economic growth with human development", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-global-interdependence-s4", code: "GEO25.4", syllabusRef: "6.4", title: "Sustainable development as a model for the future", notes: [], keyTerms: [], questions: [] }
+    ] },
     {
       id: "maths1", number: 1, subject: "maths", title: "Algebra - Cubics",
       examQuestions: [],
