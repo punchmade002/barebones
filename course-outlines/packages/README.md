@@ -61,3 +61,13 @@ Replace `<loId>` and `<subject>`; run once per subsection, a whole chapter at a 
 >
 > Reply with: the check output; a list of the must-cover ids and the block that covers each;
 > anything you left out and why.
+
+## Reviewing the notes
+
+After the writer finishes, check each file before it ships:
+- Its reply maps every must-cover id to a block; spot-check that the blocks really cover them.
+- `python3 scripts/check_package_names.py <subject> <loId>` lists names and numbers in the notes
+  that its package doesn't contain. Sentence openers appear too; look for real place names,
+  dates and figures and confirm or remove each one.
+- Read the case-study and example lines for accuracy.
+- Build and publish whole chapters only (`python3 scripts/build_notes.py <subject>`).
