@@ -54,7 +54,7 @@ F5 Deranged drainage on glacial deposits — exam 2025
 
 ## Review of the Haiku draft (2026-10-19)
 
-Not shipped: drafts/ is not read by the build. Move to content/geography/ once fixed.
+Shipped unfixed to content/geography/ on request so the draft can be read in the app; apply these fixes next.
 
 - Error: Castle Rock, Edinburgh is a crag and tail, not a roche moutonnee.
 - Missing examples: erratics (Burren), outwash plain (Curragh), pyramidal peak/arete (Carrauntoohil), Irish ribbon lake (Glendalough Upper Lake), drowned drumlins (Clew Bay), named corries (Coumshingaun, Devil's Punchbowl), terminal moraine, kame, kettle hole.
