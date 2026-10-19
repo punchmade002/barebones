@@ -8,7 +8,7 @@
       sourceUrl: "https://www.curriculumonline.ie/getmedia/e81ccca9-fdf5-42e9-a291-52e9549820c9/SC-Business-Spec-ENG.pdf",
       documentType: "Curriculum specification",
       effectiveFrom: "September 2025",
-      status: "Current",
+      status: "Current; first examined June 2027",
     },
     pe: {
       title: "Leaving Certificate Physical Education Curriculum Specification",
