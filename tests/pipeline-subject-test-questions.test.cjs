@@ -23,6 +23,9 @@ for (const config of [
     subject: "geography",
     chapters: 25,
     files: ["data.js", "geography-flashcards.js", "geography-test-questions.js"],
+    // Geography chapters are split into syllabus subsections; the authored test set sits on
+    // each chapter's review outcome rather than on every subsection.
+    questionsPer: "chapter",
   },
   {
     subject: "home-economics",
@@ -44,8 +47,14 @@ for (const config of [
 
     assert.equal(chapters.length, config.chapters);
     chapters.forEach((chapter) => {
+      if (config.questionsPer === "chapter") {
+        const total = chapter.learningOutcomes.reduce((sum, outcome) => sum + outcome.questions.length, 0);
+        assert.ok(total >= 3, `${chapter.id} should have several questions`);
+      }
       chapter.learningOutcomes.forEach((outcome) => {
-        assert.ok(outcome.questions.length >= 3, `${outcome.id} should have several questions`);
+        if (config.questionsPer !== "chapter") {
+          assert.ok(outcome.questions.length >= 3, `${outcome.id} should have several questions`);
+        }
         outcome.questions.forEach((question) => {
           assert.equal(question.type, "short", `${outcome.id} should use written answers`);
           assert.ok(question.prompt.length >= 35, `${outcome.id} prompt should be exam-style`);
