@@ -5,6 +5,10 @@
 - **How to write the notes:** follow `course-outlines/NOTES_STANDARD.md` (rules, output format,
   and a fully worked example for `geo-rivers`). This outline says what to cover; that file says
   how to write it.
+- **Information packages:** before notes are written, a higher model writes a package per
+  subsection in `course-outlines/packages/geography/` (scope checklist plus checked examples).
+  The writing model works from the package; this outline is the source the packages are built
+  from. Done so far: `geo-glaciation`.
 - **The syllabus:** the NCCA *Leaving Certificate Geography Syllabus (Ordinary and Higher
   Levels)*, © 2003, first examined 2006 and examined to June 2027. The official PDF is
   `pipeline/resources/geography/spec-syllabus.pdf` (also in
