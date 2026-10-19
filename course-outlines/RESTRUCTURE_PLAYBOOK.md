@@ -76,7 +76,9 @@ write notes**; notes are written later, by other agents, from your outline.
 
    One pipeline test ("visual evidence filter") fails without PyMuPDF installed; that failure
    doesn't come from your changes.
-8. Commit and push to your session's branch. Report to the user:
+8. Information packages (`course-outlines/packages/`, see its README) are written later, by a
+   higher model, before any notes. They are not part of this restructure unless the user asks.
+9. Commit and push to your session's branch. Report to the user:
    - which syllabus you used and why
    - chapters and subsections before vs after, and how many syllabus items there are
    - roughly how many subsections the app currently covers fully, thinly, or not at all

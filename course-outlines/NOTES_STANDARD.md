@@ -1,8 +1,10 @@
 # Notes standard — instructions for the content model
 
-This standard applies to every subject. Read it together with the subject's outline (e.g.
-`course-outlines/geography.md`). The outline says **what** to cover; this file says **how**
-to write it.
+This standard applies to every subject. Read it together with the subsection's information
+package (`course-outlines/packages/<subject>/<loId>.md`, written by a higher model; see
+`packages/README.md`). The package says **what** to cover and which facts and examples to use;
+this file says **how** to write it. Where no package exists yet, use the subject's outline (e.g.
+`course-outlines/geography.md`) for scope, but a package must be written before notes ship.
 
 ## The goal
 
@@ -30,7 +32,8 @@ could be examined** in each subsection, **stated once**, with no padding.
 6. **Readable:** short descriptive headings; plain language; define each technical term in
    bold-free plain text the first time it appears; bullets in a logical order (cause → process
    → result, or stage 1 → stage 2 → stage 3).
-7. **Examples are specific and real.** Name the place (e.g. "Powerscourt Waterfall, River
+7. **Examples are specific, real and from the package.** Use only the named places, dates and
+   figures in the package's "Checked facts" table; never add examples from memory. Name the place (e.g. "Powerscourt Waterfall, River
    Dargle, Co. Wicklow"), not "a waterfall in Ireland". Use the syllabus's own settings where it
    gives them. Never invent statistics. If unsure of a figure, leave it out.
 8. **Accurate before complete.** If you aren't confident a fact is correct, omit it rather than
