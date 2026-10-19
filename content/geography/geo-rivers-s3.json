@@ -1,0 +1,128 @@
+{
+  "loId": "geo-rivers-s3",
+  "chapterId": "geo-rivers",
+  "subsection": "3. Cyclic landscape development and peneplains",
+  "syllabusRef": "1.6",
+  "notes": [
+    {
+      "h": "Uplift, denudation and cyclic development",
+      "b": "A landscape is shaped by endogenetic uplift and exogenetic denudation acting against each other over very long periods.",
+      "points": [
+        "When uplift stops, denudation slowly lowers the land towards base level.",
+        "Cyclic landscape development: the landscape passes through a sequence of stages from uplift to near-flatness, and a new uplift or fall in base level starts the sequence again."
+      ]
+    },
+    {
+      "h": "Davis's cycle of erosion",
+      "b": "The geographical cycle was set out by William Morris Davis, an American geographer, who published it in 1899.",
+      "points": [
+        "Davis's model assumes rapid uplift followed by a long period of stability, during which rivers and weathering wear the land down.",
+        "Davis held that the landscape depends on structure, process and stage (time)."
+      ]
+    },
+    {
+      "h": "Youth",
+      "points": [
+        "An uplifted plateau with high relief; steep gradients and vertical erosion.",
+        "Deep V-shaped valleys, with waterfalls and rapids.",
+        "Wide, flat interfluves (the areas between rivers) not yet eroded, and few tributaries."
+      ]
+    },
+    {
+      "h": "Maturity",
+      "points": [
+        "Maximum relief.",
+        "Valleys widen by lateral erosion; meanders and floodplains develop.",
+        "The drainage network is fully developed, and interfluves are reduced to ridges."
+      ]
+    },
+    {
+      "h": "Old age and the peneplain",
+      "points": [
+        "Relief is low, with very wide floodplains, large meanders, oxbow lakes and levees.",
+        "Rivers flow sluggishly close to base level, and divides are lowered to gentle rises.",
+        "Peneplain: the end product, a gently undulating surface of low relief close to base level, almost a plain."
+      ]
+    },
+    {
+      "h": "Monadnocks",
+      "points": [
+        "Monadnocks are isolated residual hills of more resistant rock rising above the peneplain.",
+        "The term comes from Mount Monadnock, New Hampshire, USA."
+      ]
+    },
+    {
+      "h": "Interruption and polycyclic landscapes",
+      "points": [
+        "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in geo-rivers-s2).",
+        "A landscape with remnants of more than one cycle is polycyclic."
+      ]
+    },
+    {
+      "h": "Planation surfaces",
+      "b": "A planation surface is a flat erosion surface cut across rocks of different types and structures.",
+      "points": [
+        "An uplifted peneplain survives as a plateau, or as summits at similar heights (accordant summits) that cut across folded rock.",
+        "An uplifted peneplain is no longer near base level."
+      ]
+    },
+    {
+      "h": "Criticisms of Davis's model",
+      "points": [
+        "Walther Penck, a German geomorphologist, argued that uplift and denudation happen at the same time, not one after the other.",
+        "The time needed for the cycle is far too long to observe.",
+        "The model ignores climate change, glaciation and the isostatic response to erosion.",
+        "Few, if any, true peneplains exist today at sea level.",
+        "In its favour, the model gives a simple, useful framework for describing landscapes by stage."
+      ]
+    },
+    {
+      "h": "Planation surfaces in Munster: structure and planation",
+      "points": [
+        "Folding about 300 million years ago (Variscan, also called Armorican) formed east–west ridges of Old Red Sandstone (anticlines) and valleys of softer Carboniferous limestone (synclines).",
+        "Over a very long period of denudation, the region was worn down towards a near-level surface cutting across the folds.",
+        "Evidence: flat or gently sloping upland surfaces, and summit levels at similar heights, cut across folded rocks of different types.",
+        "Diagram cue: a cross-section of folded rock with a flat planation surface cutting across the ridges and valleys."
+      ]
+    },
+    {
+      "h": "Planation surfaces in Munster: uplift and drainage",
+      "points": [
+        "Later uplift raised the planation surface, and the rivers were rejuvenated and cut down again.",
+        "Renewed erosion removed the softer limestone faster, so the ridge-and-valley relief was re-exposed (differential erosion).",
+        "The Munster Blackwater flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal.",
+        "The usual explanation for the southward turn is superimposed drainage: the river first flowed south across an older surface above the present rocks, and kept its course as it cut down into the folded rocks below. This is the usual explanation, not a proven fact.",
+        "The Munster landscape is temporarily out of balance: uplift has outpaced denudation, so an old surface survives at height while the rivers are still adjusting."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Cyclic landscape development", "definition": "The sequence of landscape stages from uplift to near-flatness, restarted by a new uplift or fall in base level." },
+    { "term": "Davis's cycle of erosion", "definition": "W. M. Davis's model of a landscape passing through youth, maturity and old age after a period of rapid uplift." },
+    { "term": "Interfluve", "definition": "The area of land between two rivers." },
+    { "term": "Peneplain", "definition": "A gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion." },
+    { "term": "Monadnock", "definition": "An isolated residual hill of more resistant rock rising above a peneplain." },
+    { "term": "Polycyclic landscape", "definition": "A landscape with remnants of more than one erosion cycle." },
+    { "term": "Planation surface", "definition": "A flat erosion surface cut across rocks of different types and structures." },
+    { "term": "Accordant summits", "definition": "Summits at similar heights that cut across folded rock, showing an uplifted erosion surface." },
+    { "term": "Differential erosion", "definition": "Erosion that removes softer rock faster than harder rock, re-exposing relief." },
+    { "term": "Superimposed drainage", "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Describe and explain the stages in cyclic landscape development.",
+      "model": "Davis's model assumes rapid uplift followed by a long period of stability, during which rivers and weathering wear the land down. In youth, the uplifted plateau has high relief, steep gradients and vertical erosion, deep V-shaped valleys with waterfalls and rapids, and wide, flat interfluves that are not yet eroded. In maturity, relief is at its maximum, valleys widen by lateral erosion, meanders and floodplains develop, the drainage network is fully developed, and the interfluves are reduced to ridges. In old age, relief is low, with very wide floodplains, large meanders, oxbow lakes and levees, and rivers flow sluggishly close to base level. The end product is a peneplain, a gently undulating surface of low relief close to base level. Monadnocks, isolated residual hills of more resistant rock, rise above the peneplain. If uplift, isostatic rebound or a fall in sea level occurs before the cycle is finished, the rivers are rejuvenated and a new cycle begins, and a landscape with remnants of more than one cycle is polycyclic. One criticism is that uplift and denudation happen at the same time, as Walther Penck argued, rather than one after the other. The model also ignores climate change and glaciation, and few true peneplains exist at sea level today."
+    },
+    {
+      "marks": 30,
+      "prompt": "Examine how the landscape of Munster shows the effects of planation and later uplift.",
+      "model": "Folding about 300 million years ago, the Variscan or Armorican folding, formed east–west ridges of Old Red Sandstone and valleys of softer Carboniferous limestone. Over a very long period of denudation, the region was planed down towards a near-level surface that cut across the folds. Evidence for this planation is the flat or gently sloping upland surfaces and summit levels at similar heights, cut across folded rocks of different types. Later uplift raised this planation surface, so that it is now a former peneplain away from base level. The rivers were rejuvenated and cut down again. Renewed erosion removed the softer limestone faster than the sandstone, so the ridge-and-valley relief was re-exposed; this is differential erosion. The Munster Blackwater flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal. The usual explanation is superimposed drainage: the river first flowed south across an older surface above the present rocks and kept its course as it cut down through the folds. The landscape is temporarily out of balance, because uplift has outpaced denudation, so an old surface survives at height while the rivers are still adjusting."
+    },
+    {
+      "marks": 4,
+      "prompt": "Explain briefly what is meant by a peneplain.",
+      "model": "A peneplain is a gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion. It is the end stage of Davis's cycle of erosion."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "loId": "geo-rivers-s2",
+  "chapterId": "geo-rivers",
+  "subsection": "2. Fluvial adjustment to base level",
+  "syllabusRef": "1.6",
+  "notes": [
+    {
+      "h": "Base level and the graded river",
+      "b": "A river can erode no lower than its base level. Sea level is the ultimate base level.",
+      "points": [
+        "A lake, a band of resistant rock or a main river (for its tributary) acts as a temporary, local base level.",
+        "A graded (equilibrium) profile is a smooth, concave long profile where the river's energy is just enough to carry its load, so erosion and deposition are balanced.",
+        "A change in base level upsets this balance, and the river adjusts its profile to the new level."
+      ]
+    },
+    {
+      "h": "Causes of rejuvenation",
+      "b": "Rejuvenation is renewed vertical erosion caused by a fall in base level relative to the land. It gives the river renewed energy and interrupts a cycle of erosion.",
+      "points": [
+        "Cause 1, a eustatic fall in sea level: during a glacial period, water is locked up in ice sheets, so sea level falls worldwide.",
+        "Cause 2, isostatic uplift: land depressed under an ice sheet rises when the ice melts, raising it relative to sea level (see geo-glaciation-s2).",
+        "Cause 3, tectonic uplift of the land by earth movements.",
+        "Cause 4, an increase in discharge, e.g. from a wetter climate or by river capture, gives the river more energy; this is a less common cause."
+      ]
+    },
+    {
+      "h": "How rejuvenation spreads upstream",
+      "points": [
+        "Rejuvenation begins at the mouth and works upstream by headward erosion.",
+        "For a long time the river has two graded sections: a new, steeper lower section and the old, gentler upper section.",
+        "This is the landscape that is temporarily out of balance: the two sections reflect two different base levels."
+      ]
+    },
+    {
+      "h": "Knickpoint",
+      "points": [
+        "1. Rejuvenation cuts down at the mouth, creating a new graded section below the old one.",
+        "2. Where the new and old graded profiles meet, the long profile has a break of slope: this is the knickpoint.",
+        "3. A waterfall or rapids is often found at the knickpoint.",
+        "4. The knickpoint retreats upstream over time, and the new profile extends behind it.",
+        "5. Once the whole river has graded to the new base level, the knickpoint disappears.",
+        "Diagram: long profile showing the old and new graded sections and the knickpoint at their junction."
+      ]
+    },
+    {
+      "h": "Incised meanders",
+      "b": "Renewed vertical erosion cuts existing meanders down into the land, rather than forming them on a floodplain.",
+      "points": [
+        "Ingrown meanders: an asymmetrical cross-section, with one gentle and one steep side; downcutting is slower, with some lateral erosion.",
+        "Entrenched meanders: a symmetrical cross-section with steep sides, forming a gorge; downcutting is rapid.",
+        "Example of entrenched meanders: the Goosenecks of the San Juan River, Utah, USA.",
+        "Example of incised meanders: the River Wye, Wales–England border.",
+        "Diagram: cross-section showing a meander cut down into the land, with steep sides and no floodplain."
+      ]
+    },
+    {
+      "h": "River terraces",
+      "b": "River terraces are remnants of an old floodplain, left as flat steps above the new floodplain after the river has cut down.",
+      "points": [
+        "Paired terraces: at the same height on both sides of the valley; they form where the river downcuts rapidly.",
+        "Unpaired terraces: at different heights on each side; they form while the river downcuts and migrates sideways.",
+        "Example: the river terraces of the River Thames in and around London, England.",
+        "Diagram: cross-section of a valley showing paired terraces above the present floodplain."
+      ]
+    },
+    {
+      "h": "Gorge from uplift",
+      "points": [
+        "A gorge can be cut by deep incision of a river into an uplifted landscape.",
+        "Example: the Grand Canyon, cut by the Colorado River in Arizona, USA, as the Colorado Plateau was uplifted."
+      ]
+    },
+    {
+      "h": "Reading rejuvenation features on a diagram",
+      "points": [
+        "The number of rejuvenations equals the number of knickpoints on a long profile.",
+        "On a cross-section, the number of rejuvenations equals the number of terrace levels above the present floodplain.",
+        "Rejuvenation features not shown in a diagram are knickpoints, waterfalls or rapids at knickpoints, incised meanders, river terraces and gorges."
+      ]
+    },
+    {
+      "h": "Rise in base level and the coast",
+      "b": "A rise in base level, from sea level rising or land sinking, reduces the river's energy.",
+      "points": [
+        "The lower course is drowned and deposition increases; the mouth becomes a ria or an estuary (ria formation is in geo-glaciation-s2).",
+        "Coastal landforms caused by a change in base level: raised beaches (from a fall in base level) and rias (from a rise).",
+        "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal (see geo-glaciation-s2)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Base level", "definition": "The lowest level to which a river can erode; sea level is the ultimate base level." },
+    { "term": "Graded profile", "definition": "A smooth, concave long profile on which the river's energy is just enough to carry its load, balancing erosion and deposition." },
+    { "term": "Rejuvenation", "definition": "Renewed vertical erosion by a river in its lower course, caused by a fall in base level relative to the land." },
+    { "term": "Eustatic change", "definition": "A worldwide change in sea level, such as the fall caused by water locked up in ice sheets." },
+    { "term": "Knickpoint", "definition": "The break of slope on a long profile where the new and old graded profiles meet, which retreats upstream over time." },
+    { "term": "Ingrown meander", "definition": "An incised meander with an asymmetrical cross-section, cut down slowly with some lateral erosion." },
+    { "term": "Entrenched meander", "definition": "An incised meander with a symmetrical, steep-sided gorge cross-section, cut down rapidly." },
+    { "term": "Incised meander", "definition": "A meander cut down vertically into the land by renewed erosion after rejuvenation." },
+    { "term": "River terrace", "definition": "A flat step left above the present floodplain, the remnant of an older floodplain." },
+    { "term": "Paired terraces", "definition": "River terraces at the same height on both sides of a valley, formed by rapid downcutting." },
+    { "term": "Unpaired terraces", "definition": "River terraces at different heights on each side of a valley, formed while the river downcuts and migrates sideways." },
+    { "term": "Gorge", "definition": "A deep, steep-sided valley cut by a river, in rejuvenation, into uplifted land." },
+    { "term": "Raised beach", "definition": "A beach left above present sea level by a fall in base level, such as isostatic uplift." },
+    { "term": "Ria", "definition": "A drowned river valley formed by a rise in base level, with the lower course flooded by the sea." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Examine how a fall in base level can affect a river and its landforms.",
+      "model": "Base level is the lowest level to which a river can erode, and sea level is the ultimate base level. A fall in base level relative to the land gives the river renewed energy, so it erodes vertically again; this is rejuvenation. Causes include a eustatic fall in sea level, when water is locked up in ice sheets during a glacial period, and isostatic uplift, when land depressed under ice rises after the ice melts. Tectonic uplift and an increase in discharge are further causes. Rejuvenation begins at the mouth and works upstream by headward erosion, so the river has a new, steeper lower section and an old upper section. Where the two graded profiles meet there is a knickpoint, a break of slope often marked by a waterfall or rapids. The knickpoint retreats upstream as the river downcuts, and the river's landforms adjust as it does so. Incised meanders form when renewed vertical erosion cuts existing meanders down into the land. Ingrown meanders have an asymmetrical cross-section and downcut slowly with some lateral erosion. Entrenched meanders have a symmetrical, steep-sided gorge cross-section and downcut rapidly, as at the Goosenecks of the San Juan River, Utah, USA. River terraces are flat steps left above the new floodplain when the river cuts down. Paired terraces at the same height on both sides form where downcutting is rapid. Unpaired terraces at different heights form while the river migrates sideways as it downcuts. The number of terrace levels above the present floodplain shows how many rejuvenations have occurred. A labelled diagram should show the old and new graded sections, the knickpoint, an incised meander and paired terraces."
+    },
+    {
+      "marks": 8,
+      "prompt": "Explain what a knickpoint is and describe how it changes over time.",
+      "model": "A knickpoint is the break of slope on a long profile where the new, steeper graded profile below meets the old graded profile above. A waterfall or rapids is often found at the knickpoint. As the river downcuts to the new base level, the knickpoint retreats upstream by headward erosion, so the new graded section extends behind it. Eventually the knickpoint reaches the head of the river and disappears once the whole river has graded to the new base level."
+    },
+    {
+      "marks": 4,
+      "prompt": "Name two causes of river rejuvenation.",
+      "model": "A eustatic fall in sea level, caused by water being locked up in ice sheets, and isostatic uplift of the land after the ice melts. Tectonic uplift is also accepted."
+    }
+  ]
+}

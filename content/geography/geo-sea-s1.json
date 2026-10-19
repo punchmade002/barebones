@@ -1,0 +1,230 @@
+{
+  "loId": "geo-sea-s1",
+  "chapterId": "geo-sea",
+  "subsection": "1. Coastal processes, patterns and associated landforms",
+  "syllabusRef": "1.5",
+  "notes": [
+    {
+      "h": "How waves form and break",
+      "b": "Waves take their energy from the wind, and the water itself stays in place as the wave passes.",
+      "points": [
+        "Wind blowing over the sea surface transfers energy to the water, raising waves.",
+        "Wave size depends on wind speed, the length of time the wind blows, and fetch.",
+        "Fetch is the distance of open water over which the wind blows; a longer fetch allows bigger waves.",
+        "Water particles move in circles as a wave passes; the water does not travel forward until the wave breaks.",
+        "A wave's crest is its highest point and its trough the lowest; wave height is the vertical distance between them, and wavelength is the distance between successive crests.",
+        "A wave breaks in shallow water: friction with the sea bed slows its base while the crest keeps moving, so the crest topples forward.",
+        "Swash is the water rushing up the beach after a wave breaks.",
+        "Backwash is the water draining back down the beach under gravity."
+      ]
+    },
+    {
+      "h": "Constructive and destructive waves",
+      "b": "The balance between swash and backwash decides whether a beach is built up or cut back.",
+      "points": [
+        "Constructive waves are low, gentle, long-wavelength and low-frequency, and they spill onto the beach.",
+        "Constructive waves are typical of calm weather; their swash is stronger than their backwash, so they carry material up the beach and build it up.",
+        "Destructive waves are high, steep, short-wavelength and high-frequency, and they plunge down onto the beach.",
+        "Destructive waves are typical of storms; their backwash is stronger than their swash, so they drag material out to sea and erode the beach."
+      ]
+    },
+    {
+      "h": "Wave refraction",
+      "points": [
+        "Refraction: waves approaching an indented coast slow down first in shallow water off headlands, so the wave fronts bend.",
+        "Energy converges on headlands, causing more erosion there, and spreads out in bays, where it is weaker and deposition is favoured.",
+        "Refraction turns wave fronts until they are roughly parallel to the shore."
+      ]
+    },
+    {
+      "h": "Tides and sea-level change",
+      "points": [
+        "Tides are the twice-daily rise and fall of sea level, caused mainly by the pull of the moon, with the sun also contributing.",
+        "Tidal range sets the vertical band of coast on which the waves work.",
+        "A storm surge raises sea level, letting waves reach higher up cliffs and beaches.",
+        "Longer-term changes in land and sea level also change coasts: raised beaches (emergent coasts), and rias, fjords and drowned drumlins (submergent coasts), are covered in the glaciation chapter on isostasy."
+      ]
+    },
+    {
+      "h": "Processes of coastal erosion",
+      "b": "Waves wear away rock by four processes, and abrasion is the most effective at the foot of a cliff.",
+      "points": [
+        "Hydraulic action: the force of breaking waves forces air and water into joints and cracks; the trapped air and water are compressed, then released as the wave retreats, weakening and shattering the rock.",
+        "Abrasion (corrasion): waves hurl sand, shingle and boulders against the cliff, grinding and undercutting it.",
+        "Attrition: rocks carried by the waves collide with each other and break into smaller, rounder pieces; attrition wears down the load rather than the cliff.",
+        "Solution (corrosion): sea water dissolves soluble rock such as limestone."
+      ]
+    },
+    {
+      "h": "Weathering, mass movement and controls on erosion",
+      "points": [
+        "Above the waves, weathering (freeze-thaw and salt crystallisation) and mass movement (rockfalls, and slumping on soft clay cliffs) wear the cliff back.",
+        "Waves then remove the debris that falls from the cliff face.",
+        "Soft glacial deposits such as boulder clay erode fastest; on the Holderness coast of Yorkshire, England, cliffs of soft boulder clay are among the fastest-eroding coastlines in Europe.",
+        "Rock structure matters: joints, faults and bedding give waves lines of weakness to exploit.",
+        "Wave energy depends on fetch, storms and refraction.",
+        "A beach at the foot of a cliff can absorb wave energy and protect the cliff; human activity, such as the removal of beach material, can change the rate of erosion."
+      ]
+    },
+    {
+      "h": "Coastal patterns in Ireland",
+      "b": "Exposure to the Atlantic or the Irish Sea decides whether a coast is eroding or depositing.",
+      "points": [
+        "The west coast faces the long Atlantic fetch and the prevailing south-westerly winds, so high-energy waves produce rugged, cliffed, erosional coasts.",
+        "The east coast faces the narrow Irish Sea, which gives a short fetch; its lower-energy waves and soft glacial deposits favour depositional features such as beaches, spits, lagoons and dunes.",
+        "Storms do most of the erosion, in short episodes; this is the temporal variation in coastal processes.",
+        "Where bands of hard and soft rock meet the coast at right angles (a discordant coast), the soft rock is eroded back into bays and the hard rock is left as headlands.",
+        "A concordant coast, where the rock bands run parallel to the shore, stays straighter.",
+        "Headland and bay: the two landforms that result from this differential erosion; Downpatrick Head, Co. Mayo, is a headland, and the chalk headland of Handfast Point, Dorset, England, lies between Studland Bay and Swanage Bay, which are cut into softer sands and clays."
+      ]
+    },
+    {
+      "h": "Cliffs and wave-cut platforms (erosion)",
+      "b": "A cliff retreats inland as its base is undercut, leaving a platform of rock at its foot.",
+      "points": [
+        "1. Waves erode a notch in the cliff base, between high and low tide, by hydraulic action and abrasion.",
+        "2. The rock above the notch becomes an overhang, which collapses when unsupported.",
+        "3. Waves remove the debris, and the cliff retreats inland, remaining steep.",
+        "4. The gently sloping rock surface left at the foot of the retreating cliff is the wave-cut platform, exposed at low tide.",
+        "5. The platform widens as the cliff retreats, until waves lose most of their energy crossing it, which slows erosion.",
+        "Example: Cliffs of Moher, Co. Clare, rise to 214 m at their highest and are made of layers of shale and sandstone.",
+        "Diagram: side view of a cliff with the notch, overhang, arrow showing retreat, and the wave-cut platform exposed at low tide."
+      ]
+    },
+    {
+      "h": "Caves, arches, stacks and stumps (erosion sequence)",
+      "b": "These four features form one sequence as a headland is cut back.",
+      "points": [
+        "1. Waves exploit a line of weakness, a joint or fault, at the base of a headland, enlarging it by hydraulic action and abrasion to form a sea cave.",
+        "2. Caves on opposite sides of a headland meet, or one cave cuts right through, forming a sea arch.",
+        "3. The arch roof is weakened from below by wave erosion and from above by weathering, then collapses, leaving an isolated pillar called a sea stack.",
+        "4. The stack is undercut at its base and collapses into a low sea stump, which is covered at high tide.",
+        "Examples: Bridges of Ross, Co. Clare, were originally three sea arches, and only one still stands; Durdle Door, Dorset, England, is a sea arch.",
+        "Stacks: Dún Briste, a sea stack off Downpatrick Head, Co. Mayo; Old Harry Rocks, chalk stacks off Handfast Point, Dorset, England.",
+        "Diagram: four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave."
+      ]
+    },
+    {
+      "h": "Blowholes and geos (erosion)",
+      "points": [
+        "1. A cave is enlarged upward along a vertical joint by hydraulic action, with compressed air, until it breaks through to the cliff top, forming a blowhole.",
+        "2. In storms, spray is forced up through the hole.",
+        "3. If the roof between the blowhole and the sea collapses, a narrow inlet called a geo forms.",
+        "Blowholes are classified as erosional features.",
+        "Diagram: vertical section of a cave connected to a vertical joint that opens at the cliff top."
+      ]
+    },
+    {
+      "h": "Transport along the coast",
+      "points": [
+        "Waves carry load in the same four ways as rivers: traction, saltation, suspension and solution.",
+        "Longshore drift: waves approach the beach at an angle set by the prevailing wind; swash carries material up the beach at that angle, and backwash drags it straight back down the slope under gravity.",
+        "Repeated over time, longshore drift moves sand and shingle along the coast in a zigzag.",
+        "Longshore drift is the transport process behind spits, bars, lagoons and tombolos.",
+        "Example: on the Holderness coast, longshore drift moves eroded material southward to Spurn Head."
+      ]
+    },
+    {
+      "h": "Deposition on the coast",
+      "points": [
+        "Waves deposit material when they lose energy: in constructive wave conditions, in sheltered bays, in shallow water, or after refraction has reduced their energy.",
+        "Deposition also happens where the coast changes direction, such as at a river mouth or bay.",
+        "A large supply of sediment is needed, from rivers, cliff erosion or glacial deposits offshore.",
+        "A beach is sand and shingle deposited between low tide and the highest storm waves.",
+        "Finer sand is deposited lower down the beach, and coarser shingle higher up.",
+        "A storm beach is a ridge of large shingle thrown above normal high tide by storm waves.",
+        "Berms are ridges marking successive high-tide levels.",
+        "Examples: Tramore, Co. Waterford; Curracloe, Co. Wexford."
+      ]
+    },
+    {
+      "h": "Sand spits and sand bars (deposition)",
+      "points": [
+        "1. Longshore drift carries material past a point where the coast changes direction, such as a bay or river mouth.",
+        "2. The material is deposited in calmer, deeper water, building a ridge out from the land; a spit is attached to the land at one end only.",
+        "3. Wave refraction or a change in wind direction curves the tip, forming a recurved end.",
+        "4. Sheltered water behind the spit fills with silt, forming salt marsh or mudflat.",
+        "A sand bar (barrier beach) is a spit that grows right across the mouth of a bay, joining two headlands.",
+        "Examples: Inch and Rossbeigh, Co. Kerry, are two sand spits growing out from opposite sides of Dingle Bay; Spurn Head, at the mouth of the Humber estuary, England, is a spit.",
+        "Diagram: plan view of a recurved spit showing the drift direction, the ridge attached to the land, the recurved tip and the salt marsh behind."
+      ]
+    },
+    {
+      "h": "Lagoons and tombolos (deposition)",
+      "points": [
+        "A lagoon is the body of water trapped behind a sand bar; it is a depositional feature.",
+        "A lagoon slowly fills with sediment and vegetation and may become marsh.",
+        "Examples: Lady's Island Lake and Tacumshin Lake, Co. Wexford, are coastal lagoons behind sand-and-gravel barriers; the Back Strand at Tramore, Co. Waterford, is another.",
+        "A tombolo is a ridge of sand or shingle joining an island to the mainland.",
+        "It is built by longshore drift and by waves refracting around the island and meeting in its shelter.",
+        "Example: Sutton, Co. Dublin, where a tombolo joins Howth Head, once an island, to the mainland."
+      ]
+    },
+    {
+      "h": "Sand dunes (deposition)",
+      "points": [
+        "1. Wind blows dry sand from a wide beach at low tide inland, where it piles up against obstacles such as driftwood, seaweed and plants above high tide.",
+        "2. Marram grass colonises the sand; its long roots bind the sand, and its growth keeps pace with burial.",
+        "3. Embryo dunes grow into fore dunes, and further inland, as soil develops and other plants arrive, grey (fixed) dunes form.",
+        "Dune slacks are damp hollows between the dune ridges.",
+        "Damage to dunes by people is covered with the human impacts on coasts.",
+        "Examples: Brittas Bay, Co. Wicklow; Curracloe, Co. Wexford; North Bull Island, Dublin Bay.",
+        "Diagram: cross-section from beach to inland showing embryo, fore and grey dunes, and a dune slack."
+      ]
+    },
+    {
+      "h": "Classifying coastal features",
+      "points": [
+        "Erosional features: cliff, wave-cut notch, wave-cut platform, cave, sea arch, sea stack, sea stump, blowhole and headland.",
+        "Depositional features: beach, storm beach, sand spit, sand bar, lagoon, tombolo, sand dunes and salt marsh.",
+        "Matching a photograph, aerial photograph or diagram to these features uses the same two classes."
+      ]
+    },
+    {
+      "h": "Average rate of coastal erosion",
+      "b": "The average annual rate of coastal erosion is the total distance retreated divided by the number of years.",
+      "points": [
+        "Step 1: subtract the earlier year from the later year to find the number of years.",
+        "Step 2: divide the total distance the cliff retreated by the number of years.",
+        "Illustrative figures (invented): a cliff retreats 50 m between 1990 and 2015.",
+        "Years: 2015 minus 1990 gives 25 years.",
+        "Rate: 50 m divided by 25 years gives an average of 2 m per year."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Fetch", "definition": "The distance of open water over which the wind blows, which controls the size of waves." },
+    { "term": "Swash", "definition": "Water rushing up the beach after a wave breaks." },
+    { "term": "Backwash", "definition": "Water draining back down the beach under gravity after swash." },
+    { "term": "Refraction", "definition": "The bending of wave fronts as they slow in shallow water off headlands, concentrating energy on headlands." },
+    { "term": "Hydraulic action", "definition": "Erosion by breaking waves forcing air and water into cracks, which are compressed and then released, shattering the rock." },
+    { "term": "Abrasion", "definition": "Erosion by sand, shingle and boulders thrown against the cliff by waves." },
+    { "term": "Attrition", "definition": "The breaking and rounding of rock fragments as they collide, wearing down the load." },
+    { "term": "Wave-cut platform", "definition": "A gently sloping rock surface left at the foot of a retreating cliff, exposed at low tide." },
+    { "term": "Sea stack", "definition": "An isolated rock pillar left when the roof of a sea arch collapses." },
+    { "term": "Blowhole", "definition": "A hole formed when a sea cave is enlarged upward along a joint until it breaks through to the cliff top." },
+    { "term": "Longshore drift", "definition": "The movement of sand and shingle along the coast, as swash carries material up the beach at an angle and backwash drags it straight back down." },
+    { "term": "Spit", "definition": "A ridge of sand or shingle built out from the land by longshore drift and attached to it at one end." },
+    { "term": "Recurved end", "definition": "The curved tip of a spit, formed by wave refraction or a change in wind direction." },
+    { "term": "Lagoon", "definition": "A body of water trapped behind a sand bar, which slowly fills with sediment." },
+    { "term": "Tombolo", "definition": "A ridge of sand or shingle joining an island to the mainland." },
+    { "term": "Marram grass", "definition": "A dune grass whose long roots bind the sand, allowing sand dunes to form and grow." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Examine the role of the process of deposition in the formation of one coastal landform that you have studied.",
+      "model": "Deposition occurs when waves and currents lose energy, in sheltered water or where the coast changes direction. A sand spit is built by deposition of material carried along the coast by longshore drift. The supply of sediment comes from rivers, cliff erosion or glacial deposits offshore. Longshore drift moves the material in a zigzag, as swash carries it up the beach at an angle and backwash drags it straight back down under gravity. When the drift reaches a point where the coast changes direction, such as a bay or river mouth, the material is deposited in calmer, deeper water. Deposition builds a ridge out from the land, so the spit grows outward and is attached to the land at one end only. Wave refraction or a change in wind direction curves the tip, forming a recurved end. Sheltered water behind the spit then receives fine silt, which builds up into salt marsh or mudflat. Inch, Co. Kerry, is a sand spit growing out from one side of Dingle Bay, while Rossbeigh grows from the opposite side. Diagram: a plan view showing the direction of drift along the coast, the ridge attached to the land, the recurved tip and the salt marsh behind the spit."
+    },
+    {
+      "marks": 30,
+      "prompt": "Explain, with the aid of a labelled diagram, the formation of one landform of coastal erosion.",
+      "model": "A sea stack forms from a headland through a sequence of cave, arch, stack and stump. A line of weakness, such as a joint or fault, at the base of a headland is exploited by waves. Hydraulic action compresses air and water into the crack, and abrasion, from sand and boulders thrown against the rock, enlarges it into a sea cave. Caves on opposite sides of the headland enlarge until they meet or one cuts right through, forming a sea arch. Waves erode the arch from below, and weathering attacks it from above, weakening the roof. The roof collapses, leaving an isolated pillar called a sea stack. The base of the stack is undercut by waves and eventually collapses, leaving a low sea stump that is covered at high tide. Dún Briste, a sea stack off Downpatrick Head, Co. Mayo, shows this stage of the sequence. Diagram: a labelled four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave, and the direction of wave attack shown with arrows."
+    },
+    {
+      "marks": 10,
+      "prompt": "Explain briefly what is meant by (a) constructive waves and (b) wave refraction.",
+      "model": "(a) Constructive waves are low, gentle waves with long wavelengths and low frequency. They spill onto the beach, and their swash is stronger than their backwash, so they carry material up the beach and build it up. They are typical of calm weather. (b) Wave refraction is the bending of wave fronts as they approach an indented coast. The waves slow down first in shallow water off headlands, so the wave fronts bend. Energy converges on headlands and spreads out in bays. The wave fronts end up roughly parallel to the shore."
+    }
+  ]
+}
