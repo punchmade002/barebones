@@ -773,10 +773,10 @@ const COURSE_DATA = {
       id: "chem11", number: 11, subject: "chemistry", title: "Acids and Bases",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem11-1", code: "3.4.1", title: "Predict the products of, and write balanced equations for, acid-base reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-2", code: "3.4.2", title: "Compare two theories of acid-base systems and justify why Brønsted-Lowry theory is a more extensive model for explaining behaviour", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-3", code: "3.4.3", title: "Apply Brønsted-Lowry theory to identify conjugate acid-base pairs and species acting as acids and bases in chemical equations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-4", code: "3.4.6", title: "Distinguish between weak and strong acids (and bases), and between concentrated and dilute acids (and bases)", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-1", code: "3.4.2", title: "Predict the products of, and write balanced equations for, acid-base reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-2", code: "3.4.3", title: "Compare two theories of acid-base systems and justify why Brønsted-Lowry theory is a more extensive model for explaining behaviour", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-3", code: "3.4.4", title: "Apply Brønsted-Lowry theory to identify conjugate acid-base pairs and species acting as acids and bases in chemical equations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-4", code: "3.4.7", title: "Distinguish between weak and strong acids (and bases), and between concentrated and dilute acids (and bases)", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -846,11 +846,11 @@ const COURSE_DATA = {
       id: "chem19", number: 19, subject: "chemistry", title: "pH and Indicators",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem19-1", code: "3.4.4", title: "Explain the self-ionisation of water and deduce a mathematical representation for the ionic product of water (Kw), accounting for its temperature dependence", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-2", code: "3.4.5", title: "Measure pH, and explain the pH scale and the factors that affect the pH of a solution", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-3", code: "3.4.7", title: "Solve mathematical problems involving pH for dilute aqueous solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-4", code: "3.4.8", title: "Deduce mathematical representations for weak acid dissociation constant (Ka) and weak base dissociation constant (Kb)", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-5", code: "3.4.9", title: "Compare degrees of dissociation of strong and weak acids, and strong and weak bases, using Ka and Kb values", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-1", code: "3.4.5", title: "Explain the self-ionisation of water and deduce a mathematical representation for the ionic product of water (Kw), accounting for its temperature dependence", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-2", code: "3.4.6", title: "Measure pH, and explain the pH scale and the factors that affect the pH of a solution", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-3", code: "3.4.8", title: "Solve mathematical problems involving pH for dilute aqueous solutions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-4", code: "3.4.9", title: "Deduce mathematical representations for weak acid dissociation constant (Ka) and weak base dissociation constant (Kb)", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-5", code: "3.4.10", title: "Compare degrees of dissociation of strong and weak acids, and strong and weak bases, using Ka and Kb values", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {

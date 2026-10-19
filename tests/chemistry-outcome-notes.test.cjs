@@ -38,13 +38,13 @@ test("cross-chapter organic and quantitative material is attached to its specifi
   );
   const headings = (id) => outcomes.get(id).notes.map((note) => note.h);
 
-  assert.ok(headings("chem8-2").includes("Relative atomic mass and the mass spectrometer"));
+  assert.ok(headings("chem8-2").includes("Relative atomic mass"));
   assert.ok(headings("chem8-3").includes("Avogadro's Law and Molar Volume of a Gas"));
   assert.ok(headings("chem8-4").includes("Experiment 9.1: Measuring Mr of a Volatile Liquid"));
   assert.ok(headings("chem24-5").includes("Acidity of Alcohols and Carboxylic Acids"));
   assert.ok(headings("chem25-10").includes("Addition Polymers"));
 
-  assert.ok(!headings("chem4-1").includes("Relative atomic mass and the mass spectrometer"));
+  assert.ok(!headings("chem4-1").includes("Relative atomic mass"));
   assert.ok(!headings("chem9-5").includes("Avogadro's Law and Molar Volume of a Gas"));
   assert.ok(!headings("chem24-1").includes("Addition Polymers"));
 });

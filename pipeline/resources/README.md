@@ -43,7 +43,7 @@ python3 pipeline/tests/run_tests.py resources
 | Art | 36 | 53 | 2023 | aligned; catalogue taxonomy mapped to NCCA strands |
 | Biology | 32 | 53 | 2027 | aligned |
 | Business | 22 | 35 | 2027 | aligned |
-| Chemistry | 15 | 54 | 2027 | aligned |
+| Chemistry | 15 | 54 | 2027 | aligned; 2025 specification, first examined June 2027 |
 | Computer Science | 21 | 27 | 2025 | aligned to updated specification |
 | DCG | 22 | 153 | 2009 | aligned; repeated catalogue cards de-duplicated |
 | Economics | 16 | 20 | 2021 | aligned |

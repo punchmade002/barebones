@@ -1881,7 +1881,7 @@ function getExamDisclaimer(subject) {
     chemistry: {
       tone: "warning",
       status: "Old course",
-      body: "Chemistry moved to a new specification in September 2025 and is first examined in 2027. These papers still help with content practice, but they do not show the new exam structure or Chemistry in Practice investigation.",
+      body: "Chemistry moved to a new specification in September 2025 and is first examined in 2027. These papers are from the previous syllabus: questions on topics not in the new specification have been removed, and the rest still help with content practice, but they do not show the new exam structure or Chemistry in Practice investigation.",
     },
     maths: {
       tone: "info",
