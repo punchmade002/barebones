@@ -3,6 +3,365 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "geo-aerial-photographs-s1": {
+  "keyTerms": [
+   {
+    "definition": "An aerial photograph taken with the camera pointing straight down, showing roofs and an even scale.",
+    "term": "Vertical photograph"
+   },
+   {
+    "definition": "An aerial photograph taken at an angle to the ground, showing the sides of buildings and a scale that changes with distance.",
+    "term": "Oblique photograph"
+   },
+   {
+    "definition": "The division of an oblique photograph into three strips across and three strips into the picture, giving nine zones.",
+    "term": "Nine-area grid"
+   },
+   {
+    "definition": "Describing a zone with an across-term and a depth-term, such as left foreground, in that order.",
+    "term": "Accepted notation"
+   },
+   {
+    "definition": "The exact position of a feature given as a grid reference read from the OS map.",
+    "term": "Absolute location"
+   },
+   {
+    "definition": "The position of a feature described by its zone or by its position relative to other features.",
+    "term": "Relative location"
+   },
+   {
+    "definition": "A freehand drawing, in a frame of reduced size, that shows only the requested features in approximately correct positions and labels them.",
+    "term": "Sketch map"
+   },
+   {
+    "definition": "The central business district: the commercial core of a town, where roads converge and buildings are tallest and most densely packed.",
+    "term": "CBD"
+   },
+   {
+    "definition": "Land used for religious purposes, such as a church, its grounds and its graveyard.",
+    "term": "Ecclesiastical land use"
+   },
+   {
+    "definition": "A town laid out in a regular plan, with wide, straight streets, a grid and a central square.",
+    "term": "Planned town"
+   },
+   {
+    "definition": "The development of a settlement along a main road.",
+    "term": "Linear growth"
+   },
+   {
+    "definition": "The development of a settlement clustered around a centre or junction.",
+    "term": "Nucleated growth"
+   },
+   {
+    "definition": "Buildings built in a line along an approach road leading out of a town.",
+    "term": "Ribbon development"
+   }
+  ],
+  "notes": [
+   {
+    "b": "An aerial photograph is taken from the air. Its type depends on the angle of the camera, and the clues below identify it.",
+    "h": "Vertical and oblique photographs",
+    "points": [
+     "A vertical photograph is taken with the camera pointing straight down, so it shows only roofs and the tops of features, with no horizon.",
+     "The scale of a vertical photograph is roughly constant across the picture, so it looks like a map and can be used for measuring and mapping.",
+     "Features are harder to recognise on a vertical photograph because their sides and heights are hidden.",
+     "An oblique photograph is taken with the camera at an angle to the ground, so the sides as well as the roofs of buildings are visible.",
+     "The scale of an oblique photograph is not constant: foreground features look larger than identical features in the background, and the area covered widens towards the background.",
+     "Features are easier to recognise on an oblique photograph, but distance and area cannot be measured directly from it.",
+     "A low oblique photograph does not show the horizon; a high oblique photograph shows the horizon or skyline.",
+     "Oblique clues: the sides of buildings are visible, foreground features look larger than background features, and depth or a horizon is shown.",
+     "Vertical clues: only roofs are visible, the scale looks even, and the picture looks like a map.",
+     "When a reason is asked for, give one of these clues. Photographs set in recent Higher Level papers have been oblique."
+    ]
+   },
+   {
+    "b": "A photograph is divided into nine areas, and every feature is located by its zone. The grid applies to oblique photographs; on a vertical photograph use the alternatives below.",
+    "h": "Locating features with the nine-area grid",
+    "points": [
+     "Three strips run across the picture: left, centre and right.",
+     "Three strips run into the picture: foreground at the bottom, nearest the camera; middleground in the centre; background at the top, furthest from the camera.",
+     "Accepted notation gives one term from each set, across-term first: left foreground, centre middleground, right background. Both parts must be correct to score.",
+     "Use the exam spelling foreground, middleground and background, and use centre, not middle, for the across strip.",
+     "On a vertical photograph foreground and background have no meaning; use top, centre or bottom with left, centre or right, or compass directions if the orientation is known.",
+     "Method: draw the grid lightly on the photo in pencil (or fold the picture into thirds in your head), find the feature, and state its zone.",
+     "The same method answers true or false statements about what lies in a zone, and matches cropped sections of the photo to zones."
+    ]
+   },
+   {
+    "b": "Rivertown is an invented market town on an invented oblique photograph. Every worked example in these notes uses it and is labelled illustrative.",
+    "h": "Illustrative photograph: Rivertown",
+    "points": [
+     "A river flows from the left foreground to the right background.",
+     "A stone bridge crosses the river in the centre middleground.",
+     "A church with a spire stands in the left middleground, with a graveyard beside it.",
+     "A main street and a square lie in the centre middleground.",
+     "An industrial estate lies in the right foreground.",
+     "A housing estate of semi-detached houses lies in the left background.",
+     "Fields with hedgerows lie in the right background.",
+     "A GAA pitch lies in the centre background.",
+     "Waste ground lies in the centre foreground.",
+     "Illustrative true or false: there is waste ground in the centre foreground. This is true."
+    ]
+   },
+   {
+    "b": "Each feature has a clue that identifies it on the photograph. Use the clue, then give the feature's zone.",
+    "h": "Recognising buildings and land",
+    "points": [
+     "Church: a spire or tower, a cross-shaped plan, and a graveyard beside it.",
+     "Graveyard: rows of small headstones.",
+     "School: a large building with a playground, pitches and a car park.",
+     "Shopping centre: a very large flat roof and an extensive car park.",
+     "Factory or warehouse: a large flat or sawtooth roof, with yards and lorries but no gardens.",
+     "Housing estate: rows of similar houses with gardens, often arranged in cul-de-sacs.",
+     "Terraced houses share side walls; semi-detached houses share one wall; detached houses stand alone.",
+     "Apartments: a large multi-storey block with communal parking.",
+     "Car park: marked bays with vehicles in them.",
+     "Sports pitch: a rectangle with lines and goalposts. Running track: an oval with lanes.",
+     "Waste or derelict ground: rough, unused land with no clear use."
+    ]
+   },
+   {
+    "h": "Recognising roads, railways and water",
+    "points": [
+     "Railway: gentle curves, no cars, and crossings of roads by bridges.",
+     "River and lake: smooth, dark water with a natural outline.",
+     "Bridge: a structure carrying a road or railway across water or another route; its parapet is a clue.",
+     "Harbour, pier or quay: boats moored alongside a structure that projects into the water or lines it.",
+     "Roundabout: a circular junction with roads leading off it."
+    ]
+   },
+   {
+    "b": "A street map, satellite image or street-view images may show the same features A to E in a different orientation.",
+    "h": "Matching a second source to the photograph",
+    "points": [
+     "Find two features common to both, such as the river, a bridge, the railway or a large church, and turn the second source mentally until they match.",
+     "Identify each feature by a distinctive clue: a spire, a cruciform roof, pitch markings, a large flat roof beside a car park, a bridge parapet, or shopfronts.",
+     "Give each feature's zone on the photograph in accepted notation."
+    ]
+   },
+   {
+    "h": "Absolute and relative location, and camera direction",
+    "points": [
+     "Absolute location is a grid reference read from the OS map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.",
+     "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in geo-mapwork-s1.",
+     "On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.",
+     "To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name.",
+     "The direction from a foreground feature to a background feature on the map is the direction the camera was pointing.",
+     "Identify one foreground feature and one background feature on the photograph, find both on the map, and state the direction in an eight-point compass term such as north-east.",
+     "Check the camera direction with a third feature.",
+     "Illustrative: on the map the bridge (centre middleground) lies due south of the pitch (centre background), and the waste ground (centre foreground) lies south of the bridge.",
+     "Illustrative: foreground to background runs south to north, so the camera was pointing north."
+    ]
+   },
+   {
+    "h": "Comparing the photograph with the map",
+    "points": [
+     "The photograph shows what the map does not: individual buildings, land-use type, crops and field use, building height and age, car parks, traffic, temporary features and recent developments.",
+     "The map shows what the photograph does not: names, road numbers, height and contours, the grid, labelled antiquities, boundaries, and features hidden by trees or lying beyond the frame.",
+     "The map covers the whole area at a constant scale; an oblique photograph gives a partial view with changing scale.",
+     "The photograph and map were usually made on different dates, so differences between them can reveal change."
+    ]
+   },
+   {
+    "h": "Scale on photographs",
+    "points": [
+     "An oblique photograph has no single scale, so measure distances on the map instead.",
+     "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in geo-mapwork-s1.",
+     "Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.",
+     "Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.",
+     "Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000."
+    ]
+   },
+   {
+    "b": "A sketch map is a drawn copy of the photograph's main features, not a tracing.",
+    "h": "Drawing a sketch map",
+    "points": [
+     "Draw a frame with four ruled sides, the same shape as the photograph.",
+     "The exam usually asks for half the length and half the breadth: each side is halved, so the sketch has a quarter of the photograph's area.",
+     "Measure the photograph and calculate the sketch size before drawing.",
+     "Divide the photograph and the frame into the nine-area grid lightly in pencil to place features accurately.",
+     "Show only the features asked for, in approximately the correct position, shape and proportion.",
+     "Draw rivers, roads and railways as lines, with the river as a broad double line; draw areas such as housing, industry, farmland, car parks and lakes as closed outlined shapes; draw single buildings as small blocks or symbols.",
+     "Label every feature on or beside it, or in a key, and give the sketch a title. An unlabelled feature scores nothing.",
+     "A feature specified with a position, such as a car park in the centre foreground, must be drawn in that zone.",
+     "Common requests to practise: river, coastline, lake, bridge, railway, two connecting streets, car park, church, ecclesiastical land use, housing estate, residential land use, industrial building or estate, warehouse, agricultural land, recreational land use, sports ground, waste ground, a historic ruin, and the CBD."
+    ]
+   },
+   {
+    "h": "Worked example: sketch map (illustrative, Rivertown)",
+    "points": [
+     "Illustrative: a photograph 22 cm by 16 cm gives a sketch frame of 11 cm by 8 cm.",
+     "Illustrative request: the river, a bridge, a church, an industrial area in the foreground, and agricultural land in the background.",
+     "Illustrative: draw the river as a broad double line from the left foreground to the right background.",
+     "Illustrative: draw the bridge as a short line crossing the river in the centre middleground, and label it.",
+     "Illustrative: draw the church as a small cross-shaped symbol in the left middleground, and label it.",
+     "Illustrative: draw the industrial area as a closed outlined shape in the right foreground, because the request places it there, and label it.",
+     "Illustrative: draw the agricultural land as field outlines with hedgerows in the background of the right side, and label it."
+    ]
+   },
+   {
+    "h": "Land use in and around the town",
+    "points": [
+     "Land-use categories: residential, commercial or retail, industrial, ecclesiastical, educational, recreational, transport, agricultural, open space, and waste or derelict ground.",
+     "Ecclesiastical land use is religious land use: churches, their grounds and graveyards. Schools are educational land use.",
+     "Industrial land is usually on the edge of town: large flat-roofed buildings in an industrial estate, near main roads, a bypass, a railway or a port, with space for parking and lorries.",
+     "Older industry, such as mills, may be found beside the river or quays.",
+     "Agricultural land around the town shows field patterns with hedgerows, and is either pasture (grass, often with livestock) or tillage (ploughed or cropped fields)."
+    ]
+   },
+   {
+    "h": "Residential density and the CBD",
+    "points": [
+     "Older terraced housing near the centre has high density, with small or no gardens.",
+     "Suburban estates of semi-detached and detached houses lie further out, at lower density, with gardens and cul-de-sacs.",
+     "Apartments are high density.",
+     "Residential density usually falls outward from the centre.",
+     "The CBD (central business district) is the commercial core of the town, found at the centre where roads converge.",
+     "CBD clues: the tallest and most densely packed buildings, no gardens, shops fronting onto main streets, car parks and heavy traffic, and often a square or main street."
+    ]
+   },
+   {
+    "b": "A function is a purpose a town serves, such as trade, worship or transport. Each function can be seen on a photograph.",
+    "h": "Urban functions",
+    "points": [
+     "Functions visible on photographs: residential; commercial or retail; industrial or manufacturing; ecclesiastical or religious; educational; recreational or leisure; medical, such as a hospital.",
+     "Further functions: transport (bridge, railway station, converging roads, harbour); port or fishing (piers, boats); tourism (hotels, caravan parks, marinas, beaches, historic sites).",
+     "Further functions: market (a square, a market house); administrative (courthouse, council offices, Garda station, which is often hard to confirm from a photograph alone); defensive (a historic castle or town walls).",
+     "Answer formula for describing and explaining a function: name the function, give the photograph evidence, give its location in accepted notation, and explain why the town performs it, using its site, situation, size or hinterland.",
+     "Give several pieces of evidence for each function.",
+     "Illustrative ecclesiastical function: a church with a spire and graveyard in the left middleground.",
+     "Illustrative industrial function: large flat-roofed units and lorry yards in the right foreground, beside the main road.",
+     "Illustrative market or commercial function: a square and a main street of shops in the centre middleground, where roads converge at the bridge."
+    ]
+   },
+   {
+    "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in geo-mapwork-s1.",
+    "h": "Evidence of historical development",
+    "points": [
+     "Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.",
+     "A market square, fair green or market house shows the town's role as a market centre.",
+     "Old stone bridges, quays and warehouses on the river, and mills and weirs show the town's use of the river.",
+     "A railway line and station show growth in the 19th century.",
+     "Modern housing estates and industrial estates on the edge of town show recent growth.",
+     "Reasons for the town's location seen on the photograph: a bridging point, a river or coastal site, converging routes, flat land, a harbour, surrounding farmland for a market town, or a defensive site."
+    ]
+   },
+   {
+    "h": "Planned and unplanned towns, and street patterns",
+    "points": [
+     "A planned town has wide, straight streets, a regular grid, a central square or diamond, and uniform terraces.",
+     "An unplanned town has narrow, winding, irregular streets, often of medieval origin.",
+     "Wide streets on their own do not show that a town is unplanned.",
+     "Linear growth: development along a main road.",
+     "Nucleated growth: development clustered around a centre or junction.",
+     "Radial pattern: streets radiating from a bridge or square.",
+     "Grid pattern: streets laid out at right angles in regular blocks.",
+     "Name the pattern on the photograph and use it as evidence for the type of town."
+    ]
+   },
+   {
+    "h": "Causes of traffic congestion",
+    "points": [
+     "Narrow streets in the old core of the town.",
+     "On-street parking that narrows the road.",
+     "Routes converging on one bridge or junction.",
+     "Through-traffic passing the town centre.",
+     "Delivery vehicles, and limited off-street parking.",
+     "Schools and shopping centres that generate peak traffic."
+    ]
+   },
+   {
+    "h": "Traffic management measures and solutions",
+    "points": [
+     "Measures visible on photographs: roundabouts, traffic lights, pedestrian crossings, one-way streets (all parked cars face one way, with arrows on the road), double yellow lines (no parking), bus lanes and cycle lanes.",
+     "Further measures: off-street and multi-storey car parks, pedestrianised streets, bypasses, relief roads and ring roads, bollards and traffic-calming ramps.",
+     "Answer formula for a measure: name it, give its location in accepted notation, and explain how it reduces congestion or improves safety.",
+     "Answer formula for a problem: name it, locate it, and explain why it causes congestion.",
+     "A suggested solution, such as a bypass to remove through-traffic, a car park on waste ground, a one-way system or pedestrianisation, must be justified with photograph evidence.",
+     "Illustrative problem: all routes converge on the single bridge in the centre middleground, and on-street parking on the main street narrows the road.",
+     "Illustrative measures: a roundabout at the end of the bridge, and a car park beside the square.",
+     "Illustrative solution: a relief road crossing the river further downstream, using the open fields."
+    ]
+   },
+   {
+    "h": "Land-use change",
+    "points": [
+     "Land-use change is found by comparing the map with the photograph, which are dated differently, or by comparing a location's present use with a listed change.",
+     "Listed changes include agricultural to housing, industrial to residential, green space to recreation, open space to residential, farmland to relief road, and green space to waste ground.",
+     "Method: find the location, identify its present use, then infer its earlier use from the map or from surrounding clues.",
+     "Clues to earlier use: new estates on the edge with fields beyond, cleared sites, and new roads cutting across field patterns.",
+     "Illustrative: the map shows fields where the photograph shows the left background housing estate, so the change is agricultural to residential.",
+     "Second pair, same method: a site shown as industrial on the map and as housing on the photograph is recorded as industrial to residential."
+    ]
+   },
+   {
+    "h": "Urban growth evidence",
+    "points": [
+     "New estates on the edge of the town.",
+     "Ribbon development along approach roads.",
+     "Industrial estates and retail parks on the outskirts.",
+     "New roundabouts and bypasses.",
+     "Sprawl as a wider urban issue is covered in geo-urban."
+    ]
+   },
+   {
+    "b": "A site is chosen or rejected on evidence from the photograph.",
+    "h": "Site suitability",
+    "points": [
+     "Choose a site on the photograph for a proposed development, such as a shopping centre, factory, car park or playground, and give three reasons, each with photograph evidence.",
+     "Reasons to look for: available flat land; access to main roads; nearness to the population served; space for parking; a position away from a flood-prone river bank.",
+     "For industry, a site away from housing is suitable.",
+     "To show a given site is unsuitable, name the reason it fails these tests and give the photograph evidence for it."
+    ]
+   },
+   {
+    "h": "Time of year from the photograph",
+    "points": [
+     "Deciduous trees in full leaf indicate summer; bare trees indicate winter.",
+     "Crops growing or ripening, golden fields and harvested stubble indicate late summer to autumn.",
+     "Ploughed fields indicate autumn or spring.",
+     "Silage or hay bales in fields indicate summer.",
+     "Cattle grazing outdoors indicate the grazing season, roughly spring to autumn, because Irish cattle are usually housed indoors over winter.",
+     "People in light clothing, and outdoor activity on beaches or pitches, indicate warm weather.",
+     "Give two or three pieces of evidence and reason from them, without guessing exact months.",
+     "Illustrative: trees in full leaf and silage bales in the right background fields indicate summer."
+    ]
+   },
+   {
+    "b": "Shadows point away from the sun. Use the camera direction from the map to turn a shadow direction into a compass direction.",
+    "h": "Time of day from shadows",
+    "points": [
+     "Ireland is in the northern hemisphere, so the midday sun is due south and midday shadows point north, where they are at their shortest.",
+     "The sun rises in the east and sets in the west, roughly. Morning shadows point west; evening shadows point east.",
+     "Long shadows mean a low sun, which occurs early or late in the day, or in winter.",
+     "Other clues: busy streets and full car parks in business hours, school car parks full or empty, rush-hour traffic, and street lights on.",
+     "Illustrative: the camera points north, so left is west and right is east. Building shadows fall to the left, which is west, so the sun is in the east: morning.",
+     "Illustrative: the shadows are long, so it is early morning."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "This question uses the invented Rivertown photograph, since real photographs cannot be supplied in these notes. The photograph is 22 cm by 16 cm, so draw a ruled frame 11 cm by 8 cm with the same shape as the photograph. Do not trace the photograph. Lightly divide the frame into the nine-area grid in pencil. Draw the river as a broad double line from the left foreground to the right background and label it. Draw the bridge as a short line crossing the river in the centre middleground and label it. Draw the church as a small cross-shaped symbol in the left middleground and label it. Draw the industrial area as a closed outlined shape in the right foreground, because its zone is specified, and label it. Draw the agricultural land as field outlines with hedgerows in the background on the right side and label it. Give the sketch a title. Every feature must be drawn in its specified zone and labelled.",
+    "prompt": "Examine the (illustrative) aerial photograph of Rivertown described above. Draw a sketch map of it, half the length and half the breadth. On it show and label: the river; a bridge; a church; an industrial area in the foreground; agricultural land use in the background.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Function 1, ecclesiastical (religious): a church with a spire and a graveyard beside it stands in the left middleground, so the photograph shows a religious land use. The church is located in the left middleground, and it serves the town's residents and the surrounding area, so a town with a population and a hinterland supports a place of worship. Function 2, industrial: large flat-roofed units and lorry yards stand in the right foreground, beside the main road. The industrial area is located in the right foreground at the edge of the town. Lorries need access to the main road and space to park and turn, which the edge of the town provides. Function 3, market or commercial: a square and a main street of shops lie in the centre middleground, where roads converge at the bridge. The centre is located at the crossing point of routes, so shoppers from the surrounding farmland and the town can reach the square easily. The shops and square serve the town's hinterland, which explains why the market function is central.",
+    "prompt": "Using evidence from the (illustrative) aerial photograph of Rivertown, describe and explain three functions of the town.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Each part is worth 2 marks. (a) Oblique. Reason: depth is shown and foreground features look larger than background features. (b) Left middleground. (c) North: the waste ground in the centre foreground lies south of the bridge, which lies due south of the GAA pitch in the centre background, so foreground to background runs south to north. (d) False. Wide, straight streets indicate a planned town, not an unplanned one. All answers use the invented Rivertown details, which are illustrative.",
+    "prompt": "8 marks: four 2-mark parts on Rivertown: (a) vertical or oblique, with one reason; (b) the location of the church in accepted notation; (c) the direction the camera was pointing, using the map information in the camera direction example; (d) true or false: \"Wide, straight streets around the square suggest Rivertown is an unplanned town.\" Give a one-line reason.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-glaciation-s1": {
   "keyTerms": [
    {
@@ -572,6 +931,1979 @@
     "marks": 2,
     "model": "Isostatic change is a change in the height of the land, as the crust rises or sinks in response to a change in its load. Eustatic change is a worldwide change in sea level, such as the lowering caused by water locked up in ice sheets.",
     "prompt": "Distinguish between isostatic and eustatic change.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-plate-tectonics-s1": {
+  "keyTerms": [
+   {
+    "definition": "Molten rock in the mantle, which is called lava once it erupts at the surface.",
+    "term": "Magma"
+   },
+   {
+    "definition": "The Mohorovičić discontinuity, the boundary between the crust and the mantle.",
+    "term": "Moho"
+   },
+   {
+    "definition": "The boundary between the mantle and the core.",
+    "term": "Gutenberg discontinuity"
+   },
+   {
+    "definition": "The semi-molten, plastic layer in the upper mantle on which the plates move.",
+    "term": "Asthenosphere"
+   },
+   {
+    "definition": "The rigid outer shell made of the crust plus the solid top of the upper mantle.",
+    "term": "Lithosphere"
+   },
+   {
+    "definition": "A circular movement of semi-molten rock in the mantle, caused by heated rock rising and cooled rock sinking.",
+    "term": "Convection current"
+   },
+   {
+    "definition": "Forces that come from inside the earth and are powered by its internal heat.",
+    "term": "Endogenic forces"
+   },
+   {
+    "definition": "Forces that act at the earth's surface, such as weathering and erosion.",
+    "term": "Exogenic forces"
+   },
+   {
+    "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid.",
+    "term": "S-wave shadow zone"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Layers of the earth",
+    "points": [
+     "The earth is made of concentric layers, from the outside in: crust, mantle, outer core and inner core.",
+     "Density and temperature increase towards the centre of the earth.",
+     "The earth's radius is about 6,370 km.",
+     "Diagram: labelled cross-section of the earth showing every layer and both boundaries between them."
+    ]
+   },
+   {
+    "b": "The crust is the thin, solid outer layer of the earth. It exists in two types, which differ in thickness, density and rock type.",
+    "h": "Crust",
+    "points": [
+     "Continental crust is about 30–70 km thick and is thickest under high mountain ranges.",
+     "Continental crust has an average density of about 2.7 g/cm³ (grams per cubic centimetre).",
+     "Continental crust is mainly granite-type rock, rich in silica and aluminium; its old name is sial.",
+     "Oceanic crust is about 5–10 km thick and has an average density of about 3.0 g/cm³.",
+     "Oceanic crust is mainly basalt, rich in silica and magnesium; its old name is sima.",
+     "Continental crust is thicker but less dense than oceanic crust.",
+     "No oceanic crust is older than about 200 million years, while some continental rock is billions of years old, because oceanic crust is continually created and destroyed; that process is explained in the plate tectonics model and at plate boundaries."
+    ]
+   },
+   {
+    "h": "Boundaries within the earth",
+    "points": [
+     "A discontinuity is a sharp boundary between two layers of the earth.",
+     "The Moho (Mohorovičić discontinuity) is the boundary between the crust and the mantle, where earthquake waves speed up suddenly.",
+     "The Moho is named after Andrija Mohorovičić, a Croatian seismologist, who identified it in 1909 from earthquake records.",
+     "The Gutenberg discontinuity is the boundary between the mantle and the core, at the base of the mantle."
+    ]
+   },
+   {
+    "b": "The mantle is the thickest layer. Its upper part contains the layers on which the crust rests and moves.",
+    "h": "Mantle, asthenosphere and lithosphere",
+    "points": [
+     "The mantle extends to about 2,900 km depth and is made of dense rock rich in iron and magnesium.",
+     "The mantle has an upper part and a lower part.",
+     "Asthenosphere: the semi-molten, plastic layer in the upper mantle, beneath the lithosphere, on which the plates move. It is not liquid.",
+     "Magma is molten rock in the mantle; it is called lava only once it erupts at the surface.",
+     "Lithosphere: the rigid outer shell made of the crust plus the solid top of the upper mantle. It is about 100 km thick on average, thinner under the oceans and thicker under the continents.",
+     "The lithosphere is broken into tectonic plates."
+    ]
+   },
+   {
+    "b": "The core is made of iron and nickel and is divided into a liquid outer part and a solid inner part.",
+    "h": "The core",
+    "points": [
+     "Outer core: liquid, from about 2,900 km to about 5,150 km depth. Movement of this liquid metal generates the earth's magnetic field.",
+     "Inner core: solid, from about 5,150 km to the centre of the earth. It is the hottest part of the earth, at about 5,500 °C, similar to the surface of the sun.",
+     "The inner core is solid despite its heat because the pressure at that depth is enormous."
+    ]
+   },
+   {
+    "h": "Sources of heat and convection currents",
+    "points": [
+     "Internal heat comes from the decay of radioactive elements and from heat left over from the earth's formation.",
+     "Convection currents are circular movements of semi-molten rock in the mantle.",
+     "1. Heated rock near the core becomes less dense and rises.",
+     "2. Near the top of the mantle the rock spreads out sideways and cools.",
+     "3. Cooled rock becomes denser and sinks again, completing the circle."
+    ]
+   },
+   {
+    "h": "Endogenic and exogenic forces",
+    "points": [
+     "Endogenic (internal) forces come from inside the earth and are powered by its internal heat.",
+     "Endogenic forces include plate movement, folding, faulting, volcanic activity and earthquakes.",
+     "Exogenic (external) forces act at the earth's surface, such as weathering and erosion."
+    ]
+   },
+   {
+    "b": "Earthquake (seismic) waves reveal the structure of the earth because their speed and direction change as they pass through layers of different density.",
+    "h": "How the structure is known",
+    "points": [
+     "The changes in earthquake waves are how the discontinuities were found.",
+     "P-waves (primary waves) pass through both solids and liquids.",
+     "S-waves (secondary waves) pass only through solids.",
+     "S-waves do not pass through the outer core, which shows that the outer core is liquid.",
+     "This leaves an S-wave shadow zone on the far side of the earth from an earthquake."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Crust: the thin, solid outer layer, in two types: continental crust about 30 to 70 km thick and oceanic crust about 5 to 10 km thick. Moho: the boundary between the crust and the mantle. Mantle: the thickest layer, extending to about 2,900 km depth, with the semi-molten asthenosphere in its upper part. Lithosphere: the rigid shell made of the crust plus the solid top of the upper mantle, about 100 km thick on average. Outer core: liquid, from about 2,900 km to about 5,150 km depth. Inner core: solid, from about 5,150 km to the centre of the earth.",
+    "prompt": "Describe the structure of the earth's interior.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "The lithosphere is the rigid outer shell made of the crust plus the solid top of the upper mantle, and it is broken into plates. The asthenosphere is a semi-molten, plastic layer beneath it in the upper mantle, not a liquid, on which the plates move.",
+    "prompt": "Explain the difference between the lithosphere and the asthenosphere.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Endogenic forces are internal forces that come from inside the earth and are powered by its internal heat. Examples are plate movement, folding, faulting, volcanic activity and earthquakes. They contrast with exogenic forces, which act at the surface, such as weathering and erosion.",
+    "prompt": "Explain briefly what is meant by endogenic forces.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-plate-tectonics-s2": {
+  "keyTerms": [
+   {
+    "definition": "The supercontinent that Wegener proposed existed before the continents drifted apart.",
+    "term": "Pangaea"
+   },
+   {
+    "definition": "The single ocean that surrounded Pangaea.",
+    "term": "Panthalassa"
+   },
+   {
+    "definition": "The process by which magma rises at mid-ocean ridges, cools to form new oceanic crust and pushes older crust away on both sides.",
+    "term": "Sea-floor spreading"
+   },
+   {
+    "definition": "Evidence from iron minerals in cooling rock that records the direction of the earth's magnetic field at the time the rock formed.",
+    "term": "Palaeomagnetism"
+   },
+   {
+    "definition": "A rigid slab of lithosphere that floats and moves on the asthenosphere.",
+    "term": "Plate"
+   },
+   {
+    "definition": "The sliding of new, hot crust away from a mid-ocean ridge under gravity.",
+    "term": "Ridge push"
+   },
+   {
+    "definition": "The pulling of the rest of a plate by its cold, dense subducting edge.",
+    "term": "Slab pull"
+   },
+   {
+    "definition": "The line across Ireland along which the two parts of Ireland were joined when the Iapetus Ocean closed.",
+    "term": "Iapetus suture"
+   },
+   {
+    "definition": "Fold mountain building caused by the closing of the Iapetus Ocean, producing north-east to south-west mountains in Ireland.",
+    "term": "Caledonian folding"
+   },
+   {
+    "definition": "Fold mountain building caused by the collision of Africa with Europe, producing east-west mountains across the south of Ireland.",
+    "term": "Armorican folding"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Alfred Wegener, a German meteorologist, proposed continental drift in 1912 and published it in his book The Origin of Continents and Oceans in 1915.",
+    "h": "Continental drift",
+    "points": [
+     "Wegener proposed that the continents were once joined in one supercontinent, Pangaea, surrounded by one ocean, Panthalassa, and have since drifted apart.",
+     "Pangaea split into Laurasia in the north and Gondwanaland in the south, separated by the Tethys Sea; these broke up further into today's continents.",
+     "Pangaea began to break up about 200 million years ago.",
+     "Wegener could not explain what force moved the continents, so the theory was rejected at first."
+    ]
+   },
+   {
+    "h": "Evidence for continental drift",
+    "points": [
+     "Jigsaw fit: the coastlines of South America and Africa fit together, and the fit is even better at the edge of the continental shelves.",
+     "Fossils: Mesosaurus, a small freshwater reptile, is found in both Brazil and southern Africa; Glossopteris, a fern-like plant, is found in South America, Africa, India, Antarctica and Australia. Neither could have crossed an ocean.",
+     "Rocks and mountains: the Appalachian Mountains of eastern North America match the Caledonian mountains of Ireland, Scotland and Norway in rock type, age and structure.",
+     "Past climates: glacial deposits and striations about 300 million years old occur in India, Africa, South America and Australia, places now warm or near the equator.",
+     "Coal seams in Antarctica formed from plant matter in warm swamps."
+    ]
+   },
+   {
+    "h": "Mapping the ocean floor",
+    "points": [
+     "Detailed mapping of the ocean floor by echo-sounding (sonar) followed the Second World War.",
+     "The mapping revealed long mid-ocean ridges with a central rift valley, and deep ocean trenches.",
+     "The Mid-Atlantic Ridge is about 16,000 km long."
+    ]
+   },
+   {
+    "b": "Sea-floor spreading supplied the mechanism that continental drift lacked.",
+    "h": "Sea-floor spreading",
+    "points": [
+     "Arthur Holmes, a British geologist, suggested in the late 1920s that mantle convection could move continents.",
+     "Harry Hess, an American geologist, proposed sea-floor spreading in the early 1960s.",
+     "1. Magma rises at mid-ocean ridges.",
+     "2. It cools to form new oceanic crust made of basalt.",
+     "3. The new crust pushes older crust away on both sides of the ridge.",
+     "4. Old crust is destroyed again at ocean trenches."
+    ]
+   },
+   {
+    "h": "Evidence for sea-floor spreading",
+    "points": [
+     "Age of rocks: oceanic rocks are youngest at the ridge and get progressively older with distance from it, symmetrically on both sides.",
+     "Sediment: ocean-floor sediment is thin or absent at the ridge and thicker further away.",
+     "Palaeomagnetism: the earth's magnetic field reverses from time to time. Iron minerals in cooling basalt line up with the field at that moment, so the ocean floor holds stripes of normal and reversed magnetism that mirror each other on either side of the ridge.",
+     "Magnetic striping was explained by Fred Vine and Drummond Matthews in 1963.",
+     "Diagram: plan view of a ridge with symmetrical magnetic stripes and arrows showing movement away from the ridge."
+    ]
+   },
+   {
+    "h": "Plates and plate movement",
+    "points": [
+     "A plate is a rigid slab of lithosphere that floats and moves on the asthenosphere. A plate can carry continental crust, oceanic crust or both.",
+     "The earth has seven major plates: Pacific, North American, South American, Eurasian, African, Indo-Australian and Antarctic.",
+     "Smaller plates include Nazca, Cocos, Caribbean, Juan de Fuca, Philippine, Arabian and Scotia.",
+     "Some maps split the Indo-Australian plate into the Indian plate and the Australian plate; both versions are accepted. The Pacific plate is the largest.",
+     "Convection currents in the mantle drag the plates along.",
+     "Higher Level: ridge push is new, hot crust at the ridge sliding away from it under gravity; slab pull is the cold, dense subducting edge of a plate pulling the rest of the plate after it.",
+     "Plates move a few centimetres a year, so the map of continents and oceans changes over geological time. The Atlantic is widening by about 2.5 cm a year, roughly the rate a fingernail grows.",
+     "Plates meet in three ways: moving apart (constructive, or divergent), moving together (destructive, or convergent), and sliding past (passive, conservative, or transform). Each is described in the next subsection."
+    ]
+   },
+   {
+    "h": "Endogenic forces and plate boundaries",
+    "points": [
+     "Plate movement drives endogenic forces, which are concentrated mostly along plate boundaries.",
+     "The continental drift and sea-floor spreading evidence above is why the plate tectonics model replaced the earlier theory."
+    ]
+   },
+   {
+    "b": "Ireland's position on the plate map determines its present geological activity.",
+    "h": "Ireland now",
+    "points": [
+     "Ireland lies on the Eurasian plate, near its western edge and far from any plate boundary.",
+     "The nearest plate boundary is the Mid-Atlantic Ridge to the west, which separates the Eurasian and North American plates.",
+     "As the Atlantic widens, Ireland moves slowly away from North America.",
+     "Ireland has no active volcanoes and only rare, minor earthquakes."
+    ]
+   },
+   {
+    "h": "Iapetus and the Caledonian folding",
+    "points": [
+     "Before the Caledonian folding, Ireland was in two parts on opposite sides of the Iapetus Ocean: the north-west part on the North American (Laurentian) side and the south-east part on the European side.",
+     "The Iapetus Ocean closed as the plates converged, and the two parts of Ireland were joined along the Iapetus suture, which runs across Ireland roughly from the Shannon Estuary to Clogherhead, Co. Louth.",
+     "The collision caused the Caledonian folding, about 400 million years ago, which built mountains running north-east to south-west.",
+     "Caledonian mountains include the mountains of Donegal, Mayo and Connemara, and the Wicklow Mountains; the Leinster granite batholith was intruded during this period."
+    ]
+   },
+   {
+    "h": "Ireland's drift and past climates",
+    "points": [
+     "Ireland has drifted north over hundreds of millions of years.",
+     "Old Red Sandstone formed in hot, dry conditions after the Caledonian folding.",
+     "Carboniferous limestone formed about 350 million years ago, when Ireland lay near the equator under a warm, shallow tropical sea."
+    ]
+   },
+   {
+    "h": "Armorican folding",
+    "points": [
+     "The Armorican (Variscan) folding, about 300 million years ago, came from the collision of Africa, part of Gondwanaland, with Europe as Pangaea came together.",
+     "It built east-west mountains across the south of Ireland: Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdowns and the Caha Mountains, which form the Munster ridge-and-valley landscape.",
+     "Armorica is the old name for Brittany, where the same fold belt occurs."
+    ]
+   },
+   {
+    "h": "Opening of the Atlantic and Alpine folding",
+    "points": [
+     "As North America and Greenland separated from Europe after Pangaea split, magma rose through cracks in north-east Ireland and formed the Antrim basalts about 60 million years ago.",
+     "Alpine folding is the most recent period of fold mountain building, producing the Alps and the Himalayas.",
+     "Alpine folding did not build Ireland's mountains; the two periods that did are Caledonian and Armorican."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Continental drift: Wegener proposed in 1912 that the continents were once joined in Pangaea, surrounded by Panthalassa, and drifted apart; his evidence was the jigsaw fit of South America and Africa, the fossils of Mesosaurus and Glossopteris, matching rocks and mountains such as the Appalachians and the Caledonian mountains, and past climates shown by glacial deposits and coal seams. Wegener could not explain the force that moved the continents. Sea-floor spreading: mapping by echo-sounding revealed mid-ocean ridges and trenches; Hess proposed that magma rises at ridges, forms new basaltic crust and pushes older crust away, destroyed at trenches. Evidence: rocks get older with distance from the ridge, sediment thickens away from the ridge, and palaeomagnetic stripes mirror each other on either side of the ridge. Plate tectonics: the lithosphere is broken into rigid plates that move on the asthenosphere; convection currents in the mantle drag them, and ridge push and slab pull are the Higher Level mechanisms. Plates meet at constructive, destructive and passive (transform) boundaries.",
+    "prompt": "Discuss the theory of plate tectonics.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Now: Ireland lies on the Eurasian plate far from any plate boundary, with the Mid-Atlantic Ridge to the west, so it has no active volcanoes and only rare, minor earthquakes. Past: Ireland was in two parts on opposite sides of the Iapetus Ocean. When the Iapetus closed, the two parts were joined along the Iapetus suture and the Caledonian folding built north-east to south-west mountains such as Donegal, Mayo, Connemara and the Wicklow Mountains. Ireland drifted north; Old Red Sandstone formed in hot, dry conditions after the Caledonian folding, and Carboniferous limestone formed near the equator in a warm tropical sea. The Armorican folding, from the collision of Africa with Europe, built east-west mountains across the south, including Macgillycuddy's Reeks, the Galtees, the Knockmealdowns and the Caha Mountains. As Pangaea split and the Atlantic opened, magma formed the Antrim basalts about 60 million years ago.",
+    "prompt": "Examine the position of Ireland in relation to plate boundaries now and in past geological periods.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Ireland lies on the Eurasian plate. Plates move because convection currents in the mantle drag them.",
+    "prompt": "Name the plate Ireland lies on and explain briefly how plates move.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-plate-tectonics-s3": {
+  "keyTerms": [
+   {
+    "definition": "The process by which a denser oceanic plate sinks beneath another plate into the mantle, where it melts.",
+    "term": "Subduction"
+   },
+   {
+    "definition": "The zone where one plate sinks beneath another.",
+    "term": "Subduction zone"
+   },
+   {
+    "definition": "A deep ocean hollow formed where a plate bends down at a subduction zone.",
+    "term": "Ocean trench"
+   },
+   {
+    "definition": "A curved chain of volcanic islands formed above a subduction zone where two oceanic plates converge.",
+    "term": "Island arc"
+   },
+   {
+    "definition": "The inclined zone of earthquakes along a sinking plate, shallow near the trench and deeper inland.",
+    "term": "Benioff zone"
+   },
+   {
+    "definition": "A fault along which two plates slide horizontally past each other.",
+    "term": "Transform fault"
+   },
+   {
+    "definition": "A valley along the crest of a mid-ocean ridge or formed where a continent is splitting apart.",
+    "term": "Rift valley"
+   },
+   {
+    "definition": "The belt of plate boundaries around the edge of the Pacific plate, containing most of the world's active volcanoes and earthquakes.",
+    "term": "Ring of Fire"
+   }
+  ],
+  "notes": [
+   {
+    "b": "At constructive boundaries plates move apart, and new crust is formed in the gap.",
+    "h": "Constructive boundaries: crust is created",
+    "points": [
+     "1. Convection currents carry the plates apart.",
+     "2. Pressure drops as the plates separate, so the mantle partly melts.",
+     "3. Magma rises into the gap and cools to form new basaltic oceanic crust.",
+     "Mid-ocean ridge: a rift valley runs along its crest, with frequent shallow earthquakes and volcanic activity.",
+     "Transform faults cut across the ridge and offset it in sections.",
+     "Where a mid-ocean ridge rises above sea level it forms volcanic islands.",
+     "The Mid-Atlantic Ridge also separates the South American and African plates in the South Atlantic.",
+     "Iceland is a volcanic island on the Mid-Atlantic Ridge, and the rift is visible on land at Þingvellir (Thingvellir).",
+     "The Azores are also on the Mid-Atlantic Ridge, and the East Pacific Rise is another mid-ocean ridge.",
+     "Surtsey, a new volcanic island, formed off the south coast of Iceland in an eruption that began in 1963.",
+     "Diagram: cross-section of a ridge showing convection currents, rising magma, the rift valley and arrows showing the plates moving apart."
+    ]
+   },
+   {
+    "h": "Continental rifting",
+    "points": [
+     "Where a continent starts to split, the crust stretches and a block drops between parallel faults to form a rift valley, with volcanoes nearby.",
+     "The East African Rift Valley is where the African plate is splitting apart; Mount Kilimanjaro, Tanzania, is a volcano associated with it.",
+     "If spreading continues, the sea floods in and a new ocean begins; the Red Sea, between Africa and the Arabian plate, is at this stage."
+    ]
+   },
+   {
+    "h": "Features of constructive boundaries",
+    "points": [
+     "Features of constructive boundaries are the mid-ocean ridge, rift valley, volcanic islands, fissure eruptions of runny basalt lava and shallow earthquakes."
+    ]
+   },
+   {
+    "b": "Where two plates converge, one plate is forced down into the mantle.",
+    "h": "Destructive boundaries: crust is destroyed",
+    "points": [
+     "Oceanic crust is denser than continental crust, so where the two meet the oceanic plate is forced down into the mantle.",
+     "This process is subduction, and the zone where the plate sinks is the subduction zone.",
+     "Crust is destroyed as the subducting plate melts in the hot mantle.",
+     "The place where the two plates meet at the surface is an ocean trench."
+    ]
+   },
+   {
+    "h": "Oceanic and continental plates converging",
+    "points": [
+     "An ocean trench forms where the oceanic plate bends down.",
+     "Sediments are scraped off the subducting plate and crumpled against the continent into fold mountains.",
+     "Melting of the sinking plate produces magma that rises to form a chain of volcanoes on the continent.",
+     "Earthquakes occur along the sinking plate, shallow near the trench and deeper inland; this inclined zone is the Benioff zone.",
+     "The Nazca plate subducts beneath the South American plate: the Peru-Chile Trench lies offshore and the Andes, with many volcanoes, rise on land.",
+     "The Juan de Fuca plate subducts beneath the North American plate, producing the Cascade Range volcanoes, including Mount St Helens, Washington, USA.",
+     "Diagram: cross-section with ocean trench, subducting plate, melting zone, rising magma, volcano, fold mountains and earthquake foci."
+    ]
+   },
+   {
+    "h": "Two oceanic plates converging",
+    "points": [
+     "The older, denser oceanic plate subducts beneath the other.",
+     "An ocean trench and a curved chain of volcanic islands, called an island arc, form, and earthquakes are frequent.",
+     "The Mariana Trench, about 11 km deep, is the deepest place on earth; it lies where the Pacific plate subducts beneath the Philippine plate, and the Mariana Islands form an island arc.",
+     "The Aleutian Islands, Alaska, are an island arc where the Pacific plate subducts beneath the North American plate.",
+     "Japan lies where the Pacific, Philippine, Eurasian and North American plates meet."
+    ]
+   },
+   {
+    "h": "Two continental plates colliding",
+    "points": [
+     "Both plates are too light to subduct, so the crust between them, including sediments from the ocean that once separated them, is crushed, folded and pushed up into high fold mountains.",
+     "Earthquakes are common, but there is little or no volcanic activity.",
+     "Crust is modified, thickened and folded, rather than destroyed.",
+     "The Indo-Australian plate is colliding with the Eurasian plate, forming the Himalayas and the Tibetan Plateau; the collision began about 50 million years ago and continues.",
+     "Mount Everest, 8,849 m, is the highest mountain on earth; marine fossils in limestone near its summit show the rocks were once on the floor of the Tethys Sea.",
+     "The Alps formed where the African plate is colliding with the Eurasian plate."
+    ]
+   },
+   {
+    "h": "Impacts of destructive boundaries",
+    "points": [
+     "Landforms: ocean trenches, fold mountains, volcanic mountain chains and island arcs, as described above.",
+     "Earthquakes: Nepal, 25 April 2015, magnitude 7.8, killed about 9,000 people on the Himalayan collision boundary.",
+     "Undersea earthquakes and tsunamis: the Tōhoku, Japan, earthquake of 11 March 2011 had magnitude 9.0; its tsunami killed about 18,000 people (dead and missing) and caused the Fukushima Daiichi nuclear disaster.",
+     "The Indian Ocean earthquake of 26 December 2004 had magnitude 9.1 off Sumatra, Indonesia, where the Indo-Australian plate subducts; its tsunami killed about 230,000 people in 14 countries.",
+     "Volcanic eruptions: Mount St Helens erupted on 18 May 1980, killing 57 people."
+    ]
+   },
+   {
+    "b": "At passive (transform) boundaries two plates slide past each other horizontally along a transform fault.",
+    "h": "Transform boundaries: crust is neither created nor destroyed",
+    "points": [
+     "Friction locks the plates until stress builds up, and the stress is released suddenly as an earthquake.",
+     "No magma is produced, so there is no volcanic activity, and no crust is created or destroyed.",
+     "The plates may move in the same direction at different speeds, or in opposite directions.",
+     "The San Andreas Fault, California, USA, is a transform boundary where the Pacific plate moves north-west relative to the North American plate.",
+     "The San Francisco earthquake of 18 April 1906 had magnitude about 7.8 and was followed by great fires; the Loma Prieta earthquake of 1989, magnitude 6.9, struck near San Francisco.",
+     "The North and East Anatolian Faults in Turkey are transform faults; the earthquake of 6 February 2023 on the East Anatolian Fault, magnitude 7.8, killed over 50,000 people in Turkey and Syria.",
+     "Diagram: plan view of two plates with arrows in opposite directions along a fault line."
+    ]
+   },
+   {
+    "h": "The tectonic cycle",
+    "points": [
+     "Crust is created at ridges, carried across the ocean floor, and destroyed at subduction zones, so the ocean floor is continually recycled.",
+     "Continental crust is too light to be subducted, which is why it survives for so long.",
+     "Oceans open and close over time: the Iapetus closed and the Atlantic opened."
+    ]
+   },
+   {
+    "h": "Boundary types compared",
+    "points": [
+     "Constructive boundaries: plates move apart and crust is created.",
+     "Destructive boundaries: plates move together and crust is destroyed, or modified where two continental plates collide.",
+     "Transform (passive) boundaries: plates slide past and crust is conserved."
+    ]
+   },
+   {
+    "b": "Earthquakes, volcanoes and fold mountains are concentrated in narrow belts along plate boundaries, with very few in plate interiors.",
+    "h": "The Pacific Ring of Fire and global distribution",
+    "points": [
+     "The Pacific Ring of Fire is the belt of destructive and some transform boundaries around the edge of the Pacific plate and its neighbours.",
+     "The Ring of Fire contains about 75% of the world's active volcanoes and about 90% of its earthquakes.",
+     "Ridges, subduction zones, collision zones and transform faults are the boundaries where these belts form.",
+     "Fold mountains are found only at convergent boundaries, as long chains along the plate edge; the Andes, Himalayas and Alps are examples."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Process: convection currents carry plates apart, pressure drops, the mantle partly melts, and magma rises into the gap and cools to form new basaltic oceanic crust. Mid-ocean ridge: the Mid-Atlantic Ridge has a rift valley along its crest, shallow earthquakes, volcanic activity and transform faults that offset it; Iceland is a volcanic island on the ridge, with the rift visible at Þingvellir and Surtsey, a new island that formed from an eruption beginning in 1963. Continental rifting: where a continent splits, the crust stretches and a block drops between parallel faults to form a rift valley, as in the East African Rift Valley, with volcanoes such as Mount Kilimanjaro; continued spreading makes a new ocean, as in the Red Sea. Evidence: rocks get older away from the ridge and magnetic stripes mirror each other on either side of it.",
+    "prompt": "Describe and explain constructive plate boundaries.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Process: the denser oceanic plate is forced down at a subduction zone and melts in the hot mantle, destroying crust. Oceanic and continental: an ocean trench forms, sediments are scraped off and crumpled into fold mountains, magma rises to form volcanoes, and earthquakes occur along the Benioff zone; the Nazca plate subducts beneath the South American plate, with the Peru-Chile Trench and the Andes. Oceanic and oceanic: the older, denser plate subducts, forming a trench and an island arc; the Pacific plate subducts beneath the Philippine plate, with the Mariana Trench and the Mariana Islands. Continental and continental: both plates are too light to subduct, so the crust is crushed and folded into high fold mountains with common earthquakes and little or no volcanism; the Indo-Australian plate colliding with the Eurasian plate forms the Himalayas.",
+    "prompt": "Describe and explain destructive plate boundaries.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Landforms: trenches, fold mountains, volcanic mountain chains and island arcs form at destructive boundaries, for example the Andes and the Mariana Islands. Earthquakes: the Nepal earthquake of 25 April 2015, magnitude 7.8, killed about 9,000 people on the Himalayan collision boundary. Tsunamis: the Tohoku earthquake of 11 March 2011, magnitude 9.0, produced a tsunami that killed about 18,000 people and caused the Fukushima Daiichi nuclear disaster; the Indian Ocean earthquake of 26 December 2004, magnitude 9.1, produced a tsunami that killed about 230,000 people in 14 countries. Volcanoes: the eruption of Mount St Helens on 18 May 1980 killed 57 people.",
+    "prompt": "Discuss the impacts of destructive plate boundaries, with reference to examples you have studied.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rivers-s1": {
+  "keyTerms": [
+   {
+    "definition": "The point where a river rises.",
+    "term": "Source"
+   },
+   {
+    "definition": "The point where a river enters the sea, a lake or another river.",
+    "term": "Mouth"
+   },
+   {
+    "definition": "A smaller river that flows into a larger river.",
+    "term": "Tributary"
+   },
+   {
+    "definition": "The point where a tributary joins the main river.",
+    "term": "Confluence"
+   },
+   {
+    "definition": "The whole area of land drained by a river and its tributaries, also called a catchment.",
+    "term": "Drainage basin"
+   },
+   {
+    "definition": "The high ground that separates one drainage basin from the next.",
+    "term": "Watershed"
+   },
+   {
+    "definition": "A channel that leaves the main river and flows away from it, found on deltas.",
+    "term": "Distributary"
+   },
+   {
+    "definition": "The tidal lower course of a river, where fresh water meets salt water.",
+    "term": "Estuary"
+   },
+   {
+    "definition": "The smooth, concave slope of a river from its source to its mouth.",
+    "term": "Long profile"
+   },
+   {
+    "definition": "Erosion by the force of moving water, which dislodges material and forces air into cracks until rock breaks away.",
+    "term": "Hydraulic action"
+   },
+   {
+    "definition": "Erosion caused by the river's load scraping and grinding against the bed and banks.",
+    "term": "Abrasion"
+   },
+   {
+    "definition": "The wearing down of the load as particles collide, making them smaller and rounder downstream.",
+    "term": "Attrition"
+   },
+   {
+    "definition": "Erosion or transport by dissolving soluble rock, such as limestone, in slightly acidic water.",
+    "term": "Solution"
+   },
+   {
+    "definition": "The rolling of the largest particles along the river bed.",
+    "term": "Traction"
+   },
+   {
+    "definition": "The bouncing of pebbles and sand along the bed in a series of hops.",
+    "term": "Saltation"
+   },
+   {
+    "definition": "The transport of fine silt and clay carried within the flow.",
+    "term": "Suspension"
+   },
+   {
+    "definition": "The largest particle a river can carry.",
+    "term": "Competence"
+   },
+   {
+    "definition": "The total load a river can carry.",
+    "term": "Capacity"
+   },
+   {
+    "definition": "A tree-like drainage pattern, with tributaries joining at acute angles, on rock of uniform resistance.",
+    "term": "Dendritic drainage"
+   },
+   {
+    "definition": "A drainage pattern in which tributaries meet the main rivers at right angles, on alternating bands of hard and soft rock.",
+    "term": "Trellised drainage"
+   },
+   {
+    "definition": "A drainage pattern in which rivers flow outward from a central high point.",
+    "term": "Radial drainage"
+   },
+   {
+    "definition": "A drainage pattern with no clear arrangement, many lakes and marshes, found on poorly drained glacial deposits.",
+    "term": "Deranged drainage"
+   },
+   {
+    "definition": "A drainage pattern in which rivers flow inward to a central lake or basin.",
+    "term": "Centripetal drainage"
+   },
+   {
+    "definition": "Spurs of a V-shaped valley where the river swings around harder rock, leaving them interlocking like the teeth of a zip.",
+    "term": "Interlocking spurs"
+   },
+   {
+    "definition": "A deep hollow scoured at the foot of a waterfall by falling water and its load.",
+    "term": "Plunge pool"
+   },
+   {
+    "definition": "Fast, turbulent water flowing over steps left by alternating bands of hard and soft rock.",
+    "term": "Rapids"
+   },
+   {
+    "definition": "A round hollow drilled into the river bed by swirling pebbles.",
+    "term": "Pothole"
+   },
+   {
+    "definition": "A looping bend in a river, formed by both erosion and deposition.",
+    "term": "Meander"
+   },
+   {
+    "definition": "A gently sloping deposit of sand and gravel on the inside of a meander bend.",
+    "term": "Point bar"
+   },
+   {
+    "definition": "Corkscrew-shaped flow that carries eroded material across a meander from the outer bank to the inner bank.",
+    "term": "Helicoidal flow"
+   },
+   {
+    "definition": "A crescent-shaped lake left when a meander is cut off and sealed by deposition.",
+    "term": "Oxbow lake"
+   },
+   {
+    "definition": "The filled-in remains of an oxbow lake.",
+    "term": "Meander scar"
+   },
+   {
+    "definition": "Fine silt deposited on a floodplain when the river floods.",
+    "term": "Alluvium"
+   },
+   {
+    "definition": "A wide, flat area beside a river, built up by alluvium deposited during floods.",
+    "term": "Floodplain"
+   },
+   {
+    "definition": "A natural embankment of coarse alluvium built up along a river's banks by repeated flooding.",
+    "term": "Levee"
+   },
+   {
+    "definition": "The clumping together of fine clay particles in salt water, causing them to sink faster.",
+    "term": "Flocculation"
+   },
+   {
+    "definition": "Flat, coarser deposits laid down on top of a delta.",
+    "term": "Topset beds"
+   },
+   {
+    "definition": "Steeply sloping deposits at the front of a delta.",
+    "term": "Foreset beds"
+   },
+   {
+    "definition": "Fine, flat layers laid down beyond the front of a delta.",
+    "term": "Bottomset beds"
+   },
+   {
+    "definition": "A river split into several channels around islands of deposited sand and gravel.",
+    "term": "Braided channel"
+   }
+  ],
+  "notes": [
+   {
+    "h": "River terms",
+    "points": [
+     "Source: where the river rises. The River Shannon, Ireland's longest river, rises at the Shannon Pot, Co. Cavan.",
+     "Mouth: where the river enters the sea, a lake or another river.",
+     "Tributary: a smaller river that flows into a larger river.",
+     "Confluence: the point where a tributary joins the main river.",
+     "Drainage basin (catchment): the whole area of land drained by a river and its tributaries.",
+     "Watershed: the high ground that separates one drainage basin from the next.",
+     "Distributary: a channel that leaves the main river and flows away from it, found on deltas.",
+     "Estuary: the tidal lower course of a river, where fresh water meets salt water."
+    ]
+   },
+   {
+    "b": "The long profile is the smooth, concave slope of a river from its source to its mouth.",
+    "h": "Long profile and the three courses",
+    "points": [
+     "The gradient is steep near the source and gentle near the mouth.",
+     "Upper (youthful) course: steep, with V-shaped valleys, interlocking spurs, waterfalls, rapids and potholes.",
+     "Middle (mature) course: meanders (looping bends) develop as the valley widens.",
+     "Lower (old) course: a wide floodplain, levees, meanders with oxbow lakes, and a delta or estuary at the mouth."
+    ]
+   },
+   {
+    "b": "A river's energy depends on its volume (discharge) and gradient. Energy left after overcoming friction is used for erosion and transport, and volume increases downstream as tributaries join.",
+    "h": "How rivers erode",
+    "points": [
+     "Hydraulic action: the force of moving water dislodges loose material and forces air into cracks in the bed and banks, widening them until rock breaks away.",
+     "Abrasion (corrasion): the load scrapes and grinds the bed and banks; pebbles swirled in eddies drill potholes into the bed.",
+     "Attrition: particles of the load collide with each other and with the bed, becoming smaller and more rounded downstream.",
+     "Solution (corrosion): slightly acidic water dissolves soluble rock such as limestone, carrying it away in solution.",
+     "Vertical erosion (deepening) dominates in the upper course; lateral erosion (widening) dominates in the middle and lower courses.",
+     "Headward erosion lengthens a valley at its source."
+    ]
+   },
+   {
+    "h": "How rivers transport and deposit",
+    "points": [
+     "Traction: the largest boulders are rolled along the bed, mainly during floods.",
+     "Saltation: pebbles and sand bounce along the bed in a series of hops.",
+     "Suspension: fine silt and clay are carried within the flow, giving the water its brown colour.",
+     "Solution: dissolved minerals are carried invisibly in the water.",
+     "Competence: the largest particle a river can carry; it rises sharply in flood.",
+     "Capacity: the total load a river can carry; it also rises sharply in flood.",
+     "Deposition happens when velocity falls: on entering a lake or the sea, on the inside of a bend, when floodwater recedes, or on a gentler gradient.",
+     "Deposition also happens when the load becomes too great for the river's energy.",
+     "Heavier material is deposited first and the finest last, so deposits are sorted by size, unlike unsorted, angular glacial till."
+    ]
+   },
+   {
+    "b": "A drainage pattern is the arrangement of a river and its tributaries, shaped by the underlying rock and relief.",
+    "h": "Drainage patterns",
+    "points": [
+     "Dendritic: tree-like, with tributaries joining at acute angles; forms on rock of uniform resistance.",
+     "Trellised: tributaries meet the main rivers at right angles; forms where bands of hard and soft rock alternate, e.g. the ridge-and-valley landscape of Munster.",
+     "Radial: rivers flow outward from a central high point like the spokes of a wheel.",
+     "Deranged: no clear pattern; forms on poorly drained glacial deposits, e.g. the drumlin belt of Co. Cavan, with many small lakes and marshes between the drumlins.",
+     "Centripetal: rivers flow inward to a central lake or basin, e.g. Lough Neagh, into which rivers drain from all sides.",
+     "On an Ordnance Survey map, dendritic streams branch like a tree at sharp angles, trellised streams run parallel with tributaries meeting them at right angles, radial streams spread out from a high point, and centripetal streams converge on a lake."
+    ]
+   },
+   {
+    "h": "V-shaped valley and interlocking spurs (upper course)",
+    "points": [
+     "1. Steep gradient gives the river high energy, so it erodes vertically by hydraulic action and abrasion.",
+     "2. Weathering and mass movement loosen the valley sides and move material into the channel, widening the top of the valley.",
+     "3. The result is a narrow floor and steep sides in a V-shape.",
+     "4. The river swings around areas of harder rock, leaving spurs that interlock like the teeth of a zip.",
+     "Interlocking spurs are not to be confused with truncated spurs, which are glacial.",
+     "On an Ordnance Survey map, the contours form a V that points upstream.",
+     "Example: the upper course of the River Liffey in the Wicklow Mountains.",
+     "Diagram: cross-section of a V-shaped valley; plan view of interlocking spurs with the river winding between them."
+    ]
+   },
+   {
+    "h": "Waterfall, plunge pool and gorge (upper course)",
+    "points": [
+     "1. A waterfall forms where a band of resistant rock lies over less resistant rock.",
+     "2. Hydraulic action and abrasion erode the soft rock below faster, undercutting the hard rock and leaving an overhang.",
+     "3. Falling water and its load scour a deep plunge pool at the base by hydraulic action and abrasion.",
+     "4. The unsupported overhang collapses, and the waterfall retreats upstream.",
+     "5. Repeated retreat leaves a steep-sided gorge downstream of the falls.",
+     "Example: Niagara Falls, USA–Canada border, with a resistant cap of dolomite over weaker shale; the retreat of the falls has cut the Niagara Gorge below them.",
+     "Example: Powerscourt Waterfall, River Dargle, Co. Wicklow, Ireland's highest waterfall at about 121 m.",
+     "Example: Torc Waterfall, near Killarney, Co. Kerry.",
+     "Diagram: cross-section showing hard rock cap, soft rock beneath, overhang, plunge pool and direction of retreat."
+    ]
+   },
+   {
+    "h": "Rapids and potholes (upper course)",
+    "points": [
+     "1. Rapids form where alternating bands of hard and soft rock lie across the river bed.",
+     "2. Hydraulic action and abrasion erode the soft bands faster, leaving the hard bands standing as steps.",
+     "3. Fast, turbulent water tumbles over the steps, forming rapids.",
+     "Potholes: hollows drilled into the bed by swirling pebbles, as described under abrasion."
+    ]
+   },
+   {
+    "b": "A meander is formed by both erosion and deposition, so it is classified under both.",
+    "h": "Meanders (erosion and deposition, middle and lower courses)",
+    "points": [
+     "1. Water flows fastest on the outside of a bend, where it erodes the bank by hydraulic action and abrasion, forming a steep river cliff.",
+     "2. Water is slowest on the inside of the bend, where it deposits sand and gravel, forming a gently sloping point bar (slip-off slope).",
+     "3. Helicoidal (corkscrew-shaped) flow carries eroded material from the outer bank to the inner bank of the next bend.",
+     "4. Continued lateral erosion makes the bends more pronounced until only a narrow neck of land separates them.",
+     "Example: meanders on the River Shannon's floodplain, the Shannon Callows, between Athlone and Portumna.",
+     "Diagram: plan view of a meander with the fastest-flow line, river cliff and point bar."
+    ]
+   },
+   {
+    "h": "Oxbow lake and meander scar",
+    "points": [
+     "1. During a flood the river cuts through the neck of a meander and takes the straighter, shorter course.",
+     "2. Deposition seals off the old bend, leaving a crescent-shaped oxbow lake.",
+     "3. The oxbow lake slowly fills with silt and becomes a meander scar.",
+     "Example: oxbow lakes on the lower Mississippi, USA.",
+     "Diagram: plan sequence showing the cut-off and the formation of the oxbow lake."
+    ]
+   },
+   {
+    "b": "Floodplains and levees are built by deposition during floods.",
+    "h": "Floodplain and levees (deposition, lower course)",
+    "points": [
+     "Lateral erosion by migrating meanders widens the valley floor.",
+     "When the river floods, it spreads across the valley, loses velocity and deposits a layer of fine silt called alluvium.",
+     "Repeated floods build a wide, flat, fertile floodplain; on an Ordnance Survey map, widely spaced contours show it.",
+     "Example: the Shannon Callows, a wide floodplain of seasonally flooded meadows.",
+     "Levees: the coarsest material is dropped first, right beside the channel, so each flood raises the banks a little.",
+     "Over time these build into natural embankments called levees, and the river bed itself may rise above the level of the floodplain.",
+     "Example: levees along the lower Mississippi, USA, which have been artificially raised for flood control.",
+     "Diagram: cross-section of a floodplain showing alluvium layers, levees and the raised channel."
+    ]
+   },
+   {
+    "h": "Delta formation (deposition at the mouth)",
+    "points": [
+     "A delta forms where a river carrying a heavy load enters a sea or lake and its velocity drops sharply.",
+     "In salt water, fine clay particles clump together (flocculation) and sink faster.",
+     "Deposits build up until they block the channel, forcing the river to split into smaller channels called distributaries.",
+     "Conditions needed: a large load, and calm water with a small tidal range and weak currents, so that deposits are not removed."
+    ]
+   },
+   {
+    "h": "Delta beds and types",
+    "points": [
+     "Topset beds: flat, coarser deposits laid down on top of the delta.",
+     "Foreset beds: steeply sloping deposits at the front of the delta, built out into the water.",
+     "Bottomset beds: fine, flat layers laid down beyond the front of the delta.",
+     "Arcuate (fan-shaped) delta, e.g. the Nile delta, Egypt.",
+     "Bird's-foot delta: long fingers of deposits along distributaries, e.g. the Mississippi delta, USA.",
+     "Estuarine delta: fills a drowned river mouth.",
+     "Lake delta, e.g. the delta between the Upper and Lower Lakes at Glendalough, Co. Wicklow, which divided what was once a single lake.",
+     "Diagram: plan view of a delta with distributaries; cross-section showing topset, foreset and bottomset beds."
+    ]
+   },
+   {
+    "h": "Estuary and braided channel (deposition)",
+    "points": [
+     "Estuary: in the tidal river mouth, fresh and salt water meet, and deposition builds mudflats and salt marsh.",
+     "Example: the Shannon Estuary below Limerick, where the Shannon enters the Atlantic.",
+     "Braided channel: the river splits into several channels around islands of deposited sand and gravel, called eyots or braid bars.",
+     "Braided channels form where the load is large and discharge varies."
+    ]
+   },
+   {
+    "h": "Classifying fluvial landforms",
+    "points": [
+     "Erosion: V-shaped valley, interlocking spurs, waterfall, gorge, potholes, rapids.",
+     "Erosion and deposition: meander, oxbow lake.",
+     "Deposition: floodplain, levee, delta, point bar, estuary mudflats."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Waterfall and gorge. A waterfall forms where a band of resistant rock lies over less resistant rock. First, hydraulic action forces water and air into the joints of the soft rock beneath the hard cap, so the soft rock is eroded faster than the cap. Second, abrasion, the scraping and grinding of the load against the bed, wears away the soft rock, undercutting the hard rock. Third, this undercutting leaves an overhang of unsupported hard rock. Fourth, falling water and its load strike the base of the fall. Fifth, hydraulic action and abrasion scour a deep plunge pool at the foot of the waterfall. Sixth, the plunge pool deepens the hollow beneath the overhang, so the overhang grows. Seventh, the unsupported overhang becomes too heavy and collapses. Eighth, the collapse moves the lip of the waterfall upstream, so the waterfall retreats. Ninth, the same processes repeat at the new site of the falls, so the waterfall retreats again and again. Tenth, repeated retreat leaves a steep-sided gorge downstream of the falls. Eleventh, the processes of erosion therefore create the waterfall, the plunge pool and the gorge in sequence. Twelfth, the example is Niagara Falls on the USA–Canada border, where a resistant cap of dolomite lies over weaker shale. Thirteenth, the retreat of the falls has cut the Niagara Gorge below them. Fourteenth, a labelled diagram would show the hard rock cap, the soft rock beneath, the overhang, the plunge pool and the direction of retreat. Fifteenth, the waterfall is therefore a landform created by hydraulic action and abrasion working together on a band of soft rock.",
+    "prompt": "Examine the role of the processes of erosion in the formation of one fluvial landform that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Delta. A delta forms where a river carrying a heavy load enters a sea or lake and its velocity drops sharply. In salt water, fine clay particles clump together in a process called flocculation and sink faster. Deposits build up until they block the channel, and the river splits into smaller channels called distributaries that spread across the delta. Coarser deposits are laid down on top of the delta as flat topset beds. Steeply sloping foreset beds build out at the front of the delta, into the water. Fine, flat bottomset beds are laid down beyond the front. Conditions needed are a large load, and calm water with a small tidal range and weak currents, so that the deposits are not removed. The arcuate delta is fan-shaped, as at the Nile delta, Egypt. The bird's-foot delta has long fingers of deposits along its distributaries, as at the Mississippi delta, USA. The estuarine delta fills a drowned river mouth. A lake delta forms where a river enters a lake, as the delta between the Upper and Lower Lakes at Glendalough, Co. Wicklow, which divided what was once a single lake. A labelled diagram should show a plan view with the distributaries, and a cross-section with the topset, foreset and bottomset beds.",
+    "prompt": "Explain, with the aid of a labelled diagram, the formation of one landform of fluvial deposition.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "V-shaped valley. First, the steep gradient of the upper course gives the river high energy. Second, the river erodes vertically by hydraulic action and abrasion. Third, weathering and mass movement loosen the valley sides and widen the top of the valley. Fourth, the result is a narrow floor and steep sides in a V-shape. Fifth, the river swings around areas of harder rock, leaving interlocking spurs. Sixth, the example is the upper course of the River Liffey in the Wicklow Mountains. Seventh, a cross-section of the valley shows the V-shape. Meander. First, water flows fastest on the outside of a bend, where erosion by hydraulic action and abrasion forms a steep river cliff. Second, water is slowest on the inside of the bend, where deposition forms a gently sloping point bar. Third, helicoidal flow carries eroded material from the outer bank to the inner bank of the next bend. Fourth, lateral erosion makes the bend more pronounced until only a narrow neck of land separates two bends. Fifth, during a flood the river cuts through the neck and takes a straighter, shorter course. Sixth, deposition seals off the old bend, leaving a crescent-shaped oxbow lake. Seventh, the example is the Shannon Callows, between Athlone and Portumna.",
+    "prompt": "Name and explain the formation of two river landforms.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rivers-s2": {
+  "keyTerms": [
+   {
+    "definition": "The lowest level to which a river can erode; sea level is the ultimate base level.",
+    "term": "Base level"
+   },
+   {
+    "definition": "A smooth, concave long profile on which the river's energy is just enough to carry its load, balancing erosion and deposition.",
+    "term": "Graded profile"
+   },
+   {
+    "definition": "Renewed vertical erosion by a river in its lower course, caused by a fall in base level relative to the land.",
+    "term": "Rejuvenation"
+   },
+   {
+    "definition": "A worldwide change in sea level, such as the fall caused by water locked up in ice sheets.",
+    "term": "Eustatic change"
+   },
+   {
+    "definition": "The break of slope on a long profile where the new and old graded profiles meet, which retreats upstream over time.",
+    "term": "Knickpoint"
+   },
+   {
+    "definition": "An incised meander with an asymmetrical cross-section, cut down slowly with some lateral erosion.",
+    "term": "Ingrown meander"
+   },
+   {
+    "definition": "An incised meander with a symmetrical, steep-sided gorge cross-section, cut down rapidly.",
+    "term": "Entrenched meander"
+   },
+   {
+    "definition": "A meander cut down vertically into the land by renewed erosion after rejuvenation.",
+    "term": "Incised meander"
+   },
+   {
+    "definition": "A flat step left above the present floodplain, the remnant of an older floodplain.",
+    "term": "River terrace"
+   },
+   {
+    "definition": "River terraces at the same height on both sides of a valley, formed by rapid downcutting.",
+    "term": "Paired terraces"
+   },
+   {
+    "definition": "River terraces at different heights on each side of a valley, formed while the river downcuts and migrates sideways.",
+    "term": "Unpaired terraces"
+   },
+   {
+    "definition": "A deep, steep-sided valley cut by a river, in rejuvenation, into uplifted land.",
+    "term": "Gorge"
+   },
+   {
+    "definition": "A beach left above present sea level by a fall in base level, such as isostatic uplift.",
+    "term": "Raised beach"
+   },
+   {
+    "definition": "A drowned river valley formed by a rise in base level, with the lower course flooded by the sea.",
+    "term": "Ria"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A river can erode no lower than its base level. Sea level is the ultimate base level.",
+    "h": "Base level and the graded river",
+    "points": [
+     "A lake, a band of resistant rock or a main river (for its tributary) acts as a temporary, local base level.",
+     "A graded (equilibrium) profile is a smooth, concave long profile where the river's energy is just enough to carry its load, so erosion and deposition are balanced.",
+     "A change in base level upsets this balance, and the river adjusts its profile to the new level."
+    ]
+   },
+   {
+    "b": "Rejuvenation is renewed vertical erosion caused by a fall in base level relative to the land. It gives the river renewed energy and interrupts a cycle of erosion.",
+    "h": "Causes of rejuvenation",
+    "points": [
+     "Cause 1, a eustatic fall in sea level: during a glacial period, water is locked up in ice sheets, so sea level falls worldwide.",
+     "Cause 2, isostatic uplift: land depressed under an ice sheet rises when the ice melts, raising it relative to sea level (see geo-glaciation-s2).",
+     "Cause 3, tectonic uplift of the land by earth movements.",
+     "Cause 4, an increase in discharge, e.g. from a wetter climate or by river capture, gives the river more energy; this is a less common cause."
+    ]
+   },
+   {
+    "h": "How rejuvenation spreads upstream",
+    "points": [
+     "Rejuvenation begins at the mouth and works upstream by headward erosion.",
+     "For a long time the river has two graded sections: a new, steeper lower section and the old, gentler upper section.",
+     "This is the landscape that is temporarily out of balance: the two sections reflect two different base levels."
+    ]
+   },
+   {
+    "h": "Knickpoint",
+    "points": [
+     "1. Rejuvenation cuts down at the mouth, creating a new graded section below the old one.",
+     "2. Where the new and old graded profiles meet, the long profile has a break of slope: this is the knickpoint.",
+     "3. A waterfall or rapids is often found at the knickpoint.",
+     "4. The knickpoint retreats upstream over time, and the new profile extends behind it.",
+     "5. Once the whole river has graded to the new base level, the knickpoint disappears.",
+     "Diagram: long profile showing the old and new graded sections and the knickpoint at their junction."
+    ]
+   },
+   {
+    "b": "Renewed vertical erosion cuts existing meanders down into the land, rather than forming them on a floodplain.",
+    "h": "Incised meanders",
+    "points": [
+     "Ingrown meanders: an asymmetrical cross-section, with one gentle and one steep side; downcutting is slower, with some lateral erosion.",
+     "Entrenched meanders: a symmetrical cross-section with steep sides, forming a gorge; downcutting is rapid.",
+     "Example of entrenched meanders: the Goosenecks of the San Juan River, Utah, USA.",
+     "Example of incised meanders: the River Wye, Wales–England border.",
+     "Diagram: cross-section showing a meander cut down into the land, with steep sides and no floodplain."
+    ]
+   },
+   {
+    "b": "River terraces are remnants of an old floodplain, left as flat steps above the new floodplain after the river has cut down.",
+    "h": "River terraces",
+    "points": [
+     "Paired terraces: at the same height on both sides of the valley; they form where the river downcuts rapidly.",
+     "Unpaired terraces: at different heights on each side; they form while the river downcuts and migrates sideways.",
+     "Example: the river terraces of the River Thames in and around London, England.",
+     "Diagram: cross-section of a valley showing paired terraces above the present floodplain."
+    ]
+   },
+   {
+    "h": "Gorge from uplift",
+    "points": [
+     "A gorge can be cut by deep incision of a river into an uplifted landscape.",
+     "Example: the Grand Canyon, cut by the Colorado River in Arizona, USA, as the Colorado Plateau was uplifted."
+    ]
+   },
+   {
+    "h": "Reading rejuvenation features on a diagram",
+    "points": [
+     "The number of rejuvenations equals the number of knickpoints on a long profile.",
+     "On a cross-section, the number of rejuvenations equals the number of terrace levels above the present floodplain.",
+     "Rejuvenation features not shown in a diagram are knickpoints, waterfalls or rapids at knickpoints, incised meanders, river terraces and gorges."
+    ]
+   },
+   {
+    "b": "A rise in base level, from sea level rising or land sinking, reduces the river's energy.",
+    "h": "Rise in base level and the coast",
+    "points": [
+     "The lower course is drowned and deposition increases; the mouth becomes a ria or an estuary (ria formation is in geo-glaciation-s2).",
+     "Coastal landforms caused by a change in base level: raised beaches (from a fall in base level) and rias (from a rise).",
+     "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal (see geo-glaciation-s2)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Base level is the lowest level to which a river can erode, and sea level is the ultimate base level. A fall in base level relative to the land gives the river renewed energy, so it erodes vertically again; this is rejuvenation. Causes include a eustatic fall in sea level, when water is locked up in ice sheets during a glacial period, and isostatic uplift, when land depressed under ice rises after the ice melts. Tectonic uplift and an increase in discharge are further causes. Rejuvenation begins at the mouth and works upstream by headward erosion, so the river has a new, steeper lower section and an old upper section. Where the two graded profiles meet there is a knickpoint, a break of slope often marked by a waterfall or rapids. The knickpoint retreats upstream as the river downcuts, and the river's landforms adjust as it does so. Incised meanders form when renewed vertical erosion cuts existing meanders down into the land. Ingrown meanders have an asymmetrical cross-section and downcut slowly with some lateral erosion. Entrenched meanders have a symmetrical, steep-sided gorge cross-section and downcut rapidly, as at the Goosenecks of the San Juan River, Utah, USA. River terraces are flat steps left above the new floodplain when the river cuts down. Paired terraces at the same height on both sides form where downcutting is rapid. Unpaired terraces at different heights form while the river migrates sideways as it downcuts. The number of terrace levels above the present floodplain shows how many rejuvenations have occurred. A labelled diagram should show the old and new graded sections, the knickpoint, an incised meander and paired terraces.",
+    "prompt": "Examine how a fall in base level can affect a river and its landforms.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "A knickpoint is the break of slope on a long profile where the new, steeper graded profile below meets the old graded profile above. A waterfall or rapids is often found at the knickpoint. As the river downcuts to the new base level, the knickpoint retreats upstream by headward erosion, so the new graded section extends behind it. Eventually the knickpoint reaches the head of the river and disappears once the whole river has graded to the new base level.",
+    "prompt": "Explain what a knickpoint is and describe how it changes over time.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "A eustatic fall in sea level, caused by water being locked up in ice sheets, and isostatic uplift of the land after the ice melts. Tectonic uplift is also accepted.",
+    "prompt": "Name two causes of river rejuvenation.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rivers-s3": {
+  "keyTerms": [
+   {
+    "definition": "The sequence of landscape stages from uplift to near-flatness, restarted by a new uplift or fall in base level.",
+    "term": "Cyclic landscape development"
+   },
+   {
+    "definition": "W. M. Davis's model of a landscape passing through youth, maturity and old age after a period of rapid uplift.",
+    "term": "Davis's cycle of erosion"
+   },
+   {
+    "definition": "The area of land between two rivers.",
+    "term": "Interfluve"
+   },
+   {
+    "definition": "A gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion.",
+    "term": "Peneplain"
+   },
+   {
+    "definition": "An isolated residual hill of more resistant rock rising above a peneplain.",
+    "term": "Monadnock"
+   },
+   {
+    "definition": "A landscape with remnants of more than one erosion cycle.",
+    "term": "Polycyclic landscape"
+   },
+   {
+    "definition": "A flat erosion surface cut across rocks of different types and structures.",
+    "term": "Planation surface"
+   },
+   {
+    "definition": "Summits at similar heights that cut across folded rock, showing an uplifted erosion surface.",
+    "term": "Accordant summits"
+   },
+   {
+    "definition": "Erosion that removes softer rock faster than harder rock, re-exposing relief.",
+    "term": "Differential erosion"
+   },
+   {
+    "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below.",
+    "term": "Superimposed drainage"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A landscape is shaped by endogenetic uplift and exogenetic denudation acting against each other over very long periods.",
+    "h": "Uplift, denudation and cyclic development",
+    "points": [
+     "When uplift stops, denudation slowly lowers the land towards base level.",
+     "Cyclic landscape development: the landscape passes through a sequence of stages from uplift to near-flatness, and a new uplift or fall in base level starts the sequence again."
+    ]
+   },
+   {
+    "b": "The geographical cycle was set out by William Morris Davis, an American geographer, who published it in 1899.",
+    "h": "Davis's cycle of erosion",
+    "points": [
+     "Davis's model assumes rapid uplift followed by a long period of stability, during which rivers and weathering wear the land down.",
+     "Davis held that the landscape depends on structure, process and stage (time)."
+    ]
+   },
+   {
+    "h": "Youth",
+    "points": [
+     "An uplifted plateau with high relief; steep gradients and vertical erosion.",
+     "Deep V-shaped valleys, with waterfalls and rapids.",
+     "Wide, flat interfluves (the areas between rivers) not yet eroded, and few tributaries."
+    ]
+   },
+   {
+    "h": "Maturity",
+    "points": [
+     "Maximum relief.",
+     "Valleys widen by lateral erosion; meanders and floodplains develop.",
+     "The drainage network is fully developed, and interfluves are reduced to ridges."
+    ]
+   },
+   {
+    "h": "Old age and the peneplain",
+    "points": [
+     "Relief is low, with very wide floodplains, large meanders, oxbow lakes and levees.",
+     "Rivers flow sluggishly close to base level, and divides are lowered to gentle rises.",
+     "Peneplain: the end product, a gently undulating surface of low relief close to base level, almost a plain."
+    ]
+   },
+   {
+    "h": "Monadnocks",
+    "points": [
+     "Monadnocks are isolated residual hills of more resistant rock rising above the peneplain.",
+     "The term comes from Mount Monadnock, New Hampshire, USA."
+    ]
+   },
+   {
+    "h": "Interruption and polycyclic landscapes",
+    "points": [
+     "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in geo-rivers-s2).",
+     "A landscape with remnants of more than one cycle is polycyclic."
+    ]
+   },
+   {
+    "b": "A planation surface is a flat erosion surface cut across rocks of different types and structures.",
+    "h": "Planation surfaces",
+    "points": [
+     "An uplifted peneplain survives as a plateau, or as summits at similar heights (accordant summits) that cut across folded rock.",
+     "An uplifted peneplain is no longer near base level."
+    ]
+   },
+   {
+    "h": "Criticisms of Davis's model",
+    "points": [
+     "Walther Penck, a German geomorphologist, argued that uplift and denudation happen at the same time, not one after the other.",
+     "The time needed for the cycle is far too long to observe.",
+     "The model ignores climate change, glaciation and the isostatic response to erosion.",
+     "Few, if any, true peneplains exist today at sea level.",
+     "In its favour, the model gives a simple, useful framework for describing landscapes by stage."
+    ]
+   },
+   {
+    "h": "Planation surfaces in Munster: structure and planation",
+    "points": [
+     "Folding about 300 million years ago (Variscan, also called Armorican) formed east–west ridges of Old Red Sandstone (anticlines) and valleys of softer Carboniferous limestone (synclines).",
+     "Over a very long period of denudation, the region was worn down towards a near-level surface cutting across the folds.",
+     "Evidence: flat or gently sloping upland surfaces, and summit levels at similar heights, cut across folded rocks of different types.",
+     "Diagram cue: a cross-section of folded rock with a flat planation surface cutting across the ridges and valleys."
+    ]
+   },
+   {
+    "h": "Planation surfaces in Munster: uplift and drainage",
+    "points": [
+     "Later uplift raised the planation surface, and the rivers were rejuvenated and cut down again.",
+     "Renewed erosion removed the softer limestone faster, so the ridge-and-valley relief was re-exposed (differential erosion).",
+     "The Munster Blackwater flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal.",
+     "The usual explanation for the southward turn is superimposed drainage: the river first flowed south across an older surface above the present rocks, and kept its course as it cut down into the folded rocks below. This is the usual explanation, not a proven fact.",
+     "The Munster landscape is temporarily out of balance: uplift has outpaced denudation, so an old surface survives at height while the rivers are still adjusting."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Davis's model assumes rapid uplift followed by a long period of stability, during which rivers and weathering wear the land down. In youth, the uplifted plateau has high relief, steep gradients and vertical erosion, deep V-shaped valleys with waterfalls and rapids, and wide, flat interfluves that are not yet eroded. In maturity, relief is at its maximum, valleys widen by lateral erosion, meanders and floodplains develop, the drainage network is fully developed, and the interfluves are reduced to ridges. In old age, relief is low, with very wide floodplains, large meanders, oxbow lakes and levees, and rivers flow sluggishly close to base level. The end product is a peneplain, a gently undulating surface of low relief close to base level. Monadnocks, isolated residual hills of more resistant rock, rise above the peneplain. If uplift, isostatic rebound or a fall in sea level occurs before the cycle is finished, the rivers are rejuvenated and a new cycle begins, and a landscape with remnants of more than one cycle is polycyclic. One criticism is that uplift and denudation happen at the same time, as Walther Penck argued, rather than one after the other. The model also ignores climate change and glaciation, and few true peneplains exist at sea level today.",
+    "prompt": "Describe and explain the stages in cyclic landscape development.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Folding about 300 million years ago, the Variscan or Armorican folding, formed east–west ridges of Old Red Sandstone and valleys of softer Carboniferous limestone. Over a very long period of denudation, the region was planed down towards a near-level surface that cut across the folds. Evidence for this planation is the flat or gently sloping upland surfaces and summit levels at similar heights, cut across folded rocks of different types. Later uplift raised this planation surface, so that it is now a former peneplain away from base level. The rivers were rejuvenated and cut down again. Renewed erosion removed the softer limestone faster than the sandstone, so the ridge-and-valley relief was re-exposed; this is differential erosion. The Munster Blackwater flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal. The usual explanation is superimposed drainage: the river first flowed south across an older surface above the present rocks and kept its course as it cut down through the folds. The landscape is temporarily out of balance, because uplift has outpaced denudation, so an old surface survives at height while the rivers are still adjusting.",
+    "prompt": "Examine how the landscape of Munster shows the effects of planation and later uplift.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "A peneplain is a gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion. It is the end stage of Davis's cycle of erosion.",
+    "prompt": "Explain briefly what is meant by a peneplain.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rivers-s4": {
+  "keyTerms": [
+   {
+    "definition": "The slow filling of a reservoir with sediment deposited by the river entering it.",
+    "term": "Sedimentation"
+   },
+   {
+    "definition": "Erosion of the bed and banks below a dam by water that is released free of sediment.",
+    "term": "Clear-water erosion"
+   },
+   {
+    "definition": "The drop in height of water through a dam, which gives hydro-electric power.",
+    "term": "Head"
+   },
+   {
+    "definition": "Straightening, deepening or lining an existing river channel, usually for navigation, drainage or flood control.",
+    "term": "Canalisation"
+   },
+   {
+    "definition": "Deepening and straightening rivers to drain farmland, carried out by the OPW under the Arterial Drainage Act 1945.",
+    "term": "Arterial drainage"
+   },
+   {
+    "definition": "An embankment that confines floodwater to the river channel.",
+    "term": "Levee"
+   },
+   {
+    "definition": "A removable flood barrier put in place when a flood is forecast.",
+    "term": "Demountable barrier"
+   },
+   {
+    "definition": "A bypass channel that takes floodwater around a town.",
+    "term": "Relief channel"
+   },
+   {
+    "definition": "Planning controls that restrict building on floodplains.",
+    "term": "Floodplain zoning"
+   },
+   {
+    "definition": "Areas of land allowed to flood, giving the river more room.",
+    "term": "Washlands"
+   },
+   {
+    "definition": "The capture of rainfall by vegetation, which slows runoff.",
+    "term": "Interception"
+   },
+   {
+    "definition": "The OPW's Catchment Flood Risk Assessment and Management programme.",
+    "term": "CFRAM"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Human activity changes how river processes operate: velocity, erosion, transport, deposition and flooding.",
+    "h": "Why people interfere with rivers",
+    "points": [
+     "Reasons include electricity, water supply, irrigation, navigation, draining farmland and protecting towns from flooding."
+    ]
+   },
+   {
+    "h": "How a hydro-electric dam works",
+    "points": [
+     "The dam stores water in a reservoir, and water falls through turbines.",
+     "The drop in height (head) gives the power."
+    ]
+   },
+   {
+    "h": "Hydro-electric dams: impacts upstream",
+    "points": [
+     "Velocity falls to near zero in the reservoir, so the river deposits its load there.",
+     "The reservoir slowly fills with sediment (sedimentation), reducing its capacity.",
+     "A delta can build where the river enters the reservoir."
+    ]
+   },
+   {
+    "h": "Hydro-electric dams: impacts downstream and on flow",
+    "points": [
+     "Water released from the dam is clear of sediment, so it has spare energy and erodes the bed and banks below the dam (clear-water erosion).",
+     "The floodplain and delta receive no new silt, so deltas and coasts erode.",
+     "Discharge is regulated, so natural floods and low flows are evened out.",
+     "Less flooding means less deposition on the floodplain.",
+     "Where water is diverted out of the old channel, the bypassed channel carries much less water.",
+     "Dams block migrating salmon and eels; fish passes and trapping and transporting fish around dams are responses."
+    ]
+   },
+   {
+    "b": "The Shannon Scheme is one power station at Ardnacrusha, near Limerick, fed by a weir and a canal. It is not a series of dams.",
+    "h": "Shannon Scheme at Ardnacrusha",
+    "points": [
+     "Built 1925–1929 by the German firm Siemens for the Irish Free State.",
+     "Parteen Weir diverts most of the Shannon's water into a headrace canal to Ardnacrusha; a tailrace returns it to the river near Limerick.",
+     "Lough Derg's level is controlled by Parteen Weir, so the lough acts as the scheme's reservoir.",
+     "The original channel between Parteen and Limerick, the Old River Shannon, carries much less water.",
+     "Salmon and eel stocks declined; the ESB built a fish pass and traps silver eels upstream and transports them past the dam.",
+     "It was Ireland's first large hydro-electric station."
+    ]
+   },
+   {
+    "h": "Other Irish hydro-electric dams",
+    "points": [
+     "Poulaphouca dam, River Liffey: created the Blessington Lakes reservoir, Co. Wicklow; it generates electricity and supplies drinking water to Dublin.",
+     "Inniscarra and Carrigadrohid dams, River Lee, Co. Cork.",
+     "Cathaleen's Fall power station, River Erne, at Ballyshannon, Co. Donegal."
+    ]
+   },
+   {
+    "h": "Aswan High Dam: reservoir and benefits",
+    "points": [
+     "Aswan High Dam, River Nile, Egypt, completed 1970; its reservoir is Lake Nasser, which extends into Sudan.",
+     "Benefits: flood control, year-round irrigation allowing more than one crop a year, hydro-electricity, and protection from drought."
+    ]
+   },
+   {
+    "h": "Aswan High Dam: impacts on river processes and people",
+    "points": [
+     "Silt is trapped in Lake Nasser, so farmers downstream rely on artificial fertilisers.",
+     "The river bed below the dam is scoured by clear water.",
+     "The Nile delta coast is eroding, e.g. at the Rosetta promontory.",
+     "The sardine fishery off the delta in the Mediterranean declined sharply.",
+     "Waterlogging and salinisation of irrigated land.",
+     "Perennial irrigation canals spread the disease schistosomiasis (bilharzia).",
+     "Nubian people were displaced, and the temples of Abu Simbel were moved to higher ground."
+    ]
+   },
+   {
+    "h": "Three Gorges Dam, Yangtze River",
+    "points": [
+     "Three Gorges Dam, Hubei province, China: the world's largest power station by installed capacity.",
+     "Completed in 2006 and fully operational in 2012; over one million people were relocated.",
+     "It aims to reduce flood peaks downstream; the Yangtze floods of 1998 killed thousands.",
+     "It traps sediment that once reached the river's lower course and delta."
+    ]
+   },
+   {
+    "b": "Canalisation modifies an existing river channel. It is not the same as building a canal.",
+    "h": "Canalisation: what it is and its purposes",
+    "points": [
+     "Methods: straightening, deepening and widening the channel; sometimes lining it with concrete; cutting through meanders; dredging; building locks and weirs for navigation.",
+     "Purposes: navigation, faster drainage of land, and flood control."
+    ]
+   },
+   {
+    "h": "Canalisation: impacts on river processes",
+    "points": [
+     "A straighter, shorter course has a steeper gradient and less friction, so velocity rises.",
+     "Water and floods are passed downstream faster, so flood peaks downstream are higher and arrive sooner.",
+     "Faster flow erodes the bed and banks.",
+     "Where the channel widens or the flow slows again, deposition increases and dredging is needed.",
+     "Meanders, oxbow lakes, pools and riffles are lost, and the river is cut off from its floodplain."
+    ]
+   },
+   {
+    "h": "Canalisation: Irish and international examples",
+    "points": [
+     "Arterial drainage by the Office of Public Works (OPW) under the Arterial Drainage Act 1945, e.g. the Moy and Boyne schemes: rivers were deepened and straightened to drain farmland.",
+     "Arterial drainage effects: changes to fish spawning beds, bank erosion and downstream flooding.",
+     "Mississippi: cut-offs made by the US Army Corps of Engineers shortened the river.",
+     "Rhine: the Upper Rhine was straightened in the 19th century under Johann Gottfried Tulla, which sped flood waves downstream and caused the bed to erode downward.",
+     "Navigation in Ireland: locks and weirs on the Shannon Navigation control water levels and slow the flow."
+    ]
+   },
+   {
+    "b": "Flood control measures respond to the causes of river flooding.",
+    "h": "Causes of flooding",
+    "points": [
+     "Prolonged or intense rain, and saturated ground.",
+     "Urban surfaces and drains speed runoff; deforestation and drainage of bogs and farmland upstream add to it.",
+     "Building on floodplains puts homes in the path of floodwater."
+    ]
+   },
+   {
+    "h": "Hard engineering flood control",
+    "points": [
+     "Embankments and levees confine flow to the channel, so deposition raises the bed and the banks must be raised again; the floodplain gets no silt, and failure gives sudden, severe floods.",
+     "Flood walls and demountable (removable) barriers in towns.",
+     "Dams and reservoirs store floodwater.",
+     "Dredging and deepening increase channel capacity, but the flow is faster and downstream flooding can increase.",
+     "Relief (bypass) channels take floodwater around the town."
+    ]
+   },
+   {
+    "h": "Soft engineering flood control",
+    "points": [
+     "Floodplain zoning: planning controls on building.",
+     "Afforestation upstream: interception slows runoff.",
+     "Restoring wetlands and bogs, and washlands that are allowed to flood, giving the river more room.",
+     "Flood forecasting and warning.",
+     "Effect on processes: natural flooding and floodplain deposition continue."
+    ]
+   },
+   {
+    "h": "Irish flood case studies",
+    "points": [
+     "Cork, November 2009: the River Lee flooded when the ESB released large volumes from Inniscarra dam during very heavy rain because the reservoir was full.",
+     "The releases were not the sole cause; the rain was exceptional. The University College Cork and the city water treatment works were flooded, and many homes lost their water supply.",
+     "Clonmel, Co. Tipperary: an OPW flood relief scheme on the River Suir uses demountable barriers that are put in place when floods are forecast.",
+     "December 2015: Storm Desmond caused prolonged flooding on the Shannon, in towns such as Athlone.",
+     "CFRAM (Catchment Flood Risk Assessment and Management) is the OPW programme that maps flood risk."
+    ]
+   },
+   {
+    "h": "Mississippi levee system",
+    "points": [
+     "The Great Mississippi Flood of 1927 led to the US federal levee and floodway system run by the US Army Corps of Engineers.",
+     "The 1993 flood breached many levees along the upper Mississippi and Missouri.",
+     "In August 2005 Hurricane Katrina caused levee and floodwall failures in New Orleans, and about 80% of the city flooded.",
+     "Levees stop flood silt reaching the delta, which contributes to the loss of Louisiana's coastal wetlands."
+    ]
+   },
+   {
+    "h": "Netherlands: Room for the River",
+    "points": [
+     "Room for the River (Ruimte voor de Rivier), Netherlands, started after near-disastrous high water on the Rhine and Maas in 1993 and 1995.",
+     "Measures include moving dykes back, lowering floodplains and digging side channels so the river can spread out safely."
+    ]
+   },
+   {
+    "h": "Evaluation of flood control and dams",
+    "points": [
+     "Benefits: protection of homes, electricity, navigation and water supply.",
+     "Costs: problems moved downstream, sediment starvation, habitat loss, high cost, and a false sense of security.",
+     "There is a trend towards working with natural processes."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Hard engineering measures include levees, dredging, dams and demountable barriers. Levees confine the flow to the channel, so velocity rises in the channel and deposition raises the bed, so the banks must be raised again; the floodplain receives no silt. Dredging deepens the channel and increases its capacity, but the faster flow erodes the bed and floods downstream. Dams store floodwater, so the downstream flow is reduced, but the reservoir traps sediment. Demountable barriers protect towns without changing the channel. Soft engineering measures include floodplain zoning, afforestation, restoring wetlands and washlands, and flood warning; these allow natural flooding and floodplain deposition to continue. Mississippi levees show the effects: after the 1927 and 1993 floods and the 2005 failures in New Orleans, levees stop silt reaching the delta, so the Louisiana coastal wetlands are lost. In Ireland, Cork in 2009 was flooded after releases from Inniscarra dam, and Clonmel uses demountable barriers on the River Suir. Evaluation: the measures protect homes and infrastructure, but they move problems downstream, starve the floodplain of sediment and can give a false sense of security. The trend is towards working with natural processes.",
+    "prompt": "Examine the impact of flood control measures on river processes.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Ardnacrusha and the Aswan High Dam show the processes affected. In the reservoir, velocity falls to near zero, so the river deposits its load and the reservoir fills with sediment; at Lake Nasser, silt is trapped, so downstream farmers rely on artificial fertilisers. Downstream, the water released is clear of sediment, so it erodes the bed and banks below the dam; at Aswan the river bed is scoured. Regulated discharge evens out natural floods and low flows, so less deposition takes place on the floodplain. The lack of new silt means the Nile delta coast is eroding, for example at the Rosetta promontory. At Ardnacrusha, Parteen Weir diverts most of the Shannon's water into a canal, so the Old River Shannon carries much less water. Dams block migrating fish: at Ardnacrusha salmon and eel stocks declined, and the ESB built a fish pass and transports silver eels past the dam.",
+    "prompt": "Examine the impact of hydro-electric dams on river processes, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Canalisation straightens, deepens and widens an existing channel, cuts through meanders and dredges the channel, usually for navigation, faster drainage of land and flood control. A straighter, shorter course has a steeper gradient and less friction, so velocity increases. Water and floods pass downstream faster, so flood peaks are higher and arrive sooner. Faster flow erodes the bed and banks. Where the channel widens or the flow slows, deposition increases and dredging is needed. Meanders, oxbow lakes, pools and riffles are lost, and the river is cut off from its floodplain. The Rhine, straightened in the 19th century under Johann Gottfried Tulla, shows the downward erosion of the bed and the faster flood waves. In Ireland, arterial drainage under the Arterial Drainage Act 1945 deepened and straightened the Moy and Boyne to drain farmland, with effects on fish spawning beds, bank erosion and downstream flooding.",
+    "prompt": "Describe how canalisation affects a river.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-sea-s1": {
+  "keyTerms": [
+   {
+    "definition": "The distance of open water over which the wind blows, which controls the size of waves.",
+    "term": "Fetch"
+   },
+   {
+    "definition": "Water rushing up the beach after a wave breaks.",
+    "term": "Swash"
+   },
+   {
+    "definition": "Water draining back down the beach under gravity after swash.",
+    "term": "Backwash"
+   },
+   {
+    "definition": "The bending of wave fronts as they slow in shallow water off headlands, concentrating energy on headlands.",
+    "term": "Refraction"
+   },
+   {
+    "definition": "Erosion by breaking waves forcing air and water into cracks, which are compressed and then released, shattering the rock.",
+    "term": "Hydraulic action"
+   },
+   {
+    "definition": "Erosion by sand, shingle and boulders thrown against the cliff by waves.",
+    "term": "Abrasion"
+   },
+   {
+    "definition": "The breaking and rounding of rock fragments as they collide, wearing down the load.",
+    "term": "Attrition"
+   },
+   {
+    "definition": "A gently sloping rock surface left at the foot of a retreating cliff, exposed at low tide.",
+    "term": "Wave-cut platform"
+   },
+   {
+    "definition": "An isolated rock pillar left when the roof of a sea arch collapses.",
+    "term": "Sea stack"
+   },
+   {
+    "definition": "A hole formed when a sea cave is enlarged upward along a joint until it breaks through to the cliff top.",
+    "term": "Blowhole"
+   },
+   {
+    "definition": "The movement of sand and shingle along the coast, as swash carries material up the beach at an angle and backwash drags it straight back down.",
+    "term": "Longshore drift"
+   },
+   {
+    "definition": "A ridge of sand or shingle built out from the land by longshore drift and attached to it at one end.",
+    "term": "Spit"
+   },
+   {
+    "definition": "The curved tip of a spit, formed by wave refraction or a change in wind direction.",
+    "term": "Recurved end"
+   },
+   {
+    "definition": "A body of water trapped behind a sand bar, which slowly fills with sediment.",
+    "term": "Lagoon"
+   },
+   {
+    "definition": "A ridge of sand or shingle joining an island to the mainland.",
+    "term": "Tombolo"
+   },
+   {
+    "definition": "A dune grass whose long roots bind the sand, allowing sand dunes to form and grow.",
+    "term": "Marram grass"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Waves take their energy from the wind, and the water itself stays in place as the wave passes.",
+    "h": "How waves form and break",
+    "points": [
+     "Wind blowing over the sea surface transfers energy to the water, raising waves.",
+     "Wave size depends on wind speed, the length of time the wind blows, and fetch.",
+     "Fetch is the distance of open water over which the wind blows; a longer fetch allows bigger waves.",
+     "Water particles move in circles as a wave passes; the water does not travel forward until the wave breaks.",
+     "A wave's crest is its highest point and its trough the lowest; wave height is the vertical distance between them, and wavelength is the distance between successive crests.",
+     "A wave breaks in shallow water: friction with the sea bed slows its base while the crest keeps moving, so the crest topples forward.",
+     "Swash is the water rushing up the beach after a wave breaks.",
+     "Backwash is the water draining back down the beach under gravity."
+    ]
+   },
+   {
+    "b": "The balance between swash and backwash decides whether a beach is built up or cut back.",
+    "h": "Constructive and destructive waves",
+    "points": [
+     "Constructive waves are low, gentle, long-wavelength and low-frequency, and they spill onto the beach.",
+     "Constructive waves are typical of calm weather; their swash is stronger than their backwash, so they carry material up the beach and build it up.",
+     "Destructive waves are high, steep, short-wavelength and high-frequency, and they plunge down onto the beach.",
+     "Destructive waves are typical of storms; their backwash is stronger than their swash, so they drag material out to sea and erode the beach."
+    ]
+   },
+   {
+    "h": "Wave refraction",
+    "points": [
+     "Refraction: waves approaching an indented coast slow down first in shallow water off headlands, so the wave fronts bend.",
+     "Energy converges on headlands, causing more erosion there, and spreads out in bays, where it is weaker and deposition is favoured.",
+     "Refraction turns wave fronts until they are roughly parallel to the shore."
+    ]
+   },
+   {
+    "h": "Tides and sea-level change",
+    "points": [
+     "Tides are the twice-daily rise and fall of sea level, caused mainly by the pull of the moon, with the sun also contributing.",
+     "Tidal range sets the vertical band of coast on which the waves work.",
+     "A storm surge raises sea level, letting waves reach higher up cliffs and beaches.",
+     "Longer-term changes in land and sea level also change coasts: raised beaches (emergent coasts), and rias, fjords and drowned drumlins (submergent coasts), are covered in the glaciation chapter on isostasy."
+    ]
+   },
+   {
+    "b": "Waves wear away rock by four processes, and abrasion is the most effective at the foot of a cliff.",
+    "h": "Processes of coastal erosion",
+    "points": [
+     "Hydraulic action: the force of breaking waves forces air and water into joints and cracks; the trapped air and water are compressed, then released as the wave retreats, weakening and shattering the rock.",
+     "Abrasion (corrasion): waves hurl sand, shingle and boulders against the cliff, grinding and undercutting it.",
+     "Attrition: rocks carried by the waves collide with each other and break into smaller, rounder pieces; attrition wears down the load rather than the cliff.",
+     "Solution (corrosion): sea water dissolves soluble rock such as limestone."
+    ]
+   },
+   {
+    "h": "Weathering, mass movement and controls on erosion",
+    "points": [
+     "Above the waves, weathering (freeze-thaw and salt crystallisation) and mass movement (rockfalls, and slumping on soft clay cliffs) wear the cliff back.",
+     "Waves then remove the debris that falls from the cliff face.",
+     "Soft glacial deposits such as boulder clay erode fastest; on the Holderness coast of Yorkshire, England, cliffs of soft boulder clay are among the fastest-eroding coastlines in Europe.",
+     "Rock structure matters: joints, faults and bedding give waves lines of weakness to exploit.",
+     "Wave energy depends on fetch, storms and refraction.",
+     "A beach at the foot of a cliff can absorb wave energy and protect the cliff; human activity, such as the removal of beach material, can change the rate of erosion."
+    ]
+   },
+   {
+    "b": "Exposure to the Atlantic or the Irish Sea decides whether a coast is eroding or depositing.",
+    "h": "Coastal patterns in Ireland",
+    "points": [
+     "The west coast faces the long Atlantic fetch and the prevailing south-westerly winds, so high-energy waves produce rugged, cliffed, erosional coasts.",
+     "The east coast faces the narrow Irish Sea, which gives a short fetch; its lower-energy waves and soft glacial deposits favour depositional features such as beaches, spits, lagoons and dunes.",
+     "Storms do most of the erosion, in short episodes; this is the temporal variation in coastal processes.",
+     "Where bands of hard and soft rock meet the coast at right angles (a discordant coast), the soft rock is eroded back into bays and the hard rock is left as headlands.",
+     "A concordant coast, where the rock bands run parallel to the shore, stays straighter.",
+     "Headland and bay: the two landforms that result from this differential erosion; Downpatrick Head, Co. Mayo, is a headland, and the chalk headland of Handfast Point, Dorset, England, lies between Studland Bay and Swanage Bay, which are cut into softer sands and clays."
+    ]
+   },
+   {
+    "b": "A cliff retreats inland as its base is undercut, leaving a platform of rock at its foot.",
+    "h": "Cliffs and wave-cut platforms (erosion)",
+    "points": [
+     "1. Waves erode a notch in the cliff base, between high and low tide, by hydraulic action and abrasion.",
+     "2. The rock above the notch becomes an overhang, which collapses when unsupported.",
+     "3. Waves remove the debris, and the cliff retreats inland, remaining steep.",
+     "4. The gently sloping rock surface left at the foot of the retreating cliff is the wave-cut platform, exposed at low tide.",
+     "5. The platform widens as the cliff retreats, until waves lose most of their energy crossing it, which slows erosion.",
+     "Example: Cliffs of Moher, Co. Clare, rise to 214 m at their highest and are made of layers of shale and sandstone.",
+     "Diagram: side view of a cliff with the notch, overhang, arrow showing retreat, and the wave-cut platform exposed at low tide."
+    ]
+   },
+   {
+    "b": "These four features form one sequence as a headland is cut back.",
+    "h": "Caves, arches, stacks and stumps (erosion sequence)",
+    "points": [
+     "1. Waves exploit a line of weakness, a joint or fault, at the base of a headland, enlarging it by hydraulic action and abrasion to form a sea cave.",
+     "2. Caves on opposite sides of a headland meet, or one cave cuts right through, forming a sea arch.",
+     "3. The arch roof is weakened from below by wave erosion and from above by weathering, then collapses, leaving an isolated pillar called a sea stack.",
+     "4. The stack is undercut at its base and collapses into a low sea stump, which is covered at high tide.",
+     "Examples: Bridges of Ross, Co. Clare, were originally three sea arches, and only one still stands; Durdle Door, Dorset, England, is a sea arch.",
+     "Stacks: Dún Briste, a sea stack off Downpatrick Head, Co. Mayo; Old Harry Rocks, chalk stacks off Handfast Point, Dorset, England.",
+     "Diagram: four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave."
+    ]
+   },
+   {
+    "h": "Blowholes and geos (erosion)",
+    "points": [
+     "1. A cave is enlarged upward along a vertical joint by hydraulic action, with compressed air, until it breaks through to the cliff top, forming a blowhole.",
+     "2. In storms, spray is forced up through the hole.",
+     "3. If the roof between the blowhole and the sea collapses, a narrow inlet called a geo forms.",
+     "Blowholes are classified as erosional features.",
+     "Diagram: vertical section of a cave connected to a vertical joint that opens at the cliff top."
+    ]
+   },
+   {
+    "h": "Transport along the coast",
+    "points": [
+     "Waves carry load in the same four ways as rivers: traction, saltation, suspension and solution.",
+     "Longshore drift: waves approach the beach at an angle set by the prevailing wind; swash carries material up the beach at that angle, and backwash drags it straight back down the slope under gravity.",
+     "Repeated over time, longshore drift moves sand and shingle along the coast in a zigzag.",
+     "Longshore drift is the transport process behind spits, bars, lagoons and tombolos.",
+     "Example: on the Holderness coast, longshore drift moves eroded material southward to Spurn Head."
+    ]
+   },
+   {
+    "h": "Deposition on the coast",
+    "points": [
+     "Waves deposit material when they lose energy: in constructive wave conditions, in sheltered bays, in shallow water, or after refraction has reduced their energy.",
+     "Deposition also happens where the coast changes direction, such as at a river mouth or bay.",
+     "A large supply of sediment is needed, from rivers, cliff erosion or glacial deposits offshore.",
+     "A beach is sand and shingle deposited between low tide and the highest storm waves.",
+     "Finer sand is deposited lower down the beach, and coarser shingle higher up.",
+     "A storm beach is a ridge of large shingle thrown above normal high tide by storm waves.",
+     "Berms are ridges marking successive high-tide levels.",
+     "Examples: Tramore, Co. Waterford; Curracloe, Co. Wexford."
+    ]
+   },
+   {
+    "h": "Sand spits and sand bars (deposition)",
+    "points": [
+     "1. Longshore drift carries material past a point where the coast changes direction, such as a bay or river mouth.",
+     "2. The material is deposited in calmer, deeper water, building a ridge out from the land; a spit is attached to the land at one end only.",
+     "3. Wave refraction or a change in wind direction curves the tip, forming a recurved end.",
+     "4. Sheltered water behind the spit fills with silt, forming salt marsh or mudflat.",
+     "A sand bar (barrier beach) is a spit that grows right across the mouth of a bay, joining two headlands.",
+     "Examples: Inch and Rossbeigh, Co. Kerry, are two sand spits growing out from opposite sides of Dingle Bay; Spurn Head, at the mouth of the Humber estuary, England, is a spit.",
+     "Diagram: plan view of a recurved spit showing the drift direction, the ridge attached to the land, the recurved tip and the salt marsh behind."
+    ]
+   },
+   {
+    "h": "Lagoons and tombolos (deposition)",
+    "points": [
+     "A lagoon is the body of water trapped behind a sand bar; it is a depositional feature.",
+     "A lagoon slowly fills with sediment and vegetation and may become marsh.",
+     "Examples: Lady's Island Lake and Tacumshin Lake, Co. Wexford, are coastal lagoons behind sand-and-gravel barriers; the Back Strand at Tramore, Co. Waterford, is another.",
+     "A tombolo is a ridge of sand or shingle joining an island to the mainland.",
+     "It is built by longshore drift and by waves refracting around the island and meeting in its shelter.",
+     "Example: Sutton, Co. Dublin, where a tombolo joins Howth Head, once an island, to the mainland."
+    ]
+   },
+   {
+    "h": "Sand dunes (deposition)",
+    "points": [
+     "1. Wind blows dry sand from a wide beach at low tide inland, where it piles up against obstacles such as driftwood, seaweed and plants above high tide.",
+     "2. Marram grass colonises the sand; its long roots bind the sand, and its growth keeps pace with burial.",
+     "3. Embryo dunes grow into fore dunes, and further inland, as soil develops and other plants arrive, grey (fixed) dunes form.",
+     "Dune slacks are damp hollows between the dune ridges.",
+     "Damage to dunes by people is covered with the human impacts on coasts.",
+     "Examples: Brittas Bay, Co. Wicklow; Curracloe, Co. Wexford; North Bull Island, Dublin Bay.",
+     "Diagram: cross-section from beach to inland showing embryo, fore and grey dunes, and a dune slack."
+    ]
+   },
+   {
+    "h": "Classifying coastal features",
+    "points": [
+     "Erosional features: cliff, wave-cut notch, wave-cut platform, cave, sea arch, sea stack, sea stump, blowhole and headland.",
+     "Depositional features: beach, storm beach, sand spit, sand bar, lagoon, tombolo, sand dunes and salt marsh.",
+     "Matching a photograph, aerial photograph or diagram to these features uses the same two classes."
+    ]
+   },
+   {
+    "b": "The average annual rate of coastal erosion is the total distance retreated divided by the number of years.",
+    "h": "Average rate of coastal erosion",
+    "points": [
+     "Step 1: subtract the earlier year from the later year to find the number of years.",
+     "Step 2: divide the total distance the cliff retreated by the number of years.",
+     "Illustrative figures (invented): a cliff retreats 50 m between 1990 and 2015.",
+     "Years: 2015 minus 1990 gives 25 years.",
+     "Rate: 50 m divided by 25 years gives an average of 2 m per year."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Deposition occurs when waves and currents lose energy, in sheltered water or where the coast changes direction. A sand spit is built by deposition of material carried along the coast by longshore drift. The supply of sediment comes from rivers, cliff erosion or glacial deposits offshore. Longshore drift moves the material in a zigzag, as swash carries it up the beach at an angle and backwash drags it straight back down under gravity. When the drift reaches a point where the coast changes direction, such as a bay or river mouth, the material is deposited in calmer, deeper water. Deposition builds a ridge out from the land, so the spit grows outward and is attached to the land at one end only. Wave refraction or a change in wind direction curves the tip, forming a recurved end. Sheltered water behind the spit then receives fine silt, which builds up into salt marsh or mudflat. Inch, Co. Kerry, is a sand spit growing out from one side of Dingle Bay, while Rossbeigh grows from the opposite side. Diagram: a plan view showing the direction of drift along the coast, the ridge attached to the land, the recurved tip and the salt marsh behind the spit.",
+    "prompt": "Examine the role of the process of deposition in the formation of one coastal landform that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "A sea stack forms from a headland through a sequence of cave, arch, stack and stump. A line of weakness, such as a joint or fault, at the base of a headland is exploited by waves. Hydraulic action compresses air and water into the crack, and abrasion, from sand and boulders thrown against the rock, enlarges it into a sea cave. Caves on opposite sides of the headland enlarge until they meet or one cuts right through, forming a sea arch. Waves erode the arch from below, and weathering attacks it from above, weakening the roof. The roof collapses, leaving an isolated pillar called a sea stack. The base of the stack is undercut by waves and eventually collapses, leaving a low sea stump that is covered at high tide. Dún Briste, a sea stack off Downpatrick Head, Co. Mayo, shows this stage of the sequence. Diagram: a labelled four-stage sequence of cave, arch, stack and stump, with the joint or fault marked at the cave, and the direction of wave attack shown with arrows.",
+    "prompt": "Explain, with the aid of a labelled diagram, the formation of one landform of coastal erosion.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "(a) Constructive waves are low, gentle waves with long wavelengths and low frequency. They spill onto the beach, and their swash is stronger than their backwash, so they carry material up the beach and build it up. They are typical of calm weather. (b) Wave refraction is the bending of wave fronts as they approach an indented coast. The waves slow down first in shallow water off headlands, so the wave fronts bend. Energy converges on headlands and spreads out in bays. The wave fronts end up roughly parallel to the shore.",
+    "prompt": "Explain briefly what is meant by (a) constructive waves and (b) wave refraction.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-sea-s2": {
+  "keyTerms": [
+   {
+    "definition": "A hollow cut into a dune by the wind after marram grass is destroyed, which can breach the dune ridge.",
+    "term": "Blowout"
+   },
+   {
+    "definition": "The narrowing of a beach when development blocks its natural landward movement, so defences become necessary.",
+    "term": "Coastal squeeze"
+   },
+   {
+    "definition": "Structures built to resist the sea, such as sea walls and groynes.",
+    "term": "Hard engineering"
+   },
+   {
+    "definition": "Methods that work with natural processes, such as beach nourishment, dune regeneration and managed retreat.",
+    "term": "Soft engineering"
+   },
+   {
+    "definition": "A concrete or stone wall, often curved, that protects the land behind but reflects wave energy and scours the beach in front.",
+    "term": "Sea wall"
+   },
+   {
+    "definition": "Large boulders piled at the foot of a cliff or in front of a sea wall to absorb and break up wave energy.",
+    "term": "Rock armour"
+   },
+   {
+    "definition": "A low barrier built out across the beach at right angles to the shore, trapping sand on its updrift side.",
+    "term": "Groyne"
+   },
+   {
+    "definition": "A sloping wooden, concrete or rock structure that breaks waves before they reach the land behind.",
+    "term": "Revetment"
+   },
+   {
+    "definition": "A wire cage filled with stones, used in coastal defence.",
+    "term": "Gabion"
+   },
+   {
+    "definition": "Sand or shingle pumped or trucked onto a beach to widen it.",
+    "term": "Beach nourishment"
+   },
+   {
+    "definition": "Removing or not replacing defences and allowing the sea to flood low-value land, creating salt marsh.",
+    "term": "Managed retreat"
+   },
+   {
+    "definition": "Integrated coastal zone management: planning a whole sediment cell of coast as one unit.",
+    "term": "ICZM"
+   },
+   {
+    "definition": "A protected habitat site under the EU Habitats Directive, forming part of the Natura 2000 network.",
+    "term": "Special Area of Conservation"
+   },
+   {
+    "definition": "An international beach award for water quality, environmental management, education and safety.",
+    "term": "Blue Flag"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Coasts are a balance between erosion, transport and deposition, and human activity can upset that balance.",
+    "h": "How human activity upsets coastal processes",
+    "points": [
+     "Human activity can interrupt longshore drift, remove sediment, destroy the vegetation that holds dunes together, or reflect wave energy.",
+     "The effects often appear further along the coast, downdrift, rather than where the work was done."
+    ]
+   },
+   {
+    "h": "Trampling, vehicles and blowouts on dunes",
+    "points": [
+     "Trampling of sand dunes by walkers and sunbathers kills marram grass.",
+     "With no roots binding it, the sand is removed by the wind, cutting blowouts (hollows) into the dunes.",
+     "A blowout can breach the dune ridge, letting the sea reach the land behind.",
+     "Vehicles and parking on dunes and beaches destroy vegetation and compact the sand; caravan parks and holiday homes built on dunes do the same."
+    ]
+   },
+   {
+    "h": "Golf courses, footpaths and busy viewpoints",
+    "points": [
+     "Golf courses on dunes (links) stabilise some dunes, but replace natural habitats and lead to demands for defences to protect the course.",
+     "Footpath erosion and cliff-edge damage occur at busy viewing points.",
+     "Litter, pollution and disturbance of nesting and feeding birds follow heavy use."
+    ]
+   },
+   {
+    "h": "Resort development and coastal squeeze",
+    "points": [
+     "Hotels, apartments and promenades built on the beach or dune line remove the natural sediment store.",
+     "They block the natural landward movement of dunes and beaches, so the beach narrows and defences become necessary; this is called coastal squeeze.",
+     "Example: the Spanish Mediterranean coast, including the Costa del Sol and Benidorm on the Costa Blanca, where high-rise resorts have been built along the shore since mass tourism grew in the 1960s."
+    ]
+   },
+   {
+    "h": "Hard and soft engineering",
+    "points": [
+     "Hard engineering builds structures to resist the sea; soft engineering works with natural processes.",
+     "Hard engineering is usually expensive and effective locally, and it can increase erosion elsewhere."
+    ]
+   },
+   {
+    "b": "A sea wall protects the land behind it but changes the processes in front of it.",
+    "h": "Sea walls",
+    "points": [
+     "Sea walls are concrete or stone walls, often curved (recurved) to throw waves back.",
+     "They reflect wave energy, so backwash scours the beach in front, lowering and narrowing it, and the wall itself is undermined.",
+     "Erosion often increases at the ends of a sea wall.",
+     "Sea walls are expensive to build and maintain."
+    ]
+   },
+   {
+    "h": "Rock armour",
+    "points": [
+     "Rock armour (rip-rap) is large boulders piled at the foot of a cliff or in front of a sea wall.",
+     "The gaps between the boulders absorb and break up wave energy.",
+     "It is cheaper than a sea wall and quick to place.",
+     "It can be unsightly and hard to walk over, and big storms may move the boulders.",
+     "In photographs, rock armour appears as a pile of loose boulders at the cliff foot or wall."
+    ]
+   },
+   {
+    "h": "Groynes",
+    "points": [
+     "Groynes are low wooden, rock or concrete barriers built out from the shore at right angles, across the beach.",
+     "They trap sand moving by longshore drift on their updrift side, widening the beach, which absorbs wave energy.",
+     "Effect on processes: the beach downdrift is starved of sediment, so erosion increases there.",
+     "Unlike rock armour, which lies along the foot of a cliff or wall, groynes run out across the beach at right angles to the shore."
+    ]
+   },
+   {
+    "h": "Other shoreline structures",
+    "points": [
+     "Gabions are wire cages filled with stones.",
+     "Revetments are sloping wooden, concrete or rock structures that break waves.",
+     "Offshore breakwaters and reefs are structures parallel to the shore, just offshore, that make waves break before they reach the beach.",
+     "Training walls and harbour piers interrupt longshore drift and cause deposition in new places; the North Bull Wall, Dublin Bay, is an example."
+    ]
+   },
+   {
+    "h": "Beach nourishment and dune regeneration",
+    "points": [
+     "Beach nourishment pumps or trucks sand or shingle onto a beach to widen it.",
+     "It looks natural and keeps the beach for tourism.",
+     "It must be repeated, as waves remove the sand, and dredging the source can harm the sea bed.",
+     "Dune regeneration uses sand fencing or brushwood to trap blown sand, replants marram grass, and fences off damaged areas.",
+     "It is cheap and natural, but takes years and needs visitors to keep off the dunes."
+    ]
+   },
+   {
+    "h": "Managed retreat",
+    "points": [
+     "In managed retreat (managed realignment), or 'do nothing', defences are removed or not replaced, and the sea is allowed to flood low-value land.",
+     "The flooded land becomes salt marsh, which absorbs wave energy and provides habitat.",
+     "It is cheap and sustainable, but landowners lose land."
+    ]
+   },
+   {
+    "b": "The Mappleton scheme shows how a defence can move erosion downdrift.",
+    "h": "Case study: Mappleton, Holderness coast, England",
+    "points": [
+     "At Mappleton, on the Holderness coast, England, a 1991 scheme of two rock groynes and rock armour at the cliff foot protected the village and the main coast road.",
+     "The scheme cost about £2 million.",
+     "Result: the beach built up between the groynes, but the cliffs immediately south of the scheme, starved of sediment, eroded faster than before.",
+     "This is the textbook example of defence moving the problem downdrift."
+    ]
+   },
+   {
+    "h": "Case study: North Bull Island, Dublin Bay",
+    "points": [
+     "The North Bull Wall was built in the 1820s to stop sand silting up the entrance to Dublin Port.",
+     "Sand then built up against and beside the wall, and North Bull Island grew from a sandbank into an island with dunes, salt marsh and mudflats.",
+     "It is an example of a human structure causing deposition."
+    ]
+   },
+   {
+    "h": "Case study: Rosslare Strand, Co. Wexford",
+    "points": [
+     "Rosslare Strand is a sandy resort coast on an eroding shoreline.",
+     "It is protected by groynes and rock armour."
+    ]
+   },
+   {
+    "b": "After the 1953 storm surge, the Dutch built defences that were balanced with conservation.",
+    "h": "Case study: the Netherlands",
+    "points": [
+     "The North Sea storm surge of 1953 flooded the south-west of the Netherlands and killed about 1,800 people there.",
+     "The response was the Delta Works: dams, sluices and storm-surge barriers that shortened and sealed the coast of Zeeland.",
+     "The Oosterschelde (Eastern Scheldt) barrier, completed in 1986, has movable gates that stay open in normal weather.",
+     "Because the tides still flow in, the estuary's ecosystem and shellfish industry are kept, which makes this defence balanced with conservation."
+    ]
+   },
+   {
+    "h": "Why manage the coast",
+    "points": [
+     "Coasts are under pressure from erosion, development, tourism and rising sea levels.",
+     "Management tries to protect people and property while keeping natural processes and habitats working.",
+     "Integrated coastal zone management (ICZM) plans a whole stretch of coast, a sediment cell, as one unit.",
+     "ICZM balances defence, tourism, development and conservation, because work in one place affects places downdrift."
+    ]
+   },
+   {
+    "h": "Legal protection and the Blue Flag",
+    "points": [
+     "The EU Habitats and Birds Directives protect coastal sites through Special Areas of Conservation (SACs) for habitats and Special Protection Areas (SPAs) for birds, which together form the Natura 2000 network.",
+     "In Ireland, the National Parks and Wildlife Service oversees these sites.",
+     "Planning controls restrict building close to the shore.",
+     "Spain's Ley de Costas (Coastal Law) of 1988 was passed in response to overdevelopment and restricts building on the shore zone.",
+     "Blue Flag is an international beach award run by the Foundation for Environmental Education and administered in Ireland by An Taisce.",
+     "Its criteria cover water quality, environmental education and information, environmental management, and safety and services, encouraging councils to manage beaches well."
+    ]
+   },
+   {
+    "h": "Managing busy dunes and cliffs",
+    "points": [
+     "Dune management at busy beaches uses boardwalks and marked paths, fencing off eroded areas, marram replanting, moving car parks back from the dunes, information signs and seasonal wardens.",
+     "Example: Brittas Bay, Co. Wicklow, is a dune system heavily used by day-trippers from Dublin in summer; trampling and parking damaged the dunes, which are part of a protected Special Area of Conservation.",
+     "Cliffs of Moher, Co. Clare: a visitor centre, built into the hillside, opened in 2007.",
+     "Paths and a wall or barrier are set back from the cliff edge to control trampling and keep people safe."
+    ]
+   },
+   {
+    "h": "North Bull Island as a conservation site",
+    "points": [
+     "North Bull Island, Dublin Bay, has been a UNESCO Biosphere Reserve since 1981, and was extended in 2015 as the Dublin Bay Biosphere.",
+     "Its salt marsh and mudflats are a major wintering ground for Brent geese and other wildfowl and waders.",
+     "Pressures include the Royal Dublin and St Anne's golf courses on the island, cars driving onto the beach, and many visitors from the city.",
+     "It shows recreation, conservation and a human-made landform in one place."
+    ]
+   },
+   {
+    "h": "Managed realignment at Medmerry",
+    "points": [
+     "Medmerry, West Sussex, England, was completed in 2013 as a managed realignment scheme.",
+     "The shingle bank was no longer maintained, a new embankment was built further inland, and the sea was let in to create intertidal habitat.",
+     "This intertidal habitat absorbs wave energy."
+    ]
+   },
+   {
+    "h": "Evaluating coastal management",
+    "points": [
+     "Hard defences protect a place, but they move erosion downdrift and are costly.",
+     "Soft measures are cheaper and more sustainable, but slower and less certain.",
+     "The best management works with the sediment system along a whole coast."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Sea walls reflect wave energy, so backwash scours the beach in front, lowering and narrowing it, and erosion often increases at the ends of the wall. Rock armour lies at the foot of a cliff or wall, and the gaps between its boulders absorb and break up wave energy, which protects the cliff foot. Groynes run out across the beach at right angles to the shore; they trap sand moving by longshore drift on their updrift side, widening the beach, but the beach downdrift is starved of sediment, so erosion increases there. At Mappleton on the Holderness coast, England, a 1991 scheme of two rock groynes and rock armour protected the village and the main coast road. The beach built up between the groynes, but the cliffs immediately south of the scheme, starved of sediment, eroded faster than before. The North Bull Wall, built in the 1820s to stop sand silting up Dublin Port, changed deposition in Dublin Bay: sand built up beside it and North Bull Island grew from a sandbank. Evaluation: hard defences protect a place but move erosion downdrift and are costly. Soft measures such as managed realignment are cheaper and more sustainable, but slower and less certain.",
+    "prompt": "Examine the impact of coastal defence measures on coastal processes, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Human activity can upset the balance between erosion, transport and deposition. Trampling of dunes by walkers and sunbathers kills marram grass; with no roots binding the sand, the wind cuts blowouts, and a blowout can breach the dune ridge and let the sea reach the land behind. Resort development on the Spanish Mediterranean coast, such as Benidorm on the Costa Blanca, has built hotels and apartments on the beach and dune line, removing the sediment store and blocking the landward movement of dunes and beaches; the beach narrows and defences become necessary, which is coastal squeeze. Dune management at Brittas Bay, Co. Wicklow, uses boardwalks, fencing, marram replanting and car parks set back from the dunes, and the dunes are part of a Special Area of Conservation. Blue Flag beaches, administered in Ireland by An Taisce, are judged on water quality and management, which encourages councils to manage beaches well. The Natura 2000 network of SACs and SPAs, and planning controls on building near the shore, limit development. North Bull Island, Dublin Bay, has been a UNESCO Biosphere Reserve since 1981, and its salt marsh and mudflats support Brent geese; golf courses, cars on the beach and city visitors put pressure on it. Recreation damages dunes, and conservation tries to limit that impact while keeping the coast working.",
+    "prompt": "Human activities can impact on the operation of coastal processes. Examine this statement with reference to recreational pressures and to conservation and management measures.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Rock armour is a layer of large boulders piled along the foot of a cliff or in front of a sea wall; the gaps between the boulders absorb and break up wave energy. Its disadvantage is that it can be unsightly and hard to walk over. Groynes are low barriers built out from the shore at right angles, across the beach; they trap sand on their updrift side. Their disadvantage is that the beach downdrift is starved of sediment, so erosion increases there.",
+    "prompt": "Explain the difference between rock armour and groynes.",
     "type": "short"
    }
   ]
