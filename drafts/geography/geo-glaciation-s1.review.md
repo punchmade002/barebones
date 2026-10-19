@@ -61,3 +61,11 @@ Shipped unfixed to content/geography/ on request so the draft can be read in the
 - Missing: Irish Ice Age context, paternoster lakes, ice sheet vs valley glacier, deranged drainage.
 - Rule 4: the 540 m / 2006-2015 snout figure is lifted from the 2022 paper.
 - Model answers: U-shaped valley answer also covers hanging valley; drumlin answer appends an esker. Keep one landform per answer.
+
+## Rewrite from the information package (2026-10-19)
+
+Haiku rewrote s1 and wrote s2 from `course-outlines/packages/geography/`. Both cover every
+must-cover item (s1 31/31, s2 14/14), use only checked examples, and contain no factual errors
+found on review. The draft's issues above are all fixed. Remaining minor points: the s1
+ribbon-lake/fjord block numbers fjord stages 3-4; drowned drumlins appear in both s1 and s2
+(the packages allowed both); s2 has no diagram cues for raised beaches or rias.
