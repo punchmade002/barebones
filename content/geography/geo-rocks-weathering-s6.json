@@ -1,0 +1,124 @@
+{
+  "loId": "geo-rocks-weathering-s6",
+  "chapterId": "geo-rocks-weathering",
+  "subsection": "6. Erosion by wind",
+  "syllabusRef": "1.2",
+  "notes": [
+    {
+      "h": "Conditions for wind erosion",
+      "points": [
+        "Aeolian processes are the erosion, transport and deposition of material by wind.",
+        "Wind erosion is most effective in hot and cold deserts and on coasts, where loose, dry, fine material lies, vegetation is sparse and winds are strong.",
+        "Air is far less dense than water or ice, so wind can move only sand and finer particles, and mostly close to the ground."
+      ]
+    },
+    {
+      "h": "Processes of wind erosion",
+      "points": [
+        "Deflation: wind lifts and blows away loose, dry, fine particles (dust, silt and sand), lowering the land surface.",
+        "Abrasion (sandblasting): sand grains carried by the wind strike rock surfaces and wear them away. Abrasion is most effective within a metre or two of the ground, where most sand is carried.",
+        "Attrition: wind-blown grains collide with each other and with rock, becoming smaller, rounder and frosted."
+      ]
+    },
+    {
+      "h": "Transport by wind",
+      "points": [
+        "Suspension: fine dust is carried high in the air, sometimes for thousands of kilometres in dust storms.",
+        "Saltation: sand grains bounce along the surface in short hops. Most wind-blown sand moves this way.",
+        "Surface creep: larger grains are pushed and rolled along by the impact of saltating grains."
+      ]
+    },
+    {
+      "h": "Deflation and abrasion landforms",
+      "points": [
+        "Deflation hollow: a depression formed where deflation removes loose material down to the water table or to a resistant layer. The Qattara Depression, Egypt, lies below sea level and is attributed mainly to deflation down to the water table.",
+        "Desert pavement (reg): a surface of closely packed stones left after deflation has blown away the fine material between them. The stones protect the ground below from further deflation.",
+        "Ventifacts: stones with flat, polished faces and sharp edges, cut by sandblasting from the prevailing wind direction.",
+        "Diagram: plan of a deflation hollow; cross-section of a desert pavement."
+      ]
+    },
+    {
+      "h": "Yardangs, zeugens and mushroom rocks",
+      "points": [
+        "Yardangs: long, streamlined ridges of rock lying parallel to the prevailing wind, separated by grooves abraded in softer rock.",
+        "Zeugens: tabular, flat-topped ridges where a hard cap rock overlies softer rock. They form where the rock layers are horizontal and the joints run across the wind.",
+        "Zeugen stages: 1. Abrasion cuts down along joints in the cap rock. 2. The soft rock beneath is undercut. 3. A flat-topped ridge remains.",
+        "Mushroom (pedestal) rocks: rock pillars undercut near the base by sandblasting, which is concentrated near the ground.",
+        "Mushroom rock stages: 1. A pillar of rock stands on the desert floor. 2. Sandblasting undercuts its base. 3. The top, above the zone of abrasion, stays wide, leaving a mushroom shape.",
+        "Diagram: plan of yardangs aligned with the wind; cross-sections of a zeugen and a mushroom rock."
+      ]
+    },
+    {
+      "h": "Wind deposition and desert landforms",
+      "points": [
+        "Deposition occurs when wind speed drops or the wind meets an obstacle.",
+        "Desert landscapes: erg (sand sea), reg (stony desert) and hamada (bare rock). The Sahara Desert, North Africa, has all three.",
+        "Barchan dunes: crescent-shaped dunes with horns pointing downwind. They have a gentle windward slope and a steep slip face on the lee side, and migrate downwind.",
+        "Seif (linear) dunes: long ridges roughly parallel to the dominant wind, formed where winds blow from two directions.",
+        "Loess: fine wind-blown dust, often from the edges of former ice sheets or deserts, which forms very fertile soils. Example: the Loess Plateau of northern China.",
+        "Diagram: cross-section of a barchan dune showing the windward slope and slip face."
+      ]
+    },
+    {
+      "h": "Wind erosion in practice",
+      "points": [
+        "The Dust Bowl, Great Plains of the USA (including Oklahoma and Kansas), 1930s: bare, dry soil was blown away in huge dust storms, known as black blizzards (see geo-rocks-weathering-s7 for its causes).",
+        "In Ireland, the damp climate and vegetation cover limit wind erosion. The main aeolian landforms are coastal sand dunes (see geo-sea-s1) and blowouts where dune vegetation is damaged (see geo-sea-s2)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Aeolian processes",
+      "definition": "The erosion, transport and deposition of material by wind."
+    },
+    {
+      "term": "Deflation",
+      "definition": "The lifting and removal of loose, dry, fine particles by wind, lowering the land surface."
+    },
+    {
+      "term": "Saltation",
+      "definition": "The transport of sand grains by short bouncing hops along the surface."
+    },
+    {
+      "term": "Desert pavement",
+      "definition": "A surface of closely packed stones left after wind has removed the fine material between them."
+    },
+    {
+      "term": "Ventifact",
+      "definition": "A stone with flat, polished faces and sharp edges, cut by sandblasting from the prevailing wind direction."
+    },
+    {
+      "term": "Yardang",
+      "definition": "A long, streamlined rock ridge lying parallel to the prevailing wind."
+    },
+    {
+      "term": "Zeugen",
+      "definition": "A flat-topped ridge with a hard cap rock over softer rock, undercut by abrasion."
+    },
+    {
+      "term": "Mushroom rock",
+      "definition": "A rock pillar undercut near its base by sandblasting, leaving a wider top."
+    },
+    {
+      "term": "Barchan dune",
+      "definition": "A crescent-shaped dune with horns pointing downwind and a steep slip face on its lee side."
+    },
+    {
+      "term": "Loess",
+      "definition": "Thick deposits of fine wind-blown dust, which form very fertile soils."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Examine the processes of erosion by wind and explain the formation of one landform of wind erosion.",
+      "model": "Processes: deflation lifts loose, dry, fine particles and lowers the surface; abrasion, by sand grains carried within a metre or two of the ground, wears rock surfaces; attrition makes wind-blown grains smaller and rounder. Transport: suspension carries fine dust high in the air; saltation moves most sand in short hops; surface creep rolls larger grains. Landform: a mushroom rock. 1. A rock pillar stands on the desert floor. 2. Sandblasting, concentrated near the ground, undercuts its base. 3. The top, above the zone of abrasion, stays wide, leaving a mushroom shape. Diagram: labelled sketch of the pillar with the undercut base and the wider top."
+    },
+    {
+      "marks": 8,
+      "prompt": "Distinguish between deflation and abrasion as processes of wind erosion.",
+      "model": "Deflation is the lifting and blowing away of loose, dry, fine particles such as dust, silt and sand, which lowers the land surface. Abrasion is the wearing away of rock surfaces by sand grains carried by the wind, which strike the rock, and is most effective within a metre or two of the ground. Deflation removes material; abrasion wears rock down by impact."
+    }
+  ]
+}
