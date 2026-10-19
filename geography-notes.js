@@ -2364,6 +2364,1375 @@
    }
   ]
  },
+ "geo-rocks-weathering-s1": {
+  "keyTerms": [
+   {
+    "definition": "Forces from within the earth that form and modify rock through magma, heat and pressure.",
+    "term": "Endogenic forces"
+   },
+   {
+    "definition": "Forces acting at the earth's surface, such as weathering and erosion, that destroy rock.",
+    "term": "Exogenic forces"
+   },
+   {
+    "definition": "Molten rock below the earth's surface.",
+    "term": "Magma"
+   },
+   {
+    "definition": "Molten rock that has reached the earth's surface.",
+    "term": "Lava"
+   },
+   {
+    "definition": "Igneous rock formed by slow cooling deep in the crust, with large crystals.",
+    "term": "Plutonic rock"
+   },
+   {
+    "definition": "Igneous rock formed by the rapid cooling of lava at the surface, with small crystals.",
+    "term": "Volcanic rock"
+   },
+   {
+    "definition": "A huge dome-shaped mass of plutonic rock.",
+    "term": "Batholith"
+   },
+   {
+    "definition": "A horizontal surface that separates one sedimentary layer from the next.",
+    "term": "Bedding plane"
+   },
+   {
+    "definition": "The conversion of loose sediment into solid sedimentary rock by compaction and cementation.",
+    "term": "Lithification"
+   },
+   {
+    "definition": "The squeezing out of water and air from sediment by the weight of overlying layers.",
+    "term": "Compaction"
+   },
+   {
+    "definition": "The binding of sediment grains by minerals carried in groundwater.",
+    "term": "Cementation"
+   },
+   {
+    "definition": "Metamorphism caused by the heat of an igneous intrusion, forming a small-scale metamorphic aureole.",
+    "term": "Thermal metamorphism"
+   },
+   {
+    "definition": "Metamorphism caused by heat and pressure over large areas during plate collision and mountain building.",
+    "term": "Regional metamorphism"
+   },
+   {
+    "definition": "A ring of altered rock surrounding an igneous intrusion.",
+    "term": "Metamorphic aureole"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Rocks are continually formed, modified, destroyed and reconstituted. Endogenic (internal) forces form and modify rock; exogenic (external) forces destroy it; deposition of sediment reconstitutes it.",
+    "h": "The rock cycle",
+    "points": [
+     "Endogenic forces, driven from within the earth, form and modify rock through magma, heat and pressure.",
+     "Exogenic forces, working at the surface, destroy rock through weathering and erosion.",
+     "Deposition of sediment reconstitutes rock as new sedimentary rock.",
+     "Cycle path: magma cools and crystallises to igneous rock; weathering and erosion produce sediment; deposition, compaction and cementation make sedimentary rock; heat and pressure make metamorphic rock; melting returns it to magma.",
+     "Short-cuts: any rock can be weathered, and any rock can be metamorphosed or melted.",
+     "Plate link: rock is created at plate boundaries and hotspots, metamorphosed at collision zones, and destroyed or recycled at subduction zones.",
+     "Diagram: a circular flow chart with magma and the three rock types as nodes, each arrow labelled with its process."
+    ]
+   },
+   {
+    "b": "Igneous rock forms when molten rock cools and crystallises. Magma is molten rock below the surface; lava is molten rock at the surface.",
+    "h": "Igneous rock",
+    "points": [
+     "Crystal size depends on cooling rate: slow cooling gives large crystals, and fast cooling gives small ones.",
+     "Plutonic (intrusive) rock is igneous rock that cools slowly deep in the crust, so its crystals are large.",
+     "Granite is a plutonic rock built from quartz, feldspar and mica crystals.",
+     "Plutonic intrusions: batholiths are huge dome-shaped masses, dykes are vertical and cut across beds, and sills are horizontal and lie along bedding planes.",
+     "Plutonic rock reaches the surface only after the rock above it has been eroded away.",
+     "Volcanic (extrusive) rock is lava that cools quickly at the surface, so its crystals are small.",
+     "Basalt is the commonest volcanic rock and forms from runny lava.",
+     "Geotectonic settings: basalt forms at constructive (divergent) boundaries and hotspots; andesite and granite batholiths form above subduction zones at destructive boundaries.",
+     "Uses: granite is used as building stone, kerbs, worktops and headstones; basalt is crushed for road chippings and aggregate."
+    ]
+   },
+   {
+    "b": "Sedimentary rock is formed from sediment laid down in layers (strata), usually in seas, lakes, river basins and deserts.",
+    "h": "How sedimentary rock forms",
+    "points": [
+     "Sediment comes from weathered and eroded fragments of older rock, from the remains of plants and animals, or from minerals precipitated from water.",
+     "Sediment builds up in subsiding basins, on continental shelves and along trailing (passive) margins.",
+     "Lithification is the conversion of loose sediment into solid rock by compaction and cementation.",
+     "Compaction: the weight of overlying layers squeezes out water and air, packing the grains together.",
+     "Cementation: minerals such as silica, calcite and iron oxide, carried by groundwater, bind the grains together."
+    ]
+   },
+   {
+    "h": "Features of sedimentary rock",
+    "points": [
+     "Many sedimentary rocks contain fossils, the remains or traces of past life.",
+     "Bedding planes are horizontal surfaces separating one layer from the next.",
+     "Joints are vertical cracks that cut through the layers.",
+     "Many sedimentary rocks are porous, holding water in the spaces between grains."
+    ]
+   },
+   {
+    "h": "Three groups of sedimentary rock",
+    "points": [
+     "Clastic rocks are made of broken fragments: sandstone from sand, and shale from mud and clay.",
+     "Organic rocks are made of the remains of living things: limestone from the shells and skeletons of sea creatures, and coal from plant remains that accumulated in swamps.",
+     "Chemical rocks form from minerals that come out of solution: rock salt and other evaporites form as seawater evaporates."
+    ]
+   },
+   {
+    "h": "Irish sedimentary rocks and the conditions of their formation",
+    "points": [
+     "Carboniferous limestone (Carboniferous period, about 360 to 300 million years ago) formed when Ireland lay near the equator under a warm, shallow, clear sea, where shells and skeletons built up the deposit.",
+     "Old Red Sandstone (Devonian period) formed in hot, semi-arid conditions from sand and pebbles laid down by rivers; its red colour comes from iron oxide.",
+     "Shale and sandstone of the Cliffs of Moher, Co. Clare, are layers of shale, siltstone and sandstone.",
+     "Chalk lies beneath the basalt along the Antrim coast.",
+     "Coal at Arigna, Co. Roscommon, and Castlecomer, Co. Kilkenny, formed from plant remains in swamps; both are former coal-mining areas.",
+     "Rock salt is mined at the Kilroot salt mine, near Carrickfergus, Co. Antrim."
+    ]
+   },
+   {
+    "b": "Metamorphic rock forms when existing rock is changed by great heat and/or pressure without melting.",
+    "h": "How metamorphism happens",
+    "points": [
+     "The two factors that cause metamorphism are heat and pressure.",
+     "Minerals recrystallise while the rock stays solid, so the rock usually becomes harder and denser.",
+     "The rock may develop banding or cleavage.",
+     "Thermal (contact) metamorphism: rock beside an igneous intrusion is baked by its heat, forming a ring of altered rock called a metamorphic aureole; it is small in scale.",
+     "Regional metamorphism: heat and pressure act over huge areas during plate collision and mountain building; it is large in scale."
+    ]
+   },
+   {
+    "h": "Parent rocks and the metamorphic rocks they form",
+    "points": [
+     "Limestone becomes marble.",
+     "Sandstone becomes quartzite.",
+     "Shale (mudstone) becomes slate, and with more heat and pressure becomes schist.",
+     "Granite becomes gneiss.",
+     "Quartzite forms Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow; and the Twelve Bens, Connemara.",
+     "Mica schist is found in Donegal and Connemara, and a metamorphic aureole of mica schist surrounds the Leinster granite.",
+     "Gneiss at Inishtrahull, off Co. Donegal, is about 1.7 billion years old and is the oldest rock in Ireland."
+    ]
+   },
+   {
+    "b": "Ireland's rock types form a recognisable pattern across the island.",
+    "h": "Irish rock types and Ireland's geological past",
+    "points": [
+     "Limestone floors the central lowland, and Old Red Sandstone forms the ridges of Munster.",
+     "Granite outcrops in Wicklow, Donegal and the Mournes; basalt covers Co. Antrim; metamorphic rocks lie in Donegal, Connemara and Mayo.",
+     "Plutonic example: the Leinster batholith, the granite core of the Wicklow Mountains, is about 400 million years old and is the largest granite mass in Ireland and Britain. The Mourne granite is about 56 million years old.",
+     "Volcanic example: the Antrim plateau was built by lava flows about 60 million years ago, as the Atlantic began to open.",
+     "The closing of the Iapetus Ocean during Caledonian mountain building produced the Leinster and Donegal granites and regional metamorphism."
+    ]
+   },
+   {
+    "h": "North America: active and trailing margins",
+    "points": [
+     "Active western margin: Pacific plates subduct beneath or slide past North America.",
+     "Volcanic rock: the Cascade Range volcanoes, including Mount St Helens in Washington state (erupted 1980), lie above a subducting oceanic plate.",
+     "Plutonic rock: the Sierra Nevada granite batholith, California.",
+     "Regional metamorphism affects the western mountain belts.",
+     "The San Andreas Fault, California, is a transform boundary where plates slide past each other.",
+     "Trailing eastern margin: there is no plate boundary at the coast, so there are no active volcanoes.",
+     "Thick sediments accumulate on the Atlantic coastal plain, on the continental shelf and in the Mississippi delta.",
+     "The Appalachians are old, worn-down fold mountains of sedimentary and metamorphic rock."
+    ]
+   },
+   {
+    "h": "Identifying rocks by appearance",
+    "points": [
+     "Granite: speckled, with large interlocking crystals.",
+     "Basalt: dark and fine-grained; it may form columns.",
+     "Sandstone: gritty grains, often reddish or buff, and layered.",
+     "Limestone: pale grey, and it may show fossils.",
+     "Marble: white or coloured, with sparkling crystals and no fossils.",
+     "Quartzite: pale, very hard and glassy.",
+     "Slate: dark grey, and it splits into thin sheets."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Sedimentary rocks form from sediment, which comes from weathered and eroded fragments of older rock, from the remains of plants and animals, or from minerals precipitated from water. Weathering breaks the older rock down, erosion removes the fragments, and deposition lays them down in layers (strata) in seas, lakes, river basins and deserts, usually in subsiding basins. Sediment builds up in layers that are separated by bedding planes. Lithification turns the loose sediment into solid rock in two stages. Compaction: the weight of the overlying layers squeezes out water and air and packs the grains together. Cementation: minerals such as silica, calcite and iron oxide, carried by groundwater, bind the grains together. Organic rocks form from the remains of living things. Carboniferous limestone formed in the Carboniferous period, about 360 to 300 million years ago, when Ireland lay near the equator under a warm, shallow, clear sea; shells and skeletons of sea creatures built up the deposit, and it covers most of the central lowland. Old Red Sandstone formed in the Devonian period in hot, semi-arid conditions, when rivers laid down sand and pebbles; iron oxide gives it its red colour, and it forms the ridges of Munster. Shale and sandstone at the Cliffs of Moher, Co. Clare, are layers of shale, siltstone and sandstone. Coal at Arigna, Co. Roscommon, and Castlecomer, Co. Kilkenny, formed from plant remains that accumulated in swamps. Clastic rocks form from broken fragments: sandstone from sand and shale from mud and clay. Chemical rocks form from minerals that come out of solution: rock salt at Kilroot, near Carrickfergus, Co. Antrim, was deposited as seawater evaporated.",
+    "prompt": "Examine the formation of sedimentary rocks, with reference to Irish examples.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Igneous rocks form when molten rock cools and crystallises. Magma is molten rock below the surface; lava is molten rock at the surface. The rate of cooling controls crystal size: slow cooling gives large crystals and fast cooling gives small crystals. Plutonic rocks form when magma cools slowly deep in the crust, so the crystals grow large. Magma can form batholiths, dykes and sills before it reaches the surface, and plutonic rock is exposed only after the rock above it has been eroded away. Granite is a plutonic rock; the Leinster batholith, the granite core of the Wicklow Mountains, is about 400 million years old. Volcanic rocks form when lava cools quickly at the surface, so the crystals are small. Basalt is the commonest volcanic rock and forms from runny lava, at constructive boundaries and hotspots; the basalt of the Antrim plateau was formed by lava flows about 60 million years ago. Andesite and granite batholiths form above subduction zones at destructive plate boundaries.",
+    "prompt": "Describe and explain how igneous rocks are formed. Name one igneous rock and a location where it is found.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Thermal (contact) metamorphism happens when rock beside an igneous intrusion is baked by its heat. The altered rock forms a small-scale ring called a metamorphic aureole; for example, limestone changes to marble. Regional metamorphism happens when heat and pressure act over huge areas during plate collision and mountain building. The rock recrystallises while still solid, becoming harder and denser; for example, sandstone changes to quartzite.",
+    "prompt": "Explain briefly how rocks are changed by thermal metamorphism and by regional metamorphism.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s2": {
+  "keyTerms": [
+   {
+    "definition": "The soil and glacial till lying above rock that must be removed before it is quarried or mined.",
+    "term": "Overburden"
+   },
+   {
+    "definition": "Mining of ore near the surface by removing the overburden to form an open pit.",
+    "term": "Open-pit mining"
+   },
+   {
+    "definition": "The fine waste left after ore has been crushed and the mineral separated, stored in tailings ponds.",
+    "term": "Tailings"
+   },
+   {
+    "definition": "Acidic water draining from mine workings and waste, which carries heavy metals into rivers.",
+    "term": "Acid mine drainage"
+   },
+   {
+    "definition": "The material produced when crushed limestone and shale are heated in a kiln, ground with gypsum to make cement.",
+    "term": "Clinker"
+   },
+   {
+    "definition": "Porous, permeable rock in which oil and gas collect after migrating upward.",
+    "term": "Reservoir rock"
+   },
+   {
+    "definition": "Impermeable rock, such as shale, that traps oil and gas beneath it.",
+    "term": "Cap rock"
+   },
+   {
+    "definition": "Hydraulic fracturing: forcing fluid into shale at high pressure to fracture it and release gas.",
+    "term": "Fracking"
+   },
+   {
+    "definition": "The rise in temperature with depth, averaging about 25 to 30 °C per kilometre.",
+    "term": "Geothermal gradient"
+   },
+   {
+    "definition": "A device that draws the steady warmth of shallow ground to heat a building.",
+    "term": "Ground-source heat pump"
+   },
+   {
+    "definition": "A well through which cooled geothermal water is pumped back underground.",
+    "term": "Reinjection well"
+   },
+   {
+    "definition": "A small earthquake triggered by human activity, such as fluid injection into rock.",
+    "term": "Induced earthquake"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Humans interact with the rock cycle by extracting rock, minerals and energy from the crust.",
+    "h": "Humans as an exogenic agent",
+    "points": [
+     "Extraction removes rock far faster than natural weathering and erosion, and it exposes fresh rock to weathering.",
+     "Extraction creates new deposits of waste, which are stored on the surface.",
+     "People act as an exogenic process: removing rock is the human equivalent of erosion, and dumping waste is the human equivalent of deposition."
+    ]
+   },
+   {
+    "b": "Mining removes metal ores, coal and salt from the crust.",
+    "h": "Mining: what is mined and how it is worked",
+    "points": [
+     "Mined materials include metal ores (zinc, lead, copper, gold), coal and salt.",
+     "Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock.",
+     "Exploration uses geological surveys and test drilling before a mine is developed.",
+     "Open-cast (open-pit) mining removes the overburden and works ore that lies near the surface.",
+     "Underground (shaft) mining reaches deep ore through shafts and tunnels; room and pillar is one underground method.",
+     "Processing crushes and grinds the ore and separates the mineral from the waste rock.",
+     "Waste rock is stored in spoil heaps, and fine waste, called tailings, is stored in tailings ponds."
+    ]
+   },
+   {
+    "h": "Mining case studies",
+    "points": [
+     "Tara Mines, Navan, Co. Meath: an underground zinc and lead mine, Europe's largest zinc mine, in production since 1977 and owned by the Swedish company Boliden; the ore lies in Carboniferous limestone.",
+     "Bingham Canyon copper mine, Utah, USA: one of the largest open-pit mines in the world.",
+     "Super Pit gold mine, Kalgoorlie, Western Australia: a large open-pit gold mine.",
+     "Aberfan, south Wales, 21 October 1966: a colliery spoil tip built over springs on a hillside collapsed into the village after heavy rain, burying Pantglas Junior School; 144 people were killed, 116 of them children.",
+     "Aberfan was a flow slide of saturated waste, a mass movement process."
+    ]
+   },
+   {
+    "h": "Impacts of mining",
+    "points": [
+     "Landscape scars and subsidence occur above and around underground workings.",
+     "Spoil heaps and tailings take up land.",
+     "Avoca, Co. Wicklow: centuries of copper mining, now closed, left acid mine drainage that discolours and pollutes the Avoca River with heavy metals.",
+     "Dust, noise and heavy traffic affect people living near the mine.",
+     "Positive impacts are jobs, exports and local spending."
+    ]
+   },
+   {
+    "h": "Managing mining impacts",
+    "points": [
+     "Environmental licensing and monitoring control the handling of waste and the quality of water leaving the site.",
+     "Tailings ponds are lined to stop seepage and capped when they are closed.",
+     "Lisheen, Co. Tipperary: a zinc and lead mine that closed in 2015; the site was rehabilitated."
+    ]
+   },
+   {
+    "b": "Quarries work rock and sand close to the surface for cement, aggregate, building stone and roofing.",
+    "h": "Extraction of building materials (quarrying): materials",
+    "points": [
+     "Limestone is quarried for cement, aggregate and lime for agriculture.",
+     "Sand and gravel come from glacial and fluvio-glacial deposits and are used in concrete.",
+     "Granite and other dimension stone are cut from the rock for building.",
+     "Slate is quarried for roofing, and marble for decoration."
+    ]
+   },
+   {
+    "h": "The quarrying process",
+    "points": [
+     "1. Remove the overburden: the soil and glacial till above the rock.",
+     "2. Cut benches into the rock face.",
+     "3. Drill and blast the rock.",
+     "4. Crush and screen the rock, grading it by size.",
+     "Dimension stone is cut to size rather than blasted."
+    ]
+   },
+   {
+    "h": "Cement from limestone",
+    "points": [
+     "Limestone is crushed and mixed with shale, then heated in a kiln to make clinker; the clinker is ground with gypsum to make cement.",
+     "Heating limestone releases carbon dioxide, because calcium carbonate gives lime and carbon dioxide.",
+     "The carbon dioxide returns to the atmosphere carbon that had been locked in the rock for hundreds of millions of years.",
+     "Irish Cement's works at Platin, near Drogheda, Co. Meath, and at Castlemungret, Co. Limerick, are both based on Carboniferous limestone."
+    ]
+   },
+   {
+    "h": "Irish quarrying case studies",
+    "points": [
+     "Sand and gravel: large pits in glacial deposits around Blessington, Co. Wicklow.",
+     "Granite: quarried at Ballyknockan, Co. Wicklow, from the Leinster granite.",
+     "Marble: green Connemara marble is quarried in Connemara, Co. Galway.",
+     "Slate: quarried on Valentia Island, Co. Kerry."
+    ]
+   },
+   {
+    "h": "Impacts of quarrying",
+    "points": [
+     "Permanent scars, and loss of farmland and habitat.",
+     "Dust, noise and blasting vibration, and heavy lorries on rural roads.",
+     "Lowering of the local water table.",
+     "Positive impacts are jobs and the materials needed for housing and roads."
+    ]
+   },
+   {
+    "h": "Managing quarrying",
+    "points": [
+     "Planning permission comes with conditions on working hours, and limits on dust and noise.",
+     "Earth banks and trees screen the quarry from view.",
+     "Worked-out quarries are rehabilitated as lakes, wildlife habitats, landfill or amenity areas."
+    ]
+   },
+   {
+    "h": "How oil and gas form and are trapped",
+    "points": [
+     "The remains of tiny marine organisms are buried in sea-floor sediment.",
+     "Heat and pressure over millions of years turn these remains into oil and gas.",
+     "Oil and gas migrate upward through porous, permeable reservoir rock, such as sandstone.",
+     "They are trapped beneath impermeable cap rock, such as shale, in an anticline, a fault or a salt dome."
+    ]
+   },
+   {
+    "h": "Oil and gas exploitation and Irish fields",
+    "points": [
+     "Seismic surveys locate possible traps, and exploratory wells test them.",
+     "Production uses production platforms or subsea wells, with pipelines to an onshore terminal.",
+     "Kinsale Head gas field, off the Co. Cork coast: discovered 1971, in production from 1978; Ireland's first commercial gas field; production ended in 2020 when the field was depleted.",
+     "Corrib gas field, off the coast of north-west Co. Mayo: discovered 1996, and gas first flowed in December 2015; gas is piped ashore to a processing terminal at Bellanaboy, Co. Mayo, originally operated by Shell.",
+     "Opposition at Corrib: the Shell to Sea campaign objected to a high-pressure raw-gas pipeline near homes, and five local men, the Rossport Five, were jailed in 2005 for refusing to obey a court order not to obstruct the pipeline work."
+    ]
+   },
+   {
+    "h": "Oil spills and the North Sea",
+    "points": [
+     "The Deepwater Horizon oil rig, leased by BP in the Gulf of Mexico, exploded on 20 April 2010, killing 11 workers.",
+     "About 4.9 million barrels of oil spilled before the well was sealed.",
+     "The spill damaged fishing, tourism and wildlife along the US Gulf coast.",
+     "The North Sea, shared by the UK and Norway, is a major oil and gas province."
+    ]
+   },
+   {
+    "h": "Fracking and the impacts of oil and gas",
+    "points": [
+     "Hydraulic fracturing (fracking) of shale releases gas; concerns include groundwater pollution and induced earthquakes.",
+     "Ireland banned onshore fracking by law in 2017.",
+     "Positive impacts are energy supply and security, revenue and jobs.",
+     "Negative impacts are oil spills, damage to marine life and fishing, and conflict with local communities.",
+     "Burning fossil fuels returns stored carbon to the atmosphere, contributing to climate change."
+    ]
+   },
+   {
+    "h": "Where geothermal energy comes from",
+    "points": [
+     "Heat comes from the earth's interior, from radioactive decay and residual heat.",
+     "Temperature rises with depth at about 25 to 30 °C per kilometre; this is the geothermal gradient.",
+     "Heat is greatest near plate boundaries and hotspots, where magma lies close to the surface."
+    ]
+   },
+   {
+    "h": "High-temperature geothermal systems",
+    "points": [
+     "Groundwater is heated by hot rock near magma.",
+     "Production wells bring steam and hot water to the surface.",
+     "Steam drives turbines to generate electricity, and hot water heats buildings through district heating.",
+     "Cooled water is pumped back down a reinjection well."
+    ]
+   },
+   {
+    "h": "Low-temperature and enhanced geothermal systems",
+    "points": [
+     "Ground-source heat pumps use the steady warmth of shallow ground to heat homes.",
+     "Enhanced geothermal systems pump water into hot dry rock to fracture it, so that the water picks up heat."
+    ]
+   },
+   {
+    "h": "Geothermal in Iceland and other countries",
+    "points": [
+     "Iceland lies on the Mid-Atlantic Ridge above a hotspot, which gives it geothermal heat.",
+     "About 9 out of 10 homes in Iceland are heated by geothermal water.",
+     "Geothermal power provides between a quarter and a third of Iceland's electricity; most of the rest is hydro.",
+     "Hellisheiði is Iceland's largest geothermal power station, and Reykjavík has a geothermal district heating system.",
+     "The Blue Lagoon is a pool of warm, mineral-rich waste water from the Svartsengi power station, now a tourist attraction.",
+     "Larderello, Tuscany, Italy: the world's first geothermal electricity (1904) and first commercial geothermal power station (1913).",
+     "Wairakei, New Zealand: geothermal power station opened in 1958."
+    ]
+   },
+   {
+    "h": "Geothermal in Ireland",
+    "points": [
+     "Ireland is far from a plate boundary, so it has only low-temperature geothermal potential.",
+     "Warm springs at Mallow, Co. Cork, show that heated groundwater exists.",
+     "Ground-source heat pumps are the main use."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of geothermal energy",
+    "points": [
+     "Advantages: renewable, low carbon emissions, reliable because it does not depend on the weather, and cheap to run once built.",
+     "Disadvantages: it is limited to suitable locations, and drilling costs are high.",
+     "Hydrogen sulphide gas is released, giving a rotten-egg smell.",
+     "Minerals are deposited in pipes as the hot water cools.",
+     "Basel, Switzerland: an enhanced geothermal project triggered small earthquakes in 2006 and was abandoned."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Mining removes metal ores, coal and salt from the crust, and so acts as a human form of erosion. Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock. Exploration uses geological surveys and test drilling. Where ore lies near the surface, open-pit mining removes the overburden; where it lies deep, underground shaft mining reaches it through shafts and tunnels. Processing crushes and grinds the ore and separates the mineral from the waste rock. Waste rock is stored in spoil heaps and fine tailings in tailings ponds. Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, in production since 1977; the ore lies in Carboniferous limestone. Impacts include landscape scars and subsidence, spoil heaps and tailings that take up land, and acid mine drainage: at Avoca, Co. Wicklow, centuries of copper mining left acid drainage that polluted the Avoca River. Dust, noise and heavy traffic affect nearby people. Positive impacts are jobs, exports and local spending. Management includes environmental licensing and monitoring, lined and capped tailings ponds, and rehabilitation after closure, as at Lisheen, Co. Tipperary, which closed in 2015. Internationally, Bingham Canyon, Utah, USA, is one of the largest open-pit mines in the world. The Aberfan disaster in south Wales on 21 October 1966 shows the danger of mining waste: a colliery spoil tip built over springs collapsed into the village after heavy rain, killing 144 people, 116 of them children.",
+    "prompt": "Examine how humans interact with the rock cycle, with reference to mining.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Geothermal energy is heat from the earth's interior, produced by radioactive decay and residual heat. Temperature rises with depth at about 25 to 30 °C per kilometre, the geothermal gradient, so the heat is greatest near plate boundaries and hotspots, where magma lies close to the surface. In a high-temperature system, groundwater is heated by hot rock near magma; production wells bring steam and hot water to the surface. Steam drives turbines to generate electricity, hot water heats buildings through district heating, and the cooled water is pumped back down a reinjection well. Iceland lies on the Mid-Atlantic Ridge above a hotspot. About 9 out of 10 homes are heated by geothermal water, and geothermal power provides between a quarter and a third of its electricity; Hellisheiði is its largest geothermal power station, and Reykjavík has a geothermal district heating system. Low-temperature systems use ground-source heat pumps to draw the steady warmth of shallow ground, the type suited to Ireland, which is far from a plate boundary; warm springs at Mallow, Co. Cork, show that heated groundwater exists. Enhanced geothermal systems pump water into hot dry rock to fracture it. Advantages are that geothermal energy is renewable, low in carbon emissions, reliable because it does not depend on the weather, and cheap to run once built. Disadvantages are that it is limited to suitable locations, drilling is expensive, hydrogen sulphide gas causes a rotten-egg smell, minerals are deposited in pipes, and enhanced projects can cause induced earthquakes, as at Basel, Switzerland, in 2006.",
+    "prompt": "Describe and explain how humans interact with the rock cycle, with reference to geothermal energy production.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Oil and gas form from the remains of tiny marine organisms buried in sea-floor sediment; heat and pressure over millions of years turn them into oil and gas. The hydrocarbons migrate upward through porous, permeable reservoir rock such as sandstone until they are trapped beneath impermeable cap rock such as shale, in an anticline, a fault or a salt dome. Exploitation begins with seismic surveys to locate traps and exploratory wells to test them. Production uses platforms or subsea wells, with pipelines to an onshore terminal. Kinsale Head gas field, off the Co. Cork coast, was discovered in 1971 and produced from 1978; it was Ireland's first commercial gas field and ended in 2020 when it was depleted. The Corrib gas field, off north-west Co. Mayo, was discovered in 1996 and gas first flowed in December 2015; the gas is piped ashore to a processing terminal at Bellanaboy, Co. Mayo. Local opposition, led by the Shell to Sea campaign, objected to a high-pressure raw-gas pipeline near homes, and the Rossport Five were jailed in 2005. Internationally, the Deepwater Horizon rig in the Gulf of Mexico exploded on 20 April 2010, killing 11 workers, and about 4.9 million barrels of oil spilled before the well was sealed, damaging fishing, tourism and wildlife on the US Gulf coast. Positive impacts are energy supply and security, revenue and jobs. Negative impacts are oil spills, damage to marine life and fishing, conflict with local communities, and climate change caused by burning fossil fuels, which returns stored carbon to the atmosphere. Hydraulic fracturing of shale raises concerns about groundwater pollution and induced earthquakes, and Ireland banned onshore fracking by law in 2017.",
+    "prompt": "Describe and explain how humans interact with the rock cycle with reference to oil/gas exploitation.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s3": {
+  "keyTerms": [
+   {
+    "definition": "The breakdown of rock in place at or near the earth's surface, without transport.",
+    "term": "Weathering"
+   },
+   {
+    "definition": "The layer of loose, weathered rock fragments lying on top of solid bedrock.",
+    "term": "Regolith"
+   },
+   {
+    "definition": "The breakdown of rock into smaller pieces without changing its minerals.",
+    "term": "Physical weathering"
+   },
+   {
+    "definition": "The change or dissolution of minerals in rock by chemical reactions.",
+    "term": "Chemical weathering"
+   },
+   {
+    "definition": "Physical weathering in which water freezes and expands in cracks, splitting off angular fragments.",
+    "term": "Freeze-thaw action"
+   },
+   {
+    "definition": "Physical weathering in hot deserts in which stress from daily heating and cooling peels off curved outer sheets of rock.",
+    "term": "Exfoliation"
+   },
+   {
+    "definition": "Physical weathering in which minerals expanding at different rates loosen individual grains.",
+    "term": "Granular disintegration"
+   },
+   {
+    "definition": "Sheeting of buried rock into parallel cracks as overlying rock is eroded away.",
+    "term": "Pressure release"
+   },
+   {
+    "definition": "Physical weathering in which growing salt crystals in pores and cracks force rock apart.",
+    "term": "Salt crystallisation"
+   },
+   {
+    "definition": "Chemical weathering in which carbonic acid reacts with calcium carbonate, dissolving limestone.",
+    "term": "Carbonation"
+   },
+   {
+    "definition": "Chemical weathering in which water reacts with minerals such as feldspar, turning them into clay.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "Chemical weathering in which oxygen reacts with iron in rock to form iron oxide.",
+    "term": "Oxidation"
+   },
+   {
+    "definition": "Chemical weathering in which minerals absorb water and swell, setting up stress.",
+    "term": "Hydration"
+   },
+   {
+    "definition": "A slope of angular rock fragments at the foot of a cliff, produced by freeze-thaw action.",
+    "term": "Scree"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Weathering is the breakdown of rock in place at or near the earth's surface, by weather, water, plants and animals. Erosion is the wearing away and removal of material by a moving agent such as a river, the sea, ice or wind.",
+    "h": "What weathering is",
+    "points": [
+     "Weathering involves no transport: the rock breaks down where it lies, and this prepares it for erosion and mass movement.",
+     "Regolith is the layer of loose, weathered rock fragments lying on top of solid bedrock.",
+     "Physical (mechanical) weathering breaks rock into smaller pieces without changing its minerals.",
+     "Chemical weathering changes or dissolves the minerals in the rock.",
+     "Biological weathering by plants and animals works through both physical and chemical means."
+    ]
+   },
+   {
+    "b": "Freeze-thaw action, also called frost shattering, needs temperatures that move above and below 0 °C often, together with water and jointed rock.",
+    "h": "Freeze-thaw action (physical)",
+    "points": [
+     "Water enters cracks and joints in the rock.",
+     "At night the water freezes and expands by about 9%, widening the crack.",
+     "By day the ice thaws, and the water seeps deeper into the crack.",
+     "Repeated cycles of freezing and thawing split off angular fragments.",
+     "It is most effective on mountains in upland Ireland, on high mountains and in periglacial areas; freeze-thaw is active on Irish mountain summits such as Carrauntoohil, Co. Kerry.",
+     "Result: scree (talus) slopes of angular fragments at the foot of mountain cliffs, and jagged peaks and blockfields."
+    ]
+   },
+   {
+    "h": "Exfoliation and granular disintegration (physical)",
+    "points": [
+     "Exfoliation, or onion weathering, is an insolation process in hot deserts such as the Sahara, where the daily temperature range is large.",
+     "The outer layer of rock heats and expands by day, and cools and contracts at night more than the interior, because rock conducts heat poorly.",
+     "Stress builds up, and curved outer sheets peel off like the layers of an onion, leaving rounded boulders.",
+     "Many geographers stress that some moisture, such as dew, must be present for exfoliation to work effectively.",
+     "Granular disintegration: dark and light minerals in a rock such as granite heat and expand at different rates, so individual grains loosen and fall away, leaving gravelly sand."
+    ]
+   },
+   {
+    "h": "Pressure release and salt crystallisation (physical)",
+    "points": [
+     "Pressure release (sheeting): when the overlying rock is eroded, buried rock such as granite expands upward and cracks into sheets parallel to the surface.",
+     "The sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA.",
+     "Salt crystallisation: salt water enters pores and cracks; as it evaporates, salt crystals grow and force the rock apart.",
+     "Salt crystallisation is common in hot deserts and on coasts."
+    ]
+   },
+   {
+    "h": "Biological weathering",
+    "points": [
+     "Plant roots grow into cracks and widen them, and burrowing animals expose fresh rock to weathering.",
+     "Decaying plants produce humic acids, and lichens and mosses release acids that attack rock surfaces."
+    ]
+   },
+   {
+    "b": "Carbonation dissolves limestone, and it works along joints and bedding planes.",
+    "h": "Carbonation (chemical)",
+    "points": [
+     "Rainwater absorbs carbon dioxide from the air and soil to form weak carbonic acid.",
+     "The acid reacts with calcium carbonate in limestone to form calcium bicarbonate, which is soluble and is carried away in solution.",
+     "Word equation: calcium carbonate + water + carbon dioxide gives calcium bicarbonate.",
+     "Carbonation is the process behind karst; it operates on the Carboniferous limestone of the Burren, Co. Clare."
+    ]
+   },
+   {
+    "h": "Hydrolysis, oxidation, hydration and solution (chemical)",
+    "points": [
+     "Hydrolysis: water reacts with feldspar in granite and turns it into clay (kaolin, or china clay); the quartz grains are left as sand, and the granite crumbles.",
+     "China clay from the hydrolysis of granite is quarried around St Austell, Cornwall, England, and on the edge of Dartmoor.",
+     "Oxidation: oxygen dissolved in water reacts with iron in the rock to form iron oxide (rust), which gives red, yellow or brown colours and weakens the rock.",
+     "Hydration: some minerals absorb water and swell, setting up stress; anhydrite, for example, becomes gypsum.",
+     "Solution: some minerals, such as rock salt, dissolve directly in water."
+    ]
+   },
+   {
+    "h": "Factors influencing weathering: climate and rock",
+    "points": [
+     "Climate: temperature and rainfall decide which type of weathering dominates.",
+     "Warm, wet climates favour fast chemical weathering; by Van 't Hoff's rule, the rate of chemical reactions roughly doubles for every 10 °C rise in temperature.",
+     "Cold climates with temperatures around freezing favour freeze-thaw, and hot deserts favour exfoliation and salt crystallisation.",
+     "Ireland's mild, wet climate favours chemical weathering.",
+     "Rock type: limestone is vulnerable to carbonation, granite to hydrolysis, and quartzite resists both."
+    ]
+   },
+   {
+    "h": "Factors influencing weathering: structure, cover, time and relief",
+    "points": [
+     "Rock structure: joints, bedding planes and faults let water in, so heavily jointed rock weathers faster.",
+     "Vegetation and soil: roots and humic acids speed weathering, and soil holds moisture against the rock.",
+     "Time: older surfaces are more weathered.",
+     "Relief and aspect: steep slopes remove debris and expose fresh rock, and shady slopes stay frozen longer, so freeze-thaw is stronger on them."
+    ]
+   },
+   {
+    "h": "The role of temperature",
+    "points": [
+     "Temperature acts in two ways: as a trigger, through the expansion and contraction that cause stress, and as a control on the rate of chemical reactions.",
+     "Freeze-thaw depends on temperature crossing the freezing point, and exfoliation and granular disintegration depend on a large daily range; both need changes in temperature, not just warmth.",
+     "Warmth speeds the chemical reactions of carbonation and hydrolysis, so the same temperature can favour chemical weathering in one place and freeze-thaw in another.",
+     "Method: name the process and its type, state the temperature condition it needs, explain the stress or rate change it produces, and link this to the result, such as scree from freeze-thaw."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Temperature is the driving factor in physical weathering, acting through expansion and contraction. Freeze-thaw action is the main example. Temperatures must move above and below 0 °C often, with water and jointed rock present. Water enters cracks, freezes at night and expands by about 9%, widening the crack; it thaws by day and seeps deeper. Repeated cycles split off angular fragments, which collect as scree slopes at the foot of mountain cliffs, and produce jagged peaks and blockfields. This is most effective on mountains in upland Ireland, on high mountains and in periglacial areas. Exfoliation, or onion weathering, depends on a large daily temperature range in hot deserts such as the Sahara. The outer layer of rock heats and expands by day and cools and contracts at night more than the interior, because rock conducts heat poorly. Stress builds up and curved outer sheets peel off, leaving rounded boulders; some moisture such as dew helps the process. Granular disintegration depends on temperature too: dark and light minerals in granite expand at different rates, so the grains loosen and fall away as gravelly sand. In each case the temperature change, not the temperature alone, produces the stress. By contrast, chemical weathering is controlled by temperature as a rate: reactions roughly double for every 10 °C rise, so it is fastest in warm, wet climates.",
+    "prompt": "Explain the role of temperature in the process of physical (mechanical) weathering.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Freeze-thaw action is a physical process. It needs temperatures that move above and below 0 °C often, with water and jointed rock. Water enters cracks and joints; it freezes at night and expands by about 9%, widening the crack. By day it thaws and seeps deeper. Repeated cycles split off angular fragments, which build up as scree at the foot of mountain cliffs. It is most effective on mountains in upland Ireland and high mountains. Carbonation is a chemical process. Rainwater absorbs carbon dioxide from the air and soil to form weak carbonic acid. The acid reacts with calcium carbonate in limestone to form calcium bicarbonate, which is soluble and is carried away in solution. It works along joints and bedding planes, as on the Carboniferous limestone of the Burren, Co. Clare, and it is the process behind karst.",
+    "prompt": "Describe and explain any two of the following types of weathering: freeze-thaw action, carbonation, onion weathering.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Two factors are climate and rock type. Climate decides which type of weathering dominates: warm, wet climates favour fast chemical weathering, since reaction rates roughly double for every 10 °C rise in temperature, while cold climates with temperatures around freezing favour freeze-thaw. Rock type also matters, because limestone is vulnerable to carbonation and granite to hydrolysis.",
+    "prompt": "Name two factors that influence weathering and explain one of them.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s4": {
+  "keyTerms": [
+   {
+    "definition": "A landscape on limestone shaped mainly by solution, with few surface streams and many underground features.",
+    "term": "Karst"
+   },
+   {
+    "definition": "Solution of calcium carbonate by rainwater containing carbon dioxide, forming soluble calcium bicarbonate.",
+    "term": "Carbonation"
+   },
+   {
+    "definition": "Rock that lets water pass through it, mainly along bedding planes, joints and other cracks.",
+    "term": "Permeable rock"
+   },
+   {
+    "definition": "The upper surface of the zone where all cracks in the rock are saturated with water.",
+    "term": "Ground water table"
+   },
+   {
+    "definition": "A flat-topped block of limestone between grikes on a limestone pavement.",
+    "term": "Clint"
+   },
+   {
+    "definition": "A deep, narrow vertical crack in limestone pavement, widened by carbonation along joints.",
+    "term": "Grike"
+   },
+   {
+    "definition": "A hole where a surface stream disappears underground into limestone, widened by carbonation along a joint.",
+    "term": "Swallow hole"
+   },
+   {
+    "definition": "A hollow formed by solution of the surface or by collapse of a cave roof.",
+    "term": "Doline"
+   },
+   {
+    "definition": "A seasonal lake in a limestone hollow that fills in winter when the water table rises and drains in summer.",
+    "term": "Turlough"
+   },
+   {
+    "definition": "An underground river that re-emerges at the surface, usually where limestone meets impermeable rock below.",
+    "term": "River of resurgence"
+   },
+   {
+    "definition": "A calcite icicle-shaped deposit that hangs from a cave roof and grows downward.",
+    "term": "Stalactite"
+   },
+   {
+    "definition": "A calcite deposit that grows upward from a cave floor beneath a stalactite.",
+    "term": "Stalagmite"
+   },
+   {
+    "definition": "A block of granite standing on a hilltop, left when the rotted rock around it has been stripped away.",
+    "term": "Tor"
+   },
+   {
+    "definition": "A blockfield of granite boulders on slopes below a tor.",
+    "term": "Clitter"
+   },
+   {
+    "definition": "Chemical weathering in which water reacts with minerals such as feldspar, forming clay.",
+    "term": "Hydrolysis"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Karst is a landscape on limestone shaped mainly by solution, with few surface streams and many underground features. The name comes from the Kras plateau of Slovenia.",
+    "h": "Karst: the conditions",
+    "points": [
+     "Limestone is calcium carbonate. Carbonation: rainwater containing carbon dioxide forms weak carbonic acid, which reacts with the rock to form soluble calcium bicarbonate: CaCO3 + H2O + CO2 gives Ca(HCO3)2.",
+     "Permeable rock lets water pass through it, mainly along cracks. Porous rock has tiny spaces between its grains that can hold water. Impermeable rock lets no water pass through.",
+     "Limestone is permeable because water moves along its bedding planes (horizontal layers) and joints (vertical cracks), not through the solid rock.",
+     "The ground water table is the upper surface of the zone where all cracks in the rock are saturated. Above it lies the zone of aeration. It rises in wet weather and falls in dry weather.",
+     "Percolation is the downward movement of water through soil and rock."
+    ]
+   },
+   {
+    "b": "Limestone pavement is a bare, flat limestone surface, exposed when glacial ice scraped away the soil.",
+    "h": "Limestone pavement",
+    "points": [
+     "Stage 1: ice removes the soil cover, exposing the jointed and bedded rock to rain.",
+     "Stage 2: carbonation widens the joints into grikes.",
+     "Stage 3: the blocks left standing between the grikes are clints.",
+     "Grikes: deep, narrow vertical cracks widened by carbonation along joints.",
+     "Clints: flat-topped blocks of limestone between grikes.",
+     "Karren (runnels): small grooves cut into clint surfaces by rainwater running across them.",
+     "Solution hollows (kamenitza or solution pans): small enclosed hollows on clint surfaces where rainwater collects and dissolves the rock.",
+     "Burren, Co. Clare: Ireland's best-known karst landscape, of Carboniferous limestone with extensive pavement of clints and grikes. Its name comes from the Irish 'Boireann', meaning rocky place.",
+     "Diagram: plan of clints and grikes; cross-section showing bedding planes and joints in the rock."
+    ]
+   },
+   {
+    "h": "Swallow holes, dolines, poljes and turloughs",
+    "points": [
+     "Swallow hole (slugga): a surface stream flowing off impermeable rock reaches limestone and disappears underground down a hole widened by carbonation along a joint.",
+     "Doline (sinkhole): a hollow formed by solution of the surface, or by collapse of a cave roof. A doline formed by cave collapse is still a doline.",
+     "Uvala: several dolines merged into one larger hollow.",
+     "Polje: a large, flat-floored depression that floods seasonally. Poljes occur in Slovenia.",
+     "Dry valley: a valley cut by a surface river when the ground was frozen (and so impermeable) or the water table was higher. It now carries no stream.",
+     "Turlough: a seasonal lake in a hollow in limestone. It fills in winter when the water table rises and drains through the floor in summer.",
+     "Turloughs are common in the Burren and east Co. Galway. Rahasane turlough, near Craughwell, Co. Galway, is one of the largest.",
+     "River of resurgence: an underground river that re-emerges at the surface, usually where limestone meets impermeable rock below. It is the reverse of a swallow hole, which takes a surface stream underground.",
+     "Diagram: cross-section from impermeable rock, through a swallow hole, underground to the resurgence."
+    ]
+   },
+   {
+    "h": "Caves and dripstone (underground karst)",
+    "points": [
+     "Caves and caverns: water dissolves passages along bedding planes and joints, and underground rivers enlarge them by erosion. A cavern is a very large cave.",
+     "Examples: Aillwee Cave, Co. Clare (Burren); Mitchelstown Cave, Co. Tipperary.",
+     "Dripstone formation: water dripping from the roof carries dissolved calcium bicarbonate. When it loses carbon dioxide and evaporates, it deposits calcite (calcium carbonate).",
+     "Stalactites hang from the roof and grow downward. Stalactite: C for ceiling.",
+     "Stalagmites grow upward from the floor beneath and are usually thicker and blunter. Stalagmite: G for ground.",
+     "Pillars (columns) form where a stalactite and a stalagmite join.",
+     "Curtains are sheets of calcite formed where water trickles along a crack in the roof.",
+     "Doolin Cave, Co. Clare, holds the Great Stalactite, about 7.3 m long, one of the longest free-hanging stalactites in the world.",
+     "Diagram: labelled cross-section of a cave showing stalactites, stalagmites, a pillar, a swallow hole and an underground river."
+    ]
+   },
+   {
+    "b": "A karst landscape develops through three stages.",
+    "h": "The karst cycle",
+    "points": [
+     "Youth: surface drainage begins to sink, and swallow holes form.",
+     "Maturity: most drainage goes underground, with caves, dolines and uvalas.",
+     "Old age: cave roofs collapse, the limestone is mostly removed, and isolated residual hills remain."
+    ]
+   },
+   {
+    "h": "Karst settings in Ireland and abroad",
+    "points": [
+     "Marble Arch upland: the Marble Arch Caves lie on the slopes of Cuilcagh Mountain, Co. Fermanagh. They are part of the cross-border Marble Arch Caves Global Geopark with Co. Cavan.",
+     "Streams flowing off the impermeable shale and sandstone of Cuilcagh sink into swallow holes where they reach the limestone, flow through the caves and re-emerge as the Cladagh River.",
+     "The Marble Arch is a natural limestone arch over the Cladagh. The Shannon Pot, the source of the River Shannon, is on the slopes of Cuilcagh in Co. Cavan.",
+     "Mask–Corrib lowland: water from Lough Mask flows underground through the limestone to Lough Corrib near Cong, Co. Mayo.",
+     "The Cong Canal, built in the mid-1800s to link the two lakes, never held water because it leaked into the permeable limestone. It became known as the dry canal.",
+     "Slovenia: Postojna Cave and the Škocjan Caves, a UNESCO World Heritage Site. Poljes occur here.",
+     "South-west China: Guilin and the Li River have tower karst, steep-sided limestone hills. The South China Karst is a UNESCO World Heritage Site.",
+     "Kentucky, USA: Mammoth Cave is the longest known cave system in the world.",
+     "Jamaica: Cockpit Country has cockpit karst, steep conical hills separated by deep, star-shaped hollows."
+    ]
+   },
+   {
+    "b": "Granite is hard, crystalline and resistant to erosion, and its landscapes reflect how it drains and weathers.",
+    "h": "Granite landscapes: rock properties and Wicklow",
+    "points": [
+     "Granite is impermeable: water runs off it, so it has many surface streams and boggy ground.",
+     "Granite is jointed. It weathers mainly by hydrolysis of its feldspar, which forms clay.",
+     "China clay (kaolin) is the clay that results. It is quarried at Lee Moor, on the south-west edge of Dartmoor.",
+     "The Leinster batholith, the largest granite mass in Ireland and Britain, forms the Wicklow Mountains.",
+     "Its rounded, dome-shaped uplands are worn down from rock that once covered the granite.",
+     "Impermeable granite with high rainfall gives thin, acidic soils and blanket bog, e.g. on the Sally Gap area of Co. Wicklow.",
+     "Ice cut deep valleys into the granite (see geo-glaciation-s1)."
+    ]
+   },
+   {
+    "h": "Tors and clitter (granite weathering)",
+    "points": [
+     "Tor: a block of granite standing on a hilltop.",
+     "Two-stage formation, put forward by D. L. Linton in 1955. Stage 1: under warm, wet conditions, deep chemical weathering (hydrolysis) attacked the granite along its joints, rotting it most where the joints were closest together.",
+     "Stage 2: the rotted material was later stripped away, e.g. by mass movement under periglacial conditions, leaving solid, widely jointed blocks standing as tors.",
+     "An alternative theory explains tors by freeze-thaw and solifluction alone.",
+     "Clitter: blockfields of boulders on the slopes below tors.",
+     "Dartmoor, Devon, England: a granite upland with tors such as Haytor and Hound Tor, clitter on its slopes and blanket bog.",
+     "Diagram: cross-section showing the rotted zone along joints and the standing tor after stripping."
+    ]
+   },
+   {
+    "h": "Spatial variation in rock type and the physical landscape",
+    "points": [
+     "Ireland's saucer shape: a low central lowland of Carboniferous limestone is ringed by uplands of harder, more resistant rocks such as granite, quartzite and sandstone.",
+     "Differential erosion: resistant rock forms uplands, headlands and peaks, while weaker rock forms lowlands, valleys and bays.",
+     "Quartzite peaks stand above the surrounding rock: Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow.",
+     "Rock type and drainage: impermeable granite and shale give many surface streams and bog. Permeable limestone takes drainage underground, leaving few rivers and dry surfaces.",
+     "Lough Corrib roughly divides the limestone lowland of east Co. Galway from the granite and metamorphic uplands of Connemara to the west."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Surface feature: limestone pavement. Ice removed the soil cover, exposing the jointed limestone to rain. Carbonation widened the joints into grikes, leaving flat-topped clints between them. Rainwater running across the clints cut karren, and rainwater pooling in hollows dissolved solution hollows. The Burren, Co. Clare, is the best-known example. Diagram: plan of clints and grikes, with a cross-section showing bedding planes and joints. Underground feature: stalactites, stalagmites and pillars. Water passes along bedding planes and joints and dissolves passages, which underground rivers enlarge into caves. Dripwater from the roof carries dissolved calcium bicarbonate. When it loses carbon dioxide and evaporates, it deposits calcite. Stalactites hang from the roof and grow downward; stalagmites grow upward from the floor, usually thicker and blunter; a pillar forms where they join. Example: Doolin Cave, Co. Clare, with the Great Stalactite of about 7.3 m. Diagram: labelled cave cross-section showing a stalactite, a stalagmite and a pillar.",
+    "prompt": "Examine the formation of one surface feature and one underground feature of a karst landscape.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Limestone is permeable, so water drains underground through bedding planes and joints. The Burren and the Marble Arch upland have karst landscapes with few surface streams, swallow holes and caves. In the Mask-Corrib lowland, water flows underground from Lough Mask to Lough Corrib, and the Cong Canal never held water. Granite is resistant and impermeable. In the Wicklow granite, rounded uplands, thin acidic soils, blanket bog and many surface streams result. On Dartmoor, tors and clitter stand above the granite slopes. Quartzite is resistant, so quartzite peaks such as Errigal and Croagh Patrick stand above the surrounding rocks. Resistant rock forms uplands and peaks; weaker limestone forms the central lowland of Ireland's saucer shape.",
+    "prompt": "Explain how spatial variations in rock type influence the physical landscape, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Permeable rock lets water pass through it, mainly along cracks, joints and bedding planes; limestone is an example. The ground water table is the upper surface of the zone where all cracks in the rock are saturated with water. Above it lies the zone of aeration. It rises in wet weather and falls in dry weather.",
+    "prompt": "Explain what is meant by the terms permeable rock and ground water table.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s5": {
+  "keyTerms": [
+   {
+    "definition": "The downslope movement of weathered material under gravity, without a transporting agent such as a river or glacier.",
+    "term": "Mass movement"
+   },
+   {
+    "definition": "The layer of loose, weathered material that covers bedrock and can be moved by mass movement.",
+    "term": "Regolith"
+   },
+   {
+    "definition": "The slowest mass movement, in which soil is lifted at right angles to the slope by wetting or frost heave and dropped vertically, moving it slowly downhill.",
+    "term": "Soil creep"
+   },
+   {
+    "definition": "The slow flow of a saturated thawed surface layer over permafrost in periglacial areas.",
+    "term": "Solifluction"
+   },
+   {
+    "definition": "The accumulation of rock fragments at the foot of a steep cliff after rockfall; also called talus.",
+    "term": "Scree"
+   },
+   {
+    "definition": "A rotational slide of saturated material along a curved slip plane, leaving a crescent-shaped scarp.",
+    "term": "Slump"
+   },
+   {
+    "definition": "The rapid downhill flow of saturated fine material that moves like a liquid.",
+    "term": "Mudflow"
+   },
+   {
+    "definition": "A volcanic mudflow of ash and water, from rain or melted snow and ice on a volcano.",
+    "term": "Lahar"
+   },
+   {
+    "definition": "The sudden flow of saturated blanket peat down a slope, after its base loses grip on the mineral soil or rock beneath.",
+    "term": "Bog burst"
+   },
+   {
+    "definition": "The force that holds particles of soil or rock together, resisting movement.",
+    "term": "Cohesion"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What mass movement is",
+    "points": [
+     "Mass movement (mass wasting) is the downslope movement of weathered material, such as regolith, soil, rock, mud, peat or snow, under the influence of gravity.",
+     "No transporting agent such as a river, glacier or wind is needed. Weathering supplies the material that moves.",
+     "Gravity pulls material downslope. Friction, cohesion and plant roots resist it. Movement happens when the downslope force exceeds the resistance.",
+     "Processes are classed by speed (slow or fast), by water content (dry or wet) and by type of movement (heave, slide, flow or fall)."
+    ]
+   },
+   {
+    "h": "Where and when mass movement happens",
+    "points": [
+     "It is most intense on steep, wet and unvegetated slopes.",
+     "Its frequency rises after heavy rain, snowmelt, earthquakes and seasonal freeze-thaw."
+    ]
+   },
+   {
+    "b": "The slowest mass movement, moving soil by a few millimetres to centimetres a year.",
+    "h": "Soil creep (slow)",
+    "points": [
+     "Soil particles are lifted at right angles to the slope by wetting (swelling) or by freezing (frost heave).",
+     "On drying or thawing, the particles drop vertically, so each cycle moves them a little further downslope.",
+     "Evidence: terracettes (small steps on grassy slopes), bent tree trunks, tilted fences, walls and poles, soil piled up behind walls, and cracked roads.",
+     "Diagram: zigzag path of a particle, lifted at right angles to the slope and dropped vertically."
+    ]
+   },
+   {
+    "h": "Solifluction (slow, periglacial)",
+    "points": [
+     "In periglacial areas the surface layer thaws in summer above permanently frozen ground, called permafrost.",
+     "The saturated layer cannot drain, so it flows slowly downhill, forming lobes and terraces.",
+     "Solifluction was widespread in Ireland at the end of the last glaciation."
+    ]
+   },
+   {
+    "h": "Rockfall and landslide (fast)",
+    "points": [
+     "Rockfall: blocks loosened by freeze-thaw, or undercut by the sea or a river, fall freely from a steep cliff. They collect as scree (talus) at the foot.",
+     "Landslide (rockslide): a mass of rock or debris slides suddenly along a flat plane, such as a bedding plane or joint sloping in the same direction as the slope.",
+     "Landslides often follow heavy rain, which lubricates the plane, or an earthquake, which shakes it loose."
+    ]
+   },
+   {
+    "h": "Slump (fast, rotational)",
+    "points": [
+     "Saturated material, often clay over or under permeable rock, slides along a curved (concave) slip plane and rotates backward.",
+     "The slump leaves a crescent-shaped scar (scarp) at the top, a back-tilted block and a bulging toe at the foot.",
+     "Slumps are common on clay cliffs undercut by the sea.",
+     "A slump moves on a curved plane. A landslide moves on a flat plane."
+    ]
+   },
+   {
+    "h": "Mudflow, lahar and avalanche (fast)",
+    "points": [
+     "Mudflow: fine material (clay, silt, weathered rock or volcanic ash) saturated by heavy rain or snowmelt flows rapidly downhill like a liquid, often along valleys. It can bury settlements.",
+     "Lahar: a volcanic mudflow of ash and water, from rain or from melted snow and ice on the volcano. It can travel very fast and far. The word is from Indonesia.",
+     "Avalanche: a sudden, rapid slide of snow and ice down a steep mountain slope, triggered by heavy snowfall, rapid thaw or disturbance.",
+     "Ice avalanches occur when part of a glacier collapses."
+    ]
+   },
+   {
+    "h": "Bog burst (fast, peat slide)",
+    "points": [
+     "Blanket bog on a slope becomes saturated after prolonged or intense rain.",
+     "The peat gains weight, and its base loses grip on the underlying mineral soil or rock. The peat bursts and flows downhill as a black slurry.",
+     "A bog burst blocks rivers, kills fish, and destroys roads, bridges and land.",
+     "Bog bursts are common in the uplands of western and north-western Ireland."
+    ]
+   },
+   {
+    "h": "Factors: gradient, water and material",
+    "points": [
+     "Gradient: the steeper the slope, the greater the downslope pull of gravity and the faster the movement. Gentle slopes favour creep; steep slopes favour falls and slides.",
+     "Water content: some water adds cohesion, but saturation fills the pores, adds weight, reduces friction and acts as a lubricant, so material flows.",
+     "Heavy or prolonged rain and snowmelt trigger most fast movements.",
+     "Clay becomes slippery and plastic when wet. Jointed or bedded rock dipping towards the slope slides.",
+     "Permeable rock over impermeable clay or shale concentrates water at the junction, as on the Antrim coast."
+    ]
+   },
+   {
+    "h": "Factors: vegetation, climate, undercutting and tectonics",
+    "points": [
+     "Vegetation: roots bind soil and plants absorb water, so bare slopes move more easily.",
+     "Climate and weathering: freeze-thaw loosens rock, heavy seasonal rainfall adds water, and periglacial climates produce solifluction.",
+     "Undercutting: erosion by the sea or a river at the base of a slope removes support.",
+     "Loading: extra weight at the top of a slope, from rock, buildings or spoil, increases the downslope force.",
+     "Tectonic activity: earthquakes and volcanic eruptions shake loose material and trigger landslides and lahars.",
+     "Human activity also affects slope stability (see geo-rocks-weathering-s7)."
+    ]
+   },
+   {
+    "h": "Case study: Antrim coast landslides",
+    "points": [
+     "Location: the Antrim coast between Larne and Cushendall, along the Antrim Coast Road (A2).",
+     "Geology: hard basalt lies on chalk, which lies on soft Lias clay with other mudstones.",
+     "Rainwater soaks through the jointed basalt and chalk and saturates the clay, which becomes slippery and plastic.",
+     "The rock above slumps and rotates seaward in rotational slides, and clay flows out as mudflows. These have repeatedly blocked the coast road.",
+     "Garron Point is a classic landslip site on this coast.",
+     "Responses: engineers have built retaining walls and drainage, and fitted rock-catch fences and netting to protect the road."
+    ]
+   },
+   {
+    "h": "Case study: bog bursts in Ireland",
+    "points": [
+     "Pollatomish (Dooncarton Mountain), Co. Mayo, 19 September 2003: an intense thunderstorm with very heavy rain triggered about 40 landslides and peat slides in a few hours.",
+     "At Pollatomish, houses, roads, a bridge and a graveyard were damaged, and several families were evacuated.",
+     "Knocknageeha, near Rathmore, Co. Kerry, December 1896: a bog burst swept away a house, killing a family of eight. It is the classic Irish bog burst."
+    ]
+   },
+   {
+    "h": "Case study: Italy",
+    "points": [
+     "Sarno and neighbouring towns, Campania, southern Italy, 5–6 May 1998: after prolonged heavy rain, loose volcanic ash and soil on steep limestone slopes became saturated and slid off as fast mudflows into the towns below. About 160 people were killed.",
+     "Vajont Dam, northern Italy, 9 October 1963: a huge landslide from Monte Toc slid into the reservoir. The wave it sent over the dam destroyed the town of Longarone, killing about 2,000 people. The dam itself survived.",
+     "Weak clay layers in the valley side, and the filling of the reservoir which saturated the slope, caused the Vajont slide."
+    ]
+   },
+   {
+    "h": "Case study: South America",
+    "points": [
+     "Nevado del Ruiz, Colombia, 13 November 1985: a small eruption melted part of the summit ice cap. Lahars rushed down river valleys and buried the town of Armero, killing about 23,000 people.",
+     "Warnings had been given, but Armero was not evacuated.",
+     "Vargas state, on the coast of Venezuela, December 1999: days of torrential rain triggered mudslides and debris flows on the steep mountains above coastal towns, killing thousands of people."
+    ]
+   },
+   {
+    "h": "Case study: glacier collapse in the Alps",
+    "points": [
+     "Blatten, Lötschental, canton of Valais, Switzerland, 28 May 2025: the Birch Glacier collapsed, sending a huge mass of ice, rock and mud onto the village and burying most of it.",
+     "The village had been evacuated days earlier, after geologists detected rockfalls onto the glacier.",
+     "The debris blocked the River Lonza, forming a lake upstream and a flood risk.",
+     "Marmolada glacier, Dolomites, Italy, 3 July 2022: during a heatwave a large section of the glacier collapsed as an ice avalanche, killing 11 people."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Process: a bog burst, in which saturated blanket peat on a slope loses its grip on the mineral soil beneath and flows downhill as a slurry. Gradient: on a steep slope, gravity pulls the peat down faster, so the burst travels further. Water: intense or prolonged rain saturates the peat, fills its pores, adds weight, reduces friction and lubricates the base. At Pollatomish, Co. Mayo, on 19 September 2003, an intense thunderstorm triggered peat slides in a few hours. Material: peat has little cohesion when saturated and lies on impermeable mineral soil or rock. Vegetation: bare or drained bog has no roots to hold the peat. Climate: heavy seasonal rainfall keeps the peat saturated. Undercutting: erosion at the base of a slope removes support. Human activity: drainage or cutting of the bog weakens its surface (see geo-rocks-weathering-s7). Example: at Knocknageeha, near Rathmore, Co. Kerry, in December 1896, a bog burst swept away a house, killing a family of eight.",
+    "prompt": "Describe and explain the factors governing the operation of one mass movement process that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "Soil creep: the slowest process, moving soil a few millimetres to centimetres a year. Wetting swells the soil and frost heave lifts particles at right angles to the slope; on drying or thawing they drop vertically, so each cycle moves them a little downslope. Evidence includes terracettes, bent tree trunks, tilted fences and walls, soil piled up behind walls, and cracked roads. Mudflow: a fast process in which fine material such as clay, silt or volcanic ash is saturated by heavy rain or snowmelt and flows downhill like a liquid, often along valleys. Water lubricates the material and reduces friction, so a steep valley side can give way suddenly. Example: at Sarno, Campania, southern Italy, in May 1998, saturated volcanic ash and soil on steep limestone slopes slid off as fast mudflows into the towns below, killing about 160 people.",
+    "prompt": "Describe and explain any two processes of mass movement.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Fast: rockfall (or any one of landslide, slump, mudflow, lahar, bog burst or avalanche). Slow: soil creep (or solifluction). The steeper the slope, the greater the downslope pull of gravity, so material moves faster; gentle slopes favour slow creep, while steep slopes favour rockfalls and slides.",
+    "prompt": "Name one fast and one slow type of mass movement, and explain briefly how slope affects the rate of mass movement.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s6": {
+  "keyTerms": [
+   {
+    "definition": "The erosion, transport and deposition of material by wind.",
+    "term": "Aeolian processes"
+   },
+   {
+    "definition": "The lifting and removal of loose, dry, fine particles by wind, lowering the land surface.",
+    "term": "Deflation"
+   },
+   {
+    "definition": "The transport of sand grains by short bouncing hops along the surface.",
+    "term": "Saltation"
+   },
+   {
+    "definition": "A surface of closely packed stones left after wind has removed the fine material between them.",
+    "term": "Desert pavement"
+   },
+   {
+    "definition": "A stone with flat, polished faces and sharp edges, cut by sandblasting from the prevailing wind direction.",
+    "term": "Ventifact"
+   },
+   {
+    "definition": "A long, streamlined rock ridge lying parallel to the prevailing wind.",
+    "term": "Yardang"
+   },
+   {
+    "definition": "A flat-topped ridge with a hard cap rock over softer rock, undercut by abrasion.",
+    "term": "Zeugen"
+   },
+   {
+    "definition": "A rock pillar undercut near its base by sandblasting, leaving a wider top.",
+    "term": "Mushroom rock"
+   },
+   {
+    "definition": "A crescent-shaped dune with horns pointing downwind and a steep slip face on its lee side.",
+    "term": "Barchan dune"
+   },
+   {
+    "definition": "Thick deposits of fine wind-blown dust, which form very fertile soils.",
+    "term": "Loess"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Conditions for wind erosion",
+    "points": [
+     "Aeolian processes are the erosion, transport and deposition of material by wind.",
+     "Wind erosion is most effective in hot and cold deserts and on coasts, where loose, dry, fine material lies, vegetation is sparse and winds are strong.",
+     "Air is far less dense than water or ice, so wind can move only sand and finer particles, and mostly close to the ground."
+    ]
+   },
+   {
+    "h": "Processes of wind erosion",
+    "points": [
+     "Deflation: wind lifts and blows away loose, dry, fine particles (dust, silt and sand), lowering the land surface.",
+     "Abrasion (sandblasting): sand grains carried by the wind strike rock surfaces and wear them away. Abrasion is most effective within a metre or two of the ground, where most sand is carried.",
+     "Attrition: wind-blown grains collide with each other and with rock, becoming smaller, rounder and frosted."
+    ]
+   },
+   {
+    "h": "Transport by wind",
+    "points": [
+     "Suspension: fine dust is carried high in the air, sometimes for thousands of kilometres in dust storms.",
+     "Saltation: sand grains bounce along the surface in short hops. Most wind-blown sand moves this way.",
+     "Surface creep: larger grains are pushed and rolled along by the impact of saltating grains."
+    ]
+   },
+   {
+    "h": "Deflation and abrasion landforms",
+    "points": [
+     "Deflation hollow: a depression formed where deflation removes loose material down to the water table or to a resistant layer. The Qattara Depression, Egypt, lies below sea level and is attributed mainly to deflation down to the water table.",
+     "Desert pavement (reg): a surface of closely packed stones left after deflation has blown away the fine material between them. The stones protect the ground below from further deflation.",
+     "Ventifacts: stones with flat, polished faces and sharp edges, cut by sandblasting from the prevailing wind direction.",
+     "Diagram: plan of a deflation hollow; cross-section of a desert pavement."
+    ]
+   },
+   {
+    "h": "Yardangs, zeugens and mushroom rocks",
+    "points": [
+     "Yardangs: long, streamlined ridges of rock lying parallel to the prevailing wind, separated by grooves abraded in softer rock.",
+     "Zeugens: tabular, flat-topped ridges where a hard cap rock overlies softer rock. They form where the rock layers are horizontal and the joints run across the wind.",
+     "Zeugen stages: 1. Abrasion cuts down along joints in the cap rock. 2. The soft rock beneath is undercut. 3. A flat-topped ridge remains.",
+     "Mushroom (pedestal) rocks: rock pillars undercut near the base by sandblasting, which is concentrated near the ground.",
+     "Mushroom rock stages: 1. A pillar of rock stands on the desert floor. 2. Sandblasting undercuts its base. 3. The top, above the zone of abrasion, stays wide, leaving a mushroom shape.",
+     "Diagram: plan of yardangs aligned with the wind; cross-sections of a zeugen and a mushroom rock."
+    ]
+   },
+   {
+    "h": "Wind deposition and desert landforms",
+    "points": [
+     "Deposition occurs when wind speed drops or the wind meets an obstacle.",
+     "Desert landscapes: erg (sand sea), reg (stony desert) and hamada (bare rock). The Sahara Desert, North Africa, has all three.",
+     "Barchan dunes: crescent-shaped dunes with horns pointing downwind. They have a gentle windward slope and a steep slip face on the lee side, and migrate downwind.",
+     "Seif (linear) dunes: long ridges roughly parallel to the dominant wind, formed where winds blow from two directions.",
+     "Loess: fine wind-blown dust, often from the edges of former ice sheets or deserts, which forms very fertile soils. Example: the Loess Plateau of northern China.",
+     "Diagram: cross-section of a barchan dune showing the windward slope and slip face."
+    ]
+   },
+   {
+    "h": "Wind erosion in practice",
+    "points": [
+     "The Dust Bowl, Great Plains of the USA (including Oklahoma and Kansas), 1930s: bare, dry soil was blown away in huge dust storms, known as black blizzards (see geo-rocks-weathering-s7 for its causes).",
+     "In Ireland, the damp climate and vegetation cover limit wind erosion. The main aeolian landforms are coastal sand dunes (see geo-sea-s1) and blowouts where dune vegetation is damaged (see geo-sea-s2)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Processes: deflation lifts loose, dry, fine particles and lowers the surface; abrasion, by sand grains carried within a metre or two of the ground, wears rock surfaces; attrition makes wind-blown grains smaller and rounder. Transport: suspension carries fine dust high in the air; saltation moves most sand in short hops; surface creep rolls larger grains. Landform: a mushroom rock. 1. A rock pillar stands on the desert floor. 2. Sandblasting, concentrated near the ground, undercuts its base. 3. The top, above the zone of abrasion, stays wide, leaving a mushroom shape. Diagram: labelled sketch of the pillar with the undercut base and the wider top.",
+    "prompt": "Examine the processes of erosion by wind and explain the formation of one landform of wind erosion.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Deflation is the lifting and blowing away of loose, dry, fine particles such as dust, silt and sand, which lowers the land surface. Abrasion is the wearing away of rock surfaces by sand grains carried by the wind, which strike the rock, and is most effective within a metre or two of the ground. Deflation removes material; abrasion wears rock down by impact.",
+    "prompt": "Distinguish between deflation and abrasion as processes of wind erosion.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7": {
+  "keyTerms": [
+   {
+    "definition": "The number of animals an area of land can support without its vegetation being damaged.",
+    "term": "Carrying capacity"
+   },
+   {
+    "definition": "Grazing by too many animals, which eats vegetation down to the roots and compacts the soil.",
+    "term": "Overgrazing"
+   },
+   {
+    "definition": "Cropping the same land year after year without fallow periods or fertiliser, so the soil structure breaks down.",
+    "term": "Overcropping"
+   },
+   {
+    "definition": "A period when land is left unplanted to let its nutrients and structure recover.",
+    "term": "Fallow"
+   },
+   {
+    "definition": "Ploughing along the slope rather than up and down it, to slow the flow of water and soil.",
+    "term": "Contour ploughing"
+   },
+   {
+    "definition": "The degradation of semi-arid land into desert-like conditions through overuse, drought and erosion.",
+    "term": "Desertification"
+   },
+   {
+    "definition": "The removal of trees, which loses the roots that bind soil and the canopy that intercepts rain.",
+    "term": "Deforestation"
+   },
+   {
+    "definition": "Cutting down all the trees in an area at once.",
+    "term": "Clear-felling"
+   },
+   {
+    "definition": "A wire cage filled with stones, used to retain a slope.",
+    "term": "Gabion"
+   },
+   {
+    "definition": "Waterlogged peat that covers upland slopes and can burst or slide when saturated.",
+    "term": "Blanket bog"
+   }
+  ],
+  "notes": [
+   {
+    "h": "How humans affect mass movement",
+    "points": [
+     "Humans make mass movement more frequent and faster by removing the vegetation that binds soil and absorbs water, by adding water or weight to slopes, and by removing support at the base of slopes.",
+     "Managing slopes can reduce the risk.",
+     "Removing vegetation also exposes soil to rain splash, sheet wash, gullying and wind, which strip it away. Slopes then become prone to creep, slides and mudflows.",
+     "Answers may cover soil erosion as well as mass movement, provided the link to slopes and gravity is made."
+    ]
+   },
+   {
+    "h": "Overgrazing: how it happens and its effects",
+    "points": [
+     "Too many animals for the land's carrying capacity eat the vegetation down to the roots and trample the ground.",
+     "Hooves compact the soil and break the surface of peat, leaving bare patches.",
+     "Without roots, soil and peat lose cohesion. Rain runs off the compacted surface or saturates the broken peat.",
+     "Sheet and gully erosion increase, soil creep speeds up (terracettes deepen), and peat slides occur."
+    ]
+   },
+   {
+    "h": "Overgrazing: western Irish commonage",
+    "points": [
+     "From the 1980s, EU (CAP) headage payments paid farmers per animal. Sheep numbers rose sharply on hill commonage in western Ireland, including Connemara, Co. Galway, and the mountains of Co. Mayo, Co. Donegal and Co. Kerry.",
+     "Overgrazing stripped heather and grass, exposed and eroded blanket peat, and sent silt into rivers, harming salmon and trout spawning grounds.",
+     "Responses: payments were changed from per-head to per-area; Commonage Framework Plans, from the early 2000s, set lower stocking rates; REPS (the Rural Environment Protection Scheme, introduced in 1994) paid farmers to farm in environmentally friendly ways."
+    ]
+   },
+   {
+    "h": "Overgrazing management",
+    "points": [
+     "Destocking: reducing the number of animals to the land's carrying capacity.",
+     "Rotational grazing, moving animals between areas so that vegetation can recover.",
+     "Fencing off degraded ground to let vegetation recover."
+    ]
+   },
+   {
+    "h": "Overcropping: how it happens and its effects",
+    "points": [
+     "The same land is cropped year after year without fallow periods or fertiliser. Soil nutrients and organic matter are used up, and soil structure breaks down.",
+     "Crops grow poorly, the ground is left bare between harvests, and marginal and sloping land is ploughed.",
+     "Loose, dry, structureless soil is washed downslope by rain or blown away by wind, forming rills and gullies.",
+     "On slopes, ploughing up and down the slope channels water and soil downhill."
+    ]
+   },
+   {
+    "h": "Overcropping case study: the Dust Bowl",
+    "points": [
+     "On the Great Plains of the USA, including Oklahoma and Kansas, natural grassland was ploughed up for wheat in the 1930s.",
+     "Severe drought then left bare, dry soil, which wind erosion removed (see geo-rocks-weathering-s6).",
+     "Many farming families were forced to leave.",
+     "The US Soil Conservation Service was set up in 1935. Shelter belts of trees, contour ploughing and crop rotation were promoted."
+    ]
+   },
+   {
+    "h": "The Sahel: overgrazing and overcropping",
+    "points": [
+     "The Sahel is the semi-arid belt along the southern edge of the Sahara.",
+     "Population growth led to more cattle, goats and sheep concentrated around wells and boreholes, shorter fallow periods, more cash crops and more fuelwood cutting.",
+     "With droughts, notably in the 1970s and 1980s, the bare soil was eroded by wind and by the heavy rain of the short wet season. This process is called desertification."
+    ]
+   },
+   {
+    "h": "Overcropping management",
+    "points": [
+     "Crop rotation and fallow periods, so that soil nutrients recover.",
+     "Contour ploughing, ploughing along the slope rather than up and down it.",
+     "Strip cropping, terracing of steep slopes, and shelter belts against wind.",
+     "Mulching and cover crops keep the soil covered between harvests.",
+     "Rice terraces of Banaue, Luzon, Philippines: terracing of steep slopes, over 2,000 years old."
+    ]
+   },
+   {
+    "h": "Deforestation: how it happens and its effects",
+    "points": [
+     "Trees are removed for farmland, timber, fuelwood, roads and building.",
+     "Tree roots bind soil and anchor it to bedrock. The canopy breaks the force of rain, and trees take up water (interception and transpiration).",
+     "Without trees, more rain reaches and saturates the soil. Roots rot and no longer hold the slope.",
+     "Landslides and mudflows become more frequent, especially in heavy tropical rain. More sediment and faster run-off reach rivers."
+    ]
+   },
+   {
+    "h": "Deforestation case studies: Haiti and Central America",
+    "points": [
+     "Haiti has lost almost all its natural forest, mainly for farmland and charcoal. Neighbouring Dominican Republic has far more forest cover.",
+     "In September 2004 Tropical Storm Jeanne caused floods and mudslides off the bare hills around Gonaïves, killing about 3,000 people.",
+     "Hurricane Mitch, October 1998: torrential rain over Honduras and Nicaragua caused floods and landslides, made worse by deforested slopes. About 11,000 people were killed.",
+     "A mudflow from the Casita volcano, Nicaragua, buried villages during Hurricane Mitch."
+    ]
+   },
+   {
+    "h": "Deforestation in Ireland",
+    "points": [
+     "Historic forest clearance left Ireland with very little woodland. About 1% of Ireland was forested around 1900.",
+     "Forest cover is now about 11%, mostly in conifer plantations.",
+     "Clear-felling of conifer plantations on upland peat, and building forestry and wind-farm roads, can destabilise peat slopes."
+    ]
+   },
+   {
+    "h": "Deforestation management",
+    "points": [
+     "Afforestation and reforestation of steep slopes.",
+     "Buffer strips of trees beside rivers.",
+     "Selective felling instead of clear-felling, and restricting felling on steep or peaty slopes."
+    ]
+   },
+   {
+    "h": "Construction and drainage on peat and slopes",
+    "points": [
+     "Wind farms and roads on upland blanket bog involve excavation, dumping of spoil on the bog surface and interference with drainage.",
+     "Derrybrien, Slieve Aughty Mountains, Co. Galway, 16 October 2003: during construction of a wind farm on a forested blanket-bog hillside, a peat slide of about 450,000 cubic metres moved into the Owendalulleegh River, killing large numbers of fish.",
+     "In 2019 the EU Court of Justice fined Ireland, a lump sum of €5 million plus €15,000 a day, because no proper environmental impact assessment had been carried out.",
+     "Meenbog wind farm, near Ballybofey, Co. Donegal, November 2020: a peat slide during construction flowed into the Mourne Beg River and crossed into Northern Ireland, polluting a river system important for salmon.",
+     "Road and rail cuttings steepen slopes or remove support at their base. Building weight on top of a slope adds to the downslope force.",
+     "Leaking pipes, drainage and irrigation saturate slopes. Reservoirs saturate valley sides (Vajont, see geo-rocks-weathering-s5).",
+     "Mining spoil heaps are unstable (Aberfan, see geo-rocks-weathering-s2)."
+    ]
+   },
+   {
+    "h": "Reducing the risk",
+    "points": [
+     "Slope engineering: retaining walls, gabions (wire cages of stones), rock bolts, wire netting and rock-catch fences on cliffs.",
+     "Regrading slopes to a gentler angle, and drainage pipes to lower the water content.",
+     "Planning: hazard mapping, avoiding building on unstable slopes, and environmental impact assessments before building on peat.",
+     "Monitoring and warning systems."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Overgrazing: too many animals strip vegetation and compact the soil, so roots no longer bind it and rain saturates or runs off it. Peat slides and faster creep follow. Example: sheep overgrazing on western Irish commonage after the headage payments of the 1980s. Management: destocking, rotational grazing and fencing. Overcropping: repeated cropping without fallow exhausts soil structure and leaves ground bare; rain and wind remove loose soil and rills and gullies form. Example: the Dust Bowl of the 1930s on the Great Plains of the USA. Management: crop rotation, fallow periods, contour ploughing and shelter belts. Deforestation: roots and canopy are removed, so more rain saturates the soil and roots rot. Landslides and mudflows become more frequent. Example: Hurricane Mitch, 1998, in Honduras and Nicaragua, or Haiti, 2004. Management: reforestation of steep slopes, buffer strips and selective felling.",
+    "prompt": "Examine how human activities can impact on mass movement processes, with reference to overgrazing, overcropping and deforestation.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Overgrazing of western Irish commonage after the headage payments of the 1980s stripped vegetation, exposed blanket peat and increased peat slides; REPS and Commonage Framework Plans later reduced stocking. Derrybrien, Co. Galway, 2003: wind-farm construction on forested blanket bog caused a peat slide of about 450,000 cubic metres into the Owendalulleegh River and killed large numbers of fish; the EU Court of Justice fined Ireland in 2019 for lacking an environmental impact assessment. Meenbog, Co. Donegal, 2020: a construction-related peat slide polluted a river system important for salmon. Forestry on upland peat: clear-felling and forestry roads can destabilise peat slopes; about 11% of Ireland is now forested, mostly conifer plantations. Management: environmental impact assessments before building on peat, selective felling, and restricting felling on peaty slopes.",
+    "prompt": "Examine how humans interact with mass movement processes, with reference to Irish examples.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Tree roots bind soil and anchor it to bedrock, so without them the soil loses cohesion. The canopy breaks the force of rain and trees take up water through interception and transpiration; without trees, more rain reaches and saturates the soil. Roots rot and no longer hold the slope. Landslides and mudflows become more frequent, especially in heavy tropical rain, and more sediment and run-off reach rivers. Example: Hurricane Mitch, October 1998, over Honduras and Nicaragua, where floods and landslides were made worse by deforested slopes, and a mudflow from the Casita volcano buried villages. Example: Haiti, where Tropical Storm Jeanne in September 2004 caused mudslides off bare hills around Gonaïves. Reforestation of steep slopes and buffer strips of trees beside rivers reduce the risk.",
+    "prompt": "Explain how deforestation can increase mass movement.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-sea-s1": {
   "keyTerms": [
    {
@@ -2904,6 +4273,1329 @@
     "marks": 6,
     "model": "Rock armour is a layer of large boulders piled along the foot of a cliff or in front of a sea wall; the gaps between the boulders absorb and break up wave energy. Its disadvantage is that it can be unsightly and hard to walk over. Groynes are low barriers built out from the shore at right angles, across the beach; they trap sand on their updrift side. Their disadvantage is that the beach downdrift is starved of sediment, so erosion increases there.",
     "prompt": "Explain the difference between rock armour and groynes.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s1": {
+  "keyTerms": [
+   {
+    "definition": "Molten rock below the earth's surface.",
+    "term": "Magma"
+   },
+   {
+    "definition": "Magma that has reached the surface through a vent.",
+    "term": "Lava"
+   },
+   {
+    "definition": "An opening in the crust through which magma, gases and fragments escape.",
+    "term": "Vent"
+   },
+   {
+    "definition": "Solid fragments thrown into the air by an eruption, including ash, lapilli, volcanic bombs and pumice.",
+    "term": "Pyroclastic material (tephra)"
+   },
+   {
+    "definition": "A fast, very hot avalanche of gas, ash and rock moving down a volcano's slopes.",
+    "term": "Pyroclastic flow"
+   },
+   {
+    "definition": "A volcanic mudflow of ash and water.",
+    "term": "Lahar"
+   },
+   {
+    "definition": "Low-silica, hot, runny lava from which gases escape easily, producing gentle eruptions.",
+    "term": "Basic (basaltic) lava"
+   },
+   {
+    "definition": "High-silica, cooler, viscous lava that traps gas, producing explosive eruptions.",
+    "term": "Acidic lava"
+   },
+   {
+    "definition": "A volcano that has erupted recently and may erupt again soon.",
+    "term": "Active volcano"
+   },
+   {
+    "definition": "A volcano that has not erupted for a long time but could erupt again.",
+    "term": "Dormant volcano"
+   },
+   {
+    "definition": "A volcano not expected ever to erupt again.",
+    "term": "Extinct volcano"
+   },
+   {
+    "definition": "A belt of volcanoes and earthquakes around the edges of the Pacific Ocean.",
+    "term": "Ring of Fire"
+   },
+   {
+    "definition": "A plume of magma rising from deep in the mantle, away from plate boundaries, which can form a chain of volcanoes as a plate moves over it.",
+    "term": "Hot spot"
+   },
+   {
+    "definition": "An eruption of lava from a long crack in the crust, as in the Antrim basalts.",
+    "term": "Fissure eruption"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A volcano is an opening (vent) in the crust through which magma, gases and fragments escape, together with the landform built around it. Magma is molten rock below the surface; lava is magma that has reached the surface.",
+    "h": "What a volcano is",
+    "points": [
+     "Magma chamber: the reservoir of magma beneath the volcano.",
+     "Main vent: the pipe (conduit) that carries magma up to the crater.",
+     "Secondary (parasitic) vent: a smaller opening on the flanks of the cone.",
+     "Crater: the hollow at the top of the main vent.",
+     "Cone: built from alternating layers of lava and ash.",
+     "Lava flow: lava moving across the surface away from the vent.",
+     "Diagram: labelled cross-section showing the magma chamber, main vent, secondary vent, crater, cone of alternating lava and ash layers, lava flow, ash cloud and volcanic bombs, with the crust around the chamber."
+    ]
+   },
+   {
+    "h": "Materials ejected and the hazards they cause",
+    "points": [
+     "Lava: molten rock that flows from the vent.",
+     "Gases: water vapour, carbon dioxide and sulphur dioxide.",
+     "Pyroclastic material (tephra): solid fragments thrown into the air. It includes ash, lapilli (cinders), volcanic bombs and pumice.",
+     "Ash: the finest pyroclastic particles, which can fall over wide areas.",
+     "Volcanic bombs: large lumps of lava thrown out of the vent while still partly molten.",
+     "Pumice: a light, porous rock formed from frothy lava.",
+     "Pyroclastic flows: fast, very hot avalanches of gas, ash and rock moving down the slopes.",
+     "Lahars: volcanic mudflows of ash and water, for example when an eruption melts snow or ice."
+    ]
+   },
+   {
+    "b": "The silica content of magma controls how runny the lava is, how much gas it traps, and so how the volcano erupts.",
+    "h": "Basic and acidic lava",
+    "points": [
+     "Basic (basaltic) lava is low in silica and hot, so it is runny (low viscosity).",
+     "Gases escape easily from basic lava, so eruptions are gentle (effusive).",
+     "Acidic lava is high in silica and cooler, so it is viscous (thick).",
+     "Acidic lava traps gas, so eruptions are explosive.",
+     "Low-viscosity lava spreads widely and builds shield volcanoes; viscous lava piles up into steep cones. The landform types are covered in the subsection on volcanic and plutonic landforms."
+    ]
+   },
+   {
+    "h": "Active, dormant and extinct volcanoes",
+    "points": [
+     "Active: a volcano that has erupted recently and may erupt again soon. Examples: Mount Etna, Sicily, Italy; Kilauea, Hawaii; Stromboli, Italy.",
+     "Dormant: a volcano that has not erupted for a long time but could erupt again. Example: Mount Fuji, Japan, last erupted in 1707.",
+     "Extinct: a volcano not expected ever to erupt again. Example: Slemish, Co. Antrim, the remains of an extinct volcano, linked with St Patrick."
+    ]
+   },
+   {
+    "b": "Most volcanoes lie in narrow belts that follow plate boundaries, not at random. The boundary processes themselves are covered in the plate tectonics notes.",
+    "h": "Volcanoes along plate boundaries",
+    "points": [
+     "Constructive (divergent) boundaries: basic magma rises where plates separate, mostly under the sea along mid-ocean ridges.",
+     "Iceland is where the Mid-Atlantic Ridge rises above sea level; the North American and Eurasian plates are moving apart there.",
+     "Destructive (convergent) boundaries: oceanic crust is subducted, the descending plate melts, and acidic magma rises to form explosive volcanoes.",
+     "Destructive boundaries form volcanoes in fold-mountain chains, such as the Andes where the Nazca plate is subducted beneath the South American plate, and in island arcs such as Japan and Indonesia.",
+     "Continental–continental collision and transform (conservative) boundaries have few or no volcanoes."
+    ]
+   },
+   {
+    "h": "The Pacific Ring of Fire",
+    "points": [
+     "The Ring of Fire is a belt of volcanoes and earthquakes around the edges of the Pacific Ocean, mainly along destructive boundaries.",
+     "It contains about three-quarters of the world's active volcanoes.",
+     "Examples: Mount Fuji, Japan; Mount Pinatubo, the Philippines; Krakatoa, Indonesia; Mount St Helens, USA; volcanoes of the Andes."
+    ]
+   },
+   {
+    "b": "A hot spot is a plume of magma rising from deep in the mantle, away from plate boundaries.",
+    "h": "Hot spots",
+    "points": [
+     "As a plate moves over a stationary hot spot, a chain of volcanoes forms, with the volcanoes getting older with distance from the hot spot.",
+     "Hawaii sits in the middle of the Pacific plate over a hot spot. The Pacific plate moves north-west, so the islands get older to the north-west.",
+     "The active volcanoes Kilauea and Mauna Loa are on the Big Island in the south-east, over the hot spot.",
+     "Other hot spots: Yellowstone, USA; Iceland."
+    ]
+   },
+   {
+    "h": "Ireland's volcanic past",
+    "points": [
+     "Ireland lies in the middle of the Eurasian plate, far from a plate boundary, so it has no active volcanoes today.",
+     "About 60 million years ago, North America and Greenland separated from Europe as the Atlantic opened. The crust stretched and cracked.",
+     "Basic lava poured out of long fissures in north-east Ireland, flow upon flow, in fissure eruptions. These lavas formed the Antrim basalts.",
+     "Basalt is an extrusive (volcanic) rock, and the Antrim basalts came from fissures, not from a single cone volcano.",
+     "Landforms from these lavas include the Antrim plateau and the Giant's Causeway."
+    ]
+   },
+   {
+    "h": "Negative effects of volcanoes",
+    "points": [
+     "Loss of life, and destruction of buildings, farmland and infrastructure by lava, pyroclastic flows and lahars. In AD 79 Vesuvius, near Naples, Italy, buried the Roman towns of Pompeii and Herculaneum under ash and pyroclastic flows.",
+     "In 2018, lava from Kilauea's lower East Rift Zone destroyed hundreds of homes in the Leilani Estates area of Hawaii.",
+     "Ash fall can collapse roofs, destroy crops and contaminate water supplies.",
+     "Ash clouds disrupt air travel. In April 2010 an eruption under the Eyjafjallajökull ice cap, Iceland, closed much of European airspace for about a week, and about 100,000 flights were cancelled.",
+     "Volcanic tsunamis: the 1883 eruption of Krakatoa, Indonesia, caused tsunamis that killed about 36,000 people.",
+     "The undersea Hunga Tonga–Hunga Ha'apai volcano, Tonga, erupted on 15 January 2022 and caused a tsunami across the Pacific.",
+     "Gases and ash can cool the global climate for a year or two. After Mount Pinatubo, the Philippines, erupted in 1991, sulphur dioxide in the upper atmosphere cooled global average temperatures by about 0.5°C over the following year or so.",
+     "Economic losses and evacuation of populations."
+    ]
+   },
+   {
+    "h": "Positive effects of volcanoes",
+    "points": [
+     "Fertile soils from weathered volcanic ash and lava. On the slopes of Mount Etna and Vesuvius they support vineyards and orchards.",
+     "Geothermal energy and hot water: in Iceland geothermal energy heats about nine in ten homes and generates electricity.",
+     "Tourism: volcanoes, geysers and hot springs, such as the Blue Lagoon and the geysers at Geysir, Iceland.",
+     "Minerals and building materials, such as sulphur, pumice and basalt.",
+     "New land: Surtsey, an island that emerged from the sea off southern Iceland in 1963."
+    ]
+   },
+   {
+    "h": "Case study: Mount St Helens, 1980 (setting and sequence)",
+    "points": [
+     "Place: Cascade Range, Washington State, USA. The Juan de Fuca plate is subducted beneath the North American plate.",
+     "For weeks before 18 May 1980, magma pushed the north flank outwards into a bulge.",
+     "A magnitude 5.1 earthquake triggered the collapse of the north flank as a huge landslide.",
+     "The collapse released a sideways (lateral) blast that flattened forests.",
+     "The summit lost about 400 m of height, leaving a horseshoe-shaped crater."
+    ]
+   },
+   {
+    "h": "Case study: Mount St Helens, 1980 (effects and response)",
+    "points": [
+     "Ash fell across several US states.",
+     "Lahars flowed down river valleys, including the Toutle River, destroying bridges and homes.",
+     "57 people died.",
+     "Most people had been kept out of a restricted zone, which kept the death toll low."
+    ]
+   },
+   {
+    "b": "Volcanoes usually give warning signs, because magma must move upwards before an eruption.",
+    "h": "Predicting eruptions",
+    "points": [
+     "Seismometers record swarms of small earthquakes as magma rises.",
+     "Ground deformation: tiltmeters, GPS and satellite radar measure swelling or bulging of the cone.",
+     "Gas emissions: changes in the amount and type of gas, especially sulphur dioxide.",
+     "Temperature: thermal imaging and satellites detect heating of the ground or of crater lakes.",
+     "Changes in groundwater and springs.",
+     "Studying the deposits and records of past eruptions shows how often a volcano erupts and which areas are at risk. Hazard maps show these areas.",
+     "Scientists can often forecast that an eruption is likely, but not its exact time, size or style."
+    ]
+   },
+   {
+    "h": "Reducing the effects of eruptions",
+    "points": [
+     "Monitoring by volcano observatories.",
+     "Hazard zoning keeps settlement out of high-risk zones.",
+     "Evacuation plans and warning systems, and public education.",
+     "Diverting or slowing lava flows with barriers and channels, or cooling it with water.",
+     "Heimaey, Iceland, 1973: the Eldfell eruption on Heimaey, Westman Islands, threatened the harbour. About 5,000 residents were evacuated overnight, mostly by the fishing fleet. Sea water was pumped onto the advancing lava to cool and halt it, saving the harbour.",
+     "Pinatubo, the Philippines, 1991: scientists from the US Geological Survey and the Philippine volcano institute monitored earthquakes, gas emissions and swelling, and forecast the eruption. Tens of thousands of people were evacuated, including from the US Clark Air Base, saving thousands of lives."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Volcanoes lie in belts along plate boundaries. At constructive boundaries basic magma rises where plates separate, as at Iceland on the Mid-Atlantic Ridge, where the ridge rises above sea level. At destructive boundaries oceanic crust is subducted and the melted plate produces acidic magma and explosive volcanoes: the Andes, where the Nazca plate is subducted beneath the South American plate, and island arcs such as Japan and Indonesia. The Pacific Ring of Fire follows these destructive boundaries and holds about three-quarters of the world's active volcanoes. Continental collision and transform boundaries have few or no volcanoes. Hot spots such as Hawaii form volcanoes away from plate boundaries, with the islands getting older to the north-west as the Pacific plate moves over the hot spot. Ireland lies in the middle of the Eurasian plate, far from a boundary, so it has no active volcanoes, but its Antrim basalts were erupted about 60 million years ago as the Atlantic opened.",
+    "prompt": "Explain how plate tectonics helps us to understand the global distribution of volcanoes.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Negative effects: loss of life and destruction of buildings and farmland by lava, pyroclastic flows and lahars, for example Vesuvius burying Pompeii and Herculaneum in AD 79; ash fall collapsing roofs and contaminating water; ash clouds disrupting air travel, for example the 2010 Eyjafjallajökull eruption, which closed European airspace for about a week; volcanic tsunamis, for example Krakatoa in 1883, which killed about 36,000 people; and climate cooling after Mount Pinatubo in 1991, when sulphur dioxide cooled global average temperatures by about 0.5°C. Positive effects: fertile soils on the slopes of Mount Etna and Vesuvius that support vineyards and orchards; geothermal energy, which heats about nine in ten homes in Iceland; tourism, such as the Blue Lagoon and the geysers at Geysir; minerals and building materials such as sulphur, pumice and basalt; and new land, such as Surtsey, which emerged from the sea off Iceland in 1963.",
+    "prompt": "Discuss the positive and negative effects of volcanoes, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Seismic monitoring: seismometers record swarms of small earthquakes, which show magma moving upwards before an eruption. Ground deformation: tiltmeters, GPS and satellite radar measure the swelling of the cone as magma pushes into it. Evidence that these methods work comes from Mount Pinatubo in 1991, where scientists monitored earthquakes, gas emissions and swelling, forecast the eruption, and evacuated tens of thousands of people. The effects can be reduced by cooling lava: at Heimaey, Iceland, in 1973, sea water was pumped onto the advancing lava to cool and halt it, saving the harbour.",
+    "prompt": "Describe two ways in which volcanic eruptions can be predicted, and one way their effects can be reduced.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s2": {
+  "keyTerms": [
+   {
+    "definition": "A sudden shaking of the ground caused by the release of stress built up in the crust.",
+    "term": "Earthquake"
+   },
+   {
+    "definition": "The cycle in which plates lock, stress builds in the rocks, and the stored energy is released suddenly along a fault.",
+    "term": "Elastic rebound"
+   },
+   {
+    "definition": "The point inside the crust where an earthquake's rupture begins.",
+    "term": "Focus"
+   },
+   {
+    "definition": "The point on the surface directly above the focus of an earthquake.",
+    "term": "Epicentre"
+   },
+   {
+    "definition": "The fracture along which rocks move during an earthquake.",
+    "term": "Fault"
+   },
+   {
+    "definition": "Waves of energy spreading out from the focus of an earthquake.",
+    "term": "Seismic waves"
+   },
+   {
+    "definition": "An instrument that detects and records seismic waves as a seismogram.",
+    "term": "Seismograph"
+   },
+   {
+    "definition": "A logarithmic scale that measures earthquake magnitude from the size of waves on a seismogram.",
+    "term": "Richter scale"
+   },
+   {
+    "definition": "A scale from I to XII that measures the intensity of an earthquake from its observed effects.",
+    "term": "Modified Mercalli scale"
+   },
+   {
+    "definition": "The behaviour of saturated soft sediment during shaking, when it acts like a liquid and buildings sink or topple.",
+    "term": "Liquefaction"
+   },
+   {
+    "definition": "Locating an epicentre using the arrival times of seismic waves at three or more stations.",
+    "term": "Triangulation"
+   },
+   {
+    "definition": "A section of an active fault that has not moved for a long time and so is likely to slip next.",
+    "term": "Seismic gap"
+   },
+   {
+    "definition": "Placing bearings under a building so that the ground can move beneath it without shaking the structure.",
+    "term": "Base isolation"
+   },
+   {
+    "definition": "A heavy counterweight in a tall building that moves to offset sway.",
+    "term": "Tuned mass damper"
+   }
+  ],
+  "notes": [
+   {
+    "b": "An earthquake is a sudden shaking of the ground caused by the release of stress built up in the crust.",
+    "h": "How earthquakes happen",
+    "points": [
+     "1. Plates moving past, towards or away from each other lock together by friction.",
+     "2. Stress builds up in the rocks around the locked boundary.",
+     "3. When the stress exceeds the strength of the rock, the rock fractures or slips suddenly along a fault.",
+     "4. The stored energy is released as seismic waves.",
+     "This cycle of locking, stress build-up and sudden release is called elastic rebound.",
+     "Foreshocks are smaller tremors before the main shock. Aftershocks are tremors after it, and can bring down weakened buildings."
+    ]
+   },
+   {
+    "h": "Focus, epicentre and fault",
+    "points": [
+     "Focus (hypocentre): the point inside the crust where the rupture begins.",
+     "Epicentre: the point on the surface directly above the focus, where shaking is usually strongest.",
+     "Fault (fault line): the fracture along which the rocks move.",
+     "Seismic (shock) waves: waves of energy spreading out from the focus.",
+     "Diagram: cross-section showing the fault, the focus below ground, seismic waves spreading out, and the epicentre on the surface directly above the focus."
+    ]
+   },
+   {
+    "h": "Seismic waves",
+    "points": [
+     "P (primary) waves are the fastest seismic waves and arrive first.",
+     "S (secondary) waves are slower than P waves and arrive second.",
+     "Surface waves travel along the surface, arrive last and cause most of the damage."
+    ]
+   },
+   {
+    "h": "Recording and locating earthquakes",
+    "points": [
+     "A seismograph (seismometer) detects and records seismic waves; the record is a seismogram.",
+     "A barometer measures air pressure and is not an earthquake instrument.",
+     "Seismic stations record the arrival times of P and S waves. The gap between them shows the distance to the earthquake.",
+     "Three or more stations locate the epicentre by triangulation."
+    ]
+   },
+   {
+    "h": "Magnitude and intensity",
+    "points": [
+     "The Richter scale measures magnitude, the energy released, from the size of the waves on a seismogram.",
+     "The Richter scale is logarithmic: each whole number up means ten times the wave amplitude and about 30 times more energy.",
+     "The moment magnitude scale is the modern replacement for large earthquakes. Either scale is an accepted answer for a scale that measures magnitude.",
+     "The modified Mercalli scale measures intensity, the observed effects and damage at a place, on a scale of I to XII.",
+     "Intensity varies from place to place for one earthquake; magnitude does not."
+    ]
+   },
+   {
+    "b": "Most earthquakes occur in narrow belts along plate boundaries.",
+    "h": "Where earthquakes occur",
+    "points": [
+     "The Pacific Ring of Fire has about 90% of the world's earthquakes, including most of the most powerful ones.",
+     "Ireland lies in the middle of the Eurasian plate, far from a boundary, so it has only rare, minor tremors."
+    ]
+   },
+   {
+    "b": "Where plates separate, the crust is pulled apart and rocks fracture.",
+    "h": "Earthquakes at constructive boundaries",
+    "points": [
+     "Earthquakes are frequent, shallow and generally weaker.",
+     "They occur along mid-ocean ridges and in Iceland, which lies on the Mid-Atlantic Ridge."
+    ]
+   },
+   {
+    "b": "Where one plate is subducted beneath another, the sinking plate generates earthquakes at a range of depths.",
+    "h": "Earthquakes at destructive boundaries",
+    "points": [
+     "These are the most powerful earthquakes; foci range from shallow to very deep along the sinking plate.",
+     "Undersea earthquakes at subduction zones can cause tsunamis.",
+     "Examples: Japan; Chile; Sumatra, Indonesia."
+    ]
+   },
+   {
+    "b": "Where continental plates collide, rocks are crushed and folded into fold mountains.",
+    "h": "Earthquakes at collision boundaries",
+    "points": [
+     "Collision boundaries produce powerful, shallow earthquakes in fold-mountain belts, such as the Himalayas.",
+     "Nepal, 25 April 2015: magnitude 7.8, from the collision of the Indian and Eurasian plates. About 9,000 people died. Kathmandu was severely damaged, and the earthquake triggered avalanches on Mount Everest."
+    ]
+   },
+   {
+    "b": "At transform (conservative) boundaries plates slide past each other. The plates stick, then slip suddenly.",
+    "h": "Earthquakes at transform boundaries",
+    "points": [
+     "These earthquakes are shallow and often very damaging.",
+     "San Andreas Fault, California: the Pacific plate and North American plate slide past each other.",
+     "San Francisco, 18 April 1906: magnitude about 7.8, with about 3,000 deaths. Fires from broken gas mains burned for days and destroyed much of the city.",
+     "Loma Prieta, 1989: magnitude 6.9, near San Francisco, on the San Andreas system.",
+     "East Anatolian Fault, Turkey, a transform fault: on 6 February 2023 a magnitude 7.8 earthquake killed over 50,000 people in Turkey and Syria, and many apartment blocks collapsed."
+    ]
+   },
+   {
+    "b": "Primary effects are caused directly by the shaking.",
+    "h": "Primary effects of earthquakes",
+    "points": [
+     "Building and bridge collapse, deaths and injuries, and ground rupture.",
+     "Broken gas, water and power lines, and damaged roads and railways."
+    ]
+   },
+   {
+    "b": "Secondary effects follow from the shaking.",
+    "h": "Secondary effects of earthquakes",
+    "points": [
+     "Fires from broken gas mains and power lines.",
+     "Tsunamis: the Tōhoku earthquake of 11 March 2011, magnitude 9.0 off north-east Japan, sent a tsunami that overtopped sea walls. About 18,000 people were killed or are missing, and the tsunami caused meltdowns at the Fukushima Daiichi nuclear power plant.",
+     "Landslides.",
+     "Liquefaction: saturated soft sediment behaves like a liquid, so buildings sink or topple.",
+     "Christchurch, New Zealand, 22 February 2011: magnitude 6.3, 185 deaths, widespread liquefaction, and the cathedral spire collapsed.",
+     "Disease from contaminated water, homelessness and economic losses."
+    ]
+   },
+   {
+    "h": "Factors affecting the damage",
+    "points": [
+     "Magnitude: larger earthquakes release more energy.",
+     "Depth of focus: a shallow-focus earthquake causes more surface damage than a deep-focus one of the same magnitude.",
+     "Distance from the epicentre.",
+     "Rock and soil type: soft sediment shakes more and can liquefy.",
+     "Population density, and the time of day.",
+     "Building quality and building codes.",
+     "Level of development and preparedness: wealth to prepare, respond and rebuild.",
+     "Haiti, 12 January 2010: magnitude 7.0 near Port-au-Prince. Poorly built concrete buildings collapsed, and the country had little capacity to respond. Estimates of the death toll vary widely, all over 100,000."
+    ]
+   },
+   {
+    "h": "Case study: Kobe, Japan, 1995 (setting and cause)",
+    "points": [
+     "Place: the Great Hanshin earthquake, Kobe, Japan, 17 January 1995. Its epicentre was near the northern tip of Awaji Island, and its focus was shallow.",
+     "Magnitude 6.9 on the moment magnitude scale.",
+     "Kobe lies near where the Philippine Sea plate is subducted beneath the Eurasian plate. The rupture was on a fault close to the city."
+    ]
+   },
+   {
+    "h": "Case study: Kobe, Japan, 1995 (effects and response)",
+    "points": [
+     "Elevated sections of the Hanshin Expressway toppled over.",
+     "Many older wooden houses with heavy tiled roofs collapsed.",
+     "Fires from broken gas mains burned large areas.",
+     "Liquefaction badly damaged the port, which was built on reclaimed land.",
+     "About 6,400 people died, and about 300,000 were left homeless.",
+     "Response: the government faced criticism for a slow response. Stricter building codes and retrofitting followed."
+    ]
+   },
+   {
+    "h": "Case study: Indian Ocean, 26 December 2004 (cause and tsunami)",
+    "points": [
+     "Place: off the west coast of northern Sumatra, Indonesia. Magnitude 9.1.",
+     "The Indo-Australian plate is subducted beneath the Burma plate. The seabed was thrust upwards, displacing the ocean and causing a tsunami.",
+     "There was no tsunami warning system in the Indian Ocean at the time."
+    ]
+   },
+   {
+    "h": "Case study: Indian Ocean, 26 December 2004 (effects and response)",
+    "points": [
+     "About 230,000 people died in 14 countries.",
+     "The worst-hit area was Banda Aceh, Sumatra. Sri Lanka, India and Thailand were also badly hit.",
+     "Response: an Indian Ocean tsunami warning system was set up afterwards, operational from 2006."
+    ]
+   },
+   {
+    "b": "Earthquakes cannot be predicted precisely: their exact time, place and magnitude are not known. Scientists identify where they are likely and estimate how often they occur.",
+    "h": "Predicting earthquakes",
+    "points": [
+     "Mapping active faults and plate boundaries.",
+     "Studying the history and frequency of past earthquakes.",
+     "Seismic gap theory: a section of an active fault that has not moved for a long time has the most stored stress and is the most likely to slip next.",
+     "Monitoring foreshocks, ground deformation (GPS, tiltmeters and laser measurements across faults), radon gas release and changes in well-water levels.",
+     "Unusual animal behaviour is anecdotal and unreliable as a warning."
+    ]
+   },
+   {
+    "h": "Successes and failures of prediction",
+    "points": [
+     "Haicheng, China, 4 February 1975: after foreshocks, the city was evacuated hours before a magnitude 7.3 earthquake, saving many lives.",
+     "Tangshan, China, 28 July 1976: no warning was given, and the official death toll was about 240,000.",
+     "L'Aquila, Italy, 6 April 2009: magnitude 6.3, about 300 deaths. In 2012 six scientists and an official were convicted of manslaughter for reassuring the public before the quake. The scientists were acquitted on appeal in 2014."
+    ]
+   },
+   {
+    "h": "Early warning",
+    "points": [
+     "Early-warning systems detect the fast P waves, giving seconds of warning before the destructive waves arrive.",
+     "Those seconds are enough to stop trains, shut off gas supplies and take cover.",
+     "Japan has a national earthquake early-warning system.",
+     "Tsunami warning systems use seabed pressure sensors and buoys."
+    ]
+   },
+   {
+    "h": "Earthquake-resistant buildings and infrastructure",
+    "points": [
+     "Deep foundations anchored to bedrock.",
+     "Base isolation: rubber and steel bearings or rollers under the building, so the ground moves beneath it.",
+     "Flexible steel or reinforced-concrete frames that sway rather than crack, with cross-bracing and shear walls.",
+     "Counterweights (tuned mass dampers) in tall buildings. Taipei 101, Taiwan, has a giant tuned mass damper, a steel ball hung near the top.",
+     "Automatic shut-off valves on gas mains, and flexible joints on pipes.",
+     "Retrofitting older buildings."
+    ]
+   },
+   {
+    "h": "Planning and preparedness",
+    "points": [
+     "Strict building codes, and land-use planning that avoids soft ground and fault lines.",
+     "Emergency drills, education and emergency supplies.",
+     "Tsunami walls and evacuation routes.",
+     "Japan holds national Disaster Prevention Day drills each 1 September, the anniversary of the 1923 Great Kanto earthquake."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Earthquakes occur where plate movement builds stress at boundaries and the stress is released. At constructive boundaries earthquakes are frequent, shallow and generally weaker, as on the Mid-Atlantic Ridge in Iceland. At destructive boundaries the most powerful earthquakes occur, with foci from shallow to very deep along the subducting plate, and undersea quakes cause tsunamis: Japan in 2011, and Sumatra in 2004. At collision boundaries powerful shallow earthquakes occur in fold-mountain belts, as in the Himalayas, where Nepal was struck in 2015. At transform boundaries plates slide past each other and stick, then slip, causing shallow and often very damaging earthquakes: the San Andreas Fault, San Francisco in 1906, and the East Anatolian Fault in Turkey in 2023. Most earthquakes lie in the Pacific Ring of Fire, which has about 90% of the world's earthquakes. Ireland lies in the middle of the Eurasian plate and has only rare, minor tremors.",
+    "prompt": "Explain how plate tectonics helps us to understand the global distribution of earthquakes.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "Earthquakes occur when plates moving past each other lock by friction, stress builds in the rocks, and when the stress exceeds the strength of the rock it fractures or slips suddenly along a fault, releasing energy as seismic waves. The focus is the point below ground where the rupture begins; the epicentre is on the surface directly above it. Primary effects come directly from the shaking: buildings and bridges collapse, people are killed and injured, the ground ruptures, and gas, water and power lines break. Secondary effects follow from the shaking. Using Kobe, Japan, 17 January 1995, magnitude 6.9 on the moment magnitude scale, with a shallow focus near Awaji Island: the Hanshin Expressway toppled, older wooden houses with heavy tiled roofs collapsed, fires from broken gas mains burned large areas, and liquefaction damaged the port built on reclaimed land. About 6,400 people died and about 300,000 were left homeless. The response drew criticism for being slow, and stricter building codes and retrofitting followed.",
+    "prompt": "Explain how earthquakes occur and describe their main effects, with reference to one earthquake you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Earthquake-proof building design: base isolation places rubber and steel bearings under a building so the ground moves beneath it, and flexible steel or reinforced-concrete frames sway rather than crack. Taipei 101 in Taiwan uses a giant tuned mass damper, a steel ball hung near the top, to offset sway. Early warning and preparedness: detecting the fast P waves gives seconds of warning, enough to stop trains, shut off gas supplies and take cover. Japan has a national early-warning system and holds national Disaster Prevention Day drills each 1 September.",
+    "prompt": "Explain two ways in which the effects of earthquakes can be reduced.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s3": {
+  "keyTerms": [
+   {
+    "definition": "Magma that reaches the surface and cools quickly as lava, ash and other material, building landforms on the surface.",
+    "term": "Extrusive activity"
+   },
+   {
+    "definition": "Magma that cools slowly underground, forming rock bodies that become landforms only when the rock above is eroded.",
+    "term": "Intrusive activity"
+   },
+   {
+    "definition": "A crack in rock along which no movement has taken place.",
+    "term": "Joint"
+   },
+   {
+    "definition": "An eruption of runny basic lava from long cracks in the crust rather than from a single vent.",
+    "term": "Fissure eruption"
+   },
+   {
+    "definition": "Cracks formed as a thick lava flow contracts on slow, even cooling, dividing it into columns at right angles to the cooling surface.",
+    "term": "Columnar jointing"
+   },
+   {
+    "definition": "A broad volcano with gentle slopes, built by low-viscosity lava flowing far before it cools.",
+    "term": "Shield volcano"
+   },
+   {
+    "definition": "A steep volcano built of alternating layers of ash and lava from explosive eruptions and lava flows.",
+    "term": "Composite volcano"
+   },
+   {
+    "definition": "A small, steep cone built mainly of pyroclastic fragments from short, explosive eruptions.",
+    "term": "Cinder cone"
+   },
+   {
+    "definition": "A large basin formed when a volcano's summit collapses into the magma chamber emptied by a huge eruption.",
+    "term": "Caldera"
+   },
+   {
+    "definition": "A resistant column of solidified magma in a volcano's vent, left as a steep-sided hill when the softer cone is eroded.",
+    "term": "Volcanic plug"
+   },
+   {
+    "definition": "A vent that emits gases and steam.",
+    "term": "Fumarole"
+   },
+   {
+    "definition": "A huge dome-shaped mass of granite formed by magma cooling slowly deep underground.",
+    "term": "Batholith"
+   },
+   {
+    "definition": "A ring of rock altered by the heat of a nearby intrusion.",
+    "term": "Metamorphic aureole"
+   },
+   {
+    "definition": "A dome-shaped intrusion of magma between rock layers, arching the layers above.",
+    "term": "Laccolith"
+   },
+   {
+    "definition": "A saucer-shaped intrusion of magma that sags downwards in the centre.",
+    "term": "Lopolith"
+   },
+   {
+    "definition": "A horizontal sheet of magma injected along the layers of rock.",
+    "term": "Sill"
+   },
+   {
+    "definition": "A vertical or near-vertical sheet of magma that cuts across the layers of rock.",
+    "term": "Dyke"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Magma that rises into the crust cools in one of two ways. Both are endogenic (internal) processes.",
+    "h": "Extrusive and intrusive activity",
+    "points": [
+     "Extrusive (volcanic) activity: magma reaches the surface and cools quickly as lava, ash and other material, building landforms on the surface.",
+     "Intrusive (plutonic) activity: magma cools slowly underground, forming bodies of rock that become landforms only when the rock above them is eroded away.",
+     "Plutonic features are not formed by exogenic processes; erosion (exogenic) only reveals them."
+    ]
+   },
+   {
+    "b": "A joint is a crack in rock along which no movement has taken place.",
+    "h": "Joints",
+    "points": [
+     "In igneous rock, joints form by contraction as the rock cools.",
+     "In granite, joints also form by expansion when the overlying rock is removed and pressure on the granite is released.",
+     "Weathering and erosion work along joints, so the joint pattern shapes the landform."
+    ]
+   },
+   {
+    "h": "Lava plateau from fissure eruptions",
+    "points": [
+     "1. Basic lava pours out of long cracks in the crust, called fissures, rather than from a single vent.",
+     "2. Each lava flow spreads widely before it cools.",
+     "3. Repeated flows build up, one on top of another.",
+     "4. The result is a high, flat-topped plateau with steep edges.",
+     "Example: the Antrim plateau, Co. Antrim.",
+     "Diagram: cross-section of stacked lava flows forming a flat-topped plateau with steep edges."
+    ]
+   },
+   {
+    "h": "Antrim plateau, the Antrim coast and the Mournes",
+    "points": [
+     "The Antrim plateau is made of basalt layers from fissure eruptions about 60 million years ago, linked to the opening of the North Atlantic.",
+     "Along the Antrim coast, dark basalt lies on top of white chalk, which the basalt protected from erosion.",
+     "The Mourne Mountains, Co. Down, are granite intrusions of the same period as the Antrim basalts, much younger than the Leinster granite.",
+     "Slieve Donard is the highest peak of the Mournes."
+    ]
+   },
+   {
+    "b": "Basalt columns form in a lava flow as it cools and contracts.",
+    "h": "Columnar jointing: the Giant's Causeway",
+    "points": [
+     "Columnar jointing forms when a thick lava flow cools slowly and evenly.",
+     "As the flow contracts, cracks form at about 120° to each other.",
+     "The cracks produce columns at right angles to the cooling surface, mainly six-sided.",
+     "Sea erosion exposes the columns on the north Antrim coast, where about 40,000 interlocking basalt columns, most of them six-sided, form the Giant's Causeway, a UNESCO World Heritage Site since 1986.",
+     "Fingal's Cave, Isle of Staffa, Scotland, has columns from the same volcanic period.",
+     "The Giant's Causeway is a cooled lava flow, not a volcano, and its columns did not form from growing crystals.",
+     "Diagram: labelled sketch of hexagonal columns standing at right angles to the cooling surface of the flow."
+    ]
+   },
+   {
+    "h": "Shield volcano",
+    "points": [
+     "1. Low-viscosity (runny) basic lava flows a long way before it cools.",
+     "2. Mostly effusive eruptions build a broad cone with gentle slopes.",
+     "3. Successive flows spread out from the central vent, so the volcano is wide rather than steep.",
+     "Example: Mauna Loa and Kilauea, Hawaii.",
+     "Diagram: cross-section of a broad, low cone with gentle slopes and a summit crater."
+    ]
+   },
+   {
+    "h": "Hawaii: shield volcanoes and lava types",
+    "points": [
+     "Hawaii's shield volcanoes sit over a hot spot.",
+     "Mauna Loa is the largest active volcano on Earth by volume.",
+     "Mauna Kea is more than 10,000 m high when measured from its base on the sea floor.",
+     "Pahoehoe lava has a smooth, ropy surface; aa lava has a rough, blocky surface."
+    ]
+   },
+   {
+    "h": "Composite (strato) volcano",
+    "points": [
+     "1. Viscous acidic or intermediate magma is too thick to flow far.",
+     "2. Explosive eruptions alternate with lava flows, so the cone is built of layers of ash and lava.",
+     "3. Over time these layers build a steep cone with a crater at the summit.",
+     "4. The cone also has a main vent and secondary vents.",
+     "Examples: Mount Fuji, Japan; Vesuvius, Italy; Mount Etna, Sicily; Mount St Helens, USA.",
+     "Diagram: cross-section of a steep cone showing alternating ash and lava layers, the crater, the main vent and secondary vents."
+    ]
+   },
+   {
+    "h": "Cinder cone",
+    "points": [
+     "A cinder cone is a small, steep cone built mainly of pyroclastic fragments (rock blown out by explosions) during short, explosive eruptions.",
+     "Example: Parícutin, Mexico, which began in a farmer's cornfield in 1943.",
+     "Diagram: cross-section of a small, steep cone of loose fragments around a central crater."
+    ]
+   },
+   {
+    "h": "Caldera",
+    "points": [
+     "A caldera is a large basin formed when the summit of a volcano collapses into the magma chamber emptied by a huge eruption.",
+     "A caldera is much larger than a crater and forms by collapse, not by explosion alone.",
+     "A caldera may fill with water to form a crater lake.",
+     "Crater Lake, Oregon, USA: Mount Mazama collapsed about 7,700 years ago, and the caldera now holds the lake.",
+     "Kilauea, Hawaii, has a summit caldera.",
+     "Santorini, Greece, and Krakatoa, Indonesia, are further calderas; Anak Krakatau has grown inside the Krakatoa caldera."
+    ]
+   },
+   {
+    "h": "Volcanic plug (neck)",
+    "points": [
+     "1. Magma solidifies in the vent of a volcano.",
+     "2. The softer cone around the vent is eroded away.",
+     "3. The resistant plug is left standing as a steep-sided hill.",
+     "Examples: Slemish, Co. Antrim; Castle Rock, Edinburgh, Scotland, a volcanic plug whose crag-and-tail shape was later shaped by ice.",
+     "Diagram: cross-section of a plug standing above the eroded cone."
+    ]
+   },
+   {
+    "h": "Geysers, hot springs and fumaroles",
+    "points": [
+     "A geyser erupts hot water and steam from the ground at intervals.",
+     "A hot spring is hot water that rises to the surface and flows out without erupting.",
+     "A fumarole is a vent that emits gases and steam.",
+     "Example: Old Faithful, Yellowstone, USA, is a geyser."
+    ]
+   },
+   {
+    "h": "Iceland: fissure eruptions, geysers and new islands",
+    "points": [
+     "The Laki fissure eruption of 1783 poured out huge lava flows; its gases caused crop failure and famine in Iceland.",
+     "Geysir and Strokkur are geysers in Iceland.",
+     "Surtsey, a new island formed off southern Iceland from 1963.",
+     "Hekla and Eyjafjallajökull are also Icelandic volcanoes."
+    ]
+   },
+   {
+    "h": "Batholith",
+    "points": [
+     "A batholith is a huge dome-shaped mass of magma that cooled slowly deep underground into granite.",
+     "Heat from the magma altered the surrounding rock into a metamorphic aureole, a ring of altered rock around the batholith.",
+     "When the overlying rock is eroded, the granite is exposed."
+    ]
+   },
+   {
+    "h": "Leinster batholith",
+    "points": [
+     "The granite intruded about 400 million years ago, during the Caledonian mountain-building period.",
+     "It is the largest granite mass in Ireland and runs from south Co. Dublin south-west through Wicklow and Carlow.",
+     "The overlying slate was eroded, exposing the granite as the Wicklow Mountains.",
+     "A band of mica schist, the metamorphic aureole, surrounds the granite.",
+     "The granite uplands have rounded summits.",
+     "Lugnaquilla, at 925 m, is the highest mountain in Wicklow."
+    ]
+   },
+   {
+    "h": "Laccolith and lopolith",
+    "points": [
+     "A laccolith forms when magma is forced between layers of rock, arching the layers above into a dome.",
+     "Henry Mountains, Utah, USA, are laccoliths.",
+     "A lopolith is a saucer-shaped intrusion that sags downwards in the centre."
+    ]
+   },
+   {
+    "h": "Sill and dyke",
+    "points": [
+     "A sill is a horizontal sheet of magma injected between the layers of rock, parallel to them.",
+     "When exposed, a resistant sill forms cliffs, ledges and waterfalls.",
+     "Fair Head, Co. Antrim, is a dolerite sill with columnar jointing.",
+     "Great Whin Sill, northern England, carries part of Hadrian's Wall along its crest.",
+     "A dyke is a vertical or near-vertical sheet of magma cutting across the layers.",
+     "A dyke harder than the surrounding rock stands up as a wall-like ridge; a softer dyke is eroded into a trench.",
+     "The Isle of Arran, Scotland, has a dyke swarm."
+    ]
+   },
+   {
+    "h": "Plutonic uplands and the labelled diagram",
+    "points": [
+     "Plutonic rocks such as granite are usually more resistant than the rocks around them.",
+     "Once the surrounding cover is removed, the plutonic rock stands as upland while the weaker rock is lowered.",
+     "Diagram: one block of crust showing a batholith, laccolith, lopolith, sill, dyke and volcanic plug, each labelled."
+    ]
+   },
+   {
+    "h": "Devon and Cornwall: granite moorland",
+    "points": [
+     "Dartmoor and Bodmin Moor are granite uplands, parts of one large batholith exposed by erosion.",
+     "Haytor, Dartmoor, is a tor, a granite outcrop rising above the moor.",
+     "St Austell, Cornwall, is a centre of china clay (kaolin) quarried from decomposed granite."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Intrusive features: the Leinster batholith, cooled about 400 million years ago, was exposed when the overlying slate was eroded, forming the granite uplands of the Wicklow Mountains. Its heat altered the surrounding rock into a mica schist aureole. The granite uplands have rounded summits, and Lugnaquilla, at 925 m, is the highest mountain in Wicklow. The Mourne Mountains are granite intrusions of the same period as the Antrim basalts, with Slieve Donard as the highest peak. Fair Head, Co. Antrim, is a dolerite sill whose resistant layer forms cliffs. Extrusive features: the Antrim plateau was built by basalt flows from fissure eruptions about 60 million years ago, giving a flat-topped landscape with steep edges. Basalt protected the chalk beneath it along the Antrim coast. The Giant's Causeway shows columnar jointing, as a thick lava flow contracted into about 40,000 mainly six-sided columns on slow, even cooling. Slemish, Co. Antrim, is a volcanic plug, the resistant core left after the softer cone was eroded. Intrusive and extrusive features both owe their form to igneous activity, and erosion exposes or shapes them.",
+    "prompt": "Examine the influence of volcanic activity on the development of the Irish landscape with reference to intrusive features and extrusive features.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Landform: basalt columns at the Giant's Causeway, north Antrim coast. Diagram: a labelled sketch of hexagonal basalt columns standing at right angles to the cooling surface of a thick lava flow, with the flow above and below. Stage 1: a thick basic lava flow is erupted from fissures, forming a sheet that cools as its surface and base lose heat. Stage 2: the lava cools slowly and evenly, so it contracts. Stage 3: as it contracts, cracks form at about 120 degrees to each other, producing columns at right angles to the cooling surface, mainly six-sided. Stage 4: the columns are joints formed by contraction, not by growing crystals, so the Giant's Causeway is a cooled lava flow and not a volcano. Stage 5: sea erosion exposes the columns along the coast. Example: about 40,000 interlocking basalt columns, most of them six-sided, form the Giant's Causeway on the north Antrim coast, a UNESCO World Heritage Site since 1986. Fingal's Cave, Isle of Staffa, Scotland, has columns from the same volcanic period.",
+    "prompt": "Explain, with the aid of a labelled diagram, the formation of one extrusive volcanic landform.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A caldera is a large basin formed when the summit of a volcano collapses into the magma chamber after a huge eruption has emptied it. It forms by collapse rather than by explosion alone, and is much larger than a crater. Example: Crater Lake, Oregon, USA, formed when Mount Mazama collapsed about 7,700 years ago; the caldera now holds the lake.",
+    "prompt": "Explain briefly the term caldera.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s4": {
+  "keyTerms": [
+   {
+    "definition": "Layers of sedimentary rock, laid down by deposition and then compacted and cemented.",
+    "term": "Strata"
+   },
+   {
+    "definition": "The boundary between one sedimentary layer and the next, roughly horizontal when the layers are laid down.",
+    "term": "Bedding plane"
+   },
+   {
+    "definition": "A crack in rock along which no movement has taken place, here at right angles to the bedding planes in sedimentary rock.",
+    "term": "Joint"
+   },
+   {
+    "definition": "The angle at which strata tilt from the horizontal.",
+    "term": "Dip"
+   },
+   {
+    "definition": "The direction along a tilted layer's surface, at right angles to the dip.",
+    "term": "Strike"
+   },
+   {
+    "definition": "A bedding plane or joint along which water, ice and weathering break the rock.",
+    "term": "Line of weakness"
+   },
+   {
+    "definition": "Rock through which water can pass, down joints and bedding planes.",
+    "term": "Permeable rock"
+   },
+   {
+    "definition": "A line of springs where a permeable layer lies on an impermeable one.",
+    "term": "Spring line"
+   },
+   {
+    "definition": "The steep slope cut across the edges of tilted layers.",
+    "term": "Scarp slope"
+   },
+   {
+    "definition": "The gentle slope that follows the tilt of the layers.",
+    "term": "Dip slope"
+   },
+   {
+    "definition": "An asymmetric ridge on gently dipping strata, with a steep scarp slope and a long dip slope.",
+    "term": "Cuesta"
+   },
+   {
+    "definition": "A flat-topped hill with a resistant cap, wider than it is high.",
+    "term": "Mesa"
+   },
+   {
+    "definition": "A smaller, narrower flat-topped remnant with a resistant cap.",
+    "term": "Butte"
+   },
+   {
+    "definition": "A narrow ridge on steeply dipping strata, with scarp and dip slopes of nearly equal steepness.",
+    "term": "Hogback"
+   },
+   {
+    "definition": "The blocks of limestone pavement (clints) separated by the cracks between them (grikes).",
+    "term": "Clint and grike"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Sedimentary rocks are laid down in layers called strata, or beds, formed by deposition followed by compaction and cementation.",
+    "h": "Strata and bedding planes",
+    "points": [
+     "A bedding plane is the boundary between one layer and the next; when laid down, bedding planes are roughly horizontal.",
+     "A bedding plane marks a pause or change in deposition.",
+     "Bedding planes divide the rock into layers, and each layer may differ in thickness and resistance."
+    ]
+   },
+   {
+    "b": "A joint is a crack in rock along which no movement has taken place.",
+    "h": "Joints in sedimentary rock",
+    "points": [
+     "Joints in sedimentary rock are at right angles to the bedding planes, so they are vertical where the strata are horizontal.",
+     "Joints form as sediment dries and shrinks, and by stress and the removal of overlying rock."
+    ]
+   },
+   {
+    "h": "Dip and strike",
+    "points": [
+     "Dip is the angle at which strata tilt from the horizontal; the dip direction is the way they tilt.",
+     "Strike is the direction along a tilted layer's surface, at right angles to the dip.",
+     "Strata are horizontal, gently dipping or steeply dipping, and the landform depends on which."
+    ]
+   },
+   {
+    "h": "Lines of weakness",
+    "points": [
+     "Water, ice and weathering exploit bedding planes and joints as lines of weakness.",
+     "Rock breaks into blocks along these planes, so erosion is concentrated there."
+    ]
+   },
+   {
+    "h": "Differential erosion of layered rock",
+    "points": [
+     "Where resistant layers, such as sandstone and limestone, alternate with weak layers, such as shale and clay, the weak layers are worn away faster.",
+     "The resistant layers are left standing out as cliffs and caps."
+    ]
+   },
+   {
+    "h": "Permeability and spring lines",
+    "points": [
+     "Water passes down joints and bedding planes in permeable rock.",
+     "Water flows over impermeable rock instead.",
+     "A spring emerges where a permeable layer lies on an impermeable one, and the line of springs is a spring line."
+    ]
+   },
+   {
+    "h": "Plateau on horizontal strata",
+    "points": [
+     "1. Horizontal strata have a resistant cap rock lying above weaker layers.",
+     "2. Erosion strips the weaker layers beneath the cap and wears back the edges of the upland.",
+     "3. The cap protects the layers beneath, so the top stays flat and the edges stay steep.",
+     "Diagram: cross-section of a flat-topped upland with a resistant cap, cliffed edges and weaker strata below."
+    ]
+   },
+   {
+    "h": "Stepped slopes",
+    "points": [
+     "Alternating hard and soft horizontal layers erode at different rates.",
+     "Hard layers form cliffs; soft layers form gentler slopes, often covered by scree.",
+     "The profile of cliff and slope repeats for each pair of hard and soft layers."
+    ]
+   },
+   {
+    "b": "Near-horizontal Carboniferous strata of limestone, shale and sandstone form flat-topped uplands with steep cliffed edges and stepped slopes.",
+    "h": "Dartry–Cuilcagh upland (Ireland)",
+    "points": [
+     "The Dartry Mountains and Cuilcagh span Co. Sligo, Co. Cavan and Co. Fermanagh.",
+     "Caves and karst features lie in the limestone beneath the uplands."
+    ]
+   },
+   {
+    "h": "Benbulben, Co. Sligo",
+    "points": [
+     "Benbulben, at 526 m, is a flat-topped mountain of near-horizontal strata.",
+     "A resistant limestone cap forms its vertical cliffs.",
+     "Weaker shale beneath forms the lower, gentler slopes, partly covered in scree.",
+     "Ice later steepened its sides."
+    ]
+   },
+   {
+    "h": "Cuilcagh, Cavan–Fermanagh border",
+    "points": [
+     "Cuilcagh, at 665 m, is the highest point in both Co. Cavan and Co. Fermanagh.",
+     "A resistant sandstone cap lies over shale, which lies over limestone, giving a stepped profile and a flat summit ridge.",
+     "The Shannon Pot, the source of the River Shannon, lies at the foot of Cuilcagh in Co. Cavan.",
+     "The Marble Arch Caves, Co. Fermanagh, lie in the limestone beneath it."
+    ]
+   },
+   {
+    "h": "Mesa and butte",
+    "points": [
+     "1. Weathering and erosion work back the edges of a plateau.",
+     "2. The plateau is broken into separate flat-topped remnants, each capped by the resistant rock.",
+     "3. A mesa is wider than it is high; a butte is a smaller, narrower remnant.",
+     "Example: Monument Valley, on the Arizona–Utah border, USA.",
+     "Diagram: cross-section of a mesa and a butte, each with a resistant cap."
+    ]
+   },
+   {
+    "h": "Escarpment and cuesta",
+    "points": [
+     "1. On gently dipping strata, a resistant layer is exposed at the surface.",
+     "2. Erosion cuts a steep scarp slope across the edges of the layers.",
+     "3. The layers continue along the tilt as a long, gentle dip slope.",
+     "4. The weaker rock between cuestas is eroded into a vale.",
+     "Example: the Cotswolds, England, a limestone cuesta with a steep west-facing scarp and a long dip slope to the east.",
+     "Diagram: cross-section of a cuesta showing scarp slope, dip slope and vale."
+    ]
+   },
+   {
+    "h": "Hogback",
+    "points": [
+     "A hogback forms on steeply dipping strata.",
+     "It is a narrow ridge whose scarp and dip slopes are of nearly equal steepness.",
+     "Example: the Hog's Back, Surrey, England, a narrow chalk ridge."
+    ]
+   },
+   {
+    "h": "Bedding planes and joints in smaller landforms",
+    "points": [
+     "Joints and bedding planes in limestone give limestone pavement, with blocks called clints separated by grikes.",
+     "Caves form along bedding planes in limestone.",
+     "Waterfalls form over horizontal cap rock.",
+     "Sea caves and arches form along joints on the coast."
+    ]
+   },
+   {
+    "b": "A saucer-shaped basin of sedimentary layers of different resistance, dipping gently in towards Paris.",
+    "h": "Paris Basin (France)",
+    "points": [
+     "The layers are limestone, chalk and clay.",
+     "Paris lies near the centre of the basin.",
+     "On the eastern side, resistant layers form outward-facing escarpments (cuestas), with dip slopes facing in towards Paris."
+    ]
+   },
+   {
+    "h": "Brecon Beacons, south Wales",
+    "points": [
+     "Gently dipping Old Red Sandstone forms flat-topped summits.",
+     "The summits have steep north-facing escarpments and gentle south-facing dip slopes.",
+     "Pen y Fan, at 886 m, is the highest peak in southern Britain.",
+     "The area was renamed Bannau Brycheiniog National Park in 2023."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Bedding planes and joints are lines of weakness: water, ice and weathering exploit them, so rock breaks into blocks along them and erosion is concentrated there. Where resistant layers alternate with weak layers, the weak layers are worn away faster and the resistant layers stand out as cliffs and caps, a process of differential erosion. Where strata are horizontal, a resistant cap protects the layers beneath and the result is a plateau with a flat top and steep edges. Benbulben, Co. Sligo, at 526 m, is a flat-topped mountain of near-horizontal strata: a limestone cap forms vertical cliffs, and weaker shale beneath forms gentler slopes partly covered in scree. Cuilcagh, at 665 m, has a sandstone cap over shale over limestone, giving a stepped profile and a flat summit ridge. Monument Valley, USA, shows how the edges of a plateau retreat into mesas and buttes. Permeability controls water: water passes down joints and bedding planes in permeable rock and flows over impermeable rock, and springs emerge where permeable rock lies on impermeable rock. Where strata dip gently, the Paris Basin shows the result: resistant limestone and chalk form outward-facing cuestas with steep scarp slopes and gentle dip slopes, and clay vales lie between them. The Brecon Beacons in south Wales have gently dipping Old Red Sandstone, with steep north-facing escarpments and gentle south-facing dip slopes. Limestone areas also carry karst features, such as clints and grikes on pavements and caves along bedding planes.",
+    "prompt": "Examine how sedimentary structures influence the development of landforms, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "A cuesta forms on gently dipping strata where a resistant layer lies over weaker layers. Diagram: a labelled cross-section showing the dipping resistant layer, the weaker layer beneath it, the steep scarp slope, the long gentle dip slope following the tilt of the resistant layer, and the vale eroded in the weaker rock. Stage 1: the strata are tilted gently, so a resistant layer such as limestone or chalk lies over softer clay or shale. Stage 2: erosion removes the weaker rock beneath the resistant layer at the edge, cutting a steep scarp slope across the edges of the layers. Stage 3: the resistant layer continues along its tilt, forming a long, gentle dip slope on the other side. Stage 4: the weaker rock between two cuestas is eroded into a clay vale. Example: the Cotswolds, England, a limestone cuesta with a steep west-facing scarp and a long dip slope to the east. The Paris Basin has a series of cuestas with escarpments facing outwards and dip slopes facing in towards Paris.",
+    "prompt": "Explain, with the aid of a labelled diagram, how an escarpment (cuesta) forms.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "A bedding plane is the boundary between one sedimentary layer and the next, roughly horizontal when the layers are laid down; it marks a pause or change in deposition. A joint is a crack in rock along which no movement has taken place; in sedimentary rock joints are at right angles to the bedding planes and form as sediment dries and shrinks, and by stress and the removal of overlying rock.",
+    "prompt": "Explain the terms bedding plane and joint.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-volcanoes-earthquakes-s5": {
+  "keyTerms": [
+   {
+    "definition": "Stress that pushes rock together, producing folds and reverse or thrust faults.",
+    "term": "Compression"
+   },
+   {
+    "definition": "Stress that pulls rock apart, producing normal faults.",
+    "term": "Tension"
+   },
+   {
+    "definition": "Stress that makes rock slide past itself, producing tear faults.",
+    "term": "Shearing"
+   },
+   {
+    "definition": "An upfold in which layers are pushed upwards into an arch.",
+    "term": "Anticline"
+   },
+   {
+    "definition": "A downfold in which layers are pushed downwards into a trough.",
+    "term": "Syncline"
+   },
+   {
+    "definition": "A fold whose layers lie almost flat.",
+    "term": "Recumbent fold"
+   },
+   {
+    "definition": "An overthrust fold that has broken along a thrust fault and been pushed far forward over other rocks.",
+    "term": "Nappe"
+   },
+   {
+    "definition": "The upward push of rock layers from below into a circular or oval upfold.",
+    "term": "Doming"
+   },
+   {
+    "definition": "A fracture in the crust along which rocks have moved.",
+    "term": "Fault"
+   },
+   {
+    "definition": "A fault caused by tension, along which one block slides down relative to the other.",
+    "term": "Normal fault"
+   },
+   {
+    "definition": "A low-angle reverse fault that can push rocks a long way forward.",
+    "term": "Thrust fault"
+   },
+   {
+    "definition": "A fault caused by shearing, along which blocks move horizontally past each other.",
+    "term": "Tear fault"
+   },
+   {
+    "definition": "A tear fault at a plate boundary.",
+    "term": "Transform fault"
+   },
+   {
+    "definition": "A steep slope or cliff where one block has been raised above the other along a fault.",
+    "term": "Fault scarp"
+   },
+   {
+    "definition": "A block of land raised between two parallel faults, or left standing as the land on either side sinks.",
+    "term": "Horst"
+   },
+   {
+    "definition": "A block of land that sinks between two parallel normal faults, forming a rift valley.",
+    "term": "Graben"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Plate movement at boundaries produces three kinds of stress, and each kind produces a different structure.",
+    "h": "Stress and the structures it produces",
+    "points": [
+     "Compression (pushing together) produces folds and reverse or thrust faults; it occurs where plates converge.",
+     "Tension (pulling apart) produces normal faults; it occurs where plates diverge.",
+     "Shearing (sliding past) produces tear, or strike-slip, faults; it occurs where plates slide past each other.",
+     "Rock bends into folds when compressed slowly, especially when deep, hot and under pressure.",
+     "Rock breaks, forming faults, when stress is sudden or the rock is brittle."
+    ]
+   },
+   {
+    "h": "Compression, anticlines and synclines",
+    "points": [
+     "Compression is horizontal pressure that squeezes layers of rock into a shorter distance, so they buckle into folds.",
+     "An anticline is an upfold: layers are pushed upwards into an arch.",
+     "A syncline is a downfold: layers are pushed downwards into a trough.",
+     "The limbs are the sides of a fold; the axis is the line along its crest or trough.",
+     "Diagram: label the anticline A and the syncline B."
+    ]
+   },
+   {
+    "h": "Types of fold, in order of increasing compression",
+    "points": [
+     "Simple (symmetrical) fold: the two limbs dip at equal angles.",
+     "Asymmetrical fold: one limb is steeper than the other.",
+     "Overfold: one limb is pushed over the other.",
+     "Recumbent fold: the folded layers lie almost flat.",
+     "Overthrust fold, or nappe: the fold breaks along a thrust fault and is pushed far forward over other rocks.",
+     "Diagram: one cross-section sketch for each of the five types, in that order."
+    ]
+   },
+   {
+    "h": "How fold mountains form",
+    "points": [
+     "1. Sediments are deposited in a sea lying between two converging plates.",
+     "2. The plates converge, and the sediments are compressed.",
+     "3. The sediments are folded into anticlines and synclines.",
+     "4. Continued pressure produces overfolds, recumbent folds and nappes.",
+     "5. The crust is thickened and uplifted into long, high ranges parallel to the plate edge.",
+     "Diagram: before-and-after cross-sections of the sea floor and the resulting fold mountain."
+    ]
+   },
+   {
+    "h": "Young and old fold mountains",
+    "points": [
+     "Young fold mountains, such as the Alps, are high and steep.",
+     "Old fold mountains have been worn down by hundreds of millions of years of weathering and erosion into lower, rounded mountains.",
+     "Ireland's mountains are old fold mountains, formed by Caledonian folding (north-east to south-west trend: Donegal, Mayo, Wicklow) and Armorican folding (east to west trend: Munster).",
+     "Other young fold ranges include the Himalayas, the Andes, the Rockies and the Atlas Mountains of north Africa."
+    ]
+   },
+   {
+    "h": "Differential erosion in folded rock",
+    "points": [
+     "The landform depends on which rocks are exposed by erosion.",
+     "In Munster, resistant sandstone survives on the anticlines as ridges.",
+     "Weaker limestone survives in the synclines as valleys."
+    ]
+   },
+   {
+    "h": "Folding and drainage",
+    "points": [
+     "Rivers follow the weak rock along the synclines.",
+     "Where a river breaks through a ridge, it cuts across it, giving trellised drainage and sharp right-angled bends."
+    ]
+   },
+   {
+    "b": "Armorican folding produced a landscape of east to west ridges and valleys.",
+    "h": "South Ireland ridge-and-valley province (Munster)",
+    "points": [
+     "Ridges of Old Red Sandstone include Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdown Mountains and the Caha Mountains.",
+     "Valleys of Carboniferous limestone include the Blackwater valley and the Lee valley.",
+     "The River Blackwater flows east along a limestone valley, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal.",
+     "The River Lee flows east to Cork Harbour.",
+     "The coastal ends of the valleys in Co. Cork and Kerry were drowned to form rias: Bantry Bay, Dingle Bay and the Kenmare River."
+    ]
+   },
+   {
+    "h": "The Armorican front",
+    "points": [
+     "The Armorican front is the northern limit of strong Armorican folding, running east to west across Munster.",
+     "South of the front, rocks were intensely folded and pushed, or thrust, northwards.",
+     "North of the front, folding is gentle."
+    ]
+   },
+   {
+    "h": "The Alps",
+    "points": [
+     "Alpine folding resulted from the collision of the African plate with the Eurasian plate.",
+     "Recumbent folds and nappes are characteristic of the Alps.",
+     "Mont Blanc is the highest peak of the Alps."
+    ]
+   },
+   {
+    "h": "The Appalachians",
+    "points": [
+     "The Appalachian Mountains of eastern North America are old fold mountains.",
+     "They were folded in the same mountain-building episodes as Ireland's older mountains, when the two continents were joined.",
+     "The Ridge-and-Valley Appalachians show long, parallel folded ridges and valleys."
+    ]
+   },
+   {
+    "h": "Doming",
+    "points": [
+     "Doming pushes rock layers upwards from below into a circular or oval upfold, by compression or by rising magma.",
+     "Erosion removes the top of the dome first, exposing older rocks in the centre.",
+     "Resistant layers form rings of escarpments facing inwards towards the centre.",
+     "Drainage flows outwards from the centre in a radial pattern.",
+     "Example: the Lake District, England, with rivers and lakes radiating outwards from the centre."
+    ]
+   },
+   {
+    "h": "The Weald, south-east England",
+    "points": [
+     "Rock layers in Kent, Surrey and Sussex were pushed up into a dome, an elongated anticline.",
+     "Erosion removed the chalk from the top, exposing older sandstones and clays.",
+     "The chalk now forms the North Downs and the South Downs, two escarpments.",
+     "Clay vales lie inside the Downs, and sandstone forms the High Weald in the centre."
+    ]
+   },
+   {
+    "h": "Faults and displacement",
+    "points": [
+     "A fault is a fracture in the crust along which rocks have moved.",
+     "Displacement may be vertical (rocks move up or down), horizontal (rocks move sideways), or both."
+    ]
+   },
+   {
+    "h": "Normal faults (tension)",
+    "points": [
+     "Tension pulls the crust apart.",
+     "One block slides down the fault plane relative to the other, so the crust is lengthened.",
+     "Diagram: a block sliding down along a fault plane, marked as a normal fault."
+    ]
+   },
+   {
+    "h": "Reverse and thrust faults (compression)",
+    "points": [
+     "Compression pushes one block up the fault plane over the other, so the crust is shortened.",
+     "A thrust fault is a low-angle reverse fault that can push rocks a long way forward, linked to nappes.",
+     "Diagram: a block pushed up and over the other along a fault plane, marked as a reverse fault."
+    ]
+   },
+   {
+    "h": "Tear (strike-slip) faults (shearing)",
+    "points": [
+     "Shearing makes blocks move horizontally past each other along a tear fault.",
+     "A transform fault is a tear fault at a plate boundary.",
+     "Examples of transform faults: the San Andreas Fault, California; the North and East Anatolian Faults, Turkey."
+    ]
+   },
+   {
+    "h": "Landforms of tear faults",
+    "points": [
+     "The shattered rock of the fault zone is eroded into a straight valley.",
+     "Ridges and rivers are offset sideways across the fault.",
+     "Example: the Great Glen Fault, Scotland, where Loch Ness lies in the straight valley eroded along it."
+    ]
+   },
+   {
+    "h": "Donegal tear faults",
+    "points": [
+     "The Donegal tear faults run north-east to south-west.",
+     "Rivers and glaciers have eroded long, straight valleys along them.",
+     "The Gweebarra Fault and the Leannan Fault are two of them; the Gweebarra River valley follows the Gweebarra Fault."
+    ]
+   },
+   {
+    "h": "Fault scarp, horst and graben",
+    "points": [
+     "A fault scarp is a steep slope or cliff where one block has been raised above the other.",
+     "A horst is a block raised between two parallel faults, or left standing as the land on either side sinks.",
+     "A graben, or rift valley, is a block that sinks between two parallel normal faults, forming a long, flat-floored valley with steep walls, often holding lakes.",
+     "Diagram: a fault scarp as a steep cliff between two blocks at different heights."
+    ]
+   },
+   {
+    "h": "How a horst and graben form",
+    "points": [
+     "1. Tension stretches the crust, producing normal faults on either side of a block.",
+     "2. The central block sinks between the faults, forming a graben.",
+     "3. The blocks on either side stand higher, forming horsts.",
+     "Diagram: horst and graben shown together in one cross-section, with the normal faults labelled."
+    ]
+   },
+   {
+    "h": "Rift valleys and horsts in practice",
+    "points": [
+     "The Rhine rift valley, a graben, lies between the Vosges, France, and the Black Forest, Germany, which are horsts.",
+     "The East African Rift Valley includes a graben in which Lake Tanganyika lies.",
+     "The Central Lowlands of Scotland are a rift valley between the Highland Boundary Fault and the Southern Uplands Fault."
+    ]
+   },
+   {
+    "h": "Faults and the wider landscape",
+    "points": [
+     "Faults help to guide the lines of coastlines and drainage.",
+     "Earthquakes occur along active faults."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Compression squeezes layers of rock into a shorter distance, so they buckle into folds: anticlines are upfolds and synclines are downfolds. Rocks fold when compressed slowly, especially when deep and hot, and the fold types grow more extreme with increasing compression: simple, asymmetrical, overfold, recumbent, and overthrust fold or nappe. Fold mountains form when sediments in a sea between converging plates are compressed, folded and uplifted into long ranges parallel to the plate edge. Young fold mountains, such as the Alps, with African-Eurasian plate collision, are high and steep, with recumbent folds and nappes; Mont Blanc is the highest peak. Old fold mountains have been worn down over hundreds of millions of years into lower, rounded mountains. Ireland's mountains are old, formed by Caledonian folding (north-east to south-west) and Armorican folding (east to west). In Munster, the resistant Old Red Sandstone survives on the anticlines as ridges, such as Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdown Mountains and the Caha Mountains. Weaker Carboniferous limestone survives in the synclines as valleys, such as the Blackwater and Lee valleys. Rivers follow the weak rock along the synclines and cut across the ridges where they break through, giving trellised drainage and sharp right-angled bends. The River Blackwater flows east along its valley, then turns sharply south at Cappoquin to reach the sea at Youghal. The Appalachians in eastern North America show the same pattern of long, parallel folded ridges and valleys, and are old fold mountains formed in the same episodes as Ireland's older mountains.",
+    "prompt": "Examine how folding influences the development of landforms, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Stress determines the fault type: compression produces reverse and thrust faults, tension produces normal faults, and shearing produces tear faults. Rocks break along faults when stress is sudden or the rock is brittle. A normal fault lets one block slide down the fault plane, lengthening the crust. Where tension stretches the crust, a central block can sink between two parallel normal faults to form a graben, a flat-floored rift valley with steep walls that often holds lakes; the blocks on either side stand higher as horsts. The Rhine rift valley is a graben between the Vosges, France, and the Black Forest, Germany, which are horsts. The East African Rift Valley includes a graben in which Lake Tanganyika lies. The Central Lowlands of Scotland are a rift valley between the Highland Boundary Fault and the Southern Uplands Fault. A fault scarp is a steep slope or cliff where one block has been raised above the other. A reverse fault pushes one block up the fault plane over the other, shortening the crust; a thrust fault is a low-angle reverse fault that can push rocks a long way forward. Tear faults form where blocks move horizontally past each other. Shattered rock in the fault zone erodes into straight valleys, and ridges and rivers are offset sideways across the fault. The Great Glen Fault, Scotland, is a tear fault, and Loch Ness lies in the straight valley eroded along it. In Donegal, tear faults run north-east to south-west, and rivers and glaciers have eroded long, straight valleys along them, such as the Gweebarra valley along the Gweebarra Fault. The San Andreas Fault, California, is a transform fault, a tear fault at a plate boundary. Faults also guide the lines of coastlines and drainage.",
+    "prompt": "Examine how faulting influences the development of landforms.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Diagram: a before-and-after cross-section, showing horizontal sediments deposited in a sea between two converging plates, and then folded anticlines and synclines forming a range above the sea floor. Stage 1: sediments accumulate in a sea between two plates. Stage 2: the plates converge, so the sediments are compressed horizontally. Stage 3: the layers buckle into anticlines (upfolds) and synclines (downfolds). Stage 4: continued compression produces overfolds, recumbent folds and nappes, and the nappes may break along thrust faults and be pushed far forward. Stage 5: the crust is thickened and uplifted into long, high ranges parallel to the plate edge. Irish example: Macgillycuddy's Reeks are Old Red Sandstone ridges on anticlines, formed by Armorican folding. Foreign example: the Alps, formed by the collision of the African and Eurasian plates, with recumbent folds and nappes.",
+    "prompt": "With the aid of a diagram, describe and explain how fold mountains are formed.",
     "type": "short"
    }
   ]
