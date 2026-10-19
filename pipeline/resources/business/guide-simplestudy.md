@@ -9,6 +9,9 @@
   2 worked-example cues and 5 note callouts).
 - Use the names and order below as a research/navigation map. NCCA remains authoritative for
   scope; SEC papers and marking schemes remain authoritative for examination content.
+- The NCCA document is the 2025 Leaving Certificate Business specification, first examined June
+  2027. `course-outlines/business.md` maps every learning outcome to the app's chapters and lists
+  where SimpleStudy differs.
 
 ## Unit and topic structure
 
@@ -53,6 +56,11 @@
 
 ## Coverage cautions
 
+- Several SimpleStudy unit names are old-syllabus headings ("Management Activities: Planning,
+  Organising and Controlling", "Conflict Resolution: Industrial Relations", "Ownership
+  Structures"). The topics under them follow the 2025 specification. Don't add old-syllabus
+  content (contract law, household management, ratio analysis, organisation structures) because
+  of a unit name.
 - Business law, consumer protection and economic policy can change. Verify time-sensitive facts
   against current primary sources before publication.
 - The SimpleStudy title “Devloping Questions to Research” contained a spelling error; this guide
