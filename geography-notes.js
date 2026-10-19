@@ -6,11 +6,11 @@
  "geo-glaciation-s1": {
   "keyTerms": [
    {
-    "definition": "Granular snow that has survived one summer and is compacted on the way to becoming glacier ice.",
+    "definition": "Granular snow that has survived a summer and is compacted on the way to becoming glacier ice.",
     "term": "Firn"
    },
    {
-    "definition": "The upper part of a glacier where snow and ice are gained by more than they are lost.",
+    "definition": "The upper part of a glacier where ice and snow are gained by more than they are lost.",
     "term": "Accumulation zone"
    },
    {
@@ -22,40 +22,40 @@
     "term": "Equilibrium line"
    },
    {
-    "definition": "The melting of ice under pressure and its refreezing on the far side of an obstacle, which lets a glacier flow over bedrock.",
-    "term": "Regelation"
+    "definition": "Movement of a whole glacier over its bed, lubricated by meltwater at the base.",
+    "term": "Basal slip"
    },
    {
-    "definition": "Glacial erosion in which meltwater freezes in rock joints and the ice tears loose blocks of rock.",
+    "definition": "Glacial erosion in which meltwater freezes in rock joints and the moving ice tears out blocks of rock.",
     "term": "Plucking"
    },
    {
-    "definition": "Glacial erosion in which rock fragments held in the base of the ice scrape and polish the bedrock.",
+    "definition": "Glacial erosion in which rock fragments frozen into the base of the ice scrape and polish the bedrock.",
     "term": "Abrasion"
    },
    {
-    "definition": "Fine powder ground from bedrock by glacial abrasion, which gives glacial meltwater its milky colour.",
+    "definition": "Fine powder ground from bedrock by glacial abrasion.",
     "term": "Rock flour"
    },
    {
-    "definition": "A boulder carried by a glacier and deposited far from its source, with a rock type unlike the bedrock beneath it.",
-    "term": "Erratic"
-   },
-   {
-    "definition": "A bowl-shaped hollow at the head of a glacier valley, with a steep back wall and a rock lip.",
+    "definition": "A bowl-shaped hollow on a mountainside, with a steep back wall and a rock lip, where a glacier forms.",
     "term": "Corrie (cirque)"
    },
    {
-    "definition": "A lake that fills a corrie after the glacier has melted, held back by the rock lip.",
+    "definition": "A lake that fills a corrie after the ice has melted, held back by the rock lip.",
     "term": "Tarn"
    },
    {
-    "definition": "A thin, sharp mountain ridge left between two corries that have cut back from opposite sides.",
+    "definition": "A thin, sharp ridge left between two corries that have cut back from opposite sides.",
     "term": "Arete"
    },
    {
-    "definition": "A sharp mountain peak left when three or more corries erode back around it.",
+    "definition": "A sharp summit left when three or more corries erode back around it, also called a horn.",
     "term": "Pyramidal peak"
+   },
+   {
+    "definition": "A broad, flat-floored valley with steep sides, widened and deepened by a glacier from a river valley.",
+    "term": "U-shaped valley"
    },
    {
     "definition": "A blunt, cliff-like end of a valley spur cut off by a glacier filling the valley.",
@@ -66,24 +66,36 @@
     "term": "Hanging valley"
    },
    {
-    "definition": "A long, narrow lake that fills an overdeepened basin left in a glacial valley floor.",
+    "definition": "Erosion of a section of valley floor more deeply than the rest, leaving a rock basin.",
+    "term": "Overdeepening"
+   },
+   {
+    "definition": "A long, narrow lake filling an overdeepened basin in a glacial valley floor.",
     "term": "Ribbon lake"
    },
    {
-    "definition": "A glaciated valley with steep sides and a floor below sea level, flooded by the sea after the ice melts.",
+    "definition": "A chain of rock-basin lakes along a valley floor, separated by bars of harder rock.",
+    "term": "Paternoster lakes"
+   },
+   {
+    "definition": "A glaciated coastal valley with steep sides and a floor below sea level, flooded by the sea after the ice melts.",
     "term": "Fjord"
    },
    {
-    "definition": "A rounded rock outcrop with a smooth upstream face, formed by abrasion, and a rough downstream face, formed by plucking.",
+    "definition": "A rounded rock outcrop with a smooth stoss side, formed by abrasion, and a rough lee side, formed by plucking.",
     "term": "Roche moutonnee"
    },
    {
-    "definition": "Fine parallel scratches cut into bedrock by stones carried in the ice, showing the direction of ice flow.",
+    "definition": "Fine parallel scratches cut into bedrock by stones carried in the base of the ice, showing the direction of ice flow.",
     "term": "Striations"
    },
    {
-    "definition": "Unsorted, unstratified sediment deposited directly by ice, ranging from clay to boulders.",
+    "definition": "Unsorted, unstratified, angular material deposited directly by ice, ranging from clay to boulders.",
     "term": "Till"
+   },
+   {
+    "definition": "A boulder carried by ice and dropped far from its source, with a rock type unlike the bedrock beneath it.",
+    "term": "Erratic"
    },
    {
     "definition": "A ridge of till along the side of a glacier, built from debris falling from the valley walls.",
@@ -94,7 +106,7 @@
     "term": "Medial moraine"
    },
    {
-    "definition": "An arc-shaped ridge of till deposited at the snout of a glacier.",
+    "definition": "An arc-shaped ridge of till deposited at the snout, marking the furthest advance or a long pause in retreat.",
     "term": "Terminal moraine"
    },
    {
@@ -102,101 +114,147 @@
     "term": "Drumlin"
    },
    {
-    "definition": "A long, winding ridge of sorted sand and gravel left by a meltwater stream that flowed in a tunnel in or beneath the ice.",
-    "term": "Esker"
+    "definition": "A drumlin partly submerged when the sea floods low ground, forming an island.",
+    "term": "Drowned drumlin"
    },
    {
-    "definition": "A mound of sorted sand and gravel deposited by meltwater in a hollow on or at the edge of the ice.",
-    "term": "Kame"
+    "definition": "A long, winding ridge of sorted sand and gravel left by a meltwater stream that flowed in a tunnel in or beneath the ice.",
+    "term": "Esker"
    },
    {
     "definition": "A flat sheet of sorted sand and gravel spread by meltwater beyond the terminal moraine.",
     "term": "Outwash plain"
    },
    {
-    "definition": "A hollow left where a buried block of ice melts, often holding water as a kettle lake.",
+    "definition": "A mound of sorted sand and gravel deposited by meltwater in a hollow on or at the edge of the ice.",
+    "term": "Kame"
+   },
+   {
+    "definition": "A hollow left where a buried block of ice melts out of outwash.",
     "term": "Kettle hole"
    }
   ],
   "notes": [
    {
-    "b": "A glacier forms where snow survives the summer and builds up over many years, then moves downhill under its own weight.",
-    "h": "How glaciers form and move",
+    "b": "Ireland was glaciated during the Pleistocene, and the landforms in this subsection were shaped by ice in its two main cold stages.",
+    "h": "Ireland's Ice Age and types of ice",
     "points": [
-     "Snow that survives the summer is compacted into firn (granular snow), which becomes glacier ice as air is squeezed out and the ice crystals grow larger and interlock.",
-     "The accumulation zone at the head of the glacier gains snow and ice; the ablation zone at the snout loses ice by melting.",
-     "The equilibrium line separates the two zones, where gain and loss are equal.",
-     "Basal sliding: meltwater at the base lubricates the bed, so the whole glacier slides over the rock.",
-     "Regelation: pressure on the ice at the bed lowers its melting point, so ice melts on the upstream side of an obstacle, the meltwater flows around it and refreezes on the downstream side.",
-     "Internal deformation (plastic flow): ice crystals slip past one another under the weight of the ice, so the glacier deforms and flows downhill.",
-     "Friction with the valley walls and bed makes the ice move fastest at the surface in the centre of the glacier and slowest at the sides and base."
+     "The older cold stage is the Munsterian; the more recent is the Midlandian.",
+     "Munsterian ice covered almost all of the island.",
+     "Midlandian glaciation ended about 10,000 years ago, and its ice did not cover the far south of Ireland.",
+     "An ice sheet is a continental mass of ice covering whole landscapes, as in Antarctica and Greenland today.",
+     "A valley glacier is confined to a valley and is fed by snow and ice from corries on the mountainside."
     ]
    },
    {
-    "b": "The snout's position depends on the balance between ice arriving from the accumulation zone and ice lost by melting at the snout.",
+    "h": "How glacier ice forms",
+    "points": [
+     "Snow that survives the summer is compacted into firn (granular snow, also called nevé).",
+     "Firn becomes glacier ice as the weight of overlying snow squeezes out the air and the ice crystals grow larger and interlock."
+    ]
+   },
+   {
+    "b": "A glacier gains ice at its head and loses it at its snout, and the balance between these determines its behaviour.",
+    "h": "The glacier budget",
+    "points": [
+     "Accumulation zone: the upper part of the glacier, where snow and ice are gained.",
+     "Ablation zone: the lower part, including the snout, where ice is lost by melting.",
+     "Equilibrium line: the boundary between the two zones, where gain and loss are equal over a year."
+    ]
+   },
+   {
+    "h": "How glaciers move",
+    "points": [
+     "Basal slip: meltwater at the base lubricates the bed, so the whole glacier slides over the rock.",
+     "Internal deformation (plastic flow): ice crystals slip past one another under the weight of the ice, so the glacier flows downhill.",
+     "Rotational movement: ice in a corrie rotates within the hollow instead of moving straight down the valley.",
+     "Ice moves fastest at the centre of the surface and slowest at the sides and base, where friction with the valley walls and bed is greatest."
+    ]
+   },
+   {
+    "b": "The snout's position depends on whether more ice arrives from the accumulation zone than melts at the snout.",
     "h": "Advance and retreat of the snout",
     "points": [
-     "Advance: when more ice arrives from the accumulation zone than melts at the snout, the snout moves forward.",
-     "Retreat: when melting at the snout exceeds the ice arriving from above, the snout moves back up the valley, even though the ice itself is still moving downhill.",
-     "Heavier snowfall in the accumulation zone, or cooler summers that reduce melting, cause the glacier to advance.",
-     "Less snowfall, or warmer summers that increase melting, cause the glacier to retreat.",
-     "Average rate of movement is distance divided by time: a snout that moves 540 m between 2006 and 2015 (nine years) moved an average of 60 m per year."
+     "Advance: when more ice arrives from the accumulation zone than melts, the snout moves forward.",
+     "Retreat: when melting exceeds the ice arriving, the snout moves back up the valley, although the ice is still flowing forward.",
+     "Heavier snowfall or cooler summers, which reduce melting, cause the glacier to advance.",
+     "Less snowfall or warmer summers, which increase melting, cause the glacier to retreat."
     ]
    },
    {
-    "b": "Glaciers erode mainly by plucking and abrasion, while freeze-thaw loosens rock at the ice margins.",
+    "b": "Average rate of movement is found by dividing the distance moved by the number of years. The figures below are illustrative, invented for practice.",
+    "h": "Skill: rate of snout movement",
+    "points": [
+     "Average rate = distance moved ÷ number of years, given in metres per year.",
+     "Illustrative: a snout that retreats 600 m over 20 years has moved an average of 600 ÷ 20 = 30 m per year.",
+     "Illustrative: a snout that advances 450 m over 9 years has moved an average of 450 ÷ 9 = 50 m per year."
+    ]
+   },
+   {
+    "b": "Glaciers erode mainly by plucking and abrasion, while freeze-thaw supplies rock debris at the edges of the ice.",
     "h": "Glacial erosion processes",
     "points": [
      "Plucking (quarrying): meltwater enters joints in the bedrock and freezes, bonding the ice to the rock; as the glacier moves on, it tears out blocks, mainly on the downhill side of rock obstacles.",
      "Abrasion: rock fragments frozen into the base of the ice scrape and polish the bedrock.",
-     "Rock flour: abrasion grinds the bedrock into fine powder that meltwater carries away, giving glacial lakes a milky colour.",
-     "Freeze-thaw: water freezing in cracks at the edges of the ice and in exposed rock breaks off fragments that the glacier then removes."
+     "Rock flour: fine powder ground from the bedrock by abrasion, which meltwater carries away, giving glacial lakes a milky colour.",
+     "Freeze-thaw on the rock above and beside the ice: water freezing in cracks breaks off fragments, which fall onto the ice and are carried away."
     ]
    },
    {
-    "b": "Ice carries its load on, in and under the glacier, and leaves it behind when the ice melts away.",
-    "h": "Glacial transport",
+    "h": "Corrie and tarn (erosion, upland stage)",
     "points": [
-     "Supraglacial load: debris resting on the surface, such as rock falling from the valley sides, which forms moraines at the margins.",
-     "Englacial load: debris trapped within the ice.",
-     "Subglacial load: debris dragged along the base; this is the most abrasive load and does most of the erosion.",
-     "Glacial load is angular and unsorted, because ice does not sort material by size and fragments are not rounded as they are in rivers.",
-     "Erratic: a boulder carried by ice and dropped far from its source, with a rock type different from the bedrock beneath it."
-    ]
-   },
-   {
-    "h": "Corrie, tarn, arete and pyramidal peak (erosion, upland stage)",
-    "points": [
-     "1. Snow collects in a hollow on a mountainside; nivation (snow-patch erosion) and freeze-thaw enlarge the hollow.",
+     "1. Snow collects in a hollow on the mountainside; nivation (erosion by snow patches) and freeze-thaw enlarge the hollow.",
      "2. The snow turns to ice, and the rotating glacier plucks and abrades the back wall and floor, deepening the hollow and steepening the back wall.",
-     "3. The result is a bowl with a steep back wall and a rock lip at its lower edge.",
-     "4. When the ice melts, water collects behind the lip, forming a lake called a tarn.",
-     "5. Two corries that cut back from either side of a ridge leave a thin, sharp ridge called an arete.",
-     "6. Three or more corries cutting back around one peak leave a pyramidal peak (horn), such as the Matterhorn in Switzerland.",
-     "Example: corries with tarns in Macgillycuddy's Reeks, Co. Kerry.",
-     "Diagram: cross-section of a corrie with steep back wall, rock lip and tarn; plan view of two corries backing onto an arete."
+     "3. The result is a bowl with a steep back wall and a rock lip, called the threshold, at its lower edge.",
+     "4. When the ice melts, water collects behind the lip and forms a lake called a tarn.",
+     "Examples: Coumshingaun, Comeragh Mountains, Co. Waterford; the Devil's Punchbowl, Mangerton, Co. Kerry.",
+     "Diagram: cross-section of a corrie with steep back wall, rock lip and tarn; plan view of the bowl-shaped hollow."
     ]
    },
    {
-    "h": "U-shaped valley and hanging valley (erosion)",
+    "h": "Arête and pyramidal peak (erosion, upland stage)",
+    "points": [
+     "1. Two corries cut back into the mountainside from opposite sides of a ridge.",
+     "2. Their back walls retreat, sharpening the ridge between them into a thin, knife-edged arête.",
+     "3. Three or more corries erode back around one summit from different directions.",
+     "4. The summit is left as a sharp, pointed pyramidal peak, also called a horn.",
+     "Arête example: Striding Edge, Helvellyn, Lake District, England.",
+     "Pyramidal peak examples: Carrauntoohil, Macgillycuddy's Reeks, Co. Kerry, Ireland's highest mountain; the Matterhorn, Swiss-Italian Alps.",
+     "Diagram: plan view of two corries backing onto an arête; plan view of a horn ringed by three corries."
+    ]
+   },
+   {
+    "h": "U-shaped valley and truncated spurs (erosion)",
     "points": [
      "1. Before glaciation the valley is V-shaped, cut by a river.",
-     "2. A glacier fills the valley and, being thick and wide, deepens and widens the floor by plucking and abrasion.",
-     "3. Ice also erodes the valley sides, cutting off the spurs to leave blunt cliff faces called truncated spurs.",
-     "4. The result is a broad, flat-floored trough with steep sides, which gives the U-shape.",
-     "5. A smaller tributary glacier cuts a shallower valley that is left hanging above the main valley floor; after the ice melts, its stream falls over the edge as a waterfall.",
-     "Example: Glendalough, Co. Wicklow.",
-     "Diagram: cross-section of the valley before (V) and after (U) glaciation, with truncated spurs labelled; long profile of a hanging valley with its waterfall."
+     "2. A glacier fills the valley and deepens and widens its floor by plucking and abrasion.",
+     "3. The glacier cuts off the river's interlocking spurs, leaving blunt cliff faces called truncated spurs.",
+     "4. The result is a broad, flat-floored trough with steep sides, which gives the valley its U-shape.",
+     "Examples: Glendalough and Glenmalure, Co. Wicklow.",
+     "Diagram: cross-sections of a V-shaped valley beside a U-shaped valley, with truncated spurs labelled."
     ]
    },
    {
-    "h": "Ribbon lake and fjord (erosion)",
+    "h": "Hanging valley and waterfall (erosion)",
     "points": [
-     "Overdeepening: where the glacier erodes a section of valley floor more deeply than the rest, it leaves a basin.",
-     "Ribbon lake: when the ice melts, the overdeepened basin fills with water, forming a long, narrow lake; Windermere in England is a ribbon lake.",
-     "Fjord: a glaciated valley flooded by the sea after the ice melts and sea levels rise, with steep sides and a floor that lies below sea level.",
-     "Irish example: Killary Harbour, on the border of Co. Galway and Co. Mayo.",
-     "International example: Sognefjord, Norway.",
+     "1. A smaller tributary glacier joins the larger glacier that is filling the main valley.",
+     "2. Because the tributary glacier is smaller, it erodes less deeply, so its valley is left hanging above the main valley floor.",
+     "3. When the ice melts, the tributary stream falls over the edge of the hanging valley as a waterfall.",
+     "Example: Poulanass Waterfall, falling from a hanging valley into the Glendalough valley, Co. Wicklow.",
+     "Diagram: long profile of a hanging valley and its waterfall above the main valley floor."
+    ]
+   },
+   {
+    "h": "Ribbon lakes, paternoster lakes and fjords (erosion)",
+    "points": [
+     "1. Plucking and abrasion overdeepen a section of the valley floor more than the rest, leaving a rock basin.",
+     "2. When the ice melts, the basin fills with water, forming a long, narrow ribbon lake.",
+     "Example: Upper Lake, Glendalough, Co. Wicklow.",
+     "Paternoster lakes: a chain of rock-basin lakes along a valley floor, separated by bars of harder rock.",
+     "Tarns, ribbon lakes and kettle lakes are all glacial lakes.",
+     "3. A glacier overdeepens a coastal valley so that its floor lies well below sea level.",
+     "4. When the ice melts, the sea floods the valley, leaving a fjord with steep sides.",
+     "Examples: Killary Harbour, on the Co. Galway-Co. Mayo border; Sognefjord, Norway.",
      "Diagram: long profile of an overdeepened valley with a ribbon lake; plan view of a fjord with steep sides and the sea at its mouth."
     ]
    },
@@ -204,69 +262,316 @@
     "h": "Roche moutonnee and striations (erosion)",
     "points": [
      "1. Ice flows over a bedrock outcrop, and abrasion smooths and polishes its upstream (stoss) side.",
-     "2. On the downstream (lee) side, ice plucks blocks from the rock, leaving a steep, rough face.",
-     "3. The result is a rounded hill with a smooth upstream face and a rough downstream face.",
-     "4. Striations are fine parallel scratches cut into bedrock by stones carried in the base of the ice; they show the direction of ice flow.",
-     "Example: Castle Rock, Edinburgh, Scotland.",
-     "Diagram: cross-section of a roche moutonnee showing the smooth stoss side, rough lee side and direction of ice flow; plan view of striations on bedrock."
+     "2. On the downstream (lee) side, plucking tears blocks from the rock, leaving a steep, rough face.",
+     "3. The result is a rounded hill with a smooth stoss side and a rough lee side.",
+     "Example: Lembert Dome, Yosemite, California, USA.",
+     "Striations: fine parallel scratches cut into bedrock by rock fragments held in the base of the ice; they are carved by the ice and show the direction of ice flow.",
+     "Diagram: cross-section of a roche moutonnee showing the stoss side, lee side and direction of ice flow; plan view of striations on bedrock."
     ]
    },
    {
-    "h": "Till and moraines (deposition)",
+    "h": "Glacial transport",
     "points": [
-     "Till (boulder clay) is unsorted, unstratified material deposited directly by ice, ranging from clay to boulders.",
-     "Lodgement till: debris dragged along the base is pressed onto the bed and left behind as the ice moves over it.",
-     "Ablation till: debris released from the ice as it melts.",
-     "Lateral moraine: a ridge of till along the sides of a glacier, built from debris falling from the valley walls.",
-     "Medial moraine: formed where two glaciers join, as their lateral moraines merge and run down the middle of the combined ice.",
-     "Terminal moraine: an arc-shaped ridge of till at the snout, marking the furthest point of the glacier or a long pause in its retreat.",
-     "Ground moraine: a sheet of till left on the bed as the glacier retreats, forming an irregular, hummocky surface.",
-     "Irish example of ground moraine: the till plains of the Irish Midlands, e.g. Co. Offaly.",
-     "Diagram: cross-section of a valley glacier labelled with lateral, medial and terminal moraines; plan view of a terminal moraine as an arc."
+     "Supraglacial load: debris resting on the surface of the glacier, such as rock falling from the valley sides.",
+     "Englacial load: debris trapped within the ice.",
+     "Subglacial load: debris dragged along the base; it is the most abrasive part of the load and does most of the erosion.",
+     "Glacial load is angular and unsorted: ice does not sort it by size, and it is not rounded by water as river load is."
     ]
    },
    {
-    "h": "Drumlin (deposition)",
+    "h": "Till and boulder clay (deposition)",
+    "points": [
+     "Till (boulder clay) is unsorted and unstratified, angular material ranging from clay to boulders, deposited directly by ice.",
+     "Boulder clay plains of the Irish Midlands are formed where till is left across the land.",
+     "Deranged drainage: no clear pattern, with many lakes and marshes, forms on poorly drained glacial deposits such as till."
+    ]
+   },
+   {
+    "h": "Moraines (deposition)",
+    "points": [
+     "Lateral moraine: a ridge of till along the side of a glacier, built from debris falling from the valley walls.",
+     "Medial moraine: formed where two glaciers join, as their lateral moraines merge and run down the middle of the combined ice.",
+     "Terminal (end) moraine: an arc-shaped ridge of till at the snout, marking the furthest advance or a long pause in retreat.",
+     "Recessional moraine: a ridge of till built at the snout during a pause while the glacier retreats.",
+     "Ground moraine: a sheet of till left on the bed as the glacier melts back.",
+     "Southern Irish End Moraine: marks the southern limit of the Midlandian ice sheet.",
+     "Diagram: cross-section of a valley glacier with lateral, medial and terminal moraines labelled; plan view of an arc-shaped terminal moraine."
+    ]
+   },
+   {
+    "h": "Drumlins (deposition)",
     "points": [
      "1. Ice deposits or overrides an accumulation of till on the bed, building an irregular mass of material.",
      "2. Ice flowing over the mass moulds it into an elongated, streamlined hill lying parallel to the direction of ice flow.",
      "3. The blunt, steep end faces up-ice, and the tapered end points down-ice.",
-     "4. Drumlins occur in swarms, all aligned in the same direction.",
-     "Example: the drumlin belt of Co. Cavan and Co. Monaghan.",
+     "4. Drumlins occur in swarms, all aligned in one direction, forming a basket of eggs landscape.",
+     "5. Where the sea floods low ground, drumlins become islands, forming drowned drumlins, as in Clew Bay, Co. Mayo, and Strangford Lough, Co. Down.",
+     "Example: the drumlin belt across Co. Cavan, Co. Monaghan and Co. Leitrim.",
      "Diagram: plan view of a drumlin swarm with an ice-flow arrow; side profile showing the blunt up-ice end and tapered down-ice end."
     ]
    },
    {
-    "h": "Esker (fluvio-glacial deposition)",
+    "h": "Erratics (deposition)",
     "points": [
-     "1. Meltwater flows in tunnels within or beneath the glacier.",
-     "2. The stream deposits sorted sand and gravel on the tunnel floor as its velocity falls.",
-     "3. When the ice melts, the deposit is left as a long, winding ridge.",
-     "Example: Esker Riada, which runs across Ireland from Dublin Bay towards Galway Bay.",
-     "Diagram: plan view of a winding esker ridge; cross-section showing the ridge of sorted gravel lying on unsorted till."
+     "Erratic: a boulder carried by ice and dropped far from its source, with a rock type unlike the bedrock beneath it.",
+     "Example: granite erratics from Connemara resting on the limestone of the Burren, Co. Clare."
     ]
    },
    {
-    "h": "Kame, outwash plain and kettle hole (fluvio-glacial deposition)",
+    "b": "Fluvio-glacial material is laid down by meltwater rather than directly by ice, so it differs from till.",
+    "h": "Sorted and stratified fluvio-glacial deposits",
     "points": [
-     "Kame: a mound of sorted sand and gravel deposited by meltwater in a hollow on the ice surface or at its margin, left when the ice melts.",
-     "Outwash plain: a flat sheet of sorted sand and gravel spread by meltwater beyond the terminal moraine.",
-     "Kettle hole: a hollow left where a block of buried ice melts; kettle holes often hold water as kettle lakes.",
-     "Diagram: cross-section of a kame beside a kettle hole; plan view of an outwash plain lying beyond a terminal moraine."
+     "Meltwater sorts material by size, so fluvio-glacial deposits are sorted, and layers are stratified; till is neither.",
+     "Exam classification, glacial erosion: corrie, arete, pyramidal peak, U-shaped valley, hanging valley, ribbon lake, fjord, roche moutonnee, striations.",
+     "Exam classification, glacial deposition: till, moraines, drumlins, erratics.",
+     "Exam classification, fluvio-glacial: eskers, outwash plains, kames, kettle holes."
+    ]
+   },
+   {
+    "h": "Eskers (fluvio-glacial deposition)",
+    "points": [
+     "1. Meltwater flows in a tunnel within or beneath the glacier.",
+     "2. The stream deposits sorted sand and gravel on the tunnel floor as its velocity falls.",
+     "3. When the ice melts, the deposit is left as a long, winding ridge called an esker.",
+     "Example: Esker Riada, a series of eskers across the Midlands from roughly Dublin to Galway, used as an ancient routeway (the Slí Mhór); Clonmacnoise, Co. Offaly, is built beside it.",
+     "Diagram: plan view of a winding esker ridge; cross-section of a ridge of sorted gravel."
+    ]
+   },
+   {
+    "h": "Outwash plain (fluvio-glacial deposition)",
+    "points": [
+     "1. Meltwater spreads sand and gravel beyond the terminal moraine onto flat ground.",
+     "2. The deposit forms a flat, sorted outwash plain.",
+     "Example: The Curragh, Co. Kildare, a plain of sand and gravel; it is well-drained grassland used for horse training and an army camp.",
+     "Diagram: plan view of an outwash plain lying beyond a terminal moraine."
+    ]
+   },
+   {
+    "h": "Kames and kettle holes (fluvio-glacial deposition)",
+    "points": [
+     "1. Meltwater deposits sand and gravel in a hollow on the ice surface or at its margin.",
+     "2. When the ice melts, the deposit is left as a mound called a kame; where it lies against a valley side it forms a kame terrace.",
+     "3. A block of ice buried in outwash melts, leaving a hollow called a kettle hole.",
+     "Diagram: cross-section of a kame beside a kettle hole."
     ]
    }
   ],
   "questions": [
    {
     "marks": 30,
-    "model": "Model answer (U-shaped valley). Before glaciation the valley is V-shaped, cut by a river. A glacier fills the valley and, being thick and wide, deepens and widens the floor by plucking, where meltwater freezes in rock joints and the ice tears out blocks, and by abrasion, where rock fragments frozen into the ice base scrape and polish the bedrock. The glacier also erodes the valley sides, cutting off the spurs of the old valley to leave blunt truncated spurs. The result is a broad, flat-floored trough with steep sides, a U-shape. A smaller tributary glacier cuts a shallower valley that is left hanging above the main floor; after the ice melts, its stream falls over the edge as a waterfall, forming a hanging valley. Example: Glendalough, Co. Wicklow. Diagram: a V-shaped valley cross-section beside a U-shaped one, with truncated spurs labelled, and a long profile showing a hanging valley and waterfall.",
-    "prompt": "Explain, with the aid of a diagram, the formation of one landform of glacial erosion.",
+    "model": "Corrie (cirque). Stage 1: snow collects in a hollow on the mountainside, and nivation (erosion by snow patches) and freeze-thaw weathering enlarge the hollow. Stage 2: the snow is compacted into firn and then glacier ice, which begins to move within the hollow, so the rotating ice starts to pluck and abrade the back wall and floor. Stage 3: plucking tears loose blocks of rock where meltwater has frozen in the joints, while abrasion by fragments in the ice base scrapes and polishes the surface. Stage 4: the hollow deepens and its back wall steepens, leaving a bowl with a steep back wall. Stage 5: the interior is eroded more deeply than the lower edge, which is left as a rock lip, called the threshold. Stage 6: when the ice melts, water collects in the bowl behind the rock lip and forms a tarn. Stage 7: repeated freeze-thaw and mass movement keep the back wall steep. Example: Coumshingaun, Comeragh Mountains, Co. Waterford, and the Devil's Punchbowl, Mangerton, Co. Kerry. Diagram: a plan view of a bowl-shaped hollow with the steep back wall labelled; a cross-section showing the steep back wall, the rock lip and the tarn, with an arrow for the rotational movement of the ice and a label for the accumulation zone above it.",
+    "prompt": "Explain, with the aid of a labelled diagram, the formation of one landform of glacial erosion.",
     "type": "short"
    },
    {
     "marks": 30,
-    "model": "Model answer (drumlin). Ice deposits or overrides an accumulation of till on the bed, building an irregular mass of unsorted material. As the ice keeps flowing over the mass, it moulds the material into an elongated, streamlined hill parallel to the direction of ice flow. The blunt, steep end faces up-ice, where the ice came from, and the tapered end points down-ice. Drumlins occur in swarms, all aligned in the same direction, which shows the direction of the former ice flow. Example: the drumlin belt of Co. Cavan and Co. Monaghan. Diagram: a plan view of a drumlin swarm with an ice-flow arrow, and a side profile showing the blunt up-ice end and the tapered down-ice end. Alternative for the same question: an esker forms when a meltwater stream in a tunnel in or beneath the ice deposits sorted sand and gravel, which is left as a winding ridge when the ice melts; Esker Riada runs across Ireland from Dublin Bay towards Galway Bay.",
-    "prompt": "Describe and explain the formation of one landform of glacial deposition, with the aid of a diagram.",
+    "model": "Drumlin. Ice deposits or overrides an accumulation of till on the bed, building an irregular mass of unsorted material. As the ice keeps flowing over the mass, it moulds the material into an elongated, streamlined hill lying parallel to the direction of ice flow. The blunt, steep end faces up-ice, where the ice came from, and the tapered end points down-ice. Drumlins occur in swarms, all aligned in one direction, which records the direction of former ice flow. Where the sea floods low ground, drumlins become islands, forming drowned drumlins, as in Clew Bay, Co. Mayo, and Strangford Lough, Co. Down. Example: the drumlin belt across Co. Cavan, Co. Monaghan and Co. Leitrim. Diagram: a plan view of a drumlin swarm with an ice-flow arrow, and a side profile showing the blunt up-ice end and the tapered down-ice end.",
+    "prompt": "Examine the formation of one landform of glacial deposition or fluvio-glacial deposition.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "U-shaped valley. Before glaciation the valley is V-shaped, cut by a river. A glacier fills the valley and deepens and widens its floor by plucking and abrasion. The glacier cuts off the river's interlocking spurs, leaving blunt truncated spurs. The result is a broad, flat-floored trough with steep sides, which gives the valley its U-shape. Example: Glendalough and Glenmalure, Co. Wicklow. Diagram: cross-sections of a V-shaped valley beside a U-shaped valley, with truncated spurs labelled. Pyramidal peak. Three or more corries erode back around one summit from different directions. Their back walls retreat, so the summit is left as a sharp, pointed peak called a horn. Example: Carrauntoohil, Macgillycuddy's Reeks, Co. Kerry, Ireland's highest mountain. Diagram: a plan view of a horn ringed by three corries.",
+    "prompt": "Name and explain the formation of two landforms of glacial erosion.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-glaciation-s2": {
+  "keyTerms": [
+   {
+    "definition": "Forces from within the earth, such as crustal uplift, that raise or build up the land.",
+    "term": "Endogenetic forces"
+   },
+   {
+    "definition": "Surface processes of weathering, erosion and deposition that wear the land down and move material.",
+    "term": "Exogenetic forces"
+   },
+   {
+    "definition": "The state of balance between the crust, which floats on the denser mantle, and the mantle beneath it.",
+    "term": "Isostasy"
+   },
+   {
+    "definition": "The downward sinking of the crust under the weight of an ice sheet.",
+    "term": "Isostatic depression"
+   },
+   {
+    "definition": "The slow rise of the crust after an ice sheet melts and its load is removed.",
+    "term": "Isostatic rebound"
+   },
+   {
+    "definition": "A worldwide change in sea level, such as the lowering caused by water locked up in ice sheets.",
+    "term": "Eustatic change"
+   },
+   {
+    "definition": "The lowest level to which a river can erode, normally sea level.",
+    "term": "Base level"
+   },
+   {
+    "definition": "Renewed erosive power in a river caused by a fall in base level.",
+    "term": "Rejuvenation"
+   },
+   {
+    "definition": "A former beach, with its cliffs and platform, lifted above present high tide by isostatic uplift.",
+    "term": "Raised beach"
+   },
+   {
+    "definition": "A coast where the land has risen relative to sea level.",
+    "term": "Emergent coastline"
+   },
+   {
+    "definition": "A coast where the sea stands higher relative to the land, so valleys and lowlands are flooded.",
+    "term": "Submergent coastline"
+   },
+   {
+    "definition": "A drowned river valley, V-shaped in cross-section and winding, flooded by a rise in sea level.",
+    "term": "Ria"
+   },
+   {
+    "definition": "A drowned glacial trough, deep and U-shaped, often with a shallow threshold at its mouth.",
+    "term": "Fjord"
+   },
+   {
+    "definition": "A drumlin partly submerged by the sea, with its crest standing as an island.",
+    "term": "Drowned drumlin"
+   },
+   {
+    "definition": "A sudden steepening in a river's long profile, which marks the upstream limit of rejuvenated erosion.",
+    "term": "Knickpoint"
+   },
+   {
+    "definition": "A meander that the river has cut down into, leaving it entrenched in a steep-sided valley.",
+    "term": "Incised meander"
+   },
+   {
+    "definition": "A step on a valley side marking an old valley floor, left above the present channel after rejuvenation.",
+    "term": "River terrace"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Landforms are shaped by forces that build up the land and by forces that wear it down. The landscape reflects the balance between them.",
+    "h": "Endogenetic and exogenetic forces",
+    "points": [
+     "Endogenetic (endogenic) forces come from within the earth and raise the land, for example through crustal uplift.",
+     "Exogenetic (exogenic) forces act at the surface: weathering, erosion and deposition wear the land down and move material.",
+     "All landforms represent a balance between endogenetic and exogenetic forces, and this balance may change through time."
+    ]
+   },
+   {
+    "b": "Isostasy is the state of balance between the crust and the denser mantle beneath it.",
+    "h": "Isostasy",
+    "points": [
+     "The crust floats on the mantle, as a block of wood floats in water. The mantle beneath the crust is called the asthenosphere.",
+     "Isostatic change is the adjustment of the crust's height that restores this balance when the load on the crust changes."
+    ]
+   },
+   {
+    "b": "Ice sheets add a load to the crust, and melting removes it. The crust responds slowly in both directions.",
+    "h": "Isostatic depression and rebound",
+    "points": [
+     "Isostatic depression: the weight of an ice sheet presses the crust down into the mantle.",
+     "Isostatic rebound: when the ice melts and the load is removed, the crust slowly rises.",
+     "Rebound lags far behind melting, so land can still be rising long after the ice has gone.",
+     "Rebound is still continuing in some places: Scandinavia around the Gulf of Bothnia, Hudson Bay in Canada, and Scotland."
+    ]
+   },
+   {
+    "b": "Surface processes change the load on the crust as well as ice does.",
+    "h": "Denudation and deposition as loads",
+    "points": [
+     "Denudation removes material from the land. Removing weight through erosion causes the crust to rise.",
+     "Heavy deposition adds weight to the crust, so it sinks; a delta is one place where a large load builds up."
+    ]
+   },
+   {
+    "b": "Isostatic change moves the land. Eustatic change moves the sea.",
+    "h": "Isostatic and eustatic change",
+    "points": [
+     "Isostatic change is a local change in the height of the land relative to the sea.",
+     "Eustatic change is a worldwide change in sea level.",
+     "During glaciation, water locked up in ice sheets lowered sea level worldwide.",
+     "When the ice melted, the meltwater returned to the oceans and raised sea level again.",
+     "The level of the land relative to the sea is the combined result of isostatic and eustatic change."
+    ]
+   },
+   {
+    "b": "Base level is the lowest level to which a river can erode, normally sea level. A relative change between land and sea alters it.",
+    "h": "Base level and landscapes out of balance",
+    "points": [
+     "A river cannot erode its channel below base level, so sea level controls the lower course of every river.",
+     "Uplift faster than denudation: the land rises but is not worn down quickly enough to match, so features are left high above the present sea.",
+     "Sea level rising faster than the land: the sea reaches features that were cut when it stood lower.",
+     "Such landscapes show features that do not match present conditions, because the balance between endogenetic and exogenetic forces is temporarily out of balance."
+    ]
+   },
+   {
+    "b": "Where the land rises relative to sea level, the coast is emergent and former shore features stand above the present tide reach.",
+    "h": "Raised beaches (emergent coast)",
+    "points": [
+     "Isostatic uplift lifts a former beach, its cliffs and its rock platform above present high tide.",
+     "An old cliff line marks the position of the former sea cliffs, now inland of the sea.",
+     "A wave-cut notch is cut into the old cliff at the former sea level.",
+     "Sea caves and stacks stand above the present tide reach.",
+     "Beach shingle lies on the raised beach.",
+     "A flat former wave-cut platform is a level rock shelf cut by waves at the former sea level.",
+     "Examples: raised beaches at Malin Head, Inishowen, Co. Donegal, and on the Isle of Jura, Scotland."
+    ]
+   },
+   {
+    "b": "Where the sea stands higher relative to the land, the coast is submergent and valleys and lowlands are flooded.",
+    "h": "Rias, fjords and drowned drumlins (submergent coast)",
+    "points": [
+     "A ria is a drowned river valley. It has a V-shaped cross-section and a winding outline.",
+     "Examples of rias: Bantry Bay, the Kenmare River and Dingle Bay (Co. Cork and Co. Kerry), and Cork Harbour. They are drowned river valleys of the Munster ridge-and-valley landscape.",
+     "A fjord is a drowned glacial trough. It is deep and U-shaped, often with a shallow threshold at its mouth.",
+     "Examples of fjords: Killary Harbour, on the Co. Galway and Co. Mayo border, and the Norwegian fjords.",
+     "Drowned drumlins: the lowland between drumlins floods, so the crests of the drumlins stand as islands in the sea.",
+     "Examples of drowned drumlins: Clew Bay, Co. Mayo, and Strangford Lough, Co. Down."
+    ]
+   },
+   {
+    "h": "North and south of Ireland",
+    "points": [
+     "The north of Ireland had thicker ice, so it was depressed more and has undergone more isostatic rebound. Its coast shows raised beaches.",
+     "The south-west has the opposite pattern: its coast is drowned, with rias and related submerged features."
+    ]
+   },
+   {
+    "b": "A fall in base level, caused by the land rising relative to the sea, gives a river renewed erosive power. This renewal is called rejuvenation.",
+    "h": "Rejuvenation after a fall in base level",
+    "points": [
+     "The river erodes downwards again to the new, lower base level, and the renewed erosion works upstream from the mouth.",
+     "Knickpoint: a sudden steepening in the long profile of the river, which can form a waterfall.",
+     "Incised meanders: the river cuts down into its old meanders, leaving them entrenched in steep-sided valleys.",
+     "River terraces: the old valley floor is left as a step above the new, lowered channel."
+    ]
+   },
+   {
+    "h": "Drowned lower courses after a rise in base level",
+    "points": [
+     "A rise in base level, caused by the sea rising relative to the land, drowns the lower course of a river.",
+     "The drowned lower course becomes an estuary or a ria, as described in the submergent coast block."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "The crust floats on the denser mantle. During glaciation the weight of the ice sheet depressed the crust, and when the ice melted the crust began to rise again by isostatic rebound. Rebound lags behind melting, so the land is still rising in places. Where the land rises relative to sea level the coast is emergent, and former shore features are left above the present tide reach. A raised beach has an old cliff line marking the former sea cliffs, and a wave-cut notch cut into the old cliff at the former sea level. Sea caves and stacks stand above the present tide reach, and beach shingle lies on a flat former wave-cut platform. Examples are the raised beaches at Malin Head, Inishowen, Co. Donegal, and on the Isle of Jura, Scotland. Where the sea stands higher relative to the land the coast is submergent and valleys are flooded. A ria is a drowned river valley, V-shaped in cross-section and winding, with examples at Bantry Bay, the Kenmare River and Dingle Bay, and Cork Harbour. A fjord is a drowned glacial trough, deep and U-shaped with a shallow threshold at its mouth, with examples at Killary Harbour and the Norwegian fjords. Drowned drumlins form where the lowland between drumlins floods and the drumlin crests stand as islands, with examples at Clew Bay, Co. Mayo, and Strangford Lough, Co. Down. The north of Ireland, with thicker ice and more rebound, has raised beaches, while the south-west has drowned coastlines.",
+    "prompt": "Describe and explain how isostasy impacts on the coastal landscape.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Isostatic change alters the height of the land relative to the sea, and this changes base level. Where the land rises relative to the sea, base level falls. A fall in base level, caused by the land rising relative to the sea, gives a river renewed erosive power, which is called rejuvenation. The river erodes downwards again, and the renewed erosion works upstream from the mouth. Rejuvenation produces a knickpoint, a sudden steepening in the long profile that can form a waterfall. It also produces incised meanders, where the river has cut down into its old meanders and left them entrenched in steep-sided valleys, and river terraces, which are steps on the valley side marking the old valley floor above the new channel. A rise in base level, caused by the sea rising relative to the land, drowns the lower course of a river, which becomes an estuary or a ria.",
+    "prompt": "Explain how isostatic change can affect a river's landscape.",
+    "type": "short"
+   },
+   {
+    "marks": 2,
+    "model": "Isostatic change is a change in the height of the land, as the crust rises or sinks in response to a change in its load. Eustatic change is a worldwide change in sea level, such as the lowering caused by water locked up in ice sheets.",
+    "prompt": "Distinguish between isostatic and eustatic change.",
     "type": "short"
    }
   ]
