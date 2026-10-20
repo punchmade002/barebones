@@ -478,7 +478,6 @@ let viewMode = 'chapter';
 let pickingOutcome = false;
 // Live reading state lives up here because bindEvents() runs before the reader's code below.
 const LIVE_READER_WPM_KEY = "bb-live-reader-wpm";
-const LIVE_READER_MAX_WORDS = 12;
 const liveReader = { lines: [], index: 0, pos: 0, playing: false, raf: 0, lastTs: 0, wpm: 220 };
 const mathsSolutionStore = new Map();
 
@@ -2956,55 +2955,59 @@ function renderLiveReaderWpm() {
   els.liveReaderWpmLabel.textContent = `${liveReader.wpm} wpm`;
 }
 
-// Split one block of notes into short, lyric-length lines: sentence by
-// sentence, breaking long sentences at a clause boundary where possible.
+// Split one block of notes into reading lines, one sentence per line. A
+// sentence only ends where the next word starts a new one, so "e.g. the" and
+// "c. 1900" stay together; stray fragments like "1." join what follows.
 function splitReadingLines(text) {
   const lines = [];
-  // Fragments like "1." or "e.g." are not sentences; carry them into what follows.
-  const sentences = [];
-  let carry = "";
-  String(text || "").split(/(?<=[.!?;])\s+(?=\S)/).forEach((part) => {
-    const joined = carry ? `${carry} ${part}` : part;
-    if (joined.split(/\s+/).length < 3) carry = joined;
-    else { sentences.push(joined); carry = ""; }
+  let carry = [];
+  String(text || "").split(/(?<=[.!?])\s+(?=["“'(]?[\p{Lu}\d])/u).forEach((part) => {
+    const words = carry.concat(part.split(/\s+/).filter(Boolean));
+    if (words.length < 3) carry = words;
+    else { lines.push(words); carry = []; }
   });
-  if (carry) sentences.push(carry);
-  sentences.forEach((sentence) => {
-    const words = sentence.split(/\s+/).filter(Boolean);
-    if (!words.length) return;
-    if (words.length <= LIVE_READER_MAX_WORDS + 3) {
-      lines.push(words);
-      return;
-    }
-    // Aim for evenly sized lines rather than a full line and a short tail.
-    const target = Math.ceil(words.length / Math.ceil(words.length / LIVE_READER_MAX_WORDS));
-    let chunk = [];
-    words.forEach((word) => {
-      chunk.push(word);
-      const atClause = /[,:–-]$/.test(word) && chunk.length >= Math.max(5, target * 0.6);
-      if (atClause || chunk.length >= target) {
-        lines.push(chunk);
-        chunk = [];
-      }
-    });
-    if (chunk.length) {
-      // Fold a stray tail of a word or three back into the line before it.
-      if (chunk.length < 4 && lines.length) lines[lines.length - 1].push(...chunk);
-      else lines.push(chunk);
-    }
-  });
+  if (carry.length) {
+    if (lines.length) lines[lines.length - 1].push(...carry);
+    else lines.push(carry);
+  }
   return lines;
 }
 
 function buildLiveReaderLines() {
   const lines = [];
-  els.fullNotesBody.querySelectorAll("h4, h5, p, li").forEach((el, sourceIndex) => {
-    const heading = el.tagName === "H4" || el.tagName === "H5";
+  // Headings ride along as a small label on the first line of their section
+  // rather than taking a line of their own. Short bullets ("Paris", "High
+  // rainfall") aren't sentences either, so a run from one list shares a line.
+  let label = "";
+  let run = null;
+  const push = (words, el) => {
+    const line = { words, label, el };
+    label = "";
+    lines.push(line);
+    return line;
+  };
+  els.fullNotesBody.querySelectorAll("h4, h5, p, li").forEach((el) => {
     const text = compactText(el.textContent);
     if (!text) return;
-    if (heading) lines.push({ words: text.split(/\s+/), heading: true, el });
-    else splitReadingLines(text).forEach((words) => lines.push({ words, heading: false, el }));
+    if (el.tagName === "H4" || el.tagName === "H5") {
+      label = label ? `${label} · ${text}` : text;
+      run = null;
+      return;
+    }
+    const words = text.split(/\s+/);
+    if (el.tagName === "LI" && words.length < 5) {
+      if (run && run.list === el.parentElement && !label) {
+        run.line.words[run.line.words.length - 1] += " ·";
+        run.line.words.push(...words);
+      } else {
+        run = { list: el.parentElement, line: push(words, el) };
+      }
+      return;
+    }
+    run = null;
+    splitReadingLines(text).forEach((sentence) => push(sentence, el));
   });
+  if (label) push(label.split(/\s+/), null);
   return lines;
 }
 
@@ -3013,12 +3016,13 @@ function openLiveReader() {
   const bodyTop = els.fullNotesBody.getBoundingClientRect().top;
   liveReader.lines = buildLiveReaderLines();
   if (!liveReader.lines.length) return;
-  const firstVisible = liveReader.lines.findIndex((line) => line.el.getBoundingClientRect().bottom > bodyTop + 8);
+  const firstVisible = liveReader.lines.findIndex((line) => line.el?.getBoundingClientRect().bottom > bodyTop + 8);
   liveReader.index = Math.max(0, firstVisible);
   liveReader.pos = 0;
 
   els.liveReaderTrack.innerHTML = liveReader.lines.map((line, idx) => `
-    <p class="lr-line ${line.heading ? "lr-heading" : ""}" data-index="${idx}">${line.words
+    <p class="lr-line" data-index="${idx}">${line.label
+      ? `<span class="lr-label">${escapeHtml(line.label)}</span>` : ""}${line.words
       .map((word) => `<span class="lr-word">${escapeHtml(word)}</span>`)
       .join(" ")}</p>`).join("");
 
@@ -3039,7 +3043,7 @@ function closeLiveReader() {
   els.openLiveReading.textContent = "Live reading";
   els.openLiveReading.classList.remove("is-active");
   // Drop the reader back into the notes where they left off.
-  line?.el.scrollIntoView({ block: "center" });
+  line?.el?.scrollIntoView({ block: "center" });
 }
 
 function toggleLiveReaderPlay() {
@@ -3089,10 +3093,9 @@ function tickLiveReader(ts) {
 
 function goToLiveLine(index) {
   if (index < 0 || index >= liveReader.lines.length) return;
-  const previous = liveReader.index;
   liveReader.index = index;
   liveReader.pos = 0;
-  layoutLiveReader(true, previous);
+  layoutLiveReader(true);
   renderLiveReaderWords();
 }
 
@@ -3111,22 +3114,11 @@ function liveReaderOffset(index) {
   return stageHeight / 2 - (line.offsetTop + line.offsetHeight / 2);
 }
 
-// The lit line is larger than its neighbours, so the track's final offset is
-// measured with the new sizes applied, then both animate there together.
-function layoutLiveReader(animate, fromIndex = liveReader.index) {
+function layoutLiveReader(animate) {
   const track = els.liveReaderTrack;
-  track.classList.add("lr-still");
+  track.classList.toggle("lr-still", !animate);
   setLiveLineClasses(liveReader.index);
-  const offset = liveReaderOffset(liveReader.index);
-  if (animate && fromIndex !== liveReader.index) {
-    setLiveLineClasses(fromIndex);
-    void track.offsetHeight;
-    track.classList.remove("lr-still");
-    setLiveLineClasses(liveReader.index);
-  } else {
-    void track.offsetHeight;
-  }
-  track.style.transform = `translateY(${offset}px)`;
+  track.style.transform = `translateY(${liveReaderOffset(liveReader.index)}px)`;
   if (!animate) {
     void track.offsetHeight;
     track.classList.remove("lr-still");
