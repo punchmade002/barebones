@@ -30,9 +30,16 @@ BANNED_PHRASES = (
     "question focus:",
     "model content:",
 )
-MARKDOWN = re.compile(r"\*\*|__|^#|\n|`")
+MARKDOWN = re.compile(r"\*\*|__|^#|\n|`|\$")  # the app renders $...$ as KaTeX maths
 # Internal ids (chapter and outcome ids) mean nothing to students; refer to notes by name.
 INTERNAL_IDS: set[str] = set()
+# Ids look like geo-rivers-s2 or bio19-s2, so a token may contain digits before its first hyphen.
+ID_TOKEN = re.compile(r"\b[a-z][a-z0-9]*(?:-[a-z0-9]+)+\b")
+# Subjects whose chapter review outcome (<chapter>-1) still carries the old hand-written notes
+# and flashcards. When a chapter's authored notes arrive, those are cleared so the old content
+# (which predates the current syllabus) doesn't sit beside the new notes. The review outcome
+# keeps its test questions.
+RETIRE_REVIEW_NOTES = {"biology"}
 
 
 def outcome_ids(subject: str) -> dict[str, str]:
@@ -62,7 +69,7 @@ def plain(value, where: str, errors: list[str]) -> None:
         return
     if MARKDOWN.search(value):
         errors.append(f"{where}: contains markdown or a line break")
-    for token in re.findall(r"\b[a-z]+(?:-[a-z0-9]+)+\b", value):
+    for token in ID_TOKEN.findall(value):
         if token in INTERNAL_IDS:
             errors.append(f"{where}: contains the internal id {token!r}; name the notes instead")
     low = value.lower()
@@ -214,7 +221,17 @@ def build(subject: str, check_only: bool, folder: Path | None = None, out: Path 
         "      outcome.questions = (outcome.questions || []).concat(entry.questions);\n"
         "      outcome.authored = true;\n"
         "    });\n"
-        "  });\n"
+        + (
+            "    var review = (chapter.learningOutcomes || []).find(function (outcome) {\n"
+            "      return outcome.id === chapter.id + \"-1\";\n"
+            "    });\n"
+            "    if (review && (chapter.learningOutcomes || []).some(function (outcome) { return outcome.authored; })) {\n"
+            "      review.notes = [];\n"
+            "      review.keyTerms = [];\n"
+            "    }\n"
+            if subject in RETIRE_REVIEW_NOTES else ""
+        )
+        + "  });\n"
         "})();\n"
     )
     print(f"wrote {out}")
