@@ -4080,6 +4080,1040 @@
    }
   ]
  },
+ "geo-region-ireland-s1": {
+  "keyTerms": [
+   {
+    "definition": "The core region made up of Dublin City and County Dublin with Counties Meath, Kildare and Wicklow.",
+    "term": "Greater Dublin Area (GDA)"
+   },
+   {
+    "definition": "The drier lee side of a mountain range, where uplands force moist air to drop its rain on the windward slopes.",
+    "term": "Rain shadow"
+   },
+   {
+    "definition": "A fertile, well-drained soil formed on limestone boulder clay, found in Meath and Kildare.",
+    "term": "Brown earth"
+   },
+   {
+    "definition": "A deep peat deposit that builds up above the surrounding land in a lake hollow, with a domed surface.",
+    "term": "Raised bog"
+   },
+   {
+    "definition": "A flat plain of sand and gravel deposited by glacial meltwater, such as the Curragh.",
+    "term": "Outwash plain"
+   },
+   {
+    "definition": "A long, winding ridge of sand and gravel deposited by a meltwater river flowing in or under a glacier.",
+    "term": "Esker"
+   },
+   {
+    "definition": "The intensive growing of field vegetables and glasshouse crops, centred on Fingal.",
+    "term": "Horticulture"
+   },
+   {
+    "definition": "Horses bred for racing, as in the racehorse industry of Kildare.",
+    "term": "Bloodstock"
+   },
+   {
+    "definition": "A forest of fast-growing evergreen trees, such as Sitka spruce, planted on poor upland soils.",
+    "term": "Conifer plantation"
+   },
+   {
+    "definition": "A State-owned port equipped to land and service fishing boats, of which Howth is one.",
+    "term": "Fishery Harbour Centre"
+   },
+   {
+    "definition": "A power station that pumps water uphill at off-peak times and releases it to generate electricity at peak demand.",
+    "term": "Pumped-storage station"
+   },
+   {
+    "definition": "The clustering of firms in one area so they share suppliers, services and workers.",
+    "term": "Agglomeration"
+   },
+   {
+    "definition": "A process in which growth in one area attracts further investment and people, reinforcing its advantage.",
+    "term": "Cumulative causation"
+   },
+   {
+    "definition": "The spread of low-density housing and development into surrounding farmland and countryside.",
+    "term": "Urban sprawl"
+   },
+   {
+    "definition": "A town whose residents travel daily to work in a larger city.",
+    "term": "Commuter town"
+   },
+   {
+    "definition": "An area where Irish is the community language, such as Ráth Chairn in Co. Meath.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "An Irish-medium school, where lessons are taught through Irish.",
+    "term": "Gaelscoil"
+   },
+   {
+    "definition": "The decline in the influence of religion on social life and institutions.",
+    "term": "Secularisation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Greater Dublin Area (GDA) is the core region of Ireland's east coast, facing Britain and Europe across the Irish Sea.",
+    "h": "Location and extent of the Greater Dublin Area",
+    "points": [
+     "The GDA is Dublin City and County Dublin, plus Counties Meath, Kildare and Wicklow.",
+     "Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown are the four local authorities of Dublin; the single Co. Dublin county council was split into the last three in 1994."
+    ]
+   },
+   {
+    "b": "A core region concentrates people, wealth and services. The general model of core and peripheral regions is in geo-region-concept-s4.",
+    "h": "Why the GDA is a core region",
+    "points": [
+     "Its large, dense and growing population is the largest in the State (see Population).",
+     "It holds most of the State's wealth, jobs, multinational investment, government and services.",
+     "It has the best infrastructure in the State, including the main port, airport and motorway network (see Transport).",
+     "It attracts in-migrants from the rest of Ireland and from abroad.",
+     "Cumulative causation: growth attracts firms and workers, which attracts further investment and widens the gap with peripheral regions such as the West."
+    ]
+   },
+   {
+    "h": "Sketch map: what to draw",
+    "points": [
+     "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north, Kildare to the west.",
+     "Draw the River Liffey from the Wicklow Mountains, through Kildare, to Dublin Bay.",
+     "Draw the River Boyne through Trim and Navan, reaching the sea at Drogheda, just outside the GDA.",
+     "Mark Dublin city, and the towns of Navan, Naas and Bray.",
+     "Show relief: the Wicklow Mountains in the south and the lowland plain of Meath and Kildare."
+    ]
+   },
+   {
+    "b": "The GDA has a cool temperate oceanic climate, with prevailing south-westerly winds bringing moist Atlantic air.",
+    "h": "Climate: a drier, sunnier east",
+    "points": [
+     "Rain shadow: the Wicklow Mountains and the uplands further west force moist air to drop its rain on the western slopes, so the east is the driest part of Ireland.",
+     "Rainfall in the east is about 750–1,000 mm a year; Dublin Airport records about 750 mm.",
+     "By contrast, the west receives 1,000–1,250 mm a year and some mountains exceed 2,000 mm.",
+     "The south-east is the sunniest part of Ireland.",
+     "Mean January temperatures in Ireland are about 4–7 °C and mean July temperatures about 14–16 °C.",
+     "Being farther from the Atlantic than the west gives a slightly greater temperature range: warmer summers, colder winters and more frost.",
+     "Heavier rain and snow fall on the Wicklow uplands than on the lowlands.",
+     "Effect on farming: dry, relatively sunny lowlands suit tillage and horticulture.",
+     "Effect on land use: heavy upland rain supports conifer forestry and reservoirs."
+    ]
+   },
+   {
+    "h": "Relief: lowlands and mountains",
+    "points": [
+     "A low-lying, gently undulating lowland covers most of Meath, Kildare and north Co. Dublin, part of the Central Lowlands.",
+     "The Central Lowlands are underlain by Carboniferous limestone, covered by glacial deposits.",
+     "The Wicklow and Dublin Mountains lie to the south, with a core of the Leinster granite batholith, about 400 million years old (Caledonian; formation in earlier chapters).",
+     "Lugnaquilla, 925 m, in Co. Wicklow, is the highest peak in Leinster.",
+     "Kippure, about 757 m, stands on the Dublin–Wicklow border.",
+     "The Great Sugar Loaf, Co. Wicklow, is a quartzite peak that stands out from the granite.",
+     "Effect: the lowland is easy to farm, build on and cross with roads and rail; the uplands suit forestry, water supply and recreation."
+    ]
+   },
+   {
+    "h": "Glacial and coastal landforms",
+    "points": [
+     "U-shaped valleys of Glendalough and Glenmalure were carved by glacial erosion (glacial landform formation in earlier chapters).",
+     "Esker Riada is a long ridge of sand and gravel deposited by glacial meltwater (formation in geo-glaciation-s1).",
+     "Howth Head is joined to the mainland by the Sutton tombolo.",
+     "North Bull Island lies in Dublin Bay (formation in geo-sea-s1)."
+    ]
+   },
+   {
+    "h": "Soils",
+    "points": [
+     "Deep, fertile brown earths on limestone boulder clay cover Meath, Kildare and north Co. Dublin, among the best farmland in Ireland.",
+     "Brown earths are well drained, which suits both tillage and grassland.",
+     "The Curragh, Co. Kildare, has free-draining sand and gravel from glacial outwash (geo-glaciation-s1), with well-drained grassland used for horse training.",
+     "The Bog of Allen, Co. Kildare, is a raised bog of deep peat, which is unsuitable for farming unless drained.",
+     "Blanket bog on granite at the Sally Gap, Co. Wicklow, is waterlogged and acidic.",
+     "Acidic, leached podzols cover the granite uplands of Wicklow, poor for farming but suitable for conifers.",
+     "Effect on land use: fertile lowland soils support farming; thin, acidic upland soils and bog are used for forestry, recreation and water catchment."
+    ]
+   },
+   {
+    "h": "Rivers, reservoirs and water supply",
+    "points": [
+     "The River Liffey rises in the Wicklow Mountains, flows through Kildare and enters the sea at Dublin Bay.",
+     "The Poulaphouca dam on the Liffey created the Blessington Lakes reservoir, used for hydro-electricity and for Dublin's drinking water.",
+     "The Vartry Reservoir at Roundwood, Co. Wicklow, supplies Dublin with water.",
+     "The River Boyne flows through Trim and Navan, Co. Meath, and reaches the sea near Drogheda, outside the GDA.",
+     "The smaller Dublin rivers, the Dodder and the Tolka, flow through the city to Dublin Bay.",
+     "The Royal and Grand Canals link Dublin to the River Shannon.",
+     "Uisce Éireann (Irish Water) has proposed a pipeline to bring water from the River Shannon to the Dublin region.",
+     "Paved surfaces in the city let rain run off quickly into rivers, raising urban flood risk (flood processes in geo-rivers-s4)."
+    ]
+   },
+   {
+    "h": "Agriculture: factors favouring farming",
+    "points": [
+     "Climate: the dry, relatively sunny east suits tillage and horticulture.",
+     "Relief: flat lowland allows large fields and mechanised farming.",
+     "Soils: deep, fertile brown earths in Meath and Kildare give high-quality land for crops and grass.",
+     "Market: Dublin, the largest urban area in the State, lies on the farms' doorstep.",
+     "Transport: Dublin Port and Dublin Airport export farm produce and livestock.",
+     "Policy and technology: EU and Irish agricultural policy and modern machinery support large, productive farms."
+    ]
+   },
+   {
+    "h": "Agriculture: farm types and products",
+    "points": [
+     "Large, commercial and highly productive farms dominate the lowlands.",
+     "Meath: beef cattle fattening and tillage on large farms.",
+     "Kildare: bloodstock breeding and racehorse training, centred on the Curragh racecourse and the Irish National Stud at Tully, Kildare town.",
+     "Fingal: horticulture, with field vegetables and glasshouse crops centred on Rush and Lusk.",
+     "Wicklow: sheep grazing on the upland pasture of the Wicklow Mountains."
+    ]
+   },
+   {
+    "h": "Agriculture: problems",
+    "points": [
+     "Urban sprawl takes farmland for housing and industry.",
+     "High land prices, especially near Dublin, push farmers to sell land to developers.",
+     "Part-time farming is common near the city, where farm owners depend on jobs off the farm.",
+     "Horticulture needs seasonal labour, which is costly and sometimes in short supply.",
+     "Growers face competition from imported vegetables.",
+     "Changes to the rules of the EU Common Agricultural Policy (CAP) alter farm incomes and force farmers to adapt."
+    ]
+   },
+   {
+    "h": "Forestry",
+    "points": [
+     "Wicklow is among Ireland's most forested counties and is known as the Garden of Ireland.",
+     "Conifer plantations, mainly Sitka spruce (native to western North America), grow on poor upland soils unsuited to farming.",
+     "Coillte, the State forestry company set up in 1988, has its head office at Newtownmountkennedy, Co. Wicklow.",
+     "Wicklow Mountains National Park, set up in 1991, protects the upland landscape and provides recreation.",
+     "Forest recreation areas near Dublin are used by city residents for walking and cycling.",
+     "Ireland's forest cover is about 11% (2020s), one of the lowest in the EU, so forestry covers a small share of the land."
+    ]
+   },
+   {
+    "h": "Fishing",
+    "points": [
+     "Fishing is a small part of the region's economy.",
+     "Howth, Co. Dublin, is one of Ireland's six State-owned Fishery Harbour Centres.",
+     "The other five are Killybegs, Castletownbere, Dingle, Rossaveel and Dunmore East; none is in the GDA.",
+     "Dublin Bay prawns and whitefish are landed at Howth.",
+     "EU Common Fisheries Policy quotas limit how much Irish boats can catch.",
+     "The 2020 EU–UK Brexit trade agreement reduced Irish fishing quotas.",
+     "The fishing fleet has been falling in size."
+    ]
+   },
+   {
+    "h": "Mining and quarrying",
+    "points": [
+     "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine producing since 1977.",
+     "Tara Mines is Europe's largest zinc mine and is owned by Boliden.",
+     "Sand and gravel are quarried from glacial deposits for construction.",
+     "Granite is quarried at Ballyknockan, Co. Wicklow.",
+     "Bord na Móna has ended peat harvesting in the Bog of Allen, Co. Kildare, where peat was once cut for fuel."
+    ]
+   },
+   {
+    "h": "Energy",
+    "points": [
+     "The GDA is Ireland's largest energy market.",
+     "Poolbeg, Ringsend, has gas-fired power generation on Dublin Bay.",
+     "The Dublin Waste-to-Energy incinerator, operating since 2017, generates electricity by burning waste.",
+     "Turlough Hill, Co. Wicklow, is an ESB pumped-storage station built in 1974: water is pumped uphill at night and released to generate power at peak demand.",
+     "Arklow Bank Wind Park off Co. Wicklow is Ireland's first offshore wind farm.",
+     "Data centres used about a fifth of Ireland's metered electricity in 2023 (CSO), most of them in the Dublin region.",
+     "The East–West Interconnector carries electricity by cable to Wales from near Rush, Co. Dublin."
+    ]
+   },
+   {
+    "h": "Manufacturing: pattern",
+    "points": [
+     "The GDA is Ireland's largest manufacturing region.",
+     "Older industries near Dublin Port and in the inner city, such as brewing, food and port-related industry, declined as older plants closed.",
+     "Newer high-tech and pharmaceutical plants are in suburban business parks and towns near the M50 and motorways.",
+     "Examples of these locations are Grange Castle near Clondalkin, Leixlip and Blanchardstown.",
+     "Production has moved from the inner city to edge-of-city sites that offer space and road access."
+    ]
+   },
+   {
+    "h": "Case study: Intel, Pfizer and Guinness",
+    "points": [
+     "Intel at Leixlip, Co. Kildare, opened in 1989 and is Ireland's largest private-sector investment, worth billions of euro.",
+     "Intel's high-tech plant lies near the M4, linking it to Dublin Airport and Dublin Port.",
+     "Pfizer's biopharmaceutical plant is at Grange Castle Business Park, Clondalkin.",
+     "Guinness's St James's Gate Brewery was founded in 1759 on a 9,000-year lease.",
+     "Guinness at St James's Gate shows that an older inner-city industry can survive beside newer high-tech plants."
+    ]
+   },
+   {
+    "h": "Factor: markets",
+    "points": [
+     "The GDA has about 2.1 million people, the largest concentration of consumers in the State.",
+     "Dublin Port and Dublin Airport give access to the EU single market.",
+     "Ferries from Dublin Port to Holyhead, Wales, give access to the British market.",
+     "Dublin Airport allows high-value products to be shipped quickly by air to customers across Europe and beyond.",
+     "Dublin Airport and Dublin Port link the region to foreign markets for exports (see Transport)."
+    ]
+   },
+   {
+    "h": "Factor: labour",
+    "points": [
+     "The GDA has a large, young, educated workforce.",
+     "Trinity College Dublin, University College Dublin, Dublin City University, Technological University Dublin and Maynooth University (Co. Kildare) produce graduates for technical and research jobs.",
+     "Immigrant workers add skills and languages to the workforce.",
+     "Commuters from Meath, Kildare and Wicklow widen the pool of workers.",
+     "A concentration of skilled workers attracts firms that need specialist staff."
+    ]
+   },
+   {
+    "h": "Factor: infrastructure",
+    "points": [
+     "Dublin Port and Dublin Airport provide the sea and air freight links that move components in and products out (see Transport).",
+     "Motorways radiate from the M50 orbital motorway to the port, the airport and industrial sites.",
+     "Reliable, high-capacity electricity and broadband supply suit data-intensive plants.",
+     "Rail and bus links bring commuters to business parks and industrial estates."
+    ]
+   },
+   {
+    "h": "Factor: government policy",
+    "points": [
+     "IDA Ireland, the State agency, promotes the GDA to foreign multinationals and offers sites and grants.",
+     "Corporation tax is 12.5% for most firms.",
+     "From 2024, corporation tax rises to 15% for very large multinational groups (turnover over €750 million), under the OECD agreement.",
+     "Ireland joined the EEC in 1973, giving firms access to European markets."
+    ]
+   },
+   {
+    "h": "Factor: raw materials",
+    "points": [
+     "The GDA has few local raw materials for manufacturing.",
+     "High-tech industries import components and ship light, high-value products by air.",
+     "Food and drink firms process farm produce from the region's hinterland, including the farms of Meath and Kildare."
+    ]
+   },
+   {
+    "h": "Factor: agglomeration",
+    "points": [
+     "Firms cluster together to share suppliers, services, skilled workers and transport links.",
+     "Once a cluster forms, it attracts further investment and suppliers, which reinforces growth.",
+     "Large, concentrated production lowers the cost of each unit produced."
+    ]
+   },
+   {
+    "h": "Secondary activity: problems and challenges",
+    "points": [
+     "High costs of land, housing and wages make the GDA expensive for firms.",
+     "Traffic congestion delays deliveries and the movement of workers.",
+     "A shortage of housing for workers makes recruitment harder.",
+     "Manufacturing faces competition from lower-cost countries.",
+     "Dependence on multinational firms, which can relocate or cut jobs, leaves the economy exposed.",
+     "Global corporation tax changes reduce Ireland's tax advantage.",
+     "Strain on electricity and water supply from data centres and growing demand."
+    ]
+   },
+   {
+    "h": "Tourism: attractions and factors",
+    "points": [
+     "Dublin Airport and Dublin Port are Ireland's main gateway for visitors.",
+     "The Guinness Storehouse, opened in 2000, is Ireland's most visited fee-paying attraction.",
+     "The Book of Kells is displayed at Trinity College Dublin.",
+     "Croke Park, the headquarters of the GAA, draws visitors to matches and tours.",
+     "The Convention Centre Dublin, opened in 2010, supports conference and business tourism.",
+     "Brú na Bóinne, Co. Meath (Newgrange, Knowth and Dowth), has been a UNESCO World Heritage Site since 1993.",
+     "Newgrange is a passage tomb about 5,000 years old (about 3200 BC).",
+     "Glendalough, a monastic site founded by St Kevin in the 6th century, lies in the Wicklow Mountains National Park.",
+     "Powerscourt, Enniskerry, Co. Wicklow, is a historic estate.",
+     "Ireland's Ancient East, a Fáilte Ireland brand launched in 2015, promotes the region's heritage.",
+     "Good accommodation and transport links support visitors."
+    ]
+   },
+   {
+    "h": "Tourism: challenges",
+    "points": [
+     "Shortages of hotel rooms keep prices high.",
+     "Overcrowding at the most popular sites, such as the Book of Kells, spoils the visitor experience.",
+     "Traffic congestion in the city centre makes getting between attractions difficult.",
+     "The region competes with other European city-break destinations."
+    ]
+   },
+   {
+    "h": "Transport: ports and airport",
+    "points": [
+     "Dublin Port is Ireland's busiest port.",
+     "Ferries from Dublin Port run to Holyhead, Wales.",
+     "Dublin Airport is Ireland's busiest airport, handling over 30 million passengers in 2023.",
+     "A north runway opened at Dublin Airport in 2022."
+    ]
+   },
+   {
+    "h": "Transport: roads and rail",
+    "points": [
+     "Radial motorways (M1, M3, M4, M7 and M11) run out from the city and are joined by the M50 orbital motorway.",
+     "The Dublin Port Tunnel, opened in 2006, takes freight traffic from the port directly onto the motorway network.",
+     "DART, the electrified coastal commuter rail line, opened in 1984.",
+     "The Luas tram network, opened in 2004, has Red and Green lines.",
+     "Dublin Bus and BusConnects, a redesign of the bus network, provide city and suburban bus services.",
+     "MetroLink is a planned rail line from the city centre to Dublin Airport and Swords."
+    ]
+   },
+   {
+    "h": "Transport: problems and responses",
+    "points": [
+     "Traffic congestion on radial roads and the M50 slows journeys.",
+     "Long commutes from Meath, Kildare and Wicklow into the city add to congestion.",
+     "Low-density sprawl makes households car-dependent.",
+     "Responses include investment in public transport, such as DART, Luas and planned MetroLink.",
+     "Cycle lanes encourage travel by bicycle.",
+     "The National Transport Authority (NTA) sets out the Greater Dublin Area Transport Strategy 2022–2042."
+    ]
+   },
+   {
+    "h": "Other services",
+    "points": [
+     "The International Financial Services Centre (IFSC), in Custom House Docks, was set up in 1987.",
+     "Google's European headquarters, on Barrow Street in Grand Canal Dock, is part of 'Silicon Docks'.",
+     "The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands for offices and tech firms.",
+     "Government, health and education services are concentrated in the capital."
+    ]
+   },
+   {
+    "h": "Population size and distribution",
+    "points": [
+     "Census 2022 counted about 2.1 million people in the GDA, about 40% of the State's population of about 5.1 million.",
+     "Co. Dublin had about 1.45 million people; Kildare about 250,000; Meath about 220,000; Wicklow about 156,000.",
+     "Dublin city and suburbs had about 1.26 million people; the Dublin City Council area about 590,000.",
+     "Co. Dublin has a density of about 1,600 people per km², against a State average of about 73.",
+     "Highest densities are in Dublin city and suburbs, then in commuter towns along motorways and rail lines.",
+     "Lowest densities are on the Wicklow uplands, where steep relief and poor soils limit settlement and farming.",
+     "Jobs concentrated in Dublin draw population to the city and its commuter belt.",
+     "Lowland relief and fertile soils in Meath and Kildare make settlement and building easier than on the uplands.",
+     "Transport routes along motorways and rail lines make commuter towns accessible to Dublin jobs."
+    ]
+   },
+   {
+    "h": "Population dynamics",
+    "points": [
+     "Growth comes mainly from natural increase: the population is young, with more births than deaths.",
+     "In-migration comes from the rest of Ireland and from abroad.",
+     "The age structure is young and has low dependency compared with the West.",
+     "The population is increasingly multicultural.",
+     "Growth is spreading outward into the commuter counties of Meath, Kildare and Wicklow."
+    ]
+   },
+   {
+    "h": "Urban development of Dublin: early growth",
+    "points": [
+     "Dublin was founded as a Viking settlement in 841.",
+     "Norman rule expanded the town in medieval times.",
+     "The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares.",
+     "Georgian Dublin grew into a planned capital with wide streets and squares."
+    ]
+   },
+   {
+    "h": "Factors influencing Dublin's development",
+    "points": [
+     "Site: Dublin grew at the lowest bridging point of the Liffey, sheltered by Dublin Bay.",
+     "Route focus: roads and routeways radiate from the city, linking it to the rest of the region.",
+     "Port: the harbour on the Liffey gave the settlement a trading role.",
+     "Capital-city functions: national government, administration and services concentrate in the city.",
+     "Industry: brewing and food processing grew near the port (see Manufacturing: pattern).",
+     "Planning: the Wide Streets Commissioners, the Wright Report and the Docklands Development Authority shaped the city's growth."
+    ]
+   },
+   {
+    "h": "Twentieth-century expansion and renewal of Dublin",
+    "points": [
+     "Suburban expansion spread the city outward during the 20th century.",
+     "The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan.",
+     "Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s.",
+     "Temple Bar was regenerated in the 1990s as a cultural quarter.",
+     "The Docklands and IFSC renewed the inner city, drawing offices and tech firms (see Other services).",
+     "Commuter towns have expanded: Navan and Ashbourne (Meath); Naas, Newbridge and Maynooth (Kildare); Bray and Greystones (Wicklow)."
+    ]
+   },
+   {
+    "h": "Urban problems in Dublin",
+    "points": [
+     "Urban sprawl spreads low-density housing into farmland and commuter towns.",
+     "A housing shortage pushes up rents and house prices.",
+     "Homelessness is a serious problem in the city.",
+     "Commuting traffic causes congestion on the city's roads.",
+     "Growing demand puts pressure on the water supply."
+    ]
+   },
+   {
+    "h": "Rural development in the GDA",
+    "points": [
+     "Rural areas of Meath, Kildare and Wicklow are under urban pressure, not decline.",
+     "Commuter villages grow as city workers move out to live in the countryside.",
+     "One-off houses and urban-generated housing are built in rural areas.",
+     "Rising land prices lead to the loss of farmland to housing.",
+     "Growing populations need new schools and services in rural towns and villages.",
+     "Contrast: the West faces rural decline and depopulation."
+    ]
+   },
+   {
+    "h": "Language",
+    "points": [
+     "English is the dominant language of the GDA.",
+     "Nationally, about 1.9 million people (about 40%) said they could speak Irish in Census 2022; about 72,000 spoke it daily outside the education system.",
+     "Gaelscoileanna (Irish-medium schools) are growing in number in the region.",
+     "Ráth Chairn, Co. Meath, is a Gaeltacht founded in 1935 by families resettled from Connemara by the Land Commission.",
+     "Immigration has made the region multilingual; Polish is the most common foreign language spoken at home in Ireland (Census 2022)."
+    ]
+   },
+   {
+    "h": "Religion",
+    "points": [
+     "Nationally, about 69% of people are Roman Catholic and about 14% have no religion (Census 2022).",
+     "Dublin has a lower Catholic share and a higher no-religion share than the national figure.",
+     "The Church of Ireland has a historic presence, shown by Christ Church and St Patrick's cathedrals in Dublin.",
+     "Immigration has added Muslim, Orthodox and other communities; the Islamic Cultural Centre of Ireland is in Clonskeagh.",
+     "Secularisation has weakened the role of organised religion in the city."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Labour: 1) The GDA has a large, young, educated workforce, which secondary firms need. 2) Trinity College Dublin, University College Dublin, Dublin City University, Technological University Dublin and Maynooth University produce graduates for technical and research jobs. 3) Skilled scientists and engineers are available locally, so firms such as Intel at Leixlip can recruit specialist staff. 4) Immigrant workers add skills to the workforce. 5) Commuters from Meath, Kildare and Wicklow widen the pool of workers. 6) A concentration of skilled workers attracts further firms, which share the same labour pool. 7) Intel at Leixlip, opened in 1989, shows how a large firm draws on this skilled labour. Markets: 1) About 2.1 million people live in the GDA, a large home market for manufactured goods. 2) Dublin Port and Dublin Airport give access to the EU single market. 3) Ferries from Dublin Port to Holyhead, Wales, give access to the British market. 4) Dublin Airport allows high-value products to be shipped quickly by air to customers across Europe and beyond. 5) Intel at Leixlip is Ireland's largest private-sector investment, and its high-value products reach world markets by air from Dublin Airport. 6) Pfizer's biopharmaceutical plant at Grange Castle, Clondalkin, is another large secondary firm in the GDA. 7) Ireland joined the EEC in 1973, giving firms access to European markets.",
+    "prompt": "Account for the development of secondary economic activity in a core Irish region you have studied, with reference to labour and markets.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion.",
+    "prompt": "Examine the factors that have influenced the development of Dublin as an urban area.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Agriculture in the GDA, especially in Meath, Kildare and Fingal. (ii) Climate: the dry, relatively sunny east, in the rain shadow of the Wicklow Mountains, suits tillage and horticulture. Relief: flat lowland allows large fields and mechanised farming. Soils: deep, fertile brown earths of Meath and Kildare, among the best farmland in Ireland. Market: about 2.1 million people in the GDA, and Dublin Port and Dublin Airport for export of farm produce and livestock. (iii) Problem: urban sprawl takes farmland for housing, and high land prices push farmers to sell land to developers, especially near Dublin.",
+    "prompt": "(i) Name one primary economic activity in an Irish region you have studied. (ii) Explain the advantages this region has for this activity. (iii) Describe one problem it faces.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-ireland-s2": {
+  "keyTerms": [
+   {
+    "definition": "A region far from the main centres of population and economic activity, with poorer access and fewer opportunities.",
+    "term": "Peripheral region"
+   },
+   {
+    "definition": "A thick layer of peat that covers the land where high rainfall keeps the ground waterlogged.",
+    "term": "Blanket bog"
+   },
+   {
+    "definition": "An acidic, leached soil in which minerals wash down from the surface layer, often leaving a hard iron pan below.",
+    "term": "Podzol"
+   },
+   {
+    "definition": "A grey, poorly drained soil that stays waterlogged for much of the year.",
+    "term": "Gley soil"
+   },
+   {
+    "definition": "A smooth, oval hill of glacial material shaped by moving ice.",
+    "term": "Drumlin"
+   },
+   {
+    "definition": "A seasonal lake in limestone country that fills with water in winter and drains away underground in summer.",
+    "term": "Turlough"
+   },
+   {
+    "definition": "A traditional system in which families shared scattered strips of land within a townland.",
+    "term": "Rundale"
+   },
+   {
+    "definition": "A small, traditional cluster of houses in which families shared land.",
+    "term": "Clachan"
+   },
+   {
+    "definition": "Unfenced hill land shared by several farmers for grazing.",
+    "term": "Commonage"
+   },
+   {
+    "definition": "A grant paid per animal, which encouraged farmers to keep more livestock.",
+    "term": "Headage payment"
+   },
+   {
+    "definition": "A herd of cows kept to rear calves for sale.",
+    "term": "Suckler herd"
+   },
+   {
+    "definition": "Young cattle sold to other farmers to be fattened.",
+    "term": "Store cattle"
+   },
+   {
+    "definition": "An area where Irish is the main language of daily life in the community.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "The emigration of skilled, educated young people from an area.",
+    "term": "Brain drain"
+   },
+   {
+    "definition": "The design and manufacture of medical devices and equipment.",
+    "term": "Medical technology (medtech)"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The West Region is Counties Galway (including Galway city), Mayo and Roscommon. It is peripheral, far from Dublin and from European markets.",
+    "h": "Location and definition of the region",
+    "points": [
+     "Galway and Mayo lie on the Atlantic coast; Roscommon is inland.",
+     "Galway city is the region's only city; Castlebar is the largest town in Mayo.",
+     "The three counties form the State's West regional unit for statistics."
+    ]
+   },
+   {
+    "h": "Why the West is peripheral",
+    "points": [
+     "Remote location: long distances to Dublin and to European markets raise transport costs.",
+     "Difficult physical conditions: high rainfall, poor soils and rugged relief limit farming and building.",
+     "Small, scattered and ageing population, after a long history of out-migration since the Great Famine of the late 1840s.",
+     "Dependence on primary activities and the public sector, with lower incomes than the core.",
+     "Weaker infrastructure than the core, with Galway city as the main exception, a growth centre."
+    ]
+   },
+   {
+    "h": "Sketch map of the region",
+    "points": [
+     "Outline Galway, Mayo and Roscommon, with the Atlantic coast along the western edge of Galway and Mayo.",
+     "Draw the River Corrib flowing from Lough Corrib through Galway city to Galway Bay.",
+     "Draw the River Moy reaching Killala Bay at Ballina, and the River Shannon along Roscommon's eastern edge.",
+     "Mark Galway city, Castlebar, Westport and Ballina.",
+     "Mark one upland: the Twelve Bens in Connemara, or Mweelrea in west Mayo.",
+     "Shade the limestone lowland of east Galway and Roscommon.",
+     "Mark the Aran Islands offshore from Galway."
+    ]
+   },
+   {
+    "h": "Climate: Atlantic influence",
+    "points": [
+     "Cool temperate oceanic climate, strongly influenced by the Atlantic Ocean.",
+     "Prevailing south-westerly winds bring frequent depressions and gales from the Atlantic.",
+     "Relief rainfall: moist Atlantic air is forced up over the western mountains, where it cools and drops its rain.",
+     "Annual rainfall is about 1,000 to 1,250 mm on lowlands and over 2,000 mm on some mountains, against about 750 to 1,000 mm in the east.",
+     "Mild winters: mean January temperatures are about 4 to 7 °C, warmed by the North Atlantic Drift, so frost and snow are rare at the coast.",
+     "Cool summers: mean July temperatures are about 14 to 16 °C, so the annual temperature range is small.",
+     "The west is cloudier and less sunny than the east."
+    ]
+   },
+   {
+    "h": "Effects of climate",
+    "points": [
+     "Grass grows well, but waterlogged land and wet weather make tillage difficult and hay hard to save.",
+     "Exposure to Atlantic gales limits the land that can be farmed and the crops that can be grown.",
+     "Gales and storms damage forests and power lines.",
+     "Storm Éowyn, January 2025, caused widespread damage and power cuts across the West."
+    ]
+   },
+   {
+    "h": "Relief: uplands, lowlands and coast",
+    "points": [
+     "Rugged uplands in the west: the Twelve Bens and Maumturks in Connemara, and Mweelrea, Nephin and Croagh Patrick in Co. Mayo.",
+     "Mweelrea, 814 m, is the highest peak in Connacht; Nephin is 806 m and Croagh Patrick is 764 m.",
+     "Hard rocks: quartzite forms the Twelve Bens and Croagh Patrick; granite and mica schist form the uplands of Connemara.",
+     "The ice-scoured Connemara lowland has bare rock and many small lakes.",
+     "A low, flat to rolling limestone lowland lies in east Galway and Roscommon; Lough Corrib roughly divides it from the Connemara uplands.",
+     "Clew Bay's drowned drumlins are glacial hills that the sea now covers in part.",
+     "Heavily indented Atlantic coast: Killary Harbour fjord on the Galway–Mayo border, Clew Bay, and Achill Island.",
+     "Achill Island is the largest island off the Irish coast; the Aran Islands are Carboniferous limestone, a continuation of the Burren limestone."
+    ]
+   },
+   {
+    "h": "Soils",
+    "points": [
+     "Blanket bog (peat) covers much of west Mayo, around Bellacorick, and Connemara, where high rainfall keeps the ground waterlogged.",
+     "Leached, acidic podzols with an iron pan (a hard, iron-rich layer) lie on the uplands.",
+     "Heavy, poorly drained gley soils lie on the drumlins and clay lowlands.",
+     "Better-drained, more fertile brown earths lie on the limestone of east Galway and Roscommon.",
+     "Thin, rocky soils cover the limestone pavement of the Aran Islands, where islanders made soil from layers of sand and seaweed on bare rock."
+    ]
+   },
+   {
+    "h": "Drainage and water",
+    "points": [
+     "The River Corrib flows only a few kilometres from Lough Corrib through Galway city to Galway Bay.",
+     "Lough Corrib is the largest lake in the Republic of Ireland.",
+     "Lough Mask's water flows underground to Lough Corrib near Cong, through the Cong 'dry canal'.",
+     "Turloughs, seasonal lakes on limestone, such as Rahasane turlough near Craughwell, Co. Galway, flood in winter and drain away underground.",
+     "The River Moy reaches Killala Bay at Ballina.",
+     "The River Shannon and Lough Ree form much of Roscommon's eastern boundary; the River Suck flows through Ballinasloe to the Shannon.",
+     "Poor natural drainage leaves low land beside the Shannon liable to flooding.",
+     "The Moy arterial drainage scheme, run by the Office of Public Works under the Arterial Drainage Act 1945, was built to reduce flooding on the Moy."
+    ]
+   },
+   {
+    "b": "Physical factors give the West a short effective grazing season and restrict farming to grazing on most of the land.",
+    "h": "Agriculture: physical limits",
+    "points": [
+     "High rainfall, waterlogged and leached soils, steep uplands and exposure give a short effective grazing season.",
+     "Tillage is restricted to the better-drained limestone soils of east Galway and Roscommon.",
+     "Brown earths on the limestone of east Galway and Roscommon are the region's most fertile farmland.",
+     "Blanket bog and gley soils restrict most of the rest of the region to grazing."
+    ]
+   },
+   {
+    "h": "Agriculture: farm structure and economics",
+    "points": [
+     "Small, often fragmented farms, a legacy of the pre-Famine rundale system and of population pressure on the land.",
+     "The Congested Districts Board, set up in 1891, improved conditions in the poor western districts through land consolidation, piers and cottage industries.",
+     "The Land Commission later consolidated holdings.",
+     "Part-time farming, with off-farm jobs supplementing low farm incomes.",
+     "Income depends heavily on subsidies and EU payments.",
+     "Distance from markets and ports adds to the cost of moving livestock and produce."
+    ]
+   },
+   {
+    "h": "Agriculture: farm types",
+    "points": [
+     "Cattle rearing is the main enterprise: suckler herds rear calves, and young store cattle are sold through local marts to farmers in the east to be fattened.",
+     "Sheep graze the hill commonage of Connemara and the Mayo mountains.",
+     "There is little tillage or dairying compared with the south and east.",
+     "The October Fair at Ballinasloe, Co. Galway, is one of Europe's oldest horse fairs.",
+     "The Connemara pony is Ireland's native pony breed."
+    ]
+   },
+   {
+    "h": "Agriculture: problems and responses",
+    "points": [
+     "Low incomes, ageing farmers and few young successors lead to land abandonment.",
+     "CAP headage payments from the 1980s raised sheep numbers on the hill commonage of Connemara and the Mayo mountains.",
+     "Overgrazing stripped vegetation from the hills and eroded the peat.",
+     "The Rural Environment Protection Scheme (REPS), from 1994, was a response to the damage.",
+     "Commonage Framework Plans, from the early 2000s, set out how shared hill land is to be managed.",
+     "Area-based payments paid farmers on the area of land they farm, not per animal.",
+     "Diversification into agri-tourism and forestry."
+    ]
+   },
+   {
+    "h": "Forestry: planting and benefits",
+    "points": [
+     "Conifer plantations, mainly Sitka spruce (native to western North America), cover marginal land and blanket bog where farming pays poorly.",
+     "Coillte, founded in 1988, is the State forestry company.",
+     "Planting grants and premiums encourage forestry on farmland and bog.",
+     "Benefits: income from timber, jobs, and carbon storage in the trees.",
+     "Forest cover in Ireland is about 11% (2020s)."
+    ]
+   },
+   {
+    "h": "Forestry: problems",
+    "points": [
+     "Acidification of streams from conifer plantations.",
+     "Monoculture and landscape impact of large blocks of single-species forest.",
+     "Peat slide at Derrybrien, Slieve Aughty Mountains, Co. Galway, on 16 October 2003: about 450,000 m³ of peat slid during wind-farm construction on forested bog.",
+     "The EU Court of Justice fined Ireland in 2019 over Derrybrien."
+    ]
+   },
+   {
+    "h": "Fishing and aquaculture",
+    "points": [
+     "Rossaveel, Co. Galway, is one of six State Fishery Harbour Centres and the ferry port for the Aran Islands.",
+     "Killary Harbour: rope-grown mussels are farmed on mussel rafts.",
+     "Salmon farms in Connemara bays raise concerns over sea lice and pollution.",
+     "Seaweed is harvested and processed by Arramara Teoranta at Kilkieran, Connemara.",
+     "Angling: salmon on the River Moy at Ballina, including the Ridge Pool, and brown trout on Lough Corrib and Lough Mask.",
+     "Problems: EU fishing quotas, loss of quota after Brexit, small boats and distance from markets."
+    ]
+   },
+   {
+    "h": "Energy: peat, wind and waves",
+    "points": [
+     "Bellacorick, Co. Mayo, had a peat-fired power station, which closed in 2003.",
+     "Bellacorick wind farm (1992) was Ireland's first commercial wind farm.",
+     "The Oweninny wind farm is on cutaway bog nearby.",
+     "Strong Atlantic winds and waves give the region high renewable energy potential.",
+     "The Atlantic Marine Energy Test Site off Belmullet, Co. Mayo, tests wave energy."
+    ]
+   },
+   {
+    "h": "Mining and gas",
+    "points": [
+     "The Corrib gas field, off north-west Mayo, was discovered in 1996.",
+     "Gas first flowed in December 2015; gas is processed at the Bellanaboy terminal.",
+     "The Shell to Sea campaign opposed the project, and the 'Rossport Five' were jailed in 2005.",
+     "Arigna, Co. Roscommon: coal mining ended in 1990; the site is now the Arigna Mining Experience.",
+     "Connemara marble is quarried.",
+     "Croagh Patrick: gold was found in the 1980s, but mining was not allowed after public opposition."
+    ]
+   },
+   {
+    "h": "Manufacturing: pattern",
+    "points": [
+     "Manufacturing is limited and concentrated in Galway city and a few towns: Castlebar, Westport and Ballina.",
+     "There are few heavy industries; most rural areas have little manufacturing.",
+     "Small food-processing and craft firms are the main rural manufacturers."
+    ]
+   },
+   {
+    "h": "Case study: the Galway medical devices cluster",
+    "points": [
+     "Digital Equipment Corporation (DEC) closed its Galway manufacturing plant in 1993, leaving a skilled workforce.",
+     "Boston Scientific opened in Galway in 1994, and Medtronic followed at Parkmore.",
+     "Suppliers and start-ups clustered around the multinationals, with links to the University of Galway.",
+     "Galway is now one of Europe's leading medical-technology clusters."
+    ]
+   },
+   {
+    "h": "Case study: multinationals in Mayo",
+    "points": [
+     "Baxter Healthcare, Castlebar.",
+     "Allergan, now part of AbbVie, Westport, which makes Botox.",
+     "Hollister, Ballina.",
+     "Coca-Cola concentrate plant, Ballina."
+    ]
+   },
+   {
+    "h": "Factors: government policy",
+    "points": [
+     "IDA Ireland and regional incentives attract foreign manufacturing firms to the region.",
+     "Údarás na Gaeltachta, set up in 1980 with its head office at Na Forbacha, Co. Galway, gives grants to firms in Gaeltacht areas.",
+     "The National Spatial Strategy (2002) named Galway a gateway and Castlebar–Ballina a linked hub.",
+     "The National Planning Framework (Project Ireland 2040), 2018, requires Galway, Cork, Limerick and Waterford each to grow by at least 50% by 2040.",
+     "The Western Development Commission, a statutory body set up under the Western Development Commission Act 1998, promotes development in the west."
+    ]
+   },
+   {
+    "h": "Factors: labour",
+    "points": [
+     "The University of Galway, founded in 1845 as Queen's College Galway and renamed in 2022, supplies graduates.",
+     "Atlantic Technological University (ATU), with campuses in Galway and Mayo, supplies graduates and skilled workers.",
+     "Outside Galway, the pool of skilled workers is small, because skilled young people leave the region."
+    ]
+   },
+   {
+    "h": "Factors: markets",
+    "points": [
+     "The local market is small and scattered, with low population density across much of the region.",
+     "Galway city provides the largest local market.",
+     "Exports must travel long distances to ports and airports."
+    ]
+   },
+   {
+    "h": "Factors: infrastructure and raw materials",
+    "points": [
+     "Good road links to Galway city, but weaker roads and broadband in rural areas.",
+     "EU Structural Funds have paid for roads and broadband.",
+     "Local farm and fish produce supplies the food-processing firms.",
+     "Medtech firms import the materials they use, so local raw materials matter less to them."
+    ]
+   },
+   {
+    "h": "Problems for manufacturing",
+    "points": [
+     "Peripheral location adds to transport costs for goods.",
+     "The labour pool outside Galway city is small.",
+     "Dependence on a few multinationals, and closures such as DEC's in 1993.",
+     "Difficulty attracting investment away from Galway.",
+     "Poor rural infrastructure."
+    ]
+   },
+   {
+    "h": "Tourism: landscape attractions",
+    "points": [
+     "Connemara National Park, at Letterfrack, protects the Connemara landscape.",
+     "Killary Harbour, Croagh Patrick, Achill Island and Clew Bay draw visitors to the coast and mountains.",
+     "Dún Aonghasa, a prehistoric stone fort on a cliff edge on Inis Mór, Aran Islands.",
+     "The Atlantic coast and beaches are used for surfing and water sports.",
+     "The Wild Atlantic Way, a Fáilte Ireland touring route launched in 2014, runs about 2,500 km from Inishowen, Co. Donegal, to Kinsale, Co. Cork."
+    ]
+   },
+   {
+    "h": "Tourism: culture and heritage",
+    "points": [
+     "Gaeltacht culture and the Irish language, with Irish summer colleges.",
+     "Céide Fields, north Co. Mayo: Stone Age (Neolithic) field systems over 5,000 years old, preserved under blanket bog.",
+     "Kylemore Abbey, Connemara, a Benedictine abbey.",
+     "Westport House.",
+     "Strokestown Park and the National Famine Museum, Co. Roscommon.",
+     "Rathcroghan, Co. Roscommon: the ancient royal site of Connacht.",
+     "Lough Key Forest Park, near Boyle.",
+     "Galway International Arts Festival (July); Galway was European Capital of Culture in 2020, a year disrupted by COVID-19."
+    ]
+   },
+   {
+    "h": "Tourism: activities and events",
+    "points": [
+     "Angling, walking and cycling.",
+     "The Great Western Greenway, about 42 km from Westport to Achill, first opened in 2010.",
+     "Galway city's festivals, nightlife and the Galway Races at Ballybrit in summer."
+    ]
+   },
+   {
+    "h": "Tourism: challenges",
+    "points": [
+     "The season is short and depends on the weather.",
+     "Seasonal and low-paid jobs.",
+     "Distance and weaker access than the east.",
+     "Pressure on fragile landscapes and on the Irish language.",
+     "Over-reliance on Galway city."
+    ]
+   },
+   {
+    "h": "Transport: improvements",
+    "points": [
+     "M6 Dublin–Galway motorway, completed in 2009.",
+     "M17/M18 Galway–Tuam motorway, 2017.",
+     "Ireland West Airport Knock opened in 1986, promoted by Monsignor James Horan.",
+     "Rail lines run from Galway, Westport and Ballina to Dublin.",
+     "The Western Rail Corridor's Ennis–Athenry section reopened in 2010; the line north of Athenry to Claremorris has not reopened.",
+     "Ferries link the islands to the mainland."
+    ]
+   },
+   {
+    "h": "Transport: problems and importance",
+    "points": [
+     "Low population density makes public transport uneconomic outside the towns.",
+     "Poor minor roads and heavy dependence on the car.",
+     "Congestion in Galway city: the Galway City Ring Road has been proposed for many years but not built.",
+     "Long journey times to Dublin.",
+     "Transport supports tourism and industry and reduces peripherality."
+    ]
+   },
+   {
+    "h": "Other services",
+    "points": [
+     "A major hospital in Galway city serves as a regional centre for the west.",
+     "Public-sector jobs, including decentralised government offices."
+    ]
+   },
+   {
+    "h": "Galway city: site and history",
+    "points": [
+     "Galway city lies where the River Corrib reaches Galway Bay.",
+     "Anglo-Norman walled town, from the 13th century.",
+     "The Spanish Arch recalls medieval trade with Spain.",
+     "'City of the Tribes': the city's name for the 14 merchant families who ran its trade.",
+     "Eyre Square is the city's central open space."
+    ]
+   },
+   {
+    "h": "Galway city: functions and growth",
+    "points": [
+     "Galway city had about 85,000 people in the Galway City Council area in Census 2022.",
+     "The University of Galway has been in the city since 1845.",
+     "Galway is a designated growth centre in national planning policy (see government policy).",
+     "Galway is a medical-technology cluster (see manufacturing).",
+     "Oranmore is a growing satellite town.",
+     "Suburban sprawl and housing costs in the growing city.",
+     "Traffic congestion, with the Galway City Ring Road still not built (see transport)."
+    ]
+   },
+   {
+    "h": "Other towns",
+    "points": [
+     "Castlebar is the county town of Mayo.",
+     "Westport is an 18th-century planned town laid out for the Browne family of Westport House.",
+     "Westport's Octagon and the Mall, along the Carrowbeg River.",
+     "Ballina lies on the River Moy; Tuam is the seat of the Catholic Archdiocese of Tuam.",
+     "Ballinasloe, Co. Galway, and Boyle, near Lough Key Forest Park, are small towns.",
+     "The towns form a weak urban hierarchy: few large towns and no large city beyond Galway."
+    ]
+   },
+   {
+    "h": "Population size and distribution",
+    "points": [
+     "The region had about 486,000 people in Census 2022, about 9% of the State's 5.1 million.",
+     "Galway (including Galway city) about 278,000, Mayo about 138,000 and Roscommon about 70,000 in Census 2022.",
+     "Mayo has about 25 people per km² (area about 5,590 km², Ireland's third-largest county); Roscommon has under 30 per km².",
+     "The State average is about 73 per km²; Co. Dublin has about 1,600 per km².",
+     "Concentration in Galway city and its suburbs and satellite towns, where jobs, services and transport are.",
+     "Moderate densities on the east Galway, Roscommon and east Mayo lowlands and in the towns, where land and roads are better.",
+     "Very low densities on the uplands and blanket bogs of west Mayo (Erris) and Connemara, where soils are poor, slopes steep and the land exposed.",
+     "Coastal and island settlement, linked to fishing and the Gaeltacht, as on the Aran Islands."
+    ]
+   },
+   {
+    "h": "Population dynamics",
+    "points": [
+     "The Great Famine of the late 1840s hit the West hard.",
+     "A long history of emigration has left populations far below pre-Famine levels.",
+     "Continuing out-migration of young adults to Dublin and abroad, known as brain drain.",
+     "An ageing population with fewer births and many empty houses.",
+     "Recent growth from return migration, immigration and the expansion of Galway city.",
+     "The population of every county grew between 2016 and 2022 (Census 2022)."
+    ]
+   },
+   {
+    "h": "Rural settlement and development",
+    "points": [
+     "Traditional dispersed settlement and clachans, small clusters of houses shared by families under rundale.",
+     "Later ribbon development along roads, and one-off housing.",
+     "Rural decline: depopulation, an ageing population, and closures of schools, post offices and Garda stations.",
+     "Island depopulation, especially on the Aran Islands.",
+     "CLÁR programme (2001): investment in depopulated rural areas.",
+     "LEADER, the EU rural development programme.",
+     "National Broadband Plan: contract signed in 2019 with National Broadband Ireland.",
+     "Our Rural Future (2021): rural development policy.",
+     "Remote-working hubs and digital hubs bring work to rural towns.",
+     "The Western Development Commission covers seven counties, including Galway, Mayo and Roscommon."
+    ]
+   },
+   {
+    "h": "Language: where Irish is spoken",
+    "points": [
+     "The Galway Gaeltacht is the largest; it includes Connemara and the Aran Islands.",
+     "The Mayo Gaeltacht: Erris (Iorras), Achill (Acaill) and Tourmakeady (Tuar Mhic Éadaigh).",
+     "Roscommon has no Gaeltacht area.",
+     "The Census 2022 Gaeltacht population was about 106,000."
+    ]
+   },
+   {
+    "h": "Language: the decline of daily speakers",
+    "points": [
+     "About 20,000 people speak Irish daily outside the education system in the Gaeltacht; about 72,000 do so nationally (Census 2022).",
+     "Emigration of young speakers from the Gaeltacht.",
+     "English-language media and English spoken in the home.",
+     "Tourism and the in-migration of English speakers into Gaeltacht areas."
+    ]
+   },
+   {
+    "h": "Language: institutions and strategies",
+    "points": [
+     "Údarás na Gaeltachta (1980), head office at Na Forbacha, Co. Galway.",
+     "TG4, launched in 1996 as Teilifís na Gaeilge, with its headquarters at Baile na hAbhann, Co. Galway.",
+     "RTÉ Raidió na Gaeltachta, from 1972, with its headquarters at Casla (Costelloe), Co. Galway.",
+     "Gaeltacht Act 2012: language-planning areas.",
+     "20-Year Strategy for the Irish Language, 2010–2030.",
+     "Irish-medium schools and summer colleges.",
+     "Planning conditions that reserve new houses for Irish speakers.",
+     "Údarás jobs to keep young people in the Gaeltacht."
+    ]
+   },
+   {
+    "h": "Religion",
+    "points": [
+     "The West has a higher Roman Catholic share than Dublin; nationally, about 69% of people are Roman Catholic and about 14% have no religion (Census 2022).",
+     "Knock Shrine, Co. Mayo: an apparition was reported in 1879; Pope John Paul II visited in 1979 and Pope Francis in 2018.",
+     "Croagh Patrick pilgrimage on Reek Sunday, the last Sunday in July.",
+     "Ballintubber Abbey, Co. Mayo, was founded in 1216, and Mass has been celebrated there continuously since.",
+     "Tuam is the seat of the Catholic Archdiocese of Tuam.",
+     "Religious practice and vocations are declining, but religion remains important in community life."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Climate: the West Region is cool and wet. Rainfall is about 1,000 to 1,250 mm on the lowlands and over 2,000 mm on some mountains, so the land is waterlogged and hay is hard to save. Mild winters, with January temperatures of about 4 to 7 °C warmed by the North Atlantic Drift, and cool summers, with July temperatures of about 14 to 16 °C, keep frost and snow rare at the coast. Exposure to Atlantic gales limits farming. Grass grows well, so farming is mainly cattle rearing and sheep grazing, with little tillage. Relief: the uplands of Connemara, including the Twelve Bens and Maumturks, and of west Mayo, including Mweelrea (814 m), Nephin (806 m) and Croagh Patrick (764 m), are too steep and exposed for anything but rough grazing. The flatter limestone lowlands of east Galway and Roscommon carry the better farms. Soils: blanket bog around Bellacorick and in Connemara is unsuited to farming; acidic podzols with an iron pan on the uplands support only rough grazing; poorly drained gley soils on the drumlins and clay lowlands support wet pasture; better-drained brown earths on the limestone of east Galway and Roscommon are the most fertile soils. Drainage: poor natural drainage leaves land beside the Shannon liable to flooding; turloughs such as Rahasane turlough, near Craughwell, Co. Galway, flood in winter and limit the use of the land; underground drainage through the limestone carries water from Lough Mask to Lough Corrib near Cong; the Moy arterial drainage scheme, run by the Office of Public Works, was built to reduce flooding on the Moy.",
+    "prompt": "Examine the physical factors that influence the development of agriculture in a peripheral Irish region you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Physical landscape: the Atlantic coast and mountains of Connemara and west Mayo draw visitors, including Killary Harbour, Clew Bay, Croagh Patrick and Achill Island, the largest island off the Irish coast. Dún Aonghasa, a prehistoric stone fort on a cliff edge on Inis Mór in the Aran Islands, adds to the scenery. The Atlantic beaches are used for surfing and water sports. Connemara National Park at Letterfrack protects the Connemara landscape. The Wild Atlantic Way, a Fáilte Ireland touring route launched in 2014 along about 2,500 km of coast from Inishowen, Co. Donegal, to Kinsale, Co. Cork, brings visitors along this scenery. Culture and heritage: the Gaeltacht culture and the Irish language, taught in summer colleges, attract visitors to Connemara and the Mayo Gaeltacht. Céide Fields in north Co. Mayo, Stone Age field systems over 5,000 years old preserved under blanket bog, attract visitors interested in archaeology. Kylemore Abbey, a Benedictine abbey in Connemara, draws visitors. Strokestown Park and the National Famine Museum in Co. Roscommon, and Rathcroghan, the ancient royal site of Connacht, add to the heritage offer. Knock Shrine, Co. Mayo, where an apparition was reported in 1879, and the Croagh Patrick pilgrimage on Reek Sunday attract religious visitors. Galway's Arts Festival and its year as European Capital of Culture in 2020, which was disrupted by COVID-19, drew cultural visitors to the city.",
+    "prompt": "Examine two factors that have influenced the development of tourism in a peripheral Irish region you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The West Region had about 486,000 people in Census 2022, about 9% of the State's population, and its density is low. Population is most concentrated in Galway city and its suburbs and satellite towns such as Oranmore, where jobs, the university, the hospital, services and transport links are concentrated. Densities are moderate in the eastern lowlands of east Galway, Roscommon and east Mayo, and in the towns of Castlebar, Westport, Ballina, Tuam and Ballinasloe, where the land is better and roads and jobs are available. Densities are very low on the western uplands and blanket bogs of west Mayo, such as Erris, and on Connemara, where poor soils, steep slopes and exposure to Atlantic weather limit farming and settlement. Mayo has about 25 people per km² and Roscommon under 30 per km², against about 73 per km² for the State. Island settlement on the Aran Islands and the coastal Gaeltacht communities depend on fishing and the Irish language. Historically, the Great Famine of the late 1840s and a long history of emigration have left the West with a population far below pre-Famine levels, and continuing out-migration of young adults keeps numbers low.",
+    "prompt": "Account for the distribution of population in a peripheral Irish region you have studied.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-rivers-s1": {
   "keyTerms": [
    {
