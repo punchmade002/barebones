@@ -431,7 +431,17 @@ const els = {
   studyContext: document.getElementById("studyContext"),
   flashcardList: document.getElementById("flashcardList"),
   flashcardStudy: document.getElementById("flashcardStudy"),
-  outcomeNav: document.getElementById("outcomeNav"),
+  outcomePicker: document.getElementById("outcomePicker"),
+  openLiveReading: document.getElementById("openLiveReading"),
+  liveReader: document.getElementById("liveReader"),
+  liveReaderStage: document.getElementById("liveReaderStage"),
+  liveReaderTrack: document.getElementById("liveReaderTrack"),
+  liveReaderProgress: document.getElementById("liveReaderProgress"),
+  liveReaderPlay: document.getElementById("liveReaderPlay"),
+  liveReaderPrev: document.getElementById("liveReaderPrev"),
+  liveReaderNext: document.getElementById("liveReaderNext"),
+  liveReaderWpm: document.getElementById("liveReaderWpm"),
+  liveReaderWpmLabel: document.getElementById("liveReaderWpmLabel"),
   openFullNotes: document.getElementById("openFullNotes"),
   fullNotesScreen: document.getElementById("fullNotesScreen"),
   fullNotesTitle: document.getElementById("fullNotesTitle"),
@@ -464,6 +474,12 @@ let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
 let studyIndex = 0;
 let showAnswer = false;
 let viewMode = 'chapter';
+// True while a freshly opened chapter is showing its full-screen subsection picker.
+let pickingOutcome = false;
+// Live reading state lives up here because bindEvents() runs before the reader's code below.
+const LIVE_READER_WPM_KEY = "bb-live-reader-wpm";
+const LIVE_READER_MAX_WORDS = 12;
+const liveReader = { lines: [], index: 0, pos: 0, playing: false, raf: 0, lastTs: 0, wpm: 220 };
 const mathsSolutionStore = new Map();
 
 if (isLocalMathsPreview) {
@@ -535,6 +551,7 @@ function bindEvents() {
   els.startTest.addEventListener("click", startTest);
   els.openFullNotes.addEventListener("click", openFullNotes);
   els.closeFullNotes.addEventListener("click", closeFullNotes);
+  bindLiveReader();
   els.openProgress.addEventListener("click", openProgress);
   els.closeProgress.addEventListener("click", closeProgress);
   document.addEventListener("keydown", (e) => {
@@ -542,6 +559,8 @@ function bindEvents() {
     const openMathsPanel = document.querySelector(".maths-explanation-panel.is-open");
     if (openMathsPanel) {
       closeMathsExplanation(openMathsPanel);
+    } else if (!els.liveReader.classList.contains("hidden")) {
+      closeLiveReader();
     } else if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
       closeExamBreakdown();
     } else if (!els.fullNotesScreen.classList.contains("hidden")) {
@@ -1305,6 +1324,7 @@ function renderAll() {
   renderSubjectPicker();
   renderGraph();
   renderSubjectOverview();
+  renderOutcomePicker();
   renderStudyContext();
   renderTabVisibility();
   els.subjectWorkbench?.classList.toggle("learn-mode", els.flashcardsTab.classList.contains("active"));
@@ -1503,6 +1523,7 @@ function renderGraph() {
         studyIndex = 0;
         showAnswer = false;
         viewMode = 'chapter';
+        pickingOutcome = chapterHasSubsections(chapter);
         renderAll();
       });
       chaptersWrap.appendChild(chapterButton);
@@ -1528,10 +1549,83 @@ function renderStudyContext() {
     return;
   }
 
+  const outcome = getSelectedOutcome();
+  if (chapterHasSubsections(chapter) && !isPickingOutcome() && outcome) {
+    els.studyContext.innerHTML = `
+      <button class="study-context-back" type="button" title="Choose another subsection">
+        <span aria-hidden="true">‹</span>
+        <span>${escapeHtml(subject.title)} · ${escapeHtml(chapter.title)}</span>
+      </button>
+      <strong title="${escapeHtml(compactText(outcome.title || ""))}">${escapeHtml(compactText(outcome.title || ""))}</strong>
+    `;
+    els.studyContext.querySelector(".study-context-back").addEventListener("click", () => {
+      pickingOutcome = true;
+      renderAll();
+    });
+    return;
+  }
+
   els.studyContext.innerHTML = `
     <span>${escapeHtml(subject.title)}</span>
     <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
   `;
+}
+
+function chapterHasSubsections(chapter) {
+  return (chapter?.learningOutcomes || []).length > 1;
+}
+
+function isPickingOutcome() {
+  return pickingOutcome && viewMode !== "subject-overview" && chapterHasSubsections(getSelectedChapter());
+}
+
+// A chapter can hold many subsections. Opening one shows them all as a full
+// screen grid; the study tabs and Full notes stay hidden until one is chosen.
+function renderOutcomePicker() {
+  const picker = els.outcomePicker;
+  if (!picker) return;
+  const picking = isPickingOutcome() && Boolean(getCurrentUser());
+  els.subjectWorkbench.classList.toggle("picker-mode", picking);
+  picker.classList.toggle("hidden", !picking);
+  if (!picking) {
+    picker.innerHTML = "";
+    return;
+  }
+
+  const chapter = getSelectedChapter();
+  const learnedByOutcome = getLearnedByOutcome();
+  const cardsHtml = chapter.learningOutcomes.map((lo, idx) => {
+    const cards = cardsForOutcome(lo, selectedSubjectId);
+    const learned = new Set(learnedByOutcome[lo.id] || []);
+    const done = cards.filter((c) => learned.has(c.id)).length;
+    const pct = cards.length ? Math.round((done / cards.length) * 100) : 0;
+    return `
+      <button class="outcome-card ${pct === 100 ? "is-done" : ""}" type="button" data-outcome-id="${escapeHtml(lo.id)}">
+        <span class="outcome-card-index">${String(idx + 1).padStart(2, "0")}</span>
+        <span class="outcome-card-title">${escapeHtml(compactText(lo.title || `Subsection ${idx + 1}`))}</span>
+        <span class="outcome-card-meta">
+          <span class="outcome-card-bar"><span style="width:${pct}%"></span></span>
+          <span>${done}/${cards.length}</span>
+        </span>
+      </button>`;
+  }).join("");
+
+  picker.innerHTML = `
+    <header class="outcome-picker-head">
+      <p>Choose a subsection · ${chapter.learningOutcomes.length} in this chapter</p>
+    </header>
+    <div class="outcome-picker-grid">${cardsHtml}</div>
+  `;
+
+  picker.querySelectorAll(".outcome-card").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      selectedOutcomeId = btn.dataset.outcomeId;
+      pickingOutcome = false;
+      studyIndex = 0;
+      showAnswer = false;
+      renderAll();
+    });
+  });
 }
 
 function renderSubjectOverview() {
@@ -1587,6 +1681,7 @@ function selectChapterFromOverview(chapterId) {
   studyIndex = 0;
   showAnswer = false;
   viewMode = 'chapter';
+  pickingOutcome = chapterHasSubsections(chapter);
   renderAll();
 }
 
@@ -1600,8 +1695,6 @@ function renderOutcomes() {
     outcome = getSelectedOutcome();
   }
   if (!outcome) return;
-
-  renderOutcomeNav(chapter, outcome);
 
   els.flashcardList.innerHTML = "";
   const allPoints = outcome.keyTerms || [];
@@ -1691,53 +1784,6 @@ function renderOutcomes() {
   });
 
   els.hierarchyPanel.classList.add("hidden");
-}
-
-// A chapter can hold many learning outcomes — this is how you move between them.
-function renderOutcomeNav(chapter, outcome) {
-  const nav = els.outcomeNav;
-  if (!nav) return;
-  const los = chapter.learningOutcomes || [];
-  if (los.length < 2) {
-    nav.innerHTML = "";
-    nav.classList.add("hidden");
-    return;
-  }
-  nav.classList.remove("hidden");
-
-  const learnedByOutcome = getLearnedByOutcome();
-  const activeIndex = Math.max(0, los.findIndex((lo) => lo.id === outcome.id));
-  const options = los.map((lo, idx) => {
-    const cards = cardsForOutcome(lo, selectedSubjectId);
-    const learned = new Set(learnedByOutcome[lo.id] || []);
-    const done = cards.filter((c) => learned.has(c.id)).length;
-    const active = lo.id === outcome.id;
-    return `
-      <button class="outcome-chip ${active ? "active" : ""}" data-outcome-id="${escapeHtml(lo.id)}" title="${escapeHtml(compactText(lo.title || ""))}">
-        <span class="outcome-chip-code">${escapeHtml(lo.code || String(idx + 1))}</span>
-        <span class="outcome-chip-title">${escapeHtml(compactText(lo.title || ""))}</span>
-        <span class="outcome-chip-count">${done}/${cards.length}</span>
-      </button>`;
-  }).join("");
-
-  nav.innerHTML = `
-    <div class="outcome-switcher">
-      <button class="outcome-switcher-trigger" type="button" aria-haspopup="true" title="${escapeHtml(compactText(outcome.title || ""))}">
-        <span>${escapeHtml(outcome.code || `Outcome ${activeIndex + 1}`)}</span>
-        <small>${activeIndex + 1}/${los.length}</small>
-        <span aria-hidden="true">⌄</span>
-      </button>
-      <div class="outcome-menu" role="menu">${options}</div>
-    </div>`;
-
-  nav.querySelectorAll(".outcome-chip").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      selectedOutcomeId = btn.dataset.outcomeId;
-      studyIndex = 0;
-      showAnswer = false;
-      renderOutcomes();
-    });
-  });
 }
 
 function renderHierarchy(chapter) {
@@ -2762,19 +2808,31 @@ function getSelectedOutcome() {
 function openFullNotes() {
   const chapter = getSelectedChapter();
   if (!chapter) return;
-  els.fullNotesTitle.textContent = `Full Notes — ${chapter.title}`;
-  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter);
+  const outcome = chapterHasSubsections(chapter) ? getSelectedOutcome() : null;
+  const heading = outcome ? compactText(outcome.title || "") : chapter.title;
+  els.fullNotesTitle.innerHTML = `
+    <span class="full-notes-eyebrow">Full notes${outcome ? ` · ${escapeHtml(chapter.title)}` : ""}</span>
+    <span class="full-notes-heading">${escapeHtml(heading)}</span>`;
+  els.fullNotesBody.innerHTML = buildFullNotesHtml(chapter, outcome);
+  els.openLiveReading.classList.remove("hidden");
+  closeLiveReader();
   els.fullNotesScreen.classList.remove("hidden");
-  els.fullNotesScreen.scrollTop = 0;
+  els.fullNotesBody.scrollTop = 0;
   document.body.style.overflow = "hidden";
   markNotesViewed(chapter.id);
 }
 
-function buildFullNotesHtml(chapter) {
+function buildFullNotesHtml(chapter, outcome = null) {
   const source = getOriginalChapter(chapter.id);
   if (source && Array.isArray(source.learningOutcomes) && source.learningOutcomes.length) {
     // If chapter.id is an LO id (not the chapter's own id), show only that LO's notes.
-    const requestedOutcomes = source.id === chapter.id
+    // Likewise when a subsection is chosen: its "-core" id maps onto the source outcome.
+    const outcomeSourceId = String(outcome?.id || "").replace(/-core$/, "");
+    const outcomeNotes = source.learningOutcomes
+      .filter((lo) => lo.id === outcomeSourceId && ((lo.notes || []).length || (lo.keyTerms || []).length));
+    const requestedOutcomes = outcomeNotes.length
+      ? outcomeNotes
+      : source.id === chapter.id
       ? source.learningOutcomes
       : source.learningOutcomes.filter((lo) => lo.id === chapter.id);
     // Several subjects intentionally store complete, consolidated chapter notes on
@@ -2810,7 +2868,7 @@ function buildFullNotesHtml(chapter) {
       })
       .join("");
   }
-  const allPoints = chapter.learningOutcomes.flatMap((lo) => lo.keyTerms || []);
+  const allPoints = (outcome ? [outcome] : chapter.learningOutcomes).flatMap((lo) => lo.keyTerms || []);
   return `<section class="lo-block">${allPoints
     .map(
       (p) => `
@@ -2836,6 +2894,7 @@ function getOriginalChapter(chapterId) {
 }
 
 function closeFullNotes() {
+  closeLiveReader();
   els.fullNotesScreen.classList.add("hidden");
   if (_fullNotesReturnToBreakdown) {
     openExamBreakdown(_fullNotesReturnToBreakdown);
@@ -2843,6 +2902,246 @@ function closeFullNotes() {
   } else {
     document.body.style.overflow = "";
   }
+}
+
+/* ── Live reading ──────────────────────────────
+   Lyrics-style reader for the open notes: one line is lit at a time, with
+   the line before and after left visible but smaller. Words within the lit
+   line fill in at the chosen words-per-minute, then the next line slides up. */
+
+function bindLiveReader() {
+  try {
+    const saved = Number(localStorage.getItem(LIVE_READER_WPM_KEY));
+    if (saved >= 80 && saved <= 600) liveReader.wpm = saved;
+  } catch (e) {}
+  els.liveReaderWpm.value = String(liveReader.wpm);
+  renderLiveReaderWpm();
+
+  els.openLiveReading.addEventListener("click", () => {
+    if (els.liveReader.classList.contains("hidden")) openLiveReader();
+    else closeLiveReader();
+  });
+  els.liveReaderPlay.addEventListener("click", toggleLiveReaderPlay);
+  els.liveReaderPrev.addEventListener("click", () => goToLiveLine(liveReader.index - 1));
+  els.liveReaderNext.addEventListener("click", () => goToLiveLine(liveReader.index + 1));
+  els.liveReaderWpm.addEventListener("input", () => {
+    liveReader.wpm = Number(els.liveReaderWpm.value);
+    renderLiveReaderWpm();
+    try { localStorage.setItem(LIVE_READER_WPM_KEY, String(liveReader.wpm)); } catch (e) {}
+  });
+  els.liveReaderTrack.addEventListener("click", (event) => {
+    const line = event.target.closest(".lr-line");
+    if (line) goToLiveLine(Number(line.dataset.index));
+  });
+  document.addEventListener("keydown", (event) => {
+    if (els.liveReader.classList.contains("hidden")) return;
+    if (event.target === els.liveReaderWpm && event.key.startsWith("Arrow")) return;
+    if (event.key === " ") {
+      event.preventDefault();
+      toggleLiveReaderPlay();
+    } else if (event.key === "ArrowDown" || event.key === "ArrowRight") {
+      event.preventDefault();
+      goToLiveLine(liveReader.index + 1);
+    } else if (event.key === "ArrowUp" || event.key === "ArrowLeft") {
+      event.preventDefault();
+      goToLiveLine(liveReader.index - 1);
+    }
+  });
+  window.addEventListener("resize", () => {
+    if (!els.liveReader.classList.contains("hidden")) layoutLiveReader(false);
+  });
+}
+
+function renderLiveReaderWpm() {
+  els.liveReaderWpmLabel.textContent = `${liveReader.wpm} wpm`;
+}
+
+// Split one block of notes into short, lyric-length lines: sentence by
+// sentence, breaking long sentences at a clause boundary where possible.
+function splitReadingLines(text) {
+  const lines = [];
+  // Fragments like "1." or "e.g." are not sentences; carry them into what follows.
+  const sentences = [];
+  let carry = "";
+  String(text || "").split(/(?<=[.!?;])\s+(?=\S)/).forEach((part) => {
+    const joined = carry ? `${carry} ${part}` : part;
+    if (joined.split(/\s+/).length < 3) carry = joined;
+    else { sentences.push(joined); carry = ""; }
+  });
+  if (carry) sentences.push(carry);
+  sentences.forEach((sentence) => {
+    const words = sentence.split(/\s+/).filter(Boolean);
+    if (!words.length) return;
+    if (words.length <= LIVE_READER_MAX_WORDS + 3) {
+      lines.push(words);
+      return;
+    }
+    // Aim for evenly sized lines rather than a full line and a short tail.
+    const target = Math.ceil(words.length / Math.ceil(words.length / LIVE_READER_MAX_WORDS));
+    let chunk = [];
+    words.forEach((word) => {
+      chunk.push(word);
+      const atClause = /[,:–-]$/.test(word) && chunk.length >= Math.max(5, target * 0.6);
+      if (atClause || chunk.length >= target) {
+        lines.push(chunk);
+        chunk = [];
+      }
+    });
+    if (chunk.length) {
+      // Fold a stray tail of a word or three back into the line before it.
+      if (chunk.length < 4 && lines.length) lines[lines.length - 1].push(...chunk);
+      else lines.push(chunk);
+    }
+  });
+  return lines;
+}
+
+function buildLiveReaderLines() {
+  const lines = [];
+  els.fullNotesBody.querySelectorAll("h4, h5, p, li").forEach((el, sourceIndex) => {
+    const heading = el.tagName === "H4" || el.tagName === "H5";
+    const text = compactText(el.textContent);
+    if (!text) return;
+    if (heading) lines.push({ words: text.split(/\s+/), heading: true, el });
+    else splitReadingLines(text).forEach((words) => lines.push({ words, heading: false, el }));
+  });
+  return lines;
+}
+
+function openLiveReader() {
+  // Start from whatever the reader had scrolled to in the notes.
+  const bodyTop = els.fullNotesBody.getBoundingClientRect().top;
+  liveReader.lines = buildLiveReaderLines();
+  if (!liveReader.lines.length) return;
+  const firstVisible = liveReader.lines.findIndex((line) => line.el.getBoundingClientRect().bottom > bodyTop + 8);
+  liveReader.index = Math.max(0, firstVisible);
+  liveReader.pos = 0;
+
+  els.liveReaderTrack.innerHTML = liveReader.lines.map((line, idx) => `
+    <p class="lr-line ${line.heading ? "lr-heading" : ""}" data-index="${idx}">${line.words
+      .map((word) => `<span class="lr-word">${escapeHtml(word)}</span>`)
+      .join(" ")}</p>`).join("");
+
+  els.fullNotesBody.classList.add("hidden");
+  els.liveReader.classList.remove("hidden");
+  els.openLiveReading.textContent = "Back to notes";
+  els.openLiveReading.classList.add("is-active");
+  layoutLiveReader(false);
+  playLiveReader();
+}
+
+function closeLiveReader() {
+  if (!els.liveReader || els.liveReader.classList.contains("hidden")) return;
+  pauseLiveReader();
+  const line = liveReader.lines[liveReader.index];
+  els.liveReader.classList.add("hidden");
+  els.fullNotesBody.classList.remove("hidden");
+  els.openLiveReading.textContent = "Live reading";
+  els.openLiveReading.classList.remove("is-active");
+  // Drop the reader back into the notes where they left off.
+  line?.el.scrollIntoView({ block: "center" });
+}
+
+function toggleLiveReaderPlay() {
+  if (liveReader.playing) pauseLiveReader();
+  else playLiveReader();
+}
+
+function playLiveReader() {
+  if (liveReader.index >= liveReader.lines.length - 1
+    && liveReader.pos >= liveReader.lines[liveReader.index].words.length) {
+    goToLiveLine(0);
+  }
+  liveReader.playing = true;
+  liveReader.lastTs = 0;
+  els.liveReaderPlay.textContent = "Pause";
+  els.liveReaderPlay.setAttribute("aria-label", "Pause");
+  cancelAnimationFrame(liveReader.raf);
+  liveReader.raf = requestAnimationFrame(tickLiveReader);
+}
+
+function pauseLiveReader() {
+  liveReader.playing = false;
+  cancelAnimationFrame(liveReader.raf);
+  els.liveReaderPlay.textContent = "Play";
+  els.liveReaderPlay.setAttribute("aria-label", "Play");
+}
+
+function tickLiveReader(ts) {
+  if (!liveReader.playing) return;
+  const dt = liveReader.lastTs ? Math.min(ts - liveReader.lastTs, 250) : 0;
+  liveReader.lastTs = ts;
+  liveReader.pos += dt / (60000 / liveReader.wpm);
+  const words = liveReader.lines[liveReader.index].words.length;
+  if (liveReader.pos >= words) {
+    if (liveReader.index < liveReader.lines.length - 1) {
+      goToLiveLine(liveReader.index + 1);
+    } else {
+      liveReader.pos = words;
+      renderLiveReaderWords();
+      pauseLiveReader();
+      return;
+    }
+  }
+  renderLiveReaderWords();
+  liveReader.raf = requestAnimationFrame(tickLiveReader);
+}
+
+function goToLiveLine(index) {
+  if (index < 0 || index >= liveReader.lines.length) return;
+  const previous = liveReader.index;
+  liveReader.index = index;
+  liveReader.pos = 0;
+  layoutLiveReader(true, previous);
+  renderLiveReaderWords();
+}
+
+function setLiveLineClasses(index) {
+  els.liveReaderTrack.querySelectorAll(".lr-line").forEach((el, idx) => {
+    el.classList.toggle("is-current", idx === index);
+    el.classList.toggle("is-past", idx === index - 1);
+    el.classList.toggle("is-next", idx === index + 1);
+  });
+}
+
+function liveReaderOffset(index) {
+  const line = els.liveReaderTrack.children[index];
+  if (!line) return 0;
+  const stageHeight = els.liveReaderStage.clientHeight;
+  return stageHeight / 2 - (line.offsetTop + line.offsetHeight / 2);
+}
+
+// The lit line is larger than its neighbours, so the track's final offset is
+// measured with the new sizes applied, then both animate there together.
+function layoutLiveReader(animate, fromIndex = liveReader.index) {
+  const track = els.liveReaderTrack;
+  track.classList.add("lr-still");
+  setLiveLineClasses(liveReader.index);
+  const offset = liveReaderOffset(liveReader.index);
+  if (animate && fromIndex !== liveReader.index) {
+    setLiveLineClasses(fromIndex);
+    void track.offsetHeight;
+    track.classList.remove("lr-still");
+    setLiveLineClasses(liveReader.index);
+  } else {
+    void track.offsetHeight;
+  }
+  track.style.transform = `translateY(${offset}px)`;
+  if (!animate) {
+    void track.offsetHeight;
+    track.classList.remove("lr-still");
+  }
+}
+
+function renderLiveReaderWords() {
+  const lineEl = els.liveReaderTrack.children[liveReader.index];
+  if (!lineEl) return;
+  const lit = Math.ceil(liveReader.pos);
+  lineEl.querySelectorAll(".lr-word").forEach((word, idx) => word.classList.toggle("is-read", idx < lit));
+  els.liveReaderTrack.querySelectorAll(".lr-line.is-past .lr-word:not(.is-read)").forEach((w) => w.classList.add("is-read"));
+  const words = liveReader.lines[liveReader.index].words.length;
+  const done = (liveReader.index + Math.min(1, liveReader.pos / words)) / liveReader.lines.length;
+  els.liveReaderProgress.style.width = `${(done * 100).toFixed(2)}%`;
 }
 
 function buildProgressSubjectStats(user) {
@@ -3299,6 +3598,8 @@ function openSectionQuestions(subjectId, sectionIdx) {
 
   // Populate and open the full-notes screen (true full-screen overlay)
   document.getElementById('fullNotesTitle').textContent = `${section.name}: Practice questions`;
+  closeLiveReader();
+  els.openLiveReading.classList.add('hidden');
   document.getElementById('fullNotesBody').innerHTML = `<div class="exam-container exam-container--fullscreen">${questionsHtml}</div>`;
   bindExamAccordions(document.getElementById('fullNotesBody'));
   els.fullNotesScreen.classList.remove('hidden');
