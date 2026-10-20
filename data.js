@@ -326,21 +326,32 @@ const COURSE_DATA = {
       id: "bio19", number: 19, subject: "biology", title: "The Nervous System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio19-1", code: "19.1", title: "The structure and function of the nervous system, from neurons to brain regions", notes: [], keyTerms: [], questions: [] }
+      { id: "bio19-1", code: "BIO19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s1", code: "BIO19.1", syllabusRef: "2.4.4", title: "CNS and PNS", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s2", code: "BIO19.2", syllabusRef: "2.4.4", title: "The reflex action", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s3", code: "BIO19.3", syllabusRef: "2.4.6", title: "Neurons", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s4", code: "BIO19.4", syllabusRef: "2.4.7", title: "Neurotransmission", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s5", code: "BIO19.5", syllabusRef: "2.4.8", title: "Conduction across the synaptic cleft and its disruption", notes: [], keyTerms: [], questions: [] },
+      { id: "bio19-s6", code: "BIO19.6", syllabusRef: "2.4.9", title: "Dopamine and endorphins", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio20", number: 20, subject: "biology", title: "The Endocrine System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio20-1", code: "20.1", title: "How hormones are produced and used by the body, and their applications in health, sport and agriculture", notes: [], keyTerms: [], questions: [] }
+      { id: "bio20-1", code: "BIO20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio20-s1", code: "BIO20.1", syllabusRef: "2.4.10", title: "Glands, locations and hormones", notes: [], keyTerms: [], questions: [] },
+      { id: "bio20-s2", code: "BIO20.2", syllabusRef: "2.4.11", title: "Hormonal manipulation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio21", number: 21, subject: "biology", title: "HOMEOSTASIS",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio21-1", code: "21.1", title: "How organisms maintain a stable internal environment through feedback mechanisms and coordinated organ systems", notes: [], keyTerms: [], questions: [] }
+      { id: "bio21-1", code: "BIO21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s1", code: "BIO21.1", syllabusRef: "2.4.1", title: "Structures and systems for response", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s2", code: "BIO21.2", syllabusRef: "2.4.5", title: "Homeostasis as a stimulus-response model", notes: [], keyTerms: [], questions: [] },
+      { id: "bio21-s3", code: "BIO21.3", syllabusRef: "2.4.5", title: "Nervous vs hormonal coordination", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
