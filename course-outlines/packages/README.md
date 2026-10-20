@@ -54,7 +54,8 @@ Replace `<loId>` and `<subject>`; run once per subsection, a whole chapter at a 
 >   has no example there, describe it without one. Don't add examples from memory.
 > - Obey the "Traps" section.
 > - Write the practice questions in section 5 exactly as specified.
-> - Plain text only; each fact once; no filler.
+> - Plain text only; each fact once; no filler. Refer to other notes by their title, never by
+>   an id such as `geo-rivers-s2`.
 >
 > Then run `python3 scripts/build_notes.py <subject> --check` and fix every error. A warning
 > that the chapter is only partly written is fine. Edit no other file and don't commit.
