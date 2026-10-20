@@ -4,6 +4,10 @@
 
 - **How to write the notes:** follow `course-outlines/NOTES_STANDARD.md` (rules, output format,
   and a worked example). This outline says what to cover; that file says how to write it.
+- **Assumed knowledge:** the specification lists outcomes, not the basics they rest on. Notes
+  must also teach what a student needs to meet each outcome (`NOTES_STANDARD.md` rule 9), e.g.
+  enzyme active sites, named heart valves and vessels, Punnett squares, base-pairing rules,
+  guard cells. Information packages list these as "(assumed)" items.
 - **The specification:** the NCCA *Curriculum Specification for Leaving Certificate Biology*,
   "for introduction to schools in September 2025" (published August 2024). Students who started
   fifth year in September 2025 sit it for the first time in **June 2027**, so this is the
