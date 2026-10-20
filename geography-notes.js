@@ -5045,6 +5045,1431 @@
    }
   ]
  },
+ "geo-region-european-s1": {
+  "keyTerms": [
+   {
+    "definition": "A fine, wind-blown loam that covers the plateaux of the Paris Basin and is deep, fertile and easily worked.",
+    "term": "Limon"
+   },
+   {
+    "definition": "A ridge with a steep escarpment facing outwards and a gently sloping dip slope facing back towards the centre of the basin.",
+    "term": "Cuesta"
+   },
+   {
+    "definition": "The gently sloping side of a cuesta, which follows the direction in which the rock layers dip.",
+    "term": "Dip slope"
+   },
+   {
+    "definition": "Land used for growing crops rather than for pasture.",
+    "term": "Arable"
+   },
+   {
+    "definition": "A protected designation (appellation d'origine contrôlée) that limits a product's name to wine or food made in a defined area.",
+    "term": "AOC"
+   },
+   {
+    "definition": "The consolidation of fragmented farm plots into larger holdings, carried out in France after the Second World War.",
+    "term": "Remembrement"
+   },
+   {
+    "definition": "The largest city in a country, which dominates its economy, government and services.",
+    "term": "Primate city"
+   },
+   {
+    "definition": "A system of roads and railways that radiates out from one central city like the spokes of a wheel.",
+    "term": "Radial network"
+   },
+   {
+    "definition": "Large high-rise social housing estates built in the suburbs of French cities in the 1950s–70s.",
+    "term": "Grands ensembles"
+   },
+   {
+    "definition": "The French principle of separating church and state, set in law in 1905.",
+    "term": "Laïcité"
+   },
+   {
+    "definition": "A balancing metropolis: one of eight cities named in 1964 to counter the dominance of Paris.",
+    "term": "Métropole d'équilibre"
+   },
+   {
+    "definition": "A suburb around a French city, often with large social housing estates.",
+    "term": "Banlieue"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Paris Basin is a large, low sedimentary lowland in northern France, centred on Paris.",
+    "h": "Location and extent",
+    "points": [
+     "It is open to the English Channel in the north-west.",
+     "Older uplands ring the basin and mark its edge; they are not part of the lowland: the Armorican Massif (west), the Massif Central (south), the Vosges (east) and the Ardennes (north-east).",
+     "The basin covers several French administrative regions. Île-de-France, the region containing Paris, is its core.",
+     "France has 13 regions in mainland France (since 2016); Île-de-France is one of them."
+    ]
+   },
+   {
+    "b": "Core status comes from the concentration of people, wealth and functions around Paris, and from the links that radiate out from it.",
+    "h": "Why the Paris Basin is a core region",
+    "points": [
+     "Paris is the capital, so government, finance and head offices are concentrated there.",
+     "The region holds the largest concentration of population, wealth, industry and services in France.",
+     "Fertile farmland surrounds the city and supplies its food.",
+     "The national transport network is focused on the region.",
+     "The basin has a central position in the EU.",
+     "The reasons reinforce each other: the large market draws industry and services, these draw migrants, and the transport links carry goods and people in and out."
+    ]
+   },
+   {
+    "h": "Sketch-map checklist",
+    "points": [
+     "River: draw the Seine and name it; the Marne, Oise and Loire may be added as named rivers.",
+     "Urban centres: name Paris with two others from Rouen, Le Havre, Reims, Orléans, Troyes, Chartres or Amiens.",
+     "Placement: Paris, Rouen and Le Havre lie on the Seine, with Le Havre at its mouth and Rouen upstream of it. Troyes is on the Seine upstream of Paris. Orléans is on the Loire. Épernay, not Reims, is on the Marne. Chartres lies in the Beauce. Amiens is on the Somme.",
+     "Relief: shade the Beauce (lowland plain) and the Brie plateau, and mark the edging uplands on the rim, labelled as bounding the region.",
+     "Agricultural area: the Beauce for cereals, and Champagne for vines.",
+     "Industrial area: the Lower Seine between Rouen and Le Havre."
+    ]
+   },
+   {
+    "b": "The climate is transitional, between cool temperate oceanic conditions in the west and more continental conditions in the east.",
+    "h": "Climate: a transition from west to east",
+    "points": [
+     "The annual temperature range increases from west to east, so inland winters are colder and summers warmer.",
+     "Paris: average January temperature about 5°C; average July temperature about 20°C.",
+     "Paris: annual rainfall about 600–650 mm, spread fairly evenly through the year.",
+     "Champagne lies near the northern limit of commercial vine growing, so its warm summers are essential to the crop."
+    ]
+   },
+   {
+    "b": "The basin is a saucer of sedimentary rock layers, with the youngest rocks at the centre and the oldest at the rim.",
+    "h": "Relief and geology",
+    "points": [
+     "Layers of limestone, chalk, clay and sand dip gently towards Paris, which sits near the centre on the youngest rocks.",
+     "The land is mostly below about 300 m, so the relief is low and gently rolling.",
+     "On the eastern side, resistant layers form escarpments that face outwards (east), while their dip slopes fall back in towards Paris.",
+     "Clay vales lie between the escarpments.",
+     "For how cuestas form, see the notes on Landforms from sedimentary structures; here only the relief and its effect on land use are needed."
+    ]
+   },
+   {
+    "h": "Soils",
+    "points": [
+     "Limon, a fine, wind-blown loam, covers the Beauce, Brie and Picardy plateaux.",
+     "Limon is deep, fine, well-drained, fertile and easily worked, making it among the most fertile soils in Europe.",
+     "Champagne's chalk gives thin calcareous soils. The dry chalk plain east of Reims was once called “Champagne pouilleuse” (poor Champagne).",
+     "Fertilisers and modern farming turned that dry chalk plain into productive cereal land.",
+     "Heavier, wetter clay soils in the vales and in the west are suited to grass rather than crops."
+    ]
+   },
+   {
+    "b": "The Seine and its tributaries form the main drainage system, and they converge on Paris.",
+    "h": "Drainage and flooding",
+    "points": [
+     "The Seine rises on the Langres plateau in Burgundy and flows about 775 km north-west through Troyes, Paris and Rouen to the English Channel at Le Havre.",
+     "Its tributaries are the Aube, Yonne, Marne and Oise.",
+     "Gentle gradients make the rivers navigable.",
+     "The lower Seine meanders between Paris and Rouen.",
+     "The Loire crosses the south of the region and flows through Orléans.",
+     "Permeable chalk and limestone store groundwater in aquifers and give dry valleys.",
+     "The gentle gradient and low relief let floodwater spread slowly across the flat valley floor. The Great Flood of Paris (January 1910) and a major flood in June 2016 (which closed the lower galleries of the Louvre) both show this risk.",
+     "Upstream reservoirs regulate the flow; Lac du Der-Chantecoq regulates the Marne."
+    ]
+   },
+   {
+    "b": "The Paris Basin is the main arable region of France, and its physical conditions give it a head start in farming.",
+    "h": "Agriculture: physical advantages",
+    "points": [
+     "France is the EU's largest agricultural producer and its largest wheat producer.",
+     "Low, gently rolling relief allows large fields to be worked with machinery.",
+     "Limon soils are fertile and easily worked, giving high yields.",
+     "Warm summers ripen cereals and grapes, and the long growing season extends the time crops have to develop.",
+     "Dry harvest weather lets crops be gathered in good condition."
+    ]
+   },
+   {
+    "h": "Cereal farming in the Beauce",
+    "points": [
+     "The Beauce, south-west of Paris around Chartres, is known as the granary of France.",
+     "Crops: wheat, barley and maize, with sugar beet and oilseed rape grown on the plateaux.",
+     "Many cereal farms exceed 100 hectares.",
+     "Large, highly mechanised farms achieve high yields on the flat limon land."
+    ]
+   },
+   {
+    "h": "Viticulture in Champagne",
+    "points": [
+     "Vineyards lie on the chalk slopes around Reims and Épernay; Épernay is on the Marne.",
+     "The vines grow on the slopes of the escarpment, on thin chalk soils.",
+     "Only sparkling wine from this protected (AOC) area may be called Champagne.",
+     "The Champagne houses store wine in chalk cellars. Moët & Chandon is based in Épernay.",
+     "The houses add value: grapes grown on the slopes become a branded product sold under the protected name."
+    ]
+   },
+   {
+    "h": "Dairy, pastoral and market gardening",
+    "points": [
+     "Wetter clay soils and grassland support dairy farming in Normandy (west), which produces Camembert cheese.",
+     "Brie, east of Paris, is also a dairy area and gives its name to Brie cheese.",
+     "Market gardening (vegetables and flowers) is practised on the edge of Paris.",
+     "Proximity to Paris lets fresh produce reach a very large urban market quickly."
+    ]
+   },
+   {
+    "h": "Farm structure and human factors",
+    "points": [
+     "Remembrement: after the Second World War, fragmented holdings were consolidated into larger farms.",
+     "Mechanisation allows fewer workers to farm larger areas.",
+     "Farm co-operatives and agribusiness firms buy, process and market farm produce.",
+     "France receives the largest share of CAP spending of any member state, which supports French farm incomes.",
+     "The Paris market is a large outlet for farm produce within reach of the basin."
+    ]
+   },
+   {
+    "h": "Forestry and fishing",
+    "points": [
+     "Large forests grow on the poorer sandy soils near Paris, including the Forests of Fontainebleau (on sands and sandstone), Compiègne and Rambouillet.",
+     "These state forests are used for timber and recreation.",
+     "Fishing is minor in this region and no port is named for it."
+    ]
+   },
+   {
+    "h": "Energy",
+    "points": [
+     "Nuclear power supplies about two-thirds of France's electricity (recent years).",
+     "Nuclear stations sit on rivers and the coast, which supply the cooling water they need: Nogent-sur-Seine on the Seine; Dampierre and Saint-Laurent on the Loire near Orléans; Paluel and Penly on the Normandy Channel coast.",
+     "France has few local fossil fuels, so oil is imported as crude and refined on the Seine estuary.",
+     "Oil refining and petrochemicals are located at Gonfreville-l'Orcher near Le Havre."
+    ]
+   },
+   {
+    "b": "The largest market and labour force in France drew manufacturing to Paris, and firms with head offices and research staff stayed close to it.",
+    "h": "Why manufacturing concentrated around Paris",
+    "points": [
+     "Market: the Paris region is the largest market in France, so firms locate close to their customers.",
+     "Labour: it has the largest labour force in France.",
+     "Capital: the head offices of large firms and their finance are based in Paris.",
+     "Research: universities and research institutes provide the skills and ideas that industry needs."
+    ]
+   },
+   {
+    "h": "Factor: raw materials and food processing",
+    "points": [
+     "Food and drink processing uses local farm output: sugar beet and cereals from the plateaux, and grapes from the Champagne vineyards.",
+     "Processing close to the source saves the cost of moving bulky crops such as sugar beet to distant factories."
+    ]
+   },
+   {
+    "h": "Factor: transport and infrastructure",
+    "points": [
+     "Paris is the hub of road, rail, river and air transport in France.",
+     "Firms can move raw materials and finished goods by road, rail, river and air from a single location.",
+     "The Seine and the Lower Seine allow bulk goods to reach factories by water.",
+     "Good transport lowers the cost of getting inputs in and products out, so transport links reinforce the location advantage of the region."
+    ]
+   },
+   {
+    "h": "Car industry and industry leaving the inner city",
+    "points": [
+     "Renault has a plant at Flins, and PSA (now Stellantis) has a plant at Poissy; both are west of Paris.",
+     "Renault's Boulogne-Billancourt plant, on Île Seguin in the Seine, closed in 1992.",
+     "The closure is an example of industry leaving the inner city for suburban and provincial sites."
+    ]
+   },
+   {
+    "h": "Lower Seine industrial axis",
+    "points": [
+     "The Lower Seine, between Rouen and Le Havre, is an industrial area built around its ports, oil refining and petrochemicals.",
+     "Le Havre is France's largest container port.",
+     "Rouen is France's main grain-exporting port, so it links the basin's cereal surplus to overseas markets.",
+     "Since 2021 the ports of Le Havre, Rouen and Paris form one body, HAROPA."
+    ]
+   },
+   {
+    "h": "High technology at Paris-Saclay",
+    "points": [
+     "Paris-Saclay is a research and high-technology cluster on the Saclay plateau, south-west of Paris.",
+     "It combines universities, research institutes and company laboratories.",
+     "Its research base supports the high-technology firms located in the cluster."
+    ]
+   },
+   {
+    "h": "Government policy and decentralisation",
+    "points": [
+     "Decentralisation from the 1950s–60s restricted new industry in Paris and steered it to the provinces.",
+     "DATAR, the regional planning agency, was set up in 1963.",
+     "Eight métropoles d'équilibre (balancing metropolises) were named in 1964, including Lyon, Marseille and Lille, to counter the pull of Paris.",
+     "The 1965 regional plan (schéma directeur) for Paris led to five new towns: Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines.",
+     "Result: Paris lost its share of manufacturing but kept its head offices and research."
+    ]
+   },
+   {
+    "b": "Paris is the primate city of France, and its services are the basis of its economic dominance in the region.",
+    "h": "Paris as a service centre",
+    "points": [
+     "Government, finance, head offices, universities and international organisations are concentrated in Paris.",
+     "The OECD and UNESCO have their headquarters in Paris.",
+     "La Défense, west of the city, is one of Europe's largest purpose-built business districts.",
+     "Île-de-France has about 12 million people (2020s), about 18% of France's population (France about 68 million, 2024).",
+     "Île-de-France produces about 30% of France's GDP.",
+     "Concentrated services draw international business, which in turn needs more of the same services, so the centre keeps growing."
+    ]
+   },
+   {
+    "h": "Rungis: linking farm and city",
+    "points": [
+     "Rungis International Market, south of Paris, opened in 1969, replacing Les Halles in central Paris.",
+     "It is one of the world's largest wholesale fresh-food markets.",
+     "It links primary and tertiary activity: farm produce from the basin is sold wholesale there and then distributed to the city's shops and restaurants."
+    ]
+   },
+   {
+    "h": "Tourism: attractions and problems",
+    "points": [
+     "Visitors come for heritage, culture, shopping, events, theme parks, Champagne and the countryside.",
+     "The Eiffel Tower was built for the 1889 Exposition Universelle.",
+     "The Louvre is the world's most visited art museum.",
+     "Notre-Dame Cathedral was damaged by fire in April 2019 and reopened in December 2024.",
+     "The Palace of Versailles is a major heritage attraction in the region.",
+     "Disneyland Paris, at Marne-la-Vallée, opened in 1992 and is Europe's most visited theme park.",
+     "Paris hosted the 2024 Olympic and Paralympic Games.",
+     "Champagne Hillsides, Houses and Cellars became a UNESCO World Heritage Site in 2015; the Champagne houses in Reims and Épernay offer cellar tours.",
+     "Problems: congestion, seasonal pressure on sites, and wear on heritage sites from large visitor numbers."
+    ]
+   },
+   {
+    "h": "Road and rail network",
+    "points": [
+     "The road and rail network is radial (star-shaped), centred on Paris.",
+     "The Boulevard Périphérique ring road, completed in 1973, encircles the city and carries traffic around it.",
+     "The TGV's first high-speed line, Paris–Lyon, opened in 1981.",
+     "The Channel Tunnel opened in 1994; Eurostar links Paris with London.",
+     "The RER is the regional express rail network across the city region.",
+     "The Grand Paris Express is about 200 km of new automatic metro lines with 68 new stations.",
+     "Line 14 was extended north to Saint-Denis Pleyel and south to Orly airport in 2024."
+    ]
+   },
+   {
+    "h": "Air and river transport",
+    "points": [
+     "Charles de Gaulle Airport (Roissy, opened 1974) is France's busiest airport; Orly is the second Paris airport.",
+     "The Port of Paris at Gennevilliers is one of Europe's largest river ports.",
+     "Transport links let firms in the region reach markets and suppliers quickly, which sustains the concentration of head offices and services.",
+     "The same network connects the basin to the Channel ports and to the rest of Europe, so the region gains from both road and river access."
+    ]
+   },
+   {
+    "h": "Language",
+    "points": [
+     "The language of the region is French.",
+     "Standard French developed from the dialect of the Paris region, which became the standard because Paris was the centre of government.",
+     "Immigrant languages are spoken in the suburbs, reflecting post-war migration."
+    ]
+   },
+   {
+    "h": "Religion",
+    "points": [
+     "The region is traditionally Roman Catholic, but church attendance is now low.",
+     "The 1905 law separating church and state (laïcité) separates church and state.",
+     "There is a large Muslim minority, mainly of North African origin.",
+     "Secularisation has reduced the role of the church in public life."
+    ]
+   },
+   {
+    "h": "Culture: politics, sport and the arts",
+    "points": [
+     "Politics: France is a highly centralised state run from Paris.",
+     "Paris Saint-Germain won the UEFA Champions League in 2025.",
+     "Stade de France, in Saint-Denis, was built for the 1998 FIFA World Cup.",
+     "The French Open tennis is played at Roland-Garros, Paris.",
+     "The Tour de France traditionally finishes on the Champs-Élysées.",
+     "Paris is a centre of art, fashion and cuisine."
+    ]
+   },
+   {
+    "h": "Urban growth: factors for Paris",
+    "points": [
+     "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine.",
+     "Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne.",
+     "Transport: the city is the hub of a radial road and rail network and of the river port at Gennevilliers.",
+     "Administration: as capital and seat of a centralised state, Paris concentrates government, finance and head offices.",
+     "Primary activity: the rich limon plateaux around the city supplied food to a growing population.",
+     "Industry and services: the largest market and labour force attracted manufacturing and services, including the business district of La Défense.",
+     "Planning: the 1853–1870 rebuilding, the post-war estates and the new towns each shaped the city's growth (see urban development)."
+    ]
+   },
+   {
+    "h": "Urban development of Paris",
+    "points": [
+     "Haussmann rebuilt central Paris between 1853 and 1870 under Napoleon III, with wide boulevards, uniform apartment blocks, parks and sewers.",
+     "Grands ensembles, large high-rise social housing estates built in the suburbs (banlieues) in the 1950s–70s, housed a growing population; Sarcelles is an example.",
+     "Growth spread beyond the Périphérique ring road into the surrounding suburbs.",
+     "The five new towns built under the 1965 plan are listed under government policy and decentralisation.",
+     "Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 surrounding communes.",
+     "The Grand Paris Express metro network is the latest large-scale project for the city region (see transport)."
+    ]
+   },
+   {
+    "h": "Urban problems",
+    "points": [
+     "Congestion on roads into and around the city.",
+     "High housing costs, which push people out to the suburbs.",
+     "Social segregation and deprivation in the banlieues: Seine-Saint-Denis, north-east of Paris, is the poorest département in mainland France.",
+     "Riots in the banlieues began in Clichy-sous-Bois in October 2005 and spread across France.",
+     "Urban sprawl: development spreads outward into the surrounding countryside."
+    ]
+   },
+   {
+    "h": "Rural development",
+    "points": [
+     "Fewer farmers on larger holdings leave the outer basin with a declining rural population.",
+     "Rural depopulation in the outer basin forms part of the “diagonale du vide” (empty diagonal), a band of low population density from north-east to south-west France.",
+     "Commuter villages near Paris are growing as residents travel to jobs in the city.",
+     "Second homes and rural tourism bring visitors and money to villages in the Champagne and countryside areas."
+    ]
+   },
+   {
+    "h": "Population distribution",
+    "points": [
+     "Île-de-France has about 1,000 people per km² (2020s).",
+     "The City of Paris has about 2.1 million people (2020s) on about 105 km², about 20,000 people per km²; it is divided into 20 arrondissements.",
+     "Densities are much lower in rural Champagne and across the outer basin.",
+     "The dense core exists because jobs, services and transport access are concentrated in and around Paris."
+    ]
+   },
+   {
+    "h": "Population dynamics and migration",
+    "points": [
+     "Jean-François Gravier's Paris et le désert français (Paris and the French desert), 1947, argued that Paris drained people and wealth from the rest of France.",
+     "Rural-to-urban migration into Paris continued as jobs and services concentrated there.",
+     "The Paris region has a young age structure, because in-migrants are mostly young adults seeking work.",
+     "Older residents move out of the region on retirement.",
+     "After the Second World War, immigrant labour arrived from Algeria, Morocco, Tunisia and Portugal."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Relief: the Paris Basin is a low, gently rolling saucer of land, mostly below about 300 m, which allows large fields to be worked by machines. The plateaux of the Beauce, Brie and Picardy are covered with limon, a deep, fine, well-drained and fertile soil that is easily worked and gives high yields. In the Beauce, large, highly mechanised cereal farms growing wheat, barley and maize, many over 100 hectares, produce the granary of France. Vines are grown on the chalk slopes of the escarpment in Champagne, where thin calcareous soils were once poor; fertilisers and modern farming have made the dry chalk plain productive. The wetter clay vales and the west suit grass and dairy farming. Climate: Paris averages about 5°C in January and about 20°C in July, and its annual rainfall of about 600–650 mm is spread fairly evenly through the year. The annual temperature range increases eastwards, so inland winters are colder and summers warmer. Warm summers ripen cereals and grapes, the growing season is long, and dry harvest weather lets crops be gathered in good condition. Champagne lies near the northern limit of commercial vine growing, so its warm summers are essential. Relief and climate give the basin clear advantages for farming, and the fertile limon soils make the most of both.",
+    "prompt": "Account for the development of agriculture in a European region (not in Ireland) that you have studied, with reference to relief and climate.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Markets and labour: Paris is the largest market in France and has the largest labour force, so firms locate there to sell to customers and recruit workers. Manufacturing in the region includes the Renault plant at Flins and the PSA (now Stellantis) plant at Poissy, both west of Paris. Renault closed its Boulogne-Billancourt plant on Île Seguin in the Seine in 1992, an example of industry leaving the inner city for suburban and provincial sites. Paris-Saclay, south-west of Paris, is a research and high-technology cluster that draws on the region's universities. Government policy: decentralisation from the 1950s–60s restricted new industry in Paris and steered it to the provinces. DATAR, the regional planning agency, was set up in 1963. Eight métropoles d'équilibre were named in 1964 to counter Paris, and the 1965 regional plan led to five new towns around the city: Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines. The result was that Paris lost its share of manufacturing but kept its head offices and research.",
+    "prompt": "Examine two factors that have influenced the development of secondary economic activity in a European region (not in Ireland).",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine. Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne. Transport: the city is the hub of a radial road and rail network, and the Port of Paris at Gennevilliers is one of Europe's largest river ports. Administration: as the capital of a highly centralised state, Paris concentrates government, finance and head offices, and it is home to the OECD and UNESCO. Primary activity: the fertile limon plateaux around the city supplied food to a growing population, and Rungis now distributes fresh produce to it. Industry and services: the largest market and labour force attracted manufacturing and services, and La Défense became one of Europe's largest purpose-built business districts. Growth and planning: Haussmann rebuilt central Paris between 1853 and 1870 with wide boulevards, parks and sewers; post-war grands ensembles housed workers in the suburbs; the 1965 plan created five new towns; the Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 communes; and the Grand Paris Express is extending the metro network.",
+    "prompt": "Discuss the factors which influenced the development of one urban area in a European region (not in Ireland).",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-european-s2": {
+  "keyTerms": [
+   {
+    "definition": "The southern part of Italy and its islands, made up of eight regions; the name means midday.",
+    "term": "Mezzogiorno"
+   },
+   {
+    "definition": "Large estates owned by absentee landlords and worked by landless day labourers.",
+    "term": "Latifundia"
+   },
+   {
+    "definition": "Landless day labourers who worked the latifundia for wages.",
+    "term": "Braccianti"
+   },
+   {
+    "definition": "The Fund for the South (1950–1984), which financed land reclamation, irrigation, roads and later industry.",
+    "term": "Cassa per il Mezzogiorno"
+   },
+   {
+    "definition": "A large, usually state-led plant intended to spark industrial growth in the area around it.",
+    "term": "Growth pole"
+   },
+   {
+    "definition": "Large, capital-intensive state plants that created few jobs and few local spin-off firms.",
+    "term": "Cathedrals in the desert"
+   },
+   {
+    "definition": "An EU category for regions with GDP per head below 75% of the EU average.",
+    "term": "Less developed region"
+   },
+   {
+    "definition": "The single Special Economic Zone for the South, begun in January 2024, with tax credits and simplified permits.",
+    "term": "ZES Unica"
+   },
+   {
+    "definition": "A hot, dry, dusty wind from the Sahara.",
+    "term": "Sirocco"
+   },
+   {
+    "definition": "Red clay soil that forms on limestone, e.g. in Puglia.",
+    "term": "Terra rossa"
+   },
+   {
+    "definition": "Gullied badland slopes on clay, e.g. in Basilicata.",
+    "term": "Calanchi"
+   },
+   {
+    "definition": "Wide, dry, stony riverbeds in Calabria and Sicily that flood after heavy rain.",
+    "term": "Fiumare"
+   },
+   {
+    "definition": "The slow rising and falling of the ground, as at Campi Flegrei around Pozzuoli.",
+    "term": "Bradyseism"
+   },
+   {
+    "definition": "A bacterial disease of olive trees, detected in the Salento in 2013.",
+    "term": "Xylella fastidiosa"
+   },
+   {
+    "definition": "Illegal gangmaster hiring and exploitation of farm labourers, many of them migrants.",
+    "term": "Caporalato"
+   },
+   {
+    "definition": "Farm-stay tourism.",
+    "term": "Agriturismo"
+   },
+   {
+    "definition": "Illegal building, including on coasts.",
+    "term": "Abusivismo"
+   },
+   {
+    "definition": "Undeclared work in the informal economy.",
+    "term": "Lavoro nero"
+   },
+   {
+    "definition": "Albanian-speaking communities in Calabria and Sicily, settled from the 15th century.",
+    "term": "Arbëreshë"
+   },
+   {
+    "definition": "A Greek dialect spoken in the Salento and southern Calabria.",
+    "term": "Griko"
+   },
+   {
+    "definition": "Cave dwellings in Matera, whose residents were moved to new housing in the 1950s.",
+    "term": "Sassi"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Mezzogiorno is southern Italy and its islands, which together form the peripheral south of the country.",
+    "h": "Location and extent",
+    "points": [
+     "It is made up of eight regions: Abruzzo, Molise, Campania, Puglia (Apulia), Basilicata, Calabria, Sicily and Sardinia.",
+     "The name Mezzogiorno means midday, referring to the sun of the south.",
+     "It covers about 40% of Italy's area and holds about one-third of its population: about 20 million people (2020s), out of an Italian population of about 59 million (2024).",
+     "Rome and the region of Lazio lie north of the Mezzogiorno and are not part of it."
+    ]
+   },
+   {
+    "b": "Peripheral means far from the economic core. Distance, relief, history and politics combine to keep the South behind the North.",
+    "h": "Why the region is peripheral",
+    "points": [
+     "Distance: the South is far from the EU's core markets and from the industrial North of Italy, which raises the cost of moving goods.",
+     "Relief and climate: mostly mountainous or hilly land and dry summers limit farming, transport and settlement (see the physical blocks).",
+     "History: the South, formerly the Kingdom of the Two Sicilies, became part of a united Italy in 1861, and the North–South gap widened after unification; land stayed in large estates (see agriculture).",
+     "Organised crime and emigration drain investment and people from the South (see the secondary and human blocks).",
+     "The North–South divide, known as the questione meridionale: the Mezzogiorno produces only about 22% of Italy's GDP, its GDP per head is a little over half that of the Centre-North, and its unemployment is roughly two to three times the North's rate (recent years).",
+     "Contrast: the Paris Basin, studied in region s1, is a core European region; the Mezzogiorno is the peripheral counterpart."
+    ]
+   },
+   {
+    "h": "Sketch-map features",
+    "points": [
+     "Rivers: the Volturno in Campania, the longest river of the southern mainland; the Ofanto in Puglia; the Basento in Basilicata.",
+     "Urban centres: Naples, Bari, Taranto, Brindisi, Palermo, Catania and Reggio Calabria.",
+     "Relief: the Apennines, the Sila in Calabria, Mount Etna and Vesuvius.",
+     "Lowlands: the Tavoliere di Puglia around Foggia, the Campanian plain and the plain of Catania.",
+     "Agricultural and industrial areas: the Tavoliere (durum wheat) and the Bari–Brindisi–Taranto industrial triangle."
+    ]
+   },
+   {
+    "b": "The climate has hot, dry summers and mild, wet winters. Rain is concentrated in the cooler months.",
+    "h": "Climate (Mediterranean)",
+    "points": [
+     "Summers are hot and dry because the subtropical high-pressure belt moves north over the region.",
+     "Lowland summer (July) averages around 25°C or more.",
+     "Winters are mild and wet, with rain brought by Atlantic depressions; most rain falls between October and March.",
+     "Coastal winter (January) averages about 9–12°C.",
+     "Annual rainfall is under 600 mm on parts of the Puglia lowlands and Sicily, but much higher on the Apennines.",
+     "The sirocco is a hot, dry, dusty wind from the Sahara that adds to the dryness of summer.",
+     "Summer drought causes water shortage, while intense autumn and winter downpours cause flash floods.",
+     "Farmers respond with irrigation and drought-tolerant crops (see agriculture)."
+    ]
+   },
+   {
+    "b": "Mountains and hills cover most of the region, and the lowlands are small and mostly coastal.",
+    "h": "Relief",
+    "points": [
+     "The Apennines run the length of the peninsula, forming its spine.",
+     "The highest point of the Apennines is Corno Grande (Gran Sasso, Abruzzo), at 2,912 m.",
+     "The Calabrian uplands are dominated by high ground, including the Sila plateau.",
+     "The Tavoliere di Puglia, around Foggia, is the largest plain of peninsular southern Italy.",
+     "The Campanian plain around Naples and the plain of Catania, Sicily's largest plain, are the other main lowlands.",
+     "Mount Etna in Sicily, about 3,300 m, is Europe's highest active volcano.",
+     "Steep slopes limit farming and settlement to small areas and push villages onto hilltops."
+    ]
+   },
+   {
+    "b": "The full processes are in the volcanoes and earthquakes notes; this block gives only the local examples.",
+    "h": "Tectonic and volcanic activity",
+    "points": [
+     "The region lies where the African and Eurasian plates meet.",
+     "Messina and Reggio Calabria were destroyed by the earthquake and tsunami of 28 December 1908, with tens of thousands killed.",
+     "Irpinia, Campania, 23 November 1980: thousands killed.",
+     "L'Aquila, Abruzzo, 6 April 2009: magnitude 6.3.",
+     "Vesuvius buried Pompeii and Herculaneum in AD 79 and last erupted in 1944.",
+     "Etna and Stromboli are active volcanoes.",
+     "Campi Flegrei is a volcanic caldera west of Naples, where the ground rises and falls (bradyseism) around Pozzuoli."
+    ]
+   },
+   {
+    "h": "Soils",
+    "points": [
+     "Thin, stony soils cover much of the upland, where the bedrock is close to the surface.",
+     "Terra rossa is red clay soil that forms on limestone, e.g. in Puglia.",
+     "Fertile volcanic soils on Vesuvius and Etna, in Campania and Sicily, support vineyards and orchards.",
+     "Alluvial soils on the lowlands are deposited by rivers and are used for intensive farming.",
+     "Calanchi are gullied badland slopes on clay, e.g. in Basilicata.",
+     "Soil erosion is worsened by deforestation, overgrazing and the winter downpours that wash bare soil away.",
+     "Sarno, Campania, 5–6 May 1998: saturated volcanic ash slid as mudflows, killing about 160 people (see the rocks and weathering notes)."
+    ]
+   },
+   {
+    "h": "Drainage",
+    "points": [
+     "Rivers are short and steep, so they flood quickly after rain.",
+     "Winter: heavy rain turns the rivers into torrents.",
+     "Summer: many channels run dry.",
+     "Fiumare are wide, dry, stony riverbeds in Calabria and Sicily that flood after heavy rain.",
+     "Few rivers are navigable, so they are of little use for transport.",
+     "The Apulian Aqueduct (Acquedotto Pugliese), built in the early 20th century, carries water from the Sele river springs in Campania across the Apennines to Puglia."
+    ]
+   },
+   {
+    "b": "Before reform, most land was held in large estates, which kept productivity low.",
+    "h": "Traditional agriculture",
+    "points": [
+     "Latifundia are large estates owned by absentee landlords, who lived away from them.",
+     "The latifundia were worked by landless day labourers (braccianti) paid wages.",
+     "The main uses of the estates were extensive wheat growing and sheep grazing.",
+     "Small hill farms were fragmented into scattered plots, which were hard to farm efficiently.",
+     "Productivity was low on both the estates and the small hill farms."
+    ]
+   },
+   {
+    "h": "Land reform and the Cassa per il Mezzogiorno",
+    "points": [
+     "Land reform laws of 1950 expropriated parts of the large estates and gave plots to peasants.",
+     "The Cassa per il Mezzogiorno (Fund for the South) ran from 1950 to 1984.",
+     "Its work included land reclamation, drainage, irrigation dams, aqueducts and roads.",
+     "It built new settlements on reclaimed lowlands for the new smallholders (see rural development).",
+     "Malaria was eradicated from the lowlands after the Second World War, which made them safe to settle.",
+     "From the late 1950s the Cassa also funded industry (see the secondary blocks)."
+    ]
+   },
+   {
+    "h": "Modern agriculture",
+    "points": [
+     "Durum wheat is grown on the Tavoliere di Puglia around Foggia, Italy's main durum wheat area, for pasta.",
+     "Puglia is Italy's leading olive-oil region.",
+     "Sicilian blood oranges are grown on the plain of Catania near Etna.",
+     "Lemons are grown on the Amalfi coast and around Sorrento.",
+     "Irrigated market gardening on the Campanian plain includes San Marzano tomatoes grown near Vesuvius.",
+     "Puglia and Sicily are major wine producers.",
+     "Specialised Mediterranean produce is grown for markets, and agri-food firms process it."
+    ]
+   },
+   {
+    "h": "Problems facing agriculture",
+    "points": [
+     "Drought and water shortage (see climate) reduce yields where land is not irrigated.",
+     "Soil erosion removes topsoil from the hills (see soils).",
+     "Xylella fastidiosa, a bacterial disease of olive trees, was detected in the Salento (southern Puglia) in 2013 and has killed millions of olive trees.",
+     "Ageing farmers and rural depopulation leave fewer people to work the farms.",
+     "Caporalato is illegal gangmaster hiring and exploitation of farm labourers, many of them migrants.",
+     "Many farms depend on EU Common Agricultural Policy (CAP) support."
+    ]
+   },
+   {
+    "h": "Forestry",
+    "points": [
+     "Historic deforestation of the Apennines has left slopes exposed to erosion.",
+     "Reafforestation of the Sila plateau in Calabria was carried out under the Cassa per il Mezzogiorno.",
+     "Summer wildfires destroy woodland in the dry season."
+    ]
+   },
+   {
+    "h": "Fishing",
+    "points": [
+     "Mazara del Vallo, Sicily, is one of Italy's main fishing ports.",
+     "Traditional tuna trapping, the mattanza, took place in Sicily at Favignana; it has now largely ended.",
+     "Overfishing in the Mediterranean reduces catches."
+    ]
+   },
+   {
+    "h": "Energy",
+    "points": [
+     "The Val d'Agri oilfield in Basilicata is Italy's largest onshore oilfield and one of the largest onshore oilfields in western Europe.",
+     "Gas pipelines from Algeria land at Mazara del Vallo, and gas from Libya lands at Gela, both in Sicily.",
+     "The Trans Adriatic Pipeline (TAP), carrying gas from Azerbaijan, lands in Puglia and began flowing in 2020.",
+     "Puglia and Sicily are among Italy's leading regions for wind and solar power."
+    ]
+   },
+   {
+    "h": "Why industry is weak",
+    "points": [
+     "Distance from markets raises the cost of transporting goods to buyers.",
+     "Poor infrastructure: weak roads, railways and ports (see transport).",
+     "Small local market and low incomes: local demand is too small to support many firms.",
+     "Lack of capital and enterprise: few local firms have the funds or entrepreneurs to start up.",
+     "Organised crime: extortion payments, known as pizzo, deter investment.",
+     "Lack of raw materials: few are available locally for heavy industry."
+    ]
+   },
+   {
+    "b": "The Cassa used state investment to build large growth poles, plants intended to spark industrial growth around them.",
+    "h": "Growth poles and the industrial triangle",
+    "points": [
+     "The Taranto steelworks was built by the state firm Italsider in the 1960s; it became one of Europe's largest steelworks, later called Ilva and now Acciaierie d'Italia.",
+     "Petrochemical plants were built at Brindisi and at the Priolo–Augusta complex near Siracusa in Sicily, and a refinery at Gela in Sicily.",
+     "The Bari–Brindisi–Taranto triangle is the South's own industrial area, not the industrial triangle of the North.",
+     "Cathedrals in the desert is the name for large, capital-intensive state plants that created few jobs and few local spin-off firms."
+    ]
+   },
+   {
+    "h": "Car industry",
+    "points": [
+     "The Alfasud plant at Pomigliano d'Arco near Naples opened in 1972 and now builds the Fiat Panda.",
+     "Fiat's Melfi plant in Basilicata opened in the early 1990s and is now part of Stellantis.",
+     "Fiat's plant at Termini Imerese, Sicily, closed in 2011."
+    ]
+   },
+   {
+    "h": "Decline and problems in industry",
+    "points": [
+     "In 2012 a court ordered parts of the Taranto steelworks seized because of pollution linked to illness in Taranto.",
+     "Lavoro nero is undeclared work in the informal, or black, economy, outside tax and labour rules."
+    ]
+   },
+   {
+    "h": "Recent policy",
+    "points": [
+     "For EU cohesion policy 2021–27, most of the South, including Campania, Puglia, Basilicata, Calabria and Sicily, is classed as less developed regions, with GDP per head below 75% of the EU average.",
+     "A single Special Economic Zone for the South (ZES Unica) began in January 2024, offering tax credits and simplified permits.",
+     "Italy's post-Covid National Recovery and Resilience Plan reserves at least 40% of its territorially allocated funds for the South.",
+     "Aerospace is a growth sector: Leonardo builds Boeing 787 fuselage sections at Grottaglie, near Taranto.",
+     "Agri-food is also a growth sector, building on the region's specialised produce (see modern agriculture)."
+    ]
+   },
+   {
+    "b": "Explain each factor and the challenge it creates for a secondary activity in the Mezzogiorno.",
+    "h": "Factors in secondary location",
+    "points": [
+     "Labour: there is a large pool of unemployed workers, but low incomes limit local spending.",
+     "Raw materials: heavy industry depends on inputs brought in from outside, such as gas by pipeline (see energy).",
+     "Markets: the small local market and distant European markets mean firms face high transport costs.",
+     "Infrastructure: slow motorway upgrading and limited high-speed rail make transport costly and slow.",
+     "Government policy: the Cassa's growth poles and the ZES Unica attract investment, but capital-intensive plants create few jobs."
+    ]
+   },
+   {
+    "h": "Tourism: attractions",
+    "points": [
+     "Visitors come for the climate, the coast, the volcanoes of Vesuvius and Etna, the heritage sites and the food.",
+     "UNESCO sites: Pompeii and Herculaneum (1997); the Amalfi Coast (1997); the Valley of the Temples, Agrigento (1997); the trulli of Alberobello, Puglia (1996); the sassi of Matera (1993); the historic centre of Naples (1995).",
+     "Taormina, Sicily, is a coastal tourist town.",
+     "The Costa Smeralda in north-east Sardinia was developed as a luxury resort from the 1960s by the Aga Khan.",
+     "Agriturismo is farm-stay tourism, bringing visitors into the countryside."
+    ]
+   },
+   {
+    "h": "Tourism: problems",
+    "points": [
+     "Seasonality: most visitors come in the summer months, leaving tourist jobs short-term.",
+     "Coastal overdevelopment: abusivismo, illegal building including on coasts, damages the landscape.",
+     "Crime: organised crime can affect businesses and tourist areas.",
+     "Poor transport: slow road and rail links limit access to the South's attractions (see transport)."
+    ]
+   },
+   {
+    "h": "Transport",
+    "points": [
+     "The Autostrada del Sole (A1, Milan–Rome–Naples) was completed in 1964.",
+     "The A2 Salerno–Reggio Calabria motorway has been notorious for decades of slow, costly upgrading.",
+     "High-speed rail reaches Naples and Salerno; the Naples–Bari line is being upgraded.",
+     "Gioia Tauro, Calabria, is Italy's largest container transhipment port.",
+     "Ferries cross the Strait of Messina between Villa San Giovanni/Reggio Calabria and Messina.",
+     "Ferries sail from Bari and Brindisi to Greece and Albania.",
+     "A bridge across the Strait of Messina has been proposed, approved and challenged repeatedly over many years, so do not assume it is built.",
+     "Transport links open markets and bring investors and tourists, so poor links keep the region remote."
+    ]
+   },
+   {
+    "h": "Services and the public sector",
+    "points": [
+     "Public-sector employment is a large source of jobs in the South.",
+     "Informal employment is also large (see lavoro nero under decline and problems).",
+     "Private services are weaker than in the North."
+    ]
+   },
+   {
+    "b": "Population is concentrated on the coastal lowlands and in cities, and thins out in the interior.",
+    "h": "Population distribution",
+    "points": [
+     "Campania has about 400 people per km², one of Italy's most densely populated regions.",
+     "Basilicata has about 55 people per km² and only about 540,000 people (2020s).",
+     "Dense coastal lowlands and cities contrast with sparse interior uplands.",
+     "Fertile volcanic lowlands attract settlement; thin, stony soils and dry uplands do not.",
+     "Cities offer jobs in services and industry, drawing people from the interior."
+    ]
+   },
+   {
+    "h": "Emigration",
+    "points": [
+     "Large-scale emigration from the late 19th century went to the USA and Argentina.",
+     "After the Second World War, emigration went to the industrial cities of northern Italy (Turin, Milan) and to Germany, Switzerland and Belgium.",
+     "Out-migration continues, as young graduates leave the region for work elsewhere in Italy and abroad."
+    ]
+   },
+   {
+    "h": "Fertility, ageing and immigration",
+    "points": [
+     "Fertility was once high but is now very low: Italy's rate is about 1.2 children per woman (2023), among the lowest in the EU.",
+     "Sardinia's fertility rate is among the lowest in Italy.",
+     "Inland villages are ageing and depopulating, with few young residents.",
+     "€1 house schemes in depopulating villages, e.g. Sambuca di Sicilia, sell houses for €1 to attract new residents.",
+     "Lampedusa, an Italian island south of Sicily, is a main landing point for migrants crossing the Mediterranean."
+    ]
+   },
+   {
+    "h": "Language",
+    "points": [
+     "Standard Italian is the official language.",
+     "Strong regional dialects include Neapolitan and Sicilian.",
+     "Arbëreshë is spoken by Albanian-speaking communities in Calabria and Sicily, settled from the 15th century.",
+     "Griko is a Greek dialect spoken in the Salento (Puglia) and southern Calabria.",
+     "Sardinian is spoken in Sardinia.",
+     "Catalan is spoken in Alghero, Sardinia."
+    ]
+   },
+   {
+    "h": "Religion",
+    "points": [
+     "The population is mainly Roman Catholic, with strong traditional practice.",
+     "The Feast of San Gennaro, patron saint of Naples, includes the ritual of the liquefaction of his blood."
+    ]
+   },
+   {
+    "b": "Culture in the South combines folk traditions, regional identity and football.",
+    "h": "Culture, politics and sport",
+    "points": [
+     "The tarantella is a fast folk dance of southern Italy, named after Taranto.",
+     "Neapolitan song includes 'O sole mio'.",
+     "SSC Napoli won Serie A in 1987, 1990, 2023 and 2025.",
+     "The art of the Neapolitan pizza maker was added to UNESCO's intangible heritage list in 2017.",
+     "Sicily and Sardinia are autonomous regions with a special statute, giving their regional governments extra powers.",
+     "Clientelism, the exchange of votes for favours, and organised crime both influence local politics."
+    ]
+   },
+   {
+    "h": "Urban development: Naples",
+    "points": [
+     "Naples is the South's largest city, with about 900,000 people in the city and about 3 million in the metropolitan city (2020s).",
+     "Palermo has about 630,000 people (2020s).",
+     "The Spanish Quarter (Quartieri Spagnoli) is a dense, overcrowded historic district.",
+     "The Vele di Scampia are large 1960s–70s public housing blocks on the northern edge of Naples, linked with Camorra drug dealing; several have been demolished.",
+     "The Naples waste crisis of 2007–08 left rubbish piled in the streets after landfills filled.",
+     "Camorra involvement in illegal dumping and burning of waste in the Terra dei Fuochi (land of fires), between Naples and Caserta.",
+     "Rapid, unplanned growth fed by rural migration produced overcrowding and illegal building."
+    ]
+   },
+   {
+    "h": "Factors in the growth of Naples",
+    "points": [
+     "Site: the city lies on the Bay of Naples beside Vesuvius.",
+     "Port: the harbour gave access to sea trade.",
+     "Capital: Naples was the capital of the Kingdom of the Two Sicilies until 1861, a centre of government.",
+     "Fertile volcanic hinterland supports farming and markets around the city.",
+     "Rural in-migration: people moved from the countryside to the city for work and services."
+    ]
+   },
+   {
+    "h": "Rural development",
+    "points": [
+     "Hilltop villages were built for defence and to avoid the malarial coastal lowlands.",
+     "Matera's sassi (cave dwellings) were evacuated in the 1950s, and their residents moved to new housing.",
+     "Matera was European Capital of Culture in 2019.",
+     "Depopulation and abandonment of interior villages continue as young people leave."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "The region is the Mezzogiorno. Summers are hot and dry because the subtropical high-pressure belt moves north, so summer drought causes water shortage; lowland July averages are around 25°C or more. Most rain falls between October and March, brought by Atlantic depressions, and annual rainfall is under 600 mm on parts of the Puglia lowlands and Sicily. Farmers depend on irrigation: the Cassa built dams and aqueducts, and the Apulian Aqueduct carries water from the Sele springs across the Apennines to Puglia. Durum wheat is grown on the Tavoliere di Puglia around Foggia, which is suited to the dry conditions; Puglia leads Italy in olive oil; Sicilian citrus, such as blood oranges, is grown on the plain of Catania; and Puglia and Sicily are major wine producers. Irrigated market gardening on the Campanian plain includes San Marzano tomatoes grown near Vesuvius. The sirocco, a hot, dry, dusty wind from the Sahara, adds to summer dryness. Intense winter downpours erode bare hillsides, forming calanchi badlands in Basilicata, and flash floods in the fiumare. Drought, water shortage and erosion together reduce yields on unirrigated land and limit the spread of farming to the small lowlands.",
+    "prompt": "Examine the impact of climate on the development of primary economic activities in a peripheral European region that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Secondary development in the Mezzogiorno was driven by state policy rather than by local markets. From the late 1950s the Cassa per il Mezzogiorno funded industry through growth poles: large state-led plants such as the Taranto steelworks, built by Italsider in the 1960s, and petrochemical plants at Brindisi and at Priolo–Augusta near Siracusa. These are part of the Bari–Brindisi–Taranto industrial triangle. The plants were capital-intensive, so they created few jobs and few local spin-off firms, the cathedrals in the desert. Markets limited growth: the local market is small, incomes are low, and the South is distant from the EU core markets, so transport costs are high. Few local firms could supply the plants, so linkages were weak. Later car plants include the Alfasud plant at Pomigliano d'Arco near Naples, opened in 1972 and now building the Fiat Panda, and Fiat's Melfi plant in Basilicata, opened in the early 1990s. Fiat closed its Termini Imerese plant in Sicily in 2011, showing how dependent the region is on firms that can leave. EU cohesion funding classes most of the South as less developed regions, and the ZES Unica from January 2024 offers tax credits and simplified permits. Organised crime, through extortion payments, deters investment. State policy therefore created pockets of heavy industry but not self-sustaining growth.",
+    "prompt": "Account for the development of secondary economic activity in a European region (not in Ireland), with reference to government policy and markets.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Tourism in the Mezzogiorno. (ii) Advantages: the Mediterranean climate gives hot, dry summers suited to coastal holidays; the coastline includes the Costa Smeralda in north-east Sardinia, developed as a luxury resort from the 1960s; volcanoes such as Vesuvius, Etna and Campi Flegrei attract visitors; and the region has many UNESCO sites, including Pompeii and Herculaneum (1997), the Amalfi Coast (1997), the Valley of the Temples at Agrigento (1997), the trulli of Alberobello (1996), the sassi of Matera (1993) and the historic centre of Naples (1995). Food and farm-stay tourism add to the attraction, including the Neapolitan pizza maker's art, on UNESCO's list since 2017, and agriturismo. (iii) Challenge: poor transport. The A2 Salerno–Reggio Calabria motorway has been notorious for decades of slow, costly upgrading, and high-speed rail reaches only Naples and Salerno. Slow links limit access to the South's attractions, and the region's remoteness is partly a transport problem.",
+    "prompt": "(i) Name one tertiary activity in a European region (not in Ireland). (ii) Explain the advantages this region has for it. (iii) Describe one challenge it faces.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-european-s3": {
+  "keyTerms": [
+   {
+    "definition": "A system in which ministers from the main communities share government, as in the Northern Ireland Assembly.",
+    "term": "Power-sharing"
+   },
+   {
+    "definition": "The rule that Northern Ireland stays in the UK unless a majority of its people vote otherwise.",
+    "term": "Consent principle"
+   },
+   {
+    "definition": "The arrangement since 1923 allowing free movement of people between Ireland and the UK.",
+    "term": "Common Travel Area"
+   },
+   {
+    "definition": "The February 2023 revision of the Northern Ireland Protocol, which kept the land border open.",
+    "term": "Windsor Framework"
+   },
+   {
+    "definition": "A system in which power is divided between a central government and self-governing regions, as in Belgium.",
+    "term": "Federalism"
+   },
+   {
+    "definition": "The 26 self-governing regions of Switzerland, each with wide powers.",
+    "term": "Cantons"
+   },
+   {
+    "definition": "An EU decision method in which a proposal passes when enough member states, representing enough of the population, support it.",
+    "term": "Qualified majority voting"
+   },
+   {
+    "definition": "Decision-making power that member states share at EU level rather than keeping entirely national.",
+    "term": "Pooled sovereignty"
+   },
+   {
+    "definition": "The Maastricht conditions on inflation, deficit, debt, exchange rate and interest rates that a state must meet to adopt the euro.",
+    "term": "Convergence criteria"
+   },
+   {
+    "definition": "The member states that use the euro as their currency.",
+    "term": "Eurozone"
+   },
+   {
+    "definition": "The EU procedure that can suspend a member state's voting rights for a serious breach of EU values.",
+    "term": "Article 7"
+   },
+   {
+    "definition": "The admission of new member states to the EU.",
+    "term": "Enlargement"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Interaction of economic, political and cultural activities in the Republic of Ireland and Northern Ireland. Both regions exist because of the 1921 partition, and their cultural groups are not evenly matched.",
+    "h": "Two political regions on one island",
+    "points": [
+     "Northern Ireland was established in 1921 with six counties: Antrim, Armagh, Down, Fermanagh, Londonderry (Derry) and Tyrone. It is part of the United Kingdom.",
+     "The Irish Free State was established in 1922. Ireland left the Commonwealth and was declared a republic in 1949.",
+     "Population: about 5.15 million in the Republic (Census 2022) and about 1.9 million in Northern Ireland (Census 2021).",
+     "Northern Ireland: nationalists, mostly Catholic, who identify as Irish; unionists, mostly Protestant, who identify as British. Some people identify as Northern Irish.",
+     "Census 2021 religion (or religion brought up in) in Northern Ireland: Catholic about 46%; Protestant and other Christian about 43%. It was the first census in which Catholics outnumbered Protestants.",
+     "Census 2022 religion in the Republic: Catholic about 69%; no religion about 14%.",
+     "Most children in Northern Ireland attend schools of their own community, and housing is often segregated by community.",
+     "Irish and Ulster-Scots are officially recognised under the Identity and Language (Northern Ireland) Act 2022."
+    ]
+   },
+   {
+    "h": "Political interaction: the Troubles and the Good Friday Agreement",
+    "points": [
+     "The Troubles, from the late 1960s to 1998, killed over 3,500 people and left the two communities divided by violence and political deadlock.",
+     "The Good Friday (Belfast) Agreement was signed on 10 April 1998 and approved by referendum on 22 May 1998: about 71% Yes in Northern Ireland and about 94% Yes in the Republic.",
+     "The Republic changed Articles 2 and 3 of its Constitution, which had claimed Northern Ireland as part of the national territory.",
+     "Power-sharing: a Northern Ireland Assembly in which ministers from both communities share government.",
+     "The North/South Ministerial Council and other cross-border bodies link the Irish government with the Northern Ireland executive.",
+     "Consent principle: Northern Ireland remains in the UK unless a majority of its people vote otherwise. Under the Agreement, people may hold Irish or British citizenship or both.",
+     "The Agreement did not move the border. It changed how the border and the two communities relate to each other.",
+     "The Assembly has been suspended several times. After a two-year collapse it was restored in February 2024, when Michelle O'Neill became the first nationalist First Minister."
+    ]
+   },
+   {
+    "h": "Economic and cultural links across the border",
+    "points": [
+     "Conflict deterred investment and tourism; after 1998, falling violence allowed both to recover on the island as a whole.",
+     "Cross-border bodies include InterTradeIreland and Waterways Ireland. Tourism Ireland markets the whole island abroad.",
+     "A Single Electricity Market for the whole island has operated since 2007.",
+     "The Dublin–Belfast Enterprise rail service and the M1/A1 road corridor link the two main cities.",
+     "The International Fund for Ireland was set up in 1986. The EU PEACE programme began in 1995 as PEACE I; the current PEACE PLUS programme runs from 2021 to 2027.",
+     "The GAA, the Irish rugby team, the Catholic Church and the Church of Ireland are organised on an all-island basis. The Catholic and Church of Ireland archbishops of Armagh are each Primate of All Ireland.",
+     "The Irish language and Irish sport cross the border, while parades and flags remain sources of tension between communities."
+    ]
+   },
+   {
+    "b": "Brexit shows the three processes interacting at the border.",
+    "h": "Brexit: economic, political and cultural processes combined",
+    "points": [
+     "UK referendum on EU membership, 23 June 2016: about 52% Leave overall; about 56% Remain in Northern Ireland and about 62% Remain in Scotland.",
+     "The UK left the EU on 31 January 2020; the transition period ended on 31 December 2020. The 2016 referendum did not itself end membership.",
+     "The Northern Ireland Protocol kept Northern Ireland aligned with many EU single-market rules for goods, avoiding checks at the land border. The Windsor Framework (February 2023) revised it.",
+     "The Irish–Northern Irish land border is about 499 km long and became the UK–EU land border.",
+     "The Common Travel Area between Ireland and the UK has existed since 1923. Irish passport holders in Northern Ireland keep EU free movement, the right to live and work in the EU."
+    ]
+   },
+   {
+    "b": "In Belgium the language communities and the political regions do not coincide, so politics is organised around language.",
+    "h": "Belgium: language communities and political regions",
+    "points": [
+     "Belgium became independent in 1830. Its population is about 11.8 million (2024).",
+     "Flanders (about 6.8 million) is Dutch-speaking in the north. Wallonia (about 3.7 million) is French-speaking in the south. Brussels-Capital (about 1.2 million) is officially bilingual. A German-speaking community in the east has fewer than 80,000 people.",
+     "Dutch speakers are about 6 in 10 of the population and French speakers about 4 in 10.",
+     "French was long the language of government, courts and universities.",
+     "Economic reversal: Wallonia's coal and steel industries (Liège, Charleroi and the Sambre–Meuse valley) declined, while Flanders grew through the port of Antwerp, Europe's second-largest port, and modern industry.",
+     "The Catholic University of Leuven split in 1968; its French-speaking section moved to a new town, Louvain-la-Neuve, in Wallonia.",
+     "There are no nationwide parties: each party stands in one language community only.",
+     "Political consequences: Belgium went 541 days without a new government in 2010–11. The Flemish nationalist N-VA has been the largest party since 2010, and its leader Bart De Wever became Prime Minister in February 2025.",
+     "Belgium's federal solution gives its language communities and regions considerable self-government.",
+     "Brussels hosts the main institutions of the EU and the headquarters of NATO."
+    ]
+   },
+   {
+    "h": "Switzerland, Spain and Scotland: other cultural groups and political regions",
+    "points": [
+     "Switzerland has four national languages: German (about 6 in 10), French (about 2 in 10), Italian (under 1 in 10) and Romansh (under 1%).",
+     "Switzerland has 26 cantons with wide powers. Power is shared between language groups and cantons, which keeps the country stable.",
+     "Basque (Euskara) is unrelated to any other European language. The Basque Country lies in both Spain and France.",
+     "ETA declared a definitive end to violence in 2011 and dissolved in 2018.",
+     "Catalonia has its own language, Catalan. It held an independence referendum on 1 October 2017 that Spain's courts declared illegal. Spain imposed direct rule using Article 155 of its constitution.",
+     "The Basque Country and Catalonia are autonomous communities of Spain and among its wealthiest regions.",
+     "Scottish independence referendum, 18 September 2014: about 55% No.",
+     "Where cultural and political regions do not match, tension arises. Outcomes range from devolution or federalism (Belgium, Spain) and power-sharing (Northern Ireland) to violent conflict (the Troubles)."
+    ]
+   },
+   {
+    "b": "Political union is the EU's move beyond economic co-operation towards shared political institutions and decisions.",
+    "h": "Political union",
+    "points": [
+     "The Maastricht Treaty created the EU and planned the single currency (its dates are in the s4 notes).",
+     "The draft EU Constitution was rejected by French and Dutch voters in 2005.",
+     "The Lisbon Treaty created a permanent President of the European Council and a High Representative for Foreign Affairs. It extended qualified majority voting and the powers of the European Parliament.",
+     "Qualified majority voting: a decision passes when enough member states, representing enough of the EU population, support it. Unanimity requires every member state to agree.",
+     "European Parliament: 720 MEPs after the 2024 elections; Ireland elects 14.",
+     "Competing visions: a federal Europe with stronger central power, or a Europe of nation states co-operating on shared aims.",
+     "Eurosceptic parties have grown across Europe, opposing further political integration."
+    ]
+   },
+   {
+    "b": "Economic union is the EU's shared market and shared currency. Not every member state takes part in both.",
+    "h": "Economic union: the single market and the euro",
+    "points": [
+     "The single market removes barriers to trade, services, capital and labour between member states.",
+     "21 member states use the euro in 2026. Bulgaria joined on 1 January 2026, replacing the lev.",
+     "Euro countries: Austria, Belgium, Bulgaria, Croatia, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Portugal, Slovakia, Slovenia and Spain. Croatia joined in 2023.",
+     "Not in the euro: Denmark (legal opt-out); Sweden (voted No in a 2003 referendum and stays out by not joining the exchange-rate mechanism); Poland, Czechia, Hungary and Romania.",
+     "Convergence (Maastricht) criteria: low inflation; government deficit no more than 3% of GDP; government debt no more than 60% of GDP; a stable exchange rate, held for two years in ERM II; low long-term interest rates.",
+     "The European Central Bank in Frankfurt sets one interest rate for the euro area. Since November 2014 its Single Supervisory Mechanism has supervised the big banks.",
+     "Benefits for people in the eurozone: no currency exchange costs; easy price comparison; no exchange-rate risk in trade and travel; generally low interest rates and inflation.",
+     "Ireland's EU/IMF bailout of about €85 billion was agreed in November 2010 and exited in December 2013. Greece received three bailouts (2010, 2012 and 2015), ending in 2018.",
+     "NextGenerationEU, agreed in 2020, is a recovery fund of about €750 billion financed by joint EU borrowing."
+    ]
+   },
+   {
+    "b": "Sovereignty is the power to make decisions for a state. Membership pools some of it; some areas stay national.",
+    "h": "Sovereignty: pooled and retained powers",
+    "points": [
+     "Pooling sovereignty means member states share decision-making in areas such as trade and the single market.",
+     "Taxation, defence and foreign policy remain largely national, and decisions in these areas are mostly made by unanimity.",
+     "Crotty v An Taoiseach (1987): Ireland's Supreme Court ruled that significant EU treaty changes need a referendum.",
+     "Irish voters rejected the Nice Treaty (2001) and approved it in 2002. They rejected the Lisbon Treaty in June 2008 and approved it in October 2009.",
+     "Ireland's corporation tax rate is 12.5%. Under the OECD agreement, a 15% minimum rate applies to large firms (turnover over €750 million) from 2024.",
+     "Apple ruling: on 10 September 2024 the EU Court of Justice ruled that Ireland must recover €13 billion, plus interest, in unpaid tax from Apple as illegal state aid.",
+     "Ireland is militarily neutral and not in NATO. It is outside the Schengen area, linked to its Common Travel Area with the UK.",
+     "Article 7 procedures, which could suspend a member's voting rights, were opened against Poland (2017) and Hungary (2018) over rule-of-law concerns.",
+     "Brexit is an example of national sovereignty being reasserted against pooled decision-making."
+    ]
+   },
+   {
+    "h": "Social and economic challenges facing the EU",
+    "points": [
+     "Social challenges: an ageing population; migration and asylum pressures; youth unemployment; rising populism and euroscepticism; regional inequality.",
+     "Economic challenges: public debt; competitiveness; energy security; the cost of enlargement; the economic effects of Brexit.",
+     "Russia's full-scale invasion of Ukraine began on 24 February 2022. It caused an energy price shock and a large refugee movement into the EU.",
+     "The challenges of political union and sovereignty include disagreement over how far to deepen integration, and the slowness of decisions that need unanimity."
+    ]
+   },
+   {
+    "b": "Enlargement is debated for and against. The benefits of further expansion are in the s4 notes.",
+    "h": "Future enlargement",
+    "points": [
+     "Candidate countries: Ukraine and Moldova (June 2022); Bosnia and Herzegovina (December 2022); Georgia (December 2023).",
+     "Other candidates: Albania, Montenegro, North Macedonia and Serbia; Turkey (candidate since 1999, with talks frozen).",
+     "Arguments against enlargement: the cost of accession and of EU funding, slower decision-making with more members, and doubts over whether candidates are ready."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Political union: the EU has moved from economic co-operation towards shared political institutions, since the Maastricht Treaty created the EU and planned the single currency. The draft Constitution was rejected by French and Dutch voters in 2005, and the Lisbon Treaty (2009) created a permanent President of the European Council and a High Representative for Foreign Affairs. Challenges: member states disagree over how far to deepen integration, and rising eurosceptic parties oppose further integration; decisions needing unanimity are slow to reach. Economic union: the single market and the euro, with 21 euro countries in 2026 after Bulgaria joined on 1 January 2026. The convergence criteria (inflation, a 3% deficit limit, a 60% debt limit, a stable exchange rate and low interest rates) must be met first, and Denmark and Sweden remain outside. The eurozone debt crisis showed the risks: Ireland's bailout of about €85 billion (2010 to 2013) and three Greek bailouts (2010, 2012 and 2015). The EU responded with NextGenerationEU, a fund of about €750 billion financed by joint borrowing (2020). Sovereignty: membership pools decisions on trade and the single market, but taxation, defence and foreign policy stay largely national. Ireland's referendums on Nice and Lisbon, and the constitutional requirement under Crotty (1987), show that treaty changes touch sovereignty. Corporation tax and the 15% minimum rate from 2024 limit national tax choices, and the Apple ruling (2024) showed the EU can override a member's tax arrangements. Brexit reasserted national sovereignty, and the rule-of-law disputes with Poland and Hungary show how sovereignty can be contested within the EU.",
+    "prompt": "Discuss the potential challenges facing the future development of the European Union with reference to political union, economic union and sovereignty.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Political: partition in 1921 created two political regions. The Troubles from the late 1960s to 1998 killed over 3,500 people. The Good Friday Agreement (1998, approved by referendum with about 71% Yes in Northern Ireland and about 94% in the Republic) created a power-sharing Assembly, the North/South Ministerial Council and cross-border bodies, and the consent principle. The Republic changed Articles 2 and 3 of its Constitution. The Assembly was suspended several times and restored in February 2024. Brexit shows the interaction continuing: Northern Ireland voted about 56% Remain, the Northern Ireland Protocol avoided a hard land border and the Windsor Framework (2023) revised it, and the Common Travel Area still links Ireland and the UK. Economic: conflict deterred investment and tourism, and recovery followed 1998. Cross-border bodies such as InterTradeIreland and Tourism Ireland, the Single Electricity Market (since 2007), the Dublin–Belfast rail link and the M1/A1 corridor, and PEACE funding from 1995 (PEACE PLUS, 2021 to 2027) all tie the economies together. Cultural: Census 2021 shows Catholic about 46% and Protestant and other Christian about 43%, with segregated schooling and housing. Identity is Irish, British or Northern Irish, and Irish and Ulster-Scots are recognised under the 2022 Act. All-island bodies such as the GAA, the Irish rugby team and the Churches link the two parts of the island, while parades and flags remain sources of tension.",
+    "prompt": "Examine the interaction of economic, political and cultural activities in the Republic of Ireland and Northern Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Benefit 1: there are no currency exchange costs for trade and travel within the euro area. Benefit 2: prices are easy to compare across member states, and there is no exchange-rate risk in trade and travel; interest rates and inflation are generally low. Reason: some countries have not met the convergence criteria, such as the deficit and debt limits, or have a legal opt-out, as Denmark does; Sweden voted No in a 2003 referendum and stays out by not joining the exchange-rate mechanism.",
+    "prompt": "Explain two benefits of the euro for people living in the eurozone and one reason why some EU countries do not use it.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-european-s4": {
+  "keyTerms": [
+   {
+    "definition": "The areas where Irish is the community language; since 2012 defined by language use.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "Districts where 80% or more of people spoke Irish, as defined by the 1926 Commission.",
+    "term": "Fíor-Ghaeltacht"
+   },
+   {
+    "definition": "Districts with 25–79% Irish speakers, as defined by the 1926 Commission.",
+    "term": "Breac-Ghaeltacht"
+   },
+   {
+    "definition": "One of the 26 areas under the Gaeltacht Act 2012, each needing a language plan.",
+    "term": "Language Planning Area"
+   },
+   {
+    "definition": "The first Irish census to count Irish speakers, showing about 23% of the population spoke Irish.",
+    "term": "Census 1851"
+   },
+   {
+    "definition": "The admission of new member states to the EU, as in 1973, 1981, 1986, 1995, 2004, 2007 and 2013.",
+    "term": "Enlargement"
+   },
+   {
+    "definition": "The 1993 conditions a candidate must meet to join the EU: stable democracy, a working market economy and the ability to take on membership obligations.",
+    "term": "Copenhagen criteria"
+   },
+   {
+    "definition": "Dublin, Meath, Kildare and Wicklow, a city region of about 2.1 million people in Census 2022.",
+    "term": "Greater Dublin Area"
+   },
+   {
+    "definition": "A county, city or town council responsible for local government in its area.",
+    "term": "Local authority"
+   },
+   {
+    "definition": "EU funding status for the poorest regions, held by the Border, Midland and Western region for 2000–06.",
+    "term": "Objective 1"
+   },
+   {
+    "definition": "The division of a territory into separate states, as with Ireland in 1921 and India in 1947.",
+    "term": "Partition"
+   },
+   {
+    "definition": "One of the two constituent parts of Bosnia and Herzegovina under the Dayton Agreement.",
+    "term": "Entity"
+   },
+   {
+    "definition": "A neutral strip between opposing forces, such as the Green Line through Nicosia.",
+    "term": "Buffer zone"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The Gaeltacht is the area where Irish is the community language. Its extent has shrunk as speakers have declined.",
+    "h": "Irish speakers before and after 1850",
+    "points": [
+     "Census 1851, the first census to count Irish speakers: about 1.5 million Irish speakers, about 23% of the population. Irish-speaking areas then covered much of the west and south.",
+     "The Great Famine (1845–49) and emigration hit the poor, western, Irish-speaking areas hardest.",
+     "National schools, set up in 1831, taught through English.",
+     "English became the language of law, trade, politics, the Church and emigration. Parents saw English as the route to work.",
+     "Census 1891: about 680,000 Irish speakers, about 14% of the population."
+    ]
+   },
+   {
+    "h": "Revival and the first official Gaeltacht boundaries",
+    "points": [
+     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, promoted the language.",
+     "The new state's language policy made Irish compulsory in schools and required for some public jobs.",
+     "Coimisiún na Gaeltachta reported in 1926 and defined two types of Gaeltacht. Fíor-Ghaeltacht ('true' Gaeltacht): districts where 80% or more spoke Irish. Breac-Ghaeltacht ('partly' Gaeltacht): districts with 25–79% Irish speakers.",
+     "The 1926 definitions covered a large area across many western and southern counties.",
+     "The Gaeltacht Areas Order 1956 shrank the official Gaeltacht to areas where Irish was still the community language.",
+     "The Department of the Gaeltacht (Roinn na Gaeltachta) was set up in 1956. Gaeltarra Éireann, the Gaeltacht industry body, followed in 1957. Later small extensions were made by order."
+    ]
+   },
+   {
+    "h": "The Gaeltacht today",
+    "points": [
+     "Gaeltacht areas lie in seven counties: Donegal, Mayo, Galway, Kerry, Cork, Waterford and Meath.",
+     "The Meath Gaeltacht was built by planned colonies: Ráth Chairn, settled in 1935 by families moved from Connemara, and Baile Ghib, settled in 1937.",
+     "Galway (Conamara) has the largest Gaeltacht population; Donegal is second.",
+     "Census 2022: the Gaeltacht population was about 106,000, and about 20,000 Gaeltacht residents speak Irish daily outside the education system.",
+     "Nationally (Census 2022): about 1.87 million people (about 40%) said they could speak Irish; about 72,000 spoke it daily outside the education system."
+    ]
+   },
+   {
+    "h": "State and community supports for Irish",
+    "points": [
+     "Údarás na Gaeltachta, the Gaeltacht development authority, was set up in 1980 to replace Gaeltarra Éireann. The Gaoth Dobhair (Gweedore) industrial estate in Co. Donegal is an example of Gaeltacht industry.",
+     "Raidió na Gaeltachta began broadcasting in 1972. TG4 (originally Teilifís na Gaeilge) launched on 31 October 1996.",
+     "The Official Languages Act 2003 (amended 2021) gives Irish official status.",
+     "Irish became an official EU language in 2007 and gained full working-language status on 1 January 2022.",
+     "The 20-Year Strategy for the Irish Language covers 2010 to 2030.",
+     "Gaeltacht summer colleges give young people intensive immersion in Irish."
+    ]
+   },
+   {
+    "h": "Gaeltacht Act 2012: boundaries defined by language",
+    "points": [
+     "The Gaeltacht Act 2012 defined the Gaeltacht by language use rather than by a fixed map.",
+     "Gaeltacht Language Planning Areas: 26, each needing a language plan.",
+     "Gaeltacht Service Towns, and Irish Language Networks outside the Gaeltacht, extend Irish use beyond the core areas."
+    ]
+   },
+   {
+    "h": "Continuing decline and its pressures",
+    "points": [
+     "The Comprehensive Linguistic Study of the Use of Irish in the Gaeltacht (2007) found that Irish is viable as a community language only where at least 67% of people speak it daily.",
+     "Its 2015 update warned that Irish could cease to be the community language in most Gaeltacht districts within about ten years.",
+     "Pressures: in-migration of English speakers; suburban growth, such as Galway city's spread west; tourism; emigration of young people; English-language media."
+    ]
+   },
+   {
+    "h": "Strategies to address decline",
+    "points": [
+     "Housing with language conditions, so that Irish speakers can afford to stay in Gaeltacht areas.",
+     "Jobs through Údarás na Gaeltachta and Gaeltacht industry.",
+     "Irish-medium schooling and preschools.",
+     "Language plans in each Language Planning Area.",
+     "Family supports for Irish-speaking households, and Irish-language media such as TG4 and Raidió na Gaeltachta."
+    ]
+   },
+   {
+    "b": "Belgium is a brief comparison: a language boundary fixed in law. Its present-day relations are in the s3 notes.",
+    "h": "Belgium: a language border made official",
+    "points": [
+     "The language border between Dutch- and French-speaking areas was fixed by laws of 1962 and 1963.",
+     "The first state reform came in 1970. Belgium became a federal state in 1993, with Flanders, Wallonia and Brussels-Capital as its regions."
+    ]
+   },
+   {
+    "b": "Dublin's growth has spread from the city into the surrounding counties.",
+    "h": "Dublin's suburban growth and the Greater Dublin Area",
+    "points": [
+     "Suburban expansion from the 1950s and 1960s led to the Advisory Regional Plan for Dublin (Myles Wright, 1967), which proposed new towns west of the city: Tallaght, Clondalkin, Lucan and Blanchardstown.",
+     "Ballymun: seven 15-storey tower blocks built 1966–69 and demolished between 2004 and 2015 under a regeneration plan.",
+     "Census 2022: County Dublin had about 1.46 million people.",
+     "The Greater Dublin Area (Dublin, Meath, Kildare and Wicklow) had about 2.1 million people in Census 2022, about 40% of the State's population.",
+     "Commuter towns in the surrounding counties include Navan, Drogheda, Naas and Newbridge."
+    ]
+   },
+   {
+    "h": "Dublin council structures and regional authorities",
+    "points": [
+     "Rathmines and Pembroke townships were added to Dublin city in 1930.",
+     "Local Government (Dublin) Act 1993: from 1 January 1994, Dublin County Council was replaced by Fingal, South Dublin and Dún Laoghaire–Rathdown County Councils. The county had grown too large to govern as one unit, and local government needed to be closer to the people.",
+     "Dublin Corporation was renamed Dublin City Council in 2002 under the Local Government Act 2001.",
+     "Census 2022 populations of the four Dublin local authorities: Dublin City about 590,000; Fingal about 330,000; South Dublin about 300,000; Dún Laoghaire–Rathdown about 235,000.",
+     "The Dublin Regional Authority was set up in 1994.",
+     "The Local Government Reform Act 2014 replaced the regional authorities, including the Dublin Regional Authority, with three regional assemblies from 2015: Northern and Western; Eastern and Midland; Southern."
+    ]
+   },
+   {
+    "h": "Problems of an expanding city region and planning responses",
+    "points": [
+     "Problems: urban sprawl, long commutes, congestion, housing costs, one-off housing and dormitory growth.",
+     "The National Planning Framework (Project Ireland 2040), published in 2018, aims for half of future population growth in the five cities (Dublin, Cork, Limerick, Galway and Waterford) and to limit sprawl.",
+     "Transport: the M50 orbital motorway was built in stages from 1990, the Luas light rail opened in 2004, and DART serves the suburbs by rail.",
+     "Regeneration: the IFSC opened in the Docklands in 1987; the Docklands and Ballymun are regeneration areas.",
+     "The Citizens' Assembly reported in 2023, recommending a directly elected mayor for Dublin.",
+     "Limerick elected Ireland's first directly elected mayor in June 2024, after a plebiscite in 2019."
+    ]
+   },
+   {
+    "h": "Other Irish boundary changes and economic regions",
+    "points": [
+     "Cork city boundary extended on 31 May 2019, taking in suburbs such as Ballincollig, Glanmire and Blarney from the county.",
+     "Limerick City and County Council and Waterford City and County Council were formed by merger in 2014.",
+     "From 1999/2000 Ireland was divided for EU purposes into two NUTS 2 regions: the Border, Midland and Western (BMW) region, and the Southern and Eastern region.",
+     "The BMW region kept Objective 1 (poorest-region) funding status for 2000–06.",
+     "The economic regions were drawn for EU funding, so their boundaries follow economic need rather than language or identity."
+    ]
+   },
+   {
+    "h": "Origins of European integration",
+    "points": [
+     "Reasons: peace after two world wars; rebuilding after the war; coal and steel placed under shared control; economic growth; the Cold War.",
+     "Schuman Declaration, 9 May 1950 (now Europe Day), proposed pooling coal and steel production.",
+     "The Treaty of Paris (1951) set up the European Coal and Steel Community (ECSC).",
+     "The Treaty of Rome (1957, in force 1958) set up the European Economic Community (EEC) and Euratom.",
+     "The six founders ('the Six') were Belgium, France, West Germany, Italy, Luxembourg and the Netherlands."
+    ]
+   },
+   {
+    "b": "Dates only. The issues raised by each step are in the s3 notes.",
+    "h": "Deepening: the timeline",
+    "points": [
+     "Single European Act: 1986, in force 1987.",
+     "Single market: from 1 January 1993.",
+     "Maastricht Treaty: signed 7 February 1992; in force 1 November 1993, creating the European Union.",
+     "Euro: launched 1 January 1999 for banks and electronic payments; notes and coins from 1 January 2002.",
+     "Lisbon Treaty: in force 1 December 2009."
+    ]
+   },
+   {
+    "h": "Widening: enlargement by date",
+    "points": [
+     "1973: Ireland, the UK and Denmark. 1981: Greece. 1986: Spain and Portugal.",
+     "1990: East Germany joined through reunification with West Germany.",
+     "1995: Austria, Finland and Sweden.",
+     "2004: ten countries joined: Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia and Slovenia.",
+     "2007: Bulgaria and Romania. 2013: Croatia, the most recent member.",
+     "The UK left on 31 January 2020, leaving 27 members with about 450 million people (2024)."
+    ]
+   },
+   {
+    "h": "Eastern European expansion",
+    "points": [
+     "The Berlin Wall fell on 9 November 1989, opening the way for former communist states to seek EU membership.",
+     "Copenhagen criteria (1993): stable democracy, rule of law, human rights and protection of minorities; a working market economy able to cope with competition; and the ability to take on the obligations of membership.",
+     "Most of the 2004 entrants, and both 2007 entrants, were former communist states.",
+     "Effects on newer members: economic growth, EU funds and emigration.",
+     "Effects on older members: competition for jobs and investment, and migration from the newer members.",
+     "Croatia joined the Schengen area in 2023. Bulgaria and Romania joined it fully on 1 January 2025."
+    ]
+   },
+   {
+    "h": "Impact of enlargement on Ireland",
+    "points": [
+     "In 2004 Ireland, the UK and Sweden were the only existing members to give the new members' citizens immediate access to their labour markets.",
+     "Polish was the most common language other than English and Irish spoken at home in Census 2016 and Census 2022.",
+     "Advantages: a larger market; a labour supply for the Celtic Tiger economy; cultural diversity; export opportunities.",
+     "Disadvantages: competition for foreign direct investment from lower-cost states; less EU regional funding for Ireland; pressure on wages and services.",
+     "Example of investment competition: Dell announced in January 2009 that it would move its manufacturing from Limerick to Łódź, Poland, with the loss of about 1,900 jobs."
+    ]
+   },
+   {
+    "b": "The current candidate countries are named in the s3 notes.",
+    "h": "Future expansion: benefits to the EU and candidates",
+    "points": [
+     "Benefits of further expansion for the EU: a larger single market with more consumers, and greater stability on its borders.",
+     "Benefits for candidates: access to the single market and to EU funding, and reforms to meet the Copenhagen criteria."
+    ]
+   },
+   {
+    "b": "Partition of Ireland redrew a political boundary across a single island. Its present-day effects, including the Good Friday Agreement and Brexit, are in the s3 notes.",
+    "h": "Partition of Ireland",
+    "points": [
+     "The Government of Ireland Act 1920 partitioned the island. Northern Ireland was established in 1921 with six of Ulster's nine counties.",
+     "Cavan, Donegal and Monaghan went to the Irish Free State.",
+     "The Anglo-Irish Treaty was signed in December 1921.",
+     "Boundary Commission (1925): its report was not published, and the border was left unchanged.",
+     "The border created a nationalist minority in the north and a small Protestant minority in the south.",
+     "Impact: nationalists in Northern Ireland faced discrimination, which fuelled the civil rights movement from 1968 and then the Troubles.",
+     "Communities, parishes and farms were divided by the border."
+    ]
+   },
+   {
+    "h": "Break-up of Yugoslavia",
+    "points": [
+     "Yugoslavia was a multi-ethnic federal state. Its new borders followed the old internal republic lines, leaving Serb, Croat and Bosniak minorities on the 'wrong' side of them.",
+     "Slovenia and Croatia declared independence in 1991; Bosnia and Herzegovina followed in 1992.",
+     "War and ethnic cleansing followed in Bosnia and Herzegovina.",
+     "Srebrenica, July 1995: about 8,000 Bosniak men and boys were killed by Bosnian Serb forces.",
+     "The Dayton Agreement (1995) divided Bosnia and Herzegovina into two entities: the Federation of Bosnia and Herzegovina and Republika Srpska.",
+     "Montenegro became independent in 2006. Kosovo declared independence on 17 February 2008; Serbia does not recognise it."
+    ]
+   },
+   {
+    "h": "Post-war Poland and Germany",
+    "points": [
+     "In 1945 Poland's western border moved to the Oder–Neisse line. The USSR took Poland's eastern lands.",
+     "Millions of Germans were expelled westwards, and Poles were resettled from the east.",
+     "The Berlin Wall was built in 1961, dividing Germany and Berlin.",
+     "Germany was reunified on 3 October 1990."
+    ]
+   },
+   {
+    "h": "Break-up of the USSR and Czechoslovakia",
+    "points": [
+     "The USSR broke up in 1991 into 15 independent states.",
+     "Ethnic Russians became minorities in newly independent states. In Estonia and Latvia they make up roughly a fifth to a quarter of the population.",
+     "Czechoslovakia split peacefully into the Czech Republic and Slovakia on 1 January 1993, the 'Velvet Divorce'."
+    ]
+   },
+   {
+    "h": "Cyprus: a divided island in the EU",
+    "points": [
+     "The Turkish invasion of July 1974 divided Cyprus between Greek Cypriots in the south and Turkish Cypriots in the north.",
+     "The UN buffer zone, the Green Line, runs through Nicosia.",
+     "The 'Turkish Republic of Northern Cyprus' is recognised only by Turkey.",
+     "2004 Annan Plan referendum: about 65% of Turkish Cypriots voted Yes, and about 76% of Greek Cypriots voted No.",
+     "Cyprus joined the EU in 2004, but EU law is suspended in the north."
+    ]
+   },
+   {
+    "b": "A non-European example of a political boundary redrawn along religious lines.",
+    "h": "Partition of India",
+    "points": [
+     "Partition of India, August 1947: India and Pakistan (including East Pakistan, now Bangladesh) were created along religious lines.",
+     "Around 15 million people were displaced, and hundreds of thousands were killed in communal violence."
+    ]
+   },
+   {
+    "h": "General conclusions on boundaries and cultural groups",
+    "points": [
+     "Boundaries drawn across cultural groups create minorities, displacement and conflict.",
+     "Boundaries drawn around cultural groups, as in Belgium, can reduce conflict but can harden division.",
+     "Shared institutions, such as power-sharing and EU membership, can soften the effect of a border."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Partition of Ireland: the Government of Ireland Act (1920) and Northern Ireland's creation in 1921 with six of Ulster's nine counties left a nationalist minority in the north and a small Protestant minority in the south. The Boundary Commission (1925) left the border unchanged. Nationalists faced discrimination, which fuelled the civil rights movement from 1968 and then the Troubles. Communities, parishes and farms were divided. Break-up of Yugoslavia: a multi-ethnic federal state whose new borders followed its internal republic lines, leaving Serb, Croat and Bosniak minorities on the wrong side. Slovenia and Croatia declared independence in 1991 and Bosnia and Herzegovina in 1992. War and ethnic cleansing followed, including the killing of about 8,000 Bosniak men and boys at Srebrenica in July 1995. The Dayton Agreement (1995) divided Bosnia into two entities. Montenegro became independent in 2006 and Kosovo in 2008. Conclusion: boundaries drawn across cultural groups create minorities, displacement and conflict; boundaries drawn around groups, as in Belgium, can reduce conflict but harden division; shared institutions can soften a border's effect.",
+    "prompt": "Changes in political boundaries can impact on cultural groups. Examine this statement with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Decline after 1850: the Great Famine (1845–49) and emigration hit the poor western Irish-speaking areas hardest; national schools taught through English from 1831; English became the language of law, trade and emigration. Census 1851 counted about 1.5 million Irish speakers (about 23%); Census 1891 about 680,000 (about 14%). Revival: the Gaelic League (1893). Official boundaries: the 1926 Commission defined Fíor-Ghaeltacht (80% or more speakers) and Breac-Ghaeltacht (25–79%), covering a large area across many western and southern counties. The Gaeltacht Areas Order 1956 shrank the official Gaeltacht to areas where Irish was still the community language, and the Department of the Gaeltacht was set up that year. Today the Gaeltacht lies in seven counties, with planned Meath colonies settled in 1935 and 1937; Census 2022 recorded about 106,000 Gaeltacht residents, of whom about 20,000 speak Irish daily outside education. The Gaeltacht Act 2012 replaced map-based areas with 26 Language Planning Areas, Gaeltacht Service Towns and Irish Language Networks, so boundaries now depend on language use. The 2007 study found Irish viable as a community language only where at least 67% speak it daily, and its 2015 update warned of decline within about ten years. Pressures include in-migration, suburban growth, tourism, emigration of young people and English-language media. Strategies include language housing conditions, jobs through Údarás na Gaeltachta, Irish-medium schooling and language plans.",
+    "prompt": "Examine how the boundaries and extent of the Gaeltacht have changed since 1850.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Any two of: Greece (1981), Spain and Portugal (1986), Austria, Finland and Sweden (1995), Poland, Hungary and the other 2004 entrants, Bulgaria and Romania (2007), Croatia (2013). (ii) Advantages: a larger market for Irish exports and more export opportunities; a labour supply that helped sustain the Celtic Tiger economy; cultural diversity from new members' citizens, such as the Polish community, which is the largest after English and Irish at home (Census 2016 and 2022). Ireland, the UK and Sweden gave the 2004 entrants immediate access to their labour markets. (iii) Disadvantages: competition for foreign direct investment from lower-cost states, as when Dell moved its manufacturing from Limerick to Łódź, Poland, in 2009 with the loss of about 1,900 jobs; less EU regional funding for Ireland; pressure on wages and services as workers arrive from the newer members.",
+    "prompt": "(i) Name two countries that have joined the EU since Ireland joined in 1973. (ii) Explain the advantages of EU expansion for Ireland. (iii) Explain the disadvantages.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-region-ireland-s1": {
   "keyTerms": [
    {
