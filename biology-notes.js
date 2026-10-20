@@ -2,7 +2,1414 @@
 // Attaches authored subsection notes, key terms and practice questions to COURSE_DATA.
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
-  var NOTES = {};
+  var NOTES = {
+ "bio19-s1": {
+  "keyTerms": [
+   {
+    "definition": "The brain and spinal cord.",
+    "term": "Central nervous system (CNS)"
+   },
+   {
+    "definition": "All the nerves outside the brain and spinal cord.",
+    "term": "Peripheral nervous system (PNS)"
+   },
+   {
+    "definition": "A swelling on the dorsal root, just outside the spinal cord, that contains the cell bodies of sensory neurons.",
+    "term": "Dorsal root ganglion"
+   },
+   {
+    "definition": "Tissue made of cell bodies and unmyelinated interneurons, lying inside the spinal cord.",
+    "term": "Grey matter"
+   },
+   {
+    "definition": "Tissue made of myelinated axons, white because myelin is fatty.",
+    "term": "White matter"
+   },
+   {
+    "definition": "The three membranes surrounding the brain and spinal cord.",
+    "term": "Meninges"
+   },
+   {
+    "definition": "Fluid that cushions the CNS against shock and supplies it with nutrients.",
+    "term": "Cerebrospinal fluid"
+   },
+   {
+    "definition": "The band of nerve fibres joining the left and right cerebral hemispheres.",
+    "term": "Corpus callosum"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The nervous system detects stimuli and coordinates responses by carrying nerve impulses.",
+    "h": "The two divisions of the nervous system",
+    "points": [
+     "The central nervous system (CNS) is the brain and spinal cord.",
+     "The peripheral nervous system (PNS) is all the nerves outside the CNS.",
+     "The CNS receives information, processes it and sends out instructions.",
+     "The PNS carries impulses between the CNS and the rest of the body.",
+     "A neuron is a nerve cell; a nerve is a bundle of many neuron fibres wrapped in connective tissue.",
+     "A nerve impulse is an electrochemical signal travelling along a neuron."
+    ]
+   },
+   {
+    "h": "Fibres and cell bodies in the PNS",
+    "points": [
+     "Sensory neurons carry impulses from receptors to the CNS.",
+     "Motor neurons carry impulses from the CNS to effectors, which are muscles and glands.",
+     "Nerve fibres of the PNS run through the body inside nerves.",
+     "Humans have 31 pairs of spinal nerves, which leave the spinal cord between the vertebrae.",
+     "Each spinal nerve joins the cord by two roots.",
+     "The dorsal (back) root carries sensory fibres into the spinal cord.",
+     "The ventral (front) root carries motor fibres out of the spinal cord.",
+     "Sensory neuron cell bodies lie in the dorsal root ganglion, a swelling on the dorsal root just outside the spinal cord.",
+     "Motor neuron cell bodies lie in the grey matter of the CNS.",
+     "Interneurons lie entirely within the CNS."
+    ]
+   },
+   {
+    "b": "The spinal cord runs from the base of the brain down the back, inside the vertebral column, which protects it.",
+    "h": "Structure and functions of the spinal cord",
+    "points": [
+     "In transverse section, a central canal lies at the centre of the cord.",
+     "Around the canal is an H- or butterfly-shaped core of grey matter.",
+     "White matter surrounds the grey matter.",
+     "Grey matter is made of cell bodies and unmyelinated interneurons.",
+     "White matter is made of myelinated axons; it is white because myelin is fatty.",
+     "In the brain the arrangement is reversed: the cerebral cortex is grey matter on the outside, with white matter beneath.",
+     "The spinal cord relays impulses between the body and the brain.",
+     "It carries out spinal reflexes, such as the withdrawal reflex described in The reflex action.",
+     "Diagram: transverse section of the spinal cord labelling central canal, grey matter, white matter, dorsal root, dorsal root ganglion, ventral root and spinal nerve."
+    ]
+   },
+   {
+    "b": "The CNS is protected by bone, membranes and fluid.",
+    "h": "Protecting the CNS",
+    "points": [
+     "The brain is protected by the skull (cranium).",
+     "The spinal cord is protected by the vertebrae.",
+     "Three membranes, the meninges, surround the brain and spinal cord.",
+     "Cerebrospinal fluid lies between the inner meninges and fills the brain's cavities and the central canal.",
+     "Cerebrospinal fluid cushions the CNS against shock and supplies it with nutrients.",
+     "Meningitis is inflammation of the meninges, usually caused by bacterial or viral infection."
+    ]
+   },
+   {
+    "h": "Cerebrum",
+    "points": [
+     "The cerebrum is the largest part of the brain, divided into left and right cerebral hemispheres joined by the corpus callosum.",
+     "The cerebral cortex, its outer layer, is grey matter deeply folded to increase its surface area, and so the number of neurons.",
+     "Each cerebral hemisphere controls the opposite side of the body.",
+     "The cerebrum controls voluntary movement and interprets the senses.",
+     "It also governs memory, thought, language, intelligence and personality."
+    ]
+   },
+   {
+    "h": "Cerebellum",
+    "points": [
+     "The cerebellum lies at the back of the brain, below the cerebrum, and also has a folded surface.",
+     "It coordinates muscular movement and controls balance and posture."
+    ]
+   },
+   {
+    "h": "Medulla oblongata",
+    "points": [
+     "The medulla oblongata lies at the base of the brain, where it joins the spinal cord.",
+     "It controls involuntary actions, including breathing rate, heart rate and blood pressure.",
+     "It controls reflexes such as swallowing, coughing and sneezing."
+    ]
+   },
+   {
+    "h": "Hypothalamus",
+    "points": [
+     "The hypothalamus lies below the cerebrum and above the pituitary gland, to which it is connected.",
+     "It controls homeostasis: body temperature, water balance, hunger and thirst. Feedback loops are covered in Homeostasis.",
+     "It links the nervous and hormonal systems by controlling the pituitary gland. The hormones of the pituitary are covered in The Endocrine System."
+    ]
+   },
+   {
+    "h": "Drawing the brain",
+    "points": [
+     "Diagram: vertical section of the brain labelling cerebrum, cerebral cortex, corpus callosum, cerebellum, medulla oblongata, hypothalamus and pituitary gland, with the spinal cord continuing below."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "The central nervous system is the brain and spinal cord; it receives information, processes it and sends out instructions. The peripheral nervous system is all the nerves outside the CNS; it carries impulses between the CNS and the rest of the body. Sensory neuron cell bodies lie in the dorsal root ganglion, a swelling on the dorsal root just outside the spinal cord. Motor neuron cell bodies lie in the grey matter of the CNS.",
+    "prompt": "Distinguish between the central nervous system and the peripheral nervous system, and state where the cell bodies of sensory neurons and motor neurons are found.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(i) Cerebrum: the largest part of the brain, divided into two hemispheres joined by the corpus callosum. Its outer cerebral cortex is deeply folded grey matter, which increases surface area and so the number of neurons. It controls voluntary movement, interprets the senses, and governs memory, thought, language, intelligence and personality. (ii) Cerebellum: lies at the back of the brain below the cerebrum and has a folded surface; it coordinates muscular movement and controls balance and posture. (iii) Medulla oblongata: lies at the base of the brain where it joins the spinal cord; it controls involuntary actions such as breathing rate, heart rate and blood pressure, and reflexes such as swallowing, coughing and sneezing.",
+    "prompt": "Relate the structure of each of the following to its function: (i) the cerebrum, (ii) the cerebellum, (iii) the medulla oblongata.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A central canal, containing cerebrospinal fluid, lies at the centre. Surrounding it is an H- or butterfly-shaped core of grey matter, made of cell bodies and unmyelinated interneurons, and white matter surrounds the grey matter. On the back (dorsal) side the dorsal root and its dorsal root ganglion join the cord; on the front (ventral) side the ventral root leaves it. White matter is white because it is made of myelinated axons, and myelin is fatty.",
+    "prompt": "Describe the structure of the spinal cord as seen in a transverse section and explain why white matter is white.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio19-s2": {
+  "keyTerms": [
+   {
+    "definition": "A change in the internal or external environment that can be detected.",
+    "term": "Stimulus"
+   },
+   {
+    "definition": "A cell or structure that detects a stimulus and starts an impulse.",
+    "term": "Receptor"
+   },
+   {
+    "definition": "A muscle or gland that carries out a response.",
+    "term": "Effector"
+   },
+   {
+    "definition": "A rapid, automatic, involuntary response to a stimulus, happening without conscious thought.",
+    "term": "Reflex action"
+   },
+   {
+    "definition": "The pathway an impulse follows in a reflex action: receptor, sensory neuron, interneuron, motor neuron, effector.",
+    "term": "Reflex arc"
+   },
+   {
+    "definition": "A reflex that pulls a body part away from a painful or harmful stimulus, such as a hand from a hot object.",
+    "term": "Withdrawal reflex"
+   },
+   {
+    "definition": "A reflex in which tapping the tendon below the kneecap kicks the leg; the sensory neuron synapses directly with the motor neuron.",
+    "term": "Knee-jerk reflex"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A reflex begins with a stimulus that a receptor detects and ends with a response from an effector.",
+    "h": "Stimulus, receptor and effector",
+    "points": [
+     "A stimulus is a change in the internal or external environment that can be detected.",
+     "A receptor detects the stimulus.",
+     "An effector, a muscle or a gland, carries out the response."
+    ]
+   },
+   {
+    "h": "What a reflex action is",
+    "points": [
+     "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought.",
+     "Reflexes protect the body from harm, e.g. pulling a hand from a hot object or blinking when something approaches the eye.",
+     "Reflexes also maintain posture and normal body functions; coughing and sneezing clear the airways.",
+     "Reflexes are inborn, so they are not learned.",
+     "The same stimulus always produces the same response."
+    ]
+   },
+   {
+    "b": "The reflex arc is the pathway an impulse follows in a reflex action.",
+    "h": "The reflex arc",
+    "points": [
+     "The pathway runs receptor, sensory neuron, interneuron in the grey matter of the spinal cord, motor neuron, effector.",
+     "The sensory neuron enters the spinal cord through the dorsal root; its cell body lies in the dorsal root ganglion.",
+     "The motor neuron leaves the spinal cord through the ventral root.",
+     "Diagram: reflex arc drawn through a transverse section of the spinal cord, labelling receptor in the skin, sensory neuron, dorsal root ganglion, interneuron, grey matter, white matter, motor neuron, ventral root and effector muscle, with arrows showing the direction of the impulse."
+    ]
+   },
+   {
+    "b": "Example: touching a hot object.",
+    "h": "The withdrawal reflex, step by step",
+    "points": [
+     "1. Pain and heat receptors in the skin of the finger are stimulated.",
+     "2. An impulse travels along a sensory neuron to the spinal cord.",
+     "3. It passes across a synapse to an interneuron in the grey matter.",
+     "4. It passes across a synapse to a motor neuron.",
+     "5. The motor neuron carries the impulse to the biceps, the effector.",
+     "6. The biceps contracts and the hand is pulled away from the object."
+    ]
+   },
+   {
+    "h": "Speed and the brain",
+    "points": [
+     "The impulse takes a short route through the spinal cord, crossing few synapses.",
+     "It does not wait for a decision by the brain, which is why reflexes are rapid.",
+     "Interneurons also carry impulses up the spinal cord to the brain, so pain is felt just after the hand has moved.",
+     "The brain can sometimes override a reflex, e.g. when a person holds on to a hot plate to avoid dropping it."
+    ]
+   },
+   {
+    "h": "The knee-jerk reflex",
+    "points": [
+     "Tapping the tendon below the kneecap stretches the thigh muscle.",
+     "The sensory neuron synapses directly with the motor neuron in the spinal cord, with no interneuron.",
+     "The leg kicks; doctors use this reflex to test the nervous system."
+    ]
+   },
+   {
+    "h": "Reflexes controlled by the brain",
+    "points": [
+     "Some reflexes are controlled by the brain rather than the spinal cord.",
+     "Examples are the pupil narrowing in bright light and blinking."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "A pain or heat receptor in the skin of the finger is stimulated. The impulse travels along a sensory neuron, which enters the spinal cord through the dorsal root, and passes across a synapse to an interneuron in the grey matter. It crosses a second synapse to a motor neuron, which leaves the spinal cord through the ventral root and carries the impulse to the effector, the biceps muscle, which contracts and pulls the hand away. Reflex actions are rapid because the route through the spinal cord is short, crosses few synapses and does not wait for a decision by the brain.",
+    "prompt": "Describe the pathway of a nerve impulse in a reflex action, naming each structure involved, and explain why reflex actions are rapid.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought. Example 1: the withdrawal reflex pulls the hand away from a hot object, protecting the body from harm. Example 2: blinking when something approaches the eye protects the eye from harm.",
+    "prompt": "What is a reflex action? Give two examples and state the benefit of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio19-s3": {
+  "keyTerms": [
+   {
+    "definition": "A nerve cell, the basic unit of the nervous system, which carries electrochemical nerve impulses.",
+    "term": "Neuron"
+   },
+   {
+    "definition": "A short, branched extension of a neuron that receives impulses and carries them towards the cell body.",
+    "term": "Dendrite"
+   },
+   {
+    "definition": "The long fibre of a sensory neuron that carries impulses from the receptor to the cell body.",
+    "term": "Dendron"
+   },
+   {
+    "definition": "The long single fibre of a neuron that carries impulses away from the cell body.",
+    "term": "Axon"
+   },
+   {
+    "definition": "A fatty insulating layer around many axons that speeds up the impulse.",
+    "term": "Myelin sheath"
+   },
+   {
+    "definition": "A small gap in the myelin sheath, across which the impulse jumps.",
+    "term": "Node of Ranvier"
+   },
+   {
+    "definition": "A cell in the PNS that wraps around an axon, its membrane forming the myelin sheath.",
+    "term": "Schwann cell"
+   },
+   {
+    "definition": "A tiny sac in a synaptic knob that stores neurotransmitter.",
+    "term": "Neurotransmitter vesicle"
+   },
+   {
+    "definition": "A short neuron found only in the CNS that links neurons together.",
+    "term": "Interneuron"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses.",
+    "h": "Neurons and their types",
+    "points": [
+     "Neurons are long and thin, so a single cell can connect distant parts of the body.",
+     "Sensory neurons carry impulses from receptors to the CNS.",
+     "Motor neurons carry impulses from the CNS to effectors.",
+     "Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS."
+    ]
+   },
+   {
+    "h": "Cell body, dendrites and axon",
+    "points": [
+     "The cell body contains the nucleus and most of the cytoplasm and organelles, keeping the cell alive.",
+     "The cell body makes the neurotransmitter and the proteins the neuron needs.",
+     "Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.",
+     "Branching lets one neuron receive signals from many others.",
+     "The axon is a long single fibre that carries impulses away from the cell body.",
+     "The axon's length lets impulses reach distant effectors."
+    ]
+   },
+   {
+    "h": "Myelin sheath and Schwann cells",
+    "points": [
+     "The myelin sheath is a fatty insulating layer around many axons.",
+     "It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.",
+     "Schwann cells are cells that wrap around the axon in the PNS, their membrane forming the myelin sheath."
+    ]
+   },
+   {
+    "h": "Axon terminals and neurotransmitter vesicles",
+    "points": [
+     "The axon ends in swollen synaptic knobs, also called axon terminals.",
+     "Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter.",
+     "The neurotransmitter is released to pass the impulse to the next cell; release itself is described in Neurotransmission."
+    ]
+   },
+   {
+    "h": "Motor neurons",
+    "points": [
+     "A motor neuron has its cell body at one end, inside the CNS, with many dendrites.",
+     "It has one long axon, which ends in axon terminals on a muscle or gland.",
+     "Its many dendrites receive input from many interneurons."
+    ]
+   },
+   {
+    "h": "Sensory neurons",
+    "points": [
+     "A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body.",
+     "Its cell body sits to one side of the fibre, in a ganglion outside the CNS.",
+     "A shorter axon carries the impulse on into the CNS.",
+     "The long dendron reaches from a receptor, e.g. in the skin of the foot, to the spinal cord.",
+     "The cell body lies off the main pathway, so it does not slow the impulse."
+    ]
+   },
+   {
+    "h": "Interneurons",
+    "points": [
+     "Interneurons are short, with many branched connections.",
+     "They are found only in the CNS.",
+     "They connect sensory neurons to motor neurons and link many neurons together."
+    ]
+   },
+   {
+    "h": "Drawing a motor and a sensory neuron",
+    "points": [
+     "Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse."
+    ]
+   },
+   {
+    "h": "Multiple sclerosis",
+    "points": [
+     "Multiple sclerosis (MS) is an autoimmune disease in which the body's immune system damages the myelin sheath in the CNS.",
+     "Damaged myelin slows or blocks impulses.",
+     "Symptoms include problems with movement, balance and vision."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Diagram: a motor neuron with its cell body at one end inside the CNS, many dendrites branching from the cell body, one long axon wrapped in myelin sheath with nodes of Ranvier, axon terminals containing neurotransmitter vesicles, and an arrow showing the impulse travelling from the cell body towards the effector. Dendrites receive impulses from other neurons or receptors and carry them towards the cell body. The axon is a long single fibre that carries impulses away from the cell body to distant effectors. The myelin sheath is a fatty insulating layer that speeds up the impulse, which jumps between the nodes of Ranvier.",
+    "prompt": "Draw a labelled diagram of a motor neuron and give the function of the dendrites, the axon and the myelin sheath.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A sensory neuron has a long dendron that carries impulses from the receptor to the cell body, so the impulse reaches the CNS from a distant receptor. Its cell body sits off the main pathway in a ganglion outside the CNS, so it does not slow the impulse, and a shorter axon carries the impulse on into the CNS. One difference: a motor neuron's cell body lies inside the CNS and its impulses travel from the CNS to an effector, whereas a sensory neuron carries impulses from a receptor to the CNS.",
+    "prompt": "Relate the structure of a sensory neuron to its function and state one difference between a sensory and a motor neuron.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio19-s4": {
+  "keyTerms": [
+   {
+    "definition": "The junction between two neurons, or between a neuron and an effector, across which impulses are passed chemically.",
+    "term": "Synapse"
+   },
+   {
+    "definition": "The tiny gap that separates the presynaptic and postsynaptic cells at a synapse.",
+    "term": "Synaptic cleft"
+   },
+   {
+    "definition": "The neuron before the synaptic cleft, which releases neurotransmitter.",
+    "term": "Presynaptic neuron"
+   },
+   {
+    "definition": "The neuron after the synaptic cleft, which has receptors for the neurotransmitter.",
+    "term": "Postsynaptic neuron"
+   },
+   {
+    "definition": "The swollen end of a presynaptic axon, containing mitochondria and neurotransmitter vesicles.",
+    "term": "Synaptic knob"
+   },
+   {
+    "definition": "A chemical released by a neuron that carries the impulse across a synapse.",
+    "term": "Neurotransmitter"
+   },
+   {
+    "definition": "A protein on the postsynaptic membrane that binds one specific neurotransmitter.",
+    "term": "Receptor protein"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A nerve impulse passes along a chain of neurons from receptor to effector.",
+    "h": "Impulses along a chain of neurons",
+    "points": [
+     "The chain runs receptor, sensory neuron, interneuron or interneurons, motor neuron, effector.",
+     "Within a neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions moving in and out of the neuron.",
+     "Between neurons the impulse is passed on chemically, across a synapse."
+    ]
+   },
+   {
+    "b": "A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre.",
+    "h": "The synapse",
+    "points": [
+     "The two cells do not touch; a tiny gap called the synaptic cleft separates them.",
+     "The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron.",
+     "The presynaptic axon ends in a swollen synaptic knob containing mitochondria and vesicles of neurotransmitter.",
+     "A neurotransmitter is a chemical released by a neuron that carries the impulse across a synapse.",
+     "Examples of neurotransmitters are acetylcholine, noradrenaline, dopamine and serotonin."
+    ]
+   },
+   {
+    "h": "Drawing a synapse",
+    "points": [
+     "Diagram: synapse labelling presynaptic neuron, synaptic knob, mitochondria, vesicles, neurotransmitter molecules, synaptic cleft, receptor proteins on the postsynaptic membrane, postsynaptic neuron, and an arrow for the direction of the impulse."
+    ]
+   },
+   {
+    "h": "How the impulse crosses the synapse",
+    "points": [
+     "1. The impulse arrives at the synaptic knob.",
+     "2. This causes calcium ions (Ca²⁺) to move into the knob.",
+     "3. The calcium ions trigger vesicles to move to the presynaptic membrane, fuse with it and release neurotransmitter into the cleft.",
+     "4. The neurotransmitter diffuses across the cleft.",
+     "5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter.",
+     "6. Binding opens ion channels in the postsynaptic membrane, ions move in, and a new impulse starts in the postsynaptic neuron if enough neurotransmitter binds.",
+     "Mitochondria in the knob supply ATP for making and releasing neurotransmitter."
+    ]
+   },
+   {
+    "h": "Roles of synapses",
+    "points": [
+     "Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors.",
+     "A weak stimulus may release too little neurotransmitter to start a new impulse, so synapses filter out unimportant signals.",
+     "One neuron can synapse with many others, so impulses can be spread to many cells or combined from many cells.",
+     "Many drugs act at synapses; this is described in Conduction across the synaptic cleft and its disruption."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "A synapse is the junction between two neurons, separated by a tiny gap called the synaptic cleft. When the impulse arrives at the synaptic knob of the presynaptic neuron, calcium ions move into the knob and trigger vesicles to fuse with the presynaptic membrane and release neurotransmitter into the cleft. The neurotransmitter, a chemical that carries the impulse across the synapse, diffuses across the cleft and binds to specific receptor proteins on the postsynaptic membrane, each receptor fitting only its own neurotransmitter. Binding opens ion channels, ions move into the postsynaptic neuron, and if enough neurotransmitter binds a new impulse starts in that neuron.",
+    "prompt": "Explain the role of neurotransmitters in the transmission of an impulse across a synapse.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Two functions: a weak stimulus that releases too little neurotransmitter is filtered out, and one neuron can spread signals to many others or combine signals from many others. An impulse crosses in one direction only because vesicles are found only on the presynaptic side and receptors only on the postsynaptic side, so neurotransmitter is released in one direction and received in the other.",
+    "prompt": "Give two functions of synapses and explain why an impulse can cross a synapse in one direction only.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio19-s5": {
+  "keyTerms": [
+   {
+    "definition": "The enzyme in the synaptic cleft that breaks acetylcholine down into choline and ethanoic acid.",
+    "term": "Acetylcholinesterase"
+   },
+   {
+    "definition": "The reabsorption of a neurotransmitter, or its breakdown products, by the presynaptic neuron through transporter proteins.",
+    "term": "Reuptake"
+   },
+   {
+    "definition": "A drug that blocks an enzyme, so the substance the enzyme breaks down stays active for longer.",
+    "term": "Enzyme inhibitor"
+   },
+   {
+    "definition": "A drug that blocks the transporter that reabsorbs a neurotransmitter, so more stays in the synaptic cleft.",
+    "term": "Reuptake inhibitor"
+   },
+   {
+    "definition": "An antidepressant that slows the breakdown of serotonin, noradrenaline and dopamine.",
+    "term": "Monoamine oxidase (MAO) inhibitor"
+   },
+   {
+    "definition": "A drug that alters brain function, affecting mood, perception or behaviour.",
+    "term": "Psychoactive drug"
+   },
+   {
+    "definition": "A disorder with a short-term effect, such as the paralysis caused by nerve agents.",
+    "term": "Acute disorder"
+   },
+   {
+    "definition": "A disorder with a long-term effect, such as Alzheimer's disease or Parkinson's disease.",
+    "term": "Chronic disorder"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Release of neurotransmitter (Higher Level only)",
+    "points": [
+     "Release is triggered by ions, calcium ions entering the synaptic knob, and lasts only a short time.",
+     "Each impulse therefore produces a brief burst of neurotransmitter, which passes the impulse to the next neuron.",
+     "The stages of release are described in Neurotransmission."
+    ]
+   },
+   {
+    "h": "Inactivation by an enzyme (Higher Level only)",
+    "points": [
+     "After it has passed on the impulse, the neurotransmitter is inactivated by an enzyme in the synaptic cleft.",
+     "Example: acetylcholinesterase breaks acetylcholine down into choline and ethanoic acid (acetate)."
+    ]
+   },
+   {
+    "h": "Why the neurotransmitter must be removed (Higher Level only)",
+    "points": [
+     "If the neurotransmitter stayed in the cleft, the postsynaptic neuron would keep firing.",
+     "The signal could not be switched off, so repeated signals could not be told apart."
+    ]
+   },
+   {
+    "h": "Reabsorption and reuptake (Higher Level only)",
+    "points": [
+     "The breakdown products are reabsorbed by the presynaptic neuron and used to make new neurotransmitter; for example, choline is reabsorbed.",
+     "Serotonin and dopamine are mainly reabsorbed whole by transporter proteins in the presynaptic membrane, a process called reuptake."
+    ]
+   },
+   {
+    "h": "The cycle at a synapse (Higher Level only)",
+    "points": [
+     "1. Arrival of an impulse at the synaptic knob.",
+     "2. Calcium ions enter the knob.",
+     "3. Vesicles release neurotransmitter into the cleft.",
+     "4. The neurotransmitter diffuses across the cleft.",
+     "5. It binds to receptors on the postsynaptic membrane.",
+     "6. A new impulse starts in the postsynaptic neuron.",
+     "7. An enzyme breaks the neurotransmitter down, or it is taken back by reuptake.",
+     "8. The presynaptic neuron reabsorbs the breakdown products or the neurotransmitter.",
+     "9. New neurotransmitter is made and stored in vesicles, ready for the next impulse.",
+     "Diagram: synapse showing the enzyme in the cleft and reuptake arrows into the presynaptic knob."
+    ]
+   },
+   {
+    "h": "Causes of disruption (Higher Level only)",
+    "points": [
+     "Disruption can come from too little or too much neurotransmitter, faulty receptors, or blocked breakdown or reuptake.",
+     "Disruption can cause short-term (acute) or long-term (chronic) disorders."
+    ]
+   },
+   {
+    "h": "Acute disorder: nerve agents and insecticides (Higher Level only)",
+    "points": [
+     "Nerve agents and organophosphate insecticides inhibit acetylcholinesterase.",
+     "Acetylcholine then builds up at synapses with muscles, causing continuous muscle contraction and paralysis.",
+     "In severe cases death follows from failure of the breathing muscles."
+    ]
+   },
+   {
+    "h": "Chronic disorders (Higher Level only)",
+    "points": [
+     "In Alzheimer's disease, neurons that use acetylcholine are lost, contributing to memory loss.",
+     "Depression is associated with altered signalling by serotonin and noradrenaline; its causes are complex.",
+     "In Parkinson's disease, dopamine-producing neurons in the brain die, causing tremor, stiffness and slow movement."
+    ]
+   },
+   {
+    "b": "A drug inhibits the enzyme that breaks down a neurotransmitter, so the neurotransmitter stays in the cleft longer and its effect is enhanced.",
+    "h": "Enzyme inhibitors as treatment (Higher Level only)",
+    "points": [
+     "Acetylcholinesterase inhibitors, e.g. donepezil, are used to treat the symptoms of Alzheimer's disease.",
+     "Monoamine oxidase (MAO) inhibitors are antidepressants that slow the breakdown of serotonin, noradrenaline and dopamine."
+    ]
+   },
+   {
+    "b": "A drug blocks the transporter that reabsorbs a neurotransmitter, so more neurotransmitter stays in the cleft for longer.",
+    "h": "Reuptake inhibitors as treatment (Higher Level only)",
+    "points": [
+     "Selective serotonin reuptake inhibitors (SSRIs), e.g. fluoxetine, are used to treat depression.",
+     "Neither strategy cures the disorder; both treat symptoms by enhancing the remaining signalling."
+    ]
+   },
+   {
+    "h": "Psychoactive drugs and painkillers (Higher Level only)",
+    "points": [
+     "A psychoactive drug alters brain function, affecting mood, perception or behaviour.",
+     "Cocaine blocks the reuptake of dopamine, so dopamine builds up in the cleft, producing euphoria; its effect on mood and addiction is covered in Dopamine and endorphins.",
+     "Nicotine mimics acetylcholine, binding to and activating some of its receptors.",
+     "Opioid painkillers such as morphine bind to the same receptors as endorphins, mimicking them and reducing the sensation of pain.",
+     "A drug may instead block receptors, preventing transmission: curare blocks acetylcholine receptors on muscles, causing paralysis."
+    ]
+   },
+   {
+    "h": "Impact of each type of disruption (Higher Level only)",
+    "points": [
+     "Blocked release or blocked receptors: less or no neurotransmitter acts, so transmission is reduced or stops.",
+     "Blocked breakdown or blocked reuptake: the neurotransmitter stays in the cleft, so transmission is prolonged or enhanced.",
+     "Mimics: a drug that activates receptors makes transmission occur without the natural neurotransmitter."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "After it has passed on the impulse, the neurotransmitter is inactivated by an enzyme in the synaptic cleft. For example, acetylcholinesterase breaks acetylcholine down into choline and ethanoic acid. The breakdown products are reabsorbed by the presynaptic neuron and used to make new neurotransmitter; choline is reabsorbed in this way. Some neurotransmitters, such as serotonin and dopamine, are mainly reabsorbed whole by transporter proteins, which is called reuptake. This is necessary because if the neurotransmitter stayed in the cleft the postsynaptic neuron would keep firing, so the signal could not be switched off and repeated signals could not be told apart.",
+    "prompt": "Describe what happens to a neurotransmitter after it has passed an impulse to the next neuron, and explain why this is necessary.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(i) An enzyme inhibitor blocks the enzyme that breaks down a neurotransmitter, so the neurotransmitter stays in the cleft longer and its effect is enhanced. Example: acetylcholinesterase inhibitors such as donepezil are used to treat the symptoms of Alzheimer's disease, where acetylcholine-using neurons are lost. (ii) A reuptake inhibitor blocks the transporter that reabsorbs a neurotransmitter, so more stays in the cleft for longer and its effect is enhanced. Example: selective serotonin reuptake inhibitors (SSRIs), such as fluoxetine, are used to treat depression. Neither drug cures the disorder; both treat symptoms by enhancing the remaining signalling.",
+    "prompt": "Explain how drugs that inhibit (i) an enzyme in the synaptic cleft and (ii) the reuptake of a neurotransmitter can be used to treat disorders. Name one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The insecticide blocks acetylcholinesterase, so acetylcholine is not broken down at synapses with the insect's muscles and builds up there. Acetylcholine keeps activating the muscle, causing continuous muscle contraction and paralysis, as seen with nerve agents and organophosphate insecticides in humans.",
+    "prompt": "An insecticide inhibits acetylcholinesterase. Predict and explain its effect on an insect's muscles.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio19-s6": {
+  "keyTerms": [
+   {
+    "definition": "A neurotransmitter, made from tyrosine, that is involved in reward, motivation, smooth movement, learning and attention.",
+    "term": "Dopamine"
+   },
+   {
+    "definition": "A peptide neurotransmitter, produced in the brain in response to pain, stress and exertion, that reduces pain and produces wellbeing.",
+    "term": "Endorphin"
+   },
+   {
+    "definition": "A receptor that endorphins bind to in order to reduce the sensation of pain.",
+    "term": "Opioid receptor"
+   },
+   {
+    "definition": "The brain pathway in which dopamine is released by rewarding experiences, reinforcing behaviour.",
+    "term": "Reward pathway"
+   },
+   {
+    "definition": "The amino acid from which dopamine is made.",
+    "term": "Tyrosine"
+   },
+   {
+    "definition": "The need for more of a drug to produce the same effect, as the brain adapts to repeated use.",
+    "term": "Tolerance"
+   },
+   {
+    "definition": "A state in which the brain adapts to a drug, so stopping it causes low mood and cravings.",
+    "term": "Dependence"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Neurotransmitters, mood and behaviour",
+    "points": [
+     "Neurotransmitters released in the brain affect mood, which is how we feel, and behaviour, which is what we do.",
+     "They do this by changing how groups of neurons signal."
+    ]
+   },
+   {
+    "h": "Dopamine: production",
+    "points": [
+     "Dopamine is a neurotransmitter made by neurons in the brain, from the amino acid tyrosine."
+    ]
+   },
+   {
+    "h": "Dopamine: reward and motivation",
+    "points": [
+     "Dopamine is released when we experience or expect something rewarding, such as food, social contact or achievement.",
+     "It produces feelings of pleasure and satisfaction and reinforces the behaviour, so we are motivated to repeat it."
+    ]
+   },
+   {
+    "h": "Dopamine: movement and learning",
+    "points": [
+     "Dopamine helps control smooth movement and is involved in learning and attention.",
+     "Loss of dopamine-producing neurons causes Parkinson's disease, described in Conduction across the synaptic cleft and its disruption."
+    ]
+   },
+   {
+    "h": "Endorphins",
+    "points": [
+     "Endorphins are peptides produced in the brain, including by the pituitary gland and hypothalamus, in response to pain, stress and physical exertion.",
+     "They bind to opioid receptors and reduce the sensation of pain, so they act as the body's natural painkillers.",
+     "They also produce a feeling of wellbeing and reduce stress."
+    ]
+   },
+   {
+    "h": "Stimulants and the reward pathway (non-medical drug use)",
+    "points": [
+     "Cocaine, which blocks dopamine reuptake as described in Conduction across the synaptic cleft and its disruption, and amphetamines, which increase dopamine release, both flood the reward pathway with dopamine.",
+     "The result is an intense high."
+    ]
+   },
+   {
+    "h": "Other drugs: nicotine, alcohol and opioids",
+    "points": [
+     "Nicotine and alcohol also increase dopamine release in the reward pathway.",
+     "Heroin and other opioids bind to endorphin (opioid) receptors, producing pain relief and euphoria."
+    ]
+   },
+   {
+    "h": "Tolerance and dependence",
+    "points": [
+     "With repeated drug use the brain adapts, for example by reducing the number of dopamine receptors.",
+     "More drug is then needed for the same effect; this is tolerance.",
+     "Normal rewards feel less pleasurable, and stopping causes low mood and cravings; this is dependence and withdrawal.",
+     "This is how addiction develops."
+    ]
+   },
+   {
+    "h": "Exercise",
+    "points": [
+     "Sustained exercise raises endorphin levels and increases dopamine signalling.",
+     "This improves mood, reduces stress and anxiety, and reduces the perception of pain during exertion."
+    ]
+   },
+   {
+    "h": "Diet",
+    "points": [
+     "Foods high in sugar and fat trigger dopamine release in the reward pathway, which can drive overeating.",
+     "A diet with enough protein supplies tyrosine, the amino acid that dopamine is made from."
+    ]
+   },
+   {
+    "h": "Weighing benefits and risks",
+    "points": [
+     "Exercise and social contact raise these neurotransmitters in ways that support long-term wellbeing.",
+     "Drugs raise them far above normal levels, and the brain adapts in ways that cause dependence.",
+     "Mood and behaviour depend on many factors, not on one neurotransmitter."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Dopamine: it is released when we experience or expect something rewarding, producing feelings of pleasure and satisfaction that reinforce the behaviour and motivate us to repeat it. Endorphins: they bind to opioid receptors to reduce the sensation of pain, acting as the body's natural painkillers.",
+    "prompt": "State one function of dopamine and one function of endorphins in the human body.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Exercise: sustained exercise raises endorphin levels and increases dopamine signalling. This improves mood, reduces stress and anxiety, and reduces the perception of pain during exertion. Drug use: cocaine and amphetamines flood the reward pathway with dopamine, producing an intense high, and nicotine and alcohol also increase dopamine release. Heroin and other opioids bind to endorphin receptors, producing pain relief and euphoria. Repeated drug use makes the brain adapt, for example by reducing the number of dopamine receptors, so more drug is needed for the same effect (tolerance). Normal rewards then feel less pleasurable, and stopping causes low mood and cravings (dependence and withdrawal), which is how addiction develops. Diet: foods high in sugar and fat trigger dopamine release, which can drive overeating, while a diet with enough protein supplies tyrosine, the amino acid dopamine is made from. Conclusion of the discussion: exercise and social contact raise these neurotransmitters in ways that support long-term wellbeing, whereas drugs raise them far above normal levels and cause dependence. Mood and behaviour depend on many factors, not on one neurotransmitter.",
+    "prompt": "Discuss the influence of lifestyle choices on dopamine and endorphin levels in the human body.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio20-s1": {
+  "keyTerms": [
+   {
+    "definition": "A chemical messenger made by an endocrine gland, carried in the blood, that acts only on cells with receptors for it.",
+    "term": "Hormone"
+   },
+   {
+    "definition": "A ductless gland that secretes hormones directly into the blood.",
+    "term": "Endocrine gland"
+   },
+   {
+    "definition": "A gland that secretes its product through a duct, such as a salivary or sweat gland.",
+    "term": "Exocrine gland"
+   },
+   {
+    "definition": "A cell with receptors for a particular hormone, which the hormone acts on.",
+    "term": "Target cell"
+   },
+   {
+    "definition": "The pituitary gland, whose hormones control several other glands.",
+    "term": "Master gland"
+   },
+   {
+    "definition": "Clusters of cells in the pancreas that secrete insulin.",
+    "term": "Islets of Langerhans"
+   },
+   {
+    "definition": "The body's response to stress or danger, prepared by adrenaline.",
+    "term": "Fight or flight"
+   },
+   {
+    "definition": "A hormone from the thyroid gland that controls the metabolic rate and contains iodine.",
+    "term": "Thyroxine"
+   },
+   {
+    "definition": "A pituitary hormone that causes the uterus to contract in labour and releases milk during breastfeeding.",
+    "term": "Oxytocin"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Hormones are chemical messengers carried in the blood. Glands that release them directly into the blood make up the endocrine system.",
+    "h": "The endocrine system",
+    "points": [
+     "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. Only cells with receptors for that hormone respond.",
+     "Endocrine glands are ductless: they secrete hormones directly into the blood.",
+     "Exocrine glands secrete through ducts, for example the salivary and sweat glands.",
+     "The pancreas is both: an exocrine gland making digestive enzymes and an endocrine gland making insulin.",
+     "Diagram: outline of the human body showing the position of the pituitary, thyroid, parathyroids, adrenals, pancreas, ovaries and testes."
+    ]
+   },
+   {
+    "b": "The pituitary is at the base of the brain, below and attached to the hypothalamus. It is called the master gland because several of its hormones control other glands.",
+    "h": "Pituitary gland: the master gland",
+    "points": [
+     "TSH (thyroid-stimulating hormone) stimulates the thyroid to release thyroxine.",
+     "Oxytocin causes the uterus to contract during labour, and causes milk to be released from the breasts during breastfeeding.",
+     "Oxytocin is made in the hypothalamus and released from the pituitary."
+    ]
+   },
+   {
+    "h": "FSH, LH and ADH (Higher Level only)",
+    "points": [
+     "FSH (follicle-stimulating hormone): in females, stimulates a follicle in the ovary to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes.",
+     "LH (luteinising hormone): in females, a surge of LH causes ovulation and the empty follicle to become the corpus luteum; in males, stimulates the testes to produce testosterone.",
+     "ADH (antidiuretic hormone): makes the collecting ducts of the kidney more permeable, so more water is reabsorbed into the blood and a smaller volume of more concentrated urine is produced.",
+     "ADH is made in the hypothalamus and released from the pituitary. Its role in osmoregulation is covered in The Urinary System."
+    ]
+   },
+   {
+    "h": "Thyroid gland",
+    "points": [
+     "Location: in the neck, in front of the trachea, just below the larynx.",
+     "Thyroxine controls the metabolic rate, which is the rate of respiration in cells.",
+     "Thyroxine is needed for normal growth and development.",
+     "Thyroxine contains iodine."
+    ]
+   },
+   {
+    "h": "Parathyroid glands",
+    "points": [
+     "Location: four small glands on the back of the thyroid.",
+     "Parathyroid hormone raises the calcium level of the blood when it falls.",
+     "It does this by releasing calcium from bone, increasing calcium absorption from the gut and increasing calcium reabsorption in the kidneys."
+    ]
+   },
+   {
+    "h": "Adrenal glands and adrenaline",
+    "points": [
+     "Location: one on top of each kidney.",
+     "Adrenaline prepares the body for fight or flight in stress or danger.",
+     "It increases heart rate and breathing rate.",
+     "It raises blood glucose by causing the liver to convert glycogen to glucose.",
+     "It diverts blood to the muscles and dilates the pupils."
+    ]
+   },
+   {
+    "h": "Pancreas and insulin",
+    "points": [
+     "Location: in the abdomen, behind the stomach.",
+     "Clusters of cells called the islets of Langerhans secrete insulin.",
+     "Insulin lowers blood glucose by making cells take up glucose from the blood.",
+     "Insulin makes the liver and muscles convert glucose to glycogen for storage."
+    ]
+   },
+   {
+    "h": "Testes and testosterone",
+    "points": [
+     "Location: in the scrotum, outside the abdomen.",
+     "Testosterone causes sperm production to begin at puberty.",
+     "It causes the male secondary sexual characteristics: growth of facial and body hair, deepening of the voice and increased muscle growth."
+    ]
+   },
+   {
+    "h": "Ovaries, oestrogen and progesterone",
+    "points": [
+     "Location: in the lower abdomen, one on each side of the uterus.",
+     "Oestrogen causes the female secondary sexual characteristics, such as breast development and widening of the hips.",
+     "Oestrogen repairs and thickens the endometrium after menstruation.",
+     "Progesterone maintains the endometrium and maintains pregnancy."
+    ]
+   },
+   {
+    "h": "Summary: glands, locations, hormones and functions",
+    "points": [
+     "Adrenal glands: on top of each kidney; adrenaline; fight or flight, raising heart rate and blood glucose.",
+     "Pituitary gland: base of the brain; TSH and oxytocin; TSH controls thyroxine release, oxytocin causes uterine contraction and milk release.",
+     "Pituitary gland (Higher Level only): base of the brain; FSH, LH and ADH; FSH and LH act on the ovaries and testes, ADH increases water reabsorption in the collecting ducts.",
+     "Thyroid gland: in the neck; thyroxine; controls metabolic rate.",
+     "Parathyroid glands: on the back of the thyroid; parathyroid hormone; raises blood calcium.",
+     "Pancreas: behind the stomach; insulin; lowers blood glucose.",
+     "Testes: in the scrotum; testosterone; sperm production and male secondary sexual characteristics.",
+     "Ovaries: in the lower abdomen; oestrogen and progesterone; female secondary sexual characteristics, the endometrium and pregnancy."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "Thyroxine: produced by the thyroid gland, which is in the neck in front of the trachea, just below the larynx. It controls the metabolic rate. Adrenaline: produced by the adrenal glands, one on top of each kidney. It prepares the body for fight or flight, for example by increasing heart rate. Insulin: produced by the islets of Langerhans in the pancreas, which is in the abdomen behind the stomach. It lowers blood glucose by making cells take up glucose from the blood. Testosterone: produced by the testes, which are in the scrotum outside the abdomen. It causes sperm production to begin at puberty and the male secondary sexual characteristics.",
+    "prompt": "For each of the following hormones, name the gland that produces it, state where the gland is located, and give one function: thyroxine, adrenaline, insulin, testosterone.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. A hormone affects only certain cells because only cells with receptors for that hormone respond to it.",
+    "prompt": "What is a hormone? Explain why a hormone affects only certain cells in the body.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "FSH: in females, stimulates a follicle in the ovary to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes. LH: in females, a surge of LH causes ovulation; in males, stimulates the testes to produce testosterone. ADH: makes the collecting ducts of the kidney more permeable, so more water is reabsorbed into the blood and a smaller volume of more concentrated urine is produced. One function of each is enough, and for FSH and LH one sex is enough.",
+    "prompt": "(Higher Level only) Give one function of FSH, LH and ADH.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio20-s2": {
+  "keyTerms": [
+   {
+    "definition": "The deliberate use of natural or synthetic hormones, or drugs that block hormones, to change how an organism grows or functions.",
+    "term": "Hormonal manipulation"
+   },
+   {
+    "definition": "A synthetic derivative of testosterone that increases muscle mass and strength.",
+    "term": "Anabolic steroid"
+   },
+   {
+    "definition": "A hormone made by the kidneys that stimulates red blood cell production.",
+    "term": "EPO (erythropoietin)"
+   },
+   {
+    "definition": "The World Anti-Doping Agency, which bans performance-enhancing hormones in competitive sport.",
+    "term": "WADA"
+   },
+   {
+    "definition": "A pill containing synthetic oestrogen and progesterone that prevents ovulation by inhibiting the release of FSH and LH.",
+    "term": "Contraceptive pill"
+   },
+   {
+    "definition": "Treatment that supplies oestrogen, often with progesterone, after the menopause.",
+    "term": "Hormone replacement therapy"
+   },
+   {
+    "definition": "A hormone that increases milk yield in cattle.",
+    "term": "Bovine somatotropin (BST)"
+   },
+   {
+    "definition": "A plant hormone; synthetic auxins such as 2,4-D are used as selective weedkillers.",
+    "term": "Auxin"
+   },
+   {
+    "definition": "A plant hormone gas used to ripen fruit in storage.",
+    "term": "Ethene"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Hormonal manipulation is the deliberate use of natural or synthetic hormones, or of drugs that block hormones, to change how an organism grows or functions.",
+    "h": "What hormonal manipulation is"
+   },
+   {
+    "h": "Hormones in sport",
+    "points": [
+     "Anabolic steroids are synthetic derivatives of testosterone. They increase muscle mass and strength and speed up recovery from training.",
+     "Anabolic steroids cause liver damage, increase the risk of heart disease, reduce sperm production, cause infertility and shrinking of the testes in males, cause male characteristics to develop in females, cause acne and cause mood changes including aggression.",
+     "EPO (erythropoietin) is a hormone made by the kidneys that stimulates red blood cell production.",
+     "Athletes misuse EPO to increase the oxygen-carrying capacity of the blood and so their endurance. The thickened blood increases the risk of clots, heart attack and stroke.",
+     "The World Anti-Doping Agency (WADA) bans these substances in competitive sport and tests athletes through urine and blood samples. Their use is unfair to other competitors."
+    ]
+   },
+   {
+    "h": "Hormones in health",
+    "points": [
+     "Insulin injections treat type 1 diabetes, in which the pancreas makes little or no insulin, so blood glucose would otherwise rise too high.",
+     "Most insulin used today is human insulin made by genetically modified bacteria (detail in Genetic Engineering).",
+     "The contraceptive pill contains synthetic oestrogen and progesterone, or progesterone alone.",
+     "The pill inhibits the release of FSH and LH, so no egg matures and ovulation is prevented.",
+     "Fertility treatment uses hormones to stimulate the ovaries to release eggs (detail in Human Reproduction).",
+     "Hormone replacement therapy (HRT) supplies oestrogen, often with progesterone, after the menopause to relieve symptoms such as hot flushes and to reduce bone loss.",
+     "For some women, HRT slightly increases the risk of some cancers and of blood clots.",
+     "Thyroxine tablets are given to people whose thyroid produces too little thyroxine."
+    ]
+   },
+   {
+    "h": "Hormones in agriculture",
+    "points": [
+     "Progesterone, given as a vaginal sponge or implant, synchronises the breeding cycles of cattle and sheep, so a herd can be bred and give birth at the same time.",
+     "Growth-promoting hormones increase meat production in cattle.",
+     "Bovine somatotropin (BST) increases milk yield in cattle.",
+     "Growth-promoting hormones and BST are banned in the EU, including Ireland, because of concerns about animal welfare and hormone residues in food. BST is permitted in the USA.",
+     "Synthetic auxins such as 2,4-D are selective weedkillers that kill broad-leaved weeds in cereal crops by making them grow uncontrollably.",
+     "Auxin rooting powder makes cuttings form roots.",
+     "Ethene gas is used to ripen fruit such as bananas in storage after transport."
+    ]
+   },
+   {
+    "h": "Evaluating the use of hormones",
+    "points": [
+     "Benefits: better health, treatment of disease, food production and convenience.",
+     "Costs: side effects, an unfair advantage in sport, animal welfare concerns, hormone residues in food and environmental effects of weedkillers."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Sport: anabolic steroids, which are synthetic testosterone, increase muscle mass and strength and speed up recovery from training. Or EPO, which is made by the kidneys and stimulates red blood cell production, is used to increase the oxygen-carrying capacity of the blood and so endurance. Health: insulin injections treat type 1 diabetes, where the pancreas makes little or no insulin, so blood glucose is controlled. Or the contraceptive pill, containing synthetic oestrogen and progesterone, inhibits the release of FSH and LH so that ovulation is prevented. Agriculture: progesterone is used to synchronise the breeding cycles of cattle and sheep so that a herd gives birth at the same time. Or synthetic auxin 2,4-D is used as a selective weedkiller to kill broad-leaved weeds in cereal crops. Or ethene gas is used to ripen fruit such as bananas in storage.",
+    "prompt": "Give one example of the use of hormones in each of sport, health and agriculture, and explain the purpose of each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Benefits: anabolic steroids increase muscle mass and strength and speed up recovery from training, and EPO increases the oxygen-carrying capacity of the blood, improving endurance. Costs: anabolic steroids cause liver damage, increase the risk of heart disease, reduce sperm production and infertility in males, cause male characteristics in females, acne and mood changes including aggression. EPO thickens the blood, increasing the risk of clots, heart attack and stroke. Their use is unfair to other competitors, so the World Anti-Doping Agency bans them in competitive sport and tests athletes through urine and blood samples. On balance, the health risks and the unfair advantage outweigh the benefits, which is why these hormones are banned.",
+    "prompt": "Evaluate the use of hormones in sport.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio21-s1": {
+  "keyTerms": [
+   {
+    "definition": "A change in the internal or external environment that an organism can detect.",
+    "term": "Stimulus"
+   },
+   {
+    "definition": "A cell or organ that detects a stimulus.",
+    "term": "Receptor"
+   },
+   {
+    "definition": "The part that processes information from receptors and decides on a response.",
+    "term": "Coordinator"
+   },
+   {
+    "definition": "A muscle or gland that carries out a response.",
+    "term": "Effector"
+   },
+   {
+    "definition": "A gland that releases hormones directly into the blood.",
+    "term": "Endocrine gland"
+   },
+   {
+    "definition": "A microorganism that causes disease.",
+    "term": "Pathogen"
+   },
+   {
+    "definition": "A molecule that the immune system recognises as foreign.",
+    "term": "Antigen"
+   },
+   {
+    "definition": "A thick waxy layer on the outside of a plant that forms a barrier to pathogens and water loss.",
+    "term": "Cuticle"
+   },
+   {
+    "definition": "Cells that surround each stoma and open or close it, controlling water loss.",
+    "term": "Guard cells"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Stimulus and response",
+    "points": [
+     "Response is a characteristic of all living things: organisms detect stimuli, changes in their internal or external environment, and react to them in ways that help them survive.",
+     "The general pathway is stimulus → receptor (detects it) → coordinator (processes the information) → effector (a muscle or gland) → response."
+    ]
+   },
+   {
+    "h": "Nervous system",
+    "points": [
+     "Receptors in the sense organs detect stimuli.",
+     "Neurons carry fast electrical impulses from the receptors to the brain and spinal cord.",
+     "The brain and spinal cord send impulses along neurons to muscles and glands, which act as effectors.",
+     "Nervous responses are fast and short-lived.",
+     "Diagram: a nervous pathway from receptor to coordinator to effector, labelling the sense organ, sensory neuron, brain and spinal cord, motor neuron and muscle or gland.",
+     "Covered in full in The Nervous System."
+    ]
+   },
+   {
+    "h": "Hormonal (endocrine) system",
+    "points": [
+     "Glands release hormones directly into the blood.",
+     "Hormones travel in the blood to the target organs that respond to them.",
+     "Hormonal responses are slower and longer-lasting than nervous responses.",
+     "Examples: adrenaline, released in danger; insulin, released after a meal.",
+     "Diagram: a gland releasing a hormone into a blood vessel, with an arrow to a target organ.",
+     "Covered in full in The Endocrine System."
+    ]
+   },
+   {
+    "h": "Musculoskeletal system",
+    "points": [
+     "Muscles are the effectors of most nervous responses.",
+     "Muscles contract and pull on bones at joints to move the body.",
+     "Example: withdrawing a hand from heat, carried out by muscles pulling on the bones of the arm.",
+     "Diagram: a muscle attached to a bone across a joint, labelling the bone, the joint and the muscle.",
+     "Covered in full in The Musculoskeletal System."
+    ]
+   },
+   {
+    "h": "Immune system",
+    "points": [
+     "The immune system responds to pathogens and other foreign antigens.",
+     "White blood cells engulf bacteria or produce antibodies against foreign antigens.",
+     "Covered in full in Immunity."
+    ]
+   },
+   {
+    "h": "How the systems work together",
+    "points": [
+     "In danger, the nervous system stimulates the adrenal glands to release adrenaline.",
+     "Adrenaline prepares the muscles for action.",
+     "The musculoskeletal system carries out the movement."
+    ]
+   },
+   {
+    "b": "Plants have no nervous system or muscles. They respond more slowly, mainly through chemicals and through their structure.",
+    "h": "Responses in plants",
+    "points": []
+   },
+   {
+    "h": "Anatomical adaptations in plants",
+    "points": [
+     "Thorns, spines and prickles deter grazing animals: holly leaves have spines, brambles have prickles and cacti have spines.",
+     "A thick waxy cuticle and bark form barriers to pathogens and to water loss.",
+     "Stinging hairs inject irritants, as in nettles.",
+     "Hairy leaves deter insects.",
+     "Diagram: a labelled leaf showing the waxy cuticle and a spiny leaf margin, such as holly."
+    ]
+   },
+   {
+    "h": "Chemical adaptations in plants",
+    "points": [
+     "Toxic or bad-tasting chemicals deter herbivores: nicotine in tobacco, caffeine in tea and coffee plants, and tannins in oak leaves.",
+     "Nettle stings contain histamine and formic acid.",
+     "Some plants produce antimicrobial chemicals when infected, which limit the spread of a pathogen."
+    ]
+   },
+   {
+    "h": "Responses to changing conditions",
+    "points": [
+     "Guard cells close the stomata when water is short, reducing water loss (detail in Transport in Plants).",
+     "The sensitive plant, Mimosa pudica, folds its leaves rapidly when touched."
+    ]
+   },
+   {
+    "h": "Comparing human and plant responses",
+    "points": [
+     "Speed: human responses can be fast, through nerves; plant responses are generally slower.",
+     "Mechanism: humans use nerves and hormones; plants use chemicals and their structure.",
+     "Protection: plants cannot move away from danger, so their protective adaptations matter more."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Anatomical adaptation: holly leaves have spines. The spines are sharp, so they deter grazing animals from eating the leaves. Chemical adaptation: tobacco plants produce nicotine. Nicotine is toxic to herbivores, so it deters them from feeding on the plant.",
+    "prompt": "Name one anatomical and one chemical adaptation that plants use to protect themselves, and explain how each works.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Nervous system: receptors in the sense organs detect the threat, and neurons carry fast electrical impulses to the brain and spinal cord, which send impulses along neurons to muscles and glands. Hormonal system: the nervous system stimulates the adrenal glands to release adrenaline into the blood. Adrenaline travels to target organs and gives a slower, longer-lasting response, preparing the muscles for action. Musculoskeletal system: muscles contract and pull on bones at joints, carrying out the movement needed to respond to the threat.",
+    "prompt": "Outline the role of the nervous, hormonal and musculoskeletal systems in the human response to a threat.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio21-s2": {
+  "keyTerms": [
+   {
+    "definition": "The maintenance of a relatively constant internal environment despite changes in external or internal conditions.",
+    "term": "Homeostasis"
+   },
+   {
+    "definition": "The tissue fluid and blood surrounding the cells.",
+    "term": "Internal environment"
+   },
+   {
+    "definition": "The normal level around which a factor such as body temperature fluctuates.",
+    "term": "Set point"
+   },
+   {
+    "definition": "The part that compares a change with the set point and sends instructions to effectors.",
+    "term": "Control centre"
+   },
+   {
+    "definition": "A response that reverses the original change, so the factor returns towards the set point.",
+    "term": "Negative feedback"
+   },
+   {
+    "definition": "A response that increases the original change; it is rare and not used in homeostasis.",
+    "term": "Positive feedback"
+   },
+   {
+    "definition": "Widening of arterioles, allowing more blood to flow near the skin surface and lose heat.",
+    "term": "Vasodilation"
+   },
+   {
+    "definition": "Narrowing of arterioles, reducing blood flow near the skin surface and reducing heat loss.",
+    "term": "Vasoconstriction"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. The internal environment is the tissue fluid and blood around the cells.",
+    "h": "What homeostasis is",
+    "points": [
+     "Factors kept constant include body temperature, blood glucose concentration, water and salt balance, blood pH and carbon dioxide level.",
+     "Enzymes work best within a narrow range of temperature and pH.",
+     "If the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis.",
+     "Steady conditions let cells function whatever the conditions outside the body.",
+     "Values fluctuate slightly around a set point (normal level) rather than staying perfectly fixed; for example, normal core body temperature is about 37 °C."
+    ]
+   },
+   {
+    "h": "Components of a homeostatic control system",
+    "points": [
+     "Stimulus: a change away from the set point.",
+     "Receptor: detects the change.",
+     "Control centre: compares the change with the set point and sends instructions. It is often in the brain, e.g. the hypothalamus, or in a gland.",
+     "Effector: a muscle or gland that carries out the response.",
+     "Response: returns the factor towards the set point.",
+     "In vertebrates, the control centre is linked to receptors and effectors by nervous pathways (neurons, fast) and hormonal pathways (hormones in the blood, slower)."
+    ]
+   },
+   {
+    "h": "Negative feedback",
+    "points": [
+     "In negative feedback, the response reverses the original change.",
+     "Once the factor returns to normal, the stimulus is removed and the response stops.",
+     "Because the response stops at the set point, the factor oscillates close to it.",
+     "Diagram: a negative-feedback loop of set point, change, receptor, control centre, effector, response and back towards the set point, with a second branch for a change in the opposite direction."
+    ]
+   },
+   {
+    "h": "Positive feedback (contrast)",
+    "points": [
+     "Positive feedback: the response increases the original change, e.g. oxytocin causes stronger and stronger contractions during labour.",
+     "Positive feedback is rare and is not used in homeostasis."
+    ]
+   },
+   {
+    "h": "Worked example: body temperature (mainly nervous)",
+    "points": [
+     "Stimulus and receptors: receptors in the hypothalamus detect blood temperature, and receptors in the skin detect skin temperature.",
+     "Control centre: the hypothalamus compares the temperature with the set point.",
+     "Too hot, effector 1: sweat glands produce sweat, which cools the skin as it evaporates.",
+     "Too hot, effector 2: arterioles in the skin widen (vasodilation), so more blood flows near the surface and loses heat.",
+     "Too cold, effector 1: muscles shiver, releasing heat from respiration.",
+     "Too cold, effector 2: arterioles in the skin narrow (vasoconstriction), reducing heat loss.",
+     "Behaviour changes, such as adding clothes or seeking shelter, also help restore the temperature."
+    ]
+   },
+   {
+    "h": "Worked example: blood glucose (hormonal)",
+    "points": [
+     "Stimulus: blood glucose rises after a meal.",
+     "Receptor: cells of the pancreas detect the rise.",
+     "Response: the pancreas releases insulin.",
+     "Effect: cells take up glucose, and the liver stores it as glycogen.",
+     "Glucose falls back to normal, so less insulin is released.",
+     "In type 1 diabetes this feedback fails because too little insulin is made."
+    ]
+   },
+   {
+    "h": "Worked example: thyroxine (feedback on the hormone itself)",
+    "points": [
+     "Stimulus: thyroxine falls below normal in the blood.",
+     "Receptors: the hypothalamus and pituitary gland detect the low level.",
+     "Response: the pituitary releases TSH, and the thyroid releases thyroxine.",
+     "High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls."
+    ]
+   },
+   {
+    "h": "Worked example: water balance (hormonal)",
+    "points": [
+     "The hypothalamus detects the water concentration of the blood, and the pituitary adjusts the release of ADH.",
+     "ADH changes how much water the kidneys reabsorb; the nephron detail is in The Urinary System."
+    ]
+   },
+   {
+    "b": "A rise in blood carbon dioxide is detected by the brain, which increases the breathing rate. The control of breathing is covered in The Breathing System.",
+    "h": "Worked example: breathing rate"
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. Two reasons it is important: enzymes work best within a narrow range of temperature and pH, so steady conditions keep them working well; and if the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis, so a steady concentration protects the cell.",
+    "prompt": "What is meant by homeostasis? Give two reasons why it is important.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Negative feedback is a response that reverses the original change, so the factor returns towards its set point. Once the factor returns to normal, the stimulus is removed and the response stops. Thyroxine: when thyroxine is low, the hypothalamus and pituitary gland detect it, and the pituitary releases TSH, which makes the thyroid release thyroxine. High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls and the level returns to normal.",
+    "prompt": "Explain the term negative feedback and describe how it controls the level of thyroxine in the blood.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Receptors: receptors in the hypothalamus detect a rise in blood temperature, and receptors in the skin detect a rise in skin temperature. Control centre: the hypothalamus compares the temperature with the set point and sends instructions. Effectors: sweat glands produce sweat, which cools the skin as it evaporates, and arterioles in the skin widen (vasodilation), so more blood flows near the surface and loses heat.",
+    "prompt": "Describe how the human body responds to a rise in body temperature, naming the receptor, control centre and effectors involved.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio21-s3": {
+  "keyTerms": [
+   {
+    "definition": "Linking stimuli with responses so that the body's systems work together as a whole.",
+    "term": "Coordination"
+   },
+   {
+    "definition": "A chemical messenger released at a synapse that carries a nerve impulse across the gap.",
+    "term": "Neurotransmitter"
+   },
+   {
+    "definition": "The gap between two neurons, or between a neuron and an effector, across which neurotransmitters pass.",
+    "term": "Synapse"
+   },
+   {
+    "definition": "A chemical messenger carried in the blood that affects only the target cells with receptors for it.",
+    "term": "Hormone"
+   },
+   {
+    "definition": "A cell with receptors that bind a particular hormone or neurotransmitter, so it responds to that messenger.",
+    "term": "Target cell"
+   },
+   {
+    "definition": "A rapid, automatic nervous response to a stimulus.",
+    "term": "Reflex"
+   },
+   {
+    "definition": "A hormone released by the adrenal glands in danger, which prepares the body for action.",
+    "term": "Adrenaline"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Coordination is the process of linking stimuli with responses so the body works as a whole. Humans have two coordinating systems: the nervous system and the hormonal (endocrine) system.",
+    "h": "Coordination"
+   },
+   {
+    "h": "Differences between nervous and hormonal coordination",
+    "points": [
+     "Nature of the message: nervous, electrical impulses along neurons, with chemical neurotransmitters at synapses; hormonal, chemical hormones.",
+     "Route: nervous, along neurons directly to particular cells; hormonal, in the blood to all parts of the body.",
+     "Speed: nervous, very fast, with impulses arriving in a fraction of a second; hormonal, slower, taking seconds to hours as hormones travel in the blood.",
+     "Duration: nervous, short-lived, ending when the impulses stop; hormonal, longer-lasting, because hormones stay in the blood until they are broken down, mainly in the liver.",
+     "Area affected: nervous, localised to the muscle or gland the neuron reaches; hormonal, widespread, reaching every target cell with receptors for the hormone, possibly in many organs.",
+     "Effectors: nervous, muscles and glands; hormonal, target cells in organs and tissues.",
+     "Typical uses: nervous, rapid responses such as reflexes and movement; hormonal, long-term processes such as growth, metabolism, puberty and the menstrual cycle, and steady control of blood glucose."
+    ]
+   },
+   {
+    "h": "Similarities",
+    "points": [
+     "Both use chemical messengers that bind to specific receptors on target cells: neurotransmitters in the nervous system and hormones in the hormonal system.",
+     "Both carry information from receptors or control centres to effectors, and both take part in homeostasis through negative feedback."
+    ]
+   },
+   {
+    "h": "How the two systems work together",
+    "points": [
+     "The hypothalamus links the two systems: it is part of the brain but controls the pituitary gland.",
+     "In danger, nerve impulses stimulate the adrenal glands to release adrenaline, so a fast nervous response is followed by a longer-lasting hormonal one.",
+     "Touching a hot plate: nervous, a reflex, under a second, affecting one arm.",
+     "Rising blood glucose: hormonal, insulin, taking minutes to hours, affecting cells throughout the body."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Route: nervous coordination sends impulses along neurons directly to particular cells, whereas hormones travel in the blood to all parts of the body. Speed: nervous responses are very fast, with impulses arriving in a fraction of a second, whereas hormonal responses are slower and take seconds to hours. Area affected: nervous effects are localised to the muscle or gland that the neuron reaches, whereas hormones affect every target cell with receptors for them, possibly in many organs.",
+    "prompt": "Give three differences between nervous and hormonal coordination.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The hypothalamus links the two systems: it is part of the brain but controls the pituitary gland. In danger, nerve impulses stimulate the adrenal glands to release adrenaline. The nervous response is fast, and the adrenaline response that follows is longer-lasting.",
+    "prompt": "Explain how the nervous and hormonal systems work together when a person is frightened.",
+    "type": "short"
+   }
+  ]
+ }
+};
   COURSE_DATA.chapters.forEach(function (chapter) {
     (chapter.learningOutcomes || []).forEach(function (outcome) {
       var entry = NOTES[outcome.id];
