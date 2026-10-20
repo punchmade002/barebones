@@ -1983,6 +1983,886 @@
    }
   ]
  },
+ "geo-region-concept-s1": {
+  "keyTerms": [
+   {
+    "definition": "An area of the earth's surface that shares one or more criteria which make it different from the areas around it.",
+    "term": "Region"
+   },
+   {
+    "definition": "The characteristics used to identify and define a region, such as climate, language or wealth.",
+    "term": "Criteria"
+   },
+   {
+    "definition": "A band of gradual change between two regions, which replaces a sharp boundary for physical and cultural regions.",
+    "term": "Transition zone"
+   },
+   {
+    "definition": "A large area with similar temperature, precipitation and seasonal pattern, usually with similar vegetation and soils.",
+    "term": "Climatic region"
+   },
+   {
+    "definition": "The climate of Ireland and North West Europe: mild winters, cool summers, a small temperature range and rain in every month.",
+    "term": "Cool temperate oceanic climate"
+   },
+   {
+    "definition": "A warm ocean current, the extension of the Gulf Stream, which keeps winters mild in north-western Europe.",
+    "term": "North Atlantic Drift"
+   },
+   {
+    "definition": "Rain caused when moist air is forced up over mountains, cools and releases its moisture.",
+    "term": "Relief rainfall"
+   },
+   {
+    "definition": "The drier lee side of mountains, sheltered from prevailing winds, as on Ireland's east.",
+    "term": "Rain shadow"
+   },
+   {
+    "definition": "An area with a distinctive landscape produced by the same rock type, geological structure or landforming processes.",
+    "term": "Geomorphological region"
+   },
+   {
+    "definition": "A landscape of limestone shaped by solution, with pavements, caves and few surface rivers.",
+    "term": "Karst"
+   },
+   {
+    "definition": "A clint is a block of limestone pavement; a grike is a fissure separating one clint from the next.",
+    "term": "Clint and grike"
+   },
+   {
+    "definition": "A seasonal lake in a hollow of limestone that fills in winter and drains in summer.",
+    "term": "Turlough"
+   },
+   {
+    "definition": "The grazing of cattle on upland limestone in winter, when the rock stores heat and the ground is dry.",
+    "term": "Winterage"
+   },
+   {
+    "definition": "An anticline is an upfold of rock layers; a syncline is a downfold.",
+    "term": "Anticline and syncline"
+   },
+   {
+    "definition": "A drowned river valley on the coast, formed when the sea floods the lower end of a valley.",
+    "term": "Ria"
+   },
+   {
+    "definition": "A wind-blown silt deposit that forms fertile soils, here along the southern edge of the Northern European Plain.",
+    "term": "Loess"
+   },
+   {
+    "definition": "Land reclaimed from the sea and protected from flooding by embankments.",
+    "term": "Polder"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A region is an area of the earth's surface that shares one or more characteristics, called criteria, which make it different from the areas around it.",
+    "h": "What a region is",
+    "points": [
+     "Physical criteria: climate, relief and rock type.",
+     "Administrative criteria: the boundaries set by government.",
+     "Cultural criteria: language and religion.",
+     "Socio-economic criteria: wealth, employment and development.",
+     "Urban criteria: a city and its hinterland.",
+     "These five types of region are the five subsections of this chapter.",
+     "Regions exist at different scales. A local region is a county or a city's hinterland, e.g. Co. Clare; a national region is the West of Ireland; a continental region is North West Europe; a global region is the Islamic world.",
+     "A single index defines a region by one criterion: rock type alone gives a karst region. Multiple indices combine several criteria: a peripheral region can be defined by income, unemployment and out-migration together.",
+     "Physical and cultural regions usually merge into their neighbours through transition zones rather than ending at a sharp line.",
+     "Administrative regions have exact boundaries, fixed by law.",
+     "Regions also change over time as their criteria change."
+    ]
+   },
+   {
+    "b": "A climatic region is a large area with similar temperature, precipitation and seasonal pattern, usually with similar natural vegetation and soils.",
+    "h": "Climatic regions",
+    "points": [
+     "The world can be divided into climatic regions. This subsection studies the cool temperate oceanic type in detail.",
+     "Cool temperate oceanic: Ireland and North West Europe.",
+     "Warm temperate oceanic: the Mediterranean type, with hot, dry summers and mild, wet winters.",
+     "Hot desert: e.g. the Sahara."
+    ]
+   },
+   {
+    "h": "Characteristics of the cool temperate oceanic climate",
+    "points": [
+     "Mild winters: mean January (coldest month) temperatures are about 4–7°C.",
+     "Cool summers: mean July (warmest month) temperatures are about 14–16°C.",
+     "Small annual range of temperature, only about 10°C; snow is rare on low ground.",
+     "Rain falls in every month, so there is no dry season.",
+     "Changeable weather, with prevailing south-westerly winds."
+    ]
+   },
+   {
+    "h": "Why Ireland has this climate",
+    "points": [
+     "Latitude: Ireland lies between about 51.5°N and 55.5°N, in the mid-latitudes, where the sun's angle is moderate.",
+     "North Atlantic Drift: a warm ocean current, the extension of the Gulf Stream, keeps winters mild and coasts free of ice.",
+     "Maritime influence: the sea heats and cools slowly, so the annual temperature range is small.",
+     "Prevailing south-westerly winds blow off the Atlantic, carrying its mild, moist air over Ireland.",
+     "Frequent Atlantic depressions and their fronts bring rain. These weather systems are taught in geo-weather-climate.",
+     "Relief rainfall: moist air is forced up the western mountains, cools and releases its rain on their western slopes."
+    ]
+   },
+   {
+    "h": "Variation within Ireland",
+    "points": [
+     "The west is wetter than the east: about 1,000–1,250 mm of rain a year across much of the west, against about 750 mm in the driest parts of the east, around Dublin.",
+     "Over 2,000 mm a year falls on many western mountains.",
+     "The east lies in a rain shadow, sheltered from the south-westerly winds by the western uplands.",
+     "Wet days (days with measurable rain): about 150 a year on the east and south-east coasts, rising to about 225 a year in parts of the west.",
+     "The south-east is the sunniest region.",
+     "The north is slightly cooler than the south, and coasts are milder in winter than the inland Midlands."
+    ]
+   },
+   {
+    "h": "North West Europe and the eastward transition",
+    "points": [
+     "The international setting: the same climate covers Ireland, Britain, north-west France (Brittany), Belgium, the Netherlands, Denmark and coastal Norway.",
+     "All of these face the Atlantic, share the North Atlantic Drift and lie in the path of westerly depressions.",
+     "Moving east, away from the Atlantic, winters become colder, summers warmer, the annual range larger and rainfall lower, with a summer maximum. This is the continental influence.",
+     "The change is gradual, so the boundary of a climatic region is a transition zone, not a line."
+    ]
+   },
+   {
+    "h": "Climate and the region's other features",
+    "points": [
+     "Natural vegetation is deciduous forest, mainly oak and ash.",
+     "Soils are brown earth.",
+     "Grass grows for most of the year, which favours pastoral farming in Ireland, mainly cattle and dairying."
+    ]
+   },
+   {
+    "b": "A geomorphological region is an area with a distinctive landscape produced by the same rock type, geological structure or landforming processes.",
+    "h": "Geomorphological regions"
+   },
+   {
+    "b": "The Burren in north-west Co. Clare is a karst region on Carboniferous limestone. Formation of its landforms is taught in geo-rocks-weathering-s4; here each landform is only named.",
+    "h": "The Burren: a karst region",
+    "points": [
+     "The name comes from the Irish Boireann, meaning rocky place.",
+     "Limestone pavement: blocks called clints, separated by fissures called grikes.",
+     "Turloughs: seasonal lakes in hollows, which fill in winter and drain in summer.",
+     "Caves: Aillwee Cave and Doolin Cave, which holds the Great Stalactite, about 7.3 m long.",
+     "Mullaghmore: a hill of folded, terraced limestone.",
+     "Very few surface rivers, because drainage is underground.",
+     "Glaciation: granite erratics from Connemara rest on the limestone, showing that ice scraped off the soil and exposed the pavement."
+    ]
+   },
+   {
+    "h": "The Burren: plants, land use and tourism",
+    "points": [
+     "Plants from Arctic-alpine and Mediterranean environments grow side by side, for example the spring gentian and mountain avens.",
+     "Winterage: cattle graze the upland limestone in winter, because the rock stores heat and the ground is dry.",
+     "Poulnabrone, a Neolithic portal tomb (dolmen), stands on the limestone pavement.",
+     "Burren National Park protects part of the area near Mullaghmore.",
+     "The Burren and Cliffs of Moher UNESCO Global Geopark: tourism is a major activity."
+    ]
+   },
+   {
+    "b": "South Munster is a region of Old Red Sandstone ridges alternating with Carboniferous limestone valleys.",
+    "h": "Munster ridge and valley (South Munster)",
+    "points": [
+     "Armorican folding about 300 million years ago, on an east–west trend, produced anticlines and synclines.",
+     "Differential erosion left the harder sandstone standing as ridges and wore the limestone down into valleys.",
+     "Drowned valleys at the coast form rias: Bantry Bay, Dingle Bay and the Kenmare River.",
+     "Ridges (anticlines of sandstone): Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdown Mountains and the Caha Mountains.",
+     "Valleys (synclines of limestone): the Blackwater valley and the Lee valley.",
+     "Trellised drainage: rivers flow east along the valleys. The River Blackwater then turns sharply south at Cappoquin, Co. Waterford, and reaches the sea at Youghal. The Lee flows east to Cork Harbour.",
+     "Human consequences: towns, routes and fertile farmland lie in the valleys, while the ridges carry rough grazing, forestry and bog."
+    ]
+   },
+   {
+    "b": "The Northern European Plain is a vast lowland, mostly low, flat or gently rolling, stretching from western France into Russia.",
+    "h": "Northern European Plain",
+    "points": [
+     "Countries crossed: France (north), Belgium, the Netherlands, northern Germany, Denmark and Poland, and into Russia.",
+     "Glacial deposits, including moraines, outwash sands and lakes, shape the north of the plain.",
+     "A belt of loess, a wind-blown silt, forms fertile soils along the southern edge.",
+     "Loess soils support wheat and sugar beet.",
+     "The Rhine and Elbe flow north to the North Sea; the Oder and Vistula flow north to the Baltic.",
+     "Polders: land reclaimed from the sea in the Netherlands. The Afsluitdijk, completed in 1932, closed off the Zuiderzee.",
+     "Human consequences: fertile farmland, easy movement for transport, dense population and major cities, including Berlin, Warsaw, Hamburg and Amsterdam."
+    ]
+   },
+   {
+    "h": "Comparing the three geomorphological regions",
+    "points": [
+     "The Burren is defined by its rock type, Carboniferous limestone.",
+     "Munster ridge and valley is defined by its geological structure, folded sandstone and limestone.",
+     "The Northern European Plain is defined by its relief and its surface deposits, glacial and loess.",
+     "The Wicklow Mountains and the Leinster batholith are granite uplands, also classed as geomorphological regions; their landforms are taught in geo-rocks-weathering-s4."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Definition: a climatic region is a large area with similar temperature, precipitation and seasonal pattern, usually with similar vegetation and soils. Take the cool temperate oceanic climate of Ireland. Give the temperature figures (mild winters, cool summers, a small annual range) and the rainfall figures, with rain in every month and no dry season. Explain the controls: latitude, the North Atlantic Drift, the maritime influence, prevailing south-westerly winds, Atlantic depressions and their fronts, and relief rainfall. Describe the variation within Ireland: the wetter west, the rain shadow in the east, the sunnier south-east and the milder coasts. Show how the climate extends across North West Europe and changes eastward into a continental climate with colder winters, warmer summers, a larger range, lower rainfall and a summer maximum, so the boundary is a transition zone. Finish with the links to vegetation (deciduous oak and ash forest, brown earth) and farming (grass for most of the year, supporting cattle and dairying). Do not include geomorphology.",
+    "prompt": "Using a climatic region you have studied, explain how climate can be used to identify a region.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Choose the Burren (karst) and Munster ridge and valley. For the Burren: Carboniferous limestone; name the landforms (limestone pavement of clints and grikes, turloughs, caves) and explain that drainage is underground with few surface rivers; explain that glaciation exposed the pavement; describe the plants, winterage grazing, Poulnabrone and the UNESCO Geopark with its tourism. For Munster ridge and valley: east-west folding about 300 million years ago; Old Red Sandstone ridges and Carboniferous limestone valleys, named; the trellised drainage of the Blackwater and the Lee; rias at the coast; human consequences of towns, routes and farmland in the valleys and rough grazing, forestry and bog on the ridges. Give no more formation detail than one bullet per landform.",
+    "prompt": "Describe and explain two geomorphological regions you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "A region is an area of the earth's surface that shares one or more criteria which make it different from the areas around it. Local scale: Co. Clare (or the Burren). Continental scale: North West Europe.",
+    "prompt": "Explain what is meant by a region, and give one example of a region at a local scale and one at a continental scale.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-concept-s2": {
+  "keyTerms": [
+   {
+    "definition": "An area with fixed, legally defined boundaries, set up by a government to organise services, elections and decision-making.",
+    "term": "Administrative region"
+   },
+   {
+    "definition": "A county, city, or city and county council that governs a local area in Ireland.",
+    "term": "Local authority"
+   },
+   {
+    "definition": "A sub-area of a local authority that replaced town councils under the Local Government Reform Act 2014.",
+    "term": "Municipal district"
+   },
+   {
+    "definition": "An electoral region that elects a set number of representatives to a parliament.",
+    "term": "Constituency"
+   },
+   {
+    "definition": "Proportional representation by single transferable vote, the system used to elect TDs in Dáil constituencies.",
+    "term": "PR-STV"
+   },
+   {
+    "definition": "The body established in 2023 to review the boundaries of Dáil constituencies.",
+    "term": "Electoral Commission"
+   },
+   {
+    "definition": "A body that prepares regional plans and manages EU regional funds in a region of Ireland.",
+    "term": "Regional assembly"
+   },
+   {
+    "definition": "An administrative region of France, created in 1790, with a prefect and an elected departmental council.",
+    "term": "Département"
+   },
+   {
+    "definition": "The official appointed by the national government to head a French département.",
+    "term": "Prefect (préfet)"
+   },
+   {
+    "definition": "The smallest unit of local government in France, led by a mayor.",
+    "term": "Commune"
+   },
+   {
+    "definition": "The main town of a French département.",
+    "term": "Chef-lieu"
+   }
+  ],
+  "notes": [
+   {
+    "b": "An administrative region is an area with fixed, legally defined boundaries, set up by a government to organise services, elections and decision-making.",
+    "h": "Administrative regions",
+    "points": [
+     "Its boundaries are exact lines on a map, unlike the transition zones of physical and cultural regions.",
+     "Governments create administrative regions to deliver services close to people, such as housing, roads and planning.",
+     "They also organise elections, collect statistics and channel funding, including EU regional funds."
+    ]
+   },
+   {
+    "h": "The hierarchy of scales",
+    "points": [
+     "Townland and electoral division: the smallest units, used for census and local purposes.",
+     "Local authority area: a county or city council.",
+     "Constituency: an electoral region.",
+     "Regional assembly area, covered below.",
+     "The State: the national scale.",
+     "The European Union: a supranational scale of 27 member states, since the United Kingdom left in 2020."
+    ]
+   },
+   {
+    "h": "Counties",
+    "points": [
+     "Counties are the main traditional administrative unit: 26 in the Republic of Ireland and 32 on the island.",
+     "Four provinces: Leinster, Munster, Connacht and Ulster. They are historic and have no administrative function today."
+    ]
+   },
+   {
+    "h": "County divisions",
+    "points": [
+     "Some counties were divided for administration because of their size or population.",
+     "In 1994 County Dublin was divided into Fingal, South Dublin and Dún Laoghaire–Rathdown county councils, alongside Dublin City Council.",
+     "North Tipperary and South Tipperary merged in 2014 to form Tipperary County Council."
+    ]
+   },
+   {
+    "h": "Local councils and corporations",
+    "points": [
+     "Corporations were the old name for city governments, e.g. Dublin Corporation, which became Dublin City Council in 2002 under the Local Government Act 2001.",
+     "Local Government Reform Act 2014: 31 local authorities, made up of 26 county councils, 3 city councils (Dublin, Cork, Galway) and 2 city and county councils (Limerick, Waterford).",
+     "The same Act abolished town councils and replaced them with municipal districts.",
+     "There are 949 councillors in total.",
+     "Councils handle housing, roads and traffic, planning permission and development plans, libraries, the fire service, environment and waste, and parks and amenities.",
+     "Councils are funded partly by the Local Property Tax and commercial rates. Local elections are held every five years, most recently in 2019 and 2024."
+    ]
+   },
+   {
+    "h": "Changing boundaries",
+    "points": [
+     "Cork City's boundary was extended in 2019 to take in the growing suburbs of Ballincollig, Blarney and Glanmire, and Cork Airport.",
+     "Growing city regions are described in geo-region-european."
+    ]
+   },
+   {
+    "h": "Regional assemblies and EU funding",
+    "points": [
+     "Three regional assemblies were set up in 2015: Northern and Western; Southern; and Eastern and Midland. They prepare regional plans and manage EU regional funds.",
+     "From 2000 to 2006 Ireland was divided into two regions for EU funding: the Border, Midland and Western (BMW) region, which held Objective 1 status and the highest level of EU aid, and the Southern and Eastern region.",
+     "The BMW region's status as a peripheral region is developed in geo-region-concept-s4."
+    ]
+   },
+   {
+    "b": "A Dáil constituency is an electoral region that elects TDs (members of the Dáil) by proportional representation (PR-STV).",
+    "h": "Dáil constituencies",
+    "points": [
+     "Each constituency elects 3 to 5 TDs.",
+     "The Constitution requires roughly equal representation, between one TD for every 20,000 and one for every 30,000 people. Boundaries are therefore redrawn as population shifts.",
+     "The Electoral Commission, established in 2023, reviews the boundaries. Before it, constituency commissions did this work.",
+     "The 2023 review created 43 constituencies electing 174 TDs, first used in the 2024 general election.",
+     "Constituencies often cross county boundaries, because a county's population may not fit a 3-to-5-seat constituency. Sligo–Leitrim is an example.",
+     "Growing areas, such as Dublin and its commuter belt, gain seats; declining areas lose them.",
+     "Other electoral regions: local electoral areas for council elections, and three European Parliament constituencies in Ireland: Dublin, Midlands–North-West and South."
+    ]
+   },
+   {
+    "b": "The département is an administrative region of France, sitting between the commune and the region.",
+    "h": "French départements",
+    "points": [
+     "Origin: created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris.",
+     "Each was drawn so that every place could reach its main town (chef-lieu) within about a day's ride on horseback.",
+     "There are 101 départements: 96 in metropolitan France and 5 overseas.",
+     "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes. Paris is 75, and Corsica has two, numbered 2A and 2B.",
+     "Many are named after natural features such as rivers and mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Seine-Maritime and Pyrénées-Atlantiques.",
+     "Government: each has a prefect (préfet), appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges)."
+    ]
+   },
+   {
+    "h": "French scales and the 2016 reform",
+    "points": [
+     "France has three tiers of local and regional government: about 35,000 communes, the smallest units, each with a mayor; the départements; and the regions.",
+     "In 2016 the number of metropolitan regions was cut from 22 to 13 by merging, to create larger regions able to compete in Europe.",
+     "Regions handle economic development, regional transport and upper secondary schools (lycées).",
+     "Île-de-France is the region around Paris."
+    ]
+   },
+   {
+    "h": "Comparing Ireland and France",
+    "points": [
+     "Ireland is highly centralised, with weaker local government than France's three tiers allow."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Set out the hierarchy of scales, from the townland and electoral division up to the State and the European Union. Irish local authorities: the 2014 reform (31 authorities, municipal districts replacing town councils), the functions of councils and their funding, and the 1994 division of County Dublin as an example of a county divided for administration. Constituencies: PR-STV, 3 to 5 TDs each, the one TD per 20,000 to 30,000 rule, the Electoral Commission and the 2023 review (43 constituencies, 174 TDs), and the cross-county example of Sligo–Leitrim. French départements and regions: origin in 1790 and the chef-lieu idea, the 101 départements and their numbering, prefects and departmental councils, the 2016 reduction of regions from 22 to 13. Compare the three tiers in France with Ireland's more centralised system.",
+    "prompt": "Explain, with reference to examples you have studied, how administrative regions operate at different scales.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Representation must stay roughly equal, with one TD for every 20,000 to 30,000 people, so boundaries are redrawn as population shifts. Growing areas such as Dublin and its commuter belt gain seats and declining areas lose them. Constituencies are reviewed by the Electoral Commission, and the 2023 review produced 43 constituencies and 174 TDs. Constituencies often cross county lines, as Sligo–Leitrim does, so county boundaries and constituency boundaries do not match.",
+    "prompt": "Explain why constituency boundaries in Ireland change over time.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Départements: social welfare, roads or collèges. Regions: economic development, regional transport or lycées. Communes, each with a mayor and local services, may also be named.",
+    "prompt": "Name two levels of local or regional government in France and state one function of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-concept-s3": {
+  "keyTerms": [
+   {
+    "definition": "The shared way of life of a group, including its language, religion, customs, music, sport and sense of identity.",
+    "term": "Culture"
+   },
+   {
+    "definition": "An area where people share one or more cultural traits that set them apart from neighbouring areas.",
+    "term": "Cultural region"
+   },
+   {
+    "definition": "The officially recognised areas, mainly in the west, where Irish is or was the community language.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "An edge zone where a cultural trait gradually thins out rather than ending at a sharp line.",
+    "term": "Transition zone"
+   },
+   {
+    "definition": "Muhammad's move from Mecca to Medina in 622, from which the Islamic calendar begins.",
+    "term": "Hijra"
+   },
+   {
+    "definition": "The five duties of Islam: declaration of faith, prayer, giving to charity, fasting in Ramadan and pilgrimage to Mecca.",
+    "term": "Five Pillars"
+   },
+   {
+    "definition": "Barriers separating Catholic and Protestant neighbourhoods in Belfast.",
+    "term": "Peace walls"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A cultural region is an area where people share one or more cultural traits that set them apart from neighbouring areas.",
+    "h": "Cultural regions: the idea",
+    "points": [
+     "Culture is the shared way of life of a group: its language, religion, customs, music, sport and sense of identity.",
+     "Language and religion are the two cultural traits the syllabus uses; both can be mapped from census data.",
+     "Cultural regions rarely match political borders: one state can contain several (Belgium, Switzerland), and one region can cross several states (the Basque Country, the Islamic world).",
+     "Their edges are usually transition zones, where the shared trait gradually thins out rather than stopping at a line."
+    ]
+   },
+   {
+    "b": "The Gaeltacht is the officially recognised area where Irish is, or was, the community language. It is not one continuous region.",
+    "h": "The Gaeltacht: location and origin",
+    "points": [
+     "It lies in seven counties: Donegal, Mayo, Galway, Kerry, Cork, Waterford and Meath.",
+     "Main areas: Gaoth Dobhair (Gweedore), Co. Donegal; Conamara and the Aran Islands (Oileáin Árann), Co. Galway, the largest Gaeltacht area; Corca Dhuibhne (the Dingle Peninsula), Co. Kerry; Múscraí and Oileán Chléire (Cape Clear), Co. Cork; An Rinn (Ring), Co. Waterford; Ráth Chairn and Baile Ghib, Co. Meath.",
+     "The pockets are scattered, mainly along the western seaboard.",
+     "Remote, mountainous areas with poor farmland and poor communications had the least contact with English-speaking trade, towns and administration, which is why Irish survived there.",
+     "The Gaeltacht therefore overlaps with the peripheral West of Ireland (see the socio-economic regions subsection).",
+     "The State created a cultural region deliberately: the two Meath Gaeltachtaí were formed in the 1930s by resettling Irish-speaking families from Connemara, Ráth Chairn among them."
+    ]
+   },
+   {
+    "h": "Support for the Gaeltacht and threats to it",
+    "points": [
+     "Irish is the first official language under Article 8 of the 1937 Constitution.",
+     "Údarás na Gaeltachta, set up in 1980, promotes employment and the language in the Gaeltacht.",
+     "Raidió na Gaeltachta (1972) and TG4 (first broadcast in 1996 as Teilifís na Gaeilge) broadcast in Irish.",
+     "State language policy is also set out in the Official Languages Act 2003.",
+     "Irish-medium schools and summer colleges bring learners into the Gaeltacht and sustain the language there.",
+     "Threats: out-migration of young people, in-migration of English speakers and holiday homes, and English-language media and tourism.",
+     "Census 2022 (whole State): about 1.9 million people said they could speak Irish, but only about 72,000 spoke it daily outside the education system.",
+     "Changes to Gaeltacht boundaries since 1850 are covered in the European Regions chapter."
+    ]
+   },
+   {
+    "b": "Belgium is split by a language border that runs east to west across the country, creating three language areas and a bilingual capital.",
+    "h": "Language regions abroad: Belgium",
+    "points": [
+     "Flanders, in the north: Dutch-speaking. Flemish is the Dutch spoken in Flanders.",
+     "Wallonia, in the south: French-speaking.",
+     "A small German-speaking community in the east, around Eupen.",
+     "The Brussels-Capital Region is officially bilingual (French and Dutch). It lies inside Flanders but is mostly French-speaking.",
+     "The border marks the old boundary between Germanic-speaking and Latin-speaking peoples, and was fixed by law in 1962–63.",
+     "More than half of Belgians live in Flanders."
+    ]
+   },
+   {
+    "h": "Political and social effects of the language divide in Belgium",
+    "points": [
+     "Belgium became a federal state in 1993.",
+     "It has three regions (Flanders, Wallonia, Brussels-Capital) and three language communities (Flemish, French, German-speaking), each with its own parliament.",
+     "Schools, media and political parties are divided by language.",
+     "In 1968 the university at Leuven split: its French-speaking section moved to a new town, Louvain-la-Neuve, in Wallonia.",
+     "After the 2010 election Belgium went 541 days without a new government, because Flemish and French-speaking parties could not agree.",
+     "The language divide matches an economic divide: Flanders, with the port of Antwerp and newer industries, became the wealthier region, and many Flemish people resent money transferred to Wallonia (see the regions of industrial decline)."
+    ]
+   },
+   {
+    "h": "Other European language regions",
+    "points": [
+     "The Basque Country (Euskara): Basque is unrelated to any other European language, and the region crosses the border of Spain and France.",
+     "Catalonia, north-east Spain: Catalan is the language and Barcelona is the capital. An unofficial independence referendum was held there on 1 October 2017.",
+     "Wales (Welsh) and Brittany (Breton) are Celtic-language regions.",
+     "Switzerland has four national languages: German, French, Italian and Romansh."
+    ]
+   },
+   {
+    "h": "Religious regions in Ireland",
+    "points": [
+     "The Republic is mainly Roman Catholic, but in Census 2022 about 69% were Roman Catholic, down from about 78% in Census 2016.",
+     "About 14% said they had no religion in Census 2022, and that share is rising.",
+     "Immigration has added other religions, such as Orthodox Christians and Muslims.",
+     "The Plantation of Ulster, begun in 1609, brought Protestant settlers from Britain and created a Protestant majority in much of the north-east of Ulster.",
+     "Religion became tied to political identity: mostly Catholic nationalists and mostly Protestant unionists.",
+     "In Belfast, religion defines segregated residential areas, separated in places by peace walls (peace lines).",
+     "Census 2021 showed, for the first time, more Catholics than Protestants in Northern Ireland.",
+     "The partition, the Troubles and the Good Friday Agreement that shaped this are covered in the European Regions chapter."
+    ]
+   },
+   {
+    "h": "The Islamic world: origin and extent",
+    "points": [
+     "Islam was founded by the Prophet Muhammad in Arabia in the 7th century. Mecca and Medina, in present-day Saudi Arabia, are its holiest cities.",
+     "The Islamic calendar begins with the Hijra, Muhammad's move from Mecca to Medina, in 622.",
+     "The Islamic world stretches from Morocco in North Africa, through the Middle East and Central Asia, to Pakistan, Bangladesh and Indonesia.",
+     "Indonesia has the largest Muslim population of any country.",
+     "Muslims are almost a quarter of the world's population, so Islam is the second-largest religion after Christianity.",
+     "Arab conquest carried Islam across North Africa and into Spain, beginning in 711; trade routes carried it to South and South-East Asia; the Ottoman Turks later carried it into the Balkans."
+    ]
+   },
+   {
+    "h": "What makes the Islamic world a region",
+    "points": [
+     "A shared faith built on the Five Pillars: declaration of faith; prayer five times a day, facing Mecca; giving to charity; fasting in Ramadan; and the pilgrimage to Mecca (the Hajj).",
+     "Arabic is the language of the Qur'an, read across the region.",
+     "Mosques and minarets mark the landscape.",
+     "Islamic law (Sharia) shapes the laws of some states.",
+     "Shared customs of dress, food and calendar.",
+     "Sunni Muslims are the large majority overall. Shia Muslims are the majority in Iran and Iraq, and rivalry between the two adds to conflict in the Middle East."
+    ]
+   },
+   {
+    "h": "Boundary zones of the Islamic world",
+    "points": [
+     "Ottoman rule left Muslim communities in Bosnia and Herzegovina, Albania and Kosovo, in the Balkans.",
+     "Spain was under Muslim (Moorish) rule until Granada fell to the Christian kingdoms in 1492.",
+     "Migration has created large Muslim communities in western Europe: North Africans in France, Turks in Germany, and Pakistanis and Bangladeshis in Britain."
+    ]
+   },
+   {
+    "h": "Religious regions in Europe",
+    "points": [
+     "Roman Catholic south and centre: Italy, Spain, Portugal, Poland, Ireland and southern Germany.",
+     "Protestant north: Scandinavia, northern Germany and Britain.",
+     "Orthodox east and south-east: Greece, Russia, Romania and Serbia.",
+     "The Catholic and Orthodox churches split, with Rome and Constantinople at the centre of the two traditions.",
+     "The Protestant Reformation began in Germany in 1517, with Martin Luther. Vatican City, in Rome, is the centre of the Catholic Church.",
+     "The break-up of Yugoslavia in the 1990s set Orthodox Serbs, Catholic Croats and Muslim Bosniaks against each other in war in Bosnia."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Language defines the Gaeltacht in Ireland. Its areas lie in seven counties, scattered mainly along the western seaboard, and survived there because remote, mountainous land with poor communications had least contact with English-speaking trade and administration. The State deliberately created Meath Gaeltacht areas in the 1930s by resettling families from Connemara. Support is provided by Irish as the first official language under the 1937 Constitution, Údarás na Gaeltachta (1980), Raidió na Gaeltachta (1972), TG4 (1996) and Irish-medium schools. Threats include out-migration of young people, in-migration of English speakers and holiday homes, and English-language media. The 2022 census showed about 1.9 million people able to speak Irish but only about 72,000 speaking it daily outside education, a large gap between ability and use. Belgium is divided into Dutch-speaking Flanders in the north, French-speaking Wallonia in the south, a German-speaking community in the east, and a bilingual Brussels-Capital Region that lies inside Flanders but is mostly French-speaking. The border was fixed by law in 1962–63. Belgium became a federal state in 1993 with three regions and three language communities, each with its own parliament, and schools, media and parties are divided by language. The 1968 split of the Leuven university, with the French-speaking section moving to Louvain-la-Neuve, and the 541 days without a government after the 2010 election show how deep the divide runs. The language border matches an economic divide, with prosperous Flanders, which has the port of Antwerp, set against Wallonia.",
+    "prompt": "Examine how language can be used to define regions, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Islam defines a region that stretches from Morocco through the Middle East and Central Asia to Pakistan, Bangladesh and Indonesia, which has the largest Muslim population of any country. Islam was founded by the Prophet Muhammad in Arabia in the 7th century, with Mecca and Medina as its holiest cities, and the Islamic calendar begins with the Hijra in 622. Arab conquest carried Islam into Spain from 711, trade carried it to South and South-East Asia, and the Ottoman Turks carried it into the Balkans. Shared features include the Five Pillars, Arabic as the language of the Qur'an, mosques and minarets, Islamic law in some states, and common customs of dress, food and calendar. Sunni Muslims form the large majority, while Shia Muslims are the majority in Iran and Iraq, and the rivalry adds to Middle East conflict. Its edges reach Europe: Ottoman rule left Muslim communities in the Balkans, Spain was under Muslim rule until Granada fell in 1492, and migration has created large Muslim communities in France, Germany and Britain. In Ireland, Census 2022 showed the Republic about 69% Roman Catholic, down from about 78% in 2016, with about 14% stating no religion. In Northern Ireland, the Plantation of Ulster from 1609 tied religion to political identity, with mostly Catholic nationalists and mostly Protestant unionists, and Belfast's residential areas are segregated by religion and separated in places by peace walls. Census 2021 showed more Catholics than Protestants there for the first time.",
+    "prompt": "Examine how religion can be used to define regions, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Flanders in the north, where Dutch (Flemish) is spoken; Wallonia in the south, where French is spoken. The bilingual Brussels-Capital Region and the German-speaking community in the east are also acceptable.",
+    "prompt": "Name two language regions in Belgium and state the language spoken in each.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-concept-s4": {
+  "keyTerms": [
+   {
+    "definition": "A region defined by its level of wealth and development, judged by several indicators together.",
+    "term": "Socio-economic region"
+   },
+   {
+    "definition": "A region with a strong, growing economy and a concentration of population, investment and decision-making.",
+    "term": "Core region"
+   },
+   {
+    "definition": "A region distant, physically or economically, from the core, with a weaker economy and fewer opportunities.",
+    "term": "Peripheral region"
+   },
+   {
+    "definition": "The process by which advantages in a core attract further growth, widening the gap with the periphery.",
+    "term": "Cumulative causation"
+   },
+   {
+    "definition": "A region whose development is well below the national or EU average; in EU policy, GDP per head below 75% of the EU average.",
+    "term": "Less-developed region"
+   },
+   {
+    "definition": "A region that grew on heavy, traditional industry and has since lost much of it.",
+    "term": "Region of industrial decline"
+   },
+   {
+    "definition": "The clustering of firms in one place, which attracts more firms because of shared markets, labour and services.",
+    "term": "Agglomeration"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A socio-economic region is defined by its level of wealth and development, judged by several indicators at once.",
+    "h": "Socio-economic regions: the idea",
+    "points": [
+     "The indicators include income or GDP per head, unemployment, the mix of primary, secondary and tertiary jobs, migration, age structure, education and services.",
+     "Primary jobs take materials from the land and sea (farming, fishing, forestry, mining); secondary jobs make goods in factories; tertiary jobs provide services.",
+     "The core–periphery idea: wealth, people and investment concentrate in a core, while the periphery loses people and capital to it.",
+     "Cumulative causation: each advantage in the core attracts more, so the gap tends to widen unless governments or the EU intervene."
+    ]
+   },
+   {
+    "b": "A core region has a strong, growing economy, high incomes, and a concentration of population, investment and decision-making.",
+    "h": "Core regions",
+    "points": [
+     "High GDP per head and low unemployment.",
+     "A large tertiary (services) sector, including finance, company headquarters and high-tech industry.",
+     "Most foreign investment goes to the core.",
+     "Net in-migration of young, educated workers gives it a young population.",
+     "Dense, well-developed infrastructure: motorways, airports, ports and rail lines.",
+     "Universities and research institutions, and usually the capital city with the seat of government.",
+     "Causes: accessibility, a large market and labour force, an early start, government and capital functions, and agglomeration, where firms attract more firms to the same place.",
+     "Problems of success: congestion, high house prices, urban sprawl and pressure on services."
+    ]
+   },
+   {
+    "h": "Core region examples",
+    "points": [
+     "Greater Dublin Area: Dublin, Kildare, Meath and Wicklow. County Dublin had about 1.45 million people in Census 2022.",
+     "Dublin, the capital, has the seat of government, and its docklands host the European headquarters of many technology firms, e.g. Google. The Irish core is covered in the Irish Regions chapter.",
+     "Paris Basin, France: its region, Île-de-France, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
+     "The Blue Banana: the curved belt of Europe's main core, running from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan)."
+    ]
+   },
+   {
+    "b": "A peripheral region is distant, physically or economically, from the core, with a weaker economy and fewer opportunities.",
+    "h": "Peripheral regions",
+    "points": [
+     "Remote location and poor access to markets and services.",
+     "Difficult physical conditions: mountains, high rainfall, poor soils and a short growing season.",
+     "Dependence on primary activity: small farms, fishing and forestry.",
+     "Low incomes and higher unemployment or underemployment.",
+     "Net out-migration of young adults, leaving an ageing population and falling numbers in rural areas.",
+     "Fewer services, and small, scattered settlements."
+    ]
+   },
+   {
+    "h": "Responses in peripheral regions",
+    "points": [
+     "EU regional and cohesion funds and state agencies channel investment into the periphery.",
+     "Better roads and broadband, and decentralisation of government offices, help peripheral areas keep people and jobs.",
+     "Tourism builds on the scenery and culture of peripheral areas.",
+     "The case-study chapters give the detail for each example."
+    ]
+   },
+   {
+    "h": "Peripheral region examples",
+    "points": [
+     "West of Ireland: the Northern and Western regional assembly area. Co. Leitrim has the smallest population of any Irish county.",
+     "The Mezzogiorno, southern Italy, is covered in the European Regions chapter.",
+     "Northern Norway: Arctic, remote and reliant on fishing.",
+     "North-west Scotland: the Highlands and Islands."
+    ]
+   },
+   {
+    "h": "Less-developed regions",
+    "points": [
+     "A less-developed region is one whose level of development is well below the national or EU average.",
+     "In EU regional policy, a less-developed region has GDP per head below 75% of the EU average, and receives the most EU aid.",
+     "Most less-developed regions in Europe are also peripheral: the Mezzogiorno, and much of eastern Europe such as Romania and Bulgaria.",
+     "Peripheral is not the same as less-developed: a peripheral region can lie in a rich country, such as the West of Ireland or northern Norway.",
+     "Ireland was a single Objective 1 region until 1999. From 2000 to 2006 only the BMW (Border, Midland and Western) region kept Objective 1 status.",
+     "At a global scale, less-developed regions are developing countries. India is the continental example, covered in its own chapter.",
+     "The Mezzogiorno's development history, beginning with the Cassa per il Mezzogiorno (Fund for the South) in 1950, is covered in the European Regions chapter."
+    ]
+   },
+   {
+    "b": "A region of industrial decline grew on heavy, traditional industry and has since lost much of it.",
+    "h": "Regions of industrial decline",
+    "points": [
+     "Its traditional industries include coal mining, iron and steel, shipbuilding and textiles.",
+     "Causes: coal seams exhausted or too costly to work; cheaper imports and competition from newly industrialised countries.",
+     "Further causes: coal replaced by oil and gas; out-of-date plant; and automation, which needs fewer workers.",
+     "Effects: high unemployment, especially among older male workers; derelict factories, mines and spoil heaps; and polluted land.",
+     "Further effects: out-migration, falling services, and a poor image that deters new investment.",
+     "Responses: retraining; clearing and cleaning derelict land; attracting new light industry and services; universities and technology parks; reuse of industrial heritage for tourism and culture; EU funds."
+    ]
+   },
+   {
+    "h": "Examples of industrial decline",
+    "points": [
+     "Sambre–Meuse valley, Wallonia, Belgium: coal mining and steel along the Sambre and Meuse, e.g. Charleroi on the Sambre and Liège on the Meuse.",
+     "Ruhr, Germany (North Rhine-Westphalia): Europe's largest coal and steel region, with cities including Essen, Dortmund and Duisburg.",
+     "Prosper-Haniel in Bottrop, the last hard-coal mine in Germany, closed in 2018. The Zollverein coal mine complex in Essen became a UNESCO World Heritage Site in 2001 and is now a cultural centre.",
+     "South Wales coalfield, including the Rhondda valleys: coal mining collapsed in the late 20th century.",
+     "Nord–Pas-de-Calais, France, is a further European example.",
+     "Belfast: the Harland and Wolff shipyard, which built the Titanic (launched 1911), declined greatly in the late 20th century.",
+     "Dublin docklands: port jobs fell with containerisation. The International Financial Services Centre (IFSC), established in 1987 on derelict dockland, regenerated the area. Irish economic evidence is in the Primary, Secondary and Tertiary Economic Activities chapter."
+    ]
+   },
+   {
+    "h": "Comparing core and peripheral regions",
+    "points": [
+     "Primary: large, commercial, efficient farms on good land in the core; small, fragmented farms on poor land in the periphery, with more fishing and forestry.",
+     "Secondary: concentrations of manufacturing and multinational investment in the core; few, small and often grant-aided factories in the periphery.",
+     "Tertiary: finance, headquarters, government, universities, and major ports and airports in the core; tourism and public services in the periphery."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Primary: core regions have large, commercial, efficient farms on good land, while the West of Ireland periphery has small, fragmented farms on poor land, with more fishing and forestry. Secondary: the core attracts manufacturing and multinational investment, while the periphery has few, small and often grant-aided factories. Tertiary: the core has finance, company headquarters, government, universities, and major ports and airports, while the periphery depends on tourism and public services. Causes: the core's accessibility, large market and labour force, and agglomeration draw investment in; the periphery's remoteness, difficult physical conditions and out-migration of young adults keep it weak. Effects: the core has congestion, high house prices and urban sprawl, while the periphery has an ageing population, falling rural numbers and fewer services. Responses in the periphery include EU regional and cohesion funds, better roads and broadband, and tourism.",
+    "prompt": "Contrast the primary, secondary and tertiary activities of a core region and a peripheral region you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Example: the Ruhr in western Germany. It was Europe's largest coal and steel region, with cities including Essen, Dortmund and Duisburg. Causes: coal seams became exhausted or too costly to work; cheaper imports and competition from newly industrialised countries; coal was replaced by oil and gas; plant was out of date; and automation needed fewer workers. Effects: high unemployment, especially among older male workers; derelict factories, mines and spoil heaps; polluted land; out-migration; falling services; and a poor image that deters new investment. Responses: the last hard-coal mine, Prosper-Haniel in Bottrop, closed in 2018; the Zollverein coal mine complex in Essen, a UNESCO World Heritage Site since 2001, was converted into a cultural centre; derelict land was cleared and cleaned; new light industry, services, universities and technology parks were attracted; and EU funds supported retraining and renewal.",
+    "prompt": "Examine the causes and effects of industrial decline in a region you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "(i) Core region: strong, growing economy with high GDP per head and low unemployment; a large tertiary sector with finance, headquarters and high-tech industry; most foreign investment; net in-migration of young, educated workers; dense infrastructure of motorways, airports, ports and rail; universities; and usually the capital city. Example: the Greater Dublin Area (Dublin, Kildare, Meath and Wicklow), with County Dublin home to about 1.45 million people in Census 2022. (ii) Peripheral region: distant from the core with poor access; difficult physical conditions such as mountains, high rainfall and poor soils; dependence on small farms, fishing and forestry; low incomes and higher unemployment; net out-migration of young adults and an ageing population; fewer services and small, scattered settlements. Example: the West of Ireland, the Northern and Western regional assembly area.",
+    "prompt": "Describe the main characteristics of (i) a core region and (ii) a peripheral region, naming an example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-concept-s5": {
+  "keyTerms": [
+   {
+    "definition": "A central point where transport routes meet, usually a town or city.",
+    "term": "Node"
+   },
+   {
+    "definition": "A city and the surrounding area linked to it by flows of people, goods, services and information.",
+    "term": "Nodal region"
+   },
+   {
+    "definition": "The area around a town or city that it serves and depends on for jobs, shopping, services and markets.",
+    "term": "Hinterland"
+   },
+   {
+    "definition": "The part of a city's hinterland from which people travel daily to work in the city.",
+    "term": "Commuter belt"
+   },
+   {
+    "definition": "The continuously built-up part of a city.",
+    "term": "Urban area"
+   },
+   {
+    "definition": "The largest city in a country, far larger than any other, usually the capital.",
+    "term": "Primate city"
+   },
+   {
+    "definition": "A city region with several centres of similar size rather than one dominant city.",
+    "term": "Polycentric region"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A nodal region is a city together with the surrounding area linked to it by flows of people, goods, services and information. It is defined by connections, not by uniform features.",
+    "h": "Nodal regions and the idea of a node",
+    "points": [
+     "A node is a central point where routes meet by road, rail, sea or air, usually a town or city.",
+     "A nodal region is also called a functional, city or urban region.",
+     "A hinterland is the area around a town or city that it serves and depends on for jobs, shopping, services and markets. It is also called its sphere of influence or urban field.",
+     "The urban area is the continuously built-up part of the city; the hinterland extends far beyond it.",
+     "The commuter belt is the part of the hinterland from which people travel daily to work in the city."
+    ]
+   },
+   {
+    "h": "How a city and its hinterland interact",
+    "points": [
+     "Jobs: commuters travel in from the hinterland every day.",
+     "Services: the city provides shops, hospitals, third-level colleges, entertainment and offices that smaller places cannot support, and people from the hinterland travel in to use them.",
+     "Goods: the hinterland supplies food, water, raw materials and labour; the city supplies manufactured goods and services.",
+     "A port's hinterland is the area whose trade passes through it.",
+     "Information: local newspapers, radio and TV stations serve the hinterland."
+    ]
+   },
+   {
+    "h": "Measuring a hinterland",
+    "points": [
+     "Commuting data from the census show where people travel to work.",
+     "The catchment area of a hospital, college or secondary school.",
+     "The circulation area of a local newspaper, or the reach of a local radio station.",
+     "Bus and rail routes and timetables.",
+     "The delivery areas of businesses, and the home addresses of shoppers or of members of a sports club.",
+     "The edge of a hinterland is not a sharp line: neighbouring hinterlands overlap, and different services give different boundaries.",
+     "Larger cities have larger hinterlands; a capital city's hinterland for some services is the whole country."
+    ]
+   },
+   {
+    "h": "Changing hinterlands",
+    "points": [
+     "Motorways, car ownership, faster rail and remote working extend commuter belts outwards.",
+     "New shopping centres or services in smaller towns can shrink a city's hinterland."
+    ]
+   },
+   {
+    "b": "A primate city is the largest city in a country, far larger than any other. Dublin is Ireland's primate city and capital.",
+    "h": "Dublin: a primate city and its hinterland",
+    "points": [
+     "It is the focus of the national motorway network: radial routes meet at the M50 ring road. The main rail lines also meet there.",
+     "Dublin Port and Dublin Airport, Ireland's busiest airport, make the city the main national gateway for trade and travel.",
+     "The commuter belt extends into Meath, Kildare, Wicklow and Louth, with fast-growing commuter towns: Navan (Co. Meath), Naas and Newbridge (Co. Kildare), Bray (Co. Wicklow) and Drogheda (Co. Louth).",
+     "For government, national media, specialist hospitals and the main airport, Dublin's hinterland is the whole country.",
+     "Problems of its urban region: urban sprawl, long commutes and congestion, and high house prices.",
+     "The growth of city regions and Dublin's council structures are covered in the European Regions chapter; land use and planning are covered in the Urban Geography chapter."
+    ]
+   },
+   {
+    "h": "Other Irish cities",
+    "points": [
+     "Cork: Ireland's second city, at the head of Cork Harbour on the River Lee.",
+     "Cork Harbour has a port and a pharmaceutical industry, with plants at Ringaskiddy. Cork's hinterland covers much of Munster, with commuter towns Carrigaline, Midleton and Cobh.",
+     "Galway: the main city of the West, serving a large rural hinterland that includes Connemara.",
+     "Galway is a centre of the medical devices industry and of higher education, home to the University of Galway.",
+     "Limerick and Waterford are regional cities serving the Mid-West and the South-East."
+    ]
+   },
+   {
+    "h": "Planning to balance Irish city regions",
+    "points": [
+     "The National Planning Framework, part of Project Ireland 2040 and published in 2018, aims to direct more growth to Cork, Limerick, Galway and Waterford to counterbalance Dublin."
+    ]
+   },
+   {
+    "h": "European cities",
+    "points": [
+     "Paris is the primate city of France, at the centre of the Paris Basin. Radial motorways and TGV high-speed lines meet there, so its hinterland reaches across France.",
+     "The first TGV line, Paris to Lyon, opened in 1981. Charles de Gaulle Airport serves the city.",
+     "London is the capital of the United Kingdom and a global financial centre, through the City of London. Greater London has about 9 million people (Census 2021), and its commuter belt covers much of south-east England.",
+     "Brussels is the capital of Belgium and seat of the main EU institutions: the European Commission, the Council of the EU and the European Parliament, which also meets in Strasbourg. NATO headquarters is also in Brussels.",
+     "Rotterdam is Europe's largest port, at the mouth of the Rhine (Europoort). Its hinterland is the whole Rhine basin, linked by river barges, rail and pipelines, so it crosses national borders.",
+     "Milan is the main city of Lombardy, the core of northern Italy, and Italy's financial centre, home to the Borsa Italiana stock exchange.",
+     "Other urban regions named in exam matching include Munich (capital of Bavaria), Berlin (capital of Germany) and Rome (capital of Italy)."
+    ]
+   },
+   {
+    "h": "The Randstad: a polycentric city region",
+    "points": [
+     "The Randstad in the Netherlands is a ring of cities (Amsterdam, Rotterdam, The Hague and Utrecht) forming one large urban region around a rural area called the Green Heart (Groene Hart).",
+     "It is polycentric, with many centres, in contrast to the single-centre city regions of Paris and Dublin."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Dublin is a nodal region: a primate city linked by flows to the surrounding area. Its urban area is the built-up city, while its hinterland extends far beyond it. Its node status comes from radial national routes meeting at the M50 ring road, the main rail lines, Dublin Port and Dublin Airport. The commuter belt extends into Meath, Kildare, Wicklow and Louth, with commuter towns such as Navan, Naas, Newbridge, Bray and Drogheda. Flows run both ways: commuters travel in to jobs, while the hinterland supplies food, water, raw materials and labour, and the city supplies manufactured goods and services. The city provides shops, hospitals, third-level colleges, entertainment and offices that smaller places cannot support. For government, national media, specialist hospitals and the main airport, the hinterland is the whole country. The hinterland is measured by commuting census data, the catchment areas of hospitals and colleges, the circulation area of local newspapers, bus and rail routes, business delivery areas and the home addresses of shoppers. Its edge is not sharp, because neighbouring hinterlands overlap. It changes over time: motorways, car ownership, faster rail and remote working extend commuter belts. The relationship also brings problems, including urban sprawl, long commutes and congestion, and high house prices.",
+    "prompt": "Examine the relationship between an urban area and its hinterland, with reference to an Irish or European city you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A nodal region is a city together with the surrounding area linked to it by flows of people, goods, services and information, so it is defined by connections rather than by uniform features. One way to measure the hinterland is by the catchment area of a hospital, college or secondary school, which shows the area from which its users come. Other methods include commuting data from the census and the circulation area of a local newspaper.",
+    "prompt": "Explain what is meant by a nodal region and describe one way the extent of a city's hinterland can be measured.",
+    "type": "short"
+   },
+   {
+    "marks": 2,
+    "model": "(a) True: the circulation area of a local newspaper shows the area the city's media serves. (b) False: a nodal region is defined by links to a central node, not by features that are the same throughout it.",
+    "prompt": "True or false: (a) A city's hinterland can be mapped using the circulation area of its local newspaper. (b) A nodal region is defined by features that are the same throughout it.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-rivers-s1": {
   "keyTerms": [
    {
