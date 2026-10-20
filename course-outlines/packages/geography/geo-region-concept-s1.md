@@ -50,7 +50,7 @@ and no climate figures other than those below.
 |---|---|
 | R3 | Scale examples: Co. Clare (local), the West of Ireland (national), North West Europe (continental), the Islamic world (global). |
 | C3, C5 Irish temperatures | Met Éireann long-term averages: mean January (coldest month) temperatures about 4–7°C; mean July (warmest month) temperatures about 14–16°C; annual range therefore only about 10°C. Snow is rare on low ground. |
-| C3, C5 Irish rainfall | Annual rainfall: about 750 mm in the driest parts of the east (around Dublin); about 1,000–1,400 mm across much of the west; over 2,000 mm on many western mountains. Wet days (days with measurable rain): about 150 a year on the east and south-east coasts, up to about 225 a year in parts of the west. The south-east is the sunniest region. |
+| C3, C5 Irish rainfall | Annual rainfall: about 750 mm in the driest parts of the east (around Dublin); about 1,000–1,250 mm across much of the west; over 2,000 mm on many western mountains. Wet days (days with measurable rain): about 150 a year on the east and south-east coasts, up to about 225 a year in parts of the west. The south-east is the sunniest region. |
 | C4 | Ireland lies between about 51.5°N and 55.5°N. The North Atlantic Drift is the extension of the Gulf Stream. Prevailing winds are south-westerly. |
 | C6 | North West Europe: Ireland, Britain, north-west France (Brittany), Belgium, the Netherlands, Denmark, coastal Norway. |
 | C2 | Warm temperate oceanic = the Mediterranean type of climate (hot, dry summers; mild, wet winters). Hot desert: e.g. the Sahara. |
