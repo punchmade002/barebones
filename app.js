@@ -478,6 +478,9 @@ let viewMode = 'chapter';
 let pickingOutcome = false;
 // Live reading state lives up here because bindEvents() runs before the reader's code below.
 const LIVE_READER_WPM_KEY = "bb-live-reader-wpm";
+// The highlight moves a character at a time; the slider stays in words per
+// minute using the usual five-characters-to-a-word convention.
+const LIVE_READER_CHARS_PER_WORD = 5;
 const liveReader = { lines: [], index: 0, pos: 0, playing: false, raf: 0, lastTs: 0, wpm: 220 };
 const mathsSolutionStore = new Map();
 
@@ -3015,6 +3018,7 @@ function openLiveReader() {
   // Start from whatever the reader had scrolled to in the notes.
   const bodyTop = els.fullNotesBody.getBoundingClientRect().top;
   liveReader.lines = buildLiveReaderLines();
+  liveReader.lines.forEach((line) => { line.text = line.words.join(" "); });
   if (!liveReader.lines.length) return;
   const firstVisible = liveReader.lines.findIndex((line) => line.el?.getBoundingClientRect().bottom > bodyTop + 8);
   liveReader.index = Math.max(0, firstVisible);
@@ -3022,9 +3026,7 @@ function openLiveReader() {
 
   els.liveReaderTrack.innerHTML = liveReader.lines.map((line, idx) => `
     <p class="lr-line" data-index="${idx}">${line.label
-      ? `<span class="lr-label">${escapeHtml(line.label)}</span>` : ""}${line.words
-      .map((word) => `<span class="lr-word">${escapeHtml(word)}</span>`)
-      .join(" ")}</p>`).join("");
+      ? `<span class="lr-label">${escapeHtml(line.label)}</span>` : ""}<span class="lr-text"><span class="lr-read"></span><span class="lr-rest">${escapeHtml(line.text)}</span></span></p>`).join("");
 
   els.fullNotesBody.classList.add("hidden");
   els.liveReader.classList.remove("hidden");
@@ -3053,7 +3055,7 @@ function toggleLiveReaderPlay() {
 
 function playLiveReader() {
   if (liveReader.index >= liveReader.lines.length - 1
-    && liveReader.pos >= liveReader.lines[liveReader.index].words.length) {
+    && liveReader.pos >= liveReader.lines[liveReader.index].text.length) {
     goToLiveLine(0);
   }
   liveReader.playing = true;
@@ -3075,13 +3077,13 @@ function tickLiveReader(ts) {
   if (!liveReader.playing) return;
   const dt = liveReader.lastTs ? Math.min(ts - liveReader.lastTs, 250) : 0;
   liveReader.lastTs = ts;
-  liveReader.pos += dt / (60000 / liveReader.wpm);
-  const words = liveReader.lines[liveReader.index].words.length;
-  if (liveReader.pos >= words) {
+  liveReader.pos += dt / (60000 / (liveReader.wpm * LIVE_READER_CHARS_PER_WORD));
+  const chars = liveReader.lines[liveReader.index].text.length;
+  if (liveReader.pos >= chars) {
     if (liveReader.index < liveReader.lines.length - 1) {
       goToLiveLine(liveReader.index + 1);
     } else {
-      liveReader.pos = words;
+      liveReader.pos = chars;
       renderLiveReaderWords();
       pauseLiveReader();
       return;
@@ -3127,12 +3129,17 @@ function layoutLiveReader(animate) {
 
 function renderLiveReaderWords() {
   const lineEl = els.liveReaderTrack.children[liveReader.index];
-  if (!lineEl) return;
-  const lit = Math.ceil(liveReader.pos);
-  lineEl.querySelectorAll(".lr-word").forEach((word, idx) => word.classList.toggle("is-read", idx < lit));
-  els.liveReaderTrack.querySelectorAll(".lr-line.is-past .lr-word:not(.is-read)").forEach((w) => w.classList.add("is-read"));
-  const words = liveReader.lines[liveReader.index].words.length;
-  const done = (liveReader.index + Math.min(1, liveReader.pos / words)) / liveReader.lines.length;
+  const line = liveReader.lines[liveReader.index];
+  if (!lineEl || !line) return;
+  // Both halves stay in one run of inline text, so moving the split never
+  // changes where the line wraps.
+  const lit = Math.min(line.text.length, Math.floor(liveReader.pos));
+  const read = lineEl.querySelector(".lr-read");
+  if (read.textContent.length !== lit) {
+    read.textContent = line.text.slice(0, lit);
+    lineEl.querySelector(".lr-rest").textContent = line.text.slice(lit);
+  }
+  const done = (liveReader.index + Math.min(1, liveReader.pos / line.text.length)) / liveReader.lines.length;
   els.liveReaderProgress.style.width = `${(done * 100).toFixed(2)}%`;
 }
 
