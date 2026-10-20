@@ -935,6 +935,551 @@
    }
   ]
  },
+ "geo-graph-skills-s1": {
+  "keyTerms": [
+   {
+    "definition": "The general direction in which a series of values moves over time, separate from short-term changes.",
+    "term": "Trend"
+   },
+   {
+    "definition": "The highest point on a graph or the highest value in a data series.",
+    "term": "Peak"
+   },
+   {
+    "definition": "The lowest point on a graph or the lowest value in a data series.",
+    "term": "Trough"
+   },
+   {
+    "definition": "The arithmetic difference between two percentages, so 20% rising to 30% is a rise of 10 percentage points.",
+    "term": "Percentage point"
+   },
+   {
+    "definition": "The average: the total of the values divided by the number of values.",
+    "term": "Mean"
+   },
+   {
+    "definition": "The middle value when the values are arranged in order of size; the average of the middle two for an even number of values.",
+    "term": "Median"
+   },
+   {
+    "definition": "The value that occurs most often in a set of data.",
+    "term": "Mode"
+   },
+   {
+    "definition": "The highest value minus the lowest value in a set of data.",
+    "term": "Range"
+   },
+   {
+    "definition": "A bar split into segments, where the height of the whole bar shows the total.",
+    "term": "Compound bar chart"
+   },
+   {
+    "definition": "A bar chart for continuous data grouped into classes, drawn with no gaps between the bars.",
+    "term": "Histogram"
+   },
+   {
+    "definition": "A back-to-back bar chart showing the percentage of males on the left and females on the right in each age group.",
+    "term": "Population pyramid"
+   },
+   {
+    "definition": "A graph combining mean monthly temperature as a line (°C) and monthly rainfall as bars (mm) for twelve months.",
+    "term": "Climate graph"
+   },
+   {
+    "definition": "A graph plotting two variables for the same places as unjoined points, used to show correlation.",
+    "term": "Scatter graph"
+   },
+   {
+    "definition": "The direction and strength of the relationship between two variables: positive, negative or none.",
+    "term": "Correlation"
+   },
+   {
+    "definition": "A straight line drawn by eye through the middle of the points on a scatter graph.",
+    "term": "Line of best fit"
+   },
+   {
+    "definition": "A value that breaks the pattern shown by the other values in a data set.",
+    "term": "Anomaly"
+   },
+   {
+    "definition": "A graph showing three components that always total 100%, read on three scales.",
+    "term": "Triangular graph"
+   },
+   {
+    "definition": "A map of areas shaded by value class, where darker shading means a higher value.",
+    "term": "Choropleth map"
+   },
+   {
+    "definition": "A line on a map joining places of equal value.",
+    "term": "Isoline"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Read the labels and units before reading any value. Most lost marks come from a wrong unit, year or column.",
+    "h": "Reading a figure or table",
+    "points": [
+     "Check the title, both axis labels, the key or legend, the units (%, thousands, millions, €m, hectares, mm, °C, per 1,000), the years shown and the source line.",
+     "Read a bar or line value by running a ruler from the top of the bar or point across to the vertical axis, estimating between gridlines, and quoting the value with its unit.",
+     "In a table, find the row and the column and read the cell where they meet; check the totals row before using a figure.",
+     "Compare two years by reading neighbouring columns; to spot the one that did not change, read across the whole row.",
+     "Highest and lowest: scan every value, not just the first and last. For a ranking, list the values from largest to smallest.",
+     "Count how many items are above an average line by counting the bars or points whose tops lie above it.",
+     "Twice as much: double the smaller value and look for the value that matches it.",
+     "Infographics combine headline numbers, icons, small charts and county maps on one page. Read each panel's own label and unit: headline figures are often totals, while panels may show percentages."
+    ]
+   },
+   {
+    "b": "A description states what the figure shows. An explanation states why it shows it.",
+    "h": "Describing and explaining trends",
+    "points": [
+     "Trend vocabulary: increase, rise or growth; decrease, fall or decline; steady, constant or no change; fluctuate; peak (highest point); trough (lowest point); gradual or rapid (sharp); levelling off.",
+     "The overall trend is the long-term direction. A short-term change, such as a single year's dip, is described separately.",
+     "To describe a trend, state the overall direction, the start and end values with their years and units, and the period of fastest change.",
+     "Name any peak, trough or reversal, and quantify the change as the difference, the percentage change, or both.",
+     "Point out anomalies: values that break the pattern of the others.",
+     "To compare two series, say which is higher, when the lines cross, whether the gap widens or narrows, and the difference in a given year (for example, net migration = immigration minus emigration).",
+     "To explain a trend, link the pattern to one cause from the relevant chapter, in one clause.",
+     "To evaluate a figure, check whether an axis that does not start at zero or has uneven intervals exaggerates change, whether unevenly spaced dates distort the trend, whether the sample is small, and whether the source is reliable and recent.",
+     "Percentages can hide small totals: a large percentage rise may be a small change in numbers."
+    ]
+   },
+   {
+    "b": "These worked values come from the invented (illustrative) population of six towns, in thousands: Town A 18, Town B 32, Town C 25, Town D 41, Town E 12, Town F 29.",
+    "h": "Totals, differences, means and ranges",
+    "points": [
+     "Total (sum): 18 + 32 + 25 + 41 + 12 + 29 = 157 thousand (illustrative).",
+     "Difference: subtract the smaller value from the larger and say which is larger. Town B (32) exceeds Town C (25) by 7 thousand (illustrative).",
+     "Mean (average) = total of the values ÷ number of values: 157 ÷ 6 = 26.2 thousand, to one decimal place (illustrative).",
+     "Median: put the values in order (12, 18, 25, 29, 32, 41); with an even number of values, average the middle two: (25 + 29) ÷ 2 = 27 thousand (illustrative).",
+     "Mode: the most frequent value. The six towns have no mode because no value repeats.",
+     "Range = highest value minus lowest value: 41 − 12 = 29 thousand (illustrative)."
+    ]
+   },
+   {
+    "h": "Percentages and percentage change",
+    "points": [
+     "Percentage of a total = part ÷ total × 100. Illustrative: Town D's share of the six towns is 41 ÷ 157 × 100 = 26.1%.",
+     "Percentage change = (new value − old value) ÷ old value × 100. A positive result is an increase; a negative result is a decrease.",
+     "Always divide by the old (earlier) value. Illustrative Country P, broadband households: 20% in 2000 and 90% in 2025, so the percentage change is (90 − 20) ÷ 20 × 100 = 350%.",
+     "Percentage points: when both values are already percentages, the change is a difference in percentage points. A rise from 20% to 30% is a 10 percentage-point increase, but a 50% increase in the percentage change, (30 − 20) ÷ 20 × 100.",
+     "When a question asks by what percentage a percentage changed, the subtraction is the usual reading: give the answer in percentage points and add the percentage change if unsure. Use the percentage-change formula when the values are numbers rather than percentages.",
+     "Missing value X: parts of a whole add to 100% (pie chart or percentage table) or to a stated total (stacked bar or total row), so X = total minus the sum of the known parts. Illustrative Country Q: if all segments except 'other' total 85%, then other = 100 − 85 = 15%.",
+     "To find a number from a percentage: number = percentage ÷ 100 × total."
+    ]
+   },
+   {
+    "h": "Rates, ratios and rounding",
+    "points": [
+     "Rate per 1,000 = number ÷ population × 1,000. A birth rate is births ÷ population × 1,000.",
+     "Density = number ÷ area, given as people per km².",
+     "Ratio: compare two values as a ratio, e.g. 2 : 1. Illustrative: Town D (41) is more than three times the size of Town E (12), a ratio of about 3.4 : 1.",
+     "'Twice as much' means two times the other value; 'half' means divided by two.",
+     "Round to the precision the data uses, or to one decimal place where needed, and keep the unit and the multiplier (thousands, millions) in every answer.",
+     "In a calculation question, show the working: a correct answer with working is safe, and the working can earn marks if the answer slips."
+    ]
+   },
+   {
+    "h": "Drawing a graph: marked rules",
+    "points": [
+     "Use graph paper, a sharp pencil and a ruler; draw the graph large enough to fill most of the space.",
+     "The title says what the data is, where and when, taken from the wording of the question.",
+     "The horizontal (x) axis shows categories or time; the vertical (y) axis shows values. Label both axes with units.",
+     "The scale starts at zero, is evenly divided, and its interval is chosen so the largest value fits (e.g. steps of 5 or 10 units).",
+     "On a line graph, time intervals are spaced in proportion to the years.",
+     "Plot every value accurately. Bars have equal widths and equal gaps; points are joined with ruled straight lines.",
+     "Use a key or legend whenever more than one colour or shading is used, and shade or colour each category distinctly."
+    ]
+   },
+   {
+    "b": "Illustrative data: population of six towns, in thousands, from the totals block above.",
+    "h": "Worked example: drawing a bar chart (illustrative)",
+    "points": [
+     "Graph choice: a bar chart, because the values are one measure for separate towns.",
+     "Title: 'Population of six towns (thousands), illustrative'.",
+     "x-axis: 'Town', with Towns A to F in order.",
+     "y-axis: 'Population (thousands)', from 0 to 45 in steps of 5, so the largest value (41) fits.",
+     "Six bars of equal width with equal gaps, each drawn to its value: A 18, B 32, C 25, D 41, E 12, F 29.",
+     "A single data series needs no key; check each bar top against the scale before finishing."
+    ]
+   },
+   {
+    "b": "The question 'draw a suitable graph' is answered with one sentence of justification after naming the graph type. Each example below is illustrative.",
+    "h": "Choosing a suitable graph",
+    "points": [
+     "Values for separate categories, e.g. the populations of six towns: bar chart.",
+     "Change over time, e.g. the percentage of an urban population from 1980 to 2020: line graph (a bar chart is usually also accepted).",
+     "Parts of a whole, or percentage shares adding to 100%, e.g. car sales by fuel type in one year: pie chart or divided bar.",
+     "Two related variables for the same places, e.g. income and birth rate for twenty countries: scatter graph.",
+     "Three components that add to 100%, e.g. sand, silt and clay at a soil site: triangular graph.",
+     "Age and sex structure of a population: population pyramid.",
+     "Monthly temperature and rainfall for one place: climate graph.",
+     "Values for areas on a map, e.g. population density by region: choropleth map."
+    ]
+   },
+   {
+    "h": "Bar charts, histograms and line graphs",
+    "points": [
+     "Simple bar chart: separate categories, one bar per category, equal widths and equal gaps; vertical or horizontal.",
+     "Multiple (clustered or comparative) bar chart: two or more bars side by side per category, e.g. males and females, or two years; a key is needed.",
+     "Compound (stacked or divided) bar chart: each bar is split into components, and the top of the whole bar is the total.",
+     "To read a component in a compound bar, take the top of its segment minus the bottom of its segment.",
+     "Percentage compound bar: every bar reaches 100%, so the segments show shares rather than totals.",
+     "Illustrative Region R, tree planting: total 2,000 hectares, of which conifers 1,350 ha. Broadleaf = 2,000 − 1,350 = 650 ha, a share of 650 ÷ 2,000 × 100 = 32.5%.",
+     "Histogram: like a bar chart but for continuous data grouped in classes (e.g. age groups or rainfall amounts), drawn with no gaps between bars.",
+     "Line graph (trend graph): one variable over time; plot the points at the correct years and join them with ruled lines.",
+     "Multiple line graph: two or more series on the same axes, with a key.",
+     "The gradient of a line shows the rate of change: a steeper section means faster change.",
+     "Illustrative Country P, households with broadband: 2000 20%, 2005 38%, 2010 61%, 2015 74%, 2020 86%, 2025 90%. The rise is continuous; the fastest change is 2005 to 2010 (+23 percentage points), and the rise slows to +4 points from 2020 to 2025 as the line levels off.",
+     "Illustrative Country P: the change from 2000 to 2025 is +70 percentage points, which is not the same as the 350% percentage change above."
+    ]
+   },
+   {
+    "h": "Pie charts and divided bars",
+    "points": [
+     "Pie chart: parts of a whole. Degrees = percentage × 3.6, because 360° ÷ 100 = 3.6.",
+     "For raw numbers rather than percentages: degrees = value ÷ total × 360.",
+     "Drawing steps: draw a circle with a compass, draw a radius to 12 o'clock, then measure each angle clockwise with a protractor, largest segment first.",
+     "Shade, key or label each segment with its percentage, and check that the angles add to 360°.",
+     "Illustrative Country Q, electricity sources (gas 40%, wind 25%, solar 10%, coal 5%, hydro 5%, other 15%): angles 144°, 90°, 36°, 18°, 18° and 54°, totalling 360°.",
+     "Two pie charts compare the shares in two years, not the totals, unless the circles are drawn in proportion to the totals.",
+     "Divided (percentage) bar: a single bar split into shares that add to 100%, an alternative to a pie chart."
+    ]
+   },
+   {
+    "h": "Pictograms, population pyramids and the pyramid method",
+    "points": [
+     "Pictogram: each icon stands for a fixed quantity stated in the key; a part-icon is a fraction of that quantity.",
+     "Population pyramid: a back-to-back horizontal bar chart, which is a histogram on its side.",
+     "Age groups, usually in 5-year bands, sit on the central vertical axis: 0 to 4 at the bottom and the oldest group at the top.",
+     "Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, scaled outward from zero on both sides.",
+     "Reading a pyramid: a wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.",
+     "Describe the dependent groups (young and old) and the working-age group when reading a pyramid.",
+     "The shapes of pyramids and the stages of demographic transition belong to geo-population-migration-s1.",
+     "Method for drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females aged 20 to 24 are 3.4%. Draw a bar 3.5 units long to the left of the centre axis and a bar 3.4 units long to the right, at the 20 to 24 level."
+    ]
+   },
+   {
+    "h": "Climate graphs",
+    "points": [
+     "Months J to D run along the bottom axis. Rainfall is shown as bars against a left-hand axis in mm.",
+     "Mean monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.",
+     "From the graph, read the hottest and coldest months, the wettest and driest months, and the seasonal pattern (rain all year, or a wet and dry season).",
+     "Calculations from the graph: annual temperature range = maximum mean monthly temperature minus minimum; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars.",
+     "Identifying a climate type from a climate graph is taught in geo-region-concept-s1 and geo-option-atmosphere-ocean-s5.",
+     "Illustrative Station M, mean monthly temperature (°C) J to D: 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8, 6. Rainfall (mm) J to D: 110, 80, 85, 60, 65, 70, 70, 85, 90, 115, 110, 120.",
+     "Illustrative Station M results: warmest in July and August (16°C); coldest in January and February (5°C); annual range 16 − 5 = 11°C; mean annual temperature 123 ÷ 12 = 10.3°C.",
+     "Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern."
+    ]
+   },
+   {
+    "h": "Scatter graphs",
+    "points": [
+     "Scatter graph: two variables for the same set of places. The independent variable goes on the x-axis; each place is plotted as a point, and the points are not joined.",
+     "Draw a line of best fit by eye through the middle of the points.",
+     "Positive correlation: both variables rise together. Negative correlation: one rises as the other falls. No correlation: no clear pattern. Strength is described as strong or weak.",
+     "Outliers, or anomalies, are points that lie away from the pattern of the others.",
+     "Correlation does not prove cause.",
+     "Illustrative distance from a city centre and land value at eight sites: 1 km €900 per m²; 2 km €700; 3 km €620; 4 km €450; 5 km €400; 6 km €250; 7 km €260; 8 km €150.",
+     "Illustrative: the result is a strong negative correlation, with the 7 km site a slight anomaly because it is higher than the 6 km site. A one-clause explanation: accessibility falls with distance from the centre."
+    ]
+   },
+   {
+    "h": "Triangular graphs",
+    "points": [
+     "Triangular graph: shows three components that always total 100%, e.g. the percentage employed in the primary, secondary and tertiary sectors.",
+     "Each side is a 0 to 100% scale. Read each component along the gridlines parallel to the side where its 0 is, following the direction in which its numbers run.",
+     "Check that the three readings add to 100.",
+     "To plot a point: find the first value on its scale, follow its gridline in, and mark where it meets the second value's gridline; check the point with the third value.",
+     "A point clustered near a corner is dominated by the component that corner represents.",
+     "Illustrative employment structure: Country X is primary 10%, secondary 25%, tertiary 65%; it sits near the tertiary corner, typical of a developed economy. Country Y is primary 60%, secondary 15%, tertiary 25%; it sits near the primary corner, typical of a less developed economy."
+    ]
+   },
+   {
+    "h": "Choropleth and other statistical maps",
+    "points": [
+     "Choropleth map: areas (counties, regions or countries) shaded by value class; darker shading means a higher value.",
+     "Classes must not overlap and must cover every value, e.g. 0 to 49, 50 to 99, 100 to 149, 150 and over. A key is essential.",
+     "Choropleth maps suit densities and percentages. Their weakness is that they imply the value is even across each area and hide variation inside it, and the boundaries look like sudden changes.",
+     "Illustrative regional population densities (people per km²): North 35, East 160, South 85, West 40, Midlands 60. North and West are the lightest shade and East the darkest; the empty 100 to 149 class still appears in the key.",
+     "Dot map: each dot stands for a fixed number, showing the distribution of a value.",
+     "Isoline map: lines join places of equal value, e.g. isobars, isotherms, isohyets or contours.",
+     "Flow-line map: arrow width is proportional to the amount moving, e.g. migration, traffic or trade.",
+     "Proportional symbols: circles or bars sized in proportion to the value, placed on the map."
+    ]
+   },
+   {
+    "h": "Tables and the investigation",
+    "points": [
+     "Use a table rather than a graph when many exact values must be given. A table cannot show a trend at a glance.",
+     "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in geo-mapwork-s3."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "A bar chart is suitable because the values are one measure for six separate towns. Title: Population of six towns (thousands), illustrative. The x-axis is labelled Town, with Towns A to F in order. The y-axis is labelled Population (thousands) and runs from 0 to 45 in steps of 5, so the largest value (41) fits. Draw six bars of equal width with equal gaps, each drawn to its value: A 18, B 32, C 25, D 41, E 12, F 29. Marked elements: a clear title that says what, where and when; both axes labelled with units; an evenly divided scale starting at zero; accurate plotting of every value; equal bars with equal gaps.",
+    "prompt": "Examine the illustrative data showing the population of six towns, in thousands: Town A 18, Town B 32, Town C 25, Town D 41, Town E 12, Town F 29. Using graph paper, draw a suitable graph to illustrate this data.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "(i) 61% in 2010 (illustrative). (ii) 2005 to 2010, when the figure rose by 23 percentage points (61% minus 38%) (illustrative). (iii) 90 minus 20 = 70 percentage points (illustrative). (iv) Percentage change = (90 − 20) ÷ 20 × 100 = 350% (illustrative). (v) The overall trend is a continuous rise, from 20% in 2000 to 90% in 2025. The fastest change was from 2005 to 2010. The rise slowed to 4 percentage points from 2020 to 2025, and the trend levelled off.",
+    "prompt": "Illustrative data for Country P, percentage of households with broadband: 2000 20%, 2005 38%, 2010 61%, 2015 74%, 2020 86%, 2025 90%. (i) State the value in 2010. (ii) Name the five-year period with the fastest increase. (iii) Give the change from 2000 to 2025 in percentage points. (iv) Give the percentage change from 2000 to 2025, showing your working. (v) Describe the trend in three points, using figures.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "(a) 25 × 3.6 = 90 degrees (illustrative check: 25 percent of 360 is 90). (b) 18 + 32 + 25 + 41 + 12 + 29 = 157; 157 ÷ 6 = 26.2 thousand (illustrative). (c) Highest 16 °C minus lowest 5 °C = 11 °C (illustrative). (d) 2,000 − 1,350 = 650 hectares of broadleaf (illustrative).",
+    "prompt": "Four illustrative calculations, each worth 2 marks, with working shown. (a) For a pie chart, what is the angle for a segment of 25%? (b) Six towns have populations, in thousands, of 18, 32, 25, 41, 12 and 29. What is their mean? (c) Mean monthly temperatures at Station M are 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8 and 6 °C. What is the range? (d) Region R has a total of 2,000 hectares of tree planting, of which 1,350 hectares are conifers. What is the area of broadleaf?",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-graph-skills-s2": {
+  "keyTerms": [
+   {
+    "definition": "An official count of every person in a country on one night, with information collected on each person and household.",
+    "term": "Census of population"
+   },
+   {
+    "definition": "A census that counts everyone present in the State on census night, including visitors, wherever they usually live.",
+    "term": "De facto census"
+   },
+   {
+    "definition": "A field worker who delivers census forms to every dwelling and collects them afterwards.",
+    "term": "Enumerator"
+   },
+   {
+    "definition": "The make-up of a population by age, sex and other characteristics such as marital status, religion, language and occupation.",
+    "term": "Demographic structure"
+   },
+   {
+    "definition": "The population aged 0 to 14 plus the population aged 65 and over, divided by the population aged 15 to 64, times 100.",
+    "term": "Dependency ratio"
+   },
+   {
+    "definition": "The number of males per 100 females: males divided by females, times 100.",
+    "term": "Sex ratio"
+   },
+   {
+    "definition": "Births minus deaths in a population over a period.",
+    "term": "Natural increase"
+   },
+   {
+    "definition": "Immigrants minus emigrants over a period.",
+    "term": "Net migration"
+   },
+   {
+    "definition": "The number of births per 1,000 people in a population per year.",
+    "term": "Crude birth rate"
+   },
+   {
+    "definition": "The number of people living in each square kilometre.",
+    "term": "Population density"
+   },
+   {
+    "definition": "The smallest area for which census results are published, roughly a street or estate.",
+    "term": "Small Area"
+   },
+   {
+    "definition": "A geographical unit for which census results are published, larger than a Small Area.",
+    "term": "Electoral Division"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A census of population is an official count of every person in the country on one night, with information collected on each person and household.",
+    "h": "What the census is and when it is held",
+    "points": [
+     "In Ireland the census is carried out by the Central Statistics Office (CSO), and taking part is required by law.",
+     "Ireland's census is de facto: it counts everyone present in the State on census night, including visitors, wherever they usually live. The form also records each person's usual residence, so results can be given both ways.",
+     "The census is normally held every five years, in years ending in 1 and 6, on a Sunday night in April.",
+     "The 2001 census was postponed to 2002 because of foot-and-mouth disease.",
+     "The 2021 census was postponed to 2022 because of COVID-19.",
+     "The next census is planned for 2027.",
+     "The first census of the Irish Free State was held in 1926."
+    ]
+   },
+   {
+    "h": "How the census is taken, and confidentiality",
+    "points": [
+     "Enumerators (field staff) deliver a household form to every dwelling before census night and collect it afterwards.",
+     "One form is completed per household, with a page for each person in it.",
+     "Communal establishments such as hotels, hospitals and prisons are covered separately, and vacant dwellings are recorded.",
+     "Information is used only for statistics, and personal forms are kept closed for 100 years.",
+     "After 100 years the returns become historical records. The 1901 and 1911 census returns are freely available online from the National Archives of Ireland and are used for family history."
+    ]
+   },
+   {
+    "h": "What the census asks",
+    "points": [
+     "Personal topics: age, sex and marital status; relationships within the household; place of birth, citizenship, ethnicity and religion; ability to speak Irish; other languages; education level.",
+     "Work topics: occupation, industry and unemployment; commuting, covering means of travel and journey time.",
+     "Housing topics: type, age and tenure of the home (owned with or without a mortgage, or rented); rent paid; heating; vacancy.",
+     "Household topics: internet access, car ownership, health and disability, and carers.",
+     "Census 2022 asked for the first time about working from home and about renewable energy sources at the home, such as solar panels.",
+     "Census 2022 included an optional time capsule page whose contents will be released after 100 years."
+    ]
+   },
+   {
+    "h": "Recent census figures",
+    "points": [
+     "Census 2011: about 4.59 million people.",
+     "Census 2016, held on 24 April 2016: about 4.76 million people.",
+     "Census 2022, held on 3 April 2022: 5,149,139, about 5.15 million people.",
+     "Between the 2016 and 2022 censuses the population rose by about 387,000, about 8%.",
+     "Northern Ireland has its own census, run by NISRA (Northern Ireland Statistics and Research Agency). Its latest was held on 21 March 2021 and counted about 1.9 million people.",
+     "Ireland's census figures cover the State, not the island. The Republic's latest census was 2022 and Northern Ireland's was 2021, so their figures must not be merged."
+    ]
+   },
+   {
+    "h": "How results are published",
+    "points": [
+     "Preliminary results are published within months of census night; detailed results by theme follow over the next year or two.",
+     "Results are published for the State, the provinces, counties, cities, towns, Electoral Divisions and Small Areas.",
+     "Small Areas are the smallest units, roughly a street or estate.",
+     "Results appear in online tables, interactive maps on the CSO website, county profiles and infographics."
+    ]
+   },
+   {
+    "h": "Uses of census data",
+    "points": [
+     "Schools: the number of young children shows how many school places are needed.",
+     "Healthcare and nursing homes: the size of the older population shows the places needed.",
+     "Housing: household numbers and vacancy show how many homes are needed.",
+     "Transport: commuting flows show where roads and public transport are needed.",
+     "Pensions and social welfare: the age structure shows future demand.",
+     "Government targets resources at disadvantaged areas and plans regional and county development.",
+     "Businesses use the figures to choose where to locate shops and services.",
+     "Researchers and students use the data; tracking the Irish language and historical and genealogical research use census returns."
+    ]
+   },
+   {
+    "h": "Political use of census data",
+    "points": [
+     "Dáil constituencies are reviewed after each census so that each TD represents roughly the same number of people.",
+     "The Constitution requires one TD for every 20,000 to 30,000 people.",
+     "Constituencies must be revised at least once every 12 years, with regard to census figures.",
+     "The Electoral Commission (An Coimisiún Toghcháin) carries out the review after each census."
+    ]
+   },
+   {
+    "h": "Limitations of census data, and other population data",
+    "points": [
+     "A census is a snapshot of one night, so it is out of date between censuses, and detailed results take a long time to appear.",
+     "There may be an undercount: homeless people and people avoiding the count can be missed.",
+     "Answers are self-reported and may be inaccurate.",
+     "A census is very expensive and raises privacy concerns.",
+     "Electoral Divisions and Small Areas change over time, which makes comparisons between censuses difficult.",
+     "Between censuses, civil registration records births, deaths and marriages; the CSO publishes annual population and migration estimates; the Labour Force Survey gives other population data."
+    ]
+   },
+   {
+    "b": "Demographic structure is the make-up of a population by age, sex and other characteristics, such as marital status, nationality or ethnicity, religion, language, education, occupation, household size and urban or rural location.",
+    "h": "Demographic structure and age structure",
+    "points": [
+     "Age structure has three groups: young dependents (0 to 14), working age (15 to 64) and old dependents (65 and over).",
+     "Dependency ratio = (0 to 14 plus 65 and over) ÷ (15 to 64) × 100. It divides by the working-age group, not by the total population.",
+     "A high young dependency ratio means many schools are needed; a high old dependency ratio means many pensions and healthcare places are needed.",
+     "Illustrative Rivertown ED, later census: 0 to 14 = 1,050; 15 to 64 = 3,120; 65 and over = 660; total 4,830.",
+     "Illustrative dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age.",
+     "Illustrative share aged 65 and over = 660 ÷ 4,830 × 100 = 13.7%.",
+     "Census data is drawn as a population pyramid in the way taught in geo-graph-skills-s1; the meaning of pyramid shapes is taught in geo-population-migration-s1."
+    ]
+   },
+   {
+    "h": "Sex structure",
+    "points": [
+     "Sex ratio = males ÷ females × 100, giving the number of males per 100 females.",
+     "Women outnumber men in the older age groups because of longer life expectancy.",
+     "Local imbalances arise from migration, e.g. young women moving to cities for work.",
+     "Illustrative Rivertown ED, later census: males 2,390 and females 2,440 (total 4,830); sex ratio = 2,390 ÷ 2,440 × 100 = 98 males per 100 females."
+    ]
+   },
+   {
+    "h": "Population change: natural increase and net migration",
+    "points": [
+     "Population change = natural increase + net migration.",
+     "Natural increase = births minus deaths.",
+     "Net migration = immigrants minus emigrants.",
+     "Comparing two censuses, with births and deaths from civil registration, gives the estimated net migration: net migration = total change minus natural increase.",
+     "Illustrative Rivertown ED, six years apart: population 4,200 at the earlier census and 4,830 at the later census, a change of +630.",
+     "Illustrative percentage change = 630 ÷ 4,200 × 100 = 15%.",
+     "Illustrative: births 380 and deaths 210 give a natural increase of 170, so net migration = 630 − 170 = +460, meaning more people moved in than out."
+    ]
+   },
+   {
+    "h": "Birth rates, death rates and other measures",
+    "points": [
+     "Crude birth rate and crude death rate are the births and deaths per 1,000 people per year.",
+     "Population density is the number of people per km².",
+     "Percentage of the population in an age group = people in the group ÷ total population × 100.",
+     "Illustrative Rivertown ED, census year: 65 births; crude birth rate = 65 ÷ 4,830 × 1,000 = 13.5 per 1,000."
+    ]
+   },
+   {
+    "h": "Ireland's population trend (link only)",
+    "points": [
+     "The State's population fell steeply after the Great Famine and was at its lowest in the 1961 census, at about 2.8 million.",
+     "For comparison, the population of the whole island was about 8.2 million in 1841.",
+     "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
+     "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
+     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in geo-population-migration-s1 and geo-population-migration-s3; migration patterns, policy and reasons are in geo-population-migration-s3 to s6."
+    ]
+   },
+   {
+    "h": "Local-area study: method",
+    "points": [
+     "Step 1: choose the area, an Electoral Division, Small Area, town or county.",
+     "Step 2: find its census tables for two or more censuses on the CSO website or interactive map.",
+     "Step 3: record the total population, age groups, sex, households, nationality and commuting.",
+     "Step 4: calculate the changes (number and percentage), the dependency ratio, the sex ratio and the share in each age group.",
+     "Step 5: present the results with graphs: a line graph of population over several censuses, bar or pie charts of age groups, a population pyramid if five-year age bands are available, or a choropleth map of Electoral Divisions.",
+     "Step 6: describe the trends; step 7: explain them; step 8: note the limitations of the data.",
+     "Illustrative Rivertown: a line graph of population over several censuses (any earlier values are invented and must be labelled illustrative), a bar or pie chart of the three age groups, and a pyramid only if five-year bands are available."
+    ]
+   },
+   {
+    "h": "Explaining local population trends",
+    "points": [
+     "New housing estates and commuter growth near cities and along motorways bring rising population, young families and a high young dependency ratio.",
+     "Rural decline in remote areas brings a falling population, an ageing population and more single-person households.",
+     "Other causes include immigration, the closure or opening of a major employer, and town-centre decline set against suburban growth.",
+     "Links: geo-population-migration-s6 and geo-urban.",
+     "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see geo-aerial-photographs-s1) that attracts young families who commute, together with positive net migration."
+    ]
+   },
+   {
+    "h": "Irish-language data and other census uses",
+    "points": [
+     "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in geo-option-culture-identity-s2.",
+     "Census data is also used in the GIS study of urban sprawl, covered in geo-weather-climate-s3."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 2,
+    "model": "Schools: census counts of young children show how many school places an area needs, so the government can plan new schools. Targeting resources: census measures of disadvantage show which areas need extra services, so resources can be directed there.",
+    "prompt": "State two ways that census data can be used by governments.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "(i) 4,830 minus 4,200 = +630 people (illustrative). (ii) 630 ÷ 4,200 × 100 = 15% increase (illustrative). (iii) Natural increase = births minus deaths = 380 − 210 = 170; net migration = total change minus natural increase = 630 − 170 = +460, so more people moved in than out (illustrative). (iv) Dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age (illustrative). (v) First reason: a new housing estate on the edge of town attracts young families who commute, adding population. Second reason: positive net migration adds people beyond natural increase.",
+    "prompt": "Illustrative data for Rivertown ED (an invented town): population 4,200 at the earlier census and 4,830 at the later census, six years apart; births 380 and deaths 210 over the period; later census age groups 0 to 14 = 1,050, 15 to 64 = 3,120, 65 and over = 660. (i) Give the population change in numbers. (ii) Give the percentage change, showing working. (iii) Calculate the natural increase and the net migration. (iv) Calculate the dependency ratio, showing working. (v) Explain two reasons for the population trend.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "(a) Every five years, on a Sunday night in April, by the Central Statistics Office (CSO). (b) It was postponed to 2022 because of COVID-19. (c) It counts everyone present in the State on census night, including visitors, wherever they usually live. (d) A census is a snapshot of one night, so it is out of date between censuses (or: there may be an undercount, such as homeless people or people avoiding the count).",
+    "prompt": "Four 2-mark parts. (a) How often is the Irish census normally held, and by which body? (b) Why was there no census in 2021? (c) What does de facto mean for the Irish census? (d) Give one limitation of census data.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-plate-tectonics-s1": {
   "keyTerms": [
    {

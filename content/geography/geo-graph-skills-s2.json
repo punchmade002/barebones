@@ -1,0 +1,208 @@
+{
+  "loId": "geo-graph-skills-s2",
+  "chapterId": "geo-graph-skills",
+  "subsection": "Census of population data",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "What the census is and when it is held",
+      "b": "A census of population is an official count of every person in the country on one night, with information collected on each person and household.",
+      "points": [
+        "In Ireland the census is carried out by the Central Statistics Office (CSO), and taking part is required by law.",
+        "Ireland's census is de facto: it counts everyone present in the State on census night, including visitors, wherever they usually live. The form also records each person's usual residence, so results can be given both ways.",
+        "The census is normally held every five years, in years ending in 1 and 6, on a Sunday night in April.",
+        "The 2001 census was postponed to 2002 because of foot-and-mouth disease.",
+        "The 2021 census was postponed to 2022 because of COVID-19.",
+        "The next census is planned for 2027.",
+        "The first census of the Irish Free State was held in 1926."
+      ]
+    },
+    {
+      "h": "How the census is taken, and confidentiality",
+      "points": [
+        "Enumerators (field staff) deliver a household form to every dwelling before census night and collect it afterwards.",
+        "One form is completed per household, with a page for each person in it.",
+        "Communal establishments such as hotels, hospitals and prisons are covered separately, and vacant dwellings are recorded.",
+        "Information is used only for statistics, and personal forms are kept closed for 100 years.",
+        "After 100 years the returns become historical records. The 1901 and 1911 census returns are freely available online from the National Archives of Ireland and are used for family history."
+      ]
+    },
+    {
+      "h": "What the census asks",
+      "points": [
+        "Personal topics: age, sex and marital status; relationships within the household; place of birth, citizenship, ethnicity and religion; ability to speak Irish; other languages; education level.",
+        "Work topics: occupation, industry and unemployment; commuting, covering means of travel and journey time.",
+        "Housing topics: type, age and tenure of the home (owned with or without a mortgage, or rented); rent paid; heating; vacancy.",
+        "Household topics: internet access, car ownership, health and disability, and carers.",
+        "Census 2022 asked for the first time about working from home and about renewable energy sources at the home, such as solar panels.",
+        "Census 2022 included an optional time capsule page whose contents will be released after 100 years."
+      ]
+    },
+    {
+      "h": "Recent census figures",
+      "points": [
+        "Census 2011: about 4.59 million people.",
+        "Census 2016, held on 24 April 2016: about 4.76 million people.",
+        "Census 2022, held on 3 April 2022: 5,149,139, about 5.15 million people.",
+        "Between the 2016 and 2022 censuses the population rose by about 387,000, about 8%.",
+        "Northern Ireland has its own census, run by NISRA (Northern Ireland Statistics and Research Agency). Its latest was held on 21 March 2021 and counted about 1.9 million people.",
+        "Ireland's census figures cover the State, not the island. The Republic's latest census was 2022 and Northern Ireland's was 2021, so their figures must not be merged."
+      ]
+    },
+    {
+      "h": "How results are published",
+      "points": [
+        "Preliminary results are published within months of census night; detailed results by theme follow over the next year or two.",
+        "Results are published for the State, the provinces, counties, cities, towns, Electoral Divisions and Small Areas.",
+        "Small Areas are the smallest units, roughly a street or estate.",
+        "Results appear in online tables, interactive maps on the CSO website, county profiles and infographics."
+      ]
+    },
+    {
+      "h": "Uses of census data",
+      "points": [
+        "Schools: the number of young children shows how many school places are needed.",
+        "Healthcare and nursing homes: the size of the older population shows the places needed.",
+        "Housing: household numbers and vacancy show how many homes are needed.",
+        "Transport: commuting flows show where roads and public transport are needed.",
+        "Pensions and social welfare: the age structure shows future demand.",
+        "Government targets resources at disadvantaged areas and plans regional and county development.",
+        "Businesses use the figures to choose where to locate shops and services.",
+        "Researchers and students use the data; tracking the Irish language and historical and genealogical research use census returns."
+      ]
+    },
+    {
+      "h": "Political use of census data",
+      "points": [
+        "Dáil constituencies are reviewed after each census so that each TD represents roughly the same number of people.",
+        "The Constitution requires one TD for every 20,000 to 30,000 people.",
+        "Constituencies must be revised at least once every 12 years, with regard to census figures.",
+        "The Electoral Commission (An Coimisiún Toghcháin) carries out the review after each census."
+      ]
+    },
+    {
+      "h": "Limitations of census data, and other population data",
+      "points": [
+        "A census is a snapshot of one night, so it is out of date between censuses, and detailed results take a long time to appear.",
+        "There may be an undercount: homeless people and people avoiding the count can be missed.",
+        "Answers are self-reported and may be inaccurate.",
+        "A census is very expensive and raises privacy concerns.",
+        "Electoral Divisions and Small Areas change over time, which makes comparisons between censuses difficult.",
+        "Between censuses, civil registration records births, deaths and marriages; the CSO publishes annual population and migration estimates; the Labour Force Survey gives other population data."
+      ]
+    },
+    {
+      "h": "Demographic structure and age structure",
+      "b": "Demographic structure is the make-up of a population by age, sex and other characteristics, such as marital status, nationality or ethnicity, religion, language, education, occupation, household size and urban or rural location.",
+      "points": [
+        "Age structure has three groups: young dependents (0 to 14), working age (15 to 64) and old dependents (65 and over).",
+        "Dependency ratio = (0 to 14 plus 65 and over) ÷ (15 to 64) × 100. It divides by the working-age group, not by the total population.",
+        "A high young dependency ratio means many schools are needed; a high old dependency ratio means many pensions and healthcare places are needed.",
+        "Illustrative Rivertown ED, later census: 0 to 14 = 1,050; 15 to 64 = 3,120; 65 and over = 660; total 4,830.",
+        "Illustrative dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age.",
+        "Illustrative share aged 65 and over = 660 ÷ 4,830 × 100 = 13.7%.",
+        "Census data is drawn as a population pyramid in the way taught in geo-graph-skills-s1; the meaning of pyramid shapes is taught in geo-population-migration-s1."
+      ]
+    },
+    {
+      "h": "Sex structure",
+      "points": [
+        "Sex ratio = males ÷ females × 100, giving the number of males per 100 females.",
+        "Women outnumber men in the older age groups because of longer life expectancy.",
+        "Local imbalances arise from migration, e.g. young women moving to cities for work.",
+        "Illustrative Rivertown ED, later census: males 2,390 and females 2,440 (total 4,830); sex ratio = 2,390 ÷ 2,440 × 100 = 98 males per 100 females."
+      ]
+    },
+    {
+      "h": "Population change: natural increase and net migration",
+      "points": [
+        "Population change = natural increase + net migration.",
+        "Natural increase = births minus deaths.",
+        "Net migration = immigrants minus emigrants.",
+        "Comparing two censuses, with births and deaths from civil registration, gives the estimated net migration: net migration = total change minus natural increase.",
+        "Illustrative Rivertown ED, six years apart: population 4,200 at the earlier census and 4,830 at the later census, a change of +630.",
+        "Illustrative percentage change = 630 ÷ 4,200 × 100 = 15%.",
+        "Illustrative: births 380 and deaths 210 give a natural increase of 170, so net migration = 630 − 170 = +460, meaning more people moved in than out."
+      ]
+    },
+    {
+      "h": "Birth rates, death rates and other measures",
+      "points": [
+        "Crude birth rate and crude death rate are the births and deaths per 1,000 people per year.",
+        "Population density is the number of people per km².",
+        "Percentage of the population in an age group = people in the group ÷ total population × 100.",
+        "Illustrative Rivertown ED, census year: 65 births; crude birth rate = 65 ÷ 4,830 × 1,000 = 13.5 per 1,000."
+      ]
+    },
+    {
+      "h": "Ireland's population trend (link only)",
+      "points": [
+        "The State's population fell steeply after the Great Famine and was at its lowest in the 1961 census, at about 2.8 million.",
+        "For comparison, the population of the whole island was about 8.2 million in 1841.",
+        "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
+        "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
+        "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in geo-population-migration-s1 and geo-population-migration-s3; migration patterns, policy and reasons are in geo-population-migration-s3 to s6."
+      ]
+    },
+    {
+      "h": "Local-area study: method",
+      "points": [
+        "Step 1: choose the area, an Electoral Division, Small Area, town or county.",
+        "Step 2: find its census tables for two or more censuses on the CSO website or interactive map.",
+        "Step 3: record the total population, age groups, sex, households, nationality and commuting.",
+        "Step 4: calculate the changes (number and percentage), the dependency ratio, the sex ratio and the share in each age group.",
+        "Step 5: present the results with graphs: a line graph of population over several censuses, bar or pie charts of age groups, a population pyramid if five-year age bands are available, or a choropleth map of Electoral Divisions.",
+        "Step 6: describe the trends; step 7: explain them; step 8: note the limitations of the data.",
+        "Illustrative Rivertown: a line graph of population over several censuses (any earlier values are invented and must be labelled illustrative), a bar or pie chart of the three age groups, and a pyramid only if five-year bands are available."
+      ]
+    },
+    {
+      "h": "Explaining local population trends",
+      "points": [
+        "New housing estates and commuter growth near cities and along motorways bring rising population, young families and a high young dependency ratio.",
+        "Rural decline in remote areas brings a falling population, an ageing population and more single-person households.",
+        "Other causes include immigration, the closure or opening of a major employer, and town-centre decline set against suburban growth.",
+        "Links: geo-population-migration-s6 and geo-urban.",
+        "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see geo-aerial-photographs-s1) that attracts young families who commute, together with positive net migration."
+      ]
+    },
+    {
+      "h": "Irish-language data and other census uses",
+      "points": [
+        "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in geo-option-culture-identity-s2.",
+        "Census data is also used in the GIS study of urban sprawl, covered in geo-weather-climate-s3."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Census of population", "definition": "An official count of every person in a country on one night, with information collected on each person and household." },
+    { "term": "De facto census", "definition": "A census that counts everyone present in the State on census night, including visitors, wherever they usually live." },
+    { "term": "Enumerator", "definition": "A field worker who delivers census forms to every dwelling and collects them afterwards." },
+    { "term": "Demographic structure", "definition": "The make-up of a population by age, sex and other characteristics such as marital status, religion, language and occupation." },
+    { "term": "Dependency ratio", "definition": "The population aged 0 to 14 plus the population aged 65 and over, divided by the population aged 15 to 64, times 100." },
+    { "term": "Sex ratio", "definition": "The number of males per 100 females: males divided by females, times 100." },
+    { "term": "Natural increase", "definition": "Births minus deaths in a population over a period." },
+    { "term": "Net migration", "definition": "Immigrants minus emigrants over a period." },
+    { "term": "Crude birth rate", "definition": "The number of births per 1,000 people in a population per year." },
+    { "term": "Population density", "definition": "The number of people living in each square kilometre." },
+    { "term": "Small Area", "definition": "The smallest area for which census results are published, roughly a street or estate." },
+    { "term": "Electoral Division", "definition": "A geographical unit for which census results are published, larger than a Small Area." }
+  ],
+  "questions": [
+    {
+      "marks": 2,
+      "prompt": "State two ways that census data can be used by governments.",
+      "model": "Schools: census counts of young children show how many school places an area needs, so the government can plan new schools. Targeting resources: census measures of disadvantage show which areas need extra services, so resources can be directed there."
+    },
+    {
+      "marks": 20,
+      "prompt": "Illustrative data for Rivertown ED (an invented town): population 4,200 at the earlier census and 4,830 at the later census, six years apart; births 380 and deaths 210 over the period; later census age groups 0 to 14 = 1,050, 15 to 64 = 3,120, 65 and over = 660. (i) Give the population change in numbers. (ii) Give the percentage change, showing working. (iii) Calculate the natural increase and the net migration. (iv) Calculate the dependency ratio, showing working. (v) Explain two reasons for the population trend.",
+      "model": "(i) 4,830 minus 4,200 = +630 people (illustrative). (ii) 630 ÷ 4,200 × 100 = 15% increase (illustrative). (iii) Natural increase = births minus deaths = 380 − 210 = 170; net migration = total change minus natural increase = 630 − 170 = +460, so more people moved in than out (illustrative). (iv) Dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age (illustrative). (v) First reason: a new housing estate on the edge of town attracts young families who commute, adding population. Second reason: positive net migration adds people beyond natural increase."
+    },
+    {
+      "marks": 8,
+      "prompt": "Four 2-mark parts. (a) How often is the Irish census normally held, and by which body? (b) Why was there no census in 2021? (c) What does de facto mean for the Irish census? (d) Give one limitation of census data.",
+      "model": "(a) Every five years, on a Sunday night in April, by the Central Statistics Office (CSO). (b) It was postponed to 2022 because of COVID-19. (c) It counts everyone present in the State on census night, including visitors, wherever they usually live. (d) A census is a snapshot of one night, so it is out of date between censuses (or: there may be an undercount, such as homeless people or people avoiding the count)."
+    }
+  ]
+}
