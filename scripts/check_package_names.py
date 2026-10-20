@@ -34,7 +34,8 @@ def main(subject: str, only: list[str]) -> None:
             [block.get("b", "") + " " + " ".join(block.get("points", [])) for block in data["notes"]]
             + [q["model"] for q in data.get("questions", [])]
         )
-        found = set(NAME.findall(text)) | set(NUMBER.findall(text))
+        found = {re.sub(r"^(The|A|An) ", "", w) for w in NAME.findall(text)} | set(NUMBER.findall(text))
+        found = {re.sub(r"['’]s$", "", w) for w in found}
         missing = sorted(w for w in found if len(w) > 2 and w.lower() not in own)
         listed = ", ".join(w + ("*" if w.lower() in every else "") for w in missing)
         print(f"{path.stem}: {listed or 'ok'}")
