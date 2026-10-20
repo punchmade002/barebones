@@ -1480,6 +1480,971 @@
    }
   ]
  },
+ "geo-mapwork-s1": {
+  "keyTerms": [
+   {
+    "definition": "A map scale written as a ratio, e.g. 1:50 000, where one unit on the map equals 50 000 of the same units on the ground.",
+    "term": "Representative fraction"
+   },
+   {
+    "definition": "One of the 25 squares of 100 km × 100 km, lettered A to Z without I, into which the Irish Grid divides Ireland.",
+    "term": "Sub-zone"
+   },
+   {
+    "definition": "A grid line running north–south, numbered along the top and bottom of the map; read first in a grid reference.",
+    "term": "Easting"
+   },
+   {
+    "definition": "A grid line running east–west, numbered up the sides of the map; read second in a grid reference.",
+    "term": "Northing"
+   },
+   {
+    "definition": "A reference identifying a whole 1 km square by the bottom-left corner of that square.",
+    "term": "Four-figure grid reference"
+   },
+   {
+    "definition": "A reference identifying a point to the nearest 100 m by reading tenths within a 1 km square.",
+    "term": "Six-figure grid reference"
+   },
+   {
+    "definition": "Angular distance north or south of the Equator, measured in degrees along meridians.",
+    "term": "Latitude"
+   },
+   {
+    "definition": "Angular distance east or west of the Prime Meridian at Greenwich, measured in degrees along parallels.",
+    "term": "Longitude"
+   },
+   {
+    "definition": "A line on a map joining places of equal height above sea level.",
+    "term": "Contour"
+   },
+   {
+    "definition": "The difference in height between two points, or between two adjacent contours.",
+    "term": "Vertical interval"
+   },
+   {
+    "definition": "The ground distance between two points on a map, in the same units as the vertical interval.",
+    "term": "Horizontal equivalent"
+   },
+   {
+    "definition": "The steepness of a slope, found by dividing the horizontal equivalent by the vertical interval and written as 1 in x.",
+    "term": "Gradient"
+   },
+   {
+    "definition": "The direction a slope faces, which is the direction you look when facing downhill.",
+    "term": "Aspect"
+   },
+   {
+    "definition": "A slope steep near the top and gentle near the bottom, with contours close together at the top.",
+    "term": "Concave slope"
+   },
+   {
+    "definition": "A slope gentle near the top and steep near the bottom, with contours close together at the bottom.",
+    "term": "Convex slope"
+   },
+   {
+    "definition": "Whether one point on a map can be seen from another point.",
+    "term": "Intervisibility"
+   },
+   {
+    "definition": "The stretching of the vertical scale in a cross-section, so that relief appears more pronounced.",
+    "term": "Vertical exaggeration"
+   },
+   {
+    "definition": "A printed graph of height along a line between two points, read against the map.",
+    "term": "Elevation profile"
+   },
+   {
+    "definition": "The key on a map that explains every symbol, colour and road class used.",
+    "term": "Legend"
+   },
+   {
+    "definition": "An Irish-speaking area, marked as a cultural area on some maps.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "Buildings clustered together at a crossroads, bridge, church or village.",
+    "term": "Nucleated settlement"
+   },
+   {
+    "definition": "Buildings strung along a road or valley floor.",
+    "term": "Linear settlement"
+   },
+   {
+    "definition": "Individual farmhouses scattered across farmland, each on its own land.",
+    "term": "Dispersed settlement"
+   },
+   {
+    "definition": "Linear housing spreading out along the main roads that approach a town.",
+    "term": "Ribbon development"
+   },
+   {
+    "definition": "A place where a river can be crossed, a common reason for a town's location.",
+    "term": "Bridging point"
+   },
+   {
+    "definition": "A place where several roads and a railway meet, so that a town grows as a market and service centre.",
+    "term": "Route focus"
+   },
+   {
+    "definition": "An early Christian (early medieval) farmstead enclosed by an earth bank, also named rath, lios or dún on maps.",
+    "term": "Ringfort"
+   },
+   {
+    "definition": "A Norman earthen mound on which a castle or tower was built.",
+    "term": "Motte"
+   },
+   {
+    "definition": "Bronze Age cooking sites shown on maps as an antiquity.",
+    "term": "Fulachta fia"
+   },
+   {
+    "definition": "The smallest land division in Ireland, whose name is printed on OS maps.",
+    "term": "Townland"
+   },
+   {
+    "definition": "A small, oval hill of glacial deposits, shown on a map by closed contour rings.",
+    "term": "Drumlin"
+   },
+   {
+    "definition": "A crescent-shaped lake formed when a meander is cut off from the river.",
+    "term": "Oxbow lake"
+   },
+   {
+    "definition": "A line joining points of equal value on a map, such as a contour.",
+    "term": "Isoline"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Exam maps are Ordnance Survey extracts with a legend. Every symbol, colour and road-class answer comes from the legend, so read it before answering.",
+    "h": "The Ordnance Survey map and its scale",
+    "points": [
+     "The exam map is a 1:50 000 Ordnance Survey (Discovery Series) extract, and questions say 'examine the map and legend'.",
+     "A ratio (representative fraction) of 1:50 000 means 1 unit on the map equals 50 000 of the same units on the ground.",
+     "A linear scale (scale bar) and a statement scale ('2 cm to 1 km') express the same scale in different forms.",
+     "On 1:50 000, 1 cm = 0.5 km and 2 cm = 1 km; a grid square of 2 cm × 2 cm is 1 km × 1 km = 1 km².",
+     "A large-scale map (e.g. 1:1 000) shows a small area in great detail; a small-scale map (e.g. 1:1 000 000) shows a large area with little detail.",
+     "1:50 000 is a medium scale, suited to a town and its surroundings."
+    ]
+   },
+   {
+    "h": "Four-figure and six-figure grid references",
+    "points": [
+     "The Irish Grid divides Ireland into 25 sub-zones, each 100 km × 100 km, lettered A to Z with I omitted; the sub-zone letter is printed on the map and starts every grid reference.",
+     "Eastings are the vertical lines, numbered along the top and bottom, increasing eastward; read them first.",
+     "Northings are the horizontal lines, numbered up the sides, increasing northward; read them second.",
+     "Memory aid: along the corridor, then up the stairs.",
+     "Four-figure reference: identifies a whole 1 km square by the easting and northing of its bottom-left (south-west) corner; used for areas such as a lake, a forest or a slope.",
+     "Six-figure reference: identifies a point to the nearest 100 m; mentally divide the square into tenths and read the tenths east of the easting line and north of the northing line.",
+     "Six-figure references locate point features such as a building symbol, a road junction, a spot height or the point where a road leaves the map; give the reference for the centre of the symbol."
+    ]
+   },
+   {
+    "h": "Locating features with grid references",
+    "points": [
+     "To name a feature at a grid reference, find the sub-zone letter, then the easting, then the northing, and name what the map or legend labels at that point exactly.",
+     "A common Ordinary task is naming the feature at three or four grid references, such as an antiquity, a Garda station, a post office or a tourist feature.",
+     "Illustrative: the bridge over the River Dallow is at six-figure reference R 268 441, so the easting 268 is read before the northing 441; the feature at R 280 436 is a motte.",
+     "Absolute location is a precise position given by a grid reference or by latitude and longitude.",
+     "Relative location describes a position against other features or directions, e.g. 'north-west of the town, beside the river'.",
+     "Exams ask which area of the map (north-west, south-east and so on) a named feature lies in."
+    ]
+   },
+   {
+    "b": "Latitude and longitude give a global position in degrees from two fixed reference lines.",
+    "h": "Latitude and longitude",
+    "points": [
+     "Latitude is the angular distance north or south of the Equator (0°), up to 90°N and 90°S at the poles. Lines of latitude (parallels) run east–west, parallel to each other.",
+     "Longitude is the angular distance east or west of the Prime Meridian (0°), which passes through Greenwich, London, up to 180°. Lines of longitude (meridians) run north–south and meet at the poles.",
+     "Each degree is divided into 60 minutes (′). Write latitude first with N or S, then longitude with E or W, e.g. 53°20′N, 6°15′W.",
+     "Key lines: the Equator (0°); the Tropics of Cancer and Capricorn at about 23.5°N and 23.5°S; the Arctic and Antarctic Circles at about 66.5°N and 66.5°S; the International Date Line roughly follows 180°.",
+     "One degree of latitude is about 111 km everywhere. One degree of longitude is about 111 km at the Equator and shrinks to zero at the poles."
+    ]
+   },
+   {
+    "h": "Time, Ireland's position and global location",
+    "points": [
+     "The earth turns 360° in 24 hours, so 15° of longitude equals 1 hour of time; places to the east are ahead.",
+     "Illustrative: a place 30° east of Greenwich is 2 hours ahead.",
+     "Ireland lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W, in the northern and western hemispheres.",
+     "Example: Dublin lies at about 53°20′N, 6°15′W, north of the Equator and west of Greenwich.",
+     "Grid references are used on OS maps because they are quicker and more precise at local scale; latitude and longitude are used for global location."
+    ]
+   },
+   {
+    "h": "Straight-line and curved distance",
+    "points": [
+     "Straight-line distance: measure with a ruler in cm and multiply by 0.5 to get km, or lay a paper edge between the two points and read it against the scale bar. Give the answer in km to one decimal place.",
+     "From two grid references: find the difference in eastings (ΔE) and northings (ΔN) in km, then distance = √(ΔE² + ΔN²).",
+     "Curved distance (a road, railway, river or walk): mark the start on the straight edge of a strip of paper, pivot the strip at each bend and mark as you go, then straighten it and measure against the scale bar. A string laid along the route also works.",
+     "Start and stop exactly at the points named, such as where the road enters the map, a junction or a roundabout.",
+     "Illustrative: the bridge at R 268 441 to the summit pillar at R 240 405 measures 9.1 cm, or 4.6 km (rounded); by grid, ΔE = 2.8 km and ΔN = 3.6 km, so √(2.8² + 3.6²) = √20.8 ≈ 4.6 km.",
+     "Illustrative: the R990 from the town to the crossroads village measures 9.0 cm along its bends, or 4.5 km."
+    ]
+   },
+   {
+    "h": "Area on the map",
+    "points": [
+     "Rectangular areas (the whole map, or the part north of a named northing or west of a named easting): count kilometres east–west × kilometres north–south; each 1 km square is 1 km².",
+     "Irregular features (a lake, a bay, land above a contour): count the full squares; count squares more than half covered as full; ignore squares less than half covered, or estimate part-squares as fractions.",
+     "Give the answer in km² and state that it is approximate.",
+     "Land on one side of a road or railway: count the squares on that side and estimate partly covered squares; exclude sea where the question asks for land.",
+     "Illustrative: the whole extract is 14 km × 8 km = 112 km²; the land north of northing 44 is 14 km × 4 km = 56 km².",
+     "Illustrative: an invented lake covering 3 full squares and 4 squares more than half covered is about 7 km²."
+    ]
+   },
+   {
+    "h": "Direction",
+    "points": [
+     "North is the top of the OS map (grid north). The eight compass points are N, NE, E, SE, S, SW, W and NW; sixteen points add NNE, ENE, ESE, SSE, SSW, WSW, WNW and NNW.",
+     "Method: draw a line from the start point to the destination, imagine a compass centred on the start, and read the direction of travel.",
+     "'From A to B' means the direction of travel, read at A. Quick check: is B above or below A (north or south), and to the left or right (west or east)?",
+     "Direction along a route (a walk, a road, a river's flow) is the overall direction from its start to its end; a river flows from its source on high ground to its mouth on low ground, which spot heights and contours show.",
+     "Bearings (optional for Higher): the angle measured clockwise from north, from 0° to 360°; E = 090°, S = 180°, W = 270°.",
+     "Illustrative: from the bridge at R 268 441 to the summit pillar at R 240 405, the pillar is 2.8 km west and 3.6 km south, so the direction of travel is south-west; from the pillar to the bridge it is north-east."
+    ]
+   },
+   {
+    "h": "Height and contours",
+    "points": [
+     "Contours are lines joining places of equal height above sea level. On the Discovery Series the vertical interval is 10 m, and some contours are numbered with their height.",
+     "Spot heights are dots with the height in metres; triangulation pillars are survey points with their height; layer colouring shows height bands, as explained in the legend.",
+     "Height of a point: read the spot height or pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each.",
+     "The highest point on the map is the highest spot height or pillar; check the upland areas."
+    ]
+   },
+   {
+    "h": "Slope steepness and slope types",
+    "points": [
+     "Contours close together mean a steep slope; contours far apart mean a gentle slope; a wide area with no contours is flat ground.",
+     "Even slope: contours are evenly spaced.",
+     "Concave slope: contours close together near the top and widely spaced near the bottom, so the slope is steep above and gentle below, and the whole slope can be seen from the top.",
+     "Convex slope: contours widely spaced near the top and close together near the bottom, so the slope is gentle above and steep below, and the foot cannot be seen from the top.",
+     "Stepped slope: alternating bands of close and wide contour spacing."
+    ]
+   },
+   {
+    "h": "Landforms read from contours",
+    "points": [
+     "Valley: contours form V or U shapes pointing upstream, towards higher ground, with a river along the floor.",
+     "Spur: contours form V shapes pointing downhill, towards lower ground.",
+     "Plateau: a high, flat or gently sloping top with steep edges; contours crowd round the edge and are few on the top.",
+     "Ridge: a long, narrow stretch of high ground, shown by elongated contours along its crest.",
+     "Col or saddle: a low pass between two summits, shown as a dip between two high points.",
+     "Escarpment: a steep slope on one side and a gentle slope on the other.",
+     "Knoll or isolated hill: a closed ring of contours."
+    ]
+   },
+   {
+    "h": "Gradient, aspect and intervisibility",
+    "points": [
+     "Gradient is the steepness of a slope: vertical interval (VI, the difference in height) ÷ horizontal equivalent (HE, the ground distance), both in the same units, written as 1 in x or 1:x. A larger x means a gentler slope.",
+     "Method: find the height of each point and subtract to get the VI; measure the distance on the map and convert it to metres for the HE; divide HE by VI. The result is an average gradient between the two points.",
+     "Aspect is the direction a slope faces, which is the direction you look when facing downhill, not the uphill direction: a slope falling towards the south is south-facing, with a southerly aspect.",
+     "In Ireland, south-facing slopes receive more sunshine and are warmer.",
+     "Intervisibility: whether one point can be seen from another; a convex slope or intervening high ground blocks the view, so check with a cross-section.",
+     "Illustrative: the summit at 512 m to the bridge at 52 m gives VI = 460 m; HE = 4.6 km = 4 600 m; gradient = 4 600 ÷ 460 = 1 in 10."
+    ]
+   },
+   {
+    "h": "Drawing a cross-section",
+    "points": [
+     "1. Join the two points with a straight line on the map.",
+     "2. Lay a straight paper edge along the line and mark where every contour crosses it, with its height, plus rivers, roads and other features.",
+     "3. Draw a horizontal axis the same length as the line (horizontal scale = map scale) and a vertical axis with a chosen height scale.",
+     "4. Plot each height above its mark and join the points with a smooth curve.",
+     "5. Label the rivers, roads, the summit, the slope types and the ends (X and Y, with grid references); give a title and both scales.",
+     "Vertical exaggeration: the vertical scale is stretched so that relief shows. It equals the horizontal scale distance ÷ the vertical scale distance for the same map length, and is stated in the title or key.",
+     "Illustrative: a cross-section north from the summit to the river uses a horizontal scale of 1:50 000 (1 cm = 500 m) and a vertical scale of 1 cm = 50 m (1:5 000); vertical exaggeration = 500 m ÷ 50 m = ×10.",
+     "Illustrative: the slope from the summit is concave, with contours crowded near the top and widely spaced near the river."
+    ]
+   },
+   {
+    "h": "Reading an elevation profile",
+    "points": [
+     "A printed profile runs along a named easting or northing between points X and Y, with features labelled A to E; match each labelled point to the map by its distance along the line and its height.",
+     "A river crossing is a dip in the profile, with a blue line on the map at that spot.",
+     "A road is identified by its number on the map.",
+     "The height at a point is read from the vertical axis or from the map.",
+     "The slope type between two points (concave, convex, even, steep, gentle, flat) is read from the profile curve and the contours.",
+     "Land use or forestry type is read from the map symbol at that point.",
+     "A named walk, cycle route or tourist attraction crossing the line, and the townland or place name at a point, are read from the map labels.",
+     "Illustrative: along northing 42 from X (R 200 420) to Y (R 300 420), point A is a dip where the River Dallow crosses, B is on the N99, C is on coniferous plantation, and the slope between D and E is concave."
+    ]
+   },
+   {
+    "b": "Symbols are drawn or named by copying them from the legend, in proportion and in the legend's colour where colour is used.",
+    "h": "Map symbols and the legend",
+    "points": [
+     "Legend groups: roads; railways and stations; water features; height; vegetation; antiquities; tourist and leisure information; public services; boundaries.",
+     "Road letters: M = motorway; N = national road (national primary and national secondary routes); R = regional road. N stands for National and R for Regional, not 'route' or 'rural'.",
+     "Vegetation: coniferous plantation (pointed, conifer-shaped tree symbols), deciduous woodland (rounded tree symbols) and mixed woodland (both); use the legend's terms.",
+     "Symbols exams have asked students to draw or name: viewpoint, picnic site, parking, boating activities, triangulation pillar, ringfort, county boundary, wind farm, post office, youth or independent holiday hostel, golf course, camping site, electricity transmission line, waymarked walk and cycle route."
+    ]
+   },
+   {
+    "h": "Antiquities and cultural areas on the map",
+    "points": [
+     "Antiquities are grouped in the legend; name one exactly as the map labels it, e.g. 'Castle (in ruins)', 'Ringfort', 'Standing Stone', 'Megalithic Tomb', 'Church (in ruins)', 'Holy Well' or 'Motte'.",
+     "Cultural areas: some maps mark a Gaeltacht (Irish-speaking area) boundary, which the legend identifies.",
+     "Irish-language place names on the map are further evidence of a cultural area."
+    ]
+   },
+   {
+    "b": "A sketch is a ruled, labelled drawing of the features asked for, placed accurately on a frame. It is never a tracing.",
+    "h": "Drawing a half-scale sketch map",
+    "points": [
+     "Higher asks for a sketch to half scale (20 marks): half the length and half the breadth of the extract. Ordinary asks for a sketch map of the area shown (30 marks); a frame of similar shape, about half size, is safest.",
+     "Measure the extract, or count squares (each 2 cm square becomes 1 cm), and draw a frame with four ruled sides.",
+     "Draw light pencil grid lines on the frame at the same eastings and northings (every 1 cm at half scale, or every second line) and label the edge numbers.",
+     "Draw a coastline as a firm line; draw a river as a line between the named grid references, or along its entire course; draw broad rivers and lakes as outlined shapes.",
+     "Draw roads and railways as lines along their entire route where asked; draw areas (land above a contour, plantation, built-up area, golf course) as shaded closed shapes; draw point features (post office, triangulation pillar, viewpoint, camping site) as a symbol or dot.",
+     "'Land above 300 m': follow the 300 m contour accurately round every part of the area asked for. 'Entire area' means all of it; 'at' or 'in the south-west of the map' means only that part.",
+     "Label every feature on the sketch or in a key; an unlabelled feature earns nothing. Add a title, a north arrow and the words 'half scale'.",
+     "Never trace the map. Draw only the features asked for, in the correct part of the frame, since a feature placed in the wrong part loses marks."
+    ]
+   },
+   {
+    "b": "Illustrative: the extract is 28 cm × 16 cm, so the frame is 14 cm × 8 cm, with grid lines every 1 cm.",
+    "h": "Illustrative Rivertown sketch to half scale",
+    "points": [
+     "River Dallow, entire course: a line from its entry at R 200 402 in the south-west to its exit at R 340 470 in the north-east, following its meanders across the floodplain east of the town; label it.",
+     "N99, entire route: a road line from the south-west to the north-east through the town; label it N99.",
+     "Railway: a line with its station at R 272 445; label it.",
+     "Built-up area of Rivertown: a shaded closed shape around the town centre and the housing estates on the northern edge, with the industrial estate on the N99 at the north-eastern edge; label it.",
+     "Area above 300 m at Slievenagh: a shaded closed shape following the 300 m contour round the summit triangulation pillar at R 240 405; label it."
+    ]
+   },
+   {
+    "h": "Drainage patterns on the map",
+    "points": [
+     "Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance.",
+     "Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock.",
+     "Radial: streams flow outward in all directions from a central hill or mountain.",
+     "Centripetal: streams flow inward to a central lake or lowland.",
+     "Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits.",
+     "Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.",
+     "Exams ask you to name two patterns or to match a pattern to a grid reference."
+    ]
+   },
+   {
+    "h": "Fluvial landforms on the map",
+    "points": [
+     "V-shaped valley: the upland valley pattern given under landforms read from contours; the river runs along the floor.",
+     "Meander: a river swinging in loops.",
+     "Oxbow lake: a crescent-shaped lake beside a meandering river.",
+     "Floodplain: wide and flat, with no contours, along a lowland river; often marshy.",
+     "Levees: embankments along the channel, where the map shows them.",
+     "Braiding: the river splits into several channels around islands.",
+     "Confluence: the point where a tributary joins the main river.",
+     "Delta: deposits where a river enters a lake or the sea.",
+     "Waterfall: shown by a symbol or name, with contours crowded across the river."
+    ]
+   },
+   {
+    "h": "Glacial landforms on the map",
+    "points": [
+     "Corrie: an armchair-shaped hollow, with contours close on three sides and open downhill.",
+     "Tarn: a small, round lake in a corrie, often high up.",
+     "Arête: a narrow ridge with very close contours on both sides.",
+     "U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.",
+     "Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.",
+     "Drumlins: many small oval closed contour rings, often with small lakes between them.",
+     "Esker: a long, narrow, winding ridge on lowland."
+    ]
+   },
+   {
+    "h": "Coastal and karst landforms on the map",
+    "points": [
+     "Beach: sand or shingle shading along the shore.",
+     "Cliff: a cliff symbol, or contours crowded together at the coast.",
+     "Headland: land projecting into the sea, often high.",
+     "Bay: a curved inlet of the sea.",
+     "Sand spit, tombolo and lagoon: identified by their shapes and names on the map.",
+     "Sand dunes: shown by dune shading or a name.",
+     "Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams."
+    ]
+   },
+   {
+    "h": "Lake types on the map",
+    "points": [
+     "Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label)."
+    ]
+   },
+   {
+    "h": "Steep and gentle ground on the map",
+    "points": [
+     "A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.",
+     "A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.",
+     "Mass movement on steep ground is taught in the rocks and weathering chapter."
+    ]
+   },
+   {
+    "h": "Rural settlement patterns",
+    "points": [
+     "Nucleated: buildings clustered at a crossroads, bridge, church or village.",
+     "Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor.",
+     "Dispersed: individual farmhouses scattered across farmland, each on its own land.",
+     "Nucleated settlement forms around a route focus or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation.",
+     "Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.",
+     "Exams ask you to name three patterns with grid references and to describe and explain them."
+    ]
+   },
+   {
+    "h": "Absence and high density of settlement",
+    "points": [
+     "Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.",
+     "Absence on steep slopes, shown by crowded contours.",
+     "Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding.",
+     "Absence where forestry plantations cover the land, and on lakes.",
+     "High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.",
+     "Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast."
+    ]
+   },
+   {
+    "h": "Comparing settlement distribution",
+    "points": [
+     "A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.",
+     "For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.",
+     "State each factor with a grid reference and explain it for both areas.",
+     "Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk)."
+    ]
+   },
+   {
+    "h": "Prehistoric settlement on the map",
+    "points": [
+     "Stone Age to Iron Age sites include megalithic tombs (court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists.",
+     "Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts and crannógs (lake dwellings).",
+     "Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.",
+     "Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418."
+    ]
+   },
+   {
+    "h": "Early Christian settlement on the map",
+    "points": [
+     "Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains; ecclesiastical sites with churches and graveyards; holy wells; round towers; and high crosses.",
+     "Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).",
+     "Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.",
+     "What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.",
+     "Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446."
+    ]
+   },
+   {
+    "h": "Norman settlement on the map",
+    "points": [
+     "Norman (medieval) sites include mottes and motte-and-bailey sites, castles, town walls, abbeys and friaries, and towns at bridging points.",
+     "Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian.",
+     "Why the site was chosen: defence, and control of a river crossing.",
+     "What it shows: Norman military control, and the religious life of the abbeys and friaries.",
+     "Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge."
+    ]
+   },
+   {
+    "h": "Later medieval to Plantation and 19th–20th century settlement",
+    "points": [
+     "Tower houses are fortified stone houses; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.",
+     "19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.",
+     "What it shows: the growth of planned towns and estates, and of transport and industry."
+    ]
+   },
+   {
+    "h": "Place names and townlands as evidence",
+    "points": [
+     "Irish place-name elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge), cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock), mullach/mullagh (summit), beag/beg (small), mór/more (big).",
+     "Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in."
+    ]
+   },
+   {
+    "b": "A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained.",
+    "h": "Why a town developed at its location",
+    "points": [
+     "Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.",
+     "Route focus: several N and R roads and a railway meet, so the town became a market and service centre.",
+     "Defence: a castle, town walls, a hill or a river bend guards the site.",
+     "River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.",
+     "Flat or gently sloping lowland: easy to build on, with widely spaced contours.",
+     "Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland.",
+     "Ecclesiastical origin: an abbey or early church site.",
+     "Tourism: a coast, beaches, lakes or uplands attract visitors to the town.",
+     "Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing."
+    ]
+   },
+   {
+    "b": "Name each function, give the symbol or label and its grid reference, and explain it.",
+    "h": "Functions of a town on the map",
+    "points": [
+     "Residential: built-up area and housing estates.",
+     "Market and retail: a route focus and a central square.",
+     "Services: hospital, Garda station, post office, schools and courthouse, where labelled.",
+     "Transport: railway station, bus routes and motorway junction.",
+     "Industrial: industrial estate or factory labels.",
+     "Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.",
+     "Port or fishing: pier, harbour and slipway.",
+     "Ecclesiastical: churches and abbeys.",
+     "Defensive in the past: castle."
+    ]
+   },
+   {
+    "h": "Town growth and layout on the map",
+    "points": [
+     "Old core: narrow streets, a square, and a castle or abbey near the bridge.",
+     "Newer edge: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development."
+    ]
+   },
+   {
+    "b": "Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.",
+    "h": "Site suitability for a development",
+    "points": [
+     "Flat land: widely spaced contours.",
+     "Access: an N road, a motorway junction, a railway or a port.",
+     "Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.",
+     "Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.",
+     "State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents."
+    ]
+   },
+   {
+    "h": "Economic activity and tourism on the map",
+    "points": [
+     "Primary activity: forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.",
+     "Secondary activity: industrial estates and factories.",
+     "Tertiary activity: services, tourism and transport.",
+     "Each activity is evidenced by a map symbol or label and its grid reference.",
+     "Tourism potential, accessibility and services: road access, parking, accommodation and tourist information.",
+     "Tourism potential, attractions: antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.",
+     "Each factor is evidenced with grid references and explained."
+    ]
+   },
+   {
+    "h": "Statistical mapping on the OS map",
+    "points": [
+     "Contours are isolines, the same kind of line used on isoline statistical maps.",
+     "Choropleth, dot, isoline, proportional-symbol and flow-line maps are covered in the graph skills chapter."
+    ]
+   },
+   {
+    "h": "Exam questions and marks",
+    "points": [
+     "Short questions (Higher 2 marks each; Ordinary 3–5 marks, often tick-box): a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.",
+     "Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east or west or north or south of a grid line or railway; the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).",
+     "Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns or the type of lake at a grid reference.",
+     "Aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).",
+     "Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.",
+     "15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.",
+     "30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement; three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.",
+     "Each point in a 30-mark answer is named, given a grid reference and explained."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "Illustrative answer. (a) R 268 441: read the easting 268 first, then the northing 441, to the nearest 100 m. (b) Motte: read the label at R 280 436 against the legend. (c) 4.5 km: 9.0 cm × 0.5 km per cm = 4.5 km. (d) 56 km²: the extract runs from northing 40 to northing 48, so the land north of northing 44 is 4 km high; 14 km × 4 km = 56 km².",
+    "prompt": "On the illustrative Rivertown map, answer each part: (a) give the six-figure grid reference of the bridge over the River Dallow; (b) name the antiquity at R 280 436; (c) find the length of the R990 from the town to the crossroads village, which measures 9.0 cm along its bends; (d) find the area of the land north of northing 44.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Illustrative answer. Draw a ruled frame 14 cm × 8 cm, half the length and breadth of the 28 cm × 16 cm extract, with light pencil grid lines every 1 cm and the edge numbers labelled. Draw the River Dallow as a line from its entry at R 200 402 to its exit at R 340 470, following its meanders across the floodplain, and label it. Draw the N99 as a road line from the south-west to the north-east through the town, and label it. Draw the railway as a line with its station at R 272 445, and label it. Shade the area above 300 m at Slievenagh as a closed shape following the 300 m contour round the summit pillar at R 240 405, and label it. Add a title, a north arrow and the words 'half scale'. Include no other features and do not trace the map.",
+    "prompt": "Draw a sketch map of the illustrative Rivertown map to half scale. On it, show and label: the entire course of the River Dallow; the entire route of the N99; the railway; the area of land above 300 m at Slievenagh.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Illustrative answer. Reason 1, bridging point, at the bridge at R 268 441: the town grew where the River Dallow could be crossed. The bridge and the roads converge on this point, so traffic and trade pass through it. Travellers needed a crossing, so a settlement grew up beside it. The crossing point drew people and trade to the settlement over time. Reason 2, route focus, at the N99, the R990 and the railway station at R 272 445: several roads and a railway meet here, so the town became a market and service centre. Farmers and travellers from the surrounding area came to trade. The station links the town to other places by rail. Services grew to serve these routes and their users. The meeting of routes made the town the natural centre for its hinterland. Reason 3, defence, at the castle at R 269 439 and the motte at R 280 436: both sites guard the crossing of the river. The castle beside the bridge controlled movement across the river. The motte, a Norman mound, reinforced that control. A defended site made the town safer for settlers and traders. Defence gave the early settlement a reason to stay and grow.",
+    "prompt": "Using evidence from the illustrative Rivertown map, explain three reasons why Rivertown developed at its location.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-mapwork-s2": {
+  "keyTerms": [
+   {
+    "definition": "Information the student collects first-hand, such as measurements, observations, questionnaire answers and field sketches.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Information already collected or published by someone else.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "A written secondary source, such as a textbook, report, newspaper article, plan or historical document.",
+    "term": "Textual source"
+   },
+   {
+    "definition": "A statement that can be checked against a measurement, a date or a statistic.",
+    "term": "Fact"
+   },
+   {
+    "definition": "A view or judgement that cannot be checked directly, often shown by emotive or evaluative words.",
+    "term": "Opinion"
+   },
+   {
+    "definition": "A one-sided treatment of information, usually shaped by the author's purpose or interests.",
+    "term": "Bias"
+   },
+   {
+    "definition": "A map from an earlier date, used with a present-day map to show change over time.",
+    "term": "Historical map"
+   },
+   {
+    "definition": "A feature, such as a bridge, church or castle, that appears on two maps and is used to match them.",
+    "term": "Fixed point"
+   },
+   {
+    "definition": "The text, table, cartoon or extract given in an exam question, from which the answer is drawn.",
+    "term": "Stimulus material"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Information comes either from first-hand collection or from material already gathered by someone else. Textual sources are written secondary sources.",
+    "h": "Primary and secondary sources",
+    "points": [
+     "Primary data: information the student collects first-hand, such as measurements, observations, questionnaires, counts, field sketches and the student's own photographs.",
+     "Secondary data: information already collected or published by someone else.",
+     "A questionnaire the student designs and carries out is primary; a published survey is secondary.",
+     "Old maps and the census are secondary sources.",
+     "Secondary sources give background, past data and comparisons that fieldwork cannot provide, so being secondary does not make them less useful.",
+     "In the geographical investigation, secondary sources supply the background and the published studies used for comparison in the conclusion (see geo-mapwork-s3)."
+    ]
+   },
+   {
+    "h": "Present-day textual and secondary sources",
+    "points": [
+     "Textbooks and reference books.",
+     "Newspapers and magazines.",
+     "Official statistics and reports from state bodies, such as census reports, weather and climate records and environmental reports.",
+     "Local authority documents, such as county or city development plans and planning notices.",
+     "Tourist brochures and guides.",
+     "Websites and online databases.",
+     "Academic articles.",
+     "Current maps, aerial photographs and satellite images."
+    ]
+   },
+   {
+    "h": "Who produces official data in Ireland",
+    "points": [
+     "Central Statistics Office (CSO): conducts the census and publishes official statistics.",
+     "Met Éireann: the Irish national meteorological service, which supplies weather data.",
+     "Environmental Protection Agency (EPA): reports on environmental quality, including water and air.",
+     "Tailte Éireann: now responsible for national mapping; Ordnance Survey Ireland became part of it in 2023 and it now publishes the Ordnance Survey maps.",
+     "Local authorities: publish development plans."
+    ]
+   },
+   {
+    "b": "Comparing an old source with a present-day one shows change in land use, settlement, transport, the coastline or a river course.",
+    "h": "Past sources and change over time",
+    "points": [
+     "Sources from the past include historical maps (earlier editions of OS maps, old town plans, estate maps), old photographs and postcards, old newspapers and earlier census returns.",
+     "Other past sources include local histories, parish and school records, directories, travel accounts and archive documents in libraries and county archives.",
+     "The first Ordnance Survey of Ireland mapped the whole country at six inches to one mile in the 1830s and 1840s.",
+     "Early and later map editions show field patterns, town plans, mills, demesnes, railways and features since lost.",
+     "Old maps may use different scales, symbols and place-name spellings, and can be inaccurate or out of date, so state these limits when using them."
+    ]
+   },
+   {
+    "h": "Comparing an old map with a present-day map",
+    "points": [
+     "1. Match the scale and orientation of the two maps.",
+     "2. Find fixed points, such as a bridge, church, castle or main street, that appear on both.",
+     "3. List what has appeared, what has disappeared and what has stayed the same.",
+     "4. Describe the change, e.g. growth along approach roads, a new bypass, the loss of a mill, reclaimed land or a straightened river.",
+     "5. Explain each change.",
+     "Illustrative: a Rivertown map of the 1840s shows a mill and weir on the River Dallow, a market square, the castle and fields to the north. Today's OS map shows the mill gone, housing estates on those northern fields, the railway and station, an industrial estate on the N99 and the GAA pitch.",
+     "Illustrative explanations: growth after the railway arrived, suburban expansion, and the decline of water-powered industry."
+    ]
+   },
+   {
+    "h": "Old photographs and written accounts",
+    "points": [
+     "Describe what has changed between an old photograph or written account and the present day.",
+     "Note its limits: it records a single moment, a chosen viewpoint, or the writer's own view."
+    ]
+   },
+   {
+    "b": "The Higher paper can ask for a sketch map of a historical map, worth 20 marks. The method follows the OS sketch-map rules in geo-mapwork-s1.",
+    "h": "Sketch map of a historical map (Higher paper)",
+    "points": [
+     "Rule a frame of the same shape as the map, with a title and a north arrow.",
+     "Historical maps usually have no grid, so divide the map and the frame into a light pencil grid of equal sections.",
+     "Place each requested feature by its grid section, draw it in the correct position and label it.",
+     "Show and label only the features the question asks for.",
+     "Illustrative: an old Rivertown town plan, 20 cm × 15 cm, is to be sketched showing the River Dallow, two connecting streets drawn meeting, the market house and the church."
+    ]
+   },
+   {
+    "h": "Reading textual sources for geography",
+    "points": [
+     "Identify the main idea of the text, then pick out its facts, figures, places and dates.",
+     "Translate everyday language into geographical terms: \"the town keeps spreading into the fields\" describes urban sprawl.",
+     "Use the correct term in answers and reports, e.g. hinterland, nucleated settlement, discharge, prevailing wind or dependency ratio.",
+     "Exam stimulus texts often contain the clue term, so underline it.",
+     "Take notes under headings that match the objectives, and summarise them in bullet points.",
+     "Turn figures in a text into a table or graph, and plot places named in a text on a sketch map.",
+     "Two sources on the same place or topic may agree, disagree or cover different dates.",
+     "Cross-checking with a second source, or with primary data, increases reliability."
+    ]
+   },
+   {
+    "b": "A fact can be checked against a measurement, a date or a statistic. An opinion is a view or judgement.",
+    "h": "Fact and opinion",
+    "points": [
+     "Illustrative extract from a Rivertown community newsletter: “Traffic on Main Street has doubled since the new industrial estate opened in 2015. The council's plan for a relief road is a disaster for the town.”",
+     "The first sentence is a fact: it can be checked with traffic counts or council data.",
+     "The second sentence is an opinion: it is a judgement, shown by the emotive word “disaster”."
+    ]
+   },
+   {
+    "h": "Bias and reliability of secondary sources",
+    "points": [
+     "Bias: ask who wrote the source and why, since a developer's brochure, a campaign group's leaflet, a political leaflet or an advertisement may be one-sided.",
+     "Bias shows in one-sided arguments, emotive language and selective figures.",
+     "Reliability checklist, author or organisation: an official body or expert is more reliable than an anonymous author.",
+     "Reliability checklist, date: is the source current, or is it a past source useful for comparison?",
+     "Reliability checklist, purpose: does it inform, persuade or sell?",
+     "Reliability checklist, evidence: are sources cited and data given?",
+     "Reliability checklist, scale and area: national figures may not apply to the local area.",
+     "Reliability checklist, agreement: does it match other sources?",
+     "Limitations of secondary data: may be out of date, collected for another purpose, not covering the exact study area, defined differently between sources or dates, or, if online, unverified.",
+     "Illustrative: an invented property developer's brochure praising a new Rivertown housing estate is written to sell, is one-sided and gives unsourced figures; check it against the county development plan and an own land-use survey."
+    ]
+   },
+   {
+    "h": "Acknowledging sources",
+    "points": [
+     "List every secondary source used in a report with its author or organisation, title and date.",
+     "For online sources, also give the web address and the date accessed.",
+     "Never copy text and present it as one's own.",
+     "The authenticity check on the investigation report is covered in geo-mapwork-s3."
+    ]
+   },
+   {
+    "h": "Textual sources in the written exam",
+    "points": [
+     "Exam questions use stimulus material: a short text, a table, a cartoon or a newspaper-style extract.",
+     "Questions ask students to extract information, identify the issue, distinguish fact from opinion, or use the information in an answer.",
+     "Method: read the question first, underline the key terms and figures in the text, then answer using the text's evidence plus own knowledge.",
+     "Pictures, including cartoons, are an information source: identify the message, the issue, who is shown and the viewpoint."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Illustrative answer. Rule a frame of the same shape as the plan. Because the plan has no grid, divide the plan and the frame into a light pencil grid of equal sections. Place each feature by its section and draw it lightly first: the River Dallow as a continuous line across the frame; two connecting streets drawn so that they meet; the market house and the church drawn as symbols in their own sections. Label each feature with its name, then add a title and a north arrow.",
+    "prompt": "An (illustrative) old town plan of Rivertown measures 20 cm by 15 cm. Describe how you would draw a sketch map of it, showing and labelling: the River Dallow; two connecting streets; the market house; the church.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(a) Primary sources are information the student collects first-hand, for example a questionnaire the student designs and carries out. Secondary sources are information already collected or published by someone else, for example a published census report. (b) First, check the author or organisation: an official body or an expert is more reliable than an anonymous author, and the purpose (to inform, persuade or sell) should be noted. Second, check the evidence: a reliable source cites its sources and gives the data behind its claims, so unsourced figures can be doubted.",
+    "prompt": "(a) Distinguish between primary and secondary sources of information, giving one example of each. (b) Explain two ways of checking the reliability of a secondary source.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Illustrative answer. Fact: “Traffic on Main Street has doubled since the new industrial estate opened in 2015.” It can be checked against traffic counts or council data. Opinion: “The council's plan for a relief road is a disaster for the town.” It is a judgement, shown by the emotive word “disaster”, and cannot be checked directly.",
+    "prompt": "Read this (illustrative) newsletter extract: \"Traffic on Main Street has doubled since the new industrial estate opened in 2015. The council's plan for a relief road is a disaster for the town.\" Identify one fact and one opinion and explain your choice.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-mapwork-s3": {
+  "keyTerms": [
+   {
+    "definition": "A precise, testable statement that the data can prove or disprove.",
+    "term": "Hypothesis"
+   },
+   {
+    "definition": "A specific, measurable task that tests part of the hypothesis and receives its own results.",
+    "term": "Objective"
+   },
+   {
+    "definition": "A table prepared in advance, with columns for each site, time, measurement and repeat reading.",
+    "term": "Recording sheet"
+   },
+   {
+    "definition": "Estimating velocity by timing a float over a measured distance, repeating the timing and averaging the results.",
+    "term": "Float method"
+   },
+   {
+    "definition": "The area of a river channel's cross-section, calculated as width × average depth.",
+    "term": "Cross-sectional area"
+   },
+   {
+    "definition": "The volume of water passing a point each second, calculated as cross-sectional area × velocity, in m³ per second.",
+    "term": "Discharge"
+   },
+   {
+    "definition": "A distinct, relevant fact or explanation that earns a mark in a section of the report.",
+    "term": "Significant relevant point (SRP)"
+   },
+   {
+    "definition": "A model of how a river's discharge, width, depth and velocity tend to change downstream.",
+    "term": "Bradshaw model"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The investigation is an individual, field-based study of a geographical question, written up as a report. It is worth 20% of the total mark.",
+    "h": "The rules of the investigation",
+    "points": [
+     "It is compulsory at Higher and Ordinary level, and is assessed outside the written examination, so it does not appear as a question on the written paper.",
+     "The topic is chosen from the annual list that the State Examinations Commission (SEC) issues to schools in Leaving Certificate Year 1.",
+     "Typical topic areas are physical (rivers, coasts, glacial or karst landscapes, weather, soils, rocks) and human (urban land use, traffic, settlement, economic activity), but only the year's own list applies.",
+     "The syllabus sets submission at the end of term one in Leaving Certificate Year 2; the SEC sets the exact date each year, so check it.",
+     "A class may work on one investigation and collect data together, but each student must write a full and complete report of their own. Group reports are not accepted.",
+     "Sources: about 60% primary (first-hand fieldwork data) and 40% secondary (published or previously collected information).",
+     "The geography teacher and the school principal verify that each report is the candidate's own work; copied or shared write-ups are not acceptable.",
+     "The report is written in the official SEC report booklet, which sets the section headings, the space for each and the marks available. Follow that year's booklet exactly."
+    ]
+   },
+   {
+    "b": "The introduction covers the topic, a hypothesis or aim, the objectives and the information needed.",
+    "h": "Stage 1: Introduction (posing the problem)",
+    "points": [
+     "Hypothesis: a precise, testable statement that the data can prove or disprove, e.g. a measurable claim about change with distance downstream.",
+     "Aim: a statement of what the investigation sets out to find out. Use a hypothesis or an aim, as the booklet asks.",
+     "A hypothesis is a testable statement, not a question or a topic title.",
+     "Objectives: three to five specific, measurable tasks that together test the hypothesis, each naming what will be measured and where. Each objective later receives its own results.",
+     "Types of information required: primary (measurements, observations, counts, questionnaire answers) and secondary (maps, statistics, texts), stated for each objective.",
+     "Good practice: keep the hypothesis narrow enough to test in a day or two of fieldwork, avoid vague words such as \"better\" or \"nice\", and include the place studied.",
+     "Illustrative hypothesis for a river study of the River Dallow upstream of Rivertown: \"The velocity of the River Dallow increases downstream.\"",
+     "Illustrative objectives: measure channel width, average depth and velocity at five sites 500 m apart; calculate cross-sectional area and discharge at each site; measure the size of ten pebbles at each site.",
+     "Illustrative information required: primary measurements, and a secondary OS map and aerial photograph of the river."
+    ]
+   },
+   {
+    "b": "Planning covers the choice of collection methods, the design of recording sheets or a questionnaire, and the choice of sites.",
+    "h": "Stage 2: Planning",
+    "points": [
+     "Before fieldwork, study OS maps and aerial photographs of the area.",
+     "Choose and justify sites: e.g. evenly spaced along a river, or sample points across a town.",
+     "Choose the date and time, gather the equipment, divide tasks within the group and arrange landowner permission where needed.",
+     "Recording sheet: a table prepared in advance, with columns for site, time, each measurement and repeat readings, so that data are recorded consistently.",
+     "Questionnaire design: keep it short, with closed questions (tick boxes, yes/no, rating scales) for easy analysis and a few open questions.",
+     "Questionnaire wording must be neutral and unbiased, with no unnecessary personal questions; pilot it with a few people first.",
+     "Sampling plan for a questionnaire: who is asked, where, when and how many.",
+     "Safety and ethics: complete a risk assessment, never work alone, supervise near water or traffic, wear suitable clothing and footwear, check the weather and river level, and respect property and the environment.",
+     "Questionnaires are anonymous and voluntary.",
+     "Good practice: explain why each method suits its objective, and describe the method clearly enough for someone else to repeat it.",
+     "Illustrative planning for the River Dallow: sites on the OS map where the river is accessible and safe; a recording sheet with columns for site, width, depths at five points, three float times over 10 m and pebble lengths; a risk assessment of low river level, wellingtons and groups of four."
+    ]
+   },
+   {
+    "b": "Data are gathered with instruments, field observations, questionnaires and secondary sources. Problems encountered must be discussed in the report.",
+    "h": "Stage 3: Collection of data",
+    "points": [
+     "Measuring tape or ranging poles: channel width, beach width and distances.",
+     "Metre stick: depth at regular intervals across a channel.",
+     "Float and stopwatch, or a flow meter: velocity. Time a float over a measured distance, repeat the timing and average the results.",
+     "Clinometer: the slope angle of a beach or valley side.",
+     "Callipers or a ruler measure pebble size; a roundness chart measures pebble shape.",
+     "Compass: orientation, aspect and wind direction.",
+     "Weather instruments: thermometer, rain gauge, anemometer and wind vane.",
+     "Camera: a photographic record, dated and located.",
+     "GPS or a smartphone mapping app: locating sites.",
+     "Field observations: labelled field sketches, land-use mapping on a base map, traffic or pedestrian counts at set times, and environmental quality surveys using scored criteria."
+    ]
+   },
+   {
+    "h": "Secondary sources and accuracy in collection",
+    "points": [
+     "Secondary sources used in investigations include OS maps and aerial photographs, census data, weather records, local authority plans, textbooks and websites; geo-mapwork-s2 explains how to evaluate them.",
+     "Record full details of each secondary source when you collect it, for acknowledgement.",
+     "Take repeat readings and average them.",
+     "Use the same method and the same people at every site.",
+     "Record units, and note the conditions: weather, time and river level.",
+     "Problems to name in the report: bad weather or high water that makes measurement unsafe, equipment faults, a float caught in vegetation, people refusing questionnaires, restricted access to a site, and time limits.",
+     "For each problem, state the problem, its effect on the data and the solution.",
+     "Illustrative: at site 3 the float snagged on reeds twice; the group discarded those runs and took three clean timings."
+    ]
+   },
+   {
+    "b": "Illustrative values from the River Dallow study show the calculations used in the results.",
+    "h": "Calculating velocity and discharge",
+    "points": [
+     "Velocity = distance ÷ time, using the average of the repeated float timings.",
+     "Cross-sectional area = width × average depth (m²).",
+     "Discharge = cross-sectional area × velocity (m³ per second).",
+     "Illustrative site 1: width 3.0 m; average depth 0.20 m; average float time over 10 m of 25 s, so velocity 0.4 m/s; cross-sectional area 0.6 m²; discharge 0.24 m³/s.",
+     "Illustrative site 5: width 6.0 m; average depth 0.40 m; average float time over 10 m of 10 s, so velocity 1.0 m/s; cross-sectional area 2.4 m²; discharge 2.4 m³/s."
+    ]
+   },
+   {
+    "b": "Results are organised objective by objective, in words, with the key figures and an illustration for each.",
+    "h": "Stage 4: Preparing the results",
+    "points": [
+     "State each finding in words with its key figures, and support it with an illustration.",
+     "Illustrations include tables of raw and averaged data, sketch maps locating sites, annotated photographs and field sketches.",
+     "Choose the graph that suits the data: a line graph for change with distance or time, a bar chart for comparison between sites, a pie chart for shares, a scatter graph for a relationship, and channel cross-sections for showing a river channel's shape.",
+     "Every illustration is titled, labelled, has units and a key, and is referred to in the text. Graph-drawing technique is in geo-graph-skills-s1.",
+     "Higher Level statistical analysis: averages (mean and median), range and percentages.",
+     "Use spreadsheets or graphing software (ICT) to calculate and plot results.",
+     "Describe trends with figures, e.g. \"velocity rose from site 1 to site 5\", note anomalies and suggest their causes.",
+     "Keep results separate from conclusions.",
+     "For the River Dallow study, the illustrations are: a line graph of velocity against distance downstream; channel cross-sections drawn to scale for sites 1 and 5; and a sketch map of the five sites."
+    ]
+   },
+   {
+    "b": "The conclusion tests the hypothesis against the results, explains the pattern and compares the findings with established theory.",
+    "h": "Stage 5: Conclusion",
+    "points": [
+     "State whether the hypothesis is accepted, rejected or partly accepted, using the evidence from each objective.",
+     "Explain the findings geographically: say why the pattern occurs.",
+     "Bradshaw model: downstream, a river's discharge, channel width, depth and velocity tend to increase, while gradient and load particle size decrease.",
+     "Burgess concentric zone model (Chicago, 1925): describes urban land use in zones around a central business district.",
+     "Compare results with the textbook model or published work, and explain any differences, such as local geology, human interference or a small sample.",
+     "Illustrative conclusion: the hypothesis is accepted because velocity rose from 0.4 m/s to 1.0 m/s; this matches the Bradshaw model, which is explained by greater depth reducing friction and more water from tributaries."
+    ]
+   },
+   {
+    "b": "The evaluation judges how reliable the data are, names the limits of the study and proposes specific improvements.",
+    "h": "Stage 5: Evaluation and improvements",
+    "points": [
+     "Evaluate the reliability and accuracy of the data, and say what went well.",
+     "Name the limits of the study: one day's data, few sites, a small questionnaire sample, measurement error and the weather on the day.",
+     "A surface float overestimates average velocity, so float results are estimates, not exact values.",
+     "Improvements: more sites, repeat visits in different seasons or conditions, better equipment such as a flow meter, larger samples and a longer stretch of river.",
+     "Suggest further investigation that the findings point towards.",
+     "Skills gained (optional): teamwork, fieldwork skills, ICT and report writing, which the syllabus links to working conditions similar to those likely to be encountered in the world of work."
+    ]
+   },
+   {
+    "h": "How the report is marked",
+    "points": [
+     "Marks are awarded for significant relevant points (SRPs) in each section of the booklet, plus marks for illustrations. The booklet states the marks for each section.",
+     "Marks are earned by a clear, testable hypothesis or aim with matching objectives.",
+     "Marks are earned by methods described step by step, with equipment named and justified.",
+     "Marks are earned by accurate data presented in varied, well-labelled illustrations, and by results that refer to the actual figures.",
+     "Marks are earned by conclusions that answer the hypothesis and are supported by the results, comparison with theory, and an honest evaluation with specific improvements.",
+     "Marks are lost for vague or untestable hypotheses, methods listed without explanation, and results given without figures.",
+     "Marks are lost for generic evaluations such as \"it went well\", for writing outside the space provided, and for material copied from others or the internet."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 10,
+    "model": "Illustrative answer. Hypothesis: The velocity of the River Dallow increases downstream. Objectives: (1) measure channel width, average depth and velocity at five sites 500 m apart; (2) calculate cross-sectional area and discharge at each site; (3) measure the size of ten pebbles at each site.",
+    "prompt": "State a hypothesis and three objectives for an investigation of a river.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Illustrative answer. Velocity by the float method: mark a measured distance of 10 m along a straight stretch, release a float upstream, time it over the distance with a stopwatch, repeat three times and average the timings, then calculate velocity = distance ÷ time. Discharge: measure the channel width and average depth to find the cross-sectional area (width × average depth), then multiply by the velocity. Check with site 5: width 6.0 m × average depth 0.40 m = 2.4 m²; 2.4 m² × 1.0 m/s = 2.4 m³/s. Problem: the float snagged on reeds, so discard those runs and take three clean timings.",
+    "prompt": "Describe how you would measure the velocity and discharge of a river, and name one problem you might encounter and how you would overcome it.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Illustrative answer. The hypothesis is accepted: velocity rose from 0.4 m/s at site 1 to 1.0 m/s at site 5. This matches the Bradshaw model, explained by greater depth reducing friction and more water from tributaries. Limitations: the data come from one day after dry weather; and a surface float overestimates average velocity. Improvements: use a flow meter, add more sites, and repeat visits after rain.",
+    "prompt": "Write a conclusion and evaluation for the River Dallow investigation using the results given.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-plate-tectonics-s1": {
   "keyTerms": [
    {
