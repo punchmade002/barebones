@@ -1,0 +1,175 @@
+{
+  "loId": "geo-weather-climate-s3",
+  "chapterId": "geo-weather-climate",
+  "subsection": "Geographical information systems (GIS)",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "What a GIS is",
+      "b": "A geographical information system (GIS) is a computer system that combines data linked to places on the earth's surface, so that data sources for one area can be studied together.",
+      "points": [
+        "A GIS captures, stores, analyses and displays spatial (geo-referenced) data from maps, aerial photographs, satellite images, census and other statistics, and field surveys.",
+        "Each data set is stored as a separate layer, such as roads, rivers, land use, population or protected sites, over the same base map; layers can be switched on and off and overlaid to reveal relationships.",
+        "Geo-referencing ties every item to coordinates, such as latitude and longitude or a national grid, so layers from different sources line up; Irish maps use the Irish Transverse Mercator (ITM) grid and the older Irish Grid.",
+        "Vector data are points, lines and polygons: a monument as a point, a road as a line, a forest as a polygon.",
+        "Raster data are a grid of cells or pixels, such as a satellite image or an aerial photograph.",
+        "Each feature can carry attribute data, a table of information such as a house's year of building or a field's crop."
+      ]
+    },
+    {
+      "h": "GIS analysis and the steps of a study",
+      "b": "Every study follows the same sequence, so the analysis tools below are used in whichever option is chosen.",
+      "points": [
+        "Overlay combines layers to show where things coincide, such as new housing on former farmland.",
+        "Buffering draws a zone of set distance around a feature, such as a zone around a river or monument.",
+        "Querying selects the features that meet a condition, such as all Small Areas whose population grew by more than a set amount.",
+        "Change detection compares the same layer at different dates.",
+        "Network analysis finds the shortest or fastest route, such as for an ambulance.",
+        "Choropleth maps shade each area by a statistic, such as census figures.",
+        "Steps: define the problem and area; collect data layers; geo-reference them to one base map; overlay and analyse; map and present the results; draw conclusions and recommend planning action."
+      ]
+    },
+    {
+      "h": "Wider uses, advantages and Irish data sources",
+      "points": [
+        "Wider uses of GIS: local authority planning and zoning, flood-risk mapping, emergency services, water and electricity networks, retail and service location, environmental monitoring and census mapping.",
+        "Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios.",
+        "Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.",
+        "Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography.",
+        "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in geo-weather-climate-s2; government departments and agencies supply sector statistics."
+      ]
+    },
+    {
+      "h": "Study 1: urban sprawl, data sources",
+      "b": "Urban sprawl is the uncontrolled outward spread of low-density urban development, such as housing estates, retail parks and business parks, into the surrounding countryside, often along roads and into commuter towns and villages.",
+      "points": [
+        "Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts and business parks, and ribbon development along approach roads; overlaying them shows exactly where and when land changed.",
+        "Census material: population and housing counts by small area show where population grew fastest, the age of the housing stock, household size and commuting (distance and mode of travel to work).",
+        "The CSO publishes census results for Small Areas, each generally of 50–200 dwellings.",
+        "Ireland's censuses were held in 2011, 2016 and 2022; the 2021 census was postponed to 2022 because of COVID-19. Census 2022 counted about 5.1 million people in Ireland and about 1.45 million in Dublin county.",
+        "Maps: Ordnance Survey and historic maps of different editions show the built-up area expanding; development plan zoning maps show land zoned for housing; transport maps show new motorways and rail lines that encouraged growth."
+      ]
+    },
+    {
+      "h": "Study 1: GIS analysis, findings and responses",
+      "points": [
+        "Overlay the built-up area at each date to measure how much land was urbanised, then overlay census growth on it.",
+        "Buffer motorways and rail stations to test whether growth followed transport, and link commuting data to show dependence on the car.",
+        "Findings for Dublin: the city and its suburbs spread into the surrounding counties; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly; many residents commute long distances into Dublin.",
+        "The Greater Dublin Area comprises Dublin, Meath, Kildare and Wicklow.",
+        "Problems shown by the study: loss of farmland and green space; car dependence, long commutes and traffic congestion; services such as schools, transport and shops lagging behind new housing.",
+        "Further problems: high cost of extending water, sewerage and public transport to low-density areas, and weakened community life in dormitory settlements.",
+        "Responses: compact growth and higher density near public transport, promoted by the National Planning Framework (2018); planned new communities with services built alongside housing, such as Adamstown, Co. Dublin, a planned Strategic Development Zone (SDZ); and greenbelts."
+      ]
+    },
+    {
+      "h": "Study 2: changing agricultural land use, data sources",
+      "b": "This study combines satellite images with statistics to measure how farmland has changed between dates.",
+      "points": [
+        "Satellite images from different years show changes in crops and grassland, field size, drainage, reclaimed marginal land, and land lost to housing or forestry; satellite images repeat regularly, so changes can be tracked within a single season.",
+        "CORINE land cover is an EU inventory mapped from satellite images that shows agricultural, forest, wetland and urban land at each date; Ireland has been mapped for 1990, 2000, 2006, 2012 and 2018.",
+        "Statistical information: the CSO Census of Agriculture (about 135,000 farms counted in 2020) and annual crop and livestock surveys give farm numbers, farm size, crop areas and livestock numbers by county.",
+        "Department of Agriculture data on farm payments add the financial side of land use."
+      ]
+    },
+    {
+      "h": "Study 2: GIS analysis and findings",
+      "points": [
+        "Overlay satellite-derived land use from two dates to map where tillage, grassland, forestry and built land changed.",
+        "Join county statistics to the map, then relate the change to soils, relief and rainfall layers; for example, tillage is concentrated on the drier, flatter, better-drained land of the east and south-east.",
+        "Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.",
+        "Dairy farming expanded after EU milk quotas ended in 2015; some marginal land in the west has been planted with forestry; farmland on the edge of cities has been lost to urban growth.",
+        "Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.",
+        "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; the checked examples are in geo-weather-climate-s2."
+      ]
+    },
+    {
+      "h": "Study 3: forestry development, data sources and analysis",
+      "b": "This study combines aerial photographs, maps and forestry statistics to show where forest has been planted and cleared.",
+      "points": [
+        "Aerial photographs of different dates show new plantations as dark, uniform blocks with straight edges and firebreaks, clear-felled areas as bare brown patches with brash, and replanting; species and age can be distinguished by tone and texture.",
+        "OS maps show forest areas by symbol (coniferous, deciduous or mixed) and can be compared across editions.",
+        "Soil, peat and relief maps show where planting took place, on marginal upland, wet mineral soils and peat.",
+        "Maps of protected areas, Special Areas of Conservation and Special Protection Areas, show where planting conflicts with conservation.",
+        "Statistical information: the Forest Service's National Forest Inventory (forest area, species, ownership and age by county), annual afforestation and felling figures, and grant data.",
+        "GIS analysis: overlay forest cover at successive dates to map expansion; overlay soils, slope and altitude to explain where planting happened; overlay protected sites, rivers and archaeological sites, with buffers, to identify conflicts; query which counties had the largest increase."
+      ]
+    },
+    {
+      "h": "Study 3: findings and issues",
+      "points": [
+        "Forest cover was about 1% of Ireland at the start of the 20th century and is about 11% today (National Forest Inventory, 2022).",
+        "Most planting has been of conifers, mainly Sitka spruce, which makes up about half of all forest area, largely on marginal land.",
+        "Coillte, the state forestry company set up in 1988, manages most public forest; private, largely farm-based, planting grew with grants.",
+        "Benefits: timber and jobs, farm income diversification, carbon storage and recreation.",
+        "Problems: dense conifer blocks change the landscape and reduce biodiversity; acidification and sediment in streams harm fish and the freshwater pearl mussel; open upland habitat for birds such as the hen harrier is lost.",
+        "Further problems: planting on peat releases carbon; clear-felling causes erosion; forestry replacing farms has caused local opposition, for example in Co. Leitrim; ash dieback, first found in Ireland in 2012, is a disease risk.",
+        "Management: more broadleaf planting, buffer zones along rivers, environmental assessment of planting, and continuous-cover forestry."
+      ]
+    },
+    {
+      "h": "Study 4: the Record of Monuments and Places",
+      "b": "The archaeological study uses the official record of known sites, old and new maps, and aerial photographs.",
+      "points": [
+        "The Record of Monuments and Places (RMP) is the statutory list of known archaeological monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994.",
+        "It is published as a written list with OS maps on which each site is circled; the database behind it, the Sites and Monuments Record, is viewable in the National Monuments Service's online Historic Environment Viewer.",
+        "Anyone intending works at or near a recorded monument must give two months' notice before the works begin.",
+        "Types of site: ringforts (about 45,000 in Ireland, the most common field monument), megalithic tombs, standing stones, ecclesiastical sites, castles and tower houses, crannógs, fulachta fiadh, and buried sites known only from below-ground remains."
+      ]
+    },
+    {
+      "h": "Study 4: maps, aerial photographs and GIS analysis",
+      "points": [
+        "First edition OS six-inch maps of Ireland date from the 1830s–1840s and later editions record sites, for example ringforts drawn as circles; comparing old maps, modern maps and the RMP shows which sites have disappeared.",
+        "Aerial photographs reveal sites that are invisible on the ground: cropmarks, where crops over buried ditches grow taller and greener from extra moisture and over buried walls are stunted and parched; parchmarks in dry summers; soil marks in ploughed fields; and shadow marks, where low sun shows earthworks.",
+        "Comparing photographs from different dates shows sites that have been levelled; LiDAR (laser scanning from an aircraft) reveals earthworks under trees.",
+        "GIS analysis: overlay the RMP point layer on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed.",
+        "Overlay development layers (new roads, housing, quarries, forestry and land drainage), buffer each monument to predict threats, and map destruction rates by area."
+      ]
+    },
+    {
+      "h": "Study 4: causes, case studies and protection",
+      "points": [
+        "Agricultural improvement (land reclamation, drainage, ploughing and removal of field boundaries) causes destruction.",
+        "Other causes: road building, urban and housing development, quarrying, afforestation (ploughing, drains and tree roots), and natural erosion such as coastal erosion of promontory forts and middens.",
+        "Wood Quay, Dublin: a Viking-age site, excavated and largely removed for Dublin Corporation's civic offices after protests in the late 1970s.",
+        "M3 motorway through the Tara–Skryne valley, Co. Meath: opened 2010, and passes through the valley near the Hill of Tara; a henge was found at Lismullin during construction in 2007.",
+        "Carrickmines Castle on the M50 route, Co. Dublin: a dispute in the early 2000s.",
+        "July 2018 drought: a henge at Brú na Bóinne, Co. Meath, was spotted from the air (by drone).",
+        "Protection the study supports: the RMP and its notification system; archaeological assessment and excavation before development, which means preservation by record or preservation in situ; planning conditions; rerouting roads; public awareness; and farm schemes that protect monuments."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "GIS", "definition": "A computer system that captures, stores, analyses and displays data linked to locations, combining several sources for one area." },
+    { "term": "Layer", "definition": "One data set stored over a base map, such as roads, land use or population, which can be overlaid on other layers." },
+    { "term": "Geo-referencing", "definition": "Tying each item of data to a location by coordinates or a national grid, so that layers from different sources line up." },
+    { "term": "Vector data", "definition": "Spatial data stored as points, lines and polygons." },
+    { "term": "Raster data", "definition": "Spatial data stored as a grid of cells or pixels, such as a satellite image." },
+    { "term": "Attribute data", "definition": "The table of information attached to a GIS feature, such as a field's crop or a house's year of building." },
+    { "term": "Overlay", "definition": "A GIS operation that combines layers to show where features coincide." },
+    { "term": "Buffer", "definition": "A GIS zone of set distance drawn around a feature, such as a monument or river." },
+    { "term": "Urban sprawl", "definition": "The uncontrolled outward spread of low-density urban development into the surrounding countryside, often along roads." },
+    { "term": "CORINE land cover", "definition": "An EU land-cover inventory mapped from satellite images for several dates, used to measure change." },
+    { "term": "Record of Monuments and Places (RMP)", "definition": "The statutory county list of known archaeological monuments, which requires two months' notice before works at a recorded monument." },
+    { "term": "Cropmark", "definition": "A pattern in crops that reveals a buried archaeological feature, taller and greener over ditches and stunted over walls." },
+    { "term": "LiDAR", "definition": "Laser scanning from an aircraft that reveals earthworks under trees." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Examine how a GIS, using aerial photographs, census material and maps, can be used in the study of urban sprawl.",
+      "model": "A GIS combines data sources for one area as separate layers over a common base map, geo-referenced to coordinates so that they line up. Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts, business parks and ribbon development along approach roads, and overlaying them shows where and when land changed. Census material by Small Area shows where population grew fastest, the age of housing, household size and commuting distance and mode of travel. Maps, including OS maps of different editions, show the built-up area expanding, and development plan zoning maps show land zoned for housing; transport maps show new motorways and rail lines. In the GIS, the built-up area at each date is overlaid to measure the land urbanised, census growth is overlaid on it, motorways and rail stations are buffered to test whether growth followed transport, and commuting data show dependence on the car. In Dublin the city and its suburbs spread into the surrounding counties, the Greater Dublin Area of Dublin, Meath, Kildare and Wicklow; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly, and many residents commute long distances into Dublin. The problems shown include loss of farmland and green space, car dependence and congestion, services lagging behind housing, high costs of extending water, sewerage and transport to low-density areas, and weakened community life. Responses include compact growth near public transport under the National Planning Framework (2018), planned communities such as Adamstown, Co. Dublin, and greenbelts."
+    },
+    {
+      "marks": 30,
+      "prompt": "Examine how maps, aerial photographs and the Record of Monuments and Places can be used in a GIS to study the destruction of archaeological sites.",
+      "model": "The Record of Monuments and Places (RMP) is the statutory list of known monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994; it is published with OS maps that circle each site, and its database is viewable in the Historic Environment Viewer. Anyone intending works at or near a recorded monument must give two months' notice. Old maps, such as the first edition OS six-inch maps of the 1830s–1840s, record sites such as ringforts drawn as circles, so comparing them with modern maps shows which sites have disappeared. Aerial photographs reveal sites invisible on the ground: cropmarks show buried ditches as taller, greener crops and buried walls as stunted, parched crops; parchmarks appear in dry summers, soil marks in ploughed fields and shadow marks where low sun shows earthworks; comparing photographs of different dates shows sites levelled, and LiDAR reveals earthworks under trees. In a GIS, the RMP point layer is overlaid on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed. Development layers, such as new roads, housing, quarries, forestry and land drainage, are overlaid, and each monument is buffered to predict threats, so destruction rates can be mapped by area. The causes of destruction are agricultural improvement, road building, urban and housing development, quarrying, afforestation and natural erosion. Case studies: at Wood Quay, Dublin, a Viking-age site was largely removed for civic offices after protests in the late 1970s; the M3 motorway through the Tara–Skryne valley passed near the Hill of Tara, where a henge was found at Lismullin in 2007 during construction. In July 2018 drought a henge at Brú na Bóinne, Co. Meath, was spotted from the air. Protection includes the RMP and its notification system, archaeological assessment before development, planning conditions, rerouting roads and public awareness."
+    },
+    {
+      "marks": 8,
+      "prompt": "(a) Define GIS. (b) Explain layers and overlay. (c) Distinguish between vector and raster data. (d) Give one advantage and one limitation of GIS. Two marks for each part.",
+      "model": "(a) A GIS is a computer system that captures, stores, analyses and displays data linked to locations on the earth's surface, combining several sources for one area. (b) Each data set is stored as a separate layer over the same base map, such as roads, land use or population; overlay combines layers to show where features coincide, such as new housing on former farmland. (c) Vector data are points, lines and polygons, such as a monument as a point, a road as a line and a forest as a polygon; raster data are a grid of cells or pixels, such as a satellite image or aerial photograph. (d) Advantage: a GIS handles very large data sets and combines many sources. Limitation: results are only as good as the data, which may be out of date or inaccurate."
+    }
+  ]
+}
