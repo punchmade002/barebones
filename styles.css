@@ -5016,16 +5016,10 @@ body.onboarding-open .timer-widget {
   text-transform: uppercase;
 }
 
-.lr-line.is-current .lr-word {
-  color: color-mix(in oklch, currentColor 45%, transparent);
-  transition: color 260ms ease;
-}
-
-.lr-line.is-current .lr-word.is-read { color: inherit; }
+.lr-line.is-current .lr-rest { color: color-mix(in oklch, currentColor 45%, transparent); }
 
 .lr-still,
-.lr-still .lr-line,
-.lr-still .lr-word { transition: none !important; }
+.lr-still .lr-line { transition: none !important; }
 
 .live-reader-controls {
   flex: 0 0 auto;
