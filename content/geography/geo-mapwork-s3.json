@@ -1,0 +1,196 @@
+{
+  "loId": "geo-mapwork-s3",
+  "chapterId": "geo-mapwork",
+  "subsection": "3. The Geographical Investigation (20%)",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "The rules of the investigation",
+      "b": "The investigation is an individual, field-based study of a geographical question, written up as a report. It is worth 20% of the total mark.",
+      "points": [
+        "It is compulsory at Higher and Ordinary level, and is assessed outside the written examination, so it does not appear as a question on the written paper.",
+        "The topic is chosen from the annual list that the State Examinations Commission (SEC) issues to schools in Leaving Certificate Year 1.",
+        "Typical topic areas are physical (rivers, coasts, glacial or karst landscapes, weather, soils, rocks) and human (urban land use, traffic, settlement, economic activity), but only the year's own list applies.",
+        "The syllabus sets submission at the end of term one in Leaving Certificate Year 2; the SEC sets the exact date each year, so check it.",
+        "A class may work on one investigation and collect data together, but each student must write a full and complete report of their own. Group reports are not accepted.",
+        "Sources: about 60% primary (first-hand fieldwork data) and 40% secondary (published or previously collected information).",
+        "The geography teacher and the school principal verify that each report is the candidate's own work; copied or shared write-ups are not acceptable.",
+        "The report is written in the official SEC report booklet, which sets the section headings, the space for each and the marks available. Follow that year's booklet exactly."
+      ]
+    },
+    {
+      "h": "Stage 1: Introduction (posing the problem)",
+      "b": "The introduction covers the topic, a hypothesis or aim, the objectives and the information needed.",
+      "points": [
+        "Hypothesis: a precise, testable statement that the data can prove or disprove, e.g. a measurable claim about change with distance downstream.",
+        "Aim: a statement of what the investigation sets out to find out. Use a hypothesis or an aim, as the booklet asks.",
+        "A hypothesis is a testable statement, not a question or a topic title.",
+        "Objectives: three to five specific, measurable tasks that together test the hypothesis, each naming what will be measured and where. Each objective later receives its own results.",
+        "Types of information required: primary (measurements, observations, counts, questionnaire answers) and secondary (maps, statistics, texts), stated for each objective.",
+        "Good practice: keep the hypothesis narrow enough to test in a day or two of fieldwork, avoid vague words such as \"better\" or \"nice\", and include the place studied.",
+        "Illustrative hypothesis for a river study of the River Dallow upstream of Rivertown: \"The velocity of the River Dallow increases downstream.\"",
+        "Illustrative objectives: measure channel width, average depth and velocity at five sites 500 m apart; calculate cross-sectional area and discharge at each site; measure the size of ten pebbles at each site.",
+        "Illustrative information required: primary measurements, and a secondary OS map and aerial photograph of the river."
+      ]
+    },
+    {
+      "h": "Stage 2: Planning",
+      "b": "Planning covers the choice of collection methods, the design of recording sheets or a questionnaire, and the choice of sites.",
+      "points": [
+        "Before fieldwork, study OS maps and aerial photographs of the area.",
+        "Choose and justify sites: e.g. evenly spaced along a river, or sample points across a town.",
+        "Choose the date and time, gather the equipment, divide tasks within the group and arrange landowner permission where needed.",
+        "Recording sheet: a table prepared in advance, with columns for site, time, each measurement and repeat readings, so that data are recorded consistently.",
+        "Questionnaire design: keep it short, with closed questions (tick boxes, yes/no, rating scales) for easy analysis and a few open questions.",
+        "Questionnaire wording must be neutral and unbiased, with no unnecessary personal questions; pilot it with a few people first.",
+        "Sampling plan for a questionnaire: who is asked, where, when and how many.",
+        "Safety and ethics: complete a risk assessment, never work alone, supervise near water or traffic, wear suitable clothing and footwear, check the weather and river level, and respect property and the environment.",
+        "Questionnaires are anonymous and voluntary.",
+        "Good practice: explain why each method suits its objective, and describe the method clearly enough for someone else to repeat it.",
+        "Illustrative planning for the River Dallow: sites on the OS map where the river is accessible and safe; a recording sheet with columns for site, width, depths at five points, three float times over 10 m and pebble lengths; a risk assessment of low river level, wellingtons and groups of four."
+      ]
+    },
+    {
+      "h": "Stage 3: Collection of data",
+      "b": "Data are gathered with instruments, field observations, questionnaires and secondary sources. Problems encountered must be discussed in the report.",
+      "points": [
+        "Measuring tape or ranging poles: channel width, beach width and distances.",
+        "Metre stick: depth at regular intervals across a channel.",
+        "Float and stopwatch, or a flow meter: velocity. Time a float over a measured distance, repeat the timing and average the results.",
+        "Clinometer: the slope angle of a beach or valley side.",
+        "Callipers or a ruler measure pebble size; a roundness chart measures pebble shape.",
+        "Compass: orientation, aspect and wind direction.",
+        "Weather instruments: thermometer, rain gauge, anemometer and wind vane.",
+        "Camera: a photographic record, dated and located.",
+        "GPS or a smartphone mapping app: locating sites.",
+        "Field observations: labelled field sketches, land-use mapping on a base map, traffic or pedestrian counts at set times, and environmental quality surveys using scored criteria."
+      ]
+    },
+    {
+      "h": "Secondary sources and accuracy in collection",
+      "points": [
+        "Secondary sources used in investigations include OS maps and aerial photographs, census data, weather records, local authority plans, textbooks and websites; the notes on Textual sources explains how to evaluate them.",
+        "Record full details of each secondary source when you collect it, for acknowledgement.",
+        "Take repeat readings and average them.",
+        "Use the same method and the same people at every site.",
+        "Record units, and note the conditions: weather, time and river level.",
+        "Problems to name in the report: bad weather or high water that makes measurement unsafe, equipment faults, a float caught in vegetation, people refusing questionnaires, restricted access to a site, and time limits.",
+        "For each problem, state the problem, its effect on the data and the solution.",
+        "Illustrative: at site 3 the float snagged on reeds twice; the group discarded those runs and took three clean timings."
+      ]
+    },
+    {
+      "h": "Calculating velocity and discharge",
+      "b": "Illustrative values from the River Dallow study show the calculations used in the results.",
+      "points": [
+        "Velocity = distance ÷ time, using the average of the repeated float timings.",
+        "Cross-sectional area = width × average depth (m²).",
+        "Discharge = cross-sectional area × velocity (m³ per second).",
+        "Illustrative site 1: width 3.0 m; average depth 0.20 m; average float time over 10 m of 25 s, so velocity 0.4 m/s; cross-sectional area 0.6 m²; discharge 0.24 m³/s.",
+        "Illustrative site 5: width 6.0 m; average depth 0.40 m; average float time over 10 m of 10 s, so velocity 1.0 m/s; cross-sectional area 2.4 m²; discharge 2.4 m³/s."
+      ]
+    },
+    {
+      "h": "Stage 4: Preparing the results",
+      "b": "Results are organised objective by objective, in words, with the key figures and an illustration for each.",
+      "points": [
+        "State each finding in words with its key figures, and support it with an illustration.",
+        "Illustrations include tables of raw and averaged data, sketch maps locating sites, annotated photographs and field sketches.",
+        "Choose the graph that suits the data: a line graph for change with distance or time, a bar chart for comparison between sites, a pie chart for shares, a scatter graph for a relationship, and channel cross-sections for showing a river channel's shape.",
+        "Every illustration is titled, labelled, has units and a key, and is referred to in the text. Graph-drawing technique is in the notes on Figure interpretation.",
+        "Higher Level statistical analysis: averages (mean and median), range and percentages.",
+        "Use spreadsheets or graphing software (ICT) to calculate and plot results.",
+        "Describe trends with figures, e.g. \"velocity rose from site 1 to site 5\", note anomalies and suggest their causes.",
+        "Keep results separate from conclusions.",
+        "For the River Dallow study, the illustrations are: a line graph of velocity against distance downstream; channel cross-sections drawn to scale for sites 1 and 5; and a sketch map of the five sites."
+      ]
+    },
+    {
+      "h": "Stage 5: Conclusion",
+      "b": "The conclusion tests the hypothesis against the results, explains the pattern and compares the findings with established theory.",
+      "points": [
+        "State whether the hypothesis is accepted, rejected or partly accepted, using the evidence from each objective.",
+        "Explain the findings geographically: say why the pattern occurs.",
+        "Bradshaw model: downstream, a river's discharge, channel width, depth and velocity tend to increase, while gradient and load particle size decrease.",
+        "Burgess concentric zone model (Chicago, 1925): describes urban land use in zones around a central business district.",
+        "Compare results with the textbook model or published work, and explain any differences, such as local geology, human interference or a small sample.",
+        "Illustrative conclusion: the hypothesis is accepted because velocity rose from 0.4 m/s to 1.0 m/s; this matches the Bradshaw model, which is explained by greater depth reducing friction and more water from tributaries."
+      ]
+    },
+    {
+      "h": "Stage 5: Evaluation and improvements",
+      "b": "The evaluation judges how reliable the data are, names the limits of the study and proposes specific improvements.",
+      "points": [
+        "Evaluate the reliability and accuracy of the data, and say what went well.",
+        "Name the limits of the study: one day's data, few sites, a small questionnaire sample, measurement error and the weather on the day.",
+        "A surface float overestimates average velocity, so float results are estimates, not exact values.",
+        "Improvements: more sites, repeat visits in different seasons or conditions, better equipment such as a flow meter, larger samples and a longer stretch of river.",
+        "Suggest further investigation that the findings point towards.",
+        "Skills gained (optional): teamwork, fieldwork skills, ICT and report writing, which the syllabus links to working conditions similar to those likely to be encountered in the world of work."
+      ]
+    },
+    {
+      "h": "How the report is marked",
+      "points": [
+        "Marks are awarded for significant relevant points (SRPs) in each section of the booklet, plus marks for illustrations. The booklet states the marks for each section.",
+        "Marks are earned by a clear, testable hypothesis or aim with matching objectives.",
+        "Marks are earned by methods described step by step, with equipment named and justified.",
+        "Marks are earned by accurate data presented in varied, well-labelled illustrations, and by results that refer to the actual figures.",
+        "Marks are earned by conclusions that answer the hypothesis and are supported by the results, comparison with theory, and an honest evaluation with specific improvements.",
+        "Marks are lost for vague or untestable hypotheses, methods listed without explanation, and results given without figures.",
+        "Marks are lost for generic evaluations such as \"it went well\", for writing outside the space provided, and for material copied from others or the internet."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Hypothesis",
+      "definition": "A precise, testable statement that the data can prove or disprove."
+    },
+    {
+      "term": "Objective",
+      "definition": "A specific, measurable task that tests part of the hypothesis and receives its own results."
+    },
+    {
+      "term": "Recording sheet",
+      "definition": "A table prepared in advance, with columns for each site, time, measurement and repeat reading."
+    },
+    {
+      "term": "Float method",
+      "definition": "Estimating velocity by timing a float over a measured distance, repeating the timing and averaging the results."
+    },
+    {
+      "term": "Cross-sectional area",
+      "definition": "The area of a river channel's cross-section, calculated as width × average depth."
+    },
+    {
+      "term": "Discharge",
+      "definition": "The volume of water passing a point each second, calculated as cross-sectional area × velocity, in m³ per second."
+    },
+    {
+      "term": "Significant relevant point (SRP)",
+      "definition": "A distinct, relevant fact or explanation that earns a mark in a section of the report."
+    },
+    {
+      "term": "Bradshaw model",
+      "definition": "A model of how a river's discharge, width, depth and velocity tend to change downstream."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "State a hypothesis and three objectives for an investigation of a river.",
+      "model": "Illustrative answer. Hypothesis: The velocity of the River Dallow increases downstream. Objectives: (1) measure channel width, average depth and velocity at five sites 500 m apart; (2) calculate cross-sectional area and discharge at each site; (3) measure the size of ten pebbles at each site."
+    },
+    {
+      "marks": 15,
+      "prompt": "Describe how you would measure the velocity and discharge of a river, and name one problem you might encounter and how you would overcome it.",
+      "model": "Illustrative answer. Velocity by the float method: mark a measured distance of 10 m along a straight stretch, release a float upstream, time it over the distance with a stopwatch, repeat three times and average the timings, then calculate velocity = distance ÷ time. Discharge: measure the channel width and average depth to find the cross-sectional area (width × average depth), then multiply by the velocity. Check with site 5: width 6.0 m × average depth 0.40 m = 2.4 m²; 2.4 m² × 1.0 m/s = 2.4 m³/s. Problem: the float snagged on reeds, so discard those runs and take three clean timings."
+    },
+    {
+      "marks": 15,
+      "prompt": "Write a conclusion and evaluation for the River Dallow investigation using the results given.",
+      "model": "Illustrative answer. The hypothesis is accepted: velocity rose from 0.4 m/s at site 1 to 1.0 m/s at site 5. This matches the Bradshaw model, explained by greater depth reducing friction and more water from tributaries. Limitations: the data come from one day after dry weather; and a surface float overestimates average velocity. Improvements: use a flow meter, add more sites, and repeat visits after rain."
+    }
+  ]
+}

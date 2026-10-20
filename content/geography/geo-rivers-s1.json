@@ -1,0 +1,359 @@
+{
+  "loId": "geo-rivers-s1",
+  "chapterId": "geo-rivers",
+  "subsection": "1. Fluvial processes, patterns and associated landforms",
+  "syllabusRef": "1.5",
+  "notes": [
+    {
+      "h": "River terms",
+      "points": [
+        "Source: where the river rises. The River Shannon, Ireland's longest river, rises at the Shannon Pot, Co. Cavan.",
+        "Mouth: where the river enters the sea, a lake or another river.",
+        "Tributary: a smaller river that flows into a larger river.",
+        "Confluence: the point where a tributary joins the main river.",
+        "Drainage basin (catchment): the whole area of land drained by a river and its tributaries.",
+        "Watershed: the high ground that separates one drainage basin from the next.",
+        "Distributary: a channel that leaves the main river and flows away from it, found on deltas.",
+        "Estuary: the tidal lower course of a river, where fresh water meets salt water."
+      ]
+    },
+    {
+      "h": "Long profile and the three courses",
+      "b": "The long profile is the smooth, concave slope of a river from its source to its mouth.",
+      "points": [
+        "The gradient is steep near the source and gentle near the mouth.",
+        "Upper (youthful) course: steep, with V-shaped valleys, interlocking spurs, waterfalls, rapids and potholes.",
+        "Middle (mature) course: meanders (looping bends) develop as the valley widens.",
+        "Lower (old) course: a wide floodplain, levees, meanders with oxbow lakes, and a delta or estuary at the mouth."
+      ]
+    },
+    {
+      "h": "How rivers erode",
+      "b": "A river's energy depends on its volume (discharge) and gradient. Energy left after overcoming friction is used for erosion and transport, and volume increases downstream as tributaries join.",
+      "points": [
+        "Hydraulic action: the force of moving water dislodges loose material and forces air into cracks in the bed and banks, widening them until rock breaks away.",
+        "Abrasion (corrasion): the load scrapes and grinds the bed and banks; pebbles swirled in eddies drill potholes into the bed.",
+        "Attrition: particles of the load collide with each other and with the bed, becoming smaller and more rounded downstream.",
+        "Solution (corrosion): slightly acidic water dissolves soluble rock such as limestone, carrying it away in solution.",
+        "Vertical erosion (deepening) dominates in the upper course; lateral erosion (widening) dominates in the middle and lower courses.",
+        "Headward erosion lengthens a valley at its source."
+      ]
+    },
+    {
+      "h": "How rivers transport and deposit",
+      "points": [
+        "Traction: the largest boulders are rolled along the bed, mainly during floods.",
+        "Saltation: pebbles and sand bounce along the bed in a series of hops.",
+        "Suspension: fine silt and clay are carried within the flow, giving the water its brown colour.",
+        "Solution: dissolved minerals are carried invisibly in the water.",
+        "Competence: the largest particle a river can carry; it rises sharply in flood.",
+        "Capacity: the total load a river can carry; it also rises sharply in flood.",
+        "Deposition happens when velocity falls: on entering a lake or the sea, on the inside of a bend, when floodwater recedes, or on a gentler gradient.",
+        "Deposition also happens when the load becomes too great for the river's energy.",
+        "Heavier material is deposited first and the finest last, so deposits are sorted by size, unlike unsorted, angular glacial till."
+      ]
+    },
+    {
+      "h": "Drainage patterns",
+      "b": "A drainage pattern is the arrangement of a river and its tributaries, shaped by the underlying rock and relief.",
+      "points": [
+        "Dendritic: tree-like, with tributaries joining at acute angles; forms on rock of uniform resistance.",
+        "Trellised: tributaries meet the main rivers at right angles; forms where bands of hard and soft rock alternate, e.g. the ridge-and-valley landscape of Munster.",
+        "Radial: rivers flow outward from a central high point like the spokes of a wheel.",
+        "Deranged: no clear pattern; forms on poorly drained glacial deposits, e.g. the drumlin belt of Co. Cavan, with many small lakes and marshes between the drumlins.",
+        "Centripetal: rivers flow inward to a central lake or basin, e.g. Lough Neagh, into which rivers drain from all sides.",
+        "On an Ordnance Survey map, dendritic streams branch like a tree at sharp angles, trellised streams run parallel with tributaries meeting them at right angles, radial streams spread out from a high point, and centripetal streams converge on a lake."
+      ]
+    },
+    {
+      "h": "V-shaped valley and interlocking spurs (upper course)",
+      "points": [
+        "1. Steep gradient gives the river high energy, so it erodes vertically by hydraulic action and abrasion.",
+        "2. Weathering and mass movement loosen the valley sides and move material into the channel, widening the top of the valley.",
+        "3. The result is a narrow floor and steep sides in a V-shape.",
+        "4. The river swings around areas of harder rock, leaving spurs that interlock like the teeth of a zip.",
+        "Interlocking spurs are not to be confused with truncated spurs, which are glacial.",
+        "On an Ordnance Survey map, the contours form a V that points upstream.",
+        "Example: the upper course of the River Liffey in the Wicklow Mountains.",
+        "Diagram: cross-section of a V-shaped valley; plan view of interlocking spurs with the river winding between them."
+      ]
+    },
+    {
+      "h": "Waterfall, plunge pool and gorge (upper course)",
+      "points": [
+        "1. A waterfall forms where a band of resistant rock lies over less resistant rock.",
+        "2. Hydraulic action and abrasion erode the soft rock below faster, undercutting the hard rock and leaving an overhang.",
+        "3. Falling water and its load scour a deep plunge pool at the base by hydraulic action and abrasion.",
+        "4. The unsupported overhang collapses, and the waterfall retreats upstream.",
+        "5. Repeated retreat leaves a steep-sided gorge downstream of the falls.",
+        "Example: Niagara Falls, USA–Canada border, with a resistant cap of dolomite over weaker shale; the retreat of the falls has cut the Niagara Gorge below them.",
+        "Example: Powerscourt Waterfall, River Dargle, Co. Wicklow, Ireland's highest waterfall at about 121 m.",
+        "Example: Torc Waterfall, near Killarney, Co. Kerry.",
+        "Diagram: cross-section showing hard rock cap, soft rock beneath, overhang, plunge pool and direction of retreat."
+      ]
+    },
+    {
+      "h": "Rapids and potholes (upper course)",
+      "points": [
+        "1. Rapids form where alternating bands of hard and soft rock lie across the river bed.",
+        "2. Hydraulic action and abrasion erode the soft bands faster, leaving the hard bands standing as steps.",
+        "3. Fast, turbulent water tumbles over the steps, forming rapids.",
+        "Potholes: hollows drilled into the bed by swirling pebbles, as described under abrasion."
+      ]
+    },
+    {
+      "h": "Meanders (erosion and deposition, middle and lower courses)",
+      "b": "A meander is formed by both erosion and deposition, so it is classified under both.",
+      "points": [
+        "1. Water flows fastest on the outside of a bend, where it erodes the bank by hydraulic action and abrasion, forming a steep river cliff.",
+        "2. Water is slowest on the inside of the bend, where it deposits sand and gravel, forming a gently sloping point bar (slip-off slope).",
+        "3. Helicoidal (corkscrew-shaped) flow carries eroded material from the outer bank to the inner bank of the next bend.",
+        "4. Continued lateral erosion makes the bends more pronounced until only a narrow neck of land separates them.",
+        "Example: meanders on the River Shannon's floodplain, the Shannon Callows, between Athlone and Portumna.",
+        "Diagram: plan view of a meander with the fastest-flow line, river cliff and point bar."
+      ]
+    },
+    {
+      "h": "Oxbow lake and meander scar",
+      "points": [
+        "1. During a flood the river cuts through the neck of a meander and takes the straighter, shorter course.",
+        "2. Deposition seals off the old bend, leaving a crescent-shaped oxbow lake.",
+        "3. The oxbow lake slowly fills with silt and becomes a meander scar.",
+        "Example: oxbow lakes on the lower Mississippi, USA.",
+        "Diagram: plan sequence showing the cut-off and the formation of the oxbow lake."
+      ]
+    },
+    {
+      "h": "Floodplain and levees (deposition, lower course)",
+      "b": "Floodplains and levees are built by deposition during floods.",
+      "points": [
+        "Lateral erosion by migrating meanders widens the valley floor.",
+        "When the river floods, it spreads across the valley, loses velocity and deposits a layer of fine silt called alluvium.",
+        "Repeated floods build a wide, flat, fertile floodplain; on an Ordnance Survey map, widely spaced contours show it.",
+        "Example: the Shannon Callows, a wide floodplain of seasonally flooded meadows.",
+        "Levees: the coarsest material is dropped first, right beside the channel, so each flood raises the banks a little.",
+        "Over time these build into natural embankments called levees, and the river bed itself may rise above the level of the floodplain.",
+        "Example: levees along the lower Mississippi, USA, which have been artificially raised for flood control.",
+        "Diagram: cross-section of a floodplain showing alluvium layers, levees and the raised channel."
+      ]
+    },
+    {
+      "h": "Delta formation (deposition at the mouth)",
+      "points": [
+        "A delta forms where a river carrying a heavy load enters a sea or lake and its velocity drops sharply.",
+        "In salt water, fine clay particles clump together (flocculation) and sink faster.",
+        "Deposits build up until they block the channel, forcing the river to split into smaller channels called distributaries.",
+        "Conditions needed: a large load, and calm water with a small tidal range and weak currents, so that deposits are not removed."
+      ]
+    },
+    {
+      "h": "Delta beds and types",
+      "points": [
+        "Topset beds: flat, coarser deposits laid down on top of the delta.",
+        "Foreset beds: steeply sloping deposits at the front of the delta, built out into the water.",
+        "Bottomset beds: fine, flat layers laid down beyond the front of the delta.",
+        "Arcuate (fan-shaped) delta, e.g. the Nile delta, Egypt.",
+        "Bird's-foot delta: long fingers of deposits along distributaries, e.g. the Mississippi delta, USA.",
+        "Estuarine delta: fills a drowned river mouth.",
+        "Lake delta, e.g. the delta between the Upper and Lower Lakes at Glendalough, Co. Wicklow, which divided what was once a single lake.",
+        "Diagram: plan view of a delta with distributaries; cross-section showing topset, foreset and bottomset beds."
+      ]
+    },
+    {
+      "h": "Estuary and braided channel (deposition)",
+      "points": [
+        "Estuary: in the tidal river mouth, fresh and salt water meet, and deposition builds mudflats and salt marsh.",
+        "Example: the Shannon Estuary below Limerick, where the Shannon enters the Atlantic.",
+        "Braided channel: the river splits into several channels around islands of deposited sand and gravel, called eyots or braid bars.",
+        "Braided channels form where the load is large and discharge varies."
+      ]
+    },
+    {
+      "h": "Classifying fluvial landforms",
+      "points": [
+        "Erosion: V-shaped valley, interlocking spurs, waterfall, gorge, potholes, rapids.",
+        "Erosion and deposition: meander, oxbow lake.",
+        "Deposition: floodplain, levee, delta, point bar, estuary mudflats."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Source",
+      "definition": "The point where a river rises."
+    },
+    {
+      "term": "Mouth",
+      "definition": "The point where a river enters the sea, a lake or another river."
+    },
+    {
+      "term": "Tributary",
+      "definition": "A smaller river that flows into a larger river."
+    },
+    {
+      "term": "Confluence",
+      "definition": "The point where a tributary joins the main river."
+    },
+    {
+      "term": "Drainage basin",
+      "definition": "The whole area of land drained by a river and its tributaries, also called a catchment."
+    },
+    {
+      "term": "Watershed",
+      "definition": "The high ground that separates one drainage basin from the next."
+    },
+    {
+      "term": "Distributary",
+      "definition": "A channel that leaves the main river and flows away from it, found on deltas."
+    },
+    {
+      "term": "Estuary",
+      "definition": "The tidal lower course of a river, where fresh water meets salt water."
+    },
+    {
+      "term": "Long profile",
+      "definition": "The smooth, concave slope of a river from its source to its mouth."
+    },
+    {
+      "term": "Hydraulic action",
+      "definition": "Erosion by the force of moving water, which dislodges material and forces air into cracks until rock breaks away."
+    },
+    {
+      "term": "Abrasion",
+      "definition": "Erosion caused by the river's load scraping and grinding against the bed and banks."
+    },
+    {
+      "term": "Attrition",
+      "definition": "The wearing down of the load as particles collide, making them smaller and rounder downstream."
+    },
+    {
+      "term": "Solution",
+      "definition": "Erosion or transport by dissolving soluble rock, such as limestone, in slightly acidic water."
+    },
+    {
+      "term": "Traction",
+      "definition": "The rolling of the largest particles along the river bed."
+    },
+    {
+      "term": "Saltation",
+      "definition": "The bouncing of pebbles and sand along the bed in a series of hops."
+    },
+    {
+      "term": "Suspension",
+      "definition": "The transport of fine silt and clay carried within the flow."
+    },
+    {
+      "term": "Competence",
+      "definition": "The largest particle a river can carry."
+    },
+    {
+      "term": "Capacity",
+      "definition": "The total load a river can carry."
+    },
+    {
+      "term": "Dendritic drainage",
+      "definition": "A tree-like drainage pattern, with tributaries joining at acute angles, on rock of uniform resistance."
+    },
+    {
+      "term": "Trellised drainage",
+      "definition": "A drainage pattern in which tributaries meet the main rivers at right angles, on alternating bands of hard and soft rock."
+    },
+    {
+      "term": "Radial drainage",
+      "definition": "A drainage pattern in which rivers flow outward from a central high point."
+    },
+    {
+      "term": "Deranged drainage",
+      "definition": "A drainage pattern with no clear arrangement, many lakes and marshes, found on poorly drained glacial deposits."
+    },
+    {
+      "term": "Centripetal drainage",
+      "definition": "A drainage pattern in which rivers flow inward to a central lake or basin."
+    },
+    {
+      "term": "Interlocking spurs",
+      "definition": "Spurs of a V-shaped valley where the river swings around harder rock, leaving them interlocking like the teeth of a zip."
+    },
+    {
+      "term": "Plunge pool",
+      "definition": "A deep hollow scoured at the foot of a waterfall by falling water and its load."
+    },
+    {
+      "term": "Rapids",
+      "definition": "Fast, turbulent water flowing over steps left by alternating bands of hard and soft rock."
+    },
+    {
+      "term": "Pothole",
+      "definition": "A round hollow drilled into the river bed by swirling pebbles."
+    },
+    {
+      "term": "Meander",
+      "definition": "A looping bend in a river, formed by both erosion and deposition."
+    },
+    {
+      "term": "Point bar",
+      "definition": "A gently sloping deposit of sand and gravel on the inside of a meander bend."
+    },
+    {
+      "term": "Helicoidal flow",
+      "definition": "Corkscrew-shaped flow that carries eroded material across a meander from the outer bank to the inner bank."
+    },
+    {
+      "term": "Oxbow lake",
+      "definition": "A crescent-shaped lake left when a meander is cut off and sealed by deposition."
+    },
+    {
+      "term": "Meander scar",
+      "definition": "The filled-in remains of an oxbow lake."
+    },
+    {
+      "term": "Alluvium",
+      "definition": "Fine silt deposited on a floodplain when the river floods."
+    },
+    {
+      "term": "Floodplain",
+      "definition": "A wide, flat area beside a river, built up by alluvium deposited during floods."
+    },
+    {
+      "term": "Levee",
+      "definition": "A natural embankment of coarse alluvium built up along a river's banks by repeated flooding."
+    },
+    {
+      "term": "Flocculation",
+      "definition": "The clumping together of fine clay particles in salt water, causing them to sink faster."
+    },
+    {
+      "term": "Topset beds",
+      "definition": "Flat, coarser deposits laid down on top of a delta."
+    },
+    {
+      "term": "Foreset beds",
+      "definition": "Steeply sloping deposits at the front of a delta."
+    },
+    {
+      "term": "Bottomset beds",
+      "definition": "Fine, flat layers laid down beyond the front of a delta."
+    },
+    {
+      "term": "Braided channel",
+      "definition": "A river split into several channels around islands of deposited sand and gravel."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Examine the role of the processes of erosion in the formation of one fluvial landform that you have studied.",
+      "model": "Waterfall and gorge. A waterfall forms where a band of resistant rock lies over less resistant rock. First, hydraulic action forces water and air into the joints of the soft rock beneath the hard cap, so the soft rock is eroded faster than the cap. Second, abrasion, the scraping and grinding of the load against the bed, wears away the soft rock, undercutting the hard rock. Third, this undercutting leaves an overhang of unsupported hard rock. Fourth, falling water and its load strike the base of the fall. Fifth, hydraulic action and abrasion scour a deep plunge pool at the foot of the waterfall. Sixth, the plunge pool deepens the hollow beneath the overhang, so the overhang grows. Seventh, the unsupported overhang becomes too heavy and collapses. Eighth, the collapse moves the lip of the waterfall upstream, so the waterfall retreats. Ninth, the same processes repeat at the new site of the falls, so the waterfall retreats again and again. Tenth, repeated retreat leaves a steep-sided gorge downstream of the falls. Eleventh, the processes of erosion therefore create the waterfall, the plunge pool and the gorge in sequence. Twelfth, the example is Niagara Falls on the USA–Canada border, where a resistant cap of dolomite lies over weaker shale. Thirteenth, the retreat of the falls has cut the Niagara Gorge below them. Fourteenth, a labelled diagram would show the hard rock cap, the soft rock beneath, the overhang, the plunge pool and the direction of retreat. Fifteenth, the waterfall is therefore a landform created by hydraulic action and abrasion working together on a band of soft rock."
+    },
+    {
+      "marks": 30,
+      "prompt": "Explain, with the aid of a labelled diagram, the formation of one landform of fluvial deposition.",
+      "model": "Delta. A delta forms where a river carrying a heavy load enters a sea or lake and its velocity drops sharply. In salt water, fine clay particles clump together in a process called flocculation and sink faster. Deposits build up until they block the channel, and the river splits into smaller channels called distributaries that spread across the delta. Coarser deposits are laid down on top of the delta as flat topset beds. Steeply sloping foreset beds build out at the front of the delta, into the water. Fine, flat bottomset beds are laid down beyond the front. Conditions needed are a large load, and calm water with a small tidal range and weak currents, so that the deposits are not removed. The arcuate delta is fan-shaped, as at the Nile delta, Egypt. The bird's-foot delta has long fingers of deposits along its distributaries, as at the Mississippi delta, USA. The estuarine delta fills a drowned river mouth. A lake delta forms where a river enters a lake, as the delta between the Upper and Lower Lakes at Glendalough, Co. Wicklow, which divided what was once a single lake. A labelled diagram should show a plan view with the distributaries, and a cross-section with the topset, foreset and bottomset beds."
+    },
+    {
+      "marks": 30,
+      "prompt": "Name and explain the formation of two river landforms.",
+      "model": "V-shaped valley. First, the steep gradient of the upper course gives the river high energy. Second, the river erodes vertically by hydraulic action and abrasion. Third, weathering and mass movement loosen the valley sides and widen the top of the valley. Fourth, the result is a narrow floor and steep sides in a V-shape. Fifth, the river swings around areas of harder rock, leaving interlocking spurs. Sixth, the example is the upper course of the River Liffey in the Wicklow Mountains. Seventh, a cross-section of the valley shows the V-shape. Meander. First, water flows fastest on the outside of a bend, where erosion by hydraulic action and abrasion forms a steep river cliff. Second, water is slowest on the inside of the bend, where deposition forms a gently sloping point bar. Third, helicoidal flow carries eroded material from the outer bank to the inner bank of the next bend. Fourth, lateral erosion makes the bend more pronounced until only a narrow neck of land separates two bends. Fifth, during a flood the river cuts through the neck and takes a straighter, shorter course. Sixth, deposition seals off the old bend, leaving a crescent-shaped oxbow lake. Seventh, the example is the Shannon Callows, between Athlone and Portumna."
+    }
+  ]
+}

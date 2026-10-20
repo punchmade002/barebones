@@ -192,6 +192,9 @@
   COURSE_DATA.chapters.forEach(function (chapter) {
     if (!supportedSubjects.has(chapter.subject)) return;
     if (!Array.isArray(chapter.learningOutcomes) || !chapter.learningOutcomes.length) return;
+    // Chapters with authored subsection notes (<subject>-notes.js) no longer get the
+    // assembled overview: the authored notes replace it chapter by chapter.
+    if (chapter.learningOutcomes.some(function (item) { return item.authored; })) return;
 
     var outcome = chapter.learningOutcomes[0];
     var cards = Array.isArray(decks[chapter.id])
