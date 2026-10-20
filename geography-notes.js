@@ -2863,6 +2863,1223 @@
    }
   ]
  },
+ "geo-region-continental-s1": {
+  "keyTerms": [
+   {
+    "definition": "A seasonal reversal of wind direction that brings a wet season and a dry season to India.",
+    "term": "Monsoon"
+   },
+   {
+    "definition": "A fast, narrow band of upper-level wind; the subtropical westerly jet moves north of the Himalayas in early summer, allowing the monsoon to burst.",
+    "term": "Jet stream"
+   },
+   {
+    "definition": "The dry area on the leeward side of a mountain range, such as the Deccan Plateau behind the Western Ghats.",
+    "term": "Rain shadow"
+   },
+   {
+    "definition": "A hot, dry wind that blows over the northern plains in the hot season.",
+    "term": "Loo"
+   },
+   {
+    "definition": "Depressions from the west that bring light winter rain to north-west India.",
+    "term": "Western disturbances"
+   },
+   {
+    "definition": "Sediment deposited by rivers, forming the fertile soils of the Indo-Gangetic Plain.",
+    "term": "Alluvium"
+   },
+   {
+    "definition": "Khadar is newer alluvium on the floodplains; bhangar is older alluvium on higher terraces.",
+    "term": "Khadar and bhangar"
+   },
+   {
+    "definition": "Clay-rich soil weathered from Deccan Traps basalt, which holds moisture and is ideal for cotton.",
+    "term": "Regur (black soil)"
+   },
+   {
+    "definition": "Soil formed under high temperatures and heavy rainfall, rich in iron and aluminium oxides and poor in silica and nutrients.",
+    "term": "Laterite"
+   },
+   {
+    "definition": "The ancient southern landmass of which the Deccan Plateau was once a part.",
+    "term": "Gondwanaland"
+   },
+   {
+    "definition": "Thick layers of basalt from huge fissure eruptions that cover much of the north-west Deccan.",
+    "term": "Deccan Traps"
+   },
+   {
+    "definition": "Rain-fed rivers of the Deccan Plateau that are seasonal, low in the dry season and shorter than the Himalayan rivers.",
+    "term": "Peninsular rivers"
+   },
+   {
+    "definition": "A channel that splits from the main river and carries water away from it, as the Hooghly does from the Ganges.",
+    "term": "Distributary"
+   },
+   {
+    "definition": "Monsoon crops sown in June and July and harvested in autumn, such as rice and cotton.",
+    "term": "Kharif"
+   },
+   {
+    "definition": "Winter crops sown in October and November and harvested in March and April, such as wheat and mustard.",
+    "term": "Rabi"
+   },
+   {
+    "definition": "From the mid-1960s, the spread of high-yielding varieties, fertilisers, pesticides and irrigation, which raised food-grain output.",
+    "term": "Green Revolution"
+   },
+   {
+    "definition": "The co-operative dairy programme launched in 1970, which made India the world's largest milk producer.",
+    "term": "Operation Flood"
+   },
+   {
+    "definition": "The system of permits required to start or expand a factory, which made Indian industry inefficient before 1991.",
+    "term": "Licence Raj"
+   },
+   {
+    "definition": "An area where firms receive incentives, set up under the Special Economic Zones Act of 2005.",
+    "term": "Special Economic Zone"
+   },
+   {
+    "definition": "A subsidy paid per unit produced, used from 2020 to encourage manufacturing in electronics, cars and pharmaceuticals.",
+    "term": "Production-Linked Incentive"
+   },
+   {
+    "definition": "The upgraded highway of about 5,800 km linking Delhi, Mumbai, Chennai and Kolkata.",
+    "term": "Golden Quadrilateral"
+   },
+   {
+    "definition": "The economic gain from a large working-age population when young workers find jobs.",
+    "term": "Demographic dividend"
+   },
+   {
+    "definition": "The number of females per 1,000 males in a population; India's was 943 in Census 2011.",
+    "term": "Sex ratio"
+   },
+   {
+    "definition": "A city together with its surrounding built-up area, counted as one urban unit by the census.",
+    "term": "Urban agglomeration"
+   },
+   {
+    "definition": "A system of elected village councils, introduced by the 73rd Constitutional Amendment of 1992.",
+    "term": "Panchayati Raj"
+   },
+   {
+    "definition": "Groups recognised in the Constitution for reserved places in education, government jobs and parliament.",
+    "term": "Scheduled Castes and Scheduled Tribes"
+   },
+   {
+    "definition": "A term for the four poorer north Indian states of Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh.",
+    "term": "BIMARU"
+   },
+   {
+    "definition": "A pattern in which a developed core region dominates and a poorer periphery is less developed.",
+    "term": "Core–periphery"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The region studied is the Republic of India. Pakistan, Bangladesh and Nepal are referred to only as neighbours.",
+    "h": "Location, size and the region studied",
+    "points": [
+     "India is part of South Asia, a subcontinent bounded by the Himalayas to the north, the Arabian Sea to the west and the Bay of Bengal to the east.",
+     "India is the world's seventh-largest country by area, about 3.3 million km².",
+     "The Tropic of Cancer crosses central India.",
+     "Neighbours: Pakistan to the west, China and Nepal to the north, Bangladesh to the east.",
+     "The republic has 28 states and 8 union territories; its capital is New Delhi.",
+     "India is treated as a subcontinental region because of its size, the Himalayan barrier that gives it physical unity, and its own cultural and economic identity."
+    ]
+   },
+   {
+    "b": "A sketch map needs an accurate outline and one named example of each feature. Names may go on the map itself or in a key.",
+    "h": "Sketch map of India",
+    "points": [
+     "Outline: a triangular peninsula tapering to the south, with a north-eastern lobe around Bangladesh.",
+     "Relief, one option: outline the Himalayas as a band along the northern border, or outline the Deccan Plateau as the peninsula south of the Narmada, between the Western and Eastern Ghats.",
+     "River: the Ganges, drawn from the Himalayas in Uttarakhand south-east across the northern plain, past Varanasi, to its delta on the Bay of Bengal. Show it within India, ending at the delta.",
+     "Urban centres as dots on the correct river or coast: Mumbai on the west coast; Kolkata on the Hooghly near the Bay of Bengal; Delhi on the Yamuna in the north; Chennai on the east coast; Bengaluru on the southern Deccan.",
+     "Agricultural region as an outlined area: Punjab in the north-west (wheat and the Green Revolution), or Assam (tea, Brahmaputra valley).",
+     "Industrial region as an outlined area: the Chota Nagpur Plateau and Damodar valley, north-east of the Deccan around Jamshedpur, or Mumbai–Pune."
+    ]
+   },
+   {
+    "h": "Tropical monsoon climate and the seasons",
+    "points": [
+     "India has a tropical monsoon climate. A monsoon is a seasonal reversal of wind direction, not simply a wet period.",
+     "The word monsoon comes from the Arabic word for season.",
+     "Hot season: March to May, with the hottest conditions on the northern plains.",
+     "Wet south-west monsoon: June to September, bringing most of the year's rain.",
+     "Cool dry season: October to February, when most of India is dry.",
+     "The monsoon retreats in October and November, marking the change between the wet and dry seasons."
+    ]
+   },
+   {
+    "b": "The summer monsoon is driven by heating of the land and by the movement of global wind belts.",
+    "h": "How the south-west monsoon forms",
+    "points": [
+     "1. Intense heating of the land in early summer creates low pressure over north-west India and the Tibetan Plateau.",
+     "2. The Intertropical Convergence Zone (ITCZ) shifts north over India.",
+     "3. South-east trade winds cross the equator and are deflected by the Coriolis force into south-west winds.",
+     "4. These winds pick up moisture over the Indian Ocean and reach the land as the monsoon.",
+     "5. The subtropical westerly jet stream moves north of the Himalayas in early summer, and the monsoon arrives suddenly, a 'burst'.",
+     "6. The jet stream returns south of the Himalayas in winter, when the monsoon withdraws."
+    ]
+   },
+   {
+    "h": "Onset, timing and the two branches",
+    "points": [
+     "The south-west monsoon normally reaches Kerala around 1 June and covers all of India by mid-July.",
+     "It brings about three-quarters of India's annual rainfall, falling mainly in June to September.",
+     "The Arabian Sea branch strikes the Western Ghats first, dropping heavy rain on the windward side.",
+     "The Bay of Bengal branch strikes the north-east hills, then is turned west along the Ganges plain by the Himalayas, bringing rain eastwards and along the plain."
+    ]
+   },
+   {
+    "h": "Relief rainfall, rain shadow and the rainfall gradient",
+    "points": [
+     "Relief (orographic) rain: moist air is forced up the windward slopes of the Western Ghats, giving heavy rain on the Konkan and Malabar coasts.",
+     "The Deccan Plateau behind the Western Ghats lies in their rain shadow and is much drier.",
+     "Mawsynram and Cherrapunji, in the Khasi Hills of Meghalaya, are among the wettest places on earth, due to relief rain from the Bay of Bengal branch.",
+     "Rainfall falls off westwards along the Ganges plain: Kolkata in the east is wetter than Delhi in the north-west.",
+     "The Thar Desert in Rajasthan is the driest region, because the Arabian Sea branch passes parallel to the Aravalli Range and has no barrier to force it upwards."
+    ]
+   },
+   {
+    "h": "The cool dry season and winter rain",
+    "points": [
+     "High pressure over Central Asia gives north-east winds that blow off the land, so most of India is dry in winter.",
+     "The Himalayas shelter India from cold air from Central Asia.",
+     "Exception: the Tamil Nadu (Coromandel) coast receives most of its rain from the north-east monsoon, as these winds pick up moisture over the Bay of Bengal.",
+     "Western disturbances (depressions from the west) bring light winter rain to the north-west, which is important for wheat."
+    ]
+   },
+   {
+    "h": "Temperature",
+    "points": [
+     "The hot season brings high temperatures to the northern plains, with hot, dry winds called loo.",
+     "The south stays hot all year.",
+     "The Himalayas are cold, and temperatures fall with altitude."
+    ]
+   },
+   {
+    "h": "Monsoon hazards and climate change",
+    "points": [
+     "A late, weak or broken monsoon causes drought.",
+     "A heavy monsoon causes floods.",
+     "Tropical cyclones strike the east coast, mainly in the pre-monsoon and retreating-monsoon periods.",
+     "Odisha super cyclone, October 1999: about 10,000 deaths.",
+     "Climate change is making the monsoon more erratic and heatwaves more severe."
+    ]
+   },
+   {
+    "h": "Why the monsoon matters",
+    "points": [
+     "Its timing decides the farming calendar, with kharif and rabi crops (see the agriculture block).",
+     "It refills reservoirs and groundwater, which supply irrigation and drinking water.",
+     "Because farming is a large part of the economy, a poor monsoon affects GDP."
+    ]
+   },
+   {
+    "b": "Soil type follows the parent material and the climate. Alluvial soil is India's most extensive soil type.",
+    "h": "Alluvial and desert soils",
+    "points": [
+     "Alluvial soils are the most extensive and most fertile, found on the Indo-Gangetic Plain and the eastern deltas.",
+     "They are deposited by Himalayan rivers, forming newer khadar (floodplain) soils and older bhangar (higher terraces).",
+     "Desert soils in the Thar, Rajasthan, are sandy, low in humus and sometimes saline.",
+     "Desert soils are productive only where canal irrigation reaches them: the Indira Gandhi Canal, Rajasthan, brings water from Punjab's rivers into the Thar Desert."
+    ]
+   },
+   {
+    "h": "Black soils",
+    "points": [
+     "Black soils (regur, or black cotton soil) are weathered from the basalt lava of the Deccan Traps in north-west Deccan, Maharashtra.",
+     "They are clay-rich and hold moisture well.",
+     "They crack deeply when dry, a feature sometimes called self-ploughing.",
+     "They are ideal for cotton, the main crop on the Deccan Traps."
+    ]
+   },
+   {
+    "h": "Red soils",
+    "points": [
+     "Red soils are weathered from ancient crystalline rocks (granite and gneiss) of the south and east Deccan.",
+     "They are red because of iron oxide, and are low in nitrogen and humus.",
+     "They support millets, groundnuts and pulses, and give better yields with fertiliser and irrigation."
+    ]
+   },
+   {
+    "h": "Laterite soils",
+    "points": [
+     "Laterite forms under high temperatures and heavy rainfall, which leach out silica and nutrients, leaving iron and aluminium oxides behind.",
+     "Laterite is found on the Western Ghats and in Kerala.",
+     "It is infertile, but with fertiliser it supports tea, coffee and cashew.",
+     "It hardens when exposed to air and is cut into building bricks."
+    ]
+   },
+   {
+    "h": "Mountain soils",
+    "points": [
+     "Mountain soils on the Himalayan slopes are thin and immature.",
+     "On the terraces cut into these slopes, tea and fruit are grown."
+    ]
+   },
+   {
+    "h": "Soil problems",
+    "points": [
+     "Erosion: monsoon downpours and deforestation create gullies and ravines, such as the Chambal ravines of Madhya Pradesh and Rajasthan.",
+     "Salinisation and waterlogging occur under canal irrigation in Punjab and Haryana.",
+     "Nutrient exhaustion results from intensive Green Revolution farming."
+    ]
+   },
+   {
+    "h": "Soils and the rock cycle",
+    "points": [
+     "Basalt weathers to black soil, linking soils to the Deccan Traps (see the relief block).",
+     "Laterite is the product of intense chemical weathering in hot, wet conditions."
+    ]
+   },
+   {
+    "b": "India has three main relief divisions, with the Thar Desert, the coastal plains and the islands added to them.",
+    "h": "Main relief divisions",
+    "points": [
+     "The Himalayas lie to the north.",
+     "The Northern Plains, the Indo-Gangetic Plain, lie in front of the Himalayas.",
+     "The Peninsular Plateau, the Deccan, forms the southern peninsula.",
+     "Coastal plains and islands lie along the coasts."
+    ]
+   },
+   {
+    "h": "The Himalayas",
+    "points": [
+     "The Himalayas are young fold mountains formed by the collision of the Indian (Indo-Australian) plate with the Eurasian plate (see geo-plate-tectonics-s3).",
+     "Three parallel ranges run west to east: the Greater Himalaya (Himadri), the Lesser Himalaya and the Shiwaliks.",
+     "Kangchenjunga, 8,586 m, on the India (Sikkim)–Nepal border, is India's highest peak and the world's third highest.",
+     "Mount Everest (8,849 m) is on the Nepal–China border, not in India."
+    ]
+   },
+   {
+    "h": "Effects of the Himalayas",
+    "points": [
+     "The mountains are a barrier to cold air from Central Asia.",
+     "They trigger monsoon rain, as the monsoon is forced upwards by the mountain wall.",
+     "Perennial rivers fed by snow melt rise in the Himalayas.",
+     "The rivers have hydroelectric potential.",
+     "The mountains are a barrier to transport and are prone to earthquakes and landslides.",
+     "Settlement is sparse because of the steep, cold terrain."
+    ]
+   },
+   {
+    "h": "The Northern Plains",
+    "points": [
+     "The Northern Plains are vast, flat and low.",
+     "They are built from alluvium deposited by the Indus, Ganges and Brahmaputra river systems in a trough in front of the Himalayas.",
+     "They are the agricultural and population heartland of India."
+    ]
+   },
+   {
+    "h": "The Deccan Plateau and Deccan Traps",
+    "points": [
+     "The Deccan Plateau is very old, made of hard crystalline rock, and forms a stable shield.",
+     "It was once part of the ancient Gondwanaland landmass (see geo-plate-tectonics-s2).",
+     "The plateau tilts from west to east, so most of its rivers flow east.",
+     "The Chota Nagpur Plateau in the north-east of the plateau is rich in minerals.",
+     "The Deccan Traps are thick layers of basalt from huge fissure eruptions about 66 million years ago, covering much of the north-west Deccan (the source of the black soils)."
+    ]
+   },
+   {
+    "h": "The Western and Eastern Ghats",
+    "points": [
+     "The Western Ghats, also called the Sahyadri, form a steep, continuous escarpment along the west coast.",
+     "The Western Ghats are a UNESCO World Heritage Site (2012) for their biodiversity.",
+     "Anamudi, 2,695 m, in Kerala, is the highest peak in India south of the Himalayas.",
+     "The Eastern Ghats are lower and broken into separate hills by east-flowing rivers."
+    ]
+   },
+   {
+    "h": "Other ranges and the Thar Desert",
+    "points": [
+     "The Vindhya and Satpura ranges separate the plains from the Deccan.",
+     "The Narmada flows west between the Vindhya and Satpura ranges.",
+     "The Aravalli Range, Rajasthan, is among the oldest fold mountains on earth.",
+     "The Thar Desert lies west of the Aravalli Range."
+    ]
+   },
+   {
+    "h": "Coastal plains",
+    "points": [
+     "The narrow western plain includes the Konkan coast (Maharashtra, Goa) in the north and the Malabar coast (Kerala) in the south, with backwaters and lagoons.",
+     "The wider eastern plain is the Coromandel coast (Tamil Nadu), with large river deltas."
+    ]
+   },
+   {
+    "h": "Relief and human activity",
+    "points": [
+     "The plains support dense population, intensive farming and easy transport.",
+     "The plateau is rich in minerals and supports industry.",
+     "The mountains support tourism and hydroelectricity, with sparse settlement."
+    ]
+   },
+   {
+    "b": "The Himalayan and peninsular rivers differ in their source, flow and seasonal regime.",
+    "h": "Two river systems",
+    "points": [
+     "Himalayan rivers are perennial: they are fed by snow and glacier melt plus monsoon rain, and are large, with high flows in summer.",
+     "Peninsular rivers are seasonal: they are rain-fed, low in the dry season, and shorter.",
+     "Peninsular rivers flow in older, harder rock, with fixed valleys."
+    ]
+   },
+   {
+    "h": "The Ganges",
+    "points": [
+     "The Ganges rises as the Bhagirathi at Gaumukh, the snout of the Gangotri Glacier in Uttarakhand.",
+     "It becomes the Ganga where the Bhagirathi meets the Alaknanda at Devprayag.",
+     "It flows past Haridwar, Kanpur, Prayagraj (Allahabad), Varanasi and Patna.",
+     "The Yamuna, which flows past Delhi and Agra, joins it at Prayagraj.",
+     "The river is about 2,500 km long and its basin covers about a quarter of India, the largest basin in India.",
+     "It enters Bangladesh and joins the Brahmaputra to form the Ganges–Brahmaputra delta, the world's largest delta; the delta is shared with Bangladesh.",
+     "The Sundarbans mangrove forest, home of the Bengal tiger, lies on the delta across India and Bangladesh.",
+     "The Hooghly, a distributary, flows through Kolkata."
+    ]
+   },
+   {
+    "h": "The Brahmaputra",
+    "points": [
+     "The Brahmaputra rises in Tibet as the Yarlung Tsangpo.",
+     "It enters India in Arunachal Pradesh and flows west through Assam.",
+     "It joins the Ganges in Bangladesh.",
+     "It is braided and carries huge loads of silt, and it floods Assam annually."
+    ]
+   },
+   {
+    "h": "The Indus",
+    "points": [
+     "The Indus rises in Tibet and flows through Ladakh into Pakistan, mostly through Pakistan.",
+     "Its five Punjab tributaries are the Jhelum, Chenab, Ravi, Beas and Sutlej.",
+     "Its waters irrigate India's wheat belt in the Punjab.",
+     "The Indus Waters Treaty with Pakistan, 1960, brokered by the World Bank, divides its waters."
+    ]
+   },
+   {
+    "h": "East-flowing peninsular rivers",
+    "points": [
+     "The Mahanadi, Godavari, Krishna and Kaveri flow east to the Bay of Bengal.",
+     "The Godavari is the longest river of peninsular India.",
+     "They build deltas on the Bay of Bengal coast, which are fertile rice lands.",
+     "The Kaveri (Cauvery) water dispute is between Karnataka and Tamil Nadu."
+    ]
+   },
+   {
+    "h": "West-flowing peninsular rivers",
+    "points": [
+     "The Narmada and the Tapi flow west into the Arabian Sea.",
+     "They flow through rift valleys and end in estuaries, not deltas."
+    ]
+   },
+   {
+    "h": "Floods and river change",
+    "points": [
+     "Monsoon floods occur on the Ganges plain and in Bihar and Assam.",
+     "Silt deposition renews soils, but floods destroy crops and homes.",
+     "The Kosi, a Ganges tributary in Bihar, is called the 'Sorrow of Bihar' because of its floods and shifting course; it broke its embankment in 2008.",
+     "Rivers shift course on the flat plains."
+    ]
+   },
+   {
+    "h": "River management: dams and canals",
+    "points": [
+     "Multipurpose dams provide irrigation, hydroelectricity and flood control.",
+     "Bhakra Dam on the Sutlej, Himachal Pradesh, supplies irrigation water and power to Punjab and Haryana.",
+     "Sardar Sarovar Dam on the Narmada, Gujarat, brings irrigation and drinking water to Gujarat but displaced many thousands of villagers.",
+     "The displacement led to the Narmada Bachao Andolan ('Save the Narmada') protest movement.",
+     "Canal irrigation spreads water beyond the river valleys.",
+     "Water is disputed between states, as in the Kaveri dispute, and with neighbouring countries, as in the Indus Waters Treaty."
+    ]
+   },
+   {
+    "h": "Pollution of the Ganges",
+    "points": [
+     "The Ganges is polluted by sewage, industrial waste and cremations.",
+     "Ritual bathing and cremation take place along the river at Varanasi.",
+     "The Ganga Action Plan was launched in 1985.",
+     "The Namami Gange programme followed in 2014."
+    ]
+   },
+   {
+    "h": "Rivers and people",
+    "points": [
+     "The Ganges is sacred to Hindus.",
+     "Rivers provide water for drinking, irrigation and transport.",
+     "The rivers' floods deposit fertile alluvium on the plains, sustaining farming and settlement."
+    ]
+   },
+   {
+    "h": "Importance of agriculture",
+    "points": [
+     "Agriculture employs the largest share of workers: in Census 2011, about 55% of workers were cultivators or agricultural labourers.",
+     "It produces a much smaller share of GDP, under a fifth in the early 2020s, showing low productivity.",
+     "Its share of employment is falling."
+    ]
+   },
+   {
+    "h": "Types of agriculture",
+    "points": [
+     "Subsistence farming on small plots, feeding the farm family.",
+     "Intensive wet-rice (paddy) farming in the wet east, the south and the deltas.",
+     "Commercial irrigated wheat farming in the north-west, in Punjab and Haryana.",
+     "Plantation farming: tea in Assam and Darjeeling (West Bengal), and in the Nilgiri Hills (Tamil Nadu); coffee in Karnataka.",
+     "Cash crops: cotton on black soils in Maharashtra and Gujarat, sugar cane, and jute in West Bengal.",
+     "Dairy farming, and pastoralism in dry areas."
+    ]
+   },
+   {
+    "h": "The farming calendar",
+    "points": [
+     "Kharif crops are sown with the monsoon in June and July and harvested in autumn: rice, cotton, maize and millets.",
+     "Rabi crops are sown in October and November and harvested in March and April: wheat, mustard and gram.",
+     "Rabi crops depend on irrigation and on the rain from western disturbances.",
+     "Kharif means monsoon (summer) crops such as rice; rabi means winter crops such as wheat."
+    ]
+   },
+   {
+    "h": "Physical advantages for farming",
+    "points": [
+     "Tropical temperatures allow two or three crops a year.",
+     "The monsoon provides seasonal rain.",
+     "Fertile alluvium covers the plains, and black soil covers the Deccan.",
+     "The land is flat across the plains, easing cultivation and transport.",
+     "Perennial Himalayan rivers supply water for irrigation."
+    ]
+   },
+   {
+    "h": "Physical problems for farming",
+    "points": [
+     "The monsoon is unreliable, bringing drought in some years and floods in others.",
+     "Laterite and desert soils are poor.",
+     "Steep slopes limit cultivation.",
+     "Soil erosion and salinisation reduce yields.",
+     "Water tables are falling."
+    ]
+   },
+   {
+    "h": "Irrigation",
+    "points": [
+     "Canals in Punjab and the Indira Gandhi Canal in Rajasthan (see the soils block) supply water.",
+     "Tubewells draw groundwater for irrigation.",
+     "Irrigation was essential to the Green Revolution.",
+     "Groundwater is overused in Punjab, lowering the water table."
+    ]
+   },
+   {
+    "b": "From the mid-1960s, a package of new methods raised food-grain output.",
+    "h": "The Green Revolution",
+    "points": [
+     "High-yielding wheat varieties were developed in Mexico by Norman Borlaug; Indian scientist M. S. Swaminathan led their introduction in India.",
+     "The package included high-yielding varieties of wheat and rice, chemical fertilisers, pesticides, irrigation and machinery.",
+     "Food-grain output rose from about 51 million tonnes (1950–51) to about 330 million tonnes (2022–23).",
+     "India became self-sufficient in food.",
+     "The core areas were Punjab, Haryana and western Uttar Pradesh.",
+     "Benefits were concentrated in these areas and among larger farmers.",
+     "Costs: groundwater depletion, soil degradation, chemical pollution and farmer debt."
+    ]
+   },
+   {
+    "h": "The White Revolution",
+    "points": [
+     "Operation Flood, launched in 1970 by the National Dairy Development Board under Verghese Kurien, built co-operative dairying.",
+     "The Amul co-operative, based at Anand, Gujarat, is a model of the system.",
+     "Operation Flood made India the world's largest milk producer.",
+     "Religion supports dairying: the cow is sacred to Hindus, so cattle are kept for milk and draught, not beef."
+    ]
+   },
+   {
+    "h": "Human and economic problems in farming",
+    "points": [
+     "Holdings are very small and fragmented: in the Agriculture Census 2015–16, the average holding was about 1.1 hectares, and about 86% of holdings were small or marginal (under 2 hectares).",
+     "Holdings are subdivided at each inheritance.",
+     "Landless labourers have little land of their own.",
+     "Farmers lack capital and credit, so debt is common.",
+     "Middlemen take a share of the profit.",
+     "Poor storage and roads cause post-harvest losses."
+    ]
+   },
+   {
+    "h": "Markets and government support",
+    "points": [
+     "India has a huge domestic market of over 1.4 billion people.",
+     "The government sets minimum support prices and buys grain, which is stored by the Food Corporation of India.",
+     "PM-KISAN, launched in 2019, pays ₹6,000 a year directly to landholding farm families.",
+     "India is the world's largest rice exporter (early 2020s)."
+    ]
+   },
+   {
+    "h": "Challenges and conflict in farming",
+    "points": [
+     "Drought and farmer distress, including farmer suicides, are persistent problems.",
+     "Stubble burning in Punjab and Haryana, October to November, after the rice harvest, worsens Delhi's winter smog.",
+     "The 2020–21 farmers' protests, mainly by Punjab and Haryana farmers camped on Delhi's borders, opposed three farm laws.",
+     "The farm laws were repealed in November 2021."
+    ]
+   },
+   {
+    "h": "India's production rankings",
+    "points": [
+     "India is the world's second-largest producer of rice and of wheat, after China.",
+     "India is the second-largest producer of tea, after China.",
+     "India is the largest producer of jute.",
+     "India is the largest producer of milk (see the White Revolution block).",
+     "Bt (genetically modified) cotton was approved in 2002."
+    ]
+   },
+   {
+    "h": "Forestry",
+    "points": [
+     "Forests cover about one-fifth of India's area (early 2020s).",
+     "Tropical monsoon (deciduous) forests cover much of the country.",
+     "Wet evergreen forest grows on the Western Ghats and in the north-east.",
+     "Mangroves grow in the Sundarbans, West Bengal, a UNESCO site.",
+     "Fuelwood use and deforestation reduce forest cover.",
+     "Afforestation and protected areas respond to these losses; Project Tiger began in 1973."
+    ]
+   },
+   {
+    "h": "Fishing",
+    "points": [
+     "India has a long coastline and large rivers.",
+     "Marine fishing is important in Kerala, Gujarat and West Bengal.",
+     "Inland aquaculture (fish and prawn ponds) is growing fast.",
+     "India is one of the world's largest fish producers."
+    ]
+   },
+   {
+    "h": "Mining",
+    "points": [
+     "The Chota Nagpur Plateau covers Jharkhand, Odisha, Chhattisgarh and West Bengal.",
+     "It holds most of India's coal and iron ore, the basis of the steel industry.",
+     "Coal is mined in the Jharia coalfield and the Damodar valley coalfields in Jharkhand.",
+     "Iron ore is also mined in Karnataka and Goa, and in Odisha, Jharkhand and Chhattisgarh."
+    ]
+   },
+   {
+    "h": "Coal and its costs",
+    "points": [
+     "India is the world's second-largest coal producer, after China.",
+     "Coal generates about 70% of India's electricity (early 2020s).",
+     "Coal's environmental costs include air pollution and the displacement of tribal people."
+    ]
+   },
+   {
+    "h": "Oil and gas",
+    "points": [
+     "The Mumbai High offshore oil field, in the Arabian Sea, was discovered in 1974.",
+     "India imports most of its crude oil."
+    ]
+   },
+   {
+    "h": "Hydroelectricity and renewable energy",
+    "points": [
+     "Hydroelectricity comes from the Himalayan rivers and from large dams.",
+     "Solar energy is expanding fastest in Rajasthan, where the Bhadla Solar Park is one of the world's largest.",
+     "Wind energy is developing in Tamil Nadu and Gujarat.",
+     "India's target, announced at COP26 in Glasgow in 2021, is 500 GW of non-fossil electricity capacity by 2030."
+    ]
+   },
+   {
+    "b": "This is the background only; colonial impacts are covered in geo-economic-development-s3.",
+    "h": "Colonial origins of manufacturing",
+    "points": [
+     "Britain used India as a source of raw materials and as a market for its manufactures.",
+     "Early industry was cotton textiles in Bombay (Mumbai) and Ahmedabad, called the 'Manchester of India', from the 19th century.",
+     "Jute mills were built along the Hooghly near Calcutta (Kolkata).",
+     "The Tata Iron and Steel Company, founded in 1907 at Jamshedpur, Jharkhand, was India's first large steel works, sited on Chota Nagpur coal and iron ore."
+    ]
+   },
+   {
+    "h": "State-led industrialisation, 1947–1991",
+    "points": [
+     "The First Five-Year Plan began in 1951; Jawaharlal Nehru was the first Prime Minister, from 1947 to 1964.",
+     "Industrialisation was state-led: the state built steel plants at Bhilai (with Soviet Union help), Rourkela (West Germany) and Durgapur (Britain).",
+     "Imports were protected from foreign competition.",
+     "The Licence Raj required permits to start or expand a factory, which made industry inefficient."
+    ]
+   },
+   {
+    "h": "Economic liberalisation, 1991",
+    "points": [
+     "A balance-of-payments crisis led to reform in 1991, under Prime Minister P. V. Narasimha Rao and Finance Minister Manmohan Singh.",
+     "Most licences were removed, tariffs were cut and India opened to foreign investment.",
+     "Manufacturing and services grew rapidly after 1991.",
+     "Export markets grew after 1991."
+    ]
+   },
+   {
+    "h": "Recent manufacturing policy",
+    "points": [
+     "Make in India was launched in 2014.",
+     "The Special Economic Zones Act was passed in 2005; Special Economic Zones offer incentives to firms.",
+     "Production-Linked Incentive schemes, from 2020, pay subsidies per unit produced for electronics, cars and pharmaceuticals.",
+     "Industrial corridors such as the Delhi–Mumbai Industrial Corridor link manufacturing sites."
+    ]
+   },
+   {
+    "h": "Raw materials as a location factor",
+    "points": [
+     "Coal, iron ore, limestone and manganese of the Chota Nagpur Plateau support iron and steel, at Jamshedpur and in the state plants.",
+     "Cotton grown on black soils supports textiles in Mumbai and Ahmedabad.",
+     "Jute grown in the Ganges delta supports jute mills in Kolkata."
+    ]
+   },
+   {
+    "h": "Labour as a location factor",
+    "points": [
+     "India has a huge, young, low-cost labour force.",
+     "It has a large pool of engineers and graduates from the Indian Institutes of Technology (IITs); the first opened at Kharagpur in 1951.",
+     "Most workers are in the informal sector."
+    ]
+   },
+   {
+    "h": "Markets as a location factor",
+    "points": [
+     "The domestic market of over 1.4 billion people is growing, with a rising middle class that buys cars, phones and consumer goods.",
+     "Export markets have been open to Indian manufacturers since 1991."
+    ]
+   },
+   {
+    "h": "Infrastructure as a location factor",
+    "points": [
+     "Ports at Mumbai, Chennai and Kolkata handle trade.",
+     "Jawaharlal Nehru Port, Navi Mumbai, is one of India's main container ports.",
+     "Railways and the Golden Quadrilateral road network link factories to markets.",
+     "Infrastructure is weak in many areas, with power cuts and congestion raising costs."
+    ]
+   },
+   {
+    "h": "Government policy as a location factor",
+    "points": [
+     "Policy changed location as well as scale: licensing shaped where firms could expand, and incentive schemes now steer firms to chosen sites.",
+     "Special Economic Zones and production-linked incentives are offered by policy, not by natural resources."
+    ]
+   },
+   {
+    "b": "Manufacturing is concentrated in the west and south.",
+    "h": "The pattern of manufacturing regions",
+    "points": [
+     "Mumbai–Pune, on the west coast.",
+     "Ahmedabad–Vadodara, in Gujarat.",
+     "The Hooghly belt around Kolkata, in the east.",
+     "The Chota Nagpur and Damodar valley region, around Jamshedpur.",
+     "The Delhi National Capital Region, including Gurugram and Noida.",
+     "The southern cluster of Bengaluru, Chennai and Coimbatore.",
+     "The north and east (Bihar, Uttar Pradesh, Odisha) are less industrialised."
+    ]
+   },
+   {
+    "h": "Key industries and examples",
+    "points": [
+     "Iron and steel: India is the world's second-largest crude steel producer (since 2018).",
+     "Cotton textiles and garments: Tiruppur, Tamil Nadu, is known for knitwear exports.",
+     "Cars: Maruti Suzuki, a joint venture with Suzuki of Japan, began in 1983 with the Maruti 800; its plants are at Gurugram and Manesar, Haryana. Chennai has a car cluster that includes Hyundai.",
+     "Pharmaceuticals: India is a leading maker of generic medicines, called the 'pharmacy of the world'; Hyderabad is a major centre. The Serum Institute of India in Pune is the world's largest vaccine maker by number of doses and made the Covishield (AstraZeneca) COVID-19 vaccine.",
+     "Electronics assembly: Foxconn assembles Apple iPhones at Sriperumbudur, near Chennai.",
+     "Aerospace and defence: Hindustan Aeronautics Limited (HAL) and the headquarters of the Indian Space Research Organisation (ISRO) are in Bengaluru."
+    ]
+   },
+   {
+    "h": "Challenges for manufacturing",
+    "points": [
+     "Poor infrastructure and power supply raise costs.",
+     "Land acquisition causes conflict: in Singur, West Bengal, in 2008, protests over farmland taken for Tata's Nano car factory forced Tata to move the plant to Sanand, Gujarat.",
+     "Bureaucracy and complex regulation slow investment.",
+     "Competition from China is strong.",
+     "Pollution and industrial accidents: the Bhopal gas leak of December 1984, from the Union Carbide pesticide plant, killed thousands.",
+     "Old industries have declined: the Great Bombay textile strike of 1982 led to the closure of most of Mumbai's cotton mills, whose land was later redeveloped.",
+     "Manufacturing's share of the economy has stayed low compared with China."
+    ]
+   },
+   {
+    "h": "Services as the largest sector",
+    "points": [
+     "Services are now the largest sector, producing over half of India's GDP (early 2020s).",
+     "India is among the world's five largest economies by GDP (early 2020s)."
+    ]
+   },
+   {
+    "h": "IT and business-process outsourcing",
+    "points": [
+     "Bengaluru, called the 'Silicon Valley of India', is the leading IT centre.",
+     "Other IT centres are Hyderabad, Pune, Chennai, Gurugram and Noida.",
+     "Tata Consultancy Services (TCS), founded in 1968 and based in Mumbai, is an Indian IT firm.",
+     "Infosys, founded in 1981 in Pune, has its headquarters in Bengaluru.",
+     "Wipro is based in Bengaluru.",
+     "Texas Instruments opened a design centre in Bengaluru in 1985, one of the first multinationals to do so."
+    ]
+   },
+   {
+    "h": "Reasons for IT growth",
+    "points": [
+     "A large English-speaking graduate workforce.",
+     "The Indian Institutes of Technology produce skilled engineers.",
+     "Low wages.",
+     "A time difference with the USA allows work round the clock.",
+     "The 1991 liberalisation opened the economy, and software technology parks were established.",
+     "Bengaluru had an early lead in public-sector science and engineering."
+    ]
+   },
+   {
+    "h": "Tourist attractions",
+    "points": [
+     "The Taj Mahal, Agra, on the Yamuna in Uttar Pradesh, is a marble tomb built in the 17th century by the Mughal emperor Shah Jahan for his wife Mumtaz Mahal; a UNESCO World Heritage Site (1983).",
+     "The Golden Triangle links Delhi, Agra and Jaipur, the 'Pink City' of Rajasthan.",
+     "Rajasthan's forts and palaces.",
+     "Goa's beaches; Goa was a Portuguese colony until 1961.",
+     "Kerala's backwaters and houseboats around Alappuzha, and Ayurveda.",
+     "Varanasi, a Hindu holy city with bathing ghats on the Ganges.",
+     "Hill stations: Shimla, summer capital of British India, and Darjeeling.",
+     "Wildlife: Jim Corbett National Park, Uttarakhand, India's first national park (1936); Ranthambore, Rajasthan, for tigers; Kaziranga, Assam, for the one-horned rhinoceros, a UNESCO site.",
+     "The Golden Temple, Amritsar, the holiest Sikh shrine.",
+     "The Kumbh Mela at Prayagraj, a vast Hindu pilgrimage gathering."
+    ]
+   },
+   {
+    "h": "Why tourists come",
+    "points": [
+     "Culture and history: Mughal and Hindu monuments, religion and festivals.",
+     "Varied physical landscapes, from beaches and backwaters to the Himalayas.",
+     "A warm, dry winter, from October to March, matches the European winter.",
+     "Low costs for travellers.",
+     "Spiritual tourism, yoga, Ayurveda and medical tourism."
+    ]
+   },
+   {
+    "h": "Government support and access",
+    "points": [
+     "The 'Incredible India' marketing campaign began in 2002.",
+     "E-visas were introduced in 2014.",
+     "About 11 million foreign tourist arrivals were recorded in 2019, before COVID-19.",
+     "Airport expansion and low-cost airlines, led by IndiGo, India's largest airline, have improved access.",
+     "Domestic tourism is far larger than foreign tourism."
+    ]
+   },
+   {
+    "h": "Positive impacts of tourism",
+    "points": [
+     "Jobs in hotels, guiding, crafts and transport.",
+     "Foreign currency earnings.",
+     "Investment in infrastructure.",
+     "Preservation of heritage sites and wildlife."
+    ]
+   },
+   {
+    "h": "Negative impacts and challenges of tourism",
+    "points": [
+     "Overcrowding and pollution at major sites.",
+     "Air pollution has discoloured the Taj Mahal's white marble; the Supreme Court has restricted polluting industry around it.",
+     "Water shortages and waste in Goa.",
+     "Erosion of local culture.",
+     "Seasonality: tourism peaks in the dry winter.",
+     "Safety and sanitation concerns, and poor infrastructure."
+    ]
+   },
+   {
+    "h": "Rail transport",
+    "points": [
+     "The first passenger train ran from Bombay to Thane on 16 April 1853, under British rule.",
+     "Indian Railways is one of the world's largest networks, about 68,000 km long, one of the four largest in the world, and employs over 1 million people.",
+     "Rail carries huge numbers of passengers and freight, including coal and grain.",
+     "The Konkan Railway, opened in 1998, runs along the west coast.",
+     "Modernisation includes dedicated freight corridors, the Vande Bharat Express (from 2019), and the Mumbai–Ahmedabad high-speed line, under construction with Japanese funding and technology."
+    ]
+   },
+   {
+    "h": "Road transport",
+    "points": [
+     "The Golden Quadrilateral is about 5,800 km of upgraded highway linking Delhi, Mumbai, Chennai and Kolkata, built from 2001.",
+     "The rural roads programme (Pradhan Mantri Gram Sadak Yojana, 2000) connects villages to the network.",
+     "Congestion and very high road-death rates are serious problems."
+    ]
+   },
+   {
+    "h": "Air, sea and urban transport",
+    "points": [
+     "Domestic aviation is growing fast, with low-cost airlines.",
+     "Indira Gandhi International Airport, Delhi, is India's busiest airport.",
+     "Major container ports handle trade (see Jawaharlal Nehru Port in the manufacturing block).",
+     "Metro systems include the Delhi Metro, opened in 2002."
+    ]
+   },
+   {
+    "h": "Why transport matters",
+    "points": [
+     "Transport links farms to markets, raw materials to factories and workers to cities.",
+     "It integrates a huge country and enables tourism.",
+     "Two named types of transport: rail (Indian Railways) and road (the Golden Quadrilateral)."
+    ]
+   },
+   {
+    "h": "Size and growth of population",
+    "points": [
+     "Census 1951 recorded about 361 million people; Census 2011 recorded about 1.21 billion.",
+     "Population grew about 17.7% between 2001 and 2011.",
+     "India overtook China as the world's most populous country in 2023 (UN estimate, over 1.4 billion).",
+     "The census due in 2021 was postponed, so Census 2011 remains the latest census."
+    ]
+   },
+   {
+    "h": "Demographic transition",
+    "points": [
+     "Death rates fell first, because of medicine, vaccination and better food supply from the Green Revolution, while birth rates stayed high, giving rapid growth.",
+     "The National Family Health Survey 5 (2019–21) gives a total fertility rate of 2.0 for India, just below the replacement level of 2.1.",
+     "India is in late stage 3 of the demographic transition model."
+    ]
+   },
+   {
+    "h": "Regional differences in fertility",
+    "points": [
+     "Kerala has a total fertility rate of about 1.8 (NFHS-5, 2019–21).",
+     "Bihar has a total fertility rate of about 3.0 (NFHS-5, 2019–21).",
+     "Fertility is linked to female literacy, women's status, income and health care."
+    ]
+   },
+   {
+    "h": "Population policy",
+    "points": [
+     "India launched the world's first national family-planning programme in 1952.",
+     "Forced sterilisation campaigns during the Emergency (1975–77), under Prime Minister Indira Gandhi, caused a backlash.",
+     "Today the focus is on education, health and voluntary family planning."
+    ]
+   },
+   {
+    "h": "Sex ratio",
+    "points": [
+     "Census 2011 recorded 943 females per 1,000 males.",
+     "The child sex ratio (age 0–6) was 918 in Census 2011.",
+     "Son preference and sex-selective abortion cause the imbalance.",
+     "Prenatal sex determination was banned by law in 1994.",
+     "The 'Beti Bachao Beti Padhao' campaign, launched in 2015, means 'Save the daughter, educate the daughter'."
+    ]
+   },
+   {
+    "h": "Population structure",
+    "points": [
+     "India has a young population, shown by a broad-based pyramid.",
+     "The demographic dividend is the economic gain if young workers find jobs.",
+     "A large young population puts pressure on schools and jobs."
+    ]
+   },
+   {
+    "h": "Literacy",
+    "points": [
+     "Census 2011 literacy was about 74% overall: about 82% for men and about 65% for women.",
+     "Kerala had the highest literacy, about 94%; Bihar had the lowest, about 62%."
+    ]
+   },
+   {
+    "b": "Population distribution is explained by physical and human factors.",
+    "h": "Dense population areas",
+    "points": [
+     "The Ganges plain is dense, due to fertile alluvium, water, flat land and a long history of settlement.",
+     "The deltas and coastal plains, such as Kerala and West Bengal, are dense.",
+     "Around the large cities, such as Mumbai, Delhi and Kolkata, population is dense.",
+     "Human factors: history, farming, industry, transport and government policy."
+    ]
+   },
+   {
+    "h": "Sparse population areas",
+    "points": [
+     "The Thar Desert is sparse because of aridity.",
+     "The Himalayas are sparse because of cold temperatures, steep slopes and thin soils.",
+     "The forested hills of the north-east are sparse.",
+     "The central plateaus are sparse.",
+     "Physical factors: climate, relief, soils and water."
+    ]
+   },
+   {
+    "h": "Density figures",
+    "points": [
+     "Census 2011 national density was 382 people per km².",
+     "Bihar is the densest state, at about 1,100 people per km².",
+     "Arunachal Pradesh is the least dense state, at about 17 people per km².",
+     "Uttar Pradesh is the most populous state, with about 200 million people (Census 2011)."
+    ]
+   },
+   {
+    "h": "Migration",
+    "points": [
+     "Internal rural-to-urban migration moves people from Bihar and Uttar Pradesh to Mumbai, Delhi and other cities.",
+     "During the COVID-19 lockdown from March 2020, millions of migrant workers walked or travelled home from the cities.",
+     "Emigration to the Gulf, especially from Kerala, and to Western countries is significant.",
+     "India is the world's largest recipient of remittances (2020s)."
+    ]
+   },
+   {
+    "h": "Linguistic diversity",
+    "points": [
+     "The Eighth Schedule of the Constitution recognises 22 languages.",
+     "Census 2011 found 121 languages, each spoken by 10,000 or more people."
+    ]
+   },
+   {
+    "h": "Language families",
+    "points": [
+     "Indo-Aryan languages are spoken in the north: Hindi, Bengali, Marathi, Gujarati and Punjabi.",
+     "Dravidian languages are spoken in the south: Tamil, Telugu, Kannada and Malayalam."
+    ]
+   },
+   {
+    "h": "Hindi and official languages",
+    "points": [
+     "Hindi is the most widely spoken language: about 44% of Indians reported it as their mother tongue in Census 2011; Bengali is second, at about 8%.",
+     "The Hindi belt covers Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Haryana and Delhi.",
+     "Hindi, in Devanagari script, is the official language of the Union; the Constitution names no national language.",
+     "The Official Languages Act of 1963 kept English in official use."
+    ]
+   },
+   {
+    "h": "Linguistic states",
+    "points": [
+     "The States Reorganisation Act of 1956 redrew state boundaries along language lines, so most states are language regions.",
+     "Andhra State, created in 1953, was the first state formed for a language (Telugu)."
+    ]
+   },
+   {
+    "h": "Language conflict",
+    "points": [
+     "Resistance to Hindi being imposed, especially in Tamil Nadu, led to the anti-Hindi agitation of 1965.",
+     "Schools use a three-language formula."
+    ]
+   },
+   {
+    "h": "English as a link language",
+    "points": [
+     "English is a colonial legacy and a link language between states.",
+     "It is an economic advantage for IT, outsourcing and global business (see the IT block)."
+    ]
+   },
+   {
+    "h": "Religious composition",
+    "points": [
+     "Census 2011: Hindus about 80% of the population.",
+     "Muslims about 14%, about 172 million people, a very large minority.",
+     "Christians about 2.3%, Sikhs about 1.7%, Buddhists about 0.7% and Jains about 0.4%."
+    ]
+   },
+   {
+    "h": "Distribution of religions",
+    "points": [
+     "Sikhs are concentrated in Punjab, the only Sikh-majority state.",
+     "Christians form the majority in Nagaland, Mizoram and Meghalaya.",
+     "Muslims are spread throughout India, and form the majority in Jammu and Kashmir.",
+     "Hindus are found everywhere."
+    ]
+   },
+   {
+    "h": "India as a birthplace of religions",
+    "points": [
+     "India is the birthplace of four religions: Hinduism, Buddhism, Jainism and Sikhism.",
+     "Varanasi is a Hindu holy city.",
+     "Bodh Gaya, Bihar, is where the Buddha attained enlightenment.",
+     "The Golden Temple at Amritsar, Punjab, is the holiest Sikh shrine."
+    ]
+   },
+   {
+    "h": "Partition, 1947",
+    "points": [
+     "In August 1947 British India was divided into India and the Muslim-majority Pakistan.",
+     "More than 10 million people were displaced and hundreds of thousands were killed.",
+     "East Pakistan became Bangladesh in 1971."
+    ]
+   },
+   {
+    "h": "Secularism and communal tension",
+    "points": [
+     "India is constitutionally a secular state.",
+     "Communal tension has persisted: the demolition of the Babri Masjid mosque at Ayodhya, Uttar Pradesh, in 1992 was followed by riots.",
+     "Kashmir: Article 370, which gave Jammu and Kashmir special status, was revoked in August 2019."
+    ]
+   },
+   {
+    "h": "The caste system",
+    "points": [
+     "Caste is a hereditary social system linked to Hinduism; it is a social system, not a religion.",
+     "Dalits were formerly called 'untouchables'.",
+     "The Constitution, in force from 26 January 1950, abolished untouchability.",
+     "Reserved places in education, government jobs and parliament are given to Scheduled Castes (about 17% of the population) and Scheduled Tribes (about 9%), Census 2011.",
+     "Caste still affects rural life, marriage and politics."
+    ]
+   },
+   {
+    "h": "Religion and economic life",
+    "points": [
+     "Sacred cattle support dairying.",
+     "Vegetarian diets increase demand for pulses and milk.",
+     "Pilgrimage tourism draws visitors to Varanasi and the Kumbh Mela.",
+     "Festivals such as Diwali boost consumer spending."
+    ]
+   },
+   {
+    "h": "Urbanisation",
+    "points": [
+     "Census 2011: about 31% of India's population was urban, up from about 17% in 1951.",
+     "There were 53 urban agglomerations with over 1 million people.",
+     "India is still mostly rural but is urbanising fast."
+    ]
+   },
+   {
+    "h": "The megacities",
+    "points": [
+     "Greater Mumbai had about 18.4 million people in Census 2011.",
+     "Delhi had about 16.3 million people in Census 2011.",
+     "Kolkata had about 14.1 million people in Census 2011."
+    ]
+   },
+   {
+    "b": "Mumbai is the expected case study for an urban area. Other cities are described separately.",
+    "h": "Mumbai: site, growth and function",
+    "points": [
+     "Site: originally seven islands on the west coast, joined by land reclamation, with a deep, sheltered natural harbour.",
+     "The British East India Company developed it as a port; the Gateway of India marks it.",
+     "Cotton mills grew in the 19th century, drawing on the cotton of Gujarat and Maharashtra.",
+     "Mumbai is India's financial capital: the headquarters of the Reserve Bank of India, and the Bombay Stock Exchange, founded in 1875, Asia's oldest.",
+     "Bollywood, the Hindi film industry, is based in Mumbai.",
+     "Jawaharlal Nehru Port in Navi Mumbai is one of India's main container ports.",
+     "The city was renamed Mumbai from Bombay in 1995.",
+     "Mumbai is not the political capital; New Delhi is."
+    ]
+   },
+   {
+    "h": "Mumbai: problems and responses",
+    "points": [
+     "Dharavi, in central Mumbai, is one of Asia's largest slums.",
+     "Overcrowding, high housing costs, congestion and overcrowded suburban trains are problems.",
+     "The flood of 26 July 2005 saw about 944 mm of rain fall at Santacruz in one day, paralysing the city.",
+     "Water supply and sanitation are inadequate.",
+     "Navi Mumbai, begun in the 1970s, is a planned twin city across the harbour.",
+     "Responses include slum redevelopment and new metro lines."
+    ]
+   },
+   {
+    "h": "Kolkata",
+    "points": [
+     "Kolkata was founded in 1690 by the British East India Company (Job Charnock).",
+     "It was the capital of British India until 1911.",
+     "It is a port on the Hooghly with jute mills and engineering industries.",
+     "Partition in 1947 cut Kolkata off from the jute-growing lands that became East Pakistan.",
+     "India's first metro opened in Kolkata in 1984.",
+     "Kolkata has congestion and slums."
+    ]
+   },
+   {
+    "h": "Bengaluru",
+    "points": [
+     "Bengaluru is India's IT capital, growing on the base described in the IT block.",
+     "It is called the 'Garden City'.",
+     "It sits on the Deccan Plateau at about 900 m, giving a mild climate.",
+     "Problems include traffic congestion, water shortages, and the loss of lakes and green space."
+    ]
+   },
+   {
+    "h": "Delhi and New Delhi",
+    "points": [
+     "Delhi has been the national capital since 1911, when it became capital of British India.",
+     "New Delhi was designed by Edwin Lutyens and inaugurated in 1931.",
+     "The National Capital Region includes Gurugram (Haryana) and Noida (Uttar Pradesh).",
+     "Severe winter air pollution affects the city."
+    ]
+   },
+   {
+    "h": "Planned cities and urban policy",
+    "points": [
+     "Chandigarh was planned by Le Corbusier in the 1950s and is the capital of Punjab and Haryana.",
+     "The Smart Cities Mission, launched in 2015, covers 100 cities.",
+     "Metro systems are part of urban policy."
+    ]
+   },
+   {
+    "h": "Urban problems",
+    "points": [
+     "Census 2011: about 65 million people lived in slums.",
+     "Informal employment is widespread.",
+     "Water supply, sanitation and waste disposal are inadequate.",
+     "Air pollution and traffic congestion are serious problems."
+    ]
+   },
+   {
+    "h": "Rural population",
+    "points": [
+     "Census 2011: about 833 million people (about 69%) lived in rural areas.",
+     "There are about 640,000 villages."
+    ]
+   },
+   {
+    "h": "Rural problems",
+    "points": [
+     "Poverty, small holdings and landlessness, and debt.",
+     "Dependence on the monsoon and under-employment.",
+     "Poor services: water, sanitation, health and schools.",
+     "Lower literacy, especially among women.",
+     "Caste discrimination.",
+     "Out-migration of young men."
+    ]
+   },
+   {
+    "h": "Rural development policies",
+    "points": [
+     "The 73rd Constitutional Amendment (1992) created Panchayati Raj, elected village councils, with one-third of seats reserved for women.",
+     "MGNREGA (2005) guarantees 100 days of paid work a year to each rural household.",
+     "The Pradhan Mantri Gram Sadak Yojana (2000) is a rural roads programme.",
+     "The Swachh Bharat Mission, launched on 2 October 2014, builds toilets.",
+     "The government declared every village electrified in April 2018.",
+     "PM-KISAN income support (see the markets block for its amount).",
+     "Self-help groups and microcredit for women."
+    ]
+   },
+   {
+    "h": "Kerala and Bihar: contrasting rural outcomes",
+    "points": [
+     "Kerala: high literacy (about 94%), low fertility, good health, and remittances from migrants in the Gulf.",
+     "Bihar: low literacy (about 62%), high fertility, and out-migration.",
+     "The contrast shows human processes and economic processes interacting."
+    ]
+   },
+   {
+    "h": "Regional inequality within India",
+    "points": [
+     "The more developed west and south include Maharashtra, Gujarat, Tamil Nadu, Karnataka and Kerala.",
+     "The poorer north and east include Bihar, Uttar Pradesh, Madhya Pradesh and Rajasthan.",
+     "The 'BIMARU' states are Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh; the term was coined in the 1980s and resembles the Hindi word for sick.",
+     "This is a core–periphery pattern within the subcontinent."
+    ]
+   },
+   {
+    "h": "Chains of interaction",
+    "points": [
+     "Monsoon, then farming calendar, then rural incomes, then migration, then urban slums.",
+     "Chota Nagpur minerals, then steel, then an industrial region.",
+     "English as a colonial legacy, then IT services, then Bengaluru's growth.",
+     "Religion, then dairying and pilgrimage tourism."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Draw the outline with its triangular peninsula tapering to the south and the north-eastern lobe around Bangladesh. Show the Deccan Plateau as an outlined area: the peninsula south of the Narmada, between the Western and Eastern Ghats, named as a relief feature. Draw the Ganges as a line from the Himalayas in Uttarakhand, south-east across the northern plain past Varanasi, ending at its delta on the Bay of Bengal and kept within India. Mark Mumbai on the west coast and Kolkata on the Hooghly near the Bay of Bengal with dots. Show Punjab in the north-west as an outlined area, the wheat and Green Revolution region. Name every feature on the map or in a key.",
+    "prompt": "Draw an outline map of India. On it, show and name a feature of relief, the course of a river, two urban centres and an agricultural region.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Raw materials: the Chota Nagpur Plateau holds much of India's coal and iron ore, the basis of the steel industry. The Tata Iron and Steel Company, founded in 1907 at Jamshedpur, was India's first large steel works, sited on Chota Nagpur coal and iron ore. The state steel plants at Bhilai, Rourkela and Durgapur were built with Soviet, West German and British help. Cotton grown on black soils supported textile mills in Mumbai and Ahmedabad. Jute grown in the Ganges delta supported jute mills along the Hooghly near Kolkata. Government policy: from 1951 five-year plans promoted state-led industrialisation behind protection from imports. The Licence Raj required permits to start or expand a factory, which made industry inefficient. The 1991 reforms under P. V. Narasimha Rao and Manmohan Singh removed most licences, cut tariffs and opened India to foreign investment, after which manufacturing grew rapidly. Make in India (2014), Special Economic Zones (Act of 2005) and production-linked incentives from 2020 have since aimed to attract firms to chosen sites.",
+    "prompt": "Examine how two factors have influenced the development of secondary economic activity in India.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "India had a density of 382 people per km² in Census 2011, but population is very unevenly spread. Dense areas: the Ganges plain has fertile alluvium, water, flat land and a long history of settlement, and Bihar is the densest state at about 1,100 per km². The deltas and coastal plains, such as Kerala and West Bengal, are dense because of fertile land, water and access to the sea and trade. Cities such as Mumbai, Delhi and Kolkata draw dense populations because of industry, jobs and transport. Sparse areas: the Thar Desert is sparse because of aridity and low rainfall. The Himalayas are sparse because of cold temperatures, steep slopes and thin soils. The forested hills of the north-east and the central plateaus are sparse because of relief, soils and limited farming. Human factors such as history, farming, industry, transport and government policy reinforce these physical patterns. The contrast is clearest between Bihar, at about 1,100 per km², and Arunachal Pradesh, at about 17 per km².",
+    "prompt": "Account for the distribution of population in India.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-rivers-s1": {
   "keyTerms": [
    {
@@ -7021,6 +8238,639 @@
     "marks": 30,
     "model": "Diagram: a before-and-after cross-section, showing horizontal sediments deposited in a sea between two converging plates, and then folded anticlines and synclines forming a range above the sea floor. Stage 1: sediments accumulate in a sea between two plates. Stage 2: the plates converge, so the sediments are compressed horizontally. Stage 3: the layers buckle into anticlines (upfolds) and synclines (downfolds). Stage 4: continued compression produces overfolds, recumbent folds and nappes, and the nappes may break along thrust faults and be pushed far forward. Stage 5: the crust is thickened and uplifted into long, high ranges parallel to the plate edge. Irish example: Macgillycuddy's Reeks are Old Red Sandstone ridges on anticlines, formed by Armorican folding. Foreign example: the Alps, formed by the collision of the African and Eurasian plates, with recumbent folds and nappes.",
     "prompt": "With the aid of a diagram, describe and explain how fold mountains are formed.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-weather-climate-s1": {
+  "keyTerms": [
+   {
+    "definition": "A map summarising the weather over a large area at one moment, built from simultaneous observations at many stations, ships, buoys and satellites.",
+    "term": "Synoptic chart"
+   },
+   {
+    "definition": "A line joining places of equal atmospheric pressure, usually drawn every 4 hPa on Irish charts.",
+    "term": "Isobar"
+   },
+   {
+    "definition": "A line joining places of equal temperature.",
+    "term": "Isotherm"
+   },
+   {
+    "definition": "A line joining places of equal rainfall.",
+    "term": "Isohyet"
+   },
+   {
+    "definition": "A line joining places of equal sunshine.",
+    "term": "Isohel"
+   },
+   {
+    "definition": "A line joining places of equal cloud cover.",
+    "term": "Isoneph"
+   },
+   {
+    "definition": "A low-pressure system with closed isobars, pressure falling towards the centre and usually fronts attached; rain and strong winds are associated with it.",
+    "term": "Depression"
+   },
+   {
+    "definition": "A high-pressure system with closed isobars, pressure rising towards the centre, no fronts and usually settled, dry weather.",
+    "term": "Anticyclone"
+   },
+   {
+    "definition": "The change of pressure over a distance; closely spaced isobars mean a steep gradient and strong winds.",
+    "term": "Pressure gradient"
+   },
+   {
+    "definition": "The wind that blows most frequently over an area; in Ireland it is south-westerly.",
+    "term": "Prevailing wind"
+   },
+   {
+    "definition": "One eighth of the sky covered by cloud, used to record cloud cover in a station model.",
+    "term": "Okta"
+   },
+   {
+    "definition": "A white, louvred box about 1.25 m above the ground that holds thermometers in shade.",
+    "term": "Stevenson screen"
+   },
+   {
+    "definition": "A front formed when a cold front catches up with a warm front, lifting the warm air off the ground; its symbols alternate on the same side.",
+    "term": "Occluded front"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Weather and climate describe the atmosphere over different lengths of time, and every map and table uses fixed units.",
+    "h": "Weather, climate and units",
+    "points": [
+     "Weather is the state of the atmosphere at a place at a given time, measured over hours and days.",
+     "Climate is the average weather of a place over a long period, usually calculated over 30 years.",
+     "Pressure is measured in hectopascals (hPa); 1 hPa equals 1 millibar (mb), so the two units give the same value and are never converted.",
+     "Average sea-level pressure is about 1013 hPa.",
+     "Units on weather charts and tables: temperature in °C, rainfall in mm, wind speed in km/h or knots, sunshine in hours, cloud cover in oktas."
+    ]
+   },
+   {
+    "b": "A synoptic chart shows the weather over a large area at one moment, giving a general view of the whole.",
+    "h": "Synoptic charts and their sources",
+    "points": [
+     "Observations are taken at the same time from many weather stations, ships, buoys and satellites, and plotted onto one map.",
+     "A surface analysis chart shows the observed situation at a given time; a forecast chart shows the expected situation at a later time.",
+     "Charts are issued at fixed times, stated in UTC.",
+     "Met Éireann, Ireland's national meteorological service, produces Irish weather maps from its network of stations, combined with satellite and radar data.",
+     "Met Éireann stations include Valentia Observatory (Co. Kerry), Malin Head (Co. Donegal), Belmullet (Co. Mayo), Dublin Airport and Shannon Airport."
+    ]
+   },
+   {
+    "b": "An isoline joins places of equal value. Read the name of the line before its interval, because each name refers to one quantity.",
+    "h": "Isolines on weather maps",
+    "points": [
+     "Isobars join places of equal atmospheric pressure; they are usually drawn at fixed intervals, commonly every 4 hPa, so read the labels to confirm the interval.",
+     "Isotherms join places of equal temperature.",
+     "Isohyets join places of equal rainfall.",
+     "Isohels join places of equal sunshine.",
+     "Isonephs join places of equal cloud cover.",
+     "Shaded or banded maps, such as rainfall, sunshine, UV or temperature maps, use a colour key: read the class from the key and give the range it states when the map shows a band rather than a single value.",
+     "Reading a value between isolines: find the two lines either side of the point, note their values and the interval between them, then estimate in proportion to distance.",
+     "A value at a closed centre is the figure written on it, such as 'L 976', or lies beyond the innermost isobar."
+    ]
+   },
+   {
+    "b": "High and low pressure are relative to the surrounding air, so no fixed value marks the boundary between them.",
+    "h": "Pressure systems on a chart",
+    "points": [
+     "A depression (also called a low or cyclone) is marked L or Low with a pressure figure; it has closed isobars with pressure falling towards the centre, and usually has fronts attached.",
+     "Air rises in a depression, cools and condenses, so rain, cloud and strong winds are associated with depressions.",
+     "An anticyclone (also called a high) is marked H or High; it has closed isobars with pressure rising towards the centre, and no fronts.",
+     "Air sinks in an anticyclone and warms, so clouds rarely form: summer brings warm, sunny days, and winter brings cold, clear nights with frost and fog.",
+     "A trough is an elongated area of low pressure, often unsettled, sometimes drawn as a line.",
+     "A ridge is an elongated extension of high pressure, bringing a short settled spell.",
+     "A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.",
+     "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in geo-option-atmosphere-ocean-s4."
+    ]
+   },
+   {
+    "b": "The values in this example are invented for illustration and are not taken from any real chart.",
+    "h": "Worked example: illustrative pressure chart W1",
+    "points": [
+     "A depression marked 'L 976' is centred in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast.",
+     "An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa.",
+     "Pressure at the depression's centre is 976 hPa, and the isobar interval is 4 hPa.",
+     "A point midway between the 988 and 992 hPa isobars is about 990 hPa.",
+     "Winds are stronger over the west of Ireland than over central Europe, because the isobars are closer together over the west.",
+     "Ireland lies under the depression, so it is likely to be wet and windy; central Europe lies under the high, so it is likely to be calm and dry."
+    ]
+   },
+   {
+    "b": "Wind is named from the direction it blows from, and its strength follows the spacing of the isobars.",
+    "h": "Wind on a chart",
+    "points": [
+     "Wind direction is named by the direction the wind blows from: a westerly blows from the west.",
+     "Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient and strong winds, while widely spaced isobars mean light winds or calm.",
+     "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in geo-option-atmosphere-ocean-s4.",
+     "Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.",
+     "Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.",
+     "The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.",
+     "The Beaufort scale rates wind force from 0 (calm) to 12 (hurricane force), based on observed effects."
+    ]
+   },
+   {
+    "b": "A front is the boundary between two air masses of different temperature and humidity. Frontal symbols point in the direction the front is moving.",
+    "h": "Fronts and their symbols",
+    "points": [
+     "Warm front: a line with semicircles on the side it moves towards (red on colour charts). Warm air rises gently over cold air, bringing a long period of steady rain and thickening cloud, then rising temperature after it passes.",
+     "Cold front: a line with triangles on the side it moves towards (blue on colour charts). Cold air undercuts warm air, bringing short heavy showers, possible thunder and falling temperature; clearer, brighter showery weather follows.",
+     "Occluded front: triangles and semicircles alternating on the same side (purple on colour charts). It forms where a cold front catches up with a warm front, lifting the warm air off the ground, and it brings cloud and rain.",
+     "An occluded front is usually found near the centre of a mature depression.",
+     "Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.",
+     "Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.",
+     "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in geo-option-atmosphere-ocean-s4."
+    ]
+   },
+   {
+    "b": "A station model is the cluster of symbols plotted at each weather station on a synoptic chart.",
+    "h": "Station models and weather symbols",
+    "points": [
+     "The circle at the station shows cloud cover in oktas: one okta is one eighth of the sky covered by cloud, so an empty circle is clear sky (0 oktas) and a fully shaded circle is overcast (8 oktas).",
+     "The wind arrow's shaft points from the station towards the direction the wind is coming from.",
+     "Barbs give wind speed: a half barb is 5 knots, a full barb 10 knots and a pennant (filled triangle) 50 knots; add them together.",
+     "A circle around the station with no shaft means calm.",
+     "Other values around the circle are temperature (°C), dew point, pressure and a present-weather symbol such as rain, drizzle, showers, snow, fog or thunderstorm; read them from the chart's key.",
+     "Worked example W2 (illustrative): a circle three-quarters shaded is 6 oktas; a shaft pointing towards the south-west with two full barbs and one half barb is a south-westerly wind of 25 knots (20 + 5); the temperature is 12 °C and the present weather is rain."
+    ]
+   },
+   {
+    "b": "Television, websites and apps use simplified symbols for the same features that appear on a synoptic chart.",
+    "h": "Media symbols and forecast sequences",
+    "points": [
+     "Media weather symbols include the sun, cloud, sun-and-cloud, rain drops, showers, snow, thunder (a lightning bolt) and fog.",
+     "Wind arrows on media maps show speed in km/h, and temperatures appear in coloured boxes.",
+     "On rainfall radar, heavier rain is shown in darker or warmer colours.",
+     "Matching symbols to features (H, L, warm front, cold front, occluded front) is a regular short question.",
+     "A rainfall forecast sequence is a series of maps at set times; compare the position of the rain band on successive maps to give its direction of movement, and read each map rather than assuming a direction.",
+     "Worked example W5 (illustrative): at 06:00 a rain band covers Munster and Connacht; at 12:00 it covers the midlands; at 18:00 it is over Leinster and the east coast. The rain moves from west to east, and Leinster's rain arrives last."
+    ]
+   },
+   {
+    "h": "Media forecasts, warnings and the UV index",
+    "points": [
+     "Met Éireann forecasts reach viewers through TV, radio, the website and app, as national, regional and city forecasts.",
+     "Sea area and coastal forecasts give wind and sea state for shipping and fishing; farming, UV and pollen forecasts are also issued.",
+     "A forecast describes the synoptic situation, expected rain, the highs and lows of temperature, wind direction and speed, cloud and sunshine, and how conditions change across the country and through the day.",
+     "Warnings are colour-coded Yellow, Orange and Red by expected impact; Red is the most severe, and people should act to protect themselves and property.",
+     "Warning types include wind, rain, snow-ice, low temperature, high temperature, fog and thunderstorm.",
+     "Storms have been named jointly by Met Éireann and the UK Met Office since 2015, and by the Dutch service KNMI since 2019; names make warnings easier to communicate.",
+     "Ex-hurricane Ophelia reached Ireland on 16 October 2017. It had been a major hurricane south of the Azores, unusually far east for an Atlantic hurricane, and arrived as a post-tropical storm; Met Éireann issued Red warnings and three people died in Ireland.",
+     "Storm Éowyn crossed Ireland on 24 January 2025, when Met Éireann issued Red wind warnings.",
+     "The UV index measures the strength of the sun's ultraviolet radiation; World Health Organization categories are Low 1–2, Moderate 3–5, High 6–7, Very high 8–10 and Extreme 11 and above. UV maps are read with isolines or a colour key, like any other map."
+    ]
+   },
+   {
+    "b": "Station tables and graphs record daily, hourly or monthly figures. Name the instrument, read the value, then calculate with the units given.",
+    "h": "Weather data: instruments and calculations",
+    "points": [
+     "Rain gauge: rainfall in mm.",
+     "Thermometer: air temperature in °C, kept in a Stevenson screen (a white, louvred box about 1.25 m above the ground) so it measures shaded air temperature.",
+     "Maximum–minimum thermometer: highest and lowest temperature in a period.",
+     "Barometer: pressure in hPa; barograph: a continuous record of pressure.",
+     "Anemometer: wind speed; wind vane: wind direction.",
+     "Hygrometer or wet-and-dry bulb thermometer: humidity; sunshine recorder: hours of sunshine.",
+     "Total: add the values, such as rainfall over three days or three months.",
+     "Mean: total divided by the number of values; mean daily temperature = (maximum + minimum) ÷ 2.",
+     "Range: highest minus lowest, for a day or for a year.",
+     "Difference between two places; count of months or days above a threshold; highest or lowest month.",
+     "Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.",
+     "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in geo-region-concept; the graph method is in geo-graph-skills-s1."
+    ]
+   },
+   {
+    "b": "The figures in this example are invented for illustration. Each result is worked out from the values stated.",
+    "h": "Worked calculations: illustrative Station A",
+    "points": [
+     "Monday: maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h.",
+     "Tuesday: maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h.",
+     "Wednesday: maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h.",
+     "Total rainfall over the three days is 15 mm; Monday's temperature range is 8 °C; Monday's mean temperature is 10 °C.",
+     "Mean wind speed over the three days is 22 km/h ((20 + 32 + 14) ÷ 3); the wettest day is Tuesday and the driest is Wednesday.",
+     "Illustrative monthly rainfall: January 120, February 95, March 80, April 60, May 55 and June 70 mm. The total for April to June is 185 mm; one month (January) is over 100 mm; May is the lowest month."
+    ]
+   },
+   {
+    "b": "A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief of the land.",
+    "h": "Explaining patterns in Irish weather and climate",
+    "points": [
+     "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in geo-option-atmosphere-ocean-s3.",
+     "The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.",
+     "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in geo-option-atmosphere-ocean-s4); inland areas have a larger temperature range.",
+     "Long-term averages from Met Éireann: most of the east gets about 750–1,000 mm of rain a year, the west about 1,000–1,250 mm, and many mountain areas over 2,000 mm.",
+     "The highest rainfall totals are on mountains near the west coast, and the lowest are around Dublin and the east."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 8,
+    "model": "(a) 976 hPa, the figure marked at the centre of the depression. (b) False: the isobars are widely spaced over central Europe and closely spaced over the west of Ireland, and a closer spacing means a steeper pressure gradient and stronger winds. (c) H marks a high-pressure centre, an anticyclone, where pressure is higher than in the surrounding air; here it is 1036 hPa. (d) Isobars. Each part scores 2 marks.",
+    "prompt": "Illustrative chart (invented values, not from any real chart): a depression marked 'L 976' lies in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast. An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa. (a) State the pressure at the centre of the depression. (b) State whether this is true or false: winds are stronger over central Europe than over the west of Ireland. (c) What does H indicate? (d) What is the name of lines joining places of equal pressure? Give one line of reasoning for each answer.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "(a) 4 + 11 + 0 = 15 mm. (b) 14 − 6 = 8 °C. (c) (20 + 32 + 14) ÷ 3 = 66 ÷ 3 = 22 km/h. (d) Tuesday, with 11 mm of rain. (e) A rain gauge. Each part scores 2 marks.",
+    "prompt": "Illustrative data (invented, Station A): Monday, maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h. Tuesday, maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h. Wednesday, maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h. (a) Calculate the total rainfall over the three days. (b) Calculate Monday's temperature range. (c) Calculate the mean wind speed over the three days. (d) Name the wettest day. (e) Name the instrument used to measure rainfall. Show each calculation with its units.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(a) Warm front: a line with semicircles on the side towards which it moves. Cold front: a line with triangles on the side towards which it moves. (b) Prevailing winds are south-westerly, from the Atlantic, and carry moist air. Relief rain falls on the western uplands as the air is forced to rise, cool and condense, so the west is wetter. Air descending over the eastern side of the uplands warms and its cloud evaporates; the east lies in the rain shadow and receives more sunshine. The south-east is the sunniest part of Ireland.",
+    "prompt": "(a) Describe, or draw, the symbols for a warm front and a cold front on a synoptic chart. (b) Explain why the east of Ireland is sunnier than the west.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-weather-climate-s2": {
+  "keyTerms": [
+   {
+    "definition": "Gathering information about the earth's surface from a distance, using sensors on satellites or aircraft that record reflected or emitted energy.",
+    "term": "Remote sensing"
+   },
+   {
+    "definition": "A picture element: the smallest unit of a satellite image, storing a value for each waveband.",
+    "term": "Pixel"
+   },
+   {
+    "definition": "The size of the ground area covered by one pixel; high resolution shows small features.",
+    "term": "Resolution"
+   },
+   {
+    "definition": "A satellite about 36,000 km above the equator that stays over one point and views a whole hemisphere, used for weather.",
+    "term": "Geostationary satellite"
+   },
+   {
+    "definition": "A satellite in a low orbit passing near both poles, covering the earth strip by strip with high detail, used for land use and mapping.",
+    "term": "Polar-orbiting satellite"
+   },
+   {
+    "definition": "A satellite image in which near-infrared is shown as red, so healthy vegetation appears red.",
+    "term": "False-colour image"
+   },
+   {
+    "definition": "Irrigation that waters crops from a rotating arm, producing circular fields visible from satellites.",
+    "term": "Centre-pivot irrigation"
+   },
+   {
+    "definition": "A narrow sand or shingle ridge joining an island to the mainland or to another island, seen as a pale strip.",
+    "term": "Tombolo"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Satellite imagery is remote sensing: information about the earth's surface gathered from a distance, without contact, by sensors that record reflected or emitted energy.",
+    "h": "What satellite imagery is",
+    "points": [
+     "Sensors on satellites or aircraft record energy in several wavebands, such as visible light, infrared and microwaves (radar).",
+     "Each picture element, or pixel, stores a number for each waveband, and a computer turns these numbers into an image; a satellite image is therefore not a photograph in the ordinary sense.",
+     "Resolution is the size of the ground area one pixel covers: high resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.",
+     "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in geo-aerial-photographs-s1."
+    ]
+   },
+   {
+    "b": "The height and path of a satellite's orbit decide how much of the earth it sees, how often, and in how much detail.",
+    "h": "Geostationary and polar-orbiting satellites",
+    "points": [
+     "Geostationary satellites orbit about 36,000 km above the equator at the same speed as the earth turns, so they stay over one point and view a whole hemisphere continuously.",
+     "Geostationary images have low detail and are used for weather; Meteosat weather satellites are operated by EUMETSAT, of which Ireland is a member state.",
+     "Polar-orbiting satellites fly in much lower orbits of hundreds of km, passing near both poles while the earth turns beneath them, so they cover the whole surface strip by strip over days.",
+     "Polar-orbiting images have much greater detail and are used for land use, mapping and environmental monitoring; Landsat (USA) has imaged the earth since 1972, and the Sentinel satellites belong to the EU's Copernicus earth-observation programme."
+    ]
+   },
+   {
+    "h": "Types of image",
+    "points": [
+     "Visible image: reflected sunlight, like a photograph; daytime only; thick cloud appears bright white.",
+     "Infrared image: records heat, so it works day and night; cold, high cloud tops appear white and warm land and sea appear darker; used to show cloud height and sea temperature.",
+     "False-colour image: near-infrared is shown as red, so healthy vegetation appears red and towns appear blue-grey; used to study crops and forests.",
+     "Radar image: the satellite sends microwaves and records the echo; it sees through cloud and works at night, so it is useful for mapping floods in cloudy weather."
+    ]
+   },
+   {
+    "b": "Work through the same five steps for any image, then give the answer in geographical terms.",
+    "h": "Reading a satellite image: method",
+    "points": [
+     "Step 1: read the caption, date, scale or area covered, and check whether the image is true colour, false colour or infrared.",
+     "Step 2: find north (usually the top) and any coastline or river to orient yourself.",
+     "Step 3: identify features by colour or tone, texture, shape, size, pattern and association, meaning what lies next to what.",
+     "Step 4: describe the distribution and pattern, such as linear, clustered or regular, or lying along rivers or coasts.",
+     "Step 5: explain the pattern using geographical knowledge."
+    ]
+   },
+   {
+    "h": "Colour, tone and telling cloud from snow",
+    "points": [
+     "In true colour, water is dark blue to black, and muddy or shallow water is brown or turquoise.",
+     "Vegetation is green: forest is dark green, and crops and grass are lighter.",
+     "Bare ground and desert are yellow, brown, orange or red; urban areas are grey.",
+     "Snow, ice, cloud and salt flats all appear white, so decide between them using shape, texture and location.",
+     "Cloud is fluffy, streaky or swirling, casts shadows and changes position between images.",
+     "Snow and ice follow the shape of the land, filling valleys and lying along mountain ridges and the coastline."
+    ]
+   },
+   {
+    "b": "Matching questions depend on the recognition clues below; the clue alone identifies the feature.",
+    "h": "Recognising weather systems, hazards and landforms",
+    "points": [
+     "Depression (mid-latitude storm): a large comma-shaped or spiral band of white cloud, with a long trailing cloud band, the front.",
+     "Hurricane (tropical cyclone): a huge circular spiral of thick white cloud with a clear, dark eye at the centre, over the ocean.",
+     "Anticyclone: a large cloud-free area in which land and sea are clearly visible.",
+     "Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine along it and a cracked (crevassed) texture; it may end in the sea or a lake with icebergs.",
+     "Ice sheet: a vast, smooth white surface with no visible land.",
+     "Volcano: a circular cone with a crater at the summit and radial gullies down its sides; during an eruption a grey or white ash plume is blown in one direction, and dark lava flows spread downslope.",
+     "Wildfire: grey or brown smoke plumes drifting downwind from bright red-orange fire fronts; afterwards a dark brown or black burn scar lies among green vegetation.",
+     "Flood: brown, muddy water spread over land outside the river channel, covering fields and roads; compare with an image taken before the flood.",
+     "Hot desert: a yellow, orange or red-brown surface with no vegetation, sand-dune patterns of ripples or ridges, and dry river beds."
+    ]
+   },
+   {
+    "h": "Recognising land use, settlement and coasts",
+    "points": [
+     "Irrigated farming in a dry region: bright green geometric fields, often perfect circles from centre-pivot irrigation or rectangles, sharply set against brown desert; or a green strip along a river.",
+     "Centre-pivot circles are well known in Saudi Arabia and on the Great Plains of the USA; the Nile valley and delta, Egypt, shows as a green strip and fan of farmland through the desert.",
+     "Commercial crop farming in temperate lowlands: a regular chequerboard of rectangular fields of different colours, showing crops at different stages, with straight roads on a grid.",
+     "Forest: a uniform dark green texture; deforestation shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).",
+     "Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging; parks show as green.",
+     "Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.",
+     "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in geo-sea-s1.",
+     "Large landforms: river valleys and meanders; mountain ranges shown by ridges, shadows and snow; canyons as deep, branching, steep-sided valleys in bare rock; salt pans as dazzling white geometric patches in deserts.",
+     "Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated."
+    ]
+   },
+   {
+    "b": "For a 'state one use' question, name the use and say what the image shows.",
+    "h": "Uses of satellite imagery",
+    "points": [
+     "Weather forecasting: tracking depressions, fronts and cloud, issuing storm warnings and tracking hurricanes so that coasts can be evacuated; ex-hurricane Ophelia was tracked by satellite as it approached Ireland.",
+     "Mapping: mapping remote or inaccessible areas and updating maps with new roads and housing.",
+     "Agriculture: monitoring crop health and yields, irrigation and land-use change, and checking farm area claims.",
+     "Environmental change: tracking deforestation, desertification, shrinking lakes, glacier and ice-sheet retreat, sea-ice extent and sea surface temperature.",
+     "The Aral Sea (Kazakhstan–Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation; satellite images from different decades show the shrinkage.",
+     "Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.",
+     "Pollution: detecting oil spills at sea, smog and algal blooms.",
+     "Urban growth: measuring urban sprawl over time, a GIS study in geo-weather-climate-s3.",
+     "Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.",
+     "Military and security surveillance."
+    ]
+   },
+   {
+    "h": "Satellite imagery and the core and elective units",
+    "points": [
+     "Physical landscape: plate boundaries and fold mountains (long parallel ranges), volcanoes, rift valleys, glaciated valleys and ice sheets, river basins and deltas, and coastlines.",
+     "Regions: images of Ireland and Europe show regional contrasts, such as the mountainous, wetter, greener west against the flatter, more cultivated east, and cloud-cover patterns; regional detail is in the regional chapters.",
+     "Human landscape: settlement patterns, urban growth, transport routes, field patterns, land-use change and deforestation."
+    ]
+   },
+   {
+    "h": "Advantages and limitations",
+    "points": [
+     "Advantage: one image covers a very large area in a single view.",
+     "Advantage: regular repeat coverage shows change over time, and archives go back decades.",
+     "Advantage: remote and dangerous areas can be reached without a visit, and invisible wavebands such as infrared and radar are recorded.",
+     "Advantage: images can be produced quickly, so they are useful in emergencies.",
+     "Limitation: cloud blocks visible and infrared images.",
+     "Limitation: many images have limited resolution, and interpreting them needs skill and software.",
+     "Limitation: images carry no names or labels, and relief is hard to judge on a flat image unless shadows show it.",
+     "Limitation: high-resolution imagery can be costly."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 5,
+    "model": "A: hurricane, because the white spiral of cloud has a dark centre over the ocean, which is the clear, dark eye of a hurricane. B: centre-pivot irrigation, because bright green circles set in brown desert are fields watered by centre-pivot irrigation. C: glacier, because a long white river of ice lies in a valley between dark mountains, with dark moraine stripes along it. D: erupting volcano, because a cone with an ash plume blown in one direction is an eruption. E: flood, because brown water spread over land beyond the river channel is flooding. Each match scores 1 mark.",
+    "prompt": "Match each of the five illustrative (invented) satellite image descriptions to the feature it shows, choosing from: hurricane, centre-pivot irrigation, glacier, erupting volcano, flood. A: a white spiral of cloud with a dark centre over the ocean. B: bright green circles in a brown landscape. C: a long white river of ice with dark stripes between mountains. D: a grey cone with a plume drifting east. E: brown water spread across fields beside a river. Give the clue that decides each match.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Weather forecasting: satellite images track depressions and fronts and allow storm warnings to be issued, so people can prepare. Monitoring deforestation: images of Rondônia, Brazil, show a fishbone pattern of clearings along new roads, so the extent of forest loss can be measured and monitored. Disaster response: images map earthquake and flood damage, so emergency relief can be directed to the areas most affected. For each use give the use, what the image shows and why it helps.",
+    "prompt": "Explain three uses of satellite imagery.",
+    "type": "short"
+   },
+   {
+    "marks": 4,
+    "model": "Geostationary satellites orbit about 36,000 km above the equator, stay over one point and view a whole hemisphere continuously, but give low detail; they are used for weather. Polar-orbiting satellites orbit much lower, pass near both poles as the earth turns, and cover the surface strip by strip over days, giving much greater detail; they are used for land use, mapping and environmental monitoring.",
+    "prompt": "Distinguish between geostationary and polar-orbiting satellites.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-weather-climate-s3": {
+  "keyTerms": [
+   {
+    "definition": "A computer system that captures, stores, analyses and displays data linked to locations, combining several sources for one area.",
+    "term": "GIS"
+   },
+   {
+    "definition": "One data set stored over a base map, such as roads, land use or population, which can be overlaid on other layers.",
+    "term": "Layer"
+   },
+   {
+    "definition": "Tying each item of data to a location by coordinates or a national grid, so that layers from different sources line up.",
+    "term": "Geo-referencing"
+   },
+   {
+    "definition": "Spatial data stored as points, lines and polygons.",
+    "term": "Vector data"
+   },
+   {
+    "definition": "Spatial data stored as a grid of cells or pixels, such as a satellite image.",
+    "term": "Raster data"
+   },
+   {
+    "definition": "The table of information attached to a GIS feature, such as a field's crop or a house's year of building.",
+    "term": "Attribute data"
+   },
+   {
+    "definition": "A GIS operation that combines layers to show where features coincide.",
+    "term": "Overlay"
+   },
+   {
+    "definition": "A GIS zone of set distance drawn around a feature, such as a monument or river.",
+    "term": "Buffer"
+   },
+   {
+    "definition": "The uncontrolled outward spread of low-density urban development into the surrounding countryside, often along roads.",
+    "term": "Urban sprawl"
+   },
+   {
+    "definition": "An EU land-cover inventory mapped from satellite images for several dates, used to measure change.",
+    "term": "CORINE land cover"
+   },
+   {
+    "definition": "The statutory county list of known archaeological monuments, which requires two months' notice before works at a recorded monument.",
+    "term": "Record of Monuments and Places (RMP)"
+   },
+   {
+    "definition": "A pattern in crops that reveals a buried archaeological feature, taller and greener over ditches and stunted over walls.",
+    "term": "Cropmark"
+   },
+   {
+    "definition": "Laser scanning from an aircraft that reveals earthworks under trees.",
+    "term": "LiDAR"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A geographical information system (GIS) is a computer system that combines data linked to places on the earth's surface, so that data sources for one area can be studied together.",
+    "h": "What a GIS is",
+    "points": [
+     "A GIS captures, stores, analyses and displays spatial (geo-referenced) data from maps, aerial photographs, satellite images, census and other statistics, and field surveys.",
+     "Each data set is stored as a separate layer, such as roads, rivers, land use, population or protected sites, over the same base map; layers can be switched on and off and overlaid to reveal relationships.",
+     "Geo-referencing ties every item to coordinates, such as latitude and longitude or a national grid, so layers from different sources line up; Irish maps use the Irish Transverse Mercator (ITM) grid and the older Irish Grid.",
+     "Vector data are points, lines and polygons: a monument as a point, a road as a line, a forest as a polygon.",
+     "Raster data are a grid of cells or pixels, such as a satellite image or an aerial photograph.",
+     "Each feature can carry attribute data, a table of information such as a house's year of building or a field's crop."
+    ]
+   },
+   {
+    "b": "Every study follows the same sequence, so the analysis tools below are used in whichever option is chosen.",
+    "h": "GIS analysis and the steps of a study",
+    "points": [
+     "Overlay combines layers to show where things coincide, such as new housing on former farmland.",
+     "Buffering draws a zone of set distance around a feature, such as a zone around a river or monument.",
+     "Querying selects the features that meet a condition, such as all Small Areas whose population grew by more than a set amount.",
+     "Change detection compares the same layer at different dates.",
+     "Network analysis finds the shortest or fastest route, such as for an ambulance.",
+     "Choropleth maps shade each area by a statistic, such as census figures.",
+     "Steps: define the problem and area; collect data layers; geo-reference them to one base map; overlay and analyse; map and present the results; draw conclusions and recommend planning action."
+    ]
+   },
+   {
+    "h": "Wider uses, advantages and Irish data sources",
+    "points": [
+     "Wider uses of GIS: local authority planning and zoning, flood-risk mapping, emergency services, water and electricity networks, retail and service location, environmental monitoring and census mapping.",
+     "Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios.",
+     "Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.",
+     "Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography.",
+     "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in geo-weather-climate-s2; government departments and agencies supply sector statistics."
+    ]
+   },
+   {
+    "b": "Urban sprawl is the uncontrolled outward spread of low-density urban development, such as housing estates, retail parks and business parks, into the surrounding countryside, often along roads and into commuter towns and villages.",
+    "h": "Study 1: urban sprawl, data sources",
+    "points": [
+     "Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts and business parks, and ribbon development along approach roads; overlaying them shows exactly where and when land changed.",
+     "Census material: population and housing counts by small area show where population grew fastest, the age of the housing stock, household size and commuting (distance and mode of travel to work).",
+     "The CSO publishes census results for Small Areas, each generally of 50–200 dwellings.",
+     "Ireland's censuses were held in 2011, 2016 and 2022; the 2021 census was postponed to 2022 because of COVID-19. Census 2022 counted about 5.1 million people in Ireland and about 1.45 million in Dublin county.",
+     "Maps: Ordnance Survey and historic maps of different editions show the built-up area expanding; development plan zoning maps show land zoned for housing; transport maps show new motorways and rail lines that encouraged growth."
+    ]
+   },
+   {
+    "h": "Study 1: GIS analysis, findings and responses",
+    "points": [
+     "Overlay the built-up area at each date to measure how much land was urbanised, then overlay census growth on it.",
+     "Buffer motorways and rail stations to test whether growth followed transport, and link commuting data to show dependence on the car.",
+     "Findings for Dublin: the city and its suburbs spread into the surrounding counties; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly; many residents commute long distances into Dublin.",
+     "The Greater Dublin Area comprises Dublin, Meath, Kildare and Wicklow.",
+     "Problems shown by the study: loss of farmland and green space; car dependence, long commutes and traffic congestion; services such as schools, transport and shops lagging behind new housing.",
+     "Further problems: high cost of extending water, sewerage and public transport to low-density areas, and weakened community life in dormitory settlements.",
+     "Responses: compact growth and higher density near public transport, promoted by the National Planning Framework (2018); planned new communities with services built alongside housing, such as Adamstown, Co. Dublin, a planned Strategic Development Zone (SDZ); and greenbelts."
+    ]
+   },
+   {
+    "b": "This study combines satellite images with statistics to measure how farmland has changed between dates.",
+    "h": "Study 2: changing agricultural land use, data sources",
+    "points": [
+     "Satellite images from different years show changes in crops and grassland, field size, drainage, reclaimed marginal land, and land lost to housing or forestry; satellite images repeat regularly, so changes can be tracked within a single season.",
+     "CORINE land cover is an EU inventory mapped from satellite images that shows agricultural, forest, wetland and urban land at each date; Ireland has been mapped for 1990, 2000, 2006, 2012 and 2018.",
+     "Statistical information: the CSO Census of Agriculture (about 135,000 farms counted in 2020) and annual crop and livestock surveys give farm numbers, farm size, crop areas and livestock numbers by county.",
+     "Department of Agriculture data on farm payments add the financial side of land use."
+    ]
+   },
+   {
+    "h": "Study 2: GIS analysis and findings",
+    "points": [
+     "Overlay satellite-derived land use from two dates to map where tillage, grassland, forestry and built land changed.",
+     "Join county statistics to the map, then relate the change to soils, relief and rainfall layers; for example, tillage is concentrated on the drier, flatter, better-drained land of the east and south-east.",
+     "Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.",
+     "Dairy farming expanded after EU milk quotas ended in 2015; some marginal land in the west has been planted with forestry; farmland on the edge of cities has been lost to urban growth.",
+     "Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.",
+     "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; the checked examples are in geo-weather-climate-s2."
+    ]
+   },
+   {
+    "b": "This study combines aerial photographs, maps and forestry statistics to show where forest has been planted and cleared.",
+    "h": "Study 3: forestry development, data sources and analysis",
+    "points": [
+     "Aerial photographs of different dates show new plantations as dark, uniform blocks with straight edges and firebreaks, clear-felled areas as bare brown patches with brash, and replanting; species and age can be distinguished by tone and texture.",
+     "OS maps show forest areas by symbol (coniferous, deciduous or mixed) and can be compared across editions.",
+     "Soil, peat and relief maps show where planting took place, on marginal upland, wet mineral soils and peat.",
+     "Maps of protected areas, Special Areas of Conservation and Special Protection Areas, show where planting conflicts with conservation.",
+     "Statistical information: the Forest Service's National Forest Inventory (forest area, species, ownership and age by county), annual afforestation and felling figures, and grant data.",
+     "GIS analysis: overlay forest cover at successive dates to map expansion; overlay soils, slope and altitude to explain where planting happened; overlay protected sites, rivers and archaeological sites, with buffers, to identify conflicts; query which counties had the largest increase."
+    ]
+   },
+   {
+    "h": "Study 3: findings and issues",
+    "points": [
+     "Forest cover was about 1% of Ireland at the start of the 20th century and is about 11% today (National Forest Inventory, 2022).",
+     "Most planting has been of conifers, mainly Sitka spruce, which makes up about half of all forest area, largely on marginal land.",
+     "Coillte, the state forestry company set up in 1988, manages most public forest; private, largely farm-based, planting grew with grants.",
+     "Benefits: timber and jobs, farm income diversification, carbon storage and recreation.",
+     "Problems: dense conifer blocks change the landscape and reduce biodiversity; acidification and sediment in streams harm fish and the freshwater pearl mussel; open upland habitat for birds such as the hen harrier is lost.",
+     "Further problems: planting on peat releases carbon; clear-felling causes erosion; forestry replacing farms has caused local opposition, for example in Co. Leitrim; ash dieback, first found in Ireland in 2012, is a disease risk.",
+     "Management: more broadleaf planting, buffer zones along rivers, environmental assessment of planting, and continuous-cover forestry."
+    ]
+   },
+   {
+    "b": "The archaeological study uses the official record of known sites, old and new maps, and aerial photographs.",
+    "h": "Study 4: the Record of Monuments and Places",
+    "points": [
+     "The Record of Monuments and Places (RMP) is the statutory list of known archaeological monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994.",
+     "It is published as a written list with OS maps on which each site is circled; the database behind it, the Sites and Monuments Record, is viewable in the National Monuments Service's online Historic Environment Viewer.",
+     "Anyone intending works at or near a recorded monument must give two months' notice before the works begin.",
+     "Types of site: ringforts (about 45,000 in Ireland, the most common field monument), megalithic tombs, standing stones, ecclesiastical sites, castles and tower houses, crannógs, fulachta fiadh, and buried sites known only from below-ground remains."
+    ]
+   },
+   {
+    "h": "Study 4: maps, aerial photographs and GIS analysis",
+    "points": [
+     "First edition OS six-inch maps of Ireland date from the 1830s–1840s and later editions record sites, for example ringforts drawn as circles; comparing old maps, modern maps and the RMP shows which sites have disappeared.",
+     "Aerial photographs reveal sites that are invisible on the ground: cropmarks, where crops over buried ditches grow taller and greener from extra moisture and over buried walls are stunted and parched; parchmarks in dry summers; soil marks in ploughed fields; and shadow marks, where low sun shows earthworks.",
+     "Comparing photographs from different dates shows sites that have been levelled; LiDAR (laser scanning from an aircraft) reveals earthworks under trees.",
+     "GIS analysis: overlay the RMP point layer on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed.",
+     "Overlay development layers (new roads, housing, quarries, forestry and land drainage), buffer each monument to predict threats, and map destruction rates by area."
+    ]
+   },
+   {
+    "h": "Study 4: causes, case studies and protection",
+    "points": [
+     "Agricultural improvement (land reclamation, drainage, ploughing and removal of field boundaries) causes destruction.",
+     "Other causes: road building, urban and housing development, quarrying, afforestation (ploughing, drains and tree roots), and natural erosion such as coastal erosion of promontory forts and middens.",
+     "Wood Quay, Dublin: a Viking-age site, excavated and largely removed for Dublin Corporation's civic offices after protests in the late 1970s.",
+     "M3 motorway through the Tara–Skryne valley, Co. Meath: opened 2010, and passes through the valley near the Hill of Tara; a henge was found at Lismullin during construction in 2007.",
+     "Carrickmines Castle on the M50 route, Co. Dublin: a dispute in the early 2000s.",
+     "July 2018 drought: a henge at Brú na Bóinne, Co. Meath, was spotted from the air (by drone).",
+     "Protection the study supports: the RMP and its notification system; archaeological assessment and excavation before development, which means preservation by record or preservation in situ; planning conditions; rerouting roads; public awareness; and farm schemes that protect monuments."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "A GIS combines data sources for one area as separate layers over a common base map, geo-referenced to coordinates so that they line up. Aerial photographs of the same area at different dates show farmland replaced by housing estates, new roads, roundabouts, business parks and ribbon development along approach roads, and overlaying them shows where and when land changed. Census material by Small Area shows where population grew fastest, the age of housing, household size and commuting distance and mode of travel. Maps, including OS maps of different editions, show the built-up area expanding, and development plan zoning maps show land zoned for housing; transport maps show new motorways and rail lines. In the GIS, the built-up area at each date is overlaid to measure the land urbanised, census growth is overlaid on it, motorways and rail stations are buffered to test whether growth followed transport, and commuting data show dependence on the car. In Dublin the city and its suburbs spread into the surrounding counties, the Greater Dublin Area of Dublin, Meath, Kildare and Wicklow; commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly, and many residents commute long distances into Dublin. The problems shown include loss of farmland and green space, car dependence and congestion, services lagging behind housing, high costs of extending water, sewerage and transport to low-density areas, and weakened community life. Responses include compact growth near public transport under the National Planning Framework (2018), planned communities such as Adamstown, Co. Dublin, and greenbelts.",
+    "prompt": "Examine how a GIS, using aerial photographs, census material and maps, can be used in the study of urban sprawl.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The Record of Monuments and Places (RMP) is the statutory list of known monuments in each county, set up under section 12 of the National Monuments (Amendment) Act 1994; it is published with OS maps that circle each site, and its database is viewable in the Historic Environment Viewer. Anyone intending works at or near a recorded monument must give two months' notice. Old maps, such as the first edition OS six-inch maps of the 1830s–1840s, record sites such as ringforts drawn as circles, so comparing them with modern maps shows which sites have disappeared. Aerial photographs reveal sites invisible on the ground: cropmarks show buried ditches as taller, greener crops and buried walls as stunted, parched crops; parchmarks appear in dry summers, soil marks in ploughed fields and shadow marks where low sun shows earthworks; comparing photographs of different dates shows sites levelled, and LiDAR reveals earthworks under trees. In a GIS, the RMP point layer is overlaid on old and new maps and aerial photographs to record which sites survive, are damaged or are destroyed. Development layers, such as new roads, housing, quarries, forestry and land drainage, are overlaid, and each monument is buffered to predict threats, so destruction rates can be mapped by area. The causes of destruction are agricultural improvement, road building, urban and housing development, quarrying, afforestation and natural erosion. Case studies: at Wood Quay, Dublin, a Viking-age site was largely removed for civic offices after protests in the late 1970s; the M3 motorway through the Tara–Skryne valley passed near the Hill of Tara, where a henge was found at Lismullin in 2007 during construction. In July 2018 drought a henge at Brú na Bóinne, Co. Meath, was spotted from the air. Protection includes the RMP and its notification system, archaeological assessment before development, planning conditions, rerouting roads and public awareness.",
+    "prompt": "Examine how maps, aerial photographs and the Record of Monuments and Places can be used in a GIS to study the destruction of archaeological sites.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "(a) A GIS is a computer system that captures, stores, analyses and displays data linked to locations on the earth's surface, combining several sources for one area. (b) Each data set is stored as a separate layer over the same base map, such as roads, land use or population; overlay combines layers to show where features coincide, such as new housing on former farmland. (c) Vector data are points, lines and polygons, such as a monument as a point, a road as a line and a forest as a polygon; raster data are a grid of cells or pixels, such as a satellite image or aerial photograph. (d) Advantage: a GIS handles very large data sets and combines many sources. Limitation: results are only as good as the data, which may be out of date or inaccurate.",
+    "prompt": "(a) Define GIS. (b) Explain layers and overlay. (c) Distinguish between vector and raster data. (d) Give one advantage and one limitation of GIS. Two marks for each part.",
     "type": "short"
    }
   ]
