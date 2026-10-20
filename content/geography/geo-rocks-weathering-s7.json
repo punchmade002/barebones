@@ -51,7 +51,7 @@
       "h": "Overcropping case study: the Dust Bowl",
       "points": [
         "On the Great Plains of the USA, including Oklahoma and Kansas, natural grassland was ploughed up for wheat in the 1930s.",
-        "Severe drought then left bare, dry soil, which wind erosion removed (see geo-rocks-weathering-s6).",
+        "Severe drought then left bare, dry soil, which wind erosion removed (see the notes on Erosion by wind).",
         "Many farming families were forced to leave.",
         "The US Soil Conservation Service was set up in 1935. Shelter belts of trees, contour ploughing and crop rotation were promoted."
       ]
@@ -116,8 +116,8 @@
         "In 2019 the EU Court of Justice fined Ireland, a lump sum of €5 million plus €15,000 a day, because no proper environmental impact assessment had been carried out.",
         "Meenbog wind farm, near Ballybofey, Co. Donegal, November 2020: a peat slide during construction flowed into the Mourne Beg River and crossed into Northern Ireland, polluting a river system important for salmon.",
         "Road and rail cuttings steepen slopes or remove support at their base. Building weight on top of a slope adds to the downslope force.",
-        "Leaking pipes, drainage and irrigation saturate slopes. Reservoirs saturate valley sides (Vajont, see geo-rocks-weathering-s5).",
-        "Mining spoil heaps are unstable (Aberfan, see geo-rocks-weathering-s2)."
+        "Leaking pipes, drainage and irrigation saturate slopes. Reservoirs saturate valley sides (Vajont, see the notes on Mass movement (mass wasting) processes and the factors governing them).",
+        "Mining spoil heaps are unstable (Aberfan, see the notes on Human interaction with the rock cycle)."
       ]
     },
     {
@@ -131,16 +131,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Carrying capacity", "definition": "The number of animals an area of land can support without its vegetation being damaged." },
-    { "term": "Overgrazing", "definition": "Grazing by too many animals, which eats vegetation down to the roots and compacts the soil." },
-    { "term": "Overcropping", "definition": "Cropping the same land year after year without fallow periods or fertiliser, so the soil structure breaks down." },
-    { "term": "Fallow", "definition": "A period when land is left unplanted to let its nutrients and structure recover." },
-    { "term": "Contour ploughing", "definition": "Ploughing along the slope rather than up and down it, to slow the flow of water and soil." },
-    { "term": "Desertification", "definition": "The degradation of semi-arid land into desert-like conditions through overuse, drought and erosion." },
-    { "term": "Deforestation", "definition": "The removal of trees, which loses the roots that bind soil and the canopy that intercepts rain." },
-    { "term": "Clear-felling", "definition": "Cutting down all the trees in an area at once." },
-    { "term": "Gabion", "definition": "A wire cage filled with stones, used to retain a slope." },
-    { "term": "Blanket bog", "definition": "Waterlogged peat that covers upland slopes and can burst or slide when saturated." }
+    {
+      "term": "Carrying capacity",
+      "definition": "The number of animals an area of land can support without its vegetation being damaged."
+    },
+    {
+      "term": "Overgrazing",
+      "definition": "Grazing by too many animals, which eats vegetation down to the roots and compacts the soil."
+    },
+    {
+      "term": "Overcropping",
+      "definition": "Cropping the same land year after year without fallow periods or fertiliser, so the soil structure breaks down."
+    },
+    {
+      "term": "Fallow",
+      "definition": "A period when land is left unplanted to let its nutrients and structure recover."
+    },
+    {
+      "term": "Contour ploughing",
+      "definition": "Ploughing along the slope rather than up and down it, to slow the flow of water and soil."
+    },
+    {
+      "term": "Desertification",
+      "definition": "The degradation of semi-arid land into desert-like conditions through overuse, drought and erosion."
+    },
+    {
+      "term": "Deforestation",
+      "definition": "The removal of trees, which loses the roots that bind soil and the canopy that intercepts rain."
+    },
+    {
+      "term": "Clear-felling",
+      "definition": "Cutting down all the trees in an area at once."
+    },
+    {
+      "term": "Gabion",
+      "definition": "A wire cage filled with stones, used to retain a slope."
+    },
+    {
+      "term": "Blanket bog",
+      "definition": "Waterlogged peat that covers upland slopes and can burst or slide when saturated."
+    }
   ],
   "questions": [
     {

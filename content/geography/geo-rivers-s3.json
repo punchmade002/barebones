@@ -54,7 +54,7 @@
     {
       "h": "Interruption and polycyclic landscapes",
       "points": [
-        "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in geo-rivers-s2).",
+        "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in the notes on Fluvial adjustment to base level (Rivers)).",
         "A landscape with remnants of more than one cycle is polycyclic."
       ]
     },
@@ -97,16 +97,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Cyclic landscape development", "definition": "The sequence of landscape stages from uplift to near-flatness, restarted by a new uplift or fall in base level." },
-    { "term": "Davis's cycle of erosion", "definition": "W. M. Davis's model of a landscape passing through youth, maturity and old age after a period of rapid uplift." },
-    { "term": "Interfluve", "definition": "The area of land between two rivers." },
-    { "term": "Peneplain", "definition": "A gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion." },
-    { "term": "Monadnock", "definition": "An isolated residual hill of more resistant rock rising above a peneplain." },
-    { "term": "Polycyclic landscape", "definition": "A landscape with remnants of more than one erosion cycle." },
-    { "term": "Planation surface", "definition": "A flat erosion surface cut across rocks of different types and structures." },
-    { "term": "Accordant summits", "definition": "Summits at similar heights that cut across folded rock, showing an uplifted erosion surface." },
-    { "term": "Differential erosion", "definition": "Erosion that removes softer rock faster than harder rock, re-exposing relief." },
-    { "term": "Superimposed drainage", "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below." }
+    {
+      "term": "Cyclic landscape development",
+      "definition": "The sequence of landscape stages from uplift to near-flatness, restarted by a new uplift or fall in base level."
+    },
+    {
+      "term": "Davis's cycle of erosion",
+      "definition": "W. M. Davis's model of a landscape passing through youth, maturity and old age after a period of rapid uplift."
+    },
+    {
+      "term": "Interfluve",
+      "definition": "The area of land between two rivers."
+    },
+    {
+      "term": "Peneplain",
+      "definition": "A gently undulating erosion surface of low relief, worn down close to base level by long-continued erosion."
+    },
+    {
+      "term": "Monadnock",
+      "definition": "An isolated residual hill of more resistant rock rising above a peneplain."
+    },
+    {
+      "term": "Polycyclic landscape",
+      "definition": "A landscape with remnants of more than one erosion cycle."
+    },
+    {
+      "term": "Planation surface",
+      "definition": "A flat erosion surface cut across rocks of different types and structures."
+    },
+    {
+      "term": "Accordant summits",
+      "definition": "Summits at similar heights that cut across folded rock, showing an uplifted erosion surface."
+    },
+    {
+      "term": "Differential erosion",
+      "definition": "Erosion that removes softer rock faster than harder rock, re-exposing relief."
+    },
+    {
+      "term": "Superimposed drainage",
+      "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below."
+    }
   ],
   "questions": [
     {

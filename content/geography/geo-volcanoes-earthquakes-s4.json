@@ -152,21 +152,66 @@
     }
   ],
   "keyTerms": [
-    { "term": "Strata", "definition": "Layers of sedimentary rock, laid down by deposition and then compacted and cemented." },
-    { "term": "Bedding plane", "definition": "The boundary between one sedimentary layer and the next, roughly horizontal when the layers are laid down." },
-    { "term": "Joint", "definition": "A crack in rock along which no movement has taken place, here at right angles to the bedding planes in sedimentary rock." },
-    { "term": "Dip", "definition": "The angle at which strata tilt from the horizontal." },
-    { "term": "Strike", "definition": "The direction along a tilted layer's surface, at right angles to the dip." },
-    { "term": "Line of weakness", "definition": "A bedding plane or joint along which water, ice and weathering break the rock." },
-    { "term": "Permeable rock", "definition": "Rock through which water can pass, down joints and bedding planes." },
-    { "term": "Spring line", "definition": "A line of springs where a permeable layer lies on an impermeable one." },
-    { "term": "Scarp slope", "definition": "The steep slope cut across the edges of tilted layers." },
-    { "term": "Dip slope", "definition": "The gentle slope that follows the tilt of the layers." },
-    { "term": "Cuesta", "definition": "An asymmetric ridge on gently dipping strata, with a steep scarp slope and a long dip slope." },
-    { "term": "Mesa", "definition": "A flat-topped hill with a resistant cap, wider than it is high." },
-    { "term": "Butte", "definition": "A smaller, narrower flat-topped remnant with a resistant cap." },
-    { "term": "Hogback", "definition": "A narrow ridge on steeply dipping strata, with scarp and dip slopes of nearly equal steepness." },
-    { "term": "Clint and grike", "definition": "The blocks of limestone pavement (clints) separated by the cracks between them (grikes)." }
+    {
+      "term": "Strata",
+      "definition": "Layers of sedimentary rock, laid down by deposition and then compacted and cemented."
+    },
+    {
+      "term": "Bedding plane",
+      "definition": "The boundary between one sedimentary layer and the next, roughly horizontal when the layers are laid down."
+    },
+    {
+      "term": "Joint",
+      "definition": "A crack in rock along which no movement has taken place, here at right angles to the bedding planes in sedimentary rock."
+    },
+    {
+      "term": "Dip",
+      "definition": "The angle at which strata tilt from the horizontal."
+    },
+    {
+      "term": "Strike",
+      "definition": "The direction along a tilted layer's surface, at right angles to the dip."
+    },
+    {
+      "term": "Line of weakness",
+      "definition": "A bedding plane or joint along which water, ice and weathering break the rock."
+    },
+    {
+      "term": "Permeable rock",
+      "definition": "Rock through which water can pass, down joints and bedding planes."
+    },
+    {
+      "term": "Spring line",
+      "definition": "A line of springs where a permeable layer lies on an impermeable one."
+    },
+    {
+      "term": "Scarp slope",
+      "definition": "The steep slope cut across the edges of tilted layers."
+    },
+    {
+      "term": "Dip slope",
+      "definition": "The gentle slope that follows the tilt of the layers."
+    },
+    {
+      "term": "Cuesta",
+      "definition": "An asymmetric ridge on gently dipping strata, with a steep scarp slope and a long dip slope."
+    },
+    {
+      "term": "Mesa",
+      "definition": "A flat-topped hill with a resistant cap, wider than it is high."
+    },
+    {
+      "term": "Butte",
+      "definition": "A smaller, narrower flat-topped remnant with a resistant cap."
+    },
+    {
+      "term": "Hogback",
+      "definition": "A narrow ridge on steeply dipping strata, with scarp and dip slopes of nearly equal steepness."
+    },
+    {
+      "term": "Clint and grike",
+      "definition": "The blocks of limestone pavement (clints) separated by the cracks between them (grikes)."
+    }
   ],
   "questions": [
     {

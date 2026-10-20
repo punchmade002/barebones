@@ -203,18 +203,54 @@
     }
   ],
   "keyTerms": [
-    { "term": "Overburden", "definition": "The soil and glacial till lying above rock that must be removed before it is quarried or mined." },
-    { "term": "Open-pit mining", "definition": "Mining of ore near the surface by removing the overburden to form an open pit." },
-    { "term": "Tailings", "definition": "The fine waste left after ore has been crushed and the mineral separated, stored in tailings ponds." },
-    { "term": "Acid mine drainage", "definition": "Acidic water draining from mine workings and waste, which carries heavy metals into rivers." },
-    { "term": "Clinker", "definition": "The material produced when crushed limestone and shale are heated in a kiln, ground with gypsum to make cement." },
-    { "term": "Reservoir rock", "definition": "Porous, permeable rock in which oil and gas collect after migrating upward." },
-    { "term": "Cap rock", "definition": "Impermeable rock, such as shale, that traps oil and gas beneath it." },
-    { "term": "Fracking", "definition": "Hydraulic fracturing: forcing fluid into shale at high pressure to fracture it and release gas." },
-    { "term": "Geothermal gradient", "definition": "The rise in temperature with depth, averaging about 25 to 30 °C per kilometre." },
-    { "term": "Ground-source heat pump", "definition": "A device that draws the steady warmth of shallow ground to heat a building." },
-    { "term": "Reinjection well", "definition": "A well through which cooled geothermal water is pumped back underground." },
-    { "term": "Induced earthquake", "definition": "A small earthquake triggered by human activity, such as fluid injection into rock." }
+    {
+      "term": "Overburden",
+      "definition": "The soil and glacial till lying above rock that must be removed before it is quarried or mined."
+    },
+    {
+      "term": "Open-pit mining",
+      "definition": "Mining of ore near the surface by removing the overburden to form an open pit."
+    },
+    {
+      "term": "Tailings",
+      "definition": "The fine waste left after ore has been crushed and the mineral separated, stored in tailings ponds."
+    },
+    {
+      "term": "Acid mine drainage",
+      "definition": "Acidic water draining from mine workings and waste, which carries heavy metals into rivers."
+    },
+    {
+      "term": "Clinker",
+      "definition": "The material produced when crushed limestone and shale are heated in a kiln, ground with gypsum to make cement."
+    },
+    {
+      "term": "Reservoir rock",
+      "definition": "Porous, permeable rock in which oil and gas collect after migrating upward."
+    },
+    {
+      "term": "Cap rock",
+      "definition": "Impermeable rock, such as shale, that traps oil and gas beneath it."
+    },
+    {
+      "term": "Fracking",
+      "definition": "Hydraulic fracturing: forcing fluid into shale at high pressure to fracture it and release gas."
+    },
+    {
+      "term": "Geothermal gradient",
+      "definition": "The rise in temperature with depth, averaging about 25 to 30 °C per kilometre."
+    },
+    {
+      "term": "Ground-source heat pump",
+      "definition": "A device that draws the steady warmth of shallow ground to heat a building."
+    },
+    {
+      "term": "Reinjection well",
+      "definition": "A well through which cooled geothermal water is pumped back underground."
+    },
+    {
+      "term": "Induced earthquake",
+      "definition": "A small earthquake triggered by human activity, such as fluid injection into rock."
+    }
   ],
   "questions": [
     {

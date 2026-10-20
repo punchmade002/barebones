@@ -442,21 +442,66 @@
     }
   ],
   "keyTerms": [
-    { "term": "Peripheral region", "definition": "A region far from the main centres of population and economic activity, with poorer access and fewer opportunities." },
-    { "term": "Blanket bog", "definition": "A thick layer of peat that covers the land where high rainfall keeps the ground waterlogged." },
-    { "term": "Podzol", "definition": "An acidic, leached soil in which minerals wash down from the surface layer, often leaving a hard iron pan below." },
-    { "term": "Gley soil", "definition": "A grey, poorly drained soil that stays waterlogged for much of the year." },
-    { "term": "Drumlin", "definition": "A smooth, oval hill of glacial material shaped by moving ice." },
-    { "term": "Turlough", "definition": "A seasonal lake in limestone country that fills with water in winter and drains away underground in summer." },
-    { "term": "Rundale", "definition": "A traditional system in which families shared scattered strips of land within a townland." },
-    { "term": "Clachan", "definition": "A small, traditional cluster of houses in which families shared land." },
-    { "term": "Commonage", "definition": "Unfenced hill land shared by several farmers for grazing." },
-    { "term": "Headage payment", "definition": "A grant paid per animal, which encouraged farmers to keep more livestock." },
-    { "term": "Suckler herd", "definition": "A herd of cows kept to rear calves for sale." },
-    { "term": "Store cattle", "definition": "Young cattle sold to other farmers to be fattened." },
-    { "term": "Gaeltacht", "definition": "An area where Irish is the main language of daily life in the community." },
-    { "term": "Brain drain", "definition": "The emigration of skilled, educated young people from an area." },
-    { "term": "Medical technology (medtech)", "definition": "The design and manufacture of medical devices and equipment." }
+    {
+      "term": "Peripheral region",
+      "definition": "A region far from the main centres of population and economic activity, with poorer access and fewer opportunities."
+    },
+    {
+      "term": "Blanket bog",
+      "definition": "A thick layer of peat that covers the land where high rainfall keeps the ground waterlogged."
+    },
+    {
+      "term": "Podzol",
+      "definition": "An acidic, leached soil in which minerals wash down from the surface layer, often leaving a hard iron pan below."
+    },
+    {
+      "term": "Gley soil",
+      "definition": "A grey, poorly drained soil that stays waterlogged for much of the year."
+    },
+    {
+      "term": "Drumlin",
+      "definition": "A smooth, oval hill of glacial material shaped by moving ice."
+    },
+    {
+      "term": "Turlough",
+      "definition": "A seasonal lake in limestone country that fills with water in winter and drains away underground in summer."
+    },
+    {
+      "term": "Rundale",
+      "definition": "A traditional system in which families shared scattered strips of land within a townland."
+    },
+    {
+      "term": "Clachan",
+      "definition": "A small, traditional cluster of houses in which families shared land."
+    },
+    {
+      "term": "Commonage",
+      "definition": "Unfenced hill land shared by several farmers for grazing."
+    },
+    {
+      "term": "Headage payment",
+      "definition": "A grant paid per animal, which encouraged farmers to keep more livestock."
+    },
+    {
+      "term": "Suckler herd",
+      "definition": "A herd of cows kept to rear calves for sale."
+    },
+    {
+      "term": "Store cattle",
+      "definition": "Young cattle sold to other farmers to be fattened."
+    },
+    {
+      "term": "Gaeltacht",
+      "definition": "An area where Irish is the main language of daily life in the community."
+    },
+    {
+      "term": "Brain drain",
+      "definition": "The emigration of skilled, educated young people from an area."
+    },
+    {
+      "term": "Medical technology (medtech)",
+      "definition": "The design and manufacture of medical devices and equipment."
+    }
   ],
   "questions": [
     {

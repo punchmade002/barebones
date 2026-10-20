@@ -91,7 +91,7 @@
         "The Leinster batholith, the largest granite mass in Ireland and Britain, forms the Wicklow Mountains.",
         "Its rounded, dome-shaped uplands are worn down from rock that once covered the granite.",
         "Impermeable granite with high rainfall gives thin, acidic soils and blanket bog, e.g. on the Sally Gap area of Co. Wicklow.",
-        "Ice cut deep valleys into the granite (see geo-glaciation-s1)."
+        "Ice cut deep valleys into the granite (see the notes on Glacial processes, patterns and associated landforms (Glaciation))."
       ]
     },
     {
@@ -118,21 +118,66 @@
     }
   ],
   "keyTerms": [
-    { "term": "Karst", "definition": "A landscape on limestone shaped mainly by solution, with few surface streams and many underground features." },
-    { "term": "Carbonation", "definition": "Solution of calcium carbonate by rainwater containing carbon dioxide, forming soluble calcium bicarbonate." },
-    { "term": "Permeable rock", "definition": "Rock that lets water pass through it, mainly along bedding planes, joints and other cracks." },
-    { "term": "Ground water table", "definition": "The upper surface of the zone where all cracks in the rock are saturated with water." },
-    { "term": "Clint", "definition": "A flat-topped block of limestone between grikes on a limestone pavement." },
-    { "term": "Grike", "definition": "A deep, narrow vertical crack in limestone pavement, widened by carbonation along joints." },
-    { "term": "Swallow hole", "definition": "A hole where a surface stream disappears underground into limestone, widened by carbonation along a joint." },
-    { "term": "Doline", "definition": "A hollow formed by solution of the surface or by collapse of a cave roof." },
-    { "term": "Turlough", "definition": "A seasonal lake in a limestone hollow that fills in winter when the water table rises and drains in summer." },
-    { "term": "River of resurgence", "definition": "An underground river that re-emerges at the surface, usually where limestone meets impermeable rock below." },
-    { "term": "Stalactite", "definition": "A calcite icicle-shaped deposit that hangs from a cave roof and grows downward." },
-    { "term": "Stalagmite", "definition": "A calcite deposit that grows upward from a cave floor beneath a stalactite." },
-    { "term": "Tor", "definition": "A block of granite standing on a hilltop, left when the rotted rock around it has been stripped away." },
-    { "term": "Clitter", "definition": "A blockfield of granite boulders on slopes below a tor." },
-    { "term": "Hydrolysis", "definition": "Chemical weathering in which water reacts with minerals such as feldspar, forming clay." }
+    {
+      "term": "Karst",
+      "definition": "A landscape on limestone shaped mainly by solution, with few surface streams and many underground features."
+    },
+    {
+      "term": "Carbonation",
+      "definition": "Solution of calcium carbonate by rainwater containing carbon dioxide, forming soluble calcium bicarbonate."
+    },
+    {
+      "term": "Permeable rock",
+      "definition": "Rock that lets water pass through it, mainly along bedding planes, joints and other cracks."
+    },
+    {
+      "term": "Ground water table",
+      "definition": "The upper surface of the zone where all cracks in the rock are saturated with water."
+    },
+    {
+      "term": "Clint",
+      "definition": "A flat-topped block of limestone between grikes on a limestone pavement."
+    },
+    {
+      "term": "Grike",
+      "definition": "A deep, narrow vertical crack in limestone pavement, widened by carbonation along joints."
+    },
+    {
+      "term": "Swallow hole",
+      "definition": "A hole where a surface stream disappears underground into limestone, widened by carbonation along a joint."
+    },
+    {
+      "term": "Doline",
+      "definition": "A hollow formed by solution of the surface or by collapse of a cave roof."
+    },
+    {
+      "term": "Turlough",
+      "definition": "A seasonal lake in a limestone hollow that fills in winter when the water table rises and drains in summer."
+    },
+    {
+      "term": "River of resurgence",
+      "definition": "An underground river that re-emerges at the surface, usually where limestone meets impermeable rock below."
+    },
+    {
+      "term": "Stalactite",
+      "definition": "A calcite icicle-shaped deposit that hangs from a cave roof and grows downward."
+    },
+    {
+      "term": "Stalagmite",
+      "definition": "A calcite deposit that grows upward from a cave floor beneath a stalactite."
+    },
+    {
+      "term": "Tor",
+      "definition": "A block of granite standing on a hilltop, left when the rotted rock around it has been stripped away."
+    },
+    {
+      "term": "Clitter",
+      "definition": "A blockfield of granite boulders on slopes below a tor."
+    },
+    {
+      "term": "Hydrolysis",
+      "definition": "Chemical weathering in which water reacts with minerals such as feldspar, forming clay."
+    }
   ],
   "questions": [
     {

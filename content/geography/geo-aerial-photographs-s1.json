@@ -89,7 +89,7 @@
       "h": "Absolute and relative location, and camera direction",
       "points": [
         "Absolute location is a grid reference read from the OS map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.",
-        "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in geo-mapwork-s1.",
+        "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in the notes on Map interpretation.",
         "On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.",
         "To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name.",
         "The direction from a foreground feature to a background feature on the map is the direction the camera was pointing.",
@@ -112,7 +112,7 @@
       "h": "Scale on photographs",
       "points": [
         "An oblique photograph has no single scale, so measure distances on the map instead.",
-        "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in geo-mapwork-s1.",
+        "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in the notes on Map interpretation.",
         "Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.",
         "Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.",
         "Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000."
@@ -182,7 +182,7 @@
     },
     {
       "h": "Evidence of historical development",
-      "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in geo-mapwork-s1.",
+      "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in the notes on Map interpretation.",
       "points": [
         "Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.",
         "A market square, fair green or market house shows the town's role as a market centre.",
@@ -247,7 +247,7 @@
         "Ribbon development along approach roads.",
         "Industrial estates and retail parks on the outskirts.",
         "New roundabouts and bypasses.",
-        "Sprawl as a wider urban issue is covered in geo-urban."
+        "Sprawl as a wider urban issue is covered in the Urban Geography chapter."
       ]
     },
     {

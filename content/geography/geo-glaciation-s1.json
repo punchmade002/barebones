@@ -226,38 +226,134 @@
     }
   ],
   "keyTerms": [
-    { "term": "Firn", "definition": "Granular snow that has survived a summer and is compacted on the way to becoming glacier ice." },
-    { "term": "Accumulation zone", "definition": "The upper part of a glacier where ice and snow are gained by more than they are lost." },
-    { "term": "Ablation zone", "definition": "The lower part of a glacier, including the snout, where ice is lost by melting." },
-    { "term": "Equilibrium line", "definition": "The boundary between the accumulation and ablation zones, where gain and loss of ice are equal." },
-    { "term": "Basal slip", "definition": "Movement of a whole glacier over its bed, lubricated by meltwater at the base." },
-    { "term": "Plucking", "definition": "Glacial erosion in which meltwater freezes in rock joints and the moving ice tears out blocks of rock." },
-    { "term": "Abrasion", "definition": "Glacial erosion in which rock fragments frozen into the base of the ice scrape and polish the bedrock." },
-    { "term": "Rock flour", "definition": "Fine powder ground from bedrock by glacial abrasion." },
-    { "term": "Corrie (cirque)", "definition": "A bowl-shaped hollow on a mountainside, with a steep back wall and a rock lip, where a glacier forms." },
-    { "term": "Tarn", "definition": "A lake that fills a corrie after the ice has melted, held back by the rock lip." },
-    { "term": "Arete", "definition": "A thin, sharp ridge left between two corries that have cut back from opposite sides." },
-    { "term": "Pyramidal peak", "definition": "A sharp summit left when three or more corries erode back around it, also called a horn." },
-    { "term": "U-shaped valley", "definition": "A broad, flat-floored valley with steep sides, widened and deepened by a glacier from a river valley." },
-    { "term": "Truncated spur", "definition": "A blunt, cliff-like end of a valley spur cut off by a glacier filling the valley." },
-    { "term": "Hanging valley", "definition": "A tributary valley left above the floor of a main glacial valley, from which its stream falls as a waterfall." },
-    { "term": "Overdeepening", "definition": "Erosion of a section of valley floor more deeply than the rest, leaving a rock basin." },
-    { "term": "Ribbon lake", "definition": "A long, narrow lake filling an overdeepened basin in a glacial valley floor." },
-    { "term": "Paternoster lakes", "definition": "A chain of rock-basin lakes along a valley floor, separated by bars of harder rock." },
-    { "term": "Fjord", "definition": "A glaciated coastal valley with steep sides and a floor below sea level, flooded by the sea after the ice melts." },
-    { "term": "Roche moutonnee", "definition": "A rounded rock outcrop with a smooth stoss side, formed by abrasion, and a rough lee side, formed by plucking." },
-    { "term": "Striations", "definition": "Fine parallel scratches cut into bedrock by stones carried in the base of the ice, showing the direction of ice flow." },
-    { "term": "Till", "definition": "Unsorted, unstratified, angular material deposited directly by ice, ranging from clay to boulders." },
-    { "term": "Erratic", "definition": "A boulder carried by ice and dropped far from its source, with a rock type unlike the bedrock beneath it." },
-    { "term": "Lateral moraine", "definition": "A ridge of till along the side of a glacier, built from debris falling from the valley walls." },
-    { "term": "Medial moraine", "definition": "A ridge of debris running down the middle of a glacier, formed where two glaciers join." },
-    { "term": "Terminal moraine", "definition": "An arc-shaped ridge of till deposited at the snout, marking the furthest advance or a long pause in retreat." },
-    { "term": "Drumlin", "definition": "An elongated, streamlined hill of till moulded by moving ice, with its blunt end facing up-ice." },
-    { "term": "Drowned drumlin", "definition": "A drumlin partly submerged when the sea floods low ground, forming an island." },
-    { "term": "Esker", "definition": "A long, winding ridge of sorted sand and gravel left by a meltwater stream that flowed in a tunnel in or beneath the ice." },
-    { "term": "Outwash plain", "definition": "A flat sheet of sorted sand and gravel spread by meltwater beyond the terminal moraine." },
-    { "term": "Kame", "definition": "A mound of sorted sand and gravel deposited by meltwater in a hollow on or at the edge of the ice." },
-    { "term": "Kettle hole", "definition": "A hollow left where a buried block of ice melts out of outwash." }
+    {
+      "term": "Firn",
+      "definition": "Granular snow that has survived a summer and is compacted on the way to becoming glacier ice."
+    },
+    {
+      "term": "Accumulation zone",
+      "definition": "The upper part of a glacier where ice and snow are gained by more than they are lost."
+    },
+    {
+      "term": "Ablation zone",
+      "definition": "The lower part of a glacier, including the snout, where ice is lost by melting."
+    },
+    {
+      "term": "Equilibrium line",
+      "definition": "The boundary between the accumulation and ablation zones, where gain and loss of ice are equal."
+    },
+    {
+      "term": "Basal slip",
+      "definition": "Movement of a whole glacier over its bed, lubricated by meltwater at the base."
+    },
+    {
+      "term": "Plucking",
+      "definition": "Glacial erosion in which meltwater freezes in rock joints and the moving ice tears out blocks of rock."
+    },
+    {
+      "term": "Abrasion",
+      "definition": "Glacial erosion in which rock fragments frozen into the base of the ice scrape and polish the bedrock."
+    },
+    {
+      "term": "Rock flour",
+      "definition": "Fine powder ground from bedrock by glacial abrasion."
+    },
+    {
+      "term": "Corrie (cirque)",
+      "definition": "A bowl-shaped hollow on a mountainside, with a steep back wall and a rock lip, where a glacier forms."
+    },
+    {
+      "term": "Tarn",
+      "definition": "A lake that fills a corrie after the ice has melted, held back by the rock lip."
+    },
+    {
+      "term": "Arete",
+      "definition": "A thin, sharp ridge left between two corries that have cut back from opposite sides."
+    },
+    {
+      "term": "Pyramidal peak",
+      "definition": "A sharp summit left when three or more corries erode back around it, also called a horn."
+    },
+    {
+      "term": "U-shaped valley",
+      "definition": "A broad, flat-floored valley with steep sides, widened and deepened by a glacier from a river valley."
+    },
+    {
+      "term": "Truncated spur",
+      "definition": "A blunt, cliff-like end of a valley spur cut off by a glacier filling the valley."
+    },
+    {
+      "term": "Hanging valley",
+      "definition": "A tributary valley left above the floor of a main glacial valley, from which its stream falls as a waterfall."
+    },
+    {
+      "term": "Overdeepening",
+      "definition": "Erosion of a section of valley floor more deeply than the rest, leaving a rock basin."
+    },
+    {
+      "term": "Ribbon lake",
+      "definition": "A long, narrow lake filling an overdeepened basin in a glacial valley floor."
+    },
+    {
+      "term": "Paternoster lakes",
+      "definition": "A chain of rock-basin lakes along a valley floor, separated by bars of harder rock."
+    },
+    {
+      "term": "Fjord",
+      "definition": "A glaciated coastal valley with steep sides and a floor below sea level, flooded by the sea after the ice melts."
+    },
+    {
+      "term": "Roche moutonnee",
+      "definition": "A rounded rock outcrop with a smooth stoss side, formed by abrasion, and a rough lee side, formed by plucking."
+    },
+    {
+      "term": "Striations",
+      "definition": "Fine parallel scratches cut into bedrock by stones carried in the base of the ice, showing the direction of ice flow."
+    },
+    {
+      "term": "Till",
+      "definition": "Unsorted, unstratified, angular material deposited directly by ice, ranging from clay to boulders."
+    },
+    {
+      "term": "Erratic",
+      "definition": "A boulder carried by ice and dropped far from its source, with a rock type unlike the bedrock beneath it."
+    },
+    {
+      "term": "Lateral moraine",
+      "definition": "A ridge of till along the side of a glacier, built from debris falling from the valley walls."
+    },
+    {
+      "term": "Medial moraine",
+      "definition": "A ridge of debris running down the middle of a glacier, formed where two glaciers join."
+    },
+    {
+      "term": "Terminal moraine",
+      "definition": "An arc-shaped ridge of till deposited at the snout, marking the furthest advance or a long pause in retreat."
+    },
+    {
+      "term": "Drumlin",
+      "definition": "An elongated, streamlined hill of till moulded by moving ice, with its blunt end facing up-ice."
+    },
+    {
+      "term": "Drowned drumlin",
+      "definition": "A drumlin partly submerged when the sea floods low ground, forming an island."
+    },
+    {
+      "term": "Esker",
+      "definition": "A long, winding ridge of sorted sand and gravel left by a meltwater stream that flowed in a tunnel in or beneath the ice."
+    },
+    {
+      "term": "Outwash plain",
+      "definition": "A flat sheet of sorted sand and gravel spread by meltwater beyond the terminal moraine."
+    },
+    {
+      "term": "Kame",
+      "definition": "A mound of sorted sand and gravel deposited by meltwater in a hollow on or at the edge of the ice."
+    },
+    {
+      "term": "Kettle hole",
+      "definition": "A hollow left where a buried block of ice melts out of outwash."
+    }
   ],
   "questions": [
     {

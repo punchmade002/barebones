@@ -144,7 +144,7 @@
     "h": "Absolute and relative location, and camera direction",
     "points": [
      "Absolute location is a grid reference read from the OS map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.",
-     "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in geo-mapwork-s1.",
+     "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in the notes on Map interpretation.",
      "On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.",
      "To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name.",
      "The direction from a foreground feature to a background feature on the map is the direction the camera was pointing.",
@@ -167,7 +167,7 @@
     "h": "Scale on photographs",
     "points": [
      "An oblique photograph has no single scale, so measure distances on the map instead.",
-     "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in geo-mapwork-s1.",
+     "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in the notes on Map interpretation.",
      "Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.",
      "Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.",
      "Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000."
@@ -236,7 +236,7 @@
     ]
    },
    {
-    "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in geo-mapwork-s1.",
+    "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in the notes on Map interpretation.",
     "h": "Evidence of historical development",
     "points": [
      "Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.",
@@ -302,7 +302,7 @@
      "Ribbon development along approach roads.",
      "Industrial estates and retail parks on the outskirts.",
      "New roundabouts and bypasses.",
-     "Sprawl as a wider urban issue is covered in geo-urban."
+     "Sprawl as a wider urban issue is covered in the Urban Geography chapter."
     ]
    },
    {
@@ -1155,7 +1155,7 @@
      "Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, scaled outward from zero on both sides.",
      "Reading a pyramid: a wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.",
      "Describe the dependent groups (young and old) and the working-age group when reading a pyramid.",
-     "The shapes of pyramids and the stages of demographic transition belong to geo-population-migration-s1.",
+     "The shapes of pyramids and the stages of demographic transition belong to the notes on Changing population characteristics.",
      "Method for drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females aged 20 to 24 are 3.4%. Draw a bar 3.5 units long to the left of the centre axis and a bar 3.4 units long to the right, at the 20 to 24 level."
     ]
    },
@@ -1166,7 +1166,7 @@
      "Mean monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.",
      "From the graph, read the hottest and coldest months, the wettest and driest months, and the seasonal pattern (rain all year, or a wet and dry season).",
      "Calculations from the graph: annual temperature range = maximum mean monthly temperature minus minimum; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars.",
-     "Identifying a climate type from a climate graph is taught in geo-region-concept-s1 and geo-option-atmosphere-ocean-s5.",
+     "Identifying a climate type from a climate graph is taught in the notes on Physical regions and the notes on Climatic environments and climate change.",
      "Illustrative Station M, mean monthly temperature (°C) J to D: 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8, 6. Rainfall (mm) J to D: 110, 80, 85, 60, 65, 70, 70, 85, 90, 115, 110, 120.",
      "Illustrative Station M results: warmest in July and August (16°C); coldest in January and February (5°C); annual range 16 − 5 = 11°C; mean annual temperature 123 ÷ 12 = 10.3°C.",
      "Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern."
@@ -1212,7 +1212,7 @@
     "h": "Tables and the investigation",
     "points": [
      "Use a table rather than a graph when many exact values must be given. A table cannot show a trend at a glance.",
-     "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in geo-mapwork-s3."
+     "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in the notes on The Geographical Investigation (20%)."
     ]
    }
   ],
@@ -1386,7 +1386,7 @@
      "Illustrative Rivertown ED, later census: 0 to 14 = 1,050; 15 to 64 = 3,120; 65 and over = 660; total 4,830.",
      "Illustrative dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age.",
      "Illustrative share aged 65 and over = 660 ÷ 4,830 × 100 = 13.7%.",
-     "Census data is drawn as a population pyramid in the way taught in geo-graph-skills-s1; the meaning of pyramid shapes is taught in geo-population-migration-s1."
+     "Census data is drawn as a population pyramid in the way taught in the notes on Figure interpretation; the meaning of pyramid shapes is taught in the notes on Changing population characteristics."
     ]
    },
    {
@@ -1426,7 +1426,7 @@
      "For comparison, the population of the whole island was about 8.2 million in 1841.",
      "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
      "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
-     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in geo-population-migration-s1 and geo-population-migration-s3; migration patterns, policy and reasons are in geo-population-migration-s3 to s6."
+     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the notes on Changing migration patterns in Ireland to s6."
     ]
    },
    {
@@ -1447,15 +1447,15 @@
      "New housing estates and commuter growth near cities and along motorways bring rising population, young families and a high young dependency ratio.",
      "Rural decline in remote areas brings a falling population, an ageing population and more single-person households.",
      "Other causes include immigration, the closure or opening of a major employer, and town-centre decline set against suburban growth.",
-     "Links: geo-population-migration-s6 and geo-urban.",
-     "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see geo-aerial-photographs-s1) that attracts young families who commute, together with positive net migration."
+     "Links: the notes on Rural-to-urban migration in developed and developing regions and the Urban Geography chapter.",
+     "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see the notes on Aerial photograph interpretation) that attracts young families who commute, together with positive net migration."
     ]
    },
    {
     "h": "Irish-language data and other census uses",
     "points": [
-     "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in geo-option-culture-identity-s2.",
-     "Census data is also used in the GIS study of urban sprawl, covered in geo-weather-climate-s3."
+     "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in the notes on Language as a cultural indicator.",
+     "Census data is also used in the GIS study of urban sprawl, covered in the notes on Geographical information systems (GIS)."
     ]
    }
   ],
@@ -2106,7 +2106,7 @@
      "A questionnaire the student designs and carries out is primary; a published survey is secondary.",
      "Old maps and the census are secondary sources.",
      "Secondary sources give background, past data and comparisons that fieldwork cannot provide, so being secondary does not make them less useful.",
-     "In the geographical investigation, secondary sources supply the background and the published studies used for comparison in the conclusion (see geo-mapwork-s3)."
+     "In the geographical investigation, secondary sources supply the background and the published studies used for comparison in the conclusion (see the notes on The Geographical Investigation (20%))."
     ]
    },
    {
@@ -2163,7 +2163,7 @@
     ]
    },
    {
-    "b": "The Higher paper can ask for a sketch map of a historical map, worth 20 marks. The method follows the OS sketch-map rules in geo-mapwork-s1.",
+    "b": "The Higher paper can ask for a sketch map of a historical map, worth 20 marks. The method follows the OS sketch-map rules in the notes on Map interpretation.",
     "h": "Sketch map of a historical map (Higher paper)",
     "points": [
      "Rule a frame of the same shape as the map, with a title and a north arrow.",
@@ -2216,7 +2216,7 @@
      "List every secondary source used in a report with its author or organisation, title and date.",
      "For online sources, also give the web address and the date accessed.",
      "Never copy text and present it as one's own.",
-     "The authenticity check on the investigation report is covered in geo-mapwork-s3."
+     "The authenticity check on the investigation report is covered in the notes on The Geographical Investigation (20%)."
     ]
    },
    {
@@ -2351,7 +2351,7 @@
    {
     "h": "Secondary sources and accuracy in collection",
     "points": [
-     "Secondary sources used in investigations include OS maps and aerial photographs, census data, weather records, local authority plans, textbooks and websites; geo-mapwork-s2 explains how to evaluate them.",
+     "Secondary sources used in investigations include OS maps and aerial photographs, census data, weather records, local authority plans, textbooks and websites; the notes on Textual sources explains how to evaluate them.",
      "Record full details of each secondary source when you collect it, for acknowledgement.",
      "Take repeat readings and average them.",
      "Use the same method and the same people at every site.",
@@ -2379,7 +2379,7 @@
      "State each finding in words with its key figures, and support it with an illustration.",
      "Illustrations include tables of raw and averaged data, sketch maps locating sites, annotated photographs and field sketches.",
      "Choose the graph that suits the data: a line graph for change with distance or time, a bar chart for comparison between sites, a pie chart for shares, a scatter graph for a relationship, and channel cross-sections for showing a river channel's shape.",
-     "Every illustration is titled, labelled, has units and a key, and is referred to in the text. Graph-drawing technique is in geo-graph-skills-s1.",
+     "Every illustration is titled, labelled, has units and a key, and is referred to in the text. Graph-drawing technique is in the notes on Figure interpretation.",
      "Higher Level statistical analysis: averages (mean and median), range and percentages.",
      "Use spreadsheets or graphing software (ICT) to calculate and plot results.",
      "Describe trends with figures, e.g. \"velocity rose from site 1 to site 5\", note anomalies and suggest their causes.",
@@ -3064,7 +3064,7 @@
      "North Atlantic Drift: a warm ocean current, the extension of the Gulf Stream, keeps winters mild and coasts free of ice.",
      "Maritime influence: the sea heats and cools slowly, so the annual temperature range is small.",
      "Prevailing south-westerly winds blow off the Atlantic, carrying its mild, moist air over Ireland.",
-     "Frequent Atlantic depressions and their fronts bring rain. These weather systems are taught in geo-weather-climate.",
+     "Frequent Atlantic depressions and their fronts bring rain. These weather systems are taught in the Weather and Climate chapter.",
      "Relief rainfall: moist air is forced up the western mountains, cools and releases its rain on their western slopes."
     ]
    },
@@ -3101,7 +3101,7 @@
     "h": "Geomorphological regions"
    },
    {
-    "b": "The Burren in north-west Co. Clare is a karst region on Carboniferous limestone. Formation of its landforms is taught in geo-rocks-weathering-s4; here each landform is only named.",
+    "b": "The Burren in north-west Co. Clare is a karst region on Carboniferous limestone. Formation of its landforms is taught in the notes on Landforms associated with particular rock types; here each landform is only named.",
     "h": "The Burren: a karst region",
     "points": [
      "The name comes from the Irish Boireann, meaning rocky place.",
@@ -3155,7 +3155,7 @@
      "The Burren is defined by its rock type, Carboniferous limestone.",
      "Munster ridge and valley is defined by its geological structure, folded sandstone and limestone.",
      "The Northern European Plain is defined by its relief and its surface deposits, glacial and loess.",
-     "The Wicklow Mountains and the Leinster batholith are granite uplands, also classed as geomorphological regions; their landforms are taught in geo-rocks-weathering-s4."
+     "The Wicklow Mountains and the Leinster batholith are granite uplands, also classed as geomorphological regions; their landforms are taught in the notes on Landforms associated with particular rock types."
     ]
    }
   ],
@@ -3278,7 +3278,7 @@
     "h": "Changing boundaries",
     "points": [
      "Cork City's boundary was extended in 2019 to take in the growing suburbs of Ballincollig, Blarney and Glanmire, and Cork Airport.",
-     "Growing city regions are described in geo-region-european."
+     "Growing city regions are described in the European Regions chapter."
     ]
    },
    {
@@ -3286,7 +3286,7 @@
     "points": [
      "Three regional assemblies were set up in 2015: Northern and Western; Southern; and Eastern and Midland. They prepare regional plans and manage EU regional funds.",
      "From 2000 to 2006 Ireland was divided into two regions for EU funding: the Border, Midland and Western (BMW) region, which held Objective 1 status and the highest level of EU aid, and the Southern and Eastern region.",
-     "The BMW region's status as a peripheral region is developed in geo-region-concept-s4."
+     "The BMW region's status as a peripheral region is developed in the notes on Socio-economic regions."
     ]
    },
    {
@@ -4116,7 +4116,7 @@
    {
     "h": "The Himalayas",
     "points": [
-     "The Himalayas are young fold mountains formed by the collision of the Indian (Indo-Australian) plate with the Eurasian plate (see geo-plate-tectonics-s3).",
+     "The Himalayas are young fold mountains formed by the collision of the Indian (Indo-Australian) plate with the Eurasian plate (see the notes on Plate boundaries as zones of crustal construction and destruction).",
      "Three parallel ranges run west to east: the Greater Himalaya (Himadri), the Lesser Himalaya and the Shiwaliks.",
      "Kangchenjunga, 8,586 m, on the India (Sikkim)–Nepal border, is India's highest peak and the world's third highest.",
      "Mount Everest (8,849 m) is on the Nepal–China border, not in India."
@@ -4145,7 +4145,7 @@
     "h": "The Deccan Plateau and Deccan Traps",
     "points": [
      "The Deccan Plateau is very old, made of hard crystalline rock, and forms a stable shield.",
-     "It was once part of the ancient Gondwanaland landmass (see geo-plate-tectonics-s2).",
+     "It was once part of the ancient Gondwanaland landmass (see the notes on The plate tectonics model).",
      "The plateau tilts from west to east, so most of its rivers flow east.",
      "The Chota Nagpur Plateau in the north-east of the plateau is rich in minerals.",
      "The Deccan Traps are thick layers of basalt from huge fissure eruptions about 66 million years ago, covering much of the north-west Deccan (the source of the black soils)."
@@ -4449,7 +4449,7 @@
     ]
    },
    {
-    "b": "This is the background only; colonial impacts are covered in geo-economic-development-s3.",
+    "b": "This is the background only; colonial impacts are covered in the notes on Case study of a developing economy.",
     "h": "Colonial origins of manufacturing",
     "points": [
      "Britain used India as a source of raw materials and as a market for its manufactures.",
@@ -5130,7 +5130,7 @@
     ]
    },
    {
-    "b": "A core region concentrates people, wealth and services. The general model of core and peripheral regions is in geo-region-concept-s4.",
+    "b": "A core region concentrates people, wealth and services. The general model of core and peripheral regions is in the notes on Socio-economic regions.",
     "h": "Why the GDA is a core region",
     "points": [
      "Its large, dense and growing population is the largest in the State (see Population).",
@@ -5181,9 +5181,9 @@
     "h": "Glacial and coastal landforms",
     "points": [
      "U-shaped valleys of Glendalough and Glenmalure were carved by glacial erosion (glacial landform formation in earlier chapters).",
-     "Esker Riada is a long ridge of sand and gravel deposited by glacial meltwater (formation in geo-glaciation-s1).",
+     "Esker Riada is a long ridge of sand and gravel deposited by glacial meltwater (formation in the notes on Glacial processes, patterns and associated landforms (Glaciation)).",
      "Howth Head is joined to the mainland by the Sutton tombolo.",
-     "North Bull Island lies in Dublin Bay (formation in geo-sea-s1)."
+     "North Bull Island lies in Dublin Bay (formation in the notes on Coastal processes, patterns and associated landforms (The Sea at Work))."
     ]
    },
    {
@@ -5191,7 +5191,7 @@
     "points": [
      "Deep, fertile brown earths on limestone boulder clay cover Meath, Kildare and north Co. Dublin, among the best farmland in Ireland.",
      "Brown earths are well drained, which suits both tillage and grassland.",
-     "The Curragh, Co. Kildare, has free-draining sand and gravel from glacial outwash (geo-glaciation-s1), with well-drained grassland used for horse training.",
+     "The Curragh, Co. Kildare, has free-draining sand and gravel from glacial outwash (the notes on Glacial processes, patterns and associated landforms (Glaciation)), with well-drained grassland used for horse training.",
      "The Bog of Allen, Co. Kildare, is a raised bog of deep peat, which is unsuitable for farming unless drained.",
      "Blanket bog on granite at the Sally Gap, Co. Wicklow, is waterlogged and acidic.",
      "Acidic, leached podzols cover the granite uplands of Wicklow, poor for farming but suitable for conifers.",
@@ -5208,7 +5208,7 @@
      "The smaller Dublin rivers, the Dodder and the Tolka, flow through the city to Dublin Bay.",
      "The Royal and Grand Canals link Dublin to the River Shannon.",
      "Uisce Éireann (Irish Water) has proposed a pipeline to bring water from the River Shannon to the Dublin region.",
-     "Paved surfaces in the city let rain run off quickly into rivers, raising urban flood risk (flood processes in geo-rivers-s4)."
+     "Paved surfaces in the city let rain run off quickly into rivers, raising urban flood risk (flood processes in the notes on Human interaction: river processes (Rivers))."
     ]
    },
    {
@@ -6511,7 +6511,7 @@
     "h": "Causes of rejuvenation",
     "points": [
      "Cause 1, a eustatic fall in sea level: during a glacial period, water is locked up in ice sheets, so sea level falls worldwide.",
-     "Cause 2, isostatic uplift: land depressed under an ice sheet rises when the ice melts, raising it relative to sea level (see geo-glaciation-s2).",
+     "Cause 2, isostatic uplift: land depressed under an ice sheet rises when the ice melts, raising it relative to sea level (see the notes on Isostasy (Glaciation)).",
      "Cause 3, tectonic uplift of the land by earth movements.",
      "Cause 4, an increase in discharge, e.g. from a wetter climate or by river capture, gives the river more energy; this is a less common cause."
     ]
@@ -6575,9 +6575,9 @@
     "b": "A rise in base level, from sea level rising or land sinking, reduces the river's energy.",
     "h": "Rise in base level and the coast",
     "points": [
-     "The lower course is drowned and deposition increases; the mouth becomes a ria or an estuary (ria formation is in geo-glaciation-s2).",
+     "The lower course is drowned and deposition increases; the mouth becomes a ria or an estuary (ria formation is in the notes on Isostasy (Glaciation)).",
      "Coastal landforms caused by a change in base level: raised beaches (from a fall in base level) and rias (from a rise).",
-     "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal (see geo-glaciation-s2)."
+     "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal (see the notes on Isostasy (Glaciation))."
     ]
    }
   ],
@@ -6696,7 +6696,7 @@
    {
     "h": "Interruption and polycyclic landscapes",
     "points": [
-     "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in geo-rivers-s2).",
+     "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished (rejuvenation landforms are in the notes on Fluvial adjustment to base level (Rivers)).",
      "A landscape with remnants of more than one cycle is polycyclic."
     ]
    },
@@ -7814,7 +7814,7 @@
      "The Leinster batholith, the largest granite mass in Ireland and Britain, forms the Wicklow Mountains.",
      "Its rounded, dome-shaped uplands are worn down from rock that once covered the granite.",
      "Impermeable granite with high rainfall gives thin, acidic soils and blanket bog, e.g. on the Sally Gap area of Co. Wicklow.",
-     "Ice cut deep valleys into the granite (see geo-glaciation-s1)."
+     "Ice cut deep valleys into the granite (see the notes on Glacial processes, patterns and associated landforms (Glaciation))."
     ]
    },
    {
@@ -7992,7 +7992,7 @@
      "Undercutting: erosion by the sea or a river at the base of a slope removes support.",
      "Loading: extra weight at the top of a slope, from rock, buildings or spoil, increases the downslope force.",
      "Tectonic activity: earthquakes and volcanic eruptions shake loose material and trigger landslides and lahars.",
-     "Human activity also affects slope stability (see geo-rocks-weathering-s7)."
+     "Human activity also affects slope stability (see the notes on Human interaction: mass movement)."
     ]
    },
    {
@@ -8043,7 +8043,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Process: a bog burst, in which saturated blanket peat on a slope loses its grip on the mineral soil beneath and flows downhill as a slurry. Gradient: on a steep slope, gravity pulls the peat down faster, so the burst travels further. Water: intense or prolonged rain saturates the peat, fills its pores, adds weight, reduces friction and lubricates the base. At Pollatomish, Co. Mayo, on 19 September 2003, an intense thunderstorm triggered peat slides in a few hours. Material: peat has little cohesion when saturated and lies on impermeable mineral soil or rock. Vegetation: bare or drained bog has no roots to hold the peat. Climate: heavy seasonal rainfall keeps the peat saturated. Undercutting: erosion at the base of a slope removes support. Human activity: drainage or cutting of the bog weakens its surface (see geo-rocks-weathering-s7). Example: at Knocknageeha, near Rathmore, Co. Kerry, in December 1896, a bog burst swept away a house, killing a family of eight.",
+    "model": "Process: a bog burst, in which saturated blanket peat on a slope loses its grip on the mineral soil beneath and flows downhill as a slurry. Gradient: on a steep slope, gravity pulls the peat down faster, so the burst travels further. Water: intense or prolonged rain saturates the peat, fills its pores, adds weight, reduces friction and lubricates the base. At Pollatomish, Co. Mayo, on 19 September 2003, an intense thunderstorm triggered peat slides in a few hours. Material: peat has little cohesion when saturated and lies on impermeable mineral soil or rock. Vegetation: bare or drained bog has no roots to hold the peat. Climate: heavy seasonal rainfall keeps the peat saturated. Undercutting: erosion at the base of a slope removes support. Human activity: drainage or cutting of the bog weakens its surface (see the notes on Human interaction: mass movement). Example: at Knocknageeha, near Rathmore, Co. Kerry, in December 1896, a bog burst swept away a house, killing a family of eight.",
     "prompt": "Describe and explain the factors governing the operation of one mass movement process that you have studied.",
     "type": "short"
    },
@@ -8163,8 +8163,8 @@
    {
     "h": "Wind erosion in practice",
     "points": [
-     "The Dust Bowl, Great Plains of the USA (including Oklahoma and Kansas), 1930s: bare, dry soil was blown away in huge dust storms, known as black blizzards (see geo-rocks-weathering-s7 for its causes).",
-     "In Ireland, the damp climate and vegetation cover limit wind erosion. The main aeolian landforms are coastal sand dunes (see geo-sea-s1) and blowouts where dune vegetation is damaged (see geo-sea-s2)."
+     "The Dust Bowl, Great Plains of the USA (including Oklahoma and Kansas), 1930s: bare, dry soil was blown away in huge dust storms, known as black blizzards (see the notes on Human interaction: mass movement for its causes).",
+     "In Ireland, the damp climate and vegetation cover limit wind erosion. The main aeolian landforms are coastal sand dunes (see the notes on Coastal processes, patterns and associated landforms (The Sea at Work)) and blowouts where dune vegetation is damaged (see the notes on Human interaction: coastal processes (The Sea at Work))."
     ]
    }
   ],
@@ -8274,7 +8274,7 @@
     "h": "Overcropping case study: the Dust Bowl",
     "points": [
      "On the Great Plains of the USA, including Oklahoma and Kansas, natural grassland was ploughed up for wheat in the 1930s.",
-     "Severe drought then left bare, dry soil, which wind erosion removed (see geo-rocks-weathering-s6).",
+     "Severe drought then left bare, dry soil, which wind erosion removed (see the notes on Erosion by wind).",
      "Many farming families were forced to leave.",
      "The US Soil Conservation Service was set up in 1935. Shelter belts of trees, contour ploughing and crop rotation were promoted."
     ]
@@ -8339,8 +8339,8 @@
      "In 2019 the EU Court of Justice fined Ireland, a lump sum of €5 million plus €15,000 a day, because no proper environmental impact assessment had been carried out.",
      "Meenbog wind farm, near Ballybofey, Co. Donegal, November 2020: a peat slide during construction flowed into the Mourne Beg River and crossed into Northern Ireland, polluting a river system important for salmon.",
      "Road and rail cuttings steepen slopes or remove support at their base. Building weight on top of a slope adds to the downslope force.",
-     "Leaking pipes, drainage and irrigation saturate slopes. Reservoirs saturate valley sides (Vajont, see geo-rocks-weathering-s5).",
-     "Mining spoil heaps are unstable (Aberfan, see geo-rocks-weathering-s2)."
+     "Leaking pipes, drainage and irrigation saturate slopes. Reservoirs saturate valley sides (Vajont, see the notes on Mass movement (mass wasting) processes and the factors governing them).",
+     "Mining spoil heaps are unstable (Aberfan, see the notes on Human interaction with the rock cycle)."
     ]
    },
    {
@@ -10344,7 +10344,7 @@
      "A trough is an elongated area of low pressure, often unsettled, sometimes drawn as a line.",
      "A ridge is an elongated extension of high pressure, bringing a short settled spell.",
      "A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.",
-     "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in geo-option-atmosphere-ocean-s4."
+     "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in the notes on Atmospheric and oceanic circulation."
     ]
    },
    {
@@ -10365,7 +10365,7 @@
     "points": [
      "Wind direction is named by the direction the wind blows from: a westerly blows from the west.",
      "Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient and strong winds, while widely spaced isobars mean light winds or calm.",
-     "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in geo-option-atmosphere-ocean-s4.",
+     "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in the notes on Atmospheric and oceanic circulation.",
      "Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.",
      "Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.",
      "The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.",
@@ -10382,7 +10382,7 @@
      "An occluded front is usually found near the centre of a mature depression.",
      "Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.",
      "Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.",
-     "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in geo-option-atmosphere-ocean-s4."
+     "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in the notes on Atmospheric and oceanic circulation."
     ]
    },
    {
@@ -10438,7 +10438,7 @@
      "Range: highest minus lowest, for a day or for a year.",
      "Difference between two places; count of months or days above a threshold; highest or lowest month.",
      "Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.",
-     "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in geo-region-concept; the graph method is in geo-graph-skills-s1."
+     "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in the The Concept of a Region chapter; the graph method is in the notes on Figure interpretation."
     ]
    },
    {
@@ -10457,9 +10457,9 @@
     "b": "A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief of the land.",
     "h": "Explaining patterns in Irish weather and climate",
     "points": [
-     "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in geo-option-atmosphere-ocean-s3.",
+     "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in the notes on Exchanges of water between oceans and atmosphere.",
      "The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.",
-     "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in geo-option-atmosphere-ocean-s4); inland areas have a larger temperature range.",
+     "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in the notes on Atmospheric and oceanic circulation); inland areas have a larger temperature range.",
      "Long-term averages from Met Éireann: most of the east gets about 750–1,000 mm of rain a year, the west about 1,000–1,250 mm, and many mountain areas over 2,000 mm.",
      "The highest rainfall totals are on mountains near the west coast, and the lowest are around Dublin and the east."
     ]
@@ -10529,7 +10529,7 @@
      "Sensors on satellites or aircraft record energy in several wavebands, such as visible light, infrared and microwaves (radar).",
      "Each picture element, or pixel, stores a number for each waveband, and a computer turns these numbers into an image; a satellite image is therefore not a photograph in the ordinary sense.",
      "Resolution is the size of the ground area one pixel covers: high resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.",
-     "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in geo-aerial-photographs-s1."
+     "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in the notes on Aerial photograph interpretation."
     ]
    },
    {
@@ -10597,7 +10597,7 @@
      "Forest: a uniform dark green texture; deforestation shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).",
      "Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging; parks show as green.",
      "Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.",
-     "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in geo-sea-s1.",
+     "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in the notes on Coastal processes, patterns and associated landforms (The Sea at Work).",
      "Large landforms: river valleys and meanders; mountain ranges shown by ridges, shadows and snow; canyons as deep, branching, steep-sided valleys in bare rock; salt pans as dazzling white geometric patches in deserts.",
      "Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated."
     ]
@@ -10613,7 +10613,7 @@
      "The Aral Sea (Kazakhstan–Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation; satellite images from different decades show the shrinkage.",
      "Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.",
      "Pollution: detecting oil spills at sea, smog and algal blooms.",
-     "Urban growth: measuring urban sprawl over time, a GIS study in geo-weather-climate-s3.",
+     "Urban growth: measuring urban sprawl over time, a GIS study in the notes on Geographical information systems (GIS).",
      "Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.",
      "Military and security surveillance."
     ]
@@ -10749,7 +10749,7 @@
      "Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios.",
      "Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.",
      "Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography.",
-     "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in geo-weather-climate-s2; government departments and agencies supply sector statistics."
+     "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in the notes on Satellite imagery; government departments and agencies supply sector statistics."
     ]
    },
    {
@@ -10793,7 +10793,7 @@
      "Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.",
      "Dairy farming expanded after EU milk quotas ended in 2015; some marginal land in the west has been planted with forestry; farmland on the edge of cities has been lost to urban growth.",
      "Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.",
-     "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; the checked examples are in geo-weather-climate-s2."
+     "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; examples are in the notes on Satellite imagery."
     ]
    },
    {

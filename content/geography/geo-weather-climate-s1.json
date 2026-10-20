@@ -51,7 +51,7 @@
         "A trough is an elongated area of low pressure, often unsettled, sometimes drawn as a line.",
         "A ridge is an elongated extension of high pressure, bringing a short settled spell.",
         "A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.",
-        "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in geo-option-atmosphere-ocean-s4."
+        "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in the notes on Atmospheric and oceanic circulation."
       ]
     },
     {
@@ -72,7 +72,7 @@
       "points": [
         "Wind direction is named by the direction the wind blows from: a westerly blows from the west.",
         "Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient and strong winds, while widely spaced isobars mean light winds or calm.",
-        "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in geo-option-atmosphere-ocean-s4.",
+        "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in the notes on Atmospheric and oceanic circulation.",
         "Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.",
         "Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.",
         "The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.",
@@ -89,7 +89,7 @@
         "An occluded front is usually found near the centre of a mature depression.",
         "Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.",
         "Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.",
-        "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in geo-option-atmosphere-ocean-s4."
+        "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in the notes on Atmospheric and oceanic circulation."
       ]
     },
     {
@@ -145,7 +145,7 @@
         "Range: highest minus lowest, for a day or for a year.",
         "Difference between two places; count of months or days above a threshold; highest or lowest month.",
         "Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.",
-        "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in geo-region-concept; the graph method is in geo-graph-skills-s1."
+        "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in the The Concept of a Region chapter; the graph method is in the notes on Figure interpretation."
       ]
     },
     {
@@ -164,28 +164,67 @@
       "h": "Explaining patterns in Irish weather and climate",
       "b": "A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief of the land.",
       "points": [
-        "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in geo-option-atmosphere-ocean-s3.",
+        "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in the notes on Exchanges of water between oceans and atmosphere.",
         "The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.",
-        "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in geo-option-atmosphere-ocean-s4); inland areas have a larger temperature range.",
+        "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in the notes on Atmospheric and oceanic circulation); inland areas have a larger temperature range.",
         "Long-term averages from Met Éireann: most of the east gets about 750–1,000 mm of rain a year, the west about 1,000–1,250 mm, and many mountain areas over 2,000 mm.",
         "The highest rainfall totals are on mountains near the west coast, and the lowest are around Dublin and the east."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Synoptic chart", "definition": "A map summarising the weather over a large area at one moment, built from simultaneous observations at many stations, ships, buoys and satellites." },
-    { "term": "Isobar", "definition": "A line joining places of equal atmospheric pressure, usually drawn every 4 hPa on Irish charts." },
-    { "term": "Isotherm", "definition": "A line joining places of equal temperature." },
-    { "term": "Isohyet", "definition": "A line joining places of equal rainfall." },
-    { "term": "Isohel", "definition": "A line joining places of equal sunshine." },
-    { "term": "Isoneph", "definition": "A line joining places of equal cloud cover." },
-    { "term": "Depression", "definition": "A low-pressure system with closed isobars, pressure falling towards the centre and usually fronts attached; rain and strong winds are associated with it." },
-    { "term": "Anticyclone", "definition": "A high-pressure system with closed isobars, pressure rising towards the centre, no fronts and usually settled, dry weather." },
-    { "term": "Pressure gradient", "definition": "The change of pressure over a distance; closely spaced isobars mean a steep gradient and strong winds." },
-    { "term": "Prevailing wind", "definition": "The wind that blows most frequently over an area; in Ireland it is south-westerly." },
-    { "term": "Okta", "definition": "One eighth of the sky covered by cloud, used to record cloud cover in a station model." },
-    { "term": "Stevenson screen", "definition": "A white, louvred box about 1.25 m above the ground that holds thermometers in shade." },
-    { "term": "Occluded front", "definition": "A front formed when a cold front catches up with a warm front, lifting the warm air off the ground; its symbols alternate on the same side." }
+    {
+      "term": "Synoptic chart",
+      "definition": "A map summarising the weather over a large area at one moment, built from simultaneous observations at many stations, ships, buoys and satellites."
+    },
+    {
+      "term": "Isobar",
+      "definition": "A line joining places of equal atmospheric pressure, usually drawn every 4 hPa on Irish charts."
+    },
+    {
+      "term": "Isotherm",
+      "definition": "A line joining places of equal temperature."
+    },
+    {
+      "term": "Isohyet",
+      "definition": "A line joining places of equal rainfall."
+    },
+    {
+      "term": "Isohel",
+      "definition": "A line joining places of equal sunshine."
+    },
+    {
+      "term": "Isoneph",
+      "definition": "A line joining places of equal cloud cover."
+    },
+    {
+      "term": "Depression",
+      "definition": "A low-pressure system with closed isobars, pressure falling towards the centre and usually fronts attached; rain and strong winds are associated with it."
+    },
+    {
+      "term": "Anticyclone",
+      "definition": "A high-pressure system with closed isobars, pressure rising towards the centre, no fronts and usually settled, dry weather."
+    },
+    {
+      "term": "Pressure gradient",
+      "definition": "The change of pressure over a distance; closely spaced isobars mean a steep gradient and strong winds."
+    },
+    {
+      "term": "Prevailing wind",
+      "definition": "The wind that blows most frequently over an area; in Ireland it is south-westerly."
+    },
+    {
+      "term": "Okta",
+      "definition": "One eighth of the sky covered by cloud, used to record cloud cover in a station model."
+    },
+    {
+      "term": "Stevenson screen",
+      "definition": "A white, louvred box about 1.25 m above the ground that holds thermometers in shade."
+    },
+    {
+      "term": "Occluded front",
+      "definition": "A front formed when a cold front catches up with a warm front, lifting the warm air off the ground; its symbols alternate on the same side."
+    }
   ],
   "questions": [
     {

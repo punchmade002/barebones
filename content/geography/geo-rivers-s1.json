@@ -178,46 +178,166 @@
     }
   ],
   "keyTerms": [
-    { "term": "Source", "definition": "The point where a river rises." },
-    { "term": "Mouth", "definition": "The point where a river enters the sea, a lake or another river." },
-    { "term": "Tributary", "definition": "A smaller river that flows into a larger river." },
-    { "term": "Confluence", "definition": "The point where a tributary joins the main river." },
-    { "term": "Drainage basin", "definition": "The whole area of land drained by a river and its tributaries, also called a catchment." },
-    { "term": "Watershed", "definition": "The high ground that separates one drainage basin from the next." },
-    { "term": "Distributary", "definition": "A channel that leaves the main river and flows away from it, found on deltas." },
-    { "term": "Estuary", "definition": "The tidal lower course of a river, where fresh water meets salt water." },
-    { "term": "Long profile", "definition": "The smooth, concave slope of a river from its source to its mouth." },
-    { "term": "Hydraulic action", "definition": "Erosion by the force of moving water, which dislodges material and forces air into cracks until rock breaks away." },
-    { "term": "Abrasion", "definition": "Erosion caused by the river's load scraping and grinding against the bed and banks." },
-    { "term": "Attrition", "definition": "The wearing down of the load as particles collide, making them smaller and rounder downstream." },
-    { "term": "Solution", "definition": "Erosion or transport by dissolving soluble rock, such as limestone, in slightly acidic water." },
-    { "term": "Traction", "definition": "The rolling of the largest particles along the river bed." },
-    { "term": "Saltation", "definition": "The bouncing of pebbles and sand along the bed in a series of hops." },
-    { "term": "Suspension", "definition": "The transport of fine silt and clay carried within the flow." },
-    { "term": "Competence", "definition": "The largest particle a river can carry." },
-    { "term": "Capacity", "definition": "The total load a river can carry." },
-    { "term": "Dendritic drainage", "definition": "A tree-like drainage pattern, with tributaries joining at acute angles, on rock of uniform resistance." },
-    { "term": "Trellised drainage", "definition": "A drainage pattern in which tributaries meet the main rivers at right angles, on alternating bands of hard and soft rock." },
-    { "term": "Radial drainage", "definition": "A drainage pattern in which rivers flow outward from a central high point." },
-    { "term": "Deranged drainage", "definition": "A drainage pattern with no clear arrangement, many lakes and marshes, found on poorly drained glacial deposits." },
-    { "term": "Centripetal drainage", "definition": "A drainage pattern in which rivers flow inward to a central lake or basin." },
-    { "term": "Interlocking spurs", "definition": "Spurs of a V-shaped valley where the river swings around harder rock, leaving them interlocking like the teeth of a zip." },
-    { "term": "Plunge pool", "definition": "A deep hollow scoured at the foot of a waterfall by falling water and its load." },
-    { "term": "Rapids", "definition": "Fast, turbulent water flowing over steps left by alternating bands of hard and soft rock." },
-    { "term": "Pothole", "definition": "A round hollow drilled into the river bed by swirling pebbles." },
-    { "term": "Meander", "definition": "A looping bend in a river, formed by both erosion and deposition." },
-    { "term": "Point bar", "definition": "A gently sloping deposit of sand and gravel on the inside of a meander bend." },
-    { "term": "Helicoidal flow", "definition": "Corkscrew-shaped flow that carries eroded material across a meander from the outer bank to the inner bank." },
-    { "term": "Oxbow lake", "definition": "A crescent-shaped lake left when a meander is cut off and sealed by deposition." },
-    { "term": "Meander scar", "definition": "The filled-in remains of an oxbow lake." },
-    { "term": "Alluvium", "definition": "Fine silt deposited on a floodplain when the river floods." },
-    { "term": "Floodplain", "definition": "A wide, flat area beside a river, built up by alluvium deposited during floods." },
-    { "term": "Levee", "definition": "A natural embankment of coarse alluvium built up along a river's banks by repeated flooding." },
-    { "term": "Flocculation", "definition": "The clumping together of fine clay particles in salt water, causing them to sink faster." },
-    { "term": "Topset beds", "definition": "Flat, coarser deposits laid down on top of a delta." },
-    { "term": "Foreset beds", "definition": "Steeply sloping deposits at the front of a delta." },
-    { "term": "Bottomset beds", "definition": "Fine, flat layers laid down beyond the front of a delta." },
-    { "term": "Braided channel", "definition": "A river split into several channels around islands of deposited sand and gravel." }
+    {
+      "term": "Source",
+      "definition": "The point where a river rises."
+    },
+    {
+      "term": "Mouth",
+      "definition": "The point where a river enters the sea, a lake or another river."
+    },
+    {
+      "term": "Tributary",
+      "definition": "A smaller river that flows into a larger river."
+    },
+    {
+      "term": "Confluence",
+      "definition": "The point where a tributary joins the main river."
+    },
+    {
+      "term": "Drainage basin",
+      "definition": "The whole area of land drained by a river and its tributaries, also called a catchment."
+    },
+    {
+      "term": "Watershed",
+      "definition": "The high ground that separates one drainage basin from the next."
+    },
+    {
+      "term": "Distributary",
+      "definition": "A channel that leaves the main river and flows away from it, found on deltas."
+    },
+    {
+      "term": "Estuary",
+      "definition": "The tidal lower course of a river, where fresh water meets salt water."
+    },
+    {
+      "term": "Long profile",
+      "definition": "The smooth, concave slope of a river from its source to its mouth."
+    },
+    {
+      "term": "Hydraulic action",
+      "definition": "Erosion by the force of moving water, which dislodges material and forces air into cracks until rock breaks away."
+    },
+    {
+      "term": "Abrasion",
+      "definition": "Erosion caused by the river's load scraping and grinding against the bed and banks."
+    },
+    {
+      "term": "Attrition",
+      "definition": "The wearing down of the load as particles collide, making them smaller and rounder downstream."
+    },
+    {
+      "term": "Solution",
+      "definition": "Erosion or transport by dissolving soluble rock, such as limestone, in slightly acidic water."
+    },
+    {
+      "term": "Traction",
+      "definition": "The rolling of the largest particles along the river bed."
+    },
+    {
+      "term": "Saltation",
+      "definition": "The bouncing of pebbles and sand along the bed in a series of hops."
+    },
+    {
+      "term": "Suspension",
+      "definition": "The transport of fine silt and clay carried within the flow."
+    },
+    {
+      "term": "Competence",
+      "definition": "The largest particle a river can carry."
+    },
+    {
+      "term": "Capacity",
+      "definition": "The total load a river can carry."
+    },
+    {
+      "term": "Dendritic drainage",
+      "definition": "A tree-like drainage pattern, with tributaries joining at acute angles, on rock of uniform resistance."
+    },
+    {
+      "term": "Trellised drainage",
+      "definition": "A drainage pattern in which tributaries meet the main rivers at right angles, on alternating bands of hard and soft rock."
+    },
+    {
+      "term": "Radial drainage",
+      "definition": "A drainage pattern in which rivers flow outward from a central high point."
+    },
+    {
+      "term": "Deranged drainage",
+      "definition": "A drainage pattern with no clear arrangement, many lakes and marshes, found on poorly drained glacial deposits."
+    },
+    {
+      "term": "Centripetal drainage",
+      "definition": "A drainage pattern in which rivers flow inward to a central lake or basin."
+    },
+    {
+      "term": "Interlocking spurs",
+      "definition": "Spurs of a V-shaped valley where the river swings around harder rock, leaving them interlocking like the teeth of a zip."
+    },
+    {
+      "term": "Plunge pool",
+      "definition": "A deep hollow scoured at the foot of a waterfall by falling water and its load."
+    },
+    {
+      "term": "Rapids",
+      "definition": "Fast, turbulent water flowing over steps left by alternating bands of hard and soft rock."
+    },
+    {
+      "term": "Pothole",
+      "definition": "A round hollow drilled into the river bed by swirling pebbles."
+    },
+    {
+      "term": "Meander",
+      "definition": "A looping bend in a river, formed by both erosion and deposition."
+    },
+    {
+      "term": "Point bar",
+      "definition": "A gently sloping deposit of sand and gravel on the inside of a meander bend."
+    },
+    {
+      "term": "Helicoidal flow",
+      "definition": "Corkscrew-shaped flow that carries eroded material across a meander from the outer bank to the inner bank."
+    },
+    {
+      "term": "Oxbow lake",
+      "definition": "A crescent-shaped lake left when a meander is cut off and sealed by deposition."
+    },
+    {
+      "term": "Meander scar",
+      "definition": "The filled-in remains of an oxbow lake."
+    },
+    {
+      "term": "Alluvium",
+      "definition": "Fine silt deposited on a floodplain when the river floods."
+    },
+    {
+      "term": "Floodplain",
+      "definition": "A wide, flat area beside a river, built up by alluvium deposited during floods."
+    },
+    {
+      "term": "Levee",
+      "definition": "A natural embankment of coarse alluvium built up along a river's banks by repeated flooding."
+    },
+    {
+      "term": "Flocculation",
+      "definition": "The clumping together of fine clay particles in salt water, causing them to sink faster."
+    },
+    {
+      "term": "Topset beds",
+      "definition": "Flat, coarser deposits laid down on top of a delta."
+    },
+    {
+      "term": "Foreset beds",
+      "definition": "Steeply sloping deposits at the front of a delta."
+    },
+    {
+      "term": "Bottomset beds",
+      "definition": "Fine, flat layers laid down beyond the front of a delta."
+    },
+    {
+      "term": "Braided channel",
+      "definition": "A river split into several channels around islands of deposited sand and gravel."
+    }
   ],
   "questions": [
     {

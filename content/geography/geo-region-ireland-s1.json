@@ -14,7 +14,7 @@
     },
     {
       "h": "Why the GDA is a core region",
-      "b": "A core region concentrates people, wealth and services. The general model of core and peripheral regions is in geo-region-concept-s4.",
+      "b": "A core region concentrates people, wealth and services. The general model of core and peripheral regions is in the notes on Socio-economic regions.",
       "points": [
         "Its large, dense and growing population is the largest in the State (see Population).",
         "It holds most of the State's wealth, jobs, multinational investment, government and services.",
@@ -64,9 +64,9 @@
       "h": "Glacial and coastal landforms",
       "points": [
         "U-shaped valleys of Glendalough and Glenmalure were carved by glacial erosion (glacial landform formation in earlier chapters).",
-        "Esker Riada is a long ridge of sand and gravel deposited by glacial meltwater (formation in geo-glaciation-s1).",
+        "Esker Riada is a long ridge of sand and gravel deposited by glacial meltwater (formation in the notes on Glacial processes, patterns and associated landforms (Glaciation)).",
         "Howth Head is joined to the mainland by the Sutton tombolo.",
-        "North Bull Island lies in Dublin Bay (formation in geo-sea-s1)."
+        "North Bull Island lies in Dublin Bay (formation in the notes on Coastal processes, patterns and associated landforms (The Sea at Work))."
       ]
     },
     {
@@ -74,7 +74,7 @@
       "points": [
         "Deep, fertile brown earths on limestone boulder clay cover Meath, Kildare and north Co. Dublin, among the best farmland in Ireland.",
         "Brown earths are well drained, which suits both tillage and grassland.",
-        "The Curragh, Co. Kildare, has free-draining sand and gravel from glacial outwash (geo-glaciation-s1), with well-drained grassland used for horse training.",
+        "The Curragh, Co. Kildare, has free-draining sand and gravel from glacial outwash (the notes on Glacial processes, patterns and associated landforms (Glaciation)), with well-drained grassland used for horse training.",
         "The Bog of Allen, Co. Kildare, is a raised bog of deep peat, which is unsuitable for farming unless drained.",
         "Blanket bog on granite at the Sally Gap, Co. Wicklow, is waterlogged and acidic.",
         "Acidic, leached podzols cover the granite uplands of Wicklow, poor for farming but suitable for conifers.",
@@ -91,7 +91,7 @@
         "The smaller Dublin rivers, the Dodder and the Tolka, flow through the city to Dublin Bay.",
         "The Royal and Grand Canals link Dublin to the River Shannon.",
         "Uisce Éireann (Irish Water) has proposed a pipeline to bring water from the River Shannon to the Dublin region.",
-        "Paved surfaces in the city let rain run off quickly into rivers, raising urban flood risk (flood processes in geo-rivers-s4)."
+        "Paved surfaces in the city let rain run off quickly into rivers, raising urban flood risk (flood processes in the notes on Human interaction: river processes (Rivers))."
       ]
     },
     {
@@ -420,24 +420,78 @@
     }
   ],
   "keyTerms": [
-    { "term": "Greater Dublin Area (GDA)", "definition": "The core region made up of Dublin City and County Dublin with Counties Meath, Kildare and Wicklow." },
-    { "term": "Rain shadow", "definition": "The drier lee side of a mountain range, where uplands force moist air to drop its rain on the windward slopes." },
-    { "term": "Brown earth", "definition": "A fertile, well-drained soil formed on limestone boulder clay, found in Meath and Kildare." },
-    { "term": "Raised bog", "definition": "A deep peat deposit that builds up above the surrounding land in a lake hollow, with a domed surface." },
-    { "term": "Outwash plain", "definition": "A flat plain of sand and gravel deposited by glacial meltwater, such as the Curragh." },
-    { "term": "Esker", "definition": "A long, winding ridge of sand and gravel deposited by a meltwater river flowing in or under a glacier." },
-    { "term": "Horticulture", "definition": "The intensive growing of field vegetables and glasshouse crops, centred on Fingal." },
-    { "term": "Bloodstock", "definition": "Horses bred for racing, as in the racehorse industry of Kildare." },
-    { "term": "Conifer plantation", "definition": "A forest of fast-growing evergreen trees, such as Sitka spruce, planted on poor upland soils." },
-    { "term": "Fishery Harbour Centre", "definition": "A State-owned port equipped to land and service fishing boats, of which Howth is one." },
-    { "term": "Pumped-storage station", "definition": "A power station that pumps water uphill at off-peak times and releases it to generate electricity at peak demand." },
-    { "term": "Agglomeration", "definition": "The clustering of firms in one area so they share suppliers, services and workers." },
-    { "term": "Cumulative causation", "definition": "A process in which growth in one area attracts further investment and people, reinforcing its advantage." },
-    { "term": "Urban sprawl", "definition": "The spread of low-density housing and development into surrounding farmland and countryside." },
-    { "term": "Commuter town", "definition": "A town whose residents travel daily to work in a larger city." },
-    { "term": "Gaeltacht", "definition": "An area where Irish is the community language, such as Ráth Chairn in Co. Meath." },
-    { "term": "Gaelscoil", "definition": "An Irish-medium school, where lessons are taught through Irish." },
-    { "term": "Secularisation", "definition": "The decline in the influence of religion on social life and institutions." }
+    {
+      "term": "Greater Dublin Area (GDA)",
+      "definition": "The core region made up of Dublin City and County Dublin with Counties Meath, Kildare and Wicklow."
+    },
+    {
+      "term": "Rain shadow",
+      "definition": "The drier lee side of a mountain range, where uplands force moist air to drop its rain on the windward slopes."
+    },
+    {
+      "term": "Brown earth",
+      "definition": "A fertile, well-drained soil formed on limestone boulder clay, found in Meath and Kildare."
+    },
+    {
+      "term": "Raised bog",
+      "definition": "A deep peat deposit that builds up above the surrounding land in a lake hollow, with a domed surface."
+    },
+    {
+      "term": "Outwash plain",
+      "definition": "A flat plain of sand and gravel deposited by glacial meltwater, such as the Curragh."
+    },
+    {
+      "term": "Esker",
+      "definition": "A long, winding ridge of sand and gravel deposited by a meltwater river flowing in or under a glacier."
+    },
+    {
+      "term": "Horticulture",
+      "definition": "The intensive growing of field vegetables and glasshouse crops, centred on Fingal."
+    },
+    {
+      "term": "Bloodstock",
+      "definition": "Horses bred for racing, as in the racehorse industry of Kildare."
+    },
+    {
+      "term": "Conifer plantation",
+      "definition": "A forest of fast-growing evergreen trees, such as Sitka spruce, planted on poor upland soils."
+    },
+    {
+      "term": "Fishery Harbour Centre",
+      "definition": "A State-owned port equipped to land and service fishing boats, of which Howth is one."
+    },
+    {
+      "term": "Pumped-storage station",
+      "definition": "A power station that pumps water uphill at off-peak times and releases it to generate electricity at peak demand."
+    },
+    {
+      "term": "Agglomeration",
+      "definition": "The clustering of firms in one area so they share suppliers, services and workers."
+    },
+    {
+      "term": "Cumulative causation",
+      "definition": "A process in which growth in one area attracts further investment and people, reinforcing its advantage."
+    },
+    {
+      "term": "Urban sprawl",
+      "definition": "The spread of low-density housing and development into surrounding farmland and countryside."
+    },
+    {
+      "term": "Commuter town",
+      "definition": "A town whose residents travel daily to work in a larger city."
+    },
+    {
+      "term": "Gaeltacht",
+      "definition": "An area where Irish is the community language, such as Ráth Chairn in Co. Meath."
+    },
+    {
+      "term": "Gaelscoil",
+      "definition": "An Irish-medium school, where lessons are taught through Irish."
+    },
+    {
+      "term": "Secularisation",
+      "definition": "The decline in the influence of religion on social life and institutions."
+    }
   ],
   "questions": [
     {

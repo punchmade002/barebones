@@ -193,22 +193,70 @@
     }
   ],
   "keyTerms": [
-    { "term": "Fetch", "definition": "The distance of open water over which the wind blows, which controls the size of waves." },
-    { "term": "Swash", "definition": "Water rushing up the beach after a wave breaks." },
-    { "term": "Backwash", "definition": "Water draining back down the beach under gravity after swash." },
-    { "term": "Refraction", "definition": "The bending of wave fronts as they slow in shallow water off headlands, concentrating energy on headlands." },
-    { "term": "Hydraulic action", "definition": "Erosion by breaking waves forcing air and water into cracks, which are compressed and then released, shattering the rock." },
-    { "term": "Abrasion", "definition": "Erosion by sand, shingle and boulders thrown against the cliff by waves." },
-    { "term": "Attrition", "definition": "The breaking and rounding of rock fragments as they collide, wearing down the load." },
-    { "term": "Wave-cut platform", "definition": "A gently sloping rock surface left at the foot of a retreating cliff, exposed at low tide." },
-    { "term": "Sea stack", "definition": "An isolated rock pillar left when the roof of a sea arch collapses." },
-    { "term": "Blowhole", "definition": "A hole formed when a sea cave is enlarged upward along a joint until it breaks through to the cliff top." },
-    { "term": "Longshore drift", "definition": "The movement of sand and shingle along the coast, as swash carries material up the beach at an angle and backwash drags it straight back down." },
-    { "term": "Spit", "definition": "A ridge of sand or shingle built out from the land by longshore drift and attached to it at one end." },
-    { "term": "Recurved end", "definition": "The curved tip of a spit, formed by wave refraction or a change in wind direction." },
-    { "term": "Lagoon", "definition": "A body of water trapped behind a sand bar, which slowly fills with sediment." },
-    { "term": "Tombolo", "definition": "A ridge of sand or shingle joining an island to the mainland." },
-    { "term": "Marram grass", "definition": "A dune grass whose long roots bind the sand, allowing sand dunes to form and grow." }
+    {
+      "term": "Fetch",
+      "definition": "The distance of open water over which the wind blows, which controls the size of waves."
+    },
+    {
+      "term": "Swash",
+      "definition": "Water rushing up the beach after a wave breaks."
+    },
+    {
+      "term": "Backwash",
+      "definition": "Water draining back down the beach under gravity after swash."
+    },
+    {
+      "term": "Refraction",
+      "definition": "The bending of wave fronts as they slow in shallow water off headlands, concentrating energy on headlands."
+    },
+    {
+      "term": "Hydraulic action",
+      "definition": "Erosion by breaking waves forcing air and water into cracks, which are compressed and then released, shattering the rock."
+    },
+    {
+      "term": "Abrasion",
+      "definition": "Erosion by sand, shingle and boulders thrown against the cliff by waves."
+    },
+    {
+      "term": "Attrition",
+      "definition": "The breaking and rounding of rock fragments as they collide, wearing down the load."
+    },
+    {
+      "term": "Wave-cut platform",
+      "definition": "A gently sloping rock surface left at the foot of a retreating cliff, exposed at low tide."
+    },
+    {
+      "term": "Sea stack",
+      "definition": "An isolated rock pillar left when the roof of a sea arch collapses."
+    },
+    {
+      "term": "Blowhole",
+      "definition": "A hole formed when a sea cave is enlarged upward along a joint until it breaks through to the cliff top."
+    },
+    {
+      "term": "Longshore drift",
+      "definition": "The movement of sand and shingle along the coast, as swash carries material up the beach at an angle and backwash drags it straight back down."
+    },
+    {
+      "term": "Spit",
+      "definition": "A ridge of sand or shingle built out from the land by longshore drift and attached to it at one end."
+    },
+    {
+      "term": "Recurved end",
+      "definition": "The curved tip of a spit, formed by wave refraction or a change in wind direction."
+    },
+    {
+      "term": "Lagoon",
+      "definition": "A body of water trapped behind a sand bar, which slowly fills with sediment."
+    },
+    {
+      "term": "Tombolo",
+      "definition": "A ridge of sand or shingle joining an island to the mainland."
+    },
+    {
+      "term": "Marram grass",
+      "definition": "A dune grass whose long roots bind the sand, allowing sand dunes to form and grow."
+    }
   ],
   "questions": [
     {

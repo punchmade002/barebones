@@ -103,20 +103,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Weathering", "definition": "The breakdown of rock in place at or near the earth's surface, without transport." },
-    { "term": "Regolith", "definition": "The layer of loose, weathered rock fragments lying on top of solid bedrock." },
-    { "term": "Physical weathering", "definition": "The breakdown of rock into smaller pieces without changing its minerals." },
-    { "term": "Chemical weathering", "definition": "The change or dissolution of minerals in rock by chemical reactions." },
-    { "term": "Freeze-thaw action", "definition": "Physical weathering in which water freezes and expands in cracks, splitting off angular fragments." },
-    { "term": "Exfoliation", "definition": "Physical weathering in hot deserts in which stress from daily heating and cooling peels off curved outer sheets of rock." },
-    { "term": "Granular disintegration", "definition": "Physical weathering in which minerals expanding at different rates loosen individual grains." },
-    { "term": "Pressure release", "definition": "Sheeting of buried rock into parallel cracks as overlying rock is eroded away." },
-    { "term": "Salt crystallisation", "definition": "Physical weathering in which growing salt crystals in pores and cracks force rock apart." },
-    { "term": "Carbonation", "definition": "Chemical weathering in which carbonic acid reacts with calcium carbonate, dissolving limestone." },
-    { "term": "Hydrolysis", "definition": "Chemical weathering in which water reacts with minerals such as feldspar, turning them into clay." },
-    { "term": "Oxidation", "definition": "Chemical weathering in which oxygen reacts with iron in rock to form iron oxide." },
-    { "term": "Hydration", "definition": "Chemical weathering in which minerals absorb water and swell, setting up stress." },
-    { "term": "Scree", "definition": "A slope of angular rock fragments at the foot of a cliff, produced by freeze-thaw action." }
+    {
+      "term": "Weathering",
+      "definition": "The breakdown of rock in place at or near the earth's surface, without transport."
+    },
+    {
+      "term": "Regolith",
+      "definition": "The layer of loose, weathered rock fragments lying on top of solid bedrock."
+    },
+    {
+      "term": "Physical weathering",
+      "definition": "The breakdown of rock into smaller pieces without changing its minerals."
+    },
+    {
+      "term": "Chemical weathering",
+      "definition": "The change or dissolution of minerals in rock by chemical reactions."
+    },
+    {
+      "term": "Freeze-thaw action",
+      "definition": "Physical weathering in which water freezes and expands in cracks, splitting off angular fragments."
+    },
+    {
+      "term": "Exfoliation",
+      "definition": "Physical weathering in hot deserts in which stress from daily heating and cooling peels off curved outer sheets of rock."
+    },
+    {
+      "term": "Granular disintegration",
+      "definition": "Physical weathering in which minerals expanding at different rates loosen individual grains."
+    },
+    {
+      "term": "Pressure release",
+      "definition": "Sheeting of buried rock into parallel cracks as overlying rock is eroded away."
+    },
+    {
+      "term": "Salt crystallisation",
+      "definition": "Physical weathering in which growing salt crystals in pores and cracks force rock apart."
+    },
+    {
+      "term": "Carbonation",
+      "definition": "Chemical weathering in which carbonic acid reacts with calcium carbonate, dissolving limestone."
+    },
+    {
+      "term": "Hydrolysis",
+      "definition": "Chemical weathering in which water reacts with minerals such as feldspar, turning them into clay."
+    },
+    {
+      "term": "Oxidation",
+      "definition": "Chemical weathering in which oxygen reacts with iron in rock to form iron oxide."
+    },
+    {
+      "term": "Hydration",
+      "definition": "Chemical weathering in which minerals absorb water and swell, setting up stress."
+    },
+    {
+      "term": "Scree",
+      "definition": "A slope of angular rock fragments at the foot of a cliff, produced by freeze-thaw action."
+    }
   ],
   "questions": [
     {

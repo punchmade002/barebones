@@ -176,7 +176,7 @@
     {
       "h": "The Himalayas",
       "points": [
-        "The Himalayas are young fold mountains formed by the collision of the Indian (Indo-Australian) plate with the Eurasian plate (see geo-plate-tectonics-s3).",
+        "The Himalayas are young fold mountains formed by the collision of the Indian (Indo-Australian) plate with the Eurasian plate (see the notes on Plate boundaries as zones of crustal construction and destruction).",
         "Three parallel ranges run west to east: the Greater Himalaya (Himadri), the Lesser Himalaya and the Shiwaliks.",
         "Kangchenjunga, 8,586 m, on the India (Sikkim)–Nepal border, is India's highest peak and the world's third highest.",
         "Mount Everest (8,849 m) is on the Nepal–China border, not in India."
@@ -205,7 +205,7 @@
       "h": "The Deccan Plateau and Deccan Traps",
       "points": [
         "The Deccan Plateau is very old, made of hard crystalline rock, and forms a stable shield.",
-        "It was once part of the ancient Gondwanaland landmass (see geo-plate-tectonics-s2).",
+        "It was once part of the ancient Gondwanaland landmass (see the notes on The plate tectonics model).",
         "The plateau tilts from west to east, so most of its rivers flow east.",
         "The Chota Nagpur Plateau in the north-east of the plateau is rich in minerals.",
         "The Deccan Traps are thick layers of basalt from huge fissure eruptions about 66 million years ago, covering much of the north-west Deccan (the source of the black soils)."
@@ -510,7 +510,7 @@
     },
     {
       "h": "Colonial origins of manufacturing",
-      "b": "This is the background only; colonial impacts are covered in geo-economic-development-s3.",
+      "b": "This is the background only; colonial impacts are covered in the notes on Case study of a developing economy.",
       "points": [
         "Britain used India as a source of raw materials and as a market for its manufactures.",
         "Early industry was cotton textiles in Bombay (Mumbai) and Ahmedabad, called the 'Manchester of India', from the 19th century.",
@@ -1085,34 +1085,118 @@
     }
   ],
   "keyTerms": [
-    { "term": "Monsoon", "definition": "A seasonal reversal of wind direction that brings a wet season and a dry season to India." },
-    { "term": "Jet stream", "definition": "A fast, narrow band of upper-level wind; the subtropical westerly jet moves north of the Himalayas in early summer, allowing the monsoon to burst." },
-    { "term": "Rain shadow", "definition": "The dry area on the leeward side of a mountain range, such as the Deccan Plateau behind the Western Ghats." },
-    { "term": "Loo", "definition": "A hot, dry wind that blows over the northern plains in the hot season." },
-    { "term": "Western disturbances", "definition": "Depressions from the west that bring light winter rain to north-west India." },
-    { "term": "Alluvium", "definition": "Sediment deposited by rivers, forming the fertile soils of the Indo-Gangetic Plain." },
-    { "term": "Khadar and bhangar", "definition": "Khadar is newer alluvium on the floodplains; bhangar is older alluvium on higher terraces." },
-    { "term": "Regur (black soil)", "definition": "Clay-rich soil weathered from Deccan Traps basalt, which holds moisture and is ideal for cotton." },
-    { "term": "Laterite", "definition": "Soil formed under high temperatures and heavy rainfall, rich in iron and aluminium oxides and poor in silica and nutrients." },
-    { "term": "Gondwanaland", "definition": "The ancient southern landmass of which the Deccan Plateau was once a part." },
-    { "term": "Deccan Traps", "definition": "Thick layers of basalt from huge fissure eruptions that cover much of the north-west Deccan." },
-    { "term": "Peninsular rivers", "definition": "Rain-fed rivers of the Deccan Plateau that are seasonal, low in the dry season and shorter than the Himalayan rivers." },
-    { "term": "Distributary", "definition": "A channel that splits from the main river and carries water away from it, as the Hooghly does from the Ganges." },
-    { "term": "Kharif", "definition": "Monsoon crops sown in June and July and harvested in autumn, such as rice and cotton." },
-    { "term": "Rabi", "definition": "Winter crops sown in October and November and harvested in March and April, such as wheat and mustard." },
-    { "term": "Green Revolution", "definition": "From the mid-1960s, the spread of high-yielding varieties, fertilisers, pesticides and irrigation, which raised food-grain output." },
-    { "term": "Operation Flood", "definition": "The co-operative dairy programme launched in 1970, which made India the world's largest milk producer." },
-    { "term": "Licence Raj", "definition": "The system of permits required to start or expand a factory, which made Indian industry inefficient before 1991." },
-    { "term": "Special Economic Zone", "definition": "An area where firms receive incentives, set up under the Special Economic Zones Act of 2005." },
-    { "term": "Production-Linked Incentive", "definition": "A subsidy paid per unit produced, used from 2020 to encourage manufacturing in electronics, cars and pharmaceuticals." },
-    { "term": "Golden Quadrilateral", "definition": "The upgraded highway of about 5,800 km linking Delhi, Mumbai, Chennai and Kolkata." },
-    { "term": "Demographic dividend", "definition": "The economic gain from a large working-age population when young workers find jobs." },
-    { "term": "Sex ratio", "definition": "The number of females per 1,000 males in a population; India's was 943 in Census 2011." },
-    { "term": "Urban agglomeration", "definition": "A city together with its surrounding built-up area, counted as one urban unit by the census." },
-    { "term": "Panchayati Raj", "definition": "A system of elected village councils, introduced by the 73rd Constitutional Amendment of 1992." },
-    { "term": "Scheduled Castes and Scheduled Tribes", "definition": "Groups recognised in the Constitution for reserved places in education, government jobs and parliament." },
-    { "term": "BIMARU", "definition": "A term for the four poorer north Indian states of Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh." },
-    { "term": "Core–periphery", "definition": "A pattern in which a developed core region dominates and a poorer periphery is less developed." }
+    {
+      "term": "Monsoon",
+      "definition": "A seasonal reversal of wind direction that brings a wet season and a dry season to India."
+    },
+    {
+      "term": "Jet stream",
+      "definition": "A fast, narrow band of upper-level wind; the subtropical westerly jet moves north of the Himalayas in early summer, allowing the monsoon to burst."
+    },
+    {
+      "term": "Rain shadow",
+      "definition": "The dry area on the leeward side of a mountain range, such as the Deccan Plateau behind the Western Ghats."
+    },
+    {
+      "term": "Loo",
+      "definition": "A hot, dry wind that blows over the northern plains in the hot season."
+    },
+    {
+      "term": "Western disturbances",
+      "definition": "Depressions from the west that bring light winter rain to north-west India."
+    },
+    {
+      "term": "Alluvium",
+      "definition": "Sediment deposited by rivers, forming the fertile soils of the Indo-Gangetic Plain."
+    },
+    {
+      "term": "Khadar and bhangar",
+      "definition": "Khadar is newer alluvium on the floodplains; bhangar is older alluvium on higher terraces."
+    },
+    {
+      "term": "Regur (black soil)",
+      "definition": "Clay-rich soil weathered from Deccan Traps basalt, which holds moisture and is ideal for cotton."
+    },
+    {
+      "term": "Laterite",
+      "definition": "Soil formed under high temperatures and heavy rainfall, rich in iron and aluminium oxides and poor in silica and nutrients."
+    },
+    {
+      "term": "Gondwanaland",
+      "definition": "The ancient southern landmass of which the Deccan Plateau was once a part."
+    },
+    {
+      "term": "Deccan Traps",
+      "definition": "Thick layers of basalt from huge fissure eruptions that cover much of the north-west Deccan."
+    },
+    {
+      "term": "Peninsular rivers",
+      "definition": "Rain-fed rivers of the Deccan Plateau that are seasonal, low in the dry season and shorter than the Himalayan rivers."
+    },
+    {
+      "term": "Distributary",
+      "definition": "A channel that splits from the main river and carries water away from it, as the Hooghly does from the Ganges."
+    },
+    {
+      "term": "Kharif",
+      "definition": "Monsoon crops sown in June and July and harvested in autumn, such as rice and cotton."
+    },
+    {
+      "term": "Rabi",
+      "definition": "Winter crops sown in October and November and harvested in March and April, such as wheat and mustard."
+    },
+    {
+      "term": "Green Revolution",
+      "definition": "From the mid-1960s, the spread of high-yielding varieties, fertilisers, pesticides and irrigation, which raised food-grain output."
+    },
+    {
+      "term": "Operation Flood",
+      "definition": "The co-operative dairy programme launched in 1970, which made India the world's largest milk producer."
+    },
+    {
+      "term": "Licence Raj",
+      "definition": "The system of permits required to start or expand a factory, which made Indian industry inefficient before 1991."
+    },
+    {
+      "term": "Special Economic Zone",
+      "definition": "An area where firms receive incentives, set up under the Special Economic Zones Act of 2005."
+    },
+    {
+      "term": "Production-Linked Incentive",
+      "definition": "A subsidy paid per unit produced, used from 2020 to encourage manufacturing in electronics, cars and pharmaceuticals."
+    },
+    {
+      "term": "Golden Quadrilateral",
+      "definition": "The upgraded highway of about 5,800 km linking Delhi, Mumbai, Chennai and Kolkata."
+    },
+    {
+      "term": "Demographic dividend",
+      "definition": "The economic gain from a large working-age population when young workers find jobs."
+    },
+    {
+      "term": "Sex ratio",
+      "definition": "The number of females per 1,000 males in a population; India's was 943 in Census 2011."
+    },
+    {
+      "term": "Urban agglomeration",
+      "definition": "A city together with its surrounding built-up area, counted as one urban unit by the census."
+    },
+    {
+      "term": "Panchayati Raj",
+      "definition": "A system of elected village councils, introduced by the 73rd Constitutional Amendment of 1992."
+    },
+    {
+      "term": "Scheduled Castes and Scheduled Tribes",
+      "definition": "Groups recognised in the Constitution for reserved places in education, government jobs and parliament."
+    },
+    {
+      "term": "BIMARU",
+      "definition": "A term for the four poorer north Indian states of Bihar, Madhya Pradesh, Rajasthan and Uttar Pradesh."
+    },
+    {
+      "term": "Core–periphery",
+      "definition": "A pattern in which a developed core region dominates and a poorer periphery is less developed."
+    }
   ],
   "questions": [
     {

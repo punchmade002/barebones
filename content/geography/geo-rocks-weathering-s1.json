@@ -132,20 +132,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Endogenic forces", "definition": "Forces from within the earth that form and modify rock through magma, heat and pressure." },
-    { "term": "Exogenic forces", "definition": "Forces acting at the earth's surface, such as weathering and erosion, that destroy rock." },
-    { "term": "Magma", "definition": "Molten rock below the earth's surface." },
-    { "term": "Lava", "definition": "Molten rock that has reached the earth's surface." },
-    { "term": "Plutonic rock", "definition": "Igneous rock formed by slow cooling deep in the crust, with large crystals." },
-    { "term": "Volcanic rock", "definition": "Igneous rock formed by the rapid cooling of lava at the surface, with small crystals." },
-    { "term": "Batholith", "definition": "A huge dome-shaped mass of plutonic rock." },
-    { "term": "Bedding plane", "definition": "A horizontal surface that separates one sedimentary layer from the next." },
-    { "term": "Lithification", "definition": "The conversion of loose sediment into solid sedimentary rock by compaction and cementation." },
-    { "term": "Compaction", "definition": "The squeezing out of water and air from sediment by the weight of overlying layers." },
-    { "term": "Cementation", "definition": "The binding of sediment grains by minerals carried in groundwater." },
-    { "term": "Thermal metamorphism", "definition": "Metamorphism caused by the heat of an igneous intrusion, forming a small-scale metamorphic aureole." },
-    { "term": "Regional metamorphism", "definition": "Metamorphism caused by heat and pressure over large areas during plate collision and mountain building." },
-    { "term": "Metamorphic aureole", "definition": "A ring of altered rock surrounding an igneous intrusion." }
+    {
+      "term": "Endogenic forces",
+      "definition": "Forces from within the earth that form and modify rock through magma, heat and pressure."
+    },
+    {
+      "term": "Exogenic forces",
+      "definition": "Forces acting at the earth's surface, such as weathering and erosion, that destroy rock."
+    },
+    {
+      "term": "Magma",
+      "definition": "Molten rock below the earth's surface."
+    },
+    {
+      "term": "Lava",
+      "definition": "Molten rock that has reached the earth's surface."
+    },
+    {
+      "term": "Plutonic rock",
+      "definition": "Igneous rock formed by slow cooling deep in the crust, with large crystals."
+    },
+    {
+      "term": "Volcanic rock",
+      "definition": "Igneous rock formed by the rapid cooling of lava at the surface, with small crystals."
+    },
+    {
+      "term": "Batholith",
+      "definition": "A huge dome-shaped mass of plutonic rock."
+    },
+    {
+      "term": "Bedding plane",
+      "definition": "A horizontal surface that separates one sedimentary layer from the next."
+    },
+    {
+      "term": "Lithification",
+      "definition": "The conversion of loose sediment into solid sedimentary rock by compaction and cementation."
+    },
+    {
+      "term": "Compaction",
+      "definition": "The squeezing out of water and air from sediment by the weight of overlying layers."
+    },
+    {
+      "term": "Cementation",
+      "definition": "The binding of sediment grains by minerals carried in groundwater."
+    },
+    {
+      "term": "Thermal metamorphism",
+      "definition": "Metamorphism caused by the heat of an igneous intrusion, forming a small-scale metamorphic aureole."
+    },
+    {
+      "term": "Regional metamorphism",
+      "definition": "Metamorphism caused by heat and pressure over large areas during plate collision and mountain building."
+    },
+    {
+      "term": "Metamorphic aureole",
+      "definition": "A ring of altered rock surrounding an igneous intrusion."
+    }
   ],
   "questions": [
     {

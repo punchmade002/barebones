@@ -156,20 +156,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Magma", "definition": "Molten rock below the earth's surface." },
-    { "term": "Lava", "definition": "Magma that has reached the surface through a vent." },
-    { "term": "Vent", "definition": "An opening in the crust through which magma, gases and fragments escape." },
-    { "term": "Pyroclastic material (tephra)", "definition": "Solid fragments thrown into the air by an eruption, including ash, lapilli, volcanic bombs and pumice." },
-    { "term": "Pyroclastic flow", "definition": "A fast, very hot avalanche of gas, ash and rock moving down a volcano's slopes." },
-    { "term": "Lahar", "definition": "A volcanic mudflow of ash and water." },
-    { "term": "Basic (basaltic) lava", "definition": "Low-silica, hot, runny lava from which gases escape easily, producing gentle eruptions." },
-    { "term": "Acidic lava", "definition": "High-silica, cooler, viscous lava that traps gas, producing explosive eruptions." },
-    { "term": "Active volcano", "definition": "A volcano that has erupted recently and may erupt again soon." },
-    { "term": "Dormant volcano", "definition": "A volcano that has not erupted for a long time but could erupt again." },
-    { "term": "Extinct volcano", "definition": "A volcano not expected ever to erupt again." },
-    { "term": "Ring of Fire", "definition": "A belt of volcanoes and earthquakes around the edges of the Pacific Ocean." },
-    { "term": "Hot spot", "definition": "A plume of magma rising from deep in the mantle, away from plate boundaries, which can form a chain of volcanoes as a plate moves over it." },
-    { "term": "Fissure eruption", "definition": "An eruption of lava from a long crack in the crust, as in the Antrim basalts." }
+    {
+      "term": "Magma",
+      "definition": "Molten rock below the earth's surface."
+    },
+    {
+      "term": "Lava",
+      "definition": "Magma that has reached the surface through a vent."
+    },
+    {
+      "term": "Vent",
+      "definition": "An opening in the crust through which magma, gases and fragments escape."
+    },
+    {
+      "term": "Pyroclastic material (tephra)",
+      "definition": "Solid fragments thrown into the air by an eruption, including ash, lapilli, volcanic bombs and pumice."
+    },
+    {
+      "term": "Pyroclastic flow",
+      "definition": "A fast, very hot avalanche of gas, ash and rock moving down a volcano's slopes."
+    },
+    {
+      "term": "Lahar",
+      "definition": "A volcanic mudflow of ash and water."
+    },
+    {
+      "term": "Basic (basaltic) lava",
+      "definition": "Low-silica, hot, runny lava from which gases escape easily, producing gentle eruptions."
+    },
+    {
+      "term": "Acidic lava",
+      "definition": "High-silica, cooler, viscous lava that traps gas, producing explosive eruptions."
+    },
+    {
+      "term": "Active volcano",
+      "definition": "A volcano that has erupted recently and may erupt again soon."
+    },
+    {
+      "term": "Dormant volcano",
+      "definition": "A volcano that has not erupted for a long time but could erupt again."
+    },
+    {
+      "term": "Extinct volcano",
+      "definition": "A volcano not expected ever to erupt again."
+    },
+    {
+      "term": "Ring of Fire",
+      "definition": "A belt of volcanoes and earthquakes around the edges of the Pacific Ocean."
+    },
+    {
+      "term": "Hot spot",
+      "definition": "A plume of magma rising from deep in the mantle, away from plate boundaries, which can form a chain of volcanoes as a plate moves over it."
+    },
+    {
+      "term": "Fissure eruption",
+      "definition": "An eruption of lava from a long crack in the crust, as in the Antrim basalts."
+    }
   ],
   "questions": [
     {

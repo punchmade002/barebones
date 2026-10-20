@@ -11,7 +11,7 @@
         "Sensors on satellites or aircraft record energy in several wavebands, such as visible light, infrared and microwaves (radar).",
         "Each picture element, or pixel, stores a number for each waveband, and a computer turns these numbers into an image; a satellite image is therefore not a photograph in the ordinary sense.",
         "Resolution is the size of the ground area one pixel covers: high resolution shows individual buildings, while low resolution shows only large patterns such as cloud systems.",
-        "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in geo-aerial-photographs-s1."
+        "A satellite image is taken from far higher than an aerial photograph, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see; an aerial photograph shows more detail of a small area and is vertical or oblique. Aerial photograph skills are in the notes on Aerial photograph interpretation."
       ]
     },
     {
@@ -79,7 +79,7 @@
         "Forest: a uniform dark green texture; deforestation shows as light-brown cleared patches, often in a fishbone pattern along new roads, as in Rondônia, Brazil (Amazon).",
         "Urban area: a grey or purple-grey patch with fine texture, a street grid, and roads and railways converging; parks show as green.",
         "Airport: long straight runways, often crossing, beside large paved areas and terminal buildings.",
-        "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in geo-sea-s1.",
+        "Coastal features: spits, tombolos and sandbars show as narrow pale strips of sand joining or extending from the coast; deltas as fan-shaped land with branching channels and sediment plumes in the sea; islands, bays and headlands by outline. Their formation is in the notes on Coastal processes, patterns and associated landforms (The Sea at Work).",
         "Large landforms: river valleys and meanders; mountain ranges shown by ridges, shadows and snow; canyons as deep, branching, steep-sided valleys in bare rock; salt pans as dazzling white geometric patches in deserts.",
         "Night-time lights images: bright areas show cities and population density; dark areas are sparsely populated."
       ]
@@ -95,7 +95,7 @@
         "The Aral Sea (Kazakhstan–Uzbekistan) has shrunk greatly since the 1960s because the rivers feeding it, the Amu Darya and Syr Darya, were diverted for irrigation; satellite images from different decades show the shrinkage.",
         "Natural hazards: tracking volcanic ash plumes, mapping earthquake and flood damage to direct emergency relief, and monitoring wildfires.",
         "Pollution: detecting oil spills at sea, smog and algal blooms.",
-        "Urban growth: measuring urban sprawl over time, a GIS study in geo-weather-climate-s3.",
+        "Urban growth: measuring urban sprawl over time, a GIS study in the notes on Geographical information systems (GIS).",
         "Navigation (GPS and Galileo) and communications satellites do not take images; they provide positioning and relay signals.",
         "Military and security surveillance."
       ]
@@ -123,14 +123,38 @@
     }
   ],
   "keyTerms": [
-    { "term": "Remote sensing", "definition": "Gathering information about the earth's surface from a distance, using sensors on satellites or aircraft that record reflected or emitted energy." },
-    { "term": "Pixel", "definition": "A picture element: the smallest unit of a satellite image, storing a value for each waveband." },
-    { "term": "Resolution", "definition": "The size of the ground area covered by one pixel; high resolution shows small features." },
-    { "term": "Geostationary satellite", "definition": "A satellite about 36,000 km above the equator that stays over one point and views a whole hemisphere, used for weather." },
-    { "term": "Polar-orbiting satellite", "definition": "A satellite in a low orbit passing near both poles, covering the earth strip by strip with high detail, used for land use and mapping." },
-    { "term": "False-colour image", "definition": "A satellite image in which near-infrared is shown as red, so healthy vegetation appears red." },
-    { "term": "Centre-pivot irrigation", "definition": "Irrigation that waters crops from a rotating arm, producing circular fields visible from satellites." },
-    { "term": "Tombolo", "definition": "A narrow sand or shingle ridge joining an island to the mainland or to another island, seen as a pale strip." }
+    {
+      "term": "Remote sensing",
+      "definition": "Gathering information about the earth's surface from a distance, using sensors on satellites or aircraft that record reflected or emitted energy."
+    },
+    {
+      "term": "Pixel",
+      "definition": "A picture element: the smallest unit of a satellite image, storing a value for each waveband."
+    },
+    {
+      "term": "Resolution",
+      "definition": "The size of the ground area covered by one pixel; high resolution shows small features."
+    },
+    {
+      "term": "Geostationary satellite",
+      "definition": "A satellite about 36,000 km above the equator that stays over one point and views a whole hemisphere, used for weather."
+    },
+    {
+      "term": "Polar-orbiting satellite",
+      "definition": "A satellite in a low orbit passing near both poles, covering the earth strip by strip with high detail, used for land use and mapping."
+    },
+    {
+      "term": "False-colour image",
+      "definition": "A satellite image in which near-infrared is shown as red, so healthy vegetation appears red."
+    },
+    {
+      "term": "Centre-pivot irrigation",
+      "definition": "Irrigation that waters crops from a rotating arm, producing circular fields visible from satellites."
+    },
+    {
+      "term": "Tombolo",
+      "definition": "A narrow sand or shingle ridge joining an island to the mainland or to another island, seen as a pale strip."
+    }
   ],
   "questions": [
     {
