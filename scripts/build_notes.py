@@ -31,6 +31,8 @@ BANNED_PHRASES = (
     "model content:",
 )
 MARKDOWN = re.compile(r"\*\*|__|^#|\n|`")
+# Internal ids (chapter and outcome ids) mean nothing to students; refer to notes by name.
+INTERNAL_IDS: set[str] = set()
 
 
 def outcome_ids(subject: str) -> dict[str, str]:
@@ -60,6 +62,9 @@ def plain(value, where: str, errors: list[str]) -> None:
         return
     if MARKDOWN.search(value):
         errors.append(f"{where}: contains markdown or a line break")
+    for token in re.findall(r"\b[a-z]+(?:-[a-z0-9]+)+\b", value):
+        if token in INTERNAL_IDS:
+            errors.append(f"{where}: contains the internal id {token!r}; name the notes instead")
     low = value.lower()
     for phrase in BANNED_PHRASES:
         if phrase in low:
@@ -139,6 +144,8 @@ def build(subject: str, check_only: bool, folder: Path | None = None, out: Path 
     if not los:
         print(f"No learning outcomes found for subject {subject!r} in data.js")
         return 1
+    INTERNAL_IDS.update(los)
+    INTERNAL_IDS.update(los.values())
     folder = folder or ROOT / "content" / subject
     files = sorted(folder.glob("*.json")) if folder.is_dir() else []
     entries: dict[str, dict] = {}

@@ -87,15 +87,42 @@
     }
   ],
   "keyTerms": [
-    { "term": "Magma", "definition": "Molten rock in the mantle, which is called lava once it erupts at the surface." },
-    { "term": "Moho", "definition": "The Mohorovičić discontinuity, the boundary between the crust and the mantle." },
-    { "term": "Gutenberg discontinuity", "definition": "The boundary between the mantle and the core." },
-    { "term": "Asthenosphere", "definition": "The semi-molten, plastic layer in the upper mantle on which the plates move." },
-    { "term": "Lithosphere", "definition": "The rigid outer shell made of the crust plus the solid top of the upper mantle." },
-    { "term": "Convection current", "definition": "A circular movement of semi-molten rock in the mantle, caused by heated rock rising and cooled rock sinking." },
-    { "term": "Endogenic forces", "definition": "Forces that come from inside the earth and are powered by its internal heat." },
-    { "term": "Exogenic forces", "definition": "Forces that act at the earth's surface, such as weathering and erosion." },
-    { "term": "S-wave shadow zone", "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid." }
+    {
+      "term": "Magma",
+      "definition": "Molten rock in the mantle, which is called lava once it erupts at the surface."
+    },
+    {
+      "term": "Moho",
+      "definition": "The Mohorovičić discontinuity, the boundary between the crust and the mantle."
+    },
+    {
+      "term": "Gutenberg discontinuity",
+      "definition": "The boundary between the mantle and the core."
+    },
+    {
+      "term": "Asthenosphere",
+      "definition": "The semi-molten, plastic layer in the upper mantle on which the plates move."
+    },
+    {
+      "term": "Lithosphere",
+      "definition": "The rigid outer shell made of the crust plus the solid top of the upper mantle."
+    },
+    {
+      "term": "Convection current",
+      "definition": "A circular movement of semi-molten rock in the mantle, caused by heated rock rising and cooled rock sinking."
+    },
+    {
+      "term": "Endogenic forces",
+      "definition": "Forces that come from inside the earth and are powered by its internal heat."
+    },
+    {
+      "term": "Exogenic forces",
+      "definition": "Forces that act at the earth's surface, such as weathering and erosion."
+    },
+    {
+      "term": "S-wave shadow zone",
+      "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid."
+    }
   ],
   "questions": [
     {

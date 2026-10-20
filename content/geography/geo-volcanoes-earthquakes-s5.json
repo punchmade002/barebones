@@ -207,22 +207,70 @@
     }
   ],
   "keyTerms": [
-    { "term": "Compression", "definition": "Stress that pushes rock together, producing folds and reverse or thrust faults." },
-    { "term": "Tension", "definition": "Stress that pulls rock apart, producing normal faults." },
-    { "term": "Shearing", "definition": "Stress that makes rock slide past itself, producing tear faults." },
-    { "term": "Anticline", "definition": "An upfold in which layers are pushed upwards into an arch." },
-    { "term": "Syncline", "definition": "A downfold in which layers are pushed downwards into a trough." },
-    { "term": "Recumbent fold", "definition": "A fold whose layers lie almost flat." },
-    { "term": "Nappe", "definition": "An overthrust fold that has broken along a thrust fault and been pushed far forward over other rocks." },
-    { "term": "Doming", "definition": "The upward push of rock layers from below into a circular or oval upfold." },
-    { "term": "Fault", "definition": "A fracture in the crust along which rocks have moved." },
-    { "term": "Normal fault", "definition": "A fault caused by tension, along which one block slides down relative to the other." },
-    { "term": "Thrust fault", "definition": "A low-angle reverse fault that can push rocks a long way forward." },
-    { "term": "Tear fault", "definition": "A fault caused by shearing, along which blocks move horizontally past each other." },
-    { "term": "Transform fault", "definition": "A tear fault at a plate boundary." },
-    { "term": "Fault scarp", "definition": "A steep slope or cliff where one block has been raised above the other along a fault." },
-    { "term": "Horst", "definition": "A block of land raised between two parallel faults, or left standing as the land on either side sinks." },
-    { "term": "Graben", "definition": "A block of land that sinks between two parallel normal faults, forming a rift valley." }
+    {
+      "term": "Compression",
+      "definition": "Stress that pushes rock together, producing folds and reverse or thrust faults."
+    },
+    {
+      "term": "Tension",
+      "definition": "Stress that pulls rock apart, producing normal faults."
+    },
+    {
+      "term": "Shearing",
+      "definition": "Stress that makes rock slide past itself, producing tear faults."
+    },
+    {
+      "term": "Anticline",
+      "definition": "An upfold in which layers are pushed upwards into an arch."
+    },
+    {
+      "term": "Syncline",
+      "definition": "A downfold in which layers are pushed downwards into a trough."
+    },
+    {
+      "term": "Recumbent fold",
+      "definition": "A fold whose layers lie almost flat."
+    },
+    {
+      "term": "Nappe",
+      "definition": "An overthrust fold that has broken along a thrust fault and been pushed far forward over other rocks."
+    },
+    {
+      "term": "Doming",
+      "definition": "The upward push of rock layers from below into a circular or oval upfold."
+    },
+    {
+      "term": "Fault",
+      "definition": "A fracture in the crust along which rocks have moved."
+    },
+    {
+      "term": "Normal fault",
+      "definition": "A fault caused by tension, along which one block slides down relative to the other."
+    },
+    {
+      "term": "Thrust fault",
+      "definition": "A low-angle reverse fault that can push rocks a long way forward."
+    },
+    {
+      "term": "Tear fault",
+      "definition": "A fault caused by shearing, along which blocks move horizontally past each other."
+    },
+    {
+      "term": "Transform fault",
+      "definition": "A tear fault at a plate boundary."
+    },
+    {
+      "term": "Fault scarp",
+      "definition": "A steep slope or cliff where one block has been raised above the other along a fault."
+    },
+    {
+      "term": "Horst",
+      "definition": "A block of land raised between two parallel faults, or left standing as the land on either side sinks."
+    },
+    {
+      "term": "Graben",
+      "definition": "A block of land that sinks between two parallel normal faults, forming a rift valley."
+    }
   ],
   "questions": [
     {

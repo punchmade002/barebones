@@ -48,7 +48,7 @@
         "North Atlantic Drift: a warm ocean current, the extension of the Gulf Stream, keeps winters mild and coasts free of ice.",
         "Maritime influence: the sea heats and cools slowly, so the annual temperature range is small.",
         "Prevailing south-westerly winds blow off the Atlantic, carrying its mild, moist air over Ireland.",
-        "Frequent Atlantic depressions and their fronts bring rain. These weather systems are taught in geo-weather-climate.",
+        "Frequent Atlantic depressions and their fronts bring rain. These weather systems are taught in the Weather and Climate chapter.",
         "Relief rainfall: moist air is forced up the western mountains, cools and releases its rain on their western slopes."
       ]
     },
@@ -86,7 +86,7 @@
     },
     {
       "h": "The Burren: a karst region",
-      "b": "The Burren in north-west Co. Clare is a karst region on Carboniferous limestone. Formation of its landforms is taught in geo-rocks-weathering-s4; here each landform is only named.",
+      "b": "The Burren in north-west Co. Clare is a karst region on Carboniferous limestone. Formation of its landforms is taught in the notes on Landforms associated with particular rock types; here each landform is only named.",
       "points": [
         "The name comes from the Irish Boireann, meaning rocky place.",
         "Limestone pavement: blocks called clints, separated by fissures called grikes.",
@@ -139,28 +139,79 @@
         "The Burren is defined by its rock type, Carboniferous limestone.",
         "Munster ridge and valley is defined by its geological structure, folded sandstone and limestone.",
         "The Northern European Plain is defined by its relief and its surface deposits, glacial and loess.",
-        "The Wicklow Mountains and the Leinster batholith are granite uplands, also classed as geomorphological regions; their landforms are taught in geo-rocks-weathering-s4."
+        "The Wicklow Mountains and the Leinster batholith are granite uplands, also classed as geomorphological regions; their landforms are taught in the notes on Landforms associated with particular rock types."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Region", "definition": "An area of the earth's surface that shares one or more criteria which make it different from the areas around it." },
-    { "term": "Criteria", "definition": "The characteristics used to identify and define a region, such as climate, language or wealth." },
-    { "term": "Transition zone", "definition": "A band of gradual change between two regions, which replaces a sharp boundary for physical and cultural regions." },
-    { "term": "Climatic region", "definition": "A large area with similar temperature, precipitation and seasonal pattern, usually with similar vegetation and soils." },
-    { "term": "Cool temperate oceanic climate", "definition": "The climate of Ireland and North West Europe: mild winters, cool summers, a small temperature range and rain in every month." },
-    { "term": "North Atlantic Drift", "definition": "A warm ocean current, the extension of the Gulf Stream, which keeps winters mild in north-western Europe." },
-    { "term": "Relief rainfall", "definition": "Rain caused when moist air is forced up over mountains, cools and releases its moisture." },
-    { "term": "Rain shadow", "definition": "The drier lee side of mountains, sheltered from prevailing winds, as on Ireland's east." },
-    { "term": "Geomorphological region", "definition": "An area with a distinctive landscape produced by the same rock type, geological structure or landforming processes." },
-    { "term": "Karst", "definition": "A landscape of limestone shaped by solution, with pavements, caves and few surface rivers." },
-    { "term": "Clint and grike", "definition": "A clint is a block of limestone pavement; a grike is a fissure separating one clint from the next." },
-    { "term": "Turlough", "definition": "A seasonal lake in a hollow of limestone that fills in winter and drains in summer." },
-    { "term": "Winterage", "definition": "The grazing of cattle on upland limestone in winter, when the rock stores heat and the ground is dry." },
-    { "term": "Anticline and syncline", "definition": "An anticline is an upfold of rock layers; a syncline is a downfold." },
-    { "term": "Ria", "definition": "A drowned river valley on the coast, formed when the sea floods the lower end of a valley." },
-    { "term": "Loess", "definition": "A wind-blown silt deposit that forms fertile soils, here along the southern edge of the Northern European Plain." },
-    { "term": "Polder", "definition": "Land reclaimed from the sea and protected from flooding by embankments." }
+    {
+      "term": "Region",
+      "definition": "An area of the earth's surface that shares one or more criteria which make it different from the areas around it."
+    },
+    {
+      "term": "Criteria",
+      "definition": "The characteristics used to identify and define a region, such as climate, language or wealth."
+    },
+    {
+      "term": "Transition zone",
+      "definition": "A band of gradual change between two regions, which replaces a sharp boundary for physical and cultural regions."
+    },
+    {
+      "term": "Climatic region",
+      "definition": "A large area with similar temperature, precipitation and seasonal pattern, usually with similar vegetation and soils."
+    },
+    {
+      "term": "Cool temperate oceanic climate",
+      "definition": "The climate of Ireland and North West Europe: mild winters, cool summers, a small temperature range and rain in every month."
+    },
+    {
+      "term": "North Atlantic Drift",
+      "definition": "A warm ocean current, the extension of the Gulf Stream, which keeps winters mild in north-western Europe."
+    },
+    {
+      "term": "Relief rainfall",
+      "definition": "Rain caused when moist air is forced up over mountains, cools and releases its moisture."
+    },
+    {
+      "term": "Rain shadow",
+      "definition": "The drier lee side of mountains, sheltered from prevailing winds, as on Ireland's east."
+    },
+    {
+      "term": "Geomorphological region",
+      "definition": "An area with a distinctive landscape produced by the same rock type, geological structure or landforming processes."
+    },
+    {
+      "term": "Karst",
+      "definition": "A landscape of limestone shaped by solution, with pavements, caves and few surface rivers."
+    },
+    {
+      "term": "Clint and grike",
+      "definition": "A clint is a block of limestone pavement; a grike is a fissure separating one clint from the next."
+    },
+    {
+      "term": "Turlough",
+      "definition": "A seasonal lake in a hollow of limestone that fills in winter and drains in summer."
+    },
+    {
+      "term": "Winterage",
+      "definition": "The grazing of cattle on upland limestone in winter, when the rock stores heat and the ground is dry."
+    },
+    {
+      "term": "Anticline and syncline",
+      "definition": "An anticline is an upfold of rock layers; a syncline is a downfold."
+    },
+    {
+      "term": "Ria",
+      "definition": "A drowned river valley on the coast, formed when the sea floods the lower end of a valley."
+    },
+    {
+      "term": "Loess",
+      "definition": "A wind-blown silt deposit that forms fertile soils, here along the southern edge of the Northern European Plain."
+    },
+    {
+      "term": "Polder",
+      "definition": "Land reclaimed from the sea and protected from flooding by embankments."
+    }
   ],
   "questions": [
     {

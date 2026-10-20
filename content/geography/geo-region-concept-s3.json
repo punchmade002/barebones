@@ -127,13 +127,34 @@
     }
   ],
   "keyTerms": [
-    { "term": "Culture", "definition": "The shared way of life of a group, including its language, religion, customs, music, sport and sense of identity." },
-    { "term": "Cultural region", "definition": "An area where people share one or more cultural traits that set them apart from neighbouring areas." },
-    { "term": "Gaeltacht", "definition": "The officially recognised areas, mainly in the west, where Irish is or was the community language." },
-    { "term": "Transition zone", "definition": "An edge zone where a cultural trait gradually thins out rather than ending at a sharp line." },
-    { "term": "Hijra", "definition": "Muhammad's move from Mecca to Medina in 622, from which the Islamic calendar begins." },
-    { "term": "Five Pillars", "definition": "The five duties of Islam: declaration of faith, prayer, giving to charity, fasting in Ramadan and pilgrimage to Mecca." },
-    { "term": "Peace walls", "definition": "Barriers separating Catholic and Protestant neighbourhoods in Belfast." }
+    {
+      "term": "Culture",
+      "definition": "The shared way of life of a group, including its language, religion, customs, music, sport and sense of identity."
+    },
+    {
+      "term": "Cultural region",
+      "definition": "An area where people share one or more cultural traits that set them apart from neighbouring areas."
+    },
+    {
+      "term": "Gaeltacht",
+      "definition": "The officially recognised areas, mainly in the west, where Irish is or was the community language."
+    },
+    {
+      "term": "Transition zone",
+      "definition": "An edge zone where a cultural trait gradually thins out rather than ending at a sharp line."
+    },
+    {
+      "term": "Hijra",
+      "definition": "Muhammad's move from Mecca to Medina in 622, from which the Islamic calendar begins."
+    },
+    {
+      "term": "Five Pillars",
+      "definition": "The five duties of Islam: declaration of faith, prayer, giving to charity, fasting in Ramadan and pilgrimage to Mecca."
+    },
+    {
+      "term": "Peace walls",
+      "definition": "Barriers separating Catholic and Protestant neighbourhoods in Belfast."
+    }
   ],
   "questions": [
     {

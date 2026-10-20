@@ -191,20 +191,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Blowout", "definition": "A hollow cut into a dune by the wind after marram grass is destroyed, which can breach the dune ridge." },
-    { "term": "Coastal squeeze", "definition": "The narrowing of a beach when development blocks its natural landward movement, so defences become necessary." },
-    { "term": "Hard engineering", "definition": "Structures built to resist the sea, such as sea walls and groynes." },
-    { "term": "Soft engineering", "definition": "Methods that work with natural processes, such as beach nourishment, dune regeneration and managed retreat." },
-    { "term": "Sea wall", "definition": "A concrete or stone wall, often curved, that protects the land behind but reflects wave energy and scours the beach in front." },
-    { "term": "Rock armour", "definition": "Large boulders piled at the foot of a cliff or in front of a sea wall to absorb and break up wave energy." },
-    { "term": "Groyne", "definition": "A low barrier built out across the beach at right angles to the shore, trapping sand on its updrift side." },
-    { "term": "Revetment", "definition": "A sloping wooden, concrete or rock structure that breaks waves before they reach the land behind." },
-    { "term": "Gabion", "definition": "A wire cage filled with stones, used in coastal defence." },
-    { "term": "Beach nourishment", "definition": "Sand or shingle pumped or trucked onto a beach to widen it." },
-    { "term": "Managed retreat", "definition": "Removing or not replacing defences and allowing the sea to flood low-value land, creating salt marsh." },
-    { "term": "ICZM", "definition": "Integrated coastal zone management: planning a whole sediment cell of coast as one unit." },
-    { "term": "Special Area of Conservation", "definition": "A protected habitat site under the EU Habitats Directive, forming part of the Natura 2000 network." },
-    { "term": "Blue Flag", "definition": "An international beach award for water quality, environmental management, education and safety." }
+    {
+      "term": "Blowout",
+      "definition": "A hollow cut into a dune by the wind after marram grass is destroyed, which can breach the dune ridge."
+    },
+    {
+      "term": "Coastal squeeze",
+      "definition": "The narrowing of a beach when development blocks its natural landward movement, so defences become necessary."
+    },
+    {
+      "term": "Hard engineering",
+      "definition": "Structures built to resist the sea, such as sea walls and groynes."
+    },
+    {
+      "term": "Soft engineering",
+      "definition": "Methods that work with natural processes, such as beach nourishment, dune regeneration and managed retreat."
+    },
+    {
+      "term": "Sea wall",
+      "definition": "A concrete or stone wall, often curved, that protects the land behind but reflects wave energy and scours the beach in front."
+    },
+    {
+      "term": "Rock armour",
+      "definition": "Large boulders piled at the foot of a cliff or in front of a sea wall to absorb and break up wave energy."
+    },
+    {
+      "term": "Groyne",
+      "definition": "A low barrier built out across the beach at right angles to the shore, trapping sand on its updrift side."
+    },
+    {
+      "term": "Revetment",
+      "definition": "A sloping wooden, concrete or rock structure that breaks waves before they reach the land behind."
+    },
+    {
+      "term": "Gabion",
+      "definition": "A wire cage filled with stones, used in coastal defence."
+    },
+    {
+      "term": "Beach nourishment",
+      "definition": "Sand or shingle pumped or trucked onto a beach to widen it."
+    },
+    {
+      "term": "Managed retreat",
+      "definition": "Removing or not replacing defences and allowing the sea to flood low-value land, creating salt marsh."
+    },
+    {
+      "term": "ICZM",
+      "definition": "Integrated coastal zone management: planning a whole sediment cell of coast as one unit."
+    },
+    {
+      "term": "Special Area of Conservation",
+      "definition": "A protected habitat site under the EU Habitats Directive, forming part of the Natura 2000 network."
+    },
+    {
+      "term": "Blue Flag",
+      "definition": "An international beach award for water quality, environmental management, education and safety."
+    }
   ],
   "questions": [
     {

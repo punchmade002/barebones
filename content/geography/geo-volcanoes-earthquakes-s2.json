@@ -215,20 +215,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Earthquake", "definition": "A sudden shaking of the ground caused by the release of stress built up in the crust." },
-    { "term": "Elastic rebound", "definition": "The cycle in which plates lock, stress builds in the rocks, and the stored energy is released suddenly along a fault." },
-    { "term": "Focus", "definition": "The point inside the crust where an earthquake's rupture begins." },
-    { "term": "Epicentre", "definition": "The point on the surface directly above the focus of an earthquake." },
-    { "term": "Fault", "definition": "The fracture along which rocks move during an earthquake." },
-    { "term": "Seismic waves", "definition": "Waves of energy spreading out from the focus of an earthquake." },
-    { "term": "Seismograph", "definition": "An instrument that detects and records seismic waves as a seismogram." },
-    { "term": "Richter scale", "definition": "A logarithmic scale that measures earthquake magnitude from the size of waves on a seismogram." },
-    { "term": "Modified Mercalli scale", "definition": "A scale from I to XII that measures the intensity of an earthquake from its observed effects." },
-    { "term": "Liquefaction", "definition": "The behaviour of saturated soft sediment during shaking, when it acts like a liquid and buildings sink or topple." },
-    { "term": "Triangulation", "definition": "Locating an epicentre using the arrival times of seismic waves at three or more stations." },
-    { "term": "Seismic gap", "definition": "A section of an active fault that has not moved for a long time and so is likely to slip next." },
-    { "term": "Base isolation", "definition": "Placing bearings under a building so that the ground can move beneath it without shaking the structure." },
-    { "term": "Tuned mass damper", "definition": "A heavy counterweight in a tall building that moves to offset sway." }
+    {
+      "term": "Earthquake",
+      "definition": "A sudden shaking of the ground caused by the release of stress built up in the crust."
+    },
+    {
+      "term": "Elastic rebound",
+      "definition": "The cycle in which plates lock, stress builds in the rocks, and the stored energy is released suddenly along a fault."
+    },
+    {
+      "term": "Focus",
+      "definition": "The point inside the crust where an earthquake's rupture begins."
+    },
+    {
+      "term": "Epicentre",
+      "definition": "The point on the surface directly above the focus of an earthquake."
+    },
+    {
+      "term": "Fault",
+      "definition": "The fracture along which rocks move during an earthquake."
+    },
+    {
+      "term": "Seismic waves",
+      "definition": "Waves of energy spreading out from the focus of an earthquake."
+    },
+    {
+      "term": "Seismograph",
+      "definition": "An instrument that detects and records seismic waves as a seismogram."
+    },
+    {
+      "term": "Richter scale",
+      "definition": "A logarithmic scale that measures earthquake magnitude from the size of waves on a seismogram."
+    },
+    {
+      "term": "Modified Mercalli scale",
+      "definition": "A scale from I to XII that measures the intensity of an earthquake from its observed effects."
+    },
+    {
+      "term": "Liquefaction",
+      "definition": "The behaviour of saturated soft sediment during shaking, when it acts like a liquid and buildings sink or topple."
+    },
+    {
+      "term": "Triangulation",
+      "definition": "Locating an epicentre using the arrival times of seismic waves at three or more stations."
+    },
+    {
+      "term": "Seismic gap",
+      "definition": "A section of an active fault that has not moved for a long time and so is likely to slip next."
+    },
+    {
+      "term": "Base isolation",
+      "definition": "Placing bearings under a building so that the ground can move beneath it without shaking the structure."
+    },
+    {
+      "term": "Tuned mass damper",
+      "definition": "A heavy counterweight in a tall building that moves to offset sway."
+    }
   ],
   "questions": [
     {

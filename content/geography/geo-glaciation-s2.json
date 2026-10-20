@@ -111,23 +111,74 @@
     }
   ],
   "keyTerms": [
-    { "term": "Endogenetic forces", "definition": "Forces from within the earth, such as crustal uplift, that raise or build up the land." },
-    { "term": "Exogenetic forces", "definition": "Surface processes of weathering, erosion and deposition that wear the land down and move material." },
-    { "term": "Isostasy", "definition": "The state of balance between the crust, which floats on the denser mantle, and the mantle beneath it." },
-    { "term": "Isostatic depression", "definition": "The downward sinking of the crust under the weight of an ice sheet." },
-    { "term": "Isostatic rebound", "definition": "The slow rise of the crust after an ice sheet melts and its load is removed." },
-    { "term": "Eustatic change", "definition": "A worldwide change in sea level, such as the lowering caused by water locked up in ice sheets." },
-    { "term": "Base level", "definition": "The lowest level to which a river can erode, normally sea level." },
-    { "term": "Rejuvenation", "definition": "Renewed erosive power in a river caused by a fall in base level." },
-    { "term": "Raised beach", "definition": "A former beach, with its cliffs and platform, lifted above present high tide by isostatic uplift." },
-    { "term": "Emergent coastline", "definition": "A coast where the land has risen relative to sea level." },
-    { "term": "Submergent coastline", "definition": "A coast where the sea stands higher relative to the land, so valleys and lowlands are flooded." },
-    { "term": "Ria", "definition": "A drowned river valley, V-shaped in cross-section and winding, flooded by a rise in sea level." },
-    { "term": "Fjord", "definition": "A drowned glacial trough, deep and U-shaped, often with a shallow threshold at its mouth." },
-    { "term": "Drowned drumlin", "definition": "A drumlin partly submerged by the sea, with its crest standing as an island." },
-    { "term": "Knickpoint", "definition": "A sudden steepening in a river's long profile, which marks the upstream limit of rejuvenated erosion." },
-    { "term": "Incised meander", "definition": "A meander that the river has cut down into, leaving it entrenched in a steep-sided valley." },
-    { "term": "River terrace", "definition": "A step on a valley side marking an old valley floor, left above the present channel after rejuvenation." }
+    {
+      "term": "Endogenetic forces",
+      "definition": "Forces from within the earth, such as crustal uplift, that raise or build up the land."
+    },
+    {
+      "term": "Exogenetic forces",
+      "definition": "Surface processes of weathering, erosion and deposition that wear the land down and move material."
+    },
+    {
+      "term": "Isostasy",
+      "definition": "The state of balance between the crust, which floats on the denser mantle, and the mantle beneath it."
+    },
+    {
+      "term": "Isostatic depression",
+      "definition": "The downward sinking of the crust under the weight of an ice sheet."
+    },
+    {
+      "term": "Isostatic rebound",
+      "definition": "The slow rise of the crust after an ice sheet melts and its load is removed."
+    },
+    {
+      "term": "Eustatic change",
+      "definition": "A worldwide change in sea level, such as the lowering caused by water locked up in ice sheets."
+    },
+    {
+      "term": "Base level",
+      "definition": "The lowest level to which a river can erode, normally sea level."
+    },
+    {
+      "term": "Rejuvenation",
+      "definition": "Renewed erosive power in a river caused by a fall in base level."
+    },
+    {
+      "term": "Raised beach",
+      "definition": "A former beach, with its cliffs and platform, lifted above present high tide by isostatic uplift."
+    },
+    {
+      "term": "Emergent coastline",
+      "definition": "A coast where the land has risen relative to sea level."
+    },
+    {
+      "term": "Submergent coastline",
+      "definition": "A coast where the sea stands higher relative to the land, so valleys and lowlands are flooded."
+    },
+    {
+      "term": "Ria",
+      "definition": "A drowned river valley, V-shaped in cross-section and winding, flooded by a rise in sea level."
+    },
+    {
+      "term": "Fjord",
+      "definition": "A drowned glacial trough, deep and U-shaped, often with a shallow threshold at its mouth."
+    },
+    {
+      "term": "Drowned drumlin",
+      "definition": "A drumlin partly submerged by the sea, with its crest standing as an island."
+    },
+    {
+      "term": "Knickpoint",
+      "definition": "A sudden steepening in a river's long profile, which marks the upstream limit of rejuvenated erosion."
+    },
+    {
+      "term": "Incised meander",
+      "definition": "A meander that the river has cut down into, leaving it entrenched in a steep-sided valley."
+    },
+    {
+      "term": "River terrace",
+      "definition": "A step on a valley side marking an old valley floor, left above the present channel after rejuvenation."
+    }
   ],
   "questions": [
     {

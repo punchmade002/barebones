@@ -129,14 +129,38 @@
     }
   ],
   "keyTerms": [
-    { "term": "Subduction", "definition": "The process by which a denser oceanic plate sinks beneath another plate into the mantle, where it melts." },
-    { "term": "Subduction zone", "definition": "The zone where one plate sinks beneath another." },
-    { "term": "Ocean trench", "definition": "A deep ocean hollow formed where a plate bends down at a subduction zone." },
-    { "term": "Island arc", "definition": "A curved chain of volcanic islands formed above a subduction zone where two oceanic plates converge." },
-    { "term": "Benioff zone", "definition": "The inclined zone of earthquakes along a sinking plate, shallow near the trench and deeper inland." },
-    { "term": "Transform fault", "definition": "A fault along which two plates slide horizontally past each other." },
-    { "term": "Rift valley", "definition": "A valley along the crest of a mid-ocean ridge or formed where a continent is splitting apart." },
-    { "term": "Ring of Fire", "definition": "The belt of plate boundaries around the edge of the Pacific plate, containing most of the world's active volcanoes and earthquakes." }
+    {
+      "term": "Subduction",
+      "definition": "The process by which a denser oceanic plate sinks beneath another plate into the mantle, where it melts."
+    },
+    {
+      "term": "Subduction zone",
+      "definition": "The zone where one plate sinks beneath another."
+    },
+    {
+      "term": "Ocean trench",
+      "definition": "A deep ocean hollow formed where a plate bends down at a subduction zone."
+    },
+    {
+      "term": "Island arc",
+      "definition": "A curved chain of volcanic islands formed above a subduction zone where two oceanic plates converge."
+    },
+    {
+      "term": "Benioff zone",
+      "definition": "The inclined zone of earthquakes along a sinking plate, shallow near the trench and deeper inland."
+    },
+    {
+      "term": "Transform fault",
+      "definition": "A fault along which two plates slide horizontally past each other."
+    },
+    {
+      "term": "Rift valley",
+      "definition": "A valley along the crest of a mid-ocean ridge or formed where a continent is splitting apart."
+    },
+    {
+      "term": "Ring of Fire",
+      "definition": "The belt of plate boundaries around the edge of the Pacific plate, containing most of the world's active volcanoes and earthquakes."
+    }
   ],
   "questions": [
     {

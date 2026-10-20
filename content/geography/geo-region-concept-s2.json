@@ -54,7 +54,7 @@
       "h": "Changing boundaries",
       "points": [
         "Cork City's boundary was extended in 2019 to take in the growing suburbs of Ballincollig, Blarney and Glanmire, and Cork Airport.",
-        "Growing city regions are described in geo-region-european."
+        "Growing city regions are described in the European Regions chapter."
       ]
     },
     {
@@ -62,7 +62,7 @@
       "points": [
         "Three regional assemblies were set up in 2015: Northern and Western; Southern; and Eastern and Midland. They prepare regional plans and manage EU regional funds.",
         "From 2000 to 2006 Ireland was divided into two regions for EU funding: the Border, Midland and Western (BMW) region, which held Objective 1 status and the highest level of EU aid, and the Southern and Eastern region.",
-        "The BMW region's status as a peripheral region is developed in geo-region-concept-s4."
+        "The BMW region's status as a peripheral region is developed in the notes on Socio-economic regions."
       ]
     },
     {
@@ -107,17 +107,50 @@
     }
   ],
   "keyTerms": [
-    { "term": "Administrative region", "definition": "An area with fixed, legally defined boundaries, set up by a government to organise services, elections and decision-making." },
-    { "term": "Local authority", "definition": "A county, city, or city and county council that governs a local area in Ireland." },
-    { "term": "Municipal district", "definition": "A sub-area of a local authority that replaced town councils under the Local Government Reform Act 2014." },
-    { "term": "Constituency", "definition": "An electoral region that elects a set number of representatives to a parliament." },
-    { "term": "PR-STV", "definition": "Proportional representation by single transferable vote, the system used to elect TDs in Dáil constituencies." },
-    { "term": "Electoral Commission", "definition": "The body established in 2023 to review the boundaries of Dáil constituencies." },
-    { "term": "Regional assembly", "definition": "A body that prepares regional plans and manages EU regional funds in a region of Ireland." },
-    { "term": "Département", "definition": "An administrative region of France, created in 1790, with a prefect and an elected departmental council." },
-    { "term": "Prefect (préfet)", "definition": "The official appointed by the national government to head a French département." },
-    { "term": "Commune", "definition": "The smallest unit of local government in France, led by a mayor." },
-    { "term": "Chef-lieu", "definition": "The main town of a French département." }
+    {
+      "term": "Administrative region",
+      "definition": "An area with fixed, legally defined boundaries, set up by a government to organise services, elections and decision-making."
+    },
+    {
+      "term": "Local authority",
+      "definition": "A county, city, or city and county council that governs a local area in Ireland."
+    },
+    {
+      "term": "Municipal district",
+      "definition": "A sub-area of a local authority that replaced town councils under the Local Government Reform Act 2014."
+    },
+    {
+      "term": "Constituency",
+      "definition": "An electoral region that elects a set number of representatives to a parliament."
+    },
+    {
+      "term": "PR-STV",
+      "definition": "Proportional representation by single transferable vote, the system used to elect TDs in Dáil constituencies."
+    },
+    {
+      "term": "Electoral Commission",
+      "definition": "The body established in 2023 to review the boundaries of Dáil constituencies."
+    },
+    {
+      "term": "Regional assembly",
+      "definition": "A body that prepares regional plans and manages EU regional funds in a region of Ireland."
+    },
+    {
+      "term": "Département",
+      "definition": "An administrative region of France, created in 1790, with a prefect and an elected departmental council."
+    },
+    {
+      "term": "Prefect (préfet)",
+      "definition": "The official appointed by the national government to head a French département."
+    },
+    {
+      "term": "Commune",
+      "definition": "The smallest unit of local government in France, led by a mayor."
+    },
+    {
+      "term": "Chef-lieu",
+      "definition": "The main town of a French département."
+    }
   ],
   "questions": [
     {

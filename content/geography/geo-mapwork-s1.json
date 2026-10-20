@@ -425,39 +425,138 @@
     }
   ],
   "keyTerms": [
-    { "term": "Representative fraction", "definition": "A map scale written as a ratio, e.g. 1:50 000, where one unit on the map equals 50 000 of the same units on the ground." },
-    { "term": "Sub-zone", "definition": "One of the 25 squares of 100 km × 100 km, lettered A to Z without I, into which the Irish Grid divides Ireland." },
-    { "term": "Easting", "definition": "A grid line running north–south, numbered along the top and bottom of the map; read first in a grid reference." },
-    { "term": "Northing", "definition": "A grid line running east–west, numbered up the sides of the map; read second in a grid reference." },
-    { "term": "Four-figure grid reference", "definition": "A reference identifying a whole 1 km square by the bottom-left corner of that square." },
-    { "term": "Six-figure grid reference", "definition": "A reference identifying a point to the nearest 100 m by reading tenths within a 1 km square." },
-    { "term": "Latitude", "definition": "Angular distance north or south of the Equator, measured in degrees along meridians." },
-    { "term": "Longitude", "definition": "Angular distance east or west of the Prime Meridian at Greenwich, measured in degrees along parallels." },
-    { "term": "Contour", "definition": "A line on a map joining places of equal height above sea level." },
-    { "term": "Vertical interval", "definition": "The difference in height between two points, or between two adjacent contours." },
-    { "term": "Horizontal equivalent", "definition": "The ground distance between two points on a map, in the same units as the vertical interval." },
-    { "term": "Gradient", "definition": "The steepness of a slope, found by dividing the horizontal equivalent by the vertical interval and written as 1 in x." },
-    { "term": "Aspect", "definition": "The direction a slope faces, which is the direction you look when facing downhill." },
-    { "term": "Concave slope", "definition": "A slope steep near the top and gentle near the bottom, with contours close together at the top." },
-    { "term": "Convex slope", "definition": "A slope gentle near the top and steep near the bottom, with contours close together at the bottom." },
-    { "term": "Intervisibility", "definition": "Whether one point on a map can be seen from another point." },
-    { "term": "Vertical exaggeration", "definition": "The stretching of the vertical scale in a cross-section, so that relief appears more pronounced." },
-    { "term": "Elevation profile", "definition": "A printed graph of height along a line between two points, read against the map." },
-    { "term": "Legend", "definition": "The key on a map that explains every symbol, colour and road class used." },
-    { "term": "Gaeltacht", "definition": "An Irish-speaking area, marked as a cultural area on some maps." },
-    { "term": "Nucleated settlement", "definition": "Buildings clustered together at a crossroads, bridge, church or village." },
-    { "term": "Linear settlement", "definition": "Buildings strung along a road or valley floor." },
-    { "term": "Dispersed settlement", "definition": "Individual farmhouses scattered across farmland, each on its own land." },
-    { "term": "Ribbon development", "definition": "Linear housing spreading out along the main roads that approach a town." },
-    { "term": "Bridging point", "definition": "A place where a river can be crossed, a common reason for a town's location." },
-    { "term": "Route focus", "definition": "A place where several roads and a railway meet, so that a town grows as a market and service centre." },
-    { "term": "Ringfort", "definition": "An early Christian (early medieval) farmstead enclosed by an earth bank, also named rath, lios or dún on maps." },
-    { "term": "Motte", "definition": "A Norman earthen mound on which a castle or tower was built." },
-    { "term": "Fulachta fia", "definition": "Bronze Age cooking sites shown on maps as an antiquity." },
-    { "term": "Townland", "definition": "The smallest land division in Ireland, whose name is printed on OS maps." },
-    { "term": "Drumlin", "definition": "A small, oval hill of glacial deposits, shown on a map by closed contour rings." },
-    { "term": "Oxbow lake", "definition": "A crescent-shaped lake formed when a meander is cut off from the river." },
-    { "term": "Isoline", "definition": "A line joining points of equal value on a map, such as a contour." }
+    {
+      "term": "Representative fraction",
+      "definition": "A map scale written as a ratio, e.g. 1:50 000, where one unit on the map equals 50 000 of the same units on the ground."
+    },
+    {
+      "term": "Sub-zone",
+      "definition": "One of the 25 squares of 100 km × 100 km, lettered A to Z without I, into which the Irish Grid divides Ireland."
+    },
+    {
+      "term": "Easting",
+      "definition": "A grid line running north–south, numbered along the top and bottom of the map; read first in a grid reference."
+    },
+    {
+      "term": "Northing",
+      "definition": "A grid line running east–west, numbered up the sides of the map; read second in a grid reference."
+    },
+    {
+      "term": "Four-figure grid reference",
+      "definition": "A reference identifying a whole 1 km square by the bottom-left corner of that square."
+    },
+    {
+      "term": "Six-figure grid reference",
+      "definition": "A reference identifying a point to the nearest 100 m by reading tenths within a 1 km square."
+    },
+    {
+      "term": "Latitude",
+      "definition": "Angular distance north or south of the Equator, measured in degrees along meridians."
+    },
+    {
+      "term": "Longitude",
+      "definition": "Angular distance east or west of the Prime Meridian at Greenwich, measured in degrees along parallels."
+    },
+    {
+      "term": "Contour",
+      "definition": "A line on a map joining places of equal height above sea level."
+    },
+    {
+      "term": "Vertical interval",
+      "definition": "The difference in height between two points, or between two adjacent contours."
+    },
+    {
+      "term": "Horizontal equivalent",
+      "definition": "The ground distance between two points on a map, in the same units as the vertical interval."
+    },
+    {
+      "term": "Gradient",
+      "definition": "The steepness of a slope, found by dividing the horizontal equivalent by the vertical interval and written as 1 in x."
+    },
+    {
+      "term": "Aspect",
+      "definition": "The direction a slope faces, which is the direction you look when facing downhill."
+    },
+    {
+      "term": "Concave slope",
+      "definition": "A slope steep near the top and gentle near the bottom, with contours close together at the top."
+    },
+    {
+      "term": "Convex slope",
+      "definition": "A slope gentle near the top and steep near the bottom, with contours close together at the bottom."
+    },
+    {
+      "term": "Intervisibility",
+      "definition": "Whether one point on a map can be seen from another point."
+    },
+    {
+      "term": "Vertical exaggeration",
+      "definition": "The stretching of the vertical scale in a cross-section, so that relief appears more pronounced."
+    },
+    {
+      "term": "Elevation profile",
+      "definition": "A printed graph of height along a line between two points, read against the map."
+    },
+    {
+      "term": "Legend",
+      "definition": "The key on a map that explains every symbol, colour and road class used."
+    },
+    {
+      "term": "Gaeltacht",
+      "definition": "An Irish-speaking area, marked as a cultural area on some maps."
+    },
+    {
+      "term": "Nucleated settlement",
+      "definition": "Buildings clustered together at a crossroads, bridge, church or village."
+    },
+    {
+      "term": "Linear settlement",
+      "definition": "Buildings strung along a road or valley floor."
+    },
+    {
+      "term": "Dispersed settlement",
+      "definition": "Individual farmhouses scattered across farmland, each on its own land."
+    },
+    {
+      "term": "Ribbon development",
+      "definition": "Linear housing spreading out along the main roads that approach a town."
+    },
+    {
+      "term": "Bridging point",
+      "definition": "A place where a river can be crossed, a common reason for a town's location."
+    },
+    {
+      "term": "Route focus",
+      "definition": "A place where several roads and a railway meet, so that a town grows as a market and service centre."
+    },
+    {
+      "term": "Ringfort",
+      "definition": "An early Christian (early medieval) farmstead enclosed by an earth bank, also named rath, lios or dún on maps."
+    },
+    {
+      "term": "Motte",
+      "definition": "A Norman earthen mound on which a castle or tower was built."
+    },
+    {
+      "term": "Fulachta fia",
+      "definition": "Bronze Age cooking sites shown on maps as an antiquity."
+    },
+    {
+      "term": "Townland",
+      "definition": "The smallest land division in Ireland, whose name is printed on OS maps."
+    },
+    {
+      "term": "Drumlin",
+      "definition": "A small, oval hill of glacial deposits, shown on a map by closed contour rings."
+    },
+    {
+      "term": "Oxbow lake",
+      "definition": "A crescent-shaped lake formed when a meander is cut off from the river."
+    },
+    {
+      "term": "Isoline",
+      "definition": "A line joining points of equal value on a map, such as a contour."
+    }
   ],
   "questions": [
     {

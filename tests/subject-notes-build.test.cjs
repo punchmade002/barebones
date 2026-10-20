@@ -87,6 +87,7 @@ test("the build rejects notes that break the standard", () => {
   good.notes[0].points.push("These ideas should be used together in an answer.");
   good.notes[1].points.push(good.notes[0].points[0]);
   good.notes[2].h = "**Drainage patterns**";
+  good.notes[3].points.push("Rejuvenation is explained in geo-rivers-s2.");
   fs.writeFileSync(path.join(dir, "geo-rivers-s1.json"), JSON.stringify(good));
   fs.writeFileSync(path.join(dir, "geo-rivers-1.json"), JSON.stringify({ ...good, loId: "geo-rivers-1" }));
 
@@ -95,6 +96,7 @@ test("the build rejects notes that break the standard", () => {
   assert.match(result.stdout, /filler/);
   assert.match(result.stdout, /repeats/);
   assert.match(result.stdout, /markdown/);
+  assert.match(result.stdout, /internal id 'geo-rivers-s2'/);
   assert.match(result.stdout, /subsections \(-s1, -s2/);
 });
 

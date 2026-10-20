@@ -36,7 +36,7 @@
         "Advantages: handles very large data sets, combines many sources, analyses and re-analyses quickly, updates easily, gives clear map output and models 'what if' scenarios.",
         "Limitations: software and data are costly and need training; results are only as good as the data, which may be out of date or inaccurate; layers at different scales or dates may not match; personal data raise privacy issues.",
         "Tailte Éireann, set up in 2023 by bringing together Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography.",
-        "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in geo-weather-climate-s2; government departments and agencies supply sector statistics."
+        "The Central Statistics Office (CSO) supplies census data by area; satellite images are described in the notes on Satellite imagery; government departments and agencies supply sector statistics."
       ]
     },
     {
@@ -80,7 +80,7 @@
         "Most Irish farmland is grassland for cattle and sheep; tillage is concentrated in the east and south-east.",
         "Dairy farming expanded after EU milk quotas ended in 2015; some marginal land in the west has been planted with forestry; farmland on the edge of cities has been lost to urban growth.",
         "Uses: checking farmers' land-use claims under the EU's Common Agricultural Policy (CAP) by satellite, monitoring crop health and forecasting yields, and tracking wetland drainage, hedgerow loss and nitrate pressure on water.",
-        "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; the checked examples are in geo-weather-climate-s2."
+        "International illustration: satellite images of irrigated desert farming (centre-pivot circles) and of Amazon clearance show agricultural change on a large scale; examples are in the notes on Satellite imagery."
       ]
     },
     {
@@ -141,19 +141,58 @@
     }
   ],
   "keyTerms": [
-    { "term": "GIS", "definition": "A computer system that captures, stores, analyses and displays data linked to locations, combining several sources for one area." },
-    { "term": "Layer", "definition": "One data set stored over a base map, such as roads, land use or population, which can be overlaid on other layers." },
-    { "term": "Geo-referencing", "definition": "Tying each item of data to a location by coordinates or a national grid, so that layers from different sources line up." },
-    { "term": "Vector data", "definition": "Spatial data stored as points, lines and polygons." },
-    { "term": "Raster data", "definition": "Spatial data stored as a grid of cells or pixels, such as a satellite image." },
-    { "term": "Attribute data", "definition": "The table of information attached to a GIS feature, such as a field's crop or a house's year of building." },
-    { "term": "Overlay", "definition": "A GIS operation that combines layers to show where features coincide." },
-    { "term": "Buffer", "definition": "A GIS zone of set distance drawn around a feature, such as a monument or river." },
-    { "term": "Urban sprawl", "definition": "The uncontrolled outward spread of low-density urban development into the surrounding countryside, often along roads." },
-    { "term": "CORINE land cover", "definition": "An EU land-cover inventory mapped from satellite images for several dates, used to measure change." },
-    { "term": "Record of Monuments and Places (RMP)", "definition": "The statutory county list of known archaeological monuments, which requires two months' notice before works at a recorded monument." },
-    { "term": "Cropmark", "definition": "A pattern in crops that reveals a buried archaeological feature, taller and greener over ditches and stunted over walls." },
-    { "term": "LiDAR", "definition": "Laser scanning from an aircraft that reveals earthworks under trees." }
+    {
+      "term": "GIS",
+      "definition": "A computer system that captures, stores, analyses and displays data linked to locations, combining several sources for one area."
+    },
+    {
+      "term": "Layer",
+      "definition": "One data set stored over a base map, such as roads, land use or population, which can be overlaid on other layers."
+    },
+    {
+      "term": "Geo-referencing",
+      "definition": "Tying each item of data to a location by coordinates or a national grid, so that layers from different sources line up."
+    },
+    {
+      "term": "Vector data",
+      "definition": "Spatial data stored as points, lines and polygons."
+    },
+    {
+      "term": "Raster data",
+      "definition": "Spatial data stored as a grid of cells or pixels, such as a satellite image."
+    },
+    {
+      "term": "Attribute data",
+      "definition": "The table of information attached to a GIS feature, such as a field's crop or a house's year of building."
+    },
+    {
+      "term": "Overlay",
+      "definition": "A GIS operation that combines layers to show where features coincide."
+    },
+    {
+      "term": "Buffer",
+      "definition": "A GIS zone of set distance drawn around a feature, such as a monument or river."
+    },
+    {
+      "term": "Urban sprawl",
+      "definition": "The uncontrolled outward spread of low-density urban development into the surrounding countryside, often along roads."
+    },
+    {
+      "term": "CORINE land cover",
+      "definition": "An EU land-cover inventory mapped from satellite images for several dates, used to measure change."
+    },
+    {
+      "term": "Record of Monuments and Places (RMP)",
+      "definition": "The statutory county list of known archaeological monuments, which requires two months' notice before works at a recorded monument."
+    },
+    {
+      "term": "Cropmark",
+      "definition": "A pattern in crops that reveals a buried archaeological feature, taller and greener over ditches and stunted over walls."
+    },
+    {
+      "term": "LiDAR",
+      "definition": "Laser scanning from an aircraft that reveals earthworks under trees."
+    }
   ],
   "questions": [
     {

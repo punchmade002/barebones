@@ -178,18 +178,54 @@
     }
   ],
   "keyTerms": [
-    { "term": "Sedimentation", "definition": "The slow filling of a reservoir with sediment deposited by the river entering it." },
-    { "term": "Clear-water erosion", "definition": "Erosion of the bed and banks below a dam by water that is released free of sediment." },
-    { "term": "Head", "definition": "The drop in height of water through a dam, which gives hydro-electric power." },
-    { "term": "Canalisation", "definition": "Straightening, deepening or lining an existing river channel, usually for navigation, drainage or flood control." },
-    { "term": "Arterial drainage", "definition": "Deepening and straightening rivers to drain farmland, carried out by the OPW under the Arterial Drainage Act 1945." },
-    { "term": "Levee", "definition": "An embankment that confines floodwater to the river channel." },
-    { "term": "Demountable barrier", "definition": "A removable flood barrier put in place when a flood is forecast." },
-    { "term": "Relief channel", "definition": "A bypass channel that takes floodwater around a town." },
-    { "term": "Floodplain zoning", "definition": "Planning controls that restrict building on floodplains." },
-    { "term": "Washlands", "definition": "Areas of land allowed to flood, giving the river more room." },
-    { "term": "Interception", "definition": "The capture of rainfall by vegetation, which slows runoff." },
-    { "term": "CFRAM", "definition": "The OPW's Catchment Flood Risk Assessment and Management programme." }
+    {
+      "term": "Sedimentation",
+      "definition": "The slow filling of a reservoir with sediment deposited by the river entering it."
+    },
+    {
+      "term": "Clear-water erosion",
+      "definition": "Erosion of the bed and banks below a dam by water that is released free of sediment."
+    },
+    {
+      "term": "Head",
+      "definition": "The drop in height of water through a dam, which gives hydro-electric power."
+    },
+    {
+      "term": "Canalisation",
+      "definition": "Straightening, deepening or lining an existing river channel, usually for navigation, drainage or flood control."
+    },
+    {
+      "term": "Arterial drainage",
+      "definition": "Deepening and straightening rivers to drain farmland, carried out by the OPW under the Arterial Drainage Act 1945."
+    },
+    {
+      "term": "Levee",
+      "definition": "An embankment that confines floodwater to the river channel."
+    },
+    {
+      "term": "Demountable barrier",
+      "definition": "A removable flood barrier put in place when a flood is forecast."
+    },
+    {
+      "term": "Relief channel",
+      "definition": "A bypass channel that takes floodwater around a town."
+    },
+    {
+      "term": "Floodplain zoning",
+      "definition": "Planning controls that restrict building on floodplains."
+    },
+    {
+      "term": "Washlands",
+      "definition": "Areas of land allowed to flood, giving the river more room."
+    },
+    {
+      "term": "Interception",
+      "definition": "The capture of rainfall by vegetation, which slows runoff."
+    },
+    {
+      "term": "CFRAM",
+      "definition": "The OPW's Catchment Flood Risk Assessment and Management programme."
+    }
   ],
   "questions": [
     {

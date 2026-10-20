@@ -93,13 +93,34 @@
     }
   ],
   "keyTerms": [
-    { "term": "Node", "definition": "A central point where transport routes meet, usually a town or city." },
-    { "term": "Nodal region", "definition": "A city and the surrounding area linked to it by flows of people, goods, services and information." },
-    { "term": "Hinterland", "definition": "The area around a town or city that it serves and depends on for jobs, shopping, services and markets." },
-    { "term": "Commuter belt", "definition": "The part of a city's hinterland from which people travel daily to work in the city." },
-    { "term": "Urban area", "definition": "The continuously built-up part of a city." },
-    { "term": "Primate city", "definition": "The largest city in a country, far larger than any other, usually the capital." },
-    { "term": "Polycentric region", "definition": "A city region with several centres of similar size rather than one dominant city." }
+    {
+      "term": "Node",
+      "definition": "A central point where transport routes meet, usually a town or city."
+    },
+    {
+      "term": "Nodal region",
+      "definition": "A city and the surrounding area linked to it by flows of people, goods, services and information."
+    },
+    {
+      "term": "Hinterland",
+      "definition": "The area around a town or city that it serves and depends on for jobs, shopping, services and markets."
+    },
+    {
+      "term": "Commuter belt",
+      "definition": "The part of a city's hinterland from which people travel daily to work in the city."
+    },
+    {
+      "term": "Urban area",
+      "definition": "The continuously built-up part of a city."
+    },
+    {
+      "term": "Primate city",
+      "definition": "The largest city in a country, far larger than any other, usually the capital."
+    },
+    {
+      "term": "Polycentric region",
+      "definition": "A city region with several centres of similar size rather than one dominant city."
+    }
   ],
   "questions": [
     {

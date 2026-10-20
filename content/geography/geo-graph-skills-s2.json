@@ -101,7 +101,7 @@
         "Illustrative Rivertown ED, later census: 0 to 14 = 1,050; 15 to 64 = 3,120; 65 and over = 660; total 4,830.",
         "Illustrative dependency ratio = (1,050 + 660) ÷ 3,120 × 100 = 54.8, about 55 dependents per 100 people of working age.",
         "Illustrative share aged 65 and over = 660 ÷ 4,830 × 100 = 13.7%.",
-        "Census data is drawn as a population pyramid in the way taught in geo-graph-skills-s1; the meaning of pyramid shapes is taught in geo-population-migration-s1."
+        "Census data is drawn as a population pyramid in the way taught in the notes on Figure interpretation; the meaning of pyramid shapes is taught in the notes on Changing population characteristics."
       ]
     },
     {
@@ -141,7 +141,7 @@
         "For comparison, the population of the whole island was about 8.2 million in 1841.",
         "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
         "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
-        "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in geo-population-migration-s1 and geo-population-migration-s3; migration patterns, policy and reasons are in geo-population-migration-s3 to s6."
+        "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the notes on Changing migration patterns in Ireland to s6."
       ]
     },
     {
@@ -162,31 +162,67 @@
         "New housing estates and commuter growth near cities and along motorways bring rising population, young families and a high young dependency ratio.",
         "Rural decline in remote areas brings a falling population, an ageing population and more single-person households.",
         "Other causes include immigration, the closure or opening of a major employer, and town-centre decline set against suburban growth.",
-        "Links: geo-population-migration-s6 and geo-urban.",
-        "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see geo-aerial-photographs-s1) that attracts young families who commute, together with positive net migration."
+        "Links: the notes on Rural-to-urban migration in developed and developing regions and the Urban Geography chapter.",
+        "Illustrative Rivertown: the population growth and high young dependency fit a new housing estate on the edge of town (see the notes on Aerial photograph interpretation) that attracts young families who commute, together with positive net migration."
       ]
     },
     {
       "h": "Irish-language data and other census uses",
       "points": [
-        "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in geo-option-culture-identity-s2.",
-        "Census data is also used in the GIS study of urban sprawl, covered in geo-weather-climate-s3."
+        "The census records ability to speak Irish and how often it is spoken: daily within the education system, daily outside it, weekly, less often, or never. The cultural detail is in the notes on Language as a cultural indicator.",
+        "Census data is also used in the GIS study of urban sprawl, covered in the notes on Geographical information systems (GIS)."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Census of population", "definition": "An official count of every person in a country on one night, with information collected on each person and household." },
-    { "term": "De facto census", "definition": "A census that counts everyone present in the State on census night, including visitors, wherever they usually live." },
-    { "term": "Enumerator", "definition": "A field worker who delivers census forms to every dwelling and collects them afterwards." },
-    { "term": "Demographic structure", "definition": "The make-up of a population by age, sex and other characteristics such as marital status, religion, language and occupation." },
-    { "term": "Dependency ratio", "definition": "The population aged 0 to 14 plus the population aged 65 and over, divided by the population aged 15 to 64, times 100." },
-    { "term": "Sex ratio", "definition": "The number of males per 100 females: males divided by females, times 100." },
-    { "term": "Natural increase", "definition": "Births minus deaths in a population over a period." },
-    { "term": "Net migration", "definition": "Immigrants minus emigrants over a period." },
-    { "term": "Crude birth rate", "definition": "The number of births per 1,000 people in a population per year." },
-    { "term": "Population density", "definition": "The number of people living in each square kilometre." },
-    { "term": "Small Area", "definition": "The smallest area for which census results are published, roughly a street or estate." },
-    { "term": "Electoral Division", "definition": "A geographical unit for which census results are published, larger than a Small Area." }
+    {
+      "term": "Census of population",
+      "definition": "An official count of every person in a country on one night, with information collected on each person and household."
+    },
+    {
+      "term": "De facto census",
+      "definition": "A census that counts everyone present in the State on census night, including visitors, wherever they usually live."
+    },
+    {
+      "term": "Enumerator",
+      "definition": "A field worker who delivers census forms to every dwelling and collects them afterwards."
+    },
+    {
+      "term": "Demographic structure",
+      "definition": "The make-up of a population by age, sex and other characteristics such as marital status, religion, language and occupation."
+    },
+    {
+      "term": "Dependency ratio",
+      "definition": "The population aged 0 to 14 plus the population aged 65 and over, divided by the population aged 15 to 64, times 100."
+    },
+    {
+      "term": "Sex ratio",
+      "definition": "The number of males per 100 females: males divided by females, times 100."
+    },
+    {
+      "term": "Natural increase",
+      "definition": "Births minus deaths in a population over a period."
+    },
+    {
+      "term": "Net migration",
+      "definition": "Immigrants minus emigrants over a period."
+    },
+    {
+      "term": "Crude birth rate",
+      "definition": "The number of births per 1,000 people in a population per year."
+    },
+    {
+      "term": "Population density",
+      "definition": "The number of people living in each square kilometre."
+    },
+    {
+      "term": "Small Area",
+      "definition": "The smallest area for which census results are published, roughly a street or estate."
+    },
+    {
+      "term": "Electoral Division",
+      "definition": "A geographical unit for which census results are published, larger than a Small Area."
+    }
   ],
   "questions": [
     {

@@ -189,23 +189,74 @@
     }
   ],
   "keyTerms": [
-    { "term": "Extrusive activity", "definition": "Magma that reaches the surface and cools quickly as lava, ash and other material, building landforms on the surface." },
-    { "term": "Intrusive activity", "definition": "Magma that cools slowly underground, forming rock bodies that become landforms only when the rock above is eroded." },
-    { "term": "Joint", "definition": "A crack in rock along which no movement has taken place." },
-    { "term": "Fissure eruption", "definition": "An eruption of runny basic lava from long cracks in the crust rather than from a single vent." },
-    { "term": "Columnar jointing", "definition": "Cracks formed as a thick lava flow contracts on slow, even cooling, dividing it into columns at right angles to the cooling surface." },
-    { "term": "Shield volcano", "definition": "A broad volcano with gentle slopes, built by low-viscosity lava flowing far before it cools." },
-    { "term": "Composite volcano", "definition": "A steep volcano built of alternating layers of ash and lava from explosive eruptions and lava flows." },
-    { "term": "Cinder cone", "definition": "A small, steep cone built mainly of pyroclastic fragments from short, explosive eruptions." },
-    { "term": "Caldera", "definition": "A large basin formed when a volcano's summit collapses into the magma chamber emptied by a huge eruption." },
-    { "term": "Volcanic plug", "definition": "A resistant column of solidified magma in a volcano's vent, left as a steep-sided hill when the softer cone is eroded." },
-    { "term": "Fumarole", "definition": "A vent that emits gases and steam." },
-    { "term": "Batholith", "definition": "A huge dome-shaped mass of granite formed by magma cooling slowly deep underground." },
-    { "term": "Metamorphic aureole", "definition": "A ring of rock altered by the heat of a nearby intrusion." },
-    { "term": "Laccolith", "definition": "A dome-shaped intrusion of magma between rock layers, arching the layers above." },
-    { "term": "Lopolith", "definition": "A saucer-shaped intrusion of magma that sags downwards in the centre." },
-    { "term": "Sill", "definition": "A horizontal sheet of magma injected along the layers of rock." },
-    { "term": "Dyke", "definition": "A vertical or near-vertical sheet of magma that cuts across the layers of rock." }
+    {
+      "term": "Extrusive activity",
+      "definition": "Magma that reaches the surface and cools quickly as lava, ash and other material, building landforms on the surface."
+    },
+    {
+      "term": "Intrusive activity",
+      "definition": "Magma that cools slowly underground, forming rock bodies that become landforms only when the rock above is eroded."
+    },
+    {
+      "term": "Joint",
+      "definition": "A crack in rock along which no movement has taken place."
+    },
+    {
+      "term": "Fissure eruption",
+      "definition": "An eruption of runny basic lava from long cracks in the crust rather than from a single vent."
+    },
+    {
+      "term": "Columnar jointing",
+      "definition": "Cracks formed as a thick lava flow contracts on slow, even cooling, dividing it into columns at right angles to the cooling surface."
+    },
+    {
+      "term": "Shield volcano",
+      "definition": "A broad volcano with gentle slopes, built by low-viscosity lava flowing far before it cools."
+    },
+    {
+      "term": "Composite volcano",
+      "definition": "A steep volcano built of alternating layers of ash and lava from explosive eruptions and lava flows."
+    },
+    {
+      "term": "Cinder cone",
+      "definition": "A small, steep cone built mainly of pyroclastic fragments from short, explosive eruptions."
+    },
+    {
+      "term": "Caldera",
+      "definition": "A large basin formed when a volcano's summit collapses into the magma chamber emptied by a huge eruption."
+    },
+    {
+      "term": "Volcanic plug",
+      "definition": "A resistant column of solidified magma in a volcano's vent, left as a steep-sided hill when the softer cone is eroded."
+    },
+    {
+      "term": "Fumarole",
+      "definition": "A vent that emits gases and steam."
+    },
+    {
+      "term": "Batholith",
+      "definition": "A huge dome-shaped mass of granite formed by magma cooling slowly deep underground."
+    },
+    {
+      "term": "Metamorphic aureole",
+      "definition": "A ring of rock altered by the heat of a nearby intrusion."
+    },
+    {
+      "term": "Laccolith",
+      "definition": "A dome-shaped intrusion of magma between rock layers, arching the layers above."
+    },
+    {
+      "term": "Lopolith",
+      "definition": "A saucer-shaped intrusion of magma that sags downwards in the centre."
+    },
+    {
+      "term": "Sill",
+      "definition": "A horizontal sheet of magma injected along the layers of rock."
+    },
+    {
+      "term": "Dyke",
+      "definition": "A vertical or near-vertical sheet of magma that cuts across the layers of rock."
+    }
   ],
   "questions": [
     {

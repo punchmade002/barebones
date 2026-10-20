@@ -144,7 +144,7 @@
         "Males are drawn on the left and females on the right. The horizontal axis shows the percentage (or number) of the population, scaled outward from zero on both sides.",
         "Reading a pyramid: a wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.",
         "Describe the dependent groups (young and old) and the working-age group when reading a pyramid.",
-        "The shapes of pyramids and the stages of demographic transition belong to geo-population-migration-s1.",
+        "The shapes of pyramids and the stages of demographic transition belong to the notes on Changing population characteristics.",
         "Method for drawing one band (illustrative, Country Z): males aged 20 to 24 are 3.5% and females aged 20 to 24 are 3.4%. Draw a bar 3.5 units long to the left of the centre axis and a bar 3.4 units long to the right, at the 20 to 24 level."
       ]
     },
@@ -155,7 +155,7 @@
         "Mean monthly temperature is shown as a line, plotted at the middle of each month, against a right-hand axis in °C.",
         "From the graph, read the hottest and coldest months, the wettest and driest months, and the seasonal pattern (rain all year, or a wet and dry season).",
         "Calculations from the graph: annual temperature range = maximum mean monthly temperature minus minimum; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars.",
-        "Identifying a climate type from a climate graph is taught in geo-region-concept-s1 and geo-option-atmosphere-ocean-s5.",
+        "Identifying a climate type from a climate graph is taught in the notes on Physical regions and the notes on Climatic environments and climate change.",
         "Illustrative Station M, mean monthly temperature (°C) J to D: 5, 5, 7, 9, 12, 14, 16, 16, 14, 11, 8, 6. Rainfall (mm) J to D: 110, 80, 85, 60, 65, 70, 70, 85, 90, 115, 110, 120.",
         "Illustrative Station M results: warmest in July and August (16°C); coldest in January and February (5°C); annual range 16 − 5 = 11°C; mean annual temperature 123 ÷ 12 = 10.3°C.",
         "Illustrative Station M: total rainfall 1,060 mm; wettest month December (120 mm); driest month April (60 mm). Rain falls in every month with a winter maximum, and the mild winters and cool summers resemble a cool temperate oceanic pattern."
@@ -201,30 +201,87 @@
       "h": "Tables and the investigation",
       "points": [
         "Use a table rather than a graph when many exact values must be given. A table cannot show a trend at a glance.",
-        "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in geo-mapwork-s3."
+        "Graphs, maps and tables are expected in the presentation of results in the Geographical Investigation report; the report's structure is in the notes on The Geographical Investigation (20%)."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Trend", "definition": "The general direction in which a series of values moves over time, separate from short-term changes." },
-    { "term": "Peak", "definition": "The highest point on a graph or the highest value in a data series." },
-    { "term": "Trough", "definition": "The lowest point on a graph or the lowest value in a data series." },
-    { "term": "Percentage point", "definition": "The arithmetic difference between two percentages, so 20% rising to 30% is a rise of 10 percentage points." },
-    { "term": "Mean", "definition": "The average: the total of the values divided by the number of values." },
-    { "term": "Median", "definition": "The middle value when the values are arranged in order of size; the average of the middle two for an even number of values." },
-    { "term": "Mode", "definition": "The value that occurs most often in a set of data." },
-    { "term": "Range", "definition": "The highest value minus the lowest value in a set of data." },
-    { "term": "Compound bar chart", "definition": "A bar split into segments, where the height of the whole bar shows the total." },
-    { "term": "Histogram", "definition": "A bar chart for continuous data grouped into classes, drawn with no gaps between the bars." },
-    { "term": "Population pyramid", "definition": "A back-to-back bar chart showing the percentage of males on the left and females on the right in each age group." },
-    { "term": "Climate graph", "definition": "A graph combining mean monthly temperature as a line (°C) and monthly rainfall as bars (mm) for twelve months." },
-    { "term": "Scatter graph", "definition": "A graph plotting two variables for the same places as unjoined points, used to show correlation." },
-    { "term": "Correlation", "definition": "The direction and strength of the relationship between two variables: positive, negative or none." },
-    { "term": "Line of best fit", "definition": "A straight line drawn by eye through the middle of the points on a scatter graph." },
-    { "term": "Anomaly", "definition": "A value that breaks the pattern shown by the other values in a data set." },
-    { "term": "Triangular graph", "definition": "A graph showing three components that always total 100%, read on three scales." },
-    { "term": "Choropleth map", "definition": "A map of areas shaded by value class, where darker shading means a higher value." },
-    { "term": "Isoline", "definition": "A line on a map joining places of equal value." }
+    {
+      "term": "Trend",
+      "definition": "The general direction in which a series of values moves over time, separate from short-term changes."
+    },
+    {
+      "term": "Peak",
+      "definition": "The highest point on a graph or the highest value in a data series."
+    },
+    {
+      "term": "Trough",
+      "definition": "The lowest point on a graph or the lowest value in a data series."
+    },
+    {
+      "term": "Percentage point",
+      "definition": "The arithmetic difference between two percentages, so 20% rising to 30% is a rise of 10 percentage points."
+    },
+    {
+      "term": "Mean",
+      "definition": "The average: the total of the values divided by the number of values."
+    },
+    {
+      "term": "Median",
+      "definition": "The middle value when the values are arranged in order of size; the average of the middle two for an even number of values."
+    },
+    {
+      "term": "Mode",
+      "definition": "The value that occurs most often in a set of data."
+    },
+    {
+      "term": "Range",
+      "definition": "The highest value minus the lowest value in a set of data."
+    },
+    {
+      "term": "Compound bar chart",
+      "definition": "A bar split into segments, where the height of the whole bar shows the total."
+    },
+    {
+      "term": "Histogram",
+      "definition": "A bar chart for continuous data grouped into classes, drawn with no gaps between the bars."
+    },
+    {
+      "term": "Population pyramid",
+      "definition": "A back-to-back bar chart showing the percentage of males on the left and females on the right in each age group."
+    },
+    {
+      "term": "Climate graph",
+      "definition": "A graph combining mean monthly temperature as a line (°C) and monthly rainfall as bars (mm) for twelve months."
+    },
+    {
+      "term": "Scatter graph",
+      "definition": "A graph plotting two variables for the same places as unjoined points, used to show correlation."
+    },
+    {
+      "term": "Correlation",
+      "definition": "The direction and strength of the relationship between two variables: positive, negative or none."
+    },
+    {
+      "term": "Line of best fit",
+      "definition": "A straight line drawn by eye through the middle of the points on a scatter graph."
+    },
+    {
+      "term": "Anomaly",
+      "definition": "A value that breaks the pattern shown by the other values in a data set."
+    },
+    {
+      "term": "Triangular graph",
+      "definition": "A graph showing three components that always total 100%, read on three scales."
+    },
+    {
+      "term": "Choropleth map",
+      "definition": "A map of areas shaded by value class, where darker shading means a higher value."
+    },
+    {
+      "term": "Isoline",
+      "definition": "A line on a map joining places of equal value."
+    }
   ],
   "questions": [
     {

@@ -113,13 +113,34 @@
     }
   ],
   "keyTerms": [
-    { "term": "Socio-economic region", "definition": "A region defined by its level of wealth and development, judged by several indicators together." },
-    { "term": "Core region", "definition": "A region with a strong, growing economy and a concentration of population, investment and decision-making." },
-    { "term": "Peripheral region", "definition": "A region distant, physically or economically, from the core, with a weaker economy and fewer opportunities." },
-    { "term": "Cumulative causation", "definition": "The process by which advantages in a core attract further growth, widening the gap with the periphery." },
-    { "term": "Less-developed region", "definition": "A region whose development is well below the national or EU average; in EU policy, GDP per head below 75% of the EU average." },
-    { "term": "Region of industrial decline", "definition": "A region that grew on heavy, traditional industry and has since lost much of it." },
-    { "term": "Agglomeration", "definition": "The clustering of firms in one place, which attracts more firms because of shared markets, labour and services." }
+    {
+      "term": "Socio-economic region",
+      "definition": "A region defined by its level of wealth and development, judged by several indicators together."
+    },
+    {
+      "term": "Core region",
+      "definition": "A region with a strong, growing economy and a concentration of population, investment and decision-making."
+    },
+    {
+      "term": "Peripheral region",
+      "definition": "A region distant, physically or economically, from the core, with a weaker economy and fewer opportunities."
+    },
+    {
+      "term": "Cumulative causation",
+      "definition": "The process by which advantages in a core attract further growth, widening the gap with the periphery."
+    },
+    {
+      "term": "Less-developed region",
+      "definition": "A region whose development is well below the national or EU average; in EU policy, GDP per head below 75% of the EU average."
+    },
+    {
+      "term": "Region of industrial decline",
+      "definition": "A region that grew on heavy, traditional industry and has since lost much of it."
+    },
+    {
+      "term": "Agglomeration",
+      "definition": "The clustering of firms in one place, which attracts more firms because of shared markets, labour and services."
+    }
   ],
   "questions": [
     {
