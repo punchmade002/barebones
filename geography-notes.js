@@ -8054,6 +8054,2298 @@
    }
   ]
  },
+ "geo-option-atmosphere-ocean-s1": {
+  "keyTerms": [
+   {
+    "definition": "The amount of heat needed to raise the temperature of a unit mass of a substance by one degree; water's high value means the ocean heats and cools slowly.",
+    "term": "Specific heat capacity"
+   },
+   {
+    "definition": "The average rate at which air temperature falls with height in the troposphere, about 6.5 °C per 1,000 m.",
+    "term": "Environmental lapse rate"
+   },
+   {
+    "definition": "The boundary at the top of the troposphere, where temperature stops falling with height.",
+    "term": "Tropopause"
+   },
+   {
+    "definition": "The layer of the ocean where temperature falls rapidly with depth, between the warm surface layer and the cold deep ocean.",
+    "term": "Thermocline"
+   },
+   {
+    "definition": "The amount of dissolved salt in seawater, measured in parts per thousand.",
+    "term": "Salinity"
+   },
+   {
+    "definition": "A pressure instrument with a sealed, partly emptied metal capsule that changes shape as pressure changes, moving a needle on a dial.",
+    "term": "Aneroid barometer"
+   },
+   {
+    "definition": "The difference between the dry bulb and wet bulb readings; the bigger it is, the drier the air.",
+    "term": "Wet bulb depression"
+   },
+   {
+    "definition": "A white, louvred shelter that holds thermometers in true shade air, with its door facing away from direct sun.",
+    "term": "Stevenson screen"
+   },
+   {
+    "definition": "A small instrument pack carried by a weather balloon that measures temperature, humidity and pressure and radios the readings back.",
+    "term": "Radiosonde"
+   },
+   {
+    "definition": "A drifting instrument that rises and sinks in the ocean, measuring temperature and salinity to about 2,000 m and transmitting the data by satellite.",
+    "term": "Argo float"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The atmosphere and the oceans exchange heat, water, gases and momentum, so a change in one alters the other.",
+    "h": "Linked exchanges between atmosphere and ocean",
+    "points": [
+     "Heat: the ocean warms or cools the air above it.",
+     "Water: evaporation from the sea supplies the moisture for precipitation over both sea and land.",
+     "Gases: the ocean absorbs and releases carbon dioxide and oxygen.",
+     "Momentum: wind drives surface ocean currents, and the currents in turn shift the pressure and wind patterns above them.",
+     "El Niño shows the link at work: a change in sea surface temperature across the Pacific alters atmospheric circulation there (see Climatic environments and climate change)."
+    ]
+   },
+   {
+    "h": "Water's heat capacity",
+    "points": [
+     "Water has a high specific heat capacity, so the ocean heats and cools far more slowly than land and stores very large amounts of heat.",
+     "Because the ocean responds slowly, maritime climates have small temperature ranges.",
+     "The ocean has absorbed over 90% of the extra heat trapped by global warming, according to the IPCC."
+    ]
+   },
+   {
+    "h": "Permanent gases of dry air",
+    "points": [
+     "By volume, dry air is about 78% nitrogen and about 21% oxygen.",
+     "Argon makes up about 0.9% and carbon dioxide about 0.04%.",
+     "Traces of neon, helium, methane, ozone and other gases make up the rest."
+    ]
+   },
+   {
+    "h": "Variable components of the air",
+    "points": [
+     "Water vapour ranges from almost 0% of the air over deserts and the poles to about 4% in hot, humid tropical air.",
+     "Aerosols, including dust, sea salt, smoke, volcanic ash and pollen, act as condensation nuclei and scatter sunlight.",
+     "Ozone is concentrated in the stratosphere."
+    ]
+   },
+   {
+    "h": "Why the small gases matter",
+    "points": [
+     "Water vapour, carbon dioxide, methane and nitrous oxide are greenhouse gases: they absorb long-wave radiation (see Solar energy and its redistribution).",
+     "Ozone absorbs harmful ultraviolet radiation.",
+     "Atmospheric carbon dioxide was about 280 ppm before the Industrial Revolution and was over 420 ppm by the mid-2020s, because of human activity.",
+     "Carbon dioxide has been measured continuously at Mauna Loa, Hawaii, since 1958. The record, known as the Keeling Curve, was begun by Charles David Keeling."
+    ]
+   },
+   {
+    "h": "Gravity and pressure with height",
+    "points": [
+     "Gravity holds the atmosphere, so it is densest at the surface and thins rapidly with height.",
+     "Pressure therefore falls with altitude; about half the mass of the atmosphere lies below about 5.5 km."
+    ]
+   },
+   {
+    "b": "The atmosphere has four layers, separated by three pauses. Each layer is defined by how its temperature changes with height.",
+    "h": "Layers of the atmosphere",
+    "points": [
+     "Diagram: a vertical profile with height in km, the four layers, the three pauses and the temperature line."
+    ]
+   },
+   {
+    "h": "Troposphere",
+    "points": [
+     "It extends from the surface to about 8 km over the poles and about 16–18 km over the equator, being thicker where warm air expands and convection is strongest.",
+     "Temperature falls with height at an average of about 6.5 °C per 1,000 m (the environmental lapse rate), because the air is heated from below by the ground.",
+     "It contains most of the atmosphere's mass and nearly all its water vapour, so nearly all weather and clouds occur here.",
+     "Its top is the tropopause, where the temperature stops falling; jet streams blow near it."
+    ]
+   },
+   {
+    "h": "Stratosphere",
+    "points": [
+     "It extends from the tropopause to about 50 km.",
+     "Temperature rises with height because ozone absorbs ultraviolet radiation; the ozone layer is concentrated at about 15–35 km.",
+     "It is very dry and stable, so few clouds form, but the anvils of cumulonimbus clouds spread out at its base.",
+     "Long-haul jets cruise near the tropopause to avoid turbulence.",
+     "Its top is the stratopause."
+    ]
+   },
+   {
+    "h": "Mesosphere",
+    "points": [
+     "It extends from about 50 km to about 80–85 km.",
+     "Temperature falls again with height, reaching about −90 °C at its top, the coldest point in the atmosphere.",
+     "Most meteors burn up here. Its top is the mesopause."
+    ]
+   },
+   {
+    "h": "Thermosphere and exosphere",
+    "points": [
+     "Above about 85 km the air is very thin and its temperature rises sharply, because the few molecules absorb high-energy solar radiation; there are too few molecules for it to feel hot.",
+     "Auroras (northern lights) occur here, and the International Space Station orbits within it at about 400 km.",
+     "The exosphere is the outermost fringe, merging into space."
+    ]
+   },
+   {
+    "h": "Extent and depth of the oceans",
+    "points": [
+     "The oceans cover about 71% of the earth's surface and hold about 97% of its water.",
+     "The five oceans are the Pacific (the largest and deepest), Atlantic, Indian, Southern and Arctic; the Pacific covers about a third of the earth's surface.",
+     "Average ocean depth is about 3.7 km. The deepest point is the Challenger Deep in the Mariana Trench, in the western Pacific, at about 11,000 m."
+    ]
+   },
+   {
+    "h": "Salinity",
+    "points": [
+     "Salinity is the dissolved salt content of seawater: about 35 parts per thousand on average, or 35 g of salt per kg.",
+     "Sodium chloride is the main salt, with magnesium, sulphate, calcium and potassium also present; the salts come from rocks weathered and carried by rivers and from volcanic gases and vents."
+    ]
+   },
+   {
+    "h": "Variations in salinity",
+    "points": [
+     "Salinity is higher where evaporation exceeds precipitation, as in the subtropical oceans and in nearly enclosed seas in hot, dry areas.",
+     "The Red Sea, at about 40 parts per thousand, is among the saltiest open seas, and the Mediterranean is saltier than the Atlantic.",
+     "Salinity is lower where rainfall is heavy (the equatorial belt), where large rivers enter the sea and where ice melts (polar seas).",
+     "The Baltic Sea is brackish, well under 10 parts per thousand in much of it, because of heavy river inflow and little evaporation.",
+     "When sea ice forms it leaves its salt behind, so the water beneath becomes saltier and denser; this feeds the thermohaline circulation (see Atmospheric and oceanic circulation)."
+    ]
+   },
+   {
+    "h": "Temperature layers of the ocean",
+    "points": [
+     "A warm, well-mixed surface layer, heated by the sun and stirred by wind, lies at the top of the tropical ocean.",
+     "The thermocline is the layer where temperature falls rapidly with depth.",
+     "The deep ocean is cold (about 0–4 °C) and dark, and is the largest part of the ocean by volume.",
+     "In polar waters there is little difference between the surface and the deep.",
+     "Diagram: temperature against depth for a tropical ocean, showing the three layers."
+    ]
+   },
+   {
+    "h": "Density and surface temperature",
+    "points": [
+     "Seawater is denser when it is colder and saltier; differences in density make water sink or rise and drive deep ocean circulation (see Atmospheric and oceanic circulation).",
+     "Surface temperature varies with latitude, from about 28–30 °C in the tropics to about −2 °C at the poles, which is the freezing point of seawater; ocean currents shift these patterns."
+    ]
+   },
+   {
+    "h": "Gases in the ocean",
+    "points": [
+     "The ocean dissolves oxygen, from the air and from phytoplankton, and carbon dioxide.",
+     "It has absorbed roughly a quarter of the carbon dioxide released by human activity. This slows global warming but makes the water more acidic (ocean acidification), which harms corals and shellfish.",
+     "Average surface ocean pH has fallen from about 8.2 to about 8.1 since pre-industrial times."
+    ]
+   },
+   {
+    "h": "Synoptic observing networks",
+    "points": [
+     "Synoptic weather stations, staffed or automatic, record at fixed times in UTC to World Meteorological Organization (WMO) standards, so that readings can be compared worldwide.",
+     "Other sources include ships, buoys, aircraft, weather balloons, radar and satellites.",
+     "Met Éireann collects the Irish data (see Weather maps and weather data)."
+    ]
+   },
+   {
+    "h": "Measuring air temperature",
+    "points": [
+     "A liquid-in-glass thermometer uses mercury or alcohol, which expands and rises up a narrow tube as it warms.",
+     "A maximum-minimum thermometer, Six's thermometer, uses small metal indexes that are pushed up to the highest and lowest points reached and stay there until reset with a magnet; it is read once a day and then reset. James Six invented it in 1782.",
+     "Electronic thermometers in automatic stations use sensors whose electrical resistance changes with temperature; a thermograph gives a continuous trace.",
+     "Thermometers sit in a Stevenson screen about 1.25 m above the ground. It is white to reflect sunlight, louvred to let air circulate, mounted on legs above grass, with its door facing away from direct sun (north in Ireland), so readings are true shade air temperatures.",
+     "A grass minimum thermometer, laid just above short grass, measures ground frost.",
+     "Daily mean, daily range and annual range are derived from these readings (the calculation method is in Weather maps and weather data)."
+    ]
+   },
+   {
+    "h": "Measuring air pressure",
+    "points": [
+     "A mercury barometer: the weight of the atmosphere supports a column of mercury in a glass tube, and the column rises as pressure rises. Evangelista Torricelli invented it in 1643.",
+     "An aneroid barometer (aneroid means without liquid) uses a sealed, partly emptied metal capsule that is squeezed in as pressure rises and expands as it falls; levers move a needle on a dial. It is portable, so it is used in homes and on ships.",
+     "A barograph links an aneroid to a pen that draws a continuous record on a rotating drum; the trend of rising or falling pressure matters most in forecasting.",
+     "Electronic pressure sensors are used in automatic stations.",
+     "Readings are corrected to mean sea level so that stations at different heights can be compared and isobars drawn. Pressure is measured in hPa (equal to mb), with an average of about 1013 hPa."
+    ]
+   },
+   {
+    "h": "Measuring wind speed",
+    "points": [
+     "A cup anemometer has three or four cups on arms that spin faster as wind speed rises; the turns are counted electrically and converted to speed.",
+     "Sonic anemometers, which have no moving parts, are used on some modern stations.",
+     "The WMO standard height for surface wind is 10 m above open ground, away from buildings and trees.",
+     "Speed is given in km/h, knots or m/s, and gusts are recorded separately from mean speed. Without instruments, speed is estimated using the Beaufort scale."
+    ]
+   },
+   {
+    "h": "Measuring wind direction",
+    "points": [
+     "A wind vane has a large tail that is pushed downwind, so its pointer faces the direction the wind blows from; direction is read against compass points or degrees.",
+     "Windsocks show wind direction and strength at airports.",
+     "Wind is always named from the direction it comes from."
+    ]
+   },
+   {
+    "h": "Measuring humidity",
+    "points": [
+     "A wet-and-dry bulb hygrometer (psychrometer) has two thermometers side by side. The wet bulb is wrapped in muslin kept wet from a water reservoir; evaporation from the muslin cools it, so it reads lower than the dry bulb.",
+     "The drier the air, the faster the evaporation and the bigger the difference, called the wet bulb depression. If both thermometers read the same, the air is saturated.",
+     "Relative humidity, given as a percentage, is read from tables using the dry bulb reading and the difference between the two readings.",
+     "A hair hygrometer uses human hair, which lengthens in humid air and shortens in dry air, to move a pointer.",
+     "Automatic stations use electronic (capacitance) sensors."
+    ]
+   },
+   {
+    "h": "Other ground instruments",
+    "points": [
+     "Rain gauge: a funnel of standard size, set in open ground with its rim raised above the surface to avoid splash, collects rain into a measuring cylinder that is read in mm each day; tipping-bucket gauges record automatically.",
+     "Campbell–Stokes sunshine recorder: a glass sphere focuses the sun's rays and burns a trace on a card; the length of the burn gives hours of bright sunshine.",
+     "Evaporation pan: measures the water lost from an open water surface by evaporation.",
+     "Cloud cover is estimated in oktas by observers or measured by ceilometers."
+    ]
+   },
+   {
+    "h": "Upper-air measurement",
+    "points": [
+     "Weather balloons carry radiosondes, small instrument packs that measure temperature, humidity and pressure and radio them back; tracking the balloon gives the upper winds.",
+     "Balloons are launched on a fixed daily schedule from stations worldwide, including Valentia Observatory, Co. Kerry, which has one of the longest weather records in Ireland, dating from the 19th century.",
+     "Aircraft also report temperature and wind automatically."
+    ]
+   },
+   {
+    "h": "Remote sensing",
+    "points": [
+     "Geostationary and polar-orbiting weather satellites measure cloud, sea-surface temperature, water vapour and ice (satellite images are covered in Satellite imagery).",
+     "Rainfall radar detects precipitation from the echo returned by raindrops."
+    ]
+   },
+   {
+    "h": "Measuring the oceans",
+    "points": [
+     "Moored weather buoys record air pressure, air and sea temperature, wind, wave height and humidity, and transmit the readings. The Irish Marine Data Buoy Observation Network, run by the Marine Institute with Met Éireann, moors such buoys off the Irish coast.",
+     "Drifting buoys follow ocean currents, and voluntary observing ships report weather at sea.",
+     "Argo floats drift at depth, rise periodically to the surface, and measure temperature and salinity down to about 2,000 m before transmitting by satellite. The Argo programme began in 2000, and about 4,000 floats now drift in the world's oceans.",
+     "Tide gauges and satellite altimeters measure sea level; satellites also measure sea-surface temperature and sea ice.",
+     "Research ships lower CTD instruments (conductivity, temperature, depth) to sample salinity and temperature at depth.",
+     "The TAO array, a line of moored buoys across the equatorial Pacific, monitors the ocean to give warning of El Niño."
+    ]
+   },
+   {
+    "h": "Accuracy of records",
+    "points": [
+     "Instruments must be correctly sited: in an open place, at the standard height, shaded for thermometers and away from buildings and heated surfaces.",
+     "Instruments must be regularly calibrated, read at the same times each day, and long records kept at the same site.",
+     "Urban growth around a station (the urban heat island) can bias its records upward."
+    ]
+   },
+   {
+    "h": "Why the measurements matter",
+    "points": [
+     "Forecasting: observations are the starting point (initial conditions) for computer forecast models, and more and better observations give better forecasts.",
+     "Warnings: storm, rain, snow and heat warnings, including Met Éireann's colour codes (see Weather maps and weather data), save lives and property; storm surge and flood warnings are issued; tropical cyclones are tracked (see Atmospheric and oceanic circulation); a falling barograph trace warns of an approaching depression.",
+     "Aviation needs wind, visibility, icing and pressure for altimeter settings; shipping and fishing need sea area forecasts and wave heights from buoys; offshore work depends on the same data.",
+     "Farming: the timing of silage and hay making, spraying, sowing and harvesting depends on forecasts; frost warnings protect crops; soil temperature and moisture show when grass starts to grow; drought monitoring is covered in Climate and economic development.",
+     "Energy and the economy: wind measurements are used to site wind farms and predict their output; temperature forecasts predict electricity and gas demand; construction, retail, insurance, sport and tourism planning all use weather data.",
+     "Climate records: long, consistent records, such as the Mauna Loa carbon dioxide record and Valentia's long weather record, show trends including global warming, sea-level rise and ocean warming; they are the evidence used by the IPCC and by governments (see Climatic environments and climate change).",
+     "Ocean-atmosphere link: buoy and Argo data on sea temperature and salinity track El Niño, ocean heat content and the Atlantic circulation, and they improve seasonal forecasts."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Pressure: a mercury barometer, invented by Evangelista Torricelli in 1643, balances the weight of the atmosphere against a column of mercury; an aneroid barometer uses a sealed, partly emptied metal capsule linked to a dial; a barograph draws a continuous record. Readings are in hPa, corrected to mean sea level, with an average of about 1013 hPa, and are taken in open sites away from buildings. Temperature: liquid-in-glass and electronic thermometers, a maximum-minimum (Six's) thermometer and a grass minimum thermometer, all sheltered in a Stevenson screen about 1.25 m above grass with its door facing north in Ireland, so that readings are true shade air temperatures in degrees Celsius (°C). Wind: a cup anemometer whose turns are counted electrically gives speed, and a wind vane whose pointer faces the direction the wind blows from gives direction; both are sited at the WMO standard height of 10 m above open ground, with speed in km/h, knots or m/s and gusts recorded separately. Humidity: a wet-and-dry bulb hygrometer, where evaporation from the wet muslin cools the wet bulb, and the difference between the two readings is used with a table to find relative humidity as a percentage; a hair hygrometer and electronic sensors are alternatives. Importance: observations start computer forecasts, and warnings of storms, floods, heat and cold save lives and property; aviation, shipping and fishing need wind, visibility and wave data from buoys; farmers use frost, soil and drought information; energy planners use wind data for wind farms and temperature forecasts for electricity and gas demand. Over the oceans, moored buoys, drifting buoys, voluntary ships, Argo floats (about 4,000 floats measuring temperature and salinity to about 2,000 m), tide gauges, satellites and research ships with CTD instruments supply the data, and the TAO array gives warning of El Niño. Long, consistent records show global warming, sea-level rise and ocean warming, and provide the evidence the IPCC and governments use.",
+    "prompt": "Give an account of how atmosphere–ocean phenomena (pressure, temperature, wind and humidity) are measured and examine the importance of such measurements.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Composition: dry air is about 78% nitrogen and about 21% oxygen, with argon about 0.9% and carbon dioxide about 0.04%; water vapour varies from almost 0% to about 4%; aerosols act as condensation nuclei; ozone is concentrated in the stratosphere and absorbs ultraviolet radiation. Layers: the troposphere, up to about 8 km over the poles and 16–18 km over the equator, cools with height at about 6.5 °C per 1,000 m and holds nearly all the weather; the stratosphere, to about 50 km, warms with height because of ozone at about 15–35 km; the mesosphere, to about 80–85 km, cools to about −90 °C; the thermosphere above warms because its few molecules absorb solar radiation, and the International Space Station orbits in it at about 400 km. Oceans: salinity averages about 35 parts per thousand, mostly sodium chloride, and is higher where evaporation exceeds precipitation (the Red Sea at about 40 parts per thousand, the Mediterranean) and lower in the equatorial belt, at river mouths and in polar seas, while the Baltic is brackish. Temperature layers: a warm, mixed surface layer, a thermocline where temperature falls rapidly, and a cold deep ocean at about 0–4 °C that makes up most of its volume. Density: seawater is denser when colder and saltier, so cold, salty water sinks and drives deep circulation; surface temperature runs from about 28–30 °C in the tropics to about −2 °C, the freezing point of seawater, at the poles. Links: heat is exchanged, since the ocean has absorbed over 90% of the extra heat from global warming; water is exchanged through evaporation and precipitation; gases are exchanged, since the ocean has absorbed roughly a quarter of human carbon dioxide emissions, lowering surface pH from about 8.2 to about 8.1 and causing acidification; momentum is exchanged, since wind drives currents that shift pressure and wind patterns. El Niño shows the systems changing together.",
+    "prompt": "The atmosphere and the oceans are linked systems with distinctive physical and chemical characteristics. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "1. Read the dry bulb thermometer, which records the true air temperature. 2. Read the wet bulb thermometer, whose bulb is wrapped in muslin kept wet from a water reservoir; evaporation from the muslin cools it, so it reads lower than the dry bulb. 3. Subtract the wet bulb reading from the dry bulb reading to find the wet bulb depression; the drier the air, the bigger the difference, and two equal readings mean saturated air. 4. Use the dry bulb reading and the difference in a humidity table to read the relative humidity as a percentage. Illustrative example: dry bulb 15 °C, wet bulb 12 °C, a 3 °C difference; the table converts this into a relative humidity well below 100%, showing the air is not saturated.",
+    "prompt": "Explain how a wet-and-dry bulb hygrometer is used to find relative humidity.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s2": {
+  "keyTerms": [
+   {
+    "definition": "Incoming solar radiation received at the top of the atmosphere or at the earth's surface.",
+    "term": "Insolation"
+   },
+   {
+    "definition": "The proportion of incoming radiation that a surface reflects.",
+    "term": "Albedo"
+   },
+   {
+    "definition": "The average solar energy reaching the top of the atmosphere, about 1,361 W/m².",
+    "term": "Solar constant"
+   },
+   {
+    "definition": "Heat that raises the temperature of air or a surface and can be felt or measured by a thermometer.",
+    "term": "Sensible heat"
+   },
+   {
+    "definition": "Energy absorbed or released when water changes state, such as during evaporation or condensation, without a change in temperature.",
+    "term": "Latent heat"
+   },
+   {
+    "definition": "The balance between incoming solar radiation and outgoing radiation and heat, which balances for the earth as a whole but not at each latitude.",
+    "term": "Heat budget"
+   },
+   {
+    "definition": "A line on a map joining places with the same mean temperature.",
+    "term": "Isotherm"
+   },
+   {
+    "definition": "The effect of a large land mass in producing hot summers, cold winters and a large annual temperature range.",
+    "term": "Continentality"
+   },
+   {
+    "definition": "The line of highest mean temperature, which lies mostly north of the geographical equator.",
+    "term": "Thermal equator"
+   },
+   {
+    "definition": "The circulation cell between the equator and about 30°, in which air rises at the equator and sinks at about 30°.",
+    "term": "Hadley cell"
+   },
+   {
+    "definition": "The slow, deep ocean circulation driven by differences in temperature and salinity, which carries heat round the globe.",
+    "term": "Thermohaline circulation"
+   },
+   {
+    "definition": "The extension of the Gulf Stream that carries warm water across the Atlantic to the coasts of north-west Europe.",
+    "term": "North Atlantic Drift"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Solar radiation",
+    "points": [
+     "Solar energy arrives as short-wave radiation, mostly visible light with some ultraviolet and near-infrared. The much cooler earth gives off long-wave (infrared, heat) radiation; this difference is the basis of the greenhouse effect.",
+     "Insolation is incoming solar radiation. The solar constant, about 1,361 W/m², is the energy reaching the top of the atmosphere, and far less reaches the surface."
+    ]
+   },
+   {
+    "h": "Energy transformations",
+    "points": [
+     "Radiant energy absorbed by surfaces becomes heat, called sensible heat.",
+     "Energy used to evaporate water is stored as latent heat in water vapour, which later powers storms (see Latent heat and tropical cyclones).",
+     "Heat differences create pressure differences, which become the kinetic energy of wind and, through wind drag, of waves and currents.",
+     "Plants convert a small fraction of absorbed energy into chemical energy by photosynthesis."
+    ]
+   },
+   {
+    "b": "The heat budget below uses a rounded model of 100 units of incoming solar radiation.",
+    "h": "What happens to incoming radiation",
+    "points": [
+     "About 30 units are reflected back to space, mainly by clouds and also by the surface and by scattering; the earth's overall albedo is therefore about 30% (0.3).",
+     "About 20 units are absorbed by the atmosphere and clouds, by ozone, water vapour, dust and clouds.",
+     "About 50 units are absorbed by the land and ocean surface.",
+     "Scattering by gas molecules and dust makes the sky blue, as blue light is scattered most.",
+     "Diagram: a labelled flow diagram with incoming short-wave arrows split into reflected, absorbed by atmosphere and absorbed by surface, and outgoing long-wave, latent and sensible heat arrows."
+    ]
+   },
+   {
+    "h": "Albedo",
+    "points": [
+     "Albedo is the proportion of radiation a surface reflects.",
+     "Fresh snow reflects about 80–90%, sea ice about 50–70% and thick cloud up to about 80%.",
+     "Desert sand reflects about 30–40%, grassland about 25% and forest about 10–20%; open ocean reflects under 10% when the sun is high.",
+     "Changing the surface changes the heat it absorbs: deforestation and urban surfaces alter albedo."
+    ]
+   },
+   {
+    "h": "How the surface loses energy",
+    "points": [
+     "Long-wave radiation is emitted by the surface.",
+     "Latent heat transfer, evaporation, is the largest non-radiative loss, especially from oceans.",
+     "Sensible heat transfer moves heat by conduction to the air touching the ground, which then rises by convection."
+    ]
+   },
+   {
+    "h": "The greenhouse effect",
+    "points": [
+     "Water vapour, carbon dioxide, methane and other gases are largely transparent to incoming short-wave radiation, but they absorb outgoing long-wave radiation and re-radiate much of it back down.",
+     "This keeps the earth's average surface temperature at about 15 °C; without the natural greenhouse effect it would be about −18 °C.",
+     "The enhanced greenhouse effect, caused by added gases, is examined in Climatic environments and climate change and in Environmental pollution."
+    ]
+   },
+   {
+    "h": "The heat budget",
+    "points": [
+     "Over a year the heat budget of the earth as a whole balances: energy in equals energy out, so the average temperature stays stable.",
+     "If more energy is retained than lost, as when greenhouse gases increase, the earth warms until a new balance is reached.",
+     "The budget does not balance at each latitude. Between the equator and about 35–40° north and south more energy is received than is radiated away: this is the surplus.",
+     "Poleward of about 35–40° more energy is lost than received: this is the deficit.",
+     "Without a poleward transfer the tropics would keep heating and the poles would keep cooling. Because they do not, energy must be moved.",
+     "Diagram: a graph of incoming and outgoing radiation against latitude, with the surplus and deficit areas shaded."
+    ]
+   },
+   {
+    "h": "Angle of incidence",
+    "points": [
+     "At the equator the sun's rays strike nearly vertically, concentrating energy on a small area.",
+     "Towards the poles the same beam strikes at a low angle and is spread over a larger area.",
+     "Diagram: two equal beams hitting the curved earth."
+    ]
+   },
+   {
+    "h": "Atmospheric thickness",
+    "points": [
+     "Low-angle rays pass through more atmosphere, so more energy is absorbed, scattered and reflected before it reaches the ground."
+    ]
+   },
+   {
+    "h": "Earth's tilt, orbit and seasons",
+    "points": [
+     "The axis is tilted about 23.5°, so the overhead sun migrates between the Tropic of Cancer (about 23.5° N) and the Tropic of Capricorn (about 23.5° S) through the year, giving seasons and changing day length.",
+     "The sun is overhead at the equator at the equinoxes (about 21 March and 23 September), at the Tropic of Cancer at the June solstice (about 21 June) and at the Tropic of Capricorn at the December solstice (about 21 December).",
+     "The poles have months of continuous daylight in summer and continuous darkness in winter."
+    ]
+   },
+   {
+    "h": "Day length, cloud and surface",
+    "points": [
+     "Long summer days at high latitudes partly offset the low sun angle; the equator has almost the same length of day and night all year.",
+     "Cloudy regions, such as the equatorial belt and mid-latitude west coasts, reflect much insolation, while clear-skied subtropical deserts receive the most at the surface.",
+     "Clouds keep nights warmer by trapping long-wave radiation.",
+     "Snow-covered polar regions reflect most of the little radiation they receive."
+    ]
+   },
+   {
+    "h": "Latitude and temperature",
+    "points": [
+     "Latitude is the main control: temperatures generally fall from the equator to the poles, so isotherms run broadly east–west."
+    ]
+   },
+   {
+    "h": "Land and sea (continentality)",
+    "points": [
+     "Land heats and cools quickly, while the sea heats and cools slowly, because water has a high specific heat, mixes, is transparent and evaporates.",
+     "Continental interiors have hot summers, cold winters and a large annual range; coasts and islands have a small range.",
+     "Ireland's annual range is only about 10 °C, with a mean January of about 4–7 °C and a mean July of about 14–16 °C.",
+     "Verkhoyansk, in north-east Siberia (Russia), has a mean January temperature of about −45 °C and a mean July of about +15 °C, an annual range of over 60 °C and one of the largest on earth.",
+     "Isotherms bend where they cross coasts."
+    ]
+   },
+   {
+    "h": "Ocean currents and temperature",
+    "points": [
+     "Warm currents raise coastal temperatures: the North Atlantic Drift, the extension of the Gulf Stream, keeps Ireland and Britain mild, so January isotherms bend sharply northward over the north-east Atlantic.",
+     "Cold currents lower coastal temperatures, as on the coasts of Peru and south-west Africa, where the Humboldt and Benguela currents flow."
+    ]
+   },
+   {
+    "h": "Altitude",
+    "points": [
+     "Temperature falls by about 6.5 °C per 1,000 m, so mountains and plateaus are cooler than lowlands at the same latitude.",
+     "Mount Kilimanjaro, Tanzania, about 5,900 m high and only about 3° south of the equator, is snow-capped."
+    ]
+   },
+   {
+    "h": "Prevailing winds",
+    "points": [
+     "Onshore westerlies carry ocean warmth in winter and ocean coolness in summer over the west coasts of the mid-latitudes.",
+     "Winds from cold continental interiors bring cold spells, such as polar continental air reaching Ireland (see Atmospheric and oceanic circulation)."
+    ]
+   },
+   {
+    "h": "Aspect and local factors",
+    "points": [
+     "South-facing slopes in the northern hemisphere receive more sun and are warmer, which is why vineyards are often planted on them.",
+     "Urban heat islands are warmer than the surrounding countryside.",
+     "Snow cover keeps the ground cold."
+    ]
+   },
+   {
+    "h": "The thermal equator",
+    "points": [
+     "The thermal equator is the line of highest mean temperature.",
+     "It lies mostly north of the geographical equator because the northern hemisphere has more land, and it moves north and south with the seasons, further over land than over sea."
+    ]
+   },
+   {
+    "h": "Temperature extremes",
+    "points": [
+     "The hottest places are subtropical deserts, not the equator, where cloud and rain limit heating. Furnace Creek, Death Valley, California, recorded 56.7 °C on 10 July 1913, the highest temperature officially recognised by the WMO.",
+     "The coldest places are the interior of Antarctica and, in winter, north-east Siberia. Vostok Station, Antarctica, recorded −89.2 °C on 21 July 1983, the lowest temperature on earth.",
+     "Verkhoyansk and Oymyakon share the northern hemisphere's lowest recorded temperature, about −68 °C.",
+     "On 20 June 2020 Verkhoyansk recorded 38 °C, accepted by the WMO as the highest temperature recorded in the Arctic.",
+     "The annual range is smallest at the equator and over oceans, and largest in high-latitude continental interiors."
+    ]
+   },
+   {
+    "h": "Two linked systems that move heat",
+    "points": [
+     "Heat is transferred by the atmosphere (winds, depressions and tropical cyclones) and by the oceans (surface currents and the deep thermohaline circulation).",
+     "Together they move heat from the surplus belt to the deficit belt. The atmosphere carries most of it at mid and high latitudes, and the oceans carry a large share in the tropics."
+    ]
+   },
+   {
+    "h": "Hadley cell (0–30°)",
+    "points": [
+     "Intense heating at the equator makes air rise, creating low pressure and the ITCZ; the air cools and releases latent heat as convectional rain.",
+     "At height the air flows poleward, sinks at about 30° to form the subtropical high pressure and deserts, and returns to the equator as the trade winds, carrying heat poleward at height.",
+     "The cell is named after George Hadley, who proposed in 1735 that the trade winds came from heated air rising at the equator.",
+     "Diagram: the three-cell model, shown in both hemispheres."
+    ]
+   },
+   {
+    "h": "Ferrel and polar cells (30–90°)",
+    "points": [
+     "The Ferrel cell (30–60°): surface westerlies carry warm air poleward to meet cold polar air at the polar front, at about 60°.",
+     "The polar cell (60–90°): polar air sinks at the poles, forming the polar high, and flows out as polar easterlies.",
+     "Most mid-latitude heat transfer is done by depressions and anticyclones forming along the polar front and by the meandering jet stream (see Atmospheric and oceanic circulation)."
+    ]
+   },
+   {
+    "h": "Latent heat and tropical cyclones",
+    "points": [
+     "Water evaporated over warm tropical oceans carries latent heat poleward; the heat is released where the vapour condenses, for example in a depression over Ireland.",
+     "Tropical cyclones (hurricanes) draw large quantities of heat and moisture from tropical oceans and carry them poleward.",
+     "Ex-hurricane Ophelia began as a hurricane in the tropical Atlantic and reached Ireland on 16 October 2017 (see Weather maps and weather data)."
+    ]
+   },
+   {
+    "h": "Ocean currents and heat transfer",
+    "points": [
+     "Warm currents carry heat poleward along the western sides of ocean basins: the Gulf Stream, Kuroshio, Brazil Current, East Australian Current and Agulhas Current.",
+     "Cold currents return cooled water towards the equator along the eastern sides of ocean basins: the Canary, Benguela, Humboldt (Peru) and California currents, and the Labrador Current.",
+     "The Gulf Stream flows from the Gulf of Mexico and the Straits of Florida north-east along the US east coast and across the Atlantic; it carries more water than all the world's rivers combined.",
+     "Off Europe the Gulf Stream is called the North Atlantic Drift. It reaches the eastern side of the Atlantic at high latitude, so it is the exception to the rule that warm currents lie on western sides."
+    ]
+   },
+   {
+    "h": "Thermohaline circulation",
+    "points": [
+     "The thermohaline circulation, the global conveyor belt, is driven by cold, salty, dense water that sinks in the North Atlantic and around Antarctica and spreads through the deep ocean.",
+     "Warm surface water flows in to replace the sinking water, so heat is carried slowly round the globe over centuries (detail is in Atmospheric and oceanic circulation)."
+    ]
+   },
+   {
+    "h": "Evidence that redistribution works",
+    "points": [
+     "Norway's coast stays ice-free in winter, even north of the Arctic Circle (Hammerfest), and Murmansk, Russia, is an ice-free Arctic port, because of the warm water of the North Atlantic Drift.",
+     "The coast of Labrador, Canada, at about the same latitude as Ireland, has long, freezing winters and sea ice, because the cold Labrador Current flows south past it."
+    ]
+   },
+   {
+    "h": "Changes to redistribution",
+    "points": [
+     "Melting Arctic ice lowers albedo, so more heat is absorbed.",
+     "A weaker Atlantic circulation could change Europe's climate.",
+     "El Niño shifts heat across the Pacific."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Uneven insolation: the solar constant of about 1,361 W/m² is received most directly at the equator, where the rays strike nearly vertically and pass through less atmosphere, and at a low angle towards the poles, which spreads the energy over a larger area; the tilt of about 23.5° moves the overhead sun between the tropics through the year. Heat budget: of 100 units of incoming radiation about 30 are reflected, about 20 absorbed by the atmosphere and about 50 absorbed by the surface, so the budget balances for the whole earth but has a surplus between the equator and about 35–40° and a deficit poleward. Transformation: absorbed radiation becomes sensible heat, energy used to evaporate water is stored as latent heat and released when vapour condenses, and heat differences create pressure differences that become the kinetic energy of wind, waves and currents. Atmospheric redistribution: the Hadley cell (0–30°) rises at the equator and sinks at about 30°, carrying heat poleward at height and returning as the trade winds; the Ferrel cell (30–60°) carries warm air poleward to the polar front at about 60°; the polar cell (60–90°) sinks at the poles and flows out as polar easterlies; depressions and anticyclones along the polar front do most mid-latitude transfer. Latent heat carried by evaporation from tropical oceans is released in depressions far away, and tropical cyclones carry heat and moisture poleward. Oceanic redistribution: warm currents such as the Gulf Stream and its extension, the North Atlantic Drift, flow poleward on the western sides of ocean basins, while cold currents such as the Canary and Humboldt return cooler water towards the equator on the eastern sides; the thermohaline circulation sinks cold, salty water in the North Atlantic and around Antarctica and carries heat slowly round the globe. The effects are visible in Norway's ice-free coast and Ireland's mild winters, and in the cold Labrador coast.",
+    "prompt": "Examine how solar energy is transformed and redistributed through circulation patterns in the atmosphere and oceans.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Latitude: temperatures generally fall from the equator to the poles, so isotherms run east–west. Land and sea: land heats and cools quickly and the sea slowly, so continental interiors have a large annual range; Ireland's range is only about 10 °C, against more than 60 °C at Verkhoyansk in north-east Siberia, where January averages about −45 °C and July about +15 °C. Ocean currents: the North Atlantic Drift, the extension of the Gulf Stream, keeps Ireland and Britain mild, bending January isotherms northward over the north-east Atlantic, while the North Atlantic Drift contrasts with the Labrador Current, which keeps the Labrador coast, at about Ireland's latitude, cold with long, freezing winters and sea ice. Altitude: temperature falls by about 6.5 °C per 1,000 m, so Mount Kilimanjaro, Tanzania, only about 3° south of the equator, is snow-capped. Prevailing winds: onshore westerlies bring ocean warmth in winter and coolness in summer to mid-latitude west coasts, while winds from cold continental interiors bring cold spells to Ireland. Aspect: south-facing slopes in the northern hemisphere are warmer. Local factors: urban heat islands are warmer than the countryside, and snow cover keeps the ground cold. Cloud and albedo: cloudy regions and snow-covered polar regions reflect much insolation and stay cooler. The thermal equator lies mostly north of the geographical equator. Extremes: the hottest places are subtropical deserts, where Furnace Creek, Death Valley, California, recorded 56.7 °C on 10 July 1913, not the equator, where cloud and rain limit heating; the coldest places are the Antarctic interior, where Vostok Station recorded −89.2 °C on 21 July 1983, and north-east Siberia, where Verkhoyansk and Oymyakon share about −68 °C.",
+    "prompt": "Examine the uneven distribution of temperature over the earth's surface.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The heat budget is the balance between the solar energy the earth receives and the energy it radiates away and transfers as heat. Over a year it balances for the earth as a whole: energy in equals energy out, so the average temperature stays stable. It does not balance at every latitude because of uneven insolation: at the equator the sun's rays strike nearly vertically and the energy is concentrated on a small area, while towards the poles the same beam strikes at a low angle, spread over a larger area and passing through more atmosphere. The earth's tilt of about 23.5° also moves the overhead sun between the tropics through the year. As a result, between the equator and about 35–40° more energy is received than radiated away (a surplus), and poleward of that more is lost than received (a deficit). Without a poleward transfer of energy by winds and ocean currents, the tropics would keep heating and the poles would keep cooling.",
+    "prompt": "Explain the term 'heat budget' and why it does not balance at every latitude.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s3": {
+  "keyTerms": [
+   {
+    "definition": "The continuous movement of water between the oceans, atmosphere, land and living things, driven by solar energy and gravity.",
+    "term": "Hydrological cycle"
+   },
+   {
+    "definition": "The average time a water molecule stays in one store, such as the atmosphere or the ocean.",
+    "term": "Residence time"
+   },
+   {
+    "definition": "The amount of water vapour in the air as a percentage of the most it could hold at that temperature.",
+    "term": "Relative humidity"
+   },
+   {
+    "definition": "The temperature to which air must cool for it to become saturated and for condensation to begin.",
+    "term": "Dew point"
+   },
+   {
+    "definition": "Tiny airborne particles, such as dust, sea salt or smoke, around which water droplets form.",
+    "term": "Condensation nuclei"
+   },
+   {
+    "definition": "The cooling of rising air as it expands in lower pressure, without losing heat to its surroundings.",
+    "term": "Adiabatic cooling"
+   },
+   {
+    "definition": "The height at which rising air cools to dew point and cloud begins to form.",
+    "term": "Condensation level"
+   },
+   {
+    "definition": "The growth of ice crystals at the expense of supercooled droplets in clouds colder than 0 °C, leading to snowfall.",
+    "term": "Bergeron–Findeisen process"
+   },
+   {
+    "definition": "The process in warm clouds in which larger droplets collide with and absorb smaller ones until they fall as rain.",
+    "term": "Collision–coalescence"
+   },
+   {
+    "definition": "The dry leeward side of a mountain barrier, where descending air warms and clouds evaporate.",
+    "term": "Rain shadow"
+   },
+   {
+    "definition": "Rain produced when strongly heated ground warms the air above it, which rises, cools and forms cumulonimbus clouds.",
+    "term": "Convectional rainfall"
+   },
+   {
+    "definition": "Fog formed when warm, moist air moves over a colder surface, such as a cold sea.",
+    "term": "Advection fog"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The hydrological cycle",
+    "points": [
+     "The hydrological cycle is a closed system: the total amount of water on earth stays the same, and water moves between stores, driven by solar energy (evaporation) and gravity (precipitation and runoff).",
+     "Diagram: a labelled cycle from ocean to atmosphere to land and back, with the stores drawn as boxes and the flows as arrows."
+    ]
+   },
+   {
+    "h": "Stores of water",
+    "points": [
+     "Oceans hold about 97% of the earth's water; ice sheets and glaciers hold about 2%, most of it in Antarctica; groundwater holds under 1%.",
+     "Lakes, rivers, soil moisture, the atmosphere and living things together hold only a tiny fraction. The atmosphere holds about 0.001% of the earth's water.",
+     "About 2.5–3% of all water is fresh, and most of that is frozen; liquid fresh surface water is a very small part of the total."
+    ]
+   },
+   {
+    "h": "Flows between stores",
+    "points": [
+     "Evaporation: liquid water turns to vapour, mainly from the ocean.",
+     "Transpiration: vapour is released from plant leaves; evapotranspiration is transpiration and evaporation combined over land.",
+     "Sublimation: ice turns directly into vapour.",
+     "Advection: wind carries water vapour from sea to land.",
+     "Condensation: vapour turns to liquid droplets as cloud, fog or dew.",
+     "Precipitation, interception, infiltration, surface runoff, throughflow and groundwater flow return water to the sea; these drainage-basin flows are detailed in the chapter Rivers — Fluvial Processes and Landforms."
+    ]
+   },
+   {
+    "h": "Exchange between ocean and atmosphere",
+    "points": [
+     "Roughly 85–90% of global evaporation comes from the oceans, and roughly three-quarters of global precipitation falls on them.",
+     "The surplus evaporated over the oceans is carried over the land by wind, and returns to the sea through rivers and groundwater."
+    ]
+   },
+   {
+    "h": "Residence time",
+    "points": [
+     "Water stays in the atmosphere for only about 9 days on average, but in the ocean for thousands of years and in the Antarctic ice sheet for far longer.",
+     "The atmosphere's water is therefore recycled quickly, while ocean water changes slowly."
+    ]
+   },
+   {
+    "h": "Variations in the exchange",
+    "points": [
+     "Evaporation exceeds precipitation over the subtropical oceans, which helps explain their high salinity (see The atmosphere and oceans as linked systems).",
+     "Precipitation exceeds evaporation in the equatorial belt and in the mid-latitude westerly belt.",
+     "Deforestation reduces evapotranspiration and so the recycling of rainfall; a large share of the Amazon's rain is water recycled from the forest by evapotranspiration (see One major biome in detail).",
+     "Global warming intensifies the water cycle (see Climatic environments and climate change)."
+    ]
+   },
+   {
+    "h": "Humidity",
+    "points": [
+     "Humidity is the amount of water vapour in the air. Absolute humidity is the mass of water vapour in a volume of air, in g/m³.",
+     "Relative humidity is the amount of water vapour present as a percentage of the most the air could hold at that temperature. Saturated air has a relative humidity of 100%.",
+     "Warm air can hold about 7% more water vapour for each 1 °C rise in temperature.",
+     "Cooling air raises its relative humidity without adding any water, and warming lowers it; this is why relative humidity is usually highest at dawn and lowest in mid-afternoon.",
+     "Dew point is the temperature at which air becomes saturated as it cools; further cooling causes condensation. Measuring humidity is covered in The atmosphere and oceans as linked systems."
+    ]
+   },
+   {
+    "h": "Effects of humidity",
+    "points": [
+     "High humidity in the tropics makes heat oppressive, because sweat evaporates slowly.",
+     "Low humidity in deserts allows rapid evaporation and large daily temperature ranges."
+    ]
+   },
+   {
+    "h": "Evaporation",
+    "points": [
+     "Evaporation is water molecules gaining enough energy to escape as vapour. It takes latent heat from the surface, cooling it, and that energy is released again on condensation (see Solar energy and its redistribution).",
+     "Higher temperature increases evaporation because it gives more energy; strong sunshine and low air pressure also increase it.",
+     "Drier air, with low relative humidity, increases evaporation.",
+     "Wind increases evaporation by removing moist air and replacing it with drier air.",
+     "A large supply of water, such as oceans, lakes or wet ground, allows evaporation to continue."
+    ]
+   },
+   {
+    "h": "Where evaporation is greatest",
+    "points": [
+     "Evaporation is greatest over the subtropical oceans under clear skies and steady trade winds, and along warm currents such as the Gulf Stream; it is least over cold polar seas.",
+     "Potential evapotranspiration far exceeds rainfall in hot deserts, which is the cause of drought (see Climate and economic development)."
+    ]
+   },
+   {
+    "h": "Condensation and condensation nuclei",
+    "points": [
+     "Condensation is water vapour turning into liquid droplets when air cools to its dew point.",
+     "Condensation needs condensation nuclei: tiny particles of dust, sea salt, smoke or pollen around which droplets form."
+    ]
+   },
+   {
+    "h": "How air is cooled to dew point",
+    "points": [
+     "Adiabatic cooling of rising air is the main cause of cloud.",
+     "Contact cooling by radiation occurs when air touches ground that has lost heat at night.",
+     "Advection cooling occurs when warm, moist air moves over a cold surface.",
+     "Mixing of air masses of different temperatures can bring air to dew point."
+    ]
+   },
+   {
+    "h": "Adiabatic temperature change",
+    "points": [
+     "Rising air expands because pressure falls with height, and it cools without losing heat to its surroundings; sinking air is compressed and warms.",
+     "Unsaturated air cools at the dry adiabatic lapse rate, about 10 °C per 1,000 m.",
+     "Once condensation begins, the latent heat released slows the cooling to the saturated adiabatic lapse rate, about 5–7 °C per 1,000 m, which varies with temperature.",
+     "The height at which condensation begins is the condensation level, or cloud base."
+    ]
+   },
+   {
+    "h": "Stability and instability",
+    "points": [
+     "Unstable air: if rising air stays warmer than its surroundings, because the environment cools faster than the rising air does, it keeps rising and forms towering cumulus, showers and thunderstorms. The environmental lapse rate averages about 6.5 °C per 1,000 m.",
+     "Stable air: if rising air becomes cooler than its surroundings, it sinks back, giving layer cloud or clear skies.",
+     "A temperature inversion, with warmer air above cooler air, is very stable and traps fog and pollution.",
+     "Diagram: a temperature-height graph comparing the environmental and adiabatic lapse rates."
+    ]
+   },
+   {
+    "h": "Fog and dew",
+    "points": [
+     "Dew forms on surfaces cooled below dew point on clear, calm nights.",
+     "Hoar frost forms when the dew point is below 0 °C, as vapour turns straight to ice crystals.",
+     "Radiation fog forms on clear, calm nights, usually under anticyclones in autumn and winter, in valleys and hollows; it burns off in the morning sun.",
+     "Advection fog forms when warm, moist air moves over a cold sea or land. The Grand Banks off Newfoundland, Canada, are among the foggiest places on earth, where warm moist air from over the Gulf Stream crosses the cold Labrador Current. San Francisco's summer fogs form where moist Pacific air crosses the cold California Current.",
+     "Hill fog is cloud on high ground; smog is fog mixed with smoke."
+    ]
+   },
+   {
+    "h": "How clouds form",
+    "points": [
+     "Clouds are visible masses of tiny water droplets or ice crystals, formed when rising air cools below its dew point.",
+     "Convection: uplift from surface heating.",
+     "Orographic (relief) uplift: air is forced up over high ground.",
+     "Frontal uplift: warm air rises over cold air at a front.",
+     "Convergence: air streams meet and are forced upward, as at the ITCZ.",
+     "Turbulence: mixing of air that lifts it."
+    ]
+   },
+   {
+    "h": "Cloud names",
+    "points": [
+     "Luke Howard, an English pharmacist and amateur meteorologist, proposed the Latin cloud names cirrus, cumulus, stratus and nimbus in 1803.",
+     "Cirrus means wispy and fibrous, a curl of hair; cumulus means heaped and puffy, a heap; stratus means a layered sheet.",
+     "Nimbus or nimbo- means rain-bearing; alto- means middle level.",
+     "The WMO's International Cloud Atlas sets out the ten main cloud types."
+    ]
+   },
+   {
+    "h": "High clouds (above about 6,000 m, ice crystals)",
+    "points": [
+     "Cirrus: thin wisps, often called mares' tails; fair weather.",
+     "Cirrostratus: a thin milky veil that produces a halo round the sun or moon; rain is likely within hours.",
+     "Cirrocumulus: small ripples, known as a mackerel sky."
+    ]
+   },
+   {
+    "h": "Middle clouds (about 2,000–6,000 m)",
+    "points": [
+     "Altocumulus: grey or white patches in rolls.",
+     "Altostratus: a grey sheet through which the sun shows as if through frosted glass; it thickens ahead of a warm front."
+    ]
+   },
+   {
+    "h": "Low clouds (below about 2,000 m)",
+    "points": [
+     "Stratus: a grey, featureless layer that produces drizzle and hill fog.",
+     "Stratocumulus: a lumpy grey layer, the commonest cloud over Ireland, usually dry or giving light drizzle.",
+     "Nimbostratus: a thick, dark rain cloud giving long periods of steady rain or snow at warm fronts."
+    ]
+   },
+   {
+    "h": "Clouds with vertical development",
+    "points": [
+     "Cumulus: fair-weather heaps with flat bases on sunny days, which can grow into showers.",
+     "Cumulonimbus: a towering cloud with an anvil-shaped top spreading at the tropopause, bringing heavy showers, hail, thunder and lightning, and squalls.",
+     "Heights are approximate for mid-latitudes."
+    ]
+   },
+   {
+    "h": "Cloud sequences and fronts",
+    "points": [
+     "Ahead of a warm front, cirrus is followed by cirrostratus, altostratus and nimbostratus in turn; the full frontal sequence is in Atmospheric and oceanic circulation.",
+     "Cumulonimbus marks a cold front.",
+     "Diagram: a chart of the ten cloud types arranged by height."
+    ]
+   },
+   {
+    "h": "Clouds and the energy balance",
+    "points": [
+     "Low thick clouds cool the surface by reflecting sunlight; high thin clouds warm it by trapping long-wave radiation; cloudy nights are milder."
+    ]
+   },
+   {
+    "h": "Growing raindrops",
+    "points": [
+     "Cloud droplets are far too small to fall; they must grow a great deal before they are heavy enough to reach the ground."
+    ]
+   },
+   {
+    "h": "Ice-crystal process",
+    "points": [
+     "In clouds colder than 0 °C, supercooled droplets and ice crystals exist together. Vapour is deposited on the ice crystals, which grow at the droplets' expense, become heavy and fall as snow, melting into rain below the freezing level.",
+     "This Bergeron–Findeisen process is the main one in mid-latitude clouds, including Ireland's."
+    ]
+   },
+   {
+    "h": "Collision–coalescence process",
+    "points": [
+     "In warm clouds, which are above 0 °C throughout and are common in the tropics, larger droplets fall faster, collide with and absorb smaller ones until they are heavy enough to fall."
+    ]
+   },
+   {
+    "h": "Forms of precipitation",
+    "points": [
+     "Rain: liquid drops.",
+     "Drizzle: very small drops falling from stratus.",
+     "Snow: ice crystals clumped as flakes, falling when the air is near or below freezing to the ground.",
+     "Sleet: melting snow, or rain and snow mixed.",
+     "Hail: layered ice balls formed when strong updrafts in cumulonimbus carry frozen drops up and down repeatedly, adding layers until they are too heavy; hail is mostly a warm-season phenomenon.",
+     "Freezing rain and glaze: rain that freezes on contact with cold surfaces."
+    ]
+   },
+   {
+    "h": "Convectional rainfall",
+    "points": [
+     "1. The ground is heated strongly, warming the air above it.",
+     "2. The warm air expands, rises and cools adiabatically.",
+     "3. When it reaches dew point, cumulus and then cumulonimbus clouds form.",
+     "4. Heavy showers, often with thunder, follow, usually in the afternoon.",
+     "This type is typical of the equatorial belt every day, and of Irish summer afternoons occasionally, especially inland.",
+     "Diagram: a column of rising air above heated ground, topped by cumulonimbus."
+    ]
+   },
+   {
+    "h": "Relief (orographic) rainfall",
+    "points": [
+     "1. Moist air from the sea is forced to rise over a mountain barrier.",
+     "2. It cools, condenses and gives heavy rain on the windward slope.",
+     "3. On the leeward side the air descends, is compressed and warms, so clouds evaporate and a rain shadow results.",
+     "4. A warm, dry föhn-type wind may blow down the lee side (see Atmospheric and oceanic circulation).",
+     "Ireland's west coast mountains receive this rain. In India, the Western Ghats force the Arabian Sea branch of the monsoon to rise, giving heavy rain on the Konkan and Malabar coasts, with the Deccan in rain shadow; Mawsynram and Cherrapunji in the Khasi Hills, Meghalaya, are among the wettest places on earth.",
+     "Diagram: a cross-section of a mountain barrier showing the windward wet slope and the leeward rain shadow."
+    ]
+   },
+   {
+    "h": "Frontal (cyclonic) rainfall",
+    "points": [
+     "1. In a depression, warm, moist tropical air is forced to rise over cold polar air at the warm front, giving gentle ascent and long, steady rain.",
+     "2. At the cold front the warm air is undercut, causing sharp ascent and short, heavy showers.",
+     "Frontal rain is Ireland's main source of rain. The mechanism of depressions is in Atmospheric and oceanic circulation."
+    ]
+   },
+   {
+    "h": "Convergence rainfall",
+    "points": [
+     "Where air streams meet they are forced to rise, as where the trade winds converge at the ITCZ, giving heavy rain."
+    ]
+   },
+   {
+    "h": "Rainfall pattern by latitude",
+    "points": [
+     "Equatorial belt (about 0–10°): heavy rain all year, over 2,000 mm a year, from low pressure, rising air, convergence at the ITCZ, convection and high evaporation from warm seas and forests. Manaus, central Amazon, Brazil, receives about 2,300 mm a year.",
+     "Tropics with a wet and dry season (about 10–20°, savanna and monsoon lands): rain falls in summer when the ITCZ moves over them, and the winter is dry.",
+     "Subtropical high-pressure belts (about 20–30°): very low rainfall and the world's great hot deserts, from sinking, warming, stable air and clear skies. The Atacama, Chile, is the driest non-polar desert on earth, and the Namib receives much of its moisture as fog from the cold Benguela Current.",
+     "Mid-latitudes (about 40–60°): moderate to heavy rain from depressions in the westerlies, wettest on west coasts facing onshore winds (Ireland), decreasing into continental interiors.",
+     "Polar regions: very low precipitation, since cold air holds little vapour and sinking air lies under the polar high pressure. Antarctica is the driest continent, a cold desert.",
+     "Diagram: a pole-to-pole profile of rainfall under the three-cell model."
+    ]
+   },
+   {
+    "h": "Factors modifying rainfall",
+    "points": [
+     "Relief and rain shadow: the leeward side of a mountain barrier receives much less rain (see Relief (orographic) rainfall).",
+     "Distance from the sea: continental interiors are dry because they lie far from the moisture of the oceans.",
+     "Prevailing winds: onshore winds bring rain, while offshore winds bring dry air.",
+     "Ocean currents: warm currents add moisture and instability; cold currents chill the air and make it stable, so rain is rare though fog is common on the coasts named above.",
+     "Seasonal migration: the pressure belts move north and south with the overhead sun, shifting the rain belts with them."
+    ]
+   },
+   {
+    "h": "Seasonal rainfall regimes",
+    "points": [
+     "Equatorial: rain all year, often peaking after the equinoxes.",
+     "Monsoon: a very wet summer and a dry winter, as in India.",
+     "Mediterranean: a wet winter and a dry summer.",
+     "Continental interiors: a summer maximum from convection.",
+     "Irish (oceanic): rain all year, with a maximum in autumn and winter."
+    ]
+   },
+   {
+    "h": "Ireland's rainfall pattern",
+    "points": [
+     "The west is wetter than the east, the mountains are wettest, and the west has more wet days.",
+     "Annual rainfall is about 750 mm in the driest parts of the east, around Dublin, about 1,000–1,250 mm across much of the west, and over 2,000 mm on many western mountains.",
+     "Wet days number about 150 a year on the east and south-east coasts, and up to about 225 a year in parts of the west.",
+     "Causes: prevailing south-westerly winds, Atlantic depressions reaching the west first, relief uplift on the western mountains, and the rain shadow in the east."
+    ]
+   },
+   {
+    "h": "Variability of rainfall",
+    "points": [
+     "Rainfall is least reliable where totals are lowest. In the Sahel, annual rainfall is roughly 200–600 mm, falling in one short summer wet season when the ITCZ moves north, and it varies greatly from year to year, so drought risk is greatest there (see One major biome in detail)."
+    ]
+   },
+   {
+    "h": "Weather and climate regimes",
+    "points": [
+     "Equatorial regime: morning heating gives way to afternoon storms every day.",
+     "Monsoon regime: moist sea air brings a wet summer and dry land air a dry winter over India, as the monsoon reverses.",
+     "Fog deserts: cold-current coasts, such as the Atacama and Namib, have fog rather than rain.",
+     "Irish maritime regime: a cool, cloudy, wet climate fed by moisture from the Atlantic and warmed by the North Atlantic Drift.",
+     "Snowy continental and lake-effect winters: cold, snowy winters with heavy snowfall downwind of large lakes and in continental interiors.",
+     "Intensified water cycle: warming increases evaporation and brings heavier downpours (see Climatic environments and climate change)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "The hydrological cycle is a closed system in which most evaporation (about 85–90%) comes from the oceans and about three-quarters of precipitation falls on them, while the atmosphere holds only about 0.001% of the earth's water and recycles it in about 9 days. Evaporation depends on temperature, dry air, wind, a large water supply, strong sunshine and low pressure, and is greatest over the subtropical oceans and warm currents. Humidity rises and falls with temperature: warm air holds about 7% more vapour for each 1 °C rise, and cooling raises relative humidity to saturation at the dew point. Condensation needs condensation nuclei, and most cloud forms by adiabatic cooling as air rises and expands, at about 10 °C per 1,000 m unsaturated and about 5–7 °C per 1,000 m once it condenses. Three types of rainfall result: convectional rain from strongly heated ground, as in the equatorial belt every day; relief rain on windward slopes, with a rain shadow on the leeward side, as on Ireland's west coast mountains and in India's Western Ghats, where Mawsynram and Cherrapunji are among the wettest places on earth; and frontal rain from depressions, with gentle ascent at the warm front and sharp ascent at the cold front, Ireland's main source of rain. World patterns follow the pressure belts: heavy equatorial rain over 2,000 mm a year where air rises at the ITCZ; wet and dry tropical seasons; the hot deserts of the subtropical highs, such as the Atacama, Chile, the driest non-polar desert; mid-latitude westerly rain, wettest on west coasts facing onshore winds; and dry polar regions, where Antarctica is the driest continent. Modifying factors include relief, distance from the sea, prevailing winds, ocean currents and the seasonal migration of the belts. Ireland's pattern shows these together: about 750 mm in the driest east around Dublin, 1,000–1,250 mm across much of the west and over 2,000 mm on western mountains, with prevailing south-westerlies and the rain shadow in the east.",
+    "prompt": "Exchanges of water between oceans and atmosphere impact on precipitation and its distribution patterns. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "The processes come first: evaporation from warm oceans and humidity, condensation on nuclei and adiabatic cooling, and the three types of rainfall. These produce distinct regimes. The equatorial regime has moist, warm air, convection each day, morning heating and afternoon storms, with rain all year, because the ITCZ and rising air lie over the equator. The Indian monsoon reverses with the seasons: moist sea air brings a very wet summer, while dry land air gives a dry winter. Fog deserts form on the coasts of cold currents, such as the Atacama and the Namib: cold water chills the air, making it stable, so rain is rare but fog from the sea is common, and the Namib receives much of its moisture as fog from the cold Benguela Current. Ireland has a cool, cloudy, wet maritime regime, fed by moisture from the Atlantic and warmed by the North Atlantic Drift, with frontal rain from depressions, orographic rain on the western mountains and a rain shadow in the east, and wet days up to about 225 a year in parts of the west. Cold, snowy continental and lake-effect winters show how the same exchanges give snow where the air is cold and moist. Warming intensifies the cycle, increasing evaporation and bringing heavier downpours.",
+    "prompt": "Examine how exchanges of water between oceans and atmosphere give rise to distinctive weather and climate regimes.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Clouds are classified by shape and by height. Luke Howard proposed the Latin names in 1803: cirrus, meaning wispy and fibrous; cumulus, meaning heaped; stratus, meaning layered; and nimbus, meaning rain-bearing. The WMO's International Cloud Atlas sets out ten main types grouped by height: high clouds above about 6,000 m, middle clouds at about 2,000–6,000 m and low clouds below about 2,000 m, with two types that develop vertically. Cirrus is a high, wispy cloud, usually bringing fair weather. Nimbostratus is a thick, dark, low cloud layer that gives long periods of steady rain or snow at warm fronts. Cumulonimbus is a towering cloud with an anvil-shaped top at the tropopause, bringing heavy showers, hail, thunder and lightning, and squalls.",
+    "prompt": "Explain how clouds are classified, with reference to three cloud types.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s4": {
+  "keyTerms": [
+   {
+    "definition": "The force that moves air from high to low pressure, stronger where the isobars are closer together.",
+    "term": "Pressure gradient force"
+   },
+   {
+    "definition": "The deflection of moving air and water to the right in the northern hemisphere and to the left in the southern hemisphere, caused by the Earth's rotation.",
+    "term": "Coriolis effect"
+   },
+   {
+    "definition": "A wind above friction height that blows parallel to the isobars, where the pressure gradient force and the Coriolis force balance.",
+    "term": "Geostrophic wind"
+   },
+   {
+    "definition": "The net movement of the wind-driven surface layer of the ocean, about 90° to the right of the wind in the northern hemisphere.",
+    "term": "Ekman transport"
+   },
+   {
+    "definition": "A large, circular system of ocean surface currents, driven by wind, the Coriolis effect and the continents.",
+    "term": "Gyre"
+   },
+   {
+    "definition": "The rise of cold, nutrient-rich deep water to the surface, caused by winds pushing surface water away from a coast.",
+    "term": "Upwelling"
+   },
+   {
+    "definition": "The global ocean circulation driven by differences in temperature and salinity, which makes deep water sink and return as surface currents.",
+    "term": "Thermohaline circulation"
+   },
+   {
+    "definition": "The Intertropical Convergence Zone, the equatorial low-pressure belt of calm, rising air and heavy rain.",
+    "term": "ITCZ"
+   },
+   {
+    "definition": "A narrow, fast band of westerly wind near the tropopause, which steers depressions in the mid-latitudes.",
+    "term": "Jet stream"
+   },
+   {
+    "definition": "A front formed when the cold front catches up with the warm front and lifts the warm sector off the ground.",
+    "term": "Occluded front"
+   },
+   {
+    "definition": "The sinking of air, which compresses and warms it, so that clouds evaporate and skies clear.",
+    "term": "Subsidence"
+   },
+   {
+    "definition": "A layer in which temperature increases with height, trapping moisture and pollution beneath it.",
+    "term": "Temperature inversion"
+   },
+   {
+    "definition": "An upslope valley wind that forms by day when the valley sides are heated by sunshine.",
+    "term": "Anabatic wind"
+   },
+   {
+    "definition": "A downslope mountain wind that forms by night when cold, dense air drains off the slopes into the valley.",
+    "term": "Katabatic wind"
+   },
+   {
+    "definition": "A warm, dry wind on the lee side of a mountain range, warmed by the faster dry rate of descent.",
+    "term": "Föhn wind"
+   },
+   {
+    "definition": "A cool onshore wind that blows from the sea to the land by day, caused by land heating faster than the sea.",
+    "term": "Sea breeze"
+   },
+   {
+    "definition": "An offshore wind that blows from the land to the sea at night, caused by land cooling faster than the sea.",
+    "term": "Land breeze"
+   },
+   {
+    "definition": "A long-lived, rotating thunderstorm that can produce tornadoes and very large hail.",
+    "term": "Supercell"
+   },
+   {
+    "definition": "A rise in sea level along a coast caused by the low pressure and strong winds of a storm.",
+    "term": "Storm surge"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Air moves because pressure differences push it. The Earth's rotation and friction then change its path.",
+    "h": "Forces that move air",
+    "points": [
+     "Pressure gradient force: air moves from high to low pressure. The closer the isobars, the steeper the gradient and the stronger the force and wind.",
+     "Pressure differences arise from unequal heating (thermal causes) and from air converging or diverging aloft (dynamic causes).",
+     "Coriolis force: because the Earth rotates, moving air is deflected to the right in the northern hemisphere and to the left in the southern hemisphere.",
+     "The Coriolis effect is zero at the equator and strongest at the poles, and it is greater for faster-moving air. It changes the direction of the wind, not its speed.",
+     "Gaspard-Gustave de Coriolis, a French scientist, described the effect mathematically in 1835.",
+     "Geostrophic wind: above about 1 km, the pressure gradient force and the Coriolis force balance, so the wind blows parallel to the isobars.",
+     "Friction: near the surface, friction with the ground slows the wind and weakens the Coriolis effect, so surface winds cross the isobars at an angle, blowing into lows and out of highs.",
+     "Friction is greater over land than over sea, so surface winds are stronger over the sea and on coasts.",
+     "Result: in the northern hemisphere air spirals anticlockwise into a depression and clockwise out of an anticyclone. The directions reverse in the southern hemisphere.",
+     "Buys Ballot's law, from Weather and Climate — Weather Maps and Satellite Imagery, links the direction of the wind to the position of low pressure.",
+     "Diagram: a globe with arrows showing the Coriolis deflection to the right in the northern hemisphere and to the left in the southern hemisphere."
+    ]
+   },
+   {
+    "b": "Ocean currents are driven mainly by wind. The Coriolis effect, the continents and density then shape them.",
+    "h": "Forces that move water",
+    "points": [
+     "Wind drag: prevailing winds blowing over the sea surface drive the surface currents. The trade winds push the equatorial currents westward, and the westerlies push the mid-latitude currents eastward.",
+     "The surface current is deflected about 45° from the wind direction.",
+     "The net movement of the whole wind-driven layer is about 90° to the right of the wind in the northern hemisphere. This is Ekman transport.",
+     "Vagn Walfrid Ekman, a Swedish oceanographer, described the Ekman spiral and Ekman transport in the early 20th century.",
+     "Density differences: colder and saltier water is denser and sinks, while warmer and fresher water rises or spreads at the surface. This drives the deep thermohaline circulation.",
+     "Continents and the shape of the ocean floor: land masses block and deflect currents north or south, turning them into closed gyres.",
+     "Gravity and tides also move water."
+    ]
+   },
+   {
+    "b": "Air rises near the equator and sinks at around 30° and at the poles. This creates a regular pattern of pressure belts in each hemisphere.",
+    "h": "Pressure belts of the general circulation",
+    "points": [
+     "Equatorial low, also called the ITCZ or doldrums: calm, rising air and heavy rain.",
+     "Subtropical highs at about 30° north and south, also called the horse latitudes: sinking, dry air and deserts.",
+     "Subpolar lows at about 60° north and south: the polar front, where depressions form.",
+     "Polar highs: cold, sinking air.",
+     "Diagram: a tri-cellular model showing the pressure belts, cells and surface winds for both hemispheres."
+    ]
+   },
+   {
+    "h": "Planetary winds",
+    "points": [
+     "North-east and south-east trade winds blow from the subtropical highs towards the ITCZ.",
+     "Westerlies blow from the subtropical highs towards the subpolar lows: south-westerly in the northern hemisphere and north-westerly in the southern hemisphere.",
+     "Polar easterlies blow from the polar highs towards the subpolar lows.",
+     "Each of these winds is deflected by the Coriolis force."
+    ]
+   },
+   {
+    "h": "The three cells",
+    "points": [
+     "Hadley cell: a thermal cell driven by equatorial heating. George Hadley described it in 1735.",
+     "Ferrel cell: an indirect cell driven by the Hadley and polar cells. William Ferrel, an American meteorologist of the 19th century, is associated with it.",
+     "Polar cell: a thermal cell in which cold, dense air sinks at the poles."
+    ]
+   },
+   {
+    "b": "The pressure belts follow the overhead sun, so the whole system shifts with the seasons.",
+    "h": "Seasonal shift of the pressure belts",
+    "points": [
+     "The pressure belts and the ITCZ move north in the northern summer and south in the northern winter.",
+     "The shift is greater over continents than over oceans.",
+     "This shift produces the dry summer of the Mediterranean, which lies under the subtropical high in summer.",
+     "It also brings the summer rain of the monsoon and the single wet season of the Sahel. The monsoon mechanism is covered in A Continental / Subcontinental Region."
+    ]
+   },
+   {
+    "h": "Jet streams",
+    "points": [
+     "Jet streams are narrow, fast bands of westerly wind in the upper troposphere, near the tropopause, at about 9–12 km up.",
+     "They form where temperature contrasts are sharpest and often blow at over 150 km/h. They are faster in winter.",
+     "The polar front jet stream meanders in large waves, called Rossby waves, and steers depressions.",
+     "A strong, straight jet over the Atlantic brings stormy winters to Ireland. Its position decides whether Ireland gets a run of wet, windy depressions or settled weather.",
+     "A slow, looping jet can block weather systems in place for weeks.",
+     "The subtropical jet's role in the Indian monsoon is covered in A Continental / Subcontinental Region."
+    ]
+   },
+   {
+    "b": "The North Atlantic pressure systems that dominate Ireland's weather are linked by a see-saw of pressure.",
+    "h": "North Atlantic pressure control",
+    "points": [
+     "The Icelandic Low and the Azores High dominate Ireland's weather.",
+     "The North Atlantic Oscillation (NAO) is the see-saw of pressure between these two systems. It controls the strength of the westerlies.",
+     "In the positive phase, with a large pressure difference, the westerlies are strong and Irish winters are mild, wet and stormy.",
+     "In the negative phase, with a small pressure difference, the westerlies are weaker, blocking highs are more common, and Irish winters are colder and drier."
+    ]
+   },
+   {
+    "h": "Air masses affecting Ireland",
+    "points": [
+     "Tropical maritime: comes from the Atlantic near the Azores. It is warm, moist and mild, with cloud and drizzle.",
+     "Polar maritime: comes from the North Atlantic near Greenland and Iceland. It is cool, moist and showery, and is Ireland's most frequent air mass.",
+     "Arctic maritime: comes from the Arctic. It is cold, with snow showers in the north and west in winter.",
+     "Polar continental: comes from Russia and Scandinavia in winter. It is very cold and dry, and it brings snow to east coasts after crossing the Irish Sea. The 2018 case is described under Blocking anticyclones.",
+     "Tropical continental: comes from North Africa and southern Europe in summer. It is hot, dry and hazy, and it brings heatwaves."
+    ]
+   },
+   {
+    "h": "Ocean gyres",
+    "points": [
+     "Gyres are large, circular systems of surface currents, driven by wind, the Coriolis effect and the continents.",
+     "Gyres turn clockwise in northern hemisphere oceans and anticlockwise in southern hemisphere oceans.",
+     "The five main gyres are the North Atlantic, South Atlantic, North Pacific, South Pacific and Indian Ocean gyres.",
+     "Diagram: a world map of the main surface currents, with warm currents in red, cold currents in blue, and the five gyres marked."
+    ]
+   },
+   {
+    "b": "The North Atlantic gyre carries warm water to Ireland and returns cold water to the tropics.",
+    "h": "The North Atlantic gyre",
+    "points": [
+     "The North Equatorial Current flows west with the trade winds.",
+     "The current turns north as the Gulf Stream along the North American coast.",
+     "The Gulf Stream starts in the Gulf of Mexico and the Straits of Florida, and it carries more water than all the world's rivers combined.",
+     "The westerlies carry the Gulf Stream north-east across the Atlantic as the North Atlantic Drift, towards Ireland, Britain and Norway.",
+     "Part of the current turns south as the cold Canary Current along north-west Africa and rejoins the North Equatorial Current.",
+     "The calm Sargasso Sea sits in the centre of the gyre. It is named after its floating sargassum seaweed.",
+     "The cold Labrador Current flows south from the Arctic between Greenland and Canada."
+    ]
+   },
+   {
+    "h": "Effects of the North Atlantic circulation",
+    "points": [
+     "The North Atlantic Drift gives Ireland mild winters. It also keeps ports ice-free, and the Norwegian coast stays ice-free at Hammerfest and Murmansk, while Labrador's coast is frozen.",
+     "Warm sea adds moisture and energy to Atlantic depressions.",
+     "Fog forms where the Gulf Stream meets the Labrador Current, and advection fog forms on the Grand Banks off Newfoundland.",
+     "Icebergs are carried south in the Labrador Current. The Titanic sank on 15 April 1912 after hitting an iceberg south of Newfoundland.",
+     "The Saharan coast of north-west Africa is arid, because it lies beside the cold Canary Current."
+    ]
+   },
+   {
+    "h": "Other ocean currents",
+    "points": [
+     "Warm western-boundary currents carry warm water away from the tropics along the western sides of ocean basins: the Kuroshio, Brazil, East Australian and Agulhas currents.",
+     "Cold eastern-boundary currents bring cold water towards the equator along the eastern sides of ocean basins: the California, Humboldt and Benguela currents.",
+     "The Antarctic Circumpolar Current flows west to east round Antarctica. It is the largest ocean current by volume, and no land blocks it.",
+     "The strong westerlies of the Southern Ocean are called the Roaring Forties and the Furious Fifties."
+    ]
+   },
+   {
+    "h": "Upwelling",
+    "points": [
+     "Winds push surface water away from a coast (Ekman transport), and cold, nutrient-rich deep water rises to replace it.",
+     "Plankton thrive in the nutrient-rich water, supporting rich fisheries off Peru, south-west Africa, California and north-west Africa.",
+     "The Peruvian anchoveta fishery, fed by upwelling off Peru in the Humboldt Current, is the largest single-species fishery in the world.",
+     "The cold upwelled water chills the air above it, which gives the coast fog and aridity."
+    ]
+   },
+   {
+    "b": "The thermohaline circulation is the global ocean conveyor belt. It is driven by differences in temperature and salinity.",
+    "h": "Thermohaline circulation",
+    "points": [
+     "Surface water is cooled and made saltier by evaporation and sea-ice formation in the Greenland, Norwegian and Labrador Seas and around Antarctica. It becomes dense and sinks to the ocean floor.",
+     "The deep water flows slowly south through the Atlantic, round Antarctica and into the Indian and Pacific Oceans.",
+     "There the water gradually rises and returns to the surface as warm currents.",
+     "One circuit of the conveyor belt takes about 1,000 years.",
+     "The Atlantic Meridional Overturning Circulation (AMOC) is the Atlantic part of this system. It pulls the Gulf Stream's warm water north.",
+     "Diagram: a world map showing the conveyor belt of deep and surface currents."
+    ]
+   },
+   {
+    "h": "A threat to the circulation",
+    "points": [
+     "Melting Greenland ice and more rain make North Atlantic water fresher and less dense. It may then sink less, and the AMOC may weaken.",
+     "The IPCC (AR6, 2021) judged that the AMOC is very likely to weaken over the 21st century.",
+     "A weaker AMOC could cool north-west Europe relative to the rest of the world and change rainfall patterns."
+    ]
+   },
+   {
+    "b": "A depression is a low-pressure system in the mid-latitudes. It is the main source of Ireland's rain and wind.",
+    "h": "Mid-latitude depressions: definition and origin",
+    "points": [
+     "A depression is roughly 1,000–3,000 km across, with closed isobars, winds blowing anticlockwise inwards in the northern hemisphere, and warm and cold fronts.",
+     "Depressions move from west to east, steered by the jet stream, and bring most of Ireland's rain and wind.",
+     "Polar front theory was developed by the Bergen School of Norwegian meteorologists, led by Vilhelm Bjerknes and his son Jacob, around the end of the First World War.",
+     "Diagram: a plan view of a mature depression with isobars, fronts and the warm sector."
+    ]
+   },
+   {
+    "h": "Formation of a depression",
+    "points": [
+     "1. At the polar front, cold polar maritime air from the north meets warm, moist tropical maritime air from the south-west, and the two move in opposite directions.",
+     "2. A small wave or kink develops on the front, often where the jet stream above is diverging and removing air aloft.",
+     "3. Warm air pushes into the cold air and begins to rise over it. Surface pressure falls, air is drawn in, and it turns anticlockwise under the Coriolis force.",
+     "4. A warm front forms ahead of the warm air and a cold front forms behind it, with the warm sector between them. The system deepens as more warm air rises and latent heat is released.",
+     "5. The cold front moves faster than the warm front and catches up with it, lifting the warm sector off the ground to form an occluded front. This is occlusion.",
+     "6. Once the warm air is cut off from the surface, the depression fills as pressure rises, and it dies. This usually takes a few days to about a week.",
+     "Diagram: a cross-section along a line through both fronts, showing cloud types and rain belts."
+    ]
+   },
+   {
+    "h": "Weather sequence as a depression passes over Ireland",
+    "points": [
+     "Approach: pressure starts to fall. High cirrus is followed by cirrostratus, which gives a halo round the sun. The wind backs, for example from westerly to southerly or south-easterly, and strengthens.",
+     "Warm front: cloud thickens and lowers, first to altostratus and then to nimbostratus. A long period of steady, moderate rain follows, sometimes for several hours. Pressure falls steadily and temperature rises slightly.",
+     "Warm sector: rain eases to drizzle or stops. Low stratus and mist form on hills. The air is mild and humid, the wind veers to south-westerly, and pressure is steady.",
+     "Cold front: cumulonimbus clouds form and bring short, heavy showers, sometimes with hail, thunder and gusty squalls. Temperature falls sharply, the wind veers to westerly or north-westerly, and pressure begins to rise.",
+     "Behind the cold front: the air is clearer, colder and brighter, with scattered cumulus and showers and good visibility. Pressure rises.",
+     "Occluded front: the cloud and rain of both fronts combine, often with lighter rain as the system ages."
+    ]
+   },
+   {
+    "h": "Impact of depressions on Ireland's weather",
+    "points": [
+     "Ireland's weather is changeable, with rain in every month, because depressions cross the country regularly.",
+     "The west is wetter than the east, because depressions arrive there first.",
+     "Strong winds and storms are most common in autumn and winter, when the temperature contrast and the jet stream are strongest.",
+     "Coastal storm surges accompany the strongest depressions.",
+     "Flooding happens when depressions follow each other in quick succession.",
+     "Storms named by Met Éireann include ex-hurricane Ophelia (16 October 2017) and Storm Éowyn (24 January 2025, when Red wind warnings were issued)."
+    ]
+   },
+   {
+    "h": "Anticyclones: definition and formation",
+    "points": [
+     "An anticyclone is an area of high pressure with widely spaced, closed isobars. It has light winds blowing clockwise outwards in the northern hemisphere, and no fronts.",
+     "Anticyclones are large and slow-moving, and they can last for days or weeks.",
+     "Air converging high in the atmosphere sinks, a process called subsidence. As it sinks it is compressed and warms adiabatically, so its relative humidity falls and clouds evaporate.",
+     "Dynamic (warm) highs form from sinking air in the general circulation. The Azores High is an example, and it often extends a ridge over Ireland in summer.",
+     "Thermal (cold) highs form when the ground cools intensely in winter. The Siberian High, a cold anticyclone over Central Asia, is an example.",
+     "A temperature inversion often forms in the sinking air, trapping moisture and pollution beneath it."
+    ]
+   },
+   {
+    "h": "Anticyclone weather in summer",
+    "points": [
+     "Clear skies, strong sunshine, high daytime temperatures and light winds.",
+     "Cool nights with dew and sometimes morning mist.",
+     "Occasional thunderstorms, triggered by the heat, at the edges of the high.",
+     "Sea breezes on coasts by day.",
+     "Prolonged summer highs cause heatwaves and drought."
+    ]
+   },
+   {
+    "h": "Anticyclone weather in winter",
+    "points": [
+     "Clear nights let the ground lose heat rapidly. This causes hard frost and freezing fog in valleys (radiation fog), which may persist all day.",
+     "Cold, crisp, sunny days are common.",
+     "Anticyclonic gloom: a layer of stratocumulus is trapped under the inversion, keeping the sky grey and dull.",
+     "Smog forms in towns where pollution is trapped, as described in Economic Activity and Environmental Impact."
+    ]
+   },
+   {
+    "h": "Blocking anticyclones and the 2018 case",
+    "points": [
+     "A high that stays in place, often over Scandinavia or west of Ireland, blocks the westerly flow and diverts depressions north or south.",
+     "The result is a long spell of dry weather, with a heatwave in summer or a cold spell in winter, while other regions get prolonged rain.",
+     "A block to the east can draw very cold polar continental air to Ireland.",
+     "In late February and early March 2018, a block of high pressure over Scandinavia drew bitterly cold polar continental air from Russia over Ireland. This was the Beast from the East.",
+     "Storm Emma then arrived from the south on 1–2 March 2018, bringing heavy snow.",
+     "Met Éireann issued a Red snow warning for the whole country. It was the first nationwide Red warning."
+    ]
+   },
+   {
+    "h": "Depressions and anticyclones compared",
+    "points": [
+     "Pressure: a depression has low pressure at its centre and an anticyclone has high pressure.",
+     "Isobars: closely spaced in a depression, widely spaced in an anticyclone.",
+     "Wind: strong in a depression and light in an anticyclone.",
+     "Air movement: air rises in a depression and sinks in an anticyclone.",
+     "Cloud and rain: cloud and rain in a depression, clear skies in an anticyclone.",
+     "Typical weather: changeable, windy and wet in a depression, and settled, dry and calm in an anticyclone.",
+     "Movement: depressions travel from west to east, while anticyclones are slow-moving."
+    ]
+   },
+   {
+    "h": "Sea breezes by day",
+    "points": [
+     "Land heats faster than the sea under sunshine. Air over the land warms, expands and rises, creating lower pressure over the land, while the cooler sea has relatively higher pressure.",
+     "Cool air flows onshore from the sea to the land.",
+     "The air that rose returns seaward at height and sinks over the sea, completing a circulation cell.",
+     "Sea breezes are strongest on hot, calm, sunny summer afternoons, often under an anticyclone, and in the tropics they may blow most days."
+    ]
+   },
+   {
+    "h": "Land breezes by night",
+    "points": [
+     "After sunset, land loses heat faster than the sea. Air over the land cools and becomes denser, creating higher pressure over the land and lower pressure over the warmer sea.",
+     "Air flows offshore, from the land to the sea.",
+     "The land breeze is weaker than the sea breeze, because the night-time temperature difference is smaller.",
+     "Diagram: two cross-sections, one for day and one for night, with arrows showing the direction of the air and the relative pressure."
+    ]
+   },
+   {
+    "h": "Impact of land and sea breezes on weather",
+    "points": [
+     "Sea breezes lower coastal temperatures in the afternoon and raise humidity.",
+     "A sea-breeze front can trigger a line of cumulus or showers inland.",
+     "Sea breezes can carry sea fog onshore and trap urban pollution.",
+     "Land breezes help clear coastal fog.",
+     "Sailing fishermen traditionally went out at dawn with the land breeze and came back in the afternoon with the sea breeze.",
+     "Lake breezes form in the same way on large lakes."
+    ]
+   },
+   {
+    "h": "Valley winds by day (anabatic)",
+    "points": [
+     "Sunshine heats the valley sides. Air in contact with them warms and rises upslope.",
+     "Cumulus may form over the peaks in the afternoon."
+    ]
+   },
+   {
+    "h": "Mountain winds by night (katabatic) and their effects",
+    "points": [
+     "Slopes lose heat by radiation. Air in contact with them cools, becomes denser and drains downslope under gravity, collecting on the valley floor.",
+     "Cold air pooling on the valley floor creates frost hollows and temperature inversions, so valley floors are colder than the slopes above.",
+     "Orchards and vineyards are planted on slopes above the frost line to avoid frost hollows.",
+     "Radiation fog forms in the valleys.",
+     "In Antarctica and Greenland, katabatic winds flowing off the ice sheets can reach gale force."
+    ]
+   },
+   {
+    "b": "A föhn is a warm, dry wind on the lee side of a mountain range. Its temperature change comes from the difference between saturated and dry cooling and warming.",
+    "h": "Föhn winds",
+    "points": [
+     "The name föhn comes from the Alps, the original area where the wind was described, in the German-speaking Alpine valleys.",
+     "Air rising on the windward side cools at the saturated rate after condensation begins.",
+     "Air descending on the lee side warms at the faster dry rate, so it arrives warmer and drier than it started.",
+     "The föhn is warm because of this difference in rates, not because the air comes from a warm place.",
+     "Effects: rapid snowmelt, avalanche and fire risk, and sudden temperature rises.",
+     "The Chinook is a föhn on the eastern (lee) side of the Rocky Mountains in Canada and the USA. It is called the snow eater because it melts snow rapidly.",
+     "Diagram: a day and night cross-section of a valley showing the anabatic and katabatic flows."
+    ]
+   },
+   {
+    "h": "Cold mountain-gap winds of the Mediterranean",
+    "points": [
+     "The mistral is a cold, dry northerly wind funnelled down the Rhône valley in southern France to the Mediterranean.",
+     "The bora is a cold, dry north-easterly wind descending to the Adriatic coast, in Croatia and at Trieste in Italy.",
+     "Both winds pour from high ground towards the sea, usually when high pressure lies inland and low pressure lies over the sea."
+    ]
+   },
+   {
+    "h": "Conditions for thunderstorms",
+    "points": [
+     "Thunderstorms need plentiful moisture and unstable air.",
+     "They also need a trigger to lift the air: strong surface heating (convection), a cold front, mountains, or converging air."
+    ]
+   },
+   {
+    "h": "Stages of a thunderstorm",
+    "points": [
+     "1. Cumulus (developing) stage: warm, moist air rises in strong updrafts. Condensation releases latent heat, which keeps the air warmer than its surroundings so that it rises faster. Cloud grows above the freezing level, but there is no rain yet.",
+     "2. Mature stage: water drops and ice grow large enough to fall. They drag air down and create downdrafts beside the updrafts. Heavy rain, hail, lightning, thunder and gusty winds reach the surface, and the cloud top spreads into an anvil at the tropopause. This is the most violent stage.",
+     "3. Dissipating stage: downdrafts spread through the cloud and cut off the supply of warm, moist air. The rain becomes lighter and the cloud breaks up. A single cell lasts about an hour.",
+     "Diagram: a cumulonimbus cell in its three stages, with updraft and downdraft arrows, the freezing level and the anvil at the tropopause."
+    ]
+   },
+   {
+    "h": "Lightning and thunder",
+    "points": [
+     "Collisions between ice crystals, hailstones and supercooled droplets separate electrical charges. The top of the cloud is usually positive and the base negative.",
+     "A lightning discharge occurs within the cloud, between clouds, or to the ground.",
+     "A lightning bolt heats the air along its path to around 30,000 °C, several times hotter than the surface of the sun.",
+     "The heated air expands explosively. This expansion, not collisions between clouds, is the thunder.",
+     "Light travels faster than sound, so the flash is seen first. Counting the seconds to the thunder gives the distance, at about 3 seconds per km."
+    ]
+   },
+   {
+    "h": "Types of thunderstorm",
+    "points": [
+     "Air-mass (convectional) thunderstorms form in hot, humid air.",
+     "Frontal thunderstorms form along vigorous cold fronts.",
+     "Orographic thunderstorms form over mountains.",
+     "Supercells are long-lived, rotating storms that can produce tornadoes and very large hail. They are common on the US Great Plains."
+    ]
+   },
+   {
+    "h": "Distribution and impact of thunderstorms",
+    "points": [
+     "Thunderstorms are most frequent over tropical land, where they occur daily in the equatorial belt. They are less frequent in the mid-latitudes and rare at the poles.",
+     "Lake Maracaibo, Venezuela, has the highest density of lightning on Earth. This is the Catatumbo lightning, measured by NASA satellites.",
+     "The Congo Basin in Central Africa also has very frequent thunderstorms.",
+     "Ireland has relatively few thunderstorms, mainly in summer inland and with active cold fronts.",
+     "Impacts: flash flooding, hail damage to crops, lightning strikes that cause fires, power cuts and deaths, and downbursts that are dangerous to aircraft."
+    ]
+   },
+   {
+    "h": "Conditions for tropical cyclones",
+    "points": [
+     "They form over sea-surface temperatures of at least about 26–27 °C, over a deep layer of ocean.",
+     "They form at least about 5° from the equator, because the Coriolis force is needed to start the rotation.",
+     "Light winds aloft (low wind shear) and warm, moist, unstable air are also needed.",
+     "The North Atlantic hurricane season runs from 1 June to 30 November."
+    ]
+   },
+   {
+    "h": "Formation and structure of a tropical cyclone",
+    "points": [
+     "Clusters of thunderstorms form over warm ocean. Rising air and released latent heat lower the pressure at the centre.",
+     "Inflowing air spirals in and rises in the eyewall. The calm, clear eye at the centre has sinking air, and spiral rain bands surround the eye.",
+     "Cyclones weaken over land or cold water, because the evaporation from warm sea that fuels them is cut off.",
+     "Diagram: a cross-section of a tropical cyclone showing the eye and the eyewall."
+    ]
+   },
+   {
+    "h": "Names and scale of tropical cyclones",
+    "points": [
+     "A hurricane forms in the Atlantic and north-east Pacific.",
+     "A typhoon forms in the north-west Pacific.",
+     "A cyclone forms in the Indian Ocean and the South Pacific.",
+     "The Saffir–Simpson scale has categories 1 to 5. Category 1 begins at sustained winds of 119 km/h (74 mph), and category 5 at 252 km/h (157 mph) or more."
+    ]
+   },
+   {
+    "h": "Impacts of tropical cyclones: case examples",
+    "points": [
+     "Tropical cyclones bring destructive winds, torrential rain and flooding. Storm surge is usually the biggest killer.",
+     "Hurricane Katrina, August 2005: levee and floodwall failures flooded about 80% of New Orleans, and about 1,800 people died.",
+     "Typhoon Haiyan, called Yolanda in the Philippines, November 2013: one of the strongest tropical cyclones ever recorded at landfall. Its storm surge devastated Tacloban on Leyte, and over 6,000 people died in the Philippines.",
+     "Odisha super cyclone, October 1999: about 10,000 deaths.",
+     "Hurricane Mitch, October 1998: about 11,000 people were killed in Central America, mainly in Honduras and Nicaragua, by floods and landslides."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Mid-latitude depressions form at the polar front, where cold polar maritime air meets warm tropical maritime air. A wave develops on the front, warm air rises over the cold air, surface pressure falls and the air spirals in anticlockwise in the northern hemisphere. A warm front and a cold front form around a warm sector, the system deepens as latent heat is released, the cold front catches up to form an occluded front, and the depression fills and dies after a few days to about a week. Impacts: changeable weather with rain in every month, a wetter west because depressions arrive there first, strong winds and storms in autumn and winter, coastal storm surges, and flooding when depressions follow in quick succession. Anticyclones form when air converges high up, sinks, is compressed and warms, so its humidity falls and clouds evaporate; dynamic highs such as the Azores High come from sinking air in the general circulation, while thermal highs such as the Siberian High form when the ground cools intensely in winter. A temperature inversion often traps moisture and pollution beneath the sinking air. Impacts: clear, hot, calm summer weather with heatwaves and drought; winter hard frost and radiation fog in valleys, cold crisp days, anticyclonic gloom under stratocumulus, and smog in towns. A blocking anticyclone holds still for long dry spells, and a block to the east can draw very cold polar continental air to Ireland. Land and sea breezes form because land heats and cools faster than the sea. By day, the land warms, its air rises, pressure falls over the land and cool air flows onshore; the air returns seaward at height and sinks over the sea. By night, the land cools, its air becomes denser, and the land breeze blows offshore, weaker than the sea breeze. Impacts: afternoon coastal cooling and higher humidity, a sea-breeze front that can trigger showers inland, land breezes that clear coastal fog, and sea breezes that can carry fog onshore and trap urban pollution.",
+    "prompt": "Describe the formation of each of the following and discuss its impact on weather patterns: mid-latitude depressions; anticyclones; land and sea breezes.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Forces: pressure gradient force moves air from high to low pressure; the Coriolis effect deflects moving air and water to the right in the northern hemisphere and to the left in the southern hemisphere; friction makes surface winds cross the isobars. Pressure belts and planetary winds: the equatorial low (ITCZ) brings calm, rising air and heavy rain; the subtropical highs at about 30 degrees bring sinking, dry air and deserts; the subpolar lows at about 60 degrees bring depressions along the polar front; the trade winds, westerlies and polar easterlies carry air between these belts. The Hadley, Ferrel and polar cells link them. The pressure belts shift north and south with the sun, so the Mediterranean has a dry summer and monsoon regions have summer rain. Jet streams steer depressions, and a strong straight jet brings stormy winters while a slow, looping jet causes blocking. North Atlantic gyre: the North Equatorial Current, the Gulf Stream and the North Atlantic Drift carry warm water to Ireland, giving mild winters and ice-free ports; warm sea feeds depressions with moisture and energy; the Gulf Stream meets the cold Labrador Current, which brings icebergs and fog. Upwelling: winds push surface water offshore, cold nutrient-rich water rises, plankton thrive and fisheries such as the Peruvian anchoveta fishery develop; the cold water chills the air, giving fog and aridity on coasts such as the Saharan coast beside the Canary Current. Thermohaline circulation: cold, salty water sinks in the North Atlantic and around Antarctica and returns to the surface about 1,000 years later; the AMOC pulls the Gulf Stream north, and its weakening could change European rainfall patterns. Local circulation: anticyclones and depressions, and sea breezes and mountain winds, add local weather such as fog, frost and showers.",
+    "prompt": "Circulation in both the atmosphere and the oceans gives rise to different weather patterns. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "By day, sunshine heats the valley sides and the air in contact with them warms and rises upslope as a valley wind, which may produce cumulus over the peaks. By night, the slopes lose heat by radiation, the cold air in contact with them becomes denser and drains downslope as a mountain wind, collecting on the valley floor and creating frost hollows and radiation fog. A föhn is a warm, dry wind on the lee side of a mountain: air rising on the windward side cools at the saturated rate, and descending on the lee side it warms at the faster dry rate, so it arrives warmer and drier than it started.",
+    "prompt": "Explain how mountain and valley winds form.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s5": {
+  "keyTerms": [
+   {
+    "definition": "A large area with a similar pattern of temperature, precipitation and seasons, usually matched by similar vegetation and soils.",
+    "term": "Climatic environment"
+   },
+   {
+    "definition": "A system that divides the world's climates mainly by temperature and precipitation thresholds that match vegetation.",
+    "term": "Köppen classification"
+   },
+   {
+    "definition": "A climate with a seasonal reversal of wind direction, bringing a very wet summer and a dry winter.",
+    "term": "Monsoon"
+   },
+   {
+    "definition": "The Intertropical Convergence Zone, the belt near the equator where the trade winds converge and moist air rises.",
+    "term": "ITCZ"
+   },
+   {
+    "definition": "The increase in temperature range and dryness with distance from the sea, because land heats and cools quickly.",
+    "term": "Continentality"
+   },
+   {
+    "definition": "A belt of high pressure and sinking air that moves seasonally, bringing dry conditions to the regions it covers.",
+    "term": "Subtropical high"
+   },
+   {
+    "definition": "Regular changes in the earth's orbit and axis that alter how sunlight is distributed by latitude and season, driving glacial cycles.",
+    "term": "Milankovitch cycles"
+   },
+   {
+    "definition": "The process by which melting ice exposes darker surfaces that absorb more heat, causing further warming.",
+    "term": "Albedo feedback"
+   },
+   {
+    "definition": "The warming of the central and eastern Pacific, with weakened trade winds, that disrupts weather around the world.",
+    "term": "El Niño"
+   },
+   {
+    "definition": "The opposite phase of ENSO, with stronger trade winds and a cooler than normal eastern Pacific.",
+    "term": "La Niña"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A climatic environment is a large area with a similar pattern of temperature, precipitation and seasons, usually matched by similar vegetation and soils. Weather is the short-term state of the atmosphere; climate is the average pattern over many years (see the note Weather maps and weather data).",
+    "h": "Climatic environments and how they are classified",
+    "points": [
+     "The Köppen system, devised by Wladimir Köppen, a German-Russian climatologist, divides the world mainly by temperature and precipitation thresholds that match vegetation.",
+     "Its broad groups are tropical, dry, warm temperate, cool temperate (continental) and polar.",
+     "Climates are arranged in belts by latitude, then modified by distance from the sea, ocean currents, relief, and whether a place lies on the east or the west side of a continent.",
+     "Controls on climate: latitude and insolation; pressure belts and planetary winds with their seasonal shift; air masses; ocean currents; continentality; altitude and relief (explained in the notes Solar energy and its redistribution and Atmospheric and oceanic circulation).",
+     "Diagram: a world map of the main climate regions."
+    ]
+   },
+   {
+    "b": "The equatorial (tropical rainforest) climate lies close to the equator, mainly in the Amazon Basin, the Congo Basin and South-East Asia (Indonesia and Malaysia).",
+    "h": "Equatorial climate: location and temperature",
+    "points": [
+     "Temperatures are high all year, with monthly means of about 26–28 °C.",
+     "The annual range is tiny, about 2–3 °C, but the daily range is larger than the annual range: afternoon highs of about 30–32 °C and night lows of about 22–24 °C.",
+     "The sun is always high in the sky and is overhead at the equator at the equinoxes (March and September), so there is little change in heat input through the year.",
+     "Cloud cover stops temperatures rising much above the low 30s °C.",
+     "Pressure is permanently low in the equatorial trough (the ITCZ, or doldrums), where the trade winds converge; winds are light and variable."
+    ]
+   },
+   {
+    "h": "Equatorial climate: precipitation, humidity and the daily weather cycle",
+    "points": [
+     "Rainfall is over 2,000 mm a year (Manaus, Brazil, about 2,300 mm) and falls in every month.",
+     "There are often two wetter peaks after the equinoxes, when the overhead sun and the ITCZ pass over.",
+     "The rain is convectional: intense heating and very moist air from warm seas and forest transpiration build towering clouds that produce heavy afternoon thunderstorms.",
+     "Trade winds converge at the ITCZ, which lifts and reinforces the moist air.",
+     "Relative humidity is often over 80%, and the air is humid at night too.",
+     "Daily cycle: a clear, calm, humid morning; cumulus building by late morning; cumulonimbus and torrential rain with thunder in the afternoon; clearing in the evening.",
+     "The climate has no temperate-style seasons."
+    ]
+   },
+   {
+    "h": "Equatorial climate: vegetation and human response",
+    "points": [
+     "Tropical rainforest grows on latosols; the note One major biome in detail gives the detail.",
+     "Forest clearance for farming and timber is the main human pressure on the rainforest."
+    ]
+   },
+   {
+    "b": "A monsoon climate has a seasonal reversal of wind direction, bringing a very wet summer and a dry winter. The word monsoon comes from the Arabic word for season. The classic monsoon climate is in South and South-East Asia, especially India; weaker monsoon climates occur in other tropical regions.",
+    "h": "Monsoon climate: location, definition and seasons",
+    "points": [
+     "The hot season before the rains: temperatures often exceed 40 °C on the northern plains.",
+     "The wet south-west monsoon, from June to September: slightly cooler than the hot season because of cloud and rain.",
+     "The cool dry season: pleasant, with cool nights in the north.",
+     "The south-west monsoon normally reaches Kerala around 1 June and covers all of India by mid-July."
+    ]
+   },
+   {
+    "h": "Monsoon climate: how the summer monsoon forms",
+    "points": [
+     "1. Intense heating of the land and of the high land to the north creates low pressure over north-west India.",
+     "2. The ITCZ moves north.",
+     "3. The south-east trade winds cross the equator and are deflected by the Coriolis force into south-west winds, which gather moisture over the sea to the south.",
+     "4. The subtropical jet stream shifts north of the mountains to the north, allowing the monsoon to burst suddenly.",
+     "Reference: the note India explains the monsoon in more detail."
+    ]
+   },
+   {
+    "h": "Monsoon climate: rainfall pattern and the winter monsoon",
+    "points": [
+     "Relief rain falls on the Western Ghats and on the Khasi Hills of Meghalaya; Mawsynram and Cherrapunji, in the Khasi Hills, are among the wettest places on earth.",
+     "The Deccan lies in a rain shadow, and rainfall decreases towards the north-west, with the Thar Desert in Rajasthan the driest region.",
+     "Kolkata is wetter than Delhi.",
+     "In winter the land cools and high pressure builds over the interior of Asia; dry north-east winds blow off the land.",
+     "Mountains to the north block cold air from the interior of Asia from reaching India.",
+     "The east coast of southern India gets winter rain from the north-east monsoon after it has crossed the sea."
+    ]
+   },
+   {
+    "h": "Monsoon climate: variability, hazards and human response",
+    "points": [
+     "Late, weak or broken monsoons bring drought; very heavy ones bring floods.",
+     "The Odisha super cyclone of October 1999 killed about 10,000 people.",
+     "El Niño years often bring a weaker Indian monsoon (see El Niño below).",
+     "Kharif crops such as rice are sown with the monsoon rains; rabi crops such as wheat rely on stored water and irrigation."
+    ]
+   },
+   {
+    "b": "This climate lies on west coasts in the path of the westerlies, including north-west Europe: Ireland, Britain, north-west France, Belgium, the Netherlands, Denmark and coastal Norway. Other west coasts in the same latitude belt in both hemispheres share it.",
+    "h": "Cool temperate oceanic (mid-latitude west coast) climate: location and temperature",
+    "points": [
+     "Winters are mild and summers are cool, with a small annual range: Ireland's mean January is about 4–7 °C and its mean July about 14–16 °C, an annual range of about 10 °C.",
+     "Frost and snow are infrequent on low ground.",
+     "The climate of Ireland is described at Core level in the note Physical regions."
+    ]
+   },
+   {
+    "h": "Cool temperate oceanic climate: precipitation and weather",
+    "points": [
+     "Rain falls in all months, with a maximum in autumn and winter and many wet days: about 150 a year in the east and south-east of Ireland and up to about 225 in parts of the west.",
+     "Annual rainfall is about 750 mm in the driest east (around Dublin), about 1,000–1,250 mm across much of the west, and over 2,000 mm on many western mountains.",
+     "Most rain is frontal (cyclonic), with relief rain on west-facing mountains; amounts fall from west to east.",
+     "Prevailing south-westerly winds bring maritime air off the Atlantic.",
+     "The North Atlantic Drift, the extension of the Gulf Stream, warms winter air and seas.",
+     "The sea heats and cools slowly, moderating the seasons.",
+     "Depressions form frequently on the polar front and are steered by the jet stream, so the weather is changeable as depressions and ridges of high pressure alternate.",
+     "Occasional anticyclones bring dry spells, most often in summer.",
+     "Tropical and polar maritime air masses are the most common.",
+     "Vegetation is deciduous woodland and grass on brown earths.",
+     "Eastwards the oceanic influence weakens, and the climate grades into the continental climate of central and eastern Europe (see the note Physical regions)."
+    ]
+   },
+   {
+    "b": "The Mediterranean climate lies on the west sides of continents: the Mediterranean Basin, central and southern California, central Chile, the Cape Town area of South Africa, and south-western and southern Australia (around Perth and Adelaide).",
+    "h": "Mediterranean climate: location and temperature",
+    "points": [
+     "Summers are hot: lowland July means are about 25 °C or more, for example in southern Italy.",
+     "Winters are mild: coastal January means are about 9–12 °C, and frost is rare on the coasts.",
+     "Inland and upland areas have hotter summers and colder winters than the coast."
+    ]
+   },
+   {
+    "h": "Mediterranean climate: precipitation and pressure",
+    "points": [
+     "Rainfall is moderate, under 600 mm a year on parts of the Puglia lowlands and Sicily, and most of it falls from October to March.",
+     "Summers are dry, with drought for several months; rain often falls in intense downpours that cause flash floods and soil erosion.",
+     "In summer the subtropical high pressure belt moves poleward over the region, bringing sinking, warming air, clear skies and no rain.",
+     "In winter the pressure belts shift towards the equator, so the westerlies and their depressions bring rain; the warm Mediterranean Sea also spawns its own winter depressions.",
+     "On some of these coasts cold currents (the California, Humboldt, Benguela and Canary currents) keep summers cooler and drier.",
+     "The sirocco is a hot, dry, dusty wind from the Sahara; the mistral and the bora are cold winds (see Atmospheric and oceanic circulation)."
+    ]
+   },
+   {
+    "h": "Mediterranean climate: vegetation, hazards and human response",
+    "points": [
+     "Drought-tolerant vegetation: olives, vines and cork oak, and maquis scrub; citrus grows where it is irrigated.",
+     "Hazards: summer water shortage, and wildfires in hot, dry, windy summers.",
+     "The Mati wildfire near Athens, Greece, in July 2018 killed about 100 people, one of the deadliest wildfires in Europe.",
+     "Human response: water storage and irrigation, and tourism (see Climate and economic development)."
+    ]
+   },
+   {
+    "b": "The continental climate lies in the interiors of the large northern-hemisphere continents, far from the sea: across central and eastern Europe and Russia (Moscow), the steppes of Ukraine and southern Russia, the Canadian Prairies and the Great Plains of the USA. There is no large equivalent in the southern hemisphere, which has too little land at these latitudes.",
+    "h": "Continental climate: location and temperature",
+    "points": [
+     "Winters are very cold, with monthly means well below 0 °C for several months: Moscow about −7 °C in January and Winnipeg about −16 °C in January.",
+     "Summers are warm to hot: Moscow about 19 °C and Winnipeg about 20 °C in July.",
+     "The annual range is large and increases with distance from the sea; Verkhoyansk has an annual range of over 60 °C.",
+     "Spring and autumn are short."
+    ]
+   },
+   {
+    "h": "Continental climate: precipitation and reasons",
+    "points": [
+     "Precipitation is low to moderate and decreases into the interior: Moscow receives about 600–700 mm a year, with a summer maximum.",
+     "The summer maximum comes from convectional thunderstorms as the land heats up; winter precipitation falls as snow, which lies for months.",
+     "Continentality: the land heats and cools quickly, and there is no sea to moderate the temperature.",
+     "Distance from the oceans: the westerlies have lost most of their moisture crossing the land, and mountains block Pacific air from reaching the interior.",
+     "The winter Siberian High, a cold, dry, clear thermal anticyclone, sits over the continent; North America has an equivalent.",
+     "Summer low pressure over the heated land draws in some moist air."
+    ]
+   },
+   {
+    "h": "Continental climate: extremes, vegetation and human response",
+    "points": [
+     "Hazards: blizzards; cold waves of arctic air; summer heatwaves, drought and dust storms, as in the Dust Bowl of the 1930s on the Great Plains (see Human interaction: mass movement); floods when the spring snowmelt comes.",
+     "Vegetation is temperate grassland (steppe and prairie) on chernozems, the black soils of the steppes of Ukraine and southern Russia, the Prairies and the Pampas (see Soil processes and the global pattern of soils).",
+     "Human response: wheat and maize belts on the grassland; boreal forest further north."
+    ]
+   },
+   {
+    "b": "Hot deserts lie on the west sides of continents, for example the Sahara, the Atacama and the Namib (see One major biome in detail).",
+    "h": "Hot desert climate (compact)",
+    "points": [
+     "Rainfall is very low and unreliable because of sinking air in the subtropical high pressure belt, offshore trade winds, cold currents and rain shadows.",
+     "The highest air temperatures on earth were recorded: 56.7 °C at Furnace Creek, Death Valley, on 10 July 1913, a WMO record.",
+     "The daily range is very large, often 20–30 °C or more, because dry, cloudless air lets heat escape at night.",
+     "Fog forms on coasts with cold currents.",
+     "The Sahara covers about 9 million km², the world's largest hot desert; the Atacama is the driest non-polar desert.",
+     "Cold currents on desert coasts: the Canary (Sahara), Benguela (Namib), Humboldt (Atacama) and California (Sonoran coast)."
+    ]
+   },
+   {
+    "h": "Climate changes across space",
+    "points": [
+     "From equator to pole: temperature falls and seasonal contrasts grow with latitude.",
+     "From coast to interior: continentality increases the annual range; Ireland's annual range is about 10 °C, while Verkhoyansk's is over 60 °C.",
+     "From west to east coasts: cold currents cool and dry west coasts, while warm currents such as the North Atlantic Drift warm them.",
+     "With altitude: temperature falls with height, so high mountains have a vertical sequence of climates, and snow lies on high ground even near the equator.",
+     "Across a mountain range: the windward side gets relief rain, while the leeward side lies in a rain shadow, as the Deccan does in India.",
+     "Climate boundaries are transition zones that shift: the Sahel lies between the desert and wetter land and moves with the ITCZ from year to year, with rainfall of roughly 200–600 mm."
+    ]
+   },
+   {
+    "h": "Causes of climate change over time",
+    "points": [
+     "Timescales: long-term change over millions of years (plate movement, mountain building); glacial cycles over tens to hundreds of thousands of years; centuries (the Little Ice Age); years (El Niño and volcanic eruptions); and recent human-caused warming.",
+     "Milankovitch orbital cycles (see Ice Ages below).",
+     "Changes in solar output.",
+     "Volcanic eruptions: sulphate aerosols reflect sunlight and cool the earth for a year or two; after Mount Pinatubo, Philippines, erupted in June 1991, global average temperature fell by about 0.5 °C for about a year (1992).",
+     "Plate tectonics: moving continents and opening or closing seaways change ocean currents.",
+     "Changes in ocean circulation.",
+     "Feedbacks: the ice–albedo feedback, and CO2 and methane released or absorbed by oceans and permafrost."
+    ]
+   },
+   {
+    "h": "Human cause of climate change",
+    "points": [
+     "The enhanced greenhouse effect from burning fossil fuels, deforestation and agriculture; land-use change and aerosols also alter the climate. The sources of each gas are in the note Environmental pollution."
+    ]
+   },
+   {
+    "h": "How past climates are known",
+    "points": [
+     "Ice cores: bubbles of ancient air record past CO2, and oxygen isotopes record past temperature; Antarctic ice cores (EPICA Dome C) record about 800,000 years of climate and CO2.",
+     "Ocean-floor sediments.",
+     "Tree rings.",
+     "Pollen preserved in peat bogs and lake muds; Irish bogs record changes in vegetation, and therefore climate, since the Ice Age.",
+     "Glacial landforms (see Glacial processes, patterns and associated landforms).",
+     "Historical records such as harvest dates, frost fairs and ships' logs; instrument records since the 19th century."
+    ]
+   },
+   {
+    "h": "Ice Ages: the Quaternary glaciation",
+    "points": [
+     "The Quaternary glaciation began about 2.6 million years ago; since then the earth has swung between long glacial periods and shorter, warm interglacials.",
+     "Over the last 800,000 years the cycle has been about 100,000 years long; we now live in an interglacial.",
+     "At the Last Glacial Maximum, about 20,000 years ago, ice sheets covered much of North America and northern Europe, including Ireland.",
+     "Global sea level was about 120 m lower than today, exposing land bridges between islands and continents.",
+     "Global average temperature was several degrees colder, and the climate belts were pushed towards the equator."
+    ]
+   },
+   {
+    "h": "Ice Ages: Ireland and the effects of glaciation",
+    "points": [
+     "Ireland had two main cold stages, the Munsterian and the Midlandian. The Munsterian ice covered almost all of Ireland; the Midlandian ice had gone by about 10,000 years ago.",
+     "The evidence is in the landscape of drumlins, eskers, corries and U-shaped valleys (see Glacial processes, patterns and associated landforms).",
+     "Isostatic rebound and raised beaches are after-effects of the ice (see Isostasy).",
+     "Effects beyond the ice: drier, windier climates; deserts expanded; loess was blown from outwash plains; sea level fell; plants and animals migrated towards the equator and recolonised the land afterwards."
+    ]
+   },
+   {
+    "h": "Ice Ages: causes",
+    "points": [
+     "Milankovitch cycles, named after Milutin Milanković, a Serbian scientist who calculated them in the early 20th century, change the distribution of sunlight by latitude and season more than its total amount.",
+     "Eccentricity (the shape of the orbit) varies over about 100,000 years; obliquity (the tilt, varying between about 22° and 24.5°) over about 41,000 years; precession (the wobble of the axis) over roughly 19,000–26,000 years.",
+     "When northern summers are cool, snow survives the winter and ice sheets grow.",
+     "Feedbacks amplify the small orbital change: more ice raises albedo, and colder oceans absorb more CO2, lowering greenhouse gases.",
+     "Ice cores show CO2 near 180 ppm at glacial maxima and about 280 ppm in interglacials.",
+     "Changes in the Atlantic circulation.",
+     "Land near the North Pole allows ice sheets to build."
+    ]
+   },
+   {
+    "h": "Shorter cold and warm periods in historical times",
+    "points": [
+     "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north than today.",
+     "Norse settlers led by Erik the Red settled Greenland from about AD 985; the settlements were abandoned in the 15th century as the climate cooled.",
+     "Little Ice Age, roughly the 14th to the mid-19th century, coldest in the 17th century: a regional cold phase mainly in the North Atlantic and Europe, with Alpine glaciers advancing.",
+     "The River Thames in London froze in severe winters, and frost fairs were held on the ice, the last in 1814.",
+     "The Maunder Minimum (about 1645–1715), a period with very few sunspots, coincided with some of the coldest decades.",
+     "In Ireland the Great Frost of the winter of 1739–40 was followed by famine in 1740–41.",
+     "The eruption of Tambora, Indonesia, in April 1815 led to 1816 being the year without a summer, with harvest failures across Europe and north-eastern North America."
+    ]
+   },
+   {
+    "h": "Global warming: evidence",
+    "points": [
+     "CO2 was about 280 ppm before the Industrial Revolution and is over 420 ppm by the mid-2020s; it has been measured at Mauna Loa, Hawaii, since 1958.",
+     "Global average surface temperature has risen about 1.1–1.2 °C since the late 1800s (IPCC).",
+     "2024 was the warmest year on record and the first calendar year more than 1.5 °C above pre-industrial levels (Copernicus).",
+     "Arctic summer sea ice has shrunk by about 13% per decade since satellite records began in 1979.",
+     "Global sea level rose about 20 cm between 1901 and 2018 (IPCC).",
+     "Glaciers are retreating in most mountain regions.",
+     "Ireland's average temperature has risen about 0.9 °C since 1900 (EPA and Met Éireann)."
+    ]
+   },
+   {
+    "h": "Global warming: mechanism and feedbacks",
+    "points": [
+     "The enhanced greenhouse effect: more CO2, methane and nitrous oxide absorb more outgoing long-wave radiation, so the heat budget is out of balance and the earth warms until a new balance is reached.",
+     "Most of the extra heat goes into the ocean.",
+     "Ice–albedo feedback: melting ice exposes dark ocean, which absorbs more heat; this is why the Arctic is warming fastest.",
+     "Water vapour feedback: warmer air holds more water vapour, itself a greenhouse gas.",
+     "Permafrost thaw releases methane and CO2.",
+     "Reduced ocean CO2 uptake as the water warms."
+    ]
+   },
+   {
+    "h": "Global warming: effects on climate patterns",
+    "points": [
+     "A more intense hydrological cycle: heavier downpours and more severe droughts.",
+     "More intense heatwaves: the European heatwave of summer 2003 caused an estimated 70,000 or so extra deaths.",
+     "A poleward shift of climate belts and storm tracks, and an expansion of the subtropical dry zones.",
+     "A possible weakening of the Atlantic circulation (AMOC) (see Atmospheric and oceanic circulation).",
+     "Stronger tropical cyclones.",
+     "Sea-level rise from the thermal expansion of warmer water and the melting of land ice."
+    ]
+   },
+   {
+    "h": "Global warming: effects on Ireland and responses",
+    "points": [
+     "Ireland: warmer temperatures; wetter winters and more flooding; a risk of summer drought, as in the summer of 2018; stronger storms and coastal erosion (see Environmental pollution).",
+     "The IPCC was set up in 1988; its Sixth Assessment Report (2021) stated that it is unequivocal that human influence has warmed the atmosphere, ocean and land.",
+     "The Paris Agreement of 2015 aims to keep warming well below 2 °C and to pursue 1.5 °C; policy detail is in the note Environmental pollution."
+    ]
+   },
+   {
+    "h": "El Niño: normal conditions in the Pacific (Walker circulation)",
+    "points": [
+     "Strong south-east trade winds push warm surface water westward across the Pacific, piling up a warm pool near Indonesia, where sea level is higher.",
+     "Warm, moist air rises over the warm pool, producing low pressure and heavy rain. Air returns eastward at height and sinks over the cool eastern Pacific, giving high pressure and dry conditions on the coast of Peru.",
+     "Cold, nutrient-rich water upwells off Peru (the Humboldt Current), supporting the Peruvian anchoveta fishery, the largest single-species fishery in the world.",
+     "The Walker circulation is named after Gilbert Walker, a British scientist who worked in India in the early 20th century."
+    ]
+   },
+   {
+    "h": "El Niño: how it develops",
+    "points": [
+     "Every 2–7 years the trade winds weaken or even reverse, and the warm water flows back east towards South America.",
+     "The thermocline deepens in the east and upwelling stops; sea-surface temperatures in the central and eastern Pacific rise well above normal; the zone of rising air and rain shifts east.",
+     "El Niño is a natural variation; scientists are still researching whether global warming changes it.",
+     "Named by Peruvian fishermen. Together with the Southern Oscillation, the see-saw of air pressure across the Pacific, it is called ENSO."
+    ]
+   },
+   {
+    "h": "El Niño: effects",
+    "points": [
+     "Heavy rain and floods in coastal Peru and Ecuador, which are normally dry.",
+     "Collapse of the anchoveta catch and the fishmeal industry, with seabird deaths.",
+     "Drought in Indonesia and the Philippines, with crop failure and forest fires.",
+     "Often a weaker Indian monsoon.",
+     "Fewer Atlantic hurricanes and more in the central and eastern Pacific.",
+     "Global average temperature rises temporarily, and strong El Niño years set temperature records.",
+     "Effects on Ireland and Europe are weak and uncertain."
+    ]
+   },
+   {
+    "h": "El Niño: named events",
+    "points": [
+     "1972–73: an El Niño, combined with overfishing, caused the collapse of the Peruvian anchoveta fishery.",
+     "1982–83 and 1997–98: very strong El Niños. In 1997–98 coastal Peru and Ecuador had severe floods, and drought in Indonesia allowed huge forest fires whose smoke haze spread across South-East Asia.",
+     "2015–16: one of the three strongest El Niños on record.",
+     "2023–24: helped make 2023 and 2024 the warmest years on record."
+    ]
+   },
+   {
+    "h": "La Niña: the opposite phase",
+    "points": [
+     "Stronger trade winds, a cooler than normal eastern Pacific and stronger upwelling.",
+     "Heavier rain in Indonesia and in Queensland, Australia, drought in Peru, and more Atlantic hurricanes.",
+     "The strong La Niña of 2010–11 brought record rain and floods to Queensland, Australia, including the Brisbane flood of January 2011."
+    ]
+   },
+   {
+    "h": "Why El Niño matters",
+    "points": [
+     "It shows the atmosphere and ocean acting as one linked system (see The atmosphere and oceans as linked systems).",
+     "It shows how a change in ocean circulation changes weather around the world (teleconnections).",
+     "Monitoring by buoys and satellites in the equatorial Pacific gives months of warning."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Mediterranean climate. Location: the west sides of continents, such as the Mediterranean Basin, central and southern California, central Chile, the Cape Town area and south-western and southern Australia. Temperature: hot summers, with lowland July means of about 25 °C or more in southern Italy; mild winters, with coastal January means of about 9–12 °C; frost rare on the coasts; hotter summers and colder winters inland. Precipitation: moderate, under 600 mm a year on parts of the Puglia lowlands and Sicily, most of it falling from October to March as winter rain; summers dry, with drought for several months; winter rain often falls in intense downpours that cause flash floods and soil erosion. Pressure and winds: in summer the subtropical high moves poleward over the region, bringing sinking, warming air, clear skies and no rain; in winter the pressure belts shift towards the equator, so the westerlies and their depressions bring rain. The warm Mediterranean Sea also spawns its own winter depressions. On some coasts cold currents such as the California and Benguela currents keep summers cooler and drier. Local winds: the hot, dry, dusty sirocco from the Sahara; the cold mistral and bora. Vegetation: drought-tolerant olives, vines, cork oak and maquis scrub, with citrus where irrigated. Hazards: summer water shortage and wildfires in hot, dry, windy summers, such as the Mati wildfire near Athens in July 2018, which killed about 100 people.",
+    "prompt": "Describe and account for the characteristics of one global climate type that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Equatorial (tropical rainforest) climate. Location: close to the equator in the Amazon Basin, the Congo Basin and South-East Asia. Temperature: high all year, with monthly means of about 26–28 °C and an annual range of only about 2–3 °C; the daily range is larger than the annual range, with afternoon highs of about 30–32 °C and night lows of about 22–24 °C. The sun is always high and overhead at the equator at the equinoxes, and cloud cover stops temperatures rising much above the low 30s °C. Precipitation: over 2,000 mm a year, as at Manaus in Brazil with about 2,300 mm, falling in every month, with two wetter peaks after the equinoxes when the overhead sun and the ITCZ pass. The rain is convectional: intense heating and very moist air from warm seas and forest transpiration produce heavy afternoon thunderstorms. Pressure and winds: permanent low pressure in the equatorial trough, where the trade winds converge at the ITCZ; winds are light and variable. Humidity is often over 80%. Daily weather cycle: a clear, calm, humid morning, cumulus by late morning, torrential rain and thunder in the afternoon, clearing in the evening and humid nights. There are no temperate-style seasons. Vegetation: tropical rainforest on latosols. Human response: forest clearance for farming and timber.",
+    "prompt": "Describe and account for the characteristics of one global climate type that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Space: climate changes with latitude, so temperatures fall and seasonal contrasts grow towards the poles. Continentality makes the annual range rise from about 10 °C in Ireland to over 60 °C at Verkhoyansk. West coasts with cold currents are drier and cooler than west coasts with warm currents such as the North Atlantic Drift, and altitude and rain shadows create sharp local contrasts; the Sahel is a transition zone that shifts with the ITCZ. Time: the Quaternary glaciation began about 2.6 million years ago, and over the last 800,000 years glacial cycles have lasted about 100,000 years. Milankovitch cycles change the distribution of sunlight by latitude and season, and feedbacks amplify the change: more ice raises albedo, and colder oceans absorb more CO2. Ice cores show CO2 near 180 ppm at glacial maxima and about 280 ppm in interglacials. At the Last Glacial Maximum about 20,000 years ago, sea level was about 120 m lower and Ireland was covered by ice. Shorter periods include the Medieval Warm Period and the Little Ice Age. El Niño is a natural shift that changes the Pacific: the trade winds weaken, warm water moves east, Peru gets floods, Indonesia gets drought, and the Peruvian anchoveta fishery can collapse, as in 1972–73. Twentieth-century and present global warming is driven by the enhanced greenhouse effect from burning fossil fuels, deforestation and agriculture. CO2 has risen from about 280 ppm to over 420 ppm, global average temperature is up about 1.1–1.2 °C, and Arctic summer sea ice has shrunk by about 13% per decade since 1979. Effects include heavier downpours, more intense heatwaves, a poleward shift of climate belts and rising sea level.",
+    "prompt": "Climate characteristics change over time and space. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Monsoon climate of India. Temperature: a hot season before the rains, with temperatures often over 40 °C on the northern plains; a wet south-west monsoon, from June to September, which is slightly cooler because of cloud and rain; and a cool dry season, with pleasant days and cool nights in the north. Precipitation: a seasonal reversal of winds brings most of India's annual rain, about three-quarters of it, in June to September. Relief rain falls on the Western Ghats and in the Khasi Hills, where Mawsynram and Cherrapunji are among the wettest places on earth. The Deccan lies in a rain shadow, and rainfall decreases towards the north-west, where the Thar Desert in Rajasthan is the driest region. Kolkata is wetter than Delhi. Pressure belts and air circulation: heating of the land creates low pressure over north-west India; the ITCZ moves north; the south-east trade winds cross the equator, are deflected by the Coriolis force into south-west winds and gather moisture over the sea; the subtropical jet stream moves north of the mountains, so the monsoon bursts suddenly. In winter the land cools, high pressure builds over the interior of Asia and dry north-east winds blow off the land, while the mountains to the north block cold air. The monsoon reaches Kerala around 1 June and covers India by mid-July. Late or weak monsoons bring drought and very heavy ones bring floods; the Odisha super cyclone of October 1999 killed about 10,000 people.",
+    "prompt": "Examine one distinctive global climate type with reference to temperature, precipitation and pressure belts (air circulation).",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-atmosphere-ocean-s6": {
+  "keyTerms": [
+   {
+    "definition": "Farming that depends on rainfall alone, without irrigation, and so is exposed to any shortfall in rain.",
+    "term": "Rain-fed farming"
+   },
+   {
+    "definition": "Farming based mainly on rearing livestock on grassland, such as dairy, beef and sheep.",
+    "term": "Pastoral farming"
+   },
+   {
+    "definition": "A long period with much less precipitation than normal, so that water supply falls short of demand.",
+    "term": "Drought"
+   },
+   {
+    "definition": "Land degradation in arid, semi-arid and dry sub-humid areas caused by climatic variations and human activities.",
+    "term": "Desertification"
+   },
+   {
+    "definition": "Turning sea water into fresh water for domestic use, used by rich dry countries where other supplies are short.",
+    "term": "Desalination"
+   },
+   {
+    "definition": "A shortage of water in rivers, reservoirs and groundwater.",
+    "term": "Hydrological drought"
+   },
+   {
+    "definition": "Farmland left unplanted for a season so that it can recover or because water is short.",
+    "term": "Fallow"
+   },
+   {
+    "definition": "A line of trees planted to reduce wind erosion and protect crops and soil.",
+    "term": "Shelter belt"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Temperature, the amount of rainfall, its seasonal timing and its reliability, sunshine and wind decide what can be grown, how much water is available, where tourists go and what it costs to adapt.",
+    "h": "Climate as a resource and a constraint",
+    "points": [
+     "Rich economies can overcome climatic limits with technology: irrigation, reservoirs, desalination and snow-making.",
+     "Poor economies that depend on rain-fed farming are the most exposed.",
+     "Climate change is shifting all of these; its evidence and causes are in the note Climatic environments and climate change."
+    ]
+   },
+   {
+    "b": "Ireland's rainfall and mild temperatures give a long grass-growing season, so grass is the most important crop. Most farmland is grassland, used for dairy, beef and sheep (pastoral farming).",
+    "h": "Irish agriculture: grassland and regional contrasts",
+    "points": [
+     "Grass grows when soil temperature is above about 6 °C, which in Ireland's mild climate is for most of the year, longest in the south and south-west.",
+     "Annual rainfall is about 750 mm in the driest east, about 1,000–1,250 mm across much of the west and over 2,000 mm on many western mountains.",
+     "The south and east are drier and sunnier, and the south-east is the sunniest region.",
+     "The 2020 Census of Agriculture counted about 135,000 farms.",
+     "Tillage is concentrated in the drier south and east, e.g. Co. Wexford, Co. Carlow and Co. Kildare, where barley, wheat, oats, potatoes and vegetables can be harvested in dry conditions.",
+     "The Golden Vale (Co. Tipperary and Co. Limerick) has moderate rainfall and good soils on brown earths, which suit intensive dairying. EU milk quotas ended in 2015, after which dairying expanded.",
+     "Gley soils of the drumlin belt (Co. Cavan, Co. Monaghan and Co. Leitrim) and Co. Clare carry mainly grass for cattle, with a short grazing season.",
+     "The very wet west and north-west, with poorly drained gley and peat soils, suit mainly beef and sheep rearing on rough grazing, with small farms and low incomes (see the note A Peripheral Irish Region)."
+    ]
+   },
+   {
+    "h": "Irish agriculture: problems of too much rain",
+    "points": [
+     "Waterlogged soils are poached (trampled) by cattle, and the grazing season is shortened, so animals must be housed and fed silage for longer, raising costs.",
+     "Wet spells make it hard to make silage and hay and to harvest cereals.",
+     "Heavy rain leaches nutrients from the soil, and slurry runs off when it rains after spreading (see the note Environmental pollution).",
+     "Damp weather favours diseases: potato blight, and liver fluke in sheep and cattle.",
+     "The summer of 2012 was exceptionally wet in Ireland; poor silage and hay harvests, followed by a cold, late spring in 2013, caused a fodder crisis in spring 2013.",
+     "Farmers ran out of feed in spring 2013; fodder was imported, including from Britain and France, and the Government funded a fodder transport subsidy.",
+     "The Great Famine (1845–49) followed potato blight, a disease favoured by mild, damp weather."
+    ]
+   },
+   {
+    "h": "Irish agriculture: problems of too little rain",
+    "points": [
+     "Grass stops growing in prolonged dry spells, so farmers have to feed winter fodder in summer.",
+     "Milk yields fall, and fodder runs short the following winter; light soils of the south-east suffer most.",
+     "Summer 2018: a long anticyclonic spell from late May to mid-July brought heat and drought to Ireland, and Met Éireann recorded absolute drought at many stations.",
+     "Grass growth almost stopped that summer. Teagasc and the Government organised fodder imports and supports for the following winter."
+    ]
+   },
+   {
+    "h": "Climate change and Irish farming",
+    "points": [
+     "Warmer temperatures lengthen the growing season; wetter winters and more frequent summer droughts add risk; maize and other crops become more feasible.",
+     "Agriculture produces over a third of Ireland's greenhouse gas emissions (EPA, early 2020s; see the note Environmental pollution)."
+    ]
+   },
+   {
+    "h": "Global example: India's monsoon farming",
+    "points": [
+     "The monsoon's arrival decides the farming year. The south-west monsoon reaches Kerala around 1 June, covers India by mid-July and brings about three-quarters of the annual rainfall.",
+     "Kharif (summer) crops such as rice and cotton are sown with the monsoon rains; rabi (winter) crops such as wheat rely on stored water, irrigation and western disturbances.",
+     "A late or weak monsoon cuts harvests, farm incomes and GDP.",
+     "The Green Revolution from the mid-1960s, in Punjab, Haryana and western Uttar Pradesh, relied on irrigation, but canal irrigation in Punjab and Haryana brought salinisation and waterlogging.",
+     "The Indira Gandhi Canal in Rajasthan carries irrigation water into the dry north-west."
+    ]
+   },
+   {
+    "h": "Global example: Egypt and the Nile",
+    "points": [
+     "Egypt is almost rainless, so farming depends on irrigation from the Nile; the green strip of the Nile valley and delta shows through the desert.",
+     "The Nile's flood came from summer rain far upstream, and its uncertainty ended when the Aswan High Dam was completed in 1970.",
+     "The Aswan High Dam created Lake Nasser, one of the world's largest reservoirs, allowing year-round (perennial) irrigation, more than one crop a year and hydroelectricity.",
+     "Costs: the fertile silt is trapped behind the dam, so farmers need artificial fertiliser; salinisation and waterlogging have spread; the delta is eroding."
+    ]
+   },
+   {
+    "h": "Global example: California's Central Valley",
+    "points": [
+     "California's Central Valley is one of the world's most productive farming regions. Its dry summers mean that high-value fruit, nuts and vegetables depend on irrigation.",
+     "Irrigation comes from large state and federal water projects, which carry snowmelt from the mountains, and from groundwater.",
+     "In the drought of about 2012–2016, farmers left land fallow and over-pumped groundwater; heavy groundwater pumping caused land subsidence in the valley.",
+     "Governor Jerry Brown ordered a mandatory 25% cut in urban water use in April 2015."
+    ]
+   },
+   {
+    "h": "Global example: rain-fed farming in the Sahel and rainfall reliability",
+    "points": [
+     "The Sahel has one short wet season, in which millet and sorghum are grown alongside pastoral herding.",
+     "Any shortfall in rain means crop failure, with losses of food and livestock.",
+     "Rainfall reliability matters as much as the total: the lower the average rainfall, the more variable it is from year to year, so dry regions face both low and unpredictable harvests."
+    ]
+   },
+   {
+    "h": "Domestic water supply and rainfall in Ireland",
+    "points": [
+     "Domestic water depends on rainfall refilling rivers, lakes, reservoirs and groundwater; supply must be stored to cover dry periods.",
+     "Demand peaks in hot, dry weather, exactly when supply is lowest.",
+     "Ireland's paradox: there is plenty of rain overall, but most of it falls in the west while most people live in the east, where rainfall is lowest (about 750 mm a year around Dublin).",
+     "Census 2022 counted about 1.45 million people in Dublin county, out of about 5.1 million in Ireland.",
+     "Old, leaking pipes waste a large share of treated water, and treatment capacity is tight.",
+     "Dublin's water comes mainly from the River Liffey, through the Poulaphouca reservoir (also called the Blessington lakes, Co. Wicklow), and from the Vartry reservoir at Roundwood, Co. Wicklow.",
+     "The Water Supply Project would take water from the River Shannon at Parteen Basin, just south of Lough Derg, by a pipeline of about 170 km to the Greater Dublin Area; it is planned, not built.",
+     "Uisce Éireann (Irish Water), which adopted its name in 2023, is responsible for public water supply.",
+     "Group water schemes and private wells serve many rural homes; wells can run dry in drought and be contaminated after heavy rain."
+    ]
+   },
+   {
+    "h": "The 2018 drought and hosepipe ban",
+    "points": [
+     "Irish Water imposed a hosepipe ban (Water Conservation Order), first in the Greater Dublin Area in early July 2018 and later extended to the whole country.",
+     "The ban shows a rainfall shortfall affecting domestic supply in a wet country."
+    ]
+   },
+   {
+    "h": "Global example: Cape Town's Day Zero",
+    "points": [
+     "Cape Town, South Africa, has a Mediterranean climate. Three dry winters, about 2015–2017, left its reservoirs very low.",
+     "In early 2018 the city warned of 'Day Zero', when household taps would be shut off.",
+     "From 1 February 2018 residents were limited to 50 litres per person per day, with higher tariffs, reduced water pressure and public campaigns.",
+     "Day Zero was avoided after usage was roughly halved and the winter rains of 2018 returned.",
+     "Lessons: diversify supply (groundwater, recycling and desalination), reduce leaks, and plan for longer droughts."
+    ]
+   },
+   {
+    "h": "Water supply in arid and monsoon countries",
+    "points": [
+     "Water supply depends on seasonal rain, groundwater and long-distance transfers.",
+     "Rich, dry countries such as the Gulf states and Israel rely heavily on desalination for domestic water.",
+     "Women and children in poor rural areas spend hours a day collecting water, which keeps girls out of school."
+    ]
+   },
+   {
+    "b": "Drought is a long period with much less precipitation than normal for that place, so that water supply falls short of demand.",
+    "h": "Drought: definition, types and causes",
+    "points": [
+     "Meteorological drought is a shortfall of rain.",
+     "Agricultural drought is soil moisture too low for crops.",
+     "Hydrological drought is low rivers, reservoirs and groundwater.",
+     "Causes: blocking anticyclones (see the note Atmospheric and oceanic circulation); failure or shift of the ITCZ or monsoon; El Niño; and climate change."
+    ]
+   },
+   {
+    "h": "Economic effects of drought",
+    "points": [
+     "Crop failure and loss of livestock.",
+     "Higher food prices, and loss of farm income and rural jobs.",
+     "Famine in poor countries, and migration to cities and abroad.",
+     "Less hydroelectricity and less cooling water for power stations; river transport disrupted.",
+     "Wildfires, and government spending on relief."
+    ]
+   },
+   {
+    "h": "Drought in a developed economy: Australia",
+    "points": [
+     "The Millennium Drought in south-eastern Australia lasted roughly from the late 1990s to 2009, hitting farming in the Murray–Darling Basin, Australia's main irrigated farming region.",
+     "Losses were absorbed through insurance, government aid, water trading and technology, but farm output fell and towns faced water restrictions.",
+     "Australian cities, including Melbourne, built large desalination plants in response.",
+     "Rich and poor responses contrast: a developed economy absorbs drought through insurance, aid, water trading, technology and desalination, while a poor economy with few of these faces famine (see the Horn of Africa case below)."
+    ]
+   },
+   {
+    "h": "Drought in a developing economy: the Horn of Africa, 2011",
+    "points": [
+     "Drought across the Horn of Africa in 2011 followed two failed rainy seasons, linked to La Niña.",
+     "Crops failed, livestock died and food prices soared.",
+     "The UN declared famine in parts of southern Somalia in July 2011, where conflict (al-Shabaab) blocked aid.",
+     "A later UN-backed study estimated about 260,000 deaths in Somalia, about half of them children under five.",
+     "Large numbers fled to the Dadaab camps in Kenya and to camps in Ethiopia.",
+     "Ethiopia's famine of 1983–85 followed drought and was worsened by civil war; it led to Band Aid (1984) and the Live Aid concerts (July 1985) organised by Bob Geldof."
+    ]
+   },
+   {
+    "h": "Responses to drought",
+    "points": [
+     "Early warning systems using rainfall, satellite and market data.",
+     "Water storage in dams, tanks and rainwater harvesting.",
+     "Drought-tolerant crops and seed varieties.",
+     "Irrigation efficiency, such as drip irrigation.",
+     "Food aid and cash transfers; insurance.",
+     "Restrictions such as hosepipe bans; desalination."
+    ]
+   },
+   {
+    "h": "Desertification: definition",
+    "points": [
+     "Desertification is land degradation in arid, semi-arid and dry sub-humid areas caused by climatic variations and human activities (UNCCD definition, adopted 1994).",
+     "It is the spread of desert-like conditions, not the advance of sand dunes from the Sahara.",
+     "Drought is a climatic event; desertification is a process of land degradation that drought can trigger.",
+     "17 June is World Day to Combat Desertification."
+    ]
+   },
+   {
+    "h": "The Sahel: desertification and the economy",
+    "points": [
+     "The Sahel runs from Senegal and Mauritania through Mali, Burkina Faso, Niger and Chad to Sudan. Rainfall is roughly 200–600 mm, falling in one short summer wet season when the ITCZ moves north.",
+     "Droughts in the 1970s and 1980s caused failed harvests and livestock deaths.",
+     "Pastoralists lost their livelihoods, and the region became dependent on food imports.",
+     "Migration to cities, including coastal cities, and abroad; conflict between herders and farmers over shrinking land and water.",
+     "Lake Chad has shrunk dramatically since the 1960s (about 90%, widely quoted), hitting fishing and farming around it.",
+     "The soil causes of Sahel degradation are explained in the note Human interference with soils."
+    ]
+   },
+   {
+    "h": "Responses to desertification",
+    "points": [
+     "The UNCCD, adopted in 1994, coordinates international action.",
+     "The Great Green Wall, launched by the African Union in 2007, aims to run about 8,000 km from Senegal to Djibouti; progress has been slow and well short of target.",
+     "Zaï pits and stone lines in the Yatenga region of Burkina Faso, associated with the farmer Yacouba Sawadogo.",
+     "In Niger, farmer-managed natural regeneration has regreened about 5 million hectares since the 1980s."
+    ]
+   },
+   {
+    "h": "The Dust Bowl: desertification in a rich economy",
+    "points": [
+     "Drought on ploughed grassland in the 1930s, on the Great Plains of Oklahoma and Kansas, produced dust storms.",
+     "Farm failures and migration followed.",
+     "The US Soil Conservation Service, set up in 1935, promoted shelter belts, contour ploughing and crop rotation.",
+     "The Dust Bowl shows desertification-type damage in a rich economy; its soil side is in the note Human interaction: mass movement."
+    ]
+   },
+   {
+    "h": "Climate as a tourism resource",
+    "points": [
+     "Sunshine, warmth, low rainfall and a warm sea attract 'sun, sea and sand' tourism.",
+     "Reliable snow attracts winter sports, and a mild climate allows outdoor activities.",
+     "Climate decides the tourist season."
+    ]
+   },
+   {
+    "h": "Mediterranean sun tourism",
+    "points": [
+     "Hot, dry, sunny summers have made the Mediterranean one of the world's most visited regions.",
+     "Mass package tourism grew from the 1960s with cheap jet flights.",
+     "Spain received about 85 million international tourists in 2023, a record, making it the world's second most visited country after France.",
+     "Spain is the most popular foreign holiday destination for Irish people.",
+     "Benefits: jobs, foreign earnings, infrastructure and regional development (see the note A Peripheral European Region: the Mezzogiorno).",
+     "Climate problems: tourists arrive in the driest season, so water demand from hotels, pools and golf courses peaks when supply is lowest; jobs are seasonal; coasts are overdeveloped.",
+     "Protests against mass tourism took place in 2024 in the Canary Islands and in Barcelona."
+    ]
+   },
+   {
+    "h": "Winter-sun tourism: the Canary Islands",
+    "points": [
+     "The Canary Islands lie off north-west Africa at about 28° N.",
+     "Mild, dry winters and the cooling Canary Current give them a year-round tourist season that attracts northern Europeans."
+    ]
+   },
+   {
+    "h": "Alpine ski tourism",
+    "points": [
+     "Ski tourism depends on reliable snow cover, and it supports mountain economies in several European countries.",
+     "Climate change is raising the snow line and shortening seasons, so lower-altitude resorts struggle or close.",
+     "Resorts invest in artificial snow-making, which needs water, energy and cold enough nights, and diversify into summer walking and cycling."
+    ]
+   },
+   {
+    "h": "Tropical island tourism and hazards",
+    "points": [
+     "Tropical island destinations depend on warm weather and coral reefs. Their peak season is the dry season of the northern winter, and the Atlantic hurricane season (1 June to 30 November) is the low season.",
+     "Hurricane Irma, a Category 5 hurricane in September 2017, damaged or destroyed almost every building on Barbuda; its whole population was evacuated to Antigua.",
+     "Hurricane Maria, in September 2017, devastated Puerto Rico; an official study estimated about 3,000 deaths.",
+     "Mass bleaching of the Great Barrier Reef has occurred repeatedly since the late 1990s, damaging reef tourism.",
+     "Sea-level rise threatens low-lying island nations such as the Maldives (see the note Environmental pollution)."
+    ]
+   },
+   {
+    "h": "Ireland and tourism",
+    "points": [
+     "Ireland's cool, cloudy, wet and unreliable summer climate limits beach tourism and pushes Irish holidaymakers abroad.",
+     "Irish tourism instead markets scenery (the green landscape produced by the rain), culture, heritage, golf, walking, surfing and other outdoor activities.",
+     "The Wild Atlantic Way, a touring route of about 2,500 km along the west coast from Inishowen, Co. Donegal, to Kinsale, Co. Cork, was launched by Fáilte Ireland in 2014.",
+     "Domestic holidays rise in warm, sunny summers."
+    ]
+   },
+   {
+    "h": "Climate change and tourism",
+    "points": [
+     "Hotter Mediterranean summers bring heatwaves and wildfires that can deter or endanger tourists. In July 2023, wildfires on the Greek island of Rhodes forced thousands of tourists to be evacuated from resorts.",
+     "Visits may shift to spring and autumn, or to more northern destinations, possibly including Ireland.",
+     "Ski seasons shorten.",
+     "Reefs bleach, and islands face flooding."
+    ]
+   },
+   {
+    "h": "Other links between climate and development",
+    "points": [
+     "Energy: wind supplied about a third of Ireland's electricity in the early 2020s (see the note Renewable and non-renewable resources in the economy); solar power is strong in sunny deserts; hydroelectricity depends on high rainfall.",
+     "Climate also drives energy demand: heating in cold climates and air-conditioning in hot ones.",
+     "Health and productivity: tropical climates favour diseases such as malaria; extreme heat lowers the capacity for outdoor work; heatwaves kill (see the note Climatic environments and climate change).",
+     "Assessment: climate influences development but does not decide it alone. Rich countries with harsh climates, such as Israel, the Gulf states and Australia, overcome limits through capital and technology, while poor, rain-fed economies are the most vulnerable, and climate change widens this gap."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Agriculture: in Ireland, grass is the main crop because of mild temperatures and rainfall of about 750 mm in the east to over 2,000 mm on western mountains. Too much rain waterlogs soils, shortens the grazing season and wrecks silage and hay, as in the wet summer of 2012, which caused the fodder crisis of spring 2013. Too little rain stops grass growing, as in the summer drought of 2018, when farmers fed winter fodder in summer. Globally, India's monsoon decides the farming year: rice is sown with the rains, a late or weak monsoon cuts harvests and incomes, and irrigation after the Green Revolution brought salinisation and waterlogging. Egypt depends on the Nile and the Aswan High Dam, completed in 1970, for irrigation. Drought and desertification: the Horn of Africa drought of 2011 followed two failed rainy seasons, crops failed, livestock died, food prices soared, the UN declared famine in parts of southern Somalia, and large numbers fled to camps in Kenya and Ethiopia. In the Sahel, a shortfall in the single wet season causes failed harvests, livestock deaths, loss of pastoralists' livelihoods, migration and conflict between herders and farmers over shrinking land and water. Tourism: hot, dry, sunny summers attract tourists to the Mediterranean, bringing jobs and foreign earnings, but tourists arrive in the driest season, so water demand peaks when supply is lowest. Spain is the most popular foreign holiday destination for Irish people. Climate also shapes Alpine skiing, where reliable snow supports resorts, but climate change shortens seasons and forces resorts to use artificial snow-making. Ireland's cool, wet summers limit beach tourism, so Irish tourism markets scenery and outdoor activities such as walking and surfing along the Wild Atlantic Way.",
+    "prompt": "Climate characteristics have an influence on economic development. Discuss with reference to agriculture, drought and desertification, and tourism.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Agriculture and water supply: in Ireland the east is driest but the population is concentrated there, so the water supply must be stored and piped; Dublin relies on the Wicklow reservoirs, and the planned Water Supply Project would pipe water from the Shannon. Leaking pipes and tight treatment capacity compound the problem. The 2018 drought led to a hosepipe ban. Globally, Cape Town's three dry winters left reservoirs very low and the city warned of Day Zero; limits of 50 litres per person per day, higher tariffs and campaigns cut use by about half, and the rains returned. Drought: California's Central Valley is productive because of irrigation, but its 2012–2016 drought led to groundwater over-pumping and land subsidence; a mandatory 25% cut in urban water use followed in 2015. In the developed economy, Australia responded with insurance, aid, water trading and desalination plants in Melbourne; in the Horn of Africa in 2011, two failed rainy seasons led to famine in parts of southern Somalia, where conflict blocked aid. Tourism: Spain, the most visited country after France, relies on climate-driven sun tourism; the Canary Islands have mild, dry winters for a year-round season; Ireland's Wild Atlantic Way markets the wet, green landscape. Assessment: climate influences economic development but does not decide it alone. Rich countries such as Israel, the Gulf states and Australia use desalination, technology and capital to overcome harsh climates, while poor, rain-fed economies such as those of the Sahel and the Horn of Africa are the most vulnerable, and climate change is widening this gap.",
+    "prompt": "Examine how climate characteristics influence economic development.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Rainfall of about 750 mm in the driest east, about 1,000–1,250 mm across much of the west and over 2,000 mm on western mountains, and mild temperatures give Ireland a long grass-growing season, so most farmland is grassland used for dairy, beef and sheep. Grass grows when soil temperature is above about 6 °C. The drier, sunnier south and east suit tillage, such as barley, wheat, oats, potatoes and vegetables in Co. Wexford, Co. Carlow and Co. Kildare. The Golden Vale's moderate rainfall and good soils suit intensive dairying. The very wet west and north-west, with poorly drained soils, suit beef and sheep on rough grazing. Too much rain waterlogs soils, poaches grassland, shortens the grazing season and disrupts silage, hay and cereal harvests, as in the wet summer of 2012. Too little rain stops grass growing, as in the summer of 2018, when farmers fed winter fodder in summer.",
+    "prompt": "Explain how rainfall levels influence agricultural activities in Ireland.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-option-culture-identity-s1": {
   "keyTerms": [
    {
