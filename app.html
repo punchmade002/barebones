@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=56" />
+    <link rel="stylesheet" href="./styles.css?v=59" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
     <script>
@@ -207,8 +207,9 @@
               </div>
             </div>
 
+            <div id="outcomePicker" class="outcome-picker hidden" aria-label="Choose a subsection"></div>
+
             <div id="flashcardsTab" class="tab-content active">
-              <div id="outcomeNav" class="outcome-nav hidden"></div>
               <div id="flashcardStudy" class="flashcard-study"></div>
               <ul id="flashcardList" class="resource-list"></ul>
               <div id="hierarchyPanel" class="hierarchy-panel hidden"></div>
@@ -260,9 +261,27 @@
       <div class="full-notes-card">
         <div class="toolbar">
           <h3 id="fullNotesTitle">Full Notes</h3>
-          <button id="closeFullNotes" class="button-secondary">Close</button>
+          <div class="full-notes-actions">
+            <button id="openLiveReading" class="button-primary live-reading-btn hidden" type="button">Live reading</button>
+            <button id="closeFullNotes" class="button-secondary">Close</button>
+          </div>
         </div>
         <div id="fullNotesBody" class="full-notes-body"></div>
+        <div id="liveReader" class="live-reader hidden" aria-label="Live reading">
+          <div class="live-reader-progress"><span id="liveReaderProgress"></span></div>
+          <div id="liveReaderStage" class="live-reader-stage" aria-live="off">
+            <div id="liveReaderTrack" class="live-reader-track"></div>
+          </div>
+          <div class="live-reader-controls">
+            <button id="liveReaderPrev" class="live-reader-step" type="button" aria-label="Previous line">‹</button>
+            <button id="liveReaderPlay" class="live-reader-play" type="button" aria-label="Play">Play</button>
+            <button id="liveReaderNext" class="live-reader-step" type="button" aria-label="Next line">›</button>
+            <label class="live-reader-speed" for="liveReaderWpm">
+              <input id="liveReaderWpm" type="range" min="80" max="600" step="10" value="220" />
+              <output id="liveReaderWpmLabel" for="liveReaderWpm">220 wpm</output>
+            </label>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -345,7 +364,7 @@
     <script src="./pe-exam-info.js?v=2"></script>
     <script src="./generated-notes-content.js?v=4"></script>
     <script src="./onboarding.js?v=3"></script>
-    <script src="./app.js?v=65"></script>
+    <script src="./app.js?v=68"></script>
     <script src="./timer.js?v=1"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
