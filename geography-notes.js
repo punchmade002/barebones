@@ -8054,6 +8054,2431 @@
    }
   ]
  },
+ "geo-option-culture-identity-s1": {
+  "keyTerms": [
+   {
+    "definition": "A grouping of people by inherited physical traits such as skin colour, hair type and facial features.",
+    "term": "Race"
+   },
+   {
+    "definition": "A group sharing culture, ancestry, language, religion or history that is seen as distinct by its members and by others.",
+    "term": "Ethnic group"
+   },
+   {
+    "definition": "A gradual change in a physical trait across space, with no sharp boundary between groups.",
+    "term": "Cline"
+   },
+   {
+    "definition": "A society in which two or more racial groups make up significant shares of the population.",
+    "term": "Multi-racial society"
+   },
+   {
+    "definition": "The having of children by people of different racial backgrounds, producing mixed-race populations.",
+    "term": "Racial mixing"
+   },
+   {
+    "definition": "A Latin American term for a person of European and Native American ancestry.",
+    "term": "Mestizo"
+   },
+   {
+    "definition": "Aboriginal and Torres Strait Islander children removed from their families by Australian governments, roughly from 1910 to the 1970s.",
+    "term": "Stolen Generations"
+   },
+   {
+    "definition": "Workers contracted to work for a fixed period, often far from home, as in the movement of Indian labourers to sugar colonies.",
+    "term": "Indentured labour"
+   },
+   {
+    "definition": "A migrant recruited for temporary work, such as a Gastarbeiter, who often settled permanently instead.",
+    "term": "Guest worker"
+   },
+   {
+    "definition": "A person outside their own country who cannot return because of a well-founded fear of persecution.",
+    "term": "Refugee"
+   },
+   {
+    "definition": "A person who has applied for refugee status and is waiting for a decision.",
+    "term": "Asylum seeker"
+   },
+   {
+    "definition": "A person who moves mainly for work or a better income, not because of persecution.",
+    "term": "Economic migrant"
+   },
+   {
+    "definition": "The Irish system of State accommodation for asylum seekers while their claims are decided, begun in 2000.",
+    "term": "Direct Provision"
+   },
+   {
+    "definition": "A model of assimilation in which minority groups merge into one common national culture.",
+    "term": "Melting pot"
+   },
+   {
+    "definition": "A model in which minority groups keep distinct identities within one nation.",
+    "term": "Salad bowl"
+   },
+   {
+    "definition": "A policy of accepting and supporting distinct cultures within one society.",
+    "term": "Multiculturalism"
+   },
+   {
+    "definition": "The South African system, 1948–1994, of legally classifying people by race and separating them in residence, education and public life.",
+    "term": "Apartheid"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Populations can be classified by physical indicators (race) or by cultural indicators (ethnicity). The two are often confused, so keep them separate.",
+    "h": "Race and ethnicity as classifications",
+    "points": [
+     "Race: a grouping of people by inherited physical traits such as skin colour, hair type and facial features.",
+     "Ethnic group: a group that shares culture, ancestry, language, religion or history and is seen as distinct both by its members and by others.",
+     "The syllabus treats race as one part of ethnicity. Language, religion and nationality are the other cultural indicators, covered in the notes Language as a cultural indicator, Religion as a cultural indicator and Nationality and the nation state."
+    ]
+   },
+   {
+    "h": "The modern view of race",
+    "points": [
+     "All humans belong to one species, and people share about 99.9% of their DNA.",
+     "There is more genetic variation within any so-called race than between races.",
+     "Physical traits such as skin colour change gradually across space (clines) and have no sharp boundaries.",
+     "Race is therefore largely a social classification, but it matters geographically because people, laws and states have acted on it through segregation, apartheid and genocide."
+    ]
+   },
+   {
+    "b": "Older textbooks sorted humanity into four racial groupings. Biologists now reject this scheme, and it is presented here only as a historical classification.",
+    "h": "The traditional textbook classification",
+    "points": [
+     "Caucasoid: textbooks linked this grouping with lighter skin, straight or wavy hair and a narrow nose.",
+     "Mongoloid: textbooks linked this grouping with straight dark hair, an eyelid fold (epicanthic fold) and a broad face.",
+     "Negroid: textbooks linked this grouping with dark skin, tightly curled hair and a broad nose.",
+     "Australoid: textbooks linked this grouping with dark skin, wavy hair and a broad nose.",
+     "None of these traits makes one group superior to another, and the classification says nothing about ability or culture."
+    ]
+   },
+   {
+    "h": "Why physical traits vary",
+    "points": [
+     "Physical traits developed through adaptation to environment over thousands of years.",
+     "Skin pigmentation (melanin) increases towards the tropics, where ultraviolet radiation is strongest.",
+     "Lighter skin at high latitudes allows the body to make vitamin D from less sunlight."
+    ]
+   },
+   {
+    "b": "Before European colonisation, and before about 1500, the main racial groupings were largely separated by oceans, deserts and mountains.",
+    "h": "The pattern before 1500",
+    "points": [
+     "Caucasoid peoples: Europeans, North Africans, Middle Eastern and South Asian peoples.",
+     "Mongoloid peoples: East Asians, Central Asians, the Inuit and the native peoples of the Americas.",
+     "Negroid peoples: the peoples of sub-Saharan Africa.",
+     "Australoid peoples: Aboriginal Australians and Melanesians."
+    ]
+   },
+   {
+    "b": "Colonialism and migration since 1500 overturned the old pattern, so most large countries are now multi-racial.",
+    "h": "Colonisation of the Americas and the slave trade",
+    "points": [
+     "Columbus reached the Americas in 1492. Disease (e.g. smallpox), war and forced labour caused the native population to collapse in the following century.",
+     "Spanish and Portuguese settlers produced racially mixed populations. Mestizo means European and Native American ancestry; mulatto means European and African ancestry. Mexico's population is mainly mestizo.",
+     "About 12.5 million Africans were shipped across the Atlantic as slaves between the 16th and 19th centuries.",
+     "The main destinations were Brazil, the Caribbean and the American South. Brazil received about 4–5 million Africans, more than any other country.",
+     "Brazil abolished slavery on 13 May 1888, the last country in the Americas to do so. The USA abolished it by the 13th Amendment (1865), after the Civil War (1861–65).",
+     "The legacy is large Black populations and racial inequality across the Americas."
+    ]
+   },
+   {
+    "h": "Settler colonies: Australia and New Zealand",
+    "points": [
+     "The First Fleet of British settlers and convicts arrived at Sydney Cove on 26 January 1788.",
+     "The Immigration Restriction Act 1901 began the White Australia Policy, which was dismantled between 1966 and 1973.",
+     "Stolen Generations: Aboriginal and Torres Strait Islander children were removed from their families by governments, roughly from 1910 to the 1970s.",
+     "In the 1967 referendum about 91% voted to count Aboriginal people in the census and let the federal government make laws for them.",
+     "Prime Minister Kevin Rudd made a national apology on 13 February 2008.",
+     "Census 2021: about 3.2% of Australians identified as Aboriginal and/or Torres Strait Islander, and over a quarter of Australians were born overseas.",
+     "The Indigenous Voice to Parliament referendum of 14 October 2023 was rejected, with about 60% voting No.",
+     "New Zealand: the Treaty of Waitangi between the British Crown and Māori chiefs was signed on 6 February 1840. Māori are about one in six of New Zealand's population."
+    ]
+   },
+   {
+    "h": "Removal of Native Americans in the USA",
+    "points": [
+     "The Indian Removal Act 1830 led to the forced removal of the Cherokee in 1838, known as the Trail of Tears.",
+     "Many Native Americans now live on reservations."
+    ]
+   },
+   {
+    "h": "Indentured labour within empires",
+    "points": [
+     "After slavery was abolished, Britain shipped indentured Indian labourers to sugar colonies: to the Caribbean (Trinidad, Guyana), to Fiji (1879–1916), to Mauritius, and to Natal in South Africa (from 1860).",
+     "People of Indian descent are a large share of the population in Trinidad, Guyana, Fiji and Mauritius.",
+     "These movements created Indian communities in each destination."
+    ]
+   },
+   {
+    "h": "Colonial rule hardening racial categories",
+    "points": [
+     "Belgium ruled Rwanda after the First World War.",
+     "From 1933 Belgian identity cards recorded each person as Hutu, Tutsi or Twa.",
+     "The 1994 genocide, in which Hutu extremists killed mostly Tutsi, is set out in the racial conflict block below."
+    ]
+   },
+   {
+    "h": "Post-colonial migration to Europe",
+    "points": [
+     "After 1945 people from former colonies moved to the mother country. Caribbean and South Asian migrants came to Britain.",
+     "The Empire Windrush brought several hundred Caribbean migrants to Tilbury, near London, on 22 June 1948; post-war Caribbean migrants are known as the Windrush generation.",
+     "Later migration from India, Pakistan and Bangladesh also brought South Asian communities to Britain.",
+     "Algerians and other North and West Africans moved to France, and Indonesians and Surinamese moved to the Netherlands.",
+     "This migration created multi-racial European cities."
+    ]
+   },
+   {
+    "h": "Internal migration: the Great Migration",
+    "points": [
+     "About 6 million African Americans moved from the rural South to cities of the North and West, such as Chicago, Detroit and New York, between about 1910 and 1970.",
+     "Segregation and poverty pushed them out of the South, and industrial jobs pulled them to northern and western cities.",
+     "The movement changed the racial make-up of both regions and created segregated inner-city neighbourhoods."
+    ]
+   },
+   {
+    "h": "Labour migration into Europe: guest workers",
+    "points": [
+     "West Germany signed a recruitment agreement with Turkey on 30 October 1961.",
+     "Guest workers (Gastarbeiter) were expected to return home, but many settled with their families, so Germany now has a large population of Turkish origin.",
+     "Belgium signed labour agreements with Morocco and Turkey in 1964.",
+     "North Africans also came to France and Belgium as labour migrants."
+    ]
+   },
+   {
+    "h": "Refugees, asylum seekers and economic migrants",
+    "points": [
+     "Refugee: a person outside their own country who cannot return because of a well-founded fear of persecution based on race, religion, nationality, political opinion or membership of a social group.",
+     "The 1951 UN Refugee Convention, with its 1967 Protocol, defines a refugee.",
+     "Asylum seeker: a person who has applied for refugee status and is waiting for a decision. An asylum seeker becomes a refugee only if the claim is accepted.",
+     "Economic migrant: a person who moves mainly for work or a better income.",
+     "Internally displaced person: a person forced from home who is still inside their own country.",
+     "UNHCR figures: over 120 million people were forcibly displaced worldwide in 2024."
+    ]
+   },
+   {
+    "h": "The Syrian crisis and Europe, 2015",
+    "points": [
+     "The Syrian civil war from 2011 made over 6 million Syrians refugees, most of them in neighbouring countries.",
+     "Turkey hosted about 3.5 million of them, the largest number of any country.",
+     "In 2015 over 1 million refugees and migrants reached Europe across the Mediterranean, many travelling on to Germany.",
+     "Germany received about 1 million asylum seekers in 2015–16.",
+     "The Assad government fell on 8 December 2024, and some refugees began to return."
+    ]
+   },
+   {
+    "h": "The Rohingya",
+    "points": [
+     "The Rohingya are a Muslim minority in Myanmar, made stateless by Myanmar's 1982 citizenship law.",
+     "From August 2017 over 700,000 Rohingya fled to Bangladesh, mostly to camps near Cox's Bazar."
+    ]
+   },
+   {
+    "b": "Ireland moved from a largely White, Irish, Catholic population to a multi-ethnic one. The causes and patterns of Irish migration are covered in the note Changing migration patterns in Ireland.",
+    "h": "Ireland: a changing ethnic pattern",
+    "points": [
+     "Census 2022: about 5.15 million people lived in Ireland, and about 20% (over 1 million) were born outside Ireland.",
+     "About 12% were non-Irish citizens, the largest groups being Polish and UK citizens.",
+     "About three-quarters described their ethnicity as White Irish.",
+     "Polish is the most common language spoken at home after English and Irish (Census 2016 and 2022).",
+     "Irish Travellers: about 33,000 people (Census 2022), under 1% of the population. The State formally recognised them as an ethnic minority on 1 March 2017.",
+     "Citizenship referendum, June 2004 (about 79% Yes): ended the automatic right to Irish citizenship for every child born in Ireland.",
+     "Ukrainians came to Ireland under the EU Temporary Protection Directive, activated in March 2022 after Russia's invasion. Over 100,000 arrived."
+    ]
+   },
+   {
+    "h": "Asylum seekers in Ireland",
+    "points": [
+     "Direct Provision, which gives asylum seekers State accommodation and a weekly allowance while their claims are decided, began in 2000 and was widely criticised for long stays in shared centres.",
+     "A 2017 Supreme Court ruling found the total ban on asylum seekers working unconstitutional; from 2018 they gained a limited right to work.",
+     "More than 13,000 people applied for international protection in Ireland in each of 2022 and 2023.",
+     "Irish and EU migration policy is covered in the note Migration policy in Ireland and the EU."
+    ]
+   },
+   {
+    "h": "Effects of migration on the receiving area",
+    "points": [
+     "The population becomes more diverse, with new places of worship, shops and food.",
+     "Ethnic neighbourhoods form as migrants cluster near others from their own group.",
+     "Migrants supply labour to the receiving economy.",
+     "Discrimination, segregation and tension can follow. On 23 November 2023 a riot broke out in Dublin city centre after a stabbing on Parnell Square, fuelled by anti-immigrant agitation online."
+    ]
+   },
+   {
+    "h": "Effects of migration on the source area",
+    "points": [
+     "The source area loses young adults, who are the most likely to migrate.",
+     "Migrants send remittances, money that supports families who stay behind."
+    ]
+   },
+   {
+    "b": "A multi-racial society is one in which two or more racial groups make up significant shares of the population.",
+    "h": "Multi-racial societies and racial mixing",
+    "points": [
+     "Examples include the USA, Brazil, South Africa, the UK and Ireland today.",
+     "Racial mixing: people of different racial backgrounds have children together, producing mixed-race populations."
+    ]
+   },
+   {
+    "h": "USA: melting pot or salad bowl",
+    "points": [
+     "US Census 2020: White (alone) about 62%; Hispanic or Latino (of any race) about 19%; Black about 12%; Asian about 6%.",
+     "About 10% identified with two or more races, more than double the 2010 figure. Hispanics are the largest minority.",
+     "Melting pot: minority groups assimilate into one common national culture.",
+     "Salad bowl: groups keep distinct identities while sharing one nation."
+    ]
+   },
+   {
+    "b": "Brazil is the main example of racial mixing in this option.",
+    "h": "Brazil: racial mixing",
+    "points": [
+     "Brazil's population descends from Portuguese colonists, enslaved Africans and Indigenous peoples, with later Italian, German, Japanese and Arab immigrants.",
+     "Brazil has the largest Japanese-descended population outside Japan, mainly in São Paulo state.",
+     "Census 2022: pardo (mixed race) about 45%, White (branco) about 44%, Black (preto) about 10%, Indigenous under 1%.",
+     "Census 2022 was the first census since 1991 in which pardo was the largest group.",
+     "The ideal of racial democracy claims that mixing has removed racial division, but White Brazilians on average remain wealthier."
+    ]
+   },
+   {
+    "h": "UK: a European multi-racial society",
+    "points": [
+     "Census 2021 (England and Wales): White about 82%; Asian or Asian British about 9%; Black about 4%; Mixed about 3%.",
+     "The Windrush scandal (2018): some long-settled Caribbean-born residents were wrongly detained, denied services or deported because they lacked documents."
+    ]
+   },
+   {
+    "h": "Multiculturalism and assimilation",
+    "points": [
+     "Multiculturalism: a policy of accepting and supporting distinct cultures within one society, as in Canada, which adopted an official multiculturalism policy in 1971, and Australia.",
+     "Assimilation: minorities adopt the majority culture. France's model expects integration into one secular French identity and does not collect ethnic statistics in its census.",
+     "Arguments for multiculturalism: enrichment, labour supply and tolerance.",
+     "Arguments against multiculturalism: segregation, parallel societies and backlash, including far-right politics."
+    ]
+   },
+   {
+    "h": "Causes of racial conflict",
+    "points": [
+     "Competition for jobs and housing.",
+     "Segregation, which separates groups and limits contact between them.",
+     "Unequal power inherited from colonialism and slavery.",
+     "Racist ideologies, and fear of newcomers."
+    ]
+   },
+   {
+    "h": "South Africa under apartheid, 1948–1994",
+    "points": [
+     "Apartheid was introduced by the National Party after it won the 1948 election.",
+     "The Population Registration Act 1950 classified everyone as White, Black (African), Coloured (mixed race) or Indian/Asian.",
+     "The Group Areas Act 1950 assigned residential areas by race.",
+     "Homelands, known as Bantustans, were set up for Black South Africans.",
+     "District Six, Cape Town, was declared a White area in 1966. About 60,000 residents were forcibly removed and their homes bulldozed.",
+     "Sharpeville, 21 March 1960: police killed 69 protesters.",
+     "Soweto uprising, 16 June 1976: students protested against being taught through Afrikaans.",
+     "Nelson Mandela was released on 11 February 1990 after 27 years in prison. The first all-race election, on 27 April 1994, made him President.",
+     "The Truth and Reconciliation Commission began work in 1996.",
+     "South Africa Census 2022: Black African about 81%, Coloured about 8%, White about 7%, Indian/Asian about 3%.",
+     "Wealth and land ownership remain highly unequal by race."
+    ]
+   },
+   {
+    "h": "The USA: segregation and the civil rights movement",
+    "points": [
+     "Jim Crow laws enforced segregation in the southern states after the Civil War.",
+     "Brown v Board of Education (1954): the Supreme Court ruled school segregation unconstitutional.",
+     "The Montgomery bus boycott (1955) began after Rosa Parks refused to give up her seat.",
+     "The Civil Rights Act 1964 and the Voting Rights Act 1965 followed.",
+     "Martin Luther King was assassinated on 4 April 1968.",
+     "George Floyd was killed by a Minneapolis police officer on 25 May 2020, leading to worldwide Black Lives Matter protests. The movement itself began in 2013."
+    ]
+   },
+   {
+    "h": "Nazi Germany and the Holocaust",
+    "points": [
+     "The Nuremberg Laws (1935) stripped Jews of citizenship and banned marriage between Jews and other Germans.",
+     "Racist ideology was turned into law and then into genocide.",
+     "About 6 million Jews were murdered in the Holocaust. Roma were also targeted for extermination."
+    ]
+   },
+   {
+    "h": "Rwanda, 1994",
+    "points": [
+     "From 7 April 1994, Hutu extremists killed about 800,000 people, mostly Tutsi, in about 100 days."
+    ]
+   },
+   {
+    "h": "European urban unrest",
+    "points": [
+     "Notting Hill, London, 1958: white mobs attacked Caribbean residents.",
+     "Brixton, London, April 1981: clashes between mainly Black youths and police.",
+     "France, October–November 2005: riots spread through the suburbs (banlieues) of Paris and other cities after two teenagers died fleeing police in Clichy-sous-Bois. A state of emergency was declared.",
+     "Similar riots followed the police shooting of a teenager, Nahel Merzouk, in Nanterre in June 2023."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "(a) Colonisation of the Americas and the slave trade. Columbus reached the Americas in 1492, and disease such as smallpox, war and forced labour caused the native population to collapse in the following century. Spanish and Portuguese settlers produced mixed populations: mestizo (European and Native American) and mulatto (European and African) are Latin American terms, and Mexico's population is mainly mestizo. About 12.5 million Africans were shipped across the Atlantic as slaves between the 16th and 19th centuries, and Brazil received about 4–5 million, more than any other country. Brazil abolished slavery on 13 May 1888, the last country in the Americas to do so. Brazil's mixed population is shown by Census 2022, in which pardo (mixed race) was about 45%, the largest group for the first time since 1991, with White (branco) about 44% and Black (preto) about 10%. The ideal of racial democracy denies racial division, but White Brazilians on average remain wealthier. (b) Settler colonies. The First Fleet arrived at Sydney Cove on 26 January 1788. The Immigration Restriction Act 1901 began the White Australia Policy, which was dismantled between 1966 and 1973. Aboriginal and Torres Strait Islander children were removed from their families under the Stolen Generations, roughly from 1910 to the 1970s. About 91% voted in the 1967 referendum to count Aboriginal people in the census, and Kevin Rudd apologised on 13 February 2008. In Census 2021 about 3.2% of Australians identified as Aboriginal and/or Torres Strait Islander, and over a quarter were born overseas. In New Zealand the Treaty of Waitangi between the Crown and Māori chiefs was signed on 6 February 1840, and Māori are about one in six of the population. (c) Post-colonial and guest-worker migration to Europe. After 1945 people from former colonies moved to Britain. The Empire Windrush brought several hundred Caribbean migrants to Tilbury on 22 June 1948, and migration from India, Pakistan and Bangladesh followed. Census 2021 for England and Wales recorded White about 82%, Asian or Asian British about 9%, Black about 4% and Mixed about 3%. West Germany recruited Turkish guest workers from 30 October 1961; many settled with their families, so Germany now has a large population of Turkish origin. (d) Refugees and Ireland's changing pattern. A refugee cannot return because of a well-founded fear of persecution, and an asylum seeker is waiting for a decision on that claim. The Syrian civil war from 2011 produced over 6 million refugees, and in 2015 over 1 million refugees and migrants reached Europe. In Ireland, Census 2022 found about 20% born outside Ireland and about three-quarters White Irish. Direct Provision, begun in 2000, housed asylum seekers, and over 100,000 Ukrainians came under the EU Temporary Protection Directive from March 2022.",
+    "prompt": "Examine the impact of colonialism and migration on racial patterns.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Racial conflict arises from competition for jobs and housing, from segregation, from unequal power inherited from colonialism and slavery, from racist ideologies and from fear of newcomers. Apartheid South Africa is the main case study. Introduced by the National Party after the 1948 election, apartheid classified everyone as White, Black (African), Coloured (mixed race) or Indian/Asian under the Population Registration Act 1950, and the Group Areas Act 1950 assigned residential areas by race. Homelands, known as Bantustans, were set up for Black South Africans. In District Six, Cape Town, about 60,000 residents were forcibly removed after the area was declared a White area in 1966. Police killed 69 protesters at Sharpeville on 21 March 1960, and the Soweto uprising of 16 June 1976 protested against teaching through Afrikaans. Nelson Mandela was released on 11 February 1990 after 27 years in prison, and the first all-race election on 27 April 1994 made him President. The Truth and Reconciliation Commission began in 1996, but wealth and land ownership remain highly unequal by race. The USA shows the same causes at work through segregation: Jim Crow laws enforced segregation in the southern states after the Civil War; Brown v Board of Education (1954) ruled school segregation unconstitutional; the Montgomery bus boycott (1955) began after Rosa Parks refused to give up her seat; the Civil Rights Act 1964 and Voting Rights Act 1965 followed; and George Floyd's killing by a Minneapolis police officer on 25 May 2020 led to worldwide Black Lives Matter protests. Rwanda shows how a colonial classification could become fatal: Belgian identity cards from 1933 recorded Hutu, Tutsi or Twa, and from 7 April 1994 Hutu extremists killed about 800,000 people, mostly Tutsi, in about 100 days. Conflict therefore grows where a group is separated by residence, locked into unequal power and labelled by racist ideology, and these conditions in apartheid South Africa, the USA and Rwanda were the basis for violence.",
+    "prompt": "Racial conflict can occur in multi-racial societies. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "A refugee is a person outside their own country who cannot return because of a well-founded fear of persecution, as defined by the 1951 UN Refugee Convention. An asylum seeker has applied for refugee status and is waiting for a decision; they become a refugee only if the claim is accepted. Ireland responded by introducing Direct Provision in 2000, which provides State accommodation and a weekly allowance to asylum seekers while their claims are decided. It was widely criticised for long stays in shared centres. A 2017 Supreme Court ruling found the total ban on working unconstitutional, and from 2018 asylum seekers gained a limited right to work.",
+    "prompt": "Explain the difference between a refugee and an asylum seeker, and describe one way Ireland has responded to asylum seekers.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-culture-identity-s2": {
+  "keyTerms": [
+   {
+    "definition": "A set of languages descended from a common ancestor.",
+    "term": "Language family"
+   },
+   {
+    "definition": "A regional variety of a single language.",
+    "term": "Dialect"
+   },
+   {
+    "definition": "A language spoken by a minority of a state's population.",
+    "term": "Minority language"
+   },
+   {
+    "definition": "A word taken from one language into another, such as the French le weekend from English.",
+    "term": "Loanword"
+   },
+   {
+    "definition": "A language used for communication between speakers of different languages, such as English in international business.",
+    "term": "Lingua franca"
+   },
+   {
+    "definition": "An area in which Irish is the main community language, found in seven Irish counties.",
+    "term": "Gaeltacht"
+   },
+   {
+    "definition": "An Irish-medium school outside the Gaeltacht.",
+    "term": "Gaelscoil"
+   },
+   {
+    "definition": "A Basque-medium school, begun as a clandestine movement under Franco.",
+    "term": "Ikastola"
+   },
+   {
+    "definition": "A school in which all or most teaching is carried out through a minority language.",
+    "term": "Immersion school"
+   },
+   {
+    "definition": "The passing of a language from parents to children, which breaks down when a language declines.",
+    "term": "Inter-generational transmission"
+   },
+   {
+    "definition": "A Gaeltacht area, one of 26 created under the Gaeltacht Act 2012, with its own language plan.",
+    "term": "Language planning area"
+   },
+   {
+    "definition": "A language with no known relatives, such as Basque.",
+    "term": "Isolate"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why language is a cultural indicator",
+    "points": [
+     "Language carries a group's history, literature, songs, place names and ways of thinking.",
+     "Language marks who belongs to a group.",
+     "Language is easy to map from census questions on language, so it is used to define cultural regions."
+    ]
+   },
+   {
+    "h": "Language and nationalism",
+    "points": [
+     "Many nation states were built around a single language.",
+     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led the language revival that was part of the Irish independence movement.",
+     "Suppressing a language has been used to weaken a group. Basque and Catalan were banned from public life and schools under Franco (1939–1975).",
+     "The Welsh Not was a wooden board hung round the neck of children caught speaking Welsh in some 19th-century schools.",
+     "Kurdish was banned in public life and broadcasting in Turkey until the early 1990s."
+    ]
+   },
+   {
+    "h": "Language and power",
+    "points": [
+     "Colonial languages became official languages of former colonies: English in India and Nigeria, French in Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil.",
+     "The language of the powerful brings jobs and status, so speakers of minority languages shift to it.",
+     "The Organisation internationale de la Francophonie, founded in 1970, links French-speaking states."
+    ]
+   },
+   {
+    "b": "Place names preserve the language spoken in an area long after it has been replaced.",
+    "h": "Place names as evidence of language",
+    "points": [
+     "Irish place-name elements show the Irish-speaking past of areas that are now English-speaking: baile (townland or homestead), cill (church), dún (fort), inis (island) and cluain (meadow).",
+     "Examples: Clonmel (Cluain Meala), Kilkenny (Cill Chainnigh), Dundalk (Dún Dealgan) and Ennis (Inis)."
+    ]
+   },
+   {
+    "h": "Language as a unifier and divider",
+    "points": [
+     "A shared national language can unite a state; language borders can divide it, as Belgium's does. Belgium's language border is covered in the notes Cultural regions and The complexity of regions (ii).",
+     "French is spoken in France, Belgium (Wallonia), Switzerland (west) and Quebec (Canada).",
+     "Languages cross borders: French is spoken in several states, and Basque is spoken in both Spain and France."
+    ]
+   },
+   {
+    "b": "Languages are grouped by descent, from the largest unit to the smallest.",
+    "h": "Language families",
+    "points": [
+     "A language family is a set of languages descended from a common ancestor. Each family divides into branches, and each branch contains languages.",
+     "A dialect is a regional variety of a single language.",
+     "About 7,000 languages are spoken in the world today."
+    ]
+   },
+   {
+    "h": "The main world language families",
+    "points": [
+     "Indo-European is the largest family, spoken by nearly half the world's people. It covers Europe, the Americas, Iran and South Asia.",
+     "Sino-Tibetan: Mandarin and other Chinese languages, Tibetan and Burmese.",
+     "Afro-Asiatic: Arabic, Hebrew, Amharic and Hausa.",
+     "Niger-Congo: most of sub-Saharan Africa, e.g. Swahili, Yoruba and Zulu.",
+     "Austronesian: Malay/Indonesian, Filipino, Malagasy, Māori and Hawaiian.",
+     "Dravidian: southern India, e.g. Tamil and Telugu.",
+     "Turkic and Uralic are further families."
+    ]
+   },
+   {
+    "h": "The most spoken languages",
+    "points": [
+     "Mandarin Chinese has the most native speakers.",
+     "English has the most speakers in total, about 1.5 billion counting second-language speakers.",
+     "Spanish has the second-most native speakers. Hindi is also very widely spoken.",
+     "Arabic is the language of the Qur'an and an official language in over 20 states of the Middle East and North Africa."
+    ]
+   },
+   {
+    "h": "How languages spread",
+    "points": [
+     "Migration, conquest and empire spread languages: Latin with the Roman Empire, and English, Spanish, French and Portuguese with colonialism.",
+     "Trade and religion spread languages too: Arabic spread with Islam.",
+     "Today globalisation and the media spread dominant languages."
+    ]
+   },
+   {
+    "b": "A sketch map of the branches is a useful diagram in an exam answer.",
+    "h": "The European branches of Indo-European",
+    "points": [
+     "Germanic: English, German, Dutch (including Flemish, the Dutch spoken in Belgium), Danish, Swedish, Norwegian and Icelandic.",
+     "Romance, from Latin: French, Spanish, Portuguese, Italian, Romanian and Catalan.",
+     "Slavic: Russian, Polish, Czech, Slovak, Ukrainian, Bulgarian, Serbian, Croatian and Slovene.",
+     "Celtic: Goidelic (Irish, Scottish Gaelic and Manx) and Brythonic (Welsh, Breton and Cornish).",
+     "Hellenic: Greek. Baltic: Latvian and Lithuanian. Albanian is a separate branch.",
+     "Non-Indo-European languages in Europe: Finnish, Estonian and Hungarian (Uralic); Turkish (Turkic); Maltese (Semitic, written in the Latin alphabet).",
+     "Basque is an isolate, unrelated to any other language."
+    ]
+   },
+   {
+    "h": "Irish and the EU, and English as Europe's second language",
+    "points": [
+     "The EU has 24 official languages.",
+     "Irish became an official EU language in 2007, with full working-language status from 1 January 2022.",
+     "English is Europe's main second language, and language learning is supported by programmes such as Erasmus exchanges."
+    ]
+   },
+   {
+    "h": "Mass media and the spread of English",
+    "points": [
+     "Television, film, music, the internet, social media and streaming are dominated by English, through Hollywood films and US and UK music.",
+     "About half of all websites are in English.",
+     "Young people adopt English words and English-language culture.",
+     "Minority-language speakers consume most media in the majority language at home."
+    ]
+   },
+   {
+    "h": "Effects of English on European languages",
+    "points": [
+     "English loanwords enter other languages, such as the French le weekend (a feature of Franglais).",
+     "English is the language of business, science and the internet.",
+     "The pressure falls on small national languages as well as on minority languages."
+    ]
+   },
+   {
+    "h": "State responses to the influence of the media",
+    "points": [
+     "France: the Académie française, founded in 1635, works to protect the French language.",
+     "Toubon Law (1994): French must be used in advertising, product labels, workplace documents and public signage.",
+     "French music radio stations must play at least 40% French-language songs (law of 1994, applied from 1996).",
+     "Quebec's Charter of the French Language (Bill 101, 1977) made French the sole official language of Quebec and requires most immigrant children to attend French-language schools.",
+     "Iceland coins new Icelandic words for new things, e.g. tölva (computer)."
+    ]
+   },
+   {
+    "h": "Media that protect minority languages",
+    "points": [
+     "Raidió na Gaeltachta began broadcasting in 1972.",
+     "TG4, originally Teilifís na Gaeilge, launched on 31 October 1996 and is based in Baile na hAbhann, Conamara.",
+     "S4C, the Welsh-language television channel, launched on 1 November 1982, after Plaid Cymru's former leader Gwynfor Evans threatened a hunger strike in 1980 when the government backed away from its promise.",
+     "BBC Alba, the Scottish Gaelic television service, launched in 2008.",
+     "EITB, the Basque public broadcaster, began television in 1982.",
+     "Social media and online content also let small languages reach young people."
+    ]
+   },
+   {
+    "h": "Minority languages and endangerment",
+    "points": [
+     "A minority language is spoken by a minority of a state's population, e.g. Irish, Welsh, Breton, Basque, Scottish Gaelic and Sámi.",
+     "About 40% of the world's languages are endangered."
+    ]
+   },
+   {
+    "h": "Why minority languages decline",
+    "points": [
+     "Conquest and official suppression.",
+     "A dominant language is needed for jobs, education and emigration.",
+     "Famine and emigration, and the in-migration of majority-language speakers.",
+     "Urbanisation, mass media and globalisation.",
+     "Parents do not pass the language on, so inter-generational transmission breaks."
+    ]
+   },
+   {
+    "h": "Revival of languages that became extinct",
+    "points": [
+     "Manx: the last native speaker, Ned Maddrell, died in 1974. The language has since been revived, with a Manx-medium primary school.",
+     "Cornish: the last traditional speaker is usually given as Dolly Pentreath, who died in 1777. Cornish was revived in the 20th century.",
+     "The Cornish were recognised as a national minority in 2014."
+    ]
+   },
+   {
+    "h": "Strategies for the survival of minority languages",
+    "points": [
+     "Official status in law.",
+     "Education through the language: immersion and medium-of-instruction schools, and compulsory study of the language.",
+     "Media, including broadcasting and online content.",
+     "Jobs and economic development in the language's heartland, and planning and housing controls.",
+     "Language commissioners and public-service rights.",
+     "Community and family support, culture and festivals.",
+     "Cross-border and EU recognition.",
+     "Possible future measures, such as language conditions for housing in the Gaeltacht or more online content, count alongside measures already in place."
+    ]
+   },
+   {
+    "h": "Irish: status and figures",
+    "points": [
+     "Article 8 of the 1937 Constitution makes Irish the national language and the first official language; English is the second official language.",
+     "Census 2022: about 1.87 million people (about 40%) said they could speak Irish, but only about 72,000 spoke it daily outside the education system.",
+     "Census 2022: the Gaeltacht population was about 106,000, of whom about 20,000 spoke Irish daily outside education.",
+     "Census 1851, the first count: about 1.5 million Irish speakers (about 23%).",
+     "Gaeltacht areas lie in seven counties: Donegal, Mayo, Galway, Kerry, Cork, Waterford and Meath.",
+     "Main areas: Gaoth Dobhair (Co. Donegal); Conamara and the Aran Islands (Co. Galway, the largest); Corca Dhuibhne (Co. Kerry); Múscraí and Oileán Chléire (Co. Cork); An Rinn (Co. Waterford); Ráth Chairn and Baile Ghib (Co. Meath)."
+    ]
+   },
+   {
+    "h": "Irish: state bodies and laws",
+    "points": [
+     "The Gaeltacht Areas Order 1956 and the Department of the Gaeltacht (1956) are the founding state measures for the Gaeltacht.",
+     "Údarás na Gaeltachta (1980) is the Gaeltacht development authority. It grant-aids firms in the Gaeltacht, such as on the Gaoth Dobhair industrial estate, and supports Irish-language community projects.",
+     "Official Languages Act 2003 (amended 2021): the public has the right to deal with public bodies in Irish. The 2021 amendment sets a target that 20% of new public-service recruits be competent in Irish by 2030.",
+     "An Coimisinéir Teanga (Language Commissioner), set up in 2004, enforces the Act.",
+     "Foras na Gaeilge is an all-island body, set up in 1999 under the Good Friday Agreement to promote Irish.",
+     "Gaeltacht Act 2012: 26 Gaeltacht Language Planning Areas, each with a language plan; Gaeltacht Service Towns; Irish Language Networks outside the Gaeltacht.",
+     "The 20-Year Strategy for the Irish Language 2010–2030 aims to raise daily speakers to 250,000.",
+     "Northern Ireland's Identity and Language (Northern Ireland) Act 2022 gave official recognition to Irish and Ulster-Scots and created an Irish Language Commissioner."
+    ]
+   },
+   {
+    "h": "Irish: education and culture",
+    "points": [
+     "Irish is a compulsory subject through primary and post-primary school, with exemptions.",
+     "Gaelscoileanna are Irish-medium schools outside the Gaeltacht; their umbrella body was founded in 1973.",
+     "Gaeltacht summer colleges (coláistí samhraidh) bring learners to live with Irish-speaking families.",
+     "Seachtain na Gaeilge is an annual Irish-language festival around St Patrick's Day. The Oireachtas na Gaeilge festival was first held in 1897.",
+     "TG4 broadcasts Irish-language drama, sport and music programmes."
+    ]
+   },
+   {
+    "h": "Irish: decline and evaluation",
+    "points": [
+     "The Comprehensive Linguistic Study of the Use of Irish in the Gaeltacht (2007) found that Irish is viable as a community language only where at least 67% speak it daily.",
+     "Its 2015 update warned that Irish could cease to be the community language in most Gaeltacht districts within about ten years.",
+     "Evaluation: Irish has high ability, meaning many people can speak it, but low daily use.",
+     "The history of Gaeltacht boundaries since 1850 is covered in the note The complexity of regions (ii)."
+    ]
+   },
+   {
+    "h": "Welsh: suppression and decline",
+    "points": [
+     "The Laws in Wales Acts of 1535 and 1542 annexed Wales to England and barred Welsh speakers from public office unless they used English.",
+     "The 1847 government reports on education in Wales, known as the Treachery of the Blue Books, blamed Welsh for the people's backwardness.",
+     "Coal and iron industries in the 19th century drew large numbers of English and Irish workers into south Wales, spreading English.",
+     "The flooding of the Welsh-speaking village of Capel Celyn in the Tryweryn valley in 1965, for a reservoir to supply Liverpool, went ahead despite almost all Welsh MPs opposing it, and became a symbol of Welsh powerlessness."
+    ]
+   },
+   {
+    "h": "Welsh: activism",
+    "points": [
+     "Cymdeithas yr Iaith Gymraeg (the Welsh Language Society) was founded in 1962 after Saunders Lewis's radio lecture Tynged yr Iaith (The Fate of the Language).",
+     "The society used civil disobedience, e.g. painting over English-only road signs.",
+     "The campaign that secured S4C, described in the media section above, was part of the same activism."
+    ]
+   },
+   {
+    "h": "Welsh: law and status",
+    "points": [
+     "The Welsh Language Act 1967 gave Welsh limited equal validity.",
+     "The Welsh Language Act 1993 gave Welsh and English equal treatment in the public sector and created the Welsh Language Board.",
+     "The Welsh Language (Wales) Measure 2011 gave Welsh official status and led to a Welsh Language Commissioner from 2012.",
+     "The National Assembly for Wales (1999), renamed the Senedd in 2020, makes laws through Welsh and English.",
+     "The Cymraeg 2050 strategy (2017) sets a target of 1 million Welsh speakers by 2050."
+    ]
+   },
+   {
+    "h": "Welsh: education and youth",
+    "points": [
+     "Welsh is compulsory in all schools in Wales up to age 16, and Welsh-medium schools are found across Wales.",
+     "Urdd Gobaith Cymru (a youth movement founded in 1922) and the National Eisteddfod promote Welsh among the young."
+    ]
+   },
+   {
+    "h": "Welsh: figures, threats and evaluation",
+    "points": [
+     "Census 2021: about 538,000 people aged 3 and over (17.8%) could speak Welsh, down from 19.0% in 2011. Wales has a population of about 3.1 million.",
+     "The highest shares are in Gwynedd (about 64%) and the Isle of Anglesey (over half), in the north-west heartland.",
+     "Second homes and English in-migration push up house prices in Welsh-speaking rural areas.",
+     "From April 2023 Welsh councils may charge up to a 300% council-tax premium on second homes.",
+     "Evaluation: Welsh is often cited as the most successful Celtic-language revival, but its decline in the heartland shows the limits of revival despite statutory support.",
+     "Welsh political history is covered in the note A European regional case study of identity."
+    ]
+   },
+   {
+    "h": "Basque (Euskara): autonomy and schooling",
+    "points": [
+     "The Statute of Gernika (1979) created the Basque Autonomous Community, where Basque is co-official with Spanish.",
+     "The school models are A (Spanish-medium, with Basque as a subject), B (both languages) and D (all through Basque, with Spanish as a subject). Model D is now chosen for most pupils.",
+     "Ikastolak are Basque-medium schools that began as a clandestine movement under Franco.",
+     "Euskaltzaindia, the Royal Academy of the Basque Language, founded in 1919, created standard Basque, Batua, from 1968.",
+     "Basque television is provided by EITB, described in the media section above.",
+     "Evaluation: use of Basque is rising among the young."
+    ]
+   },
+   {
+    "h": "Breton: a contrast where state support is weak",
+    "points": [
+     "Brittany was united with France in 1532.",
+     "Article 2 of the French Constitution, added in 1992, states: The language of the Republic is French.",
+     "Since 2008 Article 75-1 states that regional languages belong to France's heritage.",
+     "France signed the European Charter for Regional or Minority Languages in 1999 but has not ratified it.",
+     "Diwan: Breton-medium immersion schools, the first opened in 1977, run as a voluntary association.",
+     "In 2021 France's Constitutional Council struck down parts of a new law, the Molac Law, that allowed immersion teaching in public schools.",
+     "Breton has declined sharply, and most of its speakers are elderly."
+    ]
+   },
+   {
+    "h": "Māori in New Zealand: revival outside Europe",
+    "points": [
+     "Te reo Māori became an official language of New Zealand in 1987 under the Māori Language Act.",
+     "Kōhanga reo (language nests), preschools run entirely in Māori, began in 1982."
+    ]
+   },
+   {
+    "h": "European measures",
+    "points": [
+     "The Council of Europe adopted the European Charter for Regional or Minority Languages in 1992.",
+     "Irish's EU status is set out in the EU languages block above."
+    ]
+   },
+   {
+    "b": "This is a data skill from the Ordinary-level examination.",
+    "h": "Reading a chart of languages by age group",
+    "points": [
+     "Find the tallest bar to identify the age group that speaks the language most.",
+     "Add the percentages for one language across the groups to find its combined share.",
+     "A promotion idea for Irish should target the group where the chart shows the lowest use, and link the language to jobs, travel or culture.",
+     "An advantage of speaking another language is access to jobs with multinational companies, to travel, and to understanding another culture."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Legal status is the first strategy. Article 8 of the 1937 Constitution makes Irish the national language and first official language. The Official Languages Act 2003 gives the public the right to deal with public bodies in Irish, and its 2021 amendment sets a target that 20% of new public-service recruits be competent in Irish by 2030. Welsh gained official status under the Welsh Language (Wales) Measure 2011, which created a Welsh Language Commissioner from 2012. Education is the second strategy. Irish is compulsory through primary and post-primary school, and Gaelscoileanna, Irish-medium schools outside the Gaeltacht, have an umbrella body founded in 1973. Welsh is compulsory in all schools in Wales up to age 16, and Welsh-medium schools are found across Wales. The Basque model D, in which all teaching is through Basque, is now chosen for most pupils, and the Breton Diwan schools rely on voluntary effort, which shows the contrast where state support is weak. Media is the third strategy. Raidió na Gaeltachta began in 1972, TG4 launched on 31 October 1996, and S4C launched on 1 November 1982 after Gwynfor Evans threatened a hunger strike. Economic and community planning is the fourth strategy. Údarás na Gaeltachta, founded in 1980, grant-aids firms in the Gaeltacht and supports Irish community projects, and the Gaeltacht Act 2012 created 26 Gaeltacht Language Planning Areas, each with a language plan. The 20-Year Strategy aims to raise daily speakers to 250,000. Evaluation: Welsh is often cited as the most successful Celtic-language revival, but Irish has high ability and low daily use, and the 2007 study found Irish viable as a community language only where at least 67% speak it daily. Possible future strategies include language conditions for housing in the Gaeltacht and more online content for young people.",
+    "prompt": "Examine the strategies that have been or could be implemented to aid the survival of minority languages.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove the Irish revival that was part of the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
+    "prompt": "Examine the importance of language as a cultural indicator.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "(a) The highest Irish value is 35%, for people aged 65 and over, the tallest bar for Irish. (b) For Polish, adding the three groups gives 8% + 15% + 2% = 25%. (c) Promote Irish through Gaeltacht summer colleges (coláistí samhraidh), which bring learners to live with Irish-speaking families; aim the promotion at the 25 to 44 group, where the chart shows the lowest Irish figure. (d) An advantage of another language is access to jobs with multinational companies, to travel, and to understanding another culture. The data are illustrative and invented for this question.",
+    "prompt": "The bar chart described here uses illustrative data, invented for this question, and shows the percentage of three age groups who speak each language. Irish: aged 15 to 24, 30%; aged 25 to 44, 25%; aged 65 and over, 35%. French: aged 15 to 24, 12%; aged 25 to 44, 10%; aged 65 and over, 4%. Polish: aged 15 to 24, 8%; aged 25 to 44, 15%; aged 65 and over, 2%. (a) Which age group speaks Irish most, and what is its percentage? (b) Add the three percentages for Polish. (c) Suggest one way to promote Irish. (d) Give one advantage of speaking another language.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-culture-identity-s3": {
+  "keyTerms": [
+   {
+    "definition": "The decline of religious practice and church influence in society.",
+    "term": "Secularisation"
+   },
+   {
+    "definition": "A state in which religious leaders hold political authority.",
+    "term": "Theocracy"
+   },
+   {
+    "definition": "A church recognised by the State as its official church, such as the Church of England.",
+    "term": "Established church"
+   },
+   {
+    "definition": "The French principle of secularism, separating the state from religion.",
+    "term": "Laïcité"
+   },
+   {
+    "definition": "The place where a religion or language began before it spread.",
+    "term": "Hearth"
+   },
+   {
+    "definition": "The spread of a religion from its hearth through empire, missionaries, trade, colonialism or migration.",
+    "term": "Diffusion"
+   },
+   {
+    "definition": "The largest branch of Islam, with about 85–90% of Muslims.",
+    "term": "Sunni"
+   },
+   {
+    "definition": "The branch of Islam that is the majority in Iran and Iraq.",
+    "term": "Shia"
+   },
+   {
+    "definition": "The division of a territory into separate states, such as India and Pakistan in 1947 or Northern Ireland in 1921.",
+    "term": "Partition"
+   },
+   {
+    "definition": "The settlement of a region by people from outside, such as the Plantation of Ulster from 1609.",
+    "term": "Plantation"
+   },
+   {
+    "definition": "Drawing electoral boundaries to favour one group, as in Derry's local voting.",
+    "term": "Gerrymandering"
+   },
+   {
+    "definition": "A school educating Catholic and Protestant pupils together in Northern Ireland.",
+    "term": "Integrated school"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why religion is a cultural indicator",
+    "points": [
+     "Religion shapes beliefs, values and moral codes, and often marks group identity more strongly than nationality does.",
+     "It shows in the landscape: churches, mosques, temples, synagogues, holy wells, wayside shrines and cemeteries.",
+     "It shapes diet (halal, kosher, Hindu vegetarianism), dress (headscarf, turban, kippah), the calendar and festivals (Christmas, Easter, Eid, Diwali, Yom Kippur), names, education and law.",
+     "Census questions on religion make it easy to map."
+    ]
+   },
+   {
+    "h": "Religion and other cultural indicators",
+    "points": [
+     "Religion is linked with language: Arabic and the Qur'an, Latin and the Catholic Church in the past, and Hebrew and Judaism.",
+     "Religion is linked with nationality: Catholicism with Irish or Polish identity, and Orthodoxy with Serbian identity.",
+     "Religion is also linked with politics."
+    ]
+   },
+   {
+    "h": "Secularisation",
+    "points": [
+     "Religious practice and church influence are declining in much of Europe, including Ireland and France.",
+     "Religion stays strong in many other parts of the world, and migration brings new religions into Europe."
+    ]
+   },
+   {
+    "b": "These are Pew Research Center figures for 2020, published in 2025. They describe 2020 and should not be presented as current.",
+    "h": "World religions by number of followers",
+    "points": [
+     "Christians: about 2.3 billion, about 29% of the world.",
+     "Muslims: about 2 billion, about 26% of the world.",
+     "Religiously unaffiliated: about 1.9 billion, about 24%. The unaffiliated are people with no religion, not a religion in themselves.",
+     "Hindus: about 1.2 billion, about 15%. Buddhists: about 320 million, about 4%. Jews: about 15 million.",
+     "Islam was the fastest-growing major religion from 2010 to 2020."
+    ]
+   },
+   {
+    "h": "Hearths of the major religions",
+    "points": [
+     "Judaism is the oldest of the three Abrahamic faiths, and Jerusalem is its holiest city.",
+     "Christianity began with the life of Jesus in Roman Palestine.",
+     "Islam was founded by the Prophet Muhammad in Mecca, Arabia, in the early 7th century. The Hijra to Medina in 622 begins the Islamic calendar.",
+     "Hinduism has no single founder and developed in the Indian subcontinent.",
+     "Buddhism was founded by Siddhartha Gautama (the Buddha) in north-east India around the 5th century BC. Bodh Gaya is where he is said to have gained enlightenment.",
+     "Sikhism was founded by Guru Nanak in Punjab in the 15th century. The Golden Temple (Harmandir Sahib) at Amritsar is its holiest site."
+    ]
+   },
+   {
+    "h": "How religions spread",
+    "points": [
+     "Empire: Christianity spread through the Roman Empire, which made it the official religion in the 4th century. Islam spread with the Arab conquests from the 7th century, across the Middle East and North Africa and into Spain within about a century.",
+     "Missionaries: Irish monks, such as St Columba on Iona and St Columbanus in continental Europe, spread Christianity in the early medieval period.",
+     "Trade: Islam spread to Indonesia and West Africa.",
+     "Colonialism: Christianity spread to the Americas, Africa and the Philippines.",
+     "Migration: Islam, Hinduism and Sikhism spread into Europe."
+    ]
+   },
+   {
+    "h": "Divisions within Christianity",
+    "points": [
+     "Roman Catholic: southern Europe, Ireland, Poland, Latin America and the Philippines.",
+     "Protestant: northern Europe, the UK and the USA.",
+     "Orthodox: eastern Europe, Russia, Greece and Serbia.",
+     "The Great Schism of 1054 divided the Catholic West (Rome) from the Orthodox East (Constantinople).",
+     "The Reformation began in 1517 with Martin Luther in Germany, and Calvinism spread from Geneva.",
+     "Christianity is growing in sub-Saharan Africa."
+    ]
+   },
+   {
+    "h": "Distribution of Islam",
+    "points": [
+     "Islam is strong in the Middle East, North Africa, Central Asia, Pakistan, Bangladesh, Indonesia, and parts of West and East Africa.",
+     "Indonesia has the world's largest Muslim population.",
+     "Sunnis are about 85–90% of Muslims. Shias are the majority in Iran and Iraq.",
+     "Mecca and Medina, in Saudi Arabia, are Islam's holiest cities. The Hajj pilgrimage to Mecca is a duty for every Muslim able to make it.",
+     "Islam is growing in Europe through migration."
+    ]
+   },
+   {
+    "h": "Distribution of Hinduism, Buddhism, Judaism and Sikhism",
+    "points": [
+     "Hinduism is found in India and Nepal and in the Indian diaspora. About four in five Indians are Hindu, and Varanasi on the Ganges is a major pilgrimage city.",
+     "Buddhism is found in Thailand, Myanmar, Sri Lanka, Tibet, Japan and Vietnam.",
+     "Judaism is found mainly in Israel and the USA, where most of the world's Jews live.",
+     "Sikhism is found in Punjab, with a diaspora in the UK and Canada."
+    ]
+   },
+   {
+    "b": "A sketch map of the major religious regions is expected in an 80-mark answer.",
+    "h": "Mapping the world's religions",
+    "points": [
+     "Label the major religious regions and the holy cities: Jerusalem, Mecca, Varanasi and Amritsar."
+    ]
+   },
+   {
+    "h": "Religion in Ireland and Northern Ireland",
+    "points": [
+     "Census 2022, Republic of Ireland: about 69% Roman Catholic, down from about 78% in Census 2016.",
+     "About 14% have no religion.",
+     "Orthodox Christians and Muslims are growing groups, through immigration.",
+     "Census 2021, Northern Ireland (religion or religion brought up in): Catholic about 46%, Protestant and other Christian about 43%.",
+     "This was the first census in which Catholics outnumbered Protestants, though Catholics were not a majority.",
+     "Religious issues arising from migration into Ireland are covered in the note Ethnic, racial and religious issues arising from migration."
+    ]
+   },
+   {
+    "h": "Types of relationship between church and state",
+    "points": [
+     "Theocracy: religious leaders rule.",
+     "An established or state church: the Church of England is the established church in England.",
+     "Strict separation: France's laïcité and the USA's First Amendment.",
+     "States in which one church had a dominant influence: Ireland in the 20th century and Poland."
+    ]
+   },
+   {
+    "h": "Theocracy and fused religion and state",
+    "points": [
+     "Iran has been an Islamic Republic since the 1979 revolution. A Supreme Leader, a senior cleric, has the highest authority.",
+     "Vatican City is an independent state ruled by the Pope, created by the Lateran Treaty with Italy in 1929.",
+     "Saudi Arabia's law is based on Sharia, and the public practice of other religions is not permitted."
+    ]
+   },
+   {
+    "h": "Established church, separation and secularism",
+    "points": [
+     "The Church of England is the established church. The monarch is its Supreme Governor, and 26 bishops sit in the House of Lords.",
+     "The First Amendment (1791) to the US Constitution bars an established religion.",
+     "France's 1905 law separated the churches and the state. Laïcité, or secularism, is a core principle of the Republic.",
+     "A 2004 law banned conspicuous religious symbols, including the Islamic headscarf, in state schools.",
+     "A 2010 law banned face coverings, including the burqa and niqab, in public places."
+    ]
+   },
+   {
+    "h": "A secular constitution under pressure",
+    "points": [
+     "India's constitution describes it as a secular republic.",
+     "Hindu nationalism has grown in Indian politics since the 1990s."
+    ]
+   },
+   {
+    "h": "The Irish Constitution of 1937",
+    "points": [
+     "Bunreacht na hÉireann was approved by referendum on 1 July 1937.",
+     "The preamble begins: In the Name of the Most Holy Trinity.",
+     "Article 44 originally recognised the special position of the Holy Catholic Apostolic and Roman Church as the guardian of the Faith professed by the great majority of the citizens.",
+     "Article 44 also recognised the Church of Ireland, the Presbyterian Church, the Methodist Church, the Religious Society of Friends (Quakers) and the Jewish congregations.",
+     "Article 44 guarantees freedom of conscience and practice and says the State shall not endow any religion. Its special position clause did not establish a state church.",
+     "Article 41 originally banned divorce.",
+     "The Eighth Amendment (1983) gave the unborn a right to life equal to the mother's."
+    ]
+   },
+   {
+    "h": "Church influence on Irish society in the 20th century",
+    "points": [
+     "Most primary schools, about nine in ten, are under Catholic patronage, and the Church controlled many hospitals.",
+     "The Church influenced social policy on censorship and contraception.",
+     "The Mother and Child Scheme (1950–51), a free health-care plan for mothers and children, was dropped after opposition from the Catholic hierarchy and doctors. The Minister for Health, Noel Browne, resigned.",
+     "Pope John Paul II visited Ireland in 1979, and Pope Francis visited in 2018."
+    ]
+   },
+   {
+    "h": "Constitutional and social change",
+    "points": [
+     "Fifth Amendment referendum, December 1972: removed the special position clause and the list of named churches (about 84% Yes).",
+     "Divorce referendum, November 1995: passed by about 50.3% to 49.7%.",
+     "Marriage equality referendum, 22 May 2015: about 62% Yes. Ireland was the first country to allow same-sex marriage by popular vote.",
+     "Referendum of 25 May 2018 repealed the Eighth Amendment (about 66% Yes).",
+     "Referendum of October 2018 removed the offence of blasphemy from the Constitution (about 65% Yes).",
+     "The Ryan Report (May 2009) examined abuse in residential institutions run by religious orders. The Murphy Report (November 2009) examined the Dublin archdiocese's handling of abuse allegations.",
+     "Educate Together is a multi-denominational school patron, founded in 1984. Its first school, the Dalkey School Project, opened in 1978.",
+     "The debate on school patronage includes the State's aim to divest some Catholic schools."
+    ]
+   },
+   {
+    "h": "Why religion causes or feeds conflict",
+    "points": [
+     "Competing claims to holy sites and territory.",
+     "Religion overlapping with national identity and political power.",
+     "Discrimination against religious minorities.",
+     "Extremist interpretations of religion."
+    ]
+   },
+   {
+    "b": "The conflict was about national identity and political power as much as theology. Civil rights, national identity and power were central, not religion alone.",
+    "h": "Northern Ireland: a conflict of identity and power",
+    "points": [
+     "The Plantation of Ulster began in 1609, settling English and Scottish Protestants on confiscated land.",
+     "The Battle of the Boyne (1690), when William of Orange defeated James II, is commemorated by Orange Order parades on 12 July. The Orange Order was founded in 1795.",
+     "The Government of Ireland Act 1920 led to partition. Northern Ireland was established in 1921 with six counties and a Protestant/unionist majority.",
+     "Catholics faced discrimination in housing, jobs and local voting, including gerrymandering, e.g. in Derry.",
+     "The Northern Ireland civil rights movement began in 1968.",
+     "The Troubles, from the late 1960s to 1998, killed over 3,500 people.",
+     "British troops were deployed in 1969, and internment without trial was introduced in 1971.",
+     "Bloody Sunday, Derry, 30 January 1972: British paratroopers shot dead 13 civil-rights marchers. A 14th man died later.",
+     "The 1981 hunger strikes: ten republican prisoners, including Bobby Sands, died.",
+     "The Good Friday (Belfast) Agreement, 10 April 1998, set up power-sharing Assembly and Executive, North–South bodies and the consent principle. Its institutions and Brexit are covered in the note The complexity of regions (i).",
+     "The Omagh bomb, 15 August 1998, killed 29 people. The Real IRA was responsible.",
+     "Peace walls (peace lines) separate Catholic and Protestant areas of Belfast. The first was built in 1969, and some still stand.",
+     "Lagan College, Belfast (1981), was the first planned integrated (mixed Catholic and Protestant) secondary school. Integrated schools still teach fewer than one in ten pupils.",
+     "Partition of Ireland as a boundary change is covered in the note The complexity of regions (ii)."
+    ]
+   },
+   {
+    "h": "The Indian subcontinent",
+    "points": [
+     "Partition of India, August 1947, created Hindu-majority India and Muslim-majority Pakistan, which included East Pakistan, now Bangladesh.",
+     "Around 15 million people were displaced and hundreds of thousands were killed.",
+     "Kashmir is a Muslim-majority region claimed by both India and Pakistan and divided by a Line of Control. India and Pakistan have fought wars over it.",
+     "Hindu nationalists demolished the 16th-century Babri Mosque at Ayodhya on 6 December 1992. Riots followed in which about 2,000 people died.",
+     "A Hindu temple to Ram was consecrated on the Ayodhya site in January 2024.",
+     "Operation Blue Star, June 1984: the Indian army stormed the Golden Temple, Amritsar, to remove armed Sikh separatists.",
+     "Prime Minister Indira Gandhi was assassinated by two Sikh bodyguards on 31 October 1984, followed by anti-Sikh riots in Delhi."
+    ]
+   },
+   {
+    "h": "Israel and Palestine",
+    "points": [
+     "Jerusalem contains the Western Wall (Judaism), the Al-Aqsa Mosque and Dome of the Rock (Islam), and the Church of the Holy Sepulchre (Christianity).",
+     "The State of Israel was declared on 14 May 1948. About 700,000 Palestinians fled or were expelled in the 1948 war, an event known as the Nakba, meaning catastrophe.",
+     "In the Six-Day War of 1967 Israel occupied the West Bank, East Jerusalem and Gaza.",
+     "Israeli settlements in the occupied West Bank are illegal under international law in the view of the UN and most states.",
+     "The Oslo Accords of 1993 brought mutual recognition between Israel and the Palestine Liberation Organization, and limited Palestinian self-rule.",
+     "On 7 October 2023 a Hamas-led attack from Gaza killed about 1,200 people in Israel and took about 250 hostages.",
+     "Israel's military campaign in Gaza killed tens of thousands of Palestinians and destroyed much of Gaza. A ceasefire began in October 2025.",
+     "Ireland recognised the State of Palestine on 28 May 2024, with Spain and Norway."
+    ]
+   },
+   {
+    "h": "Other religious conflicts",
+    "points": [
+     "Lebanon shares power by religious community: the President is a Maronite Christian, the Prime Minister a Sunni Muslim and the Speaker a Shia Muslim. Civil war from 1975 to 1990 was ended by the Taif Agreement (1989).",
+     "Nigeria has a mainly Muslim north and a mainly Christian south. Boko Haram's insurgency began in 2009, and in April 2014 it kidnapped 276 schoolgirls from Chibok.",
+     "Iraq and Syria saw Sunni–Shia violence after 2003 and in the Syrian civil war. The Islamic State group declared a caliphate in 2014.",
+     "The Rohingya are covered in the note Racial groupings. Bosnia is covered in the note A European regional case study of identity."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Religion shapes identity and everyday life: it marks group identity more strongly than nationality, shows in the landscape, and shapes diet, dress, festivals and law. Its world distribution is shown by Pew Research Center figures for 2020: about 2.3 billion Christians (about 29%), about 2 billion Muslims (about 26%), about 1.9 billion religiously unaffiliated (about 24%) and about 1.2 billion Hindus (about 15%). The religions began in hearths, Jerusalem and Mecca for the Abrahamic faiths and the Indian subcontinent for Hinduism and Buddhism, and spread through empire, missionaries, trade, colonialism and migration. A sketch map of the major regions, labelled with the holy cities, shows this distribution. Church and state is the third aspect. Ireland's 1937 Constitution opened with the preamble In the Name of the Most Holy Trinity and recognised a special position for the Catholic Church in Article 44, while Article 41 banned divorce and the Church controlled most schools. Referendums in 1972, 1995, 2015 and 2018 removed these influences in stages, and the 2009 Ryan and Murphy Reports reduced Church authority. France's laïcité, set out in its 1905 law, contrasts with this, and its 2004 and 2010 laws on religious symbols and face coverings show secularism applied strongly. Religious conflict is the fourth aspect, and Northern Ireland is the main case. The Plantation of Ulster began in 1609, partition in 1920 to 1921 created a Protestant and unionist majority state, discrimination against Catholics fuelled civil rights protests from 1968, and the Troubles killed over 3,500 people until the Good Friday Agreement of 10 April 1998. Peace walls still separate Catholic and Protestant areas of Belfast. Religion's importance as a cultural indicator is therefore clear in identity, in distribution and diffusion, in the relation between church and state, and in conflict, though in Northern Ireland religion operated alongside national identity and political power.",
+    "prompt": "Examine the importance of religion as a cultural indicator.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Religion causes or feeds conflict through competing claims to holy sites and territory, through its overlap with national identity and political power, through discrimination against religious minorities and through extremist interpretations. Northern Ireland is the main case study. The Plantation of Ulster from 1609 and partition in 1920 to 1921 created a Protestant and unionist majority state, and Catholics faced discrimination in housing, jobs and local voting, including gerrymandering in Derry. After the civil rights movement began in 1968 the Troubles killed over 3,500 people; Bloody Sunday in Derry on 30 January 1972 saw 13 civil-rights marchers shot dead, and the 1981 hunger strikes killed ten republican prisoners. The conflict was about national identity and political power as much as theology, and the Good Friday Agreement of 10 April 1998 ended the violence through power-sharing institutions. The Indian subcontinent shows religion tied to territory and power: partition in August 1947 displaced around 15 million people and killed hundreds of thousands; Kashmir is claimed by India and Pakistan, who have fought wars over it; Hindu nationalists demolished the Babri Mosque at Ayodhya on 6 December 1992, leading to riots in which about 2,000 people died; and Operation Blue Star in June 1984, followed by the assassination of Indira Gandhi, shows Sikh separatism and the anti-Sikh riots that followed. Israel and Palestine shows competing claims to the same holy city: Jerusalem holds the Western Wall, the Al-Aqsa Mosque and Dome of the Rock, and the Church of the Holy Sepulchre; the 1948 war and the Nakba displaced about 700,000 Palestinians; the 1967 occupation and settlements, the Oslo Accords of 1993, and the Hamas-led attack of 7 October 2023 followed. Religion is a cause of conflict where it overlaps with territory, identity and power, so the claim is well supported, though the examples show that national and political causes are often equally important.",
+    "prompt": "Religion has been a cause of conflict in many parts of the world. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "In 1937 the Constitution opened with the preamble In the Name of the Most Holy Trinity, Article 44 gave the Catholic Church a special position as guardian of the Faith professed by most citizens, and Article 41 banned divorce. The Catholic Church controlled most primary schools, about nine in ten, and many hospitals, and it influenced policy: the Mother and Child Scheme of 1950 to 1951 was dropped after Church opposition. The special position clause was removed in the Fifth Amendment referendum of December 1972, and the divorce referendum of November 1995 passed by about 50.3% to 49.7%. Marriage equality was approved in 2015 with about 62% Yes, the Eighth Amendment was repealed in 2018 with about 66% Yes, and the blasphemy offence was removed in October 2018 with about 65% Yes. The Ryan and Murphy Reports of 2009 on abuse reduced Church authority. Census 2022 shows the trend: about 69% of the Republic's people were Roman Catholic, down from about 78% in 2016, and about 14% had no religion.",
+    "prompt": "Describe how the relationship between church and state in Ireland has changed since 1937.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-culture-identity-s4": {
+  "keyTerms": [
+   {
+    "definition": "A visible, practised part of culture, such as a sport, custom, dish or festival, that people choose, repeat and pass on.",
+    "term": "Everyday expression"
+   },
+   {
+    "definition": "The body founded in 1884 to promote native Irish games, organised by parish clubs and county teams.",
+    "term": "Gaelic Athletic Association"
+   },
+   {
+    "definition": "A movement that promoted Irish games, music and culture to assert Irish identity under pressure.",
+    "term": "Gaelic Revival"
+   },
+   {
+    "definition": "Unaccompanied traditional singing in Irish, meaning “old style”, strongest in Conamara.",
+    "term": "Sean-nós"
+   },
+   {
+    "definition": "The annual traditional music festival organised by Comhaltas Ceoltóirí Éireann, held in a different town each August.",
+    "term": "Fleadh Cheoil"
+   },
+   {
+    "definition": "The Celtic festival from 31 October to 1 November, the origin of Halloween.",
+    "term": "Samhain"
+   },
+   {
+    "definition": "Human towers built by teams in Catalonia, placed on UNESCO’s list in 2010.",
+    "term": "Castells"
+   },
+   {
+    "definition": "A regional folk costume worn in Norway, including on Constitution Day.",
+    "term": "Bunad"
+   },
+   {
+    "definition": "The French principle of state secularism, which shapes debate over religious dress in public life.",
+    "term": "Laïcité"
+   },
+   {
+    "definition": "A people living outside their homeland who keep their cultural identity, for example through St Patrick’s Day parades.",
+    "term": "Diaspora"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Culture and identity are the broad concepts. Everyday expressions are the visible parts of culture that people practise.",
+    "h": "Culture, identity and everyday expressions",
+    "points": [
+     "Culture is a group's shared, learned way of life: its beliefs, customs, language, arts, food and dress.",
+     "Identity is a person's or group's sense of who they are and where they belong.",
+     "Everyday expressions are the visible, practised parts of culture: people choose them, repeat them and pass them on.",
+     "The main everyday expressions in this option are sport, traditions, costume, food, music, art and festivals."
+    ]
+   },
+   {
+    "h": "Why everyday expressions matter",
+    "points": [
+     "They mark belonging: taking part in a shared custom shows that a person belongs to the group.",
+     "They pass culture from one generation to the next.",
+     "They assert identity when a culture is under pressure, as Irish games and music did during the Gaelic Revival.",
+     "They attract tourists and bring income to the places where they are practised.",
+     "They can also mark division: parades in Northern Ireland and football rivalries separate groups as well as unite them."
+    ]
+   },
+   {
+    "b": "Globalisation spreads the same products, sports and customs to many countries, so cultures can become more alike.",
+    "h": "Pressures on everyday culture: globalisation and Americanisation",
+    "points": [
+     "Fast food, Hollywood films, global sports and global brands are the main channels of Americanisation.",
+     "McDonald’s opened its first Irish restaurant on Grafton Street, Dublin, in 1977.",
+     "Halloween customs returned from the USA in a commercial form, although the festival itself has Irish origins (see the Samhain point under Festivals and traditions)."
+    ]
+   },
+   {
+    "h": "Responses to pressure on everyday culture",
+    "points": [
+     "Revival movements, such as the Gaelic Revival, promote Irish games and music to keep them in everyday use.",
+     "UNESCO’s list of the Intangible Cultural Heritage of Humanity, created by its 2003 convention, records living traditions; Irish harping was added in 2019.",
+     "State support for traditional music, sport and arts events helps keep these expressions in practice."
+    ]
+   },
+   {
+    "h": "Migration and new everyday expressions",
+    "points": [
+     "Migrants bring new food, festivals, religious celebrations and sports, which become part of everyday life in their new country.",
+     "New and existing expressions blend: multicultural festivals and fusion food combine traditions from different groups."
+    ]
+   },
+   {
+    "b": "The Gaelic Athletic Association (GAA) promotes native Irish games, chiefly hurling and Gaelic football.",
+    "h": "Sport: the GAA, its founding and structure",
+    "points": [
+     "The GAA was founded on 1 November 1884 in Hayes’ Hotel, Thurles, Co. Tipperary, by Michael Cusack and others, to preserve and promote native Irish games.",
+     "Maurice Davin was the GAA’s first president.",
+     "Players are amateurs.",
+     "Clubs are based on parishes and teams represent counties, so the GAA reinforces local and county identity.",
+     "The GAA is organised on an all-island basis and has clubs among the Irish diaspora abroad.",
+     "Camogie, the women’s form of hurling, is run by the Camogie Association, founded in 1904; ladies’ football is the women’s form of Gaelic football.",
+     "Hurling was added to UNESCO’s list of living traditions in 2018; it is a cultural symbol and is not Ireland’s national sport by law."
+    ]
+   },
+   {
+    "h": "Sport: Croke Park, rule changes and Bloody Sunday",
+    "points": [
+     "Croke Park, Dublin, holds about 82,300 spectators and is one of Europe’s largest stadiums.",
+     "Members were banned from playing “foreign games” (soccer, rugby, cricket and hockey); the ban was removed in 1971.",
+     "A rule barring members of the British security forces from the GAA was removed in 2001.",
+     "Bloody Sunday, 21 November 1920: British forces opened fire at a Gaelic football match in Croke Park, killing 14 people.",
+     "This is a different event from Bloody Sunday 1972 in Derry, which is covered in the notes on Religion as a cultural indicator.",
+     "From 2007 Croke Park hosted rugby and soccer internationals while Lansdowne Road was rebuilt; England played Ireland at rugby there in February 2007."
+    ]
+   },
+   {
+    "h": "Sport and identity beyond the GAA",
+    "points": [
+     "The Ireland rugby team represents the whole island, including Northern Ireland.",
+     "Sporting loyalties in Northern Ireland are divided between Irish and British teams, so the choice of team can express national identity."
+    ]
+   },
+   {
+    "b": "Traditional music is played informally, and sessions are the main setting in which it is shared.",
+    "h": "Traditional music and instruments",
+    "points": [
+     "Traditional instruments include the fiddle, uilleann pipes, tin whistle, flute, concertina, accordion, bodhrán and harp.",
+     "The harp is Ireland’s national symbol and appears on coins and the presidential seal.",
+     "Sessions are informal gatherings where musicians play together.",
+     "Uilleann piping was added to UNESCO’s list of living traditions in 2017."
+    ]
+   },
+   {
+    "h": "Comhaltas, the Fleadh Cheoil and sean-nós",
+    "points": [
+     "Comhaltas Ceoltóirí Éireann was founded in 1951 to promote traditional music.",
+     "The first Fleadh Cheoil na hÉireann was held in Mullingar in 1951; it is now held in a different town each August and draws hundreds of thousands of visitors.",
+     "Sean-nós (“old style”) is unaccompanied traditional singing in Irish, strongest in Conamara.",
+     "Sean-nós dancing is the traditional informal dance form that sits alongside the singing tradition."
+    ]
+   },
+   {
+    "h": "Riverdance and the global spread of Irish dance",
+    "points": [
+     "Riverdance began as the interval act of the Eurovision Song Contest, performed in Dublin on 30 April 1994.",
+     "It became a worldwide touring show, carrying Irish dance to audiences abroad.",
+     "Irish popular music with traditional roots combines the traditional instruments and melodies with modern styles."
+    ]
+   },
+   {
+    "h": "National and religious festivals",
+    "points": [
+     "St Patrick’s Day, 17 March: parades are held across the world, for example in New York, and landmarks are lit green.",
+     "St Patrick’s Day is a global expression of Irish identity in the diaspora; Dublin’s St Patrick’s Festival began in 1996.",
+     "St Brigid’s Day (Lá Fhéile Bríde, around 1 February) became a public holiday in 2023, the first named after a woman.",
+     "Samhain (31 October–1 November) is the Celtic origin of Halloween."
+    ]
+   },
+   {
+    "h": "Summer and autumn festivals and fairs",
+    "points": [
+     "Puck Fair, Killorglin, Co. Kerry, is held every August (10–12 August), when a wild goat is crowned king.",
+     "Lisdoonvarna Matchmaking Festival, Co. Clare, is held every September.",
+     "Ballinasloe Horse Fair, Co. Galway, is held every October and is one of Europe’s oldest horse fairs; it is also important to Travellers."
+    ]
+   },
+   {
+    "h": "Diaspora, literary and arts festivals",
+    "points": [
+     "The Rose of Tralee, Co. Kerry, has been held since 1959 and is open to women of Irish birth or descent worldwide.",
+     "Bloomsday, 16 June, celebrates James Joyce’s Ulysses, which is set on 16 June 1904.",
+     "The Galway International Arts Festival has been held since 1978; Wexford Festival Opera has been held since 1951."
+    ]
+   },
+   {
+    "h": "Older traditions",
+    "points": [
+     "Wakes, holy wells and pattern days (feast days held at holy wells) are older Irish traditions that are still practised in some places."
+    ]
+   },
+   {
+    "h": "Costume and craft",
+    "points": [
+     "The Aran sweater is a knitted wool jumper from the Aran Islands, Co. Galway.",
+     "The Claddagh ring shows two hands holding a heart with a crown; it is named after the Claddagh area of Galway city.",
+     "Irish dancing costumes are worn for performances and competitions.",
+     "GAA jerseys are everyday dress that shows county identity: supporters wear their county colours."
+    ]
+   },
+   {
+    "h": "Traditional food and drink",
+    "points": [
+     "Traditional dishes include soda bread, Irish stew, colcannon, boxty, coddle and the full Irish breakfast.",
+     "Boxty is a potato pancake associated with the north midlands and Connacht.",
+     "Coddle is a Dublin dish.",
+     "Guinness has been brewed at St James’s Gate, Dublin, since 1759."
+    ]
+   },
+   {
+    "h": "Food and change through migration and globalisation",
+    "points": [
+     "Census 2022 recorded Polish as the most common home language after English and Irish.",
+     "Polish shops and Polish food are now common in Irish towns, so new foods sit beside traditional dishes."
+    ]
+   },
+   {
+    "h": "Early Christian art and ancient monuments",
+    "points": [
+     "The Book of Kells is an illuminated gospel manuscript made around 800; it is kept at Trinity College Dublin.",
+     "High crosses, such as Muiredach’s Cross at Monasterboice, Co. Louth, are carved stone monuments of early Christian Ireland.",
+     "Newgrange (Brú na Bóinne, Co. Meath) is a passage tomb built around 3200 BC and is a UNESCO World Heritage Site.",
+     "Sunlight enters the chamber at Newgrange at the winter solstice."
+    ]
+   },
+   {
+    "h": "Irish literature and language",
+    "points": [
+     "Irish Nobel Prize winners for Literature are W. B. Yeats (1923), George Bernard Shaw (1925), Samuel Beckett (1969) and Seamus Heaney (1995).",
+     "Irish-language literature and songs express identity through the language itself (see the notes on Language as a cultural indicator)."
+    ]
+   },
+   {
+    "h": "Irish Travellers’ everyday culture",
+    "points": [
+     "Irish Travellers have a distinct everyday culture, traditionally nomadic and based on strong extended family ties.",
+     "Horse fairs are important to Travellers; the Ballinasloe Horse Fair is listed under Summer and autumn festivals and fairs.",
+     "Travellers have their own language, known as Cant, Gammon or Shelta.",
+     "Their recognition as an ethnic minority is covered in the notes on Racial groupings."
+    ]
+   },
+   {
+    "h": "Parades, murals and territorial markers in Northern Ireland",
+    "points": [
+     "Orange Order parades on 12 July commemorate the Battle of the Boyne (1690); bonfires are lit on the night of 11 July in loyalist areas.",
+     "Parades express unionist identity and can divide communities; the conflict itself is covered in the notes on Religion as a cultural indicator.",
+     "Painted gable-end murals in Belfast and Derry show loyalist and republican identities.",
+     "Kerbstones are painted red, white and blue or green, white and orange to mark territory."
+    ]
+   },
+   {
+    "h": "Spain: festivals",
+    "points": [
+     "San Fermín in Pamplona, Navarre, runs from 6 to 14 July and includes the running of the bulls through the streets.",
+     "La Tomatina in Buñol, near Valencia, is a tomato fight held on the last Wednesday of August; it has been held since 1945.",
+     "Semana Santa (Holy Week) features religious processions, especially in Seville.",
+     "Flamenco, the song, guitar and dance of Andalusia, has been on UNESCO’s list since 2010.",
+     "Castells, human towers built in Catalonia, have been on UNESCO’s list since 2010 and express Catalan regional identity."
+    ]
+   },
+   {
+    "h": "Spain: football, bullfighting and food",
+    "points": [
+     "FC Barcelona’s motto, “Més que un club” (“More than a club”), reflects its role as a symbol of Catalan identity, especially under Franco.",
+     "Athletic Bilbao fields only players born or raised in the Basque Country, or trained in Basque clubs.",
+     "Catalonia’s parliament banned bullfighting in 2010, with the ban in force from 2012; Spain’s Constitutional Court overturned the ban in 2016.",
+     "Paella comes from Valencia; tapas are small dishes shared in bars."
+    ]
+   },
+   {
+    "h": "Scotland: dress, music and festivals",
+    "points": [
+     "The kilt, worn with tartan, is the best-known Scottish dress.",
+     "Bagpipes are played by pipe bands and at Highland Games.",
+     "Highland Games are traditional sports such as the caber toss and hammer throw, held with piping and Highland dancing.",
+     "Burns Night, 25 January, celebrates the poet Robert Burns with haggis, whisky and poetry.",
+     "Hogmanay is the Scottish New Year celebration."
+    ]
+   },
+   {
+    "h": "Scotland: Celtic FC and Rangers",
+    "points": [
+     "Celtic FC was founded in 1887 in Glasgow’s East End by Brother Walfrid, a Marist brother, to raise money for poor Irish Catholic immigrants.",
+     "Rangers was founded in 1872 and was traditionally supported by Protestants and unionists.",
+     "The rivalry between the two clubs, known as the Old Firm, carries religious and Irish or British identity."
+    ]
+   },
+   {
+    "h": "Germany: festivals, dress and food",
+    "points": [
+     "Oktoberfest in Munich, Bavaria, has been held since 1810; it began with a royal wedding.",
+     "Visitors to Oktoberfest wear lederhosen and dirndl.",
+     "Christmas markets are held in German cities.",
+     "The döner kebab became popular in Germany through Turkish immigrants."
+    ]
+   },
+   {
+    "h": "France: national day, sport and film",
+    "points": [
+     "Bastille Day, 14 July, commemorates the storming of the Bastille in 1789 and is marked by a military parade in Paris.",
+     "The Tour de France cycle race was first held in 1903 and takes place each July.",
+     "The “gastronomic meal of the French” was added to UNESCO’s list in 2010.",
+     "The Cannes Film Festival is held each May."
+    ]
+   },
+   {
+    "h": "France: laïcité and religious dress",
+    "points": [
+     "Laïcité, the principle of state secularism, shapes the debate over religious dress in public life (see the notes on Religion as a cultural indicator)."
+    ]
+   },
+   {
+    "h": "Italy: festivals and food",
+    "points": [
+     "The Palio di Siena is a horse race around the Piazza del Campo between the city’s districts, the contrade, held on 2 July and 16 August.",
+     "Venice Carnival, with its masks, takes place before Lent.",
+     "Neapolitan pizza-making was added to UNESCO’s list in 2017.",
+     "Regional food is central to Italian identity, with pizza from Naples and pasta as the main examples.",
+     "Football is also a major Italian sporting expression."
+    ]
+   },
+   {
+    "h": "Other European examples",
+    "points": [
+     "Norway’s Constitution Day, 17 May, marks the constitution of 1814 with children’s parades and the bunad, a regional folk costume.",
+     "King’s Day in the Netherlands, 27 April, sees people dress in orange, the colour of the royal House of Orange.",
+     "The Festival Interceltique de Lorient in Brittany has been held every August since 1971 and brings together musicians from the Celtic regions.",
+     "Fest-noz, the Breton night dance festival, has been on UNESCO’s list since 2012.",
+     "The National Eisteddfod of Wales is an annual festival of Welsh music, poetry and culture held entirely in Welsh.",
+     "Festivals in Switzerland and the Balkans are covered in the notes on A European regional case study of identity."
+    ]
+   },
+   {
+    "h": "Eurovision as a European cultural event",
+    "points": [
+     "The Eurovision Song Contest is a European-wide event in which countries present national acts, so it also expresses national identity and politics.",
+     "Ireland has won the contest seven times, including three in a row in 1992–94."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Four aspects. Sport: the GAA in depth, covering its founding in 1884, its parish and county structure, Bloody Sunday in 1920 and the 1971 and 2001 rule changes, with hurling on UNESCO’s list. Music and dance: traditional instruments, sessions, Comhaltas and the Fleadh Cheoil, sean-nós and Riverdance. Festivals and traditions: St Patrick’s Day, St Brigid’s Day, Samhain, Puck Fair, Lisdoonvarna, the Rose of Tralee and Bloomsday. Costume, food and art: the Aran sweater, the Claddagh ring and GAA jerseys; soda bread, Irish stew and Guinness; the Book of Kells, Newgrange and the Irish Nobel laureates. Close with one point on globalisation, such as McDonald’s opening in Dublin in 1977, or on the culture of the Travellers. Irish examples only. About 25 to 30 significant relevant points.",
+    "prompt": "Examine how people express their culture and identity in everyday life, with reference to Irish examples.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Spain: festivals (San Fermín, La Tomatina, Semana Santa), flamenco, the castells and regional identity, and football (FC Barcelona and Catalonia; Athletic Bilbao’s Basque-only policy). Scotland: dress and the kilt, bagpipes and Highland Games, Burns Night and Hogmanay, and the Old Firm of Celtic and Rangers. Germany or France as a third example: Oktoberfest and the dirndl and lederhosen, or Bastille Day, the Tour de France and the gastronomic meal of the French. One point on globalisation, such as the spread of döner kebab through Turkish immigration or the spread of fast food. About 25 to 30 significant relevant points.",
+    "prompt": "Examine how people express their culture and identity in everyday life, with reference to European examples.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The GAA: its founding in 1884 to preserve native games, its parish and county structure that reinforces local and county identity, the Bloody Sunday shooting at Croke Park in 1920, and the 1971 and 2001 rule changes that ended the bans. FC Barcelona as a symbol of Catalan identity, and Athletic Bilbao’s Basque-only player policy. Celtic and Rangers as expressions of religious and Irish or British identity.",
+    "prompt": "Explain how sport can express cultural identity, with reference to examples.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-culture-identity-s5": {
+  "keyTerms": [
+   {
+    "definition": "A sovereign political unit with territory, a permanent population, a government and recognition by other states.",
+    "term": "State"
+   },
+   {
+    "definition": "A people who share a culture, history and often a language or religion, and see themselves as one community.",
+    "term": "Nation"
+   },
+   {
+    "definition": "A state whose people largely form one nation.",
+    "term": "Nation state"
+   },
+   {
+    "definition": "A state containing several nations, such as the UK, Belgium, Switzerland or Spain.",
+    "term": "Multinational state"
+   },
+   {
+    "definition": "A nation without its own state, such as the Kurds.",
+    "term": "Stateless nation"
+   },
+   {
+    "definition": "The division of the island of Ireland in 1920–21 into Northern Ireland and the Irish Free State.",
+    "term": "Partition"
+   },
+   {
+    "definition": "A boundary imposed by outside powers regardless of the cultures it divides, as in colonial Africa.",
+    "term": "Superimposed boundary"
+   },
+   {
+    "definition": "A boundary that no longer functions but remains visible, such as the line of the Berlin Wall.",
+    "term": "Relict boundary"
+   },
+   {
+    "definition": "The transfer of powers from a central government to regional parliaments or assemblies.",
+    "term": "Devolution"
+   },
+   {
+    "definition": "The Good Friday Agreement principle that Northern Ireland remains in the UK unless a majority of its people choose otherwise.",
+    "term": "Consent principle"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Nationality and the nation state are political entities placed on the physical and cultural landscape. Each term has a precise meaning.",
+    "h": "State, nation and nationality",
+    "points": [
+     "A state is a sovereign political unit with territory, a permanent population, a government and recognition by other states.",
+     "The Montevideo Convention (1933) set out the criteria for a state: a permanent population, a defined territory, a government, and the capacity to enter into relations with other states.",
+     "The United Nations has 193 member states.",
+     "A nation is a people who share a culture, history and often a language or religion, and who see themselves as one community.",
+     "Nationality is membership of a nation or, legally, citizenship of a state.",
+     "A nation state is a state whose people largely form one nation, for example Iceland, Portugal or Japan.",
+     "A multinational state contains several nations, for example the UK, Belgium, Switzerland or Spain.",
+     "A stateless nation is a nation without its own state, for example the Kurds.",
+     "Ireland is close to a nation state but has minorities, such as Irish Travellers; the UK is a multinational state."
+    ]
+   },
+   {
+    "h": "How nation states arose",
+    "points": [
+     "In Europe, nationalism from the 19th century held that each nation should have its own state.",
+     "The break-up of empires after the First World War and after 1989–91 created new nation states in Europe.",
+     "Elsewhere, decolonisation after 1945 created most of the new states.",
+     "Most states are not pure nation states, because they contain more than one cultural group."
+    ]
+   },
+   {
+    "h": "Types of boundary",
+    "points": [
+     "Physical boundaries follow mountains, rivers, lakes or seas.",
+     "Geometric boundaries are straight lines, often lines of latitude.",
+     "Cultural boundaries follow a language or religion.",
+     "Antecedent boundaries are drawn before settlement; subsequent boundaries are drawn after settlement and follow cultural divisions.",
+     "Superimposed boundaries are imposed by outside powers regardless of culture, as in colonial Africa.",
+     "Relict boundaries no longer function but remain visible, as the line of the Berlin Wall does."
+    ]
+   },
+   {
+    "h": "Physical boundaries and cultural divides",
+    "points": [
+     "The Pyrenees, the Alps, the Rhine, the Rio Grande and the Himalayas are major physical boundaries.",
+     "The Treaty of the Pyrenees (1659) used the Pyrenees as much of the France–Spain border.",
+     "The Rhine forms part of the border between France and Germany; the Rio Grande forms part of the USA–Mexico border.",
+     "Physical boundaries often fit cultural divides but can also cut through a cultural group: the Basques live on both sides of the Pyrenees."
+    ]
+   },
+   {
+    "h": "Geometric and colonial boundaries",
+    "points": [
+     "The 49th parallel forms most of the western USA–Canada border, agreed in 1818 and extended in 1846.",
+     "The Berlin Conference (1884–85) set rules for the European division of Africa.",
+     "Many African borders are straight lines that ignore ethnic territories, splitting some groups and joining rival ones.",
+     "These colonial borders are a cause of later conflict and secession."
+    ]
+   },
+   {
+    "h": "How boundaries affect identity",
+    "points": [
+     "Boundaries create a shared national identity within them, through citizenship, schools, media, sport and symbols.",
+     "Boundaries split cultural groups and create minorities: partition in Ireland, the Kurds and the Basques.",
+     "Boundaries can harden into barriers: the Berlin Wall stood from 1961 to 1989, and the Cyprus Green Line, the UN buffer zone through Nicosia, has divided the island since 1974.",
+     "Boundaries can also soften: the Schengen Agreement, first signed in 1985, removed passport checks between most EU states.",
+     "Ireland is outside Schengen because of the Common Travel Area with the UK, in place since 1923; the border has been open since 1998.",
+     "Boundary disputes can cause war, and changing boundaries create new identities and new minorities."
+    ]
+   },
+   {
+    "b": "The island of Ireland is a clear physical unit, but its political border divides it.",
+    "h": "The island of Ireland and partition: the boundary",
+    "points": [
+     "The Government of Ireland Act 1920 created two administrations on the island.",
+     "The Anglo-Irish Treaty was signed in December 1921; Northern Ireland was established in 1921.",
+     "Northern Ireland consists of six of Ulster’s nine counties: Antrim, Armagh, Down, Fermanagh, Londonderry (Derry), and Tyrone.",
+     "Cavan, Donegal and Monaghan went to the Irish Free State in 1922.",
+     "The Boundary Commission of 1925 was not published and the border was left unchanged.",
+     "The border is about 499 km long and follows old county boundaries rather than physical features; it cuts through communities and farms, and through the Erne and Foyle catchments.",
+     "The partition boundary history is covered in more detail in the notes on The complexity of regions (ii)."
+    ]
+   },
+   {
+    "h": "The island of Ireland and partition: identity and the constitution",
+    "points": [
+     "Partition created two states, two majorities and two minorities.",
+     "Ireland became a republic and left the Commonwealth in 1949.",
+     "Articles 2 and 3 of the Constitution originally claimed the whole island as national territory.",
+     "After the Good Friday Agreement referendum of May 1998, the Articles were changed to an aspiration to unity by consent, in force from December 1999.",
+     "Everyone born on the island of Ireland is entitled to Irish citizenship; under the Agreement, people in Northern Ireland may be Irish, British or both."
+    ]
+   },
+   {
+    "h": "The island of Ireland and partition: the border since 1998 and Brexit",
+    "points": [
+     "The border has been open since 1998, and its openness became an issue after Brexit.",
+     "In the UK referendum on EU membership on 23 June 2016, Northern Ireland voted about 56% Remain.",
+     "The UK left the EU on 31 January 2020.",
+     "The Windsor Framework (2023) keeps the land border free of checks."
+    ]
+   },
+   {
+    "h": "Why most states contain several cultural groups",
+    "points": [
+     "Historical conquest and union brought different peoples into one state.",
+     "Boundaries drawn without regard to culture placed groups in the wrong state.",
+     "Migration added new cultural groups to existing states."
+    ]
+   },
+   {
+    "h": "How states accommodate cultural groups",
+    "points": [
+     "Federalism and autonomy give regions control of their own affairs, as in Belgium, Switzerland and Spain’s autonomous communities.",
+     "Devolution gives regions their own parliament or assembly, as in the UK in 1999.",
+     "Power-sharing gives each main group a role in government, as in Northern Ireland and Lebanon.",
+     "Multiculturalism recognises several cultures within one state, as in Canada.",
+     "Assimilation requires minorities to adopt the dominant culture, as in France.",
+     "Suppression denies a group its identity: historically the Kurds in Turkey, and today the Uyghurs in China."
+    ]
+   },
+   {
+    "h": "Spain: Basques and Catalans",
+    "points": [
+     "Basques and Catalans have their own languages, autonomy statutes and strong regional identities.",
+     "Spain’s 1978 constitution created 17 autonomous communities.",
+     "The Basque Autonomous Community (Statute of Gernika, 1979) and Navarre collect their own taxes.",
+     "Catalonia’s autonomy statute dates from 1979 and was revised in 2006; Barcelona is its capital.",
+     "Basque and Catalan were suppressed under Franco (1939–1975).",
+     "Independence movements arose in both regions: the ETA campaign in the Basque Country and the 2017 referendum in Catalonia are covered under conflicts below."
+    ]
+   },
+   {
+    "h": "The UK: four nations and devolution",
+    "points": [
+     "The UK is made up of England, Scotland, Wales and Northern Ireland.",
+     "Devolution in 1999 created the Scottish Parliament, the National Assembly for Wales (renamed the Senedd in 2020) and the Northern Ireland Assembly.",
+     "The Scottish independence referendum of 18 September 2014 voted about 55% No.",
+     "The 2016 EU referendum was a different vote: the UK voted about 52% Leave, but Scotland voted about 62% Remain. Northern Ireland’s result is covered in the notes on The island of Ireland and partition."
+    ]
+   },
+   {
+    "h": "Canada and Quebec",
+    "points": [
+     "Quebec is French-speaking, and its identity is distinct within Canada.",
+     "Quebec’s Charter of the French Language (Bill 101) was passed in 1977.",
+     "Quebec held sovereignty referendums in 1980, when about 60% voted No, and in 1995, when about 50.6% voted No.",
+     "In 2006 Canada’s House of Commons recognised that “the Québécois form a nation within a united Canada”."
+    ]
+   },
+   {
+    "h": "Belgium and Switzerland",
+    "points": [
+     "Belgium: its language groups and federal regions are covered in full in the Belgium option of A European regional case study of identity.",
+     "Switzerland: its cantons and four national languages are covered in full in the Switzerland option of A European regional case study of identity."
+    ]
+   },
+   {
+    "h": "Ireland: Travellers and new communities",
+    "points": [
+     "Irish Travellers were recognised as an ethnic minority on 1 March 2017 and number about 33,000 (Census 2022).",
+     "Census 2022 recorded about 20% of residents born outside Ireland, creating new immigrant communities."
+    ]
+   },
+   {
+    "h": "Indigenous peoples within states",
+    "points": [
+     "The Sámi are the indigenous people of the far north of Norway, Sweden, Finland and Russia’s Kola Peninsula (Sápmi), traditionally reindeer herders.",
+     "The Sámi have elected parliaments in Norway (1989), Sweden (1993) and Finland (1996).",
+     "Aboriginal Australians and Māori are covered in the notes on Racial groupings."
+    ]
+   },
+   {
+    "h": "China’s minorities",
+    "points": [
+     "China’s minorities include the Tibetans and the Uyghurs, both treated under cultural groups without a nation state below."
+    ]
+   },
+   {
+    "h": "Kurds: a divided nation",
+    "points": [
+     "The Kurds are commonly estimated at 30 million or more, the largest ethnic group without its own state.",
+     "Most Kurds live in a mountainous region, Kurdistan, divided between Turkey (the largest number, in the south-east), Iran, Iraq and Syria.",
+     "Kurdish is an Indo-European (Iranian) language."
+    ]
+   },
+   {
+    "h": "Kurds: the Treaties of Sèvres and Lausanne, and Turkey",
+    "points": [
+     "The Treaty of Sèvres (1920) provided for a possible Kurdish state.",
+     "The Treaty of Lausanne (1923) replaced it and drew the borders of modern Turkey with no Kurdish state.",
+     "Turkey long denied a separate Kurdish identity and banned Kurdish in public life and broadcasting until the early 1990s.",
+     "The PKK (Kurdistan Workers’ Party), founded in 1978, began an armed campaign in 1984; the conflict cost about 40,000 lives.",
+     "The PKK announced its dissolution in May 2025."
+    ]
+   },
+   {
+    "h": "Kurds in Iraq and Syria",
+    "points": [
+     "On 16 March 1988 Saddam Hussein’s forces attacked the Kurdish town of Halabja with chemical weapons, killing about 5,000 people.",
+     "After the 1991 Gulf War a no-fly zone protected Iraqi Kurds.",
+     "Iraq’s 2005 constitution recognised the Kurdistan Region as autonomous, with its own government and parliament in Erbil.",
+     "On 25 September 2017 about 93% voted for independence in a referendum that Iraq’s government rejected; Iraqi forces then retook Kirkuk.",
+     "In Syria, Kurdish-led forces fought the Islamic State group, including the defence of Kobani (2014–15), and ran an autonomous area in the north-east."
+    ]
+   },
+   {
+    "h": "Kurdish identity",
+    "points": [
+     "The Kurdish language and Newroz, the Kurdish New Year on 21 March, are major expressions of Kurdish identity."
+    ]
+   },
+   {
+    "h": "Palestinians: a people without a sovereign state",
+    "points": [
+     "About 700,000 Palestinians fled or were expelled in 1948; the events of 1948 and 1967 are covered in the notes on Religion as a cultural indicator.",
+     "Palestinian refugees and their descendants live in Jordan, Lebanon, Syria, the West Bank and Gaza.",
+     "The Oslo Accords of 1993 created the Palestinian Authority, with limited self-rule.",
+     "Ireland, Spain and Norway recognised the State of Palestine on 28 May 2024; the UK, Canada and Australia did so on 21 September 2025, and France on 22 September 2025."
+    ]
+   },
+   {
+    "h": "Roma: Europe’s largest ethnic minority",
+    "points": [
+     "The Roma number about 10–12 million in Europe (European Commission estimate) and have no territory of their own.",
+     "Their Romani language is related to languages of northern India, showing that their ancestors migrated from India; they reached south-eastern Europe by the 14th century.",
+     "Large Roma populations live in Romania, Bulgaria, Hungary, Slovakia, Spain and Turkey.",
+     "Roma were targeted for extermination in the Holocaust.",
+     "In D.H. and Others v Czech Republic (2007) the European Court of Human Rights ruled that placing Roma children in special schools was discrimination."
+    ]
+   },
+   {
+    "h": "Tibetans",
+    "points": [
+     "China’s army entered Tibet in 1950.",
+     "After a failed uprising in 1959, the Dalai Lama fled to India; Tibet’s government-in-exile is based in Dharamsala.",
+     "The Tibet Autonomous Region was set up in 1965.",
+     "Tibetans see Han Chinese migration, controls on monasteries and Mandarin-medium schooling as threats to their culture."
+    ]
+   },
+   {
+    "h": "Uyghurs",
+    "points": [
+     "The Uyghurs are a Turkic-speaking, mainly Muslim people of Xinjiang in north-west China.",
+     "Since 2017 an estimated one million or more Uyghurs and other Muslims have been held in detention, or “re-education”, camps.",
+     "A UN human rights office report of August 2022 found “serious human rights violations” that may amount to crimes against humanity."
+    ]
+   },
+   {
+    "h": "Basques and Catalans: autonomy without independence",
+    "points": [
+     "Basques and Catalans are nations without independent states that have strong autonomy, which contrasts sharply with the position of the Kurds."
+    ]
+   },
+   {
+    "h": "Responses of stateless groups",
+    "points": [
+     "Groups without a state keep their identity through language, festivals and diaspora organisations.",
+     "They pursue peaceful political campaigns, demand autonomy, or in some cases use armed struggle.",
+     "Outcomes range from autonomy, as in Iraqi Kurdistan and Catalonia, to repression, as in Tibet and Xinjiang."
+    ]
+   },
+   {
+    "h": "General causes of conflict",
+    "points": [
+     "Boundaries cut across cultural groups.",
+     "A dominant group controls the state.",
+     "The language and religion of a group are suppressed.",
+     "Economic inequality between regions or groups creates grievances.",
+     "Two groups make competing claims to the same territory."
+    ]
+   },
+   {
+    "h": "Northern Ireland: a state and its cultural groups",
+    "points": [
+     "The state of Northern Ireland was created around a unionist majority with a large nationalist minority.",
+     "Discrimination against nationalists fuelled the civil rights movement from 1968.",
+     "The Troubles (late 1960s–1998) killed over 3,500 people.",
+     "The 2021 census recorded Catholics at about 46% and Protestants and other Christians at about 43% (religion or religion brought up in)."
+    ]
+   },
+   {
+    "h": "Northern Ireland: the Good Friday Agreement",
+    "points": [
+     "The Good Friday (Belfast) Agreement was signed on 10 April 1998; referendums on 22 May 1998 returned about 71% Yes in Northern Ireland and about 94% Yes in the Republic.",
+     "The Agreement redesigned the political structure for two cultural groups: a power-sharing Assembly and Executive, a North/South Ministerial Council, and the consent principle.",
+     "The Agreement did not move the border.",
+     "The Assembly was restored in February 2024, with Michelle O’Neill as the first nationalist First Minister.",
+     "Brexit challenged the Agreement’s arrangements, as covered in the notes on The island of Ireland and partition."
+    ]
+   },
+   {
+    "h": "The Basque Country: ETA and Spain’s response",
+    "points": [
+     "ETA (Euskadi Ta Askatasuna, “Basque Homeland and Freedom”) was founded in 1959.",
+     "ETA killed over 800 people in its campaign for an independent Basque state.",
+     "ETA declared a definitive end to violence in 2011 and dissolved in 2018.",
+     "Spain responded through the autonomy granted under its 1978 constitution (see Spain under cultural groups within nation states)."
+    ]
+   },
+   {
+    "h": "Catalonia: from statute to referendum",
+    "points": [
+     "In 2010 Spain’s Constitutional Court struck down parts of Catalonia’s 2006 autonomy statute, including its description of Catalonia as a nation, fuelling the independence movement.",
+     "On 1 October 2017 an independence referendum was declared illegal by Spain’s courts and police tried to stop voting; about 90% of those voting backed independence, on a turnout of about 43%.",
+     "Spain imposed direct rule using Article 155 of its constitution, and the regional president Carles Puigdemont fled to Belgium.",
+     "Nine leaders were jailed in 2019 and pardoned in 2021; an amnesty law was passed in 2024."
+    ]
+   },
+   {
+    "h": "Former Yugoslavia",
+    "points": [
+     "The break-up of Yugoslavia, a multinational state, is covered in the Balkans option of A European regional case study of identity."
+    ]
+   },
+   {
+    "h": "Other conflicts between states and cultural groups",
+    "points": [
+     "Sri Lanka: civil war from 1983 to 2009 between the government, led by the Sinhalese majority (mainly Buddhist), and the Liberation Tigers of Tamil Eelam (LTTE), who sought a Tamil state in the north and east; the LTTE was defeated in May 2009.",
+     "Chechnya, a mainly Muslim republic in Russia’s North Caucasus, fought Russia in wars in 1994–96 and 1999–2009; Grozny was largely destroyed.",
+     "Cyprus has been divided since 1974 (see The complexity of regions (ii)).",
+     "Rwanda’s ethnic conflict is covered in the notes on Racial groupings."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Aspect one: general causes (boundaries that cut across cultural groups, a dominant group controlling the state, suppression of language and religion, economic inequality, competing claims to territory). Aspect two: Northern Ireland, with the unionist-majority state, discrimination, the civil rights movement, the Troubles, the Good Friday Agreement, and the partition boundary of 1920 to 1925. Aspect three: the Basque Country and Catalonia, with ETA’s campaign, the 2010 court ruling, the 2017 referendum (about 90% Yes on a turnout of about 43%) and Spain’s responses. Aspect four: the Kurds in Turkey and Iraq, with the Treaty of Lausanne, the PKK conflict, Halabja, and the 2017 referendum. About 25 to 30 significant relevant points.",
+    "prompt": "Examine how conflict can arise between political structures and cultural groups.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Two aspects on the Kurds: first, their population (30 million or more, the largest ethnic group without a state) and their divided territory across Turkey, Iran, Iraq and Syria, with the Treaties of Sèvres and Lausanne; second, the denial of their identity in Turkey, the PKK conflict, autonomy in Iraq and the 2017 referendum, and Kobani in Syria. Then Roma (about 10 to 12 million, no territory, the 2007 ECtHR ruling on segregated schooling) and Tibetans (the 1950 entry, the Dalai Lama in exile since 1959, restrictions on religion and language), or Palestinians (about 700,000 displaced in 1948, the Oslo Accords, recognition from 2024 and 2025). About 25 to 30 significant relevant points.",
+    "prompt": "Many cultural groups around the world do not have a nation state of their own. Discuss this statement with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Boundary types: physical, geometric and cultural, and antecedent, subsequent, superimposed and relict boundaries. Partition of Ireland (the 1920 Act, the 1921 Treaty, the 1925 Boundary Commission) and its effect on identity: two states, two majorities and two minorities, and the change to Articles 2 and 3 in 1998. A group split by a boundary: the Basques across the Pyrenees, and the Kurds across four states. Barriers and open borders: the Berlin Wall from 1961 to 1989, the Cyprus Green Line, Schengen from 1985, and the Irish border open since 1998. About 25 to 30 significant relevant points.",
+    "prompt": "Examine the influence of physical and political boundaries on the concept of identity.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-culture-identity-s6": {
+  "keyTerms": [
+   {
+    "definition": "A person’s or group’s sense of who they are and where they belong, shaped by several cultural factors at once.",
+    "term": "Identity"
+   },
+   {
+    "definition": "A nation formed by the will of its people rather than by a common language, religion or ethnicity, as in Switzerland.",
+    "term": "Willensnation"
+   },
+   {
+    "definition": "The Swiss rule that each canton or commune has its own official language or languages, used in its schools and administration.",
+    "term": "Territoriality principle"
+   },
+   {
+    "definition": "The cultural divide between German- and French-speaking Switzerland, often visible in referendum results.",
+    "term": "Röstigraben"
+   },
+   {
+    "definition": "The break-up of a region into small, hostile states.",
+    "term": "Balkanisation"
+   },
+   {
+    "definition": "Forcing out other groups to make an area ethnically uniform.",
+    "term": "Ethnic cleansing"
+   },
+   {
+    "definition": "The 1995 agreement that ended the Bosnian war and divided Bosnia and Herzegovina into two entities with a three-member presidency.",
+    "term": "Dayton Agreement"
+   },
+   {
+    "definition": "A traditional Bosnian love song, also called sevdah.",
+    "term": "Sevdalinka"
+   },
+   {
+    "definition": "The Gorsedd of Bards, which holds ceremonies at the National Eisteddfod of Wales, including the chairing of the bard.",
+    "term": "Gorsedd"
+   },
+   {
+    "definition": "The transfer of powers from a central government to regional parliaments or assemblies, as in Wales in 1999.",
+    "term": "Devolution"
+   },
+   {
+    "definition": "A Breton night dance festival, on UNESCO’s list since 2012.",
+    "term": "Fest-noz"
+   },
+   {
+    "definition": "A Breton Catholic procession or pilgrimage to a local saint.",
+    "term": "Pardon"
+   },
+   {
+    "definition": "The tall lace headdress worn in the Bigouden area of Brittany.",
+    "term": "Coiffe"
+   },
+   {
+    "definition": "Government in which parties share power and decisions are reached by agreement, as in Switzerland’s Federal Council.",
+    "term": "Consensus government"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Identity is layered: local, regional, national and European identities coexist, and each is shaped by several cultural factors. Choose one region and use only that region's facts.",
+    "h": "Structuring an essay on a regional case study",
+    "points": [
+     "The cultural factors are language, religion, ethnicity, nationality, culture and shared history.",
+     "The six headings are: historical developments (physical and political boundaries), ethnicity and race, religion, music, art and festivals, the role of migration, and new boundaries.",
+     "Choose about four factors as the aspects of the essay, and develop each with the region’s dated facts.",
+     "Finish with an evaluation of how the factors combine, or cut across one another, in the region."
+    ]
+   },
+   {
+    "h": "Switzerland: physical boundaries",
+    "points": [
+     "About 60% of Switzerland is in the Alps; the Jura mountains lie in the north-west.",
+     "Most people and cities are on the Swiss Plateau (Mittelland), between the Alps and the Jura.",
+     "The mountains isolated valleys, which helped preserve local dialects and Romansh.",
+     "Switzerland is landlocked; Lake Geneva (shared with France) and Lake Constance (shared with Germany and Austria) form parts of its borders.",
+     "The Rhine and Rhône rise in the Swiss Alps."
+    ]
+   },
+   {
+    "h": "Switzerland: the Confederation’s formation",
+    "points": [
+     "The Federal Charter of 1 August 1291 was an alliance of Uri, Schwyz and Unterwalden; 1 August is the national day.",
+     "The Confederation grew as further cantons joined.",
+     "The Peace of Westphalia (1648) recognised Swiss independence from the Holy Roman Empire.",
+     "The Congress of Vienna (1815) recognised Switzerland’s permanent neutrality and fixed its borders; Geneva, Valais and Neuchâtel joined as cantons."
+    ]
+   },
+   {
+    "h": "Switzerland: the modern federal state",
+    "points": [
+     "The Sonderbund War of November 1847 was a short civil war in which a league of Catholic, conservative cantons was defeated.",
+     "The federal constitution of 1848 created the modern federal state; it was revised in 1874 and fully revised in 1999.",
+     "There are 26 cantons with wide powers over schools, police, taxes and churches.",
+     "Direct democracy: citizens vote in referendums several times a year, and a popular initiative needs 100,000 signatures.",
+     "The Federal Council has seven members from the main parties, who govern collectively; language regions are represented by custom."
+    ]
+   },
+   {
+    "h": "Switzerland: neutrality and a nation by will",
+    "points": [
+     "Switzerland is not in the EU; it joined the UN only after a referendum in 2002, and it joined the Schengen area in 2008.",
+     "Willensnation means a nation formed by the will of its people rather than by a common language or ethnicity."
+    ]
+   },
+   {
+    "h": "Switzerland: languages and regions",
+    "points": [
+     "The main languages are German (about 62%), French (about 23%), Italian (about 8%) and Romansh (about 0.5%); people may give more than one language, so the shares do not total 100%.",
+     "There are 17 German-speaking cantons, 4 French-speaking (Geneva, Vaud, Neuchâtel and Jura), 1 Italian-speaking (Ticino), 3 bilingual German–French (Bern, Fribourg and Valais) and 1 trilingual (Graubünden: German, Romansh and Italian).",
+     "The territoriality principle means each canton or commune has its own official language or languages, used in its schools and administration.",
+     "German-speaking Swiss speak Swiss German dialects (Schweizerdeutsch) in daily life but write Standard German.",
+     "Children learn a second national language at school."
+    ]
+   },
+   {
+    "h": "Switzerland: Romansh, the Röstigraben and public broadcasting",
+    "points": [
+     "Romansh became a national language by referendum in 1938 and a partly official language in 1996; Rumantsch Grischun, a written standard, was created in 1982.",
+     "The Röstigraben (the “rösti ditch”) is the cultural divide between German- and French-speaking Switzerland, often visible in referendum results; it runs roughly along the River Sarine (Saane) in Fribourg.",
+     "The public broadcaster SRG SSR runs separate services in German (SRF), French (RTS), Italian (RSI) and Romansh (RTR)."
+    ]
+   },
+   {
+    "h": "Switzerland: national identity above language",
+    "points": [
+     "No language group wants to join its neighbouring country: the French, Italian and German speakers each identify with Switzerland.",
+     "Shared Swiss institutions and the cantonal system allow four language groups to coexist within one state."
+    ]
+   },
+   {
+    "h": "Switzerland: the Reformation and religious geography",
+    "points": [
+     "Ulrich Zwingli led the Reformation in Zurich from 1519; John Calvin led it in Geneva from the 1530s–40s, and Geneva became known as the “Protestant Rome”.",
+     "Historically Protestant: Zurich, Bern, Basel, Geneva, Vaud and Neuchâtel.",
+     "Historically Catholic: the central cantons (Lucerne, Uri, Schwyz, Zug and Unterwalden), Fribourg, Valais, Ticino and Jura.",
+     "The Sonderbund War was a religious-political conflict between Catholic and Protestant cantons."
+    ]
+   },
+   {
+    "h": "Switzerland: religion cutting across language",
+    "points": [
+     "Religion cuts across language: both German- and French-speaking Switzerland contain Protestant and Catholic cantons.",
+     "There are Protestant and Catholic German speakers, and Protestant and Catholic French speakers, which reduces conflict between the language groups.",
+     "Religion in 2022: Roman Catholic about a third, Reformed (Protestant) about a fifth, no religion about a third, and Muslim about 6%."
+    ]
+   },
+   {
+    "h": "Switzerland: religious restrictions",
+    "points": [
+     "On 29 November 2009 a popular initiative banning the building of new minarets passed with about 57.5%.",
+     "In March 2021 a ban on face coverings in public passed with about 51%; it came into force on 1 January 2025."
+    ]
+   },
+   {
+    "h": "Switzerland: music, sport and traditional customs",
+    "points": [
+     "Yodelling and the alphorn are traditional Alpine music.",
+     "Schwingen is Swiss wrestling in sawdust rings, held at Alpine festivals.",
+     "1 August is the national day, marked with bonfires and fireworks."
+    ]
+   },
+   {
+    "h": "Switzerland: city and regional festivals",
+    "points": [
+     "Basel Fasnacht is a carnival beginning at 4 a.m. on the Monday after Ash Wednesday (the “Morgestraich”); it has been on UNESCO’s intangible heritage list since 2017.",
+     "Sechseläuten in Zurich (April) features a parade of the guilds, and the Böögg, a snowman figure, is burned to mark the end of winter.",
+     "The Fête des Vignerons in Vevey is a winegrowers’ festival held only about four or five times a century, most recently in 2019; it has been on UNESCO’s list since 2016."
+    ]
+   },
+   {
+    "h": "Switzerland: arts festivals and international identity",
+    "points": [
+     "The Montreux Jazz Festival has been held since 1967, the Locarno Film Festival since 1946 and Art Basel since 1970.",
+     "Fondue, raclette, rösti, chocolate, Gruyère and Emmental cheese are typical foods.",
+     "The International Committee of the Red Cross was founded in Geneva in 1863 by Henri Dunant.",
+     "Geneva hosts the UN’s European office and many international organisations."
+    ]
+   },
+   {
+    "h": "Switzerland: foreign residents and cross-border workers",
+    "points": [
+     "Foreign nationals make up about a quarter of the permanent resident population (about 27% in 2023).",
+     "The largest groups are Italians, Germans, Portuguese and French, plus large communities from Kosovo and elsewhere in former Yugoslavia, Spain and Turkey.",
+     "Most Swiss Muslims have roots in former Yugoslavia (Kosovo, Bosnia and North Macedonia) or Turkey.",
+     "Almost 400,000 cross-border commuters from France, Italy and Germany work in Switzerland each day, many in Geneva, Basel and Ticino."
+    ]
+   },
+   {
+    "h": "Switzerland: guest workers and free movement",
+    "points": [
+     "After 1945 many Italian guest workers came, often on a seasonal-worker permit that restricted family reunification; this restriction was abolished in 2002.",
+     "Free movement of persons with the EU has applied since 2002, under bilateral agreements."
+    ]
+   },
+   {
+    "h": "Switzerland: immigration referendums and emigration",
+    "points": [
+     "The Schwarzenbach Initiative of 1970, which sought to cap the foreign population, was rejected by about 54%.",
+     "The “against mass immigration” initiative of 9 February 2014 passed with about 50.3%.",
+     "Historically, Swiss men served abroad as mercenaries; the Pope’s Swiss Guard, in service since 1506, is a survivor of this tradition."
+    ]
+   },
+   {
+    "h": "Switzerland: the canton of Jura and Moutier",
+    "points": [
+     "The canton of Jura was created on 1 January 1979 after referendums from 1974, in which the French-speaking, mainly Catholic northern districts voted to leave the German-speaking, mainly Protestant canton of Bern.",
+     "The southern French-speaking districts, mainly Protestant, chose to stay in Bern.",
+     "The town of Moutier voted in 2021 to move from Bern to Jura, and the move took effect on 1 January 2026; an earlier 2017 vote was annulled and is not the decision."
+    ]
+   },
+   {
+    "h": "Switzerland: the EU and women’s suffrage",
+    "points": [
+     "On 6 December 1992 voters rejected joining the European Economic Area (about 50.3% No); relations with the EU since then rest on bilateral agreements, a boundary of identity between Switzerland and the EU.",
+     "Women gained the federal vote only in 1971.",
+     "Appenzell Innerrhoden, the last canton, was forced by a federal court ruling to allow women to vote in cantonal matters in 1990."
+    ]
+   },
+   {
+    "h": "Switzerland: evaluation",
+    "points": [
+     "Federalism gives the cantons control over schools, police, taxes and churches, so diversity is managed locally.",
+     "Direct democracy and consensus government give each language and religious group a voice.",
+     "Neutrality and wealth reduce external pressure on the federation.",
+     "Cross-cutting language and religion mean that divisions do not line up, which reduces conflict."
+    ]
+   },
+   {
+    "h": "Balkans: physical boundaries",
+    "points": [
+     "The Dinaric Alps run parallel to the Adriatic coast, and their rugged relief fragments settlement.",
+     "The Danube and Sava rivers are major features; the Danube flows through Belgrade, where the Sava joins it, and through Novi Sad.",
+     "“Balkanisation” is a term for the break-up of a region into small, hostile states."
+    ]
+   },
+   {
+    "h": "Balkans: Ottoman and Habsburg frontiers",
+    "points": [
+     "The Ottoman Empire ruled Serbia, Bosnia, Macedonia and Kosovo for centuries, from the 14th and 15th centuries.",
+     "Austria-Hungary ruled Slovenia and Croatia and annexed Bosnia in 1908.",
+     "The Ottoman–Habsburg frontier ran through the region, and the Great Schism of 1054 divided Catholic and Orthodox Christianity roughly along the same line.",
+     "The Battle of Kosovo (1389) against the Ottomans is central to Serbian national memory."
+    ]
+   },
+   {
+    "h": "Balkans: from Sarajevo to Yugoslavia",
+    "points": [
+     "On 28 June 1914 Gavrilo Princip, a Bosnian Serb, assassinated Archduke Franz Ferdinand in Sarajevo, triggering the First World War.",
+     "The Kingdom of Serbs, Croats and Slovenes was proclaimed on 1 December 1918 and renamed Yugoslavia (“land of the South Slavs”) in 1929."
+    ]
+   },
+   {
+    "h": "Balkans: the Second World War and Tito’s Yugoslavia",
+    "points": [
+     "The Croatian fascist Ustaše state ran the Jasenovac camp, where Serbs, Jews and Roma were killed.",
+     "Serbian Chetniks also killed civilians; Tito’s communist Partisans won the war.",
+     "Socialist Yugoslavia under Josip Broz Tito (1945–1980) had six republics: Slovenia, Croatia, Bosnia and Herzegovina, Serbia, Montenegro and Macedonia.",
+     "Two autonomous provinces lay within Serbia: Kosovo and Vojvodina; the official slogan was “brotherhood and unity”.",
+     "Tito died in May 1980."
+    ]
+   },
+   {
+    "h": "Balkans: rising nationalism",
+    "points": [
+     "Slobodan Milošević rose to power in Serbia from 1987.",
+     "Kosovo’s autonomy was removed in 1989."
+    ]
+   },
+   {
+    "h": "Balkans: South Slavs and shared language",
+    "points": [
+     "The South Slav peoples are the Slovenes, Croats, Serbs, Bosniaks, Montenegrins and Macedonians; they are of similar ancestry and largely speak one language.",
+     "That language, Serbo-Croatian, is now standardised as Serbian, Croatian, Bosnian and Montenegrin; the groups mostly understand each other.",
+     "Serbs use Cyrillic as well as Latin script; Croats use Latin.",
+     "The groups differ in religion, script and history, not in race: ethnicity is defined largely by religion."
+    ]
+   },
+   {
+    "h": "Balkans: minorities and the census",
+    "points": [
+     "Albanians, a non-Slav people, are about nine-tenths of Kosovo’s population.",
+     "Hungarians form a minority in Vojvodina.",
+     "Bosnia’s 1991 census (population about 4.4 million) recorded Muslims (Bosniaks) at about 44%, Serbs at about 31% and Croats at about 17%.",
+     "The 2013 census (about 3.5 million) recorded Bosniaks at about 50%, Serbs at about 31% and Croats at about 15%.",
+     "Bosniaks were counted as “Muslims” in 1991; the term Bosniak came into general use during the war."
+    ]
+   },
+   {
+    "h": "Balkans: religious communities and buildings",
+    "points": [
+     "Catholic Slovenes and Croats, Orthodox Serbs, Montenegrins and Macedonians, and Muslim Bosniaks and most Albanians (many of whom converted under the Ottomans) make up the religious groups.",
+     "Sarajevo has a mosque, a Catholic cathedral, an Orthodox cathedral and a synagogue within a short walk of each other; the Gazi Husrev-beg Mosque dates from the 1530s.",
+     "The Ferhadija Mosque in Banja Luka (16th century) was blown up by Bosnian Serb forces in 1993 and reopened in 2016 after rebuilding.",
+     "Medjugorje, Bosnia and Herzegovina, has been a Catholic pilgrimage site since reported apparitions in 1981."
+    ]
+   },
+   {
+    "h": "Balkans: the wars of the 1990s",
+    "points": [
+     "Slovenia declared independence on 25 June 1991, and a ten-day war followed.",
+     "Croatia declared independence the same day; war from 1991 to 1995 pitted Croatia against Croatian Serb forces backed by the Yugoslav army.",
+     "Vukovar was besieged and destroyed in 1991.",
+     "In Operation Storm (August 1995) Croatia retook the Krajina, and about 200,000 Serbs fled."
+    ]
+   },
+   {
+    "h": "Balkans: the Bosnian war and ethnic cleansing",
+    "points": [
+     "The Bosnian war of 1992–95 killed about 100,000 people, and about half the population was forced from their homes.",
+     "“Ethnic cleansing” means forcing out other groups to make areas ethnically uniform.",
+     "The siege of Sarajevo by Bosnian Serb forces lasted from April 1992 to February 1996, the longest siege of a capital city in modern warfare.",
+     "Mostar’s Old Bridge (Stari Most, 1566) was destroyed by Croat forces on 9 November 1993 and rebuilt in 2004; it became a UNESCO World Heritage Site in 2005.",
+     "In July 1995 about 8,000 Bosniak men and boys were killed at Srebrenica by Bosnian Serb forces; international courts ruled this a genocide.",
+     "The Dayton Agreement of 1995 ended the war."
+    ]
+   },
+   {
+    "h": "Balkans: the Kosovo war and the tribunal",
+    "points": [
+     "NATO bombed Serbia for 78 days (March–June 1999) during the Kosovo war of 1998–99.",
+     "About 800,000 Kosovo Albanians fled or were expelled during the Kosovo war.",
+     "The International Criminal Tribunal for the former Yugoslavia (ICTY) sat in The Hague from 1993 to 2017.",
+     "Milošević died in custody in 2006 before a verdict; Radovan Karadžić and Ratko Mladić were convicted of genocide."
+    ]
+   },
+   {
+    "h": "Balkans: festivals and music",
+    "points": [
+     "EXIT festival, held at Petrovaradin Fortress in Novi Sad, Serbia, began in 2000 as a student movement against Milošević.",
+     "The Guča Trumpet Festival in Serbia is a brass-band festival held since 1961.",
+     "The Sarajevo Film Festival was founded in 1995, during the siege.",
+     "Sevdalinka (sevdah) is a traditional Bosnian love song; the kolo is a circle dance, and the Serbian kolo is on UNESCO’s list (2017)."
+    ]
+   },
+   {
+    "h": "Balkans: sport, Eurovision and symbols of nationalism",
+    "points": [
+     "Divers jump from Mostar’s Old Bridge each summer.",
+     "On 13 May 1990 fans rioted at the Dinamo Zagreb–Red Star Belgrade match in Zagreb’s Maksimir stadium; the riot is remembered as a sign of the coming war.",
+     "Yugoslavia won the Eurovision Song Contest in 1989 and Serbia won in 2007; Croatia reached the football World Cup final in 2018."
+    ]
+   },
+   {
+    "h": "Balkans: guest workers and emigration",
+    "points": [
+     "West Germany signed a guest-worker agreement with Yugoslavia in 1968; many Yugoslavs also went to Austria and Switzerland, from the 1960s.",
+     "Large-scale emigration of young people is causing population decline in Serbia, Bosnia and Croatia."
+    ]
+   },
+   {
+    "h": "Balkans: wartime displacement and the 2015 route",
+    "points": [
+     "The 1990s wars displaced large numbers of people within the region and from it, making many areas ethnically uniform.",
+     "In 2015 hundreds of thousands of refugees crossed North Macedonia and Serbia on the Western Balkans route.",
+     "Hungary built a border fence in 2015."
+    ]
+   },
+   {
+    "h": "Balkans: new states",
+    "points": [
+     "Slovenia and Croatia became independent in 1991; Macedonia in 1991, renamed North Macedonia in 2019 after an agreement with Greece; and Bosnia and Herzegovina in 1992.",
+     "The Federal Republic of Yugoslavia (Serbia and Montenegro) was formed in 1992 and renamed Serbia and Montenegro in 2003; Montenegro became independent in 2006."
+    ]
+   },
+   {
+    "h": "Balkans: Kosovo and the Dayton structure",
+    "points": [
+     "Kosovo declared independence on 17 February 2008; Serbia does not recognise it.",
+     "Over 100 states recognise Kosovo, including Ireland, but five EU states (Spain, Greece, Cyprus, Romania and Slovakia) do not.",
+     "Under the Dayton Agreement, Bosnia and Herzegovina is divided into the Federation of Bosnia and Herzegovina and Republika Srpska, with a three-member presidency (Bosniak, Croat and Serb).",
+     "Brčko District is a separate self-governing unit since 2000."
+    ]
+   },
+   {
+    "h": "Balkans: EU membership",
+    "points": [
+     "Slovenia joined the EU in 2004 and Croatia in 2013; Croatia adopted the euro and joined Schengen in 2023.",
+     "Montenegro, Serbia, North Macedonia, Albania and Bosnia and Herzegovina are candidates for EU membership (December 2022)."
+    ]
+   },
+   {
+    "h": "Balkans: evaluation",
+    "points": [
+     "Boundaries drawn along the old republic lines left large minorities on the wrong side.",
+     "The Dayton structure ended the war but fixed ethnic divisions in place.",
+     "EU accession is a hoped-for softening of borders, which would reduce the importance of the boundaries that divide the region."
+    ]
+   },
+   {
+    "h": "Celtic regions: languages and origins",
+    "points": [
+     "The six Celtic regions usually counted are Ireland, Scotland, the Isle of Man, Wales, Cornwall and Brittany, on Europe’s Atlantic fringe.",
+     "The Goidelic languages are Irish, Scottish Gaelic and Manx; the Brythonic languages are Welsh, Cornish and Breton.",
+     "Celtic peoples were pushed west by the Romans and the Anglo-Saxons.",
+     "Britons migrated from south-west Britain to Armorica, which gave Brittany its name, in the 5th and 6th centuries, as Anglo-Saxons settled eastern Britain.",
+     "Peripheral, mountainous or coastal locations helped the languages survive.",
+     "Manx’s last native speaker died in 1974, and Cornish’s last traditional speaker died in 1777; both languages have since been revived (see the notes on Language as a cultural indicator)."
+    ]
+   },
+   {
+    "h": "Wales: conquest and the boundary with England",
+    "points": [
+     "Offa’s Dyke is an 8th-century earthwork along much of the Wales–England border.",
+     "Edward I conquered Wales in 1282–83, and Llywelyn ap Gruffudd, the last native Prince of Wales, was killed in 1282.",
+     "Edward I built castles including Caernarfon, Conwy, Harlech and Beaumaris, which has been a UNESCO World Heritage Site since 1986.",
+     "The Laws in Wales Acts of 1535 and 1542 annexed Wales to England; the border with England has remained unchanged since."
+    ]
+   },
+   {
+    "h": "Wales: devolution and political powers",
+    "points": [
+     "In the devolution referendum of 18 September 1997 about 50.3% voted Yes.",
+     "The National Assembly for Wales opened in 1999, was renamed the Senedd (Welsh Parliament) in 2020, and is enlarged to 96 members from the 2026 election.",
+     "Wales has about 3.1 million people (Census 2021); its border with England is unchanged, but its political powers have grown."
+    ]
+   },
+   {
+    "h": "Wales: language and identity",
+    "points": [
+     "Census 2021 recorded about 538,000 people (17.8%) who could speak Welsh.",
+     "Welsh speaking is highest in Gwynedd (about 64%) and Anglesey (over half), and lowest in the industrial south-east.",
+     "The north-west heartland is Y Fro Gymraeg, and the south-east is English-speaking.",
+     "Language policy, including the Welsh Language Measure 2011, S4C from 1982 and Cymraeg 2050, is covered in the notes on Language as a cultural indicator."
+    ]
+   },
+   {
+    "h": "Wales: religion and the chapels",
+    "points": [
+     "The 1851 religious census showed that most worshippers in Wales attended Nonconformist chapels (Methodist, Baptist and Independent) rather than the Anglican church.",
+     "Chapels were centres of Welsh-language education, singing and community life.",
+     "The Church in Wales was disestablished in 1920, and chapel-going has declined since."
+    ]
+   },
+   {
+    "h": "Wales: music, art and festivals",
+    "points": [
+     "The National Eisteddfod of Wales is a week-long festival of poetry, music and literature held entirely in Welsh, alternating between north and south Wales.",
+     "The Gorsedd of Bards holds ceremonies at the Eisteddfod, including the chairing of the bard.",
+     "The Urdd Gobaith Cymru (Welsh youth movement, 1922) holds its own Eisteddfod, one of Europe’s largest youth festivals.",
+     "Male voice choirs grew in the mining valleys, and the harp is a traditional Welsh instrument."
+    ]
+   },
+   {
+    "h": "Wales: sport, national symbols and food",
+    "points": [
+     "The Welsh Rugby Union was founded in 1881; the Principality Stadium in Cardiff opened in 1999 as the Millennium Stadium.",
+     "St David’s Day, 1 March, is the national day.",
+     "The anthem “Hen Wlad Fy Nhadau” (“Land of My Fathers”) was written in 1856.",
+     "Symbols include the red dragon (Y Ddraig Goch), the daffodil and the leek.",
+     "Foods include cawl (stew), Welsh cakes and bara brith."
+    ]
+   },
+   {
+    "h": "Wales: migration in and out",
+    "points": [
+     "19th-century coal and iron industries drew English and Irish workers into south Wales, spreading English there.",
+     "Welsh settlers sailed on the Mimosa in 1865 to found a colony in Chubut, Patagonia, Argentina, where some Welsh is still spoken.",
+     "A campaign of arson attacks on English-owned holiday homes, attributed to Meibion Glyndŵr, began in 1979.",
+     "English retirees and second-home owners have moved into rural Welsh-speaking areas, while young Welsh speakers have moved out.",
+     "From April 2023 Welsh councils may charge up to a 300% council-tax premium on second homes.",
+     "Newer immigrant communities live in Cardiff."
+    ]
+   },
+   {
+    "h": "Brittany: union with France and centralisation",
+    "points": [
+     "Brittany was united with France in 1532.",
+     "After the Revolution of 1789 the provinces were abolished and France was governed centrally through departments.",
+     "French was promoted as the only language of the Republic, and the Breton language declined.",
+     "Article 2 of the French Constitution and the Diwan schools from 1977 are part of the language policy covered in the notes on Language as a cultural indicator."
+    ]
+   },
+   {
+    "h": "Brittany: the 1941 boundary change",
+    "points": [
+     "In 1941 the Vichy government separated Loire-Atlantique, including Nantes, the historic seat of the Dukes of Brittany, from the region.",
+     "Nantes is outside the official Brittany region, and campaigners still seek its reunification.",
+     "The 2016 regional reform left Brittany’s boundary unchanged."
+    ]
+   },
+   {
+    "h": "Brittany: religion, music and festivals",
+    "points": [
+     "Catholic pardons are processions and pilgrimages to local saints.",
+     "Bagadoù (pipe bands), the biniou (bagpipe) and the bombarde (oboe) are traditional Breton instruments.",
+     "The fest-noz, a night dance festival, is on UNESCO’s list since 2012.",
+     "The harpist Alan Stivell led a Breton music revival from the 1970s.",
+     "The Festival Interceltique de Lorient has been held every August since 1971."
+    ]
+   },
+   {
+    "h": "Brittany: costume, food and flag",
+    "points": [
+     "The tall lace coiffe of the Bigouden area is the best-known Breton costume.",
+     "Crêpes and galettes (made from buckwheat), and cider, are typical Breton foods.",
+     "The Gwenn-ha-Du flag, black and white, was designed in 1923."
+    ]
+   },
+   {
+    "h": "Celtic regions: links between them",
+    "points": [
+     "The Festival Interceltique de Lorient brings musicians from the Celtic regions together (see the Brittany notes).",
+     "Irish and Welsh cooperation on language, and EU support for minority languages, link the Celtic regions in their efforts to preserve their languages."
+    ]
+   },
+   {
+    "h": "Belgium: physical landscape and the language border",
+    "points": [
+     "Belgium is mostly low and flat, and the language border crosses open country: it is cultural, not physical.",
+     "Belgium became independent in 1830 after a revolt that began after a performance of the opera “La Muette de Portici” in Brussels on 25 August 1830.",
+     "French was long the language of government, courts, the army and universities.",
+     "The language border was fixed by laws of 1962 and 1963."
+    ]
+   },
+   {
+    "h": "Belgium: federalisation",
+    "points": [
+     "The first state reform came in 1970.",
+     "Belgium became a federal state in 1993, with three regions (Flanders, Wallonia and Brussels-Capital) and three communities (Flemish, French and German-speaking).",
+     "The language divide is an example of cultural regions (see the notes on Cultural regions)."
+    ]
+   },
+   {
+    "h": "Belgium: Flemings, Walloons and Brussels",
+    "points": [
+     "Belgium’s population is about 11.8 million (2024): Flanders about 6.8 million, Wallonia about 3.7 million and Brussels-Capital about 1.2 million.",
+     "Dutch speakers are about 6 in 10 and French speakers about 4 in 10; the German-speaking Community in the east, around Eupen, has fewer than 80,000 people.",
+     "Brussels lies inside Flanders geographically but is its own region; it is officially bilingual, but mostly French-speaking in practice."
+    ]
+   },
+   {
+    "h": "Belgium: the Leuven split and political divisions",
+    "points": [
+     "The Catholic University of Leuven split in 1968; its French-speaking section moved to Louvain-la-Neuve in Wallonia.",
+     "Belgium has no nationwide parties; parties, media and schools are separate by language.",
+     "Belgium went 541 days without a new government in 2010–11.",
+     "The Flemish nationalist N-VA has been the largest party since 2010; its leader, Bart De Wever, became Prime Minister in February 2025."
+    ]
+   },
+   {
+    "h": "Belgium: religion",
+    "points": [
+     "Belgium is traditionally Catholic in both Flanders and Wallonia, so religion did not reinforce the language divide.",
+     "Historic conflicts between Catholics and liberals were fought over schools; secularisation has since reduced religious practice.",
+     "Islam grew through Moroccan and Turkish migration."
+    ]
+   },
+   {
+    "h": "Belgium: art, comics and festivals",
+    "points": [
+     "The Ghent Altarpiece by Jan van Eyck was completed in 1432 and is in St Bavo’s Cathedral, Ghent.",
+     "Pieter Bruegel the Elder and Peter Paul Rubens (Antwerp) are Flemish painters.",
+     "Hergé (Georges Remi) created Tintin in 1929; Belgium has a strong comic-strip tradition.",
+     "The Carnival of Binche in Wallonia features the Gilles in costumes and wax masks; UNESCO proclaimed it in 2003.",
+     "Tomorrowland, an electronic music festival in Boom (Flanders), has been held since 2005.",
+     "11 July is the Flemish Community holiday, marking the Battle of the Golden Spurs (1302), when Flemish militias defeated French knights."
+    ]
+   },
+   {
+    "h": "Belgium: food and drink",
+    "points": [
+     "Belgian beer culture was added to UNESCO’s list in 2016.",
+     "Chocolate, frites and waffles are national symbols."
+    ]
+   },
+   {
+    "h": "Belgium: migration from Italy, Morocco and Turkey",
+    "points": [
+     "A 1946 agreement with Italy sent Italian workers to Belgian coal mines in exchange for coal.",
+     "The Marcinelle mining disaster on 8 August 1956 killed 262 miners, 136 of them Italian.",
+     "Labour agreements with Morocco and Turkey were made in 1964.",
+     "Brussels hosts the main EU institutions and NATO’s headquarters, and is one of Europe’s most international cities.",
+     "On 22 March 2016 Islamic State suicide bombings at Brussels Airport and Maalbeek metro station killed 32 people."
+    ]
+   },
+   {
+    "h": "Belgium: economic reversal and identity",
+    "points": [
+     "Wallonia’s coal and steel industry, in Liège, Charleroi and the Sambre–Meuse valley, declined.",
+     "Flanders grew through the port of Antwerp, Europe’s second-largest port, and modern industry.",
+     "This reversed the historic balance of wealth and power between the two regions, feeding Flemish nationalism."
+    ]
+   },
+   {
+    "h": "Belgium: new boundaries and debate",
+    "points": [
+     "The language border, the federal regions and Brussels’ position as an enclave are the boundaries that shape identity today.",
+     "Debate continues over further devolution or separation; the present-day politics are covered in the notes on The complexity of regions (i), and the boundary changes in the notes on The complexity of regions (ii)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Switzerland only. Nationality and political history: the 1291 Charter, the Confederation’s growth, the 1847 Sonderbund War and the 1848 constitution, and the canton of Jura created in 1979 after the 1974 referendums. Language: four national languages, the territoriality principle, Swiss German dialects with Standard German, the Röstigraben, and the rule that no language group wants to join its neighbour. Religion: the Reformation under Zwingli and Calvin, Protestant and Catholic cantons in both language areas, and the 2009 minaret ban. Festivals and migration: Basel Fasnacht, Sechseläuten, the Fête des Vignerons, foreign nationals at about 27%, and the 1970 and 2014 immigration referendums. End by explaining why language, religion and nationality cross-cut one another, which reduces conflict. About 25 to 30 significant relevant points.",
+    "prompt": "Identity as a concept entails a variety of cultural factors including nationality, language and religion. Examine this statement with reference to a European region that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "The Balkans only. Historical boundaries: Ottoman rule in the south and east and Austro-Hungarian rule in the north and west, the 1914 assassination in Sarajevo, the 1918 kingdom and the 1929 renaming as Yugoslavia, and Tito’s six republics. Ethnicity and religion: South Slavs who share a language but differ in script, religion and history; Bosnia’s 1991 and 2013 census shares; Catholic, Orthodox and Muslim communities and the Sarajevo buildings. Conflict and new boundaries: the 1991 to 1995 wars, Vukovar, Operation Storm, Srebrenica (about 8,000 killed), the Kosovo war and independence in 2008, the Dayton structure, and EU accession for Slovenia and Croatia. Culture and migration: EXIT, the Guča festival, sevdalinka, the kolo, guest workers from 1968, and the 2015 Western Balkans route. About 25 to 30 significant relevant points.",
+    "prompt": "“Cultural identity is defined by many diverse factors.” Examine this statement with reference to a case study of a European region you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Wales only, with Brittany named only for contrast in one point. History and boundaries: Offa’s Dyke, Edward I’s conquest in 1282 to 1283 and his castles, the Laws in Wales Acts of 1535 and 1542, and devolution (the 1997 referendum at about 50.3% Yes, the Assembly in 1999, the Senedd in 2020). Language: about 538,000 Welsh speakers in the 2021 census (17.8%), highest in Gwynedd and lowest in the south-east. Religion: the Nonconformist chapels shown by the 1851 religious census, and the disestablishment of the Church in Wales in 1920. Music and festivals: the National Eisteddfod, the Gorsedd, the Urdd Eisteddfod, male voice choirs, the harp and rugby. Migration: the Mimosa’s 1865 voyage to Patagonia, the second-home premium from April 2023, and English and Irish in-migration in the 19th century. Brittany may be named in one point only for contrast, for example its 1532 union with France. About 25 to 30 significant relevant points.",
+    "prompt": "“Cultural identity is defined by many diverse factors.” Examine this statement with reference to a case study of a European region you have studied.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-option-geoecology-s1": {
   "keyTerms": [
    {
