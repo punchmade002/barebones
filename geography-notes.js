@@ -2579,6 +2579,1524 @@
    }
   ]
  },
+ "geo-economic-environment-s1": {
+  "keyTerms": [
+   {
+    "definition": "Anything in the environment that people use to meet their needs, such as energy, minerals, water or soil.",
+    "term": "Resource"
+   },
+   {
+    "definition": "A resource formed over millions of years and used up faster than it forms, so it will eventually run out.",
+    "term": "Non-renewable resource"
+   },
+   {
+    "definition": "A resource that is replaced naturally and will not run out however much is used.",
+    "term": "Renewable resource"
+   },
+   {
+    "definition": "A fuel, such as coal, oil, natural gas or peat, formed from buried plant or marine remains.",
+    "term": "Fossil fuel"
+   },
+   {
+    "definition": "Energy in its raw form, such as oil, gas or wind, before it is converted into another form.",
+    "term": "Primary energy"
+   },
+   {
+    "definition": "The share of a country's energy supply that it buys from abroad.",
+    "term": "Import dependence"
+   },
+   {
+    "definition": "A secure and affordable supply of energy that is not easily disrupted by price shocks or supply cuts.",
+    "term": "Energy security"
+   },
+   {
+    "definition": "A cable or pipeline that links one country's energy network to another's.",
+    "term": "Interconnector"
+   },
+   {
+    "definition": "A hydroelectric method that pumps water uphill when demand is low and releases it through turbines at peak times.",
+    "term": "Pumped storage"
+   },
+   {
+    "definition": "Renewable organic material, such as wood or energy crops, burned or converted to energy.",
+    "term": "Biomass"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A resource is anything in the environment that people use to meet their needs. Resources are classed by whether nature can replace them.",
+    "h": "Resources and how they are classed",
+    "points": [
+     "Resources include energy, minerals, water, soil, forests, fish, land and scenery.",
+     "Non-renewable (stock, finite) resources formed over millions of years, so they are used up far faster than they form and will eventually run out: coal, oil, natural gas, peat, metal ores and uranium.",
+     "Renewable (flow) resources are replaced naturally and will not run out however much is used: wind, solar, hydro (running water), wave, tidal and geothermal heat.",
+     "Some resources are renewable only if managed sustainably: forests, fish stocks, soils, groundwater and biomass. Overuse turns them into exhausted resources, as happens with fish stocks (see the note Sustainable economic development)."
+    ]
+   },
+   {
+    "h": "Fossil fuels, peat and nuclear energy",
+    "points": [
+     "Fossil fuels (coal, oil, natural gas and peat) formed from the remains of plants or marine organisms buried and compressed over millions of years; burning them releases the carbon they stored.",
+     "Peat is non-renewable: a bog grows only about 1 mm a year, far slower than it is cut.",
+     "Nuclear energy from uranium is an alternative to fossil fuels with low carbon emissions, but it is not renewable because uranium is finite."
+    ]
+   },
+   {
+    "h": "Primary energy, electricity and the economy",
+    "points": [
+     "Primary energy is energy in its raw form, such as oil, gas or wind. Electricity is a secondary form made from primary sources.",
+     "Energy powers industry, transport, farming and homes, so resources are central to the economy.",
+     "Energy security means a secure and affordable supply that is not disrupted by price shocks or supply cuts.",
+     "A country that imports its energy pays a large import bill and is exposed to price shocks and supply cuts."
+    ]
+   },
+   {
+    "b": "Ireland has few fossil fuels of its own, so it depends heavily on imported energy.",
+    "h": "Ireland's energy mix: overview",
+    "points": [
+     "Import dependence (the share of energy bought from abroad): Ireland imported close to 90% of its energy in the years before Corrib gas came ashore in 2015.",
+     "The share fell after Corrib began and has risen again as Corrib's output declines. In the early 2020s Ireland still imported about three-quarters of its energy (SEAI).",
+     "Early 2020s primary energy mix (SEAI): oil just under half and the largest single source; natural gas about a third; renewables a little over a tenth; coal and peat small and falling."
+    ]
+   },
+   {
+    "h": "Oil",
+    "points": [
+     "All of Ireland's oil is imported.",
+     "Oil is used mainly for transport and home heating.",
+     "Whitegate, Co. Cork, is Ireland's only oil refinery."
+    ]
+   },
+   {
+    "h": "Natural gas",
+    "points": [
+     "Kinsale Head gas field, off Co. Cork, was discovered in 1971 and began production in 1978 as Ireland's first commercial gas field. Production ended in 2020 when the field was depleted.",
+     "Corrib gas field, off north-west Co. Mayo, was discovered in 1996 and first flowed in December 2015. Its gas is processed at Bellanaboy, Co. Mayo.",
+     "For a time after 2015 Corrib supplied over half of Ireland's gas. Its output is now declining.",
+     "Most of Ireland's gas now comes from Britain through interconnector pipelines from Moffat, Scotland.",
+     "Gas is the largest single source of Irish electricity."
+    ]
+   },
+   {
+    "h": "Coal",
+    "points": [
+     "Ireland's native coalfields are small and long closed: Arigna, Co. Roscommon, where mining ended in 1990 and which is now the Arigna Mining Experience (see the note A Peripheral Irish Region), and Castlecomer, Co. Kilkenny.",
+     "Moneypoint, Co. Clare, on the Shannon Estuary, is an ESB coal-fired station opened in 1985. At about 900 MW it is Ireland's largest power station.",
+     "Moneypoint burned imported coal, brought in by large ships to its deep-water jetty.",
+     "Moneypoint stopped burning coal in 2025."
+    ]
+   },
+   {
+    "h": "Peat",
+    "points": [
+     "Bord na Móna, the State peat company, was founded in 1946.",
+     "Peat-fired stations at Lanesborough (Lough Ree) and Shannonbridge (West Offaly) closed in December 2020. Bord na Móna ended all peat harvesting in January 2021.",
+     "Edenderry, Co. Offaly, switched from peat to biomass.",
+     "Bellacorick, Co. Mayo: the peat station closed in 2003 and was replaced by wind farms on the cutaway bog.",
+     "Cutaway bogs are reused. Lough Boora Discovery Park, Co. Offaly, has turned a cutaway bog into parkland, wetlands and walking and cycling trails."
+    ]
+   },
+   {
+    "h": "Hydroelectric power",
+    "points": [
+     "Ardnacrusha, on the River Shannon near Limerick, was built by the German firm Siemens and opened in 1929 as the Shannon Scheme. The ESB was set up in 1927 to run it, and for some years it supplied most of the country's electricity.",
+     "Other stations: Poulaphouca on the River Liffey, Co. Wicklow; Inniscarra and Carrigadrohid on the River Lee, Co. Cork; and Cathaleen's Fall at Ballyshannon on the River Erne, Co. Donegal.",
+     "Turlough Hill, Co. Wicklow, opened in 1974 as an ESB pumped-storage station. Water is pumped uphill when demand is low and released through turbines at peak times."
+    ]
+   },
+   {
+    "b": "Wind is Ireland's main renewable source.",
+    "h": "Wind energy",
+    "points": [
+     "Wind supplied about a third of Irish electricity in the early 2020s. Renewables, mostly wind, supplied about two-fifths.",
+     "Strong, frequent Atlantic winds make the western coasts and uplands the best sites for wind farms.",
+     "Bellacorick wind farm, Co. Mayo (1992), was Ireland's first commercial wind farm. Oweninny wind farm was built on the same cutaway bog.",
+     "Galway Wind Park, Connemara, completed in 2017, is one of Ireland's largest onshore wind farms.",
+     "Arklow Bank Wind Park, off Co. Wicklow, opened in 2004 as Ireland's first offshore wind farm, with seven turbines."
+    ]
+   },
+   {
+    "h": "Solar, wave, tidal, geothermal and biomass in Ireland",
+    "points": [
+     "Solar power has grown rapidly since the early 2020s, through large solar farms on farmland and panels on rooftops. SEAI grants support home installations.",
+     "The Atlantic Marine Energy Test Site off Belmullet, Co. Mayo, is Ireland's wave-energy test site.",
+     "Geothermal energy is limited to low-temperature ground-source heat pumps.",
+     "Tidal energy harnesses the rise and fall of the sea, and it is at an early stage in Ireland.",
+     "Biomass (wood and energy crops) and biofuels are the remaining renewable sources."
+    ]
+   },
+   {
+    "h": "Ireland's renewable energy targets",
+    "points": [
+     "Ireland's 2020 EU target was 16% of gross final energy consumption from renewables.",
+     "Ireland reached only about 13.5% and missed the target. It was one of the furthest from its target of any EU member state.",
+     "Climate Action Plan: 80% of electricity from renewables by 2030, and at least 5 GW of offshore wind by 2030.",
+     "Climate Action and Low Carbon Development (Amendment) Act 2021: cut greenhouse gas emissions by 51% by 2030, compared with 2018, and reach climate neutrality (net zero) by 2050."
+    ]
+   },
+   {
+    "h": "Why Ireland lagged behind other EU countries on renewables",
+    "points": [
+     "Heavy dependence on cars and road freight for transport.",
+     "Oil used for home heating in a dispersed rural settlement pattern.",
+     "Slow planning and grid connection for wind farms.",
+     "No large hydro potential left for new schemes.",
+     "A late start on offshore wind.",
+     "Strong economic and population growth raising energy demand."
+    ]
+   },
+   {
+    "h": "Interconnection and energy security",
+    "points": [
+     "The East-West Interconnector, opened in 2012, links Co. Dublin to north Wales by electricity cable.",
+     "The Celtic Interconnector, from Co. Cork to Brittany, France, is under construction and due to link Ireland to the EU mainland grid in the late 2020s."
+    ]
+   },
+   {
+    "h": "Energy use by sector in Ireland",
+    "points": [
+     "Transport is the largest energy-using sector in Ireland (SEAI).",
+     "Heat for homes and businesses comes next, then electricity generation for industry and services.",
+     "Data centres used about a fifth of Ireland's metered electricity in 2023 (CSO). Most are in the Dublin region."
+    ]
+   },
+   {
+    "b": "Europe depends heavily on imported energy, and its main oil and gas comes from the North Sea and from suppliers outside the EU.",
+    "h": "European imports and supply",
+    "points": [
+     "The EU imports close to three-fifths of its energy (early 2020s, Eurostat).",
+     "The North Sea, shared by the UK and Norway, is Europe's main oil and gas province.",
+     "Norway is not an EU member but is one of the EU's main gas suppliers, by pipeline."
+    ]
+   },
+   {
+    "h": "Russia and European energy security",
+    "points": [
+     "Before 2022 Russia supplied about two-fifths of the EU's imported gas.",
+     "Russia invaded Ukraine in February 2022. Gas and electricity prices soared across Europe.",
+     "REPowerEU plan, May 2022: cut dependence on Russian fossil fuels by saving energy, importing more liquefied natural gas (LNG, much of it from the USA) and speeding up renewables.",
+     "Russia's share of EU gas imports has since fallen sharply."
+    ]
+   },
+   {
+    "h": "France: nuclear-based electricity",
+    "points": [
+     "Nuclear power supplies about two-thirds of France's electricity."
+    ]
+   },
+   {
+    "h": "Germany: the energy transition",
+    "points": [
+     "The Energiewende (energy transition) is Germany's long-term switch to renewables.",
+     "After the Fukushima disaster in Japan in March 2011, Germany decided to phase out nuclear power. Its last three reactors closed on 15 April 2023.",
+     "Germany still burns lignite (brown coal) from huge open-cast mines in the Rhineland. A 2020 law sets 2038 at the latest as the end of coal-fired power."
+    ]
+   },
+   {
+    "h": "Poland: coal-based electricity",
+    "points": [
+     "Coal generates well over half of Poland's electricity (early 2020s)."
+    ]
+   },
+   {
+    "h": "Denmark: wind power",
+    "points": [
+     "Wind supplies about half of Denmark's electricity (2020s).",
+     "Denmark was an early leader in wind power and is home to the turbine maker Vestas."
+    ]
+   },
+   {
+    "h": "Norway and Iceland: hydro and geothermal (European, not EU members)",
+    "points": [
+     "Hydroelectric power supplies about 90% of Norway's electricity, from its mountains, high rainfall and glacial lakes.",
+     "Geothermal and hydro supply almost all of Iceland's electricity, and about 9 in 10 Icelandic homes are heated geothermally."
+    ]
+   },
+   {
+    "h": "EU renewable energy targets",
+    "points": [
+     "The EU target of 20% renewable energy by 2020 was achieved, at about 22%.",
+     "The revised Renewable Energy Directive (2023) requires at least 42.5% renewable energy by 2030.",
+     "Renewables supplied about a quarter of EU gross final energy consumption in 2023."
+    ]
+   },
+   {
+    "h": "Patterns of energy consumption in the EU",
+    "points": [
+     "Fossil fuels (oil, gas and coal) still supply most of the EU's energy. Oil is the largest single source, mainly for transport.",
+     "Transport, households and industry each take roughly a quarter to a third of final energy. Services take a smaller share."
+    ]
+   },
+   {
+    "h": "Production and consumption compared",
+    "points": [
+     "Core industrial countries, such as Germany and France, consume most of the energy.",
+     "Resource-rich countries, such as Norway, export energy.",
+     "Peripheral countries, such as Ireland, depend on imports."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "A resource is anything people use to meet their needs. Non-renewable resources such as coal, oil, natural gas and peat formed over millions of years and will run out, whereas renewable resources such as wind, solar, hydro, wave, tidal and geothermal are replaced naturally. Ireland has few fossil fuels of its own and imported close to 90% of its energy before Corrib gas came ashore in 2015, and it still imported about three-quarters of its energy in the early 2020s. Oil is the largest single source of primary energy, used mainly for transport and home heating, and all of it is imported through Whitegate, Co. Cork, Ireland's only refinery. Natural gas is about a third of primary energy: Kinsale Head, off Co. Cork, was Ireland's first commercial gas field from 1978 until production ended in 2020, and Corrib, off Co. Mayo, supplied over half of Irish gas for a time after 2015 before its output began to decline; most gas now comes from Britain by pipeline from Moffat, Scotland, and gas is the largest source of electricity. Coal is small and falling: Moneypoint, Co. Clare, opened in 1985 and burned imported coal until it stopped in 2025. Peat is non-renewable and is being phased out: Bord na Móna's peat-fired stations at Lanesborough and Shannonbridge closed in December 2020, harvesting ended in January 2021, and Edenderry switched to biomass. Renewables supply a little over a tenth of primary energy but about two-fifths of electricity. Hydro's major scheme is Ardnacrusha on the Shannon, opened in 1929, and Turlough Hill is a pumped-storage station, though little potential is left for large new schemes. Wind is the main renewable, supplying about a third of electricity, with Bellacorick, Co. Mayo, as the first commercial wind farm in 1992 and Arklow Bank, off Co. Wicklow, as the first offshore farm in 2004. Solar is growing rapidly, while wave energy is at the Belmullet test site. Ireland missed its 2020 target of 16% renewables, reaching about 13.5%, and its Climate Action Plan aims for 80% renewable electricity by 2030. Interconnectors to Wales (2012) and France (due in the late 2020s) improve energy security.",
+    "prompt": "Examine the use of renewable and non-renewable energy resources in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The EU imports close to three-fifths of its energy, so its production and consumption are shaped by dependence on suppliers. The North Sea, shared by the UK and Norway, is Europe's main oil and gas province, and Norway, which is not an EU member, is one of the EU's main gas suppliers by pipeline. Before 2022 Russia supplied about two-fifths of the EU's imported gas. After Russia invaded Ukraine in February 2022, prices soared, and the REPowerEU plan of May 2022 aimed to cut Russian fossil fuel dependence by saving energy, importing more LNG and speeding up renewables; Russia's share of gas imports has since fallen sharply. Energy mixes vary by country. France gets about two-thirds of its electricity from nuclear power. Germany is pursuing the Energiewende, phasing out nuclear after Fukushima with its last reactors closing on 15 April 2023, but still burns lignite from open-cast mines in the Rhineland, with coal-fired power set to end by 2038 at the latest. Poland generates well over half of its electricity from coal. Denmark gets about half its electricity from wind, and Norway gets about 90% from hydro, using its mountains and high rainfall. Iceland relies almost entirely on geothermal and hydro. Fossil fuels still supply most of the EU's energy, with oil the largest single source, mainly for transport. Transport, households and industry each take roughly a quarter to a third of final energy. Core industrial countries such as Germany and France consume most, resource-rich Norway exports energy, and peripheral countries such as Ireland depend on imports. The EU target of 20% renewables by 2020 was achieved at about 22%, the revised Directive requires at least 42.5% by 2030, and renewables supplied about a quarter of gross final energy consumption in 2023.",
+    "prompt": "Describe and explain patterns of energy production and consumption in Europe.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "First, Ireland's transport system relies heavily on cars and road freight, so transport demand is hard to switch to renewable energy. Second, slow planning and grid connection for wind farms delayed new projects, so Ireland reached only about 13.5% against a target of 16%.",
+    "prompt": "Explain two reasons why Ireland was far from its 2020 renewable energy target.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-environment-s2": {
+  "keyTerms": [
+   {
+    "definition": "Rain with a pH below 5.6, caused by SO2 and NOx dissolving in water vapour to form acids.",
+    "term": "Acid rain"
+   },
+   {
+    "definition": "Pollution that crosses national borders, so the country that suffers is often not the one that causes it.",
+    "term": "Transboundary pollution"
+   },
+   {
+    "definition": "The border region of former East Germany, Poland and Czechia, where lignite-burning power stations caused severe forest death.",
+    "term": "Black Triangle"
+   },
+   {
+    "definition": "A layer of warm air above cold air near the ground, which traps smoke and pollutants and forms smog.",
+    "term": "Temperature inversion"
+   },
+   {
+    "definition": "Smoke and fog trapped near the ground by a temperature inversion, harmful to health.",
+    "term": "Smog"
+   },
+   {
+    "definition": "An area where the sale or burning of smoky fuel is restricted to reduce smoke and smog.",
+    "term": "Smoke-free zone"
+   },
+   {
+    "definition": "A process fitted to power stations that removes sulphur dioxide from the waste gases before they are released.",
+    "term": "Flue-gas desulphurisation"
+   },
+   {
+    "definition": "A hydroelectric method that pumps water uphill at low demand and releases it through turbines at peak times.",
+    "term": "Pumped storage"
+   },
+   {
+    "definition": "A dam across an estuary that generates electricity from the rise and fall of the tide.",
+    "term": "Tidal barrage"
+   },
+   {
+    "definition": "The breakdown of organic waste without oxygen, which produces biogas.",
+    "term": "Anaerobic digestion"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Fossil fuels supply about four-fifths of the world's primary energy (2020s), and their production is concentrated in a few places.",
+    "h": "Where fossil fuels are produced",
+    "points": [
+     "The Middle East (e.g. Saudi Arabia, Iran, Iraq) holds about half the world's proven oil reserves. Venezuela has the largest proven reserves of any single country.",
+     "The USA has been the world's largest oil producer since the late 2010s, through shale oil and gas produced by fracking.",
+     "Russia is one of the largest gas exporters. Qatar is a leading exporter of liquefied natural gas (LNG).",
+     "China produces and consumes about half the world's coal.",
+     "Fossil fuels are traded over long distances by tanker, pipeline and LNG ship, so importers depend on exporters for their energy security."
+    ]
+   },
+   {
+    "h": "Where fossil fuels are consumed",
+    "points": [
+     "Developed countries use far more energy per person than developing countries. Demand is now growing fastest in Asia, notably China and India.",
+     "The USA, Canada and Australia use many times more energy per person than India or most of sub-Saharan Africa.",
+     "China has been the world's largest CO2 emitter since the mid-2000s, but the USA emits far more CO2 per person."
+    ]
+   },
+   {
+    "h": "Pollutants released by burning fossil fuels",
+    "points": [
+     "Carbon dioxide (CO2) is the main greenhouse gas released.",
+     "Sulphur dioxide (SO2), mainly from coal and heavy oil, is a cause of acid rain.",
+     "Nitrogen oxides (NOx), mainly from vehicles and power stations, are also a cause of acid rain.",
+     "Smoke, fine particles (soot) and carbon monoxide are released as well."
+    ]
+   },
+   {
+    "h": "The enhanced greenhouse effect",
+    "points": [
+     "CO2 traps heat in the atmosphere, so extra CO2 from burning fossil fuels enhances the greenhouse effect and causes global warming. The full case study is in the note Environmental pollution."
+    ]
+   },
+   {
+    "b": "Acid rain is a transboundary problem: the countries that cause it are often not the ones that suffer.",
+    "h": "Acid rain: formation and spread in Europe",
+    "points": [
+     "Normal rain is slightly acidic, at about pH 5.6. Acid rain is rain with a pH below 5.6.",
+     "SO2 and NOx dissolve in water vapour to form sulphuric and nitric acids. These fall as wet deposition in rain, or as dry deposition of acidic particles and gases.",
+     "Sources include coal-fired power stations, heavy industry and vehicles.",
+     "Emissions from Britain and Germany were carried by the prevailing south-westerly winds to Norway and Sweden.",
+     "The Black Triangle, the border region of former East Germany, Poland and Czechia, had lignite-burning power stations that caused severe forest death in the 1970s and 1980s."
+    ]
+   },
+   {
+    "h": "Effects of acid rain",
+    "points": [
+     "Forest damage: needle and leaf loss, and nutrients leached from the soil. German forests, such as the Black Forest, were reported dying in the 1980s (Waldsterben, meaning forest death).",
+     "Lake acidification: thousands of Scandinavian lakes were acidified and lost their fish. Aluminium released from the soil kills fish.",
+     "Limestone and marble buildings and statues dissolve, through the same process as the chemical weathering of limestone.",
+     "Corrosion of metal, and respiratory problems in people."
+    ]
+   },
+   {
+    "h": "Responses to acid rain",
+    "points": [
+     "The 1979 Convention on Long-Range Transboundary Air Pollution, signed at UNECE in Geneva.",
+     "EU directives limit emissions from large power stations.",
+     "Flue-gas desulphurisation (scrubbers) at power stations. Moneypoint, Co. Clare, opened in 1985 and had scrubbers fitted in the late 2000s.",
+     "Low-sulphur fuels, and catalytic converters, which became compulsory on new petrol cars in the EU in 1993.",
+     "Sweden and Norway have limed acidified lakes since the 1970s and 1980s.",
+     "Countries switched from coal to gas and renewables.",
+     "Outcome: European SO2 emissions have fallen by well over three-quarters since 1990, and many lakes are recovering."
+    ]
+   },
+   {
+    "h": "Smog and the temperature inversion",
+    "points": [
+     "Burning coal and turf in homes releases smoke and fine particles.",
+     "In calm, cold winter weather an anticyclone creates a temperature inversion. The inversion traps the smoke near the ground, forming smog.",
+     "Smog causes bronchitis, asthma, heart and lung disease, and extra deaths."
+    ]
+   },
+   {
+    "h": "Smoke-free zones: London and Dublin",
+    "points": [
+     "London's Great Smog, in December 1952, caused about 4,000 deaths at the time. Later estimates are far higher.",
+     "The Great Smog led to the UK Clean Air Act 1956, which created smokeless zones.",
+     "Dublin suffered severe winter smogs in the early 1980s from household coal burning.",
+     "The sale of smoky (bituminous) coal was banned in Dublin from 1 September 1990. Black smoke levels fell by about 70%.",
+     "The ban covered smoky coal only, so smokeless fuel and turf could still be burned in Dublin at first.",
+     "A study published in The Lancet in 2002 estimated that the ban was linked to about 350 fewer deaths a year in Dublin from respiratory and heart disease.",
+     "The ban was extended to Cork in 1995, and in stages to other cities and large towns as low-smoke zones. National rules from 2022 further restrict the sale of smoky solid fuels and wet wood."
+    ]
+   },
+   {
+    "h": "Other impacts of burning fossil fuels",
+    "points": [
+     "Oil spills during transport (the case studies are in the note Environmental pollution).",
+     "Landscape damage from coal mining and peat cutting.",
+     "Thermal pollution of rivers by the cooling water of power stations."
+    ]
+   },
+   {
+    "b": "Wind turns turbine blades that drive a generator. Turbines are built onshore on land and offshore at sea.",
+    "h": "Wind energy",
+    "points": [
+     "Ireland: wind supplied about a third of Irish electricity in the early 2020s, from onshore farms such as Galway Wind Park, Connemara (2017), and from Arklow Bank Wind Park, off Co. Wicklow (2004), Ireland's first offshore wind farm.",
+     "Denmark: wind supplies about half of Denmark's electricity.",
+     "Advantage: strong, frequent Atlantic winds give Ireland a good wind resource, and wind is the main renewable source in Irish electricity.",
+     "Disadvantage: output varies with the wind, and local residents object on grounds of noise, shadow flicker and visual impact.",
+     "Disadvantage: Derrybrien, Co. Galway, suffered a peat slide of about 450,000 m³ on 16 October 2003 during construction of a wind farm on bog. The EU Court of Justice fined Ireland in 2019 for the lack of a proper environmental impact assessment."
+    ]
+   },
+   {
+    "b": "Hydroelectric power uses falling water to turn turbines, through three main methods.",
+    "h": "Hydroelectric power",
+    "points": [
+     "Dams and reservoirs release stored water through turbines at a controlled rate.",
+     "Run-of-river schemes use the river's natural flow.",
+     "Pumped storage pumps water uphill at times of low demand and releases it at peak times.",
+     "Ireland: Ardnacrusha on the River Shannon (Shannon Scheme, opened 1929, built by Siemens) and Turlough Hill, Co. Wicklow (1974), the country's pumped-storage station. Poulaphouca on the Liffey, Inniscarra and Carrigadrohid on the Lee, and Cathaleen's Fall at Ballyshannon on the Erne also generate power.",
+     "Advantage: output can be raised quickly at peak times, as at Turlough Hill.",
+     "Disadvantage: Ireland has little hydro potential left for large new schemes.",
+     "Norway: hydroelectric power supplies about 90% of its electricity.",
+     "Three Gorges Dam, Yangtze River, China: the world's largest power station by installed capacity. It was completed in 2006, fully operational in 2012, and over one million people were relocated. It gives flood control downstream but traps sediment."
+    ]
+   },
+   {
+    "b": "Photovoltaic panels convert sunlight into electricity, and solar thermal panels heat water.",
+    "h": "Solar energy",
+    "points": [
+     "Ireland: solar power has grown rapidly since the early 2020s, through large solar farms on farmland and panels on rooftops. SEAI grants help homes to install panels.",
+     "Disadvantage: Ireland's cloud cover and short winter days limit output."
+    ]
+   },
+   {
+    "b": "Waves and tides drive turbines or barrages.",
+    "h": "Wave and tidal energy",
+    "points": [
+     "Wave: the Atlantic Marine Energy Test Site off Belmullet, Co. Mayo.",
+     "Tidal barrage: La Rance, Brittany, France, a barrage across the Rance estuary, opened in 1966. It was one of the first and largest tidal power stations.",
+     "Tidal stream: SeaGen in Strangford Lough, Co. Down, was installed in 2008 as the world's first commercial-scale tidal-stream turbine, using the fast tidal flow through the narrows. It has since been removed.",
+     "Advantage: tides are predictable. Disadvantages: high cost and marine impacts."
+    ]
+   },
+   {
+    "b": "Geothermal energy uses heat from the Earth's interior, to heat water or to generate steam.",
+    "h": "Geothermal energy",
+    "points": [
+     "Iceland lies on the Mid-Atlantic Ridge over a hotspot. The Hellisheiði power station generates electricity from geothermal water, and about 9 in 10 Icelandic homes are heated by it.",
+     "Ireland uses low-temperature heat pumps only.",
+     "Advantage: output does not depend on the weather. Disadvantage: high-temperature sources are found only where the crust is hot, as in Iceland."
+    ]
+   },
+   {
+    "b": "Biomass is organic material burned or converted to energy.",
+    "h": "Biomass and biofuels",
+    "points": [
+     "Sources: wood chip, energy crops such as willow and miscanthus, and biogas from slurry and food waste produced by anaerobic digestion.",
+     "Biofuels are blended into petrol and diesel, by law in Ireland.",
+     "Edenderry, Co. Offaly, was converted from peat to biomass.",
+     "Advantage: carbon-neutral in principle. Disadvantage: energy crops compete with food production for land."
+    ]
+   },
+   {
+    "b": "Nuclear power uses fission, the splitting of uranium atoms, to release heat that makes steam to drive turbines.",
+    "h": "Nuclear energy",
+    "points": [
+     "France: nuclear power supplies about two-thirds of its electricity.",
+     "Advantages: low carbon emissions, reliable and large output.",
+     "Disadvantages: radioactive waste, accident risk, very high cost, and the cost of decommissioning old reactors.",
+     "Chernobyl, Ukraine (then USSR), 26 April 1986: a reactor exploded, and radioactive fallout spread across Europe, including Ireland. A 30 km exclusion zone remains.",
+     "Fukushima Daiichi, Japan, 11 March 2011: an earthquake and tsunami knocked out cooling and caused meltdowns."
+    ]
+   },
+   {
+    "h": "Why Ireland has no nuclear power",
+    "points": [
+     "The Electricity Regulation Act 1999 bans the use of nuclear fission to generate electricity in Ireland.",
+     "The ESB planned a nuclear power station at Carnsore Point, Co. Wexford, in the 1970s. It was abandoned after large public protests and was never built.",
+     "Other reasons: Ireland's small electricity grid, the high cost, the problem of waste disposal, and fears raised by Chernobyl.",
+     "Sellafield, Cumbria, England, a nuclear reprocessing site on the Irish Sea coast, has discharges that Irish governments have long objected to."
+    ]
+   },
+   {
+    "h": "General advantages of renewable energy",
+    "points": [
+     "Renewables are inexhaustible: the sun, wind, water and tides will not run out.",
+     "They produce little or no CO2, SO2 or NOx.",
+     "They reduce the fossil-fuel import bill and improve energy security.",
+     "They create jobs, often in rural areas.",
+     "Once a plant is built, the fuel is free.",
+     "They help meet EU and national targets and avoid penalties for missing them."
+    ]
+   },
+   {
+    "h": "General disadvantages of renewable energy",
+    "points": [
+     "Renewables are intermittent, because wind and sun vary, so backup or storage is needed.",
+     "The initial cost of building a plant is high.",
+     "Turbines and dams have visual impact, and cause noise and local objections.",
+     "Remote sites need grid connections.",
+     "Some habitats are damaged: birds are killed by turbines, and dams flood valleys."
+    ]
+   },
+   {
+    "h": "Why renewable energy is crucial for Ireland",
+    "points": [
+     "Ireland imported about three-quarters of its energy in the early 2020s, at a cost of billions of euro a year. Renewables reduce this import bill and the exposure to price shocks.",
+     "Ireland must meet its 2030 targets for renewable electricity and emissions. Missing EU targets exposes Ireland to the cost of buying compliance.",
+     "Energy security improves through interconnectors: the East-West Interconnector to Wales (2012) and the Celtic Interconnector to France (due in the late 2020s).",
+     "Renewables provide jobs and income in rural areas.",
+     "Green power attracts multinational companies that want renewable electricity."
+    ]
+   },
+   {
+    "h": "Siting a wind farm (map-based question)",
+    "points": [
+     "A wind farm needs a high, exposed upland or coastal site with strong winds.",
+     "It should be away from houses, to limit noise and shadow flicker.",
+     "It needs an access road close by for construction, and a connection close to the electricity grid, by transmission line.",
+     "It should avoid protected areas and deep peat, and is best placed on land of low farming value.",
+     "Conflict arises when a site lies near homes or in a protected or scenic area, so the site must balance wind strength against these constraints."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Burning fossil fuels releases carbon dioxide, sulphur dioxide, nitrogen oxides, smoke and fine particles. Carbon dioxide traps heat and enhances the greenhouse effect, causing global warming. Sulphur dioxide and nitrogen oxides form acid rain, when they dissolve in water vapour to make sulphuric and nitric acids. Normal rain has a pH of about 5.6, and acid rain is below that. Acid rain is transboundary: emissions from Britain and Germany were carried by south-westerly winds to Norway and Sweden. The Black Triangle, where lignite-burning power stations killed forests in the 1970s and 1980s, shows the scale of the problem. Acid rain damaged German forests in the 1980s, and thousands of Scandinavian lakes were acidified and lost their fish. It also dissolves limestone and marble buildings and statues. Responses include the 1979 Convention on Long-Range Transboundary Air Pollution, EU directives on large power stations, flue-gas desulphurisation at power stations such as Moneypoint, low-sulphur fuels, catalytic converters on cars from 1993, and liming of lakes in Sweden and Norway. As a result, European SO2 emissions have fallen by well over three-quarters since 1990. Smog is another impact. Burning coal and turf in homes produces smoke, and in cold, calm winter weather a temperature inversion traps it near the ground. Smog causes bronchitis, asthma and heart and lung disease. London's Great Smog of 1952 killed about 4,000 people at the time and led to the Clean Air Act 1956. In Dublin, severe winter smogs in the early 1980s led to a ban on the sale of smoky coal from 1 September 1990, which cut black smoke by about 70% and was linked by a 2002 Lancet study to about 350 fewer deaths a year. The ban was extended to Cork in 1995. Other impacts include oil spills, landscape damage from coal mining and peat cutting, and thermal pollution from power-station cooling water.",
+    "prompt": "Examine the environmental impact of burning fossil fuels.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "This answer uses wind energy. Economically, wind reduces Ireland's fossil-fuel import bill, which was about three-quarters of its energy in the early 2020s, and improves energy security. Wind supplied about a third of Irish electricity in the early 2020s, and Ireland's strong, frequent Atlantic winds give it a good resource. Wind farms create jobs and income in rural areas, and Irish sites such as Galway Wind Park, Connemara, and the offshore Arklow Bank Wind Park show the growth of the industry. Environmentally, wind produces no CO2, SO2 or NOx once a farm is built, so it helps Ireland meet its Climate Action Plan target of 80% renewable electricity by 2030 and avoid penalties for missing EU targets. Wind is also a free fuel once the turbines are built. The balancing disadvantage is that output varies with the wind, and local objections arise over noise, shadow flicker and visual impact.",
+    "prompt": "With reference to one specific renewable energy source, explain its economic and environmental advantages.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "The Electricity Regulation Act 1999 bans the use of nuclear fission to generate electricity in Ireland. The ESB planned a nuclear station at Carnsore Point, Co. Wexford, in the 1970s, but large public protests led to its abandonment. Fears raised by the Chernobyl accident in 1986 and by the Sellafield discharges into the Irish Sea added to the opposition. Other reasons include the risk of radioactive waste, the very high cost of building a plant, and the small size of Ireland's electricity grid.",
+    "prompt": "Explain why nuclear energy is not used to generate electricity in Ireland.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-environment-s3": {
+  "keyTerms": [
+   {
+    "definition": "The release by human activity of substances or energy into the environment in amounts that harm living things, health or property.",
+    "term": "Pollution"
+   },
+   {
+    "definition": "A pollution source from one identifiable place, such as a factory pipe or sewage outfall.",
+    "term": "Point source"
+   },
+   {
+    "definition": "A pollution source spread over many places, such as runoff from many farms.",
+    "term": "Diffuse source"
+   },
+   {
+    "definition": "The extra warming caused by human-added greenhouse gases trapping more heat in the atmosphere.",
+    "term": "Enhanced greenhouse effect"
+   },
+   {
+    "definition": "The enrichment of water by nutrients, which causes algal growth and then oxygen loss as the algae decay.",
+    "term": "Eutrophication"
+   },
+   {
+    "definition": "A rapid growth of algae in water, often toxic when blue-green algae are involved.",
+    "term": "Algal bloom"
+   },
+   {
+    "definition": "Tiny fragments of plastic that enter water, soil and food chains.",
+    "term": "Microplastics"
+   },
+   {
+    "definition": "The destruction of stratospheric ozone, mainly by CFCs, which lets more harmful ultraviolet radiation reach the Earth.",
+    "term": "Ozone depletion"
+   },
+   {
+    "definition": "Polluted liquid that drains from landfill and can contaminate water.",
+    "term": "Leachate"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What pollution is and where it occurs",
+    "points": [
+     "Pollution is the release by human activity of substances or energy (heat, noise, light) into the environment in amounts that harm living things, health or property.",
+     "Types of pollution: air, water (fresh and marine), land and soil, noise and visual.",
+     "Scales: local (one river or town), national (a country's water quality) and global (the whole atmosphere or ocean).",
+     "Transboundary pollution crosses borders, so the place it harms may be far from its source. Acid rain is the European example, taught in the note Burning fossil fuels and using alternative energy sources."
+    ]
+   },
+   {
+    "h": "Point and diffuse sources of pollution",
+    "points": [
+     "Point sources come from one identifiable place, such as a factory pipe or a sewage outfall.",
+     "Diffuse sources come from many places at once, such as runoff from many farms, or traffic.",
+     "Economic activities that pollute include agriculture, manufacturing, energy generation, transport, mining, tourism, households and urban waste."
+    ]
+   },
+   {
+    "b": "Global warming is the main global-scale example of pollution.",
+    "h": "The natural and enhanced greenhouse effect",
+    "points": [
+     "The natural greenhouse effect: greenhouse gases let incoming short-wave solar radiation through but absorb outgoing long-wave radiation, keeping the earth habitable.",
+     "The enhanced greenhouse effect: human activity adds greenhouse gases, which trap more heat."
+    ]
+   },
+   {
+    "h": "Greenhouse gases and their sources",
+    "points": [
+     "CO2 comes from burning fossil fuels, deforestation and cement production.",
+     "Methane comes from cattle and sheep, rice paddies, landfill and gas leaks.",
+     "Nitrous oxide comes from nitrogen fertilisers and slurry.",
+     "CFCs and other fluorinated gases are also greenhouse gases."
+    ]
+   },
+   {
+    "h": "Evidence of global warming",
+    "points": [
+     "Atmospheric CO2 was about 280 ppm before the Industrial Revolution. It passed 400 ppm in the mid-2010s and was over 420 ppm by the mid-2020s. These readings are measured at Mauna Loa, Hawaii, which has recorded them since 1958.",
+     "Global average surface temperature has risen by about 1.1 to 1.2 °C since the late 1800s (IPCC).",
+     "2024 was the warmest year on record and the first calendar year more than 1.5 °C above pre-industrial levels (Copernicus).",
+     "Arctic summer sea ice has shrunk by about 13% per decade since satellite records began in 1979.",
+     "Global sea level rose by about 20 cm between 1901 and 2018 (IPCC).",
+     "Glaciers are retreating worldwide."
+    ]
+   },
+   {
+    "h": "Global effects of warming",
+    "points": [
+     "Sea-level rise, from thermal expansion of seawater and melting land ice, threatens low-lying countries and deltas: Bangladesh (the Ganges-Brahmaputra delta), the Maldives, Tuvalu and Kiribati.",
+     "More intense heatwaves, droughts, floods and storms. The Sahel has suffered droughts.",
+     "Glacier retreat threatens water supplies.",
+     "Coral bleaching: the Great Barrier Reef, Australia, has suffered repeated mass bleaching since the late 1990s.",
+     "Species shifts and extinctions, crop failures in vulnerable regions, and climate refugees."
+    ]
+   },
+   {
+    "h": "Global warming in Ireland: temperature and effects",
+    "points": [
+     "Ireland's average temperature has risen by about 0.9 °C since 1900 (EPA and Met Éireann).",
+     "Warmer temperatures bring wetter winters and more flooding, a risk of summer drought, stronger storms and coastal erosion.",
+     "Effects also include changes to farming and to marine species, and a threat to low-lying coastal towns.",
+     "Storm Éowyn, in January 2025, caused record damage and power cuts."
+    ]
+   },
+   {
+    "h": "Ireland's emissions profile",
+    "points": [
+     "Agriculture produces over a third of Ireland's greenhouse gas emissions, the largest share, mainly methane and nitrous oxide from cattle, slurry and fertiliser.",
+     "Transport is the next largest source, at about a fifth of emissions (EPA, early 2020s), followed by energy.",
+     "Ireland's emissions per person are high for an EU country."
+    ]
+   },
+   {
+    "h": "Global responses to global warming",
+    "points": [
+     "The United Nations Framework Convention on Climate Change (UNFCCC) was agreed at the Earth Summit in Rio de Janeiro in 1992.",
+     "The Kyoto Protocol, agreed in 1997 and in force from 2005, set legally binding cuts for developed countries only. The USA never ratified it.",
+     "The Paris Agreement, 2015, aims to keep warming well below 2 °C and to pursue efforts to limit it to 1.5 °C. Each country sets its own national plan (nationally determined contribution).",
+     "Countries meet every year at COP meetings. COP30 was held at Belém, Brazil, in November 2025."
+    ]
+   },
+   {
+    "h": "EU and Irish responses to global warming",
+    "points": [
+     "The EU Emissions Trading System began in 2005. Power stations and heavy industry must hold an allowance for each tonne of CO2 they emit.",
+     "The European Green Deal (2019) aims for a climate-neutral EU by 2050. Its Fit for 55 package aims to cut net emissions by at least 55% by 2030, compared with 1990.",
+     "Ireland's Climate Action and Low Carbon Development (Amendment) Act 2021 requires a 51% cut in emissions by 2030, compared with 2018, and net zero by 2050.",
+     "Sectoral ceilings (2022) require agriculture to cut its emissions by 25% by 2030.",
+     "An Irish carbon tax was introduced in 2010 and is rising in stages towards €100 a tonne by 2030.",
+     "The Climate Action Plan aims to retrofit 500,000 homes to a B2 energy rating by 2030, and includes renewables, electric vehicles and measures for agriculture."
+    ]
+   },
+   {
+    "h": "How individuals and communities can reduce emissions",
+    "points": [
+     "Improve energy efficiency and insulate homes.",
+     "Use public transport, cycling and walking in place of car journeys.",
+     "Reduce food waste.",
+     "Switch to renewable heating."
+    ]
+   },
+   {
+    "b": "Agricultural water pollution is the Irish national case study of water pollution.",
+    "h": "Agricultural water pollution: causes and eutrophication",
+    "points": [
+     "Cause: nitrogen and phosphorus from slurry, manure and chemical fertilisers wash off fields into rivers and lakes, especially after heavy rain or when spread on wet or frozen ground. Silage effluent and sewage from towns and septic tanks add more.",
+     "Eutrophication: the nutrients feed rapid algal growth, forming algal blooms.",
+     "When the algae die, bacteria decomposing them use up the dissolved oxygen, so fish and other life suffocate in fish kills.",
+     "The water turns green and smells. Some blue-green algae are toxic."
+    ]
+   },
+   {
+    "h": "Effects of agricultural water pollution",
+    "points": [
+     "Loss of fish and other wildlife, and damage to angling and tourism.",
+     "Drinking water needs costly treatment, and nitrates contaminate groundwater.",
+     "Coastal waters, including estuaries, are affected by algal mats."
+    ]
+   },
+   {
+    "h": "Water quality in Ireland",
+    "points": [
+     "An EPA assessment for 2016 to 2021 found that only about half of Ireland's rivers, lakes and estuaries were in good or high ecological status.",
+     "Agriculture is the most common pressure on water quality, followed by urban wastewater.",
+     "Milk quotas were abolished on 1 April 2015. The dairy herd then grew strongly, especially in the south and east, and raised nitrogen levels there."
+    ]
+   },
+   {
+    "h": "Case study: Lough Neagh algal bloom, 2023",
+    "points": [
+     "Lough Neagh, Northern Ireland, is the largest lake on the island of Ireland. In summer 2023 a huge toxic blue-green algal bloom covered much of it.",
+     "The bloom was blamed on nutrient pollution from farm runoff, sewage and septic tanks, together with warm weather and invasive zebra mussels that clear the water.",
+     "Lough Neagh supplies a large share of Northern Ireland's drinking water."
+    ]
+   },
+   {
+    "h": "Reducing agricultural water pollution",
+    "points": [
+     "The EU Nitrates Directive (1991) and Ireland's Nitrates Action Programme set closed periods each winter when slurry and fertiliser may not be spread.",
+     "The Nitrates Action Programme also limits nitrogen per hectare, requires slurry storage, and requires buffer strips beside watercourses.",
+     "The EU Water Framework Directive (2000) aims for good status for all waters.",
+     "Other measures: upgrading urban wastewater treatment, EPA monitoring of water quality, and farm advisory programmes."
+    ]
+   },
+   {
+    "h": "Causes of marine oil pollution",
+    "points": [
+     "Tanker accidents, drilling blow-outs, illegal tank washing at sea, and pipeline leaks release oil into the sea."
+    ]
+   },
+   {
+    "h": "Case study: Exxon Valdez, 1989",
+    "points": [
+     "The tanker ran aground on Bligh Reef, Prince William Sound, Alaska, on 24 March 1989.",
+     "About 11 million US gallons (about 37,000 tonnes) of crude oil were spilled, and about 2,000 km of coastline was oiled.",
+     "Hundreds of thousands of seabirds and thousands of sea otters were killed, and the herring fishery collapsed.",
+     "The response was the US Oil Pollution Act 1990, which required double-hulled tankers in US waters."
+    ]
+   },
+   {
+    "h": "Case study: Prestige, 2002",
+    "points": [
+     "The single-hulled tanker Prestige broke in two and sank off Galicia, north-west Spain, in November 2002. It spilled tens of thousands of tonnes of heavy fuel oil.",
+     "Oil reached the Costa da Morte and the coasts of Spain, Portugal and France. Galician shellfish and fishing industries were closed for months.",
+     "The disaster sped up the EU's phase-out of single-hulled tankers."
+    ]
+   },
+   {
+    "h": "Case study: Deepwater Horizon, 2010",
+    "points": [
+     "The Deepwater Horizon rig, operated by BP, exploded on 20 April 2010 in the Gulf of Mexico. Eleven workers were killed.",
+     "About 4.9 million barrels of oil were spilled."
+    ]
+   },
+   {
+    "h": "Effects, clean-up and prevention of oil spills",
+    "points": [
+     "Effects: oiled seabirds and mammals, smothered shorelines, fishing bans and lost tourism.",
+     "Clean-up: booms to contain the oil, skimmers to remove it, and dispersants to break it up.",
+     "Prevention: double-hulled tankers, and routing ships away from coasts."
+    ]
+   },
+   {
+    "h": "Plastic and waste pollution: causes and effects",
+    "points": [
+     "Causes: single-use packaging, litter, illegal dumping and landfill.",
+     "Plastics take hundreds of years to break down, and they fragment into microplastics.",
+     "Effects: litter in towns and countryside, and wildlife entangled in or eating plastic.",
+     "Ocean garbage patches: the Great Pacific Garbage Patch is a large area of the North Pacific where floating plastic collects in an ocean gyre.",
+     "Microplastics enter food chains. Landfill produces leachate and methane."
+    ]
+   },
+   {
+    "h": "Irish responses to plastic and waste",
+    "points": [
+     "The plastic bag levy was introduced in March 2002 at 15 cent a bag, raised to 22 cent in 2007. Plastic bag use fell by over 90% almost at once, and the money funds environmental projects.",
+     "The Deposit Return Scheme (Re-turn) began on 1 February 2024 for plastic drinks bottles and cans.",
+     "The waste hierarchy ranks reduce, reuse, recycle, recover and dispose. The EPA licenses waste facilities.",
+     "The Dublin Waste-to-Energy incinerator at Poolbeg has operated since 2017."
+    ]
+   },
+   {
+    "h": "Ozone depletion",
+    "points": [
+     "CFCs, from aerosols, fridges and air conditioning, destroy stratospheric ozone, which absorbs harmful ultraviolet radiation.",
+     "British Antarctic Survey scientists reported the Antarctic ozone hole in 1985.",
+     "More ultraviolet radiation causes skin cancer and eye cataracts, and damages plankton and crops.",
+     "The Montreal Protocol, agreed in 1987, phased out CFCs. Every UN member state has ratified it, and it is often cited as the most successful global environmental agreement.",
+     "The Antarctic ozone layer is expected to recover to 1980 levels around the 2060s (UN assessment, 2023)."
+    ]
+   },
+   {
+    "h": "Other local pollution",
+    "points": [
+     "Air pollution in towns: traffic produces nitrogen dioxide and fine particles. Home burning of solid fuel adds smoke (see the note Burning fossil fuels and using alternative energy sources for smoke-free zones).",
+     "Mining pollution: acid mine drainage from old copper mines at Avoca, Co. Wicklow, discolours and pollutes the Avoca River.",
+     "Noise and visual pollution from airports, motorways, quarries, wind farms and pylons."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Global warming is caused by the enhanced greenhouse effect. The natural greenhouse effect keeps the earth habitable, but human activity adds greenhouse gases. CO2 comes from burning fossil fuels, deforestation and cement production; methane from cattle and sheep, rice paddies, landfill and gas leaks; nitrous oxide from nitrogen fertilisers and slurry; and CFCs. Evidence includes CO2 rising from about 280 ppm before the Industrial Revolution to over 420 ppm by the mid-2020s, measured at Mauna Loa, Hawaii; global temperature up about 1.1 to 1.2 °C since the late 1800s; 2024 as the warmest year on record; shrinking Arctic sea ice; retreating glaciers; and sea level up about 20 cm between 1901 and 2018. Global effects include sea-level rise threatening Bangladesh, the Maldives, Tuvalu and Kiribati; more intense heatwaves, droughts, floods and storms; coral bleaching on the Great Barrier Reef; species extinctions; and crop failures and climate refugees. In Ireland, temperatures have risen by about 0.9 °C since 1900, bringing wetter winters, more flooding, stronger storms and coastal erosion. Agriculture is the largest source of Irish emissions. Internationally, the UNFCCC of 1992 was followed by the Kyoto Protocol of 1997, which bound only developed countries, and the Paris Agreement of 2015, which asks each country to set its own plan. In the EU, the Emissions Trading System began in 2005, and the Green Deal and Fit for 55 aim for a 55% cut by 2030. Ireland's Climate Act 2021 requires a 51% cut by 2030 and net zero by 2050, and a carbon tax has applied since 2010. Individuals can reduce emissions through energy efficiency, insulation, public transport, cycling, less food waste and renewable heating.",
+    "prompt": "Examine one example of environmental pollution at a global scale.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Agricultural water pollution in Ireland. (ii) Causes: nitrogen and phosphorus from slurry, manure and chemical fertilisers wash off fields into rivers and lakes, especially after heavy rain or when spread on wet or frozen ground. The nutrients cause eutrophication: algae grow rapidly, form blooms, and then die, and the bacteria that decompose them use up the dissolved oxygen, so fish suffocate. The water turns green, smells, and may contain toxic blue-green algae. Effects: loss of fish and wildlife, damage to angling and tourism, costly treatment of drinking water, nitrates in groundwater, and affected estuaries. The EPA found in 2016 to 2021 that only about half of Ireland's rivers, lakes and estuaries were in good or high status, and agriculture is the most common pressure. In summer 2023 a toxic blue-green algal bloom covered much of Lough Neagh, the largest lake on the island of Ireland, blamed on farm runoff, sewage and septic tanks. (iii) Reduction: the EU Nitrates Directive of 1991 and Ireland's Nitrates Action Programme set closed periods each winter when slurry and fertiliser may not be spread, limit nitrogen per hectare, require slurry storage and buffer strips beside watercourses. The EU Water Framework Directive of 2000 aims for good status for all waters. Urban wastewater treatment is being upgraded, the EPA monitors water quality, and farm advisory programmes help farmers comply.",
+    "prompt": "(i) Name one example of environmental pollution caused by economic activity. (ii) Explain its causes and effects. (iii) Describe how it could be reduced.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Marine oil pollution is caused by tanker accidents, drilling blow-outs, illegal tank washing at sea and pipeline leaks. The Exxon Valdez ran aground on Bligh Reef in Prince William Sound, Alaska, on 24 March 1989, spilling about 37,000 tonnes of crude oil and oiling about 2,000 km of coastline. Hundreds of thousands of seabirds and thousands of sea otters were killed and the herring fishery collapsed. The response was the US Oil Pollution Act 1990, requiring double-hulled tankers in US waters. The Prestige, a single-hulled tanker, broke in two and sank off Galicia in November 2002, spilling tens of thousands of tonnes of heavy fuel oil. Oil reached the Costa da Morte and the coasts of Spain, Portugal and France, and Galician fishing was closed for months, which sped up the EU phase-out of single-hulled tankers. The Deepwater Horizon exploded in the Gulf of Mexico on 20 April 2010, killing 11 workers and spilling about 4.9 million barrels. Effects of oil spills include oiled seabirds and mammals, smothered shorelines, fishing bans and lost tourism. Clean-up uses booms, skimmers and dispersants, while prevention relies on double-hulled tankers and routing ships away from coasts.",
+    "prompt": "Describe the causes and effects of marine oil pollution and how it can be reduced.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-environment-s4": {
+  "keyTerms": [
+   {
+    "definition": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "term": "Sustainable development"
+   },
+   {
+    "definition": "The principle of acting to prevent serious environmental harm even before the harm has been proven.",
+    "term": "Precautionary principle"
+   },
+   {
+    "definition": "A single EPA licence that sets limits for emissions to air, water, waste and noise together.",
+    "term": "Integrated pollution control"
+   },
+   {
+    "definition": "A study of a large project's likely effects on the environment and of the measures to reduce them, required before planning permission is decided.",
+    "term": "Environmental impact assessment"
+   },
+   {
+    "definition": "The largest catch that can be taken from a fish stock year after year without reducing the stock.",
+    "term": "Maximum sustainable yield"
+   },
+   {
+    "definition": "The maximum quantity of a fish stock that may be caught in a year, divided into national quotas under the Common Fisheries Policy.",
+    "term": "Total allowable catch (TAC)"
+   },
+   {
+    "definition": "Fish caught and thrown back dead or unwanted, which the landing obligation of the 2013 CFP reform aims to end.",
+    "term": "Discards"
+   },
+   {
+    "definition": "The waste rock and fine material left over after minerals are extracted from ore, stored in a managed facility at a mine.",
+    "term": "Tailings"
+   },
+   {
+    "definition": "An economic model that keeps products and materials in use for as long as possible through reuse, repair and recycling.",
+    "term": "Circular economy"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Sustainable development is the framework within which the environmental impact of economic activity is controlled.",
+    "h": "Defining sustainable development",
+    "points": [
+     "Brundtland Report, \"Our Common Future\" (UN World Commission on Environment and Development, 1987): development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+     "It has three pillars: environmental protection, economic growth and social fairness. Sustainable development balances all three rather than maximising one."
+    ]
+   },
+   {
+    "h": "Principles of sustainability",
+    "points": [
+     "Renewable resources such as fish, forests and water should be used no faster than they regenerate.",
+     "Non-renewable resources should be used efficiently and recycled.",
+     "Pollution should be kept within what the environment can absorb.",
+     "The polluter pays: those who cause environmental damage bear the cost of it.",
+     "The precautionary principle: act to prevent serious harm even before the harm is proven."
+    ]
+   },
+   {
+    "h": "Global framework",
+    "points": [
+     "The Earth Summit in Rio de Janeiro (1992) was a later, separate event from the Brundtland Report; it produced Agenda 21, an action plan for sustainable development.",
+     "The UN Sustainable Development Goals were adopted in 2015: 17 goals with a target year of 2030."
+    ]
+   },
+   {
+    "h": "The Environmental Protection Agency: establishment",
+    "points": [
+     "Set up under the Environmental Protection Agency Act 1992; the EPA began work in 1993.",
+     "An independent public body with headquarters at Johnstown Castle, Co. Wexford."
+    ]
+   },
+   {
+    "h": "EPA licensing (integrated pollution control)",
+    "points": [
+     "Large industries, such as pharmaceutical and chemical plants, power stations, intensive pig and poultry farms, cement works and mines, and waste facilities need an EPA licence.",
+     "The licence sets emission limits for the activity.",
+     "Integrated pollution control: one licence covers air, water, waste and noise, instead of separate permits for each."
+    ]
+   },
+   {
+    "h": "EPA monitoring and reporting",
+    "points": [
+     "The EPA monitors water quality in rivers, lakes, estuaries, groundwater and bathing waters.",
+     "It runs a national air quality network and produces a greenhouse gas inventory and projections.",
+     "Drinking water is supplied by Uisce Éireann.",
+     "The State of the Environment report is published every four years.",
+     "The EPA advises government and the public and funds environmental research.",
+     "The EPA took over radiological protection in 2014, including the control of radon."
+    ]
+   },
+   {
+    "h": "EPA enforcement",
+    "points": [
+     "Inspections check that licensed activities keep within their emission limits.",
+     "The Office of Environmental Enforcement, set up within the EPA in 2003, prosecutes polluters.",
+     "The EPA oversees the environmental work carried out by local authorities."
+    ]
+   },
+   {
+    "h": "Limits of EPA control",
+    "points": [
+     "The EPA cannot inspect everywhere.",
+     "Diffuse pollution from thousands of farms is hard to police.",
+     "Local authorities and other bodies share responsibility for environmental control."
+    ]
+   },
+   {
+    "h": "Environmental impact assessment: what it is",
+    "points": [
+     "An environmental impact assessment is a study, required before planning permission is decided for large projects, that predicts a project's effects on the environment and how to reduce them.",
+     "The developer's report was called an Environmental Impact Statement (EIS); it is now an Environmental Impact Assessment Report (EIAR)."
+    ]
+   },
+   {
+    "h": "Legal basis and projects covered",
+    "points": [
+     "The EU Environmental Impact Assessment Directive, 1985, is applied in Irish planning law.",
+     "Assessment is required for projects above set sizes, such as motorways, power stations, wind farms, mines and quarries, large intensive farms, pipelines, ports and airports."
+    ]
+   },
+   {
+    "h": "Contents of an EIAR",
+    "points": [
+     "A description of the project and of the existing environment (the baseline).",
+     "Likely effects on people, plants and animals, soil, water, air, climate, landscape, archaeology and heritage, traffic and noise.",
+     "Alternatives considered and the mitigation measures proposed to reduce effects.",
+     "A non-technical summary for the public.",
+     "The developer writes the report, often with consultants; neither the EPA nor the planning authority writes it."
+    ]
+   },
+   {
+    "h": "The EIA process",
+    "points": [
+     "1. The developer prepares the EIAR.",
+     "2. The public and bodies such as the National Parks and Wildlife Service make submissions.",
+     "3. The planning authority or An Coimisiún Pleanála decides whether to grant permission, often with conditions. The board was renamed in 2025 from An Bord Pleanála."
+    ]
+   },
+   {
+    "h": "Why environmental impact studies are necessary",
+    "points": [
+     "They prevent damage before it happens, which is cheaper than paying for clean-up afterwards.",
+     "They require developers to consider alternatives.",
+     "They give the public a say in decisions.",
+     "They are a legal requirement. At Derrybrien, Co. Galway, a peat slide on 16 October 2003 occurred during wind-farm construction; in 2019 the EU Court of Justice fined Ireland a lump sum of €5 million plus €15,000 a day because no proper environmental impact assessment had been carried out."
+    ]
+   },
+   {
+    "h": "Fish stocks: sustainable yield",
+    "points": [
+     "Fish are renewable only while catches stay below the rate at which the stock breeds and grows.",
+     "The maximum sustainable yield is the largest catch that can be taken year after year without reducing the stock."
+    ]
+   },
+   {
+    "h": "Causes of overfishing",
+    "points": [
+     "Modern technology, including sonar, satellite navigation, factory ships and huge nets, lets fleets find and take fish faster than stocks can recover.",
+     "Too many boats chase the same stock.",
+     "Subsidies keep fleets fishing when stocks are falling.",
+     "Young fish are caught before they have had the chance to breed.",
+     "Discards: dead or unwanted fish are thrown back into the sea.",
+     "Illegal fishing takes fish outside the quota system."
+    ]
+   },
+   {
+    "h": "Past experience: Grand Banks cod collapse, Newfoundland",
+    "points": [
+     "The Grand Banks, off Newfoundland, Canada, were one of the world's richest cod fisheries for centuries.",
+     "Catches rose sharply with factory trawlers from the 1960s, and the stock collapsed.",
+     "Canada declared a moratorium (ban) on northern cod fishing on 2 July 1992.",
+     "About 30,000 people in Newfoundland lost their jobs, the largest single lay-off in Canadian history.",
+     "The stock has recovered only slowly, and partly, in the decades since."
+    ]
+   },
+   {
+    "h": "Past experience: North Sea herring",
+    "points": [
+     "North Sea herring was overfished in the 1960s and 1970s.",
+     "The fishery was closed from 1977 to the early 1980s.",
+     "The stock recovered after the fishery reopened under strict quotas."
+    ]
+   },
+   {
+    "h": "Managing fish stocks: the Common Fisheries Policy",
+    "points": [
+     "The EU Common Fisheries Policy, 1983, sets total allowable catches (TACs) for each stock and divides them into national quotas.",
+     "Conservation rules include minimum mesh sizes, minimum landing sizes, closed areas and seasons, and vessel decommissioning (scrapping boats).",
+     "The CFP reform of 2013 aims to fish at maximum sustainable yield and introduces a landing obligation that ends discards, phased in from 2015 to 2019.",
+     "Monitoring uses satellite tracking, the Sea-Fisheries Protection Authority (set up in 2007) and fishery protection patrols by the Irish Naval Service.",
+     "Ireland's exclusive economic zone extends 200 nautical miles from the coast, within which these rules apply.",
+     "Further measures include marine protected areas and aquaculture as an alternative to wild catch."
+    ]
+   },
+   {
+    "h": "Fish stocks in Ireland",
+    "points": [
+     "Mackerel is the most valuable Irish catch, landed mainly at Killybegs, Co. Donegal, Ireland's largest fishing port.",
+     "Killybegs is the base of the pelagic fleet that catches mackerel and herring.",
+     "Ireland has six State Fishery Harbour Centres: Killybegs, Castletownbere, Dingle, Rossaveel, Dunmore East and Howth.",
+     "Irish fishing communities depend on these stocks, so conservation limits cause hardship (see Conflicts between economic interests and environmental interests)."
+    ]
+   },
+   {
+    "h": "Mining sites: Avoca, past experience without controls",
+    "points": [
+     "Copper mining at Avoca, Co. Wicklow, over centuries left acid mine drainage when mining ended.",
+     "The acid drainage still discolours and pollutes the Avoca River long after the mines closed."
+    ]
+   },
+   {
+    "h": "Mining sites: Tara Mines, present practice",
+    "points": [
+     "Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, producing since 1977 and owned by Boliden.",
+     "It operates under an EPA licence.",
+     "Tailings are stored in a lined tailings facility, and the water is monitored.",
+     "Restoration plans are in place for the site."
+    ]
+   },
+   {
+    "h": "Mining sites: Lisheen, rehabilitation after closure",
+    "points": [
+     "Lisheen, Co. Tipperary, a zinc and lead mine, closed in 2015 and the site has been rehabilitated.",
+     "A new mine needs an environmental impact assessment report (EIAR) and a closure and restoration plan backed by a financial bond before it opens."
+    ]
+   },
+   {
+    "h": "Peatlands: past industrial harvesting",
+    "points": [
+     "Bord na Móna, founded in 1946, carried out large-scale industrial harvesting of peat for power stations and fuel.",
+     "Harvesting removed raised bogs, released the carbon they had stored and destroyed their habitats."
+    ]
+   },
+   {
+    "h": "Peatlands: change and restoration",
+    "points": [
+     "The Lanesborough and Shannonbridge peat stations closed in December 2020, and Bord na Móna ended peat harvesting in January 2021.",
+     "Cutaway bogs are being rehabilitated and rewetted.",
+     "Lough Boora Discovery Park, Co. Offaly: a cutaway bog turned into parkland, wetlands and trails.",
+     "Bellacorick, Co. Mayo: the peat station closed in 2003 and wind farms now stand on the cutaway bog.",
+     "A just transition is needed for Midland workers who lost jobs in peat."
+    ]
+   },
+   {
+    "h": "Global past experience: the Aral Sea",
+    "points": [
+     "The Amu Darya and Syr Darya, which feed the Aral Sea in Kazakhstan and Uzbekistan, were diverted from the 1960s to irrigate cotton in the Soviet Union.",
+     "The sea shrank to a fraction of its size and split into separate lakes, and its salinity rose.",
+     "The fishing industry collapsed, and ports such as Moynaq (Uzbekistan) were left stranded far from the water.",
+     "Dust storms spread salt and pesticides from the exposed seabed, harming local health.",
+     "The Kok-Aral dam (Kazakhstan, 2005) raised the level of the small northern sea, and fishing there has partly revived."
+    ]
+   },
+   {
+    "h": "Sustainable approaches: energy",
+    "points": [
+     "Switching to renewable energy reduces the environmental impact of power generation (see Burning fossil fuels and using alternative energy sources)."
+    ]
+   },
+   {
+    "h": "Sustainable approaches: agriculture",
+    "points": [
+     "Agri-environment schemes pay farmers for conservation: REPS (Rural Environment Protection Scheme, 1994), now succeeded by ACRES.",
+     "Origin Green, Bord Bia's sustainability programme for Irish food and drink, was launched in 2012.",
+     "Nitrates rules limit the amount of nitrogen fertiliser and manure that farms can apply.",
+     "BurrenLIFE (2005 to 2010) paid Burren farmers to manage species-rich limestone grassland through winter grazing (winterage); it continued as the Burren Programme.",
+     "Results-based farming in the Burren rewards farmers for measured environmental outcomes."
+    ]
+   },
+   {
+    "h": "Sustainable approaches: forestry and tourism",
+    "points": [
+     "Forests are replanted after felling, using mixed native broadleaves.",
+     "Forests are not planted on deep peat.",
+     "Visitor limits and ecotourism reduce pressure on fragile sites.",
+     "At Skellig Michael, Co. Kerry, access is controlled through licensed boats and visitor limits."
+    ]
+   },
+   {
+    "h": "Sustainable approaches: waste",
+    "points": [
+     "Reduce, reuse and recycle, in that order of priority.",
+     "Levies and deposit schemes give people and businesses an incentive to reduce waste.",
+     "A circular economy keeps products and materials in use for as long as possible."
+    ]
+   },
+   {
+    "h": "The polluter pays in practice",
+    "points": [
+     "Irish carbon tax, introduced in 2010.",
+     "Plastic bag levy, introduced in March 2002.",
+     "Landfill levy, charged on waste sent to landfill.",
+     "EU Emissions Trading System, from 2005: companies pay for the emissions they release."
+    ]
+   },
+   {
+    "h": "Future prospects: targets",
+    "points": [
+     "The EU and Ireland aim for climate neutrality by 2050.",
+     "Ireland's Climate Act 2021 sets a 51% cut in emissions by 2030.",
+     "The Climate Action Plan sets 80% renewable electricity by 2030 and a retrofit of 500,000 homes to B2 energy rating by 2030.",
+     "Offshore wind, electric vehicles, public transport and the circular economy are the main routes to lower emissions.",
+     "Cutting agricultural emissions, restoring bogs and planting forests as carbon sinks."
+    ]
+   },
+   {
+    "h": "Future prospects: obstacles",
+    "points": [
+     "Cost: clean technology, retrofitting and rehabilitation are expensive.",
+     "Short-term economic pressure favours quick profit over long-term protection.",
+     "Jobs in traditional industries, such as peat and fishing, are at risk.",
+     "Global cooperation is needed, because pollution and climate change do not stop at borders."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Sustainable development meets the needs of the present without compromising future generations, balancing environmental protection, economic growth and social fairness. The Environmental Protection Agency controls the impact of economic activity by licensing large industries and waste facilities, setting emission limits under integrated pollution control, monitoring water, air and greenhouse gases, and enforcing licences through inspections and prosecution by the Office of Environmental Enforcement. Environmental impact assessment requires the developer to prepare an EIAR before planning permission is decided, describing the existing environment, likely effects, alternatives and mitigation measures, and the public can make submissions. Fish stocks must be fished below maximum sustainable yield. Overfishing on the Grand Banks, Newfoundland, led to a cod moratorium on 2 July 1992 and about 30,000 job losses, while North Sea herring was closed from 1977 and recovered under strict quotas. The Common Fisheries Policy sets total allowable catches, mesh sizes, closed areas and a landing obligation to end discards, and satellite monitoring, the Sea-Fisheries Protection Authority and Naval Service patrols enforce them. Mining shows the progression from control to rehabilitation: Avoca's acid mine drainage shows the damage of uncontrolled mining, Tara Mines operates under an EPA licence with a lined tailings facility and water monitoring, and Lisheen was rehabilitated after its closure in 2015, while new mines need a closure plan with a financial bond. Other activities are made more sustainable by renewable energy, agri-environment schemes such as REPS and ACRES, Origin Green, and polluter-pays measures such as the carbon tax. Future prospects include climate neutrality by 2050 and a 51% emissions cut by 2030, but cost, short-term pressure and job losses in traditional industries remain obstacles.",
+    "prompt": "Examine how economic activities can be developed sustainably in order to control their environmental impact.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The EPA was set up under the Environmental Protection Agency Act 1992, began work in 1993 and has its headquarters at Johnstown Castle, Co. Wexford. It controls environmental impact by licensing large industries and waste facilities and setting their emission limits through integrated pollution control. It monitors rivers, lakes, estuaries, groundwater, bathing waters, air quality and greenhouse gases, and it enforces licences through inspections and prosecutions, with the Office of Environmental Enforcement set up in 2003. It publishes the State of the Environment report every four years and advises government. Its limits are that it cannot be everywhere, diffuse pollution from thousands of farms is hard to police, and local authorities share responsibility. Environmental impact assessment, required under the EU directive of 1985, is needed before planning permission is decided for large projects. The developer prepares an EIAR describing the baseline environment, the likely effects, alternatives and mitigation measures, and the public and bodies such as the National Parks and Wildlife Service make submissions before the planning authority or An Coimisiún Pleanála decides. It is necessary because it prevents damage before it happens, gives the public a say and is a legal requirement. Derrybrien, Co. Galway, shows the cost of skipping it: after a peat slide on 16 October 2003 during wind-farm construction, the EU Court of Justice fined Ireland €5 million plus €15,000 a day in 2019.",
+    "prompt": "Discuss the role of the Environmental Protection Agency and of environmental impact assessment in controlling the environmental impact of economic activity.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Fish stocks are renewable only if catches stay below the maximum sustainable yield, but modern technology such as sonar, satellite navigation and factory ships, too many boats, subsidies, catching young fish before they breed, discards and illegal fishing have depleted stocks. Prevention begins with the Common Fisheries Policy, which sets total allowable catches divided into national quotas, with mesh sizes, minimum landing sizes, closed areas and seasons, and vessel decommissioning. The 2013 reform aims to fish at maximum sustainable yield and introduces a landing obligation to end discards. The Grand Banks cod collapsed after factory trawlers arrived in the 1960s, and the moratorium of 2 July 1992 cost about 30,000 jobs, showing the cost of failing to act. North Sea herring recovered after the fishery was closed from 1977 and reopened under strict quotas. In Irish waters, satellite monitoring, the Sea-Fisheries Protection Authority and Naval Service patrols enforce the rules across the 200-nautical-mile exclusive economic zone, and marine protected areas and aquaculture offer alternatives.",
+    "prompt": "Explain how the depletion of fish stocks can be prevented, with reference to examples you have studied.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-environment-s5": {
+  "keyTerms": [
+   {
+    "definition": "A person or group with an interest in a development, such as a company, a community, a government agency or an environmental group.",
+    "term": "Stakeholder"
+   },
+   {
+    "definition": "A site protected under EU law for its habitats or species, such as the raised bogs and estuaries designated in Ireland.",
+    "term": "Special Area of Conservation (SAC)"
+   },
+   {
+    "definition": "A bog that rises above the surrounding land and stores large amounts of carbon, and is rare in Europe.",
+    "term": "Raised bog"
+   },
+   {
+    "definition": "An exemption from a law for a set period, such as the ten-year period that allowed turf cutting on protected raised bogs.",
+    "term": "Derogation"
+   },
+   {
+    "definition": "A net left hanging in the water to catch fish, banned in Ireland for wild salmon at sea from 2007.",
+    "term": "Drift-net"
+   },
+   {
+    "definition": "A soft brown coal, mined in open-cast pits in Germany's Rhineland and burned to generate electricity.",
+    "term": "Lignite"
+   },
+   {
+    "definition": "Parasites from salmon farms that are blamed by anglers for harming wild salmon and sea trout.",
+    "term": "Sea lice"
+   },
+   {
+    "definition": "A visitor building that explains a site's natural or historic features, such as the one planned near Mullaghmore.",
+    "term": "Interpretative centre"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why conflicts arise",
+    "points": [
+     "Economic interests: jobs, profit, energy supply, tax revenue, regional development and infrastructure.",
+     "Environmental interests: habitats, landscape, heritage, water and air quality, health, safety and the climate.",
+     "Interests conflict at local, national and global scales: a local community may oppose a project that the State or the world supports, or the reverse."
+    ]
+   },
+   {
+    "h": "Who is involved",
+    "points": [
+     "Developers and companies, government and State agencies.",
+     "Local communities, which are often divided among themselves.",
+     "Environmental groups, farmers and fishermen, tourists, the EU and the courts."
+    ]
+   },
+   {
+    "h": "How conflicts are resolved",
+    "points": [
+     "Planning permission, with appeals to An Coimisiún Pleanála (formerly An Bord Pleanála).",
+     "Environmental impact assessment, and court cases where decisions are challenged.",
+     "EU law, such as the Habitats and Birds Directives, which protect habitats and species.",
+     "Compensation, such as payments to turf cutters or to fishermen who give up fishing.",
+     "Compromise: route changes, limits on activity, conditions attached to permission and sustainable management."
+    ]
+   },
+   {
+    "h": "Corrib gas: the economic case",
+    "points": [
+     "The Corrib gas field lies about 80 km off north-west Co. Mayo and was discovered in 1996.",
+     "Gas first flowed in December 2015 and was processed at the Bellanaboy terminal; for a time it supplied over half of Ireland's gas.",
+     "Economic arguments: energy security, a domestic gas supply, revenue for the State and the companies, and construction jobs."
+    ]
+   },
+   {
+    "h": "Corrib gas: local and environmental objections",
+    "points": [
+     "The original plan piped high-pressure, unprocessed gas onshore near homes at Rossport, creating a safety risk for residents.",
+     "The Shell to Sea campaign, from 2005, argued that the gas should be processed at sea rather than onshore.",
+     "Sruwaddacon Bay, a protected estuary (Special Area of Conservation), lay on the route of the pipeline."
+    ]
+   },
+   {
+    "h": "Corrib gas: protests, changes and outcome",
+    "points": [
+     "The Rossport Five were jailed in June 2005 for refusing to obey a court order not to obstruct pipeline work; they were released after 94 days.",
+     "Protests were policed heavily for years, and the dispute divided the local community.",
+     "The onshore route was changed to keep the pipeline further from houses, and a tunnel was bored under Sruwaddacon Bay to carry it.",
+     "Shell sold its share in the project in 2018."
+    ]
+   },
+   {
+    "h": "Irish fish stocks: fishing communities and EU quotas",
+    "points": [
+     "Killybegs, Co. Donegal, is Ireland's largest fishing port; the six State Fishery Harbour Centres are Killybegs, Castletownbere, Dingle, Rossaveel, Dunmore East and Howth.",
+     "Under the Common Fisheries Policy (1983), total allowable catches are set by the EU and divided into national quotas.",
+     "Irish fishermen have long argued that Ireland's share of the catch in its own rich waters is too small, and much of that catch is taken by other EU fleets.",
+     "Ireland's exclusive economic zone extends 200 nautical miles from the coast."
+    ]
+   },
+   {
+    "h": "Irish fish stocks: Brexit and decommissioning",
+    "points": [
+     "The EU–UK Brexit trade agreement (December 2020) reduced Irish quotas.",
+     "A scheme paid vessel owners to decommission (scrap) their boats."
+    ]
+   },
+   {
+    "h": "Irish fish stocks: the wild salmon drift-net ban",
+    "points": [
+     "Ireland banned drift-net fishing for wild salmon at sea from 2007, because wild salmon returning to Irish rivers had fallen sharply.",
+     "Commercial salmon fishermen received compensation.",
+     "Anglers and conservation groups supported the ban, because wild salmon sustain angling tourism."
+    ]
+   },
+   {
+    "h": "Irish fish stocks: mackerel dispute and fish farming",
+    "points": [
+     "From 2010 Iceland and the Faroe Islands set large mackerel quotas as mackerel moved north-west into their waters.",
+     "The EU, with strong support from Irish fishermen, protested and imposed trade measures on the Faroe Islands in 2013; the dispute eased in 2014.",
+     "Salmon farms in western bays: anglers blame sea lice from the farms for harming wild salmon and sea trout."
+    ]
+   },
+   {
+    "h": "Mullaghmore, the Burren: the proposed visitor centre",
+    "points": [
+     "The Burren, Co. Clare, has Carboniferous limestone pavement, with rare Arctic-alpine and Mediterranean plants growing side by side, such as spring gentian and mountain avens.",
+     "Mullaghmore is a hill of folded, terraced limestone; the Burren National Park protects the area near it.",
+     "In the early 1990s the Office of Public Works (OPW) began building an interpretative centre and car park near Mullaghmore."
+    ]
+   },
+   {
+    "h": "Mullaghmore: the two sides",
+    "points": [
+     "Supporters: tourism jobs and visitor spending in a poor rural area, and better visitor management.",
+     "The Burren Action Group: traffic, sewage and visitor pressure would damage a fragile, unspoilt landscape, and any centre should be in nearby villages."
+    ]
+   },
+   {
+    "h": "Mullaghmore: legal challenge and outcome",
+    "points": [
+     "In 1993 the Supreme Court ruled that the State had to obtain planning permission like any other developer, and work stopped.",
+     "In 2000 An Bord Pleanála refused permission, and the partly built site was cleared and restored."
+    ]
+   },
+   {
+    "h": "Skellig Michael: heritage and its setting",
+    "points": [
+     "Skellig Michael, about 12 km off the Iveragh Peninsula, Co. Kerry, has an early Christian monastery of stone beehive huts on a steep rocky island.",
+     "It has been a UNESCO World Heritage Site since 1996 and is managed by the OPW.",
+     "Seabirds, including puffins, Manx shearwaters and storm petrels, breed on the island; Little Skellig holds one of the world's largest gannet colonies."
+    ]
+   },
+   {
+    "h": "Skellig Michael: tourism pressures and management",
+    "points": [
+     "Filming for the Star Wars films (from 2014) greatly increased demand for visits.",
+     "Boat operators and local businesses want more access; conservationists object to the filming and to rising visitor numbers.",
+     "Access is only by licensed boats in summer, with visitor numbers capped at about 180 a day; landings depend on the weather.",
+     "Steep steps and the weather make landing a safety issue."
+    ]
+   },
+   {
+    "h": "Hill of Tara: heritage",
+    "points": [
+     "The Hill of Tara, Co. Meath, is an ancient ceremonial site and the traditional seat of the High Kings of Ireland.",
+     "The Tara–Skryne valley around the hill is an archaeological landscape; excavation along the planned road route found dozens of sites."
+    ]
+   },
+   {
+    "h": "M3 motorway: the economic case",
+    "points": [
+     "The M3 runs from Clonee to north of Kells, relieving congestion on the N3 for the fast-growing commuter towns of Meath, such as Navan and Kells.",
+     "It cuts journey times to Dublin.",
+     "The route passes through the Tara–Skryne valley, about 2 km from the Hill of Tara."
+    ]
+   },
+   {
+    "h": "M3 and the Hill of Tara: objections and outcome",
+    "points": [
+     "Campaign groups, archaeologists and protesters camped on the route argued that the road would destroy an archaeological landscape.",
+     "In 2007 a large prehistoric ceremonial enclosure was found at Lismullin and declared a national monument; it was excavated and recorded, and then the road was built over it.",
+     "The M3 opened in 2010."
+    ]
+   },
+   {
+    "h": "Turf cutting on protected raised bogs: the conflict",
+    "points": [
+     "Turf cutting gives rural families a traditional right and a cheap source of fuel.",
+     "Raised bogs are rare in Europe and store large amounts of carbon; Ireland holds a large share of the EU's remaining active raised bog.",
+     "The EU Habitats Directive (1992) required Ireland to designate raised bogs as Special Areas of Conservation (SACs)."
+    ]
+   },
+   {
+    "h": "Turf cutting on protected raised bogs: ban, compensation and protest",
+    "points": [
+     "After a ten-year derogation ended, turf cutting was banned on 53 raised-bog SACs from 2011.",
+     "Compensation: about €1,500 a year for 15 years per turf cutter, or relocation to a bog that is not protected.",
+     "The Turf Cutters and Contractors Association organised protests, and some cutting continued on some bogs."
+    ]
+   },
+   {
+    "h": "Wind farms: renewables against local interests",
+    "points": [
+     "Economic and renewable case: renewable energy targets, income for landowners and community funds.",
+     "Local objections: visual impact, noise, shadow flicker, falling property values, effects on birds, and peat stability.",
+     "Derrybrien, Slieve Aughty Mountains, Co. Galway: a peat slide of about 450,000 m³ on 16 October 2003, during wind-farm construction, killed fish in the Owendalulleegh River.",
+     "In 2019 the EU Court of Justice fined Ireland €5 million plus €15,000 a day because no proper environmental impact assessment had been carried out.",
+     "Offshore wind: the Climate Action Plan sets at least 5 GW of offshore wind, which can conflict with fishing grounds and seascapes."
+    ]
+   },
+   {
+    "h": "Dairy expansion, water and climate",
+    "points": [
+     "Milk quotas were abolished on 1 April 2015, and the dairy herd grew strongly afterwards.",
+     "Economic case: farm incomes and food exports.",
+     "Environmental case: nitrates reaching water damage water quality; agriculture produces over a third of Ireland's greenhouse gas emissions.",
+     "EPA (2016–2021): only about half of Irish rivers, lakes and estuaries were in good or high ecological status, with agriculture the main pressure.",
+     "Sectoral ceilings (2022) require agriculture to cut emissions by 25% by 2030."
+    ]
+   },
+   {
+    "h": "Data centres and electricity",
+    "points": [
+     "Economic case: investment, multinational jobs and Ireland's technology economy.",
+     "Data centres used about a fifth of Ireland's metered electricity in 2023 (CSO), and most are in the Dublin region.",
+     "Environmental and grid case: huge electricity demand strains the grid and works against climate targets.",
+     "In 2022 EirGrid said it would not connect new data centres in the Dublin area until about 2028, because the grid could not supply them."
+    ]
+   },
+   {
+    "h": "Amazon rainforest: economic drivers",
+    "points": [
+     "The Amazon is the world's largest tropical rainforest, with about 60% of it in Brazil.",
+     "Cattle ranching is the main driver of clearing, and most cleared land becomes pasture; soya farming spreads in the south.",
+     "Logging removes timber from the forest.",
+     "The Trans-Amazonian Highway, begun in 1970, opened the forest to settlers; clearings along the roads form a fishbone pattern, as in Rondônia.",
+     "Carajás, Pará, has the world's largest iron-ore mine, run by Vale.",
+     "The Belo Monte dam on the Xingu River, completed in 2019, was opposed by indigenous groups including the Kayapó."
+    ]
+   },
+   {
+    "h": "Amazon rainforest: environmental and global interests",
+    "points": [
+     "The forest holds biodiversity, stores large amounts of carbon, recycles rainfall and is home to indigenous peoples.",
+     "Global interest: clearing the forest releases carbon that adds to climate change, while Brazil's development needs drive clearing."
+    ]
+   },
+   {
+    "h": "Amazon rainforest: deforestation trend",
+    "points": [
+     "Satellite monitoring by PRODES: about 27,800 km² of the Brazilian Amazon was cleared in 2004.",
+     "Clearing was cut by over 80%, to about 4,600 km², by 2012.",
+     "Clearing rose again to about 13,000 km² in 2021."
+    ]
+   },
+   {
+    "h": "Amazon rainforest: protection measures and policy swings",
+    "points": [
+     "Brazil's Forest Code requires landowners in the Amazon to keep 80% of their land as forest, though this is often not enforced.",
+     "The soy moratorium of 2006: major traders agreed not to buy soya from newly cleared Amazon land.",
+     "The Amazon Fund of 2008: donors, mainly Norway and also Germany, pay for reduced deforestation.",
+     "Deforestation rose under President Bolsonaro (2019–2022) and fell under President Lula (2003–2010, and again from 2023)."
+    ]
+   },
+   {
+    "h": "Amazon rainforest: people in conflict",
+    "points": [
+     "Chico Mendes, a rubber tapper and union leader who campaigned to protect the forest, was murdered at Xapuri, Acre, on 22 December 1988.",
+     "His murder shows that the conflict over clearing was one between people, not only between economic and environmental interests."
+    ]
+   },
+   {
+    "h": "Lignite mining in Germany: the Hambach Forest",
+    "points": [
+     "RWE's Hambach open-cast lignite mine in North Rhine-Westphalia expands into the ancient Hambach Forest.",
+     "Economic side: the mine supplies power and jobs in the Rhineland. Environmental side: the forest, the villages and the carbon released by burning lignite.",
+     "Protesters occupied tree houses in the forest for years; in October 2018 a German court halted the clearing.",
+     "The remaining forest was later spared under the coal phase-out."
+    ]
+   },
+   {
+    "h": "Lignite mining in Germany: Lützerath and the coal phase-out",
+    "points": [
+     "The village of Lützerath was cleared of protesters in January 2023 to extend the Garzweiler lignite mine.",
+     "Germany's 2020 law ends coal-fired power by 2038 at the latest."
+    ]
+   },
+   {
+    "h": "Three Gorges Dam, China: benefits",
+    "points": [
+     "The Three Gorges Dam on the Yangtze River is the world's largest power station by installed capacity.",
+     "It provides clean electricity, flood control downstream and improved navigation.",
+     "The dam was completed in 2006 and became fully operational in 2012."
+    ]
+   },
+   {
+    "h": "Three Gorges Dam, China: costs",
+    "points": [
+     "Over one million people were relocated.",
+     "Farmland, towns and archaeological sites were flooded by the reservoir.",
+     "The dam traps sediment that would otherwise reach the river downstream, and the ecology of the river has changed."
+    ]
+   },
+   {
+    "h": "Global versus local interests in climate policy",
+    "points": [
+     "Developing countries argue for their right to develop with cheap energy, while the global need is to cut emissions.",
+     "Fossil-fuel exporting countries protect their revenue from coal, oil and gas.",
+     "Belém, Pará, hosted the COP30 climate conference in November 2025."
+    ]
+   },
+   {
+    "h": "Map-based question: locating a development",
+    "points": [
+     "Identify the development and the features of the site it needs, such as a wind farm on high ground with open views, or a quarry close to a village.",
+     "Read the map for relevant features: contour lines for height, settlements, roads for access, rivers, and protected areas.",
+     "Identify the groups for and against: developers and landowners usually support a site, while residents, environmental groups and tourism businesses may object.",
+     "Conflict arises when a site serves one group's interests while threatening another group's interests; give the reasons for each side."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Corrib gas, Co. Mayo: the economic case was a domestic gas supply from the field about 80 km off north-west Co. Mayo, which for a time supplied over half of Ireland's gas, with revenue and construction jobs. The local and environmental case objected to piping high-pressure, unprocessed gas onshore near homes at Rossport, and to the risk to Sruwaddacon Bay, a protected estuary. The Shell to Sea campaign from 2005 argued the gas should be processed at sea. The Rossport Five were jailed in June 2005 for defying a court order and were released after 94 days, and protests were heavily policed for years, dividing the community. The onshore route was changed and a tunnel was bored under Sruwaddacon Bay; gas first flowed in December 2015, and Shell sold its share in 2018. Irish fish stocks: fishing communities at ports such as Killybegs depend on quotas set under the Common Fisheries Policy, and Irish fishermen argue Ireland's share of its own rich waters is too small. Brexit reduced Irish quotas and led to vessel decommissioning. Conservation measures, such as the 2007 ban on wild salmon drift-netting, cost commercial fishermen compensation, while anglers and conservationists supported it. The mackerel dispute with Iceland and the Faroe Islands led to trade measures against the Faroes in 2013, and sea lice from salmon farms harm wild salmon and sea trout.",
+    "prompt": "Discuss how conflict may develop between economic interests and environmental interests, with reference to two examples that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The Amazon rainforest, Brazil. Economic drivers include cattle ranching, which is the main cause of clearing, soya farming in the south, logging, the Carajás iron-ore mine run by Vale, the Belo Monte dam on the Xingu River completed in 2019, and the Trans-Amazonian Highway begun in 1970, which opened the forest to settlers and created the fishbone pattern of clearings seen in Rondônia. Environmental interests include biodiversity, the carbon the forest stores, rainfall recycling and the land of indigenous peoples such as the Kayapó, who opposed Belo Monte. Deforestation in the Brazilian Amazon, measured by PRODES, was about 27,800 km² in 2004, was cut by over 80% to about 4,600 km² by 2012, and rose again to about 13,000 km² in 2021. Protection measures include Brazil's Forest Code requiring 80% forest on Amazon landholdings, though often not enforced, the soy moratorium of 2006, the Amazon Fund of 2008 paid for mainly by Norway and also Germany, and indigenous reserves. Policy has swung with the government: clearing rose under President Bolsonaro (2019–2022) and fell under President Lula. Chico Mendes, a rubber tapper and union leader who campaigned to protect the forest, was murdered at Xapuri, Acre, on 22 December 1988, showing how the conflict was fought between people.",
+    "prompt": "Examine one global example of conflict between economic development and environmental interests.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Mullaghmore, the Burren, Co. Clare: the Office of Public Works began building an interpretative centre and car park near Mullaghmore in the early 1990s. Supporters argued that tourism would bring jobs and spending to a poor rural area and allow better visitor management. The Burren Action Group argued that traffic, sewage and visitor pressure would damage the fragile limestone landscape with its rare Arctic-alpine and Mediterranean plants, and that any centre should be in nearby villages. The conflict between people became a legal one: in 1993 the Supreme Court ruled that the State needed planning permission like any other developer, and work stopped. In 2000 An Bord Pleanála refused permission, and the partly built site was cleared and restored.",
+    "prompt": "(i) Name one example of how the development of economic activities has resulted in conflict between people. (ii) Describe and explain this conflict.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-economic-eu-s1": {
   "keyTerms": [
    {
