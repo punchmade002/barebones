@@ -362,6 +362,1068 @@
    }
   ]
  },
+ "geo-economic-activities-s1": {
+  "keyTerms": [
+   {
+    "definition": "Economic activity that extracts raw materials from nature, such as farming, fishing, forestry and mining.",
+    "term": "Primary sector"
+   },
+   {
+    "definition": "Economic activity that processes raw materials or assembles components into goods, including construction.",
+    "term": "Secondary sector"
+   },
+   {
+    "definition": "Economic activity that provides services, such as banking, tourism, teaching and transport.",
+    "term": "Tertiary sector"
+   },
+   {
+    "definition": "Farming that rears livestock, such as beef and dairy cattle, sheep and pigs.",
+    "term": "Pastoral farming"
+   },
+   {
+    "definition": "Arable farming that grows crops, such as barley, wheat, oats and potatoes.",
+    "term": "Tillage"
+   },
+   {
+    "definition": "Investment by a foreign company that sets up or expands plants or offices in Ireland.",
+    "term": "Foreign direct investment (FDI)"
+   },
+   {
+    "definition": "An economy with a highly productive foreign-owned sector beside a smaller, less productive Irish-owned sector.",
+    "term": "Dual economy"
+   },
+   {
+    "definition": "An industry not tied to one location by raw materials or power, so it can locate almost anywhere.",
+    "term": "Footloose industry"
+   },
+   {
+    "definition": "The advantage firms gain by clustering near each other, sharing skills and suppliers.",
+    "term": "Agglomeration"
+   },
+   {
+    "definition": "The International Financial Services Centre, set up in Dublin in 1987 on the derelict Custom House Docks.",
+    "term": "IFSC"
+   },
+   {
+    "definition": "The long-term fall in the number of firms and jobs in a traditional industry or region.",
+    "term": "Industrial decline"
+   },
+   {
+    "definition": "Building in a continuous strip along a coastline or road, typical of coastal resorts.",
+    "term": "Ribbon development"
+   },
+   {
+    "definition": "Protest against so many visitors that local residents, housing and services are placed under pressure.",
+    "term": "Overtourism"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Economic activities are grouped into three sectors by what they do with raw materials or with people's needs.",
+    "h": "Primary, secondary and tertiary activity",
+    "points": [
+     "Primary: extracting raw materials from nature, such as farming, fishing, forestry, mining, quarrying and energy extraction.",
+     "Secondary: processing raw materials or assembling components into goods, such as manufacturing, food processing and construction.",
+     "Tertiary: services, such as retail, banking, tourism, teaching, health, transport and IT.",
+     "Classifying jobs: a miner or forester is primary; a builder is secondary, because construction is secondary; a teacher, banker or tour guide is tertiary.",
+     "Some writers add a quaternary sector for research and information, but the three-sector model is used here."
+    ]
+   },
+   {
+    "h": "Sectoral change as an economy develops",
+    "points": [
+     "As an economy develops, employment moves from primary to secondary and then to tertiary activity.",
+     "Services employ about three-quarters of Irish workers (2020s); agriculture, forestry and fishing employ about 4–5%.",
+     "Census 2022 counted a State population of about 5.1 million; the CSO Labour Force Survey (2024) recorded over 2.7 million people in employment.",
+     "In a developing economy, by contrast, primary employment is high (see the Economic Development notes)."
+    ]
+   },
+   {
+    "h": "Protection, 1930s to 1950s",
+    "points": [
+     "The Control of Manufactures Acts, 1932 and 1934, restricted foreign ownership of Irish firms.",
+     "High tariffs protected small Irish firms serving the home market, so they had little pressure to become efficient or to export.",
+     "The 1950s brought high unemployment and heavy emigration."
+    ]
+   },
+   {
+    "h": "Free trade and foreign investment, 1949 to 1973",
+    "points": [
+     "The Industrial Development Authority (IDA) was set up in 1949 to attract industry.",
+     "Export Profits Tax Relief, 1956, removed tax on profits from exports.",
+     "T.K. Whitaker's Economic Development and the First Programme for Economic Expansion (1958) set the policy of free trade, foreign investment and export-led growth, carried out under Seán Lemass as Taoiseach from 1959.",
+     "The Anglo-Irish Free Trade Agreement (1965) reduced trade barriers with Britain.",
+     "Ireland joined the EEC on 1 January 1973, together with the UK and Denmark."
+    ]
+   },
+   {
+    "h": "Education and a growing skilled workforce",
+    "points": [
+     "Free second-level education was announced in 1966 by Donogh O'Malley and introduced in 1967.",
+     "A better-educated workforce made Ireland attractive to firms that needed skilled labour in the decades that followed.",
+     "The IDA became an independent agency under the Industrial Development Act 1969."
+    ]
+   },
+   {
+    "h": "Single Market, euro and corporation tax",
+    "points": [
+     "The EU Single Market began in 1993, giving Irish firms and foreign investors access to the wider EU market.",
+     "The euro was adopted in 1999, with notes and coins introduced in 2002.",
+     "Corporation tax on trading profits was 12.5% from 2003.",
+     "From 2024 very large multinational groups (global turnover over €750 million) pay a 15% minimum rate under the OECD agreement."
+    ]
+   },
+   {
+    "h": "The Celtic Tiger, mid-1990s to 2007",
+    "points": [
+     "Rapid growth from the mid-1990s to 2007 was driven first by exports and foreign direct investment, especially from US technology and pharmaceutical firms.",
+     "A property and construction boom added to growth later in the period.",
+     "Unemployment fell to about 4–5% by the mid-2000s.",
+     "Net immigration replaced emigration, with large inflows from the new EU states after the 2004 enlargement."
+    ]
+   },
+   {
+    "h": "The banking collapse, 2007 to 2009",
+    "points": [
+     "The property bubble burst in 2007–2008, leaving banks with large bad loans secured on property.",
+     "On 30 September 2008 the government guaranteed Irish bank liabilities.",
+     "Anglo Irish Bank was nationalised in January 2009.",
+     "The National Asset Management Agency (NAMA), set up in 2009, took over property loans from the banks."
+    ]
+   },
+   {
+    "h": "EU–IMF programme and public debt, 2010 to 2013",
+    "points": [
+     "An EU–IMF programme was agreed in November 2010, providing €67.5 billion in external loans.",
+     "Ireland left the programme in December 2013.",
+     "Unemployment peaked at about 16% in early 2012; net emigration resumed from 2009 to 2014.",
+     "Government debt peaked at about 120% of GDP in 2012: the state borrowed to rescue the banks while its tax base collapsed with the economy."
+    ]
+   },
+   {
+    "h": "Recovery and near-full employment",
+    "points": [
+     "Unemployment was about 4–5% in 2023–2024, near full employment.",
+     "Budget surpluses in the 2020s came largely from corporation tax paid by a small number of large multinationals, so public finances depend on them."
+    ]
+   },
+   {
+    "h": "Benefits of high employment",
+    "points": [
+     "Employed people pay income tax, and their spending pays VAT, so tax revenue rises.",
+     "Welfare spending falls because fewer people need unemployment payments.",
+     "Consumer spending by employed people supports jobs in other sectors.",
+     "Less emigration keeps skilled people in the economy.",
+     "Government revenue can pay for investment in infrastructure and services."
+    ]
+   },
+   {
+    "h": "Multinational profits and GDP",
+    "points": [
+     "In 2015 Irish GDP grew by about 26% after multinationals moved intellectual property assets to Ireland; the effect was nicknamed 'leprechaun economics'.",
+     "Because GDP is inflated by these profits, the CSO introduced modified gross national income (GNI*) in 2017 to strip out their effects."
+    ]
+   },
+   {
+    "h": "Agriculture: livestock and tillage",
+    "points": [
+     "The Census of Agriculture 2020 counted about 135,000 farms, averaging about 33 hectares.",
+     "Grass grows for most of the year because winters are mild and rain is reliable, so grass-based livestock farming dominates.",
+     "Pastoral farming is livestock farming: beef and dairy cattle, sheep and pigs. The national cattle herd is about 7 million (2020s).",
+     "Arable (tillage) farming grows crops: barley is the largest tillage crop, with wheat, oats and potatoes also grown.",
+     "Tillage is concentrated in the south and east, in Counties Wexford, Carlow, Kildare, Meath and Cork."
+    ]
+   },
+   {
+    "h": "Dairy and beef: exports and environmental costs",
+    "points": [
+     "EU milk quotas ended on 1 April 2015, and dairy cow numbers and milk output rose strongly afterwards.",
+     "About 90% of Irish beef and dairy output is exported (Bord Bia, 2020s).",
+     "A large cattle herd brings exports, food-processing jobs and incomes to rural areas.",
+     "Agriculture is the largest single source of Ireland's greenhouse gas emissions, about 38% (EPA, 2022 data), with methane from livestock a main part of this.",
+     "Nitrate and phosphate runoff from fields pollutes rivers and lakes, and livestock release ammonia."
+    ]
+   },
+   {
+    "h": "Agri-food and drink",
+    "points": [
+     "Kerrygold butter is exported by Ornua, the dairy co-operatives' export company; the brand was launched in 1962.",
+     "Kerry Group (headquarters Tralee, Co. Kerry) and Glanbia (headquarters Kilkenny) are major food companies.",
+     "Tayto crisps were first made in 1954 by Joe 'Spud' Murphy.",
+     "Bord Bia, the Irish food board, promotes Irish food.",
+     "Guinness is made at St James's Gate Brewery, Dublin, a site dating from 1759.",
+     "Jameson Irish whiskey is made at Midleton Distillery, Co. Cork; its producer, Irish Distillers, is owned by Pernod Ricard.",
+     "Baileys Irish Cream was launched in 1974."
+    ]
+   },
+   {
+    "h": "Fishing: advantages and harbours",
+    "points": [
+     "Ireland has a long, indented coastline with sheltered harbours and a wide continental shelf.",
+     "Plankton-rich waters and the North Atlantic Drift support productive stocks, especially pelagic (surface-swimming) fish such as mackerel.",
+     "Six State Fishery Harbour Centres: Killybegs (Co. Donegal), Castletownbere (Co. Cork), Dingle (Co. Kerry), Rossaveel (Co. Galway), Dunmore East (Co. Waterford) and Howth (Co. Dublin).",
+     "Killybegs is Ireland's largest fishing port and lands mainly pelagic fish.",
+     "Bord Iascaigh Mhara (BIM) is the Irish sea fisheries board."
+    ]
+   },
+   {
+    "h": "Fishing: quotas and value to the economy",
+    "points": [
+     "The EU Common Fisheries Policy (1983) sets fishing quotas for member states.",
+     "The 2020 EU–UK Brexit trade agreement reduced Irish quotas.",
+     "Mackerel is the most valuable species landed in Ireland.",
+     "Fishing earns export income, provides jobs in remote coastal communities and supports fish processing."
+    ]
+   },
+   {
+    "h": "Forestry and wood processing",
+    "points": [
+     "Forest cover is about 11% (2020s), among the lowest in the EU.",
+     "Coillte, the State forestry company, was set up in 1988; Sitka spruce is the main plantation tree.",
+     "Wood processing employs few people because the forest area is small, plantations are young, sawmills and board mills are highly mechanised, and timber is partly exported unprocessed.",
+     "Coillte's board mills are Medite, making MDF at Clonmel, Co. Tipperary, and SmartPly, making oriented strand board at Belview, Co. Kilkenny, on Waterford Port."
+    ]
+   },
+   {
+    "h": "Mining and energy extraction",
+    "points": [
+     "Tara Mines, Navan, Co. Meath, is Europe's largest zinc mine and has produced since 1977; it is owned by Boliden.",
+     "The Corrib gas field off Co. Mayo first flowed in December 2015.",
+     "ESB's peat-fired power stations at Shannonbridge (West Offaly) and Lanesborough (Lough Ree) closed in December 2020.",
+     "Bord na Móna's peat harvesting for electricity has ended."
+    ]
+   },
+   {
+    "h": "Foreign direct investment and manufacturing",
+    "points": [
+     "Foreign direct investment (FDI) is investment by foreign companies that set up or expand plants and offices in Ireland.",
+     "IDA client companies, mostly foreign-owned, employ about 300,000 people (2023).",
+     "Low corporation tax, IDA grants and serviced sites attract firms to Ireland.",
+     "A young, educated, English-speaking workforce gives firms access to skilled labour.",
+     "Access to the EU single market and clusters of similar firms add to the attraction.",
+     "Ireland's time zone, between the USA and Asia, suits firms that serve both."
+    ]
+   },
+   {
+    "h": "Pharmaceuticals and chemicals",
+    "points": [
+     "Cork Harbour, especially Ringaskiddy and Little Island, is one of the world's largest concentrations of pharmaceutical and chemical plants.",
+     "Pfizer, Janssen (Johnson & Johnson) and Novartis have plants at Ringaskiddy; Eli Lilly is at Kinsale, Co. Cork; Pfizer also has a site at Grange Castle, Clondalkin, Dublin.",
+     "Pharmaceuticals and chemicals are Ireland's largest goods exports, about half or more of the total (2020s)."
+    ]
+   },
+   {
+    "h": "Medical devices and ICT",
+    "points": [
+     "Galway is one of Europe's leading medical-technology clusters: Boston Scientific opened there in 1994 and Medtronic is at Parkmore.",
+     "Intel at Leixlip, Co. Kildare, opened in 1989 and is Ireland's largest private-sector investment, worth billions of euro.",
+     "Fab 34 at Leixlip opened in 2023 and makes advanced chips using extreme ultraviolet (EUV) lithography.",
+     "Apple's European headquarters at Hollyhill, Cork, opened in 1980 and employs about 6,000 staff (2020s)."
+    ]
+   },
+   {
+    "h": "Indigenous industry and Enterprise Ireland",
+    "points": [
+     "Enterprise Ireland, set up in 1998, supports Irish-owned firms.",
+     "Irish-founded firms that grew into multinationals include CRH (building materials) and Smurfit Kappa (paper packaging), which merged with WestRock in 2024 as Smurfit Westrock.",
+     "Ryanair, an Irish-founded airline, is a tertiary firm.",
+     "Ireland has a dual economy: a highly productive foreign-owned sector sits beside a smaller, lower-productivity Irish-owned sector."
+    ]
+   },
+   {
+    "h": "Challenges facing Irish industry",
+    "points": [
+     "Dependence on a few large US multinationals means that a single firm's decisions can change output and jobs.",
+     "The 15% global minimum tax for very large groups (see the Single Market, euro and corporation tax block) reduces the advantage of Ireland's low rate.",
+     "In September 2024 the EU Court of Justice ruled that Apple must pay Ireland about €13 billion plus interest in back taxes; the case had been begun by the European Commission in 2016.",
+     "US trade and tax policy changes: the USA raised tariffs on EU goods in 2025.",
+     "Brexit: the UK left the EU on 31 January 2020 and the transition ended on 31 December 2020, changing trade, supply chains and access to the UK market.",
+     "High housing and living costs make it hard to attract staff.",
+     "Electricity grid and water constraints, and high energy costs, limit expansion.",
+     "Competition from lower-cost countries."
+    ]
+   },
+   {
+    "b": "A footloose industry is not tied to a location by raw materials or power, so it can locate almost anywhere.",
+    "h": "Footloose industry",
+    "points": [
+     "Footloose firms choose places with skilled labour, good communications, quality of life and government incentives.",
+     "Services such as software, internet and data processing are the most footloose."
+    ]
+   },
+   {
+    "h": "Dublin and Silicon Docks",
+    "points": [
+     "Silicon Docks is the Grand Canal Dock area, south of the River Liffey, where digital firms cluster.",
+     "Microsoft has been in Ireland since 1985; Google has had its European headquarters in Dublin since 2003, at Barrow Street on Grand Canal Dock.",
+     "Meta (Facebook), LinkedIn and Salesforce also have large Dublin offices.",
+     "The Dublin Docklands Development Authority, set up in 1997, was created to plan and regenerate the docklands."
+    ]
+   },
+   {
+    "h": "Why the Dublin region clusters service firms",
+    "points": [
+     "Skilled graduates come from Trinity College Dublin, UCD, DCU, TU Dublin and Maynooth University.",
+     "Firms recruit staff from across the EU for offices serving Europe.",
+     "Dublin Airport, with over 30 million passengers a year (2023), and fibre connectivity link the region to the world.",
+     "A low tax rate and government incentives attract firms.",
+     "Agglomeration: firms gain from being close to each other, sharing skills and suppliers, so one firm attracts others."
+    ]
+   },
+   {
+    "h": "Effects of the Dublin service cluster",
+    "points": [
+     "The cluster provides high-paid jobs in offices and related services.",
+     "Demand for offices and housing has pushed rents up.",
+     "The concentration of firms and workers adds to congestion in Dublin."
+    ]
+   },
+   {
+    "h": "Data centres",
+    "points": [
+     "Data centres used about a fifth (about 21%) of Ireland's metered electricity in 2023 (CSO), and most are in the Dublin region.",
+     "A cool climate reduces cooling costs; fibre links connect them to global networks; firms cluster near each other; and tax is favourable.",
+     "The problem is electricity demand: EirGrid stated in 2022 that it would not connect new data centres in the Dublin region until about 2028."
+    ]
+   },
+   {
+    "h": "Shannon Free Zone and aircraft leasing",
+    "points": [
+     "Brendan O'Regan opened the world's first duty-free airport shop at Shannon in 1947.",
+     "The Shannon Free Airport Development Company (SFADCo) was set up in 1959, and the Shannon Free Zone that year offered firms tax relief and duty-free import of components.",
+     "Aircraft leasing grew from Shannon after Guinness Peat Aviation (GPA) was founded there in 1975 by Tony Ryan, who co-founded Ryanair in the 1980s.",
+     "Ireland now manages about half of the world's leased commercial aircraft (2020s, approximately)."
+    ]
+   },
+   {
+    "b": "Silicon Valley is the original region of footloose high-technology and service industry.",
+    "h": "Silicon Valley, California",
+    "points": [
+     "It covers the Santa Clara Valley and the southern San Francisco Bay Area; the name comes from the silicon used in microchips.",
+     "Stanford University at Palo Alto encouraged spin-off firms and set up Stanford Research Park in 1951.",
+     "Hewlett-Packard was founded in a Palo Alto garage in 1939; Intel was founded in Santa Clara in 1968.",
+     "Apple is based in Cupertino and Google in Mountain View.",
+     "Problems: very high house prices and rents, traffic congestion, and homelessness alongside great wealth."
+    ]
+   },
+   {
+    "b": "Financial services are a highly footloose, high-value tertiary activity.",
+    "h": "Financial services defined",
+    "points": [
+     "They include banking, insurance, fund administration, asset management, aircraft leasing, payments and fintech."
+    ]
+   },
+   {
+    "h": "IFSC: origins and reasons, Dublin 1987",
+    "points": [
+     "The International Financial Services Centre (IFSC) was set up in 1987 by the Charles Haughey government on the derelict Custom House Docks, on the north bank of the Liffey.",
+     "Approved firms paid a 10% corporation tax rate, later replaced by the 12.5% national rate.",
+     "Firms were attracted by the low tax rate, government incentives, an educated English-speaking workforce, EU access, the time zone, and the chance to regenerate a declining dock area."
+    ]
+   },
+   {
+    "h": "IFSC: growth and effects",
+    "points": [
+     "The IFSC became one of the world's largest centres for investment funds; Irish-domiciled funds held over €3 trillion in assets (2020s, Central Bank of Ireland).",
+     "Aircraft leasing is a second specialism, described in the Shannon Free Zone and aircraft leasing block.",
+     "Effects: high-value jobs and the regeneration of the north docklands, served by the Luas Red Line from 2004, with new housing nearby."
+    ]
+   },
+   {
+    "h": "Risks and Brexit",
+    "points": [
+     "The 2008 banking crisis damaged confidence in Irish finance, and the Central Bank of Ireland regulates the sector.",
+     "After the 2016 Brexit vote, Bank of America and Barclays moved their main EU operations to Dublin, an opportunity for Ireland."
+    ]
+   },
+   {
+    "h": "Comparison: the City of London",
+    "points": [
+     "The City of London (the Square Mile) was deregulated by the 'Big Bang' of the London Stock Exchange in October 1986.",
+     "Canary Wharf, built on derelict London docks from the late 1980s, became a second financial district.",
+     "After Brexit, some banks moved EU operations from London to Dublin, Frankfurt and Paris."
+    ]
+   },
+   {
+    "h": "Factors influencing tourism development",
+    "points": [
+     "Physical attractions: climate, coast, scenery, mountains and lakes.",
+     "Cultural and historic attractions: heritage sites, language, music, festivals and sport.",
+     "Access: airports, ports, roads and low-cost airlines.",
+     "Accommodation and services, and marketing by government agencies.",
+     "Cost and exchange rates, and safety and political stability."
+    ]
+   },
+   {
+    "h": "Tourism's importance to Ireland",
+    "points": [
+     "About 11 million overseas visits were made to the Republic of Ireland in 2019 (CSO).",
+     "Tourism supported about a quarter of a million jobs in 2019 (industry estimate).",
+     "Britain, the USA and continental Europe (Germany, France) are the main source markets.",
+     "Fáilte Ireland, set up in 2003, develops tourism in the Republic; Tourism Ireland, an all-island marketing body created under the Good Friday Agreement (1998), markets the island abroad.",
+     "The Wild Atlantic Way, launched in 2014, runs about 2,500 km from Inishowen to Kinsale; Ireland's Ancient East was launched in 2015."
+    ]
+   },
+   {
+    "h": "Tourism shock: COVID-19, 2020 to 2021",
+    "points": [
+     "Overseas visits collapsed in 2020–2021 during COVID-19 travel restrictions.",
+     "Job losses, closed hotels and lost revenue hit remote areas that depend on visitors."
+    ]
+   },
+   {
+    "h": "Airports and ports",
+    "points": [
+     "International airports: Dublin, Shannon, Cork, Ireland West Airport Knock (opened 1986) and Kerry Airport at Farranfore.",
+     "Ferry ports: Dublin Port (to Holyhead), Rosslare Europort (to Fishguard and Pembroke, and since Brexit more direct routes to France) and Port of Cork at Ringaskiddy (to Roscoff, France).",
+     "Ryanair, Europe's largest airline by passengers (2020s), is headquartered in Swords, Co. Dublin."
+    ]
+   },
+   {
+    "h": "Why the east coast attracts most visitors",
+    "points": [
+     "Dublin Airport and Dublin Port are the main entry points for overseas visitors.",
+     "Dublin is the capital, with the most attractions, hotels and events.",
+     "Short trips, such as city breaks, suit visitors who arrive in Dublin.",
+     "Good motorway and rail links radiate from Dublin."
+    ]
+   },
+   {
+    "h": "Dublin and east-coast attractions",
+    "points": [
+     "The Guinness Storehouse, opened in 2000, is Ireland's most visited fee-paying attraction.",
+     "The Book of Kells is at Trinity College Dublin; Dublin Zoo is in the Phoenix Park.",
+     "Brú na Bóinne (Newgrange), Co. Meath, has been a UNESCO World Heritage Site since 1993.",
+     "The Glendalough monastic site and Powerscourt are both in Co. Wicklow."
+    ]
+   },
+   {
+    "h": "Attractions on the west and north coasts",
+    "points": [
+     "The Cliffs of Moher, Co. Clare, are part of the Burren and Cliffs of Moher UNESCO Global Geopark.",
+     "Kylemore Abbey is in Connemara.",
+     "The Giant's Causeway, Co. Antrim, in Northern Ireland, has been a UNESCO site since 1986."
+    ]
+   },
+   {
+    "b": "Co. Kerry, centred on Killarney and the Ring of Kerry, is a mass-tourism region.",
+    "h": "Kerry: a mass-tourism region",
+    "points": [
+     "Killarney National Park, created in 1932 from the Muckross estate, was Ireland's first national park; the estate was given to the State by the Bourn Vincent family.",
+     "Attractions include Muckross House, the Lakes of Killarney, Torc Waterfall, the Gap of Dunloe and Ross Castle.",
+     "Carrauntoohil (1,038 m), in the Macgillycuddy's Reeks, is Ireland's highest mountain.",
+     "The Ring of Kerry is a circular route of about 180 km around the Iveragh Peninsula.",
+     "Skellig Michael, an early Christian monastery on a rocky island, has been a UNESCO World Heritage Site since 1996 and was a film location for Star Wars: The Force Awakens (2015) and The Last Jedi (2017).",
+     "The Dingle Peninsula, with the Slea Head drive and the Dingle Gaeltacht, adds to the county's attractions."
+    ]
+   },
+   {
+    "h": "Kerry: history of tourism",
+    "points": [
+     "Tourism in Killarney dates from the 18th and 19th centuries.",
+     "The railway reached Killarney in 1853.",
+     "Queen Victoria visited Killarney in 1861."
+    ]
+   },
+   {
+    "h": "Kerry: positive and negative impacts",
+    "points": [
+     "Positive: jobs and income in a peripheral region, services kept open in rural areas, and heritage protected through tourism income.",
+     "Negative: seasonal jobs, with work concentrated in the summer months.",
+     "Negative: traffic and coach congestion on the narrow roads of the Ring of Kerry.",
+     "Negative: erosion on the Carrauntoohil paths and litter on popular trails.",
+     "Negative: holiday homes push up house prices and make affordable housing scarce for local workers."
+    ]
+   },
+   {
+    "h": "Spain: growth and causes",
+    "points": [
+     "Spain received about 84 million international tourists in 2019 and about 94 million in 2024, a record (INE).",
+     "Tourism provides over a tenth of Spain's GDP (2020s, approximate).",
+     "Mass tourism grew from the 1960s under the Franco regime, which promoted it with the 'Spain is different' slogan to earn foreign currency.",
+     "Causes: sun and beaches; package holidays and jet aircraft; cheap flights; low costs; and proximity to northern Europe."
+    ]
+   },
+   {
+    "h": "Spain: the coastal resorts",
+    "points": [
+     "Benidorm, on the Costa Blanca, was a small fishing village transformed in the 1950s and 1960s by mayor Pedro Zaragoza's plan for high-rise buildings close to the beach.",
+     "The Gran Hotel Bali (186 m, opened 2002) was then Europe's tallest hotel.",
+     "The Costa del Sol has Málaga airport, Torremolinos and Marbella.",
+     "The Balearic Islands, in the Mediterranean, include Mallorca (Palma, Magaluf) and Ibiza."
+    ]
+   },
+   {
+    "h": "Spain: effects and problems",
+    "points": [
+     "Effects: jobs, foreign earnings and infrastructure.",
+     "Problems: 'ribbon development' of concrete along the coast, and high-rise overdevelopment.",
+     "Water shortages: Catalonia declared a drought emergency in early 2024.",
+     "Low-paid seasonal jobs, and rising rents as short-term tourist lets spread.",
+     "Large anti-overtourism protests took place in 2024 in Barcelona, Mallorca and the Canary Islands."
+    ]
+   },
+   {
+    "h": "Spain: responses",
+    "points": [
+     "The Balearic and Catalan governments charge tourist taxes.",
+     "Barcelona plans to end licences for about 10,000 tourist apartments by 2028."
+    ]
+   },
+   {
+    "h": "Industrial decline: definition and evidence",
+    "points": [
+     "Industrial decline is the long-term fall in the number of firms and jobs in a traditional industry or region.",
+     "Evidence: plant closures, derelict sites and buildings, high unemployment, emigration (out-migration), falling population in industrial towns, and social problems."
+    ]
+   },
+   {
+    "h": "Causes of decline in Ireland",
+    "points": [
+     "The end of protection and the opening to free trade exposed small, inefficient protected firms, through the Anglo-Irish Free Trade Agreement (1965) and EEC membership (1973).",
+     "Competition from low-wage countries.",
+     "Recessions, such as those of the 1980s and 2008.",
+     "New technology replacing labour.",
+     "EU policy reform, such as the reform of the EU sugar regime.",
+     "Corporate decisions to move production to lower-cost locations, as with Dell in Limerick (see the Irish examples blocks)."
+    ]
+   },
+   {
+    "h": "Cork closures in the 1980s",
+    "points": [
+     "The Dunlop tyre factory in Cork closed in 1983.",
+     "Ford's Marina plant in Cork closed in 1984; Ford's Cork company was founded in 1917.",
+     "Verolme Cork Dockyard at Rushbrooke closed in 1984."
+    ]
+   },
+   {
+    "h": "Steel, sugar, crystal and computer closures, 2001 to 2009",
+    "points": [
+     "Irish Steel (later Ispat) closed on Haulbowline Island, Cork Harbour, in 2001; the site needed a costly clean-up of contaminated waste.",
+     "Irish Sugar (Greencore) closed its Carlow beet factory in 2005 and its Mallow factory in 2006, ending Irish sugar production after EU sugar-regime reform.",
+     "Waterford Crystal's Kilbarry factory closed in January 2009 when the company went into receivership.",
+     "Dell opened at Raheen, Limerick, in 1990; in January 2009 it announced that manufacturing would move to Łódź, Poland, with the loss of about 1,900 jobs, while sales and service stayed in Ireland."
+    ]
+   },
+   {
+    "h": "Moneypoint and the end of coal",
+    "points": [
+     "Moneypoint, Co. Clare, a coal-fired power station built in the 1980s, was Ireland's last coal-burning power station.",
+     "Coal burning at Moneypoint ended in 2025, part of the move away from fossil fuels that also closed the peat stations."
+    ]
+   },
+   {
+    "h": "Effects of decline",
+    "points": [
+     "Unemployment reached about 17% in the mid-1980s.",
+     "Heavy emigration in the 1980s drew skilled people away from the affected towns.",
+     "Derelict docklands and empty factories were left in city and town centres.",
+     "Local towns lost skills and spending as jobs disappeared."
+    ]
+   },
+   {
+    "h": "Responses to decline",
+    "points": [
+     "Replacement investment: the IDA and Enterprise Ireland sought new firms to replace lost jobs.",
+     "Regeneration of the Dublin Docklands and the IFSC (see the IFSC blocks).",
+     "Regeneration of Cork Docklands, through a city plan to redevelop the old port quays.",
+     "Heritage reuse: a smaller House of Waterford Crystal factory and visitor centre opened in Waterford city centre (the Mall) in 2010.",
+     "Retraining for displaced workers.",
+     "The EU Just Transition Fund supports the Midlands peat region."
+    ]
+   },
+   {
+    "h": "Other European regions of decline",
+    "points": [
+     "Coalfield and steel regions of decline elsewhere in Europe are covered in the Socio-economic regions notes."
+    ]
+   },
+   {
+    "b": "Economic activity is unevenly spread across Ireland.",
+    "h": "Uneven economic activity within Ireland",
+    "points": [
+     "The Greater Dublin Area had about 2.1 million people in Census 2022, about 40% of the State's population, and holds most multinational and service jobs, along with Cork, Galway and Limerick.",
+     "The Border, Midlands and West have more small farms, fewer FDI jobs and lower incomes.",
+     "The Border, Midland and Western (BMW) region was designated for EU funding in 1999 (Objective 1 for 2000–2006); the rest of the State was the Southern and Eastern region.",
+     "The National Planning Framework (Project Ireland 2040, 2018) aims for Galway, Cork, Limerick and Waterford to each grow by at least 50% by 2040."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "1) Origin: the International Financial Services Centre (IFSC) was set up in Dublin in 1987. 2) Site: it was built on the derelict Custom House Docks, on the north bank of the Liffey, a declining dock area. 3) Government: the Charles Haughey government created the IFSC and gave it incentives. 4) Tax: approved firms paid a 10% corporation tax rate, later replaced by the 12.5% national rate. 5) Workforce: an educated, English-speaking workforce attracted firms. 6) EU access: a base inside the EU single market suited banks and funds serving Europe. 7) Time zone: Dublin's time zone suited firms working with other financial centres. 8) Growth: the IFSC became one of the world's largest centres for investment funds, with Irish-domiciled funds holding over €3 trillion in assets (2020s). 9) Aircraft leasing: the leasing business grew from Shannon after Guinness Peat Aviation was founded there in 1975, and Ireland now manages about half of the world's leased commercial aircraft (approximately). 10) Effects: high-value jobs and regeneration of the north docklands, with the Luas Red Line (2004) serving the IFSC and new housing nearby. 11) Brexit: after the 2016 Brexit vote, Bank of America and Barclays moved their main EU operations to Dublin. 12) Risk: the 2008 banking crisis left Anglo Irish Bank nationalised in January 2009 and led to NAMA being set up in 2009 to take over property loans. 13) Reputation: financial services depend on trust, and the Central Bank of Ireland regulates the sector.",
+    "prompt": "Describe and explain the development of financial services in a developed economy you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "1) Definition: industrial decline is the long-term fall in the number of firms and jobs in a traditional industry or region. 2) Evidence: plant closures, derelict sites, high unemployment, emigration and falling population in industrial towns. 3) Cause: the end of protection and the opening to free trade, through the Anglo-Irish Free Trade Agreement (1965) and EEC membership (1973), exposed small, inefficient firms. 4) Cause: competition from low-wage countries. 5) Cause: recessions in the 1980s and 2008. 6) Cause: new technology replacing labour. 7) Cause: corporate decisions to move production abroad. 8) Example: the Dunlop tyre factory (1983), Ford's Marina plant (1984) and Verolme Cork Dockyard (1984) closed in Cork. 9) Example: Irish Steel on Haulbowline Island, Cork Harbour, closed in 2001. 10) Example: Irish Sugar closed its Carlow factory in 2005 and its Mallow factory in 2006 after EU sugar-regime reform. 11) Example: Waterford Crystal's Kilbarry factory closed in January 2009. 12) Example: Dell in Limerick announced in 2009 that manufacturing would move to Poland, with about 1,900 jobs lost. 13) Example: the ESB's peat-fired power stations closed in December 2020. 14) Effects: unemployment of about 17% in the mid-1980s, heavy emigration and derelict docklands. 15) Responses: replacement investment by the IDA and Enterprise Ireland, regeneration of the Dublin and Cork docklands, the House of Waterford Crystal visitor centre, retraining, and the EU Just Transition Fund for the Midlands.",
+    "prompt": "Examine the evidence of industrial decline in a developed economy you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Tourism in Ireland. (ii) 1) Physical attractions: scenery, coast, mountains and lakes, such as the Ring of Kerry and Carrauntoohil in Co. Kerry. 2) Heritage: Brú na Bóinne (Newgrange), a UNESCO site since 1993; Skellig Michael, a UNESCO site since 1996; and the Book of Kells in Dublin. 3) Access: Dublin Airport, Shannon, Cork and Kerry airports, Dublin Port and Rosslare Europort, and low-cost airlines such as Ryanair. 4) Marketing: Tourism Ireland promotes the island abroad, with the Wild Atlantic Way and Ireland's Ancient East as brands. 5) Language: English is widely spoken, which suits visitors from Britain and the USA. 6) Income: tourism brings in overseas earnings and supported about a quarter of a million jobs in 2019. (iii) Challenge: seasonality. 1) Tourism is concentrated in the summer months, so many jobs are seasonal and workers are employed for only part of the year. 2) Busy months bring congestion on roads such as the Ring of Kerry. 3) In quiet months, hotels and attractions are underused, which lowers their income.",
+    "prompt": "(i) Name one tertiary activity in a developed economy you have studied. (ii) Explain the advantages this economy has for it. (iii) Describe one challenge it faces.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-activities-s2": {
+  "keyTerms": [
+   {
+    "definition": "A condition, such as raw materials, labour, markets, transport or government policy, that makes one place more suitable than another for an activity.",
+    "term": "Location factor"
+   },
+   {
+    "definition": "An industry free to choose its location because it is not tied to a particular raw material or market.",
+    "term": "Footloose industry"
+   },
+   {
+    "definition": "A factory or office owned by a company headquartered elsewhere, usually carrying out routine production.",
+    "term": "Branch plant"
+   },
+   {
+    "definition": "Undeveloped land on which a new plant is built.",
+    "term": "Greenfield site"
+   },
+   {
+    "definition": "Land already built on, often a former industrial site that may need clearing before reuse.",
+    "term": "Brownfield site"
+   },
+   {
+    "definition": "A serviced area of land set aside for firms, often built by a public agency.",
+    "term": "Industrial estate"
+   },
+   {
+    "definition": "Firms in the same or related industries grouped together, sharing skills, suppliers and research.",
+    "term": "Cluster (agglomeration)"
+   },
+   {
+    "definition": "A link from a firm to its suppliers.",
+    "term": "Backward linkage"
+   },
+   {
+    "definition": "A link from a firm to its customers.",
+    "term": "Forward linkage"
+   },
+   {
+    "definition": "The transport, energy, water, communications and waste systems that firms depend on.",
+    "term": "Infrastructure"
+   },
+   {
+    "definition": "An industry whose raw material loses weight in processing, so the plant locates near the raw material.",
+    "term": "Bulk-reducing industry"
+   },
+   {
+    "definition": "An industry whose product gains weight or bulk in production, so the plant locates near the market.",
+    "term": "Bulk-gaining industry"
+   },
+   {
+    "definition": "The principle, set out by Alfred Weber in 1909, that firms locate where total transport costs are lowest.",
+    "term": "Least-cost location"
+   },
+   {
+    "definition": "The tendency of an industry to stay in a place after the original reason for locating there has gone.",
+    "term": "Industrial inertia"
+   },
+   {
+    "definition": "Cutting surplus capacity, often after a fall in demand or a merger.",
+    "term": "Rationalisation"
+   },
+   {
+    "definition": "Paying another firm, often a contract manufacturer, to make goods or provide services that the company used to make itself.",
+    "term": "Outsourcing"
+   },
+   {
+    "definition": "Services delivered at a distance by phone or internet, such as customer support and remote data processing.",
+    "term": "Teleservices"
+   },
+   {
+    "definition": "Buying and selling goods and services over the internet.",
+    "term": "E-commerce"
+   },
+   {
+    "definition": "A significant relevant point: one distinct, specific, examinable fact or explained point in an answer.",
+    "term": "SRP"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Firms locate where total transport costs are lowest. This least-cost principle of industrial location was set out by Alfred Weber in 1909.",
+    "h": "Bulk-reducing and bulk-gaining industries",
+    "points": [
+     "Bulk-reducing industries: the raw material loses weight in processing, so the plant locates near the raw material. Examples: alumina refining, dairy processing, fish processing, mining.",
+     "Bulk-gaining industries: the product gains weight or bulk in production, so the plant locates near the market. Examples: brewing, soft drinks bottling, bakeries.",
+     "Test for an exam location question: if the inputs lose weight in processing, the plant is pulled towards the raw material; if the finished product is heavier or bulkier, it is pulled towards the market."
+    ]
+   },
+   {
+    "h": "Terms used in location",
+    "points": [
+     "Footloose industry: defined under the subsection Case study of a developed economy; the factors below explain where footloose activities choose to locate.",
+     "Branch plant: a factory or office owned by a company headquartered elsewhere, usually carrying out routine production.",
+     "Headquarters (HQ): the head office where a company's main decisions are made. Research and development (R&D): the work of designing new products and processes.",
+     "Greenfield site: undeveloped land on which a new plant is built. Brownfield site: land already built on, often a former industrial site that may need clearing before reuse.",
+     "Industrial estate or business park: a serviced area of land set aside for firms.",
+     "Cluster, or agglomeration: firms in the same or related industries grouped together, sharing skills, suppliers and research.",
+     "Backward linkages are links to a firm's suppliers; forward linkages are links to its customers.",
+     "Infrastructure: the transport, energy, water, communications and waste systems that firms depend on."
+    ]
+   },
+   {
+    "b": "A location factor is any condition that makes one place more suitable than another for an activity.",
+    "h": "Raw materials, energy and labour",
+    "points": [
+     "Raw materials: weight-losing raw materials pull processing towards their source or towards a port where they arrive.",
+     "Energy: industry once clustered on coalfields. National electricity grids freed most industry from this, but energy-hungry activities such as alumina refining and data centres still need large, reliable and affordable power.",
+     "Labour: the quantity, skills and education, cost, productivity and flexibility of the workforce.",
+     "High-technology and service firms seek graduates; standardised assembly seeks low wages.",
+     "Irish example for labour: the Intel plant at Leixlip and the Galway cluster, both described below."
+    ]
+   },
+   {
+    "h": "Markets, transport and communications",
+    "points": [
+     "Markets: the size and wealth of the market, and access to the EU single market. Bulk-gaining and perishable goods locate near the market; services locate near their customers.",
+     "Ports: deep water lets bulk carriers berth. Dublin Port is Ireland's busiest port. Port of Cork and Shannon Foynes Port are also major ports.",
+     "Rosslare Europort: direct ferry routes to France grew after Brexit (2021) to avoid the UK land bridge.",
+     "Whitegate, Cork Harbour: Ireland's only oil refinery, opened 1959.",
+     "Airports: air freight suits light, high-value, time-sensitive goods such as pharmaceuticals, medical devices and microchips.",
+     "Dublin Airport handled over 30 million passengers in 2023; its North Runway opened in 2022.",
+     "Freight modes: road offers door-to-door flexibility over short and medium distances; rail carries heavy loads on fixed routes; sea is the cheapest way to move bulk over long distances; air is the fastest but the most expensive.",
+     "Motorways, rail, broadband and fibre connect firms to markets and suppliers; for services, broadband and fibre matter most.",
+     "One environmental challenge of air transport is its CO2 emissions."
+    ]
+   },
+   {
+    "h": "Capital, government and EU policy",
+    "points": [
+     "Capital: investment money comes from banks, shareholders, government grants and venture capital.",
+     "IDA Ireland was set up in 1949 and became an independent agency in 1969. It offers grants, serviced sites and advance factories to attract firms.",
+     "Corporation tax was 12.5% from 2003. Very large groups pay 15% from 2024.",
+     "Enterprise Ireland (1998) supports Irish-owned firms. Údarás na Gaeltachta (1980) supports enterprise in Gaeltacht areas.",
+     "Regional policy steers firms towards less-developed areas through grants and incentives.",
+     "Planning permission is needed before a site can be built on. EU state-aid rules limit the subsidies governments may give firms, while EU funds support regional development.",
+     "Trade agreements reduce the barriers that firms face when selling across borders."
+    ]
+   },
+   {
+    "h": "Site, services and infrastructure",
+    "points": [
+     "Site: flat, well-drained land, large enough for expansion, at a cheap price.",
+     "Site: a water supply, and facilities for effluent and waste disposal.",
+     "Site: hazardous industry needs distance from homes.",
+     "Services: water, electricity, gas, broadband, waste treatment, housing and schools. Workers must be able to live near the plant."
+    ]
+   },
+   {
+    "h": "Agglomeration, inertia and quality of life",
+    "points": [
+     "Agglomeration: firms in the same industry gather to share skilled workers, suppliers, research and universities.",
+     "Cork Harbour (pharmaceuticals) and Galway (medical technology) grew into clusters in this way.",
+     "Personal and historical factors: the choices of founders and the history of a site can decide a location.",
+     "Industrial inertia: an industry stays where it is after the original reason for locating there has gone.",
+     "Quality of life: attractive places to live help firms recruit skilled staff."
+    ]
+   },
+   {
+    "b": "Local opposition and environmental regulation can stop or delay a project. Corrib gas shows how long a delay can be.",
+    "h": "Local opposition and environmental regulation",
+    "points": [
+     "Corrib gas was discovered in 1996. Its terminal is at Bellanaboy, Co. Mayo.",
+     "The Shell to Sea campaign opposed the project, and the Rossport Five were jailed in 2005.",
+     "Gas first flowed in December 2015, after a long delay caused by local opposition and changes to planning."
+    ]
+   },
+   {
+    "h": "Changing importance of location factors",
+    "points": [
+     "In the 19th century, raw materials and power were the main location factors.",
+     "In the 20th century, markets and labour became the main factors.",
+     "Today, footloose activities chase skills, tax, connectivity and quality of life."
+    ]
+   },
+   {
+    "b": "A bulk-reducing heavy industry located on a deep-water estuary, where imported raw material arrives by sea.",
+    "h": "Aughinish Alumina, Co. Limerick: a raw-material and port location",
+    "points": [
+     "Aughinish Alumina opened in 1983 on Aughinish Island near Askeaton, Co. Limerick, on the south shore of the Shannon Estuary. It is Europe's largest alumina refinery.",
+     "Bulk-reducing: about two to three tonnes of bauxite make one tonne of alumina, so the refinery sits at the raw material's port.",
+     "Bauxite is imported by sea, mainly from Guinea and Brazil. The alumina (aluminium oxide) is shipped to aluminium smelters elsewhere; the refinery does not make aluminium.",
+     "Deep, sheltered water in the Shannon Estuary, Ireland's deepest natural sheltered water, allows large bulk carriers to berth.",
+     "The site is a flat island location away from towns.",
+     "Government support for heavy industry is a further factor in its siting.",
+     "Problems: bauxite residue, known as red mud, is stored in large disposal areas on site.",
+     "The company has been owned by the Russian company Rusal since 2007."
+    ]
+   },
+   {
+    "h": "Moneypoint and energy on the Shannon Estuary",
+    "points": [
+     "Moneypoint power station, Co. Clare, is on the Shannon Estuary and imported coal by sea.",
+     "Coal burning at Moneypoint ended in 2025, so the estuary's energy role has changed."
+    ]
+   },
+   {
+    "b": "Intel is footloose in the sense that its products are not tied to a raw material or a market, so it chose Leixlip from many possible sites.",
+    "h": "Intel, Leixlip, Co. Kildare: footloose high-technology manufacturing",
+    "points": [
+     "Intel's Leixlip plant opened in 1989. It is Ireland's largest private-sector investment, worth billions of euro.",
+     "Skilled graduates are available, with Maynooth University nearby.",
+     "IDA support and low corporation tax attracted the investment (see Capital, government and EU policy).",
+     "Access to the EU single market from an English-speaking base.",
+     "The plant lies beside the M4 motorway and close to Dublin Airport.",
+     "It occupies a large greenfield site with a supply of electricity and water.",
+     "Footloose does not mean likely to leave: the large fixed investment makes relocation unlikely.",
+     "Global job cuts announced in 2024 and 2025 affected Leixlip, showing that even a large plant depends on parent-company decisions."
+    ]
+   },
+   {
+    "h": "Cork Harbour pharmaceutical cluster, Ringaskiddy",
+    "points": [
+     "Pfizer, Janssen (Johnson & Johnson) and Novartis are at Ringaskiddy; Eli Lilly is at Kinsale, Co. Cork.",
+     "The Port of Cork has deep-water berths at Ringaskiddy, which suits the import and export of pharmaceutical goods.",
+     "Large flat sites are zoned for industry, with water supply and waste facilities.",
+     "Skilled labour comes from University College Cork (UCC) and Munster Technological University (MTU). MTU was formed in 2021 from Cork IT and IT Tralee.",
+     "IDA support, tax and clustering reinforce the pattern.",
+     "Pharmaceuticals and chemicals are Ireland's largest goods exports.",
+     "Older heavy industry in the same harbour: Irish Steel at Haulbowline closed in 2001."
+    ]
+   },
+   {
+    "h": "Galway medical-technology cluster",
+    "points": [
+     "Boston Scientific opened in Galway in 1994. Medtronic, Parkmore, Galway followed.",
+     "The cluster draws on skilled engineers left by the closure of DEC's plant (see Location changes: Dell and DEC).",
+     "University of Galway research (renamed in 2022) supports the cluster, and a network of suppliers has grown around the firms.",
+     "Detail of Galway industry is in the peripheral Irish region subsection of Irish Regions — Core and Peripheral."
+    ]
+   },
+   {
+    "h": "Food processing near raw materials; brewing near the market",
+    "points": [
+     "Kerry Group grew from the North Kerry Milk Products co-operative at Listowel, founded in 1972. Its headquarters are in Tralee, Co. Kerry.",
+     "Dairy processing is bulk-reducing: plants at Listowel and Tralee sit near the supply of milk.",
+     "Killybegs, Co. Donegal, is Ireland's largest fishing port.",
+     "Fish processing plants at Killybegs handle pelagic fish such as mackerel and herring, a bulk-reducing process that locates at the port.",
+     "Guinness at St James's Gate, Dublin, was founded in 1759 by Arthur Guinness on a 9,000-year lease.",
+     "Brewing is bulk-gaining because water is added to the product, so the brewery sits near its market.",
+     "Industrial inertia: Guinness still brews at St James's Gate today."
+    ]
+   },
+   {
+    "h": "Data centres: a modern location problem",
+    "points": [
+     "Data centres used about 21% of Ireland's metered electricity in 2023 (CSO).",
+     "EirGrid stated in 2022 that it would not connect new data centres in the Dublin region until about 2028, so the electricity grid now limits their location.",
+     "Amazon Web Services, Microsoft, Google and Meta operate data centres in Ireland.",
+     "Why Ireland: a cool, mild climate reduces cooling costs; fibre links to the USA and Europe; existing clusters of technology firms; tax."
+    ]
+   },
+   {
+    "h": "Why modern activities are mobile",
+    "points": [
+     "Lower transport costs, through containerisation and air freight, let goods move cheaply over long distances.",
+     "Instant communications, through the internet, fibre and video calls, let firms manage plants at a distance.",
+     "Standardised production can be done by low-skilled workers, so the work can go anywhere with a cheap labour supply.",
+     "The removal of trade barriers, through the EU single market and the World Trade Organization, makes it easier to sell across borders from any member location.",
+     "Multinationals can compare countries and move capital quickly."
+    ]
+   },
+   {
+    "h": "Consequences for host countries",
+    "points": [
+     "Investment brings rapid job creation, but jobs can leave just as quickly.",
+     "Branch plants are vulnerable because the decisions are made at a distant headquarters.",
+     "Countries compete for investment by offering tax and grants."
+    ]
+   },
+   {
+    "h": "Strategies that open branch plants",
+    "points": [
+     "Expansion into new markets.",
+     "Getting inside a trade bloc, which gives tariff-free access to the EU.",
+     "Lower costs.",
+     "Access to skilled labour.",
+     "Following competitors into a cluster.",
+     "Tax planning."
+    ]
+   },
+   {
+    "h": "Strategies that close branch plants",
+    "points": [
+     "Rationalisation: cutting surplus capacity after a fall in demand or a merger.",
+     "Relocation to lower-cost countries.",
+     "Outsourcing: contract manufacturers make the goods instead of the company's own plant.",
+     "Automation reduces the number of workers needed.",
+     "Mergers and takeovers, after which a parent firm may close a duplicate plant.",
+     "A product reaching the end of its life cycle."
+    ]
+   },
+   {
+    "h": "Upgrading as an alternative to closure",
+    "points": [
+     "A plant can survive by moving up the value chain into more R&D, advanced products and services.",
+     "Intel's continuing investment at Leixlip is the example: Fab 34, opened in 2023, makes advanced chips using extreme ultraviolet lithography."
+    ]
+   },
+   {
+    "h": "Location changes: Dell and DEC",
+    "points": [
+     "Dell opened in Limerick (Raheen) in 1990.",
+     "In January 2009 Dell announced that manufacturing would move to Łódź, Poland, with about 1,900 jobs lost in Limerick. It kept sales and service functions in Ireland.",
+     "Poland joined the EU on 1 May 2004, with nine other states, so its plants lay inside the enlarged EU with lower costs.",
+     "The full Dell case study is in The MNC and change subsection of The Global Economy — Multinationals and Globalisation.",
+     "DEC closed its Galway plant in 1993, and its skilled workforce later helped attract the medtech cluster."
+    ]
+   },
+   {
+    "h": "Product life cycle and changes in location",
+    "points": [
+     "Introduction: the product is developed near headquarters and R&D, in a core region with highly skilled labour.",
+     "Growth: branch plants are opened in other developed countries near large markets; Ireland gained many.",
+     "Maturity: the standardised product is mass-produced in low-wage locations.",
+     "Decline: the plant closes or production is concentrated in the cheapest plant."
+    ]
+   },
+   {
+    "h": "Apple, Hollyhill, Cork: a location shift",
+    "points": [
+     "Apple opened at Hollyhill, Cork, in 1980 and first made computers there.",
+     "As Apple's manufacturing moved to contract manufacturers in Asia, the Cork site shifted mainly to operations, support and services.",
+     "The Cork site is now Apple's European headquarters, with about 6,000 staff (2020s)."
+    ]
+   },
+   {
+    "h": "What a host country can do",
+    "points": [
+     "Attract firms early in new life cycles, for example in pharmaceuticals, medical technology and software.",
+     "Invest in education and research so that jobs are harder to move: Science Foundation Ireland, set up in 2000 and made a statutory body in 2003, funds research; it merged into Research Ireland in 2024.",
+     "Universities supply the graduates that keep high-technology firms in place."
+    ]
+   },
+   {
+    "h": "Information technology and teleservices",
+    "points": [
+     "Computing and the internet have made many services footloose, and Ireland became a European base for software and internet firms (see Case study of a developed economy).",
+     "Teleservices are services delivered at a distance by phone or internet, such as customer support, technical support and remote data processing.",
+     "Teleservices can locate anywhere with broadband, including peripheral areas.",
+     "Low-skilled teleservice work moves easily to cheaper countries or is automated.",
+     "The full MNC case of IT and teleservices is in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
+    ]
+   },
+   {
+    "h": "E-commerce and location",
+    "points": [
+     "E-commerce is buying and selling goods and services over the internet.",
+     "Warehouses and delivery depots locate near motorways and airports.",
+     "Pressure on town-centre shops, and bank branch closures, follow the growth of online trade.",
+     "Effects on an MNC's operations are in The MNC and change subsection of The Global Economy — Multinationals and Globalisation."
+    ]
+   },
+   {
+    "h": "Remote and hybrid working",
+    "points": [
+     "Remote and hybrid working grew after COVID-19, so some jobs can be done from home or a local hub rather than a city office.",
+     "National Broadband Plan: the contract was signed in 2019 with National Broadband Ireland to bring high-speed broadband to rural premises.",
+     "Connected Hubs: a national network of remote-working hubs launched in 2021.",
+     "Our Rural Future, rural development policy, 2021.",
+     "Broadband availability differs from region to region, and a region's coverage affects whether it can attract remote-working jobs."
+    ]
+   },
+   {
+    "h": "Artificial intelligence and automation",
+    "points": [
+     "Artificial intelligence and automation are future drivers of location and job change.",
+     "Automation can reduce the labour-cost advantage of low-wage locations, favouring places with skills and research."
+    ]
+   },
+   {
+    "b": "Map and photograph questions ask why an activity might or might not locate at a point, using evidence from the map or photograph.",
+    "h": "Method: two reasons for and one against",
+    "points": [
+     "Name the factor, then give evidence from the map or photograph: a grid reference, or the photograph's location in accepted notation.",
+     "Explain why the factor matters to the activity.",
+     "Give three to five significant relevant points (SRPs) for each reason.",
+     "Use the same structure for a reason why the activity might not locate there."
+    ]
+   },
+   {
+    "h": "Factor checklist: factory or multinational",
+    "points": [
+     "Flat land and an edge-of-town site.",
+     "A national primary road or motorway, a railway, and a port or airport.",
+     "A town labour force and services: schools, hospital and housing.",
+     "Water and an existing industrial estate."
+    ]
+   },
+   {
+    "h": "Factor checklist: fish processing plant",
+    "points": [
+     "A pier, harbour or fishing port, on the coast.",
+     "Roads to markets.",
+     "Water and a labour force.",
+     "Low-lying land."
+    ]
+   },
+   {
+    "h": "Factor checklist: hotel",
+    "points": [
+     "Coast, beach and scenery; lakes or mountains; antiquities.",
+     "A golf course, and water sports.",
+     "Nearby town services and road access.",
+     "Tourist information."
+    ]
+   },
+   {
+    "h": "Reasons why an activity might not locate at a site",
+    "points": [
+     "Steep or high land.",
+     "A floodplain.",
+     "A protected or scenic area, where planning conflict is likely.",
+     "Poor roads, remoteness from labour, distance from services, and impact on residents."
+    ]
+   },
+   {
+    "b": "The invented town of Ballyglas lies beside an invented N-road and river. All grid references in this example are illustrative.",
+    "h": "Worked example on an invented map",
+    "points": [
+     "Reason for locating: the flat land beside the N-road at illustrative grid reference M 142 335 gives room for a factory and its expansion.",
+     "Why it matters: a factory needs a large flat site, and the road gives access to markets.",
+     "Reason against: the river floodplain at illustrative grid reference M 140 333 would flood, so a plant there would be at risk."
+    ]
+   },
+   {
+    "h": "Aerial photograph",
+    "points": [
+     "Give advantages and disadvantages of the proposed factory site and of an alternative location, using accepted notation for the photograph.",
+     "Refer to features by their position in the photograph, such as foreground, background, left or right."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Labour: Ireland has a young, English-speaking workforce with a high share of graduates, and universities such as Maynooth University, near Intel at Leixlip, supply skilled staff to high-technology plants. Skilled labour is concentrated in clusters: Cork Harbour's pharmaceutical firms draw on graduates from University College Cork and Munster Technological University, and Galway's medical-technology firms draw on engineers left by DEC when its plant closed in 1993 and on research at the University of Galway. Firms seeking skilled staff choose places where that staff already lives and studies, so labour pulls footloose industry towards existing clusters. Clusters also share suppliers and research, which lowers the cost of setting up a new plant nearby. Government policy: the IDA, set up in 1949 and made an independent agency in 1969, offers grants, serviced sites and advance factories to attract firms. Corporation tax of 12.5% from 2003 lowered the tax on profits of firms investing here, and very large groups pay 15% from 2024. Enterprise Ireland supports Irish-owned firms, and Údarás na Gaeltachta supports enterprise in Gaeltacht areas. Regional policy steers firms towards less-developed areas through grants and incentives. EU membership gives firms in Ireland access to the single market, and EU state-aid rules limit the subsidies governments may give, so the tax and grant policy works within those rules.",
+    "prompt": "Examine how labour and government policy have influenced the location of footloose industry in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Raw materials: bulk-reducing industries locate near their raw material because processing makes the product lighter than the input. Aughinish Alumina, Co. Limerick, opened in 1983 on the south shore of the Shannon Estuary, where about two to three tonnes of bauxite make one tonne of alumina. Bauxite arrives by sea, mainly from Guinea and Brazil, so the refinery sits at a deep-water port that can berth large bulk carriers. Kerry Group's dairy processing at Listowel and Tralee, Co. Kerry, is bulk-reducing: milk loses bulk in processing, so plants sit near the supply of milk. Markets: bulk-gaining industries locate near their market because the product gains bulk in production. Guinness at St James's Gate, Dublin, is bulk-gaining because water is added to the product, so the brewery sits near its market. Irish-based multinationals use the EU single market as their market, which gives tariff-free access to a large group of consumers, so access to the market pulls manufacturing towards Ireland.",
+    "prompt": "Explain how raw materials and markets influence the location of manufacturing industry, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The invented Ballyglas map extract is used for illustration, and all grid references are illustrative. Reason 1, harbour and pier: a pier at illustrative grid reference M 142 335 provides a fishing port where boats land the catch. Fish is perishable, so a plant close to the landing point reduces the time between catch and processing. The flat, low-lying land beside the harbour, at illustrative grid reference M 141 334, gives room for processing buildings. The coastal location gives the plant direct access to the catch. Reason 2, roads and labour from the town: the invented N-road at illustrative grid reference M 146 339 gives a direct road link to markets for processed fish. Ballyglas, at illustrative grid reference M 144 338, supplies a labour force for the plant. Services in the town, such as schools and housing, keep workers living close to the plant. Reason against, a disadvantage: the narrow coastal road at illustrative grid reference M 140 331 is poor for heavy lorries carrying processed fish, and the plant would lie in a scenic coastal area where planning conflict is likely.",
+    "prompt": "Using evidence from an Ordnance Survey map, explain two reasons why a fish processing plant might locate in the area shown, and one reason why it might not.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-glaciation-s1": {
   "keyTerms": [
    {
