@@ -3365,6 +3365,1094 @@
    }
   ]
  },
+ "geo-economic-globalisation-s1": {
+  "keyTerms": [
+   {
+    "definition": "A company with its headquarters in a home country and production or service branches in several host countries.",
+    "term": "Multinational company (MNC)"
+   },
+   {
+    "definition": "Another name for a multinational company.",
+    "term": "Transnational corporation (TNC)"
+   },
+   {
+    "definition": "Investment by a company in another country through building or buying a plant there.",
+    "term": "Foreign direct investment (FDI)"
+   },
+   {
+    "definition": "The State agency that attracts and supports foreign direct investment in Ireland.",
+    "term": "IDA Ireland"
+   },
+   {
+    "definition": "A thin disc of pure silicon on which the layers of a microprocessor are built.",
+    "term": "Wafer"
+   },
+   {
+    "definition": "A wafer fabrication plant where the circuits of microprocessors are made on silicon wafers.",
+    "term": "Fab"
+   },
+   {
+    "definition": "A chip made of billions of transistors that acts as the brain of a computer.",
+    "term": "Microprocessor"
+   },
+   {
+    "definition": "Extreme ultraviolet lithography, the process of printing circuits onto silicon wafers with very short wavelength light.",
+    "term": "EUV lithography"
+   },
+   {
+    "definition": "A company that assembles products for other companies, such as Foxconn for Apple.",
+    "term": "Contract manufacturer"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A multinational company (MNC) is a company based in one home country that runs production or service branches in several other countries.",
+    "h": "What a multinational company is",
+    "points": [
+     "Definition: a company with its headquarters in its home country and production or service branches in several host countries. It is also called a transnational corporation (TNC).",
+     "Typical structure: headquarters, research and development (R&D) and top management stay in the home country as the core. Branch plants, regional headquarters, and sales and service offices are placed abroad.",
+     "Decisions are made at headquarters, and branch plants compete with each other inside the company for investment.",
+     "Production is split into stages: design and R&D; basic processing of raw materials and components; assembly and testing; distribution and sales. Each stage is placed where it is cheapest or most efficient, which spreads sourcing, basic processing and markets across the world.",
+     "The largest MNCs have sales or market values greater than the gross domestic product (GDP) of many countries, and they control much of world trade and investment.",
+     "The largest companies by market value in the mid-2020s are American technology companies: Apple, Microsoft, Nvidia, Alphabet (Google's parent) and Amazon."
+    ]
+   },
+   {
+    "b": "Foreign direct investment (FDI) is investment by a company in another country, made by building or buying a plant there.",
+    "h": "Foreign direct investment and IDA Ireland",
+    "points": [
+     "IDA Ireland (Industrial Development Authority), set up in 1949, is the State agency responsible for attracting and keeping FDI.",
+     "IDA client companies employ about 300,000 people in about 1,800 companies (2023–24), concentrated in the Dublin region.",
+     "Other Irish-based MNCs: Pfizer (Ringaskiddy, Co. Cork, and Grange Castle, Dublin), Google (European headquarters, Barrow Street, Dublin), Meta (international headquarters, Dublin), Microsoft (in Ireland since 1985) and Dell (Limerick)."
+    ]
+   },
+   {
+    "h": "Why MNCs choose Ireland",
+    "points": [
+     "Low corporation tax of 12.5%, rising to 15% for very large multinational groups (turnover over €750 million) from 2024 under the OECD global minimum tax agreement.",
+     "A young, educated, English-speaking workforce.",
+     "EU membership, which Ireland joined in 1973 as the EEC (now the EU), gives access to the single market. Since the UK left the EU on 31 January 2020, Ireland is the only English-speaking country in the euro area.",
+     "IDA grants and support for companies that invest here.",
+     "Good international links, including ports, airports and broadband.",
+     "Clusters of similar firms and suppliers already in the country.",
+     "Universities and research links with industry.",
+     "A stable democracy with a pro-business government."
+    ]
+   },
+   {
+    "h": "Intel: company and structure",
+    "points": [
+     "Intel Corporation was founded in 1968 in California by Robert Noyce and Gordon Moore. Its headquarters are in Santa Clara, California, in Silicon Valley.",
+     "Intel made the first commercial microprocessor, the Intel 4004, in 1971.",
+     "Intel is best known for the processors inside most personal computers: the x86 family, sold as Pentium and Core, and Xeon for servers.",
+     "Wafer fabrication plants ('fabs') are at Hillsboro, Oregon (Intel's main research and development fabs); Chandler, Arizona; Rio Rancho, New Mexico; Leixlip, Ireland; and Kiryat Gat, Israel.",
+     "Assembly and test plants are at Penang and Kulim in Malaysia, Ho Chi Minh City in Vietnam, and Chengdu in China.",
+     "Sales offices are located around the world."
+    ]
+   },
+   {
+    "h": "Intel in Leixlip",
+    "points": [
+     "Intel came to Leixlip, Co. Kildare, in 1989.",
+     "Its campus is Ireland's largest private-sector investment, with over €30 billion invested by 2023. It has several fabs and employs several thousand people.",
+     "Fab 34 opened in 2023 and was the first fab in Europe to make chips in high volume using extreme ultraviolet (EUV) lithography. It makes the Intel 4 and Intel 3 generations, such as Core Ultra processors.",
+     "In 2024 Intel sold a 49% share of the Fab 34 joint venture to Apollo Global Management, an American investment firm, for about $11 billion, to raise money for its other projects."
+    ]
+   },
+   {
+    "h": "Why Intel chose Leixlip",
+    "points": [
+     "Leixlip is on the M4 motorway west of Dublin, giving road access to the capital.",
+     "A large, flat greenfield site, which is undeveloped land.",
+     "Maynooth University is nearby in Co. Kildare, and Trinity College Dublin and University College Dublin are in the city, giving access to graduates and research links.",
+     "A large labour pool in the Dublin area.",
+     "A water and electricity supply; fabs use huge amounts of both."
+    ]
+   },
+   {
+    "h": "The product: the microprocessor",
+    "points": [
+     "A microprocessor, or chip, is the 'brain' of a computer.",
+     "It is made by building billions of tiny transistors in layers on a thin disc of pure silicon called a wafer.",
+     "Wafers are processed in a dust-free clean room, because dust would ruin the tiny circuits."
+    ]
+   },
+   {
+    "h": "Sourcing of raw materials and components",
+    "points": [
+     "Silicon, refined from quartz sand, is bought as silicon wafers from specialist wafer makers.",
+     "Chemicals, specialty gases and metals.",
+     "Huge volumes of ultra-pure water and electricity.",
+     "Manufacturing machines, especially lithography machines from ASML, based at Veldhoven in the Netherlands. ASML is the only maker of EUV lithography machines, which cost hundreds of millions of euro each."
+    ]
+   },
+   {
+    "h": "Location of basic processing units",
+    "points": [
+     "Stage 1: wafers are processed in fabs at Leixlip, Hillsboro, Chandler and Kiryat Gat.",
+     "Stage 2: finished wafers are flown to assembly and test plants in Penang and Kulim (Malaysia), Ho Chi Minh City (Vietnam) and Chengdu (China), where they are cut into individual chips, packaged and tested.",
+     "Stage 3: the chips go to computer makers' assembly plants, mostly in Asia.",
+     "Chips are small, light and very valuable, so they are moved by air.",
+     "The Leixlip plant makes processed wafers only. Cutting, packaging and testing of the chips are not done in Ireland."
+    ]
+   },
+   {
+    "h": "Location of markets",
+    "points": [
+     "Computer manufacturers are the main customers: Lenovo (China), HP and Dell (USA).",
+     "Makers of servers for data centres and cloud computing.",
+     "Governments and businesses worldwide.",
+     "Markets are in North America, Europe and Asia, with China one of the largest.",
+     "Two markets outside Ireland can be named as countries, for example the USA and China."
+    ]
+   },
+   {
+    "h": "Difficulties facing Intel",
+    "points": [
+     "Competition from AMD (USA); TSMC (Taiwan Semiconductor Manufacturing Company), the world's largest contract chip maker; Samsung (South Korea); and Nvidia (USA), the leader in chips for artificial intelligence.",
+     "Loss of Apple as a customer: Apple began replacing Intel chips in its Mac computers with its own M1 chip in November 2020.",
+     "Very high cost of building new fabs.",
+     "Falling profits: about 15,000 global job cuts were announced in August 2024, with further cuts in 2025 under the new chief executive, Lip-Bu Tan.",
+     "In 2025 the US government took a stake of about 10% in Intel.",
+     "Risk that production moves abroad if Ireland's tax advantage narrows (the 15% minimum rate for very large groups) or if costs rise.",
+     "High energy costs and pressure on Ireland's electricity grid, since fabs need large amounts of power.",
+     "Dependence on Asian supply chains: the global chip shortage of 2021, caused by COVID-19 disruption, halted car and electronics production worldwide."
+    ]
+   },
+   {
+    "h": "Benefits of Intel to Ireland",
+    "points": [
+     "Direct jobs on the Leixlip campus, and indirect (spin-off) jobs with local suppliers and services.",
+     "Corporation tax paid to the State, and exports from the plant.",
+     "Skills development and research links with universities."
+    ]
+   },
+   {
+    "h": "Apple: company and products",
+    "points": [
+     "Apple was founded in 1976 by Steve Jobs and Steve Wozniak. Its headquarters are at the Apple Park campus in Cupertino, California, which opened in 2017.",
+     "Products: the iPhone (2007), iPad (2010), Mac computers and Apple Watch (2015), plus services such as the App Store, iCloud and Apple Music.",
+     "Design, software and management are based in California."
+    ]
+   },
+   {
+    "h": "Apple in Cork",
+    "points": [
+     "Apple opened at Hollyhill, Cork, in 1980. It was Apple's first manufacturing plant in Europe.",
+     "It employs about 6,000 people in Cork and is Apple's European headquarters.",
+     "The Cork campus runs operations and supply chain, finance, and customer support (AppleCare) in many European languages. It also assembles some built-to-order iMac computers.",
+     "The Cork campus does not make iPhones."
+    ]
+   },
+   {
+    "h": "Apple structure and outsourcing",
+    "points": [
+     "Apple owns very little manufacturing itself and outsources production to contract manufacturers.",
+     "The chief contract manufacturer is Foxconn (Hon Hai Precision Industry), a Taiwanese company.",
+     "Apple runs its own retail stores and an online store."
+    ]
+   },
+   {
+    "h": "The iPhone: sourcing of components and materials",
+    "points": [
+     "Processor chips are designed by Apple and made by TSMC in Taiwan.",
+     "Screens are supplied by Samsung and LG (South Korea). Memory and other parts come from other Asian suppliers.",
+     "Raw materials include aluminium, lithium and cobalt for batteries, rare earth metals and gold.",
+     "Most of the world's cobalt is mined in the Democratic Republic of the Congo."
+    ]
+   },
+   {
+    "h": "Location of iPhone basic processing units",
+    "points": [
+     "Final assembly is done by Foxconn at very large plants in China: Zhengzhou in Henan province, called 'iPhone City', and Shenzhen.",
+     "A growing share is assembled in India, around Chennai and Bengaluru, by Foxconn and the Indian Tata group. This reduces dependence on China."
+    ]
+   },
+   {
+    "h": "Location of Apple's markets",
+    "points": [
+     "iPhones are sold worldwide. The Americas, Europe and China are the largest regions.",
+     "Sales are made through Apple Stores, Apple's online store and mobile phone networks."
+    ]
+   },
+   {
+    "h": "Apple: difficulties and issues",
+    "points": [
+     "EU state aid tax case: in 2016 the European Commission ruled that Ireland had given Apple illegal tax benefits worth €13 billion, which must be recovered.",
+     "The EU General Court overturned the ruling in 2020. In September 2024 the EU Court of Justice reinstated it, and Ireland received about €14 billion, including interest.",
+     "This was recovery of illegal State aid, which is unpaid tax, not a fine. Ireland had argued against collecting it.",
+     "Dependence on China for assembly, and trade tensions between the USA and China.",
+     "Competition from Samsung and from Chinese phone makers.",
+     "Criticism of working conditions in supplier factories.",
+     "Athenry, Co. Galway: Apple announced a data centre (about €850 million) in 2015 and abandoned it in 2018 after planning and appeal delays."
+    ]
+   },
+   {
+    "b": "Use map evidence to justify a location, and give one reason against a location.",
+    "h": "Skill: locating an MNC on an Ordnance Survey map",
+    "points": [
+     "Look for transport: a motorway, national primary road, railway, port or airport.",
+     "Look for a large, flat site, shown by widely spaced contours.",
+     "Look for a nearby town for labour and services, and for an industrial estate symbol.",
+     "Look for a water supply, such as a river or lake.",
+     "Reasons against a site: steep or flood-prone land (closely spaced contours or marsh), poor roads, a remote location, or protected scenery.",
+     "Invented illustration, not a real map: a flat site beside a motorway junction, a market town nearby and a river for water. Each point should give the feature, the location and the reason it suits an MNC."
+    ]
+   },
+   {
+    "h": "Skill: data response on the largest MNCs",
+    "points": [
+     "Draw a bar chart with one bar per company, a labelled value axis starting at zero, and units in the title.",
+     "Calculate a difference by subtracting the smaller value from the larger, and state the answer with its units.",
+     "The method is set out in the note Tables, Graphs and Data Skills."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Company and product: Intel and the microprocessor. Sourcing: silicon, refined from quartz sand, is bought as silicon wafers from specialist makers, with chemicals, specialty gases and metals. Intel uses huge volumes of ultra-pure water and electricity. Its lithography machines come from ASML in the Netherlands, the only maker of EUV machines. Basic processing: wafers are processed in fabs at Leixlip in Ireland, Hillsboro in Oregon, Chandler in Arizona and Kiryat Gat in Israel. Finished wafers are flown to assembly and test plants in Penang and Kulim in Malaysia, Ho Chi Minh City in Vietnam and Chengdu in China, where they are cut, packaged and tested. The chips are light and valuable, so they are moved by air. Markets: the chips go to computer makers, mostly in Asia, such as Lenovo in China, and to HP and Dell in the USA. Intel also sells chips for servers in data centres and cloud computing. Its markets are in North America, Europe and Asia, with China one of the largest. Governments and businesses worldwide buy its products. Conclusion of the location pattern: the stages are spread across the world to where each is cheapest or most efficient, and Ireland's role is the wafer-processing stage.",
+    "prompt": "With reference to one multinational company you have studied, examine the sourcing of raw materials and components, the location of its basic processing units and the location of its markets for one of its products.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) Apple, at Hollyhill in Cork. (ii) Aluminium, or cobalt for batteries, is a raw material; the product is the iPhone. (iii) First, Ireland has a low corporation tax of 12.5%, which makes Cork attractive to a company with large profits; the tax rate rises to 15% only for very large groups. Second, Cork has an educated, English-speaking and multilingual workforce, so the company can run its European headquarters and customer support in many European languages from Cork, and it has about 6,000 staff there. Ireland's membership of the EU also gives access to the single market. (iv) One difficulty is dependence on China for assembly, since Foxconn's main iPhone plants are in China. Trade tensions between the USA and China make this supply chain risky, and Apple is shifting some assembly to India to reduce the risk. The Cork campus does not make iPhones, so the difficulty is about the product's supply chain, not Cork.",
+    "prompt": "(i) Name one multinational company you have studied and where it is located in Ireland. (ii) Name one raw material it uses and one product it makes. (iii) Explain two advantages of an Irish location for this company. (iv) Explain one difficulty it faces.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "A multinational company is a company with its headquarters in a home country and production or service branches in several other countries, called host countries. Its typical structure has headquarters, research and development and top management in the home country, forming the core. Branch plants and sales offices are placed in other countries. Intel shows this pattern: its headquarters are in Santa Clara, California, its main research fabs are in Hillsboro, Oregon, and it runs fabs and assembly plants in Ireland, Israel, Malaysia, Vietnam and China. Decisions are made at headquarters, and branch plants compete with each other for investment.",
+    "prompt": "Explain the term multinational company and describe its typical structure.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s2": {
+  "keyTerms": [
+   {
+    "definition": "Economic activity that is not tied to a raw material, a coalfield or a port, and so can locate almost anywhere.",
+    "term": "Footloose industry"
+   },
+   {
+    "definition": "A factory or office owned and controlled by a company headquartered in another country.",
+    "term": "Branch plant"
+   },
+   {
+    "definition": "Bringing production back to the company's home country, often for security of supply.",
+    "term": "Reshoring"
+   },
+   {
+    "definition": "The sequence of introduction, growth, maturity and decline that a product passes through, with its location changing at each stage.",
+    "term": "Product life cycle"
+   },
+   {
+    "definition": "Intel's policy of copying each new production process exactly from its development fab to its other fabs.",
+    "term": "Copy Exactly!"
+   },
+   {
+    "definition": "The observation by Gordon Moore in 1965 that the number of transistors on a chip doubles about every two years.",
+    "term": "Moore's Law"
+   },
+   {
+    "definition": "Services delivered at a distance by telecommunications, such as call centres and customer support.",
+    "term": "Teleservices"
+   },
+   {
+    "definition": "A large building of servers that stores and processes data for cloud computing.",
+    "term": "Data centre"
+   },
+   {
+    "definition": "The buying and selling of goods and services online.",
+    "term": "E-commerce"
+   },
+   {
+    "definition": "The EU fund that paid for retraining and support for workers who lost jobs through globalisation, such as the former Dell workers in Limerick.",
+    "term": "Globalisation Adjustment Fund"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Modern manufacturing and services can move between regions and countries far more easily than older heavy industry. They are described as footloose, because they are not tied to a raw material, a coalfield or a port.",
+    "h": "Mobility of modern economic activities",
+    "points": [
+     "Light, high-value products such as chips, medicines and software are cheap to move by air.",
+     "Containerisation and cheaper transport lower the cost of moving goods between plants.",
+     "Information and communications technology lets headquarters control branches on any continent.",
+     "Free movement of capital and lower trade barriers, through the World Trade Organization (WTO) and the EU single market, let companies serve markets across borders.",
+     "Governments compete with grants and low taxes, and MNCs can switch production between their own plants."
+    ]
+   },
+   {
+    "h": "Why economic activities move",
+    "points": [
+     "Lower labour and land costs.",
+     "Tax advantages and grants.",
+     "Being inside a trade bloc, which avoids tariffs on goods.",
+     "Being close to growing markets.",
+     "Access to skills, and political and economic stability.",
+     "Moves go both ways. Investment moved into Ireland, for example Intel in Leixlip in 1989 and Dell in Limerick in 1990, and out of Ireland when costs rose, for example Dell's manufacturing in 2009."
+    ]
+   },
+   {
+    "h": "Examples of mobility beyond one company",
+    "points": [
+     "Nissan opened a car plant at Sunderland, north-east England, in 1986. It is a Japanese company locating inside the EU (then EEC) market.",
+     "Bengaluru (Bangalore), India, is an IT and business-process outsourcing hub. Tata Consultancy Services, Infosys and Wipro are Indian IT firms, and call centres and IT services have moved there.",
+     "Apple is growing its iPhone assembly in India to reduce dependence on China.",
+     "Intel opened Fab 34 at Leixlip in 2023 and cancelled a planned fab at Magdeburg, Germany, which had been announced in 2022."
+    ]
+   },
+   {
+    "h": "Effects of mobility on regions",
+    "points": [
+     "The receiving region gains jobs, skills and exports.",
+     "The losing region suffers unemployment, the loss of spin-off jobs and emigration.",
+     "Branch-plant economies are vulnerable because the decisions about their plants are taken abroad."
+    ]
+   },
+   {
+    "b": "A branch plant is a factory or office owned and controlled by a company headquartered elsewhere. Headquarters decides whether it opens or closes, to suit the whole company rather than the host region.",
+    "h": "Branch plants and corporate strategy",
+    "points": [
+     "Strategies that open branch plants: expansion into new markets; locating inside a trade bloc; following tax incentives and grants; acquiring other companies through mergers and takeovers; joint ventures that share the cost of huge investments; and government subsidy schemes.",
+     "The US CHIPS and Science Act of 2022 provided about $50 billion of US government support for chip making and research in the USA. The EU Chips Act followed in 2023.",
+     "Strategies that close branch plants: cost-cutting and rationalisation, concentrating production in fewer, larger plants; relocation to cheaper countries; outsourcing to contract manufacturers; falling demand for a mature product; mergers that leave duplicate plants.",
+     "Reshoring, which means bringing production back home for security of supply."
+    ]
+   },
+   {
+    "h": "Dell in Limerick: founding and Irish role",
+    "points": [
+     "Dell was founded in 1984 by Michael Dell in Austin, Texas. Its headquarters are in Round Rock, Texas.",
+     "Dell sold direct: it built computers to order and sold them by phone and, from the mid-1990s, online, with no shops in between.",
+     "Dell set up in Limerick (Raheen) in 1990. Limerick became its European manufacturing base, and Dell was one of Ireland's largest exporters.",
+     "Dell went private in 2013 and bought EMC in 2016, which gave it EMC's large operation at Ovens, Co. Cork."
+    ]
+   },
+   {
+    "h": "Dell in Limerick: closure and relocation",
+    "points": [
+     "In January 2009 Dell announced that it would move its Limerick manufacturing to Łódź, Poland, with the loss of about 1,900 jobs, plus job losses at local suppliers.",
+     "Reasons: lower wages and costs in Poland; Polish government aid, which the EU approved; nearness to growing markets in Central and Eastern Europe; falling PC prices; and the 2008–09 recession.",
+     "Effects on Limerick: the loss of about 1,900 direct jobs and of jobs at local suppliers, and the loss of one of Ireland's largest exporters.",
+     "The EU Globalisation Adjustment Fund paid for retraining and support for the former Dell workers.",
+     "Dell kept its sales, support and other offices in Ireland. Manufacturing closed; the company did not leave Ireland."
+    ]
+   },
+   {
+    "h": "Intel's corporate strategy",
+    "points": [
+     "Intel invested billions of euro in its Leixlip campus, with over €30 billion invested by 2023.",
+     "In 2024 Intel sold 49% of the Fab 34 joint venture to Apollo Global Management, an American investment firm, for about $11 billion, to raise money for its other projects.",
+     "Intel announced about 15,000 global job cuts in August 2024, when its profits fell, with further cuts in 2025.",
+     "Government support includes the US CHIPS and Science Act and a US government stake of about 10% in Intel in 2025."
+    ]
+   },
+   {
+    "b": "Product life cycle (PLC) theory, put forward by Raymond Vernon in 1966, says a product passes through introduction, growth, maturity and decline. Its location changes at each stage.",
+    "h": "Product life cycle and location",
+    "points": [
+     "Stages: introduction (development), growth, maturity and decline. Sales are drawn as a curve against time.",
+     "Introduction and growth happen in the core, close to headquarters, research and development, skilled workers and wealthy early customers.",
+     "At maturity the product is standardised and competition cuts prices, so production moves to cheaper locations: first semi-peripheral countries such as Ireland in the past, then Eastern Europe and Asia.",
+     "In decline the plant closes, or it is upgraded to make a new product.",
+     "Exam method: pair each stage of the cycle with a real change of location by a named MNC, such as Dell's move to Poland or Intel's Copy Exactly fabs, rather than describing the theory alone."
+    ]
+   },
+   {
+    "h": "Dell and the product life cycle",
+    "points": [
+     "The personal computer became a mature, standardised product with falling prices.",
+     "Dell therefore moved its assembly from Limerick to Łódź in Poland, a cheaper location, in 2009.",
+     "The Dell case shows the mature-stage pattern: production is moved to cut costs while the company keeps sales and support in Ireland."
+    ]
+   },
+   {
+    "h": "Intel and the product life cycle",
+    "points": [
+     "Each chip generation has a short life of a few years.",
+     "New processes are developed at Hillsboro, Oregon, then copied exactly into fabs such as Leixlip. This is Intel's 'Copy Exactly!' policy, which copies equipment and procedures exactly from the development fab to the others.",
+     "Older fabs are upgraded or closed as the cycle moves on.",
+     "Ireland keeps its place by winning each new generation, as Fab 34 does for the Intel 4 and Intel 3 generations.",
+     "Intel missed the start of the smartphone and AI chip cycles, which helped rivals. Nvidia leads in chips for artificial intelligence, and Apple dropped Intel chips from its Macs from 2020."
+    ]
+   },
+   {
+    "h": "Information technology and the MNC's operations",
+    "points": [
+     "Computer-aided design and automation are used in the fab.",
+     "Global communication lets one headquarters run plants on several continents.",
+     "Real-time stock control and just-in-time supply reduce stock held at each plant.",
+     "Online sales: Dell's direct model moved online from the mid-1990s.",
+     "New technology changes demand, moving from PCs to smartphones and then to cloud computing and AI. This creates new markets and destroys older ones.",
+     "Moore's Law, from Gordon Moore in 1965, states that the number of transistors on a chip doubles about every two years."
+    ]
+   },
+   {
+    "b": "Teleservices are services delivered at a distance using telecommunications, such as call centres, customer support, technical help desks, and shared services such as payroll and accounts.",
+    "h": "Teleservices",
+    "points": [
+     "Why Ireland attracted them: an English-speaking and multilingual workforce, a time zone between the USA and Europe, good broadband, and IDA support.",
+     "Apple's Cork campus provides AppleCare customer support in many European languages.",
+     "Microsoft has been in Ireland since 1985.",
+     "Threat: routine teleservices are moving to cheaper destinations such as India (Bengaluru) and the Philippines (Manila), and automation and AI chatbots are reducing routine jobs."
+    ]
+   },
+   {
+    "h": "Information technology sector in Ireland",
+    "points": [
+     "Google's European headquarters are at Barrow Street, Grand Canal Dock, Dublin, in the area known as Silicon Docks.",
+     "Meta (Facebook) has its international headquarters in Dublin.",
+     "Ireland is one of the world's largest exporters of computer services."
+    ]
+   },
+   {
+    "h": "Data centres and cloud computing",
+    "points": [
+     "Data centres are large buildings filled with servers that run cloud computing.",
+     "Ireland attracts them because of its cool climate, which reduces cooling costs, its connectivity, and the technology companies already here.",
+     "Data centres used about 21% of Ireland's metered electricity in 2023 (CSO), up from 5% in 2015. Most are in the Dublin region.",
+     "Operators include Amazon Web Services, Microsoft and Google.",
+     "EirGrid restricted new data-centre connections in the Dublin area from 2022."
+    ]
+   },
+   {
+    "b": "E-commerce is buying and selling goods and services online.",
+    "h": "E-commerce",
+    "points": [
+     "Amazon was founded in 1994 by Jeff Bezos in Seattle, USA. Alibaba was founded in 1999 in Hangzhou, China.",
+     "Effects: online-only companies appear, some high-street shops decline, and warehouses and delivery services grow.",
+     "Cross-border parcels from Asia increase.",
+     "Dell was an early large online seller.",
+     "COVID-19 lockdowns, which began in Ireland in March 2020, accelerated online buying."
+    ]
+   },
+   {
+    "h": "Future trends for economic activities",
+    "points": [
+     "Remote and hybrid working has continued after COVID-19.",
+     "Artificial intelligence and automation are reducing routine jobs.",
+     "Reshoring and friend-shoring: a move to secure supply of strategic industries such as chips.",
+     "Risks for Ireland from the global minimum tax, under which the rate is 15% for groups with turnover over €750 million, and from US tariffs."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Company: Intel only. Product life cycle: each chip generation has a short life of a few years, so Intel must keep developing new processes. New processes are developed at Hillsboro, Oregon, and copied exactly to Leixlip under the Copy Exactly policy. Older fabs are upgraded or closed as products reach maturity and decline. Fab 34 at Leixlip makes the newest Intel 4 and Intel 3 generations, so Ireland keeps its role by winning each new generation. Intel missed the start of the smartphone and AI chip cycles, which helped rivals such as Nvidia. Information technology: computer-aided design and automation are used in the fabs. Global communication lets one headquarters control plants on several continents. Real-time stock control and just-in-time supply reduce stock at each plant. New technology moves demand from PCs to smartphones and then to cloud computing and AI, which creates and destroys markets. Apple's own chips replaced Intel chips in its Macs from 2020, showing how product change affects a supplier's customers.",
+    "prompt": "Examine how the product life cycle and developments in information technology have affected the operations of one multinational company.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Company: Dell only. Meaning: modern activities are footloose, so they are not tied to a raw material or a port, and they can move between regions far more easily than older heavy industry. Dell sold computers directly, built to order and online, so it could run plants where costs were lowest. Dell set up in Limerick in 1990, and Limerick became its European manufacturing base and one of Ireland's largest exporters. In January 2009 Dell announced that it would move manufacturing to Łódź, Poland, with the loss of about 1,900 jobs and jobs at local suppliers. The reasons were lower wages and costs in Poland, Polish government aid approved by the EU, nearness to growing markets in Central and Eastern Europe, falling PC prices and the 2008–09 recession. Effects on Limerick were the loss of direct jobs, supplier jobs and an exporter. The EU Globalisation Adjustment Fund paid for retraining and support for the former workers. Dell kept its sales, support and other offices in Ireland, showing that a branch plant can close while the company stays. Other examples of mobility include Nissan at Sunderland, north-east England, and call centres and IT services moving to Bengaluru, India.",
+    "prompt": "Discuss the mobility of modern economic activities with reference to one multinational company.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "First, lower labour costs: Dell moved its Limerick manufacturing to Łódź, Poland, where wages and costs were lower. Second, nearness to growing markets: Dell's move put production closer to growing markets in Central and Eastern Europe, and Polish government aid made the move cheaper. Falling PC prices in the mature stage of the product life cycle also pushed the company to cut costs.",
+    "prompt": "Explain two reasons why a multinational company might move its factory from Ireland to another country.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s3": {
+  "keyTerms": [
+   {
+    "definition": "The trade in physical goods that can be seen and counted, such as cars, food and computer chips.",
+    "term": "Visible trade"
+   },
+   {
+    "definition": "The trade in services, such as software, financial services, tourism and aircraft leasing.",
+    "term": "Invisible trade"
+   },
+   {
+    "definition": "The value of a country's exports minus the value of its imports.",
+    "term": "Balance of trade"
+   },
+   {
+    "definition": "The record of all money flows between a country and the rest of the world, including trade, investment, profits, borrowing and transfers.",
+    "term": "Balance of payments"
+   },
+   {
+    "definition": "The situation in which the value of a country's imports is greater than the value of its exports.",
+    "term": "Trade deficit"
+   },
+   {
+    "definition": "Policies that restrict imports to protect home industries, using barriers such as tariffs and quotas.",
+    "term": "Protectionism"
+   },
+   {
+    "definition": "A limit on the quantity of a product that can be imported.",
+    "term": "Quota"
+   },
+   {
+    "definition": "The three core economic areas of North America, Europe and the Pacific Rim, which carry most world trade.",
+    "term": "Trading triad"
+   },
+   {
+    "definition": "A country that has moved from low-income, mainly agricultural economies to manufacturing and exporting, such as South Korea.",
+    "term": "Newly industrialised country (NIC)"
+   },
+   {
+    "definition": "A family-controlled business group in South Korea, such as Samsung, Hyundai, LG or SK.",
+    "term": "Chaebol"
+   },
+   {
+    "definition": "The specialisation of countries and regions in different stages of production and different types of work.",
+    "term": "International division of labour"
+   },
+   {
+    "definition": "Trade that guarantees producers in developing countries a minimum price and a premium, shown by the Fairtrade mark.",
+    "term": "Fair trade"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Trade is the buying and selling of goods and services between countries. Exports leave a country and imports arrive in it.",
+    "h": "Trade vocabulary: visible and invisible trade",
+    "points": [
+     "Visible trade is goods that can be seen and counted, such as cars, food and computer chips.",
+     "Invisible trade is services, such as software, financial services, tourism and aircraft leasing.",
+     "Balance of trade: the value of exports minus the value of imports.",
+     "A trade surplus means exports are greater than imports; a trade deficit means imports are greater than exports."
+    ]
+   },
+   {
+    "h": "Balance of payments",
+    "points": [
+     "Balance of payments: the record of all money flows between a country and the rest of the world.",
+     "It includes trade in goods and services, plus investment flows, profits sent home, borrowing and transfers.",
+     "It is a wider measure than the balance of trade, which records only exports and imports."
+    ]
+   },
+   {
+    "h": "Effects of a trade deficit and of exports",
+    "points": [
+     "A persistent trade deficit means money flows out of the country to pay for the extra imports.",
+     "The country may have to borrow or sell assets to pay for those imports.",
+     "Home industries and jobs can be lost as cheaper imports replace domestic production.",
+     "The currency may weaken when a country persistently imports more than it exports.",
+     "Exports bring jobs, tax revenue, foreign earnings and economic growth."
+    ]
+   },
+   {
+    "h": "Many export partners",
+    "points": [
+     "A country with many export partners is less dependent on any one market.",
+     "A recession, tariff or crisis in one country, such as the US tariffs imposed in 2025, then does less damage to its overall trade."
+    ]
+   },
+   {
+    "h": "Free trade, protectionism and the WTO",
+    "points": [
+     "Protectionism restricts imports to protect home industries.",
+     "Barriers to trade include tariffs (taxes on imports), quotas (limits on the quantity imported), subsidies that help home producers compete with imports, and regulations.",
+     "Trade blocs remove barriers between their own members.",
+     "GATT (General Agreement on Tariffs and Trade) was signed in 1947 to reduce tariffs between countries.",
+     "The World Trade Organisation (WTO) was set up on 1 January 1995, with headquarters in Geneva, Switzerland; it has over 160 member countries.",
+     "The WTO sets the rules of world trade and settles disputes between members.",
+     "Fair trade gives producers in developing countries a guaranteed minimum price and a premium, shown by the Fairtrade mark."
+    ]
+   },
+   {
+    "b": "World trade has grown much faster than world output since 1950, and most countries now depend on imports and exports.",
+    "h": "Growth of world trade",
+    "points": [
+     "Falling trade barriers, through GATT and the WTO, made it cheaper to trade across borders.",
+     "Containerisation began with the first container ship voyage, the Ideal X of Malcolm McLean, USA, in 1956; containers made loading and shipping faster and cheaper.",
+     "Shanghai, China, has been the world's busiest container port since 2010.",
+     "Air freight and information and communication technology (ICT) speed up trade in high-value goods and services.",
+     "Multinational companies (MNCs) trade components between their own plants in different countries.",
+     "The entry of China and Eastern Europe into world trade added large new producers and markets."
+    ]
+   },
+   {
+    "b": "The three triad areas and the rest of the world are linked by shipping routes and by products whose parts come from many countries.",
+    "h": "Global linkages and chokepoints",
+    "points": [
+     "One product links many countries: the iPhone and Intel chip supply chains, described in the note 'One multinational company (MNC)', each pass through several countries.",
+     "The Suez Canal, opened in 1869, and the Panama Canal, opened in 1914, are chokepoints on the shipping routes linking the triad.",
+     "In March 2021 the container ship Ever Given blocked the Suez Canal for about six days, holding up hundreds of ships.",
+     "From late 2023 attacks on shipping in the Red Sea forced many ships to sail around the Cape of Good Hope, Africa.",
+     "The 2008–09 global financial crisis caused world trade to fall sharply in 2009.",
+     "COVID-19 (2020–21) disrupted supply chains, for example in the 2021 chip shortage."
+    ]
+   },
+   {
+    "b": "The trading triad is North America, Europe and the Pacific Rim, the three core economic areas of the world.",
+    "h": "The trading triad",
+    "points": [
+     "The triad produces most of the world's manufactured goods.",
+     "It holds the headquarters of most multinational companies (MNCs).",
+     "Most world trade takes place among the three areas, and most foreign direct investment flows between them."
+    ]
+   },
+   {
+    "h": "North America: the USA",
+    "points": [
+     "The USA is the world's largest economy and its largest importer.",
+     "It has had a trade deficit in goods every year since the mid-1970s.",
+     "NAFTA (North American Free Trade Agreement: USA, Canada, Mexico) took effect on 1 January 1994.",
+     "USMCA (United States–Mexico–Canada Agreement) replaced NAFTA on 1 July 2020.",
+     "Mexico overtook China in 2023 as the largest source of US imports.",
+     "From 2018 the USA put tariffs on many Chinese goods in the US–China trade war.",
+     "In 2025 the USA raised tariffs on imports from most countries."
+    ]
+   },
+   {
+    "h": "Europe: the EU",
+    "points": [
+     "The EU is a single market of 27 member states, since the UK left the EU.",
+     "The single market began on 1 January 1993, removing barriers to trade between members.",
+     "The EU is the largest trading bloc by value, with strong trade with the USA and China.",
+     "The euro was introduced in 1999; euro notes and coins followed in 2002.",
+     "In July 2025 the EU and USA agreed a 15% US tariff on most EU goods."
+    ]
+   },
+   {
+    "b": "In the triad, the Pacific Rim means mainly East and South-East Asia, together with Australia. India is not part of it.",
+    "h": "The Pacific Rim",
+    "points": [
+     "Members include Japan, China, South Korea, Taiwan, Hong Kong, Singapore, the ASEAN countries and Australia.",
+     "ASEAN (Association of Southeast Asian Nations) was founded in 1967.",
+     "APEC (Asia-Pacific Economic Cooperation) was founded in 1989.",
+     "RCEP (Regional Comprehensive Economic Partnership) has 15 Asia-Pacific members, including China, Japan, South Korea, Australia and the ASEAN members.",
+     "RCEP was signed in November 2020 and came into force from 2022; its members hold about 30% of the world's population and GDP.",
+     "The Asian Tigers are South Korea, Taiwan, Hong Kong and Singapore."
+    ]
+   },
+   {
+    "h": "Japan",
+    "points": [
+     "After the Second World War Japan's growth was based on exporting manufactured goods, mainly cars and electronics.",
+     "Japan has few raw materials, so it imports most of its oil, coal and iron ore.",
+     "Japan was the world's second-largest economy from the late 1960s until China overtook it in 2010; Germany overtook Japan in 2023.",
+     "Toyota, based in Toyota City, uses just-in-time production, which delivers parts as they are needed rather than storing them.",
+     "Other major Japanese companies are Honda, Sony and Nissan.",
+     "To avoid trade barriers, Japanese firms opened factories inside the EU and USA; Nissan's car plant at Sunderland, north-east England, opened in 1986, inside the European Economic Community (EEC).",
+     "Japan's growth has been slower since the 1990s."
+    ]
+   },
+   {
+    "h": "China: the workshop of the world",
+    "points": [
+     "Deng Xiaoping's economic reforms, from 1978, opened China's closed economy to foreign trade and investment.",
+     "The first Special Economic Zones (SEZs) were set up in 1980, including Shenzhen beside Hong Kong.",
+     "Shenzhen is in mainland China and is not part of Hong Kong; it grew from a small town to over 17 million people (2020 census).",
+     "China joined the WTO on 11 December 2001.",
+     "China has been the world's largest exporter of goods since 2009, and it overtook Japan as the second-largest economy in 2010.",
+     "China runs a huge trade surplus.",
+     "The Belt and Road Initiative, launched in 2013, links China to Asia, Africa and Europe through ports, railways and roads.",
+     "The trade war with the USA, begun in 2018, is described under North America."
+    ]
+   },
+   {
+    "h": "South Korea: an export-led newly industrialised country (NIC)",
+    "points": [
+     "South Korea was war-damaged by the Korean War (1950–53) and was one of the world's poorest countries in the early 1960s.",
+     "Under President Park Chung-hee (1961–79) it industrialised through exports and rose from poverty to high income.",
+     "Its economy is dominated by chaebol, family-controlled business groups such as Samsung (founded 1938), Hyundai, LG and SK.",
+     "Ulsan is home to Hyundai's shipyards, among the world's largest, and to a Hyundai car plant.",
+     "South Korea is a world leader in shipbuilding, cars, electronics and memory chips, and Samsung makes smartphones.",
+     "South Korea is one of the Asian Tigers and joined the OECD in 1996."
+    ]
+   },
+   {
+    "h": "Areas outside the triad",
+    "points": [
+     "Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials; the reasons are in the note 'How the global economy is organised'."
+    ]
+   },
+   {
+    "b": "An international division of labour means that countries and regions specialise in different stages of production and different types of work.",
+    "h": "The international division of labour: the old pattern",
+    "points": [
+     "In the old, colonial pattern, colonies and developing countries exported raw materials and food, while Europe and later the USA manufactured goods and sold them back.",
+     "Sudan's Gezira Scheme, from 1925, grew irrigated cotton for the British (Lancashire) textile mills.",
+     "India exported raw cotton and tea to Britain under colonial rule.",
+     "Ghana (then the Gold Coast) exported cocoa; Côte d'Ivoire and Ghana together grow over half of the world's cocoa today, still mostly exported unprocessed."
+    ]
+   },
+   {
+    "h": "The new international division of labour (from the 1960s–70s)",
+    "points": [
+     "Multinational companies moved assembly and routine manufacturing to newly industrialised countries (NICs) and low-wage countries.",
+     "The core kept headquarters, research and development (R&D), design, finance and marketing.",
+     "The periphery still supplies raw materials.",
+     "Apple's packaging carried the line 'Designed by Apple in California. Assembled in China.'",
+     "Intel's R&D is at Hillsboro, Oregon; its fabs (chip factories) include Leixlip in Ireland; assembly and test take place in Malaysia and Vietnam. The chain is also described in the note 'One multinational company (MNC)'."
+    ]
+   },
+   {
+    "h": "The division of labour keeps changing",
+    "points": [
+     "Services are now divided too: Bengaluru (Bangalore), India, is an IT services hub for firms such as Infosys, Wipro and Tata Consultancy Services, and IT and call centres are located in India.",
+     "China is moving into high-value products.",
+     "Low-cost assembly is spreading to Vietnam, Bangladesh and India."
+    ]
+   },
+   {
+    "b": "Ireland is a very open economy: its exports are larger than its GDP. It has moved from supplying food to the UK to hosting high-value manufacturing and services by multinational companies (MNCs).",
+    "h": "Ireland in world trade",
+    "points": [
+     "Goods exports passed €200 billion in 2024 (CSO), a record.",
+     "Most of this export value is produced by MNC plants, not by Irish-owned firms.",
+     "Main goods exports: pharmaceuticals and chemicals (the largest category), medical devices (a cluster at Galway, with firms such as Medtronic and Boston Scientific), computer chips and electronics, and food and drink (beef, dairy and whiskey).",
+     "Main services exports: computer services (Ireland is one of the world's largest exporters of them), financial services, aircraft leasing and tourism.",
+     "Irish-based lessors manage over half of the world's leased commercial aircraft, from Dublin and Shannon.",
+     "Ireland has a large goods trade surplus, the largest of it with the USA."
+    ]
+   },
+   {
+    "h": "Destinations of Irish exports",
+    "points": [
+     "The USA is the largest single market for Irish goods, taking about a third of them.",
+     "Other main markets are EU partners Belgium, Germany and the Netherlands, then the UK and China.",
+     "US pharmaceutical and technology MNCs export from their Irish plants back to the USA and worldwide, which is why the USA dominates.",
+     "In early 2025 Irish exports to the USA rose sharply as US buyers stockpiled medicines before new tariffs."
+    ]
+   },
+   {
+    "h": "Why exports to the UK changed",
+    "points": [
+     "The UK left the EU on 31 January 2020; the transition period ended on 31 December 2020.",
+     "Brexit brought customs checks on trade with the UK and took the UK out of the EU single market.",
+     "A weaker pound makes Irish goods dearer for UK buyers.",
+     "Irish firms have diversified into other markets."
+    ]
+   },
+   {
+    "h": "Risks in Ireland's trade pattern",
+    "points": [
+     "Ireland depends on a few US MNCs and on the US market.",
+     "US tariffs from 2025 expose Irish exports to the USA to new barriers."
+    ]
+   },
+   {
+    "h": "Reading trade data",
+    "points": [
+     "Read values from the chart or table and state their units before calculating.",
+     "Balance of trade for one country: subtract imports from exports; a negative result is a trade deficit.",
+     "Difference between two countries: subtract the smaller value from the larger.",
+     "Total exports: add the values for every partner.",
+     "Use a bar chart to compare values between countries and a line graph to show change over time."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "The trading triad of North America, Europe and the Pacific Rim is the three core economic areas of the world. Together they produce most of the world's manufactured goods, hold the headquarters of most multinational companies, and carry most world trade among themselves, with most foreign direct investment flowing between them. The USA is the world's largest economy and largest importer, and it has run a trade deficit in goods every year since the mid-1970s. Its trade bloc, NAFTA, took effect on 1 January 1994 and was replaced by USMCA on 1 July 2020, and its trade is shaped by tariffs, including the trade war with China from 2018 and the wider tariffs of 2025. Mexico overtook China in 2023 as the largest source of US imports. The EU is a single market of 27 member states, created on 1 January 1993 and using the euro since 1999. It is the largest trading bloc by value and trades strongly with the USA and China, although the July 2025 agreement set a 15% US tariff on most EU goods. The Pacific Rim, mainly East and South-East Asia with Australia, includes Japan, which was the second-largest economy until China overtook it in 2010 and which exports cars and electronics while importing most of its oil, coal and iron ore. China has become the world's largest exporter of goods since 2009, with a huge trade surplus, after its reforms from 1978 and its WTO entry in 2001. South Korea, one of the Asian Tigers, grew from war-damaged poverty through export-led industrialisation under Park Chung-hee, and its chaebol such as Samsung and Hyundai dominate shipbuilding, cars, electronics and memory chips. Regional bodies such as ASEAN, APEC and RCEP (in force from 2022, with about 30% of world population and GDP) strengthen the Pacific Rim's position. Despite this, Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials, so world trade is concentrated in the triad rather than shared across the world.",
+    "prompt": "Examine how world trade is dominated by the USA, Europe and the Pacific Rim.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The international division of labour means that countries and regions specialise in different stages of production and different types of work. The old, colonial pattern had colonies and developing countries exporting raw materials and food, while Europe and later the USA manufactured goods and sold them back. Sudan's Gezira Scheme, from 1925, grew cotton for the Lancashire textile mills, India exported raw cotton and tea to Britain, and Ghana exported cocoa; Ghana and Côte d'Ivoire still grow over half of the world's cocoa, mostly exported unprocessed. The new international division of labour began in the 1960s and 1970s, when multinational companies moved assembly and routine manufacturing to newly industrialised countries (NICs) and low-wage countries. The core kept headquarters, research and development, design, finance and marketing, while the periphery still supplies raw materials. Apple's products show this clearly: the packaging said Designed by Apple in California and Assembled in China. Intel does its R&D in Hillsboro, Oregon, makes chips in fabs such as Leixlip in Ireland, and carries out assembly and test in Malaysia and Vietnam. South Korea shows how a country can move up the chain: from war-damaged and poor in the early 1960s, it industrialised through exports under Park Chung-hee and now leads in shipbuilding, cars, electronics and memory chips, with family-controlled chaebol such as Samsung and Hyundai. Services are now divided too: Bengaluru in India has become an IT services hub for firms such as Infosys, Wipro and Tata Consultancy Services, and call centres are also located in India. The pattern keeps changing: China is moving into high-value products, and low-cost assembly is spreading to Vietnam, Bangladesh and India. The new division therefore links all regions in one global production system, while the core still keeps the highest-value functions.",
+    "prompt": "Explain what is meant by the new international division of labour, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "A trade surplus occurs when the value of a country's exports is greater than the value of its imports. A trade deficit occurs when the value of its imports is greater than the value of its exports. A disadvantage of a persistent trade deficit is that money flows out of the country to pay for the extra imports, so the country may have to borrow or sell assets to pay for them. Home industries and jobs can also be lost as cheaper imports replace domestic production.",
+    "prompt": "Explain the difference between a trade surplus and a trade deficit, and give one disadvantage of a trade deficit.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-globalisation-s4": {
+  "keyTerms": [
+   {
+    "definition": "A factory carrying out one stage of production, such as processing a raw material, making a component or assembling a product.",
+    "term": "Basic processing unit"
+   },
+   {
+    "definition": "An area where firms import components and export finished goods free of customs duty, with tax breaks.",
+    "term": "Export processing zone"
+   },
+   {
+    "definition": "An assembly plant along Mexico's border with the USA that imports components duty-free and exports finished goods to the USA.",
+    "term": "Maquiladora"
+   },
+   {
+    "definition": "A wealthy, densely developed area with capital, MNC headquarters, research and development, and political power.",
+    "term": "Core region"
+   },
+   {
+    "definition": "A poorer area that supplies raw materials, food and cheap labour, with weak infrastructure and out-migration.",
+    "term": "Periphery"
+   },
+   {
+    "definition": "Newly industrialised countries moving from the periphery towards the core.",
+    "term": "Semi-periphery"
+   },
+   {
+    "definition": "The process by which success attracts more investment, people and services, which increases success further.",
+    "term": "Cumulative causation"
+   },
+   {
+    "definition": "The draining of capital and skilled people from a periphery to a core.",
+    "term": "Backwash effect"
+   },
+   {
+    "definition": "A simple North–South division between the rich north and the poor south, proposed in the Brandt Report of 1980.",
+    "term": "Brandt Line"
+   },
+   {
+    "definition": "Higher tariffs on processed goods than on raw materials, which discourages processing in the exporting country.",
+    "term": "Tariff escalation"
+   },
+   {
+    "definition": "Moving production back to the home country from abroad.",
+    "term": "Reshoring"
+   },
+   {
+    "definition": "The growing integration of the world's economies through trade, investment, MNCs, technology and the movement of people and ideas.",
+    "term": "Globalisation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A basic processing unit is a factory carrying out one stage of production: processing a raw material, making a component or assembling a product. Multinational companies (MNCs) place each stage in whichever country suits it best.",
+    "h": "Basic processing units",
+    "points": [
+     "The Intel and Apple chains, described in the note 'One multinational company (MNC)', are examples of stages spread across several countries.",
+     "Cheap labour suits labour-intensive assembly.",
+     "Units are placed close to raw materials or to markets.",
+     "A factory inside a trade bloc sells to the bloc's members without the barriers that apply to imports from outside.",
+     "Tax breaks and grants lower the cost of operating in a country.",
+     "Falling transport and communication costs make distant factories practical.",
+     "Spreading production across many countries means that one disaster or strike does not stop all production."
+    ]
+   },
+   {
+    "b": "Nike designs and sells shoes but owns almost none of the factories that make them.",
+    "h": "Nike: a manufacturer without factories",
+    "points": [
+     "Founded as Blue Ribbon Sports in 1964 by Phil Knight and Bill Bowerman; renamed Nike in 1971.",
+     "Headquarters, design and marketing are in Beaverton, Oregon, USA.",
+     "Footwear is made by independent contract factories, mainly in Vietnam (the largest), China and Indonesia.",
+     "Nike sells its products worldwide.",
+     "Sweatshop criticism in the 1990s, including of factories in Indonesia, led to factory monitoring and published supplier lists."
+    ]
+   },
+   {
+    "b": "In an export processing zone, firms import components and export finished goods free of customs duty, and they receive tax breaks.",
+    "h": "Export processing zones (EPZs) and Special Economic Zones",
+    "points": [
+     "Shannon Free Zone, Co. Clare, set up in 1959, was one of the world's first export processing zones and Ireland's pioneer.",
+     "Shenzhen, China, became a Special Economic Zone in 1980.",
+     "Maquiladoras are assembly plants along Mexico's border with the USA, such as those at Tijuana and Ciudad Juárez, set up from 1965.",
+     "A maquiladora imports components duty-free and exports finished goods to the USA."
+    ]
+   },
+   {
+    "h": "Disadvantages of a spread-out system",
+    "points": [
+     "Long supply chains are vulnerable to disruption, as the 2021 chip shortage, the Ever Given blockage and the Red Sea diversions showed (see the note 'Patterns in world trade').",
+     "Branch plants close when costs change, and their workers lose jobs.",
+     "Some plants pay low wages and have poor conditions.",
+     "Moving components and goods over long distances has an environmental cost.",
+     "Responses include reshoring (moving production back to the home country) and friend-shoring (moving it to politically allied countries)."
+    ]
+   },
+   {
+    "h": "The core: wealthy and powerful",
+    "points": [
+     "Core regions have capital, MNC headquarters, research and development, skilled labour, good infrastructure and political power.",
+     "The core's examples are the USA, western Europe's Blue Banana and Japan.",
+     "The periphery supplies raw materials, food and cheap labour, with weak infrastructure and out-migration of people.",
+     "Most of sub-Saharan Africa, parts of Latin America and parts of South Asia are periphery."
+    ]
+   },
+   {
+    "h": "The semi-periphery",
+    "points": [
+     "The semi-periphery is made up of newly industrialised countries moving towards the core.",
+     "South Korea did so earlier; China, India, Brazil and Mexico are doing so now."
+    ]
+   },
+   {
+    "h": "How the core developed",
+    "points": [
+     "Britain industrialised first, from the late 18th century (the Industrial Revolution), followed by western Europe and the USA.",
+     "Colonial empires supplied the core with raw materials and markets, and profits were reinvested in the core.",
+     "Cumulative causation, a model by Gunnar Myrdal (1957): success attracts more investment, people and services, which increases success.",
+     "Backwash effects drain capital and skilled people from the periphery to the core.",
+     "The Blue Banana runs from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (see the note 'Socio-economic regions')."
+    ]
+   },
+   {
+    "h": "How the periphery developed, or failed to",
+    "points": [
+     "Colonial economies were built around exporting one or two raw materials.",
+     "Railways ran from mines and plantations to ports, rather than linking regions to each other.",
+     "Borders were drawn by the colonisers.",
+     "After independence these economies depended on falling commodity prices, were burdened by debt and suffered conflict."
+    ]
+   },
+   {
+    "h": "The pattern can change",
+    "points": [
+     "Spread effects and investment can raise peripheral regions.",
+     "The Asian Tigers and China moved from periphery to semi-periphery or core in about two generations.",
+     "Ireland moved from the European periphery to a core-like economy through MNC investment (see the note 'Irish Regions — Core and Peripheral').",
+     "The Brandt Line, from the Brandt Report of 1980, is a simple North–South model of the same pattern; criticism of it is in the note 'Option — Global Interdependence'."
+    ]
+   },
+   {
+    "b": "Sub-Saharan Africa is the main region excluded from world manufacturing. It has a very small share of world manufacturing and exports mostly unprocessed raw materials.",
+    "h": "Sub-Saharan Africa: the main excluded region",
+    "points": [
+     "Nigeria: crude oil is most of its exports.",
+     "Zambia: copper is most of its exports.",
+     "The Democratic Republic of the Congo produces most of the world's cobalt and exports it raw despite its huge reserves, amid conflict.",
+     "Sudan: civil war between the Sudanese Armed Forces and the Rapid Support Forces since April 2023 has caused one of the world's largest displacement crises.",
+     "South Sudan became independent from Sudan in 2011, taking most of the oil fields.",
+     "The 2023 war is within Sudan, not a war with South Sudan."
+    ]
+   },
+   {
+    "h": "Reasons for exclusion",
+    "points": [
+     "Poor infrastructure: roads and ports are inadequate and electricity is unreliable.",
+     "Landlocked countries: Africa has 16, such as Chad, Niger, Mali and South Sudan, and they face high transport costs to reach ports.",
+     "Political instability, conflict and corruption scare off investment.",
+     "Low levels of education and skills, and poor health, limit the workforce.",
+     "Small, poor home markets give firms little reason to produce locally.",
+     "Heavy debt absorbs money that could fund development.",
+     "The colonial legacy: economies were set up to export raw materials, and that pattern persists.",
+     "Tariff escalation: rich countries charge higher tariffs on processed goods than on raw materials, so processing at home does not pay; coffee beans enter rich markets with low tariffs, while roasted coffee faces higher ones.",
+     "Competition from established Asian manufacturers, which already have supply chains and skilled workers.",
+     "Climate hazards such as drought reduce farm output and disrupt production."
+    ]
+   },
+   {
+    "h": "Attempts to reduce exclusion",
+    "points": [
+     "The Heavily Indebted Poor Countries (HIPC) initiative, begun in 1996, gives debt relief through the World Bank and IMF.",
+     "The African Continental Free Trade Area began trading on 1 January 2021.",
+     "Chinese and other foreign investment is building infrastructure.",
+     "Fair trade (see the note 'Patterns in world trade')."
+    ]
+   },
+   {
+    "b": "Globalisation is the growing integration of the world's economies through trade, investment, MNCs, technology and the movement of people and ideas.",
+    "h": "Globalisation and world trade",
+    "points": [
+     "About 80% of world trade is linked to the international production networks of MNCs (UNCTAD, 2013).",
+     "Much of it is intra-firm trade, between parts of the same company or with its suppliers in global value chains.",
+     "Trade is increasingly in components rather than finished goods.",
+     "Trade in services and digital trade has grown rapidly.",
+     "New trading powers, led by China, have entered world trade.",
+     "The WTO and trade blocs have lowered barriers.",
+     "Containerisation and huge ports have cut the cost of shipping.",
+     "E-commerce brings small sellers into world markets."
+    ]
+   },
+   {
+    "h": "Winners and losers",
+    "points": [
+     "Consumers gain cheaper goods.",
+     "NICs and China gain jobs and growth.",
+     "Manufacturing regions in the core lose jobs.",
+     "Excluded regions fall further behind.",
+     "Workers in low-wage assembly can face poor and unsafe conditions, as the Rana Plaza collapse showed.",
+     "Transporting goods over long distances has environmental costs."
+    ]
+   },
+   {
+    "h": "Reaction against globalisation",
+    "points": [
+     "The US–China trade war from 2018, the US tariffs of 2025 and Brexit have raised barriers between major economies.",
+     "Governments are reshoring strategic industries such as chips, bringing production back home.",
+     "Supply-chain worries grew after COVID-19."
+    ]
+   },
+   {
+    "b": "India's economy was tightly controlled before 1991, and it opened to globalisation only after a crisis.",
+    "h": "India: globalisation before and after 1991",
+    "points": [
+     "Five-year plans from 1951 directed investment and production.",
+     "Protection shielded Indian industries from foreign competition.",
+     "The Licence Raj: firms needed government licences to produce and expand, which limited competition and growth.",
+     "A balance-of-payments crisis in 1991 forced change.",
+     "Prime Minister P. V. Narasimha Rao and Finance Minister Manmohan Singh removed most licences, cut tariffs and opened India to foreign investment."
+    ]
+   },
+   {
+    "b": "Globalisation brought rapid growth, new industries and foreign investment.",
+    "h": "India: positive impacts of globalisation",
+    "points": [
+     "Bengaluru became known as the 'Silicon Valley of India'.",
+     "IT and business-process outsourcing grew rapidly; Tata Consultancy Services (founded 1968), Infosys (founded 1981) and Wipro grew, with Bengaluru as a major hub.",
+     "Texas Instruments opened a design centre in Bengaluru in 1985.",
+     "Maruti Suzuki, a joint venture with Suzuki of Japan, made its first car in 1983.",
+     "India is a leading maker of generic medicines, earning it the name 'pharmacy of the world'.",
+     "Make in India, launched in 2014, aimed to attract manufacturing; iPhones are assembled near Chennai and Bengaluru (see the note 'One multinational company (MNC)').",
+     "Services produce over half of India's GDP, and India is among the world's five largest economies (early 2020s).",
+     "A growing middle class has emerged.",
+     "Hundreds of millions of people have been moved out of extreme poverty."
+    ]
+   },
+   {
+    "h": "India: negative impacts of globalisation",
+    "points": [
+     "Inequality exists between cities and rural areas, and between states.",
+     "Small farmers are exposed to world prices.",
+     "Farmers' protests in 2020–21 were against three farm laws, which were repealed in November 2021.",
+     "Most workers are still in the informal sector.",
+     "Pollution and accidents at MNC plants: the Bhopal gas leak at the Union Carbide pesticide plant in December 1984 killed thousands; Union Carbide was a US MNC."
+    ]
+   },
+   {
+    "h": "China since 1978",
+    "points": [
+     "Reforms under Deng Xiaoping from 1978 opened China to foreign trade and investment.",
+     "Special Economic Zones from 1980 attracted foreign investment.",
+     "China joined the WTO on 11 December 2001.",
+     "China has been the largest goods exporter since 2009.",
+     "About 800 million people have been lifted out of extreme poverty since 1978 (World Bank).",
+     "Inequality exists between the coast and the interior.",
+     "Pollution from rapid industrial growth and dependence on exports are costs of this model."
+    ]
+   },
+   {
+    "h": "Bangladesh: garments and Rana Plaza",
+    "points": [
+     "Ready-made garments are most of Bangladesh's exports; it is the world's second-largest garment exporter after China.",
+     "The garment industry provides jobs, especially for women.",
+     "Rana Plaza, Savar, near Dhaka, collapsed on 24 April 2013, killing over 1,100 garment workers. It was a building collapse, not a fire.",
+     "The Accord on Fire and Building Safety in Bangladesh, signed in 2013 by clothing brands and unions, introduced factory inspections."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "India is the developing economy studied here. Before 1991 its economy was tightly controlled: five-year plans from 1951 directed investment, protection shielded Indian industries from foreign competition, and the Licence Raj required firms to hold government licences to produce and expand. A balance-of-payments crisis in 1991 forced change. Prime Minister P. V. Narasimha Rao and Finance Minister Manmohan Singh then removed most licences, cut tariffs and opened India to foreign investment. The positive impacts were rapid growth in IT and business-process outsourcing. Bengaluru, known as the Silicon Valley of India, became a hub for firms such as Tata Consultancy Services (founded 1968), Infosys (founded 1981) and Wipro, and Texas Instruments opened a design centre there in 1985. Foreign investment brought Maruti Suzuki, a joint venture with Suzuki of Japan, which made its first car in 1983. India became a leading maker of generic medicines and exports cars and pharmaceuticals. Make in India, launched in 2014, aimed to attract manufacturing, and iPhones are now assembled near Chennai and Bengaluru. Services produce over half of India's GDP, a growing middle class has emerged, and hundreds of millions of people have been moved out of extreme poverty. The negative impacts were serious too. Inequality exists between cities and rural areas and between states. Small farmers are exposed to world prices, which led to the farmers' protests of 2020–21 against three farm laws, repealed in November 2021. Most workers remain in the informal sector without security. Pollution and MNC accidents also occurred, as in the Bhopal gas leak at the Union Carbide pesticide plant in December 1984, which killed thousands. Overall, globalisation has brought growth and poverty reduction to India alongside inequality, insecure work and environmental harm.",
+    "prompt": "Explain the impact of globalisation on one developing economy that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Sub-Saharan Africa is the main excluded region. It has a very small share of world manufacturing and exports mostly unprocessed raw materials: crude oil from Nigeria, copper from Zambia and cobalt from the Democratic Republic of the Congo. Poor infrastructure, including roads, ports and unreliable electricity, raises the cost of producing and moving goods. Africa has 16 landlocked countries, such as Chad, Niger, Mali and South Sudan, which face high transport costs to reach ports. Political instability, conflict and corruption scare off investment; the civil war in Sudan since April 2023 is one example, and it has caused one of the world's largest displacement crises. Low levels of education, skills and health limit the workforce, and small, poor home markets give firms little reason to produce locally. Heavy debt absorbs money that could fund development. Tariff escalation means rich countries charge higher tariffs on processed goods than on raw materials: coffee beans enter rich markets with low tariffs, while roasted coffee faces higher ones, so processing at home does not pay. The colonial legacy left economies built around exporting raw materials, a pattern that persists. Competition from established Asian manufacturers, which already have supply chains and skilled workers, makes entry harder. Climate hazards such as drought reduce farm output. Responses include debt relief through the HIPC initiative from 1996, the African Continental Free Trade Area, which began trading on 1 January 2021, and foreign investment in infrastructure. Together these barriers explain why the region remains largely excluded from world manufacturing.",
+    "prompt": "Examine why some regions of the world are excluded from world manufacturing activity.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Globalisation is the growing integration of the world's economies through trade, investment, multinational companies (MNCs), technology and the movement of people and ideas. World trade has grown faster than output, and about 80% of it is linked to the international production networks of MNCs (UNCTAD, 2013). Much of it is intra-firm trade, between parts of the same company or with its suppliers in global value chains. Basic processing units are spread across countries: Nike designs and sells shoes from Beaverton, Oregon, while independent contract factories in Vietnam, China and Indonesia make them, and export processing zones such as Shannon Free Zone and the Shenzhen Special Economic Zone, as well as Mexico's maquiladoras, allow duty-free assembly for export. Trade is increasingly in components rather than finished goods, and trade in services and digital trade has grown rapidly. New trading powers, led by China, have entered world trade, and China has been the largest goods exporter since 2009. The WTO and trade blocs have lowered barriers, while containerisation and huge ports have cut shipping costs, and e-commerce brings small sellers into world markets. These changes have created winners and losers. Consumers gain cheaper goods, and NICs and China gain jobs and growth. Manufacturing regions in the core lose jobs, excluded regions fall further behind, and workers in low-wage assembly can face poor and unsafe conditions, as the Rana Plaza collapse of 2013 showed. Transport over long distances has environmental costs. In reaction, the US–China trade war from 2018, the US tariffs of 2025 and Brexit have raised barriers, and governments are reshoring strategic industries such as chips. Supply-chain worries grew after COVID-19. Globalisation has therefore increased world trade and linked economies closely, although much of that trade is controlled by MNCs and some regions have been left behind.",
+    "prompt": "Examine how globalisation has affected world trade.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-glaciation-s1": {
   "keyTerms": [
    {
