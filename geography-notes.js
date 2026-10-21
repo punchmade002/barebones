@@ -8054,6 +8054,1752 @@
    }
   ]
  },
+ "geo-option-geoecology-s1": {
+  "keyTerms": [
+   {
+    "definition": "The process of soil formation.",
+    "term": "Pedogenesis"
+   },
+   {
+    "definition": "A soil formed from rock weathered in situ, directly beneath it.",
+    "term": "Residual soil"
+   },
+   {
+    "definition": "A soil formed on weathered material that has been carried and redeposited by ice, water, wind or volcanic activity.",
+    "term": "Transported soil"
+   },
+   {
+    "definition": "A distinct layer within a soil profile, from the surface down to bedrock.",
+    "term": "Horizon"
+   },
+   {
+    "definition": "The dark, jelly-like end product of decomposition of organic matter, as distinct from undecomposed litter.",
+    "term": "Humus"
+   },
+   {
+    "definition": "Mild, well-mixed humus formed under deciduous woodland and grassland with earthworm activity.",
+    "term": "Mull humus"
+   },
+   {
+    "definition": "Acidic, poorly decomposed humus formed under coniferous forest and heath.",
+    "term": "Mor humus"
+   },
+   {
+    "definition": "Water held in small pores by surface tension, available to plants and able to move up or down.",
+    "term": "Capillary water"
+   },
+   {
+    "definition": "The water a soil holds after gravitational water has drained away.",
+    "term": "Field capacity"
+   },
+   {
+    "definition": "The proportions of sand, silt and clay in a soil.",
+    "term": "Texture"
+   },
+   {
+    "definition": "Clumps into which soil particles are grouped to form structure.",
+    "term": "Peds"
+   },
+   {
+    "definition": "Tiny negatively charged particles from clay and humus that hold positively charged nutrient ions.",
+    "term": "Clay-humus complex"
+   },
+   {
+    "definition": "The proportion of a soil's volume that is pore space.",
+    "term": "Porosity"
+   },
+   {
+    "definition": "How easily water passes through a soil.",
+    "term": "Permeability"
+   },
+   {
+    "definition": "Damage to wet ground, and the destruction of soil structure, by trampling livestock.",
+    "term": "Poaching"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Soil is the thin layer of loose material on the earth's surface in which plants grow. Its formation is called pedogenesis.",
+    "h": "What soil is and where it comes from",
+    "points": [
+     "Soil is made of four components: mineral matter, organic matter, water and air.",
+     "Residual soils form from rock weathered in situ, meaning in place, directly beneath them.",
+     "Transported soils form on redeposited weathered material that has been carried and laid down by ice, water, wind or volcanic activity.",
+     "Transported parent materials include glacial till (boulder clay), fluvio-glacial sands and gravels, alluvium (river deposits), loess (wind-blown silt), wind-blown sand and volcanic ash.",
+     "Weathering breaks parent material down into regolith, the loose layer that soil develops from. The processes are taught in Weathering processes, in Rocks, Weathering and Mass Movement."
+    ]
+   },
+   {
+    "h": "Residual and transported parent material in Ireland and Europe",
+    "points": [
+     "Residual examples: the limestone of the Irish Midlands and the Burren, and the granite of the Wicklow Mountains, which gives acidic, sandy soils.",
+     "Transported examples: the boulder clay (till) plains of the Irish Midlands, and alluvium on the floodplain of the Shannon Callows, meadows beside the River Shannon that flood in winter.",
+     "Loess, called limon in France, covers plateaux of the Paris Basin, such as the Beauce (see A Core European Region: the Paris Basin)."
+    ]
+   },
+   {
+    "h": "Irish soils are young",
+    "points": [
+     "Most Irish soils formed on glacial deposits laid down during the last (Midlandian) glaciation, which ended about 10,000 years ago (see Glacial processes, patterns and associated landforms).",
+     "So most Irish soils have developed in about 10,000 years or less, and they often differ from the solid rock beneath them."
+    ]
+   },
+   {
+    "b": "A soil profile is a vertical section from the surface down to bedrock, divided into layers called horizons. A soil pit or road cutting shows it.",
+    "h": "The soil profile (introduced)",
+    "points": [
+     "O horizon: organic litter and humus on the surface.",
+     "A horizon: topsoil, with mineral matter mixed with humus.",
+     "B horizon: subsoil, which receives material washed down from above.",
+     "C horizon: weathered parent material.",
+     "R horizon: bedrock.",
+     "Full profiles of named soils are in Soil processes and the global pattern of soils."
+    ]
+   },
+   {
+    "h": "Proportions of the four components",
+    "points": [
+     "A typical good loam has about 45% mineral matter, 5% organic matter, 25% water and 25% air, by volume.",
+     "These proportions describe a well-structured loam. They are not fixed values for every soil.",
+     "Water and air share the pore spaces, so when one rises the other falls.",
+     "Diagram: a pie chart of the four components."
+    ]
+   },
+   {
+    "h": "Mineral matter",
+    "points": [
+     "Mineral matter is particles of weathered rock, from stones down to clay.",
+     "It forms the soil's skeleton and decides its texture.",
+     "As it weathers, mineral matter releases nutrients such as calcium, magnesium and potassium.",
+     "Parent rock controls the result: limestone gives base-rich, less acidic soils.",
+     "Granite gives sandy, acidic soils with quartz grains and clay from weathered feldspar.",
+     "Sandstone gives sandy, acidic, free-draining soils.",
+     "Clay particles are the chemically active part of the mineral matter."
+    ]
+   },
+   {
+    "h": "Organic matter and humus",
+    "points": [
+     "Organic matter is living organisms (bacteria, fungi, earthworms, insects and roots) plus dead plant and animal remains.",
+     "Litter is undecomposed material. Decomposers break it down into humus, a dark, sticky, jelly-like substance, which is the end product of decomposition.",
+     "Humus darkens the soil, binds particles into crumbs, holds water and nutrients, releases nutrients slowly, and is the main store of nitrogen in the soil.",
+     "Earthworms mix and aerate the soil, drag litter down, and their casts improve structure.",
+     "Charles Darwin's last book (1881), The Formation of Vegetable Mould through the Action of Worms, showed how earthworms mix and enrich soil.",
+     "Nitrogen-fixing bacteria, such as those in the root nodules of legumes, add nitrogen. Clover is the standard example of a legume in Irish grassland."
+    ]
+   },
+   {
+    "h": "Mull, moder and mor humus",
+    "points": [
+     "Mull humus is mild, crumbly, well decomposed and well mixed by earthworms. It is slightly acidic to neutral and forms under deciduous woodland and grassland, giving brown earths.",
+     "Mor humus is acidic, fibrous and poorly decomposed, with few earthworms. It forms under coniferous forest and heath, giving podzols.",
+     "Moder is intermediate between mull and mor."
+    ]
+   },
+   {
+    "h": "Water in the soil",
+    "points": [
+     "Water enters the soil as precipitation and is held in its pores.",
+     "Dissolved nutrients form the soil solution, from which roots absorb them.",
+     "Gravitational water drains down through large pores after rain and carries nutrients away. This is the cause of leaching.",
+     "Capillary water is held in small pores by surface tension. It is available to plants and can move up as well as down.",
+     "Hygroscopic water is a thin film bound tightly to particles, and plants cannot use it.",
+     "Field capacity is the water a soil holds after gravitational water has drained away.",
+     "Wilting point is reached when only water that plants cannot extract is left."
+    ]
+   },
+   {
+    "h": "How water movement shapes the soil",
+    "points": [
+     "Where precipitation exceeds evapotranspiration (water lost by evaporation and plant transpiration), water moves down and leaches the soil. This is the situation in Ireland.",
+     "Where evaporation exceeds precipitation, capillary action raises water to the surface and leaves salts and lime there, as in deserts and grasslands.",
+     "Too much water fills all the pores and causes waterlogging, which leads to gleying (see Soil processes and the global pattern of soils)."
+    ]
+   },
+   {
+    "h": "Air in the soil",
+    "points": [
+     "Air fills the pores not occupied by water.",
+     "Soil air supplies oxygen for root respiration and for the aerobic organisms that decompose litter, and nitrogen for nitrogen-fixing bacteria.",
+     "Soil air is richer in carbon dioxide than the atmosphere. This forms weak carbonic acid in soil water, which aids chemical weathering.",
+     "Poorly aerated (anaerobic) soils decompose slowly, so organic matter builds up as peat, and iron is reduced, giving grey colours."
+    ]
+   },
+   {
+    "h": "How the four components interact",
+    "points": [
+     "Humus improves crumb structure, which opens pores for both air and water.",
+     "Clay holds water but reduces air.",
+     "Organisms need both air and water to work."
+    ]
+   },
+   {
+    "b": "Texture is the proportion of sand, silt and clay in a soil.",
+    "h": "Texture",
+    "points": [
+     "Sand has particles 2 to 0.05 mm across; silt 0.05 to 0.002 mm; clay under 0.002 mm. Particles over 2 mm are gravel or stones. Some textbooks put the sand and silt limit at 0.06 mm, which is also acceptable.",
+     "Clay is the smallest particle and sand the largest.",
+     "Field test by feel: sand is gritty, silt is smooth and silky, and clay is sticky and can be rolled into a ribbon when moist.",
+     "Texture is shown on a soil texture triangle, a triangular graph whose method is in Figure interpretation, in Tables, Graphs and Data Skills."
+    ]
+   },
+   {
+    "h": "Effects of texture on soil",
+    "points": [
+     "Sandy soils are light, free-draining, well aerated, warm quickly in spring and are easy to plough. They hold little water and few nutrients, and they are easily leached.",
+     "Clay soils are heavy and hold water and nutrients. They drain slowly, become waterlogged and cold, crack and harden when dry, and are hard to work.",
+     "A loam is a balanced mix, roughly 40% sand, 40% silt and 20% clay. It combines good drainage with good water and nutrient retention, and is the best for farming.",
+     "Silty soils are fertile but form a surface crust and erode easily."
+    ]
+   },
+   {
+    "b": "Structure is the way particles are grouped into clumps called peds.",
+    "h": "Structure",
+    "points": [
+     "Crumb: small rounded peds, typical of humus-rich topsoil, and the best structure for farming.",
+     "Granular: a further type of ped structure.",
+     "Platy: flat, horizontal plates that hinder drainage and root growth.",
+     "Blocky: angular cubes, common in clay subsoils.",
+     "Prismatic or columnar: vertical columns, found in some clay subsoils.",
+     "Structureless soils are single-grain (loose sand) or massive (solid clay)."
+    ]
+   },
+   {
+    "h": "Effects and damage to structure",
+    "points": [
+     "Structure controls the size and number of pores, so it decides drainage, aeration and how easily roots penetrate.",
+     "Humus, clay, earthworms, roots and freeze-thaw build peds.",
+     "Compaction by heavy machinery, and trampling by livestock on wet ground (poaching in Ireland), destroy peds."
+    ]
+   },
+   {
+    "b": "Colour is a clue to a soil's composition and conditions.",
+    "h": "Colour",
+    "points": [
+     "Black or dark brown: rich in humus, as in chernozems and peat.",
+     "Brown: humus plus iron compounds, as in brown earths.",
+     "Red, orange or yellow: iron oxides in a well-aerated soil, as in tropical latosols and terra rossa.",
+     "Ash-grey or bleached: heavily leached, as in the E horizon of a podzol.",
+     "Grey or blue-grey with orange (rusty) mottles: waterlogged, with reduced iron, as in gley.",
+     "White: lime or salt crusts, as in desert soils.",
+     "Dark soils absorb more heat."
+    ]
+   },
+   {
+    "h": "Water content and water retention",
+    "points": [
+     "Water retention depends on texture, structure and organic content, including the humus in the soil.",
+     "Porosity is how much pore space a soil has. Permeability is how easily water passes through it.",
+     "Clay soils have high porosity but low permeability, because their pores are tiny, so they drain slowly."
+    ]
+   },
+   {
+    "h": "Organic content",
+    "points": [
+     "Organic content is the amount of humus in a soil.",
+     "It is high in chernozems and peat, moderate in brown earths, and low in desert soils, which have little vegetation.",
+     "Tropical latosols are surprisingly low in humus, because litter decays so fast that little humus builds up.",
+     "Organic content affects colour, structure, water retention and fertility."
+    ]
+   },
+   {
+    "h": "pH (acidity and alkalinity)",
+    "points": [
+     "pH is the measure of acidity or alkalinity, on a scale of 0 to 14, with 7 neutral.",
+     "Soils become acidic where heavy rain leaches out bases, and where acid litter such as conifer needles or heather builds up.",
+     "Soils are alkaline on limestone and chalk and in dry climates.",
+     "Most crops and earthworms prefer slightly acidic to neutral soils.",
+     "Teagasc, the Irish agriculture and food development authority, advises a soil pH of about 6.3 for grassland and about 6.5 for tillage crops. Liming corrects lower values.",
+     "Farmers spread lime, which is ground limestone, to raise pH."
+    ]
+   },
+   {
+    "h": "Fertility and nutrients",
+    "points": [
+     "Clay particles and humus form the clay-humus complex. Its tiny, negatively charged particles, called colloids, hold positively charged nutrient ions such as calcium, magnesium and potassium.",
+     "Held nutrients are not washed away, and they are exchanged with roots.",
+     "Base-rich soils are fertile; base-poor, leached soils are not.",
+     "NPK (nitrogen, phosphorus and potassium) are the main nutrients farmers add."
+    ]
+   },
+   {
+    "h": "How characteristics influence soil development",
+    "points": [
+     "Texture and structure control drainage, so they decide whether leaching, gleying or capillary rise dominates.",
+     "pH controls which organisms live in the soil, so it decides whether mull or mor humus forms and how fast humification happens.",
+     "Organic content controls structure and fertility, so it decides how well the soil supports the vegetation that feeds it.",
+     "Water retention and aeration together decide whether decomposition is aerobic, as in fertile brown soils, or anaerobic, as in peat and gley."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Mineral matter forms the skeleton of the soil and decides its texture, so a soil from granite or sandstone is sandy, acidic and free-draining, while clay from weathered rock is chemically active and holds nutrients. As it weathers, mineral matter releases calcium, potassium and magnesium, and the parent rock controls base content: limestone gives base-rich, less acidic soils. Organic matter is broken down by decomposers into humus, which darkens the soil, binds particles into crumbs, holds water and nutrients, and is the main store of nitrogen. Mull humus, mixed by earthworms and formed under deciduous woodland and grassland, gives brown earths, while acidic mor humus formed under coniferous forest and heath gives podzols. Water fills the pores as capillary water, which plants can use, and dissolves nutrients into the soil solution. In a wet climate such as Ireland's, precipitation exceeds evapotranspiration, so gravitational water leaches bases down the profile. In dry areas, capillary rise leaves salts and lime near the surface, and too much water causes waterlogging. Air fills the pores that water does not occupy. It supplies oxygen for roots and aerobic decomposers and nitrogen for nitrogen-fixing bacteria. Poorly aerated soils decompose slowly, so organic matter builds up as peat and iron is reduced, giving grey colours. The four components interact: humus improves crumb structure, which opens pores for both air and water, clay holds water but reduces air, and organisms need both air and water to work.",
+    "prompt": "Examine the influence of mineral matter, air, water and organic matter on soil development.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Texture is the proportion of sand, silt and clay. Sandy soils are light, free-draining and well aerated, so water and nutrients are lost quickly and the soil develops with little retained fertility and is easily leached. Clay soils hold water and nutrients but drain slowly, become waterlogged and cold, so decomposition is slowed and gleying develops where drainage is poor. A loam combines drainage with water and nutrient retention, which is why it supports the most developed and fertile soils for farming. Structure is the grouping of particles into peds. Crumb structure in humus-rich topsoil opens pores for air and water, so it encourages biological activity and a well-developed A horizon. Platy structure hinders drainage and root growth, so water lies at the surface and the soil develops slowly. Compaction destroys structure and reduces pore space. pH controls which organisms live in the soil. Acid soils, formed where heavy rain leaches bases or where acid litter builds up, favour mor humus and slow decomposition, which leads to podzolisation. Alkaline soils, found on limestone and in dry climates, favour mull humus and rapid humification. Most crops and earthworms prefer slightly acidic to neutral soils. Organic content controls structure and fertility. High humus in chernozems and peat, and moderate humus in brown earths, supports the vegetation that feeds the soil, while low humus in desert soils means little vegetation and little development. Water retention depends on texture, structure and organic content, and together with aeration it decides whether decomposition is aerobic, as in fertile brown soils, or anaerobic, as in peat and gley.",
+    "prompt": "Explain how soil characteristics impact on soil development.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Texture is the proportion of sand, silt and clay. Sand has the largest particles, from 2 to 0.05 mm, and clay the smallest, under 0.002 mm. Sandy soils are free-draining and well aerated, because their large pores let water pass quickly, but they hold little water. Clay soils have tiny pores, so they drain slowly and become waterlogged. A loam, roughly 40% sand, 40% silt and 20% clay, drains well while still retaining water. Structure is the grouping of particles into peds. Crumb structure has small rounded peds with open pores, so water drains freely and roots penetrate easily. Platy structure has flat horizontal plates that block vertical drainage and root growth, so water lies on the surface. Blocky and prismatic structures have angular or columnar peds that leave cracks and pores for water to pass through, so drainage depends on the size of the gaps between them. Compaction by machinery or trampling destroys structure and reduces drainage.",
+    "prompt": "Describe the texture and structure of a soil and explain how each affects drainage.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-geoecology-s2": {
+  "keyTerms": [
+   {
+    "definition": "A sequence of soils down a slope that have all developed from the same parent material.",
+    "term": "Catena"
+   },
+   {
+    "definition": "The washing out of material from an upper soil horizon.",
+    "term": "Eluviation"
+   },
+   {
+    "definition": "The deposition in a lower soil horizon of material washed down from above.",
+    "term": "Illuviation"
+   },
+   {
+    "definition": "The pale, leached, eluvial layer found in soils such as podzols.",
+    "term": "E horizon"
+   },
+   {
+    "definition": "The downward movement of water through soil, dissolving minerals and nutrient bases and carrying them to lower layers or groundwater.",
+    "term": "Leaching"
+   },
+   {
+    "definition": "The decomposition of litter by bacteria, fungi and soil animals into humus.",
+    "term": "Humification"
+   },
+   {
+    "definition": "Intense leaching in which iron, aluminium and humus are carried from the A/E horizon and deposited in the B horizon.",
+    "term": "Podzolisation"
+   },
+   {
+    "definition": "A thin, hard layer of iron deposited in the B horizon of a podzol, which blocks drainage and roots.",
+    "term": "Iron pan"
+   },
+   {
+    "definition": "Intense weathering in hot, wet climates that removes silica and bases and leaves iron and aluminium oxides.",
+    "term": "Laterisation"
+   },
+   {
+    "definition": "Insoluble iron and aluminium oxides left behind by laterisation.",
+    "term": "Sesquioxides"
+   },
+   {
+    "definition": "A brick-like crust of hardened iron-rich material that forms when laterised soil is exposed and dries out.",
+    "term": "Laterite"
+   },
+   {
+    "definition": "The process in dry grassland climates in which calcium carbonate is moved short distances and deposited in the B horizon.",
+    "term": "Calcification"
+   },
+   {
+    "definition": "The process in waterlogged soils in which iron is reduced to grey or blue-grey and orange mottles form where air enters.",
+    "term": "Gleying"
+   },
+   {
+    "definition": "A mature soil whose character is set by climate and vegetation, forming broad belts across the world.",
+    "term": "Zonal soil"
+   },
+   {
+    "definition": "A very fertile, black, humus-rich soil of the temperate grasslands, from the Russian for black earth.",
+    "term": "Chernozem"
+   },
+   {
+    "definition": "A darker patch in a soil where a burrow made by an animal has been filled in.",
+    "term": "Krotovina"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Parent material, climate and time",
+    "points": [
+     "Parent material supplies mineral matter, sets texture, base content and the starting pH (see Soil composition and characteristics).",
+     "Climate is the most important factor at a global scale.",
+     "Temperature controls the speed of weathering and decomposition.",
+     "The balance of precipitation and evapotranspiration decides whether water moves down (leaching) or up (capillary rise). This is why soil belts follow climate belts.",
+     "Time: a mature soil has had long enough to develop distinct horizons, while an immature soil has thin or missing horizons."
+    ]
+   },
+   {
+    "h": "Relief, organisms and humans",
+    "points": [
+     "Steep slopes have thin, well-drained soils, because material moves downslope.",
+     "Hollows and valley floors collect water and have deep, wet soils.",
+     "A catena is the sequence of soils down a slope developed from the same parent material.",
+     "Altitude brings cooler, wetter conditions, which mean more leaching and more peat. Aspect affects soil temperature and moisture.",
+     "Vegetation supplies litter and decides humus type: deciduous woodland gives mull, while coniferous forest and heath give mor.",
+     "Roots bind soil and recycle nutrients, and animals mix the soil.",
+     "Humans change soils (see Human interference with soils)."
+    ]
+   },
+   {
+    "h": "Soil profile and horizons",
+    "points": [
+     "O horizon: litter and humus, which may be split into L, F and H layers.",
+     "A horizon: dark topsoil, with humus mixed with minerals.",
+     "E horizon: eluvial, a pale, washed-out layer found in leached soils such as podzols.",
+     "B horizon: illuvial subsoil, where washed-down iron, aluminium, clay or humus accumulate.",
+     "C horizon: weathered parent material. R horizon: bedrock.",
+     "Eluviation is the washing out of material from an upper horizon. Illuviation is its deposition in a lower one.",
+     "Diagram: a labelled soil profile showing depth and horizon letters."
+    ]
+   },
+   {
+    "h": "Weathering",
+    "points": [
+     "Physical and chemical weathering break parent material down into mineral particles and release nutrients.",
+     "Hydrolysis forms clay, and oxidation gives red and brown colours.",
+     "The rate of weathering sets soil depth. Soils are deep in the hot, wet tropics, where chemical weathering is fastest, and thin in cold or dry regions.",
+     "The processes themselves are in Weathering processes, in Rocks, Weathering and Mass Movement."
+    ]
+   },
+   {
+    "h": "Soil erosion",
+    "points": [
+     "Soil erosion is the removal of soil, especially topsoil, faster than it forms.",
+     "Erosion by water takes the forms of rain-splash, sheet wash, and rills and gullies.",
+     "Erosion by wind is deflation of dry, loose, bare soil.",
+     "Natural geological erosion is slow and balanced by soil formation. Accelerated erosion follows the removal of vegetation.",
+     "Erosion thins the profile, removes the humus-rich A horizon and its nutrients, and exposes infertile subsoil.",
+     "It also worsens structure and water retention. The eroded material is redeposited elsewhere, as alluvium or loess.",
+     "Human causes and responses are in Human interference with soils."
+    ]
+   },
+   {
+    "h": "Leaching",
+    "points": [
+     "Leaching happens where precipitation exceeds evapotranspiration. Gravitational water moves down through the soil.",
+     "The water dissolves soluble minerals and nutrient bases (calcium, magnesium, potassium and sodium) and carries them to lower horizons or into groundwater.",
+     "The upper soil becomes more acidic and less fertile, and material may be redeposited in the B horizon.",
+     "Leaching is common in Ireland's wet climate. Mild leaching gives brown earths, and intense leaching gives podzols."
+    ]
+   },
+   {
+    "h": "Humification",
+    "points": [
+     "Humification is the decomposition of litter by bacteria, fungi and soil animals into humus.",
+     "It is fast in warm, moist, well-aerated, base-rich conditions, which produce mull.",
+     "It is slow in cold, acid or waterlogged conditions, where partly decomposed matter builds up as mor or peat.",
+     "It releases nutrients for plants, as part of the nutrient cycle."
+    ]
+   },
+   {
+    "b": "An intense form of leaching that produces the podzol.",
+    "h": "Podzolisation",
+    "points": [
+     "Conditions: a cool, wet climate where precipitation is well above evapotranspiration; acid parent material such as granite or sandstone; coniferous forest or heath vegetation giving acid mor humus.",
+     "1. Acid litter releases organic acids into percolating water.",
+     "2. The acids combine with iron and aluminium (chelation, or cheluviation) and carry them down, along with bases and humus.",
+     "3. The A/E horizon is left as a bleached, ash-grey, sandy layer of quartz.",
+     "4. Iron, aluminium and humus are deposited in the B horizon, which turns dark reddish-brown.",
+     "5. A thin, hard iron pan may form in the B horizon. It blocks drainage and roots, so water lies above it and peat may form on top.",
+     "Result: the podzol, which is acidic and infertile, with sharply defined horizons."
+    ]
+   },
+   {
+    "b": "Laterisation occurs in hot, wet tropical climates.",
+    "h": "Laterisation",
+    "points": [
+     "1. High temperatures and heavy rain cause intense chemical weathering to great depth.",
+     "2. Silica and bases are leached out, since silica is soluble in warm water under these conditions.",
+     "3. Insoluble iron and aluminium oxides (sesquioxides) are left behind and concentrated, giving a deep red or yellow colour.",
+     "4. Litter decomposes so quickly that little humus accumulates.",
+     "5. Where the forest is removed and the soil dries out, the iron-rich layer can harden into a brick-like crust called laterite. A laterite crust forms only when the soil is exposed and dries out, not under intact forest.",
+     "Extreme laterisation of aluminium-rich rock forms bauxite, the ore of aluminium.",
+     "Bauxite is mined from laterised rock in tropical countries such as Guinea, Jamaica and Australia (north Queensland).",
+     "Result: latosols (oxisols)."
+    ]
+   },
+   {
+    "b": "Calcification occurs in dry continental climates where evapotranspiration roughly equals or exceeds precipitation, as in temperate grasslands and semi-arid areas.",
+    "h": "Calcification",
+    "points": [
+     "1. Rain penetrates only part of the way down, so leaching is weak.",
+     "2. Calcium carbonate is dissolved and carried a short distance down, then deposited in the B horizon as nodules or a lime-rich layer.",
+     "3. In dry periods, capillary action draws water and calcium back up.",
+     "4. Deep grass roots take up calcium and return it to the surface in litter.",
+     "Result: an alkaline or neutral, base-rich, fertile soil with a thick, humus-rich A horizon, the chernozem."
+    ]
+   },
+   {
+    "h": "Gleying",
+    "points": [
+     "Gleying happens in waterlogged soils: heavy clay, impermeable till, a high water table, hollows, or soils above an iron pan.",
+     "Pores fill with water, air is excluded, and conditions become anaerobic.",
+     "Bacteria reduce iron from its red ferric form to its grey or blue-grey ferrous form.",
+     "Where air enters along roots or cracks, iron is re-oxidised and forms orange or rusty mottles.",
+     "Result: a gley soil, which is grey, mottled, sticky and cold, slow to warm, and slow to decompose."
+    ]
+   },
+   {
+    "h": "Salinisation",
+    "points": [
+     "In hot, dry areas, evaporation draws water up by capillary action and leaves soluble salts at or near the surface, sometimes as a white crust.",
+     "Poor irrigation makes salinisation worse (see Human interference with soils).",
+     "Salt crusts link this process to desert soils."
+    ]
+   },
+   {
+    "h": "Zonal, intrazonal and azonal soils",
+    "points": [
+     "Zonal soils are mature soils whose character is set by climate and vegetation. They form broad belts matching the world's climate and biome belts.",
+     "Intrazonal soils are dominated by one local factor, such as drainage (gley, peat) or parent material (rendzina on limestone).",
+     "Azonal soils are immature, with poorly developed horizons. Examples are alluvium, scree, sand dunes, fresh volcanic ash and recent glacial deposits."
+    ]
+   },
+   {
+    "h": "World soil belts, from pole to equator",
+    "points": [
+     "Tundra soils are thin and gleyed, with permafrost below.",
+     "Podzols lie in the boreal (taiga) coniferous forest belt of northern Canada, Scandinavia, Finland and Siberia (Russia).",
+     "Brown earths lie under temperate deciduous forest in Ireland, Britain, much of western and central Europe (e.g. France and Germany), and the eastern USA.",
+     "Chernozems and chestnut soils lie under temperate grassland. Chestnut soils form on the drier margins of the grasslands.",
+     "Red Mediterranean soils, called terra rossa, form on limestone in Mediterranean lands, e.g. southern Italy (see A Peripheral European Region: the Mezzogiorno).",
+     "Aridisols, or desert soils, lie in the hot desert belt, including the Sahara, Arabian, Australian and south-western USA deserts.",
+     "Latosols lie under the tropical rainforest of the Amazon Basin, the Congo Basin and South-East Asia (e.g. Indonesia, Malaysia).",
+     "Diagram: a world map of soil belts, or a pole-to-equator transect."
+    ]
+   },
+   {
+    "h": "Mountains",
+    "points": [
+     "Soils change with altitude as climate does. Upslope they become thinner, more leached and peatier."
+    ]
+   },
+   {
+    "h": "Irish soil pattern",
+    "points": [
+     "Brown earths and grey-brown podzolics dominate the lowlands.",
+     "Podzols and peaty podzols occur on the uplands.",
+     "Gleys are found on poorly drained clay till, especially in the drumlin belt.",
+     "Peatland covers about a fifth of Ireland's land area. Peat is intrazonal: blanket bog lies in the west and on mountains, such as Co. Mayo and Connemara, and raised bog lies in the Midlands, such as Co. Offaly.",
+     "Thin rendzinas, which are dark and lime-rich, occur on the limestone of the Burren."
+    ]
+   },
+   {
+    "h": "Brown earth: location and formation",
+    "points": [
+     "Brown earth is Ireland's main lowland soil, and the most widespread soil of the Irish lowlands, especially in the south, east and Midlands.",
+     "Fertile grassland and tillage soils of the Golden Vale (Co. Tipperary and Co. Limerick) and the south-east are brown earths.",
+     "Grey-brown podzolics, which are slightly more leached relatives with clay washed into the B horizon, are typical of the limestone-rich till of the east Midlands, e.g. Co. Meath and Co. Kildare.",
+     "It formed under Ireland's mild, wet, cool temperate oceanic climate (see Physical regions) and the deciduous woodland of oak, ash, elm and hazel that covered most of Ireland after the Ice Age.",
+     "Annual rainfall is roughly 750 to 1,000 mm in the east and over 1,200 mm in much of the west.",
+     "Parent material is usually glacial till, and the soil is slightly acidic, at roughly pH 5.5 to 6.5.",
+     "Processes: mild leaching carries some iron and clay down, and mull humus is mixed into the soil by earthworms."
+    ]
+   },
+   {
+    "h": "Brown earth: profile, characteristics and use",
+    "points": [
+     "O: a thin mull humus layer.",
+     "A: dark brown, loamy, with crumb structure, roughly 20 to 30 cm deep.",
+     "B: lighter brown, with some iron and clay washed in. The boundary with A is gradual because earthworms mix the soil.",
+     "C: weathered till or rock.",
+     "There is no bleached E horizon. Depths are rough illustrative values only.",
+     "Characteristics: loamy texture, crumb structure, slightly acidic and fertile.",
+     "Uses: grassland and tillage in the Golden Vale and the south-east.",
+     "Improvement: lime is applied where pH falls below the Teagasc targets (see Fertility and nutrients in Soil composition and characteristics)."
+    ]
+   },
+   {
+    "h": "Podzol: location and formation",
+    "points": [
+     "Podzols occur on Irish uplands such as the Wicklow Mountains, which are granite, and on other mountains with heather moorland and high rainfall.",
+     "Many lie under conifer plantations, notably Sitka spruce.",
+     "Many Irish upland podzols are peaty podzols, with a peaty O horizon above an iron pan.",
+     "Formation follows the podzolisation steps described above, under acid mor humus from heather or conifers in a cool, wet climate."
+    ]
+   },
+   {
+    "h": "Podzol: profile, characteristics and use",
+    "points": [
+     "O: thick mor or peat.",
+     "A/E: ash-grey, bleached sand.",
+     "A thin, black iron pan.",
+     "B: reddish-brown, enriched with iron and humus.",
+     "C: parent material below.",
+     "Characteristics: strongly acidic, at about pH 4 to 4.5.",
+     "Uses: rough grazing for sheep, and forestry.",
+     "Improvement: deep ploughing to break the iron pan, heavy liming and fertiliser."
+    ]
+   },
+   {
+    "h": "Gley: location and formation",
+    "points": [
+     "Gleys occur in the drumlin belt of Co. Cavan, Co. Monaghan and Co. Leitrim, on impermeable boulder clay in the wet hollows between drumlins.",
+     "Heavy clay soils of the north Midlands and Co. Clare are also gleys.",
+     "Formation follows the gleying steps described above: waterlogging, reduction of iron, and grey, mottled colours."
+    ]
+   },
+   {
+    "h": "Gley: profile, characteristics and use",
+    "points": [
+     "Profile: a waterlogged upper layer that is grey or blue-grey with orange mottles, sitting on impermeable clay.",
+     "Characteristics: wet, sticky and cold, with a short grazing season because wet ground is easily poached.",
+     "Uses: mainly grass for cattle.",
+     "Improvement: field drains and arterial drainage (see Human interference with soils)."
+    ]
+   },
+   {
+    "h": "Latosol: location, climate and formation",
+    "points": [
+     "Latosols form under the tropical rainforest of the Amazon Basin, the Congo Basin and South-East Asia (e.g. Indonesia, Malaysia).",
+     "The climate is hot, about 27 °C all year round, with over 2,000 mm of rain (see One major biome in detail).",
+     "Formation is laterisation, as described above."
+    ]
+   },
+   {
+    "h": "Latosol: profile, characteristics and use",
+    "points": [
+     "Latosols are deep, often many metres, much deeper than Irish soils.",
+     "Profile: a thin O layer; a thin, leached A horizon; a very deep red B horizon of sesquioxides; deep weathered rock below (C).",
+     "They are red or yellow from iron and aluminium oxides, clay-rich, acidic, and have very little humus.",
+     "They are low in nutrients. Nearly all nutrients are held in the living vegetation and recycled quickly from the thin litter layer.",
+     "Shifting cultivation (slash and burn) traditionally used the soil for a few years before moving on.",
+     "When the forest is cleared, the soil loses fertility within a few years, erodes under heavy rain, and can bake into laterite crust."
+    ]
+   },
+   {
+    "h": "Chernozem: location, climate and vegetation",
+    "points": [
+     "Chernozem is the Russian name for black earth.",
+     "It lies on the steppes of Ukraine and southern Russia, the Prairies of North America (the Great Plains of the USA and Canada), and the Pampas of Argentina.",
+     "The climate is continental, with hot summers, very cold winters and low rainfall of roughly 250 to 500 mm a year, mostly in late spring and summer.",
+     "The natural grassland of steppe or prairie has dense, deep roots that die back each year, supplying large amounts of organic matter."
+    ]
+   },
+   {
+    "h": "Chernozem: processes and profile",
+    "points": [
+     "Snow melt in spring gives a short burst of downward water movement. Calcium is moved within the soil as described under Calcification.",
+     "Burrowing animals mix the soil: ground squirrels, called susliks in the steppe, and prairie dogs in North America.",
+     "Their filled-in burrows show as darker patches called krotovinas.",
+     "A: very thick, black, humus-rich topsoil, commonly about 1 m deep, with crumb structure.",
+     "B: calcium-rich, with white lime nodules.",
+     "C: loess, fine wind-blown silt, in much of the steppe and prairie."
+    ]
+   },
+   {
+    "h": "Chernozem: characteristics and use",
+    "points": [
+     "Neutral to slightly alkaline, and very fertile.",
+     "Uses: some of the world's main wheat and maize lands, with sunflowers in Ukraine.",
+     "Ukraine has been called the breadbasket of Europe.",
+     "Ploughing the prairie soils for wheat, followed by drought in the 1930s, caused the Dust Bowl (see Human interaction: mass movement, in Rocks, Weathering and Mass Movement)."
+    ]
+   },
+   {
+    "h": "Other continental choices",
+    "points": [
+     "India's black soil, or regur, of the Deccan is formed from Deccan Traps basalt. It is clay-rich, holds moisture, cracks when dry, and is used for cotton (see India).",
+     "The aridisol of the hot desert is covered in One major biome in detail."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Leaching is the downward movement of water through the soil where precipitation exceeds evapotranspiration. Gravitational water dissolves soluble minerals and nutrient bases such as calcium, magnesium and potassium and carries them to lower horizons or into groundwater. The upper soil becomes more acidic and less fertile, and material may be redeposited in the B horizon. Mild leaching gives brown earths, which have a mull humus layer and a lighter brown B horizon with some iron and clay washed in, and which are fertile and slightly acidic. Podzolisation is an intense form of leaching under a cool, wet climate with acid parent material and coniferous forest or heath. Acid litter releases organic acids that combine with iron and aluminium and carry them down with bases and humus. The A/E horizon is left as a bleached, ash-grey, sandy layer of quartz, while iron, aluminium and humus are deposited in the B horizon, which turns dark reddish-brown. A thin, hard iron pan may block drainage and roots, so water lies above it and peat may form, giving an acidic, infertile podzol with sharply defined horizons. Laterisation occurs in hot, wet tropical climates, where high temperatures and heavy rain cause intense chemical weathering to great depth. Silica and bases are leached out, while insoluble iron and aluminium oxides, the sesquioxides, are left behind and concentrated, giving a deep red or yellow colour. Litter decomposes so quickly that little humus accumulates, so the soil is infertile. Where the forest is removed and the soil dries out, the iron-rich layer can harden into laterite. The Amazon Basin latosols illustrate these characteristics: deep, red, clay-rich, acidic and low in nutrients, with the nutrients held in living vegetation.",
+    "prompt": "Examine how any three soil processes affect soil characteristics.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Brown earth is Ireland's main lowland soil, found especially in the south, east and Midlands, and it is fertile grassland and tillage land in the Golden Vale and the south-east. It formed under Ireland's mild, wet, cool temperate oceanic climate, with rainfall of roughly 750 to 1,000 mm in the east and over 1,200 mm in much of the west, under the deciduous woodland of oak, ash, elm and hazel. Its parent material is usually glacial till. Processes: mild leaching carries some iron and clay down into the B horizon, and mull humus is mixed into the soil by earthworms, which is why the boundary between A and B is gradual and there is no bleached E horizon. The profile has a thin mull humus O layer, a dark brown, loamy A horizon with crumb structure roughly 20 to 30 cm deep, a lighter brown B horizon, and weathered till or rock as the C horizon; depths are rough illustrative values. Composition: a loam, with mineral matter from the till, humus in the topsoil, and water and air sharing the pores. Characteristics: loamy texture, crumb structure, slightly acidic at roughly pH 5.5 to 6.5, and fertile. Uses: grassland and tillage. Improvement: lime is applied where pH falls below the Teagasc targets, and fertilisers supply the nutrients the crops remove.",
+    "prompt": "Describe and explain the composition and characteristics of one soil type you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Chernozem is a black earth of the temperate grasslands, found on the steppes of Ukraine and southern Russia, the Prairies of North America and the Pampas of Argentina. Its climate is continental, with hot summers, very cold winters and low rainfall of roughly 250 to 500 mm a year, mostly in late spring and summer. The natural steppe or prairie grassland has dense, deep roots that die back each year and supply large amounts of organic matter. Processes: calcification, in which rain penetrates only part of the way, calcium carbonate is carried a short distance down and deposited in the B horizon, and in dry periods capillary action draws calcium back up while deep grass roots return it to the surface in litter. Burrowing animals such as susliks and prairie dogs mix the soil, and their filled-in burrows appear as krotovinas. Profile: a very thick, black, humus-rich A horizon, commonly about 1 m deep, with crumb structure; a calcium-rich B horizon with white lime nodules; and a C horizon of loess, fine wind-blown silt, in much of the steppe and prairie. Characteristics: neutral to slightly alkaline, base-rich and very fertile. Use: some of the world's main wheat and maize lands, with sunflowers in Ukraine, which has been called the breadbasket of Europe. The prairie soils were damaged when they were ploughed for wheat, and the drought of the 1930s then caused the Dust Bowl.",
+    "prompt": "Describe and explain the characteristics of one soil type from a continental region.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-geoecology-s3": {
+  "keyTerms": [
+   {
+    "definition": "Growing crops on the same land too intensively, without fallow, rotation or enough organic matter returned, so the soil is exhausted.",
+    "term": "Overcropping"
+   },
+   {
+    "definition": "Growing one crop year after year on the same land.",
+    "term": "Monoculture"
+   },
+   {
+    "definition": "Keeping more animals on land than its vegetation can support, exceeding its carrying capacity.",
+    "term": "Overgrazing"
+   },
+   {
+    "definition": "The number of animals that a piece of land can support without degrading its vegetation.",
+    "term": "Carrying capacity"
+   },
+   {
+    "definition": "Trampling of wet ground by livestock, which compacts the soil and reduces infiltration.",
+    "term": "Poaching"
+   },
+   {
+    "definition": "An EU farm payment made per animal, which encouraged higher stocking rates.",
+    "term": "Headage payment"
+   },
+   {
+    "definition": "Land degradation in arid, semi-arid and dry sub-humid areas, resulting from climatic variations and human activities.",
+    "term": "Desertification"
+   },
+   {
+    "definition": "The build-up of soluble salts at or near the soil surface, from evaporation or poorly managed irrigation.",
+    "term": "Salinisation"
+   },
+   {
+    "definition": "Wood cut from trees and shrubs for use as fuel.",
+    "term": "Fuelwood"
+   },
+   {
+    "definition": "The grazing of upland limestone by cattle in winter.",
+    "term": "Winterage"
+   },
+   {
+    "definition": "Too few animals grazing land, which allows scrub to spread over grassland.",
+    "term": "Undergrazing"
+   },
+   {
+    "definition": "Ploughing across a slope along its contours, so that furrows trap water.",
+    "term": "Contour ploughing"
+   },
+   {
+    "definition": "Alternating strips of crops and grass so that the grass traps soil washed or blown from the cropped strips.",
+    "term": "Strip cropping"
+   },
+   {
+    "definition": "A line of trees or hedges that reduces wind speed and wind erosion.",
+    "term": "Shelter belt"
+   },
+   {
+    "definition": "Small pits dug in hard, crusted soil and filled with manure or compost to catch rainwater and concentrate nutrients.",
+    "term": "Zaï"
+   },
+   {
+    "definition": "A line of stones along a contour that slows runoff and traps soil.",
+    "term": "Stone line (bund)"
+   },
+   {
+    "definition": "Excess nutrients washed from soil into rivers and lakes, which encourages excessive plant and algal growth.",
+    "term": "Eutrophication"
+   },
+   {
+    "definition": "A steep bank of soil being eaten away from its edges by erosion.",
+    "term": "Erosion escarpment"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Soil as a non-renewable resource",
+    "points": [
+     "Soil forms very slowly but can be lost quickly, so on a human timescale it is a non-renewable resource.",
+     "The Food and Agriculture Organization (FAO) has stated that it can take up to 1,000 years to form 1 cm of soil. This was quoted for the International Year of Soils, 2015.",
+     "Human activity can degrade soil, which is a negative impact, or conserve and improve it, which is a positive impact."
+    ]
+   },
+   {
+    "h": "Overcropping: definition and effects",
+    "points": [
+     "Overcropping is growing crops on the same land too intensively, without fallow, rotation or enough organic matter returned, so the soil is exhausted.",
+     "Nutrients are removed faster than they are replaced, humus content falls, and crumb structure breaks down.",
+     "The soil becomes dusty or compacted, holds less water, and is easily eroded by wind and rain, so yields fall.",
+     "Monoculture, one crop grown year after year, takes the same nutrients each time and encourages pests.",
+     "In the Sahel, cash crops and shorter fallow periods exhaust soils (see The Sahel: causes)."
+    ]
+   },
+   {
+    "h": "Case study: the Dust Bowl (overcropping)",
+    "points": [
+     "Place and time: the Great Plains of the USA, including Oklahoma and Kansas, in the 1930s.",
+     "The natural grassland was ploughed up for wheat.",
+     "Severe drought then left bare, dry soil that strong winds blew away in huge dust storms. Many farming families were forced to leave.",
+     "The prairie soils are chernozems (see Chernozem: characteristics and use in Soil processes and the global pattern of soils).",
+     "Response: the US Soil Conservation Service was set up in 1935. Shelter belts of trees, contour ploughing and crop rotation were promoted.",
+     "The Dust Bowl facts are also covered in Human interaction: mass movement, in Rocks, Weathering and Mass Movement."
+    ]
+   },
+   {
+    "h": "Overgrazing: definition and effects",
+    "points": [
+     "Overgrazing is keeping more animals on land than its vegetation can support, which exceeds its carrying capacity.",
+     "Vegetation is eaten down and roots die, so the soil is exposed to rain-splash and wind.",
+     "Trampling compacts the soil. On wet Irish ground this is called poaching. It reduces infiltration and increases runoff.",
+     "Sheet, rill and gully erosion remove topsoil and humus. Less litter means less humus.",
+     "On peat, bare surfaces erode quickly.",
+     "International examples: in the Sahel, livestock concentrated around wells (see The Sahel: causes), and in Iceland, sheep grazing prevented birch regrowth (see Iceland: setting and settlement)."
+    ]
+   },
+   {
+    "h": "Case study: hill commonage in the west of Ireland (overgrazing)",
+    "points": [
+     "From the 1980s, EU (CAP) headage payments paid farmers per animal, so sheep numbers rose sharply on hill commonage in the west of Ireland.",
+     "The affected areas include Connemara, Co. Galway, and the mountains of Co. Mayo, Co. Donegal and Co. Kerry.",
+     "Overgrazing stripped heather and grass, exposed and eroded blanket peat, and sent silt into rivers.",
+     "The silt harmed salmon and trout spawning grounds.",
+     "Response: payments changed from per-head to per-area. Commonage Framework Plans, from the early 2000s, set lower stocking rates.",
+     "Response: REPS, the Rural Environment Protection Scheme introduced in 1994, paid farmers to farm in environmentally friendly ways.",
+     "These facts are also covered in Human interaction: mass movement, in Rocks, Weathering and Mass Movement."
+    ]
+   },
+   {
+    "h": "Desertification: definition and causes",
+    "points": [
+     "Desertification is land degradation in arid, semi-arid and dry sub-humid areas, resulting from climatic variations and human activities.",
+     "It is the degradation of land on desert margins, not the advance of sand dunes from an existing desert.",
+     "Physical causes are drought, unreliable rainfall, high temperatures and evaporation.",
+     "Human causes are population growth, overgrazing, overcropping, cutting trees and shrubs for fuelwood, and poorly managed irrigation causing salinisation.",
+     "The two usually act together. Human pressure leaves the soil bare, then drought and storms remove it."
+    ]
+   },
+   {
+    "h": "Desertification: effects on soil and people",
+    "points": [
+     "Loss of topsoil and humus, and lower fertility.",
+     "Surface crusting, so rain runs off rather than soaking in, and water retention is reduced.",
+     "Wind-blown sand and dust.",
+     "Salt crusts where irrigation is poorly managed (salinisation). In extreme cases the ground becomes bare and sterile.",
+     "Human effects: falling yields, food shortages and famine, loss of livestock, and migration to cities and abroad."
+    ]
+   },
+   {
+    "h": "Case study: the Sahel (location and climate)",
+    "points": [
+     "The Sahel is the semi-arid belt along the southern edge of the Sahara. It stretches across Africa from Senegal and Mauritania in the west, through Mali, Burkina Faso, Niger and Chad, to Sudan.",
+     "Annual rainfall is roughly 200 to 600 mm. It falls in one short summer wet season, when the ITCZ, the rain belt, moves north.",
+     "Rainfall is highly unreliable from year to year."
+    ]
+   },
+   {
+    "h": "The Sahel: causes",
+    "points": [
+     "Population growth led to more cattle, goats and sheep concentrated around wells and boreholes, shorter fallow periods, more cash crops and more fuelwood cutting.",
+     "Cash crops such as groundnuts (peanuts) in Senegal and cotton took the best land, pushing food crops and herders onto marginal land.",
+     "Nomadic herders, whose movements once let pasture recover, became more settled.",
+     "Droughts, notably in the 1970s and 1980s, left bare soil that was eroded by wind and by the heavy rain of the short wet season."
+    ]
+   },
+   {
+    "h": "The Sahel: effects on soil and water",
+    "points": [
+     "The soil effects are those listed in Desertification: effects on soil and people.",
+     "Lake Chad, on the Sahel's border of Chad, Niger, Nigeria and Cameroon, has shrunk dramatically since the 1960s, through drought and water use for irrigation. A widely quoted UN figure gives a shrinkage of about 90%."
+    ]
+   },
+   {
+    "h": "The Sahel: international responses",
+    "points": [
+     "The UN Convention to Combat Desertification (UNCCD) was adopted in 1994. 17 June is World Day to Combat Desertification.",
+     "The Great Green Wall was launched by the African Union in 2007. It is a planned band of restored land about 8,000 km long across Africa, from Senegal to Djibouti, aiming to restore 100 million hectares of degraded land by 2030.",
+     "Progress has been slow and well short of target. The project has shifted from a line of planted trees towards a mosaic of local land-restoration projects."
+    ]
+   },
+   {
+    "h": "The Sahel: local responses (zaï and stone lines)",
+    "points": [
+     "In Burkina Faso, in the Yatenga region of northern Burkina Faso, farmers such as Yacouba Sawadogo revived the traditional zaï technique.",
+     "Zaï are small pits dug in hard, crusted soil and filled with manure or compost. They catch rainwater and concentrate nutrients around the seed.",
+     "Farmers also built stone lines, or bunds, along the contours to slow runoff and trap soil."
+    ]
+   },
+   {
+    "h": "The Sahel: local responses (farmer-managed natural regeneration)",
+    "points": [
+     "In Niger, farmer-managed natural regeneration (FMNR) means farmers protect and prune tree shoots that regrow from old stumps and roots in their fields.",
+     "FMNR has regreened about 5 million hectares since the 1980s, especially in the Maradi and Zinder regions.",
+     "Trees shade the soil, cut wind speed and add leaf litter. Species such as Faidherbia albida also add nitrogen."
+    ]
+   },
+   {
+    "h": "The Sahel: evaluation",
+    "points": [
+     "Local methods have restored land at scale in Niger, but the Great Green Wall has been slow to meet its targets.",
+     "Conservation works best when farmers gain from it and take part, as the Niger FMNR and the Burren results-based payments show."
+    ]
+   },
+   {
+    "h": "Other negative human impacts",
+    "points": [
+     "Deforestation exposes soil to erosion and stops the supply of litter. The felling of rainforest is covered in Human alteration of biomes.",
+     "Heavy machinery and livestock on wet ground compact the soil and destroy its structure.",
+     "Excess fertiliser and slurry let nitrates and phosphates wash out of the soil into rivers and lakes, causing eutrophication. Some fertilisers also acidify the soil.",
+     "Salinisation and waterlogging occur under badly managed irrigation. Canal irrigation in Punjab and Haryana, India, has caused both.",
+     "Peat extraction removes an entire soil, as in Irish bogs (see Human alteration of biomes).",
+     "Urban sprawl and roads seal soil under concrete and tarmac."
+    ]
+   },
+   {
+    "h": "Conservation on slopes",
+    "points": [
+     "Contour ploughing means ploughing across a slope along the contours, so that furrows trap water instead of channelling it downhill.",
+     "Terracing cuts steep slopes into level steps, such as the rice terraces of Banaue, Luzon, Philippines, which are over 2,000 years old.",
+     "Strip cropping alternates strips of crops and grass. The grass traps soil washed or blown from the cropped strip.",
+     "Shelter belts and windbreaks of trees and hedges cut wind speed and reduce wind erosion."
+    ]
+   },
+   {
+    "h": "Conservation of fertility and cover",
+    "points": [
+     "Crop rotation, fallow, cover crops and green manure, such as clover, restore nutrients and humus.",
+     "Adding manure and compost builds up humus.",
+     "Reduced or zero tillage, and mulching, leave crop residue on the surface to protect the soil."
+    ]
+   },
+   {
+    "h": "Grazing control and planting",
+    "points": [
+     "Controlled stocking, rotational grazing, fencing and reseeding allow vegetation to recover.",
+     "Afforestation and replanting bind the soil with roots."
+    ]
+   },
+   {
+    "h": "Dryland methods",
+    "points": [
+     "Stone lines (bunds) along contours, zaï planting pits, and farmer-managed natural regeneration of trees are the dryland methods used in the Sahel, described in The Sahel: local responses."
+    ]
+   },
+   {
+    "h": "Improving soils",
+    "points": [
+     "Liming raises the pH of acid soils.",
+     "Field drainage and arterial drainage improve gleys. The Arterial Drainage Act, 1945, began state schemes to deepen and straighten Irish rivers to drain wet farmland.",
+     "Deep ploughing breaks an iron pan, as in podzols.",
+     "Irrigation with proper drainage avoids salinisation.",
+     "Building soil where none existed: on the bare limestone of the Aran Islands, Co. Galway, islanders layered sand and seaweed, and later manure, on the rock inside stone-walled fields."
+    ]
+   },
+   {
+    "h": "Irish schemes and EU rules",
+    "points": [
+     "REPS was followed by GLAS (Green, Low-Carbon, Agri-Environment Scheme), from 2015, and ACRES (Agri-Climate Rural Environment Scheme), from 2023.",
+     "The EU Nitrates Directive (1991) limits how much organic nitrogen can be spread per hectare and bans spreading slurry during a closed period in winter."
+    ]
+   },
+   {
+    "h": "The Burren: setting and early farming",
+    "points": [
+     "The Burren, in north-west Co. Clare, lies on Carboniferous limestone, with extensive limestone pavement of clints and grikes.",
+     "Its soils are thin, dark, lime-rich rendzinas, found mainly in the grikes and hollows (see Physical regions).",
+     "Plants from Arctic-alpine and Mediterranean environments grow side by side, e.g. spring gentian and mountain avens.",
+     "Poulnabrone, a Neolithic portal tomb (dolmen) over 5,000 years old, is evidence of early farming communities.",
+     "It is thought that the Burren once had thicker soil and woodland cover. Clearance and grazing by early farmers, followed by erosion of soil into the grikes and underground, helped expose the bare pavement.",
+     "The Burren was also glaciated."
+    ]
+   },
+   {
+    "h": "The Burren: winterage, undergrazing and scrub",
+    "points": [
+     "Winterage means cattle are grazed on the upland limestone in winter, because the rock stores heat and the ground is dry.",
+     "Grazing keeps grass and scrub down and maintains the flower-rich grassland.",
+     "From the late 20th century fewer farmers grazed the uplands in winter, because of farm changes, supplementary feeding and labour shortage.",
+     "Hazel and blackthorn scrub then spread over grassland and pavement.",
+     "On the Burren the main threat is undergrazing, not overgrazing."
+    ]
+   },
+   {
+    "h": "The Burren: conservation and results-based payments",
+    "points": [
+     "BurrenLIFE (2005 to 2010) was an EU LIFE-funded project led by Dr Brendan Dunford, with local farmers, the National Parks and Wildlife Service and Teagasc.",
+     "It tested scrub removal, better feeding systems and grazing plans.",
+     "It was followed by the Burren Farming for Conservation Programme (2010 to 2015) and the Burren Programme (from 2016), funded by the Department of Agriculture.",
+     "These pay farmers by results. Each field is scored for habitat quality, e.g. on a scale of 1 to 10, and a higher score earns a higher payment, so farmers decide how best to manage their land.",
+     "The model has been copied in other Irish agri-environment schemes."
+    ]
+   },
+   {
+    "h": "Iceland: setting and settlement",
+    "points": [
+     "Iceland was settled by Norse people from about AD 874.",
+     "At settlement, birch woodland and scrub covered a large part of the island, an estimated quarter or more. Today native birch woodland covers only about 1 to 2%.",
+     "Settlers cut and burned birch for fuel, for charcoal used in iron working, and for grazing land.",
+     "They kept large numbers of sheep, which grazed the year round and prevented regrowth."
+    ]
+   },
+   {
+    "h": "Iceland: soils, erosion and climate",
+    "points": [
+     "Iceland's soils are andosols formed from volcanic ash. They are light, loose and low in clay.",
+     "Once the vegetation cover is broken, they are easily blown away by strong winds and washed out by rain.",
+     "Erosion escarpments (rofabörð in Icelandic) are steep banks of soil being eaten away from their edges.",
+     "Volcanic eruptions add ash that smothers vegetation.",
+     "A cold climate and a short growing season mean vegetation recovers very slowly."
+    ]
+   },
+   {
+    "h": "Iceland: conservation and reclamation",
+    "points": [
+     "The Soil Conservation Service of Iceland (Landgræðslan, now part of Land and Forest Iceland) was founded in 1907. It is one of the oldest soil conservation services in the world.",
+     "Methods include fencing off eroding land to keep sheep out, and sowing lyme grass (Leymus arenarius) to stabilise drifting sand.",
+     "Other methods are sowing grasses with fertiliser from the air, and replanting birch.",
+     "Nootka lupin fixes nitrogen and binds soil, but it has become an invasive plant that crowds out native species, so its use is controversial.",
+     "Farmer-led reclamation projects, called Farmers Heal the Land, began in 1990.",
+     "Sheep numbers have fallen from their peak in the late 1970s.",
+     "Iceland shows both sides: over a century of positive impact through conservation and reclamation, after centuries of negative impact through deforestation, overgrazing and erosion.",
+     "Positive and negative impacts can occur on the same land at different times."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Overgrazing keeps more animals on land than its vegetation can support. Vegetation is eaten down and roots die, so the soil is exposed to rain-splash and wind, and trampling compacts it, reducing infiltration and increasing runoff. Sheet, rill and gully erosion then remove topsoil and humus, so fertility falls. The west of Ireland commonage is an example: headage payments from the 1980s increased sheep numbers, stripped heather and grass, exposed and eroded blanket peat, and sent silt into rivers. In Iceland, sheep grazing year round prevented the regrowth of birch, and once the vegetation was broken the light, volcanic-ash soils were blown away. Desertification is land degradation on the margins of deserts, in the Sahel. Human pressure leaves the soil bare, and drought and wind then remove it, so topsoil and humus are lost, fertility falls, the surface crusts so rain runs off rather than soaking in, and salt crusts can form under poor irrigation. Conservation methods reverse these changes. In the Sahel, zaï pits concentrate rainwater and manure around seeds, stone lines slow runoff and trap soil, and farmer-managed natural regeneration adds leaf litter and, with Faidherbia albida, nitrogen. In Iceland, fencing, lyme grass and birch replanting stabilise drifting sand and rebuild cover. In the Burren, scrub clearance and grazing under results-based payments maintain the thin rendzina soils and the flower-rich grassland.",
+    "prompt": "Examine how overgrazing, desertification and conservation methods each affect soil characteristics.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Negative impacts. Overcropping exhausts soil when crops are grown without fallow, rotation or organic matter. Nutrients are removed faster than they are replaced, humus falls, crumb structure breaks down and the soil becomes dusty and easily eroded. The Dust Bowl of the 1930s shows this: prairie grassland was ploughed up for wheat, and when drought came the bare soil was blown away in dust storms. Overgrazing exposes and compacts soil, as on the west of Ireland commonage, where heather, grass and blanket peat were lost. Desertification on the margins of the Sahara, the Sahel, follows from population pressure, cash crops, shorter fallow periods, fuelwood cutting and drought, and it leaves topsoil lost and fertility reduced. Other negative impacts include deforestation, compaction by machinery, excess fertiliser that causes eutrophication, poorly managed irrigation that causes salinisation, peat extraction and urban sprawl. Positive impacts. Conservation methods protect soil on slopes and in fields. Contour ploughing, terracing and strip cropping slow runoff and trap soil, shelter belts reduce wind erosion, and rotation, manure, compost and reduced tillage restore nutrients and humus. In Ireland, liming raises the pH of acid soils, field drainage improves gleys, and deep ploughing breaks an iron pan in podzols. Schemes such as REPS, GLAS and ACRES pay farmers to manage land in environmentally friendly ways. The Burren Programme pays farmers by habitat results and has been copied elsewhere. Iceland's Soil Conservation Service, founded in 1907, has fenced, sown and replanted eroded land over more than a century, though Nootka lupin shows that a conservation method can have its own negative effects. Human activity therefore degrades soil on some land and conserves it on other land.",
+    "prompt": "Discuss how human activity can have both positive and negative impacts on soil.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "The region is the Sahel, the semi-arid belt along the southern edge of the Sahara, with annual rainfall of roughly 200 to 600 mm in one short summer wet season. Causes: population growth increased cattle, goats and sheep around wells and boreholes, shortened fallow periods, expanded cash crops such as groundnuts and cotton onto the best land, and increased fuelwood cutting. Nomadic herders became more settled, so pasture no longer recovered. Droughts in the 1970s and 1980s then left bare soil that wind and the heavy rain of the wet season eroded. Effects on soil: topsoil and humus were lost, fertility fell, and the surface crusted so that rain ran off. Lake Chad, on the Sahel's border, shrank dramatically since the 1960s through drought and irrigation, by about 90% in a widely quoted UN figure. Responses: the UN Convention to Combat Desertification was adopted in 1994, and the African Union launched the Great Green Wall in 2007, a planned band of restored land about 8,000 km long from Senegal to Djibouti aiming to restore 100 million hectares by 2030. Its progress has been slow and well short of target. Local conservation has been more effective in places. In Burkina Faso, farmers in the Yatenga region revived zaï pits and built stone lines along the contours, which catch water, concentrate nutrients around seeds and trap soil. In Niger, farmer-managed natural regeneration has regreened about 5 million hectares since the 1980s, with trees shading the soil, cutting wind speed, adding litter and, in the case of Faidherbia albida, nitrogen. Evaluation: conservation works best when farmers gain from it and take part, so the most successful responses are local, whereas large international projects have been slow to deliver.",
+    "prompt": "Examine how desertification and conservation have impacted on soil, with reference to a region you have studied.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-geoecology-s4": {
+  "keyTerms": [
+   {
+    "definition": "A thin, immature desert soil with very little humus, in which salts or lime are often brought up near the surface.",
+    "term": "Aridisol"
+   },
+   {
+    "definition": "The circulation in which air rising at the equator sinks at about 30 degrees north and south, warming and drying as it descends.",
+    "term": "Hadley cell"
+   },
+   {
+    "definition": "The dry leeward side of a mountain, where air that has dropped its rain on the windward side descends and warms.",
+    "term": "Rain shadow"
+   },
+   {
+    "definition": "The difference between the highest and lowest temperature in one day.",
+    "term": "Diurnal range"
+   },
+   {
+    "definition": "A plant adapted to survive long periods of drought.",
+    "term": "Xerophyte"
+   },
+   {
+    "definition": "A plant that stores water in its stems or leaves.",
+    "term": "Succulent"
+   },
+   {
+    "definition": "A plant whose seeds lie dormant until rain, then germinate, flower and seed within weeks.",
+    "term": "Ephemeral"
+   },
+   {
+    "definition": "Dormancy through the hottest and driest part of the year.",
+    "term": "Estivation"
+   },
+   {
+    "definition": "A bare rock plateau in a hot desert.",
+    "term": "Hamada"
+   },
+   {
+    "definition": "A sand sea of dunes.",
+    "term": "Erg"
+   },
+   {
+    "definition": "A dry river bed that flows only after rain.",
+    "term": "Wadi"
+   },
+   {
+    "definition": "A surface of stones left behind when wind has removed the fine particles.",
+    "term": "Desert pavement"
+   },
+   {
+    "definition": "A hard layer of lime (calcium carbonate) formed near the surface where capillary rise has brought it up.",
+    "term": "Calcrete"
+   },
+   {
+    "definition": "A plant that tolerates salty soils.",
+    "term": "Halophyte"
+   },
+   {
+    "definition": "A deep, red or yellow, acidic rainforest soil that is laterised and infertile.",
+    "term": "Latosol"
+   },
+   {
+    "definition": "The process in which heavy rainfall leaches silica and other minerals from the soil, leaving iron and aluminium oxides behind.",
+    "term": "Laterisation"
+   },
+   {
+    "definition": "Fungi that grow on plant roots and pass nutrients to the plant.",
+    "term": "Mycorrhizae"
+   },
+   {
+    "definition": "A tree that rises above the main canopy of the rainforest.",
+    "term": "Emergent"
+   },
+   {
+    "definition": "A woody climber, rooted in the soil, that climbs trees to reach light.",
+    "term": "Liana"
+   },
+   {
+    "definition": "A plant that grows on the branches of other plants and takes moisture from the air and rain.",
+    "term": "Epiphyte"
+   },
+   {
+    "definition": "Rain formed when intense heating makes moist air rise, cool and condense into storm clouds.",
+    "term": "Convectional rain"
+   },
+   {
+    "definition": "The Inter-Tropical Convergence Zone, a low-pressure belt of rising air along the equator.",
+    "term": "ITCZ"
+   },
+   {
+    "definition": "The loss of water to the atmosphere from both evaporation and the transpiration of plants.",
+    "term": "Evapotranspiration"
+   },
+   {
+    "definition": "A relationship in which two species each gain from the other.",
+    "term": "Mutualism"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A biome is a large world region with a distinctive climate, soil and community of plants and animals adapted to those conditions.",
+    "h": "Hot desert: what defines the biome",
+    "points": [
+     "Climate is the main control: it shapes the soil, and climate and soil together shape the vegetation, which in turn determines which animals can live there.",
+     "Biotic inter-relationships: food chains and webs run from producers (plants) to herbivores and carnivores, with decomposers returning nutrients from dead matter to the soil; plants and animals compete for scarce water.",
+     "The hot desert is one of the biome belts that follow the world climate belts (tundra, boreal forest, temperate deciduous forest, temperate grassland, Mediterranean, hot desert, savanna, tropical rainforest); on mountains, biomes change with altitude in vertical zones."
+    ]
+   },
+   {
+    "h": "Hot desert: location and extent",
+    "points": [
+     "Annual rainfall is under 250 mm. Hot deserts lie roughly between 15 and 30 degrees north and south of the equator, mainly on the west sides of continents and in continental interiors.",
+     "The Sahara, North Africa, is the world's largest hot desert, at about 9 million km², crossing Morocco, Algeria, Libya, Egypt, Mauritania, Mali, Niger, Chad and Sudan.",
+     "Other hot deserts: the Arabian Desert; the Thar (India and Pakistan); the Namib (south-west Africa); the Atacama (Chile); the Sonoran and Mojave (south-west USA and north-west Mexico); the Great Victoria and Simpson Deserts (Australia).",
+     "Map cue: sketch the desert belts on either side of the equator, and label the west coasts of the continents where they reach the sea."
+    ]
+   },
+   {
+    "h": "Hot desert: causes of aridity",
+    "points": [
+     "1. Subtropical high pressure: air that rose at the equator sinks at about 30 degrees north and south (the Hadley cell). Sinking air warms and dries, so clouds cannot form.",
+     "2. Offshore trade winds blow from the dry interior of the land out over the sea, so they bring no moisture to the coast.",
+     "3. Cold ocean currents off west coasts cool the air above them. The cooled lower air is stable (a temperature inversion), so it cannot rise to form rain, and fog forms instead. Examples: the Canary Current (western Sahara), the Benguela Current (Namib), the Humboldt Current (Atacama) and the California Current (Baja California and the Sonoran coast).",
+     "4. Rain shadow: mountains force moist air to rise, so it cools and rains on the windward side, then descends dry on the leeward side. The Andes shelter the Atacama from the east; the Sierra Nevada shelters the Mojave, including Death Valley, from Pacific moisture.",
+     "5. Continentality: the interior of a large continent is far from the sea, so winds have lost most of their moisture before they arrive."
+    ]
+   },
+   {
+    "h": "Hot desert: temperature",
+    "points": [
+     "Summer daytime temperatures often exceed 40 °C.",
+     "Clear skies and dry air give intense insolation by day and rapid heat loss by night, so the diurnal (daily) range is very large and nights can be near freezing in winter.",
+     "The annual range is larger than in the tropics.",
+     "A diurnal range of 20 to 30 °C or more is common.",
+     "The highest air temperature officially recognised by the World Meteorological Organization is 56.7 °C, at Furnace Creek, Death Valley, California, on 10 July 1913."
+    ]
+   },
+   {
+    "h": "Hot desert: rainfall and other climate features",
+    "points": [
+     "Rain is scarce and unreliable. When it falls it is often short, intense convectional downpours that cause flash floods.",
+     "Potential evaporation far exceeds rainfall, and humidity is low.",
+     "Strong, hot, dusty winds blow across the bare surface.",
+     "Coastal fog deserts: the Namib, among the oldest deserts in the world, receives much of its moisture as fog from the cold Benguela Current.",
+     "The Atacama, Chile, is the driest non-polar desert on earth; some of its weather stations have recorded no rain for years at a time."
+    ]
+   },
+   {
+    "h": "Hot desert: landscape",
+    "points": [
+     "Most of the desert is rock and gravel, not sand dunes.",
+     "Hamada: a bare rock plateau. Reg: a stony gravel plain. Erg: a sand sea with dunes.",
+     "Wadis are dry river beds that flow only after rain.",
+     "Wind erosion landforms are taught in Erosion by wind and are not repeated here."
+    ]
+   },
+   {
+    "h": "Hot desert: soils",
+    "points": [
+     "Aridisols are thin and immature, because weathering is slow without water and is mainly physical.",
+     "They are coarse, sandy or stony, with very little humus, so they are pale grey, yellow or red in colour.",
+     "Little leaching takes place. Capillary rise brings salts and calcium carbonate to the surface, forming salt crusts (salinisation) and lime hardpans called calcrete or caliche (calcification).",
+     "Wind removes fine particles from the surface, leaving a desert pavement of stones.",
+     "The soils are alkaline. Where they are irrigated they are fertile, because nutrients have not been leached out; irrigated desert soils are farmed in the Nile valley in Egypt and in California's Imperial Valley, which is irrigated from the Colorado River.",
+     "Alluvial soils deposited by rivers that rise outside the desert, such as the Nile, are an exception to the aridisol pattern.",
+     "Contrast with rainforest: desert soils are poor in humus but can be fertile when irrigated, whereas rainforest soils stay infertile beneath lush forest."
+    ]
+   },
+   {
+    "h": "Hot desert: vegetation pattern",
+    "points": [
+     "Cover is sparse, with much bare ground, so biomass and diversity are low.",
+     "Plants are widely spaced to reduce competition for water. Creosote bush in the Mojave and Sonoran Deserts limits competitors with evenly spaced plants, roots and chemicals, and individual bushes can be very long-lived.",
+     "Vegetation is concentrated along wadis and at oases."
+    ]
+   },
+   {
+    "h": "Hot desert: plant adaptations",
+    "points": [
+     "Xerophytes are plants adapted to drought. Succulents store water in their stems or leaves.",
+     "Saguaro cactus, found only in the Sonoran Desert of Arizona and Sonora, Mexico: its pleated stem expands to store water after rain; it has spines and shallow roots spread widely just below the surface; it can grow over 12 m tall and live over 150 years. Its white flower is the state flower of Arizona.",
+     "Cacti are native only to the Americas. Euphorbias in African deserts look similar through convergent evolution.",
+     "Spines in place of leaves cut water loss and deter animals; a thick, waxy cuticle reduces evaporation.",
+     "Few, sunken stomata; in many succulents they open only at night (Crassulacean acid metabolism, or CAM, photosynthesis), so less water is lost in the heat of the day.",
+     "Long tap roots reach groundwater: mesquite, in the south-west USA and Mexico, has tap roots that can reach tens of metres down.",
+     "Shallow, widespread roots catch brief rain.",
+     "Acacia trees in the Sahara and Arabian deserts have deep roots, small leaves and thorns.",
+     "Small or light-coloured leaves, or leaves shed in drought, reduce water loss.",
+     "Welwitschia mirabilis, Namib Desert: it has only two leaves, which grow throughout its life; it absorbs moisture from fog; some plants are thought to be over 1,000 years old.",
+     "Halophytes tolerate salty soils. Some plants in coastal deserts harvest moisture from fog.",
+     "Ephemerals: their seeds lie dormant for years, then after rain germinate, flower and set seed within weeks, producing a desert bloom. In the Atacama, Chile, a flowering desert (desierto florido) appears in unusually wet years, often linked to El Niño; Death Valley had a widely reported superbloom in 2016."
+    ]
+   },
+   {
+    "h": "Hot desert: animal adaptations",
+    "points": [
+     "Dromedary camel, Sahara and Arabia: its hump stores fat, not water. It can go many days without drinking, then drink over 100 litres in a few minutes.",
+     "The dromedary camel lets its body temperature rise by several degrees during the day, saving the water that sweating would use, and thick fur on its back shades it from the sun.",
+     "The dromedary camel has long eyelashes and closable nostrils that keep out sand, and broad, padded feet that spread its weight on sand.",
+     "Very concentrated urine and dry droppings reduce water loss (dromedary camel; kangaroo rat).",
+     "Fennec fox, Sahara: the smallest fox, with very large ears that radiate heat; nocturnal; burrows by day; fur on the soles of its feet for hot sand.",
+     "Kangaroo rat, North American deserts: gets water from its seed diet and from its metabolism; nocturnal; seals its burrow by day to keep humidity in.",
+     "Namib fog-basking beetle: stands head-down on dune crests at dawn so that fog condenses on its back and runs to its mouth.",
+     "Thorny devil lizard, Australian deserts: grooves in its skin channel water to its mouth.",
+     "Spadefoot toad, Sonoran Desert: estivates (lies dormant) underground through the dry months and emerges after summer rain; its eggs and tadpoles develop extremely quickly, before the pools dry up.",
+     "Addax antelope, Sahara: pale coat; gets most of its water from plants; now critically endangered.",
+     "Desert locust: breeds rapidly after rain and can form huge swarms."
+    ]
+   },
+   {
+    "h": "Hot desert: animal and plant relationships",
+    "points": [
+     "Lesser long-nosed bats pollinate saguaro and agave flowers at night.",
+     "Gila woodpeckers dig nest holes in saguaros; when the holes are abandoned, elf owls and other birds use them.",
+     "Food chains are short, with few producers; seed-eating rodents are prey for snakes, owls and foxes."
+    ]
+   },
+   {
+    "h": "Hot desert: people and a European example",
+    "points": [
+     "Tuareg (Sahara) and Bedouin (Arabia) are pastoral nomads who herd camels and goats.",
+     "Oasis farming grows date palms, whose roots reach groundwater.",
+     "Tabernas Desert, Almería province, Andalusia, south-east Spain: often called Europe's only desert, a semi-arid area in the rain shadow of surrounding mountains.",
+     "The Tabernas Desert was used as a film set for spaghetti westerns in the 1960s and 1970s."
+    ]
+   },
+   {
+    "h": "Hot desert: reading a climate graph",
+    "points": [
+     "Annual range: the warmest monthly mean minus the coolest, for example 34 °C minus 12 °C gives an annual range of 22 °C (invented illustrative values).",
+     "Total rainfall: the sum of the twelve monthly rainfall bars, for example 150 mm (invented illustrative values); a total under 250 mm points to a hot desert.",
+     "Seasonality: describe when the rain falls and when temperatures peak, for example a single short wet season in late summer (invented illustrative values)."
+    ]
+   },
+   {
+    "b": "The tropical rainforest is a biome: a community of plants and animals adapted to a hot, wet equatorial climate and to nutrient-poor soils.",
+    "h": "Tropical rainforest: what defines the biome",
+    "points": [
+     "Biotic inter-relationships: food chains and webs run from producers to herbivores and carnivores, with decomposers returning nutrients to the soil; species compete for light, and many pollinators and seed dispersers depend on the plants they feed on.",
+     "The rainforest is the biome of the equatorial belt, one of the biome belts that follow the world climate belts; mountains show vertical zones of biomes instead."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: location and regions",
+    "points": [
+     "A dense, evergreen, broadleaved forest in the hot, wet equatorial climate, mainly between about 10 degrees north and south of the equator.",
+     "Amazon Basin, South America: the largest, covering about 5.5 million km², with roughly 60% of it in Brazil.",
+     "Congo Basin, Central Africa: the second largest, including the Democratic Republic of the Congo.",
+     "South-East Asia: Indonesia (including Sumatra and Borneo), Malaysia and Papua New Guinea.",
+     "Smaller areas: Central America, West Africa, eastern Madagascar and north-east Australia (the Daintree, Queensland).",
+     "Rainforests cover only about 6% of the earth's land surface but are widely estimated to hold over half of the world's land plant and animal species.",
+     "Map cue: shade the equatorial belt, then mark the three main basins and regions."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: temperature",
+    "points": [
+     "Mean monthly temperatures are about 26 to 28 °C all year.",
+     "The annual range is only about 2 to 3 °C, because the sun stays high and day length barely changes. The sun is overhead at the equator twice a year, at the equinoxes in March and September.",
+     "The daily range is greater than the annual range, and there are no seasons in the temperate sense."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: rainfall and convection",
+    "points": [
+     "Annual rainfall is over 2,000 mm, falling throughout the year and in places far more. Manaus, in the central Amazon, Brazil, receives about 2,300 mm a year.",
+     "Stage 1: intense morning heating warms the ground and the moist air above it, which rises.",
+     "Stage 2: the rising air cools and cumulonimbus clouds build up.",
+     "Stage 3: heavy afternoon thunderstorms follow, almost daily.",
+     "The low-pressure belt of rising air along the equator, the ITCZ (Inter-Tropical Convergence Zone, also called the doldrums), drives this; some areas have a short drier season when it shifts.",
+     "Relative humidity is often over 80%.",
+     "A large share of the Amazon's rain is water recycled from the forest by evapotranspiration."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: soils and the nutrient cycle",
+    "points": [
+     "Latosols are deep, red or yellow, laterised, acidic and infertile, with little humus. Laterisation is explained in Soil processes and the global pattern of soils.",
+     "Litter decomposes within weeks in the heat and humidity.",
+     "Shallow roots and mycorrhizal fungi (fungi growing on the roots) take up nutrients almost at once and pass them to the trees.",
+     "Most nutrients are held in living vegetation rather than the soil, so the nutrient cycle is rapid and closed.",
+     "Rainforest soils are infertile despite the lush forest; hot desert soils are infertile in humus but can be fertile when irrigated."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: vegetation layers",
+    "points": [
+     "Emergents rise above the canopy, at about 45 to 60 m and more: kapok, the Brazil nut tree in the Amazon, and dipterocarps in South-East Asia.",
+     "The canopy, at about 25 to 40 m, is a dense, continuous layer that intercepts most sunlight and rain and holds most of the animal life.",
+     "The understorey of young trees and palms reaches up to about 15 m.",
+     "The shrub layer grows in the dim light below.",
+     "The forest floor is dark and humid; only about 2% of the sunlight reaching the canopy arrives there.",
+     "Diagram cue: a labelled vertical profile of the layers, with approximate heights."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: plant adaptations",
+    "points": [
+     "Buttress roots support tall trees such as kapok (Ceiba) and the Brazil nut, which have shallow roots.",
+     "Shallow roots catch nutrients from the litter layer.",
+     "Drip tips and waxy leaves shed heavy rain.",
+     "Large leaves in the understorey capture the little light that reaches it.",
+     "Thin, smooth bark, because the trunk needs no thick insulation.",
+     "Evergreen, with leaves shed and replaced all year. When a tree falls it opens a light gap, and young trees grow rapidly upwards into it.",
+     "Lianas are woody climbers, rooted in the soil, that climb trees to reach the light.",
+     "Epiphytes such as orchids, bromeliads and ferns grow on branches and take moisture from the air and rain. Bromeliads hold pools of water in their leaf rosettes, which tree frogs use.",
+     "Strangler figs start as epiphytes and enclose their host tree.",
+     "Pitcher plants (Nepenthes) in the nutrient-poor soils of South-East Asia trap and digest insects.",
+     "Rafflesia arnoldii, a parasite on vines in Sumatra and Borneo, has the largest single flower in the world, about 1 m across, and smells of rotting meat to attract flies."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: biodiversity",
+    "points": [
+     "Hundreds of tree species can grow in a single hectare of Amazon rainforest, compared with a handful in an Irish wood.",
+     "Many species grow in each hectare, but each species is represented by few individuals."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: animal adaptations",
+    "points": [
+     "Most animals live in the canopy (arboreal).",
+     "Spider monkeys and howler monkeys, Amazon: prehensile tails used as a fifth limb; howler monkeys are among the loudest land animals.",
+     "Three-toed sloth: its very slow metabolism suits a low-energy leaf diet; algae growing in its fur give camouflage; it descends to the ground only about once a week.",
+     "Toucan, South and Central America: its large, light bill reaches fruit at the tips of branches and helps it lose heat.",
+     "Orangutan, found only in Borneo and Sumatra: the largest tree-living mammal, with long arms.",
+     "Harpy eagle, Central and South America: hunts monkeys and sloths in the canopy.",
+     "Poison dart frogs, Central and South America: bright colours warn predators of their toxic skin.",
+     "Jaguar: the largest cat in the Americas, with a spotted coat for camouflage; a strong swimmer.",
+     "Okapi, Congo rainforest: a forest relative of the giraffe, with striped legs for camouflage.",
+     "Gorillas and bonobos live in the Congo Basin; bonobos are found only south of the Congo River."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: biotic inter-relationships",
+    "points": [
+     "Pollination by insects, birds and bats, and seed dispersal by fruit bats, birds and other animals link plants and animals closely.",
+     "Mutualism: Azteca ants live inside Cecropia trees, which give them shelter and food; in return the ants attack herbivores and clear climbing plants from the tree.",
+     "Leafcutter ants cut leaves to grow the fungus they eat.",
+     "Brazil nut: pollinated mainly by large orchid bees and dispersed by agoutis, rodents that bury the nuts; trees produce poorly in plantations away from intact forest."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: people of the forest",
+    "points": [
+     "The Yanomami (Brazil and Venezuela border), the Kayapó (Brazilian Amazon) and the Mbuti (Ituri forest, Democratic Republic of the Congo) are hunter-gatherers.",
+     "Hunting, gathering and shifting cultivation (slash and burn) at low density let the forest and soil recover. Commercial felling is covered in Human alteration of biomes."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: no European example",
+    "points": [
+     "There is no tropical rainforest in Europe. Europe's role in the trade that drives felling is covered in Human alteration of biomes."
+    ]
+   },
+   {
+    "h": "Tropical rainforest: reading a climate graph",
+    "points": [
+     "Annual range: the warmest monthly mean minus the coolest, for example 28 °C minus 25 °C gives an annual range of 3 °C (invented illustrative values).",
+     "Total rainfall: the sum of the twelve monthly rainfall bars, for example 2,400 mm (invented illustrative values); rain falls in every month, with no dry season.",
+     "Seasonality: describe the pattern as even, with temperatures near constant through the year (invented illustrative values)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Hot desert only. Climate: subtropical high pressure sinks at about 30 degrees, warming and drying so clouds cannot form; offshore trade winds blow from the interior; cold currents such as the Benguela cool the air and produce fog rather than rain; mountains such as the Andes create a rain shadow; continentality keeps the interior dry. Result: rainfall under 250 mm, unreliable and often falling as flash-flood downpours; summer daytime temperatures often over 40 °C; a very large diurnal range; potential evaporation far exceeds rainfall. Soils: aridisols that are thin and immature because weathering is slow without water; very little humus; capillary rise brings salts and calcium carbonate to the surface, forming salt crusts and calcrete; desert pavement where wind has removed the fine particles. Vegetation: sparse, widely spaced plants with low biomass; adaptations include the saguaro's pleated stem and shallow roots, the mesquite's tap roots, the thick waxy cuticle and few sunken stomata of succulents, and ephemerals that bloom within weeks of rain. One bridging point may note an animal adaptation, such as the dromedary camel's fat store, and no further animal detail.",
+    "prompt": "With reference to one biome you have studied, account for its climate and explain how this climate affects its soils and vegetation.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Tropical rainforest only, in three aspects. Climate: an equatorial climate with temperatures of about 26 to 28 °C, an annual range of only 2 to 3 °C, and rainfall over 2,000 mm from convectional storms driven by the ITCZ; Manaus receives about 2,300 mm. Soils: latosols that are deep, red, laterised, acidic and infertile; litter decomposes within weeks and mycorrhizal fungi pass nutrients to the trees, so most nutrients are held in living vegetation. Fauna: most animals are arboreal; named adaptations include the three-toed sloth's slow metabolism and algae camouflage, the howler monkey's prehensile tail, the toucan's bill, which helps it lose heat, and the orangutan's long arms; biotic inter-relationships include Brazil nut pollination by orchid bees, dispersal by agoutis, and leafcutter ants farming fungus.",
+    "prompt": "Examine the characteristics of one biome you have studied with reference to climate, soils and fauna.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Tropical rainforest only. Climate and soil: a hot, wet equatorial climate with a small temperature range and high convectional rainfall; latosols with a rapid nutrient cycle through shallow roots and fungi. Vegetation development: the layered structure, from emergents of 45 to 60 m and more, through the canopy at about 25 to 40 m and the understorey, to the dark forest floor, which receives about 2% of the sunlight reaching the canopy. Plant adaptations: buttress roots, shallow roots, drip tips, waxy leaves, large understorey leaves, lianas, epiphytes, strangler figs, and an evergreen habit with rapid growth into light gaps.",
+    "prompt": "Describe the climatic and soil characteristics of one biome and examine their impact on the development of vegetation.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-geoecology-s5": {
+  "keyTerms": [
+   {
+    "definition": "The vegetation that would grow in an area if it were left undisturbed by humans.",
+    "term": "Natural (climax) vegetation"
+   },
+   {
+    "definition": "The New Stone Age, when farming first reached Ireland about 6,000 years ago.",
+    "term": "Neolithic"
+   },
+   {
+    "definition": "A peat bog that spreads across gently sloping or upland ground, often over former forest or farmland.",
+    "term": "Blanket bog"
+   },
+   {
+    "definition": "Planting trees on land that has not recently been wooded.",
+    "term": "Afforestation"
+   },
+   {
+    "definition": "Dense Mediterranean scrub that replaces evergreen oak and pine forest after clearance.",
+    "term": "Maquis"
+   },
+   {
+    "definition": "Low, open Mediterranean scrub growing on thin soils.",
+    "term": "Garrigue"
+   },
+   {
+    "definition": "The growing of a single crop over a large area.",
+    "term": "Monoculture"
+   },
+   {
+    "definition": "The enrichment of water by nutrients from fertiliser and slurry, which can cause algal growth and oxygen loss.",
+    "term": "Eutrophication"
+   },
+   {
+    "definition": "Rain made acidic by sulphur dioxide and nitrogen oxides from burning fuels.",
+    "term": "Acid rain"
+   },
+   {
+    "definition": "A process that removes sulphur dioxide from the smoke of power stations.",
+    "term": "Flue-gas desulphurisation"
+   },
+   {
+    "definition": "A pond holding the waste water and sediment left after mining.",
+    "term": "Tailings pond"
+   },
+   {
+    "definition": "The change in conditions and species at the edge of a fragmented patch of forest.",
+    "term": "Edge effect"
+   },
+   {
+    "definition": "The threshold beyond which a system changes irreversibly to a different state.",
+    "term": "Tipping point"
+   },
+   {
+    "definition": "A protected area where local people harvest forest products such as rubber and nuts sustainably.",
+    "term": "Extractive reserve"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Natural (climax) vegetation is what would grow if the land were left undisturbed. Very little of the earth's land remains untouched.",
+    "h": "The idea of human alteration",
+    "points": [
+     "Humans alter biomes by removing, replacing or degrading vegetation, changing soils and water, introducing or removing species, and polluting.",
+     "The effects reach every part of the system: climate, soil, plants, animals and people."
+    ]
+   },
+   {
+    "h": "Early settlement: Ireland's post-glacial forest",
+    "points": [
+     "After the last glaciation ended about 10,000 years ago, Ireland was colonised by birch and hazel, then by pine, oak, elm and ash.",
+     "By about 6,000 years ago forest covered almost all of the island; this was the temperate deciduous forest biome."
+    ]
+   },
+   {
+    "h": "Early settlement: first clearance by farmers",
+    "points": [
+     "Mesolithic hunter-gatherers had little impact on the forest.",
+     "Farming (the Neolithic) reached Ireland about 6,000 years ago (about 4000 BC). Farmers cleared forest with stone axes and fire to grow cereals and graze animals.",
+     "A sharp fall in elm pollen around this time, the elm decline, is seen across Ireland and Britain. Clearance by farmers and elm disease are both thought to have contributed."
+    ]
+   },
+   {
+    "h": "Céide Fields, north Co. Mayo",
+    "points": [
+     "Neolithic farmers built stone-walled fields here, about 5,500 years ago. The fields are among the oldest known field systems in the world.",
+     "Blanket bog later covered the fields. Forest clearance, a wetter climate and leaching turned the forest soils into bog, and peat grew over the walls.",
+     "A local teacher, Patrick Caulfield, found the stone walls under the bog while cutting turf in the 1930s. His son, the archaeologist Séamas Caulfield, later studied the site."
+    ]
+   },
+   {
+    "h": "Early settlement: clearance in the 16th and 17th centuries",
+    "points": [
+     "Earlier clearance continued through the Bronze and Iron Ages and in early Christian and medieval farming.",
+     "The great clearance came in the 16th and 17th centuries, during the Tudor conquest and plantations. Woods were felled for timber exports, shipbuilding, barrel staves and charcoal for ironworks, and to remove cover used by Irish resistance.",
+     "By 1900 Ireland was among the least wooded countries in Europe, with about 1% of the island forested.",
+     "Forest cover is now about 11%, mostly conifer plantations."
+    ]
+   },
+   {
+    "h": "Early settlement: results for the Irish biome",
+    "points": [
+     "Native deciduous forest was replaced by farmland, hedgerows, bog and grassland.",
+     "Woodland species declined; the wolf was hunted to extinction, the last one generally said to have been killed in the late 1700s.",
+     "Soils under heath were leached and podzolised, and blanket bog spread across the uplands."
+    ]
+   },
+   {
+    "h": "Early settlement: modern response in Ireland",
+    "points": [
+     "State afforestation has mostly planted fast-growing, non-native conifers, chiefly Sitka spruce (native to western North America).",
+     "Sitka plantations form a species-poor habitat and acidify soils and water.",
+     "Native woodland survives in remnants, such as the oakwoods of Killarney National Park, Co. Kerry, and the Reenadinna yew wood on the Muckross peninsula, a rare pure yew wood."
+    ]
+   },
+   {
+    "h": "Early settlement: the Mediterranean",
+    "points": [
+     "Deforestation since ancient times, for shipbuilding, fuel, farming and goat grazing, degraded the evergreen oak and pine forest to maquis (dense scrub) and garrigue (low, open scrub on thin soils).",
+     "Soil erosion on the cleared slopes followed, as described in A Peripheral European Region: the Mezzogiorno.",
+     "The cedars of Lebanon, prized by the ancient Egyptians and Phoenicians for shipbuilding and temples, survive only in small groves, such as the Cedars of God grove, a UNESCO World Heritage site."
+    ]
+   },
+   {
+    "h": "Early settlement: a global example",
+    "points": [
+     "Iceland: birch woodland was cleared and grazed after settlement, as described in Human interference with soils."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: scale of Amazon clearance",
+    "points": [
+     "Brazil's space agency, INPE, measures annual deforestation in the Brazilian Amazon by satellite (the PRODES programme).",
+     "Clearance peaked at about 27,800 km² in 2004, fell to about 4,600 km² in 2012, rose to about 13,000 km² in 2021, and fell again from 2023 under renewed enforcement.",
+     "Close to a fifth of the original Amazon forest has been cleared."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: causes in the Amazon",
+    "points": [
+     "Cattle ranching is the largest single cause and accounts for most of the cleared land in the Brazilian Amazon.",
+     "Soya farming spread north from Mato Grosso. Much of the soya is exported as animal feed, including to Europe and China.",
+     "Logging of hardwoods: selective logging opens roads and gaps in the canopy that lead to further clearance.",
+     "Road building and planned settlement: the Trans-Amazonian Highway (BR-230), begun in the early 1970s by the military government, opened the Amazon to settlers from the poor, drought-prone north-east. BR-364 into Rondônia, paved in the 1980s with World Bank support (the Polonoroeste programme), led to a fishbone pattern of clearings along its side roads.",
+     "Mining: Carajás, Pará state, is one of the world's largest iron-ore mines, operated by Vale and opened in the 1980s. A railway carries the ore to the coast, and charcoal-fuelled pig-iron smelters used forest wood.",
+     "Illegal gold mining (garimpo) on Yanomami land pollutes rivers with mercury.",
+     "Hydroelectric dams: the Belo Monte dam on the Xingu River, Pará, completed in 2019, is one of the world's largest hydroelectric schemes by capacity. It flooded forest and land, diverted the river past the Volta Grande (Big Bend), and displaced thousands of people. The Kayapó and other indigenous groups strongly opposed it. River impacts are covered in Human interaction: river processes.",
+     "Government policy and debt, together with global demand for beef, soya, timber and minerals, drive clearance."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: impacts on the Amazon biome",
+    "points": [
+     "Loss of habitat and species, many of them endemic to the region.",
+     "Fragmentation of the remaining forest creates edge effects, as the forest edge is drier, hotter and more exposed.",
+     "The nutrient cycle is broken: cleared latosols lose their fertility within a few years, and pasture is abandoned.",
+     "Soil erosion and a hard laterite crust form on the exposed land, and rivers silt up.",
+     "Less evapotranspiration means less rainfall downwind and longer dry seasons, and fires become more frequent.",
+     "The forest stores huge amounts of carbon; burning and decay release it to the atmosphere as carbon dioxide.",
+     "Scientists, notably Carlos Nobre and Thomas Lovejoy, have warned that losing about 20 to 25% of the forest could push parts of the Amazon past a tipping point towards degraded savanna."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: impacts on people",
+    "points": [
+     "Indigenous peoples lose their land, suffer disease, and face violence and conflict with ranchers and miners, as with the Yanomami and the gold miners.",
+     "Chico Mendes, a rubber tapper and union leader who campaigned to protect the forest, was murdered by a rancher's family at Xapuri, Acre, on 22 December 1988.",
+     "In 2023 the Brazilian government declared a public health emergency in Yanomami territory after illegal gold mining caused malnutrition and disease."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: responses and evaluation",
+    "points": [
+     "Brazil's Forest Code requires landowners in the Amazon to keep 80% of their land as forest, the legal reserve; the code was revised in 2012.",
+     "The Amazon Soy Moratorium (2006): major traders agreed not to buy soya grown on newly deforested Amazon land.",
+     "The Amazon Fund (2008), with Norway the largest donor, pays for forest protection.",
+     "INPE's PRODES annual figures and DETER near-real-time alerts guide enforcement by IBAMA, the federal environment agency.",
+     "Protected areas, indigenous territories and extractive reserves, where local people harvest rubber and nuts sustainably, were set up after Chico Mendes's death; the Chico Mendes Extractive Reserve in Acre is one example.",
+     "Evaluation: the falls and rises in clearance show that protection depends on political will and enforcement."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: South-East Asia",
+    "points": [
+     "Indonesia and Malaysia together produce about 85% of the world's palm oil.",
+     "Lowland rainforest and peat swamp forest in Borneo and Sumatra are cleared for oil palm plantations and timber.",
+     "Drained and burned peat causes regional haze, notably in 1997 and 2015, affecting Singapore and Malaysia.",
+     "The Bornean orangutan was listed as Critically Endangered by the IUCN in 2016, making it the flagship threatened species of this clearance."
+    ]
+   },
+   {
+    "h": "Felling of tropical rainforests: the European link",
+    "points": [
+     "Europe's demand for beef, soya (as animal feed), timber and palm oil drives felling.",
+     "The EU Deforestation Regulation (adopted 2023) will require firms selling beef, soya, palm oil, cocoa, coffee, rubber and timber in the EU to prove they were not grown on land deforested after 2020. Its application has been delayed."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: what it is",
+    "points": [
+     "Intensive farming uses high inputs of capital, machinery, fertiliser, pesticides and water to get maximum output per hectare.",
+     "It creates monocultures, larger fields and drained wetlands."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: dairying and tillage in Ireland",
+    "points": [
+     "EU milk quotas ended on 1 April 2015, after which Irish dairy herds expanded.",
+     "Hedgerows were removed and fields enlarged; wetlands and callows were drained; species-rich meadows were reseeded with ryegrass.",
+     "Silage replaced hay. Earlier, mechanised cutting destroys the nests of ground-nesting birds such as the corncrake, which has declined to a small population mainly in north-west Donegal, west Mayo and the Shannon Callows.",
+     "Heavy use of fertiliser and slurry raises nitrate levels in rivers and estuaries, especially in the south and south-east, and causes eutrophication of lakes.",
+     "Wild bees and farmland birds have declined.",
+     "Agriculture is the largest source of Ireland's greenhouse gas emissions, over a third of the total, according to the Environmental Protection Agency (EPA).",
+     "Responses: the Nitrates Directive (1991); agri-environment schemes REPS (1994), GLAS (2015) and ACRES (2023); and the All-Ireland Pollinator Plan, begun in 2015."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: a European example",
+    "points": [
+     "The Common Agricultural Policy began in 1962. Guaranteed prices encouraged farmers to remove hedgerows, enlarge fields and drain wetlands, notably in the arable east of England (East Anglia).",
+     "Food surpluses, the butter mountains and wine lakes, followed in the 1980s.",
+     "Later reforms, from 1992 onwards, began paying farmers for environmental farming."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: temperate grassland",
+    "points": [
+     "The tallgrass prairie of North America has been almost entirely converted to farmland; only a few per cent survives.",
+     "The Dust Bowl, when ploughed grassland soils blew away, is covered in Human interference with soils."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: irrigation and the Aral Sea",
+    "points": [
+     "The Aral Sea lies on the border of Kazakhstan and Uzbekistan. In 1960 it was the world's fourth-largest lake.",
+     "From the 1960s Soviet planners diverted its feeder rivers, the Amu Darya and Syr Darya, to irrigate cotton and rice in the desert.",
+     "The sea shrank to a fraction of its former size and split into separate parts. Its salinity rose and the fishing industry collapsed.",
+     "Former fishing ports such as Moynaq (Muynak), Uzbekistan, were left far from the shore, with ships stranded on the dry seabed.",
+     "Dust storms carry salt and pesticide residues from the exposed seabed onto farmland and people, with health effects.",
+     "Salinisation and waterlogging damaged the irrigated soils.",
+     "The Kok-Aral Dam (2005), built by Kazakhstan with World Bank funding, raised the level of the small North Aral Sea, and fishing has partly recovered there.",
+     "This is one of the world's worst environmental disasters, and it was caused by irrigation, not by climate change."
+    ]
+   },
+   {
+    "h": "Intensive agriculture: the rainforest link",
+    "points": [
+     "Cattle and soya in the Amazon are also intensive agriculture; the impacts are those listed under the felling of tropical rainforests."
+    ]
+   },
+   {
+    "h": "Industrial development: acid rain in Europe",
+    "points": [
+     "Sulphur dioxide and nitrogen oxides from coal- and oil-burning power stations, industry and vehicles form acids that are carried downwind, often across national borders.",
+     "Acid rain acidified thousands of lakes in southern Norway and Sweden from the 1960s to the 1980s; fish died out in many of them. Its source was largely the emissions of other countries.",
+     "Effects on coniferous forests include needle loss, dieback and nutrient leaching from the soil.",
+     "Effects on lakes include fish being killed and aluminium being released into the water.",
+     "The Black Triangle, where the borders of Germany, Poland and the Czech Republic meet, had lignite-burning power stations. Large areas of spruce forest in the Ore Mountains (Erzgebirge) and neighbouring ranges died in the 1970s and 1980s, a process known as Waldsterben (forest death).",
+     "Responses: the Convention on Long-Range Transboundary Air Pollution (1979); EU limits on power-station emissions; flue-gas desulphurisation; and liming of lakes in Sweden and Norway.",
+     "Sulphur dioxide emissions in Europe have since fallen by well over half, and many forests and lakes have partly recovered."
+    ]
+   },
+   {
+    "h": "Industrial development: Bord na Móna and Irish peatlands",
+    "points": [
+     "Bord na Móna, a state company set up in 1946, harvested milled peat on a large scale from the Midland raised bogs for power stations and briquettes.",
+     "The peat-burning power stations at Shannonbridge (West Offaly) and Lanesborough (Lough Ree) closed in December 2020. Bord na Móna ended peat harvesting in 2021, under its Brown to Green plan.",
+     "Its cutaway bogs are being rehabilitated and rewetted. Lough Boora Discovery Park, Co. Offaly, is cutaway bog converted to wetlands, woodland and amenity land.",
+     "Clara Bog, Co. Offaly, is one of the largest relatively intact raised bogs in Ireland, and is a nature reserve and Special Area of Conservation.",
+     "Peatlands cover about a fifth of Ireland."
+    ]
+   },
+   {
+    "h": "Industrial development: Moneypoint and acid emissions in Ireland",
+    "points": [
+     "Moneypoint, Co. Clare, on the Shannon Estuary, was Ireland's only coal-fired power station, opened in the 1980s.",
+     "Flue-gas desulphurisation was later fitted to cut its sulphur emissions. ESB ended coal-burning there in 2025."
+    ]
+   },
+   {
+    "h": "Industrial development: oil sands in Canada",
+    "points": [
+     "The Athabasca oil sands, around Fort McMurray in northern Alberta, Canada, are mined by surface (open-pit) methods that strip away boreal forest and muskeg (peatland) to reach bitumen-soaked sand.",
+     "The mining produces large tailings ponds of polluted water and high greenhouse gas emissions per barrel.",
+     "Companies must reclaim mined land, but little of it has been certified as reclaimed."
+    ]
+   },
+   {
+    "h": "Industrial development: oil pollution in the Niger Delta",
+    "points": [
+     "Oil has been produced in the Niger Delta, Nigeria, since the late 1950s, by Shell and others.",
+     "Repeated spills from pipelines, and theft, have polluted creeks, mangrove forest and farmland.",
+     "A UNEP study of Ogoniland (2011) found pollution so widespread that a clean-up could take 25 to 30 years."
+    ]
+   },
+   {
+    "h": "Industrial development: Chernobyl",
+    "points": [
+     "The Chernobyl nuclear power station in Ukraine, then part of the USSR, exploded on 26 April 1986.",
+     "Radiation killed a nearby pine forest, whose needles turned reddish-brown, the Red Forest.",
+     "A 30 km exclusion zone was evacuated. With people gone, wildlife such as wolves, elk, wild boar and the reintroduced Przewalski's horse has become common there."
+    ]
+   },
+   {
+    "h": "Industrial development: wider effects",
+    "points": [
+     "Greenhouse gases from industry shift climate belts and stress biomes, through coral bleaching, thawing tundra permafrost, and more drought and fire. Global warming as a global issue is covered in Option — Global Interdependence.",
+     "Urban and industrial sprawl replaces habitats and seals the soil beneath."
+    ]
+   },
+   {
+    "h": "Evaluation: is human alteration always negative?",
+    "points": [
+     "Not all alteration is negative. Protected areas, rewilding, rewetting of bogs, results-based farming (covered in Human interference with soils) and pollution controls can restore biomes.",
+     "The central evaluation is the balance between economic gain and the loss of biomes."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Three aspects of roughly equal weight. The felling of tropical rainforests: the Amazon, with its causes (cattle ranching as the largest cause, soya, logging, roads such as the Trans-Amazonian Highway and BR-364, mining at Carajás, and the Belo Monte dam), its impacts (habitat and species loss, a broken nutrient cycle, altered rainfall, carbon release and a tipping point) and responses (the Forest Code, the Soy Moratorium, the Amazon Fund and enforcement). Intensive agriculture: in Ireland, with hedgerow loss, drainage, silage cutting and the corncrake, eutrophication and the CAP, and the Aral Sea as an irrigation case. Industrial development: acid rain in Scandinavia and the Black Triangle with forest death, and Bord na Móna's peat extraction in the Midlands with rehabilitation. Each aspect should name its case studies, impacts on vegetation, animals, soils and climate, and a response.",
+    "prompt": "Examine how each of the following alters biomes: the felling of tropical rainforests; intensive agricultural practices; industrial development.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Four aspects, with one case study for each. Early settlement and forest clearance: Irish post-glacial forest cleared by Neolithic farmers, shown at the Céide Fields, followed by the 16th and 17th century clearance and the later conifer afforestation with its native woodland remnants. Felling of tropical rainforests: the Amazon, with causes, impacts and responses. Intensive agriculture: Irish dairying and tillage, or the Aral Sea. Industrial development: acid rain in Europe or peat extraction at Bord na Móna. Balance the discussion with a note that protection and restoration can reverse some alteration.",
+    "prompt": "Biomes have been altered by human activities. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "The temperate deciduous forest of Ireland only. Post-glacial forest of birch, hazel, pine, oak, elm and ash covered almost all of the island by about 6,000 years ago. Neolithic farmers cleared it with stone axes and fire, and the elm decline marks this clearance. The Céide Fields in north Co. Mayo show clearance followed by leaching and blanket bog. The 16th and 17th century clearance for timber, shipbuilding, charcoal and resistance cover left Ireland among the least wooded countries in Europe by 1900. Its impacts include farmland, bog and grassland replacing native forest, the loss of woodland species such as the wolf, and podzolised heath soils. Modern afforestation with Sitka spruce acidifies soils, and native remnants such as the Killarney oakwoods and the Reenadinna yew wood survive.",
+    "prompt": "Examine the impact of early settlement and forest clearance on one biome you have studied.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-plate-tectonics-s1": {
   "keyTerms": [
    {
