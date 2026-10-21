@@ -1,0 +1,493 @@
+{
+  "loId": "geo-population-migration-s1",
+  "chapterId": "geo-population-migration",
+  "subsection": "1. Changing population characteristics",
+  "syllabusRef": "5.1",
+  "notes": [
+    {
+      "h": "Key measures",
+      "points": [
+        "Crude birth rate: live births per 1,000 people per year.",
+        "Crude death rate: deaths per 1,000 people per year.",
+        "Natural change: birth rate minus death rate. A positive result is natural increase; a negative result is natural decrease.",
+        "Net migration: immigrants minus emigrants.",
+        "Total fertility rate: the average number of children per woman.",
+        "Replacement level: a total fertility rate of about 2.1 children per woman in developed countries, the level at which a population replaces itself.",
+        "Infant mortality rate: deaths of children under one year old per 1,000 live births.",
+        "Life expectancy: the average number of years a newborn is expected to live."
+      ]
+    },
+    {
+      "h": "Population change and the census",
+      "points": [
+        "Population change equals natural change plus net migration. In any period between two censuses, the larger of the two components explains the growth or decline.",
+        "The census is a count of every person on one night. In Ireland it is held every five years and run by the Central Statistics Office (CSO).",
+        "The Irish census records age, sex, place of residence, birthplace, nationality, religion, ethnicity, Irish language, housing, work and commuting.",
+        "Census 2016 to Census 2022: the population grew by about 360,000 (about 7.6%). Natural increase contributed about 170,000 and net migration about 190,000, so net migration was the slightly larger component."
+      ]
+    },
+    {
+      "h": "Irregular census years",
+      "points": [
+        "The 1926 census was the first held by the Irish Free State.",
+        "The 1976 census was cancelled; a special census was held in 1979 instead.",
+        "The 2001 census was postponed to 2002 by foot-and-mouth disease.",
+        "The 2021 census was postponed to 2022 by COVID-19 and held on 3 April 2022."
+      ]
+    },
+    {
+      "h": "Uses of population statistics",
+      "points": [
+        "Planning schools, hospitals and housing: counts of children, patients and households show where services are needed.",
+        "Pensions: the age structure sets the cost of pensions; the State pension age has been 66 since 2014.",
+        "Transport and infrastructure: population size and location show where roads, rail and water services are needed.",
+        "Constituency boundaries: the population of each constituency determines the number of TDs it elects.",
+        "Funding and workforce planning: funding is allocated to regions by population, and population forecasts show future labour supply and the need for workers from abroad."
+      ]
+    },
+    {
+      "h": "Population distribution and density",
+      "b": "Distribution is where people live. Density is the number of people per square kilometre of land.",
+      "points": [
+        "Density = population ÷ area in km².",
+        "Illustrative example (invented figures): a region of 400 km² with 120,000 people has a density of 120,000 ÷ 400 = 300 people per km²."
+      ]
+    },
+    {
+      "h": "Physical factors affecting distribution",
+      "points": [
+        "Relief: lowlands attract more people than high mountains, which are costly to farm and build on.",
+        "Climate: temperate climates support dense settlement; places that are too hot, too cold or too dry have fewer people.",
+        "Soils and water supply: fertile soils and reliable water support farming and settlement.",
+        "Natural resources: coalfields drew industrial populations in the 19th century."
+      ]
+    },
+    {
+      "h": "Human factors affecting distribution",
+      "points": [
+        "Economic opportunity: jobs attract people, and regions with few jobs lose their young people.",
+        "Transport routes: roads, rail lines and navigable water attract settlement along them.",
+        "Cities and ports: cities and ports offer jobs and services, so they draw large populations.",
+        "History: colonial ports and plantations shaped where people settled.",
+        "Government policy: policy can direct population into or out of particular areas."
+      ]
+    },
+    {
+      "h": "Low-density areas",
+      "points": [
+        "High, steep or cold land is difficult to farm, build on and reach.",
+        "Deserts and dense forest offer little water, farmland or access.",
+        "Poor soils and remoteness limit farming, and remote areas lack markets and services.",
+        "Few jobs cause young people to leave, so the population falls and density drops."
+      ]
+    },
+    {
+      "h": "Global pattern of population",
+      "points": [
+        "Dense: East Asia, South Asia, Europe, the north-eastern USA and the Nile valley.",
+        "Sparse: the Sahara, the Amazon Basin, Siberia, northern Canada, Greenland and Antarctica.",
+        "About 90% of the world's people live in the northern hemisphere.",
+        "Most people live near coasts and rivers."
+      ]
+    },
+    {
+      "h": "European pattern of population",
+      "points": [
+        "Dense core: the Benelux countries, the Rhine–Ruhr, south-east England, the Po valley and the Paris region.",
+        "Sparse periphery: northern Scandinavia, the Scottish Highlands and interior Spain.",
+        "The Netherlands has over 500 people per km² (2020s), one of Europe's most densely populated countries.",
+        "The EU average is about 110 people per km² (2020s)."
+      ]
+    },
+    {
+      "h": "Irish distribution: concentration in the east",
+      "points": [
+        "The Greater Dublin Area (Dublin, Meath, Kildare and Wicklow) has about 2.1 million people, about 40% of the State's population (Census 2022).",
+        "Co. Dublin has about 1.46 million people at about 1,600 people per km².",
+        "The population is concentrated in the east and in the five cities.",
+        "Low density in the west and north-west, notably Mayo (about 25 people per km²), Leitrim and Roscommon, and in the uplands."
+      ]
+    },
+    {
+      "h": "Irish distribution: change over time",
+      "points": [
+        "Before the Famine the population was rural and weighted to the west.",
+        "Since then the population has shifted to an eastern, urban pattern.",
+        "Dublin's commuter counties of Meath, Kildare and Wicklow have grown rapidly.",
+        "Every county's population grew between 2016 and 2022."
+      ]
+    },
+    {
+      "h": "Why Ireland's density is rising",
+      "points": [
+        "The State's average density is about 73 people per km² (Census 2022).",
+        "Density is rising because the population has grown from natural increase and net immigration since the 1990s, while the land area is fixed."
+      ]
+    },
+    {
+      "h": "World population growth",
+      "points": [
+        "World population grew slowly until about 1800, then rapidly, producing an exponential J-curve driven by falling death rates. The growth rate is now slowing.",
+        "Milestones: about 1 billion around 1800, 2 billion in 1927, 3 billion in 1960 and 4 billion in 1974.",
+        "Milestones continued: 5 billion in 1987, 6 billion in 1999, 7 billion in 2011 and 8 billion on 15 November 2022 (UN).",
+        "Global fertility is about 2.3 children per woman (early 2020s), down from about 5 in the 1950s.",
+        "China and India each have over 1.4 billion people (2023); India overtook China as the most populous country in 2023 (UN estimate)."
+      ]
+    },
+    {
+      "h": "Contrasting growth",
+      "points": [
+        "Rapid growth: sub-Saharan Africa.",
+        "Slow growth, stagnation or decline: Europe and East Asia."
+      ]
+    },
+    {
+      "h": "Demographic Transition Model: stage 1 (high stationary)",
+      "b": "The model shows how birth and death rates, and so population growth, change as a country develops.",
+      "points": [
+        "Birth rate high, death rate high, and little growth.",
+        "Example: no country is in stage 1 today; the best examples are pre-industrial societies."
+      ]
+    },
+    {
+      "h": "Demographic Transition Model: stage 2 (early expanding)",
+      "points": [
+        "Birth rate high; death rate falling rapidly, and the death rate falls most in this stage; growth is rapid.",
+        "The death rate falls because of clean water and sanitation, vaccination, a better food supply and medical care.",
+        "Example: Niger, described below."
+      ]
+    },
+    {
+      "h": "Demographic Transition Model: stage 3 (late expanding)",
+      "points": [
+        "Birth rate falling; death rate low; growth slows.",
+        "Example: India, with a total fertility rate of about 2.0 (2019–21)."
+      ]
+    },
+    {
+      "h": "Demographic Transition Model: stage 4 (low stationary)",
+      "points": [
+        "Birth rate low, death rate low, and little growth.",
+        "Examples: Ireland and the USA. Ireland is in stage 4."
+      ]
+    },
+    {
+      "h": "Demographic Transition Model: stage 5 (declining)",
+      "points": [
+        "Birth rate below death rate, so natural change is negative (natural decrease) and the population falls.",
+        "Examples: Germany, Italy and Japan."
+      ]
+    },
+    {
+      "h": "Niger: a young, fast-growing population (stage 2)",
+      "points": [
+        "Niger is a West African, landlocked country, largely in the Sahel and Sahara.",
+        "Population is about 27 million (2023), growing by over 3% a year (early 2020s).",
+        "Total fertility rate is about 6 children per woman (early 2020s), among the highest in the world.",
+        "Median age is about 15, among the lowest in the world.",
+        "Its population pyramid has a very wide base.",
+        "Most people live in the south, where rainfall allows farming; the north is Sahara desert."
+      ]
+    },
+    {
+      "h": "Japan: an ageing, shrinking population (stage 5)",
+      "points": [
+        "Japan has the world's oldest population: about 29% of people are aged 65 or over (2023), the highest share in the world.",
+        "Population peaked at about 128 million around 2008–2010, was about 124 million in 2024, and is falling.",
+        "Total fertility rate is about 1.2 (2023).",
+        "Few immigrants by European standards.",
+        "Its population pyramid is top-heavy, with a narrow base and a wide top."
+      ]
+    },
+    {
+      "h": "Why the birth rate falls after stage 2",
+      "points": [
+        "Female education and paid work: women have later and fewer children.",
+        "Contraception is widely available.",
+        "Falling infant mortality removes the need for 'insurance' births, as parents can expect their children to survive.",
+        "Urbanisation: children cost more and earn less in towns and cities.",
+        "Pensions replace children as old-age security.",
+        "Later marriage, and weaker religious influence on family size."
+      ]
+    },
+    {
+      "h": "Challenges and responses in stage 5",
+      "points": [
+        "Challenges: a shrinking workforce, labour shortages, rising pension and health costs, closing schools and rural depopulation.",
+        "Responses: immigration, pro-natalist incentives to raise birth rates, and later retirement."
+      ]
+    },
+    {
+      "h": "Limitations of the model",
+      "points": [
+        "The model is based on European experience.",
+        "It ignores migration.",
+        "Developing countries' death rates fell much faster than Europe's, because medicine was imported, so their growth has been faster.",
+        "Some countries may not complete the transition, and it has no fixed time scale."
+      ]
+    },
+    {
+      "h": "Population pyramids",
+      "points": [
+        "A population pyramid shows age cohorts in five-year bands, with males on the left and females on the right, as percentages or numbers.",
+        "Uses: planning services, forecasting future needs, comparing countries, and showing past events such as baby booms, wars and emigration."
+      ]
+    },
+    {
+      "h": "Pyramid shapes",
+      "points": [
+        "Wide base and narrow top: high fertility and short life expectancy, as in Niger.",
+        "Straight sides: a stable population with low birth and death rates.",
+        "Narrow base and wide top (top-heavy): an ageing population, as in Japan.",
+        "A developed country's pyramid is typically straight-sided or top-heavy, while a developing country's is wide-based."
+      ]
+    },
+    {
+      "h": "Reading a pyramid",
+      "points": [
+        "Bulges show baby booms or immigration of young adults.",
+        "Notches show emigration, low birth years or war.",
+        "More women than men at the oldest ages, because women live longer."
+      ]
+    },
+    {
+      "h": "Dependency ratios",
+      "points": [
+        "Dependency ratio = (people aged 0–14 + people aged 65 and over) ÷ people aged 15–64 × 100.",
+        "Young dependency ratio = people aged 0–14 ÷ people aged 15–64 × 100. Old-age dependency ratio = people aged 65 and over ÷ people aged 15–64 × 100.",
+        "Illustrative example (invented figures): 30,000 aged 0–14, 10,000 aged 65 and over and 80,000 aged 15–64 give (30,000 + 10,000) ÷ 80,000 × 100 = 50."
+      ]
+    },
+    {
+      "h": "Urban and rural dependency ratios",
+      "points": [
+        "Urban dependency ratios are usually lower than rural ones.",
+        "Young working adults migrate to cities for jobs and college, leaving older people, and sometimes children, in rural areas."
+      ]
+    },
+    {
+      "h": "Effects of an ageing population",
+      "points": [
+        "Higher pension costs.",
+        "More demand for health care, nursing homes and carers.",
+        "A smaller tax base from fewer workers.",
+        "Pressure to raise the pension age.",
+        "Changing housing and transport needs.",
+        "Planning responses in Ireland: home-care supports, pension reform, more geriatric services, encouraging immigration of workers, and age-friendly towns."
+      ]
+    },
+    {
+      "h": "Effects of a high young dependency ratio",
+      "points": [
+        "Demand for schools, maternity and child health care, and for future jobs and housing.",
+        "A future workforce, the basis of the demographic dividend discussed in Overpopulation."
+      ]
+    },
+    {
+      "h": "Factors affecting birth rates",
+      "points": [
+        "Income and economic development: birth rates fall as income rises.",
+        "Status and education of women: educated women with status tend to have fewer children.",
+        "Religion and culture.",
+        "Access to contraception.",
+        "Government policy.",
+        "Infant mortality: high infant mortality encourages larger families.",
+        "Urban or rural living: rural families tend to have more children."
+      ]
+    },
+    {
+      "h": "Factors affecting death rates",
+      "points": [
+        "Medical technology: vaccines and antibiotics.",
+        "Sanitation, diet, income and health services.",
+        "Lifestyle diseases such as heart disease and cancer are the main causes of death in rich countries.",
+        "Conflict, famine and disease, such as malaria and HIV/AIDS, are the main causes of death in poor countries."
+      ]
+    },
+    {
+      "h": "How fertility and mortality change structure",
+      "points": [
+        "Falling fertility narrows the base of the pyramid.",
+        "Rising life expectancy widens the top of the pyramid.",
+        "The result is an older population with a higher median age."
+      ]
+    },
+    {
+      "h": "Raising life expectancy in a country such as Niger",
+      "points": [
+        "Clean water and sanitation.",
+        "Vaccination.",
+        "Mosquito nets and malaria treatment.",
+        "More doctors and clinics.",
+        "Better nutrition.",
+        "Female education."
+      ]
+    },
+    {
+      "h": "Why life expectancy is long in Ireland",
+      "points": [
+        "A good diet and housing.",
+        "Effective health services and vaccination.",
+        "Clean water.",
+        "Fewer smokers.",
+        "Safer work."
+      ]
+    },
+    {
+      "h": "Ireland's census record, 1841 to 1961",
+      "b": "All Irish census figures in these notes are for the State (the 26-county area).",
+      "points": [
+        "Census 1841: about 6.5 million.",
+        "Census 1851, after the Great Famine (1845–49): about 5.1 million.",
+        "Census 1926: about 3.0 million.",
+        "Census 1961: about 2.8 million, the lowest census population ever recorded.",
+        "The population fell at almost every census from 1841 to 1961; the only break was a very slight rise between Census 1946 and Census 1951."
+      ]
+    },
+    {
+      "h": "Ireland's census record, 1971 to 2022",
+      "points": [
+        "Census 1971: about 3.0 million. Census 1981: about 3.4 million.",
+        "Census 1986 and Census 1991: both about 3.5 million, a small fall between them.",
+        "Census 2002: about 3.9 million. Census 2006: about 4.2 million. Census 2011: about 4.6 million. Census 2016: about 4.76 million.",
+        "Census 2022: about 5.15 million, above 5 million for the first time since 1851."
+      ]
+    },
+    {
+      "h": "Births and fertility in Ireland since the 1950s",
+      "points": [
+        "Fertility was high into the 1970s, with Catholic culture, large families and little access to contraception.",
+        "Births peaked at about 74,000 in 1980.",
+        "The total fertility rate was about 4 in the early 1970s, fell below replacement level around 1990, and was about 1.5 in 2023.",
+        "Births were about 55,000 in 2023 against about 35,000 deaths, giving natural increase of about 20,000."
+      ]
+    },
+    {
+      "h": "Reasons Irish fertility fell",
+      "points": [
+        "Free secondary education, introduced in 1967 by Donogh O'Malley, and more women in third-level education.",
+        "The marriage bar, which forced women in the public service to resign on marriage, was removed in 1973.",
+        "Contraception was legalised by the Health (Family Planning) Act 1979, on prescription; access was widened in 1985 and the early 1990s.",
+        "More women in paid employment, later marriage and later first births.",
+        "Secularisation, and the cost of housing and childcare."
+      ]
+    },
+    {
+      "h": "Deaths and life expectancy in Ireland",
+      "b": "Life expectancy rose and infant mortality fell to very low levels.",
+      "points": [
+        "Life expectancy at birth is about 82–83 years (early 2020s).",
+        "Women live about 4 years longer than men.",
+        "Infant mortality is about 3 per 1,000 live births (2020s)."
+      ]
+    },
+    {
+      "h": "Migration in Ireland since 1950 (summary)",
+      "points": [
+        "Heavy net emigration in the 1950s and 1980s; net emigration of about 400,000 between 1951 and 1961, which the 1954 Report of the Commission on Emigration and Other Population Problems examined.",
+        "Net immigration in the 1970s, from the mid-1990s to 2008, and again from the mid-2010s.",
+        "Migration patterns are detailed in Changing migration patterns in Ireland."
+      ]
+    },
+    {
+      "h": "Ireland's changing age structure",
+      "points": [
+        "Census 2022: about 776,000 people aged 65 and over (about 15% of the population), up about 22% since 2016.",
+        "Average age rose from 37.4 in 2016 to 38.8 in 2022.",
+        "About one-fifth of the population is under 15.",
+        "The pyramid has moved from a young, wide-based shape to an ageing one.",
+        "About one in five people (just over 1 million) was born outside Ireland."
+      ]
+    },
+    {
+      "h": "Urbanisation and households in Ireland",
+      "points": [
+        "Census 1971 was the first census in which more people lived in towns than in rural areas.",
+        "By Census 2016 about 63% of the population was urban.",
+        "The population has shifted to the east; rural-to-urban movement is detailed in Rural-to-urban migration in developed and developing regions.",
+        "Households are smaller, and more people live alone."
+      ]
+    },
+    {
+      "h": "The European Union",
+      "points": [
+        "The EU has 27 member states and about 450 million people (2024).",
+        "Fertility is below replacement: the EU total fertility rate is about 1.4 (2023).",
+        "Natural decrease occurs in many member states; immigration supplies most of the EU's growth.",
+        "The EU median age is about 44.5 (2023), and about 21% of its population is aged 65 or over (2023)."
+      ]
+    },
+    {
+      "h": "Germany",
+      "points": [
+        "Deaths have exceeded births every year since 1972.",
+        "Population is about 84 million (2020s), and growth comes from immigration."
+      ]
+    },
+    {
+      "h": "Italy",
+      "points": [
+        "Italy has among the EU's lowest fertility rates and oldest populations: its total fertility rate is about 1.2 (2023).",
+        "Population is about 59 million (2024).",
+        "Italy's regional pattern is covered in A Peripheral European Region: the Mezzogiorno."
+      ]
+    },
+    {
+      "h": "Bulgaria: decline after 1989",
+      "points": [
+        "Population was about 9 million in 1989 and about 6.5 million at Census 2021.",
+        "Causes: emigration to western Europe after the fall of communism (1989) and EU entry (2007), together with low fertility."
+      ]
+    },
+    {
+      "h": "Very low fertility worldwide",
+      "points": [
+        "South Korea's total fertility rate is about 0.7 (2023), the lowest in the world.",
+        "Compare Niger's total fertility rate of about 6 children per woman."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Crude birth rate", "definition": "The number of live births per 1,000 people in a year." },
+    { "term": "Crude death rate", "definition": "The number of deaths per 1,000 people in a year." },
+    { "term": "Natural change", "definition": "Birth rate minus death rate; a positive result is natural increase and a negative result is natural decrease." },
+    { "term": "Net migration", "definition": "Immigrants minus emigrants." },
+    { "term": "Total fertility rate", "definition": "The average number of children per woman." },
+    { "term": "Replacement level", "definition": "The fertility level, about 2.1 children per woman in developed countries, at which a population replaces itself." },
+    { "term": "Infant mortality rate", "definition": "Deaths of children under one year old per 1,000 live births." },
+    { "term": "Life expectancy", "definition": "The average number of years a newborn is expected to live." },
+    { "term": "Census", "definition": "A count of every person on one night, held every five years in Ireland." },
+    { "term": "Population density", "definition": "The number of people per square kilometre of land." },
+    { "term": "Age cohort", "definition": "A group of people within the same five-year age band." },
+    { "term": "Population pyramid", "definition": "A diagram showing the population by five-year age cohort and sex." },
+    { "term": "Dependency ratio", "definition": "The number of people aged 0–14 and 65 and over for every 100 people aged 15–64." },
+    { "term": "Demographic Transition Model", "definition": "A model showing how birth and death rates, and so population growth, change in five stages as a country develops." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Describe and explain how the characteristics of Ireland's population have changed since the 1950s.",
+      "model": "Size: the State's population fell at almost every census from 1841 (about 6.5 million) to a low of about 2.8 million in 1961, then grew to about 5.15 million in 2022, above 5 million for the first time since 1851. Births and fertility: fertility was high into the 1970s, with Catholic culture, large families and little access to contraception, and births peaked at about 74,000 in 1980. Fertility fell below replacement around 1990 and was about 1.5 in 2023, because of free secondary education (1967), the removal of the marriage bar (1973), legal contraception (1979), women's paid work, later marriage and the cost of housing and childcare. Deaths and life expectancy: life expectancy rose to about 82–83 years, women live about 4 years longer than men, and infant mortality fell to about 3 per 1,000 live births. Migration: heavy net emigration in the 1950s and 1980s, net immigration in the 1970s, from the mid-1990s to 2008 and from the mid-2010s; net migration was the larger component of growth between 2016 and 2022. Age structure: the population has moved from a young, wide-based pyramid to an ageing one; about 776,000 people (about 15%) were aged 65 and over in 2022, and the average age rose from 37.4 in 2016 to 38.8 in 2022. Distribution: the population has moved east and to towns; towns held more people than rural areas from 1971, about 63% of people were urban in 2016, and the Greater Dublin Area holds about 40% of the population."
+    },
+    {
+      "marks": 30,
+      "prompt": "Examine how changing fertility and mortality rates impact on population structure, with reference to example(s) you have studied.",
+      "model": "Falling fertility narrows the base of the population pyramid, rising life expectancy widens the top, and the result is an older population with a higher median age. The Demographic Transition Model links these changes: in stage 2 high birth rates and falling death rates widen the base as the young population grows, and in stage 5 birth and death rates are low and the population falls. Niger (stage 2): the pyramid has a very wide base, the total fertility rate is about 6 children per woman, the median age is about 15 and growth is over 3% a year, so most people are young. Japan (stage 5): the pyramid is top-heavy, with a narrow base and a wide top; about 29% of people are aged 65 or over (2023), the population has fallen from a peak of about 128 million to about 124 million (2024), and the total fertility rate is about 1.2. Ireland: the pyramid has moved from a young, wide-based shape, when fertility was high into the 1970s, to an ageing one, because fertility fell below replacement around 1990 and life expectancy rose. In 2022 about one-fifth of the population was under 15 and about 15% was aged 65 or over, showing the shift from youth to age."
+    },
+    {
+      "marks": 2,
+      "prompt": "Explain briefly the term natural change.",
+      "model": "Natural change is the birth rate minus the death rate: natural increase when births exceed deaths, and natural decrease when deaths exceed births."
+    },
+    {
+      "marks": 2,
+      "prompt": "State one reason why the birth rate falls after stage 2 of the DTM.",
+      "model": "Women gain education and paid work, so they have later and fewer children."
+    },
+    {
+      "marks": 2,
+      "prompt": "Explain briefly one challenge facing countries in stage 5 of the DTM.",
+      "model": "A shrinking workforce creates labour shortages, while pension and health costs rise as the population ages."
+    }
+  ]
+}

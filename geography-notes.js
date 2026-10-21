@@ -1424,6 +1424,1947 @@
    }
   ]
  },
+ "geo-economic-development-s1": {
+  "keyTerms": [
+   {
+    "definition": "Growth in a country's output and income, together with rising living standards.",
+    "term": "Economic development"
+   },
+   {
+    "definition": "The total value of all goods and services produced within a country's borders in one year, whoever owns the firms.",
+    "term": "Gross domestic product (GDP)"
+   },
+   {
+    "definition": "GDP plus income earned abroad by residents, minus income sent out of the country to foreign owners.",
+    "term": "Gross national product (GNP)"
+   },
+   {
+    "definition": "The term now used by the World Bank and UN for GNP, which is essentially the same measure.",
+    "term": "Gross national income (GNI)"
+   },
+   {
+    "definition": "Per head: a total divided by the population, used to compare countries of different size.",
+    "term": "Per capita"
+   },
+   {
+    "definition": "An adjustment for price differences between countries, so that a currency's value is compared by what it buys.",
+    "term": "Purchasing power parity (PPP)"
+   },
+   {
+    "definition": "A UNDP measure from 0 to 1 combining life expectancy, years of schooling and GNI per head at PPP.",
+    "term": "Human development index (HDI)"
+   },
+   {
+    "definition": "The CSO measure that removes the effects of multinational profits and leasing from Irish GNI, giving a better guide to living standards.",
+    "term": "Modified gross national income (GNI*)"
+   },
+   {
+    "definition": "A period of falling output, usually defined as two consecutive quarters of decline.",
+    "term": "Recession"
+   },
+   {
+    "definition": "A country that has moved from developing to industrial economy status, sitting between developed and developing countries.",
+    "term": "Newly industrialised country (NIC)"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Economic development is one part of development. Growth alone does not show whether people are better off.",
+    "h": "What development means",
+    "points": [
+     "Economic development: growth in a country's output and income, with rising living standards.",
+     "Development is wider than income: it includes health, education, political freedom, equality and quality of life.",
+     "Developed (high-income) economies have high output and incomes per head; developing economies are low- and middle-income.",
+     "The World Bank classes countries as low, lower-middle, upper-middle or high income by GNI per head, using thresholds that change each year.",
+     "Newly industrialised countries (NICs) sit between developed and developing: South Korea, Singapore and Taiwan (the Asian Tigers, with Hong Kong) are examples."
+    ]
+   },
+   {
+    "b": "These totals measure the value of output. They differ by whether they count output by location or by ownership.",
+    "h": "GDP, GNP and GNI",
+    "points": [
+     "Gross domestic product (GDP): the total value of all goods and services produced within a country's borders in one year, whoever owns the firms.",
+     "Gross national product (GNP): GDP plus income earned abroad by the country's residents and firms, minus income sent out of the country to foreign owners as profits, interest and dividends.",
+     "GNP therefore measures the output owned by the nation's residents, while GDP measures the output produced on its soil.",
+     "Gross national income (GNI): the World Bank and UN now use GNI, which is essentially the same as GNP. Data tables may use either term.",
+     "Totals are converted to US dollars for comparison. Purchasing power parity (PPP) adjusts for price differences between countries, so a dollar buys more in a low-cost country.",
+     "Per capita (per head) figures divide the total by the population and are needed to compare countries of different size. A large total GNP, as in India, can hide a low GNP per head."
+    ]
+   },
+   {
+    "b": "Growth is the percentage change in output each year. Output per head is the most common single measure of development.",
+    "h": "Economic growth and the GNP per head measure",
+    "points": [
+     "GDP growth rate: the percentage change in output per year. Two quarters of falling output is the usual definition of recession.",
+     "Benefits of economic growth: more jobs, higher incomes, more tax revenue to fund services and infrastructure, and less emigration.",
+     "Advantage: GNP or GDP per head is simple, gives one comparable figure, and is available for almost every country collected in a standard way.",
+     "Advantage: the figure allows change over time to be tracked.",
+     "Advantage: it is closely linked to a government's ability to fund health, education and other services.",
+     "Disadvantage: it is an average, so it hides inequality between rich and poor, and between regions.",
+     "Disadvantage: it ignores the informal economy and subsistence farming, which are large in developing countries, and unpaid work such as caring, housework and volunteering.",
+     "Disadvantage: it counts harmful spending, such as pollution clean-up, disaster repair and crime, as if it added to well-being.",
+     "Disadvantage: it ignores environmental damage and the depletion of resources.",
+     "Disadvantage: exchange-rate swings distort dollar comparisons unless PPP is used.",
+     "Disadvantage: it says nothing directly about health, education, freedom or happiness."
+    ]
+   },
+   {
+    "b": "Ireland is the clearest case where GDP and GNP give very different pictures of the economy.",
+    "h": "Ireland: GDP, GNP and GNI*",
+    "points": [
+     "Multinationals own much of Irish output and send their profits abroad, so Irish GNP has long been well below GDP.",
+     "Irish GDP growth for 2015 was about 26%, first published in July 2016. The US economist Paul Krugman called it \"leprechaun economics\".",
+     "The jump came mainly from multinationals relocating intellectual property (patents and other intangible assets) and aircraft-leasing assets to Ireland, not from Irish people becoming richer.",
+     "From 2017 the Central Statistics Office (CSO) published modified gross national income (GNI*), which removes the profits of redomiciled firms, depreciation on foreign-owned intellectual property and leased aircraft.",
+     "In the early 2020s Ireland's GNI* was only a little over half of its GDP.",
+     "Ireland has the second-highest GDP per head in the EU, after Luxembourg (Eurostat, early 2020s), so GDP overstates Irish prosperity."
+    ]
+   },
+   {
+    "b": "The HDI combines health, education and income into one value. It was designed to measure people's well-being, not just the economy.",
+    "h": "The human development index: origin, indicators and calculation",
+    "points": [
+     "The United Nations Development Programme (UNDP) first published the HDI in its Human Development Report in 1990.",
+     "Mahbub ul Haq, a Pakistani economist, created the HDI working with Amartya Sen, an Indian economist and Nobel Prize winner in Economics in 1998.",
+     "A long and healthy life is measured by life expectancy at birth.",
+     "Knowledge is measured by mean years of schooling for adults aged 25 and over, and expected years of schooling for children starting school.",
+     "A decent standard of living is measured by GNI per head at PPP dollars.",
+     "Each dimension is turned into an index from 0 to 1, and the three are combined into one value between 0 and 1. The closer the value is to 1, the higher the development.",
+     "The four categories are very high (0.800 and above), high (0.700 to 0.799), medium (0.550 to 0.699) and low (below 0.550).",
+     "Older textbooks use adult literacy and gross enrolment for education; these were replaced by mean and expected years of schooling in 2010."
+    ]
+   },
+   {
+    "h": "The pattern of HDI",
+    "points": [
+     "Very high HDI: Europe (especially Scandinavia and Switzerland), North America, Australia and Japan. Norway ranked 1st (0.957) in the Human Development Report 2020, using 2019 data. Ireland and Switzerland were joint 2nd (0.955) in the same report.",
+     "Switzerland ranked 1st (0.967) in the Human Development Report 2023/24, using 2022 data. Ireland was in the top ten in that report.",
+     "High HDI: Brazil, at about 0.76 in the 2023/24 report.",
+     "Medium HDI: India, 134th of 193 countries (0.644) in the 2023/24 report.",
+     "Low HDI: mostly sub-Saharan Africa, including Niger, Chad, South Sudan, Somalia and the Central African Republic. Niger was last of 189 countries (0.394) in the 2020 report, and Somalia was last of 193 (0.380) in the 2023/24 report.",
+     "Report years differ from data years, so each ranking must be quoted with its report year."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of the HDI",
+    "points": [
+     "Advantage: it is broader than income alone, combining health, education and income.",
+     "Advantage: it focuses on people and outcomes rather than output.",
+     "Advantage: it shows countries whose income is high but whose human development lags, such as oil-rich states, and countries that achieve good health and education on modest incomes.",
+     "Advantage: it can be tracked over time, showing progress or decline.",
+     "Advantage: it helps governments and aid agencies target spending, for example on schooling or health.",
+     "Disadvantage: as a national average it hides inequality between rich and poor, men and women, regions and ethnic groups.",
+     "Disadvantage: it leaves out political freedom, human rights, gender equality, environmental sustainability, safety and happiness.",
+     "Disadvantage: data are poor or out of date in some developing countries, and the figures are published about two years after the data year.",
+     "Disadvantage: the three dimensions are weighted equally, which is a judgement.",
+     "Disadvantage: very high-income countries cluster close to 1, so small differences between them mean little.",
+     "The UNDP introduced three newer measures in 2010 to answer some of these criticisms: the inequality-adjusted HDI, the Gender Inequality Index and the Multidimensional Poverty Index, the last developed with Oxford University's Oxford Poverty and Human Development Initiative."
+    ]
+   },
+   {
+    "b": "GNP and HDI measure different things, so a country can rank very differently on each. Using both, with other indicators, gives the fullest picture.",
+    "h": "Comparing GNP and HDI",
+    "points": [
+     "GNP measures output and income; HDI measures human outcomes in health, education and living standards.",
+     "Equatorial Guinea has far higher GNI per head than its HDI rank suggests, because of oil wealth; the gap between its income rank and its HDI rank is large.",
+     "Oil-rich Gulf states generally rank higher on income than on HDI.",
+     "Cuba ranks higher on HDI than on income, because of strong public health care and education.",
+     "GNI per head is one of the four HDI indicators, so the two measures overlap; the HDI adds life expectancy and schooling to it."
+    ]
+   },
+   {
+    "h": "Other indicators of development",
+    "points": [
+     "Social indicators: life expectancy, infant and under-five mortality, literacy rate, years of schooling, doctors per 1,000 people, access to safe water and sanitation, and daily calorie intake.",
+     "Economic indicators: share of workers in the primary sector (high in developing economies), unemployment rate, energy use per head, and internet and phone access.",
+     "Several indicators used together give a more reliable picture than any one measure."
+    ]
+   },
+   {
+    "h": "Why life expectancy differs between countries",
+    "points": [
+     "Access to health care: doctors, hospitals and clinics are scarce in many poorer countries.",
+     "Vaccination and clean water and sanitation prevent disease; where they are lacking, life expectancy is lower.",
+     "Infectious disease: malaria caused about 600,000 deaths in 2022, over nine-tenths of them in Africa (WHO World Malaria Report 2023). HIV/AIDS lowered life expectancy in southern Africa in the 1990s and 2000s, in Botswana, Zimbabwe and South Africa; it has since recovered with antiretroviral drugs.",
+     "Lifestyle: diet, smoking, alcohol and obesity shorten life in some rich countries.",
+     "War and conflict, and income and poverty, reduce life expectancy.",
+     "Life expectancy at birth is about 84 years in Japan and about 82 to 83 years in Ireland, among the highest in the EU. It is below 60 in several sub-Saharan African countries, including Chad, Nigeria and Lesotho (early 2020s)."
+    ]
+   },
+   {
+    "h": "Why years of schooling differ, and why education helps an economy",
+    "points": [
+     "Government spending on schools and teachers largely determines how many children are educated.",
+     "Poverty forces children to work or stay at home.",
+     "Distance to schools is a barrier in rural areas.",
+     "Fees, uniforms and books are costs some families cannot pay.",
+     "Cultural attitudes to girls' education and early marriage keep girls out of school.",
+     "Conflict closes schools.",
+     "An educated workforce attracts foreign investment in high-tech and service industries.",
+     "Higher productivity and wages raise tax revenue, which funds further services.",
+     "An educated workforce produces more innovation and more new firms.",
+     "Educated women tend to have healthier, smaller families.",
+     "Ireland has one of the highest shares of 25 to 34-year-olds with third-level education in the EU (early 2020s, Eurostat). Free secondary education was introduced in 1967, and universities and technological universities supply graduates to multinationals in pharmaceuticals, medical devices and information technology."
+    ]
+   },
+   {
+    "h": "Unemployment as an indicator",
+    "points": [
+     "Effects of high unemployment: lost income and poverty, emigration of young people, lower tax revenue and higher welfare costs, and social problems.",
+     "Ways to reduce unemployment: attracting investment, retraining and education, support for small firms, infrastructure spending and promoting tourism.",
+     "Ireland's unemployment rose to about 15% in 2012 after the 2008 crash and fell below 5% by 2022 (CSO)."
+    ]
+   },
+   {
+    "b": "Data-response questions ask for a chart drawn from a table and a calculated difference. The values below are illustrative only, not real figures.",
+    "h": "Skills: graphs and differences from tables",
+    "points": [
+     "A bar chart needs a title, labelled axes with units, a suitable scale, accurate bars and a key.",
+     "A pie chart needs the same title and key, with each slice's share of the whole shown clearly.",
+     "To calculate a difference, subtract the lower value from the higher and state the unit: for example, an illustrative country with a life expectancy of 80 years and another with 60 years differ by 20 years.",
+     "The detailed graph method is covered in the Tables, Graphs and Data Skills chapter."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "GNP is the value of output owned by a country's residents: GDP plus income from abroad, minus income paid to foreign owners. It is usually given per head and in US dollars or PPP terms, because a total can hide a low figure per person. Its advantages are that it is simple, a single comparable figure, available for almost every country, and linked to a government's ability to fund services. Its disadvantages are that the average hides inequality, that it ignores the informal economy and unpaid work, and that it counts harmful spending such as pollution clean-up as growth. Ireland shows the limits of GNP: multinationals send profits abroad, so GNP is well below GDP, and in 2015 GDP jumped about 26% mainly because of relocated intellectual property. The CSO's GNI* removes these effects and is a better guide to living standards, and Irish GDP per head overstates prosperity. The HDI was published by the UNDP in 1990, designed by Mahbub ul Haq and Amartya Sen, to measure well-being. It combines life expectancy, mean and expected years of schooling, and GNI per head at PPP, each scaled from 0 to 1, into a single value. Its categories run from very high (0.800 and above) to low (below 0.550). Its advantages are that it is broader than income, focuses on outcomes, can be tracked over time and helps target spending. Its disadvantages are that national averages hide inequality, it omits freedom, rights and environmental sustainability, data are weak in some countries, and the equal weighting is a judgement. Paired comparison: Equatorial Guinea has a far higher GNI per head than its HDI rank suggests because of oil wealth, while Cuba ranks higher on HDI than on income because of strong public health care and education. Using both measures, with other indicators, gives the fullest picture.",
+    "prompt": "Discuss the human development index and gross national product as measures of levels of economic development.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "Two indicators are life expectancy at birth and mean years of schooling for adults aged 25 and over. An advantage of the HDI is that it is broader than income alone: it combines health, education and living standards, so it shows human outcomes that GNI per head would miss, such as a country with a high income but poor life expectancy.",
+    "prompt": "Name two indicators used to calculate the HDI and explain briefly one advantage of using the HDI as a measure of development.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The first reason is limited access to health care. Where doctors, hospitals and clinics are scarce, illness is treated late or not at all, and life expectancy falls. The second reason is infectious disease. Malaria caused about 600,000 deaths in 2022, over nine-tenths of them in Africa, and HIV/AIDS reduced life expectancy in southern Africa in the 1990s and 2000s. Malaria and HIV both reduce the working population and shorten lives where health services are weak. A disadvantage of using GNP is that it is an average, so it hides inequality between rich and poor and between regions. A country with a high GNP can have many people in poverty, and the average gives no sense of how the income is shared. GNP also ignores the informal economy and unpaid work, which are large in developing countries, so it can understate or misstate living standards.",
+    "prompt": "Explain two reasons why life expectancy is lower in some countries than in others, and explain one disadvantage of using GNP to measure development.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-development-s2": {
+  "keyTerms": [
+   {
+    "definition": "The line, drawn in the 1980 Brandt Report, that roughly separates the richer North from the poorer South, running along about 30°N.",
+    "term": "Brandt Line"
+   },
+   {
+    "definition": "The richer north-west core of the EU, which contrasts with the poorer periphery in the east and south.",
+    "term": "Blue Banana"
+   },
+   {
+    "definition": "An EU region whose GDP per head is under 75% of the EU average, and which receives most of the EU's cohesion funding.",
+    "term": "Less developed region"
+   },
+   {
+    "definition": "The semi-arid belt south of the Sahara, where repeated droughts limit farming and cause famine.",
+    "term": "Sahel"
+   },
+   {
+    "definition": "The problems, such as corruption, conflict and dependence on one export, that can arise when a country relies on mineral or oil wealth.",
+    "term": "Resource curse"
+   },
+   {
+    "definition": "The loss of skilled workers, such as doctors, nurses and graduates, who emigrate from poorer countries.",
+    "term": "Brain drain"
+   },
+   {
+    "definition": "Money sent home by migrants to family in their country of origin.",
+    "term": "Remittances"
+   },
+   {
+    "definition": "The economic gain from a falling birth rate, which gives a larger share of working-age people.",
+    "term": "Demographic dividend"
+   },
+   {
+    "definition": "The process by which core regions keep growing because they attract capital and skilled migrants.",
+    "term": "Cumulative causation"
+   },
+   {
+    "definition": "A large family-controlled conglomerate, such as Samsung or Hyundai, that drove South Korea's industrialisation.",
+    "term": "Chaebol"
+   },
+   {
+    "definition": "An area with favourable rules for trade and investment, used by China from 1980 to attract foreign firms.",
+    "term": "Special Economic Zone"
+   },
+   {
+    "definition": "Development strategy that builds manufacturing industries to sell goods to foreign markets.",
+    "term": "Export-led industrialisation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Development varies between continents, countries, regions within a country and districts within cities.",
+    "h": "Uneven development at every scale",
+    "points": [
+     "The Brandt Line, from the Brandt Report North–South: A Programme for Survival (1980), separates the rich North from the poorer South.",
+     "The Brandt Commission was chaired by the former West German Chancellor Willy Brandt. The line runs roughly along 30°N, dipping south to put Australia and New Zealand in the North.",
+     "The North (North America, Europe, Russia, Japan, Australia and New Zealand) is richer than the South (Latin America, Africa and most of Asia).",
+     "The line is a simplification: Singapore, South Korea and the Gulf states are rich although they lie in the South.",
+     "The terms First World and Third World are outdated; the critique of them belongs to the Global Interdependence option.",
+     "Global inequality is extreme: the richest tenth of the world's people own about 76% of global wealth, and the poorest half own about 2% (World Inequality Report 2022). The justice angle is in the Global issues and a justice perspective note."
+    ]
+   },
+   {
+    "h": "The pattern of HDI across the world",
+    "points": [
+     "Very high HDI is found in Europe, North America, Australia, Japan and the Gulf.",
+     "High and medium HDI cover most of Latin America, East and South-East Asia and North Africa.",
+     "Low HDI is concentrated in sub-Saharan Africa, with Afghanistan, Yemen and Haiti outside Africa. Haiti is the poorest country in the Americas.",
+     "The named rankings and categories are in the Measuring economic development note."
+    ]
+   },
+   {
+    "h": "Development within the EU",
+    "points": [
+     "Luxembourg has the highest GDP per head in the EU, and Bulgaria the lowest (Eurostat, early 2020s).",
+     "Luxembourg's GDP per head is inflated by cross-border commuters, so it overstates living standards there.",
+     "The EU's core is a richer north-west belt, the Blue Banana, and its periphery lies in the east and south. The core and periphery terms are explained in the Socio-economic regions note.",
+     "Within member states, Italy's Mezzogiorno is about 22% of Italy's GDP, with GDP per head a little over half that of the Centre-North in recent years (see A Peripheral European Region: the Mezzogiorno).",
+     "Romania and Bulgaria contain many of the EU's less developed regions.",
+     "An EU less developed region has GDP per head under 75% of the EU average, and such regions receive most of the EU's cohesion funding."
+    ]
+   },
+   {
+    "h": "Development within Ireland",
+    "points": [
+     "The Dublin region has the highest disposable income per person in the State. The Border and Midland regions are consistently among the lowest (CSO county income figures, 2010s to 2020s).",
+     "County Dublin has about 1.45 million of the State's about 5.1 million people (Census 2022).",
+     "Dublin's advantages are its capital and port functions, multinational and financial-services investment, universities and the airport, which together provide most of the high-value jobs.",
+     "The West and North-West are peripheral, with remoteness, weaker infrastructure, dependence on farming and small firms, and out-migration (see A Peripheral Irish Region).",
+     "Peripheral location does not by itself mean poverty: the West is peripheral within a very rich country."
+    ]
+   },
+   {
+    "h": "Irish regional policy and transport investment",
+    "points": [
+     "The BMW region held Objective 1 status for 2000 to 2006.",
+     "Three regional assemblies have operated since 2015: Northern and Western; Southern; and Eastern and Midland.",
+     "Project Ireland 2040, launched in February 2018, combines the National Planning Framework and the National Development Plan.",
+     "The National Planning Framework aims for the Northern and Western and Southern regions together to grow as much as the Eastern and Midland region, and for half of future population growth to go to the five cities: Dublin, Cork, Limerick, Galway and Waterford.",
+     "Metrolink is a planned metro line from Swords, via Dublin Airport, to Dublin city centre.",
+     "The National Broadband Plan (contract signed 2019) aims to bring high-speed broadband to rural homes.",
+     "Transport investment can reduce regional income differences: better access attracts firms to regional towns, cuts costs and commuting times, and widens the job market. It also reduces congestion, shortens journeys and lowers emissions."
+    ]
+   },
+   {
+    "h": "Pockets of deprivation within countries",
+    "points": [
+     "Even rich places contain pockets of deprivation, and poor regions exist within richer countries.",
+     "India: Census 2011 literacy was about 94% in Kerala and about 62% in Bihar. Fertility was about 1.8 in Kerala and about 3.0 in Bihar (NFHS-5, 2019 to 2021); see the India note.",
+     "Brazil: the poor North-East contrasts with the rich South-East; see the Case study of a developing economy note."
+    ]
+   },
+   {
+    "b": "Physical factors affect development by limiting or supporting farming, health and transport. They influence development but do not determine it.",
+    "h": "Physical factors: climate, disease, relief and soils",
+    "points": [
+     "The Sahel, the semi-arid belt south of the Sahara (Mali, Niger, Chad and Burkina Faso), has suffered repeated droughts since the 1970s, which limit farming and cause famine.",
+     "The 1984 to 1985 Ethiopian famine was followed by Live Aid in 1985.",
+     "Extreme heat and tropical storms add difficulty; temperate climates suit productive farming.",
+     "Climate does not decide development: Singapore is tropical, yet it is one of the world's richest countries. Botswana shows that a poor start can be overcome.",
+     "Malaria and other tropical diseases reduce life expectancy, the productivity of workers and children's schooling; the malaria figure is in the Measuring economic development note.",
+     "Mountains, deserts and poor soils limit farming and make transport costly, while fertile lowlands and river plains support dense populations and farming surpluses."
+    ]
+   },
+   {
+    "h": "Physical factors: location, resources and hazards",
+    "points": [
+     "Landlocked countries depend on neighbours' roads and ports, which raises trade costs. Landlocked developing countries include Chad, Niger, Mali, Burkina Faso, Malawi, Uganda, Afghanistan and Bolivia.",
+     "Coastal countries with good harbours trade more easily. Peripheral location adds to transport costs for Ireland and for the EU's outlying regions.",
+     "Natural resources can fund development: Botswana's diamonds were discovered at Orapa in 1967 and are mined by Debswana, a joint venture of the government and De Beers.",
+     "Norway's oil has been extracted from the North Sea since the early 1970s, and its sovereign wealth fund, the Government Pension Fund Global, is one of the world's largest.",
+     "Resources can also bring the resource curse of corruption, conflict and dependence on one export. Nigeria's oil from the Niger Delta dominates its exports, and oil spills and conflict have affected the Delta.",
+     "The DR Congo produces about 70% of the world's cobalt (early 2020s), yet it is one of the poorest countries.",
+     "Haiti's earthquake of 12 January 2010, magnitude 7.0, struck near Port-au-Prince and killed over 100,000 people (estimates vary); see the note on the geography of earthquakes.",
+     "Floods, cyclones and droughts destroy infrastructure and set poor countries back for years, while rich countries recover faster."
+    ]
+   },
+   {
+    "h": "Social factors: population, education, health and gender",
+    "points": [
+     "Rapid population growth spreads spending on schools and health thinly and creates more young dependants. Niger has the world's highest fertility rate, about 6 to 7 children per woman (early 2020s).",
+     "A falling birth rate can give a demographic dividend, a larger share of working-age people to drive growth.",
+     "An educated workforce raises productivity and attracts investment; low literacy, especially among women, holds development back, as the Kerala and Bihar contrast shows.",
+     "Disease, malnutrition and HIV/AIDS reduce the workforce and life expectancy, and health spending raises productivity.",
+     "Where girls are educated and women work outside the home, families are smaller, children are healthier and household incomes are higher.",
+     "Brain drain: doctors, nurses and graduates leave poor countries. Remittances sent home by migrants help offset this; India is the world's largest recipient of remittances (2020s).",
+     "Water, sanitation, electricity, roads and internet are both a cause and a result of development."
+    ]
+   },
+   {
+    "h": "Cultural factors",
+    "points": [
+     "Attitudes to women's roles and girls' education matter: early marriage reduces schooling and raises fertility.",
+     "Social structures and inequality limit opportunity for some groups: caste in India, land concentration in Latin America and ethnic divisions.",
+     "Many languages within borders drawn in the colonial period can make national unity and education harder; a world language such as English can help, as in India's IT sector.",
+     "The colonial cultural legacy includes European languages, education aimed at a small elite and a culture of exporting raw materials (see the Case study of a developing economy note).",
+     "Attitudes to enterprise, saving and education differ between societies: South Korea places a high value on education. Traditional farming practices and land tenure can slow change."
+    ]
+   },
+   {
+    "h": "Political factors: stability, governance and corruption",
+    "points": [
+     "Political stability and good governance attract investment and allow long-term planning. Botswana became independent in 1966 and has held regular elections as a multi-party democracy since independence.",
+     "War destroys infrastructure, displaces people and scares off investors. Syria's civil war from 2011 displaced millions. South Sudan became independent in July 2011 and entered civil war in December 2013; Sudan is covered in the Case study of a developing economy note.",
+     "Corruption diverts public money and aid. Transparency International's Corruption Perceptions Index ranks Denmark at or near the top and Somalia and South Sudan at or near the bottom (2020s).",
+     "Colonial history left borders, export economies and weak institutions; the detail is in the Case study of a developing economy note.",
+     "Government economic policy matters: education, infrastructure, openness to trade and investment, and industrial policy, as in South Korea, China and Ireland, contrast with mismanagement, as in Zimbabwe and Venezuela.",
+     "Debt repayments take money from schools and hospitals, and rich countries' farm subsidies and tariffs disadvantage poor exporters; the detail is in the Global issues and a justice perspective note.",
+     "EU membership and funds helped Ireland, Spain and Portugal, all major recipients of EU regional and cohesion funds, to converge with richer states (see the Ireland and the European Union chapter)."
+    ]
+   },
+   {
+    "h": "Change over time: general pattern and theory",
+    "points": [
+     "Development is not fixed: countries can rise, as Ireland, South Korea, China and Botswana have, or fall, as Zimbabwe, Venezuela and Syria have.",
+     "A falling HDI is usually caused by war, economic collapse or disease.",
+     "Cumulative causation: core regions keep growing because they attract capital and skilled migrants.",
+     "Spread effects: growth can sometimes spread from the core to the periphery. Full core–periphery theory is in The Global Economy: Multinationals and Globalisation chapter; models of development are in the Global Interdependence option."
+    ]
+   },
+   {
+    "h": "Rise: South Korea",
+    "points": [
+     "The Korean War (1950 to 1953) left the South among the world's poorest countries.",
+     "From the 1960s, under Park Chung-hee, the government planned export-led industrialisation: textiles first, then steel, shipbuilding, cars and electronics.",
+     "Chaebol, large family-controlled conglomerates such as Samsung, Hyundai and LG, drove the industrial growth.",
+     "The government invested heavily in education. South Korea joined the OECD in 1996.",
+     "The 1997 Asian financial crisis hit South Korea hard, but it recovered. UNCTAD reclassified it as a developed country in 2021, and it is now a very high HDI country.",
+     "Its growth came from industry and education, not from natural resources."
+    ]
+   },
+   {
+    "h": "Rise: China",
+    "points": [
+     "Economic reforms began in 1978 under Deng Xiaoping, known as opening up.",
+     "Special Economic Zones were set up from 1980, the first at Shenzhen, beside Hong Kong.",
+     "China joined the World Trade Organization in 2001.",
+     "The World Bank estimates that close to 800 million Chinese were lifted out of extreme poverty since 1978 (World Bank, 2022).",
+     "China has been the world's second-largest economy since 2010, overtaking Japan, but it is upper-middle income, not a developed country.",
+     "Coastal provinces are much richer than the western interior, and hundreds of millions of rural people migrated to coastal cities."
+    ]
+   },
+   {
+    "h": "Rise: Botswana",
+    "points": [
+     "Botswana became independent in 1966 as one of the world's poorest countries.",
+     "Diamond revenue funded roads, schools and clinics, and stable democratic government and comparatively low corruption helped.",
+     "Botswana is now an upper-middle-income country.",
+     "HIV/AIDS sharply reduced life expectancy in the 1990s and 2000s; it recovered with free antiretroviral treatment.",
+     "Dependence on diamonds is a weakness of the economy."
+    ]
+   },
+   {
+    "h": "Rise: Ireland",
+    "points": [
+     "Heavy emigration in the 1950s: net emigration was about 400,000 between 1951 and 1961.",
+     "T. K. Whitaker's Economic Development (1958) led to the First Programme for Economic Expansion (1958), which offered free trade, grants and tax breaks for foreign firms.",
+     "Ireland joined the EEC on 1 January 1973.",
+     "The Celtic Tiger boom ran from the mid-1990s to 2007. Free secondary education, free trade and foreign investment are described in the Measuring economic development note.",
+     "A property crash and banking crisis from 2008 led to an EU–IMF bailout of €85 billion, agreed in November 2010; Ireland exited the programme in December 2013."
+    ]
+   },
+   {
+    "h": "Fall: Zimbabwe, Venezuela and Syria",
+    "points": [
+     "Zimbabwe: land seizures from 2000 cut farm output; hyperinflation peaked in 2008, and the Zimbabwe dollar was abandoned in 2009.",
+     "Venezuela: the economy depended on oil. After oil prices collapsed in 2014, the economy shrank by well over half, and more than 7 million people emigrated (2024).",
+     "Syria: its HDI fell during the civil war that began in 2011, reversing decades of progress."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Physical factors shape development by limiting or supporting farming, health and trade. Climate matters: repeated droughts in the Sahel since the 1970s limit farming and caused famine, including the 1984 to 1985 Ethiopian famine, and malaria and other tropical diseases reduce life expectancy and workers' productivity. However, climate does not decide development, since Singapore is tropical and one of the world's richest countries. Location matters: landlocked countries such as Chad, Niger and Mali depend on neighbours' roads and ports, which raises trade costs. Resources can help or harm: Botswana's diamonds funded roads, schools and clinics, while the DR Congo produces about 70% of the world's cobalt yet is one of the poorest countries, and Nigeria's Niger Delta oil dominates exports amid spills and conflict. Hazards can set development back: the Haiti earthquake of 2010 killed over 100,000 people, and rich countries recover faster. Political factors are at least as important. Political stability and good governance attract investment: Botswana has held regular elections since its independence in 1966. War destroys infrastructure and drives away investors: Syria's civil war from 2011 displaced millions, and South Sudan entered civil war in December 2013. Corruption diverts public money and aid, with Somalia and South Sudan at or near the bottom of the Corruption Perceptions Index. Government policy can lift development: South Korea invested in education and planned export-led industry, while mismanagement in Zimbabwe and Venezuela caused collapse. Debt and trade rules also limit poor countries, but these are covered under justice. Overall, physical factors set the conditions, and political choices largely determine whether those conditions are used well.",
+    "prompt": "Levels of economic development show major spatial variations. Examine how physical and political factors influence levels of development, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "South Korea shows that development can rise sharply. The Korean War from 1950 to 1953 left the South among the world's poorest countries. From the 1960s, under Park Chung-hee, the government planned export-led industrialisation, starting with textiles and moving to steel, shipbuilding, cars and electronics. Large family-controlled conglomerates, known as chaebol, such as Samsung, Hyundai and LG, drove the growth. The government invested heavily in education, which gave the workforce the skills that industry needed. South Korea joined the OECD in 1996. Its growth came from industry and education rather than natural resources. The 1997 Asian financial crisis hit the economy hard, but it recovered. UNCTAD reclassified South Korea as a developed country in 2021, and it is now a very high HDI country. The change shows that development is not fixed: the country's starting point was poverty, and deliberate policy changed it within a few decades. The process was not automatic, however. It depended on government planning, a strong education system and the willingness to export to world markets.",
+    "prompt": "Levels of economic development can change over time. Discuss this statement with reference to one country you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "The Dublin region has the highest disposable income in the State because it concentrates high-paid jobs: it is the capital, with the main port and airport, and it attracts multinational and financial-services investment and has universities that supply skilled graduates. Investment in transport infrastructure, such as motorways or the planned Metrolink, could reduce regional differences by making regional towns easier to reach. Better access attracts firms to the Border, Midland and Western regions, cuts their costs and commuting times, and widens their job market, so incomes there could rise.",
+    "prompt": "Explain one reason why the Dublin region has the highest disposable income in the State, and one way that investment in transport infrastructure could reduce regional differences in income.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-development-s3": {
+  "keyTerms": [
+   {
+    "definition": "The control of one territory and its people by a foreign power, which rules it, settles it and/or exploits its resources for the colonising country.",
+    "term": "Colonialism"
+   },
+   {
+    "definition": "A crop grown for sale abroad rather than to feed the people who grow it.",
+    "term": "Cash crop"
+   },
+   {
+    "definition": "Dependence on a single crop or product for a country's export earnings.",
+    "term": "Monoculture"
+   },
+   {
+    "definition": "The decline of a country's manufacturing, such as India's handloom textiles, after competition from cheaper imports.",
+    "term": "Deindustrialisation"
+   },
+   {
+    "definition": "The transfer of revenue, profits and salaries from a colony to the colonising country.",
+    "term": "Drain of wealth"
+   },
+   {
+    "definition": "A landlord who collected land revenue for the British in Bengal under the Permanent Settlement.",
+    "term": "Zamindar"
+   },
+   {
+    "definition": "The system after independence in which firms needed government licences to set up or expand.",
+    "term": "Licence Raj"
+   },
+   {
+    "definition": "A strategy of protecting new home industries from foreign competition with tariffs, so that goods once imported are made at home.",
+    "term": "Import substitution industrialisation"
+   },
+   {
+    "definition": "Conditions attached to IMF and World Bank loans, such as cutting government spending, privatising, opening to trade and devaluing the currency.",
+    "term": "Structural adjustment programme"
+   },
+   {
+    "definition": "Opening an economy to trade and foreign investment, and reducing state control.",
+    "term": "Liberalisation"
+   },
+   {
+    "definition": "A large irrigation scheme in Sudan, watered by the Sennar Dam, that grew cotton for the Lancashire mills.",
+    "term": "Gezira Scheme"
+   },
+   {
+    "definition": "British policy from the 1920s of running northern and southern Sudan as separate regions, which laid the basis for civil war.",
+    "term": "Southern Policy"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Colonialism is the control of one territory and its people by a foreign power. The colonising country rules the colony, settles it and/or exploits its resources for its own benefit.",
+    "h": "Colonialism: definition and the colonial economy",
+    "points": [
+     "Imperialism is the wider policy of building an empire.",
+     "The main European colonial powers were Britain, France, Spain, Portugal, the Netherlands, Belgium and Germany.",
+     "The Americas were colonised first, then India and Asia, and then Africa.",
+     "Africa was divided among European powers in the Scramble for Africa after the Berlin Conference (1884–85). By 1914 only Ethiopia and Liberia in Africa were still independent of European rule.",
+     "Colonies supplied cheap raw materials such as cotton, sugar, rubber and minerals to the colonial power, and bought its manufactured goods.",
+     "Local industries that competed with these imports were destroyed.",
+     "Plantations and mines used forced or slave labour.",
+     "Food crops were replaced by cash crops grown for export, a pattern called monoculture."
+    ]
+   },
+   {
+    "h": "Colonial infrastructure and legacies",
+    "points": [
+     "Railways and roads ran from the interior to the ports so that raw materials could be exported. They were not built to link regions with each other.",
+     "Ports and capitals grew into the main cities, so development was concentrated on the coast.",
+     "Positive legacies are debated: railways, ports, some irrigation, legal and administrative systems, and a world language.",
+     "Most of this infrastructure was built to serve the colonial power rather than the colony's own people.",
+     "Artificial borders drawn in Europe split some ethnic groups and grouped rival ones together.",
+     "The colonial power's policy of divide and rule set groups against one another.",
+     "European languages and religions spread, education reached only a small elite, racial hierarchies were enforced, and land was owned by a few.",
+     "Weak institutions were handed over at independence, and conflict and coups followed in many new states."
+    ]
+   },
+   {
+    "b": "After independence, governments tried a sequence of strategies. Each country below follows some of these stages.",
+    "h": "Adjusting to a global economy: general stages",
+    "points": [
+     "Import substitution industrialisation: new home industries were protected from foreign competition by tariffs.",
+     "Neo-colonialism: former colonies often stayed dependent on exporting a few raw materials to rich countries at low and unstable prices, and on foreign loans and companies.",
+     "Debt crises in the 1980s and 1990s led to IMF and World Bank structural adjustment programmes. These cut government spending, privatised state firms, opened markets to trade, and devalued the currency.",
+     "Liberalisation: opening the economy to trade and foreign investment, and privatising state firms.",
+     "Export diversification: moving beyond a few raw materials into manufactured and service exports.",
+     "Joining the World Trade Organisation (WTO) and regional trading blocs.",
+     "Growth of services and of remittances (money sent home by emigrants)."
+    ]
+   },
+   {
+    "h": "India: colonial rule begins",
+    "points": [
+     "The East India Company was chartered on 31 December 1600 and first traded through trading posts.",
+     "The Battle of Plassey in 1757, won by Robert Clive, began Company rule in Bengal.",
+     "The Rebellion of 1857 led to the Government of India Act 1858, which transferred rule from the Company to the British Crown. This began direct British rule, known as the Raj.",
+     "India gained independence and was partitioned on 15 August 1947."
+    ]
+   },
+   {
+    "b": "Under British rule India moved from being a major manufacturer to a supplier of raw materials.",
+    "h": "India: deindustrialisation and cash crops",
+    "points": [
+     "India's large handloom textile industry, including Bengal's fine cottons and Dhaka (now in Bangladesh) muslin, was destroyed by cheap machine-made cloth from the cotton mills of Lancashire in north-west England.",
+     "Raw cotton was exported from India to Britain to feed those mills.",
+     "Economic historian Angus Maddison estimated India's share of world GDP at about a quarter around 1700 and about 4% by 1950. These are estimates, not exact figures.",
+     "Cash crops replaced food crops: cotton, jute, indigo (blue dye), tea from plantations in Assam from the 1830s–40s, and opium grown in India and exported to China.",
+     "Jute was processed in mills along the Hooghly near Calcutta."
+    ]
+   },
+   {
+    "h": "India: land revenue, famine and the drain of wealth",
+    "points": [
+     "The Permanent Settlement of Bengal (1793, Lord Cornwallis) fixed land revenue and collected it through zamindars, landlords who passed the tax burden on to peasants.",
+     "Heavy land taxes left the peasantry in debt and poverty.",
+     "Famines occurred under British rule: the Great Famine of 1876–78 and the Bengal famine of 1943.",
+     "The Bengal famine killed about 3 million people (estimates range from about 2 to 3 million). Grain was still exported while people starved.",
+     "The drain of wealth: revenue, profits and salaries were sent from India to Britain. Dadabhai Naoroji set out this argument in 'Poverty and Un-British Rule in India' (1901)."
+    ]
+   },
+   {
+    "h": "India: railways, ports and cities",
+    "points": [
+     "The first passenger train ran from Bombay to Thane on 16 April 1853.",
+     "The railway network was built mainly to carry raw materials to the ports of Bombay and Calcutta and to move troops.",
+     "Indians came to use the railways heavily, although they were not built for Indian passengers' needs.",
+     "Ports and colonial cities grew, including Bombay (now Mumbai) and Calcutta (now Kolkata).",
+     "Calcutta was the capital of British India until 1911, when the capital moved to Delhi."
+    ]
+   },
+   {
+    "h": "India: political and social legacies",
+    "points": [
+     "English is the language of government and business. It has since become an asset for India's IT industry (see India in A Continental / Subcontinental Region).",
+     "India inherited a civil service, courts and a parliamentary system from British rule.",
+     "At independence, literacy was very low: about 18% in the 1951 census. Life expectancy was around 32 years.",
+     "Partition on 15 August 1947 displaced more than 10 million people, and hundreds of thousands were killed in the violence.",
+     "The Kashmir region has been disputed with Pakistan since 1947.",
+     "Mahatma Gandhi led a non-violent independence movement. Its methods included the boycott of British cloth, the promotion of swadeshi (buying Indian goods) and the spinning of khadi (hand-spun cloth).",
+     "The Salt March of 1930 was a major act of resistance against British control."
+    ]
+   },
+   {
+    "h": "India: state-led development after 1947",
+    "points": [
+     "The First Five-Year Plan (1951), under Jawaharlal Nehru, began a planned economy.",
+     "Import substitution behind high tariffs protected home industry from foreign competition.",
+     "The state built heavy industry, including steel plants at Bhilai, Rourkela and Durgapur.",
+     "The 'Licence Raj' meant that firms needed government licences to set up or expand, which restricted competition and investment.",
+     "Growth was slow, earning the nickname the 'Hindu rate of growth'."
+    ]
+   },
+   {
+    "h": "India: food self-sufficiency",
+    "points": [
+     "The Green Revolution used high-yield seed varieties with fertiliser and irrigation.",
+     "Food-grain output rose from about 51 million tonnes in 1950–51 to about 330 million tonnes in 2022–23.",
+     "As a result India became self-sufficient in food."
+    ]
+   },
+   {
+    "h": "India: the 1991 crisis and liberalisation",
+    "points": [
+     "By 1991 foreign-exchange reserves had fallen to only enough for a few weeks of imports.",
+     "India pledged gold to raise loans and borrowed from the IMF.",
+     "Reforms under Prime Minister P. V. Narasimha Rao and Finance Minister Manmohan Singh removed most licences, cut tariffs, welcomed foreign investment, privatised some state firms and devalued the rupee.",
+     "India was a founding member of the WTO in 1995."
+    ]
+   },
+   {
+    "h": "India: results of opening up",
+    "points": [
+     "Growth became fast, and services now make up over half of GDP.",
+     "The IT and outsourcing industry is based in Bengaluru, with firms such as TCS and Infosys.",
+     "Multinationals invest in India, encouraged by the Make in India programme (2014).",
+     "India is among the five largest economies in the world by GDP (early 2020s).",
+     "India is the world's largest recipient of remittances (2020s)."
+    ]
+   },
+   {
+    "h": "India: problems that remain",
+    "points": [
+     "About nine-tenths of Indian workers are in the informal sector (2010s–2020s), without contracts, pensions or legal protection.",
+     "Agriculture still employs about 55% of workers (Census 2011), with low productivity.",
+     "Inequality exists between states: literacy was about 94% in Kerala and about 62% in Bihar (Census 2011).",
+     "Inequality also exists between rich and poor.",
+     "India's HDI is 0.644, 134th of 193 countries, in the medium category (Human Development Report 2023/24).",
+     "Infrastructure gaps and pollution remain serious problems."
+    ]
+   },
+   {
+    "h": "Brazil: Portuguese colonisation and export cycles",
+    "points": [
+     "The Treaty of Tordesillas (1494) gave the east of South America to Portugal.",
+     "Pedro Álvares Cabral reached Brazil on 22 April 1500.",
+     "Brazil remained a Portuguese colony until independence on 7 September 1822, under Dom Pedro I.",
+     "Brazilwood, a red dye wood, gave the country its name.",
+     "Sugar plantations in Pernambuco and Bahia in the North-East were the first major export.",
+     "Gold was mined in Minas Gerais ('general mines').",
+     "Coffee was grown in São Paulo state in the 19th century.",
+     "The Amazon rubber boom centred on Manaus, from the late 19th century to about 1912, collapsed when plantations in British South-East Asia, grown from Brazilian seeds, undercut it.",
+     "Each export cycle enriched Portugal and a small elite rather than the colony as a whole."
+    ]
+   },
+   {
+    "h": "Brazil: slavery, indigenous peoples and land",
+    "points": [
+     "About 4 to 5 million enslaved Africans were taken to Brazil, more than to any other country in the Americas. They worked on plantations and in mines.",
+     "Slavery was abolished by the Lei Áurea (Golden Law) on 13 May 1888. Brazil was the last country in the Americas to abolish it.",
+     "The legacy of slavery includes racial inequality: Afro-Brazilians are over-represented among the poor and in favelas.",
+     "Indigenous peoples were killed by disease, war and enslavement, and pushed off their land.",
+     "Census 2022 counted about 1.7 million indigenous people, under 1% of Brazil's population of about 203 million.",
+     "Huge estates (latifundia), originating in Portuguese land grants, are owned by a few families, while millions of rural workers are landless.",
+     "Brazil has one of the most unequal patterns of land ownership in the world.",
+     "The MST (Landless Workers' Movement), founded in 1984, campaigns for land reform. Conflict over land in the Amazon continues."
+    ]
+   },
+   {
+    "h": "Brazil: regional inequality and primary exports",
+    "points": [
+     "When sugar declined, the North-East was left poor.",
+     "Wealth and industry shifted to the South-East: São Paulo (Brazil's largest city and industrial centre), Rio de Janeiro and Minas Gerais.",
+     "Migrants moved from the North-East to the South-East cities and their favelas.",
+     "SUDENE, the agency for developing the North-East, was set up in 1959.",
+     "The colonial pattern of exporting raw materials continued after independence, with coffee dominating exports for much of that period."
+    ]
+   },
+   {
+    "h": "Brazil: import substitution and the Brazilian miracle",
+    "points": [
+     "Getúlio Vargas was president from 1930 to 1945 and from 1951 to 1954. His government promoted state-led industrialisation.",
+     "Petrobras, the state oil company, was founded in 1953.",
+     "President Juscelino Kubitschek (1956–61) promised 'fifty years of progress in five' and built a car industry.",
+     "The new capital, Brasília, was inaugurated on 21 April 1960 to open up the interior.",
+     "The Manaus Free Trade Zone was created in 1967.",
+     "The 'Brazilian miracle' of very fast growth, about 1968–73, took place under military rule (1964–85)."
+    ]
+   },
+   {
+    "h": "Brazil: heavy borrowing, debt and stabilisation",
+    "points": [
+     "Brazil borrowed heavily from foreign lenders.",
+     "The 1980s debt crisis, known as the 'lost decade', brought hyperinflation and IMF programmes.",
+     "The Plano Real (1994) ended hyperinflation and introduced the real as the currency."
+    ]
+   },
+   {
+    "h": "Brazil: opening up and commodity exports",
+    "points": [
+     "The iron-ore miner Vale (formerly Companhia Vale do Rio Doce) was privatised in 1997. Its Carajás mines are in Pará.",
+     "Mercosur, the trade bloc of Argentina, Paraguay, Uruguay and Brazil, was founded in 1991 by the Treaty of Asunción.",
+     "A commodity export boom sent soya, iron ore, oil, beef and coffee abroad, especially to China.",
+     "China has been Brazil's largest trading partner since 2009.",
+     "Brazil is the world's largest producer and exporter of soya beans and the largest producer of coffee (2020s).",
+     "Brazil is a member of BRICS. The BRIC term was coined in 2001 by Jim O'Neill of Goldman Sachs, and the first BRIC summit was held in 2009.",
+     "Embraer, the aircraft maker in São José dos Campos (São Paulo state), is a high-tech export."
+    ]
+   },
+   {
+    "h": "Brazil: poverty reduction and its limits",
+    "points": [
+     "Bolsa Família, launched in 2003 under President Lula da Silva, gives cash to poor families on condition that children attend school and are vaccinated.",
+     "Brazil left the UN (FAO) World Hunger Map in 2014.",
+     "Brazil's HDI is about 0.76, in the high category (Human Development Report 2023/24).",
+     "Brazil is among the most unequal countries in the world by the Gini coefficient.",
+     "Cattle ranching is the largest driver of Amazon deforestation, with soya expansion also contributing.",
+     "Commodity dependence brought a recession in 2015–16, when commodity prices fell.",
+     "The North-East is still the poorest region of Brazil.",
+     "The WTO ruled in Brazil's favour against US cotton subsidies in 2004–05 (see Global issues and a justice perspective)."
+    ]
+   },
+   {
+    "h": "Sudan: Egyptian and Mahdist rule, then British control",
+    "points": [
+     "Egyptian conquest began in 1821.",
+     "The Mahdist state (1885–98) was led by Muhammad Ahmad, 'the Mahdi'. Its forces took Khartoum in 1885 and killed General Gordon.",
+     "British forces under Kitchener defeated the Mahdists at the Battle of Omdurman on 2 September 1898.",
+     "The Anglo-Egyptian Condominium (1899–1956) was in practice British rule.",
+     "Sudan became independent on 1 January 1956. Its capital, Khartoum, lies at the confluence of the Blue and White Niles."
+    ]
+   },
+   {
+    "h": "Sudan: the Gezira Scheme and cotton",
+    "points": [
+     "The Gezira Scheme is an irrigation scheme between the Blue and White Niles, south of Khartoum.",
+     "The Sennar Dam on the Blue Nile was completed in 1925 to water the scheme.",
+     "The scheme covers nearly 900,000 hectares and is one of the world's largest irrigation schemes.",
+     "It grew long-staple cotton for the Lancashire mills, not for Sudan's own industry.",
+     "Tenant farmers grew the cotton under strict control.",
+     "Cotton became Sudan's main export, so the economy depended on one crop and its world price.",
+     "Investment was concentrated in the Nile valley around Khartoum and Gezira. The south, Darfur and other peripheral regions were neglected."
+    ]
+   },
+   {
+    "h": "Sudan: the Southern Policy and borders",
+    "points": [
+     "From the 1920s Britain ran the Arab and Muslim north and the African, largely Christian and animist south as separate regions.",
+     "The Closed District Ordinance (1922) restricted northerners' entry to the south.",
+     "English and Christian missions worked in the south, while Arabic was used in the north.",
+     "The regions were joined into one state at independence, and power went to a northern elite.",
+     "Colonial boundaries enclosed many ethnic, language and religious groups within one state. This laid the basis for civil war."
+    ]
+   },
+   {
+    "h": "Sudan: civil wars and the separation of South Sudan",
+    "points": [
+     "The first civil war (1955–72) ended with the Addis Ababa Agreement (1972).",
+     "The second civil war (1983–2005) killed about 2 million people. It ended with the Comprehensive Peace Agreement in January 2005.",
+     "The Darfur conflict began in 2003. The UN estimated about 300,000 deaths, and the International Criminal Court issued an arrest warrant for President al-Bashir in 2009.",
+     "A referendum in January 2011 gave about 99% support for independence. South Sudan became independent on 9 July 2011, with its capital at Juba.",
+     "Sudan here means Sudan before 2011, which included today's South Sudan."
+    ]
+   },
+   {
+    "h": "Sudan: cotton, borrowing and famine after independence",
+    "points": [
+     "Sudan remained dependent on Gezira cotton after independence.",
+     "Governments attempted state-led development.",
+     "Heavy borrowing led to debt, and IMF programmes followed.",
+     "A famine caused by drought and war struck the country."
+    ]
+   },
+   {
+    "h": "Sudan: oil and the loss of South Sudan",
+    "points": [
+     "Oil exports began in 1999 through a pipeline to Port Sudan on the Red Sea.",
+     "The main buyers and investors were Chinese state oil firms, with Malaysian and Indian firms also involved. China was the main buyer.",
+     "Oil became the main export, and GDP grew fast in the 2000s.",
+     "Most oil lay in the south. South Sudan's independence in 2011 took about three-quarters of Sudan's oil production.",
+     "The loss of oil caused an economic crisis, with inflation and protests.",
+     "South Sudan is landlocked, so it still exports its oil through Sudan's pipeline."
+    ]
+   },
+   {
+    "h": "Sudan: isolation, debt and other exports",
+    "points": [
+     "The United States listed Sudan as a 'state sponsor of terrorism' from 1993 to 2020, when the listing was removed in December 2020. The sanctions cut Sudan off from Western banks and investment.",
+     "Sudan has one of the world's largest debt burdens. It reached the HIPC decision point in 2021.",
+     "Sudan is the world's largest producer of gum arabic, from acacia trees, which is used in food and drinks.",
+     "Other exports include gold, livestock and sesame."
+    ]
+   },
+   {
+    "h": "Sudan: political turmoil and the present",
+    "points": [
+     "President Omar al-Bashir was in power from 1989 to 2019 and was removed in April 2019 after mass protests.",
+     "A military coup took place in October 2021.",
+     "Since 15 April 2023 the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) have been at war.",
+     "More than 10 million people had been displaced by 2024, the largest displacement crisis in the world.",
+     "Famine was confirmed in Zamzam camp, North Darfur, in August 2024.",
+     "Development has gone into reverse, and Sudan is in the low human development category."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "India under British rule was a clear example of colonialism's impact. The East India Company was chartered on 31 December 1600, and after the Battle of Plassey in 1757 it ruled Bengal. The Rebellion of 1857 led to direct British rule under the Crown from 1858. Colonial economic policy destroyed India's handloom textile industry, as cheap machine-made cloth from the Lancashire mills displaced Bengal's fine cottons and Dhaka muslin, while raw cotton was exported to Britain. India's share of world GDP fell from about a quarter around 1700 to about 4% by 1950, according to Maddison's estimates. Cash crops such as cotton, jute, indigo, tea from Assam and opium for China replaced food crops, leaving farmers exposed to shortages. The Permanent Settlement of 1793 fixed land revenue through zamindars, which kept the peasantry in debt, and famines occurred, including the Bengal famine of 1943 which killed about 3 million people, while grain was still exported. Revenue and profits were drained to Britain, an argument Dadabhai Naoroji made in 1901. Railways were built mainly to carry raw materials to Bombay and Calcutta and to move troops, so they did not link regions for Indian needs. Ports and colonial cities such as Bombay and Calcutta grew while the interior remained underdeveloped. Social and political legacies included very low literacy, about 18% in 1951, and a life expectancy of about 32 years at independence. Partition in 1947 displaced more than 10 million people, and the Kashmir dispute continues. The English language, a civil service and a parliamentary system remained after independence. Long-term effects include the regional inequality between states that still exists today, and a HDI of 0.644 that remains in the medium category.",
+    "prompt": "Examine the impact of colonialism on a developing economy that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Brazil shows how a developing economy adjusted in stages. Its economy was built on export cycles, including brazilwood, sugar, gold, coffee and the Amazon rubber boom centred on Manaus, which enriched Portugal and a small elite, and after independence in 1822 coffee dominated exports. Its adjustment began with import substitution under Getúlio Vargas, who created the state oil company Petrobras in 1953, and Juscelino Kubitschek, whose Brasília opened the interior in 1960. The Manaus Free Trade Zone was created in 1967, and the Brazilian miracle of fast growth took place under military rule about 1968–73. Heavy borrowing led to the 1980s debt crisis, the lost decade, with hyperinflation and IMF programmes, until the Plano Real of 1994 ended hyperinflation. Opening up included privatising Vale in 1997, joining the Mercosur trade bloc in 1991, and becoming a BRICS member. A commodity boom sent soya, iron ore, oil, beef and coffee abroad, and China has been Brazil's largest trading partner since 2009. Brazil is the largest producer of soya beans and coffee. Embraer aircraft are a high-tech export. Poverty was reduced by Bolsa Família, launched in 2003, which pays families on condition that children attend school and are vaccinated, and Brazil left the UN World Hunger Map in 2014. Problems remain: Brazil is among the most unequal countries in the world, and its HDI of about 0.76 is high but inequality persists. Costs include Amazon deforestation driven by cattle ranching and soya, and recession in 2015–16 when commodity prices fell. The North-East is still the poorest region.",
+    "prompt": "Describe and explain how a developing economy that you have studied has adjusted to a global economy.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Sudan, before 2011 including today's South Sudan, was colonised by Egypt from 1821 and then ruled by Britain. After the Mahdist state was defeated at the Battle of Omdurman on 2 September 1898, the Anglo-Egyptian Condominium (1899–1956) was in practice British rule until independence on 1 January 1956. The Gezira Scheme, watered by the Sennar Dam completed in 1925, grew long-staple cotton for the Lancashire mills, so Sudan's economy depended on one crop and its world price. Tenant farmers grew the cotton under strict control. Investment was concentrated in the Nile valley around Khartoum and Gezira, and the south and Darfur were neglected. From the 1920s the Southern Policy ran the north and south as separate regions, with English and Christian missions in the south and Arabic in the north, and the regions were joined at independence with power going to a northern elite. Colonial boundaries enclosed many ethnic, language and religious groups. This led to civil wars: the first from 1955 to 1972, and the second from 1983 to 2005, which killed about 2 million people. The Darfur conflict began in 2003. Oil exports began in 1999 through a pipeline to Port Sudan, mainly for China, but most oil lay in the south, and South Sudan's independence in 2011 took about three-quarters of production, causing an economic crisis with inflation and protests.",
+    "prompt": "Name one developing economy that was colonised. Describe and explain the effects of colonialism on this economy.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-development-s4": {
+  "keyTerms": [
+   {
+    "definition": "A problem that crosses borders and affects the whole world, such as poverty, trade rules, debt or climate change.",
+    "term": "Global issue"
+   },
+   {
+    "definition": "The relationship between the prices a country receives for its exports and the prices it pays for its imports.",
+    "term": "Terms of trade"
+   },
+   {
+    "definition": "The stages from raw material to final product, and the share of the final price each stage receives.",
+    "term": "Value chain"
+   },
+   {
+    "definition": "Selling surplus goods abroad at low prices, often because of subsidies, which undercuts producers in the importing country.",
+    "term": "Dumping"
+   },
+   {
+    "definition": "A guaranteed floor price for certified producers, covering the cost of sustainable production.",
+    "term": "Fairtrade Minimum Price"
+   },
+   {
+    "definition": "An extra payment to producer co-operatives for community projects such as schools, clinics and clean water.",
+    "term": "Fairtrade Premium"
+   },
+   {
+    "definition": "Oil-exporters' deposits in banks, which the banks lent on to developing countries in the 1970s.",
+    "term": "Petrodollars"
+   },
+   {
+    "definition": "The Heavily Indebted Poor Countries initiative, launched in 1996, which cancelled much of the debt of the poorest countries on condition that savings go to poverty reduction.",
+    "term": "HIPC Initiative"
+   },
+   {
+    "definition": "Aid that must be spent on goods or services from the donor country.",
+    "term": "Tied aid"
+   },
+   {
+    "definition": "Aid that the recipient can spend on goods and services from any country.",
+    "term": "Untied aid"
+   },
+   {
+    "definition": "Foreign companies or governments buying or leasing large areas of farmland in poor countries.",
+    "term": "Land grabbing"
+   },
+   {
+    "definition": "A fund agreed at COP27 to help poor countries pay for losses and damage caused by climate change.",
+    "term": "Loss and Damage Fund"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Global issues are problems that cross borders and affect the whole world, such as poverty, inequality, trade rules, debt, climate change and migration. A justice perspective asks whether the distribution of wealth and power is fair, who decides, and who benefits. It treats development as a matter of rights, not charity.",
+    "h": "A justice perspective on global issues",
+    "points": [
+     "The Universal Declaration of Human Rights, adopted by the UN General Assembly on 10 December 1948, includes rights to food, health, education and decent work.",
+     "Poverty denies these rights, so a justice perspective treats poverty as a rights failure rather than a matter of charity."
+    ]
+   },
+   {
+    "h": "Global poverty and inequality",
+    "points": [
+     "About 700 million people lived in extreme poverty in 2022, most of them in sub-Saharan Africa. The World Bank measures extreme poverty as living on under $2.15 a day (2017 prices).",
+     "The share of the world's population in extreme poverty fell from over a third in 1990 to under a tenth by 2019.",
+     "The richest 10% own about 76% of global wealth, while the poorest half own about 2% (World Inequality Report 2022)."
+    ]
+   },
+   {
+    "h": "Global goals: MDGs and SDGs",
+    "points": [
+     "The Millennium Development Goals (2000–2015) had eight goals. The target of halving the share of people in extreme poverty from 1990 was met by 2010, five years early, largely thanks to China.",
+     "The Sustainable Development Goals were adopted by the UN in September 2015. They have 17 goals, to be met by 2030.",
+     "The SDGs target poverty (SDG 1), hunger (SDG 2), quality education (SDG 4), gender equality (SDG 5), reduced inequalities (SDG 10) and climate action (SDG 13). Other targets cover health, clean water and climate.",
+     "The world is off track to meet most SDG targets by 2030."
+    ]
+   },
+   {
+    "h": "Unfair trade: commodities and the value chain",
+    "points": [
+     "Many developing countries depend on exporting a few primary commodities, such as coffee, cocoa, cotton and minerals, whose prices are low and unstable.",
+     "The terms of trade tend to move against these countries, so their exports buy fewer imports over time while they import manufactured goods.",
+     "Most of the final price of coffee, chocolate or clothing goes to processors, brands and retailers in rich countries. The grower receives a small share.",
+     "Tariff escalation: rich countries charge higher tariffs on processed goods than on raw materials, which discourages poor countries from processing their own crops."
+    ]
+   },
+   {
+    "h": "Unfair trade: farm subsidies and the cotton case",
+    "points": [
+     "Rich-country farm subsidies, such as US cotton subsidies and the EU's Common Agricultural Policy in the past, let surpluses be sold cheaply abroad. This is called dumping, and it undercuts poor farmers.",
+     "The Cotton-4 West African producers, Benin, Burkina Faso, Chad and Mali, were harmed by these subsidies.",
+     "The WTO ruled in Brazil's favour against US cotton subsidies in 2004–05."
+    ]
+   },
+   {
+    "h": "Responses to unfair trade",
+    "points": [
+     "The WTO Doha Development Round was launched in 2001 but has stalled without agreement.",
+     "The EU's 'Everything But Arms' scheme (2001) gives the least developed countries duty-free and quota-free access to the EU for all products except arms and ammunition."
+    ]
+   },
+   {
+    "b": "Fair trade is a trading model in which producers receive guaranteed terms and the Fairtrade Mark identifies certified products.",
+    "h": "Fair trade: how it works",
+    "points": [
+     "The Fairtrade Minimum Price covers the cost of sustainable production. It is a guaranteed floor, not a guaranteed higher price: when the market price is higher, producers receive the market price plus the premium.",
+     "The Fairtrade Premium is paid to producer co-operatives for community projects such as schools, clinics and clean water.",
+     "Fair trade also requires long-term contracts, decent working conditions, no child labour, environmental standards and democratically run co-operatives.",
+     "Fair trade covers coffee, tea, cocoa, bananas, sugar and cotton.",
+     "The first fair trade label, Max Havelaar, was launched in the Netherlands in 1988 for Mexican coffee. Fairtrade International now coordinates the Fairtrade Mark."
+    ]
+   },
+   {
+    "h": "Fair trade in Ireland and its limits",
+    "points": [
+     "Fairtrade Ireland (Fairtrade Mark Ireland) licenses the Fairtrade Mark in Ireland.",
+     "Irish towns and schools can apply for Fairtrade status. Fairtrade Fortnight takes place each year in late February and March.",
+     "Fair trade makes up only a tiny share of world trade.",
+     "Certified products can cost consumers more, and certification is expensive for small producers.",
+     "Fair trade does not change the trade rules that cause unfair trade in the first place."
+    ]
+   },
+   {
+    "h": "Debt: how the crisis arose",
+    "points": [
+     "When oil prices rose sharply, oil-exporting countries deposited their surplus money in banks. Banks lent these deposits, called petrodollars, to developing countries.",
+     "Interest rates then rose sharply and commodity prices fell, so many borrowers could not afford repayments.",
+     "Mexico announced in August 1982 that it could not pay its debts, starting the Latin American debt crisis.",
+     "Many African and Latin American countries could not repay their debts."
+    ]
+   },
+   {
+    "h": "Debt: effects and the justice argument",
+    "points": [
+     "Governments spent more on debt repayments than on health and education.",
+     "Countries took new loans to repay old ones, so the debt grew.",
+     "The 1980s 'lost decade' hit Latin America and Africa hard.",
+     "Some debts were 'odious': dictators borrowed the money and stole or wasted it, yet the people were made to repay it."
+    ]
+   },
+   {
+    "h": "Debt: structural adjustment",
+    "points": [
+     "IMF and World Bank loans came with conditions. These cut public spending, introduced school and health fees, privatised state firms, removed food subsidies, devalued the currency and opened markets to imports.",
+     "Structural adjustment programmes were criticised for hurting the poorest people most (see Case study of a developing economy)."
+    ]
+   },
+   {
+    "h": "Debt: relief and its results",
+    "points": [
+     "The Jubilee 2000 campaign pressed for debt cancellation by the millennium.",
+     "The Heavily Indebted Poor Countries (HIPC) Initiative was launched in 1996 by the IMF and World Bank.",
+     "The Multilateral Debt Relief Initiative (2005) followed the G8 summit at Gleneagles, Scotland, in July 2005. It was backed by the Make Poverty History campaign and the Live 8 concerts.",
+     "More than 30 countries, most in Africa, have received debt relief under HIPC, on condition that the savings go to poverty reduction.",
+     "Relief has funded results such as free primary education in some relieved countries.",
+     "Debt is rising again in the 2020s."
+    ]
+   },
+   {
+    "h": "Types of aid",
+    "points": [
+     "Emergency (humanitarian) aid responds to disasters and famines.",
+     "Long-term development aid funds projects that build lasting capacity.",
+     "Bilateral aid passes from one government to another.",
+     "Multilateral aid is channelled through bodies such as the UN, the World Bank and the EU.",
+     "NGO (voluntary) aid is given by non-governmental organisations.",
+     "Tied aid must be spent on goods or services from the donor country."
+    ]
+   },
+   {
+    "h": "The UN aid target",
+    "points": [
+     "The UN target, set in 1970, is that rich countries give 0.7% of their gross national income as official development aid.",
+     "Norway, Sweden, Luxembourg and Denmark have reached or exceeded the target in recent years.",
+     "Ireland has not yet reached the target (2020s)."
+    ]
+   },
+   {
+    "h": "How aid helps and hinders",
+    "points": [
+     "Helps: aid saves lives in emergencies and funds schools, clinics, wells and vaccination programmes.",
+     "Helps: aid builds roads and infrastructure, trains teachers, nurses and farmers, and supports women's groups and small businesses.",
+     "Hinders: tied aid benefits donor firms and may supply unsuitable technology.",
+     "Hinders: corrupt elites can steal aid, and food aid can undercut local farmers.",
+     "Hinders: aid can create dependency instead of self-reliance, and loans add to debt.",
+     "Hinders: donors' political or strategic interests decide who gets aid, rather than need.",
+     "Hinders: large prestige projects, such as dams, can displace people.",
+     "Better aid is untied, targeted at the poorest, and designed with local participation and ownership. It supports self-help and co-operatives and is transparent."
+    ]
+   },
+   {
+    "h": "Irish Aid and Irish NGOs",
+    "points": [
+     "Irish Aid is Ireland's official aid programme, part of the Department of Foreign Affairs. Its bilateral programme began in 1974.",
+     "Long-term partner countries include Ethiopia, Malawi, Mozambique, Tanzania, Uganda and Zambia in sub-Saharan Africa, and Vietnam.",
+     "Ireland's aid is untied.",
+     "'A Better World' (2019), Ireland's international development policy, focuses on the furthest behind, gender equality, climate and governance.",
+     "Concern Worldwide was founded in 1968 in response to the famine in Biafra during Nigeria's civil war.",
+     "Trócaire was founded in 1973 by the Irish Catholic bishops. Its Lenten 'Trócaire box' raises funds, and it campaigns on human rights and climate.",
+     "GOAL was founded in 1977 by John O'Shea.",
+     "Live Aid concerts in July 1985, organised by Bob Geldof, responded to the 1984–85 Ethiopian famine."
+    ]
+   },
+   {
+    "h": "Ireland's own history",
+    "points": [
+     "The Great Famine (1845–49) killed about 1 million people and led about 1 million to emigrate. This history is one reason for Irish solidarity with developing countries."
+    ]
+   },
+   {
+    "h": "Multinationals and workers",
+    "points": [
+     "Multinationals locate labour-intensive work, such as clothing, electronics assembly and mining, in low-wage countries.",
+     "Benefits for workers include jobs, wages higher than farm work, and skills.",
+     "Exploitation includes very low wages, long hours, unsafe factories, banned trade unions and child labour."
+    ]
+   },
+   {
+    "h": "Rana Plaza, Bangladesh, 2013",
+    "points": [
+     "Rana Plaza, an eight-storey building in Savar near Dhaka, housed garment factories. It collapsed on 24 April 2013, killing about 1,130 people and injuring about 2,500.",
+     "Cracks had appeared the day before, but workers were ordered back in.",
+     "The factories supplied Western brands, including Primark, which was founded in Dublin in 1969 as Penneys. Primark paid compensation to the victims.",
+     "The Accord on Fire and Building Safety in Bangladesh was signed in May 2013 by global brands and trade unions, and eventually more than 200 brands joined. It provided independent factory inspections.",
+     "Garments make up over four-fifths of Bangladesh's exports (2020s).",
+     "The case shows how brands profit from low-cost factories while the safety of workers depends on local suppliers."
+    ]
+   },
+   {
+    "h": "Child labour and cobalt",
+    "points": [
+     "About 160 million children were in child labour worldwide in 2020 (ILO and UNICEF), about 70% of them in agriculture.",
+     "Child labour occurs in cocoa farming and in mining.",
+     "The DR Congo produces about 70% of the world's cobalt, which is used in rechargeable batteries.",
+     "Amnesty International (2016) documented child labour in the artisanal, hand-dug cobalt mines of the DR Congo."
+    ]
+   },
+   {
+    "h": "Land and resources",
+    "points": [
+     "Foreign companies and governments buy or lease large areas of farmland in poor countries, a practice called land grabbing.",
+     "Indigenous peoples lose land to mining, ranching and logging, as in the Amazon example in the Brazil section of Case study of a developing economy."
+    ]
+   },
+   {
+    "h": "Responses to worker exploitation",
+    "points": [
+     "Ethical consumer campaigns and company codes of conduct put pressure on brands.",
+     "The EU Corporate Sustainability Due Diligence Directive, adopted in 2024, requires very large companies to identify and address human-rights and environmental harm in their supply chains.",
+     "Trade unions represent workers and campaign for safer conditions and better wages."
+    ]
+   },
+   {
+    "h": "Climate justice",
+    "points": [
+     "The poorest countries have contributed least to greenhouse gas emissions but suffer most from climate change.",
+     "Bangladesh is a low-lying delta vulnerable to cyclones, floods and sea-level rise.",
+     "Small island states such as Tuvalu, Kiribati and the Maldives are threatened by sea-level rise.",
+     "Sub-Saharan Africa has produced only a small share of historical emissions, yet its dry regions suffer drought.",
+     "Responses include climate finance from rich countries and the Loss and Damage Fund, agreed at COP27 in Sharm el-Sheikh, Egypt (2022) and made operational at COP28 in Dubai (2023).",
+     "The Mary Robinson Foundation – Climate Justice was set up in 2010 by Mary Robinson, who was President of Ireland from 1990 to 1997 and UN High Commissioner for Human Rights from 1997 to 2002."
+    ]
+   },
+   {
+    "h": "Progress and remaining injustice",
+    "points": [
+     "Extreme poverty has fallen greatly since 1990, especially in China. Child mortality has fallen, and more children attend school.",
+     "Sub-Saharan Africa lags behind other regions.",
+     "Inequality within and between countries is high.",
+     "Conflict, such as the war in Sudan (see Case study of a developing economy), and climate change are reversing gains.",
+     "The COVID-19 pandemic in 2020 caused the first rise in global extreme poverty in about a generation (World Bank)."
+    ]
+   },
+   {
+    "h": "What individuals and Ireland can do",
+    "points": [
+     "Individuals can buy fair trade, campaign, and support NGOs. Ireland can press governments on aid, trade and debt policy."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Unfair trade is one global justice issue. Many developing countries depend on exporting a few primary commodities such as coffee, cocoa, cotton and minerals, whose prices are low and unstable, while they import manufactured goods, so the terms of trade tend to move against them. Most of the final price of coffee or chocolate goes to processors, brands and retailers in rich countries, while growers receive a small share. Rich countries charge higher tariffs on processed goods than on raw materials, which discourages processing in poor countries. Rich-country farm subsidies, such as US cotton subsidies, let surpluses be sold cheaply abroad as dumping, undercutting West African cotton growers, and the WTO ruled against those US subsidies in 2004–05 in Brazil's favour. Responses include the stalled WTO Doha Development Round and the EU's Everything But Arms scheme, and fair trade, which guarantees a minimum price and pays a premium for community projects. Its limits are that it covers only a tiny share of world trade, certified products can cost consumers more, and it does not change the trade rules. Debt is a second justice issue. Oil-price rises led banks to lend petrodollars to developing countries, and when interest rates rose and commodity prices fell, Mexico announced in August 1982 that it could not pay, starting the Latin American debt crisis. Debt repayments took more money than health and education, and the 1980s lost decade followed. IMF and World Bank structural adjustment conditions such as cuts to public spending and school and health fees hurt the poorest. Some debts were odious, yet the people were made to repay them. Relief came through Jubilee 2000, the HIPC Initiative launched in 1996 and the Multilateral Debt Relief Initiative of 2005, which freed money for poverty reduction, but debt is rising again in the 2020s.",
+    "prompt": "Discuss two global justice issues relating to uneven levels of economic development.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Aid comes in several types: emergency aid after disasters and famines, long-term development aid, bilateral aid between governments, multilateral aid through bodies such as the UN, the World Bank and the EU, NGO aid, and tied aid, which must be spent on the donor's goods and services. Aid helps in several ways. It saves lives in emergencies, funds schools, clinics, wells and vaccination programmes, trains teachers, nurses and farmers, and supports women's groups and small businesses. Aid can also hinder development. Tied aid benefits donor firms and may supply unsuitable technology, and corrupt elites can steal it. Food aid can undercut local farmers, and aid can create dependency rather than self-reliance. Loans add to debt, and donors' political or strategic interests can decide who gets aid rather than need. Large prestige projects such as dams can displace people. Irish Aid is Ireland's official aid programme, part of the Department of Foreign Affairs. Its aid is untied, and its long-term partners are mainly in sub-Saharan Africa, including Ethiopia, Malawi, Mozambique, Tanzania, Uganda and Zambia, and Vietnam. Concern Worldwide, founded in 1968 in response to the Biafra famine, is an Irish NGO that works on emergencies and long-term development. Aid is more effective when it is untied, targeted at the poorest, designed with local participation and ownership, supports self-help and co-operatives, and is transparent.",
+    "prompt": "Examine how aid can both help and hinder development, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Fair trade helps producers by guaranteeing a Fairtrade Minimum Price that covers the cost of sustainable production, so growers are protected when world prices fall. Producers also receive the Fairtrade Premium, a payment to their co-operatives for community projects such as schools, clinics and clean water. Producers are organised in democratic co-operatives, which gives them a voice in how money is spent. Fair trade requires long-term contracts, decent working conditions and no child labour, and it sets environmental standards. Products carry the Fairtrade Mark, which Fairtrade International coordinates. In Ireland, Fairtrade Ireland licenses the Fairtrade Mark, and Irish towns and schools can apply for Fairtrade status during Fairtrade Fortnight in late February and March. One limit is that fair trade covers only a tiny share of world trade, so its benefits reach few producers.",
+    "prompt": "Explain how fair trade helps producers in developing countries.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-eu-s1": {
+  "keyTerms": [
+   {
+    "definition": "A group of countries that remove trade barriers between themselves and act together in trade with the rest of the world.",
+    "term": "Trading bloc"
+   },
+   {
+    "definition": "A trading arrangement with no tariffs between members and a common external tariff on imports from outside.",
+    "term": "Customs union"
+   },
+   {
+    "definition": "A customs union that also removes non-tariff barriers and guarantees free movement of goods, services, capital and people.",
+    "term": "Single market"
+   },
+   {
+    "definition": "The same tax on imports from outside the EU, applied by all member states.",
+    "term": "Common external tariff"
+   },
+   {
+    "definition": "The value of a country's exports minus the value of its imports.",
+    "term": "Balance of trade"
+   },
+   {
+    "definition": "A situation in which exports exceed imports, giving a positive balance of trade.",
+    "term": "Trade surplus"
+   },
+   {
+    "definition": "A situation in which imports exceed exports, giving a negative balance of trade.",
+    "term": "Trade deficit"
+   },
+   {
+    "definition": "Trade between member states of the EU, also called internal trade.",
+    "term": "Intra-EU trade"
+   },
+   {
+    "definition": "Trade between member states and countries outside the EU, also called external trade.",
+    "term": "Extra-EU trade"
+   },
+   {
+    "definition": "The exchange of similar goods between countries, such as cars for cars, often through supply chains.",
+    "term": "Intra-industry trade"
+   },
+   {
+    "definition": "The EU policy under which the European Commission negotiates trade for all member states as one bloc.",
+    "term": "Common Commercial Policy"
+   },
+   {
+    "definition": "The rules that show where a good was made, so that it qualifies for preferential tariff-free trade.",
+    "term": "Rules of origin"
+   },
+   {
+    "definition": "Higher tariffs on processed goods than on raw materials, which discourages developing countries from processing their own exports.",
+    "term": "Tariff escalation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A trading bloc is a group of countries that remove trade barriers between themselves and act together in trade with the rest of the world.",
+    "h": "The EU as a trading bloc",
+    "points": [
+     "The EU accounted for about 13% of world goods trade in 2024, second to China in goods; counting goods and services together, the EU is the world's largest trader, with China and the USA as the other two of the three largest.",
+     "Customs union: completed on 1 July 1968 (as the EEC), it removes tariffs between members and applies a common external tariff to imports from outside the EU."
+    ]
+   },
+   {
+    "b": "The single market, in force from 1 January 1993 and set up by the Single European Act of 1986, goes beyond the customs union.",
+    "h": "The single market",
+    "points": [
+     "It guarantees the four freedoms: free movement of goods, services, capital and people.",
+     "It removes non-tariff barriers: border checks, different national product standards and national preference in public contracts. Common standards, such as the CE mark, replace them.",
+     "The single market extends beyond the 27 members: the European Economic Area brings in Norway, Iceland and Liechtenstein, while Switzerland trades under bilateral agreements."
+    ]
+   },
+   {
+    "h": "Key terms of trade",
+    "points": [
+     "Imports are goods or services bought from abroad; exports are goods or services sold abroad.",
+     "Visible trade is trade in goods; invisible trade is trade in services.",
+     "Balance of trade: the value of exports minus the value of imports. A positive balance is a surplus; a negative balance is a deficit.",
+     "A tariff is a tax on imports; a quota is a limit on the quantity of imports allowed.",
+     "Intra-EU (internal) trade is trade between member states; extra-EU (external) trade is trade with countries outside the EU."
+    ]
+   },
+   {
+    "b": "Most member states trade mainly with each other.",
+    "h": "Scale and main traders within the EU",
+    "points": [
+     "In 2024 intra-EU goods exports were about €4.0 trillion, against about €2.6 trillion of extra-EU goods exports; about three-fifths (about 60%) of members' goods exports stayed within the EU.",
+     "Germany is by far the largest intra-EU trader, with intra-EU goods exports of about €845 billion in 2024; Cyprus is the smallest, at about €1 billion.",
+     "The core of the EU, the Blue Banana from south-east England through the Benelux countries and the Rhine valley to northern Italy, together with the Paris Basin, dominates internal trade. Peripheral members such as Cyprus and Greece trade much less within the EU.",
+     "Eastern members depend most on intra-EU trade. Intra-EU trade was about 81% of Czechia's goods trade in 2024, compared with about 30% for Cyprus, because of their proximity to Germany and their integration into its supply chains."
+    ]
+   },
+   {
+    "h": "What is traded within the EU",
+    "points": [
+     "Manufactured goods dominate: machinery, vehicles and parts, and chemicals and pharmaceuticals. Food and farm produce come next, and services such as finance, tourism and transport add to the total.",
+     "Intra-industry trade: members swap similar goods, such as cars for cars, and components cross borders several times in supply chains.",
+     "Since the 2004 enlargement the car industry has linked Germany with Czechia, Slovakia, Hungary and Poland. Volkswagen took over Škoda (Czechia) in stages from 1991 and has fully owned it since 2000. Slovakia makes more cars per head of population than any other country.",
+     "Complementary trade: greenhouse fruit and vegetables from Almería in southern Spain are trucked north to northern Europe, while northern manufactured goods flow south and east."
+    ]
+   },
+   {
+    "h": "Gateway ports and the Rotterdam effect",
+    "points": [
+     "Rotterdam in the Netherlands is Europe's largest port and Antwerp in Belgium is the second largest; both sit at the mouth of the Rhine-Meuse-Scheldt delta.",
+     "Goods entering and leaving the single market through these ports are counted as trade with the Netherlands and Belgium, which gives both countries very large trade totals.",
+     "The Rotterdam effect: goods recorded as trade with the Netherlands may be going on to other member states."
+    ]
+   },
+   {
+    "h": "Factors behind internal trade",
+    "points": [
+     "Removal of tariffs and border controls: the customs union, the single market and Schengen border-free travel for most members cut costs and delays.",
+     "The euro: 21 countries used it from 1 January 2026, with Bulgaria the newest. Trade among them has no exchange costs or exchange-rate risk, and prices are easy to compare. The euro's history is in The complexity of regions (i).",
+     "Proximity and transport: short distances, dense motorway and rail networks, the Rhine (navigable to Basel in Switzerland), the Channel Tunnel (opened 1994), the Øresund Bridge between Copenhagen and Malmö (opened 2000), and EU-funded Trans-European Transport Networks (TEN-T).",
+     "A large, wealthy market: about 450 million people in 2024, with high incomes and broadly similar tastes.",
+     "Enlargement widened the single market: ten countries joined in 2004, Bulgaria and Romania in 2007 and Croatia in 2013. New members opened new markets and lower-cost production sites in the east.",
+     "Brexit moved the UK from internal to external partner. The UK left on 31 January 2020; the Trade and Cooperation Agreement has applied since 1 January 2021, with zero tariffs and zero quotas on qualifying goods. Trade with the UK nonetheless became more costly because of customs declarations, checks and rules-of-origin paperwork.",
+     "Common policies: the CAP and common food standards make farm and food trade easy within the EU. The CAP is covered in How the EU influences the Irish economy."
+    ]
+   },
+   {
+    "h": "Common Commercial Policy",
+    "points": [
+     "The European Commission negotiates trade for all 27 members under the Common Commercial Policy, so the EU speaks with one voice in the World Trade Organization (WTO).",
+     "All members apply the same common external tariff, so the EU bargains as one bloc rather than as 27 separate countries."
+    ]
+   },
+   {
+    "h": "Main external partners and the balance of trade (2024)",
+    "points": [
+     "Export partners for extra-EU goods: the USA is the largest at about 21%, then the UK at about 13%, China at about 8%, Switzerland at about 7-8% and Turkey at about 4%.",
+     "Import partners for extra-EU goods: China is the largest at about a fifth (about 20-21%), then the USA at about 13-14%, the UK at about 7%, Switzerland at about 6% and Turkey at about 4%.",
+     "Overall, extra-EU goods exports were about €2.58 trillion and imports about €2.43 trillion, a goods surplus of about €150 billion.",
+     "The EU had a surplus with the USA and a large deficit with China."
+    ]
+   },
+   {
+    "h": "What the EU exports and imports",
+    "points": [
+     "Exports: machinery and vehicles were about €1.0 trillion (about 39% of extra-EU exports); chemicals and related products, including pharmaceuticals, were about €560 billion (about 22%). Food, drink and services are also exported.",
+     "Imports: energy products, mainly oil and gas, were about 15% of EU imports by value in 2024, down from about 23% in 2022.",
+     "Imports also include raw materials, consumer electronics and other manufactured goods from China and Asia, and tropical foods such as coffee, cocoa and bananas."
+    ]
+   },
+   {
+    "b": "Political events change trade patterns quickly, as the change in energy imports shows.",
+    "h": "Energy imports and Russia",
+    "points": [
+     "Russia was a major gas supplier before its full-scale invasion of Ukraine began on 24 February 2022.",
+     "Russian gas fell from about 45% of EU gas imports in 2021 to about 19% in 2024, through sanctions and the REPowerEU plan (launched May 2022).",
+     "The USA supplied almost half of EU liquefied natural gas (LNG) imports in 2024.",
+     "The EU plans to end Russian gas imports by the end of 2027."
+    ]
+   },
+   {
+    "h": "Trade agreements and access for developing countries",
+    "points": [
+     "Trade agreements widen external trade: CETA with Canada has been provisionally applied since September 2017; the EU-Japan Economic Partnership Agreement has been in force since February 2019; the EU-South Korea agreement has applied since 2011.",
+     "EU-Mercosur negotiations with Brazil, Argentina, Uruguay and Paraguay concluded in December 2024. Irish farm organisations strongly opposed the deal because of competition from South American beef.",
+     "The Lomé Convention (1975, with African, Caribbean and Pacific (ACP) countries) and the Cotonou Agreement (2000) gave preferential access to poorer countries.",
+     "Everything But Arms (2001) gives the least developed countries duty-free, quota-free access for all goods except arms.",
+     "Critics argue that tariffs on processed goods (tariff escalation) and past subsidised farm exports harmed producers in the developing world."
+    ]
+   },
+   {
+    "h": "Trade disputes and protection",
+    "points": [
+     "The EU-USA agreement of July 2025 capped the US tariff on most EU goods at 15%, including pharmaceuticals; Irish pharmaceutical exports to the USA are among the goods it covers. Steel and aluminium remained at 50%.",
+     "EU definitive duties on Chinese-made electric cars, from October 2024, reached up to about 35%.",
+     "In both disputes the EU acted as one bloc, so one set of duties or one deal applies to all 27 members."
+    ]
+   },
+   {
+    "h": "Factors shaping external trade",
+    "points": [
+     "The size and wealth of the single market gives the EU bargaining power in trade negotiations.",
+     "High-tech, high-value industry makes manufactured goods the main exports.",
+     "A lack of energy and some raw materials makes the EU dependent on imports, especially of fuels.",
+     "Historical and colonial links, including former colonies in Africa, the Caribbean and the Pacific and the Commonwealth ties of the former UK member, shaped the preferential agreements.",
+     "Globalisation: low-cost manufacturing in China and Asia draws in imports. The trading triad of the USA, the EU and the Pacific Rim is taught in Patterns in world trade, in The Global Economy.",
+     "Politics redirects trade: sanctions on Russia, US tariff disputes and Brexit each changed the direction of trade flows."
+    ]
+   },
+   {
+    "b": "Exam data questions give export and import shares for each partner. Use the invented values below only to practise the method.",
+    "h": "Reading trade pie charts and tables",
+    "points": [
+     "Identify the largest partner: the biggest slice or the highest value.",
+     "Calculate a missing share: subtract the known shares from 100. Illustrative: exports to Country A 25% and Country B 15% leave 100 minus 25 minus 15 = 60% for all other partners.",
+     "Compare exports and imports with one partner. If the value sent to it is higher than the value received, the EU has a surplus with that partner; if it is lower, a deficit."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Patterns: about three-fifths of EU members' goods exports stayed within the EU in 2024 (intra-EU goods exports of about €4.0 trillion against about €2.6 trillion extra-EU). Germany is by far the largest intra-EU trader, with about €845 billion of intra-EU goods exports, and the Blue Banana core dominates internal trade. Trade is largely in manufactured goods, with intra-industry trade and supply chains such as the car industry linking Germany with Czechia, Slovakia, Hungary and Poland. Externally, the USA is the largest export partner (about 21%) and China the largest import source (about a fifth). The EU had a goods surplus of about €150 billion in 2024, with a surplus with the USA and a deficit with China. The EU exports machinery and vehicles (about 39% of extra-EU exports) and chemicals including pharmaceuticals (about 22%), and imports energy, raw materials and manufactured goods from China and Asia. Factors: the single market removes tariffs and non-tariff barriers for about 450 million consumers; the euro removes exchange costs among 21 members; proximity, transport networks and the Channel Tunnel reduce costs; enlargement in 2004, 2007 and 2013 widened the market and added lower-cost production sites; Brexit moved the UK to external partner status, adding customs checks and paperwork; the Common Commercial Policy gives the EU bargaining power; the EU's dependence on imported energy shaped its gas trade, with Russian gas falling from about 45% of imports in 2021 to about 19% in 2024; trade agreements such as CETA and the EU-Japan agreement widen external trade; sanctions and tariff disputes with the USA and China redirect trade flows.",
+    "prompt": "Describe the current trading patterns of the European Union, both internal and external, and explain the factors that influence these patterns.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "(a) Country A is the largest export partner, at 25%. (b) The share going to all other partners is 100 minus 25 minus 15 minus 10, which gives 50%. (c) The bloc has a deficit with Country B: imports of €30 billion are €15 billion more than exports of €15 billion, so the deficit is €15 billion. (d) Balance of trade is the value of exports minus the value of imports. A positive result is a surplus and a negative result is a deficit. Here, exports to Country B minus imports from Country B is 15 minus 30, which is minus €15 billion.",
+    "prompt": "Illustrative data only, with invented values. The export partners of an imaginary trading bloc are: Country A 25%, Country B 15%, Country C 10%, all other partners not labelled. Its import partners are: Country A 20%, Country B 30%, Country C 10%, all other partners not labelled. The value of exports to Country B is €15 billion and the value of imports from Country B is €30 billion. (a) Name the largest export partner. (b) Calculate the share of exports going to all other partners. (c) State whether the bloc has a surplus or a deficit with Country B, and give the amount. (d) Explain balance of trade.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Enlargement widened the single market. Ten countries joined in 2004, and Bulgaria and Romania in 2007. New members opened new markets for EU goods and lower-cost production sites in eastern Europe, so manufacturers such as the car industry built supply chains linking Germany with Czechia, Slovakia, Hungary and Poland. Intra-EU trade grew, as eastern members came to depend heavily on it. Brexit reduced the internal market. The UK left the EU on 31 January 2020 and became an external partner, so trade with it now crosses an external border. The Trade and Cooperation Agreement, applied from 1 January 2021, gives zero tariffs and zero quotas on qualifying goods, but customs declarations, checks and rules-of-origin paperwork raise the cost of trade. As a result the UK has become a separate external partner in the EU's trade figures, and the EU's trade with the UK is now recorded as extra-EU trade.",
+    "prompt": "Explain how changes in EU membership have affected EU trading patterns.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-eu-s2": {
+  "keyTerms": [
+   {
+    "definition": "The 1965 agreement that governed Irish trade with the UK before Ireland joined the EEC.",
+    "term": "Anglo-Irish Free Trade Agreement"
+   },
+   {
+    "definition": "The route by road across Great Britain used to carry goods between Ireland and continental Europe, made slower after Brexit.",
+    "term": "Landbridge"
+   },
+   {
+    "definition": "A sailing that carries goods from Ireland straight to continental Europe without crossing Great Britain, such as Rosslare to Dunkirk.",
+    "term": "Direct ferry route"
+   },
+   {
+    "definition": "Investment by a company based in another country to set up or buy operations in a host country.",
+    "term": "Foreign direct investment (FDI)"
+   },
+   {
+    "definition": "A company that operates production or service facilities in more than one country.",
+    "term": "Multinational corporation"
+   },
+   {
+    "definition": "The tax a company pays on its profits; Ireland's rate is 12.5%, with a 15% minimum for the largest firms from 2024.",
+    "term": "Corporation tax"
+   },
+   {
+    "definition": "The amount by which the value of goods exports is greater than the value of goods imports.",
+    "term": "Surplus (goods)"
+   },
+   {
+    "definition": "Bringing forward exports or purchases before an expected tariff or price change, which inflates the figures for that period.",
+    "term": "Front-loading"
+   },
+   {
+    "definition": "The February 2023 arrangement that keeps Northern Ireland in the EU single market for goods.",
+    "term": "Windsor Framework"
+   },
+   {
+    "definition": "Exports of food, drink and horticultural products, mainly beef and dairy for Ireland.",
+    "term": "Agri-food exports"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Ireland's trade before EEC membership",
+    "points": [
+     "Before 1973 Irish trade depended on the UK. In 1960 about three-quarters (74%) of Irish exports went to the UK, mainly live cattle and other farm produce.",
+     "The Anglo-Irish Free Trade Agreement, signed in 1965, governed trade with the UK. Protectionism was dismantled from the late 1950s."
+    ]
+   },
+   {
+    "h": "Joining the EEC",
+    "points": [
+     "Ireland joined the EEC on 1 January 1973, together with the UK and Denmark, after a referendum on 10 May 1972 returned about 83% Yes."
+    ]
+   },
+   {
+    "h": "Diversification of export markets since 1973",
+    "points": [
+     "The UK's share of Irish exports fell from about three-quarters in 1960 to a small fraction today. In February 2024 Great Britain took about 8% of Irish goods exports in that month alone.",
+     "As the UK's share fell, the rest of the EU and the USA became far more important."
+    ]
+   },
+   {
+    "h": "Change in what Ireland exports",
+    "points": [
+     "Exports moved from mainly agricultural goods and live animals to high-value manufactured goods. Pharmaceuticals and chemicals, medical devices, and computers and electronics grew strongly in the 1990s and 2000s.",
+     "Processed food and drink replaced live animals as the main farm exports, and services became a larger part of the economy's trade.",
+     "Exports far exceed imports. Ireland has a very large goods trade surplus, mainly because foreign multinationals export most of what they make in Ireland."
+    ]
+   },
+   {
+    "h": "Ireland's goods trade in 2024",
+    "points": [
+     "Goods exports were about €224 billion in 2024, a record and up about 14% on 2023.",
+     "Goods imports were about €135 billion, giving a goods surplus of about €89 billion."
+    ]
+   },
+   {
+    "h": "Export markets in 2024",
+    "points": [
+     "The EU 27 took about €88 billion of Irish goods exports in 2024, about 40%, making it the largest bloc.",
+     "The USA took about €73 billion, about one-third of exports, and is Ireland's largest single export market.",
+     "The main EU markets in 2024 were the Netherlands (about €23 billion), Germany (about €20 billion), Belgium (about €17 billion) and then France."
+    ]
+   },
+   {
+    "h": "Import sources in 2024",
+    "points": [
+     "The EU 27 supplied about €50 billion of Irish imports in 2024, about 37%, making it the largest bloc.",
+     "Asia supplied about €31 billion, the USA about €23 billion and the UK about €22 billion. Asia, especially China, is growing as a source of imports."
+    ]
+   },
+   {
+    "h": "Main exports",
+    "points": [
+     "Medical and pharmaceutical products are the largest export group, at about €100 billion in 2024 (about 45% of goods exports).",
+     "Organic chemicals, medical devices, and food and drink follow as the other main exports."
+    ]
+   },
+   {
+    "h": "Main imports",
+    "points": [
+     "Fuels, because Ireland imports most of its energy.",
+     "Machinery and transport equipment, including aircraft for the leasing industry.",
+     "Chemicals, consumer goods and food."
+    ]
+   },
+   {
+    "h": "The 2025 export surge",
+    "points": [
+     "Preliminary CSO figures show goods exports of about €260 billion in 2025, up about 16% and a record. Pharmaceutical exports to the USA were brought forward before threatened US tariffs.",
+     "Medical and pharmaceutical products were about €139 billion in 2025, about 53% of goods exports.",
+     "The USA took about 43% of exports in 2025. Imports were about €144 billion.",
+     "Exports to the USA fell sharply at the end of 2025. The EU-USA deal of July 2025 capped US tariffs on most EU goods, including pharmaceuticals, at 15%.",
+     "The surge shows how dependent the totals are on one product and one market. 2024 is the better guide to a typical year."
+    ]
+   },
+   {
+    "h": "Services trade",
+    "points": [
+     "Ireland is a major exporter of services, especially computer and software services sold by multinationals such as Google, Meta and Microsoft, whose European headquarters are in Dublin.",
+     "Financial services are based at the International Financial Services Centre (IFSC) in Dublin Docklands, which opened in 1987. Aircraft leasing is another major service.",
+     "Much of this services trade is sold into EU markets from an Irish base."
+    ]
+   },
+   {
+    "h": "Farm output and food exports",
+    "points": [
+     "Ireland exports about 90% of its beef and dairy output, and produces far more food than its population eats.",
+     "Food, drink and horticulture exports were about €17 billion in 2024, a record and up about 5% (Bord Bia).",
+     "Of these exports, about 35% (about €5.9 billion) went to the EU and about €5.2 billion to markets outside the EU and UK; the UK took the remainder, about a third.",
+     "Dairy, at about €6.3 billion, was the largest category."
+    ]
+   },
+   {
+    "h": "Food markets and brands",
+    "points": [
+     "The UK remains the largest single market for Irish food.",
+     "Meat and livestock exports in 2024 went about 44% to the EU and about 42% to the UK.",
+     "Kerrygold butter, marketed by Ornua (formerly the Irish Dairy Board), sells in Germany, one of its biggest markets, and other EU countries.",
+     "Irish beef is sold through EU retailers, and Irish whiskey and Baileys are sold internationally."
+    ]
+   },
+   {
+    "h": "Why Ireland trades so heavily with the EU",
+    "points": [
+     "Single market access: tariff-free and barrier-free trade with about 450 million consumers in 2024.",
+     "The euro: Ireland adopted it in 1999 and notes and coins followed in 2002. Trade with eurozone countries carries no exchange-rate risk.",
+     "Sterling fell sharply after the UK referendum of 23 June 2016, which hurt Irish food exporters to the UK.",
+     "CAP access and common standards opened EU food markets to Irish farm produce. The CAP is covered in How the EU influences the Irish economy."
+    ]
+   },
+   {
+    "h": "Foreign direct investment",
+    "points": [
+     "US and other multinationals locate in Ireland to supply the EU market from inside it. Examples include Intel at Leixlip, Co. Kildare (since 1989), Apple in Cork (since 1980) and Pfizer.",
+     "Ireland attracts them with an English-speaking, educated workforce, a corporation tax rate of 12.5%, and support from IDA Ireland, the state agency that attracts foreign investment.",
+     "From 2024 firms with turnover over €750 million pay a minimum tax of 15%. The multinationals themselves are covered in The Global Economy notes."
+    ]
+   },
+   {
+    "h": "Location and transport",
+    "points": [
+     "Ireland is an island on the periphery of Europe, so most trade goes by sea.",
+     "Dublin Port is Ireland's largest port. Rosslare Europort in Co. Wexford is the main port for direct ferries to continental Europe. Cork and Shannon Foynes also handle trade.",
+     "High-value, light goods such as pharmaceuticals and electronics go by air."
+    ]
+   },
+   {
+    "h": "Brexit and Irish trade",
+    "points": [
+     "The UK left the EU on 31 January 2020. The transition ended on 31 December 2020, and the Trade and Cooperation Agreement has applied since 1 January 2021.",
+     "Trade with Great Britain now crosses an EU external border, with customs declarations and checks on food and animals.",
+     "The UK landbridge, trucks crossing Britain to reach the continent, became slower. From 2 January 2021 DFDS ran a direct Rosslare-Dunkirk freight ferry, six times a week. By April 2021 there were about 36 direct weekly sailings from Rosslare to continental Europe.",
+     "Rosslare also has direct sailings to Cherbourg, Saint-Malo and Roscoff in France, and to Bilbao in Spain.",
+     "Imports from Great Britain fell after 2021 as some importers switched to EU suppliers. Cross-border trade with Northern Ireland grew, because Northern Ireland stays in the EU single market for goods under the Windsor Framework of February 2023, covered in The complexity of regions (i).",
+     "Brexit raised the share of Irish trade with the rest of the EU and reduced Ireland's dependence on the UK further."
+    ]
+   },
+   {
+    "h": "Risks in the trading pattern",
+    "points": [
+     "Over-reliance on a few multinationals, one sector (pharmaceuticals) and one market (the USA) leaves exports exposed to US tariffs and to corporate decisions.",
+     "Ireland's peripheral location adds transport costs, so sea links to the continent are vital."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Before 1973 Ireland depended on the UK: in 1960 about three-quarters of Irish exports went there, mainly live cattle and farm produce, under the Anglo-Irish Free Trade Agreement of 1965. Since joining the EEC on 1 January 1973, Ireland has diversified. The UK's share fell from about three-quarters to a small fraction, while the rest of the EU and the USA grew. The product mix changed from live animals and farm goods to high-value manufactured goods. In 2024 goods exports were about €224 billion and imports about €135 billion, a surplus of about €89 billion. The EU 27 took about 40% of exports (about €88 billion) and the USA about one-third (about €73 billion), the largest single market. Pharmaceuticals are the largest export group, about €100 billion or about 45%. Factors behind the pattern include the single market, which gives tariff-free access to about 450 million consumers; foreign direct investment by multinationals such as Intel and Apple, which supply the EU from Ireland; the euro, which removes exchange-rate risk within the eurozone; and the Common Agricultural Policy, which opened EU food markets to Irish beef and dairy. Food, drink and horticulture exports were about €17 billion in 2024, with about 35% going to the EU. Brexit has added customs checks on trade with Great Britain and shifted trade further towards the EU, with direct ferries from Rosslare to continental Europe from 2021. Over-reliance on pharmaceuticals and the USA is a risk, as the 2025 surge showed.",
+    "prompt": "Examine how Ireland's trading patterns with the European Union have changed since Ireland joined in 1973.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "The UK left the EU on 31 January 2020, so trade with Great Britain now crosses an external border with customs declarations and checks on food and animals. The Trade and Cooperation Agreement has applied since 1 January 2021. The UK landbridge became slower and more costly, so from 2 January 2021 DFDS ran direct Rosslare to Dunkirk freight sailings, and by April 2021 there were about 36 direct weekly sailings from Rosslare to continental Europe. Food exporters depend on the UK, which remains the largest single market for Irish food, and sterling's fall after the 2016 referendum added currency risk to UK trade. Imports from Great Britain fell after 2021 as some importers switched to EU suppliers. Cross-border trade with Northern Ireland grew under the Windsor Framework. Brexit has increased the share of Irish trade with the rest of the EU and reduced dependence on the UK.",
+    "prompt": "Explain how Brexit has affected Ireland's trade with the EU and the UK.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Membership gives Irish exporters tariff-free access to the single market of about 450 million consumers. Irish beef and dairy, of which about 90% is exported, benefit from the common market and the common standards that open EU food markets to them.",
+    "prompt": "Explain one advantage of EU membership for Irish trade.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-economic-eu-s3": {
+  "keyTerms": [
+   {
+    "definition": "The EU policy, launched in 1962, that supports farm incomes, markets and food supply through payments and rural development.",
+    "term": "Common Agricultural Policy (CAP)"
+   },
+   {
+    "definition": "A guaranteed minimum price for farm produce, set above world levels, at which the EU bought surpluses.",
+    "term": "Intervention price"
+   },
+   {
+    "definition": "A limit on the milk each farm could produce, used from 1984 to 2015 to cut surpluses.",
+    "term": "Milk quota"
+   },
+   {
+    "definition": "Separating farm payments from the amount a farmer produces, as introduced by the 2003 Fischler reform.",
+    "term": "Decoupling"
+   },
+   {
+    "definition": "The EU policy that manages fishing in EU waters through shared access, catch limits and conservation rules.",
+    "term": "Common Fisheries Policy (CFP)"
+   },
+   {
+    "definition": "The maximum tonnage of a fish stock that may be caught in a year, divided into national quotas.",
+    "term": "Total Allowable Catch (TAC)"
+   },
+   {
+    "definition": "The rule, phased in from 2015 to 2019, that requires all catches to be landed rather than discarded.",
+    "term": "Landing obligation"
+   },
+   {
+    "definition": "The EU funds, including the ERDF and ESF, that reduce differences between regions and social groups.",
+    "term": "Structural Funds"
+   },
+   {
+    "definition": "A region whose income per head is below 75% of the EU average, and so qualifies for the largest EU structural funding.",
+    "term": "Objective 1 region"
+   },
+   {
+    "definition": "An EU fund from 1993-94 for states with income below 90% of the EU average, financing transport and environmental projects.",
+    "term": "Cohesion Fund"
+   },
+   {
+    "definition": "The oldest EU structural fund, set up in 1957 to improve employment, skills and social inclusion.",
+    "term": "European Social Fund (ESF)"
+   },
+   {
+    "definition": "An EU fund, set up in 2007, that retrains workers made redundant by shifts in global trade.",
+    "term": "European Globalisation Adjustment Fund (EGF)"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Ireland's net position in the EU budget",
+    "points": [
+     "Ireland was a net recipient of EU budget money from joining on 1 January 1973 until about 2014, receiving over €40 billion more than it paid in, mostly through the CAP.",
+     "Ireland became a net contributor in 2014, the first time since joining, because of its economic growth."
+    ]
+   },
+   {
+    "h": "Advantages and costs of membership",
+    "points": [
+     "Advantages: access to the single market, foreign direct investment, CAP payments, structural funds for infrastructure, social and equality laws, and free movement to work and study.",
+     "Costs: loss of control over some policies, such as fishing and farm prices; net contributions to the EU budget since 2014; and competition from lower-cost members.",
+     "Enlargement's effects on Ireland are covered in The complexity of regions (ii)."
+    ]
+   },
+   {
+    "b": "The Common Agricultural Policy was launched in 1962.",
+    "h": "Origins and aims of the CAP",
+    "points": [
+     "Its aims, set out in the Treaty of Rome, were to raise farm productivity, give farmers a fair standard of living, stabilise markets, secure food supplies and provide reasonable prices for consumers.",
+     "The CAP was once the largest part of the EU budget. It still takes about a third of the budget (2021-27)."
+    ]
+   },
+   {
+    "h": "The early CAP (1962-1992)",
+    "points": [
+     "Guaranteed (intervention) prices were set above world levels, and intervention buying took up surpluses.",
+     "Export subsidies and import levies supported the system.",
+     "Results: overproduction, shown by the butter mountains and wine lakes of the 1970s and 1980s, high cost, and dumping of surpluses on world markets."
+    ]
+   },
+   {
+    "h": "Effects of the CAP on Ireland after 1973",
+    "points": [
+     "Farm prices and incomes rose sharply.",
+     "A guaranteed market opened for beef and dairy.",
+     "Farms modernised with machinery, fertiliser, silage, land drainage and farm buildings, in what is remembered as the golden age of the 1970s."
+    ]
+   },
+   {
+    "h": "Milk quotas, 1984-2015",
+    "points": [
+     "Milk quotas, introduced in 1984, capped each farm's milk output to cut surpluses. They held back Irish dairying for 30 years.",
+     "The quotas were abolished on 1 April 2015; the last quota year ended on 31 March 2015.",
+     "Irish milk output rose from about 5.5 billion litres in 2014 to about 8.3 billion litres in 2020.",
+     "From 2013 to 2023 dairy cow numbers rose about 41% and milk output about 56% (EPA, from CSO data).",
+     "Expansion was strongest in the south, especially Munster."
+    ]
+   },
+   {
+    "h": "Reforms: MacSharry, Agenda 2000 and Fischler",
+    "points": [
+     "The MacSharry reform of 1992, led by Ray MacSharry, EU Agriculture Commissioner from Sligo, replaced price cuts with direct payments and introduced set-aside.",
+     "Agenda 2000 made rural development the second pillar of the CAP.",
+     "The Fischler reform, agreed in 2003, decoupled payments from production.",
+     "The Single Farm Payment began in 2005 and was replaced by the Basic Payment Scheme from 2015.",
+     "Cross-compliance links payments to environmental and animal-welfare rules."
+    ]
+   },
+   {
+    "h": "The CAP 2023-2027 in Ireland",
+    "points": [
+     "Ireland's CAP Strategic Plan is worth about €9.8 billion from EU and national funds, with about 45% for environmental and climate measures.",
+     "Basic Income Support for Sustainability (BISS) is worth about €3.6 billion. The eco-scheme is worth about €1.5 billion, 25% of direct payments.",
+     "Convergence raises every payment entitlement to at least 85% of the national average.",
+     "Payments for young farmers and the ACRES agri-environment scheme are included in the plan.",
+     "Areas of Natural Constraint (ANC) payments support farms on disadvantaged land."
+    ]
+   },
+   {
+    "h": "Rural development schemes",
+    "points": [
+     "REPS, the Rural Environment Protection Scheme, ran from 1994 to 2009 as an agri-environment scheme.",
+     "LEADER, from 1991, funds local rural enterprise such as farm diversification, rural tourism and crafts.",
+     "Grants support forestry and young farmers."
+    ]
+   },
+   {
+    "h": "Irish farms and farm types",
+    "points": [
+     "The Census of Agriculture 2020 counted 135,037 farms, down about 3% on 2010, with an average size of about 33 hectares.",
+     "On a third (33%) of farms the holder was aged 65 or over; only 7% of holders were under 35.",
+     "The main farm types are dairy, cattle (beef) rearing, sheep, tillage and mixed. Specialist beef is the most common type."
+    ]
+   },
+   {
+    "h": "Positive effects of the CAP",
+    "points": [
+     "Stable farm incomes and a guaranteed market.",
+     "Modernisation of farms and food quality standards.",
+     "Environmental schemes and support for rural communities.",
+     "Dependence on direct payments is high for many beef and sheep farms, which is a limit as well as a support."
+    ]
+   },
+   {
+    "h": "Negative effects of the CAP",
+    "points": [
+     "Payments have historically favoured bigger farmers, so most of the money went to a minority.",
+     "Dependence on subsidies and heavy bureaucracy and inspections.",
+     "Intensification has damaged water quality through nitrates and raised greenhouse gas emissions as the dairy herd grew.",
+     "The number of farms has fallen and farmers are ageing; small western farms remain uneconomic.",
+     "Trade deals such as EU-Mercosur, which concluded in December 2024 and was opposed by Irish farm organisations, are feared to undercut Irish beef."
+    ]
+   },
+   {
+    "h": "The Nitrates Directive",
+    "points": [
+     "The Nitrates Directive of 1991 limits the organic nitrogen that can be spread per hectare.",
+     "Ireland has a derogation that allows higher stocking on intensive farms, conditional on water quality. EU environmental rules therefore shape farming directly."
+    ]
+   },
+   {
+    "h": "Aims and principles of the CFP",
+    "points": [
+     "The Common Fisheries Policy was agreed in full in 1983. It creates a common pond of EU waters, giving all members' fleets equal access beyond coastal limits.",
+     "Its aim is to conserve fish stocks for the long term.",
+     "Ireland had to share its rich waters with much larger fleets, notably those of Spain, France and the Netherlands. Spain and Portugal joined in 1986."
+    ]
+   },
+   {
+    "h": "How the CFP works",
+    "points": [
+     "Total Allowable Catches (TACs) are set each December by EU fisheries ministers and divided into national quotas using fixed shares.",
+     "A coastal band of 12 nautical miles is reserved mainly for local boats.",
+     "Days-at-sea limits, mesh sizes, closed areas and closed seasons control fishing effort.",
+     "The Hague Preferences, agreed in 1976, give Ireland a smaller cut when TACs fall, in recognition of its coastal communities' dependence on fishing."
+    ]
+   },
+   {
+    "h": "Ireland's fishing industry",
+    "points": [
+     "Killybegs, Co. Donegal, is Ireland's largest fishing port by volume and value, specialising in pelagic fish: mackerel, herring and blue whiting.",
+     "The other Fishery Harbour Centres are Castletownbere (Co. Cork), Ros an Mhíl (Rossaveel, Co. Galway), Dingle (Co. Kerry), Howth (Co. Dublin) and Dunmore East (Co. Waterford).",
+     "Bord Iascaigh Mhara (BIM) is the state seafood development agency.",
+     "Processing and fishing jobs sustain peripheral coastal areas."
+    ]
+   },
+   {
+    "h": "Positive effects of the CFP",
+    "points": [
+     "EU funding for boats, harbours and processing plants, now through the European Maritime, Fisheries and Aquaculture Fund.",
+     "Conservation aims protect stocks over the long term.",
+     "Access to EU seafood markets.",
+     "The Hague Preferences protect Ireland's share when quotas are cut."
+    ]
+   },
+   {
+    "h": "Negative effects of the CFP",
+    "points": [
+     "Ireland's quota share is small relative to the size and richness of its waters.",
+     "Overfishing and stock collapses have occurred despite the CFP.",
+     "Discards, the throwing back of dead fish, were common until the landing obligation.",
+     "Decommissioning of boats and job losses in coastal communities.",
+     "Quota cuts under Brexit."
+    ]
+   },
+   {
+    "h": "The 2013 CFP reform",
+    "points": [
+     "The reform was agreed in 2013. It introduced a landing obligation, which bans discarding, phased in between 2015 and 2019.",
+     "It aims to fish at maximum sustainable yield.",
+     "Depletion of fish stocks as an economic and environmental conflict is covered in Conflicts between economic interests and environmental interests."
+    ]
+   },
+   {
+    "h": "Brexit and fishing",
+    "points": [
+     "The EU-UK Trade and Cooperation Agreement from 1 January 2021 transferred EU quota to the UK.",
+     "Ireland lost about 26% of its mackerel quota. The government's Seafood Task Force valued the annual quota loss at about €43 million by 2026.",
+     "Irish ministers said Ireland's losses were about double those of other EU fleets in proportion.",
+     "The Brexit Adjustment Reserve gave Ireland about €1 billion, the largest share of the EU-wide reserve.",
+     "A €25.6 million pelagic support scheme was funded from the reserve, and a voluntary permanent cessation (decommissioning) scheme ran in 2022-23."
+    ]
+   },
+   {
+    "h": "Origins of the regional development funds",
+    "points": [
+     "The EU has regional inequality, and Ireland was a poor, peripheral member in 1973.",
+     "The European Regional Development Fund (ERDF) was set up in 1975 to fund infrastructure, enterprise, research and innovation in poorer regions.",
+     "The Structural Funds (ERDF, the European Social Fund and the farm guidance fund) doubled after the 1988-89 reform, to prepare poorer regions for the single market."
+    ]
+   },
+   {
+    "h": "Objective 1 and the Cohesion Fund",
+    "points": [
+     "Ireland was a single Objective 1 region from 1989 to 1999, because its income per head was below 75% of the EU average. National Development Plans were co-financed by the EU.",
+     "The Cohesion Fund began in 1993-94 under the Maastricht Treaty. It serves states with income below 90% of the EU average, namely Ireland, Spain, Portugal and Greece, and funds transport and environmental projects.",
+     "Ireland stopped qualifying for the Cohesion Fund as its income rose in the 2000s."
+    ]
+   },
+   {
+    "h": "Regionalisation, 2000-2006",
+    "points": [
+     "Ireland was split into two regions. The Border, Midland and Western (BMW) region kept Objective 1 status.",
+     "The Southern and Eastern region was in transition, not Objective 1."
+    ]
+   },
+   {
+    "h": "What the regional funds built",
+    "points": [
+     "Roads, including inter-urban motorways and bypasses, and public transport.",
+     "Water and wastewater treatment, ports, airports and broadband.",
+     "Research centres and enterprise support.",
+     "Better access for peripheral regions, attraction of foreign direct investment, and a contribution to the Celtic Tiger."
+    ]
+   },
+   {
+    "h": "Regional funds, 2021-2027",
+    "points": [
+     "ERDF regional programmes are run by the regional assemblies. Two regional programmes are worth about €853 million in total, of which about €396 million comes from the EU.",
+     "The Northern and Western Region was reclassified from a more developed to a transition region, because its income relative to the EU average fell.",
+     "The Southern and Eastern and Midland regions remain more developed regions.",
+     "Three regional assemblies have operated since 2015."
+    ]
+   },
+   {
+    "h": "Other regional funds",
+    "points": [
+     "PEACE PLUS (2021-27) and INTERREG support the border region. Their facts are in The complexity of regions (i).",
+     "The Just Transition Fund (2021-27) targets the Midlands peat region after Bord na Móna ended peat harvesting for electricity."
+    ]
+   },
+   {
+    "h": "Evaluation of the regional funds",
+    "points": [
+     "The funds helped Ireland converge with EU incomes and modernised its infrastructure.",
+     "The gap between the Dublin-centred east and the Northern and Western region has persisted.",
+     "As a wealthy member, Ireland now receives far less, and EU regional funds go mainly to eastern Europe, an effect of enlargement."
+    ]
+   },
+   {
+    "h": "The European Social Fund (ESF)",
+    "points": [
+     "The ESF was set up by the Treaty of Rome in 1957 and is the oldest structural fund.",
+     "It improves employment, skills and social inclusion."
+    ]
+   },
+   {
+    "h": "The ESF in Ireland",
+    "points": [
+     "The ESF co-financed training through FÁS (1988-2013), replaced in 2013 by SOLAS and 16 Education and Training Boards.",
+     "Youthreach, begun in 1989, helps early school-leavers. Post-Leaving Cert courses, apprenticeships and back-to-education schemes are also co-financed.",
+     "Programmes target the long-term unemployed, people with disabilities, Travellers and women returning to work.",
+     "The skilled workforce created this way helped attract foreign direct investment."
+    ]
+   },
+   {
+    "h": "ESF+ 2021-2027: the EIST programme",
+    "points": [
+     "The Employment, Inclusion, Skills and Training (EIST) programme for 2021-2027 is worth about €1.08 billion: about €508 million from the EU and about €573 million national.",
+     "It was launched in March 2023.",
+     "Priorities: about €500 million for social inclusion, about €280 million for upskilling and lifelong learning, and over €180 million for employment, mainly of young people and the long-term unemployed."
+    ]
+   },
+   {
+    "h": "European Globalisation Adjustment Fund (EGF)",
+    "points": [
+     "The EGF was set up in 2007 to retrain workers made redundant by shifts in global trade.",
+     "In 2009 the EU approved about €14.8 million to help about 2,400 former Dell and supplier workers in the Limerick area. Dell had announced in January 2009 that it was moving manufacturing from Limerick to Łódź in Poland.",
+     "Waterford Crystal workers also received EGF support."
+    ]
+   },
+   {
+    "h": "EU social legislation",
+    "points": [
+     "The civil service marriage bar ended in 1973. Irish equality laws followed EEC directives: the Anti-Discrimination (Pay) Act 1974 and the Employment Equality Act 1977.",
+     "The Organisation of Working Time Act 1997, which applied the EU Working Time Directive, set an average maximum working week of 48 hours.",
+     "EU directives also set rules on health and safety, maternity and parental leave, and the rights of part-time workers."
+    ]
+   },
+   {
+    "h": "Free movement and education",
+    "points": [
+     "Irish people can live and work anywhere in the EU.",
+     "The Erasmus student exchange programme, from 1987, lets students study abroad.",
+     "EU workers came to Ireland after 2004; their effects are covered in The complexity of regions (ii)."
+    ]
+   },
+   {
+    "h": "Evaluation of social funding",
+    "points": [
+     "The ESF raised skills and employment, especially in the 1990s.",
+     "Some training schemes were criticised as poorly targeted.",
+     "Social funding is now much smaller relative to the size of the Irish economy."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "The CAP was launched in 1962 to raise farm productivity, give farmers a fair standard of living, stabilise markets, secure food supplies and provide reasonable prices. Its early system of intervention prices, intervention buying and export subsidies produced butter mountains and wine lakes, high cost and dumping. After 1973 Irish farm prices and incomes rose sharply, a guaranteed market opened for beef and dairy, and farms modernised with machinery, fertiliser, silage and drainage. Milk quotas from 1984 capped output and held back Irish dairying for 30 years, until they were abolished on 1 April 2015; Irish milk output then rose from about 5.5 billion litres in 2014 to about 8.3 billion litres in 2020, and from 2013 to 2023 dairy cow numbers rose about 41%. The MacSharry reform of 1992 replaced price cuts with direct payments; the Fischler reform of 2003 decoupled payments from production, with the Single Farm Payment from 2005 and the Basic Payment Scheme from 2015. Ireland's CAP Strategic Plan for 2023-2027 is worth about €9.8 billion, with about 45% for environmental and climate measures, BISS about €3.6 billion and the eco-scheme about €1.5 billion. REPS ran from 1994 to 2009 and LEADER from 1991 supports rural enterprise. The Census of Agriculture 2020 counted 135,037 farms, averaging about 33 hectares, with a third of holders aged 65 or over and only 7% under 35. Positive effects are stable incomes, modernisation, food quality and environmental schemes. Negative effects are that payments favoured bigger farmers, that dependence on subsidies and bureaucracy grew, that intensification harmed water quality and raised emissions, that farm numbers fell and farmers aged, and that small western farms remain uneconomic. Trade deals such as EU-Mercosur are feared to undercut Irish beef.",
+    "prompt": "Examine the impact of the Common Agricultural Policy on Irish agriculture.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "The CFP was agreed in full in 1983 and creates a common pond of EU waters in which all members' fleets have equal access beyond coastal limits. Total Allowable Catches are set each December by EU fisheries ministers and divided into national quotas using fixed shares, with a 12-nautical-mile coastal band reserved mainly for local boats. The Hague Preferences of 1976 protect Ireland's share when TACs fall. Killybegs in Co. Donegal is Ireland's largest fishing port, specialising in pelagic fish such as mackerel, herring and blue whiting, and other Fishery Harbour Centres include Castletownbere, Dingle, Howth and Dunmore East. Positive effects include EU funding for boats, harbours and processing plants, conservation of stocks, access to EU seafood markets, and protection of Ireland's share through the Hague Preferences. Negative effects include a small quota share relative to the size of Irish waters, stock collapses despite the CFP, discards of dead fish until the landing obligation, decommissioning of boats and job losses in coastal communities. The 2013 reform introduced the landing obligation, phased in between 2015 and 2019. Brexit has been costly for Irish fishing: the EU-UK Trade and Cooperation Agreement from 2021 transferred quota to the UK, Ireland lost about 26% of its mackerel quota, and the Seafood Task Force valued the annual loss at about €43 million by 2026. Ireland was the largest beneficiary of the Brexit Adjustment Reserve, about €1 billion, which funded a €25.6 million pelagic support scheme and a decommissioning scheme in 2022-23.",
+    "prompt": "Discuss the impact of the Common Fisheries Policy on the Irish fishing industry.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "(i) The EU has funded regional development through the European Regional Development Fund and the Cohesion Fund, and social development through the European Social Fund and the European Globalisation Adjustment Fund. (ii) The ERDF and Cohesion Fund: from 1989 to 1999 the whole of Ireland was a single Objective 1 region, because its income per head was below 75% of the EU average. The funds paid for roads, motorways and bypasses, public transport, water and wastewater treatment, ports, airports and broadband, which improved access for peripheral regions and helped attract foreign direct investment. The Border, Midland and Western region kept Objective 1 status from 2000 to 2006, and the Northern and Western Region became a transition region in 2021-2027. The European Social Fund: since 1957 it has improved employment, skills and social inclusion. In Ireland it co-financed FÁS and later SOLAS training, Youthreach, apprenticeships and programmes for the long-term unemployed, and the EIST programme for 2021-2027, worth about €1.08 billion. Its skilled workforce helped attract investment. The EGF gave about €14.8 million in 2009 to about 2,400 former Dell workers in Limerick, helping them retrain.",
+    "prompt": "(i) Name two ways the EU has funded regional or social development in Ireland. (ii) Explain the benefits of each.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-glaciation-s1": {
   "keyTerms": [
    {
@@ -4006,6 +5947,1772 @@
     "marks": 30,
     "model": "Landforms: trenches, fold mountains, volcanic mountain chains and island arcs form at destructive boundaries, for example the Andes and the Mariana Islands. Earthquakes: the Nepal earthquake of 25 April 2015, magnitude 7.8, killed about 9,000 people on the Himalayan collision boundary. Tsunamis: the Tohoku earthquake of 11 March 2011, magnitude 9.0, produced a tsunami that killed about 18,000 people and caused the Fukushima Daiichi nuclear disaster; the Indian Ocean earthquake of 26 December 2004, magnitude 9.1, produced a tsunami that killed about 230,000 people in 14 countries. Volcanoes: the eruption of Mount St Helens on 18 May 1980 killed 57 people.",
     "prompt": "Discuss the impacts of destructive plate boundaries, with reference to examples you have studied.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s1": {
+  "keyTerms": [
+   {
+    "definition": "The number of live births per 1,000 people in a year.",
+    "term": "Crude birth rate"
+   },
+   {
+    "definition": "The number of deaths per 1,000 people in a year.",
+    "term": "Crude death rate"
+   },
+   {
+    "definition": "Birth rate minus death rate; a positive result is natural increase and a negative result is natural decrease.",
+    "term": "Natural change"
+   },
+   {
+    "definition": "Immigrants minus emigrants.",
+    "term": "Net migration"
+   },
+   {
+    "definition": "The average number of children per woman.",
+    "term": "Total fertility rate"
+   },
+   {
+    "definition": "The fertility level, about 2.1 children per woman in developed countries, at which a population replaces itself.",
+    "term": "Replacement level"
+   },
+   {
+    "definition": "Deaths of children under one year old per 1,000 live births.",
+    "term": "Infant mortality rate"
+   },
+   {
+    "definition": "The average number of years a newborn is expected to live.",
+    "term": "Life expectancy"
+   },
+   {
+    "definition": "A count of every person on one night, held every five years in Ireland.",
+    "term": "Census"
+   },
+   {
+    "definition": "The number of people per square kilometre of land.",
+    "term": "Population density"
+   },
+   {
+    "definition": "A group of people within the same five-year age band.",
+    "term": "Age cohort"
+   },
+   {
+    "definition": "A diagram showing the population by five-year age cohort and sex.",
+    "term": "Population pyramid"
+   },
+   {
+    "definition": "The number of people aged 0–14 and 65 and over for every 100 people aged 15–64.",
+    "term": "Dependency ratio"
+   },
+   {
+    "definition": "A model showing how birth and death rates, and so population growth, change in five stages as a country develops.",
+    "term": "Demographic Transition Model"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Key measures",
+    "points": [
+     "Crude birth rate: live births per 1,000 people per year.",
+     "Crude death rate: deaths per 1,000 people per year.",
+     "Natural change: birth rate minus death rate. A positive result is natural increase; a negative result is natural decrease.",
+     "Net migration: immigrants minus emigrants.",
+     "Total fertility rate: the average number of children per woman.",
+     "Replacement level: a total fertility rate of about 2.1 children per woman in developed countries, the level at which a population replaces itself.",
+     "Infant mortality rate: deaths of children under one year old per 1,000 live births.",
+     "Life expectancy: the average number of years a newborn is expected to live."
+    ]
+   },
+   {
+    "h": "Population change and the census",
+    "points": [
+     "Population change equals natural change plus net migration. In any period between two censuses, the larger of the two components explains the growth or decline.",
+     "The census is a count of every person on one night. In Ireland it is held every five years and run by the Central Statistics Office (CSO).",
+     "The Irish census records age, sex, place of residence, birthplace, nationality, religion, ethnicity, Irish language, housing, work and commuting.",
+     "Census 2016 to Census 2022: the population grew by about 360,000 (about 7.6%). Natural increase contributed about 170,000 and net migration about 190,000, so net migration was the slightly larger component."
+    ]
+   },
+   {
+    "h": "Irregular census years",
+    "points": [
+     "The 1926 census was the first held by the Irish Free State.",
+     "The 1976 census was cancelled; a special census was held in 1979 instead.",
+     "The 2001 census was postponed to 2002 by foot-and-mouth disease.",
+     "The 2021 census was postponed to 2022 by COVID-19 and held on 3 April 2022."
+    ]
+   },
+   {
+    "h": "Uses of population statistics",
+    "points": [
+     "Planning schools, hospitals and housing: counts of children, patients and households show where services are needed.",
+     "Pensions: the age structure sets the cost of pensions; the State pension age has been 66 since 2014.",
+     "Transport and infrastructure: population size and location show where roads, rail and water services are needed.",
+     "Constituency boundaries: the population of each constituency determines the number of TDs it elects.",
+     "Funding and workforce planning: funding is allocated to regions by population, and population forecasts show future labour supply and the need for workers from abroad."
+    ]
+   },
+   {
+    "b": "Distribution is where people live. Density is the number of people per square kilometre of land.",
+    "h": "Population distribution and density",
+    "points": [
+     "Density = population ÷ area in km².",
+     "Illustrative example (invented figures): a region of 400 km² with 120,000 people has a density of 120,000 ÷ 400 = 300 people per km²."
+    ]
+   },
+   {
+    "h": "Physical factors affecting distribution",
+    "points": [
+     "Relief: lowlands attract more people than high mountains, which are costly to farm and build on.",
+     "Climate: temperate climates support dense settlement; places that are too hot, too cold or too dry have fewer people.",
+     "Soils and water supply: fertile soils and reliable water support farming and settlement.",
+     "Natural resources: coalfields drew industrial populations in the 19th century."
+    ]
+   },
+   {
+    "h": "Human factors affecting distribution",
+    "points": [
+     "Economic opportunity: jobs attract people, and regions with few jobs lose their young people.",
+     "Transport routes: roads, rail lines and navigable water attract settlement along them.",
+     "Cities and ports: cities and ports offer jobs and services, so they draw large populations.",
+     "History: colonial ports and plantations shaped where people settled.",
+     "Government policy: policy can direct population into or out of particular areas."
+    ]
+   },
+   {
+    "h": "Low-density areas",
+    "points": [
+     "High, steep or cold land is difficult to farm, build on and reach.",
+     "Deserts and dense forest offer little water, farmland or access.",
+     "Poor soils and remoteness limit farming, and remote areas lack markets and services.",
+     "Few jobs cause young people to leave, so the population falls and density drops."
+    ]
+   },
+   {
+    "h": "Global pattern of population",
+    "points": [
+     "Dense: East Asia, South Asia, Europe, the north-eastern USA and the Nile valley.",
+     "Sparse: the Sahara, the Amazon Basin, Siberia, northern Canada, Greenland and Antarctica.",
+     "About 90% of the world's people live in the northern hemisphere.",
+     "Most people live near coasts and rivers."
+    ]
+   },
+   {
+    "h": "European pattern of population",
+    "points": [
+     "Dense core: the Benelux countries, the Rhine–Ruhr, south-east England, the Po valley and the Paris region.",
+     "Sparse periphery: northern Scandinavia, the Scottish Highlands and interior Spain.",
+     "The Netherlands has over 500 people per km² (2020s), one of Europe's most densely populated countries.",
+     "The EU average is about 110 people per km² (2020s)."
+    ]
+   },
+   {
+    "h": "Irish distribution: concentration in the east",
+    "points": [
+     "The Greater Dublin Area (Dublin, Meath, Kildare and Wicklow) has about 2.1 million people, about 40% of the State's population (Census 2022).",
+     "Co. Dublin has about 1.46 million people at about 1,600 people per km².",
+     "The population is concentrated in the east and in the five cities.",
+     "Low density in the west and north-west, notably Mayo (about 25 people per km²), Leitrim and Roscommon, and in the uplands."
+    ]
+   },
+   {
+    "h": "Irish distribution: change over time",
+    "points": [
+     "Before the Famine the population was rural and weighted to the west.",
+     "Since then the population has shifted to an eastern, urban pattern.",
+     "Dublin's commuter counties of Meath, Kildare and Wicklow have grown rapidly.",
+     "Every county's population grew between 2016 and 2022."
+    ]
+   },
+   {
+    "h": "Why Ireland's density is rising",
+    "points": [
+     "The State's average density is about 73 people per km² (Census 2022).",
+     "Density is rising because the population has grown from natural increase and net immigration since the 1990s, while the land area is fixed."
+    ]
+   },
+   {
+    "h": "World population growth",
+    "points": [
+     "World population grew slowly until about 1800, then rapidly, producing an exponential J-curve driven by falling death rates. The growth rate is now slowing.",
+     "Milestones: about 1 billion around 1800, 2 billion in 1927, 3 billion in 1960 and 4 billion in 1974.",
+     "Milestones continued: 5 billion in 1987, 6 billion in 1999, 7 billion in 2011 and 8 billion on 15 November 2022 (UN).",
+     "Global fertility is about 2.3 children per woman (early 2020s), down from about 5 in the 1950s.",
+     "China and India each have over 1.4 billion people (2023); India overtook China as the most populous country in 2023 (UN estimate)."
+    ]
+   },
+   {
+    "h": "Contrasting growth",
+    "points": [
+     "Rapid growth: sub-Saharan Africa.",
+     "Slow growth, stagnation or decline: Europe and East Asia."
+    ]
+   },
+   {
+    "b": "The model shows how birth and death rates, and so population growth, change as a country develops.",
+    "h": "Demographic Transition Model: stage 1 (high stationary)",
+    "points": [
+     "Birth rate high, death rate high, and little growth.",
+     "Example: no country is in stage 1 today; the best examples are pre-industrial societies."
+    ]
+   },
+   {
+    "h": "Demographic Transition Model: stage 2 (early expanding)",
+    "points": [
+     "Birth rate high; death rate falling rapidly, and the death rate falls most in this stage; growth is rapid.",
+     "The death rate falls because of clean water and sanitation, vaccination, a better food supply and medical care.",
+     "Example: Niger, described below."
+    ]
+   },
+   {
+    "h": "Demographic Transition Model: stage 3 (late expanding)",
+    "points": [
+     "Birth rate falling; death rate low; growth slows.",
+     "Example: India, with a total fertility rate of about 2.0 (2019–21)."
+    ]
+   },
+   {
+    "h": "Demographic Transition Model: stage 4 (low stationary)",
+    "points": [
+     "Birth rate low, death rate low, and little growth.",
+     "Examples: Ireland and the USA. Ireland is in stage 4."
+    ]
+   },
+   {
+    "h": "Demographic Transition Model: stage 5 (declining)",
+    "points": [
+     "Birth rate below death rate, so natural change is negative (natural decrease) and the population falls.",
+     "Examples: Germany, Italy and Japan."
+    ]
+   },
+   {
+    "h": "Niger: a young, fast-growing population (stage 2)",
+    "points": [
+     "Niger is a West African, landlocked country, largely in the Sahel and Sahara.",
+     "Population is about 27 million (2023), growing by over 3% a year (early 2020s).",
+     "Total fertility rate is about 6 children per woman (early 2020s), among the highest in the world.",
+     "Median age is about 15, among the lowest in the world.",
+     "Its population pyramid has a very wide base.",
+     "Most people live in the south, where rainfall allows farming; the north is Sahara desert."
+    ]
+   },
+   {
+    "h": "Japan: an ageing, shrinking population (stage 5)",
+    "points": [
+     "Japan has the world's oldest population: about 29% of people are aged 65 or over (2023), the highest share in the world.",
+     "Population peaked at about 128 million around 2008–2010, was about 124 million in 2024, and is falling.",
+     "Total fertility rate is about 1.2 (2023).",
+     "Few immigrants by European standards.",
+     "Its population pyramid is top-heavy, with a narrow base and a wide top."
+    ]
+   },
+   {
+    "h": "Why the birth rate falls after stage 2",
+    "points": [
+     "Female education and paid work: women have later and fewer children.",
+     "Contraception is widely available.",
+     "Falling infant mortality removes the need for 'insurance' births, as parents can expect their children to survive.",
+     "Urbanisation: children cost more and earn less in towns and cities.",
+     "Pensions replace children as old-age security.",
+     "Later marriage, and weaker religious influence on family size."
+    ]
+   },
+   {
+    "h": "Challenges and responses in stage 5",
+    "points": [
+     "Challenges: a shrinking workforce, labour shortages, rising pension and health costs, closing schools and rural depopulation.",
+     "Responses: immigration, pro-natalist incentives to raise birth rates, and later retirement."
+    ]
+   },
+   {
+    "h": "Limitations of the model",
+    "points": [
+     "The model is based on European experience.",
+     "It ignores migration.",
+     "Developing countries' death rates fell much faster than Europe's, because medicine was imported, so their growth has been faster.",
+     "Some countries may not complete the transition, and it has no fixed time scale."
+    ]
+   },
+   {
+    "h": "Population pyramids",
+    "points": [
+     "A population pyramid shows age cohorts in five-year bands, with males on the left and females on the right, as percentages or numbers.",
+     "Uses: planning services, forecasting future needs, comparing countries, and showing past events such as baby booms, wars and emigration."
+    ]
+   },
+   {
+    "h": "Pyramid shapes",
+    "points": [
+     "Wide base and narrow top: high fertility and short life expectancy, as in Niger.",
+     "Straight sides: a stable population with low birth and death rates.",
+     "Narrow base and wide top (top-heavy): an ageing population, as in Japan.",
+     "A developed country's pyramid is typically straight-sided or top-heavy, while a developing country's is wide-based."
+    ]
+   },
+   {
+    "h": "Reading a pyramid",
+    "points": [
+     "Bulges show baby booms or immigration of young adults.",
+     "Notches show emigration, low birth years or war.",
+     "More women than men at the oldest ages, because women live longer."
+    ]
+   },
+   {
+    "h": "Dependency ratios",
+    "points": [
+     "Dependency ratio = (people aged 0–14 + people aged 65 and over) ÷ people aged 15–64 × 100.",
+     "Young dependency ratio = people aged 0–14 ÷ people aged 15–64 × 100. Old-age dependency ratio = people aged 65 and over ÷ people aged 15–64 × 100.",
+     "Illustrative example (invented figures): 30,000 aged 0–14, 10,000 aged 65 and over and 80,000 aged 15–64 give (30,000 + 10,000) ÷ 80,000 × 100 = 50."
+    ]
+   },
+   {
+    "h": "Urban and rural dependency ratios",
+    "points": [
+     "Urban dependency ratios are usually lower than rural ones.",
+     "Young working adults migrate to cities for jobs and college, leaving older people, and sometimes children, in rural areas."
+    ]
+   },
+   {
+    "h": "Effects of an ageing population",
+    "points": [
+     "Higher pension costs.",
+     "More demand for health care, nursing homes and carers.",
+     "A smaller tax base from fewer workers.",
+     "Pressure to raise the pension age.",
+     "Changing housing and transport needs.",
+     "Planning responses in Ireland: home-care supports, pension reform, more geriatric services, encouraging immigration of workers, and age-friendly towns."
+    ]
+   },
+   {
+    "h": "Effects of a high young dependency ratio",
+    "points": [
+     "Demand for schools, maternity and child health care, and for future jobs and housing.",
+     "A future workforce, the basis of the demographic dividend discussed in Overpopulation."
+    ]
+   },
+   {
+    "h": "Factors affecting birth rates",
+    "points": [
+     "Income and economic development: birth rates fall as income rises.",
+     "Status and education of women: educated women with status tend to have fewer children.",
+     "Religion and culture.",
+     "Access to contraception.",
+     "Government policy.",
+     "Infant mortality: high infant mortality encourages larger families.",
+     "Urban or rural living: rural families tend to have more children."
+    ]
+   },
+   {
+    "h": "Factors affecting death rates",
+    "points": [
+     "Medical technology: vaccines and antibiotics.",
+     "Sanitation, diet, income and health services.",
+     "Lifestyle diseases such as heart disease and cancer are the main causes of death in rich countries.",
+     "Conflict, famine and disease, such as malaria and HIV/AIDS, are the main causes of death in poor countries."
+    ]
+   },
+   {
+    "h": "How fertility and mortality change structure",
+    "points": [
+     "Falling fertility narrows the base of the pyramid.",
+     "Rising life expectancy widens the top of the pyramid.",
+     "The result is an older population with a higher median age."
+    ]
+   },
+   {
+    "h": "Raising life expectancy in a country such as Niger",
+    "points": [
+     "Clean water and sanitation.",
+     "Vaccination.",
+     "Mosquito nets and malaria treatment.",
+     "More doctors and clinics.",
+     "Better nutrition.",
+     "Female education."
+    ]
+   },
+   {
+    "h": "Why life expectancy is long in Ireland",
+    "points": [
+     "A good diet and housing.",
+     "Effective health services and vaccination.",
+     "Clean water.",
+     "Fewer smokers.",
+     "Safer work."
+    ]
+   },
+   {
+    "b": "All Irish census figures in these notes are for the State (the 26-county area).",
+    "h": "Ireland's census record, 1841 to 1961",
+    "points": [
+     "Census 1841: about 6.5 million.",
+     "Census 1851, after the Great Famine (1845–49): about 5.1 million.",
+     "Census 1926: about 3.0 million.",
+     "Census 1961: about 2.8 million, the lowest census population ever recorded.",
+     "The population fell at almost every census from 1841 to 1961; the only break was a very slight rise between Census 1946 and Census 1951."
+    ]
+   },
+   {
+    "h": "Ireland's census record, 1971 to 2022",
+    "points": [
+     "Census 1971: about 3.0 million. Census 1981: about 3.4 million.",
+     "Census 1986 and Census 1991: both about 3.5 million, a small fall between them.",
+     "Census 2002: about 3.9 million. Census 2006: about 4.2 million. Census 2011: about 4.6 million. Census 2016: about 4.76 million.",
+     "Census 2022: about 5.15 million, above 5 million for the first time since 1851."
+    ]
+   },
+   {
+    "h": "Births and fertility in Ireland since the 1950s",
+    "points": [
+     "Fertility was high into the 1970s, with Catholic culture, large families and little access to contraception.",
+     "Births peaked at about 74,000 in 1980.",
+     "The total fertility rate was about 4 in the early 1970s, fell below replacement level around 1990, and was about 1.5 in 2023.",
+     "Births were about 55,000 in 2023 against about 35,000 deaths, giving natural increase of about 20,000."
+    ]
+   },
+   {
+    "h": "Reasons Irish fertility fell",
+    "points": [
+     "Free secondary education, introduced in 1967 by Donogh O'Malley, and more women in third-level education.",
+     "The marriage bar, which forced women in the public service to resign on marriage, was removed in 1973.",
+     "Contraception was legalised by the Health (Family Planning) Act 1979, on prescription; access was widened in 1985 and the early 1990s.",
+     "More women in paid employment, later marriage and later first births.",
+     "Secularisation, and the cost of housing and childcare."
+    ]
+   },
+   {
+    "b": "Life expectancy rose and infant mortality fell to very low levels.",
+    "h": "Deaths and life expectancy in Ireland",
+    "points": [
+     "Life expectancy at birth is about 82–83 years (early 2020s).",
+     "Women live about 4 years longer than men.",
+     "Infant mortality is about 3 per 1,000 live births (2020s)."
+    ]
+   },
+   {
+    "h": "Migration in Ireland since 1950 (summary)",
+    "points": [
+     "Heavy net emigration in the 1950s and 1980s; net emigration of about 400,000 between 1951 and 1961, which the 1954 Report of the Commission on Emigration and Other Population Problems examined.",
+     "Net immigration in the 1970s, from the mid-1990s to 2008, and again from the mid-2010s.",
+     "Migration patterns are detailed in Changing migration patterns in Ireland."
+    ]
+   },
+   {
+    "h": "Ireland's changing age structure",
+    "points": [
+     "Census 2022: about 776,000 people aged 65 and over (about 15% of the population), up about 22% since 2016.",
+     "Average age rose from 37.4 in 2016 to 38.8 in 2022.",
+     "About one-fifth of the population is under 15.",
+     "The pyramid has moved from a young, wide-based shape to an ageing one.",
+     "About one in five people (just over 1 million) was born outside Ireland."
+    ]
+   },
+   {
+    "h": "Urbanisation and households in Ireland",
+    "points": [
+     "Census 1971 was the first census in which more people lived in towns than in rural areas.",
+     "By Census 2016 about 63% of the population was urban.",
+     "The population has shifted to the east; rural-to-urban movement is detailed in Rural-to-urban migration in developed and developing regions.",
+     "Households are smaller, and more people live alone."
+    ]
+   },
+   {
+    "h": "The European Union",
+    "points": [
+     "The EU has 27 member states and about 450 million people (2024).",
+     "Fertility is below replacement: the EU total fertility rate is about 1.4 (2023).",
+     "Natural decrease occurs in many member states; immigration supplies most of the EU's growth.",
+     "The EU median age is about 44.5 (2023), and about 21% of its population is aged 65 or over (2023)."
+    ]
+   },
+   {
+    "h": "Germany",
+    "points": [
+     "Deaths have exceeded births every year since 1972.",
+     "Population is about 84 million (2020s), and growth comes from immigration."
+    ]
+   },
+   {
+    "h": "Italy",
+    "points": [
+     "Italy has among the EU's lowest fertility rates and oldest populations: its total fertility rate is about 1.2 (2023).",
+     "Population is about 59 million (2024).",
+     "Italy's regional pattern is covered in A Peripheral European Region: the Mezzogiorno."
+    ]
+   },
+   {
+    "h": "Bulgaria: decline after 1989",
+    "points": [
+     "Population was about 9 million in 1989 and about 6.5 million at Census 2021.",
+     "Causes: emigration to western Europe after the fall of communism (1989) and EU entry (2007), together with low fertility."
+    ]
+   },
+   {
+    "h": "Very low fertility worldwide",
+    "points": [
+     "South Korea's total fertility rate is about 0.7 (2023), the lowest in the world.",
+     "Compare Niger's total fertility rate of about 6 children per woman."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Size: the State's population fell at almost every census from 1841 (about 6.5 million) to a low of about 2.8 million in 1961, then grew to about 5.15 million in 2022, above 5 million for the first time since 1851. Births and fertility: fertility was high into the 1970s, with Catholic culture, large families and little access to contraception, and births peaked at about 74,000 in 1980. Fertility fell below replacement around 1990 and was about 1.5 in 2023, because of free secondary education (1967), the removal of the marriage bar (1973), legal contraception (1979), women's paid work, later marriage and the cost of housing and childcare. Deaths and life expectancy: life expectancy rose to about 82–83 years, women live about 4 years longer than men, and infant mortality fell to about 3 per 1,000 live births. Migration: heavy net emigration in the 1950s and 1980s, net immigration in the 1970s, from the mid-1990s to 2008 and from the mid-2010s; net migration was the larger component of growth between 2016 and 2022. Age structure: the population has moved from a young, wide-based pyramid to an ageing one; about 776,000 people (about 15%) were aged 65 and over in 2022, and the average age rose from 37.4 in 2016 to 38.8 in 2022. Distribution: the population has moved east and to towns; towns held more people than rural areas from 1971, about 63% of people were urban in 2016, and the Greater Dublin Area holds about 40% of the population.",
+    "prompt": "Describe and explain how the characteristics of Ireland's population have changed since the 1950s.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Falling fertility narrows the base of the population pyramid, rising life expectancy widens the top, and the result is an older population with a higher median age. The Demographic Transition Model links these changes: in stage 2 high birth rates and falling death rates widen the base as the young population grows, and in stage 5 birth and death rates are low and the population falls. Niger (stage 2): the pyramid has a very wide base, the total fertility rate is about 6 children per woman, the median age is about 15 and growth is over 3% a year, so most people are young. Japan (stage 5): the pyramid is top-heavy, with a narrow base and a wide top; about 29% of people are aged 65 or over (2023), the population has fallen from a peak of about 128 million to about 124 million (2024), and the total fertility rate is about 1.2. Ireland: the pyramid has moved from a young, wide-based shape, when fertility was high into the 1970s, to an ageing one, because fertility fell below replacement around 1990 and life expectancy rose. In 2022 about one-fifth of the population was under 15 and about 15% was aged 65 or over, showing the shift from youth to age.",
+    "prompt": "Examine how changing fertility and mortality rates impact on population structure, with reference to example(s) you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 2,
+    "model": "Natural change is the birth rate minus the death rate: natural increase when births exceed deaths, and natural decrease when deaths exceed births.",
+    "prompt": "Explain briefly the term natural change.",
+    "type": "short"
+   },
+   {
+    "marks": 2,
+    "model": "Women gain education and paid work, so they have later and fewer children.",
+    "prompt": "State one reason why the birth rate falls after stage 2 of the DTM.",
+    "type": "short"
+   },
+   {
+    "marks": 2,
+    "model": "A shrinking workforce creates labour shortages, while pension and health costs rise as the population ages.",
+    "prompt": "Explain briefly one challenge facing countries in stage 5 of the DTM.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s2": {
+  "keyTerms": [
+   {
+    "definition": "The condition in which an area's population is too large for its resources, technology and economy to support an acceptable standard of living.",
+    "term": "Overpopulation"
+   },
+   {
+    "definition": "A population too small to develop an area's resources fully.",
+    "term": "Underpopulation"
+   },
+   {
+    "definition": "The population that gives the highest standard of living with existing resources and technology.",
+    "term": "Optimum population"
+   },
+   {
+    "definition": "The population an area can support at an acceptable standard of living with its resources and technology.",
+    "term": "Carrying capacity"
+   },
+   {
+    "definition": "Factors such as famine, disease and war that halt population growth when it outstrips food supply, in Malthus's theory.",
+    "term": "Positive checks"
+   },
+   {
+    "definition": "The spread of desert-like conditions as overgrazing, overcultivation, fuelwood cutting and drought degrade the soil.",
+    "term": "Desertification"
+   },
+   {
+    "definition": "The introduction of high-yield seeds, irrigation and fertilisers that raised food production from the mid-1960s.",
+    "term": "Green Revolution"
+   },
+   {
+    "definition": "The economic gain from a large working-age population with fewer dependants.",
+    "term": "Demographic dividend"
+   },
+   {
+    "definition": "The cycle in which high fertility keeps families and countries poor, and poverty keeps fertility high.",
+    "term": "Poverty trap"
+   },
+   {
+    "definition": "China's policy from 1979–80 limiting most families to one child, enforced through fines, loss of benefits and in places forced abortion and sterilisation.",
+    "term": "One-child policy"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What overpopulation means",
+    "points": [
+     "Overpopulation: the population of an area is too large for its resources, technology and economy to support an acceptable standard of living.",
+     "It is a balance between people and resources, not a matter of numbers or density alone.",
+     "Underpopulation: too few people to develop the resources fully.",
+     "Optimum population: the number that gives the highest standard of living with existing resources and technology.",
+     "The Netherlands has over 500 people per km² (2020s) and is densely populated but not overpopulated, because of wealth, technology and trade.",
+     "The Sahel is thinly populated but overpopulated, because its fragile resources, drought and poverty cannot support its people.",
+     "Niger has about 27 million people (2023) in a very large, mostly desert country."
+    ]
+   },
+   {
+    "h": "Theories of population and resources",
+    "points": [
+     "Malthus, 'An Essay on the Principle of Population' (1798): population grows geometrically while food grows arithmetically, so famine, disease and war act as positive checks.",
+     "Ireland's Great Famine is often cited in support of Malthus.",
+     "Boserup, 'The Conditions of Agricultural Growth' (1965): population pressure drives farming innovation, so food supply can rise to meet demand.",
+     "The Green Revolution is often cited in support of Boserup.",
+     "Club of Rome, 'The Limits to Growth' (1972): argues that growth is limited by finite resources."
+    ]
+   },
+   {
+    "b": "Where resources are not developed, are degraded or shrink, the same population becomes too many.",
+    "h": "Cause 1: the development of resources",
+    "points": [
+     "Sahel: desertification, drought, overgrazing, fuelwood cutting and the shrinking of Lake Chad.",
+     "Lake Chad has shrunk by about 90% since the 1960s, because of irrigation demand and drought.",
+     "Pre-Famine Ireland: over-reliance on one resource, the potato, and subdivision of holdings into ever-smaller plots.",
+     "Developing resources raises carrying capacity: India's Green Revolution and Ireland's industrial growth since the 1960s."
+    ]
+   },
+   {
+    "h": "Sahel: causes of desertification",
+    "points": [
+     "The Sahel is a semi-arid belt along the southern edge of the Sahara, from Senegal and Mauritania through Mali, Burkina Faso, Niger and Chad to Sudan.",
+     "Rainfall is about 200–600 mm a year, falls in a short summer rainy season and is very unreliable.",
+     "Causes of desertification: overgrazing, overcultivation with fallow periods abandoned, cutting trees and shrubs for fuelwood, and drought.",
+     "Wind and rain then erode the bare soil."
+    ]
+   },
+   {
+    "h": "Sahel: responses",
+    "points": [
+     "The Great Green Wall, an African Union initiative launched in 2007, aims to restore a belt of land across the Sahel.",
+     "Stone lines (diguettes) along contours and zaï planting pits in Burkina Faso trap water and soil.",
+     "Farmer-managed natural regeneration of trees in Niger."
+    ]
+   },
+   {
+    "h": "Cause 2: society and culture",
+    "points": [
+     "Factors include religion and attitudes to contraception, the status and education of women, early marriage, preference for sons, children as farm labour and old-age security, and the prestige of large families."
+    ]
+   },
+   {
+    "h": "Society and culture: Niger and the Sahel",
+    "points": [
+     "Early marriage of girls is common.",
+     "Female literacy is low.",
+     "Large families carry prestige.",
+     "Total fertility rate is about 6 children per woman (early 2020s), among the highest in the world, with population growth over 3% a year.",
+     "Median age is about 15, and Niger is among the lowest-ranked countries in the UN Human Development Index (2020s)."
+    ]
+   },
+   {
+    "h": "Society and culture: India, Kerala and Bihar",
+    "points": [
+     "Son preference and the low status of women in some Indian states.",
+     "Kerala: total fertility rate about 1.8 (National Family Health Survey 2019–21), literacy about 94% (Census 2011), the highest of any state, with high female literacy and good health care.",
+     "Bihar: total fertility rate about 3.0 (National Family Health Survey 2019–21), literacy about 62% (Census 2011), the lowest of any state.",
+     "India's total fertility rate is about 2.0 (2019–21), down from about 6 in the 1950s."
+    ]
+   },
+   {
+    "h": "Society and culture: Ireland before and after the 1970s",
+    "points": [
+     "Before the 1970s, Catholic teaching, large families and illegal contraception kept fertility high.",
+     "Births peaked at about 74,000 in 1980.",
+     "Contraception was legalised by the Health (Family Planning) Act 1979, on prescription.",
+     "The total fertility rate was about 4 in the early 1970s, fell below replacement around 1990 and was about 1.5 in 2023."
+    ]
+   },
+   {
+    "h": "Cause 3: income levels",
+    "points": [
+     "Low-income countries have high birth rates: children are economic assets, infant mortality is high and there are no pensions.",
+     "Rising incomes bring falling fertility, through the cost of raising children, women's paid work and education.",
+     "Contrast low-income Niger with high-income Ireland, the EU and Japan.",
+     "Ireland: total fertility rate about 1.5 (2023); life expectancy about 82–83 years.",
+     "EU: total fertility rate about 1.4 (2023).",
+     "Japan: about 29% aged 65 or over (2023); population falling from a peak of about 128 million around 2008–2010.",
+     "Poverty also limits the ability to develop resources or import food.",
+     "Bangladesh is an exception: its fertility fell sharply while it was still poor."
+    ]
+   },
+   {
+    "h": "Bangladesh: fertility falls while poor",
+    "points": [
+     "Independent since 1971.",
+     "Total fertility rate fell from about 6–7 in the early 1970s to about 2 in the 2020s.",
+     "Reasons: a national family planning programme with community health workers visiting homes, NGOs, girls' education and millions of women employed in the garment industry.",
+     "Population density is over 1,100 people per km² (2020s), one of the highest of any large country; it is used here for its fertility fall, not as overpopulation."
+    ]
+   },
+   {
+    "h": "Cause 4: technology",
+    "points": [
+     "Medical technology (vaccines, antibiotics, clean water) cut death rates far faster than birth rates fell, causing the population explosion of the 20th century; this is DTM stage 2 in Changing population characteristics.",
+     "Penicillin was discovered by Alexander Fleming in 1928.",
+     "Smallpox was declared eradicated by the World Health Organization in 1980.",
+     "Agricultural technology: the Green Revolution, with high-yield seeds, irrigation and fertilisers, increased carrying capacity.",
+     "Contraceptive technology lowered birth rates.",
+     "Lack of technology: subsistence farming keeps carrying capacity low in the Sahel."
+    ]
+   },
+   {
+    "h": "India: the Green Revolution",
+    "points": [
+     "Green Revolution from the mid-1960s: high-yield wheat bred in Mexico by Norman Borlaug, introduced in India under M. S. Swaminathan.",
+     "Food-grain output rose from about 51 million tonnes (1950–51) to about 330 million tonnes (2022–23).",
+     "Core areas: Punjab, Haryana and western Uttar Pradesh.",
+     "Side effects: falling water tables, soil degradation and debt among small farmers."
+    ]
+   },
+   {
+    "h": "Cause 5: government policy",
+    "points": [
+     "India launched the world's first national family planning programme in 1952.",
+     "Forced sterilisations during the Emergency, 1975–77, caused a backlash against family planning.",
+     "China's one-child policy was introduced in 1979–80."
+    ]
+   },
+   {
+    "h": "China's one-child policy",
+    "points": [
+     "Enforced through fines, loss of jobs and benefits, and in places forced abortions and sterilisations.",
+     "Exceptions existed for many rural families whose first child was a girl and for ethnic minorities.",
+     "Effects: fertility fell well below replacement; the sex ratio at birth rose above 115 boys per 100 girls in the 2000s, through son preference and sex-selective abortion, leaving millions more men than women.",
+     "The '4-2-1' problem: four grandparents, two parents and one child per family.",
+     "Rapid ageing.",
+     "Replaced by a two-child policy from 2016 and a three-child policy in 2021.",
+     "China's population fell in 2022, the first fall since 1961."
+    ]
+   },
+   {
+    "h": "Effects of overpopulation: food and environment",
+    "points": [
+     "Food shortages, malnutrition and famine.",
+     "Environmental damage: soil erosion, desertification, deforestation, overgrazing and water shortages.",
+     "The Sahel shows both: famines in the late 1960s–1970s and the early-to-mid 1980s, and desertification."
+    ]
+   },
+   {
+    "h": "Effects of overpopulation: economy and services",
+    "points": [
+     "Unemployment and underemployment, poverty and low incomes.",
+     "Pressure on schools, hospitals, housing, water and sanitation.",
+     "A high young dependency ratio: many children per worker."
+    ]
+   },
+   {
+    "h": "Effects of overpopulation: migration and conflict",
+    "points": [
+     "Rural-to-urban migration to shanty towns, detailed in Rural-to-urban migration in developed and developing regions.",
+     "Emigration.",
+     "Conflict over land and water."
+    ]
+   },
+   {
+    "h": "Growth rates and development: rapid growth",
+    "points": [
+     "Savings go on feeding and educating more people rather than investment.",
+     "Per-capita income gains are cancelled out.",
+     "Jobs cannot keep up with population growth, and the environment is degraded.",
+     "The 'poverty trap' of high fertility keeps families and countries poor."
+    ]
+   },
+   {
+    "h": "Growth rates and development: slowing growth",
+    "points": [
+     "The demographic dividend is a large working-age population with fewer dependants.",
+     "East Asian economies such as South Korea and China, and Ireland from the 1990s, benefited.",
+     "Ireland's dividend: the large generation born around 1980 (births peaked at about 74,000 that year) entered the workforce in the late 1990s and 2000s, helping the Celtic Tiger economy."
+    ]
+   },
+   {
+    "h": "Growth rates and development: very slow or negative growth",
+    "points": [
+     "Ageing, labour shortages, a shrinking tax base and high pension and health costs.",
+     "Examples: Japan, Italy and South Korea.",
+     "Italy: total fertility rate about 1.2 (2023).",
+     "South Korea: total fertility rate about 0.7 (2023), the lowest in the world."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Overpopulation exists when an area's population is too large for its resources, technology and economy to support an acceptable standard of living. The Sahel, with Niger as its example, shows the causes. Fertility is high: the total fertility rate is about 6 children per woman, and population growth is over 3% a year. Culture sustains this, through early marriage of girls, low female literacy and the prestige of large families. Resources are degraded: overgrazing, overcultivation, cutting trees for fuelwood and drought cause desertification, and Lake Chad has shrunk by about 90% since the 1960s. Technology is low: subsistence farming keeps carrying capacity low. The effects are food shortages and famine, as in the droughts and famines of the late 1960s–1970s and the early-to-mid 1980s, environmental damage through soil erosion and desertification, poverty, unemployment and pressure on services, and migration and conflict over land and water. Responses include the Great Green Wall, launched in 2007, stone lines and zaï pits in Burkina Faso, and farmer-managed natural regeneration of trees in Niger.",
+    "prompt": "Examine the causes and effects of overpopulation, with reference to an example you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "In the Sahel and Niger, culture keeps fertility high. Early marriage of girls is common, female literacy is low, and large families carry prestige, so the total fertility rate is about 6 children per woman and growth is over 3% a year. India shows the contrast between states. Son preference and the low status of women in some states keep fertility high, while Kerala, with literacy about 94% (Census 2011), high female literacy and good health care, has a total fertility rate of about 1.8, against about 3.0 in Bihar, where literacy is about 62%. China's one-child policy, from 1979–80, used fines, loss of jobs and benefits and in places forced abortion, while exceptions existed for many rural families whose first child was a girl. Son preference and sex-selective abortion pushed the sex ratio at birth above 115 boys per 100 girls in the 2000s. Ireland before the 1970s had Catholic teaching, large families and illegal contraception; births peaked at about 74,000 in 1980, and contraception was legalised in 1979, after which fertility fell below replacement around 1990.",
+    "prompt": "Examine the impact of society and culture on levels of population growth, with reference to example(s) you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Medical technology, such as vaccines, antibiotics and clean water, cut death rates far faster than birth rates fell, causing the population explosion of the 20th century and rapid growth in developing countries. Contraceptive technology lowered birth rates where it was available: Bangladesh's total fertility rate fell from about 6–7 in the early 1970s to about 2 in the 2020s, helped by a family planning programme with community health workers. Agricultural technology raised carrying capacity: the Green Revolution, from the mid-1960s, bred high-yield wheat and introduced irrigation and fertilisers, and India's food-grain output rose from about 51 million tonnes (1950–51) to about 330 million tonnes (2022–23). Its side effects include falling water tables, soil degradation and debt among small farmers, so it did not fully resolve pressure on resources. In the Sahel, lack of technology keeps subsistence farming low-yielding and carrying capacity low. Pre-Famine Ireland shows the same limit: dependence on the potato, a single low-technology resource, left the population exposed when blight struck in 1845.",
+    "prompt": "Examine the impact of technology on levels of population growth.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s3": {
+  "keyTerms": [
+   {
+    "definition": "A permanent or long-term change of residence.",
+    "term": "Migration"
+   },
+   {
+    "definition": "Immigrants minus emigrants.",
+    "term": "Net migration"
+   },
+   {
+    "definition": "A condition in the origin area, such as unemployment or low wages, that drives people to leave.",
+    "term": "Push factor"
+   },
+   {
+    "definition": "A condition in the destination area, such as jobs or higher wages, that attracts migrants.",
+    "term": "Pull factor"
+   },
+   {
+    "definition": "A barrier, such as distance, cost, visas or language, that makes migration harder.",
+    "term": "Intervening obstacle"
+   },
+   {
+    "definition": "Migration in which people follow family or friends who have already moved.",
+    "term": "Chain migration"
+   },
+   {
+    "definition": "Migrants moving back to their country of origin.",
+    "term": "Return migration"
+   },
+   {
+    "definition": "The emigration of skilled and educated young people.",
+    "term": "Brain drain"
+   },
+   {
+    "definition": "The arrangement dating from the 1920s that lets Irish and British citizens live and work in each other's country without permits.",
+    "term": "Common Travel Area"
+   },
+   {
+    "definition": "Money sent home by emigrants to family in their country of origin.",
+    "term": "Remittances"
+   },
+   {
+    "definition": "EU status giving displaced people, such as Ukrainians from 2022, residence and rights without the asylum process.",
+    "term": "Temporary protection"
+   },
+   {
+    "definition": "People living outside their country of origin, and their descendants.",
+    "term": "Diaspora"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Migration concepts",
+    "points": [
+     "Migration: a permanent or long-term change of residence.",
+     "Emigration is leaving a country; immigration is arriving in one; net migration is immigrants minus emigrants.",
+     "Internal migration moves people within a country; international migration crosses borders.",
+     "Voluntary migration is a free choice; forced migration is driven by conflict or persecution.",
+     "Economic migrants move for work; refugees and asylum seekers flee persecution (asylum policy is in Migration policy in Ireland and the EU).",
+     "Return migration: emigrants coming back to their home country.",
+     "Chain migration: migrants follow family or friends who have already moved."
+    ]
+   },
+   {
+    "h": "Push and pull factors",
+    "points": [
+     "Push factors in Ireland: unemployment, low wages, emigration of young people in recession and the decline of farm labouring.",
+     "Pull factors in Ireland: jobs in the Celtic Tiger economy, high wages in the UK, the USA and Australia, and the availability of work permits."
+    ]
+   },
+   {
+    "h": "Barriers to migration",
+    "points": [
+     "Distance and the cost of travel.",
+     "Immigration laws, visas and quotas.",
+     "Language.",
+     "Family ties and age.",
+     "Lack of information.",
+     "Cultural difference."
+    ]
+   },
+   {
+    "h": "Models of migration",
+    "points": [
+     "Ravenstein's laws of migration: most migrants move short distances, in steps; each migration stream has a counter-stream; young adults are most likely to migrate; cities attract migrants.",
+     "Lee's push–pull model: migration is driven by push and pull factors and reduced by intervening obstacles."
+    ]
+   },
+   {
+    "h": "Who migrates",
+    "points": [
+     "Migration is age-selective: mostly young adults move.",
+     "In the 1950s more women than men left some rural areas."
+    ]
+   },
+   {
+    "h": "Background: emigration from the Famine to 1961",
+    "points": [
+     "The Great Famine (1845–49) and continuous emigration from the 1840s: about 1 million died and about 1 million emigrated across the whole island.",
+     "The State's population fell at almost every census from 1841 to 1961.",
+     "State population: about 6.5 million (Census 1841), about 3.0 million (Census 1926) and about 2.8 million (Census 1961), the lowest ever recorded.",
+     "The only break in the decline was a very slight rise between Census 1946 and Census 1951.",
+     "Over 30 million Americans report Irish ancestry (US Census Bureau surveys, 2020s)."
+    ]
+   },
+   {
+    "h": "1950s: emigration to Britain",
+    "points": [
+     "Highest emigration since the 1880s.",
+     "Causes: economic stagnation and protectionism, unemployment, the decline of small farms and farm labouring as farming mechanised, and Britain's post-war demand for labour in building, factories, nursing and transport.",
+     "Low fares and the Common Travel Area, which dates from the 1920s and lets Irish citizens live and work in the UK without permits, and chain migration.",
+     "Net emigration of about 400,000 between 1951 and 1961.",
+     "Most went to Britain: London, Birmingham, Manchester, Coventry and Liverpool.",
+     "The Commission on Emigration and Other Population Problems reported in 1954.",
+     "Impact: Ireland, as donor region, lost young workers and its rural population declined."
+    ]
+   },
+   {
+    "h": "1960s and 1970s: return and net immigration",
+    "points": [
+     "Economic Development by T. K. Whitaker and the First Programme for Economic Expansion, 1958, cut emigration.",
+     "The IDA (Industrial Development Authority), set up in 1949, was given a central role in attracting foreign investment from 1969.",
+     "The 1970s were the first decade of net immigration since the Famine: returning emigrants and their children, and jobs in new factories.",
+     "Ireland joined the EEC on 1 January 1973.",
+     "State population rose from about 3.0 million (Census 1971) to about 3.4 million (Census 1981)."
+    ]
+   },
+   {
+    "h": "1980s: emigration to Britain and the USA",
+    "points": [
+     "Causes: recession, high unemployment and high taxes.",
+     "Net emigration of over 200,000 between 1981 and 1991, including many graduates, the so-called brain drain.",
+     "Destinations: Britain and the USA, where many emigrants were undocumented.",
+     "US visa programmes in the late 1980s and early 1990s (the Donnelly and Morrison visas) regularised many Irish emigrants.",
+     "The State's population fell slightly between Census 1986 and Census 1991; both were about 3.5 million."
+    ]
+   },
+   {
+    "h": "Celtic Tiger immigration, 1996 to 2008",
+    "points": [
+     "Net immigration from 1996, as returning Irish, EU migrants, non-EU workers on work permits and asylum seekers arrived.",
+     "EU enlargement on 1 May 2004 added 10 new members, including Poland, Lithuania, Latvia, Slovakia and the Czech Republic.",
+     "Ireland, the UK and Sweden were the only existing members to open their labour markets immediately.",
+     "Census 2006: about 420,000 non-Irish nationals (about 10% of the population); Polish about 63,000, the largest group after UK nationals.",
+     "Census 2006 State population was about 4.2 million.",
+     "Ireland became a country of immigration."
+    ]
+   },
+   {
+    "h": "Post-2008 emigration",
+    "points": [
+     "Causes: the property crash, the banking crisis, which began in 2008, unemployment, and the EU–IMF bailout agreed in November 2010.",
+     "Net emigration from about 2009 to the mid-2010s; many leavers were skilled young graduates, and many recent immigrants also left.",
+     "Emigration peaked at about 89,000 in the year to April 2013 (CSO estimate), the highest since the 1980s; about half were Irish nationals.",
+     "Main destinations: Australia, the UK, Canada and the USA. Australia's working holiday visa was widely used."
+    ]
+   },
+   {
+    "h": "Immigration since the mid-2010s",
+    "points": [
+     "Net immigration returned in the mid-2010s and continued.",
+     "Causes: economic recovery, job growth in multinationals and services, returning Irish emigrants, and non-EU skilled workers.",
+     "Ukrainians came under EU temporary protection after Russia's full-scale invasion of Ukraine on 24 February 2022; over 100,000 people from Ukraine came to Ireland by 2024.",
+     "International protection applicants.",
+     "Housing pressure."
+    ]
+   },
+   {
+    "h": "Census 2016 to 2022 components of change",
+    "points": [
+     "Net migration of about 190,000 between 2016 and 2022, larger than natural increase (about 170,000)."
+    ]
+   },
+   {
+    "h": "Ireland's immigrant population (Census 2022)",
+    "points": [
+     "About 630,000 non-Irish nationals (about 12% of the population), plus about 170,000 dual Irish citizens.",
+     "Just over 1 million people (about one in five) were born outside Ireland.",
+     "Largest non-Irish groups: Polish about 94,000; UK about 83,000; Indian about 45,000; Romanian about 43,000; Lithuanian about 31,000; Brazilian about 27,000.",
+     "Polish is the most common language other than English and Irish spoken at home (Census 2016 and 2022)."
+    ]
+   },
+   {
+    "h": "The Irish diaspora",
+    "points": [
+     "Irish communities and people of Irish descent live in Britain, the USA and Australia."
+    ]
+   },
+   {
+    "h": "Ireland as donor region: negative impacts",
+    "points": [
+     "Loss of young workers and skills (brain drain), and of the State's investment in their education.",
+     "Ageing rural population and an imbalanced age structure.",
+     "Rural decline: closed schools, fewer marriages and depopulated parishes.",
+     "Lower birth rates and family separation."
+    ]
+   },
+   {
+    "h": "Ireland as donor region: positive impacts",
+    "points": [
+     "Emigrant remittances.",
+     "Less pressure on jobs and welfare.",
+     "Emigrants returned with skills, capital and experience in the 1970s and 1990s.",
+     "Diaspora links support trade, tourism and investment."
+    ]
+   },
+   {
+    "h": "Ireland as receiver region: positive impacts",
+    "points": [
+     "Fills labour shortages in construction, health care, hospitality and technology.",
+     "Young workers pay taxes and offset ageing.",
+     "New skills and enterprise.",
+     "Cultural diversity: food, sport, languages and religions.",
+     "Keeps rural schools and parishes open.",
+     "Boosts population growth."
+    ]
+   },
+   {
+    "h": "Ireland as receiver region: negative or challenging impacts",
+    "points": [
+     "Pressure on housing, schools and health services.",
+     "Exploitation of some migrant workers.",
+     "Language barriers in schools.",
+     "Integration challenges and racism, detailed in Ethnic, racial and religious issues arising from migration.",
+     "Remittances leave Ireland."
+    ]
+   },
+   {
+    "h": "Why immigration rose after 2010",
+    "points": [
+     "Economic recovery and job creation.",
+     "Multinational investment.",
+     "EU free movement.",
+     "Return of Irish emigrants.",
+     "Ireland is English-speaking and in the EU."
+    ]
+   },
+   {
+    "h": "Why immigration fell from 2007 to 2010",
+    "points": [
+     "The recession, the collapse of construction and rising unemployment.",
+     "Many EU accession migrants returned home."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "In the 1950s emigration was highest since the 1880s, with about 400,000 net emigrants between 1951 and 1961, mostly to Britain, because of stagnation, unemployment, the mechanisation of farming and British demand for labour; the Commission on Emigration reported in 1954. The 1970s brought the first net immigration since the Famine, as the First Programme for Economic Expansion and foreign investment created jobs, returning emigrants arrived, and Ireland joined the EEC in 1973. The 1980s brought heavy net emigration again, of over 200,000 between 1981 and 1991, to Britain and the USA, because of recession, high unemployment and high taxes, including many graduates. The Celtic Tiger, from 1996, brought net immigration, including EU migrants after the 2004 enlargement, workers on work permits and asylum seekers; Census 2006 recorded about 420,000 non-Irish nationals. After 2008, the property crash, banking crisis and EU–IMF bailout drove net emigration to Australia, Canada, the UK and the USA, peaking at about 89,000 in the year to April 2013. From the mid-2010s, economic recovery brought net immigration again, with Ukrainians under EU temporary protection from 2022. Net migration of about 190,000 between 2016 and 2022 was larger than natural increase of about 170,000.",
+    "prompt": "Describe and explain the changing patterns of migration to and from Ireland since 1950.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "As a donor region in the 1950s and 1980s, Ireland lost young workers, skills and the State's investment in their education; its rural population aged and rural schools and parishes closed. Emigrants sent remittances home, reduced pressure on jobs and welfare, and some returned with skills and capital, as in the 1970s and 1990s, while diaspora links support trade, tourism and investment. As a receiver region since 1996, Ireland gained workers to fill shortages in construction, health care, hospitality and technology; young workers paid taxes and offset ageing; new skills and enterprise arrived; and cultural diversity grew. Migration also kept rural schools and parishes open and boosted population growth. The negative effects of immigration include pressure on housing, schools and health services, exploitation of some migrant workers, language barriers in schools, integration challenges and racism, and money sent abroad as remittances.",
+    "prompt": "Population movements have an impact on donor and receiver regions. Discuss with reference to Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 13,
+    "model": "Push factor: unemployment in recession, such as the 1980s. Pull factor: jobs in the Celtic Tiger economy, from 1996.",
+    "prompt": "Name one push factor and one pull factor associated with migration in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 14,
+    "model": "Immigration fills labour shortages in construction, health care, hospitality and technology. Young immigrant workers pay taxes and offset the effects of an ageing population. Immigrants bring new skills and enterprise. Cultural diversity grows through food, sport, languages and religions. Migration keeps rural schools and parishes open and boosts population growth, with net migration the larger component of growth from 2016 to 2022. Emigrants returning from abroad bring skills, capital and experience, as in the 1970s and 1990s.",
+    "prompt": "Discuss the positive impacts of migration on Ireland.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s4": {
+  "keyTerms": [
+   {
+    "definition": "A person with a well-founded fear of persecution in their own country who meets the 1951 Refugee Convention definition.",
+    "term": "Refugee"
+   },
+   {
+    "definition": "A person who has applied for protection and is awaiting a decision on the claim.",
+    "term": "Asylum seeker"
+   },
+   {
+    "definition": "The arrangement, dating from the 1920s, that lets Irish and British citizens move, live and work freely between Ireland and the UK.",
+    "term": "Common Travel Area"
+   },
+   {
+    "definition": "The group of European countries with no internal border checks, a common external border and common visa rules.",
+    "term": "Schengen Area"
+   },
+   {
+    "definition": "The EU rule making the member state of first entry responsible for an asylum claim.",
+    "term": "Dublin system"
+   },
+   {
+    "definition": "An Irish work permit for occupations in short supply, which can lead to family reunification.",
+    "term": "Critical Skills Employment Permit"
+   },
+   {
+    "definition": "The state accommodation and meals system for international protection applicants, with a small weekly allowance.",
+    "term": "Direct provision"
+   },
+   {
+    "definition": "Immediate right to live, work and access services for people fleeing war, given without an asylum claim, as used for Ukrainians from 2022.",
+    "term": "Temporary protection"
+   },
+   {
+    "definition": "The EU border and coast guard agency, established in 2004.",
+    "term": "Frontex"
+   },
+   {
+    "definition": "The 2024 Pact approach under which each state either accepts relocated asylum seekers or pays into a fund.",
+    "term": "Mandatory solidarity"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Governments balance the economic need for migrants against public opinion and their legal duties to refugees.",
+    "h": "Why states have migration policies",
+    "points": [
+     "Aims of policy: to control the numbers admitted, fill labour and skills shortages, meet humanitarian and legal duties to refugees, protect security and support integration.",
+     "EU citizens hold free movement rights within the EU; non-EU citizens are third-country nationals whose entry and stay national policy controls.",
+     "An economic migrant moves mainly to work or to improve living standards.",
+     "A refugee meets the 1951 Refugee Convention definition: a well-founded fear of persecution for reasons of race, religion, nationality, membership of a particular social group or political opinion.",
+     "An asylum seeker is a person who has applied for protection and is awaiting a decision, so not every asylum seeker is recognised as a refugee.",
+     "The Refugee Convention was signed in Geneva in 1951; its 1967 Protocol removed its geographic and time limits.",
+     "UNHCR is the UN refugee agency."
+    ]
+   },
+   {
+    "h": "Why people seek asylum",
+    "points": [
+     "War and conflict force people to flee their country.",
+     "Persecution for religion, ethnicity, political opinion or sexuality.",
+     "Human rights abuses by the state against its own people."
+    ]
+   },
+   {
+    "h": "Why EU states attract asylum seekers and other migrants",
+    "points": [
+     "Safety, the rule of law and respect for human rights.",
+     "High living standards, jobs and welfare provision.",
+     "Existing family and diaspora communities already settled in EU states.",
+     "Nearness to conflict zones in the Middle East and Africa, which makes Europe the closest destination for many."
+    ]
+   },
+   {
+    "b": "Ireland's borders with the UK and the EU are governed by different arrangements, and Ireland is outside Schengen.",
+    "h": "Common Travel Area, EU free movement and Irish labour markets",
+    "points": [
+     "The Common Travel Area lets Irish and British citizens move, live and work freely between Ireland and the UK. It dates from the 1920s and was kept after the UK left the EU on 31 January 2020.",
+     "Ireland is outside Schengen because of the Common Travel Area; Brexit did not end it.",
+     "EU, EEA and Swiss citizens may live and work in Ireland without permits.",
+     "On 1 May 2004 Ireland, the UK and Sweden were the only existing members to give citizens of the new member states immediate access to their labour markets.",
+     "Ireland's labour market was later opened to Bulgaria and Romania, after a delay.",
+     "Polish nationals were the largest non-Irish group in Census 2022, at about 94,000."
+    ]
+   },
+   {
+    "b": "Non-EU workers need a permit, and the system is skills-based.",
+    "h": "Employment permits for non-EU workers",
+    "points": [
+     "Employment permits are issued by the Department of Enterprise.",
+     "The Critical Skills Employment Permit covers occupations in short supply, such as ICT, engineering and medicine, and can lead to family reunification.",
+     "The General Employment Permit is the second main type, and a list of ineligible occupations restricts which jobs qualify.",
+     "A labour-market test checks that no suitable Irish or EU worker is available.",
+     "Purpose: to fill gaps in the labour market without displacing Irish or EU workers."
+    ]
+   },
+   {
+    "h": "International protection (asylum)",
+    "points": [
+     "The Refugee Act 1996 established the original asylum system.",
+     "The International Protection Act 2015 introduced a single application procedure, in which all protection claims are considered together.",
+     "The International Protection Office decides first-instance claims.",
+     "Over 13,000 international protection applications were made in 2022, a record at the time; numbers in 2023 were comparable.",
+     "Recent countries of origin include Algeria, Georgia, Nigeria, Somalia and Afghanistan."
+    ]
+   },
+   {
+    "b": "Direct provision is the accommodation system for international protection applicants while their claims are decided.",
+    "h": "Direct provision",
+    "points": [
+     "Applicants receive accommodation and meals in centres, plus a small weekly allowance; the system was introduced in 2000.",
+     "Accommodation is now run by IPAS (International Protection Accommodation Services).",
+     "Criticisms: long stays, lack of privacy, unsuitability for children, isolation in rural centres and poor mental health.",
+     "The McMahon Report (2015) criticised direct provision.",
+     "A 2017 Supreme Court ruling found an absolute ban on work for applicants unconstitutional, so applicants gained a right to work after a waiting period from 2018.",
+     "The White Paper of February 2021 planned to end direct provision by the end of 2024; the plan was abandoned as numbers rose.",
+     "Shortages of accommodation left some applicants without accommodation."
+    ]
+   },
+   {
+    "h": "Citizenship",
+    "points": [
+     "The citizenship referendum of June 2004 (27th Amendment) ended the automatic right to citizenship for children born in Ireland to non-national parents.",
+     "About 79% of voters said yes to the 2004 amendment.",
+     "Non-nationals may apply for naturalisation after a period of residence, and successful applicants take part in a citizenship ceremony."
+    ]
+   },
+   {
+    "h": "Refugee resettlement and temporary protection",
+    "points": [
+     "The Irish Refugee Protection Programme, established in September 2015, committed to taking up to 4,000 people, including refugees from Syria, through EU relocation and UNHCR resettlement.",
+     "The EU Temporary Protection Directive, from 4 March 2022, gave people fleeing Russia's invasion of Ukraine (which began on 24 February 2022) the immediate right to live, work and access services without making an asylum claim.",
+     "Temporary protection is not international protection, and Ukrainians are not counted in asylum applications.",
+     "Ireland received over 100,000 Ukrainians by 2024.",
+     "Housing pressure from Ukrainian arrivals contrasts with the accommodation-based system for international protection applicants."
+    ]
+   },
+   {
+    "h": "Evaluation of Irish policy",
+    "points": [
+     "Policy is open to EU citizens and skilled workers, but restrictive for low-skilled non-EU workers.",
+     "The asylum system is slow and accommodation-based, relying on direct provision.",
+     "Labour needs pull in one direction and housing pressure in the other.",
+     "Anti-immigration protests show public opposition, as described in the notes on Ethnic, racial and religious issues arising from migration."
+    ]
+   },
+   {
+    "h": "Free movement and Schengen in the EU",
+    "points": [
+     "Free movement of workers, from the Treaty of Rome (1957), and EU citizenship, from the Maastricht Treaty (1992), let EU citizens live and work in any member state.",
+     "The Schengen Agreement was signed in 1985 at Schengen, Luxembourg, and came into effect in 1995; it removed internal border checks between members.",
+     "A common external border and common visa rules apply across the Schengen area.",
+     "The Schengen area had 29 countries from 2025, when Bulgaria and Romania became full members in January 2025; it includes non-EU Norway, Iceland, Switzerland and Liechtenstein.",
+     "Ireland and Cyprus are EU members outside Schengen.",
+     "After 2015 some states temporarily reintroduced internal border checks."
+    ]
+   },
+   {
+    "h": "The Dublin system",
+    "points": [
+     "The member state where an asylum seeker first enters the EU is responsible for the claim.",
+     "The system is named after the city where the 1990 Dublin Convention was signed; it was replaced by the Dublin II Regulation (2003) and Dublin III (2013).",
+     "It is an EU asylum rule, not an Irish law.",
+     "It is meant to prevent asylum shopping, where applicants choose the state in which they claim.",
+     "It places most pressure on frontier states such as Italy, Greece, Spain and Malta.",
+     "The rule broke down in 2015."
+    ]
+   },
+   {
+    "h": "Frontex and legal migration",
+    "points": [
+     "Frontex, established in 2004 with its headquarters in Warsaw, is the EU border and coast guard agency.",
+     "Frontex runs patrols and returns, and its search-and-rescue role is debated.",
+     "The EU Blue Card directive, adopted in 2009, admits highly skilled non-EU workers; seasonal worker rules also apply.",
+     "Labour shortages and ageing populations are reasons for admitting workers, as set out in the notes on Changing population characteristics."
+    ]
+   },
+   {
+    "b": "The main trends behind recent EU policy are the 2015 to 2016 crisis, Mediterranean routes and the Ukrainian movement.",
+    "h": "Recent trends driving policy (2015 to 2016 and after)",
+    "points": [
+     "The war in Syria from 2011, along with conflict in Afghanistan, Iraq and Eritrea, drove large movements of people.",
+     "About 1.3 million asylum applications were made in the EU in 2015, and a similar number in 2016.",
+     "Over 1 million people crossed the Mediterranean to Europe in 2015, most reaching the Greek islands from Turkey, with Lesbos the main landing point.",
+     "The Eastern Mediterranean route runs from Turkey to Greece, and the Balkan route carries migrants onwards from Greece through the Balkans.",
+     "The Central Mediterranean route runs from Libya to Italy; Lampedusa, south of Sicily, is a main landing point.",
+     "The Lampedusa shipwreck of October 2013 killed over 360 people and led to Italy's Mare Nostrum search-and-rescue operation (2013 to 2014).",
+     "Deaths at sea and smuggling gangs accompanied these routes, and irregular arrivals continued.",
+     "The Ukrainian refugee movement from 2022 added to these pressures."
+    ]
+   },
+   {
+    "h": "Policy responses, 2015 to 2016",
+    "points": [
+     "In August 2015 German Chancellor Angela Merkel said 'Wir schaffen das' ('We can do this'); Germany received the largest number of asylum seekers in the EU in 2015 to 2016.",
+     "In September 2015 the EU agreed to relocate 160,000 asylum seekers from Italy and Greece.",
+     "Hungary, Poland and the Czech Republic refused to take part, and in 2020 the EU Court of Justice ruled that they had broken EU law.",
+     "Hungary, under Viktor Orbán, built a fence on its border with Serbia in 2015.",
+     "The EU–Turkey statement of March 2016 required irregular migrants reaching the Greek islands to be returned to Turkey; the EU was to provide €6 billion for refugees in Turkey, and arrivals in Greece fell sharply.",
+     "Externalisation: deals with Turkey and with Libya and other North African states aimed to control departures before migrants reached EU borders.",
+     "Frontex was strengthened and internal border checks were reintroduced."
+    ]
+   },
+   {
+    "h": "Policy responses since 2022 and the 2024 Pact",
+    "points": [
+     "The Temporary Protection Directive (2001) was activated for the first time on 4 March 2022.",
+     "Over 4 million people held temporary protection in the EU in 2024.",
+     "The Pact on Migration and Asylum was adopted in May 2024 and applies from mid-2026.",
+     "The Pact's main ideas are faster border procedures and mandatory solidarity, under which each state either accepts relocated asylum seekers or pays into a fund.",
+     "Ireland chose to opt in to the Pact in 2024."
+    ]
+   },
+   {
+    "h": "Challenges for EU states from large numbers of asylum seekers",
+    "points": [
+     "Cost of reception and housing.",
+     "Slow processing and backlogs.",
+     "Integration, including language, jobs and schooling.",
+     "An unequal burden on frontier states.",
+     "Political division and the rise of anti-immigration parties.",
+     "Security screening of new arrivals.",
+     "Deaths at sea and smuggling gangs."
+    ]
+   },
+   {
+    "h": "Evaluation of EU policy",
+    "points": [
+     "Tension between humanitarian duty and border control.",
+     "Tension between solidarity between member states and national sovereignty, as the relocation dispute shows.",
+     "Europe needs workers but faces public opposition to immigration."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Trends: the war in Syria from 2011, together with conflict in Afghanistan, Iraq and Eritrea, drove large movements. About 1.3 million asylum applications were made in the EU in 2015, and a similar number in 2016. Over 1 million people crossed the Mediterranean in 2015, most reaching the Greek islands from Turkey, while the Central Mediterranean route from Libya to Italy brought arrivals to Lampedusa. The Lampedusa shipwreck of October 2013 killed over 360 people. Deaths at sea and the Ukrainian refugee movement from 2022 added to the pressure. Policy responses: Germany's open stance in August 2015 led it to receive the largest number of asylum seekers in the EU in 2015 to 2016. In September 2015 the EU agreed to relocate 160,000 asylum seekers from Italy and Greece, but Hungary, Poland and the Czech Republic refused, and in 2020 the EU Court of Justice ruled they had broken EU law. Hungary built a fence on its border with Serbia in 2015. The EU–Turkey statement of March 2016 returned irregular migrants reaching the Greek islands to Turkey in exchange for €6 billion for refugees in Turkey, and arrivals in Greece fell sharply. The Dublin system broke down in 2015, Frontex was strengthened and internal border checks were reintroduced. The Temporary Protection Directive was activated for the first time on 4 March 2022 for Ukrainians. The Pact on Migration and Asylum, adopted in May 2024, brings faster border procedures and mandatory solidarity and applies from mid-2026. Evaluation: policy balances humanitarian duty against border control, and solidarity between states against national sovereignty, while Europe needs workers but faces public opposition.",
+    "prompt": "Discuss how recent trends in migration are impacting on migration policy in Europe.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Irish policy is shaped by the Common Travel Area with the UK, which dates from the 1920s and continues after the UK left the EU on 31 January 2020, and which keeps Ireland outside Schengen. EU and EEA citizens may live and work in Ireland without permits, and Ireland opened its labour market to the 2004 accession states on 1 May 2004. Non-EU workers need employment permits issued by the Department of Enterprise: the Critical Skills Employment Permit for occupations in short supply, which can lead to family reunification, and the General Employment Permit, subject to a labour-market test. International protection rests on the Refugee Act 1996 and the International Protection Act 2015, with first-instance decisions made by the International Protection Office. Applications exceeded 13,000 in 2022. Applicants are housed under direct provision, introduced in 2000 and criticised in the McMahon Report of 2015 for long stays, lack of privacy, unsuitability for children and isolation in rural centres. Applicants gained a right to work from 2018 after a 2017 Supreme Court ruling, and the 2021 White Paper's plan to end direct provision by 2024 was abandoned as numbers rose. The 2004 citizenship referendum, which about 79% supported, ended automatic citizenship for children born in Ireland to non-national parents. The Irish Refugee Protection Programme, from 2015, committed to taking up to 4,000 refugees. Temporary protection, activated for Ukrainians from March 2022, gave immediate rights to live and work without an asylum claim, and Ireland received over 100,000 Ukrainians by 2024. Evaluation: policy is open to EU and skilled workers but restrictive for low-skilled non-EU workers; the asylum system is slow and accommodation-based; labour needs and housing pressure pull against each other; and anti-immigration protests show the strain.",
+    "prompt": "Examine Irish migration policy.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "People seek asylum because war and conflict make staying in their country dangerous, as with the war in Syria from 2011. Many also flee persecution for their religion, ethnicity, political opinion or sexuality, which leaves them without protection at home. Under the 1951 Refugee Convention, a person who fears persecution for these reasons can apply for protection in another country while the claim is decided.",
+    "prompt": "Explain briefly one reason why people seek asylum.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s5": {
+  "keyTerms": [
+   {
+    "definition": "A group sharing culture, language, ancestry, traditions or religion.",
+    "term": "Ethnic group"
+   },
+   {
+    "definition": "A group classed by physical traits; a social idea with no biological basis for ranking people.",
+    "term": "Race"
+   },
+   {
+    "definition": "Fear or hostility towards foreigners.",
+    "term": "Xenophobia"
+   },
+   {
+    "definition": "The clustering of migrants in particular areas, by choice or because discrimination forces them there.",
+    "term": "Segregation"
+   },
+   {
+    "definition": "The French principle of strict separation of religion and state, dating from the 1905 law.",
+    "term": "Laïcité"
+   },
+   {
+    "definition": "A segregated high-rise estate on the edge of a French city.",
+    "term": "Banlieue"
+   },
+   {
+    "definition": "A guest worker recruited to Germany, especially from Turkey, between the 1950s and 1973.",
+    "term": "Gastarbeiter"
+   },
+   {
+    "definition": "Caribbean migrants who arrived in Britain from 1948, including those on the Empire Windrush.",
+    "term": "Windrush generation"
+   },
+   {
+    "definition": "The settlement of Protestant colonists from Scotland and England on land taken from Catholic Irish from 1609.",
+    "term": "Plantation of Ulster"
+   },
+   {
+    "definition": "Europe's largest ethnic minority, originating in northern India and historically migratory.",
+    "term": "Roma"
+   }
+  ],
+  "notes": [
+   {
+    "b": "These three categories overlap but are not the same, and migration can bring all three into contact.",
+    "h": "Key terms: ethnic group, race and religion",
+    "points": [
+     "An ethnic group shares culture, language, ancestry, traditions or religion.",
+     "A race is a group classed by physical traits; race is a social idea with no biological basis for ranking people.",
+     "Religion is a shared system of belief and practice, and it can cut across ethnic and racial groups.",
+     "A multi-ethnic society contains several ethnic groups; a multicultural society is one in which those groups keep distinct cultural practices."
+    ]
+   },
+   {
+    "h": "Prejudice, segregation and government approaches",
+    "points": [
+     "Racism is prejudice or discrimination based on race or ethnicity.",
+     "Xenophobia is fear or hostility towards foreigners; Islamophobia is prejudice against Muslims.",
+     "Segregation is the clustering of migrants in particular areas, either by choice for support, cheap housing and chain migration, or because discrimination forces them there.",
+     "Assimilation is the adoption of the majority culture by migrants.",
+     "Integration is the joining of migrants to society while they keep some of their own culture.",
+     "Multiculturalism is the acceptance of several cultures as equal within one society."
+    ]
+   },
+   {
+    "b": "These are the general mechanisms; each applies in the case studies below.",
+    "h": "How ethnic, racial and religious issues arise",
+    "points": [
+     "Competition for jobs, housing and services, especially in recessions, and fear that wages are undercut.",
+     "Visible difference, such as skin colour or dress like the hijab, makes minorities targets of prejudice.",
+     "Religious practice in public space (places of worship, dress, halal food, holy days and faith schools) can clash with secular or majority-religion norms.",
+     "Residential segregation and concentration in deprived areas reinforce poverty and separation.",
+     "Language barriers in schools, work and services.",
+     "Political exploitation by far-right and anti-immigration parties and movements, and misinformation on social media.",
+     "Second-generation issues: children born in the host country may face discrimination and conflict over identity.",
+     "Positive outcomes include cultural enrichment through food, music, sport and festivals, new places of worship, intercultural schools and mixed marriages."
+    ]
+   },
+   {
+    "b": "Ireland moved from a mostly white, Catholic society to a diverse one from the 1990s.",
+    "h": "Case study: Ireland's growing diversity and religious change",
+    "points": [
+     "Census 2022: about one in five people (just over 1 million) were born outside Ireland, and about 630,000 were non-Irish nationals (about 12%).",
+     "The largest non-Irish groups are Polish, UK, Indian, Romanian, Lithuanian and Brazilian.",
+     "Census 2022: about 69% of people were Roman Catholic, down from about 78% in 2016.",
+     "Census 2022: about 14% had no religion, up from about 10% in 2016.",
+     "Census 2022 counted about 82,000 Muslims, about 100,000 Orthodox Christians and about 33,000 Hindus.",
+     "The Islamic Cultural Centre of Ireland is in Clonskeagh, Dublin.",
+     "About 9 in 10 primary schools are under Catholic patronage, so religion once decided many school admissions."
+    ]
+   },
+   {
+    "h": "Ireland: racism and tensions",
+    "points": [
+     "East Wall, Dublin: protests from November 2022 against housing international protection applicants in a former office building.",
+     "Dublin riot, 23 November 2023: after a knife attack on children outside a school on Parnell Square, buses, a Luas tram and shops were burned and looted.",
+     "Arson attacks on several buildings proposed for asylum accommodation (2023 to 2024).",
+     "Racism and hate crime accompany these tensions, and the protests show how hostility can turn to violence."
+    ]
+   },
+   {
+    "b": "Irish policy combines equality law, an integration strategy and anti-racism measures, with specific reforms to schools and recognition of Travellers.",
+    "h": "Ireland: government policy",
+    "points": [
+     "The Employment Equality Act 1998 and the Equal Status Act 2000 prohibit discrimination on nine grounds, including race, religion and membership of the Traveller community.",
+     "The Prohibition of Incitement to Hatred Act 1989 is an earlier law against hatred.",
+     "The Irish Human Rights and Equality Commission was established in 2014.",
+     "The Migrant Integration Strategy ran from 2017 to 2020.",
+     "The National Action Plan Against Racism was published in March 2023.",
+     "The Criminal Justice (Hate Offences) Act 2024 gives tougher sentences for crimes motivated by hatred of a protected characteristic.",
+     "The Education (Admission to Schools) Act 2018 removed the baptism barrier, so most Catholic primary schools can no longer use religion to decide admissions.",
+     "Educate Together, a multi-denominational school body founded in 1984, runs schools open to all faiths and none.",
+     "Irish Travellers were formally recognised by the State as an ethnic minority on 1 March 2017."
+    ]
+   },
+   {
+    "h": "Ireland: evaluation and the Traveller community",
+    "points": [
+     "The legal framework is strong, but the 2022 to 2023 protests show that hostility persists.",
+     "Direct provision isolates applicants in rural centres, and this works against integration (see the notes on Migration policy in Ireland and the EU).",
+     "The Traveller community is an indigenous Irish ethnic minority, not a migrant group; it is included here only as part of Irish ethnic policy.",
+     "About 33,000 Travellers were counted in Census 2022."
+    ]
+   },
+   {
+    "b": "France has a large Muslim population and a strict model of secularism, and it follows an assimilation approach.",
+    "h": "Case study: France and laïcité",
+    "points": [
+     "Post-war immigrant labour came from Algeria, Morocco, Tunisia and Portugal; large-scale Algerian migration followed the Algerian War of Independence (1954 to 1962) and Algeria's independence in 1962.",
+     "France has the largest Muslim population in western Europe.",
+     "Laïcité, the principle of strict separation of religion and state, dates from the 1905 law.",
+     "A 2004 law banned conspicuous religious symbols, including the Islamic headscarf, in state schools.",
+     "A 2010 law banned face coverings, such as the burqa and niqab, in public places, in force from 2011.",
+     "Banlieues are segregated high-rise estates on the edge of cities, with high unemployment.",
+     "The October to November 2005 riots began in Clichy-sous-Bois, a Paris banlieue, after two teenagers died fleeing police; they spread across France and a state of emergency was declared.",
+     "June 2023 riots followed the police shooting of a 17-year-old in Nanterre.",
+     "The Charlie Hebdo attack in January 2015 and the Paris attacks of 13 November 2015 (130 killed) were followed by rising Islamophobia.",
+     "The National Front, founded in 1972 by Jean-Marie Le Pen, was renamed the National Rally (Rassemblement National) in 2018 under Marine Le Pen."
+    ]
+   },
+   {
+    "h": "Case study: Germany and Turkish guest workers",
+    "points": [
+     "A recruitment agreement with Turkey was signed in 1961, and recruitment of guest workers (Gastarbeiter) stopped in 1973.",
+     "Guest workers were expected to return home, but many stayed and brought their families.",
+     "Germany long denied them citizenship, and segregated districts formed, such as Kreuzberg in Berlin, which has a large Turkish community.",
+     "The 2000 citizenship law gave citizenship to children born in Germany to long-resident foreign parents.",
+     "The 2024 reform allowed dual citizenship generally and shortened the residence requirement.",
+     "About 3 million people of Turkish origin live in Germany (2020s).",
+     "The Alternative für Deutschland (AfD), founded in 2013, grew after the 2015 refugee arrivals on an anti-immigration platform."
+    ]
+   },
+   {
+    "h": "Case study: Britain and the Windrush generation",
+    "points": [
+     "The Empire Windrush arrived at Tilbury in June 1948 with passengers from the Caribbean.",
+     "Caribbean migrants faced racism in housing and work.",
+     "The Notting Hill riots in London in 1958.",
+     "The Race Relations Act 1965 was the first UK law against racial discrimination.",
+     "The Windrush scandal of 2018: long-settled Caribbean-born residents were wrongly detained, denied services or deported because they lacked documents."
+    ]
+   },
+   {
+    "b": "The Plantation was a historic migration whose religious legacy still divides Northern Ireland.",
+    "h": "Case study: Northern Ireland and the Plantation of Ulster",
+    "points": [
+     "The Plantation of Ulster began in 1609, after the Flight of the Earls (1607); land taken from Catholic Irish was settled by Protestant colonists from Scotland and England.",
+     "Centuries of religious and political division followed, leading to the Troubles from the late 1960s to 1998, in which about 3,500 people were killed.",
+     "The Good Friday (Belfast) Agreement was signed on 10 April 1998.",
+     "Census 2021 (Northern Ireland): about 46% Catholic and about 43% Protestant and other Christian.",
+     "Most children attend schools of their own community, and peace walls still divide some Belfast neighbourhoods."
+    ]
+   },
+   {
+    "h": "Case study: the Roma",
+    "points": [
+     "The Roma are about 10 to 12 million people in Europe (Council of Europe estimate) and Europe's largest ethnic minority.",
+     "The Roma originated in northern India and migrated to Europe about 1,000 years ago.",
+     "The Roma have faced discrimination in housing, education and employment, and segregated schooling in parts of central and eastern Europe.",
+     "France expelled Roma to Romania and Bulgaria in 2010, which drew EU criticism."
+    ]
+   },
+   {
+    "h": "Comparing government approaches",
+    "points": [
+     "France's assimilation model treats all citizens alike and collects no official ethnic statistics.",
+     "Ireland's approach rests on equality law and an integration strategy.",
+     "Germany moved from excluding guest workers from citizenship to citizenship reform in 2000 and 2024."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Issues arise through competition for jobs, housing and services, visible difference, religious practice in public space, residential segregation, language barriers, political exploitation and second-generation identity conflict. In France, laïcité shapes the response: the 2004 law banned conspicuous religious symbols, including the headscarf, in state schools, and the 2010 law banned face coverings in public places. Segregated banlieues of high-rise estates, with high unemployment, were the setting for the October to November 2005 riots, which began in Clichy-sous-Bois, and for the June 2023 riots. Terrorist attacks in 2015 were followed by rising Islamophobia, and the National Rally has exploited anti-immigration feeling. In Ireland, religious change has been rapid: Census 2022 showed about 69% Roman Catholic, down from about 78% in 2016, with about 14% of people having no religion. Most primary schools are under Catholic patronage, so religion decided many admissions until the Education (Admission to Schools) Act 2018 removed the baptism barrier. Racism and hate crime appeared in the East Wall protests from November 2022 and the Dublin riot of 23 November 2023, which followed a knife attack on children outside a school and in which buses, a Luas tram and shops were burned and looted. Government responses include the Employment Equality Act 1998, the Equal Status Act 2000, the Irish Human Rights and Equality Commission (2014), the Migrant Integration Strategy, the National Action Plan Against Racism (2023) and the Criminal Justice (Hate Offences) Act 2024. Evaluation: issues arise from circumstances, discrimination and politics rather than from migrants themselves, and the reforms show that policy can reduce them, although the protests show that hostility persists.",
+    "prompt": "Examine how ethnic and religious issues can arise as a result of migration.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Ireland's equality law covers discrimination on nine grounds, including race, religion and membership of the Traveller community, under the Employment Equality Act 1998 and the Equal Status Act 2000, and the Prohibition of Incitement to Hatred Act 1989 is an earlier safeguard. The Irish Human Rights and Equality Commission was established in 2014 to enforce these protections. The Migrant Integration Strategy ran from 2017 to 2020, and the National Action Plan Against Racism was published in March 2023. The Criminal Justice (Hate Offences) Act 2024 gives tougher sentences for crimes motivated by hatred of a protected characteristic. School policy changed through the Education (Admission to Schools) Act 2018, which removed the baptism barrier, and through Educate Together, founded in 1984 as a multi-denominational body. Irish Travellers were recognised as an ethnic minority on 1 March 2017. Evaluation: the legal framework is comprehensive, and school admissions reform addresses one long-standing barrier. However, the East Wall protests from November 2022 and the Dublin riot of 23 November 2023 show that hostility persists, and direct provision, which isolates asylum applicants in rural centres, works against integration. Policy has been strongest on law and schools and weakest where housing and community pressures meet migration.",
+    "prompt": "Describe and evaluate government policy in Ireland on ethnic, racial and religious issues arising from migration.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Germany is the example. A recruitment agreement with Turkey signed in 1961 brought guest workers (Gastarbeiter), who were recruited until 1973. Guest workers were expected to return home, but many stayed and brought families, so the Turkish community became established, with Kreuzberg in Berlin a district where it is large. Germany long denied these long-term residents citizenship, which fed segregation and tension. The 2000 citizenship law gave citizenship to children born in Germany to long-resident foreign parents, and the 2024 reform allowed dual citizenship generally and shortened the residence requirement. About 3 million people of Turkish origin live in Germany. Racial and religious tensions were sharpened by the 2015 refugee arrivals, when Germany received the largest number of asylum seekers in the EU, and by the rise of the Alternative für Deutschland, founded in 2013, which grew after 2015 on an anti-immigration platform. Evaluation: tensions arose because of exclusion, segregation and political exploitation rather than because of migration alone, and the citizenship reforms show that policy can reduce them.",
+    "prompt": "Migration can lead to racial and religious tension. Discuss with reference to one European country other than Ireland.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-population-migration-s6": {
+  "keyTerms": [
+   {
+    "definition": "The growing share of a country's population living in towns and cities.",
+    "term": "Urbanisation"
+   },
+   {
+    "definition": "The movement of people out of cities to towns and the countryside.",
+    "term": "Counter-urbanisation"
+   },
+   {
+    "definition": "Migration in which people move to places where family or community members have already settled.",
+    "term": "Chain migration"
+   },
+   {
+    "definition": "A city much larger than any other city in its country.",
+    "term": "Primate city"
+   },
+   {
+    "definition": "Money sent home by migrants to their families.",
+    "term": "Remittances"
+   },
+   {
+    "definition": "The Chinese household registration system that ties public services to a person's registered home, introduced in 1958.",
+    "term": "Hukou"
+   },
+   {
+    "definition": "An informal settlement on hillsides or at the urban edge in Brazil.",
+    "term": "Favela"
+   },
+   {
+    "definition": "The name for a slum in Kolkata.",
+    "term": "Bustee"
+   },
+   {
+    "definition": "The poorer south of Italy, with about 20 million people.",
+    "term": "Mezzogiorno"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Urbanisation is the growing share of people living in towns; urban growth is the rise in the number of people living in towns.",
+    "h": "The process: urbanisation and rural-to-urban migration",
+    "points": [
+     "Rural-to-urban migration is the main driver of urbanisation in developing countries; natural increase in the cities is the other driver.",
+     "Over half the world's people have lived in urban areas since about 2007 (UN).",
+     "About 68% of the world's people are expected to be urban by 2050 (UN, 2018 projection).",
+     "The fastest urban growth is now in Asia and Africa, where megacities are forming."
+    ]
+   },
+   {
+    "h": "Push factors from rural areas",
+    "points": [
+     "Lack of jobs and low farm incomes.",
+     "Mechanisation of farming, which reduces the labour needed on the land.",
+     "Small, subdivided holdings that cannot support a family.",
+     "Poor services, including schools, hospitals, broadband and transport.",
+     "Drought, famine and land degradation in the developing world.",
+     "Isolation and lack of social life."
+    ]
+   },
+   {
+    "h": "Pull factors to cities",
+    "points": [
+     "Jobs in industry and services.",
+     "Higher wages.",
+     "Third-level education.",
+     "Better health care and services.",
+     "Entertainment and the 'bright lights' of the city.",
+     "Existing family networks, which create chain migration."
+    ]
+   },
+   {
+    "h": "Counter-urbanisation",
+    "points": [
+     "Counter-urbanisation is people moving out of cities to towns and the countryside, found in developed countries.",
+     "Remote working since COVID-19 lets people live outside cities while working in them."
+    ]
+   },
+   {
+    "b": "Ireland was a rural country until the later 20th century, and its population then concentrated in cities.",
+    "h": "Ireland: from a rural to an urban country",
+    "points": [
+     "Census 1971 was the first census in which more people lived in towns than in rural areas.",
+     "Census 2016: about 63% of the population was urban.",
+     "Flight from the land: farming mechanised and small farms became unviable, so people moved to cities.",
+     "Industrial and service jobs concentrated in Dublin and the cities."
+    ]
+   },
+   {
+    "b": "Growth is concentrated in Dublin, with the commuter counties and the regional cities also growing.",
+    "h": "Growth in Irish cities",
+    "points": [
+     "Census 2022: the State had about 5.15 million people.",
+     "Co. Dublin had about 1.46 million; Dublin city and suburbs had about 1.26 million; the Greater Dublin Area (Dublin, Meath, Kildare and Wicklow) had about 2.1 million, about 40% of the State's population.",
+     "Dublin is the primate city, a city much larger than any other in its country.",
+     "Commuter towns include Navan, Drogheda, Naas and Newbridge.",
+     "Regional cities (city and suburbs): Cork about 220,000; Limerick about 100,000; Galway city about 85,000; Waterford about 60,000.",
+     "Dublin's earlier planned growth created the new towns of Tallaght, Clondalkin, Lucan and Blanchardstown under the Myles Wright plan of 1967."
+    ]
+   },
+   {
+    "h": "Impacts on the receiver region: Dublin",
+    "points": [
+     "A large labour pool attracts multinationals and service firms.",
+     "Economies of scale support transport, universities and hospitals.",
+     "A rich cultural life.",
+     "Housing shortages, high rents and prices, and homelessness.",
+     "Urban sprawl into Meath, Kildare and Wicklow.",
+     "Long commutes and traffic congestion.",
+     "Pressure on water supply and other services.",
+     "High-rise and infill development pressure."
+    ]
+   },
+   {
+    "b": "Rural decline in Ireland is now local, in remote parishes and townlands, rather than county-wide.",
+    "h": "Impacts on the donor region: the West and North-West",
+    "points": [
+     "Census 2022: the population of every county grew between 2016 and 2022, so decline is within counties rather than whole counties.",
+     "Leitrim had about 155,000 people in 1841 and about 35,000 in Census 2022, the least populous county.",
+     "Mayo had about 138,000 people and about 25 people per km² in Census 2022; Co. Dublin had about 1,600 per km².",
+     "An ageing population and higher dependency ratios.",
+     "Fewer young adults and lower birth rates.",
+     "Closure of schools, post offices, Garda stations, shops and pubs, and derelict houses.",
+     "Loss of community and sporting clubs, with GAA teams amalgamating, and farms with no successor.",
+     "Cultural loss, including the decline of the Gaeltacht.",
+     "Positive effects: less pressure on land, remittances and returning migrants, and some farm consolidation."
+    ]
+   },
+   {
+    "h": "Irish responses to rural decline",
+    "points": [
+     "The National Spatial Strategy (2002) set out gateways and hubs to spread growth.",
+     "The decentralisation programme, announced in 2003, moves public service jobs out of Dublin.",
+     "The Western Development Commission has been a statutory body since 1999.",
+     "CLÁR, a programme of investment in depopulated rural areas, was launched in 2001.",
+     "Údarás na Gaeltachta, founded in 1980, creates jobs in the Gaeltacht.",
+     "The National Planning Framework (Project Ireland 2040), published in February 2018, plans for about 1 million more people by 2040, with about half of growth in the five cities (Dublin, Cork, Limerick, Galway and Waterford) and their suburbs, and with the four cities other than Dublin growing faster than Dublin.",
+     "The Town and Village Renewal Scheme and rural broadband with remote working hubs support rural areas.",
+     "Limitation: rural areas and regional cities still depend on the jobs and services that drew people to Dublin."
+    ]
+   },
+   {
+    "h": "European examples: Italy and France",
+    "points": [
+     "Italy: after the Second World War, people moved from the Mezzogiorno to the industrial cities of the north, Turin and Milan, and abroad to Germany, Switzerland and Belgium.",
+     "The Mezzogiorno has about 20 million people (2020s), about one-third of Italy's population.",
+     "Depopulating southern villages responded with €1 house schemes, such as Sambuca di Sicilia.",
+     "France: Paris dominates the country; Jean-François Gravier's Paris et le désert français (1947) described the regions outside Paris as a French desert.",
+     "Île-de-France has about 12 million people (2020s), about 18% of France's population."
+    ]
+   },
+   {
+    "b": "Migration from poor rural states to the big cities fills slums and sends remittances back to the villages.",
+    "h": "Developing region: India",
+    "points": [
+     "Migrants come from poorer rural states, Bihar and Uttar Pradesh, to Mumbai, Delhi and Kolkata.",
+     "Push factors: small holdings, debt, landlessness and drought.",
+     "Pull factors: jobs in construction, factories and the informal sector.",
+     "Census 2011: about 31% of Indians were urban, up from about 17% in 1951; about 833 million people (about 69%) were rural.",
+     "Census 2011 urban agglomerations: Greater Mumbai about 18.4 million; Delhi about 16.3 million; Kolkata about 14.1 million.",
+     "Bihar is India's densest state, at about 1,100 per km².",
+     "About 65 million people lived in slums.",
+     "Dharavi, Mumbai, is one of Asia's largest slums, about 2 km² near the city centre, with hundreds of thousands of residents and many small industries such as recycling, leather, pottery and garments. Kolkata's slums are called bustees.",
+     "Receiver impacts: pressure on water, sanitation and transport; informal work; and a large supply of cheap labour.",
+     "Donor impacts: male out-migration leaves women, children and the old to farm; remittances fund houses, education and farm inputs; working-age labour is lost.",
+     "India is the world's largest recipient of remittances, mostly from international migrants, so the figure does not measure rural-to-urban flows directly.",
+     "In the March 2020 COVID-19 lockdown, millions of migrant workers walked or travelled home from the cities."
+    ]
+   },
+   {
+    "b": "Brazil's migration runs from the drought-prone North-East to the south-east, and Brazil is now highly urbanised.",
+    "h": "Developing region: Brazil",
+    "points": [
+     "Migrants from the sertão, the drought-prone semi-arid interior of the North-East (nordestinos), moved to São Paulo and Rio de Janeiro; some also helped build Brasília, the capital from 1960.",
+     "Census 2022: Brazil had about 203 million people, about 87% of them urban (2020s).",
+     "São Paulo city had about 11.5 million people (Census 2022), and over 20 million in its metropolitan region; it is Brazil's largest city and industrial centre.",
+     "Favelas on hillsides and at the urban edge; Rocinha in Rio de Janeiro is one of Brazil's largest.",
+     "Informal work is common in the favelas, and some favelas have crime and gang violence.",
+     "The North-East, the donor region, loses young people."
+    ]
+   },
+   {
+    "h": "Developing region: China",
+    "points": [
+     "The hukou (household registration) system, introduced in 1958, ties public services to a person's registered home.",
+     "Nearly 300 million rural migrant workers (2023) work in coastal cities such as Shenzhen, Guangzhou and Shanghai.",
+     "Shenzhen grew from a small town to a city of over 17 million after becoming China's first Special Economic Zone in 1980.",
+     "China's urban share passed 50% in 2011.",
+     "Rural villages are left with 'left-behind' children and elderly people.",
+     "Migrants lack full access to urban schools, health care and housing.",
+     "Hukou reform is gradual."
+    ]
+   },
+   {
+    "b": "The scale, speed and capacity of cities differ between the two kinds of region, so the impacts differ.",
+    "h": "Contrasting impacts: developed and developing regions",
+    "points": [
+     "In developed regions migration is slower, and cities can largely absorb it with planned housing and services.",
+     "In developed regions the donor problem is ageing rural decline.",
+     "In developing regions migration is fast and very large; cities cannot provide housing, jobs or services, so slums and the informal sector grow.",
+     "In developing regions donor villages depend on remittances and lose working-age men.",
+     "Urban growth in developing cities comes from both migration and high natural increase among young migrants."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Ireland shows the developed-world pattern. Dublin is the receiver: its labour pool attracts multinationals and services, but housing shortages, high rents, urban sprawl into Meath, Kildare and Wicklow and long commutes follow. The Greater Dublin Area had about 2.1 million people in Census 2022, about 40% of the State. The donor, the West and North-West, suffers an ageing population, fewer young adults, closure of schools, post offices and shops, derelict houses and the loss of community clubs, and farms with no successor. Responses include the National Spatial Strategy (2002), the National Planning Framework (2018), decentralisation and CLÁR. India shows the developing-world pattern. Migrants from Bihar and Uttar Pradesh move to Mumbai, Delhi and Kolkata because of small holdings, debt and drought, and to jobs in construction, factories and the informal sector. Greater Mumbai had about 18.4 million people in Census 2011. The receivers face slums, such as Dharavi, pressure on water, sanitation and transport, and informal work, but gain cheap labour. The donor villages lose working-age men, leaving women, children and the old to farm, while remittances fund houses, education and farm inputs. The contrast: in developed countries migration is slower and cities can absorb it with planned housing and services, and the donor problem is ageing rural decline; in developing countries migration is fast and very large, cities cannot provide housing, jobs or services, and donor villages depend on remittances and lose their working-age men.",
+    "prompt": "Examine the contrasting impacts of rural-to-urban migration on donor and receiver regions in the developed and developing world.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) People migrate from rural to urban areas because of push factors such as a lack of jobs and low farm incomes, and because of pull factors such as jobs in industry and services and higher wages. (ii) In Dublin, the receiver city, the large labour pool attracts multinationals and services, and economies of scale support transport, universities and hospitals. However, demand for housing outstrips supply, which raises rents and prices and causes homelessness. Urban sprawl extends into Meath, Kildare and Wicklow, and long commutes cause traffic congestion and put pressure on water supply and services. (iii) In the West and North-West, the donor region, young adults leave, so the population ages, the dependency ratio rises and birth rates fall. Closures of schools, post offices, Garda stations and shops follow, and derelict houses appear. Local clubs amalgamate and farms have no successor, and the decline of the Gaeltacht threatens culture. Some effects are positive: there is less pressure on land, and remittances and returning migrants bring money and skills. Census 2022 showed that every county grew between 2016 and 2022, so decline is now local, in remote parishes and townlands.",
+    "prompt": "(i) State two reasons why people migrate from rural to urban areas. (ii) Describe and explain the effect of this migration on the urban areas people migrate to. (iii) Describe and explain the effect on the rural areas they leave.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Brazil shows the impact of rural-to-urban migration in a developing country. Migrants from the sertão, the drought-prone semi-arid interior of the North-East (nordestinos), move south-east to São Paulo and Rio de Janeiro in search of jobs and better living conditions. The receiver cities struggle to house them. São Paulo city had about 11.5 million people in Census 2022, and over 20 million in its metropolitan region, and it is Brazil's largest city and industrial centre. Migrants settle in favelas on hillsides and at the urban edge, such as Rocinha in Rio de Janeiro, one of Brazil's largest. Work there is often informal, and some favelas have crime and gang violence. The donor region, the North-East, loses young people, which reduces its working-age population and its capacity to develop. Brazil is now about 87% urban, so the flow that once drew people from the interior has been absorbed into a highly urbanised country. Evaluation: migration has supplied labour to industry and built the urban economy, but it has also created informal settlements and social problems that cities have struggled to manage.",
+    "prompt": "Discuss the impact of rural-to-urban migration in one developing country you have studied.",
     "type": "short"
    }
   ]

@@ -1,0 +1,194 @@
+{
+  "loId": "geo-economic-development-s1",
+  "chapterId": "geo-economic-development",
+  "subsection": "1. Measuring economic development",
+  "syllabusRef": "4.1",
+  "notes": [
+    {
+      "h": "What development means",
+      "b": "Economic development is one part of development. Growth alone does not show whether people are better off.",
+      "points": [
+        "Economic development: growth in a country's output and income, with rising living standards.",
+        "Development is wider than income: it includes health, education, political freedom, equality and quality of life.",
+        "Developed (high-income) economies have high output and incomes per head; developing economies are low- and middle-income.",
+        "The World Bank classes countries as low, lower-middle, upper-middle or high income by GNI per head, using thresholds that change each year.",
+        "Newly industrialised countries (NICs) sit between developed and developing: South Korea, Singapore and Taiwan (the Asian Tigers, with Hong Kong) are examples."
+      ]
+    },
+    {
+      "h": "GDP, GNP and GNI",
+      "b": "These totals measure the value of output. They differ by whether they count output by location or by ownership.",
+      "points": [
+        "Gross domestic product (GDP): the total value of all goods and services produced within a country's borders in one year, whoever owns the firms.",
+        "Gross national product (GNP): GDP plus income earned abroad by the country's residents and firms, minus income sent out of the country to foreign owners as profits, interest and dividends.",
+        "GNP therefore measures the output owned by the nation's residents, while GDP measures the output produced on its soil.",
+        "Gross national income (GNI): the World Bank and UN now use GNI, which is essentially the same as GNP. Data tables may use either term.",
+        "Totals are converted to US dollars for comparison. Purchasing power parity (PPP) adjusts for price differences between countries, so a dollar buys more in a low-cost country.",
+        "Per capita (per head) figures divide the total by the population and are needed to compare countries of different size. A large total GNP, as in India, can hide a low GNP per head."
+      ]
+    },
+    {
+      "h": "Economic growth and the GNP per head measure",
+      "b": "Growth is the percentage change in output each year. Output per head is the most common single measure of development.",
+      "points": [
+        "GDP growth rate: the percentage change in output per year. Two quarters of falling output is the usual definition of recession.",
+        "Benefits of economic growth: more jobs, higher incomes, more tax revenue to fund services and infrastructure, and less emigration.",
+        "Advantage: GNP or GDP per head is simple, gives one comparable figure, and is available for almost every country collected in a standard way.",
+        "Advantage: the figure allows change over time to be tracked.",
+        "Advantage: it is closely linked to a government's ability to fund health, education and other services.",
+        "Disadvantage: it is an average, so it hides inequality between rich and poor, and between regions.",
+        "Disadvantage: it ignores the informal economy and subsistence farming, which are large in developing countries, and unpaid work such as caring, housework and volunteering.",
+        "Disadvantage: it counts harmful spending, such as pollution clean-up, disaster repair and crime, as if it added to well-being.",
+        "Disadvantage: it ignores environmental damage and the depletion of resources.",
+        "Disadvantage: exchange-rate swings distort dollar comparisons unless PPP is used.",
+        "Disadvantage: it says nothing directly about health, education, freedom or happiness."
+      ]
+    },
+    {
+      "h": "Ireland: GDP, GNP and GNI*",
+      "b": "Ireland is the clearest case where GDP and GNP give very different pictures of the economy.",
+      "points": [
+        "Multinationals own much of Irish output and send their profits abroad, so Irish GNP has long been well below GDP.",
+        "Irish GDP growth for 2015 was about 26%, first published in July 2016. The US economist Paul Krugman called it \"leprechaun economics\".",
+        "The jump came mainly from multinationals relocating intellectual property (patents and other intangible assets) and aircraft-leasing assets to Ireland, not from Irish people becoming richer.",
+        "From 2017 the Central Statistics Office (CSO) published modified gross national income (GNI*), which removes the profits of redomiciled firms, depreciation on foreign-owned intellectual property and leased aircraft.",
+        "In the early 2020s Ireland's GNI* was only a little over half of its GDP.",
+        "Ireland has the second-highest GDP per head in the EU, after Luxembourg (Eurostat, early 2020s), so GDP overstates Irish prosperity."
+      ]
+    },
+    {
+      "h": "The human development index: origin, indicators and calculation",
+      "b": "The HDI combines health, education and income into one value. It was designed to measure people's well-being, not just the economy.",
+      "points": [
+        "The United Nations Development Programme (UNDP) first published the HDI in its Human Development Report in 1990.",
+        "Mahbub ul Haq, a Pakistani economist, created the HDI working with Amartya Sen, an Indian economist and Nobel Prize winner in Economics in 1998.",
+        "A long and healthy life is measured by life expectancy at birth.",
+        "Knowledge is measured by mean years of schooling for adults aged 25 and over, and expected years of schooling for children starting school.",
+        "A decent standard of living is measured by GNI per head at PPP dollars.",
+        "Each dimension is turned into an index from 0 to 1, and the three are combined into one value between 0 and 1. The closer the value is to 1, the higher the development.",
+        "The four categories are very high (0.800 and above), high (0.700 to 0.799), medium (0.550 to 0.699) and low (below 0.550).",
+        "Older textbooks use adult literacy and gross enrolment for education; these were replaced by mean and expected years of schooling in 2010."
+      ]
+    },
+    {
+      "h": "The pattern of HDI",
+      "points": [
+        "Very high HDI: Europe (especially Scandinavia and Switzerland), North America, Australia and Japan. Norway ranked 1st (0.957) in the Human Development Report 2020, using 2019 data. Ireland and Switzerland were joint 2nd (0.955) in the same report.",
+        "Switzerland ranked 1st (0.967) in the Human Development Report 2023/24, using 2022 data. Ireland was in the top ten in that report.",
+        "High HDI: Brazil, at about 0.76 in the 2023/24 report.",
+        "Medium HDI: India, 134th of 193 countries (0.644) in the 2023/24 report.",
+        "Low HDI: mostly sub-Saharan Africa, including Niger, Chad, South Sudan, Somalia and the Central African Republic. Niger was last of 189 countries (0.394) in the 2020 report, and Somalia was last of 193 (0.380) in the 2023/24 report.",
+        "Report years differ from data years, so each ranking must be quoted with its report year."
+      ]
+    },
+    {
+      "h": "Advantages and disadvantages of the HDI",
+      "points": [
+        "Advantage: it is broader than income alone, combining health, education and income.",
+        "Advantage: it focuses on people and outcomes rather than output.",
+        "Advantage: it shows countries whose income is high but whose human development lags, such as oil-rich states, and countries that achieve good health and education on modest incomes.",
+        "Advantage: it can be tracked over time, showing progress or decline.",
+        "Advantage: it helps governments and aid agencies target spending, for example on schooling or health.",
+        "Disadvantage: as a national average it hides inequality between rich and poor, men and women, regions and ethnic groups.",
+        "Disadvantage: it leaves out political freedom, human rights, gender equality, environmental sustainability, safety and happiness.",
+        "Disadvantage: data are poor or out of date in some developing countries, and the figures are published about two years after the data year.",
+        "Disadvantage: the three dimensions are weighted equally, which is a judgement.",
+        "Disadvantage: very high-income countries cluster close to 1, so small differences between them mean little.",
+        "The UNDP introduced three newer measures in 2010 to answer some of these criticisms: the inequality-adjusted HDI, the Gender Inequality Index and the Multidimensional Poverty Index, the last developed with Oxford University's Oxford Poverty and Human Development Initiative."
+      ]
+    },
+    {
+      "h": "Comparing GNP and HDI",
+      "b": "GNP and HDI measure different things, so a country can rank very differently on each. Using both, with other indicators, gives the fullest picture.",
+      "points": [
+        "GNP measures output and income; HDI measures human outcomes in health, education and living standards.",
+        "Equatorial Guinea has far higher GNI per head than its HDI rank suggests, because of oil wealth; the gap between its income rank and its HDI rank is large.",
+        "Oil-rich Gulf states generally rank higher on income than on HDI.",
+        "Cuba ranks higher on HDI than on income, because of strong public health care and education.",
+        "GNI per head is one of the four HDI indicators, so the two measures overlap; the HDI adds life expectancy and schooling to it."
+      ]
+    },
+    {
+      "h": "Other indicators of development",
+      "points": [
+        "Social indicators: life expectancy, infant and under-five mortality, literacy rate, years of schooling, doctors per 1,000 people, access to safe water and sanitation, and daily calorie intake.",
+        "Economic indicators: share of workers in the primary sector (high in developing economies), unemployment rate, energy use per head, and internet and phone access.",
+        "Several indicators used together give a more reliable picture than any one measure."
+      ]
+    },
+    {
+      "h": "Why life expectancy differs between countries",
+      "points": [
+        "Access to health care: doctors, hospitals and clinics are scarce in many poorer countries.",
+        "Vaccination and clean water and sanitation prevent disease; where they are lacking, life expectancy is lower.",
+        "Infectious disease: malaria caused about 600,000 deaths in 2022, over nine-tenths of them in Africa (WHO World Malaria Report 2023). HIV/AIDS lowered life expectancy in southern Africa in the 1990s and 2000s, in Botswana, Zimbabwe and South Africa; it has since recovered with antiretroviral drugs.",
+        "Lifestyle: diet, smoking, alcohol and obesity shorten life in some rich countries.",
+        "War and conflict, and income and poverty, reduce life expectancy.",
+        "Life expectancy at birth is about 84 years in Japan and about 82 to 83 years in Ireland, among the highest in the EU. It is below 60 in several sub-Saharan African countries, including Chad, Nigeria and Lesotho (early 2020s)."
+      ]
+    },
+    {
+      "h": "Why years of schooling differ, and why education helps an economy",
+      "points": [
+        "Government spending on schools and teachers largely determines how many children are educated.",
+        "Poverty forces children to work or stay at home.",
+        "Distance to schools is a barrier in rural areas.",
+        "Fees, uniforms and books are costs some families cannot pay.",
+        "Cultural attitudes to girls' education and early marriage keep girls out of school.",
+        "Conflict closes schools.",
+        "An educated workforce attracts foreign investment in high-tech and service industries.",
+        "Higher productivity and wages raise tax revenue, which funds further services.",
+        "An educated workforce produces more innovation and more new firms.",
+        "Educated women tend to have healthier, smaller families.",
+        "Ireland has one of the highest shares of 25 to 34-year-olds with third-level education in the EU (early 2020s, Eurostat). Free secondary education was introduced in 1967, and universities and technological universities supply graduates to multinationals in pharmaceuticals, medical devices and information technology."
+      ]
+    },
+    {
+      "h": "Unemployment as an indicator",
+      "points": [
+        "Effects of high unemployment: lost income and poverty, emigration of young people, lower tax revenue and higher welfare costs, and social problems.",
+        "Ways to reduce unemployment: attracting investment, retraining and education, support for small firms, infrastructure spending and promoting tourism.",
+        "Ireland's unemployment rose to about 15% in 2012 after the 2008 crash and fell below 5% by 2022 (CSO)."
+      ]
+    },
+    {
+      "h": "Skills: graphs and differences from tables",
+      "b": "Data-response questions ask for a chart drawn from a table and a calculated difference. The values below are illustrative only, not real figures.",
+      "points": [
+        "A bar chart needs a title, labelled axes with units, a suitable scale, accurate bars and a key.",
+        "A pie chart needs the same title and key, with each slice's share of the whole shown clearly.",
+        "To calculate a difference, subtract the lower value from the higher and state the unit: for example, an illustrative country with a life expectancy of 80 years and another with 60 years differ by 20 years.",
+        "The detailed graph method is covered in the Tables, Graphs and Data Skills chapter."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Economic development", "definition": "Growth in a country's output and income, together with rising living standards." },
+    { "term": "Gross domestic product (GDP)", "definition": "The total value of all goods and services produced within a country's borders in one year, whoever owns the firms." },
+    { "term": "Gross national product (GNP)", "definition": "GDP plus income earned abroad by residents, minus income sent out of the country to foreign owners." },
+    { "term": "Gross national income (GNI)", "definition": "The term now used by the World Bank and UN for GNP, which is essentially the same measure." },
+    { "term": "Per capita", "definition": "Per head: a total divided by the population, used to compare countries of different size." },
+    { "term": "Purchasing power parity (PPP)", "definition": "An adjustment for price differences between countries, so that a currency's value is compared by what it buys." },
+    { "term": "Human development index (HDI)", "definition": "A UNDP measure from 0 to 1 combining life expectancy, years of schooling and GNI per head at PPP." },
+    { "term": "Modified gross national income (GNI*)", "definition": "The CSO measure that removes the effects of multinational profits and leasing from Irish GNI, giving a better guide to living standards." },
+    { "term": "Recession", "definition": "A period of falling output, usually defined as two consecutive quarters of decline." },
+    { "term": "Newly industrialised country (NIC)", "definition": "A country that has moved from developing to industrial economy status, sitting between developed and developing countries." }
+  ],
+  "questions": [
+    {
+      "marks": 30,
+      "prompt": "Discuss the human development index and gross national product as measures of levels of economic development.",
+      "model": "GNP is the value of output owned by a country's residents: GDP plus income from abroad, minus income paid to foreign owners. It is usually given per head and in US dollars or PPP terms, because a total can hide a low figure per person. Its advantages are that it is simple, a single comparable figure, available for almost every country, and linked to a government's ability to fund services. Its disadvantages are that the average hides inequality, that it ignores the informal economy and unpaid work, and that it counts harmful spending such as pollution clean-up as growth. Ireland shows the limits of GNP: multinationals send profits abroad, so GNP is well below GDP, and in 2015 GDP jumped about 26% mainly because of relocated intellectual property. The CSO's GNI* removes these effects and is a better guide to living standards, and Irish GDP per head overstates prosperity. The HDI was published by the UNDP in 1990, designed by Mahbub ul Haq and Amartya Sen, to measure well-being. It combines life expectancy, mean and expected years of schooling, and GNI per head at PPP, each scaled from 0 to 1, into a single value. Its categories run from very high (0.800 and above) to low (below 0.550). Its advantages are that it is broader than income, focuses on outcomes, can be tracked over time and helps target spending. Its disadvantages are that national averages hide inequality, it omits freedom, rights and environmental sustainability, data are weak in some countries, and the equal weighting is a judgement. Paired comparison: Equatorial Guinea has a far higher GNI per head than its HDI rank suggests because of oil wealth, while Cuba ranks higher on HDI than on income because of strong public health care and education. Using both measures, with other indicators, gives the fullest picture."
+    },
+    {
+      "marks": 8,
+      "prompt": "Name two indicators used to calculate the HDI and explain briefly one advantage of using the HDI as a measure of development.",
+      "model": "Two indicators are life expectancy at birth and mean years of schooling for adults aged 25 and over. An advantage of the HDI is that it is broader than income alone: it combines health, education and living standards, so it shows human outcomes that GNI per head would miss, such as a country with a high income but poor life expectancy."
+    },
+    {
+      "marks": 30,
+      "prompt": "Explain two reasons why life expectancy is lower in some countries than in others, and explain one disadvantage of using GNP to measure development.",
+      "model": "The first reason is limited access to health care. Where doctors, hospitals and clinics are scarce, illness is treated late or not at all, and life expectancy falls. The second reason is infectious disease. Malaria caused about 600,000 deaths in 2022, over nine-tenths of them in Africa, and HIV/AIDS reduced life expectancy in southern Africa in the 1990s and 2000s. Malaria and HIV both reduce the working population and shorten lives where health services are weak. A disadvantage of using GNP is that it is an average, so it hides inequality between rich and poor and between regions. A country with a high GNP can have many people in poverty, and the average gives no sense of how the income is shared. GNP also ignores the informal economy and unpaid work, which are large in developing countries, so it can understate or misstate living standards."
+    }
+  ]
+}
