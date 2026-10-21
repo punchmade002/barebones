@@ -1,0 +1,354 @@
+{
+  "loId": "geo-option-atmosphere-ocean-s3",
+  "chapterId": "geo-option-atmosphere-ocean",
+  "subsection": "3. Exchanges of water between oceans and atmosphere",
+  "syllabusRef": "9.3",
+  "notes": [
+    {
+      "h": "The hydrological cycle",
+      "points": [
+        "The hydrological cycle is a closed system: the total amount of water on earth stays the same, and water moves between stores, driven by solar energy (evaporation) and gravity (precipitation and runoff).",
+        "Diagram: a labelled cycle from ocean to atmosphere to land and back, with the stores drawn as boxes and the flows as arrows."
+      ]
+    },
+    {
+      "h": "Stores of water",
+      "points": [
+        "Oceans hold about 97% of the earth's water; ice sheets and glaciers hold about 2%, most of it in Antarctica; groundwater holds under 1%.",
+        "Lakes, rivers, soil moisture, the atmosphere and living things together hold only a tiny fraction. The atmosphere holds about 0.001% of the earth's water.",
+        "About 2.5–3% of all water is fresh, and most of that is frozen; liquid fresh surface water is a very small part of the total."
+      ]
+    },
+    {
+      "h": "Flows between stores",
+      "points": [
+        "Evaporation: liquid water turns to vapour, mainly from the ocean.",
+        "Transpiration: vapour is released from plant leaves; evapotranspiration is transpiration and evaporation combined over land.",
+        "Sublimation: ice turns directly into vapour.",
+        "Advection: wind carries water vapour from sea to land.",
+        "Condensation: vapour turns to liquid droplets as cloud, fog or dew.",
+        "Precipitation, interception, infiltration, surface runoff, throughflow and groundwater flow return water to the sea; these drainage-basin flows are detailed in the chapter Rivers — Fluvial Processes and Landforms."
+      ]
+    },
+    {
+      "h": "Exchange between ocean and atmosphere",
+      "points": [
+        "Roughly 85–90% of global evaporation comes from the oceans, and roughly three-quarters of global precipitation falls on them.",
+        "The surplus evaporated over the oceans is carried over the land by wind, and returns to the sea through rivers and groundwater."
+      ]
+    },
+    {
+      "h": "Residence time",
+      "points": [
+        "Water stays in the atmosphere for only about 9 days on average, but in the ocean for thousands of years and in the Antarctic ice sheet for far longer.",
+        "The atmosphere's water is therefore recycled quickly, while ocean water changes slowly."
+      ]
+    },
+    {
+      "h": "Variations in the exchange",
+      "points": [
+        "Evaporation exceeds precipitation over the subtropical oceans, which helps explain their high salinity (see The atmosphere and oceans as linked systems).",
+        "Precipitation exceeds evaporation in the equatorial belt and in the mid-latitude westerly belt.",
+        "Deforestation reduces evapotranspiration and so the recycling of rainfall; a large share of the Amazon's rain is water recycled from the forest by evapotranspiration (see One major biome in detail).",
+        "Global warming intensifies the water cycle (see Climatic environments and climate change)."
+      ]
+    },
+    {
+      "h": "Humidity",
+      "points": [
+        "Humidity is the amount of water vapour in the air. Absolute humidity is the mass of water vapour in a volume of air, in g/m³.",
+        "Relative humidity is the amount of water vapour present as a percentage of the most the air could hold at that temperature. Saturated air has a relative humidity of 100%.",
+        "Warm air can hold about 7% more water vapour for each 1 °C rise in temperature.",
+        "Cooling air raises its relative humidity without adding any water, and warming lowers it; this is why relative humidity is usually highest at dawn and lowest in mid-afternoon.",
+        "Dew point is the temperature at which air becomes saturated as it cools; further cooling causes condensation. Measuring humidity is covered in The atmosphere and oceans as linked systems."
+      ]
+    },
+    {
+      "h": "Effects of humidity",
+      "points": [
+        "High humidity in the tropics makes heat oppressive, because sweat evaporates slowly.",
+        "Low humidity in deserts allows rapid evaporation and large daily temperature ranges."
+      ]
+    },
+    {
+      "h": "Evaporation",
+      "points": [
+        "Evaporation is water molecules gaining enough energy to escape as vapour. It takes latent heat from the surface, cooling it, and that energy is released again on condensation (see Solar energy and its redistribution).",
+        "Higher temperature increases evaporation because it gives more energy; strong sunshine and low air pressure also increase it.",
+        "Drier air, with low relative humidity, increases evaporation.",
+        "Wind increases evaporation by removing moist air and replacing it with drier air.",
+        "A large supply of water, such as oceans, lakes or wet ground, allows evaporation to continue."
+      ]
+    },
+    {
+      "h": "Where evaporation is greatest",
+      "points": [
+        "Evaporation is greatest over the subtropical oceans under clear skies and steady trade winds, and along warm currents such as the Gulf Stream; it is least over cold polar seas.",
+        "Potential evapotranspiration far exceeds rainfall in hot deserts, which is the cause of drought (see Climate and economic development)."
+      ]
+    },
+    {
+      "h": "Condensation and condensation nuclei",
+      "points": [
+        "Condensation is water vapour turning into liquid droplets when air cools to its dew point.",
+        "Condensation needs condensation nuclei: tiny particles of dust, sea salt, smoke or pollen around which droplets form."
+      ]
+    },
+    {
+      "h": "How air is cooled to dew point",
+      "points": [
+        "Adiabatic cooling of rising air is the main cause of cloud.",
+        "Contact cooling by radiation occurs when air touches ground that has lost heat at night.",
+        "Advection cooling occurs when warm, moist air moves over a cold surface.",
+        "Mixing of air masses of different temperatures can bring air to dew point."
+      ]
+    },
+    {
+      "h": "Adiabatic temperature change",
+      "points": [
+        "Rising air expands because pressure falls with height, and it cools without losing heat to its surroundings; sinking air is compressed and warms.",
+        "Unsaturated air cools at the dry adiabatic lapse rate, about 10 °C per 1,000 m.",
+        "Once condensation begins, the latent heat released slows the cooling to the saturated adiabatic lapse rate, about 5–7 °C per 1,000 m, which varies with temperature.",
+        "The height at which condensation begins is the condensation level, or cloud base."
+      ]
+    },
+    {
+      "h": "Stability and instability",
+      "points": [
+        "Unstable air: if rising air stays warmer than its surroundings, because the environment cools faster than the rising air does, it keeps rising and forms towering cumulus, showers and thunderstorms. The environmental lapse rate averages about 6.5 °C per 1,000 m.",
+        "Stable air: if rising air becomes cooler than its surroundings, it sinks back, giving layer cloud or clear skies.",
+        "A temperature inversion, with warmer air above cooler air, is very stable and traps fog and pollution.",
+        "Diagram: a temperature-height graph comparing the environmental and adiabatic lapse rates."
+      ]
+    },
+    {
+      "h": "Fog and dew",
+      "points": [
+        "Dew forms on surfaces cooled below dew point on clear, calm nights.",
+        "Hoar frost forms when the dew point is below 0 °C, as vapour turns straight to ice crystals.",
+        "Radiation fog forms on clear, calm nights, usually under anticyclones in autumn and winter, in valleys and hollows; it burns off in the morning sun.",
+        "Advection fog forms when warm, moist air moves over a cold sea or land. The Grand Banks off Newfoundland, Canada, are among the foggiest places on earth, where warm moist air from over the Gulf Stream crosses the cold Labrador Current. San Francisco's summer fogs form where moist Pacific air crosses the cold California Current.",
+        "Hill fog is cloud on high ground; smog is fog mixed with smoke."
+      ]
+    },
+    {
+      "h": "How clouds form",
+      "points": [
+        "Clouds are visible masses of tiny water droplets or ice crystals, formed when rising air cools below its dew point.",
+        "Convection: uplift from surface heating.",
+        "Orographic (relief) uplift: air is forced up over high ground.",
+        "Frontal uplift: warm air rises over cold air at a front.",
+        "Convergence: air streams meet and are forced upward, as at the ITCZ.",
+        "Turbulence: mixing of air that lifts it."
+      ]
+    },
+    {
+      "h": "Cloud names",
+      "points": [
+        "Luke Howard, an English pharmacist and amateur meteorologist, proposed the Latin cloud names cirrus, cumulus, stratus and nimbus in 1803.",
+        "Cirrus means wispy and fibrous, a curl of hair; cumulus means heaped and puffy, a heap; stratus means a layered sheet.",
+        "Nimbus or nimbo- means rain-bearing; alto- means middle level.",
+        "The WMO's International Cloud Atlas sets out the ten main cloud types."
+      ]
+    },
+    {
+      "h": "High clouds (above about 6,000 m, ice crystals)",
+      "points": [
+        "Cirrus: thin wisps, often called mares' tails; fair weather.",
+        "Cirrostratus: a thin milky veil that produces a halo round the sun or moon; rain is likely within hours.",
+        "Cirrocumulus: small ripples, known as a mackerel sky."
+      ]
+    },
+    {
+      "h": "Middle clouds (about 2,000–6,000 m)",
+      "points": [
+        "Altocumulus: grey or white patches in rolls.",
+        "Altostratus: a grey sheet through which the sun shows as if through frosted glass; it thickens ahead of a warm front."
+      ]
+    },
+    {
+      "h": "Low clouds (below about 2,000 m)",
+      "points": [
+        "Stratus: a grey, featureless layer that produces drizzle and hill fog.",
+        "Stratocumulus: a lumpy grey layer, the commonest cloud over Ireland, usually dry or giving light drizzle.",
+        "Nimbostratus: a thick, dark rain cloud giving long periods of steady rain or snow at warm fronts."
+      ]
+    },
+    {
+      "h": "Clouds with vertical development",
+      "points": [
+        "Cumulus: fair-weather heaps with flat bases on sunny days, which can grow into showers.",
+        "Cumulonimbus: a towering cloud with an anvil-shaped top spreading at the tropopause, bringing heavy showers, hail, thunder and lightning, and squalls.",
+        "Heights are approximate for mid-latitudes."
+      ]
+    },
+    {
+      "h": "Cloud sequences and fronts",
+      "points": [
+        "Ahead of a warm front, cirrus is followed by cirrostratus, altostratus and nimbostratus in turn; the full frontal sequence is in Atmospheric and oceanic circulation.",
+        "Cumulonimbus marks a cold front.",
+        "Diagram: a chart of the ten cloud types arranged by height."
+      ]
+    },
+    {
+      "h": "Clouds and the energy balance",
+      "points": [
+        "Low thick clouds cool the surface by reflecting sunlight; high thin clouds warm it by trapping long-wave radiation; cloudy nights are milder."
+      ]
+    },
+    {
+      "h": "Growing raindrops",
+      "points": [
+        "Cloud droplets are far too small to fall; they must grow a great deal before they are heavy enough to reach the ground."
+      ]
+    },
+    {
+      "h": "Ice-crystal process",
+      "points": [
+        "In clouds colder than 0 °C, supercooled droplets and ice crystals exist together. Vapour is deposited on the ice crystals, which grow at the droplets' expense, become heavy and fall as snow, melting into rain below the freezing level.",
+        "This Bergeron–Findeisen process is the main one in mid-latitude clouds, including Ireland's."
+      ]
+    },
+    {
+      "h": "Collision–coalescence process",
+      "points": [
+        "In warm clouds, which are above 0 °C throughout and are common in the tropics, larger droplets fall faster, collide with and absorb smaller ones until they are heavy enough to fall."
+      ]
+    },
+    {
+      "h": "Forms of precipitation",
+      "points": [
+        "Rain: liquid drops.",
+        "Drizzle: very small drops falling from stratus.",
+        "Snow: ice crystals clumped as flakes, falling when the air is near or below freezing to the ground.",
+        "Sleet: melting snow, or rain and snow mixed.",
+        "Hail: layered ice balls formed when strong updrafts in cumulonimbus carry frozen drops up and down repeatedly, adding layers until they are too heavy; hail is mostly a warm-season phenomenon.",
+        "Freezing rain and glaze: rain that freezes on contact with cold surfaces."
+      ]
+    },
+    {
+      "h": "Convectional rainfall",
+      "points": [
+        "1. The ground is heated strongly, warming the air above it.",
+        "2. The warm air expands, rises and cools adiabatically.",
+        "3. When it reaches dew point, cumulus and then cumulonimbus clouds form.",
+        "4. Heavy showers, often with thunder, follow, usually in the afternoon.",
+        "This type is typical of the equatorial belt every day, and of Irish summer afternoons occasionally, especially inland.",
+        "Diagram: a column of rising air above heated ground, topped by cumulonimbus."
+      ]
+    },
+    {
+      "h": "Relief (orographic) rainfall",
+      "points": [
+        "1. Moist air from the sea is forced to rise over a mountain barrier.",
+        "2. It cools, condenses and gives heavy rain on the windward slope.",
+        "3. On the leeward side the air descends, is compressed and warms, so clouds evaporate and a rain shadow results.",
+        "4. A warm, dry föhn-type wind may blow down the lee side (see Atmospheric and oceanic circulation).",
+        "Ireland's west coast mountains receive this rain. In India, the Western Ghats force the Arabian Sea branch of the monsoon to rise, giving heavy rain on the Konkan and Malabar coasts, with the Deccan in rain shadow; Mawsynram and Cherrapunji in the Khasi Hills, Meghalaya, are among the wettest places on earth.",
+        "Diagram: a cross-section of a mountain barrier showing the windward wet slope and the leeward rain shadow."
+      ]
+    },
+    {
+      "h": "Frontal (cyclonic) rainfall",
+      "points": [
+        "1. In a depression, warm, moist tropical air is forced to rise over cold polar air at the warm front, giving gentle ascent and long, steady rain.",
+        "2. At the cold front the warm air is undercut, causing sharp ascent and short, heavy showers.",
+        "Frontal rain is Ireland's main source of rain. The mechanism of depressions is in Atmospheric and oceanic circulation."
+      ]
+    },
+    {
+      "h": "Convergence rainfall",
+      "points": [
+        "Where air streams meet they are forced to rise, as where the trade winds converge at the ITCZ, giving heavy rain."
+      ]
+    },
+    {
+      "h": "Rainfall pattern by latitude",
+      "points": [
+        "Equatorial belt (about 0–10°): heavy rain all year, over 2,000 mm a year, from low pressure, rising air, convergence at the ITCZ, convection and high evaporation from warm seas and forests. Manaus, central Amazon, Brazil, receives about 2,300 mm a year.",
+        "Tropics with a wet and dry season (about 10–20°, savanna and monsoon lands): rain falls in summer when the ITCZ moves over them, and the winter is dry.",
+        "Subtropical high-pressure belts (about 20–30°): very low rainfall and the world's great hot deserts, from sinking, warming, stable air and clear skies. The Atacama, Chile, is the driest non-polar desert on earth, and the Namib receives much of its moisture as fog from the cold Benguela Current.",
+        "Mid-latitudes (about 40–60°): moderate to heavy rain from depressions in the westerlies, wettest on west coasts facing onshore winds (Ireland), decreasing into continental interiors.",
+        "Polar regions: very low precipitation, since cold air holds little vapour and sinking air lies under the polar high pressure. Antarctica is the driest continent, a cold desert.",
+        "Diagram: a pole-to-pole profile of rainfall under the three-cell model."
+      ]
+    },
+    {
+      "h": "Factors modifying rainfall",
+      "points": [
+        "Relief and rain shadow: the leeward side of a mountain barrier receives much less rain (see Relief (orographic) rainfall).",
+        "Distance from the sea: continental interiors are dry because they lie far from the moisture of the oceans.",
+        "Prevailing winds: onshore winds bring rain, while offshore winds bring dry air.",
+        "Ocean currents: warm currents add moisture and instability; cold currents chill the air and make it stable, so rain is rare though fog is common on the coasts named above.",
+        "Seasonal migration: the pressure belts move north and south with the overhead sun, shifting the rain belts with them."
+      ]
+    },
+    {
+      "h": "Seasonal rainfall regimes",
+      "points": [
+        "Equatorial: rain all year, often peaking after the equinoxes.",
+        "Monsoon: a very wet summer and a dry winter, as in India.",
+        "Mediterranean: a wet winter and a dry summer.",
+        "Continental interiors: a summer maximum from convection.",
+        "Irish (oceanic): rain all year, with a maximum in autumn and winter."
+      ]
+    },
+    {
+      "h": "Ireland's rainfall pattern",
+      "points": [
+        "The west is wetter than the east, the mountains are wettest, and the west has more wet days.",
+        "Annual rainfall is about 750 mm in the driest parts of the east, around Dublin, about 1,000–1,250 mm across much of the west, and over 2,000 mm on many western mountains.",
+        "Wet days number about 150 a year on the east and south-east coasts, and up to about 225 a year in parts of the west.",
+        "Causes: prevailing south-westerly winds, Atlantic depressions reaching the west first, relief uplift on the western mountains, and the rain shadow in the east."
+      ]
+    },
+    {
+      "h": "Variability of rainfall",
+      "points": [
+        "Rainfall is least reliable where totals are lowest. In the Sahel, annual rainfall is roughly 200–600 mm, falling in one short summer wet season when the ITCZ moves north, and it varies greatly from year to year, so drought risk is greatest there (see One major biome in detail)."
+      ]
+    },
+    {
+      "h": "Weather and climate regimes",
+      "points": [
+        "Equatorial regime: morning heating gives way to afternoon storms every day.",
+        "Monsoon regime: moist sea air brings a wet summer and dry land air a dry winter over India, as the monsoon reverses.",
+        "Fog deserts: cold-current coasts, such as the Atacama and Namib, have fog rather than rain.",
+        "Irish maritime regime: a cool, cloudy, wet climate fed by moisture from the Atlantic and warmed by the North Atlantic Drift.",
+        "Snowy continental and lake-effect winters: cold, snowy winters with heavy snowfall downwind of large lakes and in continental interiors.",
+        "Intensified water cycle: warming increases evaporation and brings heavier downpours (see Climatic environments and climate change)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Hydrological cycle", "definition": "The continuous movement of water between the oceans, atmosphere, land and living things, driven by solar energy and gravity." },
+    { "term": "Residence time", "definition": "The average time a water molecule stays in one store, such as the atmosphere or the ocean." },
+    { "term": "Relative humidity", "definition": "The amount of water vapour in the air as a percentage of the most it could hold at that temperature." },
+    { "term": "Dew point", "definition": "The temperature to which air must cool for it to become saturated and for condensation to begin." },
+    { "term": "Condensation nuclei", "definition": "Tiny airborne particles, such as dust, sea salt or smoke, around which water droplets form." },
+    { "term": "Adiabatic cooling", "definition": "The cooling of rising air as it expands in lower pressure, without losing heat to its surroundings." },
+    { "term": "Condensation level", "definition": "The height at which rising air cools to dew point and cloud begins to form." },
+    { "term": "Bergeron–Findeisen process", "definition": "The growth of ice crystals at the expense of supercooled droplets in clouds colder than 0 °C, leading to snowfall." },
+    { "term": "Collision–coalescence", "definition": "The process in warm clouds in which larger droplets collide with and absorb smaller ones until they fall as rain." },
+    { "term": "Rain shadow", "definition": "The dry leeward side of a mountain barrier, where descending air warms and clouds evaporate." },
+    { "term": "Convectional rainfall", "definition": "Rain produced when strongly heated ground warms the air above it, which rises, cools and forms cumulonimbus clouds." },
+    { "term": "Advection fog", "definition": "Fog formed when warm, moist air moves over a colder surface, such as a cold sea." }
+  ],
+  "questions": [
+    {
+      "marks": 80,
+      "prompt": "Exchanges of water between oceans and atmosphere impact on precipitation and its distribution patterns. Discuss.",
+      "model": "The hydrological cycle is a closed system in which most evaporation (about 85–90%) comes from the oceans and about three-quarters of precipitation falls on them, while the atmosphere holds only about 0.001% of the earth's water and recycles it in about 9 days. Evaporation depends on temperature, dry air, wind, a large water supply, strong sunshine and low pressure, and is greatest over the subtropical oceans and warm currents. Humidity rises and falls with temperature: warm air holds about 7% more vapour for each 1 °C rise, and cooling raises relative humidity to saturation at the dew point. Condensation needs condensation nuclei, and most cloud forms by adiabatic cooling as air rises and expands, at about 10 °C per 1,000 m unsaturated and about 5–7 °C per 1,000 m once it condenses. Three types of rainfall result: convectional rain from strongly heated ground, as in the equatorial belt every day; relief rain on windward slopes, with a rain shadow on the leeward side, as on Ireland's west coast mountains and in India's Western Ghats, where Mawsynram and Cherrapunji are among the wettest places on earth; and frontal rain from depressions, with gentle ascent at the warm front and sharp ascent at the cold front, Ireland's main source of rain. World patterns follow the pressure belts: heavy equatorial rain over 2,000 mm a year where air rises at the ITCZ; wet and dry tropical seasons; the hot deserts of the subtropical highs, such as the Atacama, Chile, the driest non-polar desert; mid-latitude westerly rain, wettest on west coasts facing onshore winds; and dry polar regions, where Antarctica is the driest continent. Modifying factors include relief, distance from the sea, prevailing winds, ocean currents and the seasonal migration of the belts. Ireland's pattern shows these together: about 750 mm in the driest east around Dublin, 1,000–1,250 mm across much of the west and over 2,000 mm on western mountains, with prevailing south-westerlies and the rain shadow in the east."
+    },
+    {
+      "marks": 80,
+      "prompt": "Examine how exchanges of water between oceans and atmosphere give rise to distinctive weather and climate regimes.",
+      "model": "The processes come first: evaporation from warm oceans and humidity, condensation on nuclei and adiabatic cooling, and the three types of rainfall. These produce distinct regimes. The equatorial regime has moist, warm air, convection each day, morning heating and afternoon storms, with rain all year, because the ITCZ and rising air lie over the equator. The Indian monsoon reverses with the seasons: moist sea air brings a very wet summer, while dry land air gives a dry winter. Fog deserts form on the coasts of cold currents, such as the Atacama and the Namib: cold water chills the air, making it stable, so rain is rare but fog from the sea is common, and the Namib receives much of its moisture as fog from the cold Benguela Current. Ireland has a cool, cloudy, wet maritime regime, fed by moisture from the Atlantic and warmed by the North Atlantic Drift, with frontal rain from depressions, orographic rain on the western mountains and a rain shadow in the east, and wet days up to about 225 a year in parts of the west. Cold, snowy continental and lake-effect winters show how the same exchanges give snow where the air is cold and moist. Warming intensifies the cycle, increasing evaporation and bringing heavier downpours."
+    },
+    {
+      "marks": 20,
+      "prompt": "Explain how clouds are classified, with reference to three cloud types.",
+      "model": "Clouds are classified by shape and by height. Luke Howard proposed the Latin names in 1803: cirrus, meaning wispy and fibrous; cumulus, meaning heaped; stratus, meaning layered; and nimbus, meaning rain-bearing. The WMO's International Cloud Atlas sets out ten main types grouped by height: high clouds above about 6,000 m, middle clouds at about 2,000–6,000 m and low clouds below about 2,000 m, with two types that develop vertically. Cirrus is a high, wispy cloud, usually bringing fair weather. Nimbostratus is a thick, dark, low cloud layer that gives long periods of steady rain or snow at warm fronts. Cumulonimbus is a towering cloud with an anvil-shaped top at the tropopause, bringing heavy showers, hail, thunder and lightning, and squalls."
+    }
+  ]
+}
