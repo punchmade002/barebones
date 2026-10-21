@@ -12225,6 +12225,1979 @@
    }
   ]
  },
+ "geo-option-global-interdependence-s1": {
+  "keyTerms": [
+   {
+    "definition": "Growth in a country's output and income, usually measured by GNP per head.",
+    "term": "Economic development"
+   },
+   {
+    "definition": "Improvement in health, education, freedom and choice, so that people can live lives they value.",
+    "term": "Human development"
+   },
+   {
+    "definition": "Meeting today's needs without harming the ability of future generations to meet theirs.",
+    "term": "Sustainable development"
+   },
+   {
+    "definition": "The view that the physical environment, especially climate, decides how far a society can develop; now discredited.",
+    "term": "Environmental determinism"
+   },
+   {
+    "definition": "The view that the environment offers possibilities and that people choose which to use.",
+    "term": "Possibilism"
+   },
+   {
+    "definition": "The view that all societies pass along one path from traditional to modern, as Western countries did.",
+    "term": "Modernisation theory"
+   },
+   {
+    "definition": "Rostow's third stage, when investment rises above 10% of national income and a few leading industries grow fast.",
+    "term": "Take-off"
+   },
+   {
+    "definition": "The view that underdevelopment is caused by poor countries being drawn into an unequal world economy that drains their wealth to the core.",
+    "term": "Dependency theory"
+   },
+   {
+    "definition": "Core countries control high-value production and finance; periphery countries supply cheap raw materials and labour.",
+    "term": "Core and periphery"
+   },
+   {
+    "definition": "The ratio of the prices a country receives for its exports to the prices it pays for its imports.",
+    "term": "Terms of trade"
+   },
+   {
+    "definition": "A 1970s view that development should first meet food, water, shelter, health and education needs.",
+    "term": "Basic needs approach"
+   },
+   {
+    "definition": "Small-scale technology that local people can afford, use and repair.",
+    "term": "Appropriate technology"
+   },
+   {
+    "definition": "A 1980s–90s set of market reforms (privatisation, free trade, cuts in state spending) promoted by the IMF, World Bank and US Treasury.",
+    "term": "Washington Consensus"
+   },
+   {
+    "definition": "Bhutan's measure of well-being, put forward in the 1970s as a goal ahead of GNP.",
+    "term": "Gross National Happiness"
+   },
+   {
+    "definition": "A Cold War term from 1952 for the mostly newly independent countries that were not part of the capitalist First World or the communist Second World.",
+    "term": "Third World"
+   },
+   {
+    "definition": "A 1980 dividing line, running roughly along 30°N, that separates the rich North from the poor South.",
+    "term": "Brandt Line"
+   },
+   {
+    "definition": "Seeing the world from a European point of view and judging other societies by European standards.",
+    "term": "Eurocentrism"
+   },
+   {
+    "definition": "A term for the countries where most of the world's people live, popularised by Shahidul Alam as an alternative to the 'developing world'.",
+    "term": "Majority world"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Views of development differ on what counts as progress and on who sets the standard.",
+    "h": "Development is a contested idea",
+    "points": [
+     "Economic development means growth in a country's output and income, usually measured by GNP per head.",
+     "Human development means health, education, freedom and choice: people's ability to live lives they value.",
+     "Sustainable development means meeting today's needs without harming the future.",
+     "Who defines development matters: definitions are usually set by rich countries and international institutions, which decides which goals and measures count.",
+     "Measures follow views: GNP per head reflects the growth view and the HDI reflects the human view. The Economic Development notes cover both measures in full.",
+     "'Underdevelopment' has two meanings. It can mean 'not yet developed', the modernisation view, or 'made poor by others', the dependency view. Both meanings must be explained."
+    ]
+   },
+   {
+    "b": "Each era produced its own model of development and its own goals.",
+    "h": "How views have changed over time",
+    "points": [
+     "Colonial era: colonies were treated as suppliers of raw materials, and colonial rule was justified by a 'civilising mission'.",
+     "1950s–60s: growth and modernisation. Development meant GNP growth and industrialisation, following Rostow's model.",
+     "1960s–70s: dependency theory emerged in Latin America, arguing that poverty was caused by the structure of the world economy.",
+     "1970s: the basic needs approach put food, water, shelter, health and education ahead of GNP growth.",
+     "1980s–90s: the neoliberal Washington Consensus. The term was coined by the economist John Williamson in 1989 for market reforms (privatisation, free trade and cuts in state spending) promoted by the IMF, World Bank and US Treasury.",
+     "From 1990: human development, measured by the HDI, and the idea of development as freedom.",
+     "From 1987: sustainable development, which links growth to environmental limits.",
+     "2000s–2010s: goal-based views (the Millennium and Sustainable Development Goals) and rights-based views of development."
+    ]
+   },
+   {
+    "b": "Environmental determinism holds that the physical environment, especially climate, decides how far a society can develop.",
+    "h": "Environmental determinism",
+    "points": [
+     "Temperate climates were said to produce energetic, advanced peoples, while tropical climates were said to produce poor and backward societies.",
+     "The theory was developed by 19th- and early 20th-century geographers. Ellen Churchill Semple, in Influences of Geographic Environment (1911), and Ellsworth Huntington, in Civilization and Climate (1915), argued that climate determined how 'civilised' a people could become.",
+     "It was used to justify colonialism and racial hierarchies, presenting European rule as the natural order.",
+     "Critique: it ignores history, including colonialism, slavery and trade rules, as well as politics and people's choices.",
+     "Critique: it is contradicted by Singapore, which is tropical yet one of the world's richest countries, and by poverty in temperate places.",
+     "Critique: its assumptions about the abilities of different peoples were racist, and they are rejected today.",
+     "Reply: possibilism, associated with the French geographer Paul Vidal de la Blache, holds that the environment offers possibilities and people choose which to use."
+    ]
+   },
+   {
+    "h": "A softer modern version: geography matters",
+    "points": [
+     "Jeffrey Sachs, in The End of Poverty (2005), stressed malaria, poor soils and a landlocked location as obstacles that aid could help overcome.",
+     "Jared Diamond, in Guns, Germs, and Steel (1997), argued that geography (crops, animals and the east–west axis of Eurasia) explains why some societies gained power first.",
+     "Botswana is landlocked, yet it became independent in 1966 as one of the world's poorest countries. Diamonds and stable government made it an upper-middle-income country, so physical limits can be overcome.",
+     "Physical factors raise the costs of development without fixing its outcome."
+    ]
+   },
+   {
+    "b": "Modernisation theory holds that all societies pass along one path from traditional to modern, as Western Europe and North America did. Poor countries are behind and need investment, technology, industry and Western values to catch up.",
+    "h": "Rostow's modernisation model",
+    "points": [
+     "Walt W. Rostow, an American economist and adviser to Presidents Kennedy and Johnson, set out his five-stage model in The Stages of Economic Growth: A Non-Communist Manifesto (1960).",
+     "Stage 1, traditional society: subsistence farming and limited technology.",
+     "Stage 2, preconditions for take-off: investment in transport and education, new ideas, and trade opening to outside contact.",
+     "Stage 3, take-off: investment rises to over 10% of national income and a few leading industries grow fast.",
+     "Stage 4, drive to maturity: growth spreads across the economy and diversifies into many industries.",
+     "Stage 5, age of high mass consumption: most people enjoy cars, durable goods and services.",
+     "Rostow dated Britain's take-off to the late 18th century (about 1783–1802). He is not used to date any other country's take-off."
+    ]
+   },
+   {
+    "b": "Applying Rostow to Ireland is a textbook interpretation, not Rostow's own work. The model can be applied to Irish development as follows.",
+    "h": "Modernisation applied: Ireland",
+    "points": [
+     "Traditional stage: a farming economy with heavy emigration, including net emigration of about 400,000 between 1951 and 1961.",
+     "Preconditions: T. K. Whitaker's Economic Development and the First Programme for Economic Expansion (1958), and an opening to foreign investment, with the IDA set up in 1949.",
+     "Take-off: industrial growth in the 1960s and 1970s, free secondary education from 1967, and EEC membership from 1 January 1973.",
+     "Drive to maturity: growth in the 1980s and 1990s led by multinational companies.",
+     "High mass consumption: the Celtic Tiger, from the mid-1990s to 2007.",
+     "Limits of the model: the crash from 2008 and the EU–IMF bailout of November 2010 show that the stages can be reversed."
+    ]
+   },
+   {
+    "h": "Modernisation applied: South Korea",
+    "points": [
+     "The Korean War (1950–53) left South Korea among the world's poorest countries.",
+     "Export-led industrialisation was planned under Park Chung-hee from the 1960s.",
+     "Large family conglomerates (chaebol), such as Samsung, Hyundai and LG, led the growth, and heavy investment in education supplied skilled workers.",
+     "South Korea joined the OECD in 1996 and was reclassified as a developed country by UNCTAD in 2021.",
+     "Its rapid industrialisation seems to fit Rostow's stages, which is why it is used as evidence for the model."
+    ]
+   },
+   {
+    "h": "Critique of modernisation",
+    "points": [
+     "Eurocentric: it assumes the Western path is the only path and that Western society is the goal.",
+     "Linear and stage-bound: countries can skip, stall or go backwards. Zimbabwe, with land seizures from 2000 and hyperinflation peaking in 2008, and Syria, where civil war from 2011 reversed decades of progress, show this.",
+     "It ignores colonialism and unequal trade as causes of poverty.",
+     "It assumes wealth will trickle down from growth to the poor, which often does not happen.",
+     "It is growth-centred and environmentally unsustainable: mass consumption for everyone is impossible on current resources.",
+     "It ignores culture, inequality and gender.",
+     "Many African states that followed modernisation advice did not take off."
+    ]
+   },
+   {
+    "h": "Modernisation in policy",
+    "points": [
+     "Large prestige projects, such as dams and steelworks, were built to bring industry quickly, often with little local participation.",
+     "The Washington Consensus described above applied the same top-down thinking through markets, imposing reforms from outside.",
+     "Debt and aid, which followed these policies, are covered in the Empowering People notes."
+    ]
+   },
+   {
+    "b": "Dependency theory holds that poor countries are poor because of how they were drawn into the world economy, not because of their own backwardness.",
+    "h": "Dependency theory",
+    "points": [
+     "The rich core (metropolis) countries develop by draining wealth from the poor periphery (satellite) countries.",
+     "Development of the core and underdevelopment of the periphery are two sides of one process.",
+     "Origins: Latin American economists and thinkers. Raúl Prebisch, an Argentine economist, headed the UN Economic Commission for Latin America (ECLA), set up in 1948.",
+     "With Hans Singer, Prebisch argued in 1950 that the terms of trade of primary-product exporters tend to decline (the Prebisch–Singer thesis).",
+     "Andre Gunder Frank, in The Development of Underdevelopment (1966), argued that Latin America was underdeveloped by its links with the core, through metropolis–satellite chains.",
+     "Dependency is structural, through trade, investment and debt. It is not the same as dependence on aid."
+    ]
+   },
+   {
+    "h": "How dependency works",
+    "points": [
+     "Colonial extraction of raw materials, using slavery where needed.",
+     "Dependence on one or two primary exports whose prices are low and unstable.",
+     "Tariff escalation, where rich countries tax processed goods more heavily than raw materials, and rich-country subsidies that undercut producers.",
+     "Profit repatriation: multinationals send profits home.",
+     "Debt repayments drain income that could fund development.",
+     "Brain drain: skilled people leave for the core.",
+     "Local elites who benefit from the link with the core and resist change."
+    ]
+   },
+   {
+    "h": "Dependency applied: Latin America and African commodity exporters",
+    "points": [
+     "Brazil's colonial economy moved through export cycles of brazilwood, sugar, gold, coffee and rubber, each tied to demand in the core.",
+     "Côte d'Ivoire and Ghana grow over half of the world's cocoa, mostly exported as beans rather than processed chocolate.",
+     "Zambia depends on copper, which is most of its exports.",
+     "Sudan's Gezira Scheme, from 1925, grew cotton for the Lancashire mills."
+    ]
+   },
+   {
+    "h": "World-systems theory",
+    "points": [
+     "Immanuel Wallerstein's The Modern World-System (first volume 1974) divides the world into core, semi-periphery and periphery.",
+     "Core countries control high-value production and finance. Periphery countries supply cheap raw materials and labour.",
+     "Semi-periphery countries sit between the two, and countries can move between zones. South Korea and China have moved up.",
+     "China began reforms in 1978, joined the WTO in 2001 and has been the world's second-largest economy since 2010."
+    ]
+   },
+   {
+    "h": "Critique of dependency",
+    "points": [
+     "It cannot explain how the Asian Tigers (South Korea, Taiwan, Hong Kong and Singapore) and China developed through trade with the core.",
+     "Countries that cut their links with the world economy through self-reliance stayed poor.",
+     "It blames outside forces and can excuse corruption and poor government at home.",
+     "The remedy, withdrawal from world trade, has rarely worked."
+    ]
+   },
+   {
+    "h": "Basic needs and appropriate technology",
+    "points": [
+     "The basic needs approach of the 1970s put food, water, shelter, health and education first, not GNP growth.",
+     "The ILO World Employment Conference (1976) put basic needs at the centre of development policy.",
+     "E. F. Schumacher's Small Is Beautiful (1973) argued for small-scale, appropriate technology that local people can afford, use and repair.",
+     "Schumacher founded the Intermediate Technology Development Group in 1966, now called Practical Action."
+    ]
+   },
+   {
+    "h": "Human development and freedom",
+    "points": [
+     "Amartya Sen, an Indian economist and Nobel Prize winner in Economics (1998), argued in Development as Freedom (1999) that development means widening people's choices and capabilities.",
+     "The first Human Development Report (UNDP) appeared in 1990. The HDI was created by Mahbub ul Haq with Sen; see the Economic Development notes for how it works.",
+     "The human view judges progress by people's lives, not by national output alone."
+    ]
+   },
+   {
+    "h": "Bottom-up and sustainable development",
+    "points": [
+     "Bottom-up (grassroots) development puts participation, co-operatives, NGOs and women's groups at the centre, in contrast to top-down projects. See the Empowering People notes.",
+     "The Brundtland Report, Our Common Future (1987), set out sustainable development. See the Sustainable Development notes for its application.",
+     "The Sustainable Development Goals are 17 goals adopted in 2015, with a target year of 2030."
+    ]
+   },
+   {
+    "h": "Alternative measures of well-being",
+    "points": [
+     "Bhutan's Gross National Happiness was put forward in the 1970s by King Jigme Singye Wangchuck as a goal ahead of GNP.",
+     "Hans Rosling, with Ola Rosling and Anna Rosling Rönnlund in Factfulness (2018), argued that dividing the world into 'developed' and 'developing' is out of date and replaced it with four income levels."
+    ]
+   },
+   {
+    "h": "Media images of Africa",
+    "points": [
+     "Famine, war, disease and helpless victims, especially children, dominate media and charity images of Africa. Good news and ordinary life are rarely shown.",
+     "Stereotypes follow, such as the belief that 'Africa is a country'.",
+     "Donors can take a 'saviour' view of themselves, and the people shown can come to see themselves as helpless.",
+     "Investors and tourists may lose confidence in countries shown only as crisis zones.",
+     "Audiences can tire of the same images, leading to donor fatigue."
+    ]
+   },
+   {
+    "h": "Case study: the 1984–85 Ethiopian famine",
+    "points": [
+     "A BBC television report by Michael Buerk in October 1984 brought the famine to world attention.",
+     "Band Aid's single 'Do They Know It's Christmas?' (1984) and the Live Aid concerts (July 1985), organised by Bob Geldof, raised huge sums.",
+     "The famine came during civil war in northern Ethiopia, and government policies worsened it.",
+     "The powerful coverage fixed an image of Africa as helpless and dependent, and hid the political causes: civil war and government policy."
+    ]
+   },
+   {
+    "h": "Responses to negative images",
+    "points": [
+     "Dóchas, the Irish association of development NGOs, drew up a Code of Conduct on Images and Messages that its member organisations sign.",
+     "The code requires images to respect the dignity of the people shown, avoid stereotypes and tell the full context.",
+     "NGOs use dignified images and the people's own voices in their appeals.",
+     "Kenyan writer Binyavanga Wainaina's satirical essay 'How to Write About Africa' (Granta, 2005) mocked Western clichés about the continent.",
+     "Nigerian novelist Chimamanda Ngozi Adichie's talk 'The Danger of a Single Story' (2009) argued that a single story about a place distorts it."
+    ]
+   },
+   {
+    "h": "Counter-images from sub-Saharan Africa",
+    "points": [
+     "Rwanda: after the genocide from 7 April 1994, in which about 800,000 people, mostly Tutsi, were killed in about 100 days, the country rebuilt. Since the 2013 election women have held over 60% of the seats in the lower house of parliament, the highest share of any country.",
+     "Kenya: M-Pesa, a mobile-phone money transfer service launched in 2007 by Safaricom (part-owned by Vodafone), lets people without bank accounts send, receive and save money by text message. Most Kenyan adults use it.",
+     "Botswana: its growth from diamonds under stable government is the counter-image to the landlocked-state argument above."
+    ]
+   },
+   {
+    "h": "Loaded language",
+    "points": [
+     "'Underdeveloped' and 'backward' imply that poor societies are lagging behind a normal path.",
+     "'Primitive' implies that poor societies are at an earlier stage of human history.",
+     "'Developing' implies one direction of travel, towards the Western model.",
+     "'Less economically developed country' (LEDC) still measures other countries against the developed norm.",
+     "'Global South' groups countries by their position in the world economy rather than by wealth.",
+     "'Majority world' is a term popularised by the Bangladeshi photographer Shahidul Alam, because most of the world's people live there.",
+     "The UN created the 'least developed countries' category in 1971. Most of its members are in sub-Saharan Africa, and it is an official term."
+    ]
+   },
+   {
+    "h": "First World, Second World and Third World",
+    "points": [
+     "'Third World' was coined by the French demographer Alfred Sauvy in 1952, by comparison with the 'Third Estate' of the French Revolution.",
+     "It was originally a Cold War political term, not a ranking of wealth. The First World was the USA-led capitalist West and the Second World the Soviet-led communist bloc.",
+     "The Third World was the rest: mostly newly independent former colonies that did not align with either bloc.",
+     "The Bandung Conference, Indonesia, in April 1955 brought together leaders of newly independent Asian and African states. The Non-Aligned Movement was founded at Belgrade in 1961.",
+     "The Soviet Union dissolved in December 1991, ending the Second World and leaving the terms without their original meaning.",
+     "The terms became a ranking, with first meaning best, and a byword for poverty. They lump together very different countries, from Singapore to the poorest states."
+    ]
+   },
+   {
+    "b": "The North–South model divides the rich, industrialised North from the poor South.",
+    "h": "The North–South divide",
+    "points": [
+     "The Brandt Report, North–South: A Programme for Survival (1980), came from a commission chaired by the former West German Chancellor Willy Brandt.",
+     "The Brandt Line runs roughly along 30°N and dips south to include Australia and New Zealand in the North.",
+     "The Brandt Line is a 1980 concept, not a current UN or World Bank classification.",
+     "The gap in income, health and power between most of Africa and Europe remains very large.",
+     "World Inequality Report 2022: the richest 10% of people own about 76% of global wealth, and the poorest half about 2%. Poverty and deprivation also exist within the North.",
+     "Global institutions remain weighted towards wealthy states: the five permanent members of the UN Security Council are the USA, the UK, France, Russia and China."
+    ]
+   },
+   {
+    "h": "Why the North–South model is outdated",
+    "points": [
+     "Many 'South' countries are now high-income or industrial powers: Singapore, South Korea, Taiwan and Hong Kong.",
+     "China is the world's second-largest economy, and India is among the five largest.",
+     "The BRIC term was coined in 2001 by Jim O'Neill of Goldman Sachs, and the first BRIC summit was held in 2009. South Africa joined in 2011, forming BRICS. Egypt, Ethiopia, Iran and the United Arab Emirates joined in January 2024, and Indonesia in January 2025.",
+     "The G20, set up in 1999, includes China, India, Brazil, South Africa, Indonesia, Mexico and Saudi Arabia, giving the South a stronger voice.",
+     "Most of the world's people now live in middle-income countries, as Hans Rosling showed in Factfulness.",
+     "In 2016 the World Bank announced that it would stop dividing countries into 'developing' and 'developed' in its main data tables, keeping its four income groups."
+    ]
+   },
+   {
+    "b": "Eurocentric thinking sees the world from a European point of view and judges other societies by European standards, as if Europe's path, values and history were the norm.",
+    "h": "Eurocentric thinking: definition and maps",
+    "points": [
+     "The Mercator projection was designed by the Flemish map-maker Gerardus Mercator in 1569 for navigation, because lines of constant compass bearing are straight on it. Its effect is to place Europe at the top centre of the world map.",
+     "On the Mercator projection, Africa is about 14 times the area of Greenland, yet the two look similar in size.",
+     "The Peters (equal-area) projection, presented by the German historian Arno Peters in 1973 (the Gall–Peters projection), shows true areas and challenges this distortion.",
+     "Greenwich (London) was chosen as the prime meridian at the International Meridian Conference, Washington, in 1884.",
+     "Regional names such as 'Middle East' and 'Far East' are measured from Europe."
+    ]
+   },
+   {
+    "h": "Eurocentric thinking: history and development",
+    "points": [
+     "Christopher Columbus reached the Caribbean in 1492. Describing the Americas as discovered treats lands that were already inhabited as if they were empty.",
+     "The Berlin Conference of 1884–85 divided Africa among European powers. By 1914 only Ethiopia and Liberia were independent.",
+     "African and Asian achievements are ignored in European histories.",
+     "Edward Said's Orientalism (1978) showed how Western writing portrayed the East as exotic, backward and inferior.",
+     "'Developed' was defined as becoming like Western Europe, with industry, urbanisation and mass consumption.",
+     "Traditional knowledge and ways of life were dismissed, and Western experts designed projects without local input."
+    ]
+   },
+   {
+    "h": "A changing view",
+    "points": [
+     "China's Belt and Road Initiative, launched in 2013, and the growth of South–South trade and aid, including China in Africa, show a shift away from European-led models.",
+     "The rise of Asia and the voices of local people now challenge Eurocentric models of development."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "(a) Rostow's modernisation model sees development as a five-stage path, from traditional society through preconditions, take-off, drive to maturity and high mass consumption. Rostow dated Britain's take-off to about 1783–1802. It can be applied to Ireland, with net emigration of about 400,000 between 1951 and 1961, the First Programme for Economic Expansion of 1958, free secondary education from 1967, EEC membership from 1 January 1973 and the Celtic Tiger from the mid-1990s; the textbook reading is only an interpretation. It can also be applied to South Korea, whose export-led industrialisation under Park Chung-hee from the 1960s and chaebol such as Samsung, Hyundai and LG fit the stages. Critique: it is Eurocentric and linear; Zimbabwe's land seizures from 2000 and Syria's civil war from 2011 show that countries can go backwards; it ignores colonialism and unequal trade; its trickle-down assumption often fails; and it is growth-centred and environmentally unsustainable. (b) Dependency theory argues that the core drains wealth from the periphery through trade, investment and debt. Raúl Prebisch and Hans Singer argued in 1950 that the terms of trade of primary exporters decline, and Andre Gunder Frank argued in 1966 that Latin America was underdeveloped by its links with the core. Examples: Brazil's colonial export cycles of brazilwood, sugar, gold, coffee and rubber; cocoa from Côte d'Ivoire and Ghana exported mostly as beans; Zambia's dependence on copper; and Sudan's Gezira cotton for Lancashire mills from 1925. Wallerstein's world-systems theory adds a semi-periphery and shows that countries can move between zones. Critique: it cannot explain the Asian Tigers or China's development through trade; countries that cut their links stayed poor; and it can excuse corruption at home. (c) Environmental determinism, associated with Ellen Churchill Semple (1911) and Ellsworth Huntington (1915), held that climate decided how civilised a people could become. It was used to justify colonialism and racial hierarchies. Critique: it ignores history and politics, Singapore is tropical yet one of the richest countries, and its assumptions were racist. Possibilism, associated with Paul Vidal de la Blache, replies that people choose among possibilities. (d) Bottom-up and human development views offer an alternative. The basic needs approach of the 1970s put food, water, shelter, health and education first. Schumacher's Small Is Beautiful (1973) argued for appropriate technology that local people can afford and repair. Amartya Sen's Development as Freedom (1999) defines development as widening people's choices and capabilities, and the HDI followed from the first Human Development Report in 1990. Evaluation: the contrasting models each explain part of the picture, but the human and bottom-up views best fit the evidence that growth alone does not reduce poverty or improve lives.",
+    "prompt": "Views of development and underdevelopment involve contrasting models and approaches to development. Discuss.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "The Brandt Report of 1980 divided the world into a rich, industrialised North and a poor South, and the Brandt Line runs roughly along 30°N, dipping south to put Australia and New Zealand in the North. The division grew from Cold War ideas: Alfred Sauvy coined 'Third World' in 1952 as a political term for the mostly newly independent countries outside the USA-led First World and the Soviet-led Second World, and the Non-Aligned Movement was founded at Belgrade in 1961 after the Bandung Conference of 1955. The division is outdated. The Second World disappeared when the Soviet Union dissolved in December 1991, and the terms became a ranking that lumps together very different countries. Many 'South' countries are now high-income or industrial powers, including Singapore, South Korea, Taiwan and Hong Kong. China is the world's second-largest economy and India is among the five largest. The BRICS group, which South Africa joined in 2011 and Egypt, Ethiopia, Iran, the United Arab Emirates and Indonesia joined later, and the G20 give the South a stronger voice. Poverty and deprivation exist within the North, and most of the world's people live in middle-income countries, as Hans Rosling showed. The World Bank stopped dividing countries into developing and developed in its main data tables in 2016. What remains valid: the income, health and power gap between most of Africa and Europe is very large, and global institutions such as the UN Security Council, whose five permanent members are the USA, the UK, France, Russia and China, remain weighted towards wealthy states. Eurocentric thinking explains why the labels persist. The Mercator projection of 1569 places Europe at the top centre, and on it Greenland looks similar in size to Africa, which is about 14 times its area. The Peters projection of 1973 shows true areas. Development was defined as becoming like Western Europe, and European histories describe the Americas as discovered in 1492 and ignore African and Asian achievements. Edward Said's Orientalism (1978) showed how the East was portrayed as exotic, backward and inferior. Changing views are shown by China's Belt and Road Initiative from 2013 and South–South trade and aid. Evaluation: the North–South model is a useful reminder of inequality but a poor description of today's world, so the views must be challenged and updated.",
+    "prompt": "Views of development and underdevelopment are subject to change and should be challenged. Discuss with reference to the idea of the developed 'North' and the developing 'South'.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Images of developing countries, especially sub-Saharan Africa, tend to show famine, war, disease and helpless victims, especially children, while good news and ordinary life are rarely shown. The 1984–85 Ethiopian famine shows the effect: the BBC report by Michael Buerk in October 1984 and Band Aid and Live Aid raised huge sums, but the coverage fixed an image of Africa as helpless and dependent and hid the political causes, civil war and government policy. Such images produce stereotypes such as 'Africa is a country', a saviour view of donors, lower confidence among investors and tourists, and donor fatigue. Loaded language reinforces this: 'underdeveloped', 'backward' and 'primitive' imply a lagging path, and 'developing' implies one direction of travel towards the Western model. Responses include the Dóchas Code of Conduct on Images and Messages, which requires images to respect people's dignity and show the full context. A counter-image is Kenya's M-Pesa, a mobile-phone money transfer service launched in 2007, which most Kenyan adults use, showing a different development story.",
+    "prompt": "Explain how images and language used about developing countries can shape our view of development.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s2": {
+  "keyTerms": [
+   {
+    "definition": "The reliance of countries and regions on each other, so that a decision in one place has effects elsewhere.",
+    "term": "Interdependence"
+   },
+   {
+    "definition": "A region that supplies raw materials, components or assembly for products sold elsewhere.",
+    "term": "Producer region"
+   },
+   {
+    "definition": "A region that buys finished products, mostly rich countries and increasingly China and India.",
+    "term": "Consumer region"
+   },
+   {
+    "definition": "A $400 a tonne addition to cocoa sales from the 2020–21 season, intended to raise farmers' incomes in Côte d'Ivoire and Ghana.",
+    "term": "Living Income Differential"
+   },
+   {
+    "definition": "The clearing of forest for farming, mining, roads and other uses, with effects on climate, biodiversity and people.",
+    "term": "Deforestation"
+   },
+   {
+    "definition": "Land degradation in drylands caused by climate and by human activity such as overgrazing, overcultivation and irrigation.",
+    "term": "Desertification"
+   },
+   {
+    "definition": "The semi-arid belt along the southern edge of the Sahara, where drought and land degradation have caused famine and migration.",
+    "term": "Sahel"
+   },
+   {
+    "definition": "Harvesting timber no faster than the forest grows, so that the stock is maintained.",
+    "term": "Sustainable yield"
+   },
+   {
+    "definition": "Cutting down all the trees in an area at once, usually followed by replanting.",
+    "term": "Clear-felling"
+   },
+   {
+    "definition": "The rise in average surface temperature caused mainly by greenhouse gases from burning fossil fuels, deforestation and agriculture.",
+    "term": "Global warming"
+   },
+   {
+    "definition": "An EU scheme under which importers of certain goods pay for the carbon emitted in producing them.",
+    "term": "Carbon Border Adjustment Mechanism"
+   },
+   {
+    "definition": "A person who moves voluntarily to another country to work or to seek a better life.",
+    "term": "Economic migrant"
+   },
+   {
+    "definition": "A person who has a well-founded fear of persecution and is outside their country, as defined by the 1951 Refugee Convention.",
+    "term": "Refugee"
+   },
+   {
+    "definition": "A person who has applied for refugee status and is awaiting a decision.",
+    "term": "Asylum seeker"
+   },
+   {
+    "definition": "A person forced to flee their home who remains inside their own country.",
+    "term": "Internally displaced person"
+   },
+   {
+    "definition": "A person not recognised as a national by any state.",
+    "term": "Stateless person"
+   },
+   {
+    "definition": "The principle that refugees must not be returned to a country where they face danger.",
+    "term": "Non-refoulement"
+   },
+   {
+    "definition": "A legal status giving displaced people immediate rights to live and work in the EU, without the asylum process.",
+    "term": "Temporary protection"
+   },
+   {
+    "definition": "A sponsorship system that ties a migrant worker's legal status to an employer in some Gulf states.",
+    "term": "Kafala system"
+   },
+   {
+    "definition": "Money sent home by migrants to family in their countries of origin.",
+    "term": "Remittances"
+   },
+   {
+    "definition": "The Irish system of housing asylum seekers in state-run accommodation while their applications are processed.",
+    "term": "Direct provision"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Countries and regions rely on each other for raw materials, components, markets, investment, labour, food and a shared environment, so a decision in one place has effects elsewhere.",
+    "h": "Interdependence",
+    "points": [
+     "Globalisation, through trade, multinational companies, communications and migration, has deepened this interdependence.",
+     "It has an economic form (trading patterns), an environmental form (shared global issues) and a political and social form (decisions on refugees, migration and human rights)."
+    ]
+   },
+   {
+    "h": "Producer and consumer regions",
+    "points": [
+     "Producer regions supply raw materials, components and assembly. These are often developing countries with low wages.",
+     "Consumer regions buy the finished product. These are mostly rich countries, and increasingly China and India.",
+     "Value added is shared very unequally along the chain: most of it is captured by design, branding and retail in consumer regions."
+    ]
+   },
+   {
+    "h": "Apple: the product chain",
+    "points": [
+     "Apple was founded in 1976 by Steve Jobs and Steve Wozniak, with headquarters in Cupertino, California (Apple Park, 2017). The iPhone launched in 2007.",
+     "Apple designs in California. Its packaging states: 'Designed by Apple in California. Assembled in China.'",
+     "TSMC in Taiwan makes Apple's A-series and M-series chips. Samsung and LG in South Korea supply screens.",
+     "Other components come from further suppliers around the world. Minerals include cobalt, most of which is mined in the DR Congo.",
+     "Foxconn (Hon Hai Precision Industry), a Taiwanese contract manufacturer, assembles most iPhones in China, at Zhengzhou and Shenzhen.",
+     "Foxconn and the Indian Tata group assemble iPhones in India near Chennai and Bengaluru.",
+     "Apple's largest sales regions are the Americas, Europe and Greater China."
+    ]
+   },
+   {
+    "h": "Apple: impact on producer regions",
+    "points": [
+     "Positive: assembly and supply firms provide jobs for millions of people, bringing skills, industrial growth and export earnings to China.",
+     "Positive: supplier firms grow as a result of Apple's orders, as TSMC and Foxconn show.",
+     "Negative: a 2011 study by Kenneth Kraemer, Greg Linden and Jason Dedrick estimated that Apple kept about 58% of the sale price of an iPhone (2010 model) as profit, while Chinese assembly labour received under 2%.",
+     "Negative: a cluster of worker suicides at Foxconn's Shenzhen factories in 2010 drew attention to long hours, strict discipline and pressure. Foxconn raised wages and put up safety nets.",
+     "Negative: in November 2022 workers at Foxconn's Zhengzhou plant protested over pay and COVID-19 lockdown conditions, delaying iPhone supplies worldwide.",
+     "Negative: producer regions depend on Apple's orders, which can move. Some assembly has shifted to India.",
+     "Negative: Amnesty International (2016) documented child labour in the DR Congo's hand-dug cobalt mines."
+    ]
+   },
+   {
+    "h": "Apple: impact on consumer regions",
+    "points": [
+     "Consumers in rich countries gain access to new technology and services, paying high prices for products whose assembly is cheap.",
+     "Most profit and the high-paid design and marketing jobs stay in the USA, where the company is based.",
+     "Electronic waste from discarded devices is exported to poorer countries."
+    ]
+   },
+   {
+    "h": "Apple and Ireland",
+    "points": [
+     "Apple opened at Hollyhill, Cork, in 1980, its first manufacturing plant in Europe. It now has about 6,000 employees in Cork and its European headquarters there.",
+     "Apple's Cork campus does not assemble iPhones. Its role is European headquarters and support, not the Chinese assembly chain.",
+     "In 2016 the European Commission ruled that Ireland had given Apple illegal tax benefits worth €13 billion. This was the recovery of illegal State aid, not a fine, and Ireland argued against collecting it.",
+     "The General Court overturned the decision in 2020. In September 2024 the EU Court of Justice reinstated it, and Ireland received about €14 billion, including interest.",
+     "A decision in Brussels therefore affected both Ireland and the USA, where the company is based.",
+     "US tariffs on many Chinese goods from 2018, and higher tariffs on most countries' imports in 2025, have pushed Apple to move some assembly to India."
+    ]
+   },
+   {
+    "h": "Cadbury and Mondelēz: the company and its Irish plants",
+    "points": [
+     "Cadbury was founded by John Cadbury in Birmingham, England, in 1824. Its Bournville factory and model village for workers opened in 1879.",
+     "The American firm Kraft Foods took over Cadbury in 2010. In 2012 Kraft's snacks business, including Cadbury, became Mondelēz International, headquartered in Chicago.",
+     "Because Mondelēz is American, Cadbury is no longer a British-owned company.",
+     "Cadbury Ireland has a chocolate factory at Coolock, Dublin, and a chocolate crumb plant at Rathmore, Co. Kerry.",
+     "Rathmore uses milk from local dairy farms to make chocolate crumb (milk, sugar and cocoa), which is sent to Cadbury factories in Britain. It makes crumb, not finished bars."
+    ]
+   },
+   {
+    "h": "Cadbury and Mondelēz: cocoa producer regions",
+    "points": [
+     "Côte d'Ivoire is the world's largest cocoa producer, with about two-fifths of world output. Ghana is second. Together they grow over half of the world's cocoa, mostly exported as beans.",
+     "Most cocoa is grown on small family farms of a few hectares.",
+     "From the 2020–21 season Côte d'Ivoire and Ghana added a Living Income Differential of $400 a tonne to cocoa sales to raise farmers' incomes.",
+     "A study for the US Department of Labor by NORC at the University of Chicago, published in 2020, found about 1.56 million children in child labour in cocoa growing in Côte d'Ivoire and Ghana (2018–19).",
+     "The Harkin–Engel Protocol (2001) committed the chocolate industry to end the worst forms of child labour in cocoa. Deadlines have been missed repeatedly.",
+     "Côte d'Ivoire has lost most of its forest since independence (1960), much of it to cocoa farms.",
+     "In 2024 cocoa prices rose to a record above $10,000 a tonne after poor West African harvests, caused by bad weather and the cocoa swollen shoot virus. Farmers gained far less than the world price, because their governments fix farm-gate prices in advance.",
+     "Value is mostly added outside Africa. The Netherlands, through the port of Amsterdam, is the world's largest cocoa-processing centre.",
+     "Irish dairy farms supplying Rathmore are also a producer region for the company."
+    ]
+   },
+   {
+    "h": "Cadbury and Mondelēz: company responses",
+    "points": [
+     "Cadbury Dairy Milk carried the Fairtrade Mark from 2009.",
+     "Mondelēz launched its own sustainability programme, Cocoa Life, in 2012, with about $400 million committed over ten years.",
+     "In 2017 Cadbury Dairy Milk in Britain and Ireland replaced the Fairtrade Mark with the Cocoa Life logo. Fair-trade campaigners criticised the decision."
+    ]
+   },
+   {
+    "h": "Cadbury and Mondelēz: consumer regions",
+    "points": [
+     "Europe and North America consume most of the world's chocolate. Brands, marketing and retail take most of the price.",
+     "Consumer campaigns and EU rules pass pressure back to producers.",
+     "The EU Deforestation Regulation (adopted 2023) will require firms selling cocoa, coffee, beef, soya, palm oil, rubber and timber in the EU to prove the goods were not grown on land deforested after 2020. Its application has been delayed."
+    ]
+   },
+   {
+    "h": "Intel: a short case study",
+    "points": [
+     "Intel was founded in 1968 in Santa Clara, California. Research and design are based in Oregon and California.",
+     "Wafers are made in fabs at Hillsboro (Oregon), Chandler (Arizona), Leixlip and Kiryat Gat (Israel). Leixlip makes processor wafers, not computers.",
+     "Assembly and test take place in Penang and Kulim (Malaysia), Ho Chi Minh City (Vietnam) and Chengdu (China).",
+     "Customers are computer makers, including Lenovo, HP and Dell, which sell worldwide.",
+     "Intel's Leixlip fab has operated since 1989, and over €30 billion had been invested by 2023. Fab 34 opened in 2023.",
+     "49% of the Fab 34 joint venture was sold to Apollo Global Management for about $11 billion (2024).",
+     "Decisions elsewhere affect Intel: the US CHIPS and Science Act 2022 (about $50 billion), about 15,000 global job cuts announced in August 2024, and a US government stake of about 10% (2025)."
+    ]
+   },
+   {
+    "h": "Irish trade and multinationals in Ireland",
+    "points": [
+     "Goods exports passed €200 billion in 2024 (CSO), and about a third went to the USA. Pharmaceutical and chemical products are the largest category.",
+     "Ireland has a large goods trade surplus, the largest of it with the USA.",
+     "Ireland is a producer region for US multinationals: Pfizer at Ringaskiddy, Co. Cork, in pharmaceuticals; a medical-devices cluster in Galway, including Medtronic and Boston Scientific; and computer services, where Ireland is one of the world's largest exporters.",
+     "IDA Ireland, set up in 1949, has client firms employing about 300,000 people (2023–24).",
+     "Dependence on US firms and markets makes Ireland vulnerable to US tax and tariff decisions. In early 2025 Irish exports to the USA rose sharply as US buyers stockpiled medicines before new tariffs.",
+     "Brexit, a political decision, changed Irish trade routes and agri-food exports. The UK left the EU on 31 January 2020, and the transition ended on 31 December 2020.",
+     "Corporation tax is 12.5%, rising to 15% for very large groups from 2024 under the OECD agreement."
+    ]
+   },
+   {
+    "h": "Deforestation: the global picture",
+    "points": [
+     "Forests cover about 31% of the world's land, about 4.06 billion hectares (FAO Global Forest Resources Assessment 2020).",
+     "About 10 million hectares a year were deforested in 2015–2020.",
+     "Most loss is in the tropics, in regions such as South America, Africa and South-East Asia.",
+     "Loss is driven largely by demand in other regions for beef, soya, palm oil, timber, cocoa and minerals."
+    ]
+   },
+   {
+    "h": "Deforestation: the Amazon",
+    "points": [
+     "The Amazon is the world's largest tropical rainforest, with about 60% of it in Brazil.",
+     "Close to a fifth of the original forest has been cleared. Cattle ranching is the largest cause.",
+     "Soya, much of it exported as animal feed to Europe and China, has spread north from Mato Grosso. The Trans-Amazonian Highway was begun in the early 1970s, and roads, mining and dams add to clearance.",
+     "PRODES annual deforestation in the Brazilian Amazon was about 27,800 km² in 2004, about 4,600 km² in 2012 and about 13,000 km² in 2021, with a sharp fall from 2023.",
+     "Effects elsewhere: the carbon released adds to global warming, reduced rainfall recycling affects farming beyond the forest, biodiversity is lost, and indigenous peoples are threatened.",
+     "Scientists warn that the loss of about 20–25% of the forest could push parts of it towards degraded savanna.",
+     "Brazil's Forest Code requires 80% of Amazon land to be kept as a legal reserve.",
+     "Chico Mendes, a campaigner for the forest, was murdered on 22 December 1988.",
+     "Responses involving other countries: the Amazon Soy Moratorium (2006), agreed by traders; the Amazon Fund (2008), with Norway as the largest donor; and the EU Deforestation Regulation (see the Cadbury notes).",
+     "Brazil is the world's largest exporter of soya beans."
+    ]
+   },
+   {
+    "h": "Deforestation: Indonesia and Malaysia",
+    "points": [
+     "Indonesia and Malaysia produce about 85% of the world's palm oil, used in foods, cosmetics and biofuels sold worldwide.",
+     "Peat swamp forest in Borneo and Sumatra is cleared and burned to plant oil palms.",
+     "Regional haze in 1997 and 2015 affected Singapore and Malaysia, a transboundary effect of clearance in another country.",
+     "The Bornean orangutan is listed as Critically Endangered (IUCN, 2016)."
+    ]
+   },
+   {
+    "h": "Managed forests in Scandinavia",
+    "points": [
+     "About two-thirds of Sweden's land is forest. About three-quarters of Finland's land is forest, the highest share in the EU.",
+     "Sweden's first Forestry Act (1903) required forest owners to replant after felling. The Forestry Act of 1993 gave equal weight to timber production and environmental goals.",
+     "Sweden's standing timber volume has roughly doubled since its National Forest Inventory began in the 1920s, because growth exceeds felling. This is sustainable yield.",
+     "Sweden and Finland are among the world's leading exporters of pulp, paper and sawn timber. IKEA, a Swedish company, is a major buyer of wood. UPM and Stora Enso are Finnish–Swedish forest companies.",
+     "Buyers in other countries demand certification: the Forest Stewardship Council (FSC), founded in 1993, and PEFC (Programme for the Endorsement of Forest Certification), from 1999.",
+     "Clear-felling followed by replanting, mostly with Norway spruce and Scots pine, is the main method.",
+     "Critics say clear-felling creates even-aged monocultures, removes old-growth forest and dead wood, and threatens forest species.",
+     "Clear-felling destroys the lichen that reindeer graze on in winter, causing conflict with Sámi reindeer herders in northern Sweden. Their grievance is about grazing and land use, not forestry as a whole.",
+     "The Scandinavian case shows that a forest economy can be managed sustainably when the state, owners and consumers act together."
+    ]
+   },
+   {
+    "h": "Ireland and forests",
+    "points": [
+     "Ireland's forest cover is about 11%, mostly conifer plantations. Sitka spruce, from western North America, is the main tree.",
+     "Coillte, the State forestry company, was set up in 1988. Private owners also hold forest.",
+     "About 1% of Ireland was forested around 1900.",
+     "Ireland imports products linked to tropical deforestation, such as palm oil and feed for beef, so Irish consumers are part of the chain."
+    ]
+   },
+   {
+    "h": "Desertification: definition and scale",
+    "points": [
+     "Desertification is land degradation in drylands. It is not the desert advancing a set distance each year.",
+     "Drylands cover about 41% of the earth's land surface and are home to about 2 billion people (Millennium Ecosystem Assessment, 2005).",
+     "The UN Convention to Combat Desertification was adopted in 1994. 17 June is World Day to Combat Desertification."
+    ]
+   },
+   {
+    "b": "The Sahel is the semi-arid belt along the southern edge of the Sahara, from Senegal and Mauritania through Mali, Burkina Faso, Niger and Chad to Sudan.",
+    "h": "Desertification: the Sahel",
+    "points": [
+     "Rainfall is about 200–600 mm a year, falling in one short wet season.",
+     "Physical causes: unreliable rainfall and drought, notably in the 1970s and 1980s.",
+     "Human causes: population growth, overgrazing, overcultivation and fuelwood collection. Cash crops such as groundnuts in Senegal and cotton take the best land for export, and nomads have been settled.",
+     "Global warming, linked to emissions in other regions, adds to drought.",
+     "Effects: famine, conflict over land and water, and migration to cities and to Europe. Lake Chad has shrunk dramatically since the 1960s; a widely quoted UN figure puts the shrinkage at about 90%.",
+     "The Great Green Wall (African Union, 2007) is a planned band about 8,000 km long from Senegal to Djibouti, aiming to restore 100 million hectares by 2030. Progress has been slow.",
+     "Zaï pits and stone lines, used in Yatenga, Burkina Faso, by farmers such as Yacouba Sawadogo, trap water and soil.",
+     "Farmer-managed natural regeneration in Niger has regreened about 5 million hectares since the 1980s, in the Maradi and Zinder regions."
+    ]
+   },
+   {
+    "h": "Desertification: the Aral Sea",
+    "points": [
+     "In 1960 the Aral Sea, between Kazakhstan and Uzbekistan, was the world's fourth-largest lake.",
+     "From the 1960s Soviet planners diverted the Amu Darya and Syr Darya rivers to irrigate cotton. The sea shrank to a small fraction of its size and split.",
+     "Fishing collapsed, and the port of Moynaq was left far from the shore.",
+     "Salt and pesticide dust storms now blow from the exposed seabed.",
+     "The loss was caused by irrigation, not by climate change.",
+     "The Kok-Aral Dam (2005, Kazakhstan, with World Bank funding) raised the North Aral Sea, and fishing has partly recovered."
+    ]
+   },
+   {
+    "h": "Desertification in Europe and China",
+    "points": [
+     "Almería, in south-east Spain, is one of the driest parts of Europe. Tens of thousands of hectares of plastic greenhouses grow vegetables in winter for northern European supermarkets, including those in Ireland.",
+     "The greenhouses are irrigated largely from groundwater, which is being over-pumped.",
+     "China's Three-North Shelter Forest Programme, begun in 1978 and due to run to 2050, plants belts of trees across northern China to hold back the Gobi and reduce dust storms.",
+     "Many trees have died where they were planted in unsuitable dry areas."
+    ]
+   },
+   {
+    "h": "Global warming: causes",
+    "points": [
+     "Greenhouse gases from burning fossil fuels in industrialised and emerging economies, from deforestation and from agriculture cause global warming.",
+     "Atmospheric CO2 was about 280 ppm before the Industrial Revolution and was over 420 ppm by the mid-2020s (Mauna Loa).",
+     "Global average surface temperature has risen about 1.1–1.2 °C since the late 1800s (IPCC). 2024 was the warmest year on record and the first calendar year more than 1.5 °C above pre-industrial levels (Copernicus).",
+     "China has been the largest CO2 emitter since the mid-2000s, but the USA emits far more per person.",
+     "Rich countries bear historical responsibility for much of the emissions that have built up in the atmosphere."
+    ]
+   },
+   {
+    "h": "Global warming: effects on other areas",
+    "points": [
+     "Countries that emitted least suffer most. Bangladesh, in the Ganges–Brahmaputra delta, faces floods, cyclones and sea-level rise.",
+     "Small island states, including Tuvalu, Kiribati and the Maldives, are threatened by sea-level rise.",
+     "Global sea level rose about 20 cm between 1901 and 2018 (IPCC).",
+     "Arctic summer sea ice has shrunk by about 13% per decade since 1979.",
+     "The Great Barrier Reef has suffered repeated mass bleaching since the late 1990s.",
+     "Pakistan's floods of 2022 followed extreme monsoon rains and glacier melt. About a third of the country was flooded, over 1,700 people died and about 33 million were affected. Pakistan produces under 1% of global greenhouse gas emissions.",
+     "Drought in the Sahel, rising food prices when harvests fail, and climate-driven migration spread the effects across regions."
+    ]
+   },
+   {
+    "h": "Global warming: Ireland",
+    "points": [
+     "Agriculture produces over a third of Ireland's greenhouse gas emissions. Transport produces about a fifth (EPA, early 2020s).",
+     "Ireland's average temperature has risen about 0.9 °C since 1900.",
+     "Storm Éowyn, in January 2025, is an example of the more extreme weather that warming brings.",
+     "The Climate Act 2021 sets a 51% cut in emissions by 2030 (from 2018) and net zero by 2050."
+    ]
+   },
+   {
+    "h": "Global warming: responses",
+    "points": [
+     "The UNFCCC, agreed at Rio de Janeiro in 1992, set up the framework for international co-operation.",
+     "The Kyoto Protocol (1997, in force 2005) was never ratified by the USA. The Paris Agreement (2015) aims to keep warming well below 2 °C and to pursue 1.5 °C.",
+     "The EU Emissions Trading System began in 2005. The European Green Deal (2019) aims for climate neutrality by 2050 and at least a 55% cut by 2030 compared with 1990.",
+     "COP30 was held in Belém, Brazil, in November 2025.",
+     "The Loss and Damage Fund was agreed at COP27 in Sharm el-Sheikh (2022) and became operational at COP28 in Dubai (2023), to help countries hit by climate damage.",
+     "The EU Carbon Border Adjustment Mechanism (CBAM) required reporting from October 2023 for imports such as steel, cement, aluminium and fertilisers. Importers will pay for the carbon in these goods from 2026, so EU climate decisions affect exporters such as China and India.",
+     "Evaluation: national pledges still fall short of the 1.5 °C goal, so co-operation between countries is essential."
+    ]
+   },
+   {
+    "h": "Refugees, asylum seekers and other migrants",
+    "points": [
+     "An economic migrant moves voluntarily for work and a better life.",
+     "Under the UN Refugee Convention (1951), a refugee has a well-founded fear of persecution for reasons of race, religion, nationality, membership of a particular social group or political opinion. Its 1967 Protocol removed the time and place limits.",
+     "An asylum seeker has applied for refugee status and is awaiting a decision.",
+     "An internally displaced person has been forced to flee but remains inside their own country.",
+     "A stateless person is not recognised as a national by any state.",
+     "UNHCR is the UN refugee agency.",
+     "Political refugees flee persecution or war that results from political decisions. Economic 'refugees' flee poverty, often caused by decisions elsewhere in trade, debt or conflict. The line between them is often blurred."
+    ]
+   },
+   {
+    "h": "The scale of displacement",
+    "points": [
+     "More than 120 million people were forcibly displaced worldwide in 2024 (UNHCR), including refugees, asylum seekers and internally displaced people.",
+     "Most refugees stay in neighbouring countries, mostly low- and middle-income ones, not in Europe.",
+     "Turkey hosted the largest refugee population in the world for most of the 2010s and early 2020s, mostly Syrians."
+    ]
+   },
+   {
+    "h": "Syria: political refugees",
+    "points": [
+     "Protests in March 2011 were met with force by President Bashar al-Assad's government, leading to civil war.",
+     "Syria's pre-war population was about 22 million. At the height of the war over half were displaced, including over 6 million refugees abroad and a similar number displaced inside Syria.",
+     "Turkey hosted over 3 million Syrian refugees. Lebanon has the most refugees per head of population of any country. Zaatari camp in Jordan opened in 2012.",
+     "Alan Kurdi, a three-year-old Syrian boy, drowned and was photographed on a beach near Bodrum, Turkey, on 2 September 2015. The image changed public opinion in Europe.",
+     "About 1.3 million asylum applications were made in the EU in 2015.",
+     "Germany's decision to admit refugees, with Merkel's 'Wir schaffen das' (August 2015). Hungary built a border fence with Serbia in 2015.",
+     "EU–Turkey statement (March 2016): irregular migrants were returned from the Greek islands to Turkey, and the EU was to provide €6 billion for refugees in Turkey.",
+     "The Assad government fell on 8 December 2024. Many refugees began to consider return, but homes, services and the economy were destroyed."
+    ]
+   },
+   {
+    "h": "Rohingya: statelessness and human rights",
+    "points": [
+     "The Rohingya are a mainly Muslim minority from Rakhine State, Myanmar.",
+     "Myanmar's 1982 Citizenship Law did not recognise them as one of the country's national groups, leaving most of them stateless.",
+     "From August 2017 a military campaign of killings and village burning drove about 740,000 Rohingya into Bangladesh.",
+     "About 1 million Rohingya live in camps around Cox's Bazar, Bangladesh, including Kutupalong, the world's largest refugee camp. Restrictions limit their work and movement.",
+     "From 2020 Bangladesh moved some refugees to Bhasan Char, a flood-prone island in the Bay of Bengal.",
+     "A UN fact-finding mission (2018) called for Myanmar's generals to be investigated for genocide. The Gambia brought a genocide case against Myanmar at the International Court of Justice in 2019.",
+     "The military coup in Myanmar in February 2021 ended prospects of a safe return."
+    ]
+   },
+   {
+    "h": "Ukraine: temporary protection",
+    "points": [
+     "Russia's full-scale invasion of Ukraine began on 24 February 2022. It is a political decision that displaced millions.",
+     "The EU Temporary Protection Directive (2001) was activated for the first time on 4 March 2022, giving immediate rights to live and work.",
+     "Temporary protection is not asylum. Over 4 million people held temporary protection in the EU in 2024, and Ireland had received over 100,000 Ukrainians by 2024.",
+     "UNHCR recorded over 6 million refugees from Ukraine across Europe (2023–24).",
+     "The contrast with the treatment of asylum seekers from Africa and the Middle East raises a question of equality in human rights."
+    ]
+   },
+   {
+    "h": "Ireland: immigration of refugees",
+    "points": [
+     "The Refugee Act 1996 and the International Protection Act 2015 set out Ireland's protection system. Direct provision was introduced in 2000.",
+     "Asylum seekers gained the right to work, after a waiting period, from 2018, following a 2017 Supreme Court ruling.",
+     "Over 13,000 international protection applications were made in 2022. A 2021 White Paper planned to end direct provision by 2024, but the plan was abandoned as numbers rose.",
+     "Accommodation is run by IPAS.",
+     "Protests: East Wall from November 2022, and a riot in Dublin on 23 November 2023.",
+     "The Irish Refugee Protection Programme (September 2015) offered protection to up to 4,000 people, in response to the Syrian crisis."
+    ]
+   },
+   {
+    "h": "Migration patterns",
+    "points": [
+     "About 281 million international migrants were counted in 2020 (IOM World Migration Report 2022), about 3.6% of the world's population.",
+     "Most international migrants move within their own region, South–South as well as South–North.",
+     "Main corridors: Mexico–USA; North and West Africa–Europe; and South Asia–the Gulf.",
+     "Eastern–Western Europe migration followed EU enlargement on 1 May 2004."
+    ]
+   },
+   {
+    "h": "Economic migration and the decisions behind it",
+    "points": [
+     "On 1 May 2004 Ireland, the UK and Sweden were the only existing EU members to open their labour markets to the new members at once.",
+     "Migrant workers, mainly from India, Nepal, Bangladesh, Pakistan and the Philippines, make up most of the population and workforce of Qatar and the United Arab Emirates.",
+     "The kafala system ties a migrant worker's legal status to an employer-sponsor.",
+     "Qatar was criticised over conditions for workers building World Cup stadiums and infrastructure. It introduced reforms in 2020, a minimum wage and the right to change jobs without the employer's permission, but enforcement has been criticised. The FIFA World Cup was held in Qatar in November–December 2022.",
+     "The Atlantic route: migrants from Senegal, Mauritania, Mali and elsewhere in West Africa travel by boat to Spain's Canary Islands. Arrivals reached a record in 2024.",
+     "Senegalese fishermen have blamed foreign industrial trawler fleets and fishmeal factories for declining catches, which they say pushes young men to migrate. This is a reported cause, not a proven one.",
+     "The Central Mediterranean route: the Lampedusa shipwreck of October 2013 killed over 360 people. Italy's Mare Nostrum operation ran in 2013–14."
+    ]
+   },
+   {
+    "h": "Remittances and effects on source and receiving regions",
+    "points": [
+     "Remittances to low- and middle-income countries were about $650 billion in 2023, more than foreign direct investment and official aid to those countries combined (excluding China) (World Bank).",
+     "India is the largest recipient of remittances and Mexico the second (2023).",
+     "Source regions: brain drain of doctors and nurses, loss of young workers, and return migrants who bring skills and capital.",
+     "Receiving regions: migrants fill jobs in health care, construction, farming and hospitality, and younger populations offset ageing.",
+     "Receiving regions: cultural diversity, but also pressure on housing and services and political reaction from anti-immigration parties.",
+     "The EU Pact on Migration and Asylum was adopted in May 2024 and applies from mid-2026. Ireland opted in."
+    ]
+   },
+   {
+    "h": "Ireland's experience of migration",
+    "points": [
+     "The Great Famine (1845–49): about 1 million died and about 1 million emigrated, in a system shaped by the land system and government policy.",
+     "Net emigration of about 400,000 between 1951 and 1961, and over 200,000 between 1981 and 1991.",
+     "Emigration peaked at about 89,000 in the year to April 2013, after the crash of 2008.",
+     "Census 2022: about 12% of residents were non-Irish nationals, and just over 1 million people were born outside Ireland. Ireland has returned to net immigration."
+    ]
+   },
+   {
+    "h": "The human rights framework",
+    "points": [
+     "The Universal Declaration of Human Rights (10 December 1948), Article 14, gives the right to seek and enjoy asylum from persecution.",
+     "Non-refoulement, the principle that refugees must not be returned to danger, is set out in Article 33 of the 1951 Refugee Convention.",
+     "The European Convention on Human Rights, of the Council of Europe, was signed in 1950.",
+     "Political decisions can protect these rights or violate them."
+    ]
+   },
+   {
+    "h": "Human rights in global supply chains",
+    "points": [
+     "Rana Plaza, Savar, near Dhaka, collapsed on 24 April 2013, killing about 1,130 people and injuring about 2,500. Its factories supplied Western brands, including Primark, founded in Dublin in 1969 as Penneys.",
+     "The Accord on Fire and Building Safety in Bangladesh was signed in May 2013 in response.",
+     "Xinjiang, China: the UN Human Rights Office (2022) reported serious violations against Uyghurs and other mainly Muslim groups, including mass detention. There is evidence of forced labour in cotton and other industries.",
+     "Xinjiang grows most of China's cotton, about a fifth of the world's cotton.",
+     "The US Uyghur Forced Labor Prevention Act (signed December 2021, in force June 2022) presumes that goods made wholly or partly in Xinjiang use forced labour and bans their import unless proven otherwise.",
+     "ILO and UNICEF estimated about 160 million children in child labour in 2020, about 70% of them in agriculture.",
+     "Child labour in cobalt mining (see the Apple notes) and the treatment of migrant workers in Qatar show the same pattern: rich-country decisions affect workers in poor ones."
+    ]
+   },
+   {
+    "h": "Decisions in one country affecting human rights in another",
+    "points": [
+     "In July 1984 Mary Manning, a worker at Dunnes Stores, Henry Street, Dublin, refused to handle South African grapes in protest against apartheid. She was suspended, and a small group of colleagues went on strike with her for almost three years.",
+     "In 1987 the Irish government banned imports of South African fruit and vegetables.",
+     "Apartheid in South Africa lasted from 1948 to 1994.",
+     "Sanctions were applied to apartheid South Africa and, later, to Myanmar and Russia. A decision in one country restricts trade and investment with another.",
+     "The EU Corporate Sustainability Due Diligence Directive, adopted in 2024, requires large companies to address human rights risks in their supply chains."
+    ]
+   },
+   {
+    "h": "Human rights and the treatment of refugees",
+    "points": [
+     "Detention, pushbacks and deaths at sea in the Mediterranean, including the Lampedusa shipwreck above.",
+     "Long stays in direct provision in Ireland raise questions of dignity and human rights.",
+     "Children's education in camps and women's safety in camps are human rights concerns.",
+     "Statelessness, as with the Rohingya, leaves people without the protection of any state."
+    ]
+   },
+   {
+    "h": "Evaluation: decisions and responses",
+    "points": [
+     "Decisions about war, borders, trade and aid in one country shape the lives of people far away. The Syria, Rohingya and Ukraine cases show this.",
+     "Effective responses need international co-operation through bodies such as UNHCR, the EU and the UN Refugee Convention."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Apple is a US company headquartered in Cupertino, California, which designs its products there and outsources manufacturing. Its iPhone, launched in 2007, is assembled mostly in China by Foxconn, a Taiwanese contract manufacturer, at Zhengzhou and Shenzhen, and increasingly in India, by Foxconn and the Indian Tata group near Chennai and Bengaluru. Producer regions gain jobs, skills, export earnings and supplier growth: TSMC in Taiwan makes Apple's chips, and Samsung and LG in South Korea supply screens. The negative impacts are considerable. A 2011 study by Kraemer, Linden and Dedrick estimated that Apple kept about 58% of the sale price of an iPhone as profit, while Chinese assembly labour received under 2%. Worker suicides at Foxconn's Shenzhen factories in 2010 drew attention to long hours and pressure, and the Zhengzhou protest of November 2022 delayed iPhone supplies worldwide. Producer regions depend on orders that can move, and assembly has shifted towards India after US tariffs from 2018 and 2025. Cobalt from the DR Congo is mined in conditions that Amnesty International (2016) documented, including child labour. Consumer regions in Europe and North America gain access to new technology and services and pay high prices, while most profit and high-paid design and marketing jobs stay in the USA. Electronic waste is exported to poorer countries. Ireland's position is distinctive. Apple's Cork campus, opened in 1980 as its first European plant, employs about 6,000 people and is its European headquarters, though it does not assemble iPhones. The EU state-aid case, in which the Commission ruled in 2016 that Ireland had given Apple illegal tax benefits worth €13 billion, was reinstated by the EU Court of Justice in September 2024, and Ireland received about €14 billion including interest. A decision in Brussels therefore affected both Ireland and the USA. Evaluation: the chain transfers jobs and growth to producer regions but concentrates value, power and profit in the company's home base and in the consumer regions that buy its products.",
+    "prompt": "Discuss the impact of global trading patterns on both producer and consumer regions, with reference to one multinational company that you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Deforestation shows interdependence through demand. The Amazon, the world's largest tropical rainforest, lost close to a fifth of its original forest, with cattle ranching the largest cause and soya spreading north from Mato Grosso, much of it exported as animal feed to Europe and China. PRODES figures show about 27,800 km² cleared in 2004, about 4,600 km² in 2012 and about 13,000 km² in 2021, before a sharp fall from 2023. The effects reach beyond Brazil: released carbon adds to global warming, and reduced rainfall recycling affects farming elsewhere. Responses involve other countries, including the Amazon Soy Moratorium of 2006 and the Amazon Fund of 2008, which Norway funds most. In contrast, the managed forests of Sweden and Finland show a sustainable alternative: Sweden's 1903 Forestry Act required replanting, its standing timber has roughly doubled since the 1920s, and certification by the FSC, founded in 1993, is demanded by buyers in other countries. Critics of clear-felling argue that it creates monocultures and removes old-growth forest, and it destroys the lichen on which Sámi herders' reindeer graze in winter. Global warming is the clearest case of interdependence. Rich countries and China, the largest CO2 emitter since the mid-2000s, cause most of the emissions, while Bangladesh, the Maldives, Tuvalu and Kiribati face sea-level rise and Pakistan's 2022 floods, which affected about 33 million people, followed extreme rain and glacier melt, although Pakistan produces under 1% of global emissions. Responses require co-operation through the UNFCCC of 1992, the Kyoto Protocol, the Paris Agreement of 2015, the Loss and Damage Fund and the EU Carbon Border Adjustment Mechanism, which charges importers for the carbon in their goods from 2026. Desertification in the Sahel shows the same chain. Drought, overgrazing, overcultivation and cash crops such as groundnuts and cotton grown for export degrade the land, and famine, conflict and migration follow, while the shrinking of Lake Chad reflects regional pressures. The Great Green Wall and zaï pits are local responses, but progress is slow. The Aral Sea shows that decisions by Soviet planners to divert rivers for cotton destroyed a sea and its fishing economy in Kazakhstan and Uzbekistan, with salt and dust storms spreading far beyond it. Evaluation: decisions about trade, energy and consumption in one place cause degradation elsewhere, so the statement is well supported, though responses remain limited.",
+    "prompt": "We live in an interdependent global economy where decisions taken in one area have an impact on other areas. Examine this statement with reference to deforestation, global warming and desertification.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Political decisions create political refugees. Syria's government met protests in March 2011 with force, leading to civil war; over half the population was displaced, including over 6 million refugees abroad, with Turkey hosting over 3 million, Lebanon having the most refugees per head of any country, and Zaatari camp in Jordan opened in 2012. The 2015 movement to Europe, with about 1.3 million asylum applications in the EU that year, followed Alan Kurdi's photograph of 2 September 2015 and German and Hungarian decisions, and the EU–Turkey statement of March 2016 returned irregular migrants from the Greek islands to Turkey in exchange for €6 billion. The Rohingya show statelessness: Myanmar's 1982 Citizenship Law left them without recognition, and the 2017 military campaign drove about 740,000 into Bangladesh, where about 1 million live in camps around Cox's Bazar, including Kutupalong. The Gambia's 2019 genocide case at the International Court of Justice and the 2021 coup have left return uncertain. Economic migration is driven by decisions too. About 281 million people were international migrants in 2020, most moving within their own region, and migrant workers from South Asia and the Philippines make up most of the workforce of Qatar and the UAE under the kafala system, with Qatar's 2020 reforms criticised for enforcement. Migrants from West Africa take the Atlantic route to the Canary Islands, with record arrivals in 2024, and the Lampedusa shipwreck of October 2013 killed over 360 people. Remittances of about $650 billion to low- and middle-income countries in 2023 support families, though source regions also lose doctors and young workers. Ireland's experience includes the Great Famine of 1845–49 and emigration of about 400,000 between 1951 and 1961, and its refugee system, with direct provision since 2000 and the right to work from 2018. Human rights frameworks protect these people: Article 14 of the UDHR of 1948 gives the right to seek asylum, and non-refoulement is set out in Article 33 of the 1951 Convention. Human rights issues also arise in supply chains: the Rana Plaza collapse of 2013 killed about 1,130 people, and the US ban on goods made with forced labour in Xinjiang responds to the UN's 2022 report. Decisions also cross borders in the other direction: in 1984 Mary Manning, a worker at Dunnes Stores in Dublin, refused to handle South African grapes, and the Irish government banned South African fruit and vegetables in 1987. Evaluation: decisions on war, borders, trade and aid shape the lives of people far away, so effective responses need international co-operation through UNHCR, the EU and the UN Refugee Convention.",
+    "prompt": "Discuss the impact of social and political decisions with reference to economic and political refugees, migration patterns and human rights issues.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s3": {
+  "keyTerms": [
+   {
+    "definition": "Giving people control over resources and a voice in decisions, so that economic growth reaches them.",
+    "term": "Empowerment"
+   },
+   {
+    "definition": "The loop in which debt repayments reduce spending on health and education, which keeps incomes low and drives further borrowing.",
+    "term": "Cycle of poverty"
+   },
+   {
+    "definition": "Conditions attached to IMF and World Bank loans, such as cutting spending, privatising and opening markets, in exchange for financial support.",
+    "term": "Structural adjustment programme"
+   },
+   {
+    "definition": "A 1996 scheme run by the IMF and World Bank that offered debt relief to heavily indebted poor countries if savings went to poverty reduction.",
+    "term": "HIPC Initiative"
+   },
+   {
+    "definition": "Debt taken out by a regime and used against its own people, which is argued not to be fairly repayable by those people.",
+    "term": "Odious debt"
+   },
+   {
+    "definition": "Aid that must be spent on goods or services from the donor country.",
+    "term": "Tied aid"
+   },
+   {
+    "definition": "Aid given directly from one government to another.",
+    "term": "Bilateral aid"
+   },
+   {
+    "definition": "A non-profit, non-governmental organisation that delivers aid, campaigns for justice or both, and is independent of governments.",
+    "term": "NGO"
+   },
+   {
+    "definition": "Large estates in Latin America, owned by a small number of landowners.",
+    "term": "Latifundia"
+   },
+   {
+    "definition": "A rent set at or near the full value of the land, which tenants could not afford easily.",
+    "term": "Rack-rent"
+   },
+   {
+    "definition": "The Land League’s demands of fair rent, fixity of tenure and free sale of tenants’ interests.",
+    "term": "Three Fs"
+   },
+   {
+    "definition": "Land rented for one season to grow a crop.",
+    "term": "Conacre"
+   },
+   {
+    "definition": "An organisation owned and democratically controlled by its members, who share its profits or benefits.",
+    "term": "Co-operative"
+   },
+   {
+    "definition": "A process in which residents vote on how part of a city’s budget is spent on their district.",
+    "term": "Participatory budgeting"
+   },
+   {
+    "definition": "The unfair use of people or resources for another’s benefit.",
+    "term": "Exploitation"
+   },
+   {
+    "definition": "Forced labour, forced marriage and other forms of enslavement in which people cannot leave their situation.",
+    "term": "Modern slavery"
+   },
+   {
+    "definition": "The tasks and behaviour a society expects of men and women.",
+    "term": "Gender roles"
+   },
+   {
+    "definition": "Small loans, usually without collateral, made to poor people, mostly women, to start or grow small businesses.",
+    "term": "Microfinance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Economic growth, a rise in GDP, does not automatically bring human development: health, education, freedom and choice.",
+    "h": "Growth is not development",
+    "points": [
+     "Growth can be captured by elites, so its benefits stay with a small group.",
+     "Empowerment means giving people control over resources such as land, credit and income, and a voice in decisions.",
+     "Empowerment is the link that turns economic growth into human development."
+    ]
+   },
+   {
+    "h": "How developing countries became indebted",
+    "points": [
+     "Oil-price rises in the 1970s gave banks large deposits, which they lent to developing countries as “petrodollars”.",
+     "Interest rates soared about 1980 and commodity prices fell, making the loans far harder to repay.",
+     "Mexico announced in August 1982 that it could not pay its debts, starting the Latin American debt crisis.",
+     "Some loans went to dictators or to prestige projects that earned no return to repay them."
+    ]
+   },
+   {
+    "b": "Debt keeps poor countries poor because each stage of the cycle makes the next one worse. Diagram: a loop of debt, reduced spending, poor health and education, low productivity and more borrowing.",
+    "h": "The cycle of poverty",
+    "points": [
+     "1. Debt repayments take up government revenue.",
+     "2. Less is spent on health, schools, water and infrastructure.",
+     "3. Poor health and education keep productivity and incomes low.",
+     "4. Low tax revenue and low export earnings mean more borrowing.",
+     "5. Debt grows, and the cycle repeats.",
+     "To earn the foreign currency needed for repayments, countries push exports of cash crops and raw materials, which can take land from food crops and damage the environment."
+    ]
+   },
+   {
+    "b": "Structural adjustment programmes were conditions attached to IMF and World Bank loans in the 1980s and 1990s.",
+    "h": "Structural adjustment programmes",
+    "points": [
+     "Conditions required governments to cut public spending, privatise state firms, open their markets to imports and devalue their currencies.",
+     "Governments were also pushed to introduce fees for schools and clinics and to remove food subsidies.",
+     "The poorest people and women bore most of the cost of cuts to services and subsidies.",
+     "Zambia: copper is most of its exports, and its state copper mines (ZCCM) were privatised in the late 1990s as part of reform conditions."
+    ]
+   },
+   {
+    "b": "Debt relief was won through campaigns and international initiatives, with savings required to go on poverty reduction.",
+    "h": "Debt relief and its results",
+    "points": [
+     "The Jubilee 2000 campaign pressed for the cancellation of poor countries’ debts.",
+     "The HIPC Initiative of 1996, run by the IMF and World Bank, offered relief to heavily indebted poor countries.",
+     "The Multilateral Debt Relief Initiative of 2005 was agreed after the G8 summit at Gleneagles (July 2005), backed by Make Poverty History and Live 8.",
+     "More than 30 countries, most in Africa, received HIPC relief.",
+     "Uganda introduced Universal Primary Education in 1997 and in 1998 became the first country to receive HIPC relief; savings went to schools, health and water.",
+     "Tanzania abolished primary school fees in 2001.",
+     "Zambia reached HIPC completion point in 2005 and in 2006 abolished user fees for health care in rural areas."
+    ]
+   },
+   {
+    "b": "Debt is rising again in the 2020s, and poor countries that cannot repay are forced into default, restructuring or crisis.",
+    "h": "Debt crises today",
+    "points": [
+     "Zambia defaulted on its foreign debt in November 2020, the first African default of the COVID-19 period, and later restructured it under the G20 Common Framework.",
+     "Sri Lanka defaulted for the first time in 2022; shortages of fuel, food and medicine led to mass protests, and President Gotabaya Rajapaksa fled and resigned in July 2022.",
+     "An IMF programme of about $2.9 billion followed Sri Lanka’s default in 2023.",
+     "Ghana defaulted in December 2022.",
+     "UNCTAD (“A World of Debt”, 2023): about 3.3 billion people live in countries that spend more on interest payments than on either health or education."
+    ]
+   },
+   {
+    "h": "Chinese lending and the debt-trap debate",
+    "points": [
+     "The Belt and Road Initiative, launched in 2013, has channelled Chinese loans to developing countries.",
+     "Hambantota port, Sri Lanka, was built with Chinese loans and leased to a Chinese state company for 99 years in 2017.",
+     "Critics call Hambantota a “debt trap”; others argue that Sri Lanka’s debts were mostly owed to Western lenders and bondholders."
+    ]
+   },
+   {
+    "b": "Ireland shows the weight of debt even in a rich country.",
+    "h": "Ireland’s debt crisis (national setting)",
+    "points": [
+     "The 2008 crash brought a debt crisis for the Irish state.",
+     "An EU–IMF bailout of €85 billion was agreed in November 2010.",
+     "Austerity brought cuts to services, tax rises and the emigration of young people.",
+     "Unemployment rose to about 15% in 2012.",
+     "Emigration peaked at about 89,000 in the year to April 2013.",
+     "Ireland exited the programme in December 2013."
+    ]
+   },
+   {
+    "h": "Odious debt and justice",
+    "points": [
+     "Odious debt: loans taken out by a regime and used against its own people are argued to be unfair for the people who must repay them."
+    ]
+   },
+   {
+    "h": "Types of aid",
+    "points": [
+     "Emergency or humanitarian aid provides food, shelter and medical help after disasters and conflicts.",
+     "Long-term development aid funds projects such as water, health, education and farming.",
+     "Bilateral aid is given directly from one government to another; multilateral aid is pooled through international bodies such as the EU and UN agencies.",
+     "NGO or voluntary aid is channelled through non-governmental organisations.",
+     "Grants are gifts; loans must be repaid.",
+     "Tied aid must be spent on goods or services from the donor country; untied aid can be spent anywhere."
+    ]
+   },
+   {
+    "h": "The 0.7% target",
+    "points": [
+     "The UN target of 1970 asks rich countries to give 0.7% of their gross national income (GNI) as aid.",
+     "Norway, Sweden, Luxembourg and Denmark have reached or exceeded the target; Ireland has not.",
+     "The UK cut its aid from 0.7% to 0.5% of GNI in 2021 and in 2025 announced a further cut to 0.3% by 2027.",
+     "In 2025 the US government cancelled most USAID programmes and folded the agency into the State Department; the USA had been the largest single donor by volume.",
+     "Aid depends on donor politics: cuts by large donors leave recipients without the funds they had planned for."
+    ]
+   },
+   {
+    "h": "Who benefits from aid: recipients",
+    "points": [
+     "Emergency relief saves lives after famine, floods or conflict.",
+     "Schools, clinics, wells and vaccination programmes improve health and education.",
+     "Training and support for women’s groups and small businesses build skills and incomes.",
+     "Infrastructure such as roads and power supplies helps local economies to grow."
+    ]
+   },
+   {
+    "b": "Aid often serves donor interests as well as recipients.",
+    "h": "Who benefits from aid: donors",
+    "points": [
+     "Tied aid returns money to donor firms.",
+     "UK aid for the Pergau Dam, Malaysia, was linked to a British arms deal; in 1994 the English High Court ruled that the aid was unlawful because it was not for sound development.",
+     "Aid has been used to win political allies, trade deals and influence, as in Cold War aid and in competing offers from China and the EU.",
+     "US food aid has long been required by law to be bought largely from US farmers and shipped largely on US ships.",
+     "Consultants’ fees take a share of aid budgets."
+    ]
+   },
+   {
+    "h": "How aid can harm recipients",
+    "points": [
+     "Corruption and elite capture: aid money can be diverted to powerful groups rather than the poor.",
+     "Dependency: recipients can come to rely on aid rather than building their own economies.",
+     "Cheap imports undercut local producers: in the mid-1990s Haiti cut its tariff on rice under pressure from lenders; cheap subsidised US rice flooded in and many Haitian rice farmers were ruined.",
+     "In 2010 former US President Bill Clinton publicly apologised for the rice policy, saying it had been a mistake; Haiti is the poorest country in the Americas.",
+     "Loans add to debt, and large projects can displace people.",
+     "Unsuitable technology can be imposed on communities that cannot maintain it."
+    ]
+   },
+   {
+    "h": "The aid debate",
+    "points": [
+     "Jeffrey Sachs, The End of Poverty (2005): more aid can end extreme poverty.",
+     "Dambisa Moyo, a Zambian economist, Dead Aid (2009): aid breeds corruption and dependency in Africa.",
+     "William Easterly, The White Man’s Burden (2006): top-down planners fail, while bottom-up “searchers” succeed.",
+     "Effective aid is untied, targeted at the poorest, locally owned, transparent and supports self-help."
+    ]
+   },
+   {
+    "h": "Irish aid programmes (national setting)",
+    "points": [
+     "Irish Aid is part of the Department of Foreign Affairs.",
+     "Its bilateral aid programme began in 1974, with partner countries mostly in sub-Saharan Africa, including Ethiopia, Malawi, Mozambique, Tanzania, Uganda and Zambia, and Vietnam.",
+     "Ireland’s aid is untied.",
+     "“A Better World” (2019) sets priorities: the furthest behind first, gender equality, climate and governance."
+    ]
+   },
+   {
+    "h": "EU aid programmes (international setting)",
+    "points": [
+     "The EU institutions and member states together, “Team Europe”, are the world’s largest aid donor, giving over two-fifths of all official development aid.",
+     "The Lomé Convention (1975), the Cotonou Agreement (2000) and the Samoa Agreement (signed November 2023) link the EU with the Organisation of African, Caribbean and Pacific States.",
+     "ECHO, the EU’s humanitarian aid office, was set up in 1992.",
+     "Everything But Arms (2001) is a trade preference for the poorest countries.",
+     "Critique: EU farm and fishing policies have at times undermined the same countries.",
+     "Global Gateway, launched in 2021, offers up to €300 billion of investment in infrastructure abroad (2021–2027), seen as a response to China’s Belt and Road."
+    ]
+   },
+   {
+    "h": "What NGOs are and what they do",
+    "points": [
+     "NGOs are non-profit, non-governmental organisations, funded by donations, governments and the EU, and independent of governments.",
+     "They provide emergency relief and long-term development in water, health, education and farming.",
+     "They empower communities through co-operatives, women’s groups and microcredit.",
+     "They campaign for justice on trade, debt, climate and human rights, and run development education in Ireland.",
+     "They monitor human rights."
+    ]
+   },
+   {
+    "h": "Irish NGOs (national setting)",
+    "points": [
+     "Concern Worldwide was founded in 1968 in response to famine in Biafra, during Nigeria’s civil war.",
+     "Trócaire was founded in 1973 by the Irish Catholic bishops; its Lenten “Trócaire box” funds its work.",
+     "GOAL was founded in 1977 by John O’Shea.",
+     "Gorta was founded in 1965 as the Freedom from Hunger Council of Ireland and merged with Self Help Africa in 2014.",
+     "Self Help Africa was founded in 1984 in response to the Ethiopian famine and supports smallholder farmers.",
+     "Bóthar was founded in 1991 in Limerick; it gives farm animals to poor families, who “pass on the gift” of the first female offspring to another family.",
+     "Dóchas is the umbrella association of Irish development NGOs."
+    ]
+   },
+   {
+    "h": "International NGOs",
+    "points": [
+     "Oxfam was founded in Oxford in 1942 as the Oxford Committee for Famine Relief.",
+     "Médecins Sans Frontières was founded in France in 1971 and won the Nobel Peace Prize in 1999.",
+     "Amnesty International was founded in 1961 by Peter Benenson and won the Nobel Peace Prize in 1977.",
+     "The International Committee of the Red Cross was founded in Geneva in 1863."
+    ]
+   },
+   {
+    "h": "Advantages and limits of NGOs",
+    "points": [
+     "Advantage: NGOs work close to communities, bottom-up, at small scale and with appropriate methods.",
+     "Advantage: NGOs are fast in emergencies, are not tied to donor trade interests and reach places governments cannot.",
+     "Limit: they depend on donations and government grants, so donor priorities shape their work.",
+     "Limit: their small scale means they can duplicate or replace state services.",
+     "Limit: in 2018 it emerged that some Oxfam staff had used sex workers in Haiti during the response to the 2010 earthquake; Oxfam lost UK government funding for a time and donations fell.",
+     "Limit: foreign staff can hold leadership roles that should belong to local people.",
+     "Limit: NGOs’ use of negative images of the developing world is criticised (see the note “Views of development and underdevelopment”)."
+    ]
+   },
+   {
+    "h": "Why land matters",
+    "points": [
+     "In rural societies land is the main source of food, income, security and status.",
+     "Land can be used as collateral to obtain credit.",
+     "Who owns the land decides who benefits from growth."
+    ]
+   },
+   {
+    "b": "The land system was a major cause of poverty and hunger, though not the only one.",
+    "h": "Landlords and tenants in nineteenth-century Ireland (national setting)",
+    "points": [
+     "The landlord system was built after the plantations: a small, mainly Protestant landlord class, many of them absentee.",
+     "Tenants-at-will had no security and could be evicted; landlords charged rack-rents.",
+     "Holdings were subdivided into tiny plots, many worked under conacre (land rented for one season to grow a crop) or in rundale (scattered strips held jointly by a group of families).",
+     "Dependence on the potato left families exposed to failure of the crop.",
+     "The Great Famine of 1845–49 killed about 1 million people and about 1 million emigrated; the state had a population of about 6.5 million (Census 1841).",
+     "Causes of the Famine included potato blight, dependence on the potato, the land system and government policy.",
+     "The Encumbered Estates Act of 1849 let bankrupt estates be sold, often to new landlords who cleared the tenants.",
+     "Emigration followed, as families left the land and the country."
+    ]
+   },
+   {
+    "b": "Land reform moved tenants from insecurity towards ownership in stages.",
+    "h": "Land reform in Ireland",
+    "points": [
+     "The Irish National Land League, founded in 1879 and led by Michael Davitt (from Co. Mayo) and Charles Stewart Parnell, demanded the “Three Fs”: fair rent, fixity of tenure and free sale.",
+     "The Land War brought boycotting; Captain Charles Boycott, land agent at Lough Mask, Co. Mayo, was ostracised in 1880, giving the word “boycott”.",
+     "Gladstone’s Land Acts of 1870 and 1881; the 1881 Act granted the Three Fs and set up the Land Commission.",
+     "The Ashbourne Act (1885) and the Wyndham Land Act (1903) let tenants buy their holdings with government loans, repaid by annuities.",
+     "The Congested Districts Board (1891) improved farms, fishing and cottage industries in poor western areas.",
+     "By the early twentieth century most farmers owned their land; security encouraged investment, but many farms stayed small and fragmented, and the west stayed poor.",
+     "Ownership gave tenants security, income and political power, which is how land reform empowered them."
+    ]
+   },
+   {
+    "h": "Land ownership in Latin America and Africa",
+    "points": [
+     "Latin America has latifundia (large estates) and minifundia (tiny plots); Brazil has one of the most unequal patterns of land ownership in the world.",
+     "The MST (Landless Workers’ Movement), founded in 1984, campaigns for land for landless families.",
+     "South Africa’s Natives Land Act of 1913 limited Black South Africans to owning land in reserves of about 7% of the country (later about 13%).",
+     "Post-apartheid land reform since 1994 has transferred land slowly.",
+     "Kenya’s colonial “White Highlands” reserved fertile highland for European settlers.",
+     "Zimbabwe’s land seizures from 2000 cut farm output and hyperinflation peaked in 2008: badly managed reform damaged development."
+    ]
+   },
+   {
+    "h": "Land reform that worked",
+    "points": [
+     "South Korea’s land reform began in 1950 and Taiwan’s “land to the tiller” programme in 1953; both gave tenant farmers ownership.",
+     "Both reforms raised rural incomes before industrialisation.",
+     "Kerala abolished landlord tenancy through land reform implemented from 1970; Kerala has about 94% literacy against about 62% in Bihar (Census 2011), a high level of human development."
+    ]
+   },
+   {
+    "h": "Women and land",
+    "points": [
+     "Women do much of the farm work in developing countries but own little land.",
+     "FAO figures: women make up about 43% of the agricultural labour force in developing countries but fewer than one in five agricultural landholders worldwide.",
+     "Without land, women cannot get credit or make farm decisions."
+    ]
+   },
+   {
+    "h": "Land grabbing",
+    "points": [
+     "Large foreign purchases or leases of farmland in poor countries take land that local people depend on for food and income."
+    ]
+   },
+   {
+    "h": "Co-operatives in Ireland",
+    "points": [
+     "Horace Plunkett founded the Irish Agricultural Organisation Society (IAOS) in 1894.",
+     "The first co-operative creamery opened at Dromcollogher, Co. Limerick, in 1889.",
+     "Dairy co-operatives grew into Kerry Group (which grew from the North Kerry Milk Products co-operative at Listowel, 1972), Glanbia (headquartered in Kilkenny) and Ornua, the dairy co-operatives’ export company behind the Kerrygold brand (launched 1962).",
+     "The first Irish credit unions were founded in Dublin in 1958; Nora Herlihy was a leading founder."
+    ]
+   },
+   {
+    "h": "Co-operatives in Europe",
+    "points": [
+     "The Rochdale Society of Equitable Pioneers, in England in 1844, set the principles of modern co-operatives.",
+     "Denmark’s first co-operative dairy opened at Hjedding in 1882; co-operatives transformed Danish farming.",
+     "Arla Foods is today a Danish–Swedish dairy co-operative.",
+     "Mondragon, in the Basque Country of Spain, was founded in 1956 by the priest José María Arizmendiarrieta; it is now a federation of worker-owned co-operatives in industry, retail, finance and a university, employing about 70,000 people."
+    ]
+   },
+   {
+    "h": "Co-operatives in India",
+    "points": [
+     "Amul, a dairy co-operative founded in 1946 at Anand, Gujarat, was led by Verghese Kurien.",
+     "Operation Flood, from 1970, spread the Amul model across India; India is now the world’s largest milk producer.",
+     "SEWA (Self-Employed Women’s Association), founded by Ela Bhatt in Ahmedabad in 1972, is a trade union of women in informal work that runs its own co-operative bank."
+    ]
+   },
+   {
+    "b": "Who makes decisions, and how far people take part, decides whether development empowers them.",
+    "h": "Top-down and bottom-up decision-making",
+    "points": [
+     "Top-down decisions are made by governments, MNCs and international agencies; bottom-up decisions are made by local communities.",
+     "The participation ladder runs from being informed, to being consulted, to sharing decisions, to controlling them."
+    ]
+   },
+   {
+    "h": "Why participation matters",
+    "points": [
+     "Local knowledge improves projects.",
+     "Projects that people own are maintained after they are built.",
+     "Participation builds skills and confidence.",
+     "It reduces corruption by making decisions open to scrutiny.",
+     "It gives women and minorities a voice."
+    ]
+   },
+   {
+    "h": "Participation in Ireland (national setting)",
+    "points": [
+     "County Enterprise Boards, set up in 1993, were replaced in 2014 by 31 Local Enterprise Offices within the local authorities, supported by Enterprise Ireland.",
+     "The Local Enterprise Offices support small local businesses with grants, training and mentoring.",
+     "LEADER local action groups have operated from 1991; Údarás na Gaeltachta was set up in 1980; public consultation takes place in planning.",
+     "Critique: Ireland is highly centralised and local government has few powers."
+    ]
+   },
+   {
+    "h": "Participation in the developing world",
+    "points": [
+     "Porto Alegre, Brazil, began participatory budgeting in 1989, letting residents vote on spending priorities for their districts; many cities worldwide have copied it.",
+     "India’s 73rd Constitutional Amendment (1992) set up elected village councils (panchayats), with one-third of seats reserved for women.",
+     "The Narmada Bachao Andolan (“Save the Narmada Movement”), led by Medha Patkar, opposed the Sardar Sarovar dam on the Narmada River, which displaced tens of thousands of families without proper resettlement.",
+     "The World Bank withdrew its funding for the Sardar Sarovar dam in 1993."
+    ]
+   },
+   {
+    "h": "Lack of participation",
+    "points": [
+     "Dictatorships and corruption keep decisions away from ordinary people.",
+     "MNCs and lenders set conditions, as in structural adjustment, that local people had no say in.",
+     "Women are excluded from decisions by custom."
+    ]
+   },
+   {
+    "h": "Exploitation: definition",
+    "points": [
+     "Exploitation is the unfair use of people or resources for another’s benefit.",
+     "It takes forms such as low pay, unsafe work, forced labour and resources taken without a fair return."
+    ]
+   },
+   {
+    "h": "Exploitation at the global scale",
+    "points": [
+     "Rana Plaza, Bangladesh, on 24 April 2013 killed about 1,130 garment workers.",
+     "Nike was criticised in the 1990s for sweatshop conditions in footwear made by contract factories in Vietnam, China and Indonesia.",
+     "Value chains for commodities such as cocoa and coffee leave producers with a small share of the final price.",
+     "About 160 million children were in child labour in 2020 (ILO and UNICEF).",
+     "The DR Congo produces about 70% of the world’s cobalt, and child labour in its mines has been reported by Amnesty (2016).",
+     "Niger Delta oil spills in Nigeria were documented by a UNEP study of Ogoniland (2011); Ken Saro-Wiwa was executed in 1995.",
+     "MNCs shift profits and tax out of poor countries."
+    ]
+   },
+   {
+    "h": "Modern slavery",
+    "points": [
+     "ILO, Walk Free and IOM (2022) estimated that about 50 million people were in modern slavery in 2021: about 28 million in forced labour and 22 million in forced marriage.",
+     "Migrant workers in some countries are tied to employers under the kafala system, which leaves them open to exploitation (see the note “An interdependent global economy”)."
+    ]
+   },
+   {
+    "h": "Exploitation at the local and national scale",
+    "points": [
+     "Landlords and moneylenders exploited tenants in nineteenth-century Ireland, through rack-rents and eviction.",
+     "Bonded labour in South Asia is illegal in India under the Bonded Labour System (Abolition) Act, 1976, yet persists in brick kilns and on farms.",
+     "Caste discrimination excludes people from better-paid work.",
+     "Ireland’s Atypical Working Scheme for non-EEA crew in the fishing fleet, introduced in 2016 after media reports of exploitation, has been criticised for tying workers to one employer.",
+     "Low-paid informal work in cities is another common form of exploitation."
+    ]
+   },
+   {
+    "h": "Exploitation of women and children",
+    "points": [
+     "Women and children are often given the lowest-paid factory jobs.",
+     "Women and children are trafficked.",
+     "Unpaid domestic work is largely done by women."
+    ]
+   },
+   {
+    "h": "Responses that empower",
+    "points": [
+     "Trade unions give workers a collective voice on pay and conditions.",
+     "Co-operatives and fair trade give producers ownership and a fairer price (see the note “Sustainable development as a model for the future”).",
+     "Ethical consumer campaigns pressure firms to improve conditions.",
+     "The Bangladesh Accord, an agreement on safety in garment factories, is one response.",
+     "The EU’s supply-chain due diligence law (2024) requires firms to check their supply chains.",
+     "ILO conventions set minimum standards for labour."
+    ]
+   },
+   {
+    "h": "Gender roles: definition",
+    "points": [
+     "Gender roles are the tasks and behaviour a society expects of men and women.",
+     "Gender roles differ between and within societies and change over time."
+    ]
+   },
+   {
+    "h": "Women’s work",
+    "points": [
+     "ILO (2018): women perform about three-quarters of all unpaid care work worldwide.",
+     "In many developing countries women grow much of the food, collect water and fuel and care for children, while men control cash crops and income."
+    ]
+   },
+   {
+    "h": "Barriers facing women",
+    "points": [
+     "Girls receive less schooling because of early marriage, school fees and household chores.",
+     "Women own less land and have less access to credit.",
+     "Women have lower pay and more informal jobs.",
+     "Women face maternal health risks, violence and exclusion from decision-making.",
+     "After the Taliban returned to power in August 2021, Afghanistan banned girls from secondary school (2022) and women from universities (December 2022)."
+    ]
+   },
+   {
+    "h": "Why empowering women links growth to development",
+    "points": [
+     "Educated, earning women tend to have fewer, healthier and better-educated children.",
+     "Household income spent by women is more likely to go on food, health and schooling.",
+     "More women working and running businesses raise GDP.",
+     "Kerala shows how women’s education and empowerment go with human development."
+    ]
+   },
+   {
+    "h": "Empowering women in practice",
+    "points": [
+     "Grameen Bank, Bangladesh, was founded by the economist Muhammad Yunus as a project in 1976 and as a bank in 1983; it lends small sums without collateral, mostly to poor women in groups.",
+     "Yunus and the Grameen Bank shared the Nobel Peace Prize in 2006.",
+     "Microfinance has limits: in 2010 a microfinance crisis in Andhra Pradesh, India, saw borrowers trapped in multiple loans and reports of suicides, which led to state restrictions on lenders.",
+     "SEWA (see the note “Empowering people: linking economic growth with human development”) organises women in informal work.",
+     "Rwanda: women have held over 60% of seats in the lower house since 2013.",
+     "Malala Yousafzai was shot by the Pakistani Taliban in 2012 for campaigning for girls’ education; she won the Nobel Peace Prize in 2014.",
+     "Ready-made garments make up most of Bangladesh’s exports, and most garment workers are women: the jobs bring independence, but also exploitation, as Rana Plaza showed."
+    ]
+   },
+   {
+    "h": "Gender roles in Ireland (national setting)",
+    "points": [
+     "The marriage bar, which made women in the public service resign on marriage, was removed in 1973.",
+     "The Electoral (Amendment) (Political Funding) Act 2012 cut State funding to parties unless at least 30% of their general election candidates were women (from 2016), rising to 40% (from 2023).",
+     "A record 44 women were elected to the 174-seat Dáil in November 2024, about a quarter of the seats.",
+     "Iceland has topped the World Economic Forum’s Global Gender Gap Index every year since 2009."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "Introduction: growth does not automatically bring human development; empowerment gives people control over resources and a voice in decisions, so growth reaches them. Debt: the origins of the crisis (petrodollar lending, rising interest rates, Mexico 1982); the cycle of poverty, step by step; structural adjustment conditions and their effects on the poor and women; HIPC results in Uganda, Tanzania and Zambia; the 2020s crises in Zambia, Sri Lanka and Ghana; the Hambantota debate; Ireland’s 2010 bailout and austerity. Aid: types of aid; who benefits, including the donor interests shown by Pergau Dam and US food aid; how aid can harm recipients, as in Haiti; the Sachs, Moyo and Easterly debate; Irish Aid as untied bilateral aid; EU aid and Team Europe. Evaluation: debt relief and untied, targeted aid can empower; tied aid and debt dependency can keep growth from reaching the poor.",
+    "prompt": "Empowering people is a way of linking economic growth with human development. Discuss this statement with reference to national debt and aid programmes.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Why land matters: food, income, security, collateral and status. Nineteenth-century Ireland: the landlord system, tenants-at-will, rack-rents, conacre and rundale, dependence on the potato, the Great Famine (with its several causes), the Encumbered Estates Act and emigration. Reform: the Land League and the Three Fs, boycotting, the Land Acts of 1870 and 1881, the Ashbourne and Wyndham Acts, the Congested Districts Board; outcome of owner-occupation with small, fragmented farms and a poor west. Co-operatives: Irish creameries and credit unions; Danish dairies; Mondragon; Amul and SEWA. Developing-world examples: Brazil’s concentration and the MST; South Africa and Zimbabwe, where badly managed reform damaged output; South Korea and Taiwan, where reform raised rural incomes before industrialisation; Kerala. Women and land: FAO figures and the barriers to credit. Evaluation: secure, widely held land empowers; concentrated or badly managed land keeps people poor.",
+    "prompt": "Discuss land ownership patterns and their impact on development.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Exploitation at the global scale: garment supply chains and Rana Plaza, Nike’s sweatshop criticism, child labour (about 160 million children in 2020), cobalt in the DR Congo, Niger Delta pollution and Ken Saro-Wiwa, and profits shifted out of poor countries. Modern slavery: about 50 million people in 2021. Local and national scale: rack-rents in nineteenth-century Ireland, bonded labour in India under the 1976 Act, caste discrimination, the Irish fishing scheme of 2016. Responses: trade unions, co-operatives, fair trade, ethical consumer campaigns, the Bangladesh Accord, EU due diligence. Gender roles: definition; women’s unpaid care work (ILO 2018); barriers in schooling, land, credit and pay, and Afghanistan’s bans. Why empowering women links growth to development: healthier, better-educated children, household spending on food, health and schooling, and more workers and entrepreneurs. Empowerment in practice: Grameen Bank and its limits (Andhra Pradesh 2010), SEWA, Rwanda’s parliament, the panchayat quotas, Malala Yousafzai, and Bangladesh garment work. Ireland: the marriage bar, the 2012 Act, and the 2024 Dáil. Evaluation: exploitation blocks development and gender barriers waste women’s potential; empowering women and workers makes growth reach people.",
+    "prompt": "Empowering people is a way of linking economic growth with human development. Discuss this statement with reference to levels of exploitation at local and global scales and differing gender roles in society.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-option-global-interdependence-s4": {
+  "keyTerms": [
+   {
+    "definition": "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "term": "Sustainable development"
+   },
+   {
+    "definition": "The rate at which a renewable resource can be harvested without running it down, because it regenerates at least as fast.",
+    "term": "Sustainable yield"
+   },
+   {
+    "definition": "Claiming to be sustainable without making real changes.",
+    "term": "Greenwashing"
+   },
+   {
+    "definition": "The land and resources a population needs to support its consumption.",
+    "term": "Ecological footprint"
+   },
+   {
+    "definition": "The rule that fishers must land the fish they catch rather than discard them, introduced in the 2013 reform of the Common Fisheries Policy.",
+    "term": "Landing obligation"
+   },
+   {
+    "definition": "A trading partnership that seeks greater equity in international trade by paying producers fairly and giving them a voice.",
+    "term": "Fair trade"
+   },
+   {
+    "definition": "A floor price that covers the cost of sustainable production.",
+    "term": "Fairtrade Minimum Price"
+   },
+   {
+    "definition": "An extra sum paid to a co-operative on top of the price, spent on projects the members choose democratically.",
+    "term": "Fairtrade Premium"
+   },
+   {
+    "definition": "Higher import tariffs on processed goods than on raw materials, which discourages producers from processing their own crops.",
+    "term": "Tariff escalation"
+   },
+   {
+    "definition": "The right of indigenous peoples to agree or refuse to projects on their land before they go ahead.",
+    "term": "Free, prior and informed consent"
+   },
+   {
+    "definition": "Meeting a community’s or country’s own needs with its own resources, skills and decisions.",
+    "term": "Self-reliance"
+   },
+   {
+    "definition": "Julius Nyerere’s model of socialism and self-reliance in Tanzania, based on villages and collective farming.",
+    "term": "Ujamaa"
+   },
+   {
+    "definition": "Cheap, local and repairable technology suited to the needs and resources of a community.",
+    "term": "Intermediate technology"
+   },
+   {
+    "definition": "Small planting pits dug in degraded land to trap water and organic matter, used in Burkina Faso.",
+    "term": "Zaï pits"
+   },
+   {
+    "definition": "The right of people to control their own food systems.",
+    "term": "Food sovereignty"
+   },
+   {
+    "definition": "A protected area in which forest is harvested sustainably by the people who live in it.",
+    "term": "Extractive reserve"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs (Brundtland, 1987).",
+    "h": "The idea of sustainable development",
+    "points": [
+     "It has three pillars, environmental, economic and social, which must be balanced against each other.",
+     "It contrasts with growth-only models that measure development by rising output (see the note “Views of development and underdevelopment”)."
+    ]
+   },
+   {
+    "h": "How the idea developed",
+    "points": [
+     "“The Limits to Growth” (1972), a report for the Club of Rome, used computer models to warn that unchecked population and economic growth would exhaust resources within about a century.",
+     "The Brundtland Report, “Our Common Future”, was produced by the UN World Commission on Environment and Development in 1987.",
+     "The Earth Summit in Rio de Janeiro (1992) produced Agenda 21 and the UN Framework Convention on Climate Change.",
+     "The Millennium Development Goals (eight goals, 2000–2015) were followed by the Sustainable Development Goals: 17 goals adopted in September 2015, with a target year of 2030.",
+     "The Paris Agreement (2015) committed countries to tackle climate change.",
+     "The world is off track to meet most of the Sustainable Development Goals."
+    ]
+   },
+   {
+    "h": "Why sustainable development should be a priority",
+    "points": [
+     "Resources are finite and are being overused.",
+     "Climate change, biodiversity loss and inequality between and within generations threaten future development.",
+     "The poorest people suffer first when resources are degraded.",
+     "Growth that destroys the resources it depends on cannot last."
+    ]
+   },
+   {
+    "b": "The model is widely accepted but hard to apply.",
+    "h": "Problems with the model",
+    "points": [
+     "It is vague and open to greenwashing, where firms and governments claim sustainability without real change.",
+     "The pillars conflict: jobs can be at odds with protecting the environment.",
+     "Poorer countries argue that rich countries grew without limits and now ask them to slow down.",
+     "The costs of change fall unequally, and progress on the Sustainable Development Goals is behind schedule."
+    ]
+   },
+   {
+    "h": "Alternative measures for a sustainable future",
+    "points": [
+     "Bhutan’s Gross National Happiness, put forward in the 1970s by King Jigme Singye Wangchuck, measures wellbeing beyond income.",
+     "The ecological footprint measures the land and resources a population needs to support its consumption."
+    ]
+   },
+   {
+    "h": "Principles of sustainable resource use",
+    "points": [
+     "Renewable resources should be used no faster than they regenerate, which is the sustainable yield.",
+     "Non-renewable resources should be used efficiently and replaced by alternatives where possible.",
+     "Reduce, reuse and recycle waste.",
+     "Protect biodiversity.",
+     "Involve local people in decisions about resources."
+    ]
+   },
+   {
+    "h": "Ireland: fisheries",
+    "points": [
+     "Irish fishing has been shaped by past overfishing in EU waters.",
+     "The Common Fisheries Policy of 1983 was reformed in 2013, introducing maximum sustainable yield and a landing obligation (a discard ban), phased in during 2015–2019.",
+     "The Sea-Fisheries Protection Authority was set up in 2007.",
+     "Killybegs, Co. Donegal, is Ireland’s largest fishing port.",
+     "The North Sea herring fishery was closed from 1977 to the early 1980s and recovered under quotas.",
+     "The Grand Banks cod moratorium of 2 July 1992 cost about 30,000 jobs off Newfoundland and is the warning for overfishing."
+    ]
+   },
+   {
+    "b": "Bord na Móna has moved from burning peat to renewable energy under its “Brown to Green” strategy.",
+    "h": "Ireland: peatlands",
+    "points": [
+     "Bord na Móna was founded in 1946.",
+     "The Lanesborough and Shannonbridge peat stations closed in December 2020, and peat harvesting ended in January 2021.",
+     "Cutaway bogs are being rehabilitated and rewetted, and peatland is valued as a store of carbon.",
+     "Lough Boora Discovery Park, Co. Offaly, is one of the rehabilitated sites.",
+     "Bellacorick, Co. Mayo, has wind farms on cutaway bog."
+    ]
+   },
+   {
+    "h": "Ireland: energy",
+    "points": [
+     "Wind provides about a third of Irish electricity, and renewables about two-fifths (early 2020s).",
+     "The Climate Action Plan targets 80% renewable electricity by 2030 and at least 5 GW of offshore wind by 2030.",
+     "The Climate Act 2021 requires a 51% cut in emissions by 2030 (from 2018) and net zero by 2050.",
+     "The East–West Interconnector (2012) links Ireland and Britain, and the Celtic Interconnector to France is due in the late 2020s."
+    ]
+   },
+   {
+    "h": "Ireland: farming and land",
+    "points": [
+     "BurrenLIFE (2005–2010) and then the Burren Programme pay farmers according to habitat scores for each field.",
+     "Agri-environment schemes have included REPS (1994), GLAS (2015) and ACRES (2023).",
+     "Origin Green, Bord Bia’s sustainability programme, began in 2012.",
+     "Milk quotas were abolished on 1 April 2015, and the dairy herd grew strongly afterwards.",
+     "Agriculture produces over a third of Irish greenhouse gas emissions.",
+     "Only about half of Irish waters are in good or high ecological status (EPA, 2016–2021).",
+     "Dairy expansion is in tension with water quality and emissions targets."
+    ]
+   },
+   {
+    "h": "Ireland: waste and consumption",
+    "points": [
+     "The plastic bag levy began in March 2002 at 15 cent, and plastic bag use fell by over 90%.",
+     "The Deposit Return Scheme (Re-turn) began on 1 February 2024."
+    ]
+   },
+   {
+    "h": "Ireland: forestry",
+    "points": [
+     "Forest cover in Ireland is about 11%, mostly conifer plantations of Sitka spruce.",
+     "Coillte was set up in 1988 to manage state forests.",
+     "Remnants of native woodland, such as the Killarney oakwoods, show what Ireland has lost.",
+     "Ireland needs more native broadleaf woodland.",
+     "Managed Scandinavian forests are discussed in the note “An interdependent global economy”."
+    ]
+   },
+   {
+    "b": "Costa Rica, in Central America between Nicaragua and Panama, shows how a country can reverse resource loss.",
+    "h": "Costa Rica: from deforestation to forest recovery (international case study)",
+    "points": [
+     "In the 1970s and 1980s forests were cleared for cattle pasture, and by the late 1980s forest covered only about a fifth of the country.",
+     "The Payment for Environmental Services programme, started in 1997 and run by the national forestry fund FONAFIFO, pays landowners to protect and replant forest.",
+     "The programme is paid for largely by a tax on fuel.",
+     "Forest cover has since risen to over half of the country.",
+     "About a quarter of the land is in national parks and other protected areas.",
+     "Ecotourism is one of the largest sources of foreign income."
+    ]
+   },
+   {
+    "h": "Costa Rica: renewable energy, defence and spending",
+    "points": [
+     "Since 2015 almost all (over 98%) of Costa Rica’s electricity has come from renewable sources, mainly hydroelectric, with geothermal and wind.",
+     "Costa Rica abolished its army in 1948 and spends instead on education and health.",
+     "In 2021 Costa Rica won the first Earthshot Prize (Protect and Restore Nature) for its forest recovery."
+    ]
+   },
+   {
+    "h": "Costa Rica: limits",
+    "points": [
+     "Transport still runs mainly on imported oil.",
+     "Tourism puts pressure on protected areas."
+    ]
+   },
+   {
+    "h": "Unsustainable use as a warning",
+    "points": [
+     "The Aral Sea: rivers were diverted from the 1960s to irrigate Soviet cotton, and the sea shrank to a fraction of its size; the Kok-Aral dam was built in 2005.",
+     "Amazon deforestation, examined in the note “An interdependent global economy”, is another warning of unsustainable use."
+    ]
+   },
+   {
+    "h": "The problem fair trade addresses",
+    "points": [
+     "Commodity prices are low and unstable, and small farmers receive a tiny share of the final price.",
+     "Middlemen take a large share of the value of farmers’ crops.",
+     "Poor working conditions and child labour are common in producing countries.",
+     "Terms of trade decline as the prices of raw materials fall relative to manufactured goods (see the note “Views of development and underdevelopment”).",
+     "Tariff escalation: coffee beans enter rich markets with low tariffs, but roasted, processed coffee faces higher ones.",
+     "Côte d’Ivoire and Ghana grow over half of the world’s cocoa, mostly exported as beans."
+    ]
+   },
+   {
+    "h": "What fair trade is",
+    "points": [
+     "Fair trade is a trading partnership based on dialogue, transparency and respect that seeks greater equity in international trade.",
+     "The first fair trade label, Max Havelaar, was launched in the Netherlands in 1988 for Mexican coffee.",
+     "Fairtrade International coordinates the Fairtrade Mark.",
+     "Garstang, Lancashire, England, declared itself the world’s first Fairtrade town in 2000."
+    ]
+   },
+   {
+    "h": "How fair trade works",
+    "points": [
+     "The Fairtrade Minimum Price is a floor that covers the cost of sustainable production.",
+     "The minimum is a floor, not a guaranteed higher price: when the market price is above the minimum, producers receive the market price plus the premium.",
+     "The Fairtrade Premium is an extra sum paid to the co-operative, spent on projects the members choose democratically.",
+     "Long-term contracts and pre-finance give producers credit before the harvest.",
+     "Producers are organised in democratic co-operatives.",
+     "Labour standards ban forced and child labour, protect the freedom to join unions and require safe conditions.",
+     "Environmental standards restrict pesticides, protect water and forests and ban GM crops.",
+     "The Fairtrade Mark is a guarantee to consumers that these standards have been met."
+    ]
+   },
+   {
+    "h": "Products and scale",
+    "points": [
+     "Fairtrade products include coffee, cocoa, tea, bananas, sugar, cotton and flowers.",
+     "Close to 2 million farmers and workers belong to Fairtrade-certified producer organisations in about 70 countries."
+    ]
+   },
+   {
+    "b": "Kuapa Kokoo is a Fairtrade cocoa farmers’ co-operative in Ghana, the world’s second-largest cocoa producer.",
+    "h": "Case study: Kuapa Kokoo and Divine Chocolate, Ghana",
+    "points": [
+     "Kuapa Kokoo, meaning “good cocoa farmer” in Twi, was founded in 1993.",
+     "Divine Chocolate was set up in Britain in 1998, and Kuapa Kokoo holds 44% of its shares and has seats on its board.",
+     "Farmers receive a share of Divine’s profits as well as the Fairtrade price and premium.",
+     "Premium spending has included wells for clean water, school buildings and mobile health clinics.",
+     "Kuapa Kokoo encourages women to take leadership roles in its village societies.",
+     "Farmers share in the profits of the brand, not just the beans they sell."
+    ]
+   },
+   {
+    "b": "The Oromia union in Ethiopia shows how a co-operative can sell directly to buyers.",
+    "h": "Case study: Oromia Coffee Farmers Co-operative Union, Ethiopia",
+    "points": [
+     "The union was founded in 1999 and led by Tadesse Meskela.",
+     "It sells members’ coffee directly to buyers, including Fairtrade coffee, cutting out middlemen.",
+     "Its premium has paid for schools, clinics and water.",
+     "Its story is told in the documentary “Black Gold” (2006).",
+     "Ethiopia is the original home of arabica coffee."
+    ]
+   },
+   {
+    "b": "Fair trade can contribute to development by changing the position of producers in trade.",
+    "h": "Potential impact of fair trade on development",
+    "points": [
+     "Higher and more stable income gives farmers money to invest and plan.",
+     "The premium funds community projects such as education, health and clean water.",
+     "Democratic co-operatives empower producers to take decisions together.",
+     "Women’s participation in co-operatives gives women a voice and income.",
+     "Organic farming and reduced clearing of land help environmental sustainability.",
+     "Child labour can be reduced when families earn a fairer income.",
+     "Producers learn processing and marketing skills.",
+     "Fair trade raises consumer awareness in rich countries and pressures large firms to change."
+    ]
+   },
+   {
+    "h": "Fair trade in Ireland (national setting)",
+    "points": [
+     "Fairtrade Ireland licenses the Fairtrade Mark in Ireland.",
+     "Clonakilty, Co. Cork, became Ireland’s first Fairtrade town in 2003.",
+     "Towns, schools and universities can apply for Fairtrade status.",
+     "Fairtrade Fortnight takes place each year in late February and March.",
+     "Supermarkets stock Fairtrade ranges, and Irish NGOs promote fair trade."
+    ]
+   },
+   {
+    "h": "Limits and criticisms of fair trade",
+    "points": [
+     "Fair trade is only a tiny share of world trade.",
+     "Higher prices put off some consumers.",
+     "Certification costs exclude the poorest farmers.",
+     "A 2014 study by the School of Oriental and African Studies (SOAS), University of London, of Ethiopia and Uganda found that hired labourers on some Fairtrade-certified farms were paid less than those on comparable non-certified farms; Fairtrade disputed parts of the findings.",
+     "Benefits go mainly to co-operative members rather than hired labourers.",
+     "Market prices sometimes exceed the minimum price, so the floor then gives no extra protection.",
+     "Fair trade does not change the trade rules, such as subsidies and tariff escalation.",
+     "Cadbury Dairy Milk carried the Fairtrade Mark from 2009 and switched in 2017 to Mondelēz’s own Cocoa Life scheme in Britain and Ireland (also covered in the note “An interdependent global economy”).",
+     "Most value is still added in rich countries unless producers process their own crops, which Divine Chocolate does."
+    ]
+   },
+   {
+    "b": "Fair trade is a model of sustainable, just trade that improves the lives of those involved and shows what is possible.",
+    "h": "Evaluation of fair trade",
+    "points": [
+     "Its impact on development depends on its scale and on wider changes in trade rules."
+    ]
+   },
+   {
+    "h": "Justice and sustainability",
+    "points": [
+     "Development is not sustainable if it excludes or harms groups of people.",
+     "Minority groups often lack political power, so their land and rights are taken for development projects such as dams, mines, plantations and wind farms."
+    ]
+   },
+   {
+    "h": "International rights framework",
+    "points": [
+     "The Universal Declaration of Human Rights was adopted on 10 December 1948.",
+     "ILO Indigenous and Tribal Peoples Convention (No. 169) was adopted in 1989.",
+     "The UN Declaration on the Rights of Indigenous Peoples was adopted by the UN General Assembly on 13 September 2007; it includes free, prior and informed consent."
+    ]
+   },
+   {
+    "h": "Indigenous peoples of the Amazon (developing-world case)",
+    "points": [
+     "Indigenous peoples have lost land to ranching, soya, logging, mining and dams.",
+     "Brazil’s Census 2022 counted about 1.7 million indigenous people, under 1% of the population.",
+     "In 2023 the Brazilian government declared a public health emergency in Yanomami territory after illegal gold mining caused malnutrition and disease.",
+     "The Belo Monte dam on the Xingu River, completed in 2019, was opposed by the Kayapó and displaced thousands of people.",
+     "Indigenous territories are among the best-protected forests, linking justice to sustainable resource use."
+    ]
+   },
+   {
+    "h": "Chico Mendes and extractive reserves",
+    "points": [
+     "Chico Mendes, a rubber tapper, was murdered on 22 December 1988 at Xapuri, Acre.",
+     "Extractive reserves, where forest is harvested sustainably, were set up after his death."
+    ]
+   },
+   {
+    "b": "Irish Travellers are an ethnic group, not a race. Their case shows how inequality and discrimination block sustainable development for a minority.",
+    "h": "Irish Travellers (national case study)",
+    "points": [
+     "Irish Travellers were formally recognised as an ethnic minority on 1 March 2017.",
+     "The 2022 Census counted about 33,000 Travellers, under 1% of the population.",
+     "The All Ireland Traveller Health Study (2010) found that Traveller men lived about 15 years less than men in the general population, and Traveller women about 11.5 years less.",
+     "The same study found that the suicide rate among Traveller men was about six times the general rate.",
+     "The 2016 Census found that about 80% of Travellers in the labour force were unemployed.",
+     "Accommodation shortages persist, and local authority Traveller accommodation budgets have gone unspent.",
+     "Discrimination in services is outlawed by the Equal Status Acts (2000).",
+     "Responses include equality law, ethnic status and the National Traveller and Roma Inclusion Strategy 2017–2021."
+    ]
+   },
+   {
+    "h": "The Roma in Europe",
+    "points": [
+     "The Roma are Europe’s largest ethnic minority, about 10–12 million people (Council of Europe estimate), many in Romania, Bulgaria, Hungary, Slovakia and Spain.",
+     "The Roma face poverty, segregated housing and schools, and discrimination; they were persecuted in the Holocaust.",
+     "In D.H. and Others v Czech Republic (European Court of Human Rights, 2007) the court ruled that placing Roma children in “special schools” for children with learning disabilities was unlawful discrimination.",
+     "EU frameworks include the Framework for National Roma Integration Strategies (2011) and the Roma strategic framework for equality, inclusion and participation (2020–2030)."
+    ]
+   },
+   {
+    "b": "The Fosen case shows that green development must also be just.",
+    "h": "The Sámi and the Fosen wind farm",
+    "points": [
+     "The Sámi are the indigenous people of northern Norway, Sweden, Finland and Russia’s Kola Peninsula; reindeer herding is central to their culture.",
+     "Fosen, in central Norway, is one of Europe’s largest onshore wind farms.",
+     "On 11 October 2021 Norway’s Supreme Court ruled that the turbines, built on reindeer grazing land, violated the herders’ right to enjoy their culture.",
+     "The turbines were not removed and kept running after the ruling.",
+     "In 2023 Sámi activists, joined by Greta Thunberg, blocked government buildings in Oslo in protest.",
+     "In 2023–24 the herders reached agreements with the state and the wind-farm owners."
+    ]
+   },
+   {
+    "h": "Other minorities",
+    "points": [
+     "The Rohingya and Uyghurs are discussed in the note “An interdependent global economy”.",
+     "Aboriginal Australians are discussed in the note “Racial groupings”."
+    ]
+   },
+   {
+    "h": "Self-reliance: meaning",
+    "points": [
+     "Self-reliance means communities and countries meet their own needs with their own resources, skills and decisions.",
+     "It reduces dependence on aid, loans, foreign companies and imports, and links to bottom-up development and appropriate technology."
+    ]
+   },
+   {
+    "b": "Tanzania under Julius Nyerere, its first president, is a mixed example: strong social gains, but economic failure.",
+    "h": "Case study: Nyerere’s Tanzania",
+    "points": [
+     "Tanganyika gained independence in 1961 and united with Zanzibar as Tanzania in 1964.",
+     "The Arusha Declaration of 1967 set out socialism and self-reliance, known as Ujamaa.",
+     "Ujamaa (“familyhood”) villages and collective farming were created, with education for self-reliance.",
+     "Kiswahili was promoted as a uniting national language, and national unity and peace were achieved.",
+     "Literacy and school enrolment rose.",
+     "Villagisation from 1973 to 1976 moved millions of people, often by force, into planned villages.",
+     "Food and export output fell, and the economy went into crisis.",
+     "Nyerere stepped down as president in 1985, and in 1986 Tanzania agreed an IMF programme and began market reforms.",
+     "Evaluation: Ujamaa gave social gains but was not an economic success, and forced villagisation damaged the model."
+    ]
+   },
+   {
+    "h": "Gandhi: swadeshi and khadi",
+    "points": [
+     "Mahatma Gandhi promoted swadeshi (buy Indian) and khadi (hand-spun cloth) as self-reliance against colonial dependence."
+    ]
+   },
+   {
+    "h": "Intermediate technology",
+    "points": [
+     "Intermediate or appropriate technology is cheap, local and repairable (see the note “Views of development and underdevelopment”).",
+     "E. F. Schumacher’s “Small Is Beautiful” (1973) promoted it.",
+     "The Intermediate Technology Development Group, founded in 1966, is now Practical Action."
+    ]
+   },
+   {
+    "h": "Community self-help in Africa",
+    "points": [
+     "The Green Belt Movement was founded in Kenya in 1977 by Wangari Maathai, and women’s groups have planted tens of millions of trees for fuel, soil and income.",
+     "Maathai won the Nobel Peace Prize in 2004, the first African woman to do so.",
+     "Zaï pits and stone lines, as used by Yacouba Sawadogo in Yatenga, Burkina Faso, restore degraded farmland.",
+     "Farmer-managed natural regeneration in Niger has regreened about 5 million hectares since the 1980s (see the note “Human interference with soils”).",
+     "La Via Campesina, an international peasant farmers’ movement founded in 1993, campaigns for food sovereignty, the right of people to control their own food systems."
+    ]
+   },
+   {
+    "h": "Self-help through finance and co-operation",
+    "points": [
+     "Grameen Bank, SEWA and co-operatives show self-help through finance (see the note “Empowering people: linking economic growth with human development”)."
+    ]
+   },
+   {
+    "h": "Irish self-help (national setting)",
+    "points": [
+     "Muintir na Tíre, a community development movement, was founded in 1937 by Fr John Hayes in Co. Tipperary.",
+     "Co-operative creameries and credit unions show self-help in Ireland (see the note “Empowering people: linking economic growth with human development”).",
+     "LEADER and community development support local groups in Ireland.",
+     "NGOs that help people help themselves include Self Help Africa and Bóthar."
+    ]
+   },
+   {
+    "h": "Evaluation of self-reliance",
+    "points": [
+     "Self-reliance builds dignity, skills and local ownership, and avoids debt and dependency.",
+     "Complete self-reliance cuts countries off from trade, investment and technology, as Tanzania showed.",
+     "Communities still need fair trade rules, infrastructure and some outside support."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 80,
+    "model": "The problem: low and unstable prices, middlemen, poor working conditions and child labour, and declining terms of trade, with tariff escalation on processed goods. How fair trade works: the Fairtrade Minimum Price as a floor, the Fairtrade Premium spent on projects chosen by members, pre-finance and long-term contracts, democratic co-operatives, labour and environmental standards, and the Fairtrade Mark. Case studies: Kuapa Kokoo and Divine Chocolate in Ghana, with a 44% shareholding, the premium spent on wells, schools and clinics, and women in leadership; the Oromia union in Ethiopia, selling directly to buyers. Impact on development: stable income, investment, community projects, co-operative empowerment, women’s participation, environmental gains, less child labour, skills and consumer pressure. Fair trade in Ireland: Clonakilty, Fairtrade Fortnight, and retail ranges. Limits and evaluation: a tiny share of trade, costs that exclude the poorest, the 2014 SOAS findings on hired labourers, benefits limited to members, no change to trade rules, and brands leaving for their own schemes. Conclusion: fair trade is a model of just trade that improves lives, but its impact depends on scale and wider trade reform.",
+    "prompt": "Examine the contribution that fair trade can make to sustainable development.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Resource use: Irish fisheries (the Common Fisheries Policy reform, the Grand Banks warning), the peatland shift and “Brown to Green”, the Burren Programme and agri-environment schemes, and Costa Rica’s forest recovery and renewable electricity, with its limits. Justice issues: the Irish Travellers, with life expectancy and unemployment figures and the Equal Status Acts; the Sámi and the Fosen ruling of 2021; or Amazon indigenous peoples, with the Yanomami emergency and the Belo Monte dam. Self-reliance: Nyerere’s Tanzania, with Ujamaa, villagisation and the 1986 IMF programme; the Green Belt Movement and Wangari Maathai; farmer-managed regeneration in Niger; Irish community self-help through Muintir na Tíre. Evaluation: sustainability offers a model for the future, but each aspect shows that it must be just and must include local people, and self-reliance must still link to trade and technology.",
+    "prompt": "Sustainability is a model for future human and economic development. Discuss with reference to resource use, justice issues and self-reliance.",
+    "type": "short"
+   },
+   {
+    "marks": 80,
+    "model": "Definition and history: the Brundtland definition of 1987, from “The Limits to Growth” (1972) through the Rio Earth Summit (1992) and the Millennium Development Goals to the 17 Sustainable Development Goals (2015–2030) and the Paris Agreement (2015). Why it is a priority: finite resources and overuse, climate change, biodiversity loss, inequality, and the poorest suffering first. Examples of success: Costa Rica’s forest recovery and renewable electricity, the Irish peatland transition, the Burren Programme and fair trade. Problems and conflicts: greenwashing, conflicting pillars, the Fosen wind farm, and dairy expansion after the end of milk quotas in 2015. Alternatives: Bhutan’s Gross National Happiness and the ecological footprint. Evaluation: the model gives a common goal, but it is vague and off track, so it must be applied with justice and local participation to work for both human and economic development.",
+    "prompt": "Sustainable development should be a priority for human and economic development. Discuss.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-plate-tectonics-s1": {
   "keyTerms": [
    {
