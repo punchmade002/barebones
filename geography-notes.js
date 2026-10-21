@@ -19464,6 +19464,2245 @@
    }
   ]
  },
+ "geo-urban-s1": {
+  "keyTerms": [
+   {
+    "definition": "The exact ground a settlement is built on, such as a dry point, bridging point or sheltered harbour.",
+    "term": "Site"
+   },
+   {
+    "definition": "The position of a settlement relative to the routes, resources and surrounding land around it.",
+    "term": "Situation"
+   },
+   {
+    "definition": "The economic and social purpose of a settlement.",
+    "term": "Function"
+   },
+   {
+    "definition": "A defended early Christian farmstead enclosed by a bank, known as a rath or lios; stone versions are cashels, cahers and dúns.",
+    "term": "Ringfort"
+   },
+   {
+    "definition": "An underground stone passage built alongside a ringfort.",
+    "term": "Souterrain"
+   },
+   {
+    "definition": "A settlement with some town functions, such as a monastery, that was not a true town.",
+    "term": "Proto-town"
+   },
+   {
+    "definition": "A fortified Viking ship base, which became one of Ireland's first true towns.",
+    "term": "Longphort"
+   },
+   {
+    "definition": "Bronze Age cooking sites beside streams.",
+    "term": "Fulachta fia"
+   },
+   {
+    "definition": "An artificial island in a lake, used over a long period.",
+    "term": "Crannóg"
+   },
+   {
+    "definition": "An early Norman castle built on an earth mound with a fortified enclosure beside it.",
+    "term": "Motte and bailey"
+   },
+   {
+    "definition": "A long, narrow plot of land in a Norman walled town.",
+    "term": "Burgage plot"
+   },
+   {
+    "definition": "A fortified home of a local lord, built in the 15th and 16th centuries.",
+    "term": "Tower house"
+   },
+   {
+    "definition": "A planned town with a central square or diamond, a wide main street, a market house and an Established church.",
+    "term": "Plantation town"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Settlement location is described with three terms: site, situation and function.",
+    "h": "Site, situation and function",
+    "points": [
+     "Site: the exact ground a settlement is built on, such as a dry point, a wet point, a defensive hill, a river loop, a bridging point or a sheltered harbour. Example: Mount Sandel, near Coleraine, Co. Derry, on a bluff above the River Bann.",
+     "Situation: where the settlement lies relative to the land around it, including its routes, resources and hinterland. Example: Clonmacnoise, Co. Offaly, beside the River Shannon where the Esker Riada routeway crosses it.",
+     "Function: the economic and social purpose of a settlement. Example: Glendalough, Co. Wicklow, where a monastery served a religious function."
+    ]
+   },
+   {
+    "b": "Every period used the same factors to choose a site. The blocks below apply them to each period in turn.",
+    "h": "Locational factors common to all periods",
+    "points": [
+     "Water supply: a river, lake or spring for drinking water, fishing and transport.",
+     "Defence: high ground, cliffs, river loops, islands and marsh edges made a site harder to attack.",
+     "Fertile, well-drained land: soil that supported crops and grazing without flooding.",
+     "Shelter: sheltered valleys, bays and estuaries protected people and boats from the weather.",
+     "Routeways and fords or bridging points: places where roads, valleys or rivers could be crossed easily.",
+     "Resources: fish, timber and stone.",
+     "Religious or political importance: a holy site or a seat of power attracted people and the services they needed.",
+     "Finding and naming historic settlements on an OS map is covered in the note Map interpretation."
+    ]
+   },
+   {
+    "b": "The first people in Ireland were hunter-gatherers who did not farm.",
+    "h": "Mesolithic hunter-gatherers",
+    "points": [
+     "They made temporary camps on coasts, lakeshores and river banks, where they fished and gathered food.",
+     "Mount Sandel is the earliest known house site in Ireland. It is Mesolithic and over 9,000 years old.",
+     "The people of Mount Sandel fished for salmon and eels and gathered hazelnuts."
+    ]
+   },
+   {
+    "b": "Neolithic (New Stone Age) farmers cleared forest for fields and lived in permanent farmsteads, so settlement became fixed in place.",
+    "h": "Neolithic farmers and megalithic tombs",
+    "points": [
+     "Megalithic tombs were built on high, visible ground. The main types are court, portal (dolmen), passage and wedge tombs.",
+     "Poulnabrone, in the Burren, Co. Clare, is a portal tomb (dolmen).",
+     "Brú na Bóinne, Co. Meath, lies in a bend of the River Boyne and holds the passage tombs of Newgrange, Knowth and Dowth.",
+     "Newgrange is about 5,000 years old (about 3200 BC). Brú na Bóinne has been a UNESCO World Heritage Site since 1993.",
+     "Céide Fields, near Ballycastle, north Co. Mayo, is a Neolithic field system of stone walls preserved under blanket bog. It is over 5,000 years old.",
+     "The walls of the Céide Fields show organised farming in the Neolithic period."
+    ]
+   },
+   {
+    "h": "Bronze Age and Iron Age sites",
+    "points": [
+     "Metalworking developed in the Bronze Age and Iron Age. Standing stones and stone circles survive from this period.",
+     "Fulachta fia were Bronze Age cooking sites beside streams.",
+     "Hillforts and promontory forts gave defence on high ground and headlands.",
+     "Dún Aonghasa, on Inis Mór in the Aran Islands, Co. Galway, is a stone fort on the edge of a sheer sea cliff.",
+     "Crannógs were artificial islands in lakes, used over a long period.",
+     "The Hill of Tara, Co. Meath, was the traditional seat of the High Kings of Ireland.",
+     "Navan Fort (Emain Macha), Co. Armagh, was the royal site of Ulster.",
+     "The Hill of Tara and Navan Fort were royal and ceremonial sites, not towns."
+    ]
+   },
+   {
+    "b": "From the 5th century, many farmers lived in defended farmsteads called ringforts.",
+    "h": "Ringforts: early Christian farmsteads",
+    "points": [
+     "Ringforts (raths and lios; stone versions are cashels, cahers and dúns) were dispersed, defended farmsteads.",
+     "Ringforts were built on well-drained hillsides.",
+     "Souterrains were underground stone passages built alongside ringforts.",
+     "Over 40,000 ringforts survive in Ireland.",
+     "Place-name evidence: kil or cill (church), rath or lios (ringfort) and dun (fort) mark early Christian sites.",
+     "Ringforts are early medieval. They are not prehistoric, Viking or Norman."
+    ]
+   },
+   {
+    "b": "Monasteries were the first centres of people and trade in the early Christian period. They were proto-towns, not true towns.",
+    "h": "Monasteries as proto-towns",
+    "points": [
+     "Monasteries were sited on routeways, rivers, eskers or remote islands.",
+     "Glendalough, Co. Wicklow, was founded by St Kevin in the 6th century in a glaciated valley.",
+     "Clonmacnoise, Co. Offaly, was founded by St Ciarán in the mid-6th century.",
+     "Skellig Michael, Co. Kerry, is an island monastery and a UNESCO World Heritage Site since 1996.",
+     "Kells, Co. Meath, and Armagh are towns that grew from early monasteries.",
+     "Round towers served as bell towers and refuges.",
+     "High crosses and holy wells also mark early Christian sites."
+    ]
+   },
+   {
+    "b": "The Vikings founded Ireland's first true towns, which began as fortified bases for their ships.",
+    "h": "Viking longphorts and the first towns",
+    "points": [
+     "From the 9th century, Viking raids were followed by longphorts, fortified ship bases.",
+     "The Vikings sited their settlements on sheltered estuaries and harbours at river mouths, for trade and access by sea.",
+     "Dublin was founded as a longphort in 841, on the Liffey near its mouth.",
+     "Waterford was founded by Vikings in 914, on the Suir estuary.",
+     "Limerick was a Viking settlement from about 922.",
+     "Wexford and Cork were also Viking towns.",
+     "Norse place names include Wexford, Waterford, Wicklow and Arklow. Leixlip, Co. Kildare, comes from Old Norse for salmon leap.",
+     "Wood Quay, Dublin: excavations in the 1970s uncovered a large Viking town site. Its heritage controversy is covered in the note Urban problems in developed-world cities."
+    ]
+   },
+   {
+    "b": "The Normans (Anglo-Normans) took over and extended existing Viking towns rather than founding them.",
+    "h": "Norman conquest and castles",
+    "points": [
+     "The Normans landed at Bannow Bay, Co. Wexford, in 1169.",
+     "Strongbow (Richard de Clare) took Waterford in 1170.",
+     "Motte and bailey castles, built on earth mounds with a fortified enclosure beside them, came first. Stone castles followed.",
+     "Trim Castle, Co. Meath, on the River Boyne, is the largest Anglo-Norman castle in Ireland. Hugh de Lacy began it in the 1170s.",
+     "Carrickfergus Castle, Co. Antrim, was built by John de Courcy from 1177."
+    ]
+   },
+   {
+    "b": "Norman towns were sited at bridging points and on navigable rivers in fertile lowlands, for defence and control of land and trade.",
+    "h": "Norman walled towns and manor villages",
+    "points": [
+     "Walled towns had gates, market squares, charters, burgage plots, parish churches and abbeys.",
+     "Manor villages grew up around a lord's manor.",
+     "Athenry, Co. Galway, and Fethard, Co. Tipperary, have among the most complete medieval town walls in Ireland."
+    ]
+   },
+   {
+    "h": "Kilkenny: Norman town and castle",
+    "points": [
+     "Kilkenny is a Norman town on the River Nore. A stone castle was built there by William Marshal around 1200.",
+     "The Statutes of Kilkenny, 1366, tried to stop the Normans adopting Irish language and customs.",
+     "The Confederation of Kilkenny was formed in 1642."
+    ]
+   },
+   {
+    "h": "Later medieval fortified houses",
+    "points": [
+     "Tower houses were fortified homes of local lords, built in the 15th and 16th centuries.",
+     "Gaelic Ireland was largely without towns."
+    ]
+   },
+   {
+    "b": "The Laois and Offaly, Munster and Ulster plantations each produced planned towns.",
+    "h": "Plantation towns, 16th and 17th centuries",
+    "points": [
+     "Plantation of Laois and Offaly, 1556: Maryborough (now Portlaoise) and Philipstown (now Daingean) were planned as plantation towns.",
+     "Munster Plantation, from the 1580s: Bandon, Co. Cork, is a plantation town.",
+     "Plantation towns had a central square or diamond, a wide main street, a market house and an Established (Protestant) church. Donegal town is an Ulster example.",
+     "Ulster Plantation, from 1609: Derry was renamed Londonderry in 1613.",
+     "Derry's city walls were built 1613–1618. They are the only complete city walls in Ireland."
+    ]
+   },
+   {
+    "b": "Improving landlords laid out planned towns beside their estates, with wide streets, squares, malls and market houses.",
+    "h": "Landlord and Georgian planned towns",
+    "points": [
+     "Westport, Co. Mayo, was laid out in the 18th century by the Browne family of Westport House. It has the Octagon and a tree-lined Mall along the Carrowbeg River.",
+     "Birr, Co. Offaly, is a Georgian planned town of the Parsons family (Earls of Rosse), beside Birr Castle.",
+     "The Leviathan telescope at Birr, built in 1845, was the largest telescope in the world for decades.",
+     "Kenmare, Co. Kerry, was laid out in 1775 by the first Marquess of Lansdowne.",
+     "Adare, Co. Limerick, is an estate village of the Dunraven estate, with thatched cottages.",
+     "The Wide Streets Commissioners were set up in Dublin in 1757. Georgian Dublin has wide streets, squares such as Merrion Square and Fitzwilliam Square, and red-brick terraces.",
+     "Limerick's Georgian Newtown Pery was laid out in the late 18th century on land of Edmund Sexton Pery.",
+     "The full development of Georgian Dublin is covered in the note A Core Irish Region."
+    ]
+   },
+   {
+    "h": "Railways, workhouses and famine in the 19th century",
+    "points": [
+     "Canals and railways created railway junction towns and seaside resorts.",
+     "Mills and industrial villages were a feature of the 19th century.",
+     "The first railway in Ireland, Dublin–Kingstown (Dún Laoghaire), opened in 1834.",
+     "The Irish Poor Law Act of 1838 built a workhouse in each Poor Law union.",
+     "The Great Famine (1845–49) and emigration emptied much of the rural west.",
+     "Clonmel, Co. Tipperary: Charles Bianconi began Ireland's first public horse-drawn passenger car service there in 1815.",
+     "Belfast grew on linen and shipbuilding. Harland and Wolff built the Titanic, which was launched in 1911."
+    ]
+   },
+   {
+    "h": "Twentieth and twenty-first century settlement",
+    "points": [
+     "Shannon, Co. Clare, was Ireland's first planned new town. It was built from the 1960s for workers at the Shannon Free Zone (set up 1959) beside Shannon Airport.",
+     "The Wright Report of 1967 set out new towns for Dublin at Tallaght, Clondalkin, Lucan and Blanchardstown.",
+     "Suburban expansion and commuter towns grew outward from cities."
+    ]
+   },
+   {
+    "b": "A modern Irish town keeps the features of each historic phase in its street pattern and buildings. Kilkenny is the worked example.",
+    "h": "Reading historic phases in a modern town: Kilkenny",
+    "points": [
+     "The street plan links Kilkenny Castle and the cathedral. It is promoted as the Medieval Mile.",
+     "St Canice's Cathedral, with its round tower beside it, marks the early Christian monastery that gave the city its name, Cill Chainnigh, meaning church of Canice.",
+     "Kilkenny has city status.",
+     "In an Irish town, walls and gates date from the Norman period, the market square and market house from the plantation and landlord towns, Georgian terraces from the 18th century, and mills and the railway station from the 19th century."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Neolithic farmers settled on fertile, well-drained land and built megalithic tombs on high, visible ground. Brú na Bóinne, Co. Meath, lies in a bend of the River Boyne, and Céide Fields, near Ballycastle, Co. Mayo, show organised farming. Early Christian settlement: ringforts were dispersed, defended farmsteads on well-drained hillsides, and over 40,000 survive. Monasteries were sited on routeways, rivers, eskers or remote islands: Clonmacnoise lies beside the Shannon where the Esker Riada crosses it, and Glendalough lies in a glaciated valley. Viking settlement: longphorts were placed on sheltered estuaries and harbours at river mouths for trade and access by sea, as at Dublin, founded in 841 on the Liffey near its mouth, and Waterford, founded in 914 on the Suir estuary. Norman settlement: towns were sited at bridging points and on navigable rivers in fertile lowlands, for defence and control of land and trade. Trim Castle, on the River Boyne, was begun by Hugh de Lacy in the 1170s, and Athenry has among the most complete medieval town walls in Ireland.",
+    "prompt": "Examine the locational characteristics of pre-historic and historic settlements in Ireland, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Kilkenny began with an early Christian monastery, St Canice's, whose name Cill Chainnigh means church of Canice. Its round tower stands beside the cathedral. The Normans built a town on the River Nore with a stone castle, built by William Marshal around 1200. The Statutes of Kilkenny, 1366, tried to stop the Normans adopting Irish language and customs. The Confederation of Kilkenny was formed in 1642. The medieval street plan that links the castle and the cathedral survives today as the Medieval Mile, and Kilkenny has city status.",
+    "prompt": "Describe and explain the historic development of one Irish town you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Vikings: they chose sheltered estuaries and harbours at river mouths, for trade and access by sea. Dublin was founded in 841 on the Liffey near its mouth. Waterford was founded in 914 on the Suir estuary. Their longphorts were fortified ship bases. Normans: they chose bridging points and navigable rivers in fertile lowlands, for defence and control of land and trade. Trim Castle, on the River Boyne, is the largest Anglo-Norman castle in Ireland. Their towns had walls, gates and market squares, which gave protection and a centre for trade.",
+    "prompt": "Explain why the Vikings and the Normans chose the sites they did for their settlements in Ireland.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s2": {
+  "keyTerms": [
+   {
+    "definition": "Individual farmhouses scattered across the land, each on its own farm.",
+    "term": "Dispersed settlement"
+   },
+   {
+    "definition": "Buildings grouped together in one place, also called nucleated settlement.",
+    "term": "Clustered settlement"
+   },
+   {
+    "definition": "Houses strung along a line such as a road, valley or ridge.",
+    "term": "Linear settlement"
+   },
+   {
+    "definition": "A cluster of farmhouses of related families, with no church, shop or other services.",
+    "term": "Clachan"
+   },
+   {
+    "definition": "A landholding system in which families worked land in common, in scattered strips of infield and outfield.",
+    "term": "Rundale"
+   },
+   {
+    "definition": "Houses built one plot deep along roads leading out of towns and villages, and along rural roads.",
+    "term": "Ribbon development"
+   },
+   {
+    "definition": "Rules restricting rural house building to people with a local economic or social need.",
+    "term": "Local-needs criteria"
+   },
+   {
+    "definition": "A domestic wastewater treatment system that must be registered and inspected under an EPA plan.",
+    "term": "Septic tank"
+   },
+   {
+    "definition": "A plot with services such as water, sewers and electricity provided, where new housing is directed.",
+    "term": "Serviced site"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Rural settlement is the farmhouses, hamlets and villages in the countryside. Its pattern is the way the buildings are spread over the land.",
+    "h": "Three rural settlement patterns",
+    "points": [
+     "Dispersed: individual farmhouses scattered across the land, each on its own farm.",
+     "Clustered (nucleated): buildings grouped together in one place.",
+     "Linear (ribbon): houses strung along a line such as a road, a coast road, a valley or a ridge.",
+     "In Census 2016, about 63% of Ireland's population lived in urban areas and about 37% in rural areas."
+    ]
+   },
+   {
+    "b": "Dispersed settlement is the dominant rural pattern in Ireland.",
+    "h": "Dispersed settlement",
+    "points": [
+     "Irish farms are family-owned, and each family lives on its own holding.",
+     "The Land Commission was set up in 1881 under the Land Law (Ireland) Act 1881. Consolidation of holdings after the Land Acts moved houses out of clusters onto individual farms.",
+     "The Wyndham Land Act of 1903 helped tenants to buy their holdings.",
+     "Fertile, well-drained lowland with plentiful water lets houses be built almost anywhere.",
+     "Pastoral farming keeps the farmer close to the animals, so the house sits on the farm."
+    ]
+   },
+   {
+    "b": "Buildings are grouped together where a shared reason made the site worth using.",
+    "h": "Clustered settlement",
+    "points": [
+     "Route focus: a crossroads where roads meet.",
+     "A bridging point or ford.",
+     "A church, a castle or estate gates.",
+     "Defence on a hill or other defensible site.",
+     "Water supply at a spring or well, a wet-point site.",
+     "A dry-point site above flood land.",
+     "A harbour, for a fishing village.",
+     "Services such as a shop, pub, school and Garda station gather in the cluster.",
+     "Estate village: Enniskerry, Co. Wicklow, lies at the gates of the Powerscourt estate."
+    ]
+   },
+   {
+    "h": "Clachans and rundale",
+    "points": [
+     "A clachan is a cluster of farmhouses of related families, with no church, shop or other services.",
+     "Rundale was a landholding system in which families worked land in common, in scattered strips of infield and outfield. It explains the clachan; it is not a settlement pattern.",
+     "Clachans and rundale were common in the west before the Famine.",
+     "The Great Famine (1845–49) hit the clachan districts of the west hardest.",
+     "Clachans broke up as the population fell and holdings were consolidated. The Congested Districts Board, set up in 1891 for the poor western districts, consolidated holdings, built roads and piers, and rehoused families on separate farms. The Land Commission also moved houses onto individual farms.",
+     "A few clachans survive in the west."
+    ]
+   },
+   {
+    "h": "Linear settlement",
+    "points": [
+     "Houses are strung along a line: a road, a coast road, a valley floor, a river or a raised ridge such as an esker or the edge of a drumlin.",
+     "Linear settlement avoids marshy or steep land."
+    ]
+   },
+   {
+    "b": "Some land on a map has no settlement. Reading this from OS maps is covered in the note Map interpretation.",
+    "h": "Areas without settlement",
+    "points": [
+     "Uplands are steep, exposed and have poor soils.",
+     "Bogs are wet, poorly drained land.",
+     "Flood plains flood and are unsuitable for houses.",
+     "Lakes take up land that could hold houses.",
+     "Forestry plantations are large areas of planted trees with no houses."
+    ]
+   },
+   {
+    "h": "Rural settlement in Europe",
+    "points": [
+     "Noordoostpolder, Netherlands, is a planned rural landscape with a central town, Emmeloord, and planned villages around it. Its detail is in the note Urban settlement: site, hierarchy, hinterland and central place theory.",
+     "In southern Italy, the Mezzogiorno's rural population lived in hilltop villages. The 1950 land reform scattered new farmhouses on the lowlands. This is covered in the note A Peripheral European Region: the Mezzogiorno."
+    ]
+   },
+   {
+    "b": "Ribbon development is houses built one plot deep along the roads leading out of towns and villages, and along rural roads generally.",
+    "h": "Ribbon development and its causes",
+    "points": [
+     "Cheaper sites than in towns.",
+     "Road frontage gives access to services such as electricity, water mains and phone or broadband lines.",
+     "Farmers sold roadside sites.",
+     "People wanted rural living near a town.",
+     "Car ownership made commuting and rural living practical.",
+     "Planning control was historically weak.",
+     "Tax incentives and the property boom of the Celtic Tiger encouraged building."
+    ]
+   },
+   {
+    "h": "Problems of ribbon development",
+    "points": [
+     "Traffic hazards: many entrances onto fast roads.",
+     "It is costly to service. School buses, post, waste collection, water and sewers must all reach scattered houses.",
+     "Septic tanks can pollute groundwater and private wells.",
+     "Loss of scenic landscape.",
+     "Car dependence: residents need a car for almost every journey.",
+     "Town centres decline as people live outside them.",
+     "The boundary between town and country becomes blurred."
+    ]
+   },
+   {
+    "h": "Advantages and the rural viewpoint",
+    "points": [
+     "Ribbon development keeps rural populations, schools, GAA clubs and shops alive.",
+     "It lets families live near relatives and farms.",
+     "Housing is cheaper than in towns."
+    ]
+   },
+   {
+    "h": "The planning system",
+    "points": [
+     "Planning permission is granted by the local authority.",
+     "Decisions can be appealed to An Bord Pleanála, the national planning appeals board, set up in 1977. It was renamed An Coimisiún Pleanála in 2025.",
+     "The Planning and Development Act 2000 requires each planning authority to make a County Development Plan every six years.",
+     "The County Development Plan sets zoning, rural housing policy, design rules and protected areas.",
+     "Local Area Plans cover towns and villages."
+    ]
+   },
+   {
+    "h": "National rural housing policy",
+    "points": [
+     "The National Spatial Strategy (2002) and the National Planning Framework (2018) set rural housing aims. Both are summarised in the note Urban planning and renewal.",
+     "Sustainable Rural Housing Guidelines for Planning Authorities, 2005.",
+     "In areas under strong urban influence, rural houses are limited to people with a local economic or social need.",
+     "In structurally weak areas, rural housing is encouraged to keep the population."
+    ]
+   },
+   {
+    "h": "County Development Plan rural policies",
+    "points": [
+     "Local-needs criteria restrict who may build a house in some rural areas.",
+     "New entrances onto national and regional roads are restricted.",
+     "New housing is directed into villages and serviced sites.",
+     "Design guidelines cover siting, materials and hedgerows.",
+     "Minimum site sizes apply to septic tanks.",
+     "Scenic areas and views are protected.",
+     "Land is zoned around towns."
+    ]
+   },
+   {
+    "h": "Septic tank regulation",
+    "points": [
+     "Water Services (Amendment) Act 2012: domestic septic tanks must be registered, and they are inspected under an EPA plan.",
+     "Ireland has about half a million domestic wastewater treatment systems, mostly septic tanks (EPA estimate)."
+    ]
+   },
+   {
+    "b": "These programmes respond to rural depopulation and the decline of services such as post offices, Garda stations and pubs.",
+    "h": "Rural development programmes",
+    "points": [
+     "LEADER, an EU rural development programme, from 1991.",
+     "CLÁR, a State programme for rural areas suffering depopulation, from 2001.",
+     "The Town and Village Renewal Scheme, from 2016.",
+     "Our Rural Future, the Government's rural development policy for 2021–2025, published in 2021, supports remote working hubs."
+    ]
+   },
+   {
+    "h": "Evaluating rural planning",
+    "points": [
+     "The central tension is keeping rural communities alive while preventing sprawl.",
+     "Local-needs conditions have been criticised as unfair. In 2013 the EU Court of Justice ruled against a Flemish (Belgian) rule restricting who could buy land in some communes, which raised doubts about Irish local-needs conditions.",
+     "Planning has reduced ribbon development but has not stopped it.",
+     "Villages need sewage treatment before they can take more housing."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Planning permission is granted by the local authority, with appeals to An Bord Pleanála, set up in 1977 and renamed An Coimisiún Pleanála in 2025. Under the Planning and Development Act 2000, the County Development Plan, made every six years, sets zoning, rural housing policy, design rules and protected areas, and Local Area Plans cover towns and villages. Nationally, the National Spatial Strategy (2002) and the National Planning Framework (2018) set rural housing aims. The Sustainable Rural Housing Guidelines (2005) limit rural housing in areas under strong urban influence to people with a local need, and encourage it in structurally weak areas to keep the population. County plans restrict new entrances onto national and regional roads, direct housing into villages and serviced sites, set design guidelines, set minimum site sizes for septic tanks and protect scenic areas. The Water Services (Amendment) Act 2012 requires septic tanks to be registered and inspected under an EPA plan. Rural development programmes, LEADER (from 1991), CLÁR (from 2001), the Town and Village Renewal Scheme (from 2016) and Our Rural Future (2021–2025), address depopulation and the decline of services. Evaluation: planning has reduced ribbon development but has not stopped it. Local-needs conditions are criticised as unfair, and the 2013 EU Court of Justice ruling on a Flemish rule raised doubts about them. Villages need sewage treatment before they can take more housing, and the tension between keeping rural communities alive and preventing sprawl remains.",
+    "prompt": "Examine the planning strategies used to manage rural settlement in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Dispersed settlement: individual farmhouses are scattered, each on its own farm, and it is the dominant Irish pattern. Irish farms are family-owned and each family lives on its holding. Consolidation of holdings after the Land Acts moved houses out of clusters onto individual farms, through the Land Commission (set up in 1881) and the Congested Districts Board (set up in 1891). The Wyndham Land Act of 1903 helped tenants to buy their holdings. Fertile, well-drained lowland with plentiful water allows houses anywhere, and pastoral farming keeps the farmer close to the animals. Clustered settlement: buildings are grouped where a shared reason made the site worth using, such as a crossroads, a bridging point, a church, a castle or estate gates, defence, a spring or well, a dry-point site above flood land, or a harbour. Services such as a shop, pub, school and Garda station gather there. Clachans, clusters of farmhouses of related families with no church or shop, were common in the west before the Famine, when rundale worked land in common in scattered strips. They broke up as holdings were consolidated and houses moved onto individual farms.",
+    "prompt": "Describe and explain the dispersed and clustered patterns of rural settlement in Ireland.",
+    "type": "short"
+   },
+   {
+    "marks": 20,
+    "model": "Ribbon development is houses built one plot deep along roads leading out of towns and villages, and along rural roads generally. It was encouraged by cheaper sites than in towns, road frontage with access to services, and car ownership. Problem 1, traffic hazards: many entrances open onto fast roads, so cars enter and leave at many points, creating danger for road users. Problem 2, cost of services: school buses, post, waste collection, water and sewers must all reach scattered houses, which is expensive. Septic tanks can also pollute groundwater and private wells.",
+    "prompt": "What is ribbon development? Explain two problems it causes.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s3": {
+  "keyTerms": [
+   {
+    "definition": "The ground a town is built on, such as a bridging point, island, estuary or defensive hill.",
+    "term": "Site"
+   },
+   {
+    "definition": "The position of a town relative to the farming area, coast, routes and uplands around it.",
+    "term": "Situation"
+   },
+   {
+    "definition": "The ranking of settlements by size and by the number and range of their functions and services.",
+    "term": "Urban hierarchy"
+   },
+   {
+    "definition": "A city much larger than the second city in its country, dominant in its functions.",
+    "term": "Primate city"
+   },
+   {
+    "definition": "The surrounding area a town serves and draws people from.",
+    "term": "Hinterland"
+   },
+   {
+    "definition": "A settlement that provides goods and services to people in its surrounding area.",
+    "term": "Central place"
+   },
+   {
+    "definition": "The minimum number of customers needed to keep a service in business.",
+    "term": "Threshold"
+   },
+   {
+    "definition": "The maximum distance people will travel to obtain a service.",
+    "term": "Range"
+   },
+   {
+    "definition": "Goods bought often and found in every village, such as bread and newspapers.",
+    "term": "Low-order goods"
+   },
+   {
+    "definition": "Comparison goods and specialised services found only in large centres.",
+    "term": "High-order goods"
+   },
+   {
+    "definition": "A town whose residents travel out to work, and whose services increasingly serve commuters.",
+    "term": "Commuter town"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A town's site is the ground it is built on. The historic reasons for particular sites are covered in the note Viking longphorts and the first towns, and in the note Norman walled towns and manor villages.",
+    "h": "Site characteristics of towns",
+    "points": [
+     "Bridging point or ford: Dublin, on the Liffey, is the lowest bridging point on the river.",
+     "Route focus, where several roads meet: Athlone, at a crossing of the River Shannon in the centre of Ireland.",
+     "Island site: Limerick, on King's Island in the Shannon.",
+     "Sheltered harbour or estuary head: Waterford, on the Suir estuary, and Galway, at the mouth of the River Corrib.",
+     "Defensive sites on a hill, river loop or island, and dry points above wet ground.",
+     "Resources close to the site, such as water, fish, timber and stone."
+    ]
+   },
+   {
+    "b": "Situation is where the town lies in relation to the land and trade around it.",
+    "h": "Situation of towns",
+    "points": [
+     "Centre of a fertile farming area, supplying goods to farmers and taking their produce.",
+     "On a coast facing trade partners, which gives access to sea routes.",
+     "At a gap through the uplands, where routes cross the high ground."
+    ]
+   },
+   {
+    "h": "Urban functions",
+    "points": [
+     "Residential, market and retail, and services such as health, education and administration.",
+     "Industrial, port and transport.",
+     "Tourism and recreation, ecclesiastical, defence or garrison.",
+     "Commuter (dormitory) towns, where most residents work elsewhere.",
+     "Most towns are multi-functional."
+    ]
+   },
+   {
+    "b": "Settlements are ranked by size and by the number and range of their functions and services.",
+    "h": "Urban hierarchy",
+    "points": [
+     "The ranking runs from hamlet to village, small town, large town, city and capital (primate) city.",
+     "There are few large centres and many small ones, so the hierarchy takes the shape of a pyramid.",
+     "A place higher in the hierarchy has more functions and services, and draws people from a wider area."
+    ]
+   },
+   {
+    "b": "These are Census 2022 figures for cities and suburbs, and for towns.",
+    "h": "Ireland's urban hierarchy",
+    "points": [
+     "Dublin: about 1.26 million people.",
+     "Regional cities: Cork, about 222,000; Limerick, about 102,000; Galway, about 86,000; Waterford, about 60,000.",
+     "Largest towns: Drogheda, about 44,000, which is Ireland's largest town; Dundalk, about 43,000; Swords, about 41,000. Swords is a town in Fingal, not a separate city.",
+     "Many smaller county and market towns, and villages. The State's population is about 5.1 million."
+    ]
+   },
+   {
+    "b": "A primate city is much larger than the second city in the country and dominates its functions.",
+    "h": "Primate city",
+    "points": [
+     "Dublin is a primate city: about six times the size of Cork.",
+     "Causes of Dublin's primacy: its role as capital, its port, its routeway focus, colonial administration, multinational firms and services.",
+     "The rank-size rule, in which the nth city is one nth the size of the largest, does not fit Ireland.",
+     "The National Spatial Strategy and the National Planning Framework try to balance Dublin's growth with other centres. These are summarised in the note Urban planning and renewal."
+    ]
+   },
+   {
+    "h": "Order of goods and services",
+    "points": [
+     "Low-order goods are for convenience, such as bread and newspapers. They are found in every village, are bought often and have a low threshold.",
+     "High-order goods are comparison goods and specialised services, such as jewellers, department stores, hospitals and universities. They have a high threshold and are found only in large centres."
+    ]
+   },
+   {
+    "b": "The hinterland, also called the sphere of influence, catchment area or umland, is the surrounding area a town serves and draws people from.",
+    "h": "Hinterland",
+    "points": [
+     "The size of a hinterland depends on the town's size and functions, on transport, and on competition from nearby centres."
+    ]
+   },
+   {
+    "h": "Measuring hinterlands",
+    "points": [
+     "Newspaper circulation areas.",
+     "Bus routes and timetables.",
+     "Catchments of schools and hospitals.",
+     "Shop customer surveys and delivery areas.",
+     "Commuter flows.",
+     "Sports club catchments."
+    ]
+   },
+   {
+    "h": "Changing hinterlands",
+    "points": [
+     "Hinterlands overlap and change.",
+     "Cars, motorways and online shopping widen hinterlands.",
+     "Bypasses and out-of-town centres change them.",
+     "Example: the large hinterland of Galway city across the West."
+    ]
+   },
+   {
+    "b": "Walter Christaller, a German geographer, published central place theory in 1933, based on a study of southern Germany.",
+    "h": "Central place theory: definitions",
+    "points": [
+     "A central place is a settlement providing goods and services to people in its surrounding area.",
+     "Threshold is the minimum number of customers needed to keep a service in business. It is a number of people.",
+     "Range is the maximum distance people will travel to obtain a service. It is a distance.",
+     "A service locates where its threshold falls within its range."
+    ]
+   },
+   {
+    "h": "Central place theory: assumptions",
+    "points": [
+     "A flat, uniform (isotropic) plain.",
+     "An evenly spread population with equal purchasing power.",
+     "Equal ease of transport in all directions.",
+     "Consumers buy at the nearest centre.",
+     "No excess profits."
+    ]
+   },
+   {
+    "h": "Central place theory: predictions",
+    "points": [
+     "Market areas are hexagonal, because circles overlap or leave gaps and hexagons fit together.",
+     "A hierarchy of centres forms: many small, closely spaced low-order centres, and fewer, more widely spaced high-order centres.",
+     "Each higher-order centre also supplies all the lower-order goods.",
+     "Nesting: k = 3 is the marketing principle, k = 4 the transport principle and k = 7 the administrative principle."
+    ]
+   },
+   {
+    "h": "Central place theory: evidence",
+    "points": [
+     "In parts of the Irish Midlands, market towns serving farming areas are regularly spaced.",
+     "The Dutch polder Noordoostpolder, in the Netherlands, was drained in 1942. Emmeloord was planned as the central town, with ten villages around it, including Marknesse, Ens, Kraggenburg and Bant.",
+     "The villages were spaced so that farmers could reach one by bicycle. This gives a planned two-level hierarchy."
+    ]
+   },
+   {
+    "h": "Central place theory: limitations",
+    "points": [
+     "Relief, rivers and coasts are not uniform, and population is unevenly spread.",
+     "Transport routes are linear, not equal in all directions.",
+     "People shop on the way to work or on multi-purpose trips, not always at the nearest centre.",
+     "Car ownership, motorways, out-of-town shopping centres and online shopping change ranges and thresholds.",
+     "Government decisions, such as county towns and new towns, and history, such as Viking and Norman towns, fix locations.",
+     "Dublin's primacy breaks the regular hierarchy.",
+     "The theory was designed for market (service) towns, not for industrial, port or tourist towns."
+    ]
+   },
+   {
+    "h": "Applying central place theory to Ireland",
+    "points": [
+     "Dublin is at the top, the regional cities come next, then county and market towns, then villages.",
+     "The Irish hierarchy is broadly hierarchical but distorted by Dublin's primacy and by the coastline."
+    ]
+   },
+   {
+    "h": "General trends in urban functions",
+    "points": [
+     "Defence functions were lost.",
+     "Market and fair functions declined, as marts and supermarkets took over.",
+     "Industrial functions moved from the inner city to the suburbs or closed.",
+     "Services grew: offices, tourism, education and health.",
+     "Many towns near cities became commuter towns.",
+     "Village services such as the post office, Garda station, pub, shop and school have closed."
+    ]
+   },
+   {
+    "h": "Galway: Norman port and merchant town",
+    "points": [
+     "Galway was a Norman town founded by the de Burgo family in the 13th century.",
+     "It was governed by 14 merchant families, the Tribes of Galway. A royal charter of 1484 was granted.",
+     "Galway traded wine with Spain and France.",
+     "The Spanish Arch, built in 1584, is a surviving part of the town walls.",
+     "Galway surrendered to Cromwellian forces in 1652, and a long decline followed."
+    ]
+   },
+   {
+    "h": "Galway: university, industry and culture",
+    "points": [
+     "Queen's College Galway was founded in 1845. It is now the University of Galway, renamed in 2022.",
+     "Digital Equipment Corporation opened a plant in Galway in 1971 and closed its manufacturing there in 1993.",
+     "Galway is now a centre of the medical devices industry, with multinationals such as Medtronic and Boston Scientific.",
+     "The National Spatial Strategy of 2002 named Galway a gateway. The National Planning Framework of 2018 aims for at least 50% growth in Galway by 2040.",
+     "Galway was European Capital of Culture in 2020, jointly with Rijeka, Croatia.",
+     "The Galway Arts Festival and the Galway Races at Ballybrit attract visitors.",
+     "Galway is the regional capital of the West."
+    ]
+   },
+   {
+    "h": "Limerick: walled city and Georgian port",
+    "points": [
+     "Limerick began as a Viking settlement, covered in the note Viking longphorts and the first towns.",
+     "King John's Castle was built in the early 13th century on King's Island.",
+     "The Treaty of Limerick was signed in 1691.",
+     "Limerick developed as a Georgian commercial port. Its Georgian Newtown Pery is covered in the note Landlord and Georgian planned towns."
+    ]
+   },
+   {
+    "h": "Limerick: industry, multinationals and regeneration",
+    "points": [
+     "Limerick became an industrial city based on its port and flour milling.",
+     "Later industry linked to the Shannon area brought multinational investment. See the note Twentieth and twenty-first century settlement.",
+     "Dell opened in Limerick in 1990. In January 2009 it announced that it would move manufacturing to Łódź, Poland, with the loss of about 1,900 jobs.",
+     "The University of Limerick was founded in 1972 as the National Institute for Higher Education and became a university in 1989.",
+     "Limerick was Ireland's first National City of Culture, in 2014.",
+     "Limerick City and County Councils merged in 2014.",
+     "In 2024 Limerick elected Ireland's first directly elected mayor."
+    ]
+   },
+   {
+    "b": "Dublin's functions changed in stages. Its detail is in the note A Core Irish Region.",
+    "h": "Dublin: summary of change",
+    "points": [
+     "Viking trading port, covered in the note Viking longphorts and the first towns.",
+     "Administrative capital.",
+     "Georgian city, with the Wide Streets Commissioners of 1757 (see Landlord and Georgian planned towns).",
+     "Port and industry.",
+     "Services and technology in the Docklands: the International Financial Services Centre (1987), and Google at Grand Canal Dock."
+    ]
+   },
+   {
+    "h": "A market town becoming a commuter town",
+    "points": [
+     "Market functions, such as the mart and shops serving farmers, decline as the town's population changes.",
+     "Services, housing and shops shift to serve commuters who travel to work in a larger city.",
+     "Commuter towns of the Greater Dublin Area include Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones."
+    ]
+   },
+   {
+    "b": "Use this checklist with the Galway and Limerick case studies.",
+    "h": "Reasons for the growth of an urban area",
+    "points": [
+     "Site and situation: a bridging point, island, estuary or harbour.",
+     "Route focus and port: the town gathers traffic from roads, rivers or the sea.",
+     "Administrative role: a national capital, a regional capital or a merged council.",
+     "Industry and multinationals: manufacturing and foreign investment.",
+     "Services and education: universities and hospitals.",
+     "Tourism and culture.",
+     "Government policy: national gateways and growth targets, covered in the note Urban planning and renewal.",
+     "In-migration: people moving in for work and study."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Walter Christaller published central place theory in 1933, based on a study of southern Germany. A central place provides goods and services to the people of its surrounding area. A service locates where its threshold, the minimum number of customers needed, falls within its range, the maximum distance people will travel. The theory assumes a flat, uniform plain, an evenly spread population with equal purchasing power, equal ease of transport in all directions, that consumers use the nearest centre, and no excess profits. It predicts hexagonal market areas, because hexagons fit together with no gaps, and a hierarchy of centres: many small, closely spaced low-order centres, and fewer, more widely spaced high-order centres. Each higher-order centre supplies all the lower-order goods. Nesting follows k = 3 for the marketing principle, k = 4 for the transport principle and k = 7 for the administrative principle. Evidence: market towns serving farming areas are regularly spaced in parts of the Irish Midlands, and the Dutch polder Noordoostpolder, drained in 1942, has Emmeloord as its central town with ten villages around it, spaced so farmers could reach one by bicycle. Applied to Ireland, Dublin sits at the top, the regional cities come next, then county and market towns, then villages. Limitations: relief, rivers and coasts are not uniform, and population is unevenly spread. Transport routes are linear. People shop on multi-purpose trips, not always at the nearest centre. Motorways, out-of-town shopping centres and online shopping change ranges and thresholds. Government decisions and history, such as Viking and Norman towns, fix locations. Dublin's primacy breaks the regular hierarchy, and the theory was designed for market towns, not for industrial, port or tourist towns.",
+    "prompt": "Examine central place theory with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Galway. It was a Norman town founded by the de Burgo family in the 13th century, governed by 14 merchant families, the Tribes of Galway, and given a royal charter in 1484. Its walled port traded wine with Spain and France, and the Spanish Arch of 1584 is a surviving part of the town walls. Galway surrendered to Cromwellian forces in 1652, and a long decline followed. Queen's College Galway was founded in 1845, and is now the University of Galway, renamed in 2022. Digital Equipment Corporation opened a plant in Galway in 1971 and closed its manufacturing there in 1993. Galway is now a centre of the medical devices industry, with multinationals such as Medtronic and Boston Scientific. The National Spatial Strategy of 2002 named Galway a gateway. The National Planning Framework of 2018 aims for at least 50% growth in Galway by 2040. Galway was European Capital of Culture in 2020, jointly with Rijeka, Croatia. Its functions have moved from trade and defence, to education, high-tech manufacturing, tourism and culture, and it is the regional capital of the West.",
+    "prompt": "Examine how the functions of an urban centre have changed over time, with reference to one example you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "(i) Limerick. (ii) Two functions: port and industry, and education. (iii) Limerick began as a Viking settlement. King John's Castle was built in the early 13th century on King's Island, and the town was walled. The Treaty of Limerick was signed in 1691. In the late 18th century it developed as a Georgian commercial port, with Newtown Pery laid out. It became an industrial city based on its port and flour milling, and later multinational investment linked to the Shannon area brought new industry. The decline of older industry followed, and Dell announced in January 2009 that it would move manufacturing to Łódź, Poland, with the loss of about 1,900 jobs. The University of Limerick was founded in 1972 and became a university in 1989. Limerick was Ireland's first National City of Culture in 2014, and in 2024 it elected Ireland's first directly elected mayor. The functions moved from port and military defence, through industry, to education, culture and regeneration.",
+    "prompt": "(i) Name one urban area you have studied. (ii) Name two of its functions. (iii) Describe and explain how its functions have changed over time.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s4": {
+  "keyTerms": [
+   {
+    "definition": "The commercial heart of a city, with the highest land values, tall buildings and the most intensive land use.",
+    "term": "Central business district (CBD)"
+   },
+   {
+    "definition": "The inner-city area of mixed old housing, warehouses and small industry, where decay and renewal exist side by side.",
+    "term": "Zone in transition"
+   },
+   {
+    "definition": "The transitional land at the edge of a city, where urban and rural land uses meet and compete.",
+    "term": "Rural-urban fringe"
+   },
+   {
+    "definition": "Burgess's 1925 model of a city as rings of land use around the CBD, based on Chicago.",
+    "term": "Concentric zone model"
+   },
+   {
+    "definition": "Hoyt's 1939 model of a city as wedge-shaped sectors of land use extending along transport routes.",
+    "term": "Sector model"
+   },
+   {
+    "definition": "Harris and Ullman's 1945 model of a city growing around several separate centres.",
+    "term": "Multiple nuclei model"
+   },
+   {
+    "definition": "Alonso's 1964 theory that land is used by the activity that can pay most for it, so value falls with distance from the centre.",
+    "term": "Bid-rent theory"
+   },
+   {
+    "definition": "The point of highest land value, usually at the centre of the city.",
+    "term": "Peak land value intersection (PLVI)"
+   },
+   {
+    "definition": "Previously developed urban land, often vacant or derelict, that is available for reuse.",
+    "term": "Brownfield land"
+   },
+   {
+    "definition": "The process by which better-off people move into and renovate a poorer inner-city area, displacing lower-income residents.",
+    "term": "Gentrification"
+   },
+   {
+    "definition": "The separation of residential groups by income, class, ethnicity, age or family stage into different areas of a city.",
+    "term": "Segregation"
+   },
+   {
+    "definition": "A protected ring of open land around a city, used to prevent its outward spread.",
+    "term": "Green belt"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A large city is divided into zones of land use. Each zone has its own pattern of buildings and activity, and its own land value. The zones below are typical of a large European city and can all be identified in Dublin.",
+    "h": "Land-use zones in the modern city",
+    "points": [
+     "CBD (central business district): the commercial heart of the city, with the highest land values, tall buildings and the most intensive use of land.",
+     "Zone in transition: the inner-city area of mixed old housing, warehouses and small industry, where decay and renewal exist side by side.",
+     "Inner residential zone: older terraced housing close to the centre.",
+     "Suburbs: lower-density housing, mainly semi-detached houses, built later and further from the centre.",
+     "Industrial zones: the port, inner-city industry, suburban industrial estates and business parks.",
+     "Open space and recreation: parks, playing fields and other green areas within the built-up city.",
+     "Transport land: roads, railway lines, the port and the airport.",
+     "Rural-urban fringe: the transitional land at the edge of the built-up area, where urban and rural land uses meet and compete."
+    ]
+   },
+   {
+    "h": "The CBD in detail",
+    "points": [
+     "Land values are highest here because accessibility is greatest, so the most valuable sites are used for the most profitable activities.",
+     "Tall buildings maximise the use of expensive land, with several floors of offices or shops on a small site.",
+     "Department stores, chain stores and specialist shops occupy the main shopping streets.",
+     "Offices, banks and the head offices of companies cluster together in the centre.",
+     "Government and cultural buildings are located in the centre, where they are most accessible.",
+     "Few people live in the CBD, so it is crowded during the working day and quiet at night.",
+     "Pedestrian streets are used in the busiest shopping areas, where traffic and crowds would otherwise congest the streets.",
+     "Vertical zoning: shops occupy the ground floor, with offices or other uses above.",
+     "Dublin's CBD lies on both sides of the River Liffey. Its main shopping streets are Grafton Street, south of the Liffey, and Henry Street, north of it, both pedestrianised, and O'Connell Street, the city's main street."
+    ]
+   },
+   {
+    "b": "Three models describe how land uses arrange themselves around a city centre. Each is a simplified generalisation, so it is judged by how well it fits the real city.",
+    "h": "Models of urban land use",
+    "points": [
+     "Burgess concentric zone model: Ernest Burgess, 1925, based on Chicago. Land uses form rings around the CBD, with land values and densities falling with distance from the centre.",
+     "Strength of the Burgess model: it shows the regular fall in land value and density outwards from the CBD. Limitation: it ignores transport routes and does not fit cities whose growth follows roads and rail lines.",
+     "Diagram: concentric rings drawn around a central point labelled CBD, with the zones of transition, residential and commuter land shown in turn.",
+     "Hoyt sector model: Homer Hoyt, 1939. Land uses extend outwards in wedge-shaped sectors along transport routes, and a high-class residential sector lies away from industry.",
+     "Strength of the Hoyt model: it explains why sectors of the city are elongated along roads, rail lines and rivers. Limitation: it does not show the separate suburban centres that grow in large cities.",
+     "Diagram: a circle divided into wedge-shaped sectors, with radial transport routes marked and the high-class residential sector shown away from the industrial sector.",
+     "Harris and Ullman multiple nuclei model: Chauncy Harris and Edward Ullman, 1945. A city grows around several separate centres, such as the CBD, suburban shopping centres, an airport and business parks.",
+     "Strength of the multiple nuclei model: it explains the growth of suburban centres. Limitation: it gives no simple pattern of rings or sectors, so it is less clear as a general description.",
+     "Diagram: a city outline with several separate centres marked, each surrounded by its own cluster of land use.",
+     "Dublin fits the multiple nuclei and sector models better than the concentric model: the CBD is one nucleus, while suburban shopping centres and business parks are other nuclei, and growth follows the main roads out of the city."
+    ]
+   },
+   {
+    "b": "Dublin shows the zones of a modern European city, with the inner city in transition and the outer city growing along the M50 and the western new towns.",
+    "h": "Dublin's land-use zones",
+    "points": [
+     "Georgian core: the Georgian squares, Merrion Square and Fitzwilliam Square, are now largely offices.",
+     "The Wide Streets Commissioners, set up in 1757, widened and improved the city's streets, shaping the centre's wide thoroughfares.",
+     "Inner-city docklands and the north inner city are in transition, with older industrial and port land being renewed.",
+     "Older inner suburbs lie between the centre and the outer suburbs, with older housing forming an inner residential zone.",
+     "Outer suburbs and the western new towns: Tallaght, Clondalkin, Lucan and Blanchardstown, planned in the Wright Report of 1967.",
+     "Business and industrial parks lie near the M50 and the N7: Grange Castle, Citywest, Park West and Sandyford.",
+     "The port and airport are major transport and industrial land uses: Dublin Port and Dublin Airport.",
+     "Open space includes Phoenix Park, about 700 hectares and one of Europe's largest enclosed city parks, established in 1662; the Dublin Mountains and Dublin Bay are further open spaces at the edge of the city."
+    ]
+   },
+   {
+    "b": "Paris is the world city studied for comparison. Its land uses are concentrated in the inner city and organised around a ring road and a set of outer business and housing areas.",
+    "h": "Paris as the world city",
+    "points": [
+     "The City of Paris has about 2.1 million people on about 105 km², divided into 20 arrondissements. The wider Île-de-France region has about 12 million people.",
+     "The CBD and government quarter lie in the inner arrondissements.",
+     "Haussmann's boulevards: Haussmann rebuilt central Paris between 1853 and 1870, creating wide boulevards that give the inner city its formal street pattern.",
+     "La Défense, west of the city, is one of Europe's largest purpose-built business districts, an office district outside the historic inner city.",
+     "The Boulevard Périphérique, completed in 1973, is the ring road that forms the boundary of the inner city.",
+     "The banlieues are the suburbs beyond the Périphérique, where grands ensembles (large public housing estates built in the 1950s to 1970s) are found, for example Sarcelles.",
+     "The 1965 regional plan created five new towns: Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines."
+    ]
+   },
+   {
+    "b": "Industry has moved out of the inner city to the edge, where land is cheaper and road access is better.",
+    "h": "Changes in industrial land use",
+    "points": [
+     "Old inner-city industry beside the port, canals and railways included brewing, biscuit-making and distilling.",
+     "Many of these sites closed or moved to suburban industrial estates and business parks near motorways.",
+     "Reasons for the move: lack of space for expansion in the inner city, cheaper land on the edge, road access for lorries, less congestion, planning policy, and new industries needing clean, modern sites.",
+     "The vacated inner-city sites are brownfield land (land previously developed, now available for reuse), which can then be redeveloped for other uses.",
+     "The Guinness brewery is an exception, having stayed at St James's Gate since Arthur Guinness's lease of 1759.",
+     "Jacob's biscuit factory moved from Bishop Street in the inner city to Tallaght in the 1970s. The old factory now houses the National Archives.",
+     "Paris: Renault's Boulogne-Billancourt plant closed in 1992, an example of industry leaving the inner city."
+    ]
+   },
+   {
+    "h": "Changes in residential land use",
+    "points": [
+     "Inner-city tenements (old multi-occupied houses) were cleared in the 20th century, and their residents were moved to new suburbs and new towns.",
+     "Growth of suburban housing spread the city outwards, with sprawl into commuter counties.",
+     "The trend has been reversed in places, with a return to inner-city apartment living in areas such as the Docklands, through regeneration.",
+     "Issues raised by residential change: the density of housing, the height of buildings and the social mix of the area."
+    ]
+   },
+   {
+    "h": "Changes in commercial land use",
+    "points": [
+     "Suburban shopping centres and retail parks have been built beside motorway junctions, where there is car access, free parking and cheaper land.",
+     "The Square, Tallaght, opened in 1990; Blanchardstown Centre in 1996; Liffey Valley in 1998; and Dundrum Town Centre in 2005. All are beside major roads or the M50.",
+     "Out-of-town office parks have been built in the same way, on sites with good road access.",
+     "Effects on the city centre: vacant units and lost trade as shoppers move to the edge.",
+     "Responses: pedestrianisation of the centre, regeneration of central streets and limits on the size of retail parks.",
+     "Paris: La Défense takes offices out of the inner city, while the suburban business districts of the region take other commercial uses."
+    ]
+   },
+   {
+    "h": "Planning issues from land-use change",
+    "points": [
+     "Zoning: planning authorities divide land into use zones through development plans to control where each use may be located.",
+     "Brownfield and greenfield development: reuse of old urban land must be balanced against building on undeveloped edge land.",
+     "Height and density: taller and denser buildings in the centre raise questions of design, light and services.",
+     "Transport: new zones must be linked to public transport, or they generate car journeys and congestion.",
+     "Mixed land use: combining housing, offices and shops in one area reduces travel but can cause conflict between uses.",
+     "Conflict between business, residents and heritage: new offices or roads can threaten housing or historic buildings."
+    ]
+   },
+   {
+    "b": "Bid-rent theory, put forward by William Alonso in 1964, explains why land values and land uses change with distance from the centre. Bid-rent is the most a user can afford to pay for a plot of land.",
+    "h": "Land values: bid-rent theory",
+    "points": [
+     "Accessibility is greatest at the centre, so competition for sites is fiercest there and land is dearest at the peak land value intersection (PLVI), the point of highest value.",
+     "Land values fall with distance from the centre, because each step outwards means less accessibility.",
+     "Commerce outbids industry for central sites, and industry outbids housing, because each use can pay a different amount for the same land.",
+     "Secondary peaks of land value form at suburban centres, ring-road junctions and along main roads, where accessibility is also high.",
+     "Effect on building: tall buildings and intensive use occur at the centre, while large, low-density uses such as warehouses and car parks occur at the edge."
+    ]
+   },
+   {
+    "b": "Social stratification is the division of a city's population into groups by income, class, ethnicity, age and family stage, and segregation is the separation of these groups into different areas.",
+    "h": "Social stratification and segregation",
+    "points": [
+     "Causes: land and house prices, the allocation of social housing, planning decisions, transport access, household choice and discrimination.",
+     "Results: affluent areas are set against areas of concentrated disadvantage, and gated developments create closed residential areas.",
+     "Gentrification: better-off people move into and renovate a poorer inner-city area, raising prices and displacing lower-income residents. It is a different process from urban renewal and redevelopment, which are covered in the note Urban planning and renewal.",
+     "Dublin: affluent south-east suburbs, including Ballsbridge, Donnybrook, Dalkey and Foxrock, contrast with lower-income areas in parts of the north inner city and in some outer social-housing estates.",
+     "Ballymun is the case of concentrated social housing in Dublin, with seven 15-storey tower blocks built between 1966 and 1969.",
+     "Gentrification around the Docklands: the inner-city area has attracted new residents and businesses, including Google's European headquarters at Grand Canal Dock, known as 'Silicon Docks'.",
+     "Paris: the wealthy western districts contrast with the poorer north-eastern banlieues of Seine-Saint-Denis, the poorest département in mainland France.",
+     "Immigrant residents are concentrated in grands ensembles, and the riots that began in Clichy-sous-Bois in October 2005 showed the tensions in these areas."
+    ]
+   },
+   {
+    "b": "As cities grow, they take in rural land at the rural-urban fringe. The pressures on rural land are caused by population growth and by the choices made by households and firms.",
+    "h": "Expansion of cities and pressure on rural land",
+    "points": [
+     "Causes: population growth and in-migration; demand for cheaper, larger houses; car ownership and motorways; high house prices in the city; and jobs moving to the suburbs.",
+     "Loss of farmland: housing, roads and business parks replace fields, and rising land prices encourage farmers to sell.",
+     "Hobby farms and horse paddocks spread across the fringe, taking land out of commercial farming.",
+     "Commuter villages gain new estates, and their character and community can be lost as their population changes.",
+     "Other uses on the fringe: retail parks, business parks, data centres, landfill sites, quarries and golf courses.",
+     "Environmental effects: loss of habitats and hedgerows, and flooding as paved surfaces replace soil that would absorb rainwater.",
+     "Conflicts between farmers, residents and developers over the future of the fringe.",
+     "Dublin: sprawl into Meath, Kildare and Wicklow. The Greater Dublin Area had about 2.1 million people at the Census of 2022, about 40% of the State.",
+     "Dublin: commuter towns Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones, with one-off housing across the commuter belt.",
+     "Dublin: data centres on the city edge used about a fifth of Ireland's metered electricity in 2023 (CSO), most of them in the Dublin region."
+    ]
+   },
+   {
+    "h": "Responses to urban expansion",
+    "points": [
+     "Green belts: London's Metropolitan Green Belt was protected from the 1940s and 1950s to stop the outward sprawl of London.",
+     "New towns: Britain's New Towns Act 1946 led to Stevenage, the first new town designated, in 1946, and Milton Keynes, designated in 1967.",
+     "Paris's five new towns, from the 1965 plan, took population growth away from the city.",
+     "Dublin's western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown were planned after the Wright Report of 1967.",
+     "Compact growth and brownfield targets, set out in the National Planning Framework, aim to build on land within existing settlements (see the note Urban planning and renewal).",
+     "Development plans zone land for particular uses, so that the authorities decide where expansion may take place."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Introduction: as a city grows, its built-up area takes in farmland and habitats at the rural-urban fringe, and the effects reach the communities beyond it. 1. Population growth and in-migration create demand for land. 2. Cheaper, larger houses and high house prices in the city push households to the edge. 3. Car ownership and motorways make long commutes possible. 4. Jobs moving to the suburbs draw people outwards. 5. Loss of farmland: housing, roads and business parks replace fields, and rising land prices encourage farmers to sell. 6. Hobby farms and horse paddocks take land out of commercial farming. 7. Commuter villages gain new estates and can lose their character and community. 8. Retail parks, business parks, data centres, landfill and quarries take further land. 9. Golf courses and other recreation use fringe land. 10. Loss of habitats and hedgerows. 11. Paved surfaces increase flooding. 12. Dublin example: sprawl into Meath, Kildare and Wicklow; the Greater Dublin Area had about 2.1 million people at the Census of 2022, about 40% of the State. 13. Dublin commuter towns Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones show the pattern. 14. Data centres on the city edge used about a fifth of Ireland's metered electricity in 2023, most in the Dublin region. 15. Responses: London's Metropolitan Green Belt, protected from the 1940s and 1950s to stop outward sprawl; Britain's New Towns Act 1946 and Stevenage, the first new town designated in 1946; Paris's five new towns from the 1965 plan; Dublin's western new towns planned after the Wright Report of 1967. Conclusion: responses take pressure off rural land only where they are enforced and where new settlements are linked to jobs and transport.",
+    "prompt": "As cities grow and expand they impact on the surrounding rural areas. Discuss, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "1. Bid-rent theory (Alonso, 1964): accessibility is greatest at the centre, so competition makes land dearest at the peak land value intersection. 2. Land values fall with distance from the centre. 3. Commerce outbids industry, and industry outbids housing, so each use occupies the zone where it can pay most. 4. Secondary peaks of land value form at suburban centres, ring-road junctions and along main roads. 5. Effects on building: tall buildings and intensive use at the centre; large, low-density uses at the edge. 6. Social stratification follows land and house prices, so residential areas separate by income, class, ethnicity, age and family stage. 7. Causes of segregation include land and house prices, social housing allocation, planning, transport access, household choice and discrimination. 8. Results: affluent areas are set against areas of concentrated disadvantage, and gated developments close off residential areas. 9. Dublin: affluent south-east suburbs such as Ballsbridge, Donnybrook, Dalkey and Foxrock contrast with lower-income areas in parts of the north inner city and some outer social-housing estates. 10. Ballymun shows concentrated social housing, with seven 15-storey towers built 1966 to 1969. 11. Gentrification around the Docklands raises prices and displaces lower-income residents. 12. Paris: the wealthy western districts contrast with the north-eastern banlieues of Seine-Saint-Denis, the poorest département in mainland France. 13. Immigrant residents are concentrated in grands ensembles, and the Clichy-sous-Bois riots of October 2005 showed the tensions. Conclusion: land values sort land uses by distance from the centre, and the same market forces sort people by income into different parts of the city.",
+    "prompt": "Examine how land values influence land use and social stratification in cities.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Urban area: Dublin. Industrial land use: 1. Old inner-city industry beside the port, canals and railways, including brewing, biscuit-making and distilling, closed or moved out. 2. Reasons: lack of space, cheaper land on the edge, road access for lorries, less congestion, planning policy and the need for clean modern sites. 3. Jacob's biscuit factory moved from Bishop Street to Tallaght in the 1970s; the old factory now houses the National Archives. 4. The Guinness brewery at St James's Gate is an exception, having stayed there since Arthur Guinness's lease of 1759. 5. The vacated inner-city sites are brownfield land, which can be redeveloped. Commercial land use: 6. Suburban shopping centres and retail parks were built beside motorway junctions, with car access, free parking and cheaper land. 7. The Square, Tallaght, opened in 1990; Blanchardstown Centre in 1996; Liffey Valley in 1998; Dundrum Town Centre in 2005; all beside major roads or the M50. 8. Out-of-town office parks followed on sites with good road access. 9. Effects on the city centre: vacant units and lost trade. 10. Responses: pedestrianisation of the centre, regeneration of central streets and limits on the size of retail parks. Conclusion: industry and commerce have moved from the inner city to the edge, following road access and cheaper land.",
+    "prompt": "Name one urban area you have studied and describe how its industrial and commercial land use has changed over time.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s5": {
+  "keyTerms": [
+   {
+    "definition": "A condition in which traffic volume exceeds the capacity of the road network, so vehicles move slowly or stop.",
+    "term": "Traffic congestion"
+   },
+   {
+    "definition": "A road that runs from the outskirts of a city towards its centre, funnelling traffic into one place.",
+    "term": "Radial road"
+   },
+   {
+    "definition": "Car parks at the edge of a city where drivers leave their cars and continue by public transport.",
+    "term": "Park and ride"
+   },
+   {
+    "definition": "A daily charge for driving into a designated central area, used to reduce traffic.",
+    "term": "Congestion charge"
+   },
+   {
+    "definition": "The physical, economic and social decline of part of a city, usually the inner city.",
+    "term": "Urban decay"
+   },
+   {
+    "definition": "Describes an abandoned building or site that has fallen into disrepair and is no longer used.",
+    "term": "Derelict"
+   },
+   {
+    "definition": "The uncontrolled outward spread of low-density development over rural land at the edge of a city.",
+    "term": "Urban sprawl"
+   },
+   {
+    "definition": "An unfinished or largely empty housing estate, left after a property development stalls.",
+    "term": "Ghost estate"
+   },
+   {
+    "definition": "A town whose residents mainly sleep there and commute to work elsewhere, leaving little local activity.",
+    "term": "Dormitory town"
+   },
+   {
+    "definition": "The lack of local facilities, networks and sense of belonging in a new or isolated residential area.",
+    "term": "Absence of community"
+   },
+   {
+    "definition": "A list, kept by each local authority under the Planning and Development Act 2000, of buildings to be protected.",
+    "term": "Record of Protected Structures"
+   },
+   {
+    "definition": "An area of special architectural or historic character, protected under the Planning and Development Act 2000.",
+    "term": "Architectural Conservation Area"
+   },
+   {
+    "definition": "An outlet that releases mixed sewage and surface water into rivers or the sea when heavy rain overloads a sewage system.",
+    "term": "Storm overflow"
+   },
+   {
+    "definition": "The effect by which built-up areas are warmer than the surrounding countryside.",
+    "term": "Urban heat island"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Congestion occurs when the volume of traffic on a road network exceeds the space and capacity available, so vehicles move slowly or stop.",
+    "h": "Traffic movement and congestion: causes",
+    "points": [
+     "Rising car ownership puts more vehicles onto streets that were laid out for far fewer.",
+     "Low-density suburbs and commuter towns are poorly served by public transport, so most journeys are made by car.",
+     "Radial roads converge on a historic centre with narrow streets and few river crossings, funnelling traffic into one place.",
+     "Journeys to work and school peak at the same times of day, filling the network at once.",
+     "Delivery vehicles and heavy goods vehicles share the same streets as commuters and shoppers.",
+     "Jobs and shopping have dispersed to suburbs that can be reached only by car.",
+     "Historically weak investment in rail has left cities without a fast alternative to the car."
+    ]
+   },
+   {
+    "h": "Traffic movement and congestion: effects",
+    "points": [
+     "Lost time and reduced productivity for workers, and higher costs for businesses.",
+     "Stress and reduced quality of life for commuters.",
+     "Air and noise pollution from stop-start traffic, with carbon emissions from idling engines.",
+     "Road accidents on crowded routes.",
+     "Slower buses, which makes public transport less attractive and so adds to car use.",
+     "Businesses and tourism harmed by poor access to the centre.",
+     "Less space for pedestrians and cyclists, because road space is given over to traffic."
+    ]
+   },
+   {
+    "h": "Traffic congestion in Dublin",
+    "points": [
+     "Sprawl and car dependence bring large numbers of commuters into the city every day by car.",
+     "Radial routes converge on the centre, and there are few crossings of the River Liffey.",
+     "The light rail network arrived late: the Luas opened in 2004, after the city's roads had already become congested.",
+     "Port traffic formerly ran through the city centre until the Port Tunnel opened in 2006."
+    ]
+   },
+   {
+    "h": "Traffic congestion: measures to reduce it",
+    "points": [
+     "Public transport: DART (opened 1984), Luas (opened 2004), commuter rail, BusConnects, and the planned MetroLink, which has no date or cost yet.",
+     "Luas Cross City linked the Red and Green lines through the city centre in December 2017.",
+     "Bus lanes and quality bus corridors give buses priority over cars.",
+     "Park and ride: car parks at the edge of the city where drivers can switch to public transport.",
+     "Cycle lanes and Dublin Bikes, the public bicycle scheme launched in 2009.",
+     "Integrated ticketing: the Leap card, introduced in 2011, allows one card to be used across different transport services.",
+     "Orbital roads and bypasses: the M50 orbital motorway, built in stages from 1990, takes traffic around the city.",
+     "The Port Tunnel, opened in 2006, took port traffic out of the city centre; a 2007 restriction banned most five-axle heavy goods vehicles from the centre.",
+     "Pedestrianisation of the busiest shopping streets.",
+     "Parking charges and limits discourage commuters from driving into the centre.",
+     "Congestion charging: the London Congestion Charge, introduced in February 2003, is a daily charge to drive into central London on weekdays, and traffic in the zone fell in its early years.",
+     "Car sharing, remote working and staggered working hours spread traffic over time.",
+     "Land-use planning that puts homes close to jobs and transport reduces the need to travel by car."
+    ]
+   },
+   {
+    "b": "Urban decay is the physical, economic and social decline of part of a city, usually the inner city. It is decline inside the built-up area, not growth at the edge.",
+    "h": "Urban decay: causes",
+    "points": [
+     "Old industries and port jobs close, removing the economic base of the inner city.",
+     "Better-off residents move to the suburbs, leaving a smaller and poorer population behind.",
+     "Buildings are left derelict and are poorly maintained, particularly social housing.",
+     "Reduced rates income means the local authority has less money to maintain buildings and services.",
+     "Dereliction attracts crime and vandalism, which deter investment and residents.",
+     "Road schemes and planning blight: the threat of future road building leaves property uncertain, so owners stop investing in repairs."
+    ]
+   },
+   {
+    "h": "Urban decay: effects",
+    "points": [
+     "Unemployment and poverty among residents of the affected area.",
+     "Derelict sites that stand empty for long periods.",
+     "Population decline as families leave.",
+     "Drug and crime problems.",
+     "Poor services, because fewer people and less money remain to support them.",
+     "Stigma: the reputation of the area discourages investment and visitors.",
+     "A cycle of decline, in which each problem makes the others worse."
+    ]
+   },
+   {
+    "h": "Urban decay in Dublin's inner city",
+    "points": [
+     "Dublin's docks lost most of their jobs with containerisation from the 1960s and 1970s.",
+     "Inner-city tenements were cleared, and their residents moved to the suburbs.",
+     "Dereliction of inner-city streets and buildings followed through the 1970s and 1980s. The renewal of these areas is covered in the note Urban planning and renewal."
+    ]
+   },
+   {
+    "h": "Urban decay in Limerick",
+    "points": [
+     "Concentrated disadvantage in social-housing estates: Moyross, Southill, St Mary's Park and Ballinacurra Weston.",
+     "After an arson attack on two children in Moyross in 2006, the Government commissioned John Fitzgerald's report, published in 2007.",
+     "The report led to the Limerick Regeneration programme for Moyross, Southill, St Mary's Park and Ballinacurra Weston, which is evaluated in the note Urban planning and renewal."
+    ]
+   },
+   {
+    "b": "Detroit, Michigan, USA, is known as 'Motor City', the home of Ford, General Motors and Chrysler. Its decline shows decay on a city-wide scale.",
+    "h": "Urban decay in Detroit (developed-world case study)",
+    "points": [
+     "Population peaked at about 1.85 million at the 1950 US census and fell to about 640,000 at the 2020 US census.",
+     "Middle-class, largely white families moved to the suburbs from the 1950s, helped by freeways.",
+     "Car-industry jobs moved out of the city or were automated.",
+     "Tens of thousands of houses were abandoned.",
+     "Detroit filed for bankruptcy in July 2013, the largest municipal bankruptcy in US history, and exited it in December 2014.",
+     "Downtown and Midtown have since seen new investment, although many areas remain derelict."
+    ]
+   },
+   {
+    "b": "Urban sprawl is the uncontrolled outward spread of low-density housing and other development over rural land at the edge of a city. It is growth at the edge, unlike urban decay, which is decline inside the city.",
+    "h": "Urban sprawl: definition, causes and effects",
+    "points": [
+     "Causes: population growth, high prices in the inner city, and demand for houses with gardens.",
+     "Causes: car ownership and motorways, which make distant sites accessible.",
+     "Causes: planning that zoned greenfield land for development, and developers' preference for cheaper greenfield sites.",
+     "Causes: tax incentives during the Celtic Tiger boom of the late 1990s and 2000s.",
+     "Effects: long commutes and congestion, and car dependence.",
+     "Effects: loss of farmland and habitats, as described in the note Urban land use and planning.",
+     "Effects: costly services, such as roads, water and schools, spread thinly over a large area.",
+     "Effects: dormitory towns, whose residents sleep there and work elsewhere, leaving little local activity.",
+     "Effects: decline of the city centre and higher carbon emissions."
+    ]
+   },
+   {
+    "h": "Urban sprawl in Dublin",
+    "points": [
+     "Dublin's sprawl has extended into the commuter counties beyond the city boundary.",
+     "A Government survey in 2010 found almost 3,000 unfinished housing estates, known as ghost estates, after the 2008 property crash."
+    ]
+   },
+   {
+    "h": "Urban sprawl: solutions",
+    "points": [
+     "Green belts: a protected ring of open land around the city to stop its spread.",
+     "Compact growth and brownfield development, set out in the National Planning Framework, to build on land within the city.",
+     "Higher densities of housing near public transport, so that fewer people need cars.",
+     "New towns planned as self-contained settlements with their own services.",
+     "Regeneration of inner-city sites that are vacant or derelict."
+    ]
+   },
+   {
+    "h": "Absence of community: causes and effects",
+    "points": [
+     "New estates built quickly without schools, shops, community centres or public transport.",
+     "High-rise flats with no shared space where neighbours can meet.",
+     "Long commutes leaving little time for local life.",
+     "Transient renting populations, who move often and do not put down roots.",
+     "Demolition of old inner-city communities when tenements were cleared, breaking up established networks.",
+     "Social segregation, which separates people by income and class into different areas.",
+     "Effects: isolation and loneliness, anti-social behaviour, and little sense of belonging or local organisation."
+    ]
+   },
+   {
+    "h": "Absence of community: examples and responses",
+    "points": [
+     "Ballymun's tower blocks in Dublin: seven 15-storey towers built 1966 to 1969, demolished 2004 to 2015.",
+     "Commuter estates and the ghost estates of Dublin's commuter counties.",
+     "Paris banlieues: large grands ensembles (estates built in the 1950s to 1970s) such as Sarcelles, with high unemployment and the riots that began in Clichy-sous-Bois in October 2005.",
+     "Responses: community facilities built alongside housing, with phasing conditions so that schools and shops come before the homes are occupied.",
+     "Responses: regeneration with resident participation, mixed tenure, and sports clubs and family resource centres."
+    ]
+   },
+   {
+    "b": "Urban heritage includes historic buildings, streetscapes, archaeological sites and monuments, together with their setting.",
+    "h": "Heritage in urban areas: value",
+    "points": [
+     "Identity: heritage gives a city and its residents a sense of their history and place.",
+     "Tourism: historic buildings and monuments attract visitors and the income they bring.",
+     "Economic value: restored heritage buildings can support shops, hotels and cultural venues."
+    ]
+   },
+   {
+    "h": "Heritage in urban areas: threats",
+    "points": [
+     "Demolition for offices and roads, as when historic buildings are cleared for new development.",
+     "Neglect and dereliction of old buildings.",
+     "Inappropriate new buildings, with heights that are out of scale with the historic streetscape.",
+     "Traffic vibration and pollution, which damage old buildings and monuments.",
+     "Tourist pressure, which can wear down historic sites and crowd out local residents."
+    ]
+   },
+   {
+    "h": "Heritage issues in Dublin",
+    "points": [
+     "Lower Fitzwilliam Street: the ESB demolished a row of 16 Georgian houses in 1965 to build its head office. That office block has itself since been demolished and replaced.",
+     "Wood Quay: one of the largest Viking-age sites in Europe. Despite protests and court cases in the late 1970s, Dublin Corporation built its civic offices on the site.",
+     "14 to 17 Moore Street, where the 1916 leaders spent their last hours before surrender, was declared a national monument in 2007.",
+     "Positive reuse: Temple Bar was regenerated in the 1990s, and Docklands warehouses have been reused for new purposes."
+    ]
+   },
+   {
+    "h": "Heritage protection",
+    "points": [
+     "The Planning and Development Act 2000 created the Record of Protected Structures and Architectural Conservation Areas.",
+     "National monuments are protected by the State.",
+     "An Taisce (the National Trust for Ireland), founded in 1948, campaigns for the protection of heritage.",
+     "UNESCO World Heritage listing: Ireland's two World Heritage Sites are Brú na Bóinne, listed in 1993, and Skellig Michael, listed in 1996. Neither is urban.",
+     "International urban examples: the Old and New Towns of Edinburgh, listed by UNESCO in 1995, and the Historic Centre of Rome, listed in 1980."
+    ]
+   },
+   {
+    "h": "Heritage tourism in a smaller Irish city",
+    "points": [
+     "Kilkenny's Medieval Mile attracts heritage tourism to a smaller Irish city. Its medieval history is covered in the note Pre-historic and historic settlement."
+    ]
+   },
+   {
+    "h": "Environmental quality: air",
+    "points": [
+     "Sources of urban air pollution: smoke from coal fires, and traffic emissions of nitrogen dioxide and particulates.",
+     "Dublin's severe winter smog in the 1980s led to the ban on smoky coal in Dublin from 1 September 1990.",
+     "Research after the ban found that black smoke levels and winter death rates fell.",
+     "The ban on smoky coal was extended nationwide in October 2022."
+    ]
+   },
+   {
+    "h": "Environmental quality: water",
+    "points": [
+     "The Ringsend wastewater treatment plant treats most of Dublin's sewage and discharges into Dublin Bay.",
+     "The Ringsend plant is being upgraded.",
+     "Storm overflows: heavy rain can send mixed sewage and surface water into urban rivers and the bay.",
+     "Urban rivers carry pollution from paved surfaces, roads and drains."
+    ]
+   },
+   {
+    "h": "Environmental quality: waste",
+    "points": [
+     "Litter and landfill: waste that is not recycled or treated goes to landfill.",
+     "Plastic bag levy: introduced in March 2002 at 15 cent, after which plastic bag use fell sharply.",
+     "Recycling schemes reduce the amount of waste sent to landfill.",
+     "Poolbeg (Dublin Waste-to-Energy) incinerator, operating since 2017, burns residual waste to generate energy."
+    ]
+   },
+   {
+    "h": "Environmental quality: noise, visual pollution and derelict land",
+    "points": [
+     "Noise from traffic, construction and night-time activity affects residents.",
+     "Visual pollution: graffiti, poor signage and unsightly derelict buildings reduce the quality of the streetscape.",
+     "Derelict sites: the Derelict Sites levy is a charge on owners of derelict property to encourage its reuse."
+    ]
+   },
+   {
+    "h": "Environmental quality: green space and biodiversity",
+    "points": [
+     "Parks provide habitats and recreation: Phoenix Park, about 700 hectares, established 1662.",
+     "Canals provide green corridors through the city: the Royal Canal and the Grand Canal.",
+     "North Bull Island, in Dublin Bay, is a green space beside the city.",
+     "Loss of green space to infill: small gaps between buildings are built on, reducing open space for wildlife and residents."
+    ]
+   },
+   {
+    "h": "Environmental quality: flooding and heat",
+    "points": [
+     "Urban flooding: paved surfaces stop rain soaking into the ground, so runoff rises quickly into rivers and drains.",
+     "Hurricane Charley, in August 1986, caused severe flooding of the River Dodder in Dublin.",
+     "Urban heat island: built-up areas are warmer than the surrounding countryside because buildings and paving absorb and hold heat."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Heritage issues: 1. Urban heritage includes historic buildings, streetscapes, archaeological sites and monuments, which give a city its identity, attract tourists and support the economy. 2. Threats include demolition for offices and roads, neglect and dereliction, and inappropriate new buildings out of scale with the historic streetscape. 3. Traffic vibration and pollution damage old buildings, and tourist pressure can wear down sites. 4. Dublin: the ESB demolished 16 Georgian houses on Lower Fitzwilliam Street in 1965 to build its head office. 5. Dublin: Wood Quay, one of the largest Viking-age sites in Europe, was built over by Dublin Corporation's civic offices despite protests and court cases in the late 1970s. 6. Dublin: 14 to 17 Moore Street, where the 1916 leaders spent their last hours before surrender, was declared a national monument in 2007. 7. Protection: the Planning and Development Act 2000 created the Record of Protected Structures and Architectural Conservation Areas, and An Taisce, founded in 1948, campaigns for heritage. Environmental issues: 8. Air: smoke from coal fires and traffic emissions of nitrogen dioxide and particulates. 9. Dublin's severe winter smog in the 1980s led to the smoky coal ban from 1 September 1990; black smoke levels and winter death rates fell afterwards. 10. Water: the Ringsend plant treats most of Dublin's sewage and discharges into Dublin Bay, and storm overflows send mixed sewage into rivers. 11. Waste: the plastic bag levy of March 2002 cut plastic bag use sharply, and the Poolbeg incinerator has operated since 2017. 12. Visual and noise pollution, graffiti and derelict sites, which the Derelict Sites levy aims to address. 13. Green space is lost to infill, while Phoenix Park, about 700 hectares, established 1662, provides habitat and recreation. 14. Urban flooding from paved surfaces, as in the River Dodder flooding of August 1986, and the urban heat island effect. Conclusion: both heritage and environmental problems follow from growth, and the planning response to them is evaluated in the note Urban planning and renewal.",
+    "prompt": "Discuss two of the following issues that may arise from the growth of urban settlements: heritage issues; environmental issues.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "Traffic congestion (Dublin): 1. Radial roads converge on the centre, with few crossings of the Liffey, and car dependence brings commuters in daily. 2. Effects include lost time, stress, pollution and slower buses. 3. Measures include DART, the Luas (2004), BusConnects, bus lanes, the M50 and the Port Tunnel (2006), with the 2007 HGV restriction. 4. Dublin Bikes (2009) and the Leap card (2011) support cycling and integrated travel. 5. The London Congestion Charge (February 2003) shows how a charge can cut traffic in a central area. Urban decay (Detroit): 1. Population fell from about 1.85 million in 1950 to about 640,000 in 2020. 2. Middle-class families moved to the suburbs from the 1950s, helped by freeways. 3. Car-industry jobs moved out or were automated, and tens of thousands of houses were abandoned. 4. Detroit filed for bankruptcy in July 2013, the largest municipal bankruptcy in US history. 5. Downtown and Midtown now have new investment, but many areas remain derelict. Urban sprawl (Dublin): 1. Causes include population growth, high inner-city prices, demand for gardens, car ownership and motorways, and planning that zoned greenfield land. 2. Effects include long commutes, loss of farmland and habitats, costly services spread thinly, and dormitory towns. 3. Sprawl extended into the commuter counties, and a 2010 survey found almost 3,000 ghost estates after the 2008 crash. 4. Solutions include green belts, compact growth and brownfield development under the National Planning Framework, and higher densities near public transport. Conclusion: each problem has different causes, with decay inside the city and sprawl at its edge.",
+    "prompt": "Discuss three of the following urban problems with reference to examples you have studied: traffic congestion, urban decay, urban sprawl.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "(i) Dublin. (ii) Causes: population growth and high prices in the inner city led households to seek houses with gardens on the edge, where planning had zoned greenfield land for development. Car ownership and motorways made distant sites reachable, and developers preferred cheaper greenfield sites. Tax incentives during the Celtic Tiger boom encouraged building further out. The result was sprawl into the commuter counties, with long commutes and loss of farmland. (iii) Solution: compact growth on brownfield land near public transport. Vacant and derelict urban sites are redeveloped at higher density, so fewer people need cars and less farmland is lost. This is set out in the National Planning Framework, which aims for 40% of new homes to be within the built-up footprint of existing settlements.",
+    "prompt": "(i) Name one city where urban sprawl has occurred. (ii) Explain why. (iii) Describe one solution.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s6": {
+  "keyTerms": [
+   {
+    "definition": "The control of land use and development through development plans, zoning, planning permission and public investment.",
+    "term": "Urban planning"
+   },
+   {
+    "definition": "The improvement and rehabilitation of existing run-down areas, keeping the community in place.",
+    "term": "Urban renewal"
+   },
+   {
+    "definition": "The complete clearance of an area and its rebuilding, often with new uses and new residents.",
+    "term": "Urban redevelopment"
+   },
+   {
+    "definition": "The movement of better-off people into an area, raising prices and displacing original residents.",
+    "term": "Gentrification"
+   },
+   {
+    "definition": "An area of national importance designated for fast-track planning.",
+    "term": "Strategic Development Zone"
+   },
+   {
+    "definition": "The provision of the Planning and Development Act 2000 requiring part of new housing development to be social and affordable housing.",
+    "term": "Part V"
+   },
+   {
+    "definition": "An area, first introduced in 2016, where rent increases are limited.",
+    "term": "Rent Pressure Zone"
+   },
+   {
+    "definition": "The 2002 plan that named gateways and hubs to balance growth away from Dublin.",
+    "term": "National Spatial Strategy"
+   },
+   {
+    "definition": "The 2018 national plan, known as Project Ireland 2040, which sets out population growth and compact growth targets.",
+    "term": "National Planning Framework"
+   },
+   {
+    "definition": "An area with tax breaks and simplified planning, used to attract development, such as the Isle of Dogs in London.",
+    "term": "Enterprise Zone"
+   },
+   {
+    "definition": "The moving of government jobs out of the capital to towns and cities elsewhere.",
+    "term": "Decentralisation"
+   },
+   {
+    "definition": "A rail line planned to Dublin Airport and Swords, shelved in 2011.",
+    "term": "Metro North"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Key terms: planning, renewal and redevelopment",
+    "points": [
+     "Urban planning: controlling the use and development of land through development plans, zoning, planning permission and public investment.",
+     "Urban renewal: improving and rehabilitating existing run-down areas, keeping the community in place.",
+     "Urban redevelopment: clearing an area completely and rebuilding it, often with new uses and new people.",
+     "Renewal improves what is already there, while redevelopment clears and rebuilds. Ballymun and Limerick combined both, while the Docklands was mainly redevelopment.",
+     "Gentrification can be a side-effect of renewal or redevelopment: better-off people move in, prices rise and original residents are displaced."
+    ]
+   },
+   {
+    "h": "Tools available to planners",
+    "points": [
+     "Development plans and zoning, which decide the uses permitted in each area.",
+     "Tax incentives in designated areas, which reduce the cost of restoring or building in the area.",
+     "Special development agencies with planning powers: the Dublin Docklands Development Authority (DDDA) and the London Docklands Development Corporation (LDDC).",
+     "Strategic Development Zones: fast-track planning for areas of national importance.",
+     "Part V of the Planning and Development Act 2000: a requirement that part of new housing development be social and affordable housing. Up to 20% of land zoned for housing could be required for this purpose. The share was reduced to 10% in 2015 and restored to 20% by the Affordable Housing Act 2021. Strategic Development Zones are created under the same Act.",
+     "Derelict and vacant sites levies, which charge owners of unused property to encourage its reuse.",
+     "Public transport investment, to link new and renewed areas to the rest of the city.",
+     "New towns, planned as new settlements away from the existing city.",
+     "Regeneration companies with community participation, which bring residents into decisions about their area."
+    ]
+   },
+   {
+    "b": "The Advisory Regional Plan for Dublin, by Myles Wright in 1967, proposed the western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown.",
+    "h": "National strategic plans: Wright Report (1967)",
+    "points": [
+     "What it did: it housed rapid growth in new towns on the western edge of Dublin.",
+     "Effectiveness: the towns were built before services, jobs and transport, so their residents depended on distant jobs and facilities.",
+     "Tallaght's shopping centre, The Square, opened only in 1990, and the Luas Red Line to Tallaght opened in 2004, decades after the first homes.",
+     "Criticism: the plan produced sprawl and the absence of community, because the towns lacked the facilities that would have made them places in their own right."
+    ]
+   },
+   {
+    "h": "National strategic plans: National Spatial Strategy (2002)",
+    "points": [
+     "What it did: named gateways (Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk and Sligo) and hubs, to balance growth away from Dublin.",
+     "The 2003 Budget announced a decentralisation programme that moved civil servants to dozens of towns.",
+     "Effectiveness: weakened by too many designated centres, by decentralisation to towns not named in the plan, and by the property boom.",
+     "Dublin continued to sprawl, so the plan did not achieve its aim of balancing growth.",
+     "The strategy was replaced in 2018 by the National Planning Framework."
+    ]
+   },
+   {
+    "b": "The National Planning Framework, known as Project Ireland 2040, was published in 2018.",
+    "h": "National strategic plans: National Planning Framework (2018)",
+    "points": [
+     "Plans for about 1 million more people in Ireland by 2040.",
+     "Half of future population growth to be in Dublin, Cork, Limerick, Galway and Waterford, the five cities.",
+     "Galway, Cork, Limerick and Waterford are each to grow by at least 50%.",
+     "Compact growth: 40% of new homes nationally to be within the built-up footprint of existing settlements, on brownfield and infill land.",
+     "Regional Spatial and Economic Strategies, prepared by the three regional assemblies.",
+     "The Urban Regeneration and Development Fund was set up in 2018.",
+     "Effectiveness: too early to judge fully, but housing supply has lagged behind the targets."
+    ]
+   },
+   {
+    "b": "Housing is one of three urban problems (with transport and pollution) on which planning effectiveness is judged. The strategies are the Part V requirement, Rent Pressure Zones and national housing targets.",
+    "h": "Housing: effectiveness of planning strategies",
+    "points": [
+     "Housing for All (2021) set a target of an average of about 33,000 new homes a year to 2030.",
+     "Rent Pressure Zones were introduced in December 2016, first in Dublin and Cork, to limit rent increases.",
+     "Part V social and affordable housing, described under Tools available to planners, adds homes within private developments.",
+     "Effectiveness: completions have risen, but they have stayed below the level of need.",
+     "Over 15,000 people were in State-funded emergency accommodation in 2025, a record level of homelessness.",
+     "High rents remain a problem, showing that the strategies have not yet matched demand."
+    ]
+   },
+   {
+    "b": "The transport strategy covers public transport investment and cycling, with the aim of reducing congestion.",
+    "h": "Transport: effectiveness of planning strategies",
+    "points": [
+     "DART opened in 1984, and the Luas Cross City linked the Red and Green lines through the city centre in December 2017.",
+     "The Port Tunnel opened in 2006, and the 2007 restriction on heavy goods vehicles kept most five-axle lorries out of the city centre.",
+     "Dublin Bikes was launched in 2009, and BusConnects is the bus network redesign.",
+     "The NTA Greater Dublin Area Transport Strategy 2022 to 2042 sets out the long-term plan.",
+     "Effectiveness: the Luas and the Port Tunnel succeeded in their aims.",
+     "Metro North, a planned rail line to Dublin Airport and Swords, was shelved by the Government in 2011. Its successor, MetroLink, is planned but has been repeatedly delayed, and no date or cost is yet set.",
+     "Congestion persists because land use remains dispersed, so people still need cars to reach jobs and shops."
+    ]
+   },
+   {
+    "h": "Pollution: effectiveness of planning strategies",
+    "points": [
+     "Smoky coal ban: introduced in Dublin on 1 September 1990 and extended nationwide in October 2022.",
+     "Plastic bag levy, introduced in 2002, which cut plastic bag use sharply.",
+     "Ringsend wastewater treatment plant upgrade, to reduce discharges into Dublin Bay.",
+     "Clean Air Strategy, published in 2023.",
+     "Effectiveness: smoke and smog were largely removed after the coal ban.",
+     "Limits: traffic nitrogen dioxide and particulates from solid fuel remain problems."
+    ]
+   },
+   {
+    "b": "The Docklands were derelict after the docks lost their trade to containerisation. Renewal there was mainly redevelopment, clearing and rebuilding the area.",
+    "h": "Case study: Dublin Docklands",
+    "points": [
+     "Actions: the Urban Renewal Act 1986 gave tax incentives in the designated area.",
+     "The Custom House Docks Development Authority was set up in 1986, and the International Financial Services Centre (IFSC) opened in 1987.",
+     "The Dublin Docklands Development Authority was set up in 1997, and was wound up in 2016 with its functions passing to Dublin City Council.",
+     "Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010), the Bord Gáis Energy Theatre (2010) and the Luas Red Line extension to The Point (2009).",
+     "A Strategic Development Zone covering North Lotts and Grand Canal Dock was designated in 2014.",
+     "Results: new offices, homes and culture venues, and the Docklands became a centre for tech firms, including Google's European headquarters at Grand Canal Dock, known as 'Silicon Docks'.",
+     "Criticism: early schemes favoured offices and expensive apartments, while local residents got few of the jobs created.",
+     "Criticism: social housing was slow to be built, and gentrification pushed up prices.",
+     "The DDDA was damaged by its role in the purchase of the Irish Glass Bottle site, Ringsend, in 2006 for about €412 million, at the peak of the property bubble. The land value collapsed after 2008."
+    ]
+   },
+   {
+    "b": "Temple Bar is a renewal case: an existing run-down area was improved and turned into a cultural quarter rather than cleared.",
+    "h": "Case study: Temple Bar",
+    "points": [
+     "Problem: the CIÉ (the State transport company) planned a central bus station in Temple Bar in the 1980s, and bought up property in the area.",
+     "Artists and small businesses moved in on short leases, bringing new life to the area.",
+     "The bus station plan was dropped, and Temple Bar Properties was set up in 1991 under the Temple Bar Area Renewal and Development Act 1991.",
+     "Dublin was European City of Culture in 1991, which gave the area national attention.",
+     "Results: cultural venues, including the Irish Film Institute and the Project Arts Centre; restored buildings; and tourism.",
+     "Criticism: the area became dominated by pubs and night-time tourism, and few people live there permanently."
+    ]
+   },
+   {
+    "b": "Ballymun combined renewal and redevelopment. Its 1960s high-rise flats were replaced by new low-rise housing and a new town centre.",
+    "h": "Case study: Ballymun",
+    "points": [
+     "Problems: seven 15-storey towers built in 1966 to 1969 suffered isolation, poor maintenance, unemployment and drugs.",
+     "Ballymun Regeneration Ltd was set up by Dublin Corporation in 1997.",
+     "The towers were demolished between 2004 and 2015, and new low-rise homes were built.",
+     "New facilities included Main Street, the Axis arts and community centre, and an IKEA store, which opened in 2009 as IKEA's first store in the Republic of Ireland.",
+     "Effectiveness: housing quality improved, and residents were involved in the regeneration.",
+     "Limits: the recession stalled the town centre, the promised Metro North rail link was never built, and unemployment stayed high."
+    ]
+   },
+   {
+    "b": "Limerick Regeneration addresses estates of concentrated disadvantage, after the 2006 arson attack in Moyross and the 2007 report by John Fitzgerald.",
+    "h": "Case study: Limerick Regeneration",
+    "points": [
+     "Limerick Regeneration agencies were set up in 2007, and were later integrated into Limerick City and County Council, formed in 2014.",
+     "The programme covered Moyross, Southill, St Mary's Park and Ballinacurra Weston.",
+     "Actions: demolition of the worst estates, building of new homes, and social and economic programmes.",
+     "Criticism: the regeneration was slow, and demolition outpaced rebuilding.",
+     "Criticism: the populations of the estates fell during the process, as residents moved away."
+    ]
+   },
+   {
+    "b": "Adamstown, near Lucan in South Dublin, is a planned new suburb built as a Strategic Development Zone.",
+    "h": "Case study: Adamstown",
+    "points": [
+     "Designated a Strategic Development Zone in 2001, with fast-track planning.",
+     "Planned as a new suburb with its own railway station on the Kildare line, and with schools and services built in phases alongside the housing.",
+     "Effectiveness: a model of planned phasing, in which services arrive with the homes.",
+     "Development stalled after the 2008 property crash and resumed in the late 2010s, showing how much the scheme depended on the market."
+    ]
+   },
+   {
+    "h": "Smaller cities and Cork",
+    "points": [
+     "Living City Initiative, introduced in 2015: tax relief for refurbishing older buildings in special regeneration areas of Dublin, Cork, Limerick, Galway, Waterford and Kilkenny, later extended.",
+     "Cork Area Strategic Plan, 2001, guided planning in the city.",
+     "The Cork city boundary was extended in 2019.",
+     "Luas Cork: a light rail line proposed in the Cork Metropolitan Area Transport Strategy of 2020. It is proposed only, and no cost, route length or opening date has been set.",
+     "Cork Docklands is the next large regeneration project in the city."
+    ]
+   },
+   {
+    "b": "The London Docklands were redeveloped after the docks closed in the 1960s to 1980s. The scheme was top-down, led by an agency with its own planning powers.",
+    "h": "Case study: London Docklands (developed-world case)",
+    "points": [
+     "London Docklands Development Corporation, 1981 to 1998, was an unelected body with planning powers.",
+     "An Enterprise Zone on the Isle of Dogs gave tax breaks and simplified planning.",
+     "Canary Wharf was developed, with One Canada Square completed in 1991.",
+     "The Docklands Light Railway opened in 1987, and London City Airport opened in 1987.",
+     "The Jubilee Line extension opened in 1999.",
+     "Results: a second financial centre, jobs and housing.",
+     "Criticism: the corporation was top-down and bypassed local councils.",
+     "Criticism: jobs went to commuters from outside the area, while local residents were priced out, and transport came late."
+    ]
+   },
+   {
+    "h": "Case study: Paris (developed-world case)",
+    "points": [
+     "The five new towns from the 1965 regional plan took growth away from the city of Paris.",
+     "The grands ensembles, large housing estates in the banlieues, became problem estates.",
+     "The Grand Paris Express, about 200 km of new automatic metro lines with 68 stations, aims to link the banlieues to the rest of the region."
+    ]
+   },
+   {
+    "h": "Overall evaluation of planning and renewal",
+    "points": [
+     "Planning works best when housing, jobs, services and transport are delivered together, and when residents are involved in decisions.",
+     "Flagship property-led schemes create jobs and buildings, but do not always bring benefits to local people.",
+     "National plans are undermined when other policies pull in the opposite direction, such as tax incentives for development and decentralisation to towns outside the plan."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Housing: 1. Housing for All (2021) set a target of about 33,000 new homes a year to 2030; its success is limited because completions have risen but stayed below need. 2. Rent Pressure Zones, introduced in December 2016 first in Dublin and Cork, limit rent increases, but high rents remain. 3. Part V requires a share of new private housing development to be social and affordable housing; the share was cut to 10% in 2015 and restored to 20% by the Affordable Housing Act 2021, so its effect has depended on policy changes. 4. The National Planning Framework (2018) aims for 40% of new homes within existing built-up areas, but it is too early to judge and housing supply has lagged. 5. Over 15,000 people were in State-funded emergency accommodation in 2025, showing the strategies have not solved homelessness. 6. Limit: the Wright Report (1967) western new towns housed growth but were built before services and transport, creating sprawl and absence of community. Transport: 7. The Luas (2004) and the Luas Cross City (December 2017) improved public transport across the city. 8. The Port Tunnel (2006) and the 2007 restriction on heavy goods vehicles removed port traffic from the centre. 9. Dublin Bikes (2009) and BusConnects give alternatives to the car. 10. The NTA Greater Dublin Area Transport Strategy 2022 to 2042 sets a long-term plan. 11. Limit: Metro North was shelved in 2011, and MetroLink is planned but has been repeatedly delayed. 12. Limit: congestion persists because land use is still dispersed, so many journeys still need cars. Conclusion: strategies have succeeded where they delivered a specific project, such as the Luas and the Port Tunnel, but have been weakest where housing and transport were not planned together with jobs and services.",
+    "prompt": "Examine the effectiveness of urban planning strategies in solving two of the following urban problems: housing; transport; pollution.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Dublin Docklands: 1. Problem: derelict docks after containerisation. 2. Action: the Urban Renewal Act 1986 gave tax incentives, the IFSC opened in 1987, and the DDDA was set up in 1997. 3. Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010) and the Luas Red Line extension to The Point (2009). 4. Results: new offices, homes, culture venues and tech firms, including Google's European headquarters at Grand Canal Dock. 5. Criticism: early schemes favoured offices and expensive apartments, local residents got few jobs, social housing was slow, and gentrification pushed up prices. 6. The DDDA's role in the purchase of the Irish Glass Bottle site in 2006, for about 412 million euro at the peak of the bubble, damaged its reputation after the land value collapsed. Ballymun: 7. Problems in the 1960s towers were isolation, poor maintenance, unemployment and drugs. 8. Action: the towers, built 1966 to 1969, were demolished 2004 to 2015 and replaced with low-rise homes, Main Street and the Axis centre. 9. Results: housing quality improved and residents were involved. 10. Criticism: the recession stalled the town centre, Metro North was shelved in 2011, and unemployment stayed high. Evaluation: renewal has been effective in physical improvement and the creation of jobs, but less effective in helping existing residents, because property-led schemes bring benefits unevenly and leave some problems unsolved.",
+    "prompt": "Assess the effectiveness of urban renewal in solving urban problems, with reference to examples you have studied.",
+    "type": "short"
+   },
+   {
+    "marks": 10,
+    "model": "Urban renewal is the improvement and rehabilitation of existing run-down areas, keeping the community in place. Example: Temple Bar in Dublin, where old buildings were restored and cultural venues created in the 1990s, with the artists and small businesses that moved in kept in the area. Urban redevelopment is the complete clearance of an area and its rebuilding, often with new uses and new people. Example: the Dublin Docklands, where derelict docks were cleared and replaced with offices, homes and cultural venues after containerisation.",
+    "prompt": "Explain briefly what is meant by urban renewal and urban redevelopment.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s7": {
+  "keyTerms": [
+   {
+    "definition": "A city with over 10 million people.",
+    "term": "Megacity"
+   },
+   {
+    "definition": "Growth of a population through births exceeding deaths, without migration.",
+    "term": "Natural increase"
+   },
+   {
+    "definition": "A condition in rural areas, such as poverty or drought, that drives people to leave.",
+    "term": "Push factor"
+   },
+   {
+    "definition": "A feature of a city, such as jobs or services, that attracts migrants.",
+    "term": "Pull factor"
+   },
+   {
+    "definition": "The largest city in a country, which is much bigger than any other and dominates its economy.",
+    "term": "Primate city"
+   },
+   {
+    "definition": "Unregulated work with no job security, such as street vending or waste picking.",
+    "term": "Informal sector"
+   },
+   {
+    "definition": "An Indian term for a slum or informal settlement.",
+    "term": "Bustee"
+   },
+   {
+    "definition": "A Brazilian term for a slum or informal settlement built on land occupied without legal title.",
+    "term": "Favela"
+   },
+   {
+    "definition": "A scheme in which the authorities provide serviced plots and residents build their own homes.",
+    "term": "Site-and-service scheme"
+   },
+   {
+    "definition": "Improving an existing settlement in place with services, paving and secure tenure.",
+    "term": "Slum upgrading"
+   },
+   {
+    "definition": "The São Paulo scheme banning cars from central streets at rush hours by number-plate digit.",
+    "term": "Rodízio"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Scale and pace of urban growth",
+    "points": [
+     "Most of the world's urban growth now takes place in developing countries in Asia, Africa and Latin America.",
+     "About 30% of the world's population was urban in 1950 and about 55% in 2018 (UN, World Urbanization Prospects 2018).",
+     "Over half of the world's population has been urban since about 2007.",
+     "The UN projects that about 68% of the world's population will be urban by 2050.",
+     "Close to 90% of the increase to 2050 is expected in Asia and Africa; India, China and Nigeria together account for over a third of it.",
+     "Megacities, with over 10 million people, are a growing feature of urbanisation in the developing world.",
+     "UN-Habitat estimates that over 1 billion people live in slums or informal settlements."
+    ]
+   },
+   {
+    "b": "Cities grow through natural increase and through migration. The migration theory itself is covered in the note Rural-to-urban migration in developed and developing regions.",
+    "h": "Reasons for rapid growth",
+    "points": [
+     "Natural increase: the urban population is young, birth rates are high and death rates have fallen.",
+     "Push factors: rural poverty, landlessness, small farms, mechanisation, drought and crop failure, lack of services, conflict and natural disasters.",
+     "Pull factors: jobs in the formal and informal sectors, higher wages, schools and hospitals, perceived opportunities, and family already living in the city.",
+     "Primate cities attract investment and government spending, which reinforces their pull on migrants."
+    ]
+   },
+   {
+    "h": "Housing: slums and informal settlements",
+    "points": [
+     "Migrants with little money and no legal land settle in shanty towns, slums and informal settlements, called bustees, favelas, chawls or jhopadpattis depending on the country.",
+     "These settlements are built on marginal land: river banks, steep slopes, beside railways, rubbish dumps and floodplains.",
+     "Tenure is insecure, so residents can be evicted and have no legal right to the land they occupy.",
+     "Overcrowding is severe, and some people have no shelter at all, living as homeless pavement dwellers."
+    ]
+   },
+   {
+    "h": "Water, sanitation and health",
+    "points": [
+     "Without piped water or sewers, settlements rely on open drains and shared toilets.",
+     "Contaminated water and waste spread water-borne disease: cholera, typhoid and dysentery."
+    ]
+   },
+   {
+    "h": "Employment and the informal sector",
+    "points": [
+     "Many residents work in the informal sector as street vendors, rickshaw pullers, waste pickers and home workers.",
+     "Informal work offers no job security and low pay; child labour is part of informal employment.",
+     "Underemployment means that people have work but not enough of it to earn a living."
+    ]
+   },
+   {
+    "h": "Transport and congestion",
+    "points": [
+     "Road networks cannot cope with the growth in traffic, so journeys take longer and congestion becomes permanent.",
+     "Trains and buses are overcrowded at peak times.",
+     "Road deaths are a serious problem in the city."
+    ]
+   },
+   {
+    "h": "Pollution",
+    "points": [
+     "Air pollution comes from traffic, industry and cooking fuels burned in crowded homes.",
+     "Untreated sewage and industrial waste are discharged into rivers.",
+     "Rubbish is not collected in many areas, so it builds up in streets and drains."
+    ]
+   },
+   {
+    "h": "Flooding and other hazards",
+    "points": [
+     "Monsoon or tropical downpours flood low-lying, paved and badly drained land, where settlements are often built.",
+     "Hillside slums are at risk of landslides, and crowded, poorly built homes are at risk of fire."
+    ]
+   },
+   {
+    "h": "Social problems",
+    "points": [
+     "Crime and drugs are social problems, and street children live and work on the streets.",
+     "Rich and poor districts sit side by side, so inequality is visible within the city.",
+     "Local government is weak, so it struggles to provide services."
+    ]
+   },
+   {
+    "h": "Slum clearance",
+    "points": [
+     "Slum clearance removes informal settlements by demolition and eviction.",
+     "It usually fails, because residents are moved further out or into new slums and the underlying problems remain."
+    ]
+   },
+   {
+    "h": "Site-and-service schemes and aided self-help",
+    "points": [
+     "The authorities provide serviced plots with water, drains and power.",
+     "Residents build their own homes on these plots, which is known as aided self-help."
+    ]
+   },
+   {
+    "h": "Slum upgrading in place",
+    "points": [
+     "Lanes are paved, water taps, toilets, drains and electricity are installed, and residents are given secure tenure.",
+     "Because the community stays in place, people can improve their own homes over time."
+    ]
+   },
+   {
+    "h": "Planned satellite and new towns",
+    "points": [
+     "Planned satellite towns and new towns divert growth away from the overcrowded core.",
+     "Examples are given in the Mumbai case study (Navi Mumbai) and the Kolkata case study (Salt Lake and New Town)."
+    ]
+   },
+   {
+    "h": "Transport solutions",
+    "points": [
+     "Metros, suburban rail and bus rapid transit move large numbers of people without adding more cars to the roads.",
+     "Curitiba in Brazil is the leading example of bus rapid transit, described below."
+    ]
+   },
+   {
+    "h": "Solution example: Curitiba, Brazil (bus rapid transit)",
+    "points": [
+     "Bus rapid transit began in Curitiba in 1974 under architect-mayor Jaime Lerner.",
+     "Dedicated bus lanes and raised tube stations allow fast boarding, which reduces car use.",
+     "Recyclable waste could be exchanged for food or bus tokens.",
+     "The model has been copied worldwide, for example in Bogotá's TransMilenio (2000)."
+    ]
+   },
+   {
+    "h": "Reducing migration",
+    "points": [
+     "Rural development, land reform and jobs in smaller cities give people reasons to stay in rural areas.",
+     "NGOs and community groups also act on these problems, as the Missionaries of Charity do in Kolkata."
+    ]
+   },
+   {
+    "h": "Kolkata, India: site and history",
+    "points": [
+     "Kolkata lies on the Hooghly river near the Bay of Bengal, on low-lying delta land.",
+     "It was founded in 1690 by the British East India Company (Job Charnock).",
+     "It developed as a port on the Hooghly, with jute mills; Howrah Bridge across the river opened in 1943.",
+     "It was the capital of British India until 1911.",
+     "The city was renamed from Calcutta to Kolkata in 2001."
+    ]
+   },
+   {
+    "h": "Kolkata: reasons for growth",
+    "points": [
+     "It was a colonial port and administrative capital, and its jute and engineering industries attracted migrants from Bihar, Odisha and rural Bengal.",
+     "The Bengal famine of 1943 drove millions of rural people towards the city.",
+     "Partition in 1947 brought refugees, and the 1971 Bangladesh Liberation War brought a further wave.",
+     "Natural increase adds to the population, and the city has regional primacy in eastern India.",
+     "Census 2011 gave an urban agglomeration of about 14.1 million people."
+    ]
+   },
+   {
+    "h": "Kolkata: housing problems",
+    "points": [
+     "Bustees (slums) house many of the city's poorest people, in overcrowded conditions.",
+     "Pavement dwellers have no shelter and live on the streets.",
+     "Census 2011 counted about 65 million people in slums across India; this is an India-wide figure."
+    ]
+   },
+   {
+    "h": "Kolkata: economic problems",
+    "points": [
+     "Partition cut the city off from the jute-growing lands that became East Pakistan, so the economy declined.",
+     "Jobs did not keep pace with migrants, so many people depend on informal work.",
+     "Informal work includes hand-pulled rickshaws; Kolkata is one of the few cities in the world where these still operate."
+    ]
+   },
+   {
+    "h": "Kolkata: water, flooding, pollution and traffic",
+    "points": [
+     "Water supply and sewerage are poor, so many residents lack safe water and proper sanitation.",
+     "Monsoon rain floods the low-lying streets of the city.",
+     "Air pollution and traffic congestion add to the city's environmental problems."
+    ]
+   },
+   {
+    "h": "Kolkata: responses",
+    "points": [
+     "The Calcutta Metropolitan Development Authority, the city's planning body, was set up in 1970.",
+     "From the 1970s its bustee improvement programme provided water taps, toilets, paved lanes and drains.",
+     "Kolkata Metro, India's first, opened in 1984.",
+     "Salt Lake City (Bidhannagar) is a planned township built from the 1960s on reclaimed wetland east of the city; its Sector V is an IT hub.",
+     "New Town (Rajarhat) was planned from the late 1990s, with IT parks.",
+     "The East Kolkata Wetlands were designated a Ramsar wetland of international importance in 2002; their fish ponds and fields use and naturally treat much of the city's sewage.",
+     "Mother Teresa founded the Missionaries of Charity in the city in 1950 and received the Nobel Peace Prize in 1979."
+    ]
+   },
+   {
+    "h": "Kolkata: evaluation of responses",
+    "points": [
+     "Bustee upgrading improved conditions for many residents, but slums remain.",
+     "The new towns serve the middle classes more than the poor."
+    ]
+   },
+   {
+    "h": "Mumbai, India: site and growth",
+    "points": [
+     "Mumbai was originally seven islands, joined together by land reclamation, with a deep, sheltered natural harbour.",
+     "It was a British East India Company port, and cotton mills were built there from the 19th century.",
+     "Mumbai is India's financial capital, not its political capital; it houses the Reserve Bank of India headquarters and the Bombay Stock Exchange, founded in 1875, Asia's oldest.",
+     "It is the centre of the Bollywood film industry.",
+     "The city was renamed from Bombay in 1995.",
+     "Migrants come from across India, including Bihar and Uttar Pradesh, drawn by industry and jobs.",
+     "Census 2011 gave a Greater Mumbai urban agglomeration of about 18.4 million people."
+    ]
+   },
+   {
+    "h": "Mumbai: slums and housing costs",
+    "points": [
+     "Dharavi is one of Asia's largest slums, in central Mumbai, with many small home-based industries such as recycling, leather and pottery.",
+     "Land and housing costs are very high on the narrow peninsula, which limits the space available for housing."
+    ]
+   },
+   {
+    "h": "Mumbai: transport, flooding and water problems",
+    "points": [
+     "The suburban railway carries several million passengers a day, and its trains are overcrowded.",
+     "Road congestion adds to the pressure on the transport network.",
+     "On 26 July 2005 about 944 mm of rain fell in one day at Santacruz, flooding the city.",
+     "Water supply and sanitation cannot keep pace with the dense population."
+    ]
+   },
+   {
+    "h": "Mumbai: economic decline",
+    "points": [
+     "The Great Bombay textile strike of 1982 led to the closure of most cotton mills.",
+     "Mill land was later redeveloped, so the city's industrial base changed."
+    ]
+   },
+   {
+    "h": "Mumbai: planned growth at Navi Mumbai",
+    "points": [
+     "Navi Mumbai is a planned twin city across the harbour, begun in the 1970s by CIDCO (City and Industrial Development Corporation of Maharashtra, set up 1970).",
+     "It is designed to take population and industry away from the crowded core of Mumbai."
+    ]
+   },
+   {
+    "h": "Mumbai: slum rehabilitation and Dharavi",
+    "points": [
+     "The Slum Rehabilitation Authority, set up in 1995, lets developers rehouse slum dwellers free in new blocks and sell the remaining flats.",
+     "The Dharavi Redevelopment Project was awarded to the Adani Group in 2022."
+    ]
+   },
+   {
+    "h": "Mumbai: transport links",
+    "points": [
+     "Mumbai Metro Line 1 opened in 2014.",
+     "The Bandra–Worli Sea Link opened in 2009.",
+     "The Mumbai Trans Harbour Link (Atal Setu), opened in January 2024, is India's longest sea bridge and links Mumbai to Navi Mumbai."
+    ]
+   },
+   {
+    "h": "Mumbai: evaluation of responses",
+    "points": [
+     "Rehousing flats under the Slum Rehabilitation Authority are criticised for poor design.",
+     "Rehousing is also criticised for breaking up Dharavi's home-based industries."
+    ]
+   },
+   {
+    "h": "São Paulo, Brazil: site and early history",
+    "points": [
+     "São Paulo lies on a plateau inland from the port of Santos, not on the coast.",
+     "It was founded on 25 January 1554 by Jesuit missionaries.",
+     "Santos is now Latin America's busiest container port."
+    ]
+   },
+   {
+    "h": "São Paulo: reasons for growth",
+    "points": [
+     "Coffee wealth in the 19th century was exported through Santos and carried by the Santos–Jundiaí railway, opened in 1867.",
+     "Immigration from Europe, especially Italy, in the late 19th and early 20th centuries.",
+     "Japanese immigration began in 1908 with the ship Kasato Maru; the city has the largest Japanese community outside Japan, centred on the Liberdade district.",
+     "From the 1950s São Paulo became Brazil's industrial heartland; car plants, including Volkswagen, opened in the ABC region (Santo André, São Bernardo do Campo and São Caetano do Sul).",
+     "Migrants from the drought-prone North-East of Brazil, known as nordestinos, moved to the city to work in its industries."
+    ]
+   },
+   {
+    "h": "São Paulo: size today",
+    "points": [
+     "IBGE Census 2022 gave the city of São Paulo about 11.5 million people and the metropolitan region about 21 million.",
+     "São Paulo is the largest city in South America and in the Southern Hemisphere.",
+     "Brazil is over 80% urban."
+    ]
+   },
+   {
+    "h": "São Paulo: favelas and inequality",
+    "points": [
+     "Paraisópolis favela borders the wealthy district of Morumbi, so extreme inequality is visible from one street to the next.",
+     "Heliópolis is São Paulo's largest favela.",
+     "Crime is a problem in the city, including in its favelas."
+    ]
+   },
+   {
+    "h": "São Paulo: traffic, pollution and flooding",
+    "points": [
+     "Traffic congestion is severe across the metropolitan region.",
+     "Air pollution from vehicles and industry adds to the city's environmental problems.",
+     "The Tietê river flows through the city and floods in heavy summer rain."
+    ]
+   },
+   {
+    "h": "São Paulo: water shortage",
+    "points": [
+     "The Cantareira reservoir system is the main source of the city's water.",
+     "During the 2014–2015 drought the Cantareira fell to very low levels, and water rationing was introduced."
+    ]
+   },
+   {
+    "h": "São Paulo: responses",
+    "points": [
+     "Rodízio, from 1997: cars are banned from central São Paulo at rush hours on one weekday, according to the last digit of the number plate.",
+     "The São Paulo Metro opened its first line in 1974.",
+     "The Rodoanel Mário Covas ring road encircles the metropolitan region; its first section opened in 2002.",
+     "Projeto Cingapura (1990s) replaced some favela shacks with apartment blocks on the same sites.",
+     "Minha Casa, Minha Vida, a national subsidised housing programme, was launched in 2009."
+    ]
+   },
+   {
+    "h": "São Paulo: evaluation of responses",
+    "points": [
+     "Favela upgrading and transport improvements have helped.",
+     "Favelas and traffic congestion persist."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Housing is the first problem. Rapid migration has produced bustees, which are overcrowded slums, and pavement dwellers who have no shelter, as in Kolkata. Settlements are built on marginal and low-lying land, so housing is insecure. Water and sewerage are poor, so disease spreads and people lack safe water. Monsoon rain floods the low-lying streets of Kolkata, and flooding damages homes that are already poorly built. Air pollution and traffic congestion add to the city's environmental problems. Employment is a problem because jobs did not keep pace with migrants after Partition cut Kolkata off from its jute hinterland, so many people depend on informal work such as hand-pulled rickshaws. Informal work has no job security and low pay. Social problems include crime and inequality between rich and poor districts. The Census 2011 urban agglomeration of about 14.1 million people shows that the problems affect a very large population. Overall, the growth of the city has outpaced the provision of housing, services and jobs.",
+    "prompt": "Discuss the problems that can arise from the growth of cities in the developing world.",
+    "type": "short"
+   },
+   {
+    "marks": 40,
+    "model": "(i) São Paulo, Brazil, is growing rapidly and is the largest city in South America. (ii) Its growth began with coffee wealth in the 19th century, exported through the port of Santos and carried by the Santos–Jundiaí railway from 1867. European immigration, and Japanese immigration from 1908, added to the population. From the 1950s the city became Brazil's industrial heartland, and car plants in the ABC region drew migrants. Migrants from the drought-prone North-East came to work in industry, and the city grew to about 11.5 million people in the city of São Paulo by 2022. (iii) Favelas such as Heliópolis, São Paulo's largest, house many poor people, and Paraisópolis lies beside the wealthy district of Morumbi, which shows extreme inequality. Traffic congestion and air pollution are serious. The Tietê river floods in heavy summer rain. The 2014–2015 drought reduced the Cantareira reservoir system to very low levels, and water rationing followed. Crime is a major problem. (iv) The rodízio scheme, introduced in 1997, bans cars from central São Paulo at rush hours on one weekday, according to the last digit of the number plate. Drivers must use other transport on their banned day, and the metro, whose first line opened in 1974, is one alternative. Favela upgrading and the Projeto Cingapura flats, which replaced some shacks with apartment blocks, are further responses. The rodízio has been a response to traffic congestion, but congestion persists.",
+    "prompt": "(i) Name one developing-world city that is growing rapidly. (ii) Explain the reasons for its growth. (iii) Describe the problems caused. (iv) Explain one solution.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Mumbai has used several measures. Navi Mumbai, a planned twin city across the harbour begun in the 1970s by CIDCO, set up in 1970, was designed to take population and industry away from the crowded core. It is a long-term planned response, so it does not directly improve the slums that already exist. The Slum Rehabilitation Authority, set up in 1995, lets developers rehouse slum dwellers free in new blocks and sell the remaining flats. This tackles housing directly, but rehousing flats are criticised for poor design and for breaking up Dharavi's home-based industries. The Dharavi Redevelopment Project, awarded to the Adani Group in 2022, applies the same approach to Dharavi, one of Asia's largest slums. Transport measures include Mumbai Metro Line 1, opened in 2014, and the Bandra–Worli Sea Link, opened in 2009. The Mumbai Trans Harbour Link (Atal Setu), opened in January 2024, links Mumbai to Navi Mumbai and is India's longest sea bridge. Transport measures address congestion and the overcrowded suburban railway, but they do not directly improve housing for slum dwellers. Overall, the measures tackle different problems, and the housing schemes are the most criticised.",
+    "prompt": "Examine the measures taken to solve the problems of one developing-world city.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-urban-s8": {
+  "keyTerms": [
+   {
+    "definition": "A city with over 10 million people.",
+    "term": "Megacity"
+   },
+   {
+    "definition": "The raised temperature of a city compared with its rural surroundings, caused by buildings and paved surfaces.",
+    "term": "Urban heat island"
+   },
+   {
+    "definition": "Planning policy that directs new housing into existing built-up areas rather than onto open land.",
+    "term": "Compact growth"
+   },
+   {
+    "definition": "The reuse of previously developed land, such as old industrial sites, for new housing or other uses.",
+    "term": "Brownfield regeneration"
+   },
+   {
+    "definition": "A protected area of open land around a city that limits its expansion.",
+    "term": "Green belt"
+   },
+   {
+    "definition": "The arrival of wealthier residents in a district, which raises house prices and pushes out lower-income residents.",
+    "term": "Gentrification"
+   },
+   {
+    "definition": "A city that uses sensors, data and digital services to manage traffic, energy and waste.",
+    "term": "Smart city"
+   },
+   {
+    "definition": "An area where rent increases are limited by law.",
+    "term": "Rent Pressure Zone"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The trend towards urban living",
+    "points": [
+     "About 30% of the world's population was urban in 1950 and about 55% in 2018 (UN, World Urbanization Prospects 2018).",
+     "The UN projects about 68% of the world's population to be urban by 2050.",
+     "Close to 90% of the increase in urban population is expected in Asia and Africa; India, China and Nigeria together account for over a third of it.",
+     "In 2018 there were 33 megacities with over 10 million people.",
+     "Tokyo was the largest urban agglomeration in 2018, with about 37 million people; the UN projected that Delhi would overtake it around 2028.",
+     "Census 2016 counted about 63% of Ireland's population as urban."
+    ]
+   },
+   {
+    "b": "Demand for homes rises with population growth, smaller households and migration, and supply has not kept pace in successful cities.",
+    "h": "Issue 1: housing supply and affordability",
+    "points": [
+     "High rents and house prices in Dublin and other successful cities put homes beyond the reach of many households.",
+     "Homelessness is a visible result: over 15,000 people were in emergency accommodation in 2025.",
+     "Housing for All (2021) aims for about 33,000 new homes a year on average to 2030.",
+     "Rent Pressure Zones, introduced from 2016, limit rent increases in the areas where they apply (see the note Urban planning and renewal).",
+     "Higher-density apartments near transport use land and transport more efficiently.",
+     "Public and cost-rental housing provide homes at below-market rents.",
+     "The developing-world form of this issue is slum growth, covered in the note Developing-world cities."
+    ]
+   },
+   {
+    "b": "Car dependence causes congestion and emissions, and cities are responding with mass transit, restrictions on cars and new neighbourhood designs.",
+    "h": "Issue 2: transport and sustainable mobility",
+    "points": [
+     "Car dependence produces congestion and vehicle emissions in growing cities.",
+     "Dublin plans MetroLink, which has no date or cost yet, and BusConnects.",
+     "The NTA's Greater Dublin Area Transport Strategy 2022–2042 is the long-term transport plan for the region.",
+     "The Grand Paris Express will add about 200 km of new automatic metro lines and 68 stations in the Paris region.",
+     "Copenhagen is a cycling city: cycling is the most common way of commuting to work or study.",
+     "London's Ultra Low Emission Zone (ULEZ) began in 2019 and was extended London-wide in August 2023.",
+     "Paris is promoting the 15-minute city, where everyday needs can be met within 15 minutes on foot or by bike. The idea is associated with Carlos Moreno and was promoted by Mayor Anne Hidalgo in her 2020 re-election campaign; it is not yet fully built.",
+     "Vauban in Freiburg, Germany, is a low-car eco-district built from the late 1990s on a former military barracks, with homes built to high energy standards and residents encouraged to live without a car.",
+     "Electric vehicles reduce emissions from the cars that remain on the roads."
+    ]
+   },
+   {
+    "b": "Cities produce most of the world's emissions and are exposed to sea-level rise, flooding and heat waves, so climate action and adaptation are needed together.",
+    "h": "Issue 3: climate change and the environment",
+    "points": [
+     "Heat waves are intensified in cities by the urban heat island effect.",
+     "Cork city's low-lying centre suffers repeated tidal flooding; a flood-relief scheme for the River Lee is planned and disputed.",
+     "The Climate Action and Low Carbon Development (Amendment) Act 2021 sets a legally binding target to cut Ireland's greenhouse gas emissions by 51% by 2030 from 2018 levels, and net zero by 2050.",
+     "Adaptation responses include flood defences, green roofs and green infrastructure.",
+     "Mitigation responses include energy-efficient buildings, district heating and renewable energy.",
+     "Masdar City in Abu Dhabi, UAE, was begun in 2006 as a planned low-carbon city; its original zero-carbon target has been scaled back."
+    ]
+   },
+   {
+    "b": "Sprawl wastes land and energy, so planners promote compact growth.",
+    "h": "Issue 4: urban sprawl versus compact cities",
+    "points": [
+     "Compact growth policy directs new housing into existing towns and cities rather than onto greenfield land.",
+     "The National Planning Framework (NPF, 2018) sets a target of 40% of new homes within the built-up footprint of existing settlements.",
+     "The NPF expects half of growth to be in the five cities.",
+     "Brownfield regeneration reuses old industrial and urban land for new housing.",
+     "Height and density are debated: taller buildings save land but can change the character of a neighbourhood.",
+     "Green belts are planned areas of open land around cities that limit sprawl."
+    ]
+   },
+   {
+    "b": "Developed-world cities have more older residents, while fewer workers pay taxes to support services.",
+    "h": "Issue 5: ageing populations",
+    "points": [
+     "Older people need accessible housing, accessible transport and health care close to home.",
+     "Age-friendly design makes streets, buildings and services usable by older people, so they can stay independent.",
+     "Fewer workers paying taxes place pressure on the funding of services."
+    ]
+   },
+   {
+    "b": "Smart cities use sensors and data to manage traffic, energy and waste, but raise risks of cost, privacy and inequality.",
+    "h": "Issue 6: technology and smart cities",
+    "points": [
+     "Sensors and data are used to manage traffic, energy use and waste collection.",
+     "Songdo in South Korea is a smart city built from the 2000s on land reclaimed from the Yellow Sea near Incheon.",
+     "Smart Dublin is a programme of the four Dublin local authorities to trial smart-city technology.",
+     "Risks include high cost, threats to privacy and a digital divide between those who can and cannot use digital services."
+    ]
+   },
+   {
+    "b": "The COVID-19 pandemic from 2020 made remote and hybrid working common, which changed how city centres are used.",
+    "h": "Issue 7: changing work and city centres after COVID-19",
+    "points": [
+     "Remote and hybrid working reduce commuting, leaving offices and shops empty in city centres.",
+     "City centres are converting offices to homes and leisure uses.",
+     "Remote-working hubs in towns allow people to work close to home; Our Rural Future (2021–2025) supports them."
+    ]
+   },
+   {
+    "b": "Deindustrialised cities lose population and jobs, leaving vacant land and buildings.",
+    "h": "Issue 8: shrinking and declining cities",
+    "points": [
+     "Detroit fell from about 1.85 million people in 1950 to about 640,000 in 2020, and filed for bankruptcy in 2013 (see the note Urban problems in developed-world cities).",
+     "Vacant land is reused for parks and urban farming.",
+     "Managed decline accepts a smaller population and plans services and land use for it."
+    ]
+   },
+   {
+    "b": "Rich and poor areas drift apart, which can lead to segregation and conflict.",
+    "h": "Issue 9: social inequality and segregation",
+    "points": [
+     "Gentrification pushes lower-income residents out of renovated districts.",
+     "Gated communities separate wealthy households from the rest of the city.",
+     "Immigrants concentrate in some districts, such as the banlieues of Paris; Seine-Saint-Denis saw riots in 2005.",
+     "Social mix and inclusive planning spread housing for different incomes across the city."
+    ]
+   },
+   {
+    "b": "Cities grow beyond their administrative boundaries, so governance is fragmented.",
+    "h": "Issue 10: governance of city regions",
+    "points": [
+     "Dublin is divided between four councils: Dublin City, Fingal, South Dublin and Dún Laoghaire–Rathdown.",
+     "A Citizens' Assembly reported in 2023 recommending a directly elected mayor for Dublin; Dublin does not yet have one.",
+     "Limerick elected its first directly elected mayor in June 2024.",
+     "The Métropole du Grand Paris, created in 2016, is a metropolitan governance body for the Paris region."
+    ]
+   },
+   {
+    "b": "Growing cities need water, energy and waste services that must keep pace with demand.",
+    "h": "Issue 11: resources and services",
+    "points": [
+     "Uisce Éireann has proposed a pipeline to bring water from the River Shannon to the Dublin region; no date or cost is set.",
+     "Data centres used about a fifth of Ireland's metered electricity in 2023 (CSO).",
+     "São Paulo's 2014–2015 Cantareira drought showed how a large city can run short of water (see the note Developing-world cities).",
+     "Waste collection and disposal must keep pace with growing populations."
+    ]
+   },
+   {
+    "b": "Most urban growth to 2050 falls in Asia and Africa, in cities with slums, poor water and sanitation, and high climate vulnerability.",
+    "h": "Issue 12: developing-world futures",
+    "points": [
+     "Megacities are growing fastest in Asia and Africa.",
+     "Kolkata and Mumbai sit on low-lying land: Kolkata on the Hooghly delta, and Mumbai's 2005 flood brought about 944 mm of rain in one day (see the note Developing-world cities).",
+     "Informal work, slums and inadequate water and sanitation remain the core challenges of these cities.",
+     "Innovative low-cost solutions exist, such as Curitiba's bus rapid transit, begun in 1974."
+    ]
+   },
+   {
+    "h": "Ireland's urban future to 2040",
+    "points": [
+     "The NPF (2018) projects about 1 million more people in Ireland by 2040.",
+     "Galway, Cork, Limerick and Waterford are each to grow by at least 50% by 2040.",
+     "Dublin's MetroLink is planned, with no date or cost yet.",
+     "Cork's light rail is proposed in the Cork Metropolitan Area Transport Strategy (2020).",
+     "Housing for All targets are covered under issue 1, and the emissions targets under issue 3.",
+     "Data centres and electricity demand are covered under issue 11."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 30,
+    "model": "Housing is the first issue. High rents and house prices in Dublin put homes beyond the reach of many households, and homelessness is visible: over 15,000 people were in emergency accommodation in 2025. Demand comes from population growth, smaller households and migration. Housing for All aims for about 33,000 new homes a year on average to 2030. Rent Pressure Zones limit rent increases where they apply. Higher-density apartments near transport use land and transport efficiently, and public and cost-rental housing give homes below market rents. Transport is the second issue. Car dependence causes congestion and emissions in growing cities. Dublin plans MetroLink, with no date or cost yet, and BusConnects. Copenhagen shows that a city can rely on cycling, which is the most common way of commuting there. Paris promotes the 15-minute city, where everyday needs are met within 15 minutes on foot or by bike, but it is not yet fully built. London's ULEZ, begun in 2019, reduces emissions from the most polluting vehicles.",
+    "prompt": "Discuss two issues facing cities of the future.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Climate change is the first issue. Cities produce most emissions and are exposed to sea-level rise, flooding and heat waves, which are intensified by the urban heat island effect. Cork's low-lying centre suffers repeated tidal flooding, and a flood-relief scheme for the River Lee is planned and disputed. The Climate Action and Low Carbon Development (Amendment) Act 2021 sets a legally binding target to cut emissions by 51% by 2030 from 2018 levels, and net zero by 2050. Responses include flood defences, green roofs and green infrastructure, energy-efficient buildings, district heating and renewable energy. Masdar City in Abu Dhabi, begun in 2006 as a planned low-carbon city, shows that a target can be scaled back. Ageing populations are the second issue. Developed-world cities have more older residents who need accessible housing, accessible transport and health care close to home. Age-friendly design helps older people stay independent. Fewer workers paying taxes place pressure on the funding of services.",
+    "prompt": "Discuss two issues facing cities of the future in the developed world.",
+    "type": "short"
+   },
+   {
+    "marks": 8,
+    "model": "The first challenge is housing and slums: as the urban share rises from about 55% in 2018 towards a projected 68% by 2050, cities in Asia and Africa must house large numbers of new residents, and many end up in informal settlements with insecure tenure. The second challenge is climate vulnerability: cities concentrate people and assets in exposed locations, such as low-lying coastal and delta land, so flooding and sea-level rise threaten growing populations.",
+    "prompt": "Explain briefly two challenges associated with a rising share of the world's population living in cities.",
+    "type": "short"
+   }
+  ]
+ },
  "geo-volcanoes-earthquakes-s1": {
   "keyTerms": [
    {
