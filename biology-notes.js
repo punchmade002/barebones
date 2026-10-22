@@ -3,6 +3,815 @@
 (function () {
   if (typeof COURSE_DATA === "undefined") return;
   var NOTES = {
+ "bio1-s1": {
+  "keyTerms": [
+   {
+    "definition": "Something directly detected with the senses or with instruments.",
+    "term": "Observation"
+   },
+   {
+    "definition": "An explanation drawn from an observation.",
+    "term": "Inference"
+   },
+   {
+    "definition": "Describes an idea for which it is possible, in principle, to imagine an observation that would show it is wrong.",
+    "term": "Falsifiable"
+   },
+   {
+    "definition": "Describes a process that loops back on itself, so that its stages are repeated and refined.",
+    "term": "Iterative"
+   },
+   {
+    "definition": "A proposed, testable explanation for an observation, which may be supported or rejected but never proved.",
+    "term": "Hypothesis"
+   },
+   {
+    "definition": "A broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources.",
+    "term": "Theory"
+   },
+   {
+    "definition": "A statement, often mathematical, that describes a pattern that always occurs under stated conditions, without explaining why.",
+    "term": "Law"
+   },
+   {
+    "definition": "A repeatable observation.",
+    "term": "Scientific fact"
+   },
+   {
+    "definition": "A simplified representation used to explain or predict how something behaves.",
+    "term": "Model"
+   },
+   {
+    "definition": "The old idea that living things can arise from non-living matter.",
+    "term": "Spontaneous generation"
+   },
+   {
+    "definition": "The idea that living things come only from other living things.",
+    "term": "Biogenesis"
+   },
+   {
+    "definition": "A replacement of a whole scientific framework, as described by Thomas Kuhn.",
+    "term": "Paradigm shift"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Science is both a body of knowledge and a process for building it. It explains the natural world using evidence gathered by observation and experiment.",
+    "h": "What scientific knowledge is",
+    "points": [
+     "A scientific claim must be testable against evidence from the natural world. Questions of value or morals, e.g. “should we clone animals?”, can be informed by science but cannot be answered by it.",
+     "Scientific knowledge is evidence-based (empirical): ideas are accepted because they agree with observations and experimental results, not because of who proposed them.",
+     "An observation is what is directly detected with the senses or instruments, e.g. “the broth went cloudy”. An inference is an explanation drawn from an observation, e.g. “microorganisms grew in the broth”. Scientists keep the two separate.",
+     "Scientific knowledge is tentative but durable: any idea can be revised if new evidence contradicts it, yet well-tested ideas survive for a long time. The cell theory has survived more than 150 years of testing.",
+     "Tentative does not mean weak or a guess.",
+     "An idea must be falsifiable: it must be possible, in principle, to imagine an observation that would show the idea is wrong. The philosopher Karl Popper made falsifiability his test of whether an idea is scientific.",
+     "Evidence can support an idea or refute it, but it can never prove an idea true for all time. One reliable contrary result can disprove an idea."
+    ]
+   },
+   {
+    "h": "How scientists work",
+    "points": [
+     "There is no single fixed scientific method. The process is often complex and iterative, following many different paths, but it usually involves the stages below.",
+     "The usual cycle runs: observation, question, hypothesis, prediction, experiment or further observation, collection and analysis of data, conclusion (hypothesis supported or rejected), repetition and checking, comparison with existing knowledge, publication in a scientific journal after peer review, testing of the findings by other scientists, and, over time, development of well-supported findings into a theory or law. A rejected hypothesis leads to a new or modified hypothesis, so the cycle starts again.",
+     "Diagram: the cycle drawn as a loop with arrows, with an arrow from “hypothesis rejected” back to “new hypothesis”, and “publish and peer review” leading out to “theory or law”.",
+     "Not all science is experimental. Some fields test ideas by observation and comparison, e.g. fossil records and comparative anatomy as evidence for evolution, or field surveys of ecosystems.",
+     "Science is creative: imagining hypotheses and designing ways to test them takes imagination, and chance observations can start new lines of work. The discovery of penicillin is the standard example, detailed in “Science, scientists and society”.",
+     "Science is collaborative and sceptical. Scientists work in teams, build on others’ published work and expect their claims to be checked and challenged. Scepticism means doubting a claim until the evidence for it is good; it is a norm, not a personal attack. How this works internationally is in “Science as a global enterprise”.",
+     "Science is done by people, so it is influenced by the society, culture, funding and technology of its time, and individual scientists can be biased. Types of bias are in “Recognising bias and evaluating sources”."
+    ]
+   },
+   {
+    "h": "Limitations of the scientific method",
+    "points": [
+     "Limited by current knowledge and technology: some questions cannot yet be investigated. Cells could not be seen until microscopes were invented, and the internal structure of organelles could not be seen until electron microscopes were available.",
+     "The basis of the investigation may be wrong: if the theory or assumption a hypothesis rests on is false, the conclusions may be false too.",
+     "Human error and interpretation: data can be misread, and scientists can interpret the same results in different ways.",
+     "Experimental design: a poorly designed experiment can give results that seem to support a hypothesis when they do not. Design is taught in “Designing and conducting investigations”.",
+     "Applying results to nature: conditions in a laboratory are simpler and more controlled than in a living organism or an ecosystem, so results may not apply outside the laboratory. A drug that works on cells in a dish may not work in a person.",
+     "Science cannot answer questions of value, ethics or the supernatural."
+    ]
+   },
+   {
+    "h": "Hypothesis",
+    "points": [
+     "A hypothesis is a proposed, testable explanation for an observation. It makes predictions that can be checked by experiment or observation.",
+     "A hypothesis may be supported or rejected; it is never proved.",
+     "Example: in the early 1980s Robin Warren and Barry Marshall proposed that stomach ulcers are caused by infection with the bacterium Helicobacter pylori, not by stress and excess acid as was then believed.",
+     "How to write a testable hypothesis and a prediction is taught in “Questioning and predicting”."
+    ]
+   },
+   {
+    "h": "Theories: the cell theory and other examples",
+    "points": [
+     "A theory is a broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources.",
+     "A theory explains why something happens and makes predictions. It is the highest status an explanation reaches in science.",
+     "A theory is not a guess, so the everyday phrase “just a theory” misuses the word.",
+     "The cell theory states that all living things are made of one or more cells, that the cell is the basic unit of structure and function of life, and that all cells come from pre-existing cells.",
+     "Matthias Schleiden proposed in 1838 that plants are made of cells. Theodor Schwann extended this to animals in 1839. Rudolf Virchow added in 1855 that all cells arise from existing cells (“omnis cellula e cellula”).",
+     "Other biological theories include the theory of evolution by natural selection, proposed by Darwin and Wallace (see “The theory of evolution by natural selection” and “The importance of the theory”), and the germ theory of disease, which holds that many diseases are caused by microorganisms."
+    ]
+   },
+   {
+    "h": "Laws",
+    "points": [
+     "A law, or principle, is a statement, often mathematical, that describes a pattern that always occurs under stated conditions. It describes what happens but does not explain why.",
+     "Biology has few laws because living systems are variable.",
+     "Mendel’s laws of segregation and independent assortment describe how alleles pass to offspring (taught in “Mendel’s Laws”). They have known exceptions, e.g. linked genes.",
+     "The laws of thermodynamics apply to living things. Energy is not created or destroyed, only converted, as when light energy is converted to chemical energy in photosynthesis."
+    ]
+   },
+   {
+    "h": "Hypothesis, theory and law compared",
+    "points": [
+     "Scope: a hypothesis concerns one observation, a theory covers a wide range of observations, and a law covers one pattern.",
+     "Purpose: a hypothesis proposes an explanation, a theory gives a tested explanation, and a law describes a pattern.",
+     "Evidence: a hypothesis has little or none yet, a theory rests on a large body of evidence from many independent sources, and a law is repeated observation without exception under stated conditions.",
+     "All three can be revised or rejected if the evidence demands it.",
+     "A theory does not grow up into a law: they are different kinds of knowledge. A law describes a pattern and a theory explains it. A theory can explain a law; for example, Mendel’s laws are explained by the behaviour of chromosomes in meiosis.",
+     "A scientific fact is a repeatable observation, e.g. “DNA is found in the nucleus of eukaryotic cells”. A model is a simplified representation used to explain or predict (taught in “Models”)."
+    ]
+   },
+   {
+    "h": "Why scientific ideas change",
+    "points": [
+     "Ideas change because of new evidence that the old idea cannot explain, new technology that allows new observations (e.g. microscopes, DNA sequencing), reinterpretation of existing evidence, and replication by other scientists.",
+     "Change is usually gradual refinement. Occasionally a whole framework is replaced; the historian Thomas Kuhn called this a paradigm shift, in his book The Structure of Scientific Revolutions (1962)."
+    ]
+   },
+   {
+    "h": "Spontaneous generation gave way to biogenesis",
+    "points": [
+     "Old idea: living things such as maggots and microorganisms arise from non-living matter.",
+     "In 1668 Francesco Redi put meat in jars that were open, sealed or covered with gauze. Maggots appeared only on the meat in the open jars, which flies could reach.",
+     "In the gauze-covered jars, flies laid their eggs on the gauze, not on the meat, so no maggots appeared.",
+     "In the early 1860s Louis Pasteur boiled broth in swan-neck flasks, which have an S-shaped neck. Air could enter, but dust and microorganisms were trapped in the bend, and the broth stayed clear.",
+     "When the neck was broken off, or the broth was tipped into the bend, microorganisms grew in it.",
+     "New idea: living things come only from other living things (biogenesis), which supported the germ theory."
+    ]
+   },
+   {
+    "h": "The cell theory was built up over time",
+    "points": [
+     "The cell theory, defined under “Theories: the cell theory and other examples”, was built up by several scientists over decades as microscopes improved.",
+     "It is still being extended. Mitochondria and chloroplasts have been found to contain their own DNA."
+    ]
+   },
+   {
+    "h": "Stomach ulcers: a bacterium replaces stress as the cause",
+    "points": [
+     "Old idea: ulcers are caused by stress, spicy food and excess acid, and no bacterium could survive stomach acid.",
+     "Warren observed curved bacteria in biopsies of inflamed stomach linings. Marshall and Warren cultured Helicobacter pylori in 1982.",
+     "In 1984 Marshall drank a culture of the bacteria, developed gastritis and treated it with antibiotics.",
+     "Other scientists repeated the findings, and trials showed that antibiotics cured most ulcers.",
+     "New idea: most stomach ulcers are caused by H. pylori infection and are treated with antibiotics.",
+     "Marshall and Warren received the Nobel Prize in Physiology or Medicine in 2005.",
+     "The case shows that a new idea is often resisted at first and is accepted when the evidence is reproduced."
+    ]
+   },
+   {
+    "h": "Childbed fever and handwashing",
+    "points": [
+     "In 1847 Ignaz Semmelweis, at Vienna General Hospital, noticed that far more mothers died of childbed (puerperal) fever on the ward run by doctors than on the ward run by midwives.",
+     "The doctors who ran that ward came from dissecting corpses, while the midwives did not.",
+     "He made staff wash their hands in chlorinated lime solution, and deaths fell sharply.",
+     "Many doctors rejected his idea because it lacked an explanation. It was accepted only after the germ theory of disease explained it.",
+     "The case shows that evidence without an explanatory theory can be ignored."
+    ]
+   },
+   {
+    "h": "Other ideas that changed in the same way",
+    "points": [
+     "The five-kingdom system was replaced by three domains and six kingdoms (see “Domains of life” and “Classification”).",
+     "The lock-and-key model of enzyme action was refined to the induced-fit model, and the membrane “sandwich” model was replaced by the fluid mosaic model (see “Models”)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A hypothesis is a proposed, testable explanation for an observation. It makes predictions that can be checked by experiment or observation, and it may be supported or rejected but is never proved. A theory is a broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources. A theory explains why something happens and makes predictions, and it is not a guess. Example: the cell theory, which states that all living things are made of one or more cells, that the cell is the basic unit of structure and function of life, and that all cells come from pre-existing cells.",
+    "prompt": "Distinguish between a hypothesis and a theory. Give a biological example of a theory.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Example: stomach ulcers. The old idea was that ulcers are caused by stress, spicy food and excess acid, and that no bacterium could survive stomach acid. Warren observed curved bacteria in biopsies of inflamed stomach linings, and Marshall and Warren cultured Helicobacter pylori in 1982. In 1984 Marshall drank a culture of the bacteria, developed gastritis and treated it with antibiotics. Other scientists repeated the findings, and trials showed that antibiotics cured most ulcers. The new idea is that most stomach ulcers are caused by H. pylori infection and are treated with antibiotics. The new idea was resisted at first and was accepted when the evidence was reproduced by others. It is supported by the evidence but, like every scientific idea, it remains open to revision if new evidence appears. Marshall and Warren received the Nobel Prize in Physiology or Medicine in 2005.",
+    "prompt": "Using one named example, describe how a scientific idea in biology has been modified over time.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "First, the method is limited by current knowledge and technology: some questions cannot be investigated until new tools exist, e.g. cells could not be seen until microscopes were invented and the internal structure of organelles could not be seen until electron microscopes were available. Second, human error and interpretation: data can be misread, and scientists can interpret the same results in different ways. Third, applying results to nature: laboratory conditions are simpler and more controlled than in a living organism or ecosystem, so a result found in a laboratory may not apply outside it. For example, a drug that works on cells in a dish may not work in a person. Other limitations include the possibility that the basis of an investigation is wrong, poor experimental design, and the fact that science cannot answer questions of value, ethics or the supernatural.",
+    "prompt": "State three limitations of the scientific method and explain each.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio1-s2": {
+  "keyTerms": [
+   {
+    "definition": "The evaluation of a scientific paper by independent experts in the same field before it is published.",
+    "term": "Peer review"
+   },
+   {
+    "definition": "An independent expert who reviews a submitted paper for a journal and recommends whether it is accepted, revised or rejected.",
+    "term": "Referee"
+   },
+   {
+    "definition": "Peer review in which the reviewers know who the authors are but the authors do not know the reviewers.",
+    "term": "Single-blind review"
+   },
+   {
+    "definition": "Peer review in which neither the authors nor the reviewers know each other’s identity.",
+    "term": "Double-blind review"
+   },
+   {
+    "definition": "The withdrawal of a published paper by its journal, usually because of serious error or misconduct.",
+    "term": "Retraction"
+   },
+   {
+    "definition": "A paper posted online before peer review, so it has not yet been checked.",
+    "term": "Preprint"
+   },
+   {
+    "definition": "A journal whose papers are free for everyone to read, not only subscribers.",
+    "term": "Open access"
+   },
+   {
+    "definition": "A set of rules or standards agreed across countries so that results can be compared and repeated.",
+    "term": "International convention"
+   },
+   {
+    "definition": "The two-part Latin name of a species, genus followed by species, e.g. Homo sapiens.",
+    "term": "Binomial nomenclature"
+   },
+   {
+    "definition": "The property of a result that other scientists, working independently, obtain again when they repeat the work.",
+    "term": "Reproducibility"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Science as a global enterprise",
+    "points": [
+     "Science is global: scientists in many countries work on the same problems, share data and build on each other’s published results. Knowledge is not owned by one country or person, and claims are tested by people with different backgrounds and assumptions.",
+     "Large problems need international teams, shared funding and shared equipment. The Human Genome Project (1990–2003) sequenced the human genome through an international consortium of 20 research groups in six countries: the USA, the UK, Japan, France, Germany and China.",
+     "Under the Bermuda Principles (1996), the Human Genome Project released its sequence data publicly within 24 hours, free for anyone to use.",
+     "Speed through sharing: in January 2020 Chinese scientists published the genome sequence of the new coronavirus (SARS-CoV-2) online. Research groups around the world used it within days to design tests and begin developing vaccines.",
+     "Funding is international too. Irish researchers are funded by Research Ireland, formed in 2024 from Science Foundation Ireland and the Irish Research Council, and by the EU research programme Horizon Europe (2021–2027), which funds teams that include several countries. Funding as a source of bias is covered in “Recognising bias and evaluating sources”.",
+     "Science needs four things to work across borders: clear communication, international conventions, peer review and reproducibility. Each is described below."
+    ]
+   },
+   {
+    "h": "Clear communication",
+    "points": [
+     "Scientists communicate mainly through papers in scientific journals, and also at conferences, in review articles and through shared online databases such as genome databases (taught in “Bioinformatics: genome databases”).",
+     "A research paper has a standard structure: title and authors; abstract (a short summary); introduction (background and the aim or hypothesis); methods (exactly what was done, with materials and conditions); results (data in tables and graphs); discussion (what the results mean, the limitations, and comparison with other work); and references to other work.",
+     "The methods section must be detailed enough for another scientist to repeat the work, which makes reproducibility possible.",
+     "Scientific language must be precise and unambiguous. Terms have one agreed meaning (e.g. “theory” in science is not “a guess”), quantities are given with units, and uncertainty is stated rather than hidden. English is the main shared language of international science.",
+     "Open access journals make papers free to read for everyone, not only subscribers.",
+     "Preprints are papers posted online before peer review, e.g. on bioRxiv, launched 2013, and medRxiv, launched 2019, for medical research. They speed up sharing, as in the COVID-19 pandemic, but readers must remember that they have not yet been checked.",
+     "Poor communication slows science. Gregor Mendel published his results on inheritance in pea plants in 1866, in the journal of the Natural History Society of Brünn (now Brno, Czech Republic). They were little read, and their importance was recognised only when other scientists reached the same conclusions independently in 1900.",
+     "Communicating with the public (news, policy and outreach) is also part of a scientist’s work. Evaluating media reports is taught in “Evaluating evidence”, and presenting students’ own findings in “Communicating results”."
+    ]
+   },
+   {
+    "h": "International conventions",
+    "points": [
+     "An international convention is a set of rules or standards agreed by scientists or governments across countries, so that results mean the same everywhere and can be compared and repeated.",
+     "SI units (Système International) are the agreed units of measurement: metre (length), kilogram (mass), second (time), mole (amount of substance) and kelvin (temperature), with degrees Celsius also widely used. Prefixes such as milli- and micro- are used, e.g. mm, and µm, the unit for cell sizes; nm is used for organelles and molecules.",
+     "Binomial nomenclature gives each species a two-part Latin name, genus then species, e.g. Homo sapiens. The genus starts with a capital letter, the species name is lower case, and the name is printed in italics or underlined when handwritten.",
+     "Carl Linnaeus established the system; the starting point for plant names is his Species Plantarum (1753). One scientific name avoids confusion between common names, which differ between languages and regions. Classification itself is taught in “Classification”.",
+     "Other naming conventions: human genes have agreed symbols, written in italics, e.g. the CFTR gene, whose faulty alleles cause cystic fibrosis. The protein is written without italics. Chemical names and formulas follow agreed rules, e.g. CO₂ and C₆H₁₂O₆.",
+     "Ethical conventions set rules for research. The Declaration of Helsinki (World Medical Association, 1964) sets out ethical principles for research on people, including informed consent and independent ethical review. It followed the Nuremberg Code (1947), which was written after the trials of Nazi doctors.",
+     "The Convention on Biological Diversity (1992, agreed at the Rio Earth Summit) commits countries to conserving biodiversity, using it sustainably and sharing fairly the benefits of genetic resources. CITES (1973) controls international trade in endangered species.",
+     "Agreed standards also cover laboratory safety signs (hazard symbols) and the depositing of data in public databases."
+    ]
+   },
+   {
+    "h": "How peer review works",
+    "points": [
+     "Peer review is the evaluation of a scientific paper by independent experts in the same field, the author’s “peers”, before it is published.",
+     "Steps 1 to 3: the scientists submit the paper to a journal; the editor checks that it suits the journal and is of reasonable quality, and may reject it straight away; if it passes, the editor sends it to usually two or three independent experts, called reviewers or referees.",
+     "Steps 4 and 5: the reviewers check whether the methods are suitable, the data support the conclusions, the analysis is sound, the work is original and important, ethical rules were followed and other work is properly referenced. They recommend accept, accept with minor revisions, revise and resubmit (major revisions), or reject.",
+     "Steps 6 and 7: the authors revise the paper and reply to each comment, and the editor makes the final decision before the paper is published.",
+     "Diagram: a flowchart of the seven steps, with a loop from “revise” back to “reviewers”.",
+     "Single-blind review: the reviewers know who the authors are, but the authors do not know the reviewers. Double-blind review: neither knows the other, which reduces bias from the authors’ reputation, gender or country. Open review: names, and sometimes reports, are published."
+    ]
+   },
+   {
+    "h": "Strengths and limits of peer review",
+    "points": [
+     "Peer review filters out poor-quality or unsupported work, improves papers before publication, and gives readers some confidence in published work. A peer-reviewed paper is a more reliable source than one that is not (see “Recognising bias and evaluating sources”).",
+     "Reviewers do not normally repeat the experiments, so they cannot detect well-hidden fraud or errors in raw data. Peer review does not guarantee that a paper is correct.",
+     "Reviewers can be biased, e.g. against ideas that challenge their own, or towards famous laboratories. The process is slow, and reviewers are usually unpaid volunteers.",
+     "Some low-quality “predatory” journals charge authors to publish while doing little or no real review.",
+     "Checking continues after publication. Other scientists read, cite and try to repeat the work; errors lead to published corrections, and serious errors or misconduct lead to retraction, when the journal withdraws the paper.",
+     "Hwang Woo-suk’s team published papers in the journal Science in 2004 and 2005 claiming to have made stem cells from cloned human embryos. The data were found to be fabricated, and the papers were retracted in 2006. Peer review had not caught the fraud; scrutiny after publication did."
+    ]
+   },
+   {
+    "h": "Reproducibility",
+    "points": [
+     "A result is reproducible if other scientists, working independently in other laboratories, get the same result when they repeat the work, using the same or different methods. The difference between repeatability and reproducibility is taught in “Objectivity and data quality”.",
+     "Science relies on reproducibility because a single result may be due to chance, error, an unusual sample, bias or fraud. Agreement between independent groups shows that the result is a real feature of nature.",
+     "Only reproduced findings become accepted knowledge and can support theories. For example, the H. pylori explanation of stomach ulcers was accepted once others reproduced the findings (see “The nature of scientific knowledge”).",
+     "Reproducibility depends on clear communication: full methods, raw data and materials must be shared so that others can repeat the work.",
+     "Not all published results reproduce. Scientists at the company Amgen reported in 2012 that they could confirm the findings of only 6 of 53 “landmark” preclinical cancer studies.",
+     "Causes of failure include small samples, selective reporting of positive results, pressure to publish, poorly described methods and, rarely, fraud. Responses include sharing data openly, registering study plans in advance and publishing replication studies."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Peer review is the evaluation of a scientific paper by independent experts in the same field, the author’s peers, before it is published. First, the scientists submit the paper to a journal. Second, the editor checks that it suits the journal and is of reasonable quality, and may reject it straight away. Third, the editor sends it to usually two or three independent reviewers. Fourth, the reviewers check whether the methods are suitable, the data support the conclusions, the analysis is sound, the work is original and important, ethical rules were followed and other work is properly referenced. Fifth, they recommend accept, accept with minor revisions, revise and resubmit, or reject. Sixth, the authors revise the paper and reply to each comment. Seventh, the editor makes the final decision and the paper is published. One limitation is that reviewers do not normally repeat the experiments, so they cannot detect well-hidden fraud or errors in raw data. Peer review does not guarantee that a paper is correct.",
+    "prompt": "Describe the process of peer review and give one limitation of it.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A result is reproducible if other scientists, working independently in other laboratories, get the same result when they repeat the work, using the same or different methods. Scientists insist on reproducibility because a single result may be due to chance, error, an unusual sample, bias or fraud. Agreement between independent groups shows that the result is a real feature of nature, and only reproduced findings become accepted knowledge that can support theories.",
+    "prompt": "What is meant by reproducibility? Explain why scientists insist that results are reproducible.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, SI units are the agreed units of measurement, such as the metre, kilogram, second, mole and kelvin. They are needed so that measurements mean the same thing in every country and results can be compared and repeated. Second, binomial nomenclature gives each species a two-part Latin name, genus then species, e.g. Homo sapiens. It is needed because common names differ between languages and regions, and one scientific name avoids confusion.",
+    "prompt": "Give two examples of international conventions used in biology and explain why each is needed.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio1-s3": {
+  "keyTerms": [
+   {
+    "definition": "Anything that provides information, such as a journal article, textbook, website, news report or video.",
+    "term": "Source"
+   },
+   {
+    "definition": "The original report of research by the people who carried it out, e.g. a paper in a peer-reviewed journal.",
+    "term": "Primary source"
+   },
+   {
+    "definition": "A source that summarises or interprets primary sources, e.g. a review article, textbook or news report.",
+    "term": "Secondary source"
+   },
+   {
+    "definition": "A source that compiles secondary sources, e.g. an encyclopaedia.",
+    "term": "Tertiary source"
+   },
+   {
+    "definition": "Data collected by yourself.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Data collected by somebody else, e.g. national statistics or the results in a published paper.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "A one-sided influence that pushes information or its interpretation away from the truth in a consistent direction.",
+    "term": "Bias"
+   },
+   {
+    "definition": "A situation in which a person’s financial or personal interests could influence their judgement.",
+    "term": "Conflict of interest"
+   },
+   {
+    "definition": "Selecting only the data or studies that support a view and ignoring the rest.",
+    "term": "Cherry-picking"
+   },
+   {
+    "definition": "To confirm a claim by finding it in independent reliable sources.",
+    "term": "Corroborate"
+   },
+   {
+    "definition": "A memory aid for evaluating a source: Currency, Relevance, Authority, Accuracy, Purpose.",
+    "term": "CRAAP test"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Key terms: sources, data and bias",
+    "points": [
+     "A source is anything that provides information: a journal article, a textbook, a website, a news report, a government or agency report, a company leaflet, a video or a social media post.",
+     "A primary source is the original report of research by the people who did it, e.g. a research paper in a peer-reviewed journal. A secondary source summarises or interprets primary sources, e.g. a review article, a textbook, a news report or a documentary. A tertiary source compiles secondary sources, e.g. an encyclopaedia.",
+     "Primary data are data collected by yourself; secondary data are data collected by somebody else, e.g. a table of national vaccination rates, a population survey, or the results in a published paper.",
+     "A research paper is a primary source, but its data are secondary data to a student who uses them. Primary and secondary sources are not the same as primary and secondary data.",
+     "Bias is a one-sided influence that pushes information or its interpretation away from the truth in a consistent direction. A biased source is not necessarily false, but it selects, presents or interprets information to favour one view."
+    ]
+   },
+   {
+    "b": "This is the research that the Biology in Practice Investigation requires (see “The Biology in Practice Investigation”).",
+    "h": "Researching a scientific issue",
+    "points": [
+     "1. Define the issue and a focused research question, e.g. “Does eating ultra-processed food raise the risk of type 2 diabetes?” rather than “Is food bad for you?”.",
+     "2. Choose keywords, including scientific terms and synonyms, and search suitable places: the school or public library; scientific search engines and databases, e.g. Google Scholar, and PubMed for medical research; the websites of scientific and public bodies; and textbooks.",
+     "3. Gather several different types of source, including some primary sources and some secondary data, and sources that take different views.",
+     "4. Record each source as you use it, so that it can be referenced and checked later. How to write a reference is in “Communicating results”.",
+     "5. Evaluate each source with the criteria below, noting what it lacks and any bias.",
+     "6. Cross-check, or corroborate, important claims in independent sources. A claim found in several independent reliable sources is more trustworthy than one found in a single source.",
+     "7. Separate facts, evidence and opinions, and summarise in your own words. Reference every source: copying another’s words or ideas without acknowledgement is plagiarism."
+    ]
+   },
+   {
+    "h": "Criteria for evaluating a source",
+    "points": [
+     "Authority: who wrote it, and are they qualified and named? Good sign: named scientists at a university, research institute or public health body. Poor sign: an anonymous author, or a celebrity or influencer with no expertise.",
+     "Peer review and publisher: has it been checked by experts before publication? A peer-reviewed journal article is more reliable than a blog or press release (see “Science as a global enterprise”).",
+     "Currency: when was it published or updated? Biology moves quickly, so older sources may be out of date, e.g. a source describing a five-kingdom classification. Older sources are still useful for historical background.",
+     "Purpose: why was it written, to inform, to teach, to persuade, to sell or to entertain? A source written to sell or persuade is more likely to be biased.",
+     "Evidence and references: does it give data, describe how they were collected, and reference its sources so that they can be checked? Claims such as “studies show” or “scientists say” with no reference are a warning sign.",
+     "Relevance: does it address the research question, for the right organism, population or place? Relevance of evidence is developed in “Evaluating evidence”.",
+     "Accuracy and consistency: does it agree with other reliable sources and with established science? Are there factual errors, or emotive or exaggerated language?",
+     "A memory aid used in schools and libraries is the CRAAP test: Currency, Relevance, Authority, Accuracy, Purpose."
+    ]
+   },
+   {
+    "h": "A source may lack detail",
+    "points": [
+     "Missing method: without knowing how data were collected, a reader cannot judge whether they are valid or repeat the work.",
+     "Missing sample size, or a very small sample: a result from a handful of people or plants may be due to chance.",
+     "Missing units, dates, location or definitions, e.g. what counts as “obese” or “a heavy drinker”, so data cannot be compared with other data.",
+     "Averages or percentages alone, without the range or the raw data, can hide great variation or very small numbers. For example, “50% improved” could mean 1 of 2 patients.",
+     "No control or comparison group, no information on who funded the work, and no limitations stated.",
+     "Simplified summaries, such as news reports, infographics and social media posts, often leave out the uncertainty, the limitations and the conditions under which a result applies."
+    ]
+   },
+   {
+    "h": "Evaluating secondary data",
+    "points": [
+     "Advantages: secondary data can cover far larger samples, longer periods and more places than a student could collect, e.g. national health statistics, long-term climate records and genome databases. They are quick and cheap to obtain, and they allow results to be compared with others.",
+     "Limitations: they were collected for someone else’s purpose, so they may not exactly fit your question. You do not control how they were collected or how carefully.",
+     "Methods, definitions or units may be unclear or may change over time. The data may be out of date, incomplete, or already processed by averaging or selection, and the collector may be biased.",
+     "Questions to ask of secondary data: who collected them and why; how, when and where they were collected; how big the sample was; whether the method is described; whether the data are raw or processed; and whether other sources give similar data."
+    ]
+   },
+   {
+    "h": "Types of bias a source may show",
+    "points": [
+     "Funding or commercial bias, and conflict of interest: a source paid for by a company or individual that gains from a particular conclusion may favour that conclusion, e.g. research on sugary drinks funded by a drinks manufacturer, or a supplement company’s website reporting only its own favourable trials.",
+     "A conflict of interest is a situation in which a person’s financial or personal interests could influence their judgement. Reliable journals require authors to declare them.",
+     "Selection bias, or cherry-picking: choosing only the data or studies that support a view and ignoring the rest, e.g. quoting one cold winter as evidence against climate warming.",
+     "Publication bias: studies with positive or exciting results are more likely to be published than those finding no effect, so the published literature can overstate how well a treatment works.",
+     "Confirmation bias: the tendency of authors, and of readers, to look for, interpret and remember information that confirms what they already believe.",
+     "Sampling bias: a sample that is not representative of the population, e.g. a diet survey carried out only among gym members, or a drug trialled only on young men and then recommended for everyone.",
+     "Political, ideological or cultural bias: a source from a campaign group, political party or lobby group presents the evidence that suits its cause. This can apply to groups on either side of an issue, e.g. both for and against genetically modified crops.",
+     "Sensationalism means exaggerating a result to attract readers or clicks; it is developed in “Evaluating evidence”.",
+     "Recognising bias: check who produced and who paid for the source; look for one-sided presentation, emotive language, no mention of limitations or opposing evidence, and claims not supported by references. A biased source can still contain accurate facts, so check them against independent sources rather than simply dismissing the source."
+    ]
+   },
+   {
+    "h": "Which sources are usually most and least reliable",
+    "points": [
+     "Usually most reliable: peer-reviewed research papers and systematic reviews; reports of national and international scientific and public health bodies, e.g. the World Health Organization (WHO), the Health Service Executive (HSE) and the Environmental Protection Agency (EPA); and up-to-date textbooks.",
+     "Usually least reliable: anonymous websites, social media posts, advertisements and personal blogs.",
+     "Each source must still be judged on the criteria, not just on its type. A reliable body can make mistakes, and a blog can be accurate."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Primary data are data collected by yourself. Secondary data are data collected by somebody else, such as a table of national vaccination rates, a population survey or the results in a published paper. An advantage of secondary data is that they can cover far larger samples, longer periods and more places than a student could collect, and they are quick and cheap to obtain. A limitation is that they were collected for someone else’s purpose, so they may not exactly fit the research question, and the student does not control how carefully they were collected.",
+    "prompt": "Distinguish between primary data and secondary data. Give one advantage and one limitation of secondary data.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "First, the website exists to sell the product, so its purpose is commercial and it is more likely to be biased; the seller may have a conflict of interest in making the claim. Second, the claim gives no reference, method or sample size, so the evidence cannot be checked. Third, the site may be practising selective reporting, quoting only favourable studies, which is cherry-picking, or publication bias may be involved. To check the claim, search for peer-reviewed studies in PubMed or Google Scholar, read their methods and results, and compare them with the advice of a public health body such as the WHO, the HSE or the EPA. Corroborate the claim in several independent reliable sources before accepting it.",
+    "prompt": "A website selling a herbal supplement claims that “studies show it boosts the immune system”. Identify three reasons to doubt this source and say how you would check the claim.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "First, define the issue and a focused research question. Second, choose keywords, including scientific terms and synonyms, and search suitable places such as the library, scientific databases like Google Scholar or PubMed, the websites of scientific and public bodies, and textbooks. Third, gather several different types of source, including primary sources, secondary data and sources that take different views. Fourth, record each source as you use it so that it can be referenced and checked. Fifth, evaluate each source, noting what it lacks and any bias. Sixth, cross-check important claims in independent sources, because a claim found in several reliable sources is more trustworthy. Seventh, separate facts, evidence and opinions, summarise in your own words, and reference every source. To evaluate each source, consider its authority (who wrote it and whether they are qualified), whether it is peer reviewed, its currency, its purpose, whether it gives evidence and references, its relevance to the question, and its accuracy and consistency with other reliable sources.",
+    "prompt": "Describe how you would research a scientific issue and evaluate the sources you find.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio10-s1": {
+  "keyTerms": [
+   {
+    "definition": "A large molecule, DNA or RNA, built from a chain of nucleotides.",
+    "term": "Nucleic acid"
+   },
+   {
+    "definition": "The building block of nucleic acids, made of a sugar, a phosphate group and a nitrogenous base.",
+    "term": "Nucleotide"
+   },
+   {
+    "definition": "The five-carbon sugar in DNA nucleotides, which has one fewer oxygen atom than ribose.",
+    "term": "Deoxyribose"
+   },
+   {
+    "definition": "The five-carbon sugar in RNA nucleotides.",
+    "term": "Ribose"
+   },
+   {
+    "definition": "The chain of alternating sugar and phosphate groups that forms the outside of a DNA or RNA strand.",
+    "term": "Sugar–phosphate backbone"
+   },
+   {
+    "definition": "The fixed pairing of bases in which A pairs with T (or U in RNA) and C pairs with G.",
+    "term": "Complementary base pairing"
+   },
+   {
+    "definition": "The spiral shape of DNA, formed by two complementary strands twisted around each other.",
+    "term": "Double helix"
+   },
+   {
+    "definition": "A double-ringed base: adenine or guanine.",
+    "term": "Purine"
+   },
+   {
+    "definition": "A single-ringed base: cytosine, thymine or uracil.",
+    "term": "Pyrimidine"
+   },
+   {
+    "definition": "Messenger RNA, which carries a copy of a gene from the nucleus to a ribosome.",
+    "term": "mRNA"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Nucleic acids and nucleotides",
+    "points": [
+     "Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain.",
+     "DNA is deoxyribonucleic acid; RNA is ribonucleic acid. Both contain the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.",
+     "Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base attached to the sugar.",
+     "The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose; the name deoxy means without oxygen.",
+     "Each nucleic acid has four bases. DNA: adenine (A), thymine (T), cytosine (C) and guanine (G). RNA: adenine (A), uracil (U), cytosine (C) and guanine (G); uracil takes the place of thymine.",
+     "Adenine and guanine are double-ringed bases, called purines; cytosine, thymine and uracil are single-ringed bases, called pyrimidines.",
+     "A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information. Modified nucleotides also carry energy, as described in ATP.",
+     "Diagram: one nucleotide drawn as a circle (phosphate) joined to a pentagon (sugar) joined to a rectangle (base), labelled phosphate, deoxyribose or ribose, and nitrogenous base."
+    ]
+   },
+   {
+    "h": "Joining nucleotides into a strand",
+    "points": [
+     "Nucleotides join by bonds between the sugar of one nucleotide and the phosphate of the next. These bonds are made in condensation reactions, in which a molecule of water is removed for each bond.",
+     "The repeating sugar–phosphate–sugar–phosphate chain is the sugar–phosphate backbone.",
+     "The bases stick out from the backbone, one per sugar. The backbone is the same in every DNA molecule; only the sequence of bases differs, so the bases carry the information and the backbone gives strength and support."
+    ]
+   },
+   {
+    "h": "DNA: the double helix and base pairing",
+    "points": [
+     "DNA is double-stranded: two strands of nucleotides lie side by side, with the sugar–phosphate backbones on the outside and the bases pointing inwards, like the rails and rungs of a ladder.",
+     "The bases pair up: adenine always pairs with thymine (A–T) and cytosine always pairs with guanine (C–G). These are complementary base pairs.",
+     "Each pair is one purine with one pyrimidine, so every rung is the same width.",
+     "The bases in a pair are held together by hydrogen bonds: two between A and T, and three between C and G.",
+     "Each hydrogen bond is weak, so the strands can be separated, or unzipped, when DNA is copied or read. There are millions of hydrogen bonds, so the molecule as a whole is stable.",
+     "The two linked strands are twisted around each other into a spiral called a double helix, like a twisted ladder.",
+     "Because pairing is fixed, the two strands are complementary: the sequence of one strand decides the sequence of the other. For example, the strand ATGCCTAG pairs with TACGGATC.",
+     "Base-pairing calculations: in double-stranded DNA the amount of A equals the amount of T, and C equals G. For example, if 20% of the bases in a DNA sample are adenine, then 20% are thymine, leaving 60% shared equally between cytosine and guanine, so each is 30%.",
+     "Function of DNA: it stores the genetic information (genes) that controls the cell's activities by coding for proteins. It is copied before a cell divides, so each new cell receives the full set, and it is passed from parents to offspring. Genes and proteins are covered in Genes, proteins and traits.",
+     "In eukaryotic cells, DNA is found mostly in the nucleus, in the chromosomes, with small amounts in mitochondria and chloroplasts. In bacteria, DNA forms a loop in the cytoplasm and is also found in small rings called plasmids.",
+     "The double-helix model was published by James Watson and Francis Crick in 1953. It was based on X-ray diffraction images of DNA made by Rosalind Franklin, working with Maurice Wilkins.",
+     "Diagram: a short section of DNA drawn as a straight ladder of about four base pairs, labelled sugar (deoxyribose), phosphate, sugar–phosphate backbone, base pairs A–T and C–G, and hydrogen bonds; with a sketch of the twisted double helix."
+    ]
+   },
+   {
+    "h": "RNA",
+    "points": [
+     "RNA is usually single-stranded: one chain of nucleotides with its own sugar–phosphate backbone. RNA molecules are much shorter than DNA molecules.",
+     "RNA nucleotides contain ribose instead of deoxyribose, and uracil instead of thymine. Uracil pairs with adenine (A–U) whenever RNA pairs with DNA or with another RNA.",
+     "A single strand can fold back on itself where its bases pair up, giving some RNA molecules a fixed shape.",
+     "RNA uses the information in DNA to make proteins. The three main types are named here only: messenger RNA (mRNA) carries a copy of a gene from the nucleus to a ribosome; transfer RNA (tRNA) brings amino acids to the ribosome; ribosomal RNA (rRNA) forms part of the ribosome. Their roles are covered in DNA Replication, Protein Synthesis and Mutations.",
+     "RNA is made in the nucleus and works in the cytoplasm. It is found in the nucleus (including the nucleolus), the cytoplasm and the ribosomes.",
+     "Diagram: a short single RNA strand of about four nucleotides, labelled ribose, phosphate, backbone and bases, including uracil."
+    ]
+   },
+   {
+    "h": "DNA and RNA compared",
+    "points": [
+     "Strands: DNA is a double-stranded helix; RNA is usually single-stranded.",
+     "Sugar: DNA contains deoxyribose; RNA contains ribose.",
+     "Bases: DNA has A, T, C and G; RNA has A, U, C and G, with uracil instead of thymine.",
+     "Pairing: A–T in DNA; A–U in RNA.",
+     "Size and life span: DNA is very long and stable and is kept for the life of the cell; RNA molecules are shorter and are broken down after use.",
+     "Location: DNA is mainly in the nucleus, with some in mitochondria and chloroplasts; RNA is in the nucleus, the cytoplasm and the ribosomes.",
+     "Function: DNA stores the genetic information; RNA carries and uses that information to make proteins."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The three parts of a DNA nucleotide are a sugar (deoxyribose), a phosphate group and a nitrogenous base. A DNA nucleotide contains deoxyribose, which has one fewer oxygen atom than the ribose found in RNA nucleotides. A DNA nucleotide contains the base thymine, where an RNA nucleotide contains uracil.",
+    "prompt": "Name the three parts of a DNA nucleotide and state how a DNA nucleotide differs from an RNA nucleotide.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "DNA is a double-stranded helix made of two strands of nucleotides. Each strand has a sugar–phosphate backbone on the outside, with the bases pointing inwards. Each nucleotide has deoxyribose, a phosphate group and one of four bases, adenine, thymine, cytosine or guanine. The bases pair in a fixed way: adenine with thymine, held by two hydrogen bonds, and cytosine with guanine, held by three hydrogen bonds. The two strands are twisted around each other into a double helix. A labelled diagram should show a short section of the ladder-like structure with the backbones, base pairs and hydrogen bonds, and the twisted helix.",
+    "prompt": "Describe the structure of a DNA molecule.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Guanine is 30%, so cytosine is also 30%. The remaining 40% is shared equally between adenine and thymine, so adenine is 20% and thymine is 20%. The complementary strand to ACGTTAGC is TGCAATCG.",
+    "prompt": "A sample of DNA contains 30% guanine. Calculate the percentage of each other base, and give the complementary strand to ACGTTAGC.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio10-s2": {
+  "keyTerms": [
+   {
+    "definition": "A section of DNA that contains the code for making a particular protein.",
+    "term": "Gene"
+   },
+   {
+    "definition": "A chain of amino acids folded into a particular shape, which determines its function.",
+    "term": "Protein"
+   },
+   {
+    "definition": "An inherited characteristic of an organism.",
+    "term": "Trait"
+   },
+   {
+    "definition": "A different version of a gene, with a slightly different base sequence.",
+    "term": "Allele"
+   },
+   {
+    "definition": "The use of a gene to make its protein, so that a cell type shows only some of the traits its genes could produce.",
+    "term": "Gene expression"
+   },
+   {
+    "definition": "A protein that controls a chemical reaction, such as tyrosinase in the making of melanin.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "The observable trait of an organism, which results from its genes and environment together.",
+    "term": "Phenotype"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Definitions",
+    "points": [
+     "A gene is a section of DNA that contains the instructions, or code, for making a particular protein (strictly, a polypeptide). Genes are carried on chromosomes, and each chromosome holds many genes. Chromosome structure and the term locus are covered in Genetic Inheritance.",
+     "A protein is a chain of amino acids folded into a particular shape. About 20 different amino acids are used to make proteins. Amino acid structure is covered in Biomolecules — The Chemicals of Life.",
+     "A trait is an inherited characteristic of an organism, such as eye colour, blood group, seed shape in peas, or whether a person can make a particular enzyme."
+    ]
+   },
+   {
+    "h": "From gene to protein",
+    "points": [
+     "The sequence of bases in a gene determines the sequence of amino acids in the protein it codes for. How bases are read in groups is covered in The genetic code.",
+     "The sequence of amino acids determines how the chain folds, and so the protein's three-dimensional shape. The shape determines the protein's function, for example the active site of an enzyme or the binding site of a receptor.",
+     "The cell's machinery reads the gene. The code is copied into a messenger molecule, mRNA, which travels from the nucleus to a ribosome, where the amino acids are joined in the correct order. The steps are covered in DNA Replication, Protein Synthesis and Mutations.",
+     "Information flows in one direction: DNA (gene) → mRNA → protein → trait."
+    ]
+   },
+   {
+    "h": "From protein to trait",
+    "points": [
+     "Proteins produce traits because they do most of the work in cells and build much of their structure. Enzymes control the chemical reactions that make substances such as pigments. Structural proteins build hair, skin, muscle and connective tissue, for example keratin and collagen. Transport and channel proteins move substances, and hormones such as insulin and receptor proteins carry signals.",
+     "Different versions of a gene, called alleles, have slightly different base sequences. They can give a protein with a different amino acid sequence, a different shape, or no working protein at all, which produces a different version of the trait. Alleles, dominance and crosses are covered in Genetic Inheritance.",
+     "Every body cell contains the same genes, but each cell type uses, or expresses, only some of them. For example, the insulin gene is used to make insulin only in cells of the pancreas, and haemoglobin is made only in developing red blood cells. Gene expression and epigenetics are covered in Genetic Inheritance."
+    ]
+   },
+   {
+    "h": "Worked examples of gene, protein and trait",
+    "points": [
+     "Albinism (one form): the gene for the enzyme tyrosinase → tyrosinase is needed to make the dark pigment melanin → people with two non-working copies make little or no melanin, so they have very pale skin, white or very fair hair and light-sensitive eyes.",
+     "Cystic fibrosis: the CFTR gene → the CFTR protein, a channel in cell membranes that lets chloride ions out of cells → a faulty channel causes thick, sticky mucus in the lungs and pancreas, leading to lung infections and poor digestion. How the mutation arises is covered in DNA Replication, Protein Synthesis and Mutations.",
+     "Haemoglobin: the haemoglobin genes → haemoglobin, the protein in red blood cells that carries oxygen → normal oxygen transport. A changed form of one of these genes gives sickle-cell haemoglobin, which makes red blood cells sickle-shaped when oxygen is low, causing sickle-cell anaemia. Detail is covered in DNA Replication, Protein Synthesis and Mutations.",
+     "Seed shape in peas (Mendel's trait): the gene for starch-branching enzyme → the enzyme helps convert sugar into starch in the developing seed → seeds with two non-working copies (rr) make less starch and keep more sugar, take up more water while developing, and wrinkle as they dry out. Seeds with a working copy are round.",
+     "Diagram: DNA (gene) → mRNA → protein (amino acid chain folded into a shape) → trait, with the albinism example written under it."
+    ]
+   },
+   {
+    "h": "The chain is a simplification",
+    "points": [
+     "Many traits are controlled by several genes acting together, such as height and skin colour in humans, so there is no single gene for a trait.",
+     "The environment also affects many traits. A person's height depends on diet as well as genes, and a plant's height depends on light and nutrients.",
+     "The trait, or phenotype, results from genes and environment together. Genotype, phenotype and the limits of Mendelian genetics are covered in Genetic Inheritance."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A gene is a section of DNA that contains the code for a particular protein. The base sequence of the gene determines the amino acid sequence of the protein, and the amino acid sequence determines how the chain folds into its shape; the shape determines the protein's function. Proteins such as enzymes, structural proteins and transport proteins do most of the work in cells, so the protein's function produces the trait, for example a pigment made by an enzyme.",
+    "prompt": "Explain the relationship between a gene, a protein and a trait.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Cystic fibrosis: the CFTR gene codes for the CFTR protein, which forms a channel in cell membranes that lets chloride ions out of cells. The base sequence of the gene determines the amino acid sequence of the protein, which determines its shape and so whether the channel works. In people with a faulty gene, the channel does not work properly, causing thick, sticky mucus in the lungs and pancreas, which leads to lung infections and poor digestion. The inherited form of the trait therefore follows from the gene through the protein.",
+    "prompt": "Using one named example, explain how a gene can determine a trait in an organism.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Height is controlled by several genes acting together, so there is no single gene for height. The environment also affects height: diet and other conditions during growth can change it. Identical twins share the same genes but may have had different diets and environments, so their height, which is the phenotype produced by genes and environment together, can differ.",
+    "prompt": "Identical twins have the same genes but can differ in height. Explain why.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio10-s3": {
+  "keyTerms": [
+   {
+    "definition": "The set of rules by which the sequence of bases in mRNA is converted into the sequence of amino acids in a protein.",
+    "term": "Genetic code"
+   },
+   {
+    "definition": "A sequence of three bases on mRNA that codes for one amino acid or a stop signal.",
+    "term": "Codon"
+   },
+   {
+    "definition": "A group of three bases in DNA that corresponds to a codon on mRNA.",
+    "term": "Triplet"
+   },
+   {
+    "definition": "A sequence of three bases on tRNA that is complementary to an mRNA codon.",
+    "term": "Anticodon"
+   },
+   {
+    "definition": "AUG, which signals where reading of the mRNA begins and codes for methionine.",
+    "term": "Start codon"
+   },
+   {
+    "definition": "One of UAA, UAG or UGA, which codes for no amino acid and signals the end of a protein.",
+    "term": "Stop codon"
+   },
+   {
+    "definition": "A feature of the genetic code in which most amino acids are coded by more than one codon.",
+    "term": "Degenerate"
+   },
+   {
+    "definition": "A feature of the genetic code in which almost all living things use the same codons for the same amino acids.",
+    "term": "Universal"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What the genetic code is (Higher Level only)",
+    "points": [
+     "The genetic code is the set of rules by which the sequence of bases in DNA, copied into mRNA, is converted into the sequence of amino acids in a protein.",
+     "The code is read in groups of three bases. A codon is a sequence of three bases on mRNA that codes for one amino acid or for a stop signal. Some textbooks also call the matching three bases on DNA codons, but they are called triplets here.",
+     "Why three: there are 4 bases but about 20 amino acids. Reading one base at a time gives only 4 combinations, and two at a time gives only 16 (4 × 4), which is not enough. Three at a time gives 64 (4 × 4 × 4), which is more than enough.",
+     "Of the 64 codons, 61 code for amino acids and 3 are stop codons.",
+     "The mRNA is read at a ribosome one codon at a time. Transfer RNA molecules bring the matching amino acids, which are joined in order. The process is covered in DNA Replication, Protein Synthesis and Mutations."
+    ]
+   },
+   {
+    "h": "Features of the code (Higher Level only)",
+    "points": [
+     "Start codon: AUG is the usual signal to start reading a gene's message. It sets where the groups of three begin, and it also codes for the amino acid methionine, so most new proteins begin with methionine.",
+     "Stop codons: UAA, UAG and UGA code for no amino acid. They signal the end of the protein, and the finished chain is released.",
+     "Non-overlapping and without gaps: the code is read three bases at a time from the start codon, each base belonging to only one codon, with no separators between codons. Adding or removing a single base therefore shifts every codon after it. Frameshift mutations are covered in DNA Replication, Protein Synthesis and Mutations.",
+     "Degenerate, or redundant: most amino acids have more than one codon. Glycine, for example, is coded by GGU, GGC, GGA and GGG. Often only the third base differs, so some changes in a base still give the same amino acid.",
+     "Specific, or unambiguous: each codon codes for only one amino acid.",
+     "Universal: almost all living things, from bacteria to plants and humans, use the same code, with a few minor exceptions, for example in mitochondria, where UGA codes for tryptophan in human mitochondria instead of a stop signal. The shared code is evidence that all life shares a common ancestor, and it allows a human gene to be put into bacteria and read correctly, so that genetically modified bacteria make human insulin (see Genetic Engineering)."
+    ]
+   },
+   {
+    "h": "Anticodons on tRNA (Higher Level only)",
+    "points": [
+     "An anticodon is a sequence of three bases on a transfer RNA (tRNA) molecule that is complementary to an mRNA codon.",
+     "Each tRNA carries one specific amino acid, matching its anticodon. The anticodon pairs with the codon by complementary base pairing (A–U and C–G), so the right amino acid is brought for each codon. For example, the codon AUG pairs with the anticodon UAC, and that tRNA carries methionine.",
+     "No tRNA has an anticodon for a stop codon, so when a stop codon is reached no amino acid is added and the chain ends.",
+     "Diagram: a short strip of mRNA divided into codons, for example AUG | CCU | AAA, with tRNA molecules below, each showing its anticodon paired to a codon and its amino acid attached at the other end; label codon, anticodon, mRNA, tRNA and amino acid. Draw tRNA simply, as a block or a T-shape. Its cloverleaf structure is covered in DNA Replication, Protein Synthesis and Mutations."
+    ]
+   },
+   {
+    "h": "Decoding a sequence (Higher Level only)",
+    "points": [
+     "Method: 1. write the mRNA complementary to the DNA strand being read (A → U, T → A, C → G, G → C); 2. split the mRNA into codons, starting from the start codon; 3. find each amino acid in the codon table given in the question; 4. stop at a stop codon; 5. the anticodons are complementary to the codons.",
+     "Only AUG and the three stop codons need to be memorised; the other codons come from the codon table given in the question.",
+     "Worked example: the DNA strand being read is TAC GGA TTT ACT. The mRNA is AUG CCU AAA UGA, which codes for methionine, proline and lysine, then stops. The tRNA anticodons are UAC, GGA and UUU, with none for UGA. The anticodons have the same sequence as the DNA strand being read, with U in place of T.",
+     "Counting: each amino acid needs one codon of three bases, so a protein of 100 amino acids needs at least 300 bases of coding mRNA, plus three for the stop codon, giving 303. A stretch of 90 coding bases codes for 30 amino acids."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A codon is a sequence of three bases on mRNA that codes for one amino acid or a stop signal. An anticodon is a sequence of three bases on tRNA that is complementary to a codon, so the tRNA brings the matching amino acid. For example, the codon AUG pairs with the anticodon UAC, and that tRNA carries methionine.",
+    "prompt": "Distinguish between a codon and an anticodon.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The genetic code is read in groups of three bases, each group a codon. Reading two bases at a time gives only 16 combinations, which is not enough to code for about 20 amino acids, but three bases give 64 combinations, which is more than enough. The start codon AUG sets where reading begins and codes for methionine. The stop codons UAA, UAG and UGA code for no amino acid, so they signal the end of the protein and the finished chain is released.",
+    "prompt": "Explain why the genetic code is described as a triplet code, and outline the role of start and stop codons.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The mRNA is AUG AAA CCU UAA. The anticodons are UAC, UUU and GGA. The amino-acid sequence is methionine, lysine, proline. The last codon, UAA, is a stop codon, which codes for no amino acid and has no matching tRNA anticodon, so no amino acid is added and the chain ends.",
+    "prompt": "A section of the DNA strand being read is TAC TTT GGA ATT. Using a codon table where AUG = methionine, AAA = lysine and CCU = proline, give the mRNA, the anticodons and the amino-acid sequence, and explain what happens at the last codon.",
+    "type": "short"
+   }
+  ]
+ },
  "bio19-s1": {
   "keyTerms": [
    {
@@ -782,6 +1591,966 @@
    }
   ]
  },
+ "bio2-s1": {
+  "keyTerms": [
+   {
+    "definition": "A proposed, testable explanation for an observation, based on existing scientific knowledge, which gives a reason for what might happen.",
+    "term": "Hypothesis"
+   },
+   {
+    "definition": "A specific, measurable statement of the result expected in a particular experiment if the hypothesis is correct, often written as “If … then …”.",
+    "term": "Prediction"
+   },
+   {
+    "definition": "A statement that the independent variable has no effect on the dependent variable, which an experiment tests.",
+    "term": "Null hypothesis"
+   },
+   {
+    "definition": "Describes a hypothesis for which it is possible to imagine a result that would show it to be wrong.",
+    "term": "Falsifiable"
+   },
+   {
+    "definition": "Data collected by somebody else, such as published datasets, databases or government statistics.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "An investigation in which the investigator observes and measures organisms where they live without changing any factor.",
+    "term": "Observational study"
+   },
+   {
+    "definition": "A physical or computer model used to test how a system behaves under conditions that may be impossible to test in reality.",
+    "term": "Simulation"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A scientific investigation starts with a question that evidence can answer. Questions of value, taste, morality or belief cannot be settled by investigation alone.",
+    "h": "Questions that science can investigate",
+    "points": [
+     "A question is appropriate for scientific investigation when it can be answered by collecting evidence through observation or measurement of the natural world.",
+     "It must refer to things that can be observed, measured or counted, and the answer must be capable of being tested against data.",
+     "Questions science cannot answer by investigation include questions of value, taste, morality or belief, e.g. “Is it wrong to keep animals in zoos?” or “Which flower is the most beautiful?”.",
+     "Science can supply evidence that informs a question of value, e.g. how captivity affects an animal’s stress hormones, but evidence alone cannot settle it. The ethical side of scientific work is covered in Designing and conducting investigations.",
+     "A broad question must be narrowed by naming the factor to be changed and the effect to be measured. “Does temperature affect enzymes?” becomes “How does temperature affect the rate at which catalase breaks down hydrogen peroxide?”",
+     "“Does salt affect plants?” becomes “How does the concentration of a salt solution affect the change in mass of potato cylinders?”",
+     "A good investigable question is specific, names one independent and one dependent variable, can be carried out with available equipment in the time available, and is safe and ethical to carry out."
+    ]
+   },
+   {
+    "b": "Scientific investigation moves in a sequence from a question to a hypothesis, from the hypothesis to a prediction, and then to a test of the prediction.",
+    "h": "From observation to prediction",
+    "points": [
+     "Investigation usually begins with an observation or with existing knowledge that raises a question. The question leads to a hypothesis, the hypothesis leads to a prediction, and the prediction is tested by experiment or further observation.",
+     "A hypothesis is a proposed, testable explanation for an observation, or a proposed relationship between two variables, based on existing scientific knowledge. It explains why something might happen.",
+     "Example of a hypothesis: “Increasing the temperature increases the rate of catalase activity, because molecules move faster and collide more often with the active site, up to the temperature at which the enzyme denatures.”",
+     "A prediction is a specific statement of the result that will be observed if the hypothesis is correct, often written “If … then …”. It says what will happen in this particular experiment, not why.",
+     "Example of a prediction: “If potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions.”",
+     "The hypothesis is the explanation: general, and it gives a reason. The prediction is the expected observation: specific, and a measurable outcome of the planned test. One hypothesis can generate several predictions.",
+     "A null hypothesis states that the independent variable has no effect on the dependent variable, e.g. “The concentration of sucrose has no effect on the change in mass of potato cylinders.” An experiment tests whether the data give reason to reject it.",
+     "Diagram: flow diagram of observation, question, hypothesis, prediction, test, data and conclusion, with an arrow from the conclusion back to a new question, showing that a hypothesis is supported or rejected and the cycle continues."
+    ]
+   },
+   {
+    "h": "What makes a hypothesis testable",
+    "points": [
+     "A testable hypothesis is falsifiable: it is possible to imagine a result that would show it to be wrong.",
+     "“Plants grow better when people talk to them because they enjoy it” is not testable as stated, because enjoyment cannot be measured. “Plants exposed to sound grow taller than plants kept in silence” is testable.",
+     "A testable hypothesis names variables that can be measured or controlled, and it states the direction of the expected effect: an increase or a decrease, not just “will have an effect”.",
+     "A hypothesis is developed from scientific theories and explanations, not from a guess. Collision theory and denaturation support an enzyme-rate hypothesis (see Enzymes).",
+     "Osmosis supports a hypothesis about potato cylinders: water moves from a dilute solution to a more concentrated one across a partially permeable membrane (see Transport Across Membranes).",
+     "Light as the energy source for photosynthesis supports a hypothesis about a light-intensity investigation.",
+     "A hypothesis is supported or not supported by data; a single investigation never proves it. This judgement is made at the conclusion stage (see Producing and analysing data)."
+    ]
+   },
+   {
+    "b": "Each strategy gives different evidence, so compare them on the criteria below.",
+    "h": "Strategies for investigating hypotheses",
+    "points": [
+     "Criteria for comparing strategies: whether it can show cause and effect or only correlation; how many variables can be controlled; how realistic the conditions are; the sample size achievable; time, cost and equipment; safety; and ethics.",
+     "Controlled laboratory experiment: the investigator changes one variable and controls the others. Strength: the strongest evidence that a change in one variable causes a change in another.",
+     "Laboratory limitations: artificial conditions may not match the real world, e.g. an enzyme in a test tube compared with an enzyme in a living cell; some variables cannot be changed in a lab for ethical or practical reasons.",
+     "Field study or survey (observational study): the investigator observes and measures organisms where they live without changing anything, e.g. comparing the number of a plant species in sun and shade.",
+     "Field strengths and limitations: real conditions, and large areas and many organisms can be studied. Many variables cannot be controlled, so they must be measured and recorded, and a survey can show a correlation but not prove a cause.",
+     "Analysis of secondary data (data collected by somebody else), e.g. published datasets, databases of genetic information and government health statistics.",
+     "Secondary data strengths and limitations: large data sets, long time periods, or data the student could never collect, and the analysis is cheap and quick. The user did not control how the data were collected and may not know their quality; the source may lack detail or show bias (see Recognising bias and evaluating sources).",
+     "Modelling and simulation use a physical model or computer simulation to test how a system behaves, e.g. a simulation of population growth. Strength: fast, safe, and able to test conditions impossible in reality.",
+     "A model is only as good as its assumptions, so its predictions must be checked against real data (see Models).",
+     "Trials with human participants, e.g. testing a treatment, are needed for questions about human health. Strength: direct evidence about people.",
+     "Human trials are limited by ethical restrictions, the need for informed consent, high cost and large natural variation between people, so large samples and blinding are needed (see Objectivity and data quality and Designing and conducting investigations).",
+     "Often the best answer uses more than one strategy: a field survey suggests a hypothesis and a laboratory experiment tests it."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A hypothesis is a proposed, testable explanation for an observation, based on scientific knowledge, and it gives a reason. For potato cylinders the hypothesis could be: increasing the concentration of sucrose solution decreases the percentage change in mass of the cylinders, because water moves by osmosis from a dilute solution, which has a higher water concentration, to a more concentrated solution across a partially permeable membrane. A prediction is a specific statement of the result expected in this particular experiment, often written as if … then …, and it does not explain why. For example: if potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions. The hypothesis gives the general reason; the prediction gives the measurable outcome of the planned test.",
+    "prompt": "Explain the difference between a hypothesis and a prediction, using an example from an investigation into the effect of sucrose concentration on potato cylinders.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(a) The question is too broad and cannot yet be investigated. It does not name a pollutant, a plant or a measurable effect, so no variable can be changed or measured as it stands, and the question needs to be narrowed to name the factor to be changed and the effect to be measured. (b) A testable question names one pollutant, its concentration and a measurable plant response, e.g. “How does the concentration of one named pollutant affect the growth of one named plant species, measured as change in height?” (c) A testable hypothesis states a direction and gives a biological reason, e.g. increasing the concentration of the pollutant decreases the growth of the plant, because the pollutant is expected to damage the plant’s cells. The hypothesis is a proposed explanation that the data can support or not support; it cannot be proved true by the investigation.",
+    "prompt": "A student asks “Does pollution harm plants?” (a) Explain why this is not yet a good question for investigation. (b) Rewrite it as a testable question. (c) Write a hypothesis for it.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "A controlled laboratory experiment changes one variable and controls the others, so it gives the strongest evidence that a change in light intensity causes a change in growth. Its limitation is that artificial conditions may not match the real world, so the results may not apply to plants growing outdoors. A field survey observes and measures the plant species where it lives without changing anything, e.g. comparing growth in sun and shade. It has real conditions and can study many plants over a large area, but many variables cannot be controlled, so it shows a correlation between light and growth, not proof that light causes the growth difference. Judged on cause and effect, control and realism, the laboratory experiment is stronger for cause and the field survey is stronger for realism. Used together, the field survey can suggest the hypothesis and the laboratory experiment can test it, which gives the strongest overall evidence.",
+    "prompt": "Evaluate the use of a laboratory experiment and a field survey to investigate whether light intensity affects the growth of a plant species.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s2": {
+  "keyTerms": [
+   {
+    "definition": "The one variable the investigator deliberately changes in an investigation.",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The variable that is measured, because it is expected to change in response to the independent variable.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "All the other variables that could affect the dependent variable, kept the same in every set-up.",
+    "term": "Controlled variables"
+   },
+   {
+    "definition": "A set-up identical to the experiment except that the tested factor is absent, used as a standard for comparison.",
+    "term": "Control"
+   },
+   {
+    "definition": "An investigation in which only the independent variable is changed and all other variables are controlled.",
+    "term": "Fair test"
+   },
+   {
+    "definition": "The quality of an investigation that actually measures what it sets out to measure and answers the question asked.",
+    "term": "Validity"
+   },
+   {
+    "definition": "How close a measurement or mean is to the true value.",
+    "term": "Accuracy"
+   },
+   {
+    "definition": "How close repeated measurements are to each other, with little spread around the mean.",
+    "term": "Precision"
+   },
+   {
+    "definition": "The smallest change an instrument can show, which sets its precision.",
+    "term": "Resolution"
+   },
+   {
+    "definition": "How far results can be trusted because they are consistent when the investigation is repeated.",
+    "term": "Reliability"
+   },
+   {
+    "definition": "Several identical set-ups at each value of the independent variable, run at the same time.",
+    "term": "Replicates"
+   },
+   {
+    "definition": "Carrying out the whole measurement again.",
+    "term": "Repeats"
+   },
+   {
+    "definition": "A check made before practical work that identifies hazards, judges risks and states control measures.",
+    "term": "Risk assessment"
+   },
+   {
+    "definition": "A set-up expected to give no response, which shows that the response is due to the factor being tested.",
+    "term": "Negative control"
+   },
+   {
+    "definition": "A set-up known to give a response, which shows that the method can detect one.",
+    "term": "Positive control"
+   },
+   {
+    "definition": "Inventing results that were never measured.",
+    "term": "Fabrication"
+   },
+   {
+    "definition": "Changing measured results so that they fit the hypothesis.",
+    "term": "Falsification"
+   },
+   {
+    "definition": "The principles of Replace, Reduce and Refine for the ethical use of animals in research.",
+    "term": "3Rs"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Every investigation has variables that are deliberately changed, measured or kept the same. Name each one precisely, with its unit and how it is measured.",
+    "h": "Variables",
+    "points": [
+     "A variable is any factor that can change or be changed in an investigation.",
+     "The independent variable is the one variable the investigator deliberately changes, e.g. the temperature of the water bath in an enzyme investigation, or the concentration of sucrose solution in an osmosis investigation.",
+     "The dependent variable is the variable that is measured, because it is expected to change as a result; it depends on the independent variable. Examples: the volume of oxygen released per minute by catalase, or the percentage change in mass of potato cylinders.",
+     "Controlled variables are all other variables that could affect the dependent variable, so they are kept the same. For enzyme rate these are pH (kept constant with a buffer), substrate concentration and volume, the amount of enzyme, and the time of measurement.",
+     "For osmosis the controlled variables are the size and surface area of the cylinders, the potato they are cut from, the volume of solution, the time in solution and the temperature.",
+     "Variables are kept constant with equipment and technique: a thermostatically controlled water bath or incubator for temperature; a buffer solution for pH; a graduated pipette, syringe or graduated cylinder for volumes; the same cork borer and the same trimming to the same length for tissue; a stopwatch for timing.",
+     "Choose a range of at least five values of the independent variable spread across the range in which a change is expected, e.g. 0 °C to 60 °C in 10 °C steps for an enzyme, and add closer intervals around a key point such as an apparent optimum.",
+     "A preliminary (pilot) trial helps choose the range and checks that the method works.",
+     "Name variables precisely: “temperature” is an independent variable; “the enzyme” is not."
+    ]
+   },
+   {
+    "h": "Control and fair test",
+    "points": [
+     "A fair test is an investigation in which only the independent variable is changed and all other variables are controlled, so any change in the dependent variable can be put down to the independent variable.",
+     "A control (control experiment) is a set-up identical to the experiment in every way except that the factor being tested is absent or not applied. It is a standard for comparison, showing that the result is due to the factor being investigated.",
+     "Example of a control: boiled (denatured) enzyme used in place of active enzyme shows that the enzyme, rather than the substrate breaking down on its own, causes the reaction.",
+     "A negative control is a set-up expected to give no response, e.g. boiled enzyme, or distilled water in place of the test solution.",
+     "A positive control is a set-up known to give a response, which shows that the method can detect one, e.g. a known reducing sugar such as glucose in a food test.",
+     "Controlled variables and the control are different: controlled variables are the factors kept the same in every set-up, while the control is a separate set-up used for comparison. A question asking for “a control” needs a set-up, not a variable.",
+     "An investigation is valid if it actually measures what it sets out to measure and answers the question asked. This needs a fair test and a suitable dependent variable.",
+     "Example of an invalid investigation: if a lamp is moved closer to pondweed to increase light intensity and also warms the water, temperature has changed as well as light, so the investigation cannot show the effect of light alone.",
+     "A heat shield, such as a beaker of water between the lamp and the plant, restores validity by reducing the heating.",
+     "A conclusion is valid only if it is supported by data from a valid investigation."
+    ]
+   },
+   {
+    "b": "These terms are often used interchangeably, but they describe different things.",
+    "h": "Accuracy, precision and reliability",
+    "points": [
+     "Error in measurement is the difference between a measured value and the true value. Every measurement has some error, and error is not the same as a mistake. The types of error (random and systematic) are in Objectivity and data quality.",
+     "Accuracy is how close a measurement or a mean is to the true value. It is improved by calibrated equipment and a method that measures the right thing.",
+     "Precision is how close repeated measurements are to each other, meaning there is little spread around the mean.",
+     "The precision of an instrument is its resolution: the smallest change it can show. A balance reading to 0.01 g is more precise than one reading to 1 g, and a graduated pipette is more precise than a beaker for measuring 5 cm³.",
+     "Precise results need not be accurate: a balance that reads 0.5 g too high gives readings close to each other (precise) but all wrong (inaccurate).",
+     "Diagram: four targets showing accurate and precise; precise but not accurate; accurate on average but not precise; neither.",
+     "Reliability is how far results can be trusted because they are consistent when the investigation is repeated. It is judged by repeating the investigation (see Objectivity and data quality), and it is improved by replicates, repeats and a large sample size.",
+     "Replicates are several identical set-ups at each value of the independent variable, run at the same time, e.g. three potato cylinders in each sucrose concentration.",
+     "Repeats are carrying out the whole measurement again. Both allow a mean to be calculated and an anomalous result to be spotted (see Producing and analysing data).",
+     "Sample size is the number of organisms, samples or measurements in each group. Living things vary naturally: two potato cylinders, two leaves or two people are never identical.",
+     "A larger sample, chosen at random, reduces the effect of individual variation and gives a more representative and reliable result. Sample size is limited by time, cost, materials and the ethics of using organisms."
+    ]
+   },
+   {
+    "h": "Selecting suitable equipment",
+    "points": [
+     "Choose equipment whose resolution suits the size of the change: a syringe, graduated pipette or burette for small volumes rather than a beaker; a balance reading to at least 0.01 g for small masses; a stopwatch for time; a thermometer or temperature probe for temperature.",
+     "Choose equipment that measures objectively where possible. A colorimeter measures colour or cloudiness as a number instead of judging by eye.",
+     "A gas syringe or an inverted graduated cylinder over water measures the volume of gas, instead of counting bubbles, which vary in size.",
+     "Data loggers with sensors (temperature, pH, oxygen, light) record readings automatically at set intervals.",
+     "Justify each choice in the plan: say what it measures, why its resolution or range is suitable, and how it reduces error."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "A risk assessment is carried out before practical work. It identifies each hazard (anything that could cause harm), judges the risk (how likely and how serious the harm is) and states a control measure that reduces it.",
+     "General control measures: wear safety glasses and a lab coat; tie back long hair; heat with a water bath rather than a direct flame where possible; clean up spills at once; wash hands after practical work; never eat or drink in the laboratory.",
+     "Hot water baths and boiling tubes: use tongs or a test-tube holder.",
+     "Corrosive or irritant reagents such as hydrogen peroxide or Benedict’s reagent: wear glasses and gloves and avoid skin contact.",
+     "Sharp scalpels and cork borers: cut downwards onto a tile, away from the body.",
+     "Microorganisms: use aseptic technique, sealed plates and disinfected benches, and dispose of cultures by sterilising them (see Microorganisms).",
+     "Electrical equipment must be kept away from water.",
+     "Safety also covers the organisms used: living material should be treated with care and returned to its habitat where possible."
+    ]
+   },
+   {
+    "h": "Integrity and ethics",
+    "points": [
+     "Scientific integrity means honesty in how investigations are carried out and reported. Record all results as they were measured, including unexpected and anomalous ones.",
+     "Never invent results (fabrication) or change them to fit the hypothesis (falsification). Never present others’ work or data as your own (plagiarism), so acknowledge every source.",
+     "Integrity also means reporting limitations and errors openly, and not leaving out data because they do not support the hypothesis.",
+     "Ethics with animals: use animals only where there is no alternative, and cause the minimum harm or stress.",
+     "The 3Rs: Replace (use non-animal alternatives such as cell cultures or computer models), Reduce (use the fewest animals that give reliable results), and Refine (improve methods to minimise suffering).",
+     "Return organisms collected from the wild to where they were found.",
+     "Ethics with human participants covers informed consent (participants know what is involved and agree freely), the right to withdraw at any time, confidentiality of personal data, and no physical or psychological harm.",
+     "Investigations on people, e.g. measuring reaction time after a caffeinated drink, must take account of health conditions and exclude anyone at risk.",
+     "Ethics also covers the environment: avoid damaging habitats when collecting. The wider ethical, social and economic consequences of research are in Science, scientists and society."
+    ]
+   },
+   {
+    "b": "A plan must be detailed enough that someone else could repeat the investigation exactly. A worked outline for the effect of temperature on catalase shows the structure; the full method is in Enzymes.",
+    "h": "Writing the plan",
+    "points": [
+     "A plan states, in order: the question and hypothesis; the independent, dependent and controlled variables; the control; the equipment and reagents with reasons for choice; a numbered method with amounts, concentrations, times and temperatures; the number of replicates or repeats; how data will be recorded; a risk assessment; and ethical considerations.",
+     "Worked outline, catalase: the independent variable is temperature, with five or more values set with water baths.",
+     "Worked outline, catalase: the dependent variable is the volume of oxygen collected in a fixed time, and the controlled variables are pH (kept with a buffer), the volume and concentration of hydrogen peroxide, and the mass or volume of the enzyme source.",
+     "Worked outline, catalase: the control is boiled enzyme; there are three replicates at each temperature; and safety glasses are worn for hydrogen peroxide."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A controlled variable is a factor that is kept the same in every set-up so that it cannot affect the dependent variable. For temperature and enzyme activity, pH is a controlled variable, kept constant with a buffer solution. A control is a separate set-up, identical to the experiment in every way except that the factor being tested is absent. For this investigation, boiled (denatured) enzyme is used as the control. If the control shows no reaction, the reaction in the main set-ups can be attributed to the active enzyme rather than to the substrate breaking down on its own.",
+    "prompt": "Distinguish between a controlled variable and a control. Give an example of each for an investigation into the effect of temperature on enzyme activity.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Precision is the closeness of repeated measurements to each other, and it depends on the resolution of the instrument, which is the smallest change it can show. A balance that reads to 1 g cannot show changes in mass smaller than 1 g. Any change in mass smaller than 1 g cannot be detected, so the small differences between set-ups are lost in rounding, which reduces precision. A balance reading to 0.01 g would show these changes. Reliability can be improved by using replicates, which are several identical cylinders in each sucrose concentration run at the same time, so that a mean can be calculated and an anomalous result spotted. A second improvement is a larger sample size, chosen at random, or carrying out repeats of the whole measurement, which reduces the effect of natural variation between potato cylinders.",
+    "prompt": "A student measures the mass of potato cylinders using a balance that reads to 1 g. Explain why this reduces the precision of the results, and suggest two other ways the student could improve the reliability of the investigation.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Fairness: the investigation must be a fair test, so only the independent variable, whether a student has the caffeinated drink, is changed. The controlled variables include the same volume of drink, the same time before testing, the same reaction test and the same time of day. A control group is given a drink without caffeine, so that any difference in reaction time can be attributed to the caffeine. Safety: a risk assessment must identify the hazards and the control measures, and anyone with a health condition that could be affected by caffeine must be excluded. Ethics and integrity: each participant must give informed consent, know they can withdraw at any time, and have their personal data kept confidential. Integrity means every result is recorded as it was measured, including unexpected or anomalous results, and that results are never invented or changed to fit the hypothesis.",
+    "prompt": "Explain how fairness, safety and integrity should be considered when planning an investigation into the effect of a caffeinated drink on reaction time in a class group.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s3": {
+  "keyTerms": [
+   {
+    "definition": "Results and conclusions that depend on the evidence rather than on the investigator’s opinions, expectations or wishes.",
+    "term": "Objectivity"
+   },
+   {
+    "definition": "The unconscious influence of an investigator’s expectations on how results are measured, recorded or selected.",
+    "term": "Experimenter bias"
+   },
+   {
+    "definition": "Placing participants or samples into groups by chance, so that every individual has an equal chance of being in each group.",
+    "term": "Random allocation"
+   },
+   {
+    "definition": "A trial in which the participants do not know whether they are in the treatment group or the control group.",
+    "term": "Single-blind trial"
+   },
+   {
+    "definition": "A trial in which neither the participants nor the researchers giving the treatment and recording results know who is in which group until the results are analysed.",
+    "term": "Double-blind trial"
+   },
+   {
+    "definition": "A dummy treatment with no active ingredient that looks the same as the real treatment.",
+    "term": "Placebo"
+   },
+   {
+    "definition": "An improvement that occurs because a person expects a treatment to work.",
+    "term": "Placebo effect"
+   },
+   {
+    "definition": "Unpredictable variation that makes repeated measurements scatter on both sides of the true value.",
+    "term": "Random error"
+   },
+   {
+    "definition": "A consistent error that shifts every measurement in the same direction, so results are all too high or all too low.",
+    "term": "Systematic error"
+   },
+   {
+    "definition": "An instrument reading that is not zero when nothing is measured, which causes systematic error.",
+    "term": "Zero error"
+   },
+   {
+    "definition": "A systematic error caused by reading a scale from the same wrong angle every time.",
+    "term": "Parallax error"
+   },
+   {
+    "definition": "Describes results obtained when the same investigator repeats the investigation with the same method and equipment.",
+    "term": "Repeatable"
+   },
+   {
+    "definition": "Describes results obtained when a different person, or a different method or equipment, repeats the investigation and gets similar results.",
+    "term": "Reproducible"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Results and conclusions should depend on the evidence, not on the investigator’s opinions, expectations or wishes. A subjective judgement depends on the person making it.",
+    "h": "Objectivity",
+    "points": [
+     "Investigators can unconsciously influence results, e.g. by reading a scale generously, deciding later which results “count”, or judging a colour change sooner when they expect it. This is experimenter (observer) bias.",
+     "Measure with instruments and record numbers rather than judging by eye. For example, use a colorimeter instead of deciding when a blue-black starch–iodine colour has gone.",
+     "Iodine turns blue-black with starch, and the colour disappears as amylase digests the starch, so the end-point can be recorded as a number.",
+     "Decide the method, the end-point and how results will be analysed before collecting data, and record all results.",
+     "Allocate samples or participants to groups at random, and sample at random, e.g. using random coordinates for quadrats (see Investigating an Ecosystem).",
+     "Random allocation and random sampling mean every individual has an equal chance of being chosen or placed in a group, so the investigator’s choices cannot make one group different from another.",
+     "A single-blind trial hides the group from the participants: they do not know whether they are in the treatment group or the control group.",
+     "A double-blind trial hides the group from both the participants and the researchers who give the treatment and record the results, until the results are analysed. Double-blinding removes bias from the expectations of both.",
+     "A placebo is a dummy treatment with no active ingredient that looks the same as the real one, e.g. a sugar pill, given to the control group in a trial on people.",
+     "People given a placebo sometimes improve because they expect to (the placebo effect), so the real treatment must do better than the placebo to show that it works.",
+     "A placebo is a form of the control described in Designing and conducting investigations."
+    ]
+   },
+   {
+    "b": "Random error is unpredictable variation in measurements. It cannot be removed completely, but its effect can be reduced.",
+    "h": "Random error",
+    "points": [
+     "Random error makes repeated measurements scatter on both sides of the true value, by different amounts each time.",
+     "Sources in biology investigations include human reaction time when starting and stopping a stopwatch, judging an end-point colour by eye, and reading a scale between divisions.",
+     "Other sources include small fluctuations in water-bath temperature, and natural variation between biological samples: cylinders cut from different parts of a potato, leaves of different ages, or individuals of different fitness.",
+     "Random error reduces precision, so repeat readings spread out.",
+     "Random error is reduced by taking repeats and replicates and calculating a mean, because random errors partly cancel out.",
+     "Random error is also reduced by increasing the sample size, using more precise instruments or automatic measurement such as a data logger or colorimeter, and controlling the variables more tightly."
+    ]
+   },
+   {
+    "b": "Systematic error is a consistent error that affects every measurement in the same way, so it cannot be seen by repeating the measurement.",
+    "h": "Systematic error",
+    "points": [
+     "Systematic error shifts every measurement in the same direction by the same amount or proportion, so results are all too high or all too low.",
+     "An instrument that is not calibrated, or has a zero error, causes systematic error: e.g. a balance that reads 0.05 g with nothing on it, or a thermometer that reads 2 °C too high.",
+     "Reading a scale from the same wrong angle every time causes a parallax error.",
+     "A flaw in the method that is repeated every time also causes systematic error: e.g. never blotting potato cylinders dry, so every mass includes surface solution, or a leaking delivery tube, so some gas is never collected.",
+     "Systematic error reduces accuracy but not precision: repeats can agree closely and still all be wrong.",
+     "Repeating the measurement does not reduce systematic error, because the same error occurs every time.",
+     "Systematic error is reduced by calibrating instruments against a known standard, zeroing (taring) the balance before use, reading scales at eye level, and improving the method.",
+     "Comparing results with another method or with published values can reveal systematic error.",
+     "Random and systematic error compared: random error is unpredictable, occurs in both directions, affects precision, and is reduced by repeats and means; systematic error is consistent, occurs in one direction, affects accuracy, is not reduced by repeats, and is reduced by calibration and a better method.",
+     "Mistakes, such as spilling a sample, misreading a number or using the wrong solution, are neither random nor systematic error. The result is discarded and the measurement repeated.",
+     "Avoid the vague phrase “human error” in answers: name the specific source and its effect.",
+     "Diagram: a number line or target showing a true value, with (a) readings scattered on both sides (random error) and (b) readings clustered together but all displaced to one side (systematic error)."
+    ]
+   },
+   {
+    "b": "Repeatability and reproducibility are two tests of whether data can be trusted, and they differ in who repeats the investigation and how.",
+    "h": "Repeatability and reproducibility",
+    "points": [
+     "Repeatable: the same investigator, using the same method and equipment under the same conditions, repeats the investigation and gets the same or very similar results.",
+     "Reproducible: a different person or group repeats the investigation, or uses different equipment or a different method, and obtains similar results.",
+     "To evaluate data for repeatability, compare the repeats or replicates for each value of the independent variable. A small range (spread) means the data are repeatable and precise; a large range shows high random error or an uncontrolled variable.",
+     "To evaluate data for reproducibility, compare the class’s results with other groups’ results, or with secondary data from a textbook or published source. Agreement increases confidence that the results are reliable and not due to one person’s error or equipment.",
+     "Results that are repeatable but not reproducible point to a systematic error or a feature of one set-up, e.g. one group’s balance or one batch of potatoes.",
+     "Repeatable and reproducible data increase confidence in a conclusion but do not make it certain."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Random error is unpredictable variation that makes repeated measurements scatter on both sides of the true value, by different amounts each time. It reduces precision and is reduced by taking repeats and calculating a mean. An example is natural variation between potato cylinders cut from different parts of a potato, so their masses differ. Systematic error is a consistent error that shifts every measurement in the same direction by the same amount or proportion. It reduces accuracy and is not reduced by repeats. An example is never blotting the potato cylinders dry, so every mass includes surface solution and all the results are too high.",
+    "prompt": "Distinguish between random error and systematic error. Give a biological example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A double-blind trial is one in which neither the participants nor the researchers who give the treatment and record the results know who is in the treatment group or the control group until the results are analysed. This removes bias from the expectations of both participants and researchers. A placebo is a dummy treatment with no active ingredient that looks the same as the real medicine, and it is given to the control group. It acts as a control, because people given a placebo sometimes improve because they expect to, which is the placebo effect. The new medicine must therefore do better than the placebo to show that its active ingredient works. The placebo is not the treatment itself.",
+    "prompt": "Explain what is meant by a double-blind trial and why a placebo is used when testing a new medicine.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Group A’s data are repeatable, because the three replicates were very close together, showing a small range and high precision, and the same group repeating the investigation with the same method would get similar results. The data are not reproducible, because they disagree with Group B’s results and the textbook values, so a different group using a different set-up did not obtain similar results. Because the readings agree closely but are all displaced in one direction, the cause is most likely a systematic error, such as not blotting the cylinders dry so every mass includes surface solution, or a balance with a zero error. Repeating the measurements would not remove this error, because the same error occurs each time. It should be found and fixed by calibrating the balance against a known standard, zeroing it before use, or improving the method, and then the investigation should be repeated to check reproducibility.",
+    "prompt": "Two groups measured the change in mass of potato cylinders in the same sucrose solutions. Group A’s three replicates were very close to each other but all higher than Group B’s and the textbook values. Evaluate Group A’s data in terms of repeatability and reproducibility and suggest a cause.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s4": {
+  "keyTerms": [
+   {
+    "definition": "Descriptions or categories that are not numerical.",
+    "term": "Qualitative data"
+   },
+   {
+    "definition": "Numerical measurements or counts, with units.",
+    "term": "Quantitative data"
+   },
+   {
+    "definition": "Data that can take any value within a range, such as mass, temperature or time.",
+    "term": "Continuous data"
+   },
+   {
+    "definition": "Data that are whole-number counts, such as the number of seeds.",
+    "term": "Discrete data"
+   },
+   {
+    "definition": "Data that are named groups, such as eye colour or habitat type.",
+    "term": "Categoric data"
+   },
+   {
+    "definition": "Data collected by the investigator themselves.",
+    "term": "Primary data"
+   },
+   {
+    "definition": "Data collected by somebody else, such as published results or databases.",
+    "term": "Secondary data"
+   },
+   {
+    "definition": "The sum of a set of values divided by the number of values, with anomalous values left out.",
+    "term": "Mean"
+   },
+   {
+    "definition": "The largest value minus the smallest value in a set of data, showing its spread.",
+    "term": "Range"
+   },
+   {
+    "definition": "The final value minus the initial value, divided by the initial value, multiplied by 100.",
+    "term": "Percentage change"
+   },
+   {
+    "definition": "The amount of change divided by the time taken.",
+    "term": "Rate"
+   },
+   {
+    "definition": "A result that does not fit the pattern of the other results, such as a repeat far from the others at the same value.",
+    "term": "Anomalous result"
+   },
+   {
+    "definition": "Reading a value from a graph between plotted points.",
+    "term": "Interpolation"
+   },
+   {
+    "definition": "Extending a line beyond the data range to predict a value, which is less reliable.",
+    "term": "Extrapolation"
+   },
+   {
+    "definition": "A relationship in which one variable increases as the other increases.",
+    "term": "Positive correlation"
+   },
+   {
+    "definition": "A relationship in which one variable increases as the other decreases.",
+    "term": "Negative correlation"
+   },
+   {
+    "definition": "A third variable that affects both measured variables, so that they appear related when one does not cause the other.",
+    "term": "Confounding variable"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Types of data",
+    "points": [
+     "Qualitative data are descriptions or categories that are not numerical, e.g. a positive Benedict’s test for a reducing sugar, which turns from blue to brick-red through green, yellow and orange; the presence or absence of a species; or “cloudy” or “clear”.",
+     "Quantitative data are numerical measurements or counts with units, e.g. volume of oxygen in cm³, mass in g, or number of daisies per quadrat.",
+     "Quantitative data are more objective and can be analysed mathematically, so they are preferred where possible. A qualitative result can often be made quantitative, e.g. a colorimeter reading instead of a colour.",
+     "Continuous data can take any value in a range, e.g. mass, temperature or time.",
+     "Discrete data are whole-number counts, e.g. number of seeds or number of stomata.",
+     "Categoric data are named groups, e.g. eye colour or type of habitat.",
+     "Primary data are collected by the investigator. Secondary data are collected by somebody else, e.g. published results, databases or other groups’ results.",
+     "Selecting data means choosing the data that are relevant to the question and of good enough quality. Secondary data can extend or check primary data; how to evaluate a secondary source is in Recognising bias and evaluating sources."
+    ]
+   },
+   {
+    "h": "Recording results in a table",
+    "points": [
+     "The independent variable goes in the first column. The dependent variable goes in the following columns, with a column for each repeat and a column for the mean.",
+     "Each column heading gives the quantity and its unit, e.g. “Temperature (°C)” or “Volume of oxygen (cm³)”. Units go in the heading, not after every number.",
+     "Record every reading to the same number of decimal places, matching the resolution of the instrument. A balance reading to 0.01 g gives 2.45 g, not 2.4 g or 2.453 g.",
+     "List the values of the independent variable in order.",
+     "Record raw results straight into the table during the investigation, including any that look wrong."
+    ]
+   },
+   {
+    "b": "These calculations use the worked numbers below, which are checked and illustrative.",
+    "h": "Processing data",
+    "points": [
+     "Mean: add the values and divide by the number of values. Anomalous values are left out of the mean, and the fact is stated.",
+     "Worked example for the mean: the final masses of four replicate potato cylinders are 2.45 g, 2.44 g, 2.46 g and 2.10 g. The value 2.10 g is anomalous, so the mean of the other three is (2.45 + 2.44 + 2.46) ÷ 3 = 7.35 ÷ 3 = 2.45 g.",
+     "Range: the largest value minus the smallest. It shows the spread of repeat readings, and a small range means the readings are precise.",
+     "Worked example for the range: 2.46 − 2.44 = 0.02 g, a small spread, so the readings are precise.",
+     "The range of the independent variable is the lowest to highest value tested, e.g. 0 °C to 60 °C.",
+     "Percentage change = (final value − initial value) ÷ initial value × 100. It allows samples that started with different masses to be compared.",
+     "Worked example for percentage change: a cylinder with an initial mass of 2.50 g and a final mass of 2.45 g has a percentage change of (2.45 − 2.50) ÷ 2.50 × 100 = −2.0%.",
+     "A negative percentage change is a loss, and a positive value is a gain.",
+     "Rate = amount of change ÷ time. For example, 24 cm³ of oxygen in 4 minutes is a rate of 6 cm³ per minute.",
+     "When the time taken for something to happen is measured, e.g. the time for starch to disappear, the rate can be calculated as 1 ÷ time. A time of 50 s gives 1 ÷ 50 = 0.02 s⁻¹.",
+     "A shorter time means a faster rate."
+    ]
+   },
+   {
+    "h": "Choosing and drawing graphs",
+    "points": [
+     "Line graph: used when both variables are continuous, e.g. rate of enzyme activity against temperature.",
+     "Bar chart: used when the independent variable is categoric or discrete, e.g. the number of a species in three habitats. Bars are separate and of equal width.",
+     "Histogram: shows the frequency of a continuous variable divided into classes, e.g. the number of students in each height range. Bars touch.",
+     "Scatter graph: used to look for a correlation between two measured variables, e.g. light intensity and the number of a plant species in quadrats.",
+     "Pie chart: shows proportions of a whole, e.g. the percentage of each blood group in a class.",
+     "The independent variable goes on the horizontal (x) axis and the dependent variable on the vertical (y) axis. Label both with the quantity and unit.",
+     "Use even, linear scales that use more than half of the grid in each direction. The scale need not start at zero if the data do not come near zero, but this must be shown clearly.",
+     "Plot points accurately as small crosses or circled dots, and plot the means.",
+     "Draw a line or smooth curve of best fit that shows the trend, with points balanced on either side. Where no trend line can be assumed, join the points with straight ruled lines.",
+     "Do not force the line through an anomalous point.",
+     "Give the graph a title in the form “the effect of [independent variable] on [dependent variable]”.",
+     "Diagram: a line graph of rate of enzyme activity against temperature, with labelled axes and units, plotted points, a smooth curve rising to a peak (optimum) and falling, and one circled anomalous point off the curve."
+    ]
+   },
+   {
+    "h": "Identifying patterns and relationships",
+    "points": [
+     "Describe the trend in words and quote data, e.g. “the rate increased from 2 to 8 cm³ per minute as temperature rose from 10 °C to 40 °C, then fell to zero by 60 °C”.",
+     "Name key features of a graph: a peak or optimum, a plateau (levelling off), and the point where a line crosses zero.",
+     "A positive correlation means that as one variable increases, the other increases. A negative correlation means that as one increases, the other decreases. No correlation means there is no pattern.",
+     "A straight line through the origin shows that the variables are directly proportional.",
+     "Diagram: three small scatter graphs showing positive, negative and no correlation.",
+     "Interpolation is reading a value from the graph between plotted points.",
+     "Extrapolation is extending the line beyond the data range to predict a value. It is less reliable, because the pattern may not continue, e.g. an enzyme’s rate does not keep rising with temperature.",
+     "The gradient of a line graph of amount against time is the rate. A steeper line means a faster rate, and a line levelling off means the reaction is slowing, e.g. as substrate is used up."
+    ]
+   },
+   {
+    "h": "Correlation and causation",
+    "points": [
+     "A correlation shows that two variables change together. It does not show that one causes the other.",
+     "Other explanations of a correlation are chance, especially with a small sample; a third variable (a confounding variable) that affects both; or a cause that runs the other way.",
+     "Illustrative example: people who carry cigarette lighters are more likely to develop lung cancer, but the lighter does not cause cancer. Smoking, the third variable, causes both.",
+     "Evidence that one variable causes a change in another comes from a controlled experiment (a fair test with a control), together with a biological mechanism that explains it.",
+     "Surveys and secondary data alone usually show correlation (the strategies are compared in Questioning and predicting)."
+    ]
+   },
+   {
+    "h": "Anomalous results",
+    "points": [
+     "An anomalous result (outlier) does not fit the pattern of the other results. It is far from the other repeats at the same value, or off the line of best fit on a graph.",
+     "Possible causes are a mistake in measuring or recording, an uncontrolled variable, faulty equipment, or an unusual biological sample.",
+     "Check the reading and the calculation, and repeat that measurement if possible.",
+     "Leave the anomalous result out of the mean and the line of best fit, but keep it in the results table and report it with a possible reason (see Designing and conducting investigations on integrity).",
+     "A result is not anomalous just because it disagrees with the hypothesis. If repeats confirm it, it may show the hypothesis is wrong or reveal something new."
+    ]
+   },
+   {
+    "h": "Drawing and justifying conclusions",
+    "points": [
+     "A conclusion states the relationship found between the independent and dependent variables, e.g. “As sucrose concentration increased, the percentage change in mass of the potato cylinders decreased.”",
+     "A conclusion is justified with evidence: quote values or describe the trend in the graph, and say whether the data support or do not support the hypothesis. Never say that the data prove it.",
+     "A conclusion explains the result using biological knowledge, e.g. water left the cells by osmosis into the more concentrated solutions.",
+     "A conclusion is limited to what was tested: the range of the independent variable, the organism or tissue used, and the conditions. It does not claim more than the data show.",
+     "Confidence in a conclusion depends on whether the test was fair and valid, the sample size, the number of repeats, the spread of the data, the number of anomalies, and whether the results are repeatable and reproducible (see Objectivity and data quality).",
+     "A conclusion is valid when it is supported by valid, reliable data."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The value 2.10 g is anomalous, because it is far from the other three repeats at the same value. It is left out of the mean and the range, and this is stated, but it is kept in the results table and reported with a possible reason, such as a mistake in measuring or an unusual cylinder. The mean of the other three readings is (2.45 + 2.44 + 2.46) ÷ 3 = 7.35 ÷ 3 = 2.45 g. The range of these three readings is 2.46 − 2.44 = 0.02 g, a small spread, so the readings are precise.",
+    "prompt": "Calculate the mean and the range of these four repeat readings: 2.45 g, 2.44 g, 2.46 g and 2.10 g, and explain how you treated any anomalous result.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A line graph is used because both variables are continuous: temperature can take any value in a range, and the rate of enzyme activity is a measured quantity that changes smoothly with it. A bar chart is used when the independent variable is categoric or discrete, with separate bars of equal width. Three features of a well-drawn graph are: the independent variable is on the horizontal (x) axis and the dependent variable on the vertical (y) axis, with both labelled with the quantity and unit; the scales are even and linear and use more than half of the grid in each direction; and the means are plotted accurately, with a smooth curve of best fit that shows the trend and does not pass through an anomalous point. The graph also needs a title in the form “the effect of [independent variable] on [dependent variable]”.",
+    "prompt": "Explain why a line graph, not a bar chart, is used to show the effect of temperature on enzyme activity, and state three features of a well-drawn graph.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "(a) This is a negative correlation: as the number of lichen species increases, the level of air pollution decreases. (b) A correlation shows that two variables change together, but not that one causes the other. The relationship could be due to chance, especially if the sample is small, or to a third variable that affects both lichen diversity and air pollution, such as humidity or tree type. Pollution might also not be the cause at all. (c) A conclusion about cause needs a controlled experiment, which is a fair test with a control, so that only the suspected cause is changed and the other variables are kept the same, together with a biological mechanism that explains how the pollutant would reduce lichen diversity. The conclusion must then be justified by quoting the data and limited to the range, organism and conditions tested, and the evidence is stronger when the results are repeatable and reproducible.",
+    "prompt": "A survey finds that areas with more lichen species have lower levels of air pollution. (a) Describe the correlation. (b) Explain why this does not on its own show that pollution reduces lichen diversity. (c) Describe how a conclusion about cause could be justified.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s5": {
+  "keyTerms": [
+   {
+    "definition": "Judging how well a method answered the question and how far the data can be trusted, and saying what should change.",
+    "term": "Evaluation"
+   },
+   {
+    "definition": "A specific weakness in an investigation and its effect on the results.",
+    "term": "Limitation"
+   },
+   {
+    "definition": "A dated record of plans, decisions, changes, raw data, problems and ideas kept as an investigation is carried out.",
+    "term": "Investigative log"
+   },
+   {
+    "definition": "Looking back at the investigator’s own decisions, problems and changes, in order to improve future work.",
+    "term": "Reflection"
+   },
+   {
+    "definition": "A further question or investigation that follows from the results of an evaluation.",
+    "term": "Extension"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Evaluating judges how well the method answered the question and how far the data can be trusted, then says what should change. It is separate from the conclusion, which states what was found.",
+    "h": "Evaluating an investigation",
+    "points": [
+     "Strengths: say what worked and why, e.g. variables well controlled with a water bath and a buffer, enough replicates, a small range in repeat readings, and results that agree with other groups.",
+     "Limitations: identify specific weaknesses and their effect on the results, e.g. a variable that could not be controlled, too few values of the independent variable to locate an optimum, a small sample, an end-point judged by eye, or an anomaly that could not be repeated.",
+     "Name each source of error as random or systematic (the types are in Objectivity and data quality).",
+     "Confidence: state how confident you are in the conclusion and why, linking to the evidence, such as the spread of the data, the repeats and whether the test was fair.",
+     "Improvements must be specific and say how each one improves the data. “Use a colorimeter instead of judging the colour by eye, to remove a subjective judgement and reduce random error” is specific.",
+     "Further specific improvements: “test at 2 °C intervals between 30 °C and 50 °C to locate the optimum more precisely”; “use five replicates instead of two, to reduce the effect of natural variation”; “calibrate the balance against a known mass, to remove a systematic error”.",
+     "“Be more careful” or “do it again” earns nothing.",
+     "An evaluation can suggest a new question or an extension, e.g. testing the same enzyme at different pH values, or testing a different tissue. Investigation is iterative: results lead to a revised hypothesis or method."
+    ]
+   },
+   {
+    "b": "Reflection looks back at the investigator’s own decisions as well as at the data.",
+    "h": "Reflecting on skills and thinking",
+    "points": [
+     "Reflection covers why the question and hypothesis were chosen, how the method was planned, what problems arose and how they were solved, and what changed during the work and why.",
+     "An investigative log is a dated lab notebook that records plans, decisions, changes, raw data, problems and ideas as the work happens.",
+     "A log makes reflection honest and specific, because it shows how the work actually unfolded rather than how it was meant to go.",
+     "Good reflection identifies the skills used, such as planning, measuring, handling equipment, recording, analysing, working in a team and finding and using sources, and says which went well and which to improve next time.",
+     "An investigation that does not support its hypothesis, or gives unexpected results, is still valuable: explaining why is good scientific thinking."
+    ]
+   },
+   {
+    "b": "Exam questions describe investigations the student has not done before. Use the same steps each time.",
+    "h": "Applying skills to unfamiliar contexts",
+    "points": [
+     "Step 1: find the question being asked.",
+     "Step 2: identify the independent variable (what was changed) and the dependent variable (what was measured).",
+     "Step 3: list the variables that should be controlled and how.",
+     "Step 4: suggest a suitable control.",
+     "Step 5: state a prediction using biological knowledge.",
+     "Step 6: read the data or graph for the trend and any anomaly.",
+     "Step 7: draw a conclusion, and give a limitation and an improvement.",
+     "Worked example, step 2: for “Does the length of time spent exercising affect pulse rate?”, the independent variable is exercise time (e.g. 0, 1, 2, 3 or 4 minutes of stepping), and the dependent variable is pulse rate in beats per minute, measured straight after exercise.",
+     "Worked example, step 3: the controlled variables are the type and pace of exercise, rest before starting, the way pulse is measured (same site, counted for the same time), and the time of day.",
+     "Worked example, step 4: the control is the resting pulse of participants with no exercise.",
+     "Worked example, sample: a larger group chosen at random gives more reliable results, because fitness, age and health vary between people.",
+     "Worked example, ethics: participants give informed consent and may withdraw at any time, and anyone with a health condition is excluded.",
+     "Worked example, prediction: pulse rate increases with exercise time. Pulse rate increases during exercise because respiring muscles need more oxygen and glucose, so the heart beats faster, and the increase may level off.",
+     "Transferable checks for any unfamiliar context: Is it a fair test? Is the sample big enough and random? Was there a control? Could a correlation have another cause? Are there ethical issues with the organisms or people used?"
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The weakness is that the end-point is a subjective judgement made by eye, so the time recorded depends on the student’s judgement and varies from one reading to the next. This is a source of random error, which reduces the precision of the results. A specific improvement is to use a colorimeter, which measures the colour as a number, so the end-point is recorded objectively and the random error is reduced.",
+    "prompt": "A student judged by eye when a starch–iodine mixture lost its blue-black colour. Identify the weakness in this method and suggest a specific improvement.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "An investigative log records plans, decisions, changes, raw data, problems and ideas as the work happens. Reflection looks back at the investigator’s own decisions, such as why the question and hypothesis were chosen, how the method was planned, and what changed during the work and why. Because the log is written at the time, it shows how the work actually unfolded rather than how it was meant to go, which makes the reflection honest and specific. The log also makes it possible to identify the skills used, such as planning, measuring and recording, to say which went well, and to identify which to improve next time.",
+    "prompt": "Explain why keeping an investigative log helps a student review and reflect on an investigation.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The independent variable is the length of time spent exercising, e.g. 0, 1, 2, 3 or 4 minutes of stepping. The dependent variable is pulse rate in beats per minute, measured straight after exercise. Two controlled variables are the type and pace of exercise, and the way pulse is measured, at the same site and counted for the same time. The control is the resting pulse of participants with no exercise, which is the standard for comparison. One ethical consideration is informed consent: participants must know what is involved, agree freely, and be able to withdraw at any time, and anyone with a health condition must be excluded. The predicted result is that pulse rate increases with exercise time, because respiring muscles need more oxygen and glucose, so the heart beats faster; the increase may level off as the exercise continues.",
+    "prompt": "A student plans to investigate whether the length of time spent exercising affects pulse rate. Identify the independent and dependent variables, two controlled variables, a suitable control and one ethical consideration, and predict the result.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s6": {
+  "keyTerms": [
+   {
+    "definition": "A short summary of the aim, method, main results and conclusion at the start of a scientific paper.",
+    "term": "Abstract"
+   },
+   {
+    "definition": "A list of the sources cited in a report, giving the author or organisation, year, title and where each was published.",
+    "term": "Reference list"
+   },
+   {
+    "definition": "The two-part scientific name of an organism, made up of the genus (capital letter) and the species (lower-case letter).",
+    "term": "Binomial name"
+   },
+   {
+    "definition": "The standard units used in science, such as g, cm³, °C, s and mm, which should be written with every quantity.",
+    "term": "SI units"
+   },
+   {
+    "definition": "A two-dimensional drawing of apparatus or a structure as it would appear when cut straight through.",
+    "term": "Cross-section diagram"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A report is organised in standard sections so that a reader can follow the investigation and repeat it.",
+    "h": "The scientific report",
+    "points": [
+     "Sections in order: title; aim or question; hypothesis and prediction; background (the biological theory behind the hypothesis, with sources); equipment and materials; method; risk assessment and ethical considerations; results (tables and graphs); analysis (calculations, patterns and anomalies); conclusion; evaluation (limitations, sources of error and improvements); and references.",
+     "The method is written as numbered steps with exact quantities, concentrations, times and temperatures, usually in the past tense and impersonal style, e.g. “10 cm³ of hydrogen peroxide was added”, with enough detail for someone else to reproduce it.",
+     "A scientific paper written for other scientists begins with an abstract: a short summary of the aim, method, main results and conclusion, so that readers can decide quickly whether it is relevant.",
+     "Results sections present data and do not explain them. Explanation belongs in the analysis and the conclusion."
+    ]
+   },
+   {
+    "b": "The same findings are communicated differently depending on who will read them and why: the audience’s background knowledge, what they need to know, and what they will do with it.",
+    "h": "Fit for purpose and audience",
+    "points": [
+     "Scientists and examiners need a full report or paper, with technical terms used precisely, full data, methods and limitations, and references.",
+     "The general public needs plain language, with technical terms explained or avoided, the main finding and why it matters given first, and simple graphs or infographics.",
+     "The general public also needs uncertainty stated honestly, without exaggeration. Formats include a poster, article, presentation, video, infographic and social media post.",
+     "Decision-makers, e.g. a school board, a council or a health service, need a short summary of the evidence, its reliability and its implications, with recommendations.",
+     "A poster or presentation is selective: a clear title, the question, a brief method, one or two key graphs and the conclusion, with little text. A full report includes everything."
+    ]
+   },
+   {
+    "h": "Scientific terminology",
+    "points": [
+     "Use precise scientific terms with their correct meanings, e.g. “independent variable”, “control”, “precise”, “accurate”, “reliable” and “anomalous”, which are defined in the other notes on this chapter.",
+     "Use biological terms precisely: write “denatured” rather than “killed” for an enzyme, and “osmosis” rather than “soaking up water”.",
+     "Use SI units and their symbols consistently: g and kg, cm³ and dm³, °C, s and min, and mm and µm. Write a unit with every quantity.",
+     "Write scientific names of organisms in binomial form, with the genus in capital letters and the species in lower-case letters, in italics in print or underlined by hand, e.g. Homo sapiens.",
+     "Avoid vague words such as “a lot”, “it worked” or “the results were good”. State what changed, by how much and in which direction."
+    ]
+   },
+   {
+    "h": "Representations",
+    "points": [
+     "Choose the representation that best shows the point to the audience. A table gives exact values; a graph shows a trend or comparison (graph types are in Producing and analysing data).",
+     "A labelled diagram shows apparatus or a structure; a flow chart shows the steps of a method or process; a photograph records a result, e.g. a colour change or colonies on an agar plate.",
+     "A diagram of apparatus is drawn in two dimensions as a cross-section, in pencil. Ruled label lines touch the part labelled and do not cross.",
+     "Biological drawings use clear single lines with no shading, labels to the side, and a title with magnification or scale where relevant.",
+     "Every table, graph and figure has a title or caption and is referred to in the text."
+    ]
+   },
+   {
+    "h": "Integrity in communicating",
+    "points": [
+     "Report all results honestly, including anomalies and results that do not support the hypothesis, and state the limitations.",
+     "Acknowledge every source by citing it in the text and giving a reference list. A reference gives at least the author or organisation, the year, the title and where it was published.",
+     "For a website, the reference gives the web address and the date it was accessed.",
+     "Do not exaggerate findings. A small school investigation cannot show that something is true in general, and communication to the public should not overstate certainty.",
+     "Digital tools support communication: spreadsheets record, process and graph data; presentation and word-processing software produce reports and posters; and data loggers collect and display data.",
+     "The specification’s digital technology section names using digital technology to collect, record, analyse and display data, and to develop investigative research, communication and report-writing skills."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "First, a report for other scientists uses precise technical terms, whereas a poster for the public uses plain language and explains or avoids technical terms. Second, a report includes the full data, the full method and the limitations, whereas a poster is selective, with a brief method, one or two key graphs and the conclusion, and little text. Third, a report includes references to every source cited, whereas a poster gives the main message first and why it matters, with simple graphs or an infographic. In both cases uncertainty must be stated honestly and without exaggeration.",
+    "prompt": "State three ways a report of an investigation for other scientists differs from a poster presenting the same findings to the public.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The method section must be detailed enough that someone else can repeat the investigation exactly. This allows other scientists to check the results and to test whether they are reproducible. The method is written as numbered steps, usually in the past tense and impersonal style, giving exact quantities, concentrations, times and temperatures. It should include the equipment and materials used, the steps taken in order, the number of replicates or repeats, and how the data were recorded.",
+    "prompt": "Explain why the method section of a scientific report must be written in detail, and list the information it should include.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "First, the student reports all results honestly, including anomalies and results that do not support the hypothesis, and states the limitations of the investigation. Second, the student acknowledges every source by citing it in the text and giving a reference list, so that the work of others is not presented as the student’s own. Third, the student does not exaggerate the findings: a small school investigation cannot show that something is true in general, and any communication to the public should not overstate certainty.",
+    "prompt": "Describe three ways a student can show integrity when communicating the results of an investigation.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio2-s7": {
+  "keyTerms": [
+   {
+    "definition": "The additional assessment component, worth 40%, in which students research an issue, carry out an experiment and submit a report to the SEC.",
+    "term": "Biology in Practice Investigation"
+   },
+   {
+    "definition": "The document published by the SEC every year, setting out the specific requirements of that year’s investigation.",
+    "term": "Investigation Brief"
+   },
+   {
+    "definition": "The four criteria, with high, moderate and low wording, against which the Biology in Practice Investigation is judged.",
+    "term": "Descriptors of quality"
+   },
+   {
+    "definition": "A response to the brief that draws on both the student’s research and experiment to support its conclusions.",
+    "term": "Evidence-based argument"
+   },
+   {
+    "definition": "Material included in the Investigation Brief to set the context for the investigation.",
+    "term": "Stimulus material"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What it is and how it is weighted",
+    "points": [
+     "Leaving Certificate Biology has two assessment components: a written examination worth 60%, at Higher and Ordinary level, and an additional assessment component, the Biology in Practice Investigation, worth 40%.",
+     "The investigation is based on a common brief, which is the same for all students and is not set at two levels. Only the written examination has a Higher and an Ordinary level.",
+     "Both components are set and examined by the State Examinations Commission (SEC).",
+     "Students complete the work during the course and, in Year 2 (sixth year), submit to the SEC evidence of their ability to conduct scientific research on a particular issue and to use appropriate primary data to investigate aspects of that issue.",
+     "The specification envisages that the investigation will take up to 20 hours to complete. Further details are given in the Guidelines for the Biology in Practice Investigation."
+    ]
+   },
+   {
+    "h": "Purpose of the investigation",
+    "points": [
+     "It gives students an opportunity to display evidence of their learning throughout the course, in particular the learning in the Unifying Strand (Nature of Science): the outcomes in this chapter and in Scientific Knowledge, Science in Society and Biological Reasoning.",
+     "It is designed to be integrated into the flow of teaching and learning, to be motivating and relevant, to draw together the learning outcomes and the cross-cutting themes of Health, Sustainability and Technology, and to show the relevance of biology to students’ lives.",
+     "It lets students pursue their own interests in biology, make their own investigative decisions, gain a depth of conceptual understanding and self-regulate their learning.",
+     "The specification stresses that research and experimentation are “more about engaging with and learning from the process, rather than seeking a perfect answer”. Students should give an authentic account of how their investigative work unfolded, discuss and explain the outcomes of the investigation, and say how they might revise aspects of the process. How to evaluate and reflect is in Reflecting on investigations."
+    ]
+   },
+   {
+    "h": "The Investigation Brief",
+    "points": [
+     "The SEC publishes an Investigation Brief every year, in term two of Year 1 (fifth year) of the course.",
+     "The brief sets out the specific requirements of the investigation for that year.",
+     "The brief allows students to develop their thinking and ideas on areas related to the brief that they would like to pursue.",
+     "The brief helps teachers and students plan, and includes stimulus material to set a context for the investigation.",
+     "The brief allows students to develop an investigative log that they can draw on as they complete the investigation. Logs in general are described in Reflecting on investigations."
+    ]
+   },
+   {
+    "b": "The work has two parts, followed by an evidence-based argument and a submitted report.",
+    "h": "The two parts of the work",
+    "points": [
+     "Part 1 is scientific research on an issue related to the brief. Students gather, process and evaluate information from secondary sources, and what they learn may help to inform their experimental work. Evaluating sources and bias is in Recognising bias and evaluating sources.",
+     "Part 2 is an experiment related to an issue within the brief. Students generate a hypothesis, plan and design their experiment, carry it out and gather primary data, then analyse the data and form conclusions.",
+     "The skills for Part 2 are in Questioning and predicting, Designing and conducting investigations, Objectivity and data quality and Producing and analysing data.",
+     "Students then develop an evidence-based argument in response to the brief, drawing on both their research and their experiment.",
+     "On completion, students submit a report of the investigation in Year 2, in a format prescribed by the SEC. General report-writing skills are in Communicating results; the SEC sets the actual format.",
+     "Schools have a high degree of autonomy in planning and organising the completion of the investigation. A separate document, Guidelines for the Biology in Practice Investigation, gives guidance on its organisation, implementation and oversight."
+    ]
+   },
+   {
+    "h": "What the investigation requires",
+    "points": [
+     "The investigation requires students to consider issues related to real-world applications of biology.",
+     "It requires students to demonstrate investigative skills, to relate their investigative work to the work of scientists in society, and to communicate their findings appropriately and effectively."
+    ]
+   },
+   {
+    "h": "Descriptor 1: knowledge and understanding",
+    "points": [
+     "High: engage thoroughly with the concepts being investigated; explain clearly and accurately, using appropriate means, the biological phenomena involved; and, where applicable, pose a testable hypothesis that is underpinned by biological theory and clearly describe the purpose of the investigation.",
+     "Moderate: good engagement with the concepts; describe the biological phenomena involved; and, where applicable, pose a testable hypothesis and outline the purpose of the investigation.",
+     "Low: limited engagement with the concepts; outline the biological phenomena involved; and are provided with a testable hypothesis to investigate."
+    ]
+   },
+   {
+    "h": "Descriptor 2: investigative skills, design and method",
+    "points": [
+     "High: clear, thorough and appropriate investigative design and methods to collect primary data, leading to high quality data, presentation and analysis.",
+     "Moderate: clear and appropriate design and methods, leading to good quality data, presentation and analysis.",
+     "Low: unclear design and methods, leading to limited data, presentation and analysis."
+    ]
+   },
+   {
+    "h": "Descriptor 3: investigative skills, analysis and conclusions",
+    "points": [
+     "High: draw valid conclusions that are justified by the data and relate to any hypotheses made; thoroughly evaluate the investigation, acknowledging sources of error in the investigative design.",
+     "Moderate: draw conclusions that relate to any hypotheses made; identify potential sources of error in the investigative design.",
+     "Low: draw limited conclusions; potential sources of error in the investigative design are not identified."
+    ]
+   },
+   {
+    "h": "Descriptor 4: relating investigative work to the work of scientists in society",
+    "points": [
+     "High: offer a considered reflection that locates the outcomes of the investigation within broader issues relating to the work of a scientist or science and society.",
+     "Moderate: reflect on how the outcomes relate to the work of a scientist or science and society.",
+     "Low: make limited links between the outcomes and the work of a scientist or science and society."
+    ]
+   },
+   {
+    "b": "This is study advice drawn from the wording of the descriptors, not an SEC rule.",
+    "h": "Using the descriptors (study advice)",
+    "points": [
+     "The differences between levels are in the verbs and qualifiers: “explain clearly and accurately” against “describe” against “outline”; “thoroughly evaluate” against “identify” against not identifying errors; and “considered reflection” within “broader issues” against “limited links”.",
+     "Posing your own testable hypothesis, grounded in biological theory, is a feature of the high and moderate levels. Being given a hypothesis is described at the low level.",
+     "Acknowledging and evaluating sources of error in the design is expected for high achievement. A perfect result is not required, but an honest evaluation is.",
+     "The fourth descriptor needs explicit links between the student’s own findings and the work of scientists or wider issues in science and society, e.g. how scientists would investigate the same issue on a larger scale, or the health, sustainability or technology issue in the brief."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The first part is scientific research on an issue related to the brief, in which students gather, process and evaluate information from secondary sources. The second part is an experiment related to an issue within the brief, in which students generate a hypothesis, plan and design the experiment, carry it out and gather primary data, then analyse the data and form conclusions. Students then develop an evidence-based argument in response to the brief, drawing on both their research and their experiment, and submit a report to the SEC in Year 2.",
+    "prompt": "Outline the two parts of the work students carry out for the Biology in Practice Investigation.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "First, the SEC publishes the brief every year, in term two of Year 1 of the course. Second, the brief sets out the specific requirements of the investigation for that year. Third, the brief includes stimulus material to set a context for the investigation. The brief also helps teachers and students plan, lets students pursue their own ideas on related areas, and allows students to develop an investigative log that they can draw on as they complete the investigation.",
+    "prompt": "Describe three features of the Investigation Brief published by the SEC.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "For investigative skills in analysis and conclusions, high achievement draws valid conclusions that are justified by the data and relate to any hypotheses made, and thoroughly evaluates the investigation, acknowledging sources of error in the design. Moderate achievement draws conclusions that relate to any hypotheses made and identifies potential sources of error in the design. The difference lies in the qualifiers: valid and justified conclusions, and a thorough evaluation, at high level, against conclusions that merely relate to the hypothesis and an identification of errors at moderate level. For relating the work to scientists in society, high achievement offers a considered reflection that locates the outcomes within broader issues relating to the work of a scientist or science and society. Moderate achievement reflects on how the outcomes relate to that work. The high level goes further, with a considered reflection placed within broader issues, for example by showing how scientists would investigate the same issue on a larger scale.",
+    "prompt": "Using the descriptors of quality, explain what distinguishes high from moderate achievement in investigative skills (analysis and conclusions) and in relating investigative work to the work of scientists in society.",
+    "type": "short"
+   }
+  ]
+ },
  "bio20-s1": {
   "keyTerms": [
    {
@@ -1405,6 +3174,3376 @@
     "marks": 6,
     "model": "The hypothalamus links the two systems: it is part of the brain but controls the pituitary gland. In danger, nerve impulses stimulate the adrenal glands to release adrenaline. The nervous response is fast, and the adrenaline response that follows is longer-lasting.",
     "prompt": "Explain how the nervous and hormonal systems work together when a person is frightened.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio3-s1": {
+  "keyTerms": [
+   {
+    "definition": "Observations, measurements or study results used to support or refute a claim.",
+    "term": "Evidence"
+   },
+   {
+    "definition": "A statement that something is true, which can be tested against evidence.",
+    "term": "Claim"
+   },
+   {
+    "definition": "A study in which people are placed randomly in a treatment group or a control group, usually double-blind.",
+    "term": "Randomised controlled trial"
+   },
+   {
+    "definition": "A review that combines all good-quality studies on a question.",
+    "term": "Systematic review"
+   },
+   {
+    "definition": "A statistical method that combines the results of several studies to give an overall result.",
+    "term": "Meta-analysis"
+   },
+   {
+    "definition": "The agreed view of most experts in a field, reached after many studies.",
+    "term": "Scientific consensus"
+   },
+   {
+    "definition": "The risk of a disease in one group compared with the risk in another, expressed as a ratio.",
+    "term": "Relative risk"
+   },
+   {
+    "definition": "The actual chance of a disease occurring in a group, e.g. 1 in 10,000.",
+    "term": "Absolute risk"
+   },
+   {
+    "definition": "Presenting a fringe view as if it were equal in weight to the scientific consensus.",
+    "term": "False balance"
+   },
+   {
+    "definition": "False or misleading information spread without intent to deceive.",
+    "term": "Misinformation"
+   },
+   {
+    "definition": "False information spread deliberately to deceive.",
+    "term": "Disinformation"
+   },
+   {
+    "definition": "Exaggerating a result to attract readers or clicks.",
+    "term": "Sensationalism"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Evidence is the information (observations, measurements, results of studies) used to support or refute a claim. A claim is a statement that something is true, e.g. “vitamin C prevents colds”. Evidence is judged on relevance, accuracy and bias.",
+    "h": "Evidence and the three tests",
+    "points": [
+     "Relevance: does the evidence actually address this claim? Evidence about a different organism, population, dose or situation may not apply. A study in mice, or on cells in a dish, does not show the same effect in humans.",
+     "A study of elite athletes may not apply to the general population, and a study of a pure chemical may not apply to a food that contains a little of it.",
+     "Accuracy: is the evidence correct and reported correctly? Check whether it comes from a reliable method, whether it has been reproduced, whether the numbers in a report match the original study, and whether the conclusion goes further than the data allow.",
+     "Bias: has the evidence, or the way it is presented, been pushed in one direction? The types of bias in sources, including funding, conflict of interest, cherry-picking, publication bias, confirmation bias, sampling bias and political bias, are taught in “Recognising bias and evaluating sources”. Here they are applied to the evidence behind an argument."
+    ]
+   },
+   {
+    "b": "The types of evidence below are ranked from weakest to strongest.",
+    "h": "Weighing the strength of evidence",
+    "points": [
+     "Anecdote or personal testimony (“it worked for me”) is the weakest, because one person’s experience can be due to chance, the placebo effect, natural recovery or other causes.",
+     "Expert opinion without data, or a single case report, is weak. It is useful for raising a question.",
+     "Laboratory studies on cells or animals are useful for finding mechanisms, but they may not apply to humans.",
+     "Observational studies of large groups of people, e.g. following thousands of people and comparing smokers with non-smokers, are good for finding links (correlations). They cannot on their own show cause and effect, because other factors may differ between the groups.",
+     "Randomised controlled trials place people randomly in a treatment group or a control group, usually double-blind. They are the strongest single study for showing that a treatment causes an effect. Blinding and placebos are taught in “Objectivity and data quality”, and how to design controlled investigations is in “Designing and conducting investigations”.",
+     "Systematic reviews and meta-analyses combine all good-quality studies on a question. They are the strongest overall evidence because they do not rely on one study.",
+     "Scientific consensus is the agreed view of most experts in a field, reached after many studies, e.g. that human activity is causing climate change and that vaccines do not cause autism. A single new study rarely overturns a consensus; it needs to be reproduced first."
+    ]
+   },
+   {
+    "h": "Common errors in reasoning from evidence",
+    "points": [
+     "Correlation presented as causation: media reports often say that a food, drug or habit “causes” or “prevents” a disease when a study found only a correlation. Correlation and its other explanations are taught in “Producing and analysing data”.",
+     "In large health studies, experiments on people are often impossible or unethical, so a link is accepted as causal only when several kinds of evidence agree. The cause comes before the effect; more exposure gives more effect (a dose–response pattern); the same link is found in many independent studies in different populations; and a biological mechanism explains it.",
+     "Smoking and lung cancer met all of these tests, which is why smoking is accepted as a cause of lung cancer.",
+     "Small samples: results from few individuals are more likely to be due to chance.",
+     "No control group: without a comparison, an improvement may have happened anyway.",
+     "Relative and absolute risk: a headline saying a food “doubles the risk” of a disease may describe a rise from 1 in 10,000 to 2 in 10,000. This is an arithmetic illustration, not real data, and the absolute increase is small. Always ask “doubled from what?”",
+     "Extrapolating beyond the data: assuming that a trend continues outside the range tested, or that the effect of a high dose applies to a low dose."
+    ]
+   },
+   {
+    "h": "How the media present science",
+    "points": [
+     "Media include newspapers, television, radio, websites, podcasts, social media and advertising. Most people learn about science from them rather than from journals, so media reports shape public opinion and decisions on health, the environment and technology.",
+     "Headlines exaggerate to attract readers or clicks (sensationalism). A single preliminary study may be reported as a breakthrough or a “cure”, and animal or cell results may be reported as if they apply to humans.",
+     "Uncertainty and limitations are often left out. Press releases from universities and companies may themselves exaggerate.",
+     "False balance: giving equal time to a fringe view and to the scientific consensus, e.g. one climate scientist debating one climate-change denier, makes the evidence seem evenly split when it is not.",
+     "Misinformation is false or misleading information spread without intent to deceive. Disinformation is false information spread deliberately to deceive, e.g. for profit or political gain.",
+     "Social media spread both quickly, because posts that provoke emotion are shared more and algorithms show people more of what they already engage with, creating echo chambers.",
+     "Persuasion techniques to recognise: appeal to authority (a celebrity or a doctor speaking outside their expertise); appeal to nature (“natural means safe”, though many natural substances are poisonous, e.g. deadly nightshade); emotive language and images; testimonials instead of data; “scientists are hiding the truth” conspiracy claims, which cannot be tested; and scientific-sounding words used to sell a product.",
+     "Responsible science reporting names the study and where it was published, gives the sample size and the type of study, states the limitations, separates the evidence from opinion, and includes comment from independent experts."
+    ]
+   },
+   {
+    "h": "Evaluating a media-based argument",
+    "points": [
+     "1. Identify the claim and who is making it.",
+     "2. Find the original evidence: is a study named, and was it peer reviewed?",
+     "3. Check relevance: who or what was studied, and does it apply to the claim?",
+     "4. Check the strength of the evidence: type of study, sample size, control group, and whether the result has been reproduced (see “Weighing the strength of evidence” and “Common errors in reasoning from evidence”).",
+     "5. Check accuracy: does the report match the study? Is correlation presented as causation? Is the risk given as relative or absolute?",
+     "6. Check bias: who funded the study and the report, what is their purpose, and are other views or limitations mentioned?",
+     "7. Check what other reliable sources and the scientific consensus say.",
+     "8. Make a judgement: how far the evidence supports the claim, and what further evidence is needed."
+    ]
+   },
+   {
+    "h": "Case study: the MMR vaccine and autism",
+    "points": [
+     "The claim: in 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR (measles, mumps and rubella) vaccine and autism.",
+     "Relevance and strength: the sample was tiny and had no control group. At most, the paper showed a coincidence in timing, not a cause.",
+     "Bias: Wakefield had an undisclosed conflict of interest. He had been paid by lawyers acting for parents who wanted to sue vaccine manufacturers.",
+     "Media: the claim was reported widely, often with false balance.",
+     "Investigation: the journalist Brian Deer found that the children’s medical details had been misrepresented. The Lancet retracted the paper in 2010, and Wakefield was struck off the UK medical register in 2010.",
+     "Later evidence: large studies found no link, e.g. a 2019 Danish study of over 650,000 children.",
+     "Effect: vaccination rates fell in the UK and Ireland and in other countries, and measles outbreaks followed.",
+     "The case shows how one weak study, amplified by the media, can harm public health long after it has been disproved. The paper was published in a peer-reviewed journal, so peer review alone did not prevent the harm."
+    ]
+   },
+   {
+    "h": "Applying the checklist to technology claims",
+    "points": [
+     "Technology claims need the same checklist. For example, a claim that a new app “detects cancer”, or that a gene test “predicts your ideal diet”, should be tested by asking what evidence shows that it works, in whom, how accurately, and who profits from it."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The report probably describes a correlation found in an observational study: green-tea drinkers live longer. A correlation does not show that green tea causes the longer life, because other factors may differ between the groups; for example, green-tea drinkers may have healthier lifestyles. To show cause, the evidence would need a dose–response pattern, in which more tea gives a greater effect; consistent results from many independent studies in different populations; a biological mechanism that explains the effect; and ideally a randomised controlled trial, in which people are placed randomly in a green-tea group or a control group.",
+    "prompt": "A news report says that people who drink green tea live longer, so green tea “adds years to your life”. Explain why this conclusion may not be justified and what evidence would be needed to show cause.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Relevance: the study was carried out on mice, so its results may not apply to humans. Laboratory studies on animals are useful for finding mechanisms but do not show what happens in people. Accuracy: the sample of 40 mice is small, so the result may be due to chance, and a preliminary animal study does not justify the headline, which overstates the finding. The article should be checked for whether it states the limitations and the type of study. Bias: the source should be checked to see who funded the study and whether a chocolate company is involved, because a conflict of interest could influence the conclusion. Judgement: the claim that chocolate protects against heart disease is not supported for humans by this evidence. To judge the claim properly, look for randomised controlled trials in people, systematic reviews, and the scientific consensus from reliable bodies.",
+    "prompt": "A newspaper headline reads “Chocolate protects against heart disease, say scientists”. The article reports a study of 40 mice. Evaluate this media argument for relevance, accuracy and bias.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "In 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR vaccine and autism. The study was weak: the sample was tiny, it had no control group, and it showed at most a coincidence in timing. Wakefield had an undisclosed conflict of interest, having been paid by lawyers acting for parents who wanted to sue vaccine manufacturers. The claim was reported widely by the media, often with false balance, so it seemed more credible than the evidence justified. Investigation by the journalist Brian Deer showed that the children’s medical details had been misrepresented. The Lancet retracted the paper in 2010, and Wakefield was struck off the UK medical register in the same year. Large studies, including a 2019 Danish study of over 650,000 children, found no link. However, vaccination rates fell in the UK and Ireland and in other countries, and measles outbreaks followed, so the weak claim harmed public health long after it was disproved.",
+    "prompt": "Using the MMR vaccine case, explain how a weak scientific claim can harm public health.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio3-s2": {
+  "keyTerms": [
+   {
+    "definition": "Finding something that already exists in nature but was not previously known.",
+    "term": "Discovery"
+   },
+   {
+    "definition": "Creating a new device, process or product that did not exist before.",
+    "term": "Invention"
+   },
+   {
+    "definition": "Research that aims to understand nature with no particular practical use in mind.",
+    "term": "Basic research"
+   },
+   {
+    "definition": "Research that aims to solve a practical problem.",
+    "term": "Applied research"
+   },
+   {
+    "definition": "Where an action might cause serious harm and the science is uncertain, take care or do not proceed until there is more evidence.",
+    "term": "Precautionary principle"
+   },
+   {
+    "definition": "Replacement, Reduction and Refinement: the principles for reducing and improving the use of animals in research, proposed by Russell and Burch in 1959.",
+    "term": "The 3Rs"
+   },
+   {
+    "definition": "The right of people to decide for themselves, through informed consent.",
+    "term": "Autonomy"
+   },
+   {
+    "definition": "The principle of doing good.",
+    "term": "Beneficence"
+   },
+   {
+    "definition": "The principle of doing no harm.",
+    "term": "Non-maleficence"
+   },
+   {
+    "definition": "The principle of treating people fairly and sharing benefits and burdens fairly.",
+    "term": "Justice"
+   },
+   {
+    "definition": "Prescribing antibiotics responsibly, to limit the spread of resistance.",
+    "term": "Antibiotic stewardship"
+   },
+   {
+    "definition": "A legal right that gives an inventor control over the use of an invention for a period of time.",
+    "term": "Patent"
+   }
+  ],
+  "notes": [
+   {
+    "h": "How scientists contribute",
+    "points": [
+     "A discovery is finding something that already exists in nature but was not known, e.g. the structure of DNA, or that a mould kills bacteria.",
+     "An invention is creating a new device, process or product that did not exist before, e.g. the electron microscope, PCR or a vaccine.",
+     "Discoveries often lead to inventions. The discovery of penicillin’s effect led to the invention of methods to mass-produce it.",
+     "Basic (pure) research aims to understand nature with no particular use in mind. Applied research aims to solve a practical problem.",
+     "Many applications come from basic research done decades earlier. For example, the enzymes used in PCR and in DNA profiling came from the study of bacteria (detail in “Generating a DNA profile”).",
+     "Most discoveries are now made by teams, often international, working in universities, hospitals, public research institutes and companies. They are funded by governments, the EU, charities and industry (see “Science as a global enterprise”). Who funds research influences which questions are studied.",
+     "Scientists also contribute by advising governments, e.g. with public health advice in a pandemic; by assessing the risks of new technologies; by communicating with the public; and by warning about problems, as Rachel Carson did in the DDT case study below."
+    ]
+   },
+   {
+    "h": "The four factors for evaluating impact",
+    "points": [
+     "Economic: the costs and benefits in money and jobs. Ask who pays for the research and the product, who profits (companies, patents), whether it creates jobs or industries, whether it saves money (e.g. fewer days lost to illness, or higher crop yields), and whether poorer people and countries can afford it.",
+     "Social: the effects on people’s health, lives and communities, and on how people live. Ask who benefits and who is harmed, whether it changes life expectancy or quality of life, whether it increases or reduces inequality, and how the public accepts it.",
+     "Sustainability: meeting present needs without harming the ability of future generations to meet theirs. Ask what the effects are on the environment, biodiversity, resources and climate, whether the benefits are long-lasting, and whether it causes problems such as resistance or pollution.",
+     "Ethical: whether something is right or wrong. Ask whether it is fair (justice), whether it does good and avoids harm, whether people were informed and gave consent, whether animals were used and, if so, whether their use was justified, and who decides. Ethical questions are answered by reasoning about values, informed by evidence; science alone cannot settle them."
+    ]
+   },
+   {
+    "h": "Ethical principles in biology and medicine",
+    "points": [
+     "The four principles of medical ethics are autonomy (respecting people’s right to decide for themselves, through informed consent), beneficence (doing good), non-maleficence (doing no harm) and justice (treating people fairly and sharing benefits and burdens fairly).",
+     "For animal research, the 3Rs were proposed by Russell and Burch in 1959: Replacement (use non-animal methods where possible), Reduction (use as few animals as possible) and Refinement (minimise pain and distress).",
+     "The precautionary principle: where an action might cause serious harm and the science is uncertain, take care or do not proceed until there is more evidence.",
+     "International research conventions, e.g. the Declaration of Helsinki, are taught in “Science as a global enterprise”."
+    ]
+   },
+   {
+    "h": "Case study 1: penicillin",
+    "points": [
+     "What happened: in 1928 Alexander Fleming, at St Mary’s Hospital in London, noticed that a mould (Penicillium) contaminating a culture plate of Staphylococcus bacteria had killed the bacteria around it.",
+     "Howard Florey and Ernst Chain, at the University of Oxford, purified penicillin and showed that it cured infections, from 1940. It was mass-produced during the Second World War.",
+     "Fleming, Florey and Chain shared the Nobel Prize in Physiology or Medicine in 1945. Fleming did not purify or mass-produce penicillin; Florey and Chain did.",
+     "Social impact (positive): bacterial infections that were often fatal, such as infected wounds, pneumonia and sepsis, became curable. Surgery and childbirth became much safer, and the era of antibiotics began.",
+     "Economic impact (positive): penicillin created a large pharmaceutical industry, healthier workers and fewer deaths, and antibiotics are cheap to make.",
+     "Sustainability impact (negative): overuse and misuse of antibiotics in medicine and farming have selected for resistant bacteria, such as MRSA, by natural selection (see “Evidence for evolution”). This threatens to make infections untreatable again, and Fleming warned of this in his Nobel lecture in 1945.",
+     "Ethical impact: access is unequal in poorer countries. Using antibiotics to make farm animals grow faster, which has been banned in the EU since 2006, raises resistance for everyone. Prescribing responsibly, known as antibiotic stewardship, is now an ethical duty.",
+     "Judgement: one of the most beneficial discoveries in medicine, whose benefits are now threatened by the way it has been used."
+    ]
+   },
+   {
+    "h": "Case study 2: insulin",
+    "points": [
+     "What happened: in 1921 at the University of Toronto, Frederick Banting and Charles Best extracted insulin from the pancreases of dogs and showed that it lowered blood glucose in diabetic dogs.",
+     "In 1922 insulin was first used to treat a person with type 1 diabetes, a 14-year-old boy named Leonard Thompson.",
+     "Banting and John Macleod received the Nobel Prize in 1923. The discoverers sold the patent to the University of Toronto for a token sum so that insulin could be made widely available.",
+     "Insulin was extracted from cattle and pig pancreases until 1982, when human insulin made by genetically modified bacteria became the first genetically engineered medicine approved for use (detail in “Genetic engineering”).",
+     "Social impact (positive): type 1 diabetes changed from a fatal disease to a manageable condition.",
+     "Economic impact: a large global insulin industry has grown. In some countries, notably the USA, high insulin prices mean that some patients cannot afford enough.",
+     "Sustainability impact (positive): making insulin in bacteria in fermenters gives an unlimited, consistent supply without relying on slaughterhouse animals.",
+     "Ethical impact: experiments on dogs should be assessed using the 3Rs. Animal-derived insulin raised religious and vegetarian concerns that human insulin from bacteria removes. Fair access is a justice issue.",
+     "Judgement: overwhelmingly positive, but access is unequal."
+    ]
+   },
+   {
+    "h": "Case study 3: DDT and Rachel Carson",
+    "points": [
+     "What happened: in 1939 Paul Müller discovered that the chemical DDT is a powerful insecticide. He received the Nobel Prize in 1948.",
+     "DDT was used to control insects that spread malaria and typhus, and to protect crops.",
+     "In 1962 the American biologist Rachel Carson published Silent Spring, presenting evidence that DDT and other pesticides were harming wildlife, especially birds.",
+     "DDT is not broken down quickly, so it builds up in food chains and reaches high concentrations in top predators such as birds of prey. There it causes thin eggshells that break (pyramids and food chains are in “Energy and nutrient transfer”).",
+     "The USA banned most uses of DDT in 1972. The Stockholm Convention (2001) restricts it worldwide but allows its use to control malaria-carrying mosquitoes.",
+     "Social impact (positive): millions of people were protected from malaria and typhus, and food production increased.",
+     "Economic impact: DDT was cheap and effective, so it raised crop yields. Chemical companies attacked Carson’s work.",
+     "Sustainability impact (negative): persistence and build-up in food chains harmed birds of prey and other wildlife, and insects evolved resistance to DDT. Silent Spring helped to start the modern environmental movement.",
+     "Ethical impact: weighing human lives saved from malaria against harm to wildlife and long-term ecological damage, applying the precautionary principle, and respecting the public’s right to be told the risks.",
+     "Judgement: the same scientific contribution can have major benefits and major harms, and scientists also contribute by evaluating technologies."
+    ]
+   },
+   {
+    "h": "Case study 4: ivermectin and William C. Campbell",
+    "points": [
+     "What happened: William Campbell, born in 1930 in Ramelton, Co. Donegal, and a graduate of Trinity College Dublin, worked at the drug company Merck in the USA.",
+     "Satoshi Ōmura in Japan isolated a soil bacterium, a Streptomyces species, that produced useful compounds. Campbell’s team found that one of them, avermectin, killed parasitic worms, and developed the drug ivermectin from it.",
+     "Ivermectin is used against river blindness (onchocerciasis), caused by a parasitic worm spread by the bites of blackflies, and against lymphatic filariasis.",
+     "Campbell and Ōmura shared the 2015 Nobel Prize in Physiology or Medicine with Tu Youyou, who discovered the antimalarial drug artemisinin.",
+     "Social impact (positive): ivermectin has protected many millions of people in Africa and Latin America from river blindness and other parasitic diseases.",
+     "Economic impact: the drug was first sold as a veterinary drug for livestock and pets, which made it highly profitable. Healthier people can work and attend school.",
+     "Ethical impact (positive): since 1987 Merck has donated the human form, Mectizan, free for as long as it is needed, through the Mectizan Donation Program. This is a model of a company sharing a discovery with people who cannot pay.",
+     "Sustainability impact (negative): heavy use in livestock has led to resistance in some livestock parasites, and residues in animal dung can harm dung-feeding insects.",
+     "Judgement: a discovery from basic research on soil microorganisms, with an enormous health benefit, shared ethically."
+    ]
+   },
+   {
+    "h": "Case study 5: thalidomide (a warning case)",
+    "points": [
+     "What happened: thalidomide was sold from 1957, first in West Germany and then in many countries including Ireland and the UK, as a sedative. It was given to pregnant women for morning sickness.",
+     "It had not been tested for effects on the developing foetus. It caused severe birth defects, especially shortened or missing limbs, in more than 10,000 babies before it was withdrawn in 1961.",
+     "In the USA, Frances Kelsey, a reviewer at the Food and Drug Administration (FDA), refused to approve it because the safety evidence was inadequate.",
+     "Social impact (negative): lifelong disability for survivors and their families, and loss of public trust in medicines.",
+     "Ethical impact (negative): patients were harmed by a drug released without adequate testing. Survivors campaigned for decades for compensation and an apology.",
+     "Economic impact: compensation costs, and new regulation made developing drugs slower and more expensive.",
+     "Lasting effect: much stricter laws on testing drugs before sale, including testing for effects in pregnancy, and systems to report side effects.",
+     "Thalidomide is now used, under strict controls, to treat leprosy complications and a blood cancer, multiple myeloma.",
+     "Judgement: shows why scientists and regulators must test new technologies carefully, and why independent review matters."
+    ]
+   },
+   {
+    "h": "Researching and presenting a scientist’s contribution",
+    "points": [
+     "1. Choose a scientist or team and their discovery or invention.",
+     "2. Research using reliable sources (see “Recognising bias and evaluating sources”): who the scientists were, the problem, what they did and how, the evidence, and how the work was received.",
+     "3. Describe the impact under the four factors, positive and negative, using specific evidence.",
+     "4. Make and justify a judgement.",
+     "5. Present the work for the audience, e.g. as a poster, a slide presentation or a short report, with references (see “Communicating results”)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A discovery is finding something that already exists in nature but was not known, e.g. the structure of DNA or the fact that a mould kills bacteria. An invention is creating a new device, process or product that did not exist before, e.g. the electron microscope, PCR or a vaccine. Discoveries often lead to inventions: the discovery of penicillin’s effect led to the invention of methods to mass-produce it.",
+    "prompt": "Distinguish between a scientific discovery and an invention, giving a biological example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "In 1928 Alexander Fleming, at St Mary’s Hospital in London, noticed that a mould (Penicillium) contaminating a culture plate of Staphylococcus bacteria had killed the bacteria around it. Howard Florey and Ernst Chain, at the University of Oxford, purified penicillin and showed that it cured infections from 1940, and it was mass-produced during the Second World War. Fleming, Florey and Chain shared the Nobel Prize in Physiology or Medicine in 1945. Social impact: fatal bacterial infections such as infected wounds, pneumonia and sepsis became curable, and surgery and childbirth became much safer. Economic impact: a large pharmaceutical industry was created, and antibiotics are cheap to make. Sustainability impact: overuse and misuse of antibiotics have selected for resistant bacteria such as MRSA, by natural selection, threatening to make infections untreatable again. Ethical impact: access is unequal in poorer countries, and responsible prescribing is an ethical duty. Judgement: penicillin is one of the most beneficial discoveries in medicine, but its benefits are now threatened by the way it has been used.",
+    "prompt": "Describe the contribution of named scientists to the discovery and development of penicillin, and evaluate its impact on society.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Social impact: DDT was used to control insects that spread malaria and typhus, so millions of people were protected from these diseases and food production increased. Sustainability impact: DDT is not broken down quickly, so it builds up in food chains and reaches high concentrations in top predators such as birds of prey, where it causes thin eggshells that break. Insects also evolved resistance to DDT. Rachel Carson’s Silent Spring (1962) presented this evidence, and the USA banned most uses of DDT in 1972. Ethical impact: the benefits to human lives saved from malaria must be weighed against harm to wildlife and long-term ecological damage. The precautionary principle and the public’s right to be told the risks are relevant. The Stockholm Convention (2001) restricts DDT worldwide but still allows its use to control malaria-carrying mosquitoes. Judgement: DDT has both major benefits and major harms.",
+    "prompt": "Evaluate the impact of the insecticide DDT, considering social, sustainability and ethical factors.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio3-s3": {
+  "keyTerms": [
+   {
+    "definition": "Health, Sustainability and Technology: lenses through which biology is applied to contemporary issues.",
+    "term": "Cross-cutting themes"
+   },
+   {
+    "definition": "The lens asking how biology explains health and disease, and how disease is prevented, diagnosed and treated.",
+    "term": "Health (theme)"
+   },
+   {
+    "definition": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs.",
+    "term": "Sustainability"
+   },
+   {
+    "definition": "The application of scientific knowledge to make tools, techniques and products.",
+    "term": "Technology (theme)"
+   },
+   {
+    "definition": "The use of living organisms or their parts, such as enzymes, to make useful products or carry out processes.",
+    "term": "Biotechnology"
+   },
+   {
+    "definition": "Excess nutrients in water causing algal blooms that use up oxygen when they decay, killing fish.",
+    "term": "Eutrophication"
+   },
+   {
+    "definition": "A store that takes in more carbon than it releases, such as a peat bog or photosynthesising plants.",
+    "term": "Carbon sink"
+   },
+   {
+    "definition": "The average number of people one infected person infects; see “Emergence and spread of infectious disease”.",
+    "term": "Reproduction number (R₀)"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What the themes are",
+    "points": [
+     "The three cross-cutting themes are Health, Sustainability and Technology. They are not separate topics: they run through all three contextual strands (Organisation of Life; Structures and Processes of Life; Interactions of Life), and are shown in the specification’s diagram as a ring around them.",
+     "Each theme is a lens: a way of looking at any piece of biology to ask how it applies to a real issue today. The same topic can be viewed through more than one lens. For example, genetically engineered insulin is a health issue (treating diabetes) and a technology issue (recombinant DNA).",
+     "The examination asks students to apply biology to issues linked to the themes, often using unfamiliar stimulus material such as a news report, data or a case. Students must therefore be able to bring knowledge from any chapter to the issue."
+    ]
+   },
+   {
+    "b": "The Health lens asks how biology explains health and disease, how disease is prevented, diagnosed and treated, and how lifestyle and environment affect health. The specification frames health as promoting health and reducing the risk of disease.",
+    "h": "Health",
+    "points": [
+     "Vaccination and immunity: vaccinating enough people protects those who are not immune (see “Acquired immunity, prevention and treatment”).",
+     "Emerging infectious diseases: how they spread, and the reproduction number, R₀ (see “Emergence and spread of infectious disease”).",
+     "Diet: a balanced diet, and diet-related conditions such as obesity and vitamin deficiencies (see “Diet” and “Vitamins”).",
+     "Cancer: causes, prevention and treatment, e.g. avoiding smoking and excess UV light, and vaccination against the human papillomavirus (HPV), which causes most cervical cancers (see “Causes, prevention and treatment of cancer”).",
+     "The microbiome: the gut microbiome’s role in digestion, immunity and metabolic health (see “The microbiome”).",
+     "Dopamine, endorphins, exercise and addiction (see “Dopamine and endorphins”).",
+     "Prenatal and postnatal care (see “Prenatal and postnatal care”).",
+     "Blood groups and safe transfusion (see “Blood”).",
+     "Hormonal treatments, such as insulin and the contraceptive pill (see “Hormonal manipulation”)."
+    ]
+   },
+   {
+    "b": "Sustainability means meeting the needs of the present without compromising the ability of future generations to meet their own needs. The Sustainability lens asks how human activity affects ecosystems, biodiversity, resources and climate, and how biology can help people live within the planet’s limits.",
+    "h": "Sustainability",
+    "points": [
+     "Biodiversity loss through habitat destruction, pollution, invasive species and climate change, and the role of conservation (see “Biodiversity loss and conservation”).",
+     "The carbon cycle, carbon sinks and climate change, including Ireland’s peat bogs, which store large amounts of carbon as peat and release it as CO₂ when drained or burned (see “Climate change and biological strategies”).",
+     "The nitrogen cycle, and excess fertiliser or slurry washing into rivers and lakes, causing eutrophication: algal blooms that use up oxygen when they decay, killing fish (see “Ethics and sustainability of nutrient cycling”).",
+     "Decomposers and soil microbiomes recycling nutrients (see “The microbiome”).",
+     "Photosynthesis as a carbon sink (see “Photosynthesis as an anabolic process”).",
+     "Enzymes in biofuels, and in detergents that wash at lower temperatures (see “Industrial enzymes”).",
+     "The role of biology in a post-fossil-fuel world."
+    ]
+   },
+   {
+    "h": "Technology",
+    "points": [
+     "Technology is the application of scientific knowledge to make tools, techniques and products. The Technology lens asks how technology lets biologists find out more, and how biological knowledge is used to make new technologies.",
+     "Biotechnology is the use of living organisms or their parts, such as enzymes, to make useful products or carry out processes.",
+     "Technologies that extend what biologists can study include light and electron microscopes (see “Microscopy”); DNA sequencing and genome databases, which use computers to analyse huge amounts of genetic data (see “DNA sequencing” and “Bioinformatics: genome databases”); data loggers and sensors in investigations; and digital tools for modelling and analysing data.",
+     "Biotechnologies include genetic engineering, e.g. human insulin made by bacteria (see “Genetic engineering”); PCR and DNA profiling in forensics and paternity testing (see “DNA profiling”); immobilised enzymes and bioreactors (see “Industrial enzymes”); microorganisms in pharmaceutical, agricultural, medical and food industries (see “Microorganisms in industry”); antenatal screening and fertility treatment (see “Prenatal and postnatal care” and “Fertility control and infertility”); and stem cells and gene technologies, whose ethics are discussed in “Ethics of genetic technologies”.",
+     "New technologies raise questions as well as benefits: cost and access, safety, the privacy of genetic data, and effects on the environment. The factors for evaluating them are in “Science, scientists and society”."
+    ]
+   },
+   {
+    "h": "Applying a lens to an issue",
+    "points": [
+     "1. Identify the biology behind the issue: the structures, processes or organisms involved.",
+     "2. Say which theme or themes it relates to, and why.",
+     "3. Explain the issue’s causes or mechanism using that biology.",
+     "4. Give its benefits or problems, with evidence.",
+     "5. Suggest actions or solutions based on the biology.",
+     "6. Note the links to the other themes."
+    ]
+   },
+   {
+    "h": "Worked example: antibiotic resistance",
+    "points": [
+     "Biology: bacteria with mutations that let them survive an antibiotic survive and reproduce, so resistant strains increase by natural selection.",
+     "Health: infections such as MRSA become hard or impossible to treat.",
+     "Sustainability: overuse of antibiotics in medicine and in farming speeds this up. Antibiotics are a resource that is being used up faster than new ones are found.",
+     "Technology: rapid diagnostic tests show whether an infection is bacterial, genome sequencing tracks resistant strains, and new antibiotics are sought.",
+     "Actions: prescribe antibiotics only for bacterial infections, take them exactly as prescribed, improve hygiene and vaccination to reduce infections, and limit antibiotic use in farm animals."
+    ]
+   },
+   {
+    "h": "Worked example: Irish peatlands",
+    "points": [
+     "Biology: in waterlogged, acidic, low-oxygen bogs, decomposers work very slowly, so dead plant material, mainly Sphagnum moss, builds up as peat, storing carbon.",
+     "Sustainability: draining and cutting bogs for fuel lets oxygen in, so the peat decomposes or is burned, releasing CO₂. Bogs are also habitats for specialised species.",
+     "Action: Bord na Móna ended industrial peat harvesting in 2021, and drained bogs are being rewetted to stop carbon loss and restore habitats.",
+     "Technology: satellite and sensor monitoring of water levels and greenhouse-gas release.",
+     "Health link: burning peat and other solid fuels pollutes the air."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The three cross-cutting themes are Health, Sustainability and Technology. Health: vaccination and immunity, since vaccinating enough people protects those who are not immune, or vaccination against HPV, which causes most cervical cancers. Sustainability: biodiversity loss through habitat destruction, pollution, invasive species and climate change, or eutrophication of rivers and lakes by excess fertiliser. Technology: DNA sequencing and genome databases, which use computers to analyse huge amounts of genetic data, or human insulin made by genetically engineered bacteria.",
+    "prompt": "Name the three cross-cutting themes in Leaving Certificate Biology and give one biological example of an issue linked to each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The biology: bacteria with mutations that let them survive an antibiotic survive and reproduce, so resistant strains increase by natural selection. Health: infections such as MRSA become hard or impossible to treat. Sustainability: overuse of antibiotics in medicine and in farming speeds up resistance, and antibiotics are a resource being used up faster than new ones are found. Technology: rapid diagnostic tests show whether an infection is bacterial, genome sequencing tracks resistant strains, and new antibiotics are sought. Actions: prescribe antibiotics only for bacterial infections, take them exactly as prescribed, improve hygiene and vaccination to reduce infections, and limit antibiotic use in farm animals.",
+    "prompt": "Antibiotic resistance is described as a health, sustainability and technology issue. Explain why, using your knowledge of biology.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "In waterlogged, acidic, low-oxygen bogs, decomposers work very slowly, so dead plant material, mainly Sphagnum moss, builds up as peat, which stores carbon. Human activity affects bogs when they are drained and cut for fuel. Draining lets oxygen in, so the peat decomposes or is burned, releasing CO₂ into the atmosphere, and the bogs lose the habitats of specialised species. A response is rewetting: Bord na Móna ended industrial peat harvesting in 2021, and drained bogs are being rewetted to stop carbon loss and restore habitats. Technology such as satellite and sensor monitoring of water levels and greenhouse-gas release can support this work.",
+    "prompt": "Explain why Irish bogs are important carbon sinks and how human activity affects them.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio4-s1": {
+  "keyTerms": [
+   {
+    "definition": "A simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves.",
+    "term": "Model"
+   },
+   {
+    "definition": "Something taken to be true so that a model can work; if it does not hold, the model’s predictions fail.",
+    "term": "Assumption"
+   },
+   {
+    "definition": "A model, often run on a computer, that tests “what if” scenarios quickly and safely.",
+    "term": "Simulation"
+   },
+   {
+    "definition": "A species studied in detail because it is easy to keep and breed and shares much biology with other organisms.",
+    "term": "Model organism"
+   },
+   {
+    "definition": "The part of an enzyme to which its substrate binds, and where the reaction is catalysed.",
+    "term": "Active site"
+   },
+   {
+    "definition": "The model in which the active site of an enzyme changes shape slightly to mould around the substrate as it binds.",
+    "term": "Induced fit"
+   },
+   {
+    "definition": "The model of the cell membrane as a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, which can move sideways.",
+    "term": "Fluid mosaic model"
+   },
+   {
+    "definition": "Water-attracting; the phosphate heads of phospholipids are hydrophilic.",
+    "term": "Hydrophilic"
+   },
+   {
+    "definition": "Water-repelling; the fatty-acid tails of phospholipids are hydrophobic.",
+    "term": "Hydrophobic"
+   },
+   {
+    "definition": "A model that predicts the expected ratios of offspring genotypes and phenotypes from a cross.",
+    "term": "Punnett square"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What a model is",
+    "points": [
+     "A model is a simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves.",
+     "Models are needed because real biological systems are too small (molecules, cells), too large (ecosystems, the biosphere), too slow (evolution), too fast (nerve impulses), too complex (the human body), or too dangerous or unethical to study directly.",
+     "Every model is simplified: it keeps the features that matter for its purpose and leaves out others. A model is judged by how useful it is for its purpose, not by whether it is a perfect copy. No model is complete.",
+     "Every model rests on assumptions, which are things taken to be true so that the model can work. For example, a Punnett square assumes that fertilisation is random. If an assumption does not hold, the model’s predictions fail.",
+     "Models can be modified as more data become available. When new observations do not fit, the model is changed or replaced (worked examples 1 and 2 below).",
+     "Models can predict. A good model predicts how the system will behave in new conditions, and testing those predictions is how models are checked (worked example 3 below)."
+    ]
+   },
+   {
+    "h": "Types of model",
+    "points": [
+     "Words (verbal or descriptive models), e.g. a written description of natural selection as variation, competition, survival of the better adapted, and inheritance.",
+     "Diagrams, e.g. a food web, a diagram of the carbon or nitrogen cycle, a labelled diagram of a cell, a flowchart of a negative-feedback loop, or a pyramid of numbers.",
+     "Equations, e.g. the balanced equation for photosynthesis, 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. It models what goes in and comes out, but not the many steps in between. The reproduction number R₀ is used in models of disease spread.",
+     "Physical (concrete) models, e.g. Watson and Crick’s model of DNA, a bell-jar model of the lungs, a plastic model of the heart, and ball-and-stick models of molecules.",
+     "Simulations, often computer models, e.g. models of how an infectious disease spreads through a population, climate models, and computer models of protein folding. Simulations can run “what if” scenarios quickly and safely.",
+     "Model organisms are a different use of the word: species studied in detail because they are easy to keep and breed and share much biology with others, e.g. the bacterium Escherichia coli, yeast, the fruit fly Drosophila melanogaster, the plant Arabidopsis thaliana, and the house mouse. The assumption is that what is true of them is true of other organisms. The limitation is that results do not always transfer to humans."
+    ]
+   },
+   {
+    "h": "How models are generated and used",
+    "points": [
+     "Generating a model: 1. observe the system and collect data; 2. identify its key parts and how they interact; 3. represent them simply, often by analogy with something familiar, e.g. “lock and key”; 4. use the model to make predictions; 5. test the predictions against new data; 6. keep, modify or replace the model.",
+     "Evaluating a model asks: what does it show, and for what purpose? What does it leave out? What assumptions does it make? Does it fit the data? Can it explain and predict? How could it be improved? Answers about a model should always name at least one strength and one limitation.",
+     "A model is not the same as a theory. A theory is a broad, well-tested explanation; a model is a representation that may be used to explain part of a theory or to make its predictions concrete (theories are in “The nature of scientific knowledge”). Two different models of the same thing can both be useful for different purposes."
+    ]
+   },
+   {
+    "b": "The Higher Level detail of enzyme structure is in “Enzyme structure and specificity”. Here the example shows how a model changes.",
+    "h": "Worked example 1: enzyme action, from lock and key to induced fit",
+    "points": [
+     "Lock-and-key model, proposed by Emil Fischer in 1894: the enzyme’s active site has a rigid shape that exactly fits its substrate, as only one key fits a lock. It explains why enzymes are specific, so that each catalyses one reaction.",
+     "Its assumption is that the active site is rigid. New data did not fit. Some enzymes act on several similar substrates, and later structural studies, e.g. X-ray crystallography, showed that some enzymes change shape when the substrate binds. For example, the enzyme hexokinase closes around glucose.",
+     "Induced-fit model, proposed by Daniel Koshland in 1958: the active site is flexible. When the substrate enters, the active site changes shape slightly to mould tightly around it, like a glove around a hand. This strains the substrate’s bonds and helps the reaction.",
+     "The induced-fit model replaced lock and key as the better model, although lock and key is still useful as a simple first explanation of specificity.",
+     "Diagram: two rows of three stages each. The first row shows lock and key: enzyme with rigid active site and substrate, then enzyme–substrate complex, then products released with the enzyme unchanged. The second row shows induced fit: the same stages, with the active site changing shape as the substrate binds. Label the active site, substrate, enzyme–substrate complex and products."
+    ]
+   },
+   {
+    "h": "Worked example 2: the cell membrane, from sandwich to fluid mosaic",
+    "points": [
+     "The earlier model, proposed by Hugh Davson and James Danielli in 1935, was a phospholipid bilayer sandwiched between two continuous layers of protein. Its assumption was that proteins form uniform layers on each surface.",
+     "New data did not fit. Membrane proteins vary greatly in type and amount between membranes. Freeze-fracture electron microscopy, which splits a membrane down the middle of the bilayer, showed proteins embedded in and passing through the bilayer.",
+     "In 1970 Larry Frye and Michael Edidin fused a mouse cell and a human cell whose membrane proteins had been labelled differently. The proteins mixed over the surface of the combined cell, showing that membrane components move.",
+     "The fluid mosaic model, proposed by Seymour Singer and Garth Nicolson in 1972, describes a phospholipid bilayer with hydrophilic (water-attracting) phosphate heads facing the watery fluid inside and outside the cell, and hydrophobic (water-repelling) fatty-acid tails facing inwards.",
+     "In the fluid mosaic model, proteins are scattered in the bilayer like tiles in a mosaic, some on the surface and some passing right through, as channel and carrier proteins do. The phospholipids and many proteins move sideways, so the membrane is fluid.",
+     "Animal cell membranes also contain cholesterol, and many proteins and lipids carry carbohydrate chains (glycoproteins and glycolipids) on the outer surface.",
+     "The model explains why small non-polar molecules such as O₂ and CO₂ diffuse straight through the bilayer, while ions and glucose need protein channels or carriers. It also explains why membranes can fuse and re-seal, e.g. in endocytosis. Transport is taught in “Diffusion, osmosis and active transport”.",
+     "Limitations: the fluid mosaic model is still being refined. Membranes are not uniformly fluid, and some proteins are held in place by the cytoskeleton. Membranes are more crowded with protein than the usual diagram shows, and small regions of the membrane, called lipid rafts, differ in composition.",
+     "Diagram: a section of membrane showing the phospholipid bilayer with heads and tails labelled hydrophilic and hydrophobic, a channel protein passing through, a surface protein, a glycoprotein with its carbohydrate chain on the outside, and cholesterol."
+    ]
+   },
+   {
+    "b": "DNA structure itself is taught in “Nucleotides, DNA and RNA”.",
+    "h": "Worked example 3: the DNA double helix, a model that predicted",
+    "points": [
+     "In 1953 James Watson and Francis Crick, at the University of Cambridge, built a physical model of DNA from metal plates and rods.",
+     "They used X-ray diffraction images of DNA made by Rosalind Franklin and Raymond Gosling at King’s College London, including the image known as Photo 51; data from Maurice Wilkins; and Erwin Chargaff’s finding that in DNA the amount of adenine equals that of thymine, and the amount of cytosine equals that of guanine.",
+     "The model showed two strands wound into a double helix, with a sugar–phosphate backbone on the outside and bases paired inside: adenine with thymine, and cytosine with guanine. It explained Chargaff’s data and the X-ray pattern.",
+     "Prediction: complementary base pairing suggested that each strand could act as a template for a new strand, so that DNA could copy itself. Watson and Crick noted this in their 1953 paper.",
+     "In 1958 Matthew Meselson and Franklin Stahl showed experimentally that DNA replication is semi-conservative, as the model predicted. Replication is taught in “DNA replication and mitosis in the cell cycle”.",
+     "Limitations: the model shows one short, straight, static section. In cells, DNA is extremely long, is wound around histone proteins and coiled into chromosomes, and moves and unwinds. Atoms are shown as solid shapes.",
+     "Watson, Crick and Wilkins received the Nobel Prize in Physiology or Medicine in 1962. Franklin had died in 1958, and the prize is not awarded after death. Her contribution is now widely recognised, and the case is an example of how credit is shared in science."
+    ]
+   },
+   {
+    "h": "Further models in the course",
+    "points": [
+     "Bell-jar model of breathing: a bell jar represents the chest, balloons the lungs, a rubber sheet the diaphragm and a tube the trachea. Pulling the sheet down increases the volume in the jar, lowering the pressure, so air enters the balloons. Limitations: the jar’s walls are rigid, whereas the ribs move; there are no intercostal muscles; the rubber sheet is pulled down, whereas the diaphragm contracts and flattens; and the balloons have no alveoli (see “Gas exchange and the breathing mechanism”).",
+     "Punnett square: predicts the expected ratios of offspring genotypes and phenotypes. Assumptions: one gene controls the trait; each gamete carries one allele; fertilisation is random; all offspring survive. Limitations: the ratios are only probabilities, so small families often differ; and it does not apply to traits controlled by many genes or by the environment (see “Monohybrid crosses” and “Benefits and limitations of Mendelian genetics”).",
+     "Food chains, food webs and pyramids of numbers model feeding relationships and energy flow. Limitations: real feeding relationships are more complex, and pyramids of numbers can be inverted, e.g. many insects on one tree (see “Energy and nutrient transfer” and “Pyramids of numbers”).",
+     "Carbon and nitrogen cycle diagrams model how matter moves between living things and the environment. They show processes but not their rates or amounts (see “The carbon cycle” and “The nitrogen cycle”).",
+     "Disease-spread models use R₀, the average number of people one infected person infects in a population with no immunity. They predict that an outbreak grows if R₀ is above 1 and dies out if it is below 1, and how many people must be immune to stop spread. Assumptions: people mix randomly and R₀ stays constant. In reality, behaviour, vaccination, seasons and new variants change it, so predictions are updated as new data come in (see “Emergence and spread of infectious disease”).",
+     "Homeostasis as a stimulus–response model, with negative feedback (see “Homeostasis as a stimulus-response model”)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A model in biology is a simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves. Every model keeps the features that matter for its purpose and leaves out others, and it rests on assumptions. Biologists use models because real systems are sometimes too small, too large, too slow, too fast, too complex or too dangerous or unethical to study directly. Models can also predict how a system will behave in new conditions, and those predictions can be tested.",
+    "prompt": "What is meant by a model in biology? Give two reasons why biologists use models.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The earlier model, proposed by Hugh Davson and James Danielli in 1935, was a phospholipid bilayer sandwiched between two continuous layers of protein. Its assumption was that proteins form uniform layers on each surface. New data did not fit this assumption. Membrane proteins vary greatly in type and amount between membranes, and freeze-fracture electron microscopy showed proteins embedded in and passing through the bilayer. In 1970 Larry Frye and Michael Edidin fused a mouse cell and a human cell with differently labelled membrane proteins, and the proteins mixed over the surface of the combined cell, showing that membrane components move. Singer and Nicolson proposed the fluid mosaic model in 1972: a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, some passing right through, and with phospholipids and many proteins able to move sideways. One limitation is that the model is still being refined. Membranes are not uniformly fluid, and some proteins are held in place by the cytoskeleton.",
+    "prompt": "Using the structure of the cell membrane as an example, explain how scientific models are modified as more data become available.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "In the bell-jar model, the bell jar represents the chest, balloons represent the lungs, a rubber sheet represents the diaphragm and a tube represents the trachea. Pulling the rubber sheet down increases the volume inside the jar, which lowers the pressure, so air enters the balloons through the tube. Three limitations: first, the jar’s walls are rigid, whereas the ribs move. Second, the model has no intercostal muscles. Third, the rubber sheet is pulled down, whereas the diaphragm contracts and flattens, and the balloons have no alveoli.",
+    "prompt": "The bell-jar model is used to show how we breathe. Describe the model and give three of its limitations.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio4-s2": {
+  "keyTerms": [
+   {
+    "definition": "Any observable event or feature of living things that needs a causal explanation.",
+    "term": "Phenomenon"
+   },
+   {
+    "definition": "A set of interacting parts that work together as a whole, with inputs and outputs.",
+    "term": "System"
+   },
+   {
+    "definition": "A property that appears only from the interactions of parts, not from any single part.",
+    "term": "Emergent property"
+   },
+   {
+    "definition": "A response that reverses a change and keeps a system stable.",
+    "term": "Negative feedback"
+   },
+   {
+    "definition": "The dependence of organisms on each other and on their non-living environment, so that a change to one affects others.",
+    "term": "Interdependence"
+   },
+   {
+    "definition": "The principle that the structure of a molecule, cell, tissue or organism suits the job it does.",
+    "term": "Form fits function"
+   },
+   {
+    "definition": "Structures with the same underlying arrangement of bones or parts, inherited from a common ancestor but adapted to different functions.",
+    "term": "Homologous structures"
+   },
+   {
+    "definition": "The one-way flow of energy through living systems, which is eventually lost as heat.",
+    "term": "Transfer of energy"
+   },
+   {
+    "definition": "The recycling of atoms such as carbon and nitrogen between organisms and the environment.",
+    "term": "Transfer of matter"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Overview of the big ideas",
+    "points": [
+     "A biological phenomenon is any observable event or feature of living things, e.g. a person sweating on a hot day, bread going mouldy, or a population of rabbits crashing. Explaining it means giving its causes and mechanism, not just describing it.",
+     "Biologists explain phenomena using a small number of big ideas that apply across all of biology: systems; interdependence; the unity and diversity of life; form fits function; and the transfer of information, matter and energy. The most important further idea is evolution by natural selection, which explains both unity and diversity.",
+     "Evolution is the unifying explanation. All living things share common ancestors, so they share features (unity). Natural selection acting on variation in different environments has produced adaptations and many species (diversity). This is taught in “The theory of evolution by natural selection”."
+    ]
+   },
+   {
+    "h": "Systems",
+    "points": [
+     "A system is a set of interacting parts that work together as a whole. A system has inputs and outputs, and its behaviour depends on how the parts interact, not just on the parts themselves.",
+     "Properties that appear only from the interactions of parts are called emergent properties. For example, consciousness arises from interacting neurons, not from any single neuron.",
+     "Biological systems exist at every level of organisation: molecules, organelles, cells, tissues, organs, organ systems, organisms, populations, communities, ecosystems and the biosphere. The levels from cell to organism are taught in “Levels of organisation”.",
+     "Examples: the circulatory system, in which the heart, vessels and blood together transport materials (see “Circulation”); the digestive system; the nervous system; an ecosystem, in which living and non-living parts interact; and a cell, whose organelles work together.",
+     "Systems are regulated by feedback. Negative feedback reverses a change and keeps the system stable, e.g. the control of blood glucose and of thyroxine (see “Homeostasis as a stimulus-response model”).",
+     "Systems thinking means looking at how a change in one part affects others. For example, a fall in red blood cell count (anaemia) reduces oxygen delivery, so cells respire less aerobically, causing tiredness. Organ systems also depend on each other: breathing supplies oxygen, which the circulatory system transports to respiring cells."
+    ]
+   },
+   {
+    "h": "Interdependence",
+    "points": [
+     "Interdependence means that organisms depend on each other and on their non-living environment, so a change to one affects others.",
+     "Between organisms: feeding relationships in food webs, where removing a predator can let its prey increase and overgraze (see “Energy and nutrient transfer”); pollination of flowers by insects, which get nectar (see “Flower structure and pollination”); seed dispersal by animals (see “Fruit and seed dispersal”); and decomposers recycling nutrients that plants need (see “The carbon cycle” and “The nitrogen cycle”).",
+     "Nitrogen-fixing bacteria live in the root nodules of legumes such as clover. The gut microbiome and its human host also depend on each other (see “The microbiome”).",
+     "Between organisms and the environment: plants depend on light, water, CO₂ and minerals. Photosynthesis and respiration link organisms through the carbon cycle: producers release the oxygen that consumers use, and consumers release the CO₂ that producers use.",
+     "Within an organism: organ systems depend on each other. Muscles need the nervous system to stimulate them, and the circulatory system to supply glucose and oxygen."
+    ]
+   },
+   {
+    "h": "Unity of life",
+    "points": [
+     "Unity means that all living things share basic features, which is evidence that they share a common ancestor.",
+     "All living things are made of cells, with a phospholipid membrane, cytoplasm and ribosomes.",
+     "All use DNA as their genetic material. The genetic code is almost universal: the same codons code for the same amino acids in nearly all organisms. This is why a human gene can be expressed in bacteria in genetic engineering.",
+     "All use ATP to transfer energy, all build proteins from the same set of 20 amino acids, and all use enzymes.",
+     "All show the characteristics of life (see “Characteristics of living things”)."
+    ]
+   },
+   {
+    "h": "Diversity of life",
+    "points": [
+     "Diversity means the great variety of living things, at the levels of genes (variation within a species), species, and ecosystems (biodiversity; see “Key terms” in Ecology, Ecosystems and Biodiversity).",
+     "Causes: mutation creates new alleles; sexual reproduction, through meiosis and random fertilisation, shuffles them into new combinations (see “Variation”); natural selection in different environments favours different adaptations; and populations that are separated can become new species.",
+     "Biologists organise diversity by classification into three domains (Bacteria, Archaea and Eukaryota) and six kingdoms, based increasingly on genetic evidence (see “Domains of life” and “Classification”).",
+     "Unity and diversity are explained together by evolution: shared ancestry gives unity, and adaptation and speciation give diversity. For example, the forelimbs of humans, bats and whales have the same set of bones, which shows unity from a common ancestor, but different shapes for grasping, flying and swimming, which shows diversity from adaptation (see “Evidence for evolution”)."
+    ]
+   },
+   {
+    "h": "Form fits function",
+    "points": [
+     "Form fits function means that the structure of a molecule, cell, organ or organism suits the job it does. Natural selection explains why: individuals whose structures did the job better survived and reproduced more. Adaptations do not arise because organisms need them; variation already exists, and natural selection favours the better-adapted individuals.",
+     "Molecules: an enzyme’s active site has a shape complementary to its substrate, so it catalyses one reaction (see “Enzymes as catalysts”). The DNA double helix, with complementary base pairs, allows accurate copying.",
+     "Cells: red blood cells are biconcave discs with no nucleus, giving a large surface area and more room for haemoglobin to carry oxygen (see “Blood”). Neurons have long axons and a myelin sheath that carry impulses quickly over long distances (see “Neurons”). Root hair cells have long extensions that increase the surface area for absorbing water and minerals. Sperm cells have a tail for swimming and many mitochondria to supply energy. Guard cells change shape to open and close stomata.",
+     "Tissues and organs: alveoli have walls one cell thick, a moist lining, a large total surface area and a rich blood supply, for fast gas exchange (see “Gas exchange and the breathing mechanism”). Villi in the small intestine increase the surface area for absorption (see “Absorption, transport and storage”).",
+     "Arteries have thick, muscular, elastic walls to withstand high pressure, while veins have thinner walls and valves to stop backflow (see “Blood vessels”). Xylem vessels are hollow, dead tubes strengthened with lignin to carry water (see “Plant structures for transport”).",
+     "The left ventricle has a thicker muscular wall than the right because it pumps blood all round the body.",
+     "Exam technique: always link a named feature to its function with “so” or “which allows”, e.g. “the alveolar wall is one cell thick, so oxygen diffuses only a short distance”."
+    ]
+   },
+   {
+    "h": "Transfer of information",
+    "points": [
+     "Genetic information passes from DNA to RNA to protein, so genes control traits (see “Genes, proteins and traits”).",
+     "Information passes from parent to offspring through gametes (see “Key concepts of information transfer” in the Genetic Inheritance chapter), and from cell to daughter cells by DNA replication and mitosis.",
+     "Information is also transferred within the body by nerve impulses, which are fast, and by hormones, which are slower.",
+     "Between cells, information is transferred by chemical signals, e.g. neurotransmitters."
+    ]
+   },
+   {
+    "h": "Transfer of matter",
+    "points": [
+     "Matter is not created or destroyed but is recycled. Atoms of carbon, nitrogen and other elements cycle between organisms and the environment through feeding, excretion, death and decomposition (see “The carbon cycle” and “The nitrogen cycle”).",
+     "Within organisms, matter is taken in (digestion and absorption, gas exchange, and root uptake), transported (in blood, xylem and phloem), and built into new molecules (anabolism) or broken down (catabolism)."
+    ]
+   },
+   {
+    "h": "Transfer of energy",
+    "points": [
+     "Energy flows through living systems in one direction and is not recycled. Light energy from the Sun is converted to chemical energy in glucose by photosynthesis.",
+     "Respiration releases that energy and stores it in ATP, which transfers it to cell activities (see “ATP”).",
+     "At each step some energy is lost as heat, so energy decreases at each feeding level of a food chain. This limits food chains to a few links (see “Energy and nutrient transfer”).",
+     "Contrast: matter cycles, whereas energy flows through the system and is lost as heat.",
+     "Diagram: a simple ecosystem diagram, with energy as a one-way arrow from the Sun through producers, consumers and decomposers, with heat-loss arrows at each level, and matter (carbon) as a loop returning from decomposers to the air and soil and back to producers."
+    ]
+   },
+   {
+    "h": "Using the ideas together",
+    "points": [
+     "1. Describe the phenomenon precisely.",
+     "2. Choose the ideas that apply. More than one usually does.",
+     "3. Explain the mechanism step by step, naming the structures and processes involved.",
+     "4. Link structure to function, and cause to effect.",
+     "5. If asked, use evolution to explain why the feature exists."
+    ]
+   },
+   {
+    "h": "Worked example: breathing and heart rate during exercise",
+    "points": [
+     "Transfer of energy: muscles need more ATP, so they respire faster.",
+     "Transfer of matter: more oxygen must be supplied and more CO₂ removed.",
+     "Systems and interdependence: the breathing, circulatory and muscular systems work together. The brain detects the rise in CO₂ in the blood and increases the breathing rate, a feedback response (the detail of CO₂ control is in “CO2 as a controlling factor in breathing”).",
+     "Form fits function: alveoli and capillaries suit fast exchange."
+    ]
+   },
+   {
+    "h": "Worked example: removing a top predator",
+    "points": [
+     "Interdependence: the predator’s prey, e.g. a herbivore, increases.",
+     "Transfer of matter and energy: more energy flows to the herbivores, which eat more of the producers.",
+     "Systems: one change spreads through the food web.",
+     "Diversity: the plants that the herbivores prefer decline, so species diversity can fall."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Form fits function means that the structure of a molecule, cell, organ or organism suits the job it does. Natural selection explains why, because individuals whose structures did the job better survived and reproduced more. Example 1: red blood cells are biconcave discs with no nucleus, which gives a large surface area and more room for haemoglobin to carry oxygen. Example 2: alveoli have walls one cell thick, a moist lining, a large total surface area and a rich blood supply, so gas exchange is fast. Each example links a named feature to its function, e.g. the alveolar wall is one cell thick, so oxygen diffuses only a short distance.",
+    "prompt": "Explain, using two examples, what is meant by “form fits function” in biology.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Unity of life means that all living things share basic features, such as being made of cells with a phospholipid membrane, using DNA as genetic material, using ATP to transfer energy and building proteins from the same 20 amino acids. This is evidence that they share a common ancestor. Diversity of life means the great variety of living things, at the levels of genes, species and ecosystems. One cause of diversity is that mutation creates new alleles and sexual reproduction shuffles them into new combinations. Evolution accounts for both: shared ancestry gives unity, and natural selection in different environments, with adaptation and speciation, gives diversity. For example, the forelimbs of humans, bats and whales have the same set of bones, showing unity, but different shapes for grasping, flying and swimming, showing diversity.",
+    "prompt": "Explain what is meant by the unity and the diversity of life, and how the theory of evolution accounts for both.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Transfer of energy: muscles need more ATP, so they respire faster, releasing more energy. Transfer of matter: more oxygen must be supplied to the muscles and more CO₂ removed from them. Systems and interdependence: the breathing, circulatory and muscular systems work together, so the increased demand for oxygen and removal of CO₂ requires faster breathing and a faster circulation of blood. The brain detects the rise in CO₂ in the blood and increases the breathing rate, which is a negative feedback response that restores the balance. Form fits function: alveoli and capillaries suit fast gas exchange because the alveolar walls are one cell thick and have a large surface area and rich blood supply.",
+    "prompt": "Using the ideas of systems, interdependence and the transfer of matter and energy, explain why a person’s breathing rate and heart rate increase during exercise.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio5-s1": {
+  "keyTerms": [
+   {
+    "definition": "An individual living thing.",
+    "term": "Organism"
+   },
+   {
+    "definition": "The sum of all the chemical reactions in an organism, each controlled by an enzyme.",
+    "term": "Metabolism"
+   },
+   {
+    "definition": "Making its own food from simple inorganic substances.",
+    "term": "Autotrophic nutrition"
+   },
+   {
+    "definition": "Taking in ready-made food made by other organisms.",
+    "term": "Heterotrophic nutrition"
+   },
+   {
+    "definition": "A reaction that builds large molecules from smaller ones and needs energy.",
+    "term": "Anabolic reaction"
+   },
+   {
+    "definition": "A reaction that breaks large molecules into smaller ones and releases energy.",
+    "term": "Catabolic reaction"
+   },
+   {
+    "definition": "Release of energy from glucose using oxygen, producing carbon dioxide and water.",
+    "term": "Aerobic respiration"
+   },
+   {
+    "definition": "Release of less energy from glucose without oxygen, producing lactic acid in human muscle or ethanol and carbon dioxide in yeast and plants.",
+    "term": "Anaerobic respiration"
+   },
+   {
+    "definition": "The removal of the waste products of metabolism.",
+    "term": "Excretion"
+   },
+   {
+    "definition": "The removal of undigested food (faeces), which was never inside body cells.",
+    "term": "Egestion"
+   },
+   {
+    "definition": "The maintenance of a relatively constant internal environment despite changes inside or outside the organism.",
+    "term": "Homeostasis"
+   },
+   {
+    "definition": "A change in the internal or external environment that an organism can detect.",
+    "term": "Stimulus"
+   },
+   {
+    "definition": "An offspring genetically identical to its parent, produced by asexual reproduction.",
+    "term": "Clone"
+   },
+   {
+    "definition": "The passing of genetic information from parents to offspring.",
+    "term": "Heredity"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Biology is the study of living things (organisms). The specification lists eleven characteristics that together distinguish living from non-living things.",
+    "h": "What makes something alive",
+    "points": [
+     "An organism shows all eleven characteristics at some stage of its life, though not necessarily all at once: a dormant seed or a hibernating animal shows very little response or growth, but is still alive.",
+     "Some non-living things show one or two characteristics. A crystal grows, but only by adding material to its outside, not by making new material inside cells.",
+     "A fire “uses oxygen”, “releases energy” and “spreads”, but it has no cells, no heredity and no control of its reactions.",
+     "Something is alive only if it shows the full set. Viruses are the main borderline case (see “Viruses”)."
+    ]
+   },
+   {
+    "h": "Organisation and the cell",
+    "points": [
+     "Organisation: living things have a highly ordered structure. In multicellular organisms, cells are grouped into tissues, tissues into organs and organs into organ systems, each level carrying out particular jobs. Even a single cell has organised parts (organelles). The levels are described in “Levels of organisation”.",
+     "Cellular basis: all living things are made of one or more cells. The cell is the smallest unit that can carry out all the processes of life, so it is the basic unit of structure and function.",
+     "Unicellular organisms (e.g. bacteria, yeast, Amoeba) are one cell that carries out every life process. Multicellular organisms (e.g. humans, oak trees) have many specialised cells.",
+     "All cells share a cell membrane, cytoplasm, ribosomes and DNA as their genetic material. This shared basis is evidence that all life has a common origin.",
+     "The cell theory was developed in the 19th century. Matthias Schleiden concluded that all plants are made of cells (1838); Theodor Schwann extended this to animals (1839); Rudolf Virchow stated that all cells come from pre-existing cells (1855).",
+     "All cells arise only from pre-existing cells, by cell division."
+    ]
+   },
+   {
+    "h": "Nutrition, respiration and metabolism",
+    "points": [
+     "Nutrition: the way an organism obtains food, which supplies the energy and the raw materials (e.g. carbon, nitrogen, minerals) it needs.",
+     "Autotrophic nutrition: the organism makes its own food from simple inorganic substances. Photosynthetic autotrophs (plants, algae, some bacteria) use light energy to make glucose from carbon dioxide and water. A few bacteria are chemosynthetic, using energy from chemical reactions instead of light.",
+     "Heterotrophic nutrition: the organism takes in ready-made food made by other organisms, e.g. animals eat plants or other animals. Fungi and many bacteria absorb food from dead matter (saprophytes) or from a living host (parasites); detail is in “Microorganisms”.",
+     "Respiration: the controlled release of energy from food, mainly glucose, inside every living cell. The energy is trapped in ATP, which powers the cell’s activities.",
+     "Aerobic respiration uses oxygen: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. It releases much more energy per glucose than anaerobic respiration.",
+     "Anaerobic respiration happens without oxygen and releases less energy. In human muscle it produces lactic acid; in yeast and plant cells it produces ethanol and carbon dioxide.",
+     "Respiration is not the same as breathing. Breathing is the movement of air into and out of the lungs (gas exchange); respiration is a chemical process in cells. Plants respire all the time, day and night. The stages are in “Respiration”.",
+     "Metabolism: the sum of all the chemical reactions in an organism. Every reaction is controlled by an enzyme.",
+     "Anabolic reactions build large molecules from smaller ones and need energy, e.g. photosynthesis (glucose made from carbon dioxide and water) and protein synthesis from amino acids.",
+     "Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration, and the digestion of starch to maltose. The roles of biomolecules in these reactions are in “Biomolecules — The Chemicals of Life”."
+    ]
+   },
+   {
+    "h": "Excretion and homeostasis",
+    "points": [
+     "Excretion: the removal of the waste products of metabolism, which are substances made in cells that are harmful or not needed. If they built up they would poison cells or upset conditions such as pH.",
+     "Human examples: carbon dioxide from respiration is excreted by the lungs; urea, made in the liver from excess amino acids, is excreted by the kidneys in urine; excess water and salts are excreted by the kidneys and in sweat.",
+     "Plant examples: oxygen from photosynthesis and carbon dioxide from respiration diffuse out through the stomata. Some waste is stored in old leaves and lost when they fall.",
+     "Excretion is not egestion. Egestion is the removal of undigested food (faeces), which was never inside body cells and so is not a product of metabolism.",
+     "Homeostasis: the maintenance of a relatively constant internal environment, such as body temperature, blood glucose concentration, water and salt balance and pH, despite changes outside or inside the organism.",
+     "It matters because enzymes work only within narrow ranges of temperature and pH. Human core body temperature is kept at about 37 °C, and insulin lowers blood glucose after a meal. The mechanism (negative feedback) is in “Homeostasis”."
+    ]
+   },
+   {
+    "h": "Response, reproduction, growth and heredity",
+    "points": [
+     "Response: the ability to detect a change in the internal or external environment (a stimulus) and react to it, which helps the organism survive.",
+     "Animals respond quickly through the nervous system (e.g. pulling a hand away from a hot object) and more slowly with hormones. Plants respond more slowly, mainly through chemicals and their structure, e.g. guard cells close the stomata when water is short. Detail is in “Structures and systems for response”.",
+     "Reproduction: the production of new individuals of the same species. Every organism eventually dies, so reproduction is needed for the species to continue.",
+     "Asexual reproduction: one parent and no gametes. The offspring are genetically identical to the parent (clones), e.g. binary fission in bacteria and budding in yeast.",
+     "Sexual reproduction: two gametes (sex cells) fuse at fertilisation to form a zygote. The offspring are genetically different from the parents and from each other, which gives variation, e.g. humans and flowering plants.",
+     "Growth: a permanent increase in size and mass. It happens from within, by making new materials (anabolism), by cell division (mitosis) increasing the number of cells, and by cells enlarging and becoming specialised.",
+     "Plants keep growing throughout life at regions of dividing cells at the root and shoot tips. Most animals grow to a fixed adult size.",
+     "Heredity: the passing of genetic information, carried by genes made of DNA, from parents to offspring, so offspring inherit their parents’ characteristics. “Like produces like”, e.g. a cat’s offspring are always kittens.",
+     "Genes code for proteins, which control an organism’s traits. Variation arises from sexual reproduction and from mutations (changes in DNA). Detail is in “Genetic Inheritance”."
+    ]
+   },
+   {
+    "h": "Summary of the eleven characteristics",
+    "points": [
+     "Organisation: highly ordered structure, from cells up to organ systems.",
+     "Response: detecting a stimulus and reacting to it.",
+     "Respiration: releasing energy from food inside cells.",
+     "Nutrition: obtaining food for energy and raw materials.",
+     "Excretion: removing the waste products of metabolism.",
+     "Reproduction: producing new individuals of the same species.",
+     "Growth: a permanent increase in size and mass.",
+     "Metabolism: all the chemical reactions in an organism.",
+     "Homeostasis: keeping the internal environment relatively constant.",
+     "Heredity: passing genetic information from parents to offspring.",
+     "Cellular basis: made of cells, which arise only from pre-existing cells."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) Metabolism is the sum of all the chemical reactions in an organism, and every reaction is controlled by an enzyme. Anabolic reactions build large molecules and need energy, e.g. photosynthesis makes glucose from carbon dioxide and water; catabolic reactions break molecules down and release energy, e.g. respiration. (ii) Excretion is the removal of the waste products of metabolism, which would poison cells or upset conditions such as pH if they built up. For example, urea, made in the liver from excess amino acids, is excreted by the kidneys in urine. (iii) Heredity is the passing of genetic information, carried by genes made of DNA, from parents to offspring, so that offspring inherit their parents’ characteristics.",
+    "prompt": "Explain what is meant by each of the following characteristics of living things: (i) metabolism, (ii) excretion, (iii) heredity.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) Autotrophic organisms make their own food from simple inorganic substances, e.g. plants use light energy to make glucose from carbon dioxide and water. Heterotrophic organisms take in ready-made food made by other organisms, e.g. animals eat plants or other animals. (ii) Respiration is the controlled release of energy from food inside every living cell, a chemical process; breathing is the movement of air into and out of the lungs, which is gas exchange. (iii) Excretion is the removal of metabolic waste products, e.g. carbon dioxide excreted by the lungs; egestion is the removal of undigested food (faeces), which was never inside body cells.",
+    "prompt": "Distinguish between (i) autotrophic and heterotrophic nutrition, (ii) respiration and breathing, (iii) excretion and egestion.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The crystal grows, but only by adding material to its outside, whereas a living organism grows from within by making new materials and by cell division (growth). The crystal has no cells, so it lacks cellular basis; it is not made of cells that arise from pre-existing cells. It does not respire, so it does not release energy from food; it has no nutrition, taking in no food and raw materials for growth; it has no excretion, so it produces no metabolic waste; it does not respond to stimuli; it does not reproduce, so it produces no new individuals; and it has no heredity, carrying no genetic information from parents. A crystal may show one or two characteristics, but it lacks most of the eleven, so it is not alive.",
+    "prompt": "A crystal grows in a saturated salt solution. Using the characteristics of living things, explain why the crystal is not alive.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio5-s2": {
+  "keyTerms": [
+   {
+    "definition": "A group of similar cells with the same structure working together to carry out a particular function.",
+    "term": "Tissue"
+   },
+   {
+    "definition": "A structure made of several different tissues working together to carry out one or more functions.",
+    "term": "Organ"
+   },
+   {
+    "definition": "A group of organs working together to carry out a major function.",
+    "term": "Organ system"
+   },
+   {
+    "definition": "The process by which cells become specialised, each type using only some of its genes.",
+    "term": "Differentiation"
+   },
+   {
+    "definition": "An unspecialised cell that can still develop into several cell types.",
+    "term": "Stem cell"
+   },
+   {
+    "definition": "The surface area of an organism divided by its volume, which falls as the organism gets bigger.",
+    "term": "Surface area to volume ratio"
+   },
+   {
+    "definition": "Plant vascular tissue that carries water and minerals.",
+    "term": "Xylem"
+   },
+   {
+    "definition": "Plant vascular tissue that carries food.",
+    "term": "Phloem"
+   },
+   {
+    "definition": "Dividing plant cells at root and shoot tips where growth happens.",
+    "term": "Meristematic tissue"
+   },
+   {
+    "definition": "Each cell type doing one job very efficiently while depending on the other cell types.",
+    "term": "Division of labour"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Living things are organised in levels of increasing complexity. Each level is made of units of the level below working together.",
+    "h": "The levels of organisation",
+    "points": [
+     "Cell → tissue → organ → organ system → organism.",
+     "Below the cell, cells are built of organelles, which are built of biomolecules (e.g. proteins, lipids). Organelles are described in “Structures and organelles of animal and plant cells”.",
+     "Cell: the basic unit of life. In a multicellular organism cells are specialised (differentiated), so that the structure of each cell suits one job.",
+     "Tissue: a group of similar cells with the same structure, working together to carry out a particular function.",
+     "Organ: a structure made of several different tissues working together to carry out one or more functions.",
+     "Organ system: a group of organs working together to carry out a major function.",
+     "Organism: an individual living thing, whose organ systems work together to keep it alive.",
+     "Diagram: a five-step flow chart from cell to organism, with a human example at each level (muscle cell → muscle tissue → stomach → digestive system → human) and a plant example (xylem vessel → vascular tissue → leaf → shoot system → plant)."
+    ]
+   },
+   {
+    "b": "A specialised cell has a structure that suits its particular job.",
+    "h": "Specialised cells",
+    "points": [
+     "Unicellular organisms, e.g. Amoeba, yeast and bacteria, carry out every life process in one cell, so that cell is not specialised for a single job.",
+     "Differentiation: in a multicellular organism, all body cells contain the same DNA, but each cell type uses (expresses) only some of its genes, so cells become specialised. Unspecialised cells that can still become several cell types are called stem cells; their uses are in “Genetic Engineering”.",
+     "Red blood cell: no nucleus and a biconcave disc shape, giving more room for haemoglobin and a large surface area for carrying oxygen.",
+     "Nerve cell (neuron): long thin extensions carry impulses over long distances quickly.",
+     "Sperm cell: a tail for swimming, and many mitochondria in the middle section to release energy.",
+     "Root hair cell: a long extension gives a large surface area for absorbing water and minerals.",
+     "Palisade cell of a leaf: packed with chloroplasts for photosynthesis. Guard cells change shape to open and close the stomata."
+    ]
+   },
+   {
+    "h": "Tissues in animals",
+    "points": [
+     "Epithelial tissue lines and covers surfaces, e.g. the lining of the gut and the skin surface.",
+     "Connective tissue supports and connects, e.g. bone, cartilage and blood.",
+     "Muscle tissue contracts to cause movement. There are three types: skeletal, smooth and cardiac.",
+     "Nervous tissue carries impulses, e.g. in the brain, spinal cord and nerves."
+    ]
+   },
+   {
+    "h": "Tissues in plants",
+    "points": [
+     "Dermal tissue is the epidermis, a protective outer layer.",
+     "Vascular tissue: xylem carries water and minerals; phloem carries food.",
+     "Ground tissue makes up the bulk of the plant, carrying out photosynthesis and storage, e.g. the mesophyll of a leaf.",
+     "Meristematic tissue consists of dividing cells at root and shoot tips, where growth happens.",
+     "A leaf contains dermal, ground and vascular tissue. Plant organs are root, stem, leaf and flower."
+    ]
+   },
+   {
+    "h": "Organs and organ systems",
+    "points": [
+     "The stomach is an organ containing epithelial tissue lining it, smooth muscle that churns food, connective tissue and nervous tissue.",
+     "Other human organs include the heart, lungs, kidneys and brain.",
+     "Digestive system: breaks down and absorbs food.",
+     "Circulatory system: transports materials.",
+     "Breathing system: gas exchange.",
+     "Nervous system: fast coordination.",
+     "Endocrine system: hormonal coordination.",
+     "Musculoskeletal system: support and movement.",
+     "Urinary system: excretion and water balance.",
+     "Reproductive system: reproduction.",
+     "Immune system: defence.",
+     "Plants have two systems. The root system anchors the plant and absorbs water and minerals. The shoot system (stem, leaves and flowers) carries out photosynthesis, transport and reproduction."
+    ]
+   },
+   {
+    "h": "Surface area to volume and the need for systems",
+    "points": [
+     "As an organism gets bigger, its volume increases faster than its surface area, so its surface area to volume ratio falls.",
+     "Worked example: a 1 cm cube has a surface area of 6 cm² and a volume of 1 cm³, a ratio of 6:1. A 2 cm cube has a surface area of 24 cm² and a volume of 8 cm³, a ratio of 3:1.",
+     "A unicellular organism has a large surface area to volume ratio, so diffusion across its membrane is enough to supply oxygen and food and to remove wastes. In a large multicellular organism most cells are far from the surface, so diffusion alone is too slow.",
+     "Multicellular organisms therefore need specialised exchange surfaces (lungs, gut lining, root hairs, leaves), transport systems (blood and heart; xylem and phloem), and coordination systems (nervous and hormonal) that link all the parts and keep conditions constant (homeostasis).",
+     "Division of labour: each cell type does one job very efficiently, but no cell can survive alone, so the cells depend on each other."
+    ]
+   },
+   {
+    "h": "Advantages and disadvantages of being multicellular",
+    "points": [
+     "Advantage: a larger size, which means fewer predators and access to light or food.",
+     "Advantage: cells inside the body are protected from the environment.",
+     "Advantage: efficiency from specialisation.",
+     "Advantage: the organism can survive the death of individual cells, which are replaced.",
+     "Disadvantage: more energy and resources are needed to build and maintain the body.",
+     "Disadvantage: damage to one vital organ or system can kill the whole organism.",
+     "Disadvantage: growth to reproductive age takes longer than for unicellular organisms, which can divide within hours."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A tissue is a group of similar cells with the same structure working together to carry out a particular function. For example, xylem vascular tissue carries water and minerals through the plant. An organ is a structure made of several different tissues working together to carry out one or more functions. For example, a leaf is an organ made of dermal, ground and vascular tissue, and it carries out photosynthesis.",
+    "prompt": "Define the terms tissue and organ, and give one example of each from a flowering plant.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A unicellular organism has a large surface area to volume ratio, so diffusion across its membrane is enough to supply oxygen and food and to remove wastes. As an organism gets bigger its volume increases faster than its surface area, so the ratio falls. For example, a 1 cm cube has a ratio of 6:1, while a 2 cm cube has a surface area of 24 cm² and a volume of 8 cm³, a ratio of 3:1. In a large multicellular organism most cells are far from the surface, so diffusion alone is too slow. It therefore needs a transport system, such as blood and the heart in animals or xylem and phloem in plants, to carry materials to and from all its cells.",
+    "prompt": "Explain why a large multicellular organism needs a transport system but a unicellular organism does not.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Multicellular organisms are organised in levels of increasing complexity: cells form tissues, tissues form organs, organs form organ systems, and organ systems together make up the organism. For example, a muscle cell forms muscle tissue, which with other tissues forms the stomach, which is part of the digestive system that breaks down and absorbs food in the human body. Each cell is specialised, and differentiation means that cells use only some of their genes so that their structure suits their job. A red blood cell has no nucleus and a biconcave disc shape, giving room for haemoglobin and a large surface area for carrying oxygen; a root hair cell has a long extension giving a large surface area for absorbing water and minerals. Division of labour means each cell type does one job very efficiently, but no cell can survive alone. An advantage of being multicellular is that the organism can survive the death of individual cells, which are replaced. A disadvantage is that damage to one vital organ or system can kill the whole organism.",
+    "prompt": "Describe the complexity of multicellular organisms, referring to cell specialisation and the levels of organisation.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio6-s1": {
+  "keyTerms": [
+   {
+    "definition": "A tiny, non-cellular particle of nucleic acid inside a protein coat, which can reproduce only inside a living host cell.",
+    "term": "Virus"
+   },
+   {
+    "definition": "An organism or particle that can reproduce only inside a host cell.",
+    "term": "Obligate intracellular parasite"
+   },
+   {
+    "definition": "The protein coat of a virus, made of repeating protein subunits, which protects the nucleic acid.",
+    "term": "Capsid"
+   },
+   {
+    "definition": "An outer lipid membrane, taken from the host cell, that surrounds some viruses.",
+    "term": "Envelope"
+   },
+   {
+    "definition": "The way a virus infects only particular species and cell types, because its surface proteins fit specific receptors.",
+    "term": "Host specificity"
+   },
+   {
+    "definition": "A virus with a head and tail that infects bacteria.",
+    "term": "Bacteriophage"
+   },
+   {
+    "definition": "A preparation of weakened or inactivated virus, or of viral proteins, that trains the immune system against a disease.",
+    "term": "Vaccine"
+   },
+   {
+    "definition": "A harmless modified virus used to carry genes into cells.",
+    "term": "Vector"
+   },
+   {
+    "definition": "A drug that treats viral infections, which antibiotics cannot do.",
+    "term": "Antiviral drug"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A virus is a tiny, non-cellular particle. It can reproduce only inside a living host cell, so it is an obligate intracellular parasite.",
+    "h": "Structure of a virus",
+    "points": [
+     "Nucleic acid core: either DNA or RNA, never both. It carries the genes (instructions) for making new virus particles, and may be single- or double-stranded.",
+     "Protein coat (capsid): made of many repeating protein subunits (capsomeres). It protects the nucleic acid. Its proteins attach to specific receptor molecules on the surface of the host cell, which is why each virus infects only particular species and particular cell types (host specificity).",
+     "Envelope (some viruses only, e.g. influenza virus and HIV): an outer lipid membrane taken from the host cell’s membrane as the virus leaves, studded with viral proteins (spikes) that help the virus attach to and enter new cells.",
+     "Viruses have no cytoplasm, no ribosomes, no cell membrane of their own and almost no enzymes. They must use the host cell’s ribosomes, enzymes, ATP and raw materials to make copies of themselves; replication is covered in “Immunity”.",
+     "Size: most viruses are about 20–300 nm across, much smaller than a bacterium (about 1–10 µm). They pass through filters that trap bacteria and can be seen only with an electron microscope.",
+     "Shapes: rod-shaped or helical (e.g. tobacco mosaic virus); many-sided or polyhedral (e.g. adenovirus); spherical and enveloped (e.g. influenza virus); complex, with a head and tail (bacteriophages, which infect bacteria).",
+     "Diagram: a bacteriophage labelled head (protein coat), nucleic acid (DNA) inside the head, tail and tail fibres; and an enveloped virus labelled envelope, spike proteins, protein coat and RNA."
+    ]
+   },
+   {
+    "b": "Viruses are hard to classify because they show some features of living things and lack others.",
+    "h": "Is a virus living? Evidence on each side",
+    "points": [
+     "Features of living things that viruses show: they contain genetic material (DNA or RNA) using the same genetic code as cells.",
+     "They reproduce, making many copies of themselves, but only inside a host cell.",
+     "They show heredity, passing genes to new viruses, and they mutate and evolve by natural selection. For example, new strains of influenza appear every year, so the flu vaccine is updated.",
+     "Their structure is highly organised.",
+     "Features of living things that viruses lack: they are not made of cells (they are acellular), so they do not fit the cell theory.",
+     "They have no metabolism of their own, with no respiration, nutrition or excretion; they do not grow and do not respond to stimuli.",
+     "They cannot reproduce outside a host cell, and outside a host they are inert particles.",
+     "Some viruses can be crystallised like a chemical and remain infectious afterwards: Wendell Stanley crystallised tobacco mosaic virus in 1935.",
+     "Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms, so they are not placed in any of the three domains or six kingdoms (see “Classification”). Others argue that a virus is alive only while it is inside a host cell, using the cell’s machinery."
+    ]
+   },
+   {
+    "h": "Medical importance",
+    "points": [
+     "Viruses cause many human diseases: common cold (rhinoviruses), influenza (flu), measles, mumps, chickenpox, COVID-19 (caused by SARS-CoV-2), AIDS (caused by HIV, which destroys helper T cells of the immune system) and hepatitis B.",
+     "Some viruses cause cancer. Human papillomavirus (HPV) causes most cervical cancers, and a vaccine against HPV protects against them; detail is in “Cell Division and Cancer”.",
+     "Antibiotics do not work against viruses, because antibiotics target structures and processes that viruses do not have, such as bacterial cell walls and ribosomes.",
+     "Viral infections are treated with antiviral drugs, which are fewer and more specific, and are prevented by vaccination and hygiene; detail is in “Immunity”.",
+     "Misusing antibiotics for viral infections contributes to antibiotic resistance in bacteria.",
+     "Useful medical roles: vaccines are made from weakened or inactivated viruses or from viral proteins.",
+     "Harmless modified viruses are used as vectors to carry genes into human cells in gene therapy and in some vaccines. Some COVID-19 vaccines used a harmless adenovirus to carry the gene for a coronavirus spike protein.",
+     "Bacteriophages can be used to kill bacteria that are resistant to antibiotics (phage therapy)."
+    ]
+   },
+   {
+    "h": "Economic importance",
+    "points": [
+     "Plant viruses reduce crop yields, e.g. tobacco mosaic virus (tobacco, tomatoes), potato viruses, and barley yellow dwarf virus in cereals, which is spread by aphids.",
+     "Animal viruses such as foot-and-mouth disease (cattle, sheep and pigs) and avian influenza (bird flu, poultry) lead to culling of infected herds and flocks, bans on exports and movement restrictions.",
+     "Costs to society: health-care costs, lost working days and, in a pandemic, the closure of businesses, schools and travel, e.g. COVID-19 from 2020.",
+     "Economic benefits: viruses are used as tools in genetic engineering, as vectors that carry genes into cells.",
+     "Viruses are used in biological control of pests: myxoma virus was released in Australia in 1950 to control rabbits.",
+     "Vaccine production is a major pharmaceutical industry."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The diagram shows a bacteriophage with a head containing DNA, surrounded by a protein coat, a tail and tail fibres; or an enveloped virus with an envelope, spike proteins, a protein coat and RNA. The nucleic acid carries the genes (instructions) for making new virus particles. The protein coat, or capsid, protects the nucleic acid and its proteins attach to specific receptor molecules on the surface of a host cell, which determines which species and cell types the virus can infect.",
+    "prompt": "Draw a labelled diagram of a virus and state the function of two of the parts you have labelled.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Evidence that viruses are living: they contain genetic material (DNA or RNA) with the same genetic code as cells; they reproduce, making many copies of themselves; they show heredity and mutate and evolve by natural selection, e.g. new influenza strains each year. Evidence that they are not living: they are not made of cells, so they do not fit the cell theory; they have no metabolism of their own; they do not grow or respond to stimuli; and they cannot reproduce outside a host cell, where they are inert particles. Supporting evidence: Wendell Stanley crystallised tobacco mosaic virus in 1935, and the crystals remained infectious. Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms and they are placed in no domain or kingdom, although some argue they are alive only while inside a host cell.",
+    "prompt": "Discuss whether viruses should be considered living organisms.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Medical importance: viruses cause many human diseases, e.g. COVID-19, caused by SARS-CoV-2, or AIDS, caused by HIV, which destroys helper T cells of the immune system. Antibiotics do not work on viruses, which lack the structures antibiotics target. A beneficial medical use is the vaccine, e.g. some COVID-19 vaccines used a harmless adenovirus to carry the gene for the coronavirus spike protein. Economic importance: plant viruses such as barley yellow dwarf virus, spread by aphids, reduce crop yields, and animal viruses such as foot-and-mouth disease lead to culling of herds and bans on exports. A beneficial example is myxoma virus, released in Australia in 1950 to control rabbits.",
+    "prompt": "Outline the medical and economic importance of viruses, giving one harmful and one beneficial example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio6-s2": {
+  "keyTerms": [
+   {
+    "definition": "The highest rank in the classification of living things, above kingdom.",
+    "term": "Domain"
+   },
+   {
+    "definition": "The prokaryotic domain whose members lack peptidoglycan in their cell walls and have a unique type of membrane lipid.",
+    "term": "Archaea"
+   },
+   {
+    "definition": "The prokaryotic domain whose cell walls contain peptidoglycan.",
+    "term": "Bacteria"
+   },
+   {
+    "definition": "The domain of organisms whose cells have a membrane-bound nucleus and membrane-bound organelles.",
+    "term": "Eukarya"
+   },
+   {
+    "definition": "The RNA of ribosomes, whose sequence changes slowly and is compared across organisms to show relationships.",
+    "term": "Ribosomal RNA (rRNA)"
+   },
+   {
+    "definition": "An organism that lives in extreme conditions, such as very hot, very salty or oxygen-free places.",
+    "term": "Extremophile"
+   },
+   {
+    "definition": "An archaeon that produces methane in places with no oxygen.",
+    "term": "Methanogen"
+   },
+   {
+    "definition": "The substance that makes up the cell walls of bacteria, but not of archaea.",
+    "term": "Peptidoglycan"
+   },
+   {
+    "definition": "A measure of how fast a particle settles in a centrifuge; a larger number means a larger particle.",
+    "term": "Svedberg unit (S number)"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A domain is the highest, broadest rank in the classification of living things, above kingdom. All cellular life is placed in three domains: Bacteria, Archaea and Eukarya (the specification calls the last one eukaryota).",
+    "h": "What the domain system is",
+    "points": [
+     "The system was developed by the American microbiologist Carl Woese. In 1977, with George Fox, he showed that archaea are a separate group from bacteria. In 1990 Woese and colleagues formally proposed the three domains.",
+     "Before this, all prokaryotes were placed in one group, the kingdom “Monera” in the five-kingdom system. Archaea look like bacteria under the microscope, so the difference could only be found from their molecules.",
+     "Genetic basis: Woese compared the base sequences of ribosomal RNA (rRNA), specifically the RNA of the small ribosome subunit. Every cell has ribosomes, the rRNA does the same job in all of them, and its sequence changes very slowly over evolutionary time, so it can be compared across all living things.",
+     "The more similar two organisms’ rRNA sequences are, the more closely related they are.",
+     "The results showed three deep branches of life, not two (prokaryote and eukaryote). Archaea differ from bacteria about as much as either differs from eukaryotes.",
+     "In several genetic features archaea are more similar to eukaryotes than to bacteria, so archaea and eukaryotes share a more recent common ancestor with each other than either does with bacteria.",
+     "Diagram: a three-domain tree with one common ancestor at the base; one branch to Bacteria; and a second branch that splits into Archaea and Eukarya. Label the four eukaryotic kingdoms (Protista, Fungi, Plantae, Animalia) on the Eukarya branch."
+    ]
+   },
+   {
+    "h": "Bacteria",
+    "points": [
+     "Bacteria are prokaryotic: they have no nucleus or membrane-bound organelles.",
+     "Bacteria have a single circular chromosome without histone proteins, and their cell walls contain peptidoglycan.",
+     "Bacteria are found almost everywhere. They include decomposers, nitrogen-fixing bacteria, photosynthetic cyanobacteria and pathogens such as Streptococcus and some strains of Escherichia coli.",
+     "Many bacteria are killed by antibiotics."
+    ]
+   },
+   {
+    "h": "Archaea",
+    "points": [
+     "Archaea are prokaryotic and single-celled, similar in size and shape to bacteria.",
+     "Their cell walls lack peptidoglycan, and their membrane lipids have a different chemical structure from those of all other organisms.",
+     "Their DNA is wound around histone-like proteins, and their enzymes for copying DNA and making RNA are more like those of eukaryotes.",
+     "Most antibiotics that kill bacteria do not affect archaea.",
+     "Many archaea are extremophiles living in extreme conditions. Thermophiles live in hot springs and deep-sea hydrothermal vents; halophiles live in very salty water such as salt lakes, e.g. Halobacterium.",
+     "Methanogens live where there is no oxygen, e.g. in bogs, rice paddies and the digestive systems of cattle, and make methane.",
+     "Archaea are also common in ordinary soil and the oceans. Archaea are not restricted to extreme environments, and no archaea are known to cause disease in humans."
+    ]
+   },
+   {
+    "h": "Eukarya",
+    "points": [
+     "Eukarya are all organisms whose cells have a nucleus enclosed by a membrane and membrane-bound organelles, e.g. mitochondria.",
+     "Eukaryotic cells have several linear chromosomes, with DNA wound around histones.",
+     "Eukarya are unicellular or multicellular. The domain contains the kingdoms Protista, Fungi, Plantae and Animalia."
+    ]
+   },
+   {
+    "h": "Comparing the three domains",
+    "points": [
+     "Nucleus: absent in bacteria, absent in archaea, present in eukaryotes.",
+     "Membrane-bound organelles: absent in bacteria, absent in archaea, present in eukaryotes.",
+     "Peptidoglycan in the cell wall: present in bacteria, absent in archaea, absent in eukaryotes.",
+     "Membrane lipids: bacterial-type in bacteria, a unique archaeal type in archaea, bacterial-type in eukaryotes.",
+     "Histones: absent in bacteria, histone-like in archaea, present in eukaryotes.",
+     "Ribosome size: 70S in bacteria, 70S in archaea, 80S in the cytoplasm of eukaryotes.",
+     "Sensitivity to common antibiotics: many bacteria are affected, archaea are generally not, and eukaryotes are not affected.",
+     "Examples: Escherichia coli and Streptococcus for bacteria; Halobacterium and methanogens for archaea; the kingdoms Protista, Fungi, Plantae and Animalia for Eukarya."
+    ]
+   },
+   {
+    "h": "The S number",
+    "points": [
+     "The S number (Svedberg unit) measures how fast a particle settles in a centrifuge. A larger number means a larger particle."
+    ]
+   },
+   {
+    "h": "Why the domain system matters",
+    "points": [
+     "The biggest division in life is not plant versus animal, or even prokaryote versus eukaryote, but these three lineages. Animals, plants and fungi are just three small branches of one domain.",
+     "The domain system is based on genetic evidence, which reflects evolutionary relationships, rather than on appearance.",
+     "It is an example of how new technology (gene sequencing) changes classification. This is discussed further in “Classification”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Bacteria: prokaryotic, with cell walls containing peptidoglycan. Archaea: prokaryotic, with cell walls that lack peptidoglycan and membrane lipids of a unique type. Eukarya: cells with a nucleus enclosed by a membrane and membrane-bound organelles, such as mitochondria.",
+    "prompt": "Name the three domains of life and give one distinguishing feature of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The three-domain system was developed by Carl Woese, who in 1977, with George Fox, showed that archaea are separate from bacteria, and who formally proposed the three domains in 1990. Before this, all prokaryotes had been placed in one group, the kingdom Monera, because archaea look like bacteria under the microscope. The system is based on the base sequences of ribosomal RNA. rRNA is suitable because every cell has ribosomes and the rRNA does the same job in all of them, and its sequence changes very slowly over evolutionary time, so it can be compared across all living things. The results showed three deep branches of life, with archaea and eukaryotes sharing a more recent common ancestor with each other than either does with bacteria.",
+    "prompt": "Outline how the three-domain system was developed, referring to the evidence on which it is based.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "First, archaeal cell walls lack peptidoglycan, which bacterial cell walls contain. Second, archaeal membrane lipids have a unique chemical structure, unlike the bacterial type. Third, archaeal DNA is wound around histone-like proteins, which bacterial DNA is not. Archaea are also generally not affected by the antibiotics that kill bacteria.",
+    "prompt": "Archaea and bacteria are both prokaryotic. Give three differences between them.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio6-s3": {
+  "keyTerms": [
+   {
+    "definition": "The science of naming, describing and classifying organisms.",
+    "term": "Taxonomy"
+   },
+   {
+    "definition": "A group of organisms with similar features that can interbreed to produce fertile offspring.",
+    "term": "Species"
+   },
+   {
+    "definition": "The two-part scientific name of a species, made of the genus name and the species name.",
+    "term": "Binomial nomenclature"
+   },
+   {
+    "definition": "The evolutionary history of a group of organisms.",
+    "term": "Phylogeny"
+   },
+   {
+    "definition": "A diagram of evolutionary relationships in which each branch point represents a common ancestor.",
+    "term": "Phylogenetic tree"
+   },
+   {
+    "definition": "A thread-like filament that makes up the body of a fungus, forming a mycelium.",
+    "term": "Hypha"
+   },
+   {
+    "definition": "A key that identifies an organism through a series of two-choice couplets about visible features.",
+    "term": "Dichotomous key"
+   },
+   {
+    "definition": "One pair of contrasting statements in a dichotomous key.",
+    "term": "Couplet"
+   },
+   {
+    "definition": "The eukaryotic kingdom of mostly unicellular organisms, including some multicellular algae such as seaweeds.",
+    "term": "Protista"
+   },
+   {
+    "definition": "Identifying species quickly from a short standard gene sequence.",
+    "term": "DNA barcoding"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Classification and the ranks of the hierarchy",
+    "points": [
+     "Classification is the grouping of organisms according to their shared characteristics. Taxonomy is the science of naming, describing and classifying organisms.",
+     "Organisms are placed in a hierarchy of ranks (taxa), from broadest to narrowest: domain, kingdom, phylum, class, order, family, genus, species. Moving down the ranks, each group has fewer members, which share more features and are more closely related.",
+     "Worked example, human: domain Eukarya, kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species Homo sapiens.",
+     "A species is a group of organisms with similar features that can interbreed to produce fertile offspring. A horse and a donkey can mate, but their offspring, a mule, is infertile, so they are different species.",
+     "Limitation of the species definition: it cannot be applied to organisms that reproduce only asexually (e.g. bacteria) or to fossils.",
+     "Binomial nomenclature: every species has a two-part scientific name, the genus name (capital first letter) followed by the species name (lower case), printed in italics or underlined when handwritten. Examples: Homo sapiens (human), Escherichia coli (a gut bacterium), Rhizopus stolonifer (black bread mould).",
+     "The Swedish botanist Carl Linnaeus introduced binomial nomenclature; his Species Plantarum (1753) used it for all plants.",
+     "Species in the same genus are closely related. The lion (Panthera leo) and tiger (Panthera tigris) share the genus Panthera."
+    ]
+   },
+   {
+    "h": "Prokaryotic and eukaryotic as a means of classifying",
+    "points": [
+     "The first division of cellular life is by cell type. Prokaryotic cells have no nucleus and no membrane-bound organelles. Eukaryotic cells have a nucleus surrounded by a membrane, and membrane-bound organelles. Cell structure in detail is in “Prokaryotic and eukaryotic cells”.",
+     "Two kingdoms are prokaryotic, Bacteria and Archaea, each forming its own domain. Four kingdoms are eukaryotic, Protista, Fungi, Plantae and Animalia, all in the domain Eukarya.",
+     "The distinction became clear only once the electron microscope showed cell interiors."
+    ]
+   },
+   {
+    "b": "The six kingdoms differ in cell type, number of cells, cell wall, nutrition, storage carbohydrate and example. The features of each kingdom are given below.",
+    "h": "The six kingdoms",
+    "points": [
+     "Bacteria: prokaryotic and unicellular, with cell walls of peptidoglycan. Bacteria are autotrophic (photosynthetic or chemosynthetic) or heterotrophic (saprophytic or parasitic), and reproduce by binary fission. Examples: Escherichia coli, Lactobacillus (used to make yoghurt) and Streptococcus.",
+     "Archaea: prokaryotic and unicellular, with cell walls that have no peptidoglycan. Many live in extreme environments. Examples: methanogens in cattle digestive systems, and Halobacterium in salt lakes.",
+     "Protista: eukaryotic and mostly unicellular, though some are multicellular algae such as seaweeds (kelp). They have no tissues of the kind found in plants and animals. Some are photosynthetic (algae) and some are heterotrophic.",
+     "Protista includes eukaryotes that do not belong in the other three eukaryotic kingdoms. Examples: Amoeba, Paramecium, Plasmodium (causes malaria) and Phytophthora infestans (causes potato blight, which caused the Great Famine in Ireland, 1845–1849).",
+     "Fungi: eukaryotic and mostly multicellular, made of thread-like hyphae forming a mycelium, though yeasts are unicellular. They have no chlorophyll and cell walls of chitin.",
+     "Fungi are heterotrophic: they secrete enzymes onto food and absorb the products, living as saprophytes or parasites. They store carbohydrate as glycogen and reproduce by spores. Examples: Rhizopus (bread mould), yeast (Saccharomyces cerevisiae), mushrooms and Penicillium.",
+     "Plantae: eukaryotic and multicellular, with cell walls of cellulose and chloroplasts. They are autotrophic by photosynthesis, store carbohydrate as starch, and mostly do not move. Examples: mosses, ferns, conifers, and flowering plants such as the daisy and oak.",
+     "Animalia: eukaryotic and multicellular, with no cell walls. They are heterotrophic, taking in (ingesting) food, and store carbohydrate as glycogen. Most can move and have nerves and muscles. Examples: sponges, earthworms, insects, fish and mammals.",
+     "Viruses are not in any kingdom or domain, because they are not cells (see “Viruses”)."
+    ]
+   },
+   {
+    "h": "Phylogeny",
+    "points": [
+     "Phylogeny is the evolutionary history of a group of organisms. Phylogenetic classification groups organisms by how closely related they are by descent from common ancestors, rather than by appearance alone.",
+     "A phylogenetic tree shows these relationships. Each branch point (node) represents a common ancestor, and the closer two species’ branches join, the more recent their common ancestor and the more closely related they are.",
+     "Species in the same genus share a very recent common ancestor; genera in the same family share an older one.",
+     "Example: the lion and tiger (genus Panthera) are more closely related to each other than either is to the domestic cat (Felis catus), but all three are in the cat family (Felidae). The dog (Canis familiaris, also written Canis lupus familiaris) is in a different family, Canidae, and all four are in the order Carnivora.",
+     "Diagram: a phylogenetic tree for lion, tiger, domestic cat and dog, with the nodes for genus Panthera, family Felidae and order Carnivora labelled.",
+     "Evidence used to work out phylogeny includes shared anatomical structures with the same basic plan, e.g. the five-digit limb of mammals, birds, reptiles and amphibians; embryology; and fossils. Each type of evidence for evolution is in “Evolution: The Origins of Life”.",
+     "The most powerful evidence is comparison of DNA base sequences and protein amino-acid sequences: the fewer the differences, the more closely related the organisms.",
+     "Appearance can mislead. Whales and dolphins look like fish but are mammals: they breathe air with lungs, are warm-blooded and feed their young on milk."
+    ]
+   },
+   {
+    "h": "How classification systems have changed",
+    "points": [
+     "Early systems had two kingdoms, plants and animals. Linnaeus, in the 18th century, classified organisms by visible features.",
+     "Microscopes revealed single-celled organisms that fitted neither kingdom. In 1866 Ernst Haeckel proposed a third kingdom, Protista.",
+     "In 1969 Robert Whittaker proposed five kingdoms: Monera, Protista, Fungi, Plantae and Animalia. Fungi were separated from plants because they have chitin walls, no chlorophyll and absorb their food. Monera held all the prokaryotes.",
+     "rRNA sequencing by Carl Woese showed that prokaryotes form two very different groups. This gave three domains (1990) and the six kingdoms used in this course, with Monera split into Bacteria and Archaea. Detail is in “Domains of life”.",
+     "Systems change because new technology provides new evidence, e.g. the light microscope, the electron microscope, biochemistry and DNA sequencing. Classification is revised to reflect evolutionary relationships more accurately. It is a model that scientists keep testing and improving."
+    ]
+   },
+   {
+    "h": "Emerging evidence",
+    "points": [
+     "DNA sequencing and whole-genome comparisons are now the main evidence for classification, and have moved many organisms. Phytophthora (potato blight) was long classed as a fungus because it grows as threads. Its DNA and its cellulose cell walls show that it belongs with the protists (water moulds).",
+     "DNA evidence placed the giant panda in the bear family.",
+     "Environmental DNA sequencing, which sequences all the DNA in a soil or water sample, has revealed huge numbers of microorganisms that have never been grown in a laboratory. These add new branches to the tree of life.",
+     "Asgard archaea were first described in 2015 from DNA in sediment near the Loki’s Castle hydrothermal vents in the Arctic Ocean. They share many genes with eukaryotes.",
+     "Some scientists argue that eukaryotes arose from within the archaea, which would mean only two primary domains. This is still debated.",
+     "DNA barcoding uses a short standard gene sequence to identify species quickly, e.g. to identify species from tiny samples or to detect mislabelled food."
+    ]
+   },
+   {
+    "h": "The dichotomous key: definition and worked example",
+    "points": [
+     "A dichotomous key identifies an organism by a series of steps. Each step gives a choice between two contrasting statements (a couplet) about a visible feature. Each statement leads either to a name or to the number of the next couplet.",
+     "Worked example: a key to six invertebrates.",
+     "1. Legs present → go to 2; legs absent → go to 4.",
+     "2. Three pairs of legs → ladybird (an insect); more than three pairs of legs → go to 3.",
+     "3. Four pairs of legs → spider; seven pairs of legs → woodlouse.",
+     "4. Shell present → snail; no visible shell → go to 5.",
+     "5. Body divided into rings (segments) → earthworm; body not divided into rings → slug.",
+     "Using the key: an animal with eight legs goes 1 (legs present) → 2 (more than three pairs) → 3 (four pairs) → spider.",
+     "Write the route for one more organism: the slug goes 1 → 4 → 5 → slug."
+    ]
+   },
+   {
+    "h": "Constructing a key and classifying an unknown organism",
+    "points": [
+     "To construct a key, list the organisms, choose a feature that splits them into two groups, and keep splitting each group in two until each organism is on its own.",
+     "Use features that are easy to observe and do not vary between individuals or seasons, e.g. number of legs, not size or colour.",
+     "A key for n organisms needs n − 1 couplets.",
+     "To classify an unknown organism to a kingdom, use the features in order. Does it have a nucleus? If not, it is a bacterium or an archaeon, separated by cell-wall chemistry or rRNA. If it has a nucleus, is it multicellular with tissues? What is its cell wall made of? Is it autotrophic or heterotrophic?",
+     "Worked example: a newly found organism is eukaryotic, is made of hyphae with chitin walls, and absorbs food from dead leaves. It is in the kingdom Fungi."
+    ]
+   },
+   {
+    "h": "Why classification is important",
+    "points": [
+     "It organises the enormous diversity of life into manageable groups, making it easier to study and to find information.",
+     "Scientific names are universal and unique, which avoids the confusion of common names. The “robin” of Europe (Erithacus rubecula) and the “robin” of North America (Turdus migratorius) are different species in different genera.",
+     "It shows evolutionary relationships, so features of a new organism can be predicted from its relatives. For example, relatives of a plant that produces a useful drug may produce similar compounds.",
+     "Health: correctly identifying a pathogen decides the treatment. A bacterial infection may respond to an antibiotic, but a fungal or viral one will not.",
+     "Agriculture and the environment: identifying pests, invasive species and endangered species is needed for control and conservation, and for measuring biodiversity."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Any three of the following. Fungi have cell walls of chitin, whereas Plantae have cell walls of cellulose. Fungi have no chlorophyll and are heterotrophic, absorbing food, whereas Plantae are autotrophic and photosynthesise. Fungi store carbohydrate as glycogen, whereas Plantae store starch. Fungi are made of thread-like hyphae forming a mycelium, whereas plants are multicellular with tissues.",
+    "prompt": "Give three features that place an organism in the kingdom Fungi rather than the kingdom Plantae.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "1. Legs present → spider; legs absent → go to 2. 2. Shell present → snail; no visible shell → go to 3. 3. Body divided into rings (segments) → earthworm; body not divided into rings → slug. The key has three couplets, one fewer than the number of animals. Each couplet uses an observable feature: legs, shell and segmentation.",
+    "prompt": "Construct a dichotomous key to identify the following animals: snail, slug, earthworm, spider.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Classification systems change because new technology provides new evidence, and classification is revised to reflect evolutionary relationships more accurately. Early systems had two kingdoms, plants and animals, and Linnaeus classified by visible features. Microscopes revealed single-celled organisms that fitted neither kingdom, so Haeckel proposed Protista in 1866. Whittaker proposed five kingdoms in 1969, and Woese’s rRNA sequencing gave three domains in 1990 and the six kingdoms used in this course. Emerging DNA evidence continues to move organisms: Phytophthora was long classed as a fungus but belongs with the protists. Two reasons classification is important: it organises the diversity of life into manageable groups that are easier to study; and it shows evolutionary relationships, so the features of a new organism can be predicted from its relatives. Correct identification of a pathogen also decides its treatment.",
+    "prompt": "Explain why classification systems have changed over time, and outline two reasons why classification is important in biology.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio7-s1": {
+  "keyTerms": [
+   {
+    "definition": "A cell with no nucleus and no membrane-bound organelles, whose DNA lies free in the cytoplasm.",
+    "term": "Prokaryotic cell"
+   },
+   {
+    "definition": "A cell whose DNA is enclosed in a nucleus with a double membrane, and which has membrane-bound organelles.",
+    "term": "Eukaryotic cell"
+   },
+   {
+    "definition": "The region of the cytoplasm of a prokaryotic cell where its DNA is concentrated; it is not a nucleus.",
+    "term": "Nucleoid"
+   },
+   {
+    "definition": "A small extra ring of DNA found in prokaryotes, which can carry genes such as antibiotic resistance.",
+    "term": "Plasmid"
+   },
+   {
+    "definition": "The double membrane surrounding the nucleus of a eukaryotic cell.",
+    "term": "Nuclear envelope"
+   },
+   {
+    "definition": "An opening through the nuclear envelope that controls what passes in and out of the nucleus.",
+    "term": "Nuclear pore"
+   },
+   {
+    "definition": "Prokaryotic ribosomes are 70S and eukaryotic cytoplasmic ribosomes are 80S; many antibiotics block 70S ribosomes.",
+    "term": "70S and 80S ribosomes"
+   },
+   {
+    "definition": "Division of a prokaryotic cell into two identical cells.",
+    "term": "Binary fission"
+   },
+   {
+    "definition": "A slime layer outside some prokaryotic cells that gives protection.",
+    "term": "Capsule"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Definitions and units",
+    "points": [
+     "Prokaryotic cell: a cell with no nucleus and no membrane-bound organelles. Its DNA lies free in the cytoplasm. “Pro” means before and “karyon” means kernel or nucleus. Bacteria and archaea are prokaryotes.",
+     "Eukaryotic cell: a cell whose DNA is enclosed in a nucleus surrounded by a double membrane (the nuclear envelope), and which has membrane-bound organelles such as mitochondria. “Eu” means true. Protists, fungi, plants and animals are eukaryotes.",
+     "Units: 1 mm = 1000 µm (micrometres); 1 µm = 1000 nm (nanometres). Cell sizes are given in µm."
+    ]
+   },
+   {
+    "h": "Features the two cell types share",
+    "points": [
+     "Both have a cell membrane that controls what enters and leaves the cell, and cytoplasm where many reactions take place.",
+     "Both have ribosomes for making proteins, and DNA as the genetic material, using the same genetic code.",
+     "Both respire and use ATP.",
+     "These shared features suggest that all cells evolved from a common ancestor."
+    ]
+   },
+   {
+    "h": "Comparing the structure of the two cell types",
+    "points": [
+     "Nucleus: prokaryotes have none. Their DNA is concentrated in a region of the cytoplasm called the nucleoid. Eukaryotes have a nucleus with a nuclear envelope and nuclear pores.",
+     "DNA: prokaryotes have one circular chromosome, which in bacteria is not wound around histone proteins. They often also have small extra rings of DNA called plasmids, which can carry genes such as antibiotic resistance. Eukaryotes have several linear chromosomes made of DNA wound around histone proteins.",
+     "Plasmids are found in prokaryotes (and in yeast), not in all eukaryotes.",
+     "Membrane-bound organelles: prokaryotes have none, so no mitochondria, no chloroplasts and no other membrane-bound organelles. Respiration and, in photosynthetic bacteria, photosynthesis take place on the cell membrane or on infoldings of it. Eukaryotes have mitochondria, and plants and algae also have chloroplasts.",
+     "Mitochondria and chloroplasts contain their own small circular DNA and 70S ribosomes, like a prokaryote.",
+     "Ribosomes: both have them, but prokaryotic ribosomes are smaller (70S) than those in eukaryotic cytoplasm (80S). Many antibiotics work by blocking 70S ribosomes, so they harm bacteria and not human cells.",
+     "Size: prokaryotic cells are small, most about 1–10 µm long. Eukaryotic cells are usually about 10–100 µm, so they are roughly ten times larger in length.",
+     "Cell wall: almost all prokaryotes have one, made of peptidoglycan in bacteria. Among eukaryotes, plant cells have cellulose walls, fungal cells have chitin walls, and animal cells have none.",
+     "Some prokaryotes have extra outer structures: a capsule (slime layer) for protection, and a flagellum for movement. The full bacterial cell is in “Microorganisms”.",
+     "Organisation: prokaryotes are almost all unicellular and divide by binary fission. Eukaryotes can be unicellular or multicellular and divide by mitosis, detail in “Cell Division and Cancer”.",
+     "Examples: prokaryotes are bacteria and archaea. Eukaryotes are protists, fungi, plants and animals."
+    ]
+   },
+   {
+    "h": "Seeing the cells with light and electron microscopes",
+    "points": [
+     "Under a light microscope at ×400, a bacterium appears as a tiny dot, rod or spiral with no visible internal structure. It is too small (about 1–10 µm) for the light microscope to show its parts.",
+     "Under a light microscope, eukaryotic cells show the nucleus (especially when stained), the cytoplasm and the cell membrane as a line. Plant cells also show the cell wall, a large vacuole and chloroplasts.",
+     "Electron micrographs show what the light microscope cannot. In prokaryotes they show the nucleoid, ribosomes as tiny dots, plasmids and the layers of the wall. In eukaryotes they show the double nuclear envelope and its pores, the internal membranes of mitochondria and chloroplasts, and ribosomes.",
+     "To tell the cell type from a micrograph, check for a nucleus: if present, the cell is eukaryotic. Check the scale bar or stated magnification to estimate size: about 1–10 µm suggests prokaryotic.",
+     "For a eukaryote, look for membrane-bound organelles, then for a cell wall, large vacuole and chloroplasts (plant) or their absence (animal). Plant and animal cells are compared in “Structures and organelles of animal and plant cells”.",
+     "Diagram: side-by-side labelled diagrams of a generalised prokaryotic cell (cell wall, cell membrane, cytoplasm, nucleoid with circular DNA, plasmid, ribosomes, capsule and flagellum) and a eukaryotic animal cell (cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, mitochondria, ribosomes), drawn to show the eukaryotic cell much larger."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "First, prokaryotic cells have no nucleus, with their DNA concentrated in the nucleoid, whereas eukaryotic cells have a nucleus enclosed by a nuclear envelope. Second, prokaryotes have no membrane-bound organelles such as mitochondria or chloroplasts, whereas eukaryotes have mitochondria, and plants and algae also have chloroplasts. Third, prokaryotic ribosomes are 70S, smaller than the 80S ribosomes in eukaryotic cytoplasm. Prokaryotic cells are also much smaller, about 1–10 µm long, compared with about 10–100 µm for most eukaryotic cells.",
+    "prompt": "Give three differences between prokaryotic and eukaryotic cells.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The diagram labels the cell wall, cell membrane, cytoplasm, nucleoid containing circular DNA, plasmid and ribosomes, and may add a capsule and flagellum. One feature it shares with all eukaryotic cells is a cell membrane, or cytoplasm, or ribosomes, or DNA as its genetic material. One feature it lacks is a nucleus enclosed by a nuclear envelope, or membrane-bound organelles such as mitochondria.",
+    "prompt": "Draw a labelled diagram of a prokaryotic cell. State one feature it shares with all eukaryotic cells and one feature it lacks.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The cell is prokaryotic. It has no nucleus, and it is about 2 µm long, which lies in the range of 1–10 µm for prokaryotes, whereas most eukaryotic cells are about 10–100 µm. The small dots are ribosomes, which are 70S in prokaryotes. The reasoning is that a cell with no nucleus, and a size of 1–10 µm, is a prokaryote; to tell the cell type, check for a nucleus first, then the size from the scale bar or magnification.",
+    "prompt": "An electron micrograph shows a cell 2 µm long with no nucleus and many small dots in its cytoplasm. Identify the type of cell, name the dots, and explain your reasoning.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio7-s2": {
+  "keyTerms": [
+   {
+    "definition": "How many times larger the image is than the real object.",
+    "term": "Magnification"
+   },
+   {
+    "definition": "The ability to show two points that are close together as separate; it decides how much detail can be seen.",
+    "term": "Resolution"
+   },
+   {
+    "definition": "The lens you look through, which magnifies the image from the objective, usually ×10.",
+    "term": "Eyepiece lens"
+   },
+   {
+    "definition": "A lens on the revolving nosepiece that produces the first magnified image of the specimen.",
+    "term": "Objective lens"
+   },
+   {
+    "definition": "The knob that moves the stage a small distance for sharp focus; it is the only focus used at high power.",
+    "term": "Fine focus"
+   },
+   {
+    "definition": "The part of a light microscope that adjusts the amount of light reaching the specimen.",
+    "term": "Diaphragm"
+   },
+   {
+    "definition": "A specimen in a drop of water or stain on a slide, covered with a coverslip.",
+    "term": "Wet mount"
+   },
+   {
+    "definition": "An electron microscope in which electrons pass through a thin specimen, giving a 2D image of internal structure.",
+    "term": "Transmission electron microscope (TEM)"
+   },
+   {
+    "definition": "An electron microscope in which electrons scan a metal-coated surface, giving a 3D image of the surface.",
+    "term": "Scanning electron microscope (SEM)"
+   },
+   {
+    "definition": "A structure produced by preparation that is not really present in the living cell.",
+    "term": "Artefact"
+   },
+   {
+    "definition": "A technique that tags specific molecules with dyes or proteins that glow under light, showing where they are.",
+    "term": "Fluorescence microscopy"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Magnification and resolution",
+    "points": [
+     "Magnification: how many times larger the image is than the real object.",
+     "Resolution (resolving power): the ability to show two points that are close together as separate. It decides how much detail can be seen.",
+     "Magnifying an image beyond the resolution limit only makes it bigger and blurrier, not more detailed.",
+     "Total magnification of a light microscope = eyepiece lens magnification × objective lens magnification. For example, a ×10 eyepiece with a ×40 objective gives ×400."
+    ]
+   },
+   {
+    "h": "Parts of the light microscope",
+    "points": [
+     "Eyepiece (ocular) lens: the lens you look through. It magnifies the image from the objective, usually ×10.",
+     "Objective lenses: on a revolving nosepiece, usually ×4 (scanning), ×10 (low power) and ×40 (high power), sometimes ×100 (oil immersion). They produce the first magnified image.",
+     "Stage with clips: holds the slide over the hole through which light passes.",
+     "Coarse focus knob: moves the stage (or tube) a long way quickly, for focusing at low power only.",
+     "Fine focus knob: moves it a small distance for sharp focus. It is the only focus used at high power.",
+     "Light source: a built-in lamp, or a mirror reflecting light up through the specimen.",
+     "Condenser: a lens under the stage that focuses light onto the specimen.",
+     "Diaphragm (iris): adjusts the amount of light reaching the specimen. Less light often improves contrast for pale, unstained cells.",
+     "Arm and base: support the microscope. The arm is used for carrying it.",
+     "Diagram: a light microscope labelled eyepiece, body tube, revolving nosepiece, objective lenses, stage, clips, condenser, diaphragm, light source (or mirror), coarse focus knob, fine focus knob, arm and base."
+    ]
+   },
+   {
+    "h": "Using the light microscope",
+    "points": [
+     "1. Carry the microscope with one hand on the arm and the other under the base.",
+     "2. Switch on the light and turn the lowest-power objective into place.",
+     "3. Clip the slide on the stage with the specimen over the hole.",
+     "4. Looking from the side, use the coarse focus to bring the objective close to the slide without touching it.",
+     "5. Looking through the eyepiece, focus by moving the objective and slide apart until the image is clear.",
+     "6. Use the fine focus to sharpen the image, and the diaphragm to adjust the light.",
+     "7. Move the part to be studied to the centre of the field of view.",
+     "8. Turn the next objective into place and use only the fine focus.",
+     "9. Record the total magnification with every drawing.",
+     "The image is inverted, upside down and reversed left to right: moving the slide to the left moves the image to the right.",
+     "At higher magnification the field of view is smaller and the image is dimmer, so more light is needed. At high power the objective is very close to the slide, which is why the coarse focus must not be used.",
+     "Never use a mirror to reflect direct sunlight into the microscope, as it can damage the eye."
+    ]
+   },
+   {
+    "h": "Preparing and mounting a slide",
+    "points": [
+     "A wet mount: the specimen is placed in a drop of water or stain on a clean glass slide and covered with a coverslip.",
+     "The specimen must be very thin, ideally one layer of cells thick, so that light can pass through it and the cells do not overlap.",
+     "Stains add contrast to transparent structures by colouring some parts more than others. Iodine solution is used for plant cells: it stains the nucleus yellow-brown and turns starch blue-black. Methylene blue is used for animal cells: it stains the nucleus dark blue. The full procedures are in “Investigation: plant and animal cells”.",
+     "Lowering the coverslip: touch one edge of the coverslip to the liquid at an angle of about 45° and lower it slowly with a mounted needle. This pushes air out ahead of it and avoids air bubbles, which appear as black-edged circles and can hide cells.",
+     "The coverslip keeps the specimen flat, stops it drying out, and protects the objective lens from the liquid. Excess liquid is removed by touching filter paper or a paper towel to the edge.",
+     "Stain can also be added after the coverslip is on. Put a drop at one edge and draw it under the coverslip with filter paper held at the opposite edge (irrigation)."
+    ]
+   },
+   {
+    "h": "Electron microscopes",
+    "points": [
+     "An electron microscope uses a beam of electrons instead of light, focused by electromagnets instead of glass lenses. Electrons have a much shorter wavelength than light, so resolution is far better.",
+     "The specimen is in a vacuum, because air would scatter the electrons, so it must be dead. The image is viewed on a screen and recorded digitally. It is black and white, and colour is added afterwards (false colour).",
+     "Transmission electron microscope (TEM): electrons pass through an extremely thin, stained section of a specimen. It gives a flat (2D) image of internal structure at the highest magnifications, e.g. mitochondria, ribosomes, nuclear pores and viruses.",
+     "Scanning electron microscope (SEM): a beam of electrons scans across the surface of a specimen coated with a very thin layer of metal, e.g. gold. Electrons bouncing off it form an image. It gives a 3D image of surfaces, e.g. the surface of cells, pollen grains and insects.",
+     "The SEM has lower resolution than the TEM and shows no internal structure unless the specimen is broken open.",
+     "The first electron microscope was built in Germany in 1931 by Max Knoll and Ernst Ruska."
+    ]
+   },
+   {
+    "h": "Comparing light and electron microscopes",
+    "points": [
+     "Radiation: light for the light microscope, electrons for the electron microscope. Lenses: glass for the light microscope, electromagnets for the electron microscope.",
+     "Maximum useful magnification: about ×1000–1500 for the light microscope, compared with hundreds of thousands of times or more for electron microscopes.",
+     "Resolution: about 0.2 µm (200 nm) for the light microscope, compared with less than 1 nm for the TEM, roughly a thousand times better.",
+     "So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts. Ribosomes, nuclear pores, the inner structure of mitochondria and viruses need an electron microscope.",
+     "Specimens: the light microscope can view living or dead specimens, with colour visible. The electron microscope needs dead specimens in a vacuum, and its images are black and white.",
+     "Preparation and cost: light microscopes are simple, quick, cheap and portable. Electron microscopes need complex preparation (thin sectioning, metal coating) that can create artefacts, structures that are not really in the living cell. They are very expensive, large, and need trained operators."
+    ]
+   },
+   {
+    "h": "Existing and emerging microscopy",
+    "points": [
+     "Robert Hooke described and named “cells” from thin slices of cork in his book Micrographia (1665).",
+     "Antonie van Leeuwenhoek, using his own single-lens microscopes, was the first to see and describe bacteria and other single-celled organisms, in the 1670s.",
+     "Fluorescence microscopy: specific molecules are tagged with fluorescent dyes or fluorescent proteins that glow when lit with a particular colour of light. This shows exactly where a protein is in a living cell.",
+     "Green fluorescent protein (GFP), from a jellyfish, earned the 2008 Nobel Prize in Chemistry, awarded to Osamu Shimomura, Martin Chalfie and Roger Tsien.",
+     "Confocal laser scanning microscopy: a laser scans one thin plane of the specimen at a time, giving sharp images that a computer combines into a 3D model.",
+     "Super-resolution fluorescence microscopy overcomes the light microscope’s normal resolution limit. It earned the 2014 Nobel Prize in Chemistry, awarded to Eric Betzig, Stefan Hell and William Moerner.",
+     "Cryo-electron microscopy: samples are flash-frozen in a thin layer of ice instead of being dried and stained, so molecules keep their natural shape. It shows the structure of proteins and viruses in near-atomic detail. It earned the 2017 Nobel Prize in Chemistry, awarded to Jacques Dubochet, Joachim Frank and Richard Henderson.",
+     "Cryo-electron microscopy was used to show the structure of the SARS-CoV-2 spike protein, which helped vaccine design.",
+     "Uses in health and technology: examining blood smears and biopsies to diagnose disease, including spotting cancer cells; identifying pathogens; research into how cells and viruses work; and forensic science, e.g. comparing hairs and fibres.",
+     "Digital cameras and computer image analysis now allow images to be measured, shared and analysed automatically."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) Total magnification = eyepiece × objective = ×10 × ×40 = ×400. (ii) The diaphragm adjusts the amount of light reaching the specimen; less light often improves contrast for pale, unstained cells. (iii) At high power the objective is very close to the slide, so the coarse focus could move it into the slide and damage the specimen or the lens. Only the fine focus, which moves a small distance, should be used at high power.",
+    "prompt": "A student uses a ×10 eyepiece and a ×40 objective. (i) Calculate the total magnification. (ii) Give the function of the diaphragm. (iii) Why should only the fine focus be used at this magnification?",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Place the specimen, which must be very thin, ideally one layer of cells thick, in a drop of water or stain on a clean glass slide. Touch one edge of the coverslip to the liquid at an angle of about 45° and lower it slowly with a mounted needle, which pushes air out ahead of it and avoids air bubbles. Touch filter paper to the edge to remove excess liquid. The coverslip keeps the specimen flat, stops it drying out and protects the objective lens. A stain is used because it adds contrast to transparent structures by colouring some parts more than others; for example, iodine stains the nucleus yellow-brown and turns starch blue-black in plant cells, and methylene blue stains the nucleus dark blue in animal cells.",
+    "prompt": "Describe how to mount a specimen on a slide for viewing with a light microscope, explaining how air bubbles are avoided and why a stain is used.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The light microscope uses light and glass lenses, with a maximum useful magnification of about ×1000–1500 and a resolution of about 0.2 µm. It can view living or dead specimens in colour, and is simple, cheap and portable. The electron microscope uses a beam of electrons focused by electromagnets, with a magnification of hundreds of thousands of times or more and a resolution below 1 nm. It needs dead specimens in a vacuum, gives black and white images, and needs complex, expensive preparation that can create artefacts. A transmission electron microscope passes electrons through an extremely thin, stained section, giving a flat 2D image of internal structure such as ribosomes and nuclear pores. A scanning electron microscope scans a metal-coated surface with electrons, giving a 3D image of the surface, but with lower resolution and no internal structure unless the specimen is broken open.",
+    "prompt": "Compare the light microscope with the electron microscope, and distinguish between transmission and scanning electron microscopes.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio7-s3": {
+  "keyTerms": [
+   {
+    "definition": "A rigid, fully permeable layer outside the cell membrane of plant cells, made mainly of cellulose, giving strength and support.",
+    "term": "Cell wall"
+   },
+   {
+    "definition": "A thin, flexible, selectively permeable layer of phospholipids and proteins around every cell.",
+    "term": "Cell membrane"
+   },
+   {
+    "definition": "The watery fluid inside the cell membrane, excluding the nucleus, in which the organelles are suspended.",
+    "term": "Cytoplasm"
+   },
+   {
+    "definition": "A fluid-filled sac surrounded by a single membrane, which in plant cells is large and holds cell sap.",
+    "term": "Vacuole"
+   },
+   {
+    "definition": "Firm, because the cell contents press against a cell wall after the cell takes in water by osmosis.",
+    "term": "Turgid"
+   },
+   {
+    "definition": "The folds of the inner membrane of a mitochondrion, which increase its surface area.",
+    "term": "Cristae"
+   },
+   {
+    "definition": "A flattened membrane sac in a chloroplast that carries chlorophyll; a stack of them is a granum.",
+    "term": "Thylakoid"
+   },
+   {
+    "definition": "DNA wound around histone proteins, which is found in the nucleus.",
+    "term": "Chromatin"
+   },
+   {
+    "definition": "An opening through the nuclear envelope that controls what passes in and out of the nucleus.",
+    "term": "Nuclear pore"
+   },
+   {
+    "definition": "A small organelle with no membrane, made of rRNA and protein, where proteins are made.",
+    "term": "Ribosome"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Cell wall and cell membrane",
+    "points": [
+     "Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.",
+     "The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis, so the cell becomes firm (turgid), which supports non-woody plants.",
+     "Cell walls are found in plant cells, in fungi (made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.",
+     "Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids with proteins in it. It is selectively permeable: it controls which substances enter and leave, and it holds the cell contents together.",
+     "Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.",
+     "The cell membrane is found in all cells, inside the wall in plant cells. It is seen only as a line with the light microscope. Its structure and how materials cross it are in “Transport Across Membranes”."
+    ]
+   },
+   {
+    "h": "Cytoplasm and vacuole",
+    "points": [
+     "Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes, in which the organelles are suspended.",
+     "The cytoplasm is the site of many metabolic reactions, e.g. the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration, and the making of proteins at free ribosomes. It is found in all cells.",
+     "Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, e.g. the red of beetroot.",
+     "The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, keeping the cell turgid and the plant upright. When water is lost, plants wilt.",
+     "Animal cells have only small, temporary vacuoles, e.g. food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.",
+     "The plant vacuole is visible with the light microscope."
+    ]
+   },
+   {
+    "h": "Mitochondria",
+    "points": [
+     "Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth; the inner membrane is folded into cristae, which give a large surface area for the enzymes of the later stages of aerobic respiration. The fluid inside is the matrix.",
+     "Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell’s ATP.",
+     "Mitochondria are found in almost all eukaryotic cells, in plants as well as animals.",
+     "Cells that need a lot of energy have many mitochondria, e.g. muscle cells, liver cells, nerve cells and the middle section of sperm.",
+     "Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.",
+     "Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix."
+    ]
+   },
+   {
+    "h": "Chloroplasts",
+    "points": [
+     "Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll. It is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.",
+     "Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).",
+     "The many stacked membranes give a large surface area for absorbing light. Detail of the stages is in “Photosynthesis”.",
+     "Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells. They are not found in root cells, or in onion bulb cells, and never in animal cells.",
+     "Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.",
+     "Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain."
+    ]
+   },
+   {
+    "h": "The nucleus, nuclear pores, chromosomes and ribosomes",
+    "points": [
+     "Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell’s DNA as chromatin, which is DNA wound around histone proteins.",
+     "Function: the nucleus controls the cell’s activities, because its DNA carries the genes that code for the cell’s proteins, including the enzymes that control every reaction. DNA is copied in the nucleus before cell division, and genes are copied into messenger RNA (mRNA) there.",
+     "The nucleolus is a dense region inside the nucleus where ribosomes are made.",
+     "The nucleus is found in all eukaryotic cells except a few that lose it, e.g. mature human red blood cells. It is visible with the light microscope, especially when stained.",
+     "Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.",
+     "mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides and ATP pass in. The DNA is too large to leave and stays protected in the nucleus. Nuclear pores are seen only with the electron microscope.",
+     "Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes. For most of the cell’s life the chromosomes are long, thin and spread out as chromatin, and cannot be seen.",
+     "Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained. Human body cells have 46 chromosomes (23 pairs).",
+     "Chromosomes carry genetic information and pass it to new cells and offspring. Their detailed structure is in “Genetic Inheritance”, and division is in “Cell Division and Cancer”.",
+     "Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits. It is the site of protein synthesis, where amino acids are joined in the order coded for by mRNA.",
+     "Ribosomes are found in all cells, prokaryotic and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein. They are seen only with the electron microscope, as dots. Translation in detail is in “DNA Replication, Protein Synthesis and Mutations”."
+    ]
+   },
+   {
+    "h": "Endoplasmic reticulum and Golgi apparatus (Higher Level only)",
+    "points": [
+     "Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.",
+     "Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (e.g. digestive enzymes made by pancreas cells, and antibodies) or built into membranes.",
+     "Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER.",
+     "Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.",
+     "Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.",
+     "The Golgi apparatus receives proteins from the ER in vesicles, modifies them (e.g. adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.",
+     "Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.",
+     "Secretory pathway, in order: gene in the nucleus → mRNA leaves through a nuclear pore → protein made at a ribosome on the rough ER → folded and carried in the ER → transport vesicle → Golgi apparatus (modified and packaged) → secretory vesicle → fuses with the cell membrane → protein released, e.g. a digestive enzyme.",
+     "Both the ER and the Golgi apparatus are found in plant and animal cells, and both are seen only with the electron microscope.",
+     "Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram in “Plant and animal cells compared”, with arrows showing the secretory pathway."
+    ]
+   },
+   {
+    "h": "Plant and animal cells compared",
+    "points": [
+     "Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.",
+     "Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.",
+     "Plant cells usually have a fixed, regular (often rectangular) shape and store carbohydrate as starch.",
+     "Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.",
+     "Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.",
+     "Diagram: a typical plant cell (e.g. a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.",
+     "Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) A mitochondrion is the site of most of aerobic respiration, releasing energy from food to make most of the cell’s ATP. (ii) A ribosome is the site of protein synthesis, where amino acids are joined in the order coded for by mRNA. (iii) A nuclear pore is an opening through the nuclear envelope that controls what passes in and out of the nucleus; mRNA and ribosome parts pass out, and proteins, nucleotides and ATP pass in.",
+    "prompt": "State the function of each of the following: (i) mitochondrion, (ii) ribosome, (iii) nuclear pore.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The diagram labels the cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes. Two structures an animal cell lacks: the cell wall, which is made of cellulose, gives strength, support and a fixed shape, and stops the cell bursting when it takes in water; the large permanent central vacuole, which stores water, food and waste and keeps the cell turgid. Chloroplasts, which carry chlorophyll and are the site of photosynthesis, are another valid answer.",
+    "prompt": "Draw a labelled diagram of a plant cell as seen under the electron microscope, and state two structures it has that an animal cell lacks, with the function of each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The nucleus contains the gene for the enzyme in its DNA, and the gene is copied into mRNA, which leaves through a nuclear pore. The enzyme is made by a ribosome on the rough ER, which is covered with ribosomes. The protein enters the ER, where it is folded and transported in transport vesicles. The vesicles carry it to the Golgi apparatus, where it is modified and packaged into secretory vesicles. These vesicles move to the cell membrane, fuse with it and release the enzyme outside the cell by exocytosis.",
+    "prompt": "(Higher Level only) Describe the roles of the nucleus, ribosomes, endoplasmic reticulum and Golgi apparatus in the production and secretion of a digestive enzyme by a cell.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio7-s4": {
+  "keyTerms": [
+   {
+    "definition": "The factor the investigator changes on purpose; here, the type of cell (plant or animal).",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The factor measured or observed as a result; here, the structures seen in the cells.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "A factor kept the same so that it does not affect the results, e.g. the magnification and the amount of stain.",
+    "term": "Controlled variable"
+   },
+   {
+    "definition": "A test set up without the stain or treatment, to show what the stain adds.",
+    "term": "Control"
+   },
+   {
+    "definition": "The thin outer layer of a plant organ, such as the scale leaf of an onion.",
+    "term": "Epidermis"
+   },
+   {
+    "definition": "A flat, thin lining cell, such as a cheek cell, that forms a protective layer.",
+    "term": "Epithelial cell"
+   },
+   {
+    "definition": "A microscope that scans a metal-coated surface with electrons to give a 3D image of the surface.",
+    "term": "Scanning electron microscope (SEM)"
+   },
+   {
+    "definition": "A line on a micrograph that shows the real length that it represents.",
+    "term": "Scale bar"
+   },
+   {
+    "definition": "Image size divided by magnification, giving the real size of the object.",
+    "term": "Actual size"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Investigation: aim, hypothesis and variables",
+    "points": [
+     "Aim: to observe and compare the structures of plant cells (onion epidermis) and animal cells (human cheek cells) using a light microscope, and to use scanning electron microscope (SEM) images to see structures the light microscope cannot show.",
+     "Hypothesis: plant cells will show a cell wall and a large vacuole, which animal cells lack. Both will show a cell membrane, cytoplasm and nucleus.",
+     "Independent variable: the type of cell (plant or animal).",
+     "Dependent variable: the structures observed (present or absent, shape, arrangement).",
+     "Controlled variables: the same microscope and total magnification (×100 and ×400), the same light setting, a fresh thin specimen one cell layer thick, and the same volume of stain and staining time.",
+     "Control: an unstained wet mount of each specimen in water, viewed in the same way. It shows what the stain adds (which structures become visible) and that the structures seen are in the cells and not produced by the stain."
+    ]
+   },
+   {
+    "h": "Investigation: equipment and safety",
+    "points": [
+     "Equipment: light microscope; clean glass slides and coverslips; onion; scalpel or knife and white tile; forceps; mounted needle; dropper (pipette); filter paper or paper towel; iodine solution; methylene blue stain; sterile cotton buds; beaker of disinfectant for used buds; distilled water; gloves and safety glasses; pencil and paper for drawings.",
+     "Use only your own cheek cells, with a new sterile cotton bud. Put used buds, and slides after use, into disinfectant to prevent spreading infection. Wash hands afterwards.",
+     "Iodine solution and methylene blue stain skin and clothes and can irritate eyes. Wear gloves and safety glasses, and wipe up spills.",
+     "Cut away from your fingers on a white tile with the scalpel, and carry scalpels pointing down.",
+     "Hold slides and coverslips by their edges. Coverslips are very thin and break easily, so dispose of broken glass in the glass bin, not the ordinary bin.",
+     "Keep water away from the microscope’s electric lamp and cable. Never point a microscope mirror at direct sunlight, as this can damage the eye."
+    ]
+   },
+   {
+    "h": "Investigation: method for onion epidermis (plant cells)",
+    "points": [
+     "1. Place a few drops of water in the centre of a clean slide.",
+     "2. Cut an onion into quarters and remove one fleshy scale leaf.",
+     "3. Snap the scale leaf and use forceps to peel the thin, transparent epidermis from its inner (concave) surface.",
+     "4. Cut a piece about 1 cm square and lay it flat in the water, unfolding it with the mounted needle so there are no folds or overlaps.",
+     "5. Add one or two drops of iodine solution and leave it for a few minutes to stain.",
+     "6. Lower a coverslip at 45° with the mounted needle, as in “Microscopy”.",
+     "7. Blot excess liquid from the edges with filter paper.",
+     "8. Prepare an unstained slide the same way, using water only, as the control.",
+     "9. Examine under low power (×100), then high power (×400), as in “Microscopy”.",
+     "10. Make a labelled pencil drawing of a few cells and record the total magnification."
+    ]
+   },
+   {
+    "h": "Investigation: method for cheek cells (animal cells)",
+    "points": [
+     "1. Gently rub the inside of your own cheek with a clean, sterile cotton bud.",
+     "2. Smear the bud across the centre of a clean slide in a thin layer.",
+     "3. Immediately put the used bud into the beaker of disinfectant.",
+     "4. Add one or two drops of methylene blue and leave for one to two minutes.",
+     "5. Lower a coverslip at 45° and blot the excess with filter paper.",
+     "6. Prepare an unstained slide with a drop of water, as the control.",
+     "7. Examine under low power, then high power. Look for flat, separate cells, avoiding clumps.",
+     "8. Make a labelled pencil drawing and record the magnification.",
+     "Alternative where a school does not use cheek cells: a prepared (commercial) slide of human cheek cells or another animal tissue, examined in the same way.",
+     "Optional extension for chloroplasts: mount a single leaf of a moss or of Elodea (Canadian pondweed) in a drop of water, without stain. The green chloroplasts are visible, which onion bulb cells do not have."
+    ]
+   },
+   {
+    "h": "Investigation: expected results from the light microscope",
+    "points": [
+     "Onion epidermis: cells are regular, brick-shaped or rectangular, and fitted closely together in rows. Each cell is outlined by a clear, rigid cell wall.",
+     "In onion cells the nucleus is stained yellow-brown by iodine and is often seen near the edge of the cell. The cytoplasm stains pale yellow and forms a thin layer pushed to the edge by a large central vacuole, which looks clear.",
+     "Onion cells have no chloroplasts, because the bulb grows underground and does not photosynthesise.",
+     "Cheek cells: cells are flat and irregular in shape, rounded or many-sided, lying singly or in small overlapping groups. Each has a cell membrane but no cell wall.",
+     "In cheek cells the nucleus is small, central and stained dark blue, and the cytoplasm stains pale blue. There is no large vacuole and no chloroplasts.",
+     "Unstained controls: the cells are almost transparent. The onion cell walls are faintly visible but the nucleus is hard to see, and the cheek cells are barely visible. So stains make the nucleus and cytoplasm visible by adding contrast.",
+     "Structures the light microscope cannot show: ribosomes, the internal detail of mitochondria, and nuclear pores. Mitochondria are too small to see clearly at ×400.",
+     "Diagram: pencil drawings of (i) a few onion epidermis cells labelled cell wall, cell membrane (pressed against the wall), cytoplasm, vacuole and nucleus, and (ii) two or three cheek cells labelled cell membrane, cytoplasm and nucleus, each with the total magnification (e.g. ×400) written beside it."
+    ]
+   },
+   {
+    "h": "Investigation: secondary data from SEM images",
+    "points": [
+     "Sources: published SEM images (micrographs) of onion epidermis, of cheek (epithelial) cells, and of other cells, from textbooks or reputable scientific image libraries. Each has a scale bar or magnification. Record the source of each image.",
+     "What SEM images add: a three-dimensional view of the cell surface, at much higher magnification and resolution than the light microscope. For example, they show the regular, box-like shape of the onion cells and the outlines of their walls, and the flat, thin, overlapping shape of cheek cells and the texture of their surfaces.",
+     "Limits of SEM images: they show surfaces only, not internal organelles, which need TEM images (see “Microscopy”). They show dead, metal-coated cells, so preparation can create artefacts. Any colour is false colour added afterwards.",
+     "Measuring size from an image: actual size = image size ÷ magnification. Measure the image with a ruler in mm and convert to µm (1 mm = 1000 µm).",
+     "Worked example: an onion cell measures 40 mm long on an image magnified ×200. 40 ÷ 200 = 0.2 mm = 200 µm.",
+     "With a scale bar, measure the bar, then calculate: actual size = (image size of the cell ÷ image length of the bar) × the length the bar represents.",
+     "Comparing the data: the light microscope shows living-cell features in colour (with stain) and at low cost. The SEM confirms the shapes and surfaces in 3D at much greater detail. Using both gives a fuller and more reliable picture than either alone."
+    ]
+   },
+   {
+    "h": "Investigation: conclusion and relating structure to function",
+    "points": [
+     "Both cell types have a cell membrane, cytoplasm and a nucleus, so both are eukaryotic.",
+     "The onion cells have a cell wall, which gives their fixed, regular shape and support, and a large vacuole, which keeps the cell turgid. The cheek cells have neither, so they have a flexible, irregular shape. This supports the hypothesis.",
+     "The cheek cells are lining (epithelial) cells: flat and thin, forming a protective layer that is continually rubbed off and replaced, which is why they come away easily.",
+     "The onion epidermis is a protective outer layer of tightly fitting cells with strong walls.",
+     "The onion has no chloroplasts because the bulb is a food store, not a photosynthetic organ."
+    ]
+   },
+   {
+    "h": "Investigation: sources of error and improvements",
+    "points": [
+     "Air bubbles (black-edged circles) can be mistaken for cells or can hide them. Lower the coverslip at 45°.",
+     "Folded or overlapping tissue, or a thick smear, makes cells hard to see. Use a flat piece of epidermis one cell layer thick, and a thin smear.",
+     "Too much stain darkens everything and hides detail; too little gives poor contrast. Use one or two drops and blot the excess.",
+     "The specimen drying out under the lamp distorts the cells. Add a drop of water at the edge of the coverslip.",
+     "Poor focus or wrong light settings: focus with the fine focus at high power and adjust the diaphragm.",
+     "Drawings depend on the observer, so compare them with other students’ slides and with the SEM images. Examine several cells and several fields of view, not just one."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Place a few drops of water in the centre of a clean slide. Cut an onion into quarters, remove one fleshy scale leaf, snap it and peel the thin, transparent epidermis from its inner surface with forceps. Cut a piece about 1 cm square and lay it flat in the water, unfolding it with a mounted needle so there are no folds or overlaps. Add one or two drops of iodine solution and leave it for a few minutes to stain. Lower a coverslip at 45° with the mounted needle, and blot the excess liquid with filter paper. Examine under low power, then high power, and make a labelled drawing with the total magnification. The stain is iodine solution. Safety precaution: iodine solution stains skin and clothes and can irritate eyes, so wear gloves and safety glasses and wipe up spills.",
+    "prompt": "Describe how you prepared a slide of onion epidermis cells, naming the stain used and giving one safety precaution.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Onion epidermis cells are regular, brick-shaped or rectangular and fitted closely together in rows, each outlined by a clear, rigid cell wall. The nucleus is stained yellow-brown by iodine, and a large central vacuole pushes the cytoplasm to the edge; there are no chloroplasts. Cheek cells are flat, irregular and rounded or many-sided, lying singly or in small overlapping groups, each with a cell membrane but no cell wall. Their small central nucleus stains dark blue with methylene blue, and there is no large vacuole and no chloroplasts. The onion cell wall gives its fixed, regular shape and support, and its vacuole keeps the cell turgid, which suits its role as a protective outer layer of tightly fitting cells. The cheek cells are flat and thin, forming a protective lining that is continually rubbed off and replaced, so they have no wall and a flexible shape.",
+    "prompt": "Describe what you observed when you examined stained onion epidermis cells and cheek cells with a light microscope, and explain how the differences relate to the functions of the cells.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "(i) Actual size = image size ÷ magnification = 40 mm ÷ 200 = 0.2 mm; 0.2 mm × 1000 = 200 µm. (ii) Advantage: an SEM image gives a three-dimensional view of the cell surface at much higher magnification and resolution than the light microscope. Limitation: SEM images show only surfaces, not internal organelles, and show dead, metal-coated cells, so preparation can create artefacts.",
+    "prompt": "An SEM image of a cell has a magnification of ×200, and the cell measures 40 mm on the image. (i) Calculate the actual length of the cell in µm. (ii) Give one advantage and one limitation of SEM images compared with light-microscope observations.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s1": {
+  "keyTerms": [
+   {
+    "definition": "A molecule made by living organisms; the main groups are carbohydrates, lipids, proteins and nucleic acids.",
+    "term": "Biomolecule"
+   },
+   {
+    "definition": "A small unit molecule that is joined to many others to form a polymer.",
+    "term": "Monomer"
+   },
+   {
+    "definition": "A large molecule made of many monomers joined in a chain.",
+    "term": "Polymer"
+   },
+   {
+    "definition": "A reaction in which two molecules join and a molecule of water is removed.",
+    "term": "Condensation"
+   },
+   {
+    "definition": "A reaction in which a large molecule is split into smaller ones by adding water.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "The sum of all the chemical reactions in an organism.",
+    "term": "Metabolism"
+   },
+   {
+    "definition": "Metabolic reactions that build larger molecules from smaller ones and need energy.",
+    "term": "Anabolism"
+   },
+   {
+    "definition": "Metabolic reactions that break larger molecules into smaller ones and release energy.",
+    "term": "Catabolism"
+   },
+   {
+    "definition": "The transfer molecule that carries energy released by catabolic reactions to anabolic reactions (detail in “Transfer Molecules”).",
+    "term": "ATP"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What biomolecules are",
+    "points": [
+     "A biomolecule is a molecule made by living organisms. The four main groups are carbohydrates, lipids, proteins and nucleic acids.",
+     "All four are organic: they are built around chains or rings of carbon atoms bonded to hydrogen. Water and minerals are also chemicals of life but are inorganic, covered in “Water” and “Minerals”.",
+     "The elements in each biomolecule are listed in “Structures of biomolecules”.",
+     "Food supplies three things: energy, released in respiration mainly from carbohydrates and lipids; raw materials for growth and repair, mainly proteins; and substances that regulate body processes, namely vitamins and minerals. The body makes its own enzymes and hormones from the food it takes in. Detail is in “Metabolic roles and nutritional sources”."
+    ]
+   },
+   {
+    "h": "Building and breaking: monomers, polymers and condensation",
+    "points": [
+     "A monomer is a small unit molecule. A polymer is a large molecule made of many monomers joined in a chain. Monosaccharides are the monomers of polysaccharides, amino acids are the monomers of polypeptides and proteins, and nucleotides are the monomers of nucleic acids.",
+     "A triglyceride is built from glycerol and three fatty acids but is not a repeating polymer.",
+     "Condensation: two molecules join and a molecule of water is removed. Glucose units join in this way to form starch, glycogen and cellulose, and amino acids join to form proteins.",
+     "Hydrolysis: a large molecule is split into smaller ones by adding water, e.g. starch is hydrolysed to maltose and proteins are hydrolysed to amino acids.",
+     "Digestion is hydrolysis catalysed by enzymes (detail in “The Digestive System”).",
+     "Cells assemble biomolecules into the structures they are made of: cellulose fibres form plant cell walls; phospholipids and proteins form every cell membrane; keratin forms hair and nails; collagen forms skin, tendons and the framework of bone.",
+     "Diagram: a simple chain of linked monomers (e.g. glucose units) with arrows showing condensation (water out) joining them and hydrolysis (water in) splitting them."
+    ]
+   },
+   {
+    "h": "Metabolism: anabolism and catabolism",
+    "points": [
+     "Metabolism is the sum of all the chemical reactions in an organism. Each reaction is controlled by a specific enzyme (detail in “Enzymes”). Metabolism is one of the characteristics of life.",
+     "Anabolism: reactions that build larger, more complex molecules from smaller ones. They need (absorb) energy.",
+     "Anabolic examples: photosynthesis, in which glucose is made from carbon dioxide and water; joining glucose into starch in plants or glycogen in the liver and muscles; joining amino acids into proteins.",
+     "Catabolism: reactions that break larger molecules into smaller ones. They release energy.",
+     "Catabolic examples: respiration, in which glucose is broken down to carbon dioxide and water; digestion of starch to maltose and glucose; breakdown of glycogen to glucose.",
+     "Energy transfer: energy released by catabolic reactions such as respiration is used to drive anabolic reactions. It is carried between them by the transfer molecule ATP (detail in “Transfer Molecules”), so catabolism and anabolism depend on each other."
+    ]
+   },
+   {
+    "h": "Rearrangement into new molecules",
+    "points": [
+     "Cells convert one biomolecule into another to meet their needs.",
+     "Plants make starch for storage, cellulose for cell walls, sucrose for transport and oils (e.g. stored in seeds) from the glucose made in photosynthesis.",
+     "Plants absorb nitrogen from the soil as nitrate and use it, with glucose, to make amino acids and proteins.",
+     "In humans the liver converts excess glucose to glycogen, and excess carbohydrate is converted to fat for storage."
+    ]
+   },
+   {
+    "h": "Anabolism and catabolism compared",
+    "points": [
+     "Direction: anabolism joins small molecules into large ones; catabolism breaks large molecules into small ones.",
+     "Energy: anabolism needs an input of energy; catabolism releases energy.",
+     "Examples: photosynthesis and protein synthesis are anabolic; respiration and digestion are catabolic."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Anabolism builds larger, more complex molecules from smaller ones and needs energy. An example is photosynthesis, in which glucose is made from carbon dioxide and water. Catabolism breaks larger molecules into smaller ones and releases energy. An example is respiration, in which glucose is broken down to carbon dioxide and water.",
+    "prompt": "Distinguish between anabolism and catabolism, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Photosynthesis is anabolic because it builds the large glucose molecule from small molecules, carbon dioxide and water, and it needs energy. Respiration is catabolic because it breaks glucose down into carbon dioxide and water and releases energy. The two are linked by energy transfer: the energy released by catabolic respiration is carried by ATP and used to drive anabolic reactions, so catabolism and anabolism depend on each other.",
+    "prompt": "Explain why photosynthesis is described as an anabolic reaction and respiration as a catabolic reaction, and explain how the two kinds of reaction are linked.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Plants convert the glucose made in photosynthesis into cellulose, which forms cell walls, and into starch, which is stored. In humans, the liver converts excess glucose into glycogen for storage.",
+    "prompt": "Give two examples of how living cells rearrange biomolecules into new molecules.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s2": {
+  "keyTerms": [
+   {
+    "definition": "A single sugar unit, such as glucose, fructose or galactose; the monomer of carbohydrates.",
+    "term": "Monosaccharide"
+   },
+   {
+    "definition": "Two monosaccharides joined by a glycosidic bond, formed by condensation with loss of water.",
+    "term": "Disaccharide"
+   },
+   {
+    "definition": "A polymer of many monosaccharides, such as starch, glycogen, cellulose or chitin.",
+    "term": "Polysaccharide"
+   },
+   {
+    "definition": "A lipid made of one glycerol and three fatty acids joined by ester bonds.",
+    "term": "Triglyceride"
+   },
+   {
+    "definition": "A lipid with two fatty acid tails and a phosphate head, which forms the bilayer of cell membranes.",
+    "term": "Phospholipid"
+   },
+   {
+    "definition": "The bond formed by condensation between the carboxyl group of one amino acid and the amino group of the next.",
+    "term": "Peptide bond"
+   },
+   {
+    "definition": "The variable side group that distinguishes one amino acid from another.",
+    "term": "R group"
+   },
+   {
+    "definition": "The loss of a protein's shape, and so its function, when heat, extremes of pH or chemicals break the bonds holding it.",
+    "term": "Denaturation"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Carbohydrates: general formula and size groups",
+    "points": [
+     "Carbohydrates contain carbon, hydrogen and oxygen only. Their general formula is Cx(H₂O)y: hydrogen and oxygen are in the ratio 2 : 1, as in water. Glucose, C₆H₁₂O₆, is an example. The name means “hydrated carbon”, but the molecule does not contain water molecules.",
+     "There are three groups by size: monosaccharides (one sugar unit), disaccharides (two units) and polysaccharides (many units).",
+     "Mono- and disaccharides are sugars: sweet, soluble in water and crystalline.",
+     "Polysaccharides are not sweet and are insoluble or only slightly soluble, which suits them to storage and structure."
+    ]
+   },
+   {
+    "h": "Monosaccharides",
+    "points": [
+     "Monosaccharides are single sugar units and the monomers of all other carbohydrates. Glucose, C₆H₁₂O₆, is the main respiratory substrate.",
+     "Fructose, the fruit sugar found in fruit and honey, has the same formula, C₆H₁₂O₆, but a different arrangement of atoms.",
+     "Galactose also has the formula C₆H₁₂O₆ and is a unit of lactose. Glucose, fructose and galactose are all six-carbon sugars (hexoses).",
+     "Ribose and deoxyribose are five-carbon monosaccharides (pentoses) found in RNA and DNA nucleotides (detail in “DNA, RNA and the Genetic Code”).",
+     "Diagram: glucose drawn as a simple six-sided ring (hexagon) labelled glucose, C₆H₁₂O₆. Atom-by-atom structural formulas are not needed."
+    ]
+   },
+   {
+    "h": "Disaccharides",
+    "points": [
+     "A disaccharide forms when two monosaccharides join by condensation, releasing one molecule of water. The link between the sugar units is a glycosidic bond. Disaccharides have the formula C₁₂H₂₂O₁₁ (2 × C₆H₁₂O₆ minus H₂O). Hydrolysis splits them back into monosaccharides.",
+     "Maltose (malt sugar) is glucose + glucose. It forms when starch is digested by amylase and is found in germinating grain.",
+     "Sucrose (table sugar, cane or beet sugar) is glucose + fructose. It is the form in which plants transport sugar in the phloem.",
+     "Lactose (milk sugar) is glucose + galactose and is found in milk.",
+     "Diagram: two hexagons joined, with H₂O removed by condensation and returned by hydrolysis; label maltose = glucose + glucose."
+    ]
+   },
+   {
+    "h": "Polysaccharides: starch, glycogen, cellulose and chitin",
+    "points": [
+     "A polysaccharide is a polymer of many monosaccharide units (often thousands) joined by condensation. Starch, glycogen and cellulose are all polymers of glucose; they differ in how the glucose units are linked and whether the chains branch.",
+     "Starch is the storage carbohydrate of plants, held as starch grains in cells of potato tubers, seeds and cereal grains. It is a mixture of amylose, an unbranched chain that coils into a helix, and amylopectin, a branched chain.",
+     "Being insoluble, starch does not draw water into cells by osmosis, and its compact shape stores much glucose in a small space.",
+     "Glycogen is the storage carbohydrate of animals and fungi, stored mainly in the liver and muscles (see “Biomolecules and metabolism”). It is more highly branched than amylopectin, so it has many chain ends from which glucose can be released quickly when energy is needed.",
+     "Cellulose is the structural carbohydrate of plants, forming the cell wall (see “Biomolecules and metabolism”). Its glucose units are linked in a different orientation from starch, giving long, straight, unbranched chains that lie side by side. Many hydrogen bonds hold the chains together, forming strong fibres.",
+     "Humans have no enzyme to digest cellulose, so it passes through the gut as dietary fibre (roughage).",
+     "Chitin is a polysaccharide that contains nitrogen. It forms the cell walls of fungi and the exoskeletons of insects and other arthropods.",
+     "Diagram: a chain of hexagons for starch (unbranched amylose and branched amylopectin), a more branched chain for glycogen, and parallel straight chains linked by cross-links for cellulose fibres."
+    ]
+   },
+   {
+    "h": "Triglycerides",
+    "points": [
+     "Lipids are fats, oils and related compounds such as phospholipids. They contain carbon, hydrogen and oxygen, with much less oxygen in proportion to carbon and hydrogen than carbohydrates, so they are not of the form Cx(H₂O)y. Phospholipids also contain phosphorus. Lipids are insoluble in water but dissolve in organic solvents such as ethanol.",
+     "A triglyceride is one glycerol molecule joined to three fatty acids. Glycerol is a small molecule with three carbons, each carrying an –OH group, so it can bond to three fatty acids.",
+     "A fatty acid is a long hydrocarbon chain of carbon and hydrogen atoms with an acid (carboxyl, –COOH) group at one end.",
+     "Each fatty acid joins to glycerol by condensation, so forming one triglyceride releases three water molecules. The bond formed is an ester bond.",
+     "Hydrolysis by lipase reverses this, giving glycerol and fatty acids (detail in “The Digestive System”).",
+     "Diagram: a triglyceride drawn as an E shape, with a vertical glycerol bar and three horizontal fatty acid tails, labelled glycerol, fatty acid and 3 H₂O removed."
+    ]
+   },
+   {
+    "h": "Fats and oils",
+    "points": [
+     "There are many different fatty acids, varying in chain length and in whether they contain carbon–carbon double bonds. Glycerol combines with different fatty acids to give many different fats and oils.",
+     "Saturated fatty acids have no C=C double bonds, so the chain holds the maximum hydrogen. Their chains pack closely, so fats rich in them are solid at room temperature, e.g. butter, lard and the fat on meat. These are mostly animal fats.",
+     "Unsaturated fatty acids have one or more C=C double bonds, which put kinks in the chain. Kinked chains pack loosely, so oils are liquid at room temperature, e.g. olive oil, sunflower oil and fish oils. These are mostly from plants and fish."
+    ]
+   },
+   {
+    "h": "Phospholipids",
+    "points": [
+     "A phospholipid is glycerol joined to two fatty acids and a phosphate-containing group in place of the third fatty acid.",
+     "The phosphate head is hydrophilic (attracted to water). The two fatty acid tails are hydrophobic (repelled by water).",
+     "In water, phospholipids arrange themselves in a double layer (bilayer), with the heads facing the watery fluid on each side and the tails pointing inwards.",
+     "This bilayer is the basis of cell membranes (membrane detail is in “Transport Across Membranes” and “The Unit of Life — The Cell”).",
+     "Diagram: a phospholipid drawn as a circle (head) with two wavy tails, labelled hydrophilic phosphate head and hydrophobic fatty acid tails; and a section of a bilayer."
+    ]
+   },
+   {
+    "h": "Amino acids and peptide bonds",
+    "points": [
+     "Proteins contain carbon, hydrogen, oxygen and nitrogen, and sometimes sulfur, phosphorus or other elements: sulfur is in some amino acids such as cysteine and methionine, phosphorus is in casein, the main protein of milk, and iron is in haemoglobin (see “Minerals”).",
+     "Proteins are made of amino acids. There are 20 different amino acids in the proteins of living things. Each has a central carbon atom bonded to an amino group (–NH₂), an acid (carboxyl, –COOH) group, a hydrogen atom and a variable side group (R group). Only the R group differs between amino acids.",
+     "Humans cannot make some amino acids (essential amino acids) and must take them in from food.",
+     "Diagram: the general structure of an amino acid, a central carbon with –NH₂, –COOH, –H and –R attached; and two amino acids joined by a peptide bond with H₂O released.",
+     "Amino acids join by condensation between the –COOH group of one and the –NH₂ group of the next, releasing water. The bond formed is a peptide bond.",
+     "Two amino acids form a dipeptide; a short chain is a peptide; a long chain is a polypeptide. A protein is one or more polypeptides folded into a particular shape.",
+     "The sequence of amino acids in a polypeptide (its primary structure) is set by a gene. Because 20 amino acids can be arranged in any order and length, a vast number of different proteins is possible."
+    ]
+   },
+   {
+    "h": "Folding into shape and denaturation",
+    "points": [
+     "The chain coils into a helix or folds into a pleated sheet, held by hydrogen bonds (secondary structure). This folds further into a precise three-dimensional shape (tertiary structure), held by bonds between R groups, including sulfur bridges between cysteine units.",
+     "Some proteins consist of several polypeptides fitted together (quaternary structure). Haemoglobin has four polypeptide chains.",
+     "The shape determines the function: an enzyme's active site or an antibody's binding site fits only particular molecules.",
+     "Heat, extremes of pH and some chemicals break the bonds holding the shape, so the protein loses its shape and function. This is denaturation, usually permanent, e.g. egg white turns solid and white when cooked. Enzyme denaturation is detailed in “Enzymes”.",
+     "Fibrous proteins are long strands, insoluble and structural: keratin (hair, nails) and collagen (skin, tendons). Where they are found is covered in “Biomolecules and metabolism”.",
+     "Globular proteins are folded into compact, roughly spherical shapes and are usually soluble, e.g. enzymes, antibodies, haemoglobin and insulin."
+    ]
+   },
+   {
+    "h": "Nucleic acids",
+    "points": [
+     "Nucleic acids (DNA and RNA) are polymers of nucleotides. Each nucleotide contains a sugar, a phosphate group and a nitrogenous base, so nucleic acids contain C, H, O, N and P. Their structure is in “DNA, RNA and the Genetic Code”."
+    ]
+   },
+   {
+    "h": "Summary of the four biomolecules",
+    "points": [
+     "Carbohydrate: C, H, O; monosaccharides; glycosidic bond; glucose, sucrose, starch.",
+     "Lipid: C, H, O (plus P in phospholipids); glycerol and fatty acids; ester bond; triglycerides, phospholipids.",
+     "Protein: C, H, O, N (sometimes S, P or other elements); amino acids; peptide bond; enzymes, keratin.",
+     "Nucleic acid: C, H, O, N, P; nucleotides; DNA, RNA."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) A triglyceride is made of one glycerol molecule and three fatty acids. (ii) A protein is made of amino acids. Amino acids are joined by peptide bonds, which form by condensation with the release of water.",
+    "prompt": "Name the units that make up (i) a triglyceride and (ii) a protein, and name the bond that joins amino acids.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "All three are polymers of glucose. Starch is the storage carbohydrate of plants; it is a mixture of unbranched amylose, which coils into a helix, and branched amylopectin, and it is insoluble, so it stores much glucose compactly. Glycogen is the storage carbohydrate of animals and fungi, stored mainly in the liver and muscles; it is more highly branched than starch, so glucose can be released quickly from its many chain ends. Cellulose is the structural carbohydrate of plant cell walls; its long, unbranched chains lie side by side and are held by hydrogen bonds to form strong fibres.",
+    "prompt": "Compare the structures and functions of starch, glycogen and cellulose.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "A phospholipid has a glycerol backbone joined to two fatty acids and to a phosphate-containing group in place of the third fatty acid. The phosphate head is hydrophilic, so it is attracted to water, and the two fatty acid tails are hydrophobic, so they are repelled by water. In water, phospholipids arrange themselves in a double layer, a bilayer, with the heads facing the watery fluid on each side and the tails pointing inwards. This bilayer is the basis of cell membranes, because the arrangement follows directly from the hydrophilic heads and hydrophobic tails.",
+    "prompt": "Describe the structure of a phospholipid and explain how this structure allows phospholipids to form cell membranes.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s3": {
+  "keyTerms": [
+   {
+    "definition": "The molecule broken down in respiration to release energy; glucose is the main one.",
+    "term": "Respiratory substrate"
+   },
+   {
+    "definition": "Cellulose and other plant material that humans cannot digest; it adds bulk to food and helps peristalsis.",
+    "term": "Dietary fibre"
+   },
+   {
+    "definition": "A membrane protein that forms a water-filled pore through which specific ions or molecules pass by diffusion.",
+    "term": "Channel protein"
+   },
+   {
+    "definition": "A carrier protein that binds one molecule and changes shape to move it across a membrane.",
+    "term": "Transporter"
+   },
+   {
+    "definition": "A protein with a shape that fits one signalling molecule, such as a hormone, and triggers a cell response when it binds.",
+    "term": "Receptor"
+   },
+   {
+    "definition": "A cell with the matching receptor proteins for a particular hormone, so the hormone acts on it.",
+    "term": "Target cell"
+   },
+   {
+    "definition": "An amino acid that humans cannot make and must take in from food.",
+    "term": "Essential amino acid"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Roles of carbohydrates",
+    "points": [
+     "Respiratory and catabolic role: glucose is the main respiratory substrate. It is broken down in respiration to release energy, which is trapped as ATP (detail in “Respiration” and “Transfer Molecules”). The brain relies mainly on glucose for its energy.",
+     "Photosynthetic role: glucose is the product of photosynthesis, the anabolic process in which plants use light energy to make it (detail in “Photosynthesis”). Almost all the carbohydrate in food chains therefore comes from photosynthesis.",
+     "Anabolic and storage role: excess glucose is built up into storage polysaccharides, starch in plants and glycogen in the liver and muscles of animals (see “Structures of biomolecules”). These are broken down again when glucose is needed.",
+     "Structural role: cellulose forms plant cell walls, and chitin forms fungal cell walls and insect exoskeletons (both described in “Structures of biomolecules”). The pentose sugars ribose and deoxyribose are part of RNA and DNA nucleotides.",
+     "Transport role: plants move sugar from the leaves to other parts as sucrose, in the phloem (see “Structures of biomolecules”).",
+     "Dietary fibre: cellulose passes through the human gut as dietary fibre. It adds bulk to food, which helps peristalsis and prevents constipation (diet detail in “The Digestive System”)."
+    ]
+   },
+   {
+    "h": "Roles of lipids",
+    "points": [
+     "Respiratory and catabolic role: fats are respired to release energy, especially when glucose and glycogen run low.",
+     "A gram of fat releases about twice as much energy as a gram of carbohydrate or protein, so lipid is a compact long-term energy store.",
+     "Storage: excess food is built into triglycerides and stored as fat in adipose tissue, under the skin and around organs in animals. Plants store oils in seeds (e.g. sunflower seeds) and fruits (e.g. olives).",
+     "Insulation: fat under the skin reduces heat loss, as in the thick blubber of whales and seals. The myelin sheath around nerve fibres is rich in lipid and insulates them (detail in “The Nervous System”).",
+     "Protection: fat around organs such as the kidneys and heart cushions them against physical damage.",
+     "Structural role: phospholipids form the bilayer of all cell membranes (see “Structures of biomolecules”), including the membranes inside chloroplasts and mitochondria.",
+     "Photosynthetic role: the light-absorbing pigments of photosynthesis are held in the thylakoid membranes of the chloroplast, which are built of phospholipids. Plants also convert some of the glucose made in photosynthesis into oils.",
+     "Waterproofing: waxes form the waxy cuticle on leaves, reducing water loss, and waterproof feathers and fur.",
+     "Regulators: steroid hormones such as testosterone, oestrogen and progesterone are lipids. Fat-soluble vitamins are covered in “Vitamins”."
+    ]
+   },
+   {
+    "h": "Roles of proteins",
+    "points": [
+     "Enzymes: almost all enzymes are proteins. They are biological catalysts that speed up the reactions of metabolism without being used up, e.g. amylase digests starch to maltose (mechanism in “Enzymes”).",
+     "Hormones: some hormones are proteins, e.g. insulin, made by the pancreas, which lowers blood glucose. Other hormones are lipids (see “Hormones as regulators”).",
+     "Immunity: antibodies are proteins made by lymphocytes (B cells). Each binds to a specific antigen on a pathogen, marking it for destruction (detail in “Immunity”).",
+     "Transport of substances in the body: haemoglobin in red blood cells carries oxygen. Its iron is covered in “Minerals”.",
+     "Movement: actin and myosin are the contractile proteins of muscle (detail in “The Musculoskeletal System”).",
+     "Energy: protein is respired only when carbohydrate and fat are in short supply. Excess amino acids cannot be stored; the liver removes their amino group (deamination), forming urea, which is excreted (detail in “The Digestive System” and “The Urinary System”).",
+     "Growth and repair: proteins are the main raw material for new cells and tissues, so children, pregnant women and people recovering from injury need more."
+    ]
+   },
+   {
+    "h": "Proteins in membranes and molecular mechanisms",
+    "points": [
+     "Membrane proteins are embedded in the phospholipid bilayer. They control what enters and leaves cells and how cells communicate. The specification names four kinds: channel proteins, transporters, structural proteins and receptors.",
+     "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion, e.g. the sodium and potassium channels of neurons, which allow nerve impulses (the ion movement is covered in “Minerals”).",
+     "Transporters (carrier proteins) bind a specific molecule and change shape to move it across the membrane. Some use energy from ATP to move substances against a concentration gradient (active transport), e.g. the sodium–potassium pump (detail in “Transport Across Membranes”).",
+     "Receptors are proteins on the cell surface, or inside the cell, with a shape that fits one signalling molecule such as a hormone or neurotransmitter. When the signal binds, the cell responds, e.g. insulin receptors on liver and muscle cells. This is why a hormone affects only its target cells.",
+     "Structural proteins give strength and support. Collagen also forms ligaments and cartilage, and keratin forms the outer skin.",
+     "Proteins also form the cytoskeleton inside cells.",
+     "Diagram: a section of cell membrane (phospholipid bilayer) with a channel protein, a carrier protein and a receptor protein with its signalling molecule, each labelled."
+    ]
+   },
+   {
+    "h": "Hormones as regulators",
+    "points": [
+     "A hormone is a chemical messenger made by an endocrine gland and carried in the blood to target cells, where it regulates their activity. Hormones regulate growth, development, metabolism and reproduction.",
+     "Hormones are biomolecules from two groups, proteins and steroid lipids, both named in the blocks on proteins and lipids in this note. Glands and named hormones are covered in “The Endocrine System”.",
+     "Plants also make chemical regulators, called plant growth regulators, e.g. auxin."
+    ]
+   },
+   {
+    "h": "Nutritional sources of carbohydrate, lipid and protein",
+    "points": [
+     "Carbohydrate sources, sugars: fruit, honey, jam, sweets and fizzy drinks; lactose in milk.",
+     "Carbohydrate sources, starch: bread, pasta, rice, potatoes and breakfast cereals.",
+     "Carbohydrate sources, fibre (cellulose): vegetables, fruit, wholegrain cereals and brown bread, and beans.",
+     "Lipid sources, fats (mostly saturated): butter, cream, cheese, lard and fatty meat.",
+     "Lipid sources, oils (mostly unsaturated): olive and sunflower oils, nuts and seeds, avocados, and oily fish such as salmon and mackerel.",
+     "Protein sources, animal: meat, fish, eggs, milk, cheese and yoghurt. Protein sources, plant: beans, peas, lentils, nuts, soya and tofu, and cereals.",
+     "Animal proteins contain all the essential amino acids. Many single plant foods lack one or more, so vegetarian and vegan diets combine a range of plant proteins, e.g. beans with cereal."
+    ]
+   },
+   {
+    "h": "Diet, health and sustainability links",
+    "points": [
+     "Diets high in saturated fat are linked to raised blood cholesterol and heart disease. Diets high in free sugars are linked to tooth decay, obesity and type 2 diabetes.",
+     "Producing plant protein generally needs less land and water, and causes lower greenhouse gas emissions, than producing meat. Balanced diet detail is in “The Digestive System”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Carbohydrate: bread, pasta, rice or potatoes, which are rich in starch. Lipid: butter, or an oil such as olive oil or sunflower oil. Protein: meat, fish, eggs, milk or beans.",
+    "prompt": "Name one good food source of each of carbohydrate, lipid and protein.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Enzymes are proteins that act as biological catalysts; amylase, for example, digests starch to maltose. Hormones such as insulin are proteins; insulin is made by the pancreas and lowers blood glucose. Antibodies are proteins made by B lymphocytes that bind specific antigens on pathogens. Haemoglobin, a protein in red blood cells, carries oxygen. Actin and myosin are contractile proteins that make muscle contract.",
+    "prompt": "Give three different roles of proteins in the human body, naming a protein for each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion, for example the sodium and potassium channels of neurons, which allow nerve impulses. Transporters, or carrier proteins, bind a specific molecule and change shape to move it across the membrane; some use energy from ATP to move substances against a concentration gradient, as the sodium–potassium pump does. Receptors have a shape that fits one signalling molecule, such as a hormone or neurotransmitter; when it binds, the cell responds, for example insulin receptors on liver and muscle cells.",
+    "prompt": "Outline the roles of channel proteins, transporters and receptors in cell membranes.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s4": {
+  "keyTerms": [
+   {
+    "definition": "An inorganic element, usually taken in as dissolved ions, needed in small amounts for normal functioning.",
+    "term": "Mineral"
+   },
+   {
+    "definition": "A substance, such as phosphate or hydrogencarbonate ions, that takes up or releases hydrogen ions to keep pH almost constant.",
+    "term": "Buffer"
+   },
+   {
+    "definition": "A mineral ion that an enzyme needs in order to work.",
+    "term": "Cofactor"
+   },
+   {
+    "definition": "A deficiency of haemoglobin, caused by too little iron, leading to tiredness, weakness and pale skin.",
+    "term": "Anaemia"
+   },
+   {
+    "definition": "A swollen thyroid gland caused by a lack of iodine.",
+    "term": "Goitre"
+   },
+   {
+    "definition": "A compound of calcium that holds neighbouring plant cell walls together.",
+    "term": "Calcium pectate"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What minerals are",
+    "points": [
+     "Minerals are inorganic elements, usually taken in as ions dissolved in water, that organisms need in small amounts for normal functioning. Organisms cannot make them. Animals get them from food and drink; plants absorb them as ions dissolved in soil water through their root hairs.",
+     "Some minerals are built into biomolecules or structures: iron in haemoglobin, magnesium in chlorophyll, phosphorus in phospholipids, DNA and ATP, sulfur in some amino acids, iodine in thyroxine, and calcium (as calcium phosphate) in bone and teeth.",
+     "Many minerals are not built into biomolecules. They work as free ions in body fluids, e.g. sodium (Na⁺), potassium (K⁺), chloride (Cl⁻) and calcium (Ca²⁺) ions.",
+     "Minerals differ from vitamins: minerals are inorganic elements, while vitamins are organic compounds (see “Vitamins”). Neither supplies energy."
+    ]
+   },
+   {
+    "h": "Roles of minerals in the body",
+    "points": [
+     "pH balance: phosphate and hydrogencarbonate ions act as buffers in cells and blood. They take up or release hydrogen ions so that pH stays almost constant; blood is kept at about pH 7.4. This matters because enzymes work only in a narrow pH range.",
+     "Regulation of enzyme systems: many enzymes need a mineral ion to work, as a cofactor or activator. Magnesium ions are needed by many enzymes that use ATP, zinc is part of many enzymes, and chloride ions activate salivary amylase.",
+     "Without its ion an enzyme is inactive, so mineral levels help control metabolic pathways.",
+     "Nerve impulse transfer: a nerve impulse travels as sodium ions move into and potassium ions move out of the neuron through channel proteins. Calcium ions entering the end of a neuron trigger the release of neurotransmitter at the synapse (detail in “The Nervous System”).",
+     "Muscle contraction: calcium ions released inside a muscle fibre after a nerve impulse arrives allow actin and myosin to interact, so the muscle contracts (detail in “The Musculoskeletal System”).",
+     "Other roles: osmoregulation, where sodium and chloride ions in body fluids affect the movement of water by osmosis (see “Water”); structure, where calcium and phosphate form bones and teeth; oxygen transport, through iron; and blood clotting, which needs calcium."
+    ]
+   },
+   {
+    "h": "Named minerals in humans: roles, sources and deficiency",
+    "points": [
+     "Calcium forms bones and teeth as calcium phosphate. Its absorption needs vitamin D (see “Vitamins”).",
+     "Calcium sources: milk, cheese, yoghurt, green leafy vegetables, and tinned fish eaten with the bones, e.g. sardines.",
+     "Calcium deficiency weakens bones. The rickets and osteoporosis linked to low vitamin D are covered in “Vitamins”.",
+     "Iron is part of haemoglobin, the red blood cell protein described in “Metabolic roles and nutritional sources”.",
+     "Iron sources: red meat, liver, eggs, green leafy vegetables such as spinach, beans and lentils, and fortified breakfast cereals.",
+     "Vitamin C helps the gut absorb iron from plant foods (see “Vitamins”).",
+     "Iron deficiency causes anaemia: too little haemoglobin, so tiredness, weakness and pale skin. Women who menstruate need more iron than men.",
+     "Sodium is needed for nerve impulses and controls water balance in body fluids.",
+     "Sodium sources: table salt, processed foods, crisps, bacon and cheese. Most people take in more than they need, and excess salt is linked to high blood pressure.",
+     "Potassium works with sodium in nerve impulses and muscle function, and controls fluid balance inside cells. Sources: bananas, potatoes, vegetables, fruit and milk.",
+     "Iodine is needed to make the hormone thyroxine in the thyroid gland, which controls metabolic rate (detail in “The Endocrine System”).",
+     "Iodine sources: seafood, seaweed, milk and iodised salt. Deficiency causes goitre, a swollen thyroid gland, and a low metabolic rate.",
+     "Phosphorus, as phosphate, forms part of bones and teeth, ATP, DNA, RNA and phospholipids, and helps buffer pH (see “Roles of minerals in the body”). Sources: milk, cheese, meat, fish, eggs and nuts.",
+     "Magnesium is needed for bones, activates many enzymes, and is needed for muscle and nerve function. Sources: green leafy vegetables, nuts and wholegrain cereals.",
+     "Fluoride hardens tooth enamel, making it more resistant to decay. Sources: fluoridated public water, as in Ireland, toothpaste and tea."
+    ]
+   },
+   {
+    "h": "Minerals in plants",
+    "points": [
+     "Plants absorb minerals from soil water as ions through root hairs, often by active transport. The minerals then travel up the xylem in the water stream (see “Water”).",
+     "Nitrogen, absorbed as nitrate, is needed to make amino acids, proteins and nucleic acids (see “Biomolecules and metabolism”). A shortage gives stunted growth and yellow leaves. How nitrogen reaches the soil is covered in “Nutrient Cycling”.",
+     "Magnesium is part of chlorophyll. A shortage causes yellowing leaves, with less chlorophyll and so less photosynthesis.",
+     "Phosphate is needed for ATP, DNA and phospholipids, and for root growth.",
+     "Calcium forms calcium pectate, which holds neighbouring plant cell walls together.",
+     "Farmers add minerals, mainly nitrogen, phosphorus and potassium, to soil in fertilisers. Excess fertiliser washed into rivers and lakes causes eutrophication (detail in “Nutrient Cycling”)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Calcium forms bones and teeth and is needed for muscle contraction; it is found in milk, cheese and yoghurt. Iron is part of haemoglobin, which carries oxygen in red blood cells; it is found in red meat, liver and fortified breakfast cereals.",
+    "prompt": "Name two minerals needed by humans. For each, give one role and one food source.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "pH balance: phosphate and hydrogencarbonate ions act as buffers, taking up or releasing hydrogen ions so that the pH of cells and blood stays almost constant, which keeps enzymes working. Regulation of enzyme systems: magnesium ions are needed by many enzymes that use ATP, so without the ion the enzyme is inactive; chloride ions activate salivary amylase. Nerve impulse transfer: sodium ions move into the neuron and potassium ions move out through channel proteins as an impulse passes.",
+    "prompt": "Minerals are needed for pH balance, regulation of enzyme systems and nerve impulse transfer. Explain one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Nitrogen, absorbed from the soil as nitrate, is needed to make amino acids, proteins and nucleic acids. A plant lacking it cannot make enough protein to build new cells, so it shows stunted growth and yellow leaves. Magnesium, which is part of chlorophyll, is an acceptable alternative: a lack gives yellowing leaves and less photosynthesis.",
+    "prompt": "Name one mineral needed by plants and explain why a plant lacking it would grow poorly.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s5": {
+  "keyTerms": [
+   {
+    "definition": "An organic compound needed in very small amounts for normal metabolism, growth and health, which the body cannot make in sufficient amounts.",
+    "term": "Vitamin"
+   },
+   {
+    "definition": "A vitamin that dissolves in water, such as vitamin C or a B vitamin; excess is excreted in urine and most is not stored.",
+    "term": "Water-soluble vitamin"
+   },
+   {
+    "definition": "A vitamin that dissolves in fat, such as vitamins A, D, E or K; it is absorbed with dietary fat and stored in the liver and fatty tissue.",
+    "term": "Fat-soluble vitamin"
+   },
+   {
+    "definition": "A substance that protects cells from damage, as vitamins C and E do.",
+    "term": "Antioxidant"
+   },
+   {
+    "definition": "The deficiency disease caused by a lack of vitamin C, in which collagen is not made properly.",
+    "term": "Scurvy"
+   },
+   {
+    "definition": "The deficiency disease of children caused by a lack of vitamin D, in which bones do not harden and bend.",
+    "term": "Rickets"
+   },
+   {
+    "definition": "A compound in orange and dark green vegetables that the body converts to vitamin A.",
+    "term": "Beta-carotene"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What vitamins are and what they do",
+    "points": [
+     "Vitamins are organic compounds needed in very small amounts for normal metabolism, growth and health. The body cannot make them, or cannot make enough, so they must come from the diet.",
+     "Vitamins supply no energy and are not used to build tissues in bulk.",
+     "Many vitamins act as coenzymes or help enzymes work, e.g. the B vitamins help release energy from food in respiration.",
+     "Other vitamins are needed to make particular substances (vitamin C for collagen), act as antioxidants that protect cells from damage (vitamins C and E), or control the absorption of minerals (vitamin D, which controls the absorption of calcium).",
+     "A lack of a vitamin causes a deficiency disease with characteristic symptoms. The disease is cured or prevented by supplying the vitamin.",
+     "Vitamins are grouped by what they dissolve in. Water-soluble: vitamin C and the B group. Fat-soluble: vitamins A, D, E and K."
+    ]
+   },
+   {
+    "h": "Solubility and its biological significance",
+    "points": [
+     "Absorption: water-soluble vitamins dissolve in the watery contents of the gut and are absorbed directly into the blood. Fat-soluble vitamins dissolve in dietary fat and are absorbed along with it, so a very low-fat diet, or a condition that prevents fat absorption, can cause a deficiency of A, D, E or K.",
+     "Transport: water-soluble vitamins travel dissolved in the blood plasma; fat-soluble vitamins are carried with lipids.",
+     "Storage: excess water-soluble vitamins are excreted by the kidneys in urine, and most are not stored, so they must be eaten regularly, ideally daily. A deficiency develops within weeks or months. Fat-soluble vitamins are stored in the liver and fatty tissue, so the body can draw on reserves and they need not be eaten every day.",
+     "Toxicity: because excess water-soluble vitamins are excreted, overdose is rare. Fat-soluble vitamins can build up in the liver to harmful levels if large supplements are taken. Too much vitamin A is toxic, which is why pregnant women are advised not to eat liver or take vitamin A supplements.",
+     "Cooking: water-soluble vitamins leach out of food into the cooking water, and vitamin C is also destroyed by heat and by long storage. Vegetables lose vitamin C when boiled for a long time; steaming, microwaving or eating them raw keeps more. Fat-soluble vitamins are not lost into cooking water."
+    ]
+   },
+   {
+    "h": "Vitamin C: a water-soluble vitamin",
+    "points": [
+     "Vitamin C, ascorbic acid, is water-soluble.",
+     "Roles: it is needed to make collagen, the protein of connective tissue in skin, gums, blood vessel walls, bones and scar tissue. It helps wounds heal, acts as an antioxidant, helps the gut absorb iron from plant foods, and supports the immune system.",
+     "Sources: citrus fruits (oranges, lemons, limes, grapefruit), kiwi fruit, strawberries, blackcurrants, peppers, broccoli, tomatoes and potatoes. It is best eaten fresh and raw (see “Solubility and its biological significance”).",
+     "Deficiency disease: scurvy. Without vitamin C, collagen is not made properly, so connective tissue weakens.",
+     "Scurvy symptoms: swollen, bleeding gums and loose teeth; easy bruising and bleeding under the skin; wounds that heal slowly or reopen; tiredness and aching joints. Untreated, it can be fatal. It is cured quickly by vitamin C.",
+     "History (Health and Nature of Science link): scurvy killed many sailors on long voyages without fresh food. In 1747 James Lind, a Scottish naval surgeon, gave different treatments to groups of sailors with scurvy and found that those given oranges and lemons recovered. This was an early controlled trial."
+    ]
+   },
+   {
+    "h": "Vitamin D: a fat-soluble vitamin",
+    "points": [
+     "Vitamin D, calciferol, is fat-soluble.",
+     "Role: it increases the absorption of calcium, and phosphate, from food in the small intestine. It is therefore needed for the formation and hardening of bones and teeth. It also helps muscle function and the immune system.",
+     "Sources: the skin makes vitamin D when it is exposed to ultraviolet light in sunlight. Dietary sources are oily fish (e.g. salmon, mackerel and sardines), fish-liver oils such as cod-liver oil, egg yolk and liver, and fortified foods such as some milks, spreads and breakfast cereals.",
+     "Deficiency disease: rickets in children. Bones do not harden, so they stay soft and weak. The leg bones bend under the body's weight, giving bowed legs; growth is poor and the bones are painful.",
+     "In adults the equivalent condition is osteomalacia, softening of the bones. Low vitamin D also raises the risk of osteoporosis in later life.",
+     "People at risk: those who get little sunlight, such as people living at northern latitudes like Ireland, where winter sunlight is too weak for the skin to make vitamin D; people who stay indoors or cover their skin; people with darker skin living at high latitudes; older people; and babies.",
+     "Irish health advice recommends a vitamin D supplement for babies in their first year."
+    ]
+   },
+   {
+    "h": "Other vitamins",
+    "points": [
+     "Vitamin A (retinol) is fat-soluble and is needed for vision in dim light and for healthy skin and linings. Deficiency causes night blindness.",
+     "Vitamin A sources: liver, dairy produce, eggs and oily fish. Carrots and other orange and dark green vegetables contain beta-carotene, which the body converts to vitamin A.",
+     "Vitamin K is fat-soluble and is needed for blood clotting. Sources: green leafy vegetables. It is also made by bacteria in the large intestine.",
+     "Newborn babies have little vitamin K, so they are given it soon after birth to prevent bleeding.",
+     "Vitamin E is fat-soluble and is an antioxidant that protects cell membranes. Sources: vegetable oils, nuts and seeds.",
+     "The B-group vitamins are water-soluble and help enzymes release energy from food. Vitamin B1 (thiamine) deficiency causes beriberi; vitamin B3 (niacin) deficiency causes pellagra. Sources: wholegrain cereals, meat, eggs, dairy produce and beans.",
+     "Folic acid (folate, a B vitamin) and vitamin B12 are needed to make red blood cells. A lack of either causes a form of anaemia.",
+     "Vitamin B12 is found naturally only in animal foods, so vegans need fortified foods or supplements.",
+     "Women are advised to take folic acid before and in early pregnancy, as it reduces the risk of neural tube defects such as spina bifida in the baby."
+    ]
+   },
+   {
+    "h": "Fortification and supplements",
+    "points": [
+     "Food fortification, adding vitamins to foods such as breakfast cereals and milk, and taking supplements are used to prevent deficiency diseases in groups at risk."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Vitamin C is water-soluble. Its dietary sources include citrus fruits such as oranges and lemons, and its deficiency causes scurvy, with bleeding gums, loose teeth, bruising and slow wound healing. Vitamin D is fat-soluble. It is found in oily fish such as salmon, and the skin makes it in sunlight. Its deficiency causes rickets in children, in which the bones soften and bend, and osteomalacia in adults.",
+    "prompt": "Name one water-soluble vitamin and one fat-soluble vitamin. For each, give a dietary source and the deficiency disease caused by its lack.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Absorption differs: water-soluble vitamins such as vitamin C are absorbed directly into the blood from the gut, while fat-soluble vitamins such as vitamin A are absorbed along with dietary fat, so a very low-fat diet can cause their deficiency. Transport differs: water-soluble vitamins travel dissolved in plasma, while fat-soluble vitamins are carried with lipids. Storage differs: excess vitamin C is excreted in urine and most water-soluble vitamins are not stored, so they must be eaten regularly, whereas vitamin D and vitamin A are stored in the liver and fatty tissue. Toxicity differs: overdose of water-soluble vitamins is rare because the excess is excreted, but fat-soluble vitamins can build up in the liver; too much vitamin A is toxic. Cooking differs: water-soluble vitamins such as vitamin C leach into cooking water and are destroyed by heat, while fat-soluble vitamins are not lost into cooking water.",
+    "prompt": "Explain the biological significance of vitamin solubility.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The skin makes vitamin D when it is exposed to ultraviolet light in sunlight. People who get little sunlight, for example at northern latitudes such as Ireland in winter, make too little vitamin D. Vitamin D increases the absorption of calcium from food in the small intestine, so less calcium is absorbed. Without enough calcium and vitamin D, bones do not harden, so children develop rickets, with soft, weak bones that bend.",
+    "prompt": "Explain why rickets is more common in people who get little sunlight.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s6": {
+  "keyTerms": [
+   {
+    "definition": "A molecule with slight positive and negative charges at different ends, such as water, which lets it dissolve ions and polar molecules.",
+    "term": "Polar molecule"
+   },
+   {
+    "definition": "The attraction between a slightly positive hydrogen end of one water molecule and the slightly negative oxygen end of another.",
+    "term": "Hydrogen bond"
+   },
+   {
+    "definition": "The energy needed to raise the temperature of a substance; water's value is high, so its temperature changes slowly.",
+    "term": "Specific heat capacity"
+   },
+   {
+    "definition": "The movement of water across a selectively permeable membrane from a region of higher water concentration to lower water concentration.",
+    "term": "Osmosis"
+   },
+   {
+    "definition": "The control of the water and salt concentration of body fluids.",
+    "term": "Osmoregulation"
+   },
+   {
+    "definition": "The swollen, firm state of a plant cell when water entering by osmosis presses against its cell wall.",
+    "term": "Turgor"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Water in living things and its properties",
+    "points": [
+     "Water is the most abundant substance in living things. It makes up about 60% of the mass of an adult human body and most of the mass of cytoplasm.",
+     "Many plant tissues and jellyfish are over 90% water. Organisms die quickly without water.",
+     "A water molecule, H₂O, is polar: the oxygen end carries a slight negative charge (δ−) and the hydrogen ends carry slight positive charges (δ+). Neighbouring molecules are attracted to each other by hydrogen bonds.",
+     "Because it is polar, water is an excellent solvent: ions (e.g. Na⁺, Cl⁻) and polar molecules (e.g. glucose, amino acids) dissolve in it. Lipids are non-polar and do not dissolve.",
+     "Hydrogen bonding gives water a high specific heat capacity, so it takes a lot of energy to raise its temperature. It also gives water a high latent heat of vaporisation, so a lot of energy is absorbed when it evaporates.",
+     "Hydrogen bonding makes water molecules stick to each other (cohesion) and to other surfaces (adhesion).",
+     "Diagram: two or three water molecules with δ+ on the hydrogens, δ− on the oxygen, and a dotted hydrogen bond between them."
+    ]
+   },
+   {
+    "h": "Medium for chemical reactions",
+    "points": [
+     "Almost all metabolic reactions take place in solution in water, in the cytoplasm and inside organelles, because dissolved molecules can move, collide and meet enzymes.",
+     "Water is also a reactant. It is split in photosynthesis, releasing oxygen, and it is used in every hydrolysis reaction, including digestion.",
+     "Water is a product of respiration and of every condensation reaction."
+    ]
+   },
+   {
+    "h": "Medium for transport",
+    "points": [
+     "In animals, blood plasma is mainly water. It carries dissolved glucose, amino acids, mineral ions, hormones, urea and carbon dioxide around the body; lymph and tissue fluid are also watery.",
+     "Urea and excess salts are excreted dissolved in water as urine.",
+     "In plants, water carries dissolved minerals up the xylem from the roots to the leaves. Sucrose and amino acids move through the phloem.",
+     "Cohesion between water molecules holds the column of water together in the xylem (detail in “Transport in Plants”).",
+     "Substances move into and out of cells by diffusion through the watery fluid around them (detail in “Transport Across Membranes”)."
+    ]
+   },
+   {
+    "h": "Regulation of temperature",
+    "points": [
+     "High specific heat capacity: water heats up and cools down slowly, so the water in an organism's body buffers it against sudden temperature changes. Lakes and seas give aquatic organisms a stable temperature.",
+     "Cooling by evaporation: because water absorbs a lot of heat when it evaporates, sweating in mammals cools the skin (detail in “Homeostasis”), panting cools dogs, and transpiration cools leaves.",
+     "Ice is less dense than liquid water, so it floats and forms an insulating layer on ponds and lakes, letting organisms survive beneath it in winter."
+    ]
+   },
+   {
+    "h": "Regulation of pH",
+    "points": [
+     "pH depends on the concentration of hydrogen ions (H⁺) in a solution; pure water is neutral, at pH 7. Acids and bases exert their effects only when they are dissolved in water.",
+     "Buffers, such as hydrogencarbonate and phosphate ions (see “Minerals”), work dissolved in body water. They keep the pH of cells and blood almost constant, so enzymes keep their shape and activity.",
+     "Water is the medium by which excess H⁺ ions are removed. The kidneys excrete them dissolved in urine. Carbon dioxide, which forms an acid in solution, is carried in the blood plasma to the lungs and breathed out."
+    ]
+   },
+   {
+    "h": "Osmoregulation",
+    "points": [
+     "Osmoregulation is the control of the water and salt (solute) concentration of body fluids. Water moves into or out of cells by osmosis, from a region of higher water concentration to a region of lower water concentration, through a selectively permeable membrane (detail in “Transport Across Membranes”).",
+     "Animal cells placed in pure water swell and may burst; in strong salt solution they shrink. So the concentration of the blood and tissue fluid must be kept steady.",
+     "In humans the kidneys do this, adjusting the volume of water in urine under the control of ADH (detail in “The Urinary System”).",
+     "Plant cells have a strong cell wall, so water entering by osmosis makes them turgid (swollen and firm) instead of bursting. Turgor pressure supports non-woody plants and leaves and opens stomata.",
+     "When water is lost, plant cells become flaccid and the plant wilts.",
+     "Single-celled freshwater organisms such as Amoeba constantly gain water by osmosis and expel it with a contractile vacuole."
+    ]
+   },
+   {
+    "h": "Other roles of water",
+    "points": [
+     "Lubrication: synovial fluid lubricates joints, and mucus and saliva help swallowing.",
+     "Support: the fluid pressure of a hydrostatic skeleton supports soft-bodied animals such as earthworms.",
+     "Habitat: water is the habitat of aquatic organisms.",
+     "Fertilisation: some organisms need water for fertilisation. Moss and fern sperm swim in water."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Water is a medium for chemical reactions: almost all metabolic reactions take place in solution in water, and water is a reactant in hydrolysis. Water is a medium for transport: blood plasma carries dissolved glucose, amino acids and hormones, and the xylem carries dissolved minerals up the plant. Water helps regulate temperature: its high specific heat capacity buffers the body against sudden changes, and sweating cools the skin as water evaporates.",
+    "prompt": "Give three roles of water in living organisms.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Water is a polar molecule, so it is an excellent solvent: ions such as Na⁺ and Cl⁻ and polar molecules such as glucose and amino acids dissolve in it. This lets blood plasma carry dissolved substances around the body, and lets the xylem carry dissolved minerals and cohesion holds the water column together. Hydrogen bonding gives water a high specific heat capacity, so its temperature changes slowly and the body is buffered against sudden changes. Water also has a high latent heat of vaporisation, so evaporation of sweat, panting or transpiration absorbs a lot of heat and cools the organism.",
+    "prompt": "Explain how the properties of water allow it to act as a medium for transport and to help regulate temperature.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Osmoregulation is the control of the water and salt concentration of body fluids. It is important for animal cells because water entering by osmosis would make them swell and burst in pure water, while in strong salt solution they would shrink; the kidneys keep the concentration of blood and tissue fluid steady by adjusting the water in urine under the control of ADH. Plant cells respond to taking in water by becoming turgid: the strong cell wall stops them bursting, and the turgor pressure supports non-woody plants and leaves and opens the stomata. When water is lost, the cells become flaccid and the plant wilts.",
+    "prompt": "What is osmoregulation? Explain why it is important for animal cells and how plant cells respond to taking in water.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s7": {
+  "keyTerms": [
+   {
+    "definition": "A sugar that can reduce blue copper(II) ions in Benedict's solution to brick-red copper(I) oxide; all monosaccharides and the disaccharides maltose and lactose are reducing sugars.",
+    "term": "Reducing sugar"
+   },
+   {
+    "definition": "The test for reducing sugar, in which the solution is heated in a water bath and turns from blue to brick red if a reducing sugar is present.",
+    "term": "Benedict's test"
+   },
+   {
+    "definition": "The test for protein, in which copper sulfate in alkaline solution turns from blue to purple if peptide bonds are present.",
+    "term": "Biuret test"
+   },
+   {
+    "definition": "A test run with a known result, negative (no nutrient) or positive (known nutrient), against which the food results are judged.",
+    "term": "Control"
+   },
+   {
+    "definition": "Recording whether a substance is present or absent, rather than how much of it there is.",
+    "term": "Qualitative"
+   },
+   {
+    "definition": "A red dye that dissolves in lipid but not in water, used to show lipid as a red oily layer.",
+    "term": "Sudan III"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Planning the investigation",
+    "points": [
+     "Aim: to find out which nutrients (starch, reducing sugar, protein and lipid) are present in a range of food samples. Qualitative means recording whether a nutrient is present or absent, from a colour change or other observation, not how much of it there is.",
+     "Hypothesis, e.g.: “Potato contains starch but not lipid; milk contains reducing sugar (lactose), protein and lipid.” Students predict the result for each food from what it is.",
+     "Independent variable: the food sample tested. Dependent variable: the result of each test, the colour or observation, recorded as present or absent.",
+     "Controlled variables: the volume of food solution and of reagent, the concentration of the reagents, the water-bath temperature and heating time for Benedict's, and clean apparatus for every test to avoid carry-over.",
+     "Controls for every test: a negative control of distilled water in place of the food, which shows the colour when the nutrient is absent; and a positive control of a known pure sample, such as starch solution, glucose solution, egg-white (albumen) solution or vegetable oil, which shows the colour when the nutrient is present. Results for the foods are judged against these.",
+     "Example food samples: potato, bread, rice or flour (starch); glucose, honey, grapes, fruit juice and milk (reducing sugar); egg white, milk, meat or cheese (protein); butter, vegetable oil, nuts, crisps and cheese (lipid); and table sugar, which gives a negative Benedict's result.",
+     "Equipment: test tubes and rack, test-tube holder, droppers, graduated pipettes or syringes, spotting tile, mortar and pestle or knife and chopping board, beaker of distilled water, filter funnel and filter paper, hot water bath (a beaker of near-boiling water from a kettle, or an electric water bath) with thermometer, brown paper, labels, safety glasses and gloves.",
+     "Reagents: iodine solution (iodine dissolved in potassium iodide), Benedict's solution, biuret reagent (or sodium hydroxide solution and dilute copper sulfate solution) and Sudan III stain.",
+     "Preparing the samples, step 1: crush or grind a solid food with a little distilled water using a mortar and pestle.",
+     "Preparing the samples, step 2: add more water, stir, and filter or let the solid settle, then use the liquid food solution for the tests.",
+     "Preparing the samples, step 3: test liquid foods such as milk and juice directly, or dilute them. Step 4: label each tube with the food and the test."
+    ]
+   },
+   {
+    "h": "Test for starch: iodine",
+    "points": [
+     "Method, step 1: place a few drops of food solution, or a small piece of solid food, on a white spotting tile, or place 2 cm³ of food solution in a test tube.",
+     "Step 2: add a few drops of iodine solution. Step 3: observe the colour at once. No heating is needed.",
+     "Step 4: repeat with water as the negative control and starch solution as the positive control.",
+     "Result: iodine solution is yellow-brown (orange-brown) at the start. It turns blue-black if starch is present and stays yellow-brown if starch is absent."
+    ]
+   },
+   {
+    "h": "Test for reducing sugar: Benedict's",
+    "points": [
+     "A reducing sugar is one that can reduce (give electrons to) the blue copper(II) ions in Benedict's solution. Glucose, fructose, galactose, maltose and lactose are reducing sugars; sucrose is not (sugar structures are in “Structures of biomolecules”).",
+     "Method, step 1: place 2 cm³ of food solution in a test tube. Step 2: add an equal volume, 2 cm³, of Benedict's solution and mix; the mixture is blue.",
+     "Step 3: place the tube in a hot water bath (near boiling, at least about 80 °C) for about 5 minutes. Never heat the tube directly in a Bunsen flame.",
+     "Step 4: observe the colour. Step 5: run water as the negative control and glucose solution as the positive control, in the same water bath at the same time.",
+     "Result: if a reducing sugar is present, the blue solution turns green, then yellow, then orange, and finally a brick-red precipitate forms. It stays blue if no reducing sugar is present.",
+     "The reducing sugar reduces blue copper(II) ions to copper(I) oxide, the brick-red precipitate. The colour reached gives a rough idea of how much sugar is present: green for a little, brick red for a lot. This is the basis of “Investigation: reducing sugars, quantitatively”.",
+     "Fehling's test is an alternative: equal volumes of Fehling's solutions A and B are mixed with the sample and heated in a water bath. A blue mixture turns to a brick-red precipitate if a reducing sugar is present.",
+     "Extension: sucrose stays blue. To show it is made of reducing sugars, boil a sucrose solution with a few drops of dilute hydrochloric acid to hydrolyse it to glucose and fructose. Neutralise with sodium hydrogencarbonate until fizzing stops, then do the Benedict's test: it now turns brick red."
+    ]
+   },
+   {
+    "h": "Test for protein: biuret",
+    "points": [
+     "Method, step 1: place 2 cm³ of food solution in a test tube. Step 2: add 2 cm³ of sodium hydroxide solution and mix (or add biuret reagent, which already contains it).",
+     "Step 3: add a few drops of dilute copper sulfate solution, one drop at a time, shaking gently. Step 4: leave for a few minutes and observe. No heating is needed.",
+     "Step 5: run water as the negative control and egg-white solution as the positive control.",
+     "Result: the blue colour turns purple (violet or lilac) if protein is present, and stays blue if protein is absent. The copper ions react with the peptide bonds in the protein, so the test detects peptide bonds, not single amino acids."
+    ]
+   },
+   {
+    "h": "Tests for lipid: grease-spot and Sudan III",
+    "points": [
+     "Grease-spot (brown paper) test, method: rub a small amount of food on a piece of brown paper, or place a drop of liquid food on it. Place a drop of water on another part of the paper as a control.",
+     "Leave the paper to dry, or warm it gently away from flames, then hold it up to the light.",
+     "Grease-spot result: a translucent, greasy spot that does not disappear when the paper dries shows that lipid is present. The water spot also looks translucent at first but disappears as it dries, which is why the paper must dry before the result is judged.",
+     "Sudan III test, method: place 2 cm³ of food solution, or a little crushed food in 2 cm³ of water, in a test tube. Add a few drops of Sudan III, a red dye that dissolves in lipid but not in water.",
+     "Shake gently and leave to stand for a minute. Run water as the negative control and vegetable oil in water as the positive control.",
+     "Sudan III result: if lipid is present, a red-stained oily layer forms on top of the water, because lipid is less dense than water and does not mix with it. With no lipid, the dye spreads through the water or settles as red specks, with no red oily layer."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Wear safety glasses throughout. Sodium hydroxide (biuret test) is corrosive and especially harmful to the eyes. Benedict's and copper sulfate solutions are harmful if swallowed or splashed. Wash any splash off the skin with plenty of water.",
+     "Heat Benedict's tests only in a water bath, never directly over a flame, because the liquid can boil suddenly and spurt out of the tube. Use a test-tube holder, point the tube away from people, and take care with near-boiling water.",
+     "Sudan III stain is usually dissolved in ethanol, an alcohol that is highly flammable, so keep it away from flames. Do not warm brown paper near a flame.",
+     "Iodine solution stains skin and clothes; wear gloves if possible.",
+     "Never taste or eat food in the laboratory. Be aware of food allergies (e.g. to nuts) among the class. Clean up spills and wash hands after the practical."
+    ]
+   },
+   {
+    "h": "Recording results and conclusion",
+    "points": [
+     "Record primary data in a results table: one row per food and one column per test, recording the colour observed and whether the nutrient is present or absent (or + or −). Include the control rows.",
+     "Expected results: potato shows starch; glucose, honey and grapes show reducing sugar; table sugar is Benedict's negative, as sucrose is non-reducing; egg white shows protein; vegetable oil and butter show lipid; milk shows reducing sugar, protein and lipid; distilled water is negative for all tests.",
+     "Conclusion: state which nutrients each food contains, supported by the results compared with the controls, and say whether this supports the hypothesis. The tests show presence only, not the amount."
+    ]
+   },
+   {
+    "h": "Sources of error and limitations",
+    "points": [
+     "Colour judgements are subjective. Compare each tube with the controls against a white background, and have two people check the result.",
+     "Coloured foods, such as dark fruit juice, can mask a colour change. Dilute or filter them, or use a control of the food without the reagent.",
+     "Contamination: reusing a dropper or test tube can carry a nutrient from one sample to another, giving a false positive.",
+     "A very small amount of nutrient may not give a visible change, which is a false negative. Some nutrients are inside cells, so the food must be well crushed.",
+     "Benedict's detects reducing sugars only, so a food rich in sucrose can give a negative result even though it contains sugar.",
+     "Repeat each test, e.g. three times, to check that the results are repeatable.",
+     "Diagram: a test tube of food solution with Benedict's solution standing in a beaker of hot water, with a thermometer, labelled."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) Starch is tested with iodine solution; a positive result turns it from yellow-brown to blue-black. (ii) Protein is tested with biuret reagent, or sodium hydroxide solution followed by dilute copper sulfate solution; a positive result turns the blue colour to purple (violet).",
+    "prompt": "Name the reagent used to test for (i) starch and (ii) protein, and state the colour that shows a positive result for each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Crush a solid food with a little distilled water in a mortar and pestle, add more water, and filter to obtain a clear food solution. Place 2 cm³ of the food solution in a test tube and add an equal volume, 2 cm³, of Benedict's solution; the mixture is blue. Place the tube in a hot water bath, near boiling and at least about 80 °C, for about 5 minutes. The control is a tube of distilled water, with Benedict's solution, heated in the same water bath at the same time, which should stay blue. Safety: wear safety glasses, and do not heat the tube directly in a flame, because the liquid can boil suddenly and spurt out. If reducing sugar is present, the blue solution turns green, then yellow, then orange, and finally forms a brick-red precipitate.",
+    "prompt": "Describe how you would test a food sample for the presence of reducing sugar. Include a control and a safety precaution, and state the result you would expect if reducing sugar were present.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Milk contains lactose, which is a reducing sugar made of glucose and galactose, so it turned brick red. Starch is a polysaccharide, not a reducing sugar, so the starch solution stayed blue. Table sugar is sucrose, which is non-reducing, so it also stayed blue. To show that table sugar is made of reducing sugars, the student could boil a sucrose solution with a few drops of dilute hydrochloric acid to hydrolyse it to glucose and fructose, then neutralise the acid with sodium hydrogencarbonate until fizzing stops. Doing the Benedict's test on this solution gives a brick-red precipitate.",
+    "prompt": "A student tested milk, starch solution and table sugar with Benedict's solution. Only milk turned brick red. Explain these results and suggest how the student could show that table sugar is made of reducing sugars.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio8-s8": {
+  "keyTerms": [
+   {
+    "definition": "An instrument that measures how much light of a chosen colour passes through or is absorbed by a solution, giving a number instead of a judgement by eye.",
+    "term": "Colorimeter"
+   },
+   {
+    "definition": "The amount of light of a chosen colour that a solution absorbs; for Benedict's it falls as reducing sugar concentration rises.",
+    "term": "Absorbance"
+   },
+   {
+    "definition": "A graph of absorbance against known concentration for standard solutions, used to read the concentration of an unknown.",
+    "term": "Calibration curve"
+   },
+   {
+    "definition": "A strip with glucose oxidase and peroxidase in a dye pad that changes colour with glucose concentration; it detects glucose only.",
+    "term": "Glucose test strip"
+   },
+   {
+    "definition": "Estimating a range of values, rather than an exact value, from a judgement such as matching a colour to a scale.",
+    "term": "Semi-quantitative"
+   },
+   {
+    "definition": "The number by which a sample was diluted, used to work out the original concentration.",
+    "term": "Dilution factor"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Planning the quantitative investigation",
+    "points": [
+     "Aim: to compare the concentration of reducing sugar in a range of food samples, by comparing their Benedict's results with those of glucose solutions of known concentration.",
+     "Hypothesis, e.g.: “Grape juice contains a higher concentration of reducing sugar than milk.” A prediction that ranks the foods is also acceptable.",
+     "Principle: the more reducing sugar in a sample, the more blue copper(II) ions are reduced to brick-red copper(I) oxide. The colour therefore moves further along the scale described in “Investigation: food tests”, and more precipitate forms. This works only if Benedict's is in excess, so the colour keeps changing with sugar concentration across the range tested.",
+     "Independent variable: the food sample, and for the standards the known glucose concentration. Dependent variable: the concentration of reducing sugar, judged from the colour, or measured as absorbance with a colorimeter.",
+     "Controlled variables: the mass of food and the volume of water used to make each extract; the volume of sample and of Benedict's solution; the concentration of Benedict's; the water-bath temperature; the heating time; and the time before the colours are compared.",
+     "Controls: a tube of distilled water with Benedict's solution (0%, no reducing sugar) is the negative control and stays blue. The standard glucose solutions act as positive controls and as the reference scale.",
+     "Equipment and materials: glucose powder, electronic balance, volumetric flask or graduated cylinder, beakers, distilled water, graduated pipettes or syringes, test tubes and rack, labels, mortar and pestle, filter funnel and paper, hot water bath with thermometer, test-tube holder, timer, Benedict's solution, white tile or card and safety glasses. Optionally a colorimeter with cuvettes and glucose test strips.",
+     "Example food samples: grape juice, apple juice, orange juice, honey, milk, onion, a sports drink, and a table-sugar solution, which is expected to stay blue because sucrose is non-reducing."
+    ]
+   },
+   {
+    "h": "Method: making the standard glucose solutions",
+    "points": [
+     "Step 1: make a stock solution of 1% glucose by dissolving 1 g of glucose in distilled water and making it up to 100 cm³.",
+     "Step 2: dilute the stock with distilled water to make a range of known concentrations, e.g. 1%, 0.5%, 0.25%, 0.1% and 0% (distilled water only).",
+     "Worked dilutions: 5 cm³ of 1% stock plus 5 cm³ of water gives 0.5%; 2.5 cm³ of stock plus 7.5 cm³ of water gives 0.25%; 1 cm³ of stock plus 9 cm³ of water gives 0.1%.",
+     "Step 3: label each tube with its concentration. Any evenly spread range is acceptable; a serial dilution, halving the concentration each time, also works."
+    ]
+   },
+   {
+    "h": "Method: preparing the food samples",
+    "points": [
+     "Step 1: weigh the same mass of each solid food, e.g. 5 g, on an electronic balance.",
+     "Step 2: crush it with a mortar and pestle in the same volume of distilled water, e.g. 50 cm³.",
+     "Step 3: filter to give a clear extract.",
+     "Step 4: dilute liquid foods by the same factor, e.g. 1 cm³ of juice plus 9 cm³ of water, so that very sweet samples fall within the range of the standards. Record the dilution so the original concentration can be worked out."
+    ]
+   },
+   {
+    "h": "Method: the Benedict's test against a colour scale",
+    "points": [
+     "Step 1: place 2 cm³ of each standard and 2 cm³ of each food extract in separate labelled test tubes.",
+     "Step 2: add 2 cm³ of Benedict's solution to every tube and mix.",
+     "Step 3: place all the tubes in the same hot water bath (near boiling, at least about 80 °C) at the same time, and heat them for exactly the same time, e.g. 5 minutes.",
+     "Step 4: remove all the tubes at the same time and place them in a rack in front of a white background.",
+     "Step 5: arrange the standards in order to form a colour scale.",
+     "Step 6: compare each food tube with the scale and record the standard it matches most closely, or the two it lies between.",
+     "Step 7: repeat the whole test three times for each food and use the most common or average result.",
+     "Diagram: a row of test tubes of the standards after heating, labelled 0%, 0.1%, 0.25%, 0.5% and 1%, with colours running from blue at 0% through green, yellow and orange to brick red at the highest concentration, and a food tube being matched against them. Do not tie an exact colour to each concentration, as it depends on the Benedict's volume and heating time."
+    ]
+   },
+   {
+    "h": "More quantitative method 1: colorimeter",
+    "points": [
+     "A colorimeter measures how much light of a chosen colour passes through a solution (transmission) or is absorbed by it (absorbance). It gives a number instead of a judgement by eye.",
+     "Method: after heating, let the precipitate settle, or filter or centrifuge each tube, to leave the remaining blue solution. Zero the colorimeter with a cuvette of distilled water.",
+     "Measure the absorbance of each standard's solution using a red filter, because blue solutions absorb red light.",
+     "The more reducing sugar that was present, the more copper(II) ions were used up. The remaining solution is paler blue, so its absorbance is lower and its transmission higher.",
+     "Plot a calibration curve: absorbance on the y-axis against known glucose concentration on the x-axis for the standards, with a line or smooth curve of best fit. Measure the absorbance of each food extract and read its concentration from the curve, then multiply by any dilution factor."
+    ]
+   },
+   {
+    "h": "More quantitative method 2: glucose test strips",
+    "points": [
+     "A glucose test strip has a pad containing the enzymes glucose oxidase and peroxidase and a dye. When dipped in a solution, the pad changes colour according to the glucose concentration, and the colour is matched to a chart on the container that gives the concentration. Test the standards first to check the strips.",
+     "Limitation: the enzyme is specific to glucose, so strips detect glucose only, not other reducing sugars such as fructose, lactose or maltose. Milk, for example, gives a negative or low strip result but a positive Benedict's result.",
+     "Strips have a limited range, so samples may need diluting.",
+     "Technology and health link: similar strips and electronic glucose meters are used by people with diabetes to monitor their glucose (see “The Endocrine System”)."
+    ]
+   },
+   {
+    "h": "Safety",
+    "points": [
+     "Wear safety glasses. Benedict's solution is harmful if swallowed or splashed in the eyes; wash splashes off with water.",
+     "Heat only in a water bath, never directly in a flame, because the mixture can boil suddenly and spurt. Use a test-tube holder, and take care with near-boiling water and hot tubes.",
+     "Do not eat or taste any food in the lab. Note allergies, and clean up spills: sugar solutions make benches sticky and floors slippery."
+    ]
+   },
+   {
+    "h": "Results and conclusion",
+    "points": [
+     "Record primary data in a table: food sample; colour after heating; matching standard, as an estimated percentage of reducing sugar; repeats; and, with a colorimeter, absorbance and the concentration read from the curve.",
+     "Expected pattern: honey and grape juice give orange to brick red, showing high reducing sugar, mostly glucose and fructose. Other fruit juices and sports drinks give yellow to orange. Milk gives green to yellow, because of its lactose. The table-sugar solution and water stay blue. Actual results depend on the products used, so exact percentages are not given here.",
+     "Conclusion: rank the foods by reducing-sugar concentration, give each an estimated range, e.g. “between 0.25% and 0.5%”, state whether the results support the hypothesis, and refer to the primary data.",
+     "This method is semi-quantitative: it estimates a range rather than an exact value, because matching colours by eye is a judgement. The colorimeter gives a more precise and objective value."
+    ]
+   },
+   {
+    "h": "Sources of error and improvements",
+    "points": [
+     "Judging colour by eye is subjective. Improve it with a colorimeter, or by having several people judge independently.",
+     "Unequal heating, such as tubes put in or taken out at different times, or a water bath that cools, changes the colour. Heat all tubes together for the same time, and check the bath temperature with a thermometer.",
+     "If Benedict's is not in excess, all the copper(II) ions are used up and every concentrated sample looks brick red. Dilute the samples or use more Benedict's.",
+     "Coloured or cloudy food extracts affect the colour. Filter them and dilute coloured juices.",
+     "The precipitate settles over time, changing the appearance. Compare all the tubes at the same time after heating.",
+     "Inaccurate measuring of volumes and masses. Use graduated pipettes or syringes and an electronic balance.",
+     "Too few standards give a coarse scale. Use more standards spread over the range, and repeat each test at least three times to check repeatability."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 12,
+    "model": "Make a stock 1% glucose solution and dilute it to make standards of 1%, 0.5%, 0.25%, 0.1% and 0%. Prepare each juice in the same way, diluting by the same factor if needed, and record the dilution. Put 2 cm³ of each standard and of each juice extract in labelled tubes, add 2 cm³ of Benedict's solution to each, and heat all the tubes together in the same hot water bath, near boiling, for the same time, for example 5 minutes. Compare the colours against the standards in front of a white background, and record the standard each juice matches. To make the comparison quantitative, measure the absorbance of each tube with a colorimeter using a red filter, plot a calibration curve of absorbance against glucose concentration, and read each juice's concentration from it, then multiply by the dilution factor. Two variables to control are the volume of sample and Benedict's solution, and the heating time and water-bath temperature.",
+    "prompt": "Describe how you would compare the concentration of reducing sugar in three fruit juices. Include how you would make the comparison quantitative and two variables you would control.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The 1% solution is the stock solution itself, so 10 cm³ of the stock is used. For 0.5%, mix 5 cm³ of the 1% stock with 5 cm³ of distilled water. For 0.1%, mix 1 cm³ of the 1% stock with 9 cm³ of distilled water. Each mixture is 10 cm³ and is labelled with its concentration.",
+    "prompt": "Explain how you would make 10 cm³ each of 1%, 0.5% and 0.1% glucose solutions from a 1% stock solution.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The food probably contains a reducing sugar other than glucose, such as lactose or fructose, which reduces Benedict's solution but is not detected by a glucose test strip, because the strip's enzyme is specific to glucose. One advantage of a colorimeter is that it gives an objective numerical value of absorbance, rather than a judgement by eye, so the result is more precise and can be read from a calibration curve.",
+    "prompt": "A food gave a brick-red Benedict's result but a negative result with a glucose test strip. Suggest an explanation, and give one advantage of using a colorimeter over judging colour by eye.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio9-s1": {
+  "keyTerms": [
+   {
+    "definition": "Adenosine triphosphate: the main energy-transfer molecule in cells, made of adenine, ribose and three phosphate groups.",
+    "term": "ATP"
+   },
+   {
+    "definition": "Adenosine diphosphate: the molecule left when ATP loses its end phosphate, with two phosphate groups.",
+    "term": "ADP"
+   },
+   {
+    "definition": "Inorganic phosphate: a single free phosphate group released in ATP hydrolysis and added back in phosphorylation.",
+    "term": "Pi"
+   },
+   {
+    "definition": "A reaction in which a molecule is split by adding water, such as ATP + H₂O → ADP + Pi + energy.",
+    "term": "Hydrolysis"
+   },
+   {
+    "definition": "Adding a phosphate group to a molecule, such as ADP becoming ATP.",
+    "term": "Phosphorylation"
+   },
+   {
+    "definition": "The continuous breakdown of ATP to release energy and rebuilding of ATP from ADP and Pi.",
+    "term": "ATP/ADP cycle"
+   },
+   {
+    "definition": "A molecule that carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them.",
+    "term": "Transfer molecule"
+   },
+   {
+    "definition": "A reaction that breaks large molecules into smaller ones and releases energy, such as respiration.",
+    "term": "Catabolic reaction"
+   },
+   {
+    "definition": "A reaction that builds large molecules from smaller ones and needs energy, such as protein synthesis.",
+    "term": "Anabolic reaction"
+   },
+   {
+    "definition": "The enzyme that makes most of the ATP in a cell by adding phosphate to ADP.",
+    "term": "ATP synthase"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A transfer molecule carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them.",
+    "h": "Transfer molecules and metabolism",
+    "points": [
+     "A transfer molecule is not used up: after handing on its load it returns to be recharged, so a cell needs only a small amount of each one, recycled continuously.",
+     "ATP is the main energy-transfer molecule in all living cells, from bacteria to humans, which is why it is called the energy currency of the cell.",
+     "Metabolism is all the chemical reactions in a cell.",
+     "Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration.",
+     "Anabolic reactions build large molecules from smaller ones and need energy, e.g. protein synthesis and photosynthesis.",
+     "ATP links the two: catabolic reactions make ATP, and anabolic reactions and other cell work use it. The reactions themselves are covered in Biomolecules and metabolism."
+    ]
+   },
+   {
+    "h": "Structure of ATP",
+    "points": [
+     "ATP stands for adenosine triphosphate. It is made of three parts: the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose.",
+     "Adenine joined to ribose is called adenosine; tri means three phosphates.",
+     "ATP is a modified nucleotide, built to the same plan of base, sugar and phosphate as an RNA nucleotide (see Nucleotides, DNA and RNA).",
+     "ADP (adenosine diphosphate) has only two phosphate groups.",
+     "Pi (inorganic phosphate) is a single free phosphate group.",
+     "Diagram: ATP drawn as a box labelled adenine, joined to a pentagon labelled ribose, joined to a chain of three circles labelled phosphate, with the bond to the third (end) phosphate marked as the one broken to release energy; a second sketch showing ADP + Pi."
+    ]
+   },
+   {
+    "h": "Releasing energy: hydrolysis of ATP",
+    "points": [
+     "Energy is released when the end phosphate is removed: ATP + H₂O → ADP + Pi + energy.",
+     "The reaction uses water, so it is a hydrolysis reaction. It is catalysed by an enzyme called ATPase.",
+     "The bond to the end phosphate is often called a high-energy bond: it is easily broken, and the reaction releases about 30 kJ per mole of ATP (30.5 kJ/mol) under standard conditions.",
+     "The energy is released in one quick step, in a small packet that suits a single reaction and is available right where the cell needs it.",
+     "Often the released phosphate is attached to another molecule, such as a carrier protein or a reactant, which makes it more reactive or changes its shape so that it can do work."
+    ]
+   },
+   {
+    "h": "Remaking ATP: phosphorylation",
+    "points": [
+     "ATP is remade by adding a phosphate group back on to ADP: ADP + Pi + energy → ATP + H₂O.",
+     "Adding phosphate is called phosphorylation. It is catalysed by enzymes, mainly ATP synthase, the enzyme that makes most of the cell's ATP.",
+     "In all living cells, the energy to make ATP comes from respiration, the breakdown of food such as glucose: some ATP is made in the cytoplasm and most in the mitochondria. The stages are covered in Respiration.",
+     "In plants and algae, ATP is also made in the light-dependent stage of photosynthesis in the chloroplasts, using light energy; this ATP is used inside the chloroplast to make glucose. The stages are covered in Photosynthesis."
+    ]
+   },
+   {
+    "h": "The ATP/ADP cycle",
+    "points": [
+     "ATP is continuously broken down to ADP + Pi to release energy for cell work, and ADP + Pi are continuously rebuilt into ATP using energy from respiration (or light). This loop is the ATP/ADP cycle.",
+     "Cells hold only a small store of ATP at any time. Each molecule is recycled many times, so ATP must be made constantly while a cell is alive.",
+     "When respiration stops, for example after a long time without oxygen or in the presence of a poison that blocks respiration, ATP runs out within minutes and cell processes fail.",
+     "Diagram: the ATP/ADP cycle as a circle, with ATP at the top and ADP + Pi at the bottom; one arrow down labelled energy released for cell work: muscle contraction, active transport, synthesis; one arrow up labelled energy in from respiration (and light in photosynthesis)."
+    ]
+   },
+   {
+    "h": "Roles of ATP in the cell",
+    "points": [
+     "Muscle contraction: ATP provides the energy for protein filaments in muscle fibres to slide past each other, shortening the muscle. Very active muscle cells therefore contain many mitochondria. Muscle structure is covered in The Musculoskeletal System.",
+     "Active transport: carrier proteins in the cell membrane use energy from ATP to pump substances against their concentration gradient, e.g. root hair cells taking in mineral ions from dilute soil water.",
+     "The sodium–potassium pump in nerve cells uses ATP to restore the ion balance after an impulse. Details are in Transport Across Membranes.",
+     "Synthesis (anabolic reactions): ATP is needed to join amino acids into proteins at ribosomes, to make DNA when it is copied before cell division, and to make glycogen and starch from glucose.",
+     "The light-independent stage of photosynthesis uses ATP to build glucose from carbon dioxide.",
+     "Other uses: cell division (moving chromosomes), movement of cilia and flagella, and the light produced by fireflies (bioluminescence), where the enzyme luciferase uses ATP."
+    ]
+   },
+   {
+    "h": "Why cells use ATP instead of glucose directly",
+    "points": [
+     "Breaking down one glucose molecule releases far more energy than any single reaction needs, and it does so over many steps.",
+     "ATP releases a small, manageable amount, matched to one reaction, in a single step, so less energy is wasted as heat.",
+     "ATP is available instantly where it is needed and is easily recycled. One type of molecule can supply energy to every kind of reaction in the cell.",
+     "ATP is a short-term energy carrier, not a store. Long-term energy is stored in starch (plants), glycogen (animals and fungi) and fats and oils, which respiration uses to make ATP when needed."
+    ]
+   },
+   {
+    "h": "ATP in hygiene testing",
+    "points": [
+     "Because every living cell contains ATP, hygiene tests in food factories and hospitals swab a surface and add luciferase.",
+     "Light given off shows that ATP is present, and therefore that living or recently living material, such as bacteria or food residue, is on the surface."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The three components are the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose. When ATP releases energy, its end phosphate is removed by hydrolysis: ATP + H₂O → ADP + Pi + energy. ATP becomes ADP and inorganic phosphate (Pi), and the energy released is used for cell work.",
+    "prompt": "Name the three components of an ATP molecule and state what happens to ATP when it releases energy.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "ATP is continuously broken down to ADP and Pi, releasing energy for cell work, and ADP and Pi are continuously rebuilt into ATP using energy from respiration (or light). One process that makes ATP is respiration, which takes place in the cytoplasm and mitochondria; the light-dependent stage of photosynthesis in the chloroplasts is another. Two cell activities that use ATP are muscle contraction, where ATP powers protein filaments sliding past each other, and active transport, where carrier proteins use ATP to pump substances against their concentration gradient.",
+    "prompt": "Describe the ATP/ADP cycle, naming one process that makes ATP and two cell activities that use it.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "First, ATP releases energy in small, manageable amounts matched to a single reaction, in one step, so less energy is wasted as heat; breaking down glucose releases far more energy than one reaction needs, over many steps. Second, ATP is available instantly where it is needed and is easily recycled, and one type of molecule can supply energy to every kind of reaction in the cell.",
+    "prompt": "Suggest two advantages to a cell of using ATP as an energy source rather than breaking down glucose every time energy is needed.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio9-s2": {
+  "keyTerms": [
+   {
+    "definition": "Nicotinamide adenine dinucleotide: the oxidised electron carrier that collects electrons and hydrogen in respiration, becoming NADH.",
+    "term": "NAD⁺"
+   },
+   {
+    "definition": "Nicotinamide adenine dinucleotide phosphate: the oxidised electron carrier that collects electrons and hydrogen in photosynthesis, becoming NADPH.",
+    "term": "NADP⁺"
+   },
+   {
+    "definition": "The reduced form of NAD⁺, loaded with two electrons and a proton, which carries electrons to the electron transport chain.",
+    "term": "NADH"
+   },
+   {
+    "definition": "The reduced form of NADP⁺, loaded with two electrons and a proton, which carries electrons to the light-independent stage.",
+    "term": "NADPH"
+   },
+   {
+    "definition": "A transfer molecule that picks up electrons and hydrogen in one reaction and hands them on to another reaction.",
+    "term": "Electron carrier"
+   },
+   {
+    "definition": "The gain of electrons by a substance, such as NAD⁺ becoming NADH.",
+    "term": "Reduction"
+   },
+   {
+    "definition": "The loss of electrons by a substance, such as NADH becoming NAD⁺.",
+    "term": "Oxidation"
+   },
+   {
+    "definition": "The molecule that receives electrons at the end of an electron transport chain: oxygen in respiration, carbon dioxide in photosynthesis.",
+    "term": "Final electron acceptor"
+   }
+  ],
+  "notes": [
+   {
+    "b": "NAD⁺ and NADP⁺ are electron carriers: transfer molecules that carry electrons and hydrogen between reactions.",
+    "h": "Electron carriers and what they do (Higher Level only)",
+    "points": [
+     "NAD⁺ is nicotinamide adenine dinucleotide; NADP⁺ is nicotinamide adenine dinucleotide phosphate, the same molecule with one extra phosphate group.",
+     "Both are made in the body from niacin (vitamin B3). The vitamins are covered in Vitamins.",
+     "Both pick up high-energy electrons, together with hydrogen, in one reaction and hand them on to another reaction, then return to pick up more.",
+     "Gaining electrons is reduction and losing electrons is oxidation (OIL RIG: oxidation is loss, reduction is gain).",
+     "NAD⁺ and NADP⁺ are the oxidised forms, the empty carriers; NADH and NADPH are the reduced forms, the loaded carriers.",
+     "Loading: each carrier accepts two electrons and a proton (H⁺): NAD⁺ + 2e⁻ + H⁺ → NADH, and NADP⁺ + 2e⁻ + H⁺ → NADPH.",
+     "In respiration, enzymes called dehydrogenases remove electrons and hydrogen from food molecules and pass them to NAD⁺.",
+     "Unloading: NADH and NADPH give up their electrons and hydrogen to the next reaction and become NAD⁺ and NADP⁺ again, so the same small supply is reused over and over, like ATP.",
+     "The electrons carry energy. When NADH's electrons pass along an electron transport chain, the energy released is used to make ATP; when NADPH's electrons are added to carbon dioxide, they help build glucose. This reducing power is what makes the carriers useful."
+    ]
+   },
+   {
+    "b": "Respiration is a catabolic pathway that breaks glucose down to release energy. The detail is covered in Respiration.",
+    "h": "NAD⁺ in respiration (Higher Level only)",
+    "points": [
+     "NAD⁺ collects electrons and hydrogen released as glucose is broken down, first in glycolysis in the cytoplasm and then in the Krebs (citric acid) cycle in the mitochondrial matrix. It becomes NADH.",
+     "NADH carries the electrons to the electron transport chain on the inner membrane of the mitochondrion. The energy released as the electrons pass along the chain is used to make most of the cell's ATP.",
+     "At the end of the chain, the electrons, with hydrogen ions, are passed to oxygen, the final electron acceptor, which forms water. NAD⁺ is released to collect more electrons.",
+     "Without oxygen, the chain stops and NADH cannot unload there. In fermentation, NADH passes its hydrogen to pyruvate, forming lactic acid in animals and some bacteria, or ethanol and carbon dioxide in yeast and plants. This regenerates NAD⁺ so that glycolysis can continue making a little ATP."
+    ]
+   },
+   {
+    "b": "Photosynthesis is an anabolic pathway that builds glucose from carbon dioxide and water. The stages are covered in Photosynthesis.",
+    "h": "NADP⁺ in photosynthesis (Higher Level only)",
+    "points": [
+     "In the light-dependent stage, on the thylakoid membranes of the chloroplast, light energises electrons in chlorophyll. These high-energy electrons pass along an electron transport chain to NADP⁺.",
+     "NADP⁺ also takes up protons (H⁺) from the photolysis of water, which releases oxygen. It becomes NADPH.",
+     "NADPH carries the electrons and hydrogen to the light-independent stage in the stroma of the chloroplast, where they are added to carbon dioxide to make glucose, using energy from ATP.",
+     "NADP⁺ and ADP + Pi then return to the light-dependent stage to be loaded again."
+    ]
+   },
+   {
+    "h": "Comparing the carriers (Higher Level only)",
+    "points": [
+     "Process: NAD⁺ works in respiration; NADP⁺ works in photosynthesis.",
+     "Type of pathway: NAD⁺ in a catabolic (breaking-down) pathway; NADP⁺ in an anabolic (building-up) pathway.",
+     "Where loaded: NAD⁺ in the cytoplasm and mitochondrial matrix, with electrons from glucose; NADP⁺ on the thylakoid membranes, with electrons from chlorophyll, replaced by electrons from water.",
+     "Where unloaded and final electron acceptor: NADH at the electron transport chain on the inner mitochondrial membrane, with oxygen as the final acceptor, forming water; NADPH in the stroma, with carbon dioxide as the final acceptor, forming glucose.",
+     "Use of the electrons' energy: NADH's energy is used to make ATP; NADPH's energy is used to build glucose.",
+     "Structure: NADP⁺ has one extra phosphate group, which lets enzymes tell the two apart, so the carriers for breaking down and for building up are kept separate.",
+     "ATP compared with both: ATP transfers energy, carried as a phosphate group, while NAD⁺ and NADP⁺ transfer electrons and hydrogen. All three are reused, not used up.",
+     "Diagram: two loops side by side. Respiration loop: NAD⁺ → (electrons and hydrogen from glucose, in glycolysis and the Krebs cycle) → NADH → (electron transport chain, ATP made, electrons passed to oxygen) → NAD⁺. Photosynthesis loop: NADP⁺ → (electrons from chlorophyll and hydrogen ions from water, light-dependent stage) → NADPH → (light-independent stage, CO₂ made into glucose) → NADP⁺."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "NAD⁺ works in respiration, a catabolic pathway. It collects electrons and hydrogen released from glucose during glycolysis and the Krebs cycle, becoming NADH, which delivers them to the electron transport chain where oxygen is the final electron acceptor. NADP⁺ works in photosynthesis, an anabolic pathway. It collects electrons from chlorophyll in the light-dependent stage, becoming NADPH, which delivers them to the light-independent stage where carbon dioxide is the final acceptor and glucose is made.",
+    "prompt": "Distinguish between the roles of NAD⁺ and NADP⁺ in cells.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "In the light-dependent stage on the thylakoid membranes, light energises electrons in chlorophyll. These electrons pass along an electron transport chain to NADP⁺, which also takes up hydrogen ions from the photolysis of water, releasing oxygen, and becomes NADPH. NADPH carries the electrons and hydrogen to the light-independent stage in the stroma, where they are added to carbon dioxide to make glucose, using energy from ATP. The NADP⁺ and ADP + Pi produced then return to the light-dependent stage to be loaded again.",
+    "prompt": "Outline the role of NADP⁺ in photosynthesis, from the trapping of light to the production of glucose.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "An electron carrier is a transfer molecule that picks up electrons and hydrogen in one reaction and hands them on to another reaction, then returns to pick up more. In an aerobic cell, NADH, formed when NAD⁺ collects electrons and hydrogen from glucose breakdown, carries those electrons to the electron transport chain on the inner mitochondrial membrane. As the electrons pass along the chain, energy is released to make most of the cell's ATP. At the end of the chain the electrons and hydrogen ions are passed to oxygen, the final electron acceptor, forming water, and NAD⁺ is regenerated to collect more electrons.",
+    "prompt": "Explain what is meant by an electron carrier and describe what happens to NADH in an aerobic cell.",
     "type": "short"
    }
   ]

@@ -150,7 +150,7 @@ test("biology authored notes replace the old chapter notes but keep the chapter'
   assert.equal(review.notes.length, 0, "old notes are cleared");
   assert.equal(review.keyTerms.length, 0, "old flashcards are cleared");
   assert.ok(review.questions.length >= 3, "the chapter's test questions stay");
-  const untouched = chapters.find((chapter) => chapter.id === "bio5");
+  const untouched = chapters.find((chapter) => chapter.id === "bio13");
   assert.ok(untouched.learningOutcomes[0].notes.length > 0, "chapters without authored notes keep theirs");
 });
 
