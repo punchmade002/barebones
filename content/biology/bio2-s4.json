@@ -1,0 +1,145 @@
+{
+  "loId": "bio2-s4",
+  "chapterId": "bio2",
+  "subsection": "4. Producing and analysing data",
+  "syllabusRef": "U2.4",
+  "notes": [
+    {
+      "h": "Types of data",
+      "points": [
+        "Qualitative data are descriptions or categories that are not numerical, e.g. a positive Benedict’s test for a reducing sugar, which turns from blue to brick-red through green, yellow and orange; the presence or absence of a species; or “cloudy” or “clear”.",
+        "Quantitative data are numerical measurements or counts with units, e.g. volume of oxygen in cm³, mass in g, or number of daisies per quadrat.",
+        "Quantitative data are more objective and can be analysed mathematically, so they are preferred where possible. A qualitative result can often be made quantitative, e.g. a colorimeter reading instead of a colour.",
+        "Continuous data can take any value in a range, e.g. mass, temperature or time.",
+        "Discrete data are whole-number counts, e.g. number of seeds or number of stomata.",
+        "Categoric data are named groups, e.g. eye colour or type of habitat.",
+        "Primary data are collected by the investigator. Secondary data are collected by somebody else, e.g. published results, databases or other groups’ results.",
+        "Selecting data means choosing the data that are relevant to the question and of good enough quality. Secondary data can extend or check primary data; how to evaluate a secondary source is in Recognising bias and evaluating sources."
+      ]
+    },
+    {
+      "h": "Recording results in a table",
+      "points": [
+        "The independent variable goes in the first column. The dependent variable goes in the following columns, with a column for each repeat and a column for the mean.",
+        "Each column heading gives the quantity and its unit, e.g. “Temperature (°C)” or “Volume of oxygen (cm³)”. Units go in the heading, not after every number.",
+        "Record every reading to the same number of decimal places, matching the resolution of the instrument. A balance reading to 0.01 g gives 2.45 g, not 2.4 g or 2.453 g.",
+        "List the values of the independent variable in order.",
+        "Record raw results straight into the table during the investigation, including any that look wrong."
+      ]
+    },
+    {
+      "h": "Processing data",
+      "b": "These calculations use the worked numbers below, which are checked and illustrative.",
+      "points": [
+        "Mean: add the values and divide by the number of values. Anomalous values are left out of the mean, and the fact is stated.",
+        "Worked example for the mean: the final masses of four replicate potato cylinders are 2.45 g, 2.44 g, 2.46 g and 2.10 g. The value 2.10 g is anomalous, so the mean of the other three is (2.45 + 2.44 + 2.46) ÷ 3 = 7.35 ÷ 3 = 2.45 g.",
+        "Range: the largest value minus the smallest. It shows the spread of repeat readings, and a small range means the readings are precise.",
+        "Worked example for the range: 2.46 − 2.44 = 0.02 g, a small spread, so the readings are precise.",
+        "The range of the independent variable is the lowest to highest value tested, e.g. 0 °C to 60 °C.",
+        "Percentage change = (final value − initial value) ÷ initial value × 100. It allows samples that started with different masses to be compared.",
+        "Worked example for percentage change: a cylinder with an initial mass of 2.50 g and a final mass of 2.45 g has a percentage change of (2.45 − 2.50) ÷ 2.50 × 100 = −2.0%.",
+        "A negative percentage change is a loss, and a positive value is a gain.",
+        "Rate = amount of change ÷ time. For example, 24 cm³ of oxygen in 4 minutes is a rate of 6 cm³ per minute.",
+        "When the time taken for something to happen is measured, e.g. the time for starch to disappear, the rate can be calculated as 1 ÷ time. A time of 50 s gives 1 ÷ 50 = 0.02 s⁻¹.",
+        "A shorter time means a faster rate."
+      ]
+    },
+    {
+      "h": "Choosing and drawing graphs",
+      "points": [
+        "Line graph: used when both variables are continuous, e.g. rate of enzyme activity against temperature.",
+        "Bar chart: used when the independent variable is categoric or discrete, e.g. the number of a species in three habitats. Bars are separate and of equal width.",
+        "Histogram: shows the frequency of a continuous variable divided into classes, e.g. the number of students in each height range. Bars touch.",
+        "Scatter graph: used to look for a correlation between two measured variables, e.g. light intensity and the number of a plant species in quadrats.",
+        "Pie chart: shows proportions of a whole, e.g. the percentage of each blood group in a class.",
+        "The independent variable goes on the horizontal (x) axis and the dependent variable on the vertical (y) axis. Label both with the quantity and unit.",
+        "Use even, linear scales that use more than half of the grid in each direction. The scale need not start at zero if the data do not come near zero, but this must be shown clearly.",
+        "Plot points accurately as small crosses or circled dots, and plot the means.",
+        "Draw a line or smooth curve of best fit that shows the trend, with points balanced on either side. Where no trend line can be assumed, join the points with straight ruled lines.",
+        "Do not force the line through an anomalous point.",
+        "Give the graph a title in the form “the effect of [independent variable] on [dependent variable]”.",
+        "Diagram: a line graph of rate of enzyme activity against temperature, with labelled axes and units, plotted points, a smooth curve rising to a peak (optimum) and falling, and one circled anomalous point off the curve."
+      ]
+    },
+    {
+      "h": "Identifying patterns and relationships",
+      "points": [
+        "Describe the trend in words and quote data, e.g. “the rate increased from 2 to 8 cm³ per minute as temperature rose from 10 °C to 40 °C, then fell to zero by 60 °C”.",
+        "Name key features of a graph: a peak or optimum, a plateau (levelling off), and the point where a line crosses zero.",
+        "A positive correlation means that as one variable increases, the other increases. A negative correlation means that as one increases, the other decreases. No correlation means there is no pattern.",
+        "A straight line through the origin shows that the variables are directly proportional.",
+        "Diagram: three small scatter graphs showing positive, negative and no correlation.",
+        "Interpolation is reading a value from the graph between plotted points.",
+        "Extrapolation is extending the line beyond the data range to predict a value. It is less reliable, because the pattern may not continue, e.g. an enzyme’s rate does not keep rising with temperature.",
+        "The gradient of a line graph of amount against time is the rate. A steeper line means a faster rate, and a line levelling off means the reaction is slowing, e.g. as substrate is used up."
+      ]
+    },
+    {
+      "h": "Correlation and causation",
+      "points": [
+        "A correlation shows that two variables change together. It does not show that one causes the other.",
+        "Other explanations of a correlation are chance, especially with a small sample; a third variable (a confounding variable) that affects both; or a cause that runs the other way.",
+        "Illustrative example: people who carry cigarette lighters are more likely to develop lung cancer, but the lighter does not cause cancer. Smoking, the third variable, causes both.",
+        "Evidence that one variable causes a change in another comes from a controlled experiment (a fair test with a control), together with a biological mechanism that explains it.",
+        "Surveys and secondary data alone usually show correlation (the strategies are compared in Questioning and predicting)."
+      ]
+    },
+    {
+      "h": "Anomalous results",
+      "points": [
+        "An anomalous result (outlier) does not fit the pattern of the other results. It is far from the other repeats at the same value, or off the line of best fit on a graph.",
+        "Possible causes are a mistake in measuring or recording, an uncontrolled variable, faulty equipment, or an unusual biological sample.",
+        "Check the reading and the calculation, and repeat that measurement if possible.",
+        "Leave the anomalous result out of the mean and the line of best fit, but keep it in the results table and report it with a possible reason (see Designing and conducting investigations on integrity).",
+        "A result is not anomalous just because it disagrees with the hypothesis. If repeats confirm it, it may show the hypothesis is wrong or reveal something new."
+      ]
+    },
+    {
+      "h": "Drawing and justifying conclusions",
+      "points": [
+        "A conclusion states the relationship found between the independent and dependent variables, e.g. “As sucrose concentration increased, the percentage change in mass of the potato cylinders decreased.”",
+        "A conclusion is justified with evidence: quote values or describe the trend in the graph, and say whether the data support or do not support the hypothesis. Never say that the data prove it.",
+        "A conclusion explains the result using biological knowledge, e.g. water left the cells by osmosis into the more concentrated solutions.",
+        "A conclusion is limited to what was tested: the range of the independent variable, the organism or tissue used, and the conditions. It does not claim more than the data show.",
+        "Confidence in a conclusion depends on whether the test was fair and valid, the sample size, the number of repeats, the spread of the data, the number of anomalies, and whether the results are repeatable and reproducible (see Objectivity and data quality).",
+        "A conclusion is valid when it is supported by valid, reliable data."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Qualitative data", "definition": "Descriptions or categories that are not numerical." },
+    { "term": "Quantitative data", "definition": "Numerical measurements or counts, with units." },
+    { "term": "Continuous data", "definition": "Data that can take any value within a range, such as mass, temperature or time." },
+    { "term": "Discrete data", "definition": "Data that are whole-number counts, such as the number of seeds." },
+    { "term": "Categoric data", "definition": "Data that are named groups, such as eye colour or habitat type." },
+    { "term": "Primary data", "definition": "Data collected by the investigator themselves." },
+    { "term": "Secondary data", "definition": "Data collected by somebody else, such as published results or databases." },
+    { "term": "Mean", "definition": "The sum of a set of values divided by the number of values, with anomalous values left out." },
+    { "term": "Range", "definition": "The largest value minus the smallest value in a set of data, showing its spread." },
+    { "term": "Percentage change", "definition": "The final value minus the initial value, divided by the initial value, multiplied by 100." },
+    { "term": "Rate", "definition": "The amount of change divided by the time taken." },
+    { "term": "Anomalous result", "definition": "A result that does not fit the pattern of the other results, such as a repeat far from the others at the same value." },
+    { "term": "Interpolation", "definition": "Reading a value from a graph between plotted points." },
+    { "term": "Extrapolation", "definition": "Extending a line beyond the data range to predict a value, which is less reliable." },
+    { "term": "Positive correlation", "definition": "A relationship in which one variable increases as the other increases." },
+    { "term": "Negative correlation", "definition": "A relationship in which one variable increases as the other decreases." },
+    { "term": "Confounding variable", "definition": "A third variable that affects both measured variables, so that they appear related when one does not cause the other." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Calculate the mean and the range of these four repeat readings: 2.45 g, 2.44 g, 2.46 g and 2.10 g, and explain how you treated any anomalous result.",
+      "model": "The value 2.10 g is anomalous, because it is far from the other three repeats at the same value. It is left out of the mean and the range, and this is stated, but it is kept in the results table and reported with a possible reason, such as a mistake in measuring or an unusual cylinder. The mean of the other three readings is (2.45 + 2.44 + 2.46) ÷ 3 = 7.35 ÷ 3 = 2.45 g. The range of these three readings is 2.46 − 2.44 = 0.02 g, a small spread, so the readings are precise."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why a line graph, not a bar chart, is used to show the effect of temperature on enzyme activity, and state three features of a well-drawn graph.",
+      "model": "A line graph is used because both variables are continuous: temperature can take any value in a range, and the rate of enzyme activity is a measured quantity that changes smoothly with it. A bar chart is used when the independent variable is categoric or discrete, with separate bars of equal width. Three features of a well-drawn graph are: the independent variable is on the horizontal (x) axis and the dependent variable on the vertical (y) axis, with both labelled with the quantity and unit; the scales are even and linear and use more than half of the grid in each direction; and the means are plotted accurately, with a smooth curve of best fit that shows the trend and does not pass through an anomalous point. The graph also needs a title in the form “the effect of [independent variable] on [dependent variable]”."
+    },
+    {
+      "marks": 12,
+      "prompt": "A survey finds that areas with more lichen species have lower levels of air pollution. (a) Describe the correlation. (b) Explain why this does not on its own show that pollution reduces lichen diversity. (c) Describe how a conclusion about cause could be justified.",
+      "model": "(a) This is a negative correlation: as the number of lichen species increases, the level of air pollution decreases. (b) A correlation shows that two variables change together, but not that one causes the other. The relationship could be due to chance, especially if the sample is small, or to a third variable that affects both lichen diversity and air pollution, such as humidity or tree type. Pollution might also not be the cause at all. (c) A conclusion about cause needs a controlled experiment, which is a fair test with a control, so that only the suspected cause is changed and the other variables are kept the same, together with a biological mechanism that explains how the pollutant would reduce lichen diversity. The conclusion must then be justified by quoting the data and limited to the range, organism and conditions tested, and the evidence is stronger when the results are repeatable and reproducible."
+    }
+  ]
+}

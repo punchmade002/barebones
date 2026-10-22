@@ -79,7 +79,7 @@ No other figures. Don't name any specific image library, website or textbook.
 - The specification requires secondary data from SEM imagery; don't replace it with TEM. TEM may be mentioned only in D3.
 - Don't claim onion cells show chloroplasts or that cheek cells show a cell wall or vacuole.
 - Don't say iodine stains the onion cells blue-black: that is the starch test (onion epidermis has little or no starch).
-- Mitochondria, ribosomes, nuclear pores, ER and Golgi apparatus are not visible at ×400 (R4). Don't name the ER or Golgi apparatus in this subsection (Higher Level material, covered in "Structures and organelles of animal and plant cells").
+- The detail of mitochondria, ribosomes and nuclear pores is not visible at ×400 (R4). Don't name the ER or Golgi apparatus in this subsection (Higher Level material, covered in "Structures and organelles of animal and plant cells").
 - The specification has no magnification or actual-size formula: T3 in "Microscopy" and D4 here are assumed knowledge. Keep D4 to the one formula and worked example.
 - Don't repeat microscope parts, focusing steps or the reasons for the coverslip angle; refer to "Microscopy".
 - Organelle functions in full belong to "Structures and organelles of animal and plant cells"; C3 relates only what this investigation shows.

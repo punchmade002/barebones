@@ -52,7 +52,7 @@ Electron microscopes (one block)
 Comparing light and electron microscopes (comparison block, paired points)
 - [ ] C1 Radiation: light vs electrons. Lenses: glass vs electromagnets.
 - [ ] C2 Maximum useful magnification: about ×1000–1500 for the light microscope vs hundreds of thousands of times or more for electron microscopes.
-- [ ] C3 Resolution: about 0.2 µm (200 nm) for the light microscope vs less than 1 nm for the TEM, roughly a thousand times better. So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts, but ribosomes, ER, Golgi, nuclear pores and viruses need an electron microscope.
+- [ ] C3 Resolution: about 0.2 µm (200 nm) for the light microscope vs less than 1 nm for the TEM, roughly a thousand times better. So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts, but ribosomes, nuclear pores, the inner structure of mitochondria and viruses need an electron microscope.
 - [ ] C4 Specimens: living or dead, and colour visible, with the light microscope vs dead only, in a vacuum, black and white, with the electron microscope.
 - [ ] C5 Preparation and cost: simple, quick, cheap and portable vs complex preparation (thin sectioning, metal coating) that can create artefacts (structures that aren't really in the living cell), very expensive, large, and needing trained operators.
 
@@ -83,6 +83,7 @@ No other dates, names or figures.
 
 - Don't confuse magnification with resolution; the light microscope's limit is resolution, not magnification.
 - Don't say the SEM shows organelles inside the cell; that is the TEM.
+- Don't name the endoplasmic reticulum or Golgi apparatus in this subsection; they are Higher Level material in "Structures and organelles of animal and plant cells".
 - Only the fine focus at high power; never say "use the coarse focus to focus at ×400".
 - The specification has no formula for actual size from an image; the size calculation with a scale bar is taught (as assumed) in "Investigation: plant and animal cells", not here.
 - The onion and cheek-cell methods belong to "Investigation: plant and animal cells"; P1–P6 give the general technique once, and that subsection refers back to it.
