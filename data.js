@@ -200,70 +200,107 @@ const COURSE_DATA = {
       id: "bio1", number: 1, subject: "biology", title: "Scientific Knowledge",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio1-1", code: "1.1", title: "Scientific knowledge, method and publishing", notes: [], keyTerms: [], questions: [] }
+      { id: "bio1-1", code: "BIO1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s1", code: "BIO1.1", syllabusRef: "U1.1", title: "The nature of scientific knowledge", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s2", code: "BIO1.2", syllabusRef: "U1.1", title: "Science as a global enterprise", notes: [], keyTerms: [], questions: [] },
+      { id: "bio1-s3", code: "BIO1.3", syllabusRef: "U1.2", title: "Recognising bias and evaluating sources", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio2", number: 2, subject: "biology", title: "INVESTIGATING IN SCIENCE",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio2-1", code: "2.1", title: "Understand how scientific investigations are designed, conducted, and evaluated with rigour and integrity", notes: [], keyTerms: [], questions: [] }
+      { id: "bio2-1", code: "BIO2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s1", code: "BIO2.1", syllabusRef: "U2.1", title: "Questioning and predicting", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s2", code: "BIO2.2", syllabusRef: "U2.3", title: "Designing and conducting investigations", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s3", code: "BIO2.3", syllabusRef: "U2.3", title: "Objectivity and data quality", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s4", code: "BIO2.4", syllabusRef: "U2.4", title: "Producing and analysing data", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s5", code: "BIO2.5", syllabusRef: "U2.5", title: "Reflecting on investigations", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s6", code: "BIO2.6", syllabusRef: "U2.6", title: "Communicating results", notes: [], keyTerms: [], questions: [] },
+      { id: "bio2-s7", code: "BIO2.7", syllabusRef: "Assessment", title: "The Biology in Practice Investigation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio3", number: 3, subject: "biology", title: "SCIENCE IN SOCIETY",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio3-1", code: "3.1", title: "Evaluate scientific evidence critically and understand the relationship between science and society across economic, social, sustainability, and ethical dimensions", notes: [], keyTerms: [], questions: [] }
+      { id: "bio3-1", code: "BIO3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s1", code: "BIO3.1", syllabusRef: "U3.1", title: "Evaluating evidence", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s2", code: "BIO3.2", syllabusRef: "U3.2", title: "Science, scientists and society", notes: [], keyTerms: [], questions: [] },
+      { id: "bio3-s3", code: "BIO3.3", syllabusRef: "Strands overview", title: "The cross-cutting themes", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio4", number: 4, subject: "biology", title: "BIOLOGICAL REASONING",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio4-1", code: "4.1", title: "Apply key biological concepts — including systems, interdependence, evolution, and the transfer of information, matter, and energy — to explain living phenomena", notes: [], keyTerms: [], questions: [] }
+      { id: "bio4-1", code: "BIO4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio4-s1", code: "BIO4.1", syllabusRef: "U4.1", title: "Models", notes: [], keyTerms: [], questions: [] },
+      { id: "bio4-s2", code: "BIO4.2", syllabusRef: "U4.2", title: "Explaining biological phenomena", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio5", number: 5, subject: "biology", title: "Characteristics of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio5-1", code: "5.1", title: "Characteristics of life and levels of organisation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio5-1", code: "BIO5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio5-s1", code: "BIO5.1", syllabusRef: "1.1.1", title: "Characteristics of living things", notes: [], keyTerms: [], questions: [] },
+      { id: "bio5-s2", code: "BIO5.2", syllabusRef: "1.3.1", title: "Levels of organisation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio6", number: 6, subject: "biology", title: "Viruses, Classification and Domains of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio6-1", code: "6.1", title: "Viruses, classification and the three domains", notes: [], keyTerms: [], questions: [] }
+      { id: "bio6-1", code: "BIO6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s1", code: "BIO6.1", syllabusRef: "1.1.2", title: "Viruses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s2", code: "BIO6.2", syllabusRef: "1.1.3", title: "Domains of life", notes: [], keyTerms: [], questions: [] },
+      { id: "bio6-s3", code: "BIO6.3", syllabusRef: "1.1.4", title: "Classification", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio7", number: 7, subject: "biology", title: "The Unit of Life — The Cell",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio7-1", code: "7.1", title: "Cell theory, microscopy and organelles", notes: [], keyTerms: [], questions: [] }
+      { id: "bio7-1", code: "BIO7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s1", code: "BIO7.1", syllabusRef: "1.3.2", title: "Prokaryotic and eukaryotic cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s2", code: "BIO7.2", syllabusRef: "1.3.3", title: "Microscopy", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s3", code: "BIO7.3", syllabusRef: "1.3.3", title: "Structures and organelles of animal and plant cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio7-s4", code: "BIO7.4", syllabusRef: "1.3.3", title: "Investigation: plant and animal cells", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio8", number: 8, subject: "biology", title: "Biomolecules — The Chemicals of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio8-1", code: "8.1", title: "Biomolecules, food tests and nutritional roles", notes: [], keyTerms: [], questions: [] }
+      { id: "bio8-1", code: "BIO8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s1", code: "BIO8.1", syllabusRef: "1.2.1", title: "Biomolecules and metabolism", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s2", code: "BIO8.2", syllabusRef: "1.2.1", title: "Structures", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s3", code: "BIO8.3", syllabusRef: "1.2.1", title: "Metabolic roles and nutritional sources", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s4", code: "BIO8.4", syllabusRef: "1.2.2", title: "Minerals", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s5", code: "BIO8.5", syllabusRef: "1.2.3", title: "Vitamins", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s6", code: "BIO8.6", syllabusRef: "1.2.4", title: "Water", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s7", code: "BIO8.7", syllabusRef: "1.2.5", title: "Investigation: food tests", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s8", code: "BIO8.8", syllabusRef: "1.2.6", title: "Investigation: reducing sugars, quantitatively", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio9", number: 9, subject: "biology", title: "Transfer Molecules",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio9-1", code: "9.1", title: "The structure and roles of ATP, NAD+ and NADP+ as energy-carrying transfer molecules in cells", notes: [], keyTerms: [], questions: [] }
+      { id: "bio9-1", code: "BIO9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio9-s1", code: "BIO9.1", syllabusRef: "1.2.8", title: "ATP", notes: [], keyTerms: [], questions: [] },
+      { id: "bio9-s2", code: "BIO9.2", syllabusRef: "1.2.8", title: "NAD+ and NADP+", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio10", number: 10, subject: "biology", title: "DNA, RNA and the Genetic Code",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio10-1", code: "10.1", title: "The structure of DNA and RNA, the functions of DNA, and how the genetic code directs protein synthesis", notes: [], keyTerms: [], questions: [] }
+      { id: "bio10-1", code: "BIO10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s1", code: "BIO10.1", syllabusRef: "1.2.7", title: "Nucleotides, DNA and RNA", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s2", code: "BIO10.2", syllabusRef: "1.2.9", title: "Genes, proteins and traits", notes: [], keyTerms: [], questions: [] },
+      { id: "bio10-s3", code: "BIO10.3", syllabusRef: "1.2.9", title: "The genetic code", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
