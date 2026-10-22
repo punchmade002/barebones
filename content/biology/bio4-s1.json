@@ -1,0 +1,116 @@
+{
+  "loId": "bio4-s1",
+  "chapterId": "bio4",
+  "subsection": "Models",
+  "syllabusRef": "U4.1",
+  "notes": [
+    {
+      "h": "What a model is",
+      "points": [
+        "A model is a simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves.",
+        "Models are needed because real biological systems are too small (molecules, cells), too large (ecosystems, the biosphere), too slow (evolution), too fast (nerve impulses), too complex (the human body), or too dangerous or unethical to study directly.",
+        "Every model is simplified: it keeps the features that matter for its purpose and leaves out others. A model is judged by how useful it is for its purpose, not by whether it is a perfect copy. No model is complete.",
+        "Every model rests on assumptions, which are things taken to be true so that the model can work. For example, a Punnett square assumes that fertilisation is random. If an assumption does not hold, the model’s predictions fail.",
+        "Models can be modified as more data become available. When new observations do not fit, the model is changed or replaced (worked examples 1 and 2 below).",
+        "Models can predict. A good model predicts how the system will behave in new conditions, and testing those predictions is how models are checked (worked example 3 below)."
+      ]
+    },
+    {
+      "h": "Types of model",
+      "points": [
+        "Words (verbal or descriptive models), e.g. a written description of natural selection as variation, competition, survival of the better adapted, and inheritance.",
+        "Diagrams, e.g. a food web, a diagram of the carbon or nitrogen cycle, a labelled diagram of a cell, a flowchart of a negative-feedback loop, or a pyramid of numbers.",
+        "Equations, e.g. the balanced equation for photosynthesis, 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂. It models what goes in and comes out, but not the many steps in between. The reproduction number R₀ is used in models of disease spread.",
+        "Physical (concrete) models, e.g. Watson and Crick’s model of DNA, a bell-jar model of the lungs, a plastic model of the heart, and ball-and-stick models of molecules.",
+        "Simulations, often computer models, e.g. models of how an infectious disease spreads through a population, climate models, and computer models of protein folding. Simulations can run “what if” scenarios quickly and safely.",
+        "Model organisms are a different use of the word: species studied in detail because they are easy to keep and breed and share much biology with others, e.g. the bacterium Escherichia coli, yeast, the fruit fly Drosophila melanogaster, the plant Arabidopsis thaliana, and the house mouse. The assumption is that what is true of them is true of other organisms. The limitation is that results do not always transfer to humans."
+      ]
+    },
+    {
+      "h": "How models are generated and used",
+      "points": [
+        "Generating a model: 1. observe the system and collect data; 2. identify its key parts and how they interact; 3. represent them simply, often by analogy with something familiar, e.g. “lock and key”; 4. use the model to make predictions; 5. test the predictions against new data; 6. keep, modify or replace the model.",
+        "Evaluating a model asks: what does it show, and for what purpose? What does it leave out? What assumptions does it make? Does it fit the data? Can it explain and predict? How could it be improved? Answers about a model should always name at least one strength and one limitation.",
+        "A model is not the same as a theory. A theory is a broad, well-tested explanation; a model is a representation that may be used to explain part of a theory or to make its predictions concrete (theories are in “The nature of scientific knowledge”). Two different models of the same thing can both be useful for different purposes."
+      ]
+    },
+    {
+      "h": "Worked example 1: enzyme action, from lock and key to induced fit",
+      "b": "The Higher Level detail of enzyme structure is in “Enzyme structure and specificity”. Here the example shows how a model changes.",
+      "points": [
+        "Lock-and-key model, proposed by Emil Fischer in 1894: the enzyme’s active site has a rigid shape that exactly fits its substrate, as only one key fits a lock. It explains why enzymes are specific, so that each catalyses one reaction.",
+        "Its assumption is that the active site is rigid. New data did not fit. Some enzymes act on several similar substrates, and later structural studies, e.g. X-ray crystallography, showed that some enzymes change shape when the substrate binds. For example, the enzyme hexokinase closes around glucose.",
+        "Induced-fit model, proposed by Daniel Koshland in 1958: the active site is flexible. When the substrate enters, the active site changes shape slightly to mould tightly around it, like a glove around a hand. This strains the substrate’s bonds and helps the reaction.",
+        "The induced-fit model replaced lock and key as the better model, although lock and key is still useful as a simple first explanation of specificity.",
+        "Diagram: two rows of three stages each. The first row shows lock and key: enzyme with rigid active site and substrate, then enzyme–substrate complex, then products released with the enzyme unchanged. The second row shows induced fit: the same stages, with the active site changing shape as the substrate binds. Label the active site, substrate, enzyme–substrate complex and products."
+      ]
+    },
+    {
+      "h": "Worked example 2: the cell membrane, from sandwich to fluid mosaic",
+      "points": [
+        "The earlier model, proposed by Hugh Davson and James Danielli in 1935, was a phospholipid bilayer sandwiched between two continuous layers of protein. Its assumption was that proteins form uniform layers on each surface.",
+        "New data did not fit. Membrane proteins vary greatly in type and amount between membranes. Freeze-fracture electron microscopy, which splits a membrane down the middle of the bilayer, showed proteins embedded in and passing through the bilayer.",
+        "In 1970 Larry Frye and Michael Edidin fused a mouse cell and a human cell whose membrane proteins had been labelled differently. The proteins mixed over the surface of the combined cell, showing that membrane components move.",
+        "The fluid mosaic model, proposed by Seymour Singer and Garth Nicolson in 1972, describes a phospholipid bilayer with hydrophilic (water-attracting) phosphate heads facing the watery fluid inside and outside the cell, and hydrophobic (water-repelling) fatty-acid tails facing inwards.",
+        "In the fluid mosaic model, proteins are scattered in the bilayer like tiles in a mosaic, some on the surface and some passing right through, as channel and carrier proteins do. The phospholipids and many proteins move sideways, so the membrane is fluid.",
+        "Animal cell membranes also contain cholesterol, and many proteins and lipids carry carbohydrate chains (glycoproteins and glycolipids) on the outer surface.",
+        "The model explains why small non-polar molecules such as O₂ and CO₂ diffuse straight through the bilayer, while ions and glucose need protein channels or carriers. It also explains why membranes can fuse and re-seal, e.g. in endocytosis. Transport is taught in “Diffusion, osmosis and active transport”.",
+        "Limitations: the fluid mosaic model is still being refined. Membranes are not uniformly fluid, and some proteins are held in place by the cytoskeleton. Membranes are more crowded with protein than the usual diagram shows, and small regions of the membrane, called lipid rafts, differ in composition.",
+        "Diagram: a section of membrane showing the phospholipid bilayer with heads and tails labelled hydrophilic and hydrophobic, a channel protein passing through, a surface protein, a glycoprotein with its carbohydrate chain on the outside, and cholesterol."
+      ]
+    },
+    {
+      "h": "Worked example 3: the DNA double helix, a model that predicted",
+      "b": "DNA structure itself is taught in “Nucleotides, DNA and RNA”.",
+      "points": [
+        "In 1953 James Watson and Francis Crick, at the University of Cambridge, built a physical model of DNA from metal plates and rods.",
+        "They used X-ray diffraction images of DNA made by Rosalind Franklin and Raymond Gosling at King’s College London, including the image known as Photo 51; data from Maurice Wilkins; and Erwin Chargaff’s finding that in DNA the amount of adenine equals that of thymine, and the amount of cytosine equals that of guanine.",
+        "The model showed two strands wound into a double helix, with a sugar–phosphate backbone on the outside and bases paired inside: adenine with thymine, and cytosine with guanine. It explained Chargaff’s data and the X-ray pattern.",
+        "Prediction: complementary base pairing suggested that each strand could act as a template for a new strand, so that DNA could copy itself. Watson and Crick noted this in their 1953 paper.",
+        "In 1958 Matthew Meselson and Franklin Stahl showed experimentally that DNA replication is semi-conservative, as the model predicted. Replication is taught in “DNA replication and mitosis in the cell cycle”.",
+        "Limitations: the model shows one short, straight, static section. In cells, DNA is extremely long, is wound around histone proteins and coiled into chromosomes, and moves and unwinds. Atoms are shown as solid shapes.",
+        "Watson, Crick and Wilkins received the Nobel Prize in Physiology or Medicine in 1962. Franklin had died in 1958, and the prize is not awarded after death. Her contribution is now widely recognised, and the case is an example of how credit is shared in science."
+      ]
+    },
+    {
+      "h": "Further models in the course",
+      "points": [
+        "Bell-jar model of breathing: a bell jar represents the chest, balloons the lungs, a rubber sheet the diaphragm and a tube the trachea. Pulling the sheet down increases the volume in the jar, lowering the pressure, so air enters the balloons. Limitations: the jar’s walls are rigid, whereas the ribs move; there are no intercostal muscles; the rubber sheet is pulled down, whereas the diaphragm contracts and flattens; and the balloons have no alveoli (see “Gas exchange and the breathing mechanism”).",
+        "Punnett square: predicts the expected ratios of offspring genotypes and phenotypes. Assumptions: one gene controls the trait; each gamete carries one allele; fertilisation is random; all offspring survive. Limitations: the ratios are only probabilities, so small families often differ; and it does not apply to traits controlled by many genes or by the environment (see “Monohybrid crosses” and “Benefits and limitations of Mendelian genetics”).",
+        "Food chains, food webs and pyramids of numbers model feeding relationships and energy flow. Limitations: real feeding relationships are more complex, and pyramids of numbers can be inverted, e.g. many insects on one tree (see “Energy and nutrient transfer” and “Pyramids of numbers”).",
+        "Carbon and nitrogen cycle diagrams model how matter moves between living things and the environment. They show processes but not their rates or amounts (see “The carbon cycle” and “The nitrogen cycle”).",
+        "Disease-spread models use R₀, the average number of people one infected person infects in a population with no immunity. They predict that an outbreak grows if R₀ is above 1 and dies out if it is below 1, and how many people must be immune to stop spread. Assumptions: people mix randomly and R₀ stays constant. In reality, behaviour, vaccination, seasons and new variants change it, so predictions are updated as new data come in (see “Emergence and spread of infectious disease”).",
+        "Homeostasis as a stimulus–response model, with negative feedback (see “Homeostasis as a stimulus-response model”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Model", "definition": "A simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves." },
+    { "term": "Assumption", "definition": "Something taken to be true so that a model can work; if it does not hold, the model’s predictions fail." },
+    { "term": "Simulation", "definition": "A model, often run on a computer, that tests “what if” scenarios quickly and safely." },
+    { "term": "Model organism", "definition": "A species studied in detail because it is easy to keep and breed and shares much biology with other organisms." },
+    { "term": "Active site", "definition": "The part of an enzyme to which its substrate binds, and where the reaction is catalysed." },
+    { "term": "Induced fit", "definition": "The model in which the active site of an enzyme changes shape slightly to mould around the substrate as it binds." },
+    { "term": "Fluid mosaic model", "definition": "The model of the cell membrane as a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, which can move sideways." },
+    { "term": "Hydrophilic", "definition": "Water-attracting; the phosphate heads of phospholipids are hydrophilic." },
+    { "term": "Hydrophobic", "definition": "Water-repelling; the fatty-acid tails of phospholipids are hydrophobic." },
+    { "term": "Punnett square", "definition": "A model that predicts the expected ratios of offspring genotypes and phenotypes from a cross." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by a model in biology? Give two reasons why biologists use models.",
+      "model": "A model in biology is a simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves. Every model keeps the features that matter for its purpose and leaves out others, and it rests on assumptions. Biologists use models because real systems are sometimes too small, too large, too slow, too fast, too complex or too dangerous or unethical to study directly. Models can also predict how a system will behave in new conditions, and those predictions can be tested."
+    },
+    {
+      "marks": 12,
+      "prompt": "Using the structure of the cell membrane as an example, explain how scientific models are modified as more data become available.",
+      "model": "The earlier model, proposed by Hugh Davson and James Danielli in 1935, was a phospholipid bilayer sandwiched between two continuous layers of protein. Its assumption was that proteins form uniform layers on each surface. New data did not fit this assumption. Membrane proteins vary greatly in type and amount between membranes, and freeze-fracture electron microscopy showed proteins embedded in and passing through the bilayer. In 1970 Larry Frye and Michael Edidin fused a mouse cell and a human cell with differently labelled membrane proteins, and the proteins mixed over the surface of the combined cell, showing that membrane components move. Singer and Nicolson proposed the fluid mosaic model in 1972: a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, some passing right through, and with phospholipids and many proteins able to move sideways. One limitation is that the model is still being refined. Membranes are not uniformly fluid, and some proteins are held in place by the cytoskeleton."
+    },
+    {
+      "marks": 9,
+      "prompt": "The bell-jar model is used to show how we breathe. Describe the model and give three of its limitations.",
+      "model": "In the bell-jar model, the bell jar represents the chest, balloons represent the lungs, a rubber sheet represents the diaphragm and a tube represents the trachea. Pulling the rubber sheet down increases the volume inside the jar, which lowers the pressure, so air enters the balloons through the tube. Three limitations: first, the jar’s walls are rigid, whereas the ribs move. Second, the model has no intercostal muscles. Third, the rubber sheet is pulled down, whereas the diaphragm contracts and flattens, and the balloons have no alveoli."
+    }
+  ]
+}

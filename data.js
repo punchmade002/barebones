@@ -275,7 +275,7 @@ const COURSE_DATA = {
       learningOutcomes: [
       { id: "bio8-1", code: "BIO8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
       { id: "bio8-s1", code: "BIO8.1", syllabusRef: "1.2.1", title: "Biomolecules and metabolism", notes: [], keyTerms: [], questions: [] },
-      { id: "bio8-s2", code: "BIO8.2", syllabusRef: "1.2.1", title: "Structures", notes: [], keyTerms: [], questions: [] },
+      { id: "bio8-s2", code: "BIO8.2", syllabusRef: "1.2.1", title: "Structures of biomolecules", notes: [], keyTerms: [], questions: [] },
       { id: "bio8-s3", code: "BIO8.3", syllabusRef: "1.2.1", title: "Metabolic roles and nutritional sources", notes: [], keyTerms: [], questions: [] },
       { id: "bio8-s4", code: "BIO8.4", syllabusRef: "1.2.2", title: "Minerals", notes: [], keyTerms: [], questions: [] },
       { id: "bio8-s5", code: "BIO8.5", syllabusRef: "1.2.3", title: "Vitamins", notes: [], keyTerms: [], questions: [] },
