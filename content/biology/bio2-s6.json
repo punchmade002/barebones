@@ -1,0 +1,84 @@
+{
+  "loId": "bio2-s6",
+  "chapterId": "bio2",
+  "subsection": "6. Communicating results",
+  "syllabusRef": "U2.6",
+  "notes": [
+    {
+      "h": "The scientific report",
+      "b": "A report is organised in standard sections so that a reader can follow the investigation and repeat it.",
+      "points": [
+        "Sections in order: title; aim or question; hypothesis and prediction; background (the biological theory behind the hypothesis, with sources); equipment and materials; method; risk assessment and ethical considerations; results (tables and graphs); analysis (calculations, patterns and anomalies); conclusion; evaluation (limitations, sources of error and improvements); and references.",
+        "The method is written as numbered steps with exact quantities, concentrations, times and temperatures, usually in the past tense and impersonal style, e.g. “10 cm³ of hydrogen peroxide was added”, with enough detail for someone else to reproduce it.",
+        "A scientific paper written for other scientists begins with an abstract: a short summary of the aim, method, main results and conclusion, so that readers can decide quickly whether it is relevant.",
+        "Results sections present data and do not explain them. Explanation belongs in the analysis and the conclusion."
+      ]
+    },
+    {
+      "h": "Fit for purpose and audience",
+      "b": "The same findings are communicated differently depending on who will read them and why: the audience’s background knowledge, what they need to know, and what they will do with it.",
+      "points": [
+        "Scientists and examiners need a full report or paper, with technical terms used precisely, full data, methods and limitations, and references.",
+        "The general public needs plain language, with technical terms explained or avoided, the main finding and why it matters given first, and simple graphs or infographics.",
+        "The general public also needs uncertainty stated honestly, without exaggeration. Formats include a poster, article, presentation, video, infographic and social media post.",
+        "Decision-makers, e.g. a school board, a council or a health service, need a short summary of the evidence, its reliability and its implications, with recommendations.",
+        "A poster or presentation is selective: a clear title, the question, a brief method, one or two key graphs and the conclusion, with little text. A full report includes everything."
+      ]
+    },
+    {
+      "h": "Scientific terminology",
+      "points": [
+        "Use precise scientific terms with their correct meanings, e.g. “independent variable”, “control”, “precise”, “accurate”, “reliable” and “anomalous”, which are defined in the other notes on this chapter.",
+        "Use biological terms precisely: write “denatured” rather than “killed” for an enzyme, and “osmosis” rather than “soaking up water”.",
+        "Use SI units and their symbols consistently: g and kg, cm³ and dm³, °C, s and min, and mm and µm. Write a unit with every quantity.",
+        "Write scientific names of organisms in binomial form, with the genus in capital letters and the species in lower-case letters, in italics in print or underlined by hand, e.g. Homo sapiens.",
+        "Avoid vague words such as “a lot”, “it worked” or “the results were good”. State what changed, by how much and in which direction."
+      ]
+    },
+    {
+      "h": "Representations",
+      "points": [
+        "Choose the representation that best shows the point to the audience. A table gives exact values; a graph shows a trend or comparison (graph types are in Producing and analysing data).",
+        "A labelled diagram shows apparatus or a structure; a flow chart shows the steps of a method or process; a photograph records a result, e.g. a colour change or colonies on an agar plate.",
+        "A diagram of apparatus is drawn in two dimensions as a cross-section, in pencil. Ruled label lines touch the part labelled and do not cross.",
+        "Biological drawings use clear single lines with no shading, labels to the side, and a title with magnification or scale where relevant.",
+        "Every table, graph and figure has a title or caption and is referred to in the text."
+      ]
+    },
+    {
+      "h": "Integrity in communicating",
+      "points": [
+        "Report all results honestly, including anomalies and results that do not support the hypothesis, and state the limitations.",
+        "Acknowledge every source by citing it in the text and giving a reference list. A reference gives at least the author or organisation, the year, the title and where it was published.",
+        "For a website, the reference gives the web address and the date it was accessed.",
+        "Do not exaggerate findings. A small school investigation cannot show that something is true in general, and communication to the public should not overstate certainty.",
+        "Digital tools support communication: spreadsheets record, process and graph data; presentation and word-processing software produce reports and posters; and data loggers collect and display data.",
+        "The specification’s digital technology section names using digital technology to collect, record, analyse and display data, and to develop investigative research, communication and report-writing skills."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Abstract", "definition": "A short summary of the aim, method, main results and conclusion at the start of a scientific paper." },
+    { "term": "Reference list", "definition": "A list of the sources cited in a report, giving the author or organisation, year, title and where each was published." },
+    { "term": "Binomial name", "definition": "The two-part scientific name of an organism, made up of the genus (capital letter) and the species (lower-case letter)." },
+    { "term": "SI units", "definition": "The standard units used in science, such as g, cm³, °C, s and mm, which should be written with every quantity." },
+    { "term": "Cross-section diagram", "definition": "A two-dimensional drawing of apparatus or a structure as it would appear when cut straight through." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State three ways a report of an investigation for other scientists differs from a poster presenting the same findings to the public.",
+      "model": "First, a report for other scientists uses precise technical terms, whereas a poster for the public uses plain language and explains or avoids technical terms. Second, a report includes the full data, the full method and the limitations, whereas a poster is selective, with a brief method, one or two key graphs and the conclusion, and little text. Third, a report includes references to every source cited, whereas a poster gives the main message first and why it matters, with simple graphs or an infographic. In both cases uncertainty must be stated honestly and without exaggeration."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why the method section of a scientific report must be written in detail, and list the information it should include.",
+      "model": "The method section must be detailed enough that someone else can repeat the investigation exactly. This allows other scientists to check the results and to test whether they are reproducible. The method is written as numbered steps, usually in the past tense and impersonal style, giving exact quantities, concentrations, times and temperatures. It should include the equipment and materials used, the steps taken in order, the number of replicates or repeats, and how the data were recorded."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe three ways a student can show integrity when communicating the results of an investigation.",
+      "model": "First, the student reports all results honestly, including anomalies and results that do not support the hypothesis, and states the limitations of the investigation. Second, the student acknowledges every source by citing it in the text and giving a reference list, so that the work of others is not presented as the student’s own. Third, the student does not exaggerate the findings: a small school investigation cannot show that something is true in general, and any communication to the public should not overstate certainty."
+    }
+  ]
+}
