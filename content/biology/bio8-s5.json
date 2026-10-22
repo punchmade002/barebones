@@ -1,0 +1,98 @@
+{
+  "loId": "bio8-s5",
+  "chapterId": "bio8",
+  "subsection": "Vitamins",
+  "syllabusRef": "1.2.3",
+  "notes": [
+    {
+      "h": "What vitamins are and what they do",
+      "points": [
+        "Vitamins are organic compounds needed in very small amounts for normal metabolism, growth and health. The body cannot make them, or cannot make enough, so they must come from the diet.",
+        "Vitamins supply no energy and are not used to build tissues in bulk.",
+        "Many vitamins act as coenzymes or help enzymes work, e.g. the B vitamins help release energy from food in respiration.",
+        "Other vitamins are needed to make particular substances (vitamin C for collagen), act as antioxidants that protect cells from damage (vitamins C and E), or control the absorption of minerals (vitamin D, which controls the absorption of calcium).",
+        "A lack of a vitamin causes a deficiency disease with characteristic symptoms. The disease is cured or prevented by supplying the vitamin.",
+        "Vitamins are grouped by what they dissolve in. Water-soluble: vitamin C and the B group. Fat-soluble: vitamins A, D, E and K."
+      ]
+    },
+    {
+      "h": "Solubility and its biological significance",
+      "points": [
+        "Absorption: water-soluble vitamins dissolve in the watery contents of the gut and are absorbed directly into the blood. Fat-soluble vitamins dissolve in dietary fat and are absorbed along with it, so a very low-fat diet, or a condition that prevents fat absorption, can cause a deficiency of A, D, E or K.",
+        "Transport: water-soluble vitamins travel dissolved in the blood plasma; fat-soluble vitamins are carried with lipids.",
+        "Storage: excess water-soluble vitamins are excreted by the kidneys in urine, and most are not stored, so they must be eaten regularly, ideally daily. A deficiency develops within weeks or months. Fat-soluble vitamins are stored in the liver and fatty tissue, so the body can draw on reserves and they need not be eaten every day.",
+        "Toxicity: because excess water-soluble vitamins are excreted, overdose is rare. Fat-soluble vitamins can build up in the liver to harmful levels if large supplements are taken. Too much vitamin A is toxic, which is why pregnant women are advised not to eat liver or take vitamin A supplements.",
+        "Cooking: water-soluble vitamins leach out of food into the cooking water, and vitamin C is also destroyed by heat and by long storage. Vegetables lose vitamin C when boiled for a long time; steaming, microwaving or eating them raw keeps more. Fat-soluble vitamins are not lost into cooking water."
+      ]
+    },
+    {
+      "h": "Vitamin C: a water-soluble vitamin",
+      "points": [
+        "Vitamin C, ascorbic acid, is water-soluble.",
+        "Roles: it is needed to make collagen, the protein of connective tissue in skin, gums, blood vessel walls, bones and scar tissue. It helps wounds heal, acts as an antioxidant, helps the gut absorb iron from plant foods, and supports the immune system.",
+        "Sources: citrus fruits (oranges, lemons, limes, grapefruit), kiwi fruit, strawberries, blackcurrants, peppers, broccoli, tomatoes and potatoes. It is best eaten fresh and raw (see “Solubility and its biological significance”).",
+        "Deficiency disease: scurvy. Without vitamin C, collagen is not made properly, so connective tissue weakens.",
+        "Scurvy symptoms: swollen, bleeding gums and loose teeth; easy bruising and bleeding under the skin; wounds that heal slowly or reopen; tiredness and aching joints. Untreated, it can be fatal. It is cured quickly by vitamin C.",
+        "History (Health and Nature of Science link): scurvy killed many sailors on long voyages without fresh food. In 1747 James Lind, a Scottish naval surgeon, gave different treatments to groups of sailors with scurvy and found that those given oranges and lemons recovered. This was an early controlled trial."
+      ]
+    },
+    {
+      "h": "Vitamin D: a fat-soluble vitamin",
+      "points": [
+        "Vitamin D, calciferol, is fat-soluble.",
+        "Role: it increases the absorption of calcium, and phosphate, from food in the small intestine. It is therefore needed for the formation and hardening of bones and teeth. It also helps muscle function and the immune system.",
+        "Sources: the skin makes vitamin D when it is exposed to ultraviolet light in sunlight. Dietary sources are oily fish (e.g. salmon, mackerel and sardines), fish-liver oils such as cod-liver oil, egg yolk and liver, and fortified foods such as some milks, spreads and breakfast cereals.",
+        "Deficiency disease: rickets in children. Bones do not harden, so they stay soft and weak. The leg bones bend under the body's weight, giving bowed legs; growth is poor and the bones are painful.",
+        "In adults the equivalent condition is osteomalacia, softening of the bones. Low vitamin D also raises the risk of osteoporosis in later life.",
+        "People at risk: those who get little sunlight, such as people living at northern latitudes like Ireland, where winter sunlight is too weak for the skin to make vitamin D; people who stay indoors or cover their skin; people with darker skin living at high latitudes; older people; and babies.",
+        "Irish health advice recommends a vitamin D supplement for babies in their first year."
+      ]
+    },
+    {
+      "h": "Other vitamins",
+      "points": [
+        "Vitamin A (retinol) is fat-soluble and is needed for vision in dim light and for healthy skin and linings. Deficiency causes night blindness.",
+        "Vitamin A sources: liver, dairy produce, eggs and oily fish. Carrots and other orange and dark green vegetables contain beta-carotene, which the body converts to vitamin A.",
+        "Vitamin K is fat-soluble and is needed for blood clotting. Sources: green leafy vegetables. It is also made by bacteria in the large intestine.",
+        "Newborn babies have little vitamin K, so they are given it soon after birth to prevent bleeding.",
+        "Vitamin E is fat-soluble and is an antioxidant that protects cell membranes. Sources: vegetable oils, nuts and seeds.",
+        "The B-group vitamins are water-soluble and help enzymes release energy from food. Vitamin B1 (thiamine) deficiency causes beriberi; vitamin B3 (niacin) deficiency causes pellagra. Sources: wholegrain cereals, meat, eggs, dairy produce and beans.",
+        "Folic acid (folate, a B vitamin) and vitamin B12 are needed to make red blood cells. A lack of either causes a form of anaemia.",
+        "Vitamin B12 is found naturally only in animal foods, so vegans need fortified foods or supplements.",
+        "Women are advised to take folic acid before and in early pregnancy, as it reduces the risk of neural tube defects such as spina bifida in the baby."
+      ]
+    },
+    {
+      "h": "Fortification and supplements",
+      "points": [
+        "Food fortification, adding vitamins to foods such as breakfast cereals and milk, and taking supplements are used to prevent deficiency diseases in groups at risk."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Vitamin", "definition": "An organic compound needed in very small amounts for normal metabolism, growth and health, which the body cannot make in sufficient amounts." },
+    { "term": "Water-soluble vitamin", "definition": "A vitamin that dissolves in water, such as vitamin C or a B vitamin; excess is excreted in urine and most is not stored." },
+    { "term": "Fat-soluble vitamin", "definition": "A vitamin that dissolves in fat, such as vitamins A, D, E or K; it is absorbed with dietary fat and stored in the liver and fatty tissue." },
+    { "term": "Antioxidant", "definition": "A substance that protects cells from damage, as vitamins C and E do." },
+    { "term": "Scurvy", "definition": "The deficiency disease caused by a lack of vitamin C, in which collagen is not made properly." },
+    { "term": "Rickets", "definition": "The deficiency disease of children caused by a lack of vitamin D, in which bones do not harden and bend." },
+    { "term": "Beta-carotene", "definition": "A compound in orange and dark green vegetables that the body converts to vitamin A." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Name one water-soluble vitamin and one fat-soluble vitamin. For each, give a dietary source and the deficiency disease caused by its lack.",
+      "model": "Vitamin C is water-soluble. Its dietary sources include citrus fruits such as oranges and lemons, and its deficiency causes scurvy, with bleeding gums, loose teeth, bruising and slow wound healing. Vitamin D is fat-soluble. It is found in oily fish such as salmon, and the skin makes it in sunlight. Its deficiency causes rickets in children, in which the bones soften and bend, and osteomalacia in adults."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain the biological significance of vitamin solubility.",
+      "model": "Absorption differs: water-soluble vitamins such as vitamin C are absorbed directly into the blood from the gut, while fat-soluble vitamins such as vitamin A are absorbed along with dietary fat, so a very low-fat diet can cause their deficiency. Transport differs: water-soluble vitamins travel dissolved in plasma, while fat-soluble vitamins are carried with lipids. Storage differs: excess vitamin C is excreted in urine and most water-soluble vitamins are not stored, so they must be eaten regularly, whereas vitamin D and vitamin A are stored in the liver and fatty tissue. Toxicity differs: overdose of water-soluble vitamins is rare because the excess is excreted, but fat-soluble vitamins can build up in the liver; too much vitamin A is toxic. Cooking differs: water-soluble vitamins such as vitamin C leach into cooking water and are destroyed by heat, while fat-soluble vitamins are not lost into cooking water."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why rickets is more common in people who get little sunlight.",
+      "model": "The skin makes vitamin D when it is exposed to ultraviolet light in sunlight. People who get little sunlight, for example at northern latitudes such as Ireland in winter, make too little vitamin D. Vitamin D increases the absorption of calcium from food in the small intestine, so less calcium is absorbed. Without enough calcium and vitamin D, bones do not harden, so children develop rickets, with soft, weak bones that bend."
+    }
+  ]
+}
