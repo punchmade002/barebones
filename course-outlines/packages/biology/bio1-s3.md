@@ -20,7 +20,7 @@ Conducting research on a scientific issue (one block, numbered steps; this is th
 - [ ] RS1 1. Define the issue and a focused research question (e.g. "Does eating ultra-processed food raise the risk of type 2 diabetes?" rather than "Is food bad for you?").
 - [ ] RS2 2. Choose keywords, including scientific terms and synonyms, and search suitable places: the school or public library, scientific search engines and databases (e.g. Google Scholar, PubMed for medical research), the websites of scientific and public bodies, and textbooks.
 - [ ] RS3 3. Gather several different types of source, including some primary sources and some secondary data, and sources that take different views.
-- [ ] RS4 4. Record each source as you use it: author or organisation, date, title, where it was published, web address and the date you accessed it, so it can be referenced and checked.
+- [ ] RS4 4. Record each source as you use it, so it can be referenced and checked later (how to write a reference is in "Communicating results").
 - [ ] RS5 5. Evaluate each source with the criteria below; note what it lacks and any bias.
 - [ ] RS6 6. Cross-check (corroborate) important claims in independent sources; a claim found in several independent reliable sources is more trustworthy than one found in a single source.
 - [ ] RS7 7. Separate facts, evidence and opinions; summarise in your own words; reference every source; copying another's words or ideas without acknowledgement is plagiarism.
@@ -73,6 +73,7 @@ All other examples in B1–B6 are illustrations of the kind of bias and must be 
 
 ## 3. Traps
 
+- Secondary data as a strategy for an investigation is introduced in "Questioning and predicting"; here S1–S3 are about evaluating them. Primary and secondary data are also defined in "Producing and analysing data"; T3 keeps one bullet here because the contrast with primary and secondary sources is this subsection's point.
 - Primary vs secondary source is not the same as primary vs secondary data (T2 vs T3). State this.
 - Experimental bias in one's own investigation (observer bias, the placebo effect, blinding, randomisation) and random vs systematic error belong to "Objectivity and data quality" and "Designing and conducting investigations". Don't teach them here.
 - Analysing graphs and tables of data (trends, anomalies) belongs to "Producing and analysing data".

@@ -22,12 +22,12 @@ Weighing the strength of evidence (one block; a ranked list from weakest to stro
 - [ ] W2 Expert opinion without data, or a single case report: weak; useful for raising a question.
 - [ ] W3 Laboratory studies on cells or animals: useful to find mechanisms, but may not apply to humans (V2).
 - [ ] W4 Observational studies of large groups of people (e.g. following thousands of people and comparing smokers with non-smokers): good for finding links (correlations), but can't on their own show cause and effect, because other factors may differ between the groups.
-- [ ] W5 Randomised controlled trials (people randomly placed in a treatment group or a control group, ideally with neither patients nor researchers knowing who gets what): the strongest single study for showing that a treatment causes an effect. (How to design controlled investigations is in "Designing and conducting investigations".)
+- [ ] W5 Randomised controlled trials (people randomly placed in a treatment group or a control group, usually double-blind; blinding and placebos are taught in "Objectivity and data quality"): the strongest single study for showing that a treatment causes an effect. (How to design controlled investigations is in "Designing and conducting investigations".)
 - [ ] W6 Systematic reviews and meta-analyses, which combine all good-quality studies on a question: strongest overall, because they don't rely on one study.
 - [ ] W7 Scientific consensus: the agreed view of most experts in a field, reached after many studies, e.g. that human activity is causing climate change and that vaccines do not cause autism. A single new study rarely overturns a consensus; it needs to be reproduced first.
 
 Common errors in reasoning from evidence (one block, each with a biological example)
-- [ ] R1 Correlation is not causation: two things that change together are not necessarily cause and effect. Either may cause the other, or a third factor may cause both, or the link may be chance, e.g. ice-cream sales and sunburn both rise in summer because of sunny weather, not because one causes the other. Strong evidence for cause includes a controlled experiment, a plausible mechanism, a dose–response pattern (more exposure, more effect), and the same link found in many independent studies (as for smoking and lung cancer).
+- [ ] R1 Correlation presented as causation: media reports often say a food, drug or habit "causes" or "prevents" a disease when a study found only a correlation (what a correlation is, and its other explanations, are taught in "Producing and analysing data"). In large health studies, where experiments on people are often impossible or unethical, a link is accepted as causal when several kinds of evidence agree: the cause comes before the effect; more exposure gives more effect (a dose–response pattern); the same link is found in many independent studies in different populations; and a biological mechanism explains it. Smoking and lung cancer met all of these, which is why smoking is accepted as a cause of lung cancer.
 - [ ] R2 Small samples: results from few individuals are more likely due to chance.
 - [ ] R3 No control group: without a comparison, an improvement may have happened anyway.
 - [ ] R4 Relative vs absolute risk: a headline saying a food "doubles the risk" of a disease may mean the risk rose from 1 in 10,000 to 2 in 10,000 (an illustration of the arithmetic, not real data); the absolute increase is small. Always ask "doubled from what?"
@@ -51,7 +51,7 @@ Evaluating a media-based argument (one Skills block: a checklist in numbered ste
 | Item | Fact |
 |---|---|
 | K2 | Wakefield et al., The Lancet, 1998, 12 children; undisclosed payments from lawyers acting for parents; journalist Brian Deer's investigation; paper retracted 2010; Wakefield struck off the UK medical register 2010; 2019 Danish study of over 650,000 children found no link; MMR uptake fell in the UK and Ireland and measles outbreaks followed. |
-| R1 | Smoking and lung cancer: cause established by many independent studies, dose–response and mechanism. |
+| R1 | Smoking and lung cancer: accepted as cause because of consistent independent studies, dose–response and mechanism. |
 | M5 | Deadly nightshade is a poisonous plant. |
 | W7 | Scientific consensus: human activity is causing climate change; vaccines do not cause autism. |
 
@@ -60,8 +60,8 @@ R4's numbers are an arithmetic illustration and must be labelled as such in the 
 ## 3. Traps
 
 - Don't repeat the definitions of the types of bias from "Recognising bias and evaluating sources"; V4 lists them by name and applies them.
-- Designing controlled trials (randomisation, blinding, placebos, sample size) belongs to "Designing and conducting investigations"; W5 is a one-sentence description of the type of study.
-- Analysing graphs, trends and anomalies belongs to "Producing and analysing data".
+- Designing controlled trials belongs to "Designing and conducting investigations", and blinding and placebos to "Objectivity and data quality"; W5 is a one-sentence description of the type of study.
+- Analysing graphs, trends and anomalies, and the definition of correlation vs causation, belong to "Producing and analysing data". R1 applies the idea to media and health claims only; don't redefine correlation or repeat its other explanations (chance, third variable, reverse cause).
 - Peer review and retraction are taught in "Science as a global enterprise"; K2 uses the terms without redefining them.
 - Wakefield's paper was published in The Lancet, which is peer reviewed: the case shows the limits of peer review too. Don't say it was unpublished or never peer reviewed.
 - Don't say MMR "caused" or "did not cause" autism in Wakefield's paper: the paper suggested a link; later evidence showed there is none.
@@ -72,12 +72,12 @@ R4's numbers are an arithmetic illustration and must be labelled as such in the 
 
 No legacy questions; this outcome is new. Expect stimulus-based questions:
 - Read a news extract, advert or social media post about a biology topic and evaluate it for relevance, accuracy and bias.
-- Explain why correlation does not show causation, with an example.
+- Explain why a media claim based on a correlation does not show cause, and what evidence would.
 - Explain why a randomised controlled trial or a systematic review is stronger evidence than an anecdote.
 - Explain how misinformation spreads and its effects on public health.
 
 ## 5. Practice questions to write
 
-1. 6 marks: "Explain the difference between correlation and causation, using a biological example." Model answer: R1 definition, one example with the third factor, one piece of evidence that would show cause.
+1. 6 marks: "A news report says that people who drink green tea live longer, so green tea 'adds years to your life'. Explain why this conclusion may not be justified and what evidence would be needed to show cause." Model answer: R1: the study likely shows a correlation only; other factors (e.g. green-tea drinkers may have healthier lifestyles) could explain it; cause needs a dose–response pattern, consistent independent studies, a mechanism, and ideally a controlled trial (W5).
 2. 12 marks: "A newspaper headline reads 'Chocolate protects against heart disease, say scientists'. The article reports a study of 40 mice. Evaluate this media argument for relevance, accuracy and bias." Model answer: relevance, mice not humans (V2, W3); accuracy, small sample, preliminary, headline overstates (R2, M2); bias, ask who funded it and whether a chocolate company is involved (V4); check other studies and the consensus (K1 steps 7–8); judgement that the claim is not supported for humans.
 3. 9 marks: "Using the MMR vaccine case, explain how a weak scientific claim can harm public health." Model answer: K2: the weaknesses of the 1998 study, the media's role, the retraction and later evidence, the fall in vaccination and the measles outbreaks.
