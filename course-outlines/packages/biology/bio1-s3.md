@@ -67,7 +67,6 @@ Comparison block: which sources are usually most and least reliable
 |---|---|
 | RS2 | Google Scholar and PubMed are search tools for scientific and medical literature. |
 | E8 | CRAAP test: Currency, Relevance, Authority, Accuracy, Purpose. |
-| IC4 cross-ref | none |
 | Q1 | World Health Organization (WHO); Health Service Executive (HSE, Ireland's public health service); Environmental Protection Agency (EPA, Ireland). |
 
 All other examples in B1–B6 are illustrations of the kind of bias and must be written as general examples ("a drinks manufacturer"), never with a named company, study or figure. No checked example of a named biased study. Do not name one.

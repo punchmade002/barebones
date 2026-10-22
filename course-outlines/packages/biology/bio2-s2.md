@@ -57,7 +57,7 @@ Integrity and ethics (one block)
 
 Writing the plan (one skills block)
 - [ ] W1 A plan states, in order: the question and hypothesis; the independent, dependent and controlled variables; the control; the equipment and reagents with reasons for choice; a numbered method detailed enough that someone else could repeat it exactly (amounts, concentrations, times, temperatures); the number of replicates or repeats; how data will be recorded; a risk assessment; ethical considerations.
-- [ ] W2 Worked outline (do not write the full experiment): for the effect of temperature on catalase, independent variable temperature (five or more values set with water baths), dependent variable volume of oxygen collected in a fixed time, controlled variables pH (buffer), volume and concentration of hydrogen peroxide, mass or volume of enzyme source, control with boiled enzyme, three replicates at each temperature, safety glasses for hydrogen peroxide. The full method is in "Investigation: rate of enzyme activity".
+- [ ] W2 Worked outline (do not write the full experiment): for the effect of temperature on catalase, independent variable temperature (five or more values set with water baths), dependent variable volume of oxygen collected in a fixed time, controlled variables pH (buffer), volume and concentration of hydrogen peroxide, mass or volume of enzyme source, control with boiled enzyme, three replicates at each temperature, safety glasses for hydrogen peroxide. The full method is in "Enzymes".
 
 ## 2. Checked facts and examples
 
