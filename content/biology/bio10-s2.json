@@ -1,0 +1,77 @@
+{
+  "loId": "bio10-s2",
+  "chapterId": "bio10",
+  "subsection": "Genes, proteins and traits",
+  "syllabusRef": "1.2.9",
+  "notes": [
+    {
+      "h": "Definitions",
+      "points": [
+        "A gene is a section of DNA that contains the instructions, or code, for making a particular protein (strictly, a polypeptide). Genes are carried on chromosomes, and each chromosome holds many genes. Chromosome structure and the term locus are covered in Genetic Inheritance.",
+        "A protein is a chain of amino acids folded into a particular shape. About 20 different amino acids are used to make proteins. Amino acid structure is covered in Biomolecules — The Chemicals of Life.",
+        "A trait is an inherited characteristic of an organism, such as eye colour, blood group, seed shape in peas, or whether a person can make a particular enzyme."
+      ]
+    },
+    {
+      "h": "From gene to protein",
+      "points": [
+        "The sequence of bases in a gene determines the sequence of amino acids in the protein it codes for. How bases are read in groups is covered in The genetic code.",
+        "The sequence of amino acids determines how the chain folds, and so the protein's three-dimensional shape. The shape determines the protein's function, for example the active site of an enzyme or the binding site of a receptor.",
+        "The cell's machinery reads the gene. The code is copied into a messenger molecule, mRNA, which travels from the nucleus to a ribosome, where the amino acids are joined in the correct order. The steps are covered in DNA Replication, Protein Synthesis and Mutations.",
+        "Information flows in one direction: DNA (gene) → mRNA → protein → trait."
+      ]
+    },
+    {
+      "h": "From protein to trait",
+      "points": [
+        "Proteins produce traits because they do most of the work in cells and build much of their structure. Enzymes control the chemical reactions that make substances such as pigments. Structural proteins build hair, skin, muscle and connective tissue, for example keratin and collagen. Transport and channel proteins move substances, and hormones such as insulin and receptor proteins carry signals.",
+        "Different versions of a gene, called alleles, have slightly different base sequences. They can give a protein with a different amino acid sequence, a different shape, or no working protein at all, which produces a different version of the trait. Alleles, dominance and crosses are covered in Genetic Inheritance.",
+        "Every body cell contains the same genes, but each cell type uses, or expresses, only some of them. For example, the insulin gene is used to make insulin only in cells of the pancreas, and haemoglobin is made only in developing red blood cells. Gene expression and epigenetics are covered in Genetic Inheritance."
+      ]
+    },
+    {
+      "h": "Worked examples of gene, protein and trait",
+      "points": [
+        "Albinism (one form): the gene for the enzyme tyrosinase → tyrosinase is needed to make the dark pigment melanin → people with two non-working copies make little or no melanin, so they have very pale skin, white or very fair hair and light-sensitive eyes.",
+        "Cystic fibrosis: the CFTR gene → the CFTR protein, a channel in cell membranes that lets chloride ions out of cells → a faulty channel causes thick, sticky mucus in the lungs and pancreas, leading to lung infections and poor digestion. How the mutation arises is covered in DNA Replication, Protein Synthesis and Mutations.",
+        "Haemoglobin: the haemoglobin genes → haemoglobin, the protein in red blood cells that carries oxygen → normal oxygen transport. A changed form of one of these genes gives sickle-cell haemoglobin, which makes red blood cells sickle-shaped when oxygen is low, causing sickle-cell anaemia. Detail is covered in DNA Replication, Protein Synthesis and Mutations.",
+        "Seed shape in peas (Mendel's trait): the gene for starch-branching enzyme → the enzyme helps convert sugar into starch in the developing seed → seeds with two non-working copies (rr) make less starch and keep more sugar, take up more water while developing, and wrinkle as they dry out. Seeds with a working copy are round.",
+        "Diagram: DNA (gene) → mRNA → protein (amino acid chain folded into a shape) → trait, with the albinism example written under it."
+      ]
+    },
+    {
+      "h": "The chain is a simplification",
+      "points": [
+        "Many traits are controlled by several genes acting together, such as height and skin colour in humans, so there is no single gene for a trait.",
+        "The environment also affects many traits. A person's height depends on diet as well as genes, and a plant's height depends on light and nutrients.",
+        "The trait, or phenotype, results from genes and environment together. Genotype, phenotype and the limits of Mendelian genetics are covered in Genetic Inheritance."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Gene", "definition": "A section of DNA that contains the code for making a particular protein." },
+    { "term": "Protein", "definition": "A chain of amino acids folded into a particular shape, which determines its function." },
+    { "term": "Trait", "definition": "An inherited characteristic of an organism." },
+    { "term": "Allele", "definition": "A different version of a gene, with a slightly different base sequence." },
+    { "term": "Gene expression", "definition": "The use of a gene to make its protein, so that a cell type shows only some of the traits its genes could produce." },
+    { "term": "Enzyme", "definition": "A protein that controls a chemical reaction, such as tyrosinase in the making of melanin." },
+    { "term": "Phenotype", "definition": "The observable trait of an organism, which results from its genes and environment together." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the relationship between a gene, a protein and a trait.",
+      "model": "A gene is a section of DNA that contains the code for a particular protein. The base sequence of the gene determines the amino acid sequence of the protein, and the amino acid sequence determines how the chain folds into its shape; the shape determines the protein's function. Proteins such as enzymes, structural proteins and transport proteins do most of the work in cells, so the protein's function produces the trait, for example a pigment made by an enzyme."
+    },
+    {
+      "marks": 9,
+      "prompt": "Using one named example, explain how a gene can determine a trait in an organism.",
+      "model": "Cystic fibrosis: the CFTR gene codes for the CFTR protein, which forms a channel in cell membranes that lets chloride ions out of cells. The base sequence of the gene determines the amino acid sequence of the protein, which determines its shape and so whether the channel works. In people with a faulty gene, the channel does not work properly, causing thick, sticky mucus in the lungs and pancreas, which leads to lung infections and poor digestion. The inherited form of the trait therefore follows from the gene through the protein."
+    },
+    {
+      "marks": 6,
+      "prompt": "Identical twins have the same genes but can differ in height. Explain why.",
+      "model": "Height is controlled by several genes acting together, so there is no single gene for height. The environment also affects height: diet and other conditions during growth can change it. Identical twins share the same genes but may have had different diets and environments, so their height, which is the phenotype produced by genes and environment together, can differ."
+    }
+  ]
+}
