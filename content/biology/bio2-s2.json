@@ -1,7 +1,7 @@
 {
   "loId": "bio2-s2",
   "chapterId": "bio2",
-  "subsection": "2. Designing and conducting investigations",
+  "subsection": "Designing and conducting investigations",
   "syllabusRef": "U2.3",
   "notes": [
     {
@@ -69,7 +69,7 @@
         "Hot water baths and boiling tubes: use tongs or a test-tube holder.",
         "Corrosive or irritant reagents such as hydrogen peroxide or Benedict’s reagent: wear glasses and gloves and avoid skin contact.",
         "Sharp scalpels and cork borers: cut downwards onto a tile, away from the body.",
-        "Microorganisms: use aseptic technique, sealed plates and disinfected benches, and dispose of cultures by sterilising them (see Investigation: growth of microorganisms).",
+        "Microorganisms: use aseptic technique, sealed plates and disinfected benches, and dispose of cultures by sterilising them (see Microorganisms).",
         "Electrical equipment must be kept away from water.",
         "Safety also covers the organisms used: living material should be treated with care and returned to its habitat where possible."
       ]
@@ -128,7 +128,7 @@
     {
       "marks": 9,
       "prompt": "A student measures the mass of potato cylinders using a balance that reads to 1 g. Explain why this reduces the precision of the results, and suggest two other ways the student could improve the reliability of the investigation.",
-      "model": "Precision is the closeness of repeated measurements to each other, and it depends on the resolution of the instrument, which is the smallest change it can show. A balance that reads to 1 g cannot show changes in mass smaller than 1 g. Potato cylinders often change in mass by much less than this, so the readings are rounded and the small differences between set-ups are lost, which reduces precision. A balance reading to 0.01 g would show these changes. Reliability can be improved by using replicates, which are several identical cylinders in each sucrose concentration run at the same time, so that a mean can be calculated and an anomalous result spotted. A second improvement is a larger sample size, chosen at random, or carrying out repeats of the whole measurement, which reduces the effect of natural variation between potato cylinders."
+      "model": "Precision is the closeness of repeated measurements to each other, and it depends on the resolution of the instrument, which is the smallest change it can show. A balance that reads to 1 g cannot show changes in mass smaller than 1 g. Any change in mass smaller than 1 g cannot be detected, so the small differences between set-ups are lost in rounding, which reduces precision. A balance reading to 0.01 g would show these changes. Reliability can be improved by using replicates, which are several identical cylinders in each sucrose concentration run at the same time, so that a mean can be calculated and an anomalous result spotted. A second improvement is a larger sample size, chosen at random, or carrying out repeats of the whole measurement, which reduces the effect of natural variation between potato cylinders."
     },
     {
       "marks": 12,
