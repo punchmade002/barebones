@@ -71,7 +71,7 @@ No other names, dates or figures. Don't give death rates for the Semmelweis case
 - Don't say a hypothesis or theory is "proven". Evidence supports or refutes.
 - Don't say a theory becomes a law with more evidence (C2), or that "theory" means a guess.
 - Principles of good experimental design (control, replicates, fair test, sample size, random selection, double-blind testing, safety) belong to "Designing and conducting investigations". W2 names "experiment" only. The 2024 legacy question on "principles of good experimentation" is that chapter's topic.
-- Writing testable hypotheses and predictions belongs to "Questioning and predicting"; H1 defines the term as a kind of knowledge only.
+- "Questioning and predicting" also defines a hypothesis and testability for investigations, with predictions and the null hypothesis. Here H1 and K4 treat them as kinds of knowledge, for the comparison with theory and law; don't add predictions, "If … then …" wording or null hypotheses.
 - Peer review, journals and reproducibility are taught in "Science as a global enterprise"; W2 names peer review in the cycle only.
 - Bias is taught in "Recognising bias and evaluating sources"; W6 is one sentence.
 - Natural selection, its evidence and why evolution is a theory belong to the Evolution chapter; T3 names it only.
