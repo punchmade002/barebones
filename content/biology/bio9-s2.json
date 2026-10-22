@@ -1,0 +1,83 @@
+{
+  "loId": "bio9-s2",
+  "chapterId": "bio9",
+  "subsection": "NAD⁺ and NADP⁺",
+  "syllabusRef": "1.2.8",
+  "notes": [
+    {
+      "h": "Electron carriers and what they do (Higher Level only)",
+      "b": "NAD⁺ and NADP⁺ are electron carriers: transfer molecules that carry electrons and hydrogen between reactions.",
+      "points": [
+        "NAD⁺ is nicotinamide adenine dinucleotide; NADP⁺ is nicotinamide adenine dinucleotide phosphate, the same molecule with one extra phosphate group.",
+        "Both are made in the body from niacin (vitamin B3). The vitamins are covered in Vitamins and Minerals.",
+        "Both pick up high-energy electrons, together with hydrogen, in one reaction and hand them on to another reaction, then return to pick up more.",
+        "Gaining electrons is reduction and losing electrons is oxidation (OIL RIG: oxidation is loss, reduction is gain).",
+        "NAD⁺ and NADP⁺ are the oxidised forms, the empty carriers; NADH and NADPH are the reduced forms, the loaded carriers.",
+        "Loading: each carrier accepts two electrons and a proton (H⁺): NAD⁺ + 2e⁻ + H⁺ → NADH, and NADP⁺ + 2e⁻ + H⁺ → NADPH.",
+        "In respiration, enzymes called dehydrogenases remove electrons and hydrogen from food molecules and pass them to NAD⁺.",
+        "Unloading: NADH and NADPH give up their electrons and hydrogen to the next reaction and become NAD⁺ and NADP⁺ again, so the same small supply is reused over and over, like ATP.",
+        "The electrons carry energy. When NADH's electrons pass along an electron transport chain, the energy released is used to make ATP; when NADPH's electrons are added to carbon dioxide, they help build glucose. This reducing power is what makes the carriers useful."
+      ]
+    },
+    {
+      "h": "NAD⁺ in respiration (Higher Level only)",
+      "b": "Respiration is a catabolic pathway that breaks glucose down to release energy. The detail is covered in Respiration.",
+      "points": [
+        "NAD⁺ collects electrons and hydrogen released as glucose is broken down, first in glycolysis in the cytoplasm and then in the Krebs (citric acid) cycle in the mitochondrial matrix. It becomes NADH.",
+        "NADH carries the electrons to the electron transport chain on the inner membrane of the mitochondrion. The energy released as the electrons pass along the chain is used to make most of the cell's ATP.",
+        "At the end of the chain, the electrons, with hydrogen ions, are passed to oxygen, the final electron acceptor, which forms water. NAD⁺ is released to collect more electrons.",
+        "Without oxygen, the chain stops and NADH cannot unload there. In fermentation, NADH passes its hydrogen to pyruvate, forming lactic acid in animals and some bacteria, or ethanol and carbon dioxide in yeast and plants. This regenerates NAD⁺ so that glycolysis can continue making a little ATP."
+      ]
+    },
+    {
+      "h": "NADP⁺ in photosynthesis (Higher Level only)",
+      "b": "Photosynthesis is an anabolic pathway that builds glucose from carbon dioxide and water. The stages are covered in Photosynthesis.",
+      "points": [
+        "In the light-dependent stage, on the thylakoid membranes of the chloroplast, light energises electrons in chlorophyll. These high-energy electrons pass along an electron transport chain to NADP⁺.",
+        "NADP⁺ also takes up protons (H⁺) from the photolysis of water, which releases oxygen. It becomes NADPH.",
+        "NADPH carries the electrons and hydrogen to the light-independent stage in the stroma of the chloroplast, where they are added to carbon dioxide to make glucose, using energy from ATP.",
+        "NADP⁺ and ADP + Pi then return to the light-dependent stage to be loaded again."
+      ]
+    },
+    {
+      "h": "Comparing the carriers (Higher Level only)",
+      "points": [
+        "Process: NAD⁺ works in respiration; NADP⁺ works in photosynthesis.",
+        "Type of pathway: NAD⁺ in a catabolic (breaking-down) pathway; NADP⁺ in an anabolic (building-up) pathway.",
+        "Where loaded: NAD⁺ in the cytoplasm and mitochondrial matrix, with electrons from glucose; NADP⁺ on the thylakoid membranes, with electrons from chlorophyll, replaced by electrons from water.",
+        "Where unloaded and final electron acceptor: NADH at the electron transport chain on the inner mitochondrial membrane, with oxygen as the final acceptor, forming water; NADPH in the stroma, with carbon dioxide as the final acceptor, forming glucose.",
+        "Use of the electrons' energy: NADH's energy is used to make ATP; NADPH's energy is used to build glucose.",
+        "Structure: NADP⁺ has one extra phosphate group, which lets enzymes tell the two apart, so the carriers for breaking down and for building up are kept separate.",
+        "ATP compared with both: ATP transfers energy, carried as a phosphate group, while NAD⁺ and NADP⁺ transfer electrons and hydrogen. All three are reused, not used up.",
+        "Diagram: two loops side by side. Respiration loop: NAD⁺ → (electrons and hydrogen from glucose, in glycolysis and the Krebs cycle) → NADH → (electron transport chain, ATP made, electrons passed to oxygen) → NAD⁺. Photosynthesis loop: NADP⁺ → (electrons from chlorophyll and hydrogen ions from water, light-dependent stage) → NADPH → (light-independent stage, CO₂ made into glucose) → NADP⁺."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "NAD⁺", "definition": "Nicotinamide adenine dinucleotide: the oxidised electron carrier that collects electrons and hydrogen in respiration, becoming NADH." },
+    { "term": "NADP⁺", "definition": "Nicotinamide adenine dinucleotide phosphate: the oxidised electron carrier that collects electrons and hydrogen in photosynthesis, becoming NADPH." },
+    { "term": "NADH", "definition": "The reduced form of NAD⁺, loaded with two electrons and a proton, which carries electrons to the electron transport chain." },
+    { "term": "NADPH", "definition": "The reduced form of NADP⁺, loaded with two electrons and a proton, which carries electrons to the light-independent stage." },
+    { "term": "Electron carrier", "definition": "A transfer molecule that picks up electrons and hydrogen in one reaction and hands them on to another reaction." },
+    { "term": "Reduction", "definition": "The gain of electrons by a substance, such as NAD⁺ becoming NADH." },
+    { "term": "Oxidation", "definition": "The loss of electrons by a substance, such as NADH becoming NAD⁺." },
+    { "term": "Final electron acceptor", "definition": "The molecule that receives electrons at the end of an electron transport chain: oxygen in respiration, carbon dioxide in photosynthesis." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between the roles of NAD⁺ and NADP⁺ in cells.",
+      "model": "NAD⁺ works in respiration, a catabolic pathway. It collects electrons and hydrogen released from glucose during glycolysis and the Krebs cycle, becoming NADH, which delivers them to the electron transport chain where oxygen is the final electron acceptor. NADP⁺ works in photosynthesis, an anabolic pathway. It collects electrons from chlorophyll in the light-dependent stage, becoming NADPH, which delivers them to the light-independent stage where carbon dioxide is the final acceptor and glucose is made."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the role of NADP⁺ in photosynthesis, from the trapping of light to the production of glucose.",
+      "model": "In the light-dependent stage on the thylakoid membranes, light energises electrons in chlorophyll. These electrons pass along an electron transport chain to NADP⁺, which also takes up hydrogen ions from the photolysis of water, releasing oxygen, and becomes NADPH. NADPH carries the electrons and hydrogen to the light-independent stage in the stroma, where they are added to carbon dioxide to make glucose, using energy from ATP. The NADP⁺ and ADP + Pi produced then return to the light-dependent stage to be loaded again."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what is meant by an electron carrier and describe what happens to NADH in an aerobic cell.",
+      "model": "An electron carrier is a transfer molecule that picks up electrons and hydrogen in one reaction and hands them on to another reaction, then returns to pick up more. In an aerobic cell, NADH, formed when NAD⁺ collects electrons and hydrogen from glucose breakdown, carries those electrons to the electron transport chain on the inner mitochondrial membrane. As the electrons pass along the chain, energy is released to make most of the cell's ATP. At the end of the chain the electrons and hydrogen ions are passed to oxygen, the final electron acceptor, forming water, and NAD⁺ is regenerated to collect more electrons."
+    }
+  ]
+}
