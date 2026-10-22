@@ -1,0 +1,105 @@
+{
+  "loId": "bio6-s2",
+  "chapterId": "bio6",
+  "subsection": "Domains of life",
+  "syllabusRef": "1.1.3",
+  "notes": [
+    {
+      "h": "What the domain system is",
+      "b": "A domain is the highest, broadest rank in the classification of living things, above kingdom. All cellular life is placed in three domains: Bacteria, Archaea and Eukarya (the specification calls the last one eukaryota).",
+      "points": [
+        "The system was developed by the American microbiologist Carl Woese. In 1977, with George Fox, he showed that archaea are a separate group from bacteria. In 1990 Woese and colleagues formally proposed the three domains.",
+        "Before this, all prokaryotes were placed in one group, the kingdom “Monera” in the five-kingdom system. Archaea look like bacteria under the microscope, so the difference could only be found from their molecules.",
+        "Genetic basis: Woese compared the base sequences of ribosomal RNA (rRNA), specifically the RNA of the small ribosome subunit. Every cell has ribosomes, the rRNA does the same job in all of them, and its sequence changes very slowly over evolutionary time, so it can be compared across all living things.",
+        "The more similar two organisms’ rRNA sequences are, the more closely related they are.",
+        "The results showed three deep branches of life, not two (prokaryote and eukaryote). Archaea differ from bacteria about as much as either differs from eukaryotes.",
+        "In several genetic features archaea are more similar to eukaryotes than to bacteria, so archaea and eukaryotes share a more recent common ancestor with each other than either does with bacteria.",
+        "Diagram: a three-domain tree with one common ancestor at the base; one branch to Bacteria; and a second branch that splits into Archaea and Eukarya. Label the four eukaryotic kingdoms (Protista, Fungi, Plantae, Animalia) on the Eukarya branch."
+      ]
+    },
+    {
+      "h": "Bacteria",
+      "points": [
+        "Bacteria are prokaryotic: they have no nucleus or membrane-bound organelles.",
+        "Bacteria have a single circular chromosome without histone proteins, and their cell walls contain peptidoglycan.",
+        "Bacteria are found almost everywhere. They include decomposers, nitrogen-fixing bacteria, photosynthetic cyanobacteria and pathogens such as Escherichia coli and Streptococcus.",
+        "Many bacteria are killed by antibiotics."
+      ]
+    },
+    {
+      "h": "Archaea",
+      "points": [
+        "Archaea are prokaryotic and single-celled, similar in size and shape to bacteria.",
+        "Their cell walls lack peptidoglycan, and their membrane lipids have a different chemical structure from those of all other organisms.",
+        "Their DNA is wound around histone-like proteins, and their enzymes for copying DNA and making RNA are more like those of eukaryotes.",
+        "Most antibiotics that kill bacteria do not affect archaea.",
+        "Many archaea are extremophiles living in extreme conditions. Thermophiles live in hot springs and deep-sea hydrothermal vents; halophiles live in very salty water such as salt lakes, e.g. Halobacterium.",
+        "Methanogens live where there is no oxygen, e.g. in bogs, rice paddies and the digestive systems of cattle, and make methane.",
+        "Archaea are also common in ordinary soil and the oceans. Archaea are not restricted to extreme environments, and no archaea are known to cause disease in humans."
+      ]
+    },
+    {
+      "h": "Eukarya",
+      "points": [
+        "Eukarya are all organisms whose cells have a nucleus enclosed by a membrane and membrane-bound organelles, e.g. mitochondria.",
+        "Eukaryotic cells have several linear chromosomes, with DNA wound around histones.",
+        "Eukarya are unicellular or multicellular. The domain contains the kingdoms Protista, Fungi, Plantae and Animalia."
+      ]
+    },
+    {
+      "h": "Comparing the three domains",
+      "points": [
+        "Nucleus: absent in bacteria, absent in archaea, present in eukaryotes.",
+        "Membrane-bound organelles: absent in bacteria, absent in archaea, present in eukaryotes.",
+        "Peptidoglycan in the cell wall: present in bacteria, absent in archaea, absent in eukaryotes.",
+        "Membrane lipids: bacterial-type in bacteria, a unique archaeal type in archaea, bacterial-type in eukaryotes.",
+        "Histones: absent in bacteria, histone-like in archaea, present in eukaryotes.",
+        "Ribosome size: 70S in bacteria, 70S in archaea, 80S in the cytoplasm of eukaryotes.",
+        "Sensitivity to common antibiotics: many bacteria are affected, archaea are generally not, and eukaryotes are not affected.",
+        "Examples: Escherichia coli and Streptococcus for bacteria; Halobacterium and methanogens for archaea; the kingdoms Protista, Fungi, Plantae and Animalia for Eukarya."
+      ]
+    },
+    {
+      "h": "The S number",
+      "points": [
+        "The S number (Svedberg unit) measures how fast a particle settles in a centrifuge. A larger number means a larger particle."
+      ]
+    },
+    {
+      "h": "Why the domain system matters",
+      "points": [
+        "The biggest division in life is not plant versus animal, or even prokaryote versus eukaryote, but these three lineages. Animals, plants and fungi are just three small branches of one domain.",
+        "The domain system is based on genetic evidence, which reflects evolutionary relationships, rather than on appearance.",
+        "It is an example of how new technology (gene sequencing) changes classification. This is discussed further in “Classification”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Domain", "definition": "The highest rank in the classification of living things, above kingdom." },
+    { "term": "Archaea", "definition": "The prokaryotic domain whose members lack peptidoglycan in their cell walls and have a unique type of membrane lipid." },
+    { "term": "Bacteria", "definition": "The prokaryotic domain whose cell walls contain peptidoglycan." },
+    { "term": "Eukarya", "definition": "The domain of organisms whose cells have a membrane-bound nucleus and membrane-bound organelles." },
+    { "term": "Ribosomal RNA (rRNA)", "definition": "The RNA of ribosomes, whose sequence changes slowly and is compared across organisms to show relationships." },
+    { "term": "Extremophile", "definition": "An organism that lives in extreme conditions, such as very hot, very salty or oxygen-free places." },
+    { "term": "Methanogen", "definition": "An archaeon that produces methane in places with no oxygen." },
+    { "term": "Peptidoglycan", "definition": "The substance that makes up the cell walls of bacteria, but not of archaea." },
+    { "term": "Svedberg unit (S number)", "definition": "A measure of how fast a particle settles in a centrifuge; a larger number means a larger particle." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the three domains of life and give one distinguishing feature of each.",
+      "model": "Bacteria: prokaryotic, with cell walls containing peptidoglycan. Archaea: prokaryotic, with cell walls that lack peptidoglycan and membrane lipids of a unique type. Eukarya: cells with a nucleus enclosed by a membrane and membrane-bound organelles, such as mitochondria."
+    },
+    {
+      "marks": 9,
+      "prompt": "Outline how the three-domain system was developed, referring to the evidence on which it is based.",
+      "model": "The three-domain system was developed by Carl Woese, who in 1977, with George Fox, showed that archaea are separate from bacteria, and who formally proposed the three domains in 1990. Before this, all prokaryotes had been placed in one group, the kingdom Monera, because archaea look like bacteria under the microscope. The system is based on the base sequences of ribosomal RNA. rRNA is suitable because every cell has ribosomes and the rRNA does the same job in all of them, and its sequence changes very slowly over evolutionary time, so it can be compared across all living things. The results showed three deep branches of life, with archaea and eukaryotes sharing a more recent common ancestor with each other than either does with bacteria."
+    },
+    {
+      "marks": 6,
+      "prompt": "Archaea and bacteria are both prokaryotic. Give three differences between them.",
+      "model": "First, archaeal cell walls lack peptidoglycan, which bacterial cell walls contain. Second, archaeal membrane lipids have a unique chemical structure, unlike the bacterial type. Third, archaeal DNA is wound around histone-like proteins, which bacterial DNA is not. Archaea are also generally not affected by the antibiotics that kill bacteria."
+    }
+  ]
+}
