@@ -207,7 +207,7 @@ const COURSE_DATA = {
       ],
     },
     {
-      id: "bio2", number: 2, subject: "biology", title: "INVESTIGATING IN SCIENCE",
+      id: "bio2", number: 2, subject: "biology", title: "Investigating in Science",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio2-1", code: "BIO2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
@@ -221,7 +221,7 @@ const COURSE_DATA = {
       ],
     },
     {
-      id: "bio3", number: 3, subject: "biology", title: "SCIENCE IN SOCIETY",
+      id: "bio3", number: 3, subject: "biology", title: "Science in Society",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio3-1", code: "BIO3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
@@ -231,7 +231,7 @@ const COURSE_DATA = {
       ],
     },
     {
-      id: "bio4", number: 4, subject: "biology", title: "BIOLOGICAL REASONING",
+      id: "bio4", number: 4, subject: "biology", title: "Biological Reasoning",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio4-1", code: "BIO4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
@@ -307,56 +307,98 @@ const COURSE_DATA = {
       id: "bio11", number: 11, subject: "biology", title: "Genetic Inheritance",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio11-1", code: "11.1", title: "The principles of genetic inheritance including chromosome structure, Mendel's laws, sex linkage and gene linkage", notes: [], keyTerms: [], questions: [] }
+      { id: "bio11-1", code: "BIO11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s1", code: "BIO11.1", syllabusRef: "1.4.1", title: "Chromosome structure and genes", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s2", code: "BIO11.2", syllabusRef: "1.4.1", title: "Key concepts of information transfer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s3", code: "BIO11.3", syllabusRef: "1.4.2", title: "Nuclear and non-nuclear inheritance", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s4", code: "BIO11.4", syllabusRef: "1.4.3", title: "Genetic and epigenetic mechanisms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s5", code: "BIO11.5", syllabusRef: "1.4.4", title: "Monohybrid crosses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s6", code: "BIO11.6", syllabusRef: "1.4.5", title: "Incomplete dominance", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s7", code: "BIO11.7", syllabusRef: "1.4.6", title: "Mendel's Laws", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s8", code: "BIO11.8", syllabusRef: "1.4.7", title: "Dihybrid crosses", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s9", code: "BIO11.9", syllabusRef: "1.4.8", title: "Linkage", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s10", code: "BIO11.10", syllabusRef: "1.4.9", title: "Sex determination", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s11", code: "BIO11.11", syllabusRef: "1.4.10", title: "Sex-linked traits", notes: [], keyTerms: [], questions: [] },
+      { id: "bio11-s12", code: "BIO11.12", syllabusRef: "1.4.11", title: "Benefits and limitations of Mendelian genetics", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio12", number: 12, subject: "biology", title: "Evolution: The Origins of Life",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio12-1", code: "12.1", title: "The mechanisms and evidence for evolution, including variation, mutation, natural selection and the importance of evolutionary theory", notes: [], keyTerms: [], questions: [] }
+      { id: "bio12-1", code: "BIO12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s1", code: "BIO12.1", syllabusRef: "1.5.1", title: "Variation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s2", code: "BIO12.2", syllabusRef: "1.5.2", title: "The theory of evolution by natural selection", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s3", code: "BIO12.3", syllabusRef: "1.5.3", title: "Evidence for evolution", notes: [], keyTerms: [], questions: [] },
+      { id: "bio12-s4", code: "BIO12.4", syllabusRef: "1.5.3", title: "The importance of the theory", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio13", number: 13, subject: "biology", title: "Enzymes",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio13-1", code: "13.1", title: "Enzyme structure, action, factors and industrial uses", notes: [], keyTerms: [], questions: [] }
+      { id: "bio13-1", code: "BIO13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s1", code: "BIO13.1", syllabusRef: "2.1.1", title: "Enzymes as catalysts", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s2", code: "BIO13.2", syllabusRef: "2.1.2", title: "Enzyme structure and specificity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s3", code: "BIO13.3", syllabusRef: "2.1.3", title: "Investigation: rate of enzyme activity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio13-s4", code: "BIO13.4", syllabusRef: "2.1.4", title: "Industrial enzymes", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio14", number: 14, subject: "biology", title: "Photosynthesis",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio14-1", code: "14.1", title: "Photosynthesis: stages, factors and leaf adaptations", notes: [], keyTerms: [], questions: [] }
+      { id: "bio14-1", code: "BIO14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s1", code: "BIO14.1", syllabusRef: "2.2.1", title: "Photosynthesis as an anabolic process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s2", code: "BIO14.2", syllabusRef: "2.2.2", title: "Investigation: rate of photosynthesis", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s3", code: "BIO14.3", syllabusRef: "2.2.4", title: "The light-dependent reactions", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s4", code: "BIO14.4", syllabusRef: "2.2.4", title: "The light-independent reactions", notes: [], keyTerms: [], questions: [] },
+      { id: "bio14-s5", code: "BIO14.5", syllabusRef: "2.2.5", title: "The chloroplast's internal structure", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio15", number: 15, subject: "biology", title: "Respiration",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio15-1", code: "15.1", title: "Aerobic and anaerobic respiration, fermentation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio15-1", code: "BIO15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s1", code: "BIO15.1", syllabusRef: "2.2.1", title: "Respiration as a catabolic process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s2", code: "BIO15.2", syllabusRef: "2.2.3", title: "Investigation: conditions for fermentation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s3", code: "BIO15.3", syllabusRef: "2.2.4", title: "First-stage process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s4", code: "BIO15.4", syllabusRef: "2.2.4", title: "Second-stage process", notes: [], keyTerms: [], questions: [] },
+      { id: "bio15-s5", code: "BIO15.5", syllabusRef: "2.2.5", title: "The mitochondrion's internal structure and ATP synthase", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio16", number: 16, subject: "biology", title: "Cell Division and Cancer",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio16-1", code: "16.1", title: "Cell cycle, mitosis, meiosis and cancer", notes: [], keyTerms: [], questions: [] }
+      { id: "bio16-1", code: "BIO16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s1", code: "BIO16.1", syllabusRef: "2.3.1", title: "The cell cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s2", code: "BIO16.2", syllabusRef: "2.3.2", title: "Mitosis and meiosis", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s3", code: "BIO16.3", syllabusRef: "2.3.3", title: "DNA replication and mitosis in the cell cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s4", code: "BIO16.4", syllabusRef: "2.3.7", title: "Cancer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio16-s5", code: "BIO16.5", syllabusRef: "2.3.8", title: "Causes, prevention and treatment of cancer", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio17", number: 17, subject: "biology", title: "DNA Replication, Protein Synthesis and Mutations",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio17-1", code: "17.1", title: "How DNA is copied and used to build proteins, and how mutations arise", notes: [], keyTerms: [], questions: [] }
+      { id: "bio17-1", code: "BIO17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s1", code: "BIO17.1", syllabusRef: "2.3.4", title: "Modelling DNA replication and information flow", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s2", code: "BIO17.2", syllabusRef: "2.3.5", title: "Transcription and translation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio17-s3", code: "BIO17.3", syllabusRef: "2.3.6", title: "Mutations", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio18", number: 18, subject: "biology", title: "The Musculoskeletal System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio18-1", code: "18.1", title: "The structure and functions of the skeleton, muscles and joints", notes: [], keyTerms: [], questions: [] }
+      { id: "bio18-1", code: "BIO18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s1", code: "BIO18.1", syllabusRef: "2.4.1", title: "The musculoskeletal system as a system for response", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s2", code: "BIO18.2", syllabusRef: "2.4.2", title: "The axial skeleton", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s3", code: "BIO18.3", syllabusRef: "2.4.2", title: "The appendicular skeleton", notes: [], keyTerms: [], questions: [] },
+      { id: "bio18-s4", code: "BIO18.4", syllabusRef: "2.4.3", title: "Muscles and joints", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -382,7 +424,7 @@ const COURSE_DATA = {
       ],
     },
     {
-      id: "bio21", number: 21, subject: "biology", title: "HOMEOSTASIS",
+      id: "bio21", number: 21, subject: "biology", title: "Homeostasis",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio21-1", code: "BIO21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
@@ -392,21 +434,28 @@ const COURSE_DATA = {
       ],
     },
     {
-      id: "bio22", number: 22, subject: "biology", title: "IMMUNITY",
+      id: "bio22", number: 22, subject: "biology", title: "Immunity",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio22-1", code: "22.1", title: "How the immune system defends the body against pathogens through innate and acquired immunity, B cells, T cells, and vaccination", notes: [], keyTerms: [], questions: [] }
+      { id: "bio22-1", code: "BIO22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s1", code: "BIO22.1", syllabusRef: "2.4.12", title: "Pathogens", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s2", code: "BIO22.2", syllabusRef: "2.4.12", title: "Innate and adaptive immunity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s3", code: "BIO22.3", syllabusRef: "2.4.12", title: "Acquired immunity, prevention and treatment", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s4", code: "BIO22.4", syllabusRef: "2.4.13", title: "Viruses: replication", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s5", code: "BIO22.5", syllabusRef: "2.4.14", title: "White blood cells", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s6", code: "BIO22.6", syllabusRef: "2.4.15", title: "Emergence and spread of infectious disease", notes: [], keyTerms: [], questions: [] },
+      { id: "bio22-s7", code: "BIO22.7", syllabusRef: "2.4.16", title: "Emerging diseases and society", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio23", number: 23, subject: "biology", title: "HUMAN REPRODUCTION",
+      id: "bio23", number: 23, subject: "biology", title: "Human Reproduction",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio23-1", code: "23.1", title: "The structure and function of the human male and female reproductive systems, the menstrual cycle, fertilisation, embryonic development, and fertility control", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
-      id: "bio24", number: 24, subject: "biology", title: "PLANT REPRODUCTION",
+      id: "bio24", number: 24, subject: "biology", title: "Plant Reproduction",
       examQuestions: [],
       learningOutcomes: [
       { id: "bio24-1", code: "24.1", title: "The structure of flowers, pollination, fertilisation, seed and fruit formation, dispersal, and germination in plants", notes: [], keyTerms: [], questions: [] }
