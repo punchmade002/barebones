@@ -1,0 +1,101 @@
+{
+  "loId": "bio11-s9",
+  "chapterId": "bio11",
+  "subsection": "Linkage",
+  "syllabusRef": "1.4.8",
+  "notes": [
+    {
+      "h": "What linkage is (Higher Level only)",
+      "points": [
+        "Each chromosome carries many genes in a fixed order along one DNA molecule, and a chromosome passes into a gamete as one unit, so any two genes on it travel together.",
+        "All the genes on one chromosome form a linkage group; there are as many linkage groups as there are chromosome pairs.",
+        "Linked genotypes show the alleles on each chromosome together, with a line or slash for the pair of chromosomes: AB/ab means one chromosome carries A and B and its homologue carries a and b.",
+        "Diagram: two vertical bars (a homologous pair), one labelled with A above B, the other with a above b, at matching positions; label “homologous chromosomes”, “linked genes” and “locus”."
+      ]
+    },
+    {
+      "h": "How linkage affects independent assortment (Higher Level only)",
+      "points": [
+        "The Law of Independent Assortment holds only for genes on different chromosomes.",
+        "Linked genes do not assort independently: the alleles on one chromosome move together into the same gamete when the homologous chromosomes separate in meiosis.",
+        "A double heterozygote with linked genes, AB/ab, produces only two types of gamete, AB and ab, in equal numbers.",
+        "An unlinked double heterozygote produces four types (AB, Ab, aB, ab) instead; the gametes Ab and aB (new combinations) are not formed when the genes are linked.",
+        "Offspring show only (or mostly) the parental combinations of traits; the new combinations seen with unlinked genes are missing (or rare).",
+        "Linkage gives fewer types of offspring and less variation, and the ratios differ from 9 : 3 : 3 : 1 and 1 : 1 : 1 : 1.",
+        "In real organisms, linked genes are occasionally separated, so a small number of offspring with new combinations can appear.",
+        "The reason is crossing over, named here without description; genes are more likely to stay together the closer they lie on the chromosome.",
+        "Diagram: side by side, (a) unlinked genes: two separate chromosome pairs (A/a on one, B/b on the other) giving four gamete types AB, Ab, aB, ab; (b) linked genes: one chromosome pair, A and B on one homologue, a and b on the other, giving two gamete types AB and ab."
+      ]
+    },
+    {
+      "h": "Worked example: test cross with linked genes (Higher Level only)",
+      "points": [
+        "Key: A = dominant allele of gene 1, a = recessive; B = dominant allele of gene 2, b = recessive; A and B on the same chromosome.",
+        "Parents' phenotypes: AB/ab shows both dominant traits; ab/ab shows both recessive traits.",
+        "Parents' genotypes: AB/ab × ab/ab.",
+        "Gametes: AB, ab × ab.",
+        "Offspring genotypes: AB/ab (AaBb) and ab/ab (aabb), 1 : 1.",
+        "Offspring phenotypes: 1 showing both dominant traits : 1 showing both recessive traits.",
+        "If the genes were unlinked, the same cross (AaBb × aabb) would give four phenotypes, 1 : 1 : 1 : 1.",
+        "The arrangement matters: if the double heterozygote has the dominant allele of one gene with the recessive allele of the other on each chromosome (Ab/aB), its gametes are Ab and aB, and the test cross gives 1 Aabb : 1 aaBb, i.e. only the two mixed phenotypes.",
+        "Always read which alleles are on the same chromosome."
+      ]
+    },
+    {
+      "h": "Worked example: F1 × F1 with linked genes (Higher Level only)",
+      "points": [
+        "AB/ab × AB/ab.",
+        "Gametes: AB, ab × AB, ab.",
+        "Punnett square: AB/AB, AB/ab / AB/ab, ab/ab.",
+        "Offspring genotypes: 1 AABB : 2 AaBb : 1 aabb.",
+        "Phenotypes: 3 both dominant : 1 both recessive (3 : 1), compared with 9 : 3 : 3 : 1 if the genes were unlinked."
+      ]
+    },
+    {
+      "h": "A real example: Drosophila melanogaster (Higher Level only)",
+      "points": [
+        "In the fruit fly Drosophila melanogaster, the genes for body colour (grey dominant to black) and wing shape (normal wings dominant to vestigial wings) are on the same chromosome.",
+        "A test cross of a fly heterozygous for both (with grey and normal on one chromosome) with a black, vestigial fly gives mostly grey normal-winged and black vestigial-winged offspring, the parental combinations.",
+        "Only a few grey vestigial or black normal flies appear, not the 1 : 1 : 1 : 1 expected for unlinked genes."
+      ]
+    },
+    {
+      "h": "Recognising linkage from results (Higher Level only)",
+      "points": [
+        "A dihybrid cross whose offspring show mainly the parental combinations suggests that the two genes are linked.",
+        "Fewer phenotype classes than expected, or a ratio far from 9 : 3 : 3 : 1 (F1 × F1) or 1 : 1 : 1 : 1 (test cross), also suggests that the two genes are linked."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Linkage group",
+      "definition": "All the genes on one chromosome; there are as many linkage groups as there are chromosome pairs."
+    },
+    {
+      "term": "Linked genes",
+      "definition": "Genes on the same chromosome, which are inherited together and do not assort independently."
+    },
+    {
+      "term": "Locus",
+      "definition": "The position of a gene on a chromosome."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by linkage? Explain how linkage affects Mendel's Law of Independent Assortment.",
+      "model": "Linkage is when genes on the same chromosome are inherited together, because a chromosome passes into a gamete as one unit. The Law of Independent Assortment holds only for genes on different chromosomes. Linked genes do not assort independently, because the alleles on one chromosome move together into the same gamete when the homologous chromosomes separate in meiosis. So a double heterozygote with linked genes, AB/ab, makes only AB and ab gametes, and the new combinations Ab and aB are not formed."
+    },
+    {
+      "marks": 12,
+      "prompt": "Genes A and B are linked, with A and B on one chromosome and a and b on its homologue. Show the gametes and offspring of a cross between this plant and a plant with genotype aabb, and compare the result with that expected if the genes were unlinked.",
+      "model": "Key: A = dominant allele of gene 1, a = recessive; B = dominant allele of gene 2, b = recessive. Parents' genotypes: AB/ab × ab/ab. Gametes: AB, ab × ab. Offspring genotypes: AB/ab (AaBb) and ab/ab (aabb), 1 : 1. Offspring phenotypes: 1 showing both dominant traits : 1 showing both recessive traits. If the genes were unlinked, AaBb × aabb would give four phenotypes in a 1 : 1 : 1 : 1 ratio, because the gametes would be AB, Ab, aB and ab. Diagram: (a) unlinked genes: two separate chromosome pairs (A/a on one, B/b on the other) giving gametes AB, Ab, aB, ab; (b) linked genes: one chromosome pair, with A and B on one homologue and a and b on the other, giving gametes AB and ab."
+    },
+    {
+      "marks": 9,
+      "prompt": "A fruit fly heterozygous for body colour and wing shape is test-crossed. Most offspring resemble one or other parent. Explain this result.",
+      "model": "The genes for body colour and wing shape are on the same chromosome, so they are linked and do not assort independently. The fly's alleles on each chromosome are inherited together, so most offspring show the parental combinations: grey normal-winged or black vestigial-winged. The few offspring with other combinations arise because linked genes are occasionally separated, as a result of crossing over, so they are rare rather than the 1 : 1 : 1 : 1 expected for unlinked genes."
+    }
+  ]
+}
