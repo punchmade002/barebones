@@ -812,6 +812,5817 @@
    }
   ]
  },
+ "bio11-s1": {
+  "keyTerms": [
+   {
+    "definition": "A single, very long molecule of DNA together with proteins, found in the nucleus of a eukaryotic cell and carrying many genes in a fixed linear order.",
+    "term": "Chromosome"
+   },
+   {
+    "definition": "The DNA and protein material of the chromosomes when the cell is not dividing, uncoiled and spread through the nucleus.",
+    "term": "Chromatin"
+   },
+   {
+    "definition": "The two chromosomes of a pair, one from each parent, which are the same length and carry the same genes at the same positions.",
+    "term": "Homologous chromosomes"
+   },
+   {
+    "definition": "Any chromosome that is not a sex chromosome.",
+    "term": "Autosome"
+   },
+   {
+    "definition": "A section of DNA on a chromosome that codes for a protein.",
+    "term": "Gene"
+   },
+   {
+    "definition": "The fixed position of a gene on a particular chromosome.",
+    "term": "Locus"
+   },
+   {
+    "definition": "The DNA whose base sequence is used to make a protein, forming the protein-coding parts of genes.",
+    "term": "Coding DNA"
+   },
+   {
+    "definition": "All DNA that does not code for protein, about 98% of the human genome.",
+    "term": "Non-coding DNA"
+   },
+   {
+    "definition": "A non-coding section within a gene that is copied but removed from the mRNA before it is used to make protein.",
+    "term": "Intron"
+   },
+   {
+    "definition": "A small, positively charged protein around which the DNA of a eukaryotic chromosome is wound.",
+    "term": "Histone"
+   },
+   {
+    "definition": "A bead of DNA wrapped nearly twice around a core of eight histone proteins.",
+    "term": "Nucleosome"
+   },
+   {
+    "definition": "One of the two identical copies of a replicated chromosome, joined to its sister at the centromere.",
+    "term": "Chromatid"
+   },
+   {
+    "definition": "The constricted region of a chromosome where the sister chromatids are held together and spindle fibres attach.",
+    "term": "Centromere"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A chromosome is DNA together with protein, and it carries genes in a fixed linear order.",
+    "h": "What a chromosome is",
+    "points": [
+     "A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell and carries many genes in a fixed linear order along its length.",
+     "Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, and cannot be seen as separate threads.",
+     "Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. Chromatin and chromosomes are the same material in two states.",
+     "Human body cells are diploid, with 46 chromosomes in 23 pairs: 22 pairs of autosomes and one pair of sex chromosomes, XX in females and XY in males. How the sex chromosomes determine sex is covered in “Sex determination”.",
+     "Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.",
+     "The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism.",
+     "The human genome, one set of 23 chromosomes, is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across.",
+     "Prokaryotes differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones, plus plasmids (see “Prokaryotic and eukaryotic cells”)."
+    ]
+   },
+   {
+    "b": "Histones are the proteins that pack eukaryotic DNA into a small space.",
+    "h": "Histones and how DNA is packed (Higher Level only)",
+    "points": [
+     "Histones are small proteins around which the DNA of a eukaryotic chromosome is wound. They are positively charged, while the phosphate groups of the DNA backbone are negatively charged, so DNA binds tightly to them.",
+     "The DNA wraps nearly twice around a core of eight histone proteins, forming a bead called a nucleosome. Nucleosomes are joined by short stretches of linker DNA, like beads on a string.",
+     "The string of nucleosomes coils and loops further, and before division it condenses into the visible chromosome.",
+     "Histones do three jobs: they pack a very long DNA molecule into a small nucleus, they protect the DNA and keep it untangled during division, and they help control which genes can be read.",
+     "DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active.",
+     "Chemical changes to histones are one of the epigenetic mechanisms described in “Genetic and epigenetic mechanisms”.",
+     "Diagram: DNA double helix wound around histone cores to form nucleosomes, then the coiled chromatin fibre, then a condensed chromosome; label DNA, histone, nucleosome, chromatin and chromosome."
+    ]
+   },
+   {
+    "h": "Chromatids and the centromere (Higher Level only)",
+    "points": [
+     "Before a cell divides, each chromosome's DNA is copied (see “DNA replication and mitosis in the cell cycle”). The two identical copies stay joined together; each copy is a chromatid.",
+     "A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles.",
+     "The centromere is the constricted region of a chromosome where the two sister chromatids are held together. Spindle fibres attach at the centromere during division and pull the chromatids apart to opposite poles (see “Mitosis and meiosis”).",
+     "Once separated, each chromatid is a chromosome in its own right.",
+     "The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length. Its position, together with length and banding pattern, is used to identify each chromosome.",
+     "Before replication, a chromosome is one DNA molecule and one chromatid. After replication it is still one chromosome but has two chromatids, the X shape usually drawn; the two arms of the X are chromatids, not separate chromosomes.",
+     "Homologous chromosomes may carry different alleles, whereas sister chromatids are identical copies of each other.",
+     "Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, with the same locus marked on each, labelled homologous chromosomes."
+    ]
+   },
+   {
+    "h": "The role of a gene",
+    "points": [
+     "A gene is a section of DNA on a chromosome that codes for a protein (see “Genes, proteins and traits”).",
+     "Each gene has a fixed position on a particular chromosome, called its locus (plural loci). The locus of a gene is the same in every member of a species.",
+     "A gene is the unit of heredity. It carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA.",
+     "Through the protein it codes for, a gene controls a trait. The gene is copied and passed to daughter cells in division and to offspring in gametes.",
+     "Humans have about 20,000 protein-coding genes spread across the 23 kinds of chromosome; each chromosome carries hundreds to thousands of genes.",
+     "Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles (see “Key concepts of information transfer”)."
+    ]
+   },
+   {
+    "h": "Coding and non-coding DNA",
+    "points": [
+     "Coding DNA is DNA whose base sequence is used to make a protein: the protein-coding parts of genes. Only about 1–2% of human DNA is coding DNA.",
+     "Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome.",
+     "Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed.",
+     "Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied but removed from the mRNA before it is used to make protein.",
+     "Repeated sequences, such as the DNA at centromeres and at the ends of chromosomes (telomeres), protect the chromosome and help it divide correctly. Some non-coding DNA has a function that is still unknown.",
+     "Non-coding DNA was once called “junk DNA”, but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.",
+     "Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling.",
+     "Diagram: a stretch of a chromosome's DNA drawn as a line, with two genes shown as boxes (each with a regulatory region at one end and coding sections separated by an intron), and the DNA between genes labelled non-coding; label gene, coding DNA, non-coding DNA, regulatory sequence and intron."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A chromosome is a single, very long molecule of DNA together with proteins, found in the nucleus of a eukaryotic cell. It carries many genes in a fixed linear order along its length. A gene is a section of DNA on a chromosome that codes for a protein, and it has a fixed position on the chromosome called its locus. Through the protein it codes for, a gene controls a trait, and it is copied and passed on to daughter cells and to offspring in gametes.",
+    "prompt": "Describe the structure of a chromosome and explain the role of a gene.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The diagram shows a replicated chromosome as an X shape: two identical sister chromatids joined at the centromere, with the arms and a gene locus at the same position on both chromatids labelled. Histones are small, positively charged proteins around which DNA is wound. The DNA wraps nearly twice around a core of eight histones to form a nucleosome, and the nucleosomes coil into a condensed chromosome. Histones pack a very long DNA molecule into a small nucleus, protect the DNA and keep it untangled during division, and help control gene expression, since tightly wound DNA cannot be read and its genes are switched off. The centromere is the constricted region where the two sister chromatids are held together. Spindle fibres attach there, so the chromatids can be pulled apart to opposite poles during division.",
+    "prompt": "Draw a labelled diagram of a replicated chromosome. Explain the role of histones and of the centromere.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Coding DNA is DNA whose base sequence is used to make a protein; it forms the protein-coding parts of genes and is only about 1–2% of human DNA. Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome. Two functions of non-coding DNA: regulatory sequences act as switches that control when, where and how much a gene is expressed; and repeated sequences at centromeres and telomeres protect the chromosome and help it divide correctly. Genes for functional RNA, such as rRNA and tRNA, are a further function.",
+    "prompt": "Distinguish between coding and non-coding DNA, and give two functions of non-coding DNA.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s10": {
+  "keyTerms": [
+   {
+    "definition": "The pair of chromosomes that decide a person's sex: XX in females and XY in males.",
+    "term": "Sex chromosomes"
+   },
+   {
+    "definition": "A chromosome that is not a sex chromosome; humans have 22 pairs.",
+    "term": "Autosome"
+   },
+   {
+    "definition": "A photograph or diagram of a cell's chromosomes arranged in their pairs by size.",
+    "term": "Karyotype"
+   },
+   {
+    "definition": "The sex-determining region of the Y chromosome, which switches on testis development in an XY embryo.",
+    "term": "SRY gene"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Human chromosomes",
+    "points": [
+     "The numbers are taught in “Chromosome structure and genes”: 46 chromosomes in 23 pairs, 22 pairs of autosomes (the same in both sexes) and one pair of sex chromosomes, which decide the person's sex.",
+     "Females have two X chromosomes (XX); males have one X and one Y (XY).",
+     "The X is a large chromosome carrying roughly 800–900 protein-coding genes.",
+     "The Y is much smaller and carries well under 100 genes, most of them concerned with male development and sperm production.",
+     "A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY.",
+     "Diagram: a simplified karyotype of 22 numbered autosome pairs plus the sex-chromosome pair, with a female (XX) and a male (XY) version of pair 23, the Y drawn clearly smaller than the X."
+    ]
+   },
+   {
+    "h": "Gametes and the cross",
+    "points": [
+     "Gametes are haploid, with 23 chromosomes: 22 autosomes and one sex chromosome.",
+     "All of a woman's eggs carry an X (23,X).",
+     "A man's sperm carry either an X (23,X) or a Y (23,Y), in equal numbers, because the X and Y separate into different cells in meiosis.",
+     "Parents' phenotypes: female × male.",
+     "Parents' genotypes: XX × XY.",
+     "Gametes: X × X, Y.",
+     "Punnett square: XX, XX / XY, XY (or 2 × 1: XX, XY).",
+     "Offspring genotypes: 1 XX : 1 XY.",
+     "Offspring phenotypes: 1 female : 1 male (50% each).",
+     "Diagram: the Punnett square of this cross, with the mother's egg (X) on one side and the father's sperm (X and Y) on the other, each box labelled with genotype and sex."
+    ]
+   },
+   {
+    "h": "What decides the sex of a child",
+    "points": [
+     "The sex of a child is decided at fertilisation by the sperm: an X-carrying sperm gives a girl (XX); a Y-carrying sperm gives a boy (XY).",
+     "So the father's gamete decides the sex; the mother always gives an X.",
+     "Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children.",
+     "Across a large population the sex ratio is close to 1 : 1.",
+     "A boy receives his X from his mother and his Y from his father; a girl receives one X from each parent.",
+     "This is why X-linked traits pass from mother to son; see “Sex-linked traits”."
+    ]
+   },
+   {
+    "h": "How the Y chromosome causes maleness",
+    "points": [
+     "The Y chromosome carries the SRY gene (sex-determining region of the Y).",
+     "In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads into testes.",
+     "The testes then make testosterone, which brings about the development of the male reproductive system.",
+     "In an XX embryo, with no Y and so no SRY, the gonads develop into ovaries and the female reproductive system develops.",
+     "So it is the presence of a Y (SRY), not the number of X chromosomes, that makes the embryo male."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A human male has sex chromosomes XY and a human female has XX. A male's sperm carry either an X or a Y (23,X or 23,Y), in equal numbers. A female's eggs all carry an X (23,X).",
+    "prompt": "State the sex chromosomes found in a human male and female, and the sex chromosomes found in their gametes.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Parents' phenotypes: female × male. Parents' genotypes: XX × XY. Gametes: X × X, Y. Punnett square: XX, XX / XY, XY (or 2 × 1: XX, XY). Offspring genotypes: 1 XX : 1 XY. Offspring phenotypes: 1 female : 1 male (50% each). Explanation: all eggs carry X, and half the sperm carry X and half carry Y, because the X and Y separate into different cells in meiosis. The sperm that fertilises the egg decides the sex, and each fertilisation is independent, so each pregnancy has a 1 in 2 chance of a daughter.",
+    "prompt": "Using a genetic cross, show how sex is inherited in humans and explain why the chance of having a daughter is 50%.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "No. Each fertilisation is independent, so the chance of a daughter stays at 1 in 2 (50%), whatever the sex of earlier children. The sex depends on which sperm fertilises the egg: an X-carrying sperm gives a girl and a Y-carrying sperm gives a boy.",
+    "prompt": "A couple have three sons. Explain whether their next child is more likely to be a daughter.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s11": {
+  "keyTerms": [
+   {
+    "definition": "A trait controlled by a gene on a sex chromosome, most often the X chromosome.",
+    "term": "Sex-linked trait"
+   },
+   {
+    "definition": "A family-tree diagram showing which members of a family have a trait.",
+    "term": "Pedigree"
+   },
+   {
+    "definition": "Coloured-dot test charts used to detect red-green colour blindness.",
+    "term": "Ishihara plates"
+   },
+   {
+    "definition": "The muscle protein whose lack causes Duchenne muscular dystrophy.",
+    "term": "Dystrophin"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What sex-linkage is (Higher Level only)",
+    "points": [
+     "Sex-linked genes are almost all on the X chromosome (X-linked), because the Y carries very few genes.",
+     "A sex-linked trait is a trait controlled by such a gene; the Y has no matching allele for most X-linked genes.",
+     "Females (XX) have two copies of each X-linked gene, so they can be homozygous or heterozygous.",
+     "A heterozygous female with one recessive allele is a carrier and does not show the trait.",
+     "Males (XY) have only one copy, so whatever allele their single X carries is expressed.",
+     "A male cannot be a carrier, and one recessive allele is enough for him to show the trait.",
+     "X-linked recessive conditions are much more common in males than in females.",
+     "A female shows the condition only if she inherits the recessive allele from both parents (an affected father and a carrier or affected mother).",
+     "A father passes his X to all his daughters and his Y to all his sons, so an affected father never passes an X-linked condition to his sons.",
+     "All his daughters are at least carriers, and a son's X-linked allele always comes from his mother."
+    ]
+   },
+   {
+    "h": "Symbols for X-linked alleles (Higher Level only)",
+    "points": [
+     "Write the allele as a superscript on the X, and the Y with no allele.",
+     "Colour blindness: Xᴮ = normal colour vision, Xᵇ = colour blind. Haemophilia: Xᴴ = normal clotting, Xʰ = haemophilia.",
+     "Colour-blindness genotypes: female XᴮXᴮ (normal), XᴮXᵇ (carrier), XᵇXᵇ (colour blind); male XᴮY (normal), XᵇY (colour blind).",
+     "Use the letters a question gives."
+    ]
+   },
+   {
+    "h": "Red-green colour blindness (Higher Level only)",
+    "points": [
+     "Red-green colour blindness is an X-linked recessive condition in which a person has difficulty telling red and green apart.",
+     "The genes for the red- and green-sensitive light-absorbing pigments of the cone cells of the retina are on the X chromosome; the recessive allele gives a pigment that is missing or works abnormally.",
+     "It affects about 1 in 12 men (8%) and about 1 in 200 women (0.5%) of northern European ancestry.",
+     "It is detected with coloured-dot test charts (Ishihara plates).",
+     "It is not treatable, but most people adapt to it."
+    ]
+   },
+   {
+    "h": "Haemophilia (Higher Level only)",
+    "points": [
+     "Haemophilia is an X-linked recessive condition in which blood does not clot properly because a clotting protein is missing or faulty.",
+     "Haemophilia A lacks clotting factor VIII; haemophilia B lacks factor IX.",
+     "Bleeding after injury lasts much longer, and bleeding can occur into joints and muscles.",
+     "Haemophilia A affects about 1 in 5,000 male births.",
+     "It is treated by injections of the missing clotting factor, now mostly produced by genetically engineered cells (detail in “Genetic engineering”)."
+    ]
+   },
+   {
+    "h": "A historical example: Queen Victoria (Higher Level only)",
+    "points": [
+     "Queen Victoria (1819–1901) was a carrier of haemophilia.",
+     "Her son Leopold had haemophilia; through two of her daughters, who were carriers, it passed into the royal families of Russia (Tsarevich Alexei, son of Tsar Nicholas II) and Spain."
+    ]
+   },
+   {
+    "h": "Duchenne muscular dystrophy (Higher Level only)",
+    "points": [
+     "Duchenne muscular dystrophy is another X-linked recessive condition, caused by a lack of the muscle protein dystrophin, which causes progressive muscle weakness.",
+     "It is almost always in boys."
+    ]
+   },
+   {
+    "h": "Carrier female × normal male (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: normal-vision (carrier) female × normal-vision male.",
+     "Parents' genotypes: carrier female XᴮXᵇ × normal male XᴮY.",
+     "Gametes: carrier female Xᴮ, Xᵇ × normal male Xᴮ, Y.",
+     "Punnett square: XᴮXᴮ, XᴮY / XᴮXᵇ, XᵇY.",
+     "Offspring genotypes and phenotypes: 1 normal female (XᴮXᴮ) : 1 carrier female (XᴮXᵇ) : 1 normal male (XᴮY) : 1 colour-blind male (XᵇY).",
+     "Half the sons are expected to be colour blind and half the daughters carriers; no daughters are colour blind; 25% of all children are colour blind.",
+     "Diagram: the Punnett square for this cross, with the mother's gametes Xᴮ and Xᵇ on one side and the father's Xᴮ and Y on the other, each box labelled with genotype and phenotype (normal female, carrier female, normal male, colour-blind male)."
+    ]
+   },
+   {
+    "h": "Normal female × affected male (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: normal female × affected male.",
+     "Parents' genotypes: normal female XᴴXᴴ × affected male XʰY.",
+     "Gametes: normal female Xᴴ × affected male Xʰ, Y.",
+     "Offspring: XᴴXʰ (carrier daughters) and XᴴY (normal sons), 1 : 1.",
+     "All daughters are carriers; no children have haemophilia."
+    ]
+   },
+   {
+    "h": "Carrier female × colour-blind male (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: carrier female × colour-blind male.",
+     "Parents' genotypes: carrier female XᴮXᵇ × colour-blind male XᵇY.",
+     "Gametes: carrier female Xᴮ, Xᵇ × colour-blind male Xᵇ, Y.",
+     "Offspring: XᴮXᵇ (carrier female), XᵇXᵇ (colour-blind female), XᴮY (normal male), XᵇY (colour-blind male), 1 : 1 : 1 : 1.",
+     "Half the daughters and half the sons are colour blind; this is how a colour-blind daughter can arise."
+    ]
+   },
+   {
+    "h": "Affected female × normal male (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: affected female × normal male.",
+     "Parents' genotypes: affected female XʰXʰ × normal male XᴴY.",
+     "Gametes: affected female Xʰ × normal male Xᴴ, Y.",
+     "Offspring: XᴴXʰ (carrier daughters) and XʰY (sons with haemophilia).",
+     "All sons are affected; all daughters are carriers.",
+     "Females with haemophilia are very rare; this cross is used to show the pattern."
+    ]
+   },
+   {
+    "h": "Pedigrees (Higher Level only)",
+    "points": [
+     "A pedigree is a family-tree diagram showing which members of a family have a trait.",
+     "Symbols: square = male; circle = female; shaded = affected; half-shaded (or a dot in the centre) = carrier.",
+     "A horizontal line joining a male and a female = parents; a vertical line down to a horizontal line = their children, in birth order from left to right.",
+     "Generations are numbered I, II, III and individuals 1, 2, 3 within each.",
+     "Signs of an X-linked recessive trait in a pedigree: many more affected males than females.",
+     "Affected males usually have unaffected parents (the mother is a carrier).",
+     "The trait can skip a generation, passing from an affected man through his carrier daughters to his grandsons.",
+     "It is never passed from father to son.",
+     "Method: 1. write XY for every male and XX for every female.",
+     "2. Fill in the alleles of affected males (XʰY) and unaffected males (XᴴY), which follow directly from their phenotype.",
+     "3. Any daughter of an affected male is at least a carrier; any mother of an affected son is a carrier or affected.",
+     "4. Use these to fill in the remaining females.",
+     "5. Then work any further cross with a Punnett square.",
+     "Diagram: a three-generation pedigree of an X-linked recessive trait: generation I, a normal man and a carrier woman; generation II, an affected son, a normal son, a carrier daughter and a normal daughter; generation III, the carrier daughter's children with a normal man, including an affected grandson. Label the symbols and the generations."
+    ]
+   },
+   {
+    "h": "Y-linked traits (Higher Level only)",
+    "points": [
+     "Genes on the Y chromosome (e.g. SRY, in “Sex determination”) are passed only from father to son and are found only in males."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The gene for red-green colour blindness is on the X chromosome, and the Y has no matching allele. Males have one X, so a single recessive allele on it is expressed. Females have two X chromosomes, so a female needs the recessive allele on both X chromosomes to show the condition; one copy makes her a carrier. Males are therefore affected far more often than females.",
+    "prompt": "Explain why red-green colour blindness is more common in males than in females.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Parents' phenotypes: carrier female × normal male. Parents' genotypes: XᴴXʰ × XᴴY. Gametes: Xᴴ, Xʰ × Xᴴ, Y. Punnett square: XᴴXᴴ, XᴴY / XᴴXʰ, XʰY. Offspring: XᴴXᴴ (normal daughter), XᴴXʰ (carrier daughter), XᴴY (normal son), XʰY (son with haemophilia), in a 1 : 1 : 1 : 1 ratio. Probability: 50% of sons will have haemophilia, and 25% of all children will have haemophilia.",
+    "prompt": "A woman who is a carrier of haemophilia has children with a man with normal blood clotting. Using a genetic cross, give the genotypes and phenotypes of the possible children, and the probability that a son will have haemophilia.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The woman's father was colour blind (XᵇY), so she received Xᵇ from him; she has normal vision, so she is XᴮXᵇ. The man is colour blind, so he is XᵇY. Cross: XᴮXᵇ × XᵇY, with gametes Xᴮ, Xᵇ × Xᵇ, Y. Offspring: XᴮXᵇ (carrier daughter), XᵇXᵇ (colour-blind daughter), XᴮY (normal son), XᵇY (colour-blind son). Half of the daughters are XᵇXᵇ, so the probability that the daughter is colour blind is 1/2.",
+    "prompt": "A colour-blind man and a woman with normal vision whose father was colour blind have a daughter. Give the parents' genotypes and the probability that the daughter is colour blind.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s12": {
+  "keyTerms": [
+   {
+    "definition": "A trait controlled by many genes, each with a small effect, showing continuous variation.",
+    "term": "Polygenic trait"
+   },
+   {
+    "definition": "A condition that depends on many genes plus lifestyle and environment.",
+    "term": "Multifactorial disease"
+   },
+   {
+    "definition": "Changes that switch genes on or off without changing the DNA sequence, and which can sometimes be passed on.",
+    "term": "Epigenetics"
+   },
+   {
+    "definition": "Advice to families on the risks of a single-gene disorder for their future children, based on Mendelian predictions.",
+    "term": "Genetic counselling"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What Mendelian genetics is",
+    "points": [
+     "Mendelian genetics is the study of how traits controlled by single genes are inherited, using Mendel's principles.",
+     "Its principles: each organism has two alleles of each gene, one from each parent, and the two alleles separate into different gametes.",
+     "One allele can be dominant over the other, and alleles of different genes are inherited independently.",
+     "It predicts offspring ratios with genetic crosses (as in “Monohybrid crosses”).",
+     "A Mendelian (single-gene) trait is controlled by one gene with clear alternative forms.",
+     "This gives discontinuous variation: an individual is in one category or another, e.g. tall or dwarf pea plants, or having cystic fibrosis or not."
+    ]
+   },
+   {
+    "h": "Benefits: the predictive power of Mendelian genetics",
+    "points": [
+     "Predicting offspring: knowing the parents' genotypes, a cross predicts the probability of each genotype and phenotype in the offspring; for example, two carriers of cystic fibrosis have a 1 in 4 chance of an affected child (the cross is in “Monohybrid crosses”).",
+     "Genetic counselling and screening in medicine: families with a history of a single-gene disorder can be told the risks to future children.",
+     "Carrier testing tells people whether they carry a recessive allele before they have children.",
+     "Cystic fibrosis is an important example in Ireland, which has the highest rate of cystic fibrosis in the world; about 1 in 19 Irish people is a carrier.",
+     "Other single-gene disorders whose inheritance follows Mendel's rules: sickle-cell anaemia (recessive), Huntington's disease (dominant: an affected heterozygous parent has a 1 in 2 chance of passing it to each child), haemophilia and colour blindness (sex-linked; see “Sex-linked traits”).",
+     "Identifying an unknown genotype: a test cross or a pedigree reveals whether an individual carries a hidden recessive allele, e.g. checking whether a breeding animal carries an allele for an inherited disease before it is used for breeding.",
+     "Plant and animal breeding: breeders use Mendel's principles to produce true-breeding varieties and to combine desirable traits from two parents (e.g. a high yield from one variety with disease resistance from another) into one variety, predicting how many offspring of each kind to expect.",
+     "Foundation of modern genetics: Mendel's idea that traits are passed on by separate, unchanging units (genes) that segregate in gametes is the basis of later discoveries, such as genes being carried on chromosomes, DNA being the genetic material, and gene mapping.",
+     "It also explains how hidden recessive alleles keep variation in a population, which natural selection acts on (see “Variation”).",
+     "Genetic databases and testing: modern genetic tests and genome databases identify alleles known to cause single-gene diseases, and Mendel's rules turn a test result into a risk for a person's children (database searches are in “Bioinformatics: genome databases”)."
+    ]
+   },
+   {
+    "h": "Limitations: complex traits and the environment",
+    "points": [
+     "Complex traits involving multiple gene interactions (polygenic traits): most traits are controlled by many genes, each with a small effect, e.g. human height, skin colour and eye colour.",
+     "They show continuous variation (a range of values, not a few categories), so they don't give simple ratios such as 3 : 1 and can't be predicted with a Punnett square.",
+     "Genes interacting with one another: the effect of one gene can depend on other genes, e.g. a gene that blocks all pigment production (as in albinism) hides the effects of the other genes for colour.",
+     "The offspring ratios no longer match the simple Mendelian ratios.",
+     "Environmental factors: the phenotype results from the genotype and the environment together.",
+     "A person's height depends on diet and health in childhood as well as genes; identical twins, with the same genotype, can differ in height and weight.",
+     "The flowers of some hydrangea plants are blue in acidic soil and pink in alkaline soil; a plant grown in poor light or poor soil is shorter than its genotype allows.",
+     "Mendelian ratios can't predict traits strongly affected by the environment."
+    ]
+   },
+   {
+    "h": "Limitations: multifactorial diseases and epigenetics",
+    "points": [
+     "Common diseases are multifactorial: conditions such as heart disease, type 2 diabetes and most cancers depend on many genes plus lifestyle and environment (diet, exercise, smoking).",
+     "A person's risk can be estimated but not predicted from a simple cross.",
+     "Genetic susceptibility to cancer is in “Causes, prevention and treatment of cancer”.",
+     "Epigenetic effects: environment and behaviour can switch genes on or off without changing the DNA sequence, and some such changes can be passed on, which Mendel's laws don't account for (see “Genetic and epigenetic mechanisms”)."
+    ]
+   },
+   {
+    "h": "Limitations: exceptions to Mendel's rules",
+    "points": [
+     "Linked genes on the same chromosome don't assort independently (“Linkage”).",
+     "With incomplete dominance the heterozygote is intermediate, so the F2 gives 1 : 2 : 1 not 3 : 1 (“Incomplete dominance”).",
+     "Sex-linked genes give different results in sons and daughters (“Sex-linked traits”).",
+     "Many genes have more than two alleles in a population, e.g. the ABO blood group gene has three (A, B and O)."
+    ]
+   },
+   {
+    "h": "Limitations: non-nuclear inheritance and probability",
+    "points": [
+     "Non-nuclear inheritance: genes in mitochondria (and chloroplasts) are passed on mainly through the egg's cytoplasm, so they are inherited from the mother only and don't follow Mendel's rules (see “Nuclear and non-nuclear inheritance”).",
+     "Predictions are probabilities: a ratio describes chances, not exact outcomes, and is reliable only for large numbers of offspring.",
+     "Human families are small, so a couple with a 1 in 4 risk may have no affected children or several.",
+     "Mendelian genetics also can't say which child will be affected."
+    ]
+   },
+   {
+    "h": "Heredity in the modern world",
+    "points": [
+     "Mendelian genetics remains accurate and useful for single-gene traits, in genetic counselling, carrier testing and breeding.",
+     "Most human traits and common diseases are complex.",
+     "Modern genetics adds polygenic risk, gene–environment interaction, epigenetics and whole-genome sequencing to Mendel's principles rather than replacing them."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Predicting offspring: knowing the parents' genotypes, a genetic cross gives the probability of each genotype and phenotype; for example, two carriers of cystic fibrosis have a 1 in 4 chance of an affected child. Carrier testing and breeding: breeders use Mendel's principles to combine a high yield from one variety with disease resistance from another, predicting how many offspring of each kind to expect.",
+    "prompt": "Give two benefits of Mendelian genetics in the modern world, with an example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Height is a polygenic trait: it is controlled by many genes, each with a small effect, so it shows continuous variation rather than a few categories, and it does not give simple ratios such as 3 : 1 that a Punnett square can predict. Height is also strongly affected by the environment; for example, a child's height depends on diet and health in childhood as well as on genes. Ratios are reliable only for large numbers of offspring, so they cannot predict an individual child's height.",
+    "prompt": "Explain why Mendel's Laws cannot be used to predict the height of a child from the height of its parents.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Benefits: Mendelian genetics predicts offspring probabilities with genetic crosses, for example the 1 in 4 risk of cystic fibrosis for two carriers. It is used in genetic counselling and carrier testing, and in plant and animal breeding to combine desirable traits. It is the foundation of modern genetics, including the idea that genes are carried on chromosomes. Limitations: polygenic traits such as height show continuous variation and do not give simple ratios. Environmental factors, such as diet and health, change the phenotype. Common diseases such as heart disease and type 2 diabetes are multifactorial. Epigenetic changes switch genes on or off without changing the DNA sequence. Judgement: Mendelian genetics remains accurate and useful for single-gene traits, while most human traits and common diseases are complex, so modern genetics adds polygenic risk, gene-environment interaction and epigenetics to Mendel's principles rather than replacing them.",
+    "prompt": "Identify the benefits and limitations of Mendelian genetics for our understanding of heredity.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s2": {
+  "keyTerms": [
+   {
+    "definition": "A group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring.",
+    "term": "Species"
+   },
+   {
+    "definition": "The passing of characteristics (traits), by means of genes, from parents to offspring.",
+    "term": "Heredity"
+   },
+   {
+    "definition": "A haploid sex cell, such as a sperm or egg in animals, that fuses with another gamete in sexual reproduction.",
+    "term": "Gamete"
+   },
+   {
+    "definition": "The fusion of the nuclei of a male and a female gamete to form a diploid zygote.",
+    "term": "Fertilisation"
+   },
+   {
+    "definition": "One of the alternative forms of a gene, found at the same locus on homologous chromosomes.",
+    "term": "Allele"
+   },
+   {
+    "definition": "Having two identical alleles of a gene, such as RR or rr.",
+    "term": "Homozygous"
+   },
+   {
+    "definition": "Having two different alleles of a gene, such as Rr.",
+    "term": "Heterozygous"
+   },
+   {
+    "definition": "The genetic make-up of an organism: the alleles it has for a particular trait.",
+    "term": "Genotype"
+   },
+   {
+    "definition": "The observable characteristics of an organism that result from its genotype and environment.",
+    "term": "Phenotype"
+   },
+   {
+    "definition": "An allele that is expressed in the phenotype of a heterozygote and masks the other allele.",
+    "term": "Dominant allele"
+   },
+   {
+    "definition": "An allele expressed only in the homozygous condition, when no dominant allele is present.",
+    "term": "Recessive allele"
+   },
+   {
+    "definition": "A heterozygous individual who carries a recessive allele for a condition but does not show it.",
+    "term": "Carrier"
+   },
+   {
+    "definition": "The process by which the information in a gene is used to make its product, so that the gene affects the phenotype.",
+    "term": "Gene expression"
+   },
+   {
+    "definition": "A change in gene expression caused by chemical tags on the DNA or histones, not by a change in the base sequence.",
+    "term": "Epigenetic expression"
+   },
+   {
+    "definition": "Neither allele is dominant, so the heterozygote has a phenotype intermediate between the two homozygotes.",
+    "term": "Incomplete dominance"
+   },
+   {
+    "definition": "The tendency of genes on the same chromosome to be inherited together, so they do not assort independently.",
+    "term": "Linkage"
+   },
+   {
+    "definition": "The location of a gene on a sex chromosome, usually the X, so its inheritance pattern differs between males and females.",
+    "term": "Sex-linkage"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Species, heredity and how information passes between generations",
+    "points": [
+     "A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring. A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.",
+     "The definition cannot be applied to organisms that reproduce only asexually, or to fossils. How new species form is covered in “Evidence for evolution”.",
+     "Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. Genetics is the study of heredity and of variation.",
+     "A chromosome is the structure that carries genes from one generation to the next (see “Chromosome structure and genes”). Body cells carry chromosomes in homologous pairs, and each gamete carries one chromosome from each pair.",
+     "A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.",
+     "Gametes are haploid, with one set of chromosomes, one from each pair; a human gamete has 23 chromosomes. They are made by meiosis (see “Mitosis and meiosis”).",
+     "Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other (see “Variation”).",
+     "Asexual reproduction involves one parent and no gametes, and produces genetically identical offspring, called clones.",
+     "Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote, the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.",
+     "The zygote divides by mitosis, so every body cell carries the same set of chromosomes.",
+     "Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis."
+    ]
+   },
+   {
+    "h": "Genes and alleles",
+    "points": [
+     "An allele is one of the alternative forms of a gene, found at the same locus on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.",
+     "In peas, the gene for seed shape has an allele for round seeds (R) and one for wrinkled seeds (r).",
+     "A diploid organism has two alleles for each autosomal gene, one on each homologous chromosome, one inherited from each parent.",
+     "A population may have more than two alleles of a gene, but each individual carries only two: the human ABO blood-group gene has three alleles (A, B and O) in the population.",
+     "Homozygous means having two identical alleles of a gene (RR or rr). A homozygous organism is also called pure-breeding, because it passes on the same allele in every gamete.",
+     "Heterozygous means having two different alleles of a gene (Rr). A heterozygous organism is also called a hybrid for that gene.",
+     "Diagram: a pair of homologous chromosomes with one gene locus marked, one chromosome carrying R and the other r (heterozygous); a second pair carrying r and r (homozygous); label homologous chromosomes, locus and allele."
+    ]
+   },
+   {
+    "h": "Genotype and phenotype",
+    "points": [
+     "Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, e.g. RR, Rr or rr.",
+     "Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, e.g. round or wrinkled seeds, or blood group A.",
+     "Phenotype = genotype + environment. The genotype sets the possible range, and the environment affects how it is expressed.",
+     "Identical twins have the same genotype but may differ in mass because of diet and exercise.",
+     "Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil.",
+     "A plant with the genes for chlorophyll is pale yellow if grown in the dark.",
+     "Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype; how to find the genotype (the test cross) is covered in “Monohybrid crosses”."
+    ]
+   },
+   {
+    "h": "Dominant and recessive alleles",
+    "points": [
+     "A dominant allele is expressed in the phenotype of a heterozygote, masking the effect of the other allele. It is written with a capital letter (R), and a dominant trait shows in both RR and Rr.",
+     "A recessive allele is expressed in the phenotype only when no dominant allele is present, that is, only in the homozygous condition (rr). It is written with the lower-case letter (r).",
+     "In a heterozygote, a recessive allele is present but hidden, and can still be passed on.",
+     "Often the dominant allele codes for a working protein and the recessive allele for a non-working one. One working copy makes enough protein, so Rr looks the same as RR.",
+     "In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle (the full chain is in “Genes, proteins and traits”).",
+     "Dominant does not mean common or better. The allele causing Huntington's disease is dominant but rare, and harmful.",
+     "Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.",
+     "A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it. The term is used in “Sex-linked traits”."
+    ]
+   },
+   {
+    "h": "Gene expression",
+    "points": [
+     "Gene expression is the process by which the information in a gene is used to make its product (a protein or a functional RNA), so that the gene affects the phenotype.",
+     "A gene that is being used is switched on (expressed); one that is not is switched off.",
+     "Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised (the insulin and haemoglobin examples are in “Genes, proteins and traits”).",
+     "Expression is controlled by regulatory DNA (see “Chromosome structure and genes”), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.",
+     "How the environment and behaviour change gene expression is covered in “Genetic and epigenetic mechanisms”."
+    ]
+   },
+   {
+    "b": "Definitions and examples for the four Higher Level terms; full treatment is in the notes named in each point.",
+    "h": "Further key terms (Higher Level only)",
+    "points": [
+     "Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones that switch genes on or off. The tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible. Full treatment is in “Genetic and epigenetic mechanisms”.",
+     "Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote. Crosses are in “Incomplete dominance”.",
+     "Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently. Detail is in “Linkage”.",
+     "Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males. Detail is in “Sex-linked traits”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(a) A gene is a section of DNA that controls a trait, such as seed shape in peas. An allele is one of the alternative forms of that gene, such as round (R) or wrinkled (r) seeds, found at the same locus on homologous chromosomes. (b) Genotype is the genetic make-up of an organism, the alleles it has for a trait, written with letters such as RR, Rr or rr. Phenotype is the observable characteristic that results from the genotype, such as round or wrinkled seeds, or blood group A.",
+    "prompt": "Distinguish between (a) a gene and an allele, (b) genotype and phenotype.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A dominant allele is expressed in the phenotype of a heterozygote and masks the other allele; it is written with a capital letter. A recessive allele is expressed only in the homozygous condition, when no dominant allele is present; it is written in lower case. In a heterozygote the recessive allele is present but hidden, and can still be passed on. A heterozygous pea plant (Rr) has round seeds because the dominant R allele codes for a working starch-branching enzyme. One working copy makes enough enzyme, so the seeds are round, while the recessive r allele codes for a non-working version.",
+    "prompt": "Explain what is meant by the terms dominant and recessive, and explain why a heterozygous pea plant has round seeds.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Incomplete dominance: neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red and white snapdragons give pink-flowered heterozygotes. Sex-linkage: a gene located on a sex chromosome, in humans almost always the X chromosome, so the inheritance pattern differs between males and females. For example, red–green colour blindness and haemophilia are much more common in males.",
+    "prompt": "Define incomplete dominance and sex-linkage, giving an example of each.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s3": {
+  "keyTerms": [
+   {
+    "definition": "The inheritance of genes carried on the chromosomes in the nucleus, with one set of chromosomes from each parent.",
+    "term": "Nuclear inheritance"
+   },
+   {
+    "definition": "A pair of crosses in which the sex of the parent showing each trait is swapped, such as a tall male with a short female and a short male with a tall female.",
+    "term": "Reciprocal cross"
+   },
+   {
+    "definition": "The inheritance of genes carried in DNA outside the nucleus, in mitochondria and chloroplasts.",
+    "term": "Non-nuclear inheritance"
+   },
+   {
+    "definition": "The small, circular DNA of a mitochondrion; in humans about 16,600 base pairs carrying 37 genes.",
+    "term": "Mitochondrial DNA"
+   },
+   {
+    "definition": "Inheritance from the mother only, as with mitochondrial genes, because the egg supplies the zygote's cytoplasm.",
+    "term": "Maternal inheritance"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Nuclear inheritance is the transmission of the genes carried on the chromosomes in the nucleus.",
+    "h": "Nuclear inheritance",
+    "points": [
+     "Nuclear inheritance is the inheritance of genes carried on the chromosomes in the nucleus. Nearly all of an organism's genes (in humans, about 20,000 protein-coding genes) are nuclear.",
+     "The DNA in the nucleus is copied before division.",
+     "Meiosis separates each homologous pair, so each gamete receives one chromosome of every pair, and therefore one allele of each gene.",
+     "At fertilisation the nuclei of a male and a female gamete fuse, so the zygote receives one set of chromosomes from each parent. Mitosis then passes the full set to every body cell.",
+     "Both parents contribute equally: the offspring inherits one allele of each autosomal gene from its mother and one from its father, so for nuclear genes it does not matter which parent carries an allele.",
+     "Reciprocal crosses give the same results: for example, a tall male crossed with a short female, and a short male crossed with a tall female. The exception is genes on the sex chromosomes (see “Sex-linked traits”).",
+     "Each gamete gets only one allele of each pair, chosen at random, so nuclear genes are inherited in the predictable ratios described by Mendel's laws (see “Monohybrid crosses” and “Mendel's Laws”).",
+     "New combinations of alleles arise in every generation (see “Variation”)."
+    ]
+   },
+   {
+    "b": "Non-nuclear inheritance is the transmission of genes carried in DNA outside the nucleus, in mitochondria and chloroplasts.",
+    "h": "Non-nuclear inheritance (Higher Level only)",
+    "points": [
+     "Non-nuclear (also called extranuclear or cytoplasmic) inheritance is the inheritance of genes carried in DNA outside the nucleus: in mitochondria, which are found in all eukaryotes, and in chloroplasts, which are found in plants and algae.",
+     "Each mitochondrion and chloroplast contains several copies of its own small, circular DNA molecule, not wound around histones, like the DNA of a bacterium. It also has its own small (70S) ribosomes.",
+     "A cell contains many such organelles, so it has hundreds to thousands of copies of the organelle DNA.",
+     "Organelle genes code for some of the proteins the organelle needs: for mitochondria, some proteins of aerobic respiration; for chloroplasts, some proteins of photosynthesis. They also code for the organelle's own rRNA and tRNA.",
+     "Most proteins in these organelles are coded by nuclear genes and imported, so the organelle depends on both genomes.",
+     "Mitochondria and chloroplasts are thought to be descended from bacteria that came to live inside an ancestral cell. Evidence includes their circular DNA, 70S ribosomes, double membrane and division by splitting in two.",
+     "New mitochondria and chloroplasts come only from the division of existing ones; the cell does not make them from scratch.",
+     "Organelles lie in the cytoplasm and are shared out between daughter cells at random when the cytoplasm divides, not by the spindle as chromosomes are. Their genes therefore do not segregate in meiosis and do not follow Mendel's laws or Mendelian ratios.",
+     "In humans and most animals, the egg contributes nearly all the cytoplasm of the zygote, including its mitochondria. The sperm contributes almost only its nucleus; the few sperm mitochondria, in its midpiece, that enter the egg are destroyed.",
+     "So mitochondrial genes are inherited from the mother only. In most flowering plants, chloroplasts (and mitochondria) are likewise inherited through the egg cell, from the female parent.",
+     "All the offspring of a mother share her mitochondrial DNA, whatever the father.",
+     "Reciprocal crosses give different results, with the offspring resembling the female parent for the trait.",
+     "Mitochondrial DNA does not mix between two parents, so it changes only by mutation and passes down the female line almost unchanged.",
+     "In 1909 Carl Correns studied the four-o'clock plant (Mirabilis jalapa), with branches bearing green, white or variegated (green-and-white) leaves; the white areas lack working chloroplasts.",
+     "Seeds from flowers on green branches gave green seedlings, and seeds from flowers on white branches gave white seedlings, which soon died. Seeds from variegated branches gave a mixture, whatever branch the pollen came from.",
+     "The offspring took the leaf type of the female parent: leaf colour was inherited through the chloroplasts in the egg's cytoplasm, one of the first demonstrations of non-nuclear inheritance."
+    ]
+   },
+   {
+    "h": "Mitochondrial inheritance in humans (Higher Level only)",
+    "points": [
+     "Human mitochondrial DNA is about 16,600 base pairs long and carries 37 genes, compared with about 20,000 protein-coding genes on nuclear chromosomes of up to hundreds of millions of base pairs each.",
+     "Mutations in mitochondrial DNA can cause diseases that mostly affect tissues with high energy demands, such as muscle, nerves, brain and eyes, because they reduce aerobic respiration.",
+     "Example: Leber's hereditary optic neuropathy (LHON), which causes loss of central vision, usually in young adults.",
+     "An affected mother can pass a mitochondrial disease to all her children, sons and daughters; an affected father passes it to none.",
+     "Severity varies: a cell may contain a mixture of normal and mutant mitochondria, and the proportion passed to each egg varies, so children of the same mother can be affected to different degrees.",
+     "Mitochondrial donation (“three-parent IVF”) replaces a mother's faulty mitochondria with healthy mitochondria from a donor egg, keeping the nuclear DNA of both parents.",
+     "In 2015 the UK became the first country to allow mitochondrial donation by law. The child's nuclear DNA comes from its two parents and its small amount of mitochondrial DNA from the donor. Its ethics are covered in “Ethics of genetic technologies”.",
+     "Because mitochondrial DNA passes down the female line without mixing and changes only by mutation, it is used to trace maternal ancestry and human migration and evolution.",
+     "It is also used to identify remains when nuclear DNA is too damaged, since there are many copies per cell and it survives better."
+    ]
+   },
+   {
+    "h": "Nuclear and non-nuclear inheritance compared (Higher Level only)",
+    "points": [
+     "Location: nuclear DNA is in chromosomes in the nucleus; non-nuclear DNA is in mitochondria and chloroplasts in the cytoplasm.",
+     "Form: nuclear DNA is long, linear molecules wound around histones; non-nuclear DNA is small, circular molecules without histones.",
+     "Amount: most of the genes are nuclear (about 20,000 protein-coding genes in humans); few are non-nuclear (37 in human mitochondria), coding mainly for the organelle's own proteins and RNA.",
+     "Copies: two copies of each autosomal gene in a diploid cell; hundreds to thousands of copies of organelle DNA per cell.",
+     "Parents contributing: both parents equally; usually the mother only (maternal inheritance).",
+     "Distribution to gametes and daughter cells: chromosomes are separated precisely by the spindle in meiosis and mitosis; organelles are shared out randomly when the cytoplasm divides.",
+     "Patterns: nuclear inheritance follows Mendel's laws with predictable ratios, and reciprocal crosses give the same results; non-nuclear inheritance gives no Mendelian ratios, and reciprocal crosses give different results.",
+     "Variation between generations: nuclear inheritance gives new combinations of alleles from both parents each generation; non-nuclear DNA does not mix, and changes only by mutation.",
+     "Similarity: both are DNA, using the same genetic code (with minor differences in mitochondria) and the same base pairing; both are copied before cell division; both can mutate and so cause inherited disease.",
+     "Diagram: a sperm and an egg fusing; the egg drawn large with many mitochondria in its cytoplasm and a nucleus, the sperm with a nucleus in its head and a few mitochondria in its midpiece; arrows show nuclear DNA from both parents and mitochondria from the egg only entering the zygote; label nucleus (nuclear DNA, from both parents) and mitochondria (mitochondrial DNA, from mother)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Nuclear inheritance is the inheritance of genes carried on the chromosomes in the nucleus, which are nearly all of an organism's genes (about 20,000 protein-coding genes in humans). Meiosis separates each homologous pair, so each gamete receives one chromosome of every pair. At fertilisation the nuclei of a male and a female gamete fuse, so the zygote receives one set of chromosomes from each parent. Both parents contribute equally, so the offspring inherits one allele of each autosomal gene from its mother and one from its father.",
+    "prompt": "Explain what is meant by nuclear inheritance.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Location: nuclear DNA is in chromosomes in the nucleus, whereas non-nuclear DNA is in mitochondria and chloroplasts in the cytoplasm. Form: nuclear DNA is long and linear, wound around histones; organelle DNA is small and circular, without histones. Parents: in nuclear inheritance both parents contribute equally, whereas in non-nuclear inheritance usually only the mother contributes. Patterns: nuclear genes follow Mendel's laws with predictable ratios, and reciprocal crosses give the same results; organelle genes give no Mendelian ratios, and reciprocal crosses give different results, with the offspring resembling the mother. Similarity: both are DNA with the same base pairing, both are copied before cell division, and both can mutate and so cause inherited disease.",
+    "prompt": "Compare nuclear inheritance with non-nuclear inheritance.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "All of her children, both sons and daughters, can inherit the disease. In fertilisation the egg supplies nearly all the cytoplasm of the zygote, including its mitochondria, while the sperm contributes almost only its nucleus; the few sperm mitochondria that enter the egg are destroyed. Her children may be affected to different degrees, because the proportion of mutant mitochondria passed to each egg varies. The children of an affected man would not inherit the disease, because an affected father passes a mitochondrial disease to none of his children: his mitochondria are not passed on.",
+    "prompt": "A woman has a disease caused by a mutation in her mitochondrial DNA. Explain which of her children could inherit it, and why the children of an affected man would not.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s4": {
+  "keyTerms": [
+   {
+    "definition": "The study of changes in gene expression that are not caused by changes in the DNA base sequence, but by chemical marks added on top of the DNA.",
+    "term": "Epigenetics"
+   },
+   {
+    "definition": "The full set of epigenetic marks in a cell.",
+    "term": "Epigenome"
+   },
+   {
+    "definition": "The addition of a methyl group (CH₃) to cytosine bases in DNA, which usually switches the gene off.",
+    "term": "DNA methylation"
+   },
+   {
+    "definition": "The addition or removal of chemical groups on histone proteins, which loosens or tightens the packing of DNA and so switches genes on or off.",
+    "term": "Histone modification"
+   },
+   {
+    "definition": "The passing of epigenetic marks to the next generation through the gametes or seeds.",
+    "term": "Epigenetic inheritance"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Genetic mechanisms",
+    "points": [
+     "Genetic inheritance works by passing on DNA: the sequence of bases in the genes is copied when cells divide and passed to offspring in the gametes (see “Nuclear and non-nuclear inheritance” for how).",
+     "The information is stored in the base sequence itself. It is copied very accurately, so it is stable over many generations.",
+     "It changes only by mutation, a change in the base sequence or in the chromosomes (see “Variation”).",
+     "A mutation is usually permanent: it is copied into every cell descended from the cell where it happened and, if it is in a gamete, into the offspring.",
+     "The genetic code is the same in every body cell, so genetic mechanisms alone cannot explain why cells with the same DNA become different, or why identical twins grow more different with age. Epigenetic mechanisms explain these."
+    ]
+   },
+   {
+    "h": "The concept of epigenetics",
+    "points": [
+     "Epigenetics is the study of changes in gene expression (which genes are switched on or off, and how strongly) that are not caused by changes in the DNA base sequence.",
+     "“Epi-” means “on top of”: the changes are chemical marks added on top of the DNA. The full set of marks in a cell is its epigenome.",
+     "Epigenetic marks are caused by development and by the environment and behaviour, e.g. diet, stress, smoking, exposure to pollutants and other chemicals, and temperature; in insects, the food a larva is given.",
+     "The marks are copied when a cell divides by mitosis, so a change can last for the rest of an organism's life. They keep specialised cells specialised: a liver cell's daughter cells are liver cells.",
+     "Some epigenetic changes are reversible: marks can be added and removed by enzymes, e.g. in response to a change in diet or lifestyle.",
+     "In humans, smokers' blood cells show changed patterns of marks on some genes, and some of these changes partly reverse after a person stops smoking.",
+     "In mammals most marks are erased and reset in the gametes and early embryo, so epigenetic changes are usually not passed on. Some escape erasure and are inherited, as in agouti mice.",
+     "In plants, marks are more often passed on through seeds, as in toadflax. Passing marks to the next generation in this way is epigenetic inheritance.",
+     "Identical twins have the same DNA, and when young their epigenetic marks are very similar. In older twins, especially those who have lived apart or had different lifestyles, the marks are much more different, matching differences in health.",
+     "The environment changes the epigenome over a lifetime."
+    ]
+   },
+   {
+    "h": "How epigenetic marks work",
+    "points": [
+     "DNA methylation: an enzyme adds a small chemical group, a methyl group (CH₃), to cytosine bases in the DNA, especially in the control region at the start of a gene.",
+     "Methylation usually switches the gene off, because the cell's machinery can no longer read it. Removing the methyl groups can switch it back on.",
+     "The base sequence is unchanged: a methylated C still pairs with G.",
+     "Histone modification: chemical groups are added to or removed from the histone proteins that the DNA is wound around (histones are described in “Chromosome structure and genes”).",
+     "Adding acetyl groups loosens the packing so the genes there can be read and are switched on; other changes tighten the packing so the genes cannot be read and are switched off.",
+     "Tightly packed, heavily methylated DNA is inactive; loosely packed, unmethylated DNA is active. So the same DNA can give different phenotypes depending on its marks.",
+     "Diagram: two versions of the same gene side by side. Left: DNA loosely wound around histones, with no methyl groups, and an arrow “gene read → protein made → gene switched on”. Right: DNA tightly packed, with methyl groups (drawn as small flags) on the DNA, and a cross through “gene read → gene switched off”. Label DNA, histone, methyl group, gene on and gene off."
+    ]
+   },
+   {
+    "h": "Genetic and epigenetic mechanisms compared",
+    "points": [
+     "What changes: the DNA base sequence (genetic) versus gene expression, through chemical marks on the DNA and histones (epigenetic); the base sequence is unchanged in epigenetic change.",
+     "Cause: mutation, from random copying errors or mutagens such as radiation (genetic), versus the environment, behaviour and development, such as diet, stress, chemicals and temperature (epigenetic).",
+     "Reversibility: usually permanent (genetic) versus often reversible (epigenetic).",
+     "Speed: genetic change in a population is slow, spreading over many generations, whereas epigenetic change can happen within an organism's lifetime, in response to its surroundings.",
+     "Inheritance: reliably passed on in every generation through the gametes, following Mendel's laws for nuclear genes (genetic), versus usually erased in the gametes and early embryo in mammals (epigenetic); sometimes passed on, more often in plants, and often fading over a few generations.",
+     "Within one organism: the same in all body cells, except for new mutations (genetic), versus different in different cell types and tissues (epigenetic).",
+     "Similarities: both change the phenotype by changing which proteins are made; both are copied when cells divide by mitosis; both can be involved in disease, e.g. some cancers involve both mutations and abnormal methylation that silences genes which normally control cell division (see “Causes, prevention and treatment of cancer”)."
+    ]
+   },
+   {
+    "h": "Example 1: honeybee queens and workers (Higher Level only)",
+    "points": [
+     "In a honeybee colony, the queen (large, fertile, lays the eggs, lives for years) and the workers (smaller, sterile females that forage and care for the larvae, living for weeks in summer) develop from genetically identical female larvae.",
+     "Trigger: diet. All young larvae are fed royal jelly, a secretion of worker bees, for the first few days.",
+     "A larva fed royal jelly throughout its development, in a special large cell, becomes a queen; the rest are switched to a diet including pollen and honey and become workers.",
+     "Mechanism: the different diets produce different patterns of DNA methylation in the developing bee, switching on different sets of genes.",
+     "Evidence: in 2008, researchers in Australia reduced the activity of the enzyme that adds methyl groups to DNA in newly hatched larvae. Most of these larvae developed into queens with working ovaries, as if they had been fed royal jelly.",
+     "One genotype gives two very different phenotypes because the environment (food) changes gene expression during development.",
+     "The marks are passed on through every cell division in the developing bee, but the caste is not passed to the queen's offspring: each larva's caste is decided by its own diet."
+    ]
+   },
+   {
+    "h": "Example 2: agouti mice (Higher Level only)",
+    "points": [
+     "The agouti gene in mice normally controls fur colour, giving brown fur. In mice with a variant called agouti viable yellow, an extra stretch of DNA inserted beside the gene can switch it on in every cell all the time.",
+     "When that region is unmethylated, the gene is always on: the mice have yellow fur and become obese, with a higher risk of diabetes and cancer.",
+     "When it is heavily methylated, the gene is switched off and the mice are brown and lean; partly methylated mice are mottled. Genetically identical mice in the same litter can be any of these.",
+     "Effect of the mother's diet: in a study published in 2003 (Robert Waterland and Randy Jirtle), pregnant mothers given extra methyl-donor nutrients (folic acid, vitamin B12, choline and betaine) had more brown, healthy offspring, because more methyl groups were added to the gene in the embryos.",
+     "In later work, exposing pregnant mothers to the plastics chemical bisphenol A (BPA) reduced methylation and gave more yellow offspring; methyl-donor supplements cancelled this effect.",
+     "Inheritance: the offspring's coat colour tends to resemble its mother's, because the marks on this gene are not fully erased when the eggs are made. So it is a true example of epigenetic inheritance.",
+     "The effects can be changed (reversed) by diet."
+    ]
+   },
+   {
+    "h": "Example 3: the Dutch Hunger Winter (Higher Level only)",
+    "points": [
+     "In the winter of 1944–1945, during the Second World War, a German blockade cut food supplies to the occupied western Netherlands. Food rations fell well below 1,000 kilocalories a day.",
+     "About 20,000 people died before the region was liberated in May 1945.",
+     "The famine had a clear start and end, and records of births were kept, so scientists could study people who were in the womb during it. Those whose mothers were starved in early pregnancy had higher rates of obesity, heart disease and some other conditions as adults.",
+     "A study published in 2008 found that, about 60 years later, people exposed to the famine around conception had less methylation of a growth gene, IGF2 (insulin-like growth factor 2), than their brothers or sisters of the same sex who were not exposed.",
+     "The environment before birth left a lasting mark on gene expression.",
+     "Some studies report effects on the next generation (the grandchildren of the starved mothers), but this evidence is weaker and debated.",
+     "So this is clear evidence of a lasting epigenetic effect of the environment in humans, and possible but uncertain evidence of inheritance across generations."
+    ]
+   },
+   {
+    "h": "Example 4: vernalisation in plants (Higher Level only)",
+    "points": [
+     "Vernalisation is the need of some plants to experience a long period of cold (winter) before they can flower. It stops them flowering in autumn and makes them flower in spring, when conditions suit seed production.",
+     "In thale cress (Arabidopsis thaliana), a small wild plant, a gene called FLC (FLOWERING LOCUS C) blocks flowering.",
+     "During weeks of cold, histone modifications gradually switch FLC off, and the longer the cold lasts, the more cells have FLC switched off.",
+     "FLC stays switched off after the weather warms, because the marks are copied through all later cell divisions, so the plant flowers in spring.",
+     "The change is epigenetic: the FLC gene's base sequence is unchanged.",
+     "The change is reset in each generation: FLC is switched back on in the seeds, so each new plant must go through its own winter. This is an epigenetic memory within one plant's life, not inheritance to offspring.",
+     "Many crops, such as winter wheat, need vernalisation, which is why they are sown in autumn."
+    ]
+   },
+   {
+    "h": "Example 5: toadflax flowers (Higher Level only)",
+    "points": [
+     "Common toadflax (Linaria vulgaris), a wild plant, normally has flowers with one plane of symmetry (bilaterally symmetrical) and a single spur.",
+     "A natural variant, the peloric form, has radially symmetrical flowers with five spurs. Carl Linnaeus first described it in the 1740s.",
+     "In 1999, Enrico Coen's group at the John Innes Centre in Norwich showed that peloric plants have the same base sequence in the key flower-symmetry gene (Lcyc) as normal plants, but the gene is heavily methylated and switched off.",
+     "This is an epigenetic change (sometimes called an epimutation), not a mutation.",
+     "The methylated, switched-off state is passed on through the seeds to the next generation, so the peloric form is inherited in wild populations.",
+     "Occasionally the methylation is lost and branches with normal flowers appear, showing the change is reversible.",
+     "This is a heritable natural variation, noticed for more than 250 years, caused by an epigenetic mark rather than a change in DNA sequence."
+    ]
+   },
+   {
+    "b": "Research one example of epigenetic inheritance in detail, using the steps below.",
+    "h": "Researching an example (Higher Level only)",
+    "points": [
+     "Step 1: choose an example and find reliable sources (scientific organisations, universities and review articles; see “Recognising bias and evaluating sources”).",
+     "Step 2: identify the organism and the trait.",
+     "Step 3: identify the environmental or behavioural trigger.",
+     "Step 4: identify the gene and the epigenetic change (methylation or histone modification), if known.",
+     "Step 5: describe the effect on the phenotype.",
+     "Step 6: describe the evidence that the change is epigenetic (same DNA sequence, different marks).",
+     "Step 7: state whether it is reversible and whether it is passed to offspring.",
+     "Step 8: evaluate the strength of the evidence, e.g. animal studies versus observational studies in humans.",
+     "Worked model, agouti mice: organism and trait, mouse fur colour; trigger, the mother's diet; gene and mark, methylation of the agouti gene; effect, yellow obese or brown lean mice; evidence, genetically identical mice with different methylation; passed on partly through the mother, and reversed by methyl donors."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Epigenetics is the study of changes in gene expression, which genes are switched on or off and how strongly, that are not caused by changes in the DNA base sequence. The changes are chemical marks added on top of the DNA, caused by development, the environment and behaviour. DNA methylation is when an enzyme adds a methyl group (CH₃) to cytosine bases, especially in the control region at the start of a gene. Methylation usually switches the gene off, because the cell's machinery can no longer read it; the base sequence is unchanged.",
+    "prompt": "Explain what is meant by epigenetics and describe how DNA methylation affects a gene.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "What changes: genetic mechanisms change the DNA base sequence, whereas epigenetic mechanisms change gene expression through chemical marks, and the base sequence is unchanged. Cause: genetic change comes from mutation, from random copying errors or mutagens such as radiation, whereas epigenetic marks are caused by the environment, behaviour and development, such as diet, stress and chemicals. Reversibility: genetic changes are usually permanent, whereas epigenetic changes are often reversible. Speed: genetic change in a population is slow, spreading over many generations, whereas epigenetic change can happen within an organism's lifetime. Inheritance: genetic changes are reliably passed on through the gametes, whereas epigenetic marks are usually erased in mammals and only sometimes passed on. Within one organism: genetic changes are the same in all body cells, whereas epigenetic marks differ between cell types and tissues. Similarity: both change the phenotype by changing which proteins are made, and both are copied when cells divide by mitosis.",
+    "prompt": "Compare genetic and epigenetic mechanisms of inheritance.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Agouti mice. The organism is the mouse and the trait is fur colour. The trigger is the mother's diet: extra methyl-donor nutrients (folic acid, vitamin B12, choline and betaine) or exposure to bisphenol A. The gene is the agouti gene, and the epigenetic change is methylation of a region beside it: unmethylated gives yellow, obese mice, and heavily methylated gives brown, lean mice. Genetically identical mice in the same litter can be any of these, which shows the difference comes from the marks rather than the DNA sequence. The offspring's coat colour tends to resemble the mother's, because the marks are not fully erased when the eggs are made, so the effect is passed on. It can be reversed by diet, so the effect is reversible.",
+    "prompt": "Describe one example of epigenetic inheritance that you have researched.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s5": {
+  "keyTerms": [
+   {
+    "definition": "A genetic cross that follows the inheritance of one trait controlled by one gene with two alleles.",
+    "term": "Monohybrid cross"
+   },
+   {
+    "definition": "A grid with one parent's gametes across the top and the other parent's gametes down the side, showing every equally likely offspring genotype.",
+    "term": "Punnett square"
+   },
+   {
+    "definition": "The parents crossed in a genetic cross.",
+    "term": "P generation"
+   },
+   {
+    "definition": "The offspring of the parents in a genetic cross.",
+    "term": "F1 generation"
+   },
+   {
+    "definition": "The offspring of crossing F1 individuals with each other.",
+    "term": "F2 generation"
+   },
+   {
+    "definition": "A cross of an organism showing the dominant trait with a homozygous recessive organism, used to find out whether it is homozygous or heterozygous.",
+    "term": "Test cross"
+   },
+   {
+    "definition": "Another name for pure-breeding; crossed with one like itself, it always gives offspring with the same trait.",
+    "term": "True-breeding"
+   },
+   {
+    "definition": "A chromosome that is not a sex chromosome.",
+    "term": "Autosome"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Background the cross rests on",
+    "points": [
+     "Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair.",
+     "Each gamete carries only one of the two alleles, because meiosis separates the two chromosomes of each homologous pair.",
+     "At fertilisation the zygote again has two alleles, one from each parent.",
+     "Homologous chromosomes are covered in “Chromosome structure and genes” and meiosis in “Mitosis and meiosis”; allele, homozygous, heterozygous, pure-breeding and carrier are defined in “Key concepts of information transfer”."
+    ]
+   },
+   {
+    "h": "Gametes made by each genotype",
+    "points": [
+     "A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt.",
+     "A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each.",
+     "True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait."
+    ]
+   },
+   {
+    "h": "Monohybrid crosses and generations",
+    "points": [
+     "A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.",
+     "Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result; linkage is covered in “Linkage”.",
+     "P (parental generation) are the parents crossed.",
+     "F1 (first filial generation) are their offspring.",
+     "F2 (second filial generation) are the offspring of crossing F1 individuals with each other.",
+     "“First generation” means the offspring of the cross being modelled."
+    ]
+   },
+   {
+    "h": "Choosing symbols and stating a key",
+    "points": [
+     "Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.",
+     "Use the letters a question gives.",
+     "Avoid letters whose capital and lower case look alike when handwritten: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.",
+     "Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”."
+    ]
+   },
+   {
+    "b": "Every line is shown, in this order, because marks are given for each.",
+    "h": "The standard layout for a cross",
+    "points": [
+     "Step 1: the key.",
+     "Step 2: the parents' phenotypes, e.g. tall × dwarf.",
+     "Step 3: the parents' genotypes, e.g. TT × tt.",
+     "Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).",
+     "Step 5: the Punnett square, or fertilisation lines joining every gamete of one parent to every gamete of the other.",
+     "Step 6: the offspring genotypes, with their ratio.",
+     "Step 7: the offspring phenotypes, with their ratio."
+    ]
+   },
+   {
+    "h": "The Punnett square",
+    "points": [
+     "One parent's gametes go across the top and the other parent's gametes down the side.",
+     "Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT).",
+     "Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.",
+     "Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf)."
+    ]
+   },
+   {
+    "h": "Ratios and probability",
+    "points": [
+     "A ratio is a prediction of the proportions expected, not an exact count.",
+     "Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.",
+     "A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.",
+     "Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).",
+     "Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family."
+    ]
+   },
+   {
+    "b": "Pea plants: tall (T) is dominant to dwarf (t).",
+    "h": "Worked example: heterozygous × heterozygous",
+    "points": [
+     "Key: T = tall, t = dwarf.",
+     "Parents' phenotypes: tall × tall.",
+     "Parents' genotypes: Tt × Tt (both heterozygous).",
+     "Gametes: T, t × T, t.",
+     "Punnett square: TT, Tt / Tt, tt.",
+     "Offspring genotypes: 1 TT : 2 Tt : 1 tt.",
+     "Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf).",
+     "Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt)."
+    ]
+   },
+   {
+    "h": "Why the genotype and phenotype ratios differ",
+    "points": [
+     "The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.",
+     "A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous."
+    ]
+   },
+   {
+    "h": "Worked example: homozygous × homozygous",
+    "points": [
+     "Parents' phenotypes: true-breeding tall × true-breeding dwarf.",
+     "Parents' genotypes: TT × tt (both homozygous).",
+     "Gametes: T × t.",
+     "Offspring genotypes: all Tt (heterozygous).",
+     "Offspring phenotypes: all (100%) tall.",
+     "This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.",
+     "Mendel's own figures are in “Mendel's Laws”."
+    ]
+   },
+   {
+    "h": "Worked example: heterozygous × homozygous recessive",
+    "points": [
+     "Parents' phenotypes: tall × dwarf.",
+     "Parents' genotypes: Tt × tt (one heterozygous parent).",
+     "Gametes: T, t × t.",
+     "Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.",
+     "Offspring genotypes: 1 Tt : 1 tt.",
+     "Offspring phenotypes: 1 tall : 1 dwarf (50% each)."
+    ]
+   },
+   {
+    "h": "All six monohybrid crosses",
+    "points": [
+     "Cross 1: TT × TT → all TT → all tall.",
+     "Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.",
+     "Cross 3: TT × tt → all Tt → all tall.",
+     "Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.",
+     "Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.",
+     "Cross 6: tt × tt → all tt → all dwarf."
+    ]
+   },
+   {
+    "h": "Reading a cross backwards from its results",
+    "points": [
+     "Offspring in a 3 : 1 ratio mean both parents are heterozygous.",
+     "A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive.",
+     "Any offspring showing the recessive trait mean each parent carries at least one recessive allele."
+    ]
+   },
+   {
+    "h": "The test cross",
+    "points": [
+     "A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.",
+     "The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.",
+     "If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).",
+     "If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1).",
+     "Many offspring are needed to be confident that a TT result is not chance."
+    ]
+   },
+   {
+    "h": "Worked example: a human recessive disorder",
+    "points": [
+     "Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).",
+     "Key: F = normal allele, f = cystic fibrosis allele.",
+     "Parents: two unaffected carriers.",
+     "Parents' genotypes: Ff × Ff.",
+     "Gametes: F, f × F, f.",
+     "Offspring genotypes: 1 FF : 2 Ff : 1 ff.",
+     "Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis.",
+     "Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.",
+     "Why the mutation causes the disease is in “Mutations”; its use in genetic counselling is in “Benefits and limitations of Mendelian genetics”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "RR plants produce only R gametes. rr plants produce only r gametes. Rr plants produce two types of gamete, R and r, in equal numbers. Meiosis separates the two chromosomes of each homologous pair, so each gamete receives one allele of the gene, and the R and r alleles go into gametes in equal numbers, half each.",
+    "prompt": "Give the gametes produced by pea plants with the genotypes RR, Rr and rr, and explain why a heterozygous plant produces two types of gamete in equal numbers.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Key: R = round seed, r = wrinkled seed. Parents' phenotypes: round × round. Parents' genotypes: Rr × Rr. Gametes: R, r × R, r. Punnett square: RR, Rr / Rr, rr. Offspring genotypes: 1 RR : 2 Rr : 1 rr. Offspring phenotypes: 3 round : 1 wrinkled (75% round, 25% wrinkled).",
+    "prompt": "In pea plants, round seed (R) is dominant to wrinkled seed (r). Two plants heterozygous for seed shape are crossed. Using a genetic cross, give the genotypes and phenotypes of the offspring and the phenotype ratio.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Cross the tall plant with a dwarf plant (tt). If the tall plant is TT: TT × tt gives all Tt, which are all tall. If the tall plant is Tt: Tt × tt gives 1 Tt : 1 tt, so 1 tall : 1 dwarf. The tt parent can give only t, so the offspring phenotypes show which allele the unknown parent gave. If all offspring are tall, the unknown parent is almost certainly TT. If any offspring are dwarf (about half of them), the unknown parent is Tt. Many offspring are needed to be confident that a TT result is not chance.",
+    "prompt": "A tall pea plant may be TT or Tt. Describe a cross that would identify its genotype and explain how the results would be interpreted.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s6": {
+  "keyTerms": [
+   {
+    "definition": "A pattern of inheritance in which the heterozygote's phenotype lies between those of the two homozygotes, so there are three phenotypes.",
+    "term": "Incomplete dominance"
+   },
+   {
+    "definition": "A plant (Antirrhinum majus) whose flower colour shows incomplete dominance: red × white gives all pink.",
+    "term": "Snapdragon"
+   },
+   {
+    "definition": "A chicken with grey-blue feathers, from a cross of black and white birds; it is heterozygous and does not breed true.",
+    "term": "Blue Andalusian"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What incomplete dominance is (Higher Level only)",
+    "points": [
+     "The heterozygote's phenotype lies between those of the two homozygotes, e.g. pink snapdragons from red × white.",
+     "There are three phenotypes rather than two, and each genotype can be recognised from its phenotype.",
+     "With complete dominance the heterozygote looks like the homozygous dominant (Tt is as tall as TT), so there are only two phenotypes."
+    ]
+   },
+   {
+    "h": "Why the heterozygote is pink (Higher Level only)",
+    "points": [
+     "In snapdragon flower colour, the red allele codes for a working enzyme that makes red pigment, and the white allele codes for no working pigment enzyme.",
+     "A plant with two red alleles makes enough pigment to be red.",
+     "A heterozygote has only one working copy, so it makes less pigment and is pink.",
+     "The alleles are not mixed or changed: red and white flowers reappear in the next generation, which shows the genes themselves do not blend."
+    ]
+   },
+   {
+    "h": "Symbols for incompletely dominant alleles (Higher Level only)",
+    "points": [
+     "Neither allele is dominant, so don't use a capital and a lower-case letter of the same kind as if one were dominant.",
+     "Use the letters the question gives.",
+     "If choosing, use two different capital letters, e.g. R = allele for red, W = allele for white (so RR red, RW pink, WW white), and state in the key that the alleles show incomplete dominance.",
+     "Questions sometimes use B and b with a statement that B is incompletely dominant; follow the question's key."
+    ]
+   },
+   {
+    "b": "Snapdragon flower colour.",
+    "h": "First cross: homozygous × homozygous (Higher Level only)",
+    "points": [
+     "Key: R = red, W = white, incomplete dominance.",
+     "Parents' phenotypes: red × white.",
+     "Parents' genotypes: RR × WW.",
+     "Gametes: R × W.",
+     "Offspring genotypes: all RW.",
+     "Offspring phenotypes: all (100%) pink."
+    ]
+   },
+   {
+    "h": "Second cross: heterozygote × heterozygote (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: pink × pink.",
+     "Parents' genotypes: RW × RW.",
+     "Gametes: R, W × R, W.",
+     "Punnett square: RR, RW / RW, WW.",
+     "Offspring genotypes: 1 RR : 2 RW : 1 WW.",
+     "Offspring phenotypes: 1 red : 2 pink : 1 white (25% red, 50% pink, 25% white).",
+     "Diagram: the 2 × 2 Punnett square for RW × RW with gametes R and W on each side, boxes RR, RW, RW and WW, and each box labelled red, pink, pink or white (or shaded red, pink, white)."
+    ]
+   },
+   {
+    "h": "Recognising incomplete dominance from the ratio (Higher Level only)",
+    "points": [
+     "The phenotype ratio (1 : 2 : 1) is the same as the genotype ratio, because each genotype has its own phenotype.",
+     "With complete dominance the same cross gives 3 : 1.",
+     "If a cross of two parents that look the same gives three phenotypes in a 1 : 2 : 1 ratio, the trait shows incomplete dominance."
+    ]
+   },
+   {
+    "h": "Heterozygote × homozygote (Higher Level only)",
+    "points": [
+     "Parents' genotypes: RW × WW (pink × white).",
+     "Gametes: R, W × W.",
+     "Offspring genotypes: 1 RW : 1 WW.",
+     "Offspring phenotypes: 1 pink : 1 white.",
+     "Pink × red: RW × RR gives 1 RR : 1 RW, 1 red : 1 pink."
+    ]
+   },
+   {
+    "h": "Second example: Andalusian fowl (Higher Level only)",
+    "points": [
+     "In Andalusian chickens, feather colour shows incomplete dominance.",
+     "Homozygous black × homozygous white gives all offspring with grey-blue feathers, called “blue”.",
+     "Blue × blue gives 1 black : 2 blue : 1 white.",
+     "If black were instead completely dominant to white, the same blue-type (heterozygous) cross would give 3 black : 1 white.",
+     "Blue Andalusians can never be true-breeding, because every blue bird is heterozygous.",
+     "Breeders get all-blue chicks by crossing black with white birds."
+    ]
+   },
+   {
+    "h": "Combining with a second gene (Higher Level only)",
+    "points": [
+     "A cross can combine an incompletely dominant gene with a completely dominant one, e.g. snapdragon flower colour with plant height.",
+     "This is a two-gene cross; the worked example is in “Dihybrid crosses”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Incomplete dominance is when the heterozygote's phenotype lies between those of the two homozygotes, so there are three phenotypes rather than two. In snapdragon flower colour, red (RR) and white (WW) plants give pink heterozygotes (RW), because the red allele codes for a working enzyme that makes red pigment, while the white allele codes for no working pigment enzyme. A heterozygote has only one working copy, so it makes less pigment and is pink. The alleles are not blended: red and white flowers reappear in the next generation.",
+    "prompt": "Explain what is meant by incomplete dominance, using a named example.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Key: R = red, W = white, incomplete dominance. Parents' phenotypes: pink × pink. Parents' genotypes: RW × RW. Gametes: R, W × R, W. Punnett square: RR, RW / RW, WW. Offspring genotypes: 1 RR : 2 RW : 1 WW. Offspring phenotypes: 1 red : 2 pink : 1 white (25% red, 50% pink, 25% white).",
+    "prompt": "In snapdragons, red flower (R) and white flower (W) show incomplete dominance. Using a genetic cross, show the genotypes and phenotypes of the offspring of two pink-flowered plants and give the phenotype ratio.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Blue × blue gives 1 black : 2 blue : 1 white. The blue chickens are heterozygous, so each parent gives black and white alleles in equal numbers, and the three genotypes each have their own phenotype. If black were completely dominant to white, the heterozygous blue birds would look black, so the same cross would give 3 black : 1 white instead.",
+    "prompt": "Two blue Andalusian chickens are crossed. Give the expected phenotype ratio and explain how this ratio would differ if black feathers were completely dominant to white.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s7": {
+  "keyTerms": [
+   {
+    "definition": "The two alleles of a gene separate during gamete formation, so each gamete receives only one allele of each gene.",
+    "term": "Law of Segregation"
+   },
+   {
+    "definition": "Alleles of one gene separate independently of alleles of another gene during gamete formation, for genes on different chromosomes.",
+    "term": "Law of Independent Assortment"
+   },
+   {
+    "definition": "Inheritance by separate units that stay unchanged from generation to generation, rather than by blending.",
+    "term": "Particulate inheritance"
+   },
+   {
+    "definition": "Mendel's name for the units of inheritance, now called genes and their alleles.",
+    "term": "Factor"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Gregor Mendel and his pea experiments (Higher Level only)",
+    "points": [
+     "Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).",
+     "He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.",
+     "His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.",
+     "He worked before chromosomes, meiosis or DNA were understood, and called the units of inheritance “factors” (now genes, and their versions alleles)."
+    ]
+   },
+   {
+    "h": "Why peas suited the work (Higher Level only)",
+    "points": [
+     "Peas had many varieties with clear contrasting forms of a trait (e.g. tall or dwarf, with nothing in between).",
+     "Peas normally self-pollinate, so true-breeding lines were available.",
+     "They can be cross-pollinated by hand: the anthers of one flower are removed and its stigma is dusted with pollen from another.",
+     "They grow quickly and produce many seeds, giving large numbers to count."
+    ]
+   },
+   {
+    "h": "Mendel's seven traits and method (Higher Level only)",
+    "points": [
+     "The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).",
+     "He started with true-breeding parents and studied one trait at a time, then two.",
+     "He counted large numbers of offspring and recorded results over several generations (P, F1, F2).",
+     "He used mathematics (ratios) to analyse the results and repeated each cross for several traits."
+    ]
+   },
+   {
+    "h": "Mendel's key results (Higher Level only)",
+    "points": [
+     "Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall.",
+     "Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.",
+     "F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1).",
+     "The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.",
+     "He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive)."
+    ]
+   },
+   {
+    "h": "The Law of Segregation (Higher Level only)",
+    "points": [
+     "Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”",
+     "Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”",
+     "A heterozygous tall plant (Tt) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.",
+     "Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed; the cross is worked in full in “Monohybrid crosses”.",
+     "Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus on the two chromosomes of a homologous pair.",
+     "In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete; meiosis itself is in “Mitosis and meiosis”.",
+     "Diagram: a diploid cell with one pair of homologous chromosomes, one carrying T and the other t (same position), dividing by meiosis into gametes, half with the T chromosome and half with the t chromosome; labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid)."
+    ]
+   },
+   {
+    "h": "The Law of Independent Assortment (Higher Level only)",
+    "points": [
+     "Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”",
+     "Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”",
+     "The law applies to genes on different chromosomes (unlinked genes).",
+     "A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).",
+     "Whether a gamete gets R or r has no effect on whether it gets Y or y.",
+     "Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.",
+     "With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.",
+     "Diagram: a cell with two pairs of homologous chromosomes (one long pair carrying R and r, one short pair carrying Y and y) shown in the two possible arrangements, each arrangement leading to two kinds of gamete: arrangement 1 → RY and ry; arrangement 2 → Ry and rY. Label: the two homologous pairs, alleles, the two equally likely arrangements, the four gamete types."
+    ]
+   },
+   {
+    "h": "Evidence for independent assortment (Higher Level only)",
+    "points": [
+     "Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.",
+     "Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.",
+     "The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently.",
+     "The cross is worked in “Dihybrid crosses”."
+    ]
+   },
+   {
+    "h": "Mendel's legacy (Higher Level only)",
+    "points": [
+     "Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.",
+     "A blended trait could never reappear unchanged, as the dwarf trait did in the F2.",
+     "His laws are the basis of the predictions in “Benefits and limitations of Mendelian genetics”."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Law of Segregation: the two alleles of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene. Law of Independent Assortment: when gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene. This applies to genes on different chromosomes (unlinked genes).",
+    "prompt": "State Mendel's Law of Segregation and Mendel's Law of Independent Assortment.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Draw a cell with two pairs of homologous chromosomes: one long pair carrying R (on one chromosome) and r (on the other), and one short pair carrying Y and y. Show the two possible arrangements at metaphase of meiosis. In arrangement 1, R goes with Y and r with y, giving gametes RY and ry. In arrangement 2, R goes with y and r with Y, giving gametes Ry and rY. Both arrangements are equally likely, so the four gamete types RY, Ry, rY and ry are made in equal numbers (1/4 each). Labels: the two homologous pairs, the alleles R, r, Y and y, the two arrangements, and the four gamete types.",
+    "prompt": "Using a labelled diagram, illustrate how Mendel's Law of Independent Assortment applies to the gametes of a plant with the genotype RrYy.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Mendel chose pea plants because they have many varieties with clear contrasting traits, normally self-pollinate to give true-breeding lines, and can be cross-pollinated by hand; they also produce many seeds. He started with true-breeding parents, counted large numbers of offspring, recorded several generations and used ratios. Crossing true-breeding tall with true-breeding dwarf gave an all-tall F1. Self-pollinating the F1 gave about 3 tall : 1 dwarf (787 : 277). The dwarf trait reappeared in the F2, so it must have been present but hidden in the F1; so each plant has two factors for each trait, one from each parent, and one can mask the other. The factors separate during gamete formation so each gamete receives one factor, which is the Law of Segregation. Crossing F1 plants (Tt × Tt) gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, matching his results.",
+    "prompt": "Describe how Gregor Mendel's experiments on pea plants led him to the Law of Segregation.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s8": {
+  "keyTerms": [
+   {
+    "definition": "A genetic cross that follows the inheritance of two different traits, controlled by two genes, at the same time.",
+    "term": "Dihybrid cross"
+   },
+   {
+    "definition": "Genes on different chromosomes, which assort independently of each other.",
+    "term": "Unlinked genes"
+   },
+   {
+    "definition": "A cross of a double heterozygote with a double homozygous recessive, giving a 1 : 1 : 1 : 1 ratio for unlinked genes.",
+    "term": "Dihybrid test cross"
+   },
+   {
+    "definition": "The F2 phenotype ratio of a dihybrid cross of two unlinked genes with complete dominance.",
+    "term": "9 : 3 : 3 : 1 ratio"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What a dihybrid cross is (Higher Level only)",
+    "points": [
+     "A dihybrid cross follows the inheritance of two different traits (two genes) at the same time, e.g. seed shape and seed colour in peas.",
+     "“Unlinked” means the two genes are on different chromosomes, so they assort independently and every combination of their alleles is equally likely in the gametes.",
+     "Genes on the same chromosome are covered in “Linkage”.",
+     "Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green.",
+     "A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry."
+    ]
+   },
+   {
+    "h": "Working out the gametes (Higher Level only)",
+    "points": [
+     "Each gamete gets one allele of each gene, so every gamete has two letters, one for each gene; never two of the same gene: RY, not Rr.",
+     "Method: pair each allele of the first gene with each allele of the second gene.",
+     "For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers (the Law of Independent Assortment).",
+     "The number of gamete types depends on how many genes are heterozygous: RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).",
+     "RrYy gives four (RY, Ry, rY, ry); rryy gives one (ry)."
+    ]
+   },
+   {
+    "h": "P to F1 (Higher Level only)",
+    "points": [
+     "Parents' phenotypes: round yellow × wrinkled green (both true-breeding).",
+     "Parents' genotypes: RRYY × rryy.",
+     "Gametes: RY × ry.",
+     "F1 genotype: all RrYy.",
+     "F1 phenotype: all round yellow (both dominant traits)."
+    ]
+   },
+   {
+    "h": "F1 × F1 to F2 (Higher Level only)",
+    "points": [
+     "Parents (F1): round yellow × round yellow.",
+     "Genotypes: RrYy × RrYy.",
+     "Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry.",
+     "Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance.",
+     "Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side):",
+     "Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy.",
+     "Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.",
+     "Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy.",
+     "Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.",
+     "F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16)."
+    ]
+   },
+   {
+    "h": "F2 phenotypes and the 9 : 3 : 3 : 1 ratio (Higher Level only)",
+    "points": [
+     "F2 phenotypes: 9 round yellow (at least one R and at least one Y) : 3 round green (at least one R, yy) : 3 wrinkled yellow (rr, at least one Y) : 1 wrinkled green (rryy).",
+     "The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance.",
+     "Mendel's F2 counts, close to this ratio, are in “Mendel's Laws”."
+    ]
+   },
+   {
+    "h": "Why new combinations appear (Higher Level only)",
+    "points": [
+     "Two of the four F2 phenotypes (round green and wrinkled yellow) are new combinations, found in neither the P nor the F1 generation.",
+     "They appear because the genes assort independently, and they are a source of variation in offspring.",
+     "Diagram: the full 4 × 4 Punnett square of the F1 × F1 cross, with gametes labelled on both sides, and the boxes coloured or marked by phenotype (9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green)."
+    ]
+   },
+   {
+    "h": "Checking with multiplied probabilities (Higher Level only)",
+    "points": [
+     "Because the genes are independent, the dihybrid result is the two monohybrid results multiplied.",
+     "Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green.",
+     "So round yellow = 3/4 × 3/4 = 9/16, round green = 3/4 × 1/4 = 3/16, wrinkled yellow = 3/16, wrinkled green = 1/4 × 1/4 = 1/16.",
+     "Use this to check a Punnett square; show the full square in an exam answer when asked for a genetic cross."
+    ]
+   },
+   {
+    "h": "Dihybrid test cross: double heterozygote × double homozygous recessive (Higher Level only)",
+    "points": [
+     "Round yellow (RrYy) × wrinkled green (rryy) is the dihybrid test cross.",
+     "Gametes: RY, Ry, rY, ry × ry.",
+     "Offspring genotypes: RrYy, Rryy, rrYy, rryy (1 : 1 : 1 : 1).",
+     "Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each).",
+     "A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently.",
+     "The same cross with linked genes is in “Linkage”.",
+     "The same pattern with other traits: in peas with tall (T) dominant to dwarf (t) and yellow (Y) dominant to green (y), TtYy × ttyy gives 1 tall yellow (TtYy) : 1 tall green (Ttyy) : 1 dwarf yellow (ttYy) : 1 dwarf green (ttyy)."
+    ]
+   },
+   {
+    "h": "Dihybrid cross: double heterozygote × single heterozygote (Higher Level only)",
+    "points": [
+     "Round yellow × round green: RrYy × Rryy.",
+     "Gametes: RY, Ry, rY, ry × Ry, ry.",
+     "Punnett square: 4 × 2 = 8 boxes; column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy.",
+     "Phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1).",
+     "Check: 3/4 round × 1/2 yellow = 3/8 round yellow."
+    ]
+   },
+   {
+    "h": "Dihybrid cross with incomplete dominance (Higher Level only)",
+    "points": [
+     "Snapdragons: tall (T) is dominant to dwarf (t); red (R) and white (W) flower colour show incomplete dominance (RW = pink).",
+     "Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height).",
+     "Parents' genotypes: ttRR × TtRW.",
+     "Gametes: tR × TR, TW, tR, tW.",
+     "Offspring: TtRR (tall, red), TtRW (tall, pink), ttRR (dwarf, red), ttRW (dwarf, pink), in a 1 : 1 : 1 : 1 ratio.",
+     "So 50% of the offspring have pink flowers and 50% are tall.",
+     "To the second generation: TTRR × ttWW gives an F1 of all TtRW (tall pink).",
+     "F1 × F1 gives 3 tall red : 6 tall pink : 3 tall white : 1 dwarf red : 2 dwarf pink : 1 dwarf white (out of 16).",
+     "These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The possible gametes are TY, Ty, tY and ty. Each gamete gets one allele of each gene. The genes are unlinked, on different chromosomes, so the alleles of one gene separate independently of the alleles of the other gene (the Law of Independent Assortment). Each combination of T or t with Y or y is therefore equally likely, giving four gamete types in equal numbers.",
+    "prompt": "Give all the possible gametes of a pea plant with the genotype TtYy and explain why they occur in equal numbers.",
+    "type": "short"
+   },
+   {
+    "marks": 15,
+    "model": "Key: R = round seed, r = wrinkled seed; Y = yellow seed, y = green seed. Parents' phenotypes: round yellow × wrinkled green. Parents' genotypes: RRYY × rryy. Gametes: RY × ry. F1 genotype: all RrYy. F1 phenotype: all round yellow. F1 × F1: round yellow × round yellow. Genotypes: RrYy × RrYy. Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry. Punnett square (16 boxes, each 1/16): row RY: RRYY, RRYy, RrYY, RrYy. Row Ry: RRYy, RRyy, RrYy, Rryy. Row rY: RrYY, RrYy, rrYY, rrYy. Row ry: RrYy, Rryy, rrYy, rryy. F2 phenotype ratio: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.",
+    "prompt": "A true-breeding round, yellow-seeded pea plant is crossed with a wrinkled, green-seeded plant. The F1 plants are crossed with each other. Using genetic crosses, show the genotypes and phenotypes of the F1 and F2 and give the F2 phenotype ratio.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Parents' genotypes: RrYy × Rryy. Gametes: RY, Ry, rY, ry × Ry, ry. Punnett square (8 boxes): column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy. Offspring phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1). Check: 3/4 round × 1/2 yellow = 3/8 round yellow, and the other classes are checked the same way.",
+    "prompt": "A pea plant with the genotype RrYy (round, yellow) is crossed with a plant with the genotype Rryy (round, green). The genes are not linked. Using a Punnett square, show the genotypes and phenotypes of the offspring and give the phenotype ratio.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio11-s9": {
+  "keyTerms": [
+   {
+    "definition": "All the genes on one chromosome; there are as many linkage groups as there are chromosome pairs.",
+    "term": "Linkage group"
+   },
+   {
+    "definition": "Genes on the same chromosome, which are inherited together and do not assort independently.",
+    "term": "Linked genes"
+   },
+   {
+    "definition": "The position of a gene on a chromosome.",
+    "term": "Locus"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What linkage is (Higher Level only)",
+    "points": [
+     "Each chromosome carries many genes in a fixed order along one DNA molecule, and a chromosome passes into a gamete as one unit, so any two genes on it travel together.",
+     "All the genes on one chromosome form a linkage group; there are as many linkage groups as there are chromosome pairs.",
+     "Linked genotypes show the alleles on each chromosome together, with a line or slash for the pair of chromosomes: AB/ab means one chromosome carries A and B and its homologue carries a and b.",
+     "Diagram: two vertical bars (a homologous pair), one labelled with A above B, the other with a above b, at matching positions; label “homologous chromosomes”, “linked genes” and “locus”."
+    ]
+   },
+   {
+    "h": "How linkage affects independent assortment (Higher Level only)",
+    "points": [
+     "The Law of Independent Assortment holds only for genes on different chromosomes.",
+     "Linked genes do not assort independently: the alleles on one chromosome move together into the same gamete when the homologous chromosomes separate in meiosis.",
+     "A double heterozygote with linked genes, AB/ab, produces only two types of gamete, AB and ab, in equal numbers.",
+     "An unlinked double heterozygote produces four types (AB, Ab, aB, ab) instead; the gametes Ab and aB (new combinations) are not formed when the genes are linked.",
+     "Offspring show only (or mostly) the parental combinations of traits; the new combinations seen with unlinked genes are missing (or rare).",
+     "Linkage gives fewer types of offspring and less variation, and the ratios differ from 9 : 3 : 3 : 1 and 1 : 1 : 1 : 1.",
+     "In real organisms, linked genes are occasionally separated, so a small number of offspring with new combinations can appear.",
+     "The reason is crossing over, named here without description; genes are more likely to stay together the closer they lie on the chromosome.",
+     "Diagram: side by side, (a) unlinked genes: two separate chromosome pairs (A/a on one, B/b on the other) giving four gamete types AB, Ab, aB, ab; (b) linked genes: one chromosome pair, A and B on one homologue, a and b on the other, giving two gamete types AB and ab."
+    ]
+   },
+   {
+    "h": "Worked example: test cross with linked genes (Higher Level only)",
+    "points": [
+     "Key: A = dominant allele of gene 1, a = recessive; B = dominant allele of gene 2, b = recessive; A and B on the same chromosome.",
+     "Parents' phenotypes: AB/ab shows both dominant traits; ab/ab shows both recessive traits.",
+     "Parents' genotypes: AB/ab × ab/ab.",
+     "Gametes: AB, ab × ab.",
+     "Offspring genotypes: AB/ab (AaBb) and ab/ab (aabb), 1 : 1.",
+     "Offspring phenotypes: 1 showing both dominant traits : 1 showing both recessive traits.",
+     "If the genes were unlinked, the same cross (AaBb × aabb) would give four phenotypes, 1 : 1 : 1 : 1.",
+     "The arrangement matters: if the double heterozygote has the dominant allele of one gene with the recessive allele of the other on each chromosome (Ab/aB), its gametes are Ab and aB, and the test cross gives 1 Aabb : 1 aaBb, i.e. only the two mixed phenotypes.",
+     "Always read which alleles are on the same chromosome."
+    ]
+   },
+   {
+    "h": "Worked example: F1 × F1 with linked genes (Higher Level only)",
+    "points": [
+     "AB/ab × AB/ab.",
+     "Gametes: AB, ab × AB, ab.",
+     "Punnett square: AB/AB, AB/ab / AB/ab, ab/ab.",
+     "Offspring genotypes: 1 AABB : 2 AaBb : 1 aabb.",
+     "Phenotypes: 3 both dominant : 1 both recessive (3 : 1), compared with 9 : 3 : 3 : 1 if the genes were unlinked."
+    ]
+   },
+   {
+    "h": "A real example: Drosophila melanogaster (Higher Level only)",
+    "points": [
+     "In the fruit fly Drosophila melanogaster, the genes for body colour (grey dominant to black) and wing shape (normal wings dominant to vestigial wings) are on the same chromosome.",
+     "A test cross of a fly heterozygous for both (with grey and normal on one chromosome) with a black, vestigial fly gives mostly grey normal-winged and black vestigial-winged offspring, the parental combinations.",
+     "Only a few grey vestigial or black normal flies appear, not the 1 : 1 : 1 : 1 expected for unlinked genes."
+    ]
+   },
+   {
+    "h": "Recognising linkage from results (Higher Level only)",
+    "points": [
+     "A dihybrid cross whose offspring show mainly the parental combinations suggests that the two genes are linked.",
+     "Fewer phenotype classes than expected, or a ratio far from 9 : 3 : 3 : 1 (F1 × F1) or 1 : 1 : 1 : 1 (test cross), also suggests that the two genes are linked."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Linkage is when genes on the same chromosome are inherited together, because a chromosome passes into a gamete as one unit. The Law of Independent Assortment holds only for genes on different chromosomes. Linked genes do not assort independently, because the alleles on one chromosome move together into the same gamete when the homologous chromosomes separate in meiosis. So a double heterozygote with linked genes, AB/ab, makes only AB and ab gametes, and the new combinations Ab and aB are not formed.",
+    "prompt": "What is meant by linkage? Explain how linkage affects Mendel's Law of Independent Assortment.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Key: A = dominant allele of gene 1, a = recessive; B = dominant allele of gene 2, b = recessive. Parents' genotypes: AB/ab × ab/ab. Gametes: AB, ab × ab. Offspring genotypes: AB/ab (AaBb) and ab/ab (aabb), 1 : 1. Offspring phenotypes: 1 showing both dominant traits : 1 showing both recessive traits. If the genes were unlinked, AaBb × aabb would give four phenotypes in a 1 : 1 : 1 : 1 ratio, because the gametes would be AB, Ab, aB and ab. Diagram: (a) unlinked genes: two separate chromosome pairs (A/a on one, B/b on the other) giving gametes AB, Ab, aB, ab; (b) linked genes: one chromosome pair, with A and B on one homologue and a and b on the other, giving gametes AB and ab.",
+    "prompt": "Genes A and B are linked, with A and B on one chromosome and a and b on its homologue. Show the gametes and offspring of a cross between this plant and a plant with genotype aabb, and compare the result with that expected if the genes were unlinked.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The genes for body colour and wing shape are on the same chromosome, so they are linked and do not assort independently. The fly's alleles on each chromosome are inherited together, so most offspring show the parental combinations: grey normal-winged or black vestigial-winged. The few offspring with other combinations arise because linked genes are occasionally separated, as a result of crossing over, so they are rare rather than the 1 : 1 : 1 : 1 expected for unlinked genes.",
+    "prompt": "A fruit fly heterozygous for body colour and wing shape is test-crossed. Most offspring resemble one or other parent. Explain this result.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio12-s1": {
+  "keyTerms": [
+   {
+    "definition": "The differences between individuals of the same species.",
+    "term": "Variation"
+   },
+   {
+    "definition": "Variation caused by differences in alleles and genes, which can be passed to offspring.",
+    "term": "Genetic variation"
+   },
+   {
+    "definition": "Variation caused by the conditions an organism lives in, which is not inherited.",
+    "term": "Environmental variation"
+   },
+   {
+    "definition": "Variation where individuals fall into a few distinct groups with no intermediate forms.",
+    "term": "Discontinuous variation"
+   },
+   {
+    "definition": "Variation where individuals show a smooth range between two extremes, usually controlled by many genes and the environment.",
+    "term": "Continuous variation"
+   },
+   {
+    "definition": "The random, independent sorting of each homologous pair of chromosomes into gametes, which creates variation.",
+    "term": "Independent assortment"
+   },
+   {
+    "definition": "A genetically identical offspring produced without fertilisation, e.g. by mitosis or binary fission.",
+    "term": "Clone"
+   },
+   {
+    "definition": "A change in the base sequence of a gene or in the structure or number of chromosomes.",
+    "term": "Mutation"
+   },
+   {
+    "definition": "An agent, such as ionising radiation, ultraviolet light or certain chemicals, that increases the rate of mutation.",
+    "term": "Mutagen"
+   },
+   {
+    "definition": "A mutation in a body cell, which affects only that cell's descendants and is not passed to offspring.",
+    "term": "Somatic mutation"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What variation is",
+    "points": [
+     "Variation is the differences between individuals of the same species, such as in height, eye colour, blood group or resistance to a disease.",
+     "Genetic (inherited) variation is caused by differences in alleles and genes, and can be passed to offspring.",
+     "Environmental (acquired) variation is caused by the conditions an organism lives in, e.g. a scar, a suntan, muscles built by exercise, or a plant's size in poor soil. It is not passed on through the DNA.",
+     "Most characteristics depend on both: phenotype = genotype + environment (see Key concepts of information transfer).",
+     "Only genetic variation matters for evolution, because only it can be inherited and acted on by natural selection (see The theory of evolution by natural selection).",
+     "Discontinuous variation: individuals fall into a few distinct groups with no in-between forms, e.g. the human ABO blood group, round or wrinkled pea seeds, or albinism. It is usually controlled by one or a few genes, with little effect from the environment, and is shown in a bar chart.",
+     "Continuous variation: individuals show a smooth range between two extremes, e.g. human height, mass, skin colour or leaf length. It is usually controlled by many genes together with the environment. Most individuals are near the middle, giving a bell-shaped (normal) distribution shown in a histogram.",
+     "Diagram: a bar chart of the four ABO blood groups (discontinuous) beside a bell-shaped histogram of height in a class (continuous); label the axes blood group or height class, and number of people."
+    ]
+   },
+   {
+    "h": "Variation from sexual reproduction",
+    "points": [
+     "Sexual reproduction does not create new alleles. It produces new combinations of existing alleles in every generation, so every offspring (except identical twins) is genetically unique.",
+     "Independent assortment: which chromosome of each homologous pair enters a gamete is random and independent of the other pairs, so one person can make 2²³, about 8.4 million, different combinations of chromosomes in their gametes. The division itself is explained in Mitosis and meiosis, and Mendel's law of independent assortment in Mendel's Laws.",
+     "Random fertilisation: any one of the father's millions of sperm types can fertilise any one of the mother's egg types, so two parents can produce about 8.4 million × 8.4 million, about 70 trillion (7 × 10¹³), different combinations of chromosomes, before other sources of variation are counted.",
+     "Two parents: each offspring combines alleles from two different individuals, so alleles that arose in different family lines come together. The choice of mate also varies.",
+     "Asexual reproduction has one parent and no gametes. Cells divide by mitosis (bacteria divide by binary fission), so offspring are genetically identical clones, e.g. bacteria, potato tubers and strawberry runners. Their only source of genetic variation is mutation.",
+     "A population of clones may all be destroyed by the same disease or change in the environment. The potatoes grown in Ireland before the Great Famine were mostly a single variety, the Lumper, propagated from tubers, so the plants were almost genetically identical. When potato blight, caused by Phytophthora infestans, arrived in 1845, none was resistant and the crop failed across the country.",
+     "Diagram: two homologous pairs (one long, one short, coloured to show the chromosome from the mother and the one from the father) in a cell, the two possible ways they can line up before separating, and the four resulting kinds of gamete; label homologous pair, gamete, maternal chromosome and paternal chromosome."
+    ]
+   },
+   {
+    "b": "Mutation is the only source of new alleles, so it is the original source of all genetic variation.",
+    "h": "Variation from mutation",
+    "points": [
+     "A mutation is a change in the DNA: in the base sequence of a gene, or in the structure or number of chromosomes.",
+     "Mutations happen spontaneously, mainly as rare copying errors when DNA is replicated.",
+     "Mutagens such as ionising radiation (X-rays, gamma rays), ultraviolet light and certain chemicals, e.g. some in tobacco smoke, increase the rate of mutation. Mutations are random: mutagens change the rate but not the direction.",
+     "Gene (point) mutation: a change in the base sequence of one gene, e.g. one base replaced by another, or a base added or lost. It creates a new allele of that gene. Example: sickle-cell anaemia is caused by a change of a single base in a gene for haemoglobin.",
+     "Chromosome mutation: a change in the structure of a chromosome, such as a section lost (deletion), copied (duplication), turned around (inversion) or moved to another chromosome (translocation). It affects many genes at once.",
+     "Changes in chromosome number also cause variation. Down syndrome is caused by an extra copy of chromosome 21 (47 chromosomes in total). In plants, whole extra sets of chromosomes (polyploidy) are common; bread wheat has six sets.",
+     "Most mutations are neutral (no effect, e.g. in non-coding DNA, or a change that gives the same amino acid) or harmful; a few are beneficial in a particular environment. Chromosome mutations are usually harmful in animals, but polyploidy is often tolerated in plants, and many crop plants are polyploid.",
+     "Beneficial example, lactase persistence: most mammals stop making lactase, the enzyme that digests milk sugar, after weaning. A mutation in the DNA controlling the lactase gene keeps it switched on in adults.",
+     "The lactase mutation became common in populations with a long history of dairy farming, such as northern Europe including Ireland, because adults who could digest milk had an advantage.",
+     "Only mutations in cells that make gametes (or in a gamete) are inherited. A somatic mutation, e.g. a skin cell damaged by ultraviolet light, affects only the cells descended from it and may cause cancer, but is not passed to offspring.",
+     "Each gene mutates rarely, but there are many genes and many individuals, so new mutations arise in every generation. Organisms that reproduce very fast, such as bacteria, accumulate mutations quickly (antibiotic resistance is in Evidence for evolution)."
+    ]
+   },
+   {
+    "h": "Sexual reproduction and mutation compared",
+    "points": [
+     "What it does: sexual reproduction shuffles existing alleles into new combinations; mutation creates new alleles or new chromosome arrangements.",
+     "How often: sexual reproduction happens in every generation, in every offspring; mutation happens rarely and at random.",
+     "Effect on the individual: sexual reproduction makes every offspring different, but each allele in the new combination was already present and working in a parent; most mutations are neutral or harmful, and a few are beneficial.",
+     "Organisms: sexual reproduction occurs only in sexually reproducing organisms; mutation occurs in all organisms, including those that reproduce asexually.",
+     "Together, mutation supplies new alleles and sexual reproduction spreads them into new combinations, giving the variation on which natural selection acts."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two ways: first, independent assortment of homologous chromosomes in meiosis, so each gamete receives a random mix of maternal and paternal chromosomes (about 8.4 million combinations per person); second, random fertilisation, since any sperm can fuse with any egg, giving about 70 trillion combinations from two parents. Asexual reproduction produces offspring by mitosis (or binary fission) with one parent and no gametes, so the offspring are clones that are genetically identical to the parent. There is no reshuffling of alleles, so the only new variation comes from rare mutation.",
+    "prompt": "Give two ways in which sexual reproduction produces variation, and explain why offspring produced asexually show little variation.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A mutation is a change in the DNA: in the base sequence of a gene, or in the structure or number of chromosomes. A gene mutation changes the base sequence of one gene, e.g. one base is replaced by another, creating a new allele; sickle-cell anaemia is caused by a change of a single base in a gene for haemoglobin. A chromosome mutation affects many genes at once, either by changing the structure of a chromosome (a section is lost by deletion, copied by duplication, turned around by inversion or moved to another chromosome by translocation) or by changing the number of chromosomes; Down syndrome, with an extra copy of chromosome 21 and 47 chromosomes in total, is an example of a change in number.",
+    "prompt": "Define mutation. Distinguish between a gene mutation and a chromosome mutation, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Mutation is the only source of new alleles, so it is the original source of all genetic variation; it is random, rare, and occurs in gametes or in cells that make gametes, because only mutations in gametes are inherited. Most mutations are neutral or harmful, but a few are beneficial in a particular environment, as with the lactase mutation that allows adults to digest milk in populations with a history of dairy farming. Sexual reproduction then shuffles the existing alleles into new combinations: independent assortment in meiosis and random fertilisation mean that every offspring is genetically unique. The result is a population with a range of inherited differences, and only inherited variation can be acted on by natural selection, which is how evolution occurs.",
+    "prompt": "Explain how mutation and sexual reproduction together provide the variation needed for evolution.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio12-s2": {
+  "keyTerms": [
+   {
+    "definition": "The change in the inherited characteristics of a population over many generations, in genetic terms a change in allele frequencies.",
+    "term": "Evolution"
+   },
+   {
+    "definition": "An inherited feature that increases an organism's chance of surviving and reproducing in its environment.",
+    "term": "Adaptation"
+   },
+   {
+    "definition": "The process by which individuals with inherited characteristics better suited to their environment survive and reproduce more, so those characteristics become more common.",
+    "term": "Natural selection"
+   },
+   {
+    "definition": "Selective breeding, in which humans choose which individuals breed so that wanted characteristics become more common.",
+    "term": "Artificial selection"
+   },
+   {
+    "definition": "Producing more offspring than can survive, which leads to competition for limited resources.",
+    "term": "Overproduction"
+   },
+   {
+    "definition": "Competition between individuals for limited food, water, space and mates.",
+    "term": "Struggle for existence"
+   },
+   {
+    "definition": "The survival and reproduction of individuals best adapted to their environment, the most reproductively successful rather than the strongest.",
+    "term": "Survival of the fittest"
+   },
+   {
+    "definition": "The earlier idea that offspring inherit a mix of parental characteristics, which would dilute favourable variation; rejected once Mendel's discrete units of inheritance were recognised.",
+    "term": "Blending inheritance"
+   },
+   {
+    "definition": "The early 20th-century combination of Darwin's theory with genetics, explaining evolution as change in allele frequencies caused mainly by natural selection.",
+    "term": "Modern synthesis"
+   },
+   {
+    "definition": "The dark form of an organism, such as the peppered moth, produced by a gene with a dark allele.",
+    "term": "Melanic form"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Evolution and adaptation",
+    "points": [
+     "Evolution is the change in the inherited characteristics of a population over many generations. In genetic terms, it is a change in how common particular alleles are in a population. Over long periods it can produce new species.",
+     "An adaptation is an inherited feature that increases an organism's chance of surviving and reproducing in its environment.",
+     "Adaptations can be structural (a cactus's leaves reduced to spines, which reduces water loss), behavioural (birds migrating to warmer regions in winter) or physiological (the chemistry of the body, e.g. lactase made by adults; see Variation).",
+     "Natural selection is the process by which individuals with inherited characteristics better suited to their environment survive and reproduce more than others, so those characteristics become more common in the next generation. It is the main mechanism of evolution."
+    ]
+   },
+   {
+    "h": "The rationale: how the theory was reached",
+    "points": [
+     "Charles Darwin (1809–1882), an English naturalist, sailed around the world on HMS Beagle from 1831 to 1836.",
+     "He observed that species varied from place to place: the finches and giant tortoises of the Galápagos Islands differed from island to island and resembled species on the nearby South American mainland.",
+     "On the same voyage he found fossils of extinct animals in South America that resembled living species there.",
+     "Charles Lyell argued that the Earth is very old and is shaped by slow processes over vast time, giving time for gradual change.",
+     "Thomas Malthus argued that populations tend to grow faster than their food supply, so there is a struggle for existence.",
+     "Breeders of pigeons, dogs and farm animals showed that selection over generations could change a species greatly; this is artificial selection.",
+     "Alfred Russel Wallace (1823–1913), working in the Malay Archipelago, reached the same idea independently and wrote to Darwin.",
+     "Papers by both were read together at the Linnean Society of London on 1 July 1858. Darwin published On the Origin of Species in November 1859, giving the evidence in detail.",
+     "The observations the theory had to explain were: variation within species; the fit between organisms and their environments; species on islands resembling those on the nearest mainland; and fossils of extinct species resembling living ones."
+    ]
+   },
+   {
+    "b": "The theory rests on six numbered steps, from observation to inference, and on one point about what selection acts on.",
+    "h": "The basis: the steps of the theory",
+    "points": [
+     "1. Overproduction: organisms produce more offspring than can survive (e.g. a single cod releases millions of eggs; an oak tree produces thousands of acorns), yet population sizes stay fairly stable over time.",
+     "2. Struggle for existence: resources such as food, water, space and mates are limited, so individuals compete, and many die from predation, disease or harsh conditions before reproducing.",
+     "3. Variation: individuals of a species differ, and many of the differences are inherited (from sexual reproduction and mutation; see Variation).",
+     "4. Survival of the fittest: individuals whose inherited variations suit them better to the environment are more likely to survive and reproduce. Fittest means best adapted to that environment, with the greatest reproductive success, not the strongest. The phrase was coined by Herbert Spencer and later used by Darwin.",
+     "5. Inheritance: the survivors pass the favourable alleles to their offspring, so these alleles and characteristics become more common in the next generation, and less favourable ones become less common.",
+     "6. Over many generations the population becomes better adapted to its environment. Different populations in different environments change in different ways and, given time and isolation, may become separate species (see Evidence for evolution).",
+     "Selection acts on individuals, since they survive or not, but it is populations that evolve; an individual's genes do not change during its life.",
+     "Diagram: a flow chart of the six numbered steps, or a three-panel sequence for the peppered moth: a mixed population on a soot-darkened tree, birds eating the visible pale moths, and the next generation mostly dark."
+    ]
+   },
+   {
+    "h": "Worked example: the peppered moth",
+    "points": [
+     "The peppered moth (Biston betularia) rests on tree trunks by day and is eaten by birds. It has a pale, speckled form and a dark (melanic) form; the difference is controlled by one gene, and the dark allele arose by mutation.",
+     "Before the Industrial Revolution, tree trunks in England were pale and covered in lichens, and almost all moths were pale, so they were camouflaged; the rare dark moths were easily seen and eaten.",
+     "In the 1800s, air pollution from coal killed the lichens and blackened tree trunks with soot near industrial cities such as Manchester. Now the dark moths were camouflaged and the pale ones were eaten more, so dark moths survived and reproduced more, and the dark form became the most common in industrial areas.",
+     "After clean-air laws in the 1950s reduced pollution, the trunks became paler again and the pale form again became the most common. Selection changed direction when the environment changed; evolution is not a fixed march in one direction."
+    ]
+   },
+   {
+    "h": "Common origins and future directions",
+    "points": [
+     "Common origins: the theory explains why all living things share features such as cells, DNA, the same genetic code and ATP, because they are descended from common ancestors. More closely related species share a more recent common ancestor. This is the basis of classification by phylogeny (see Classification).",
+     "Highly specialised organisms are the result of natural selection over many generations in a particular, stable environment, producing close adaptation to a narrow way of life. The giant panda's diet is almost entirely bamboo, and the koala's is almost entirely eucalyptus leaves.",
+     "Predicting future directions: natural selection depends on the environment, so if the environment changes, organisms will adapt (if suitable variation exists and there is time), move, or become extinct.",
+     "Highly specialised organisms, which depend on one food or habitat and often reproduce slowly, are most at risk when that resource or habitat is lost. Generalists, which can use many foods and habitats, are more likely to survive change.",
+     "Organisms with short generation times and large populations are predicted to evolve fastest: bacteria evolve resistance to antibiotics, insects evolve resistance to pesticides, and the influenza virus changes so much each year that the flu vaccine must be updated annually. These predictions are borne out (see Evidence for evolution for antibiotic resistance)."
+    ]
+   },
+   {
+    "b": "Artificial selection (selective breeding) is the process by which humans choose which individuals breed, so that characteristics useful or attractive to humans become more common over generations.",
+    "h": "Artificial selection",
+    "points": [
+     "Examples: all dog breeds, from the Chihuahua to the Great Dane, were bred from wolves.",
+     "Cabbage, broccoli, cauliflower, kale, Brussels sprouts and kohlrabi were all bred from the wild cabbage (Brassica oleracea).",
+     "Dairy cows have been bred for high milk yield, and modern wheat for large grains that stay on the plant until harvested.",
+     "Darwin used artificial selection as evidence that selection over generations can produce large changes, and as an analogy for natural selection."
+    ]
+   },
+   {
+    "h": "Natural and artificial selection compared",
+    "points": [
+     "Who or what selects: the environment (predators, climate, food supply, disease) in natural selection; humans in artificial selection.",
+     "Characteristics favoured: those that increase survival and reproduction in the wild, versus those wanted by humans, which may harm the organism. Flat-faced dog breeds such as pugs and bulldogs have breathing problems.",
+     "Speed: natural selection is usually slow, over many generations; artificial selection is relatively fast, because humans choose strongly.",
+     "Outcome: natural selection leads to adaptation to the environment and, eventually, new species; artificial selection leads to new breeds and varieties of the same species (all dogs are one species).",
+     "Genetic variation: usually maintained in large wild populations, but often reduced in artificial selection, because a few chosen individuals are bred and inbred, making the population more vulnerable to disease (the Irish potato example is in Variation).",
+     "Similarity: both depend on inherited variation and on some individuals reproducing more than others."
+    ]
+   },
+   {
+    "h": "Discussing the theory: difficulties and later answers",
+    "points": [
+     "Darwin did not know how characteristics were inherited or where new variation came from.",
+     "Many people then believed in blending inheritance, which would dilute any favourable variation within a few generations.",
+     "Mendel published his work on inheritance in 1866, but it was widely recognised only from 1900. It showed that inheritance is by discrete units (genes) that are not blended.",
+     "Later, the discovery of DNA and mutation explained the source of new variation (see Variation).",
+     "Combined with genetics in the early 20th century, the theory became the modern synthesis: evolution is a change in allele frequencies in populations, caused mainly by natural selection acting on variation that comes from mutation and sexual reproduction.",
+     "Critics in Darwin's time said there were too few transitional fossils, and that the Earth was too young for such slow change.",
+     "Since then many transitional fossils have been found, and radiometric dating shows the Earth is about 4.6 billion years old (see Evidence for evolution).",
+     "The theory caused controversy because it conflicted with the religious belief, then widespread, that species were created separately in their present form.",
+     "Science tests explanations against evidence; why evolution is accepted as the best explanation is in The importance of the theory."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Charles Darwin and Alfred Russel Wallace independently proposed the theory; their papers were read together at the Linnean Society of London on 1 July 1858. Evolution is the change in the inherited characteristics of a population over many generations; in genetic terms, it is a change in how common particular alleles are in a population. Over long periods it can produce new species.",
+    "prompt": "Name the two scientists who proposed the theory of evolution by natural selection and define the term evolution.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "1. Overproduction: organisms produce more offspring than can survive, yet population sizes stay fairly stable. 2. Struggle for existence: resources are limited, so individuals compete and many die before reproducing. 3. Variation: individuals differ, and many differences are inherited, arising from mutation and sexual reproduction. 4. Survival of the fittest: individuals whose inherited variations suit the environment are more likely to survive and reproduce. 5. Inheritance: survivors pass the favourable alleles to their offspring, so these become more common. 6. Over many generations the population becomes better adapted, and different populations may become separate species. Example: the peppered moth. Before the Industrial Revolution the pale form was camouflaged on pale, lichen-covered trees and the dark form was eaten; after soot blackened the trunks near industrial cities such as Manchester, the dark form was camouflaged and survived and reproduced more, so it became the most common. The moths did not change colour to match the trees; the variation was already present, and selection changed the proportions of the forms.",
+    "prompt": "Outline the main points of the theory of evolution by natural selection, using one named example.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Artificial selection (selective breeding) is the process by which humans choose which individuals breed, so that characteristics useful or attractive to humans become more common over generations. Natural selection is the process by which individuals better suited to their environment survive and reproduce more. Who selects: the environment in natural selection; humans in artificial selection. Characteristics favoured: those that increase survival and reproduction in the wild, versus those wanted by humans, which may harm the organism (e.g. flat-faced dog breeds such as pugs and bulldogs have breathing problems). Speed: usually slow, over many generations, versus relatively fast because humans choose strongly. Outcome: adaptation and, eventually, new species, versus new breeds and varieties of the same species. Example of natural selection: the peppered moth, in which the dark form became common near industrial cities after soot blackened tree trunks. Example of artificial selection: all dog breeds were bred from wolves, and cabbage, broccoli, cauliflower, kale, Brussels sprouts and kohlrabi were all bred from the wild cabbage.",
+    "prompt": "Compare natural selection and artificial selection.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio12-s3": {
+  "keyTerms": [
+   {
+    "definition": "The preserved remains or traces of an organism that lived long ago, usually formed when it was buried in sediment and its hard parts were replaced by minerals.",
+    "term": "Fossil"
+   },
+   {
+    "definition": "A method of dating rocks by measuring the decay of radioactive elements, giving ages in years.",
+    "term": "Radiometric dating"
+   },
+   {
+    "definition": "A fossil that shows features of two groups, such as Archaeopteryx or Tiktaalik.",
+    "term": "Transitional fossil"
+   },
+   {
+    "definition": "A structure with the same basic structure in different species, inherited from a common ancestor but adapted for different functions.",
+    "term": "Homologous structure"
+   },
+   {
+    "definition": "A structure with the same function in different species but a different structure and origin, showing convergent evolution rather than common ancestry.",
+    "term": "Analogous structure"
+   },
+   {
+    "definition": "A reduced structure with little or no function, which was functional in the organism's ancestors.",
+    "term": "Vestigial structure"
+   },
+   {
+    "definition": "The evolutionary history of a group of organisms, shown by phylogenetic trees.",
+    "term": "Phylogeny"
+   },
+   {
+    "definition": "A small loop of DNA in a bacterium, separate from its chromosome, which can carry resistance genes between bacteria.",
+    "term": "Plasmid"
+   },
+   {
+    "definition": "The formation of new species, which happens when two populations become reproductively isolated.",
+    "term": "Speciation"
+   },
+   {
+    "definition": "The state in which two populations can no longer interbreed to produce fertile offspring.",
+    "term": "Reproductive isolation"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Fossil records",
+    "points": [
+     "A fossil is the preserved remains or traces of an organism that lived long ago, e.g. bones, shells, teeth, footprints or impressions of leaves.",
+     "Most fossils form when an organism is quickly buried in sediment (mud or sand) in water. Its soft parts decay, and minerals gradually replace the hard parts as the sediment becomes sedimentary rock. Whole organisms are occasionally preserved in amber, ice or peat.",
+     "In undisturbed layers of sedimentary rock, deeper layers are older. Radiometric dating, which measures the decay of radioactive elements in rocks, gives ages in years.",
+     "The Earth is about 4.6 billion years old; the oldest widely accepted fossils, of simple bacteria-like cells, are about 3.5 billion years old.",
+     "The oldest rocks contain only simple, single-celled life. More complex organisms appear in younger rocks in a consistent order, e.g. fish before amphibians, and reptiles before birds and mammals.",
+     "Most species that ever lived are extinct, and in many groups a series of fossils shows gradual change over time.",
+     "Archaeopteryx, found in Germany in 1861 (two years after On the Origin of Species) and about 150 million years old, had feathers and wings like a bird but teeth, a long bony tail and clawed fingers like a reptile (a dinosaur). Transitional fossils such as this show features of two groups.",
+     "Tiktaalik, found in 2004 on Ellesmere Island in the Canadian Arctic and about 375 million years old, was a fish with scales, fins and gills, but also had a flat head, a neck, and fin bones like the bones of a limb; it was intermediate between fish and the first four-limbed land animals.",
+     "The team searched rocks of that age because the theory predicted such an animal should have lived then, and the prediction was confirmed (its significance is in The importance of the theory).",
+     "The horse: a series of fossils over more than 50 million years runs from Hyracotherium, a small animal about the size of a dog with four toes on its front feet, to the modern horse, which is much larger, stands on a single toe (the hoof), and has teeth suited to grazing, matching a change from forest to open grassland.",
+     "Limitations: the record is incomplete, because fossils form only in rare conditions, soft-bodied organisms seldom fossilise, many fossils have been destroyed by erosion or movements of the Earth, and many have not yet been found.",
+     "The gaps do not contradict evolution, and every new fossil found has fitted the expected order.",
+     "Diagram: a cross-section of rock layers with fossils, the deepest layer labelled oldest and the top labelled youngest, showing simpler forms in the lower layers; optionally, three horse feet from Hyracotherium to the modern horse showing toe reduction."
+    ]
+   },
+   {
+    "h": "Comparative anatomy",
+    "points": [
+     "Homologous structures have the same basic structure because they were inherited from a common ancestor, but are adapted for different functions.",
+     "The pentadactyl (five-digit) limb: the human arm (grasping), bat wing (flying), whale flipper (swimming) and horse leg (running) all have one upper bone (humerus), two lower bones (radius and ulna), wrist bones (carpals), palm bones (metacarpals) and finger bones (phalanges), differently shaped and sized.",
+     "This is divergent evolution: one ancestral form adapted in different directions.",
+     "Analogous structures have the same function but different structures and origins, e.g. the wing of a bird (bones and feathers) and the wing of an insect (a thin membrane of chitin with no bones).",
+     "Analogous structures are not evidence of common ancestry; they show that similar environments select similar solutions (convergent evolution).",
+     "Vestigial structures are reduced, with little or no function, but were functional in the organism's ancestors: the human coccyx (the remains of a tail), the human appendix (a much-reduced part of the gut, larger in plant-eating mammals), the small pelvic and leg bones inside some whales, and the tiny wings of flightless birds such as the kiwi.",
+     "Vestigial structures make sense only if the organism descended from ancestors that used them.",
+     "Diagram: the forelimbs of a human, a bat and a whale side by side, each bone group shaded the same way in all three; label humerus, radius, ulna, carpals, metacarpals and phalanges."
+    ]
+   },
+   {
+    "h": "Embryology",
+    "points": [
+     "Comparative embryology compares the development of embryos. The early embryos of all vertebrates (fish, amphibians, reptiles, birds and mammals) look very similar: all have a tail and a series of pouches in the throat region (pharyngeal pouches).",
+     "In fish these pouches develop into gills; in humans they develop into parts of the ear, jaw and throat, and the tail is reduced to the coccyx.",
+     "The shared early stages suggest that all vertebrates inherited the same basic plan of development from a common ancestor, which was then modified in each group.",
+     "Limitations: the similarity is in early development, not in adult structures, and embryos do not pass through the adult forms of their ancestors.",
+     "In the 19th century Ernst Haeckel published drawings that exaggerated the similarity of embryos; modern photographs confirm the shared features but not the exaggeration.",
+     "Diagram: early embryos of a fish, a chicken and a human side by side, labelled tail and pharyngeal pouches."
+    ]
+   },
+   {
+    "h": "Phylogeny and molecular evidence",
+    "points": [
+     "Phylogeny is the evolutionary history of a group; phylogenetic trees show which species share the most recent common ancestors (how to read them is in Classification).",
+     "Evolution predicts that species closely related by anatomy and fossils should also have the most similar DNA and proteins, because they have had less time to accumulate differences since their common ancestor.",
+     "All living things use DNA, the same four bases, almost the same genetic code (see The genetic code) and the same ATP, evidence that all life shares one origin.",
+     "Human and chimpanzee DNA is about 98–99% identical in comparable sequences; human DNA is less similar to that of a mouse, and less again to that of a fish.",
+     "Cytochrome c, a protein used in aerobic respiration in nearly all eukaryotes, has an identical amino-acid sequence in humans and chimpanzees, differs by one amino acid between humans and rhesus monkeys, and differs more in more distantly related organisms such as yeast.",
+     "The trees built from DNA and proteins largely agree with those built from anatomy and fossils. Independent lines of evidence giving the same pattern are strong support for evolution.",
+     "Molecular evidence has also corrected some classifications based on appearance, e.g. the domains of life (see Domains of life)."
+    ]
+   },
+   {
+    "h": "Antibiotic resistance as natural selection",
+    "points": [
+     "An antibiotic is a drug that kills or stops the growth of bacteria; antibiotics have no effect on viruses. Antibiotic resistance is the ability of bacteria to survive an antibiotic that would normally kill them.",
+     "1. A bacterial population varies: a few bacteria carry a mutation (or a resistance gene on a plasmid) that makes them resistant, e.g. by producing an enzyme that breaks down the antibiotic.",
+     "2. The antibiotic kills the non-resistant bacteria.",
+     "3. The resistant bacteria survive and, with less competition, reproduce rapidly by binary fission, as often as every 20 minutes in ideal conditions.",
+     "4. They pass the resistance gene to their offspring, and can pass plasmids carrying it to other bacteria, even of other species.",
+     "5. The population soon becomes mostly resistant, and the antibiotic no longer works.",
+     "The resistance mutations are present before the antibiotic is used: the antibiotic selects them but does not cause them. In 1952 Joshua and Esther Lederberg showed this by growing bacteria that had never met the antibiotic and finding resistant colonies already among them.",
+     "Diagram: four panels of a bacterial population: mostly non-resistant cells with a few resistant ones (shaded), then antibiotic added and non-resistant cells die, then resistant cells multiply, then the population is mostly resistant."
+    ]
+   },
+   {
+    "h": "Why antibiotic resistance is evidence for evolution",
+    "points": [
+     "MRSA (methicillin-resistant Staphylococcus aureus) is resistant to many common antibiotics and causes infections that are hard to treat, especially in hospitals.",
+     "Natural selection is observed directly, within years, because bacteria have huge populations and very short generation times.",
+     "Overuse of antibiotics, e.g. prescribing them for viral infections or in farm animals, speeds up resistance by applying selection more often. Its health and sustainability impacts are covered in Science, scientists and society and The cross-cutting themes."
+    ]
+   },
+   {
+    "h": "Natural selection observed in the wild",
+    "points": [
+     "Peter and Rosemary Grant studied the medium ground finch on the Galápagos island of Daphne Major. In a drought in 1977, small soft seeds became scarce and mainly large, hard seeds were left.",
+     "Most finches died, but birds with deeper (larger) beaks, which could crack the hard seeds, survived more, and their offspring had, on average, deeper beaks than the generation before.",
+     "Natural selection was measured happening in one generation.",
+     "Biogeography (the distribution of species): species on oceanic islands resemble those on the nearest mainland rather than those on islands with similar conditions elsewhere; the Galápagos species resemble South American species.",
+     "This is explained by colonisation from the mainland followed by evolution, not by separate creation for each environment."
+    ]
+   },
+   {
+    "h": "Speciation",
+    "points": [
+     "Speciation is the formation of new species. A species is a group that can interbreed to produce fertile offspring (see Key concepts of information transfer), so a new species has formed when two populations can no longer interbreed: they are reproductively isolated.",
+     "Speciation by geographical isolation, step by step: 1. a population is split by a barrier, such as a sea, a mountain range or a river, so the two groups no longer interbreed.",
+     "2. Different mutations arise in each group.",
+     "3. The environments differ, so natural selection favours different characteristics in each.",
+     "4. Over many generations the two populations become so different that they could not interbreed even if they met; they are now separate species.",
+     "Example: more than a dozen species of finch on the Galápagos are descended from a common ancestor that arrived from the South American mainland.",
+     "Populations on different islands, eating different foods, evolved beaks of different shapes, e.g. large, deep beaks for cracking seeds and thin, pointed beaks for catching insects.",
+     "Speciation without geographical isolation: in plants, a new species can form in one or a few generations when a change in chromosome number (polyploidy, see Variation) makes offspring unable to breed with the parent species.",
+     "Example: the cordgrass Spartina anglica arose in southern England in the late 1800s from a cross between a native European cordgrass and an introduced American one, followed by doubling of the chromosomes, which made the hybrid fertile. It is now a separate, widespread species, including on Irish coasts.",
+     "Why it is evidence: new species have been seen to form, and the pattern of species (groups of similar species on neighbouring islands) is what the theory predicts.",
+     "Diagram: a flow diagram of geographical speciation: one population, then a barrier divides it, then different mutations and selection on each side, then two species that can't interbreed."
+    ]
+   },
+   {
+    "h": "Weighing the evidence",
+    "points": [
+     "Each source has limitations (an incomplete fossil record, embryos similar only early on, analogous structures that can mislead), but the sources are independent of each other and all point to the same conclusion: common descent with change over time, driven largely by natural selection.",
+     "Antibiotic resistance, the finch beaks, the peppered moth (see The theory of evolution by natural selection) and new species such as Spartina anglica show evolution happening now."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Fossils form when an organism is buried quickly in sediment and its hard parts are replaced by minerals. In undisturbed rock layers the deeper layers are older, and radiometric dating gives ages in years. The oldest rocks contain only simple, single-celled life, and more complex organisms appear in younger rocks in a consistent order, e.g. fish before amphibians, and reptiles before birds and mammals. Transitional fossils such as Archaeopteryx, which had feathers and wings like a bird but teeth, a long bony tail and clawed fingers like a reptile, show features of two groups. The horse series over more than 50 million years runs from Hyracotherium, with four toes on its front feet, to the modern horse with a single toe. Limitation: the fossil record is incomplete, because fossils form only in rare conditions and soft-bodied organisms seldom fossilise, so many species have left no record.",
+    "prompt": "Describe how fossil evidence supports the theory of evolution, and give one limitation of the fossil record.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "A bacterial population varies, and a few bacteria carry a mutation, or a resistance gene on a plasmid, that makes them resistant, e.g. by producing an enzyme that breaks down the antibiotic. The antibiotic kills the non-resistant bacteria. The resistant bacteria survive and, with less competition, reproduce rapidly by binary fission, as often as every 20 minutes in ideal conditions. They pass the resistance gene to their offspring, and can pass plasmids to other bacteria, so the population soon becomes mostly resistant and the antibiotic no longer works. The resistance mutations are present before the antibiotic is used: the antibiotic selects them but does not cause them, as Joshua and Esther Lederberg showed in 1952. This is evidence for evolution because it is a change in the frequency of inherited resistance alleles caused by selection, observed directly within years, because bacteria have huge populations and very short generation times.",
+    "prompt": "Explain how a population of bacteria becomes resistant to an antibiotic, and why this is evidence for evolution by natural selection.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Comparative anatomy: homologous structures have the same basic structure because they were inherited from a common ancestor but are adapted for different functions. The pentadactyl limb of the human arm, bat wing, whale flipper and horse leg all have one upper bone (humerus), two lower bones (radius and ulna), carpals, metacarpals and phalanges, differently shaped and sized. Vestigial structures, such as the human coccyx, the remains of a tail, make sense only if the organism descended from ancestors that used them. Embryology: the early embryos of all vertebrates look very similar, all having a tail and pharyngeal pouches. In fish these pouches develop into gills, while in humans they develop into parts of the ear, jaw and throat, and the tail is reduced to the coccyx. The shared early stages suggest that all vertebrates inherited the same basic plan of development from a common ancestor, which was then modified in each group.",
+    "prompt": "Explain how comparative anatomy and embryology provide evidence for evolution.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio12-s4": {
+  "keyTerms": [
+   {
+    "definition": "In science, the highest status an explanation reaches: a broad, well-tested explanation supported by many independent lines of evidence.",
+    "term": "Scientific theory"
+   },
+   {
+    "definition": "Able to be shown false by evidence; a scientific theory must be falsifiable.",
+    "term": "Falsifiable"
+   },
+   {
+    "definition": "The observation that living things have changed over time and share common ancestors.",
+    "term": "Fact of evolution"
+   },
+   {
+    "definition": "A feature gained during an organism's life through use, disuse or environment, which is not inherited through DNA.",
+    "term": "Acquired characteristic"
+   },
+   {
+    "definition": "The belief that species were created separately in their present forms; not a scientific theory because it is not testable.",
+    "term": "Special creation"
+   },
+   {
+    "definition": "The passing on of gene activity changes without changes to the base sequence of DNA; a limited exception to the inheritance of acquired characteristics.",
+    "term": "Epigenetic inheritance"
+   },
+   {
+    "definition": "The responsible use of antibiotics to slow the evolution of resistance.",
+    "term": "Antibiotic stewardship"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Evolution as a scientific theory",
+    "points": [
+     "Applying the definition of a theory: evolution by natural selection is a broad explanation of a huge range of observations, including the diversity of life, adaptation, shared features, the fossil record and the distribution of species.",
+     "It is supported by evidence from many independent sources, it makes testable predictions, and it could be shown false by evidence, but no such evidence has been found.",
+     "It is falsifiable: finding fossils of mammals in rocks older than the first fish, or finding that the DNA of closely related species was no more similar than that of distant species, would contradict it.",
+     "The everyday meaning of theory (a guess or hunch) is not the scientific meaning. Saying evolution is only a theory misunderstands the word: in science, a theory is the highest status an explanation reaches.",
+     "The cell theory and the germ theory of disease are theories in the same sense.",
+     "Two parts should be distinguished: the fact of evolution (living things have changed over time and share common ancestors, which the evidence shows directly) and the theory of natural selection (the explanation of how that change happens)."
+    ]
+   },
+   {
+    "h": "Why it is so widely accepted and tested",
+    "points": [
+     "It has been tested for over 160 years, since 1859, by scientists in every field of biology, and also in geology, chemistry and physics (e.g. radiometric dating of the Earth).",
+     "Evidence that was not known to Darwin has confirmed it: genetics (Mendel's work, recognised from 1900), the structure of DNA (1953), molecular comparisons of DNA and proteins, and many transitional fossils (see Evidence for evolution).",
+     "Each new kind of evidence could have contradicted it, and did not.",
+     "Its predictions have been confirmed: Tiktaalik was found in rocks of the age the theory predicted (see Evidence for evolution); trees built from DNA match those built from anatomy; bacteria evolve resistance to new antibiotics; insects evolve resistance to pesticides.",
+     "It is accepted by almost all biologists and by scientific academies around the world, and is the framework used in all biological research. Acceptance is based on evidence, not on authority or majority opinion.",
+     "Like all theories, it has been refined: it was combined with genetics into the modern synthesis (see The theory of evolution by natural selection).",
+     "Scientists still debate details such as how fast evolution happens and the roles of chance and of epigenetics. Debate about details within the theory is normal science, not doubt about evolution itself."
+    ]
+   },
+   {
+    "h": "Why it is the best available explanation",
+    "points": [
+     "Lamarck's theory (Jean-Baptiste Lamarck, 1809): organisms change during their lives through the use or disuse of body parts, and pass these acquired characteristics to their offspring, e.g. giraffes stretching to reach leaves would have offspring with longer necks.",
+     "Acquired characteristics are not passed on through DNA. A weightlifter's children are not born with large muscles, and in the 1880s August Weismann cut off the tails of mice over several generations, yet their offspring still had normal tails.",
+     "Natural selection works with variation that already exists, explains adaptation without any need for the organism to try, and is supported by genetics.",
+     "Darwin's explanation of the giraffe: giraffes with slightly longer necks, through inherited variation, reached more food in times of shortage, survived and reproduced more, and passed on the alleles for longer necks.",
+     "Epigenetic inheritance (see Genetic and epigenetic mechanisms) is a small, limited exception and does not restore Lamarck's theory.",
+     "Special creation, the belief that species were created separately in their present forms, is a matter of religious faith rather than a scientific theory: it makes no testable predictions.",
+     "Special creation does not explain the evidence, such as homologous and vestigial structures, the order of fossils, or the pattern of DNA similarity.",
+     "Many religious people and organisations accept evolution; science and faith answer different kinds of questions.",
+     "Evolution by natural selection explains all the evidence together, with one mechanism, and makes predictions; no other explanation does this, so it is the best available explanation."
+    ]
+   },
+   {
+    "h": "Life continues to evolve",
+    "points": [
+     "Evolution is not only in the past: it is observed now, especially in organisms with short generations and large populations, e.g. antibiotic-resistant bacteria such as MRSA, the Galápagos finches' beaks after the 1977 drought, the peppered moth, and the new cordgrass species Spartina anglica.",
+     "Viruses evolve fast: new variants of the virus that causes COVID-19 (SARS-CoV-2), such as Delta and Omicron, spread because their mutations helped them spread or escape immunity, so vaccines were updated.",
+     "Flu vaccines are updated every year for the same reason.",
+     "Pests and weeds evolve resistance to the pesticides and herbicides used against them, and cancer cells in a tumour can evolve resistance to the drugs used to treat them, by the same process of selection.",
+     "Human activity is now a strong selection pressure: antibiotic and pesticide use, climate change and habitat loss. Highly specialised species with slow reproduction are least able to evolve fast enough."
+    ]
+   },
+   {
+    "h": "The importance of the theory in understanding biology",
+    "points": [
+     "Unifying idea: the geneticist Theodosius Dobzhansky wrote in 1973 that “nothing in biology makes sense except in the light of evolution”.",
+     "It explains both the unity of life (shared cells, DNA, genetic code and ATP, from common ancestry) and its diversity (adaptation and speciation); see Explaining biological phenomena.",
+     "Classification: modern classification is based on evolutionary relationships (phylogeny), and new DNA evidence keeps refining it (see Classification and Domains of life).",
+     "Form and function: it explains why structures suit their functions, since natural selection favoured individuals whose structures did the job better.",
+     "Medicine and health: it guides the responsible use of antibiotics to slow resistance (antibiotic stewardship), the yearly updating of flu vaccines, the tracking of new virus variants, and the treatment of cancers that evolve drug resistance.",
+     "Because of shared ancestry, studies of other organisms, e.g. mice, which share many genes with humans, can tell us about human biology and disease.",
+     "Agriculture and food: selective breeding of crops and animals (artificial selection), keeping varied crop genes to protect against disease (the lesson of the Irish potato, in Variation), and managing pesticide use to slow resistance.",
+     "Conservation and sustainability: it shows why genetic variation in a population matters for its survival when the environment changes, why small, inbred populations of endangered species are at risk, and why specialised species are vulnerable to climate change and habitat loss.",
+     "Genetics and technology: comparing the genomes of different species to find which genes are shared and what they do (see Bioinformatics: genome databases) depends on evolutionary relationships.",
+     "Limits of the theory: it explains how life changed and diversified once it existed. How the first living cells arose from non-living chemicals is a separate question, still being researched, and is not part of the theory of natural selection."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "In science, a theory is a broad explanation of many observations that is supported by evidence from many independent sources, makes testable predictions and could be shown false by evidence. Evolution by natural selection explains the diversity of life, adaptation, shared features, the fossil record and the distribution of species. Its predictions have been tested, e.g. Tiktaalik was found in rocks of the predicted age, and it has been tested for over 160 years. Everyday use of the word theory means a guess or hunch, but in science a theory is the highest status an explanation reaches, the same sense in which the cell theory and germ theory of disease are theories.",
+    "prompt": "Explain why evolution by natural selection is described as a scientific theory rather than a guess.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Lamarck's explanation: giraffes stretched their necks to reach leaves, and this acquired longer neck was passed on to their offspring. Darwin's explanation: giraffes with slightly longer necks, due to inherited variation, reached more food in times of shortage, survived and reproduced more, and passed on the alleles for longer necks. Darwin's explanation is accepted because acquired characteristics are not inherited through DNA: a weightlifter's children are not born with large muscles, and August Weismann's mice, whose tails were cut off over several generations, still had offspring with normal tails. Natural selection works with variation that already exists, explains adaptation without any need for the organism to try, and is supported by genetics. It also explains all the evidence together with one mechanism and makes predictions, so it is the best available explanation.",
+    "prompt": "Compare Lamarck's explanation of the long neck of the giraffe with Darwin's, and explain why Darwin's is accepted.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Evolution is a unifying idea in biology: it explains the unity of life, such as shared cells, DNA, genetic code and ATP, from common ancestry, and its diversity through adaptation and speciation. It explains classification, since modern classification is based on evolutionary relationships, and it explains why structures suit their functions, since natural selection favoured individuals whose structures did the job better. In medicine, understanding evolution guides antibiotic stewardship, which aims to slow the evolution of resistance, and it explains why flu vaccines are updated every year because the influenza virus evolves. In agriculture, selective breeding and keeping varied crop genes protect against disease, as the Irish potato showed. In conservation, it shows why genetic variation matters for survival when the environment changes and why specialised, endangered species are vulnerable. Evolution is also still happening: MRSA, the Galápagos finches' beaks after the 1977 drought and pests evolving pesticide resistance are observed directly. It is trusted because it has been tested for over 160 years, its predictions have been confirmed, and it is accepted by almost all biologists on the basis of evidence.",
+    "prompt": "Discuss the importance of the theory of evolution in understanding biology.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio13-s1": {
+  "keyTerms": [
+   {
+    "definition": "A substance that speeds up a chemical reaction without being used up or permanently changed by it.",
+    "term": "Catalyst"
+   },
+   {
+    "definition": "A biological catalyst, made by a living cell, that is almost always a globular protein.",
+    "term": "Enzyme"
+   },
+   {
+    "definition": "The minimum energy that reacting molecules need before a reaction can start.",
+    "term": "Activation energy"
+   },
+   {
+    "definition": "The molecule that an enzyme acts on.",
+    "term": "Substrate"
+   },
+   {
+    "definition": "The small region of an enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place.",
+    "term": "Active site"
+   },
+   {
+    "definition": "The temporary structure formed when a substrate binds to the active site of an enzyme.",
+    "term": "Enzyme–substrate complex"
+   },
+   {
+    "definition": "The property by which an enzyme catalyses only one reaction, or one type of reaction, because only a complementary substrate fits its active site.",
+    "term": "Specificity"
+   },
+   {
+    "definition": "The model in which a substrate of exactly the right shape fits a rigid active site, like a key in a lock.",
+    "term": "Lock-and-key model"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Catalysts and enzymes",
+    "points": [
+     "A catalyst is a substance that speeds up a chemical reaction without being used up or permanently changed by it, so it can be used again and again.",
+     "A catalyst does not change which products form or how much product is made in the end; it only makes the reaction reach that point faster.",
+     "An enzyme is a biological catalyst: a catalyst made by a living cell.",
+     "Almost all enzymes are globular proteins, folded into a precise three-dimensional shape (protein structure is covered in “Structures of biomolecules”).",
+     "Because enzymes are proteins, they are made at ribosomes, following the instructions in a gene.",
+     "Enzymes are needed only in small amounts, because each molecule is reused many times; catalase, among the fastest, breaks down millions of hydrogen peroxide molecules per second.",
+     "Enzymes are unchanged at the end of the reaction.",
+     "Enzymes are specific, each acting on one reaction or one type of reaction (see the block on specificity below).",
+     "Enzyme activity is affected by temperature and pH, and enzymes are denatured by heat and by extremes of pH (detail in “Investigation: rate of enzyme activity”).",
+     "Most enzyme names end in -ase, and many are named after their substrate: maltase acts on maltose, lipase on lipids, protease on proteins, sucrase on sucrose.",
+     "Some older names, such as pepsin and trypsin, don't follow this rule.",
+     "Most enzymes work inside the cell that made them (intracellular), e.g. the enzymes of respiration in the cytoplasm and mitochondria and of photosynthesis in chloroplasts.",
+     "Some enzymes are secreted to work outside the cell (extracellular), e.g. digestive enzymes released into the gut (detail in “The Digestive System”) and the enzymes that fungi and bacteria release onto their food."
+    ]
+   },
+   {
+    "h": "How enzymes speed up reactions: activation energy",
+    "points": [
+     "Activation energy is the minimum energy that reacting molecules need before a reaction can start: the energy needed to break or strain existing bonds.",
+     "Activation energy is an energy hill that must be climbed even when the reaction releases energy overall.",
+     "Without a catalyst, most reactions of metabolism have such a high activation energy that, at body temperature (37 °C), they would happen far too slowly to keep a cell alive.",
+     "Heating would supply the energy, but high temperatures would damage cells and their proteins.",
+     "An enzyme provides an alternative route for the reaction with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster.",
+     "The overall energy change of the reaction (energy released or taken in) stays the same.",
+     "Diagram: an energy-profile graph with energy on the y-axis and progress of reaction on the x-axis; reactants at a higher level on the left and products lower on the right; two humps, a tall one labelled without enzyme and a lower one labelled with enzyme, with the activation energy of each marked by a vertical arrow from the reactants to the top of its hump."
+    ]
+   },
+   {
+    "h": "How enzymes work: active site and enzyme–substrate complex",
+    "points": [
+     "The substrate is the molecule an enzyme acts on; the products are the molecules made.",
+     "Example: catalase acts on its substrate hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂.",
+     "The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place.",
+     "The active site's shape, and the chemical charges in it, are complementary to the substrate: the two fit together.",
+     "Step 1: the substrate collides with the enzyme and binds to the active site, forming an enzyme–substrate complex.",
+     "Enzyme and substrate molecules meet by random movement, so anything that increases collisions (more substrate, more enzyme, higher temperature) increases the rate, up to a point.",
+     "Step 2: while the substrate is held in the active site, the enzyme lowers the activation energy, for example by straining the bonds that must break, or by holding two substrate molecules close together in the right position to react.",
+     "The substrate is then converted to products, forming an enzyme–product complex.",
+     "Step 3: the products have a different shape, no longer fit, and are released.",
+     "The active site is then free and unchanged, ready to bind another substrate molecule.",
+     "Summary: enzyme + substrate → enzyme–substrate complex → enzyme + products.",
+     "The same mechanism works for catabolic reactions, where one substrate is split into smaller products (e.g. amylase splits starch into maltose).",
+     "It also works for anabolic reactions, where two or more substrates are joined into a larger product (e.g. DNA polymerase joins nucleotides into a new DNA strand when DNA is copied; ATP synthase joins ADP and phosphate into ATP).",
+     "Diagram: three stages in a row: an enzyme with a labelled active site and a substrate of complementary shape approaching; the enzyme–substrate complex; the enzyme unchanged, with two products leaving. Label enzyme, active site, substrate, enzyme–substrate complex and products. A matching diagram for a joining reaction is optional."
+    ]
+   },
+   {
+    "h": "Enzymes as selective catalysts: specificity",
+    "points": [
+     "Specificity means that each enzyme catalyses only one reaction, or one type of reaction, because only a substrate with the complementary shape fits its active site.",
+     "This is what “selective catalysts” means: amylase digests starch but not protein or fat; pepsin digests protein but not starch.",
+     "The lock-and-key model is the simplest explanation: the substrate (the key) fits only the active site (the lock) of the right shape.",
+     "The lock-and-key model was later refined to the induced-fit model, in which the active site changes shape slightly as the substrate binds (the history of the two models is in “Models”; the Higher Level detail is in “Enzyme structure and specificity”).",
+     "Because enzymes are specific, a cell needs thousands of different enzymes, one for each of its reactions, and it can control a reaction by making, or not making, the one enzyme that catalyses it.",
+     "Anything that changes the shape of the active site stops the substrate fitting, so the enzyme stops working: high temperature or extreme pH (denaturation, see “Investigation: rate of enzyme activity”).",
+     "A change in the enzyme's amino-acid sequence, caused by a mutation in its gene, also changes the active site and stops the substrate fitting."
+    ]
+   },
+   {
+    "h": "The importance of enzymes in metabolism",
+    "points": [
+     "Every reaction of metabolism is catalysed by its own specific enzyme.",
+     "Without enzymes, the reactions that keep cells alive (respiration, photosynthesis, protein synthesis, DNA copying, digestion) would be far too slow at the temperatures and pH inside living things.",
+     "Most processes are metabolic pathways: a sequence of reactions, each catalysed by a different enzyme, in which the product of one reaction is the substrate of the next.",
+     "Respiration and photosynthesis are such pathways (detail in “Respiration” and “Photosynthesis”).",
+     "Diagram: a pathway written as A → B → C → D, with enzyme 1, enzyme 2 and enzyme 3 written over the arrows.",
+     "Because each step needs its own enzyme, a cell controls which reactions happen, and how fast, by switching on or off the genes for particular enzymes and by activating or inhibiting enzymes already made.",
+     "If one enzyme in a pathway is missing, the pathway stops at that step: its substrate builds up and the later products are not made.",
+     "Many enzymes need a non-protein helper: a mineral ion (e.g. magnesium for many enzymes that use ATP; see “Minerals”) or a coenzyme made from a vitamin.",
+     "Some drugs and poisons work by blocking an enzyme: e.g. some insecticides and nerve agents inhibit the enzyme that breaks down a neurotransmitter (detail in “Conduction across the synaptic cleft and its disruption”).",
+     "Lactose intolerance: many adults make little lactase, the enzyme that digests lactose (milk sugar), so undigested lactose passes to the large intestine, where bacteria ferment it, causing bloating, wind, cramps and diarrhoea.",
+     "Lactose-free milk is made using lactase (see “Industrial enzymes”).",
+     "Phenylketonuria (PKU): an inherited lack of the enzyme that converts the amino acid phenylalanine into another amino acid (tyrosine), so phenylalanine builds up in the blood and damages the developing brain.",
+     "PKU is detected by the heel-prick test given to newborn babies in Ireland, and is controlled by a diet low in phenylalanine."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "An enzyme is a biological catalyst: a catalyst made by a living cell. Almost all enzymes are globular proteins folded into a precise three-dimensional shape. The active site is a small region of the enzyme, a pocket or groove on its surface, where the substrate binds and the reaction takes place. Its shape and charges are complementary to the substrate, so the two fit together.",
+    "prompt": "What is an enzyme? Explain what is meant by the active site of an enzyme.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Activation energy is the minimum energy that reacting molecules need before a reaction can start. An enzyme provides an alternative route with a lower activation energy, so many more molecules have enough energy to react at the temperature of the cell, and the reaction is many times faster. The substrate binds to the active site, forming an enzyme–substrate complex. While it is bound, the enzyme lowers the activation energy, for example by straining the bonds that must break or by holding two substrate molecules close together in the right position. The substrate is converted to products, which have a different shape, no longer fit the active site and are released. The enzyme is unchanged and free to bind another substrate molecule. The enzyme does not supply energy to the reaction, and the overall energy change of the reaction stays the same.",
+    "prompt": "Explain how an enzyme speeds up a biochemical reaction. Refer to activation energy and the enzyme–substrate complex in your answer.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Enzymes are selective because each enzyme catalyses only one reaction, or one type of reaction: only a substrate with the complementary shape fits its active site. So amylase digests starch but not protein or fat, and pepsin digests protein but not starch. A cell therefore needs thousands of different enzymes, one for each of its reactions, and it controls a reaction by making, or not making, the enzyme that catalyses it. Enzymes are essential to metabolism because every metabolic reaction is catalysed by its own specific enzyme. Without them, respiration, photosynthesis, protein synthesis, DNA copying and digestion would be far too slow at the temperatures and pH inside living things. Most processes are pathways in which the product of each reaction is the substrate of the next, each step needing its own enzyme. If one enzyme is missing, the pathway stops at that step, as in phenylketonuria, where phenylalanine builds up. A labelled diagram would show the enzyme with its labelled active site, the substrate, the enzyme–substrate complex and the products.",
+    "prompt": "Explain why enzymes are described as selective catalysts and why they are essential to metabolism. Include a labelled diagram.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio13-s2": {
+  "keyTerms": [
+   {
+    "definition": "The model in which a flexible active site changes shape as the substrate binds, forming a tightly fitting enzyme–substrate complex.",
+    "term": "Induced-fit model"
+   },
+   {
+    "definition": "The side group of an amino acid, which gives the active site its shape and pattern of charges.",
+    "term": "R group"
+   },
+   {
+    "definition": "A strong covalent bond between two cysteine units that helps hold an enzyme's shape.",
+    "term": "Disulfide bridge"
+   },
+   {
+    "definition": "A metal ion or other helper held in or near the active site, which the enzyme needs in order to be active.",
+    "term": "Cofactor"
+   },
+   {
+    "definition": "The property of an enzyme that acts on only one substrate, e.g. urease acting on urea.",
+    "term": "Absolute specificity"
+   },
+   {
+    "definition": "The property of an enzyme that acts on a group of substrates sharing the same type of bond, e.g. lipase acting on triglycerides.",
+    "term": "Group specificity"
+   },
+   {
+    "definition": "The precise globular shape that a polypeptide chain forms when it folds further.",
+    "term": "Tertiary structure"
+   }
+  ],
+  "notes": [
+   {
+    "h": "How 3D structure creates the active site (Higher Level only)",
+    "points": [
+     "An enzyme's three-dimensional shape is set by the sequence of amino acids in its polypeptide chain (its primary structure), which is set by its gene.",
+     "The chain coils and folds (secondary structure), then folds further into a precise globular shape (tertiary structure); some enzymes are made of more than one polypeptide (quaternary structure).",
+     "The active site is formed by folding: it is made of a small number of amino acids, often far apart in the chain, that folding brings together into a pocket or cleft.",
+     "Most of the rest of the enzyme holds these amino acids in exactly the right positions.",
+     "The R groups (side groups) of the active-site amino acids give the site its shape and its pattern of charges and of water-attracting and water-repelling regions.",
+     "The R groups bind the substrate by weak attractions (hydrogen bonds and ionic attractions between opposite charges), and some take part directly in the reaction.",
+     "Specificity depends on two things: the shape of the active site (only a substrate of complementary shape fits) and its chemistry (only a substrate with matching charges and groups is held in the right position).",
+     "A molecule of similar shape but with the wrong charges is not catalysed.",
+     "The shape is held by hydrogen bonds, by ionic bonds between charged R groups, and by attractions between water-repelling R groups; these are weak bonds.",
+     "Disulfide (sulfur) bridges between cysteine units are strong covalent bonds that also hold the shape.",
+     "Because most of these bonds are weak, the shape is easily changed.",
+     "Diagram: a folded polypeptide chain drawn as a looping ribbon, with three or four amino acids (circles) from distant parts of the chain meeting to form a labelled active site; label polypeptide chain, R groups of active-site amino acids, active site, a hydrogen bond and a disulfide bridge."
+    ]
+   },
+   {
+    "h": "Why 3D structure matters for activity (Higher Level only)",
+    "points": [
+     "Activity depends on the active site keeping its shape.",
+     "Heat makes the enzyme molecule vibrate until weak bonds break; a change in pH changes the charges on R groups (by adding or removing hydrogen ions), breaking ionic and hydrogen bonds.",
+     "Either way the active site loses its shape, the substrate no longer fits, and the enzyme is denatured.",
+     "The effects on rate, and the investigations, are in “Investigation: rate of enzyme activity”.",
+     "A change in a single amino acid can change the shape or charge of the active site, so a mutation in the gene can make an enzyme work less well or not at all.",
+     "Example: in phenylketonuria the enzyme that converts phenylalanine is faulty (see “Enzymes as catalysts” and “Mutations”).",
+     "Some enzymes need a cofactor, such as a metal ion, held in or near the active site to complete its shape or chemistry; without it the enzyme is inactive (see “Minerals”).",
+     "Some enzymes act on only one substrate (absolute specificity): e.g. urease acts only on urea, breaking it into ammonia and carbon dioxide.",
+     "Others act on a group of substrates that share the same type of bond (group specificity): e.g. lipase acts on many different triglycerides, and proteases such as pepsin break peptide bonds in many different proteins.",
+     "A rigid lock-and-key active site does not explain the second kind well; the induced-fit model does.",
+     "Enzymes that work in extreme conditions have structures that hold their shape there: e.g. Taq polymerase, from the hot-spring bacterium Thermus aquaticus, stays active at temperatures that denature human enzymes (its use is in “Generating a DNA profile”).",
+     "Pepsin keeps its shape in the strong acid of the stomach, where most enzymes are denatured."
+    ]
+   },
+   {
+    "h": "The induced-fit model (Higher Level only)",
+    "points": [
+     "The induced-fit model says the active site is flexible, not rigid.",
+     "Before binding, the active site's shape is close to, but not exactly, complementary to the substrate; binding of the substrate induces (causes) a change in the enzyme's shape that produces a close fit.",
+     "Step 1: the substrate collides with the enzyme and starts to bind to the active site through weak attractions to its R groups.",
+     "Step 2: binding causes the enzyme to change shape: the active site moulds itself around the substrate, like a glove taking the shape of a hand, forming a tightly fitting enzyme–substrate complex.",
+     "Step 3: the change in shape puts strain on particular bonds in the substrate, or brings reacting groups of two substrates close together in the correct orientation.",
+     "The R groups of the active site may lend or take hydrogen ions or electrons, which lowers the activation energy, and the substrate is converted to products.",
+     "Step 4: the products no longer fit the active site closely and are released.",
+     "Step 5: the enzyme returns to its original shape, unchanged and ready to bind another substrate molecule.",
+     "Example: the enzyme hexokinase (used in the first stage of respiration) closes around its substrate glucose like a clamp when glucose binds; structural studies of enzymes showed this change of shape.",
+     "Induced fit explains observations that lock and key cannot. (a) Why some enzymes act on several similar substrates: a flexible site can mould around each.",
+     "(b) How binding itself helps catalysis: the shape change strains the substrate's bonds, lowering the activation energy.",
+     "(c) Why molecules of similar shape may bind but not react: they do not induce the correct change of shape.",
+     "Lock and key remains a useful simple model of specificity.",
+     "Diagram: induced fit in four labelled stages: (1) an enzyme whose active site does not quite match the approaching substrate; (2) substrate binding and the active site changing shape around it, forming the enzyme–substrate complex, with arrows showing the change; (3) products formed in the active site; (4) products released and the enzyme back in its original shape. Label enzyme, active site, substrate, change in shape, enzyme–substrate complex and products. For contrast, include a one-line sketch of lock and key, with a rigid active site that already fits the substrate exactly."
+    ]
+   },
+   {
+    "h": "Comparison: lock and key and induced fit (Higher Level only)",
+    "points": [
+     "Active site: rigid, with a fixed shape that exactly matches the substrate (lock and key); flexible, changing shape when the substrate binds (induced fit).",
+     "Fit: an exact fit before binding (lock and key); a close fit only after binding (induced fit).",
+     "Role of binding: holds the substrate only (lock and key); the change of shape itself helps the reaction by straining bonds (induced fit).",
+     "Specificity explained: absolute specificity only (lock and key); both absolute and group specificity (induced fit)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Folding brings a small number of amino acids, often far apart in the polypeptide chain, together to form the active site, a pocket or cleft. The R groups of these amino acids give the active site a complementary shape and a pattern of charges, so only a substrate of matching shape and chemistry fits and is held in the right position. A molecule of similar shape but with the wrong charges is not catalysed.",
+    "prompt": "Explain why the three-dimensional structure of an enzyme is important for its specificity.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The labelled diagram shows four stages. In stage 1 the enzyme's flexible active site is close to, but not exactly matching, the approaching substrate. In stage 2 the substrate binds through weak attractions and the active site changes shape around it, moulding like a glove around a hand, to form a tightly fitting enzyme–substrate complex; arrows show the change of shape. In stage 3 the change in shape strains bonds in the substrate, or brings reacting groups together in the correct orientation, and the R groups may lend or take hydrogen ions or electrons; this lowers the activation energy and the substrate is converted to products. In stage 4 the products no longer fit closely and are released, and the enzyme returns to its original shape, unchanged and ready to bind another substrate molecule. The change of shape is temporary and reversible; it is not denaturation.",
+    "prompt": "Illustrate the induced-fit model of enzyme action with a labelled diagram, and explain each stage.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "In the lock-and-key model the active site is rigid, with a fixed shape that exactly matches the substrate before binding, and binding does not change the enzyme. In the induced-fit model the active site is flexible and gives a close fit only after binding; the change of shape itself helps the reaction by straining bonds. Induced fit explains why some enzymes act on several similar substrates, because a flexible site can mould around each of them; lock and key does not explain this well.",
+    "prompt": "Distinguish between the lock-and-key and induced-fit models, and give one observation that the induced-fit model explains better.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio13-s3": {
+  "keyTerms": [
+   {
+    "definition": "The amount of substrate converted into product per unit time.",
+    "term": "Rate of enzyme activity"
+   },
+   {
+    "definition": "A solution that keeps the pH constant even when acids or alkalis are produced or added.",
+    "term": "Buffer solution"
+   },
+   {
+    "definition": "The rate measured at the start of a reaction, before the substrate is used up and the reaction slows.",
+    "term": "Initial rate"
+   },
+   {
+    "definition": "An enzyme whose active sites are all occupied at any moment, so that it works at its maximum rate.",
+    "term": "Saturated enzyme"
+   },
+   {
+    "definition": "A factor in short supply, such as substrate or enzyme concentration, that limits the rate of a reaction.",
+    "term": "Limiting factor"
+   },
+   {
+    "definition": "The pH or temperature at which an enzyme works fastest, where its active site has the shape and charges that best fit the substrate.",
+    "term": "Optimum"
+   },
+   {
+    "definition": "The permanent loss of an enzyme's shape, and so of its active site and activity, caused by high temperature or extreme pH.",
+    "term": "Denaturation"
+   },
+   {
+    "definition": "Data collected by someone else, such as pooled class results, published tables, textbooks or research papers.",
+    "term": "Secondary data"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Rate of enzyme activity and how it is measured",
+    "points": [
+     "The rate of an enzyme-catalysed reaction is the amount of substrate converted into product per unit time, e.g. cm³ of oxygen produced per minute.",
+     "The rate can be measured either by how fast a product appears or by how fast the substrate disappears.",
+     "Catalase breaks down hydrogen peroxide (2H₂O₂ → 2H₂O + O₂); the rate is measured by the oxygen released, as foam or as a volume of gas.",
+     "Amylase digests starch to maltose; the rate is measured by the time taken for the starch to disappear, tested with iodine.",
+     "Rate = amount of product ÷ time: e.g. 30 cm³ of foam in 2 minutes gives a rate of 15 cm³ per minute.",
+     "Where the time taken to reach an end-point is measured, rate = 1 ÷ time: starch gone in 120 s gives a rate of 1/120 = 0.0083 s⁻¹, often written as 1000/time to give whole numbers.",
+     "A shorter time means a faster rate.",
+     "Measure the initial rate, at the start of the reaction (e.g. in the first one or two minutes), because the reaction slows as substrate is used up.",
+     "Presenting primary data: a results table with the independent variable in the first column, the repeat readings, the mean and the rate, each column headed with its unit.",
+     "Presenting primary data: a graph with the independent variable on the x-axis and the rate on the y-axis, points plotted accurately and joined by a smooth curve or line of best fit."
+    ]
+   },
+   {
+    "h": "Enzymes, equipment and safety common to all the investigations",
+    "points": [
+     "Catalase is found in almost all cells that use oxygen, where it breaks down hydrogen peroxide, a toxic by-product of metabolism.",
+     "Good sources of catalase are celery, potato, liver and yeast.",
+     "Catalase extract: blend a fixed mass of chopped celery (e.g. 20 g) with distilled water (e.g. 100 cm³), then filter through muslin or filter paper. Make one batch and use it for every test.",
+     "Amylase: a commercial (e.g. fungal) amylase solution made up at a fixed concentration; starch solution (e.g. 1%) is its substrate. Saliva contains amylase but is avoided for hygiene reasons.",
+     "Equipment: 100 cm³ graduated cylinders, syringes or graduated pipettes for measuring volumes, test tubes and boiling tubes, water baths (thermostatically controlled electric baths, or beakers of water warmed with kettle water or cooled with ice, checked with a thermometer), thermometer, stopwatch, blender or mortar and pestle, knife and chopping board, electronic balance, filter funnel, spotting tile and droppers, conical flask with bung and delivery tube, trough, labels.",
+     "Reagents: hydrogen peroxide solution (one stock of fixed concentration), buffer solutions or buffer tablets of known pH, washing-up liquid, distilled water, starch solution, amylase solution and iodine solution.",
+     "A buffer is a solution that keeps the pH constant even when acids or alkalis are produced or added.",
+     "A buffer at pH 7 (or at the enzyme's optimum) is added in every investigation except the pH investigation, so that pH is a controlled variable.",
+     "A drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.",
+     "Reaching temperature: the enzyme and the substrate are placed in the same water bath, in separate containers, for about 5 minutes before they are mixed, so the reaction starts at the chosen temperature.",
+     "A control in each investigation uses enzyme that has been boiled (denatured), or distilled water in place of the enzyme, with everything else the same. It shows that the oxygen (or the loss of starch) is caused by the enzyme and not by the substrate breaking down on its own.",
+     "Safety: hydrogen peroxide is an oxidising agent that irritates or burns the eyes and skin; wear safety glasses (and gloves), measure it with a syringe, and wash any splash off with plenty of water.",
+     "Safety: buffers of very low or very high pH are irritants; wear safety glasses.",
+     "Safety: use tongs or a test-tube holder and take care with boiling water and hot water baths; keep electrical water baths and blenders away from spilt water.",
+     "Safety: take care with knives and blender blades. If liver is used, treat it as raw meat: wear gloves, keep it off benches used for other work and wash hands afterwards.",
+     "Safety: iodine solution stains skin and clothes. Never eat or drink in the laboratory."
+    ]
+   },
+   {
+    "h": "Investigation: effect of substrate concentration on catalase activity",
+    "points": [
+     "Aim: to investigate the effect of substrate (hydrogen peroxide) concentration on the rate of catalase activity.",
+     "Hypothesis: “Increasing the concentration of hydrogen peroxide increases the rate of oxygen production, because more substrate molecules collide with active sites per second, until all the active sites are occupied and the rate levels off.”",
+     "Independent variable: hydrogen peroxide concentration, made by diluting the stock with distilled water to 0%, 20%, 40%, 60%, 80% and 100% of the stock (e.g. 2 cm³ stock + 8 cm³ water = 20%), always to the same total volume (e.g. 10 cm³).",
+     "Dependent variable: volume of oxygen collected in the first minute (cm³), giving the rate in cm³ per minute.",
+     "Controlled variables: volume of the same celery extract (enzyme concentration), temperature (water bath at e.g. 25 °C), pH (same volume of pH 7 buffer), total volume of solution, timing and apparatus.",
+     "Control: the 100% hydrogen peroxide with boiled extract (or with water in place of the extract), which gives little or no oxygen; the 0% tube also shows that no oxygen forms without substrate.",
+     "Method 1: fill a graduated cylinder with water and turn it upside down in a trough of water, with no air at the top.",
+     "Method 2: put 10 cm³ of the first hydrogen peroxide dilution and 2 cm³ of pH 7 buffer in a conical flask (or boiling tube) in the water bath, with 2 cm³ of celery extract in a separate tube beside it, for about 5 minutes.",
+     "Method 3: place the end of the delivery tube under the mouth of the upturned cylinder.",
+     "Method 4: add the extract to the flask, immediately put in the bung with the delivery tube, and start the stopwatch.",
+     "Method 5: read the volume of oxygen collected in the cylinder after 1 minute (or every 30 seconds for 3 minutes).",
+     "Method 6: rinse the flask and repeat for each concentration.",
+     "Method 7: do each concentration three times and calculate the mean rate.",
+     "Alternatives: a gas syringe connected to the flask measures the oxygen volume more accurately than collection over water; the foam method used in the pH investigation can be used; or filter-paper discs soaked in catalase extract are dropped into each concentration and the time for each disc to rise to the surface (buoyed by oxygen bubbles) is timed, with rate = 1 ÷ time.",
+     "Diagram: a conical flask in a water bath, with a bung and delivery tube leading under an upturned graduated cylinder full of water in a trough; label hydrogen peroxide + buffer + catalase extract, water bath, thermometer, delivery tube, oxygen collecting and trough of water.",
+     "Expected results: no oxygen at 0%; at low concentrations the rate rises steeply, roughly in proportion to concentration; at high concentrations it rises less and levels off into a plateau. The boiled-enzyme control gives little or no oxygen.",
+     "The rise is explained by collisions: more substrate molecules in the same volume means more collisions with active sites per second, so more enzyme–substrate complexes form and more product is made per minute.",
+     "The plateau is explained by saturation: at high substrate concentration every active site is occupied at any moment, so the enzyme (saturated) works at its maximum rate, and adding more substrate cannot increase the rate.",
+     "At the plateau the amount of enzyme is the limiting factor; adding more enzyme would raise the rate again. Within the range used in a school investigation the plateau may not be reached if the enzyme is in excess.",
+     "Diagram: a graph of rate (y-axis) against substrate concentration (x-axis); a curve rising from the origin, steep at first and then levelling off, with the plateau labelled all active sites occupied (saturated).",
+     "Conclusion: state the trend shown by the mean rates, whether it supports the hypothesis, and the concentration above which the rate stopped increasing, if one was found."
+    ]
+   },
+   {
+    "h": "Investigation: effect of enzyme concentration on amylase activity",
+    "points": [
+     "Aim: to investigate the effect of enzyme (amylase) concentration on the rate at which starch is digested.",
+     "Hypothesis: “Increasing the concentration of amylase increases the rate of starch digestion, because more active sites are available to bind starch molecules, as long as starch is in excess.”",
+     "Independent variable: amylase concentration, made by diluting the stock amylase solution with distilled water to 0%, 25%, 50%, 75% and 100% of the stock, always to the same volume.",
+     "Dependent variable: time taken for the starch to disappear (the iodine test no longer turns blue-black), converted to rate = 1 ÷ time.",
+     "Controlled variables: volume and concentration of starch solution, volume of amylase solution, temperature (water bath at e.g. 37 °C), pH (buffer at pH 7), volume of iodine in each well, and the sampling interval.",
+     "Control: starch solution with distilled water (0% amylase) or with boiled amylase in place of the amylase; it stays blue-black with iodine for the whole investigation, showing that the starch does not disappear without active enzyme.",
+     "1. Put a drop of iodine solution into each well of a spotting tile.",
+     "2. Put 5 cm³ of starch solution and 1 cm³ of pH 7 buffer into a test tube, and 2 cm³ of the first amylase dilution into another, then stand both in the water bath for 5 minutes.",
+     "3. Pour the amylase into the starch, mix, and start the stopwatch.",
+     "4. Every 30 seconds, take one drop of the mixture with a clean dropper and add it to the next well of iodine.",
+     "5. Note the time at which a drop first leaves the iodine yellow-brown (no blue-black): this is the end-point, when all the starch has been digested.",
+     "6. Repeat for each amylase concentration, three times each, and calculate the mean time and the rate.",
+     "Alternative: with catalase, vary the volume of celery extract (e.g. 0.5, 1, 1.5, 2 and 2.5 cm³, each made up to the same total volume with distilled water) or the number of equal-sized celery discs, and measure the foam or oxygen volume in a fixed time.",
+     "Diagram: a spotting tile with a row of wells, the first wells blue-black and the later wells yellow-brown, labelled with sampling times; and the starch–amylase tube in a water bath with a thermometer.",
+     "Expected results: the higher the amylase concentration, the shorter the time for the starch to disappear, so the faster the rate; the 0% and boiled-enzyme controls never reach the end-point.",
+     "A graph of rate against enzyme concentration is a straight line through the origin: doubling the enzyme roughly doubles the rate.",
+     "Explanation: more enzyme molecules means more active sites, so more substrate molecules can be bound and converted at the same time, and more product is made per unit time.",
+     "The straight line continues only while substrate is in excess. If the enzyme concentration becomes very high, substrate becomes the limiting factor and the line levels off.",
+     "Diagram: a graph of rate (y-axis) against enzyme concentration (x-axis); a straight line rising from the origin, labelled substrate in excess."
+    ]
+   },
+   {
+    "h": "Investigation: effect of pH on catalase activity",
+    "points": [
+     "Aim: to investigate the effect of pH on the rate of catalase activity.",
+     "Hypothesis: “Catalase has an optimum pH at which its rate is highest, and the rate decreases at pH values above and below it, because the shape of the active site is changed.”",
+     "Independent variable: pH, set with buffer solutions (e.g. pH 4, 5, 6, 7, 8, 9 and 10).",
+     "Dependent variable: volume of foam produced in 2 minutes (cm³), giving the rate in cm³ per minute.",
+     "Controlled variables: temperature (water bath at e.g. 25 °C), volume and concentration of hydrogen peroxide, volume of the same celery extract (or mass of celery), volume of buffer, one drop of washing-up liquid, time and size of cylinder.",
+     "Control: at each pH (or at pH 7), boiled celery extract (or water) in place of the extract, giving no foam.",
+     "1. Into a 100 cm³ graduated cylinder put 10 cm³ of pH 4 buffer, 2 cm³ of celery extract (or a fixed mass of chopped celery) and one drop of washing-up liquid.",
+     "2. Stand the cylinder in the 25 °C water bath, with a boiling tube of hydrogen peroxide beside it, for 5 minutes.",
+     "3. Note the starting volume of liquid in the cylinder.",
+     "4. Add 2 cm³ of hydrogen peroxide with a syringe and start the stopwatch.",
+     "5. After 2 minutes, read the volume at the top of the foam, at eye level; the foam volume is this reading minus the starting volume.",
+     "6. Wash the cylinder and repeat with each buffer, three times each, and calculate the mean rate.",
+     "Diagram: a graduated cylinder standing in a water bath with a thermometer, containing buffer, celery extract and washing-up liquid at the bottom and a column of foam above, with a syringe adding hydrogen peroxide; label each part and the foam height being read.",
+     "Expected results: the most foam forms at around pH 7 (the optimum for celery and liver catalase), with less in more acidic and more alkaline buffers and very little at the extremes; the control gives no foam.",
+     "Explanation: the optimum pH is the pH at which the active site has the shape and charges that best fit the substrate.",
+     "A higher or lower hydrogen ion concentration, in more acidic or more alkaline conditions, changes the charges in the active site and the bonds holding the enzyme's shape, so the substrate fits less well and fewer enzyme–substrate complexes form.",
+     "Small changes from the optimum are reversible; extreme pH denatures the enzyme permanently.",
+     "Each enzyme's optimum suits the place where it works: pepsin in the acid stomach has an optimum of about pH 2; salivary amylase in the mouth about pH 7; trypsin in the alkaline small intestine about pH 8.",
+     "Diagram: a graph of rate (y-axis) against pH (x-axis); a peaked, bell-shaped curve with its peak labelled optimum pH at about 7 for catalase; optionally a second curve peaking at about pH 2, labelled pepsin."
+    ]
+   },
+   {
+    "h": "Investigation: effect of temperature on catalase activity",
+    "points": [
+     "Aim: to investigate the effect of temperature on the rate of catalase activity.",
+     "Hypothesis: “As temperature increases, the rate of catalase activity increases up to an optimum temperature, because molecules move faster and collide more often; above the optimum the rate falls sharply because the enzyme is denatured.”",
+     "Independent variable: temperature, set with water baths at e.g. 0 °C (ice water), 10, 20, 30, 40, 50, 60 and 70 °C, each checked with a thermometer.",
+     "Dependent variable: volume of foam in 2 minutes (cm³), giving the rate in cm³ per minute.",
+     "Controlled variables: pH (same volume of pH 7 buffer), volume and concentration of hydrogen peroxide, volume of the same celery extract, one drop of washing-up liquid, time and size of cylinder.",
+     "Control: boiled celery extract (or water) in place of the extract at each temperature, giving no foam.",
+     "Method: follow the pH investigation method, but with pH 7 buffer in every cylinder, and with each cylinder (buffer, extract and washing-up liquid) and its tube of hydrogen peroxide left in a water bath at the chosen temperature for 5 minutes before the peroxide is added.",
+     "Check the bath temperature with the thermometer during the 2 minutes; repeat three times at each temperature and calculate the mean rate.",
+     "The same method works with amylase and starch, timing the starch's disappearance at each temperature, as in the enzyme concentration investigation.",
+     "Diagram: the pH set-up, with a row of water baths at different labelled temperatures.",
+     "Expected results: little foam at 0 °C; the rate increases as temperature rises, to a maximum at the optimum temperature; above the optimum the rate falls steeply, with little or no activity at the highest temperatures tested.",
+     "The graph is not symmetrical: a gradual rise and a steep fall. For human enzymes the optimum is about 37 °C, body temperature.",
+     "Explanation of the rise: as temperature increases, enzyme and substrate molecules have more kinetic energy, move faster and collide more often, and more collisions have enough energy to react, so more enzyme–substrate complexes form per second.",
+     "Over the lower part of the range, the rate roughly doubles for each 10 °C rise (an approximate pattern, not an exact law).",
+     "Explanation of the fall: above the optimum, the enzyme molecule vibrates so much that the bonds holding its shape break, the active site changes shape and the substrate no longer fits: the enzyme is denatured.",
+     "As temperature rises further, more enzyme molecules are denatured, so the rate falls even though collisions are more frequent.",
+     "At low temperature the enzyme is inactive, not denatured: the molecules move too slowly for many collisions, but the active site keeps its shape, so activity returns when the enzyme is warmed (shown in the heat denaturation investigation).",
+     "Diagram: a graph of rate (y-axis) against temperature in °C (x-axis); a curve rising gradually to a peak labelled optimum temperature, then falling steeply to zero, with the falling part labelled enzyme denatured."
+    ]
+   },
+   {
+    "h": "Investigation: effect of heat denaturation on catalase activity",
+    "points": [
+     "Aim: to investigate the effect of heat denaturation on the activity of catalase.",
+     "Denaturation is the permanent loss of an enzyme's shape, and so of its active site and its activity, caused by high temperature or extreme pH.",
+     "Hypothesis: “Catalase that has been boiled will not break down hydrogen peroxide, even when cooled, because its active site has been permanently changed.”",
+     "Independent variable: whether the extract has been boiled (heat-treated) or not. Dependent variable: volume of foam in 2 minutes (cm³).",
+     "Controlled variables: both extracts tested at the same temperature (e.g. 25 °C) and pH (pH 7 buffer), with the same volumes of extract, buffer and hydrogen peroxide, the same drop of washing-up liquid and the same time.",
+     "Control: the unboiled extract, which shows how much foam active catalase produces under the same conditions.",
+     "1. Divide the celery extract between two labelled boiling tubes, A and B.",
+     "2. Place tube A in a boiling water bath for 10 minutes; leave tube B at room temperature.",
+     "3. Cool tube A, then stand both tubes in the 25 °C water bath for 5 minutes, so the boiled extract is tested at the same temperature as the unboiled.",
+     "4. Set up two graduated cylinders, each with 10 cm³ of pH 7 buffer, a drop of washing-up liquid and 2 cm³ of extract A or B.",
+     "5. Add 2 cm³ of hydrogen peroxide to each and read the foam after 2 minutes.",
+     "6. Repeat three times.",
+     "Expected results: the boiled extract gives little or no foam; the unboiled extract gives a large column of foam. Any small amount of foam from the boiled extract comes from hydrogen peroxide breaking down slowly on its own, or from catalase that was not fully denatured.",
+     "Conclusion: boiling denatured the catalase; its activity did not return on cooling, so the change is permanent. This supports the hypothesis and explains why boiled enzyme is used as the control in the other investigations.",
+     "Extension: extract kept in ice water for 10 minutes and then warmed to 25 °C gives as much foam as unchilled extract, showing that cooling makes an enzyme inactive without denaturing it, whereas heating denatures it.",
+     "The same investigation works with amylase: boiled amylase added to starch leaves the iodine test blue-black at every sampling time, while unboiled amylase digests the starch so the iodine stays yellow-brown."
+    ]
+   },
+   {
+    "h": "Secondary data",
+    "points": [
+     "Secondary data are data collected by someone else: results pooled from other groups in the class, published tables, textbooks or research papers, or online databases. The specification requires conclusions supported by both primary and secondary data.",
+     "Uses: compare your optimum with published optima (the optimum pH of digestive enzymes and the optimum temperature of human enzymes given in the pH and temperature investigations); check whether your trend agrees with other groups' (reproducibility); extend a conclusion beyond the range you could test.",
+     "Secondary data on enzymes from extreme environments support the link between structure and conditions: Taq polymerase, from the hot-spring bacterium Thermus aquaticus, works best at about 72 °C and is not denatured at temperatures that denature human enzymes.",
+     "When using secondary data, record its source, check that it was measured under comparable conditions (same enzyme source, substrate, pH or temperature), and judge whether the source is reliable (see “Recognising bias and evaluating sources”)."
+    ]
+   },
+   {
+    "h": "Sources of error and reliability",
+    "points": [
+     "Foam volume is imprecise: bubbles burst, the top of the foam is uneven, and foam may stick to the cylinder walls. Read at eye level at exactly the same time each run; collecting the oxygen in a gas syringe is more accurate.",
+     "Gas is lost in the time between adding the enzyme and inserting the bung, or through leaks; some oxygen dissolves in the water when it is collected over water.",
+     "Enzyme activity varies between celery samples and falls as an extract stands, so make one batch, keep it cool and use it quickly for all the tests; a fresh batch for a repeat can give different values.",
+     "Water-bath temperatures drift, especially in beakers of hot water or ice; check with a thermometer throughout or use a thermostatically controlled bath. The reaction mixture may not reach the bath temperature if equilibration is too short.",
+     "Hydrogen peroxide slowly breaks down on standing, especially in light, so its concentration may fall during the session: use one fresh stock kept in a dark bottle.",
+     "The iodine end-point is a judgement of colour, and sampling every 30 seconds means the time is only known to within 30 seconds; sample more often near the end-point, compare against a control well, or use a colorimeter.",
+     "Measure volumes with syringes or graduated pipettes rather than by eye, and use a clean syringe or dropper for each solution to avoid contamination.",
+     "Repeat each value three times, calculate the mean, and identify and investigate any anomalous result; pool class data to check reproducibility. Use at least five values of the independent variable so the shape of the graph (peak or plateau) can be seen."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Independent variable: temperature, set with water baths and checked with a thermometer. Dependent variable: volume of foam (or oxygen) produced in 2 minutes, giving the rate in cm³ per minute. Two controlled variables: pH (the same volume of pH 7 buffer in every test) and the volume and concentration of hydrogen peroxide. Other controlled variables include the volume of the same celery extract, one drop of washing-up liquid, the time and the size of the cylinder.",
+    "prompt": "In an investigation of the effect of temperature on catalase activity, name the independent and dependent variables and two variables that must be controlled.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Prepare buffer solutions of different pH (e.g. pH 4 to 10) and use the same volume of each. Put 10 cm³ of one buffer, 2 cm³ of celery extract and one drop of washing-up liquid into a 100 cm³ graduated cylinder, and stand it in a water bath at a fixed temperature such as 25 °C for 5 minutes; note the starting volume. Add 2 cm³ of hydrogen peroxide with a syringe, start the stopwatch, and after 2 minutes read the foam height at eye level; the foam volume is the reading minus the starting volume. The rate is in cm³ per minute. Repeat three times at each pH and calculate the mean. Control: boiled celery extract (or water) in place of the extract at each pH, which gives no foam. Safety: hydrogen peroxide irritates or burns the eyes and skin, so wear safety glasses and gloves, measure it with a syringe, and wash any splash off with plenty of water.",
+    "prompt": "Describe how you would investigate the effect of pH on the rate of catalase activity. Include how you would vary the pH, how you would measure the rate, a control and a safety precaution.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The graph has rate on the y-axis and substrate concentration on the x-axis. The curve starts at the origin, rises steeply at first and then levels off into a plateau. The rise occurs because more substrate molecules in the same volume means more collisions with active sites per second, so more enzyme–substrate complexes form and more product is made per minute. The plateau occurs because at high substrate concentration every active site is occupied at any moment: the enzyme is saturated and works at its maximum rate, so adding more substrate cannot increase the rate. The enzyme concentration is then the limiting factor; adding more enzyme would raise the rate again.",
+    "prompt": "Sketch a graph of the effect of substrate concentration on the rate of an enzyme-catalysed reaction and explain its shape.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Divide an amylase solution between two labelled boiling tubes. Boil one for 10 minutes, cool both, and stand them in the same water bath for 5 minutes so both are tested at the same temperature. Add 5 cm³ of starch solution and 1 cm³ of pH 7 buffer to each, and every 30 seconds take a drop of each mixture and add it to iodine on a spotting tile. Expected results: the boiled amylase leaves the iodine test blue-black at every sampling time, because the starch is not digested; the unboiled amylase digests the starch, so the iodine stays yellow-brown. Activity does not return on cooling, which shows that heat denatured the amylase permanently.",
+    "prompt": "Describe how you would show that heat denatures amylase, and state the results you would expect.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio13-s4": {
+  "keyTerms": [
+   {
+    "definition": "An enzyme, or a whole cell containing it, fixed to or trapped in an inert, insoluble material so that it is held in place.",
+    "term": "Immobilised enzyme"
+   },
+   {
+    "definition": "A vessel in which cells or enzymes carry out a reaction under controlled conditions.",
+    "term": "Bioreactor"
+   },
+   {
+    "definition": "A large vessel in which microorganisms are grown to make enzymes or other products.",
+    "term": "Fermenter"
+   },
+   {
+    "definition": "Immobilisation by trapping the enzyme inside a gel bead, such as calcium alginate.",
+    "term": "Entrapment"
+   },
+   {
+    "definition": "Immobilisation by sticking the enzyme to the surface of an insoluble support, such as glass beads, resin or charcoal.",
+    "term": "Adsorption"
+   },
+   {
+    "definition": "An insoluble gel that forms when sodium alginate solution is dripped into calcium chloride solution.",
+    "term": "Calcium alginate"
+   },
+   {
+    "definition": "Ethanol made from crops by enzymes and fermentation, blended with petrol as a fuel.",
+    "term": "Bioethanol"
+   },
+   {
+    "definition": "A fuel made from vegetable oils or waste cooking oils, which lipases can convert.",
+    "term": "Biodiesel"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why industry uses enzymes",
+    "points": [
+     "Specificity: an enzyme catalyses one reaction, so it makes the wanted product with few unwanted by-products, giving a purer product that needs less purification.",
+     "Mild conditions: enzymes work at moderate temperatures (often 30–60 °C), normal pressure and near-neutral pH, whereas many chemical catalysts need high temperatures and pressures.",
+     "Mild conditions save energy and money, reduce greenhouse gas emissions, and make the process safer.",
+     "Enzymes are efficient catalysts that are not used up, and they are biodegradable, so they leave less harmful waste than many chemical catalysts.",
+     "Most industrial enzymes are made by microorganisms (bacteria and fungi) grown in large vessels called fermenters or bioreactors, because microorganisms grow fast, can be grown on cheap nutrients, and many release (secrete) their enzymes into the medium, where they are easy to collect.",
+     "Many industrial enzymes are now made by genetically modified microorganisms carrying the gene for the enzyme (see “Genetic engineering”).",
+     "A few enzymes come from plants (e.g. papain from papaya) or from animals, such as rennet (described under Enzymes in food and beverages).",
+     "Limitation: enzymes are denatured by high temperatures and extreme pH, so conditions must be carefully controlled.",
+     "Limitation: enzymes can be expensive to produce and purify.",
+     "Limitation: free enzymes are lost in the product after one use; immobilisation solves this (see the block on immobilised enzymes below).",
+     "Limitation: enzyme dust can cause allergies. In the early years of biological detergents, some factory workers developed allergies, so enzymes are now sealed in granules.",
+     "Enzymes from microorganisms that live in hot springs or in alkaline conditions are chosen or engineered for processes that need tougher enzymes."
+    ]
+   },
+   {
+    "h": "Enzymes in food and beverages",
+    "points": [
+     "Cheese-making: chymosin (rennin), the active enzyme in rennet, clots the milk protein casein, so the milk separates into solid curds (made into cheese) and liquid whey.",
+     "Rennet was traditionally extracted from the stomachs of young calves; much of the chymosin used today is made by genetically modified microorganisms, which suits vegetarians and needs no animals.",
+     "Lactose-free milk: lactase breaks lactose down into glucose and galactose, so people with lactose intolerance (see Enzymes as catalysts) can drink the milk.",
+     "Lactose-free milk tastes sweeter, as glucose and galactose are sweeter than lactose. Lactase is often used immobilised.",
+     "Fruit juice: pectinase breaks down pectin, which helps hold plant cell walls together, so more juice is released from crushed fruit and the juice is clearer (less cloudy).",
+     "Sugar syrups: amylases break starch (e.g. from maize) into glucose syrup; immobilised glucose isomerase then converts glucose into fructose, which is much sweeter.",
+     "High-fructose syrup is used to sweeten soft drinks and processed foods, so less is needed for the same sweetness.",
+     "Brewing and baking: amylases break starch in grain into maltose and glucose, which yeast ferments to make ethanol and carbon dioxide (fermentation is in Respiration); in baking, this helps the dough rise.",
+     "Proteases are used to clear haze from beer.",
+     "Proteases such as papain tenderise meat by breaking down muscle proteins.",
+     "Invertase (sucrase) converts sucrose into glucose and fructose, to make the soft centres of chocolates and other sweets.",
+     "Household link: biological washing powders contain proteases, lipases and amylases that digest protein stains (blood, egg, grass), fat and grease, and starch.",
+     "Biological washing powders work at low washing temperatures (e.g. 30–40 °C), saving energy; they are not used at very high temperatures, where the enzymes would be denatured."
+    ]
+   },
+   {
+    "h": "Enzymes in biofuels",
+    "points": [
+     "Bioethanol from starch crops: amylases break the starch of crops such as maize and wheat into glucose, which yeast ferments to ethanol; the ethanol is blended with petrol as a fuel.",
+     "Bioethanol from cellulose (a second-generation biofuel): cellulases break down the cellulose in straw, wood chips and other crop waste into glucose for fermentation.",
+     "Cellulose is tightly packed and hard to digest (see Structures of biomolecules), so these enzymes are slow and costly and are an active area of research.",
+     "Biodiesel: lipases can catalyse the conversion of vegetable oils and waste cooking oils into biodiesel, an alternative to chemical catalysts that works at lower temperatures and leaves less waste.",
+     "Arguments for: biofuels are renewable; the carbon dioxide released when they burn was taken in by the crop during photosynthesis, so they add less to atmospheric CO₂ than fossil fuels; using waste materials (straw, waste oil) adds value to waste.",
+     "Arguments against: growing fuel crops uses land that could grow food, which can raise food prices; clearing forests for fuel crops destroys habitats and releases carbon; fertilisers, machinery and processing use fossil-fuel energy, so the saving is smaller than it first appears.",
+     "Cellulose-based and waste-based biofuels avoid most of the competition with food.",
+     "Carbon cycle and climate detail is in Nutrient Cycling."
+    ]
+   },
+   {
+    "h": "Enzymes in medicine",
+    "points": [
+     "Diagnosis: glucose oxidase is used in blood-glucose test strips and electronic biosensors used by people with diabetes, and in urine test strips.",
+     "Glucose oxidase is specific to glucose, so other sugars do not interfere; the reaction produces a colour change or an electrical signal in proportion to the amount of glucose.",
+     "Dissolving blood clots: clot-dissolving enzymes such as streptokinase (from bacteria) and tissue plasminogen activator (tPA) are given soon after a heart attack or a stroke caused by a clot, to break down the clot and restore blood flow.",
+     "Enzyme replacement: people with cystic fibrosis often cannot release enough digestive enzymes from the pancreas, so they take capsules of pancreatic enzymes (lipase, protease and amylase) with meals.",
+     "Lactase tablets help people with lactose intolerance.",
+     "Cancer treatment: the enzyme asparaginase is used to treat a type of childhood leukaemia (acute lymphoblastic leukaemia).",
+     "The leukaemia cells cannot make enough of the amino acid asparagine and take it from the blood; the enzyme breaks down asparagine in the blood, starving the cancer cells.",
+     "Medical technologies built on enzymes: restriction enzymes and DNA ligase in genetic engineering (see “Genetic engineering”); Taq polymerase in PCR for DNA profiling and diagnostic testing (see “Generating a DNA profile”)."
+    ]
+   },
+   {
+    "h": "Enzymes in pharmaceuticals",
+    "points": [
+     "Making antibiotics: immobilised penicillin acylase converts natural penicillin, made by the Penicillium mould, into a starting molecule (6-APA) from which semi-synthetic penicillins, such as amoxicillin, are made.",
+     "Semi-synthetic penicillins can treat infections that the natural form does not.",
+     "Making single-form drugs: many drug molecules exist in two mirror-image forms, of which only one works (the other may be useless or harmful).",
+     "Because enzymes are specific, they make only the wanted form, avoiding wasteful separation; e.g. an engineered enzyme (a transaminase) is used to manufacture the diabetes drug sitagliptin.",
+     "Enzymes allow drug manufacture at mild temperatures with less toxic solvent waste than chemical methods (“green chemistry”).",
+     "Human insulin made by genetically modified bacteria depends on enzymes used to insert the gene (see “Genetic engineering”)."
+    ]
+   },
+   {
+    "h": "Immobilised enzymes: what and why",
+    "points": [
+     "An immobilised enzyme is an enzyme (or a whole cell containing it) fixed to, or trapped in, an inert, insoluble material, so that it is held in place while the substrate solution passes over or through it and does not mix freely with the product.",
+     "Entrapment: the enzyme is trapped in a gel bead, such as calcium alginate.",
+     "Adsorption: the enzyme is stuck to the surface of an insoluble support, such as glass beads, resin or charcoal.",
+     "Covalent bonding: the enzyme is chemically bonded to a support.",
+     "Enclosure: the enzyme is enclosed behind a partially permeable membrane.",
+     "Advantage: the enzyme can be recovered and reused many times, cutting costs.",
+     "Advantage: the product is not contaminated with enzyme, so it needs no purification.",
+     "Advantage: the enzyme can be packed in a column for a continuous-flow process, with substrate fed in at the top and product collected at the bottom.",
+     "Advantage: immobilised enzymes are often more stable, being less easily denatured by changes in temperature or pH; the reaction can be stopped at once by removing the enzyme.",
+     "Disadvantage: immobilising costs money and equipment to set up, and some activity is lost, as part of the active sites may be blocked or altered.",
+     "Disadvantage: the reaction can be slower, because the substrate must diffuse into the bead to reach the enzyme; enzyme may leak out of the support.",
+     "Disadvantage: immobilised enzymes are unsuitable where the substrate molecules are too large to enter the beads.",
+     "Examples: glucose isomerase for high-fructose syrup; lactase for lactose-free milk; penicillin acylase for semi-synthetic penicillins (the uses are described above)."
+    ]
+   },
+   {
+    "h": "Immobilising yeast in alginate beads: method",
+    "points": [
+     "1. Mix sodium alginate solution with a suspension of yeast (which contains the enzyme sucrase, also called invertase) or with an enzyme solution.",
+     "2. Draw the mixture into a syringe and drop it, one drop at a time, into calcium chloride solution: each drop forms a bead of insoluble calcium alginate gel trapping the yeast.",
+     "3. Leave the beads to harden for about 15–20 minutes.",
+     "4. Sieve them out and rinse them with distilled water to remove the calcium chloride and any free yeast.",
+     "5. Place the beads in a separating funnel (or a syringe barrel with a tap) as a column.",
+     "Using the beads: pour sucrose solution through the column and collect the liquid that drips out; test it with a glucose test strip.",
+     "A positive glucose result shows that the sucrose has been converted to glucose and fructose; the sucrose solution tested before it enters the column gives a negative result.",
+     "Control: beads made without yeast (alginate only); their product gives no glucose.",
+     "The product from the beads is clear, while sucrose mixed with free yeast becomes cloudy with yeast cells that must be removed, showing the advantage of immobilisation. The beads can be rinsed and used again.",
+     "Safety: calcium chloride irritates the eyes; wear safety glasses and wash spills.",
+     "Diagram: (a) a syringe dripping the alginate–yeast mixture into a beaker of calcium chloride solution, with beads forming, labelled; (b) a separating funnel or column packed with beads, with sucrose solution added at the top, a tap, and product (glucose and fructose) collected below, labelled."
+    ]
+   },
+   {
+    "h": "Bioreactors",
+    "points": [
+     "A bioreactor is a vessel in which cells or enzymes carry out a reaction under controlled conditions: temperature, pH, oxygen (or its absence), nutrient supply, mixing and sterility are monitored and kept at the values that suit the enzyme.",
+     "A column of immobilised enzyme is a simple bioreactor.",
+     "Growing microorganisms in bioreactors, and batch and continuous culture, are covered in Microorganisms in industry."
+    ]
+   },
+   {
+    "h": "Enzymes across the four industries",
+    "points": [
+     "Health: diagnostic strips and biosensors, clot-busting and replacement enzymes, and lactose-free foods (see the blocks above on medicine and on food and beverages).",
+     "Sustainability: lower energy use and less chemical waste; low-temperature washing; biofuels and the arguments about them; more juice from the same fruit.",
+     "Technology: genetic modification of microorganisms to make enzymes, engineered enzymes, immobilisation and continuous-flow bioreactors."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "An immobilised enzyme is an enzyme, or a whole cell containing it, fixed to or trapped in an inert, insoluble material, so that it is held in place while the substrate passes over or through it. Advantages: the enzyme can be recovered and reused many times, cutting costs; and the product is not contaminated with enzyme, so it needs no purification. Other advantages include use in a continuous-flow column and greater stability.",
+    "prompt": "What is an immobilised enzyme? Give two advantages of using immobilised enzymes in industry.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Mix sodium alginate solution with a yeast suspension and draw the mixture into a syringe. Drop it, one drop at a time, into calcium chloride solution: each drop forms a bead of insoluble calcium alginate gel trapping the yeast. Leave the beads to harden for about 15–20 minutes, then sieve them out and rinse them with distilled water to remove the calcium chloride and any free yeast. Place the beads in a separating funnel or syringe barrel with a tap, as a column. Pour sucrose solution through the column, collect the liquid that drips out, and test it with a glucose test strip: a positive result shows that the sucrose has been converted to glucose and fructose, whereas the sucrose solution before the column gives a negative result. The control is beads made without yeast (alginate only), whose product gives no glucose. Wear safety glasses, as calcium chloride irritates the eyes. A labelled diagram would show the syringe dripping the mixture into calcium chloride, and the column of beads with a tap and the product collected below.",
+    "prompt": "Describe how you would immobilise yeast cells in the laboratory and show that the immobilised yeast can still act on sucrose. Include a control.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Food and beverages: lactase breaks lactose down into glucose and galactose to make lactose-free milk, and chymosin clots milk protein to make cheese curds. Medicine: glucose oxidase is used in blood-glucose test strips, where the reaction gives a colour change or electrical signal in proportion to the glucose. Biofuels: amylases break starch in maize or wheat into glucose for fermentation to bioethanol, and cellulases break down straw or wood chips into glucose. Pharmaceuticals: immobilised penicillin acylase converts natural penicillin into 6-APA, the starting molecule for semi-synthetic penicillins. Enzymes are central because they are specific, so they give purer products with fewer by-products; they work at mild temperatures and pressures, saving energy and reducing emissions; and they are biodegradable and not used up. For the biofuel debate, one argument for is that biofuels are renewable and the crop took in the carbon dioxide released on burning; one argument against is that fuel crops use land that could grow food and can raise food prices.",
+    "prompt": "Research question: describe the use of named enzymes in two of the following industries: food and beverages, biofuels, medicine, pharmaceuticals; and explain why enzymes are central to industrial processes.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio14-s1": {
+  "keyTerms": [
+   {
+    "definition": "The process by which green plants, algae and some bacteria use light energy, absorbed by chlorophyll, to make glucose from carbon dioxide and water, releasing oxygen.",
+    "term": "Photosynthesis"
+   },
+   {
+    "definition": "Anything that takes in more carbon from the atmosphere than it releases, storing it; photosynthesis is the only major biological process that removes CO₂ from the air.",
+    "term": "Carbon sink"
+   },
+   {
+    "definition": "The splitting of water molecules using light energy, producing oxygen, protons and electrons.",
+    "term": "Photolysis"
+   },
+   {
+    "definition": "The first stage of photosynthesis, on the thylakoid membranes, in which light energy splits water and is trapped in ATP and a hydrogen carrier.",
+    "term": "Light-dependent stage"
+   },
+   {
+    "definition": "The second stage of photosynthesis, in the stroma, in which carbon dioxide is combined with hydrogen and energy from ATP to form glucose.",
+    "term": "Light-independent stage"
+   },
+   {
+    "definition": "A disaccharide made of glucose and fructose, which carries carbohydrate from the leaves to other parts of the plant in the phloem.",
+    "term": "Sucrose"
+   },
+   {
+    "definition": "An insoluble polysaccharide of glucose, used by plants as a compact store of glucose.",
+    "term": "Starch"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What photosynthesis is",
+    "points": [
+     "Green plants, algae and some bacteria (e.g. cyanobacteria) photosynthesise: they use light energy, absorbed by chlorophyll, to make glucose from carbon dioxide and water, releasing oxygen as a by-product.",
+     "These organisms are autotrophs, so they make their own food.",
+     "Light energy is converted to chemical energy stored in the bonds of glucose. Almost all food chains, and so almost all the energy used by living things, start with this conversion.",
+     "The oxygen in the air also comes from photosynthesis.",
+     "Photosynthesis is anabolic: it builds one large molecule, glucose (C₆H₁₂O₆), from small inorganic molecules, carbon dioxide and water, and it takes in energy, supplied by light. Respiration is the matching catabolic process, explained in Respiration as a catabolic process.",
+     "Word equation: carbon dioxide + water → glucose + oxygen, with light energy and chlorophyll written above the arrow.",
+     "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll written above the arrow.",
+     "The balanced equation has 6 carbon, 18 oxygen and 12 hydrogen atoms on each side. The six molecules of CO₂ supply the six carbon atoms of one glucose molecule."
+    ]
+   },
+   {
+    "h": "Sources of the reactants and fate of the products",
+    "points": [
+     "Carbon dioxide diffuses from the air into the leaf through the stomata, pores mainly on the lower surface, then through the air spaces to the mesophyll cells. Some carbon dioxide also comes from the plant's own respiring cells.",
+     "Aquatic plants take in carbon dioxide dissolved in the water, partly as hydrogencarbonate ions.",
+     "Water is absorbed from the soil by root hair cells, by osmosis, and carried up to the leaves in the xylem. Only a tiny fraction of the water taken up is used in photosynthesis; most is lost in transpiration. Transport in Plants explains this in full.",
+     "Light comes from the sun, or from artificial light in greenhouses and laboratories.",
+     "Chlorophyll, the green pigment in chloroplasts, absorbs mainly red and blue light and reflects green light, which is why leaves look green.",
+     "Oxygen is used by the plant's own cells in respiration. The excess diffuses out of the leaf through the stomata into the air, or out of the water in aquatic plants.",
+     "The oxygen released comes from the splitting of water, not from carbon dioxide. This was shown in the 1940s by experiments in which water labelled with the heavy oxygen isotope ¹⁸O gave labelled oxygen gas.",
+     "Glucose is used in the plant's own respiration to release energy, stored as ATP (see ATP). The rest is converted to other substances, described in the next block."
+    ]
+   },
+   {
+    "h": "Glucose converted to sucrose, starch and cellulose",
+    "points": [
+     "Sucrose: glucose is joined to fructose to form the disaccharide sucrose. Sucrose is the form in which carbohydrate is transported from the leaves, in the phloem, to growing tips, roots, fruits and storage organs.",
+     "Sucrose suits transport because it is soluble and less reactive than glucose; it is not a reducing sugar, so it is not used up on the way.",
+     "Starch: glucose is joined into the polysaccharide starch for storage. Starch grains form in the stroma of the chloroplast during the day, and long-term stores are in storage organs and seeds, such as potato tubers and cereal grains.",
+     "Starch suits storage because it is insoluble, so it does not affect osmosis, and it is compact.",
+     "Cellulose: glucose is joined into the polysaccharide cellulose, which forms plant cell walls. Cellulose is the most abundant organic compound on Earth.",
+     "Plants also convert glucose to lipids, such as oils in seeds, and, with nitrates from the soil, to amino acids. Both conversions are explained in Biomolecules and metabolism."
+    ]
+   },
+   {
+    "h": "Photosynthesis as a carbon sink",
+    "points": [
+     "A carbon sink is anything that takes in more carbon from the atmosphere than it releases, storing it. Photosynthesis is the only major biological process that removes CO₂ from the air.",
+     "The carbon is fixed into glucose, then into sucrose, starch, cellulose and the rest of the plant's biomass.",
+     "The carbon stays locked up as long as the biomass survives: in the wood of trees for decades or centuries, and in peat bogs for thousands of years, because waterlogged, acidic conditions slow decomposition.",
+     "Carbon is also locked up in ocean sediments formed from algae and phytoplankton.",
+     "Respiration, decomposition and burning return it to the air as CO₂ (see Respiration as a catabolic process).",
+     "Forests, peatlands and the algae and phytoplankton of the oceans are the main natural carbon sinks.",
+     "Cutting forests, draining or burning peat, and burning fossil fuels release stored carbon and add to the CO₂ that drives climate change. Fossil fuels hold carbon that was fixed by photosynthesis millions of years ago."
+    ]
+   },
+   {
+    "b": "Photosynthesis takes place in chloroplasts, which in a leaf are mostly in the palisade mesophyll cells just below the upper surface, where light is strongest. Spongy mesophyll cells and guard cells also contain chloroplasts.",
+    "h": "Where photosynthesis happens and the two stages",
+    "points": [
+     "Stage 1, the light-dependent stage (light stage), takes place on the thylakoid membranes, which are stacked into grana.",
+     "1. Chlorophyll absorbs light energy.",
+     "2. The energy is used to split water molecules (photolysis) into oxygen, protons (H⁺) and electrons.",
+     "3. The oxygen is released.",
+     "4. The energy is trapped in ATP, and the protons and high-energy electrons are picked up by a carrier molecule, explained in The light-dependent reactions.",
+     "Stage 2, the light-independent stage, takes place in the stroma:",
+     "1. Carbon dioxide enters the stroma.",
+     "2. It is combined with the protons and electrons (hydrogen) from stage 1.",
+     "3. Energy from the ATP made in stage 1 drives the reactions.",
+     "4. Glucose is formed.",
+     "The reactions are controlled by enzymes, so this stage is affected by temperature.",
+     "Stage 1 supplies the energy (ATP) and hydrogen that stage 2 needs. Stage 2 returns the spent carriers, ADP and the empty hydrogen carrier, to stage 1.",
+     "The light-independent stage does not use light directly, but it stops soon after dark, because stage 1 stops supplying ATP and hydrogen.",
+     "Older books call the light-independent stage the dark stage. That name is misleading, because the stage happens in the light.",
+     "Diagram: a flow diagram of a chloroplast in outline. Draw the light-dependent stage on a thylakoid stack, with inputs light and H₂O, output O₂ released from the cell, and ATP and hydrogen passed to the stroma. Draw the light-independent stage in the stroma, with inputs CO₂, ATP and hydrogen and output glucose, which is converted to sucrose, starch and cellulose. Show ADP and the empty carrier returned to the thylakoid."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The balanced equation is 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll written above the arrow. Photosynthesis is anabolic because it builds one large molecule, glucose, from small inorganic molecules, carbon dioxide and water, and it takes in energy, which is supplied by light.",
+    "prompt": "Write a balanced chemical equation for photosynthesis and explain why it is described as an anabolic process.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Carbon dioxide diffuses into the leaf through the stomata, mostly on the lower surface, and some comes from the plant's own respiring cells. Water is absorbed from the soil by root hair cells, by osmosis, and carried up to the leaves in the xylem. Light comes from the sun or from artificial light, and is absorbed by chlorophyll. Glucose is used in the plant's own respiration to release energy. The rest is converted: it is joined to fructose to form sucrose, which is transported in the phloem to growing tips, roots, fruits and storage organs; it is joined into starch for storage in the chloroplast and in storage organs such as potato tubers and cereal grains; or it is joined into cellulose, which forms cell walls.",
+    "prompt": "State the source of each raw material for photosynthesis and what happens to the glucose a plant makes.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Stage 1, the light-dependent stage, takes place on the thylakoid membranes of the grana. Chlorophyll absorbs light energy, which is used to split water molecules into oxygen, protons and electrons. The oxygen is released, the energy is trapped in ATP, and the protons and high-energy electrons are picked up by a carrier molecule. Stage 2, the light-independent stage, takes place in the stroma. Carbon dioxide is combined with the protons and electrons (hydrogen) from stage 1, energy from ATP drives the reactions, which are controlled by enzymes, and glucose is formed. Stage 1 supplies the ATP and hydrogen that stage 2 needs, and stage 2 returns the spent ADP and empty carrier to stage 1. As a carbon sink, photosynthesis takes carbon dioxide out of the atmosphere and fixes it into glucose, and then into sucrose, starch, cellulose and the rest of the plant's biomass. The carbon stays stored while the biomass survives, for example in tree wood for decades or centuries, and in peat bogs for thousands of years, because waterlogged, acidic conditions slow decomposition.",
+    "prompt": "Outline the two stages of photosynthesis, giving the location of each stage in the chloroplast, and explain how photosynthesis acts as a carbon sink.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio14-s2": {
+  "keyTerms": [
+   {
+    "definition": "The amount of product made, or reactant used, per unit time; often measured as the rate of oxygen production.",
+    "term": "Rate of photosynthesis"
+   },
+   {
+    "definition": "The factor in shortest supply, which holds back the rate of a process even when the other factors are increased.",
+    "term": "Limiting factor"
+   },
+   {
+    "definition": "The light intensity at which the rate of photosynthesis equals the rate of respiration, so no net gas exchange occurs.",
+    "term": "Compensation point"
+   },
+   {
+    "definition": "The temperature at which enzyme-controlled reactions proceed fastest; above it the enzymes are denatured and the rate falls.",
+    "term": "Optimum"
+   },
+   {
+    "definition": "Light intensity falls as the inverse square of the distance from the source, so doubling the distance gives a quarter of the intensity.",
+    "term": "Inverse square law"
+   },
+   {
+    "definition": "Results collected by others, such as other groups' results, textbook graphs or data-logger results, used to support conclusions.",
+    "term": "Secondary data"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Rate of photosynthesis and limiting factors",
+    "points": [
+     "The rate of photosynthesis is the amount of product made, or reactant used, per unit time.",
+     "It is usually measured as the rate of oxygen production, in bubbles per minute or cm³ of gas per minute, but it can also be measured as the rate of CO₂ uptake. The oxygen comes from the splitting of water in the light-dependent stage (see Photosynthesis as an anabolic process).",
+     "Light intensity: light supplies the energy for the light-dependent stage, so more light means more ATP and hydrogen are made per minute and the rate rises, until another factor holds it back.",
+     "Carbon dioxide concentration: CO₂ is the raw material of the light-independent stage, so more CO₂ raises the rate, until another factor holds it back.",
+     "Temperature: the light-independent stage is controlled by enzymes. Raising the temperature increases the rate, because molecules move faster and collide more often with the enzymes' active sites, up to an optimum. Above the optimum the rate falls quickly as the enzymes are denatured. Enzyme action is explained in Enzymes as catalysts.",
+     "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. At any moment the rate of photosynthesis is limited by whichever of light intensity, CO₂ concentration or temperature is furthest from its best value.",
+     "Raising a limiting factor increases the rate. Raising a factor that is not limiting has no effect.",
+     "Net rate: a plant respires all the time, using some of the oxygen it makes, so the oxygen given off is photosynthesis minus respiration.",
+     "In very dim light the two processes are equal and no oxygen is given off; this is the compensation point. In darkness the plant takes in oxygen."
+    ]
+   },
+   {
+    "h": "Investigation planning: aim, variables, control and equipment",
+    "points": [
+     "Aim: to investigate the effect of light intensity (or CO₂ concentration, or temperature) on the rate of photosynthesis of pondweed. Change only one factor in each investigation.",
+     "Elodea (Canadian pondweed) is the standard school plant. It is aquatic, so the oxygen it gives off appears as visible bubbles from the cut stem, which can be counted or collected. It is easy to obtain, grows quickly and photosynthesises rapidly.",
+     "Hypotheses: as light intensity increases, the rate of photosynthesis increases until it levels off; as CO₂ concentration increases, the rate increases until it levels off; the rate increases with temperature up to an optimum and then decreases. Each rests on the theory of rate and limiting factors above.",
+     "Light-intensity investigation: the independent variable is light intensity, changed by the distance of the lamp from the plant or measured with a light meter in lux. The dependent variable is the rate of oxygen production, as bubbles per minute or cm³ of gas per minute.",
+     "Controlled variables: temperature (water bath), CO₂ concentration (the same sodium hydrogencarbonate concentration), the same piece of pondweed (same species, length and number of leaves), the same lamp and bulb, the time allowed to adjust, and the length of the counting period.",
+     "For the other factors, the independent variable is swapped for CO₂ concentration or temperature, and light intensity is kept constant.",
+     "Control: an identical set-up kept in darkness (lamp off, tube covered with foil), or a tube with no plant, gives no bubbles. This shows that the bubbles come from photosynthesis by the plant in the light, not from gas leaving the solution.",
+     "Equipment and materials: fresh Elodea, scalpel or scissors, boiling tube or test tube, paper clip to weigh the pondweed down, beaker of water as a water bath (or an electric water bath), thermometer, bench lamp (an LED bulb gives out less heat), metre stick or ruler, stopwatch, and a light meter (optional).",
+     "Chemicals: sodium hydrogencarbonate (NaHCO₃) powder, or solutions of known concentration, in water that has been boiled and cooled. For measuring volume: a funnel and graduated tube, or a capillary tube attached to a syringe, called a photosynthometer. A glowing splint is optional, for testing the gas."
+    ]
+   },
+   {
+    "h": "Investigation set-up and measurement",
+    "points": [
+     "1. Fill a boiling tube with water containing a set concentration of sodium hydrogencarbonate. It dissolves to supply CO₂ to the plant, so that CO₂ is not limiting (except in the carbon dioxide investigation).",
+     "2. Cut a healthy shoot of pondweed about 5 to 8 cm long, cutting the stem cleanly and slantwise under water.",
+     "3. Place it in the tube upside down, with the cut end at the top, weighed down with a paper clip.",
+     "4. Stand the tube in a beaker of water at a constant temperature, for example 25 °C, checked with a thermometer.",
+     "5. Carry out the investigation in a darkened room, so that the lamp is the only light source.",
+     "Counting: let the plant adjust to each new condition for about 5 minutes, then count the bubbles leaving the cut end in one minute. Repeat the count three times at each setting and calculate the mean.",
+     "Collecting (more accurate): place an inverted funnel over the pondweed in a beaker, with a water-filled graduated tube over the stem of the funnel, and record the volume of gas collected in a set time, for example 5 minutes. Alternatively, draw the gas up a capillary tube with a syringe and measure the length of the bubble.",
+     "Volume per unit time is more accurate than counting, because bubbles vary in size.",
+     "Testing the gas (optional): collected gas relights a glowing splint, showing that it is rich in oxygen. It is not pure oxygen; some nitrogen and carbon dioxide dissolved in the water also come out."
+    ]
+   },
+   {
+    "h": "Investigation method: light intensity",
+    "points": [
+     "1. Set up as in the basic set-up.",
+     "2. Place the lamp 10 cm from the pondweed, measured with a metre stick from the bulb to the plant.",
+     "3. Allow 5 minutes to adjust, then count the bubbles per minute three times.",
+     "4. Move the lamp to 20, 30, 40 and 50 cm, and repeat.",
+     "5. Check the water temperature at each distance and keep it constant, by adding cold or warm water to the bath.",
+     "A lamp close to the plant also heats it, which would change two variables at once. Use an LED bulb, or place a beaker or flat-sided tank of water between the lamp and the plant as a heat shield, and check the thermometer.",
+     "Moving the lamp further away lowers the light intensity as the inverse square of the distance (light intensity ∝ 1/d²): doubling the distance gives a quarter of the light intensity.",
+     "Plot the rate against 1/d² to show the relationship with light intensity, or measure the light intensity at each position with a light meter."
+    ]
+   },
+   {
+    "h": "Investigation method: carbon dioxide concentration",
+    "points": [
+     "1. Make up a series of sodium hydrogencarbonate solutions of increasing concentration, for example 0%, 0.25%, 0.5%, 0.75% and 1%, using water that has been boiled and cooled. Boiling removes dissolved CO₂, so the 0% tube has very little.",
+     "2. Keep the lamp at a fixed distance close to the plant, for example 10 cm, and keep the temperature constant.",
+     "3. Place the same pondweed in each solution in turn, allow 5 minutes to adjust, and count the bubbles per minute three times.",
+     "4. Calculate the mean for each concentration."
+    ]
+   },
+   {
+    "h": "Investigation method: temperature",
+    "points": [
+     "1. Set up as in the basic set-up, with a fixed lamp distance and a fixed sodium hydrogencarbonate concentration.",
+     "2. Place the tube in a water bath at a range of temperatures, for example 10, 20, 30, 40 and 50 °C, using ice or warm water or electric water baths, and check each with a thermometer.",
+     "3. Let the tube reach the bath temperature, about 5 minutes, then count the bubbles per minute three times.",
+     "4. If the first pondweed stops producing bubbles, use a fresh piece for the higher temperatures, and note that you have done so.",
+     "Warm water holds less dissolved gas, so some bubbles at high temperatures can come from gas leaving the solution. The darkness control at each temperature checks this."
+    ]
+   },
+   {
+    "h": "Investigation safety",
+    "points": [
+     "Electricity and water: keep the lamp, its cable and plug away from the water bath, dry your hands before touching switches, and do not move a lamp while it is on and hot.",
+     "Lamp bulbs, other than LEDs, get very hot and can burn; let them cool before moving them.",
+     "Take care with the scalpel: cut on a tile, away from the body. Take care with hot water baths and glassware.",
+     "Wash your hands after handling pondweed and pond water.",
+     "Elodea canadensis is a non-native invasive species in Ireland. Never put leftover pondweed or its water into ponds, lakes, rivers or drains; dispose of it in compost or general waste."
+    ]
+   },
+   {
+    "h": "Investigation results, graphs and conclusion",
+    "points": [
+     "Record the primary data in a table: the independent variable (distance in cm and 1/d², concentration in %, or temperature in °C), the three counts and the mean number of bubbles per minute.",
+     "Plot the mean rate on the y-axis against the independent variable on the x-axis, with units, and join the points with a smooth curve or straight lines.",
+     "Light intensity: as the lamp moves closer, light intensity increases and the rate increases. At high intensity the curve levels off, forming a plateau, because another factor, CO₂ concentration or temperature, has become limiting. The rate of photosynthesis therefore falls as the distance increases.",
+     "CO₂ concentration: the rate increases with CO₂ concentration and then levels off, because light intensity or temperature becomes limiting. At 0% (boiled water) there are few or no bubbles.",
+     "Temperature: the rate rises up to an optimum, then falls steeply above it, as the enzymes of the light-independent stage are denatured. At the highest temperatures bubbling may stop. The curve is not symmetrical: the fall is steeper than the rise.",
+     "Conclusion: state the relationship shown by the primary data and whether it supports the hypothesis. On the levelling-off part of the graph, name the factor that is now limiting.",
+     "Diagram: the set-up, with a lamp and metre stick, a heat shield, a beaker water bath with a thermometer, and a boiling tube of sodium hydrogencarbonate solution with an upside-down pondweed shoot giving off bubbles from the cut end (or, as an alternative, the funnel and graduated collecting tube). Label each part.",
+     "Diagram: two sketch graphs. (a) Rate against light intensity, rising and then levelling off, with a second, higher curve labelled higher CO₂ concentration that levels off at a higher rate; label the rising part light limiting and the plateau CO₂ or temperature limiting. (b) Rate against temperature, rising to an optimum and then falling steeply."
+    ]
+   },
+   {
+    "h": "Using secondary data",
+    "points": [
+     "Secondary data are results collected by others: other groups' class results, textbook or published graphs, or data-logger results from an oxygen or CO₂ sensor. Pooling class results increases the sample size and checks reproducibility.",
+     "Interpreting a graph of rate against light intensity at two CO₂ concentrations (or two temperatures): where the two curves overlap, light is the limiting factor, because raising CO₂ makes no difference.",
+     "Where the two curves separate and each levels off, CO₂ (or temperature) is limiting, because raising it raises the plateau.",
+     "Applying limiting factors: commercial glasshouse growers raise the yield of crops such as tomatoes and lettuce by supplying extra light (artificial lighting), heat and CO₂. Heat and CO₂ can come from burning paraffin or propane, which also gives heat, or from adding CO₂ gas.",
+     "Each factor is kept just high enough that it is not limiting. Raising a factor that is not limiting wastes fuel and money and adds to emissions."
+    ]
+   },
+   {
+    "h": "Sources of error and limitations",
+    "points": [
+     "Bubbles vary in size and can be missed or merge when the rate is fast, so counting is imprecise. Collecting the volume of gas is more accurate.",
+     "Other light in the room, such as daylight or other groups' lamps, changes the light intensity; work in a darkened room.",
+     "Temperature can drift, especially with a hot bulb close to the plant. Check and adjust it.",
+     "The gas is not pure oxygen, and some oxygen dissolves in the water instead of forming bubbles, so the bubbles underestimate the true rate. The measured rate is also a net rate, after respiration.",
+     "The carbon dioxide from sodium hydrogencarbonate is used up over time, and the plant's response may change during a long investigation. Use fresh solution, a fresh plant for each run if needed, and repeat the whole series.",
+     "Allowing too little time to adjust after each change gives rates that still reflect the previous setting.",
+     "Repeat each reading at least three times and calculate a mean. Compare your results with other groups' results."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A limiting factor is the factor in shortest supply, which holds back the rate of a process even when the other factors are increased. Raising a limiting factor increases the rate, while raising a factor that is not limiting has no effect. Two factors that can limit the rate of photosynthesis are light intensity and carbon dioxide concentration; temperature can also be limiting.",
+    "prompt": "Explain what is meant by a limiting factor, and name two factors that can limit the rate of photosynthesis.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Use a fresh shoot of pondweed (Elodea), cut slantwise under water and placed upside down in a boiling tube of sodium hydrogencarbonate solution, which supplies carbon dioxide so that it is not limiting. Weigh the shoot down with a paper clip and keep the tube in a darkened room, with a lamp as the only light source. Vary light intensity by moving the lamp to distances such as 10, 20, 30, 40 and 50 cm from the plant, measured with a metre stick; light intensity falls as the inverse square of the distance, so doubling the distance gives a quarter of the intensity, or measure intensity with a light meter. Allow about 5 minutes to adjust at each distance, then count the bubbles of oxygen leaving the cut end in one minute, repeat three times and calculate the mean. Measure rate as the mean number of bubbles per minute. Keep temperature constant by standing the tube in a water bath checked with a thermometer, and use an LED bulb or a heat shield to stop the lamp heating the water. Keep the carbon dioxide concentration constant by using the same sodium hydrogencarbonate solution, and use the same piece of pondweed for each run. Include a control in darkness, which gives no bubbles, to show that the bubbles come from photosynthesis.",
+    "prompt": "Describe how you would investigate the effect of light intensity on the rate of photosynthesis. Include how you would vary light intensity, measure the rate and keep two other factors constant.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Plot rate of photosynthesis on the y-axis against carbon dioxide concentration on the x-axis. The line rises as the concentration increases, then levels off at a plateau. The rise occurs because carbon dioxide is the raw material of the light-independent stage, so more of it raises the rate. The plateau occurs because another factor, light intensity or temperature, has become limiting, so raising carbon dioxide further makes no difference. A glasshouse grower can use this to supply carbon dioxide only up to the level where it stops being limiting, for example by burning paraffin or propane or adding CO₂ gas, and not beyond it, since extra carbon dioxide beyond that point wastes money and adds to emissions.",
+    "prompt": "Sketch a graph of the expected results of an investigation into the effect of carbon dioxide concentration on the rate of photosynthesis, and explain its shape. Suggest how a glasshouse grower could use this information.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio14-s3": {
+  "keyTerms": [
+   {
+    "definition": "A tiny packet of light energy, absorbed by pigment molecules in the light-dependent reactions.",
+    "term": "Photon"
+   },
+   {
+    "definition": "The special chlorophyll a molecule, surrounded by pigment clusters, where light energy excites an electron that leaves the chlorophyll.",
+    "term": "Reaction centre"
+   },
+   {
+    "definition": "The splitting of water molecules, driven by the positively charged chlorophyll, into protons, electrons and oxygen.",
+    "term": "Photolysis"
+   },
+   {
+    "definition": "The route in which electrons pass from water through the chlorophyll and the electron transport chain to NADP⁺, producing ATP, NADPH and oxygen.",
+    "term": "Non-cyclic pathway"
+   },
+   {
+    "definition": "The route in which energised electrons return to the same chlorophyll after passing along the carriers, producing ATP only.",
+    "term": "Cyclic pathway"
+   },
+   {
+    "definition": "A series of electron carriers that pass electrons from one to the next, releasing energy in small steps that is used to make ATP.",
+    "term": "Electron transport chain"
+   },
+   {
+    "definition": "The electron and hydrogen carrier formed when NADP⁺ takes two electrons and one proton; it carries these to the light-independent reactions.",
+    "term": "NADPH"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Capturing light: photons, pigments and the reaction centre (Higher Level only)",
+    "points": [
+     "Light travels as tiny packets of energy called photons. A pigment is a molecule that absorbs light of particular colours, or wavelengths.",
+     "The thylakoid membranes hold several pigments: chlorophyll a, chlorophyll b, and the yellow and orange carotenoids. Having several pigments widens the range of colours of light the plant can use.",
+     "Pigment molecules are grouped in clusters, called light-harvesting or antenna complexes, of hundreds of molecules around a reaction centre.",
+     "When a pigment molecule absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll molecule (chlorophyll a).",
+     "At the reaction centre, the energy raises (excites) an electron of the chlorophyll to a high energy level. This energised electron leaves the chlorophyll and is taken up by the first electron acceptor of an electron transport chain.",
+     "Having lost a negatively charged electron, the reaction-centre chlorophyll molecule is left positively charged. It must regain an electron before it can absorb energy and release an electron again."
+    ]
+   },
+   {
+    "h": "Non-cyclic pathway (Higher Level only)",
+    "points": [
+     "1. Light energy reaches the reaction centre, and energised electrons leave the chlorophyll.",
+     "2. Electron transfer: the high-energy electrons are passed along an electron transport chain, a series of electron carriers in the thylakoid membrane. At each transfer they lose some energy, and this energy is used to make ATP from ADP and Pi.",
+     "3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺. Each NADP⁺ takes two electrons and one proton (H⁺), forming NADPH, which carries the electrons and hydrogen to the light-independent reactions.",
+     "The reaction is NADP⁺ + 2e⁻ + H⁺ → NADPH.",
+     "The electrons are not used up: in the non-cyclic pathway they end up on NADPH.",
+     "4. Photolysis: the positively charged chlorophyll molecule strongly attracts electrons and pulls them from water molecules, splitting the water. Photolysis means splitting by light, because the energy for it ultimately comes from light.",
+     "The equation for photolysis is 2H₂O → 4H⁺ + 4e⁻ + O₂.",
+     "5. The electrons from water replace those lost by the chlorophyll, so the chlorophyll is neutral again and ready to absorb more energy.",
+     "The protons (H⁺) are used in forming NADPH, and they contribute to the proton gradient explained in The chloroplast's internal structure.",
+     "The oxygen is a by-product of photolysis. It is used in respiration or released through the stomata.",
+     "Non-cyclic: the electrons travel in one direction only, from water through the chlorophyll and the chain to NADP⁺. They never return to the chlorophyll they came from. This pathway produces ATP, NADPH and oxygen."
+    ]
+   },
+   {
+    "h": "Cyclic pathway (Higher Level only)",
+    "points": [
+     "In the cyclic pathway, some energised electrons leaving the reaction-centre chlorophyll pass along carriers of the electron transport chain and return to the same chlorophyll molecule, instead of going to NADP⁺.",
+     "As they pass along the carriers, they transfer their surplus energy to making ATP from ADP and Pi. When they arrive back, the chlorophyll is neutral again, so no electrons are taken from water.",
+     "Products of the cyclic pathway: ATP only. No NADPH is made, water is not split and no oxygen is released.",
+     "The light-independent reactions use more ATP than NADPH, in a ratio of 3 ATP to 2 NADPH for each CO₂ molecule fixed, so the cyclic pathway tops up the supply of ATP.",
+     "The cyclic pathway also runs when NADP⁺ is in short supply, because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go."
+    ]
+   },
+   {
+    "h": "Comparing the two pathways (Higher Level only)",
+    "points": [
+     "Route of electrons: non-cyclic, one way from water to NADP⁺; cyclic, from the chlorophyll round the carriers and back to the chlorophyll.",
+     "Products: non-cyclic, ATP, NADPH and O₂; cyclic, ATP only.",
+     "Water: split by photolysis in the non-cyclic pathway; not used in the cyclic pathway.",
+     "Final electron acceptor: NADP⁺ in the non-cyclic pathway; the chlorophyll molecule itself in the cyclic pathway.",
+     "Both pathways begin with light energy reaching the reaction centre and an energised electron leaving the chlorophyll. Both pass electrons along carriers in the thylakoid membrane and make ATP, and both take place on the thylakoid membranes.",
+     "Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2. They describe NADP⁺ first gaining two electrons to become NADP⁻ before it attracts a proton; the reaction to learn is the single step to NADPH described above.",
+     "Diagram: the two pathways on one energy diagram. Show a chlorophyll molecule at the bottom receiving light, as a wavy arrow, from a cluster of pigment molecules, and an arrow for the energised electron rising to an electron acceptor. For the non-cyclic pathway, draw a downhill chain of carriers labelled ATP made, ending at NADP⁺ + H⁺ → NADPH, with water entering below the chlorophyll as H₂O → 2H⁺ + ½O₂ + 2e⁻ and the electrons going to the chlorophyll. For the cyclic pathway, draw a branch from the chain looping back to the chlorophyll, labelled ATP made. Label photon, pigment molecules, reaction centre (chlorophyll), electron acceptor, electron transport chain, ATP, NADP⁺, NADPH, photolysis, O₂ and H⁺."
+    ]
+   },
+   {
+    "h": "Summary of the light-dependent reactions (Higher Level only)",
+    "points": [
+     "Location: the thylakoid membranes (grana) of the chloroplast, where the pigments and carriers are held (see The chloroplast's internal structure).",
+     "Inputs: light energy, water, ADP + Pi and NADP⁺. Outputs: ATP and NADPH, passed to the stroma for the light-independent reactions, and oxygen as a by-product.",
+     "Energy conversion: light energy becomes chemical energy, held in ATP and in the high-energy electrons of NADPH.",
+     "Transfer molecules: ATP carries energy, and NADPH carries electrons and hydrogen to the light-independent reactions. ADP + Pi and NADP⁺ come back to be reloaded. The full two-stage model is drawn in The light-independent reactions."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "In the cyclic pathway, energised electrons leave the reaction-centre chlorophyll, pass along the carriers of the electron transport chain and return to the same chlorophyll, instead of going to NADP⁺. Surplus energy from them is used to make ATP, and ATP is the only product. In the non-cyclic pathway, electrons travel one way, from water through the chlorophyll and the chain to NADP⁺, so this pathway makes ATP, NADPH and oxygen. Water is split by photolysis only in the non-cyclic pathway; in the cyclic pathway water is not split, so no oxygen is released and no NADPH is made.",
+    "prompt": "Distinguish between the cyclic and non-cyclic pathways of the light-dependent reactions.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "A photon of light is absorbed by a pigment molecule in a light-harvesting cluster of pigments such as chlorophyll a, chlorophyll b and carotenoids. The energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule. There it excites an electron to a high energy level, and the energised electron leaves the chlorophyll and is taken up by the first electron acceptor of an electron transport chain. The chlorophyll, having lost an electron, is left positively charged. The electrons pass along the chain of carriers in the thylakoid membrane, losing some energy at each transfer, and this energy is used to make ATP from ADP and Pi. At the end of the chain the electrons are passed to NADP⁺, which takes two electrons and one proton (H⁺) to form NADPH. Meanwhile the positively charged chlorophyll attracts electrons strongly and pulls them from water molecules, splitting the water by photolysis: 2H₂O → 4H⁺ + 4e⁻ + O₂. The electrons from water replace those lost by the chlorophyll, which becomes neutral again and can absorb more energy. The oxygen is released as a by-product.",
+    "prompt": "Describe the events of the non-cyclic pathway, from the absorption of a photon to the production of NADPH and oxygen.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The non-cyclic pathway produces ATP, NADPH and oxygen, but the light-independent reactions use more ATP than NADPH, in a ratio of 3 ATP to 2 NADPH for each CO₂ molecule fixed. The cyclic pathway makes extra ATP from the surplus energy of electrons that return to the chlorophyll, which tops up the supply of ATP for the light-independent reactions. The cyclic pathway is also needed when NADP⁺ is in short supply, because most of it is already loaded as NADPH; the energised electrons then still have an acceptor, the chlorophyll itself, so they are not lost. The cyclic pathway produces ATP only, so it supplements the non-cyclic supply rather than replacing it.",
+    "prompt": "Explain why a chloroplast needs the cyclic pathway as well as the non-cyclic pathway.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio14-s4": {
+  "keyTerms": [
+   {
+    "definition": "The stage of photosynthesis in the stroma, in which hydrogen from NADPH and energy from ATP are used to turn CO₂ into glucose.",
+    "term": "Light-independent reactions"
+   },
+   {
+    "definition": "The cycle of light-independent reactions in which CO₂ is fixed, and the carbon compounds made are used to regenerate the CO₂-accepting compound.",
+    "term": "Calvin cycle"
+   },
+   {
+    "definition": "The uptake of carbon dioxide by combining it with a compound already present in the stroma, the first step of the light-independent reactions.",
+    "term": "Carbon fixation"
+   },
+   {
+    "definition": "The addition of hydrogen to a carbon compound, here turning CO₂ into carbohydrate.",
+    "term": "Reduction"
+   },
+   {
+    "definition": "ATP and NADPH, which carry energy and electrons with hydrogen from the light-dependent reactions to the light-independent reactions, and return as ADP + Pi and NADP⁺.",
+    "term": "Transfer molecules"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The light-independent reactions (Higher Level only)",
+    "points": [
+     "Location: the stroma of the chloroplast, which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.",
+     "1. Carbon dioxide diffuses into the stroma, from the air spaces of the leaf through the cell and the chloroplast's membranes. It is taken up, or fixed, by combining with a carbon dioxide-accepting compound already present in the stroma.",
+     "2. NADPH and ATP from the light-dependent reactions enter the reactions.",
+     "3. Protons and electrons, that is hydrogen, are transferred from NADPH to the carbon compounds made from CO₂. This adds hydrogen to the carbon, which is reduction, turning CO₂ into carbohydrate. NADPH becomes NADP⁺.",
+     "4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi.",
+     "5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose. The glucose is then used, or converted to sucrose, starch and cellulose (see Photosynthesis as an anabolic process).",
+     "6. ADP + Pi and NADP⁺ return to the light-dependent reactions on the thylakoid membranes, where they are reloaded to ATP and NADPH and can be re-used.",
+     "The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose.",
+     "Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released."
+    ]
+   },
+   {
+    "h": "Why the stage is sensitive to temperature and CO₂, and stops in the dark (Higher Level only)",
+    "points": [
+     "Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis (see Investigation: rate of photosynthesis).",
+     "CO₂ is the raw material of this stage, so its supply directly limits the rate of glucose production.",
+     "In darkness the light-dependent reactions stop. ATP and NADPH run out within a short time, and the light-independent reactions then stop too, even though they do not use light directly."
+    ]
+   },
+   {
+    "h": "Modelling the two-stage process (Higher Level only)",
+    "points": [
+     "Stage 1, the light-dependent reactions on the thylakoid membranes: light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.",
+     "Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.",
+     "The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1. Because they are recycled, the chloroplast needs only a small supply of each.",
+     "Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH. The isotope evidence for this is in Photosynthesis as an anabolic process.",
+     "Diagram: the two-stage model. Draw a thylakoid (stage 1) on the left and the stroma (stage 2) on the right. Stage 1 has inputs of light and H₂O and an output of O₂. Stage 2 has an input of CO₂ and an output of glucose (C₆H₁₂O₆). Between the stages draw two loops of arrows: ATP from stage 1 to stage 2 with ADP + Pi returning, and NADPH from stage 1 to stage 2 with NADP⁺ returning. Label each arrow with what it carries: energy, or protons and electrons."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The two products are ATP and NADPH. ATP supplies the energy for converting CO₂ into carbohydrate, and is broken down to ADP + Pi in the process. NADPH supplies protons and electrons, which are transferred to the carbon compounds made from CO₂ to reduce them, and NADPH itself becomes NADP⁺.",
+    "prompt": "Name two products of the light-dependent reactions that are used in the light-independent reactions and state the role of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The light-independent reactions take place in the stroma of the chloroplast, using enzymes; they do not use light directly but need ATP and NADPH from the light-dependent reactions. Carbon dioxide diffuses into the stroma and is fixed by combining with a carbon dioxide-accepting compound already present there. NADPH transfers protons and electrons to the carbon compounds made from CO₂, reducing them, and becomes NADP⁺. ATP provides the energy for this conversion and is broken down to ADP + Pi. Six molecules of CO₂ are fixed for each molecule of glucose (C₆H₁₂O₆) formed. The ADP + Pi and NADP⁺ produced return to the thylakoid membranes of the light-dependent reactions, where they are reloaded to ATP and NADPH and can be re-used.",
+    "prompt": "Outline the light-independent reactions, including where they occur and what happens to the transfer molecules.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The diagram shows a thylakoid membrane as stage 1, the light-dependent reactions, and the stroma as stage 2, the light-independent reactions. Stage 1 is labelled with inputs of light and water and an output of oxygen, which is released. Stage 2 is labelled with an input of carbon dioxide and an output of glucose. Two loops of arrows join the stages. The ATP loop carries energy from stage 1 to stage 2, with ADP and Pi returning to stage 1 to be reloaded. The NADPH loop carries protons and electrons from stage 1 to stage 2, with NADP⁺ returning to stage 1. In the description: stage 1 uses light energy absorbed by chlorophyll to split water and drive electron transfer, loading ADP + Pi to ATP and NADP⁺ to NADPH. In stage 2, NADPH gives its protons and electrons to CO₂ and ATP gives the energy, producing glucose and unloading the transfer molecules. The transfer molecules link the two stages by carrying energy and electrons and hydrogen forward, and returning empty to be re-used, so only a small supply of each is needed.",
+    "prompt": "Using a labelled diagram, model the two stages of photosynthesis, with particular reference to the role of the transfer molecules.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio14-s5": {
+  "keyTerms": [
+   {
+    "definition": "The fluid-filled space enclosed by a thylakoid membrane, where protons build up during the light-dependent reactions.",
+    "term": "Thylakoid space"
+   },
+   {
+    "definition": "A stack of thylakoids in the chloroplast; grana are joined by intergranal lamellae.",
+    "term": "Granum"
+   },
+   {
+    "definition": "A single, unstacked thylakoid membrane that joins one granum to another.",
+    "term": "Intergranal lamella"
+   },
+   {
+    "definition": "A series of electron carriers that pass electrons from one to the next, releasing energy in small steps that can be used.",
+    "term": "Electron transport chain"
+   },
+   {
+    "definition": "A large protein embedded in the thylakoid membrane that forms part of the electron transport chain, some containing pigment clusters and reaction-centre chlorophyll.",
+    "term": "Protein complex"
+   },
+   {
+    "definition": "A small electron carrier that moves within or along the thylakoid membrane, passing electrons between protein complexes.",
+    "term": "Mobile electron carrier"
+   },
+   {
+    "definition": "The enzyme in the thylakoid membrane that uses the flow of protons back into the stroma to make ATP from ADP and Pi.",
+    "term": "ATP synthase"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Internal structure of the chloroplast (Higher Level only)",
+    "points": [
+     "Envelope: two membranes, an outer and an inner, surround the chloroplast. The inner membrane controls which substances enter and leave, such as CO₂ going in and the products of photosynthesis going out, and keeps the stroma's enzymes and conditions separate from the cytoplasm.",
+     "Thylakoids are flattened membrane sacs inside the chloroplast, separate from the envelope. Each encloses a fluid-filled space called the thylakoid space, or lumen.",
+     "Thylakoids are stacked like piles of coins into grana (singular: granum). Grana are joined by single, unstacked thylakoid membranes called intergranal lamellae, so the whole system is one connected network of membranes.",
+     "The thylakoid membranes hold the pigments in their clusters and reaction centres, the electron transport chains and the enzyme ATP synthase. They are the site of the light-dependent reactions.",
+     "Stroma: the fluid around the thylakoids, containing the enzymes of the light-independent reactions, so it is the site of those reactions. It also contains starch grains, which are a temporary store of glucose, lipid droplets, ribosomes and a small loop of DNA.",
+     "The chloroplast makes some of its own proteins, including some of the proteins of the thylakoid membrane and of the light-independent reactions, using its own DNA and ribosomes. How this DNA is inherited is explained in Nuclear and non-nuclear inheritance.",
+     "Diagram: an electron-microscope-level drawing of a chloroplast in section, labelled outer membrane, inner membrane, stroma, granum, thylakoid, thylakoid space, intergranal lamella, starch grain, ribosomes and DNA. This extends the simpler chloroplast diagram in Structures and organelles of animal and plant cells."
+    ]
+   },
+   {
+    "h": "The electron transport chain in the thylakoid membrane (Higher Level only)",
+    "points": [
+     "An electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level, releasing energy in small steps that can be used.",
+     "In the thylakoid membrane, the chain is made of a number of large protein complexes embedded in (spanning) the membrane, linked by smaller mobile electron carriers that move within or along the membrane and carry electrons from one complex to the next.",
+     "Some protein complexes contain the clusters of pigment molecules and the reaction-centre chlorophyll; others pass electrons on and use their energy.",
+     "NADP⁺ is reduced to NADPH on the stroma side of the membrane, right where the light-independent reactions use it.",
+     "Embedding the complexes in a membrane holds them in a fixed order and close together, so electrons pass quickly and in the right sequence. The energy released can be used to move protons across the membrane, as described in the block on the thylakoid proton gradient below."
+    ]
+   },
+   {
+    "h": "The thylakoid proton gradient (Higher Level only)",
+    "points": [
+     "As electrons pass along the chain, protons (H⁺) are moved from the stroma into the thylakoid space; protons released by the photolysis of water are also released there. The small, enclosed thylakoid space therefore builds up a high concentration of protons.",
+     "The protons flow back out of the thylakoid space into the stroma through ATP synthase in the thylakoid membrane, and the enzyme uses this flow to make ATP from ADP and Pi on the stroma side, where the light-independent reactions need it. The same mechanism makes ATP in mitochondria, explained in The mitochondrion's internal structure and ATP synthase."
+    ]
+   },
+   {
+    "h": "How the internal structure facilitates photosynthesis (Higher Level only)",
+    "points": [
+     "Large surface area: the many stacked thylakoids give a huge area of membrane for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH can be made.",
+     "Organisation of pigments: grouping many pigment molecules around each reaction centre funnels the energy of photons absorbed over a wide area, and over a range of colours, to the reaction centres.",
+     "Separate compartments: the thylakoid space is a small, enclosed compartment, so protons can be concentrated in it to drive ATP synthase. The thylakoid membrane is not freely permeable to protons, so the gradient is kept.",
+     "Two stages side by side: the light-dependent reactions on the membranes and the light-independent reactions in the stroma are next to each other. ATP and NADPH are released into the stroma directly where they are used, and ADP + Pi and NADP⁺ return a short distance.",
+     "The stroma holds all the enzymes of the light-independent reactions in one compartment, with their substrates, and stores the product temporarily as starch.",
+     "Own DNA and ribosomes let the chloroplast make the membrane and enzyme proteins that its two stages need, on the spot.",
+     "Related: the leaf cells that do most photosynthesis, the palisade mesophyll, are packed with chloroplasts, which can move within the cell towards or away from the light.",
+     "Diagram: a section of a thylakoid membrane, with the stroma above and the thylakoid space below. Show a pigment cluster with its reaction-centre chlorophyll receiving light; electron carriers and protein complexes in the membrane, with an arrow for electron flow; water being split on the thylakoid-space side (H₂O → 2H⁺ + ½O₂ + 2e⁻); H⁺ being moved into the thylakoid space and building up there; NADP⁺ + H⁺ → NADPH on the stroma side; and ATP synthase, with H⁺ flowing out into the stroma and ADP + Pi → ATP. Label protein complex, mobile electron carrier, thylakoid membrane, thylakoid space, stroma and ATP synthase."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "(i) The light-dependent reactions take place on the thylakoid membranes, which are stacked into grana. The membranes form many thylakoids, which give a large surface area for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH made. (ii) The light-independent reactions take place in the stroma, which holds all the enzymes of these reactions in one compartment, together with their substrates. The stroma is next to the thylakoid membranes, so ATP and NADPH are released directly where they are used.",
+    "prompt": "Name the part of the chloroplast where (i) the light-dependent reactions and (ii) the light-independent reactions take place, and give one way in which each part is suited to its role.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level, releasing energy in small steps. In the thylakoid membrane it is made of large protein complexes embedded in the membrane, linked by smaller mobile electron carriers that carry electrons from one complex to the next. Some protein complexes contain the pigment clusters and reaction-centre chlorophyll, while others pass electrons on and use their energy; NADP⁺ is reduced to NADPH on the stroma side. It is embedded in a membrane because this holds the complexes in a fixed order and close together, so electrons pass quickly and in the right sequence. It also allows the energy released along the chain to move protons from the stroma into the thylakoid space, where they build up a high concentration, creating a gradient that the enzyme ATP synthase uses to make ATP.",
+    "prompt": "Describe the electron transport chain of the thylakoid membrane and explain why it is embedded in a membrane.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The diagram shows a chloroplast in section, surrounded by an outer and an inner membrane forming the envelope. Inside is the stroma, a fluid containing the enzymes of the light-independent reactions, starch grains, ribosomes and a small loop of DNA. Within the stroma are grana, stacks of thylakoids, each thylakoid being a flattened membrane sac enclosing a thylakoid space. Grana are joined by intergranal lamellae, which are single unstacked thylakoid membranes. The diagram labels each of these parts. Three features that facilitate photosynthesis are: first, the stacked thylakoids give a large membrane surface area for pigment clusters, electron transport chains and ATP synthase, so more light is absorbed and more ATP and NADPH are made. Second, grouping many pigment molecules around each reaction centre funnels the energy of absorbed photons, over a wide area and range of colours, to the reaction centres. Third, the small, enclosed thylakoid space and a membrane that is not freely permeable to protons allow protons to be concentrated, so the gradient is kept and ATP synthase can make ATP.",
+    "prompt": "Draw a labelled diagram of the internal structure of a chloroplast and explain how three features of this structure facilitate photosynthesis.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio15-s1": {
+  "keyTerms": [
+   {
+    "definition": "The controlled, enzyme-catalysed breakdown of food in living cells, releasing energy that is transferred to ATP.",
+    "term": "Respiration"
+   },
+   {
+    "definition": "A reaction in which a large molecule is broken down into smaller ones, releasing energy.",
+    "term": "Catabolic reaction"
+   },
+   {
+    "definition": "Respiration using oxygen, which breaks glucose down completely to carbon dioxide and water.",
+    "term": "Aerobic respiration"
+   },
+   {
+    "definition": "Respiration without oxygen, in which glucose is only partly broken down, releasing much less energy.",
+    "term": "Anaerobic respiration"
+   },
+   {
+    "definition": "Anaerobic respiration carried out by microorganisms, producing either lactic acid or ethanol and carbon dioxide.",
+    "term": "Fermentation"
+   },
+   {
+    "definition": "The first stage of respiration, in the cytoplasm, which splits glucose into two pyruvate molecules without using oxygen.",
+    "term": "Glycolysis"
+   },
+   {
+    "definition": "The extra oxygen needed after exercise to remove the lactic acid that built up in muscles during anaerobic respiration.",
+    "term": "Oxygen debt"
+   },
+   {
+    "definition": "An organism that can respire only anaerobically and is poisoned by oxygen, such as the bacteria that cause tetanus.",
+    "term": "Obligate anaerobe"
+   },
+   {
+    "definition": "An organism that can respire with or without oxygen, such as yeast.",
+    "term": "Facultative anaerobe"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Respiration as a catabolic process",
+    "points": [
+     "Respiration is the controlled, enzyme-catalysed breakdown of food, mainly glucose, in every living cell, releasing energy that is transferred to ATP.",
+     "Respiration is catabolic: a large molecule such as glucose is broken down into smaller molecules, and energy is released. The products are CO₂ and H₂O, or lactic acid, or ethanol and CO₂, depending on the conditions.",
+     "Photosynthesis is the matching anabolic process.",
+     "The energy is released in many small enzyme-controlled steps rather than all at once, as in burning, so much of it can be trapped as ATP instead of being lost as heat.",
+     "Energy that is not trapped as ATP is released as heat, which keeps birds and mammals warm.",
+     "The ATP made is used for cell activities such as muscle contraction, active transport and building large molecules.",
+     "Carbon release: the carbon atoms of glucose leave the cell as CO₂, returning to the atmosphere (or water) the carbon that photosynthesis fixed.",
+     "Respiration by plants, animals and decomposers, together with burning, balances the uptake of carbon by photosynthesis in the carbon cycle (detail in Nutrient Cycling).",
+     "Glucose is the main respiratory substrate. Glycogen (in animals) and starch (in plants) are first broken down to glucose, and fats and, when needed, proteins can also be respired."
+    ]
+   },
+   {
+    "h": "Aerobic respiration: equation, reactants and products",
+    "points": [
+     "Aerobic respiration uses oxygen and breaks glucose down completely to carbon dioxide and water. Word equation: glucose + oxygen → carbon dioxide + water + energy.",
+     "Balanced equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Its chemicals are those of the photosynthesis equation reversed, but it releases energy (as ATP and heat) instead of taking in light energy.",
+     "Source of glucose in plants: photosynthesis, or stored starch and sucrose transported in the phloem.",
+     "Source of glucose in animals: digested food absorbed into the blood, or glycogen stored in the liver and muscles.",
+     "Source of oxygen in humans: the air, taken in through the lungs and carried to the cells by red blood cells.",
+     "Source of oxygen in plants: the air, entering through stomata and lenticels; soil air, taken in by the roots; and the plant's own photosynthesis.",
+     "Source of oxygen in aquatic organisms: oxygen dissolved in water.",
+     "Fate of carbon dioxide: it diffuses out of cells. In humans it is carried in the blood to the lungs and breathed out; in plants it diffuses out through stomata or, in the light, is used in photosynthesis.",
+     "Fate of water: it joins the cell's water and is used in the cell or excreted. Some is breathed out as water vapour."
+    ]
+   },
+   {
+    "h": "Anaerobic respiration and fermentation",
+    "points": [
+     "Anaerobic respiration releases energy from glucose without oxygen. Because the glucose is only partly broken down, much of the energy stays in the products, so much less energy is released per glucose and much less ATP is made than in aerobic respiration.",
+     "In animals, such as human muscle during intense exercise, and in some bacteria, the product is lactic acid. Word equation: glucose → lactic acid + energy. Balanced equation: C₆H₁₂O₆ → 2C₃H₆O₃ + energy. No CO₂ is produced.",
+     "In yeast, and in plant cells short of oxygen such as roots in waterlogged soil, the products are ethanol and carbon dioxide. Word equation: glucose → ethanol + carbon dioxide + energy. Balanced equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy.",
+     "Anaerobic respiration in microorganisms is called fermentation. In baking, yeast's CO₂ makes dough rise and the ethanol evaporates in the oven. In brewing and wine-making, yeast's ethanol is the useful product. In making yogurt and cheese, bacteria's lactic acid is the useful product.",
+     "In human muscle during hard exercise, the lungs and blood cannot supply oxygen fast enough, so some respiration is anaerobic. Lactic acid builds up and the muscles tire.",
+     "Oxygen debt: after exercise, extra oxygen is needed to remove the lactic acid. It is carried in the blood to the liver, where much of it is converted back to glucose, and the rest is respired aerobically. This is why breathing and heart rate stay high after exercise.",
+     "Obligate anaerobes respire only anaerobically and are poisoned by oxygen, for example the bacteria that cause tetanus. Yeast can respire either way, so it is a facultative anaerobe."
+    ]
+   },
+   {
+    "h": "The overall sequence and cellular locations",
+    "points": [
+     "Stage 1, glycolysis, takes place in the cytoplasm (cytosol) of every cell and does not need oxygen. Glucose, with 6 carbon atoms, is split into two molecules of pyruvate, each with 3 carbon atoms, and a small amount of ATP is made.",
+     "What happens next depends on oxygen. With oxygen, stage 2 takes place in the mitochondria: pyruvate enters a mitochondrion and is broken down completely to CO₂ and water. Hydrogen removed from it is passed to oxygen, forming water, and a large amount of ATP is made. Stage 2 needs oxygen.",
+     "Without oxygen, pyruvate stays in the cytoplasm and is converted to lactic acid (in animals and some bacteria) or to ethanol and CO₂ (in yeast and plants). No further ATP is made, so anaerobic respiration is glycolysis followed by this conversion, all in the cytoplasm.",
+     "Prokaryotes (bacteria) have no mitochondria. Their aerobic respiration takes place in the cytoplasm and on the cell membrane (see Prokaryotic and eukaryotic cells).",
+     "Diagram: a flow diagram of the overall sequence. Glucose in the cytoplasm goes through glycolysis, making a small amount of ATP, to give 2 pyruvate. Two branches follow. Oxygen present: pyruvate enters a mitochondrion and gives CO₂, water and a large amount of ATP. No oxygen: pyruvate stays in the cytoplasm and gives lactic acid (animals) or ethanol and CO₂ (yeast, plants). Label cytoplasm, mitochondrion, stage 1 and stage 2."
+    ]
+   },
+   {
+    "h": "Aerobic and anaerobic respiration compared, and respiration against photosynthesis",
+    "points": [
+     "Oxygen: needed in aerobic respiration; not needed in anaerobic respiration.",
+     "Location: aerobic respiration takes place in the cytoplasm and the mitochondria; anaerobic respiration takes place in the cytoplasm only.",
+     "Breakdown of glucose: complete, to CO₂ and H₂O, in aerobic respiration; incomplete, to lactic acid or to ethanol and CO₂, in anaerobic respiration.",
+     "Energy: a large amount of ATP in aerobic respiration; a small amount, only the ATP made in glycolysis, in anaerobic respiration.",
+     "Stages: stage 1 followed by stage 2 in aerobic respiration; stage 1 followed by conversion of pyruvate in anaerobic respiration.",
+     "Respiration is catabolic, releases energy, uses O₂ and releases CO₂. It happens in all living cells all the time, in the cytoplasm and mitochondria.",
+     "Photosynthesis is anabolic, takes in light energy, uses CO₂ and releases O₂. It happens only in cells with chloroplasts, and only in the light."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Respiration is catabolic because a large molecule, glucose, is broken down into smaller molecules (CO₂ and H₂O), and energy is released. The energy is transferred to ATP for cell activities.",
+    "prompt": "Write a balanced chemical equation for aerobic respiration and explain why respiration is described as a catabolic process.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "1. Oxygen: aerobic respiration needs oxygen; anaerobic respiration does not. 2. Location: aerobic respiration takes place in the cytoplasm and mitochondria; anaerobic respiration takes place only in the cytoplasm. 3. Energy: aerobic respiration makes a large amount of ATP, because glucose is broken down completely to CO₂ and water; anaerobic respiration makes only a small amount of ATP, from glycolysis, because glucose is broken down only partly, to lactic acid or to ethanol and CO₂.",
+    "prompt": "State three differences between aerobic and anaerobic respiration.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Glucose is split in the cytoplasm by glycolysis, which needs no oxygen, into two molecules of pyruvate, with a small amount of ATP made. If oxygen is present, pyruvate enters the mitochondria and is broken down completely to CO₂ and water, with a large amount of ATP made. If the oxygen supply is too low, pyruvate stays in the cytoplasm and is converted to lactic acid, so no further ATP is made. Lactic acid builds up and the muscles tire. After exercise, extra oxygen is needed to remove the lactic acid, which is carried in the blood to the liver and largely converted back to glucose; this is the oxygen debt.",
+    "prompt": "Outline the sequence of respiration in a muscle cell, naming the location of each stage, and describe what happens when the oxygen supply is too low during exercise.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio15-s2": {
+  "keyTerms": [
+   {
+    "definition": "Anaerobic respiration by microorganisms, which produces ethanol and CO₂ (in yeast) or lactic acid (in bacteria).",
+    "term": "Fermentation"
+   },
+   {
+    "definition": "An organism that can respire with or without oxygen, such as yeast.",
+    "term": "Facultative anaerobe"
+   },
+   {
+    "definition": "The factor that the investigator deliberately changes, such as the presence of sugar or the temperature.",
+    "term": "Independent variable"
+   },
+   {
+    "definition": "The factor measured to show the effect of the independent variable, such as the rate of CO₂ production.",
+    "term": "Dependent variable"
+   },
+   {
+    "definition": "A set-up identical to the test except for the factor being tested, here a flask with boiled yeast, used to show that the result comes from living yeast.",
+    "term": "Control"
+   },
+   {
+    "definition": "A test for CO₂ in which the gas turns calcium hydroxide solution milky.",
+    "term": "Limewater test"
+   },
+   {
+    "definition": "A test for ethanol in which warm potassium iodide and sodium hypochlorite form pale yellow iodoform crystals if ethanol is present.",
+    "term": "Iodoform test"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Investigation background: fermentation and its four conditions",
+    "points": [
+     "Fermentation is anaerobic respiration by microorganisms. Yeast, a single-celled fungus, ferments sugar to ethanol and carbon dioxide; lactic acid bacteria ferment sugar to lactic acid.",
+     "The two products of yeast fermentation are the evidence looked for in this investigation: CO₂, shown by bubbles and by limewater turning milky, and ethanol, shown by the iodoform test.",
+     "Sugar is needed because it is the respiratory substrate, the source of energy for fermentation.",
+     "Living microorganisms are needed because they contain the enzymes that carry out fermentation.",
+     "An anaerobic environment (no oxygen) is needed. Yeast with oxygen respires mainly aerobically, producing CO₂ and water instead of ethanol.",
+     "A suitable temperature is needed so that the enzymes work at a good rate. Enzymes are slow when cold and denatured when too hot.",
+     "Yeast is a facultative anaerobe, able to respire with or without oxygen, so the conditions decide which kind of respiration it carries out (see Respiration as a catabolic process)."
+    ]
+   },
+   {
+    "h": "Investigation planning: aim, hypothesis and variables",
+    "points": [
+     "Aim: to investigate the conditions necessary for fermentation by yeast: the presence of sugar, the presence of living yeast, the absence of oxygen and a suitable temperature.",
+     "Hypothesis (example): yeast will ferment glucose, producing carbon dioxide and ethanol, only when sugar and living yeast are present, oxygen is absent and the temperature is warm. Fermentation will be fastest at about 30–40 °C and will stop at high temperature, e.g. 60 °C.",
+     "Design: set up one full fermentation flask that meets all four conditions, then a series of flasks each identical except that one condition is missing or changed.",
+     "Independent variable: the condition changed, which is sugar (present or absent), microorganism (living, dead or none), oxygen (present or absent) or temperature.",
+     "Dependent variable: the amount or rate of fermentation, measured as the rate of CO₂ production (bubbles per minute, or cm³ of gas in a set time), whether limewater turns milky, and whether ethanol is present at the end.",
+     "Controlled variables: the volume and concentration of glucose solution, the mass of yeast, the volume of the flask, the time allowed, and the temperature, except in the temperature series.",
+     "Control: a flask with glucose solution and yeast that has been boiled for a few minutes and cooled, set up identically. It shows that the CO₂ and ethanol come from living yeast, not from the glucose solution itself."
+    ]
+   },
+   {
+    "h": "Equipment and materials",
+    "points": [
+     "Core equipment: conical flasks or boiling tubes; fermentation locks or rubber bungs fitted with delivery tubes; test tubes of limewater (calcium hydroxide solution); a balance and graduated cylinders; a hot plate or kettle; a water bath or incubator; a thermometer; a stopwatch; labels.",
+     "Materials: dried or fresh baker's yeast; glucose or sucrose; distilled water; liquid paraffin or vegetable oil.",
+     "For the ethanol test: a filter funnel and filter paper, test tubes, potassium iodide solution, sodium hypochlorite solution (dilute bleach) and a water bath.",
+     "Optional: a gas syringe, or an inverted measuring cylinder in a trough of water, to collect the gas."
+    ]
+   },
+   {
+    "h": "Setting up the full fermentation flask",
+    "points": [
+     "1. Boil distilled water for a few minutes and allow it to cool to about 30 °C. Boiling drives out dissolved oxygen and kills unwanted microorganisms; cooling stops the hot water killing the yeast.",
+     "2. Dissolve glucose in the cooled, boiled water to make a glucose solution (e.g. 10 g in 100 cm³). Place it in a conical flask, add a set mass of yeast (e.g. 2 g) and swirl to mix.",
+     "3. Gently pour a layer of liquid paraffin or vegetable oil on top of the solution, about 1 cm deep, to stop oxygen from the air dissolving in it. This makes the conditions anaerobic.",
+     "4. Fit a fermentation lock containing water, or a bung with a delivery tube leading into a test tube of limewater, so that gas can escape but air cannot get in.",
+     "5. Place the flask in a water bath or incubator at about 30 °C, and set up the control flask beside it.",
+     "6. After the yeast has had time to start, about 10–15 minutes, count the bubbles passing through the fermentation lock or into the limewater in one minute, three times. Alternatively, collect the gas over a set time in a gas syringe or inverted measuring cylinder. Note when the limewater turns milky. Leave the flasks until bubbling stops, a day or more, then test for ethanol."
+    ]
+   },
+   {
+    "h": "Set-ups for each condition",
+    "points": [
+     "Sugar: a flask with yeast in boiled, cooled water only, with no glucose, under oil, at 30 °C. Expected result: very few or no bubbles, limewater stays clear and there is no ethanol. Conclusion: sugar is needed.",
+     "Microorganisms: a flask with glucose solution and boiled, dead yeast (the control), and, if wished, a flask with glucose solution only. Expected result: no bubbles, limewater stays clear and there is no ethanol. Conclusion: living microorganisms are needed.",
+     "Anaerobic environment: a flask with glucose solution and yeast, made with unboiled water, with no oil layer, open to the air or with air bubbled through it (using an aquarium pump), or shaken often. Expected result: CO₂ is still produced, from aerobic respiration and often faster, but little or no ethanol is detected. Conclusion: ethanol is made when oxygen is absent.",
+     "Suitable temperature: identical full flasks placed at about 5 °C (fridge), 20 °C (room), 30 °C, 40 °C and 60 °C (water baths), each checked with a thermometer. Expected result: very slow bubbling at 5 °C, where the enzymes are slowed but not denatured and speed up if warmed; faster at 20 °C; fastest at about 30–40 °C; none at 60 °C, where the enzymes are denatured and the yeast killed, and fermentation does not restart on cooling. Conclusion: a suitable warm temperature is needed."
+    ]
+   },
+   {
+    "h": "Testing for ethanol: the iodoform test",
+    "points": [
+     "1. When bubbling has stopped, filter a sample of the liquid from each flask into a clean test tube, about 3 cm³.",
+     "2. Add about 3 cm³ of potassium iodide solution.",
+     "3. Add about 5 cm³ of sodium hypochlorite solution and mix.",
+     "4. Warm the tube gently in a water bath at about 60 °C for a few minutes.",
+     "5. Allow the tube to cool and observe. Test water as a negative control and a little dilute ethanol as a positive control.",
+     "Result: pale yellow crystals of iodoform (triiodomethane), with an antiseptic, hospital smell, form if ethanol is present; no crystals form without ethanol.",
+     "Alternative test: acidified potassium dichromate solution turns from orange to green when warmed with ethanol. Many schools avoid it because potassium dichromate is toxic."
+    ]
+   },
+   {
+    "h": "Using bacteria instead of yeast",
+    "points": [
+     "The specification allows bacteria. Lactic acid bacteria ferment the sugar lactose in milk to lactic acid, as in making yogurt. Set up warm milk with a spoonful of live natural yogurt, the source of the bacteria, in clean, closed containers kept warm in an incubator or water bath. Compare with milk without yogurt, and with boiled yogurt.",
+     "Measure the fall in pH over several hours, with a pH meter, pH probe or universal indicator. The milk also thickens as the acid makes its protein clump. No CO₂ is produced in lactic acid fermentation, so limewater is not used. The same four conditions can be tested."
+    ]
+   },
+   {
+    "h": "Investigation safety",
+    "points": [
+     "Wear safety glasses. Sodium hypochlorite (bleach) is corrosive and irritant to skin and eyes; wash splashes off with plenty of water. Potassium dichromate, if used, is toxic and must be handled with gloves.",
+     "Take care with boiling water, the hot plate and water baths, and let the water cool before adding yeast.",
+     "Never seal a fermenting flask with a solid bung and no outlet: CO₂ builds up pressure and can force out the bung or crack the glass.",
+     "Ethanol is flammable, so keep it away from flames. Never taste the products; laboratory glassware and solutions are not food-safe.",
+     "Treat microorganisms with care: wash hands after the practical, and dispose of yeast and bacterial cultures as the teacher directs. Never eat the yogurt made in the laboratory."
+    ]
+   },
+   {
+    "h": "Results, conclusion and diagram",
+    "points": [
+     "Record primary data in a table with one row per flask, giving the condition, the mean bubbles per minute (or volume of gas), whether limewater is milky or clear, and the ethanol test result (crystals or none). For the temperature series, plot the mean rate on the y-axis against temperature on the x-axis.",
+     "Expected results: the full flask bubbles steadily, its limewater turns milky and its iodoform test is positive. The flasks without sugar or without living yeast show no CO₂ and no ethanol. The aerated flask gives CO₂ but little or no ethanol. The rate rises with temperature to a peak at about 30–40 °C and stops at 60 °C. The control shows no activity.",
+     "Conclusion: fermentation, the production of ethanol and CO₂, takes place only when sugar and living yeast are present, oxygen is absent and the temperature is suitable. State whether the results support the hypothesis.",
+     "Diagram: the fermentation set-up. A conical flask in a water bath, with a thermometer, containing glucose solution and yeast under a layer of oil, fitted with a fermentation lock or a delivery tube into a test tube of limewater. Label each part. Optionally draw beside it the control flask with boiled yeast."
+    ]
+   },
+   {
+    "h": "Secondary data and applications",
+    "points": [
+     "Pool class results, or compare with published data, to check reproducibility. CO₂ production rates can be measured with a CO₂ sensor and data logger, or by the mass lost by a fermenting flask on a balance as CO₂ escapes.",
+     "Applications of the conditions (industry detail is in Microorganisms): brewers and wine-makers exclude air so that yeast makes ethanol, and control the temperature; bakers keep dough warm so that yeast makes CO₂ quickly to raise it; yogurt makers incubate milk warm with bacteria."
+    ]
+   },
+   {
+    "h": "Sources of error and limitations",
+    "points": [
+     "Oxygen can enter if the water was not boiled, the oil layer is broken or the fermentation lock leaks. Some respiration is then aerobic and less ethanol is made.",
+     "Yeast can still ferment some sugar when oxygen is present if plenty of sugar is available, so the aerated flask may give a weak positive ethanol test. Compare the amount of crystals, not just their presence.",
+     "Bubbles vary in size and some CO₂ dissolves in the solution, so bubble counts are imprecise and underestimate the gas produced. Collecting the gas, or weighing the mass lost, is more accurate.",
+     "Limewater turns milky slowly in air, and very large amounts of CO₂ make the milkiness clear again. Set up a limewater tube open to the air for comparison, and observe at set times.",
+     "Temperature can drift, so check the water bath regularly. Yeast takes time to start, so begin timing after the same period in every flask.",
+     "Yeast samples differ. Use yeast from the same batch, mixed well, for every flask, and repeat each set-up at least three times."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Boiling the water removes dissolved oxygen and kills unwanted microorganisms, so the conditions are anaerobic and contaminants are removed. The water is then cooled to about 30 °C before the yeast is added, because hot water would kill the yeast. The layer of oil stops oxygen from the air dissolving into the solution, so that the yeast respires anaerobically.",
+    "prompt": "Explain why, in an investigation of fermentation, the glucose solution is boiled and cooled before yeast is added, and why a layer of oil is placed on top.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Set up a full fermentation flask: boiled and cooled water, glucose solution and yeast, under a layer of oil, with a fermentation lock or delivery tube into limewater, kept at about 30 °C. Set up a flask with yeast in water with no glucose, under oil, to show that sugar is needed; it should show very few or no bubbles and no ethanol. Set up a flask with glucose and yeast but no oil layer, with air bubbled through or shaken, to show that anaerobic conditions are needed; it should produce CO₂ but little or no ethanol. Use a control of glucose solution with boiled yeast, which should show no bubbles and no ethanol, so that the result comes from living yeast. Once bubbling has stopped, filter a sample of each liquid and add potassium iodide and sodium hypochlorite, then warm it in a water bath at about 60 °C. Ethanol is shown by pale yellow iodoform crystals with an antiseptic smell.",
+    "prompt": "Describe how you would show that yeast needs sugar and anaerobic conditions to produce ethanol. Include a control and the test for ethanol.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "At 5 °C bubbling is very slow, because the enzymes of fermentation work slowly at low temperature, although they are not denatured. At 30 °C bubbling is fastest, or close to fastest, because the enzymes work at a good rate at this suitable temperature. At 60 °C there is no bubbling, because the enzymes are denatured and the yeast is killed, and fermentation does not restart when the flask is cooled.",
+    "prompt": "A student set up identical flasks of yeast in glucose solution at 5 °C, 30 °C and 60 °C. Predict and explain the rate of bubbling in each flask.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio15-s3": {
+  "keyTerms": [
+   {
+    "definition": "The first stage of respiration, in the cytoplasm, which converts one six-carbon glucose molecule into two pyruvate molecules, with a net gain of 2 ATP and no oxygen.",
+    "term": "Glycolysis"
+   },
+   {
+    "definition": "The three-carbon product of glycolysis, which goes to the mitochondrion when oxygen is present or is fermented when it is not.",
+    "term": "Pyruvate"
+   },
+   {
+    "definition": "The reduced form of NAD⁺, which carries hydrogen from glycolysis to the electron transport chain or to pyruvate in fermentation.",
+    "term": "NADH"
+   },
+   {
+    "definition": "Converting NADH back to NAD⁺ so that glycolysis can continue; this is the purpose of fermentation.",
+    "term": "Regeneration of NAD⁺"
+   },
+   {
+    "definition": "The conversion of pyruvate to lactic acid by NADH, with no CO₂ released, in animal muscle and lactic acid bacteria.",
+    "term": "Lactic acid fermentation"
+   },
+   {
+    "definition": "The conversion of pyruvate to ethanol and CO₂ by NADH, in yeast and plant cells short of oxygen.",
+    "term": "Alcoholic fermentation"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Glycolysis (Higher Level only)",
+    "points": [
+     "Glycolysis, meaning sugar splitting, is the first stage of both aerobic and anaerobic respiration. It takes place in the cytoplasm (cytosol), is controlled by about ten enzymes in sequence, and needs no oxygen.",
+     "1. Activation: two ATP molecules are used to add phosphate groups to the glucose (C₆), making it more reactive. This is an investment of energy.",
+     "2. Splitting: the six-carbon sugar is split into two three-carbon molecules.",
+     "3. Oxidation: hydrogen, as electrons and protons, is removed from each three-carbon molecule by dehydrogenase enzymes and picked up by NAD⁺, forming NADH. Two NADH are made per glucose.",
+     "4. ATP generation: four ATP are made as phosphate groups are transferred to ADP. Net gain: 4 made minus 2 used, so 2 ATP per glucose.",
+     "5. Product: two molecules of pyruvate (pyruvic acid, C₃) per glucose. Pyruvate still holds most of the energy of the glucose.",
+     "Summary: glucose + 2 ADP + 2 Pi + 2 NAD⁺ → 2 pyruvate + 2 ATP (net) + 2 NADH. No CO₂ is released in glycolysis.",
+     "Glycolysis happens in almost every living cell, prokaryotic and eukaryotic, which suggests that it evolved early in the history of life, before there was oxygen in the atmosphere.",
+     "Other six-carbon sugars, such as fructose, and the glucose from glycogen or starch enter the same pathway."
+    ]
+   },
+   {
+    "h": "Transfer molecules in glycolysis (Higher Level only)",
+    "points": [
+     "ATP: two are used to activate the glucose and four are made by transferring phosphate from the sugar molecules directly to ADP. The net 2 ATP is all the energy anaerobic respiration releases per glucose.",
+     "NAD⁺: the cell has only a small supply. Glycolysis converts NAD⁺ to NADH, so glycolysis stops if NADH is not turned back into NAD⁺.",
+     "The fate of NADH depends on oxygen. With oxygen, it passes its electrons to the electron transport chain in the mitochondrion (see Second-stage process). Without oxygen, it passes its hydrogen to pyruvate (fermentation, below). Either way, NAD⁺ is regenerated."
+    ]
+   },
+   {
+    "h": "Fermentation pathways (Higher Level only)",
+    "points": [
+     "When oxygen is absent or too scarce, pyruvate is not passed to the mitochondrion. Instead, in the cytoplasm, NADH passes its hydrogen to pyruvate, or to a product made from it. This regenerates NAD⁺, so glycolysis can keep running and keep making its 2 ATP per glucose.",
+     "The purpose of fermentation is to regenerate NAD⁺, not to make more ATP. No ATP is made after glycolysis.",
+     "Lactic acid fermentation, in animal muscle cells and in lactic acid bacteria such as those used to make yogurt: pyruvate (C₃) takes hydrogen from NADH and becomes lactic acid (lactate, C₃). This is one step, and no CO₂ is released. Overall: glucose → 2 lactic acid, with a net 2 ATP.",
+     "Alcoholic (ethanol) fermentation, in yeast and in plant cells short of oxygen, such as waterlogged roots: pyruvate (C₃) first loses one carbon as CO₂, forming a two-carbon compound. This then takes hydrogen from NADH and becomes ethanol (C₂). This is two steps, with one CO₂ released per pyruvate. Overall: glucose → 2 ethanol + 2 CO₂, with a net 2 ATP.",
+     "Lactic acid has three carbons, like pyruvate; ethanol has two, because one carbon is lost as CO₂.",
+     "The product depends on the organism, and whether fermentation happens depends on conditions. Animals and many bacteria make lactic acid, while yeast and plants make ethanol. Yeast and muscle respire aerobically when oxygen is available and switch to fermentation when it is not (see Investigation: conditions for fermentation).",
+     "Fermentation releases little energy because glucose is only partly broken down. Lactic acid and ethanol still contain much of the original energy; ethanol is a fuel, for example in biofuels.",
+     "Diagram: glycolysis and fermentation as one flow chart. Glucose (C₆), with 2 ATP used, 4 ATP made and 2 NAD⁺ converted to 2 NADH, gives 2 pyruvate (C₃). Three branches follow. (a) With oxygen: to the mitochondrion, the second stage. (b) No oxygen, in animals and some bacteria: lactic acid (C₃), with NADH converted back to NAD⁺. (c) No oxygen, in yeast and plants: CO₂ is released and ethanol (C₂) is made, with NADH converted back to NAD⁺. Show the NAD⁺ loop returning to glycolysis. Label cytoplasm and mitochondrion."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The first stage of respiration is glycolysis. It takes place in the cytoplasm (cytosol) of the cell. Its three-carbon product is pyruvate (pyruvic acid).",
+    "prompt": "Name the first stage of respiration, state where it occurs in the cell, and name its three-carbon product.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Glycolysis splits one six-carbon glucose molecule into two three-carbon pyruvate molecules in the cytoplasm, without oxygen. Two ATP are used at the start to activate the glucose, and four ATP are made as phosphate is transferred to ADP, giving a net gain of 2 ATP. NAD⁺ accepts hydrogen from the three-carbon molecules and is converted to NADH; two NADH are made per glucose. Glycolysis needs a supply of NAD⁺, so NADH must be converted back to NAD⁺ for it to continue.",
+    "prompt": "Describe glycolysis, with reference to the role of ATP and NAD⁺.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Yeast and muscle cells have different enzymes. In yeast, pyruvate first loses one carbon as CO₂, forming a two-carbon compound, which then takes hydrogen from NADH to become ethanol. In human muscle, pyruvate takes hydrogen from NADH in one step to become lactic acid, so no CO₂ is released. Fermentation is necessary because, when oxygen is absent, NADH cannot pass its electrons to the electron transport chain. NADH passes its hydrogen to pyruvate instead, which regenerates NAD⁺ so that glycolysis can keep running and keep making its 2 ATP per glucose. Fermentation does not make more ATP.",
+    "prompt": "Explain why yeast produces ethanol and carbon dioxide while human muscle produces lactic acid when oxygen is scarce, and explain why fermentation is necessary for the cell.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio15-s4": {
+  "keyTerms": [
+   {
+    "definition": "The two-carbon molecule formed when coenzyme A joins the acetyl group from pyruvate, which enters the citric acid cycle.",
+    "term": "Acetyl coenzyme A (acetyl CoA)"
+   },
+   {
+    "definition": "A carrier molecule that carries the acetyl group from pyruvate into the citric acid cycle and is then released to collect another.",
+    "term": "Coenzyme A"
+   },
+   {
+    "definition": "The cycle of enzyme-controlled reactions in the mitochondrial matrix that releases CO₂ and loads NAD⁺ with hydrogen, turning acetyl CoA into CO₂ and regenerating the four-carbon compound.",
+    "term": "Citric acid cycle"
+   },
+   {
+    "definition": "The fluid inside the inner membrane of a mitochondrion, where the link step and the citric acid cycle take place.",
+    "term": "Matrix"
+   },
+   {
+    "definition": "A series of electron carriers in the inner mitochondrial membrane, which passes electrons from NADH to oxygen and uses the energy released to make ATP.",
+    "term": "Electron transport chain"
+   },
+   {
+    "definition": "The molecule at the end of the electron transport chain that accepts electrons; in respiration this is oxygen, which forms water.",
+    "term": "Final electron acceptor"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Pyruvate to acetyl CoA (Higher Level only)",
+    "points": [
+     "When oxygen is present, each pyruvate (C₃) made in glycolysis moves from the cytoplasm into the matrix of a mitochondrion.",
+     "In the matrix, pyruvate is broken down: one carbon atom is removed as one molecule of carbon dioxide, and hydrogen is removed and picked up by NAD⁺, forming NADH.",
+     "The remaining two-carbon (acetyl) group is joined to coenzyme A, a carrier molecule, forming acetyl coenzyme A (acetyl CoA, C₂). Per pyruvate: pyruvate + coenzyme A + NAD⁺ → acetyl CoA + CO₂ + NADH.",
+     "Each glucose gives two pyruvate, so this happens twice per glucose, producing 2 CO₂ and 2 NADH."
+    ]
+   },
+   {
+    "h": "The citric acid cycle (Higher Level only)",
+    "points": [
+     "The citric acid cycle, also called the Krebs cycle, is a cycle of enzyme-controlled reactions in the matrix of the mitochondrion.",
+     "1. The acetyl CoA passes its two-carbon acetyl group into the cycle, where it joins a four-carbon compound to form citric acid (C₆), which gives the cycle its name. Coenzyme A is released to collect another acetyl group.",
+     "2. In a series of steps, citric acid is broken down back to the four-carbon compound. This is regenerated to accept the next acetyl group, which is why it is a cycle.",
+     "3. During each turn, two carbon atoms are removed as two molecules of CO₂, so the carbon of the acetyl group leaves as CO₂.",
+     "4. Hydrogen, as protons and electrons, is removed at several steps and loaded onto NAD⁺, forming NADH. A small amount of ATP, one per turn, is also made directly.",
+     "The cycle turns twice for each glucose, once per acetyl CoA. With the link step, all six carbon atoms of glucose have now left as six molecules of CO₂, matching the 6CO₂ in the respiration equation. Glycolysis releases none.",
+     "The specification's products are CO₂ and H₂O. The CO₂ is released directly. The hydrogen removed is carried by NADH to the electron transport chain, where it ends up in water. The cycle does not need oxygen directly, but it stops without oxygen, because NADH cannot be unloaded and NAD⁺ runs out."
+    ]
+   },
+   {
+    "h": "The electron transport chain (Higher Level only)",
+    "points": [
+     "The electron transport chain is a series of electron carriers, protein complexes and mobile carriers, in the inner mitochondrial membrane, especially on the folds called cristae.",
+     "1. NADH from glycolysis, the link step and the citric acid cycle delivers its high-energy electrons and protons to the start of the chain. NAD⁺ is released to collect more.",
+     "2. The electrons are passed from carrier to carrier, each at a lower energy level. The energy released at each transfer is used to make ATP from ADP and Pi. The mechanism, via a proton gradient and ATP synthase, is in The mitochondrion's internal structure and ATP synthase. Most of the ATP from aerobic respiration is made here.",
+     "3. Oxygen is the final electron acceptor. At the end of the chain, low-energy electrons combine with oxygen and protons (H⁺) to form water: 4e⁻ + 4H⁺ + O₂ → 2H₂O. This is the only step of respiration that uses oxygen directly, and it is where the 6H₂O of the equation comes from.",
+     "4. If oxygen is absent, electrons cannot leave the end of the chain. The whole chain stops, NADH cannot be unloaded, and the citric acid cycle and the link step stop too. The cell can then only carry out glycolysis and fermentation (see First-stage process). Cyanide is a poison because it blocks the last complex of the chain, with the same effect.",
+     "5. The ATP made is exported from the mitochondrion to the cytoplasm and used for other biochemical reactions in the cell, such as synthesis of proteins, active transport and muscle contraction (see ATP).",
+     "Far more ATP per glucose is made in the second stage than the net 2 ATP of glycolysis, so aerobic respiration releases many times more energy per glucose than fermentation. No total is given here."
+    ]
+   },
+   {
+    "h": "Modelling the two-stage process (Higher Level only)",
+    "points": [
+     "Stage 1, glycolysis, takes place in the cytoplasm: glucose becomes 2 pyruvate, a net 2 ATP is made directly, and NAD⁺ is converted to NADH.",
+     "Stage 2 takes place in the mitochondrion. The link step and the citric acid cycle, in the matrix, turn pyruvate into acetyl CoA and then into CO₂, converting NAD⁺ to NADH and making a little ATP directly. The electron transport chain, on the inner membrane (cristae), unloads NADH to NAD⁺, passes electrons to oxygen to form water, and makes most of the ATP from ADP and Pi.",
+     "Transfer molecules carry energy and electrons between the stages. NAD⁺/NADH carries electrons and hydrogen from the breakdown of glucose (glycolysis, link step and cycle) to the electron transport chain, and returns empty. Coenzyme A carries the acetyl group into the cycle and returns. ATP carries energy from the mitochondrion and cytoplasm to the cell's activities, returning as ADP + Pi to be reloaded. All are recycled, so only small amounts are needed.",
+     "Tracing the atoms: the carbon of glucose leaves as CO₂ in the link step and the cycle. The hydrogen of glucose ends up in water, formed by combining with oxygen breathed in at the electron transport chain. The oxygen breathed in therefore ends up in water, not in CO₂.",
+     "Diagram: the two-stage model. Draw a cell with the cytoplasm and one mitochondrion, showing its outer membrane, inner membrane with cristae, and matrix. In the cytoplasm, glucose → 2 pyruvate (net 2 ATP; NAD⁺ → NADH). An arrow takes pyruvate into the matrix → acetyl CoA (+ CO₂), which enters the citric acid cycle, drawn as a circle: acetyl group + C₄ → citric acid (C₆) → back to C₄, with CO₂ leaving and NAD⁺ → NADH. Arrows take NADH to the electron transport chain on the inner membrane; electrons pass along the chain to O₂ + H⁺ → H₂O; ATP is made; NAD⁺ returns. Label every transfer molecule with what it carries.",
+     "Comparison with photosynthesis: in photosynthesis, NADPH and ATP are made in stage 1, using light energy, and used in stage 2 to build glucose. In respiration, NADH is made as glucose is broken down and is used at the end of stage 2 to make ATP. The membrane comparison is in The mitochondrion's internal structure and ATP synthase."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Pyruvate enters the matrix of the mitochondrion. One carbon atom is removed as CO₂, and hydrogen is removed and picked up by NAD⁺, forming NADH. The remaining two-carbon acetyl group is joined to coenzyme A to form acetyl CoA, which then enters the citric acid cycle.",
+    "prompt": "Describe what happens to pyruvate when it enters a mitochondrion, before the citric acid cycle.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Acetyl CoA passes its two-carbon acetyl group into the citric acid cycle in the matrix, where it joins a four-carbon compound to form citric acid. In a series of steps the citric acid is broken down, releasing two molecules of CO₂ per turn, and the four-carbon compound is regenerated. Hydrogen is removed at several steps and loaded onto NAD⁺ to form NADH, and a small amount of ATP is made directly. NADH passes its electrons to the electron transport chain on the inner mitochondrial membrane, on the cristae. The electrons pass along the chain, each at a lower energy level, and the energy released makes most of the ATP. At the end of the chain, oxygen is the final electron acceptor: it combines with electrons and protons to form water.",
+    "prompt": "Outline the events of the second stage of aerobic respiration, from acetyl CoA to the formation of water.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Oxygen is the final electron acceptor at the end of the electron transport chain. Without it, electrons cannot leave the end of the chain, so the whole chain stops. NADH then cannot pass its electrons on and cannot be converted back to NAD⁺. The citric acid cycle and the link step need NAD⁺ to accept hydrogen, so when NAD⁺ runs out, they stop, even though the cycle itself does not use oxygen.",
+    "prompt": "Explain why the citric acid cycle stops if a cell is deprived of oxygen, even though the cycle does not use oxygen directly.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio15-s5": {
+  "keyTerms": [
+   {
+    "definition": "The folds of the inner mitochondrial membrane, which greatly increase its surface area for electron transport chains and ATP synthase.",
+    "term": "Cristae"
+   },
+   {
+    "definition": "The narrow space between the outer and inner mitochondrial membranes, into which protons are pumped.",
+    "term": "Intermembrane space"
+   },
+   {
+    "definition": "The fluid inside the inner mitochondrial membrane, containing the enzymes of the link step and the citric acid cycle, DNA and ribosomes.",
+    "term": "Matrix"
+   },
+   {
+    "definition": "A large protein embedded in the inner membrane that takes electrons from one carrier and passes them on, moving protons across the membrane as it does so.",
+    "term": "Protein complex"
+   },
+   {
+    "definition": "A small carrier that moves within or along the membrane, passing electrons from one protein complex to the next.",
+    "term": "Mobile electron carrier"
+   },
+   {
+    "definition": "A high concentration of protons in the intermembrane space, compared with the matrix, which stores energy that drives ATP synthase.",
+    "term": "Proton gradient"
+   },
+   {
+    "definition": "The enzyme that uses the flow of protons back across the inner membrane to join ADP and Pi into ATP in the matrix.",
+    "term": "ATP synthase"
+   },
+   {
+    "definition": "The making of ATP using a proton gradient across a membrane.",
+    "term": "Chemiosmosis"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Internal structure of the mitochondrion (Higher Level only)",
+    "points": [
+     "Outer membrane: smooth, it surrounds the mitochondrion and is permeable to small molecules such as pyruvate, ADP and ATP.",
+     "Inner membrane: folded into many cristae (singular crista), which greatly increase its surface area. It holds the electron transport chains and ATP synthase. It is impermeable to protons except through ATP synthase.",
+     "Intermembrane space: the narrow space between the outer and inner membranes, into which protons are moved. This is the space outside the inner membrane in the specification's wording.",
+     "Matrix: the fluid inside the inner membrane. It contains the enzymes of the link step and the citric acid cycle, and the mitochondrion's own small loop of DNA and ribosomes, so it makes some of its own proteins.",
+     "Diagram: an electron-microscope-level drawing of a mitochondrion in section, labelled outer membrane, inner membrane, cristae, intermembrane space, matrix, DNA, ribosomes, and ATP synthase shown as small knobs on the matrix side of the cristae. This extends the simpler diagram in Structures and organelles of animal and plant cells."
+    ]
+   },
+   {
+    "h": "The electron transport chain in the inner membrane (Higher Level only)",
+    "points": [
+     "The chain is made of a number of large protein complexes embedded in, and spanning, the inner membrane. Smaller mobile electron carriers link them, moving within or along the membrane and carrying electrons from one complex to the next.",
+     "NADH delivers electrons to the first complex. The electrons move from complex to complex, each at a lower energy level, and at the last complex they are passed to oxygen, forming water. The stages are in Second-stage process."
+    ]
+   },
+   {
+    "h": "How the chain makes ATP: the proton gradient and ATP synthase (Higher Level only)",
+    "points": [
+     "1. Electrons arrive: high-energy electrons from NADH are transferred to a protein complex in the inner membrane. Electrons are negatively charged, so their arrival gives the complex a negative charge, a charge difference.",
+     "2. Protons are attracted: the charge difference attracts positively charged protons (H⁺) to the complex. The protons are given by donor molecules: NADH releases a proton when it gives up its electrons, and more protons come from the solution in the matrix.",
+     "3. Protons are moved out: the protons pass through the complex from the matrix side to the outside of the inner membrane, into the intermembrane space. Energy from the electrons drives this. It happens at several complexes along the chain as the electrons pass from one to the next. Textbooks call this proton pumping.",
+     "4. A gradient builds: protons accumulate in the narrow intermembrane space, giving a high concentration of protons outside the inner membrane and a low concentration in the matrix. This proton (concentration) gradient is a store of energy, like water held behind a dam. It also makes the intermembrane space more positive and more acidic than the matrix.",
+     "5. Protons flow back: the inner membrane lets protons through only at the enzyme ATP synthase. They flow back down their gradient, from the intermembrane space across the inner membrane into the matrix, through a channel in ATP synthase. They do not pass back through the electron transport complexes.",
+     "6. ATP is made: ATP synthase harnesses the flow of protons. It turns part of the enzyme, like a water wheel or turbine, and uses the energy to join ADP and Pi into ATP on the matrix side.",
+     "7. Oxygen keeps the system running: oxygen accepts the electrons and protons at the end of the chain, forming water, so electrons keep flowing and protons keep being moved out. Without oxygen, the gradient is not maintained and ATP synthase stops.",
+     "Making ATP using a proton gradient across a membrane is called chemiosmosis. Nature of Science: the idea was proposed by the British biochemist Peter Mitchell in 1961 and was at first widely doubted. He was awarded the Nobel Prize in Chemistry in 1978, once experiments had supported it.",
+     "Diagram: a section of the inner membrane, with the matrix below and the intermembrane space above. Show NADH → NAD⁺ + H⁺ + 2e⁻ at the first complex; electrons moving along the protein complexes and mobile carriers, by an arrow; H⁺ passing up through the complexes into the intermembrane space and building up there, with many H⁺ drawn; ½O₂ + 2H⁺ + 2e⁻ → H₂O at the last complex; and ATP synthase, with H⁺ flowing down through it into the matrix while ADP + Pi → ATP. Label protein complex, mobile electron carrier, inner membrane, intermembrane space, matrix, ATP synthase and proton gradient."
+    ]
+   },
+   {
+    "h": "How the internal structure facilitates respiration (Higher Level only)",
+    "points": [
+     "Cristae: folding gives a large area of inner membrane, which holds very many electron transport chains and ATP synthase molecules, so more ATP can be made. Mitochondria in very active cells, such as heart and flight muscle, have more densely packed cristae.",
+     "Narrow intermembrane space: its small volume means that protons moved into it quickly build up a high concentration and a steep gradient.",
+     "Impermeable inner membrane: the gradient is kept, and protons can return only through ATP synthase, so their energy is not wasted.",
+     "Complexes embedded in the membrane in a fixed order: electrons pass quickly and in sequence, and protons are moved in one direction only, across the membrane.",
+     "Matrix next to the inner membrane: the enzymes of the link step and the citric acid cycle are right beside the chains, so NADH is delivered quickly. ATP is made into the matrix, from where it is exported to the cytoplasm.",
+     "Double membrane: separates the matrix's enzymes and conditions from the cytoplasm. The outer and inner membranes together create the intermembrane space.",
+     "Own DNA and ribosomes: the mitochondrion makes some of its own proteins, including some of the chain's, and can divide to make more mitochondria when a cell needs more energy, for example in muscles during training."
+    ]
+   },
+   {
+    "h": "Comparing the mitochondrion with the thylakoid membrane (Higher Level only)",
+    "points": [
+     "Similarities: both have electron transport chains of protein complexes and mobile electron carriers embedded in a membrane. Both use the energy of electrons passing along the chain to move protons across the membrane, building a proton gradient, and both make ATP as protons flow back through ATP synthase (chemiosmosis). Both have a large membrane area, from cristae or stacked thylakoids. Both organelles have their own DNA and ribosomes.",
+     "Source of energy: the mitochondrion uses chemical energy from food (glucose), delivered as electrons by NADH; the chloroplast uses light energy, absorbed by chlorophyll.",
+     "Source of electrons: NADH, from glucose, in the mitochondrion; water, via the reaction-centre chlorophyll, in the chloroplast.",
+     "Final electron acceptor: oxygen, forming water, in the mitochondrion; NADP⁺, forming NADPH, in the chloroplast (non-cyclic pathway).",
+     "Oxygen: used at the end of the chain in mitochondria; released by photolysis in chloroplasts.",
+     "Which membrane: the inner membrane of the envelope (cristae) in the mitochondrion; the thylakoid membrane, a separate internal membrane system, in the chloroplast, not its envelope.",
+     "Where protons build up: in the intermembrane space, between the inner and outer membranes, in the mitochondrion; inside the thylakoid space in the chloroplast.",
+     "Where ATP is made and used: in the matrix, then exported for use all over the cell, in the mitochondrion; in the stroma, where it is used in the light-independent reactions, in the chloroplast.",
+     "Diagram: side-by-side sketches of a section of the inner mitochondrial membrane and a section of the thylakoid membrane. Each shows its chain, the direction of proton movement, the high-proton compartment (intermembrane space; thylakoid space) and ATP synthase. Label the electron source and final acceptor on each."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The electron transport chain is located in the inner membrane of the mitochondrion, on the cristae. The inner membrane is folded into cristae to increase its surface area, which allows many electron transport chains and ATP synthase molecules to be held, so that more ATP can be made.",
+    "prompt": "State the location of the electron transport chain in a mitochondrion and explain why the inner membrane is folded.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "High-energy electrons from NADH are transferred to a protein complex in the inner membrane, giving it a negative charge. This attracts protons, which are given by donor molecules such as NADH, and energy from the electrons moves the protons through the complex into the intermembrane space. As the electrons pass from complex to complex, more protons are moved, so protons accumulate in the intermembrane space and form a high concentration outside the inner membrane, a proton gradient. The inner membrane allows protons to pass back only through ATP synthase. The protons flow down their gradient through ATP synthase into the matrix, and this flow turns the enzyme, which uses the energy to join ADP and Pi into ATP. Oxygen accepts the electrons at the end of the chain, forming water, which keeps the electrons flowing.",
+    "prompt": "Describe how the transfer of electrons along the electron transport chain leads to the production of ATP by ATP synthase.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Similarities: both chains consist of protein complexes and mobile electron carriers embedded in a membrane, and both use electron transfer to move protons across the membrane, building a proton gradient that drives ATP synthase. Differences: the mitochondrion uses chemical energy from glucose delivered by NADH, whereas the chloroplast uses light energy absorbed by chlorophyll. In the mitochondrion, oxygen is the final electron acceptor and forms water; in the chloroplast, NADP⁺ is the final acceptor and forms NADPH. Protons build up in the intermembrane space in the mitochondrion, and in the thylakoid space in the chloroplast.",
+    "prompt": "Compare the electron transport chain of the inner mitochondrial membrane with that of the thylakoid membrane, giving two similarities and three differences.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio16-s1": {
+  "keyTerms": [
+   {
+    "definition": "One long DNA molecule wound around proteins, carrying many genes.",
+    "term": "Chromosome"
+   },
+   {
+    "definition": "A pair of chromosomes of the same size and shape, with the same genes at the same positions, one inherited from each parent.",
+    "term": "Homologous chromosomes"
+   },
+   {
+    "definition": "Having two sets of chromosomes, arranged in homologous pairs.",
+    "term": "Diploid (2n)"
+   },
+   {
+    "definition": "Having one set of chromosomes, one from each homologous pair.",
+    "term": "Haploid (n)"
+   },
+   {
+    "definition": "The sequence of events from the formation of a cell by division until it divides into two daughter cells.",
+    "term": "Cell cycle"
+   },
+   {
+    "definition": "The phase between divisions, when the cell grows and its DNA is replicated.",
+    "term": "Interphase"
+   },
+   {
+    "definition": "A point in the cell cycle where proteins check that the cell is ready to move on.",
+    "term": "Checkpoint"
+   },
+   {
+    "definition": "The two identical copies of a chromosome, joined at the centromere after DNA replication.",
+    "term": "Sister chromatids"
+   },
+   {
+    "definition": "Nuclear division in which the chromosomes are separated into two identical sets, in four stages: prophase, metaphase, anaphase and telophase.",
+    "term": "Mitosis"
+   },
+   {
+    "definition": "The groove that forms in the membrane of an animal cell during cytokinesis and pinches it into two.",
+    "term": "Cleavage furrow"
+   },
+   {
+    "definition": "The structure formed from vesicles across the middle of a plant cell, which becomes the new cell wall and membranes between two daughter cells.",
+    "term": "Cell plate"
+   },
+   {
+    "definition": "The percentage of cells in a sample that are dividing.",
+    "term": "Mitotic index"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Chromosomes and chromosome number",
+    "points": [
+     "A chromosome is one long DNA molecule wound around proteins, carrying many genes (see 'Chromosome structure and genes').",
+     "Between divisions the chromosomes are long, thin and spread out as chromatin. Before division they coil up (condense) and become short and thick, so they can be seen with the light microscope when stained.",
+     "Homologous chromosomes are a pair of chromosomes of the same size and shape, with the same genes at the same positions, one inherited from each parent; the alleles on them may differ. Human body cells contain 23 such pairs.",
+     "Diploid (2n): a cell or organism with two sets of chromosomes, so that its chromosomes lie in homologous pairs. Human body (somatic) cells are diploid, 2n = 46.",
+     "Haploid (n): a cell with one set of chromosomes, one chromosome from each homologous pair. Human gametes (sperm and egg cells) are haploid, n = 23.",
+     "When two haploid gametes fuse at fertilisation, the zygote is diploid again (23 + 23 = 46), so the chromosome number stays the same from generation to generation.",
+     "Haploid cells are made by meiosis; mitosis keeps the chromosome number the same (see 'Mitosis and meiosis').",
+     "Each species has its own chromosome number: human 2n = 46, the fruit fly Drosophila 2n = 8, the garden pea 2n = 14. The number does not reflect how complex an organism is."
+    ]
+   },
+   {
+    "h": "The cell cycle",
+    "points": [
+     "The cell cycle is the sequence of events in the life of a cell, from the time it is formed by division until it divides itself into two daughter cells.",
+     "It has three main activities, in this order: growth (the cell makes new proteins and organelles and gets bigger); DNA synthesis (every chromosome is copied); and division (the nucleus divides so that each new nucleus gets one copy of every chromosome, then the cytoplasm divides to give two cells).",
+     "The phase between divisions, when growth and DNA synthesis happen, is interphase. A cell spends most of its life in interphase, about 90% of the cycle; division is short.",
+     "In many human cells grown in the laboratory, one cycle takes about 24 hours.",
+     "Interphase is not a resting stage: the cell is very active, carrying out its normal functions as well as preparing to divide.",
+     "One cycle, including division, produces two daughter cells, each with the same number and type of chromosomes as the parent cell and genetically identical to it.",
+     "Not all cells keep cycling. Some leave the cycle once they are specialised and stop dividing, e.g. most mature nerve cells; mature red blood cells have no nucleus and can't divide. Others divide often throughout life, e.g. cells of the skin, the lining of the gut and the bone marrow, and in plants the cells at root and shoot tips (meristems).",
+     "The cycle is controlled. Proteins inside the cell check at several points (checkpoints) that the cell is large enough, that the DNA has been copied correctly and is undamaged, and that the chromosomes are attached correctly before the cell moves on. Signals from other cells (growth factors) tell it whether to divide.",
+     "Diagram: the cell cycle as a circle, with a large sector for interphase (labelled cell growth and DNA replication) and a small sector for division (labelled mitosis, then cytokinesis), and an arrow showing the direction of the cycle. Higher Level: also label G1, S and G2 within interphase and the four stages of mitosis within the division sector."
+    ]
+   },
+   {
+    "h": "Interphase in detail (Higher Level only)",
+    "points": [
+     "Interphase has three parts. G1 (first growth phase): the cell grows, makes proteins (including the enzymes needed to copy DNA) and organelles, and carries out its normal job.",
+     "S (synthesis) phase: DNA replication, so each chromosome now consists of two identical copies called sister chromatids, joined at the centromere.",
+     "G2 (second growth phase): further growth and more organelles, e.g. mitochondria; the proteins of the spindle are made, and ATP is stored for division.",
+     "A cell that stops dividing leaves the cycle from G1 into a non-dividing state (sometimes called G0), e.g. mature nerve cells.",
+     "Throughout interphase the nuclear membrane (envelope) is intact, the nucleolus is visible and the chromosomes are uncoiled as chromatin, so individual chromosomes can't be seen."
+    ]
+   },
+   {
+    "h": "The stages of mitosis (Higher Level only)",
+    "points": [
+     "Nuclear division (mitosis) is a continuous process, divided for convenience into four stages in this order: prophase, metaphase, anaphase and telophase. It is followed by cytokinesis.",
+     "Prophase: the chromosomes condense (shorten and thicken) and become visible, each as two sister chromatids joined at a centromere. The nucleolus disappears, the nuclear membrane breaks down, and spindle fibres (protein tubes called microtubules) begin to form.",
+     "In animal cells, two centrioles move to opposite ends (poles) of the cell and the spindle forms between them. Plant cells have no centrioles but still form a spindle.",
+     "Metaphase: the chromosomes line up singly on the equator (middle) of the spindle; each is attached by its centromere to spindle fibres from both poles.",
+     "Anaphase: the centromeres split and the spindle fibres shorten, pulling the sister chromatids apart to opposite poles, centromere first, which gives a V shape.",
+     "Once separated, each chromatid is called a chromosome, so each pole now has a full set of identical chromosomes. Energy for the movement comes from ATP (see 'ATP').",
+     "Telophase: the chromosomes reach the poles and uncoil back into chromatin; a nuclear membrane forms around each set; the nucleoli reappear; the spindle breaks down. There are now two nuclei, each genetically identical to the original.",
+     "Diagram: the four stages of mitosis in an animal cell with 2n = 4 (two homologous pairs, one pair long and one short, shaded to show the two parents' copies), labelled chromosome, sister chromatids, centromere, spindle fibres, centriole, pole, equator, nuclear membrane (breaking down, then re-forming), cell membrane and cleavage furrow at the end of telophase.",
+     "Identifying stages: in stained cells from a growing root tip (e.g. onion or garlic) viewed at ×400, most cells are in interphase, a nucleus with no visible chromosomes, because interphase is the longest part of the cycle.",
+     "Dividing cells are identified by the arrangement of their chromosomes: condensed and scattered for prophase; in a line across the middle for metaphase; two groups moving apart for anaphase; two groups at opposite ends, with new nuclei forming, for telophase.",
+     "The mitotic index is the percentage of cells in a sample that are dividing. For example, 24 dividing cells out of 200 gives (24 ÷ 200) × 100 = 12%.",
+     "A high mitotic index shows a tissue that is dividing rapidly, such as a root tip or a tumour."
+    ]
+   },
+   {
+    "h": "Cytokinesis (Higher Level only)",
+    "points": [
+     "Cytokinesis is the division of the cytoplasm to form two separate daughter cells. It usually starts during late telophase. Organelles such as mitochondria are shared between the two cells.",
+     "In animal cells the cell membrane is pulled inwards around the middle of the cell, forming a groove (cleavage furrow) that deepens until the cell pinches into two.",
+     "In plant cells the rigid cell wall can't pinch in. Instead, vesicles from the Golgi apparatus collect across the middle of the cell and fuse to form a cell plate, which grows outwards to the sides and becomes the new cell membranes and cell wall between the two cells.",
+     "Diagram: an animal cell with a cleavage furrow beside a plant cell with a cell plate forming, each labelled."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A diploid cell has two sets of chromosomes, arranged in homologous pairs. Human body cells are diploid, 2n = 46, with 23 pairs. A haploid cell has one set of chromosomes, one from each homologous pair. Human gametes, sperm and egg cells, are haploid, n = 23. When two gametes fuse at fertilisation the zygote is diploid again (23 + 23 = 46).",
+    "prompt": "Explain the terms haploid and diploid, giving one example of each type of cell in humans.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Interphase has three parts. In G1 the cell grows, makes proteins and organelles, and carries out its normal job. In S phase DNA is replicated, so each chromosome consists of two identical sister chromatids joined at the centromere. In G2 the cell grows further, makes more organelles and spindle proteins, and stores ATP. Prophase: the chromosomes condense and become visible, the nucleolus disappears, the nuclear membrane breaks down, the spindle forms and the two centrioles move to opposite poles. Metaphase: the chromosomes line up singly on the equator, each attached by its centromere to spindle fibres from both poles. Anaphase: the centromeres split and the spindle fibres shorten, pulling the sister chromatids to opposite poles. Telophase: the chromosomes reach the poles and uncoil, a nuclear membrane forms around each set, the nucleoli reappear and the spindle breaks down, leaving two genetically identical nuclei. A labelled diagram of one stage can add marks.",
+    "prompt": "Describe the events of interphase and of each stage of mitosis in an animal cell.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Mitotic index = (36 ÷ 300) × 100 = 12%. Most cells were in interphase because interphase is the longest part of the cycle, about 90% of it, and division is short. In plant cells the rigid cell wall can't pinch in; vesicles from the Golgi apparatus fuse across the middle of the cell to form a cell plate, which grows outwards to become the new cell wall and membranes. In animal cells the cell membrane is pulled inwards to form a cleavage furrow that pinches the cell into two.",
+    "prompt": "A student counted 300 cells in a stained root tip and found 36 dividing. Calculate the mitotic index, explain why most cells were in interphase, and state how cytokinesis in these cells differs from that in an animal cell.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio16-s2": {
+  "keyTerms": [
+   {
+    "definition": "A group of genetically identical cells or organisms produced from one parent by mitosis.",
+    "term": "Clone"
+   },
+   {
+    "definition": "Nuclear division that halves the chromosome number, producing four haploid nuclei from one diploid nucleus.",
+    "term": "Meiosis"
+   },
+   {
+    "definition": "A haploid sex cell, such as a sperm or an egg, that fuses with another gamete at fertilisation.",
+    "term": "Gamete"
+   },
+   {
+    "definition": "The diploid cell formed when two gametes fuse at fertilisation.",
+    "term": "Zygote"
+   },
+   {
+    "definition": "The random separation of homologous pairs during meiosis, so each gamete receives a random mixture of maternal and paternal chromosomes.",
+    "term": "Independent assortment"
+   },
+   {
+    "definition": "The exchange of matching segments between homologous chromosomes during the first division of meiosis.",
+    "term": "Crossing over"
+   },
+   {
+    "definition": "A haploid cell produced by meiosis that can survive harsh conditions, e.g. in yeast.",
+    "term": "Spore"
+   },
+   {
+    "definition": "A region of growth at the tips of roots and shoots, where mitosis produces new cells.",
+    "term": "Meristem"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Mitosis: genetic information stays the same",
+    "points": [
+     "Mitosis is nuclear division that produces two nuclei, each with the same number of chromosomes as the parent nucleus and genetically identical to it. A diploid cell gives two diploid cells (2n to 2n); a haploid cell, in organisms that have haploid stages, gives haploid cells (n to n).",
+     "Every chromosome is copied exactly before mitosis. During mitosis the two identical copies of each chromosome are separated, so each new nucleus receives one copy of every chromosome. Homologous chromosomes do not pair up. How the copying and the separation relate is in 'DNA replication and mitosis in the cell cycle'.",
+     "Cells produced by mitosis from one parent cell form a clone: a group of genetically identical cells or organisms. Mitosis on its own produces no genetic variation; the only source of difference is a rare mistake in copying, a mutation."
+    ]
+   },
+   {
+    "h": "Meiosis: genetic information is varied",
+    "points": [
+     "Meiosis is nuclear division that halves the chromosome number, producing four haploid nuclei from one diploid nucleus (2n to n). It involves two divisions, one after the other, after the DNA has been copied once.",
+     "In the first division, homologous chromosomes pair up and then separate, one of each pair going to each new cell, so each cell receives one complete set. In the second division the two copies of each chromosome separate.",
+     "The four cells differ from each other and from the parent because the homologous pairs line up and separate independently of one another (random, or independent, assortment). Each gamete therefore receives a random mixture of maternal and paternal chromosomes. With 23 pairs, one person can make 2²³ (more than 8 million) different combinations of chromosomes in their gametes. This underlies the independent assortment described in 'Mendel's Laws'.",
+     "Homologous chromosomes can also exchange matching segments during the first division (crossing over), mixing their alleles further.",
+     "Random fertilisation adds further variation, since any one of a huge number of different sperm may fuse with any one of a huge number of different eggs. Variation from sexual reproduction and its role in evolution are in 'Variation'.",
+     "Meiosis keeps the chromosome number constant across generations: gametes are haploid, so the zygote formed at fertilisation is diploid (n + n = 2n). Without meiosis the number would double every generation."
+    ]
+   },
+   {
+    "h": "Roles in unicellular organisms",
+    "points": [
+     "In unicellular eukaryotes such as Amoeba and yeast, mitosis followed by division of the cell is asexual reproduction: one organism becomes two genetically identical organisms (in yeast, by budding).",
+     "Asexual reproduction is fast, needs only one parent and passes on a successful set of genes unchanged, so a population can grow quickly when conditions are good. But all the offspring are alike, so one change in conditions, such as a new disease, can affect them all.",
+     "Some unicellular eukaryotes also reproduce sexually, using meiosis to produce varied haploid cells, often when conditions become poor. For example, starved diploid yeast cells undergo meiosis to form four haploid spores, which can survive harsh conditions. The variation makes it more likely that some offspring survive a changed environment.",
+     "Prokaryotes (bacteria) have neither mitosis nor meiosis. They copy their single circular chromosome and divide by binary fission (see 'Prokaryotic and eukaryotic cells')."
+    ]
+   },
+   {
+    "h": "Roles in multicellular organisms",
+    "points": [
+     "Mitosis for growth: a multicellular organism develops from a single cell, the zygote, by repeated mitosis, so every body cell has the same genetic information as the zygote. In plants, growth by mitosis is concentrated at the tips of roots and shoots (meristems).",
+     "Mitosis for repair and replacement: cells that wear out or are damaged are replaced, e.g. when a cut heals, when skin cells and the cells lining the gut are replaced, and when new blood cells are made in the bone marrow (stem cells there divide by mitosis).",
+     "Mitosis for asexual reproduction: some multicellular organisms, including many plants, also reproduce asexually by mitosis, producing clones of the parent. Methods of asexual reproduction in plants are not on the specification.",
+     "Meiosis for sexual reproduction takes place only in the reproductive organs. In humans it happens in the testes (forming sperm) and the ovaries (forming eggs) (see 'Gametes and fertilisation'). In flowering plants it happens in the anthers and the ovules, leading to the pollen grains and the egg cell.",
+     "Because body cells are made by mitosis and gametes by meiosis, a change to the DNA of a body cell, such as a skin cell, is not passed to offspring, but a change in a cell that gives rise to gametes can be (see 'Mutations')."
+    ]
+   },
+   {
+    "h": "Mitosis and meiosis compared",
+    "points": [
+     "Similarities: both are nuclear divisions of eukaryotic cells; both follow DNA replication in interphase; both use a spindle to separate chromosomes; both are followed by cytokinesis.",
+     "Number of divisions: mitosis has one; meiosis has two.",
+     "Number of cells produced: mitosis gives two; meiosis gives four.",
+     "Chromosome number: mitosis keeps it the same (2n to 2n); meiosis halves it (2n to n).",
+     "Genetic make-up of the cells produced: mitosis gives cells identical to each other and to the parent; meiosis gives cells that differ from each other and from the parent.",
+     "Homologous chromosomes: they do not pair in mitosis; in meiosis they pair and then separate.",
+     "Where it happens: mitosis in body cells throughout the organism; meiosis only in the reproductive organs (testes, ovaries, anthers and ovules).",
+     "Role: mitosis serves growth, repair, replacement and asexual reproduction in both unicellular and multicellular organisms; meiosis produces gametes or spores for sexual reproduction, giving variation and keeping the chromosome number constant across generations.",
+     "Diagram: two simple flow diagrams side by side for a cell with 2n = 4 (one long and one short homologous pair, the two parents' chromosomes shaded differently). Mitosis: arrow to two cells, each with 2n = 4 and the same shading as the parent. Meiosis: arrow to four cells, each with n = 2, showing different combinations of shaded chromosomes. Label diploid, haploid and homologous pair."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Two of: growth of the organism from the zygote; repair and replacement of worn-out or damaged cells, e.g. healing a cut or replacing skin and gut-lining cells; asexual reproduction by some multicellular organisms, including many plants. Unicellular organism: asexual reproduction, e.g. Amoeba or yeast (by budding), producing genetically identical organisms.",
+    "prompt": "State two roles of mitosis in a multicellular organism and one role in a unicellular organism.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Number of cells produced: mitosis gives two cells; meiosis gives four cells. Chromosome number: mitosis keeps it the same, 2n to 2n; meiosis halves it, 2n to n. Genetic variation: the cells produced by mitosis are genetically identical to each other and to the parent; the cells produced by meiosis differ from each other and from the parent because of independent assortment and crossing over.",
+    "prompt": "Compare mitosis and meiosis under the headings: number of cells produced, chromosome number, genetic variation.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Meiosis halves the chromosome number, so gametes are haploid; when two gametes fuse at fertilisation the zygote is diploid again, so the chromosome number stays constant from generation to generation. Without meiosis the number would double every generation. Variation arises because homologous pairs separate independently in the first division, so each gamete receives a random mixture of maternal and paternal chromosomes; with 23 pairs in humans this gives 2²³ combinations. Crossing over can mix alleles further. Random fertilisation then combines the gametes of two parents, so the offspring differ from their parents and from each other.",
+    "prompt": "Explain why meiosis is necessary for sexual reproduction and how it leads to variation in the offspring.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio16-s3": {
+  "keyTerms": [
+   {
+    "definition": "The process by which a DNA molecule makes an exact copy of itself, giving two identical DNA molecules.",
+    "term": "DNA replication"
+   },
+   {
+    "definition": "A single strand of DNA that serves as the pattern for building a complementary new strand during replication.",
+    "term": "Template strand"
+   },
+   {
+    "definition": "The rule that A pairs with T and C pairs with G, so each new strand matches its template.",
+    "term": "Complementary base pairing"
+   },
+   {
+    "definition": "Replication in which each new DNA molecule consists of one original strand and one new strand.",
+    "term": "Semi-conservative replication"
+   },
+   {
+    "definition": "A rare, uncorrected mistake in DNA that changes the base sequence.",
+    "term": "Mutation"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What DNA replication is",
+    "points": [
+     "DNA replication is the process by which a DNA molecule makes an exact copy of itself, giving two identical DNA molecules.",
+     "In eukaryotic cells it happens in the nucleus during interphase, before the cell divides; it is the DNA-synthesis part of the cell cycle (see 'The cell cycle'). Every chromosome in the nucleus is copied once, and only once, per cycle.",
+     "Replication is needed because a cell that divides must give each daughter cell a complete and identical set of genetic instructions. Without replication each daughter cell would receive only half the DNA."
+    ]
+   },
+   {
+    "h": "How DNA is replicated",
+    "points": [
+     "1. Enzymes unwind the double helix and separate (unzip) the two strands by breaking the weak hydrogen bonds between the base pairs. The strong bonds of each sugar–phosphate backbone are not broken, so each strand stays intact.",
+     "2. Each separated single strand acts as a template (pattern) for building a new strand.",
+     "3. Free DNA nucleotides in the nucleus line up against the exposed bases of each template strand by complementary base pairing: A pairs with T, and C pairs with G.",
+     "4. Enzymes join the new nucleotides to each other to form a new sugar–phosphate backbone, making a complementary strand; hydrogen bonds form between the new and old bases.",
+     "5. Each new DNA molecule winds back into a double helix. The result is two DNA molecules, each made of one original (parent) strand and one new strand, which is why replication is described as semi-conservative (the evidence is in 'Modelling DNA replication and information flow').",
+     "Because base pairing is fixed, each new strand is an exact complement of its template, so both new molecules have the same base sequence as the original. For example, a section of DNA with one strand ATTGCA and the other strand TAACGT separates: ATTGCA is a template for a new TAACGT, and TAACGT is a template for a new ATTGCA, giving two molecules identical to the original.",
+     "Enzymes make replication fast and accurate; they also check the new strands and correct most mistakes. A rare uncorrected mistake changes the base sequence, which is a mutation (detail in 'Mutations').",
+     "Diagram: a short section of DNA (about four base pairs) drawn as a ladder, showing the parent molecule, the strands separating with free nucleotides pairing with the exposed bases, and two daughter molecules each with one old strand (drawn dark) and one new strand (drawn light). Label parent strand, new strand, hydrogen bonds broken, free nucleotide, complementary base pair and enzyme."
+    ]
+   },
+   {
+    "h": "The role of replication and mitosis in the cell cycle",
+    "points": [
+     "Replication in interphase doubles the DNA. Afterwards each chromosome consists of two identical copies joined together, so the cell temporarily has twice the normal amount of DNA. A human cell still has 46 chromosomes, but each one is double.",
+     "Mitosis then separates the two copies of every chromosome, sending one copy to each end of the cell, so each daughter nucleus receives one copy of every chromosome: 46 chromosomes in each human daughter cell, with the same number and the same genes as the parent.",
+     "Cytokinesis then divides the cell, so the amount of DNA in each daughter cell returns to the amount in the parent cell before replication. Each daughter cell can then grow and repeat the cycle.",
+     "Replication and mitosis together keep the genetic information the same in every cell of a multicellular organism, and pass identical copies to offspring in asexual reproduction (roles in 'Mitosis and meiosis').",
+     "Order matters: replication must be complete before mitosis begins, which the cell checks, and it happens only once per cycle. Otherwise daughter cells would get missing or extra DNA. When this control fails, cells can be damaged or become cancerous (see 'Cancer').",
+     "Diagram: a graph of the amount of DNA per cell (y-axis, in arbitrary units) against time (x-axis) over two cell cycles. The amount is steady at one level in early interphase, rises to double during DNA replication, stays at double until the end of mitosis, then drops back to the original level at cytokinesis. Label interphase, DNA replication, mitosis and cytokinesis."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Enzymes separate the two strands of the double helix by breaking the weak hydrogen bonds between base pairs. Each single strand acts as a template. Free DNA nucleotides line up against the exposed bases by complementary base pairing, A with T and C with G. Enzymes join the nucleotides to form a complementary strand with a new sugar-phosphate backbone. The result is two DNA molecules, each with one original strand and one new strand.",
+    "prompt": "Outline how a DNA molecule is replicated.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "DNA replication in interphase copies every chromosome, so each chromosome consists of two identical copies joined together and the cell has twice the normal amount of DNA. Mitosis separates the two copies of every chromosome, so each daughter nucleus receives one copy of each chromosome, for example 46 in a human cell. Cytokinesis then divides the cell, so each daughter cell has the same amount of DNA as the parent before replication. Replication must come before mitosis, so the daughter cells get a complete and identical set of genetic instructions.",
+    "prompt": "Explain the role of DNA replication and of mitosis in the cell cycle.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The graph is steady at one level in early interphase, rises to double during DNA replication, stays at double through mitosis, and falls back to the original level at cytokinesis. The rise is caused by replication in interphase, which copies every chromosome. The fall is caused by cytokinesis after mitosis, which shares the DNA between two daughter cells so that each receives the original amount.",
+    "prompt": "Sketch a graph showing how the amount of DNA in a cell changes during one cell cycle, and explain the two changes shown.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio16-s4": {
+  "keyTerms": [
+   {
+    "definition": "A group of diseases in which some body cells lose control of the rate and number of mitotic divisions and can invade and spread.",
+    "term": "Cancer"
+   },
+   {
+    "definition": "A normal gene that codes for proteins which stimulate the cell cycle; when mutated it becomes an oncogene.",
+    "term": "Proto-oncogene"
+   },
+   {
+    "definition": "A mutated proto-oncogene that is permanently switched on and keeps stimulating cell division.",
+    "term": "Oncogene"
+   },
+   {
+    "definition": "A gene that codes for proteins which stop the cell cycle, repair damaged DNA or trigger apoptosis.",
+    "term": "Tumour suppressor gene"
+   },
+   {
+    "definition": "Programmed cell death, in which a damaged or unwanted cell breaks itself down in a controlled way.",
+    "term": "Apoptosis"
+   },
+   {
+    "definition": "The growth of new blood vessels into a tumour, supplying it with oxygen and nutrients.",
+    "term": "Angiogenesis"
+   },
+   {
+    "definition": "An abnormal mass of cells that grows slowly, is enclosed in a capsule and does not invade or spread.",
+    "term": "Benign tumour"
+   },
+   {
+    "definition": "The spread of cancer cells from a primary tumour to form secondary tumours in other parts of the body.",
+    "term": "Metastasis"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What cancer is",
+    "points": [
+     "Cancer is a group of diseases in which some body cells lose control of mitosis: they divide too often (the rate of division is abnormal) and too many times (the number of divisions is not limited). They can invade nearby tissues and spread to other parts of the body.",
+     "There are over 200 kinds of cancer, named after the organ or tissue where they start, e.g. lung, breast, skin, bowel and blood.",
+     "The main groups are: carcinomas, which start in epithelial tissues that line or cover organs (e.g. most lung, breast and bowel cancers); sarcomas, in bone, muscle or connective tissue; leukaemias, in the blood-forming cells of the bone marrow; and lymphomas, in the lymphatic system.",
+     "Cancer starts from a single cell whose DNA has changed (mutated). All the cancer cells in a tumour are descended from that cell by mitosis."
+    ]
+   },
+   {
+    "h": "How normal cell division is regulated",
+    "points": [
+     "Normal cells divide only when they receive signals to divide (growth factors from other cells), and stop when signals tell them to stop. Checkpoints in the cell cycle halt the cycle if the DNA is damaged or not copied correctly.",
+     "Two groups of genes control this. Proto-oncogenes code for proteins that stimulate the cell cycle, the accelerator, e.g. growth factor receptors. Tumour suppressor genes code for proteins that stop the cycle at checkpoints, the brakes; they also repair damaged DNA or make a badly damaged cell destroy itself.",
+     "Apoptosis is programmed cell death: a damaged or unwanted cell breaks itself down in a controlled way, without harming neighbouring cells. It removes cells with damaged DNA before they can divide.",
+     "TP53 is an example of a tumour suppressor gene. It codes for the protein p53, which stops the cell cycle when DNA is damaged so that the DNA can be repaired, or triggers apoptosis if the damage is too great; p53 is called the guardian of the genome. TP53 is mutated in about half of all human cancers.",
+     "Contact inhibition: normal cells in a tissue, and in a culture dish, stop dividing when they touch neighbouring cells, so they form a single layer.",
+     "Most normal human cells can divide only a limited number of times before they stop, because the protective caps at the ends of their chromosomes (telomeres) shorten with each division."
+    ]
+   },
+   {
+    "h": "How control is lost",
+    "points": [
+     "1. A mutation in a proto-oncogene can turn it into an oncogene, which is permanently switched on and keeps telling the cell to divide even with no signal, like an accelerator stuck down.",
+     "2. A mutation that inactivates a tumour suppressor gene removes the brakes: damaged cells keep dividing instead of stopping, being repaired or dying by apoptosis. Usually both copies (alleles) of a tumour suppressor gene must be inactivated before control is lost.",
+     "3. One mutation is usually not enough. Several mutations in different control genes must build up in the same cell, often over many years. This is why the risk of most cancers rises with age, and why anything that increases the rate of mutation raises the risk.",
+     "4. Once one cell has lost control, every daughter cell inherits the same mutations. As they divide faster and faster, further mutations arise, and the cells that divide fastest or survive best take over, so the cancer cells become more abnormal over time.",
+     "5. The immune system destroys many abnormal cells before they form a tumour, and people whose immune system is weakened have a higher risk of some cancers (see 'Immunity')."
+    ]
+   },
+   {
+    "h": "Characteristics of cancer cells",
+    "points": [
+     "Division: normal cells divide only when signalled, at a controlled rate; cancer cells divide rapidly and continuously without signals, and ignore signals to stop.",
+     "Lifespan: normal cells divide a limited number of times and die by apoptosis when damaged; cancer cells avoid apoptosis, and many keep their telomeres long by using the enzyme telomerase, so they can divide indefinitely (immortal cells).",
+     "Contact inhibition is lost: cancer cells ignore contact with neighbours and pile up into a mass, whereas normal cells stop at contact.",
+     "Specialisation: normal cells are specialised (differentiated) for a job; cancer cells are unspecialised (poorly differentiated) and don't carry out the tissue's function.",
+     "Appearance under the microscope: cancer cells vary in size and shape and have large, irregular, darkly staining nuclei, often with abnormal numbers of chromosomes, and many are seen dividing. This is how cancer is diagnosed from a biopsy or smear (see 'Microscopy').",
+     "Blood supply: cancer cells can release signals that make new blood vessels grow into the tumour (angiogenesis), supplying the oxygen and nutrients needed for further growth.",
+     "Attachment: normal cells stick to their neighbours and stay in place; cancer cells can lose this adhesion, break away and move.",
+     "HeLa cells are a famous example of immortal cancer cells. They were taken in 1951 from a cervical cancer of Henrietta Lacks at Johns Hopkins Hospital in Baltimore, USA, without her knowledge or consent. They were the first human cells to keep dividing indefinitely in the laboratory, and they are still used in research worldwide, including in developing the polio vaccine. Her case is a well-known example of the ethics of consent in research."
+    ]
+   },
+   {
+    "h": "Benign and malignant tumours",
+    "points": [
+     "A tumour is an abnormal mass of cells produced by uncontrolled division.",
+     "A benign tumour grows slowly, is usually enclosed in a capsule, does not invade surrounding tissue or spread, and its cells look fairly normal. It is usually removable by surgery and not life-threatening, though it can be dangerous if it presses on a vital organ such as the brain. Examples are most moles and warts. A benign tumour is not cancer.",
+     "A malignant tumour, which is a cancer, grows quickly, has no capsule, invades and destroys surrounding tissue, can spread around the body, and has abnormal cells.",
+     "Benign and malignant tumours differ in rate of growth (slow or quick), capsule (present or absent), invasion (none or destructive), spread (none or around the body) and appearance of cells (fairly normal or abnormal)."
+    ]
+   },
+   {
+    "h": "Spread: metastasis",
+    "points": [
+     "1. A cell mutates and divides without control, producing a clone of abnormal cells.",
+     "2. Further mutations and division form a small tumour in the tissue of origin, the primary tumour.",
+     "3. Angiogenesis supplies the tumour with blood, so it grows larger.",
+     "4. Cancer cells invade the surrounding tissue.",
+     "5. Some cells break away, enter blood vessels or lymph vessels, and are carried around the body.",
+     "6. They leave the vessels in another organ and divide there to form secondary tumours, called metastases.",
+     "Metastasis is the spread of cancer from the primary tumour to form secondary tumours elsewhere. Secondary tumours contain the same type of cells as the primary tumour: breast cancer that spreads to the bones is still breast cancer cells, not bone cancer. Metastasis makes cancer much harder to treat, which is why early detection matters (see 'Causes, prevention and treatment of cancer').",
+     "Tumours harm the body by pressing on and damaging organs; blocking tubes such as the airways, gut or blood vessels; destroying normal tissue and stopping it working, e.g. leukaemia cells crowd out normal blood-forming cells in the bone marrow, causing anaemia and infections; and using up the body's nutrients, causing weight loss.",
+     "Diagram: a sequence from normal tissue (a single neat layer of cells), to one mutated cell, to a mass of abnormal cells (the primary tumour) with a blood vessel growing into it, to cells invading and entering a blood vessel, to a secondary tumour in another organ. Label normal cells, cancer cell with large nucleus, primary tumour, blood vessel, invasion, metastasis and secondary tumour."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Cancer is a group of diseases in which some body cells lose control of mitosis: they divide too often and too many times, and they can invade nearby tissues and spread. Two differences: normal cells divide only when signalled and stop at contact, whereas cancer cells divide continuously without signals and pile up into a mass; normal cells die by apoptosis when damaged, whereas cancer cells avoid apoptosis and many keep their telomeres long, so they can divide indefinitely.",
+    "prompt": "What is cancer? State two ways in which cancer cells differ from normal cells.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "In normal cells, proto-oncogenes stimulate division and tumour suppressor genes act as brakes, stopping the cycle at checkpoints, repairing DNA or triggering apoptosis. A mutation in a proto-oncogene can make it an oncogene that is permanently switched on. A mutation that inactivates a tumour suppressor gene removes the brakes, usually in both copies. Several such mutations must build up in one cell, often over many years. The mutated cell and its daughters divide without control and form a primary tumour. Angiogenesis supplies the tumour with blood, cancer cells invade the surrounding tissue, and some cells enter blood or lymph vessels, are carried around the body and form secondary tumours (metastases) in other organs. The secondary tumours contain the same type of cells as the primary tumour.",
+    "prompt": "Outline how the loss of control of mitosis can lead to the development and spread of a cancer.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "A benign tumour grows slowly, is enclosed in a capsule, does not invade surrounding tissue or spread, and its cells look fairly normal. A malignant tumour grows quickly, has no capsule, invades and destroys surrounding tissue, can spread to other parts of the body, and has abnormal cells. A malignant tumour is a cancer; a benign tumour is not.",
+    "prompt": "Distinguish between a benign and a malignant tumour.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio16-s5": {
+  "keyTerms": [
+   {
+    "definition": "Any agent that can cause cancer, most often by damaging DNA.",
+    "term": "Carcinogen"
+   },
+   {
+    "definition": "A factor that increases the chance of developing a disease.",
+    "term": "Risk factor"
+   },
+   {
+    "definition": "An inherited tendency to develop a cancer, such as a faulty tumour suppressor gene passed from a parent.",
+    "term": "Genetic susceptibility"
+   },
+   {
+    "definition": "Testing healthy people with no symptoms in order to find cancer or pre-cancerous changes early.",
+    "term": "Screening"
+   },
+   {
+    "definition": "The removal of a small sample of tissue, which is examined under the microscope for cancer cells.",
+    "term": "Biopsy"
+   },
+   {
+    "definition": "A chemical in tobacco tar that binds to DNA and causes mutations.",
+    "term": "Benzo[a]pyrene"
+   },
+   {
+    "definition": "Two neighbouring thymine bases on a DNA strand bonded together by UV radiation, distorting the DNA.",
+    "term": "Thymine dimer"
+   },
+   {
+    "definition": "Treatment with drugs carried in the blood that kill dividing cells throughout the body.",
+    "term": "Chemotherapy"
+   },
+   {
+    "definition": "Treatment with drugs designed to act on the protein made by a particular mutated gene in a cancer.",
+    "term": "Targeted therapy"
+   },
+   {
+    "definition": "Treatment that helps the patient's own immune system destroy cancer cells.",
+    "term": "Immunotherapy"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The general idea of causes",
+    "points": [
+     "Most cancers have no single cause. They result from several mutations building up in one cell (see 'Cancer'), and anything that damages DNA, makes cells divide more often or weakens the body's defences raises the risk.",
+     "A factor that increases the chance of developing a disease is a risk factor.",
+     "A carcinogen is any agent that can cause cancer. Most carcinogens are mutagens: they damage DNA, causing mutations in proto-oncogenes or tumour suppressor genes.",
+     "The three kinds of cause in the specification are infectious agents, environmental factors (including lifestyle) and genetic susceptibility. They often act together.",
+     "Risk is a probability, not a certainty. A risk factor makes cancer more likely, but not everyone exposed develops cancer, and some people with no known risk factor do."
+    ]
+   },
+   {
+    "h": "Infectious agents",
+    "points": [
+     "Human papillomavirus (HPV) is a virus spread by sexual contact. Some high-risk types infect cells of the cervix (neck of the womb). The virus's DNA enters the cells, and its proteins switch off the cell's tumour suppressor proteins, including p53, so infected cells divide without control.",
+     "Persistent HPV infection causes most cervical cancers. HPV 16 and HPV 18 cause about 70% of them. HPV also causes some cancers of the throat, anus, penis and vulva.",
+     "Most HPV infections are cleared by the immune system and cause no harm. HPV as a virus is described in 'Viruses'.",
+     "Hepatitis B and hepatitis C viruses infect liver cells. Long-term infection causes repeated liver damage and inflammation, and the repeated cell division needed to repair the liver gives more chances for mutations; they cause liver cancer.",
+     "Helicobacter pylori is a bacterium that lives in the stomach lining, causing long-term inflammation and ulcers (see 'The nature of scientific knowledge'). Long-term infection raises the risk of stomach cancer. It can be cleared with antibiotics.",
+     "Epstein–Barr virus, the virus that causes glandular fever, is linked to some lymphomas, e.g. Burkitt's lymphoma, and to cancer of the nose and throat (nasopharyngeal cancer).",
+     "Infections raise cancer risk in three ways: some viruses insert their own genes, whose proteins interfere with control of the cell cycle (HPV); long-term inflammation and repeated repair division increase the chance of mutation (hepatitis viruses, H. pylori); and infections that weaken the immune system let abnormal cells escape destruction. Cancer itself is not infectious."
+    ]
+   },
+   {
+    "h": "Environmental and lifestyle factors",
+    "points": [
+     "Tobacco smoke contains many carcinogens. Tar contains benzo[a]pyrene, a chemical that binds to DNA and causes mutations, including in TP53. Smoking is the main cause of lung cancer and also causes cancers of the mouth, throat, larynx, oesophagus, pancreas, bladder, kidney and cervix. Second-hand (passive) smoke also causes lung cancer.",
+     "The risk of smoking-related cancer rises with the number of cigarettes and the number of years of smoking, a dose–response relationship, and falls after stopping.",
+     "Ultraviolet (UV) radiation from the sun and from sunbeds is absorbed by DNA in skin cells, where it causes neighbouring thymine bases on a strand to bond together (thymine dimers). This distorts the DNA and causes mutations if not repaired.",
+     "UV causes skin cancers, including melanoma, the most dangerous type. Skin cancer is the most common cancer in Ireland. People with fair skin that burns easily are at greatest risk, and sunburn, especially in childhood, raises the risk.",
+     "Ionising radiation (X-rays, gamma rays and radioactive substances) has enough energy to break DNA strands.",
+     "Radon is a natural radioactive gas that seeps from rocks and soil, where it comes from uranium, into buildings. It is the second leading cause of lung cancer after smoking. Parts of Ireland have high radon levels, so homes can be tested and fitted with a radon sump or barrier.",
+     "After the Chernobyl nuclear accident in 1986, released radioactive iodine caused a large increase in thyroid cancer in children in the surrounding area. Medical X-rays use the lowest effective dose for this reason.",
+     "Asbestos fibres, once used in building insulation, lodge in the lungs and cause mesothelioma, a cancer of the lining of the lungs, and lung cancer. Smokers exposed to asbestos have a far greater risk than the two risks added together, because the factors multiply.",
+     "Alcohol is broken down in the body to ethanal (acetaldehyde), which damages DNA. Drinking raises the risk of cancers of the mouth, throat, oesophagus, liver, bowel and breast. The risk rises with the amount drunk, and there is no completely safe level for cancer risk.",
+     "Processed meat (e.g. bacon, ham and sausages) was classified by the World Health Organization's cancer agency, IARC, in 2015 as a cause of bowel cancer, and red meat as probably causing it. A diet high in fibre, from wholegrains, fruit and vegetables, lowers the risk of bowel cancer.",
+     "Obesity raises the risk of several cancers, e.g. bowel, breast after the menopause, womb, kidney and oesophagus, partly because fat tissue releases hormones and growth signals that stimulate cell division. Regular physical activity lowers the risk of bowel and breast cancer.",
+     "Age is the strongest single risk factor. Most cancers are diagnosed in older people, because mutations build up over a lifetime (see 'Cancer')."
+    ]
+   },
+   {
+    "h": "Genetic susceptibility",
+    "points": [
+     "Most mutations that cause cancer arise during a person's life in body cells (acquired, or somatic, mutations) and are not inherited. Only about 5–10% of cancers are strongly linked to an inherited faulty gene.",
+     "A person who inherits one faulty copy of a tumour suppressor gene has it in every cell, so only one more mutation, in the other copy, is needed in a cell to lose that brake. This is why inherited cancers often appear at a younger age, in more than one family member, and sometimes in both of a pair of organs, e.g. both breasts.",
+     "BRCA1 and BRCA2 are tumour suppressor genes whose proteins repair damaged DNA. An inherited faulty copy greatly increases the lifetime risk of breast and ovarian cancer in women, and raises the risk of prostate and breast cancer in men. Either parent can pass it on, with a 50% chance for each child, which is a dominant pattern of inheritance.",
+     "Lynch syndrome is caused by inherited faulty copies of genes that repair copying errors in DNA. It greatly raises the risk of bowel cancer and of cancer of the womb.",
+     "People with a strong family history can be tested for these faulty genes. Those who carry one can have more frequent or earlier screening, and some choose surgery to reduce risk, e.g. removal of the breasts or ovaries. The actress Angelina Jolie publicly described her choice of a preventive double mastectomy in 2013, after testing positive for a faulty BRCA1 gene; her account greatly increased the number of women seeking testing.",
+     "Genetic tests and databases are described in 'Bioinformatics: genome databases', and the ethics of DNA testing in 'Ethics of genetic technologies'."
+    ]
+   },
+   {
+    "h": "Evaluating factors that affect the development of cancers",
+    "points": [
+     "Avoidable or unavoidable: smoking, alcohol, diet, body weight, sun and sunbed exposure, radon and some infections can be changed or prevented; age and inherited genes cannot. The World Health Organization estimates that between 30% and 50% of cancers could be prevented by avoiding risk factors and using existing prevention strategies.",
+     "Size of effect: tobacco is the largest single avoidable cause of cancer. A strong effect, consistent across many studies, with a dose–response relationship and a known mechanism, is strong evidence of cause. The link between smoking and lung cancer was first shown by Richard Doll and Austin Bradford Hill in a study of lung-cancer patients in Britain, published in 1950. How correlation is judged to be causation is in 'Evaluating evidence'.",
+     "Factors interact: a person's risk depends on several factors together. Smoking and asbestos multiply each other's effects; alcohol and smoking together raise the risk of mouth and throat cancer more than either alone; an inherited BRCA mutation raises risk, but lifestyle still matters. So it is hard to say what caused any one person's cancer.",
+     "Much of the evidence is correlational. Most evidence about diet and lifestyle comes from observing large populations, which shows links but must rule out other explanations, e.g. people who eat more vegetables may also smoke less. Laboratory and animal studies can show a mechanism, but results in animals don't always apply to humans. Media reports of single studies are often unreliable (see 'Evaluating evidence').",
+     "Time lag: cancers usually appear many years or decades after exposure, e.g. mesothelioma after asbestos and lung cancer after smoking. This makes causes harder to identify and means the benefits of prevention appear only years later.",
+     "Individual or public action: individuals can change their behaviour, but laws and public-health measures often have larger effects. In 2004 Ireland became the first country in the world to ban smoking in all enclosed workplaces, including pubs and restaurants; sunbed use by under-18s is banned in Ireland; vaccination and screening programmes are free. Arguments against heavy regulation include personal freedom and cost; arguments for it include protecting others, e.g. from second-hand smoke, and reducing health-care costs."
+    ]
+   },
+   {
+    "h": "Prevention: vaccination and lifestyle changes",
+    "points": [
+     "HPV vaccine protects against infection by the HPV types that cause most cervical cancers, and some other cancers. It works best if given before any exposure to the virus, so it is offered free in Ireland to girls and boys in first year of secondary school. A large Swedish study published in 2020 found that girls vaccinated before age 17 had close to 90% lower risk of invasive cervical cancer than unvaccinated women.",
+     "The HPV vaccine does not protect against every HPV type, so cervical screening is still needed. How vaccines work is described in 'Acquired immunity, prevention and treatment'.",
+     "Hepatitis B vaccine is given to babies in Ireland as part of the 6-in-1 vaccine, and by preventing hepatitis B infection it prevents many cases of liver cancer. There is no vaccine against hepatitis C, but hepatitis C can now be cured with antiviral drugs.",
+     "Lifestyle changes that lower risk: don't smoke, and avoid second-hand smoke; keep a healthy body weight; be physically active; eat plenty of wholegrains, fibre, fruit and vegetables, and limit processed and red meat; limit alcohol; protect skin from the sun with shade, clothing, a hat and sunscreen, and don't use sunbeds; test the home for radon; take part in vaccination and screening."
+    ]
+   },
+   {
+    "h": "Early detection",
+    "points": [
+     "A cancer found early is usually small and has not spread, so it can often be removed completely and treatment is much more likely to succeed. Screening can also find pre-cancerous changes, which can be treated before cancer develops.",
+     "Screening means testing healthy people with no symptoms. Ireland's free national programmes are BreastCheck, which offers mammograms (X-rays of the breast) to women aged 50–69 every two years; CervicalCheck, which screens women and people with a cervix aged 25–65, where the sample is first tested for high-risk HPV and only HPV-positive samples are examined under the microscope for abnormal cells; and BowelScreen, a free home test kit that detects hidden traces of blood in a stool sample, followed by a colonoscopy if positive.",
+     "Self-examination and symptoms: checking breasts and testicles for lumps; checking moles using the ABCDE rule, Asymmetry, irregular Border, more than one Colour, Diameter more than 6 mm, and Evolving or changing; and seeing a doctor about warning signs such as an unexplained lump, unexplained weight loss, a persistent cough, or blood in the urine or stool.",
+     "Diagnosis: a biopsy, a small sample of tissue, is examined under the microscope for cancer cells (see 'Cancer' and 'Microscopy'). Scans (X-ray, CT, MRI and ultrasound) show where tumours are and whether they have spread. Blood tests can detect some cancers or the substances they release.",
+     "Limits of screening: no test is perfect. A false positive causes worry and unnecessary further tests; a false negative gives false reassurance; and some screening finds slow-growing cancers that would never have caused harm, a problem called overdiagnosis. So screening is offered to the age groups where the benefits are greatest."
+    ]
+   },
+   {
+    "h": "Treatments",
+    "points": [
+     "Surgery removes the tumour with a margin of surrounding normal tissue, and sometimes nearby lymph nodes. It is most effective for a solid tumour that has not spread; it is not possible for leukaemias or widespread cancer.",
+     "Radiotherapy aims beams of ionising radiation at the tumour, damaging the DNA of the cancer cells so that they die. Rapidly dividing cells with faulty repair are especially vulnerable. Side effects come from damage to nearby normal tissue, e.g. sore skin and tiredness.",
+     "Chemotherapy uses drugs carried in the blood throughout the body to kill dividing cells, usually by damaging DNA or stopping DNA replication or mitosis. Vincristine, from the Madagascar periwinkle plant, stops the spindle forming; paclitaxel (Taxol, first obtained from the bark of the Pacific yew tree) stops the spindle breaking down. Either way, chromosomes can't be separated.",
+     "Because chemotherapy also kills normal rapidly dividing cells, its side effects include hair loss (hair follicles), nausea and mouth ulcers (gut lining), and anaemia and infections (bone marrow). It is given in cycles to let normal tissues recover. Unlike surgery, it can reach cancer cells that have spread.",
+     "Hormone therapy is used for cancers that need a hormone to grow. Many breast cancers have oestrogen receptors, and the drug tamoxifen blocks the receptors, so oestrogen can't stimulate the cancer cells to divide.",
+     "A bone-marrow (stem cell) transplant is used for some leukaemias. After high-dose treatment destroys the diseased bone marrow, healthy blood-forming stem cells from a matched donor, or the patient's own cells collected earlier, are given to rebuild it."
+    ]
+   },
+   {
+    "h": "Emerging evidence in cancer research",
+    "points": [
+     "Targeted therapy uses drugs designed to act on the protein made by a particular mutated gene in the cancer, so they harm normal cells less. Imatinib (Glivec) blocks the abnormal protein made by the BCR-ABL gene in chronic myeloid leukaemia; this gene is formed by the Philadelphia translocation (see 'Mutations'). It has turned a fatal leukaemia into one most patients live with for many years. Trastuzumab (Herceptin) is an antibody that attaches to the HER2 receptor on breast cancer cells that have too many of these receptors. Targeted drugs work only for cancers with that target, and cancers can become resistant.",
+     "Immunotherapy helps the patient's own immune system destroy cancer cells. Checkpoint-inhibitor drugs release the brakes that cancer cells use to switch off T lymphocytes; the 2018 Nobel Prize in Physiology or Medicine was awarded to James Allison and Tasuku Honjo for this work. These drugs have produced long-lasting responses in some people with advanced melanoma and lung cancer. In CAR-T cell therapy, a patient's T cells are genetically modified to recognise their cancer cells, multiplied and returned to the body; it is used for some leukaemias and lymphomas. Immunotherapy works in only some patients, can cause the immune system to attack healthy organs, and is very expensive (see 'White blood cells' for T lymphocytes).",
+     "Personalised (precision) medicine: sequencing the DNA of a patient's tumour shows which genes are mutated, so doctors can choose the drug most likely to work for that tumour rather than for the organ in which it started.",
+     "Cancer vaccines that treat cancer: personalised mRNA vaccines, made to match the mutated proteins of one patient's tumour, train the immune system to attack it. They are in clinical trials, e.g. for melanoma, and are not yet routine.",
+     "Liquid biopsy: blood tests that detect small fragments of DNA released by tumours into the blood. This may allow cancers to be found earlier, and relapse to be detected, without surgery. The tests are still being evaluated for accuracy.",
+     "Real-world evidence: the fall in cervical pre-cancers and cancers in vaccinated groups (see the HPV vaccine above) shows that preventing an infection prevents a cancer."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Infectious agent: human papillomavirus (HPV) infects cells of the cervix; its proteins switch off tumour suppressor proteins, including p53, so infected cells divide without control, and persistent infection causes most cervical cancers. Environmental factor: tobacco tar contains benzo[a]pyrene, which binds to DNA and causes mutations, so smoking causes lung cancer. Inherited gene: a person who inherits one faulty copy of BRCA1 or BRCA2 has it in every cell, so only one more mutation is needed to lose that tumour suppressor's control, greatly increasing the risk of breast and ovarian cancer.",
+    "prompt": "Explain, with a named example in each case, how an infectious agent, an environmental factor and an inherited gene can each increase the risk of cancer.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Many factors affect cancer risk, but they are not equally changeable. Smoking, alcohol, diet, body weight, sun exposure, radon and some infections can be avoided, while age and inherited genes cannot; the World Health Organization estimates that 30% to 50% of cancers could be prevented. Factors interact: smoking and asbestos multiply each other's effects, and an inherited BRCA mutation raises risk while lifestyle still matters. Much evidence is correlational, and cancers appear decades after exposure, so causes are hard to prove. Vaccination protects against infection before exposure: the HPV vaccine, given free to first-year secondary school pupils in Ireland, protects against the HPV types that cause most cervical cancers, but it does not cover every HPV type. Screening finds cancers early, when they are small and have not spread, so treatment is more likely to succeed; BowelScreen, BreastCheck and CervicalCheck are free national programmes. Screening has limits: false positives and false negatives occur, and overdiagnosis can find slow-growing cancers that would never have caused harm.",
+    "prompt": "Evaluate the factors that affect a person's chance of developing cancer, and discuss the role of vaccination and screening in reducing deaths from cancer.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Chemotherapy drugs kill rapidly dividing cells throughout the body, not only cancer cells. Hair loss occurs because the hair follicles are rapidly dividing cells that are damaged. Anaemia occurs because the bone marrow, which makes new blood cells by rapid division, is damaged, so fewer red blood cells are produced. One newer treatment is targeted therapy: imatinib (Glivec) blocks the abnormal protein made by the BCR-ABL gene in chronic myeloid leukaemia, so it harms normal cells less. Its limit is that it works only for cancers with that target, and cancers can become resistant.",
+    "prompt": "Explain why chemotherapy causes hair loss and anaemia, and describe one newer treatment that targets cancer cells more precisely.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio17-s1": {
+  "keyTerms": [
+   {
+    "definition": "Replication in which each new DNA molecule keeps one strand from the original molecule and gains one newly made strand.",
+    "term": "Semi-conservative replication"
+   },
+   {
+    "definition": "A rejected model in which the original double helix stays intact and a completely new molecule is made.",
+    "term": "Conservative replication"
+   },
+   {
+    "definition": "A rejected model in which each new molecule is a patchwork of old and new pieces in both strands.",
+    "term": "Dispersive replication"
+   },
+   {
+    "definition": "The 1958 experiment in E. coli that used heavy and light nitrogen isotopes and density-gradient centrifugation to show that replication is semi-conservative.",
+    "term": "Meselson–Stahl experiment"
+   },
+   {
+    "definition": "The enzyme that unwinds the DNA double helix and separates the two strands by breaking the hydrogen bonds between bases.",
+    "term": "DNA helicase"
+   },
+   {
+    "definition": "The Y-shaped point where the two DNA strands are separated during replication.",
+    "term": "Replication fork"
+   },
+   {
+    "definition": "The enzyme that joins each new nucleotide to the growing strand during replication and proofreads each new base pair.",
+    "term": "DNA polymerase"
+   },
+   {
+    "definition": "The checking of each new base pair by DNA polymerase, which removes and replaces most wrongly paired nucleotides.",
+    "term": "Proofreading"
+   },
+   {
+    "definition": "Crick's name for the one-way flow of genetic information from nucleic acid to protein: DNA to mRNA to protein.",
+    "term": "Central dogma"
+   },
+   {
+    "definition": "The copying of one gene's base sequence into a molecule of mRNA, using one DNA strand as the template.",
+    "term": "Transcription"
+   },
+   {
+    "definition": "The making of a polypeptide at a ribosome, in the order set by the codons of an mRNA.",
+    "term": "Translation"
+   },
+   {
+    "definition": "The enzyme that makes DNA from an RNA template, used by retroviruses such as HIV.",
+    "term": "Reverse transcriptase"
+   }
+  ],
+  "notes": [
+   {
+    "h": "How DNA replicates: the model step by step (Higher Level only)",
+    "points": [
+     "Replication takes place in the nucleus during the S phase of interphase (see “The cell cycle”).",
+     "In eukaryotes replication begins at many points along each chromosome at once, so the very long molecules are copied quickly.",
+     "Bacteria start replication at one point on their circular chromosome.",
+     "1. DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds between complementary bases, forming a Y-shaped replication fork.",
+     "2. Each exposed strand acts as a template.",
+     "2. Free DNA nucleotides, made in the cell and present in the nucleus, pair with the exposed bases by complementary base pairing (A–T, C–G).",
+     "3. DNA polymerase joins each new nucleotide to the growing strand, forming the sugar–phosphate backbone of the new strand.",
+     "3. DNA polymerase adds nucleotides only where they pair correctly with the template.",
+     "4. DNA polymerase proofreads each new base pair and removes and replaces most wrongly paired nucleotides; other repair enzymes correct many of the rest.",
+     "4. A mistake that is not corrected becomes a permanent change in the base sequence, a point mutation (see “Mutations”).",
+     "5. Each new DNA molecule, made of one template strand plus its new complementary strand, twists into a double helix.",
+     "5. The two new molecules are identical to each other and to the original, and remain joined as two sister chromatids at a centromere until they separate at anaphase of mitosis.",
+     "Replication needs energy, supplied by ATP (see “ATP”) and by the nucleotides themselves as they are added.",
+     "Diagram: a replication fork, labelled: parent (original) DNA double helix, DNA helicase at the fork, hydrogen bonds being broken, the two template strands, free nucleotides, DNA polymerase adding nucleotides, the new complementary strands, and the two daughter molecules, each with one old strand (dark) and one new strand (light)."
+    ]
+   },
+   {
+    "h": "Semi-conservative replication and the Meselson–Stahl evidence (Higher Level only)",
+    "points": [
+     "Semi-conservative replication: each new DNA molecule contains one strand from the original molecule (conserved) and one newly made strand.",
+     "Watson and Crick predicted this in 1953 from the base-pairing model (see “Models”).",
+     "Conservative replication: the original double helix stays intact, and a completely new molecule is made.",
+     "Dispersive replication: each new molecule is a patchwork of old and new pieces in both strands.",
+     "The Meselson–Stahl experiment (Matthew Meselson and Franklin Stahl, 1958) tested the three models.",
+     "1. They grew the bacterium E. coli for many generations in a medium whose only nitrogen was the heavy isotope ¹⁵N, so all its DNA was “heavy”.",
+     "2. They moved the bacteria to a medium containing only normal, light ¹⁴N.",
+     "3. After each generation they extracted the DNA and spun it at high speed in a caesium chloride solution, which forms a density gradient, so DNA settles as a band at a level that matches its density.",
+     "Before the transfer there is one heavy band.",
+     "After one generation there is one band of intermediate density, so conservative replication, which would give one heavy and one light band, is ruled out.",
+     "After two generations there are one intermediate band and one light band, of equal size, so dispersive replication, which would give a single band at every generation, becoming lighter, is ruled out.",
+     "Only the semi-conservative model fits both results.",
+     "Diagram: three centrifuge tubes side by side (generation 0, 1, 2) showing band positions heavy; intermediate; intermediate and light; with a strand diagram under each showing heavy strands dark and light strands pale."
+    ]
+   },
+   {
+    "h": "Using the model to predict and count (Higher Level only)",
+    "points": [
+     "Predicting daughter molecules: given a parent molecule with strands ATGCCA and TACGGT, the strands separate.",
+     "ATGCCA is the template for a new TACGGT, and TACGGT is the template for a new ATGCCA.",
+     "The two daughter molecules are identical to the parent, each with one old strand and one new strand.",
+     "Counting nucleotides: copying a DNA molecule of 1,000 base pairs makes two new strands of 1,000 nucleotides each, so 2,000 free nucleotides are used.",
+     "If 30% of the parent's bases are adenine, then 30% of the free nucleotides used are A and 30% are T.",
+     "The remaining free nucleotides are 20% C and 20% G, because A = T and C = G in double-stranded DNA (see “Nucleotides, DNA and RNA”).",
+     "Generations: one DNA molecule replicated three times gives 2³ = 8 molecules.",
+     "In a Meselson–Stahl-type experiment only 2 of these 8 still contain an original heavy strand, because each original strand is kept whole and never broken up.",
+     "Physical model: build a short double strand from paper or plastic nucleotide pieces in four colours, one per base, that fit only their correct partners.",
+     "Separate the strands, add free pieces to each, and compare the two products with the original; use two shades for old and new pieces to show semi-conservation.",
+     "Strength of the physical model: it shows templates, base pairing and identical products.",
+     "Limitations of the physical model: it is flat and short, and does not show the helix, the enzymes, the energy needed, or the speed and accuracy of copying in cells (models in general are in “Models”)."
+    ]
+   },
+   {
+    "b": "The ribosome works from an mRNA copy of a gene rather than from the DNA itself, for three reasons.",
+    "h": "The flow of genetic information (Higher Level only)",
+    "points": [
+     "Genetic information flows from DNA to mRNA to protein: DNA → transcription → mRNA → translation → protein.",
+     "Replication copies DNA to DNA.",
+     "Francis Crick called this one-way flow from nucleic acid to protein the “central dogma” of molecular biology.",
+     "Transcription: in the nucleus, the base sequence of one gene is copied into a molecule of messenger RNA (mRNA), using one DNA strand as the template.",
+     "The mRNA leaves the nucleus through a nuclear pore and travels to a ribosome in the cytoplasm, either free or attached to rough endoplasmic reticulum; the DNA stays in the nucleus.",
+     "Translation: at the ribosome, the mRNA's codons are read, transfer RNA molecules bring the matching amino acids, and these are joined in the order set by the codons to make a specific polypeptide, which folds into a functional protein (steps and roles in “Transcription and translation”).",
+     "The DNA is kept safe in the nucleus and is not damaged by being used directly.",
+     "Many mRNA copies can be made from one gene, and each is read by many ribosomes, so a lot of protein can be made quickly.",
+     "mRNA is broken down after use, so the cell can switch protein production on and off.",
+     "Exception: retroviruses such as HIV carry RNA and use the enzyme reverse transcriptase to make DNA from their RNA, so information flows from RNA to DNA (detail in “Viruses: replication”).",
+     "Information never flows from protein back to nucleic acid.",
+     "Diagram: a flow diagram of a eukaryotic cell showing a gene on DNA in the nucleus → transcription → mRNA passing through a nuclear pore → ribosome in the cytoplasm → translation → polypeptide folding into a protein. Label: nucleus, DNA, gene, mRNA, nuclear pore, ribosome, tRNA bringing amino acid, polypeptide."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds between complementary bases, forming a Y-shaped replication fork. Each exposed strand acts as a template. Free DNA nucleotides pair with the exposed bases by complementary base pairing, A with T and C with G. DNA polymerase joins each new nucleotide to the growing strand, adding only nucleotides that pair correctly with the template. DNA polymerase proofreads each new base pair and removes and replaces most wrongly paired nucleotides, and other repair enzymes correct many of the rest. The result is two identical DNA molecules, each made of one original strand and one new strand, so replication is semi-conservative. A labelled diagram of the replication fork can show the parent helix, helicase, the template strands, free nucleotides, DNA polymerase and the two daughter molecules.",
+    "prompt": "Describe the replication of DNA, naming the enzymes involved.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Semi-conservative replication means each new DNA molecule contains one strand from the original molecule and one newly made strand. Before the transfer all the DNA contains ¹⁵N and forms one heavy band. After one generation every DNA molecule has one heavy strand from the original molecule and one new light strand, so the DNA forms one band of intermediate density. This rules out conservative replication, which would give one heavy and one light band. After two generations there are two kinds of molecule in equal numbers: half have one old and one new strand and so form an intermediate band, and half have two new light strands and form a light band. The two bands are of equal size. Dispersive replication would give a single band at every generation, becoming lighter, so it is ruled out. Only the semi-conservative model explains both the single intermediate band after one generation and the intermediate and light bands in equal amounts after two generations. Watson and Crick predicted semi-conservative copying in 1953 from the base-pairing model, and this experiment confirmed it.",
+    "prompt": "Bacteria grown on heavy nitrogen (¹⁵N) were transferred to light nitrogen (¹⁴N). Describe and explain the bands of DNA expected after one and after two generations, and explain how these results support the semi-conservative model.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "The base sequence of a gene is transcribed into mRNA in the nucleus, using one DNA strand as the template. The mRNA leaves the nucleus through a nuclear pore and travels to a ribosome in the cytoplasm. At the ribosome, the codons of the mRNA are read, transfer RNA molecules bring the matching amino acids, and these are joined in the order set by the codons to make a polypeptide, which folds into a functional protein. One reason the cell uses mRNA is that the DNA is kept safe in the nucleus and is not damaged by being used directly; many mRNA copies can be made from one gene, and each is read by many ribosomes.",
+    "prompt": "Outline how genetic information flows from a gene to a protein, and give one reason why the cell uses mRNA rather than DNA at the ribosome.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio17-s2": {
+  "keyTerms": [
+   {
+    "definition": "The enzyme that carries out transcription, joining free RNA nucleotides into a strand of mRNA complementary to the template strand.",
+    "term": "RNA polymerase"
+   },
+   {
+    "definition": "The DNA strand of a gene that is read to make a complementary mRNA during transcription.",
+    "term": "Template strand"
+   },
+   {
+    "definition": "Messenger RNA: a single-stranded copy of one gene's code that carries the code from the nucleus to a ribosome.",
+    "term": "mRNA"
+   },
+   {
+    "definition": "Transfer RNA: a small RNA molecule that carries one specific amino acid to the ribosome and pairs its anticodon with a codon.",
+    "term": "tRNA"
+   },
+   {
+    "definition": "Ribosomal RNA: the RNA that, with proteins, makes up the ribosome and catalyses peptide-bond formation.",
+    "term": "rRNA"
+   },
+   {
+    "definition": "The site of translation, made of rRNA and protein in a small subunit and a large subunit.",
+    "term": "Ribosome"
+   },
+   {
+    "definition": "A sequence of three bases on mRNA that codes for one amino acid.",
+    "term": "Codon"
+   },
+   {
+    "definition": "Three unpaired bases on a tRNA loop that pair with a complementary codon on mRNA.",
+    "term": "Anticodon"
+   },
+   {
+    "definition": "The codon AUG, which marks the start of translation and codes for methionine.",
+    "term": "Start codon"
+   },
+   {
+    "definition": "One of UAA, UAG or UGA, which no tRNA matches, so translation ends.",
+    "term": "Stop codon"
+   },
+   {
+    "definition": "The bond joining two amino acids, formed by a condensation reaction that releases water.",
+    "term": "Peptide bond"
+   },
+   {
+    "definition": "Several ribosomes translating the same mRNA at once, one behind the other.",
+    "term": "Polysome"
+   },
+   {
+    "definition": "The sequence of amino acids in a polypeptide, which determines how the chain folds.",
+    "term": "Primary structure"
+   }
+  ],
+  "notes": [
+   {
+    "h": "The molecules of transcription and translation and their roles (Higher Level only)",
+    "points": [
+     "DNA holds the gene, the base sequence that codes for the protein.",
+     "In transcription only one of the two strands of the gene is read, the template strand; the DNA is not used up or changed, and it stays in the nucleus.",
+     "RNA polymerase is the enzyme that carries out transcription, joining free RNA nucleotides into a strand complementary to the template.",
+     "mRNA (messenger RNA) is a single-stranded copy of one gene's code, a series of codons, which carries the code from the nucleus to a ribosome.",
+     "mRNA is short-lived and is broken down after use.",
+     "tRNA (transfer RNA) is a small RNA molecule in the cytoplasm that carries one specific amino acid to the ribosome.",
+     "Each tRNA's anticodon pairs with a matching codon on the mRNA, so tRNA is the molecule that “translates” codons into amino acids.",
+     "tRNA brings amino acids to the ribosome; it does not make them.",
+     "rRNA (ribosomal RNA) makes up the ribosome together with proteins.",
+     "rRNA holds the mRNA and tRNAs in position, and the rRNA of the large subunit catalyses the formation of peptide bonds between amino acids, so it acts as an enzyme.",
+     "The ribosome is the site of translation, made of rRNA and protein in two subunits: a small subunit that binds the mRNA and a large subunit with room for two tRNAs at a time.",
+     "Ribosomes are free in the cytoplasm, making proteins used in the cell, or attached to the rough endoplasmic reticulum, making proteins for export or for membranes (see “Endoplasmic reticulum and Golgi apparatus” in “Structures and organelles of animal and plant cells”)."
+    ]
+   },
+   {
+    "b": "Transcription is the making of an mRNA copy of a gene, and it takes place in the nucleus.",
+    "h": "How transcription makes mRNA (Higher Level only)",
+    "points": [
+     "1. RNA polymerase attaches to the DNA at the start of the gene, unwinds the double helix there and separates the two strands by breaking the hydrogen bonds.",
+     "2. One strand, the template strand, is read.",
+     "2. Free RNA nucleotides pair with its exposed bases by complementary base pairing: A on DNA pairs with U on RNA, T with A, C with G, and G with C.",
+     "3. RNA polymerase joins the RNA nucleotides into a strand of mRNA as it moves along the gene.",
+     "3. Behind it, the DNA strands re-join and rewind.",
+     "4. At the end of the gene, RNA polymerase detaches and the finished mRNA is released.",
+     "4. The mRNA leaves the nucleus through a nuclear pore and goes to a ribosome.",
+     "Diagram: a section of DNA unwound by RNA polymerase, with the template strand and the mRNA strand growing alongside it; label DNA, template strand, RNA polymerase, free RNA nucleotides, mRNA, base pair A–U, direction of movement."
+    ]
+   },
+   {
+    "h": "The structure of tRNA and its link to the codon code (Higher Level only)",
+    "points": [
+     "A tRNA is a single strand of about 80 RNA nucleotides that folds back on itself.",
+     "Hydrogen bonds between complementary bases in some regions hold the folded molecule in shape.",
+     "The folded molecule is a clover-leaf in two dimensions and folds further into an L shape in three dimensions.",
+     "At one end is the amino-acid attachment site, where one specific amino acid is attached by a specific enzyme, using energy from ATP.",
+     "At the opposite end is a loop with the anticodon: three unpaired bases that pair with a complementary codon on mRNA.",
+     "The code is read in codons of three bases, so each tRNA has an anticodon of exactly three bases and matches one codon.",
+     "Each tRNA brings one amino acid: the attachment of a specific amino acid to each tRNA with a specific anticodon is what links each codon to its amino acid.",
+     "The ribosome holds two tRNAs side by side on neighbouring codons, so the code is read three bases at a time without gaps or overlaps.",
+     "Diagram: a clover-leaf tRNA, labelled: single RNA strand, regions of base pairing (hydrogen bonds), anticodon loop with three bases, amino-acid attachment site, amino acid."
+    ]
+   },
+   {
+    "b": "Translation is the making of a polypeptide from the code in mRNA, and it takes place at ribosomes in the cytoplasm.",
+    "h": "How translation makes a polypeptide (Higher Level only)",
+    "points": [
+     "1. Start: the small ribosomal subunit attaches to the mRNA and moves along it to the start codon, AUG.",
+     "1. A tRNA with the anticodon UAC, carrying methionine, pairs with the start codon, and the large subunit then joins.",
+     "2. A second tRNA, whose anticodon is complementary to the next codon, arrives carrying its amino acid and pairs with that codon in the second position in the ribosome.",
+     "3. A peptide bond forms between the two amino acids, a condensation reaction that releases water.",
+     "3. The first tRNA's amino acid is now attached to the second amino acid.",
+     "4. The ribosome moves along the mRNA by one codon, three bases.",
+     "4. The first tRNA, now without its amino acid, is released into the cytoplasm, where it can pick up another of the same amino acid.",
+     "4. A new tRNA pairs with the codon now in the empty position.",
+     "5. Steps 2 to 4 repeat, the chain growing by one amino acid each time, in the order set by the codons.",
+     "6. End: when a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, and a protein release factor binds instead.",
+     "6. The polypeptide is released, and the ribosome's subunits separate from the mRNA.",
+     "Many ribosomes can translate the same mRNA at once, one behind the other, forming a polysome, so many copies of the protein are made quickly.",
+     "Translation also needs energy to move the ribosome along the mRNA.",
+     "Diagram: a ribosome (small and large subunits) on an mRNA strand, with two tRNAs paired to neighbouring codons, a growing polypeptide chain attached to one, a peptide bond forming, and a released tRNA leaving; label mRNA, codon, anticodon, tRNA, amino acid, peptide bond, ribosome (large and small subunits), polypeptide, direction of movement."
+    ]
+   },
+   {
+    "h": "From polypeptide to functional protein (Higher Level only)",
+    "points": [
+     "The sequence of amino acids (the primary structure) determines how the chain folds.",
+     "Bonds form between amino acids in different parts of the chain, such as hydrogen bonds and, in some proteins, sulphur bridges, giving the protein its particular three-dimensional shape.",
+     "Some proteins are made of more than one polypeptide; haemoglobin has four.",
+     "The shape determines the function, for example the active site of an enzyme or the binding site of an antibody or receptor (see “Genes, proteins and traits”).",
+     "A change in the amino-acid sequence can change the shape and stop the protein working (see “Mutations”).",
+     "Proteins made on the rough endoplasmic reticulum are folded and modified there and in the Golgi apparatus, then packaged into vesicles for export, such as digestive enzymes and insulin (detail in “Endoplasmic reticulum and Golgi apparatus” in “Structures and organelles of animal and plant cells”).",
+     "In prokaryotes, which have no nucleus, transcription and translation both take place in the cytoplasm, and ribosomes can begin translating an mRNA while it is still being transcribed."
+    ]
+   },
+   {
+    "h": "Replication and transcription compared (Higher Level only)",
+    "points": [
+     "Product: replication makes a complete copy of all the DNA, giving two DNA molecules; transcription makes an RNA copy of one gene, the mRNA.",
+     "Strands used: replication uses both strands as templates; transcription uses only one strand of the gene.",
+     "Enzymes: DNA helicase and DNA polymerase in replication; RNA polymerase in transcription.",
+     "Nucleotides and pairing: DNA nucleotides contain deoxyribose and pair A with T; RNA nucleotides contain ribose, and A on DNA pairs with U.",
+     "When: replication happens once per cycle, in S phase; transcription happens throughout the cell's life, for whichever genes are needed, many times.",
+     "Fate of the product: new DNA stays in the nucleus; mRNA leaves for the cytoplasm and is broken down after use."
+    ]
+   },
+   {
+    "h": "Modelling transcription and translation (Higher Level only)",
+    "points": [
+     "Method step 1: write the mRNA complementary to the template strand (A → U, T → A, C → G, G → C).",
+     "Method step 2: divide the mRNA into codons from the start codon.",
+     "Method step 3: write the tRNA anticodon complementary to each codon.",
+     "Method step 4: use the codon table given to find the amino acids.",
+     "Method step 5: stop at a stop codon.",
+     "Worked example: template DNA TAC AAA CCG ATT gives mRNA AUG UUU GGC UAA.",
+     "The anticodons are UAC, AAA and CCG, with none for the stop codon UAA.",
+     "The polypeptide is methionine, phenylalanine and glycine, and then the chain stops.",
+     "Three codons code for amino acids, so the worked example gives three amino acids joined by two peptide bonds.",
+     "Physical or role-play model: paper strips for DNA, in a “nucleus” area, are copied onto mRNA strips that are carried to a “ribosome” area; cards for tRNA have a three-base anticodon on one side and an amino acid on the other.",
+     "In the role-play, students match anticodons to codons in order and link the amino acids with clips to represent peptide bonds.",
+     "Limitations of the role-play: it is slow and flat, and ignores the enzymes, energy and folding."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "Transcription takes place in the nucleus. RNA polymerase attaches to the DNA at the start of the gene, unwinds the double helix there and separates the two strands by breaking the hydrogen bonds. One strand, the template strand, is read. Free RNA nucleotides pair with its exposed bases by complementary base pairing, with A on DNA pairing with U on RNA, T with A, C with G and G with C. RNA polymerase joins the RNA nucleotides into a strand of mRNA as it moves along the gene, and the DNA strands re-join behind it. At the end of the gene RNA polymerase detaches, and the finished mRNA is released and leaves the nucleus through a nuclear pore to a ribosome.",
+    "prompt": "Describe the process of transcription, naming the enzyme involved and the site in the cell.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The small ribosomal subunit attaches to the mRNA and moves along it to the start codon AUG. A tRNA with the anticodon UAC, carrying methionine, pairs with the start codon, and the large subunit joins. A second tRNA, whose anticodon is complementary to the next codon, arrives carrying its amino acid and pairs with that codon. A peptide bond forms between the two amino acids, catalysed by the rRNA of the ribosome. The ribosome moves along the mRNA by one codon, the first tRNA is released without its amino acid, and a new tRNA pairs with the codon now in the empty position. These steps repeat, so the chain grows one amino acid at a time in the order set by the codons. When a stop codon (UAA, UAG or UGA) is reached, no tRNA matches it, a release factor binds, the polypeptide is released and the subunits separate. The amino-acid sequence then folds, through bonds between amino acids, into a three-dimensional shape, and that shape gives the protein its function.",
+    "prompt": "Describe the events of translation, from the arrival of mRNA at the ribosome to the formation of a functional protein.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The diagram shows a single RNA strand folded into a clover-leaf, with regions of base pairing held by hydrogen bonds, an anticodon loop with three bases, and the amino-acid attachment site with its amino acid at the other end. The genetic code is read in codons of three bases, so each tRNA has an anticodon of exactly three bases that pairs with one complementary codon on the mRNA. Each tRNA carries one specific amino acid, attached according to its anticodon, so each codon is linked to one amino acid. Because the ribosome holds two tRNAs on neighbouring codons, the code is read three bases at a time.",
+    "prompt": "Draw a labelled diagram of a tRNA molecule and explain how its structure relates to the triplet nature of the genetic code.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio17-s3": {
+  "keyTerms": [
+   {
+    "definition": "A change in the nucleotide sequence at one point in a gene, usually of one or a few base pairs.",
+    "term": "Point mutation"
+   },
+   {
+    "definition": "A point mutation in which one base is replaced by another, so only one codon changes.",
+    "term": "Substitution"
+   },
+   {
+    "definition": "A change in the reading of every codon after an insertion or deletion of one base, or of a number of bases that is not a multiple of three.",
+    "term": "Frameshift"
+   },
+   {
+    "definition": "A substitution in which the new codon codes for the same amino acid, so the protein is unchanged.",
+    "term": "Silent mutation"
+   },
+   {
+    "definition": "A substitution in which the new codon codes for a different amino acid.",
+    "term": "Missense mutation"
+   },
+   {
+    "definition": "A substitution in which the codon becomes a stop codon, so the polypeptide is cut short.",
+    "term": "Nonsense mutation"
+   },
+   {
+    "definition": "A change in the structure of one or more chromosomes that affects many genes at once.",
+    "term": "Chromosomal mutation"
+   },
+   {
+    "definition": "A chromosomal mutation in which a section of one chromosome joins a different, non-homologous chromosome.",
+    "term": "Translocation"
+   },
+   {
+    "definition": "A mutation in a body cell, which affects only that individual and is not inherited.",
+    "term": "Somatic mutation"
+   },
+   {
+    "definition": "A mutation in a cell that forms gametes, which can be passed to offspring.",
+    "term": "Germ-line mutation"
+   },
+   {
+    "definition": "An agent, such as ionising radiation, ultraviolet light or a chemical, that increases the rate of mutation.",
+    "term": "Mutagen"
+   },
+   {
+    "definition": "The failure of a homologous pair, or of two copies of a chromosome, to separate during meiosis.",
+    "term": "Non-disjunction"
+   },
+   {
+    "definition": "A photograph of a cell's chromosomes, arranged in homologous pairs, used to show changes in number and large structural changes.",
+    "term": "Karyotype"
+   },
+   {
+    "definition": "The shortened chromosome 22 formed by a reciprocal translocation with chromosome 9, which carries the BCR-ABL fusion gene in chronic myeloid leukaemia.",
+    "term": "Philadelphia chromosome"
+   }
+  ],
+  "notes": [
+   {
+    "h": "What a mutation is (Higher Level only)",
+    "points": [
+     "A mutation is a permanent change in the DNA: in the base sequence of a gene, called a point or gene mutation, or in the structure of a chromosome, called a chromosomal mutation.",
+     "A mutation that changes a gene produces a new allele.",
+     "Mutations arise spontaneously, mainly as uncorrected errors in base pairing during DNA replication (see “Modelling DNA replication and information flow”).",
+     "Mutagens increase the rate of mutation: ionising radiation (X-rays, gamma rays, radioactive substances) and ultraviolet light; chemicals such as those in tobacco smoke; and some viruses (detail in “Causes, prevention and treatment of cancer”).",
+     "Repair enzymes correct most damage.",
+     "Body-cell (somatic) mutations affect only the individual and the cells descended from the mutated cell, and are not inherited; they can lead to cancer (see “Cancer”).",
+     "Mutations in cells that form gametes (germ-line mutations) can be passed to offspring and are present in every cell of the child.",
+     "Most mutations are neutral, in non-coding DNA or silent; many are harmful, changing or stopping a protein; a few are beneficial in a particular environment, for example lactase persistence (described in “Variation”).",
+     "Mutations giving antibiotic resistance help bacteria survive antibiotics.",
+     "Mutation is the only source of new alleles, and so the ultimate source of variation for natural selection (see “Variation”)."
+    ]
+   },
+   {
+    "h": "Point mutations: how they occur and what they do (Higher Level only)",
+    "points": [
+     "A point mutation is a change in the nucleotide sequence at one point in a gene, usually of one or a few base pairs.",
+     "It occurs when a wrong nucleotide pairs during replication and is not corrected, or when a nucleotide is added or missed out.",
+     "At the next replication the change is copied into both strands and becomes permanent.",
+     "Substitution: one base is replaced by another, so only one codon changes.",
+     "Silent substitution: the new codon codes for the same amino acid, because the code is degenerate (see “The genetic code”), so the protein is unchanged.",
+     "Missense substitution: the new codon codes for a different amino acid, which may or may not change the protein's shape and function.",
+     "Nonsense substitution: the codon becomes a stop codon, so the polypeptide is cut short and usually does not work.",
+     "Insertion or deletion of one base, or of any number of bases that is not a multiple of three, is a frameshift: every codon after the change is read differently, because the code is read in threes without gaps from the start codon.",
+     "After a frameshift many amino acids are wrong, and a stop codon often appears early or is lost, so the protein usually does not work.",
+     "A frameshift near the start of a gene is more damaging than one near the end.",
+     "Insertion or deletion of three bases adds or removes one amino acid without a frameshift; the rest of the protein is normal, but even one missing amino acid can change the folding (see the cystic fibrosis example below)."
+    ]
+   },
+   {
+    "h": "Worked model: how point mutations change the amino-acid sequence (Higher Level only)",
+    "points": [
+     "Using a codon table, normal mRNA AUG UUU GGC AAA UAA codes for methionine, phenylalanine, glycine and lysine, then stops.",
+     "Substitution, silent: GGC changed to GGA; still glycine, so the protein is unchanged.",
+     "Substitution, missense: UUU changed to UCU; serine instead of phenylalanine.",
+     "Substitution, nonsense: AAA changed to UAA, a stop codon; the chain ends after glycine.",
+     "Insertion of G after AUG: AUG GUU UGG CAA AUA A… gives methionine, valine, tryptophan, glutamine, isoleucine…; every amino acid after the start is changed and the original stop codon is lost from the reading frame.",
+     "Deletion of the first U of UUU: AUG UUG GCA AAU AA… gives methionine, leucine, alanine, asparagine…; this is a frameshift.",
+     "Deletion of the whole codon UUU: AUG GGC AAA UAA gives methionine, glycine, lysine; one amino acid is missing and the rest is unchanged.",
+     "Word analogy for revision: THE CAT ATE THE RAT; substitution THE CAT ATE THE HAT changes one word; insertion THE CXA TAT ETH ERA T gives nonsense words after the change; deletion THE ATA TET HER AT shifts every word after it."
+    ]
+   },
+   {
+    "h": "Known examples of point mutations (Higher Level only)",
+    "points": [
+     "Sickle-cell anaemia is a substitution in the gene for beta-globin, one of the polypeptides of haemoglobin, on chromosome 11.",
+     "One base change alters the codon for the sixth amino acid from GAG to GUG in mRNA (CTC to CAC in the DNA strand being read), so valine replaces glutamic acid.",
+     "The changed haemoglobin, haemoglobin S, molecules stick together into long fibres when oxygen is low, distorting red blood cells into a rigid sickle shape.",
+     "Sickled cells block small blood vessels, causing pain and organ damage, and are destroyed quickly, causing anaemia.",
+     "Sickle-cell is recessive: people with two copies have the disease; people with one copy (sickle-cell trait) are usually healthy and are more resistant to malaria.",
+     "The sickle-cell allele is common in parts of Africa where malaria is common, an example of natural selection.",
+     "Cystic fibrosis is caused by mutations in the CFTR gene on chromosome 7, which codes for a chloride-ion channel protein in cell membranes.",
+     "The most common cystic fibrosis mutation, F508del (delta F508), is a deletion of three bases, which removes one amino acid, phenylalanine, at position 508 of the protein.",
+     "The faulty protein folds wrongly, is broken down by the cell and does not reach the membrane, giving thick, sticky mucus in the lungs and pancreas.",
+     "Cystic fibrosis is recessive, and Ireland has the highest rate of cystic fibrosis in the world.",
+     "Newer CFTR modulator drugs help the faulty protein fold and work, which shows how knowing the mutation leads to treatment.",
+     "Cystic fibrosis is one of the conditions tested for in the newborn heel-prick screening offered to every baby in Ireland (see “Prenatal and postnatal care”)."
+    ]
+   },
+   {
+    "h": "Chromosomal mutations: how they occur (Higher Level only)",
+    "points": [
+     "A chromosomal mutation is a change in the structure of one or more chromosomes that affects many genes at once.",
+     "It occurs when chromosomes break, for example from ionising radiation or chemicals, or from errors when chromosomes are copied or separated in meiosis, and the broken pieces are lost or rejoin in the wrong place.",
+     "Large changes can be seen under the light microscope in a karyotype.",
+     "Model: write a chromosome as A B C • D E F G H, where the letters are genes or groups of genes and • is the centromere; a different, non-homologous chromosome is M N O • P Q R.",
+     "Deletion: a section breaks off and is lost, so its genes are missing: A B C • D E F G H becomes A B C • D E H, with F and G lost.",
+     "Deletion is usually harmful, because a whole set of genes is missing.",
+     "Duplication: a section is copied twice, so its genes are repeated: A B C • D E F G H becomes A B C • D E F E F G H.",
+     "Extra copies can upset the balance of gene products; over evolutionary time, duplicated genes can mutate to take on new functions.",
+     "Inversion: a section breaks out, turns through 180 degrees and rejoins, so its genes are in reverse order: A B C • D E F G H becomes A B C • D G F E H.",
+     "No genes are lost, so an inversion often has no effect on the person, unless a break falls inside a gene; it can cause problems in meiosis, leading to gametes with missing or extra genes.",
+     "Translocation: a section of one chromosome breaks off and joins a different, non-homologous chromosome; in a reciprocal translocation two chromosomes swap sections.",
+     "In a reciprocal translocation, A B C • D E F G H and M N O • P Q R become A B C • D E F Q R and M N O • P G H.",
+     "If no genes are lost the person may be healthy, but a break can join two genes into a new hybrid (fusion) gene, and carriers can produce gametes with unbalanced sets of genes.",
+     "Diagram: each of the four mutations drawn as a chromosome with lettered bands and a centromere, before and after, with the translocation shown between two chromosomes of different sizes."
+    ]
+   },
+   {
+    "h": "Known examples of chromosomal mutations (Higher Level only)",
+    "points": [
+     "Deletion: cri du chat syndrome (French for “cry of the cat”) is caused by deletion of part of the short arm of chromosome 5.",
+     "Babies with cri du chat have a high-pitched cry like a cat's, a small head and low birth weight, and later intellectual disability and delayed development.",
+     "Duplication: Charcot–Marie–Tooth disease type 1A is caused by duplication of a small section of chromosome 17 containing the PMP22 gene.",
+     "The extra copy disrupts the insulating myelin sheath of nerves in the limbs, causing gradual weakness of the muscles of the feet and lower legs.",
+     "Inversion: an inversion within the gene for blood-clotting factor VIII on the X chromosome breaks the gene and causes nearly half of all cases of severe haemophilia A (haemophilia as a sex-linked trait is in “Sex-linked traits”).",
+     "A common inversion in chromosome 9 usually has no effect, because no genes are broken.",
+     "Translocation: the Philadelphia chromosome in chronic myeloid leukaemia (CML), a cancer of white blood cells.",
+     "A reciprocal translocation between chromosomes 9 and 22, in a bone-marrow stem cell, joins part of the ABL gene from chromosome 9 to the BCR gene on chromosome 22.",
+     "This forms a BCR-ABL fusion gene on a shortened chromosome 22, the Philadelphia chromosome.",
+     "The fusion gene codes for an enzyme that is permanently switched on and drives the cell to divide uncontrollably (an oncogene; see “Cancer”).",
+     "CML is caused by a somatic mutation and is not inherited.",
+     "The Philadelphia chromosome was discovered in Philadelphia, USA, in 1960 by Peter Nowell and David Hungerford; Janet Rowley showed in 1973 that it arises by translocation.",
+     "The drug imatinib, which blocks the BCR-ABL enzyme, is described in “Causes, prevention and treatment of cancer”."
+    ]
+   },
+   {
+    "h": "Changes in chromosome number (Higher Level only)",
+    "points": [
+     "Some conditions are caused by a change in the number of chromosomes, not in their structure, so they are not deletion, duplication, inversion or translocation.",
+     "They usually result from non-disjunction: a homologous pair, or two copies of a chromosome, fails to separate during meiosis, so a gamete has one chromosome too many or too few.",
+     "Down syndrome: in about 95% of cases there are three copies of chromosome 21 (trisomy 21), giving 47 chromosomes, after non-disjunction, usually during egg formation.",
+     "The risk of Down syndrome rises with the mother's age.",
+     "Features of Down syndrome include a characteristic facial appearance, some degree of intellectual disability and a higher risk of heart defects.",
+     "A few per cent of Down syndrome cases are caused instead by a translocation that attaches extra chromosome-21 material to another chromosome; only those cases involve a structural change.",
+     "Turner syndrome is a change in number with 45 chromosomes, X: one X and no second sex chromosome, female.",
+     "Klinefelter syndrome is a change in number with 47 chromosomes, XXY, male.",
+     "A karyotype is a photograph of a cell's chromosomes, taken during mitosis when they are condensed, and arranged in homologous pairs by size and shape.",
+     "A karyotype shows changes in number (for example three chromosome 21s) and large structural changes (for example the shortened chromosome 22)."
+    ]
+   },
+   {
+    "h": "Point and chromosomal mutations compared (Higher Level only)",
+    "points": [
+     "Scale: a point mutation changes one or a few bases in one gene; a chromosomal mutation changes the arrangement or number of copies of a large section with many genes.",
+     "How they arise: point mutations mainly from mispairing during replication; chromosomal mutations from breakage and wrong rejoining of chromosomes, often during meiosis.",
+     "Detection: point mutations need DNA sequencing (see “DNA sequencing”); large chromosomal mutations can be seen in a karyotype under the light microscope.",
+     "Examples: sickle-cell anaemia (substitution) and cystic fibrosis (three-base deletion); cri du chat (deletion), Charcot–Marie–Tooth type 1A (duplication), severe haemophilia A (inversion), and the Philadelphia chromosome in CML (translocation)."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 9,
+    "model": "A substitution replaces one base with another, so only one codon changes. Its effect may be silent, with the same amino acid and no change to the protein, missense, with one different amino acid, or nonsense, with a stop codon that cuts the chain short. A deletion removes a base, so every codon after the deletion is read in a different frame. This frameshift changes many amino acids and often creates an early stop codon, so the protein usually does not work. For example, with normal mRNA AUG UUU GGC AAA UAA, deleting the first U of UUU gives AUG UUG GCA AAU AA…, which codes for methionine, leucine, alanine and asparagine instead of methionine, phenylalanine, glycine, lysine and then stop.",
+    "prompt": "Distinguish between a substitution and a deletion point mutation, and explain why a single-base deletion usually has a greater effect on the protein.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Take a chromosome written as A B C • D E F G H, where the letters are genes and • is the centromere. A deletion removes a section, giving A B C • D E H, with F and G lost. A duplication copies a section, giving A B C • D E F E F G H. An inversion turns a section through 180 degrees, giving A B C • D G F E H, so the genes are in reverse order and none are lost. A translocation moves a section to a different, non-homologous chromosome; in a reciprocal translocation with M N O • P Q R, the results are A B C • D E F Q R and M N O • P G H. A named deletion is cri du chat syndrome, caused by deletion of part of the short arm of chromosome 5. A named translocation is the Philadelphia chromosome in chronic myeloid leukaemia, a reciprocal translocation between chromosomes 9 and 22 that forms the BCR-ABL fusion gene on a shortened chromosome 22.",
+    "prompt": "Using lettered diagrams, show how deletion, duplication, inversion and translocation change a chromosome, and give a named example of a deletion and of a translocation.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Sickle-cell anaemia is caused by a substitution point mutation in the beta-globin gene on chromosome 11. One base change alters the codon from GAG to GUG, so valine replaces glutamic acid in haemoglobin, and the altered haemoglobin forms fibres that distort red blood cells. Down syndrome is caused, in about 95% of cases, by three copies of chromosome 21 (trisomy 21). This is a change in the number of chromosomes, usually resulting from non-disjunction during meiosis. It is not one of the four types of chromosomal mutation (deletion, duplication, inversion or translocation), because no section of a chromosome is lost, repeated, reversed or moved; the chromosome has an extra copy. Only the small minority of cases caused by a translocation involve a structural change.",
+    "prompt": "Sickle-cell anaemia and Down syndrome are both genetic conditions. Explain the type of change in the DNA or chromosomes that causes each, and explain why Down syndrome is not an example of one of the four types of chromosomal mutation.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio18-s1": {
+  "keyTerms": [
+   {
+    "definition": "The skeleton together with the skeletal muscles and tendons that move it.",
+    "term": "Musculoskeletal system"
+   },
+   {
+    "definition": "The skull, vertebral column, ribs and sternum, which form the central axis of the body.",
+    "term": "Axial skeleton"
+   },
+   {
+    "definition": "The pectoral and pelvic girdles and the bones of the limbs attached to them.",
+    "term": "Appendicular skeleton"
+   },
+   {
+    "definition": "Striped muscle attached to bones by tendons, under voluntary and reflex control, which contracts quickly and tires.",
+    "term": "Skeletal muscle"
+   },
+   {
+    "definition": "Involuntary, unstriped muscle in the walls of the gut, blood vessels, bladder and uterus, which contracts slowly.",
+    "term": "Smooth muscle"
+   },
+   {
+    "definition": "Involuntary, striped muscle found only in the heart wall, which contracts rhythmically without tiring.",
+    "term": "Cardiac muscle"
+   },
+   {
+    "definition": "A long muscle cell containing many nuclei and mitochondria and packed with actin and myosin filaments.",
+    "term": "Muscle fibre"
+   },
+   {
+    "definition": "The synapse between a motor neuron and a muscle fibre, where acetylcholine is released.",
+    "term": "Neuromuscular junction"
+   },
+   {
+    "definition": "A slight, continuous partial contraction of muscles that holds the body's posture without conscious effort.",
+    "term": "Muscle tone"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The musculoskeletal system is the framework of bones and joints together with the muscles that move it.",
+    "h": "What the musculoskeletal system is",
+    "points": [
+     "The skeleton is the bones, together with the cartilage and ligaments that join them at joints.",
+     "The skeletal muscles are attached to bones by tendons, which are the other part of the system.",
+     "Muscles provide the force, bones act as rigid levers, and joints are the pivots where movement happens.",
+     "The parts are described in later notes: the bones in \"The axial skeleton\" and \"The appendicular skeleton\", and the joints and muscle pairs in \"Muscles and joints\".",
+     "The adult human skeleton has 206 bones.",
+     "80 of these form the axial skeleton: the skull, vertebral column, ribs and sternum, which make up the central axis of the body.",
+     "The other 126 form the appendicular skeleton: the pectoral and pelvic girdles and the limbs attached to them."
+    ]
+   },
+   {
+    "h": "Bone as a living tissue",
+    "points": [
+     "Bone is a living connective tissue.",
+     "Bone cells lie in a hard matrix of calcium phosphate, which gives bone its hardness and resists compression.",
+     "Collagen fibres in the matrix give bone some flexibility and resist bending and snapping.",
+     "Bone has a blood supply and nerves, can grow and repair itself, and changes shape slowly in response to the forces put on it."
+    ]
+   },
+   {
+    "h": "Functions of the skeleton",
+    "points": [
+     "Support: the skeleton is a rigid framework that holds the body up, gives it its shape and supports soft organs. The vertebral column supports the head and trunk, and the leg bones carry the body's weight.",
+     "Protection: bones surround delicate organs. The skull protects the brain, the ribs and sternum protect the heart and lungs, the vertebrae protect the spinal cord, and the pelvic girdle protects the bladder and reproductive organs.",
+     "Movement: bones provide attachment points for muscles and act as levers that the muscles pull on, moving the body at joints.",
+     "Making blood cells: red bone marrow, found in spongy bone, makes red blood cells, white blood cells and platelets.",
+     "In adults, red marrow is mainly in the flat bones (skull, ribs, sternum, vertebrae and pelvis) and in the ends of long bones such as the femur and humerus.",
+     "Yellow marrow fills the hollow shafts of long bones and stores fat.",
+     "Storing minerals: bone stores calcium and phosphate.",
+     "When blood calcium falls, calcium is released from bone under the control of parathyroid hormone (see \"Glands, locations and hormones\"), which helps keep blood calcium constant for nerve and muscle function."
+    ]
+   },
+   {
+    "h": "Types of muscle",
+    "points": [
+     "Skeletal muscle is attached to bones by tendons and is the only muscle type in the musculoskeletal system. It is under voluntary (conscious) control as well as reflex control, and its cells look striped (striated) under the microscope.",
+     "Skeletal muscle contracts quickly and powerfully but tires (fatigues).",
+     "Smooth muscle is found in the walls of the gut, blood vessels, bladder and uterus. It is involuntary (not under conscious control) and not striped.",
+     "Smooth muscle contracts slowly and can stay contracted for a long time, as in peristalsis in the gut.",
+     "Cardiac muscle is found only in the wall of the heart. It is involuntary and striped, and it contracts rhythmically throughout life without tiring (the heart is described in \"The Circulatory System and Blood\")."
+    ]
+   },
+   {
+    "b": "A skeletal muscle is the effector that carries out a response, in the same way as the other effectors described in \"Structures and systems for response\".",
+    "h": "The muscle as the effector of a response",
+    "points": [
+     "A skeletal muscle is made of bundles of long cells called muscle fibres. Each fibre contains many nuclei and many mitochondria.",
+     "Each fibre is packed with two kinds of protein filament: thin filaments of actin and thick filaments of myosin, arranged in repeating units that give the striped appearance.",
+     "Skeletal muscle contracts only when it is stimulated by a motor neuron. A voluntary movement starts in the brain; a reflex movement starts in the spinal cord (see \"The reflex action\").",
+     "Impulses travel along the motor neuron to its ending on the muscle fibre, a synapse called the neuromuscular junction.",
+     "At the neuromuscular junction the neurotransmitter acetylcholine is released, crosses the gap and binds to receptors on the muscle fibre, starting an impulse in the fibre (see \"Neurotransmission\").",
+     "The impulse causes calcium ions (Ca²⁺) to be released from stores inside the fibre.",
+     "The calcium allows myosin filaments to attach to actin filaments and pull them inwards, so the filaments slide past each other and the fibre shortens.",
+     "Energy for this comes from ATP (see \"ATP\"), which is made in the many mitochondria by respiration.",
+     "When the impulses stop, calcium is pumped back into its stores, the filaments detach and the muscle relaxes.",
+     "A relaxed muscle does not lengthen by itself: it is pulled back to its full length by an opposing muscle (see \"Muscles and joints\").",
+     "A muscle can only pull by contracting; it can never push.",
+     "The force is passed through a tendon to a bone, which moves at a joint. This movement is the response.",
+     "Strength of response: the more motor neurons that fire and the more muscle fibres that contract, the stronger the contraction, so movements can be gentle or forceful.",
+     "Muscle tone: a slight, continuous partial contraction of muscles holds the body's posture without conscious effort.",
+     "Diagram: a flow diagram of a voluntary response: brain, spinal cord, motor neuron, neuromuscular junction, skeletal muscle (contracts), tendon, bone moves at joint. Also a sketch of a skeletal muscle cut open to show bundles of muscle fibres, with one fibre enlarged to show actin and myosin filaments, all labelled."
+    ]
+   },
+   {
+    "h": "Responses the system carries out",
+    "points": [
+     "Movement of the whole body (locomotion: walking, running, swimming) to find food, escape danger or move to better conditions.",
+     "Movement of parts of the body, such as grasping or turning the head towards a sound.",
+     "Maintaining posture and balance: muscles of the back, neck and legs make constant small adjustments, in response to information from receptors, to keep the body upright.",
+     "Breathing: the diaphragm and intercostal muscles move the ribs (see \"Gas exchange and the breathing mechanism\").",
+     "Speech, facial expression, chewing and swallowing.",
+     "Shivering: rapid involuntary contractions that release heat when the body is cold."
+    ]
+   },
+   {
+    "h": "How the system depends on other systems",
+    "points": [
+     "Nervous system: every contraction of a skeletal muscle is started by a motor neuron.",
+     "Receptors in muscles and joints send information back to the brain about the position of the limbs, so that movements can be coordinated.",
+     "Circulatory and breathing systems: active muscles need more oxygen and glucose for respiration, and must remove more carbon dioxide and heat, so heart rate and breathing rate rise during exercise.",
+     "When oxygen cannot be supplied fast enough, muscle fibres respire anaerobically, producing lactic acid and much less ATP, and soon tire (fatigue).",
+     "The lactic acid is removed afterwards, when oxygen is available again; this is one reason breathing stays fast after exercise (see \"Respiration\").",
+     "Endocrine system: adrenaline increases blood flow to skeletal muscles and raises blood glucose, preparing them for action (see \"Glands, locations and hormones\").",
+     "Health: regular weight-bearing exercise, such as walking or running, strengthens bones and muscles.",
+     "A diet with enough protein (for muscle), calcium and vitamin D (for bone) supports the system (see \"Minerals\" and \"Vitamins\")."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Support: the skeleton is a rigid framework that holds the body up and supports soft organs; the leg bones carry the body's weight. Protection: the skull protects the brain, and the vertebrae protect the spinal cord. Movement: bones provide attachment points for muscles and act as levers that the muscles pull on, moving the body at joints, for example the humerus moves the forearm at the elbow.",
+    "prompt": "Give three functions of the human skeleton, with an example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A motor neuron stimulates the skeletal muscle, starting a voluntary or reflex response. At the neuromuscular junction, the neurotransmitter acetylcholine is released, crosses the gap and binds to receptors on the muscle fibre, starting an impulse in the fibre. The impulse releases calcium ions inside the fibre. The calcium allows myosin filaments to attach to actin filaments and pull them so the fibre shortens; ATP supplies the energy. The muscle can only pull, and its contraction is passed through a tendon to a bone, which moves at a joint.",
+    "prompt": "Explain how the musculoskeletal system acts as the effector in a response to a stimulus.",
+    "type": "short"
+   },
+   {
+    "marks": 6,
+    "model": "Skeletal muscle is attached to bones by tendons, for example in the limbs. It is under voluntary as well as reflex control, and its cells look striped under the microscope. Smooth muscle is found in the walls of the gut, blood vessels, bladder and uterus. It is involuntary, meaning it is not under conscious control, and its cells are not striped.",
+    "prompt": "Distinguish between skeletal muscle and smooth muscle in terms of location, control and appearance.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio18-s2": {
+  "keyTerms": [
+   {
+    "definition": "The dome of curved, flat bones of the skull that encloses and protects the brain.",
+    "term": "Cranium"
+   },
+   {
+    "definition": "A wavy, immovable joint between the bones of the cranium, filled with fibrous tissue.",
+    "term": "Suture"
+   },
+   {
+    "definition": "The large opening at the base of the cranium through which the spinal cord passes.",
+    "term": "Foramen magnum"
+   },
+   {
+    "definition": "A soft, membrane-covered gap between the cranial bones of a newborn, which closes in the first two years.",
+    "term": "Fontanelle"
+   },
+   {
+    "definition": "The thick cylinder of bone at the front of a vertebra, which bears the body's weight.",
+    "term": "Centrum"
+   },
+   {
+    "definition": "The bony arch at the back of a vertebra that surrounds the neural canal and spinal cord.",
+    "term": "Neural arch"
+   },
+   {
+    "definition": "A pad of cartilage between the centra of neighbouring vertebrae, which absorbs shock and allows slight movement.",
+    "term": "Intervertebral disc"
+   },
+   {
+    "definition": "Flexible cartilage that joins the ribs to the sternum and to each other.",
+    "term": "Costal cartilage"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The axial skeleton forms the central axis of the body. The appendicular skeleton is attached to it (see \"The appendicular skeleton\").",
+    "h": "Overview of the axial skeleton",
+    "points": [
+     "The axial skeleton is made of the skull, the vertebral column (vertebrae and discs), the ribs and the sternum.",
+     "Its main jobs are protecting the brain, spinal cord, heart and lungs, and supporting the head and trunk."
+    ]
+   },
+   {
+    "h": "The skull",
+    "points": [
+     "The skull has two parts. The cranium is a dome of curved, flat bones that encloses and protects the brain.",
+     "The facial bones form the face, hold the teeth, and form the eye sockets (orbits) and the nasal cavity.",
+     "The bones of the cranium are joined by sutures: wavy, interlocking joints filled with fibrous tissue that allow no movement, so the cranium acts as one rigid, strong box.",
+     "The domed shape of the cranium spreads the force of a blow.",
+     "The lower jaw (mandible) is the only skull bone that moves. It joins the cranium at a freely movable joint on each side, allowing chewing and speech.",
+     "The eyes sit in the bony orbits, and the inner ear is enclosed in bone, so the skull protects the sense organs.",
+     "A large opening at the base of the cranium, the foramen magnum, lets the spinal cord pass down from the brain. The skull rests on the first vertebra.",
+     "In a newborn baby the cranial bones are not yet fused. Soft, membrane-covered gaps called fontanelles allow the skull to change shape slightly during birth and allow the brain to grow; they close in the first two years.",
+     "Diagram: side view of the skull, labelling cranium, sutures, orbit (eye socket), facial bones, upper jaw, lower jaw (mandible), teeth and foramen magnum (or opening for spinal cord)."
+    ]
+   },
+   {
+    "h": "The vertebral column and its regions",
+    "points": [
+     "The vertebral column (backbone or spine) is a flexible column of 33 vertebrae stacked one on another, from the skull to the pelvis.",
+     "It supports the head and trunk, protects the spinal cord, provides attachment for ribs and muscles, and joins the axial skeleton to the pelvic girdle.",
+     "The 7 cervical vertebrae (neck) are small and light; they support the head and allow it to nod and turn.",
+     "The 12 thoracic vertebrae (chest) each join a pair of ribs.",
+     "The 5 lumbar vertebrae (lower back) are the largest and strongest; they carry most of the weight of the upper body and allow bending.",
+     "The 5 sacral vertebrae are fused into one bone, the sacrum, which is joined to the pelvic girdle and passes the body's weight to the legs.",
+     "About 4 coccygeal vertebrae are fused to form the coccyx (tailbone), which anchors some muscles; the number varies from 3 to 5.",
+     "Vertebrae get larger from the neck to the lower back, because each one carries the weight of everything above it.",
+     "The atlas (first cervical vertebra) carries the skull and allows the head to nod.",
+     "The axis (second cervical vertebra) has a peg on which the atlas turns, allowing the head to rotate from side to side.",
+     "The column has an S-shaped curve when seen from the side: forward in the neck, back in the chest and forward in the lower back.",
+     "The curves act like a spring, absorbing shock when walking and running, and keep the body's weight balanced over the legs."
+    ]
+   },
+   {
+    "h": "Structure of a vertebra",
+    "points": [
+     "The centrum (body) is a thick cylinder of bone at the front of the vertebra. It bears the body's weight.",
+     "The neural arch at the back surrounds the neural canal (vertebral canal), through which the spinal cord runs, so the cord is enclosed in bone.",
+     "The spinous process at the back and a transverse process on each side are projections that provide attachment for muscles and ligaments, acting as levers for the back muscles.",
+     "Facets are smooth surfaces that form small joints with the vertebrae above and below, guiding and limiting movement. In thoracic vertebrae, extra facets form the joints with the ribs.",
+     "Between neighbouring vertebrae there are small gaps on each side through which the spinal nerves leave the spinal cord (see \"CNS and PNS\").",
+     "Diagram: (a) side view of the vertebral column labelling the cervical, thoracic, lumbar, sacral and coccyx regions, the S-shaped curves and the discs between vertebrae; (b) top view of a single lumbar or thoracic vertebra labelling centrum, neural arch, neural canal with spinal cord, spinous process, transverse processes and facets."
+    ]
+   },
+   {
+    "h": "Intervertebral discs",
+    "points": [
+     "Position: an intervertebral disc lies between the centra of each pair of neighbouring vertebrae, from below the axis down to the sacrum, joining them together.",
+     "There are no discs within the fused sacrum and coccyx.",
+     "Structure: each disc is a pad of cartilage with a tough outer ring of fibrocartilage surrounding a soft, jelly-like centre.",
+     "Shock absorption: the discs compress under load and spring back, cushioning the vertebrae and the brain against the jolts of walking, running and jumping.",
+     "Preventing friction and wear: the discs stop the bones of neighbouring vertebrae rubbing against each other.",
+     "Flexibility: each disc allows a small amount of movement between two vertebrae, so the joints between vertebrae are slightly movable. Added together along the column, these small movements let the back bend forwards, backwards and sideways, and twist.",
+     "Holding the column together: the discs, with the ligaments, bind the vertebrae into one column while allowing it to bend.",
+     "The discs are squeezed slightly during a day of standing and sitting and recover while lying down, so a person is slightly taller in the morning than in the evening."
+    ]
+   },
+   {
+    "h": "Ribs and sternum",
+    "points": [
+     "There are 12 pairs of ribs: curved, flat bones that form the rib cage around the chest. At the back, every rib is joined to a thoracic vertebra by small joints that let it move.",
+     "The first seven pairs (true ribs) are joined directly to the sternum by strips of flexible costal cartilage.",
+     "Pairs 8 to 10 (false ribs) are joined to the cartilage of the rib above them.",
+     "Pairs 11 and 12 (floating ribs) are attached only at the back.",
+     "The rib cage protects the heart and lungs, and partly the liver, stomach and kidneys.",
+     "Because the ribs are curved and joined by flexible cartilage, the cage can absorb blows and can move.",
+     "The intercostal muscles between the ribs raise and lower the rib cage, changing the volume of the chest in breathing (see \"Gas exchange and the breathing mechanism\").",
+     "The sternum (breastbone) is a long, flat bone in the centre of the front of the chest. Like other flat bones, it contains red bone marrow (see \"The musculoskeletal system as a system for response\").",
+     "The sternum protects the heart and anchors the ribs, through the costal cartilages, and the clavicles (see \"The appendicular skeleton\").",
+     "Diagram: front view of the rib cage labelling the sternum, ribs, costal cartilage, true, false and floating ribs, thoracic vertebrae (behind), and the position of the clavicles."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The intervertebral discs lie between the centra of each pair of neighbouring vertebrae, from below the axis down to the sacrum. Two functions: they absorb shock, compressing under load and springing back to cushion the vertebrae and brain against the jolts of walking, running and jumping; and they allow a small amount of movement between vertebrae, so the back can bend and twist.",
+    "prompt": "Where are the intervertebral discs found, and give two of their functions.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The centrum is a thick cylinder of bone at the front that bears the body's weight. The neural arch surrounds the neural canal, through which the spinal cord runs, so the cord is protected by bone. The spinous process and transverse processes project from the vertebra and provide attachment for muscles and ligaments, acting as levers for the back muscles. The facets are smooth surfaces that form small joints with the vertebrae above and below, guiding and limiting movement. A labelled diagram should show the centrum, neural arch, neural canal with spinal cord, spinous process, transverse processes and facets, with a top view of a lumbar or thoracic vertebra.",
+    "prompt": "Relate the structure of a vertebra to its functions. Include a labelled diagram.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) The cranium is a dome of curved, flat bones joined by sutures, which are wavy, interlocking joints that allow no movement. It forms one rigid, strong box that protects the brain, and its domed shape spreads the force of a blow. (ii) The rib cage is made of curved ribs joined at the back to thoracic vertebrae and at the front to the sternum by flexible costal cartilage. It protects the heart and lungs, and because the ribs can move, the intercostal muscles raise and lower the rib cage to change the volume of the chest in breathing.",
+    "prompt": "Explain how the structure of (i) the cranium and (ii) the rib cage suits each to its function.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio18-s3": {
+  "keyTerms": [
+   {
+    "definition": "The pectoral and pelvic girdles and the bones of the limbs attached to them.",
+    "term": "Appendicular skeleton"
+   },
+   {
+    "definition": "The clavicle and scapula on each side, which attach the arm to the axial skeleton.",
+    "term": "Pectoral girdle"
+   },
+   {
+    "definition": "The strong, bowl-shaped ring of the two hip bones, fused to the sacrum, which carries the weight of the upper body to the legs.",
+    "term": "Pelvic girdle"
+   },
+   {
+    "definition": "The slender, S-shaped collarbone that acts as a strut holding the shoulder out to the side.",
+    "term": "Clavicle"
+   },
+   {
+    "definition": "The large, flat shoulder blade, held by muscles, with a shallow socket for the head of the humerus.",
+    "term": "Scapula"
+   },
+   {
+    "definition": "The small, flat kneecap embedded in the quadriceps tendon at the front of the knee.",
+    "term": "Patella"
+   },
+   {
+    "definition": "A bone with a long shaft and a wider end at each joint, with a hollow shaft of compact bone and spongy ends.",
+    "term": "Long bone"
+   },
+   {
+    "definition": "The tough membrane covering the whole bone, apart from the joint surfaces, to which tendons and ligaments attach.",
+    "term": "Periosteum"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The appendicular skeleton is the skeleton of the limbs and of the two girdles that attach them to the axial skeleton.",
+    "h": "Overview of the appendicular skeleton",
+    "points": [
+     "The pectoral (shoulder) girdle attaches the arms, and the pelvic (hip) girdle attaches the legs.",
+     "Its main job is movement. The legs and pelvic girdle also bear the body's weight."
+    ]
+   },
+   {
+    "h": "Structure of a long bone",
+    "points": [
+     "The limb bones named in the specification, except the patella, are long bones: a long shaft with a wider end at each joint.",
+     "The shaft is a hollow tube of dense compact bone. A tube is nearly as strong as a solid rod of the same width but much lighter, so the limb is strong but light enough to move quickly.",
+     "The wider ends are made of spongy bone, a lattice of thin bony struts that is light but strong along the lines of force, and that contains red bone marrow.",
+     "The central cavity of the shaft contains yellow marrow.",
+     "The ends are covered with smooth articular cartilage where they form joints; its function is described in \"Muscles and joints\".",
+     "Apart from the joint surfaces, the whole bone is covered by a tough membrane, the periosteum, to which tendons and ligaments attach.",
+     "Diagram: a long bone (the femur) in longitudinal section, labelling compact bone, spongy bone, marrow cavity with yellow marrow, red marrow in the spongy bone, articular cartilage, periosteum and shaft."
+    ]
+   },
+   {
+    "h": "The pectoral girdle",
+    "points": [
+     "The pectoral girdle is formed on each side by a clavicle and a scapula. It attaches the arm to the axial skeleton and is built for a wide range of movement rather than for bearing weight.",
+     "The clavicle (collarbone) is a slender, S-shaped bone running across the top of the chest from the sternum to the scapula.",
+     "The clavicle acts as a strut, holding the shoulder out to the side so the arm can swing freely, and passes forces from the arm to the axial skeleton.",
+     "Its joint with the sternum is the only bony connection between the arm and the axial skeleton.",
+     "The scapula (shoulder blade) is a large, flat, triangular bone lying on the back of the rib cage.",
+     "The scapula is not joined to the ribs or vertebrae but is held in place by muscles, so it can slide and rotate, increasing the range of movement of the arm.",
+     "Its large flat surface and ridges give a large area for attachment of shoulder and arm muscles, including the biceps and triceps (see \"Muscles and joints\").",
+     "The scapula has a shallow socket into which the rounded head of the humerus fits, forming the shoulder joint, a ball-and-socket joint.",
+     "The shallow socket allows the arm to move in almost every direction, including rotation, but makes the joint less stable than the hip."
+    ]
+   },
+   {
+    "h": "The pelvic girdle",
+    "points": [
+     "The pelvic girdle (pelvis) is a strong, bowl-shaped ring formed by the two hip bones, joined firmly to the sacrum at the back and to each other at the front.",
+     "Each hip bone is made of several bones fused together; the names of these bones are not required.",
+     "The pelvic girdle is joined firmly to the vertebral column through the sacrum, so it is rigid. It carries the weight of the upper body and passes it to the legs.",
+     "It has a deep, cup-shaped socket on each side into which the head of the femur fits, forming the hip joint, a ball-and-socket joint.",
+     "The deep socket makes the hip very stable and suited to bearing weight, but it gives a smaller range of movement than the shoulder.",
+     "The pelvic girdle protects the organs of the lower abdomen: the bladder, lower intestine and reproductive organs, including the uterus.",
+     "Its broad surfaces anchor the large muscles of the legs and trunk.",
+     "The female pelvis is wider and shallower, with a larger, rounder central opening than the male pelvis, so that a baby's head can pass through during birth."
+    ]
+   },
+   {
+    "h": "Comparing the two girdles",
+    "points": [
+     "Attachment: the pectoral girdle is loosely attached to the axial skeleton by muscles; the pelvic girdle is fused to the sacrum.",
+     "Socket: the pectoral girdle has a shallow socket; the pelvic girdle has a deep socket.",
+     "Function: the pectoral girdle gives mobility; the pelvic girdle gives stability and carries weight."
+    ]
+   },
+   {
+    "h": "Bones of the upper limb",
+    "points": [
+     "The humerus is the long bone of the upper arm. Its rounded head fits into the socket of the scapula at the shoulder, a ball-and-socket joint.",
+     "The lower end of the humerus meets the radius and ulna at the elbow, a hinge joint. Its long shaft gives attachment to the muscles that move the shoulder and elbow.",
+     "The ulna is the longer forearm bone, on the little-finger side.",
+     "The upper end of the ulna hooks around the end of the humerus, forming the main part of the elbow hinge and the point of the elbow, which stops the arm bending backwards beyond straight.",
+     "The triceps is attached to the ulna (see \"Muscles and joints\").",
+     "The radius is the shorter forearm bone, on the thumb side. It forms most of the joint with the wrist.",
+     "At the elbow, the rounded head of the radius turns against the ulna in a pivot joint, so the radius can rotate around the ulna to turn the palm up or down.",
+     "The biceps is attached to the radius.",
+     "The two forearm bones make the hand both strong and highly mobile: the ulna gives a stable hinge at the elbow, and the radius allows rotation of the hand."
+    ]
+   },
+   {
+    "h": "Bones of the lower limb",
+    "points": [
+     "The femur (thigh bone) is the longest and strongest bone in the body.",
+     "The rounded head of the femur fits into the deep socket of the pelvic girdle at the hip. Its lower end forms the knee joint, a hinge joint, with the tibia.",
+     "The thick shaft of compact bone carries the body's weight, and it gives attachment to the large thigh muscles used in walking, running and jumping.",
+     "The patella (kneecap) is a small, flat, roughly triangular bone at the front of the knee, embedded in the tendon of the quadriceps, the large muscle at the front of the thigh.",
+     "The patella protects the front of the knee joint and holds the tendon away from the joint, improving the leverage of the quadriceps when it straightens the leg.",
+     "The tibia (shinbone) is the larger, inner bone of the lower leg, on the big-toe side.",
+     "The tibia forms the knee joint with the femur and the ankle joint below, and carries almost all the weight passed down from the femur.",
+     "The fibula is the thin outer bone of the lower leg. It is not part of the knee joint and carries little weight.",
+     "The fibula provides attachment for muscles of the lower leg and helps form and stabilise the outer side of the ankle.",
+     "The wrist, hand, ankle and foot bones are not named in the specification; label them on diagrams as wrist bones, hand bones, ankle bones and foot bones.",
+     "Many small bones give the hands their fine, flexible movements and give the feet a flexible, weight-spreading base."
+    ]
+   },
+   {
+    "h": "The limb pattern",
+    "points": [
+     "The arm and the leg are built to the same plan: one bone in the upper part (humerus; femur), two in the lower part (radius and ulna; tibia and fibula), then many small bones in the wrist or ankle and five digits.",
+     "The same plan in the forelimbs of other vertebrates is evidence of common ancestry (see \"Explaining biological phenomena\")."
+    ]
+   },
+   {
+    "h": "The whole skeleton",
+    "points": [
+     "Diagram: front view of the whole human skeleton, labelling the axial parts (skull, vertebral column, ribs, sternum) and the appendicular parts named in the specification (clavicle, scapula, pelvic girdle, humerus, radius, ulna, femur, patella, tibia and fibula), with the wrist, hand, ankle and foot bones labelled as groups."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The two bones are the clavicle and the scapula. The clavicle (collarbone) acts as a strut, holding the shoulder out to the side so the arm can swing freely, and it passes forces from the arm to the axial skeleton. The scapula (shoulder blade) is held by muscles so that it can slide and rotate, increasing the range of movement of the arm; its shallow socket receives the head of the humerus and its large surface gives attachment to shoulder and arm muscles.",
+    "prompt": "Name the two bones of the pectoral girdle and give one function of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The pectoral girdle is loosely attached to the axial skeleton by muscles, and its scapula has a shallow socket for the humerus. This allows a wide range of movement, which suits the arm's job of reaching and swinging, but the joint is less stable. The pelvic girdle is a rigid, bowl-shaped ring fused to the sacrum, and its deep socket holds the head of the femur. This makes the hip very stable and suited to bearing the body's weight and passing it to the legs, although it allows a smaller range of movement than the shoulder.",
+    "prompt": "Compare the structure of the pelvic girdle and the pectoral girdle and relate each to its function.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "The bones of the leg are the femur, patella, tibia and fibula. The femur is the longest and strongest bone in the body; its thick shaft of compact bone carries the body's weight and gives attachment to the large thigh muscles used in walking and running. The tibia is the larger, inner bone of the lower leg; it forms the knee and ankle joints and carries almost all the weight passed down from the femur. The fibula is thin and outer, takes little weight and is not part of the knee joint, but it gives attachment to lower leg muscles. The patella, embedded in the quadriceps tendon, protects the front of the knee and improves the leverage of the quadriceps.",
+    "prompt": "Name the bones of the human leg and relate the structure of any two to their functions.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio18-s4": {
+  "keyTerms": [
+   {
+    "definition": "A freely movable joint in which the bones are separated by a fluid-filled joint cavity.",
+    "term": "Synovial joint"
+   },
+   {
+    "definition": "The smooth, slippery layer of cartilage covering the bone ends inside a synovial joint.",
+    "term": "Articular cartilage"
+   },
+   {
+    "definition": "The thick, slippery fluid in the joint cavity that lubricates the joint and nourishes the cartilage.",
+    "term": "Synovial fluid"
+   },
+   {
+    "definition": "The thin membrane lining the joint capsule that secretes synovial fluid.",
+    "term": "Synovial membrane"
+   },
+   {
+    "definition": "The tough, fibrous sleeve that encloses a synovial joint and holds the synovial fluid in.",
+    "term": "Joint capsule"
+   },
+   {
+    "definition": "A tough, slightly elastic band of fibrous tissue that joins bone to bone.",
+    "term": "Ligament"
+   },
+   {
+    "definition": "A tough, inelastic cord of fibrous tissue that joins muscle to bone and transmits the muscle's pull.",
+    "term": "Tendon"
+   },
+   {
+    "definition": "Two muscles that produce opposite movements at the same joint, so that one contracts while the other relaxes.",
+    "term": "Antagonistic pair"
+   },
+   {
+    "definition": "A muscle that bends a joint.",
+    "term": "Flexor"
+   },
+   {
+    "definition": "A muscle that straightens a joint.",
+    "term": "Extensor"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Types of joint",
+    "points": [
+     "A joint is a place where two or more bones meet. Joints are grouped by how much movement they allow.",
+     "Fixed (immovable) joints join bones with fibrous tissue and allow no movement, for example the sutures of the cranium.",
+     "Slightly movable (cartilaginous) joints join bones with cartilage and allow a little movement, for example between vertebrae, which are joined by intervertebral discs (see \"The axial skeleton\").",
+     "Freely movable (synovial) joints have bones separated by a fluid-filled cavity and allow a wide range of movement, for example the shoulder, elbow, hip and knee."
+    ]
+   },
+   {
+    "h": "Types of synovial joint",
+    "points": [
+     "Ball-and-socket joints (shoulder, hip): a rounded head fits into a cup, allowing movement in all directions and rotation.",
+     "Hinge joints (elbow, knee): movement in one plane only, bending and straightening, like a door.",
+     "Pivot joints: one bone rotates around another, for example the atlas turning on the axis to turn the head, and the radius turning against the ulna to rotate the forearm.",
+     "Gliding joints: flat surfaces slide over each other, for example between the small wrist and ankle bones."
+    ]
+   },
+   {
+    "h": "Structure and function of a synovial joint",
+    "points": [
+     "Articular cartilage (hyaline cartilage) is a smooth, slippery, slightly compressible layer covering the ends of the bones inside the joint.",
+     "Articular cartilage reduces friction so the bones glide over each other, absorbs shock to cushion the bones against impact, and prevents the bone ends from wearing each other away.",
+     "Cartilage has no blood vessels, so it gets its nutrients from the synovial fluid and heals slowly if it is damaged.",
+     "The synovial membrane is a thin membrane lining the inside of the joint capsule, but it does not cover the cartilage. It secretes synovial fluid into the joint cavity.",
+     "Synovial fluid is a thick, slippery fluid filling the joint cavity. It lubricates the joint, reducing friction and wear, supplies oxygen and nutrients to the cartilage and removes its wastes, and helps absorb shock.",
+     "The joint capsule is a tough, fibrous sleeve that encloses the joint, holds the synovial fluid in and helps hold the bones together. It is strengthened by ligaments.",
+     "Ligaments are tough, strong bands of fibrous connective tissue, mainly collagen with some elastic fibres, that join bone to bone across the joint.",
+     "Ligaments hold the bones of the joint together and keep them in line. Being slightly elastic, they allow the joint to move in its normal directions while limiting movement in others, which prevents dislocation.",
+     "Some ligaments lie outside the capsule and some inside the joint, for example inside the knee.",
+     "Tendons are tough, strong, inelastic (non-stretchy) cords of fibrous connective tissue, mainly collagen, that join muscle to bone.",
+     "A tendon transmits the pull of a contracting muscle to the bone, so the bone moves at the joint. Because it does not stretch, all of the muscle's pull goes into moving the bone.",
+     "The Achilles tendon joins the calf muscle to the heel bone.",
+     "Pads of fibrocartilage inside some joints, the menisci in the knee, deepen the joint surfaces, spread the load and absorb shock.",
+     "At the knee, articular cartilage on the femur, tibia and back of the patella, together with the synovial fluid, lets the bones glide. Ligaments inside and outside the joint keep the femur and tibia aligned and stop the knee bending sideways or backwards.",
+     "The quadriceps tendon, which contains the patella, passes the pull of the thigh muscle to the tibia to straighten the leg.",
+     "Diagram: a generalised synovial joint (or the knee or hip) in section, labelling the two bones, articular cartilage, joint cavity with synovial fluid, synovial membrane, joint capsule, ligament, and a tendon attaching a muscle to one bone."
+    ]
+   },
+   {
+    "h": "Ligaments, tendons and cartilage compared",
+    "points": [
+     "What each joins: a ligament joins bone to bone; a tendon joins muscle to bone; cartilage either covers the ends of bones (articular cartilage) or joins bones (discs).",
+     "Elasticity: a ligament is slightly elastic, allowing some movement; a tendon is inelastic, transmitting force; cartilage is firm but compressible, absorbing shock.",
+     "Main function: a ligament holds the joint together and prevents dislocation; a tendon moves the bone when the muscle contracts; cartilage reduces friction and absorbs shock."
+    ]
+   },
+   {
+    "h": "Antagonistic muscle pairs",
+    "points": [
+     "A muscle can only contract and pull, never push, so each movement at a joint needs a second muscle to pull the bone back.",
+     "An antagonistic pair is two muscles that produce opposite movements at the same joint: when one contracts, the other relaxes and is stretched.",
+     "The flexor bends a joint (flexion); the extensor straightens it (extension).",
+     "Each muscle is attached by tendons at both ends. The origin is the attachment to the bone that stays still; the insertion is the attachment to the bone that moves.",
+     "When the muscle contracts it shortens (and becomes fatter), pulling the insertion towards the origin.",
+     "At the elbow, the biceps lies at the front of the upper arm, with its origin on the scapula and its insertion on the radius.",
+     "The triceps lies at the back of the upper arm, with its origin on the scapula and humerus and its insertion on the ulna.",
+     "Bending the arm (flexion): the biceps contracts and shortens, pulling the radius and forearm up, while the triceps relaxes and is stretched. The biceps is the flexor.",
+     "Straightening the arm (extension): the triceps contracts, pulling the ulna and forearm down, while the biceps relaxes and is stretched. The triceps is the extensor.",
+     "A second example is the knee: the quadriceps (front of the thigh) contracts to straighten the leg, as the extensor, and the hamstrings (back of the thigh) contract to bend it, as the flexor.",
+     "Lever action: the forearm acts as a lever with the elbow joint as the pivot.",
+     "The biceps is inserted close to the elbow, so a small shortening of the muscle moves the hand through a large distance quickly, at the cost of needing a large muscle force.",
+     "Coordination: the nervous system sends impulses to one muscle of the pair while the other is allowed to relax, so movements are smooth.",
+     "Both muscles of a pair contracting slightly together hold a joint steady in one position, for example when holding a weight still.",
+     "Diagram: two drawings of the arm, bent and straight, showing scapula, humerus, radius, ulna, elbow joint, biceps and triceps with their tendons, each muscle labelled contracted or relaxed in each position, with arrows showing the direction of pull."
+    ]
+   },
+   {
+    "h": "Modelling an antagonistic pair",
+    "points": [
+     "A simple physical model uses two strips of stiff card or wood to represent the upper arm (humerus) and the forearm (radius and ulna), joined at one end by a split pin, which represents the elbow hinge joint.",
+     "Two pieces of string, elastic bands or long balloons represent the biceps and triceps. Each is fixed to the upper arm at one end (origin) and to the forearm at the other (insertion), one on the front and one on the back, with their ends standing for tendons.",
+     "Pulling (shortening) the front string raises the forearm while the back string slackens. This shows the biceps contracting and the triceps relaxing in flexion.",
+     "Pulling the back string lowers the forearm, showing extension.",
+     "Pushing on a string does nothing, which shows that a muscle can only pull.",
+     "The model shows that muscles work in pairs with opposite effects, that a muscle must be attached on both sides of a joint to move it, and that an insertion close to the joint gives a large movement of the forearm end (the lever action described above).",
+     "Real muscles shorten actively by contracting and get fatter, while the model's strings are pulled by hand.",
+     "The model has no articular cartilage, synovial fluid or ligaments.",
+     "A split pin allows movement in only one plane and does not show the rotation of the radius.",
+     "The model has no nervous control and no energy supply (ATP).",
+     "Real tendons are inelastic, while elastic bands stretch."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A ligament joins bone to bone, whereas a tendon joins muscle to bone. A ligament is slightly elastic, allowing some movement, whereas a tendon is inelastic, so it transmits the full pull of the contracting muscle. A ligament holds the bones of a joint together and prevents dislocation; a tendon moves the bone when the muscle contracts.",
+    "prompt": "Distinguish between a ligament and a tendon in terms of what each joins, its elasticity and its function.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "The diagram should show the two bones, articular cartilage on the bone ends, the joint cavity containing synovial fluid, the synovial membrane lining the joint capsule, the joint capsule, a ligament joining the two bones, and a tendon joining a muscle to one bone. Articular cartilage is smooth and slippery, reducing friction so the bones glide, and it absorbs shock. Synovial fluid lubricates the joint, reducing friction and wear, and supplies nutrients to the cartilage. Ligaments hold the bones together and keep them in line, allowing movement in the normal directions while preventing dislocation. Tendons transmit the pull of the muscle to the bone, so the bone moves at the joint without any loss of force, because they do not stretch.",
+    "prompt": "Draw a labelled diagram of a synovial joint and relate the functions of cartilage, ligaments, synovial fluid and tendons to the working of the joint.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Two strips of stiff card represent the upper arm and forearm, joined at one end by a split pin as the elbow hinge. Two strings are fixed to the upper arm at one end and to the forearm at the other, one on the front to represent the biceps and one on the back to represent the triceps. Pulling the front string shortens it, raising the forearm, which shows flexion with the biceps contracting and the triceps relaxing. Pulling the back string lowers the forearm, showing extension with the triceps contracting and the biceps relaxing. The model shows that muscles work in pairs with opposite effects and that a muscle can only pull. Two limitations: the model has no articular cartilage, synovial fluid or ligaments; and a split pin allows movement in only one plane and does not show the rotation of the radius.",
+    "prompt": "Describe a model you could use to show how an antagonistic muscle pair works at the elbow. Explain what it shows and give two limitations.",
+    "type": "short"
+   }
+  ]
+ },
  "bio19-s1": {
   "keyTerms": [
    {
@@ -3178,6 +8989,1192 @@
    }
   ]
  },
+ "bio22-s1": {
+  "keyTerms": [
+   {
+    "definition": "An organism or agent that causes disease in its host.",
+    "term": "Pathogen"
+   },
+   {
+    "definition": "A disease caused by a pathogen that can be passed from one host to another.",
+    "term": "Infectious disease"
+   },
+   {
+    "definition": "An organism that carries a pathogen from one host to another without itself being the disease.",
+    "term": "Vector"
+   },
+   {
+    "definition": "An infectious protein particle, with no nucleic acid, that causes misfolding of normal prion protein in nerve cells.",
+    "term": "Prion"
+   },
+   {
+    "definition": "Thread-like filaments that make up the body of most fungi and grow into or over host tissue.",
+    "term": "Hyphae"
+   },
+   {
+    "definition": "A parasite that lives inside its host.",
+    "term": "Endoparasite"
+   },
+   {
+    "definition": "A parasite that lives on the outside of its host.",
+    "term": "Ectoparasite"
+   },
+   {
+    "definition": "A drug that kills parasitic worms.",
+    "term": "Anthelmintic"
+   }
+  ],
+  "notes": [
+   {
+    "b": "A pathogen is an organism or agent that causes disease in its host, the organism it lives in or on.",
+    "h": "What a pathogen is",
+    "points": [
+     "An infectious (communicable) disease is one caused by a pathogen that can be passed from one host to another.",
+     "Most microorganisms are not pathogens: many are harmless or useful, as described in The microbiome.",
+     "Pathogens cause harm in three main ways: they invade and destroy host cells or tissues, they release toxins, or they take nutrients from the host.",
+     "Invasion: viruses burst the cells they reproduce in, and the malaria parasite bursts red blood cells.",
+     "Toxins are poisonous chemicals that damage cells or disturb how they work; the tetanus toxin made by bacteria in a wound causes muscle spasms.",
+     "In some diseases the host's own immune response causes much of the damage, for example inflammation of the lungs in pneumonia.",
+     "Each pathogen is adapted to its host: it must enter the host, survive its defences, reproduce and leave to infect a new host.",
+     "Many pathogens need a vector, an organism that carries a pathogen from one host to another without itself being the disease: the mosquito for malaria and aphids for many plant viruses.",
+     "Routes of transmission are described in Emergence and spread of infectious disease."
+    ]
+   },
+   {
+    "b": "A prion is an infectious protein particle. It contains no nucleic acid, so it is neither a cell nor a virus.",
+    "h": "Prions",
+    "points": [
+     "The name comes from proteinaceous infectious particle, a term coined by Stanley Prusiner in 1982 (Nobel Prize 1997).",
+     "A prion is a misfolded form of a normal protein, the prion protein, which is found on nerve cells, especially in the brain.",
+     "When a prion meets a normal prion protein, it causes the normal one to fold into the abnormal shape too, so the misfolded protein builds up in a chain reaction.",
+     "Clumps of misfolded protein kill nerve cells, leaving tiny holes so that the brain looks like a sponge under the microscope (spongiform encephalopathy).",
+     "Prion diseases take years to appear, are always fatal and have no cure.",
+     "Bovine spongiform encephalopathy (BSE, mad cow disease) in cattle spread when cattle were fed meat-and-bone meal made from infected animals.",
+     "Variant Creutzfeldt–Jakob disease (vCJD) in humans is linked to eating BSE-infected beef and was first described in the UK in 1996.",
+     "Scrapie affects sheep. Kuru affected the Fore people of Papua New Guinea and spread by eating the brains of dead relatives at funeral rites.",
+     "Prions are not destroyed by normal cooking, by the usual sterilisation temperatures or by many disinfectants.",
+     "The immune system does not attack prions, because they are the body's own protein in a different shape.",
+     "Prevention therefore keeps prions out of the food chain: meat-and-bone meal is banned from the feed of farm animals, and the brain and spinal cord of cattle are removed from food as specified risk material."
+    ]
+   },
+   {
+    "b": "A virus is a non-cellular particle of nucleic acid (DNA or RNA) in a protein coat. It is an obligate intracellular parasite, reproducing only inside a living host cell (its structure is described in Viruses).",
+    "h": "Viruses",
+    "points": [
+     "Viruses cause disease by destroying the cells they reproduce in, or by changing how those cells work.",
+     "Each virus attaches to particular receptor proteins, so it infects only certain hosts and tissues: HIV infects helper T cells and influenza viruses infect cells lining the airways.",
+     "How viruses replicate is described in Viruses: replication.",
+     "Human viral diseases include influenza, the common cold, measles, chickenpox, COVID-19 (SARS-CoV-2) and AIDS (HIV).",
+     "Animal viral diseases include foot-and-mouth disease, which affects cattle, sheep and pigs, and avian influenza, which affects birds.",
+     "Plant viral disease: tobacco mosaic virus infects tobacco and tomatoes.",
+     "Antibiotics don't affect viruses."
+    ]
+   },
+   {
+    "b": "Bacteria are single-celled prokaryotes with no nucleus or membrane-bound organelles, about 1–10 µm long (their structure is described in Bacteria and fungi).",
+    "h": "Bacteria",
+    "points": [
+     "Pathogenic bacteria reproduce rapidly by binary fission in host tissues.",
+     "Most bacteria cause harm by releasing toxins; some invade and destroy tissue.",
+     "Tuberculosis (TB) is caused by Mycobacterium tuberculosis, spreads in airborne droplets and mainly affects the lungs.",
+     "Food poisoning is caused by Salmonella, which spreads through contaminated food such as undercooked chicken or eggs.",
+     "Cholera is caused by Vibrio cholerae in water contaminated with faeces, and causes severe diarrhoea.",
+     "Tetanus is caused by Clostridium tetani. Its spores in soil enter a wound, and its toxin causes muscle spasms, known as lockjaw.",
+     "Lyme disease is caused by Borrelia burgdorferi and is passed on by tick bites.",
+     "In plants, fire blight of apple and pear trees is caused by Erwinia amylovora.",
+     "In cattle, bovine TB is caused by Mycobacterium bovis.",
+     "Most bacterial diseases can be treated with antibiotics, which target structures bacteria have and human cells lack (see Acquired immunity, prevention and treatment).",
+     "Antibiotic-resistant strains are increasing, for example MRSA (see Emergence and spread of infectious disease)."
+    ]
+   },
+   {
+    "b": "Fungi are eukaryotes with cell walls of chitin. Most are made of thread-like hyphae, and some, such as yeasts, are single cells (see Bacteria and fungi).",
+    "h": "Fungi",
+    "points": [
+     "Parasitic fungi grow hyphae into or over host tissue and secrete enzymes that digest it, and the fungus absorbs the products.",
+     "Fungi spread by spores, which are often carried by wind, water or contact.",
+     "Athlete's foot and ringworm are skin infections caused by fungi that feed on keratin; ringworm is a fungus, not a worm.",
+     "Thrush is caused by the yeast Candida albicans in the mouth or vagina, often after antibiotics have killed the bacteria that normally keep it in check.",
+     "Fungal infections are most dangerous in people with weakened immune systems.",
+     "Ash dieback, caused by the fungus Hymenoscyphus fraxineus, is killing ash trees across Europe.",
+     "Dutch elm disease, caused by the fungus Ophiostoma novo-ulmi, is spread by elm bark beetles.",
+     "Cereal rusts such as wheat rust are caused by Puccinia species.",
+     "Chytrid fungus (Batrachochytrium dendrobatidis) infects the skin of frogs and other amphibians (see Emergence and spread of infectious disease).",
+     "Antibiotics don't work on fungi, because fungi are eukaryotic and have no peptidoglycan cell wall or 70S ribosomes; antifungal drugs are used instead."
+    ]
+   },
+   {
+    "b": "Protists are eukaryotes, mostly single-celled, that are neither animals, plants nor fungi (see Classification). Parasitic protists often have complex life cycles with more than one host.",
+    "h": "Protists",
+    "points": [
+     "Malaria is caused by Plasmodium, which is passed to humans by the bite of an infected female Anopheles mosquito, the vector.",
+     "The parasite reproduces first in the liver and then in red blood cells, which burst together, causing repeated fevers and anaemia.",
+     "Malaria is controlled with insecticide-treated bed nets, insecticides, draining of standing water where mosquitoes breed, and antimalarial drugs such as artemisinin (see Science, scientists and society).",
+     "Amoebic dysentery is caused by Entamoeba histolytica, which spreads in water or food contaminated with faeces.",
+     "African sleeping sickness is caused by Trypanosoma brucei, which is spread by tsetse flies.",
+     "Potato late blight is caused by Phytophthora infestans, a water mould (oomycete). It looks like a fungus, being thread-like and spread by spores, but it is classed with the protists.",
+     "Its spores spread on wind and rain splash in mild, wet weather, and it rots leaves and tubers.",
+     "Potato late blight caused the Irish Great Famine from 1845 (see Emergence and spread of infectious disease)."
+    ]
+   },
+   {
+    "b": "A parasite lives in or on another organism, its host, feeding on it and harming it. Endoparasites live inside the host; ectoparasites live on the outside.",
+    "h": "Parasitic animals",
+    "points": [
+     "Parasitic animals are multicellular and much larger than microorganisms; most are worms or arthropods.",
+     "Tapeworms (e.g. Taenia) live in the small intestine, absorbing digested food through their body surface and attaching by hooks and suckers.",
+     "Humans become infected with tapeworms by eating undercooked infected pork or beef.",
+     "Liver fluke (Fasciola hepatica) is a flatworm of sheep and cattle that damages the liver.",
+     "The liver fluke needs a freshwater mud snail as a second host, so it is common on wet pasture in Ireland.",
+     "Onchocerca volvulus is a roundworm spread by blackflies that causes river blindness (see Science, scientists and society).",
+     "Head lice are ectoparasites that feed on blood from the scalp.",
+     "Ticks feed on blood and can also act as vectors, carrying the bacterium that causes Lyme disease.",
+     "Parasitic worms are treated with anthelmintic drugs that kill them, e.g. ivermectin.",
+     "Prevention: cook meat thoroughly, maintain sanitation, and control the second host or vector."
+    ]
+   },
+   {
+    "h": "Comparing the six pathogen types",
+    "points": [
+     "Prion: not cellular; no nucleic acid; a single protein molecule; no treatment.",
+     "Virus: not cellular; DNA or RNA; about 20–300 nm; treated with antivirals, not antibiotics.",
+     "Bacterium: prokaryotic cell; DNA; about 1–10 µm; treated with antibiotics.",
+     "Fungus: eukaryotic; DNA; from single cells to large networks of hyphae; treated with antifungals.",
+     "Protist: eukaryotic and mostly single-celled; DNA; treated with antiprotozoal drugs such as antimalarials.",
+     "Parasitic animal: multicellular eukaryote; DNA; from millimetres to metres in size; treated with anthelmintics."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "A pathogen is an organism or agent that causes disease in its host. (i) Tuberculosis is caused by the bacterium Mycobacterium tuberculosis. (ii) Athlete's foot is caused by a fungus that feeds on keratin in the skin. (iii) Malaria is caused by the protist Plasmodium, which is passed on by the bite of an infected female Anopheles mosquito.",
+    "prompt": "What is a pathogen? Name a disease caused by (i) a bacterium, (ii) a fungus and (iii) a protist.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A prion is an infectious protein with no nucleic acid, so it is not a cell. A virus is a non-cellular particle of nucleic acid, DNA or RNA, in a protein coat, which reproduces only inside a host cell. A prion causes disease when its misfolded shape makes normal prion protein fold into the same abnormal shape, so the misfolded protein builds up and kills nerve cells. Prion diseases are hard to prevent because normal cooking, usual sterilisation temperatures and many disinfectants do not destroy prions, so prevention depends on keeping them out of the food chain. Treatment is impossible because the immune system does not attack prions, which are the body's own protein in a different shape, and no cure exists.",
+    "prompt": "Distinguish between a prion and a virus, and explain why prion diseases are difficult to prevent and impossible to treat.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Virus: influenza is caused by an influenza virus, which infects cells lining the airways; the virus destroys these cells when it reproduces inside them. Bacterium: tetanus is caused by Clostridium tetani, whose spores enter a wound from soil; the bacterium releases a toxin that causes muscle spasms. Protist: malaria is caused by Plasmodium, which reproduces in the liver and then in red blood cells; the red blood cells burst, causing repeated fevers and anaemia. Each pathogen harms its host by invading and destroying cells, releasing toxins or taking nutrients from the host.",
+    "prompt": "Pathogens include viruses, bacteria, fungi, protists and parasitic animals. For any three of these, name one example, state the disease it causes and explain how it harms the host.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s2": {
+  "keyTerms": [
+   {
+    "definition": "The body's ability to resist infection by pathogens.",
+    "term": "Immunity"
+   },
+   {
+    "definition": "Non-specific defence that is present from birth, acts against any pathogen in the same way and acts within minutes to hours.",
+    "term": "Innate immunity"
+   },
+   {
+    "definition": "Specific immunity that develops after exposure to a particular pathogen, acts against that pathogen only and has memory.",
+    "term": "Adaptive immunity"
+   },
+   {
+    "definition": "A foreign molecule, usually a protein or polysaccharide, that triggers a specific immune response.",
+    "term": "Antigen"
+   },
+   {
+    "definition": "A Y-shaped protein made by plasma cells that binds to one specific antigen.",
+    "term": "Antibody"
+   },
+   {
+    "definition": "The engulfing and digesting of pathogens by phagocytes.",
+    "term": "Phagocytosis"
+   },
+   {
+    "definition": "The selection of the few lymphocytes whose receptors fit a pathogen's antigen, which then divide to form a clone.",
+    "term": "Clonal selection"
+   },
+   {
+    "definition": "A long-lived lymphocyte that remains after an infection and responds rapidly to the same antigen on re-exposure.",
+    "term": "Memory cell"
+   },
+   {
+    "definition": "A chemical signal released by helper T cells that stimulates other immune cells to divide or act.",
+    "term": "Cytokine"
+   },
+   {
+    "definition": "A group of blood proteins that coat pathogens and can burst bacterial cells.",
+    "term": "Complement"
+   }
+  ],
+  "notes": [
+   {
+    "b": "Immunity is the body's ability to resist infection by pathogens. The immune system works by telling self from non-self.",
+    "h": "The immune system and its two parts",
+    "points": [
+     "The immune system consists of physical and chemical barriers, white blood cells (made from stem cells in the bone marrow), the lymphatic system (lymph nodes, spleen and thymus) and defence proteins in the blood, such as antibodies and complement.",
+     "The body's own cells carry their own marker molecules on their surface, which the immune system normally ignores; foreign cells and molecules are attacked.",
+     "Innate immunity, also called non-specific immunity, is present from birth, acts against any pathogen in the same way and acts within minutes to hours.",
+     "Adaptive immunity, also called acquired or specific immunity, develops during life after exposure to a particular pathogen and acts against that pathogen only.",
+     "Adaptive immunity takes days to develop the first time, and it remembers the pathogen.",
+     "Innate defences are found in all animals and in plants; adaptive immunity, with antibodies and lymphocytes, is found only in vertebrates."
+    ]
+   },
+   {
+    "h": "First line of defence: barriers",
+    "points": [
+     "Skin is a tough outer layer of dead, keratin-filled cells that pathogens can't easily cross.",
+     "Oil (sebum) from skin glands makes the surface slightly acidic, which slows bacterial growth.",
+     "Breaks in the skin are sealed by blood clotting, which stops blood loss and blocks pathogen entry.",
+     "Mucous membranes line the breathing, digestive, urinary and reproductive tracts. Their sticky mucus traps microorganisms and dust.",
+     "In the trachea and bronchi, cilia beat the mucus up to the throat, where it is swallowed or coughed out.",
+     "Coughing and sneezing are reflexes that expel irritants.",
+     "Hydrochloric acid in the stomach, at about pH 2, kills most microorganisms swallowed with food.",
+     "Lysozyme, an enzyme in tears, saliva and mucus, breaks down bacterial cell walls.",
+     "The acidic conditions in the vagina inhibit many pathogens.",
+     "Harmless microorganisms living on the skin and in the gut and vagina, the normal microbiota, compete with pathogens for space and nutrients (see The microbiome)."
+    ]
+   },
+   {
+    "h": "Second line of defence: when pathogens get in",
+    "points": [
+     "Phagocytosis: phagocytes are white blood cells that engulf and digest pathogens.",
+     "Neutrophils are the most numerous white blood cells and the first to arrive. Macrophages, formed from monocytes (see White blood cells), are larger and longer-lived.",
+     "Stage 1: the phagocyte is attracted by chemicals released by pathogens and damaged cells.",
+     "Stage 2: it binds the pathogen.",
+     "Stage 3: it surrounds the pathogen with extensions of its membrane and takes it into a vesicle.",
+     "Stage 4: digestive enzymes are released into the vesicle and break the pathogen down.",
+     "Stage 5: the harmless products are absorbed or released.",
+     "Diagram: the stages of phagocytosis in four sketches: a phagocyte approaching a bacterium; membrane extensions surrounding it; the bacterium enclosed in a vesicle; the bacterium being digested. Label phagocyte, nucleus, bacterium, vesicle and digestive enzymes.",
+     "Inflammation: damaged cells and mast cells release histamine and other chemicals, which widen local blood vessels and make capillaries leakier.",
+     "More blood flow brings phagocytes and defence proteins, and fluid leaks into the tissue, giving redness, heat, swelling and pain at the site.",
+     "Pus is a mixture of dead phagocytes, pathogens and tissue fluid.",
+     "Fever: chemicals released by white blood cells reset the temperature set point in the hypothalamus upwards (see Homeostasis as a stimulus-response model), raising body temperature.",
+     "A higher temperature slows the reproduction of many pathogens and speeds up the reactions of the immune system.",
+     "Complement, a group of blood proteins, coats pathogens so that phagocytes engulf them more easily, and it can punch holes in bacterial membranes, bursting them.",
+     "Interferons are proteins released by virus-infected cells that make neighbouring cells resist virus replication.",
+     "Natural killer cells also act in the innate response (see White blood cells).",
+     "Plants have innate defences only: physical barriers (cuticle, bark and cell walls), protective chemicals, and the death of infected cells to wall off a pathogen (see Structures and systems for response)."
+    ]
+   },
+   {
+    "h": "Antigens and antibodies",
+    "points": [
+     "An antigen is a molecule, usually a protein or polysaccharide on the surface of a pathogen or on a toxin it releases, that the immune system recognises as foreign.",
+     "Antigens trigger a specific immune response, including antibody production.",
+     "Each pathogen carries several antigens. The body's own cell markers are self antigens, which are normally tolerated.",
+     "An antibody, also called an immunoglobulin, is a Y-shaped protein made by plasma cells, which are derived from B lymphocytes. It binds to one specific antigen.",
+     "An antibody has four polypeptide chains, two long heavy chains and two short light chains, held together by disulfide bonds.",
+     "The tips of the two arms are the variable regions, which differ between antibodies and form two identical antigen-binding sites. The rest of the molecule is the constant region, which is the same in all antibodies of a class.",
+     "Specificity: the shape of the antigen-binding site is complementary to the shape of one antigen, so each antibody binds only that antigen, like a key in a lock (compare enzyme specificity in Enzyme structure and specificity).",
+     "Diagram: an antibody as a Y shape, labelled heavy chain, light chain, variable region, antigen-binding site (two), constant region and disulfide bonds, with an antigen fitting one binding site.",
+     "Agglutination: because each antibody has two binding sites, antibodies link pathogens together into clumps that can't spread and are easily engulfed.",
+     "Neutralisation: antibodies cover the parts of viruses that attach to cells, or bind to toxins (antitoxins), so that they can't act.",
+     "Opsonisation: antibodies coat pathogens, marking them for phagocytes, which have receptors for the antibody's constant region.",
+     "Complement activation: antibodies activate complement, which bursts bacterial cells."
+    ]
+   },
+   {
+    "h": "How B lymphocytes make and remember antibodies",
+    "points": [
+     "Lymphocytes are the white blood cells of adaptive immunity, and there are two main kinds.",
+     "B lymphocytes (B cells) produce antibodies, the antibody-mediated or humoral response, acting on pathogens and toxins in blood and tissue fluid.",
+     "T lymphocytes (T cells) act directly on infected body cells in the cell-mediated response, described in the block on that response.",
+     "Clonal selection: the body has millions of different B cells, each with one type of antibody fixed in its membrane as a receptor, made before any infection.",
+     "When a pathogen enters, only the B cells whose receptors fit its antigen bind to it. These are selected and, with chemical signals from helper T cells, divide rapidly by mitosis to form a clone of identical cells.",
+     "The clone differentiates into plasma cells and memory B cells.",
+     "Plasma cells secrete large amounts of the matching antibody into the blood, thousands of molecules per second, for a few days, and then die.",
+     "Memory cells stay in the body for years, ready to respond to the same antigen.",
+     "Primary response, on first exposure: there is a delay of several days, often about a week, while matching B cells are selected and cloned. Antibody levels rise slowly and stay fairly low.",
+     "During the primary response the person may become ill.",
+     "Secondary response, on later exposure to the same antigen: memory cells recognise it at once and quickly produce many plasma cells, so antibodies appear within a few days, reach a much higher level and last longer.",
+     "The pathogen is usually destroyed before symptoms appear, so the person is immune. This is the basis of vaccination (see Acquired immunity, prevention and treatment).",
+     "Diagram: a graph of antibody concentration (y-axis) against time in days (x-axis), with a first exposure giving a small, slow primary peak and a second exposure giving a faster, much taller, longer secondary peak. Label both exposures, the lag phase, and the primary and secondary responses."
+    ]
+   },
+   {
+    "h": "The cell-mediated immune response (Higher Level only)",
+    "points": [
+     "The cell-mediated response is the part of adaptive immunity carried out by T lymphocytes acting directly on cells, not by antibodies.",
+     "It is needed because antibodies can't reach pathogens inside body cells, such as viruses and some bacteria, for example the TB bacterium, which lives inside macrophages.",
+     "It also destroys cancer cells and cells of transplanted organs, which is why transplant patients take drugs that suppress the immune system.",
+     "Antigen presentation: an infected body cell displays fragments of the pathogen's antigens on its surface, held in its self-marker proteins (MHC proteins).",
+     "Macrophages and other antigen-presenting cells that have engulfed a pathogen display its antigens in the same way.",
+     "T cells can't recognise free antigens, so this presentation is how they detect infection.",
+     "Activation of helper T cells: a helper T cell whose receptor fits the displayed antigen binds to the antigen-presenting cell and is activated. It divides to form a clone of helper T cells, as B cells do.",
+     "Helper T cells coordinate the response by releasing chemical signals called cytokines.",
+     "Cytokines stimulate the matching killer T cells to divide, stimulate the matching B cells to divide into plasma cells and memory cells (B cells need this help to respond fully), and attract and activate macrophages.",
+     "Helper T cells therefore link the cell-mediated and antibody responses.",
+     "Killer T cells (cytotoxic T cells) of the clone bind to body cells displaying the antigen and kill them, destroying the pathogens inside before they can multiply.",
+     "When the infection is cleared, suppressor T cells switch off the response by stopping the activity of killer T cells and B cells, so that healthy tissue isn't damaged.",
+     "Memory T cells remain, so a second infection triggers a faster, larger cell-mediated response.",
+     "Role of B lymphocytes: B cells act as antigen-presenting cells, taking in the antigen they bind and displaying it to helper T cells.",
+     "The antibodies released by the plasma cells of B cells mark infected cells and pathogens for destruction.",
+     "Diagram: draw a flow diagram in this order: pathogen; antigen presented by a macrophage or infected cell; helper T cell activated and cloned; cytokines; killer T cells cloned and infected cells killed; B cells cloned into plasma cells that secrete antibodies; memory T and B cells formed; suppressor T cells end the response."
+    ]
+   },
+   {
+    "h": "Comparing innate and adaptive immunity",
+    "points": [
+     "Presence: innate immunity is present from birth, while adaptive immunity develops after exposure to a pathogen.",
+     "Specificity: innate immunity is non-specific, giving the same response to every pathogen, while adaptive immunity is specific, with each response against one antigen.",
+     "Memory: innate immunity gives the same response each time, while adaptive immunity has memory, so a second response is faster and stronger.",
+     "Speed: innate immunity acts within minutes to hours, while adaptive immunity takes days on first exposure.",
+     "Mechanisms: innate immunity uses barriers, phagocytes (neutrophils and macrophages), inflammation, fever, complement, interferons and natural killer cells; adaptive immunity uses B and T lymphocytes and antibodies.",
+     "Distribution: innate defences are found in all animals and in plants, while adaptive immunity is found only in vertebrates.",
+     "The two systems work together: macrophages of the innate system present antigens to start the adaptive response, and antibodies of the adaptive system make phagocytosis and complement more effective."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Innate immunity is present from birth, while acquired immunity develops after exposure to a pathogen. Innate immunity is non-specific, giving the same response to every pathogen, while acquired immunity is specific, acting against one antigen. Innate immunity gives the same response each time, whereas acquired immunity has memory, so a second response is faster and stronger.",
+    "prompt": "Distinguish between innate and acquired immunity.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "An antigen is a molecule, usually a protein or polysaccharide on the surface of a pathogen or on a toxin it releases, that the immune system recognises as foreign and that triggers an immune response. An antibody is a Y-shaped protein made by plasma cells. It has two identical antigen-binding sites, and each site is complementary in shape to one antigen. On the first infection, the few B cells whose receptors fit the antigen are selected and divide by mitosis to form a clone. Some become plasma cells, which secrete the matching antibody, and some become memory B cells. The primary response has a delay of several days, so antibody levels rise slowly and stay low. On a second infection, memory cells recognise the antigen at once and quickly produce many plasma cells, so antibodies appear within a few days, reach a much higher level and last longer, and the pathogen is usually destroyed before symptoms appear. The graph of antibody concentration against time shows a small, slow primary peak and a faster, taller, longer secondary peak.",
+    "prompt": "Explain what is meant by an antigen and an antibody, and describe how B lymphocytes respond to the first and second infection by the same pathogen.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Antibodies cannot reach a virus inside a body cell, so the cell-mediated response is used. The infected cell displays fragments of viral antigen on its surface, held in MHC proteins. A helper T cell whose receptor fits the displayed antigen is activated and divides to form a clone. Helper T cells release cytokines that stimulate the matching killer T cells to divide, activate macrophages and stimulate the matching B cells. Clones of killer T cells bind to the infected cell and kill it, destroying the viruses inside before they multiply. When the infection is cleared, suppressor T cells switch off the response so that healthy tissue is not damaged, and memory T cells remain so that a second infection triggers a faster, larger response. B cells act as antigen-presenting cells: they take in the antigen they bind and display it to helper T cells. Their plasma cells release antibodies that mark infected cells and pathogens for destruction.",
+    "prompt": "Describe the roles of B and T lymphocytes in the cell-mediated immune response to a virus-infected cell.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s3": {
+  "keyTerms": [
+   {
+    "definition": "Immunity produced by the person's own immune system in response to an antigen, which is long-lasting because memory cells remain.",
+    "term": "Active immunity"
+   },
+   {
+    "definition": "Immunity given by ready-made antibodies from another person or animal, which is immediate but short-lived and forms no memory cells.",
+    "term": "Passive immunity"
+   },
+   {
+    "definition": "A preparation containing antigens of a pathogen in a form that cannot cause disease, given to trigger a primary response and memory cells.",
+    "term": "Vaccine"
+   },
+   {
+    "definition": "A second or later dose of a vaccine that produces a secondary response and raises immunity.",
+    "term": "Booster dose"
+   },
+   {
+    "definition": "Indirect protection of people who cannot be vaccinated, because a high proportion of the population is immune and the pathogen cannot keep spreading.",
+    "term": "Herd immunity"
+   },
+   {
+    "definition": "The first milk after birth, which contains antibodies, mainly IgA, that protect the baby's gut and breathing passages.",
+    "term": "Colostrum"
+   },
+   {
+    "definition": "A chemical, originally made by microorganisms, that kills bacteria or stops them growing without harming human cells.",
+    "term": "Antibiotic"
+   },
+   {
+    "definition": "An identical antibody made in the laboratory against one antigen, used to treat some infections and cancers.",
+    "term": "Monoclonal antibody"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Active and passive immunity",
+    "points": [
+     "Active immunity: the person's own immune system makes antibodies and memory cells in response to an antigen.",
+     "Active immunity takes days to weeks to develop, but it is long-lasting, often for years or for life, because memory cells remain.",
+     "Passive immunity: ready-made antibodies from another person or animal are given to the person.",
+     "Passive immunity gives immediate protection but is short-lived, lasting weeks to a few months, because the antibodies are gradually broken down and no memory cells are made.",
+     "A later infection with the same pathogen triggers a primary response, as if for the first time.",
+     "Natural immunity comes from normal life events such as infection, pregnancy and breastfeeding.",
+     "Artificial immunity comes from deliberate medical intervention, such as vaccines and antibody injections."
+    ]
+   },
+   {
+    "h": "The four ways immunity is acquired",
+    "points": [
+     "Active natural immunity, by infection: catching a disease and recovering leaves memory cells against that pathogen. For example, most people who have had chickenpox or measles don't get them again.",
+     "Active artificial immunity, by vaccination: a vaccine stimulates the immune system to make antibodies and memory cells without causing the disease, for example the MMR vaccine against measles, mumps and rubella.",
+     "Passive natural immunity, from the mother: antibodies (IgG) cross the placenta into the fetus during pregnancy.",
+     "After birth, breast milk, especially the first milk (colostrum), contains antibodies, mainly IgA, that protect the baby's gut and breathing passages.",
+     "This passive protection lasts for the newborn's first few months, while its own immune system develops.",
+     "Passive artificial immunity, by donor transfer of antibodies: an injection of antibodies collected from donors (human immunoglobulin) or from immunised animals gives instant protection when there is no time for active immunity to develop.",
+     "Examples of passive artificial immunity: tetanus immunoglobulin for an unvaccinated person with a dirty wound; rabies immunoglobulin after a bite from a possibly rabid animal; hepatitis B immunoglobulin for babies born to infected mothers; antivenom, made in horses or sheep, for snake bites.",
+     "Active immunity uses the person's own antibodies and memory cells, starts slowly and lasts long. Passive immunity uses donor antibodies, starts immediately, forms no memory and is short-lived. Active immunity is used for prevention in advance; passive immunity is used for emergency protection or to protect newborns."
+    ]
+   },
+   {
+    "h": "Vaccination",
+    "points": [
+     "A vaccine contains antigens of a pathogen in a form that can't cause disease. Vaccines contain antigens, not antibodies.",
+     "Given by injection, or by mouth or nasal spray, a vaccine triggers a primary response, so memory cells form.",
+     "A later infection meets a fast, strong secondary response, and the disease doesn't develop (see Innate and adaptive immunity).",
+     "Live attenuated vaccines contain a weakened pathogen that reproduces only slightly, e.g. MMR, and BCG against TB.",
+     "Inactivated vaccines contain a killed pathogen, e.g. the injected polio vaccine and most injected flu vaccines.",
+     "Toxoid vaccines contain an inactivated toxin, e.g. tetanus and diphtheria vaccines.",
+     "Subunit vaccines contain only a purified antigen, often made by genetically modified cells, e.g. the hepatitis B and HPV vaccines.",
+     "mRNA vaccines contain the genetic instructions for a pathogen protein, which the body's cells use to make the antigen, e.g. some COVID-19 vaccines.",
+     "Viral vector vaccines use a harmless virus that carries an antigen gene (see Viruses).",
+     "Booster doses: a second or later dose of the same vaccine produces a secondary response, raising antibody levels and the number of memory cells, so immunity lasts longer, e.g. tetanus boosters.",
+     "A vaccine booster is active immunity; an injection of donor antibodies is passive.",
+     "Herd immunity: when a high enough proportion of a population is immune, a pathogen can't find enough susceptible hosts to keep spreading, so people who can't be vaccinated are protected indirectly.",
+     "People who can't be vaccinated include newborns, people with weakened immune systems and people allergic to a vaccine component.",
+     "The proportion needed depends on how infectious the disease is (calculated in Emergence and spread of infectious disease).",
+     "In 1796 Edward Jenner showed that infecting a boy, James Phipps, with cowpox, a mild disease, protected him from smallpox. The word vaccine comes from vacca, Latin for cow.",
+     "Worldwide vaccination led the World Health Organization to declare smallpox eradicated in 1980, the first human disease to be eradicated.",
+     "Benefits: vaccines prevent illness, disability and death, are cheaper than treatment, and protect others through herd immunity.",
+     "Concerns: rare side effects, most of them mild, e.g. a sore arm or a low fever. Live vaccines are not given to people with weakened immune systems.",
+     "Misinformation lowers uptake, and outbreaks follow when coverage falls (the MMR case is in Evaluating evidence)."
+    ]
+   },
+   {
+    "h": "Strategies to prevent microbial disease",
+    "points": [
+     "Hygiene: handwashing with soap removes and kills microorganisms on the hands, breaking transmission by contact (the Semmelweis case is in The nature of scientific knowledge).",
+     "Covering coughs and sneezes and cleaning surfaces also reduce transmission.",
+     "Clean water and sanitation: treating drinking water by filtering and chlorination, and safely disposing of sewage, stops the spread of waterborne diseases such as cholera.",
+     "Food safety: cooking food thoroughly kills pathogens, e.g. Salmonella in chicken.",
+     "Food safety: refrigeration slows the growth of pathogens.",
+     "Food safety: pasteurisation heats milk to about 72 °C for 15 seconds and then cools it quickly, killing pathogens without spoiling the milk.",
+     "Food safety: avoiding cross-contamination between raw and cooked food.",
+     "Vaccination: vaccines given before exposure protect the vaccinated person and, through herd immunity, others (the vaccine types are described in the Vaccination block above).",
+     "Vector control: insecticide-treated bed nets, insecticide spraying and draining standing water reduce the mosquitoes that carry malaria; controlling ticks reduces Lyme disease.",
+     "Barrier methods: condoms reduce the spread of sexually transmitted infections such as HIV.",
+     "Blood safety: donated blood is screened for HIV and hepatitis viruses, and needles are sterile and used once.",
+     "Sterilisation: autoclaving, which uses steam under pressure at 121 °C, kills microorganisms and spores on equipment.",
+     "Disinfectants and antiseptics are used on surfaces and skin.",
+     "Aseptic technique in surgery prevents wound infection.",
+     "Isolation separates people who are ill. Quarantine separates people, or animals and plants, who may have been exposed until it is clear they are not infected.",
+     "Contact tracing finds people who have been exposed to a case. Population-level use of isolation and quarantine is described in Emerging diseases and society.",
+     "In plants and farm animals: resistant varieties and breeds, certified disease-free seed and stock, crop rotation, fungicide sprays (e.g. against potato blight), and good animal housing and hygiene.",
+     "Prion diseases are prevented by keeping prions out of feed and food (see Pathogens)."
+    ]
+   },
+   {
+    "h": "Strategies to treat microbial disease",
+    "points": [
+     "Antibiotics are chemicals, originally made by microorganisms, that kill bacteria or stop them growing, without harming human cells.",
+     "Antibiotics work because they target structures that bacteria have and human cells lack.",
+     "Penicillin stops bacteria building their peptidoglycan cell wall, so growing bacteria burst.",
+     "Tetracycline and streptomycin bind to bacterial 70S ribosomes and stop protein synthesis; human cytoplasmic ribosomes are 80S.",
+     "Antibiotics have no effect on viruses.",
+     "Responsible antibiotic use: take antibiotics only when prescribed for a bacterial infection, take the full course as directed, and never share them.",
+     "Unnecessary use selects for resistant bacteria (detail in Emergence and spread of infectious disease).",
+     "Antiviral drugs interfere with a stage of virus replication inside the host cell, so each is specific to one virus or a few (examples and how they act are in Viruses: replication).",
+     "There are far fewer antivirals than antibiotics, because viruses use the host cell's own machinery, which a drug must not damage.",
+     "Antifungal drugs target structures of fungal cells, e.g. clotrimazole cream for athlete's foot and thrush.",
+     "Antiprotozoal drugs treat protist infections, e.g. artemisinin-based drugs for malaria.",
+     "Anthelmintics kill parasitic worms, e.g. ivermectin.",
+     "Monoclonal antibodies, which are identical antibodies made in the laboratory against one antigen, are used to treat some infections and cancers.",
+     "Supportive treatment: rest, fluids and rehydration, e.g. oral rehydration solution of water, salts and sugar for cholera, and reducing fever, while the immune system clears the infection."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "Active immunity is produced by the person's own immune system, which makes antibodies and memory cells in response to an antigen. It takes days to weeks to develop but is long-lasting, often for years or for life. Example: most people who have had measles don't get it again. Passive immunity is given by ready-made antibodies from another person or animal. It works immediately but is short-lived, lasting weeks to a few months, because no memory cells are made. Example: tetanus immunoglobulin given to an unvaccinated person with a dirty wound.",
+    "prompt": "Distinguish between active and passive immunity, giving one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "A vaccine contains antigens of a pathogen in a form that cannot cause disease, so it triggers a primary response and the person's B cells form memory cells. If the person later meets the pathogen, the memory cells produce a fast, strong secondary response, with many antibodies, so the pathogen is destroyed before the disease develops. For example, the MMR vaccine contains weakened measles virus. A booster is a second or later dose of the same vaccine. It produces a secondary response, raises antibody levels and increases the number of memory cells, so immunity lasts longer. A vaccine contains antigens, not antibodies.",
+    "prompt": "Explain how vaccination protects a person against a disease, and why booster doses are given.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Prevention: (1) hygiene, where handwashing with soap removes microorganisms from the hands and breaks transmission by contact; (2) clean water and sanitation, where filtering and chlorination of drinking water and safe sewage disposal stop waterborne diseases such as cholera; (3) food safety, where thorough cooking, refrigeration and pasteurisation of milk at about 72 °C for 15 seconds kill or control pathogens; (4) vector control, where insecticide-treated bed nets and draining standing water reduce the mosquitoes that carry malaria. Treatment: (1) antibiotics, such as penicillin, which stops bacteria building their peptidoglycan cell wall so that growing bacteria burst, without harming human cells; (2) antiviral drugs, which interfere with a stage of virus replication inside the host cell, and are specific to one virus or a few.",
+    "prompt": "Outline four strategies used to prevent, and two used to treat, microbial diseases.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s4": {
+  "keyTerms": [
+   {
+    "definition": "The binding of viral capsid or envelope proteins to specific receptor proteins on the host cell membrane.",
+    "term": "Attachment"
+   },
+   {
+    "definition": "The release of an enveloped virus through the host membrane, taking a piece of that membrane as its envelope.",
+    "term": "Budding"
+   },
+   {
+    "definition": "Viral replication that ends with the host cell bursting and releasing the new viruses.",
+    "term": "Lytic cycle"
+   },
+   {
+    "definition": "A cycle in which viral DNA is inserted into the host chromosome as a prophage and copied each time the cell divides.",
+    "term": "Lysogenic cycle"
+   },
+   {
+    "definition": "A state in which a virus is hidden inside host cells in an inactive form and can reactivate later.",
+    "term": "Latency"
+   },
+   {
+    "definition": "The viral enzyme that makes a DNA copy of RNA inside the host cell.",
+    "term": "Reverse transcriptase"
+   },
+   {
+    "definition": "Viral DNA inserted into the host chromosome, where it can remain hidden for years.",
+    "term": "Provirus"
+   },
+   {
+    "definition": "The viral enzyme that inserts viral DNA into the host chromosome.",
+    "term": "Integrase"
+   },
+   {
+    "definition": "The influenza enzyme that releases new viruses from the cell surface.",
+    "term": "Neuraminidase"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Why viruses must replicate inside cells",
+    "points": [
+     "A virus has no ribosomes, almost no enzymes and no energy supply, so it can't make anything by itself. It reproduces by delivering its nucleic acid into a host cell, which then makes new virus particles using its own ribosomes, enzymes, ATP, nucleotides and amino acids (structure is described in Viruses)."
+    ]
+   },
+   {
+    "h": "The stages of viral replication",
+    "points": [
+     "Stage 1, attachment: proteins on the capsid or envelope bind to specific receptor proteins on the host cell membrane.",
+     "HIV binds to the CD4 receptor on helper T cells, and the spike protein of SARS-CoV-2 binds to the ACE2 receptor on cells lining the airways. Receptor binding decides which cells a virus can infect.",
+     "Stage 2, entry: a bacteriophage injects only its nucleic acid through the bacterial wall, leaving the empty coat outside.",
+     "Animal viruses enter whole, either by the host membrane folding in around them (endocytosis) or, for enveloped viruses, by the envelope fusing with the host membrane.",
+     "Stage 3, uncoating: inside the cell, the capsid breaks down and releases the viral nucleic acid.",
+     "Stage 4, replication and synthesis: the viral genes take over the cell. Viral mRNA is made, and the host's ribosomes translate it into viral proteins, which are capsid proteins and viral enzymes.",
+     "In stage 4 the viral nucleic acid is copied many times, and host-cell activities are often shut down.",
+     "Stage 5, assembly: new nucleic acid and capsid proteins come together to form many new virus particles, often hundreds per cell.",
+     "Stage 6, release: either the cell bursts (lysis), releasing all the viruses at once and killing the cell, or, for enveloped viruses, each new virus pushes out through the membrane and takes a piece of it as its envelope (budding), so the cell can survive for a time.",
+     "The new viruses infect neighbouring cells, and the cycle repeats.",
+     "Diagram: the lytic cycle of a bacteriophage in five or six sketches arranged in a circle: phage attached to a bacterium by its tail fibres; DNA injected; phage DNA copied and phage proteins made; new phages assembled; cell bursting and releasing phages. Label phage, bacterial cell wall, phage DNA, bacterial chromosome and new phages.",
+     "Diagram: an enveloped animal virus, such as influenza, entering a cell by endocytosis or fusion and leaving by budding, with the host membrane forming the new envelope."
+    ]
+   },
+   {
+    "h": "Lytic and lysogenic cycles",
+    "points": [
+     "Lytic cycle: the virus replicates immediately, following the stages above, and the host cell bursts. Example: bacteriophage T4 infecting the bacterium E. coli.",
+     "Lysogenic cycle: some viruses insert their DNA into the host cell's chromosome, where it stays inactive and is copied every time the cell divides, so all daughter cells carry it.",
+     "In bacteria the inserted DNA is called a prophage. Example: bacteriophage lambda in E. coli.",
+     "A trigger, such as stress like UV light, can cut the viral DNA out of the chromosome and start the lytic cycle.",
+     "Latency in human viruses: some viruses hide in cells in an inactive state for years and reactivate later.",
+     "Herpes simplex virus stays in nerve cells after the first infection and reactivates to cause repeated cold sores.",
+     "Varicella-zoster virus causes chickenpox, stays in nerve cells, and can reactivate decades later as shingles.",
+     "A latent virus is hidden from the immune system and from antiviral drugs."
+    ]
+   },
+   {
+    "h": "How viruses harm the host",
+    "points": [
+     "Killing cells: lysis destroys infected cells. Influenza destroys cells lining the airways, causing a sore throat and cough, and the cold virus damages cells of the nose and throat.",
+     "Disrupting cell function: the virus diverts the cell's ribosomes, enzymes and energy to making viruses, so the cell stops its normal work.",
+     "Damaging the immune system: HIV infects and destroys helper T cells.",
+     "As helper T cell numbers fall over years, the immune system can no longer coordinate its responses, and the person develops AIDS (acquired immune deficiency syndrome).",
+     "People with AIDS die of opportunistic infections and cancers that a healthy immune system would control.",
+     "Causing cancer: some viruses insert genes that interfere with the control of cell division, e.g. human papillomavirus (HPV) and cervical cancer (detail in Causes, prevention and treatment of cancer).",
+     "Triggering harmful immune responses: much of the fever, aches and tissue damage in viral illness is caused by the body's own immune response (inflammation) to infected cells."
+    ]
+   },
+   {
+    "h": "DNA and RNA viruses",
+    "points": [
+     "Genetic material: a DNA virus has DNA as its genetic material; an RNA virus has RNA.",
+     "DNA viruses include herpes simplex and varicella-zoster (chickenpox) viruses, human papillomavirus (HPV), adenoviruses, the smallpox virus, and bacteriophages T4 and lambda.",
+     "RNA viruses include influenza, measles, mumps, polio, rhinoviruses (the common cold), SARS-CoV-2, HIV, Ebola and tobacco mosaic virus.",
+     "Where they replicate: most DNA viruses enter the host nucleus and use the host's own enzymes, such as DNA polymerase and RNA polymerase, to copy their DNA and make mRNA.",
+     "Poxviruses such as the smallpox virus are an exception: they replicate in the cytoplasm with their own enzymes.",
+     "Most RNA viruses replicate in the cytoplasm and must carry or code for their own enzyme, an RNA-dependent RNA polymerase, to copy RNA from RNA, because host cells have no enzyme that does this.",
+     "Mutation rate: the enzyme that copies RNA has no proofreading, so RNA viruses make many more copying errors and mutate much faster than DNA viruses, whose DNA is copied by host polymerases that proofread.",
+     "RNA viruses such as influenza and HIV change their surface antigens quickly, so new strains escape existing immunity. This is why flu vaccines are updated every year, and drug resistance appears quickly.",
+     "Mutation as a factor in disease emergence is described in Emergence and spread of infectious disease.",
+     "In some RNA viruses, such as poliovirus and SARS-CoV-2, the RNA acts directly as mRNA when it enters the cell and is translated at once.",
+     "In others, such as influenza and measles, the RNA must first be copied into a complementary strand that acts as mRNA.",
+     "DNA is a more stable molecule than RNA."
+    ]
+   },
+   {
+    "h": "Retroviruses: HIV",
+    "points": [
+     "A retrovirus is an RNA virus that makes a DNA copy of its RNA inside the host cell, using its own enzyme, reverse transcriptase, which reverses the usual direction of DNA to RNA. HIV is an example.",
+     "HIV replication, step 1: its envelope protein binds the CD4 receptor on a helper T cell.",
+     "Step 2: the envelope fuses with the cell membrane, and the capsid enters.",
+     "Step 3: reverse transcriptase makes double-stranded DNA from the viral RNA.",
+     "Step 4: a second viral enzyme, integrase, inserts this DNA into the host's chromosome, where it is called a provirus and can stay hidden for years.",
+     "Step 5: when the cell is activated, the provirus is transcribed into viral mRNA and new viral RNA, and viral proteins are made.",
+     "Step 6: new viruses assemble and bud from the cell, taking an envelope of host membrane.",
+     "Reverse transcriptase makes many errors, so HIV mutates very quickly, which is one reason there is still no effective HIV vaccine.",
+     "Diagram: an HIV particle (envelope with surface proteins, capsid, two RNA strands and reverse transcriptase), and a flow of the six steps into and out of a helper T cell. Label receptor, viral RNA, viral DNA, host chromosome (provirus) and budding virus."
+    ]
+   },
+   {
+    "h": "How antivirals act on replication",
+    "points": [
+     "Antiviral drugs block a step in the cycle that uses a viral protein, so the host cell isn't harmed.",
+     "Aciclovir blocks the DNA polymerase of herpes viruses, which treats cold sores and shingles.",
+     "Oseltamivir blocks neuraminidase, the influenza enzyme that releases new viruses from the cell surface.",
+     "HIV drugs include reverse transcriptase inhibitors, of which zidovudine (AZT), approved in 1987, was the first.",
+     "HIV drugs also include protease inhibitors, which stop new viral proteins being cut into their working form.",
+     "HIV is treated with a combination of several antiretroviral drugs at once (antiretroviral therapy).",
+     "Antiretroviral therapy keeps the virus at very low levels and lets the immune system recover, but it doesn't cure the infection, because the provirus remains in the host DNA.",
+     "Using several drugs together makes resistance much less likely, since the virus would need several mutations at once."
+    ]
+   },
+   {
+    "h": "Modelling viral replication",
+    "points": [
+     "To model the cycle, first list the stages in order: attachment, entry, uncoating, replication and synthesis, assembly and release.",
+     "Draw each stage as a labelled sketch or box, showing the host-cell part used at that stage (receptor, membrane, ribosomes, enzymes, nucleotides).",
+     "Join the stages with arrows into a cycle.",
+     "Mark how a DNA virus, an RNA virus and a retrovirus differ at stage 4.",
+     "Mark where an antiviral drug would act.",
+     "Diagram: a flow chart of the cycle, with stages as labelled boxes joined by arrows into a loop, and the host-cell part used at each stage marked on it.",
+     "A physical model can use card or modelling clay to represent viruses and cells, to show attachment and budding.",
+     "The model shows the order of events, the dependence on host machinery, and why one infected cell releases many viruses (see Models).",
+     "The model simplifies the timing (a cycle can take minutes to hours), the numbers released, the molecular steps, and the differences between viruses.",
+     "Worked prediction: if each infected cell releases 100 viruses and each of those infects a new cell, two cycles from one virus give 100 × 100 = 10,000 viruses."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "DNA viruses have DNA as their genetic material, while RNA viruses have RNA. Most DNA viruses enter the host nucleus and use host enzymes to copy their DNA and make mRNA, whereas most RNA viruses replicate in the cytoplasm and must carry their own RNA-dependent RNA polymerase. RNA viruses also mutate much faster than DNA viruses, because the enzyme that copies RNA has no proofreading. Example of a DNA virus: herpes simplex virus, or the smallpox virus. Example of an RNA virus: influenza virus, measles virus or HIV.",
+    "prompt": "Give two differences between DNA viruses and RNA viruses, and name one example of each.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Draw the stages as a cycle of labelled sketches. (1) Attachment: viral capsid or envelope proteins bind to receptor proteins on the host membrane. (2) Entry: a bacteriophage injects its nucleic acid, while an animal virus enters by endocytosis or by fusion of its envelope. (3) Uncoating: the capsid breaks down and releases the nucleic acid. (4) Replication and synthesis: the viral genes take over the cell, viral mRNA is translated by the host's ribosomes into viral proteins, and the viral nucleic acid is copied many times. (5) Assembly: new nucleic acid and capsid proteins come together into many new virus particles. (6) Release: the cell bursts (lysis), or the viruses bud through the membrane. Label the receptor, membrane, ribosomes, enzymes, ATP and nucleotides used. A strength of the model is that it shows the order of events and the dependence on host machinery. A limitation is that it simplifies the timing, the numbers released and the molecular steps.",
+    "prompt": "Using a labelled diagram, model how a virus replicates inside a host cell.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "HIV is an RNA virus that is a retrovirus: inside the host cell, its enzyme reverse transcriptase makes a DNA copy of the viral RNA, reversing the usual direction of DNA to RNA. Integrase inserts this DNA into the host chromosome as a provirus, which can remain hidden for years. The virus particle itself contains RNA, not DNA. HIV binds to the CD4 receptor on helper T cells and infects and destroys them. As helper T cell numbers fall, the immune system can no longer coordinate its responses, and the person develops AIDS, dying of opportunistic infections and cancers that a healthy immune system would control.",
+    "prompt": "HIV is a retrovirus. Explain what this means and describe how HIV leads to AIDS.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s5": {
+  "keyTerms": [
+   {
+    "definition": "A white blood cell, which is a cell of the immune system; unlike red blood cells, it has a nucleus.",
+    "term": "Leucocyte"
+   },
+   {
+    "definition": "A large phagocyte that develops from a monocyte in the tissues, engulfs pathogens and presents their antigens to helper T cells.",
+    "term": "Macrophage"
+   },
+   {
+    "definition": "A lymphocyte of the innate system that kills virus-infected and cancer cells that show reduced self-markers, without needing a specific antigen.",
+    "term": "Natural killer cell"
+   },
+   {
+    "definition": "A protein released by killer and natural killer cells that makes pores in the membrane of a target cell.",
+    "term": "Perforin"
+   },
+   {
+    "definition": "An enzyme that enters a target cell through perforin pores and triggers apoptosis.",
+    "term": "Granzyme"
+   },
+   {
+    "definition": "Programmed cell death, by which a cell self-destructs.",
+    "term": "Apoptosis"
+   },
+   {
+    "definition": "The surface marker carried by helper T cells, which HIV infects and destroys.",
+    "term": "CD4"
+   },
+   {
+    "definition": "The surface marker carried by killer T cells.",
+    "term": "CD8"
+   },
+   {
+    "definition": "A suppressor T cell, which switches off immune responses and prevents attack on the body's own antigens.",
+    "term": "Regulatory T cell"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Origin of white blood cells (Higher Level only)",
+    "points": [
+     "White blood cells (leucocytes) are the cells of the immune system. Unlike red blood cells, they have a nucleus.",
+     "All white blood cells develop from stem cells in the red bone marrow.",
+     "They travel in the blood and lymph, and many leave the capillaries to enter the tissues where pathogens are.",
+     "There are two broad groups. Phagocytes (neutrophils and monocytes/macrophages) engulf pathogens. Lymphocytes (B cells, T cells and natural killer cells) are small cells with a large round nucleus filling most of the cell and little cytoplasm.",
+     "B lymphocytes mature in the bone marrow. T lymphocytes leave the marrow and mature in the thymus, a gland in the chest behind the breastbone (T for thymus).",
+     "During maturation, lymphocytes that would attack the body's own cells are removed, so mature lymphocytes respond only to non-self antigens."
+    ]
+   },
+   {
+    "h": "Monocytes (Higher Level only)",
+    "points": [
+     "Monocytes are the largest white blood cells, with a large kidney- or bean-shaped nucleus.",
+     "They circulate in the blood for a few days, then move into tissues and develop into macrophages, which can live for months.",
+     "Macrophages carry out phagocytosis of pathogens, dead cells and debris (the stages are in Innate and adaptive immunity).",
+     "Macrophages are antigen-presenting cells: they display fragments of engulfed pathogens on their surface to activate helper T cells, so they link innate and adaptive immunity.",
+     "Macrophages release chemicals that cause inflammation and fever and attract other white blood cells.",
+     "Diagram: a monocyte (large cell, kidney-shaped nucleus) beside a lymphocyte (small cell, large round nucleus, thin rim of cytoplasm). Label nucleus, cytoplasm and cell membrane."
+    ]
+   },
+   {
+    "h": "Natural killer cells (Higher Level only)",
+    "points": [
+     "Natural killer (NK) cells are lymphocytes of the innate system. They are not specific to one antigen and need no earlier exposure, so they act within hours of an infection, before B and T cells have responded.",
+     "Healthy body cells display normal self-marker (MHC) proteins on their surface.",
+     "Many virus-infected cells and cancer cells display fewer of these markers, or display stress molecules instead. NK cells kill cells showing this missing self pattern.",
+     "NK cells also kill cells coated with antibodies.",
+     "NK cells release perforin, a protein that makes pores in the target cell's membrane, and enzymes called granzymes that enter through the pores and trigger the cell to self-destruct (apoptosis, programmed cell death).",
+     "The dying cell breaks into fragments that macrophages engulf, so the virus inside is destroyed without spreading.",
+     "NK cells also release chemicals that activate macrophages."
+    ]
+   },
+   {
+    "h": "B lymphocytes (Higher Level only)",
+    "points": [
+     "B lymphocytes carry antibody molecules in their membrane as receptors. Each B cell and its descendants make only one antibody shape.",
+     "B lymphocytes are responsible for antibody-mediated (humoral) immunity. Clonal selection, plasma cells and memory B cells are described in Innate and adaptive immunity.",
+     "Plasma cells, the antibody-secreting form of B cells, are larger than resting B cells, with extensive rough endoplasmic reticulum to make and secrete large amounts of antibody protein (see Structures and organelles of animal and plant cells).",
+     "Antibodies act on pathogens and toxins outside cells, in blood, tissue fluid and mucus, not on pathogens hidden inside cells."
+    ]
+   },
+   {
+    "h": "T lymphocytes (Higher Level only)",
+    "points": [
+     "All T cells have T-cell receptors on their surface that recognise one antigen, but only when it is displayed on a cell's surface (presented), never as a free molecule.",
+     "T cells don't make antibodies.",
+     "Helper T cells carry the surface marker CD4.",
+     "Helper T cells are the coordinators of the adaptive response, signalling with cytokines. Which cells they activate, and in what order, is described in Innate and adaptive immunity.",
+     "Almost every adaptive response depends on helper T cells, so HIV, which infects and destroys CD4 helper T cells, leaves the body unable to fight many infections (see Viruses: replication).",
+     "Killer T cells (cytotoxic T cells) carry the surface marker CD8.",
+     "Killer T cells bind to body cells displaying their matching antigen, such as virus-infected cells, cancer cells and cells of transplanted tissue, and kill them by releasing perforin and granzymes, which triggers apoptosis.",
+     "Killer T cells use the same killing method as NK cells, but only against cells showing their one specific antigen.",
+     "Each killer T cell can kill many target cells in turn.",
+     "Suppressor T cells, now usually called regulatory T cells, are the brakes of the immune system.",
+     "Suppressor T cells end a response once an infection is cleared (see Innate and adaptive immunity), and they suppress lymphocytes that react to the body's own antigens, helping to prevent autoimmune disease and allergy (autoimmune disease is described in Emerging diseases and society).",
+     "Memory T cells form from the clone of activated T cells and remain in the blood and lymph tissue for years or decades.",
+     "On re-exposure to the same antigen, memory T cells quickly produce new helper and killer T cells, giving a faster, stronger cell-mediated response. Memory B cells do the same for antibodies.",
+     "Memory cells are why vaccination works."
+    ]
+   },
+   {
+    "h": "Comparing the roles of white blood cells (Higher Level only)",
+    "points": [
+     "Innate versus adaptive: monocytes, macrophages and NK cells are part of innate immunity, which is non-specific, acts quickly and has no memory.",
+     "B and T lymphocytes are adaptive: they are specific to one antigen, slower on first exposure, and they form memory cells.",
+     "Macrophages engulf and digest pathogens by phagocytosis. NK and killer T cells kill infected body cells by perforin and apoptosis.",
+     "B cells, as plasma cells, secrete antibodies. Helper T cells kill nothing themselves but signal to other cells. Suppressor T cells regulate the response. Memory cells kill nothing but enable a rapid future response.",
+     "Where the target is: antibodies from B cells act on pathogens and toxins outside cells; killer T and NK cells act on pathogens inside body cells by killing the cell; macrophages engulf free pathogens.",
+     "Recognition: B cells recognise free antigens with membrane antibodies; T cells recognise only antigens presented on cell surfaces; NK cells recognise missing or abnormal self-markers, not a specific antigen; macrophages recognise general features of pathogens and antibody-coated particles.",
+     "Monocyte or macrophage: innate; non-specific; main role is phagocytosis and antigen presentation; matures in the bone marrow, then in tissues.",
+     "NK cell: innate; non-specific; kills infected and cancer cells; matures in the bone marrow.",
+     "B lymphocyte: adaptive; specific; main role is antibodies (via plasma cells) and memory; matures in the bone marrow.",
+     "Helper T cell: adaptive; specific; activates B cells, killer T cells and macrophages (CD4); matures in the thymus.",
+     "Killer T cell: adaptive; specific; kills infected, cancer and transplant cells (CD8); matures in the thymus.",
+     "Suppressor T cell: adaptive; ends responses and prevents attack on self; matures in the thymus.",
+     "Memory B and T cells: adaptive; specific; long-lived, giving a fast secondary response.",
+     "Worked example, influenza in the airways: infected cells release interferons and NK cells kill some of them within hours; macrophages engulf viruses and present antigens; helper T cells are activated; killer T cells destroy infected cells while plasma cells release antibodies that neutralise free viruses; suppressor T cells end the response; memory cells remain, but because flu antigens change (see Viruses: replication), they may not recognise next year's strain."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "The four types are helper, killer, suppressor and memory T cells. Helper T cells activate B cells, killer T cells and macrophages by releasing cytokines. Killer T cells bind to body cells displaying their specific antigen, such as virus-infected cells, and kill them. Suppressor T cells end the response once the infection is cleared and stop attacks on the body's own antigens. Memory T cells remain for years and quickly produce new helper and killer T cells when the same antigen returns.",
+    "prompt": "Name the four types of T lymphocyte and state one role of each.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "Both kill infected body cells and cancer cells by releasing perforin and granzymes, which trigger apoptosis. Natural killer cells are part of the innate system: they are non-specific, need no earlier exposure, act within hours, detect missing or abnormal self-markers, and form no memory cells. Killer T cells are part of the adaptive system: each is specific to one antigen presented on a cell surface, is activated by helper T cells through cytokines, and forms memory cells.",
+    "prompt": "Compare the roles of natural killer cells and killer T cells.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Monocytes develop into macrophages, which engulf pathogens by phagocytosis and display their antigens to helper T cells, linking innate and adaptive immunity; macrophages also release chemicals that cause inflammation and fever. B lymphocytes, as plasma cells, secrete antibodies that act on pathogens and toxins outside cells, and they form memory cells. B cells recognise free antigens with antibodies in their membrane. Helper T cells, which carry CD4, coordinate the adaptive response by releasing cytokines that activate B cells, killer T cells and macrophages; they kill nothing themselves, and HIV destroys them. In comparison, monocytes are innate and non-specific, whereas B cells and helper T cells are adaptive and specific, and helper T cells recognise only antigens presented on cell surfaces.",
+    "prompt": "Compare the roles of monocytes, B lymphocytes and helper T lymphocytes in the immune response.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s6": {
+  "keyTerms": [
+   {
+    "definition": "An infectious disease that has newly appeared in a population, or is rapidly increasing in incidence or geographic range.",
+    "term": "Emerging disease"
+   },
+   {
+    "definition": "Always present at a fairly steady level in a region.",
+    "term": "Endemic"
+   },
+   {
+    "definition": "An epidemic that spreads across several continents or worldwide.",
+    "term": "Pandemic"
+   },
+   {
+    "definition": "An infectious disease that passes from animals to humans.",
+    "term": "Zoonosis"
+   },
+   {
+    "definition": "A host population in which a pathogen persists and from which it infects others.",
+    "term": "Reservoir"
+   },
+   {
+    "definition": "Gradual change in a virus's surface antigens caused by small mutations, so earlier immunity fits less well.",
+    "term": "Antigenic drift"
+   },
+   {
+    "definition": "A sudden change in a virus's surface antigens when RNA segments from two different flu viruses mix to form a new strain.",
+    "term": "Antigenic shift"
+   },
+   {
+    "definition": "The average number of secondary infections caused by one case in a fully susceptible population with no control measures.",
+    "term": "Basic reproduction number (R₀)"
+   },
+   {
+    "definition": "The average number of new infections per case at a given time, allowing for immunity and control measures.",
+    "term": "Effective reproduction number (R)"
+   },
+   {
+    "definition": "The proportion of a population that must be immune, equal to 1 − 1/R₀, to stop sustained spread.",
+    "term": "Herd-immunity threshold"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Key terms",
+    "points": [
+     "An emerging infectious disease is one that has newly appeared in a population, or one that was known but is rapidly increasing in incidence (the number of new cases) or in geographic range.",
+     "A re-emerging disease is one that had declined and is increasing again, e.g. measles where vaccination rates fall, or TB with drug-resistant strains.",
+     "Endemic means always present at a fairly steady level in a region.",
+     "An epidemic, or outbreak, is a sudden increase in cases above the expected level in a region.",
+     "A pandemic is an epidemic that spreads across several continents or worldwide, e.g. COVID-19, which the World Health Organization declared a pandemic on 11 March 2020.",
+     "A zoonosis is an infectious disease that passes from animals to humans, e.g. avian influenza or rabies.",
+     "Most emerging human diseases are zoonoses, often from wild animals (examples in Emerging diseases and society).",
+     "A reservoir is a host population in which a pathogen persists and from which it infects others, e.g. badgers for bovine TB in Ireland, or wild birds for avian influenza.",
+     "A carrier is an infected individual who shows no symptoms but can pass on the pathogen."
+    ]
+   },
+   {
+    "h": "How infectious diseases are transmitted",
+    "points": [
+     "Airborne droplets and aerosols from coughs, sneezes and breath spread influenza, TB, measles and COVID-19.",
+     "Wind-borne spores spread ash dieback, cereal rusts and potato blight in plants.",
+     "Direct contact, touch and skin to skin, spreads ringworm and athlete's foot.",
+     "Indirect contact via contaminated objects and surfaces (fomites), hands, tools and clothing spreads disease. In plants, contact with hands and tools spreads tobacco mosaic virus.",
+     "Contaminated food and water, the faecal–oral route, spreads cholera, Salmonella food poisoning and amoebic dysentery.",
+     "Body fluids spread HIV and hepatitis B through sexual contact, blood (shared needles and unscreened transfusions) and mother to baby.",
+     "Vectors are animals that carry pathogens between hosts: mosquitoes (malaria), ticks (Lyme disease), tsetse flies (sleeping sickness), elm bark beetles (Dutch elm disease), aphids (many plant viruses, e.g. barley yellow dwarf virus) and biting midges (bluetongue virus of sheep and cattle).",
+     "In plants, rain splash, soil, infected seed, tubers and cuttings also spread disease. Vegetative propagation passes viruses and blight to the next crop, and grafting does too."
+    ]
+   },
+   {
+    "h": "Movement of organisms: local, regional and global",
+    "points": [
+     "Local spread occurs within a household, school, hospital or farm, between neighbouring fields by wind and rain splash, and between neighbouring farms by animals straying, shared equipment, vehicles and people's boots.",
+     "Regional spread occurs when farm animals move through marts and between farms, when plants and animals are traded within a country or the EU, when wild animals move seasonally, and when people commute and holiday.",
+     "In the 2001 foot-and-mouth disease epidemic in Britain, infected sheep were moved through markets across the country before the disease was detected, spreading it to many farms.",
+     "Control of that epidemic needed a ban on animal movement and the culling of millions of animals.",
+     "Global spread: air travel can carry an infected person to any continent within a day, faster than many diseases take to show symptoms.",
+     "COVID-19 reached every continent within months of its first identification in Wuhan, China, in December 2019.",
+     "International trade moves pathogens and vectors in plants, wood, soil, live animals and goods. Ash dieback spread through Europe partly in imported young ash plants and was found in Ireland in 2012.",
+     "The second, more aggressive epidemic of Dutch elm disease reached Britain from the late 1960s in imported elm logs.",
+     "The Asian tiger mosquito (Aedes albopictus), a vector of several viruses, has spread to many countries in used tyres and plants.",
+     "Migrating wild birds carry avian influenza between continents.",
+     "The pet and wildlife trade spread chytrid fungus (Batrachochytrium dendrobatidis) around the world in the trade in amphibians. It is linked to the decline of hundreds of amphibian species and the extinction of some."
+    ]
+   },
+   {
+    "h": "Factor 1: persistence of the pathogen in a host",
+    "points": [
+     "The longer a host is infectious, the more others it can infect.",
+     "Persistence includes long infectious periods, carriers without symptoms, latent infections that reactivate, and reservoir hosts.",
+     "HIV may cause no symptoms for years while the person can still pass it on.",
+     "Herpes viruses stay latent in nerve cells for life (see Viruses: replication).",
+     "TB bacteria can stay dormant in the lungs for years and become active later.",
+     "Mary Mallon, known as Typhoid Mary, was born in Co. Tyrone in 1869 and worked as a cook in New York. She carried the typhoid bacterium, Salmonella Typhi, without symptoms and infected many of the families she cooked for.",
+     "Health authorities isolated her for most of the rest of her life.",
+     "Bovine TB persists in Irish cattle partly because badgers act as a wildlife reservoir that reinfects herds.",
+     "Plant viruses persist in perennial plants, weeds and tubers, so infected seed potatoes carry viruses into the next year's crop.",
+     "Phytophthora infestans survives the winter in infected tubers left in the ground or in dumps."
+    ]
+   },
+   {
+    "h": "Factor 2: mutations",
+    "points": [
+     "Pathogens with short generation times and large populations produce many mutants.",
+     "RNA viruses mutate fastest because their copying enzyme doesn't proofread (see Viruses: replication).",
+     "Antigenic drift: small mutations gradually change a virus's surface antigens, so memory cells and antibodies from earlier infections or vaccines no longer fit well.",
+     "Antigenic drift is why influenza returns every winter and why flu vaccines are updated each year.",
+     "Mutations likewise produced new SARS-CoV-2 variants, such as Delta and Omicron, that spread faster or partly escaped immunity, causing new waves of COVID-19.",
+     "Antigenic shift (influenza): if two different flu viruses infect the same cell, e.g. in a pig, their RNA segments can mix to form a new strain with surface antigens that no human population has met.",
+     "Antigenic shift has caused flu pandemics, e.g. the 2009 H1N1 (swine flu) pandemic.",
+     "Mutations can let a pathogen infect a new host species (spillover, e.g. a bird virus gaining the ability to infect mammals), become more transmissible, or overcome resistance bred into crops.",
+     "The Ug99 strain of wheat stem rust, identified in Uganda in 1999, overcame resistance genes used in most of the world's wheat varieties."
+    ]
+   },
+   {
+    "h": "Factor 3: antibiotic or chemical resistance",
+    "points": [
+     "Step 1: random mutations, or genes passed between bacteria on plasmids, make a few individuals resistant (resistance arises by natural selection, see The theory of evolution by natural selection).",
+     "Step 2: the antibiotic or chemical kills the susceptible individuals.",
+     "Step 3: the resistant survivors reproduce with less competition.",
+     "Step 4: the next generation is mostly resistant. The chemical doesn't cause the mutation; it selects it.",
+     "Overuse and misuse of antibiotics speed up resistance: use for viral infections, not finishing courses, and use in farm animals.",
+     "Poor infection control in hospitals and heavy repeated use of one pesticide also speed up resistance.",
+     "MRSA (methicillin-resistant Staphylococcus aureus) is resistant to many antibiotics and spreads in hospitals.",
+     "Multidrug-resistant TB, malaria parasites resistant to some antimalarial drugs, and mosquitoes resistant to insecticides, which weakens malaria control.",
+     "Fungi that cause crop diseases are resistant to some fungicides, and parasitic worms of sheep and cattle are resistant to some anthelmintics.",
+     "Resistant pathogens persist longer in hosts and spread further, linking factors 1 and 3."
+    ]
+   },
+   {
+    "h": "Factor 4: immunity level in the population",
+    "points": [
+     "A pathogen spreads only if it can reach susceptible (non-immune) hosts. The higher the proportion of immune individuals, the fewer susceptible hosts there are and the slower the spread. This is herd immunity (see Acquired immunity, prevention and treatment).",
+     "A pathogen new to a population meets no immunity at all, so it spreads fast and can be very severe, e.g. COVID-19 in 2020, before vaccines.",
+     "Smallpox and measles, brought by Europeans to the Americas from the late 1400s, killed very large numbers of Indigenous people, who had never been exposed to them.",
+     "Immunity falls when vaccination rates drop, as when measles outbreaks return.",
+     "Immunity also falls when protection from vaccination or infection wanes over time, and where many people have weakened immune systems, e.g. from untreated HIV or malnutrition, or the very young and very old.",
+     "In plants, the equivalent is genetic uniformity. A monoculture of one genetically identical variety has no resistant individuals, so a pathogen that infects one plant can infect them all.",
+     "In Ireland in the 1840s, most of the poor depended on one potato variety, the Lumper, grown from tubers (genetically identical clones) and susceptible to blight.",
+     "When Phytophthora infestans arrived in 1845, crops failed across the country in successive years. About one million people died and over a million emigrated in the Great Famine."
+    ]
+   },
+   {
+    "h": "Factor 5: mobility in affected populations",
+    "points": [
+     "The more infected hosts move and mix, the more contacts each has and the further the pathogen spreads (the routes are in the block on movement of organisms below).",
+     "Crowding in cities, refugee camps, festivals and mass gatherings, travel and migration, and the movement of livestock all increase spread.",
+     "Migration of wild animals, such as birds, also moves pathogens into new areas.",
+     "Vector mobility: climate warming lets vectors survive further north and for longer each year, carrying disease into new regions.",
+     "Bluetongue, a midge-borne virus of sheep and cattle, spread into northern Europe from 2006.",
+     "Reducing mobility reduces spread: animal movement bans in foot-and-mouth outbreaks, travel restrictions and quarantine in human epidemics, and import controls on plants (detail in Emerging diseases and society)."
+    ]
+   },
+   {
+    "h": "Factor 6: the reproduction number, R₀",
+    "points": [
+     "The basic reproduction number, R₀ ('R nought'), is the average number of new (secondary) infections caused by one infected individual in a population where everyone is susceptible, with no immunity and no control measures.",
+     "R₀ greater than 1: each case causes more than one new case on average, so numbers grow and an epidemic can occur.",
+     "R₀ equal to 1: numbers stay steady, which is endemic.",
+     "R₀ less than 1: each case causes fewer than one new case, so the outbreak dies out.",
+     "Growth example: with R₀ = 2, one case leads to 2, then 4, then 8, then 16 new cases per generation of infection. After 10 generations, one case has led to 2¹⁰ = 1,024 new cases in that generation.",
+     "Decline example: with R₀ = 0.5, 100 cases give 50, then 25, then about 12, and the outbreak fades.",
+     "Diagram: a branching tree from one case, giving 2, then 4, then 8 cases (R₀ = 2), beside a single chain with one case per generation (R₀ = 1). Label each generation.",
+     "R₀ depends on the pathogen, the host and the environment: how long a host is infectious (persistence), how many contacts an infected host has per day (mobility and crowding), and the chance that a contact passes on the infection (the transmission route, and mutations that make a pathogen more transmissible).",
+     "So R₀ is not fixed for a disease: it differs between populations and settings.",
+     "The effective reproduction number, R (sometimes written Rt), is the average number of new infections per case at a given time, in a population where some people are immune or control measures are in place.",
+     "Approximately, R = R₀ × the proportion still susceptible. For example, R₀ = 3 with half the population immune gives R = 3 × 0.5 = 1.5.",
+     "Control aims to bring R below 1.",
+     "Herd-immunity threshold: to stop sustained spread, the proportion immune must be at least 1 − 1/R₀.",
+     "Examples: R₀ = 2 needs 1 − ½ = 50% immune; R₀ = 4 needs 1 − ¼ = 75% immune; R₀ = 10 needs 90% immune.",
+     "Measles is one of the most contagious diseases, with R₀ usually quoted as 12–18, so about 95% of people must be immune. The World Health Organization therefore recommends at least 95% coverage with two doses of measles vaccine.",
+     "The model's assumptions (see Models) are that everyone is equally likely to meet everyone else and that R₀ stays constant.",
+     "Real populations are clustered, behaviour changes during outbreaks and new variants change R₀, so estimates are updated as data come in."
+    ]
+   },
+   {
+    "h": "How the factors interact",
+    "points": [
+     "The factors act together, not one at a time. A mutation that makes a virus more transmissible raises R₀, and a population with low immunity and high mobility then lets it spread widely.",
+     "Long persistence in carriers lets a pathogen reach new areas undetected, and resistance to drugs lets infections last longer, raising R₀ further.",
+     "Plant example: a genetically uniform crop (low immunity), a pathogen spread by wind and trade (mobility) and survival in tubers (persistence) together explain the speed of the potato famine.",
+     "Other drivers increase contact between pathogens and new hosts: clearing forests and expanding farms into wild areas, intensive farming of large numbers of genetically similar animals kept close together, climate change (vectors' ranges), poverty, poor sanitation, and conflict, which weakens health systems."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "R₀ is the average number of new secondary infections caused by one infected individual in a population where everyone is susceptible, with no immunity and no control measures. When R₀ is greater than 1, each case causes more than one new case on average, so numbers grow and an epidemic can occur. When R₀ is less than 1, each case causes fewer than one new case, so the outbreak dies out.",
+    "prompt": "What is meant by the reproduction number, R₀? Explain what happens to an outbreak when R₀ is greater than 1 and when it is less than 1.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "(i) The herd-immunity threshold is 1 − 1/R₀ = 1 − 1/4 = 0.75, so 75% of the population must be immune. (ii) When 75% of people are immune, the pathogen can find too few susceptible hosts. Each case then causes on average no more than one new infection, so the effective reproduction number falls to 1 or below and spread cannot be sustained. People who are not vaccinated are protected indirectly, because the pathogen has few susceptible hosts to reach them.",
+    "prompt": "A disease has an R₀ of 4. (i) Calculate the percentage of the population that must be immune to prevent its spread. (ii) Explain why vaccinating this percentage protects people who are not vaccinated.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Persistence: a pathogen that survives in a host for a long time can infect many others. Phytophthora infestans survives the winter in infected potato tubers, so blight returns the next year, and TB bacteria can stay dormant in the lungs for years. Mutations: a changing pathogen escapes existing immunity or resistance. Antigenic drift changes influenza surface antigens each year, so flu vaccines must be updated, and the Ug99 strain of wheat stem rust overcame resistance genes used in most of the world's wheat. Immunity level: a population with low immunity lets a pathogen spread quickly. The Lumper potato, a genetically uniform crop, had no resistant plants, so blight spread through it and caused the Irish Great Famine, while measles outbreaks return where vaccination rates fall.",
+    "prompt": "Explore how any three of the following factors contribute to the emergence of infectious diseases in plants and animals: persistence of the pathogen in a host, mutations, chemical resistance, the immunity level of the population, mobility.",
+    "type": "short"
+   }
+  ]
+ },
+ "bio22-s7": {
+  "keyTerms": [
+   {
+    "definition": "A virus not previously known to infect a species, usually because it has jumped from another host or changed by mutation or mixing of genes.",
+    "term": "Novel virus"
+   },
+   {
+    "definition": "The jump of a pathogen from one host species to another.",
+    "term": "Spillover"
+   },
+   {
+    "definition": "A disease in which the immune system attacks the body's own cells or tissues because it fails to tell self from non-self.",
+    "term": "Autoimmune disease"
+   },
+   {
+    "definition": "The proposal that less early-life exposure to microorganisms leaves the immune system poorly regulated, which may raise the risk of autoimmune disease and allergy.",
+    "term": "Hygiene hypothesis"
+   },
+   {
+    "definition": "A genus of plant viruses, including tobacco mosaic virus and tomato brown rugose fruit virus.",
+    "term": "Tobamovirus"
+   },
+   {
+    "definition": "Measures that stop pathogens entering, spreading within or leaving a farm, country or population.",
+    "term": "Biosecurity"
+   },
+   {
+    "definition": "Using antibiotics only when needed, to slow the development of resistance.",
+    "term": "Antimicrobial stewardship"
+   },
+   {
+    "definition": "An approach that treats human, animal and environmental health as linked and coordinates doctors, vets and ecologists.",
+    "term": "One Health"
+   },
+   {
+    "definition": "The idea that action should be taken to prevent possible serious harm even when the evidence is not yet certain.",
+    "term": "Precautionary principle"
+   }
+  ],
+  "notes": [
+   {
+    "h": "Novel viruses in animals and humans",
+    "points": [
+     "A novel virus is one not previously known to infect a species, usually because it has jumped from another host (spillover) or has changed by mutation or by mixing of genes.",
+     "Most new human viruses come from animals (zoonoses), especially bats, birds and other mammals.",
+     "Contact increases when people clear forests, hunt or trade wild animals, or farm animals intensively.",
+     "HIV crossed into humans from a related virus, SIV, in chimpanzees in central Africa in the early twentieth century, probably through hunting and butchering them for meat.",
+     "HIV was identified in 1983 by Françoise Barré-Sinoussi and Luc Montagnier at the Institut Pasteur, Paris (Nobel Prize 2008). Its long symptom-free period let it spread worldwide unnoticed for decades.",
+     "There is still no HIV vaccine, but antiretroviral therapy has turned it from a fatal disease into a long-term condition (see Viruses: replication).",
+     "SARS-CoV-2, the coronavirus that causes COVID-19, was first identified in Wuhan, China, in December 2019. It spreads by droplets and aerosols, including from people without symptoms, and air travel carried it worldwide.",
+     "Its genome sequence was shared online in January 2020 (see Science as a global enterprise), and vaccines were developed and approved within a year.",
+     "Mutations produced more transmissible variants, so vaccines were updated.",
+     "Avian influenza H5N1 is a highly pathogenic bird flu virus that kills poultry and wild birds. A strain that spread worldwide from about 2020, carried by migrating wild birds, has infected many mammals, and in 2024 it was found in dairy cattle in the USA.",
+     "Human infections with H5N1 are rare and mostly occur in people in close contact with infected birds or animals. The concern is that mutation, or mixing with a human flu virus, could produce a strain that spreads between people.",
+     "Avian influenza is controlled by culling infected flocks, keeping poultry housed when the risk is high, and surveillance.",
+     "Ebola virus causes severe haemorrhagic fever. Fruit bats are thought to be its natural reservoir.",
+     "The 2014–2016 Ebola epidemic in West Africa killed more than 11,000 people.",
+     "Ebola spreads by contact with the body fluids of sick or dead people, so caring for the sick and traditional burial practices spread it.",
+     "It was controlled by isolation, contact tracing, safe burials and, later, a vaccine.",
+     "Nipah virus emerged in Malaysia in 1998–1999, passing from fruit bats to pigs on farms near fruit trees, and from pigs to pig farmers, causing brain inflammation (encephalitis).",
+     "Nipah was controlled by culling over a million pigs. It shows how farming changes create new routes from wildlife to people.",
+     "Schmallenberg virus, an animal virus, was identified in 2011 in Germany and is named after the town where it was found.",
+     "Spread by biting midges, it causes birth defects in lambs and calves when the mother is infected in early pregnancy. It spread across northern Europe, including Ireland, within about a year."
+    ]
+   },
+   {
+    "h": "Novel viruses in plants",
+    "points": [
+     "Tomato brown rugose fruit virus (ToBRFV) is a tobamovirus, related to tobacco mosaic virus, first identified in the Middle East in the mid-2010s, and it then spread to many countries.",
+     "It infects tomatoes and peppers, causing wrinkled, discoloured fruit that can't be sold.",
+     "It spreads by contact (hands, tools and clothing), in infected seed and in the trade in plants and fruit, and it stays infectious on surfaces for long periods.",
+     "It is serious because it overcomes the resistance genes bred into tomato varieties to protect them against related viruses.",
+     "Control: EU plant-health rules on imported seed and plants, testing of seed, hygiene and disinfection in glasshouses, destroying infected crops, and breeding new resistant varieties.",
+     "Why plant viruses emerge: global trade in seeds and plants; monocultures of genetically uniform crops; insect vectors spreading into new areas as the climate warms; and mutation overcoming plants' resistance genes.",
+     "Plants have no adaptive immune system and can't be vaccinated or cured of viral infection, so control depends on prevention: clean seed and stock, controlling vectors, removing infected plants, quarantine and resistant varieties.",
+     "Economic and food-security importance: crop losses raise food prices and threaten farmers' incomes, and diseases of staple crops are most serious for poor countries that depend on one crop."
+    ]
+   },
+   {
+    "h": "Autoimmune diseases",
+    "points": [
+     "An autoimmune disease is one in which the immune system attacks the body's own cells or tissues as if they were foreign, because it fails to tell self from non-self.",
+     "Normally, lymphocytes that react to self are removed during maturation, and the rest are held in check by suppressor (regulatory) T cells.",
+     "In autoimmune disease this tolerance breaks down, and antibodies or killer T cells attack a self antigen.",
+     "Type 1 diabetes: T cells destroy the insulin-producing cells of the pancreas, causing high blood glucose. It is treated with insulin injections for life (see Glands, locations and hormones).",
+     "Multiple sclerosis: the myelin sheath around nerve fibres in the brain and spinal cord is damaged, slowing or blocking impulses (see Neurons).",
+     "Rheumatoid arthritis: the lining of the joints becomes inflamed, causing painful, swollen and damaged joints.",
+     "Coeliac disease: eating gluten, a protein in wheat, barley and rye, triggers an immune attack that damages the villi of the small intestine, causing poor absorption. Treatment is a lifelong gluten-free diet.",
+     "Graves' disease: antibodies stimulate the thyroid, producing too much thyroxine.",
+     "Causes: a combination of inherited susceptibility, since some alleles make these diseases more likely and they run in families, and environmental triggers.",
+     "Infections can trigger autoimmunity when a pathogen's antigen resembles a self antigen, so antibodies made against the pathogen also attack the body.",
+     "Rheumatic fever: antibodies against Streptococcus bacteria, from a throat infection, attack the heart valves.",
+     "Guillain–Barré syndrome, a paralysis that can follow some infections, including Campylobacter food poisoning and Zika virus.",
+     "Autoimmune diseases are grouped with emerging diseases because the number of people with several autoimmune diseases has been rising in many countries.",
+     "The hygiene hypothesis proposes that less early-life exposure to microorganisms leaves the immune system poorly regulated. It is supported by some evidence but not proven (the gut microbiome's role in immune signalling is in The microbiome).",
+     "An autoimmune disease is not caught from another person. Type 1 diabetes is autoimmune; type 2 is not. AIDS is an immune deficiency caused by a virus, not an autoimmune disease.",
+     "There is usually no cure. Treatments replace what is lost (insulin, thyroid hormone), avoid the trigger (a gluten-free diet), or suppress the immune system with drugs such as corticosteroids, which relieves symptoms but makes infections more likely."
+    ]
+   },
+   {
+    "h": "Using knowledge of the factors to control increase",
+    "points": [
+     "Surveillance and early detection: doctors and vets must report notifiable diseases; laboratories sequence pathogens' genomes to detect new variants and resistance; and agencies such as the World Health Organization and the European Centre for Disease Prevention and Control share data. Early detection lets control start while case numbers are low.",
+     "Reducing R (targets R₀, contact and transmission): isolating cases, contact tracing and quarantine reduce the infectious period in the community.",
+     "Masks, ventilation, hand hygiene and physical distancing reduce the chance of transmission per contact, and limiting mass gatherings reduces the number of contacts. The aim is to bring R below 1.",
+     "Raising immunity (targets the immunity level): vaccination campaigns aimed at the herd-immunity threshold, with priority for the most vulnerable.",
+     "Updating vaccines to match new variants targets mutation.",
+     "Limiting mobility (targets movement): travel restrictions and screening; animal movement bans and culling during outbreaks of foot-and-mouth disease or avian influenza; and disinfecting vehicles and footwear at farms.",
+     "Plant biosecurity: plant passports and import inspections, quarantine of imported plants, bans on importing high-risk plants (e.g. ash from infected areas), certified disease-free seed and planting material, removing and destroying infected plants, and breeding resistant varieties, which counters genetic uniformity.",
+     "Fighting resistance (targets resistance): antimicrobial stewardship, meaning prescribing antibiotics only when needed; infection control in hospitals; restricting antibiotic use in farm animals; rotating pesticides and fungicides; and developing new drugs.",
+     "Reducing spillover: controlling vectors, regulating wildlife trade and markets, protecting habitats, and biosecurity on farms. The One Health approach treats human, animal and environmental health as linked, and coordinates doctors, vets and ecologists.",
+     "Research and public information: understanding a new pathogen's transmission and R₀ tells authorities which measures will work.",
+     "Clear public information increases vaccine uptake and cooperation and counters misinformation (see Evaluating evidence)."
+    ]
+   },
+   {
+    "h": "Why knowledge of emerging diseases matters to society",
+    "points": [
+     "Health: early recognition and control save lives and prevent disability.",
+     "Knowing the factors lets health systems prepare, with stockpiles, hospital capacity and vaccine platforms, before the next outbreak.",
+     "Protecting vulnerable groups depends on high immunity in everyone else.",
+     "Economic: epidemics close businesses, schools and travel, and cost health systems heavily, as COVID-19 did from 2020.",
+     "Animal and plant diseases cause culling, lost exports and crop losses, e.g. the 2001 foot-and-mouth epidemic in Britain.",
+     "Prevention and early control usually cost far less than a large outbreak.",
+     "Food security and the environment: plant and animal diseases threaten the food supply, especially where people depend on one crop (the Irish Great Famine shows the human cost, in Emergence and spread of infectious disease).",
+     "Diseases of wild species threaten biodiversity, e.g. chytrid fungus in amphibians, and ash dieback removing a native tree species and the organisms that depend on it.",
+     "Informed citizens: understanding how diseases spread, and why vaccines and antibiotics must be used carefully, lets people make informed choices, follow public-health advice and judge claims in the media.",
+     "Global cooperation: pathogens ignore borders, so a disease anywhere is a risk everywhere. Sharing data, genome sequences and vaccines between countries benefits all (see Science as a global enterprise).",
+     "Tensions and costs: control measures limit personal freedom, such as quarantine, travel bans and lockdowns, and their social and economic costs, such as lost income and education, isolation and poor mental health, fall unequally.",
+     "Culling destroys farmers' livelihoods and healthy animals, vaccine requirements raise questions of consent, and poorer countries have less access to vaccines and drugs.",
+     "Acting early on uncertain evidence may later look like over-reaction, while waiting for certainty lets a disease spread (the precautionary principle, see Science, scientists and society).",
+     "Judgement: knowledge of emerging diseases matters because it allows targeted, proportionate measures, which cost less and do less harm than either doing nothing or applying blanket restrictions.",
+     "The more is known about a disease's factors, the more precisely its spread can be limited."
+    ]
+   }
+  ],
+  "questions": [
+   {
+    "marks": 6,
+    "model": "An autoimmune disease is one in which the immune system attacks the body's own cells or tissues as if they were foreign, because it fails to tell self from non-self. Example: type 1 diabetes, in which T cells destroy the insulin-producing cells of the pancreas. The effect is high blood glucose, which is treated with insulin injections for life.",
+    "prompt": "What is an autoimmune disease? Name one example and state its effect on the body.",
+    "type": "short"
+   },
+   {
+    "marks": 9,
+    "model": "SARS-CoV-2, first identified in Wuhan, China, in December 2019, spreads by droplets and aerosols, including from people without symptoms, and air travel carried it worldwide. Knowing this allows strategies that target each factor. Isolation of cases, contact tracing and quarantine reduce the infectious period in the community, which lowers R. Vaccination campaigns aimed at the herd-immunity threshold raise the immunity level of the population, and updating vaccines to match new variants targets mutation. Travel restrictions and screening limit mobility, so the virus reaches fewer new areas.",
+    "prompt": "Using a named novel virus, explain how knowing the factors that increase its spread allows strategies to control it.",
+    "type": "short"
+   },
+   {
+    "marks": 12,
+    "model": "Knowledge of emerging diseases matters for health, because early control saves lives and lets health systems prepare with stockpiles and hospital capacity. It matters economically, because epidemics close businesses and schools and cost health systems heavily, while prevention usually costs far less than a large outbreak. Plant and animal diseases threaten food security and biodiversity, especially where people depend on one crop. Informed citizens can follow public-health advice and judge claims in the media, and because pathogens ignore borders, sharing data and vaccines benefits all. However, control measures have costs and limit personal freedom: quarantine and lockdowns bring lost income and poor mental health, which fall unequally, culling destroys farmers' livelihoods, and poorer countries have less access to vaccines. On balance, knowledge of emerging diseases matters because it allows targeted, proportionate measures that cost less and do less harm than either doing nothing or applying blanket restrictions.",
+    "prompt": "Discuss the importance of a knowledge of emerging diseases in society.",
+    "type": "short"
+   }
+  ]
+ },
  "bio3-s1": {
   "keyTerms": [
    {
@@ -4329,7 +11326,7 @@
      "Nucleic acid core: either DNA or RNA, never both. It carries the genes (instructions) for making new virus particles, and may be single- or double-stranded.",
      "Protein coat (capsid): made of many repeating protein subunits (capsomeres). It protects the nucleic acid. Its proteins attach to specific receptor molecules on the surface of the host cell, which is why each virus infects only particular species and particular cell types (host specificity).",
      "Envelope (some viruses only, e.g. influenza virus and HIV): an outer lipid membrane taken from the host cell’s membrane as the virus leaves, studded with viral proteins (spikes) that help the virus attach to and enter new cells.",
-     "Viruses have no cytoplasm, no ribosomes, no cell membrane of their own and almost no enzymes. They must use the host cell’s ribosomes, enzymes, ATP and raw materials to make copies of themselves; replication is covered in “Immunity”.",
+     "Viruses have no cytoplasm, no ribosomes, no cell membrane of their own and almost no enzymes. They must use the host cell’s ribosomes, enzymes, ATP and raw materials to make copies of themselves; replication is covered in “Viruses: replication”.",
      "Size: most viruses are about 20–300 nm across, much smaller than a bacterium (about 1–10 µm). They pass through filters that trap bacteria and can be seen only with an electron microscope.",
      "Shapes: rod-shaped or helical (e.g. tobacco mosaic virus); many-sided or polyhedral (e.g. adenovirus); spherical and enveloped (e.g. influenza virus); complex, with a head and tail (bacteriophages, which infect bacteria).",
      "Diagram: a bacteriophage labelled head (protein coat), nucleic acid (DNA) inside the head, tail and tail fibres; and an enveloped virus labelled envelope, spike proteins, protein coat and RNA."
