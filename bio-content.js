@@ -268,7 +268,7 @@
     ];
   })();
 
-  // ── bio2: INVESTIGATING IN SCIENCE ────────────────────────────────────────
+  // ── bio2: Investigating in Science ────────────────────────────────────────
   (function () {
     var c = ch("bio2");
     // 2.1 — Understand how scientific investigations are designed, conducted, and evaluated with rigour and integrity
@@ -400,7 +400,7 @@
     ];
   })();
 
-  // ── bio3: SCIENCE IN SOCIETY ──────────────────────────────────────────────
+  // ── bio3: Science in Society ──────────────────────────────────────────────
   (function () {
     var c = ch("bio3");
     // 3.1 — Evaluate scientific evidence critically and understand the relationship between science and society across economic, social, sustainability, and ethical dimensions
@@ -491,7 +491,7 @@
     ];
   })();
 
-  // ── bio4: BIOLOGICAL REASONING ────────────────────────────────────────────
+  // ── bio4: Biological Reasoning ────────────────────────────────────────────
   (function () {
     var c = ch("bio4");
     // 4.1 — Apply key biological concepts — including systems, interdependence, evolution, and the transfer of information, matter, and energy — to explain living phenomena
@@ -2982,7 +2982,7 @@
     ];
   })();
 
-  // ── bio21: HOMEOSTASIS ────────────────────────────────────────────────────
+  // ── bio21: Homeostasis ────────────────────────────────────────────────────
   (function () {
     var c = ch("bio21");
     // 21.1 — How organisms maintain a stable internal environment through feedback mechanisms and coordinated organ systems
@@ -3072,7 +3072,7 @@
     ];
   })();
 
-  // ── bio22: IMMUNITY ───────────────────────────────────────────────────────
+  // ── bio22: Immunity ───────────────────────────────────────────────────────
   (function () {
     var c = ch("bio22");
     // 22.1 — How the immune system defends the body against pathogens through innate and acquired immunity, B cells, T cells, and vaccination
@@ -3190,7 +3190,7 @@
     ];
   })();
 
-  // ── bio23: HUMAN REPRODUCTION ─────────────────────────────────────────────
+  // ── bio23: Human Reproduction ─────────────────────────────────────────────
   (function () {
     var c = ch("bio23");
     // 23.1 — The structure and function of the human male and female reproductive systems, the menstrual cycle, fertilisation, embryonic development, and fertility control
@@ -3308,7 +3308,7 @@
     ];
   })();
 
-  // ── bio24: PLANT REPRODUCTION ─────────────────────────────────────────────
+  // ── bio24: Plant Reproduction ─────────────────────────────────────────────
   (function () {
     var c = ch("bio24");
     // 24.1 — The structure of flowers, pollination, fertilisation, seed and fruit formation, dispersal, and germination in plants
