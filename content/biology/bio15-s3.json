@@ -1,0 +1,68 @@
+{
+  "loId": "bio15-s3",
+  "chapterId": "bio15",
+  "subsection": "First-stage process",
+  "syllabusRef": "2.2.4",
+  "notes": [
+    {
+      "h": "Glycolysis (Higher Level only)",
+      "points": [
+        "Glycolysis, meaning sugar splitting, is the first stage of both aerobic and anaerobic respiration. It takes place in the cytoplasm (cytosol), is controlled by about ten enzymes in sequence, and needs no oxygen.",
+        "1. Activation: two ATP molecules are used to add phosphate groups to the glucose (C₆), making it more reactive. This is an investment of energy.",
+        "2. Splitting: the six-carbon sugar is split into two three-carbon molecules.",
+        "3. Oxidation: hydrogen, as electrons and protons, is removed from each three-carbon molecule by dehydrogenase enzymes and picked up by NAD⁺, forming NADH. Two NADH are made per glucose.",
+        "4. ATP generation: four ATP are made as phosphate groups are transferred to ADP. Net gain: 4 made minus 2 used, so 2 ATP per glucose.",
+        "5. Product: two molecules of pyruvate (pyruvic acid, C₃) per glucose. Pyruvate still holds most of the energy of the glucose.",
+        "Summary: glucose + 2 ADP + 2 Pi + 2 NAD⁺ → 2 pyruvate + 2 ATP (net) + 2 NADH. No CO₂ is released in glycolysis.",
+        "Glycolysis happens in almost every living cell, prokaryotic and eukaryotic, which suggests that it evolved early in the history of life, before there was oxygen in the atmosphere.",
+        "Other six-carbon sugars, such as fructose, and the glucose from glycogen or starch enter the same pathway."
+      ]
+    },
+    {
+      "h": "Transfer molecules in glycolysis (Higher Level only)",
+      "points": [
+        "ATP: two are used to activate the glucose and four are made by transferring phosphate from the sugar molecules directly to ADP. The net 2 ATP is all the energy anaerobic respiration releases per glucose.",
+        "NAD⁺: the cell has only a small supply. Glycolysis converts NAD⁺ to NADH, so glycolysis stops if NADH is not turned back into NAD⁺.",
+        "The fate of NADH depends on oxygen. With oxygen, it passes its electrons to the electron transport chain in the mitochondrion (see Second-stage process). Without oxygen, it passes its hydrogen to pyruvate (fermentation, below). Either way, NAD⁺ is regenerated."
+      ]
+    },
+    {
+      "h": "Fermentation pathways (Higher Level only)",
+      "points": [
+        "When oxygen is absent or too scarce, pyruvate is not passed to the mitochondrion. Instead, in the cytoplasm, NADH passes its hydrogen to pyruvate, or to a product made from it. This regenerates NAD⁺, so glycolysis can keep running and keep making its 2 ATP per glucose.",
+        "The purpose of fermentation is to regenerate NAD⁺, not to make more ATP. No ATP is made after glycolysis.",
+        "Lactic acid fermentation, in animal muscle cells and in lactic acid bacteria such as those used to make yogurt: pyruvate (C₃) takes hydrogen from NADH and becomes lactic acid (lactate, C₃). This is one step, and no CO₂ is released. Overall: glucose → 2 lactic acid, with a net 2 ATP.",
+        "Alcoholic (ethanol) fermentation, in yeast and in plant cells short of oxygen, such as waterlogged roots: pyruvate (C₃) first loses one carbon as CO₂, forming a two-carbon compound. This then takes hydrogen from NADH and becomes ethanol (C₂). This is two steps, with one CO₂ released per pyruvate. Overall: glucose → 2 ethanol + 2 CO₂, with a net 2 ATP.",
+        "Lactic acid has three carbons, like pyruvate; ethanol has two, because one carbon is lost as CO₂.",
+        "The product depends on the organism, and whether fermentation happens depends on conditions. Animals and many bacteria make lactic acid, while yeast and plants make ethanol. Yeast and muscle respire aerobically when oxygen is available and switch to fermentation when it is not (see Investigation: conditions for fermentation).",
+        "Fermentation releases little energy because glucose is only partly broken down. Lactic acid and ethanol still contain much of the original energy; ethanol is a fuel, for example in biofuels.",
+        "Diagram: glycolysis and fermentation as one flow chart. Glucose (C₆), with 2 ATP used, 4 ATP made and 2 NAD⁺ converted to 2 NADH, gives 2 pyruvate (C₃). Three branches follow. (a) With oxygen: to the mitochondrion, the second stage. (b) No oxygen, in animals and some bacteria: lactic acid (C₃), with NADH converted back to NAD⁺. (c) No oxygen, in yeast and plants: CO₂ is released and ethanol (C₂) is made, with NADH converted back to NAD⁺. Show the NAD⁺ loop returning to glycolysis. Label cytoplasm and mitochondrion."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Glycolysis", "definition": "The first stage of respiration, in the cytoplasm, which converts one six-carbon glucose molecule into two pyruvate molecules, with a net gain of 2 ATP and no oxygen." },
+    { "term": "Pyruvate", "definition": "The three-carbon product of glycolysis, which goes to the mitochondrion when oxygen is present or is fermented when it is not." },
+    { "term": "NADH", "definition": "The reduced form of NAD⁺, which carries hydrogen from glycolysis to the electron transport chain or to pyruvate in fermentation." },
+    { "term": "Regeneration of NAD⁺", "definition": "Converting NADH back to NAD⁺ so that glycolysis can continue; this is the purpose of fermentation." },
+    { "term": "Lactic acid fermentation", "definition": "The conversion of pyruvate to lactic acid by NADH, with no CO₂ released, in animal muscle and lactic acid bacteria." },
+    { "term": "Alcoholic fermentation", "definition": "The conversion of pyruvate to ethanol and CO₂ by NADH, in yeast and plant cells short of oxygen." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the first stage of respiration, state where it occurs in the cell, and name its three-carbon product.",
+      "model": "The first stage of respiration is glycolysis. It takes place in the cytoplasm (cytosol) of the cell. Its three-carbon product is pyruvate (pyruvic acid)."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe glycolysis, with reference to the role of ATP and NAD⁺.",
+      "model": "Glycolysis splits one six-carbon glucose molecule into two three-carbon pyruvate molecules in the cytoplasm, without oxygen. Two ATP are used at the start to activate the glucose, and four ATP are made as phosphate is transferred to ADP, giving a net gain of 2 ATP. NAD⁺ accepts hydrogen from the three-carbon molecules and is converted to NADH; two NADH are made per glucose. Glycolysis needs a supply of NAD⁺, so NADH must be converted back to NAD⁺ for it to continue."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain why yeast produces ethanol and carbon dioxide while human muscle produces lactic acid when oxygen is scarce, and explain why fermentation is necessary for the cell.",
+      "model": "Yeast and muscle cells have different enzymes. In yeast, pyruvate first loses one carbon as CO₂, forming a two-carbon compound, which then takes hydrogen from NADH to become ethanol. In human muscle, pyruvate takes hydrogen from NADH in one step to become lactic acid, so no CO₂ is released. Fermentation is necessary because, when oxygen is absent, NADH cannot pass its electrons to the electron transport chain. NADH passes its hydrogen to pyruvate instead, which regenerates NAD⁺ so that glycolysis can keep running and keep making its 2 ATP per glucose. Fermentation does not make more ATP."
+    }
+  ]
+}
