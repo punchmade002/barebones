@@ -75,12 +75,30 @@
     }
   ],
   "keyTerms": [
-    { "term": "Diversity index", "definition": "A single number that measures the species diversity of a sample, taking into account both richness and evenness. (Higher Level only)" },
-    { "term": "Simpson's Diversity Index", "definition": "A diversity index, Ds = 1 − Σn(n − 1) / N(N − 1), giving the probability that two individuals picked at random belong to different species. (Higher Level only)" },
-    { "term": "Ds", "definition": "The value given by Simpson's Diversity Index, from 0 (one species only) to 1 (high diversity). (Higher Level only)" },
-    { "term": "Sigma (Σ)", "definition": "The Greek capital letter used in the Simpson's Diversity Index to mean “the sum of”. (Higher Level only)" },
-    { "term": "Species richness", "definition": "The number of different species present in a sample." },
-    { "term": "Species evenness", "definition": "How evenly the individuals are spread among the species present in a sample." }
+    {
+      "term": "Diversity index",
+      "definition": "A single number that measures the species diversity of a sample, taking into account both richness and evenness."
+    },
+    {
+      "term": "Simpson's Diversity Index",
+      "definition": "A diversity index, Ds = 1 − Σn(n − 1) / N(N − 1), giving the probability that two individuals picked at random belong to different species."
+    },
+    {
+      "term": "Ds",
+      "definition": "The value given by Simpson's Diversity Index, from 0 (one species only) to 1 (high diversity)."
+    },
+    {
+      "term": "Sigma (Σ)",
+      "definition": "The Greek capital letter used in the Simpson's Diversity Index to mean “the sum of”."
+    },
+    {
+      "term": "Species richness",
+      "definition": "The number of different species present in a sample."
+    },
+    {
+      "term": "Species evenness",
+      "definition": "How evenly the individuals are spread among the species present in a sample."
+    }
   ],
   "questions": [
     {

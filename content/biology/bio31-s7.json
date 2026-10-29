@@ -1,0 +1,159 @@
+{
+  "loId": "bio31-s7",
+  "chapterId": "bio31",
+  "subsection": "Energy and nutrient transfer",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Producers, consumers and decomposers",
+      "points": [
+        "Producers are autotrophs: organisms that make their own food from simple inorganic substances, mostly by photosynthesis, using light energy. They include green plants, algae, phytoplankton and photosynthetic bacteria. They are the entry point of energy and matter into every food chain (see “Photosynthesis as an anabolic process”).",
+        "Consumers are heterotrophs that obtain energy and nutrients by eating other organisms. Primary consumers (herbivores) eat producers, e.g. rabbits, slugs, caterpillars and limpets. Secondary consumers eat primary consumers, e.g. thrushes, frogs and crabs. Tertiary consumers eat secondary consumers, e.g. sparrowhawks, foxes and herons.",
+        "A top (apex) consumer is at the end of a chain and is not normally eaten. Carnivores eat animals; omnivores eat plants and animals, e.g. badgers, foxes and humans.",
+        "Decomposers, mainly bacteria and fungi, feed on dead organisms and waste. They break them down by secreting enzymes and absorbing the products (saprophytic nutrition), and so release minerals and CO₂ for producers to reuse. Detail of bacteria and fungi is in “Bacteria and fungi”.",
+        "Detritivores are animals that eat dead organic matter (detritus), breaking it into smaller pieces that decomposers act on faster, e.g. earthworms and woodlice."
+      ]
+    },
+    {
+      "h": "Trophic levels and food chains",
+      "points": [
+        "A trophic (feeding) level is the position an organism occupies in a food chain, according to how it obtains its energy. Producers are trophic level 1, primary consumers level 2, secondary consumers level 3 and tertiary consumers level 4.",
+        "A food chain is a sequence of organisms in which each is eaten by the next, showing the transfer of energy and nutrients from one trophic level to the next. Arrows point from the organism that is eaten towards the organism that eats it, which is the direction of energy flow.",
+        "Grassland: grass → rabbit → fox.",
+        "Hedgerow or woodland: oak leaves → caterpillar → blue tit → sparrowhawk.",
+        "Rocky shore: seaweed → periwinkle → crab → herring gull.",
+        "Freshwater: phytoplankton → water flea → minnow → heron (or pike).",
+        "Sea: phytoplankton → zooplankton → herring → seal.",
+        "Grazing food chains start with living producers. Detritus (decomposer) food chains start with dead organic matter, e.g. dead leaves → earthworm → blackbird. Much of the energy in a woodland passes through detritus chains.",
+        "Food chains rarely have more than four or five trophic levels, because so much energy is lost at each level that too little is left to support a further level."
+      ]
+    },
+    {
+      "h": "Food webs",
+      "points": [
+        "A food web is a set of interlinked food chains in an ecosystem. It is more realistic than a food chain because most organisms eat more than one type of food and are eaten by more than one predator. An organism may also feed at more than one trophic level, as an omnivore does, or as a fox does when it eats rabbits and beetles.",
+        "Example grassland and hedgerow web to draw: grass → rabbit, grass → slug and grass → caterpillar; grass seeds → wood mouse; slug → thrush and caterpillar → thrush; rabbit → fox; wood mouse → fox and wood mouse → barn owl; thrush → sparrowhawk.",
+        "Decomposers (bacteria, fungi and earthworms) feed on dead material from every level of this web.",
+        "Food webs show interdependence: a change in one population affects many others, directly through feeding and indirectly through competition for the same food. For example, the fox and the barn owl both eat wood mice.",
+        "Diagram: the food web drawn with arrows pointing towards the consumer, organisms placed in rows by trophic level, and decomposers shown at the side receiving arrows from all levels."
+      ]
+    },
+    {
+      "h": "Energy flow and loss at each trophic level",
+      "points": [
+        "Energy enters ecosystems as light. Producers capture only a small fraction of the light that reaches them, around 1–2%, and store it as chemical energy in organic molecules. The rest is reflected, passes through leaves, or is lost as heat.",
+        "On average only about 10% of the energy in one trophic level is passed on to, and stored in, the next. The figure varies, roughly from 5% to 20%, so about 90% is lost at each transfer.",
+        "Respiration releases energy for movement, growth, active transport and keeping warm, and this ends up as heat lost to the surroundings. Birds and mammals lose the most, because they keep a constant body temperature.",
+        "Not all of an organism is eaten: roots, bark, wood, bones and fur are left behind. Not all that is eaten is digested and absorbed; undigested food is egested as faeces, e.g. the cellulose eaten by herbivores. Some energy is lost in excretory products such as urea.",
+        "The energy in uneaten parts, faeces and dead bodies passes to decomposers, not to the next level.",
+        "Energy flows in one direction through an ecosystem and is not recycled: it enters as light and leaves as heat, so an ecosystem needs a continuous input of energy from the Sun.",
+        "Worked example (an illustrative calculation, not measured data): if the grass in a field stores 10 000 kJ, the rabbits that eat it store about 1 000 kJ, and the foxes that eat the rabbits store about 100 kJ. A fourth level would store about 10 kJ, too little to support a population. So there are fewer top predators, they often need large territories, and they are especially vulnerable to habitat loss.",
+        "Consequence for food production: eating plants directly, which is a shorter chain, makes more efficient use of the energy captured by crops than feeding crops to animals and then eating the animals. A given area of land can therefore feed more people on plant-based food."
+      ]
+    },
+    {
+      "h": "Transfer of nutrients between trophic levels",
+      "points": [
+        "Nutrients (matter) pass between trophic levels when one organism eats another. The carbohydrates, lipids, proteins and nucleic acids of the food are digested, absorbed and built into the consumer's own body (assimilated).",
+        "The elements involved are carbon, hydrogen and oxygen (in all biomolecules), nitrogen (in proteins and nucleic acids), phosphorus (in DNA, ATP and phospholipids), and minerals such as calcium and iron.",
+        "The amount of matter passed on also decreases at each level. Much of the food eaten is respired (its carbon leaves as CO₂ and its hydrogen as water), egested in faeces, or excreted (nitrogen as urea or ammonia). This is why biomass also decreases up a food chain (see “Pyramids of biomass”).",
+        "Unlike energy, matter is not lost from the ecosystem. Decomposers break down dead bodies, faeces and urine, releasing CO₂ and minerals such as nitrate, phosphate and ammonium that producers absorb and reuse, so nutrients cycle. Detail is in “The carbon cycle” and “The nitrogen cycle”.",
+        "Contrast: energy flows one way through the ecosystem and is lost as heat, whereas nutrients cycle and are reused again and again.",
+        "Persistent substances that are not broken down or excreted, such as the insecticide DDT and mercury, pass up the food chain with the food and build up in the bodies of organisms at each level, reaching the highest concentrations in top consumers. This is called biomagnification, and it is how DDT thinned the eggshells of birds of prey (see “Science, scientists and society”).",
+        "Diagram: a flow diagram of one food chain, with energy arrows getting narrower at each level, heat-loss arrows from every level, and a separate loop of nutrient arrows from all levels to decomposers and back to producers."
+      ]
+    },
+    {
+      "h": "Using food webs to predict the effects of change",
+      "points": [
+        "A food chain or web is a model that allows predictions about what happens when one population changes. The method is: 1. Find the organisms that eat the changed species (its predators).",
+        "2. Find what it eats (its food).",
+        "3. Find its competitors.",
+        "4. Predict the direction of each change, giving reasons.",
+        "5. Note other effects, e.g. on plants and habitat.",
+        "Worked prediction using the food web above, if disease such as myxomatosis kills most of the rabbits: (a) grass is grazed less and grows taller, providing more food and cover for slugs, caterpillars and wood mice.",
+        "Worked prediction, continued: (b) foxes lose their main prey, so they eat more wood mice and the eggs and chicks of ground-nesting birds, and fox numbers may fall.",
+        "Worked prediction, continued: (c) wood mice decline from the extra fox predation, so barn owls, which compete with foxes for wood mice, have less food.",
+        "Real outcomes depend on how flexible each predator's diet is.",
+        "Removing a top predator can cause a trophic cascade, a chain of effects passing down the food web. In Ireland, with no wolves, deer numbers increase, they browse young trees, and the woodland cannot regenerate, which affects every species that depends on the woodland (see “Carrying capacity and limiting factors”).",
+        "Adding a species also spreads through a web. An invasive filter-feeder such as the zebra mussel removes phytoplankton at the base of a lake food web, reducing food for zooplankton and for the fish that eat them (the case is in “Biodiversity loss and conservation”).",
+        "Limitations of food chains and webs as models: they simplify real feeding, because many links are left out and diets change with the season and with age; they usually show no numbers or amounts of energy, which pyramids do; and decomposers are often left out. The general idea of models is in “Models”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Producer",
+      "definition": "An autotroph that makes its own food from simple inorganic substances, mostly by photosynthesis, forming trophic level 1."
+    },
+    {
+      "term": "Autotroph",
+      "definition": "An organism that makes its own food from simple inorganic substances, such as a green plant."
+    },
+    {
+      "term": "Heterotroph",
+      "definition": "An organism that obtains its energy and nutrients by eating other organisms."
+    },
+    {
+      "term": "Primary consumer",
+      "definition": "A herbivore that eats producers, forming trophic level 2."
+    },
+    {
+      "term": "Secondary consumer",
+      "definition": "A consumer that eats primary consumers, forming trophic level 3."
+    },
+    {
+      "term": "Tertiary consumer",
+      "definition": "A consumer that eats secondary consumers, forming trophic level 4."
+    },
+    {
+      "term": "Decomposer",
+      "definition": "An organism, mainly a bacterium or fungus, that breaks down dead organisms and waste by secreting enzymes and absorbing the products."
+    },
+    {
+      "term": "Detritivore",
+      "definition": "An animal that eats dead organic matter, breaking it into smaller pieces that decomposers act on faster."
+    },
+    {
+      "term": "Trophic level",
+      "definition": "The position an organism occupies in a food chain, according to how it obtains its energy."
+    },
+    {
+      "term": "Food chain",
+      "definition": "A sequence of organisms in which each is eaten by the next, showing the transfer of energy and nutrients."
+    },
+    {
+      "term": "Food web",
+      "definition": "A set of interlinked food chains in an ecosystem."
+    },
+    {
+      "term": "Assimilation",
+      "definition": "The digestion, absorption and building of food into the consumer's own body."
+    },
+    {
+      "term": "Biomagnification",
+      "definition": "The build-up of a persistent substance, such as DDT or mercury, in the bodies of organisms at each level of a food chain, reaching its highest concentration in top consumers."
+    },
+    {
+      "term": "Trophic cascade",
+      "definition": "A chain of effects passing down a food web after a top predator is removed or added."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the terms (i) trophic level and (ii) food web, and give an example of a food chain from a named Irish ecosystem with four trophic levels.",
+      "model": "(i) A trophic level is the position an organism occupies in a food chain, according to how it obtains its energy. Producers are trophic level 1, primary consumers level 2, secondary consumers level 3 and tertiary consumers level 4. (ii) A food web is a set of interlinked food chains in an ecosystem. It is more realistic than a food chain because most organisms eat more than one type of food and are eaten by more than one predator. Example from a named Irish ecosystem, a hedgerow or woodland: oak leaves (producer, trophic level 1) → caterpillar (primary consumer, level 2) → blue tit (secondary consumer, level 3) → sparrowhawk (tertiary consumer, level 4)."
+    },
+    {
+      "marks": 12,
+      "prompt": "Consider how nutrients are transferred from one trophic level to the next, taking into account the loss of energy at each trophic level.",
+      "model": "Nutrients pass from one trophic level to the next when one organism eats another. The carbohydrates, lipids, proteins and nucleic acids of the food are digested, absorbed and built into the consumer's body. Energy, however, is lost at each transfer. Only about 10% of the energy in one trophic level is passed on to the next, and about 90% is lost, mainly as heat released by respiration, which keeps the consumer alive and active, and birds and mammals lose most this way. Energy is also lost in parts that are not eaten, in faeces that are egested, and in excretory products such as urea. This is why food chains rarely have more than four or five levels: for example, 10 000 kJ stored in grass becomes about 1 000 kJ in rabbits, about 100 kJ in foxes, and only about 10 kJ at a fourth level. Matter is treated differently: much of it is also lost from the food chain in respiration, faeces and excretion, but the uneaten parts, faeces and dead bodies pass to decomposers, which release CO₂ and minerals such as nitrate and phosphate that producers reuse. So energy flows one way and is lost as heat, whereas nutrients cycle."
+    },
+    {
+      "marks": 9,
+      "prompt": "Sample food web for a grassland and hedgerow: grass is eaten by rabbit, slug and caterpillar; grass seeds are eaten by wood mouse; slug and caterpillar are eaten by thrush; rabbit is eaten by fox; wood mouse is eaten by fox and barn owl; thrush is eaten by sparrowhawk. Predict and explain the effects on this food web if most of the rabbits died of disease.",
+      "model": "If most rabbits die of disease such as myxomatosis, grass is grazed less and grows taller, giving more food and cover for slugs, caterpillars and wood mice. Foxes lose their main prey, so they eat more wood mice and the eggs and chicks of ground-nesting birds, and fox numbers may fall. With more foxes eating them, wood mice decline, so barn owls, which also eat wood mice and compete with foxes for them, have less food. Fewer barn owls and wood mice also affect the thrushes and sparrowhawk only indirectly, through changes in food supply. The actual outcome depends on how flexible the diet of each predator is, because a fox or barn owl can switch to other prey."
+    }
+  ]
+}

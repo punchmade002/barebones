@@ -29,7 +29,12 @@
     {
       "h": "How models are generated and used",
       "points": [
-        "Generating a model: 1. observe the system and collect data; 2. identify its key parts and how they interact; 3. represent them simply, often by analogy with something familiar, e.g. “lock and key”; 4. use the model to make predictions; 5. test the predictions against new data; 6. keep, modify or replace the model.",
+        "Generating a model: 1. Observe the system and collect data.",
+        "2. Identify its key parts and how they interact.",
+        "3. Represent them simply, often by analogy with something familiar, e.g. “lock and key”.",
+        "4. Use the model to make predictions.",
+        "5. Test the predictions against new data.",
+        "6. Keep, modify or replace the model.",
         "Evaluating a model asks: what does it show, and for what purpose? What does it leave out? What assumptions does it make? Does it fit the data? Can it explain and predict? How could it be improved? Answers about a model should always name at least one strength and one limitation.",
         "A model is not the same as a theory. A theory is a broad, well-tested explanation; a model is a representation that may be used to explain part of a theory or to make its predictions concrete (theories are in “The nature of scientific knowledge”). Two different models of the same thing can both be useful for different purposes."
       ]
@@ -85,16 +90,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Model", "definition": "A simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves." },
-    { "term": "Assumption", "definition": "Something taken to be true so that a model can work; if it does not hold, the model’s predictions fail." },
-    { "term": "Simulation", "definition": "A model, often run on a computer, that tests “what if” scenarios quickly and safely." },
-    { "term": "Model organism", "definition": "A species studied in detail because it is easy to keep and breed and shares much biology with other organisms." },
-    { "term": "Active site", "definition": "The part of an enzyme to which its substrate binds, and where the reaction is catalysed." },
-    { "term": "Induced fit", "definition": "The model in which the active site of an enzyme changes shape slightly to mould around the substrate as it binds." },
-    { "term": "Fluid mosaic model", "definition": "The model of the cell membrane as a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, which can move sideways." },
-    { "term": "Hydrophilic", "definition": "Water-attracting; the phosphate heads of phospholipids are hydrophilic." },
-    { "term": "Hydrophobic", "definition": "Water-repelling; the fatty-acid tails of phospholipids are hydrophobic." },
-    { "term": "Punnett square", "definition": "A model that predicts the expected ratios of offspring genotypes and phenotypes from a cross." }
+    {
+      "term": "Model",
+      "definition": "A simplified representation of an idea, structure, process or system, used to describe, explain or predict how it behaves."
+    },
+    {
+      "term": "Assumption",
+      "definition": "Something taken to be true so that a model can work; if it does not hold, the model’s predictions fail."
+    },
+    {
+      "term": "Simulation",
+      "definition": "A model, often run on a computer, that tests “what if” scenarios quickly and safely."
+    },
+    {
+      "term": "Model organism",
+      "definition": "A species studied in detail because it is easy to keep and breed and shares much biology with other organisms."
+    },
+    {
+      "term": "Active site",
+      "definition": "The part of an enzyme to which its substrate binds, and where the reaction is catalysed."
+    },
+    {
+      "term": "Induced fit",
+      "definition": "The model in which the active site of an enzyme changes shape slightly to mould around the substrate as it binds."
+    },
+    {
+      "term": "Fluid mosaic model",
+      "definition": "The model of the cell membrane as a phospholipid bilayer with proteins scattered in it like tiles in a mosaic, which can move sideways."
+    },
+    {
+      "term": "Hydrophilic",
+      "definition": "Water-attracting; the phosphate heads of phospholipids are hydrophilic."
+    },
+    {
+      "term": "Hydrophobic",
+      "definition": "Water-repelling; the fatty-acid tails of phospholipids are hydrophobic."
+    },
+    {
+      "term": "Punnett square",
+      "definition": "A model that predicts the expected ratios of offspring genotypes and phenotypes from a cross."
+    }
   ],
   "questions": [
     {
