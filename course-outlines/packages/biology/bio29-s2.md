@@ -44,7 +44,7 @@ Pathways of blood circulation: the named vessels (one block, one bullet per orga
 The portal pathway (one block)
 - [ ] PT1 A portal system is a vein that carries blood from one capillary network to a second capillary network, instead of straight back to the heart. So the blood passes through two sets of capillaries between leaving the heart and returning to it.
 - [ ] PT2 The hepatic portal vein: blood from the capillaries in the villi of the small intestine (and the walls of the stomach and large intestine) collects in the hepatic portal vein, which carries it to a second set of capillaries (the sinusoids) in the liver. After a meal its blood is rich in glucose, amino acids and other absorbed nutrients.
-- [ ] PT3 Why it matters: every absorbed water-soluble nutrient (and any absorbed toxin or drug) goes to the liver first, before reaching the rest of the body, so the liver can process it: storing excess glucose as glycogen, deaminating excess amino acids (making urea) and breaking down toxins such as alcohol. This keeps the blood composition reaching the body steady. (Glycogen storage and deamination are taught in "Absorption, transport and storage"; name them only.)
+- [ ] PT3 Why it matters (one bullet): absorbed water-soluble nutrients, and any absorbed toxins or drugs, reach the liver before the rest of the body, so the liver can process them and keep the composition of the blood reaching the body steady. How the liver does this (glycogen storage, deamination) and the villi are taught in "Absorption, transport and storage"; name them only.
 - [ ] PT4 The hepatic portal vein carries deoxygenated blood (it has already passed through the gut capillaries), so the liver gets its oxygen from the hepatic artery (V8).
 
 Modelling interactions with other body systems (one block; one bullet per system, each naming where the exchange happens and what is transferred)
@@ -79,7 +79,8 @@ No figures for blood flow rates, circulation times or blood volume (blood volume
 - "Double circulation" means the blood passes through the heart twice per circuit, not that there are two hearts.
 - The hepatic portal vein runs from the gut to the liver, not from the liver to the heart (that is the hepatic vein). Students often confuse the hepatic artery, hepatic portal vein and hepatic vein.
 - Fetal circulation, the placenta and the umbilical vessels belong to "Pregnancy" (Human Reproduction); don't add them. The hypophyseal (pituitary) portal system is not on the specification; give the hepatic portal system only.
-- The lymphatic system is not on this specification; I2 mentions lacteals in one phrase only.
+- The lymphatic system is not on this specification; I2 mentions lacteals in one phrase only (their role in fat absorption is in "Absorption, transport and storage").
+- The hepatic portal vein is also taught in "Absorption, transport and storage" (its role in carrying absorbed nutrients to the liver). Here it is one of the three pathways of the circulation: keep PT1–PT4 short and don't re-teach absorption or liver functions.
 - Heart chambers and valves belong to "Investigation: the heart"; tissue fluid and capillary exchange to "Blood vessels"; the absorption process to "Absorption, transport and storage". Use these by name.
 - Cardiac cycle is not on the specification; don't say when each chamber contracts.
 - The diagram cues D6, V9 and I9 are the only ones wanted. No other diagram cues.

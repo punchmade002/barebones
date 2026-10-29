@@ -39,7 +39,7 @@ Applications (one block; one bullet each)
 - [ ] A2 Holding the breath: CO₂ builds up in the blood, the chemoreceptors' signal to the breathing centre becomes stronger and stronger, and eventually the automatic control overrides the voluntary control by the cerebrum, forcing a breath. This is why a person can't hold their breath until they lose consciousness at rest.
 - [ ] A3 Hyperventilation (deliberate fast, deep breathing): removes extra CO₂, so the CO₂ level falls below normal and the urge to breathe is reduced; the person may feel dizzy. Before swimming underwater this is dangerous: the urge to breathe comes too late, so the oxygen level can fall far enough to cause blacking out before the swimmer feels the need to surface.
 - [ ] A4 Breathing air with a raised CO₂ content (e.g. in a poorly ventilated, crowded room, or rebreathing air from a bag) makes breathing faster and deeper, by the same loop.
-- [ ] A5 Comparison with plants (one bullet only): in plants a rise in the CO₂ concentration inside the leaf also acts as a controlling signal, causing stomata to close; the mechanism is in "CO₂ as a controlling factor in plant stomata" (Transport in Plants). In both cases the CO₂ concentration regulates gas exchange with the air, but in humans it is detected by chemoreceptors and acts through nerves and muscles, while in plants it acts directly on the guard cells.
+- [ ] A5 Link to plants (one bullet only): carbon dioxide concentration is also a controlling factor in plants, where it acts on the stomata; that, and the comparison of the plant and human responses, is in "CO₂ as a controlling factor in plant stomata" (Transport in Plants). Name the link; don't compare here.
 
 ## 2. Checked facts and examples
 
@@ -65,7 +65,7 @@ No figures for CO₂ concentration in blood or for pH ranges other than about 7.
 - Don't teach stretch receptors in the lungs (the Hering–Breuer reflex), the pneumotaxic or apneustic centres, or oxygen dissociation curves; they are not on the specification.
 - The Ordinary Level statements (the breathing centre in the medulla sets the rhythm; a CO₂ rise increases rate and depth) are in "Gas exchange and the breathing mechanism"; don't repeat the breathing mechanism itself here.
 - How the blood carries CO₂ (mostly as hydrogencarbonate in the plasma) is in "Blood"; W1 gives the reaction only because it explains the pH change.
-- Stomatal opening and closing, guard cells and their mechanism belong to "CO₂ as a controlling factor in plant stomata" (Transport in Plants); A5 is one bullet.
+- Stomatal opening and closing, guard cells, and the paired comparison of plant and human CO₂ control belong to "CO₂ as a controlling factor in plant stomata" (Transport in Plants); A5 is one bullet with no comparison.
 - The diagram cues C4 and L4 are the only ones wanted. No other diagram cues.
 
 ## 4. What exams ask (topics only)

@@ -80,7 +80,7 @@ No figures for vessel diameters, pressures in each vessel, or the length of capi
 - Capillary walls are one cell thick; don't say "one cell wide" or "one cell membrane thick".
 - Don't use the Latin names of the wall layers (tunica intima, media, externa); the plain names are enough.
 - Varicose veins, aneurysms and atherosclerosis are not required here; coronary artery disease is a health link in "Heartbeat" only.
-- The lymphatic system is not on the specification: T3 names lymph vessels in one phrase only. No lymph nodes, lymph composition or lacteal detail.
+- The lymphatic system is not on the specification: T3 names lymph vessels in one phrase only. No lymph nodes or lymph composition; lacteals belong to "Absorption, transport and storage".
 - The named vessels of each organ belong to "Circulation"; blood pressure values and measurement to "Heartbeat"; tissue fluid's role in homeostasis to "Homeostasis as a stimulus-response model". Use, don't restate.
 - The diagram cues VN7, T4 and C9 are the only ones wanted. No other diagram cues.
 
