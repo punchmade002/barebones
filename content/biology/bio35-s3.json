@@ -1,0 +1,146 @@
+{
+  "loId": "bio35-s3",
+  "chapterId": "bio35",
+  "subsection": "Generating a DNA profile",
+  "syllabusRef": "3.3.3",
+  "notes": [
+    {
+      "h": "Overview of the five steps (Higher Level only)",
+      "points": [
+        "The steps are: 1. collect a sample; 2. extract the DNA; 3. amplify (copy) the chosen repeat regions by PCR; 4. separate the copies by size by gel electrophoresis; 5. make the bands visible and analyse (compare) the pattern.",
+        "In the earlier method, step 3 was replaced by cutting the DNA with restriction enzymes (see “The earlier method: restriction enzymes”, below).",
+        "Diagram: a flow diagram of the five steps, with the key reagent or equipment at each: sample (swab, blood) → extraction (detergent, salt, protease, cold ethanol) → PCR (primers, nucleotides, Taq polymerase, thermal cycler) → gel electrophoresis (agarose gel, wells, electric current) → stained bands compared."
+      ]
+    },
+    {
+      "h": "Sample collection and DNA extraction (Higher Level only)",
+      "points": [
+        "Sources: any cells with a nucleus, e.g. white blood cells (mature red blood cells have no nucleus), cheek cells from a mouth swab, skin cells, hair roots (not the cut hair shaft), saliva and semen.",
+        "Samples are collected with gloves and stored sealed and cold to avoid contamination and breakdown.",
+        "Principle of extraction, step 1 (lysis): a detergent breaks down the phospholipid membranes (cell membrane and nuclear envelope), releasing the DNA.",
+        "Step 2: a protease enzyme digests proteins, including the histones bound to the DNA (see “Chromosome structure and genes”).",
+        "Step 3: DNA is insoluble in cold ethanol, so it comes out of solution (precipitates) and can be collected; salt helps the DNA strands clump together.",
+        "Forensic laboratories use the same principles (break cells, remove protein, purify DNA) with purified kits, because crime-scene samples are tiny."
+      ]
+    },
+    {
+      "h": "School extraction of DNA from onion (Higher Level only)",
+      "b": "The method for extracting DNA from plant tissue, with the role of each reagent.",
+      "points": [
+        "1. Chop the onion finely, to break cell walls and give a large surface area.",
+        "2. Add it to a beaker containing a solution of washing-up liquid (detergent) and table salt.",
+        "3. Stand the beaker in a water bath at 60 °C for 15 minutes: the heat helps the detergent work and denatures enzymes that would break down the DNA; longer heating would start to break the DNA itself.",
+        "4. Cool the beaker in an ice-water bath for 5 minutes, slowing any enzyme breakdown of the DNA.",
+        "5. Blend in a food processor for no more than a few seconds (longer would break the long DNA strands).",
+        "6. Filter through coffee filter paper (or several layers of muslin) to remove cell debris, collecting the liquid filtrate in a test tube.",
+        "7. Add a few drops of protease to digest proteins.",
+        "8. Pour ice-cold ethanol gently down the side of the tilted test tube so it forms a layer on top of the filtrate.",
+        "9. DNA appears at the boundary as white, stringy threads that can be wound onto a glass rod.",
+        "Kiwi or strawberry also work in place of onion.",
+        "Safety for this practical: ethanol is highly flammable (no flames nearby); take care with blender blades and hot water; wear safety glasses."
+      ]
+    },
+    {
+      "h": "Polymerase chain reaction: purpose and reaction mixture (Higher Level only)",
+      "points": [
+        "PCR makes millions to billions of copies of a chosen short region of DNA (here, the STR regions) from a tiny sample, e.g. a single hair root or a spot of blood, so that there is enough DNA to see on a gel.",
+        "PCR is DNA replication carried out in a tube.",
+        "The reaction mixture contains the extracted DNA (the template).",
+        "It also contains primers, which are short single-stranded pieces of DNA made to be complementary to the sequences on either side of the region to be copied, so only that region is copied. DNA polymerase can only add nucleotides onto an existing strand, so a primer is needed to start each new strand.",
+        "It also contains a supply of the four DNA nucleotides (A, T, C, G), a heat-stable DNA polymerase (Taq polymerase), and a buffer solution.",
+        "The tubes are placed in a thermal cycler, a machine that changes the temperature automatically.",
+        "Taq polymerase comes from Thermus aquaticus, a bacterium found in hot springs (first found in Yellowstone National Park, USA).",
+        "Its structure holds its shape at high temperatures (see “Enzyme structure and specificity”), so it is not denatured at 95 °C and works best at about 72 °C.",
+        "A human DNA polymerase would be denatured in the first heating step, and fresh enzyme would have to be added every cycle."
+      ]
+    },
+    {
+      "h": "The PCR cycle: denaturation, annealing and extension (Higher Level only)",
+      "points": [
+        "Step 1, denaturation: heat to about 95 °C. The hydrogen bonds between the complementary bases break and the two strands of each DNA molecule separate. Heat does here what helicase does in cells.",
+        "Step 2, annealing: cool to about 55 °C (usually between 50 and 65 °C, depending on the primers). The primers bind (anneal) by complementary base pairing to their matching sequences on each single strand.",
+        "Step 3, extension: heat to about 72 °C, the optimum temperature of Taq polymerase. Taq polymerase adds nucleotides to the end of each primer, complementary to the template strand, building a new strand.",
+        "Each double-stranded region becomes two.",
+        "Diagram: the PCR cycle as three stages in a circle or a row: double-stranded DNA at 95 °C → separated strands; primers binding at 55 °C; Taq polymerase extending the primers at 72 °C → two double-stranded copies; with “cycle repeats, doubling the DNA each time” (1 → 2 → 4 → 8). Label template strand, primer, nucleotides, Taq polymerase, new strand, and the three temperatures."
+      ]
+    },
+    {
+      "h": "Doubling each cycle: history and other uses of PCR (Higher Level only)",
+      "points": [
+        "Each cycle takes a few minutes and doubles the number of copies of the target region, so after n cycles one molecule gives 2ⁿ copies.",
+        "10 cycles give 1,024 copies (2¹⁰); 30 cycles give 2³⁰, about 1 billion (1,073,741,824).",
+        "A run is usually 25–35 cycles and takes a few hours.",
+        "Kary Mullis invented PCR in 1983 and shared the Nobel Prize in Chemistry in 1993.",
+        "Using Taq polymerase, an enzyme discovered in basic research on bacteria of hot springs, made PCR quick and automatic.",
+        "Other uses of PCR: diagnosing infections by detecting a pathogen’s DNA or RNA (e.g. PCR tests for COVID-19), detecting alleles that cause genetic diseases, and preparing DNA for sequencing (see “DNA sequencing”)."
+      ]
+    },
+    {
+      "h": "The earlier method: restriction enzymes (Higher Level only)",
+      "points": [
+        "In Alec Jeffreys’ original method (see “DNA profiling”), the extracted DNA was cut with restriction enzymes (see “Genetic engineering”), which cut at specific recognition sequences on either side of the repeat regions.",
+        "Because people have different numbers of repeats between the cutting sites, the fragments differed in length between people, and these were separated by gel electrophoresis.",
+        "This needed much more DNA than PCR-based profiling, which has replaced it."
+      ]
+    },
+    {
+      "h": "Gel electrophoresis (Higher Level only)",
+      "points": [
+        "Gel electrophoresis separates DNA fragments by size using an electric current.",
+        "The gel is usually agarose, a jelly made from a polysaccharide extracted from seaweed; it is full of tiny pores that act like a sieve.",
+        "Setting up: the gel is made with a row of small holes (wells) near one end and placed in a tank of buffer solution, which conducts electricity, with the wells at the negative electrode (cathode) end.",
+        "Each DNA sample is mixed with a loading dye, which is dense so the sample sinks into the well, and coloured so that the progress of the run can be seen. Each sample is placed in its own well with a micropipette.",
+        "One well holds a DNA ladder (size marker): a mixture of fragments of known lengths.",
+        "Running: when the current is switched on, the negatively charged DNA (its phosphate groups) moves through the gel towards the positive electrode (anode).",
+        "Small fragments pass through the pores more easily and move faster, so after a set time fragments of different lengths are separated into bands, the smallest furthest from the wells.",
+        "The current is switched off before the loading dye reaches the end of the gel.",
+        "Making the bands visible: DNA is colourless, so the gel is stained. In schools a safe stain such as methylene blue is used, showing blue bands under white light.",
+        "Research laboratories use fluorescent stains that glow under ultraviolet light. The older stain ethidium bromide is a mutagen and must be handled with gloves.",
+        "Modern forensic profiling uses primers labelled with fluorescent dyes and separates the fragments in a thin capillary tube in a machine, which reads the result as peaks (see “DNA profiling”).",
+        "Diagram: an electrophoresis tank seen from the side and from above: gel in buffer, wells at the negative (black) electrode end, positive (red) electrode at the other end, power pack, lanes with ladder and samples, bands; an arrow showing the direction DNA moves. Label agarose gel, well, buffer solution, cathode (−), anode (+), DNA ladder, bands, “smaller fragments travel further”."
+      ]
+    },
+    {
+      "h": "Analysing the bands (Higher Level only)",
+      "points": [
+        "The band positions (or peak sizes) of the samples are compared with each other and with the ladder.",
+        "Matching at every locus indicates the same person, and inheritance of one band per locus from each parent is used in paternity cases.",
+        "Worked examples are in “Investigation: DNA-profile patterns”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Polymerase chain reaction (PCR)", "definition": "A method that copies a chosen short region of DNA many times, doubling the copies in each cycle of heating and cooling." },
+    { "term": "Primer", "definition": "A short single-stranded piece of DNA, complementary to the sequences on either side of a region, that starts the copying of that region." },
+    { "term": "Template", "definition": "The DNA strand that is copied to make a new complementary strand." },
+    { "term": "Denaturation", "definition": "Heating DNA to about 95 °C so that the hydrogen bonds between complementary bases break and the two strands separate." },
+    { "term": "Annealing", "definition": "Cooling DNA to about 55 °C so that primers bind by complementary base pairing to their matching sequences on each single strand." },
+    { "term": "Extension", "definition": "Heating to about 72 °C so that Taq polymerase adds nucleotides to each primer, building a new complementary strand." },
+    { "term": "Taq polymerase", "definition": "A heat-stable DNA polymerase from the hot-spring bacterium Thermus aquaticus that works best at about 72 °C." },
+    { "term": "Thermal cycler", "definition": "A machine that changes the temperature of PCR reactions automatically through the denaturation, annealing and extension steps." },
+    { "term": "Lysis", "definition": "The breaking open of cells and nuclei, here by a detergent that dissolves the membranes and releases the DNA." },
+    { "term": "Protease", "definition": "An enzyme that digests proteins, including the histones bound to DNA, during DNA extraction." },
+    { "term": "Precipitation (of DNA)", "definition": "The coming out of solution of DNA when cold ethanol is added, so that it can be collected as white threads." },
+    { "term": "Agarose", "definition": "A jelly made from a polysaccharide extracted from seaweed, used to make the gel that separates DNA fragments." },
+    { "term": "Loading dye", "definition": "A dense, coloured liquid mixed with DNA samples so that they sink into the well and the progress of the run can be seen." },
+    { "term": "Cathode and anode", "definition": "The negative electrode (cathode), at the wells end of the gel, and the positive electrode (anode), towards which DNA moves." },
+    { "term": "Capillary electrophoresis", "definition": "Separation of fluorescently labelled DNA fragments by size in a thin capillary tube in a machine, which reads the result as peaks." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe the three steps of one cycle of the polymerase chain reaction, giving the approximate temperature of each, and explain why Taq polymerase is used.",
+      "model": "Step 1, denaturation, at about 95 °C: the hydrogen bonds between the complementary bases break, so the two strands of each DNA molecule separate. Step 2, annealing, at about 55 °C: the primers bind by complementary base pairing to their matching sequences on each single strand. Step 3, extension, at about 72 °C: Taq polymerase adds nucleotides to the end of each primer, building a new strand complementary to the template, so each double-stranded region becomes two. Taq polymerase is used because it is heat-stable: it comes from the hot-spring bacterium Thermus aquaticus and is not denatured at 95 °C, so it does not have to be added again in every cycle."
+    },
+    {
+      "marks": 12,
+      "prompt": "Model the steps involved in generating a DNA profile from a blood stain found at a crime scene.",
+      "model": "1. Sample collection: the blood stain is collected with gloves and stored sealed and cold to avoid contamination and breakdown. 2. Extraction: white blood cells are used, because mature red blood cells have no nucleus. A detergent breaks open the cells and nuclei and releases the DNA; a protease digests the proteins, including the histones bound to the DNA; and cold ethanol is added so that the DNA precipitates and can be collected. 3. PCR: a blood stain may contain only a tiny amount of DNA, so PCR is needed to make millions of copies of the STR regions. The mixture contains the DNA template, primers, the four nucleotides, Taq polymerase and buffer, and is cycled through denaturation at about 95 °C, annealing at about 55 °C and extension at about 72 °C. 4. Gel electrophoresis: the copies are loaded with loading dye into wells at the negative end of an agarose gel and run in buffer under an electric current, so the negatively charged DNA moves towards the positive electrode and the smaller fragments travel furthest, forming bands. The gel is stained and the bands are made visible. 5. Analysis: the band positions are compared with the ladder and with the suspect’s profile; a match at every locus indicates the same person. A flow diagram would show these five steps with the key reagent or equipment at each."
+    },
+    {
+      "marks": 6,
+      "prompt": "Starting with a single DNA molecule, how many copies of the target region are present after 10 cycles of PCR? Explain your answer.",
+      "model": "1,024 copies (2¹⁰). Each PCR cycle doubles the number of copies of the target region, so after n cycles one molecule gives 2ⁿ copies. After 10 cycles, 2¹⁰ = 1,024."
+    }
+  ]
+}

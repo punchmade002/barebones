@@ -46,7 +46,10 @@
       "h": "Active transport",
       "points": [
         "Active transport is the movement of molecules or ions across a membrane from a region of lower concentration to a region of higher concentration, against the concentration gradient, using energy from ATP.",
-        "How it works: 1. The substance binds to a specific carrier protein (a pump) in the membrane. 2. ATP made in respiration releases energy, which changes the shape of the carrier protein. 3. The change in shape moves the substance across the membrane and releases it on the other side. 4. The carrier returns to its original shape, ready to pick up another molecule.",
+        "How it works: 1. The substance binds to a specific carrier protein (a pump) in the membrane.",
+        "2. ATP made in respiration releases energy, which changes the shape of the carrier protein.",
+        "3. The change in shape moves the substance across the membrane and releases it on the other side.",
+        "4. The carrier returns to its original shape, ready to pick up another molecule.",
         "Because it needs ATP, active transport happens only in living cells and depends on respiration. It stops or slows if respiration is stopped, e.g. by lack of oxygen, low temperature or a respiratory poison such as cyanide. Cells that carry out much active transport have many mitochondria, e.g. root hair cells, cells lining the kidney tubules and cells of the small intestine.",
         "The sodium–potassium pump is a carrier protein in the membranes of animal cells, including nerve cells. It uses one ATP to pump three sodium ions (Na⁺) out of the cell and two potassium ions (K⁺) into it, both against their concentration gradients. It keeps Na⁺ high outside the cell and K⁺ high inside, which nerve cells need in order to carry impulses, and it helps control cell volume.",
         "Other examples: root hair cells take up mineral ions, e.g. nitrate, from soil water in which they are more dilute than in the cell (detail in Transport in Plants). Glucose and amino acids are absorbed from the small intestine and reabsorbed from the kidney tubules into the blood (detail in Absorption, transport and storage and The nephron).",
@@ -65,27 +68,90 @@
     }
   ],
   "keyTerms": [
-    { "term": "Selectively permeable membrane", "definition": "A living membrane that lets some substances through and not others, and can move substances actively using its proteins." },
-    { "term": "Semi-permeable membrane", "definition": "A membrane that lets water and small molecules through but holds back larger molecules, by the size of its pores." },
-    { "term": "Fully permeable", "definition": "Describes a barrier, such as the plant cell wall, that lets water and all solutes through." },
-    { "term": "Solute", "definition": "A substance, such as sugar or salt, dissolved in a solvent." },
-    { "term": "Concentration gradient", "definition": "The difference in concentration of a substance between two regions." },
-    { "term": "Diffusion", "definition": "The net movement of molecules or ions from a region of higher concentration to a region of lower concentration, passively." },
-    { "term": "Facilitated diffusion", "definition": "The passive diffusion of ions or polar molecules down a concentration gradient through specific channel or carrier proteins." },
-    { "term": "Osmosis", "definition": "The net movement of water molecules from a region of higher water concentration to a region of lower water concentration across a semi-permeable membrane." },
-    { "term": "Hypotonic", "definition": "Describes a solution more dilute than the cell's contents, so water enters the cell." },
-    { "term": "Hypertonic", "definition": "Describes a solution more concentrated than the cell's contents, so water leaves the cell." },
-    { "term": "Isotonic", "definition": "Describes a solution with the same concentration as the cell's contents, so there is no net movement of water." },
-    { "term": "Turgid", "definition": "Describes a plant cell that is firm because its vacuole has taken in water and pushes the contents against the cell wall." },
-    { "term": "Turgor pressure", "definition": "The pressure of the cell contents against the cell wall, caused by water entering the vacuole." },
-    { "term": "Flaccid", "definition": "Describes a plant cell that is soft because it has lost water." },
-    { "term": "Plasmolysis", "definition": "The shrinking of the cytoplasm and cell membrane away from the cell wall of a plant cell in a hypertonic solution." },
-    { "term": "Haemolysis", "definition": "The bursting of red blood cells when they take in too much water." },
-    { "term": "Crenation", "definition": "The shrivelling and spiky appearance of red blood cells in a hypertonic solution." },
-    { "term": "Active transport", "definition": "The movement of molecules or ions across a membrane against a concentration gradient, using energy from ATP and carrier proteins." },
-    { "term": "Carrier protein", "definition": "A protein in a membrane that binds a specific substance and changes shape to move it across the membrane." },
-    { "term": "Sodium–potassium pump", "definition": "A carrier protein in animal cell membranes that uses one ATP to pump three Na⁺ out of the cell and two K⁺ into it." },
-    { "term": "Aquaporin", "definition": "A protein water channel in a membrane through which water passes quickly." }
+    {
+      "term": "Selectively permeable membrane",
+      "definition": "A living membrane that lets some substances through and not others, and can move substances actively using its proteins."
+    },
+    {
+      "term": "Semi-permeable membrane",
+      "definition": "A membrane that lets water and small molecules through but holds back larger molecules, by the size of its pores."
+    },
+    {
+      "term": "Fully permeable",
+      "definition": "Describes a barrier, such as the plant cell wall, that lets water and all solutes through."
+    },
+    {
+      "term": "Solute",
+      "definition": "A substance, such as sugar or salt, dissolved in a solvent."
+    },
+    {
+      "term": "Concentration gradient",
+      "definition": "The difference in concentration of a substance between two regions."
+    },
+    {
+      "term": "Diffusion",
+      "definition": "The net movement of molecules or ions from a region of higher concentration to a region of lower concentration, passively."
+    },
+    {
+      "term": "Facilitated diffusion",
+      "definition": "The passive diffusion of ions or polar molecules down a concentration gradient through specific channel or carrier proteins."
+    },
+    {
+      "term": "Osmosis",
+      "definition": "The net movement of water molecules from a region of higher water concentration to a region of lower water concentration across a semi-permeable membrane."
+    },
+    {
+      "term": "Hypotonic",
+      "definition": "Describes a solution more dilute than the cell's contents, so water enters the cell."
+    },
+    {
+      "term": "Hypertonic",
+      "definition": "Describes a solution more concentrated than the cell's contents, so water leaves the cell."
+    },
+    {
+      "term": "Isotonic",
+      "definition": "Describes a solution with the same concentration as the cell's contents, so there is no net movement of water."
+    },
+    {
+      "term": "Turgid",
+      "definition": "Describes a plant cell that is firm because its vacuole has taken in water and pushes the contents against the cell wall."
+    },
+    {
+      "term": "Turgor pressure",
+      "definition": "The pressure of the cell contents against the cell wall, caused by water entering the vacuole."
+    },
+    {
+      "term": "Flaccid",
+      "definition": "Describes a plant cell that is soft because it has lost water."
+    },
+    {
+      "term": "Plasmolysis",
+      "definition": "The shrinking of the cytoplasm and cell membrane away from the cell wall of a plant cell in a hypertonic solution."
+    },
+    {
+      "term": "Haemolysis",
+      "definition": "The bursting of red blood cells when they take in too much water."
+    },
+    {
+      "term": "Crenation",
+      "definition": "The shrivelling and spiky appearance of red blood cells in a hypertonic solution."
+    },
+    {
+      "term": "Active transport",
+      "definition": "The movement of molecules or ions across a membrane against a concentration gradient, using energy from ATP and carrier proteins."
+    },
+    {
+      "term": "Carrier protein",
+      "definition": "A protein in a membrane that binds a specific substance and changes shape to move it across the membrane."
+    },
+    {
+      "term": "Sodium–potassium pump",
+      "definition": "A carrier protein in animal cell membranes that uses one ATP to pump three Na⁺ out of the cell and two K⁺ into it."
+    },
+    {
+      "term": "Aquaporin",
+      "definition": "A protein water channel in a membrane through which water passes quickly."
+    }
   ],
   "questions": [
     {
