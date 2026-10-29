@@ -177,7 +177,7 @@
     },
     {
       "marks": 12,
-      "prompt": "Higher Level: Draw a model of the hormonal control of the male reproductive system and use it to explain why the use of anabolic steroids can reduce sperm production.",
+      "prompt": "Draw a model of the hormonal control of the male reproductive system and use it to explain why the use of anabolic steroids can reduce sperm production.",
       "model": "The model is a flow chart: hypothalamus → pituitary → FSH and LH → testes → sperm and testosterone, with a minus arrow from testosterone back to the pituitary. FSH stimulates sperm production in the seminiferous tubules and LH stimulates the interstitial cells to secrete testosterone. Anabolic steroids are synthetic testosterone-like substances, which raise the level of testosterone in the blood. Through negative feedback, this high testosterone inhibits the pituitary's release of LH and FSH. With less LH and FSH, the testes receive less stimulation, so they make less testosterone of their own and less sperm, and the testes shrink."
     }
   ]
