@@ -1,0 +1,463 @@
+/* ═══════════════════════════════════════════════
+   BARE BONES — Phone & touch layout
+   Loaded after styles.css. The phone screens follow the landing-page
+   mockups (index.html, tpl-screen-flash / tpl-screen-exam): a slim top bar,
+   a segmented mode switch, and one tall card that owns the screen.
+   ═══════════════════════════════════════════════ */
+
+/* The timer has nothing to time before sign-in */
+body.auth-open .timer-widget { display: none; }
+
+/* ── Touch: no sticky hover lifts, quick taps ── */
+@media (hover: none) {
+  button,
+  a,
+  summary {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .button-primary:hover,
+  .button-secondary:hover,
+  .subject-panel-btn:hover,
+  .profile-avatar:hover,
+  .timer-clock-btn:hover { transform: none; }
+
+  .button-primary:active,
+  .button-secondary:active,
+  .study-controls button:active,
+  .tab:active,
+  .graph-chapter:active,
+  .timer-opt:active { transform: scale(0.97); }
+}
+
+/* ── Tablet portrait: the timer stays bottom-right, so key words move out of its way ── */
+@media (min-width: 641px) and (max-width: 980px) {
+  .study-keywords { order: -1; margin-left: 0; }
+  .study-keywords-panel { right: auto; left: 0; }
+}
+
+/* ═══════════════════════════════════════════════
+   PHONE  (≤ 640px)
+   ═══════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  :root {
+    --phone-bar: 3.6rem;   /* fixed top bar: logo · timer · avatar */
+    --phone-strip: 40px;   /* subject chip row */
+    --phone-track: color-mix(in oklch, var(--line), var(--bg) 35%);
+  }
+
+  /* dvh tracks Safari's collapsing toolbars; 100vh hides the bottom of the card */
+  body { height: 100vh; height: 100dvh; }
+
+  /* iOS zooms into any field under 16px */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  select,
+  textarea { font-size: 16px; }
+
+  /* ── Top bar ─────────────────────────────── */
+  .brand-mark { top: 1.05rem; left: 1rem; }
+  .brand-mark img { height: 22px; }
+
+  .profile-avatar-wrap { top: 0.55rem; right: 1rem; }
+
+  .profile-avatar {
+    width: 38px;
+    height: 38px;
+    border-width: 2px;
+    font-size: 0.9rem;
+    box-shadow: var(--s1), 0 0 0 2px var(--accent-light);
+  }
+
+  /* Level % rides on the avatar as a badge so the timer can sit beside it */
+  .profile-level {
+    top: auto;
+    right: 50%;
+    bottom: -0.45rem;
+    transform: translateX(50%);
+    padding: 0.05rem 0.4rem;
+    font-size: 0.6rem;
+    box-shadow: 0 0 0 2px var(--bg);
+  }
+
+  .profile-menu { max-width: calc(100vw - 2rem); }
+
+  /* Timer moves out of the thumb zone into the top bar; its menu drops down */
+  .timer-widget {
+    top: 0.55rem;
+    right: calc(1rem + 38px + 0.6rem);
+    bottom: auto;
+  }
+
+  .timer-idle { flex-direction: column-reverse; }
+
+  .timer-picker {
+    padding: 0.5rem 0 0;
+    transform: translateY(-6px) scale(0.97);
+    transform-origin: top right;
+  }
+
+  .timer-picker.picker-open { transform: none; }
+  .timer-opt { min-height: 40px; justify-content: center; }
+
+  .timer-clock-btn {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    box-shadow: var(--s1);
+  }
+
+  .timer-clock-btn svg { flex: none; width: 20px; height: 20px; }
+
+  .timer-active { height: 38px; min-width: 0; }
+
+  /* Full-screen pages put their Close button where the timer now lives */
+  body:has(#progressScreen:not(.hidden)) .timer-widget,
+  body:has(#fullNotesScreen:not(.hidden)) .timer-widget,
+  body:has(#examBreakdownModal:not(.hidden)) .timer-widget { display: none; }
+
+  /* ── Shell ───────────────────────────────── */
+  .app-shell {
+    margin: var(--phone-bar) 0 0;
+    padding: 0 1rem;
+  }
+
+  .subject-area {
+    height: calc(100vh - var(--phone-bar));
+    height: calc(100dvh - var(--phone-bar));
+    gap: 0.35rem;
+  }
+
+  /* ── Subject strip ───────────────────────── */
+  .subject-list-wrap {
+    position: relative;
+    height: var(--phone-strip);
+  }
+
+  /* Fade at the right edge says "more subjects this way" */
+  .subject-list-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -1rem;
+    bottom: 0;
+    width: 2.25rem;
+    background: linear-gradient(90deg, transparent, var(--bg) 70%);
+    pointer-events: none;
+  }
+
+  .subject-panel-btn {
+    min-height: 36px;
+    padding: 0.4rem 0.8rem;
+    background: transparent;
+    border: 1.5px solid var(--line);
+    border-radius: var(--r-full);
+    box-shadow: none;
+    color: var(--ink-2);
+    font-size: 0.8rem;
+    font-weight: 650;
+  }
+
+  .subject-panel-btn:hover { background: var(--panel); color: var(--ink); box-shadow: none; }
+
+  .subject-graph { padding-right: 1.75rem; }
+
+  .graph-subject-header { min-height: 36px; padding: 0.2rem 0.65rem; }
+  .graph-subject-title { font-size: 0.8rem; }
+
+  .graph-subject.selected .graph-subject-name { gap: 0.4rem; }
+
+  .graph-subject.selected .graph-subject-title::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 0.45rem;
+    border-radius: 3px;
+    background: var(--accent);
+    vertical-align: 0.05em;
+  }
+
+  /* Chevron after the name, pointing down: this chip opens the chapter list */
+  .graph-subject.selected .graph-subject-chevron {
+    order: 2;
+    color: var(--muted);
+    transform: rotate(90deg);
+  }
+
+  .graph-subject.selected.expanded .graph-subject-chevron {
+    color: var(--accent);
+    transform: rotate(-90deg);
+  }
+
+  /* Chapter list: a sheet under the strip, with the page dimmed behind it */
+  .graph-chapters {
+    top: calc(var(--phone-bar) + var(--phone-strip) + 0.4rem);
+    right: 0.75rem;
+    left: 0.75rem;
+    max-height: calc(100dvh - var(--phone-bar) - var(--phone-strip) - 1.25rem);
+    gap: 0.15rem;
+    padding: 0.5rem;
+    border-radius: var(--r-md);
+    box-shadow: var(--s3), 0 0 0 100vmax rgba(26, 25, 22, 0.28);
+    overscroll-behavior: contain;
+  }
+
+  .graph-chapter { min-height: 44px; font-size: 0.86rem; }
+
+  /* ── Study header: context + segmented switch ── */
+  #subjectWorkbench { padding: 0.25rem 0 1.5rem; }
+
+  .workbench-bar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "context notes"
+      "tabs    tabs";
+    align-items: end;
+    gap: 0.75rem 0.75rem;
+    padding: 0.35rem 0 0.5rem;
+    border-bottom: 0;
+  }
+
+  .workbench-nav { display: contents; }
+  .study-context { grid-area: context; gap: 0.15rem; }
+
+  .study-context span { font-size: 0.75rem; }
+
+  .study-context strong {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 1.45rem;
+    line-height: 1.1;
+    white-space: normal;
+  }
+
+  .workbench-notes {
+    grid-area: notes;
+    min-height: 36px;
+    padding: 0.4rem 0.75rem;
+    border: 1.5px solid var(--line);
+    border-radius: var(--r-full);
+    color: var(--ink-2);
+    font-size: 0.78rem;
+  }
+
+  .tabs {
+    grid-area: tabs;
+    width: 100%;
+    display: flex;
+    gap: 0.25rem;
+    padding: 0.25rem;
+    background: var(--phone-track);
+    border-radius: var(--r-sm);
+  }
+
+  .tab {
+    flex: 1;
+    min-height: 38px;
+    padding: 0.4rem 0.5rem;
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  .tab:hover { background: transparent; }
+
+  .tab.active,
+  .tab.active:hover {
+    background: var(--panel);
+    color: var(--ink);
+    box-shadow: 0 2px 6px rgba(26, 25, 22, 0.08);
+  }
+
+  /* ── Learn: one dark card that fills the screen ── */
+  #subjectWorkbench.learn-mode { padding-bottom: 1rem; }
+
+  .flashcard-study,
+  #subjectWorkbench.learn-mode .flashcard-study {
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    gap: 0.9rem;
+    padding: 1.1rem 1.1rem 1rem;
+    background: var(--ink);
+    border-color: var(--ink);
+    border-radius: 20px;
+    box-shadow: 0 18px 40px -24px rgba(26, 25, 22, 0.6);
+    color: var(--panel-2);
+  }
+
+  .study-progress { width: min(150px, 50%); }
+  .study-progress .progress-bar { background: color-mix(in oklch, var(--panel-2) 14%, transparent); }
+
+  .study-progress > span,
+  .study-card-count { color: color-mix(in oklch, var(--panel-2) 58%, transparent); }
+
+  .study-face {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.75rem;
+    overflow-y: auto;
+    color: var(--panel-2);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .study-face::before {
+    content: "Answer";
+    color: var(--accent-2);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .study-face:has(> strong)::before { content: "Flashcard"; }
+
+  .study-face strong {
+    font-size: clamp(1.5rem, 7.5vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  .study-face:has(> strong)::after {
+    content: "↺  Tap to flip";
+    color: color-mix(in oklch, var(--panel-2) 50%, transparent);
+    font-size: 0.75rem;
+    white-space: pre;
+  }
+
+  /* Controls stay pinned to the bottom; key words sit above them, not below */
+  .study-card-footer,
+  #subjectWorkbench.learn-mode .study-card-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding-right: 0;
+  }
+
+  .study-controls { width: 100%; gap: 0.4rem; }
+  .study-controls button { min-height: 48px; }
+  .study-controls .study-step,
+  .study-controls .study-learned { width: 48px; min-width: 48px; }
+
+  .study-controls .study-step,
+  .study-controls .study-learned {
+    background: color-mix(in oklch, var(--panel-2) 8%, transparent);
+    border-color: color-mix(in oklch, var(--panel-2) 18%, transparent);
+    color: var(--panel-2);
+  }
+
+  /* Learned shows as a filled tick: the label is hidden at this width */
+  .study-controls .study-learned[aria-label="Mark concept unlearned"] {
+    background: color-mix(in oklch, var(--accent) 22%, transparent);
+    border-color: var(--accent);
+    color: var(--accent-3);
+  }
+
+  .study-keywords { order: -1; align-self: flex-start; margin: 0; }
+  .study-keywords summary { color: color-mix(in oklch, var(--panel-2) 70%, transparent); }
+
+  .study-keywords:hover summary,
+  .study-keywords:focus-within summary {
+    background: color-mix(in oklch, var(--panel-2) 10%, transparent);
+    color: var(--panel-2);
+  }
+
+  .study-keywords-panel {
+    right: auto;
+    left: 0;
+    width: min(320px, calc(100vw - 4.5rem));
+    color: var(--ink);
+  }
+
+  /* ── Subject overview: a list, not a stack of cards ── */
+  .overview-chapter-list { gap: 0.3rem; }
+
+  .overview-chapter-row {
+    min-height: 0;
+    gap: 0.5rem;
+    padding: 0.75rem 0.85rem 0.8rem;
+    border-radius: var(--r-sm);
+    background: var(--panel);
+  }
+
+  .overview-chapter-text {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .overview-chapter-score { flex: none; font-variant-numeric: tabular-nums; }
+
+  .overview-progress-bar,
+  .overview-total-bar { height: 6px; }
+
+  /* ── Exam: titles wrap instead of truncating ── */
+  .exam-group-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "source chevron"
+      "meta   chevron";
+    gap: 0.15rem 0.75rem;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .exam-source-tag {
+    grid-area: source;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .exam-group-meta {
+    grid-area: meta;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .exam-group-chevron { grid-area: chevron; }
+
+  .exam-group-body { padding: 0.2rem 0 1rem; }
+  .exam-group-body .exam-part { padding: 1rem 0.35rem; }
+
+  /* ── Full notes: one level of card, room for the text ── */
+  #fullNotesScreen .full-notes-card { height: 100dvh; max-height: 100dvh; }
+  #fullNotesScreen .full-notes-card .toolbar { padding: 0.9rem 1rem 0.75rem; }
+  #fullNotesScreen .full-notes-body { padding: 1rem 1rem 3rem; }
+
+  .full-notes-body .lo-block {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .full-notes-body h4 { font-size: 1.15rem; }
+  .full-notes-body p { font-size: 1rem; line-height: 1.65; }
+  .full-notes-body .note-block { padding: 0.8rem 0.9rem; }
+  .full-notes-body .note-block > :first-child { margin-top: 0; }
+
+  /* ── Progress page ───────────────────────── */
+  .progress-page { padding: 1.1rem 1rem 3rem; }
+  .progress-page-head { align-items: center; margin-bottom: 1.25rem; }
+
+  /* ── Paper guide sheet ───────────────────── */
+  #examBreakdownModal { padding: 0; place-items: end stretch; }
+
+  .breakdown-modal-card {
+    width: 100%;
+    max-height: 92dvh;
+    padding: 1.5rem 1.1rem 2rem;
+    border-radius: var(--r-xl) var(--r-xl) 0 0;
+  }
+}
