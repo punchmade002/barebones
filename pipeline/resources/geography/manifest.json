@@ -2,26 +2,28 @@
   "schemaVersion": 1,
   "subject": "geography",
   "level": "Higher",
-  "unitCount": 23,
-  "topicCount": 63,
-  "alignmentStatus": "transitional",
+  "unitCount": 27,
+  "topicCount": 57,
+  "alignmentStatus": "aligned",
   "sources": {
     "syllabus": {
       "authority": "NCCA",
-      "url": "https://www.curriculumonline.ie/getmedia/837bf939-b559-4b45-8c94-5590d8710083/SC-Geography-Spec-ENG-INT.pdf",
-      "effectiveFrom": "September 2026",
-      "firstExamYear": 2028
+      "url": "https://www.curriculumonline.ie/getmedia/9da21be1-3f99-4f50-88ee-ba7ce6638e1a/SCSEC17_Geography_syllabus_eng.pdf",
+      "effectiveFrom": "Current syllabus for examination to June 2027",
+      "firstExamYear": 2006,
+      "downloadedAt": "2026-10-15"
     },
     "research": {
       "provider": "SimpleStudy",
-      "accessedAt": "2026-08-07",
+      "accessedAt": "2026-10-15",
       "level": "Higher",
       "representativeLessonUrl": "https://simplestudy.com/account/notes/revision/22282",
       "representativeLesson": "The Earth's Structure",
       "h2Sections": 5,
       "h3Sections": 2,
       "workedExampleMentions": 0,
-      "noteCallouts": 0
+      "noteCallouts": 0,
+      "accessSurface": "authenticated course (screen recording of the flashcards sidebar)"
     }
   }
 }

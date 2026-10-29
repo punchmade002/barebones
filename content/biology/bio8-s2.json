@@ -1,0 +1,144 @@
+{
+  "loId": "bio8-s2",
+  "chapterId": "bio8",
+  "subsection": "Structures of biomolecules",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    {
+      "h": "Carbohydrates: general formula and size groups",
+      "points": [
+        "Carbohydrates contain carbon, hydrogen and oxygen only. Their general formula is Cx(H₂O)y: hydrogen and oxygen are in the ratio 2 : 1, as in water. Glucose, C₆H₁₂O₆, is an example. The name means “hydrated carbon”, but the molecule does not contain water molecules.",
+        "There are three groups by size: monosaccharides (one sugar unit), disaccharides (two units) and polysaccharides (many units).",
+        "Mono- and disaccharides are sugars: sweet, soluble in water and crystalline.",
+        "Polysaccharides are not sweet and are insoluble or only slightly soluble, which suits them to storage and structure."
+      ]
+    },
+    {
+      "h": "Monosaccharides",
+      "points": [
+        "Monosaccharides are single sugar units and the monomers of all other carbohydrates. Glucose, C₆H₁₂O₆, is the main respiratory substrate.",
+        "Fructose, the fruit sugar found in fruit and honey, has the same formula, C₆H₁₂O₆, but a different arrangement of atoms.",
+        "Galactose also has the formula C₆H₁₂O₆ and is a unit of lactose. Glucose, fructose and galactose are all six-carbon sugars (hexoses).",
+        "Ribose and deoxyribose are five-carbon monosaccharides (pentoses) found in RNA and DNA nucleotides (detail in “DNA, RNA and the Genetic Code”).",
+        "Diagram: glucose drawn as a simple six-sided ring (hexagon) labelled glucose, C₆H₁₂O₆. Atom-by-atom structural formulas are not needed."
+      ]
+    },
+    {
+      "h": "Disaccharides",
+      "points": [
+        "A disaccharide forms when two monosaccharides join by condensation, releasing one molecule of water. The link between the sugar units is a glycosidic bond. Disaccharides have the formula C₁₂H₂₂O₁₁ (2 × C₆H₁₂O₆ minus H₂O). Hydrolysis splits them back into monosaccharides.",
+        "Maltose (malt sugar) is glucose + glucose. It forms when starch is digested by amylase and is found in germinating grain.",
+        "Sucrose (table sugar, cane or beet sugar) is glucose + fructose. It is the form in which plants transport sugar in the phloem.",
+        "Lactose (milk sugar) is glucose + galactose and is found in milk.",
+        "Diagram: two hexagons joined, with H₂O removed by condensation and returned by hydrolysis; label maltose = glucose + glucose."
+      ]
+    },
+    {
+      "h": "Polysaccharides: starch, glycogen, cellulose and chitin",
+      "points": [
+        "A polysaccharide is a polymer of many monosaccharide units (often thousands) joined by condensation. Starch, glycogen and cellulose are all polymers of glucose; they differ in how the glucose units are linked and whether the chains branch.",
+        "Starch is the storage carbohydrate of plants, held as starch grains in cells of potato tubers, seeds and cereal grains. It is a mixture of amylose, an unbranched chain that coils into a helix, and amylopectin, a branched chain.",
+        "Being insoluble, starch does not draw water into cells by osmosis, and its compact shape stores much glucose in a small space.",
+        "Glycogen is the storage carbohydrate of animals and fungi, stored mainly in the liver and muscles (see “Biomolecules and metabolism”). It is more highly branched than amylopectin, so it has many chain ends from which glucose can be released quickly when energy is needed.",
+        "Cellulose is the structural carbohydrate of plants, forming the cell wall (see “Biomolecules and metabolism”). Its glucose units are linked in a different orientation from starch, giving long, straight, unbranched chains that lie side by side. Many hydrogen bonds hold the chains together, forming strong fibres.",
+        "Humans have no enzyme to digest cellulose, so it passes through the gut as dietary fibre (roughage).",
+        "Chitin is a polysaccharide that contains nitrogen. It forms the cell walls of fungi and the exoskeletons of insects and other arthropods.",
+        "Diagram: a chain of hexagons for starch (unbranched amylose and branched amylopectin), a more branched chain for glycogen, and parallel straight chains linked by cross-links for cellulose fibres."
+      ]
+    },
+    {
+      "h": "Triglycerides",
+      "points": [
+        "Lipids are fats, oils and related compounds such as phospholipids. They contain carbon, hydrogen and oxygen, with much less oxygen in proportion to carbon and hydrogen than carbohydrates, so they are not of the form Cx(H₂O)y. Phospholipids also contain phosphorus. Lipids are insoluble in water but dissolve in organic solvents such as ethanol.",
+        "A triglyceride is one glycerol molecule joined to three fatty acids. Glycerol is a small molecule with three carbons, each carrying an –OH group, so it can bond to three fatty acids.",
+        "A fatty acid is a long hydrocarbon chain of carbon and hydrogen atoms with an acid (carboxyl, –COOH) group at one end.",
+        "Each fatty acid joins to glycerol by condensation, so forming one triglyceride releases three water molecules. The bond formed is an ester bond.",
+        "Hydrolysis by lipase reverses this, giving glycerol and fatty acids (detail in “The Digestive System”).",
+        "Diagram: a triglyceride drawn as an E shape, with a vertical glycerol bar and three horizontal fatty acid tails, labelled glycerol, fatty acid and 3 H₂O removed."
+      ]
+    },
+    {
+      "h": "Fats and oils",
+      "points": [
+        "There are many different fatty acids, varying in chain length and in whether they contain carbon–carbon double bonds. Glycerol combines with different fatty acids to give many different fats and oils.",
+        "Saturated fatty acids have no C=C double bonds, so the chain holds the maximum hydrogen. Their chains pack closely, so fats rich in them are solid at room temperature, e.g. butter, lard and the fat on meat. These are mostly animal fats.",
+        "Unsaturated fatty acids have one or more C=C double bonds, which put kinks in the chain. Kinked chains pack loosely, so oils are liquid at room temperature, e.g. olive oil, sunflower oil and fish oils. These are mostly from plants and fish."
+      ]
+    },
+    {
+      "h": "Phospholipids",
+      "points": [
+        "A phospholipid is glycerol joined to two fatty acids and a phosphate-containing group in place of the third fatty acid.",
+        "The phosphate head is hydrophilic (attracted to water). The two fatty acid tails are hydrophobic (repelled by water).",
+        "In water, phospholipids arrange themselves in a double layer (bilayer), with the heads facing the watery fluid on each side and the tails pointing inwards.",
+        "This bilayer is the basis of cell membranes (membrane detail is in “Transport Across Membranes” and “The Unit of Life — The Cell”).",
+        "Diagram: a phospholipid drawn as a circle (head) with two wavy tails, labelled hydrophilic phosphate head and hydrophobic fatty acid tails; and a section of a bilayer."
+      ]
+    },
+    {
+      "h": "Amino acids and peptide bonds",
+      "points": [
+        "Proteins contain carbon, hydrogen, oxygen and nitrogen, and sometimes sulfur, phosphorus or other elements: sulfur is in some amino acids such as cysteine and methionine, phosphorus is in casein, the main protein of milk, and iron is in haemoglobin (see “Minerals”).",
+        "Proteins are made of amino acids. There are 20 different amino acids in the proteins of living things. Each has a central carbon atom bonded to an amino group (–NH₂), an acid (carboxyl, –COOH) group, a hydrogen atom and a variable side group (R group). Only the R group differs between amino acids.",
+        "Humans cannot make some amino acids (essential amino acids) and must take them in from food.",
+        "Diagram: the general structure of an amino acid, a central carbon with –NH₂, –COOH, –H and –R attached; and two amino acids joined by a peptide bond with H₂O released.",
+        "Amino acids join by condensation between the –COOH group of one and the –NH₂ group of the next, releasing water. The bond formed is a peptide bond.",
+        "Two amino acids form a dipeptide; a short chain is a peptide; a long chain is a polypeptide. A protein is one or more polypeptides folded into a particular shape.",
+        "The sequence of amino acids in a polypeptide (its primary structure) is set by a gene. Because 20 amino acids can be arranged in any order and length, a vast number of different proteins is possible."
+      ]
+    },
+    {
+      "h": "Folding into shape and denaturation",
+      "points": [
+        "The chain coils into a helix or folds into a pleated sheet, held by hydrogen bonds (secondary structure). This folds further into a precise three-dimensional shape (tertiary structure), held by bonds between R groups, including sulfur bridges between cysteine units.",
+        "Some proteins consist of several polypeptides fitted together (quaternary structure). Haemoglobin has four polypeptide chains.",
+        "The shape determines the function: an enzyme's active site or an antibody's binding site fits only particular molecules.",
+        "Heat, extremes of pH and some chemicals break the bonds holding the shape, so the protein loses its shape and function. This is denaturation, usually permanent, e.g. egg white turns solid and white when cooked. Enzyme denaturation is detailed in “Enzymes”.",
+        "Fibrous proteins are long strands, insoluble and structural: keratin (hair, nails) and collagen (skin, tendons). Where they are found is covered in “Biomolecules and metabolism”.",
+        "Globular proteins are folded into compact, roughly spherical shapes and are usually soluble, e.g. enzymes, antibodies, haemoglobin and insulin."
+      ]
+    },
+    {
+      "h": "Nucleic acids",
+      "points": [
+        "Nucleic acids (DNA and RNA) are polymers of nucleotides. Each nucleotide contains a sugar, a phosphate group and a nitrogenous base, so nucleic acids contain C, H, O, N and P. Their structure is in “DNA, RNA and the Genetic Code”."
+      ]
+    },
+    {
+      "h": "Summary of the four biomolecules",
+      "points": [
+        "Carbohydrate: C, H, O; monosaccharides; glycosidic bond; glucose, sucrose, starch.",
+        "Lipid: C, H, O (plus P in phospholipids); glycerol and fatty acids; ester bond; triglycerides, phospholipids.",
+        "Protein: C, H, O, N (sometimes S, P or other elements); amino acids; peptide bond; enzymes, keratin.",
+        "Nucleic acid: C, H, O, N, P; nucleotides; DNA, RNA."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Monosaccharide", "definition": "A single sugar unit, such as glucose, fructose or galactose; the monomer of carbohydrates." },
+    { "term": "Disaccharide", "definition": "Two monosaccharides joined by a glycosidic bond, formed by condensation with loss of water." },
+    { "term": "Polysaccharide", "definition": "A polymer of many monosaccharides, such as starch, glycogen, cellulose or chitin." },
+    { "term": "Triglyceride", "definition": "A lipid made of one glycerol and three fatty acids joined by ester bonds." },
+    { "term": "Phospholipid", "definition": "A lipid with two fatty acid tails and a phosphate head, which forms the bilayer of cell membranes." },
+    { "term": "Peptide bond", "definition": "The bond formed by condensation between the carboxyl group of one amino acid and the amino group of the next." },
+    { "term": "R group", "definition": "The variable side group that distinguishes one amino acid from another." },
+    { "term": "Denaturation", "definition": "The loss of a protein's shape, and so its function, when heat, extremes of pH or chemicals break the bonds holding it." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the units that make up (i) a triglyceride and (ii) a protein, and name the bond that joins amino acids.",
+      "model": "(i) A triglyceride is made of one glycerol molecule and three fatty acids. (ii) A protein is made of amino acids. Amino acids are joined by peptide bonds, which form by condensation with the release of water."
+    },
+    {
+      "marks": 9,
+      "prompt": "Compare the structures and functions of starch, glycogen and cellulose.",
+      "model": "All three are polymers of glucose. Starch is the storage carbohydrate of plants; it is a mixture of unbranched amylose, which coils into a helix, and branched amylopectin, and it is insoluble, so it stores much glucose compactly. Glycogen is the storage carbohydrate of animals and fungi, stored mainly in the liver and muscles; it is more highly branched than starch, so glucose can be released quickly from its many chain ends. Cellulose is the structural carbohydrate of plant cell walls; its long, unbranched chains lie side by side and are held by hydrogen bonds to form strong fibres."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the structure of a phospholipid and explain how this structure allows phospholipids to form cell membranes.",
+      "model": "A phospholipid has a glycerol backbone joined to two fatty acids and to a phosphate-containing group in place of the third fatty acid. The phosphate head is hydrophilic, so it is attracted to water, and the two fatty acid tails are hydrophobic, so they are repelled by water. In water, phospholipids arrange themselves in a double layer, a bilayer, with the heads facing the watery fluid on each side and the tails pointing inwards. This bilayer is the basis of cell membranes, because the arrangement follows directly from the hydrophilic heads and hydrophobic tails."
+    }
+  ]
+}

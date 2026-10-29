@@ -1,0 +1,461 @@
+{
+  "loId": "geo-option-atmosphere-ocean-s4",
+  "chapterId": "geo-option-atmosphere-ocean",
+  "subsection": "Atmospheric and oceanic circulation",
+  "syllabusRef": "9.4",
+  "notes": [
+    {
+      "h": "Forces that move air",
+      "b": "Air moves because pressure differences push it. The Earth's rotation and friction then change its path.",
+      "points": [
+        "Pressure gradient force: air moves from high to low pressure. The closer the isobars, the steeper the gradient and the stronger the force and wind.",
+        "Pressure differences arise from unequal heating (thermal causes) and from air converging or diverging aloft (dynamic causes).",
+        "Coriolis force: because the Earth rotates, moving air is deflected to the right in the northern hemisphere and to the left in the southern hemisphere.",
+        "The Coriolis effect is zero at the equator and strongest at the poles, and it is greater for faster-moving air. It changes the direction of the wind, not its speed.",
+        "Gaspard-Gustave de Coriolis, a French scientist, described the effect mathematically in 1835.",
+        "Geostrophic wind: above about 1 km, the pressure gradient force and the Coriolis force balance, so the wind blows parallel to the isobars.",
+        "Friction: near the surface, friction with the ground slows the wind and weakens the Coriolis effect, so surface winds cross the isobars at an angle, blowing into lows and out of highs.",
+        "Friction is greater over land than over sea, so surface winds are stronger over the sea and on coasts.",
+        "Result: in the northern hemisphere air spirals anticlockwise into a depression and clockwise out of an anticyclone. The directions reverse in the southern hemisphere.",
+        "Buys Ballot's law, from Weather and Climate — Weather Maps and Satellite Imagery, links the direction of the wind to the position of low pressure.",
+        "Diagram: a globe with arrows showing the Coriolis deflection to the right in the northern hemisphere and to the left in the southern hemisphere."
+      ]
+    },
+    {
+      "h": "Forces that move water",
+      "b": "Ocean currents are driven mainly by wind. The Coriolis effect, the continents and density then shape them.",
+      "points": [
+        "Wind drag: prevailing winds blowing over the sea surface drive the surface currents. The trade winds push the equatorial currents westward, and the westerlies push the mid-latitude currents eastward.",
+        "The surface current is deflected about 45° from the wind direction.",
+        "The net movement of the whole wind-driven layer is about 90° to the right of the wind in the northern hemisphere. This is Ekman transport.",
+        "Vagn Walfrid Ekman, a Swedish oceanographer, described the Ekman spiral and Ekman transport in the early 20th century.",
+        "Density differences: colder and saltier water is denser and sinks, while warmer and fresher water rises or spreads at the surface. This drives the deep thermohaline circulation.",
+        "Continents and the shape of the ocean floor: land masses block and deflect currents north or south, turning them into closed gyres.",
+        "Gravity and tides also move water."
+      ]
+    },
+    {
+      "h": "Pressure belts of the general circulation",
+      "b": "Air rises near the equator and sinks at around 30° and at the poles. This creates a regular pattern of pressure belts in each hemisphere.",
+      "points": [
+        "Equatorial low, also called the ITCZ or doldrums: calm, rising air and heavy rain.",
+        "Subtropical highs at about 30° north and south, also called the horse latitudes: sinking, dry air and deserts.",
+        "Subpolar lows at about 60° north and south: the polar front, where depressions form.",
+        "Polar highs: cold, sinking air.",
+        "Diagram: a tri-cellular model showing the pressure belts, cells and surface winds for both hemispheres."
+      ]
+    },
+    {
+      "h": "Planetary winds",
+      "points": [
+        "North-east and south-east trade winds blow from the subtropical highs towards the ITCZ.",
+        "Westerlies blow from the subtropical highs towards the subpolar lows: south-westerly in the northern hemisphere and north-westerly in the southern hemisphere.",
+        "Polar easterlies blow from the polar highs towards the subpolar lows.",
+        "Each of these winds is deflected by the Coriolis force."
+      ]
+    },
+    {
+      "h": "The three cells",
+      "points": [
+        "Hadley cell: a thermal cell driven by equatorial heating. George Hadley described it in 1735.",
+        "Ferrel cell: an indirect cell driven by the Hadley and polar cells. William Ferrel, an American meteorologist of the 19th century, is associated with it.",
+        "Polar cell: a thermal cell in which cold, dense air sinks at the poles."
+      ]
+    },
+    {
+      "h": "Seasonal shift of the pressure belts",
+      "b": "The pressure belts follow the overhead sun, so the whole system shifts with the seasons.",
+      "points": [
+        "The pressure belts and the ITCZ move north in the northern summer and south in the northern winter.",
+        "The shift is greater over continents than over oceans.",
+        "This shift produces the dry summer of the Mediterranean, which lies under the subtropical high in summer.",
+        "It also brings the summer rain of the monsoon and the single wet season of the Sahel. The monsoon mechanism is covered in A Continental / Subcontinental Region."
+      ]
+    },
+    {
+      "h": "Jet streams",
+      "points": [
+        "Jet streams are narrow, fast bands of westerly wind in the upper troposphere, near the tropopause, at about 9–12 km up.",
+        "They form where temperature contrasts are sharpest and often blow at over 150 km/h. They are faster in winter.",
+        "The polar front jet stream meanders in large waves, called Rossby waves, and steers depressions.",
+        "A strong, straight jet over the Atlantic brings stormy winters to Ireland. Its position decides whether Ireland gets a run of wet, windy depressions or settled weather.",
+        "A slow, looping jet can block weather systems in place for weeks.",
+        "The subtropical jet's role in the Indian monsoon is covered in A Continental / Subcontinental Region."
+      ]
+    },
+    {
+      "h": "North Atlantic pressure control",
+      "b": "The North Atlantic pressure systems that dominate Ireland's weather are linked by a see-saw of pressure.",
+      "points": [
+        "The Icelandic Low and the Azores High dominate Ireland's weather.",
+        "The North Atlantic Oscillation (NAO) is the see-saw of pressure between these two systems. It controls the strength of the westerlies.",
+        "In the positive phase, with a large pressure difference, the westerlies are strong and Irish winters are mild, wet and stormy.",
+        "In the negative phase, with a small pressure difference, the westerlies are weaker, blocking highs are more common, and Irish winters are colder and drier."
+      ]
+    },
+    {
+      "h": "Air masses affecting Ireland",
+      "points": [
+        "Tropical maritime: comes from the Atlantic near the Azores. It is warm, moist and mild, with cloud and drizzle.",
+        "Polar maritime: comes from the North Atlantic near Greenland and Iceland. It is cool, moist and showery, and is Ireland's most frequent air mass.",
+        "Arctic maritime: comes from the Arctic. It is cold, with snow showers in the north and west in winter.",
+        "Polar continental: comes from Russia and Scandinavia in winter. It is very cold and dry, and it brings snow to east coasts after crossing the Irish Sea. The 2018 case is described under Blocking anticyclones.",
+        "Tropical continental: comes from North Africa and southern Europe in summer. It is hot, dry and hazy, and it brings heatwaves."
+      ]
+    },
+    {
+      "h": "Ocean gyres",
+      "points": [
+        "Gyres are large, circular systems of surface currents, driven by wind, the Coriolis effect and the continents.",
+        "Gyres turn clockwise in northern hemisphere oceans and anticlockwise in southern hemisphere oceans.",
+        "The five main gyres are the North Atlantic, South Atlantic, North Pacific, South Pacific and Indian Ocean gyres.",
+        "Diagram: a world map of the main surface currents, with warm currents in red, cold currents in blue, and the five gyres marked."
+      ]
+    },
+    {
+      "h": "The North Atlantic gyre",
+      "b": "The North Atlantic gyre carries warm water to Ireland and returns cold water to the tropics.",
+      "points": [
+        "The North Equatorial Current flows west with the trade winds.",
+        "The current turns north as the Gulf Stream along the North American coast.",
+        "The Gulf Stream starts in the Gulf of Mexico and the Straits of Florida, and it carries more water than all the world's rivers combined.",
+        "The westerlies carry the Gulf Stream north-east across the Atlantic as the North Atlantic Drift, towards Ireland, Britain and Norway.",
+        "Part of the current turns south as the cold Canary Current along north-west Africa and rejoins the North Equatorial Current.",
+        "The calm Sargasso Sea sits in the centre of the gyre. It is named after its floating sargassum seaweed.",
+        "The cold Labrador Current flows south from the Arctic between Greenland and Canada."
+      ]
+    },
+    {
+      "h": "Effects of the North Atlantic circulation",
+      "points": [
+        "The North Atlantic Drift gives Ireland mild winters. It also keeps ports ice-free, and the Norwegian coast stays ice-free at Hammerfest and Murmansk, while Labrador's coast is frozen.",
+        "Warm sea adds moisture and energy to Atlantic depressions.",
+        "Fog forms where the Gulf Stream meets the Labrador Current, and advection fog forms on the Grand Banks off Newfoundland.",
+        "Icebergs are carried south in the Labrador Current. The Titanic sank on 15 April 1912 after hitting an iceberg south of Newfoundland.",
+        "The Saharan coast of north-west Africa is arid, because it lies beside the cold Canary Current."
+      ]
+    },
+    {
+      "h": "Other ocean currents",
+      "points": [
+        "Warm western-boundary currents carry warm water away from the tropics along the western sides of ocean basins: the Kuroshio, Brazil, East Australian and Agulhas currents.",
+        "Cold eastern-boundary currents bring cold water towards the equator along the eastern sides of ocean basins: the California, Humboldt and Benguela currents.",
+        "The Antarctic Circumpolar Current flows west to east round Antarctica. It is the largest ocean current by volume, and no land blocks it.",
+        "The strong westerlies of the Southern Ocean are called the Roaring Forties and the Furious Fifties."
+      ]
+    },
+    {
+      "h": "Upwelling",
+      "points": [
+        "Winds push surface water away from a coast (Ekman transport), and cold, nutrient-rich deep water rises to replace it.",
+        "Plankton thrive in the nutrient-rich water, supporting rich fisheries off Peru, south-west Africa, California and north-west Africa.",
+        "The Peruvian anchoveta fishery, fed by upwelling off Peru in the Humboldt Current, is the largest single-species fishery in the world.",
+        "The cold upwelled water chills the air above it, which gives the coast fog and aridity."
+      ]
+    },
+    {
+      "h": "Thermohaline circulation",
+      "b": "The thermohaline circulation is the global ocean conveyor belt. It is driven by differences in temperature and salinity.",
+      "points": [
+        "Surface water is cooled and made saltier by evaporation and sea-ice formation in the Greenland, Norwegian and Labrador Seas and around Antarctica. It becomes dense and sinks to the ocean floor.",
+        "The deep water flows slowly south through the Atlantic, round Antarctica and into the Indian and Pacific Oceans.",
+        "There the water gradually rises and returns to the surface as warm currents.",
+        "One circuit of the conveyor belt takes about 1,000 years.",
+        "The Atlantic Meridional Overturning Circulation (AMOC) is the Atlantic part of this system. It pulls the Gulf Stream's warm water north.",
+        "Diagram: a world map showing the conveyor belt of deep and surface currents."
+      ]
+    },
+    {
+      "h": "A threat to the circulation",
+      "points": [
+        "Melting Greenland ice and more rain make North Atlantic water fresher and less dense. It may then sink less, and the AMOC may weaken.",
+        "The IPCC (AR6, 2021) judged that the AMOC is very likely to weaken over the 21st century.",
+        "A weaker AMOC could cool north-west Europe relative to the rest of the world and change rainfall patterns."
+      ]
+    },
+    {
+      "h": "Mid-latitude depressions: definition and origin",
+      "b": "A depression is a low-pressure system in the mid-latitudes. It is the main source of Ireland's rain and wind.",
+      "points": [
+        "A depression is roughly 1,000–3,000 km across, with closed isobars, winds blowing anticlockwise inwards in the northern hemisphere, and warm and cold fronts.",
+        "Depressions move from west to east, steered by the jet stream, and bring most of Ireland's rain and wind.",
+        "Polar front theory was developed by the Bergen School of Norwegian meteorologists, led by Vilhelm Bjerknes and his son Jacob, around the end of the First World War.",
+        "Diagram: a plan view of a mature depression with isobars, fronts and the warm sector."
+      ]
+    },
+    {
+      "h": "Formation of a depression",
+      "points": [
+        "1. At the polar front, cold polar maritime air from the north meets warm, moist tropical maritime air from the south-west, and the two move in opposite directions.",
+        "2. A small wave or kink develops on the front, often where the jet stream above is diverging and removing air aloft.",
+        "3. Warm air pushes into the cold air and begins to rise over it. Surface pressure falls, air is drawn in, and it turns anticlockwise under the Coriolis force.",
+        "4. A warm front forms ahead of the warm air and a cold front forms behind it, with the warm sector between them. The system deepens as more warm air rises and latent heat is released.",
+        "5. The cold front moves faster than the warm front and catches up with it, lifting the warm sector off the ground to form an occluded front. This is occlusion.",
+        "6. Once the warm air is cut off from the surface, the depression fills as pressure rises, and it dies. This usually takes a few days to about a week.",
+        "Diagram: a cross-section along a line through both fronts, showing cloud types and rain belts."
+      ]
+    },
+    {
+      "h": "Weather sequence as a depression passes over Ireland",
+      "points": [
+        "Approach: pressure starts to fall. High cirrus is followed by cirrostratus, which gives a halo round the sun. The wind backs, for example from westerly to southerly or south-easterly, and strengthens.",
+        "Warm front: cloud thickens and lowers, first to altostratus and then to nimbostratus. A long period of steady, moderate rain follows, sometimes for several hours. Pressure falls steadily and temperature rises slightly.",
+        "Warm sector: rain eases to drizzle or stops. Low stratus and mist form on hills. The air is mild and humid, the wind veers to south-westerly, and pressure is steady.",
+        "Cold front: cumulonimbus clouds form and bring short, heavy showers, sometimes with hail, thunder and gusty squalls. Temperature falls sharply, the wind veers to westerly or north-westerly, and pressure begins to rise.",
+        "Behind the cold front: the air is clearer, colder and brighter, with scattered cumulus and showers and good visibility. Pressure rises.",
+        "Occluded front: the cloud and rain of both fronts combine, often with lighter rain as the system ages."
+      ]
+    },
+    {
+      "h": "Impact of depressions on Ireland's weather",
+      "points": [
+        "Ireland's weather is changeable, with rain in every month, because depressions cross the country regularly.",
+        "The west is wetter than the east, because depressions arrive there first.",
+        "Strong winds and storms are most common in autumn and winter, when the temperature contrast and the jet stream are strongest.",
+        "Coastal storm surges accompany the strongest depressions.",
+        "Flooding happens when depressions follow each other in quick succession.",
+        "Storms named by Met Éireann include ex-hurricane Ophelia (16 October 2017) and Storm Éowyn (24 January 2025, when Red wind warnings were issued)."
+      ]
+    },
+    {
+      "h": "Anticyclones: definition and formation",
+      "points": [
+        "An anticyclone is an area of high pressure with widely spaced, closed isobars. It has light winds blowing clockwise outwards in the northern hemisphere, and no fronts.",
+        "Anticyclones are large and slow-moving, and they can last for days or weeks.",
+        "Air converging high in the atmosphere sinks, a process called subsidence. As it sinks it is compressed and warms adiabatically, so its relative humidity falls and clouds evaporate.",
+        "Dynamic (warm) highs form from sinking air in the general circulation. The Azores High is an example, and it often extends a ridge over Ireland in summer.",
+        "Thermal (cold) highs form when the ground cools intensely in winter. The Siberian High, a cold anticyclone over Central Asia, is an example.",
+        "A temperature inversion often forms in the sinking air, trapping moisture and pollution beneath it."
+      ]
+    },
+    {
+      "h": "Anticyclone weather in summer",
+      "points": [
+        "Clear skies, strong sunshine, high daytime temperatures and light winds.",
+        "Cool nights with dew and sometimes morning mist.",
+        "Occasional thunderstorms, triggered by the heat, at the edges of the high.",
+        "Sea breezes on coasts by day.",
+        "Prolonged summer highs cause heatwaves and drought."
+      ]
+    },
+    {
+      "h": "Anticyclone weather in winter",
+      "points": [
+        "Clear nights let the ground lose heat rapidly. This causes hard frost and freezing fog in valleys (radiation fog), which may persist all day.",
+        "Cold, crisp, sunny days are common.",
+        "Anticyclonic gloom: a layer of stratocumulus is trapped under the inversion, keeping the sky grey and dull.",
+        "Smog forms in towns where pollution is trapped, as described in Economic Activity and Environmental Impact."
+      ]
+    },
+    {
+      "h": "Blocking anticyclones and the 2018 case",
+      "points": [
+        "A high that stays in place, often over Scandinavia or west of Ireland, blocks the westerly flow and diverts depressions north or south.",
+        "The result is a long spell of dry weather, with a heatwave in summer or a cold spell in winter, while other regions get prolonged rain.",
+        "A block to the east can draw very cold polar continental air to Ireland.",
+        "In late February and early March 2018, a block of high pressure over Scandinavia drew bitterly cold polar continental air from Russia over Ireland. This was the Beast from the East.",
+        "Storm Emma then arrived from the south on 1–2 March 2018, bringing heavy snow.",
+        "Met Éireann issued a Red snow warning for the whole country. It was the first nationwide Red warning."
+      ]
+    },
+    {
+      "h": "Depressions and anticyclones compared",
+      "points": [
+        "Pressure: a depression has low pressure at its centre and an anticyclone has high pressure.",
+        "Isobars: closely spaced in a depression, widely spaced in an anticyclone.",
+        "Wind: strong in a depression and light in an anticyclone.",
+        "Air movement: air rises in a depression and sinks in an anticyclone.",
+        "Cloud and rain: cloud and rain in a depression, clear skies in an anticyclone.",
+        "Typical weather: changeable, windy and wet in a depression, and settled, dry and calm in an anticyclone.",
+        "Movement: depressions travel from west to east, while anticyclones are slow-moving."
+      ]
+    },
+    {
+      "h": "Sea breezes by day",
+      "points": [
+        "Land heats faster than the sea under sunshine. Air over the land warms, expands and rises, creating lower pressure over the land, while the cooler sea has relatively higher pressure.",
+        "Cool air flows onshore from the sea to the land.",
+        "The air that rose returns seaward at height and sinks over the sea, completing a circulation cell.",
+        "Sea breezes are strongest on hot, calm, sunny summer afternoons, often under an anticyclone, and in the tropics they may blow most days."
+      ]
+    },
+    {
+      "h": "Land breezes by night",
+      "points": [
+        "After sunset, land loses heat faster than the sea. Air over the land cools and becomes denser, creating higher pressure over the land and lower pressure over the warmer sea.",
+        "Air flows offshore, from the land to the sea.",
+        "The land breeze is weaker than the sea breeze, because the night-time temperature difference is smaller.",
+        "Diagram: two cross-sections, one for day and one for night, with arrows showing the direction of the air and the relative pressure."
+      ]
+    },
+    {
+      "h": "Impact of land and sea breezes on weather",
+      "points": [
+        "Sea breezes lower coastal temperatures in the afternoon and raise humidity.",
+        "A sea-breeze front can trigger a line of cumulus or showers inland.",
+        "Sea breezes can carry sea fog onshore and trap urban pollution.",
+        "Land breezes help clear coastal fog.",
+        "Sailing fishermen traditionally went out at dawn with the land breeze and came back in the afternoon with the sea breeze.",
+        "Lake breezes form in the same way on large lakes."
+      ]
+    },
+    {
+      "h": "Valley winds by day (anabatic)",
+      "points": [
+        "Sunshine heats the valley sides. Air in contact with them warms and rises upslope.",
+        "Cumulus may form over the peaks in the afternoon."
+      ]
+    },
+    {
+      "h": "Mountain winds by night (katabatic) and their effects",
+      "points": [
+        "Slopes lose heat by radiation. Air in contact with them cools, becomes denser and drains downslope under gravity, collecting on the valley floor.",
+        "Cold air pooling on the valley floor creates frost hollows and temperature inversions, so valley floors are colder than the slopes above.",
+        "Orchards and vineyards are planted on slopes above the frost line to avoid frost hollows.",
+        "Radiation fog forms in the valleys.",
+        "In Antarctica and Greenland, katabatic winds flowing off the ice sheets can reach gale force."
+      ]
+    },
+    {
+      "h": "Föhn winds",
+      "b": "A föhn is a warm, dry wind on the lee side of a mountain range. Its temperature change comes from the difference between saturated and dry cooling and warming.",
+      "points": [
+        "The name föhn comes from the Alps, the original area where the wind was described, in the German-speaking Alpine valleys.",
+        "Air rising on the windward side cools at the saturated rate after condensation begins.",
+        "Air descending on the lee side warms at the faster dry rate, so it arrives warmer and drier than it started.",
+        "The föhn is warm because of this difference in rates, not because the air comes from a warm place.",
+        "Effects: rapid snowmelt, avalanche and fire risk, and sudden temperature rises.",
+        "The Chinook is a föhn on the eastern (lee) side of the Rocky Mountains in Canada and the USA. It is called the snow eater because it melts snow rapidly.",
+        "Diagram: a day and night cross-section of a valley showing the anabatic and katabatic flows."
+      ]
+    },
+    {
+      "h": "Cold mountain-gap winds of the Mediterranean",
+      "points": [
+        "The mistral is a cold, dry northerly wind funnelled down the Rhône valley in southern France to the Mediterranean.",
+        "The bora is a cold, dry north-easterly wind descending to the Adriatic coast, in Croatia and at Trieste in Italy.",
+        "Both winds pour from high ground towards the sea, usually when high pressure lies inland and low pressure lies over the sea."
+      ]
+    },
+    {
+      "h": "Conditions for thunderstorms",
+      "points": [
+        "Thunderstorms need plentiful moisture and unstable air.",
+        "They also need a trigger to lift the air: strong surface heating (convection), a cold front, mountains, or converging air."
+      ]
+    },
+    {
+      "h": "Stages of a thunderstorm",
+      "points": [
+        "1. Cumulus (developing) stage: warm, moist air rises in strong updrafts. Condensation releases latent heat, which keeps the air warmer than its surroundings so that it rises faster. Cloud grows above the freezing level, but there is no rain yet.",
+        "2. Mature stage: water drops and ice grow large enough to fall. They drag air down and create downdrafts beside the updrafts. Heavy rain, hail, lightning, thunder and gusty winds reach the surface, and the cloud top spreads into an anvil at the tropopause. This is the most violent stage.",
+        "3. Dissipating stage: downdrafts spread through the cloud and cut off the supply of warm, moist air. The rain becomes lighter and the cloud breaks up. A single cell lasts about an hour.",
+        "Diagram: a cumulonimbus cell in its three stages, with updraft and downdraft arrows, the freezing level and the anvil at the tropopause."
+      ]
+    },
+    {
+      "h": "Lightning and thunder",
+      "points": [
+        "Collisions between ice crystals, hailstones and supercooled droplets separate electrical charges. The top of the cloud is usually positive and the base negative.",
+        "A lightning discharge occurs within the cloud, between clouds, or to the ground.",
+        "A lightning bolt heats the air along its path to around 30,000 °C, several times hotter than the surface of the sun.",
+        "The heated air expands explosively. This expansion, not collisions between clouds, is the thunder.",
+        "Light travels faster than sound, so the flash is seen first. Counting the seconds to the thunder gives the distance, at about 3 seconds per km."
+      ]
+    },
+    {
+      "h": "Types of thunderstorm",
+      "points": [
+        "Air-mass (convectional) thunderstorms form in hot, humid air.",
+        "Frontal thunderstorms form along vigorous cold fronts.",
+        "Orographic thunderstorms form over mountains.",
+        "Supercells are long-lived, rotating storms that can produce tornadoes and very large hail. They are common on the US Great Plains."
+      ]
+    },
+    {
+      "h": "Distribution and impact of thunderstorms",
+      "points": [
+        "Thunderstorms are most frequent over tropical land, where they occur daily in the equatorial belt. They are less frequent in the mid-latitudes and rare at the poles.",
+        "Lake Maracaibo, Venezuela, has the highest density of lightning on Earth. This is the Catatumbo lightning, measured by NASA satellites.",
+        "The Congo Basin in Central Africa also has very frequent thunderstorms.",
+        "Ireland has relatively few thunderstorms, mainly in summer inland and with active cold fronts.",
+        "Impacts: flash flooding, hail damage to crops, lightning strikes that cause fires, power cuts and deaths, and downbursts that are dangerous to aircraft."
+      ]
+    },
+    {
+      "h": "Conditions for tropical cyclones",
+      "points": [
+        "They form over sea-surface temperatures of at least about 26–27 °C, over a deep layer of ocean.",
+        "They form at least about 5° from the equator, because the Coriolis force is needed to start the rotation.",
+        "Light winds aloft (low wind shear) and warm, moist, unstable air are also needed.",
+        "The North Atlantic hurricane season runs from 1 June to 30 November."
+      ]
+    },
+    {
+      "h": "Formation and structure of a tropical cyclone",
+      "points": [
+        "Clusters of thunderstorms form over warm ocean. Rising air and released latent heat lower the pressure at the centre.",
+        "Inflowing air spirals in and rises in the eyewall. The calm, clear eye at the centre has sinking air, and spiral rain bands surround the eye.",
+        "Cyclones weaken over land or cold water, because the evaporation from warm sea that fuels them is cut off.",
+        "Diagram: a cross-section of a tropical cyclone showing the eye and the eyewall."
+      ]
+    },
+    {
+      "h": "Names and scale of tropical cyclones",
+      "points": [
+        "A hurricane forms in the Atlantic and north-east Pacific.",
+        "A typhoon forms in the north-west Pacific.",
+        "A cyclone forms in the Indian Ocean and the South Pacific.",
+        "The Saffir–Simpson scale has categories 1 to 5. Category 1 begins at sustained winds of 119 km/h (74 mph), and category 5 at 252 km/h (157 mph) or more."
+      ]
+    },
+    {
+      "h": "Impacts of tropical cyclones: case examples",
+      "points": [
+        "Tropical cyclones bring destructive winds, torrential rain and flooding. Storm surge is usually the biggest killer.",
+        "Hurricane Katrina, August 2005: levee and floodwall failures flooded about 80% of New Orleans, and about 1,800 people died.",
+        "Typhoon Haiyan, called Yolanda in the Philippines, November 2013: one of the strongest tropical cyclones ever recorded at landfall. Its storm surge devastated Tacloban on Leyte, and over 6,000 people died in the Philippines.",
+        "Odisha super cyclone, October 1999: about 10,000 deaths.",
+        "Hurricane Mitch, October 1998: about 11,000 people were killed in Central America, mainly in Honduras and Nicaragua, by floods and landslides."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Pressure gradient force", "definition": "The force that moves air from high to low pressure, stronger where the isobars are closer together." },
+    { "term": "Coriolis effect", "definition": "The deflection of moving air and water to the right in the northern hemisphere and to the left in the southern hemisphere, caused by the Earth's rotation." },
+    { "term": "Geostrophic wind", "definition": "A wind above friction height that blows parallel to the isobars, where the pressure gradient force and the Coriolis force balance." },
+    { "term": "Ekman transport", "definition": "The net movement of the wind-driven surface layer of the ocean, about 90° to the right of the wind in the northern hemisphere." },
+    { "term": "Gyre", "definition": "A large, circular system of ocean surface currents, driven by wind, the Coriolis effect and the continents." },
+    { "term": "Upwelling", "definition": "The rise of cold, nutrient-rich deep water to the surface, caused by winds pushing surface water away from a coast." },
+    { "term": "Thermohaline circulation", "definition": "The global ocean circulation driven by differences in temperature and salinity, which makes deep water sink and return as surface currents." },
+    { "term": "ITCZ", "definition": "The Intertropical Convergence Zone, the equatorial low-pressure belt of calm, rising air and heavy rain." },
+    { "term": "Jet stream", "definition": "A narrow, fast band of westerly wind near the tropopause, which steers depressions in the mid-latitudes." },
+    { "term": "Occluded front", "definition": "A front formed when the cold front catches up with the warm front and lifts the warm sector off the ground." },
+    { "term": "Subsidence", "definition": "The sinking of air, which compresses and warms it, so that clouds evaporate and skies clear." },
+    { "term": "Temperature inversion", "definition": "A layer in which temperature increases with height, trapping moisture and pollution beneath it." },
+    { "term": "Anabatic wind", "definition": "An upslope valley wind that forms by day when the valley sides are heated by sunshine." },
+    { "term": "Katabatic wind", "definition": "A downslope mountain wind that forms by night when cold, dense air drains off the slopes into the valley." },
+    { "term": "Föhn wind", "definition": "A warm, dry wind on the lee side of a mountain range, warmed by the faster dry rate of descent." },
+    { "term": "Sea breeze", "definition": "A cool onshore wind that blows from the sea to the land by day, caused by land heating faster than the sea." },
+    { "term": "Land breeze", "definition": "An offshore wind that blows from the land to the sea at night, caused by land cooling faster than the sea." },
+    { "term": "Supercell", "definition": "A long-lived, rotating thunderstorm that can produce tornadoes and very large hail." },
+    { "term": "Storm surge", "definition": "A rise in sea level along a coast caused by the low pressure and strong winds of a storm." }
+  ],
+  "questions": [
+    {
+      "marks": 80,
+      "prompt": "Describe the formation of each of the following and discuss its impact on weather patterns: mid-latitude depressions; anticyclones; land and sea breezes.",
+      "model": "Mid-latitude depressions form at the polar front, where cold polar maritime air meets warm tropical maritime air. A wave develops on the front, warm air rises over the cold air, surface pressure falls and the air spirals in anticlockwise in the northern hemisphere. A warm front and a cold front form around a warm sector, the system deepens as latent heat is released, the cold front catches up to form an occluded front, and the depression fills and dies after a few days to about a week. Impacts: changeable weather with rain in every month, a wetter west because depressions arrive there first, strong winds and storms in autumn and winter, coastal storm surges, and flooding when depressions follow in quick succession. Anticyclones form when air converges high up, sinks, is compressed and warms, so its humidity falls and clouds evaporate; dynamic highs such as the Azores High come from sinking air in the general circulation, while thermal highs such as the Siberian High form when the ground cools intensely in winter. A temperature inversion often traps moisture and pollution beneath the sinking air. Impacts: clear, hot, calm summer weather with heatwaves and drought; winter hard frost and radiation fog in valleys, cold crisp days, anticyclonic gloom under stratocumulus, and smog in towns. A blocking anticyclone holds still for long dry spells, and a block to the east can draw very cold polar continental air to Ireland. Land and sea breezes form because land heats and cools faster than the sea. By day, the land warms, its air rises, pressure falls over the land and cool air flows onshore; the air returns seaward at height and sinks over the sea. By night, the land cools, its air becomes denser, and the land breeze blows offshore, weaker than the sea breeze. Impacts: afternoon coastal cooling and higher humidity, a sea-breeze front that can trigger showers inland, land breezes that clear coastal fog, and sea breezes that can carry fog onshore and trap urban pollution."
+    },
+    {
+      "marks": 80,
+      "prompt": "Circulation in both the atmosphere and the oceans gives rise to different weather patterns. Discuss.",
+      "model": "Forces: pressure gradient force moves air from high to low pressure; the Coriolis effect deflects moving air and water to the right in the northern hemisphere and to the left in the southern hemisphere; friction makes surface winds cross the isobars. Pressure belts and planetary winds: the equatorial low (ITCZ) brings calm, rising air and heavy rain; the subtropical highs at about 30 degrees bring sinking, dry air and deserts; the subpolar lows at about 60 degrees bring depressions along the polar front; the trade winds, westerlies and polar easterlies carry air between these belts. The Hadley, Ferrel and polar cells link them. The pressure belts shift north and south with the sun, so the Mediterranean has a dry summer and monsoon regions have summer rain. Jet streams steer depressions, and a strong straight jet brings stormy winters while a slow, looping jet causes blocking. North Atlantic gyre: the North Equatorial Current, the Gulf Stream and the North Atlantic Drift carry warm water to Ireland, giving mild winters and ice-free ports; warm sea feeds depressions with moisture and energy; the Gulf Stream meets the cold Labrador Current, which brings icebergs and fog. Upwelling: winds push surface water offshore, cold nutrient-rich water rises, plankton thrive and fisheries such as the Peruvian anchoveta fishery develop; the cold water chills the air, giving fog and aridity on coasts such as the Saharan coast beside the Canary Current. Thermohaline circulation: cold, salty water sinks in the North Atlantic and around Antarctica and returns to the surface about 1,000 years later; the AMOC pulls the Gulf Stream north, and its weakening could change European rainfall patterns. Local circulation: anticyclones and depressions, and sea breezes and mountain winds, add local weather such as fog, frost and showers."
+    },
+    {
+      "marks": 20,
+      "prompt": "Explain how mountain and valley winds form.",
+      "model": "By day, sunshine heats the valley sides and the air in contact with them warms and rises upslope as a valley wind, which may produce cumulus over the peaks. By night, the slopes lose heat by radiation, the cold air in contact with them becomes denser and drains downslope as a mountain wind, collecting on the valley floor and creating frost hollows and radiation fog. A föhn is a warm, dry wind on the lee side of a mountain: air rising on the windward side cools at the saturated rate, and descending on the lee side it warms at the faster dry rate, so it arrives warmer and drier than it started."
+    }
+  ]
+}

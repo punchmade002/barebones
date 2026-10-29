@@ -1,0 +1,143 @@
+{
+  "loId": "bio15-s2",
+  "chapterId": "bio15",
+  "subsection": "Investigation: conditions for fermentation",
+  "syllabusRef": "2.2.3",
+  "notes": [
+    {
+      "h": "Investigation background: fermentation and its four conditions",
+      "points": [
+        "Fermentation is anaerobic respiration by microorganisms. Yeast, a single-celled fungus, ferments sugar to ethanol and carbon dioxide; lactic acid bacteria ferment sugar to lactic acid.",
+        "The two products of yeast fermentation are the evidence looked for in this investigation: CO₂, shown by bubbles and by limewater turning milky, and ethanol, shown by the iodoform test.",
+        "Sugar is needed because it is the respiratory substrate, the source of energy for fermentation.",
+        "Living microorganisms are needed because they contain the enzymes that carry out fermentation.",
+        "An anaerobic environment (no oxygen) is needed. Yeast with oxygen respires mainly aerobically, producing CO₂ and water instead of ethanol.",
+        "A suitable temperature is needed so that the enzymes work at a good rate. Enzymes are slow when cold and denatured when too hot.",
+        "Yeast is a facultative anaerobe, able to respire with or without oxygen, so the conditions decide which kind of respiration it carries out (see Respiration as a catabolic process)."
+      ]
+    },
+    {
+      "h": "Investigation planning: aim, hypothesis and variables",
+      "points": [
+        "Aim: to investigate the conditions necessary for fermentation by yeast: the presence of sugar, the presence of living yeast, the absence of oxygen and a suitable temperature.",
+        "Hypothesis (example): yeast will ferment glucose, producing carbon dioxide and ethanol, only when sugar and living yeast are present, oxygen is absent and the temperature is warm. Fermentation will be fastest at about 30–40 °C and will stop at high temperature, e.g. 60 °C.",
+        "Design: set up one full fermentation flask that meets all four conditions, then a series of flasks each identical except that one condition is missing or changed.",
+        "Independent variable: the condition changed, which is sugar (present or absent), microorganism (living, dead or none), oxygen (present or absent) or temperature.",
+        "Dependent variable: the amount or rate of fermentation, measured as the rate of CO₂ production (bubbles per minute, or cm³ of gas in a set time), whether limewater turns milky, and whether ethanol is present at the end.",
+        "Controlled variables: the volume and concentration of glucose solution, the mass of yeast, the volume of the flask, the time allowed, and the temperature, except in the temperature series.",
+        "Control: a flask with glucose solution and yeast that has been boiled for a few minutes and cooled, set up identically. It shows that the CO₂ and ethanol come from living yeast, not from the glucose solution itself."
+      ]
+    },
+    {
+      "h": "Equipment and materials",
+      "points": [
+        "Core equipment: conical flasks or boiling tubes; fermentation locks or rubber bungs fitted with delivery tubes; test tubes of limewater (calcium hydroxide solution); a balance and graduated cylinders; a hot plate or kettle; a water bath or incubator; a thermometer; a stopwatch; labels.",
+        "Materials: dried or fresh baker's yeast; glucose or sucrose; distilled water; liquid paraffin or vegetable oil.",
+        "For the ethanol test: a filter funnel and filter paper, test tubes, potassium iodide solution, sodium hypochlorite solution (dilute bleach) and a water bath.",
+        "Optional: a gas syringe, or an inverted measuring cylinder in a trough of water, to collect the gas."
+      ]
+    },
+    {
+      "h": "Setting up the full fermentation flask",
+      "points": [
+        "1. Boil distilled water for a few minutes and allow it to cool to about 30 °C. Boiling drives out dissolved oxygen and kills unwanted microorganisms; cooling stops the hot water killing the yeast.",
+        "2. Dissolve glucose in the cooled, boiled water to make a glucose solution (e.g. 10 g in 100 cm³). Place it in a conical flask, add a set mass of yeast (e.g. 2 g) and swirl to mix.",
+        "3. Gently pour a layer of liquid paraffin or vegetable oil on top of the solution, about 1 cm deep, to stop oxygen from the air dissolving in it. This makes the conditions anaerobic.",
+        "4. Fit a fermentation lock containing water, or a bung with a delivery tube leading into a test tube of limewater, so that gas can escape but air cannot get in.",
+        "5. Place the flask in a water bath or incubator at about 30 °C, and set up the control flask beside it.",
+        "6. After the yeast has had time to start, about 10–15 minutes, count the bubbles passing through the fermentation lock or into the limewater in one minute, three times. Alternatively, collect the gas over a set time in a gas syringe or inverted measuring cylinder. Note when the limewater turns milky. Leave the flasks until bubbling stops, a day or more, then test for ethanol."
+      ]
+    },
+    {
+      "h": "Set-ups for each condition",
+      "points": [
+        "Sugar: a flask with yeast in boiled, cooled water only, with no glucose, under oil, at 30 °C. Expected result: very few or no bubbles, limewater stays clear and there is no ethanol. Conclusion: sugar is needed.",
+        "Microorganisms: a flask with glucose solution and boiled, dead yeast (the control), and, if wished, a flask with glucose solution only. Expected result: no bubbles, limewater stays clear and there is no ethanol. Conclusion: living microorganisms are needed.",
+        "Anaerobic environment: a flask with glucose solution and yeast, made with unboiled water, with no oil layer, open to the air or with air bubbled through it (using an aquarium pump), or shaken often. Expected result: CO₂ is still produced, from aerobic respiration and often faster, but little or no ethanol is detected. Conclusion: ethanol is made when oxygen is absent.",
+        "Suitable temperature: identical full flasks placed at about 5 °C (fridge), 20 °C (room), 30 °C, 40 °C and 60 °C (water baths), each checked with a thermometer. Expected result: very slow bubbling at 5 °C, where the enzymes are slowed but not denatured and speed up if warmed; faster at 20 °C; fastest at about 30–40 °C; none at 60 °C, where the enzymes are denatured and the yeast killed, and fermentation does not restart on cooling. Conclusion: a suitable warm temperature is needed."
+      ]
+    },
+    {
+      "h": "Testing for ethanol: the iodoform test",
+      "points": [
+        "1. When bubbling has stopped, filter a sample of the liquid from each flask into a clean test tube, about 3 cm³.",
+        "2. Add about 3 cm³ of potassium iodide solution.",
+        "3. Add about 5 cm³ of sodium hypochlorite solution and mix.",
+        "4. Warm the tube gently in a water bath at about 60 °C for a few minutes.",
+        "5. Allow the tube to cool and observe. Test water as a negative control and a little dilute ethanol as a positive control.",
+        "Result: pale yellow crystals of iodoform (triiodomethane), with an antiseptic, hospital smell, form if ethanol is present; no crystals form without ethanol.",
+        "Alternative test: acidified potassium dichromate solution turns from orange to green when warmed with ethanol. Many schools avoid it because potassium dichromate is toxic."
+      ]
+    },
+    {
+      "h": "Using bacteria instead of yeast",
+      "points": [
+        "The specification allows bacteria. Lactic acid bacteria ferment the sugar lactose in milk to lactic acid, as in making yogurt. Set up warm milk with a spoonful of live natural yogurt, the source of the bacteria, in clean, closed containers kept warm in an incubator or water bath. Compare with milk without yogurt, and with boiled yogurt.",
+        "Measure the fall in pH over several hours, with a pH meter, pH probe or universal indicator. The milk also thickens as the acid makes its protein clump. No CO₂ is produced in lactic acid fermentation, so limewater is not used. The same four conditions can be tested."
+      ]
+    },
+    {
+      "h": "Investigation safety",
+      "points": [
+        "Wear safety glasses. Sodium hypochlorite (bleach) is corrosive and irritant to skin and eyes; wash splashes off with plenty of water. Potassium dichromate, if used, is toxic and must be handled with gloves.",
+        "Take care with boiling water, the hot plate and water baths, and let the water cool before adding yeast.",
+        "Never seal a fermenting flask with a solid bung and no outlet: CO₂ builds up pressure and can force out the bung or crack the glass.",
+        "Ethanol is flammable, so keep it away from flames. Never taste the products; laboratory glassware and solutions are not food-safe.",
+        "Treat microorganisms with care: wash hands after the practical, and dispose of yeast and bacterial cultures as the teacher directs. Never eat the yogurt made in the laboratory."
+      ]
+    },
+    {
+      "h": "Results, conclusion and diagram",
+      "points": [
+        "Record primary data in a table with one row per flask, giving the condition, the mean bubbles per minute (or volume of gas), whether limewater is milky or clear, and the ethanol test result (crystals or none). For the temperature series, plot the mean rate on the y-axis against temperature on the x-axis.",
+        "Expected results: the full flask bubbles steadily, its limewater turns milky and its iodoform test is positive. The flasks without sugar or without living yeast show no CO₂ and no ethanol. The aerated flask gives CO₂ but little or no ethanol. The rate rises with temperature to a peak at about 30–40 °C and stops at 60 °C. The control shows no activity.",
+        "Conclusion: fermentation, the production of ethanol and CO₂, takes place only when sugar and living yeast are present, oxygen is absent and the temperature is suitable. State whether the results support the hypothesis.",
+        "Diagram: the fermentation set-up. A conical flask in a water bath, with a thermometer, containing glucose solution and yeast under a layer of oil, fitted with a fermentation lock or a delivery tube into a test tube of limewater. Label each part. Optionally draw beside it the control flask with boiled yeast."
+      ]
+    },
+    {
+      "h": "Secondary data and applications",
+      "points": [
+        "Pool class results, or compare with published data, to check reproducibility. CO₂ production rates can be measured with a CO₂ sensor and data logger, or by the mass lost by a fermenting flask on a balance as CO₂ escapes.",
+        "Applications of the conditions (industry detail is in Microorganisms): brewers and wine-makers exclude air so that yeast makes ethanol, and control the temperature; bakers keep dough warm so that yeast makes CO₂ quickly to raise it; yogurt makers incubate milk warm with bacteria."
+      ]
+    },
+    {
+      "h": "Sources of error and limitations",
+      "points": [
+        "Oxygen can enter if the water was not boiled, the oil layer is broken or the fermentation lock leaks. Some respiration is then aerobic and less ethanol is made.",
+        "Yeast can still ferment some sugar when oxygen is present if plenty of sugar is available, so the aerated flask may give a weak positive ethanol test. Compare the amount of crystals, not just their presence.",
+        "Bubbles vary in size and some CO₂ dissolves in the solution, so bubble counts are imprecise and underestimate the gas produced. Collecting the gas, or weighing the mass lost, is more accurate.",
+        "Limewater turns milky slowly in air, and very large amounts of CO₂ make the milkiness clear again. Set up a limewater tube open to the air for comparison, and observe at set times.",
+        "Temperature can drift, so check the water bath regularly. Yeast takes time to start, so begin timing after the same period in every flask.",
+        "Yeast samples differ. Use yeast from the same batch, mixed well, for every flask, and repeat each set-up at least three times."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Fermentation", "definition": "Anaerobic respiration by microorganisms, which produces ethanol and CO₂ (in yeast) or lactic acid (in bacteria)." },
+    { "term": "Facultative anaerobe", "definition": "An organism that can respire with or without oxygen, such as yeast." },
+    { "term": "Independent variable", "definition": "The factor that the investigator deliberately changes, such as the presence of sugar or the temperature." },
+    { "term": "Dependent variable", "definition": "The factor measured to show the effect of the independent variable, such as the rate of CO₂ production." },
+    { "term": "Control", "definition": "A set-up identical to the test except for the factor being tested, here a flask with boiled yeast, used to show that the result comes from living yeast." },
+    { "term": "Limewater test", "definition": "A test for CO₂ in which the gas turns calcium hydroxide solution milky." },
+    { "term": "Iodoform test", "definition": "A test for ethanol in which warm potassium iodide and sodium hypochlorite form pale yellow iodoform crystals if ethanol is present." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why, in an investigation of fermentation, the glucose solution is boiled and cooled before yeast is added, and why a layer of oil is placed on top.",
+      "model": "Boiling the water removes dissolved oxygen and kills unwanted microorganisms, so the conditions are anaerobic and contaminants are removed. The water is then cooled to about 30 °C before the yeast is added, because hot water would kill the yeast. The layer of oil stops oxygen from the air dissolving into the solution, so that the yeast respires anaerobically."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would show that yeast needs sugar and anaerobic conditions to produce ethanol. Include a control and the test for ethanol.",
+      "model": "Set up a full fermentation flask: boiled and cooled water, glucose solution and yeast, under a layer of oil, with a fermentation lock or delivery tube into limewater, kept at about 30 °C. Set up a flask with yeast in water with no glucose, under oil, to show that sugar is needed; it should show very few or no bubbles and no ethanol. Set up a flask with glucose and yeast but no oil layer, with air bubbled through or shaken, to show that anaerobic conditions are needed; it should produce CO₂ but little or no ethanol. Use a control of glucose solution with boiled yeast, which should show no bubbles and no ethanol, so that the result comes from living yeast. Once bubbling has stopped, filter a sample of each liquid and add potassium iodide and sodium hypochlorite, then warm it in a water bath at about 60 °C. Ethanol is shown by pale yellow iodoform crystals with an antiseptic smell."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student set up identical flasks of yeast in glucose solution at 5 °C, 30 °C and 60 °C. Predict and explain the rate of bubbling in each flask.",
+      "model": "At 5 °C bubbling is very slow, because the enzymes of fermentation work slowly at low temperature, although they are not denatured. At 30 °C bubbling is fastest, or close to fastest, because the enzymes work at a good rate at this suitable temperature. At 60 °C there is no bubbling, because the enzymes are denatured and the yeast is killed, and fermentation does not restart when the flask is cooled."
+    }
+  ]
+}

@@ -74,7 +74,11 @@ for (const config of [
     const chapters = context.__courseData.chapters.filter(
       (chapter) => chapter.subject === config.subject
     );
-    const outcomes = chapters.flatMap((chapter) => chapter.learningOutcomes);
+    // Chapters split into syllabus subsections (<chapter>-s1 ...) keep their authored test set
+    // on the review outcome; the subsections get questions from the authored notes instead.
+    const outcomes = chapters
+      .flatMap((chapter) => chapter.learningOutcomes)
+      .filter((outcome) => !/-s\d+$/.test(outcome.id));
     const allQuestions = outcomes.flatMap(shortQuestions);
     const addedQuestions = allQuestions.filter(
       (question) => !promptsBefore.has(question.prompt.trim().toLowerCase())

@@ -1,0 +1,77 @@
+{
+  "loId": "bio15-s4",
+  "chapterId": "bio15",
+  "subsection": "Second-stage process",
+  "syllabusRef": "2.2.4",
+  "notes": [
+    {
+      "h": "Pyruvate to acetyl CoA (Higher Level only)",
+      "points": [
+        "When oxygen is present, each pyruvate (C₃) made in glycolysis moves from the cytoplasm into the matrix of a mitochondrion.",
+        "In the matrix, pyruvate is broken down: one carbon atom is removed as one molecule of carbon dioxide, and hydrogen is removed and picked up by NAD⁺, forming NADH.",
+        "The remaining two-carbon (acetyl) group is joined to coenzyme A, a carrier molecule, forming acetyl coenzyme A (acetyl CoA, C₂). Per pyruvate: pyruvate + coenzyme A + NAD⁺ → acetyl CoA + CO₂ + NADH.",
+        "Each glucose gives two pyruvate, so this happens twice per glucose, producing 2 CO₂ and 2 NADH."
+      ]
+    },
+    {
+      "h": "The citric acid cycle (Higher Level only)",
+      "points": [
+        "The citric acid cycle, also called the Krebs cycle, is a cycle of enzyme-controlled reactions in the matrix of the mitochondrion.",
+        "1. The acetyl CoA passes its two-carbon acetyl group into the cycle, where it joins a four-carbon compound to form citric acid (C₆), which gives the cycle its name. Coenzyme A is released to collect another acetyl group.",
+        "2. In a series of steps, citric acid is broken down back to the four-carbon compound. This is regenerated to accept the next acetyl group, which is why it is a cycle.",
+        "3. During each turn, two carbon atoms are removed as two molecules of CO₂, so the carbon of the acetyl group leaves as CO₂.",
+        "4. Hydrogen, as protons and electrons, is removed at several steps and loaded onto NAD⁺, forming NADH. A small amount of ATP, one per turn, is also made directly.",
+        "The cycle turns twice for each glucose, once per acetyl CoA. With the link step, all six carbon atoms of glucose have now left as six molecules of CO₂, matching the 6CO₂ in the respiration equation. Glycolysis releases none.",
+        "The specification's products are CO₂ and H₂O. The CO₂ is released directly. The hydrogen removed is carried by NADH to the electron transport chain, where it ends up in water. The cycle does not need oxygen directly, but it stops without oxygen, because NADH cannot be unloaded and NAD⁺ runs out."
+      ]
+    },
+    {
+      "h": "The electron transport chain (Higher Level only)",
+      "points": [
+        "The electron transport chain is a series of electron carriers, protein complexes and mobile carriers, in the inner mitochondrial membrane, especially on the folds called cristae.",
+        "1. NADH from glycolysis, the link step and the citric acid cycle delivers its high-energy electrons and protons to the start of the chain. NAD⁺ is released to collect more.",
+        "2. The electrons are passed from carrier to carrier, each at a lower energy level. The energy released at each transfer is used to make ATP from ADP and Pi. The mechanism, via a proton gradient and ATP synthase, is in The mitochondrion's internal structure and ATP synthase. Most of the ATP from aerobic respiration is made here.",
+        "3. Oxygen is the final electron acceptor. At the end of the chain, low-energy electrons combine with oxygen and protons (H⁺) to form water: 4e⁻ + 4H⁺ + O₂ → 2H₂O. This is the only step of respiration that uses oxygen directly, and it is where the 6H₂O of the equation comes from.",
+        "4. If oxygen is absent, electrons cannot leave the end of the chain. The whole chain stops, NADH cannot be unloaded, and the citric acid cycle and the link step stop too. The cell can then only carry out glycolysis and fermentation (see First-stage process). Cyanide is a poison because it blocks the last complex of the chain, with the same effect.",
+        "5. The ATP made is exported from the mitochondrion to the cytoplasm and used for other biochemical reactions in the cell, such as synthesis of proteins, active transport and muscle contraction (see ATP).",
+        "Far more ATP per glucose is made in the second stage than the net 2 ATP of glycolysis, so aerobic respiration releases many times more energy per glucose than fermentation. No total is given here."
+      ]
+    },
+    {
+      "h": "Modelling the two-stage process (Higher Level only)",
+      "points": [
+        "Stage 1, glycolysis, takes place in the cytoplasm: glucose becomes 2 pyruvate, a net 2 ATP is made directly, and NAD⁺ is converted to NADH.",
+        "Stage 2 takes place in the mitochondrion. The link step and the citric acid cycle, in the matrix, turn pyruvate into acetyl CoA and then into CO₂, converting NAD⁺ to NADH and making a little ATP directly. The electron transport chain, on the inner membrane (cristae), unloads NADH to NAD⁺, passes electrons to oxygen to form water, and makes most of the ATP from ADP and Pi.",
+        "Transfer molecules carry energy and electrons between the stages. NAD⁺/NADH carries electrons and hydrogen from the breakdown of glucose (glycolysis, link step and cycle) to the electron transport chain, and returns empty. Coenzyme A carries the acetyl group into the cycle and returns. ATP carries energy from the mitochondrion and cytoplasm to the cell's activities, returning as ADP + Pi to be reloaded. All are recycled, so only small amounts are needed.",
+        "Tracing the atoms: the carbon of glucose leaves as CO₂ in the link step and the cycle. The hydrogen of glucose ends up in water, formed by combining with oxygen breathed in at the electron transport chain. The oxygen breathed in therefore ends up in water, not in CO₂.",
+        "Diagram: the two-stage model. Draw a cell with the cytoplasm and one mitochondrion, showing its outer membrane, inner membrane with cristae, and matrix. In the cytoplasm, glucose → 2 pyruvate (net 2 ATP; NAD⁺ → NADH). An arrow takes pyruvate into the matrix → acetyl CoA (+ CO₂), which enters the citric acid cycle, drawn as a circle: acetyl group + C₄ → citric acid (C₆) → back to C₄, with CO₂ leaving and NAD⁺ → NADH. Arrows take NADH to the electron transport chain on the inner membrane; electrons pass along the chain to O₂ + H⁺ → H₂O; ATP is made; NAD⁺ returns. Label every transfer molecule with what it carries.",
+        "Comparison with photosynthesis: in photosynthesis, NADPH and ATP are made in stage 1, using light energy, and used in stage 2 to build glucose. In respiration, NADH is made as glucose is broken down and is used at the end of stage 2 to make ATP. The membrane comparison is in The mitochondrion's internal structure and ATP synthase."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Acetyl coenzyme A (acetyl CoA)", "definition": "The two-carbon molecule formed when coenzyme A joins the acetyl group from pyruvate, which enters the citric acid cycle." },
+    { "term": "Coenzyme A", "definition": "A carrier molecule that carries the acetyl group from pyruvate into the citric acid cycle and is then released to collect another." },
+    { "term": "Citric acid cycle", "definition": "The cycle of enzyme-controlled reactions in the mitochondrial matrix that releases CO₂ and loads NAD⁺ with hydrogen, turning acetyl CoA into CO₂ and regenerating the four-carbon compound." },
+    { "term": "Matrix", "definition": "The fluid inside the inner membrane of a mitochondrion, where the link step and the citric acid cycle take place." },
+    { "term": "Electron transport chain", "definition": "A series of electron carriers in the inner mitochondrial membrane, which passes electrons from NADH to oxygen and uses the energy released to make ATP." },
+    { "term": "Final electron acceptor", "definition": "The molecule at the end of the electron transport chain that accepts electrons; in respiration this is oxygen, which forms water." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe what happens to pyruvate when it enters a mitochondrion, before the citric acid cycle.",
+      "model": "Pyruvate enters the matrix of the mitochondrion. One carbon atom is removed as CO₂, and hydrogen is removed and picked up by NAD⁺, forming NADH. The remaining two-carbon acetyl group is joined to coenzyme A to form acetyl CoA, which then enters the citric acid cycle."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the events of the second stage of aerobic respiration, from acetyl CoA to the formation of water.",
+      "model": "Acetyl CoA passes its two-carbon acetyl group into the citric acid cycle in the matrix, where it joins a four-carbon compound to form citric acid. In a series of steps the citric acid is broken down, releasing two molecules of CO₂ per turn, and the four-carbon compound is regenerated. Hydrogen is removed at several steps and loaded onto NAD⁺ to form NADH, and a small amount of ATP is made directly. NADH passes its electrons to the electron transport chain on the inner mitochondrial membrane, on the cristae. The electrons pass along the chain, each at a lower energy level, and the energy released makes most of the ATP. At the end of the chain, oxygen is the final electron acceptor: it combines with electrons and protons to form water."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why the citric acid cycle stops if a cell is deprived of oxygen, even though the cycle does not use oxygen directly.",
+      "model": "Oxygen is the final electron acceptor at the end of the electron transport chain. Without it, electrons cannot leave the end of the chain, so the whole chain stops. NADH then cannot pass its electrons on and cannot be converted back to NAD⁺. The citric acid cycle and the link step need NAD⁺ to accept hydrogen, so when NAD⁺ runs out, they stop, even though the cycle itself does not use oxygen."
+    }
+  ]
+}

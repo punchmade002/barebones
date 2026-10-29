@@ -1,0 +1,84 @@
+{
+  "loId": "bio8-s4",
+  "chapterId": "bio8",
+  "subsection": "Minerals",
+  "syllabusRef": "1.2.2",
+  "notes": [
+    {
+      "h": "What minerals are",
+      "points": [
+        "Minerals are inorganic elements, usually taken in as ions dissolved in water, that organisms need in small amounts for normal functioning. Organisms cannot make them. Animals get them from food and drink; plants absorb them as ions dissolved in soil water through their root hairs.",
+        "Some minerals are built into biomolecules or structures: iron in haemoglobin, magnesium in chlorophyll, phosphorus in phospholipids, DNA and ATP, sulfur in some amino acids, iodine in thyroxine, and calcium (as calcium phosphate) in bone and teeth.",
+        "Many minerals are not built into biomolecules. They work as free ions in body fluids, e.g. sodium (Na⁺), potassium (K⁺), chloride (Cl⁻) and calcium (Ca²⁺) ions.",
+        "Minerals differ from vitamins: minerals are inorganic elements, while vitamins are organic compounds (see “Vitamins”). Neither supplies energy."
+      ]
+    },
+    {
+      "h": "Roles of minerals in the body",
+      "points": [
+        "pH balance: phosphate and hydrogencarbonate ions act as buffers in cells and blood. They take up or release hydrogen ions so that pH stays almost constant; blood is kept at about pH 7.4. This matters because enzymes work only in a narrow pH range.",
+        "Regulation of enzyme systems: many enzymes need a mineral ion to work, as a cofactor or activator. Magnesium ions are needed by many enzymes that use ATP, zinc is part of many enzymes, and chloride ions activate salivary amylase.",
+        "Without its ion an enzyme is inactive, so mineral levels help control metabolic pathways.",
+        "Nerve impulse transfer: a nerve impulse travels as sodium ions move into and potassium ions move out of the neuron through channel proteins. Calcium ions entering the end of a neuron trigger the release of neurotransmitter at the synapse (detail in “The Nervous System”).",
+        "Muscle contraction: calcium ions released inside a muscle fibre after a nerve impulse arrives allow actin and myosin to interact, so the muscle contracts (detail in “The Musculoskeletal System”).",
+        "Other roles: osmoregulation, where sodium and chloride ions in body fluids affect the movement of water by osmosis (see “Water”); structure, where calcium and phosphate form bones and teeth; oxygen transport, through iron; and blood clotting, which needs calcium."
+      ]
+    },
+    {
+      "h": "Named minerals in humans: roles, sources and deficiency",
+      "points": [
+        "Calcium forms bones and teeth as calcium phosphate. Its absorption needs vitamin D (see “Vitamins”).",
+        "Calcium sources: milk, cheese, yoghurt, green leafy vegetables, and tinned fish eaten with the bones, e.g. sardines.",
+        "Calcium deficiency weakens bones. The rickets and osteoporosis linked to low vitamin D are covered in “Vitamins”.",
+        "Iron is part of haemoglobin, the red blood cell protein described in “Metabolic roles and nutritional sources”.",
+        "Iron sources: red meat, liver, eggs, green leafy vegetables such as spinach, beans and lentils, and fortified breakfast cereals.",
+        "Vitamin C helps the gut absorb iron from plant foods (see “Vitamins”).",
+        "Iron deficiency causes anaemia: too little haemoglobin, so tiredness, weakness and pale skin. Women who menstruate need more iron than men.",
+        "Sodium is needed for nerve impulses and controls water balance in body fluids.",
+        "Sodium sources: table salt, processed foods, crisps, bacon and cheese. Most people take in more than they need, and excess salt is linked to high blood pressure.",
+        "Potassium works with sodium in nerve impulses and muscle function, and controls fluid balance inside cells. Sources: bananas, potatoes, vegetables, fruit and milk.",
+        "Iodine is needed to make the hormone thyroxine in the thyroid gland, which controls metabolic rate (detail in “The Endocrine System”).",
+        "Iodine sources: seafood, seaweed, milk and iodised salt. Deficiency causes goitre, a swollen thyroid gland, and a low metabolic rate.",
+        "Phosphorus, as phosphate, forms part of bones and teeth, ATP, DNA, RNA and phospholipids, and helps buffer pH (see “Roles of minerals in the body”). Sources: milk, cheese, meat, fish, eggs and nuts.",
+        "Magnesium is needed for bones, activates many enzymes, and is needed for muscle and nerve function. Sources: green leafy vegetables, nuts and wholegrain cereals.",
+        "Fluoride hardens tooth enamel, making it more resistant to decay. Sources: fluoridated public water, as in Ireland, toothpaste and tea."
+      ]
+    },
+    {
+      "h": "Minerals in plants",
+      "points": [
+        "Plants absorb minerals from soil water as ions through root hairs, often by active transport. The minerals then travel up the xylem in the water stream (see “Water”).",
+        "Nitrogen, absorbed as nitrate, is needed to make amino acids, proteins and nucleic acids (see “Biomolecules and metabolism”). A shortage gives stunted growth and yellow leaves. How nitrogen reaches the soil is covered in “Nutrient Cycling”.",
+        "Magnesium is part of chlorophyll. A shortage causes yellowing leaves, with less chlorophyll and so less photosynthesis.",
+        "Phosphate is needed for ATP, DNA and phospholipids, and for root growth.",
+        "Calcium forms calcium pectate, which holds neighbouring plant cell walls together.",
+        "Farmers add minerals, mainly nitrogen, phosphorus and potassium, to soil in fertilisers. Excess fertiliser washed into rivers and lakes causes eutrophication (detail in “Nutrient Cycling”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Mineral", "definition": "An inorganic element, usually taken in as dissolved ions, needed in small amounts for normal functioning." },
+    { "term": "Buffer", "definition": "A substance, such as phosphate or hydrogencarbonate ions, that takes up or releases hydrogen ions to keep pH almost constant." },
+    { "term": "Cofactor", "definition": "A mineral ion that an enzyme needs in order to work." },
+    { "term": "Anaemia", "definition": "A deficiency of haemoglobin, caused by too little iron, leading to tiredness, weakness and pale skin." },
+    { "term": "Goitre", "definition": "A swollen thyroid gland caused by a lack of iodine." },
+    { "term": "Calcium pectate", "definition": "A compound of calcium that holds neighbouring plant cell walls together." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two minerals needed by humans. For each, give one role and one food source.",
+      "model": "Calcium forms bones and teeth and is needed for muscle contraction; it is found in milk, cheese and yoghurt. Iron is part of haemoglobin, which carries oxygen in red blood cells; it is found in red meat, liver and fortified breakfast cereals."
+    },
+    {
+      "marks": 9,
+      "prompt": "Minerals are needed for pH balance, regulation of enzyme systems and nerve impulse transfer. Explain one example of each.",
+      "model": "pH balance: phosphate and hydrogencarbonate ions act as buffers, taking up or releasing hydrogen ions so that the pH of cells and blood stays almost constant, which keeps enzymes working. Regulation of enzyme systems: magnesium ions are needed by many enzymes that use ATP, so without the ion the enzyme is inactive; chloride ions activate salivary amylase. Nerve impulse transfer: sodium ions move into the neuron and potassium ions move out through channel proteins as an impulse passes."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name one mineral needed by plants and explain why a plant lacking it would grow poorly.",
+      "model": "Nitrogen, absorbed from the soil as nitrate, is needed to make amino acids, proteins and nucleic acids. A plant lacking it cannot make enough protein to build new cells, so it shows stunted growth and yellow leaves. Magnesium, which is part of chlorophyll, is an acceptable alternative: a lack gives yellowing leaves and less photosynthesis."
+    }
+  ]
+}

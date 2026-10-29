@@ -1,0 +1,124 @@
+{
+  "loId": "bio21-s1",
+  "chapterId": "bio21",
+  "subsection": "Structures and systems for response",
+  "syllabusRef": "2.4.1",
+  "notes": [
+    {
+      "h": "Stimulus and response",
+      "points": [
+        "Response is a characteristic of all living things: organisms detect stimuli, changes in their internal or external environment, and react to them in ways that help them survive.",
+        "The general pathway is stimulus → receptor (detects it) → coordinator (processes the information) → effector (a muscle or gland) → response."
+      ]
+    },
+    {
+      "h": "Nervous system",
+      "points": [
+        "Receptors in the sense organs detect stimuli.",
+        "Neurons carry fast electrical impulses from the receptors to the brain and spinal cord.",
+        "The brain and spinal cord send impulses along neurons to muscles and glands, which act as effectors.",
+        "Nervous responses are fast and short-lived.",
+        "Diagram: a nervous pathway from receptor to coordinator to effector, labelling the sense organ, sensory neuron, brain and spinal cord, motor neuron and muscle or gland.",
+        "Covered in full in The Nervous System."
+      ]
+    },
+    {
+      "h": "Hormonal (endocrine) system",
+      "points": [
+        "Glands release hormones directly into the blood.",
+        "Hormones travel in the blood to the target organs that respond to them.",
+        "Hormonal responses are slower and longer-lasting than nervous responses.",
+        "Examples: adrenaline, released in danger; insulin, released after a meal.",
+        "Diagram: a gland releasing a hormone into a blood vessel, with an arrow to a target organ.",
+        "Covered in full in The Endocrine System."
+      ]
+    },
+    {
+      "h": "Musculoskeletal system",
+      "points": [
+        "Muscles are the effectors of most nervous responses.",
+        "Muscles contract and pull on bones at joints to move the body.",
+        "Example: withdrawing a hand from heat, carried out by muscles pulling on the bones of the arm.",
+        "Diagram: a muscle attached to a bone across a joint, labelling the bone, the joint and the muscle.",
+        "Covered in full in The Musculoskeletal System."
+      ]
+    },
+    {
+      "h": "Immune system",
+      "points": [
+        "The immune system responds to pathogens and other foreign antigens.",
+        "White blood cells engulf bacteria or produce antibodies against foreign antigens.",
+        "Covered in full in Immunity."
+      ]
+    },
+    {
+      "h": "How the systems work together",
+      "points": [
+        "In danger, the nervous system stimulates the adrenal glands to release adrenaline.",
+        "Adrenaline prepares the muscles for action.",
+        "The musculoskeletal system carries out the movement."
+      ]
+    },
+    {
+      "h": "Responses in plants",
+      "b": "Plants have no nervous system or muscles. They respond more slowly, mainly through chemicals and through their structure.",
+      "points": []
+    },
+    {
+      "h": "Anatomical adaptations in plants",
+      "points": [
+        "Thorns, spines and prickles deter grazing animals: holly leaves have spines, brambles have prickles and cacti have spines.",
+        "A thick waxy cuticle and bark form barriers to pathogens and to water loss.",
+        "Stinging hairs inject irritants, as in nettles.",
+        "Hairy leaves deter insects.",
+        "Diagram: a labelled leaf showing the waxy cuticle and a spiny leaf margin, such as holly."
+      ]
+    },
+    {
+      "h": "Chemical adaptations in plants",
+      "points": [
+        "Toxic or bad-tasting chemicals deter herbivores: nicotine in tobacco, caffeine in tea and coffee plants, and tannins in oak leaves.",
+        "Nettle stings contain histamine and formic acid.",
+        "Some plants produce antimicrobial chemicals when infected, which limit the spread of a pathogen."
+      ]
+    },
+    {
+      "h": "Responses to changing conditions",
+      "points": [
+        "Guard cells close the stomata when water is short, reducing water loss (detail in Transport in Plants).",
+        "The sensitive plant, Mimosa pudica, folds its leaves rapidly when touched."
+      ]
+    },
+    {
+      "h": "Comparing human and plant responses",
+      "points": [
+        "Speed: human responses can be fast, through nerves; plant responses are generally slower.",
+        "Mechanism: humans use nerves and hormones; plants use chemicals and their structure.",
+        "Protection: plants cannot move away from danger, so their protective adaptations matter more."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Stimulus", "definition": "A change in the internal or external environment that an organism can detect." },
+    { "term": "Receptor", "definition": "A cell or organ that detects a stimulus." },
+    { "term": "Coordinator", "definition": "The part that processes information from receptors and decides on a response." },
+    { "term": "Effector", "definition": "A muscle or gland that carries out a response." },
+    { "term": "Endocrine gland", "definition": "A gland that releases hormones directly into the blood." },
+    { "term": "Pathogen", "definition": "A microorganism that causes disease." },
+    { "term": "Antigen", "definition": "A molecule that the immune system recognises as foreign." },
+    { "term": "Cuticle", "definition": "A thick waxy layer on the outside of a plant that forms a barrier to pathogens and water loss." },
+    { "term": "Guard cells", "definition": "Cells that surround each stoma and open or close it, controlling water loss." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one anatomical and one chemical adaptation that plants use to protect themselves, and explain how each works.",
+      "model": "Anatomical adaptation: holly leaves have spines. The spines are sharp, so they deter grazing animals from eating the leaves. Chemical adaptation: tobacco plants produce nicotine. Nicotine is toxic to herbivores, so it deters them from feeding on the plant."
+    },
+    {
+      "marks": 9,
+      "prompt": "Outline the role of the nervous, hormonal and musculoskeletal systems in the human response to a threat.",
+      "model": "Nervous system: receptors in the sense organs detect the threat, and neurons carry fast electrical impulses to the brain and spinal cord, which send impulses along neurons to muscles and glands. Hormonal system: the nervous system stimulates the adrenal glands to release adrenaline into the blood. Adrenaline travels to target organs and gives a slower, longer-lasting response, preparing the muscles for action. Musculoskeletal system: muscles contract and pull on bones at joints, carrying out the movement needed to respond to the threat."
+    }
+  ]
+}
