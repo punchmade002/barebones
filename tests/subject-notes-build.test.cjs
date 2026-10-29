@@ -100,6 +100,32 @@ test("the build rejects notes that break the standard", () => {
   assert.match(result.stdout, /subsections \(-s1, -s2/);
 });
 
+test("fact cards follow the key terms and may not repeat a card", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "notes-facts-"));
+  const notes = JSON.parse(fs.readFileSync(path.join(fixtures, "geo-rivers-s1.json"), "utf8"));
+  const fact = { term: "Name an Irish example of a lake delta", definition: "Between the Upper and Lower Lakes at Glendalough, Co. Wicklow." };
+  notes.factCards = [fact];
+  fs.writeFileSync(path.join(dir, "geo-rivers-s1.json"), JSON.stringify(notes));
+  const out = path.join(dir, "geography-notes.js");
+  const result = build(["--content", dir, "--out", out]);
+  assert.equal(result.status, 0, result.stdout + result.stderr);
+
+  const context = load(["data.js", out]);
+  const outcome = context.__courseData.chapters
+    .find((chapter) => chapter.id === "geo-rivers").learningOutcomes
+    .find((lo) => lo.id === "geo-rivers-s1");
+  assert.equal(outcome.keyTerms.length, notes.keyTerms.length + 1);
+  assert.equal(outcome.keyTerms[0].term, notes.keyTerms[0].term, "key terms keep their positions");
+  assert.equal(outcome.keyTerms.at(-1).term, fact.term);
+  assert.equal(outcome.keyTerms.at(-1).section, outcome.title);
+
+  notes.factCards.push({ term: notes.keyTerms[0].term, definition: "A repeated front." });
+  fs.writeFileSync(path.join(dir, "geo-rivers-s1.json"), JSON.stringify(notes));
+  const bad = build(["--check", "--content", dir]);
+  assert.notEqual(bad.status, 0);
+  assert.match(bad.stdout, /factCards\[1\]\.term: repeats another card/);
+});
+
 test("the shipped geography notes file is up to date with content/geography", () => {
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "geography-notes.js");
   const result = build(["--out", out]);
