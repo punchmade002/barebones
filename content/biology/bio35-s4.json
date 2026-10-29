@@ -1,0 +1,101 @@
+{
+  "loId": "bio35-s4",
+  "chapterId": "bio35",
+  "subsection": "DNA sequencing",
+  "syllabusRef": "3.3.4",
+  "notes": [
+    {
+      "h": "What DNA sequencing is and its scale (Higher Level only)",
+      "points": [
+        "DNA sequencing is working out the exact order of the bases (A, T, C, G) along a piece of DNA.",
+        "DNA profiling only compares fragment lengths; sequencing reads every base.",
+        "The human genome contains about 3 billion base pairs and about 20,000 protein-coding genes.",
+        "The Human Genome Project (1990–2003; see “Science as a global enterprise”) produced the first reference sequence.",
+        "The first complete, gap-free human sequence, including the repeated regions that had been impossible to read, was published in 2022."
+      ]
+    },
+    {
+      "h": "Chain termination: the principle (Higher Level only)",
+      "points": [
+        "The method is the chain-termination method, developed by Frederick Sanger in 1977 (Sanger sequencing).",
+        "Sanger won the Nobel Prize in Chemistry twice: in 1958 for working out the amino-acid sequence of insulin, and in 1980 (shared) for DNA sequencing.",
+        "1. Many copies of the DNA to be sequenced are made (e.g. by PCR) and separated into single strands; each strand is the template.",
+        "2. The template is mixed with a primer (which binds at the start of the region to be read), DNA polymerase, a large supply of the four normal nucleotides, and a small amount of each of four modified “terminator” nucleotides.",
+        "A terminator nucleotide can be added to a growing strand like a normal one, but it lacks the chemical group needed to attach the next nucleotide, so once it is added the strand can grow no further.",
+        "3. DNA polymerase builds new strands complementary to the template. At each position it usually adds a normal nucleotide, but occasionally, by chance, it adds a terminator, and that strand stops there.",
+        "Because there are millions of template copies, strands stop at every possible position.",
+        "4. The result is a collection of DNA fragments of every length, each one nucleotide shorter than the next, and each ending in a terminator that shows which base is at its last position."
+      ]
+    },
+    {
+      "h": "Separating and reading the fragments (Higher Level only)",
+      "points": [
+        "5. The terminators are identified. In Sanger’s original method four separate reactions were run, each with only one kind of terminator (A, T, C or G), and run in four lanes of a gel.",
+        "In the modern automated method each of the four terminators carries a different coloured fluorescent dye, so one reaction is enough and a laser reads the colour of each fragment.",
+        "6. The fragments are separated by gel electrophoresis (in a thin capillary tube in modern machines). The gel must separate fragments that differ by a single nucleotide; the shortest move furthest.",
+        "7. The sequence is read from the shortest fragment to the longest (from the bottom of the gel, furthest from the wells, upwards): the last base of each successive fragment gives the next base of the new strand. The template’s sequence is the complement of this.",
+        "Diagram: a four-lane gel labelled A, C, G, T at the top (wells, negative electrode), bands at different heights, an arrow up the side labelled “read from the bottom (shortest fragment) to the top”, and the sequence written beside it; label wells, lanes, bands, shortest and longest fragment, + and − electrodes. Also, beside it, a short template with the set of growing strands each stopped one base later than the last."
+      ]
+    },
+    {
+      "h": "Reading a sequencing gel: method (Higher Level only)",
+      "points": [
+        "1. Find the band nearest the bottom (furthest from the wells); its lane gives the first base of the new strand.",
+        "2. Move up one band at a time, whichever lane it is in, writing down the lane letter each time.",
+        "3. Stop at the top band.",
+        "4. To give the template, write the complementary base for each (A↔T, C↔G)."
+      ]
+    },
+    {
+      "h": "Worked example: reading a sequencing gel (Higher Level only)",
+      "points": [
+        "A gel has bands at eight heights. From the bottom up, the bands are in lanes T, A, C, C, G, T, A, G.",
+        "So the new strand reads TACCGTAG, and the template strand is ATGGCATC.",
+        "Lane by lane: lane A has bands at positions 2 and 7 from the bottom; lane C at 3 and 4; lane G at 5 and 8; lane T at 1 and 6.",
+        "The shortest fragment (position 1) is one nucleotide longer than the primer; each band above is one nucleotide longer than the one below.",
+        "Automated output: the machine prints a trace of coloured peaks, one colour per base, in order of fragment length, with the base letter above each peak; it is read left to right in the same way."
+      ]
+    },
+    {
+      "h": "Modern sequencing and its uses (Higher Level only)",
+      "points": [
+        "Newer (next-generation) methods sequence millions of short DNA fragments at the same time and use computers to assemble the overlapping fragments into the full sequence.",
+        "They are far faster and cheaper than the original method, so whole genomes are now sequenced routinely.",
+        "The huge amount of data is stored and analysed in genome databases (see “Bioinformatics: genome databases”).",
+        "Finding point mutations and diagnosing genetic diseases (see “Mutations”).",
+        "Choosing cancer drugs by sequencing a tumour’s DNA (see “Causes, prevention and treatment of cancer”).",
+        "Comparing the DNA of different species to work out evolutionary relationships and classification (see “Classification”).",
+        "Identifying and tracking pathogens: the genome of the virus that causes COVID-19 was sequenced and shared online in January 2020 (see “Science as a global enterprise”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "DNA sequencing", "definition": "Working out the exact order of the bases A, T, C and G along a piece of DNA." },
+    { "term": "Chain-termination method", "definition": "A sequencing method in which copying of the DNA stops at random at every base, giving fragments that differ in length by one nucleotide." },
+    { "term": "Terminator nucleotide", "definition": "A modified nucleotide that can be added to a growing DNA strand but prevents the next nucleotide from being attached, so the strand stops." },
+    { "term": "Sanger sequencing", "definition": "The chain-termination method of DNA sequencing developed by Frederick Sanger in 1977." },
+    { "term": "Template strand", "definition": "The DNA strand that is copied, so the new strand is complementary to it." },
+    { "term": "Complement", "definition": "The base that pairs with another base, so that A pairs with T and C pairs with G." },
+    { "term": "Capillary electrophoresis (sequencing)", "definition": "Separation of the fluorescently labelled sequencing fragments in a thin capillary tube in a machine, which a laser reads." },
+    { "term": "Next-generation sequencing", "definition": "Newer methods that sequence millions of short DNA fragments at the same time, with computers assembling the overlapping fragments." },
+    { "term": "Human genome", "definition": "The complete set of human DNA, containing about 3 billion base pairs and about 20,000 protein-coding genes." },
+    { "term": "Point mutation", "definition": "A change in one base of the DNA, which sequencing can detect." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Outline the principle of DNA sequencing by the chain-termination method.",
+      "model": "The template DNA is mixed with a primer, DNA polymerase, the four normal nucleotides and a small amount of four modified terminator nucleotides. DNA polymerase builds a new complementary strand, and occasionally, by chance, it adds a terminator, which stops that strand at that position. Because there are millions of template copies, strands stop at every possible position, giving a collection of fragments that each differ in length by one nucleotide and each end in a terminator showing the base at its last position. The fragments are separated by gel electrophoresis, which can separate fragments differing by a single nucleotide, and the bases are read from the shortest fragment to the longest."
+    },
+    {
+      "marks": 6,
+      "prompt": "A sequencing gel has bands which, read from the bottom upwards, are in lanes G, A, T, T, C, A. Give the sequence of the new strand and of the template strand.",
+      "model": "New strand: GATTCA. Template strand: CTAAGT. Each template base is complementary to the new strand base above it: G pairs with C, A with T, T with A, T with A, C with G, and A with T."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between DNA sequencing and DNA profiling, and give one use of DNA sequencing.",
+      "model": "DNA sequencing works out the exact order of every base along a piece of DNA, whereas DNA profiling only compares the lengths of fragments, giving a pattern of bands. One use of DNA sequencing is finding point mutations and diagnosing genetic diseases."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "loId": "bio35-s6",
+  "chapterId": "bio35",
+  "subsection": "Investigation: DNA-profile patterns",
+  "syllabusRef": "3.3.6",
+  "notes": [
+    {
+      "h": "Planning the investigation",
+      "b": "Aim: to compare DNA profiles in order to (a) find whether a suspect’s DNA matches DNA from a crime scene and (b) find which of several men could be the biological father of a child.",
+      "points": [
+        "The data may be primary: a gel the student runs with DNA samples supplied in a school kit, already copied or cut and ready to load.",
+        "Or the data may be secondary: profiles given as diagrams, tables of band sizes or repeat numbers, or from a published case or simulation.",
+        "Hypotheses to write, for example: “The crime-scene DNA came from suspect B”; “Man X is the biological father of the child”. The null outcome is an exclusion.",
+        "Independent variable: the source of each DNA sample (each person).",
+        "Dependent variable: the position of each band, measured as the distance it travels from the well in mm, or its size read from the ladder.",
+        "Controlled variables: the gel (all samples on the same gel, with the same agarose and buffer), the volume of each sample loaded, the voltage and running time, and the staining time.",
+        "Controls: a DNA ladder (size marker) in one lane, so band sizes can be read and different gels compared.",
+        "A lane loaded with loading dye and buffer but no DNA (negative control) should show no bands, so any band there shows contamination.",
+        "In a real case, a reference sample of known origin (positive control) is run beside the unknowns.",
+        "Equipment and materials: electrophoresis tank with lid and electrodes, power pack, gel casting tray and comb, agarose powder and running buffer (as the kit instructions give), conical flask and microwave (or hot plate) to melt the agarose, heat-resistant glove, micropipette and tips (or fine plastic droppers), DNA samples with loading dye (crime scene and suspects; or mother, child and possible fathers), DNA ladder, DNA stain safe for schools (e.g. methylene blue) and a staining tray, white light box, ruler, gloves, safety glasses, and a camera or phone to record the gel."
+      ]
+    },
+    {
+      "h": "Running the gel: method",
+      "points": [
+        "1. Mix agarose powder with running buffer in a conical flask and heat it, swirling, until it dissolves and the liquid is clear.",
+        "2. Let it cool until the flask can be held (about 55–60 °C), then pour it into the casting tray with the comb in place at one end. Leave it to set (it becomes firm and cloudy). Remove the comb gently, leaving a row of wells.",
+        "3. Place the gel in the tank with the wells at the negative (black) electrode end, and pour in running buffer until the gel is just covered.",
+        "4. Using a fresh micropipette tip for each sample, load the same volume of each sample into its own well: hold the tip just inside the well without piercing the bottom of the gel, and push the plunger slowly.",
+        "Load the ladder in the first well and the no-DNA control in another. Record which sample is in which lane.",
+        "5. Put the lid on and connect the leads, black to black (negative) and red to red (positive): DNA “runs to red”. Switch on at the voltage the kit instructions give. Bubbles rising from the electrodes show that current is flowing.",
+        "6. Run until the coloured loading dye has moved about three-quarters of the length of the gel, without letting it run off the end. Switch off the power pack before removing the lid.",
+        "7. Wearing gloves, move the gel to a staining tray, cover it with stain for the time the kit gives, then pour off the stain and rinse (destain) with water until the bands show clearly against a pale background.",
+        "8. View the gel on a white light box, photograph it beside a ruler, and measure the distance from the well to each band.",
+        "9. Repeat with a second gel, or compare with other groups’ gels, to check that the pattern is repeatable.",
+        "Option where no DNA kit is available: food dyes loaded on an agarose gel separate into bands as they move in the electric field. This models the method (loading, running, band patterns), but the dyes separate by their charge and size, not as DNA fragments."
+      ]
+    },
+    {
+      "h": "Safety in the investigation",
+      "points": [
+        "Electricity and water: switch the power pack off before connecting or disconnecting leads or opening the lid; keep the lid on while running; don’t touch the buffer while the current is on; keep hands and bench dry; use only low-voltage equipment designed for schools.",
+        "Hot agarose can boil over suddenly in a microwave and cause burns: heat in short bursts, swirl with a heat-resistant glove, point the flask away from people, and wear safety glasses.",
+        "Stains mark skin and clothing, and some are harmful: wear gloves and glasses. Don’t use ethidium bromide or UV light in school.",
+        "Handle micropipettes carefully, dispose of gels and tips as the teacher directs, and wash hands after the practical."
+      ]
+    },
+    {
+      "h": "Worked example 1: forensic matching",
+      "b": "An invented teaching example, not a real case. Each number is the number of repeats of an allele; each allele is one band, and more repeats means a longer fragment, nearer the wells.",
+      "points": [
+        "Method: 1. Compare the crime-scene lane with each suspect’s lane, one locus (or band) at a time.",
+        "2. A suspect matches only if every band is in the same position as a crime-scene band and there are no extra or missing bands.",
+        "3. One mismatched band at any locus excludes the suspect.",
+        "4. A single band at a locus means the person has two alleles with the same number of repeats.",
+        "Crime scene: locus 1, 12 and 15; locus 2, 8 only; locus 3, 10 and 13. Suspect A: 12 and 15; 8 and 9; 10 and 13. Suspect B: 12 and 15; 8 only; 10 and 13. Suspect C: 11 and 15; 8 only; 10 and 13.",
+        "Analysis: suspect A has an extra band (9) at locus 2, so is excluded; suspect C has 11 instead of 12 at locus 1, so is excluded; suspect B matches at all three loci.",
+        "Conclusion: suspect B cannot be excluded and is very likely the source of the crime-scene DNA; A and C did not leave it.",
+        "A real profile tests more than ten loci, which makes a chance match between unrelated people extremely unlikely (see “DNA profiling”)."
+      ]
+    },
+    {
+      "h": "Worked example 2: paternity",
+      "b": "An invented teaching example, not a real case, showing how a man is included or excluded as the father.",
+      "points": [
+        "Method: 1. At each locus, find which of the child’s bands it shares with the mother (the maternal band).",
+        "2. The child’s other band must have come from the father (the paternal band).",
+        "3. A man who lacks the paternal band at any locus is excluded as the father.",
+        "4. A man who has every paternal band cannot be excluded; he is very likely to be the father.",
+        "Mother: locus 1, 10 and 14; locus 2, 7 and 9; locus 3, 11 and 12. Child: locus 1, 10 and 16; locus 2, 9 only (two alleles of 9); locus 3, 12 and 15.",
+        "Man X: 13 and 16; 6 and 9; 15 only. Man Y: 16 and 17; 7 and 8; 11 and 15. Man Z: 12 and 16; 9 and 10; 13 and 14.",
+        "Analysis: the child’s maternal bands are 10 (locus 1), 9 (locus 2) and 12 (locus 3), all present in the mother. So the paternal bands must be 16, 9 and 15.",
+        "Man X has 16, 9 and 15, so he cannot be excluded. Man Y has no 9 at locus 2, so he is excluded. Man Z has no 15 at locus 3, so he is excluded.",
+        "Conclusion: man X is very likely the biological father.",
+        "Diagram: a gel drawn for the paternity case, with lanes for ladder, mother, child, X, Y and Z; each of the child’s bands joined by a line to the matching band in the mother or in man X. Label wells, ladder, maternal band, paternal band. The forensic case can be drawn the same way."
+      ]
+    },
+    {
+      "h": "Recording results and reaching a conclusion",
+      "points": [
+        "Record primary data as a labelled drawing or photograph of the gel, and a table of each lane’s bands (distance from the well in mm, or size read from the ladder). Bands at the same distance on the same gel are the same size.",
+        "Reading sizes: compare each band with the ladder; for a more exact size, plot a graph of the ladder’s known fragment sizes (on a logarithmic scale) against distance travelled, and read the unknown bands’ sizes from it.",
+        "Conclusion: state whether each person matches or is excluded, giving the locus or band that decides it, and say whether the results support the hypothesis.",
+        "A match supports, but does not prove, that the DNA came from that person (see the limitations in “DNA profiling”); an exclusion is definite if the results are reliable.",
+        "Patterns to point out: identical twins give identical profiles; brothers and sisters share some but not all bands, because each inherits a random one of each parent’s two alleles at each locus; every band of a child is found in at least one parent."
+      ]
+    },
+    {
+      "h": "Sources of error and limitations",
+      "points": [
+        "Contamination: DNA from the student or a reused tip gives extra bands, shown by bands in the no-DNA control lane.",
+        "Loading errors: piercing the well bottom loses sample; air bubbles or overfilling cause sample to spill into the next well, mixing lanes; unequal volumes give bands of different strength.",
+        "Running errors: wells at the positive end send the DNA off the gel into the buffer; too short a run leaves bands too close together to separate; too long a run sends small fragments off the end.",
+        "Smeared or faint bands come from too much or degraded DNA, or from too short a staining time.",
+        "Measuring band distances by eye and ruler has limited precision; repeat measurements or have a second person check them.",
+        "Secondary data: check the source and whether profiles were run on the same gel; bands on different gels can be compared only through the ladder."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Independent variable (in this investigation)", "definition": "The source of each DNA sample, that is, each person whose DNA is loaded." },
+    { "term": "Dependent variable (in this investigation)", "definition": "The position of each band, measured as the distance it travels from the well or as its size read from the ladder." },
+    { "term": "Negative control", "definition": "A lane loaded with loading dye and buffer but no DNA, which should show no bands, so any band there shows contamination." },
+    { "term": "Positive control", "definition": "A reference sample of known origin run beside the unknown samples in a real case." },
+    { "term": "DNA ladder (size marker)", "definition": "A set of DNA fragments of known lengths run in one lane so that band sizes can be read and different gels compared." },
+    { "term": "Loading dye", "definition": "A dense, coloured liquid mixed with each sample so that it sinks into the well and the progress of the run can be seen." },
+    { "term": "Maternal band", "definition": "A band in a child’s profile that is shared with the mother, so it must have come from her." },
+    { "term": "Paternal band", "definition": "The band in a child’s profile that is not shared with the mother, so it must have come from the biological father." },
+    { "term": "Exclusion", "definition": "The conclusion that a suspect or man could not have been the source, because one band at one locus does not match." },
+    { "term": "Destain", "definition": "To rinse a stained gel with water until the bands show clearly against a pale background." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "In a paternity case the mother’s bands at three loci are 8 and 11, 5 and 6, 14 and 17; the child’s are 11 and 12, 6 and 9, 14 and 15. Man P has 12 and 13, 9 and 9, 15 and 16. Man Q has 10 and 12, 7 and 9, 13 and 14. Which man could be the father? Explain.",
+      "model": "The child’s maternal bands are 11 (locus 1), 6 (locus 2) and 14 (locus 3), all found in the mother, so the paternal bands must be 12, 9 and 15. Man P has 12 and 13 at locus 1, 9 and 9 at locus 2, and 15 and 16 at locus 3, so he has every paternal band and cannot be excluded. Man Q has 12 and 9 but not 15 at locus 3, so he is excluded. Man P could be the father."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would carry out an investigation to compare the DNA profile of a crime-scene sample with those of two suspects, using a school electrophoresis kit. Include a control, a safety precaution and how you would reach a conclusion.",
+      "model": "Variables: the independent variable is the source of each DNA sample; the dependent variable is the distance each band travels from the well; the gel, the volume loaded, the voltage, the running time and the staining time are kept the same. Controls: a DNA ladder in one lane to read band sizes, and a no-DNA lane with loading dye and buffer, which should show no bands. Method: melt the agarose, pour it into the tray with the comb in place, and let it set; place the gel in the tank with the wells at the negative (black) end and cover it with buffer; load the same volume of the crime-scene sample, each suspect and the ladder into separate wells with a fresh tip for each; put the lid on, connect black to black and red to red, and run until the dye has moved about three-quarters of the gel; stain, destain, and view the gel on a white light box beside a ruler. Safety: switch off the power pack before connecting leads or opening the lid, and keep the buffer away from the current. Conclusion: a suspect matches only if every band is in the same position as a crime-scene band, and one mismatched band at any locus excludes that suspect; a suspect with a full match cannot be excluded, but the match supports rather than proves the link."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why two brothers who are not twins have DNA profiles that are similar but not identical.",
+      "model": "Each child inherits one of each parent’s two alleles at each locus, chosen at random. Two brothers therefore share some bands, because they inherit the same allele from a parent at some loci, but not all of them. Identical twins are the exception: they come from one zygote, so they have the same DNA and identical profiles."
+    }
+  ]
+}

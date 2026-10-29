@@ -1,0 +1,88 @@
+{
+  "loId": "bio6-s1",
+  "chapterId": "bio6",
+  "subsection": "Viruses",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Structure of a virus",
+      "b": "A virus is a tiny, non-cellular particle. It can reproduce only inside a living host cell, so it is an obligate intracellular parasite.",
+      "points": [
+        "Nucleic acid core: either DNA or RNA, never both. It carries the genes (instructions) for making new virus particles, and may be single- or double-stranded.",
+        "Protein coat (capsid): made of many repeating protein subunits (capsomeres). It protects the nucleic acid. Its proteins attach to specific receptor molecules on the surface of the host cell, which is why each virus infects only particular species and particular cell types (host specificity).",
+        "Envelope (some viruses only, e.g. influenza virus and HIV): an outer lipid membrane taken from the host cell’s membrane as the virus leaves, studded with viral proteins (spikes) that help the virus attach to and enter new cells.",
+        "Viruses have no cytoplasm, no ribosomes, no cell membrane of their own and almost no enzymes. They must use the host cell’s ribosomes, enzymes, ATP and raw materials to make copies of themselves; replication is covered in “Viruses: replication”.",
+        "Size: most viruses are about 20–300 nm across, much smaller than a bacterium (about 1–10 µm). They pass through filters that trap bacteria and can be seen only with an electron microscope.",
+        "Shapes: rod-shaped or helical (e.g. tobacco mosaic virus); many-sided or polyhedral (e.g. adenovirus); spherical and enveloped (e.g. influenza virus); complex, with a head and tail (bacteriophages, which infect bacteria).",
+        "Diagram: a bacteriophage labelled head (protein coat), nucleic acid (DNA) inside the head, tail and tail fibres; and an enveloped virus labelled envelope, spike proteins, protein coat and RNA."
+      ]
+    },
+    {
+      "h": "Is a virus living? Evidence on each side",
+      "b": "Viruses are hard to classify because they show some features of living things and lack others.",
+      "points": [
+        "Features of living things that viruses show: they contain genetic material (DNA or RNA) using the same genetic code as cells.",
+        "They reproduce, making many copies of themselves, but only inside a host cell.",
+        "They show heredity, passing genes to new viruses, and they mutate and evolve by natural selection. For example, new strains of influenza appear every year, so the flu vaccine is updated.",
+        "Their structure is highly organised.",
+        "Features of living things that viruses lack: they are not made of cells (they are acellular), so they do not fit the cell theory.",
+        "They have no metabolism of their own, with no respiration, nutrition or excretion; they do not grow and do not respond to stimuli.",
+        "They cannot reproduce outside a host cell, and outside a host they are inert particles.",
+        "Some viruses can be crystallised like a chemical and remain infectious afterwards: Wendell Stanley crystallised tobacco mosaic virus in 1935.",
+        "Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms, so they are not placed in any of the three domains or six kingdoms (see “Classification”). Others argue that a virus is alive only while it is inside a host cell, using the cell’s machinery."
+      ]
+    },
+    {
+      "h": "Medical importance",
+      "points": [
+        "Viruses cause many human diseases: common cold (rhinoviruses), influenza (flu), measles, mumps, chickenpox, COVID-19 (caused by SARS-CoV-2), AIDS (caused by HIV, which destroys helper T cells of the immune system) and hepatitis B.",
+        "Some viruses cause cancer. Human papillomavirus (HPV) causes most cervical cancers, and a vaccine against HPV protects against them; detail is in “Cell Division and Cancer”.",
+        "Antibiotics do not work against viruses, because antibiotics target structures and processes that viruses do not have, such as bacterial cell walls and ribosomes.",
+        "Viral infections are treated with antiviral drugs, which are fewer and more specific, and are prevented by vaccination and hygiene; detail is in “Immunity”.",
+        "Misusing antibiotics for viral infections contributes to antibiotic resistance in bacteria.",
+        "Useful medical roles: vaccines are made from weakened or inactivated viruses or from viral proteins.",
+        "Harmless modified viruses are used as vectors to carry genes into human cells in gene therapy and in some vaccines. Some COVID-19 vaccines used a harmless adenovirus to carry the gene for a coronavirus spike protein.",
+        "Bacteriophages can be used to kill bacteria that are resistant to antibiotics (phage therapy)."
+      ]
+    },
+    {
+      "h": "Economic importance",
+      "points": [
+        "Plant viruses reduce crop yields, e.g. tobacco mosaic virus (tobacco, tomatoes), potato viruses, and barley yellow dwarf virus in cereals, which is spread by aphids.",
+        "Animal viruses such as foot-and-mouth disease (cattle, sheep and pigs) and avian influenza (bird flu, poultry) lead to culling of infected herds and flocks, bans on exports and movement restrictions.",
+        "Costs to society: health-care costs, lost working days and, in a pandemic, the closure of businesses, schools and travel, e.g. COVID-19 from 2020.",
+        "Economic benefits: viruses are used as tools in genetic engineering, as vectors that carry genes into cells.",
+        "Viruses are used in biological control of pests: myxoma virus was released in Australia in 1950 to control rabbits.",
+        "Vaccine production is a major pharmaceutical industry."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Virus", "definition": "A tiny, non-cellular particle of nucleic acid inside a protein coat, which can reproduce only inside a living host cell." },
+    { "term": "Obligate intracellular parasite", "definition": "An organism or particle that can reproduce only inside a host cell." },
+    { "term": "Capsid", "definition": "The protein coat of a virus, made of repeating protein subunits, which protects the nucleic acid." },
+    { "term": "Envelope", "definition": "An outer lipid membrane, taken from the host cell, that surrounds some viruses." },
+    { "term": "Host specificity", "definition": "The way a virus infects only particular species and cell types, because its surface proteins fit specific receptors." },
+    { "term": "Bacteriophage", "definition": "A virus with a head and tail that infects bacteria." },
+    { "term": "Vaccine", "definition": "A preparation of weakened or inactivated virus, or of viral proteins, that trains the immune system against a disease." },
+    { "term": "Vector", "definition": "A harmless modified virus used to carry genes into cells." },
+    { "term": "Antiviral drug", "definition": "A drug that treats viral infections, which antibiotics cannot do." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Draw a labelled diagram of a virus and state the function of two of the parts you have labelled.",
+      "model": "The diagram shows a bacteriophage with a head containing DNA, surrounded by a protein coat, a tail and tail fibres; or an enveloped virus with an envelope, spike proteins, a protein coat and RNA. The nucleic acid carries the genes (instructions) for making new virus particles. The protein coat, or capsid, protects the nucleic acid and its proteins attach to specific receptor molecules on the surface of a host cell, which determines which species and cell types the virus can infect."
+    },
+    {
+      "marks": 12,
+      "prompt": "Discuss whether viruses should be considered living organisms.",
+      "model": "Evidence that viruses are living: they contain genetic material (DNA or RNA) with the same genetic code as cells; they reproduce, making many copies of themselves; they show heredity and mutate and evolve by natural selection, e.g. new influenza strains each year. Evidence that they are not living: they are not made of cells, so they do not fit the cell theory; they have no metabolism of their own; they do not grow or respond to stimuli; and they cannot reproduce outside a host cell, where they are inert particles. Supporting evidence: Wendell Stanley crystallised tobacco mosaic virus in 1935, and the crystals remained infectious. Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms and they are placed in no domain or kingdom, although some argue they are alive only while inside a host cell."
+    },
+    {
+      "marks": 9,
+      "prompt": "Outline the medical and economic importance of viruses, giving one harmful and one beneficial example of each.",
+      "model": "Medical importance: viruses cause many human diseases, e.g. COVID-19, caused by SARS-CoV-2, or AIDS, caused by HIV, which destroys helper T cells of the immune system. Antibiotics do not work on viruses, which lack the structures antibiotics target. A beneficial medical use is the vaccine, e.g. some COVID-19 vaccines used a harmless adenovirus to carry the gene for the coronavirus spike protein. Economic importance: plant viruses such as barley yellow dwarf virus, spread by aphids, reduce crop yields, and animal viruses such as foot-and-mouth disease lead to culling of herds and bans on exports. A beneficial example is myxoma virus, released in Australia in 1950 to control rabbits."
+    }
+  ]
+}

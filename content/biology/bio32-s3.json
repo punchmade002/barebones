@@ -1,0 +1,205 @@
+{
+  "loId": "bio32-s3",
+  "chapterId": "bio32",
+  "subsection": "Abiotic factors",
+  "syllabusRef": "3.1.11",
+  "notes": [
+    {
+      "h": "Measuring abiotic factors: general rules",
+      "b": "Abiotic factors are used here as defined in “Biosphere, ecosystems, habitats and biodiversity”. Their role as limiting factors is in “Carrying capacity and limiting factors”.",
+      "points": [
+        "The specification groups abiotic factors as air (climatic) factors, ground (topographic) factors, aquatic (water) factors and edaphic (soil) factors.",
+        "The specification names water, oxygen, space, temperature, soil, aspect, wind speed and slope.",
+        "Measure abiotic factors at the same places as the quadrats or transect points, and at the same time as the survey, so that each measurement can be linked to the species found there.",
+        "Many factors (light, temperature, wind, humidity) change during the day and with the weather. Take all readings within a short period under similar conditions, and record the time and weather.",
+        "Repeat each reading (e.g. three times) and use the mean.",
+        "Electronic probes connected to a data logger can record factors such as temperature, light intensity, humidity, pH and dissolved oxygen continuously over hours or days, and at several points at once. This removes reading errors and shows changes over time.",
+        "Calibrate meters before use, e.g. a pH meter with buffer solutions of known pH."
+      ]
+    },
+    {
+      "h": "Air (climatic) factors",
+      "points": [
+        "Light intensity is the energy for photosynthesis, so it affects plant growth and which plants can grow in shade; it also affects animal activity.",
+        "Light intensity is measured with a light meter (lux meter), in lux.",
+        "Hold the light sensor horizontally, facing up, at the same height each time (e.g. at ground level or at the top of the vegetation), keep your shadow off it, and take readings quickly, as light changes with cloud cover.",
+        "Air temperature controls the rate of enzyme reactions, so it affects the activity and growth of plants and of cold-blooded animals.",
+        "Air temperature is measured with a thermometer or temperature probe, in °C, held in the shade at a set height above the ground (e.g. 1 m) so that direct sunlight doesn’t heat it.",
+        "A maximum–minimum thermometer left on site records the highest and lowest temperatures over a period, e.g. 24 hours.",
+        "Wind speed increases water loss by evaporation and transpiration, cools organisms, can damage tall plants, and makes flying difficult for insects.",
+        "Wind speed is measured with an anemometer (a cup anemometer or a hand-held digital one), in metres per second (m/s) or km/h, held at a set height facing into the wind.",
+        "Take the mean of several readings, as wind gusts. Wind direction is found with a wind vane or a compass.",
+        "Humidity (water in the air) affects water loss from plants and from animals with moist skins; slugs and woodlice need humid places.",
+        "Humidity is measured with a hygrometer or humidity probe, as relative humidity (%).",
+        "Rainfall (water supply) is measured with a rain gauge: a funnel draining into a measuring cylinder, set in an open place, in mm, read at the same time each day."
+      ]
+    },
+    {
+      "h": "Ground (topographic) factors and space",
+      "points": [
+        "Slope affects drainage: water runs off steep slopes, so they are drier and soils are thinner, while hollows at the bottom collect water. Slope also affects the amount of sunlight received.",
+        "Slope is measured with a clinometer, in degrees. Two people of the same eye height (or two poles marked at the same height) stand up and down the slope a set distance apart.",
+        "One person sights the other’s eye level (or the mark) through the clinometer and reads the angle.",
+        "Aspect is the compass direction a slope faces, measured with a compass.",
+        "In Ireland (northern hemisphere) a south-facing slope receives more direct sunlight than a north-facing one, so it is warmer and drier and plants there start growing earlier in spring.",
+        "Space is the room available for organisms to live, grow, find shelter, nest or attach.",
+        "Measure the area of the habitat (length × width with tapes or a trundle wheel), and the percentage of bare ground in each quadrat (squares of a gridded quadrat with no plants), which shows the space available for new seedlings.",
+        "Density from “Surveys” (individuals per m²) shows how crowded a species is. Shortage of space is a cause of competition (see “Biotic factors and relationships”)."
+      ]
+    },
+    {
+      "h": "Soil temperature, pH and water content",
+      "points": [
+        "Soil temperature affects root growth, germination and the activity of soil organisms and decomposers.",
+        "Push a soil thermometer or temperature probe into the soil to a set depth (e.g. 10 cm), leave it for a minute or two to settle, and read it in °C.",
+        "Soil pH affects which plants grow (by changing which minerals are available) and which soil organisms live there; earthworms are scarce in acid soils.",
+        "Soil pH method, step 1: take a small soil sample from a set depth.",
+        "Soil pH method, step 2: put about 1 cm depth of soil in a test tube, add about the same amount of barium sulfate (which makes the clay particles settle, so that the liquid clears), then distilled water and a few drops of universal indicator.",
+        "Soil pH method, step 3: stopper and shake, then leave to settle.",
+        "Soil pH method, step 4: compare the colour of the liquid with the universal indicator colour chart to read the pH.",
+        "Alternatively, mix the soil with distilled water and use a calibrated pH meter, rinsing the probe in distilled water between samples. Use distilled water, as tap water has its own pH.",
+        "Soil water content affects which plants grow (rushes grow in wet soil) and soil animals (earthworms need moist soil); waterlogged soil lacks air.",
+        "Soil water content method, step 1: weigh an empty evaporating dish.",
+        "Soil water content method, step 2: add a soil sample and weigh again, to find the fresh mass of soil by subtraction.",
+        "Soil water content method, step 3: heat in an oven at about 100–105 °C (hot enough to evaporate water, not to burn humus) for 24 hours.",
+        "Soil water content method, step 4: cool in a desiccator (so the soil doesn’t reabsorb water from the air) and reweigh.",
+        "Soil water content method, step 5: repeat the heating, cooling and weighing until the mass stays the same (constant mass), showing that all the water has gone.",
+        "Percentage water = (fresh mass − dry mass) ÷ fresh mass × 100.",
+        "Worked example: fresh soil 50.0 g; dry soil 38.0 g at constant mass. Water = 12.0 g. Percentage water = 12.0 ÷ 50.0 × 100 = 24%.",
+        "A soil-moisture probe (meter) gives a quick reading in the field, but less accurately."
+      ]
+    },
+    {
+      "h": "Soil air content, humus and texture",
+      "points": [
+        "Soil air content: roots and soil animals need oxygen for respiration. Air spaces are larger in sandy soils and smaller in clay and waterlogged soils.",
+        "Soil air content method, step 1: find the volume of an empty can by filling it with water from a graduated cylinder.",
+        "Soil air content method, step 2: push the can, open end down, into the soil until it is full, dig it out and level the soil with the rim.",
+        "Soil air content method, step 3: put a volume of water equal to the can’s volume in a large graduated cylinder.",
+        "Soil air content method, step 4: add the soil, and stir with a rod to release the trapped air.",
+        "Soil air content method, step 5: read the new level.",
+        "Volume of air = (volume of water + volume of soil) − final reading. Percentage air = volume of air ÷ volume of soil × 100.",
+        "Worked example: can volume 100 cm³; 100 cm³ water; reading after adding soil and stirring 185 cm³. Air = 200 − 185 = 15 cm³; percentage air = 15 ÷ 100 × 100 = 15%.",
+        "Humus is the dark, partly decomposed remains of dead organisms in soil. It holds water and minerals and feeds decomposers.",
+        "Humus method, step 1: weigh a crucible.",
+        "Humus method, step 2: add dry soil from the water-content method and weigh it.",
+        "Humus method, step 3: heat it strongly over a Bunsen burner (lid partly on) until the humus burns away (about 15 minutes).",
+        "Humus method, step 4: cool in a desiccator and reweigh.",
+        "Humus method, step 5: repeat until constant mass.",
+        "Percentage humus = loss in mass ÷ mass of dry soil × 100.",
+        "Worked example: dry soil 38.0 g; after burning, 34.2 g. Loss = 3.8 g; percentage humus = 3.8 ÷ 38.0 × 100 = 10% of the dry soil.",
+        "Soil texture: shake soil with water in a graduated cylinder and leave it to settle. The particles settle in layers, largest at the bottom: stones and gravel, then sand, silt and clay, with humus floating on top. The proportions show the soil type."
+      ]
+    },
+    {
+      "h": "Aquatic factors",
+      "points": [
+        "Water temperature is measured with a thermometer or probe in °C, at a set depth. It affects how much oxygen water holds (cold water holds more) and the activity of aquatic organisms.",
+        "Dissolved oxygen is measured with an oxygen meter (probe), in mg per litre, or with a chemical test kit.",
+        "Animals such as stonefly larvae need high oxygen. Low oxygen is a sign of organic pollution, because decomposers use up the oxygen.",
+        "Water pH is measured with a pH meter or universal indicator paper, as for soil.",
+        "Rate of flow (current speed): mark two points a set distance apart along a straight stretch of stream (e.g. 10 m); time a float (e.g. an orange or a dog biscuit) from one point to the other.",
+        "Repeat the timing three times and take the mean time; speed = distance ÷ time.",
+        "Worked example: mean time 25 s over 10 m: 10 ÷ 25 = 0.4 m/s.",
+        "Fast flow carries away animals that can’t cling on and keeps the water well oxygenated.",
+        "Turbidity (cloudiness) is measured with a Secchi disc, a black-and-white disc on a marked rope, which is lowered until it can no longer be seen; the depth is recorded.",
+        "Cloudy water lets less light reach water plants.",
+        "Salinity (seawater, rock pools, estuaries) is measured with a conductivity or salinity meter. Rock pools become saltier as water evaporates in sunshine."
+      ]
+    },
+    {
+      "h": "Quantitative investigation: plan and variables",
+      "points": [
+        "Aim: to investigate quantitatively how light intensity affects the distribution and abundance of the daisy in a grassland, along a belt transect from under a hedge or tree into the open field.",
+        "Hypothesis: “The number of daisies per quadrat increases as light intensity increases.”",
+        "Reason for the hypothesis: the daisy is a low-growing rosette plant that needs plenty of light for photosynthesis, and is shaded out where light is low.",
+        "Independent variable: light intensity. It varies naturally along the transect, so it is measured, not set by the student.",
+        "Dependent variable: the abundance of daisies (number per quadrat, or percentage cover).",
+        "Controlled variables: quadrat size, the interval between quadrats, the counting rule, the height and direction of the light sensor, the time of day (all readings within a short period) and the weather.",
+        "No true control is possible: other factors also change along the transect, such as soil water content, leaf litter, trampling, and competition from taller plants near the hedge. Measure these too where possible, so that their effect can be considered.",
+        "This is why a field investigation shows a correlation, not proof of cause.",
+        "Equipment: two long tape measures (one for the transect), a gridded quadrat, a light meter, pegs, a recording sheet, and a soil-moisture probe or soil-sampling equipment for the second factor.",
+        "Other suitable pairs of factor and species: soil water content and rushes (more in wet ground); trampling or soil compaction across a path and plantain or grass cover; soil pH and a named plant; height above low tide on a rocky shore and the cover of each seaweed."
+      ]
+    },
+    {
+      "h": "Quantitative investigation: method and safety",
+      "points": [
+        "Step 1: stretch a tape measure from the base of the hedge (0 m) straight out into the open field, e.g. for 10 m.",
+        "Step 2: place a gridded quadrat at 0 m and then at every 2 m along the tape (an interrupted belt transect; transects are in “Surveys”).",
+        "Step 3: in each quadrat, count the daisy rosettes (or the squares in which daisy covers more than half, for percentage cover).",
+        "Step 4: at each quadrat, hold the light meter at ground level, facing up, and take three readings in quick succession; record the mean in lux.",
+        "Do all the light readings within a few minutes, ideally under even cloud.",
+        "Step 5: measure the second factor (e.g. soil water content) at each quadrat.",
+        "Step 6: repeat the whole transect at least twice more, parallel to the first and a few metres away, and calculate the mean count at each distance.",
+        "Step 7: record the results in a table, and plot a scatter graph of the number of daisies (y-axis) against light intensity (x-axis), or plot both against distance from the hedge.",
+        "Safety: take care at hedges with thorns, nettles and brambles; wear gloves when handling soil; wash hands afterwards; avoid trampling the quadrat sites before they are sampled.",
+        "Diagram: a belt transect running from a hedge into open grassland with quadrats every 2 m and a light meter at one quadrat, with distances labelled."
+      ]
+    },
+    {
+      "h": "Quantitative investigation: results, conclusion and errors",
+      "points": [
+        "Sample data: distance 0 m: light 800 lux, 0 daisies; 2 m: 2500 lux, 1 daisy; 4 m: 6000 lux, 4 daisies; 6 m: 9500 lux, 9 daisies; 8 m: 12 000 lux, 12 daisies; 10 m: 12 500 lux, 11 daisies.",
+        "Expected result: daisies are absent or few in deep shade close to the hedge, and become more abundant as light intensity increases into the open field.",
+        "Daisies level off once light no longer limits them; other factors, such as space or competition with grass, then limit them.",
+        "The scatter graph shows a positive correlation.",
+        "Conclusion: the results support the hypothesis that daisy abundance increases with light intensity along this transect.",
+        "Because soil water and leaf litter also changed, the result shows a correlation, not proof that light alone is the cause.",
+        "A laboratory experiment growing daisies at different light intensities, with other factors controlled, could test the cause.",
+        "Sources of error: light intensity changes rapidly with cloud cover, so readings at different quadrats may not be comparable (take readings quickly, or use data loggers at several points at once).",
+        "Other sources of error: a single transect may not be representative (use several); counting errors and inconsistent edge rules; misidentification of small daisy rosettes; other factors varying along the transect; the survey is a snapshot of one day and season.",
+        "Primary data are the student’s own counts and measurements. They can be compared with secondary data (e.g. published descriptions of where daisies grow) when drawing conclusions."
+      ]
+    },
+    {
+      "h": "Abiotic factors in other habitats",
+      "points": [
+        "Rocky shore: the main factor is the time spent out of water at low tide (exposure), which rises with height up the shore and brings drying, temperature change and, in rock pools, salinity change.",
+        "This produces zonation, bands of species at different heights. Brown seaweeds (wracks) on Irish shores are zoned from the top down: channelled wrack (highest, survives longest out of water), spiral wrack, bladder wrack and knotted wrack (middle shore), serrated wrack (lower shore), and kelps (at and below the low-tide mark).",
+        "Zonation on a rocky shore is measured with a belt transect from low to high water, with height measured using a ranging pole and level.",
+        "Woodland: light intensity under the canopy (lowest in summer when trees are in leaf), humidity, leaf-litter depth, soil humus and pH are the key factors.",
+        "Many woodland floor plants (e.g. bluebells) grow and flower in spring before the canopy closes.",
+        "Freshwater: dissolved oxygen, temperature, rate of flow and pH are the key factors.",
+        "Fast, cold streams are rich in oxygen and support stonefly and mayfly larvae; still or polluted water low in oxygen supports fewer species."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Abiotic factor", "definition": "A non-living factor of the environment, such as light, temperature, water, soil, wind or slope, that affects organisms." },
+    { "term": "Edaphic factor", "definition": "An abiotic factor of the soil, such as soil temperature, pH, water content, air content or humus content." },
+    { "term": "Topographic factor", "definition": "An abiotic factor set by the shape of the land, such as slope, aspect and altitude." },
+    { "term": "Aspect", "definition": "The compass direction that a slope faces." },
+    { "term": "Slope", "definition": "The angle of the ground, measured in degrees with a clinometer." },
+    { "term": "Clinometer", "definition": "An instrument for measuring the angle of a slope in degrees." },
+    { "term": "Anemometer", "definition": "An instrument for measuring wind speed, in metres per second or km/h." },
+    { "term": "Lux", "definition": "The unit of light intensity measured with a light meter." },
+    { "term": "Hygrometer", "definition": "An instrument for measuring relative humidity as a percentage." },
+    { "term": "Data logger", "definition": "An electronic device connected to probes that records factors such as temperature or light continuously over time." },
+    { "term": "Humus", "definition": "The dark, partly decomposed remains of dead organisms in soil, which holds water and minerals and feeds decomposers." },
+    { "term": "Constant mass", "definition": "The stable mass reached when a sample is heated and reweighed until its mass no longer changes, showing that all the water or humus has gone." },
+    { "term": "Desiccator", "definition": "A sealed container with a drying agent, used to cool samples so that they do not reabsorb water from the air." },
+    { "term": "Barium sulfate", "definition": "A substance added to soil and water to make the clay particles settle, so that the liquid clears for pH testing." },
+    { "term": "Secchi disc", "definition": "A black-and-white disc lowered on a marked rope to measure how far light penetrates water, showing turbidity." },
+    { "term": "Turbidity", "definition": "The cloudiness of water, which lets less light reach water plants when high." },
+    { "term": "Dissolved oxygen", "definition": "The oxygen dissolved in water, which aquatic animals need for respiration; cold water holds more of it." },
+    { "term": "Zonation", "definition": "The arrangement of bands of species at different heights on a shore, caused by differences in exposure at low tide." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the instrument used to measure (i) light intensity, (ii) wind speed and (iii) slope, and give the unit for each.",
+      "model": "(i) Light intensity: measured with a light meter (lux meter), in lux. (ii) Wind speed: measured with an anemometer, in metres per second (m/s) or km/h. (iii) Slope: measured with a clinometer, in degrees."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how you would find the percentage water content of a soil sample. A 40.0 g sample had a mass of 31.0 g after drying to constant mass. Calculate its percentage water content.",
+      "model": "Weigh an empty evaporating dish, add the soil sample and weigh again to find its fresh mass. Heat it in an oven at about 100–105 °C for 24 hours, cool it in a desiccator so that it does not reabsorb water, and reweigh. Repeat the heating, cooling and weighing until the mass stays the same (constant mass). Percentage water = (fresh mass − dry mass) ÷ fresh mass × 100. Here: (40.0 − 31.0) ÷ 40.0 × 100 = 9.0 ÷ 40.0 × 100 = 22.5%."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would investigate quantitatively the effect of one named abiotic factor on the distribution and abundance of a named plant in a grassland. Include the variables, a limitation, and the conclusion you would expect.",
+      "model": "Example: light intensity and the daisy. Hypothesis: the number of daisies per quadrat increases as light intensity increases. Independent variable: light intensity, measured with a light meter in lux. Dependent variable: the number of daisies per quadrat. Controlled variables: quadrat size, the interval between quadrats, the counting rule, the height and direction of the sensor, the time of day and the weather. Lay a belt transect from a hedge into the open field, place a gridded quadrat every 2 m, count the daisies in each quadrat, take three light readings at ground level in quick succession and record the mean, and repeat the transect at least twice more. Plot the number of daisies against light intensity on a scatter graph. Limitation: other factors, such as soil water content, leaf litter and competition, also change along the transect, so the result shows a correlation, not proof that light alone is the cause. Expected conclusion: the number of daisies increases as light intensity increases, a positive correlation."
+    }
+  ]
+}

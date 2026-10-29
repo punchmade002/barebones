@@ -1,0 +1,163 @@
+{
+  "loId": "bio31-s3",
+  "chapterId": "bio31",
+  "subsection": "Investigation: human activity and species diversity",
+  "syllabusRef": "3.1.3",
+  "notes": [
+    {
+      "h": "What the outcome asks",
+      "points": [
+        "Human activities that affect species diversity include trampling, grazing and mowing, ploughing and reseeding, fertiliser and pesticide use, pollution of water and air, drainage, building, forestry, and the introduction of invasive species.",
+        "Most of these reduce diversity by removing habitat or favouring a few tolerant species. Some, such as light grazing, or cutting a meadow once a year late in summer, can keep diversity high by stopping a few vigorous species taking over.",
+        "Primary data are collected by the student in the field. Secondary data come from someone else, e.g. EPA water-quality reports or a published bird survey (see “Recognising bias and evaluating sources”).",
+        "To evaluate data means to judge what the data show, how reliable and valid they are, and what conclusions they can and cannot support.",
+        "The measures of species diversity used here are species richness (the number of species in a sample), the abundance of each species (the number of individuals, or the percentage cover for plants), and, at Higher Level, the Simpson's Diversity Index, which combines richness and evenness (see “Simpson's Diversity Index”)."
+      ]
+    },
+    {
+      "h": "Investigation A: planning (trampling and grassland plant diversity)",
+      "points": [
+        "Aim: to investigate the effect of trampling on the species diversity of plants in a grassland.",
+        "Hypothesis: grassland on a heavily trampled path has fewer plant species than nearby untrampled grassland. The null hypothesis is that there is no difference.",
+        "Independent variable: the amount of trampling, either on the path compared with away from it, or the distance from the centre of the path. Dependent variables: the number of plant species per quadrat, and the percentage cover or number of each species.",
+        "Controlled variables: the quadrat size (e.g. 0.5 m × 0.5 m), the number of quadrats in each area, the same field (so the same soil type, aspect, slope and management), the same day and observer, and the same identification key.",
+        "Control: the untrampled grassland beside the path serves as the comparison area, showing the diversity without trampling. The two areas must be alike except for trampling.",
+        "Equipment: a quadrat (a square frame, e.g. 0.5 m × 0.5 m, often divided into 100 small squares to estimate percentage cover), two measuring tapes, a random-number table or app, an identification key or chart for grassland plants, a recording sheet and a pencil.",
+        "Optional equipment: a soil-compaction measure, e.g. how far a metal rod or pencil pushes into the soil under the same force, and a soil thermometer."
+      ]
+    },
+    {
+      "h": "Investigation A: method (trampling and grassland plant diversity)",
+      "points": [
+        "1. Choose a grassland with a well-used path and similar untrampled grass beside it.",
+        "2. In each area, lay two tapes at right angles as axes, and use random numbers as coordinates to place each quadrat, so that the sample is not biased by choosing interesting spots. Random sampling is detailed in “Surveys”.",
+        "3. Place at least 10 quadrats in each area.",
+        "4. In each quadrat, identify every plant species with the key and record the number of species. Estimate the percentage cover of each species, or count individuals, e.g. daisy and plantain rosettes.",
+        "5. Optionally, measure soil compaction at each quadrat.",
+        "6. Calculate the mean number of species per quadrat for each area, and the mean percentage cover of each species.",
+        "7. Repeat on another day, or combine class results, to check repeatability.",
+        "Alternative design: a line or belt transect running at right angles across the path, sampling a quadrat every metre, shows how diversity changes with distance from the path centre (transects are covered in “Surveys”)."
+      ]
+    },
+    {
+      "h": "Investigation A: safety and ethics",
+      "points": [
+        "Safety: wash hands after fieldwork; wear suitable clothing and footwear; watch for traffic, livestock, electric fences and stinging nettles; get the landowner's permission; and work in pairs.",
+        "Ethics: do not uproot plants (identify them in place), and leave the site as you found it."
+      ]
+    },
+    {
+      "h": "Investigation A: results and conclusion",
+      "points": [
+        "Sample data (invented for practice): number of plant species in each of 10 quadrats. Untrampled grassland: 7, 8, 6, 9, 7, 6, 8, 7, 8, 6 (total 72, mean 7.2, range 6–9). Path: 3, 2, 2, 4, 3, 1, 3, 2, 3, 2 (total 25, mean 2.5, range 1–4).",
+        "Present the results as a bar chart of the mean species per quadrat for the two areas. The independent variable is categoric, so a bar chart is used (see “Producing and analysing data”).",
+        "Diagram: bar chart of mean species per quadrat, path vs untrampled, with labelled axes.",
+        "Expected pattern: fewer species on the path. The path is dominated by a few trampling-tolerant plants.",
+        "Greater plantain and daisy form low, flat rosettes of leaves pressed to the ground, which are not crushed or broken. Perennial ryegrass has tough, flexible leaves and grows from the base. Taller, more delicate plants are found only away from the path, and bare soil is more common on the path.",
+        "Explanation: trampling crushes and breaks shoots and kills seedlings. It compacts the soil, squeezing out air spaces, so roots get less oxygen and water drains poorly or runs off. Only species adapted to these conditions survive, so richness and evenness fall.",
+        "Conclusion: the results support the hypothesis. The mean number of species was much lower on the path (2.5) than in untrampled grassland (7.2), and the ranges do not overlap, so the difference is unlikely to be due to chance. The link between trampling and lower diversity is likely to be causal, because the areas were otherwise alike."
+      ]
+    },
+    {
+      "h": "Investigation B: planning (organic pollution and river invertebrates)",
+      "points": [
+        "Aim: to compare the diversity of freshwater invertebrates upstream and downstream of a source of organic pollution, e.g. a sewage-treatment outfall or a farm drain.",
+        "Independent variable: site (upstream or downstream). Dependent variables: the number of invertebrate groups, and the presence and number of indicator species.",
+        "Controlled variables: the same stream, similar depth, flow rate and stony bed at both sites, the same sampling time (e.g. 1 minute of kick-sampling), the same net, and the same day."
+      ]
+    },
+    {
+      "h": "Investigation B: method and safety",
+      "points": [
+        "1. Sample upstream first, so that you do not carry disturbed material downstream.",
+        "2. At each site, hold a net on the river bed facing upstream and kick the stones for a fixed time, so that dislodged animals flow into the net. Kick-sampling is detailed in “Collection and identification”.",
+        "3. Empty the net into a white tray of river water.",
+        "4. Identify and count the animals with a key.",
+        "5. Measure dissolved oxygen and water temperature at each site.",
+        "6. Repeat three times at each site.",
+        "7. Return the animals to the river.",
+        "Safety: never work alone; wear waders or wellingtons and stay in shallow water; avoid fast or deep water; cover cuts and wash hands, because of the risk of infections such as Weil's disease, which is spread in rat urine; and do no fieldwork in flood."
+      ]
+    },
+    {
+      "h": "Investigation B: indicator species and expected results",
+      "points": [
+        "Indicator species are organisms whose presence, absence or abundance shows the condition of the environment.",
+        "Clean, well-oxygenated water: stonefly nymphs and many mayfly nymphs, which are pollution-sensitive.",
+        "Moderately polluted water: freshwater shrimps, caddis fly larvae and water lice (water hoglouse).",
+        "Badly polluted, low-oxygen water: bloodworms (red midge larvae), sludge worms (Tubifex) and rat-tailed maggots, which are pollution-tolerant.",
+        "Expected results: upstream, many groups are present, including stonefly and mayfly nymphs. Downstream there are fewer groups, dominated by large numbers of tolerant species such as sludge worms and bloodworms.",
+        "Explanation: decomposing organic matter is broken down by bacteria, whose aerobic respiration uses up dissolved oxygen. Sensitive species die or leave, and tolerant ones, with less competition and plenty of food, become very numerous. Diversity falls even though the total number of animals may rise."
+      ]
+    },
+    {
+      "h": "Linking primary data to EPA secondary data",
+      "points": [
+        "The Environmental Protection Agency (EPA) rates Irish rivers with a biotic index called the Q-value, from Q5 (high quality, unpolluted) to Q1 (bad quality, seriously polluted). It is based mainly on the proportions of pollution-sensitive and pollution-tolerant invertebrates.",
+        "Students can compare their primary data with the EPA Q-values published for the same river."
+      ]
+    },
+    {
+      "h": "Evaluating reliability and validity",
+      "points": [
+        "Reliability: was the sample large enough (number of quadrats or kick samples)? Were the results repeatable on repeated sampling? Do class results agree (reproducibility)? A wide range or an anomalous quadrat reduces confidence (see “Objectivity and data quality”).",
+        "Validity: was only the independent variable different between the sites? Confounding variables could explain the difference instead. The path might also be drier, more shaded or on a slope, and the downstream site might also be deeper or slower, or have a different bed. Measuring abiotic factors at each site helps to rule these out.",
+        "Sampling: random placement avoids bias; the quadrat size must suit the plants; and sampling at one time of year misses seasonal species.",
+        "Identification errors: similar species, such as grasses or young invertebrates, may be misidentified, so richness may be under- or over-counted. Percentage cover estimates are subjective."
+      ]
+    },
+    {
+      "h": "Correlation, secondary data and improvements",
+      "points": [
+        "Correlation and causation: a field comparison shows an association. It supports a cause only if the sites are otherwise alike and a mechanism explains it, e.g. soil compaction or oxygen depletion (see “Producing and analysing data”).",
+        "Secondary data, e.g. bird surveys, EPA reports or news articles: check who collected them and why, the sample size and methods, whether the same method was used every year so that trends are comparable, whether raw data are available, and whether the source might be biased (see “Recognising bias and evaluating sources”).",
+        "Improvements: more quadrats or samples; several paths or streams; measuring abiotic factors at each sample point; sampling in different seasons; and using the Simpson's Diversity Index to include evenness (Higher Level)."
+      ]
+    },
+    {
+      "h": "Data skills: worked example with sample data",
+      "points": [
+        "Worked example (sample data, invented for practice): kick samples from an upstream and a downstream site.",
+        "Upstream: stonefly nymphs 6, mayfly nymphs 14, caddis fly larvae 5, freshwater shrimps 9, sludge worms 0. This gives 4 groups present and 34 animals.",
+        "Downstream: stonefly nymphs 0, mayfly nymphs 0, caddis fly larvae 1, freshwater shrimps 2, sludge worms 41. This gives 3 groups present and 44 animals.",
+        "Interpretation: downstream has more animals but fewer groups, and it is dominated by one tolerant group, so diversity is lower. The loss of stonefly and mayfly nymphs indicates low oxygen.",
+        "Calculate percentages to compare the samples: sludge worms are 41/44 = 93% of the downstream sample."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Primary data", "definition": "Data collected first-hand by the student in the field." },
+    { "term": "Secondary data", "definition": "Data collected by someone else, such as EPA water-quality reports or a published bird survey." },
+    { "term": "Species abundance", "definition": "The number of individuals of each species in a sample, or the percentage cover for plants." },
+    { "term": "Quadrat", "definition": "A square frame placed on the ground to sample the plants or animals within it." },
+    { "term": "Random sampling", "definition": "Placing samples at random coordinates so that the sample is not biased by the investigator's choice of spots." },
+    { "term": "Null hypothesis", "definition": "The statement that there is no difference between the things being compared." },
+    { "term": "Independent variable", "definition": "The factor the investigator changes on purpose, such as the amount of trampling or the site." },
+    { "term": "Dependent variable", "definition": "The factor measured to see the effect of the independent variable, such as the number of species per quadrat." },
+    { "term": "Controlled variable", "definition": "A factor kept the same in every part of the investigation so that it does not affect the results." },
+    { "term": "Kick-sampling", "definition": "Sampling river invertebrates by kicking the stones upstream of a net so that dislodged animals are caught." },
+    { "term": "Indicator species", "definition": "An organism whose presence, absence or abundance shows the condition of the environment." },
+    { "term": "Q-value", "definition": "The EPA biotic index rating Irish rivers from Q5 (high quality) to Q1 (bad quality), based mainly on pollution-sensitive and pollution-tolerant invertebrates." },
+    { "term": "Reliability", "definition": "How far the same results are obtained when the investigation is repeated." },
+    { "term": "Validity", "definition": "How far the investigation measures what it is meant to measure, with only the independent variable changed." },
+    { "term": "Confounding variable", "definition": "A second factor that differs between the sites and could explain the results instead of the independent variable." },
+    { "term": "Simpson's Diversity Index", "definition": "A Higher Level only index that combines richness and evenness into one number between 0 and 1." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is an indicator species? Name one species that indicates clean water and one that indicates organic pollution.",
+      "model": "An indicator species is an organism whose presence, absence or abundance shows the condition of the environment. A stonefly nymph or a mayfly nymph indicates clean, well-oxygenated water, because it is pollution-sensitive. A sludge worm, a bloodworm or a rat-tailed maggot indicates organic pollution, because it is tolerant of the low-oxygen water that results from decomposing organic matter."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would investigate the effect of trampling on plant species diversity in a grassland. Include the variables, a control and how you would ensure your results are reliable.",
+      "model": "Aim: to investigate the effect of trampling on plant species diversity in a grassland. The hypothesis is that grassland on a heavily trampled path has fewer plant species than nearby untrampled grassland. The independent variable is the amount of trampling, on the path compared with away from it. The dependent variables are the number of plant species per quadrat and the percentage cover of each species. The controlled variables include the quadrat size, the number of quadrats, the same field with the same soil, slope and management, the same day and observer, and the same identification key. The control is the untrampled grassland beside the path, which shows the diversity without trampling. Place at least 10 quadrats in each area using random numbers as coordinates, so the sample is not biased. In each quadrat, identify every plant species with a key, record the number of species, and estimate the percentage cover of each. Calculate the mean number of species per quadrat for each area. To ensure reliability, use enough quadrats, repeat the investigation on another day or combine class results to check repeatability, and note any anomalous quadrats. Measure abiotic factors such as soil compaction at each quadrat so that confounding variables can be ruled out."
+    },
+    {
+      "marks": 9,
+      "prompt": "Sample data (invented for practice): number of plant species in each of 10 quadrats. Untrampled grassland: 7, 8, 6, 9, 7, 6, 8, 7, 8, 6. Path: 3, 2, 2, 4, 3, 1, 3, 2, 3, 2. (i) Calculate the mean number of species per quadrat in each area. (ii) Explain the difference. (iii) Suggest one factor other than trampling that could explain it.",
+      "model": "(i) Untrampled grassland: the total is 72, so the mean is 72 / 10 = 7.2 species per quadrat. Path: the total is 25, so the mean is 25 / 10 = 2.5 species per quadrat. (ii) Trampling crushes and breaks shoots and kills seedlings, and it compacts the soil, squeezing out air spaces, so roots get less oxygen and water drains poorly. Only species adapted to these conditions survive, mainly trampling-tolerant plants such as greater plantain, daisy and perennial ryegrass, so the path has fewer species. (iii) A confounding variable such as soil moisture, shade or slope could explain the difference instead, because the path may be drier, more shaded or on a slope than the untrampled grassland."
+    }
+  ]
+}
