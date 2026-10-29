@@ -467,6 +467,7 @@ let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
 let studyIndex = 0;
 let showAnswer = false;
 let viewMode = 'chapter';
+let phoneHome = true; // phones open on the subject list; see "Phone navigation"
 const mathsSolutionStore = new Map();
 
 // Test state. Declared up here because renderAll() runs before the Test section below.
@@ -576,14 +577,17 @@ function bindEvents() {
   els.testScreen.addEventListener("input", handleTestScreenInput);
   document.addEventListener("keydown", handleTestKeyboard);
   els.openFullNotes.addEventListener("click", openFullNotes);
-  els.closeFullNotes.addEventListener("click", closeFullNotes);
+  els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
   els.openProgress.addEventListener("click", openProgress);
   document.addEventListener("click", (event) => {
     if (!expandedSubjectId || !isCompactLayout() || event.target.closest(".graph-subject")) return;
     expandedSubjectId = "";
     renderGraph();
   });
-  els.closeProgress.addEventListener("click", closeProgress);
+  els.closeProgress.addEventListener("click", () => leavePhoneScreen("progress", closeProgress));
+  // A reload starts again from the subject list, so drop any phone screen entry it restored
+  if (history.state?.bbScreen) history.replaceState(null, "", location.href);
+  window.addEventListener("popstate", handlePhonePopState);
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
     const openMathsPanel = document.querySelector(".maths-explanation-panel.is-open");
@@ -592,9 +596,9 @@ function bindEvents() {
     } else if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
       closeExamBreakdown();
     } else if (!els.fullNotesScreen.classList.contains("hidden")) {
-      closeFullNotes();
+      leavePhoneScreen("notes", closeFullNotes);
     } else if (!els.progressScreen.classList.contains("hidden")) {
-      closeProgress();
+      leavePhoneScreen("progress", closeProgress);
     }
   });
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchTab(tab.dataset.tab)));
@@ -1373,6 +1377,8 @@ function renderAll() {
   if (els.examTab?.classList.contains("active")) renderExamSection();
   const timerWidget = document.getElementById("timerWidget");
   if (timerWidget) timerWidget.classList.toggle("hidden", !getCurrentUser());
+  // responsive.css shows only this screen on phones
+  els.subjectArea.dataset.screen = phoneScreen();
 }
 
 function getEnabledSubjectIds(user) {
@@ -1519,6 +1525,58 @@ function computeUserProgress(user) {
 }
 
 
+// ── Phone navigation ─────────────────────────────
+// Phones show one screen at a time: subjects (and Progress), then chapters, then study.
+// Each step down is a history entry, so the back gesture steps up a level
+// instead of leaving the app.
+function isPhoneLayout() {
+  return window.matchMedia("(max-width: 640px)").matches;
+}
+
+function phoneScreen() {
+  if (phoneHome) return "home";
+  return viewMode === "subject-overview" ? "subject" : "chapter";
+}
+
+function pushPhoneScreen(screen) {
+  if (!isPhoneLayout() || history.state?.bbScreen === screen) return;
+  history.pushState({ bbScreen: screen }, "", location.href);
+}
+
+// A screen that was pushed is left through history, so its entry doesn't linger
+function leavePhoneScreen(screen, close) {
+  if (history.state?.bbScreen === screen) history.back();
+  else close();
+}
+
+function navigateUp() {
+  if (isPhoneLayout() && history.state?.bbScreen) {
+    history.back();
+    return;
+  }
+  if (viewMode === "chapter") viewMode = "subject-overview";
+  else phoneHome = true;
+  renderAll();
+}
+
+function handlePhonePopState(event) {
+  if (!isPhoneLayout()) return;
+  // A running test sits on top of everything; keep the screen under it and restore the entry
+  if (document.body.classList.contains("test-open")) {
+    if (phoneScreen() !== "home") history.pushState({ bbScreen: phoneScreen() }, "", location.href);
+    return;
+  }
+  const screen = event.state?.bbScreen || "home";
+  if (screen !== "notes" && !els.fullNotesScreen.classList.contains("hidden")) closeFullNotes();
+  if (screen !== "progress" && !els.progressScreen.classList.contains("hidden")) closeProgress();
+  if (screen === "home") phoneHome = true;
+  if (screen === "subject" || screen === "chapter") {
+    phoneHome = false;
+    viewMode = screen === "subject" ? "subject-overview" : "chapter";
+  }
+  renderAll();
+}
+
 function isCompactLayout() {
   return window.matchMedia("(max-width: 980px)").matches;
 }
@@ -1544,9 +1602,12 @@ function renderGraph() {
       <div class="graph-chapters ${expanded ? "" : "hidden"}" aria-label="${escapeHtml(subject.title)} chapters"></div>
     `;
     const openSubject = () => {
-      expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
+      // Phones show the chapter list as its own screen rather than the overlay sheet
+      expandedSubjectId = isPhoneLayout() || expandedSubjectId === subject.id ? "" : subject.id;
       selectedSubjectId = subject.id;
       viewMode = 'subject-overview';
+      phoneHome = false;
+      pushPhoneScreen("subject");
       renderAll();
     };
     block.querySelector(".graph-subject-name").addEventListener("click", openSubject);
@@ -1594,7 +1655,7 @@ function renderStudyContext() {
   }
 
   els.studyContext.innerHTML = `
-    <span>${escapeHtml(subject.title)}</span>
+    <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to ${escapeHtml(subject.title)} chapters">${escapeHtml(subject.title)}</button>
     <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
   `;
 }
@@ -1628,7 +1689,12 @@ function renderSubjectOverview() {
       </button>`;
   }).join('');
 
+  const hasBreakdown = !!window.EXAM_BREAKDOWN?.[ss.subject.id];
   overviewEl.innerHTML = `
+    <div class="overview-nav">
+      <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to subjects">Subjects</button>
+      ${hasBreakdown ? `<button class="overview-paper-guide" type="button" onclick="openExamBreakdown('${escapeHtml(ss.subject.id)}')">Paper guide</button>` : ""}
+    </div>
     <div class="overview-header">
       <div class="overview-header-text">
         <h3>${escapeHtml(ss.subject.title)}</h3>
@@ -1652,6 +1718,9 @@ function selectChapterFromOverview(chapterId) {
   studyIndex = 0;
   showAnswer = false;
   viewMode = 'chapter';
+  // On phones a chapter opens on its flashcards (Maths has none; renderTabVisibility moves it to Exam)
+  if (isPhoneLayout()) switchTab("flashcards");
+  pushPhoneScreen("chapter");
   renderAll();
 }
 
@@ -3501,6 +3570,7 @@ function openFullNotes() {
   els.fullNotesScreen.classList.remove("hidden");
   els.fullNotesScreen.scrollTop = 0;
   document.body.style.overflow = "hidden";
+  pushPhoneScreen("notes");
   markNotesViewed(chapter.id);
 }
 
@@ -3692,6 +3762,7 @@ function openProgress() {
   renderProgressOverview();
   els.progressScreen.classList.remove("hidden");
   document.body.style.overflow = "hidden";
+  pushPhoneScreen("progress");
 }
 
 function closeProgress() {
