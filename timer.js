@@ -200,10 +200,23 @@
     }, 250);
   }
 
-  clockBtn.addEventListener('mouseenter', openPicker);
-  clockBtn.addEventListener('mouseleave', schedulClose);
-  pickerEl.addEventListener('mouseenter', openPicker);
-  pickerEl.addEventListener('mouseleave', schedulClose);
+  // Touch screens have no hover (taps fire fake mouseenter), so a tap toggles the menu instead
+  var noHover = window.matchMedia('(hover: none)');
+  function onHover(fn) {
+    return function () { if (!noHover.matches) fn(); };
+  }
+
+  clockBtn.addEventListener('mouseenter', onHover(openPicker));
+  clockBtn.addEventListener('mouseleave', onHover(schedulClose));
+  pickerEl.addEventListener('mouseenter', onHover(openPicker));
+  pickerEl.addEventListener('mouseleave', onHover(schedulClose));
+
+  clockBtn.addEventListener('click', function () {
+    if (noHover.matches) pickerEl.classList.toggle('picker-open');
+  });
+  document.addEventListener('click', function (e) {
+    if (noHover.matches && !e.target.closest('#timerWidget')) pickerEl.classList.remove('picker-open');
+  });
 
   // ── Preset time buttons ──
   document.querySelectorAll('.timer-opt[data-minutes]').forEach(function (btn) {

@@ -103,9 +103,10 @@ for (const config of [
   });
 }
 
-test("the Test tab scopes multi-outcome chapters to the selected outcome", () => {
+test("the Test tab keeps authored questions on their own outcome in multi-outcome chapters", () => {
   const appSource = fs.readFileSync(path.join(root, "app.js"), "utf8");
-  assert.match(appSource, /questionsForChapter\(chapter, outcome\)/);
-  assert.match(appSource, /const matchingOutcome = source\.learningOutcomes\.find/);
-  assert.match(appSource, /const outcomesToTest = matchingOutcome \? \[matchingOutcome\] : source\.learningOutcomes/);
+  // Multi-outcome subjects such as Chemistry expose source outcome IDs with a
+  // display-only "-core" suffix; merged single-outcome chapters fall back to the one outcome.
+  assert.match(appSource, /function authoredQuestionsForChapter\(chapter\)/);
+  assert.match(appSource, /outcomeIds\.has\(`\$\{lo\.id\}-core`\) \? `\$\{lo\.id\}-core` : fallbackId/);
 });
