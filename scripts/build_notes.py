@@ -30,7 +30,7 @@ BANNED_PHRASES = (
     "question focus:",
     "model content:",
 )
-MARKDOWN = re.compile(r"\*\*|__|^#|\n|`|\$")  # the app renders $...$ as KaTeX maths
+MARKDOWN = re.compile(r"\*\*|__|^#|\n|`|\$(?!\d)|\$.*\$")  # the app renders $...$ as KaTeX maths; a lone $2.15 is fine
 # Internal ids (chapter and outcome ids) mean nothing to students; refer to notes by name.
 INTERNAL_IDS: set[str] = set()
 # Ids look like geo-rivers-s2 or bio19-s2, so a token may contain digits before its first hyphen.
