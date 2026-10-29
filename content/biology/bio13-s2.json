@@ -1,0 +1,96 @@
+{
+  "loId": "bio13-s2",
+  "chapterId": "bio13",
+  "subsection": "Enzyme structure and specificity",
+  "syllabusRef": "2.1.2",
+  "notes": [
+    {
+      "h": "How 3D structure creates the active site (Higher Level only)",
+      "points": [
+        "An enzyme's three-dimensional shape is set by the sequence of amino acids in its polypeptide chain (its primary structure), which is set by its gene.",
+        "The chain coils and folds (secondary structure), then folds further into a precise globular shape (tertiary structure); some enzymes are made of more than one polypeptide (quaternary structure).",
+        "The active site is formed by folding: it is made of a small number of amino acids, often far apart in the chain, that folding brings together into a pocket or cleft.",
+        "Most of the rest of the enzyme holds these amino acids in exactly the right positions.",
+        "The R groups (side groups) of the active-site amino acids give the site its shape and its pattern of charges and of water-attracting and water-repelling regions.",
+        "The R groups bind the substrate by weak attractions (hydrogen bonds and ionic attractions between opposite charges), and some take part directly in the reaction.",
+        "Specificity depends on two things: the shape of the active site (only a substrate of complementary shape fits) and its chemistry (only a substrate with matching charges and groups is held in the right position).",
+        "A molecule of similar shape but with the wrong charges is not catalysed.",
+        "The shape is held by hydrogen bonds, by ionic bonds between charged R groups, and by attractions between water-repelling R groups; these are weak bonds.",
+        "Disulfide (sulfur) bridges between cysteine units are strong covalent bonds that also hold the shape.",
+        "Because most of these bonds are weak, the shape is easily changed.",
+        "Diagram: a folded polypeptide chain drawn as a looping ribbon, with three or four amino acids (circles) from distant parts of the chain meeting to form a labelled active site; label polypeptide chain, R groups of active-site amino acids, active site, a hydrogen bond and a disulfide bridge."
+      ]
+    },
+    {
+      "h": "Why 3D structure matters for activity (Higher Level only)",
+      "points": [
+        "Activity depends on the active site keeping its shape.",
+        "Heat makes the enzyme molecule vibrate until weak bonds break; a change in pH changes the charges on R groups (by adding or removing hydrogen ions), breaking ionic and hydrogen bonds.",
+        "Either way the active site loses its shape, the substrate no longer fits, and the enzyme is denatured.",
+        "The effects on rate, and the investigations, are in “Investigation: rate of enzyme activity”.",
+        "A change in a single amino acid can change the shape or charge of the active site, so a mutation in the gene can make an enzyme work less well or not at all.",
+        "Example: in phenylketonuria the enzyme that converts phenylalanine is faulty (see “Enzymes as catalysts” and “Mutations”).",
+        "Some enzymes need a cofactor, such as a metal ion, held in or near the active site to complete its shape or chemistry; without it the enzyme is inactive (see “Minerals”).",
+        "Some enzymes act on only one substrate (absolute specificity): e.g. urease acts only on urea, breaking it into ammonia and carbon dioxide.",
+        "Others act on a group of substrates that share the same type of bond (group specificity): e.g. lipase acts on many different triglycerides, and proteases such as pepsin break peptide bonds in many different proteins.",
+        "A rigid lock-and-key active site does not explain the second kind well; the induced-fit model does.",
+        "Enzymes that work in extreme conditions have structures that hold their shape there: e.g. Taq polymerase, from the hot-spring bacterium Thermus aquaticus, stays active at temperatures that denature human enzymes (its use is in “Generating a DNA profile”).",
+        "Pepsin keeps its shape in the strong acid of the stomach, where most enzymes are denatured."
+      ]
+    },
+    {
+      "h": "The induced-fit model (Higher Level only)",
+      "points": [
+        "The induced-fit model says the active site is flexible, not rigid.",
+        "Before binding, the active site's shape is close to, but not exactly, complementary to the substrate; binding of the substrate induces (causes) a change in the enzyme's shape that produces a close fit.",
+        "Step 1: the substrate collides with the enzyme and starts to bind to the active site through weak attractions to its R groups.",
+        "Step 2: binding causes the enzyme to change shape: the active site moulds itself around the substrate, like a glove taking the shape of a hand, forming a tightly fitting enzyme–substrate complex.",
+        "Step 3: the change in shape puts strain on particular bonds in the substrate, or brings reacting groups of two substrates close together in the correct orientation.",
+        "The R groups of the active site may lend or take hydrogen ions or electrons, which lowers the activation energy, and the substrate is converted to products.",
+        "Step 4: the products no longer fit the active site closely and are released.",
+        "Step 5: the enzyme returns to its original shape, unchanged and ready to bind another substrate molecule.",
+        "Example: the enzyme hexokinase (used in the first stage of respiration) closes around its substrate glucose like a clamp when glucose binds; structural studies of enzymes showed this change of shape.",
+        "Induced fit explains observations that lock and key cannot. (a) Why some enzymes act on several similar substrates: a flexible site can mould around each.",
+        "(b) How binding itself helps catalysis: the shape change strains the substrate's bonds, lowering the activation energy.",
+        "(c) Why molecules of similar shape may bind but not react: they do not induce the correct change of shape.",
+        "Lock and key remains a useful simple model of specificity.",
+        "Diagram: induced fit in four labelled stages: (1) an enzyme whose active site does not quite match the approaching substrate; (2) substrate binding and the active site changing shape around it, forming the enzyme–substrate complex, with arrows showing the change; (3) products formed in the active site; (4) products released and the enzyme back in its original shape. Label enzyme, active site, substrate, change in shape, enzyme–substrate complex and products. For contrast, include a one-line sketch of lock and key, with a rigid active site that already fits the substrate exactly."
+      ]
+    },
+    {
+      "h": "Comparison: lock and key and induced fit (Higher Level only)",
+      "points": [
+        "Active site: rigid, with a fixed shape that exactly matches the substrate (lock and key); flexible, changing shape when the substrate binds (induced fit).",
+        "Fit: an exact fit before binding (lock and key); a close fit only after binding (induced fit).",
+        "Role of binding: holds the substrate only (lock and key); the change of shape itself helps the reaction by straining bonds (induced fit).",
+        "Specificity explained: absolute specificity only (lock and key); both absolute and group specificity (induced fit)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Induced-fit model", "definition": "The model in which a flexible active site changes shape as the substrate binds, forming a tightly fitting enzyme–substrate complex." },
+    { "term": "R group", "definition": "The side group of an amino acid, which gives the active site its shape and pattern of charges." },
+    { "term": "Disulfide bridge", "definition": "A strong covalent bond between two cysteine units that helps hold an enzyme's shape." },
+    { "term": "Cofactor", "definition": "A metal ion or other helper held in or near the active site, which the enzyme needs in order to be active." },
+    { "term": "Absolute specificity", "definition": "The property of an enzyme that acts on only one substrate, e.g. urease acting on urea." },
+    { "term": "Group specificity", "definition": "The property of an enzyme that acts on a group of substrates sharing the same type of bond, e.g. lipase acting on triglycerides." },
+    { "term": "Tertiary structure", "definition": "The precise globular shape that a polypeptide chain forms when it folds further." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why the three-dimensional structure of an enzyme is important for its specificity.",
+      "model": "Folding brings a small number of amino acids, often far apart in the polypeptide chain, together to form the active site, a pocket or cleft. The R groups of these amino acids give the active site a complementary shape and a pattern of charges, so only a substrate of matching shape and chemistry fits and is held in the right position. A molecule of similar shape but with the wrong charges is not catalysed."
+    },
+    {
+      "marks": 12,
+      "prompt": "Illustrate the induced-fit model of enzyme action with a labelled diagram, and explain each stage.",
+      "model": "The labelled diagram shows four stages. In stage 1 the enzyme's flexible active site is close to, but not exactly matching, the approaching substrate. In stage 2 the substrate binds through weak attractions and the active site changes shape around it, moulding like a glove around a hand, to form a tightly fitting enzyme–substrate complex; arrows show the change of shape. In stage 3 the change in shape strains bonds in the substrate, or brings reacting groups together in the correct orientation, and the R groups may lend or take hydrogen ions or electrons; this lowers the activation energy and the substrate is converted to products. In stage 4 the products no longer fit closely and are released, and the enzyme returns to its original shape, unchanged and ready to bind another substrate molecule. The change of shape is temporary and reversible; it is not denaturation."
+    },
+    {
+      "marks": 9,
+      "prompt": "Distinguish between the lock-and-key and induced-fit models, and give one observation that the induced-fit model explains better.",
+      "model": "In the lock-and-key model the active site is rigid, with a fixed shape that exactly matches the substrate before binding, and binding does not change the enzyme. In the induced-fit model the active site is flexible and gives a close fit only after binding; the change of shape itself helps the reaction by straining bonds. Induced fit explains why some enzymes act on several similar substrates, because a flexible site can mould around each of them; lock and key does not explain this well."
+    }
+  ]
+}

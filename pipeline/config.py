@@ -143,8 +143,11 @@ SYLLABUS_CUTOFF = {
     "history":   (2006, True),    # confirmed: documents-based study first examined 2006
     "pe":        (2022, True),    # LCPE is a new exam subject, first examined 2022
     "maths":     (2012, True),    # Project Maths national rollout (phased 2012-2015)
-    "geography": (2006, False),   # estimate — revised syllabus ~2006; verify
-    "biology":   (2004, False),   # estimate — current syllabus ~2004; verify
+    "geography": (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2027
+    # biology: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus, introduced 2002
+    # and first examined 2004 (NCCA); they are pulled as LEGACY practice, not on-course papers.
+    "biology":   (2004, True),    # confirmed: previous syllabus first examined 2004, last examined June 2026
     "chemistry": (2002, False),   # estimate; verify
     "business":  (1999, False),   # estimate; verify
     "english":   (2001, False),   # estimate; verify
@@ -218,7 +221,7 @@ def cutoff_for(subject: str) -> tuple[int, bool]:
     (resources.py caches it); else the SYLLABUS_CUTOFF table; else DEFAULT_CUTOFF (unverified).
 
     A bundle cutoff in the FUTURE is ignored. Bundles increasingly describe a Senior Cycle
-    Redevelopment spec that is published but not yet examined (geography's says
+    Redevelopment spec that is published but not yet examined (e.g. a spec stating
     firstExamYear 2028), and taking it literally makes relevant_years() empty — the run then
     downloads nothing and crashes. Papers only exist for the syllabus being examined today,
     so fall back to the table for those subjects.

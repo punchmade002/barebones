@@ -1,0 +1,110 @@
+{
+  "loId": "bio8-s3",
+  "chapterId": "bio8",
+  "subsection": "Metabolic roles and nutritional sources",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    {
+      "h": "Roles of carbohydrates",
+      "points": [
+        "Respiratory and catabolic role: glucose is the main respiratory substrate. It is broken down in respiration to release energy, which is trapped as ATP (detail in “Respiration” and “Transfer Molecules”). The brain relies mainly on glucose for its energy.",
+        "Photosynthetic role: glucose is the product of photosynthesis, the anabolic process in which plants use light energy to make it (detail in “Photosynthesis”). Almost all the carbohydrate in food chains therefore comes from photosynthesis.",
+        "Anabolic and storage role: excess glucose is built up into storage polysaccharides, starch in plants and glycogen in the liver and muscles of animals (see “Structures of biomolecules”). These are broken down again when glucose is needed.",
+        "Structural role: cellulose forms plant cell walls, and chitin forms fungal cell walls and insect exoskeletons (both described in “Structures of biomolecules”). The pentose sugars ribose and deoxyribose are part of RNA and DNA nucleotides.",
+        "Transport role: plants move sugar from the leaves to other parts as sucrose, in the phloem (see “Structures of biomolecules”).",
+        "Dietary fibre: cellulose passes through the human gut as dietary fibre. It adds bulk to food, which helps peristalsis and prevents constipation (diet detail in “The Digestive System”)."
+      ]
+    },
+    {
+      "h": "Roles of lipids",
+      "points": [
+        "Respiratory and catabolic role: fats are respired to release energy, especially when glucose and glycogen run low.",
+        "A gram of fat releases about twice as much energy as a gram of carbohydrate or protein, so lipid is a compact long-term energy store.",
+        "Storage: excess food is built into triglycerides and stored as fat in adipose tissue, under the skin and around organs in animals. Plants store oils in seeds (e.g. sunflower seeds) and fruits (e.g. olives).",
+        "Insulation: fat under the skin reduces heat loss, as in the thick blubber of whales and seals. The myelin sheath around nerve fibres is rich in lipid and insulates them (detail in “The Nervous System”).",
+        "Protection: fat around organs such as the kidneys and heart cushions them against physical damage.",
+        "Structural role: phospholipids form the bilayer of all cell membranes (see “Structures of biomolecules”), including the membranes inside chloroplasts and mitochondria.",
+        "Photosynthetic role: the light-absorbing pigments of photosynthesis are held in the thylakoid membranes of the chloroplast, which are built of phospholipids. Plants also convert some of the glucose made in photosynthesis into oils.",
+        "Waterproofing: waxes form the waxy cuticle on leaves, reducing water loss, and waterproof feathers and fur.",
+        "Regulators: steroid hormones such as testosterone, oestrogen and progesterone are lipids. Fat-soluble vitamins are covered in “Vitamins”."
+      ]
+    },
+    {
+      "h": "Roles of proteins",
+      "points": [
+        "Enzymes: almost all enzymes are proteins. They are biological catalysts that speed up the reactions of metabolism without being used up, e.g. amylase digests starch to maltose (mechanism in “Enzymes”).",
+        "Hormones: some hormones are proteins, e.g. insulin, made by the pancreas, which lowers blood glucose. Other hormones are lipids (see “Hormones as regulators”).",
+        "Immunity: antibodies are proteins made by lymphocytes (B cells). Each binds to a specific antigen on a pathogen, marking it for destruction (detail in “Immunity”).",
+        "Transport of substances in the body: haemoglobin in red blood cells carries oxygen. Its iron is covered in “Minerals”.",
+        "Movement: actin and myosin are the contractile proteins of muscle (detail in “The Musculoskeletal System”).",
+        "Energy: protein is respired only when carbohydrate and fat are in short supply. Excess amino acids cannot be stored; the liver removes their amino group (deamination), forming urea, which is excreted (detail in “The Digestive System” and “The Urinary System”).",
+        "Growth and repair: proteins are the main raw material for new cells and tissues, so children, pregnant women and people recovering from injury need more."
+      ]
+    },
+    {
+      "h": "Proteins in membranes and molecular mechanisms",
+      "points": [
+        "Membrane proteins are embedded in the phospholipid bilayer. They control what enters and leaves cells and how cells communicate. The specification names four kinds: channel proteins, transporters, structural proteins and receptors.",
+        "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion, e.g. the sodium and potassium channels of neurons, which allow nerve impulses (the ion movement is covered in “Minerals”).",
+        "Transporters (carrier proteins) bind a specific molecule and change shape to move it across the membrane. Some use energy from ATP to move substances against a concentration gradient (active transport), e.g. the sodium–potassium pump (detail in “Transport Across Membranes”).",
+        "Receptors are proteins on the cell surface, or inside the cell, with a shape that fits one signalling molecule such as a hormone or neurotransmitter. When the signal binds, the cell responds, e.g. insulin receptors on liver and muscle cells. This is why a hormone affects only its target cells.",
+        "Structural proteins give strength and support. Collagen also forms ligaments and cartilage, and keratin forms the outer skin.",
+        "Proteins also form the cytoskeleton inside cells.",
+        "Diagram: a section of cell membrane (phospholipid bilayer) with a channel protein, a carrier protein and a receptor protein with its signalling molecule, each labelled."
+      ]
+    },
+    {
+      "h": "Hormones as regulators",
+      "points": [
+        "A hormone is a chemical messenger made by an endocrine gland and carried in the blood to target cells, where it regulates their activity. Hormones regulate growth, development, metabolism and reproduction.",
+        "Hormones are biomolecules from two groups, proteins and steroid lipids, both named in the blocks on proteins and lipids in this note. Glands and named hormones are covered in “The Endocrine System”.",
+        "Plants also make chemical regulators, called plant growth regulators, e.g. auxin."
+      ]
+    },
+    {
+      "h": "Nutritional sources of carbohydrate, lipid and protein",
+      "points": [
+        "Carbohydrate sources, sugars: fruit, honey, jam, sweets and fizzy drinks; lactose in milk.",
+        "Carbohydrate sources, starch: bread, pasta, rice, potatoes and breakfast cereals.",
+        "Carbohydrate sources, fibre (cellulose): vegetables, fruit, wholegrain cereals and brown bread, and beans.",
+        "Lipid sources, fats (mostly saturated): butter, cream, cheese, lard and fatty meat.",
+        "Lipid sources, oils (mostly unsaturated): olive and sunflower oils, nuts and seeds, avocados, and oily fish such as salmon and mackerel.",
+        "Protein sources, animal: meat, fish, eggs, milk, cheese and yoghurt. Protein sources, plant: beans, peas, lentils, nuts, soya and tofu, and cereals.",
+        "Animal proteins contain all the essential amino acids. Many single plant foods lack one or more, so vegetarian and vegan diets combine a range of plant proteins, e.g. beans with cereal."
+      ]
+    },
+    {
+      "h": "Diet, health and sustainability links",
+      "points": [
+        "Diets high in saturated fat are linked to raised blood cholesterol and heart disease. Diets high in free sugars are linked to tooth decay, obesity and type 2 diabetes.",
+        "Producing plant protein generally needs less land and water, and causes lower greenhouse gas emissions, than producing meat. Balanced diet detail is in “The Digestive System”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Respiratory substrate", "definition": "The molecule broken down in respiration to release energy; glucose is the main one." },
+    { "term": "Dietary fibre", "definition": "Cellulose and other plant material that humans cannot digest; it adds bulk to food and helps peristalsis." },
+    { "term": "Channel protein", "definition": "A membrane protein that forms a water-filled pore through which specific ions or molecules pass by diffusion." },
+    { "term": "Transporter", "definition": "A carrier protein that binds one molecule and changes shape to move it across a membrane." },
+    { "term": "Receptor", "definition": "A protein with a shape that fits one signalling molecule, such as a hormone, and triggers a cell response when it binds." },
+    { "term": "Target cell", "definition": "A cell with the matching receptor proteins for a particular hormone, so the hormone acts on it." },
+    { "term": "Essential amino acid", "definition": "An amino acid that humans cannot make and must take in from food." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name one good food source of each of carbohydrate, lipid and protein.",
+      "model": "Carbohydrate: bread, pasta, rice or potatoes, which are rich in starch. Lipid: butter, or an oil such as olive oil or sunflower oil. Protein: meat, fish, eggs, milk or beans."
+    },
+    {
+      "marks": 9,
+      "prompt": "Give three different roles of proteins in the human body, naming a protein for each.",
+      "model": "Enzymes are proteins that act as biological catalysts; amylase, for example, digests starch to maltose. Hormones such as insulin are proteins; insulin is made by the pancreas and lowers blood glucose. Antibodies are proteins made by B lymphocytes that bind specific antigens on pathogens. Haemoglobin, a protein in red blood cells, carries oxygen. Actin and myosin are contractile proteins that make muscle contract."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the roles of channel proteins, transporters and receptors in cell membranes.",
+      "model": "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion, for example the sodium and potassium channels of neurons, which allow nerve impulses. Transporters, or carrier proteins, bind a specific molecule and change shape to move it across the membrane; some use energy from ATP to move substances against a concentration gradient, as the sodium–potassium pump does. Receptors have a shape that fits one signalling molecule, such as a hormone or neurotransmitter; when it binds, the cell responds, for example insulin receptors on liver and muscle cells."
+    }
+  ]
+}

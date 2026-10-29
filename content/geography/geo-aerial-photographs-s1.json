@@ -1,0 +1,360 @@
+{
+  "loId": "geo-aerial-photographs-s1",
+  "chapterId": "geo-aerial-photographs",
+  "subsection": "Aerial photograph interpretation",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "Vertical and oblique photographs",
+      "b": "An aerial photograph is taken from the air. Its type depends on the angle of the camera, and the clues below identify it.",
+      "points": [
+        "A vertical photograph is taken with the camera pointing straight down, so it shows only roofs and the tops of features, with no horizon.",
+        "The scale of a vertical photograph is roughly constant across the picture, so it looks like a map and can be used for measuring and mapping.",
+        "Features are harder to recognise on a vertical photograph because their sides and heights are hidden.",
+        "An oblique photograph is taken with the camera at an angle to the ground, so the sides as well as the roofs of buildings are visible.",
+        "The scale of an oblique photograph is not constant: foreground features look larger than identical features in the background, and the area covered widens towards the background.",
+        "Features are easier to recognise on an oblique photograph, but distance and area cannot be measured directly from it.",
+        "A low oblique photograph does not show the horizon; a high oblique photograph shows the horizon or skyline.",
+        "Oblique clues: the sides of buildings are visible, foreground features look larger than background features, and depth or a horizon is shown.",
+        "Vertical clues: only roofs are visible, the scale looks even, and the picture looks like a map.",
+        "When a reason is asked for, give one of these clues. Photographs set in recent Higher Level papers have been oblique."
+      ]
+    },
+    {
+      "h": "Locating features with the nine-area grid",
+      "b": "A photograph is divided into nine areas, and every feature is located by its zone. The grid applies to oblique photographs; on a vertical photograph use the alternatives below.",
+      "points": [
+        "Three strips run across the picture: left, centre and right.",
+        "Three strips run into the picture: foreground at the bottom, nearest the camera; middleground in the centre; background at the top, furthest from the camera.",
+        "Accepted notation gives one term from each set, across-term first: left foreground, centre middleground, right background. Both parts must be correct to score.",
+        "Use the exam spelling foreground, middleground and background, and use centre, not middle, for the across strip.",
+        "On a vertical photograph foreground and background have no meaning; use top, centre or bottom with left, centre or right, or compass directions if the orientation is known.",
+        "Method: draw the grid lightly on the photo in pencil (or fold the picture into thirds in your head), find the feature, and state its zone.",
+        "The same method answers true or false statements about what lies in a zone, and matches cropped sections of the photo to zones."
+      ]
+    },
+    {
+      "h": "Illustrative photograph: Rivertown",
+      "b": "Rivertown is an invented market town on an invented oblique photograph. Every worked example in these notes uses it and is labelled illustrative.",
+      "points": [
+        "A river flows from the left foreground to the right background.",
+        "A stone bridge crosses the river in the centre middleground.",
+        "A church with a spire stands in the left middleground, with a graveyard beside it.",
+        "A main street and a square lie in the centre middleground.",
+        "An industrial estate lies in the right foreground.",
+        "A housing estate of semi-detached houses lies in the left background.",
+        "Fields with hedgerows lie in the right background.",
+        "A GAA pitch lies in the centre background.",
+        "Waste ground lies in the centre foreground.",
+        "Illustrative true or false: there is waste ground in the centre foreground. This is true."
+      ]
+    },
+    {
+      "h": "Recognising buildings and land",
+      "b": "Each feature has a clue that identifies it on the photograph. Use the clue, then give the feature's zone.",
+      "points": [
+        "Church: a spire or tower, a cross-shaped plan, and a graveyard beside it.",
+        "Graveyard: rows of small headstones.",
+        "School: a large building with a playground, pitches and a car park.",
+        "Shopping centre: a very large flat roof and an extensive car park.",
+        "Factory or warehouse: a large flat or sawtooth roof, with yards and lorries but no gardens.",
+        "Housing estate: rows of similar houses with gardens, often arranged in cul-de-sacs.",
+        "Terraced houses share side walls; semi-detached houses share one wall; detached houses stand alone.",
+        "Apartments: a large multi-storey block with communal parking.",
+        "Car park: marked bays with vehicles in them.",
+        "Sports pitch: a rectangle with lines and goalposts. Running track: an oval with lanes.",
+        "Waste or derelict ground: rough, unused land with no clear use."
+      ]
+    },
+    {
+      "h": "Recognising roads, railways and water",
+      "points": [
+        "Railway: gentle curves, no cars, and crossings of roads by bridges.",
+        "River and lake: smooth, dark water with a natural outline.",
+        "Bridge: a structure carrying a road or railway across water or another route; its parapet is a clue.",
+        "Harbour, pier or quay: boats moored alongside a structure that projects into the water or lines it.",
+        "Roundabout: a circular junction with roads leading off it."
+      ]
+    },
+    {
+      "h": "Matching a second source to the photograph",
+      "b": "A street map, satellite image or street-view images may show the same features A to E in a different orientation.",
+      "points": [
+        "Find two features common to both, such as the river, a bridge, the railway or a large church, and turn the second source mentally until they match.",
+        "Identify each feature by a distinctive clue: a spire, a cruciform roof, pitch markings, a large flat roof beside a car park, a bridge parapet, or shopfronts.",
+        "Give each feature's zone on the photograph in accepted notation."
+      ]
+    },
+    {
+      "h": "Absolute and relative location, and camera direction",
+      "points": [
+        "Absolute location is a grid reference read from the OS map. Relative location is a zone in the nine-area notation, or a position relative to other features, such as beside the bridge, north of the river.",
+        "To give a grid reference for a feature seen on the photograph, find it on the photograph, locate it on the map from its position relative to roads, the river and junctions, then give a four- or six-figure grid reference as taught in the notes on Map interpretation.",
+        "On a 1:50 000 map individual buildings are often not drawn, so locate the feature from the surrounding road pattern; churches are shown by map symbols.",
+        "To name a road or river seen on the photograph, trace it on the photograph, find the same route on the map, and read its number (N, R or M) or its name.",
+        "The direction from a foreground feature to a background feature on the map is the direction the camera was pointing.",
+        "Identify one foreground feature and one background feature on the photograph, find both on the map, and state the direction in an eight-point compass term such as north-east.",
+        "Check the camera direction with a third feature.",
+        "Illustrative: on the map the bridge (centre middleground) lies due south of the pitch (centre background), and the waste ground (centre foreground) lies south of the bridge.",
+        "Illustrative: foreground to background runs south to north, so the camera was pointing north."
+      ]
+    },
+    {
+      "h": "Comparing the photograph with the map",
+      "points": [
+        "The photograph shows what the map does not: individual buildings, land-use type, crops and field use, building height and age, car parks, traffic, temporary features and recent developments.",
+        "The map shows what the photograph does not: names, road numbers, height and contours, the grid, labelled antiquities, boundaries, and features hidden by trees or lying beyond the frame.",
+        "The map covers the whole area at a constant scale; an oblique photograph gives a partial view with changing scale.",
+        "The photograph and map were usually made on different dates, so differences between them can reveal change."
+      ]
+    },
+    {
+      "h": "Scale on photographs",
+      "points": [
+        "An oblique photograph has no single scale, so measure distances on the map instead.",
+        "The scale of a vertical photograph is found by comparing a distance on the photograph with the real ground distance, which is read from the map. The map-scale method is taught in the notes on Map interpretation.",
+        "Illustrative: two road junctions are 5 cm apart on a vertical photograph and 2 cm apart on the 1:50 000 map.",
+        "Illustrative: 2 cm on the 1:50 000 map equals 1 km, which is 100 000 cm on the ground.",
+        "Illustrative: the photograph scale is 5 cm to 100 000 cm, which is 1:20 000."
+      ]
+    },
+    {
+      "h": "Drawing a sketch map",
+      "b": "A sketch map is a drawn copy of the photograph's main features, not a tracing.",
+      "points": [
+        "Draw a frame with four ruled sides, the same shape as the photograph.",
+        "The exam usually asks for half the length and half the breadth: each side is halved, so the sketch has a quarter of the photograph's area.",
+        "Measure the photograph and calculate the sketch size before drawing.",
+        "Divide the photograph and the frame into the nine-area grid lightly in pencil to place features accurately.",
+        "Show only the features asked for, in approximately the correct position, shape and proportion.",
+        "Draw rivers, roads and railways as lines, with the river as a broad double line; draw areas such as housing, industry, farmland, car parks and lakes as closed outlined shapes; draw single buildings as small blocks or symbols.",
+        "Label every feature on or beside it, or in a key, and give the sketch a title. An unlabelled feature scores nothing.",
+        "A feature specified with a position, such as a car park in the centre foreground, must be drawn in that zone.",
+        "Common requests to practise: river, coastline, lake, bridge, railway, two connecting streets, car park, church, ecclesiastical land use, housing estate, residential land use, industrial building or estate, warehouse, agricultural land, recreational land use, sports ground, waste ground, a historic ruin, and the CBD."
+      ]
+    },
+    {
+      "h": "Worked example: sketch map (illustrative, Rivertown)",
+      "points": [
+        "Illustrative: a photograph 22 cm by 16 cm gives a sketch frame of 11 cm by 8 cm.",
+        "Illustrative request: the river, a bridge, a church, an industrial area in the foreground, and agricultural land in the background.",
+        "Illustrative: draw the river as a broad double line from the left foreground to the right background.",
+        "Illustrative: draw the bridge as a short line crossing the river in the centre middleground, and label it.",
+        "Illustrative: draw the church as a small cross-shaped symbol in the left middleground, and label it.",
+        "Illustrative: draw the industrial area as a closed outlined shape in the right foreground, because the request places it there, and label it.",
+        "Illustrative: draw the agricultural land as field outlines with hedgerows in the background of the right side, and label it."
+      ]
+    },
+    {
+      "h": "Land use in and around the town",
+      "points": [
+        "Land-use categories: residential, commercial or retail, industrial, ecclesiastical, educational, recreational, transport, agricultural, open space, and waste or derelict ground.",
+        "Ecclesiastical land use is religious land use: churches, their grounds and graveyards. Schools are educational land use.",
+        "Industrial land is usually on the edge of town: large flat-roofed buildings in an industrial estate, near main roads, a bypass, a railway or a port, with space for parking and lorries.",
+        "Older industry, such as mills, may be found beside the river or quays.",
+        "Agricultural land around the town shows field patterns with hedgerows, and is either pasture (grass, often with livestock) or tillage (ploughed or cropped fields)."
+      ]
+    },
+    {
+      "h": "Residential density and the CBD",
+      "points": [
+        "Older terraced housing near the centre has high density, with small or no gardens.",
+        "Suburban estates of semi-detached and detached houses lie further out, at lower density, with gardens and cul-de-sacs.",
+        "Apartments are high density.",
+        "Residential density usually falls outward from the centre.",
+        "The CBD (central business district) is the commercial core of the town, found at the centre where roads converge.",
+        "CBD clues: the tallest and most densely packed buildings, no gardens, shops fronting onto main streets, car parks and heavy traffic, and often a square or main street."
+      ]
+    },
+    {
+      "h": "Urban functions",
+      "b": "A function is a purpose a town serves, such as trade, worship or transport. Each function can be seen on a photograph.",
+      "points": [
+        "Functions visible on photographs: residential; commercial or retail; industrial or manufacturing; ecclesiastical or religious; educational; recreational or leisure; medical, such as a hospital.",
+        "Further functions: transport (bridge, railway station, converging roads, harbour); port or fishing (piers, boats); tourism (hotels, caravan parks, marinas, beaches, historic sites).",
+        "Further functions: market (a square, a market house); administrative (courthouse, council offices, Garda station, which is often hard to confirm from a photograph alone); defensive (a historic castle or town walls).",
+        "Answer formula for describing and explaining a function: name the function, give the photograph evidence, give its location in accepted notation, and explain why the town performs it, using its site, situation, size or hinterland.",
+        "Give several pieces of evidence for each function.",
+        "Illustrative ecclesiastical function: a church with a spire and graveyard in the left middleground.",
+        "Illustrative industrial function: large flat-roofed units and lorry yards in the right foreground, beside the main road.",
+        "Illustrative market or commercial function: a square and a main street of shops in the centre middleground, where roads converge at the bridge."
+      ]
+    },
+    {
+      "h": "Evidence of historical development",
+      "b": "A town's history is visible in its buildings and layout. Use photograph evidence here; explaining development from the OS map is taught in the notes on Map interpretation.",
+      "points": [
+        "Older features show early growth: a castle, tower house or other ruin; an old church or abbey ruin with an old graveyard; town walls or gates.",
+        "A market square, fair green or market house shows the town's role as a market centre.",
+        "Old stone bridges, quays and warehouses on the river, and mills and weirs show the town's use of the river.",
+        "A railway line and station show growth in the 19th century.",
+        "Modern housing estates and industrial estates on the edge of town show recent growth.",
+        "Reasons for the town's location seen on the photograph: a bridging point, a river or coastal site, converging routes, flat land, a harbour, surrounding farmland for a market town, or a defensive site."
+      ]
+    },
+    {
+      "h": "Planned and unplanned towns, and street patterns",
+      "points": [
+        "A planned town has wide, straight streets, a regular grid, a central square or diamond, and uniform terraces.",
+        "An unplanned town has narrow, winding, irregular streets, often of medieval origin.",
+        "Wide streets on their own do not show that a town is unplanned.",
+        "Linear growth: development along a main road.",
+        "Nucleated growth: development clustered around a centre or junction.",
+        "Radial pattern: streets radiating from a bridge or square.",
+        "Grid pattern: streets laid out at right angles in regular blocks.",
+        "Name the pattern on the photograph and use it as evidence for the type of town."
+      ]
+    },
+    {
+      "h": "Causes of traffic congestion",
+      "points": [
+        "Narrow streets in the old core of the town.",
+        "On-street parking that narrows the road.",
+        "Routes converging on one bridge or junction.",
+        "Through-traffic passing the town centre.",
+        "Delivery vehicles, and limited off-street parking.",
+        "Schools and shopping centres that generate peak traffic."
+      ]
+    },
+    {
+      "h": "Traffic management measures and solutions",
+      "points": [
+        "Measures visible on photographs: roundabouts, traffic lights, pedestrian crossings, one-way streets (all parked cars face one way, with arrows on the road), double yellow lines (no parking), bus lanes and cycle lanes.",
+        "Further measures: off-street and multi-storey car parks, pedestrianised streets, bypasses, relief roads and ring roads, bollards and traffic-calming ramps.",
+        "Answer formula for a measure: name it, give its location in accepted notation, and explain how it reduces congestion or improves safety.",
+        "Answer formula for a problem: name it, locate it, and explain why it causes congestion.",
+        "A suggested solution, such as a bypass to remove through-traffic, a car park on waste ground, a one-way system or pedestrianisation, must be justified with photograph evidence.",
+        "Illustrative problem: all routes converge on the single bridge in the centre middleground, and on-street parking on the main street narrows the road.",
+        "Illustrative measures: a roundabout at the end of the bridge, and a car park beside the square.",
+        "Illustrative solution: a relief road crossing the river further downstream, using the open fields."
+      ]
+    },
+    {
+      "h": "Land-use change",
+      "points": [
+        "Land-use change is found by comparing the map with the photograph, which are dated differently, or by comparing a location's present use with a listed change.",
+        "Listed changes include agricultural to housing, industrial to residential, green space to recreation, open space to residential, farmland to relief road, and green space to waste ground.",
+        "Method: find the location, identify its present use, then infer its earlier use from the map or from surrounding clues.",
+        "Clues to earlier use: new estates on the edge with fields beyond, cleared sites, and new roads cutting across field patterns.",
+        "Illustrative: the map shows fields where the photograph shows the left background housing estate, so the change is agricultural to residential.",
+        "Second pair, same method: a site shown as industrial on the map and as housing on the photograph is recorded as industrial to residential."
+      ]
+    },
+    {
+      "h": "Urban growth evidence",
+      "points": [
+        "New estates on the edge of the town.",
+        "Ribbon development along approach roads.",
+        "Industrial estates and retail parks on the outskirts.",
+        "New roundabouts and bypasses.",
+        "Sprawl as a wider urban issue is covered in the Urban Geography chapter."
+      ]
+    },
+    {
+      "h": "Site suitability",
+      "b": "A site is chosen or rejected on evidence from the photograph.",
+      "points": [
+        "Choose a site on the photograph for a proposed development, such as a shopping centre, factory, car park or playground, and give three reasons, each with photograph evidence.",
+        "Reasons to look for: available flat land; access to main roads; nearness to the population served; space for parking; a position away from a flood-prone river bank.",
+        "For industry, a site away from housing is suitable.",
+        "To show a given site is unsuitable, name the reason it fails these tests and give the photograph evidence for it."
+      ]
+    },
+    {
+      "h": "Time of year from the photograph",
+      "points": [
+        "Deciduous trees in full leaf indicate summer; bare trees indicate winter.",
+        "Crops growing or ripening, golden fields and harvested stubble indicate late summer to autumn.",
+        "Ploughed fields indicate autumn or spring.",
+        "Silage or hay bales in fields indicate summer.",
+        "Cattle grazing outdoors indicate the grazing season, roughly spring to autumn, because Irish cattle are usually housed indoors over winter.",
+        "People in light clothing, and outdoor activity on beaches or pitches, indicate warm weather.",
+        "Give two or three pieces of evidence and reason from them, without guessing exact months.",
+        "Illustrative: trees in full leaf and silage bales in the right background fields indicate summer."
+      ]
+    },
+    {
+      "h": "Time of day from shadows",
+      "b": "Shadows point away from the sun. Use the camera direction from the map to turn a shadow direction into a compass direction.",
+      "points": [
+        "Ireland is in the northern hemisphere, so the midday sun is due south and midday shadows point north, where they are at their shortest.",
+        "The sun rises in the east and sets in the west, roughly. Morning shadows point west; evening shadows point east.",
+        "Long shadows mean a low sun, which occurs early or late in the day, or in winter.",
+        "Other clues: busy streets and full car parks in business hours, school car parks full or empty, rush-hour traffic, and street lights on.",
+        "Illustrative: the camera points north, so left is west and right is east. Building shadows fall to the left, which is west, so the sun is in the east: morning.",
+        "Illustrative: the shadows are long, so it is early morning."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Vertical photograph",
+      "definition": "An aerial photograph taken with the camera pointing straight down, showing roofs and an even scale."
+    },
+    {
+      "term": "Oblique photograph",
+      "definition": "An aerial photograph taken at an angle to the ground, showing the sides of buildings and a scale that changes with distance."
+    },
+    {
+      "term": "Nine-area grid",
+      "definition": "The division of an oblique photograph into three strips across and three strips into the picture, giving nine zones."
+    },
+    {
+      "term": "Accepted notation",
+      "definition": "Describing a zone with an across-term and a depth-term, such as left foreground, in that order."
+    },
+    {
+      "term": "Absolute location",
+      "definition": "The exact position of a feature given as a grid reference read from the OS map."
+    },
+    {
+      "term": "Relative location",
+      "definition": "The position of a feature described by its zone or by its position relative to other features."
+    },
+    {
+      "term": "Sketch map",
+      "definition": "A freehand drawing, in a frame of reduced size, that shows only the requested features in approximately correct positions and labels them."
+    },
+    {
+      "term": "CBD",
+      "definition": "The central business district: the commercial core of a town, where roads converge and buildings are tallest and most densely packed."
+    },
+    {
+      "term": "Ecclesiastical land use",
+      "definition": "Land used for religious purposes, such as a church, its grounds and its graveyard."
+    },
+    {
+      "term": "Planned town",
+      "definition": "A town laid out in a regular plan, with wide, straight streets, a grid and a central square."
+    },
+    {
+      "term": "Linear growth",
+      "definition": "The development of a settlement along a main road."
+    },
+    {
+      "term": "Nucleated growth",
+      "definition": "The development of a settlement clustered around a centre or junction."
+    },
+    {
+      "term": "Ribbon development",
+      "definition": "Buildings built in a line along an approach road leading out of a town."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 20,
+      "prompt": "Examine the (illustrative) aerial photograph of Rivertown described above. Draw a sketch map of it, half the length and half the breadth. On it show and label: the river; a bridge; a church; an industrial area in the foreground; agricultural land use in the background.",
+      "model": "This question uses the invented Rivertown photograph, since real photographs cannot be supplied in these notes. The photograph is 22 cm by 16 cm, so draw a ruled frame 11 cm by 8 cm with the same shape as the photograph. Do not trace the photograph. Lightly divide the frame into the nine-area grid in pencil. Draw the river as a broad double line from the left foreground to the right background and label it. Draw the bridge as a short line crossing the river in the centre middleground and label it. Draw the church as a small cross-shaped symbol in the left middleground and label it. Draw the industrial area as a closed outlined shape in the right foreground, because its zone is specified, and label it. Draw the agricultural land as field outlines with hedgerows in the background on the right side and label it. Give the sketch a title. Every feature must be drawn in its specified zone and labelled."
+    },
+    {
+      "marks": 30,
+      "prompt": "Using evidence from the (illustrative) aerial photograph of Rivertown, describe and explain three functions of the town.",
+      "model": "Function 1, ecclesiastical (religious): a church with a spire and a graveyard beside it stands in the left middleground, so the photograph shows a religious land use. The church is located in the left middleground, and it serves the town's residents and the surrounding area, so a town with a population and a hinterland supports a place of worship. Function 2, industrial: large flat-roofed units and lorry yards stand in the right foreground, beside the main road. The industrial area is located in the right foreground at the edge of the town. Lorries need access to the main road and space to park and turn, which the edge of the town provides. Function 3, market or commercial: a square and a main street of shops lie in the centre middleground, where roads converge at the bridge. The centre is located at the crossing point of routes, so shoppers from the surrounding farmland and the town can reach the square easily. The shops and square serve the town's hinterland, which explains why the market function is central."
+    },
+    {
+      "marks": 8,
+      "prompt": "8 marks: four 2-mark parts on Rivertown: (a) vertical or oblique, with one reason; (b) the location of the church in accepted notation; (c) the direction the camera was pointing, using the map information in the camera direction example; (d) true or false: \"Wide, straight streets around the square suggest Rivertown is an unplanned town.\" Give a one-line reason.",
+      "model": "Each part is worth 2 marks. (a) Oblique. Reason: depth is shown and foreground features look larger than background features. (b) Left middleground. (c) North: the waste ground in the centre foreground lies south of the bridge, which lies due south of the GAA pitch in the centre background, so foreground to background runs south to north. (d) False. Wide, straight streets indicate a planned town, not an unplanned one. All answers use the invented Rivertown details, which are illustrative."
+    }
+  ]
+}

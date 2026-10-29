@@ -1,0 +1,116 @@
+{
+  "loId": "bio34-s1",
+  "chapterId": "bio34",
+  "subsection": "The carbon cycle",
+  "syllabusRef": "3.2.5",
+  "notes": [
+    {
+      "h": "Why nutrients cycle",
+      "points": [
+        "A biogeochemical cycle, or nutrient cycle, is the continuous movement of a chemical element between living things (bio) and the non-living environment (geo): the air, water, rocks and soil.",
+        "Matter is not created or destroyed: the same atoms are used again and again. Energy, by contrast, flows through an ecosystem once and is lost as heat (see “Energy and nutrient transfer”).",
+        "Carbon is the element at the centre of every biomolecule (carbohydrates, lipids, proteins and nucleic acids; see “Biomolecules and metabolism”), so every organism needs a constant supply. Producers take it in as CO₂; consumers get it already built into food.",
+        "A store (reservoir) is a place where carbon is held: the atmosphere (as CO₂, and a little methane, CH₄); living organisms (biomass); dead organic matter in soil; the oceans (dissolved CO₂, hydrogencarbonate and carbonate); rocks such as limestone and chalk (calcium carbonate); and fossil fuels.",
+        "A process, or flux, moves carbon from one store to another.",
+        "CO₂ makes up only about 0.04% of the air (over 420 parts per million), yet it is the source of carbon for almost all life on Earth."
+      ]
+    },
+    {
+      "h": "Processes that remove carbon from the atmosphere",
+      "points": [
+        "Photosynthesis by plants, algae and phytoplankton fixes CO₂ into glucose and then into the rest of their biomass, so they act as carbon sinks (see “Photosynthesis as an anabolic process”).",
+        "Photosynthesis is the only major route by which carbon enters living things.",
+        "Dissolving: CO₂ dissolves in the surface of the oceans, lakes and rivers, and aquatic producers take it up for photosynthesis.",
+        "Shell and skeleton building: many marine organisms (e.g. corals, molluscs and some phytoplankton) combine dissolved carbonate with calcium to make calcium carbonate shells and skeletons.",
+        "When these organisms die, their shells and skeletons settle on the sea floor and, over millions of years, form limestone and chalk, a very long-term store."
+      ]
+    },
+    {
+      "h": "Processes that move carbon through living things",
+      "points": [
+        "Feeding: carbon in the producer's biomass passes to herbivores and then carnivores when they eat and digest it. At each step most of it is respired away rather than built into the consumer's body (trophic levels are explained in “Energy and nutrient transfer”).",
+        "Egestion and excretion: carbon leaves animals in faeces and in wastes such as urea, and enters the dead organic matter store, as do shed leaves and dead organisms."
+      ]
+    },
+    {
+      "h": "Processes that return carbon to the atmosphere",
+      "points": [
+        "Respiration by plants, animals and microorganisms breaks down glucose and releases CO₂ (detail in “Respiration as a catabolic process”).",
+        "Plants respire all the time, day and night. Over a growing season photosynthesis exceeds respiration, so the plant as a whole gains carbon.",
+        "Decomposers: bacteria and fungi feed saprophytically on dead organisms, faeces and fallen leaves. They secrete enzymes that digest the organic matter outside their cells, absorb the products, and respire them, releasing CO₂ and minerals.",
+        "Without decomposers, carbon would stay locked in dead matter and the CO₂ supply for photosynthesis would run out.",
+        "The structure and nutrition of bacteria and fungi are covered in “Bacteria and fungi”; soil microbiomes are covered in “The microbiome”.",
+        "Decomposers work fastest when it is warm, moist and well aerated, because they respire aerobically. In cold, waterlogged, acidic or oxygen-poor places decomposition is very slow, so dead matter builds up, e.g. as peat in bogs.",
+        "Anaerobic decomposition: where there is no oxygen (waterlogged soils, bogs, rice paddies, landfill, slurry tanks and the stomachs of cattle and sheep), some microorganisms break organic matter down to methane (CH₄) instead of CO₂.",
+        "The methane-producing microorganisms are archaea (see “Domains of life”). Methane in the air is slowly converted to CO₂.",
+        "Combustion: burning biomass (wood, peat, forest fires) or fossil fuels combines the carbon with oxygen and releases it as CO₂ very quickly.",
+        "Natural geological release: volcanoes release CO₂ from rocks, and the weathering of limestone releases some. This is small compared with the biological fluxes and with fossil-fuel burning."
+      ]
+    },
+    {
+      "h": "Fossil fuels",
+      "points": [
+        "Fossil fuels (coal, oil and natural gas) are the remains of organisms that lived millions of years ago and were buried before they could decompose fully.",
+        "Coal formed mainly from land plants in ancient swamps. Oil and natural gas formed mainly from tiny marine organisms (plankton) buried in sea-floor mud. Heat and pressure over millions of years changed them into fuels.",
+        "The carbon in fossil fuels was fixed by photosynthesis long ago, so they store ancient solar energy and carbon. Peat is an early stage of the same process, which is why it is sometimes counted with them.",
+        "In the natural cycle almost no carbon leaves this store. Burning fossil fuels since the Industrial Revolution moves carbon locked away for millions of years into the atmosphere in a few centuries, far faster than photosynthesis and the oceans can take it back, so atmospheric CO₂ rises (consequences are in “Climate change and biological strategies”)."
+      ]
+    },
+    {
+      "h": "Carbon sinks and sources in the cycle",
+      "b": "This block builds on “Photosynthesis as an anabolic process” and adds the sink and source distinction and the balance of the cycle.",
+      "points": [
+        "A store acts as a sink when its inputs exceed its outputs, so it gains carbon, and as a source when its outputs exceed its inputs, so it releases carbon.",
+        "The same store can switch between the two: a growing forest is a sink; a mature forest roughly balances; a burning or felled forest is a source. A healthy wet bog is a sink; a drained or burning bog is a source.",
+        "The main natural sinks on a carbon-cycle diagram are land plants (forests and grassland, with the soil carbon under them); algae and phytoplankton in the oceans (with dissolving CO₂ and shells sinking to the sea floor); bogs and other wetlands; and limestone and fossil fuels as very long-term stores.",
+        "Their comparison and the strategies that use them are covered in “Climate change and biological strategies”.",
+        "Before large-scale fossil-fuel burning, the CO₂ taken up by photosynthesis and the oceans each year was roughly balanced by the CO₂ released by respiration, decomposition and natural fires, so atmospheric CO₂ stayed nearly constant at about 280 parts per million before the Industrial Revolution.",
+        "Deforestation and fossil-fuel burning have tipped this balance.",
+        "Seasonal pattern: atmospheric CO₂ falls each northern summer, when photosynthesis exceeds respiration over the large land area of the northern hemisphere, and rises each winter, when respiration and decomposition exceed photosynthesis. This happens on top of the long-term rise, and is a good example of reading the model."
+      ]
+    },
+    {
+      "h": "Modelling the carbon cycle",
+      "b": "A model represents the cycle in a diagram and in words, and is used to explain and predict. It is only as good as its limits allow.",
+      "points": [
+        "Diagram: the carbon cycle drawn as boxes for the stores (carbon dioxide in the air; green plants and algae; animals; dead organisms and wastes; decomposers (bacteria and fungi); fossil fuels; oceans), joined by labelled arrows: photosynthesis (air → plants); feeding (plants → animals); death and excretion (plants and animals → dead matter); decomposition (dead matter → decomposers); respiration (plants, animals and decomposers → air); fossilisation (dead matter → fossil fuels, over millions of years); combustion (fossil fuels and wood → air); dissolving (air ↔ oceans).",
+        "Prediction (a): cutting down and burning a forest removes photosynthesis and adds combustion and the decomposition of the remains, so atmospheric CO₂ rises.",
+        "Prediction (b): draining a bog lets air in, so aerobic decomposers break down the peat and release CO₂.",
+        "Prediction (c): if decomposers were killed (e.g. by soil made very acidic or polluted), dead matter would accumulate, minerals would not be returned to the soil, and plant growth would eventually fall.",
+        "Limitation: a diagram shows the processes but not how much carbon moves or how fast.",
+        "Limitation: it treats each store as one box, although the oceans, soils and forests each hold carbon for very different lengths of time.",
+        "Limitation: it simplifies feedbacks, e.g. warming speeds up decomposition, which releases more CO₂.",
+        "Limitation: it is a snapshot that hides seasonal and long-term change. General limitations of models are covered in “Models”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Biogeochemical cycle", "definition": "The continuous movement of a chemical element between living things and the non-living environment." },
+    { "term": "Store (reservoir)", "definition": "A place where carbon is held, such as the atmosphere, the oceans, living organisms, soil, rocks or fossil fuels." },
+    { "term": "Carbon sink", "definition": "A store whose inputs of carbon exceed its outputs, so that it gains carbon." },
+    { "term": "Carbon source", "definition": "A store whose outputs of carbon exceed its inputs, so that it releases carbon." },
+    { "term": "Decomposer", "definition": "A bacterium or fungus that digests dead organic matter by secreting enzymes and absorbing the products." },
+    { "term": "Anaerobic decomposition", "definition": "The breakdown of organic matter without oxygen, which releases methane instead of CO₂." },
+    { "term": "Combustion", "definition": "Burning, which combines carbon with oxygen and releases it as CO₂ very quickly." },
+    { "term": "Fossil fuel", "definition": "Coal, oil or natural gas formed from the remains of organisms buried before they could decompose fully." },
+    { "term": "Flux", "definition": "A process that moves carbon from one store to another." },
+    { "term": "Fossilisation", "definition": "The burial of dead organic matter, which over millions of years turns it into fossil fuel." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name two processes that return carbon dioxide to the atmosphere and one process that removes it. State where each takes place or which organisms carry it out.",
+      "model": "Two processes that return CO₂ to the atmosphere are respiration, which all organisms carry out, and decomposition by bacteria and fungi in the soil, although combustion of wood, peat or fossil fuels also does so. One process that removes CO₂ is photosynthesis, carried out by green plants, algae and phytoplankton, which fix it into glucose and then into their biomass."
+    },
+    {
+      "marks": 12,
+      "prompt": "Model the carbon cycle, with reference to photosynthesis, respiration, decomposers, fossil fuels and carbon sinks. Include a labelled diagram.",
+      "model": "A labelled diagram shows the stores (carbon dioxide in the air, plants and algae, animals, dead matter, decomposers, fossil fuels and oceans) joined by arrows for photosynthesis, feeding, respiration, decomposition, fossilisation, combustion and dissolving. Photosynthesis moves CO₂ from the air into plants and algae, which makes them carbon sinks. Respiration by plants, animals and decomposers returns CO₂ to the air. Decomposers, which are bacteria and fungi, digest dead organisms and wastes and respire the products, releasing CO₂ and minerals, so carbon is recycled. Fossil fuels are the remains of organisms buried for millions of years; burning them releases carbon that has been locked away for a very long time, so the cycle is effectively opened and atmospheric CO₂ rises. Sinks are stores whose inputs exceed their outputs, such as growing forests, healthy bogs and the oceans."
+    },
+    {
+      "marks": 9,
+      "prompt": "Use your model of the carbon cycle to predict the effect on atmospheric carbon dioxide of draining and cutting a peat bog. Give one limitation of the model.",
+      "model": "Draining the bog lets air in, so aerobic decomposers break down the peat and release CO₂ into the atmosphere. Cutting the vegetation removes the photosynthesis that was fixing carbon, so the bog changes from a carbon sink to a carbon source, and atmospheric CO₂ rises. One limitation is that the diagram shows the processes but not how much carbon moves or how fast, so it cannot predict the size of the change."
+    }
+  ]
+}

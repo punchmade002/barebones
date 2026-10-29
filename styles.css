@@ -1090,94 +1090,6 @@ button:active { transform: scale(0.965) !important; }
   box-shadow: var(--s1);
 }
 
-/* ── Outcome nav — move between the outcomes inside one chapter ── */
-.outcome-nav {
-  display: flex;
-  gap: 0.4rem;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  scrollbar-width: thin;
-  scrollbar-color: var(--line) transparent;
-  padding: 0.15rem 0.15rem 0.45rem;
-  margin-bottom: 0.5rem;
-}
-
-.outcome-nav::-webkit-scrollbar { height: 6px; }
-.outcome-nav::-webkit-scrollbar-track { background: transparent; }
-.outcome-nav::-webkit-scrollbar-thumb {
-  background: var(--line);
-  border-radius: var(--r-full);
-}
-.outcome-nav:hover::-webkit-scrollbar-thumb { background: var(--accent-light); }
-
-.outcome-chip {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.4rem;
-  max-width: 17rem;
-  padding: 0.4rem 0.75rem;
-  background: var(--panel-2);
-  border: 1.5px solid transparent;
-  border-radius: var(--r-full);
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 500;
-  text-align: left;
-  box-shadow: none;
-  transition:
-    background var(--t) var(--ease),
-    color var(--t) var(--ease),
-    border-color var(--t) var(--ease);
-}
-
-.outcome-chip:hover {
-  background: var(--accent-xlight);
-  color: var(--accent-strong);
-  border-color: var(--accent-light);
-  transform: none;
-}
-
-.outcome-chip.active {
-  background: var(--accent-xlight);
-  color: var(--accent-strong);
-  border-color: var(--accent-edge);
-  font-weight: 600;
-}
-
-.outcome-chip:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.outcome-chip-code {
-  flex: 0 0 auto;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  color: var(--ink-2);
-}
-
-.outcome-chip:hover .outcome-chip-code,
-.outcome-chip.active .outcome-chip-code { color: var(--accent-strong); }
-
-.outcome-chip-title {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.outcome-chip-count {
-  flex: 0 0 auto;
-  font-size: 0.72rem;
-  font-variant-numeric: tabular-nums;
-  color: var(--muted);
-}
-
-.outcome-chip.active .outcome-chip-count { color: var(--accent-strong); }
-
 .study-face {
   font-size: 1rem;
   line-height: 1.65;
@@ -1562,6 +1474,16 @@ details[open] > summary::before { transform: rotate(90deg); }
   margin-bottom: 0.65rem;
   font-size: 1rem;
   line-height: 1.7;
+}
+
+.full-notes-body .note-points {
+  margin: 0.35rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--ink-2);
+}
+
+.full-notes-body .note-points li {
+  margin-bottom: 0.3rem;
 }
 
 /* ── Progress: a full page, not an overlay ───── */
@@ -3364,7 +3286,8 @@ body.modal-open { overflow: hidden; }
 .tab:focus-visible,
 .exam-group-header:focus-visible,
 .workbench-notes:focus-visible,
-.outcome-switcher-trigger:focus-visible {
+.study-context-back:focus-visible,
+.outcome-card:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
@@ -3403,8 +3326,6 @@ body.modal-open { overflow: hidden; }
   flex-direction: column;
 }
 
-#subjectWorkbench.learn-mode .outcome-nav { flex: 0 0 auto; }
-
 #subjectWorkbench.learn-mode .flashcard-study {
   min-height: 0;
   flex: 1;
@@ -3438,8 +3359,7 @@ body.modal-open { overflow: hidden; }
   color: var(--ink);
 }
 
-.workbench-menu-panel,
-.outcome-menu {
+.workbench-menu-panel {
   position: absolute;
   z-index: 25;
   visibility: hidden;
@@ -3471,9 +3391,7 @@ body.modal-open { overflow: hidden; }
 .workbench-menu-panel button:hover { background: var(--accent-xlight); color: var(--accent-strong); }
 
 .workbench-menu:hover .workbench-menu-panel,
-.workbench-menu:focus-within .workbench-menu-panel,
-.outcome-switcher:hover .outcome-menu,
-.outcome-switcher:focus-within .outcome-menu {
+.workbench-menu:focus-within .workbench-menu-panel {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
@@ -3487,63 +3405,6 @@ body.modal-open { overflow: hidden; }
   from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-.outcome-nav {
-  display: block;
-  width: fit-content;
-  overflow: visible;
-  margin: 0 0 0.4rem;
-  padding: 0;
-}
-
-.outcome-switcher { position: relative; }
-
-.outcome-switcher-trigger {
-  width: auto;
-  min-width: 112px;
-  padding: 0.38rem 0.65rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: transparent;
-  border-color: transparent;
-  box-shadow: none;
-  color: var(--ink-2);
-  font-size: 0.76rem;
-}
-
-.outcome-switcher-trigger:hover,
-.outcome-switcher:focus-within .outcome-switcher-trigger {
-  background: var(--panel);
-  border-color: var(--line);
-}
-
-.outcome-switcher-trigger small { margin-left: auto; color: var(--muted); font-size: 0.68rem; }
-
-.outcome-menu {
-  top: calc(100% + 0.3rem);
-  left: 0;
-  width: min(380px, 75vw);
-  max-height: min(430px, 65vh);
-  overflow-y: auto;
-  padding: 0.35rem;
-  transform-origin: top left;
-}
-
-.outcome-menu .outcome-chip {
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  padding: 0.5rem 0.6rem;
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  border: 0;
-  border-radius: var(--r-xs);
-  background: transparent;
-}
-
-.outcome-menu .outcome-chip-title { display: block; }
-.outcome-menu .outcome-chip.active { background: var(--accent-xlight); }
 
 .flashcard-study {
   min-height: min(430px, calc(100vh - 11rem));
@@ -4755,6 +4616,391 @@ body.onboarding-open .timer-widget {
   .ob-burst-core .ob-icon {
     stroke-dashoffset: 0;
   }
+}
+
+/* ── Subsection picker — full workbench grid shown when a chapter opens ── */
+#subjectWorkbench.picker-mode .workbench-nav,
+#subjectWorkbench.picker-mode .tab-content { display: none !important; }
+
+#subjectWorkbench.picker-mode { overflow-y: auto; }
+
+.outcome-picker {
+  display: grid;
+  gap: 1rem;
+  padding: 0.4rem 0 2.5rem;
+  animation: distilled-enter 220ms var(--ease);
+}
+
+.outcome-picker-head p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.outcome-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+}
+
+.outcome-card {
+  min-height: 148px;
+  padding: 1.1rem 1.15rem 1rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.6rem;
+  align-content: start;
+  text-align: left;
+  background: var(--panel);
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-md);
+  box-shadow: var(--s0);
+}
+
+.outcome-card:hover {
+  border-color: var(--accent-light);
+  box-shadow: var(--s1);
+  transform: translateY(-2px);
+}
+
+.outcome-card-index {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.outcome-card-title {
+  color: var(--ink);
+  font-size: 1.08rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.outcome-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.outcome-card-bar {
+  flex: 1;
+  height: 5px;
+  overflow: hidden;
+  background: var(--panel-3);
+  border-radius: var(--r-full);
+}
+
+.outcome-card-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: inherit;
+}
+
+.outcome-card.is-done { border-color: var(--accent-light); background: var(--accent-xxlight); }
+.outcome-card.is-done .outcome-card-meta { color: var(--accent-strong); }
+
+/* Back-to-subsections crumb above the subsection title */
+.study-context-back {
+  width: auto;
+  justify-self: start;
+  max-width: 100%;
+  padding: 0.1rem 0.4rem 0.1rem 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-radius: var(--r-xs);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.study-context-back span:last-child { overflow: hidden; text-overflow: ellipsis; }
+.study-context-back span:first-child { font-size: 1rem; line-height: 1; }
+.study-context-back:hover { color: var(--accent-strong); }
+
+/* ── Full notes — a readable column instead of boxes within boxes ── */
+#fullNotesScreen .full-notes-card .toolbar {
+  padding: 1rem clamp(1rem, 4vw, 3rem);
+  align-items: center;
+}
+
+#fullNotesTitle {
+  min-width: 0;
+  display: grid;
+  gap: 0.15rem;
+}
+
+.full-notes-eyebrow {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.full-notes-heading {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.full-notes-actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.full-notes-actions button { width: auto; white-space: nowrap; }
+
+.live-reading-btn.is-active {
+  background: var(--panel);
+  border-color: var(--line);
+  color: var(--ink);
+  box-shadow: none;
+}
+
+#fullNotesScreen .full-notes-body {
+  padding: 2.25rem clamp(1.1rem, 5vw, 3rem) 5rem;
+}
+
+#fullNotesScreen .full-notes-body > * {
+  max-width: 68ch;
+  margin-inline: auto;
+}
+
+#fullNotesScreen .full-notes-body .lo-block {
+  margin-bottom: 3rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+#fullNotesScreen .full-notes-body h4 {
+  margin: 0 0 1.5rem;
+  padding: 0 0 0.75rem;
+  color: var(--ink);
+  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  border-bottom: 2px solid var(--accent);
+}
+
+#fullNotesScreen .full-notes-body .note-block {
+  margin: 0;
+  padding: 1.35rem 0 1.4rem;
+  background: none;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+#fullNotesScreen .full-notes-body h4 + .note-block { border-top: 0; padding-top: 0; }
+
+#fullNotesScreen .full-notes-body h5 {
+  margin: 0 0 0.55rem;
+  color: var(--accent-strong);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+#fullNotesScreen .full-notes-body p {
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#fullNotesScreen .full-notes-body .note-points {
+  margin: 0.25rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--ink);
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+#fullNotesScreen .full-notes-body .note-points li { margin-bottom: 0.55rem; padding-left: 0.2rem; }
+#fullNotesScreen .full-notes-body .note-points li::marker { color: var(--accent); }
+
+/* ── Live reading — lyrics-style, three lines at a time ── */
+.live-reader {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  animation: distilled-enter 220ms var(--ease);
+}
+
+.live-reader-progress {
+  flex: 0 0 auto;
+  height: 3px;
+  background: var(--panel-3);
+}
+
+.live-reader-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--accent);
+}
+
+.live-reader-stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  padding-inline: clamp(1.25rem, 6vw, 4rem);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+}
+
+.live-reader-track {
+  max-width: 900px;
+  margin-inline: auto;
+  transition: transform 420ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  will-change: transform;
+}
+
+/* Every line shares one size and weight, so a line keeps its exact wrapping
+   as it moves into and out of the lit position; only colour changes. */
+.lr-line {
+  margin: 0;
+  padding: 0.7rem 0;
+  color: var(--muted);
+  font-size: clamp(1.4rem, 2.8vw, 2.1rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 420ms ease, color 420ms ease;
+}
+
+.lr-line.is-past,
+.lr-line.is-next { opacity: 0.4; }
+.lr-line.is-past:hover,
+.lr-line.is-next:hover { opacity: 0.7; }
+
+.lr-line.is-current {
+  opacity: 1;
+  color: var(--ink);
+  cursor: default;
+}
+
+.lr-label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--accent-strong);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.lr-line.is-current .lr-rest { color: color-mix(in oklch, currentColor 45%, transparent); }
+
+.lr-still,
+.lr-still .lr-line { transition: none !important; }
+
+.live-reader-controls {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1rem clamp(1rem, 4vw, 3rem) 1.4rem;
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.live-reader-controls button { width: auto; }
+
+.live-reader-step {
+  width: 40px !important;
+  height: 40px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: var(--r-full);
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.live-reader-play {
+  min-width: 96px;
+  height: 40px;
+  padding: 0 1.1rem;
+  background: var(--accent);
+  border-color: var(--accent);
+  border-radius: var(--r-full);
+  color: oklch(0.985 0.006 55);
+}
+
+.live-reader-play:hover { background: var(--accent-strong); border-color: var(--accent-strong); }
+
+.live-reader-speed {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.live-reader-speed input[type="range"] {
+  width: clamp(120px, 22vw, 240px);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  accent-color: var(--accent);
+}
+
+.live-reader-speed output {
+  min-width: 4.8rem;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 640px) {
+  .outcome-picker-grid { grid-template-columns: 1fr; }
+  .outcome-card { min-height: 0; }
+  #fullNotesScreen .full-notes-card .toolbar { flex-wrap: wrap; }
+  .full-notes-actions { width: 100%; }
+  .full-notes-actions button { flex: 1; }
+  .live-reader-controls { flex-wrap: wrap; }
+  /* Leave room for the floating study timer in the bottom-right corner. */
+  .live-reader-speed { width: 100%; margin-left: 0; padding-right: 4.5rem; justify-content: center; }
+  .live-reader-speed input[type="range"] { flex: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-reader-track,
+  .lr-line,
+  .outcome-card { transition: none; }
 }
 
 /* ── Test ────────────────────────────────────── */

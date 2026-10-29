@@ -1,0 +1,89 @@
+{
+  "loId": "bio31-s5",
+  "chapterId": "bio31",
+  "subsection": "Carrying capacity and limiting factors",
+  "syllabusRef": "3.1.5",
+  "notes": [
+    {
+      "h": "Population size and carrying capacity",
+      "points": [
+        "A population's size changes through four processes. Births (natality) and immigration (individuals arriving) increase it; deaths (mortality) and emigration (individuals leaving) decrease it. A population grows when births plus immigration exceed deaths plus emigration.",
+        "Every population could grow very fast if nothing stopped it, because organisms produce more offspring than are needed to replace themselves (see “The theory of evolution by natural selection”). In reality, resources run short and growth slows and stops.",
+        "The carrying capacity of an environment is the maximum population size of a species that it can support indefinitely, given the food, water, space and other resources available. It is often given the symbol K.",
+        "A limiting factor is any factor that restricts the size, growth or distribution of a population. The factor in shortest supply relative to need sets the limit, even if all the others are plentiful. This is the same principle as the limiting factors in photosynthesis (see “Investigation: rate of photosynthesis”). Carrying capacity is set by the limiting factors acting together.",
+        "Carrying capacity is not fixed. It changes when conditions change, such as in a wet or dry year, after a new predator or disease arrives, or with habitat loss or restoration. It also differs between species in the same habitat. If a population rises above carrying capacity, it damages its resources, e.g. by overgrazing, and then falls."
+      ]
+    },
+    {
+      "h": "Abiotic limiting factors",
+      "points": [
+        "Water: all organisms need water. On the dry, free-draining sand of coastal sand dunes, water shortage limits which plants can grow and how many. Marram grass, with rolled leaves and deep roots, survives where most plants cannot. In a dry summer, grass growth slows and fewer grazing animals can be supported.",
+        "Oxygen: aquatic animals depend on oxygen dissolved in water, which is scarce compared with air. Salmon, trout and stonefly nymphs need well-oxygenated, cool, fast-flowing water, so oxygen limits their numbers in slow, warm or polluted rivers, because decomposing organic pollution uses up oxygen. In waterlogged bog soil, low oxygen limits roots and decomposers, so few plant species can grow there.",
+        "Space: organisms need space to attach, shelter, nest or hold a territory. On a rocky shore, bare rock is limited, so barnacles, mussels and seaweeds compete for space to attach. Seabirds nest only on cliffs and islands with suitable ledges. Many songbirds, such as robins, defend territories, so the number of territories in a woodland limits the breeding population.",
+        "Temperature: it affects enzyme activity, growth and survival (see “Enzymes”). Cold winters kill many small birds such as wrens, and low temperatures in the uplands shorten the growing season, limiting plant growth. Warm water holds less dissolved oxygen, so temperature also limits fish.",
+        "Soil: soil type, pH, minerals, water content and air content limit plants, and so the animals that feed on them. Acidic, nitrogen-poor bog peat supports only specialised plants such as Sphagnum, heather and sundews. The thin limestone soils of the Burren, Co. Clare, support lime-loving plants, and fertile, well-drained lowland soils support productive grassland.",
+        "Light is not listed among the specification's abiotic factors, but it is a key limiting factor for plants. Under a closed woodland canopy in summer, little light reaches the floor, so few plants grow there. Woodland plants such as bluebells grow and flower in spring, before the leaves of the trees open."
+      ]
+    },
+    {
+      "h": "Biotic limiting factors",
+      "points": [
+        "Food: the supply of food usually sets the carrying capacity for animals. For grazers it is the amount of grass or browse. Seed-eaters such as squirrels and wood mice do better in years when trees produce large seed crops. Birds of prey such as barn owls are limited by the number of small mammals.",
+        "Disease: disease spreads faster in dense populations, so it limits large populations most. Squirrelpox virus, carried by grey squirrels, kills red squirrels. Myxomatosis, a viral disease, killed most of Ireland's rabbits after it arrived in the 1950s. Ash dieback is killing ash trees.",
+        "Competition: organisms competing for the same limited resource, such as food, light, water, space or mates, reduce each other's share, so fewer survive or breed. Competition between members of the same species (intraspecific) and between different species (interspecific) both limit populations. Grey squirrels outcompete red squirrels for food in broadleaf woods, and on a woodland floor taller plants shade out shorter ones. Detail is in “Biotic factors and relationships”.",
+        "Predation: predators kill and eat prey, keeping prey numbers below what the food supply alone would allow. Foxes take rabbits and the eggs and chicks of ground-nesting birds such as the curlew. Pine martens prey on grey squirrels, reducing their numbers where martens are common. Predator numbers are in turn limited by the number of prey.",
+        "Absence of predators: Ireland's native red deer, and sika deer introduced to Powerscourt, Co. Wicklow, in 1860, have had no natural predator since wolves died out in Ireland more than two centuries ago. Their numbers are limited mainly by food. In parts of Co. Wicklow they have risen high enough to browse away tree seedlings and stop woodland regenerating. Culling by people is used to keep them below the level that damages habitats."
+      ]
+    },
+    {
+      "h": "Density-dependent and density-independent factors",
+      "points": [
+        "Density-dependent factors have a greater effect as the population becomes more crowded. They are food shortage, competition, disease and predation, and are mostly biotic. They slow growth as a population approaches carrying capacity, so they regulate population size.",
+        "Density-independent factors affect a population regardless of its size, e.g. a severe frost, a flood, a storm, a drought or a fire, and are mostly abiotic. They can cause sudden crashes at any population size.",
+        "Human activity changes carrying capacity. Draining wet grassland and bogs removes curlew breeding habitat, lowering its carrying capacity. Rewetting a bog or planting hedgerows raises it for the species that depend on them, and garden feeders increase the food for some birds."
+      ]
+    },
+    {
+      "h": "Illustrating carrying capacity: rabbits in grassland",
+      "points": [
+        "Food: grass is the main density-dependent limit. As rabbit numbers rise, the grass is grazed shorter and competition increases.",
+        "Predation by foxes, stoats and birds of prey removes many young rabbits.",
+        "Disease: myxomatosis causes crashes when the population is dense.",
+        "Space: burrows need well-drained soil, e.g. on banks and slopes, which limits where warrens can be dug.",
+        "Wet winters, an abiotic and density-independent factor, can flood burrows and kill young rabbits.",
+        "The carrying capacity of the field for rabbits is the population that these factors together allow it to support over time.",
+        "Diagram: a simple graph of a population rising and levelling off at a horizontal dashed line labelled “carrying capacity (K)”, with arrows labelled “limiting factors (environmental resistance)” pressing down on the curve. The shapes of population curves are detailed in “Population curves”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Carrying capacity (K)", "definition": "The maximum population size of a species that an environment can support indefinitely, given the resources available." },
+    { "term": "Limiting factor", "definition": "Any factor that restricts the size, growth or distribution of a population; the factor in shortest supply sets the limit." },
+    { "term": "Natality", "definition": "The birth rate of a population, which increases its size." },
+    { "term": "Mortality", "definition": "The death rate of a population, which decreases its size." },
+    { "term": "Immigration", "definition": "Individuals arriving in a population from elsewhere, which increases its size." },
+    { "term": "Emigration", "definition": "Individuals leaving a population to live elsewhere, which decreases its size." },
+    { "term": "Density-dependent factor", "definition": "A limiting factor whose effect increases as the population becomes more crowded, such as food shortage, competition, disease or predation." },
+    { "term": "Density-independent factor", "definition": "A factor, such as a flood, storm or severe frost, that affects a population regardless of its size." },
+    { "term": "Intraspecific competition", "definition": "Competition between members of the same species for the same limited resource." },
+    { "term": "Interspecific competition", "definition": "Competition between members of different species for the same limited resource." },
+    { "term": "Predation", "definition": "The killing and eating of prey by a predator, which keeps prey numbers below what the food supply alone would allow." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by (i) carrying capacity and (ii) a limiting factor.",
+      "model": "(i) The carrying capacity of an environment is the maximum population size of a species that it can support indefinitely, given the food, water, space and other resources available. It is often given the symbol K. For example, the carrying capacity of a field for rabbits is the population that its grass, burrow sites, predators and disease allow it to support over time. (ii) A limiting factor is any factor that restricts the size, growth or distribution of a population. The factor in shortest supply sets the limit even when the others are plentiful; for example, water shortage limits which plants can grow on coastal sand dunes."
+    },
+    {
+      "marks": 12,
+      "prompt": "Using examples from Irish ecosystems, illustrate how two abiotic and two biotic factors determine the carrying capacity of a species.",
+      "model": "Abiotic factor, water: on the dry sand of coastal sand dunes, water shortage limits how many plants can grow. Marram grass, with rolled leaves and deep roots, survives where most plants cannot, and in a dry summer fewer grazing animals can be supported. Abiotic factor, oxygen: salmon, trout and stonefly nymphs need well-oxygenated, cool, fast-flowing water, so oxygen limits their numbers in slow, warm or polluted rivers, where decomposing organic pollution uses up the oxygen. Biotic factor, food: the food supply usually sets the carrying capacity for animals; seed-eaters such as squirrels and wood mice do better in years when trees produce large seed crops, and barn owls are limited by the number of small mammals. Biotic factor, disease: disease spreads faster in dense populations, so it limits large populations most. Squirrelpox virus, carried by grey squirrels, kills red squirrels, and myxomatosis killed most of Ireland's rabbits after it arrived in the 1950s."
+    },
+    {
+      "marks": 9,
+      "prompt": "Red deer and sika deer in Co. Wicklow have no natural predators. Explain how this affects their population and the woodland ecosystem, and how people manage it.",
+      "model": "Wolves died out in Ireland more than two centuries ago, so the deer have no natural predator. Their numbers are limited mainly by food, and without predation they can rise above the level the habitat supports. Food shortage is a density-dependent factor: it slows growth as the population approaches carrying capacity. Before this happens, the deer browse away tree seedlings, so the woodland cannot regenerate, and overgrazing damages the resources on which the habitat depends, which lowers the carrying capacity for the deer and for other woodland species. People manage the deer by culling them, keeping their numbers below the level that damages the habitat."
+    }
+  ]
+}

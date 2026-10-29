@@ -1,0 +1,175 @@
+{
+  "loId": "bio12-s3",
+  "chapterId": "bio12",
+  "subsection": "Evidence for evolution",
+  "syllabusRef": "1.5.3",
+  "notes": [
+    {
+      "h": "Fossil records",
+      "points": [
+        "A fossil is the preserved remains or traces of an organism that lived long ago, e.g. bones, shells, teeth, footprints or impressions of leaves.",
+        "Most fossils form when an organism is quickly buried in sediment (mud or sand) in water. Its soft parts decay, and minerals gradually replace the hard parts as the sediment becomes sedimentary rock. Whole organisms are occasionally preserved in amber, ice or peat.",
+        "In undisturbed layers of sedimentary rock, deeper layers are older. Radiometric dating, which measures the decay of radioactive elements in rocks, gives ages in years.",
+        "The Earth is about 4.6 billion years old; the oldest widely accepted fossils, of simple bacteria-like cells, are about 3.5 billion years old.",
+        "The oldest rocks contain only simple, single-celled life. More complex organisms appear in younger rocks in a consistent order, e.g. fish before amphibians, and reptiles before birds and mammals.",
+        "Most species that ever lived are extinct, and in many groups a series of fossils shows gradual change over time.",
+        "Archaeopteryx, found in Germany in 1861 (two years after On the Origin of Species) and about 150 million years old, had feathers and wings like a bird but teeth, a long bony tail and clawed fingers like a reptile (a dinosaur). Transitional fossils such as this show features of two groups.",
+        "Tiktaalik, found in 2004 on Ellesmere Island in the Canadian Arctic and about 375 million years old, was a fish with scales, fins and gills, but also had a flat head, a neck, and fin bones like the bones of a limb; it was intermediate between fish and the first four-limbed land animals.",
+        "The team searched rocks of that age because the theory predicted such an animal should have lived then, and the prediction was confirmed (its significance is in The importance of the theory).",
+        "The horse: a series of fossils over more than 50 million years runs from Hyracotherium, a small animal about the size of a dog with four toes on its front feet, to the modern horse, which is much larger, stands on a single toe (the hoof), and has teeth suited to grazing, matching a change from forest to open grassland.",
+        "Limitations: the record is incomplete, because fossils form only in rare conditions, soft-bodied organisms seldom fossilise, many fossils have been destroyed by erosion or movements of the Earth, and many have not yet been found.",
+        "The gaps do not contradict evolution, and every new fossil found has fitted the expected order.",
+        "Diagram: a cross-section of rock layers with fossils, the deepest layer labelled oldest and the top labelled youngest, showing simpler forms in the lower layers; optionally, three horse feet from Hyracotherium to the modern horse showing toe reduction."
+      ]
+    },
+    {
+      "h": "Comparative anatomy",
+      "points": [
+        "Homologous structures have the same basic structure because they were inherited from a common ancestor, but are adapted for different functions.",
+        "The pentadactyl (five-digit) limb: the human arm (grasping), bat wing (flying), whale flipper (swimming) and horse leg (running) all have one upper bone (humerus), two lower bones (radius and ulna), wrist bones (carpals), palm bones (metacarpals) and finger bones (phalanges), differently shaped and sized.",
+        "This is divergent evolution: one ancestral form adapted in different directions.",
+        "Analogous structures have the same function but different structures and origins, e.g. the wing of a bird (bones and feathers) and the wing of an insect (a thin membrane of chitin with no bones).",
+        "Analogous structures are not evidence of common ancestry; they show that similar environments select similar solutions (convergent evolution).",
+        "Vestigial structures are reduced, with little or no function, but were functional in the organism's ancestors: the human coccyx (the remains of a tail), the human appendix (a much-reduced part of the gut, larger in plant-eating mammals), the small pelvic and leg bones inside some whales, and the tiny wings of flightless birds such as the kiwi.",
+        "Vestigial structures make sense only if the organism descended from ancestors that used them.",
+        "Diagram: the forelimbs of a human, a bat and a whale side by side, each bone group shaded the same way in all three; label humerus, radius, ulna, carpals, metacarpals and phalanges."
+      ]
+    },
+    {
+      "h": "Embryology",
+      "points": [
+        "Comparative embryology compares the development of embryos. The early embryos of all vertebrates (fish, amphibians, reptiles, birds and mammals) look very similar: all have a tail and a series of pouches in the throat region (pharyngeal pouches).",
+        "In fish these pouches develop into gills; in humans they develop into parts of the ear, jaw and throat, and the tail is reduced to the coccyx.",
+        "The shared early stages suggest that all vertebrates inherited the same basic plan of development from a common ancestor, which was then modified in each group.",
+        "Limitations: the similarity is in early development, not in adult structures, and embryos do not pass through the adult forms of their ancestors.",
+        "In the 19th century Ernst Haeckel published drawings that exaggerated the similarity of embryos; modern photographs confirm the shared features but not the exaggeration.",
+        "Diagram: early embryos of a fish, a chicken and a human side by side, labelled tail and pharyngeal pouches."
+      ]
+    },
+    {
+      "h": "Phylogeny and molecular evidence",
+      "points": [
+        "Phylogeny is the evolutionary history of a group; phylogenetic trees show which species share the most recent common ancestors (how to read them is in Classification).",
+        "Evolution predicts that species closely related by anatomy and fossils should also have the most similar DNA and proteins, because they have had less time to accumulate differences since their common ancestor.",
+        "All living things use DNA, the same four bases, almost the same genetic code (see The genetic code) and the same ATP, evidence that all life shares one origin.",
+        "Human and chimpanzee DNA is about 98–99% identical in comparable sequences; human DNA is less similar to that of a mouse, and less again to that of a fish.",
+        "Cytochrome c, a protein used in aerobic respiration in nearly all eukaryotes, has an identical amino-acid sequence in humans and chimpanzees, differs by one amino acid between humans and rhesus monkeys, and differs more in more distantly related organisms such as yeast.",
+        "The trees built from DNA and proteins largely agree with those built from anatomy and fossils. Independent lines of evidence giving the same pattern are strong support for evolution.",
+        "Molecular evidence has also corrected some classifications based on appearance, e.g. the domains of life (see Domains of life)."
+      ]
+    },
+    {
+      "h": "Antibiotic resistance as natural selection",
+      "points": [
+        "An antibiotic is a drug that kills or stops the growth of bacteria; antibiotics have no effect on viruses. Antibiotic resistance is the ability of bacteria to survive an antibiotic that would normally kill them.",
+        "1. A bacterial population varies: a few bacteria carry a mutation (or a resistance gene on a plasmid) that makes them resistant, e.g. by producing an enzyme that breaks down the antibiotic.",
+        "2. The antibiotic kills the non-resistant bacteria.",
+        "3. The resistant bacteria survive and, with less competition, reproduce rapidly by binary fission, as often as every 20 minutes in ideal conditions.",
+        "4. They pass the resistance gene to their offspring, and can pass plasmids carrying it to other bacteria, even of other species.",
+        "5. The population soon becomes mostly resistant, and the antibiotic no longer works.",
+        "The resistance mutations are present before the antibiotic is used: the antibiotic selects them but does not cause them. In 1952 Joshua and Esther Lederberg showed this by growing bacteria that had never met the antibiotic and finding resistant colonies already among them.",
+        "Diagram: four panels of a bacterial population: mostly non-resistant cells with a few resistant ones (shaded), then antibiotic added and non-resistant cells die, then resistant cells multiply, then the population is mostly resistant."
+      ]
+    },
+    {
+      "h": "Why antibiotic resistance is evidence for evolution",
+      "points": [
+        "MRSA (methicillin-resistant Staphylococcus aureus) is resistant to many common antibiotics and causes infections that are hard to treat, especially in hospitals.",
+        "Natural selection is observed directly, within years, because bacteria have huge populations and very short generation times.",
+        "Overuse of antibiotics, e.g. prescribing them for viral infections or in farm animals, speeds up resistance by applying selection more often. Its health and sustainability impacts are covered in Science, scientists and society and The cross-cutting themes."
+      ]
+    },
+    {
+      "h": "Natural selection observed in the wild",
+      "points": [
+        "Peter and Rosemary Grant studied the medium ground finch on the Galápagos island of Daphne Major. In a drought in 1977, small soft seeds became scarce and mainly large, hard seeds were left.",
+        "Most finches died, but birds with deeper (larger) beaks, which could crack the hard seeds, survived more, and their offspring had, on average, deeper beaks than the generation before.",
+        "Natural selection was measured happening in one generation.",
+        "Biogeography (the distribution of species): species on oceanic islands resemble those on the nearest mainland rather than those on islands with similar conditions elsewhere; the Galápagos species resemble South American species.",
+        "This is explained by colonisation from the mainland followed by evolution, not by separate creation for each environment."
+      ]
+    },
+    {
+      "h": "Speciation",
+      "points": [
+        "Speciation is the formation of new species. A species is a group that can interbreed to produce fertile offspring (see Key concepts of information transfer), so a new species has formed when two populations can no longer interbreed: they are reproductively isolated.",
+        "Speciation by geographical isolation, step by step: 1. A population is split by a barrier, such as a sea, a mountain range or a river, so the two groups no longer interbreed.",
+        "2. Different mutations arise in each group.",
+        "3. The environments differ, so natural selection favours different characteristics in each.",
+        "4. Over many generations the two populations become so different that they could not interbreed even if they met; they are now separate species.",
+        "Example: more than a dozen species of finch on the Galápagos are descended from a common ancestor that arrived from the South American mainland.",
+        "Populations on different islands, eating different foods, evolved beaks of different shapes, e.g. large, deep beaks for cracking seeds and thin, pointed beaks for catching insects.",
+        "Speciation without geographical isolation: in plants, a new species can form in one or a few generations when a change in chromosome number (polyploidy, see Variation) makes offspring unable to breed with the parent species.",
+        "Example: the cordgrass Spartina anglica arose in southern England in the late 1800s from a cross between a native European cordgrass and an introduced American one, followed by doubling of the chromosomes, which made the hybrid fertile. It is now a separate, widespread species, including on Irish coasts.",
+        "Why it is evidence: new species have been seen to form, and the pattern of species (groups of similar species on neighbouring islands) is what the theory predicts.",
+        "Diagram: a flow diagram of geographical speciation: one population, then a barrier divides it, then different mutations and selection on each side, then two species that can't interbreed."
+      ]
+    },
+    {
+      "h": "Weighing the evidence",
+      "points": [
+        "Each source has limitations (an incomplete fossil record, embryos similar only early on, analogous structures that can mislead), but the sources are independent of each other and all point to the same conclusion: common descent with change over time, driven largely by natural selection.",
+        "Antibiotic resistance, the finch beaks, the peppered moth (see The theory of evolution by natural selection) and new species such as Spartina anglica show evolution happening now."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Fossil",
+      "definition": "The preserved remains or traces of an organism that lived long ago, usually formed when it was buried in sediment and its hard parts were replaced by minerals."
+    },
+    {
+      "term": "Radiometric dating",
+      "definition": "A method of dating rocks by measuring the decay of radioactive elements, giving ages in years."
+    },
+    {
+      "term": "Transitional fossil",
+      "definition": "A fossil that shows features of two groups, such as Archaeopteryx or Tiktaalik."
+    },
+    {
+      "term": "Homologous structure",
+      "definition": "A structure with the same basic structure in different species, inherited from a common ancestor but adapted for different functions."
+    },
+    {
+      "term": "Analogous structure",
+      "definition": "A structure with the same function in different species but a different structure and origin, showing convergent evolution rather than common ancestry."
+    },
+    {
+      "term": "Vestigial structure",
+      "definition": "A reduced structure with little or no function, which was functional in the organism's ancestors."
+    },
+    {
+      "term": "Phylogeny",
+      "definition": "The evolutionary history of a group of organisms, shown by phylogenetic trees."
+    },
+    {
+      "term": "Plasmid",
+      "definition": "A small loop of DNA in a bacterium, separate from its chromosome, which can carry resistance genes between bacteria."
+    },
+    {
+      "term": "Speciation",
+      "definition": "The formation of new species, which happens when two populations become reproductively isolated."
+    },
+    {
+      "term": "Reproductive isolation",
+      "definition": "The state in which two populations can no longer interbreed to produce fertile offspring."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe how fossil evidence supports the theory of evolution, and give one limitation of the fossil record.",
+      "model": "Fossils form when an organism is buried quickly in sediment and its hard parts are replaced by minerals. In undisturbed rock layers the deeper layers are older, and radiometric dating gives ages in years. The oldest rocks contain only simple, single-celled life, and more complex organisms appear in younger rocks in a consistent order, e.g. fish before amphibians, and reptiles before birds and mammals. Transitional fossils such as Archaeopteryx, which had feathers and wings like a bird but teeth, a long bony tail and clawed fingers like a reptile, show features of two groups. The horse series over more than 50 million years runs from Hyracotherium, with four toes on its front feet, to the modern horse with a single toe. Limitation: the fossil record is incomplete, because fossils form only in rare conditions and soft-bodied organisms seldom fossilise, so many species have left no record."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how a population of bacteria becomes resistant to an antibiotic, and why this is evidence for evolution by natural selection.",
+      "model": "A bacterial population varies, and a few bacteria carry a mutation, or a resistance gene on a plasmid, that makes them resistant, e.g. by producing an enzyme that breaks down the antibiotic. The antibiotic kills the non-resistant bacteria. The resistant bacteria survive and, with less competition, reproduce rapidly by binary fission, as often as every 20 minutes in ideal conditions. They pass the resistance gene to their offspring, and can pass plasmids to other bacteria, so the population soon becomes mostly resistant and the antibiotic no longer works. The resistance mutations are present before the antibiotic is used: the antibiotic selects them but does not cause them, as Joshua and Esther Lederberg showed in 1952. This is evidence for evolution because it is a change in the frequency of inherited resistance alleles caused by selection, observed directly within years, because bacteria have huge populations and very short generation times."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how comparative anatomy and embryology provide evidence for evolution.",
+      "model": "Comparative anatomy: homologous structures have the same basic structure because they were inherited from a common ancestor but are adapted for different functions. The pentadactyl limb of the human arm, bat wing, whale flipper and horse leg all have one upper bone (humerus), two lower bones (radius and ulna), carpals, metacarpals and phalanges, differently shaped and sized. Vestigial structures, such as the human coccyx, the remains of a tail, make sense only if the organism descended from ancestors that used them. Embryology: the early embryos of all vertebrates look very similar, all having a tail and pharyngeal pouches. In fish these pouches develop into gills, while in humans they develop into parts of the ear, jaw and throat, and the tail is reduced to the coccyx. The shared early stages suggest that all vertebrates inherited the same basic plan of development from a common ancestor, which was then modified in each group."
+    }
+  ]
+}

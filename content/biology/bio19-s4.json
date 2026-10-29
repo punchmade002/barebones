@@ -1,0 +1,76 @@
+{
+  "loId": "bio19-s4",
+  "chapterId": "bio19",
+  "subsection": "Neurotransmission",
+  "syllabusRef": "2.4.7",
+  "notes": [
+    {
+      "h": "Impulses along a chain of neurons",
+      "b": "A nerve impulse passes along a chain of neurons from receptor to effector.",
+      "points": [
+        "The chain runs receptor, sensory neuron, interneuron or interneurons, motor neuron, effector.",
+        "Within a neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions moving in and out of the neuron.",
+        "Between neurons the impulse is passed on chemically, across a synapse."
+      ]
+    },
+    {
+      "h": "The synapse",
+      "b": "A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre.",
+      "points": [
+        "The two cells do not touch; a tiny gap called the synaptic cleft separates them.",
+        "The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron.",
+        "The presynaptic axon ends in a swollen synaptic knob containing mitochondria and vesicles of neurotransmitter.",
+        "A neurotransmitter is a chemical released by a neuron that carries the impulse across a synapse.",
+        "Examples of neurotransmitters are acetylcholine, noradrenaline, dopamine and serotonin."
+      ]
+    },
+    {
+      "h": "Drawing a synapse",
+      "points": [
+        "Diagram: synapse labelling presynaptic neuron, synaptic knob, mitochondria, vesicles, neurotransmitter molecules, synaptic cleft, receptor proteins on the postsynaptic membrane, postsynaptic neuron, and an arrow for the direction of the impulse."
+      ]
+    },
+    {
+      "h": "How the impulse crosses the synapse",
+      "points": [
+        "1. The impulse arrives at the synaptic knob.",
+        "2. This causes calcium ions (Ca²⁺) to move into the knob.",
+        "3. The calcium ions trigger vesicles to move to the presynaptic membrane, fuse with it and release neurotransmitter into the cleft.",
+        "4. The neurotransmitter diffuses across the cleft.",
+        "5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter.",
+        "6. Binding opens ion channels in the postsynaptic membrane, ions move in, and a new impulse starts in the postsynaptic neuron if enough neurotransmitter binds.",
+        "Mitochondria in the knob supply ATP for making and releasing neurotransmitter."
+      ]
+    },
+    {
+      "h": "Roles of synapses",
+      "points": [
+        "Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors.",
+        "A weak stimulus may release too little neurotransmitter to start a new impulse, so synapses filter out unimportant signals.",
+        "One neuron can synapse with many others, so impulses can be spread to many cells or combined from many cells.",
+        "Many drugs act at synapses; this is described in Conduction across the synaptic cleft and its disruption."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Synapse", "definition": "The junction between two neurons, or between a neuron and an effector, across which impulses are passed chemically." },
+    { "term": "Synaptic cleft", "definition": "The tiny gap that separates the presynaptic and postsynaptic cells at a synapse." },
+    { "term": "Presynaptic neuron", "definition": "The neuron before the synaptic cleft, which releases neurotransmitter." },
+    { "term": "Postsynaptic neuron", "definition": "The neuron after the synaptic cleft, which has receptors for the neurotransmitter." },
+    { "term": "Synaptic knob", "definition": "The swollen end of a presynaptic axon, containing mitochondria and neurotransmitter vesicles." },
+    { "term": "Neurotransmitter", "definition": "A chemical released by a neuron that carries the impulse across a synapse." },
+    { "term": "Receptor protein", "definition": "A protein on the postsynaptic membrane that binds one specific neurotransmitter." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Explain the role of neurotransmitters in the transmission of an impulse across a synapse.",
+      "model": "A synapse is the junction between two neurons, separated by a tiny gap called the synaptic cleft. When the impulse arrives at the synaptic knob of the presynaptic neuron, calcium ions move into the knob and trigger vesicles to fuse with the presynaptic membrane and release neurotransmitter into the cleft. The neurotransmitter, a chemical that carries the impulse across the synapse, diffuses across the cleft and binds to specific receptor proteins on the postsynaptic membrane, each receptor fitting only its own neurotransmitter. Binding opens ion channels, ions move into the postsynaptic neuron, and if enough neurotransmitter binds a new impulse starts in that neuron."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two functions of synapses and explain why an impulse can cross a synapse in one direction only.",
+      "model": "Two functions: a weak stimulus that releases too little neurotransmitter is filtered out, and one neuron can spread signals to many others or combine signals from many others. An impulse crosses in one direction only because vesicles are found only on the presynaptic side and receptors only on the postsynaptic side, so neurotransmitter is released in one direction and received in the other."
+    }
+  ]
+}

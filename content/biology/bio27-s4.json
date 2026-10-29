@@ -1,0 +1,113 @@
+{
+  "loId": "bio27-s4",
+  "chapterId": "bio27",
+  "subsection": "Absorption, transport and storage",
+  "syllabusRef": "2.6.5",
+  "notes": [
+    {
+      "h": "Adaptations of the small intestine for absorption",
+      "points": [
+        "Most absorption of digested food, and most of the water, takes place in the small intestine, mainly in the ileum.",
+        "The surface area is huge: the intestine is very long, its inner wall is folded, the folds are covered in millions of villi (singular villus), which are tiny finger-like projections, and the cells covering each villus have microvilli, microscopic projections of their cell membranes.",
+        "The diffusion distance is short: the lining of each villus (epithelium) is only one cell thick, and the capillaries lie just beneath it.",
+        "A steep concentration gradient is kept by a dense network of blood capillaries in each villus, whose blood flow constantly carries absorbed products away, and by peristalsis, which keeps moving fresh digested food past the surface."
+      ]
+    },
+    {
+      "h": "Lacteals and lining cells",
+      "points": [
+        "Each villus has a lacteal, a lymph vessel in its centre, which absorbs fats.",
+        "The lining cells have many mitochondria to supply ATP for active transport. Goblet cells in the lining secrete mucus.",
+        "Diagram: a longitudinal section of a villus labelled epithelium (one cell thick), microvilli, goblet cell, blood capillary network, arteriole (bringing blood in), venule (leading to the hepatic portal vein), lacteal, and an arrow for the direction of absorption."
+      ]
+    },
+    {
+      "h": "How each product is absorbed",
+      "points": [
+        "Glucose and amino acids enter the lining cells of the villus by diffusion and by active transport (using ATP), so they are absorbed even when their concentration in the gut is lower than in the blood. They then pass into the blood capillaries.",
+        "Fatty acids and glycerol diffuse into the lining cells, because they pass easily through the lipid membrane, and are recombined there into fats. The fats are coated with protein and pass into the lacteal, not the blood capillaries.",
+        "Lymph carries the fats through the lymphatic system, which drains into the blood in a large vein near the heart. Fat-soluble vitamins (A, D, E and K) are absorbed with them (see Vitamins).",
+        "Water is absorbed by osmosis, following the absorbed solutes. Most water is absorbed in the small intestine; the large intestine absorbs most of what is left.",
+        "Minerals and water-soluble vitamins are absorbed into the blood capillaries by diffusion and active transport. Vitamin D is needed to absorb calcium (see Vitamins)."
+      ]
+    },
+    {
+      "h": "The hepatic portal vein",
+      "points": [
+        "The blood capillaries of the villi join to form veins that unite as the hepatic portal vein, which carries blood from the small intestine, and the rest of the gut, directly to the liver, not to the heart.",
+        "A portal vein carries blood between two capillary networks: it begins in capillaries (in the villi) and ends in capillaries (in the liver). The hepatic portal vein is the example to give.",
+        "Its blood is rich in absorbed glucose, amino acids, water-soluble vitamins and minerals after a meal; the amounts vary greatly with what has been eaten. It is low in oxygen because it has already passed through the gut wall.",
+        "The products go to the liver first because the liver processes and stores them and adjusts what is released to the rest of the body, keeping blood glucose and amino-acid levels steady. Blood leaves the liver in the hepatic vein, which joins the vena cava. The liver also receives oxygen-rich blood in the hepatic artery. The full circulation route is in Circulation.",
+        "Fats do not travel in the hepatic portal vein at first: they reach the blood through the lymph."
+      ]
+    },
+    {
+      "h": "Glycogen storage in the liver",
+      "points": [
+        "After a meal, blood glucose rises. Insulin, released by the pancreas, causes liver cells to take up glucose and convert it into glycogen, an insoluble storage polysaccharide (structure in Structures of biomolecules). Muscle cells also store glycogen.",
+        "Between meals, or during exercise, when blood glucose falls, the liver breaks glycogen back down into glucose and releases it into the blood, so the brain and other cells have a steady supply. The feedback loop is covered in Homeostasis as a stimulus-response model.",
+        "The liver can store only a limited amount of glycogen. Glucose beyond this is converted into fat and stored in adipose tissue (see Metabolic roles and nutritional sources).",
+        "The liver also stores iron and vitamins A, D and B12."
+      ]
+    },
+    {
+      "h": "Deamination of excess amino acids",
+      "points": [
+        "Absorbed amino acids are carried to all body cells and used to make proteins for growth and repair, enzymes, hormones and antibodies; this is assimilation.",
+        "Excess amino acids cannot be stored. Step 1: in the liver, the amino group (–NH₂) is removed from each excess amino acid; this is deamination.",
+        "Step 2: the amino group forms ammonia, which is very toxic.",
+        "Step 3: liver cells immediately convert the ammonia into urea, which is much less toxic.",
+        "Step 4: urea passes into the blood, is carried to the kidneys, and is excreted in urine (see The urinary system).",
+        "The rest of the amino acid, the part without nitrogen, is not wasted: it is respired to release energy, or converted into glucose, glycogen or fat.",
+        "A very high-protein diet means more deamination and more urea for the kidneys to excrete."
+      ]
+    },
+    {
+      "h": "Other roles of the liver",
+      "points": [
+        "The liver makes bile, breaks down old red blood cells (forming bile pigments), and breaks down alcohol and many drugs (detoxification)."
+      ]
+    },
+    {
+      "h": "The large intestine: water absorption and faeces",
+      "points": [
+        "Material entering the large intestine is watery and contains what could not be digested or absorbed: mainly dietary fibre (cellulose), with dead cells shed from the gut lining, bile pigments, mucus and bacteria.",
+        "The colon absorbs most of the remaining water, by osmosis, and some mineral ions into the blood, so the contents become semi-solid faeces. This saves water for the body.",
+        "Bacteria in the colon (the gut microbiota) feed on undigested material, including some fibre, and make vitamin K and some B vitamins, which are absorbed. Their wider role in health is covered in The microbiome.",
+        "Faeces are moved by peristalsis to the rectum and stored there. When the rectum fills, stretch receptors give the urge to egest; the anal sphincters relax and the faeces are pushed out through the anus.",
+        "If faeces move too slowly, too much water is absorbed and they become hard and difficult to pass (constipation); fibre and water prevent this (see Diet). If they move too fast, as in a gut infection, too little water is absorbed and diarrhoea results, which can cause dangerous dehydration, especially in young children."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Villus", "definition": "A tiny finger-like projection of the small intestine wall, covered in epithelium and capillaries, that increases the absorbing surface." },
+    { "term": "Microvillus", "definition": "A microscopic projection of the cell membrane of a villus cell that greatly increases its surface area." },
+    { "term": "Epithelium", "definition": "The single layer of cells lining a villus, one cell thick, across which products of digestion are absorbed." },
+    { "term": "Lacteal", "definition": "A lymph vessel in the centre of each villus that absorbs fats." },
+    { "term": "Goblet cell", "definition": "A cell in the lining of the small intestine that secretes mucus." },
+    { "term": "Lymph", "definition": "A fluid that drains from tissues and carries absorbed fats through the lymphatic system into the blood." },
+    { "term": "Hepatic portal vein", "definition": "The vein that carries blood from the small intestine and the rest of the gut to the liver, between two capillary networks." },
+    { "term": "Glycogen", "definition": "An insoluble storage polysaccharide made in the liver and muscles from glucose." },
+    { "term": "Deamination", "definition": "The removal of the amino group from excess amino acids in the liver." },
+    { "term": "Ammonia", "definition": "A very toxic compound formed when the amino group is removed from an amino acid, which the liver converts into urea." },
+    { "term": "Urea", "definition": "A less toxic nitrogen compound made in the liver from ammonia and excreted by the kidneys." },
+    { "term": "Gut microbiota", "definition": "The bacteria living in the colon, which ferment undigested material and make vitamin K and some B vitamins." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the blood vessel that carries absorbed glucose from the small intestine to the liver, and explain why it is called a portal vein.",
+      "model": "The hepatic portal vein carries absorbed glucose from the small intestine to the liver. It is called a portal vein because it begins in capillaries, the capillary networks of the villi, and ends in capillaries, the capillary network of the liver, so it lies between two capillary networks rather than carrying blood straight back to the heart."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe what happens to excess amino acids in the human body.",
+      "model": "Excess amino acids cannot be stored. In the liver the amino group is removed, a process called deamination. The amino group forms ammonia, which is very toxic, and liver cells immediately convert the ammonia into urea, which is much less toxic. Urea passes into the blood, is carried to the kidneys and is excreted in urine. The rest of the amino acid, without its nitrogen, is respired to release energy or converted into glucose, glycogen or fat."
+    },
+    {
+      "marks": 12,
+      "prompt": "Draw a labelled diagram of a villus and explain how the small intestine is adapted for the absorption of the products of digestion.",
+      "model": "The diagram shows a villus in longitudinal section with a one-cell-thick epithelium, microvilli, a goblet cell, a blood capillary network, an arteriole and a venule, a lacteal, and an arrow for absorption. The small intestine has a huge surface area: it is very long, its inner wall is folded, it has millions of villi, and the cells have microvilli. The epithelium is one cell thick, so the diffusion distance is short, and the capillaries lie just beneath it. A dense capillary network with constant blood flow carries products away and keeps a steep concentration gradient, and peristalsis keeps fresh food moving past the surface. Each villus has a lacteal that absorbs fats, and the lining cells have many mitochondria to supply ATP for active transport."
+    }
+  ]
+}

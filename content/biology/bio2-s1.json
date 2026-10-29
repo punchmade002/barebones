@@ -1,0 +1,91 @@
+{
+  "loId": "bio2-s1",
+  "chapterId": "bio2",
+  "subsection": "Questioning and predicting",
+  "syllabusRef": "U2.1–U2.2",
+  "notes": [
+    {
+      "h": "Questions that science can investigate",
+      "b": "A scientific investigation starts with a question that evidence can answer. Questions of value, taste, morality or belief cannot be settled by investigation alone.",
+      "points": [
+        "A question is appropriate for scientific investigation when it can be answered by collecting evidence through observation or measurement of the natural world.",
+        "It must refer to things that can be observed, measured or counted, and the answer must be capable of being tested against data.",
+        "Questions science cannot answer by investigation include questions of value, taste, morality or belief, e.g. “Is it wrong to keep animals in zoos?” or “Which flower is the most beautiful?”.",
+        "Science can supply evidence that informs a question of value, e.g. how captivity affects an animal’s stress hormones, but evidence alone cannot settle it. The ethical side of scientific work is covered in Designing and conducting investigations.",
+        "A broad question must be narrowed by naming the factor to be changed and the effect to be measured. “Does temperature affect enzymes?” becomes “How does temperature affect the rate at which catalase breaks down hydrogen peroxide?”",
+        "“Does salt affect plants?” becomes “How does the concentration of a salt solution affect the change in mass of potato cylinders?”",
+        "A good investigable question is specific, names one independent and one dependent variable, can be carried out with available equipment in the time available, and is safe and ethical to carry out."
+      ]
+    },
+    {
+      "h": "From observation to prediction",
+      "b": "Scientific investigation moves in a sequence from a question to a hypothesis, from the hypothesis to a prediction, and then to a test of the prediction.",
+      "points": [
+        "Investigation usually begins with an observation or with existing knowledge that raises a question. The question leads to a hypothesis, the hypothesis leads to a prediction, and the prediction is tested by experiment or further observation.",
+        "A hypothesis is a proposed, testable explanation for an observation, or a proposed relationship between two variables, based on existing scientific knowledge. It explains why something might happen.",
+        "Example of a hypothesis: “Increasing the temperature increases the rate of catalase activity, because molecules move faster and collide more often with the active site, up to the temperature at which the enzyme denatures.”",
+        "A prediction is a specific statement of the result that will be observed if the hypothesis is correct, often written “If … then …”. It says what will happen in this particular experiment, not why.",
+        "Example of a prediction: “If potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions.”",
+        "The hypothesis is the explanation: general, and it gives a reason. The prediction is the expected observation: specific, and a measurable outcome of the planned test. One hypothesis can generate several predictions.",
+        "A null hypothesis states that the independent variable has no effect on the dependent variable, e.g. “The concentration of sucrose has no effect on the change in mass of potato cylinders.” An experiment tests whether the data give reason to reject it.",
+        "Diagram: flow diagram of observation, question, hypothesis, prediction, test, data and conclusion, with an arrow from the conclusion back to a new question, showing that a hypothesis is supported or rejected and the cycle continues."
+      ]
+    },
+    {
+      "h": "What makes a hypothesis testable",
+      "points": [
+        "A testable hypothesis is falsifiable: it is possible to imagine a result that would show it to be wrong.",
+        "“Plants grow better when people talk to them because they enjoy it” is not testable as stated, because enjoyment cannot be measured. “Plants exposed to sound grow taller than plants kept in silence” is testable.",
+        "A testable hypothesis names variables that can be measured or controlled, and it states the direction of the expected effect: an increase or a decrease, not just “will have an effect”.",
+        "A hypothesis is developed from scientific theories and explanations, not from a guess. Collision theory and denaturation support an enzyme-rate hypothesis (see Enzymes).",
+        "Osmosis supports a hypothesis about potato cylinders: water moves from a dilute solution to a more concentrated one across a partially permeable membrane (see Transport Across Membranes).",
+        "Light as the energy source for photosynthesis supports a hypothesis about a light-intensity investigation.",
+        "A hypothesis is supported or not supported by data; a single investigation never proves it. This judgement is made at the conclusion stage (see Producing and analysing data)."
+      ]
+    },
+    {
+      "h": "Strategies for investigating hypotheses",
+      "b": "Each strategy gives different evidence, so compare them on the criteria below.",
+      "points": [
+        "Criteria for comparing strategies: whether it can show cause and effect or only correlation; how many variables can be controlled; how realistic the conditions are; the sample size achievable; time, cost and equipment; safety; and ethics.",
+        "Controlled laboratory experiment: the investigator changes one variable and controls the others. Strength: the strongest evidence that a change in one variable causes a change in another.",
+        "Laboratory limitations: artificial conditions may not match the real world, e.g. an enzyme in a test tube compared with an enzyme in a living cell; some variables cannot be changed in a lab for ethical or practical reasons.",
+        "Field study or survey (observational study): the investigator observes and measures organisms where they live without changing anything, e.g. comparing the number of a plant species in sun and shade.",
+        "Field strengths and limitations: real conditions, and large areas and many organisms can be studied. Many variables cannot be controlled, so they must be measured and recorded, and a survey can show a correlation but not prove a cause.",
+        "Analysis of secondary data (data collected by somebody else), e.g. published datasets, databases of genetic information and government health statistics.",
+        "Secondary data strengths and limitations: large data sets, long time periods, or data the student could never collect, and the analysis is cheap and quick. The user did not control how the data were collected and may not know their quality; the source may lack detail or show bias (see Recognising bias and evaluating sources).",
+        "Modelling and simulation use a physical model or computer simulation to test how a system behaves, e.g. a simulation of population growth. Strength: fast, safe, and able to test conditions impossible in reality.",
+        "A model is only as good as its assumptions, so its predictions must be checked against real data (see Models).",
+        "Trials with human participants, e.g. testing a treatment, are needed for questions about human health. Strength: direct evidence about people.",
+        "Human trials are limited by ethical restrictions, the need for informed consent, high cost and large natural variation between people, so large samples and blinding are needed (see Objectivity and data quality and Designing and conducting investigations).",
+        "Often the best answer uses more than one strategy: a field survey suggests a hypothesis and a laboratory experiment tests it."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Hypothesis", "definition": "A proposed, testable explanation for an observation, based on existing scientific knowledge, which gives a reason for what might happen." },
+    { "term": "Prediction", "definition": "A specific, measurable statement of the result expected in a particular experiment if the hypothesis is correct, often written as “If … then …”." },
+    { "term": "Null hypothesis", "definition": "A statement that the independent variable has no effect on the dependent variable, which an experiment tests." },
+    { "term": "Falsifiable", "definition": "Describes a hypothesis for which it is possible to imagine a result that would show it to be wrong." },
+    { "term": "Secondary data", "definition": "Data collected by somebody else, such as published datasets, databases or government statistics." },
+    { "term": "Observational study", "definition": "An investigation in which the investigator observes and measures organisms where they live without changing any factor." },
+    { "term": "Simulation", "definition": "A physical or computer model used to test how a system behaves under conditions that may be impossible to test in reality." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the difference between a hypothesis and a prediction, using an example from an investigation into the effect of sucrose concentration on potato cylinders.",
+      "model": "A hypothesis is a proposed, testable explanation for an observation, based on scientific knowledge, and it gives a reason. For potato cylinders the hypothesis could be: increasing the concentration of sucrose solution decreases the percentage change in mass of the cylinders, because water moves by osmosis from a dilute solution, which has a higher water concentration, to a more concentrated solution across a partially permeable membrane. A prediction is a specific statement of the result expected in this particular experiment, often written as if … then …, and it does not explain why. For example: if potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions. The hypothesis gives the general reason; the prediction gives the measurable outcome of the planned test."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student asks “Does pollution harm plants?” (a) Explain why this is not yet a good question for investigation. (b) Rewrite it as a testable question. (c) Write a hypothesis for it.",
+      "model": "(a) The question is too broad and cannot yet be investigated. It does not name a pollutant, a plant or a measurable effect, so no variable can be changed or measured as it stands, and the question needs to be narrowed to name the factor to be changed and the effect to be measured. (b) A testable question names one pollutant, its concentration and a measurable plant response, e.g. “How does the concentration of one named pollutant affect the growth of one named plant species, measured as change in height?” (c) A testable hypothesis states a direction and gives a biological reason, e.g. increasing the concentration of the pollutant decreases the growth of the plant, because the pollutant is expected to damage the plant’s cells. The hypothesis is a proposed explanation that the data can support or not support; it cannot be proved true by the investigation."
+    },
+    {
+      "marks": 12,
+      "prompt": "Evaluate the use of a laboratory experiment and a field survey to investigate whether light intensity affects the growth of a plant species.",
+      "model": "A controlled laboratory experiment changes one variable and controls the others, so it gives the strongest evidence that a change in light intensity causes a change in growth. Its limitation is that artificial conditions may not match the real world, so the results may not apply to plants growing outdoors. A field survey observes and measures the plant species where it lives without changing anything, e.g. comparing growth in sun and shade. It has real conditions and can study many plants over a large area, but many variables cannot be controlled, so it shows a correlation between light and growth, not proof that light causes the growth difference. Judged on cause and effect, control and realism, the laboratory experiment is stronger for cause and the field survey is stronger for realism. Used together, the field survey can suggest the hypothesis and the laboratory experiment can test it, which gives the strongest overall evidence."
+    }
+  ]
+}
