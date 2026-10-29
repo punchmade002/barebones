@@ -37,7 +37,11 @@
     {
       "h": "Decoding a sequence (Higher Level only)",
       "points": [
-        "Method: 1. write the mRNA complementary to the DNA strand being read (A → U, T → A, C → G, G → C); 2. split the mRNA into codons, starting from the start codon; 3. find each amino acid in the codon table given in the question; 4. stop at a stop codon; 5. the anticodons are complementary to the codons.",
+        "Method: 1. Write the mRNA complementary to the DNA strand being read (A → U, T → A, C → G, G → C).",
+        "2. Split the mRNA into codons, starting from the start codon.",
+        "3. Find each amino acid in the codon table given in the question.",
+        "4. Stop at a stop codon.",
+        "5. The anticodons are complementary to the codons.",
         "Only AUG and the three stop codons need to be memorised; the other codons come from the codon table given in the question.",
         "Worked example: the DNA strand being read is TAC GGA TTT ACT. The mRNA is AUG CCU AAA UGA, which codes for methionine, proline and lysine, then stops. The tRNA anticodons are UAC, GGA and UUU, with none for UGA. The anticodons have the same sequence as the DNA strand being read, with U in place of T.",
         "Counting: each amino acid needs one codon of three bases, so a protein of 100 amino acids needs at least 300 bases of coding mRNA, plus three for the stop codon, giving 303. A stretch of 90 coding bases codes for 30 amino acids."
@@ -45,14 +49,38 @@
     }
   ],
   "keyTerms": [
-    { "term": "Genetic code", "definition": "The set of rules by which the sequence of bases in mRNA is converted into the sequence of amino acids in a protein." },
-    { "term": "Codon", "definition": "A sequence of three bases on mRNA that codes for one amino acid or a stop signal." },
-    { "term": "Triplet", "definition": "A group of three bases in DNA that corresponds to a codon on mRNA." },
-    { "term": "Anticodon", "definition": "A sequence of three bases on tRNA that is complementary to an mRNA codon." },
-    { "term": "Start codon", "definition": "AUG, which signals where reading of the mRNA begins and codes for methionine." },
-    { "term": "Stop codon", "definition": "One of UAA, UAG or UGA, which codes for no amino acid and signals the end of a protein." },
-    { "term": "Degenerate", "definition": "A feature of the genetic code in which most amino acids are coded by more than one codon." },
-    { "term": "Universal", "definition": "A feature of the genetic code in which almost all living things use the same codons for the same amino acids." }
+    {
+      "term": "Genetic code",
+      "definition": "The set of rules by which the sequence of bases in mRNA is converted into the sequence of amino acids in a protein."
+    },
+    {
+      "term": "Codon",
+      "definition": "A sequence of three bases on mRNA that codes for one amino acid or a stop signal."
+    },
+    {
+      "term": "Triplet",
+      "definition": "A group of three bases in DNA that corresponds to a codon on mRNA."
+    },
+    {
+      "term": "Anticodon",
+      "definition": "A sequence of three bases on tRNA that is complementary to an mRNA codon."
+    },
+    {
+      "term": "Start codon",
+      "definition": "AUG, which signals where reading of the mRNA begins and codes for methionine."
+    },
+    {
+      "term": "Stop codon",
+      "definition": "One of UAA, UAG or UGA, which codes for no amino acid and signals the end of a protein."
+    },
+    {
+      "term": "Degenerate",
+      "definition": "A feature of the genetic code in which most amino acids are coded by more than one codon."
+    },
+    {
+      "term": "Universal",
+      "definition": "A feature of the genetic code in which almost all living things use the same codons for the same amino acids."
+    }
   ],
   "questions": [
     {

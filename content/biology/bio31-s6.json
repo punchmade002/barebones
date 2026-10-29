@@ -77,33 +77,69 @@
     }
   ],
   "keyTerms": [
-    { "term": "J-shaped curve", "definition": "A population curve showing exponential growth when resources are unlimited and environmental resistance is low, rising ever more steeply until a sudden crash. (Higher Level only)" },
-    { "term": "S-shaped (sigmoid) curve", "definition": "A population curve for growth with limited resources, with lag, exponential, deceleration and stationary phases, levelling off at the carrying capacity. (Higher Level only)" },
-    { "term": "Population curve", "definition": "A graph of population size against time, used as a model of how a population changes. (Higher Level only)" },
-    { "term": "Biotic potential", "definition": "The maximum rate at which a population could grow with unlimited resources and no limiting factors. (Higher Level only)" },
-    { "term": "Environmental resistance", "definition": "The combined effect of all the limiting factors that stop a population reaching its biotic potential. (Higher Level only)" },
-    { "term": "Exponential growth", "definition": "Growth in which each generation adds more breeders, so the population increases at an ever-increasing rate. (Higher Level only)" },
-    { "term": "Lag phase", "definition": "The first phase of an S-shaped curve, in which growth is slow because few individuals are breeding. (Higher Level only)" },
-    { "term": "Exponential (log) phase", "definition": "The phase of an S-shaped curve in which growth is rapid because resources are plentiful and births greatly exceed deaths. (Higher Level only)" },
-    { "term": "Deceleration phase", "definition": "The phase of an S-shaped curve in which growth slows as resources run short and density-dependent factors increase. (Higher Level only)" },
-    { "term": "Stationary phase", "definition": "The phase of an S-shaped curve in which the population levels off at the carrying capacity, where births are balanced by deaths. (Higher Level only)" },
-    { "term": "Carrying capacity (K)", "definition": "The maximum population size an environment can support indefinitely, shown as the plateau of an S-shaped curve. (Higher Level only)" },
-    { "term": "Predator–prey cycle", "definition": "The linked rise and fall of predator and prey populations, with the predator peak following the prey peak. (Higher Level only)" }
+    {
+      "term": "J-shaped curve",
+      "definition": "A population curve showing exponential growth when resources are unlimited and environmental resistance is low, rising ever more steeply until a sudden crash."
+    },
+    {
+      "term": "S-shaped (sigmoid) curve",
+      "definition": "A population curve for growth with limited resources, with lag, exponential, deceleration and stationary phases, levelling off at the carrying capacity."
+    },
+    {
+      "term": "Population curve",
+      "definition": "A graph of population size against time, used as a model of how a population changes."
+    },
+    {
+      "term": "Biotic potential",
+      "definition": "The maximum rate at which a population could grow with unlimited resources and no limiting factors."
+    },
+    {
+      "term": "Environmental resistance",
+      "definition": "The combined effect of all the limiting factors that stop a population reaching its biotic potential."
+    },
+    {
+      "term": "Exponential growth",
+      "definition": "Growth in which each generation adds more breeders, so the population increases at an ever-increasing rate."
+    },
+    {
+      "term": "Lag phase",
+      "definition": "The first phase of an S-shaped curve, in which growth is slow because few individuals are breeding."
+    },
+    {
+      "term": "Exponential (log) phase",
+      "definition": "The phase of an S-shaped curve in which growth is rapid because resources are plentiful and births greatly exceed deaths."
+    },
+    {
+      "term": "Deceleration phase",
+      "definition": "The phase of an S-shaped curve in which growth slows as resources run short and density-dependent factors increase."
+    },
+    {
+      "term": "Stationary phase",
+      "definition": "The phase of an S-shaped curve in which the population levels off at the carrying capacity, where births are balanced by deaths."
+    },
+    {
+      "term": "Carrying capacity (K)",
+      "definition": "The maximum population size an environment can support indefinitely, shown as the plateau of an S-shaped curve."
+    },
+    {
+      "term": "Predator–prey cycle",
+      "definition": "The linked rise and fall of predator and prey populations, with the predator peak following the prey peak."
+    }
   ],
   "questions": [
     {
       "marks": 6,
-      "prompt": "Higher Level: Distinguish between a J-shaped and an S-shaped population curve, giving the conditions under which each occurs.",
+      "prompt": "Distinguish between a J-shaped and an S-shaped population curve, giving the conditions under which each occurs.",
       "model": "A J-shaped curve shows exponential growth, with the population rising ever more steeply until a sudden crash. It occurs when resources are unlimited and there is little environmental resistance, e.g. a species arriving in a new habitat with plenty of food, few competitors and no predators, such as rabbits introduced to Australia in 1859. A J-shaped curve does not level off, and growth cannot continue because resources run out or the habitat is damaged. An S-shaped curve shows growth with limited resources. It has lag, exponential, deceleration and stationary phases, and the population levels off at the carrying capacity, where births plus immigration equal deaths plus emigration. It occurs when resources are limited and environmental resistance increases as the population grows, e.g. yeast cells growing in a flask of sugar solution."
     },
     {
       "marks": 12,
-      "prompt": "Higher Level: Draw a labelled S-shaped population curve. Explain the population changes in each phase.",
+      "prompt": "Draw a labelled S-shaped population curve. Explain the population changes in each phase.",
       "model": "Draw population size on the y-axis against time on the x-axis. The curve has four phases, labelled lag, exponential, deceleration and stationary, with a horizontal dashed line marking the carrying capacity (K) and small oscillations about K in the final phase. Lag phase: growth is slow at first, because there are few individuals to breed, they may still be settling in or reaching breeding age, and they are spread out. Exponential (log) phase: growth is rapid, because resources are plentiful and there are now many breeders, so births greatly exceed deaths. Deceleration (transitional) phase: growth slows as resources begin to run short and density-dependent factors, such as competition for food and space, predation, disease and the build-up of waste, increase; the death rate rises and the birth rate falls. Stationary (plateau) phase: the population levels off at the carrying capacity, where births plus immigration equal deaths plus emigration. Births do not stop, but they are balanced by deaths. The population fluctuates around K because of a time lag between a change in numbers and its effect on resources."
     },
     {
       "marks": 9,
-      "prompt": "Higher Level: Consider, using population curves, how the carrying capacity for red squirrels in an Irish woodland could change if grey squirrels arrive and if pine martens later recover.",
+      "prompt": "Consider, using population curves, how the carrying capacity for red squirrels in an Irish woodland could change if grey squirrels arrive and if pine martens later recover.",
       "model": "When grey squirrels arrive, the carrying capacity for red squirrels falls. The grey squirrel competes with the red squirrel for food, and it carries squirrelpox virus, which is usually fatal to red squirrels. The red squirrel population therefore declines to a new, lower plateau on its curve, or to extinction if the carrying capacity falls to zero. If pine martens later recover, they prey on grey squirrels, reducing their numbers where martens are common. The grey squirrel population falls, so the limiting pressure on red squirrels eases, and the carrying capacity for red squirrels rises again. The red squirrel population then rises towards a higher plateau. A sketch would show the curve falling to a lower plateau after the grey squirrels arrive, and then rising again as pine martens recover."
     }
   ]

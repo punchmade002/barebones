@@ -93,7 +93,7 @@
       "h": "Speciation",
       "points": [
         "Speciation is the formation of new species. A species is a group that can interbreed to produce fertile offspring (see Key concepts of information transfer), so a new species has formed when two populations can no longer interbreed: they are reproductively isolated.",
-        "Speciation by geographical isolation, step by step: 1. a population is split by a barrier, such as a sea, a mountain range or a river, so the two groups no longer interbreed.",
+        "Speciation by geographical isolation, step by step: 1. A population is split by a barrier, such as a sea, a mountain range or a river, so the two groups no longer interbreed.",
         "2. Different mutations arise in each group.",
         "3. The environments differ, so natural selection favours different characteristics in each.",
         "4. Over many generations the two populations become so different that they could not interbreed even if they met; they are now separate species.",
@@ -114,16 +114,46 @@
     }
   ],
   "keyTerms": [
-    { "term": "Fossil", "definition": "The preserved remains or traces of an organism that lived long ago, usually formed when it was buried in sediment and its hard parts were replaced by minerals." },
-    { "term": "Radiometric dating", "definition": "A method of dating rocks by measuring the decay of radioactive elements, giving ages in years." },
-    { "term": "Transitional fossil", "definition": "A fossil that shows features of two groups, such as Archaeopteryx or Tiktaalik." },
-    { "term": "Homologous structure", "definition": "A structure with the same basic structure in different species, inherited from a common ancestor but adapted for different functions." },
-    { "term": "Analogous structure", "definition": "A structure with the same function in different species but a different structure and origin, showing convergent evolution rather than common ancestry." },
-    { "term": "Vestigial structure", "definition": "A reduced structure with little or no function, which was functional in the organism's ancestors." },
-    { "term": "Phylogeny", "definition": "The evolutionary history of a group of organisms, shown by phylogenetic trees." },
-    { "term": "Plasmid", "definition": "A small loop of DNA in a bacterium, separate from its chromosome, which can carry resistance genes between bacteria." },
-    { "term": "Speciation", "definition": "The formation of new species, which happens when two populations become reproductively isolated." },
-    { "term": "Reproductive isolation", "definition": "The state in which two populations can no longer interbreed to produce fertile offspring." }
+    {
+      "term": "Fossil",
+      "definition": "The preserved remains or traces of an organism that lived long ago, usually formed when it was buried in sediment and its hard parts were replaced by minerals."
+    },
+    {
+      "term": "Radiometric dating",
+      "definition": "A method of dating rocks by measuring the decay of radioactive elements, giving ages in years."
+    },
+    {
+      "term": "Transitional fossil",
+      "definition": "A fossil that shows features of two groups, such as Archaeopteryx or Tiktaalik."
+    },
+    {
+      "term": "Homologous structure",
+      "definition": "A structure with the same basic structure in different species, inherited from a common ancestor but adapted for different functions."
+    },
+    {
+      "term": "Analogous structure",
+      "definition": "A structure with the same function in different species but a different structure and origin, showing convergent evolution rather than common ancestry."
+    },
+    {
+      "term": "Vestigial structure",
+      "definition": "A reduced structure with little or no function, which was functional in the organism's ancestors."
+    },
+    {
+      "term": "Phylogeny",
+      "definition": "The evolutionary history of a group of organisms, shown by phylogenetic trees."
+    },
+    {
+      "term": "Plasmid",
+      "definition": "A small loop of DNA in a bacterium, separate from its chromosome, which can carry resistance genes between bacteria."
+    },
+    {
+      "term": "Speciation",
+      "definition": "The formation of new species, which happens when two populations become reproductively isolated."
+    },
+    {
+      "term": "Reproductive isolation",
+      "definition": "The state in which two populations can no longer interbreed to produce fertile offspring."
+    }
   ],
   "questions": [
     {
