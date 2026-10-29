@@ -71,6 +71,11 @@ at a time**; the build warns about part-written chapters.
 - `notes`: usually 4–10 blocks per subsection, each with 3–10 points.
 - `keyTerms`: the subsection's essential vocabulary for flashcards, one sentence each. These
   can overlap with the notes, because flashcards are a separate study mode.
+- `factCards` (optional): flashcards for what the key terms don't test: case-study facts,
+  formation stages, named examples, key figures and the lists examiners ask for. Each is
+  `{ "term": "Aswan High Dam: four benefits", "definition": "..." }`. The front is a specific
+  cue or short question (it doubles as a test question); the back is one or two sentences.
+  Use only facts from the subsection's package. The app shows them after the key terms.
 - `questions` (optional): exam-style practice questions for the subsection, each
   `{ "marks": 30, "prompt": "...", "model": "..." }`, with the model answer as plain text.
 - No markdown inside strings: no `**`, no headings, no line breaks. The app strips them.
