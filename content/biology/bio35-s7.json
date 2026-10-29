@@ -1,0 +1,268 @@
+{
+  "loId": "bio35-s7",
+  "chapterId": "bio35",
+  "subsection": "Ethics of genetic technologies",
+  "syllabusRef": "3.3.7",
+  "notes": [
+    {
+      "h": "How to discuss an ethical issue",
+      "points": [
+        "1. Say what the technology does and what is new about it.",
+        "2. Identify who is affected: the person tested or treated, relatives, future children, society, other species, and the environment.",
+        "3. Give arguments for and against, linking each to a principle: autonomy and consent, doing good (beneficence), avoiding harm (non-maleficence), justice and fairness, privacy, and the precautionary principle (see “Science, scientists and society”).",
+        "4. Say what rules or safeguards exist or could be added.",
+        "5. Reach a justified conclusion.",
+        "Ethics is decided by reasoning about values informed by evidence: science says what can be done and with what risks, not whether it should be done."
+      ]
+    },
+    {
+      "h": "Genetic data: what is special about it",
+      "points": [
+        "Genetic data is permanent: it cannot be changed like a password.",
+        "It identifies a person, it predicts some future health risks, and it is shared with relatives, so one person’s test reveals information about family members who did not consent.",
+        "Under the EU’s General Data Protection Regulation (GDPR, applying since 2018), genetic data is a special category of personal data with extra protection."
+      ]
+    },
+    {
+      "h": "Genetic data: health and research",
+      "points": [
+        "For: large databases of genomes and health records (biobanks) speed research into the causes and treatments of disease, and allow faster diagnosis of rare diseases (see “Bioinformatics: genome databases”).",
+        "Against: there is a risk of data leaks, or of re-identification of people from “anonymous” data.",
+        "Against: people must give informed consent and know how their data will be used and shared.",
+        "Against: questions arise about who profits from discoveries made with donated data."
+      ]
+    },
+    {
+      "h": "Genetic data: insurance and employment",
+      "points": [
+        "For: insurers or employers could charge more or refuse people with a high genetic risk. This would be unjust, because people don’t choose their genes, and fear of it could stop people having useful tests.",
+        "In Ireland the Disability Act 2005 prohibits the use of genetic test results in insurance, pensions, mortgages and employment.",
+        "In the USA the Genetic Information Nondiscrimination Act (2008) protects against discrimination in health insurance and employment.",
+        "Argument on the other side: insurers say that if customers know their risk and insurers don’t, pricing becomes unfair."
+      ]
+    },
+    {
+      "h": "Genetic data: forensics and national DNA databases",
+      "points": [
+        "For: national DNA databases solve crimes, including old cases, and clear innocent people.",
+        "Ireland’s database was set up under the Criminal Justice (Forensic Evidence and DNA Database System) Act 2014.",
+        "Against: privacy, especially when profiles are kept of people who were arrested but never convicted.",
+        "In S and Marper v United Kingdom (2008), the European Court of Human Rights ruled that the UK’s keeping of the DNA of people not convicted of any crime breached their right to privacy.",
+        "Against: groups that are policed more heavily are over-represented on databases.",
+        "Against: a match can be given too much weight in court (see “DNA profiling”)."
+      ]
+    },
+    {
+      "h": "Genetic data: ancestry tests and police access",
+      "points": [
+        "People send DNA to companies for ancestry tests, and may upload it to public genealogy websites.",
+        "In 2018 police in California identified the “Golden State Killer”, Joseph James DeAngelo, by matching crime-scene DNA with distant relatives who had uploaded their DNA to such a website.",
+        "For: serious crimes were solved. Against: the relatives never consented to police use of their DNA.",
+        "Company data can be hacked or sold: in 2023 a data breach at the testing company 23andMe exposed the ancestry information of millions of customers."
+      ]
+    },
+    {
+      "h": "Genetic data: industry, patents and justice",
+      "points": [
+        "For: companies invest in genetic tests and treatments and need patents to recover the cost.",
+        "Against: patenting human genes lets one company control testing and set high prices.",
+        "In 2013 the US Supreme Court ruled, in the case against Myriad Genetics, which held patents on the BRCA1 and BRCA2 genes (see “Causes, prevention and treatment of cancer”), that naturally occurring human DNA cannot be patented. After this, other laboratories began offering BRCA tests.",
+        "Justice: benefits from the genetic resources of poorer countries (e.g. crop varieties, local plants) should be shared with them."
+      ]
+    },
+    {
+      "h": "Genetic data: agriculture",
+      "points": [
+        "For: genetic data on crops and livestock speeds the breeding of higher-yielding, disease-resistant varieties.",
+        "Against: control of seed varieties and their genetic data by a few large companies, and loss of traditional varieties."
+      ]
+    },
+    {
+      "h": "GM crops",
+      "points": [
+        "For: higher yields and less crop loss.",
+        "For: Bt crops need less insecticide spraying, which protects farm workers and other insects (see “Genetic engineering”).",
+        "For: crops can be modified for drought or salt tolerance, or for added nutrition (Golden Rice and vitamin A deficiency). They could help feed a growing population on less land.",
+        "Major scientific bodies have found approved GM foods to be as safe to eat as their conventional equivalents.",
+        "Against: genes can spread in pollen to wild relatives or to non-GM and organic crops nearby (gene flow).",
+        "Against: weeds have evolved resistance to the herbicide glyphosate where herbicide-tolerant crops are sprayed repeatedly, and some insect pests have evolved resistance to Bt toxins (natural selection; see “The theory of evolution by natural selection”).",
+        "Against: large areas of a single crop reduce biodiversity.",
+        "Against: patented seed must be bought each year, making farmers dependent on companies.",
+        "Against: consumers have a right to choose, so the EU requires food containing more than 0.9% GM material to be labelled.",
+        "Against: some people object that GM is unnatural (“playing God”).",
+        "Golden Rice: supporters say opposition has delayed a way to save children’s sight and lives. Opponents say vitamin A deficiency is better tackled by a more varied diet and supplements, and that its approval in the Philippines has been challenged in court."
+      ]
+    },
+    {
+      "h": "GM animals",
+      "points": [
+        "For: faster-growing food animals such as AquAdvantage salmon (see “Genetic engineering”) need less feed per kilogram of food.",
+        "For: GM animals model human diseases in medical research.",
+        "Against: animal welfare (the 3Rs; see “Science, scientists and society”).",
+        "Against: risk to wild populations if GM fish escape and breed.",
+        "Against: public unease about eating GM animals."
+      ]
+    },
+    {
+      "h": "Gene therapy and gene editing in humans",
+      "points": [
+        "For: these can treat or cure serious genetic diseases, e.g. the CRISPR treatment for sickle-cell disease approved in the UK in 2023 (see “Genetic engineering”).",
+        "For: the changes are in the patient’s body cells only, so only a consenting patient is affected.",
+        "Against: long-term risks are not yet known, including edits at the wrong place in the genome.",
+        "Against: treatments are extremely expensive, so access is unequal (justice)."
+      ]
+    },
+    {
+      "h": "Germline editing in humans",
+      "points": [
+        "Changes to eggs, sperm or embryos would be passed to all future generations, who cannot consent.",
+        "In November 2018 the scientist He Jiankui announced in China the birth of twin girls whose embryos he had edited with CRISPR to try to make them resistant to HIV.",
+        "It was condemned worldwide as unsafe, unnecessary and done without proper consent, and he was sentenced to three years in prison in 2019.",
+        "For: it could in future remove a serious disease allele from a family permanently.",
+        "Against: unknown risks to future generations.",
+        "Against: it could lead to “designer babies” chosen for traits such as height or intelligence rather than to prevent disease, and could increase inequality.",
+        "Germline editing is not allowed in most countries."
+      ]
+    },
+    {
+      "h": "Mitochondrial donation",
+      "b": "The technique is described in “Nuclear and non-nuclear inheritance”; the UK permitted it by law in 2015.",
+      "points": [
+        "For: it lets a woman with a mitochondrial disease have a genetically related child free of that disease.",
+        "For: the donor contributes only the mitochondrial DNA (37 genes), not the nuclear DNA that determines the child’s characteristics.",
+        "Against: it is a germline change, passed on by daughters to their children.",
+        "Against: long-term safety is still being studied.",
+        "Against: questions arise about the donor’s relationship to the child (the “three-parent baby”).",
+        "Against: some fear it is a step towards other germline changes."
+      ]
+    },
+    {
+      "h": "DNA testing: diagnosis and carrier testing",
+      "points": [
+        "For: diagnostic testing confirms a diagnosis so that treatment can start.",
+        "For: carrier testing (e.g. for cystic fibrosis, common in Ireland) informs people’s choices before having children (see “Benefits and limitations of Mendelian genetics”).",
+        "Against: a positive result may reveal that relatives are also carriers, raising questions about whether and how to tell them."
+      ]
+    },
+    {
+      "h": "DNA testing: predictive testing for late-onset disease",
+      "points": [
+        "Huntington’s disease is an example of a late-onset disease with no cure. It is dominant, so a child of an affected parent has a 1 in 2 risk.",
+        "For: predictive testing gives certainty, and the chance to plan life, career and family.",
+        "Against: a positive result may cause great distress, and many people at risk choose not to be tested.",
+        "Against: the right not to know (autonomy) must be respected.",
+        "Testing children is usually delayed until they can decide for themselves.",
+        "Genetic counselling before and after testing is essential."
+      ]
+    },
+    {
+      "h": "DNA testing: risk alleles and reproduction",
+      "points": [
+        "Testing for risk alleles (e.g. BRCA1 and BRCA2; see “Causes, prevention and treatment of cancer”): a positive result gives a raised risk, not certainty, so people face hard decisions about preventive surgery.",
+        "A negative result may give false reassurance.",
+        "Prenatal tests on the foetus and newborn screening are covered in “Prenatal and postnatal care”.",
+        "Preimplantation genetic diagnosis (PGD) tests embryos made by IVF (see “Fertility control and infertility”) so that only embryos without a serious disease allele are implanted.",
+        "For: parents avoid passing on a serious disease.",
+        "Against: unused embryos are destroyed, which some people believe is wrong because an embryo has the moral status of a person.",
+        "Against: there is worry about choosing embryos for non-medical traits (sex, appearance), and concern that it devalues the lives of people living with the condition."
+      ]
+    },
+    {
+      "h": "DNA testing: direct-to-consumer tests",
+      "points": [
+        "For: tests bought online are cheap and convenient, and respect autonomy.",
+        "Against: results given without counselling may be misunderstood, and accuracy varies.",
+        "Against: they may reveal unexpected family relationships, e.g. that a parent is not the biological parent.",
+        "Against: data privacy (see the ancestry tests and police access, above)."
+      ]
+    },
+    {
+      "h": "Stem cells: types and therapeutic uses",
+      "points": [
+        "A stem cell is an unspecialised cell that can divide by mitosis to make more stem cells, and can differentiate into specialised cell types (see “Levels of organisation”).",
+        "Embryonic stem cells, from the inner cell mass of an embryo about five days old (a blastocyst), are pluripotent: they can become any type of body cell.",
+        "Adult (tissue) stem cells, e.g. in bone marrow, skin and the lining of the gut, are multipotent: they can become only a few related cell types. Bone-marrow stem cells give rise to the blood cells.",
+        "Induced pluripotent stem (iPS) cells are adult body cells (e.g. skin cells) reprogrammed in the laboratory, by switching on a few genes, to behave like embryonic stem cells.",
+        "Shinya Yamanaka first made iPS cells (in mice) in 2006, and shared the 2012 Nobel Prize in Physiology or Medicine with John Gurdon.",
+        "iPS cells avoid the use of embryos and, made from a patient’s own cells, would not be rejected by the immune system.",
+        "Therapeutic uses: bone-marrow (stem-cell) transplants already treat leukaemia and some other blood disorders (see “Causes, prevention and treatment of cancer”).",
+        "Skin grown from stem cells treats severe burns.",
+        "Stem-cell treatments are being tested in clinical trials for conditions where cells are lost, e.g. Parkinson’s disease, type 1 diabetes, spinal cord injury, heart damage and some forms of blindness.",
+        "Stem cells grown into tissues are used to test new drugs and to study diseases."
+      ]
+    },
+    {
+      "h": "Cloning",
+      "points": [
+        "A clone is a genetically identical copy.",
+        "Reproductive cloning makes a whole organism by somatic cell nuclear transfer: the nucleus of a body cell is put into an egg cell whose own nucleus has been removed, the egg is stimulated to divide into an embryo, and the embryo is placed in a surrogate mother.",
+        "Dolly the sheep was born on 5 July 1996 at the Roslin Institute near Edinburgh, Scotland. She was the first mammal cloned from an adult body cell (a cell from the udder).",
+        "Dolly was one success from 277 attempts, and died in 2003 aged six.",
+        "Therapeutic cloning uses the same method to make an early embryo only to obtain embryonic stem cells that match the patient; the embryo is not implanted.",
+        "Diagram: somatic cell nuclear transfer as a flow diagram: body cell from adult A → nucleus removed; egg from female B → its nucleus removed; nucleus of A inserted into the empty egg → embryo; then two arrows: implanted in surrogate mother → clone of A (reproductive cloning), or grown in the laboratory → embryonic stem cells → specialised cells for the patient (therapeutic cloning)."
+      ]
+    },
+    {
+      "h": "Stem cells and cloning: the ethical issues",
+      "points": [
+        "Embryonic stem cells, for: they have the potential to treat many serious diseases and relieve great suffering (beneficence).",
+        "Embryonic stem cells, for: the embryos used are often spare embryos from IVF that would otherwise be discarded.",
+        "Embryonic stem cells, against: obtaining the cells destroys an embryo, which those who believe life begins at fertilisation regard as killing a human being.",
+        "Embryonic stem cells, against: there is concern about creating embryos for research.",
+        "Adult and iPS cells largely avoid the embryo issue, but have their own concerns: iPS cells may carry a risk of tumours.",
+        "Unproven “stem-cell clinics” sell untested, expensive and sometimes harmful treatments to desperate patients.",
+        "Consent is needed from donors of cells and tissues.",
+        "Reproductive cloning in animals, for: copying valuable farm animals or conserving endangered species.",
+        "Reproductive cloning in animals, against: low success rates, many failed pregnancies and animal suffering, and clones’ health problems (animal welfare).",
+        "Reproductive cloning in humans is almost universally rejected, because of the risk of serious abnormality, the clone’s identity and individuality, and the use of people as means to an end.",
+        "It is prohibited by the Charter of Fundamental Rights of the European Union.",
+        "Research fraud has also damaged trust in this field (the Hwang Woo-suk case, see “Science as a global enterprise”).",
+        "Therapeutic cloning, for: it produces stem cells that exactly match the patient, so there is no rejection.",
+        "Therapeutic cloning, against: embryos are created to be destroyed.",
+        "Therapeutic cloning, against: it needs many donated eggs, and egg donation carries health risks and could exploit poor women if they are paid.",
+        "Therapeutic cloning, against: it may make reproductive cloning easier."
+      ]
+    },
+    {
+      "h": "Bringing it together",
+      "points": [
+        "Common threads in all these issues: consent (including that of relatives and future generations, who cannot consent); privacy of permanent, shared genetic information; fair access to expensive technologies (justice); the precautionary principle where long-term effects are unknown; and the need for laws and independent ethics committees to keep up with fast-changing technology."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Genetic modification (GM)", "definition": "The deliberate change of an organism’s genes, such as by inserting a gene from another species, as in GM crops and GM animals." },
+    { "term": "Germline change", "definition": "A genetic change to eggs, sperm or embryos, which is passed on to all future generations." },
+    { "term": "Somatic change", "definition": "A genetic change to body cells only, which is not inherited by the next generation." },
+    { "term": "Gene flow", "definition": "The spread of genes from a GM crop, through pollen, to wild relatives or to nearby non-GM crops." },
+    { "term": "Stem cell", "definition": "An unspecialised cell that can divide by mitosis to make more stem cells and can differentiate into specialised cell types." },
+    { "term": "Pluripotent", "definition": "Describes a stem cell that can become any type of body cell, such as an embryonic stem cell." },
+    { "term": "Multipotent", "definition": "Describes an adult stem cell that can become only a few related cell types, such as bone-marrow stem cells that give rise to blood cells." },
+    { "term": "Induced pluripotent stem (iPS) cell", "definition": "An adult body cell reprogrammed in the laboratory to behave like an embryonic stem cell, without using an embryo." },
+    { "term": "Blastocyst", "definition": "An early embryo, about five days old, from whose inner cell mass embryonic stem cells are obtained." },
+    { "term": "Reproductive cloning", "definition": "Making a whole organism that is a genetically identical copy of another, by placing a body-cell nucleus into an egg and implanting the embryo." },
+    { "term": "Therapeutic cloning", "definition": "Making an early embryo, not implanted, only to obtain embryonic stem cells that match the patient." },
+    { "term": "Somatic cell nuclear transfer", "definition": "The method of cloning in which the nucleus of a body cell is put into an egg cell whose own nucleus has been removed." },
+    { "term": "Preimplantation genetic diagnosis (PGD)", "definition": "Testing of embryos made by IVF so that only embryos without a serious disease allele are implanted." },
+    { "term": "Predictive testing", "definition": "DNA testing for a late-onset disease, to find out whether a person has the disease-causing allele before symptoms appear." },
+    { "term": "Carrier testing", "definition": "DNA testing to find out whether a person carries one copy of a recessive disease allele, so they can make informed choices about having children." },
+    { "term": "Direct-to-consumer test", "definition": "A DNA test bought online by the person being tested." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Discuss the ethical issues arising from the growing of genetically modified crops.",
+      "model": "Arguments for: GM crops give higher yields and less crop loss. Bt crops need less insecticide spraying, which protects farm workers and other insects, and crops can be modified for drought tolerance or improved nutrition, as with Golden Rice, which could help feed a growing population on less land. Arguments against: genes can spread by pollen to wild relatives or to nearby non-GM and organic crops (gene flow), and weeds have evolved resistance to glyphosate and some pests have evolved resistance to Bt toxins, through natural selection. Large areas of a single crop reduce biodiversity, and patented seed must be bought each year, making farmers dependent on companies. Conclusion: the benefits of higher yields, less insecticide and better nutrition are real, and major scientific bodies have found approved GM foods to be as safe to eat as conventional equivalents. But the risks of gene flow, resistance and dependence on a few companies mean that the growing of GM crops needs regulation, labelling and monitoring, so that the benefits can be weighed against the environmental and social costs."
+    },
+    {
+      "marks": 9,
+      "prompt": "Distinguish between embryonic and adult stem cells, give one therapeutic use of stem cells, and outline one ethical objection to the use of embryonic stem cells.",
+      "model": "Embryonic stem cells are pluripotent: they come from the inner cell mass of an embryo about five days old (a blastocyst) and can become any type of body cell. Adult stem cells, such as those in bone marrow, skin and the lining of the gut, are multipotent: they can become only a few related cell types. One therapeutic use is a bone-marrow (stem-cell) transplant, which already treats leukaemia and some other blood disorders. One ethical objection to embryonic stem cells is that obtaining them destroys an embryo, which those who believe life begins at fertilisation regard as killing a human being."
+    },
+    {
+      "marks": 12,
+      "prompt": "A national DNA database holds the profiles of convicted criminals. Discuss the ethical issues of (i) also keeping the profiles of people who were arrested but not convicted and (ii) police searching ancestry databases for relatives of suspects.",
+      "model": "(i) For keeping the profiles of people arrested but not convicted: the database would solve more crimes, including old cases, and would clear innocent people. Against: it breaches privacy. In S and Marper v United Kingdom (2008), the European Court of Human Rights ruled that keeping the DNA of people not convicted of any crime breached their right to privacy. Groups that are policed more heavily are also over-represented on databases. (ii) For police searching ancestry databases: the Golden State Killer, Joseph James DeAngelo, was identified in 2018 by matching crime-scene DNA with distant relatives who had uploaded their DNA to a public genealogy website, so serious crimes were solved. Against: the relatives never consented to police use of their DNA, and genetic data is permanent and shared with family members who did not consent. Conclusion: both practices solve crimes, but they weigh the public interest in solving crime against the privacy and consent of people who have not been convicted or who never agreed to be searched, so they need clear legal limits and safeguards."
+    }
+  ]
+}

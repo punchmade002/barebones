@@ -74,7 +74,8 @@ def plain(value, where: str, errors: list[str]) -> None:
             errors.append(f"{where}: contains the internal id {token!r}; name the notes instead")
     low = value.lower()
     for phrase in BANNED_PHRASES:
-        if phrase in low:
+        # Whole phrases only: "in conclusions" (in the spec's definition of evaluate) isn't filler.
+        if re.search(re.escape(phrase) + r"(?!\w)", low):
             errors.append(f'{where}: contains filler "{phrase}"')
 
 

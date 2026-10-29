@@ -16,8 +16,15 @@
       "h": "The double circulation",
       "points": [
         "Humans have a double circulation: in one complete circuit of the body, blood passes through the heart twice. The pulmonary circuit runs heart to lungs to heart, and the systemic circuit runs heart to body organs to heart. The right side of the heart pumps the pulmonary circuit and the left side pumps the systemic circuit (see ‘Investigation: the heart’).",
-        "Pulmonary circuit, step by step: 1. deoxygenated blood is pumped by the right ventricle into the pulmonary artery; 2. the pulmonary artery divides into a branch to each lung; 3. in the lung capillaries the blood picks up oxygen and loses CO₂ (see ‘Gas exchange and the breathing mechanism’); 4. oxygenated blood returns in the pulmonary veins to the left atrium.",
-        "Systemic circuit, step by step: 1. oxygenated blood passes from the left atrium through the bicuspid valve to the left ventricle; 2. the left ventricle pumps it into the aorta; 3. arteries branching from the aorta carry it to every organ, where it passes through capillaries, giving up oxygen and nutrients and collecting CO₂ and wastes; 4. deoxygenated blood returns through veins to the superior and inferior venae cavae and into the right atrium; 5. it passes through the tricuspid valve to the right ventricle, and the pulmonary circuit begins again.",
+        "Pulmonary circuit, step by step: 1. Deoxygenated blood is pumped by the right ventricle into the pulmonary artery.",
+        "2. The pulmonary artery divides into a branch to each lung.",
+        "3. In the lung capillaries the blood picks up oxygen and loses CO₂ (see ‘Gas exchange and the breathing mechanism’).",
+        "4. Oxygenated blood returns in the pulmonary veins to the left atrium.",
+        "Systemic circuit, step by step: 1. Oxygenated blood passes from the left atrium through the bicuspid valve to the left ventricle.",
+        "2. The left ventricle pumps it into the aorta.",
+        "3. Arteries branching from the aorta carry it to every organ, where it passes through capillaries, giving up oxygen and nutrients and collecting CO₂ and wastes.",
+        "4. Deoxygenated blood returns through veins to the superior and inferior venae cavae and into the right atrium.",
+        "5. It passes through the tricuspid valve to the right ventricle, and the pulmonary circuit begins again.",
         "Full route of a red blood cell: vena cava, right atrium, tricuspid valve, right ventricle, semilunar valve, pulmonary artery, lung capillaries, pulmonary vein, left atrium, bicuspid valve, left ventricle, semilunar valve, aorta, artery, arteriole, capillaries of an organ, venule, vein, vena cava.",
         "Advantages of a double circulation: (a) blood returning from the lungs has lost much of its pressure in the lung capillaries, and returning it to the heart lets it be pumped out again at high pressure, so it reaches all the body organs quickly; (b) the two circuits can run at different pressures, high in the systemic circuit to drive blood through the many organs and lower in the pulmonary circuit, so the thin-walled lung capillaries are not damaged and fluid is not forced into the alveoli; (c) the septum keeps oxygenated and deoxygenated blood separate, so the blood reaching the organs is fully oxygenated. Together these deliver oxygen fast enough for the high respiration rate of a warm-blooded, active animal.",
         "Diagram: a schematic of the double circulation. Draw the heart as four boxes (right atrium and ventricle, left atrium and ventricle), with the lungs above and the body organs below. Add arrows for the pulmonary artery, pulmonary veins, aorta and venae cavae. Shade oxygenated blood red and deoxygenated blood blue, and label the pulmonary circuit and the systemic circuit."
@@ -63,17 +70,50 @@
     }
   ],
   "keyTerms": [
-    { "term": "Closed circulatory system", "definition": "A system in which blood stays inside vessels, with materials exchanged with the cells only across capillary walls." },
-    { "term": "Mass flow", "definition": "The movement of a fluid as a whole, which carries dissolved materials quickly through the body." },
-    { "term": "Double circulation", "definition": "A circulation in which blood passes through the heart twice in one complete circuit of the body, once in each circuit." },
-    { "term": "Pulmonary circuit", "definition": "The circuit from the heart to the lungs and back to the heart, carrying blood to be oxygenated." },
-    { "term": "Systemic circuit", "definition": "The circuit from the heart, through the aorta to all the body organs, and back to the heart." },
-    { "term": "Portal system", "definition": "A system in which a vein carries blood from one capillary network to a second capillary network before it returns to the heart." },
-    { "term": "Hepatic portal vein", "definition": "The vein that carries nutrient-rich blood from the gut capillaries to the sinusoids of the liver." },
-    { "term": "Sinusoid", "definition": "A capillary in the liver through which blood from the hepatic portal vein passes." },
-    { "term": "Hepatic artery", "definition": "The artery that carries oxygenated blood from the aorta to the liver." },
-    { "term": "Hepatic vein", "definition": "The vein that carries blood from the liver to the inferior vena cava." },
-    { "term": "Lacteal", "definition": "A lymph vessel in a villus of the small intestine that takes up fats." }
+    {
+      "term": "Closed circulatory system",
+      "definition": "A system in which blood stays inside vessels, with materials exchanged with the cells only across capillary walls."
+    },
+    {
+      "term": "Mass flow",
+      "definition": "The movement of a fluid as a whole, which carries dissolved materials quickly through the body."
+    },
+    {
+      "term": "Double circulation",
+      "definition": "A circulation in which blood passes through the heart twice in one complete circuit of the body, once in each circuit."
+    },
+    {
+      "term": "Pulmonary circuit",
+      "definition": "The circuit from the heart to the lungs and back to the heart, carrying blood to be oxygenated."
+    },
+    {
+      "term": "Systemic circuit",
+      "definition": "The circuit from the heart, through the aorta to all the body organs, and back to the heart."
+    },
+    {
+      "term": "Portal system",
+      "definition": "A system in which a vein carries blood from one capillary network to a second capillary network before it returns to the heart."
+    },
+    {
+      "term": "Hepatic portal vein",
+      "definition": "The vein that carries nutrient-rich blood from the gut capillaries to the sinusoids of the liver."
+    },
+    {
+      "term": "Sinusoid",
+      "definition": "A capillary in the liver through which blood from the hepatic portal vein passes."
+    },
+    {
+      "term": "Hepatic artery",
+      "definition": "The artery that carries oxygenated blood from the aorta to the liver."
+    },
+    {
+      "term": "Hepatic vein",
+      "definition": "The vein that carries blood from the liver to the inferior vena cava."
+    },
+    {
+      "term": "Lacteal",
+      "definition": "A lymph vessel in a villus of the small intestine that takes up fats."
+    }
   ],
   "questions": [
     {

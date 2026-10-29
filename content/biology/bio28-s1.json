@@ -35,8 +35,17 @@
       "h": "The breathing mechanism",
       "points": [
         "Air always moves from a region of higher pressure to one of lower pressure. Breathing changes the volume of the thorax: when the volume increases, the pressure inside the lungs falls below atmospheric pressure and air flows in; when the volume decreases, the pressure rises above atmospheric pressure and air flows out. The lungs have no muscle of their own; they follow the chest wall.",
-        "Inhalation (inspiration) is an active process: 1. the brain sends nerve impulses to the breathing muscles; 2. the diaphragm contracts and flattens, moving downwards; 3. the external intercostal muscles contract, pulling the ribs and sternum upwards and outwards; 4. the volume of the thorax increases; 5. the lungs expand with it, so the pressure inside them falls below atmospheric pressure; 6. air rushes in through the nose and trachea until the pressures are equal. Muscle contraction uses ATP, so inhalation is active.",
-        "Exhalation (expiration) at rest is a passive process: 1. the impulses stop and the diaphragm and external intercostal muscles relax; 2. the diaphragm returns to its dome shape, pushed up by the abdominal organs, and the ribs move down and in under their own weight; 3. the stretched, elastic lung tissue recoils; 4. the volume of the thorax decreases and the pressure in the lungs rises above atmospheric pressure; 5. air is forced out. No muscle contracts, so no energy is used.",
+        "Inhalation (inspiration) is an active process: 1. The brain sends nerve impulses to the breathing muscles.",
+        "2. The diaphragm contracts and flattens, moving downwards.",
+        "3. The external intercostal muscles contract, pulling the ribs and sternum upwards and outwards.",
+        "4. The volume of the thorax increases.",
+        "5. The lungs expand with it, so the pressure inside them falls below atmospheric pressure.",
+        "6. Air rushes in through the nose and trachea until the pressures are equal. Muscle contraction uses ATP, so inhalation is active.",
+        "Exhalation (expiration) at rest is a passive process: 1. The impulses stop and the diaphragm and external intercostal muscles relax.",
+        "2. The diaphragm returns to its dome shape, pushed up by the abdominal organs, and the ribs move down and in under their own weight.",
+        "3. The stretched, elastic lung tissue recoils.",
+        "4. The volume of the thorax decreases and the pressure in the lungs rises above atmospheric pressure.",
+        "5. Air is forced out. No muscle contracts, so no energy is used.",
         "Forced exhalation, as in exercise, coughing, blowing or speaking loudly: the internal intercostal muscles contract, pulling the ribs down and in, and the abdominal muscles contract, pushing the diaphragm up. Air is expelled faster and more completely, so forced exhalation is active.",
         "Inhalation compared with exhalation at rest: the diaphragm contracts and flattens, versus relaxes and domes upwards; the external intercostals contract, versus relax; the ribs move up and out, versus down and in; the thorax volume increases, versus decreases; the lung pressure falls below atmospheric pressure, versus rises above it; air moves in, versus out; inhalation is active, versus exhalation at rest being passive.",
         "The bell-jar model shows the volume and pressure principle: pulling the rubber sheet (diaphragm) down inflates the balloons (lungs). Its parts and limitations are described in ‘Models’.",
@@ -95,15 +104,42 @@
     }
   ],
   "keyTerms": [
-    { "term": "Ventilation", "definition": "The movement of air into and out of the lungs; it is not the same as respiration." },
-    { "term": "Alveoli", "definition": "Tiny thin-walled air sacs, each surrounded by capillaries, where gases are exchanged with the blood." },
-    { "term": "Epiglottis", "definition": "A flap of cartilage that closes over the entrance to the trachea during swallowing, so food goes into the oesophagus." },
-    { "term": "Pleural fluid", "definition": "A thin layer of fluid between the two pleural membranes around each lung, which reduces friction and keeps the lung against the chest wall." },
-    { "term": "Diaphragm", "definition": "A dome-shaped sheet of muscle and tendon forming the floor of the thorax; it contracts and flattens to inhale." },
-    { "term": "Intercostal muscles", "definition": "The external and internal muscles between the ribs that move the rib cage during breathing." },
-    { "term": "Breathing centre", "definition": "The part of the medulla oblongata that sends rhythmic nerve impulses to the diaphragm and intercostal muscles." },
-    { "term": "Tidal volume", "definition": "The volume of air moved in and out in each breath at rest, about 500 cm³." },
-    { "term": "Goblet cell", "definition": "A mucus-secreting cell in the lining of the trachea and bronchi." }
+    {
+      "term": "Ventilation",
+      "definition": "The movement of air into and out of the lungs; it is not the same as respiration."
+    },
+    {
+      "term": "Alveoli",
+      "definition": "Tiny thin-walled air sacs, each surrounded by capillaries, where gases are exchanged with the blood."
+    },
+    {
+      "term": "Epiglottis",
+      "definition": "A flap of cartilage that closes over the entrance to the trachea during swallowing, so food goes into the oesophagus."
+    },
+    {
+      "term": "Pleural fluid",
+      "definition": "A thin layer of fluid between the two pleural membranes around each lung, which reduces friction and keeps the lung against the chest wall."
+    },
+    {
+      "term": "Diaphragm",
+      "definition": "A dome-shaped sheet of muscle and tendon forming the floor of the thorax; it contracts and flattens to inhale."
+    },
+    {
+      "term": "Intercostal muscles",
+      "definition": "The external and internal muscles between the ribs that move the rib cage during breathing."
+    },
+    {
+      "term": "Breathing centre",
+      "definition": "The part of the medulla oblongata that sends rhythmic nerve impulses to the diaphragm and intercostal muscles."
+    },
+    {
+      "term": "Tidal volume",
+      "definition": "The volume of air moved in and out in each breath at rest, about 500 cm³."
+    },
+    {
+      "term": "Goblet cell",
+      "definition": "A mucus-secreting cell in the lining of the trachea and bronchi."
+    }
   ],
   "questions": [
     {

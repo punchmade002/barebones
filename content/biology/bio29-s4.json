@@ -48,7 +48,13 @@
       "points": [
         "Platelets, or thrombocytes, are small fragments of cytoplasm enclosed in membrane, with no nucleus, broken off from large cells in the red bone marrow. They live about 7 to 10 days and start the clotting of blood.",
         "Clotting matters because it stops blood loss from a damaged vessel and seals the wound so that pathogens cannot enter. It is part of the first line of defence (see ‘Innate and adaptive immunity’).",
-        "Clotting, step by step: 1. a blood vessel is damaged; 2. platelets stick to the exposed damaged wall and to each other, forming a temporary plug; 3. the platelets and damaged tissue release clotting factors; 4. a series of reactions, needing calcium ions and clotting proteins made in the liver with the help of vitamin K, converts the inactive plasma protein prothrombin into the active enzyme thrombin; 5. thrombin converts the soluble plasma protein fibrinogen into insoluble threads of fibrin; 6. the fibrin threads form a mesh that traps red blood cells and platelets, forming a clot; 7. at the surface the clot dries and hardens into a scab, under which the tissue repairs.",
+        "Clotting, step by step: 1. A blood vessel is damaged.",
+        "2. Platelets stick to the exposed damaged wall and to each other, forming a temporary plug.",
+        "3. The platelets and damaged tissue release clotting factors.",
+        "4. A series of reactions, needing calcium ions and clotting proteins made in the liver with the help of vitamin K, converts the inactive plasma protein prothrombin into the active enzyme thrombin.",
+        "5. Thrombin converts the soluble plasma protein fibrinogen into insoluble threads of fibrin.",
+        "6. The fibrin threads form a mesh that traps red blood cells and platelets, forming a clot.",
+        "7. At the surface the clot dries and hardens into a scab, under which the tissue repairs.",
         "Links: calcium and vitamin K are needed for clotting (see ‘Minerals’ and ‘Vitamins’). Haemophilia is an inherited disorder in which a clotting factor is missing (see ‘Sex-linked traits’). An unwanted clot inside a vessel, a thrombosis, can block an artery and cause a heart attack or stroke (see ‘Heartbeat’).",
         "Diagram: a flow chart of clotting, showing damage, platelets, clotting factors (with Ca²⁺ and vitamin K), prothrombin, thrombin, fibrinogen, the fibrin mesh and the clot. Add a sketch of fibrin threads trapping red blood cells."
       ]
@@ -70,7 +76,11 @@
       "points": [
         "The Rhesus (Rh) factor is another red-cell antigen, the D antigen. People whose red cells carry it are Rhesus positive (Rh+), and those without it are Rhesus negative (Rh−). A person’s full blood group combines both systems, for example O negative or A positive.",
         "Unlike anti-A and anti-B, anti-D antibodies are not naturally present. A Rh− person makes them only after Rh+ red cells enter their blood, for example through a transfusion of Rh+ blood or during pregnancy. A first exposure therefore does little harm, but a second exposure triggers a rapid, strong attack on Rh+ cells. So Rh− patients must receive Rh− blood.",
-        "Haemolytic disease of the newborn, step by step: 1. a Rh− mother carries a Rh+ baby, inherited from a Rh+ father; 2. normally the blood of mother and fetus does not mix, but at birth, or after a miscarriage, abortion or injury, some fetal red cells enter the mother’s blood; 3. her immune system makes anti-D antibodies and memory cells, and she is now sensitised; the first baby is usually unaffected, because it is born before many antibodies are made; 4. in a later pregnancy with a Rh+ baby, her anti-D antibodies cross the placenta and destroy the fetus’s red blood cells; 5. the baby can suffer severe anaemia and jaundice, brain damage or death.",
+        "Haemolytic disease of the newborn, step by step: 1. A Rh− mother carries a Rh+ baby, inherited from a Rh+ father.",
+        "2. Normally the blood of mother and fetus does not mix, but at birth, or after a miscarriage, abortion or injury, some fetal red cells enter the mother’s blood.",
+        "3. Her immune system makes anti-D antibodies and memory cells, and she is now sensitised; the first baby is usually unaffected, because it is born before many antibodies are made.",
+        "4. In a later pregnancy with a Rh+ baby, her anti-D antibodies cross the placenta and destroy the fetus’s red blood cells.",
+        "5. The baby can suffer severe anaemia and jaundice, brain damage or death.",
         "Prevention: a Rh− mother is given an injection of anti-D antibodies, anti-D immunoglobulin, during pregnancy and within 72 hours after the birth of a Rh+ baby, or after a miscarriage or injury. These antibodies destroy any fetal Rh+ cells in her blood before her own immune system can respond, so she does not make her own anti-D or memory cells. The injected antibodies are broken down over a few weeks. This is artificial passive immunity (see ‘Acquired immunity, prevention and treatment’). Every pregnant woman’s blood group is tested early in pregnancy for this reason (see ‘Prenatal and postnatal care’)."
       ]
     },
@@ -87,23 +97,74 @@
     }
   ],
   "keyTerms": [
-    { "term": "Erythrocyte", "definition": "A red blood cell: a biconcave, anucleate cell packed with haemoglobin that carries oxygen." },
-    { "term": "Haemoglobin", "definition": "A red iron-containing protein in red blood cells that combines reversibly with oxygen." },
-    { "term": "Oxyhaemoglobin", "definition": "Haemoglobin combined with oxygen, formed in the lungs, which releases its oxygen in respiring tissues." },
-    { "term": "Plasma", "definition": "The straw-coloured liquid part of blood, about 90% water, which carries cells, nutrients, wastes, hormones and heat." },
-    { "term": "Serum", "definition": "Plasma with the clotting proteins removed." },
-    { "term": "Platelet", "definition": "A small fragment of cytoplasm, with no nucleus, that starts the clotting of blood." },
-    { "term": "Prothrombin", "definition": "An inactive plasma protein that is converted into the active enzyme thrombin during clotting." },
-    { "term": "Fibrin", "definition": "The insoluble protein threads, formed from fibrinogen, that make up the mesh of a blood clot." },
-    { "term": "Antigen", "definition": "A molecule on a cell surface that can trigger an immune response, such as A and B on red blood cells." },
-    { "term": "Antibody", "definition": "A protein in the plasma that binds to a specific antigen." },
-    { "term": "Agglutination", "definition": "The clumping of red cells caused by antibodies binding to antigens on their surface." },
-    { "term": "Universal donor", "definition": "Group O, whose red cells carry no A, B or D antigens and can be given to anyone." },
-    { "term": "Universal recipient", "definition": "Group AB, whose plasma has no antibodies against A or B, so it can receive red cells of any ABO group." },
-    { "term": "Rhesus factor", "definition": "The D antigen on red blood cells; people who carry it are Rhesus positive." },
-    { "term": "Anti-D", "definition": "An antibody against the D antigen, given by injection to Rh− mothers to prevent sensitisation." },
-    { "term": "Haemolytic disease of the newborn", "definition": "The destruction of a Rh+ fetus’s red blood cells by anti-D antibodies from a sensitised Rh− mother." },
-    { "term": "Passive immunity", "definition": "Immunity given by injected antibodies, rather than made by the person’s own immune system." }
+    {
+      "term": "Erythrocyte",
+      "definition": "A red blood cell: a biconcave, anucleate cell packed with haemoglobin that carries oxygen."
+    },
+    {
+      "term": "Haemoglobin",
+      "definition": "A red iron-containing protein in red blood cells that combines reversibly with oxygen."
+    },
+    {
+      "term": "Oxyhaemoglobin",
+      "definition": "Haemoglobin combined with oxygen, formed in the lungs, which releases its oxygen in respiring tissues."
+    },
+    {
+      "term": "Plasma",
+      "definition": "The straw-coloured liquid part of blood, about 90% water, which carries cells, nutrients, wastes, hormones and heat."
+    },
+    {
+      "term": "Serum",
+      "definition": "Plasma with the clotting proteins removed."
+    },
+    {
+      "term": "Platelet",
+      "definition": "A small fragment of cytoplasm, with no nucleus, that starts the clotting of blood."
+    },
+    {
+      "term": "Prothrombin",
+      "definition": "An inactive plasma protein that is converted into the active enzyme thrombin during clotting."
+    },
+    {
+      "term": "Fibrin",
+      "definition": "The insoluble protein threads, formed from fibrinogen, that make up the mesh of a blood clot."
+    },
+    {
+      "term": "Antigen",
+      "definition": "A molecule on a cell surface that can trigger an immune response, such as A and B on red blood cells."
+    },
+    {
+      "term": "Antibody",
+      "definition": "A protein in the plasma that binds to a specific antigen."
+    },
+    {
+      "term": "Agglutination",
+      "definition": "The clumping of red cells caused by antibodies binding to antigens on their surface."
+    },
+    {
+      "term": "Universal donor",
+      "definition": "Group O, whose red cells carry no A, B or D antigens and can be given to anyone."
+    },
+    {
+      "term": "Universal recipient",
+      "definition": "Group AB, whose plasma has no antibodies against A or B, so it can receive red cells of any ABO group."
+    },
+    {
+      "term": "Rhesus factor",
+      "definition": "The D antigen on red blood cells; people who carry it are Rhesus positive."
+    },
+    {
+      "term": "Anti-D",
+      "definition": "An antibody against the D antigen, given by injection to Rh− mothers to prevent sensitisation."
+    },
+    {
+      "term": "Haemolytic disease of the newborn",
+      "definition": "The destruction of a Rh+ fetus’s red blood cells by anti-D antibodies from a sensitised Rh− mother."
+    },
+    {
+      "term": "Passive immunity",
+      "definition": "Immunity given by injected antibodies, rather than made by the person’s own immune system."
+    }
   ],
   "questions": [
     {
