@@ -451,98 +451,164 @@ const COURSE_DATA = {
       id: "bio23", number: 23, subject: "biology", title: "Human Reproduction",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio23-1", code: "23.1", title: "The structure and function of the human male and female reproductive systems, the menstrual cycle, fertilisation, embryonic development, and fertility control", notes: [], keyTerms: [], questions: [] }
+      { id: "bio23-1", code: "BIO23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s1", code: "BIO23.1", syllabusRef: "2.5.1", title: "The male reproductive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s2", code: "BIO23.2", syllabusRef: "2.5.1", title: "The female reproductive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s3", code: "BIO23.3", syllabusRef: "2.5.1", title: "Gametes and fertilisation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s4", code: "BIO23.4", syllabusRef: "2.5.2", title: "The menstrual cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s5", code: "BIO23.5", syllabusRef: "2.5.3", title: "Pregnancy", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s6", code: "BIO23.6", syllabusRef: "2.5.4", title: "Hormones in reproduction", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s7", code: "BIO23.7", syllabusRef: "2.5.5", title: "Prenatal and postnatal care", notes: [], keyTerms: [], questions: [] },
+      { id: "bio23-s8", code: "BIO23.8", syllabusRef: "2.5.6", title: "Fertility control and infertility", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio24", number: 24, subject: "biology", title: "Plant Reproduction",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio24-1", code: "24.1", title: "The structure of flowers, pollination, fertilisation, seed and fruit formation, dispersal, and germination in plants", notes: [], keyTerms: [], questions: [] }
+      { id: "bio24-1", code: "BIO24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s1", code: "BIO24.1", syllabusRef: "2.5.7", title: "Flower structure and pollination", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s2", code: "BIO24.2", syllabusRef: "2.5.7", title: "Investigation: insect- and wind-pollinated plants", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s3", code: "BIO24.3", syllabusRef: "2.5.8", title: "Seeds", notes: [], keyTerms: [], questions: [] },
+      { id: "bio24-s4", code: "BIO24.4", syllabusRef: "2.5.8", title: "Fruit and seed dispersal", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio25", number: 25, subject: "biology", title: "Transport Across Membranes",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio25-1", code: "25.1", title: "Diffusion, osmosis, active transport", notes: [], keyTerms: [], questions: [] }
+      { id: "bio25-1", code: "BIO25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s1", code: "BIO25.1", syllabusRef: "2.6.1", title: "Diffusion, osmosis and active transport", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s2", code: "BIO25.2", syllabusRef: "2.6.1", title: "Osmosis in food preservation and plant health", notes: [], keyTerms: [], questions: [] },
+      { id: "bio25-s3", code: "BIO25.3", syllabusRef: "2.6.2", title: "Investigation: rate of osmosis", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio26", number: 26, subject: "biology", title: "The Urinary System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio26-1", code: "26.1", title: "Kidney structure, nephron, ADH and osmoregulation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio26-1", code: "BIO26", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s1", code: "BIO26.1", syllabusRef: "2.6.3", title: "The urinary system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s2", code: "BIO26.2", syllabusRef: "2.6.3", title: "The nephron", notes: [], keyTerms: [], questions: [] },
+      { id: "bio26-s3", code: "BIO26.3", syllabusRef: "2.6.3", title: "ADH and osmoregulation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio27", number: 27, subject: "biology", title: "The Digestive System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio27-1", code: "27.1", title: "Digestion, absorption and the liver", notes: [], keyTerms: [], questions: [] }
+      { id: "bio27-1", code: "BIO27", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s1", code: "BIO27.1", syllabusRef: "2.6.4", title: "The digestive system", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s2", code: "BIO27.2", syllabusRef: "2.6.4", title: "Mechanical breakdown", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s3", code: "BIO27.3", syllabusRef: "2.6.4", title: "Chemical breakdown", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s4", code: "BIO27.4", syllabusRef: "2.6.5", title: "Absorption, transport and storage", notes: [], keyTerms: [], questions: [] },
+      { id: "bio27-s5", code: "BIO27.5", syllabusRef: "2.6.6", title: "Diet", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio28", number: 28, subject: "biology", title: "The Breathing System",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio28-1", code: "28.1", title: "Breathing mechanics, gas exchange and lung structure", notes: [], keyTerms: [], questions: [] }
+      { id: "bio28-1", code: "BIO28", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio28-s1", code: "BIO28.1", syllabusRef: "2.6.7", title: "Gas exchange and the breathing mechanism", notes: [], keyTerms: [], questions: [] },
+      { id: "bio28-s2", code: "BIO28.2", syllabusRef: "2.6.8", title: "CO₂ as a controlling factor in breathing", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio29", number: 29, subject: "biology", title: "The Circulatory System and Blood",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio29-1", code: "29.1", title: "Heart, blood vessels, blood and circulation", notes: [], keyTerms: [], questions: [] }
+      { id: "bio29-1", code: "BIO29", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s1", code: "BIO29.1", syllabusRef: "2.6.9", title: "Investigation: the heart", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s2", code: "BIO29.2", syllabusRef: "2.6.10", title: "Circulation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s3", code: "BIO29.3", syllabusRef: "2.6.11", title: "Heartbeat", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s4", code: "BIO29.4", syllabusRef: "2.6.12", title: "Blood", notes: [], keyTerms: [], questions: [] },
+      { id: "bio29-s5", code: "BIO29.5", syllabusRef: "2.6.13", title: "Blood vessels", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio30", number: 30, subject: "biology", title: "Transport in Plants",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio30-1", code: "30.1", title: "Xylem, phloem, transpiration and mineral uptake", notes: [], keyTerms: [], questions: [] }
+      { id: "bio30-1", code: "BIO30", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s1", code: "BIO30.1", syllabusRef: "2.6.14", title: "Plant structures for transport", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s2", code: "BIO30.2", syllabusRef: "2.6.15", title: "Transport of water and minerals", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s3", code: "BIO30.3", syllabusRef: "2.6.15", title: "Transport of CO₂ and photosynthetic products", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s4", code: "BIO30.4", syllabusRef: "2.6.8", title: "CO₂ as a controlling factor in plant stomata", notes: [], keyTerms: [], questions: [] },
+      { id: "bio30-s5", code: "BIO30.5", syllabusRef: "2.6.16", title: "Investigation: rate of transpiration", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio31", number: 31, subject: "biology", title: "Ecology, Ecosystems and Biodiversity",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio31-1", code: "31.1", title: "The structure of ecosystems, the meaning of biodiversity, and how energy and populations are managed within ecological systems", notes: [], keyTerms: [], questions: [] }
+      { id: "bio31-1", code: "BIO31", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s1", code: "BIO31.1", syllabusRef: "3.1.1", title: "Biosphere, ecosystems, habitats and biodiversity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s2", code: "BIO31.2", syllabusRef: "3.1.2", title: "Biodiversity loss and conservation", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s3", code: "BIO31.3", syllabusRef: "3.1.3", title: "Investigation: human activity and species diversity", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s4", code: "BIO31.4", syllabusRef: "3.1.4", title: "Simpson's Diversity Index", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s5", code: "BIO31.5", syllabusRef: "3.1.5", title: "Carrying capacity and limiting factors", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s6", code: "BIO31.6", syllabusRef: "3.1.6", title: "Population curves", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s7", code: "BIO31.7", syllabusRef: "3.1.7", title: "Energy and nutrient transfer", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s8", code: "BIO31.8", syllabusRef: "3.1.8", title: "Pyramids of numbers", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s9", code: "BIO31.9", syllabusRef: "3.1.9", title: "Pyramids of biomass", notes: [], keyTerms: [], questions: [] },
+      { id: "bio31-s10", code: "BIO31.10", syllabusRef: "3.1.10", title: "The niche", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio32", number: 32, subject: "biology", title: "Investigating an Ecosystem",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio32-1", code: "32.1", title: "The practical methods used to collect, identify and quantify organisms in a grassland ecosystem, and the abiotic and biotic factors that shape it", notes: [], keyTerms: [], questions: [] }
+      { id: "bio32-1", code: "BIO32", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s1", code: "BIO32.1", syllabusRef: "3.1.11", title: "Collection and identification", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s2", code: "BIO32.2", syllabusRef: "3.1.11", title: "Surveys", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s3", code: "BIO32.3", syllabusRef: "3.1.11", title: "Abiotic factors", notes: [], keyTerms: [], questions: [] },
+      { id: "bio32-s4", code: "BIO32.4", syllabusRef: "3.1.11", title: "Biotic factors and relationships", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio33", number: 33, subject: "biology", title: "Microorganisms",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio33-1", code: "33.1", title: "The characteristics, nutrition, growth and industrial importance of bacteria and fungi, and the role of the human microbiome", notes: [], keyTerms: [], questions: [] }
+      { id: "bio33-1", code: "BIO33", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s1", code: "BIO33.1", syllabusRef: "3.2.1", title: "Bacteria and fungi", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s2", code: "BIO33.2", syllabusRef: "3.2.2", title: "Investigation: growth of microorganisms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s3", code: "BIO33.3", syllabusRef: "3.2.3", title: "Microorganisms in industry", notes: [], keyTerms: [], questions: [] },
+      { id: "bio33-s4", code: "BIO33.4", syllabusRef: "3.2.4", title: "The microbiome", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio34", number: 34, subject: "biology", title: "Nutrient Cycling",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio34-1", code: "34.1", title: "How carbon and nitrogen cycle through ecosystems via biological and chemical processes, and the ethical issues arising from nutrient management", notes: [], keyTerms: [], questions: [] }
+      { id: "bio34-1", code: "BIO34", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s1", code: "BIO34.1", syllabusRef: "3.2.5", title: "The carbon cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s2", code: "BIO34.2", syllabusRef: "3.2.6", title: "The nitrogen cycle", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s3", code: "BIO34.3", syllabusRef: "3.2.7", title: "Ethics and sustainability of nutrient cycling", notes: [], keyTerms: [], questions: [] },
+      { id: "bio34-s4", code: "BIO34.4", syllabusRef: "3.2.8", title: "Climate change and biological strategies", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio35", number: 35, subject: "biology", title: "Genetic Engineering",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio35-1", code: "35.1", title: "The principles and steps of genetic engineering, DNA profiling and sequencing, and the ethical issues surrounding genetic technologies", notes: [], keyTerms: [], questions: [] }
+      { id: "bio35-1", code: "BIO35", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s1", code: "BIO35.1", syllabusRef: "3.3.1", title: "Genetic engineering", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s2", code: "BIO35.2", syllabusRef: "3.3.2", title: "DNA profiling", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s3", code: "BIO35.3", syllabusRef: "3.3.3", title: "Generating a DNA profile", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s4", code: "BIO35.4", syllabusRef: "3.3.4", title: "DNA sequencing", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s5", code: "BIO35.5", syllabusRef: "3.3.5", title: "Bioinformatics: genome databases", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s6", code: "BIO35.6", syllabusRef: "3.3.6", title: "Investigation: DNA-profile patterns", notes: [], keyTerms: [], questions: [] },
+      { id: "bio35-s7", code: "BIO35.7", syllabusRef: "3.3.7", title: "Ethics of genetic technologies", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "bio-acronyms", number: 36, subject: "biology", title: "Biology Acronyms and Key Terms",
       examQuestions: [],
       learningOutcomes: [
-      { id: "bio-acronyms-1", code: "A.1", title: "Acronyms and key terms to learn", notes: [], keyTerms: [], questions: [] }
+      { id: "bio-acronyms-1", code: "BIO36", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+      { id: "bio-acronyms-s1", code: "BIO36.1", syllabusRef: "Appendix 1", title: "Acronyms and key terms", notes: [], keyTerms: [], questions: [] },
+      { id: "bio-acronyms-s2", code: "BIO36.2", syllabusRef: "Appendix 1", title: "Action verbs", notes: [], keyTerms: [], questions: [] }
       ],
     },
     { id: "geo-plate-tectonics", number: 1, subject: "geography", title: "Plate Tectonics — Earth's Structure, Continental Drift, Sea-Floor Spreading, Plate Boundaries", examQuestions: [], learningOutcomes: [
