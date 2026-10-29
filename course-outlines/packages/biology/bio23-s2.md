@@ -24,7 +24,7 @@ External parts: the vulva (one structure-and-function block)
 - [ ] V4 In females the urethra (from the bladder) opens separately, in front of the vaginal opening, and carries urine only; it is not part of the reproductive system. One bullet; this is the main contrast with the male urethra (see "The male reproductive system").
 
 Internal parts (one structure-and-function block for vagina and cervix; one for uterus and endometrium; one for fallopian tubes and ovaries)
-- [ ] I1 Vagina: a muscular, elastic tube about 8–10 cm long leading from the vulva to the cervix. It receives the penis during intercourse, and semen is deposited at its top, near the cervix. It is the birth canal, stretching greatly during birth, and menstrual blood leaves the body through it. Its lining is moist and kept acidic by harmless bacteria (lactobacilli), which helps prevent infection by pathogens (an innate defence; see "Innate and adaptive immunity").
+- [ ] I1 Vagina: a muscular, elastic tube about 7–10 cm long leading from the vulva to the cervix. It receives the penis during intercourse, and semen is deposited at its top, near the cervix. It is the birth canal, stretching greatly during birth, and menstrual blood leaves the body through it. Its lining is moist and kept acidic by harmless bacteria (lactobacilli), which helps prevent infection by pathogens (an innate defence; see "Innate and adaptive immunity").
 - [ ] I2 Cervix: the narrow neck at the lower end of the uterus, opening into the top of the vagina through a small canal. Glands in it make mucus: for most of the cycle the mucus is thick and blocks sperm and pathogens; around ovulation it becomes thin, clear and slippery, letting sperm pass (detail in "The menstrual cycle"). During pregnancy a thick mucus plug seals it; in labour it widens (dilates) to about 10 cm to let the baby out (see "Pregnancy"). Cells from the cervix are sampled in cervical screening (see "Causes, prevention and treatment of cancer").
 - [ ] I3 Uterus (womb): a hollow, pear-shaped organ, about the size of a fist when not pregnant, with a very thick wall of smooth muscle. The embryo implants in it and the foetus develops there. Its muscular wall stretches enormously during pregnancy and contracts powerfully to push the baby out in labour.
 - [ ] I4 Endometrium: the inner lining of the uterus, rich in blood vessels and glands. Each month it thickens under the influence of ovarian hormones, ready to receive an embryo; if no embryo implants, its outer layer breaks down and is shed with blood in menstruation (see "The menstrual cycle"). If an embryo implants, it stays and helps form the mother's part of the placenta (see "Pregnancy").
@@ -44,7 +44,7 @@ Summary (one comparison block)
 
 | Item | Fact |
 |---|---|
-| I1 | Vagina about 8–10 cm long; acidic because of lactobacilli; birth canal. |
+| I1 | Vagina about 7–10 cm long; acidic because of lactobacilli; birth canal. |
 | I2 | Cervix dilates to about 10 cm in labour; mucus thin and slippery around ovulation, thick otherwise; mucus plug in pregnancy. |
 | I3 | Uterus about the size of a fist (not pregnant); thick smooth muscle wall. |
 | I5 | Fallopian tubes about 10 cm long; cilia and peristalsis move the egg; usual site of fertilisation. |
