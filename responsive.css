@@ -5,6 +5,27 @@
    a segmented mode switch, and one tall card that owns the screen.
    ═══════════════════════════════════════════════ */
 
+/* Phone-only furniture: the subject list heading and the chapter list's nav row */
+.phone-home-title,
+.phone-home-label,
+.overview-nav { display: none; }
+
+/* The subject name above a chapter title is a link back to that subject's chapters */
+.nav-up {
+  width: auto;
+  justify-self: start;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.nav-up:hover { color: var(--accent-strong); }
+
 /* ── Desktop: the card footer ends under the bottom-right timer, so key words
    (right end of the footer) stop short of it ── */
 @media (min-width: 981px) {
@@ -49,7 +70,6 @@ body.auth-open .timer-widget { display: none; }
 @media (max-width: 640px) {
   :root {
     --phone-bar: 3.6rem;   /* fixed top bar: logo · timer · avatar */
-    --phone-strip: 40px;   /* subject chip row */
     --phone-track: color-mix(in oklch, var(--line), var(--bg) 35%);
   }
 
@@ -123,95 +143,192 @@ body.auth-open .timer-widget { display: none; }
   body:has(#examBreakdownModal:not(.hidden)) .timer-widget { display: none; }
 
   /* ── Shell ───────────────────────────────── */
+  /* Padding, not margin: a top margin collapses through body and makes the page a bar taller than the screen */
   .app-shell {
-    margin: var(--phone-bar) 0 0;
-    padding: 0 1rem;
+    margin: 0;
+    padding: var(--phone-bar) 1rem 0;
   }
 
   .subject-area {
     height: calc(100vh - var(--phone-bar));
     height: calc(100dvh - var(--phone-bar));
-    gap: 0.35rem;
   }
 
-  /* ── Subject strip ───────────────────────── */
-  .subject-list-wrap {
-    position: relative;
-    height: var(--phone-strip);
-  }
+  /* ── One screen at a time: app.js sets data-screen to home, subject or chapter ── */
+  .subject-area[data-screen] { grid-template-rows: minmax(0, 1fr); gap: 0; }
 
-  /* Fade at the right edge says "more subjects this way" */
-  .subject-list-wrap::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -1rem;
-    bottom: 0;
-    width: 2.25rem;
-    background: linear-gradient(90deg, transparent, var(--bg) 70%);
-    pointer-events: none;
-  }
+  .subject-area[data-screen="home"] #subjectWorkbench,
+  .subject-area:not([data-screen="home"]) .subject-list-wrap { display: none; }
 
-  .subject-panel-btn {
+  /* Back to the level above: "‹ Subjects" on a chapter list, "‹ Biology" on a chapter */
+  .nav-up {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
     min-height: 36px;
-    padding: 0.4rem 0.8rem;
-    background: transparent;
-    border: 1.5px solid var(--line);
-    border-radius: var(--r-full);
-    box-shadow: none;
     color: var(--ink-2);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 650;
   }
 
-  .subject-panel-btn:hover { background: var(--panel); color: var(--ink); box-shadow: none; }
+  .nav-up::before {
+    content: "‹";
+    margin-top: -0.1em;
+    color: var(--accent);
+    font-size: 1.4rem;
+    line-height: 1;
+  }
 
-  .subject-graph { padding-right: 1.75rem; }
+  /* ── Screen 1: pick a subject, or Progress ── */
+  .subject-area[data-screen="home"] .subject-list-wrap {
+    height: auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
 
-  .graph-subject-header { min-height: 36px; padding: 0.2rem 0.65rem; }
-  .graph-subject-title { font-size: 0.8rem; }
+  .subject-area[data-screen="home"] .subject-list-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 1.1rem 0 2rem;
+    overflow: visible;
+  }
 
-  .graph-subject.selected .graph-subject-name { gap: 0.4rem; }
+  .phone-home-title {
+    display: block;
+    margin: 0 0 1.5rem;
+    color: var(--ink);
+    font-size: clamp(1.9rem, 9vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.045em;
+  }
 
-  .graph-subject.selected .graph-subject-title::before {
+  .phone-home-title span { color: var(--accent); }
+
+  .phone-home-label {
+    display: block;
+    margin: 1.75rem 0 0.55rem;
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .subject-panel-btn,
+  .subject-panel-btn:hover {
+    width: 100%;
+    min-height: 56px;
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--accent-xxlight);
+    border: 1.5px solid var(--accent-light);
+    border-radius: var(--r-md);
+    box-shadow: none;
+    color: var(--accent-strong);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .subject-panel-btn::after { content: "›"; font-size: 1.4rem; line-height: 1; }
+
+  .subject-area[data-screen="home"] .subject-graph {
+    width: auto;
+    max-width: none;
+    flex: none;
+    display: grid;
+    gap: 0.4rem;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject {
+    order: 0;
+    background: var(--panel);
+    border: 0;
+    border-radius: var(--r-md);
+    box-shadow: none;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject-header { min-height: 58px; padding: 0 1rem; }
+  .subject-area[data-screen="home"] .graph-subject-name { flex: 1; gap: 0.6rem; padding: 0; }
+
+  .subject-area[data-screen="home"] .graph-subject-title {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  /* The subject you were last on keeps the mockup's orange swatch */
+  .subject-area[data-screen="home"] .graph-subject.selected .graph-subject-title::before {
     content: "";
     display: inline-block;
     width: 9px;
     height: 9px;
-    margin-right: 0.45rem;
+    margin-right: 0.55rem;
     border-radius: 3px;
     background: var(--accent);
     vertical-align: 0.05em;
   }
 
-  /* Chevron after the name, pointing down: this chip opens the chapter list */
-  .graph-subject.selected .graph-subject-chevron {
-    order: 2;
+  .subject-area[data-screen="home"] .graph-subject-count {
+    display: inline;
     color: var(--muted);
-    transform: rotate(90deg);
+    font-size: 0.78rem;
+    font-weight: 500;
   }
 
-  .graph-subject.selected.expanded .graph-subject-chevron {
+  .subject-area[data-screen="home"] .graph-subject-count::after { content: " chapters"; }
+
+  .subject-area[data-screen="home"] .graph-subject .graph-subject-chevron {
+    display: inline-block;
+    order: 3;
+    transform: none;
+    color: var(--muted);
+    font-size: 1.4rem;
+  }
+
+  /* Paper guide lives on the subject's own screen; chapters are screen 2, not a sheet */
+  .subject-area[data-screen] .graph-subject .graph-subject-exam,
+  .subject-area[data-screen] .graph-subject .graph-chapters { display: none; }
+
+  /* ── Screen 2: the subject's chapters ── */
+  .overview-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0.35rem 0 0.75rem;
+  }
+
+  .overview-paper-guide {
+    width: auto;
+    min-height: 36px;
+    padding: 0.35rem 0.8rem;
+    background: transparent;
+    border-color: var(--line);
+    border-radius: var(--r-full);
+    color: var(--accent-strong);
+    font-size: 0.78rem;
+  }
+
+  .overview-header-text h3 {
     color: var(--accent);
-    transform: rotate(-90deg);
+    font-size: clamp(1.9rem, 9vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.045em;
   }
 
-  /* Chapter list: a sheet under the strip, with the page dimmed behind it */
-  .graph-chapters {
-    top: calc(var(--phone-bar) + var(--phone-strip) + 0.4rem);
-    right: 0.75rem;
-    left: 0.75rem;
-    max-height: calc(100dvh - var(--phone-bar) - var(--phone-strip) - 1.25rem);
-    gap: 0.15rem;
-    padding: 0.5rem;
-    border-radius: var(--r-md);
-    box-shadow: var(--s3), 0 0 0 100vmax rgba(26, 25, 22, 0.28);
-    overscroll-behavior: contain;
-  }
-
-  .graph-chapter { min-height: 44px; font-size: 0.86rem; }
-
-  /* ── Study header: context + segmented switch ── */
+  /* ── Screen 3: study header, context + segmented switch ── */
   #subjectWorkbench { padding: 0.25rem 0 1.5rem; }
 
   .workbench-bar {
@@ -229,7 +346,6 @@ body.auth-open .timer-widget { display: none; }
   .workbench-nav { display: contents; }
   .study-context { grid-area: context; gap: 0.15rem; }
 
-  .study-context span { font-size: 0.75rem; }
 
   .study-context strong {
     display: -webkit-box;
