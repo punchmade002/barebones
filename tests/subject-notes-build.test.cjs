@@ -137,8 +137,13 @@ test("split biology chapters keep their review outcome first and number their su
 });
 
 test("biology authored notes replace the old chapter notes but keep the chapter's test questions", () => {
+  // Build without one chapter's files, so that chapter stands in for one not yet authored.
+  const content = fs.mkdtempSync(path.join(os.tmpdir(), "notes-content-"));
+  fs.readdirSync(path.join(root, "content", "biology"))
+    .filter((name) => name.endsWith(".json") && !name.startsWith("bio23-"))
+    .forEach((name) => fs.copyFileSync(path.join(root, "content", "biology", name), path.join(content, name)));
   const out = path.join(fs.mkdtempSync(path.join(os.tmpdir(), "notes-")), "biology-notes.js");
-  const result = buildBiology(["--out", out]);
+  const result = buildBiology(["--out", out, "--content", content]);
   assert.equal(result.status, 0, result.stdout + result.stderr);
   const context = load(["data.js", "bio-content.js", "biology-test-questions.js", out]);
   const chapters = context.__courseData.chapters;
