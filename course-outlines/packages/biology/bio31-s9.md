@@ -35,7 +35,7 @@ Comparing pyramids of numbers and pyramids of biomass (one comparison block, pai
 - [ ] C8 Judgement for the study of ecosystems: pyramids of numbers are useful for a quick, non-destructive survey of feeding relationships, especially where organisms are similar in size; pyramids of biomass better show the amount of material passing up a food chain and the effect of energy loss, so they are more useful for comparing ecosystems. A pyramid of energy (which shows the energy flowing through each level over a period of time and is never inverted) overcomes the limitations of both; name it only.
 
 Worked example (one Skills block)
-- [ ] W1 Sample data (invented for practice) for a woodland food chain, per 100 m²: oak trees 1 (dry biomass 2 000 kg); caterpillars 5 000 (dry biomass 5 kg); blue tits 4 (dry biomass 0.04 kg); sparrowhawk 0.1 of a bird's territory, so draw as the smallest bar. Pyramid of numbers: narrow base, very wide caterpillar bar, then narrow. Pyramid of biomass: upright, decreasing from 2 000 kg to 5 kg to 0.04 kg. Interpretation: the tree is one organism but contains far more food than all the caterpillars, so the biomass pyramid shows the food available correctly, and it is upright.
+- [ ] W1 Sample data (invented for practice) for a woodland food chain in one area: oak trees 1 (total dry biomass 2 000 kg); caterpillars 5 000 (total dry biomass 0.5 kg); blue tits 4 (total dry biomass 0.02 kg). Pyramid of numbers: narrow base (1), very wide caterpillar bar (5 000), narrow top (4), so spindle-shaped. Pyramid of biomass: upright, decreasing from 2 000 kg to 0.5 kg to 0.02 kg (not to scale). Interpretation: the tree is one organism but contains far more material than all the caterpillars, so the biomass pyramid shows the food available at each level correctly.
 
 ## 2. Checked facts and examples
 
@@ -43,8 +43,8 @@ Worked example (one Skills block)
 |---|---|
 | B4 | Drying to constant mass in an oven; drying temperature about 80–100 °C. |
 | I1–I2 | Phytoplankton biomass can be less than zooplankton biomass at one time in some aquatic ecosystems, because phytoplankton turn over rapidly. |
-| C7 | Fat about twice the energy per gram of carbohydrate or protein (about 37 kJ/g vs 17 kJ/g). |
-| W1 | Invented sample data; label as such. |
+| C7 | Fat gives about twice the energy per gram of carbohydrate or protein. No kJ values (as in "Metabolic roles and nutritional sources"). |
+| W1 | Invented sample data (1 oak 2 000 kg; 5 000 caterpillars 0.5 kg; 4 blue tits 0.02 kg); label as such. |
 
 No real biomass measurements; no named marine locations.
 
@@ -54,7 +54,7 @@ No real biomass measurements; no named marine locations.
 - Biomass is dry mass, not fresh mass, and is per unit area at one time.
 - Pyramids of biomass are not "never" inverted: the aquatic case (I1) exists. Pyramids of energy are the ones that are never inverted (C8 names them only; they are not on the specification).
 - Don't repeat the full list of pyramid-of-numbers limitations; C2–C6 compare.
-- In W1 the sparrowhawk is wide-ranging; don't let the writer invent a fractional bird count beyond what is given. If simpler, the writer may present only the first three levels of W1.
+- W1 uses three levels only; don't add a sparrowhawk level or any other figures.
 - Diagram cues are B6 and I3 only. No other diagram cues.
 
 ## 4. What exams ask (topics only)
