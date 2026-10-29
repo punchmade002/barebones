@@ -40,7 +40,6 @@ Examples and applications (one block, one bullet each)
 - [ ] E1 Hot day or exercise: much water is lost in sweat, so more ADH is released and urine is small in volume and dark.
 - [ ] E2 High salt intake: salt raises the solute concentration of the blood, so more ADH is released, more water is reabsorbed and a smaller volume of urine is produced; the extra salt is excreted in this smaller volume, and the person also feels thirsty.
 - [ ] E3 Alcohol reduces the release of ADH, so the collecting ducts reabsorb less water and a large volume of dilute urine is produced; this causes dehydration, which contributes to the headache and thirst of a hangover.
-- [ ] E4 Colour and volume of urine are a simple guide to hydration: pale and plentiful = well hydrated; dark and scanty = dehydrated (more ADH).
 
 Diagram (one bullet)
 - [ ] G1 Diagram: a negative-feedback loop for water balance. Centre: normal blood water concentration. One branch: water concentration falls → hypothalamus detects → pituitary releases more ADH → collecting ducts more permeable → more water reabsorbed → small volume of concentrated urine → back to normal. Other branch: water concentration rises → less ADH → collecting ducts less permeable → less water reabsorbed → large volume of dilute urine → back to normal. Optionally a small sketch of a collecting duct passing through the salty medulla with arrows for water leaving by osmosis.
