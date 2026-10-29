@@ -1,0 +1,98 @@
+{
+  "loId": "bio15-s1",
+  "chapterId": "bio15",
+  "subsection": "Respiration as a catabolic process",
+  "syllabusRef": "2.2.1",
+  "notes": [
+    {
+      "h": "Respiration as a catabolic process",
+      "points": [
+        "Respiration is the controlled, enzyme-catalysed breakdown of food, mainly glucose, in every living cell, releasing energy that is transferred to ATP.",
+        "Respiration is catabolic: a large molecule such as glucose is broken down into smaller molecules, and energy is released. The products are CO₂ and H₂O, or lactic acid, or ethanol and CO₂, depending on the conditions.",
+        "Photosynthesis is the matching anabolic process.",
+        "The energy is released in many small enzyme-controlled steps rather than all at once, as in burning, so much of it can be trapped as ATP instead of being lost as heat.",
+        "Energy that is not trapped as ATP is released as heat, which keeps birds and mammals warm.",
+        "The ATP made is used for cell activities such as muscle contraction, active transport and building large molecules.",
+        "Carbon release: the carbon atoms of glucose leave the cell as CO₂, returning to the atmosphere (or water) the carbon that photosynthesis fixed.",
+        "Respiration by plants, animals and decomposers, together with burning, balances the uptake of carbon by photosynthesis in the carbon cycle (detail in Nutrient Cycling).",
+        "Glucose is the main respiratory substrate. Glycogen (in animals) and starch (in plants) are first broken down to glucose, and fats and, when needed, proteins can also be respired."
+      ]
+    },
+    {
+      "h": "Aerobic respiration: equation, reactants and products",
+      "points": [
+        "Aerobic respiration uses oxygen and breaks glucose down completely to carbon dioxide and water. Word equation: glucose + oxygen → carbon dioxide + water + energy.",
+        "Balanced equation: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Its chemicals are those of the photosynthesis equation reversed, but it releases energy (as ATP and heat) instead of taking in light energy.",
+        "Source of glucose in plants: photosynthesis, or stored starch and sucrose transported in the phloem.",
+        "Source of glucose in animals: digested food absorbed into the blood, or glycogen stored in the liver and muscles.",
+        "Source of oxygen in humans: the air, taken in through the lungs and carried to the cells by red blood cells.",
+        "Source of oxygen in plants: the air, entering through stomata and lenticels; soil air, taken in by the roots; and the plant's own photosynthesis.",
+        "Source of oxygen in aquatic organisms: oxygen dissolved in water.",
+        "Fate of carbon dioxide: it diffuses out of cells. In humans it is carried in the blood to the lungs and breathed out; in plants it diffuses out through stomata or, in the light, is used in photosynthesis.",
+        "Fate of water: it joins the cell's water and is used in the cell or excreted. Some is breathed out as water vapour."
+      ]
+    },
+    {
+      "h": "Anaerobic respiration and fermentation",
+      "points": [
+        "Anaerobic respiration releases energy from glucose without oxygen. Because the glucose is only partly broken down, much of the energy stays in the products, so much less energy is released per glucose and much less ATP is made than in aerobic respiration.",
+        "In animals, such as human muscle during intense exercise, and in some bacteria, the product is lactic acid. Word equation: glucose → lactic acid + energy. Balanced equation: C₆H₁₂O₆ → 2C₃H₆O₃ + energy. No CO₂ is produced.",
+        "In yeast, and in plant cells short of oxygen such as roots in waterlogged soil, the products are ethanol and carbon dioxide. Word equation: glucose → ethanol + carbon dioxide + energy. Balanced equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ + energy.",
+        "Anaerobic respiration in microorganisms is called fermentation. In baking, yeast's CO₂ makes dough rise and the ethanol evaporates in the oven. In brewing and wine-making, yeast's ethanol is the useful product. In making yogurt and cheese, bacteria's lactic acid is the useful product.",
+        "In human muscle during hard exercise, the lungs and blood cannot supply oxygen fast enough, so some respiration is anaerobic. Lactic acid builds up and the muscles tire.",
+        "Oxygen debt: after exercise, extra oxygen is needed to remove the lactic acid. It is carried in the blood to the liver, where much of it is converted back to glucose, and the rest is respired aerobically. This is why breathing and heart rate stay high after exercise.",
+        "Obligate anaerobes respire only anaerobically and are poisoned by oxygen, for example the bacteria that cause tetanus. Yeast can respire either way, so it is a facultative anaerobe."
+      ]
+    },
+    {
+      "h": "The overall sequence and cellular locations",
+      "points": [
+        "Stage 1, glycolysis, takes place in the cytoplasm (cytosol) of every cell and does not need oxygen. Glucose, with 6 carbon atoms, is split into two molecules of pyruvate, each with 3 carbon atoms, and a small amount of ATP is made.",
+        "What happens next depends on oxygen. With oxygen, stage 2 takes place in the mitochondria: pyruvate enters a mitochondrion and is broken down completely to CO₂ and water. Hydrogen removed from it is passed to oxygen, forming water, and a large amount of ATP is made. Stage 2 needs oxygen.",
+        "Without oxygen, pyruvate stays in the cytoplasm and is converted to lactic acid (in animals and some bacteria) or to ethanol and CO₂ (in yeast and plants). No further ATP is made, so anaerobic respiration is glycolysis followed by this conversion, all in the cytoplasm.",
+        "Prokaryotes (bacteria) have no mitochondria. Their aerobic respiration takes place in the cytoplasm and on the cell membrane (see Prokaryotic and eukaryotic cells).",
+        "Diagram: a flow diagram of the overall sequence. Glucose in the cytoplasm goes through glycolysis, making a small amount of ATP, to give 2 pyruvate. Two branches follow. Oxygen present: pyruvate enters a mitochondrion and gives CO₂, water and a large amount of ATP. No oxygen: pyruvate stays in the cytoplasm and gives lactic acid (animals) or ethanol and CO₂ (yeast, plants). Label cytoplasm, mitochondrion, stage 1 and stage 2."
+      ]
+    },
+    {
+      "h": "Aerobic and anaerobic respiration compared, and respiration against photosynthesis",
+      "points": [
+        "Oxygen: needed in aerobic respiration; not needed in anaerobic respiration.",
+        "Location: aerobic respiration takes place in the cytoplasm and the mitochondria; anaerobic respiration takes place in the cytoplasm only.",
+        "Breakdown of glucose: complete, to CO₂ and H₂O, in aerobic respiration; incomplete, to lactic acid or to ethanol and CO₂, in anaerobic respiration.",
+        "Energy: a large amount of ATP in aerobic respiration; a small amount, only the ATP made in glycolysis, in anaerobic respiration.",
+        "Stages: stage 1 followed by stage 2 in aerobic respiration; stage 1 followed by conversion of pyruvate in anaerobic respiration.",
+        "Respiration is catabolic, releases energy, uses O₂ and releases CO₂. It happens in all living cells all the time, in the cytoplasm and mitochondria.",
+        "Photosynthesis is anabolic, takes in light energy, uses CO₂ and releases O₂. It happens only in cells with chloroplasts, and only in the light."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Respiration", "definition": "The controlled, enzyme-catalysed breakdown of food in living cells, releasing energy that is transferred to ATP." },
+    { "term": "Catabolic reaction", "definition": "A reaction in which a large molecule is broken down into smaller ones, releasing energy." },
+    { "term": "Aerobic respiration", "definition": "Respiration using oxygen, which breaks glucose down completely to carbon dioxide and water." },
+    { "term": "Anaerobic respiration", "definition": "Respiration without oxygen, in which glucose is only partly broken down, releasing much less energy." },
+    { "term": "Fermentation", "definition": "Anaerobic respiration carried out by microorganisms, producing either lactic acid or ethanol and carbon dioxide." },
+    { "term": "Glycolysis", "definition": "The first stage of respiration, in the cytoplasm, which splits glucose into two pyruvate molecules without using oxygen." },
+    { "term": "Oxygen debt", "definition": "The extra oxygen needed after exercise to remove the lactic acid that built up in muscles during anaerobic respiration." },
+    { "term": "Obligate anaerobe", "definition": "An organism that can respire only anaerobically and is poisoned by oxygen, such as the bacteria that cause tetanus." },
+    { "term": "Facultative anaerobe", "definition": "An organism that can respire with or without oxygen, such as yeast." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Write a balanced chemical equation for aerobic respiration and explain why respiration is described as a catabolic process.",
+      "model": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy. Respiration is catabolic because a large molecule, glucose, is broken down into smaller molecules (CO₂ and H₂O), and energy is released. The energy is transferred to ATP for cell activities."
+    },
+    {
+      "marks": 9,
+      "prompt": "State three differences between aerobic and anaerobic respiration.",
+      "model": "1. Oxygen: aerobic respiration needs oxygen; anaerobic respiration does not. 2. Location: aerobic respiration takes place in the cytoplasm and mitochondria; anaerobic respiration takes place only in the cytoplasm. 3. Energy: aerobic respiration makes a large amount of ATP, because glucose is broken down completely to CO₂ and water; anaerobic respiration makes only a small amount of ATP, from glycolysis, because glucose is broken down only partly, to lactic acid or to ethanol and CO₂."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the sequence of respiration in a muscle cell, naming the location of each stage, and describe what happens when the oxygen supply is too low during exercise.",
+      "model": "Glucose is split in the cytoplasm by glycolysis, which needs no oxygen, into two molecules of pyruvate, with a small amount of ATP made. If oxygen is present, pyruvate enters the mitochondria and is broken down completely to CO₂ and water, with a large amount of ATP made. If the oxygen supply is too low, pyruvate stays in the cytoplasm and is converted to lactic acid, so no further ATP is made. Lactic acid builds up and the muscles tire. After exercise, extra oxygen is needed to remove the lactic acid, which is carried in the blood to the liver and largely converted back to glucose; this is the oxygen debt."
+    }
+  ]
+}

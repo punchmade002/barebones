@@ -41,7 +41,7 @@ python3 pipeline/tests/run_tests.py resources
 |---|---:|---:|---:|---|
 | Accounting | 17 | 17 | 2002 | aligned; current syllabus through June 2028 |
 | Art | 36 | 53 | 2023 | aligned; catalogue taxonomy mapped to NCCA strands |
-| Biology | 32 | 53 | 2027 | aligned |
+| Biology | 32 | 53 | 2027 | aligned; 2025 specification, first examined June 2027 |
 | Business | 22 | 35 | 2027 | aligned |
 | Chemistry | 15 | 54 | 2027 | aligned |
 | Computer Science | 21 | 27 | 2025 | aligned to updated specification |

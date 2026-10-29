@@ -1,0 +1,112 @@
+{
+  "loId": "bio3-s3",
+  "chapterId": "bio3",
+  "subsection": "The cross-cutting themes",
+  "syllabusRef": "Strands overview",
+  "notes": [
+    {
+      "h": "What the themes are",
+      "points": [
+        "The three cross-cutting themes are Health, Sustainability and Technology. They are not separate topics: they run through all three contextual strands (Organisation of Life; Structures and Processes of Life; Interactions of Life), and are shown in the specification’s diagram as a ring around them.",
+        "Each theme is a lens: a way of looking at any piece of biology to ask how it applies to a real issue today. The same topic can be viewed through more than one lens. For example, genetically engineered insulin is a health issue (treating diabetes) and a technology issue (recombinant DNA).",
+        "The examination asks students to apply biology to issues linked to the themes, often using unfamiliar stimulus material such as a news report, data or a case. Students must therefore be able to bring knowledge from any chapter to the issue."
+      ]
+    },
+    {
+      "h": "Health",
+      "b": "The Health lens asks how biology explains health and disease, how disease is prevented, diagnosed and treated, and how lifestyle and environment affect health. The specification frames health as promoting health and reducing the risk of disease.",
+      "points": [
+        "Vaccination and immunity: vaccinating enough people protects those who are not immune (see “Acquired immunity, prevention and treatment”).",
+        "Emerging infectious diseases: how they spread, and the reproduction number, R₀ (see “Emergence and spread of infectious disease”).",
+        "Diet: a balanced diet, and diet-related conditions such as obesity and vitamin deficiencies (see “Diet” and “Vitamins”).",
+        "Cancer: causes, prevention and treatment, e.g. avoiding smoking and excess UV light, and vaccination against the human papillomavirus (HPV), which causes most cervical cancers (see “Causes, prevention and treatment of cancer”).",
+        "The microbiome: the gut microbiome’s role in digestion, immunity and metabolic health (see “The microbiome”).",
+        "Dopamine, endorphins, exercise and addiction (see “Dopamine and endorphins”).",
+        "Prenatal and postnatal care (see “Prenatal and postnatal care”).",
+        "Blood groups and safe transfusion (see “Blood”).",
+        "Hormonal treatments, such as insulin and the contraceptive pill (see “Hormonal manipulation”)."
+      ]
+    },
+    {
+      "h": "Sustainability",
+      "b": "Sustainability means meeting the needs of the present without compromising the ability of future generations to meet their own needs. The Sustainability lens asks how human activity affects ecosystems, biodiversity, resources and climate, and how biology can help people live within the planet’s limits.",
+      "points": [
+        "Biodiversity loss through habitat destruction, pollution, invasive species and climate change, and the role of conservation (see “Biodiversity loss and conservation”).",
+        "The carbon cycle, carbon sinks and climate change, including Ireland’s peat bogs, which store large amounts of carbon as peat and release it as CO₂ when drained or burned (see “Climate change and biological strategies”).",
+        "The nitrogen cycle, and excess fertiliser or slurry washing into rivers and lakes, causing eutrophication: algal blooms that use up oxygen when they decay, killing fish (see “Ethics and sustainability of nutrient cycling”).",
+        "Decomposers and soil microbiomes recycling nutrients (see “The microbiome”).",
+        "Photosynthesis as a carbon sink (see “Photosynthesis as an anabolic process”).",
+        "Enzymes in biofuels, and in detergents that wash at lower temperatures (see “Industrial enzymes”).",
+        "The role of biology in a post-fossil-fuel world."
+      ]
+    },
+    {
+      "h": "Technology",
+      "points": [
+        "Technology is the application of scientific knowledge to make tools, techniques and products. The Technology lens asks how technology lets biologists find out more, and how biological knowledge is used to make new technologies.",
+        "Biotechnology is the use of living organisms or their parts, such as enzymes, to make useful products or carry out processes.",
+        "Technologies that extend what biologists can study include light and electron microscopes (see “Microscopy”); DNA sequencing and genome databases, which use computers to analyse huge amounts of genetic data (see “DNA sequencing” and “Bioinformatics: genome databases”); data loggers and sensors in investigations; and digital tools for modelling and analysing data.",
+        "Biotechnologies include genetic engineering, e.g. human insulin made by bacteria (see “Genetic engineering”); PCR and DNA profiling in forensics and paternity testing (see “DNA profiling”); immobilised enzymes and bioreactors (see “Industrial enzymes”); microorganisms in pharmaceutical, agricultural, medical and food industries (see “Microorganisms in industry”); antenatal screening and fertility treatment (see “Prenatal and postnatal care” and “Fertility control and infertility”); and stem cells and gene technologies, whose ethics are discussed in “Ethics of genetic technologies”.",
+        "New technologies raise questions as well as benefits: cost and access, safety, the privacy of genetic data, and effects on the environment. The factors for evaluating them are in “Science, scientists and society”."
+      ]
+    },
+    {
+      "h": "Applying a lens to an issue",
+      "points": [
+        "1. Identify the biology behind the issue: the structures, processes or organisms involved.",
+        "2. Say which theme or themes it relates to, and why.",
+        "3. Explain the issue’s causes or mechanism using that biology.",
+        "4. Give its benefits or problems, with evidence.",
+        "5. Suggest actions or solutions based on the biology.",
+        "6. Note the links to the other themes."
+      ]
+    },
+    {
+      "h": "Worked example: antibiotic resistance",
+      "points": [
+        "Biology: bacteria with mutations that let them survive an antibiotic survive and reproduce, so resistant strains increase by natural selection.",
+        "Health: infections such as MRSA become hard or impossible to treat.",
+        "Sustainability: overuse of antibiotics in medicine and in farming speeds this up. Antibiotics are a resource that is being used up faster than new ones are found.",
+        "Technology: rapid diagnostic tests show whether an infection is bacterial, genome sequencing tracks resistant strains, and new antibiotics are sought.",
+        "Actions: prescribe antibiotics only for bacterial infections, take them exactly as prescribed, improve hygiene and vaccination to reduce infections, and limit antibiotic use in farm animals."
+      ]
+    },
+    {
+      "h": "Worked example: Irish peatlands",
+      "points": [
+        "Biology: in waterlogged, acidic, low-oxygen bogs, decomposers work very slowly, so dead plant material, mainly Sphagnum moss, builds up as peat, storing carbon.",
+        "Sustainability: draining and cutting bogs for fuel lets oxygen in, so the peat decomposes or is burned, releasing CO₂. Bogs are also habitats for specialised species.",
+        "Action: Bord na Móna ended industrial peat harvesting in 2021, and drained bogs are being rewetted to stop carbon loss and restore habitats.",
+        "Technology: satellite and sensor monitoring of water levels and greenhouse-gas release.",
+        "Health link: burning peat and other solid fuels pollutes the air."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Cross-cutting themes", "definition": "Health, Sustainability and Technology: lenses through which biology is applied to contemporary issues." },
+    { "term": "Health (theme)", "definition": "The lens asking how biology explains health and disease, and how disease is prevented, diagnosed and treated." },
+    { "term": "Sustainability", "definition": "Meeting the needs of the present without compromising the ability of future generations to meet their own needs." },
+    { "term": "Technology (theme)", "definition": "The application of scientific knowledge to make tools, techniques and products." },
+    { "term": "Biotechnology", "definition": "The use of living organisms or their parts, such as enzymes, to make useful products or carry out processes." },
+    { "term": "Eutrophication", "definition": "Excess nutrients in water causing algal blooms that use up oxygen when they decay, killing fish." },
+    { "term": "Carbon sink", "definition": "A store that takes in more carbon than it releases, such as a peat bog or photosynthesising plants." },
+    { "term": "Reproduction number (R₀)", "definition": "The average number of people one infected person infects; see “Emergence and spread of infectious disease”." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the three cross-cutting themes in Leaving Certificate Biology and give one biological example of an issue linked to each.",
+      "model": "The three cross-cutting themes are Health, Sustainability and Technology. Health: vaccination and immunity, since vaccinating enough people protects those who are not immune, or vaccination against HPV, which causes most cervical cancers. Sustainability: biodiversity loss through habitat destruction, pollution, invasive species and climate change, or eutrophication of rivers and lakes by excess fertiliser. Technology: DNA sequencing and genome databases, which use computers to analyse huge amounts of genetic data, or human insulin made by genetically engineered bacteria."
+    },
+    {
+      "marks": 12,
+      "prompt": "Antibiotic resistance is described as a health, sustainability and technology issue. Explain why, using your knowledge of biology.",
+      "model": "The biology: bacteria with mutations that let them survive an antibiotic survive and reproduce, so resistant strains increase by natural selection. Health: infections such as MRSA become hard or impossible to treat. Sustainability: overuse of antibiotics in medicine and in farming speeds up resistance, and antibiotics are a resource being used up faster than new ones are found. Technology: rapid diagnostic tests show whether an infection is bacterial, genome sequencing tracks resistant strains, and new antibiotics are sought. Actions: prescribe antibiotics only for bacterial infections, take them exactly as prescribed, improve hygiene and vaccination to reduce infections, and limit antibiotic use in farm animals."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why Irish bogs are important carbon sinks and how human activity affects them.",
+      "model": "In waterlogged, acidic, low-oxygen bogs, decomposers work very slowly, so dead plant material, mainly Sphagnum moss, builds up as peat, which stores carbon. Human activity affects bogs when they are drained and cut for fuel. Draining lets oxygen in, so the peat decomposes or is burned, releasing CO₂ into the atmosphere, and the bogs lose the habitats of specialised species. A response is rewetting: Bord na Móna ended industrial peat harvesting in 2021, and drained bogs are being rewetted to stop carbon loss and restore habitats. Technology such as satellite and sensor monitoring of water levels and greenhouse-gas release can support this work."
+    }
+  ]
+}

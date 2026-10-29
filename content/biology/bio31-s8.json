@@ -1,0 +1,93 @@
+{
+  "loId": "bio31-s8",
+  "chapterId": "bio31",
+  "subsection": "Pyramids of numbers",
+  "syllabusRef": "3.1.8",
+  "notes": [
+    {
+      "h": "What a pyramid of numbers is",
+      "points": [
+        "A pyramid of numbers is a diagram showing the number of organisms at each trophic level of a food chain or food web in an area at one time. Each level is drawn as a horizontal bar whose width is proportional to the number of organisms.",
+        "The producers form the bottom bar, with the primary, secondary and tertiary consumers drawn above them in order.",
+        "In most ecosystems the pyramid is upright: there are many producers, fewer primary consumers, fewer still secondary consumers, and very few top consumers. For example, many grass plants → fewer grasshoppers → fewer frogs → one heron; or grass → rabbits → foxes.",
+        "Numbers usually decrease up the pyramid, because about 90% of energy is lost at each trophic level, so each level can support fewer organisms than the one below. Predators are also usually larger than their prey, so each one needs to eat many prey.",
+        "Pyramids, like food chains, are usually restricted to three or four levels, because so little energy reaches the top level that it cannot support a further level of consumers (see “Energy and nutrient transfer”)."
+      ]
+    },
+    {
+      "h": "Using and drawing a pyramid of numbers",
+      "points": [
+        "Uses in the study of ecosystems: it shows the feeding relationships in a food chain quantitatively, that is, how many of each organism there are. It lets two ecosystems, or one ecosystem at different times, be compared, and it shows how many prey each predator depends on.",
+        "Further uses: it helps to predict the effect of a change in one level on the others, e.g. if a disease reduces the primary consumers, the secondary consumers will decline. It also shows why top predators are few and vulnerable.",
+        "How the numbers are found: by sampling the area, e.g. counting plants in quadrats and animals caught in traps or nets, and scaling up to the whole area (sampling methods are in “Investigating an Ecosystem”). Each organism is assigned to a trophic level.",
+        "How to draw one, step 1: write the food chain and count, or take from the data, the organisms at each level.",
+        "How to draw one, step 2: draw a horizontal bar for each level, with the producers at the bottom, all centred on a vertical line.",
+        "How to draw one, step 3: make each bar's width proportional to the number. Alternatively use a scale, or a logarithmic scale for very large numbers, or draw it “not to scale” and say so.",
+        "How to draw one, step 4: label each bar with the trophic level, the organism and the number.",
+        "Diagram: an upright pyramid of numbers for grass → grasshopper → frog → heron, with the trophic levels (producer, primary, secondary and tertiary consumer) labelled."
+      ]
+    },
+    {
+      "h": "Shapes of pyramids of numbers (Higher Level only)",
+      "points": [
+        "Upright pyramid: the usual shape, wide at the base and narrowing to the top, when the producers are small and numerous and each consumer is larger than its prey.",
+        "Inverted pyramid (narrow base): when one large producer supports many small herbivores, the base is narrower than the level above. For example, one oak tree supports thousands of caterpillars, which support a few blue tits, which support one sparrowhawk; or one rose bush supports many caterpillars or aphids, which support a few blackbirds, which support one hawk.",
+        "Because the upper levels still narrow, this pyramid is spindle- or diamond-shaped.",
+        "Inverted at the top: when the top level is made of parasites, which are smaller and more numerous than their host, the top bar is wider than the one below. For example, grass → rabbits → fleas, or one tree → birds → many lice and fleas on each bird.",
+        "Diagram: three pyramids side by side. An upright pyramid (grass → grasshopper → frog → heron), a narrow-base pyramid (oak tree → caterpillars → blue tits → sparrowhawk) and a top-heavy pyramid with parasites (grass → rabbits → fleas), each level labelled."
+      ]
+    },
+    {
+      "h": "Limitations of pyramids of numbers (Higher Level only)",
+      "points": [
+        "They take no account of the size of organisms: one oak tree counts the same as one blade of grass. The shape can therefore be inverted and misleading about how much food each level provides.",
+        "The numbers at different levels can differ so much, e.g. millions of grass plants and one fox, that the pyramid cannot be drawn to scale.",
+        "It is hard to decide what counts as an individual for some organisms, e.g. grass and clover plants that spread by runners, or a clump of moss.",
+        "Organisms that feed at more than one trophic level are hard to place. Examples are omnivores such as a fox eating rabbits and beetles, or a badger.",
+        "Counting is difficult and usually based on samples. Small, hidden, nocturnal or very mobile animals are hard to count accurately, so the numbers are estimates.",
+        "It shows the numbers at one moment only, so it changes with the seasons, e.g. there are many more caterpillars in early summer.",
+        "It does not show the amount of biomass or the energy at each level, and it usually leaves out decomposers.",
+        "The fix for the size problem is a pyramid of biomass, which takes the mass of organisms into account (see “Pyramids of biomass”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Pyramid of numbers",
+      "definition": "A diagram showing the number of organisms at each trophic level of a food chain or web in an area at one time, drawn as horizontal bars with producers at the bottom."
+    },
+    {
+      "term": "Upright pyramid of numbers",
+      "definition": "The usual shape, wide at the base and narrowing upwards, when producers are small and numerous and each consumer is larger than its prey."
+    },
+    {
+      "term": "Inverted pyramid of numbers",
+      "definition": "A pyramid whose base is narrower than the level above, when one large producer, such as an oak tree, supports many small herbivores."
+    },
+    {
+      "term": "Top-heavy pyramid of numbers",
+      "definition": "A pyramid in which the top level, made of parasites, is wider than the level below, because the parasites are smaller and more numerous than their host."
+    },
+    {
+      "term": "Trophic level",
+      "definition": "The position an organism occupies in a food chain, according to how it obtains its energy."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is a pyramid of numbers? Outline one use of pyramids of numbers in the study of ecosystems.",
+      "model": "A pyramid of numbers is a diagram showing the number of organisms at each trophic level of a food chain or food web in an area at one time. Each level is a horizontal bar whose width is proportional to the number of organisms, with the producers at the bottom. One use is to show the feeding relationships in a food chain quantitatively, i.e. how many of each organism there are. It also lets two ecosystems, or one ecosystem at different times, be compared, and it shows how many prey each predator depends on."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw a pyramid of numbers for the food chain oak tree → caterpillars → blue tits → sparrowhawk. Explain its shape.",
+      "model": "The pyramid has a narrow base for the one oak tree, a very wide bar for the thousands of caterpillars that feed on it, and then narrower bars for the few blue tits and the single sparrowhawk. This is an inverted, or narrow-base, pyramid, which is spindle-shaped because the upper levels still narrow. It occurs because one large producer supports many small herbivores, so the base is narrower than the level above. The shape is misleading about the food available, because a pyramid of numbers takes no account of the size of organisms: one oak tree counts the same as one caterpillar. A pyramid of biomass would show the oak tree correctly as the largest bar."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain why most pyramids of numbers are upright, describe two situations in which a pyramid of numbers is not upright, and give three limitations of pyramids of numbers.",
+      "model": "Most pyramids of numbers are upright because there are many producers, fewer primary consumers, fewer secondary consumers and very few top consumers. About 90% of energy is lost at each trophic level, so each level can support fewer organisms than the one below, and predators are usually larger than their prey, so each needs to eat many of them. Two situations where the pyramid is not upright: first, when one large producer, such as an oak tree, supports many small caterpillars, which support a few blue tits and one sparrowhawk, giving a narrow-base, spindle-shaped pyramid; second, when the top level is made of parasites, which are smaller and more numerous than their host, e.g. grass → rabbits → fleas, giving a top-heavy pyramid. Three limitations: a pyramid of numbers takes no account of the size of organisms, so one oak tree counts the same as one blade of grass; the numbers can differ so much that the pyramid cannot be drawn to scale; and it shows the numbers at one moment only, so it changes with the seasons. It also does not show biomass or energy, and usually leaves out decomposers."
+    }
+  ]
+}

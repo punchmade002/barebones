@@ -1,0 +1,85 @@
+{
+  "loId": "bio8-s1",
+  "chapterId": "bio8",
+  "subsection": "Biomolecules and metabolism",
+  "syllabusRef": "1.2.1",
+  "notes": [
+    {
+      "h": "What biomolecules are",
+      "points": [
+        "A biomolecule is a molecule made by living organisms. The four main groups are carbohydrates, lipids, proteins and nucleic acids.",
+        "All four are organic: they are built around chains or rings of carbon atoms bonded to hydrogen. Water and minerals are also chemicals of life but are inorganic, covered in “Water” and “Minerals”.",
+        "The elements in each biomolecule are listed in “Structures of biomolecules”.",
+        "Food supplies three things: energy, released in respiration mainly from carbohydrates and lipids; raw materials for growth and repair, mainly proteins; and substances that regulate body processes, namely vitamins and minerals. The body makes its own enzymes and hormones from the food it takes in. Detail is in “Metabolic roles and nutritional sources”."
+      ]
+    },
+    {
+      "h": "Building and breaking: monomers, polymers and condensation",
+      "points": [
+        "A monomer is a small unit molecule. A polymer is a large molecule made of many monomers joined in a chain. Monosaccharides are the monomers of polysaccharides, amino acids are the monomers of polypeptides and proteins, and nucleotides are the monomers of nucleic acids.",
+        "A triglyceride is built from glycerol and three fatty acids but is not a repeating polymer.",
+        "Condensation: two molecules join and a molecule of water is removed. Glucose units join in this way to form starch, glycogen and cellulose, and amino acids join to form proteins.",
+        "Hydrolysis: a large molecule is split into smaller ones by adding water, e.g. starch is hydrolysed to maltose and proteins are hydrolysed to amino acids.",
+        "Digestion is hydrolysis catalysed by enzymes (detail in “The Digestive System”).",
+        "Cells assemble biomolecules into the structures they are made of: cellulose fibres form plant cell walls; phospholipids and proteins form every cell membrane; keratin forms hair and nails; collagen forms skin, tendons and the framework of bone.",
+        "Diagram: a simple chain of linked monomers (e.g. glucose units) with arrows showing condensation (water out) joining them and hydrolysis (water in) splitting them."
+      ]
+    },
+    {
+      "h": "Metabolism: anabolism and catabolism",
+      "points": [
+        "Metabolism is the sum of all the chemical reactions in an organism. Each reaction is controlled by a specific enzyme (detail in “Enzymes”). Metabolism is one of the characteristics of life.",
+        "Anabolism: reactions that build larger, more complex molecules from smaller ones. They need (absorb) energy.",
+        "Anabolic examples: photosynthesis, in which glucose is made from carbon dioxide and water; joining glucose into starch in plants or glycogen in the liver and muscles; joining amino acids into proteins.",
+        "Catabolism: reactions that break larger molecules into smaller ones. They release energy.",
+        "Catabolic examples: respiration, in which glucose is broken down to carbon dioxide and water; digestion of starch to maltose and glucose; breakdown of glycogen to glucose.",
+        "Energy transfer: energy released by catabolic reactions such as respiration is used to drive anabolic reactions. It is carried between them by the transfer molecule ATP (detail in “Transfer Molecules”), so catabolism and anabolism depend on each other."
+      ]
+    },
+    {
+      "h": "Rearrangement into new molecules",
+      "points": [
+        "Cells convert one biomolecule into another to meet their needs.",
+        "Plants make starch for storage, cellulose for cell walls, sucrose for transport and oils (e.g. stored in seeds) from the glucose made in photosynthesis.",
+        "Plants absorb nitrogen from the soil as nitrate and use it, with glucose, to make amino acids and proteins.",
+        "In humans the liver converts excess glucose to glycogen, and excess carbohydrate is converted to fat for storage."
+      ]
+    },
+    {
+      "h": "Anabolism and catabolism compared",
+      "points": [
+        "Direction: anabolism joins small molecules into large ones; catabolism breaks large molecules into small ones.",
+        "Energy: anabolism needs an input of energy; catabolism releases energy.",
+        "Examples: photosynthesis and protein synthesis are anabolic; respiration and digestion are catabolic."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Biomolecule", "definition": "A molecule made by living organisms; the main groups are carbohydrates, lipids, proteins and nucleic acids." },
+    { "term": "Monomer", "definition": "A small unit molecule that is joined to many others to form a polymer." },
+    { "term": "Polymer", "definition": "A large molecule made of many monomers joined in a chain." },
+    { "term": "Condensation", "definition": "A reaction in which two molecules join and a molecule of water is removed." },
+    { "term": "Hydrolysis", "definition": "A reaction in which a large molecule is split into smaller ones by adding water." },
+    { "term": "Metabolism", "definition": "The sum of all the chemical reactions in an organism." },
+    { "term": "Anabolism", "definition": "Metabolic reactions that build larger molecules from smaller ones and need energy." },
+    { "term": "Catabolism", "definition": "Metabolic reactions that break larger molecules into smaller ones and release energy." },
+    { "term": "ATP", "definition": "The transfer molecule that carries energy released by catabolic reactions to anabolic reactions (detail in “Transfer Molecules”)." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between anabolism and catabolism, giving one example of each.",
+      "model": "Anabolism builds larger, more complex molecules from smaller ones and needs energy. An example is photosynthesis, in which glucose is made from carbon dioxide and water. Catabolism breaks larger molecules into smaller ones and releases energy. An example is respiration, in which glucose is broken down to carbon dioxide and water."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why photosynthesis is described as an anabolic reaction and respiration as a catabolic reaction, and explain how the two kinds of reaction are linked.",
+      "model": "Photosynthesis is anabolic because it builds the large glucose molecule from small molecules, carbon dioxide and water, and it needs energy. Respiration is catabolic because it breaks glucose down into carbon dioxide and water and releases energy. The two are linked by energy transfer: the energy released by catabolic respiration is carried by ATP and used to drive anabolic reactions, so catabolism and anabolism depend on each other."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two examples of how living cells rearrange biomolecules into new molecules.",
+      "model": "Plants convert the glucose made in photosynthesis into cellulose, which forms cell walls, and into starch, which is stored. In humans, the liver converts excess glucose into glycogen for storage."
+    }
+  ]
+}

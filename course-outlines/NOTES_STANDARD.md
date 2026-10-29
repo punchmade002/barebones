@@ -38,6 +38,14 @@ could be examined** in each subsection, **stated once**, with no padding.
    gives them. Never invent statistics. If unsure of a figure, leave it out.
 8. **Accurate before complete.** If you aren't confident a fact is correct, omit it rather than
    guess.
+9. **Include the assumed knowledge.** Syllabus documents list outcomes, not the basics those
+   outcomes rest on, but exam questions take the basics for granted and every textbook teaches
+   them. Teach whatever a student needs in order to meet each outcome, even when the syllabus
+   doesn't name it, e.g. the active site and activation energy for "explain how enzymes
+   function", or the named heart chambers, valves and major vessels for "relate the structures
+   of the heart to their functions". The package lists these items as "assumed" in its
+   must-cover list. Keep them to what the outcome needs: assumed knowledge is not licence to
+   add whole topics the syllabus has dropped.
 
 ## Output format
 
@@ -84,6 +92,23 @@ at a time**; the build warns about part-written chapters.
   evaluation.
 - **Comparison / evaluation:** advantages vs disadvantages, or A vs B, as paired points.
 - **Skills:** the method step by step, with a worked example.
+- **Structure and function** (sciences): each part, what it does, and how its structure suits
+  that job; then what to draw and label.
+- **Investigation** (sciences): aim or hypothesis; independent, dependent and controlled
+  variables; control; method in numbered steps; measurement and repeats; safety; expected
+  results and how they support the conclusion.
+
+## Subject notes: biology
+
+- **Higher Level only.** Where the outline or package marks an item [HL], end that block's
+  heading with " (Higher Level only)". Put HL-only material in its own block so Ordinary Level
+  students can skip it. Don't mark anything the package doesn't mark.
+- **Formulas and symbols** are plain Unicode: CO₂, H₂O, C₆H₁₂O₆, NAD⁺, NADPH, Na⁺, Ca²⁺, R₀.
+  Never use `$` (the app reads it as maths markup) or LaTeX.
+- **Diagram cues:** every structure the syllabus names (organ, cell, organelle, system) gets
+  a "Diagram:" bullet saying what to draw and which parts to label.
+- **Past papers** in the app are all from the previous syllabus. Packages list only the
+  question topics that are still on the specification.
 
 ## Worked example (geography)
 
@@ -208,5 +233,6 @@ first subsection of `geo-rivers`; real output must cover every subsection.
 - No two blocks state the same fact.
 - No sentence contains filler or meta-text (rule 3).
 - Every landform has formation stages, a named example and a diagram cue.
+- Every "assumed" item in the package has a bullet.
 - Every case study has specific facts.
 - All strings are plain text.
