@@ -1,0 +1,82 @@
+{
+  "loId": "bio25-s2",
+  "chapterId": "bio25",
+  "subsection": "Osmosis in food preservation and plant health",
+  "syllabusRef": "2.6.1",
+  "notes": [
+    {
+      "h": "Osmosis in food preservation",
+      "points": [
+        "Food spoils mainly because bacteria and fungi (moulds and yeasts) grow on it, digesting it and making it unsafe or unpleasant to eat. Like all cells, they need water for their enzymes to work and to grow and reproduce.",
+        "Mechanism: 1. A high concentration of salt or sugar is added to the food. 2. The food's water is now a concentrated (hypertonic) solution compared with the cytoplasm of any microorganism on it. 3. Water leaves the microbial cells by osmosis. 4. The cells are dehydrated and plasmolysed (bacteria and fungi have cell walls), so their enzymes can't work and they can't grow or reproduce; many die.",
+        "The salt or sugar also binds water in the food, so less free water is available to any microbe. Preserving by drying (e.g. dried fruit and dried fish) works by removing water directly, which has the same effect on microbes; it is related to osmosis but is not osmosis itself."
+      ]
+    },
+    {
+      "h": "Salting, sugaring and pickling",
+      "points": [
+        "Salting: meat and fish are rubbed with dry salt or soaked in strong brine (salt solution), e.g. bacon, ham and salted fish. Salt also draws water out of the food itself by osmosis, drying it further.",
+        "Sugaring: fruit is preserved in a high concentration of sugar, e.g. jam, marmalade and candied fruit; fruit is also stored in heavy syrup. Honey keeps for a very long time because its sugar concentration is so high.",
+        "Pickling: vegetables kept in vinegar are preserved mainly by the low pH of the acid (ethanoic acid), which stops enzymes and microbes working, not by osmosis. Brine pickles (salt solutions) combine osmosis with acid made by fermentation."
+      ]
+    },
+    {
+      "h": "Examining osmotic preservation: advantages, limits and health",
+      "points": [
+        "Advantages: cheap, simple and traditional; it needs no refrigeration, so it was used for long journeys and winter stores; it works against both bacteria and fungi.",
+        "Limits: some microorganisms tolerate high salt or sugar concentrations, especially moulds and yeasts, so jam can still grow mould on its surface once opened and should be refrigerated. Preservation fails if the salt or sugar concentration is too low, e.g. reduced-sugar jams spoil faster.",
+        "Osmotic preservation slows microbial growth but doesn't sterilise the food. It is usually combined with other methods, such as cooking, sealing, refrigeration, smoking and acids.",
+        "Health link: salted foods add much salt to the diet, and high salt intake is linked to high blood pressure, which increases the risk of heart disease and stroke. Sugary preserves add sugar, which is linked to tooth decay and obesity (see Diet). So salting and sugaring are used less today, and refrigeration and freezing more.",
+        "Osmosis also affects food preparation: salting sliced vegetables, e.g. cucumber and aubergine, draws water out of them. Limp vegetables, e.g. celery and lettuce, become crisp again when placed in cold water, because their cells take in water and become turgid."
+      ]
+    },
+    {
+      "h": "Osmosis and plant health: turgor and support",
+      "points": [
+        "Healthy plants keep their cells turgid by taking in water by osmosis into the vacuole of each cell. The turgor pressure of cells against their walls supports non-woody plants, leaves and flowers, holding them upright and spreading leaves to the light for photosynthesis.",
+        "Turgor pressure drives cell enlargement: young cells expand as water enters their vacuoles, so plant growth depends on water uptake by osmosis.",
+        "Guard cells open the stomata when they become turgid and close them when they become flaccid, controlling gas exchange and water loss (detail in Transport in Plants).",
+        "Wilting: when water is lost from the leaves by transpiration faster than the roots take it up, the cells lose water, become flaccid, and the plant wilts. Wilting closes the stomata, so it reduces photosynthesis and growth. It is reversed if water is supplied soon enough; prolonged wilting kills the plant."
+      ]
+    },
+    {
+      "h": "Osmosis and plant health: damage by salt and fertiliser",
+      "points": [
+        "Roots take in water by osmosis because the soil water is normally more dilute than the cell sap of the root cells (root hair detail in Transport in Plants).",
+        "If the soil water becomes more concentrated than the contents of the root cells, water stops entering the roots and can leave them by osmosis. The root cells become plasmolysed, the plant cannot take up enough water, and it wilts and may die, even in moist soil.",
+        "Causes of salty soil water: flooding of coastal land by seawater (e.g. storm surges); salt spread on roads in icy weather, which damages roadside trees and hedges; and irrigation in hot, dry regions, where water evaporates and leaves salts behind in the soil (salinisation), lowering crop yields.",
+        "Fertiliser burn: applying too much fertiliser, especially concentrated fertiliser close to roots or on dry soil, makes the soil solution too concentrated, so water leaves the roots and the leaves turn brown and scorched. Advice: apply the recommended amount, spread it evenly and water it in. Salt was used in the past as a weedkiller for the same reason.",
+        "Some plants of salty habitats, such as salt marshes and seashores, survive because their root cells hold a higher solute concentration than the salty soil water, so water still enters by osmosis.",
+        "Sustainability link: soil salinisation from irrigation, and seawater flooding linked to rising sea levels and stronger storms, reduce the land available for crops. Careful irrigation and drainage reduce salinisation."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Osmotic preservation", "definition": "Preserving food by adding a high concentration of salt or sugar, which draws water out of microbes by osmosis so that they cannot grow." },
+    { "term": "Brine", "definition": "A strong salt solution in which meat, fish or vegetables are soaked for preservation." },
+    { "term": "Pickling", "definition": "Preserving vegetables in vinegar, whose low pH stops enzymes and microbes working, or in brine." },
+    { "term": "Ethanoic acid", "definition": "The acid in vinegar, which preserves food mainly through its low pH." },
+    { "term": "Turgor pressure", "definition": "The pressure of the cell contents against the cell wall, which supports non-woody plants." },
+    { "term": "Guard cells", "definition": "Cells that open the stomata when turgid and close them when flaccid." },
+    { "term": "Wilting", "definition": "The drooping of a plant that occurs when water lost by transpiration exceeds water taken up by the roots, making the cells flaccid." },
+    { "term": "Salinisation", "definition": "The build-up of salts in soil, often from irrigation in hot, dry regions, which makes soil water too concentrated for roots to take up water." },
+    { "term": "Fertiliser burn", "definition": "Browning and scorching of leaves caused when too much fertiliser makes the soil solution more concentrated than the root cells." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain how adding sugar to fruit to make jam helps to preserve it.",
+      "model": "Sugar is added to a high concentration, so the water in the jam is a concentrated solution compared with the cytoplasm of any bacteria or fungi on it. Water leaves the microbial cells by osmosis, so the cells are dehydrated and plasmolysed, their enzymes cannot work, and they cannot grow or reproduce; many die. The sugar also binds water, so less free water is available to microbes. Jam is therefore preserved for a long time, although moulds and yeasts can tolerate high sugar, so an opened jam should be refrigerated."
+    },
+    {
+      "marks": 9,
+      "prompt": "A gardener added a large amount of fertiliser around the roots of a plant. The next day the plant had wilted. Explain this using your knowledge of osmosis.",
+      "model": "Normally water enters the roots by osmosis because the soil water is more dilute than the cell sap of the root cells. The large amount of fertiliser made the soil solution more concentrated than the root cells, so water stopped entering the roots and started leaving them by osmosis. The root cells became plasmolysed and the plant could not take up enough water. Water was then lost from the leaves by transpiration faster than the roots took it up, so the cells became flaccid and the plant wilted. This is fertiliser burn: the leaves can also turn brown and scorched."
+    },
+    {
+      "marks": 12,
+      "prompt": "Examine the role of osmosis in food preservation and in plant health, including one limitation of osmotic food preservation.",
+      "model": "In food preservation, a high concentration of salt or sugar makes the food's water a concentrated solution compared with microbial cytoplasm, so water leaves the bacteria and fungi by osmosis, they are dehydrated and plasmolysed, and their enzymes cannot work. Salted foods such as bacon and ham and sugared foods such as jam are examples. Vinegar pickling works mainly through the low pH of ethanoic acid, not by osmosis. In plant health, osmosis takes water into the vacuoles of the cells, making them turgid. Turgor pressure supports non-woody plants and leaves, drives cell enlargement and opens the guard cells so the stomata let in carbon dioxide. Roots take in water by osmosis only while the soil water is more dilute than the root cells. Salty soil water, from seawater flooding, road salt or irrigation, or too much fertiliser, can make the soil more concentrated than the root cells, so water leaves the roots and the plant wilts. One limitation of osmotic preservation is that moulds and yeasts tolerate high sugar and salt concentrations, so jam can still go mouldy once opened and must be refrigerated; the method slows microbial growth but does not sterilise the food."
+    }
+  ]
+}

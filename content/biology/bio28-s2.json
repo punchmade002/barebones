@@ -1,0 +1,81 @@
+{
+  "loId": "bio28-s2",
+  "chapterId": "bio28",
+  "subsection": "CO₂ as a controlling factor in breathing",
+  "syllabusRef": "2.6.8",
+  "notes": [
+    {
+      "h": "Why carbon dioxide is the controlling factor (Higher Level only)",
+      "points": [
+        "Carbon dioxide is produced by every respiring cell. If it is not removed, it accumulates in the blood, where it reacts with water to form carbonic acid, which releases hydrogen ions: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ (carbonic acid, hydrogen ions and hydrogencarbonate ions).",
+        "The reaction is speeded up by the enzyme carbonic anhydrase in red blood cells. A rise in CO₂ therefore makes the blood more acidic, lowering its pH.",
+        "Blood pH is normally kept within a narrow range around 7.4, slightly alkaline. A fall in pH alters the shape of enzymes and other proteins and disturbs cell function (see ‘Enzymes’), so the CO₂ level must be controlled. Breathing is the body’s fastest way of adjusting it.",
+        "In a healthy person at sea level, the CO₂ level, not the oxygen level, is the main stimulus for breathing. The body is far more sensitive to a small rise in CO₂ than to a fall in O₂: oxygen receptors only strongly increase breathing when the oxygen level falls a lot, for example at high altitude."
+      ]
+    },
+    {
+      "h": "Chemoreceptors that detect the change (Higher Level only)",
+      "points": [
+        "A chemoreceptor is a receptor that detects the concentration of a chemical.",
+        "Central chemoreceptors lie in the medulla oblongata, close to the breathing centre. CO₂ diffuses from the blood into the cerebrospinal fluid surrounding the brain, where it forms carbonic acid and lowers the pH. The receptors respond to this rise in hydrogen ions and are responsible for most of the response to a rise in CO₂.",
+        "Peripheral chemoreceptors lie in the carotid bodies, small structures in the wall of each carotid artery in the neck that carry blood to the brain, and in the aortic bodies, in the wall of the arch of the aorta. They detect a rise in CO₂ (and H⁺) and also a large fall in O₂ in the arterial blood, and send impulses along sensory nerves to the breathing centre.",
+        "Diagram: an outline of the head, neck and chest showing the medulla oblongata (breathing centre and central chemoreceptors), the carotid bodies on the carotid arteries, the aortic bodies on the aortic arch, nerves to the breathing centre, and nerves from the breathing centre to the diaphragm and intercostal muscles. Label each."
+      ]
+    },
+    {
+      "h": "The control loop (Higher Level only)",
+      "points": [
+        "1. Stimulus: CO₂ in the blood rises, for example when muscles respire faster during exercise.",
+        "2. Receptors: the central and peripheral chemoreceptors detect the rise in CO₂, through the fall in pH.",
+        "3. Control centre: impulses reach the breathing centre in the medulla oblongata.",
+        "4. Effectors: the breathing centre sends impulses more often along motor nerves to the diaphragm and intercostal muscles, and in heavy breathing to the abdominal muscles.",
+        "5. Response: the muscles contract more strongly and more often, so breathing becomes deeper and faster.",
+        "6. Return to normal: more CO₂ is exhaled from the alveoli and more oxygen is taken in, so the CO₂ level in the blood falls back towards normal and the pH rises.",
+        "7. Reset: the receptors detect the return to normal, the breathing centre sends fewer impulses, and breathing returns to the resting rate.",
+        "This is negative feedback: the response, removing CO₂, cancels the change that caused it, keeping the blood CO₂ level and pH near a set point. It works in both directions: if CO₂ falls below normal, the breathing centre reduces the rate and depth of breathing, so CO₂ builds up again.",
+        "The cardiac centre in the medulla responds to the same signals: a rise in CO₂ also increases the heart rate, so blood carries CO₂ to the lungs and oxygen to the muscles faster (see ‘Heartbeat’).",
+        "Diagram: a feedback loop flow chart. CO₂ rises, then chemoreceptors, breathing centre in the medulla, diaphragm and intercostal muscles, faster and deeper breathing, CO₂ falls, back to normal, with a loop arrow returning to the start. Draw a matching loop for CO₂ falling."
+      ]
+    },
+    {
+      "h": "Applications: exercise, breath-holding and hyperventilation (Higher Level only)",
+      "points": [
+        "Exercise: muscles respire faster and release more CO₂ into the blood. The rise is detected and breathing rate and depth increase within seconds, removing CO₂ and supplying the extra oxygen. Breathing stays fast for a time after exercise stops, while the extra CO₂ is removed and the oxygen debt from anaerobic respiration (lactic acid) is repaid (see ‘Respiration as a catabolic process’).",
+        "Holding the breath: CO₂ builds up in the blood, the signal from the chemoreceptors to the breathing centre becomes stronger and stronger, and eventually the automatic control overrides the voluntary control by the cerebrum, forcing a breath. This is why a person cannot hold their breath until they lose consciousness at rest. The urge to breathe comes from rising CO₂, not from falling O₂.",
+        "Hyperventilation (deliberate fast, deep breathing) removes extra CO₂, so the CO₂ level falls below normal and the urge to breathe is reduced; the person may feel dizzy. Before swimming underwater this is dangerous: the urge to breathe comes too late, so the oxygen level can fall far enough to cause blacking out before the swimmer feels the need to surface.",
+        "Breathing air with a raised CO₂ content, for example in a poorly ventilated, crowded room or when rebreathing air from a bag, makes breathing faster and deeper through the same loop.",
+        "Link to plants: carbon dioxide concentration is also a controlling factor in plants, where it acts on the stomata. That, and the comparison of the plant and human responses, is in ‘CO₂ as a controlling factor in plant stomata’."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Carbonic acid", "definition": "The weak acid formed when CO₂ reacts with water in the blood, releasing hydrogen ions." },
+    { "term": "Carbonic anhydrase", "definition": "The enzyme in red blood cells that speeds up the reaction between CO₂ and water." },
+    { "term": "Chemoreceptor", "definition": "A receptor that detects the concentration of a chemical, such as CO₂ or hydrogen ions." },
+    { "term": "Central chemoreceptors", "definition": "Chemoreceptors in the medulla oblongata that respond to hydrogen ions in the cerebrospinal fluid, producing most of the response to a rise in CO₂." },
+    { "term": "Peripheral chemoreceptors", "definition": "Chemoreceptors in the carotid and aortic bodies that detect CO₂, hydrogen ions and a large fall in oxygen in the arterial blood." },
+    { "term": "Carotid bodies", "definition": "Small structures in the wall of each carotid artery in the neck that contain peripheral chemoreceptors." },
+    { "term": "Aortic bodies", "definition": "Structures in the wall of the arch of the aorta that contain peripheral chemoreceptors." },
+    { "term": "Cerebrospinal fluid", "definition": "The fluid surrounding the brain, into which CO₂ diffuses from the blood and forms carbonic acid." },
+    { "term": "Negative feedback", "definition": "A control in which the response cancels the change that caused it, keeping a level near a set point." },
+    { "term": "Hyperventilation", "definition": "Deliberate fast, deep breathing, which removes CO₂ and lowers its level in the blood." },
+    { "term": "Blood pH", "definition": "A measure of the acidity of the blood, normally kept near 7.4." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the part of the brain that controls breathing and state where in the body the concentration of carbon dioxide is detected.",
+      "model": "The part of the brain that controls breathing is the medulla oblongata, which contains the breathing centre. The concentration of carbon dioxide is detected by central chemoreceptors in the medulla oblongata, close to the breathing centre, and by peripheral chemoreceptors in the carotid bodies, in the walls of the carotid arteries in the neck, and in the aortic bodies, in the wall of the arch of the aorta."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the role of carbon dioxide concentration in controlling breathing during exercise, and explain why this is an example of negative feedback.",
+      "model": "During exercise muscles respire faster and release more CO₂ into the blood. CO₂ combines with water to form carbonic acid, which releases hydrogen ions, so the blood pH falls. Central chemoreceptors in the medulla oblongata and peripheral chemoreceptors in the carotid and aortic bodies detect this rise in CO₂ through the fall in pH. Impulses go to the breathing centre in the medulla oblongata, which sends more frequent impulses along motor nerves to the diaphragm and intercostal muscles. These muscles contract more strongly and more often, so breathing becomes deeper and faster. More CO₂ is exhaled and more oxygen is taken in, so the CO₂ level and pH return towards normal. This is negative feedback because the response, removing CO₂, cancels the change in CO₂ that caused it, keeping the blood CO₂ level near a set point. The main stimulus is CO₂, not oxygen."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why (i) a person cannot hold their breath for very long and (ii) hyperventilating before swimming underwater is dangerous.",
+      "model": "(i) When a person holds their breath, CO₂ builds up in the blood. The chemoreceptors send an increasingly strong signal to the breathing centre. Eventually this signal overrides the voluntary control by the cerebrum and forces a breath, so the person cannot hold their breath until they lose consciousness. The urge to breathe comes from rising CO₂, not from falling oxygen. (ii) Hyperventilation removes extra CO₂, so the CO₂ level falls below normal and the urge to breathe is reduced. The swimmer therefore feels no urge to surface in time, while the oxygen level in the blood falls far enough to cause blacking out underwater."
+    }
+  ]
+}

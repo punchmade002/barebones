@@ -1,0 +1,107 @@
+{
+  "loId": "bio25-s1",
+  "chapterId": "bio25",
+  "subsection": "Diffusion, osmosis and active transport",
+  "syllabusRef": "2.6.1",
+  "notes": [
+    {
+      "h": "The membrane as a barrier",
+      "points": [
+        "Every cell is surrounded by a cell membrane: a phospholipid bilayer with proteins scattered through it (the fluid mosaic model). Materials constantly cross it: cells take in oxygen (O₂), glucose, water and ions, and release carbon dioxide (CO₂) and wastes such as urea. This is the transport and transfer of materials across membranes; the same applies to the membranes around organelles.",
+        "The membrane is selectively permeable: it lets some substances through and not others. Small, non-polar molecules such as oxygen and carbon dioxide pass straight through the bilayer. Water passes through slowly between the phospholipids and quickly through protein water channels (aquaporins). Ions and large polar molecules such as glucose cross only through specific channel or carrier proteins. Large molecules such as proteins and starch cannot cross at all.",
+        "Terms: a fully permeable barrier lets water and all solutes through, e.g. the plant cell wall; a semi-permeable (partially permeable) barrier lets water and small molecules through but not larger ones, by the size of its pores, e.g. Visking (dialysis) tubing; a selectively permeable membrane is a living membrane, which also controls what crosses using its proteins and can move substances actively.",
+        "A solution is a solute (e.g. sugar or salt) dissolved in a solvent (water). A concentrated solution has much solute and so a lower concentration of water; a dilute solution has little solute and a higher concentration of water."
+      ]
+    },
+    {
+      "h": "Diffusion",
+      "points": [
+        "Diffusion is the net movement of molecules or ions from a region of their higher concentration to a region of their lower concentration, until they are evenly spread. The difference in concentration between two regions is the concentration gradient; diffusion is movement down the gradient.",
+        "Diffusion is passive: it needs no energy from the cell (no ATP), because it results from the random movement of particles, which have kinetic energy. Individual particles move in all directions; more move from the crowded region than into it, giving the net movement. It happens in gases and liquids, in living and non-living systems, with or without a membrane.",
+        "Examples: oxygen diffuses from the air in the alveoli into the blood and carbon dioxide diffuses the other way (detail in Gas exchange and the breathing mechanism); carbon dioxide diffuses into a leaf through the stomata and oxygen diffuses out; digested food molecules diffuse from the small intestine into the blood; the scent of perfume spreads through a room (a non-living example).",
+        "Facilitated diffusion is passive diffusion of ions and polar molecules, such as glucose, down their concentration gradient through specific channel or carrier proteins. It still needs no ATP, e.g. glucose enters red blood cells this way.",
+        "Factors that increase the rate of diffusion: a steeper concentration gradient, higher temperature (particles move faster), a larger surface area, a shorter distance (thinner barrier), and smaller particles. Exchange surfaces such as alveoli and villi have a large surface area, a thin wall and a steep gradient, kept up by blood flow. Osmosis depends on the same factors (see Investigation: rate of osmosis)."
+      ]
+    },
+    {
+      "h": "Osmosis",
+      "points": [
+        "Osmosis is the net movement of water molecules from a region of higher water concentration (a dilute solution) to a region of lower water concentration (a more concentrated solution) across a semi-permeable (selectively permeable) membrane.",
+        "Osmosis is a special case of diffusion: it is the diffusion of water only, and it happens only across a membrane that lets water through but holds back the solute. It is passive and needs no ATP.",
+        "Why water moves: solute molecules attract water molecules around them, so fewer water molecules are free to move in a concentrated solution. More free water molecules cross the membrane from the dilute side than from the concentrated side, so there is a net flow of water into the concentrated solution, until the concentrations are equal or a pressure, such as that of a cell wall, stops it.",
+        "Diagram: a U-tube (or beaker) divided by a semi-permeable membrane, with dilute solution on one side and concentrated sucrose solution on the other; water molecules shown passing in both directions with a larger arrow towards the concentrated side, sucrose molecules too large to cross, and the liquid level rising on the concentrated side. Label: semi-permeable membrane, water molecule, sucrose molecule, net movement of water."
+      ]
+    },
+    {
+      "h": "Osmosis and cells",
+      "points": [
+        "The solution outside a cell is compared with the cell's contents: hypotonic means more dilute than the cell, so water enters the cell; hypertonic means more concentrated than the cell, so water leaves it; isotonic means the same concentration, so there is no net movement.",
+        "Animal cells in a hypotonic solution (e.g. pure water) gain water, swell and may burst, because they have no cell wall. Red blood cells bursting is haemolysis. In a hypertonic solution they lose water and shrink, and red blood cells become shrivelled and spiky (crenated). This is why body fluids must be kept isotonic with cells (osmoregulation; see Water).",
+        "Plant cells in a hypotonic solution take in water into the vacuole. The cytoplasm is pushed against the cell wall, which resists further swelling, so the cell becomes turgid (firm) and doesn't burst. The pressure of the contents against the wall is turgor pressure.",
+        "Plant cells in a hypertonic solution lose water from the vacuole. The cell becomes flaccid (soft), then the cytoplasm and cell membrane shrink away from the cell wall: plasmolysis. The space between wall and membrane fills with the outside solution, because the cell wall is fully permeable. Plasmolysis can be reversed (deplasmolysis) if the cell is put back into water before it is damaged.",
+        "Diagram: a plant cell in water (turgid, with a large vacuole and the cytoplasm pressed against the wall), in an isotonic solution (flaccid), and in a concentrated solution (plasmolysed, with the cell membrane and cytoplasm pulled away from the wall), labelled cell wall, cell membrane, vacuole and cytoplasm. Also draw red blood cells in water (swollen, bursting), in isotonic solution (normal disc) and in concentrated solution (crenated)."
+      ]
+    },
+    {
+      "h": "Active transport",
+      "points": [
+        "Active transport is the movement of molecules or ions across a membrane from a region of lower concentration to a region of higher concentration, against the concentration gradient, using energy from ATP.",
+        "How it works: 1. The substance binds to a specific carrier protein (a pump) in the membrane. 2. ATP made in respiration releases energy, which changes the shape of the carrier protein. 3. The change in shape moves the substance across the membrane and releases it on the other side. 4. The carrier returns to its original shape, ready to pick up another molecule.",
+        "Because it needs ATP, active transport happens only in living cells and depends on respiration. It stops or slows if respiration is stopped, e.g. by lack of oxygen, low temperature or a respiratory poison such as cyanide. Cells that carry out much active transport have many mitochondria, e.g. root hair cells, cells lining the kidney tubules and cells of the small intestine.",
+        "The sodium–potassium pump is a carrier protein in the membranes of animal cells, including nerve cells. It uses one ATP to pump three sodium ions (Na⁺) out of the cell and two potassium ions (K⁺) into it, both against their concentration gradients. It keeps Na⁺ high outside the cell and K⁺ high inside, which nerve cells need in order to carry impulses, and it helps control cell volume.",
+        "Other examples: root hair cells take up mineral ions, e.g. nitrate, from soil water in which they are more dilute than in the cell (detail in Transport in Plants). Glucose and amino acids are absorbed from the small intestine and reabsorbed from the kidney tubules into the blood (detail in Absorption, transport and storage and The nephron).",
+        "Diagram: a carrier protein in a phospholipid bilayer, with a molecule binding on the low-concentration side, ATP changing to ADP and Pi and releasing energy, the carrier changing shape, and the molecule released on the high-concentration side. Label: carrier protein, phospholipid bilayer, ATP, and direction of movement against the gradient."
+      ]
+    },
+    {
+      "h": "Distinguishing diffusion, osmosis and active transport",
+      "points": [
+        "Energy: diffusion and osmosis are passive and need no ATP; active transport needs ATP from respiration.",
+        "Direction: diffusion and osmosis go down a concentration gradient (high to low concentration of the substance moving; for osmosis, the water concentration); active transport goes against it, from low to high.",
+        "What moves: diffusion moves any particle, gases and solutes alike; osmosis moves only water; active transport moves particular solutes, mainly ions and small molecules such as glucose, but not water.",
+        "Membrane and proteins: diffusion can happen with or without a membrane and needs no proteins for small non-polar molecules; osmosis needs a semi-permeable membrane; active transport needs specific carrier proteins in a living membrane.",
+        "Where: diffusion and osmosis happen in living and non-living systems, e.g. Visking tubing; active transport happens only in living cells."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Selectively permeable membrane", "definition": "A living membrane that lets some substances through and not others, and can move substances actively using its proteins." },
+    { "term": "Semi-permeable membrane", "definition": "A membrane that lets water and small molecules through but holds back larger molecules, by the size of its pores." },
+    { "term": "Fully permeable", "definition": "Describes a barrier, such as the plant cell wall, that lets water and all solutes through." },
+    { "term": "Solute", "definition": "A substance, such as sugar or salt, dissolved in a solvent." },
+    { "term": "Concentration gradient", "definition": "The difference in concentration of a substance between two regions." },
+    { "term": "Diffusion", "definition": "The net movement of molecules or ions from a region of higher concentration to a region of lower concentration, passively." },
+    { "term": "Facilitated diffusion", "definition": "The passive diffusion of ions or polar molecules down a concentration gradient through specific channel or carrier proteins." },
+    { "term": "Osmosis", "definition": "The net movement of water molecules from a region of higher water concentration to a region of lower water concentration across a semi-permeable membrane." },
+    { "term": "Hypotonic", "definition": "Describes a solution more dilute than the cell's contents, so water enters the cell." },
+    { "term": "Hypertonic", "definition": "Describes a solution more concentrated than the cell's contents, so water leaves the cell." },
+    { "term": "Isotonic", "definition": "Describes a solution with the same concentration as the cell's contents, so there is no net movement of water." },
+    { "term": "Turgid", "definition": "Describes a plant cell that is firm because its vacuole has taken in water and pushes the contents against the cell wall." },
+    { "term": "Turgor pressure", "definition": "The pressure of the cell contents against the cell wall, caused by water entering the vacuole." },
+    { "term": "Flaccid", "definition": "Describes a plant cell that is soft because it has lost water." },
+    { "term": "Plasmolysis", "definition": "The shrinking of the cytoplasm and cell membrane away from the cell wall of a plant cell in a hypertonic solution." },
+    { "term": "Haemolysis", "definition": "The bursting of red blood cells when they take in too much water." },
+    { "term": "Crenation", "definition": "The shrivelling and spiky appearance of red blood cells in a hypertonic solution." },
+    { "term": "Active transport", "definition": "The movement of molecules or ions across a membrane against a concentration gradient, using energy from ATP and carrier proteins." },
+    { "term": "Carrier protein", "definition": "A protein in a membrane that binds a specific substance and changes shape to move it across the membrane." },
+    { "term": "Sodium–potassium pump", "definition": "A carrier protein in animal cell membranes that uses one ATP to pump three Na⁺ out of the cell and two K⁺ into it." },
+    { "term": "Aquaporin", "definition": "A protein water channel in a membrane through which water passes quickly." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define osmosis and state two ways in which it differs from active transport.",
+      "model": "Osmosis is the net movement of water molecules from a region of higher water concentration to a region of lower water concentration across a semi-permeable membrane. It differs from active transport in that osmosis is passive and needs no ATP, whereas active transport needs energy from ATP made in respiration. Osmosis moves water down a concentration gradient, whereas active transport moves substances against the concentration gradient, from low to high concentration. Osmosis moves only water, whereas active transport moves particular solutes such as ions and glucose."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what happens to a red blood cell and to a plant cell when each is placed in (i) distilled water and (ii) a concentrated salt solution.",
+      "model": "(i) In distilled water, a red blood cell takes in water by osmosis, swells and may burst; the bursting is haemolysis. A plant cell takes in water into its vacuole by osmosis. Its cytoplasm is pushed against the cell wall, which resists further swelling, so the cell becomes turgid and does not burst. (ii) In a concentrated salt solution, a red blood cell loses water by osmosis and shrinks, becoming shrivelled and spiky; this is crenation. A plant cell loses water from its vacuole, becomes flaccid, and its cytoplasm and cell membrane shrink away from the cell wall; this is plasmolysis. The space between the wall and the membrane fills with the outside solution, because the cell wall is fully permeable. The cell wall is what stops the plant cell from bursting in water."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how active transport moves substances across a cell membrane, with reference to the sodium–potassium pump, and explain why it is affected by a lack of oxygen.",
+      "model": "Active transport moves a molecule or ion across a membrane against its concentration gradient, from low to high concentration. The substance binds to a specific carrier protein in the membrane. ATP made in respiration releases energy, which changes the shape of the carrier protein, moving the substance across the membrane, where it is released. The carrier then returns to its original shape to pick up another molecule. The sodium–potassium pump is an example in animal cells, including nerve cells: it uses one ATP to pump three Na⁺ out of the cell and two K⁺ into it, both against their concentration gradients, keeping Na⁺ high outside and K⁺ high inside. Active transport needs ATP, which comes from respiration. A lack of oxygen stops aerobic respiration, so less ATP is made, and active transport stops or slows."
+    }
+  ]
+}
