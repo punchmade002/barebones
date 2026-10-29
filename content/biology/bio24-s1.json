@@ -60,7 +60,11 @@
     {
       "h": "From pollination to seed and fruit",
       "points": [
-        "Fertilisation in five steps: 1. A pollen grain of the same species lands on the stigma. 2. It grows a pollen tube down through the style to the ovary, digesting a path with enzymes. 3. The tube enters an ovule, usually through the micropyle, and carries the male gamete nuclei to it. 4. Fertilisation: a male gamete nucleus fuses with the egg cell nucleus to form a diploid zygote. 5. The zygote divides by mitosis to form the embryo.",
+        "Fertilisation in five steps: 1. A pollen grain of the same species lands on the stigma.",
+        "2. It grows a pollen tube down through the style to the ovary, digesting a path with enzymes.",
+        "3. The tube enters an ovule, usually through the micropyle, and carries the male gamete nuclei to it.",
+        "4. Fertilisation: a male gamete nucleus fuses with the egg cell nucleus to form a diploid zygote.",
+        "5. The zygote divides by mitosis to form the embryo.",
         "Double fertilisation: a second male nucleus fuses with two other nuclei in the ovule (the polar nuclei) to form the endosperm nucleus, which divides to form the endosperm food store.",
         "After fertilisation the ovule becomes the seed, and its outer layers (integuments) become the testa. The ovary becomes the fruit, and its wall becomes the fruit wall (pericarp). The petals, stamens and usually the sepals wither and fall off.",
         "Diagram: a carpel in section, with a pollen grain on the stigma, the pollen tube growing down the style and entering an ovule through the micropyle, labelled pollen grain, pollen tube, style, ovary, ovule, egg cell and micropyle."
@@ -68,26 +72,86 @@
     }
   ],
   "keyTerms": [
-    { "term": "Receptacle", "definition": "The swollen tip of the flower stalk to which all the other flower parts are attached." },
-    { "term": "Sepal", "definition": "A small, usually green, leaf-like part of the outer ring of a flower that protects the bud; the sepals together form the calyx." },
-    { "term": "Petal", "definition": "A part inside the sepals that forms the corolla; large and coloured in insect-pollinated flowers and small or absent in wind-pollinated ones." },
-    { "term": "Nectary", "definition": "A gland, usually at the base of the petals, that secretes nectar to reward visiting insects." },
-    { "term": "Stamen", "definition": "The male part of a flower, made of an anther on a filament; the stamens together form the androecium." },
-    { "term": "Anther", "definition": "The part of a stamen that produces pollen grains by meiosis and releases them when ripe." },
-    { "term": "Filament", "definition": "The stalk that holds the anther in position and carries water and nutrients to it." },
-    { "term": "Carpel", "definition": "The female part of a flower, made of the stigma, style and ovary; the carpels together form the gynoecium." },
-    { "term": "Stigma", "definition": "The tip of the carpel that receives pollen." },
-    { "term": "Style", "definition": "The stalk joining the stigma to the ovary, through which the pollen tube grows." },
-    { "term": "Ovary", "definition": "The swollen base of the carpel, containing the ovules; it develops into the fruit after fertilisation." },
-    { "term": "Ovule", "definition": "A structure inside the ovary containing the egg cell; after fertilisation it develops into the seed." },
-    { "term": "Micropyle", "definition": "A tiny pore at one end of the ovule through which the pollen tube usually enters." },
-    { "term": "Pollination", "definition": "The transfer of pollen from an anther to a stigma of a flower of the same species." },
-    { "term": "Self-pollination", "definition": "The transfer of pollen to a stigma of the same flower or of another flower on the same plant." },
-    { "term": "Cross-pollination", "definition": "The transfer of pollen to a stigma of a flower on a different plant of the same species." },
-    { "term": "Nectar guide", "definition": "A line or patch on a petal that leads an insect to the nectar." },
-    { "term": "Pollen tube", "definition": "A tube grown by a pollen grain down through the style to the ovary, carrying the male gamete nuclei to the ovule." },
-    { "term": "Zygote", "definition": "The diploid cell formed when a male gamete nucleus fuses with the egg cell nucleus." },
-    { "term": "Double fertilisation", "definition": "The process in flowering plants in which a second male nucleus fuses with the polar nuclei to form the endosperm food store." }
+    {
+      "term": "Receptacle",
+      "definition": "The swollen tip of the flower stalk to which all the other flower parts are attached."
+    },
+    {
+      "term": "Sepal",
+      "definition": "A small, usually green, leaf-like part of the outer ring of a flower that protects the bud; the sepals together form the calyx."
+    },
+    {
+      "term": "Petal",
+      "definition": "A part inside the sepals that forms the corolla; large and coloured in insect-pollinated flowers and small or absent in wind-pollinated ones."
+    },
+    {
+      "term": "Nectary",
+      "definition": "A gland, usually at the base of the petals, that secretes nectar to reward visiting insects."
+    },
+    {
+      "term": "Stamen",
+      "definition": "The male part of a flower, made of an anther on a filament; the stamens together form the androecium."
+    },
+    {
+      "term": "Anther",
+      "definition": "The part of a stamen that produces pollen grains by meiosis and releases them when ripe."
+    },
+    {
+      "term": "Filament",
+      "definition": "The stalk that holds the anther in position and carries water and nutrients to it."
+    },
+    {
+      "term": "Carpel",
+      "definition": "The female part of a flower, made of the stigma, style and ovary; the carpels together form the gynoecium."
+    },
+    {
+      "term": "Stigma",
+      "definition": "The tip of the carpel that receives pollen."
+    },
+    {
+      "term": "Style",
+      "definition": "The stalk joining the stigma to the ovary, through which the pollen tube grows."
+    },
+    {
+      "term": "Ovary",
+      "definition": "The swollen base of the carpel, containing the ovules; it develops into the fruit after fertilisation."
+    },
+    {
+      "term": "Ovule",
+      "definition": "A structure inside the ovary containing the egg cell; after fertilisation it develops into the seed."
+    },
+    {
+      "term": "Micropyle",
+      "definition": "A tiny pore at one end of the ovule through which the pollen tube usually enters."
+    },
+    {
+      "term": "Pollination",
+      "definition": "The transfer of pollen from an anther to a stigma of a flower of the same species."
+    },
+    {
+      "term": "Self-pollination",
+      "definition": "The transfer of pollen to a stigma of the same flower or of another flower on the same plant."
+    },
+    {
+      "term": "Cross-pollination",
+      "definition": "The transfer of pollen to a stigma of a flower on a different plant of the same species."
+    },
+    {
+      "term": "Nectar guide",
+      "definition": "A line or patch on a petal that leads an insect to the nectar."
+    },
+    {
+      "term": "Pollen tube",
+      "definition": "A tube grown by a pollen grain down through the style to the ovary, carrying the male gamete nuclei to the ovule."
+    },
+    {
+      "term": "Zygote",
+      "definition": "The diploid cell formed when a male gamete nucleus fuses with the egg cell nucleus."
+    },
+    {
+      "term": "Double fertilisation",
+      "definition": "The process in flowering plants in which a second male nucleus fuses with the polar nuclei to form the endosperm food store."
+    }
   ],
   "questions": [
     {

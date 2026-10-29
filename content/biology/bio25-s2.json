@@ -8,7 +8,10 @@
       "h": "Osmosis in food preservation",
       "points": [
         "Food spoils mainly because bacteria and fungi (moulds and yeasts) grow on it, digesting it and making it unsafe or unpleasant to eat. Like all cells, they need water for their enzymes to work and to grow and reproduce.",
-        "Mechanism: 1. A high concentration of salt or sugar is added to the food. 2. The food's water is now a concentrated (hypertonic) solution compared with the cytoplasm of any microorganism on it. 3. Water leaves the microbial cells by osmosis. 4. The cells are dehydrated and plasmolysed (bacteria and fungi have cell walls), so their enzymes can't work and they can't grow or reproduce; many die.",
+        "Mechanism: 1. A high concentration of salt or sugar is added to the food.",
+        "2. The food's water is now a concentrated (hypertonic) solution compared with the cytoplasm of any microorganism on it.",
+        "3. Water leaves the microbial cells by osmosis.",
+        "4. The cells are dehydrated and plasmolysed (bacteria and fungi have cell walls), so their enzymes can't work and they can't grow or reproduce; many die.",
         "The salt or sugar also binds water in the food, so less free water is available to any microbe. Preserving by drying (e.g. dried fruit and dried fish) works by removing water directly, which has the same effect on microbes; it is related to osmosis but is not osmosis itself."
       ]
     },
@@ -52,15 +55,42 @@
     }
   ],
   "keyTerms": [
-    { "term": "Osmotic preservation", "definition": "Preserving food by adding a high concentration of salt or sugar, which draws water out of microbes by osmosis so that they cannot grow." },
-    { "term": "Brine", "definition": "A strong salt solution in which meat, fish or vegetables are soaked for preservation." },
-    { "term": "Pickling", "definition": "Preserving vegetables in vinegar, whose low pH stops enzymes and microbes working, or in brine." },
-    { "term": "Ethanoic acid", "definition": "The acid in vinegar, which preserves food mainly through its low pH." },
-    { "term": "Turgor pressure", "definition": "The pressure of the cell contents against the cell wall, which supports non-woody plants." },
-    { "term": "Guard cells", "definition": "Cells that open the stomata when turgid and close them when flaccid." },
-    { "term": "Wilting", "definition": "The drooping of a plant that occurs when water lost by transpiration exceeds water taken up by the roots, making the cells flaccid." },
-    { "term": "Salinisation", "definition": "The build-up of salts in soil, often from irrigation in hot, dry regions, which makes soil water too concentrated for roots to take up water." },
-    { "term": "Fertiliser burn", "definition": "Browning and scorching of leaves caused when too much fertiliser makes the soil solution more concentrated than the root cells." }
+    {
+      "term": "Osmotic preservation",
+      "definition": "Preserving food by adding a high concentration of salt or sugar, which draws water out of microbes by osmosis so that they cannot grow."
+    },
+    {
+      "term": "Brine",
+      "definition": "A strong salt solution in which meat, fish or vegetables are soaked for preservation."
+    },
+    {
+      "term": "Pickling",
+      "definition": "Preserving vegetables in vinegar, whose low pH stops enzymes and microbes working, or in brine."
+    },
+    {
+      "term": "Ethanoic acid",
+      "definition": "The acid in vinegar, which preserves food mainly through its low pH."
+    },
+    {
+      "term": "Turgor pressure",
+      "definition": "The pressure of the cell contents against the cell wall, which supports non-woody plants."
+    },
+    {
+      "term": "Guard cells",
+      "definition": "Cells that open the stomata when turgid and close them when flaccid."
+    },
+    {
+      "term": "Wilting",
+      "definition": "The drooping of a plant that occurs when water lost by transpiration exceeds water taken up by the roots, making the cells flaccid."
+    },
+    {
+      "term": "Salinisation",
+      "definition": "The build-up of salts in soil, often from irrigation in hot, dry regions, which makes soil water too concentrated for roots to take up water."
+    },
+    {
+      "term": "Fertiliser burn",
+      "definition": "Browning and scorching of leaves caused when too much fertiliser makes the soil solution more concentrated than the root cells."
+    }
   ],
   "questions": [
     {
