@@ -120,12 +120,12 @@
     },
     {
       "marks": 12,
-      "prompt": "Higher Level: Describe the changes in the levels of FSH, LH, oestrogen and progesterone during a 28-day cycle, with reference to the Graafian follicle and the corpus luteum.",
+      "prompt": "Describe the changes in the levels of FSH, LH, oestrogen and progesterone during a 28-day cycle, with reference to the Graafian follicle and the corpus luteum.",
       "model": "FSH rises at the start of the cycle, stimulating follicles to develop, and one becomes the Graafian follicle. The growing follicle secretes increasing oestrogen. Oestrogen reaches a high peak around day 12–13, which stimulates a large surge of LH; the LH surge causes the Graafian follicle to burst and release its egg about a day later, at about day 14. After ovulation the empty follicle becomes the corpus luteum, which secretes progesterone, so progesterone rises to a peak around day 21 and oestrogen has a smaller second rise. Progesterone inhibits FSH and LH, so they stay low. If there is no pregnancy the corpus luteum breaks down after about 10–14 days, so progesterone and oestrogen fall; the fall of progesterone causes the endometrium to be shed, which is menstruation, and FSH rises again to start a new cycle."
     },
     {
       "marks": 9,
-      "prompt": "Higher Level: Explain the roles of negative and positive feedback in controlling the menstrual cycle.",
+      "prompt": "Explain the roles of negative and positive feedback in controlling the menstrual cycle.",
       "model": "Negative feedback: progesterone from the corpus luteum, and moderate oestrogen, inhibit the pituitary's release of FSH and LH, so FSH and LH stay low in the luteal phase and no new follicle develops; as the corpus luteum breaks down, this inhibition is removed, FSH rises and a new cycle begins. Positive feedback: high oestrogen from the developing follicle, just before ovulation, stimulates the pituitary to release more LH, producing the LH surge, which causes the Graafian follicle to burst and release its egg."
     }
   ]

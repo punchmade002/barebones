@@ -7,7 +7,11 @@
     {
       "h": "Overview of the five steps (Higher Level only)",
       "points": [
-        "The steps are: 1. collect a sample; 2. extract the DNA; 3. amplify (copy) the chosen repeat regions by PCR; 4. separate the copies by size by gel electrophoresis; 5. make the bands visible and analyse (compare) the pattern.",
+        "The steps are: 1. Collect a sample.",
+        "2. Extract the DNA.",
+        "3. Amplify (copy) the chosen repeat regions by PCR.",
+        "4. Separate the copies by size by gel electrophoresis.",
+        "5. Make the bands visible and analyse (compare) the pattern.",
         "In the earlier method, step 3 was replaced by cutting the DNA with restriction enzymes (see “The earlier method: restriction enzymes”, below).",
         "Diagram: a flow diagram of the five steps, with the key reagent or equipment at each: sample (swab, blood) → extraction (detergent, salt, protease, cold ethanol) → PCR (primers, nucleotides, Taq polymerase, thermal cycler) → gel electrophoresis (agarose gel, wells, electric current) → stained bands compared."
       ]
@@ -110,21 +114,66 @@
     }
   ],
   "keyTerms": [
-    { "term": "Polymerase chain reaction (PCR)", "definition": "A method that copies a chosen short region of DNA many times, doubling the copies in each cycle of heating and cooling." },
-    { "term": "Primer", "definition": "A short single-stranded piece of DNA, complementary to the sequences on either side of a region, that starts the copying of that region." },
-    { "term": "Template", "definition": "The DNA strand that is copied to make a new complementary strand." },
-    { "term": "Denaturation", "definition": "Heating DNA to about 95 °C so that the hydrogen bonds between complementary bases break and the two strands separate." },
-    { "term": "Annealing", "definition": "Cooling DNA to about 55 °C so that primers bind by complementary base pairing to their matching sequences on each single strand." },
-    { "term": "Extension", "definition": "Heating to about 72 °C so that Taq polymerase adds nucleotides to each primer, building a new complementary strand." },
-    { "term": "Taq polymerase", "definition": "A heat-stable DNA polymerase from the hot-spring bacterium Thermus aquaticus that works best at about 72 °C." },
-    { "term": "Thermal cycler", "definition": "A machine that changes the temperature of PCR reactions automatically through the denaturation, annealing and extension steps." },
-    { "term": "Lysis", "definition": "The breaking open of cells and nuclei, here by a detergent that dissolves the membranes and releases the DNA." },
-    { "term": "Protease", "definition": "An enzyme that digests proteins, including the histones bound to DNA, during DNA extraction." },
-    { "term": "Precipitation (of DNA)", "definition": "The coming out of solution of DNA when cold ethanol is added, so that it can be collected as white threads." },
-    { "term": "Agarose", "definition": "A jelly made from a polysaccharide extracted from seaweed, used to make the gel that separates DNA fragments." },
-    { "term": "Loading dye", "definition": "A dense, coloured liquid mixed with DNA samples so that they sink into the well and the progress of the run can be seen." },
-    { "term": "Cathode and anode", "definition": "The negative electrode (cathode), at the wells end of the gel, and the positive electrode (anode), towards which DNA moves." },
-    { "term": "Capillary electrophoresis", "definition": "Separation of fluorescently labelled DNA fragments by size in a thin capillary tube in a machine, which reads the result as peaks." }
+    {
+      "term": "Polymerase chain reaction (PCR)",
+      "definition": "A method that copies a chosen short region of DNA many times, doubling the copies in each cycle of heating and cooling."
+    },
+    {
+      "term": "Primer",
+      "definition": "A short single-stranded piece of DNA, complementary to the sequences on either side of a region, that starts the copying of that region."
+    },
+    {
+      "term": "Template",
+      "definition": "The DNA strand that is copied to make a new complementary strand."
+    },
+    {
+      "term": "Denaturation",
+      "definition": "Heating DNA to about 95 °C so that the hydrogen bonds between complementary bases break and the two strands separate."
+    },
+    {
+      "term": "Annealing",
+      "definition": "Cooling DNA to about 55 °C so that primers bind by complementary base pairing to their matching sequences on each single strand."
+    },
+    {
+      "term": "Extension",
+      "definition": "Heating to about 72 °C so that Taq polymerase adds nucleotides to each primer, building a new complementary strand."
+    },
+    {
+      "term": "Taq polymerase",
+      "definition": "A heat-stable DNA polymerase from the hot-spring bacterium Thermus aquaticus that works best at about 72 °C."
+    },
+    {
+      "term": "Thermal cycler",
+      "definition": "A machine that changes the temperature of PCR reactions automatically through the denaturation, annealing and extension steps."
+    },
+    {
+      "term": "Lysis",
+      "definition": "The breaking open of cells and nuclei, here by a detergent that dissolves the membranes and releases the DNA."
+    },
+    {
+      "term": "Protease",
+      "definition": "An enzyme that digests proteins, including the histones bound to DNA, during DNA extraction."
+    },
+    {
+      "term": "Precipitation (of DNA)",
+      "definition": "The coming out of solution of DNA when cold ethanol is added, so that it can be collected as white threads."
+    },
+    {
+      "term": "Agarose",
+      "definition": "A jelly made from a polysaccharide extracted from seaweed, used to make the gel that separates DNA fragments."
+    },
+    {
+      "term": "Loading dye",
+      "definition": "A dense, coloured liquid mixed with DNA samples so that they sink into the well and the progress of the run can be seen."
+    },
+    {
+      "term": "Cathode and anode",
+      "definition": "The negative electrode (cathode), at the wells end of the gel, and the positive electrode (anode), towards which DNA moves."
+    },
+    {
+      "term": "Capillary electrophoresis",
+      "definition": "Separation of fluorescently labelled DNA fragments by size in a thin capillary tube in a machine, which reads the result as peaks."
+    }
   ],
   "questions": [
     {
