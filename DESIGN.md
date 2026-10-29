@@ -130,3 +130,12 @@ Fixed top-right. 46px circle, orange bg, white initial, `--accent-light` ring. S
 
 ## Layout
 Two-column grid: `440px` left sidebar (via `--sidebar-w`, `0px` when collapsed) + `1fr` right workbench. Both panels fill `calc(100vh - 5.5rem)` and scroll independently (`overflow-y: auto; overscroll-behavior: contain`). Page itself never scrolls (`body: overflow: hidden`).
+
+Below 980px the sidebar becomes a horizontal subject strip; tapping the selected subject opens its chapters as an overlay sheet, which closes on a pick or an outside tap.
+
+### Phone (≤640px)
+Lives in `responsive.css`, loaded after `styles.css`, and follows the landing-page phone mockups (`index.html` screen templates).
+- **Top bar** (`--phone-bar`, 3.6rem): 22px wordmark left; timer and 38px avatar right. The level % rides on the avatar as a small badge. The timer's menu drops downward, and the timer hides on Progress, Full notes and Paper guide, whose Close button sits in the same corner.
+- **Study header:** chapter title (two-line clamp) with a Full notes pill beside it, then a segmented Learn/Test/Exam switch: grey track, white active segment.
+- **Learn card:** dark (`--ink`) and fills the remaining height. An orange "Flashcard"/"Answer" label sits above the face, and tapping the face flips it. Controls are pinned to the bottom, with key words above them.
+- **Heights** use `100dvh` so Safari's toolbars don't hide the card. Text fields are 16px so iOS doesn't zoom on focus.
