@@ -1,9 +1,15 @@
 /* ═══════════════════════════════════════════════
-   BARE BONES — Phone & touch layout
+   BARE BONES — Device layout: phone, tablet, touch
    Loaded after styles.css. The phone screens follow the landing-page
    mockups (index.html, tpl-screen-flash / tpl-screen-exam): a slim top bar,
    a segmented mode switch, and one tall card that owns the screen.
    ═══════════════════════════════════════════════ */
+
+/* ── Desktop: the card footer ends under the bottom-right timer, so key words
+   (right end of the footer) stop short of it ── */
+@media (min-width: 981px) {
+  #subjectWorkbench.learn-mode .study-card-footer { padding-right: 2.5rem; }
+}
 
 /* The timer has nothing to time before sign-in */
 body.auth-open .timer-widget { display: none; }
