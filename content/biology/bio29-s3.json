@@ -10,7 +10,11 @@
         "A heartbeat is one contraction and relaxation of the heart muscle, pumping blood out of the ventricles into the arteries. An adult heart beats about 70 times a minute at rest, a normal resting range being about 60 to 100, and it does so every minute of life.",
         "Cardiac muscle is myogenic: the beat starts within the heart muscle itself, without a nerve impulse. A heart removed for transplant keeps beating for a time if it is supplied with oxygenated fluid (cardiac muscle features are in ‘Investigation: the heart’).",
         "The pacemaker is the sinoatrial node (SA node), a small patch of specialised cardiac muscle in the wall of the right atrium, near where the superior vena cava enters. It produces electrical impulses at regular intervals by itself. Each impulse starts one heartbeat, so the SA node sets the rate of the heartbeat.",
-        "How the impulse spreads: 1. the impulse from the SA node spreads across the walls of both atria, so the atria contract together, pushing blood into the ventricles; 2. a layer of non-conducting tissue between the atria and the ventricles stops the impulse passing straight to the ventricles; 3. the impulse reaches the atrioventricular node (AV node), at the base of the right atrium near the septum, which delays it for a fraction of a second, giving the atria time to empty into the ventricles; 4. the AV node passes the impulse down conducting fibres in the septum (the bundle of His) to the apex, and then up through the ventricle walls (Purkinje fibres); 5. the ventricles contract from the apex upwards, squeezing blood up into the aorta and pulmonary artery. The atria therefore contract before the ventricles, and the two sides beat together.",
+        "How the impulse spreads: 1. The impulse from the SA node spreads across the walls of both atria, so the atria contract together, pushing blood into the ventricles.",
+        "2. A layer of non-conducting tissue between the atria and the ventricles stops the impulse passing straight to the ventricles.",
+        "3. The impulse reaches the atrioventricular node (AV node), at the base of the right atrium near the septum, which delays it for a fraction of a second, giving the atria time to empty into the ventricles.",
+        "4. The AV node passes the impulse down conducting fibres in the septum (the bundle of His) to the apex, and then up through the ventricle walls (Purkinje fibres).",
+        "5. The ventricles contract from the apex upwards, squeezing blood up into the aorta and pulmonary artery. The atria therefore contract before the ventricles, and the two sides beat together.",
         "Diagram: a front-view outline of the heart showing the SA node in the wall of the right atrium, the AV node near the septum, the conducting fibres down the septum and up the ventricle walls, with arrows for the spread of the impulse."
       ]
     },
@@ -29,7 +33,10 @@
       "points": [
         "The pulse is a wave of expansion of an artery wall, caused by the surge of blood forced into the arteries each time the ventricles contract. The stretched elastic wall then recoils. The pulse rate therefore equals the heart rate.",
         "The pulse can be felt where an artery runs close to the skin over a bone or firm tissue. The usual sites are the radial artery at the wrist, on the thumb side, and the carotid artery in the neck, beside the windpipe. Veins have no pulse, because the pressure wave has been lost in the capillaries.",
-        "Method for measuring pulse: 1. sit quietly for a few minutes; 2. press lightly with the index and middle fingers, not the thumb, which has its own pulse, on the radial artery; 3. count the beats for 30 seconds and double the number to give beats per minute, or count for a full 60 seconds; 4. repeat three times and take the mean.",
+        "Method for measuring pulse: 1. Sit quietly for a few minutes.",
+        "2. Press lightly with the index and middle fingers, not the thumb, which has its own pulse, on the radial artery.",
+        "3. Count the beats for 30 seconds and double the number to give beats per minute, or count for a full 60 seconds.",
+        "4. Repeat three times and take the mean.",
         "Exercise and pulse, a standard class investigation with primary data: measure the resting pulse; exercise, for example with step-ups for two minutes; then measure the pulse at once and every minute until it returns to the resting value. The pulse rises during exercise and falls gradually afterwards. The time taken to return to the resting rate, the recovery time, is shorter in fitter people, who also tend to have a lower resting pulse because each beat pumps more blood.",
         "Variables for the exercise investigation: the independent variable is activity level (rest, or after exercise); the dependent variable is pulse rate in beats per minute. Controlled variables are the type, duration and intensity of the exercise, the same person, the same counting method and the same posture."
       ]
@@ -63,20 +70,62 @@
     }
   ],
   "keyTerms": [
-    { "term": "Pacemaker (SA node)", "definition": "The sinoatrial node, a patch of specialised cardiac muscle in the wall of the right atrium that produces regular impulses and sets the heart rate." },
-    { "term": "Atrioventricular (AV) node", "definition": "The node at the base of the right atrium that delays the impulse before it passes to the ventricles." },
-    { "term": "Bundle of His", "definition": "Conducting fibres in the septum that carry the impulse from the AV node down to the apex of the heart." },
-    { "term": "Purkinje fibres", "definition": "Conducting fibres in the ventricle walls that carry the impulse up from the apex, so the ventricles contract from the bottom upwards." },
-    { "term": "Myogenic", "definition": "Describes heart muscle that starts each beat within itself, without a nerve impulse." },
-    { "term": "Pulse", "definition": "The wave of expansion of an artery wall, caused by the surge of blood when the ventricles contract." },
-    { "term": "Sphygmomanometer", "definition": "A device with an inflatable cuff that measures blood pressure in mmHg." },
-    { "term": "Hypertension", "definition": "High blood pressure, meaning a resting value consistently at or above about 140/90 mmHg." },
-    { "term": "Coronary arteries", "definition": "The arteries that branch from the base of the aorta and supply the heart muscle with blood." },
-    { "term": "Coronary sinus", "definition": "The large vein at the back of the heart that collects blood from the cardiac veins and empties it into the right atrium." },
-    { "term": "Atheroma", "definition": "A fatty deposit, containing cholesterol, that builds up in the wall of an artery and narrows it." },
-    { "term": "Angina", "definition": "Chest pain during exercise caused by reduced blood supply to the heart muscle." },
-    { "term": "Myocardial infarction", "definition": "A heart attack, in which part of the heart muscle dies because a coronary artery is blocked." },
-    { "term": "Angioplasty", "definition": "A procedure in which a balloon on a catheter is inflated inside a narrowed artery, and a stent is left in place to hold it open." }
+    {
+      "term": "Pacemaker (SA node)",
+      "definition": "The sinoatrial node, a patch of specialised cardiac muscle in the wall of the right atrium that produces regular impulses and sets the heart rate."
+    },
+    {
+      "term": "Atrioventricular (AV) node",
+      "definition": "The node at the base of the right atrium that delays the impulse before it passes to the ventricles."
+    },
+    {
+      "term": "Bundle of His",
+      "definition": "Conducting fibres in the septum that carry the impulse from the AV node down to the apex of the heart."
+    },
+    {
+      "term": "Purkinje fibres",
+      "definition": "Conducting fibres in the ventricle walls that carry the impulse up from the apex, so the ventricles contract from the bottom upwards."
+    },
+    {
+      "term": "Myogenic",
+      "definition": "Describes heart muscle that starts each beat within itself, without a nerve impulse."
+    },
+    {
+      "term": "Pulse",
+      "definition": "The wave of expansion of an artery wall, caused by the surge of blood when the ventricles contract."
+    },
+    {
+      "term": "Sphygmomanometer",
+      "definition": "A device with an inflatable cuff that measures blood pressure in mmHg."
+    },
+    {
+      "term": "Hypertension",
+      "definition": "High blood pressure, meaning a resting value consistently at or above about 140/90 mmHg."
+    },
+    {
+      "term": "Coronary arteries",
+      "definition": "The arteries that branch from the base of the aorta and supply the heart muscle with blood."
+    },
+    {
+      "term": "Coronary sinus",
+      "definition": "The large vein at the back of the heart that collects blood from the cardiac veins and empties it into the right atrium."
+    },
+    {
+      "term": "Atheroma",
+      "definition": "A fatty deposit, containing cholesterol, that builds up in the wall of an artery and narrows it."
+    },
+    {
+      "term": "Angina",
+      "definition": "Chest pain during exercise caused by reduced blood supply to the heart muscle."
+    },
+    {
+      "term": "Myocardial infarction",
+      "definition": "A heart attack, in which part of the heart muscle dies because a coronary artery is blocked."
+    },
+    {
+      "term": "Angioplasty",
+      "definition": "A procedure in which a balloon on a catheter is inflated inside a narrowed artery, and a stent is left in place to hold it open."
+    }
   ],
   "questions": [
     {
