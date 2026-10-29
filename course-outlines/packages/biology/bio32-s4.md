@@ -73,7 +73,7 @@ Parasitism and a summary of relationships (one block, Higher Level only)
 | F4 | Ladybirds eat aphids; song thrushes break snail shells on a stone; badgers eat mainly earthworms; hedgehogs eat slugs, beetles, earthworms; kestrels eat wood mice, pygmy shrews and large insects; ground beetles eat slugs. |
 | P2 | Kestrel hovers; keen eyesight, talons, hooked beak. |
 | P4 | Snowshoe hare and lynx, Canada, fur-trading records, cycles of about ten years. |
-| C6 | Grey squirrel introduced to Ireland at Castle Forbes, Co. Longford, in 1911; squirrelpox kills red squirrels; greys decline where pine martens recover. |
+| C6 | Grey squirrel introduced to Ireland at Castle Forbes, Co. Longford, in 1911; greys digest acorns better than reds and eat unripe hazelnuts; squirrelpox kills red squirrels; greys decline where pine martens recover. |
 | M2 | Rhizobium in legume root nodules; ammonium for the plant; carbohydrate for the bacteria; nodules pink from leghaemoglobin. |
 | M3 | Cellulose-digesting microorganisms in the rumen (cattle, sheep) and caecum (rabbits); rabbits eat soft droppings. |
 | M4 | Mycorrhizal fungi supply water and phosphate; get sugars. |

@@ -72,7 +72,7 @@ Bringing it together (one bullet)
 | D4 | Criminal Justice (Forensic Evidence and DNA Database System) Act 2014 (Ireland). S and Marper v United Kingdom, European Court of Human Rights, 2008. |
 | D5 | Golden State Killer, Joseph James DeAngelo, identified 2018 via relatives' DNA on a public genealogy website. 23andMe data breach 2023, millions of customers. |
 | D6 | US Supreme Court 2013, Myriad Genetics, BRCA1/BRCA2 patents: naturally occurring DNA can't be patented. |
-| M2 | EU labelling threshold 0.9% GM material; glyphosate-resistant weeds and Bt-resistant pests have evolved. |
+| M2 | EU labelling threshold 0.9% GM material; glyphosate-resistant weeds and Bt-resistant pests have evolved; Golden Rice approval in the Philippines challenged in court (no date or outcome). |
 | M4 | UK approved a CRISPR treatment for sickle-cell disease (and beta thalassaemia) in 2023. |
 | M5 | He Jiankui, November 2018, CRISPR-edited twin girls (HIV resistance); sentenced to three years in prison, 2019. |
 | M6 | UK permitted mitochondrial donation by law in 2015; mitochondrial DNA has 37 genes (both as in "Nuclear and non-nuclear inheritance"). |
