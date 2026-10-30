@@ -19,7 +19,7 @@
 
 What the census is
 - [ ] C1 Definition: a census of population is an official count of every person in the country on one night, collecting information on each person and household. In Ireland it is carried out by the Central Statistics Office (CSO); completing the form is a legal obligation.
-- [ ] C2 Frequency: normally every five years, in years ending in 1 and 6, on a Sunday night in April. Exceptions in section 2 (2002, 2022).
+- [ ] C2 Frequency: normally every five years on a Sunday night in April; traditionally in years ending in 1 and 6, but after the 2022 census the next is 2027. Exceptions in section 2 (2002, 2022).
 - [ ] C3 Recent censuses and the next one (dates and totals in section 2).
 - [ ] C4 De facto census: Ireland counts everyone present in the State on census night (including visitors), wherever they usually live; the form also records each person's usual residence, so results can be given both ways.
 - [ ] C5 How it is collected: enumerators (field staff) deliver a household form to every dwelling before census night and collect it afterwards; one form per household, with a page for each person; communal establishments (hotels, hospitals, prisons) are covered separately; vacant dwellings are recorded.

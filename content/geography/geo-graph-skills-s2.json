@@ -10,7 +10,7 @@
       "points": [
         "In Ireland the census is carried out by the Central Statistics Office (CSO), and taking part is required by law.",
         "Ireland's census is de facto: it counts everyone present in the State on census night, including visitors, wherever they usually live. The form also records each person's usual residence, so results can be given both ways.",
-        "The census is normally held every five years, in years ending in 1 and 6, on a Sunday night in April.",
+        "The census is normally held every five years on a Sunday night in April. It used to fall in years ending in 1 and 6, but the 2021 census was postponed to 2022 because of COVID-19, so the next is in 2027.",
         "The 2001 census was postponed to 2002 because of foot-and-mouth disease.",
         "The 2021 census was postponed to 2022 because of COVID-19.",
         "The next census is planned for 2027.",
@@ -141,7 +141,7 @@
         "For comparison, the population of the whole island was about 8.2 million in 1841.",
         "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
         "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
-        "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the notes on Changing migration patterns in Ireland to s6."
+        "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the migration notes, from Changing migration patterns in Ireland to Rural-to-urban migration."
       ]
     },
     {
@@ -223,6 +223,26 @@
       "term": "Electoral Division",
       "definition": "A geographical unit for which census results are published, larger than a Small Area."
     }
+  ],
+  "factCards": [
+    { "term": "Irish census: who runs it, how often and on what night", "definition": "Run by the Central Statistics Office (CSO), and taking part is required by law. Normally held every five years on a Sunday night in April; traditionally in years ending in 1 and 6, but since the 2022 census the next is 2027. The first census of the Irish Free State was in 1926." },
+    { "term": "Which two Irish censuses were postponed, and why?", "definition": "The 2001 census was postponed to 2002 because of foot-and-mouth disease; the 2021 census was postponed to 2022 because of COVID-19. The next census is planned for 2027." },
+    { "term": "Census 2011, 2016 and 2022: the population totals", "definition": "Census 2011: about 4.59 million. Census 2016 (24 April 2016): about 4.76 million. Census 2022 (3 April 2022): 5,149,139, about 5.15 million, a rise of about 387,000 (about 8%) on 2016." },
+    { "term": "Census 2022: what it asked for the first time", "definition": "It asked for the first time about working from home and about renewable energy sources at the home, such as solar panels, and included an optional time capsule page whose contents will be released after 100 years." },
+    { "term": "How the census forms are delivered and collected", "definition": "Enumerators deliver a household form to every dwelling before census night and collect it afterwards; one form per household, with a page for each person; hotels, hospitals and prisons are covered separately; vacant dwellings are recorded." },
+    { "term": "Census confidentiality: the 100-year rule and the oldest returns online", "definition": "Information is used only for statistics, and personal forms are kept closed for 100 years before becoming historical records. The 1901 and 1911 returns are free online from the National Archives of Ireland and are used for family history." },
+    { "term": "Census data: six ways governments and planners use it", "definition": "Schools (number of young children); healthcare and nursing homes (size of the older population); housing (household numbers and vacancy); transport (commuting flows). Also pensions and welfare, and targeting resources at disadvantaged areas." },
+    { "term": "Census data and Dáil constituencies: the rules", "definition": "Constituencies are reviewed after each census by the Electoral Commission (An Coimisiún Toghcháin). The Constitution requires one TD for every 20,000 to 30,000 people and a revision at least once every 12 years." },
+    { "term": "Census data: three uses outside government", "definition": "Businesses use it to choose where to locate shops and services; researchers and students use it, including to track the Irish language; old returns are used for historical and genealogical research." },
+    { "term": "Limitations of census data: name seven", "definition": "It is a snapshot of one night, out of date between censuses, with a long wait for detailed results; homeless people and people avoiding the count may be missed; self-reported answers may be inaccurate; it is very expensive; area boundaries change over time." },
+    { "term": "Net migration from two censuses: how to estimate it", "definition": "Population change = natural increase + net migration, so net migration = total change minus natural increase (births minus deaths from civil registration). Illustrative Rivertown ED: change +630, natural increase 170, so net migration +460." },
+    { "term": "Age structure: the three groups and what a high dependency ratio means", "definition": "Young dependents 0–14, working age 15–64, old dependents 65 and over. A high young dependency ratio means more schools are needed; a high old one means more pensions and healthcare. Divide by the 15–64 group, not the total." },
+    { "term": "Sex structure: why the balance of males and females varies", "definition": "Women outnumber men in the older age groups because of longer life expectancy. Local imbalances arise from migration, for example young women moving to cities for work." },
+    { "term": "Ireland's long-term population trend: three census figures", "definition": "The whole island had about 8.2 million people in 1841. After a steep fall following the Great Famine, the State was at its lowest in the 1961 census, about 2.8 million. Census 2022 was the first to pass 5 million since the 1851 census." },
+    { "term": "Ireland's population today: three features shown by the census", "definition": "Growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens." },
+    { "term": "Why Irish census figures do not include Northern Ireland", "definition": "Irish census figures cover the State, not the island. Northern Ireland has its own census, run by NISRA; its latest, on 21 March 2021, counted about 1.9 million. The Republic's latest was 2022, so the two must not be merged." },
+    { "term": "Local-area census study: the eight steps", "definition": "Choose the area (ED, Small Area, town or county); find its tables for two or more censuses on the CSO website; record population, age, sex, households, nationality, commuting; calculate changes and ratios; graph them; describe; explain; note limitations." },
+    { "term": "Local population trends: typical explanations", "definition": "New housing estates and commuter growth near cities and motorways bring rising population, young families and high young dependency; rural decline in remote areas brings a falling, ageing population; also immigration, or a major employer closing or opening." }
   ],
   "questions": [
     {

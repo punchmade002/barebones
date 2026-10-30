@@ -3,8 +3,8 @@
 
 Content agents write one JSON file per subsection to content/<subject>/<loId>.json, in the
 format set out in course-outlines/NOTES_STANDARD.md. This script checks every file against the
-standard and writes <subject>-notes.js, which attaches the notes, key terms and any practice
-questions to the matching learning outcome in COURSE_DATA.
+standard and writes <subject>-notes.js, which attaches the notes, key terms, fact cards and any
+practice questions to the matching learning outcome in COURSE_DATA.
 
     python3 scripts/build_notes.py geography          # validate + build
     python3 scripts/build_notes.py geography --check  # validate only
@@ -134,6 +134,26 @@ def validate(path: Path, los: dict[str, str]) -> tuple[dict | None, list[str]]:
         plain(term.get("term"), f"{where}.term", errors)
         plain(term.get("definition"), f"{where}.definition", errors)
 
+    # Fact cards (optional) test case-study facts, formation stages and named examples. They
+    # are shown after the key terms, so existing flashcard ids and progress stay put.
+    fronts = {norm(t["term"]) for t in terms if isinstance(t, dict) and isinstance(t.get("term"), str)}
+    facts = data.get("factCards", [])
+    if not isinstance(facts, list):
+        errors.append(f"{path.name}: factCards must be a list")
+        facts = []
+    for i, card in enumerate(facts):
+        where = f"{path.name} factCards[{i}]"
+        if not isinstance(card, dict):
+            errors.append(f"{where}: must be an object")
+            continue
+        plain(card.get("term"), f"{where}.term", errors)
+        plain(card.get("definition"), f"{where}.definition", errors)
+        if isinstance(card.get("term"), str):
+            key = norm(card["term"])
+            if key in fronts:
+                errors.append(f"{where}.term: repeats another card ({card['term']!r})")
+            fronts.add(key)
+
     for i, question in enumerate(data.get("questions", [])):
         where = f"{path.name} questions[{i}]"
         if not isinstance(question, dict):
@@ -165,7 +185,8 @@ def build(subject: str, check_only: bool, folder: Path | None = None, out: Path 
             entries[data["loId"]] = {
                 "notes": data["notes"],
                 "keyTerms": [
-                    {"term": t["term"], "definition": t["definition"]} for t in data["keyTerms"]
+                    {"term": t["term"], "definition": t["definition"]}
+                    for t in data["keyTerms"] + data.get("factCards", [])
                 ],
                 "questions": [
                     {"type": "short", "marks": q["marks"], "prompt": q["prompt"], "model": q["model"]}
