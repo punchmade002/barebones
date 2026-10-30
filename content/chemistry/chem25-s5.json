@@ -1,0 +1,122 @@
+{
+  "loId": "chem25-s5",
+  "chapterId": "chem25",
+  "subsection": "5. Investigation: synthesising benzoic acid",
+  "syllabusRef": "4.2.9",
+  "notes": [
+    {
+      "h": "Aim and chemistry",
+      "points": [
+        "Aim: to prepare benzoic acid by oxidising phenylmethanol (benzyl alcohol, C₆H₅CH₂OH) with potassium permanganate under basic conditions, to purify it by recrystallisation, and to find its melting point and percentage yield.",
+        "Phenylmethanol is a primary alcohol, so it is oxidised to the carboxylic acid; in the basic solution the acid is present as the benzoate ion, C₆H₅COO⁻.",
+        "Equation under basic conditions: 3C₆H₅CH₂OH + 4MnO₄⁻ → 3C₆H₅COO⁻ + 4MnO₂ + OH⁻ + 4H₂O.",
+        "With potassium shown: 3C₆H₅CH₂OH + 4KMnO₄ → 3C₆H₅COOK + 4MnO₂ + KOH + 4H₂O.",
+        "The permanganate is reduced to manganese(IV) oxide, MnO₂, a brown solid, so the purple solution turns brown.",
+        "The mole ratio of phenylmethanol to benzoic acid is 1 : 1.",
+        "Phenylmethanol is a colourless liquid; benzoic acid is a white crystalline solid.",
+        "Benzoic acid (E210) and sodium benzoate (E211) are used as food preservatives."
+      ]
+    },
+    {
+      "h": "Oxidation and isolation",
+      "points": [
+        "Measure 2.0 cm³ of phenylmethanol with a graduated pipette (or burette) into a flask.",
+        "Its mass is volume × density, using a density of 1.04 g cm⁻³.",
+        "Add potassium permanganate solution in excess, together with sodium carbonate solution, which makes the mixture basic.",
+        "Heat under reflux, or in a boiling water bath, for about 20 minutes, swirling; the purple colour fades and a brown precipitate of MnO₂ forms.",
+        "Cool the flask.",
+        "In a fume cupboard, add concentrated hydrochloric acid and sodium sulfite solution with swirling until the brown precipitate has dissolved and the mixture is acidic.",
+        "The mixture becomes colourless and white crystals of benzoic acid appear.",
+        "Cool the flask in an ice-water bath so that as much benzoic acid as possible crystallises.",
+        "Collect the crystals by suction (vacuum) filtration with a Büchner funnel and flask, and wash them with a little ice-cold water.",
+        "Diagram: a Büchner funnel on a Büchner (side-arm) flask connected to a vacuum pump, with filter paper and crystals."
+      ]
+    },
+    {
+      "h": "What happens at the acidification stage",
+      "points": [
+        "The hydrochloric acid converts the soluble benzoate into benzoic acid, which is only slightly soluble in cold water and so precipitates: C₆H₅COO⁻(aq) + H⁺(aq) → C₆H₅COOH(s).",
+        "The hydrochloric acid also neutralises the excess sodium carbonate.",
+        "In acid, sodium sulfite reduces the brown MnO₂ to soluble, almost colourless Mn²⁺ ions, so the white benzoic acid is not mixed with brown solid: MnO₂ + SO₃²⁻ + 2H⁺ → Mn²⁺ + SO₄²⁻ + H₂O.",
+        "The fume cupboard is needed because concentrated hydrochloric acid gives off HCl fumes, and sulfite in acid can release sulfur dioxide."
+      ]
+    },
+    {
+      "h": "Recrystallisation",
+      "points": [
+        "Recrystallisation removes impurities from the crude benzoic acid: soluble salts such as KCl, NaCl and MnCl₂, and any insoluble matter.",
+        "Water is a suitable solvent because benzoic acid is very soluble in hot water but only slightly soluble in cold water, while the salt impurities are soluble in both hot and cold water.",
+        "Dissolve the crude crystals in the minimum volume of boiling water, so that the solution is saturated and as much as possible crystallises on cooling.",
+        "Filter the hot solution quickly through fluted filter paper in a warmed stemless funnel, to remove insoluble impurities: fluted paper filters fast, and the warm funnel stops benzoic acid crystallising in it.",
+        "Leave the filtrate to cool slowly to room temperature, then cool it in ice; pure benzoic acid crystallises and the soluble impurities stay in solution.",
+        "Wait until cooling is complete before filtering, or crystals that are still dissolved will be lost.",
+        "Collect the crystals by suction filtration and wash them with a little ice-cold water, because warm water would dissolve them.",
+        "Dry the crystals on a clock glass in air, in a desiccator or in a low oven, then weigh them."
+      ]
+    },
+    {
+      "h": "Melting point and purity",
+      "points": [
+        "Seal one end of a capillary tube, push the open end into the dry crystals, and tap the tube so the solid packs at the sealed end.",
+        "Place the tube in a melting-point apparatus, an electrically heated metal block with a thermometer; a water bath cannot be used because benzoic acid melts above 100 °C.",
+        "Heat slowly near the expected melting point, and record the temperature at which melting starts and the temperature at which it is complete, the melting range.",
+        "Pure benzoic acid melts sharply at about 122 °C, over a narrow range of 1–2 °C.",
+        "Impurities lower the melting point and widen the range: crude crystals may melt over 116–119 °C.",
+        "A sharp melting point close to 122 °C therefore shows that the recrystallised sample is pure.",
+        "Diagram: a capillary tube of benzoic acid in a heated melting-point block, with a thermometer or digital probe beside it."
+      ]
+    },
+    {
+      "h": "Sample yield calculation",
+      "points": [
+        "Sample data: 2.0 cm³ of phenylmethanol (density 1.04 g cm⁻³) gave 1.65 g of dry recrystallised benzoic acid.",
+        "Mass of phenylmethanol = 2.00 × 1.04 = 2.08 g; M(C₆H₅CH₂OH) = 108 g mol⁻¹, so moles = 2.08 ÷ 108 = 0.0193 mol.",
+        "Moles of benzoic acid expected = 0.0193 mol, from the 1 : 1 ratio; M(C₆H₅COOH) = 122 g mol⁻¹, so the theoretical yield = 0.0193 × 122 = 2.35 g.",
+        "Percentage yield = 1.65 ÷ 2.35 × 100 = 70.2%.",
+        "The yield is below 100% because some benzoic acid stays dissolved in the cold filtrates, crystals are lost in transfers and on filter papers, too much water may have been used in recrystallisation, and the oxidation may be incomplete."
+      ]
+    },
+    {
+      "h": "Checking the permanganate is in excess (Higher Level only)",
+      "points": [
+        "From the equation, 3 mol of phenylmethanol need 4 mol of KMnO₄, so for 0.0193 mol of phenylmethanol the KMnO₄ needed = 0.0193 × 4 ÷ 3 = 0.0257 mol.",
+        "M(KMnO₄) = 158 g mol⁻¹, so 0.0257 mol = 4.06 g.",
+        "Using 5.00 g (0.0316 mol) means KMnO₄ is in excess and phenylmethanol is the limiting reagent, so the yield is calculated from the phenylmethanol; see \"Limiting reagents\"."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear goggles and gloves: concentrated hydrochloric acid is corrosive.",
+        "Potassium permanganate is an oxidising agent and stains skin, and phenylmethanol is harmful."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Recrystallisation", "definition": "A purification method in which an impure solid is dissolved in the minimum hot solvent, filtered and allowed to crystallise on cooling." },
+    { "term": "Suction filtration", "definition": "Filtration under reduced pressure, using a Büchner funnel and flask, to collect crystals quickly." },
+    { "term": "Melting range", "definition": "The range of temperatures from the start to the end of melting of a solid, which is narrow for a pure substance." },
+    { "term": "Benzoate ion", "definition": "The C₆H₅COO⁻ ion, formed when benzoic acid is dissolved in basic solution." },
+    { "term": "Manganese(IV) oxide", "definition": "The brown solid, MnO₂, formed when permanganate is reduced in basic solution." },
+    { "term": "Phenylmethanol", "definition": "A primary alcohol, C₆H₅CH₂OH, which is oxidised to benzoic acid." },
+    { "term": "Impurity", "definition": "A substance mixed with a compound that lowers its melting point and widens its melting range." },
+    { "term": "Percentage yield", "definition": "The actual mass of product as a percentage of the theoretical mass calculated from the equation." }
+  ],
+  "questions": [
+    {
+      "marks": 15,
+      "prompt": "Describe how crude benzoic acid is purified by recrystallisation, and how its melting point is used to show that the recrystallised sample is pure.",
+      "model": "Dissolve the crude benzoic acid in the minimum volume of boiling water, so the solution is saturated. Filter the hot solution quickly through fluted filter paper in a warmed stemless funnel to remove insoluble impurities. Leave the filtrate to cool slowly to room temperature and then in ice, so that pure benzoic acid crystallises while soluble salt impurities stay in solution. Wait until cooling is complete, then collect the crystals by suction filtration, wash them with a little ice-cold water, and dry them. Benzoic acid is chosen because it is very soluble in hot water and only slightly soluble in cold water. For the melting point, pack dry crystals into a sealed capillary tube, place it in a melting-point apparatus with a thermometer, and heat slowly near the expected melting point, recording the start and end of melting. Pure benzoic acid melts sharply at about 122 °C over a range of 1–2 °C. Impurities lower the melting point and widen the range, so a sharp melting point close to 122 °C shows the sample is pure."
+    },
+    {
+      "marks": 12,
+      "prompt": "A student oxidised 1.60 cm³ of phenylmethanol (density 1.04 g cm⁻³) and obtained 1.40 g of benzoic acid. Calculate the percentage yield (sample data).",
+      "model": "Mass of phenylmethanol = 1.60 × 1.04 = 1.66 g. Moles of phenylmethanol = 1.66 ÷ 108 = 0.0154 mol. The mole ratio is 1 : 1, so the moles of benzoic acid expected = 0.0154 mol. Theoretical mass of benzoic acid = 0.0154 × 122 = 1.88 g. Percentage yield = 1.40 ÷ 1.88 × 100 = 74.5%."
+    },
+    {
+      "marks": 6,
+      "prompt": "In the same experiment the student used 3.50 g of KMnO₄. Show whether this was enough to oxidise all the phenylmethanol.",
+      "model": "Moles of KMnO₄ available = 3.50 ÷ 158 = 0.0222 mol. Moles needed for 0.0154 mol of phenylmethanol = 0.0154 × 4 ÷ 3 = 0.0205 mol, which is 3.25 g. Since 0.0222 mol is more than 0.0205 mol, the KMnO₄ is in excess and the phenylmethanol is the limiting reagent, so there was enough permanganate to oxidise all of it."
+    }
+  ]
+}
