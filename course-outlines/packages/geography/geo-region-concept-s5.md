@@ -53,7 +53,7 @@ Do not name any place, date or figure that is not on this list.
 | I6 | National Planning Framework, part of Project Ireland 2040, published 2018. |
 | E1 | Paris: its region, Île-de-France, has about 12 million people. The first TGV line, Paris to Lyon, opened in 1981. Charles de Gaulle Airport. |
 | E2 | London: Greater London has about 9 million people (Census 2021). The City of London is a global financial centre. |
-| E3 | Brussels: European Commission, Council of the EU and European Parliament (which also meets in Strasbourg); NATO headquarters. |
+| E3 | Brussels: European Commission and Council of the EU; the European Parliament meets in Brussels and in Strasbourg, its official seat; NATO headquarters. |
 | E4 | Rotterdam: Europe's largest port, at the mouth of the Rhine; Europoort. |
 | E5 | Milan: Lombardy; Italy's stock exchange (Borsa Italiana). Munich: capital of Bavaria. Berlin: capital of Germany. Rome: capital of Italy. |
 | E6 | Randstad: Amsterdam, Rotterdam, The Hague, Utrecht; the Green Heart (Groene Hart). |

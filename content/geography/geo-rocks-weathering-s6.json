@@ -109,6 +109,17 @@
       "definition": "Thick deposits of fine wind-blown dust, which form very fertile soils."
     }
   ],
+  "factCards": [
+    { "term": "Wind erosion: where it works best, and why it is weaker than water", "definition": "In hot and cold deserts, such as the Sahara, and on coasts, with loose, dry, fine material, sparse vegetation and strong winds. Air is far less dense than water or ice, so wind moves only sand and finer particles, mostly near the ground." },
+    { "term": "Wind erosion: three processes and what each does", "definition": "Deflation: wind lifts and blows away loose, dry, fine particles, lowering the surface. Abrasion (sandblasting): wind-blown sand wears rock away, mostly within a metre or two of the ground. Attrition: grains collide and become smaller, rounder and frosted." },
+    { "term": "Wind transport: three methods", "definition": "Suspension: fine dust is carried high, sometimes thousands of kilometres in dust storms. Saltation: sand grains bounce along in short hops; most sand moves this way. Surface creep: larger grains are pushed and rolled along by the impact of saltating grains." },
+    { "term": "Mushroom (pedestal) rock: how it forms, in stages", "definition": "First, a pillar of rock stands on the desert floor; then sandblasting, which is concentrated near the ground, undercuts its base; finally the top, above the zone of abrasion, stays wide, leaving a mushroom shape." },
+    { "term": "Zeugen: how it forms, in stages", "definition": "Where horizontal layers of hard cap rock lie over softer rock and joints run across the wind: first, abrasion cuts down along joints in the cap rock; then the soft rock beneath is undercut; finally a flat-topped ridge is left." },
+    { "term": "Deflation hollow: how it forms, with an example", "definition": "Deflation removes loose material until it reaches the water table or a resistant layer, leaving a depression. The Qattara Depression, Egypt, below sea level, is attributed mainly to deflation down to the water table." },
+    { "term": "Desert landscapes: erg, reg and hamada", "definition": "Erg: a sand sea. Reg: stony desert. Hamada: bare rock. The Sahara Desert, North Africa, has all three." },
+    { "term": "Barchan vs seif dunes: shape and the winds that form them", "definition": "Barchan: crescent-shaped, horns pointing downwind, gentle windward slope and steep slip face on the lee side; it migrates downwind. Seif (linear): a long ridge roughly parallel to the dominant wind, formed where winds blow from two directions." },
+    { "term": "Dust Bowl: where and when it happened, and what the wind did", "definition": "On the Great Plains of the USA, including Oklahoma and Kansas, in the 1930s, bare, dry soil was blown away in huge dust storms, known as black blizzards." }
+  ],
   "questions": [
     {
       "marks": 30,

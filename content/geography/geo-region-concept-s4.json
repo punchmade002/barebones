@@ -33,7 +33,7 @@
       "points": [
         "Greater Dublin Area: Dublin, Kildare, Meath and Wicklow. County Dublin had about 1.45 million people in Census 2022.",
         "Dublin, the capital, has the seat of government, and its docklands host the European headquarters of many technology firms, e.g. Google. The Irish core is covered in the Irish Regions chapter.",
-        "Paris Basin, France: its region, Île-de-France, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
+        "Paris Basin, France: Île-de-France, the region around Paris at the basin's core, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
         "The Blue Banana: the curved belt of Europe's main core, running from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan)."
       ]
     },
@@ -141,6 +141,25 @@
       "term": "Agglomeration",
       "definition": "The clustering of firms in one place, which attracts more firms because of shared markets, labour and services."
     }
+  ],
+  "factCards": [
+    { "term": "Region types in matching questions: core, peripheral or industrial decline?", "definition": "Core: the Paris Basin, the Greater Dublin Area. Peripheral: the West of Ireland, the BMW region, the Mezzogiorno, northern Norway. Industrial decline: the Sambre–Meuse valley, the Ruhr, the South Wales coalfield." },
+    { "term": "Core regions: seven characteristics", "definition": "High GDP per head, low unemployment; a large tertiary sector (finance, headquarters, high-tech); most foreign investment; net in-migration of young, educated workers; dense infrastructure (motorways, airports, ports, rail); universities; usually the capital." },
+    { "term": "Core regions: why they develop, and the problems of success", "definition": "Causes: accessibility; a large market and labour force; an early start; government and capital functions; agglomeration, as firms attract more firms. Problems of success: congestion, high house prices, urban sprawl and pressure on services." },
+    { "term": "Greater Dublin Area as a core region: key facts", "definition": "Dublin, Kildare, Meath and Wicklow. County Dublin: about 1.45 million in Census 2022 (State about 5.1 million). Dublin has the seat of government, Dublin Port, Dublin Airport and European headquarters of technology firms such as Google in the docklands." },
+    { "term": "Paris Basin and the Blue Banana: core region facts", "definition": "Île-de-France, the region around Paris at the heart of the Paris Basin, has about 12 million people. The Blue Banana is the curved belt of Europe's main core, from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan)." },
+    { "term": "Peripheral regions: characteristics", "definition": "Remoteness and poor access; mountains, high rainfall, poor soils, short growing season; small farms, fishing, forestry; low incomes, underemployment; out-migration of young adults, leaving an ageing population; fewer services; scattered settlements." },
+    { "term": "Peripheral regions: how governments and the EU respond", "definition": "EU regional and cohesion funds; state agencies channelling investment; better roads and broadband; decentralisation of government offices; tourism built on scenery and culture." },
+    { "term": "Name four peripheral regions, with one fact about each", "definition": "West of Ireland: the Northern and Western regional assembly area, where Co. Leitrim has the smallest population of any county. The Mezzogiorno, southern Italy. Northern Norway: Arctic, remote, reliant on fishing. North-west Scotland: the Highlands and Islands." },
+    { "term": "Peripheral vs less-developed regions: the overlap and the difference", "definition": "Most less-developed regions in Europe are also peripheral, such as the Mezzogiorno and much of eastern Europe (Romania, Bulgaria). A peripheral region can still lie in a rich country, such as the West of Ireland or northern Norway." },
+    { "term": "Ireland and EU Objective 1 status: what changed in 2000", "definition": "Ireland was a single Objective 1 region, receiving the highest level of EU aid, until 1999. From 2000 to 2006 only the BMW (Border, Midland and Western) region kept Objective 1 status." },
+    { "term": "Regions of industrial decline: five causes", "definition": "Coal seams exhausted or too costly to work; cheaper imports and competition from newly industrialised countries; coal replaced by oil and gas; out-of-date plant; automation needing fewer workers." },
+    { "term": "Regions of industrial decline: effects", "definition": "High unemployment, especially among older male workers; derelict factories, mines and spoil heaps; polluted land; out-migration; falling services; a poor image that deters new investment." },
+    { "term": "Regions of industrial decline: responses", "definition": "Retraining workers; clearing and cleaning derelict land; attracting new light industry and services; universities and technology parks; reusing industrial heritage for tourism and culture; EU funds." },
+    { "term": "The Ruhr: key facts as a region of industrial decline", "definition": "North Rhine-Westphalia, Germany: Europe's largest coal and steel region (Essen, Dortmund, Duisburg). Germany's last hard-coal mine, Prosper-Haniel in Bottrop, closed in 2018; Essen's Zollverein coal mine complex became a UNESCO World Heritage Site in 2001." },
+    { "term": "Sambre–Meuse valley and South Wales coalfield: industrial decline facts", "definition": "Sambre–Meuse, Wallonia, Belgium: coal mining and steel along the Sambre and Meuse, e.g. Charleroi and Liège, in contrast to prosperous Flanders. South Wales coalfield, including the Rhondda valleys: coal mining collapsed in the late 20th century." },
+    { "term": "Industrial decline in Ireland: two examples", "definition": "Belfast: the Harland and Wolff shipyard, which built the Titanic (launched 1911), declined greatly in the late 20th century. Dublin docklands: port jobs fell with containerisation; the IFSC, set up in 1987 on derelict dockland, regenerated the area." },
+    { "term": "Core vs peripheral regions: how economic activity differs", "definition": "Primary: large commercial farms on good land vs small, fragmented farms on poor land. Secondary: manufacturing and multinational investment vs few small, often grant-aided factories. Tertiary: finance, headquarters, government vs tourism, public services." }
   ],
   "questions": [
     {

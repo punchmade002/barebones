@@ -180,6 +180,18 @@
       "definition": "A step on a valley side marking an old valley floor, left above the present channel after rejuvenation."
     }
   ],
+  "factCards": [
+    { "term": "Isostatic vs eustatic change: what is the difference?", "definition": "Isostatic change: the land moves, a local change in its height relative to the sea, e.g. rebound after an ice sheet melts. Eustatic change: the sea moves, a worldwide change in sea level, e.g. falling as water is locked in ice sheets and rising as it melts." },
+    { "term": "Isostatic rebound: why it continues today, and three places where it does", "definition": "Rebound lags far behind melting, so land can still be rising long after the ice has gone. It continues in Scandinavia around the Gulf of Bothnia, around Hudson Bay in Canada, and in Scotland." },
+    { "term": "Denudation and deposition: how they change the load on the crust", "definition": "Erosion removes weight from the land, so the crust rises. Heavy deposition adds weight, so the crust sinks; a delta is one place where a large load builds up." },
+    { "term": "Landscapes temporarily out of balance: the two situations", "definition": "Where uplift is faster than denudation, features such as raised beaches are left above the present sea. Where sea level rises faster than the land, the sea floods valleys cut when it stood lower, forming rias, fjords and drowned drumlins. Either way the features don't match present conditions." },
+    { "term": "Raised beaches: five features found on them, and two examples", "definition": "An old cliff line inland of the sea; a wave-cut notch at the former sea level; sea caves and stacks above the present tide reach; beach shingle; a flat former wave-cut platform. Examples: Malin Head, Inishowen, Co. Donegal; the Isle of Jura, Scotland." },
+    { "term": "Submergent coast: three features, with an example of each", "definition": "Rias (drowned river valleys), e.g. Bantry Bay; fjords (drowned glacial troughs), e.g. Killary Harbour on the Co. Galway–Co. Mayo border; drowned drumlins, e.g. Clew Bay, Co. Mayo, and Strangford Lough, Co. Down." },
+    { "term": "Name four rias in the south-west and the landscape they drowned", "definition": "Bantry Bay, the Kenmare River, Dingle Bay and Cork Harbour are drowned river valleys of the Munster ridge-and-valley landscape, flooded as the sea rose relative to the land." },
+    { "term": "North vs south-west of Ireland: how isostasy shaped each coast", "definition": "The north had thicker ice, so it was depressed more and has rebounded more: its coast shows raised beaches, as in Donegal. The south-west shows the opposite pattern: a drowned coast with rias, as in Cork and Kerry." },
+    { "term": "Fall in base level: effect on a river, and three landforms it leaves", "definition": "The land rises relative to the sea, giving the river renewed erosive power (rejuvenation); it cuts down again, working upstream from the mouth. Landforms: a knickpoint (often with a waterfall), incised meanders and river terraces." },
+    { "term": "Rise in base level: effect on a river's lower course", "definition": "When the sea rises relative to the land, the lower course of the river is drowned and becomes an estuary or a ria." }
+  ],
   "questions": [
     {
       "marks": 30,
