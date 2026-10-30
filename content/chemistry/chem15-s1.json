@@ -1,0 +1,199 @@
+{
+  "loId": "chem15-s1",
+  "chapterId": "chem15",
+  "subsection": "1. Redox titrations",
+  "syllabusRef": "4.1.2",
+  "notes": [
+    {
+      "h": "Redox titrations",
+      "points": [
+        "A redox titration finds the concentration of an oxidising or reducing agent by titrating it against a reducing or oxidising agent of known concentration.",
+        "The mole ratio used in the calculation comes from the balanced redox equation.",
+        "The apparatus and technique are the same as in “Acid–base titrations”: pipette, burette, conical flask and white tile, with rough and accurate titrations agreeing within 0.1 cm³.",
+        "The end point is shown either by the colour of one of the reagents themselves (self-indicating, as with potassium manganate(VII)) or by an indicator (starch in iodine–thiosulfate titrations).",
+        "The two redox titrations in the specification are potassium manganate(VII) with iron(II), and iodine with sodium thiosulfate."
+      ]
+    },
+    {
+      "h": "Potassium manganate(VII)",
+      "points": [
+        "Potassium manganate(VII), KMnO₄ (potassium permanganate), is a dark purple solid; its solution is an intense purple and it is a strong oxidising agent.",
+        "It is usually used at about 0.01–0.02 mol L⁻¹.",
+        "It is not a primary standard: it can't be obtained pure, and its solution slowly decomposes in light and in the presence of traces of organic matter, depositing brown MnO₂, so its concentration changes.",
+        "It is therefore standardised against ammonium iron(II) sulfate shortly before use."
+      ]
+    },
+    {
+      "h": "Reaction with iron(II)",
+      "points": [
+        "In acidic solution MnO₄⁻ is reduced to the almost colourless manganese(II) ion: MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l), with manganese changing from +7 to +2.",
+        "Iron(II) is oxidised: Fe²⁺(aq) → Fe³⁺(aq) + e⁻.",
+        "Overall: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.",
+        "The Mn²⁺ ions produced catalyse the reaction (autocatalysis: a product of the reaction is its catalyst), so the first few drops are decolourised slowly and later drops almost at once."
+      ]
+    },
+    {
+      "h": "End point and reading the burette",
+      "points": [
+        "Potassium manganate(VII) is self-indicating, so no indicator is added.",
+        "The KMnO₄ goes in the burette; each drop is decolourised while Fe²⁺ remains in the flask.",
+        "The end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻.",
+        "The solution is so deeply coloured that the bottom of the meniscus can't be seen, so read the top of the meniscus, consistently for both readings.",
+        "Rinse the burette thoroughly after use, because permanganate leaves brown stains of MnO₂ on glass."
+      ]
+    },
+    {
+      "h": "Acidifying the permanganate titration",
+      "points": [
+        "Excess dilute sulfuric acid is added to the flask to supply the H⁺ ions needed for the reduction.",
+        "With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, forming a brown precipitate: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂(s) + 4OH⁻, with manganese changing from +7 to +4.",
+        "With too little acid the ratio is no longer 1 : 5 and the end point can't be seen.",
+        "Hydrochloric acid is not used, because MnO₄⁻ oxidises Cl⁻ to chlorine, using up extra permanganate.",
+        "Nitric acid is not used, because it is itself an oxidising agent and would oxidise some of the Fe²⁺."
+      ]
+    },
+    {
+      "h": "Ammonium iron(II) sulfate as the standard",
+      "points": [
+        "Ammonium iron(II) sulfate hexahydrate, (NH₄)₂SO₄·FeSO₄·6H₂O, also written (NH₄)₂Fe(SO₄)₂·6H₂O, has M = 392 g mol⁻¹ and forms pale green crystals.",
+        "It is a double salt: ammonium sulfate and iron(II) sulfate crystallise together in a fixed ratio in one crystal.",
+        "Its standard solution is made up as in “Solutions and concentration”, with the crystals dissolved in deionised water and some dilute sulfuric acid added.",
+        "The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen."
+      ]
+    },
+    {
+      "h": "Why ammonium iron(II) sulfate is a primary standard",
+      "points": [
+        "It can be obtained very pure.",
+        "It is stable in air: the solid is not oxidised by air, does not absorb water and does not lose its water of crystallisation.",
+        "It is soluble and has a high molar mass, so weighing errors are a small percentage of the mass weighed.",
+        "Iron(II) sulfate itself is not used: its crystals are oxidised by air to iron(III) and their water content varies, so a weighed mass does not correspond to a known amount of Fe²⁺."
+      ]
+    },
+    {
+      "h": "Standardising potassium manganate(VII): procedure",
+      "points": [
+        "Pipette 25.0 cm³ of the standard ammonium iron(II) sulfate solution into a conical flask.",
+        "Add about 20 cm³ of dilute sulfuric acid with a graduated cylinder; its volume does not need to be exact.",
+        "Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour.",
+        "Repeat until two titres agree within 0.1 cm³.",
+        "Diagram: pipette with its filler, labelled with the graduation mark at 25.0 cm³.",
+        "Diagram: graduated cylinder marked in cm³, labelled with the scale used to measure the sulfuric acid.",
+        "Diagram: burette of purple KMnO₄ above a conical flask on a white tile, labelled with the burette tap and the top of the meniscus."
+      ]
+    },
+    {
+      "h": "Sample calculation: standardising potassium manganate(VII) (sample data)",
+      "points": [
+        "Data: 25.0 cm³ of 0.0500 mol L⁻¹ ammonium iron(II) sulfate needs a mean titre of 24.4 cm³ of KMnO₄.",
+        "Moles Fe²⁺ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.",
+        "Moles MnO₄⁻ = 1.25 × 10⁻³ mol ÷ 5 = 2.50 × 10⁻⁴ mol, since MnO₄⁻ : Fe²⁺ = 1 : 5.",
+        "Concentration of KMnO₄ = 2.50 × 10⁻⁴ mol ÷ 0.0244 L = 0.0102 mol L⁻¹."
+      ]
+    },
+    {
+      "h": "Iodine and sodium thiosulfate: reagents",
+      "points": [
+        "Sodium thiosulfate, Na₂S₂O₃·5H₂O (M = 248 g mol⁻¹), is a colourless crystalline solid and a reducing agent.",
+        "The thiosulfate ion, S₂O₃²⁻, is like a sulfate ion with one oxygen replaced by sulfur; “thio” means sulfur.",
+        "Sodium thiosulfate is not a primary standard: its crystals are efflorescent, losing water of crystallisation to the air, so their exact formula and the mass of thiosulfate are uncertain.",
+        "Its solution is therefore standardised against iodine made from a standard oxidising agent.",
+        "Iodine is not a primary standard either: it sublimes slowly at room temperature, so it cannot be weighed accurately, and it is almost insoluble in water."
+      ]
+    },
+    {
+      "h": "Dissolving iodine and the titration reaction",
+      "points": [
+        "Iodine is brought into solution with potassium iodide: I₂ + I⁻ ⇌ I₃⁻.",
+        "The tri-iodide ion is charged, so it dissolves in water; the solution behaves as a solution of iodine and is red-brown.",
+        "Titration reaction: I₂(aq) + 2S₂O₃²⁻(aq) → 2I⁻(aq) + S₄O₆²⁻(aq), so I₂ : S₂O₃²⁻ = 1 : 2.",
+        "Iodine is the oxidising agent; thiosulfate is the reducing agent and is oxidised to the tetrathionate ion, S₄O₆²⁻.",
+        "The iodine solution is pipetted into the conical flask and the thiosulfate is in the burette."
+      ]
+    },
+    {
+      "h": "Colour change and the starch indicator",
+      "points": [
+        "As thiosulfate is added, the red-brown iodine fades to yellow and then to pale yellow (straw-coloured).",
+        "At pale yellow, add a few drops of freshly made starch solution, which turns blue-black.",
+        "Add thiosulfate drop by drop until the blue-black colour just disappears, leaving a colourless solution: the end point.",
+        "Starch is added only near the end point, because with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate.",
+        "The pale yellow colour also shows that the end point is close."
+      ]
+    },
+    {
+      "h": "Deionised water and uses of thiosulfate",
+      "points": [
+        "Use deionised water throughout, not tap water: tap water contains dissolved chlorine from water treatment, which oxidises iodide to extra iodine (Cl₂ + 2I⁻ → 2Cl⁻ + I₂).",
+        "Sodium thiosulfate is used to remove excess chlorine from water, reducing it to harmless chloride ions.",
+        "Sodium thiosulfate is the “fixer” (“hypo”) in film photography."
+      ]
+    },
+    {
+      "h": "Standardising sodium thiosulfate: procedure",
+      "points": [
+        "Pipette 25.0 cm³ of standardised KMnO₄ solution into a conical flask and add about 20 cm³ of dilute sulfuric acid.",
+        "Add an excess of potassium iodide, as solution or solid: the purple colour disappears and red-brown iodine forms: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
+        "Potassium iodide is in excess for two reasons: so that all the MnO₄⁻ reacts, producing a known amount of iodine; and so that the iodine stays in solution as I₃⁻.",
+        "Titrate the liberated iodine with the thiosulfate solution by the starch method described above.",
+        "Combined ratio: 2MnO₄⁻ → 5I₂ → 10S₂O₃²⁻, so MnO₄⁻ : S₂O₃²⁻ = 1 : 5."
+      ]
+    },
+    {
+      "h": "Sample calculation: standardising sodium thiosulfate (sample data)",
+      "points": [
+        "Data: 25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ liberates iodine that needs a mean titre of 25.3 cm³ of thiosulfate.",
+        "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.",
+        "Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, since 2MnO₄⁻ gives 5I₂.",
+        "Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since I₂ : S₂O₃²⁻ = 1 : 2.",
+        "Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0253 L = 0.0988 mol L⁻¹."
+      ]
+    },
+    {
+      "h": "Terms about water and crystals",
+      "points": [
+        "Efflorescent: a hydrated crystal that loses some of its water of crystallisation to the air on standing, e.g. sodium thiosulfate pentahydrate and washing soda (Na₂CO₃·10H₂O).",
+        "Hygroscopic: absorbs water vapour from the air without dissolving, e.g. concentrated sulfuric acid and silica gel.",
+        "Deliquescent: absorbs so much water from the air that it dissolves in it and forms a solution, e.g. sodium hydroxide pellets.",
+        "None of these substances can be a primary standard, because the mass weighed does not correspond to a known amount of substance."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear goggles: potassium manganate(VII) is an oxidising agent, is harmful, and stains skin and clothes.",
+        "Dilute sulfuric acid is an irritant; iodine solution stains and is harmful.",
+        "Use a pipette filler."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Redox titration", "definition": "A titration in which an oxidising agent reacts with a reducing agent of known concentration, or the reverse, with the mole ratio taken from the balanced redox equation." },
+    { "term": "Self-indicating", "definition": "Describes a titration in which one reagent is intensely coloured enough to show the end point without an added indicator, as with potassium manganate(VII)." },
+    { "term": "Autocatalysis", "definition": "A reaction in which one of its products acts as a catalyst, as Mn²⁺ does in the reaction of MnO₄⁻ with Fe²⁺." },
+    { "term": "Double salt", "definition": "A salt containing two simple salts crystallised together in a fixed ratio in one crystal, such as ammonium iron(II) sulfate." },
+    { "term": "Efflorescent", "definition": "Describes a hydrated crystal that loses some of its water of crystallisation to the air on standing." },
+    { "term": "Hygroscopic", "definition": "Describes a substance that absorbs water vapour from the air without dissolving in it." },
+    { "term": "Deliquescent", "definition": "Describes a substance that absorbs enough water from the air to dissolve in it and form a solution." },
+    { "term": "Tri-iodide ion", "definition": "The ion I₃⁻, formed when iodine reacts with iodide ions, which makes iodine soluble in water." },
+    { "term": "Starch indicator", "definition": "A starch solution that forms a blue-black complex with iodine and is added near the end point of an iodine–thiosulfate titration." },
+    { "term": "Tetrathionate ion", "definition": "The ion S₄O₆²⁻ formed when thiosulfate is oxidised by iodine." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how a solution of potassium manganate(VII) is standardised using ammonium iron(II) sulfate. In your answer explain (i) why dilute sulfuric acid is used, (ii) how the end point is detected, (iii) what would be seen if too little acid were added.",
+      "model": "Ammonium iron(II) sulfate is a primary standard, so a known mass is dissolved in deionised water with some dilute sulfuric acid added, and made up to a known volume. The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen. Pipette 25.0 cm³ of the standard solution into a conical flask and add about 20 cm³ of dilute sulfuric acid. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour; repeat until two titres agree within 0.1 cm³. (i) Dilute sulfuric acid supplies the H⁺ ions needed to reduce MnO₄⁻ to Mn²⁺, as in MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Hydrochloric acid cannot be used because MnO₄⁻ oxidises Cl⁻ to chlorine, and nitric acid cannot be used because it oxidises some of the Fe²⁺. (ii) No indicator is needed because potassium manganate(VII) is self-indicating: the end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻. (iii) With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, and a brown precipitate of MnO₂ forms; the mole ratio is no longer 1 : 5 and the end point cannot be seen."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why starch indicator is added only when the solution is pale yellow in an iodine–thiosulfate titration, and state the colour change at the end point. Why is potassium iodide used when making up an iodine solution?",
+      "model": "Starch is added only when the solution is pale yellow because, with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate. The pale yellow colour shows that the end point is close. At the end point the blue-black colour of the starch–iodine complex just disappears, leaving a colourless solution. Iodine itself is almost insoluble in water and sublimes slowly at room temperature. Potassium iodide is used because iodide ions react with iodine to form the tri-iodide ion, I₃⁻ (I₂ + I⁻ ⇌ I₃⁻), which is charged and dissolves in water, so the iodine dissolves to give a red-brown solution."
+    },
+    {
+      "marks": 9,
+      "prompt": "25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ was acidified and treated with excess KI. The iodine liberated needed 21.2 cm³ of sodium thiosulfate solution. Calculate the concentration of the thiosulfate (sample data).",
+      "model": "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol. Since 2MnO₄⁻ gives 5I₂, moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol. Since I₂ : S₂O₃²⁻ = 1 : 2, moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol. Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0212 L = 0.118 mol L⁻¹."
+    }
+  ]
+}
