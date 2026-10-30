@@ -1,0 +1,81 @@
+{
+  "loId": "chem21-s2",
+  "chapterId": "chem21",
+  "subsection": "2. Exothermic and endothermic reactions",
+  "syllabusRef": "3.1.2",
+  "notes": [
+    {
+      "h": "Definitions and evidence",
+      "points": [
+        "An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants.",
+        "An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants.",
+        "In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.",
+        "In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.",
+        "A thermochemical equation is a balanced equation with state symbols and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.",
+        "State symbols matter because changes of state also have enthalpy changes.",
+        "Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.",
+        "ΔH is proportional to the amounts in the equation: doubling every coefficient doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726)."
+      ]
+    },
+    {
+      "h": "Exothermic examples",
+      "points": [
+        "Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.",
+        "Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹; the ionic equation is H⁺(aq) + OH⁻(aq) → H₂O(l).",
+        "Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.",
+        "Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide; the simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.",
+        "Rusting is exothermic, but the heat is released so slowly that it isn't noticed; hand warmers use fast oxidation of iron powder to give out heat.",
+        "Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing."
+      ]
+    },
+    {
+      "h": "Endothermic examples",
+      "points": [
+        "Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).",
+        "Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.",
+        "Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.",
+        "Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.",
+        "Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution."
+      ]
+    },
+    {
+      "h": "Modelling energy transfer with enthalpy level diagrams",
+      "points": [
+        "An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.",
+        "Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.",
+        "Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.",
+        "A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).",
+        "Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).",
+        "Energy profile diagrams, which also show the activation energy along the reaction pathway, are in “Calculating ΔH and energy profiles”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Exothermic reaction", "definition": "A reaction that gives out heat to the surroundings, with a negative ΔH." },
+    { "term": "Endothermic reaction", "definition": "A reaction that takes in heat from the surroundings, with a positive ΔH." },
+    { "term": "Thermochemical equation", "definition": "A balanced equation that includes state symbols and the ΔH value for the reaction as written." },
+    { "term": "Enthalpy level diagram", "definition": "A diagram with enthalpy on the vertical axis showing the reactant and product levels and the ΔH between them." },
+    { "term": "Thermal decomposition", "definition": "The breakdown of a compound by heating, which is endothermic and needs a continuous supply of heat." },
+    { "term": "Combustion", "definition": "The reaction of a substance with oxygen, giving out heat and usually light." },
+    { "term": "Neutralisation", "definition": "The reaction of an acid with a base, which is exothermic and forms water." },
+    { "term": "Respiration", "definition": "The release of energy from glucose in cells, which is exothermic." },
+    { "term": "Photosynthesis", "definition": "The endothermic process in which plants use energy from sunlight to make glucose from carbon dioxide and water." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between exothermic and endothermic reactions and classify each of the following, giving a reason: combustion of methane; thermal decomposition of calcium carbonate; photosynthesis; rusting of iron.",
+      "model": "An exothermic reaction gives out heat to the surroundings, so ΔH is negative and the products have less enthalpy than the reactants. An endothermic reaction takes in heat from the surroundings, so ΔH is positive and the products have more enthalpy than the reactants. Combustion of methane is exothermic: CH₄ + 2O₂ → CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, and all combustion reactions are exothermic. Thermal decomposition of calcium carbonate is endothermic: CaCO₃ → CaO + CO₂, ΔH = +178 kJ mol⁻¹, because heat must be supplied continuously to break it down. Photosynthesis is endothermic: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, ΔH ≈ +2800 kJ mol⁻¹, because energy is absorbed from sunlight. Rusting of iron is exothermic: 4Fe + 3O₂ → 2Fe₂O₃, ΔH = −1648 kJ, because heat is released as the iron is oxidised, though very slowly."
+    },
+    {
+      "marks": 6,
+      "prompt": "Draw labelled enthalpy level diagrams for (i) the combustion of methane, ΔH = −890 kJ mol⁻¹, and (ii) the decomposition of calcium carbonate, ΔH = +178 kJ mol⁻¹.",
+      "model": "(i) Combustion of methane: draw a vertical axis labelled enthalpy (H). Draw a higher horizontal line labelled CH₄ + 2O₂ for the reactants and a lower line labelled CO₂ + 2H₂O for the products. Draw a vertical arrow between the lines pointing down, labelled ΔH = −890 kJ mol⁻¹, because the products are at lower enthalpy and heat is released. (ii) Decomposition of calcium carbonate: draw a vertical axis labelled enthalpy (H). Draw a lower horizontal line labelled CaCO₃ for the reactant and a higher line labelled CaO + CO₂ for the products. Draw a vertical arrow pointing up, labelled ΔH = +178 kJ mol⁻¹, because the products are at higher enthalpy and heat is taken in."
+    },
+    {
+      "marks": 3,
+      "prompt": "Given that C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O has ΔH = −2800 kJ mol⁻¹, state ΔH for photosynthesis and explain.",
+      "model": "ΔH for photosynthesis is +2800 kJ mol⁻¹. Photosynthesis is the reverse of the reaction given, so its ΔH has the same size but the opposite sign. Photosynthesis is endothermic because energy is absorbed from sunlight."
+    }
+  ]
+}

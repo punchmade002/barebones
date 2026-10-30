@@ -38,7 +38,7 @@ Sigma bonding and stability (Higher Level only; one block)
 - [ ] H1 [HL] Every bond in an alkane is a sigma (σ) bond, formed by head-on overlap of orbitals along the line between the two nuclei.
 - [ ] H2 [HL] In a σ bond the shared electron pair is concentrated between the two nuclei, where it is held strongly by both; σ bonds are strong and the electrons are not exposed to attacking reagents.
 - [ ] H3 [HL] An alkene's double bond is one σ bond plus one pi (π) bond; the π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, and are exposed to attack by electron-seeking reagents.
-- [ ] H4 [HL] Bond enthalpies show the π bond is weaker than a σ bond: C–C is about 348 kJ mol⁻¹ and C=C about 612 kJ mol⁻¹, so the π part of the double bond adds only about 264 kJ mol⁻¹.
+- [ ] H4 [HL] Bond enthalpies show the π bond is weaker than a σ bond: C–C is about 348 kJ mol⁻¹ and C=C about 614 kJ mol⁻¹, so the π part of the double bond adds only about 266 kJ mol⁻¹.
 - [ ] H5 [HL] So alkenes react by breaking the weaker π bond and keeping the σ bond (addition), while an alkane would have to break a strong σ bond, which needs much more energy; this is why alkanes are stable.
 - [ ] H6 [HL] Diagram: a C–C σ bond with electron density between the nuclei, beside a C=C bond showing the σ bond and the π electron cloud above and below the bond axis.
 
@@ -47,7 +47,7 @@ Sigma bonding and stability (Higher Level only; one block)
 | Item | Fact |
 |---|---|
 | R3 | Pauling electronegativities: C 2.55, H 2.20 (difference 0.35). |
-| H4 | Typical average bond enthalpies: C–C 348, C=C 612 kJ mol⁻¹ (π ≈ 264 kJ mol⁻¹); C–H 412 kJ mol⁻¹. |
+| H4 | Typical average bond enthalpies: C–C 348, C=C 614 kJ mol⁻¹ (π ≈ 266 kJ mol⁻¹); C–H 412 kJ mol⁻¹. |
 | S2 | Paraffin from Latin parum affinis, "little affinity". |
 
 ## 3. Traps

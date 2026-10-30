@@ -1,0 +1,97 @@
+{
+  "loId": "chem21-s1",
+  "chapterId": "chem21",
+  "subsection": "1. Bond enthalpy and energy change",
+  "syllabusRef": "3.1.1",
+  "notes": [
+    {
+      "h": "Conservation of energy",
+      "b": "Thermochemistry rests on the principle that energy is never lost; it only moves between the chemicals and their surroundings.",
+      "points": [
+        "Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred.",
+        "In a chemical reaction, chemical energy stored in bonds is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.",
+        "Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes.",
+        "The system is the reacting chemicals; the surroundings are everything else, such as the solvent, container, air and thermometer.",
+        "Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.",
+        "This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law works (see “Hess's law”)."
+      ]
+    },
+    {
+      "h": "Enthalpy and enthalpy change",
+      "points": [
+        "Enthalpy (H) is the heat content, or stored energy, of a substance; it cannot be measured directly, but changes in it can.",
+        "The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure: ΔH = H(products) − H(reactants).",
+        "The unit of ΔH is kJ mol⁻¹, meaning kJ per mole of reaction as written in the equation.",
+        "A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic); see “Exothermic and endothermic reactions”.",
+        "Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely."
+      ]
+    },
+    {
+      "h": "Bond enthalpy",
+      "points": [
+        "Bond enthalpy: the energy needed to break one mole of a particular covalent bond, with the molecules and the separated atoms all in the gaseous state.",
+        "Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.",
+        "Bond enthalpies are always positive, because energy must always be supplied to break a bond.",
+        "The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.",
+        "The larger the bond enthalpy, the stronger the bond; the triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive."
+      ]
+    },
+    {
+      "h": "Making and breaking bonds",
+      "points": [
+        "In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.",
+        "Bond breaking requires energy, so it is endothermic.",
+        "Bond making releases energy, so it is exothermic; forming a bond releases the same amount of energy as breaking it requires.",
+        "If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall and ΔH is negative.",
+        "If more energy is needed to break bonds than is released making them, the reaction is endothermic and ΔH is positive.",
+        "Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.",
+        "The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.",
+        "Example: in the combustion of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.",
+        "Every reaction needs some energy to start breaking bonds, the activation energy, even if it is exothermic overall; see “Catalysis and energy profiles”.",
+        "The processes the specification names (combustion, neutralisation, thermal decomposition, rusting of iron, photosynthesis, respiration) all transfer energy as heat because of this balance of bond breaking and making; see “Exothermic and endothermic reactions”."
+      ]
+    },
+    {
+      "h": "Physical change also involves enthalpy change",
+      "points": [
+        "Changes of state involve enthalpy changes because intermolecular forces are overcome or formed; covalent bonds within the molecules are not broken (see “Intramolecular bonding and intermolecular forces”).",
+        "Melting, boiling and sublimation are endothermic: energy is needed to overcome the forces between particles.",
+        "Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹.",
+        "Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.",
+        "Freezing and condensing are exothermic: the same amounts of energy are released as the forces form.",
+        "Steam condensing on skin gives a severe burn.",
+        "Dissolving can be exothermic or endothermic: dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.",
+        "Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.",
+        "Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Thermochemistry", "definition": "The study of the heat changes that take place during chemical reactions and physical changes." },
+    { "term": "Conservation of energy", "definition": "The law that energy cannot be created or destroyed, only changed from one form to another or transferred." },
+    { "term": "System", "definition": "The reacting chemicals in a thermochemical experiment." },
+    { "term": "Surroundings", "definition": "Everything else outside the system, such as the solvent, container, air and thermometer." },
+    { "term": "Enthalpy (H)", "definition": "The heat content, or stored energy, of a substance, which cannot be measured directly." },
+    { "term": "Enthalpy change (ΔH)", "definition": "The heat change in a process carried out at constant pressure, in kJ mol⁻¹." },
+    { "term": "Bond enthalpy", "definition": "The energy needed to break one mole of a particular covalent bond with all substances in the gaseous state." },
+    { "term": "Heat of reaction", "definition": "The heat change when the numbers of moles of reactants shown in the balanced equation react completely." },
+    { "term": "Activation energy", "definition": "The minimum energy needed for a reaction to happen." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define bond enthalpy, and explain, in terms of the bonds broken and formed, why the reaction H₂(g) + Cl₂(g) → 2HCl(g) is exothermic.",
+      "model": "Bond enthalpy is the energy needed to break one mole of a particular covalent bond, with the molecules and the separated atoms all in the gaseous state. In the reaction, one H–H bond and one Cl–Cl bond are broken, which requires energy. Two H–Cl bonds are made, which releases energy. The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the H–H and Cl–Cl bonds, so the reaction is exothermic and ΔH is negative."
+    },
+    {
+      "marks": 6,
+      "prompt": "State the law of conservation of energy and explain how it applies when a reaction gives out heat.",
+      "model": "Energy cannot be created or destroyed; it can only be changed from one form to another or transferred. When a reaction gives out heat, chemical energy stored in the bonds of the reactants is changed into heat. The heat lost by the system (the reacting chemicals) is gained by the surroundings (the solvent, container, air and thermometer), so the total energy stays the same."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why boiling water is endothermic, and why it does not involve breaking O–H bonds.",
+      "model": "Boiling water is endothermic because energy is needed to overcome the forces between the water molecules, the hydrogen bonds. Boiling changes H₂O(l) to H₂O(g), with ΔH = +40.7 kJ mol⁻¹ at 100 °C. The O–H covalent bonds within each molecule are not broken; only the intermolecular forces between molecules are overcome, so the water molecules themselves stay intact."
+    }
+  ]
+}
