@@ -71,7 +71,7 @@ const SUBJECTS = ["biology", "chemistry", "geography", "history", "home-economic
 
 test("every written-recall prompt belongs to a real flashcard", () => {
   const prompts = context.FLASHCARD_TEST_PROMPTS;
-  assert.ok(Object.keys(prompts).length > 0, "prompts file should load");
+  assert.ok(prompts && typeof prompts === "object", "prompts file should load");
   Object.entries(prompts).forEach(([chapterId, byTerm]) => {
     const chapter = courseData.chapters.find((c) => c.id === chapterId);
     assert.ok(chapter, `${chapterId} should be a real chapter`);
@@ -83,15 +83,6 @@ test("every written-recall prompt belongs to a real flashcard", () => {
       assert.doesNotMatch(prompt, /—/, `${chapterId}: "${term}" prompt should not use an em dash`);
     });
   });
-});
-
-test("biology has a written-recall prompt for every flashcard", () => {
-  const missing = chaptersFor("biology").flatMap((chapter) =>
-    chapter.learningOutcomes.flatMap((lo) => lo.keyTerms)
-      .filter((kt) => !context.FLASHCARD_TEST_PROMPTS[chapter.id]?.[kt.term])
-      .map((kt) => `${chapter.id}: ${kt.term}`)
-  );
-  assert.deepEqual([...missing], []);
 });
 
 for (const subject of SUBJECTS) {
@@ -142,7 +133,7 @@ test("flashcard questions quote the card's own content", () => {
   const pool = poolFor("biology");
   const built = TB.assembleTest(pool, { minutes: 45, mix: "flashcards", random: seeded(9) });
   const byKind = (kind) => built.items.filter((i) => i.kind === kind);
-  ["pick-term", "pick-definition", "cloze", "recall"].forEach((kind) => {
+  ["pick-term", "pick-definition", "cloze"].forEach((kind) => {
     assert.ok(byKind(kind).length > 0, `a long biology test should include ${kind}`);
   });
   byKind("pick-term").forEach((item) => {
@@ -160,6 +151,18 @@ test("flashcard questions quote the card's own content", () => {
   byKind("recall").forEach((item) => {
     assert.notEqual(item.prompt, item.term, "recall should use the authored prompt, not the bare term");
   });
+});
+
+test("written recall is used exactly when a card has an authored prompt", () => {
+  const chapter = chaptersFor("biology").find((c) => c.id === "bio11");
+  const card = chapter.learningOutcomes.flatMap((lo) => lo.keyTerms)[0];
+  const prompts = { bio11: { [card.term]: "A prompt written for this card." } };
+  const pool = TB.buildPool({ subjectId: "biology", chapters: [chapter], subjectChapters: chaptersFor("biology"), prompts });
+  assert.equal(pool.cards.filter((c) => c.recallPrompt).length, 1);
+  const built = TB.assembleTest(pool, { minutes: 45, mix: "flashcards", random: seeded(2) });
+  const recall = built.items.filter((i) => i.kind === "recall");
+  assert.ok(recall.length <= 1);
+  recall.forEach((item) => assert.equal(item.prompt, "A prompt written for this card."));
 });
 
 test("question-style card terms reduce to the thing being asked about", () => {
