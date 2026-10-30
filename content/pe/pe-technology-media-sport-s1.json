@@ -1,0 +1,160 @@
+{
+  "loId": "pe-technology-media-sport-s1",
+  "chapterId": "pe-technology-media-sport",
+  "subsection": "1. The impact of technology on sport and physical activity",
+  "syllabusRef": "8.1",
+  "notes": [
+    {
+      "h": "Types of technology",
+      "points": [
+        "Equipment and materials: lighter rackets, carbon-fibre bicycles, advanced footwear and performance swimsuits.",
+        "Wearable technology: GPS units, heart-rate monitors and fitness trackers that record movement and physiological data.",
+        "Analysis technology: video, analysis software and apps, and motion capture that record and break down movement.",
+        "Officiating technology: goal-line technology, video referrals and line-calling systems.",
+        "Medical and recovery technology: imaging used to assess injuries, and recovery equipment used between sessions.",
+        "Broadcasting and digital media: cameras, replays and live streams that deliver sport to viewers at home."
+      ]
+    },
+    {
+      "h": "Impact on the performer",
+      "points": [
+        "Advantage: better equipment improves performance and safety, such as helmets and protective padding.",
+        "Advantage: wearables and performance data individualise training and monitor workload.",
+        "Advantage: prosthetic equipment such as running blades enables people with an impairment to participate and compete.",
+        "Disadvantage: cost and unequal access, so performers with more money can afford technology that others cannot.",
+        "Disadvantage: debates about 'technological doping' arise when equipment gives a performer an unfair advantage.",
+        "Disadvantage: some equipment is banned when it gives too great an advantage; full-body polyurethane swimsuits were banned in international swimming from 2010."
+      ]
+    },
+    {
+      "h": "Impact on the coach or choreographer",
+      "points": [
+        "Advantage: video and analysis software show technique and tactics in detail, so a coach can explain faults to athletes.",
+        "Advantage: GPS and heart-rate data show workload, which helps plan training and prevent injury.",
+        "Advantage: communication apps let coaches share plans and feedback with athletes quickly.",
+        "Advantage: music and editing software help choreographers build, time and edit routines.",
+        "Disadvantage: the cost of equipment and subscriptions.",
+        "Disadvantage: the time needed to analyse footage and data.",
+        "Disadvantage: information overload, where too much data makes it hard to find what matters.",
+        "Disadvantage: the privacy of athlete data, which must be stored and shared carefully."
+      ]
+    },
+    {
+      "h": "Impact on the official",
+      "points": [
+        "Advantage: goal-line technology decides whether the ball has crossed the line; it was first used at a FIFA World Cup in 2014.",
+        "Advantage: video assistant referees (VAR) review key decisions; VAR was used at the 2018 FIFA World Cup.",
+        "Advantage: in rugby union, a television match official (TMO) reviews decisions on video.",
+        "Advantage: Hawk-Eye is used for line calls in tennis and to check points at major Gaelic games venues.",
+        "Advantage: communication headsets and electronic timing help officials coordinate and time events accurately.",
+        "Advantage overall: more accurate decisions and greater fairness.",
+        "Disadvantage: delays that break up the flow of the game while a review takes place.",
+        "Disadvantage: controversy over how the rules are interpreted when a replay is unclear.",
+        "Disadvantage: cost, so the systems are often available only at elite level.",
+        "Disadvantage: reduced authority for the on-field official, whose decision can be overturned by a video review."
+      ]
+    },
+    {
+      "h": "Impact on the spectator",
+      "points": [
+        "Advantage: replays and big screens let spectators see key moments again and in detail.",
+        "Advantage: live statistics and apps give spectators information during the event.",
+        "Advantage: streaming gives a better viewing experience and access from home.",
+        "Disadvantage: the cost of subscriptions for live coverage.",
+        "Disadvantage: delays while decisions are reviewed, which interrupt the atmosphere in the stadium.",
+        "Disadvantage: reduced attendance at live events when people can watch from home."
+      ]
+    },
+    {
+      "h": "Students' own use of technology in planning",
+      "points": [
+        "Recording performances on a phone or tablet to review technique before the next training session.",
+        "Analysis apps for timing and comparing repeated attempts.",
+        "Fitness trackers and heart-rate monitors used to set training zones and check effort.",
+        "Online training plans that schedule sessions and log completion.",
+        "Digital portfolios that record training evidence and reflection for the Physical Activity Project."
+      ]
+    },
+    {
+      "h": "Evaluating technology in analysing training and performance",
+      "b": "Technology makes analysis more objective and detailed, but it has costs and limits.",
+      "points": [
+        "Strength: objective, accurate and immediate feedback that shows trends over time.",
+        "Strength: data can be compared across sessions and against a performer's own earlier results.",
+        "Limitation: the cost of professional systems, which restricts access.",
+        "Limitation: consumer devices vary in accuracy, so their readings may not be reliable enough for decisions.",
+        "Limitation: interpreting data needs expertise, and without it a coach or performer can misread results.",
+        "Limitation: numbers can miss the feel and context of a performance, so they should be combined with a coach's judgement and the performer's own sense of the movement."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Wearable technology",
+      "definition": "Devices worn on the body, such as GPS units, heart-rate monitors and fitness trackers, that record movement or physiological data."
+    },
+    {
+      "term": "Motion capture",
+      "definition": "A technique that records the movement of a performer's body so that it can be analysed in detail."
+    },
+    {
+      "term": "Goal-line technology",
+      "definition": "A system that decides whether the ball has fully crossed the goal line."
+    },
+    {
+      "term": "Video assistant referee (VAR)",
+      "definition": "An official who reviews key decisions on video and advises the match referee."
+    },
+    {
+      "term": "Television match official (TMO)",
+      "definition": "A rugby union official who reviews decisions on video."
+    },
+    {
+      "term": "Hawk-Eye",
+      "definition": "A camera-based system that tracks a ball's path to make line calls or check points."
+    },
+    {
+      "term": "Technological doping",
+      "definition": "A debate over whether equipment that gives a performer too great an advantage is unfair, as in doping."
+    },
+    {
+      "term": "Running blade",
+      "definition": "A curved prosthetic leg used by athletes with a lower-limb impairment to run."
+    }
+  ],
+  "factCards": [
+    {
+      "term": "First use of goal-line technology",
+      "definition": "At a FIFA World Cup in 2014."
+    },
+    {
+      "term": "VAR at a World Cup",
+      "definition": "The 2018 FIFA World Cup."
+    },
+    {
+      "term": "Banned swimsuit",
+      "definition": "Full-body polyurethane swimsuits were banned in international swimming from 2010."
+    },
+    {
+      "term": "Sport that uses a television match official",
+      "definition": "Rugby union."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Examine how developments in technology have impacted officials in physical activities of your choice.",
+      "model": "In soccer, goal-line technology was first used at a FIFA World Cup in 2014, removing disputes over whether the ball crossed the line. VAR, used at the 2018 FIFA World Cup, lets officials review key decisions on video, so that clear errors can be corrected. In rugby union, the television match official reviews decisions on video, which improves accuracy but can interrupt the flow of play. In tennis, Hawk-Eye makes line calls, so the umpire's decisions are backed by a system that tracks the ball's path. The advantages are more accurate and fairer decisions. The disadvantages are delays that break up the game, controversy over how the rules are interpreted when a replay is unclear, high costs that restrict the systems to elite level, and reduced authority for the on-field official, whose decision can be overturned by a review."
+    },
+    {
+      "marks": 10,
+      "prompt": "Evaluate the role of technology in the analysis of training and the evaluation of sporting performance.",
+      "model": "Technology gives objective, immediate and accurate information. Video and analysis software let a coach compare an athlete's attempts side by side and track changes over time. Wearable devices record speed, distance and heart rate, so training load can be tracked across weeks and linked to injury risk. Feedback can be given during a session, and the recorded data serves as evidence of progress. The limitations are real. Professional systems are expensive, so many clubs cannot use them. Consumer devices vary in accuracy, so their readings may mislead. Interpreting data needs expertise, and without it a coach can misread results. Numbers can also miss the feel and context of a performance. Technology is therefore a strong aid to evaluation when the data is accurate and understood, and when it is combined with the coach's observation rather than used in place of it."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name two types of technology and explain how a coach might use each in training.",
+      "model": "GPS units and video analysis software. A coach might use GPS units during a field session to measure each player's distance, sprint count and speed, then adjust the training load to avoid overtraining. A coach might use video analysis software by filming a skill drill and reviewing it with the squad, showing a faulty technique side by side with the correct one."
+    }
+  ]
+}
