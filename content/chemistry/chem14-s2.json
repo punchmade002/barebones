@@ -1,0 +1,148 @@
+{
+  "loId": "chem14-s2",
+  "chapterId": "chem14",
+  "subsection": "2. Balancing redox equations",
+  "syllabusRef": "3.5.2",
+  "notes": [
+    {
+      "h": "The oxidation-number method (Higher Level only)",
+      "b": "Matching the electrons lost to the electrons gained fixes the key ratio of the equation; the remaining atoms are then balanced by inspection.",
+      "points": [
+        "Recap: oxidation is an increase in oxidation number and reduction is a decrease; the rules for assigning oxidation numbers are in “Oxidation and reduction”.",
+        "Step 1: assign oxidation numbers to every atom on both sides.",
+        "Step 2: identify the elements whose oxidation numbers change: one increases (the species containing it is oxidised and is the reducing agent) and one decreases (that species is reduced and is the oxidising agent).",
+        "Step 3: work out the change per formula unit, which is the change per atom multiplied by the number of those atoms in the formula; this equals the number of electrons lost or gained.",
+        "Step 4: choose coefficients for the oxidising and reducing agents, and their products, so that the total increase equals the total decrease, using the lowest common multiple.",
+        "Step 5: balance the remaining atoms by inspection, leaving oxygen and hydrogen until last.",
+        "Step 5 in acidic solution: add H₂O to balance O, then add H⁺ to balance H.",
+        "Step 6: check that each element balances and that the total charge is the same on both sides.",
+        "Complex redox equations can't easily be balanced by inspection alone.",
+        "Matching electrons lost and gained fixes the key ratio first, and the charge check catches mistakes.",
+        "Write every charge correctly, because one wrong charge makes the equation wrong."
+      ]
+    },
+    {
+      "h": "Example 1: manganate(VII) and iron(II) (Higher Level only)",
+      "points": [
+        "Unbalanced: MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺ + H₂O.",
+        "Mn goes from +7 to +2, a decrease of 5, so Mn is reduced and MnO₄⁻ is the oxidising agent.",
+        "Fe goes from +2 to +3, an increase of 1, so Fe²⁺ is oxidised and is the reducing agent.",
+        "Equalise: one MnO₄⁻ gains 5 electrons, so 5 Fe²⁺ are needed: MnO₄⁻ + 5Fe²⁺ + H⁺ → Mn²⁺ + 5Fe³⁺ + H₂O.",
+        "Balance O: there are 4 O on the left, so 4H₂O on the right.",
+        "Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.",
+        "Check atoms: Mn 1 = 1, Fe 5 = 5, O 4 = 4, H 8 = 8.",
+        "Check charge: left (−1) + 5(+2) + 8(+1) = +17; right (+2) + 5(+3) = +17."
+      ]
+    },
+    {
+      "h": "Example 2: copper and dilute nitric acid (Higher Level only)",
+      "points": [
+        "Unbalanced: Cu + NO₃⁻ + H⁺ → Cu²⁺ + NO + H₂O.",
+        "Cu goes from 0 to +2, an increase of 2, so copper is oxidised and is the reducing agent.",
+        "N goes from +5 in NO₃⁻ to +2 in NO, a decrease of 3, so nitrate is reduced and is the oxidising agent.",
+        "The lowest common multiple of 2 and 3 is 6: 3Cu (lose 6) and 2NO₃⁻ (gain 6) give 3Cu + 2NO₃⁻ + H⁺ → 3Cu²⁺ + 2NO + H₂O.",
+        "Balance O: 6 O are on the left and 2 are in 2NO, so 4H₂O go on the right.",
+        "Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O.",
+        "Check charge: left 2(−1) + 8(+1) = +6; right 3(+2) = +6."
+      ]
+    },
+    {
+      "h": "Example 3: manganate(VII) and ethanedioate (Higher Level only)",
+      "points": [
+        "Unbalanced: MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O.",
+        "Mn goes from +7 to +2, a decrease of 5, so MnO₄⁻ is reduced and is the oxidising agent.",
+        "C is +3 in C₂O₄²⁻ (2C + 4(−2) = −2) and +4 in CO₂: an increase of 1 per C atom, so 2 per C₂O₄²⁻ ion. The ethanedioate ion is oxidised and is the reducing agent.",
+        "The ethanedioate ion C₂O₄²⁻ is also called oxalate.",
+        "The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5C₂O₄²⁻ (lose 10) give 2Mn²⁺ and 10CO₂.",
+        "Balance O: the left has 8 + 20 = 28 O, and 10CO₂ holds 20 O, so 8H₂O go on the right.",
+        "Balance H: 16 H⁺ go on the left: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.",
+        "Check charge: left 2(−1) + 5(−2) + 16(+1) = +4; right 2(+2) = +4."
+      ]
+    },
+    {
+      "h": "Example 4: iodine and thiosulfate, a fractional oxidation number (Higher Level only)",
+      "points": [
+        "Unbalanced: I₂ + S₂O₃²⁻ → I⁻ + S₄O₆²⁻.",
+        "I goes from 0 to −1, so each I gains 1 electron and I₂ gains 2: iodine is reduced and is the oxidising agent.",
+        "S goes from +2 in S₂O₃²⁻ to +2.5 in S₄O₆²⁻, so each S's oxidation number rises by 0.5 and each S₂O₃²⁻ loses 1 electron: thiosulfate is oxidised and is the reducing agent.",
+        "Two S₂O₃²⁻ ions lose 2 electrons, matching one I₂: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
+        "S₄O₆²⁻ is the tetrathionate ion.",
+        "Check atoms: I 2 = 2, S 4 = 4, O 6 = 6.",
+        "Check charge: left 2(−2) = −4; right 2(−1) + (−2) = −4."
+      ]
+    },
+    {
+      "h": "Example 5: phosphorus and nitrate (Higher Level only)",
+      "points": [
+        "Unbalanced: P₄ + NO₃⁻ + H₂O → PO₄³⁻ + NO + H⁺.",
+        "P goes from 0 in P₄ to +5 in PO₄³⁻, an increase of 5 per atom, so 20 per P₄ molecule: P₄ is oxidised and is the reducing agent.",
+        "N goes from +5 to +2, a decrease of 3: nitrate is reduced and is the oxidising agent.",
+        "The lowest common multiple of 20 and 3 is 60: 3P₄ (lose 60) and 20NO₃⁻ (gain 60) give 3P₄ + 20NO₃⁻ → 12PO₄³⁻ + 20NO.",
+        "Balance O: the left has 60 O, and the right has 48 + 20 = 68, so 8H₂O go on the left.",
+        "Balance H: the 8H₂O supply 16 H, so 16H⁺ go on the right: 3P₄ + 20NO₃⁻ + 8H₂O → 12PO₄³⁻ + 20NO + 16H⁺.",
+        "Check charge: left 20(−1) = −20; right 12(−3) + 16(+1) = −20."
+      ]
+    },
+    {
+      "h": "Further equations (Higher Level only)",
+      "points": [
+        "Manganate(VII) oxidises chloride to chlorine, which is why hydrochloric acid is not used to acidify permanganate titrations: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O.",
+        "In that equation each Mn gains 5 electrons (+7 to +2) and each Cl loses 1 electron (−1 to 0).",
+        "Manganate(VII) oxidises iodide to iodine, which is used to make iodine for thiosulfate titrations: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
+        "Dichromate(VI) oxidises iron(II): Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O.",
+        "Each Cr falls from +6 to +3, so Cr₂O₇²⁻ gains 6 electrons, and each Fe²⁺ loses 1 electron.",
+        "Only some atoms of an element may change: in Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O, one S goes from +6 to +4 (gain 2) and the other stays at +6 in CuSO₄, so only that one is counted.",
+        "Copper loses 2 electrons, and the second H₂SO₄ is needed to supply the sulfate for the CuSO₄.",
+        "The manganate(VII) and iron(II) equation, and the iodine and thiosulfate equation, are the ones used in “Redox titrations”."
+      ]
+    },
+    {
+      "h": "Checking with half-equations (Higher Level only)",
+      "points": [
+        "The same equation can be built from half-equations: balance the atom that changes, add H₂O to balance O, add H⁺ to balance H, then add electrons to balance charge.",
+        "The number of electrons in a half-equation equals the change in oxidation number.",
+        "Example: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, where the 5 electrons match the change from +7 to +2.",
+        "The iron half-equation is Fe²⁺ → Fe³⁺ + e⁻.",
+        "Multiply the iron half-equation by 5 so that the electrons cancel, then add: MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.",
+        "Either method earns full marks once oxidation numbers have been assigned, whether or not the question says “hence or otherwise”."
+      ]
+    },
+    {
+      "h": "Common errors (Higher Level only)",
+      "points": [
+        "Multiply the change per atom by the number of atoms of that element in the formula: 2 C in C₂O₄²⁻, 2 Cr in Cr₂O₇²⁻, 4 P in P₄, 2 I in I₂.",
+        "Balance the electron change before adding H₂O and H⁺; adding them first gives wrong ratios.",
+        "Always check charge as well as atoms; an equation can balance in atoms and still be wrong.",
+        "Spectator ions (K⁺, SO₄²⁻, Na⁺) are left out of ionic equations.",
+        "Bismuth is element 83, so bismuthate (BiO₃⁻) is outside the first 36 elements and outside the specification."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Oxidation number", "definition": "The charge an atom has, or appears to have, when its bonding electrons are assigned by a set of rules." },
+    { "term": "Oxidation-number method", "definition": "Balancing a redox equation by matching the total increase in oxidation number to the total decrease." },
+    { "term": "Half-equation", "definition": "An equation showing one oxidation or reduction, with the electrons written in." },
+    { "term": "Lowest common multiple", "definition": "The smallest number that both the electrons lost and the electrons gained divide into, used to choose coefficients." },
+    { "term": "Charge balance", "definition": "The check that the total charge on each side of a balanced equation is the same." },
+    { "term": "Spectator ion", "definition": "An ion that does not change during a reaction and is left out of the ionic equation." },
+    { "term": "Ethanedioate ion", "definition": "The ion C₂O₄²⁻, also called oxalate." },
+    { "term": "Tetrathionate ion", "definition": "The ion S₄O₆²⁻ formed when thiosulfate is oxidised by iodine." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Using oxidation numbers, show which species is oxidised and which is reduced in MnO₄⁻ + Cl⁻ + H⁺ → Mn²⁺ + Cl₂ + H₂O. Hence balance the equation and identify the oxidising agent.",
+      "model": "Mn changes from +7 to +2, a decrease of 5 per atom, so MnO₄⁻ is reduced. Cl changes from −1 to 0, an increase of 1 per atom and 2 per Cl₂ molecule, so Cl⁻ is oxidised. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 10Cl⁻ (lose 10) give 2Mn²⁺ and 5Cl₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H, so 16H⁺ go on the left: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O. Check: charge left (−2) + (−10) + (+16) = +4; right (+4) = +4. The oxidising agent is MnO₄⁻."
+    },
+    {
+      "marks": 9,
+      "prompt": "Balance, using oxidation numbers, Cr₂O₇²⁻ + Fe²⁺ + H⁺ → Cr³⁺ + Fe³⁺ + H₂O, and identify the reducing agent.",
+      "model": "Cr changes from +6 to +3, a decrease of 3 per atom and so 6 per Cr₂O₇²⁻ ion (2 Cr atoms): Cr₂O₇²⁻ is reduced. Fe changes from +2 to +3, an increase of 1 per atom, so 6 Fe²⁺ are needed to match the 6 electrons gained. The 7 O in Cr₂O₇²⁻ form 7H₂O, which needs 14 H, so 14H⁺ go on the left: Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O. Check: charge left (−2) + (+12) + (+14) = +24; right (+6) + (+18) = +24. The reducing agent is Fe²⁺."
+    },
+    {
+      "marks": 9,
+      "prompt": "Hydrogen peroxide is oxidised to oxygen by acidified potassium manganate(VII): MnO₄⁻ + H₂O₂ + H⁺ → Mn²⁺ + O₂ + H₂O. Assign oxidation numbers to manganese and to the oxygen in H₂O₂ and O₂, and balance the equation.",
+      "model": "Mn changes from +7 to +2, a gain of 5 electrons per atom. The oxygen in H₂O₂ is −1 (a peroxide) and the oxygen in O₂ is 0, so each O loses 1 electron and each H₂O₂ loses 2. The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5H₂O₂ (lose 10) give 2Mn²⁺ and 5O₂. The 8 O from 2MnO₄⁻ form 8H₂O, which needs 16 H; 5H₂O₂ supply 10 H, so 6H⁺ go on the left: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O. Check: charge left (−2) + (+6) = +4; right (+4) = +4. The reducing agent is H₂O₂."
+    }
+  ]
+}
