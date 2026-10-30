@@ -2,6 +2,8 @@
 
 2074 new flashcards across 97 subsections, drafted from the information packages in `course-outlines/packages/geography/` and stored as `factCards` in `content/geography/<subsection>.json`. In the app they appear after each subsection's key terms, in both flashcards and tests.
 
+A separate review pass checked every card against its package and found 222 problems: 6 that would have taught a false fact, 98 misleading, 5 that broke a package trap, and 113 weak (mostly a front whose count didn't match the back). 220 cards were corrected and 2 cut; the list below is the corrected set.
+
 Each card shows its front, its back, and the package must-cover item(s) it comes from. To change or remove a card, edit the `factCards` list in the content file, then run `python3 scripts/build_notes.py geography`. Delete this file once review is done.
 
 ## Aerial photographs
