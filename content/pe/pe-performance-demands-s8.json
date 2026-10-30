@@ -1,0 +1,113 @@
+{
+  "loId": "pe-performance-demands-s8",
+  "chapterId": "pe-performance-demands",
+  "subsection": "8. Diet, nutrition and hydration",
+  "syllabusRef": "2.8",
+  "notes": [
+    {
+      "h": "Nutrients and their roles in performance",
+      "points": [
+        "Carbohydrate: the body's main energy source for moderate and high-intensity exercise; stored as glycogen in the muscles and liver. Sources: bread, pasta, rice, potatoes, cereals and fruit.",
+        "Protein: growth and repair of muscle and other tissue. Sources: meat, fish, eggs, dairy and pulses.",
+        "Fat: a concentrated energy source for low-intensity, long-duration exercise; also insulates the body and carries fat-soluble vitamins. Sources: oils, nuts, dairy and oily fish.",
+        "Iron: carries oxygen in red blood cells; a deficiency causes tiredness and reduces endurance.",
+        "Calcium: needed for strong bones and muscle contraction.",
+        "B vitamins: help release energy from food.",
+        "Fibre: keeps the digestive system healthy, but large amounts just before exercise can cause discomfort.",
+        "A balanced diet for a performer is mostly carbohydrate-based, with enough protein, limited saturated fat, plenty of fruit and vegetables, and energy intake matched to the training load."
+      ]
+    },
+    {
+      "h": "Nutrition before performance",
+      "points": [
+        "A meal about 3 to 4 hours before: high in carbohydrate, moderate in protein, low in fat and fibre, so glycogen stores are topped up and digestion is complete, such as pasta with chicken.",
+        "A small carbohydrate snack about 1 to 2 hours before if needed, such as a banana or toast.",
+        "Familiar foods only, to avoid stomach upsets on competition day.",
+        "Plenty of fluid in the hours beforehand.",
+        "Carbohydrate loading for endurance events lasting more than about 90 minutes: carbohydrate intake is increased over the days before while training tapers, to maximise glycogen stores."
+      ]
+    },
+    {
+      "h": "Nutrition during and after performance",
+      "points": [
+        "During short events: water is usually enough.",
+        "During events lasting more than about an hour: carbohydrate from a sports drink, gel or banana, with fluid, maintains blood glucose and delays fatigue.",
+        "After: carbohydrate restores muscle glycogen and protein repairs muscle, ideally within about 30 to 60 minutes, such as chocolate milk or a chicken and rice meal.",
+        "After: rehydrate with fluid and electrolytes to replace sweat losses.",
+        "Match-day example for Gaelic football: a pasta lunch three to four hours before throw-in; a banana an hour before; water and a sports drink at half-time; chocolate milk straight after and a chicken and rice dinner that evening."
+      ]
+    },
+    {
+      "h": "Hydration",
+      "points": [
+        "Water regulates body temperature through sweating, transports nutrients and maintains blood volume.",
+        "Effects of dehydration: raised heart rate and body temperature, fatigue, headache, cramp, reduced concentration and poorer skill.",
+        "A fluid loss of about 2% of body mass can impair performance.",
+        "Fluid needs are higher in long or high-intensity activities, in hot or humid conditions, in indoor halls, when wearing heavy kit, and at altitude; swimmers also sweat and need fluid.",
+        "Monitoring: urine colour (pale straw is good), weighing before and after exercise, and thirst, which is a late sign.",
+        "Replace about 1.5 times the fluid lost: 1 kg of body mass lost needs about 1.5 litres.",
+        "Drinking large amounts of plain water in very long events can dilute blood sodium (hyponatraemia), so drinks should include electrolytes."
+      ]
+    },
+    {
+      "h": "Sports drinks",
+      "points": [
+        "Hypotonic: a lower concentration than body fluid; absorbed fastest, for rapid rehydration.",
+        "Isotonic: about 6 to 8% carbohydrate, the same concentration as body fluid; provides fluid and energy together and is the most common drink during exercise.",
+        "Hypertonic: a higher carbohydrate concentration; provides energy, usually after exercise.",
+        "Benefits: replace fluid, electrolytes (sodium and potassium) and carbohydrate in one convenient drink.",
+        "Disadvantages: sugar and calories (dental decay and weight gain for inactive users), cost, and unnecessary for short or low-intensity activity."
+      ]
+    },
+    {
+      "h": "Sports supplements: role and challenges",
+      "points": [
+        "Protein powders: muscle repair and convenience after training.",
+        "Creatine: raises phosphocreatine stores in muscle, improving repeated short, maximal efforts.",
+        "Caffeine: a stimulant that can reduce perceived effort and improve alertness and endurance.",
+        "Energy gels: rapid carbohydrate during long events.",
+        "Vitamin and mineral supplements: to correct a diagnosed deficiency, such as iron.",
+        "Challenge: contamination with prohibited substances; under strict liability the athlete is responsible for anything found in their sample.",
+        "Challenge: side effects, such as stomach upset from caffeine or weight gain from creatine.",
+        "Challenge: cost, unregulated claims, and possible dependence.",
+        "Challenge: usually unnecessary when the diet is balanced (food first); batch-tested products reduce but do not remove the risk."
+      ]
+    },
+    {
+      "h": "Designing a dietary plan",
+      "points": [
+        "Cover a training day and a competition day, with meals and snacks before, during and after activity and a fluid plan.",
+        "Give a rationale for each choice, linked to the activity's duration, intensity and main energy system.",
+        "Aspect 1, pre-event carbohydrate: maximises glycogen for high-intensity efforts.",
+        "Aspect 2, post-event carbohydrate and protein: restores glycogen and repairs muscle for the next session.",
+        "Aspect 3, hydration plan: prevents dehydration and keeps concentration and skill levels high."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Carbohydrate", "definition": "The body's main energy source for moderate and high-intensity exercise, stored as glycogen." },
+    { "term": "Glycogen", "definition": "The stored form of carbohydrate in the muscles and liver." },
+    { "term": "Protein", "definition": "The nutrient for growth and repair of muscle and other tissue." },
+    { "term": "Fat", "definition": "A concentrated energy source for low-intensity, long-duration exercise." },
+    { "term": "Carbohydrate loading", "definition": "Increasing carbohydrate intake in the days before an endurance event while tapering, to maximise glycogen stores." },
+    { "term": "Dehydration", "definition": "A shortage of body water that raises heart rate and temperature and impairs performance." },
+    { "term": "Electrolytes", "definition": "Minerals such as sodium and potassium lost in sweat and replaced by sports drinks." },
+    { "term": "Hypotonic drink", "definition": "A drink less concentrated than body fluid, for rapid rehydration." },
+    { "term": "Isotonic drink", "definition": "A drink with about 6 to 8% carbohydrate, providing fluid and energy together." },
+    { "term": "Hypertonic drink", "definition": "A drink with a high carbohydrate concentration, mainly for energy after exercise." },
+    { "term": "Sports supplement", "definition": "A product taken in addition to the diet to improve health or performance." },
+    { "term": "Hyponatraemia", "definition": "A dangerously low blood sodium level from drinking too much plain water in long events." }
+  ],
+  "factCards": [
+    { "term": "Two side effects of dehydration", "definition": "Any two of: raised heart rate and body temperature, fatigue, headache, cramp, reduced concentration, poorer skill." },
+    { "term": "Fluid loss that impairs performance", "definition": "About 2% of body mass." },
+    { "term": "How much fluid to replace after exercise", "definition": "About 1.5 times the fluid lost: about 1.5 litres for each kilogram of body mass lost." },
+    { "term": "Two nutritional considerations after performance (not hydration)", "definition": "Carbohydrate to restore glycogen; protein to repair muscle; ideally within about 30 to 60 minutes." },
+    { "term": "Advantages and disadvantages of sports drinks", "definition": "Advantages: replace fluid, electrolytes and carbohydrate; convenient. Disadvantages: sugar and calories, cost, unnecessary for short activity." }
+  ],
+  "questions": [
+    { "marks": 12, "prompt": "Examine three nutritional considerations for designing a dietary plan for an athlete in a named physical activity.", "model": "Activity: hurling. 1. Pre-match carbohydrate: a high-carbohydrate, low-fat, low-fibre meal such as pasta with chicken about three to four hours before throw-in tops up muscle glycogen, which fuels the repeated sprints and the lactic acid and aerobic systems through 70 minutes, while low fat and fibre avoid digestive discomfort. 2. Recovery: carbohydrate and protein within about an hour of the final whistle, such as chocolate milk then a chicken and rice meal, restore glycogen and repair muscle damaged by sprinting and contact, so the player can train again within a day or two. 3. Hydration: drinking before the match, water and an isotonic sports drink at half-time, and replacing about 1.5 times the fluid lost afterwards prevent dehydration, which would raise heart rate, cause fatigue and reduce concentration and striking accuracy." },
+    { "marks": 8, "prompt": "Discuss the challenges for performers who use sports supplements.", "model": "First, contamination: supplements are not regulated like medicines and some contain undeclared prohibited substances; under strict liability the athlete is responsible for any substance in their sample, so a contaminated product can lead to a ban. Second, side effects: caffeine can cause anxiety, poor sleep and stomach upset, and creatine can cause weight gain. Third, cost and unproven claims: many products are expensive and do not work as advertised. Fourth, most are unnecessary when the diet is balanced, so a food-first approach and advice from a qualified professional are recommended." },
+    { "marks": 6, "prompt": "List two side effects of dehydration and explain how a performer can stay hydrated.", "model": "Two side effects: fatigue and reduced concentration. The performer should drink regularly through the day and before exercise, take water or an isotonic drink during long or hot sessions, check that their urine is pale straw-coloured, and weigh themselves before and after training so they can replace about 1.5 times the fluid lost." }
+  ]
+}
