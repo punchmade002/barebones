@@ -1,0 +1,120 @@
+{
+  "loId": "chem25-s7",
+  "chapterId": "chem25",
+  "subsection": "7. Redox and acid–base reactions of organic compounds",
+  "syllabusRef": "4.2.11",
+  "notes": [
+    {
+      "h": "Oxidation and reduction in organic compounds (Higher Level only)",
+      "points": [
+        "An organic compound is oxidised when it gains oxygen or loses hydrogen, and reduced when it gains hydrogen or loses oxygen.",
+        "The oxidation number of the carbon involved rises on oxidation and falls on reduction.",
+        "The oxidation ladder: primary alcohol to aldehyde to carboxylic acid; secondary alcohol to ketone. Each step is an oxidation, and the reverse is a reduction.",
+        "Equations may be written with [O] for oxygen from the oxidising agent: CH₃CH₂OH + [O] → CH₃CHO + H₂O, and CH₃CHO + [O] → CH₃COOH."
+      ]
+    },
+    {
+      "h": "Acidified potassium permanganate (Higher Level only)",
+      "points": [
+        "Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent.",
+        "It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
+        "It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades.",
+        "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O, using the organic half-equation C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻.",
+        "To stop at the aldehyde, the aldehyde is distilled off as it forms, since ethanal boils at about 21 °C, well below ethanol at 78 °C, and the oxidising agent is not in excess.",
+        "To make the acid, an excess of oxidising agent is used and the mixture is heated under reflux.",
+        "It oxidises secondary alcohols to ketones: propan-2-ol to propanone, CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O.",
+        "It does not oxidise tertiary alcohols, such as 2-methylpropan-2-ol, or ketones: neither has a hydrogen on the carbon bearing the oxygen, and oxidation would need a C–C bond to break.",
+        "Carboxylic acids are not oxidised further."
+      ]
+    },
+    {
+      "h": "Basic potassium permanganate (Higher Level only)",
+      "points": [
+        "In basic (alkaline) solution, e.g. with sodium carbonate, permanganate is reduced to brown manganese(IV) oxide instead: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻.",
+        "The colour change is from purple to a brown precipitate.",
+        "It oxidises a primary alcohol to a carboxylic acid, which is present as its salt in the basic solution: phenylmethanol gives benzoate ions, which give benzoic acid on acidifying; see \"Investigation: synthesising benzoic acid\"."
+      ]
+    },
+    {
+      "h": "Fehling's solution (Higher Level only)",
+      "points": [
+        "Fehling's solution is a mild oxidising agent containing Cu²⁺ ions.",
+        "It oxidises aldehydes to carboxylic acids, present as carboxylate salts in the alkaline reagent, and is itself reduced to brick-red copper(I) oxide, Cu₂O.",
+        "It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes; see \"Tests for aldehydes, ketones and carboxylic acids\"."
+      ]
+    },
+    {
+      "h": "Reduction with hydrogen and nickel (Higher Level only)",
+      "points": [
+        "Hydrogen gas with a nickel catalyst is the reducing agent: it adds hydrogen across a C=O or C=C double bond.",
+        "Aldehydes are reduced to primary alcohols: CH₃CHO + H₂ → CH₃CH₂OH (ethanal to ethanol).",
+        "Ketones are reduced to secondary alcohols: CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (propanone to propan-2-ol).",
+        "Alkenes are reduced to alkanes: CH₂=CH₂ + H₂ → CH₃CH₃; this is also an addition reaction.",
+        "Hydrogenation of vegetable oils: oils contain many C=C bonds, and adding hydrogen over nickel converts some C=C to C–C, raising the melting point, so the liquid oil becomes a soft solid fat used in margarine.",
+        "The degree of hydrogenation sets how hard the product is."
+      ]
+    },
+    {
+      "h": "Acid–base reactions of carboxylic acids and alcohols (Higher Level only)",
+      "points": [
+        "Carboxylic acids are weak acids that transfer a proton to bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
+        "With carbonates they give carbon dioxide: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
+        "With hydrogencarbonates they also give carbon dioxide: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.",
+        "Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide; see \"Acidity of carboxylic acids and alcohols\"."
+      ]
+    },
+    {
+      "h": "Base hydrolysis of esters (Higher Level only)",
+      "points": [
+        "Hydrolysis is the breaking of a compound by reaction with water.",
+        "Esters can be hydrolysed by acid, which is reversible and is the reverse of esterification, or by base.",
+        "Base hydrolysis: heating an ester with sodium hydroxide gives the sodium salt of the carboxylic acid and the alcohol: CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
+        "It is an acid–base reaction because the hydroxide ion acts as a base and the carboxylic acid formed is converted to its carboxylate ion.",
+        "This is why base hydrolysis goes to completion, while acid hydrolysis reaches an equilibrium.",
+        "Acidifying the product mixture converts the carboxylate salt back into the free carboxylic acid: CH₃COO⁻ + H⁺ → CH₃COOH."
+      ]
+    },
+    {
+      "h": "Fats and oils: tri-esters and saponification (Higher Level only)",
+      "points": [
+        "Fats and oils are tri-esters, or triglycerides, of glycerol, propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, with three long-chain carboxylic acids called fatty acids.",
+        "Fats, mostly from animals, are solid at room temperature and contain mainly saturated chains.",
+        "Oils, mostly from plants, are liquid and contain more unsaturated chains with C=C bonds.",
+        "Base hydrolysis of a fat or oil is called saponification, the process of soap-making: fat + 3NaOH → glycerol + 3 sodium salts of fatty acids (soap).",
+        "Example: glyceryl tristearate reacts with sodium hydroxide: (C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃, giving sodium stearate and glycerol.",
+        "The mole ratio of fat : NaOH : soap : glycerol is 1 : 3 : 3 : 1.",
+        "Molar masses: glyceryl tristearate 890 g mol⁻¹, sodium stearate 306 g mol⁻¹ and glycerol 92 g mol⁻¹.",
+        "Glycerol, the co-product, is soluble in water and is used in cosmetics and medicines.",
+        "Diagram: a triglyceride, with a three-carbon glycerol backbone, each carbon joined through an ester group (–O–CO–) to a long hydrocarbon chain R; and the products, glycerol with three –OH groups and three RCOO⁻Na⁺ ions."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Acidified potassium permanganate", "definition": "A strong oxidising agent, made from KMnO₄ and dilute sulfuric acid, that is reduced to colourless Mn²⁺ ions." },
+    { "term": "Primary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to one other carbon atom." },
+    { "term": "Secondary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to two other carbon atoms." },
+    { "term": "Tertiary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to three other carbon atoms." },
+    { "term": "Hydrolysis", "definition": "The breaking of a compound by reaction with water." },
+    { "term": "Saponification", "definition": "The base hydrolysis of a fat or oil with sodium hydroxide, which gives soap and glycerol." },
+    { "term": "Triglyceride", "definition": "A tri-ester formed from glycerol and three fatty acids, the main component of fats and oils." },
+    { "term": "Fatty acid", "definition": "A long-chain carboxylic acid that forms part of a fat or oil." },
+    { "term": "Glycerol", "definition": "Propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, the alcohol that forms the backbone of fats and oils." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe the action of acidified potassium permanganate on (i) ethanol, (ii) propan-2-ol, (iii) 2-methylpropan-2-ol, naming any organic product and explaining any case where no reaction occurs. Give the half-equation for the permanganate.",
+      "model": "(i) Ethanol is oxidised: the purple colour fades as ethanal forms, and with excess reagent the ethanal is oxidised further to ethanoic acid. (ii) Propan-2-ol, a secondary alcohol, is oxidised to propanone, and no further oxidation occurs. (iii) 2-methylpropan-2-ol, a tertiary alcohol, does not react, because the carbon bearing the –OH group has no hydrogen atom to lose, and oxidation would need a C–C bond to break. Half-equation for the permanganate: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O."
+    },
+    {
+      "marks": 9,
+      "prompt": "Name the reagent used to reduce propanone, name the product, and state how the reduction of ethanal differs. Explain why hydrogenation is used in making margarine.",
+      "model": "Propanone is reduced by hydrogen gas with a nickel catalyst, giving propan-2-ol, CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃. Ethanal is also reduced by hydrogen with nickel, but it gives ethanol, a primary alcohol, whereas propanone gives a secondary alcohol. Hydrogenation is used in margarine because vegetable oils contain many C=C bonds. Adding hydrogen over nickel converts some C=C bonds to C–C bonds, which raises the melting point, so the liquid oil becomes a soft solid fat. The degree of hydrogenation controls how hard the margarine is."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what is meant by saponification. Write a balanced equation for the base hydrolysis of glyceryl tristearate and explain why this is classed as an acid–base reaction.",
+      "model": "Saponification is the base hydrolysis of a fat or oil by sodium hydroxide, giving soap, which is the sodium salt of the fatty acids, and glycerol. Equation: (C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃. It is classed as an acid–base reaction because the hydroxide ion acts as a base, and the carboxylic acid formed is converted into its carboxylate salt, so the reaction goes to completion."
+    }
+  ]
+}
