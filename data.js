@@ -196,6 +196,62 @@ const COURSE_DATA = {
       { id: "pe-acronyms-1", code: "A.1", title: "Acronyms and mnemonics to learn", notes: [], keyTerms: [], questions: [] }
       ],
     },
+    // PE syllabus chapters with their outline subsections (course-outlines/pe.md). These are shells:
+    // pe-pipeline-content.js rebuilds each chapter and keeps these subsections after its review outcome.
+    { id: "pe-learning-skill-technique", number: 1, subject: "pe", title: "Learning and Improving Skill and Technique", examQuestions: [], learningOutcomes: [
+        { id: "pe-learning-skill-technique-s1", code: "PE1.1", syllabusRef: "1.1", title: "Defining a skilled performance", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s2", code: "PE1.2", syllabusRef: "1.2", title: "Analysing skill: the biomechanical perspective", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s3", code: "PE1.3", syllabusRef: "1.2", title: "Analysing skill: movement and quality perspectives", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-learning-skill-technique-s4", code: "PE1.4", syllabusRef: "1.3", title: "Skill acquisition", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-performance-demands", number: 2, subject: "pe", title: "Physical and Psychological Demands of Performance", examQuestions: [], learningOutcomes: [
+        { id: "pe-performance-demands-s1", code: "PE2.1", syllabusRef: "2.1", title: "Physical fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s2", code: "PE2.2", syllabusRef: "2.2", title: "Health-related fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s3", code: "PE2.3", syllabusRef: "2.3", title: "Performance-related fitness", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s4", code: "PE2.4", syllabusRef: "2.4", title: "Applying the fitness components", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s5", code: "PE2.5", syllabusRef: "2.5", title: "Assessing fitness and the principles of training", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s6", code: "PE2.6", syllabusRef: "2.6", title: "Designing a fitness plan", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s7", code: "PE2.7", syllabusRef: "2.7", title: "Psychological preparation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s8", code: "PE2.8", syllabusRef: "2.8", title: "Diet, nutrition and hydration", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-performance-demands-s9", code: "PE2.9", syllabusRef: "2.8", title: "Energy systems", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-structures-strategies-roles-conventions", number: 3, subject: "pe", title: "Structures, Strategies, Roles and Conventions", examQuestions: [], learningOutcomes: [
+        { id: "pe-structures-strategies-roles-conventions-s1", code: "PE3.1", syllabusRef: "3.1", title: "Structures, strategies and compositional elements", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s2", code: "PE3.2", syllabusRef: "3.2", title: "Roles and relationships", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s3", code: "PE3.3", syllabusRef: "3.3", title: "Safe practice", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s4", code: "PE3.4", syllabusRef: "3.4", title: "Rules, rituals and conventions", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s5", code: "PE3.5", syllabusRef: "3.5", title: "The role of coach/choreographer", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-structures-strategies-roles-conventions-s6", code: "PE3.6", syllabusRef: "3.6", title: "The role of official", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-planning-optimum-performance", number: 4, subject: "pe", title: "Planning for Optimum Performance", examQuestions: [], learningOutcomes: [
+        { id: "pe-planning-optimum-performance-s1", code: "PE4.1", syllabusRef: "4.1", title: "Personal performance analysis", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s2", code: "PE4.2", syllabusRef: "4.2", title: "Methods of analysis", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s3", code: "PE4.3", syllabusRef: "4.3", title: "Aesthetic and artistic considerations", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-planning-optimum-performance-s4", code: "PE4.4", syllabusRef: "4.4", title: "Planning for optimum performance", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-promoting-physical-activity", number: 5, subject: "pe", title: "Promoting Physical Activity", examQuestions: [], learningOutcomes: [
+        { id: "pe-promoting-physical-activity-s1", code: "PE5.1", syllabusRef: "5.1", title: "Benefits of physical activity participation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s2", code: "PE5.2", syllabusRef: "5.2", title: "Physical activity participation", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s3", code: "PE5.3", syllabusRef: "5.3", title: "Physical activity promotion", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-promoting-physical-activity-s4", code: "PE5.4", syllabusRef: "5.4", title: "Pathways to excellence in physical activity", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-ethics-fair-play", number: 6, subject: "pe", title: "Ethics and Fair Play", examQuestions: [], learningOutcomes: [
+        { id: "pe-ethics-fair-play-s1", code: "PE6.1", syllabusRef: "6.1", title: "Principles of ethical practice", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s2", code: "PE6.2", syllabusRef: "6.2", title: "Codes of ethics", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s3", code: "PE6.3", syllabusRef: "6.3", title: "Drugs and sport", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s4", code: "PE6.4", syllabusRef: "6.4", title: "Anti-doping rules", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-ethics-fair-play-s5", code: "PE6.5", syllabusRef: "6.5", title: "Best practice for the use of supplements", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-physical-activity-inclusion", number: 7, subject: "pe", title: "Physical Activity and Inclusion", examQuestions: [], learningOutcomes: [
+        { id: "pe-physical-activity-inclusion-s1", code: "PE7.1", syllabusRef: "7.1", title: "Supports and barriers for selected groups", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-physical-activity-inclusion-s2", code: "PE7.2", syllabusRef: "7.2", title: "Addressing barriers to physical activity", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-physical-activity-inclusion-s3", code: "PE7.3", syllabusRef: "7.3", title: "Developments over the past twenty years", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-physical-activity-inclusion-s4", code: "PE7.4", syllabusRef: "7.4", title: "Adapted physical activity", notes: [], keyTerms: [], questions: [] }
+    ] },
+    { id: "pe-technology-media-sport", number: 8, subject: "pe", title: "Technology, Media and Sport", examQuestions: [], learningOutcomes: [
+        { id: "pe-technology-media-sport-s1", code: "PE8.1", syllabusRef: "8.1", title: "The impact of technology on sport and physical activity", notes: [], keyTerms: [], questions: [] },
+        { id: "pe-technology-media-sport-s2", code: "PE8.2", syllabusRef: "8.2", title: "Media in sport", notes: [], keyTerms: [], questions: [] }
+    ] },
     {
       id: "bio1", number: 1, subject: "biology", title: "Scientific Knowledge",
       examQuestions: [],
