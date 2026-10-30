@@ -22,23 +22,11 @@ function loadChemistry() {
 
 const isSplit = (chapter) => chapter.learningOutcomes.some((outcome) => /-s\d+$/.test(outcome.id));
 
-test("every Chemistry learning outcome has substantive, outcome-level notes", () => {
+test("every Chemistry chapter keeps a review outcome and has authored notes in every subsection", () => {
   const chapters = loadChemistry();
   assert.equal(chapters.length, 26);
-
-  // Chapters still organised by specification outcome carry the older hand-written notes.
-  chapters.filter((chapter) => !isSplit(chapter)).flatMap((chapter) => chapter.learningOutcomes).forEach((outcome) => {
-    assert.ok(outcome.notes.length > 0, `${outcome.id} should have notes`);
-    outcome.notes.forEach((note) => {
-      assert.ok(note.h, `${outcome.id} should have a note heading`);
-      assert.ok(note.b.length >= 120, `${outcome.id} should have substantive teaching text`);
-    });
-  });
-});
-
-test("split Chemistry chapters keep a review outcome and have authored notes in every subsection", () => {
-  const split = loadChemistry().filter(isSplit);
-  assert.equal(split.length, 13);
+  const split = chapters.filter(isSplit);
+  assert.equal(split.length, 26);
   split.forEach((chapter) => {
     const [review, ...subsections] = chapter.learningOutcomes;
     assert.equal(review.id, `${chapter.id}-1`);
@@ -53,18 +41,6 @@ test("split Chemistry chapters keep a review outcome and have authored notes in 
       assert.ok(outcome.questions.length >= 1, `${outcome.id} should have a practice question`);
     });
   });
-});
-
-test("cross-chapter organic material is attached to its specification outcome", () => {
-  const outcomes = new Map(
-    loadChemistry().flatMap((chapter) => chapter.learningOutcomes).map((outcome) => [outcome.id, outcome])
-  );
-  const headings = (id) => outcomes.get(id).notes.map((note) => note.h);
-
-  assert.ok(headings("chem24-5").includes("Acidity of Alcohols and Carboxylic Acids"));
-  assert.ok(headings("chem25-10").includes("Addition Polymers"));
-
-  assert.ok(!headings("chem24-1").includes("Addition Polymers"));
 });
 
 test("the shipped chemistry notes file is up to date with content/chemistry", () => {

@@ -44,9 +44,9 @@ for (const config of [
   {
     subject: "chemistry",
     chapters: 26,
-    outcomes: 82,
+    outcomes: 26,
     minimumPerOutcome: 1,
-    added: 28,
+    added: 0,
     setup: ["data.js", "chemistry-content.js"],
     additions: "chemistry-test-questions.js",
   },
