@@ -1,0 +1,94 @@
+{
+  "loId": "chem23-s7",
+  "chapterId": "chem23",
+  "subsection": "7. 3D models and formulae",
+  "syllabusRef": "2.4.7",
+  "notes": [
+    {
+      "h": "Kinds of formula",
+      "points": [
+        "A molecular formula gives the number of atoms of each element in one molecule, e.g. C₄H₁₀, but it does not show how the atoms are joined.",
+        "An expanded, or displayed, structural formula shows every atom and every bond as a line, e.g. butane drawn with four carbon atoms in a row, each hydrogen joined by its own line.",
+        "A condensed structural formula shows the groups on each carbon in order without drawing the bonds: butane is CH₃CH₂CH₂CH₃ or CH₃(CH₂)₂CH₃, methylpropane is CH₃CH(CH₃)CH₃, and but-1-ene is CH₂=CHCH₂CH₃.",
+        "Double and triple bonds are always shown in a condensed formula.",
+        "A 3D model shows the real spatial arrangement of the atoms, which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron.",
+        "Two flat drawings can show the same molecule: a four-carbon chain drawn bent or straight is still butane, and building the model shows whether two structures are identical."
+      ]
+    },
+    {
+      "h": "Constructing and examining models",
+      "b": "Use a molecular model kit: black balls with four holes for carbon, white balls with one hole for hydrogen, short rigid links for single bonds, and flexible links, or springs, for double and triple bonds.",
+      "points": [
+        "Build methane, ethane, propane and butane; each carbon with four single bonds is tetrahedral, so a straight chain is actually a zig-zag.",
+        "Rotate the two ends of ethane about the C–C bond: rotation is free about a single bond, and the different positions, called conformations, are still the same molecule.",
+        "Build ethene with two flexible links: the molecule is flat, and the C=C bond cannot be twisted.",
+        "Build ethyne with three flexible links: the four atoms lie in a straight line.",
+        "Build all the isomers of C₄H₁₀ and C₅H₁₂; try to build another isomer, and check by rotating it whether it is really new or the same as one already made.",
+        "Record each model as an expanded and a condensed formula, and give its IUPAC name.",
+        "Digital models, made with molecule-viewing software or apps, can be rotated on screen and show ball-and-stick and space-filling views.",
+        "Ball-and-stick models exaggerate the gaps between atoms and are not to scale; space-filling models show size and shape but hide the bonds; no model shows the electrons, and real molecules are constantly vibrating and rotating.",
+        "Diagram: ball-and-stick models of methane (tetrahedral), ethene (planar) and ethyne (linear), labelled with their bond angles."
+      ]
+    },
+    {
+      "h": "How bonding fixes the arrangement of atoms",
+      "points": [
+        "A carbon with four single bonds is tetrahedral, with bond angles of 109.5°, and the groups around it can rotate about each single bond.",
+        "A carbon in a C=C double bond is trigonal planar, with bond angles of 120°; the double bond holds the two carbons and the four atoms attached to them in one plane and prevents rotation.",
+        "A carbon in a C≡C triple bond is linear, with bond angles of 180°.",
+        "In benzene all twelve atoms lie in one flat hexagonal ring (see “Shapes: sigma and pi bonds”).",
+        "Spatial arrangement helps predict properties: branched isomers are more compact than straight chains, so they have less contact with neighbouring molecules and lower boiling points (see “Explaining and predicting properties”)."
+      ]
+    },
+    {
+      "h": "Alkane isomers",
+      "b": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order.",
+      "points": [
+        "Isomers can differ in the carbon chain, through branching; in the position of a double bond; or in having a ring instead of a double bond, e.g. cyclohexane and hex-1-ene are both C₆H₁₂.",
+        "Methane, ethane and propane have no isomers; isomerism in alkanes starts at C₄.",
+        "C₄H₁₀ has two structural isomers: butane, CH₃CH₂CH₂CH₃, and methylpropane, CH₃CH(CH₃)CH₃.",
+        "C₅H₁₂ has three: pentane, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, C(CH₃)₄.",
+        "C₆H₁₄ has five: hexane, CH₃(CH₂)₄CH₃; 2-methylpentane, CH₃CH(CH₃)CH₂CH₂CH₃; 3-methylpentane, CH₃CH₂CH(CH₃)CH₂CH₃; 2,2-dimethylbutane, CH₃C(CH₃)₂CH₂CH₃; and 2,3-dimethylbutane, CH₃CH(CH₃)CH(CH₃)CH₃."
+      ]
+    },
+    {
+      "h": "Alkene isomers",
+      "points": [
+        "Isomers of alkenes also first appear at C₄, and propene's only isomer is the ring compound cyclopropane.",
+        "The C₄H₈ alkene isomers are but-1-ene, CH₂=CHCH₂CH₃; but-2-ene, CH₃CH=CHCH₃; and methylpropene, CH₂=C(CH₃)CH₃.",
+        "The C₅H₁₀ alkene isomers are pent-1-ene, CH₂=CHCH₂CH₂CH₃; pent-2-ene, CH₃CH=CHCH₂CH₃; 2-methylbut-1-ene, CH₂=C(CH₃)CH₂CH₃; 3-methylbut-1-ene, CH₂=CHCH(CH₃)CH₃; and 2-methylbut-2-ene, CH₃C(CH₃)=CHCH₃.",
+        "The straight-chain alkene isomers of C₆H₁₂ differ in the position of the double bond: hex-1-ene, hex-2-ene and hex-3-ene.",
+        "Check for repeats by numbering the chain from the other end or by rotating the model: 1-methylbutane is really pentane, and pent-4-ene is really pent-1-ene."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Molecular formula", "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined." },
+    { "term": "Expanded structural formula", "definition": "A structural formula that shows every atom and every bond as a line." },
+    { "term": "Condensed structural formula", "definition": "A structural formula that lists the groups on each carbon in order without drawing the bonds." },
+    { "term": "Structural isomers", "definition": "Compounds with the same molecular formula but different structural formulae, so that the atoms are joined in a different order." },
+    { "term": "Tetrahedral", "definition": "The shape around a carbon with four single bonds, with bond angles of 109.5°." },
+    { "term": "Trigonal planar", "definition": "The shape around a carbon in a double bond, with bond angles of 120° in one plane." },
+    { "term": "Linear", "definition": "The shape around a carbon in a triple bond, with a bond angle of 180°." },
+    { "term": "Conformation", "definition": "A shape a molecule takes up by rotation about a single bond, which does not change which molecule it is." },
+    { "term": "Ball-and-stick model", "definition": "A molecular model in which the atoms are balls and the bonds are links, showing the shape but not the true size of the atoms." },
+    { "term": "Space-filling model", "definition": "A molecular model that shows the relative size and shape of the atoms but hides the bonds." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "What are structural isomers? Draw the expanded structural formula and give the IUPAC name of each of the three structural isomers of C₅H₁₂.",
+      "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order. The three isomers of C₅H₁₂ are: pentane, with a chain of five carbon atoms, each bonded to the hydrogens it needs, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, with a methyl group on carbon 2 of a four-carbon chain, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, with four methyl groups bonded to one central carbon, C(CH₃)₄. In each expanded structure every bond is drawn as a line."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how you would use a molecular model kit to show (i) that rotation is possible about the C–C bond in ethane, (ii) that the C=C bond in ethene is rigid and planar. Give one limitation of ball-and-stick models.",
+      "model": "(i) Build ethane from two carbon balls, each with three hydrogen balls, joined by a rigid single link. Hold one CH₃ group still and turn the other about the C–C link; it moves freely through different positions, which are still the same molecule, so rotation is possible. (ii) Build ethene from two carbon balls, each with two hydrogen balls, joined by two flexible links. The model lies flat, and twisting one CH₂ group is not possible without breaking the model, so the C=C bond is rigid and planar. Limitation: ball-and-stick models exaggerate the gaps between atoms and are not to scale, and they do not show electrons."
+    },
+    {
+      "marks": 6,
+      "prompt": "Draw and name two alkene isomers of C₄H₈ and write the condensed structural formula of each.",
+      "model": "But-1-ene, CH₂=CHCH₂CH₃, with the double bond between carbons 1 and 2. But-2-ene, CH₃CH=CHCH₃, with the double bond between carbons 2 and 3. Methylpropene, CH₂=C(CH₃)CH₃, with a methyl group on carbon 2 of a propene chain. Each expanded structure shows every bond as a line, and each condensed formula lists the groups on each carbon in order."
+    }
+  ]
+}

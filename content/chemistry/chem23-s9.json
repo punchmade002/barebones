@@ -1,0 +1,96 @@
+{
+  "loId": "chem23-s9",
+  "chapterId": "chem23",
+  "subsection": "9. Structural and geometric isomerism",
+  "syllabusRef": "2.4.9",
+  "notes": [
+    {
+      "h": "Two kinds of isomerism (Higher Level only)",
+      "points": [
+        "Isomers are compounds with the same molecular formula but different arrangements of atoms.",
+        "Structural isomers have the same molecular formula but different structural formulae, so the atoms are joined in a different order; butane and methylpropane (C₄H₁₀), and but-1-ene and but-2-ene (C₄H₈), are examples.",
+        "Geometric, or cis–trans, isomers have the same molecular formula and the same structural formula, so the atoms are joined in the same order, but the atoms are arranged differently in space.",
+        "If converting one isomer into the other would mean breaking bonds and joining atoms in a different order, they are structural isomers.",
+        "If the order of joining is the same and only the positions in space differ, they are geometric isomers."
+      ]
+    },
+    {
+      "h": "Cis–trans isomers of butene (Higher Level only)",
+      "points": [
+        "Geometric isomerism arises in alkenes because there is no rotation about the C=C double bond, since rotation would break the π bond, so groups are fixed on one side or the other of the double bond.",
+        "Each carbon of the double bond must carry two different atoms or groups for geometric isomerism to occur.",
+        "In cis-but-2-ene the two CH₃ groups are on the same side of the double bond, and the two H atoms are on the same side.",
+        "In trans-but-2-ene the two CH₃ groups are on opposite sides of the double bond."
+      ]
+    },
+    {
+      "h": "Which alkenes show cis–trans isomerism (Higher Level only)",
+      "points": [
+        "But-1-ene, CH₂=CHCH₂CH₃, has no cis–trans isomers, because one carbon of the double bond carries two identical H atoms.",
+        "Methylpropene, CH₂=C(CH₃)₂, has none, because both carbons of the double bond carry identical pairs of groups.",
+        "Butene, C₄H₈, therefore has four alkene isomers: but-1-ene, cis-but-2-ene, trans-but-2-ene and methylpropene.",
+        "Alkanes have no geometric isomers, because groups rotate freely about C–C single bonds.",
+        "Other alkenes up to C6 with two different groups on each double-bond carbon, e.g. pent-2-ene, hex-2-ene and hex-3-ene, have cis and trans forms.",
+        "In a 3D model of but-2-ene the double bond, made of two flexible links, cannot be twisted, so the cis model cannot be turned into the trans model without taking it apart; digital models show the same when rotated.",
+        "Diagram: cis-but-2-ene and trans-but-2-ene drawn flat with 120° angles, the CH₃ groups circled on the same and on opposite sides."
+      ]
+    },
+    {
+      "h": "Structural isomers and chemical properties (Higher Level only)",
+      "points": [
+        "Structural isomers of the same family, such as butane and methylpropane, have very similar chemical properties, because they have the same types of bond.",
+        "Structural isomers in different families have different chemical properties: hex-1-ene and cyclohexane are both C₆H₁₂, but hex-1-ene, with its C=C bond, decolourises bromine water, and cyclohexane, which is saturated, does not.",
+        "cis- and trans-but-2-ene have almost the same chemical properties, with the same C=C bond, the same addition reactions and the same combustion: C₄H₈ + 6O₂ → 4CO₂ + 4H₂O."
+      ]
+    },
+    {
+      "h": "Structural isomers and boiling point (Higher Level only)",
+      "points": [
+        "Branched structural isomers have lower boiling points than unbranched ones, e.g. butane, −1 °C, and methylpropane, −12 °C.",
+        "The more compact shape of the branched isomer gives less contact and weaker London dispersion forces (see “Explaining and predicting properties”)."
+      ]
+    },
+    {
+      "h": "Cis and trans isomers: physical properties (Higher Level only)",
+      "points": [
+        "cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C.",
+        "The cis molecule is slightly polar, because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces; the symmetrical trans molecule is non-polar (see “Polarity and symmetry”).",
+        "The trans isomer has the higher melting point, −106 °C compared with −139 °C for cis, because its more symmetrical, straighter shape packs more closely in the solid."
+      ]
+    },
+    {
+      "h": "Health link (Higher Level only)",
+      "points": [
+        "Cis–trans isomerism matters in food: unsaturated fats in natural oils are mainly cis.",
+        "Trans fats are formed when vegetable oils are partly hydrogenated, and they raise the risk of heart disease."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Isomers", "definition": "Compounds with the same molecular formula but different arrangements of atoms." },
+    { "term": "Structural isomers", "definition": "Isomers with the same molecular formula whose atoms are joined in a different order." },
+    { "term": "Geometric isomers", "definition": "Isomers with the same order of joining whose atoms are arranged differently in space, because of restricted rotation about a double bond." },
+    { "term": "Cis isomer", "definition": "A geometric isomer in which the groups of interest lie on the same side of a double bond." },
+    { "term": "Trans isomer", "definition": "A geometric isomer in which the groups of interest lie on opposite sides of a double bond." },
+    { "term": "Dipole–dipole attraction", "definition": "The attraction between the permanent positive and negative ends of neighbouring polar molecules." },
+    { "term": "Hydrogenation", "definition": "The addition of hydrogen across a double bond, used to partly harden vegetable oils." },
+    { "term": "Trans fat", "definition": "An unsaturated fat with trans double bonds, formed when vegetable oils are partly hydrogenated." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between structural isomerism and geometric isomerism, giving an example of each from the isomers of C₄H₈.",
+      "model": "Structural isomers have the same molecular formula, but their atoms are joined in a different order. An example is but-1-ene, CH₂=CHCH₂CH₃, and but-2-ene, CH₃CH=CHCH₃. Geometric isomers have the same molecular formula and the same order of joining, but a different arrangement of the atoms in space; this is possible because there is no rotation about the C=C double bond. An example is cis-but-2-ene, with both CH₃ groups on the same side of the double bond, and trans-but-2-ene, with the CH₃ groups on opposite sides."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw cis-but-2-ene and trans-but-2-ene. Explain why but-2-ene has geometric isomers but but-1-ene does not, and why butane has none.",
+      "model": "cis-but-2-ene has both CH₃ groups on the same side of the C=C double bond; trans-but-2-ene has them on opposite sides, with one H and one CH₃ group on each carbon of the double bond. But-2-ene has geometric isomers because each carbon of its double bond carries two different groups, and rotation about the C=C bond is prevented. But-1-ene does not, because one carbon of its double bond carries two identical H atoms, so the two arrangements are the same molecule. Butane has none because it has no double bond, and its groups rotate freely about the C–C single bonds."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how isomerism can give rise to different properties, referring to (i) hex-1-ene and cyclohexane, (ii) cis- and trans-but-2-ene.",
+      "model": "(i) Hex-1-ene and cyclohexane are both C₆H₁₂ but are structural isomers in different families. Hex-1-ene has a C=C double bond and decolourises bromine water by addition; cyclohexane is saturated and does not decolourise bromine water. (ii) cis- and trans-but-2-ene have the same C=C bond and almost identical chemistry, but different physical properties. cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C, because the cis isomer is slightly polar and has dipole–dipole attractions, while the trans isomer is non-polar. The trans isomer melts at −106 °C, compared with −139 °C for cis, because its symmetrical shape packs more closely in the solid."
+    }
+  ]
+}

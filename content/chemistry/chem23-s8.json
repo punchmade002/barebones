@@ -1,0 +1,120 @@
+{
+  "loId": "chem23-s8",
+  "chapterId": "chem23",
+  "subsection": "8. Shapes: sigma and pi bonds",
+  "syllabusRef": "2.4.8",
+  "notes": [
+    {
+      "h": "Ethane",
+      "points": [
+        "Ethane, C₂H₆, is CH₃–CH₃: each carbon forms four single bonds, three to hydrogen atoms and one to the other carbon.",
+        "The four bonds around each carbon point to the corners of a tetrahedron, with bond angles of about 109.5°, so the molecule is three-dimensional and not flat.",
+        "The two CH₃ groups can rotate freely about the C–C single bond.",
+        "Diagram: ethane drawn in 3D with wedges and dashes, with the 109.5° angle marked."
+      ]
+    },
+    {
+      "h": "Ethene",
+      "points": [
+        "Ethene, C₂H₄, is CH₂=CH₂: each carbon forms a double bond to the other carbon and single bonds to two hydrogen atoms.",
+        "Each carbon is trigonal planar, with bond angles of about 120°, so all six atoms lie in one plane and the molecule is flat.",
+        "There is no rotation about the C=C double bond.",
+        "Diagram: flat ethene molecule with the 120° angles marked."
+      ]
+    },
+    {
+      "h": "Ethyne",
+      "points": [
+        "Ethyne, C₂H₂, is HC≡CH: each carbon forms a triple bond to the other carbon and a single bond to one hydrogen atom.",
+        "The molecule is linear, with a bond angle of 180°, so all four atoms lie in a straight line.",
+        "Diagram: H–C≡C–H in a straight line, with 180° marked."
+      ]
+    },
+    {
+      "h": "Comparing the shapes",
+      "points": [
+        "As the carbon–carbon bond changes from single to double to triple, the shape around each carbon changes from tetrahedral, 109.5°, to trigonal planar, 120°, to linear, 180°.",
+        "This happens because the number of groups of electrons around each carbon falls from four to three to two, and the groups spread as far apart as possible.",
+        "The carbon–carbon bond becomes shorter and stronger from single to double to triple: C–C 0.154 nm, C=C 0.134 nm and C≡C 0.120 nm.",
+        "Ethane is three-dimensional, ethene is planar, and ethyne is linear."
+      ]
+    },
+    {
+      "h": "σ and π bonds in the shapes (Higher Level only)",
+      "points": [
+        "A σ bond is formed by head-on overlap of orbitals along the line between the nuclei; a π bond is formed by sideways overlap of parallel p orbitals above and below that line.",
+        "A single bond is σ; a double bond is σ + π; a triple bond is σ + 2π.",
+        "Only the σ bonds and any lone pairs decide the shape: the σ bonds around each carbon spread as far apart as possible (VSEPR theory), and the π bonds lie over the σ framework without changing the angles.",
+        "In ethane each carbon has four σ bonds around it, giving a tetrahedral shape, and rotation about the σ C–C bond does not change the overlap, so rotation is free.",
+        "In ethene each carbon has three σ bonds around it, giving a trigonal planar shape; the p orbital left on each carbon, at right angles to the plane, overlaps sideways with the other to form the π bond above and below the plane.",
+        "The π bond prevents rotation: twisting one CH₂ group would turn the p orbitals away from each other and break the π overlap, so the molecule is rigid and planar; this is why cis–trans isomers exist (see “Structural and geometric isomerism”).",
+        "In ethyne each carbon has two σ bonds around it, giving a linear shape, and the two p orbitals left on each carbon are at right angles to each other.",
+        "The two π bonds of ethyne together form a cylinder of electron density around the C–C axis.",
+        "Diagram: σ framework of ethene with the π cloud drawn above and below the plane; ethyne with its two π bonds at right angles around the C–C axis."
+      ]
+    },
+    {
+      "h": "Benzene: structure and bonding (Higher Level only)",
+      "points": [
+        "Benzene, C₆H₆, has each carbon forming three σ bonds, to two neighbouring carbons and to one hydrogen, so each carbon is trigonal planar with 120° angles and the molecule is a flat, regular hexagon.",
+        "Each carbon has one remaining p orbital, holding one electron, at right angles to the ring.",
+        "The six p orbitals overlap sideways all round the ring, not in three separate pairs, forming a delocalised π system: one ring of electron density above the plane and one below it, containing six electrons shared by all six carbons."
+      ]
+    },
+    {
+      "h": "Benzene: stability and evidence (Higher Level only)",
+      "points": [
+        "All six C–C bonds are identical, 0.139 nm long, between a single bond at 0.154 nm and a double bond at 0.134 nm; benzene is drawn as a hexagon with a circle inside to show the delocalised electrons.",
+        "Delocalisation makes benzene unusually stable: it does not decolourise bromine water, because addition would destroy the delocalised ring, so it reacts by substitution, keeping the ring.",
+        "The evidence against the Kekulé structure, with alternating C–C and C=C bonds, is that all the bonds are the same length and benzene does not undergo the addition reactions of alkenes.",
+        "Kathleen Lonsdale, born in Newbridge, Co. Kildare, showed in 1929, using hexamethylbenzene, that the benzene ring is flat and a regular hexagon."
+      ]
+    },
+    {
+      "h": "Benzene: counting electrons (Higher Level only)",
+      "points": [
+        "C₆H₆ has 42 electrons in total: 6 × 6 from the carbons and 6 × 1 from the hydrogens.",
+        "Of these, 12 electrons are in the six C–H bonds, 12 are in the six C–C σ bonds, and 6 are delocalised π electrons.",
+        "So 18 electrons are involved in carbon–carbon bonding, and the remaining 12 are the inner (1s) electrons of the carbons, which are not involved in bonding.",
+        "Diagram: the planar ring of six C atoms with H atoms, the σ framework, the p orbitals at right angles to the ring, the delocalised π clouds above and below the ring, and the hexagon-with-circle symbol."
+      ]
+    },
+    {
+      "h": "Summary comparison (Higher Level only)",
+      "b": "Draw a table with one row for each molecule, giving its σ bonds, π bonds, shape and rotation.",
+      "points": [
+        "Ethane: 7 σ bonds, no π bonds, tetrahedral with 109.5° angles, and free rotation about the C–C bond.",
+        "Ethene: 5 σ bonds, 1 π bond, planar with 120° angles, and no rotation about the C=C bond.",
+        "Ethyne: 3 σ bonds, 2 π bonds, and linear with 180° angles.",
+        "Benzene: 12 σ bonds and a delocalised π system of 6 electrons, planar with 120° angles, and all C–C bonds equal in length."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Sigma bond", "definition": "A covalent bond formed by head-on overlap of orbitals along the line between two nuclei." },
+    { "term": "Pi bond", "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line between two nuclei." },
+    { "term": "Tetrahedral", "definition": "The shape around an atom with four bonds pointing to the corners of a tetrahedron, with angles of 109.5°." },
+    { "term": "Trigonal planar", "definition": "The shape around an atom with three bonds lying in one plane, with angles of 120°." },
+    { "term": "Linear", "definition": "The shape of a molecule or group of atoms with a bond angle of 180°, so that all atoms lie in a straight line." },
+    { "term": "Delocalised π bonding", "definition": "Bonding in which the π electrons are shared by several atoms, spread over the whole ring or chain rather than fixed between two." },
+    { "term": "VSEPR theory", "definition": "Electron-pair repulsion theory, in which electron groups around an atom spread as far apart as possible to set the shape." },
+    { "term": "Bond length", "definition": "The distance between the nuclei of two bonded atoms." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe and compare the shapes of ethane, ethene and ethyne, giving the bond angle around the carbon atoms in each.",
+      "model": "Ethane is tetrahedral around each carbon, with bond angles of 109.5°, so it is three-dimensional and rotates freely about its C–C bond. Ethene is trigonal planar around each carbon, with bond angles of 120°, so all six atoms lie in one plane. Ethyne is linear, with bond angles of 180°, so all four atoms lie in a straight line. The shape changes because the number of electron groups around each carbon falls from four to three to two as the carbon–carbon bond goes from single to double to triple."
+    },
+    {
+      "marks": 9,
+      "prompt": "State the number of σ and π bonds in ethene and in ethyne, and explain in terms of σ and π bonds why ethene is planar and rigid while ethane can rotate about its C–C bond.",
+      "model": "Ethene has five σ bonds and one π bond; ethyne has three σ bonds and two π bonds. Each carbon in ethene has three σ bonds around it, so its shape is trigonal planar with 120° angles. Its p orbitals overlap sideways to form the π bond above and below the plane. Twisting one CH₂ group would break this sideways overlap, so the molecule is rigid and planar. In ethane each carbon has four σ bonds and no π bond; rotation about the σ C–C bond keeps the overlap of its orbitals unchanged, so ethane can rotate freely."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the bonding in benzene in terms of σ and delocalised π bonds. A benzene molecule has 42 electrons: how many are involved in (i) C–H bonding, (ii) C–C σ bonding, (iii) delocalised π bonding, and how many are not involved in bonding? Explain why benzene does not decolourise bromine water.",
+      "model": "Benzene is a flat, regular hexagon of six carbon atoms. Each carbon forms three σ bonds, two to neighbouring carbons and one to hydrogen, so the molecule has twelve σ bonds. Each carbon has one remaining p orbital, and these overlap sideways all round the ring to form a delocalised π system above and below the ring, with six electrons shared by all six carbons. (i) C–H bonding: 12 electrons. (ii) C–C σ bonding: 12 electrons. (iii) Delocalised π bonding: 6 electrons. Not involved in bonding: 12 electrons, the inner 1s electrons of the carbons, since 42 − 30 = 12. Benzene does not decolourise bromine water because addition would break up the delocalised ring; the ring is stable, so benzene reacts by substitution instead."
+    }
+  ]
+}
