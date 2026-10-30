@@ -1,0 +1,600 @@
+/* ═══════════════════════════════════════════════
+   BARE BONES — Device layout: phone, tablet, touch
+   Loaded after styles.css. The phone screens follow the landing-page
+   mockups (index.html, tpl-screen-flash / tpl-screen-exam): a slim top bar,
+   a segmented mode switch, and one tall card that owns the screen.
+   ═══════════════════════════════════════════════ */
+
+/* Phone-only furniture: the subject list heading and the chapter list's nav row */
+.phone-home-title,
+.phone-home-label,
+.overview-nav { display: none; }
+
+/* The subject name above a chapter title is a link back to that subject's chapters */
+.nav-up {
+  width: auto;
+  justify-self: start;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.nav-up:hover { color: var(--accent-strong); }
+
+/* ── Desktop: the card footer ends under the bottom-right timer, so key words
+   (right end of the footer) stop short of it ── */
+@media (min-width: 981px) {
+  #subjectWorkbench.learn-mode .study-card-footer { padding-right: 2.5rem; }
+}
+
+/* The timer has nothing to time before sign-in */
+body.auth-open .timer-widget { display: none; }
+
+/* ── Touch: no sticky hover lifts, quick taps ── */
+@media (hover: none) {
+  button,
+  a,
+  summary {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  .button-primary:hover,
+  .button-secondary:hover,
+  .subject-panel-btn:hover,
+  .profile-avatar:hover,
+  .timer-clock-btn:hover { transform: none; }
+
+  .button-primary:active,
+  .button-secondary:active,
+  .study-controls button:active,
+  .tab:active,
+  .graph-chapter:active,
+  .timer-opt:active { transform: scale(0.97); }
+}
+
+/* ── Tablet portrait: the timer stays bottom-right, so key words move out of its way ── */
+@media (min-width: 641px) and (max-width: 980px) {
+  .study-keywords { order: -1; margin-left: 0; }
+  .study-keywords-panel { right: auto; left: 0; }
+}
+
+/* ═══════════════════════════════════════════════
+   PHONE  (≤ 640px)
+   ═══════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  :root {
+    --phone-bar: 3.6rem;   /* fixed top bar: logo · timer · avatar */
+    --phone-track: color-mix(in oklch, var(--line), var(--bg) 35%);
+  }
+
+  /* dvh tracks Safari's collapsing toolbars; 100vh hides the bottom of the card */
+  body { height: 100vh; height: 100dvh; }
+
+  /* iOS zooms into any field under 16px */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  select,
+  textarea { font-size: 16px; }
+
+  /* ── Top bar ─────────────────────────────── */
+  .brand-mark { top: 1.05rem; left: 1rem; }
+  .brand-mark img { height: 22px; }
+
+  .profile-avatar-wrap { top: 0.55rem; right: 1rem; }
+
+  .profile-avatar {
+    width: 38px;
+    height: 38px;
+    border-width: 2px;
+    font-size: 0.9rem;
+    box-shadow: var(--s1), 0 0 0 2px var(--accent-light);
+  }
+
+  /* Level % rides on the avatar as a badge so the timer can sit beside it */
+  .profile-level {
+    top: auto;
+    right: 50%;
+    bottom: -0.45rem;
+    transform: translateX(50%);
+    padding: 0.05rem 0.4rem;
+    font-size: 0.6rem;
+    box-shadow: 0 0 0 2px var(--bg);
+  }
+
+  .profile-menu { max-width: calc(100vw - 2rem); }
+
+  /* Timer moves out of the thumb zone into the top bar; its menu drops down */
+  .timer-widget {
+    top: 0.55rem;
+    right: calc(1rem + 38px + 0.6rem);
+    bottom: auto;
+  }
+
+  .timer-idle { flex-direction: column-reverse; }
+
+  .timer-picker {
+    padding: 0.5rem 0 0;
+    transform: translateY(-6px) scale(0.97);
+    transform-origin: top right;
+  }
+
+  .timer-picker.picker-open { transform: none; }
+  .timer-opt { min-height: 40px; justify-content: center; }
+
+  .timer-clock-btn {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    box-shadow: var(--s1);
+  }
+
+  .timer-clock-btn svg { flex: none; width: 20px; height: 20px; }
+
+  .timer-active { height: 38px; min-width: 0; }
+
+  /* Full-screen pages put their Close button where the timer now lives */
+  body:has(#progressScreen:not(.hidden)) .timer-widget,
+  body:has(#fullNotesScreen:not(.hidden)) .timer-widget,
+  body:has(#examBreakdownModal:not(.hidden)) .timer-widget { display: none; }
+
+  /* ── Shell ───────────────────────────────── */
+  /* Padding, not margin: a top margin collapses through body and makes the page a bar taller than the screen */
+  .app-shell {
+    margin: 0;
+    padding: var(--phone-bar) 1rem 0;
+  }
+
+  .subject-area {
+    height: calc(100vh - var(--phone-bar));
+    height: calc(100dvh - var(--phone-bar));
+  }
+
+  /* ── One screen at a time: app.js sets data-screen to home, subject or chapter ── */
+  .subject-area[data-screen] { grid-template-rows: minmax(0, 1fr); gap: 0; }
+
+  .subject-area[data-screen="home"] #subjectWorkbench,
+  .subject-area:not([data-screen="home"]) .subject-list-wrap { display: none; }
+
+  /* Back to the level above: "‹ Subjects" on a chapter list, "‹ Biology" on a chapter */
+  .nav-up {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-height: 36px;
+    color: var(--ink-2);
+    font-size: 0.85rem;
+    font-weight: 650;
+  }
+
+  .nav-up::before {
+    content: "‹";
+    margin-top: -0.1em;
+    color: var(--accent);
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  /* Studying a subsection: "‹ Biology · 1. Scientific Knowledge" goes back to its grid */
+  .study-context-back {
+    min-height: 36px;
+    gap: 0.3rem;
+    color: var(--ink-2);
+    font-size: 0.85rem;
+    font-weight: 650;
+  }
+
+  .study-context-back span:first-child {
+    margin-top: -0.1em;
+    color: var(--accent);
+    font-size: 1.4rem;
+  }
+
+  /* ── Screen 1: pick a subject, or Progress ── */
+  .subject-area[data-screen="home"] .subject-list-wrap {
+    height: auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .subject-area[data-screen="home"] .subject-list-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 1.1rem 0 2rem;
+    overflow: visible;
+  }
+
+  .phone-home-title {
+    display: block;
+    margin: 0 0 1.5rem;
+    color: var(--ink);
+    font-size: clamp(1.9rem, 9vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.045em;
+  }
+
+  .phone-home-title span { color: var(--accent); }
+
+  .phone-home-label {
+    display: block;
+    margin: 1.75rem 0 0.55rem;
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .subject-panel-btn,
+  .subject-panel-btn:hover {
+    width: 100%;
+    min-height: 56px;
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--accent-xxlight);
+    border: 1.5px solid var(--accent-light);
+    border-radius: var(--r-md);
+    box-shadow: none;
+    color: var(--accent-strong);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .subject-panel-btn::after { content: "›"; font-size: 1.4rem; line-height: 1; }
+
+  .subject-area[data-screen="home"] .subject-graph {
+    width: auto;
+    max-width: none;
+    flex: none;
+    display: grid;
+    gap: 0.4rem;
+    padding: 0;
+    overflow: visible;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject {
+    order: 0;
+    background: var(--panel);
+    border: 0;
+    border-radius: var(--r-md);
+    box-shadow: none;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject-header { min-height: 58px; padding: 0 1rem; }
+  .subject-area[data-screen="home"] .graph-subject-name { flex: 1; gap: 0.6rem; padding: 0; }
+
+  .subject-area[data-screen="home"] .graph-subject-title {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  /* The subject you were last on keeps the mockup's orange swatch */
+  .subject-area[data-screen="home"] .graph-subject.selected .graph-subject-title::before {
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 0.55rem;
+    border-radius: 3px;
+    background: var(--accent);
+    vertical-align: 0.05em;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject-count {
+    display: inline;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+
+  .subject-area[data-screen="home"] .graph-subject-count::after { content: " chapters"; }
+
+  .subject-area[data-screen="home"] .graph-subject .graph-subject-chevron {
+    display: inline-block;
+    order: 3;
+    transform: none;
+    color: var(--muted);
+    font-size: 1.4rem;
+  }
+
+  /* Paper guide lives on the subject's own screen; chapters are screen 2, not a sheet */
+  .subject-area[data-screen] .graph-subject .graph-subject-exam,
+  .subject-area[data-screen] .graph-subject .graph-chapters { display: none; }
+
+  /* ── Screen 2: the subject's chapters ── */
+  .overview-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 0.35rem 0 0.75rem;
+  }
+
+  .overview-paper-guide {
+    width: auto;
+    min-height: 36px;
+    padding: 0.35rem 0.8rem;
+    background: transparent;
+    border-color: var(--line);
+    border-radius: var(--r-full);
+    color: var(--accent-strong);
+    font-size: 0.78rem;
+  }
+
+  .overview-header-text h3 {
+    color: var(--accent);
+    font-size: clamp(1.9rem, 9vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.02;
+    letter-spacing: -0.045em;
+  }
+
+  /* ── Screen 3: study header, context + segmented switch ── */
+  #subjectWorkbench { padding: 0.25rem 0 1.5rem; }
+
+  .workbench-bar {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "context notes"
+      "tabs    tabs";
+    align-items: end;
+    gap: 0.75rem 0.75rem;
+    padding: 0.35rem 0 0.5rem;
+    border-bottom: 0;
+  }
+
+  .workbench-nav { display: contents; }
+  .study-context { grid-area: context; gap: 0.15rem; }
+
+
+  .study-context strong {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 1.45rem;
+    line-height: 1.1;
+    white-space: normal;
+  }
+
+  .workbench-notes {
+    grid-area: notes;
+    min-height: 36px;
+    padding: 0.4rem 0.75rem;
+    border: 1.5px solid var(--line);
+    border-radius: var(--r-full);
+    color: var(--ink-2);
+    font-size: 0.78rem;
+  }
+
+  .tabs {
+    grid-area: tabs;
+    width: 100%;
+    display: flex;
+    gap: 0.25rem;
+    padding: 0.25rem;
+    background: var(--phone-track);
+    border-radius: var(--r-sm);
+  }
+
+  .tab {
+    flex: 1;
+    min-height: 38px;
+    padding: 0.4rem 0.5rem;
+    border: 0;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  .tab:hover { background: transparent; }
+
+  .tab.active,
+  .tab.active:hover {
+    background: var(--panel);
+    color: var(--ink);
+    box-shadow: 0 2px 6px rgba(26, 25, 22, 0.08);
+  }
+
+  /* ── Learn: one dark card that fills the screen ── */
+  #subjectWorkbench.learn-mode { padding-bottom: 1rem; }
+
+  .flashcard-study,
+  #subjectWorkbench.learn-mode .flashcard-study {
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    gap: 0.9rem;
+    padding: 1.1rem 1.1rem 1rem;
+    background: var(--ink);
+    border-color: var(--ink);
+    border-radius: 20px;
+    box-shadow: 0 18px 40px -24px rgba(26, 25, 22, 0.6);
+    color: var(--panel-2);
+  }
+
+  .study-progress { width: min(150px, 50%); }
+  .study-progress .progress-bar { background: color-mix(in oklch, var(--panel-2) 14%, transparent); }
+
+  .study-progress > span,
+  .study-card-count { color: color-mix(in oklch, var(--panel-2) 58%, transparent); }
+
+  .study-face {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.75rem;
+    overflow-y: auto;
+    color: var(--panel-2);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .study-face::before {
+    content: "Answer";
+    color: var(--accent-2);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .study-face:has(> strong)::before { content: "Flashcard"; }
+
+  .study-face strong {
+    font-size: clamp(1.5rem, 7.5vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  .study-face:has(> strong)::after {
+    content: "↺  Tap to flip";
+    color: color-mix(in oklch, var(--panel-2) 50%, transparent);
+    font-size: 0.75rem;
+    white-space: pre;
+  }
+
+  /* Controls stay pinned to the bottom; key words sit above them, not below */
+  .study-card-footer,
+  #subjectWorkbench.learn-mode .study-card-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding-right: 0;
+  }
+
+  .study-controls { width: 100%; gap: 0.4rem; }
+  .study-controls button { min-height: 48px; }
+  .study-controls .study-step,
+  .study-controls .study-learned { width: 48px; min-width: 48px; }
+
+  .study-controls .study-step,
+  .study-controls .study-learned {
+    background: color-mix(in oklch, var(--panel-2) 8%, transparent);
+    border-color: color-mix(in oklch, var(--panel-2) 18%, transparent);
+    color: var(--panel-2);
+  }
+
+  /* Learned shows as a filled tick: the label is hidden at this width */
+  .study-controls .study-learned[aria-label="Mark concept unlearned"] {
+    background: color-mix(in oklch, var(--accent) 22%, transparent);
+    border-color: var(--accent);
+    color: var(--accent-3);
+  }
+
+  .study-keywords { order: -1; align-self: flex-start; margin: 0; }
+  .study-keywords summary { color: color-mix(in oklch, var(--panel-2) 70%, transparent); }
+
+  .study-keywords:hover summary,
+  .study-keywords:focus-within summary {
+    background: color-mix(in oklch, var(--panel-2) 10%, transparent);
+    color: var(--panel-2);
+  }
+
+  .study-keywords-panel {
+    right: auto;
+    left: 0;
+    width: min(320px, calc(100vw - 4.5rem));
+    color: var(--ink);
+  }
+
+  /* ── Subject overview: a list, not a stack of cards ── */
+  .overview-chapter-list { gap: 0.3rem; }
+
+  .overview-chapter-row {
+    min-height: 0;
+    gap: 0.5rem;
+    padding: 0.75rem 0.85rem 0.8rem;
+    border-radius: var(--r-sm);
+    background: var(--panel);
+  }
+
+  .overview-chapter-text {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .overview-chapter-score { flex: none; font-variant-numeric: tabular-nums; }
+
+  .overview-progress-bar,
+  .overview-total-bar { height: 6px; }
+
+  /* ── Exam: titles wrap instead of truncating ── */
+  .exam-group-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "source chevron"
+      "meta   chevron";
+    gap: 0.15rem 0.75rem;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .exam-source-tag {
+    grid-area: source;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .exam-group-meta {
+    grid-area: meta;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .exam-group-chevron { grid-area: chevron; }
+
+  .exam-group-body { padding: 0.2rem 0 1rem; }
+  .exam-group-body .exam-part { padding: 1rem 0.35rem; }
+
+  /* ── Full notes: one level of card, room for the text ── */
+  #fullNotesScreen .full-notes-card { height: 100dvh; max-height: 100dvh; }
+  #fullNotesScreen .full-notes-card .toolbar { padding: 0.9rem 1rem 0.75rem; }
+  #fullNotesScreen .full-notes-body { padding: 1rem 1rem 3rem; }
+
+  .full-notes-body .lo-block {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .full-notes-body h4 { font-size: 1.15rem; }
+  .full-notes-body p { font-size: 1rem; line-height: 1.65; }
+  .full-notes-body .note-block { padding: 0.8rem 0.9rem; }
+  .full-notes-body .note-block > :first-child { margin-top: 0; }
+
+  /* ── Progress page ───────────────────────── */
+  .progress-page { padding: 1.1rem 1rem 3rem; }
+  .progress-page-head { align-items: center; margin-bottom: 1.25rem; }
+
+  /* ── Paper guide sheet ───────────────────── */
+  #examBreakdownModal { padding: 0; place-items: end stretch; }
+
+  .breakdown-modal-card {
+    width: 100%;
+    max-height: 92dvh;
+    padding: 1.5rem 1.1rem 2rem;
+    border-radius: var(--r-xl) var(--r-xl) 0 0;
+  }
+}

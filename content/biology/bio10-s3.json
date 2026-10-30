@@ -1,0 +1,102 @@
+{
+  "loId": "bio10-s3",
+  "chapterId": "bio10",
+  "subsection": "The genetic code",
+  "syllabusRef": "1.2.9",
+  "notes": [
+    {
+      "h": "What the genetic code is (Higher Level only)",
+      "points": [
+        "The genetic code is the set of rules by which the sequence of bases in DNA, copied into mRNA, is converted into the sequence of amino acids in a protein.",
+        "The code is read in groups of three bases. A codon is a sequence of three bases on mRNA that codes for one amino acid or for a stop signal. Some textbooks also call the matching three bases on DNA codons, but they are called triplets here.",
+        "Why three: there are 4 bases but about 20 amino acids. Reading one base at a time gives only 4 combinations, and two at a time gives only 16 (4 × 4), which is not enough. Three at a time gives 64 (4 × 4 × 4), which is more than enough.",
+        "Of the 64 codons, 61 code for amino acids and 3 are stop codons.",
+        "The mRNA is read at a ribosome one codon at a time. Transfer RNA molecules bring the matching amino acids, which are joined in order. The process is covered in DNA Replication, Protein Synthesis and Mutations."
+      ]
+    },
+    {
+      "h": "Features of the code (Higher Level only)",
+      "points": [
+        "Start codon: AUG is the usual signal to start reading a gene's message. It sets where the groups of three begin, and it also codes for the amino acid methionine, so most new proteins begin with methionine.",
+        "Stop codons: UAA, UAG and UGA code for no amino acid. They signal the end of the protein, and the finished chain is released.",
+        "Non-overlapping and without gaps: the code is read three bases at a time from the start codon, each base belonging to only one codon, with no separators between codons. Adding or removing a single base therefore shifts every codon after it. Frameshift mutations are covered in DNA Replication, Protein Synthesis and Mutations.",
+        "Degenerate, or redundant: most amino acids have more than one codon. Glycine, for example, is coded by GGU, GGC, GGA and GGG. Often only the third base differs, so some changes in a base still give the same amino acid.",
+        "Specific, or unambiguous: each codon codes for only one amino acid.",
+        "Universal: almost all living things, from bacteria to plants and humans, use the same code, with a few minor exceptions, for example in mitochondria, where UGA codes for tryptophan in human mitochondria instead of a stop signal. The shared code is evidence that all life shares a common ancestor, and it allows a human gene to be put into bacteria and read correctly, so that genetically modified bacteria make human insulin (see Genetic Engineering)."
+      ]
+    },
+    {
+      "h": "Anticodons on tRNA (Higher Level only)",
+      "points": [
+        "An anticodon is a sequence of three bases on a transfer RNA (tRNA) molecule that is complementary to an mRNA codon.",
+        "Each tRNA carries one specific amino acid, matching its anticodon. The anticodon pairs with the codon by complementary base pairing (A–U and C–G), so the right amino acid is brought for each codon. For example, the codon AUG pairs with the anticodon UAC, and that tRNA carries methionine.",
+        "No tRNA has an anticodon for a stop codon, so when a stop codon is reached no amino acid is added and the chain ends.",
+        "Diagram: a short strip of mRNA divided into codons, for example AUG | CCU | AAA, with tRNA molecules below, each showing its anticodon paired to a codon and its amino acid attached at the other end; label codon, anticodon, mRNA, tRNA and amino acid. Draw tRNA simply, as a block or a T-shape. Its cloverleaf structure is covered in DNA Replication, Protein Synthesis and Mutations."
+      ]
+    },
+    {
+      "h": "Decoding a sequence (Higher Level only)",
+      "points": [
+        "Method: 1. Write the mRNA complementary to the DNA strand being read (A → U, T → A, C → G, G → C).",
+        "2. Split the mRNA into codons, starting from the start codon.",
+        "3. Find each amino acid in the codon table given in the question.",
+        "4. Stop at a stop codon.",
+        "5. The anticodons are complementary to the codons.",
+        "Only AUG and the three stop codons need to be memorised; the other codons come from the codon table given in the question.",
+        "Worked example: the DNA strand being read is TAC GGA TTT ACT. The mRNA is AUG CCU AAA UGA, which codes for methionine, proline and lysine, then stops. The tRNA anticodons are UAC, GGA and UUU, with none for UGA. The anticodons have the same sequence as the DNA strand being read, with U in place of T.",
+        "Counting: each amino acid needs one codon of three bases, so a protein of 100 amino acids needs at least 300 bases of coding mRNA, plus three for the stop codon, giving 303. A stretch of 90 coding bases codes for 30 amino acids."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Genetic code",
+      "definition": "The set of rules by which the sequence of bases in mRNA is converted into the sequence of amino acids in a protein."
+    },
+    {
+      "term": "Codon",
+      "definition": "A sequence of three bases on mRNA that codes for one amino acid or a stop signal."
+    },
+    {
+      "term": "Triplet",
+      "definition": "A group of three bases in DNA that corresponds to a codon on mRNA."
+    },
+    {
+      "term": "Anticodon",
+      "definition": "A sequence of three bases on tRNA that is complementary to an mRNA codon."
+    },
+    {
+      "term": "Start codon",
+      "definition": "AUG, which signals where reading of the mRNA begins and codes for methionine."
+    },
+    {
+      "term": "Stop codon",
+      "definition": "One of UAA, UAG or UGA, which codes for no amino acid and signals the end of a protein."
+    },
+    {
+      "term": "Degenerate",
+      "definition": "A feature of the genetic code in which most amino acids are coded by more than one codon."
+    },
+    {
+      "term": "Universal",
+      "definition": "A feature of the genetic code in which almost all living things use the same codons for the same amino acids."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between a codon and an anticodon.",
+      "model": "A codon is a sequence of three bases on mRNA that codes for one amino acid or a stop signal. An anticodon is a sequence of three bases on tRNA that is complementary to a codon, so the tRNA brings the matching amino acid. For example, the codon AUG pairs with the anticodon UAC, and that tRNA carries methionine."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why the genetic code is described as a triplet code, and outline the role of start and stop codons.",
+      "model": "The genetic code is read in groups of three bases, each group a codon. Reading two bases at a time gives only 16 combinations, which is not enough to code for about 20 amino acids, but three bases give 64 combinations, which is more than enough. The start codon AUG sets where reading begins and codes for methionine. The stop codons UAA, UAG and UGA code for no amino acid, so they signal the end of the protein and the finished chain is released."
+    },
+    {
+      "marks": 12,
+      "prompt": "A section of the DNA strand being read is TAC TTT GGA ATT. Using a codon table where AUG = methionine, AAA = lysine and CCU = proline, give the mRNA, the anticodons and the amino-acid sequence, and explain what happens at the last codon.",
+      "model": "The mRNA is AUG AAA CCU UAA. The anticodons are UAC, UUU and GGA. The amino-acid sequence is methionine, lysine, proline. The last codon, UAA, is a stop codon, which codes for no amino acid and has no matching tRNA anticodon, so no amino acid is added and the chain ends."
+    }
+  ]
+}

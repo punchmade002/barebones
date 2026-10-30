@@ -1,0 +1,246 @@
+{
+  "loId": "geo-weather-climate-s1",
+  "chapterId": "geo-weather-climate",
+  "subsection": "Weather maps and weather data",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "Weather, climate and units",
+      "b": "Weather and climate describe the atmosphere over different lengths of time, and every map and table uses fixed units.",
+      "points": [
+        "Weather is the state of the atmosphere at a place at a given time, measured over hours and days.",
+        "Climate is the average weather of a place over a long period, usually calculated over 30 years.",
+        "Pressure is measured in hectopascals (hPa); 1 hPa equals 1 millibar (mb), so the two units give the same value and are never converted.",
+        "Average sea-level pressure is about 1013 hPa.",
+        "Units on weather charts and tables: temperature in °C, rainfall in mm, wind speed in km/h or knots, sunshine in hours, cloud cover in oktas."
+      ]
+    },
+    {
+      "h": "Synoptic charts and their sources",
+      "b": "A synoptic chart shows the weather over a large area at one moment, giving a general view of the whole.",
+      "points": [
+        "Observations are taken at the same time from many weather stations, ships, buoys and satellites, and plotted onto one map.",
+        "A surface analysis chart shows the observed situation at a given time; a forecast chart shows the expected situation at a later time.",
+        "Charts are issued at fixed times, stated in UTC.",
+        "Met Éireann, Ireland's national meteorological service, produces Irish weather maps from its network of stations, combined with satellite and radar data.",
+        "Met Éireann stations include Valentia Observatory (Co. Kerry), Malin Head (Co. Donegal), Belmullet (Co. Mayo), Dublin Airport and Shannon Airport."
+      ]
+    },
+    {
+      "h": "Isolines on weather maps",
+      "b": "An isoline joins places of equal value. Read the name of the line before its interval, because each name refers to one quantity.",
+      "points": [
+        "Isobars join places of equal atmospheric pressure; they are usually drawn at fixed intervals, commonly every 4 hPa, so read the labels to confirm the interval.",
+        "Isotherms join places of equal temperature.",
+        "Isohyets join places of equal rainfall.",
+        "Isohels join places of equal sunshine.",
+        "Isonephs join places of equal cloud cover.",
+        "Shaded or banded maps, such as rainfall, sunshine, UV or temperature maps, use a colour key: read the class from the key and give the range it states when the map shows a band rather than a single value.",
+        "Reading a value between isolines: find the two lines either side of the point, note their values and the interval between them, then estimate in proportion to distance.",
+        "A value at a closed centre is the figure written on it, such as 'L 976', or lies beyond the innermost isobar."
+      ]
+    },
+    {
+      "h": "Pressure systems on a chart",
+      "b": "High and low pressure are relative to the surrounding air, so no fixed value marks the boundary between them.",
+      "points": [
+        "A depression (also called a low or cyclone) is marked L or Low with a pressure figure; it has closed isobars with pressure falling towards the centre, and usually has fronts attached.",
+        "Air rises in a depression, cools and condenses, so rain, cloud and strong winds are associated with depressions.",
+        "An anticyclone (also called a high) is marked H or High; it has closed isobars with pressure rising towards the centre, and no fronts.",
+        "Air sinks in an anticyclone and warms, so clouds rarely form: summer brings warm, sunny days, and winter brings cold, clear nights with frost and fog.",
+        "A trough is an elongated area of low pressure, often unsettled, sometimes drawn as a line.",
+        "A ridge is an elongated extension of high pressure, bringing a short settled spell.",
+        "A col is a slack area between two highs and two lows, with light winds, uncertain weather, and possible fog or thunderstorms.",
+        "An air mass is a large body of air with fairly uniform temperature and humidity, named from its source region (polar or tropical; maritime or continental); Ireland's usual air mass is maritime, from the Atlantic. Its full treatment is in the notes on Atmospheric and oceanic circulation."
+      ]
+    },
+    {
+      "h": "Worked example: illustrative pressure chart W1",
+      "b": "The values in this example are invented for illustration and are not taken from any real chart.",
+      "points": [
+        "A depression marked 'L 976' is centred in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast.",
+        "An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa.",
+        "Pressure at the depression's centre is 976 hPa, and the isobar interval is 4 hPa.",
+        "A point midway between the 988 and 992 hPa isobars is about 990 hPa.",
+        "Winds are stronger over the west of Ireland than over central Europe, because the isobars are closer together over the west.",
+        "Ireland lies under the depression, so it is likely to be wet and windy; central Europe lies under the high, so it is likely to be calm and dry."
+      ]
+    },
+    {
+      "h": "Wind on a chart",
+      "b": "Wind is named from the direction it blows from, and its strength follows the spacing of the isobars.",
+      "points": [
+        "Wind direction is named by the direction the wind blows from: a westerly blows from the west.",
+        "Air moves from high to low pressure; closely spaced isobars mean a steep pressure gradient and strong winds, while widely spaced isobars mean light winds or calm.",
+        "In the northern hemisphere the wind blows anticlockwise around a depression and clockwise around an anticyclone; the cause of this pattern is in the notes on Atmospheric and oceanic circulation.",
+        "Near the surface the wind blows nearly parallel to the isobars, angled slightly in towards a low and out from a high.",
+        "Buys Ballot's law: stand with your back to the wind, and low pressure is on your left in the northern hemisphere.",
+        "The prevailing wind is the wind that blows most frequently over an area; in Ireland it is south-westerly, from the Atlantic.",
+        "The Beaufort scale rates wind force from 0 (calm) to 12 (hurricane force), based on observed effects."
+      ]
+    },
+    {
+      "h": "Fronts and their symbols",
+      "b": "A front is the boundary between two air masses of different temperature and humidity. Frontal symbols point in the direction the front is moving.",
+      "points": [
+        "Warm front: a line with semicircles on the side it moves towards (red on colour charts). Warm air rises gently over cold air, bringing a long period of steady rain and thickening cloud, then rising temperature after it passes.",
+        "Cold front: a line with triangles on the side it moves towards (blue on colour charts). Cold air undercuts warm air, bringing short heavy showers, possible thunder and falling temperature; clearer, brighter showery weather follows.",
+        "Occluded front: triangles and semicircles alternating on the same side (purple on colour charts). It forms where a cold front catches up with a warm front, lifting the warm air off the ground, and it brings cloud and rain.",
+        "An occluded front is usually found near the centre of a mature depression.",
+        "Stationary (quasi-stationary) front: triangles and semicircles alternating on opposite sides.",
+        "Worked example W3 (drawing practice): in a box, draw each of the four symbols above, placing the symbol on the side the front moves towards.",
+        "Diagram cue: a plan of a depression shows the warm front ahead, the warm sector between the fronts, the cold front behind, the occlusion near the centre, and isobars kinked where they cross the fronts. The full sequence of weather as a depression passes is in the notes on Atmospheric and oceanic circulation."
+      ]
+    },
+    {
+      "h": "Station models and weather symbols",
+      "b": "A station model is the cluster of symbols plotted at each weather station on a synoptic chart.",
+      "points": [
+        "The circle at the station shows cloud cover in oktas: one okta is one eighth of the sky covered by cloud, so an empty circle is clear sky (0 oktas) and a fully shaded circle is overcast (8 oktas).",
+        "The wind arrow's shaft points from the station towards the direction the wind is coming from.",
+        "Barbs give wind speed: a half barb is 5 knots, a full barb 10 knots and a pennant (filled triangle) 50 knots; add them together.",
+        "A circle around the station with no shaft means calm.",
+        "Other values around the circle are temperature (°C), dew point, pressure and a present-weather symbol such as rain, drizzle, showers, snow, fog or thunderstorm; read them from the chart's key.",
+        "Worked example W2 (illustrative): a circle three-quarters shaded is 6 oktas; a shaft pointing towards the south-west with two full barbs and one half barb is a south-westerly wind of 25 knots (20 + 5); the temperature is 12 °C and the present weather is rain."
+      ]
+    },
+    {
+      "h": "Media symbols and forecast sequences",
+      "b": "Television, websites and apps use simplified symbols for the same features that appear on a synoptic chart.",
+      "points": [
+        "Media weather symbols include the sun, cloud, sun-and-cloud, rain drops, showers, snow, thunder (a lightning bolt) and fog.",
+        "Wind arrows on media maps show speed in km/h, and temperatures appear in coloured boxes.",
+        "On rainfall radar, heavier rain is shown in darker or warmer colours.",
+        "Matching symbols to features (H, L, warm front, cold front, occluded front) is a regular short question.",
+        "A rainfall forecast sequence is a series of maps at set times; compare the position of the rain band on successive maps to give its direction of movement, and read each map rather than assuming a direction.",
+        "Worked example W5 (illustrative): at 06:00 a rain band covers Munster and Connacht; at 12:00 it covers the midlands; at 18:00 it is over Leinster and the east coast. The rain moves from west to east, and Leinster's rain arrives last."
+      ]
+    },
+    {
+      "h": "Media forecasts, warnings and the UV index",
+      "points": [
+        "Met Éireann forecasts reach viewers through TV, radio, the website and app, as national, regional and city forecasts.",
+        "Sea area and coastal forecasts give wind and sea state for shipping and fishing; farming, UV and pollen forecasts are also issued.",
+        "A forecast describes the synoptic situation, expected rain, the highs and lows of temperature, wind direction and speed, cloud and sunshine, and how conditions change across the country and through the day.",
+        "Warnings are colour-coded Yellow, Orange and Red by expected impact; Red is the most severe, and people should act to protect themselves and property.",
+        "Warning types include wind, rain, snow-ice, low temperature, high temperature, fog and thunderstorm.",
+        "Storms have been named jointly by Met Éireann and the UK Met Office since 2015, and by the Dutch service KNMI since 2019; names make warnings easier to communicate.",
+        "Ex-hurricane Ophelia reached Ireland on 16 October 2017. It had been a major hurricane south of the Azores, unusually far east for an Atlantic hurricane, and arrived as a post-tropical storm; Met Éireann issued Red warnings and three people died in Ireland.",
+        "Storm Éowyn crossed Ireland on 24 January 2025, when Met Éireann issued Red wind warnings.",
+        "The UV index measures the strength of the sun's ultraviolet radiation; World Health Organization categories are Low 1–2, Moderate 3–5, High 6–7, Very high 8–10 and Extreme 11 and above. UV maps are read with isolines or a colour key, like any other map."
+      ]
+    },
+    {
+      "h": "Weather data: instruments and calculations",
+      "b": "Station tables and graphs record daily, hourly or monthly figures. Name the instrument, read the value, then calculate with the units given.",
+      "points": [
+        "Rain gauge: rainfall in mm.",
+        "Thermometer: air temperature in °C, kept in a Stevenson screen (a white, louvred box about 1.25 m above the ground) so it measures shaded air temperature.",
+        "Maximum–minimum thermometer: highest and lowest temperature in a period.",
+        "Barometer: pressure in hPa; barograph: a continuous record of pressure.",
+        "Anemometer: wind speed; wind vane: wind direction.",
+        "Hygrometer or wet-and-dry bulb thermometer: humidity; sunshine recorder: hours of sunshine.",
+        "Total: add the values, such as rainfall over three days or three months.",
+        "Mean: total divided by the number of values; mean daily temperature = (maximum + minimum) ÷ 2.",
+        "Range: highest minus lowest, for a day or for a year.",
+        "Difference between two places; count of months or days above a threshold; highest or lowest month.",
+        "Hourly graphs: read times carefully on the horizontal axis (00:00 is midnight), read the value at a given hour, and count the hours with rain.",
+        "Climate graphs (temperature line with rainfall bars by month) at an Irish station typically show mild winters, cool summers and rain all year, with the wettest months usually in autumn and winter. This links to the cool temperate oceanic climate in the The Concept of a Region chapter; the graph method is in the notes on Figure interpretation."
+      ]
+    },
+    {
+      "h": "Worked calculations: illustrative Station A",
+      "b": "The figures in this example are invented for illustration. Each result is worked out from the values stated.",
+      "points": [
+        "Monday: maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h.",
+        "Tuesday: maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h.",
+        "Wednesday: maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h.",
+        "Total rainfall over the three days is 15 mm; Monday's temperature range is 8 °C; Monday's mean temperature is 10 °C.",
+        "Mean wind speed over the three days is 22 km/h ((20 + 32 + 14) ÷ 3); the wettest day is Tuesday and the driest is Wednesday.",
+        "Illustrative monthly rainfall: January 120, February 95, March 80, April 60, May 55 and June 70 mm. The total for April to June is 185 mm; one month (January) is over 100 mm; May is the lowest month."
+      ]
+    },
+    {
+      "h": "Explaining patterns in Irish weather and climate",
+      "b": "A two-mark 'state one reason' answer links the pattern to the moist Atlantic air and to the relief of the land.",
+      "points": [
+        "The west is wetter than the east: moist air from the Atlantic is forced to rise over the western mountains, where it cools and condenses, producing relief (orographic) rain. The process is covered in the notes on Exchanges of water between oceans and atmosphere.",
+        "The east and south-east are sunnier and drier because they lie in the rain shadow of the western and central uplands: descending air warms and its cloud evaporates. The south-east is the sunniest part of Ireland.",
+        "Coastal areas are milder in winter than the interior, because the sea warms the coast, including through the North Atlantic Drift (covered in the notes on Atmospheric and oceanic circulation); inland areas have a larger temperature range.",
+        "Long-term averages from Met Éireann: most of the east gets about 750–1,000 mm of rain a year, the west about 1,000–1,250 mm, and many mountain areas over 2,000 mm.",
+        "The highest rainfall totals are on mountains near the west coast, and the lowest are around Dublin and the east."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Synoptic chart",
+      "definition": "A map summarising the weather over a large area at one moment, built from simultaneous observations at many stations, ships, buoys and satellites."
+    },
+    {
+      "term": "Isobar",
+      "definition": "A line joining places of equal atmospheric pressure, usually drawn every 4 hPa on Irish charts."
+    },
+    {
+      "term": "Isotherm",
+      "definition": "A line joining places of equal temperature."
+    },
+    {
+      "term": "Isohyet",
+      "definition": "A line joining places of equal rainfall."
+    },
+    {
+      "term": "Isohel",
+      "definition": "A line joining places of equal sunshine."
+    },
+    {
+      "term": "Isoneph",
+      "definition": "A line joining places of equal cloud cover."
+    },
+    {
+      "term": "Depression",
+      "definition": "A low-pressure system with closed isobars, pressure falling towards the centre and usually fronts attached; rain and strong winds are associated with it."
+    },
+    {
+      "term": "Anticyclone",
+      "definition": "A high-pressure system with closed isobars, pressure rising towards the centre, no fronts and usually settled, dry weather."
+    },
+    {
+      "term": "Pressure gradient",
+      "definition": "The change of pressure over a distance; closely spaced isobars mean a steep gradient and strong winds."
+    },
+    {
+      "term": "Prevailing wind",
+      "definition": "The wind that blows most frequently over an area; in Ireland it is south-westerly."
+    },
+    {
+      "term": "Okta",
+      "definition": "One eighth of the sky covered by cloud, used to record cloud cover in a station model."
+    },
+    {
+      "term": "Stevenson screen",
+      "definition": "A white, louvred box about 1.25 m above the ground that holds thermometers in shade."
+    },
+    {
+      "term": "Occluded front",
+      "definition": "A front formed when a cold front catches up with a warm front, lifting the warm air off the ground; its symbols alternate on the same side."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "Illustrative chart (invented values, not from any real chart): a depression marked 'L 976' lies in the Atlantic about 500 km west of Ireland, with closed isobars at 980, 984, 988, 992, 996 and 1000 hPa packed closely over the west coast. An anticyclone marked 'H 1036' lies over central Europe, with widely spaced isobars at 1032, 1028 and 1024 hPa. (a) State the pressure at the centre of the depression. (b) State whether this is true or false: winds are stronger over central Europe than over the west of Ireland. (c) What does H indicate? (d) What is the name of lines joining places of equal pressure? Give one line of reasoning for each answer.",
+      "model": "(a) 976 hPa, the figure marked at the centre of the depression. (b) False: the isobars are widely spaced over central Europe and closely spaced over the west of Ireland, and a closer spacing means a steeper pressure gradient and stronger winds. (c) H marks a high-pressure centre, an anticyclone, where pressure is higher than in the surrounding air; here it is 1036 hPa. (d) Isobars. Each part scores 2 marks."
+    },
+    {
+      "marks": 10,
+      "prompt": "Illustrative data (invented, Station A): Monday, maximum 14 °C, minimum 6 °C, rainfall 4 mm, mean wind 20 km/h. Tuesday, maximum 12 °C, minimum 5 °C, rainfall 11 mm, mean wind 32 km/h. Wednesday, maximum 15 °C, minimum 8 °C, rainfall 0 mm, mean wind 14 km/h. (a) Calculate the total rainfall over the three days. (b) Calculate Monday's temperature range. (c) Calculate the mean wind speed over the three days. (d) Name the wettest day. (e) Name the instrument used to measure rainfall. Show each calculation with its units.",
+      "model": "(a) 4 + 11 + 0 = 15 mm. (b) 14 − 6 = 8 °C. (c) (20 + 32 + 14) ÷ 3 = 66 ÷ 3 = 22 km/h. (d) Tuesday, with 11 mm of rain. (e) A rain gauge. Each part scores 2 marks."
+    },
+    {
+      "marks": 6,
+      "prompt": "(a) Describe, or draw, the symbols for a warm front and a cold front on a synoptic chart. (b) Explain why the east of Ireland is sunnier than the west.",
+      "model": "(a) Warm front: a line with semicircles on the side towards which it moves. Cold front: a line with triangles on the side towards which it moves. (b) Prevailing winds are south-westerly, from the Atlantic, and carry moist air. Relief rain falls on the western uplands as the air is forced to rise, cool and condense, so the west is wetter. Air descending over the eastern side of the uplands warms and its cloud evaporates; the east lies in the rain shadow and receives more sunshine. The south-east is the sunniest part of Ireland."
+    }
+  ]
+}

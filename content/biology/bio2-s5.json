@@ -1,0 +1,77 @@
+{
+  "loId": "bio2-s5",
+  "chapterId": "bio2",
+  "subsection": "Reflecting on investigations",
+  "syllabusRef": "U2.5",
+  "notes": [
+    {
+      "h": "Evaluating an investigation",
+      "b": "Evaluating judges how well the method answered the question and how far the data can be trusted, then says what should change. It is separate from the conclusion, which states what was found.",
+      "points": [
+        "Strengths: say what worked and why, e.g. variables well controlled with a water bath and a buffer, enough replicates, a small range in repeat readings, and results that agree with other groups.",
+        "Limitations: identify specific weaknesses and their effect on the results, e.g. a variable that could not be controlled, too few values of the independent variable to locate an optimum, a small sample, an end-point judged by eye, or an anomaly that could not be repeated.",
+        "Name each source of error as random or systematic (the types are in Objectivity and data quality).",
+        "Confidence: state how confident you are in the conclusion and why, linking to the evidence, such as the spread of the data, the repeats and whether the test was fair.",
+        "Improvements must be specific and say how each one improves the data. “Use a colorimeter instead of judging the colour by eye, to remove a subjective judgement and reduce random error” is specific.",
+        "Further specific improvements: “test at 2 °C intervals between 30 °C and 50 °C to locate the optimum more precisely”; “use five replicates instead of two, to reduce the effect of natural variation”; “calibrate the balance against a known mass, to remove a systematic error”.",
+        "“Be more careful” or “do it again” earns nothing.",
+        "An evaluation can suggest a new question or an extension, e.g. testing the same enzyme at different pH values, or testing a different tissue. Investigation is iterative: results lead to a revised hypothesis or method."
+      ]
+    },
+    {
+      "h": "Reflecting on skills and thinking",
+      "b": "Reflection looks back at the investigator’s own decisions as well as at the data.",
+      "points": [
+        "Reflection covers why the question and hypothesis were chosen, how the method was planned, what problems arose and how they were solved, and what changed during the work and why.",
+        "An investigative log is a dated lab notebook that records plans, decisions, changes, raw data, problems and ideas as the work happens.",
+        "A log makes reflection honest and specific, because it shows how the work actually unfolded rather than how it was meant to go.",
+        "Good reflection identifies the skills used, such as planning, measuring, handling equipment, recording, analysing, working in a team and finding and using sources, and says which went well and which to improve next time.",
+        "An investigation that does not support its hypothesis, or gives unexpected results, is still valuable: explaining why is good scientific thinking."
+      ]
+    },
+    {
+      "h": "Applying skills to unfamiliar contexts",
+      "b": "Exam questions describe investigations the student has not done before. Use the same steps each time.",
+      "points": [
+        "Step 1: find the question being asked.",
+        "Step 2: identify the independent variable (what was changed) and the dependent variable (what was measured).",
+        "Step 3: list the variables that should be controlled and how.",
+        "Step 4: suggest a suitable control.",
+        "Step 5: state a prediction using biological knowledge.",
+        "Step 6: read the data or graph for the trend and any anomaly.",
+        "Step 7: draw a conclusion, and give a limitation and an improvement.",
+        "Worked example, step 2: for “Does the length of time spent exercising affect pulse rate?”, the independent variable is exercise time (e.g. 0, 1, 2, 3 or 4 minutes of stepping), and the dependent variable is pulse rate in beats per minute, measured straight after exercise.",
+        "Worked example, step 3: the controlled variables are the type and pace of exercise, rest before starting, the way pulse is measured (same site, counted for the same time), and the time of day.",
+        "Worked example, step 4: the control is the resting pulse of participants with no exercise.",
+        "Worked example, sample: a larger group chosen at random gives more reliable results, because fitness, age and health vary between people.",
+        "Worked example, ethics: participants give informed consent and may withdraw at any time, and anyone with a health condition is excluded.",
+        "Worked example, prediction: pulse rate increases with exercise time. Pulse rate increases during exercise because respiring muscles need more oxygen and glucose, so the heart beats faster, and the increase may level off.",
+        "Transferable checks for any unfamiliar context: Is it a fair test? Is the sample big enough and random? Was there a control? Could a correlation have another cause? Are there ethical issues with the organisms or people used?"
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Evaluation", "definition": "Judging how well a method answered the question and how far the data can be trusted, and saying what should change." },
+    { "term": "Limitation", "definition": "A specific weakness in an investigation and its effect on the results." },
+    { "term": "Investigative log", "definition": "A dated record of plans, decisions, changes, raw data, problems and ideas kept as an investigation is carried out." },
+    { "term": "Reflection", "definition": "Looking back at the investigator’s own decisions, problems and changes, in order to improve future work." },
+    { "term": "Extension", "definition": "A further question or investigation that follows from the results of an evaluation." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "A student judged by eye when a starch–iodine mixture lost its blue-black colour. Identify the weakness in this method and suggest a specific improvement.",
+      "model": "The weakness is that the end-point is a subjective judgement made by eye, so the time recorded depends on the student’s judgement and varies from one reading to the next. This is a source of random error, which reduces the precision of the results. A specific improvement is to use a colorimeter, which measures the colour as a number, so the end-point is recorded objectively and the random error is reduced."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why keeping an investigative log helps a student review and reflect on an investigation.",
+      "model": "An investigative log records plans, decisions, changes, raw data, problems and ideas as the work happens. Reflection looks back at the investigator’s own decisions, such as why the question and hypothesis were chosen, how the method was planned, and what changed during the work and why. Because the log is written at the time, it shows how the work actually unfolded rather than how it was meant to go, which makes the reflection honest and specific. The log also makes it possible to identify the skills used, such as planning, measuring and recording, to say which went well, and to identify which to improve next time."
+    },
+    {
+      "marks": 12,
+      "prompt": "A student plans to investigate whether the length of time spent exercising affects pulse rate. Identify the independent and dependent variables, two controlled variables, a suitable control and one ethical consideration, and predict the result.",
+      "model": "The independent variable is the length of time spent exercising, e.g. 0, 1, 2, 3 or 4 minutes of stepping. The dependent variable is pulse rate in beats per minute, measured straight after exercise. Two controlled variables are the type and pace of exercise, and the way pulse is measured, at the same site and counted for the same time. The control is the resting pulse of participants with no exercise, which is the standard for comparison. One ethical consideration is informed consent: participants must know what is involved, agree freely, and be able to withdraw at any time, and anyone with a health condition must be excluded. The predicted result is that pulse rate increases with exercise time, because respiring muscles need more oxygen and glucose, so the heart beats faster; the increase may level off as the exercise continues."
+    }
+  ]
+}

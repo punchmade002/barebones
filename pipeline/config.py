@@ -144,7 +144,10 @@ SYLLABUS_CUTOFF = {
     "pe":        (2022, True),    # LCPE is a new exam subject, first examined 2022
     "maths":     (2012, True),    # Project Maths national rollout (phased 2012-2015)
     "geography": (2006, True),    # confirmed: current syllabus first examined 2006, examined to June 2027
-    "biology":   (2004, False),   # estimate — current syllabus ~2004; verify
+    # biology: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
+    # over from 2027). Until then the only papers are from the previous syllabus, introduced 2002
+    # and first examined 2004 (NCCA); they are pulled as LEGACY practice, not on-course papers.
+    "biology":   (2004, True),    # confirmed: previous syllabus first examined 2004, last examined June 2026
     # chemistry: the 2025 specification is first examined June 2027 (bundle firstExamYear 2027 takes
     # over from 2027). Until then the only papers are from the previous syllabus (NCCA, (c) 1999),
     # examined from 2002 to June 2026; they are pulled as LEGACY practice, not on-course papers.

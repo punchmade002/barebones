@@ -1,0 +1,153 @@
+{
+  "loId": "bio35-s1",
+  "chapterId": "bio35",
+  "subsection": "Genetic engineering",
+  "syllabusRef": "3.3.1",
+  "notes": [
+    {
+      "h": "What genetic engineering is",
+      "points": [
+        "Genetic engineering (genetic modification, GM) is the deliberate change of an organism’s DNA by artificial means, usually by cutting a gene out of one organism and inserting it into the DNA of another, often a different species.",
+        "The organism produced is a genetically modified organism (GMO); one carrying a gene from another species is transgenic.",
+        "DNA made by joining DNA from two different sources is recombinant DNA.",
+        "Why it works: the genetic code is universal, so a host cell reads a gene from any species and makes the same protein (see “The genetic code”).",
+        "The inserted gene must include the instructions the host needs to switch it on, so that it is transcribed and translated in the host.",
+        "Genetic engineering differs from selective breeding (artificial selection; see “The theory of evolution by natural selection”): breeding mixes whole sets of genes between members of the same or closely related species over many generations.",
+        "Genetic engineering moves one chosen gene, even between unrelated species (e.g. bacterium to plant, human to bacterium), in one generation.",
+        "In 1973 Stanley Cohen and Herbert Boyer in the USA inserted foreign DNA into a plasmid and put it into bacteria, which copied it: the first genetically engineered organism.",
+        "Bacterial restriction enzymes, discovered in the late 1960s and early 1970s, made this possible."
+      ]
+    },
+    {
+      "h": "Vectors and enzymes",
+      "points": [
+        "A vector is a carrier that takes the gene into the host cell.",
+        "A plasmid is a small circle of double-stranded DNA found in bacteria, separate from the main chromosome, which copies itself independently and is passed on when the bacterium divides.",
+        "Plasmids are the most common vector for bacteria and yeast.",
+        "Plasmids used as vectors usually carry a marker gene (e.g. for resistance to an antibiotic) so that cells which have taken them up can be identified.",
+        "Other vectors: modified viruses, which naturally inject their DNA into cells. Bacteriophages are used for bacteria; harmless modified viruses are used for human and animal cells in gene therapy and some vaccines (see “Viruses”).",
+        "Agrobacterium tumefaciens, a soil bacterium, naturally transfers part of its plasmid (the Ti plasmid) into plant cells, and is used to modify plants.",
+        "Non-vector methods: microinjection of DNA into a fertilised animal egg with a fine needle; a “gene gun” that fires tiny metal particles coated with DNA into plant cells.",
+        "Restriction enzymes (restriction endonucleases) cut DNA at a specific short base sequence, the recognition site, usually 4 to 8 base pairs long.",
+        "In nature, restriction enzymes protect bacteria by cutting up the DNA of invading viruses.",
+        "Many restriction enzymes cut the two strands at slightly different points, leaving short single-stranded overhangs called sticky ends; others cut straight across, leaving blunt ends.",
+        "Worked example: the restriction enzyme EcoRI (from the bacterium Escherichia coli) recognises GAATTC and cuts between G and A on each strand: …G | AATTC… on one strand and …CTTAA | G… on the other, leaving the four-base sticky ends AATT.",
+        "Any two pieces of DNA cut with the same enzyme have complementary sticky ends, so they can base-pair.",
+        "Diagram: a double strand with GAATTC/CTTAAG, the staggered cut shown, and the two fragments with their AATT overhangs labelled “sticky end”.",
+        "DNA ligase is the enzyme that joins DNA fragments by re-forming the sugar–phosphate backbone where the sticky ends have paired.",
+        "The sticky ends pair by hydrogen bonds between bases; DNA ligase makes the strong backbone bonds. It is sometimes called “molecular glue”."
+      ]
+    },
+    {
+      "h": "The process: isolation, cutting, ligation, transformation and expression",
+      "b": "The four stages of the specification, in order, with the enzyme or vector used at each.",
+      "points": [
+        "1. DNA isolation: the donor DNA containing the gene is extracted from the donor cells (e.g. human cells for the insulin gene); separately, plasmids are extracted from bacteria by breaking the cells open. How DNA is extracted is covered in “Generating a DNA profile”.",
+        "2. Cutting: the donor DNA and the plasmid are cut with the same restriction enzyme.",
+        "This cuts the gene out of the donor DNA and opens the plasmid ring once, so both have matching sticky ends.",
+        "3. Ligation: the gene and the opened plasmids are mixed; their complementary sticky ends base-pair, and DNA ligase seals the backbone, giving a recombinant plasmid that contains the new gene.",
+        "4. Transformation: bacteria take up the recombinant plasmid from their surroundings. Transformation means a cell taking up and keeping foreign DNA.",
+        "In the laboratory, uptake is increased by treating the bacteria with calcium chloride and a brief heat shock.",
+        "Only a small fraction of bacteria take up a plasmid, so they are selected: they are grown on agar containing the antibiotic, and only bacteria carrying the plasmid’s resistance marker gene survive.",
+        "5. Expression: the transformed bacteria are cloned, each dividing repeatedly by binary fission to produce millions of identical copies, each with the plasmid.",
+        "The bacteria transcribe and translate the inserted gene and make the protein; the gene is “expressed”.",
+        "They are grown in large numbers in a fermenter (bioreactor), and the protein is extracted and purified (fermenters are covered in “Microorganisms in industry”).",
+        "Diagram: a flow diagram: donor cell → gene cut out by restriction enzyme; bacterium → plasmid removed and cut by the same enzyme; gene + plasmid joined by DNA ligase → recombinant plasmid; recombinant plasmid taken up by a bacterium (transformation); bacteria multiply and make the protein (expression). Label: donor DNA, gene, restriction enzyme, sticky ends, plasmid, DNA ligase, recombinant plasmid, host bacterium, marker gene."
+      ]
+    },
+    {
+      "h": "Applications in microorganisms",
+      "points": [
+        "Human insulin: the human insulin gene is inserted into bacteria (or yeast), which make human insulin for people with type 1 diabetes.",
+        "In 1982 human insulin became the first genetically engineered medicine approved for use (history in “Science, scientists and society”).",
+        "Advantages over insulin from cattle and pig pancreases: it is identical to human insulin, so there are fewer allergic reactions; the supply is unlimited and consistent; and no animal slaughter is needed, avoiding religious and vegetarian objections.",
+        "Other medicines made by genetically engineered cells: human growth hormone, for children who lack it.",
+        "Clotting factor VIII for people with haemophilia A is made by genetically engineered mammalian cells grown in culture, which removes the risk of infection from donated blood.",
+        "The hepatitis B vaccine is made from a viral protein produced by genetically modified yeast (see “Acquired immunity, prevention and treatment” in Immunity).",
+        "Many industrial and food enzymes are made by genetically modified microorganisms carrying the gene for the enzyme, e.g. chymosin for cheese-making, replacing rennet from calves’ stomachs, and enzymes in biological detergents (see “Industrial enzymes”)."
+      ]
+    },
+    {
+      "h": "Applications in plants",
+      "points": [
+        "Insect-resistant crops: a gene from the soil bacterium Bacillus thuringiensis (Bt) for a protein toxic to certain insect larvae (e.g. caterpillars, corn borers) is inserted into maize or cotton, giving Bt maize and Bt cotton.",
+        "Larvae that eat the plant die, so farmers spray less insecticide. The protein is harmless to mammals, birds and most other insects.",
+        "Herbicide-tolerant crops: a gene for resistance to a herbicide (e.g. glyphosate) is inserted into crops such as soya and maize, so the field can be sprayed to kill weeds without harming the crop.",
+        "Improved nutrition: Golden Rice has genes from other organisms inserted so that its grain makes beta-carotene, which the body converts to vitamin A. The beta-carotene gives the rice its yellow colour.",
+        "Golden Rice was developed to reduce vitamin A deficiency, a cause of childhood blindness and death where rice is the main food. It was approved for growing in the Philippines in 2021 (arguments about it are in “Ethics of genetic technologies”).",
+        "The EU regulates GM crops strictly. The only GM crop grown commercially in the EU is a Bt maize, grown mostly in Spain.",
+        "No GM crops are grown commercially in Ireland, but GM soya and maize are imported, mainly for animal feed."
+      ]
+    },
+    {
+      "h": "Applications in animals and humans",
+      "points": [
+        "GM animals: AquAdvantage salmon carries a growth-hormone gene from another salmon species (the Chinook salmon), so it grows to market size faster.",
+        "AquAdvantage salmon was approved for food in the USA in 2015, the first GM animal approved for food there.",
+        "GM animals, especially mice, are also used in medical research as models of human diseases.",
+        "Gene therapy: a working copy of a gene is inserted into a patient’s own cells to treat a genetic disease caused by a faulty allele, usually using a harmless modified virus as the vector.",
+        "Somatic gene therapy changes body cells only, so the change is not inherited. Germline changes (in eggs, sperm or embryos) would be inherited and are not allowed in most countries (ethics in “Ethics of genetic technologies”)."
+      ]
+    },
+    {
+      "h": "Newer method: gene editing (CRISPR-Cas9)",
+      "points": [
+        "CRISPR-Cas9 is a gene-editing tool adapted from a system that bacteria use to defend themselves against viruses.",
+        "A short guide RNA, made to be complementary to the target DNA sequence, leads the enzyme Cas9 to that exact place in the genome, where Cas9 cuts both DNA strands.",
+        "When the cell repairs the cut, the gene can be switched off, or a corrected sequence supplied by scientists can be built in.",
+        "Unlike the earlier plasmid method, which adds a new gene carried in a vector, CRISPR changes a gene in its own place in the organism’s DNA (editing). It is faster, cheaper and more precise.",
+        "Jennifer Doudna and Emmanuelle Charpentier shared the 2020 Nobel Prize in Chemistry for developing it.",
+        "In 2023 the UK became the first country to approve a CRISPR-based treatment, for sickle-cell disease and beta thalassaemia, in which the patient’s own blood stem cells are edited outside the body and returned."
+      ]
+    },
+    {
+      "h": "Applications across health, sustainability and technology",
+      "points": [
+        "Health: medicines (insulin, growth hormone, clotting factors, vaccines), gene therapy and gene editing.",
+        "Sustainability: crops needing less insecticide, nutrition-enhanced crops, and enzymes replacing harsh chemical processes.",
+        "Technology: genetic engineering is a core biotechnology."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Genetic engineering", "definition": "The deliberate change of an organism’s DNA by artificial means, usually by moving a gene from one organism into another." },
+    { "term": "Genetically modified organism (GMO)", "definition": "An organism whose DNA has been changed by genetic engineering." },
+    { "term": "Transgenic", "definition": "Describes an organism that carries a gene from another species." },
+    { "term": "Recombinant DNA", "definition": "DNA made by joining DNA from two different sources." },
+    { "term": "Plasmid", "definition": "A small circle of double-stranded DNA, found in bacteria and separate from the main chromosome, that copies itself independently." },
+    { "term": "Vector", "definition": "A carrier, such as a plasmid or a modified virus, that takes a gene into a host cell." },
+    { "term": "Marker gene", "definition": "A gene, such as one for antibiotic resistance, that shows which cells have taken up a plasmid." },
+    { "term": "Restriction enzyme", "definition": "An enzyme that cuts DNA at a specific short base sequence called its recognition site." },
+    { "term": "Recognition site", "definition": "The specific short base sequence, usually 4 to 8 base pairs long, at which a restriction enzyme cuts DNA." },
+    { "term": "Sticky ends", "definition": "Short single-stranded overhangs left when a restriction enzyme cuts the two strands at slightly different points, which can base-pair with matching sticky ends." },
+    { "term": "Blunt ends", "definition": "Ends left when a restriction enzyme cuts straight across both strands, so there is no overhang." },
+    { "term": "DNA ligase", "definition": "The enzyme that joins DNA fragments by re-forming the sugar–phosphate backbone where sticky ends have paired." },
+    { "term": "Transformation", "definition": "The process by which a cell takes up and keeps foreign DNA." },
+    { "term": "Recombinant plasmid", "definition": "A plasmid into which a new gene has been inserted." },
+    { "term": "Expression", "definition": "The making of a protein from an inserted gene, by transcription and translation in the host cell." },
+    { "term": "Fermenter", "definition": "A vessel in which transformed microorganisms are grown in large numbers to make a product such as a protein." },
+    { "term": "Gene therapy", "definition": "Inserting a working copy of a gene into a patient’s cells to treat a genetic disease caused by a faulty allele." },
+    { "term": "Germline change", "definition": "A genetic change to eggs, sperm or embryos, which would be inherited by future generations." },
+    { "term": "CRISPR-Cas9", "definition": "A gene-editing tool, adapted from a bacterial defence system, in which a guide RNA leads the enzyme Cas9 to a target sequence where it cuts both DNA strands." },
+    { "term": "Guide RNA", "definition": "A short RNA, complementary to a target DNA sequence, that leads Cas9 to the exact place in the genome to cut." },
+    { "term": "Bacillus thuringiensis (Bt)", "definition": "A soil bacterium whose gene for a protein toxic to certain insect larvae is inserted into crops such as maize and cotton." },
+    { "term": "Golden Rice", "definition": "A rice variety with inserted genes that make beta-carotene, which the body converts to vitamin A." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by genetic engineering? Name the enzyme used to cut DNA and the enzyme used to join DNA in genetic engineering.",
+      "model": "Genetic engineering is the deliberate change of an organism’s DNA by artificial means, usually by cutting a gene out of one organism and inserting it into the DNA of another, often a different species. The enzyme used to cut DNA is a restriction enzyme, which cuts DNA at a specific short base sequence called its recognition site. The enzyme used to join DNA is DNA ligase, which re-forms the sugar–phosphate backbone where complementary sticky ends have paired."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline how bacteria can be genetically engineered to produce human insulin, referring to isolation, cutting, ligation, transformation and expression.",
+      "model": "1. Isolation: the human insulin gene is isolated from the donor DNA of human cells, and plasmids are extracted from bacteria by breaking the cells open. 2. Cutting: the donor DNA and the plasmid are cut with the same restriction enzyme. This removes the insulin gene and opens the plasmid, leaving matching sticky ends. 3. Ligation: the gene and the opened plasmid are mixed, their complementary sticky ends base-pair, and DNA ligase seals the backbone to give a recombinant plasmid. 4. Transformation: bacteria take up the recombinant plasmid; calcium chloride and a brief heat shock increase uptake. The bacteria are grown on agar containing the antibiotic, so only bacteria carrying the plasmid’s marker gene survive. 5. Expression: the transformed bacteria are cloned by binary fission, and they transcribe and translate the insulin gene to make human insulin. They are grown in a fermenter, and the protein is extracted and purified. One advantage: the insulin is identical to human insulin, so there are fewer allergic reactions than with insulin from cattle or pig pancreases."
+    },
+    {
+      "marks": 9,
+      "prompt": "Give one example of a genetically modified plant and one application of genetic engineering in medicine other than insulin. For each, state the gene inserted and the benefit.",
+      "model": "Plant: Bt maize (or Bt cotton). A gene from the soil bacterium Bacillus thuringiensis is inserted. It codes for a protein that is toxic to certain insect larvae, so larvae that eat the plant die, and farmers spray less insecticide. Medicine: clotting factor VIII for people with haemophilia A. The gene for clotting factor VIII is inserted into mammalian cells, which are grown in culture to make the factor. The benefit is a supply that removes the risk of infection from donated blood."
+    }
+  ]
+}

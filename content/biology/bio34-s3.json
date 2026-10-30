@@ -1,0 +1,119 @@
+{
+  "loId": "bio34-s3",
+  "chapterId": "bio34",
+  "subsection": "Ethics and sustainability of nutrient cycling",
+  "syllabusRef": "3.2.7",
+  "notes": [
+    {
+      "h": "What the issues are",
+      "points": [
+        "Humans now move huge amounts of carbon and nitrogen between stores. Burning fossil fuels and clearing forests and bogs moves carbon into the air (see “The carbon cycle”). Making and spreading fertiliser, and keeping large numbers of livestock, adds fixed nitrogen to soils and water (see “The nitrogen cycle”).",
+        "A sustainability issue arises when a practice damages the environment's ability to support future generations. An ethical issue arises when people disagree about what is right, especially who gets the benefits and who bears the costs.",
+        "Ethical questions to ask of every issue: who benefits and who is harmed, now, elsewhere and in the future; who should pay to prevent or repair the harm, under the polluter pays principle, which is part of EU environmental law; whether the harm is fair (justice); whether we should act before harm is proven (the precautionary principle); and whether the people affected have a say."
+      ]
+    },
+    {
+      "h": "Eutrophication",
+      "b": "Eutrophication is the enrichment of rivers, lakes or coastal water with nutrients, mainly nitrate and phosphate, leading to excessive growth of algae and plants and a loss of oxygen.",
+      "points": [
+        "Sources: nitrate leached from fertilised fields after rain (nitrate is very soluble; see “The nitrogen cycle”); slurry and farmyard manure washed off the land, especially if spread before heavy rain or on wet or frozen ground; untreated or poorly treated sewage and septic tanks; phosphate-containing detergents; and runoff from forestry and peat extraction.",
+        "Sequence, step 1: extra nitrate and phosphate enter the water.",
+        "Sequence, step 2: algae grow very rapidly, forming an algal bloom that turns the water green and covers the surface.",
+        "Sequence, step 3: the bloom blocks light, so rooted plants and the algae below it die.",
+        "Sequence, step 4: algae have short lives, so huge numbers die.",
+        "Sequence, step 5: aerobic decomposers (bacteria) feed on the dead algae and plants, multiply and respire, using up dissolved oxygen, so the water's biochemical oxygen demand rises.",
+        "Sequence, step 6: dissolved oxygen falls, so fish, especially salmon and trout, which need high oxygen, and invertebrates die.",
+        "Sequence, step 7: the decomposition of the dead fish and plants uses still more oxygen, and anaerobic decomposition may release foul-smelling gases.",
+        "Some blooms are of blue-green algae, which are bacteria. They make toxins harmful to animals, pets and people, so lakes may be closed for swimming, and the cost of treating drinking water rises.",
+        "Example: in summer 2023, Lough Neagh in Northern Ireland, the largest freshwater lake in Ireland and Britain, had widespread blue-green algal blooms. They were linked to excess nutrients from farming and wastewater, and to an unusually warm summer.",
+        "Diagram: a flow chart of the eutrophication sequence: nutrients in, algal bloom, plants below die, algae die, decomposers increase, oxygen falls, fish die."
+      ]
+    },
+    {
+      "h": "Issue 1: nitrogen fertilisers and slurry",
+      "b": "Benefits are weighed against costs to water, air and climate, and to fairness between those who gain and those who pay.",
+      "points": [
+        "Benefits: nitrogen is usually the nutrient that limits crop and grass growth, so fertiliser greatly raises yields. Food grown with fertiliser made by the Haber process feeds about half of the world's people.",
+        "Benefits: higher yields mean less land must be cleared for farming, which spares forests and wild habitats. In Ireland, grass-based livestock farming depends on nitrogen for grass growth, and farming supports rural incomes and exports.",
+        "Costs to water: leached nitrate and washed-off slurry cause eutrophication, harming fisheries, angling, tourism and wildlife.",
+        "Costs to water: nitrate in drinking water above the EU limit of 50 mg per litre is a health risk, especially to bottle-fed babies, because it reduces the blood's ability to carry oxygen (“blue baby syndrome”). Water must then be treated or sources abandoned.",
+        "Costs to air and climate: making fertiliser by the Haber process uses a lot of energy, mainly from natural gas, and releases CO₂.",
+        "Costs to air and climate: extra soil nitrate increases denitrification, which releases nitrous oxide (N₂O), a powerful greenhouse gas (see “Climate change and biological strategies”).",
+        "Costs to air and climate: ammonia escapes from slurry and urine. In Ireland agriculture produces about 99% of ammonia emissions.",
+        "Costs to biodiversity: ammonia falling on bogs, heaths and woods acts as a fertiliser, letting a few fast-growing plants crowd out species adapted to low nutrients, which reduces biodiversity.",
+        "Costs to health: ammonia also forms fine particles in the air that harm human health.",
+        "Ethical arguments: the farmer gains the yield, but others pay the cost (downstream communities, anglers, people drinking the water and future generations). The polluter pays principle therefore argues that farmers should bear the cost of prevention.",
+        "Ethical arguments against this: farm incomes are often low, food must stay affordable, and consumers who want cheap food share responsibility. Rules must be fair to small farmers as well as large ones.",
+        "Justice: globally, many poor farmers use too little fertiliser and suffer low yields and hunger, while richer regions use too much. The same chemical is a benefit in one place and a pollutant in another.",
+        "Regulation: the EU Nitrates Directive (1991) requires member states to protect water from farm nitrate. Under it, livestock manure may not add more than 170 kg of nitrogen per hectare per year. Ireland has had a derogation allowing some intensive farms more, under stricter conditions. Slurry and fertiliser may not be spread in a winter closed period or near watercourses, and farms must have enough slurry storage. Ireland applies these rules through its Nitrates Action Programme.",
+        "Sustainable response: test soil and apply only the nitrogen the crop needs, when it is growing, and not before heavy rain, because excess nitrogen is lost to water.",
+        "Sustainable response: grow clover or other legumes with grass, and legumes in crop rotation, so that fixation replaces some fertiliser (see “The nitrogen cycle”).",
+        "Sustainable response: leave uncultivated buffer strips of vegetation beside rivers, which absorb nutrients before they reach the water.",
+        "Sustainable response: spread slurry close to the ground using low-emission methods, such as a trailing shoe, to cut ammonia loss.",
+        "Sustainable response: protect wetlands, where denitrification removes nitrate, and treat sewage fully.",
+        "Judgement: nitrogen fertiliser is needed to feed the world, so banning it would be unethical. But applying more than crops can use wastes money and transfers the costs to others and to the future. The sustainable and fair position is to use less, use it more precisely, and recycle nitrogen in manure and legumes."
+      ]
+    },
+    {
+      "h": "Issue 2: recycling nutrients from waste",
+      "points": [
+        "Sustainable nutrient cycling means returning nutrients from wastes to the soil instead of losing them. Methods include slurry and manure used as fertiliser at the right time and rate, and composting of garden and food waste.",
+        "In composting, decomposers (bacteria and fungi) turn organic matter into a nutrient-rich soil improver.",
+        "Other methods include treated sewage sludge spread on land, and anaerobic digestion of slurry and food waste. Anaerobic digestion produces biogas (methane) for fuel and a digestate that is used as fertiliser.",
+        "For recycling: it cuts the need for manufactured fertiliser and the fossil energy used to make it.",
+        "For recycling: it keeps wastes out of landfill, where they would decompose anaerobically and release methane.",
+        "For recycling: it improves soil structure and soil organic matter, which is a carbon store.",
+        "Against or limitations: manure and sludge can carry pathogens, and sludge may contain heavy metals and other pollutants, so it must be treated and tested.",
+        "Against or limitations: spreading at the wrong time causes the same pollution as fertiliser does.",
+        "Against or limitations: anaerobic digesters are costly to build, and leaks of biogas release methane.",
+        "Against or limitations: many people are uneasy about food grown on land treated with sewage sludge.",
+        "Judgement: recycling is more sustainable than manufactured fertiliser alone when it is treated, tested and spread at the right time and rate."
+      ]
+    },
+    {
+      "h": "Issue 3: releasing stored carbon from forests and bogs",
+      "points": [
+        "Deforestation: tropical forests are cleared, often by burning, mainly for cattle ranching (e.g. in the Amazon in Brazil), for soya grown largely as animal feed, and for oil-palm plantations (e.g. in Indonesia and Malaysia).",
+        "Deforestation turns a carbon sink into a source (see “The carbon cycle”), removes nutrients with the crop, exposes soil to erosion, and destroys habitats of very high biodiversity.",
+        "Ethical arguments for clearing forests: poorer countries argue that they have the same right to develop their land as richer countries had when they cleared their own forests, and that farming gives jobs and food.",
+        "Ethical arguments against clearing forests: the losses (carbon released, species extinct, rainfall changed) affect the whole world and future generations, and indigenous people who live in the forests lose their homes and way of life.",
+        "Consumers in richer countries share responsibility, because they buy the beef, soya-fed meat and palm oil.",
+        "Responses to deforestation: protected areas; payments to countries for keeping forests; and EU rules that ban imports of products linked to recent deforestation.",
+        "Peat in Ireland: peatlands cover about a fifth of Ireland's land area. For centuries turf was cut by hand for household fuel. In the twentieth century bogs were drained and milled by Bord na Móna for electricity and horticultural compost.",
+        "Drained peat decomposes aerobically and releases CO₂, so it is lost as a carbon store (see “The carbon cycle”). Raised bogs are also rare habitats for specialised species such as sphagnum moss.",
+        "Ethical arguments for continuing to cut peat: families have traditional rights to cut turf on their bog (turbary rights). Turf is a cheap local fuel and part of rural culture, and peat extraction gave jobs to Midlands communities.",
+        "Ethical arguments against cutting peat: burning peat releases more CO₂ per unit of energy than coal. Bog habitats cannot be replaced on any human timescale, and the climate cost falls on everyone and on the future.",
+        "Responses to peat cutting: Bord na Móna ended peat harvesting in January 2021; cutting on protected raised bogs (Special Areas of Conservation) is restricted, which has caused conflict with turf-cutting families; bogs are being rewetted; and a Just Transition fund supports workers and communities that depended on peat.",
+        "Judgement on peat: fairness to the people who lose income is part of the judgement, and it must be weighed against the carbon and habitat losses.",
+        "Fossil fuels as an ethical issue: the countries that industrialised first have released most of the CO₂ in the atmosphere, while many of the people most harmed by the resulting climate change, in low-lying and poor countries, have contributed least. Future generations will bear costs they did not choose (intergenerational justice). The biological strategies to respond are covered in “Climate change and biological strategies”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Eutrophication", "definition": "The enrichment of water with nutrients, mainly nitrate and phosphate, which leads to excessive algal growth and a loss of oxygen." },
+    { "term": "Algal bloom", "definition": "A rapid growth of algae that turns the water green and covers its surface, blocking light from the water below." },
+    { "term": "Blue-green algae", "definition": "Bacteria, not true algae, that can form blooms producing toxins harmful to animals and people." },
+    { "term": "Polluter pays principle", "definition": "The principle that those who cause pollution should bear the cost of preventing or repairing the harm it does." },
+    { "term": "Blue baby syndrome", "definition": "A health risk from nitrate in drinking water, which reduces the blood's ability to carry oxygen in bottle-fed infants." },
+    { "term": "Turbary rights", "definition": "Traditional rights of families to cut turf for fuel on a particular bog." },
+    { "term": "Special Area of Conservation", "definition": "A protected site, such as a raised bog, where turf cutting and other activities are restricted." },
+    { "term": "Just Transition", "definition": "A fund that supports workers and communities that depended on an industry, such as peat extraction, as it is phased out." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Explain how the spreading of slurry before heavy rain can lead to the death of fish in a nearby river.",
+      "model": "Slurry spread before heavy rain is washed off the land, and nitrate and phosphate from it enter the river. These nutrients cause eutrophication: algae grow very rapidly and form a bloom that blocks light, so plants below die. The algae then die in large numbers. Aerobic decomposers, which are bacteria, feed on the dead algae and plants and respire, using up dissolved oxygen. Dissolved oxygen falls, so fish such as salmon and trout, which need high oxygen levels, die."
+    },
+    {
+      "marks": 12,
+      "prompt": "Evaluate the ethical and sustainability issues associated with the use of nitrogen fertilisers in agriculture.",
+      "model": "Nitrogen fertiliser is a benefit because nitrogen is usually the nutrient that limits growth, so it raises yields and spares forests from clearance. Its costs include eutrophication of rivers and lakes from leached nitrate and washed-off slurry, nitrate in drinking water that is a health risk to bottle-fed babies, and nitrous oxide and ammonia emissions that contribute to climate change and harm biodiversity. Ethically, the farmer gains while others pay, so the polluter pays principle argues farmers should bear the cost of prevention, but farm incomes and food prices must also be considered. Sustainable responses include testing soil and applying only the nitrogen the crop needs, growing clover to fix nitrogen, and leaving buffer strips beside rivers. The judgement is that fertiliser is needed, so banning it would be unethical, but applying more than crops can use is wasteful and unfair to others and to the future, so farmers should use less and more precisely."
+    },
+    {
+      "marks": 9,
+      "prompt": "Peat was once widely harvested in Ireland for fuel. Discuss the arguments for and against protecting Irish bogs from turf cutting.",
+      "model": "Biologically, peat accumulates slowly because waterlogged, acidic, low-oxygen conditions stop decomposition. When a bog is drained, peat decomposes aerobically and releases CO₂, and the raised bog habitat of specialised species such as sphagnum moss is lost. Arguments for continuing to cut turf include traditional turbary rights, turf as a cheap local fuel, part of rural culture, and jobs for Midlands communities. Arguments for protecting bogs include the carbon released by burning peat, which emits more CO₂ per unit of energy than coal, the irreplaceable habitat, and the climate cost borne by everyone and by future generations. Responses include Bord na Móna ending harvesting in January 2021, restrictions on cutting in Special Areas of Conservation, rewetting bogs, and a Just Transition fund. A reasoned judgement weighs the carbon and habitat losses against the fairness owed to families and workers who lose income."
+    }
+  ]
+}

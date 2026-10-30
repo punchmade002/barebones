@@ -1,0 +1,144 @@
+{
+  "loId": "geo-plate-tectonics-s1",
+  "chapterId": "geo-plate-tectonics",
+  "subsection": "1. The internal structure of the earth",
+  "syllabusRef": "1.1",
+  "notes": [
+    {
+      "h": "Layers of the earth",
+      "points": [
+        "The earth is made of concentric layers, from the outside in: crust, mantle, outer core and inner core.",
+        "Density and temperature increase towards the centre of the earth.",
+        "The earth's radius is about 6,370 km.",
+        "Diagram: labelled cross-section of the earth showing every layer and both boundaries between them."
+      ]
+    },
+    {
+      "h": "Crust",
+      "b": "The crust is the thin, solid outer layer of the earth. It exists in two types, which differ in thickness, density and rock type.",
+      "points": [
+        "Continental crust is about 30–70 km thick and is thickest under high mountain ranges.",
+        "Continental crust has an average density of about 2.7 g/cm³ (grams per cubic centimetre).",
+        "Continental crust is mainly granite-type rock, rich in silica and aluminium; its old name is sial.",
+        "Oceanic crust is about 5–10 km thick and has an average density of about 3.0 g/cm³.",
+        "Oceanic crust is mainly basalt, rich in silica and magnesium; its old name is sima.",
+        "Continental crust is thicker but less dense than oceanic crust.",
+        "No oceanic crust is older than about 200 million years, while some continental rock is billions of years old, because oceanic crust is continually created and destroyed; that process is explained in the plate tectonics model and at plate boundaries."
+      ]
+    },
+    {
+      "h": "Boundaries within the earth",
+      "points": [
+        "A discontinuity is a sharp boundary between two layers of the earth.",
+        "The Moho (Mohorovičić discontinuity) is the boundary between the crust and the mantle, where earthquake waves speed up suddenly.",
+        "The Moho is named after Andrija Mohorovičić, a Croatian seismologist, who identified it in 1909 from earthquake records.",
+        "The Gutenberg discontinuity is the boundary between the mantle and the core, at the base of the mantle."
+      ]
+    },
+    {
+      "h": "Mantle, asthenosphere and lithosphere",
+      "b": "The mantle is the thickest layer. Its upper part contains the layers on which the crust rests and moves.",
+      "points": [
+        "The mantle extends to about 2,900 km depth and is made of dense rock rich in iron and magnesium.",
+        "The mantle has an upper part and a lower part.",
+        "Asthenosphere: the semi-molten, plastic layer in the upper mantle, beneath the lithosphere, on which the plates move. It is not liquid.",
+        "Magma is molten rock in the mantle; it is called lava only once it erupts at the surface.",
+        "Lithosphere: the rigid outer shell made of the crust plus the solid top of the upper mantle. It is about 100 km thick on average, thinner under the oceans and thicker under the continents.",
+        "The lithosphere is broken into tectonic plates."
+      ]
+    },
+    {
+      "h": "The core",
+      "b": "The core is made of iron and nickel and is divided into a liquid outer part and a solid inner part.",
+      "points": [
+        "Outer core: liquid, from about 2,900 km to about 5,150 km depth. Movement of this liquid metal generates the earth's magnetic field.",
+        "Inner core: solid, from about 5,150 km to the centre of the earth. It is the hottest part of the earth, at about 5,500 °C, similar to the surface of the sun.",
+        "The inner core is solid despite its heat because the pressure at that depth is enormous."
+      ]
+    },
+    {
+      "h": "Sources of heat and convection currents",
+      "points": [
+        "Internal heat comes from the decay of radioactive elements and from heat left over from the earth's formation.",
+        "Convection currents are circular movements of semi-molten rock in the mantle.",
+        "1. Heated rock near the core becomes less dense and rises.",
+        "2. Near the top of the mantle the rock spreads out sideways and cools.",
+        "3. Cooled rock becomes denser and sinks again, completing the circle."
+      ]
+    },
+    {
+      "h": "Endogenic and exogenic forces",
+      "points": [
+        "Endogenic (internal) forces come from inside the earth and are powered by its internal heat.",
+        "Endogenic forces include plate movement, folding, faulting, volcanic activity and earthquakes.",
+        "Exogenic (external) forces act at the earth's surface, such as weathering and erosion."
+      ]
+    },
+    {
+      "h": "How the structure is known",
+      "b": "Earthquake (seismic) waves reveal the structure of the earth because their speed and direction change as they pass through layers of different density.",
+      "points": [
+        "The changes in earthquake waves are how the discontinuities were found.",
+        "P-waves (primary waves) pass through both solids and liquids.",
+        "S-waves (secondary waves) pass only through solids.",
+        "S-waves do not pass through the outer core, which shows that the outer core is liquid.",
+        "This leaves an S-wave shadow zone on the far side of the earth from an earthquake."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Magma",
+      "definition": "Molten rock in the mantle, which is called lava once it erupts at the surface."
+    },
+    {
+      "term": "Moho",
+      "definition": "The Mohorovičić discontinuity, the boundary between the crust and the mantle."
+    },
+    {
+      "term": "Gutenberg discontinuity",
+      "definition": "The boundary between the mantle and the core."
+    },
+    {
+      "term": "Asthenosphere",
+      "definition": "The semi-molten, plastic layer in the upper mantle on which the plates move."
+    },
+    {
+      "term": "Lithosphere",
+      "definition": "The rigid outer shell made of the crust plus the solid top of the upper mantle."
+    },
+    {
+      "term": "Convection current",
+      "definition": "A circular movement of semi-molten rock in the mantle, caused by heated rock rising and cooled rock sinking."
+    },
+    {
+      "term": "Endogenic forces",
+      "definition": "Forces that come from inside the earth and are powered by its internal heat."
+    },
+    {
+      "term": "Exogenic forces",
+      "definition": "Forces that act at the earth's surface, such as weathering and erosion."
+    },
+    {
+      "term": "S-wave shadow zone",
+      "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe the structure of the earth's interior.",
+      "model": "Crust: the thin, solid outer layer, in two types: continental crust about 30 to 70 km thick and oceanic crust about 5 to 10 km thick. Moho: the boundary between the crust and the mantle. Mantle: the thickest layer, extending to about 2,900 km depth, with the semi-molten asthenosphere in its upper part. Lithosphere: the rigid shell made of the crust plus the solid top of the upper mantle, about 100 km thick on average. Outer core: liquid, from about 2,900 km to about 5,150 km depth. Inner core: solid, from about 5,150 km to the centre of the earth."
+    },
+    {
+      "marks": 4,
+      "prompt": "Explain the difference between the lithosphere and the asthenosphere.",
+      "model": "The lithosphere is the rigid outer shell made of the crust plus the solid top of the upper mantle, and it is broken into plates. The asthenosphere is a semi-molten, plastic layer beneath it in the upper mantle, not a liquid, on which the plates move."
+    },
+    {
+      "marks": 4,
+      "prompt": "Explain briefly what is meant by endogenic forces.",
+      "model": "Endogenic forces are internal forces that come from inside the earth and are powered by its internal heat. Examples are plate movement, folding, faulting, volcanic activity and earthquakes. They contrast with exogenic forces, which act at the surface, such as weathering and erosion."
+    }
+  ]
+}

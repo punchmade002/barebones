@@ -19,7 +19,7 @@ Focused. Warm but no-nonsense. Slightly editorial — the ASCII logo gives it pe
 ## Core Features
 - Subject/chapter picker sidebar (left column, sticky scroll)
 - Flashcard study mode — concept cards with flip, mark-learned, keyword chips
-- Written test — 3-question sample, scored with keyword matching + semantic overlap
+- Test — timed (5–45 min) and scoped to this chapter, chosen chapters or a whole subject. Mixes flashcard questions (name the term, pick the description, fill the gap, written recall from `flashcard-test-prompts.js`) with past-paper parts the student self-marks against the marking scheme. Logic in `test-builder.js`.
 - Exam Qs — past LC paper questions with model answers (show/hide)
 - Subject overview — per-chapter progress bars when clicking a subject header
 - Full Notes overlay — all chapter content in a reading view
