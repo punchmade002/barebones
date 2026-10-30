@@ -1,0 +1,121 @@
+{
+  "loId": "chem24-s3",
+  "chapterId": "chem24",
+  "subsection": "3. Representing organic molecules",
+  "syllabusRef": "4.2.3",
+  "notes": [
+    {
+      "h": "Four representations of ethanoic acid",
+      "b": "Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule.",
+      "points": [
+        "Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.",
+        "The molecular formula does not show how the atoms are joined.",
+        "Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.",
+        "Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.",
+        "Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.",
+        "3D physical model (ball-and-stick, from a model kit): shows the real spatial arrangement and bond angles.",
+        "Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.",
+        "Empirical formula (the simplest ratio of atoms; see \"Empirical and molecular formulae\") may also be asked.",
+        "Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.",
+        "Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch."
+      ]
+    },
+    {
+      "h": "Tetrahedral and planar carbon",
+      "points": [
+        "A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron, with bond angles of 109.5°; this is tetrahedral geometry.",
+        "Every carbon in ethanol and in haloalkanes is tetrahedral.",
+        "A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.",
+        "The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.",
+        "Both carbons of ethene are planar, and all six carbons of benzene are planar.",
+        "A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.",
+        "An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.",
+        "The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group; see \"VSEPR theory\"."
+      ]
+    },
+    {
+      "h": "Counting tetrahedral and planar carbons",
+      "b": "Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.",
+      "points": [
+        "Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons.",
+        "Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃) and 1 planar carbon (the C=O carbon).",
+        "Propanone CH₃COCH₃ has 2 tetrahedral carbons and 1 planar carbon.",
+        "Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).",
+        "Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons.",
+        "Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons.",
+        "Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar.",
+        "Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat."
+      ]
+    },
+    {
+      "h": "Using R",
+      "points": [
+        "R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.",
+        "R and R′ are used when two hydrocarbon parts may differ.",
+        "General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.",
+        "In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.",
+        "In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group.",
+        "Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.",
+        "R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O."
+      ]
+    },
+    {
+      "h": "Structural isomers",
+      "points": [
+        "Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.",
+        "Chain isomers differ in the carbon skeleton, i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).",
+        "Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).",
+        "Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).",
+        "Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).",
+        "Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).",
+        "Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).",
+        "Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers.",
+        "The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.",
+        "Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate.",
+        "Chain and position isomers have similar chemical properties but slightly different physical properties.",
+        "Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, bp 118 °C) and methyl methanoate (not acidic, bp 32 °C); see \"Physical properties of organic compounds\"."
+      ]
+    },
+    {
+      "h": "Comparing representations",
+      "points": [
+        "The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.",
+        "The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.",
+        "The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.",
+        "The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.",
+        "Different representations of the same molecule must contain the same atoms joined in the same way.",
+        "In every representation, each carbon must have four bonds, and a double bond counts as two."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Molecular formula", "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined." },
+    { "term": "Empirical formula", "definition": "The simplest whole-number ratio of the atoms of each element in a compound." },
+    { "term": "Condensed structural formula", "definition": "A formula that writes the atoms bonded to each carbon in order along the chain, without drawing the bonds." },
+    { "term": "Expanded structural formula", "definition": "A formula that draws every atom and every bond in the molecule." },
+    { "term": "Tetrahedral geometry", "definition": "The arrangement of four bonding groups around a carbon atom at the corners of a tetrahedron, with bond angles of 109.5°." },
+    { "term": "Planar geometry", "definition": "The arrangement of three bonding groups around a carbon atom in a flat triangle, with bond angles of 120°." },
+    { "term": "Alkyl group", "definition": "The hydrocarbon part of a molecule, such as CH₃– or C₂H₅–, represented by R." },
+    { "term": "Structural isomers", "definition": "Compounds with the same molecular formula but different structural formulae." },
+    { "term": "Chain isomers", "definition": "Structural isomers that differ in the branching of the carbon skeleton." },
+    { "term": "Position isomers", "definition": "Structural isomers with the same functional group in different positions on the carbon chain." },
+    { "term": "Functional group isomers", "definition": "Structural isomers that belong to different homologous series." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Draw the expanded structure of ethyl ethanoate. Mark one carbon atom with planar geometry and one with tetrahedral geometry, and state the bond angle around each.",
+      "model": "The expanded structure of ethyl ethanoate is H₃C–C(=O)–O–CH₂–CH₃, with every bond drawn: the H atoms on the CH₃ and CH₂ carbons, the C=O double bond from the acid carbon to its oxygen, and single bonds from that carbon to the bridging oxygen and on to the CH₂ group. The C=O carbon is planar, with a bond angle of 120° around it. Any CH₃ or CH₂ carbon is tetrahedral, with a bond angle of 109.5° around it."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what is meant by structural isomers. Draw and name a structural isomer of propanal that belongs to a different homologous series, and one structural isomer of propan-1-ol.",
+      "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, because their atoms are joined in a different order. Propanal, CH₃CH₂CHO, is C₃H₆O. Propanone, CH₃COCH₃, has the same formula but belongs to the ketone series, so it is a functional group isomer of propanal. Propan-1-ol, CH₃CH₂CH₂OH, has the –OH on carbon 1. Propan-2-ol, CH₃CH(OH)CH₃, has the –OH on carbon 2, so it is a position isomer of propan-1-ol."
+    },
+    {
+      "marks": 6,
+      "prompt": "Write the molecular formula, condensed structural formula and general formula using R for ethanoic acid, and state one thing a 3D model shows that a condensed formula does not.",
+      "model": "Molecular formula: C₂H₄O₂. Condensed structural formula: CH₃COOH. General formula using R for a carboxylic acid: R–COOH. A 3D model shows the bond angles and the real three-dimensional shape of the molecule, which a condensed formula does not show."
+    }
+  ]
+}

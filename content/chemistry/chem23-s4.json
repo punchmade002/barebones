@@ -1,0 +1,128 @@
+{
+  "loId": "chem23-s4",
+  "chapterId": "chem23",
+  "subsection": "4. Groups of hydrocarbons",
+  "syllabusRef": "2.4.4",
+  "notes": [
+    {
+      "h": "Classifying hydrocarbons",
+      "points": [
+        "Hydrocarbons are divided by the type of carbon–carbon bonds present into aliphatic and aromatic hydrocarbons.",
+        "Aliphatic hydrocarbons have open chains of carbon atoms, straight or branched, or rings that behave like chains, such as cyclohexane; they are the alkanes, alkenes and alkynes.",
+        "Aromatic hydrocarbons contain a benzene ring; benzene, C₆H₆, is the example given in the specification.",
+        "A saturated hydrocarbon has only carbon–carbon single bonds, as in alkanes and cycloalkanes.",
+        "An unsaturated hydrocarbon contains at least one carbon–carbon double or triple bond, as in alkenes and alkynes.",
+        "A homologous series is a family with the same general formula and similar chemical properties, a gradual change in physical properties, and each member differing from the next by CH₂."
+      ]
+    },
+    {
+      "h": "Alkanes",
+      "b": "The alkanes are saturated aliphatic hydrocarbons with single bonds only.",
+      "points": [
+        "General formula CₙH₂ₙ₊₂; the first members are methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀, pentane C₅H₁₂ and hexane C₆H₁₄.",
+        "Bonding: only single C–C and C–H covalent bonds are present.",
+        "Structure: each carbon is tetrahedral, with bond angles of 109.5°; chains can be branched from butane onwards.",
+        "Cyclohexane, C₆H₁₂, is a ring of six CH₂ groups joined by single bonds; it is saturated and aliphatic.",
+        "Cyclohexane has two fewer hydrogens than hexane because the ends of the chain are joined to make the ring, and its ring is not flat because each carbon is tetrahedral.",
+        "Alkanes are non-polar and insoluble in water, and small members burn with a clean blue flame.",
+        "Alkanes are otherwise unreactive: they react with halogens only in ultraviolet light, by substitution, e.g. CH₄ + Cl₂ → CH₃Cl + HCl (see “Stability of alkanes”)."
+      ]
+    },
+    {
+      "h": "Alkenes",
+      "b": "The alkenes are unsaturated aliphatic hydrocarbons with one carbon–carbon double bond.",
+      "points": [
+        "General formula CₙH₂ₙ; the members are ethene C₂H₄, propene C₃H₆, butene C₄H₈, pentene C₅H₁₀ and hexene C₆H₁₂.",
+        "Bonding: one C=C double bond is present, so the molecule is unsaturated.",
+        "Structure: the two carbons of the double bond and the four atoms attached to them lie in one plane, with angles of about 120°, and there is no rotation about the C=C bond.",
+        "Alkenes are, like alkanes, non-polar and insoluble in water, but they are much more reactive.",
+        "Alkenes undergo addition across the double bond with bromine, which decolourises bromine water; with hydrogen over a nickel catalyst, e.g. CH₂=CH₂ + H₂ → CH₃CH₃; and with hydrogen chloride, e.g. CH₂=CH₂ + HCl → CH₃CH₂Cl.",
+        "Alkenes add to one another to form addition polymers, e.g. ethene forms poly(ethene) (see “Addition polymers”).",
+        "Alkenes burn with a more luminous, smokier flame than alkanes because of their higher carbon content."
+      ]
+    },
+    {
+      "h": "Alkynes",
+      "b": "The alkynes are unsaturated aliphatic hydrocarbons with one carbon–carbon triple bond.",
+      "points": [
+        "General formula CₙH₂ₙ₋₂; the first member is ethyne, C₂H₂, also called acetylene.",
+        "Bonding: one C≡C triple bond is present, so the molecule is unsaturated.",
+        "Structure: the two carbons of the triple bond and the atoms attached to them lie in a straight line, with an angle of 180°, so ethyne is linear.",
+        "Alkynes undergo addition reactions; with excess bromine, ethyne gives 1,1,2,2-tetrabromoethane: C₂H₂ + 2Br₂ → CHBr₂CHBr₂.",
+        "Ethyne burns in air with a very smoky, luminous flame.",
+        "Ethyne burns in pure oxygen with a very hot flame, which is used for welding: 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l)."
+      ]
+    },
+    {
+      "h": "Aromatic hydrocarbons: benzene",
+      "points": [
+        "Benzene, C₆H₆, is a colourless liquid with a boiling point of 80 °C and a sweet smell.",
+        "Its structure is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°.",
+        "All six carbon–carbon bonds are identical, intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring; benzene is drawn as a hexagon with a circle inside (see “Shapes: sigma and pi bonds”).",
+        "Although benzene is unsaturated, it is very stable and resists addition: it does not decolourise bromine water or acidified potassium manganate(VII), and it reacts mainly by substitution.",
+        "Benzene burns with a very smoky, sooty flame because of its high carbon content, 92.3% by mass, the same as ethyne.",
+        "Benzene is toxic and carcinogenic, causing leukaemia, so it is not used in school laboratories, where safer solvents such as cyclohexane are used instead.",
+        "Michael Faraday isolated benzene in 1825, and August Kekulé proposed a ring of alternating single and double bonds in 1865.",
+        "The Kekulé structure cannot explain why all the carbon–carbon bonds are the same length, or why benzene does not decolourise bromine water."
+      ]
+    },
+    {
+      "h": "Comparing the groups",
+      "points": [
+        "Alkanes have the general formula CₙH₂ₙ₊₂, single C–C bonds, tetrahedral shape with 109.5° angles around each carbon, and methane as the first member; bromine water shows no change.",
+        "Alkenes have the general formula CₙH₂ₙ, one double bond, planar shape with 120° angles, and ethene as the first member; bromine water is decolourised.",
+        "Alkynes have the general formula CₙH₂ₙ₋₂, one triple bond, a linear shape with 180° angles, and ethyne as the first member; bromine water is decolourised.",
+        "Benzene has the general formula C₆H₆, a delocalised ring, a planar shape with 120° angles, and benzene as the first member; bromine water shows no change.",
+        "All four groups are non-polar, with only London dispersion forces between their molecules, so all are insoluble in water and soluble in non-polar solvents; small members are gases (see “Explaining and predicting properties”).",
+        "Reactivity follows bonding: single bonds only give unreactive alkanes; a localised double or triple bond gives reactive alkenes and alkynes that undergo addition; a delocalised ring gives benzene, which is stable and undergoes substitution rather than addition."
+      ]
+    },
+    {
+      "h": "IUPAC naming up to C6",
+      "b": "Names follow the systematic IUPAC rules, and only compounds up to C6 need to be named.",
+      "points": [
+        "The stem gives the number of carbons in the parent chain: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.",
+        "The ending is -ane for alkanes, -ene for alkenes and -yne for alkynes.",
+        "Find the longest continuous carbon chain, which may bend on paper; this gives the parent name.",
+        "Number the chain from the end that gives the side chains the lowest numbers.",
+        "Name side chains as alkyl groups: methyl (–CH₃) and ethyl (–C₂H₅); give each a position number, using di- and tri- for repeats.",
+        "Separate numbers from one another with commas, and separate numbers from words with hyphens; list different side chains alphabetically.",
+        "CH₃CH(CH₃)CH₃ is methylpropane, and CH₃CH(CH₃)CH₂CH₃ is 2-methylbutane, not 3-methylbutane.",
+        "C(CH₃)₄ is 2,2-dimethylpropane, CH₃CH₂CH(CH₃)CH₂CH₃ is 3-methylpentane, and (CH₃)₂CHCH(CH₃)₂ is 2,3-dimethylbutane.",
+        "For alkenes and alkynes the main chain must contain the multiple bond; number from the end nearer to it, and give the number of its first carbon before -ene or -yne.",
+        "CH₂=CHCH₂CH₃ is but-1-ene, CH₃CH=CHCH₃ is but-2-ene, CH₂=C(CH₃)CH₃ is 2-methylpropene, and CH₂=CHCH₂CH₂CH₂CH₃ is hex-1-ene.",
+        "HC≡CCH₃ is propyne, and CH₃C≡CCH₃ is but-2-yne.",
+        "Ethene, propene, ethyne and propyne need no number, because there is only one position for the multiple bond.",
+        "Rings take the prefix cyclo-, as in cyclohexane; benzene keeps its own name."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Aliphatic hydrocarbon", "definition": "A hydrocarbon with open chains of carbon atoms, or rings that behave like chains, and no benzene ring." },
+    { "term": "Aromatic hydrocarbon", "definition": "A hydrocarbon containing a benzene ring." },
+    { "term": "Saturated", "definition": "Containing only carbon–carbon single bonds, so that no further atoms can be added to the molecule." },
+    { "term": "Unsaturated", "definition": "Containing at least one carbon–carbon double or triple bond." },
+    { "term": "Homologous series", "definition": "A family of compounds with the same general formula, similar chemical properties and a gradual change in physical properties, each member differing from the next by CH₂." },
+    { "term": "Alkyl group", "definition": "A group of carbon and hydrogen atoms derived from an alkane, such as methyl or ethyl, attached to the parent chain as a side chain." },
+    { "term": "Parent chain", "definition": "The longest continuous carbon chain in a molecule, which gives the stem of its name." },
+    { "term": "IUPAC", "definition": "The International Union of Pure and Applied Chemistry, which sets the systematic naming rules for compounds." },
+    { "term": "Cyclo-", "definition": "A prefix showing that a hydrocarbon forms a ring of carbon atoms." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Compare alkanes, alkenes and alkynes in terms of general formula, the type of carbon–carbon bond, and their reaction with bromine water.",
+      "model": "Alkanes have the general formula CₙH₂ₙ₊₂ and contain only single carbon–carbon bonds, so they are saturated; they do not decolourise bromine water. Alkenes have the general formula CₙH₂ₙ and contain one carbon–carbon double bond, so they are unsaturated; they decolourise bromine water by addition. Alkynes have the general formula CₙH₂ₙ₋₂ and contain one carbon–carbon triple bond, so they are unsaturated; they decolourise bromine water by addition."
+    },
+    {
+      "marks": 9,
+      "prompt": "Give the IUPAC names of: (i) CH₃CH(CH₃)CH₂CH₃, (ii) CH₃CH=CHCH₂CH₃, (iii) (CH₃)₂CHCH(CH₃)₂. Draw the structure of 2,2-dimethylbutane.",
+      "model": "(i) 2-methylbutane: the longest chain has four carbons, giving the parent butane, with a methyl group on carbon 2. (ii) pent-2-ene: a five-carbon chain with the double bond starting at carbon 2. (iii) 2,3-dimethylbutane: a four-carbon chain with methyl groups on carbons 2 and 3. 2,2-dimethylbutane is CH₃C(CH₃)₂CH₂CH₃: a four-carbon chain with two methyl groups on carbon 2, drawn with every carbon and its bonds shown."
+    },
+    {
+      "marks": 6,
+      "prompt": "Benzene is unsaturated, yet it does not decolourise bromine water. Explain, and describe the structure of benzene.",
+      "model": "Benzene is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°. All six carbon–carbon bonds are identical and intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring. Kekulé's alternating-bond structure cannot explain the equal bond lengths. This delocalisation makes benzene very stable, so it resists addition, which would break up the ring; it reacts by substitution instead, and so does not decolourise bromine water."
+    }
+  ]
+}

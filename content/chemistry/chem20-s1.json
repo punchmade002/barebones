@@ -1,0 +1,99 @@
+{
+  "loId": "chem20-s1",
+  "chapterId": "chem20",
+  "subsection": "1. The natural greenhouse effect",
+  "syllabusRef": "4.3.1",
+  "notes": [
+    {
+      "h": "The carbon cycle",
+      "b": "Carbon moves continuously between stores. The balance between sources and sinks decides how much CO₂ is in the air.",
+      "points": [
+        "Carbon is stored in the atmosphere (mainly as CO₂), in the oceans (dissolved CO₂, hydrogencarbonate and carbonate ions), in living things (carbohydrates, proteins and fats), in soils and peat, and in rocks (limestone and fossil fuels).",
+        "Photosynthesis removes CO₂ from the air: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), powered by sunlight in green plants, algae and phytoplankton.",
+        "Respiration by plants, animals and microorganisms returns CO₂: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).",
+        "Decay, the breakdown of dead matter by microorganisms, also releases CO₂, and releases CH₄ where oxygen is absent.",
+        "CO₂ dissolves in the oceans and waterways: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq).",
+        "Marine organisms use carbonate to build calcium carbonate shells and skeletons, which over long periods form limestone.",
+        "Combustion of fuels releases CO₂, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l); natural sources also include forest fires and volcanic eruptions.",
+        "Peat forms from dead organisms buried over thousands of years, and coal, oil and natural gas form over millions of years; both are buried without enough oxygen for full decay, so they are long-term carbon stores.",
+        "Diagram: the carbon cycle with atmospheric CO₂ at the centre and labelled arrows for photosynthesis, respiration, decay, combustion, dissolving in the oceans, formation of shells and limestone, and formation of fossil fuels."
+      ]
+    },
+    {
+      "h": "Sources, sinks and balance",
+      "points": [
+        "A carbon source adds more CO₂ to the atmosphere than it removes, e.g. burning fossil fuels, respiration, decay, volcanoes, and heating limestone in cement-making: CaCO₃(s) → CaO(s) + CO₂(g).",
+        "A carbon sink removes more carbon from the atmosphere than it releases, and stores it; examples are growing forests, the oceans, and undisturbed peatlands and wetlands.",
+        "Waterlogged conditions in undisturbed peatlands and wetlands stop dead plant material from decaying, so the carbon stays stored.",
+        "Before industrialisation, natural sources and sinks were roughly in balance, so atmospheric CO₂ stayed fairly steady at about 280 ppm.",
+        "Burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it.",
+        "Deforestation and draining peatlands both remove sinks and release stored carbon.",
+        "As a result, atmospheric CO₂ has risen to about 420 ppm in the mid-2020s.",
+        "CO₂ is a greenhouse gas, so a carbon cycle out of balance changes the climate. Natural changes in the cycle over thousands of years have caused past climate changes; the present change is human-influenced and much faster.",
+        "Sustainability means using resources so that they are not used up and the environment is not damaged for future generations. For carbon this means keeping emissions in balance with what sinks can absorb, e.g. by using renewable energy and protecting forests and peatlands."
+      ]
+    },
+    {
+      "h": "The natural greenhouse effect",
+      "b": "Greenhouse gases in the atmosphere trap some of the heat the Earth radiates, keeping the lower atmosphere warm.",
+      "points": [
+        "Energy from the Sun reaches the Earth mainly as visible light, with some ultraviolet and near-infrared; the atmosphere is largely transparent to visible light, so it passes through.",
+        "About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface; the rest is absorbed and warms the land and oceans.",
+        "The warmed Earth radiates energy back out as longer-wavelength infrared (IR) radiation, which is heat.",
+        "Greenhouse gases absorb some of this IR and re-emit it in all directions, including back down towards the surface, so heat is kept in the lower atmosphere for longer.",
+        "Warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases is the natural greenhouse effect.",
+        "The main natural greenhouse gases are water vapour, the largest contributor, and carbon dioxide, with smaller amounts of methane and dinitrogen oxide (N₂O); ozone also contributes.",
+        "The name is an analogy with a glass greenhouse, which lets sunlight in and keeps heat in; the analogy is not exact, because a real greenhouse works mainly by stopping warm air escaping.",
+        "Diagram: the Sun, incoming short-wavelength radiation passing through the atmosphere, some reflected, IR emitted from the surface, some absorbed by a layer of greenhouse gases and re-emitted back down, and some escaping to space."
+      ]
+    },
+    {
+      "h": "Why some gases absorb infrared",
+      "points": [
+        "Nitrogen (N₂, about 78% of dry air), oxygen (O₂, about 21%) and argon (about 0.9%) do not absorb IR radiation, so they are not greenhouse gases.",
+        "A molecule absorbs IR when the energy makes its bonds vibrate (stretch or bend) in a way that changes how charge is spread across the molecule.",
+        "Molecules of two identical atoms (N₂, O₂) cannot do this, while H₂O, CO₂, CH₄ and N₂O, with three or more atoms and polar bonds, can.",
+        "Water vapour contributes most to the natural greenhouse effect because it is by far the most abundant greenhouse gas.",
+        "The concentration of water vapour is set by temperature, through evaporation and condensation, not directly by human emissions."
+      ]
+    },
+    {
+      "h": "Significance",
+      "points": [
+        "Without the natural greenhouse effect, the Earth's average surface temperature would be about −18 °C instead of about +15 °C, a difference of about 33 °C.",
+        "At −18 °C the oceans would freeze and life as we know it could not exist.",
+        "The natural greenhouse effect keeps water liquid over most of the planet and evens out the difference between day and night temperatures.",
+        "The natural effect is essential and beneficial; the problem is the extra warming caused by increased greenhouse gas concentrations (see “The enhanced greenhouse effect”).",
+        "John Tyndall (1820–1893), born in Leighlinbridge, Co. Carlow, used experiments from 1859 at the Royal Institution in London to show which gases absorb heat radiation.",
+        "Tyndall's experiments laid the experimental foundation for understanding the greenhouse effect; the Tyndall National Institute in Cork is named after him."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Carbon cycle", "definition": "The continuous movement of carbon between the atmosphere, oceans, living things, soils and rocks." },
+    { "term": "Carbon source", "definition": "A process or place that adds more CO₂ to the atmosphere than it removes." },
+    { "term": "Carbon sink", "definition": "A process or place that removes more carbon from the atmosphere than it releases, and stores it." },
+    { "term": "Greenhouse gas", "definition": "A gas in the atmosphere that absorbs infrared radiation and re-emits it, warming the lower atmosphere." },
+    { "term": "Natural greenhouse effect", "definition": "The warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases." },
+    { "term": "Infrared (IR) radiation", "definition": "Longer-wavelength heat radiation emitted by the warmed Earth." },
+    { "term": "Decay", "definition": "The breakdown of dead matter by microorganisms, which releases CO₂ and, without oxygen, CH₄." },
+    { "term": "Sustainability", "definition": "Using resources so that they are not used up and the environment is not damaged for future generations." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe the natural greenhouse effect and explain why it is essential for life on Earth.",
+      "model": "The natural greenhouse effect is the warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases. About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface. The rest passes through the largely transparent atmosphere as visible light and warms the land and oceans. The warmed Earth radiates energy back out as infrared (IR) radiation. Greenhouse gases absorb some of this IR and re-emit it in all directions, including back down towards the surface, so heat is kept in the lower atmosphere for longer. The main natural greenhouse gases are water vapour, the largest contributor, and carbon dioxide, with smaller amounts of methane and dinitrogen oxide. Without this effect the average surface temperature would be about −18 °C instead of about +15 °C, and the oceans would freeze and life as we know it could not exist. The natural effect also keeps water liquid over most of the planet and evens out day and night temperatures."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe two processes that remove carbon dioxide from the atmosphere and two that add it, and explain how human activity has upset the balance of the carbon cycle.",
+      "model": "Two processes that remove CO₂ are photosynthesis, 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), and dissolving in the oceans, where CO₂(g) ⇌ CO₂(aq) and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) follow; marine organisms use carbonate to build calcium carbonate shells that form limestone over long periods. Two processes that add CO₂ are respiration, C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), and combustion of fuels, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Before industrialisation, natural sources and sinks were roughly in balance and CO₂ stayed at about 280 ppm. Human activity has upset the balance: burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it, and deforestation and draining peatlands remove sinks and release stored carbon. As a result, atmospheric CO₂ has risen to about 420 ppm in the mid-2020s."
+    },
+    {
+      "marks": 6,
+      "prompt": "Nitrogen and oxygen make up about 99% of dry air but are not greenhouse gases. Explain why, and explain why water vapour makes the largest contribution to the natural greenhouse effect.",
+      "model": "Nitrogen and oxygen are not greenhouse gases because they do not absorb infrared radiation. A molecule absorbs IR when the energy makes its bonds vibrate in a way that changes how charge is spread across the molecule. Molecules of two identical atoms, N₂ and O₂, cannot do this. Water vapour has three or more atoms with polar bonds, so it absorbs IR. It is by far the most abundant greenhouse gas, so it makes the largest contribution to the natural greenhouse effect. Its concentration is set by temperature, through evaporation and condensation, rather than directly by human emissions."
+    }
+  ]
+}

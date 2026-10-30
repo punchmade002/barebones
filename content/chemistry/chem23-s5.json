@@ -1,0 +1,116 @@
+{
+  "loId": "chem23-s5",
+  "chapterId": "chem23",
+  "subsection": "5. Explaining and predicting properties",
+  "syllabusRef": "2.4.5",
+  "notes": [
+    {
+      "h": "The three factors",
+      "points": [
+        "Hydrocarbons are non-polar, because C–H bonds have very low polarity (see “Electronegativity and bond type”), so the only forces between their molecules are London dispersion forces.",
+        "London dispersion forces get stronger as relative molecular mass increases, because there are more electrons and larger electron clouds, and as the area of contact between molecules increases.",
+        "The stronger the intermolecular forces, the more energy is needed to separate the molecules, so the higher the boiling point and the more likely the substance is a liquid or solid at room temperature.",
+        "The nature of the carbon–carbon bonds decides chemical reactivity: single bonds only give unreactive compounds, while a C=C double bond gives reactivity through addition reactions.",
+        "Boiling overcomes the forces between molecules; it does not break C–C or C–H bonds."
+      ]
+    },
+    {
+      "h": "Straight-chain alkanes: boiling point and state",
+      "b": "The data show how boiling point depends on carbon number in the straight-chain alkanes.",
+      "points": [
+        "Boiling points: methane −162 °C, ethane −89 °C, propane −42 °C, butane −1 °C, pentane 36 °C and hexane 69 °C.",
+        "Boiling point rises with carbon number because each extra CH₂ increases the relative molecular mass and the number of electrons, and lengthens the molecule, so London dispersion forces get stronger.",
+        "The rise for each extra CH₂ gets smaller: the successive differences are 73, 47, 41, 37 and 33 °C, because each CH₂ is a smaller fraction of the molecule.",
+        "At room temperature, about 20 °C, methane to butane are gases, while pentane and hexane are liquids.",
+        "Larger alkanes up to about C16 are liquids, and beyond that they are waxy solids."
+      ]
+    },
+    {
+      "h": "Straight-chain alkanes: solubility, combustion and reactivity",
+      "points": [
+        "All alkanes are insoluble in water, because they are non-polar and cannot form hydrogen bonds with water.",
+        "All alkanes dissolve in or mix with non-polar solvents such as cyclohexane, following the rule “like dissolves like”.",
+        "Liquid alkanes are less dense than water and float on it; hexane has a density of about 0.66 g cm⁻³.",
+        "All alkanes burn completely to CO₂ and H₂O, e.g. C₆H₁₄(l) + 9½O₂(g) → 6CO₂(g) + 7H₂O(l); larger alkanes need more oxygen per mole and release more energy per mole.",
+        "Larger alkanes burn with a more luminous, smokier flame and are less volatile, so they are harder to ignite; the percentage of carbon rises from 75.0% in CH₄ to 83.7% in C₆H₁₄, making incomplete combustion, with soot and CO, more likely.",
+        "There is no difference in reactivity: all straight-chain alkanes are unreactive, reacting only by combustion or by substitution with halogens in ultraviolet light."
+      ]
+    },
+    {
+      "h": "Isomers of the same carbon number: boiling points",
+      "b": "Alkanes with the same carbon number but different structures are structural isomers: they have the same molecular formula and Mr, but a different arrangement of the chain.",
+      "points": [
+        "Butane (−1 °C) and methylpropane (−12 °C) are the isomers of C₄H₁₀.",
+        "Pentane (36 °C), 2-methylbutane (28 °C) and 2,2-dimethylpropane (10 °C) are the isomers of C₅H₁₂.",
+        "Hexane (69 °C), 3-methylpentane (63 °C), 2-methylpentane (60 °C), 2,3-dimethylbutane (58 °C) and 2,2-dimethylbutane (50 °C) are the isomers of C₆H₁₄.",
+        "The more branched the molecule, the more compact, or closer to spherical, it is, so the area of contact between neighbouring molecules is smaller.",
+        "Smaller contact gives weaker London dispersion forces and a lower boiling point, since the Mr is the same for all the isomers; unbranched chains lie alongside each other with a large area of contact."
+      ]
+    },
+    {
+      "h": "Isomers of the same carbon number: state, chemistry and diagram",
+      "points": [
+        "2,2-dimethylpropane, with a boiling point of 10 °C, is a gas at room temperature, although pentane, with the same formula, is a liquid at room temperature because its boiling point is 36 °C.",
+        "Isomers show no significant difference in solubility, combustion or reactivity: all are non-polar and insoluble in water, burn to the same products with the same equation, e.g. C₅H₁₂ + 8O₂ → 5CO₂ + 6H₂O, and are equally unreactive.",
+        "Diagram: two pentane molecules lying side by side with a large area of contact, beside two 2,2-dimethylpropane molecules touching at only a small area."
+      ]
+    },
+    {
+      "h": "Straight-chain alkenes: boiling point and state",
+      "points": [
+        "Boiling points: ethene −104 °C, propene −48 °C, but-1-ene −6 °C, pent-1-ene 30 °C and hex-1-ene 63 °C.",
+        "Boiling point rises with carbon number for the same reason as in alkanes: a larger Mr, more electrons and stronger London dispersion forces.",
+        "Ethene to butene are gases at room temperature, while pentene and hexene are liquids.",
+        "Each alkene boils a little lower than the alkane with the same number of carbons, e.g. ethene −104 °C against ethane −89 °C and hex-1-ene 63 °C against hexane 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London forces."
+      ]
+    },
+    {
+      "h": "Straight-chain alkenes: solubility, combustion and reactivity",
+      "points": [
+        "All alkenes are insoluble in water and soluble in non-polar solvents, like alkanes.",
+        "All alkenes burn to CO₂ and H₂O, e.g. C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).",
+        "Every straight-chain alkene has the same percentage of carbon, 85.7%, since all have the formula CₙH₂ₙ; this is more than in the alkanes, so alkenes burn with smokier flames than alkanes.",
+        "All alkenes have one C=C bond, so they all undergo the same addition reactions, e.g. all decolourise bromine water, and they are much more reactive than alkanes.",
+        "Changing the chain length or the position of the double bond makes little difference to reactivity."
+      ]
+    },
+    {
+      "h": "Predicting behaviour up to C6",
+      "b": "Use the data tables to predict properties from the trends.",
+      "points": [
+        "To predict a boiling point, use the trend in a table: the value lies between those of the neighbouring members, or of isomers with more and less branching.",
+        "Pent-1-ene, with a boiling point of 30 °C, is a liquid at 20 °C but would vaporise readily on a warm day.",
+        "2-Methylpentane boils below hexane, because both are C₆H₁₄ and the branched isomer has a smaller area of contact.",
+        "Hex-1-ene will decolourise bromine water and hexane will not, and both will float on water without dissolving.",
+        "A mixture of pentane and hexane can be separated by fractional distillation, because their boiling points differ, at 36 °C and 69 °C."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "London dispersion forces", "definition": "Weak intermolecular forces, caused by temporary dipoles, that act between all molecules and increase with relative molecular mass and area of contact." },
+    { "term": "Intermolecular forces", "definition": "The attractions between neighbouring molecules, which are overcome, not broken bonds, when a substance boils." },
+    { "term": "Structural isomers", "definition": "Compounds with the same molecular formula but different arrangements of atoms." },
+    { "term": "Relative molecular mass", "definition": "The sum of the relative atomic masses of the atoms in a molecule, written Mr." },
+    { "term": "Area of contact", "definition": "The part of a molecule's surface that touches its neighbours, which is larger for straight-chain molecules than for branched isomers." },
+    { "term": "Like dissolves like", "definition": "The principle that substances dissolve in solvents of similar polarity, so non-polar hydrocarbons dissolve in non-polar solvents." },
+    { "term": "Monounsaturated", "definition": "Containing one carbon–carbon double bond." },
+    { "term": "Volatile", "definition": "Evaporating readily, which is the property of a substance with a low boiling point." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "The boiling points of pentane, 2-methylbutane and 2,2-dimethylpropane are 36 °C, 28 °C and 10 °C. All three have the formula C₅H₁₂. Explain the difference and state which is a gas at 20 °C.",
+      "model": "All three are structural isomers with the same Mr, so the difference comes from shape rather than mass. Pentane is unbranched, so its molecules lie alongside each other with a large area of contact; its London dispersion forces are the strongest, giving the highest boiling point of 36 °C. The more branched isomers are more compact, with a smaller area of contact, so their London dispersion forces are weaker and their boiling points are lower: 28 °C for 2-methylbutane and 10 °C for 2,2-dimethylpropane. At 20 °C, 2,2-dimethylpropane, with a boiling point of 10 °C, is a gas, while pentane and 2-methylbutane are liquids."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why the boiling points of the alkenes ethene to hex-1-ene increase, why hex-1-ene boils at a lower temperature than hexane, and whether you would expect any difference in their solubility in water.",
+      "model": "The boiling points rise from ethene, −104 °C, through propene, −48 °C, but-1-ene, −6 °C, and pent-1-ene, 30 °C, to hex-1-ene, 63 °C, because the relative molecular mass and the number of electrons increase, so London dispersion forces get stronger. Hex-1-ene boils at 63 °C, lower than hexane at 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London dispersion forces. There is no significant difference in solubility in water: all the alkenes are non-polar, cannot form hydrogen bonds with water, and are insoluble in it."
+    },
+    {
+      "marks": 6,
+      "prompt": "Hexane and hex-1-ene are both colourless liquids. Predict and explain one way in which their chemical properties differ and one way in which their combustion differs.",
+      "model": "Chemical properties: hex-1-ene has a C=C double bond and undergoes addition reactions, so it decolourises bromine water; hexane has only single bonds, is unreactive, and does not decolourise bromine water. Combustion: both burn completely to CO₂ and H₂O, but hex-1-ene, with 85.7% carbon by mass, burns with a smokier flame than hexane, which has 83.7% carbon."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "loId": "chem25-s9",
+  "chapterId": "chem25",
+  "subsection": "9. Investigation: making soap",
+  "syllabusRef": "4.2.14",
+  "notes": [
+    {
+      "h": "Aim and chemistry",
+      "points": [
+        "Aim: to make soap on a small scale from household reactants, by base hydrolysis (saponification) of a fat or oil with sodium hydroxide, and to compare the product when sodium hydroxide is limiting with when it is in excess.",
+        "Word equation: fat or oil + sodium hydroxide gives soap (the sodium salts of fatty acids) + glycerol.",
+        "One mole of fat reacts with 3 moles of NaOH.",
+        "Household reactants: a vegetable oil or fat, e.g. olive, sunflower or coconut oil, or lard; sodium hydroxide, sold as caustic soda; water; and table salt for brine.",
+        "A reflux method is not required: the mixture is heated gently in an open container in a water bath."
+      ]
+    },
+    {
+      "h": "Method",
+      "points": [
+        "Weigh a known mass of oil, e.g. 10 g, into a beaker or evaporating basin.",
+        "Add a measured volume of sodium hydroxide solution of known concentration; a little ethanol, if available, can be added as a solvent in which both the oil and the sodium hydroxide dissolve, so that they mix and react faster.",
+        "Heat gently in a water bath, stirring continuously, for about 20–30 minutes, adding a little water if the mixture dries out; the mixture becomes thick and creamy as soap forms.",
+        "Pour the mixture into a beaker of saturated salt solution (brine) and stir; the soap separates as solid curds, because soap is much less soluble in concentrated salt solution than in water; this is salting out.",
+        "Collect the soap by filtration or by skimming it off, and wash it with a little ice-cold water, because warm water would dissolve the soap.",
+        "Press the soap dry between filter papers, leave it to dry and weigh it.",
+        "Repeat with the same mass of oil but a different amount of sodium hydroxide, so that one batch has NaOH in excess and the other has NaOH limiting; see the calculation block.",
+        "Diagram: a beaker of oil and sodium hydroxide solution in a water bath, with a stirring rod and a thermometer, and a filter funnel collecting the soap from the brine."
+      ]
+    },
+    {
+      "h": "Testing the soap",
+      "points": [
+        "Shake a little soap with deionised water: it forms a lather, and the solution is slightly alkaline, about pH 9–10.",
+        "Shake a little soap with hard water, e.g. mineral water from a limestone region: a scum forms and there is little lather.",
+        "Test a solution of each batch with universal indicator or a pH meter: soap made with excess NaOH has a much higher pH, unless the NaOH has been washed out.",
+        "Look and feel the soap, wearing gloves: soap from a batch with limiting NaOH is greasy and soft, with an oily layer of unreacted oil.",
+        "The glycerol co-product and any excess sodium hydroxide dissolve in the brine filtrate, not in the washed soap."
+      ]
+    },
+    {
+      "h": "Why each step is needed",
+      "points": [
+        "Heating speeds up the hydrolysis, which is slow at room temperature; a water bath gives gentle, even heat and avoids a flame, because ethanol is flammable.",
+        "Stirring mixes the oil with the aqueous sodium hydroxide, which do not mix by themselves, so they keep reacting.",
+        "Brine separates the soap from glycerol, water and excess NaOH, which all stay in solution.",
+        "Washing with ice-cold water removes NaOH and glycerol from the soap surface without dissolving much soap."
+      ]
+    },
+    {
+      "h": "Safety and errors",
+      "points": [
+        "Sodium hydroxide is corrosive and especially harmful to the eyes: wear goggles and gloves.",
+        "Add the sodium hydroxide carefully, because dissolving NaOH in water is exothermic.",
+        "Do not use the product on skin, because it may contain unreacted sodium hydroxide.",
+        "Sources of error include soap lost in the brine and washings, wet soap being weighed, which gives too high a mass, and a reaction not completed in the time allowed.",
+        "Household oils are mixtures, so the mass of NaOH needed can only be estimated."
+      ]
+    },
+    {
+      "h": "Consequences of limiting or excess sodium hydroxide (Higher Level only)",
+      "points": [
+        "If NaOH is limiting, not all the fat is hydrolysed: the yield of soap is set by the moles of NaOH, and unreacted fat or oil remains.",
+        "The soap made with limiting NaOH is greasy and soft, and the leftover oil is wasted and can go rancid.",
+        "If NaOH is in excess, all the fat is converted, giving the maximum yield of soap from the fat.",
+        "The soap made with excess NaOH contains free sodium hydroxide, which is caustic, has a high pH and irritates or burns skin.",
+        "Excess NaOH must be removed, by washing the soap with brine or water, or by neutralisation.",
+        "Excess NaOH is also wasted reagent and makes the waste liquid strongly alkaline.",
+        "Manufacturers calculate the exact amount of NaOH needed for the fat used, then wash the soap with brine to remove any excess.",
+        "Small-scale soap makers often use slightly less NaOH than needed, leaving a little unreacted oil, called superfatting, so that no free NaOH remains and the soap is gentler.",
+        "The amount of NaOH needed follows from the 1 : 3 ratio of fat to NaOH; for a real oil it can only be estimated, because oils are mixtures of different tri-esters."
+      ]
+    },
+    {
+      "h": "Sample calculation (Higher Level only)",
+      "points": [
+        "Model fat: glyceryl tristearate, M = 890 g mol⁻¹; sodium stearate (soap), M = 306 g mol⁻¹; NaOH, M = 40 g mol⁻¹. Sample data.",
+        "8.90 g of fat = 8.90 ÷ 890 = 0.0100 mol, which needs 3 × 0.0100 = 0.0300 mol of NaOH = 1.20 g.",
+        "Batch 1, NaOH in excess: 2.00 g of NaOH = 0.0500 mol; 0.0300 mol reacts, leaving 0.0200 mol (0.800 g) over. The fat is limiting, so soap = 3 × 0.0100 = 0.0300 mol × 306 = 9.18 g.",
+        "Batch 2, NaOH limiting: 1.00 g of NaOH = 0.0250 mol, less than the 0.0300 mol needed. Soap = 0.0250 mol × 306 = 7.65 g.",
+        "In batch 2, fat used = 0.0250 ÷ 3 = 0.00833 mol, so fat left unreacted = 0.0100 − 0.00833 = 0.001667 mol; keep the extra figure until the end, then 0.001667 × 890 = 1.48 g.",
+        "Conclusion: batch 1 gives more soap, 9.18 g, but contains 0.800 g of corrosive NaOH that must be washed out; batch 2 gives less soap, 7.65 g, mixed with 1.48 g of unreacted fat."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Saponification", "definition": "The base hydrolysis of a fat or oil by sodium hydroxide, which gives soap and glycerol." },
+    { "term": "Salting out", "definition": "The separation of soap from its solution by adding concentrated salt solution, in which soap is much less soluble." },
+    { "term": "Brine", "definition": "Concentrated aqueous sodium chloride solution." },
+    { "term": "Caustic soda", "definition": "The common name for sodium hydroxide, NaOH." },
+    { "term": "Glycerol", "definition": "Propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, the co-product of making soap from a fat." },
+    { "term": "Limiting reagent", "definition": "The reactant that is used up first and so limits the amount of product that can form." },
+    { "term": "Excess reagent", "definition": "A reactant present in more than the amount needed, so some of it is left over at the end of the reaction." },
+    { "term": "Superfatting", "definition": "Making soap with slightly less sodium hydroxide than needed, so that a little unreacted oil remains and no free NaOH is left." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe a simple activity to make a small sample of soap from vegetable oil and sodium hydroxide, explaining the purpose of the brine and of washing the soap with ice-cold water.",
+      "model": "Weigh about 10 g of vegetable oil into a beaker and add a measured volume of sodium hydroxide solution, with a little ethanol if available to help the two mix. Heat gently in a water bath for 20 to 30 minutes, stirring continuously and adding a little water if the mixture dries out; the mixture becomes thick and creamy as soap forms. Pour the mixture into saturated salt solution, the brine, and stir. The soap separates as solid curds, because soap is much less soluble in concentrated salt solution, and the brine keeps the glycerol, water and excess sodium hydroxide in solution, separating them from the soap. Filter the soap, and wash it with a little ice-cold water: the cold water removes sodium hydroxide and glycerol from the surface, whereas warm water would dissolve the soap. Press the soap dry, leave it to dry and weigh it. Wear goggles and gloves, because sodium hydroxide is corrosive."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain the consequences for the soap produced of using (i) too little sodium hydroxide, (ii) too much sodium hydroxide, and state how manufacturers deal with this.",
+      "model": "(i) Too little sodium hydroxide means it is limiting. Not all the fat is hydrolysed, so the yield of soap is set by the moles of NaOH, and unreacted fat or oil remains, making the soap greasy and soft. (ii) Too much sodium hydroxide means it is in excess. All the fat is converted, giving the maximum yield of soap, but the soap contains free sodium hydroxide, which is caustic, has a high pH and irritates or burns skin, and the excess is wasted. Manufacturers calculate the exact amount of NaOH needed for the fat and then wash the soap with brine to remove any excess. Small-scale soap makers may use slightly less NaOH than needed, leaving a little unreacted oil, which is called superfatting, so that no free NaOH remains."
+    },
+    {
+      "marks": 9,
+      "prompt": "4.45 g of glyceryl tristearate (M = 890) was heated with 0.400 g of sodium hydroxide. Show which reagent is limiting and calculate the maximum mass of sodium stearate (M = 306) that could form (sample data).",
+      "model": "Moles of fat = 4.45 ÷ 890 = 0.00500 mol. NaOH needed for complete reaction = 3 × 0.00500 = 0.0150 mol. Moles of NaOH available = 0.400 ÷ 40 = 0.0100 mol, which is less than 0.0150 mol, so the NaOH is limiting. Soap formed = 0.0100 mol × 306 = 3.06 g, since 3 mol of NaOH give 3 mol of soap. Fat used = 0.0100 ÷ 3 = 0.00333 mol, so unreacted fat = (0.00500 − 0.00333) × 890 = 0.001667 × 890 = 1.48 g."
+    }
+  ]
+}
