@@ -823,7 +823,7 @@
    {
     "h": "Mining and energy extraction",
     "points": [
-     "Tara Mines, Navan, Co. Meath, is Europe's largest zinc mine and has produced since 1977; it is owned by Boliden.",
+     "Tara Mines, Navan, Co. Meath, is Europe's largest zinc mine; it opened in 1977 and is owned by Boliden. Production was paused from July 2023 and restarted at the end of 2024.",
      "The Corrib gas field off Co. Mayo first flowed in December 2015.",
      "ESB's peat-fired power stations at Shannonbridge (West Offaly) and Lanesborough (Lough Ree) closed in December 2020.",
      "Bord na Móna's peat harvesting for electricity has ended."
@@ -937,7 +937,7 @@
     "points": [
      "It covers the Santa Clara Valley and the southern San Francisco Bay Area; the name comes from the silicon used in microchips.",
      "Stanford University at Palo Alto encouraged spin-off firms and set up Stanford Research Park in 1951.",
-     "Hewlett-Packard was founded in a Palo Alto garage in 1939; Intel was founded in Santa Clara in 1968.",
+     "Hewlett-Packard was founded in a Palo Alto garage in 1939; Intel was founded in Mountain View in 1968 and is now headquartered in Santa Clara.",
      "Apple is based in Cupertino and Google in Mountain View.",
      "Problems: very high house prices and rents, traffic congestion, and homelessness alongside great wealth."
     ]
@@ -2286,7 +2286,7 @@
     "h": "Physical factors: climate, disease, relief and soils",
     "points": [
      "The Sahel, the semi-arid belt south of the Sahara (Mali, Niger, Chad and Burkina Faso), has suffered repeated droughts since the 1970s, which limit farming and cause famine.",
-     "The 1984 to 1985 Ethiopian famine was followed by Live Aid in 1985.",
+     "In Ethiopia, outside the Sahel, drought worsened by civil war led to the 1984 to 1985 famine, followed by Live Aid in 1985.",
      "Extreme heat and tropical storms add difficulty; temperate climates suit productive farming.",
      "Climate does not decide development: Singapore is tropical, yet it is one of the world's richest countries. Botswana shows that a poor start can be overcome.",
      "Malaria and other tropical diseases reduce life expectancy, the productivity of workers and children's schooling; the malaria figure is in the Measuring economic development note.",
@@ -2403,7 +2403,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Physical factors shape development by limiting or supporting farming, health and trade. Climate matters: repeated droughts in the Sahel since the 1970s limit farming and caused famine, including the 1984 to 1985 Ethiopian famine, and malaria and other tropical diseases reduce life expectancy and workers' productivity. However, climate does not decide development, since Singapore is tropical and one of the world's richest countries. Location matters: landlocked countries such as Chad, Niger and Mali depend on neighbours' roads and ports, which raises trade costs. Resources can help or harm: Botswana's diamonds funded roads, schools and clinics, while the DR Congo produces about 70% of the world's cobalt yet is one of the poorest countries, and Nigeria's Niger Delta oil dominates exports amid spills and conflict. Hazards can set development back: the Haiti earthquake of 2010 killed over 100,000 people, and rich countries recover faster. Political factors are at least as important. Political stability and good governance attract investment: Botswana has held regular elections since its independence in 1966. War destroys infrastructure and drives away investors: Syria's civil war from 2011 displaced millions, and South Sudan entered civil war in December 2013. Corruption diverts public money and aid, with Somalia and South Sudan at or near the bottom of the Corruption Perceptions Index. Government policy can lift development: South Korea invested in education and planned export-led industry, while mismanagement in Zimbabwe and Venezuela caused collapse. Debt and trade rules also limit poor countries, but these are covered under justice. Overall, physical factors set the conditions, and political choices largely determine whether those conditions are used well.",
+    "model": "Physical factors shape development by limiting or supporting farming, health and trade. Climate matters: repeated droughts in the Sahel since the 1970s limit farming and cause famine (drought, worsened by civil war, also lay behind the 1984 to 1985 Ethiopian famine), and malaria and other tropical diseases reduce life expectancy and workers' productivity. However, climate does not decide development, since Singapore is tropical and one of the world's richest countries. Location matters: landlocked countries such as Chad, Niger and Mali depend on neighbours' roads and ports, which raises trade costs. Resources can help or harm: Botswana's diamonds funded roads, schools and clinics, while the DR Congo produces about 70% of the world's cobalt yet is one of the poorest countries, and Nigeria's Niger Delta oil dominates exports amid spills and conflict. Hazards can set development back: the Haiti earthquake of 2010 killed over 100,000 people, and rich countries recover faster. Political factors are at least as important. Political stability and good governance attract investment: Botswana has held regular elections since its independence in 1966. War destroys infrastructure and drives away investors: Syria's civil war from 2011 displaced millions, and South Sudan entered civil war in December 2013. Corruption diverts public money and aid, with Somalia and South Sudan at or near the bottom of the Corruption Perceptions Index. Government policy can lift development: South Korea invested in education and planned export-led industry, while mismanagement in Zimbabwe and Venezuela caused collapse. Debt and trade rules also limit poor countries, but these are covered under justice. Overall, physical factors set the conditions, and political choices largely determine whether those conditions are used well.",
     "prompt": "Levels of economic development show major spatial variations. Examine how physical and political factors influence levels of development, with reference to examples you have studied.",
     "type": "short"
    },
@@ -3683,7 +3683,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "A resource is anything people use to meet their needs. Non-renewable resources such as coal, oil, natural gas and peat formed over millions of years and will run out, whereas renewable resources such as wind, solar, hydro, wave, tidal and geothermal are replaced naturally. Ireland has few fossil fuels of its own and imported close to 90% of its energy before Corrib gas came ashore in 2015, and it still imported about three-quarters of its energy in the early 2020s. Oil is the largest single source of primary energy, used mainly for transport and home heating, and all of it is imported through Whitegate, Co. Cork, Ireland's only refinery. Natural gas is about a third of primary energy: Kinsale Head, off Co. Cork, was Ireland's first commercial gas field from 1978 until production ended in 2020, and Corrib, off Co. Mayo, supplied over half of Irish gas for a time after 2015 before its output began to decline; most gas now comes from Britain by pipeline from Moffat, Scotland, and gas is the largest source of electricity. Coal is small and falling: Moneypoint, Co. Clare, opened in 1985 and burned imported coal until it stopped in 2025. Peat is non-renewable and is being phased out: Bord na Móna's peat-fired stations at Lanesborough and Shannonbridge closed in December 2020, harvesting ended in January 2021, and Edenderry switched to biomass. Renewables supply a little over a tenth of primary energy but about two-fifths of electricity. Hydro's major scheme is Ardnacrusha on the Shannon, opened in 1929, and Turlough Hill is a pumped-storage station, though little potential is left for large new schemes. Wind is the main renewable, supplying about a third of electricity, with Bellacorick, Co. Mayo, as the first commercial wind farm in 1992 and Arklow Bank, off Co. Wicklow, as the first offshore farm in 2004. Solar is growing rapidly, while wave energy is at the Belmullet test site. Ireland missed its 2020 target of 16% renewables, reaching about 13.5%, and its Climate Action Plan aims for 80% renewable electricity by 2030. Interconnectors to Wales (2012) and France (due in the late 2020s) improve energy security.",
+    "model": "A resource is anything people use to meet their needs. Non-renewable resources such as coal, oil, natural gas and peat formed over millions of years and will run out, whereas renewable resources such as wind, solar, hydro, wave, tidal and geothermal are replaced naturally. Ireland has few fossil fuels of its own and imported close to 90% of its energy before Corrib gas came ashore in 2015, and it still imported about three-quarters of its energy in the early 2020s. Oil is the largest single source of primary energy, used mainly for transport and home heating, and all of it is imported through Whitegate, Co. Cork, Ireland's only refinery. Natural gas is about a third of primary energy: Kinsale Head, off Co. Cork, was Ireland's first commercial gas field from 1978 until production ended in 2020, and Corrib, off Co. Mayo, supplied over half of Irish gas for a time after 2015 before its output began to decline; most gas now comes from Britain by pipeline from Moffat, Scotland, and gas is the largest source of electricity. Coal is small and falling: Moneypoint, Co. Clare, opened in 1985 and burned imported coal until it stopped in 2025. Peat is non-renewable and is being phased out: the ESB's peat-fired stations at Lanesborough and Shannonbridge, supplied by Bord na Móna, closed in December 2020, harvesting ended in January 2021, and Edenderry switched to biomass. Renewables supply a little over a tenth of primary energy but about two-fifths of electricity. Hydro's major scheme is Ardnacrusha on the Shannon, opened in 1929, and Turlough Hill is a pumped-storage station, though little potential is left for large new schemes. Wind is the main renewable, supplying about a third of electricity, with Bellacorick, Co. Mayo, as the first commercial wind farm in 1992 and Arklow Bank, off Co. Wicklow, as the first offshore farm in 2004. Solar is growing rapidly, while wave energy is at the Belmullet test site. Ireland missed its 2020 target of 16% renewables, reaching about 13.5%, and its Climate Action Plan aims for 80% renewable electricity by 2030. Interconnectors to Wales (2012) and France (due in the late 2020s) improve energy security.",
     "prompt": "Examine the use of renewable and non-renewable energy resources in Ireland.",
     "type": "short"
    },
@@ -5109,7 +5109,7 @@
     "h": "Irish fish stocks: mackerel dispute and fish farming",
     "points": [
      "From 2010 Iceland and the Faroe Islands set large mackerel quotas as mackerel moved north-west into their waters.",
-     "The EU, with strong support from Irish fishermen, protested and imposed trade measures on the Faroe Islands in 2013; the dispute eased in 2014.",
+     "The EU, with strong support from Irish fishermen, protested; in 2013 it imposed trade measures on the Faroe Islands over its herring catches, banning imports of Faroese herring and mackerel; the dispute eased in 2014.",
      "Salmon farms in western bays: anglers blame sea lice from the farms for harming wild salmon and sea trout."
     ]
    },
@@ -5315,7 +5315,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Corrib gas, Co. Mayo: the economic case was a domestic gas supply from the field about 80 km off north-west Co. Mayo, which for a time supplied over half of Ireland's gas, with revenue and construction jobs. The local and environmental case objected to piping high-pressure, unprocessed gas onshore near homes at Rossport, and to the risk to Sruwaddacon Bay, a protected estuary. The Shell to Sea campaign from 2005 argued the gas should be processed at sea. The Rossport Five were jailed in June 2005 for defying a court order and were released after 94 days, and protests were heavily policed for years, dividing the community. The onshore route was changed and a tunnel was bored under Sruwaddacon Bay; gas first flowed in December 2015, and Shell sold its share in 2018. Irish fish stocks: fishing communities at ports such as Killybegs depend on quotas set under the Common Fisheries Policy, and Irish fishermen argue Ireland's share of its own rich waters is too small. Brexit reduced Irish quotas and led to vessel decommissioning. Conservation measures, such as the 2007 ban on wild salmon drift-netting, cost commercial fishermen compensation, while anglers and conservationists supported it. The mackerel dispute with Iceland and the Faroe Islands led to trade measures against the Faroes in 2013, and sea lice from salmon farms harm wild salmon and sea trout.",
+    "model": "Corrib gas, Co. Mayo: the economic case was a domestic gas supply from the field about 80 km off north-west Co. Mayo, which for a time supplied over half of Ireland's gas, with revenue and construction jobs. The local and environmental case objected to piping high-pressure, unprocessed gas onshore near homes at Rossport, and to the risk to Sruwaddacon Bay, a protected estuary. The Shell to Sea campaign from 2005 argued the gas should be processed at sea. The Rossport Five were jailed in June 2005 for defying a court order and were released after 94 days, and protests were heavily policed for years, dividing the community. The onshore route was changed and a tunnel was bored under Sruwaddacon Bay; gas first flowed in December 2015, and Shell sold its share in 2018. Irish fish stocks: fishing communities at ports such as Killybegs depend on quotas set under the Common Fisheries Policy, and Irish fishermen argue Ireland's share of its own rich waters is too small. Brexit reduced Irish quotas and led to vessel decommissioning. Conservation measures, such as the 2007 ban on wild salmon drift-netting, cost commercial fishermen compensation, while anglers and conservationists supported it. The mackerel and herring disputes with Iceland and the Faroe Islands led to EU trade measures against the Faroes in 2013, and sea lice from salmon farms harm wild salmon and sea trout.",
     "prompt": "Discuss how conflict may develop between economic interests and environmental interests, with reference to two examples that you have studied.",
     "type": "short"
    },
@@ -5720,7 +5720,7 @@
     "term": "The 2025 Irish export surge: what happened and the risk it shows"
    },
    {
-    "definition": "Software and computer services from multinationals such as Google, Meta and Microsoft, with European headquarters in Dublin; financial services at the IFSC, Dublin Docklands (opened 1987); aircraft leasing. Much is sold into EU markets.",
+    "definition": "Software and computer services from multinationals such as Google, Meta and Microsoft, with European headquarters in Dublin; financial services at the IFSC, Dublin Docklands (set up 1987); aircraft leasing. Much is sold into EU markets.",
     "term": "Ireland's services exports: the three main types"
    },
    {
@@ -6525,7 +6525,7 @@
     "points": [
      "Low corporation tax of 12.5%, rising to 15% for very large multinational groups (turnover over €750 million) from 2024 under the OECD global minimum tax agreement.",
      "A young, educated, English-speaking workforce.",
-     "EU membership, which Ireland joined in 1973 as the EEC (now the EU), gives access to the single market. Since the UK left the EU on 31 January 2020, Ireland is the only English-speaking country in the euro area.",
+     "EU membership, which Ireland joined in 1973 as the EEC (now the EU), gives access to the single market. Since the UK left the EU on 31 January 2020, Ireland is the only euro-area country where English is the main language (Malta also has English as an official language).",
      "IDA grants and support for companies that invest here.",
      "Good international links, including ports, airports and broadband.",
      "Clusters of similar firms and suppliers already in the country.",
@@ -7393,7 +7393,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "The trading triad of North America, Europe and the Pacific Rim is the three core economic areas of the world. Together they produce most of the world's manufactured goods, hold the headquarters of most multinational companies, and carry most world trade among themselves, with most foreign direct investment flowing between them. The USA is the world's largest economy and largest importer, and it has run a trade deficit in goods every year since the mid-1970s. Its trade bloc, NAFTA, took effect on 1 January 1994 and was replaced by USMCA on 1 July 2020, and its trade is shaped by tariffs, including the trade war with China from 2018 and the wider tariffs of 2025. Mexico overtook China in 2023 as the largest source of US imports. The EU is a single market of 27 member states, created on 1 January 1993 and using the euro since 1999. It is the largest trading bloc by value and trades strongly with the USA and China, although the July 2025 agreement set a 15% US tariff on most EU goods. The Pacific Rim, mainly East and South-East Asia with Australia, includes Japan, which was the second-largest economy until China overtook it in 2010 and which exports cars and electronics while importing most of its oil, coal and iron ore. China has become the world's largest exporter of goods since 2009, with a huge trade surplus, after its reforms from 1978 and its WTO entry in 2001. South Korea, one of the Asian Tigers, grew from war-damaged poverty through export-led industrialisation under Park Chung-hee, and its chaebol such as Samsung and Hyundai dominate shipbuilding, cars, electronics and memory chips. Regional bodies such as ASEAN, APEC and RCEP (in force from 2022, with about 30% of world population and GDP) strengthen the Pacific Rim's position. Despite this, Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials, so world trade is concentrated in the triad rather than shared across the world.",
+    "model": "The trading triad of North America, Europe and the Pacific Rim is the three core economic areas of the world. Together they produce most of the world's manufactured goods, hold the headquarters of most multinational companies, and carry most world trade among themselves, with most foreign direct investment flowing between them. The USA is the world's largest economy and largest importer, and it has run a trade deficit in goods every year since the mid-1970s. Its trade bloc, NAFTA, took effect on 1 January 1994 and was replaced by USMCA on 1 July 2020, and its trade is shaped by tariffs, including the trade war with China from 2018 and the wider tariffs of 2025. Mexico overtook China in 2023 as the largest source of US imports. The EU single market, created on 1 January 1993, now has 27 member states, and the euro came in 1999. It is the largest trading bloc by value and trades strongly with the USA and China, although the July 2025 agreement set a 15% US tariff on most EU goods. The Pacific Rim, mainly East and South-East Asia with Australia, includes Japan, which was the second-largest economy until China overtook it in 2010 and which exports cars and electronics while importing most of its oil, coal and iron ore. China has become the world's largest exporter of goods since 2009, with a huge trade surplus, after its reforms from 1978 and its WTO entry in 2001. South Korea, one of the Asian Tigers, grew from war-damaged poverty through export-led industrialisation under Park Chung-hee, and its chaebol such as Samsung and Hyundai dominate shipbuilding, cars, electronics and memory chips. Regional bodies such as ASEAN, APEC and RCEP (in force from 2022, with about 30% of world population and GDP) strengthen the Pacific Rim's position. Despite this, Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials, so world trade is concentrated in the triad rather than shared across the world.",
     "prompt": "Examine how world trade is dominated by the USA, Europe and the Pacific Rim.",
     "type": "short"
    },
@@ -8996,7 +8996,7 @@
     "points": [
      "In Ireland the census is carried out by the Central Statistics Office (CSO), and taking part is required by law.",
      "Ireland's census is de facto: it counts everyone present in the State on census night, including visitors, wherever they usually live. The form also records each person's usual residence, so results can be given both ways.",
-     "The census is normally held every five years, in years ending in 1 and 6, on a Sunday night in April.",
+     "The census is normally held every five years on a Sunday night in April. It used to fall in years ending in 1 and 6, but the 2021 census was postponed to 2022 because of COVID-19, so the next is in 2027.",
      "The 2001 census was postponed to 2002 because of foot-and-mouth disease.",
      "The 2021 census was postponed to 2022 because of COVID-19.",
      "The next census is planned for 2027.",
@@ -9127,7 +9127,7 @@
      "For comparison, the population of the whole island was about 8.2 million in 1841.",
      "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
      "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
-     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the notes on Changing migration patterns in Ireland to s6."
+     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the migration notes, from Changing migration patterns in Ireland to Rural-to-urban migration."
     ]
    },
    {
@@ -12703,7 +12703,7 @@
    {
     "h": "Shorter cold and warm periods in historical times",
     "points": [
-     "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north than today.",
+     "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north in England than in the colder centuries that followed.",
      "Norse settlers led by Erik the Red settled Greenland from about AD 985; the settlements were abandoned in the 15th century as the climate cooled.",
      "Little Ice Age, roughly the 14th to the mid-19th century, coldest in the 17th century: a regional cold phase mainly in the North Atlantic and Europe, with Alpine glaciers advancing.",
      "The River Thames in London froze in severe winters, and frost fairs were held on the ice, the last in 1814.",
@@ -13516,7 +13516,7 @@
      "Columbus reached the Americas in 1492. Disease (e.g. smallpox), war and forced labour caused the native population to collapse in the following century.",
      "Spanish and Portuguese settlers produced racially mixed populations. Mestizo means European and Native American ancestry; mulatto means European and African ancestry. Mexico's population is mainly mestizo.",
      "About 12.5 million Africans were shipped across the Atlantic as slaves between the 16th and 19th centuries.",
-     "The main destinations were Brazil, the Caribbean and the American South. Brazil received about 4–5 million Africans, more than any other country.",
+     "Most went to Brazil and the Caribbean; far fewer went to the American South. Brazil received about 4–5 million Africans, more than any other country.",
      "Brazil abolished slavery on 13 May 1888, the last country in the Americas to do so. The USA abolished it by the 13th Amendment (1865), after the Civil War (1861–65).",
      "The legacy is large Black populations and racial inequality across the Americas."
     ]
@@ -13943,7 +13943,7 @@
     "h": "Language and nationalism",
     "points": [
      "Many nation states were built around a single language.",
-     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led the language revival that was part of the Irish independence movement.",
+     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led a language revival that fed the Irish independence movement, though it was founded as a non-political body.",
      "Suppressing a language has been used to weaken a group. Basque and Catalan were banned from public life and schools under Franco (1939–1975).",
      "The Welsh Not was a wooden board hung round the neck of children caught speaking Welsh in some 19th-century schools.",
      "Kurdish was banned in public life and broadcasting in Turkey until the early 1990s."
@@ -14253,7 +14253,7 @@
    },
    {
     "marks": 80,
-    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove the Irish revival that was part of the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
+    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove a language revival that fed the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
     "prompt": "Examine the importance of language as a cultural indicator.",
     "type": "short"
    },
@@ -16461,7 +16461,7 @@
    {
     "h": "Residual and transported parent material in Ireland and Europe",
     "points": [
-     "Residual examples: the limestone of the Irish Midlands and the Burren, and the granite of the Wicklow Mountains, which gives acidic, sandy soils.",
+     "Residual examples: the limestone of the Burren and the granite of the Wicklow Mountains, which gives acidic, sandy soils. Most Midland soils formed on boulder clay over the limestone, so they are transported.",
      "Transported examples: the boulder clay (till) plains of the Irish Midlands, and alluvium on the floodplain of the Shannon Callows, meadows beside the River Shannon that flood in winter.",
      "Loess, called limon in France, covers plateaux of the Paris Basin, such as the Beauce (see A Core European Region: the Paris Basin)."
     ]
@@ -19009,7 +19009,7 @@
     "h": "Eurocentric thinking: history and development",
     "points": [
      "Christopher Columbus reached the Caribbean in 1492. Describing the Americas as discovered treats lands that were already inhabited as if they were empty.",
-     "The Berlin Conference of 1884–85 divided Africa among European powers. By 1914 only Ethiopia and Liberia were independent.",
+     "At the Berlin Conference of 1884–85 European powers set the rules for claiming Africa, which they then divided among themselves. By 1914 only Ethiopia and Liberia were independent.",
      "African and Asian achievements are ignored in European histories.",
      "Edward Said's Orientalism (1978) showed how Western writing portrayed the East as exotic, backward and inferior.",
      "'Developed' was defined as becoming like Western Europe, with industry, urbanisation and mass consumption.",
@@ -19327,7 +19327,7 @@
    {
     "h": "Intel: a short case study",
     "points": [
-     "Intel was founded in 1968 in Santa Clara, California. Research and design are based in Oregon and California.",
+     "Intel was founded in 1968 in Mountain View, California, and is headquartered in Santa Clara. Research and design are based in Oregon and California.",
      "Wafers are made in fabs at Hillsboro (Oregon), Chandler (Arizona), Leixlip and Kiryat Gat (Israel). Leixlip makes processor wafers, not computers.",
      "Assembly and test take place in Penang and Kulim (Malaysia), Ho Chi Minh City (Vietnam) and Chengdu (China).",
      "Customers are computer makers, including Lenovo, HP and Dell, which sell worldwide.",
@@ -20642,7 +20642,7 @@
    {
     "h": "Costa Rica: renewable energy, defence and spending",
     "points": [
-     "Since 2015 almost all (over 98%) of Costa Rica’s electricity has come from renewable sources, mainly hydroelectric, with geothermal and wind.",
+     "Since 2015 almost all of Costa Rica’s electricity has come from renewable sources (over 98% in most years, but about 95% in 2023, when drought cut hydropower), mainly hydroelectric, with geothermal and wind.",
      "Costa Rica abolished its army in 1948 and spends instead on education and health.",
      "In 2021 Costa Rica won the first Earthshot Prize (Protect and Restore Nature) for its forest recovery."
     ]
@@ -20706,7 +20706,7 @@
     "h": "Case study: Kuapa Kokoo and Divine Chocolate, Ghana",
     "points": [
      "Kuapa Kokoo, meaning “good cocoa farmer” in Twi, was founded in 1993.",
-     "Divine Chocolate was set up in Britain in 1998, and Kuapa Kokoo holds 44% of its shares and has seats on its board.",
+     "Divine Chocolate was set up in Britain in 1998, part-owned by Kuapa Kokoo. Since 2020 the German chocolate maker Ludwig Weinrich has held the majority; Kuapa Kokoo kept about 20% of the shares and seats on the board.",
      "Farmers receive a share of Divine’s profits as well as the Fairtrade price and premium.",
      "Premium spending has included wells for clean water, school buildings and mobile health clinics.",
      "Kuapa Kokoo encourages women to take leadership roles in its village societies.",
@@ -20916,7 +20916,7 @@
   "questions": [
    {
     "marks": 80,
-    "model": "The problem: low and unstable prices, middlemen, poor working conditions and child labour, and declining terms of trade, with tariff escalation on processed goods. How fair trade works: the Fairtrade Minimum Price as a floor, the Fairtrade Premium spent on projects chosen by members, pre-finance and long-term contracts, democratic co-operatives, labour and environmental standards, and the Fairtrade Mark. Case studies: Kuapa Kokoo and Divine Chocolate in Ghana, with a 44% shareholding, the premium spent on wells, schools and clinics, and women in leadership; the Oromia union in Ethiopia, selling directly to buyers. Impact on development: stable income, investment, community projects, co-operative empowerment, women’s participation, environmental gains, less child labour, skills and consumer pressure. Fair trade in Ireland: Clonakilty, Fairtrade Fortnight, and retail ranges. Limits and evaluation: a tiny share of trade, costs that exclude the poorest, the 2014 SOAS findings on hired labourers, benefits limited to members, no change to trade rules, and brands leaving for their own schemes. Conclusion: fair trade is a model of just trade that improves lives, but its impact depends on scale and wider trade reform.",
+    "model": "The problem: low and unstable prices, middlemen, poor working conditions and child labour, and declining terms of trade, with tariff escalation on processed goods. How fair trade works: the Fairtrade Minimum Price as a floor, the Fairtrade Premium spent on projects chosen by members, pre-finance and long-term contracts, democratic co-operatives, labour and environmental standards, and the Fairtrade Mark. Case studies: Kuapa Kokoo and Divine Chocolate in Ghana, with the farmers part-owning the brand, the premium spent on wells, schools and clinics, and women in leadership; the Oromia union in Ethiopia, selling directly to buyers. Impact on development: stable income, investment, community projects, co-operative empowerment, women’s participation, environmental gains, less child labour, skills and consumer pressure. Fair trade in Ireland: Clonakilty, Fairtrade Fortnight, and retail ranges. Limits and evaluation: a tiny share of trade, costs that exclude the poorest, the 2014 SOAS findings on hired labourers, benefits limited to members, no change to trade rules, and brands leaving for their own schemes. Conclusion: fair trade is a model of just trade that improves lives, but its impact depends on scale and wider trade reform.",
     "prompt": "Examine the contribution that fair trade can make to sustainable development.",
     "type": "short"
    },
@@ -23822,7 +23822,7 @@
     "h": "Developing region: China",
     "points": [
      "The hukou (household registration) system, introduced in 1958, ties public services to a person's registered home.",
-     "Nearly 300 million rural migrant workers (2023) work in coastal cities such as Shenzhen, Guangzhou and Shanghai.",
+     "Nearly 300 million rural migrant workers (2023), many of them in coastal cities such as Shenzhen, Guangzhou and Shanghai.",
      "Shenzhen grew from a small town to a city of over 17 million after becoming China's first Special Economic Zone in 1980.",
      "China's urban share passed 50% in 2011.",
      "Rural villages are left with 'left-behind' children and elderly people.",
@@ -24356,7 +24356,7 @@
      "Origin: created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris.",
      "Each was drawn so that every place could reach its main town (chef-lieu) within about a day's ride on horseback.",
      "There are 101 départements: 96 in metropolitan France and 5 overseas.",
-     "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes. Paris is 75, and Corsica has two, numbered 2A and 2B.",
+     "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes; Paris is 75. Corsica has two départements, numbered 2A and 2B, though its postcodes begin with 20.",
      "Many are named after natural features such as rivers and mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Seine-Maritime and Pyrénées-Atlantiques.",
      "Government: each has a prefect (préfet), appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges)."
     ]
@@ -24782,7 +24782,7 @@
     "points": [
      "Greater Dublin Area: Dublin, Kildare, Meath and Wicklow. County Dublin had about 1.45 million people in Census 2022.",
      "Dublin, the capital, has the seat of government, and its docklands host the European headquarters of many technology firms, e.g. Google. The Irish core is covered in the Irish Regions chapter.",
-     "Paris Basin, France: its region, Île-de-France, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
+     "Paris Basin, France: Île-de-France, the region around Paris at the basin's core, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
      "The Blue Banana: the curved belt of Europe's main core, running from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan)."
     ]
    },
@@ -25044,7 +25044,7 @@
      "Paris is the primate city of France, at the centre of the Paris Basin. Radial motorways and TGV high-speed lines meet there, so its hinterland reaches across France.",
      "The first TGV line, Paris to Lyon, opened in 1981. Charles de Gaulle Airport serves the city.",
      "London is the capital of the United Kingdom and a global financial centre, through the City of London. Greater London has about 9 million people (Census 2021), and its commuter belt covers much of south-east England.",
-     "Brussels is the capital of Belgium and seat of the main EU institutions: the European Commission, the Council of the EU and the European Parliament, which also meets in Strasbourg. NATO headquarters is also in Brussels.",
+     "Brussels is the capital of Belgium and seat of the European Commission and the Council of the EU; the European Parliament meets both in Brussels and in Strasbourg, its official seat. NATO headquarters is also in Brussels.",
      "Rotterdam is Europe's largest port, at the mouth of the Rhine (Europoort). Its hinterland is the whole Rhine basin, linked by river barges, rail and pipelines, so it crosses national borders.",
      "Milan is the main city of Lombardy, the core of northern Italy, and Italy's financial centre, home to the Borsa Italiana stock exchange.",
      "Other urban regions named in exam matching include Munich (capital of Bavaria), Berlin (capital of Germany) and Rome (capital of Italy)."
@@ -26888,7 +26888,7 @@
     "h": "Urban growth: factors for Paris",
     "points": [
      "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine.",
-     "Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne.",
+     "Situation: Paris lies near the centre of the Paris Basin, where the Seine's main tributaries, the Marne, Oise, Aube and Yonne, converge (the Marne joins just upstream of the city and the Oise just downstream).",
      "Transport: the city is the hub of a radial road and rail network and of the river port at Gennevilliers.",
      "Administration: as capital and seat of a centralised state, Paris concentrates government, finance and head offices.",
      "Primary activity: the rich limon plateaux around the city supplied food to a growing population.",
@@ -26961,7 +26961,7 @@
    },
    {
     "marks": 30,
-    "model": "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine. Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne. Transport: the city is the hub of a radial road and rail network, and the Port of Paris at Gennevilliers is one of Europe's largest river ports. Administration: as the capital of a highly centralised state, Paris concentrates government, finance and head offices, and it is home to the OECD and UNESCO. Primary activity: the fertile limon plateaux around the city supplied food to a growing population, and Rungis now distributes fresh produce to it. Industry and services: the largest market and labour force attracted manufacturing and services, and La Défense became one of Europe's largest purpose-built business districts. Growth and planning: Haussmann rebuilt central Paris between 1853 and 1870 with wide boulevards, parks and sewers; post-war grands ensembles housed workers in the suburbs; the 1965 plan created five new towns; the Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 communes; and the Grand Paris Express is extending the metro network.",
+    "model": "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine. Situation: Paris lies near the centre of the Paris Basin, where the Seine's main tributaries, the Marne, Oise, Aube and Yonne, converge (the Marne joins just upstream of the city and the Oise just downstream). Transport: the city is the hub of a radial road and rail network, and the Port of Paris at Gennevilliers is one of Europe's largest river ports. Administration: as the capital of a highly centralised state, Paris concentrates government, finance and head offices, and it is home to the OECD and UNESCO. Primary activity: the fertile limon plateaux around the city supplied food to a growing population, and Rungis now distributes fresh produce to it. Industry and services: the largest market and labour force attracted manufacturing and services, and La Défense became one of Europe's largest purpose-built business districts. Growth and planning: Haussmann rebuilt central Paris between 1853 and 1870 with wide boulevards, parks and sewers; post-war grands ensembles housed workers in the suburbs; the 1965 plan created five new towns; the Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 communes; and the Grand Paris Express is extending the metro network.",
     "prompt": "Discuss the factors which influenced the development of one urban area in a European region (not in Ireland).",
     "type": "short"
    }
@@ -27809,7 +27809,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Political union: the EU has moved from economic co-operation towards shared political institutions, since the Maastricht Treaty created the EU and planned the single currency. The draft Constitution was rejected by French and Dutch voters in 2005, and the Lisbon Treaty (2009) created a permanent President of the European Council and a High Representative for Foreign Affairs. Challenges: member states disagree over how far to deepen integration, and rising eurosceptic parties oppose further integration; decisions needing unanimity are slow to reach. Economic union: the single market and the euro, with 21 euro countries in 2026 after Bulgaria joined on 1 January 2026. The convergence criteria (inflation, a 3% deficit limit, a 60% debt limit, a stable exchange rate and low interest rates) must be met first, and Denmark and Sweden remain outside. The eurozone debt crisis showed the risks: Ireland's bailout of about €85 billion (2010 to 2013) and three Greek bailouts (2010, 2012 and 2015). The EU responded with NextGenerationEU, a fund of about €750 billion financed by joint borrowing (2020). Sovereignty: membership pools decisions on trade and the single market, but taxation, defence and foreign policy stay largely national. Ireland's referendums on Nice and Lisbon, and the constitutional requirement under Crotty (1987), show that treaty changes touch sovereignty. Corporation tax and the 15% minimum rate from 2024 limit national tax choices, and the Apple ruling (2024) showed the EU can override a member's tax arrangements. Brexit reasserted national sovereignty, and the rule-of-law disputes with Poland and Hungary show how sovereignty can be contested within the EU.",
+    "model": "Political union: the EU has moved from economic co-operation towards shared political institutions, since the Maastricht Treaty created the EU and planned the single currency. The draft Constitution was rejected by French and Dutch voters in 2005, and the Lisbon Treaty (2009) created a permanent President of the European Council and a High Representative for Foreign Affairs. Challenges: member states disagree over how far to deepen integration, and rising eurosceptic parties oppose further integration; decisions needing unanimity are slow to reach. Economic union: the single market and the euro, with 21 euro countries in 2026 after Bulgaria joined on 1 January 2026. The convergence criteria (inflation, a 3% deficit limit, a 60% debt limit, a stable exchange rate and low interest rates) must be met first, and Denmark and Sweden remain outside. The eurozone debt crisis showed the risks: Ireland's bailout of about €85 billion (2010 to 2013) and three Greek bailouts (2010, 2012 and 2015). Later, in 2020, the EU agreed NextGenerationEU, a COVID-19 recovery fund of about €750 billion financed by joint borrowing. Sovereignty: membership pools decisions on trade and the single market, but taxation, defence and foreign policy stay largely national. Ireland's referendums on Nice and Lisbon, and the constitutional requirement under Crotty (1987), show that treaty changes touch sovereignty. Corporation tax and the 15% minimum rate from 2024 limit national tax choices, and the Apple ruling (2024) showed the EU can override a member's tax arrangements. Brexit reasserted national sovereignty, and the rule-of-law disputes with Poland and Hungary show how sovereignty can be contested within the EU.",
     "prompt": "Discuss the potential challenges facing the future development of the European Union with reference to political union, economic union and sovereignty.",
     "type": "short"
    },
@@ -28088,7 +28088,7 @@
      "Problems: urban sprawl, long commutes, congestion, housing costs, one-off housing and dormitory growth.",
      "The National Planning Framework (Project Ireland 2040), published in 2018, aims for half of future population growth in the five cities (Dublin, Cork, Limerick, Galway and Waterford) and to limit sprawl.",
      "Transport: the M50 orbital motorway was built in stages from 1990, the Luas light rail opened in 2004, and DART serves the suburbs by rail.",
-     "Regeneration: the IFSC opened in the Docklands in 1987; the Docklands and Ballymun are regeneration areas.",
+     "Regeneration: the IFSC was set up in the Docklands in 1987; the Docklands and Ballymun are regeneration areas.",
      "The Citizens' Assembly reported in 2023, recommending a directly elected mayor for Dublin.",
      "Limerick elected Ireland's first directly elected mayor in June 2024, after a plebiscite in 2019."
     ]
@@ -28360,7 +28360,7 @@
     "term": "Greater Dublin Area agriculture: problems farmers face"
    },
    {
-    "definition": "Tara Mines, Navan: underground zinc and lead mine, producing since 1977, Europe's largest zinc mine, owned by Boliden. Sand and gravel from glacial deposits; granite at Ballyknockan, Co. Wicklow. Bord na Móna has ended peat harvesting in the Bog of Allen.",
+    "definition": "Tara Mines, Navan: underground zinc and lead mine, opened in 1977, Europe's largest zinc mine, owned by Boliden. Sand and gravel from glacial deposits; granite at Ballyknockan, Co. Wicklow. Bord na Móna has ended peat harvesting in the Bog of Allen.",
     "term": "Tara Mines and other mining and quarrying in the Greater Dublin Area"
    },
    {
@@ -28451,7 +28451,7 @@
    {
     "h": "Sketch map: what to draw",
     "points": [
-     "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north, Kildare to the west.",
+     "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north (with a short coastline south of the Boyne estuary), Kildare to the west.",
      "Draw the River Liffey from the Wicklow Mountains, through Kildare, to Dublin Bay.",
      "Draw the River Boyne through Trim and Navan, reaching the sea at Drogheda, just outside the GDA.",
      "Mark Dublin city, and the towns of Navan, Naas and Bray.",
@@ -28577,7 +28577,7 @@
    {
     "h": "Mining and quarrying",
     "points": [
-     "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine producing since 1977.",
+     "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine, opened in 1977 (paused from July 2023, restarted at the end of 2024).",
      "Tara Mines is Europe's largest zinc mine and is owned by Boliden.",
      "Sand and gravel are quarried from glacial deposits for construction.",
      "Granite is quarried at Ballyknockan, Co. Wicklow.",
@@ -28776,7 +28776,7 @@
     "points": [
      "Dublin was founded as a Viking settlement in 841.",
      "Norman rule expanded the town in medieval times.",
-     "The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares.",
+     "The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets; squares such as Merrion Square were developed by private estates.",
      "Georgian Dublin grew into a planned capital with wide streets and squares."
     ]
    },
@@ -28853,7 +28853,7 @@
    },
    {
     "marks": 30,
-    "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion.",
+    "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion.",
     "prompt": "Examine the factors that have influenced the development of Dublin as an urban area.",
     "type": "short"
    },
@@ -29254,7 +29254,7 @@
    {
     "h": "Factors: labour",
     "points": [
-     "The University of Galway, founded in 1845 as Queen's College Galway and renamed in 2022, supplies graduates.",
+     "The University of Galway, founded in 1845 as Queen's College Galway and given its present name in 2022, supplies graduates.",
      "Atlantic Technological University (ATU), with campuses in Galway and Mayo, supplies graduates and skilled workers.",
      "Outside Galway, the pool of skilled workers is small, because skilled young people leave the region."
     ]
@@ -31266,7 +31266,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Mining removes metal ores, coal and salt from the crust, and so acts as a human form of erosion. Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock. Exploration uses geological surveys and test drilling. Where ore lies near the surface, open-pit mining removes the overburden; where it lies deep, underground shaft mining reaches it through shafts and tunnels. Processing crushes and grinds the ore and separates the mineral from the waste rock. Waste rock is stored in spoil heaps and fine tailings in tailings ponds. Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, in production since 1977; the ore lies in Carboniferous limestone. Impacts include landscape scars and subsidence, spoil heaps and tailings that take up land, and acid mine drainage: at Avoca, Co. Wicklow, centuries of copper mining left acid drainage that polluted the Avoca River. Dust, noise and heavy traffic affect nearby people. Positive impacts are jobs, exports and local spending. Management includes environmental licensing and monitoring, lined and capped tailings ponds, and rehabilitation after closure, as at Lisheen, Co. Tipperary, which closed in 2015. Internationally, Bingham Canyon, Utah, USA, is one of the largest open-pit mines in the world. The Aberfan disaster in south Wales on 21 October 1966 shows the danger of mining waste: a colliery spoil tip built over springs collapsed into the village after heavy rain, killing 144 people, 116 of them children.",
+    "model": "Mining removes metal ores, coal and salt from the crust, and so acts as a human form of erosion. Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock. Exploration uses geological surveys and test drilling. Where ore lies near the surface, open-pit mining removes the overburden; where it lies deep, underground shaft mining reaches it through shafts and tunnels. Processing crushes and grinds the ore and separates the mineral from the waste rock. Waste rock is stored in spoil heaps and fine tailings in tailings ponds. Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, opened in 1977 (production paused from July 2023, restarted at the end of 2024); the ore lies in Carboniferous limestone. Impacts include landscape scars and subsidence, spoil heaps and tailings that take up land, and acid mine drainage: at Avoca, Co. Wicklow, centuries of copper mining left acid drainage that polluted the Avoca River. Dust, noise and heavy traffic affect nearby people. Positive impacts are jobs, exports and local spending. Management includes environmental licensing and monitoring, lined and capped tailings ponds, and rehabilitation after closure, as at Lisheen, Co. Tipperary, which closed in 2015. Internationally, Bingham Canyon, Utah, USA, is one of the largest open-pit mines in the world. The Aberfan disaster in south Wales on 21 October 1966 shows the danger of mining waste: a colliery spoil tip built over springs collapsed into the village after heavy rain, killing 144 people, 116 of them children.",
     "prompt": "Examine how humans interact with the rock cycle, with reference to mining.",
     "type": "short"
    },
@@ -35151,7 +35151,7 @@
    {
     "h": "National strategic plans: National Spatial Strategy (2002)",
     "points": [
-     "What it did: named gateways (Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk and Sligo) and hubs, to balance growth away from Dublin.",
+     "What it did: named nine gateways (Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk, Sligo, Letterkenny with Derry, and Athlone–Tullamore–Mullingar) and nine hubs, to balance growth away from Dublin.",
      "The 2003 Budget announced a decentralisation programme that moved civil servants to dozens of towns.",
      "Effectiveness: weakened by too many designated centres, by decentralisation to towns not named in the plan, and by the property boom.",
      "Dublin continued to sprawl, so the plan did not achieve its aim of balancing growth.",
@@ -35212,7 +35212,7 @@
     "h": "Case study: Dublin Docklands",
     "points": [
      "Actions: the Urban Renewal Act 1986 gave tax incentives in the designated area.",
-     "The Custom House Docks Development Authority was set up in 1986, and the International Financial Services Centre (IFSC) opened in 1987.",
+     "The Custom House Docks Development Authority was set up in 1986, and the International Financial Services Centre (IFSC) was set up in 1987.",
      "The Dublin Docklands Development Authority was set up in 1997, and was wound up in 2016 with its functions passing to Dublin City Council.",
      "Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010), the Bord Gáis Energy Theatre (2010) and the Luas Red Line extension to The Point (2009).",
      "A Strategic Development Zone covering North Lotts and Grand Canal Dock was designated in 2014.",
@@ -35317,7 +35317,7 @@
    },
    {
     "marks": 30,
-    "model": "Dublin Docklands: 1. Problem: derelict docks after containerisation. 2. Action: the Urban Renewal Act 1986 gave tax incentives, the IFSC opened in 1987, and the DDDA was set up in 1997. 3. Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010) and the Luas Red Line extension to The Point (2009). 4. Results: new offices, homes, culture venues and tech firms, including Google's European headquarters at Grand Canal Dock. 5. Criticism: early schemes favoured offices and expensive apartments, local residents got few jobs, social housing was slow, and gentrification pushed up prices. 6. The DDDA's role in the purchase of the Irish Glass Bottle site in 2006, for about 412 million euro at the peak of the bubble, damaged its reputation after the land value collapsed. Ballymun: 7. Problems in the 1960s towers were isolation, poor maintenance, unemployment and drugs. 8. Action: the towers, built 1966 to 1969, were demolished 2004 to 2015 and replaced with low-rise homes, Main Street and the Axis centre. 9. Results: housing quality improved and residents were involved. 10. Criticism: the recession stalled the town centre, Metro North was shelved in 2011, and unemployment stayed high. Evaluation: renewal has been effective in physical improvement and the creation of jobs, but less effective in helping existing residents, because property-led schemes bring benefits unevenly and leave some problems unsolved.",
+    "model": "Dublin Docklands: 1. Problem: derelict docks after containerisation. 2. Action: the Urban Renewal Act 1986 gave tax incentives, the IFSC was set up in 1987, and the DDDA was set up in 1997. 3. Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010) and the Luas Red Line extension to The Point (2009). 4. Results: new offices, homes, culture venues and tech firms, including Google's European headquarters at Grand Canal Dock. 5. Criticism: early schemes favoured offices and expensive apartments, local residents got few jobs, social housing was slow, and gentrification pushed up prices. 6. The DDDA's role in the purchase of the Irish Glass Bottle site in 2006, for about 412 million euro at the peak of the bubble, damaged its reputation after the land value collapsed. Ballymun: 7. Problems in the 1960s towers were isolation, poor maintenance, unemployment and drugs. 8. Action: the towers, built 1966 to 1969, were demolished 2004 to 2015 and replaced with low-rise homes, Main Street and the Axis centre. 9. Results: housing quality improved and residents were involved. 10. Criticism: the recession stalled the town centre, Metro North was shelved in 2011, and unemployment stayed high. Evaluation: renewal has been effective in physical improvement and the creation of jobs, but less effective in helping existing residents, because property-led schemes bring benefits unevenly and leave some problems unsolved.",
     "prompt": "Assess the effectiveness of urban renewal in solving urban problems, with reference to examples you have studied.",
     "type": "short"
    },
