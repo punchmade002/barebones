@@ -1,0 +1,68 @@
+{
+  "loId": "chem22-s4",
+  "chapterId": "chem22",
+  "subsection": "4. Chemical cells and fuel cells",
+  "syllabusRef": "3.5.7",
+  "notes": [
+    {
+      "h": "Definitions: chemical cell and fuel cell",
+      "points": [
+        "A chemical cell, e.g. a zinc–carbon, alkaline, lead–acid or lithium-ion cell, uses a redox reaction between reactants sealed inside it to convert chemical energy into electrical energy.",
+        "A chemical cell stops working when its reactants have been used up.",
+        "When a chemical cell's reactants are used up, a primary cell is discarded, while a secondary cell must be recharged from an external electrical supply.",
+        "A fuel cell converts the chemical energy of a fuel, e.g. hydrogen, and an oxidising agent, usually oxygen from the air, into electrical energy.",
+        "In a fuel cell the reactants are not stored in the cell but are supplied continuously from outside, and the products, water for hydrogen, are continuously removed.",
+        "A fuel cell keeps producing electricity for as long as fuel and oxidant are supplied; it is refuelled, not recharged, and does not run down like a chemical cell."
+      ]
+    },
+    {
+      "h": "What chemical cells and fuel cells have in common",
+      "points": [
+        "Both are galvanic cells: each uses a spontaneous redox reaction to drive electrons through an external circuit.",
+        "Both have an anode where the fuel or reducing agent is oxidised (negative), a cathode where the oxidising agent is reduced (positive), and an electrolyte that carries ions between them.",
+        "In both, oxidation and reduction happen at separate electrodes, so energy is released as electrical energy rather than as heat."
+      ]
+    },
+    {
+      "h": "Chemical cells compared with fuel cells",
+      "points": [
+        "Source of reactants: a chemical cell stores its reactants inside and is limited by them; a fuel cell is supplied continuously from external tanks or the air.",
+        "Products: in a chemical cell they stay inside the cell; in a fuel cell they are removed continuously, e.g. as water vapour in the exhaust.",
+        "When reactants run out: a chemical cell is replaced (primary) or recharged, which can take hours (secondary); a fuel cell is refuelled in minutes.",
+        "Energy storage: in a chemical cell the energy is stored in the electrode materials, so more energy needs a bigger, heavier cell; in a fuel cell the energy is stored in the fuel tank, so the range depends on the size of the tank.",
+        "Typical uses: chemical cells power portable devices such as phones, laptops and torches, and battery electric vehicles; fuel cells power hydrogen buses, cars and trucks, spacecraft and backup power supplies.",
+        "Environmental impact: a hydrogen fuel cell's only product is water; chemical cells need metals such as lithium, cobalt, nickel, lead and zinc to be mined, and the cells must be recycled.",
+        "A fuel cell needs hydrogen to be produced, stored and transported, and is only as clean as the way the hydrogen was made (see \"Electrochemistry and sustainability\")."
+      ]
+    },
+    {
+      "h": "Fuel cell compared with burning the fuel",
+      "points": [
+        "In a fuel cell hydrogen and oxygen react by the same overall reaction as when hydrogen burns, 2H₂ + O₂ → 2H₂O, but without a flame or combustion: the electrons are transferred through the external circuit.",
+        "A fuel cell converts chemical energy directly into electrical energy; an engine or power station first converts it to heat, much of which is lost, so a fuel cell is more efficient than burning the fuel.",
+        "A fuel cell has no moving parts, so it is quiet.",
+        "A hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use and, with no high-temperature flame, no nitrogen oxides."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Chemical cell", "definition": "A cell that converts chemical energy into electrical energy from reactants sealed inside it, and stops when they are used up." },
+    { "term": "Fuel cell", "definition": "A galvanic cell that converts the chemical energy of a fuel and an oxidising agent into electrical energy, with both supplied continuously from outside." },
+    { "term": "Fuel", "definition": "A substance that is oxidised in a reaction to release energy, such as hydrogen in a fuel cell." },
+    { "term": "Oxidising agent", "definition": "A substance that gains electrons and is reduced in a redox reaction, such as oxygen in a fuel cell." },
+    { "term": "Combustion", "definition": "The burning of a fuel with oxygen, releasing energy as heat and light." },
+    { "term": "Galvanic cell", "definition": "A cell in which a spontaneous redox reaction drives electrons through an external circuit." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Compare a chemical cell with a fuel cell under the headings: source of reactants, removal of products, what happens when the reactants are used up.",
+      "model": "Source of reactants: a chemical cell stores its reactants inside the cell, so it is limited by them, whereas a fuel cell is supplied continuously with fuel and oxygen from external tanks or the air. Removal of products: in a chemical cell the products stay inside the cell, whereas in a fuel cell the products, such as water for hydrogen, are removed continuously. When the reactants are used up: a chemical cell stops working and is either discarded (primary) or recharged from an external supply, which can take hours (secondary); a fuel cell keeps working as long as fuel and oxidant are supplied and is refuelled in minutes."
+    },
+    {
+      "marks": 6,
+      "prompt": "State one similarity between a chemical cell and a fuel cell, and give two advantages of a hydrogen fuel cell over burning hydrogen in an engine.",
+      "model": "Similarity: both are galvanic cells, each using a spontaneous redox reaction to drive electrons through an external circuit, with an anode where the fuel is oxidised, a cathode where the oxidising agent is reduced, and an electrolyte between them. Advantage 1: a fuel cell converts chemical energy directly into electrical energy, without first making heat, so it is more efficient than burning hydrogen. Advantage 2: a fuel cell has no moving parts, so it is quiet, and a hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use."
+    }
+  ]
+}

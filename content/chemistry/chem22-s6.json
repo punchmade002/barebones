@@ -1,0 +1,118 @@
+{
+  "loId": "chem22-s6",
+  "chapterId": "chem22",
+  "subsection": "6. Electrochemistry and sustainability",
+  "syllabusRef": "3.5.9",
+  "notes": [
+    {
+      "h": "Electrochemistry and more sustainable energy",
+      "points": [
+        "Electrochemical cells convert chemical energy directly into electrical energy, without first burning a fuel to make heat, so less energy is wasted than in an engine or a fossil-fuel power station.",
+        "Rechargeable (secondary) batteries can be reused hundreds or thousands of times, cutting the waste and raw materials of single-use cells.",
+        "Rechargeable batteries let electricity from renewable sources, such as wind and solar, be stored and used later, in devices, electric vehicles and large grid batteries.",
+        "This matters because wind and solar power vary with the weather and the time of day.",
+        "Electrolysis can split water into hydrogen and oxygen: 2H₂O → 2H₂ + O₂.",
+        "If the electricity comes from renewable sources, the hydrogen is made without releasing carbon dioxide; this is called “green hydrogen”.",
+        "Hydrogen stores energy as a fuel: it can be kept, transported and later used in a fuel cell to make electricity again, or used in industry; its only product when used in a fuel cell or burned is water.",
+        "Most hydrogen produced today is made from natural gas, which releases carbon dioxide; this is called “grey hydrogen”.",
+        "“Blue hydrogen” is made the same way but with the carbon dioxide captured and stored."
+      ]
+    },
+    {
+      "h": "Carrying out the research investigation",
+      "points": [
+        "Step 1: choose one application and write a focused question that can be answered with evidence, e.g. “Are battery electric cars more sustainable than petrol cars in Ireland?”",
+        "Step 2: explain the chemistry involved: the redox reactions, the type of cell (galvanic or electrolytic), and the electrode reactions where known.",
+        "Step 3: gather evidence from a range of sources: textbooks, peer-reviewed articles, government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports.",
+        "Step 4: judge each source by who wrote it and their expertise; whether it is peer-reviewed or official; how recent it is, as this technology changes quickly; whether the author gains from the conclusion, e.g. a company selling the product; whether it gives data and references rather than opinion; and whether other sources agree.",
+        "Step 5: consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity or fuel during use, lifetime, and disposal or recycling.",
+        "Step 6: weigh the evidence on each side (environmental, economic, social and safety) and reach a justified conclusion, stating the conditions under which it holds.",
+        "Step 7: present the findings with references, and evaluate the investigation: gaps in the evidence, conflicting sources, and what further research would help."
+      ]
+    },
+    {
+      "h": "Worked outline 1: rechargeable batteries and electric vehicles",
+      "points": [
+        "Question: do rechargeable lithium-ion batteries in electric vehicles make transport more sustainable?",
+        "Chemistry: the lithium-ion cell is a secondary cell, a galvanic cell on discharge and an electrolytic cell on recharging (see \"The lithium-ion cell\").",
+        "Evidence for: no exhaust emissions at the point of use (no CO₂, CO, nitrogen oxides or particulates from a tailpipe), improving air quality in towns.",
+        "Evidence for: electric motors waste less energy than petrol or diesel engines.",
+        "Evidence for: batteries can be charged from renewable electricity, and the same batteries can store surplus renewable electricity.",
+        "Evidence against: mining lithium, cobalt and nickel damages land and uses large amounts of water.",
+        "Evidence against: most of the world's cobalt is mined in the Democratic Republic of the Congo, where child labour and unsafe working conditions have been reported.",
+        "Evidence against: making the battery releases a lot of CO₂, and the benefit depends on how the electricity is generated.",
+        "Evidence against: recycling is not yet widespread, and damaged cells can catch fire.",
+        "Justified conclusion (example): electric vehicles reduce emissions over their lifetime where electricity is increasingly renewable, as in Ireland, provided batteries are made responsibly and recycled."
+      ]
+    },
+    {
+      "h": "Worked outline 2: green hydrogen from electrolysis",
+      "points": [
+        "Question: can hydrogen produced by electrolysis using wind power be a sustainable fuel?",
+        "Chemistry: electrolysis of water, with 4H⁺ + 4e⁻ → 2H₂ at the cathode and 2H₂O → O₂ + 4H⁺ + 4e⁻ at the anode (see \"The electrolytic cell\").",
+        "Evidence for: no CO₂ is released if the electricity is renewable.",
+        "Evidence for: it can use surplus wind electricity at times when supply is greater than demand, storing it as a fuel.",
+        "Evidence for: hydrogen can power fuel-cell vehicles and replace fossil fuels in industries that are hard to electrify.",
+        "Evidence against: energy is lost at every step, so converting electricity to hydrogen and back to electricity returns well under half of the original energy, much less than a battery.",
+        "Evidence against: electrolysers need pure water, and some need scarce metal catalysts such as platinum and iridium.",
+        "Evidence against: hydrogen is hard to store, needing high pressure or very low temperature, and it is highly flammable.",
+        "Evidence against: green hydrogen currently costs more than grey hydrogen.",
+        "Justified conclusion (example): green hydrogen is most useful where batteries are unsuitable, such as heavy transport, industry and long-term storage, but only if it is powered by genuinely renewable electricity."
+      ]
+    },
+    {
+      "h": "Worked outline 3: fuel cells",
+      "points": [
+        "Question: should hydrogen fuel cells power public buses?",
+        "Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O (see \"The hydrogen fuel cell\").",
+        "Evidence for: water is the only product at the point of use, and the cell is quiet and refuelled in minutes.",
+        "Evidence for: long range suits buses on long, fixed routes that return to one depot for refuelling.",
+        "Evidence against: there are few refuelling stations, and the vehicles are expensive, partly because of the platinum catalyst.",
+        "Evidence against: high-pressure storage tanks are needed.",
+        "Evidence against: if the hydrogen is grey, the overall CO₂ saving is small or none.",
+        "Justified conclusion (example): fuel-cell buses are a good choice only where green hydrogen is available at a competitive price."
+      ]
+    },
+    {
+      "h": "Worked outline 4: corrosion protection",
+      "points": [
+        "Question: how does electrochemistry help steel structures last longer, and why is that sustainable?",
+        "Chemistry: rusting is the oxidation of iron. A metal higher in the electrochemical series, such as zinc or magnesium, is oxidised in preference to iron (see \"Oxidation and reduction\" and \"The electrochemical series and displacement\").",
+        "Galvanising, a zinc coating, and sacrificial anodes, blocks of zinc or magnesium attached to ship hulls, pipelines and steel piers, both use this protection.",
+        "Evidence for: steel lasts much longer, so less steel has to be made to replace it, saving iron ore, energy and the CO₂ released in steelmaking.",
+        "Evidence for: it prevents dangerous failures of bridges, pipelines and ships.",
+        "Evidence against: sacrificial anodes are used up and must be replaced.",
+        "Evidence against: zinc released into seawater can harm marine life.",
+        "Evidence against: galvanised coatings wear away eventually.",
+        "Justified conclusion (example): corrosion protection is a cheap and effective way of conserving metal resources, though zinc release should be monitored."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Green hydrogen", "definition": "Hydrogen produced by the electrolysis of water using electricity from renewable sources, so that no carbon dioxide is released." },
+    { "term": "Grey hydrogen", "definition": "Hydrogen made from natural gas, which releases carbon dioxide." },
+    { "term": "Blue hydrogen", "definition": "Hydrogen made from natural gas with the carbon dioxide captured and stored." },
+    { "term": "Life-cycle", "definition": "The whole course of a product, from raw materials and manufacture through use to disposal or recycling." },
+    { "term": "Sacrificial anode", "definition": "A block of a more reactive metal, such as zinc or magnesium, attached to steel so that it is oxidised in preference to the steel." },
+    { "term": "Galvanising", "definition": "Coating steel with a layer of zinc, which protects the iron by being oxidised in preference to it." },
+    { "term": "Peer-reviewed source", "definition": "A source whose content has been checked by independent experts in the field before publication." },
+    { "term": "Research-based investigation", "definition": "A structured inquiry into a question, using chemistry and evidence from judged sources to reach a justified conclusion." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Hydrogen can be produced by the electrolysis of water. Explain, with half-equations, how this is done, and discuss whether hydrogen produced this way is a sustainable fuel.",
+      "model": "In the electrolysis of water, an electric current is passed through acidified water between two inert electrodes. At the cathode, reduction takes place: 4H⁺(aq) + 4e⁻ → 2H₂(g). At the anode, oxidation takes place: 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻. Overall: 2H₂O → 2H₂ + O₂. Hydrogen produced this way is sustainable only if the electricity comes from renewable sources such as wind, in which case no carbon dioxide is released; this is green hydrogen. Hydrogen can also be used when electricity is surplus, storing energy as a fuel, and its only product in a fuel cell is water. However, energy is lost at every step, so converting electricity to hydrogen and back returns well under half of the original energy, much less than a battery. Electrolysers need pure water and some need scarce platinum and iridium catalysts, hydrogen is hard to store and highly flammable, and green hydrogen currently costs more than grey hydrogen, which is made from natural gas and releases carbon dioxide. Conclusion: hydrogen from electrolysis is a sustainable fuel only where it is made from renewable electricity."
+    },
+    {
+      "marks": 9,
+      "prompt": "Outline how you would carry out a research investigation into one role of electrochemistry in sustainable technology, including how you would judge the reliability of your sources.",
+      "model": "Choose one application and write a focused question that can be answered with evidence, e.g. whether battery electric cars are more sustainable than petrol cars in Ireland. Explain the chemistry involved: the redox reactions, whether the cell is galvanic or electrolytic, and the electrode reactions. Gather evidence from textbooks, peer-reviewed articles, government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports. Judge each source by who wrote it and their expertise, whether it is peer-reviewed or official, how recent it is, whether the author gains from the conclusion, whether it gives data and references rather than opinion, and whether other sources agree. Consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity during use, lifetime, and disposal or recycling. Weigh the evidence on each side and reach a justified conclusion, stating the conditions under which it holds. Present the findings with references and evaluate the investigation, noting gaps in the evidence and conflicting sources."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain how rechargeable batteries can make energy use more sustainable, and give one disadvantage.",
+      "model": "Rechargeable (secondary) batteries can be reused hundreds or thousands of times, which cuts the waste and raw materials of single-use cells. They also let electricity from wind and solar power be stored and used later, which matters because these sources vary with the weather and time of day. A disadvantage is the mining of lithium, cobalt and nickel, which damages land and uses large amounts of water, and most of the world's cobalt is mined in the Democratic Republic of the Congo, where child labour has been widely reported."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "loId": "chem22-s2",
+  "chapterId": "chem22",
+  "subsection": "2. The galvanic cell",
+  "syllabusRef": "3.5.5",
+  "notes": [
+    {
+      "h": "Origins of the galvanic cell",
+      "points": [
+        "Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.",
+        "Galvani believed the electricity came from the animal itself, which he called “animal electricity”.",
+        "Alessandro Volta showed that the electricity came from two different metals in contact with a conducting liquid.",
+        "In 1800 Volta built the first battery, the voltaic pile: a stack of zinc and copper (or silver) discs separated by cardboard or cloth soaked in salt water.",
+        "Galvanic cells, also called voltaic cells, are named after Galvani and Volta."
+      ]
+    },
+    {
+      "h": "How a redox reaction makes a current",
+      "points": [
+        "When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
+        "Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction.",
+        "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
+        "This flow of electrons is an electric current.",
+        "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.",
+        "The metal higher in the electrochemical series (see \"The electrochemical series and displacement\"), the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive).",
+        "The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.",
+        "Under standard conditions (1 M solutions, 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V."
+      ]
+    },
+    {
+      "h": "The copper–zinc (Daniell) cell",
+      "b": "The copper–zinc cell is the standard galvanic cell, with the zinc and copper in separate beakers joined by wires and a salt bridge.",
+      "points": [
+        "Set-up: a zinc strip in 1 M zinc sulfate solution and a copper strip in 1 M copper(II) sulfate solution, in separate beakers.",
+        "The metals are joined by wires through a voltmeter or bulb, and the solutions by a salt bridge; the voltage is about 1.1 V.",
+        "Zinc electrode (anode, negative, oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻. Zinc atoms lose electrons and go into solution as ions.",
+        "Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.",
+        "Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.",
+        "Zinc is the reducing agent and Cu²⁺ is the oxidising agent.",
+        "Electrons flow through the external wire from the zinc to the copper.",
+        "Over time the zinc electrode wears away and loses mass, while the copper electrode gains a fresh pink-brown coating and gains mass.",
+        "The blue colour of the copper(II) sulfate solution fades as Cu²⁺ is used up, and the voltage slowly falls."
+      ]
+    },
+    {
+      "h": "The salt bridge",
+      "b": "The salt bridge connects the two solutions without letting them mix.",
+      "points": [
+        "A salt bridge is a strip of filter paper soaked in potassium nitrate (or potassium chloride) solution, or a U-tube of the salt solution set in agar gel.",
+        "It completes the circuit: ions move through it, carrying charge between the half-cells.",
+        "It keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions (NO₃⁻) move into it.",
+        "As Cu²⁺ ions are removed from the copper half-cell, positive ions (K⁺) move into it.",
+        "Without it, charge would build up in each beaker and the current would stop at once.",
+        "Potassium nitrate is used because its ions do not react with the electrode solutions; it forms no precipitate."
+      ]
+    },
+    {
+      "h": "Practical: creating a simple galvanic cell",
+      "points": [
+        "Aim: to build a copper–zinc galvanic cell, measure its voltage, and compare the voltages from different pairs of metals.",
+        "Variables: the independent variable is the pair of metals; the dependent variable is the voltage; the controlled variables are the concentration and volume of the solutions, the temperature, and the size and cleanliness of the strips.",
+        "1. Clean strips of zinc and copper with sandpaper (emery paper) to remove the oxide layer, which would otherwise reduce the voltage.",
+        "2. Half-fill one beaker with 1 M zinc sulfate solution and another with 1 M copper(II) sulfate solution; stand the zinc strip in the first and the copper strip in the second.",
+        "3. Soak a strip of filter paper in potassium nitrate solution and drape it between the two beakers, with each end in a solution.",
+        "4. Connect the metals to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage.",
+        "5. Replace the voltmeter with a small bulb or LED to show that a current flows.",
+        "6. Remove the salt bridge and record the voltage again; it falls to zero, showing the bridge is needed.",
+        "7. Repeat with other metal pairs, e.g. magnesium–copper and iron–copper, each metal in a solution of its own ions, using a fresh salt bridge each time."
+      ]
+    },
+    {
+      "h": "Practical: results, safety, errors and diagram",
+      "points": [
+        "Results: the measured voltages are usually a little lower than the standard values, and the larger the gap between the metals in the electrochemical series, the larger the voltage.",
+        "A simpler cell: zinc and copper strips pushed into a lemon, or dipped into one beaker of salt solution or dilute acid, also give a voltage, because the juice or solution is an electrolyte.",
+        "Safety: wear goggles; copper(II) sulfate is harmful, an irritant and toxic to aquatic life, so do not pour it down the sink and dispose of it as directed; zinc sulfate is an irritant; wash hands afterwards.",
+        "Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.",
+        "Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Galvanic cell", "definition": "A cell in which a spontaneous redox reaction, split into two half-cells, drives electrons through an external circuit." },
+    { "term": "Half-cell", "definition": "An electrode dipping into a solution of its own ions, forming one half of a galvanic cell." },
+    { "term": "Salt bridge", "definition": "A strip of filter paper or a U-tube of salt solution that joins two half-cells, letting ions flow to complete the circuit without the solutions mixing." },
+    { "term": "Copper–zinc (Daniell) cell", "definition": "A galvanic cell with a zinc electrode in zinc sulfate and a copper electrode in copper(II) sulfate, giving about 1.1 V." },
+    { "term": "Displacement reaction", "definition": "A reaction in which a more reactive metal takes the place of a less reactive metal in its compound, as zinc does with copper(II) ions." },
+    { "term": "Voltaic pile", "definition": "The first battery, built by Volta in 1800 from stacked zinc and copper discs separated by cloth soaked in salt water." },
+    { "term": "Oxide layer", "definition": "A thin coating of oxide on a metal strip that must be removed by sanding, as it would otherwise lower the voltage of a cell." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would make a simple copper–zinc galvanic cell. Write the half-equation at each electrode, identify the anode and the cathode, and show the direction of electron flow.",
+      "model": "Clean a zinc strip and a copper strip with sandpaper to remove the oxide layer. Half-fill one beaker with 1 M zinc sulfate solution and place the zinc strip in it; half-fill a second beaker with 1 M copper(II) sulfate solution and place the copper strip in it. Soak a strip of filter paper in potassium nitrate solution to make a salt bridge, and drape it between the two beakers with each end in a solution. Connect the zinc and copper strips to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage, about 1.1 V. Zinc is oxidised at the anode, which is the negative electrode: Zn(s) → Zn²⁺(aq) + 2e⁻. Copper(II) ions are reduced at the cathode, which is the positive electrode: Cu²⁺(aq) + 2e⁻ → Cu(s). Electrons flow through the external wire from the zinc electrode to the copper electrode. Inside the cell, ions move through the salt bridge to complete the circuit."
+    },
+    {
+      "marks": 6,
+      "prompt": "State two functions of the salt bridge in a galvanic cell and name a suitable substance for it.",
+      "model": "First, it completes the circuit: ions move through the salt bridge, carrying charge between the two half-cells. Second, it keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions move into it from the bridge, and as Cu²⁺ ions are removed from the copper half-cell, positive ions move into it from the bridge. A suitable substance is potassium nitrate solution soaked into a strip of filter paper, because its ions do not react with the electrode solutions."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why no current is produced when a zinc strip is placed directly in copper(II) sulfate solution, but a current flows when the two half-reactions are separated.",
+      "model": "When zinc is placed directly in copper(II) sulfate solution, zinc atoms transfer electrons straight to Cu²⁺ ions in the same beaker: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The electrons never pass through an external wire, so there is no current; the energy is released as heat and the blue colour fades. In a galvanic cell the two half-reactions are separated into two half-cells, so the electrons lost by zinc must travel through an external wire to reach the Cu²⁺ ions at the copper electrode. This flow of electrons is an electric current."
+    }
+  ]
+}
