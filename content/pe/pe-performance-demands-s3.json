@@ -1,0 +1,90 @@
+{
+  "loId": "pe-performance-demands-s3",
+  "chapterId": "pe-performance-demands",
+  "subsection": "3. Performance-related fitness",
+  "syllabusRef": "2.3",
+  "notes": [
+    {
+      "h": "Agility",
+      "points": [
+        "Definition: the ability to change the position or direction of the body quickly and with control, while keeping balance.",
+        "Rugby: a ball carrier side-steps to evade a tackler.",
+        "Badminton: a player recovers to the centre of the court after each shot and changes direction to reach the next shuttle."
+      ]
+    },
+    {
+      "h": "Balance",
+      "points": [
+        "Definition: the ability to keep the body's centre of mass over its base of support.",
+        "Static balance: balance while stationary, such as holding a handstand or an arabesque.",
+        "Dynamic balance: balance while moving, such as a gymnast travelling on the beam or a hurler striking the ball on the run."
+      ]
+    },
+    {
+      "h": "Co-ordination",
+      "points": [
+        "Definition: the ability to use two or more body parts, or the senses and body parts, together smoothly and efficiently.",
+        "Hurling: hand-eye co-ordination to strike a moving sliotar.",
+        "Front crawl: the timing of the arm pull, leg kick and breathing."
+      ]
+    },
+    {
+      "h": "Power",
+      "points": [
+        "Definition: the ability to apply strength at speed; power = strength × speed.",
+        "High jump: the explosive drive of the take-off leg.",
+        "Shot-put: the rapid extension of the legs, trunk and arm at release.",
+        "Badminton: the smash."
+      ]
+    },
+    {
+      "h": "Speed",
+      "points": [
+        "Definition: the ability to move the body, or a part of it, from one point to another in the shortest possible time; speed = distance ÷ time.",
+        "Whole-body speed: a 100 m sprint, or a basketball fast break.",
+        "Limb speed: the speed of the arm in a throw or of the leg in a kick."
+      ]
+    },
+    {
+      "h": "Reaction time",
+      "points": [
+        "Definition: the time between the presentation of a stimulus and the start of the response.",
+        "Movement time: the time from starting a movement to completing it.",
+        "Response time = reaction time + movement time.",
+        "Sprinting: reacting to the starting gun.",
+        "Soccer goalkeeping: reacting to a shot or a deflection.",
+        "Two examples in one activity, tennis: reacting to the opponent's serve, and reacting to a volley at the net."
+      ]
+    },
+    {
+      "h": "Identifying the main component for an event",
+      "points": [
+        "A 100 m breaststroke swimmer needs speed and power off the start and turns.",
+        "A tennis server needs power and co-ordination.",
+        "A goalkeeper needs reaction time, agility and power.",
+        "Justify the choice by linking the component to a specific moment in the event."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Agility", "definition": "The ability to change the position or direction of the body quickly and with control while keeping balance." },
+    { "term": "Balance", "definition": "The ability to keep the body's centre of mass over its base of support." },
+    { "term": "Static balance", "definition": "Balance while stationary, such as a handstand." },
+    { "term": "Dynamic balance", "definition": "Balance while moving, such as on a gymnastics beam." },
+    { "term": "Co-ordination", "definition": "The ability to use two or more body parts, or the senses and body parts, together smoothly and efficiently." },
+    { "term": "Power", "definition": "The ability to apply strength at speed; power = strength × speed." },
+    { "term": "Speed", "definition": "The ability to move the body or a body part from one point to another in the shortest possible time." },
+    { "term": "Reaction time", "definition": "The time between the presentation of a stimulus and the start of the response." },
+    { "term": "Movement time", "definition": "The time from starting a movement to completing it." },
+    { "term": "Response time", "definition": "Reaction time plus movement time." }
+  ],
+  "factCards": [
+    { "term": "Formula for power", "definition": "Power = strength × speed." },
+    { "term": "Reaction time versus response time", "definition": "Reaction time ends when movement begins; response time adds the movement time." },
+    { "term": "Two examples of reaction time in tennis", "definition": "Returning a fast serve; reacting to a volley at the net." }
+  ],
+  "questions": [
+    { "marks": 8, "prompt": "Identify two performance-related components of fitness important in a named physical activity and justify their importance.", "model": "Activity: soccer goalkeeping. 1. Reaction time: the time between the stimulus and the start of the response. A goalkeeper has a fraction of a second to respond to a close-range shot or a deflection, so a short reaction time decides whether they get a hand to the ball. 2. Power: strength applied at speed. The goalkeeper must spring explosively sideways or upwards from a set position to reach shots in the corners and to claim high crosses above attackers." },
+    { "marks": 6, "prompt": "Define reaction time and give two examples of where it is needed in one physical activity.", "model": "Reaction time is the time between the presentation of a stimulus and the start of the response. In badminton it is needed to respond to a smash aimed at the body and to react when the shuttle clips the net and changes direction." }
+  ]
+}
