@@ -122,6 +122,22 @@
       "definition": "A city region with several centres of similar size rather than one dominant city."
     }
   ],
+  "factCards": [
+    { "term": "City and hinterland: four flows that link them", "definition": "Jobs: commuters travel in daily. Services: shops, hospitals, third-level colleges, entertainment, offices. Goods: the hinterland supplies food, water, raw materials and labour; the city supplies manufactured goods. Information: local newspapers, radio and TV." },
+    { "term": "Measuring a city's hinterland: methods to name", "definition": "Census commuting data; the catchment area of a hospital, college or secondary school; the circulation area of a local newspaper or reach of a local radio station; bus and rail routes and timetables; business delivery areas; home addresses of shoppers." },
+    { "term": "Hinterland boundaries: why they are not sharp lines, and how they change", "definition": "Neighbouring hinterlands overlap and different services give different edges; bigger cities have bigger hinterlands. Motorways, car ownership, faster rail and remote working extend commuter belts; new services in smaller towns can shrink a city's hinterland." },
+    { "term": "Dublin as a nodal region: its transport focus and problems", "definition": "Dublin is the focus of the national motorway network, with radial routes meeting the M50 ring road, and of the main rail lines; it also has Dublin Port and Dublin Airport, Ireland's busiest airport. Problems: urban sprawl, long commutes and congestion, high house prices." },
+    { "term": "Dublin's hinterland: name its commuter towns, and its national reach", "definition": "Navan (Co. Meath), Naas and Newbridge (Co. Kildare), Bray (Co. Wicklow) and Drogheda (Co. Louth). For government, national media, specialist hospitals and the main airport, Dublin's hinterland is the whole country." },
+    { "term": "Cork as a city region: key facts", "definition": "Ireland's second city, on the River Lee at the head of Cork Harbour; pharmaceutical plants at Ringaskiddy; commuter towns Carrigaline, Midleton and Cobh; its hinterland covers much of Munster." },
+    { "term": "Galway as a city region: key facts", "definition": "The main city of the West, serving a large rural hinterland that includes Connemara; a centre of the medical devices industry and of higher education, with the University of Galway." },
+    { "term": "National Planning Framework: its aim for Irish city regions", "definition": "Part of Project Ireland 2040, published in 2018, it aims to direct more growth to Cork, Limerick, Galway and Waterford to counterbalance Dublin." },
+    { "term": "Paris as a nodal region: key facts", "definition": "France's primate city, at the centre of the Paris Basin; Île-de-France has about 12 million people. Radial motorways and TGV lines meet there (the first, Paris to Lyon, opened 1981), so its hinterland reaches across France; Charles de Gaulle Airport." },
+    { "term": "London as an urban region: key facts", "definition": "Capital of the United Kingdom; Greater London has about 9 million people (Census 2021); the City of London is a global financial centre; its commuter belt covers much of south-east England." },
+    { "term": "Brussels: why its influence extends across the EU", "definition": "Capital of Belgium and seat of the European Commission and the Council of the EU; the European Parliament meets both there and in Strasbourg. NATO headquarters is in Brussels too." },
+    { "term": "Rotterdam: an example of a port hinterland crossing borders", "definition": "Europe's largest port, at the mouth of the Rhine (Europoort). Its hinterland is the whole Rhine basin, linked by river barges, rail and pipelines, so it crosses national borders." },
+    { "term": "The Randstad: a polycentric city region", "definition": "A ring of cities in the Netherlands (Amsterdam, Rotterdam, The Hague, Utrecht) forming one large urban region around a rural Green Heart (Groene Hart), unlike the single-centre Paris and Dublin regions." },
+    { "term": "Milan and other cities named as urban regions in matching questions", "definition": "Milan: main city of Lombardy, northern Italy's core, and Italy's financial centre (Borsa Italiana). Also matched as urban regions: Munich (capital of Bavaria), Berlin, Rome, London, Brussels and Limerick." }
+  ],
   "questions": [
     {
       "marks": 30,
