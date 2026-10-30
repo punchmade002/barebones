@@ -1,0 +1,147 @@
+{
+  "loId": "chem20-s2",
+  "chapterId": "chem20",
+  "subsection": "2. The enhanced greenhouse effect",
+  "syllabusRef": "4.3.2",
+  "notes": [
+    {
+      "h": "The enhanced greenhouse effect",
+      "points": [
+        "The enhanced greenhouse effect is the extra warming of the Earth's surface and lower atmosphere caused by increased concentrations of greenhouse gases from human (anthropogenic) activities.",
+        "The main human activities are burning fossil fuels (for power generation, transport, heating and industry), deforestation and land-use change, agriculture (livestock and fertilisers), cement-making and landfill.",
+        "The resulting long-term rise in the Earth's average surface temperature is global warming; together with the other changes it causes, it is called climate change."
+      ]
+    },
+    {
+      "h": "Global warming potential",
+      "b": "Gases differ in how much they warm the Earth for the same mass emitted, so their greenhouse factors are compared as global warming potentials.",
+      "points": [
+        "Gases differ in their greenhouse effect because they differ in how strongly each molecule absorbs infrared radiation, how abundant they are in the atmosphere, and how long they stay there (atmospheric lifetime).",
+        "The greenhouse factor of a gas is its global warming potential (GWP): the warming caused by emitting 1 kg (or 1 tonne) of the gas over a set period, usually 100 years, compared with the warming from the same mass of CO₂.",
+        "The GWP of CO₂ is 1 by definition.",
+        "100-year GWPs from the IPCC Fifth Assessment Report (AR5, 2013) are: CO₂ 1; methane (CH₄) 28; dinitrogen oxide (N₂O) 265.",
+        "The IPCC Sixth Assessment Report (AR6, 2021) gives slightly different values because the science is refined over time: CH₄ about 27–30, depending on whether the methane is of fossil origin.",
+        "The IPCC AR6 value for N₂O is 273; always state which report a GWP comes from.",
+        "A high GWP does not make a gas the most important: CO₂ has the lowest GWP of these gases, yet it causes most of the human-caused warming because far more of it is emitted and it stays in the atmosphere for centuries.",
+        "Emissions of different gases are compared as CO₂ equivalent, found by multiplying the mass of the gas by its GWP.",
+        "Example: 5 tonnes of methane = 5 × 28 = 140 tonnes CO₂ equivalent (AR5 values)."
+      ]
+    },
+    {
+      "h": "The gases: sources and abundances",
+      "points": [
+        "Carbon dioxide comes from burning fossil fuels, deforestation and cement-making (CaCO₃ → CaO + CO₂).",
+        "CO₂ is about 420 ppm in the mid-2020s, up from about 280 ppm before industrialisation, an increase of about 50%.",
+        "Much of the extra CO₂ stays in the atmosphere for centuries, and some for thousands of years.",
+        "Methane comes from ruminant livestock (cattle and sheep, which digest food in the stomach), manure, rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands.",
+        "Methane is about 1.9 ppm, more than two and a half times the pre-industrial level of about 0.7 ppm, and its atmospheric lifetime is about 12 years.",
+        "Dinitrogen oxide (nitrous oxide, N₂O) comes mainly from nitrogen fertilisers and manure on soils; it is about 0.34 ppm, up from about 0.27 ppm.",
+        "N₂O stays in the atmosphere for over 100 years (AR5: about 121 years).",
+        "In Ireland agriculture is the largest single source of greenhouse gas emissions, over a third of the total, mainly methane from cattle and N₂O from fertilisers and manure.",
+        "In Ireland energy, transport and heating produce most of the CO₂."
+      ]
+    },
+    {
+      "h": "Nitrogen and sulfur oxides",
+      "points": [
+        "NOx (nitrogen monoxide, NO, and nitrogen dioxide, NO₂) form when nitrogen and oxygen from air combine at the high temperatures in car engines and power stations: N₂(g) + O₂(g) → 2NO(g).",
+        "NO then reacts further with oxygen: 2NO(g) + O₂(g) → 2NO₂(g); lightning also forms NOx.",
+        "NOx are short-lived and are not important direct greenhouse gases; they act indirectly, mainly by helping to form ozone, a greenhouse gas, in the lower atmosphere.",
+        "NO₂ also causes acid rain and harms health.",
+        "NOx must not be confused with N₂O, the long-lived greenhouse gas from fertilisers.",
+        "Sulfur oxides (SO₂ and SO₃) come from burning coal and oil that contain sulfur, S(s) + O₂(g) → SO₂(g), and from volcanoes.",
+        "SO₂ forms tiny sulfate particles (aerosols) and droplets in the air that reflect sunlight, so their overall effect on climate is cooling, not warming.",
+        "Sulfur oxides also cause acid rain."
+      ]
+    },
+    {
+      "h": "Water vapour",
+      "points": [
+        "Water vapour is the most abundant greenhouse gas; its concentration is controlled by temperature, and it stays in the air for only days.",
+        "Because of its short stay in the air, human emissions don't change its concentration directly, and water vapour has no GWP.",
+        "Water vapour acts as a feedback: warming caused by CO₂ and other gases increases evaporation, and the extra water vapour traps more heat, amplifying the warming.",
+        "Warmer air holds about 7% more water vapour for each °C of warming (Clausius–Clapeyron relation)."
+      ]
+    },
+    {
+      "h": "Evidence for the enhanced greenhouse effect",
+      "points": [
+        "Continuous measurements at Mauna Loa, Hawaii, begun by Charles David Keeling in 1958 (the “Keeling curve”), show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm.",
+        "Ice cores: air bubbles trapped in Antarctic ice show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation.",
+        "Today's CO₂ level is far above that range, and the rise matches the growth in fossil-fuel use.",
+        "The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900 (IPCC AR6), with most of the warming since the 1970s.",
+        "Recent years have been the warmest on record.",
+        "Other observed changes include shrinking glaciers and Arctic sea ice, melting ice sheets and warming oceans.",
+        "Sea level rose about 20 cm between 1901 and 2018 (IPCC AR6), from melting ice and the expansion of warmer water.",
+        "Climate models that include only natural factors (changes in the Sun and volcanoes) do not reproduce the warming since the mid-twentieth century; models that also include human greenhouse gas emissions do.",
+        "The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land."
+      ]
+    },
+    {
+      "h": "Effects of the enhanced greenhouse effect",
+      "points": [
+        "Global warming brings higher average temperatures, more frequent heatwaves, melting ice and rising sea levels that threaten low-lying coasts and countries, e.g. Bangladesh, the Netherlands and small island states.",
+        "A warmer atmosphere holds more water vapour, so the water cycle intensifies: heavier rainfall and more flooding in some regions, and longer droughts in others.",
+        "More winter rain is expected in Ireland.",
+        "Other effects include changes to ecosystems (species moving or becoming extinct, coral bleaching), threats to food and water supplies, and more extreme weather events."
+      ]
+    },
+    {
+      "h": "Ocean acidification",
+      "points": [
+        "The oceans absorb about a quarter of the CO₂ emitted by humans.",
+        "CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq): the H⁺ concentration rises as CO₂ dissolves, and the pH falls.",
+        "The average surface ocean pH has fallen by about 0.1, from about 8.2 to about 8.1, since pre-industrial times.",
+        "Ocean acidification lowers the pH but does not make the sea acidic; the pH stays above 7.",
+        "The extra H⁺ reacts with carbonate ions, H⁺ + CO₃²⁻ → HCO₃⁻, leaving less carbonate for shell-building organisms such as oysters, mussels, corals and some plankton.",
+        "Acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq)."
+      ]
+    },
+    {
+      "h": "Possible solutions",
+      "points": [
+        "Replace fossil fuels with renewable energy (wind, solar, hydroelectric and tidal), and improve energy efficiency by insulating buildings, using heat pumps and buying efficient appliances.",
+        "Transport: use public transport, cycling and walking; use electric vehicles charged from renewable electricity (see “The lithium-ion cell”); and use hydrogen fuel cells (see “The hydrogen fuel cell”).",
+        "Agriculture: use the right amount of fertiliser at the right time, use clover and other nitrogen-fixing crops, breed and feed livestock to produce less methane, and capture methane from manure in anaerobic digesters (biogas) for use as a fuel.",
+        "Land use: plant forests, stop deforestation, and protect and rewet peatlands so that they act as carbon sinks again.",
+        "Waste: reduce food waste, recycle, and capture landfill methane and burn it to generate electricity; the CO₂ produced has a much smaller warming effect than the methane would have.",
+        "Carbon capture and storage (CCS): CO₂ is captured from power-station or factory flue gases, compressed to a liquid, piped away and injected into deep rock formations such as depleted oil and gas fields.",
+        "Acid rain can be cut by reducing sulfur and NOx emissions: low-sulfur fuels, removing SO₂ from flue gases, and catalytic converters on cars.",
+        "International and national action: the Paris Agreement (2015) aims to keep the rise in global temperature well below 2 °C above pre-industrial levels and to pursue efforts to limit it to 1.5 °C.",
+        "Ireland's Climate Action and Low Carbon Development (Amendment) Act 2021 sets a 51% cut in emissions by 2030 (compared with 2018) and climate neutrality by 2050.",
+        "A carbon footprint is the total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity; individuals can reduce theirs through choices in travel, home heating, diet and consumption."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Enhanced greenhouse effect", "definition": "The extra warming of the Earth caused by increased concentrations of greenhouse gases from human activities." },
+    { "term": "Anthropogenic", "definition": "Caused or produced by human activity." },
+    { "term": "Global warming", "definition": "The long-term rise in the Earth's average surface temperature." },
+    { "term": "Climate change", "definition": "Global warming together with the other changes it causes to the climate." },
+    { "term": "Global warming potential (GWP)", "definition": "The warming caused by emitting 1 kg of a gas over a set period, usually 100 years, compared with the same mass of CO₂." },
+    { "term": "CO₂ equivalent", "definition": "The mass of CO₂ that would cause the same warming as a given mass of another gas, found as mass multiplied by GWP." },
+    { "term": "Atmospheric lifetime", "definition": "The average time a gas remains in the atmosphere after it is emitted." },
+    { "term": "Feedback (water vapour)", "definition": "A process in which warming increases the amount of water vapour, which traps more heat and amplifies the warming." },
+    { "term": "Aerosol", "definition": "Tiny particles or droplets suspended in the air, such as sulfate particles from SO₂, which reflect sunlight." },
+    { "term": "Ocean acidification", "definition": "The fall in the pH of the oceans as they absorb CO₂ from the atmosphere." },
+    { "term": "Carbon capture and storage (CCS)", "definition": "Capturing CO₂ from flue gases and injecting it into deep rock formations." },
+    { "term": "Carbon footprint", "definition": "The total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Discuss the evidence that human activity has enhanced the greenhouse effect.",
+      "model": "The enhanced greenhouse effect is the extra warming caused by increased concentrations of greenhouse gases from human activities such as burning fossil fuels, deforestation, agriculture and cement-making. Evidence: continuous measurements at Mauna Loa, begun by Charles David Keeling in 1958, show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm. Ice cores show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation, and today's level is far above that range, matching the growth in fossil-fuel use. The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900, with most of the warming since the 1970s, and recent years have been the warmest on record. Climate models that include only natural factors do not reproduce the warming since the mid-twentieth century, while models that include human greenhouse gas emissions do. The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land."
+    },
+    {
+      "marks": 9,
+      "prompt": "Methane has a 100-year global warming potential of 28 (IPCC AR5). (i) Explain what this means. (ii) Give two sources of methane. (iii) Explain why carbon dioxide is responsible for more human-caused warming than methane, even though its GWP is only 1.",
+      "model": "(i) A GWP of 28 means that emitting 1 kg of methane causes 28 times the warming of emitting 1 kg of CO₂, measured over 100 years. (ii) Two sources of methane are ruminant livestock (cattle and sheep, from digestion in the stomach) and manure; rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands also release it. (iii) CO₂ causes most of the human-caused warming because far more of it is emitted than of methane, and it stays in the atmosphere for centuries, even though its GWP is only 1. A high GWP does not by itself make a gas the most important."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how the enhanced greenhouse effect leads to ocean acidification, with equations, and suggest three ways of reducing emissions of greenhouse gases from Irish agriculture and energy use.",
+      "model": "The oceans absorb about a quarter of the CO₂ emitted by humans. CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq), so the H⁺ concentration rises and the pH falls; the average surface ocean pH has fallen by about 0.1, from about 8.2 to about 8.1. The extra H⁺ reacts with carbonate ions, H⁺ + CO₃²⁻ → HCO₃⁻, leaving less carbonate for shell-building organisms such as oysters, mussels, corals and some plankton. Acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq). Three ways of reducing emissions: use the right amount of fertiliser at the right time and breed and feed livestock to produce less methane; plant forests and protect and rewet peatlands so that they act as carbon sinks; and use carbon capture and storage, injecting CO₂ from flue gases into deep rock formations. Renewable energy and improved energy efficiency would also cut emissions from energy use."
+    }
+  ]
+}
