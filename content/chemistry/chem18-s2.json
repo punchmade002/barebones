@@ -1,0 +1,86 @@
+{
+  "loId": "chem18-s2",
+  "chapterId": "chem18",
+  "subsection": "2. The equilibrium constant",
+  "syllabusRef": "3.3.2",
+  "notes": [
+    {
+      "h": "The equilibrium law and Kc",
+      "points": [
+        "The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.",
+        "For aA + bB ⇌ cC + dD: Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ.",
+        "Square brackets mean the concentration in mol L⁻¹ at equilibrium.",
+        "Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.",
+        "Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³.",
+        "Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂].",
+        "Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].",
+        "Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.",
+        "Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻]."
+      ]
+    },
+    {
+      "h": "Units of Kc",
+      "points": [
+        "To find the units, substitute mol L⁻¹ for each concentration and cancel.",
+        "When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.",
+        "For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻².",
+        "For PCl₅ ⇌ PCl₃ + Cl₂: the units of Kc are mol L⁻¹."
+      ]
+    },
+    {
+      "h": "What affects the value of Kc",
+      "points": [
+        "Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.",
+        "Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.",
+        "Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.",
+        "A catalyst does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.",
+        "Exothermic forward reaction (ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc.",
+        "Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.",
+        "Endothermic forward reaction (ΔH positive): raising the temperature increases Kc; lowering it decreases Kc.",
+        "Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.",
+        "If Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic."
+      ]
+    },
+    {
+      "h": "Using Kc to describe and predict (Higher Level only)",
+      "points": [
+        "A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion.",
+        "A small Kc (much less than 1) means the mixture is mainly reactants: the equilibrium lies to the left and little product forms.",
+        "A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium.",
+        "Esterification has Kc ≈ 4, so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms (see “Kc calculations”).",
+        "Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.",
+        "The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.",
+        "If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.",
+        "Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.",
+        "This explains Le Châtelier’s principle mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.",
+        "Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Equilibrium constant (Kc)", "definition": "The constant ratio of product to reactant concentrations, each raised to its coefficient, at equilibrium at a fixed temperature." },
+    { "term": "Equilibrium law", "definition": "The rule that, at equilibrium at a fixed temperature, the concentrations of products and reactants are related by a constant." },
+    { "term": "Homogeneous equilibrium", "definition": "An equilibrium in which all the reactants and products are in the same phase, such as all gases or all in solution." },
+    { "term": "Exothermic reaction", "definition": "A reaction that releases heat to the surroundings and has a negative ΔH." },
+    { "term": "Endothermic reaction", "definition": "A reaction that absorbs heat from the surroundings and has a positive ΔH." },
+    { "term": "Catalyst", "definition": "A substance that speeds up a reaction without being used up, and that does not change the position of equilibrium or the value of Kc." },
+    { "term": "Reaction quotient (Q)", "definition": "The same expression as Kc, but using the concentrations at any moment, not necessarily at equilibrium." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Write the equilibrium constant expression for 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), and state the effect, if any, on the value of Kc of (i) increasing the pressure, (ii) increasing the temperature, given that the forward reaction is exothermic.",
+      "model": "Kc = [SO₃]² ÷ [SO₂]²[O₂]. (i) Increasing the pressure has no effect on the value of Kc: the concentrations change and the equilibrium shifts, but the new equilibrium mixture gives the same value of Kc. (ii) Increasing the temperature decreases the value of Kc, because the forward reaction is exothermic: the equilibrium shifts towards the reactants, so less SO₃ is present at equilibrium."
+    },
+    {
+      "marks": 6,
+      "prompt": "For CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, Kc = 4.0. A mixture contains 0.50 mol of each of the four substances. Is it at equilibrium? If not, in which direction will it react? Explain.",
+      "model": "Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]. The volume is the same for every species, so it cancels and the moles can be used directly: Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0. Q is less than Kc (4.0), so the mixture is not at equilibrium and contains too little product. The reaction proceeds in the forward direction, forming more ester and water, until Q equals Kc."
+    },
+    {
+      "marks": 4,
+      "prompt": "The value of Kc for a gas-phase reaction increases as temperature increases. Is the forward reaction exothermic or endothermic? Explain.",
+      "model": "The forward reaction is endothermic. Increasing the temperature increases Kc, which means the equilibrium moves to the right and more products form at equilibrium. Raising the temperature favours the endothermic direction, so the forward reaction must absorb heat."
+    }
+  ]
+}

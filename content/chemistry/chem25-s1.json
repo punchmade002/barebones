@@ -1,0 +1,93 @@
+{
+  "loId": "chem25-s1",
+  "chapterId": "chem25",
+  "subsection": "1. Tests for aldehydes, ketones and carboxylic acids",
+  "syllabusRef": "4.2.4",
+  "notes": [
+    {
+      "h": "Telling aldehydes and ketones apart",
+      "points": [
+        "An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.",
+        "A ketone has the C=O group joined to two carbon atoms, e.g. propanone, CH₃COCH₃.",
+        "An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH; aldehydes are good reducing agents.",
+        "A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond.",
+        "A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none."
+      ]
+    },
+    {
+      "h": "Fehling's test for aldehydes",
+      "points": [
+        "Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).",
+        "The mixture is a clear deep-blue solution containing Cu²⁺ ions.",
+        "The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate.",
+        "Method: put about 2 cm³ of Fehling's reagent into each of two test tubes.",
+        "Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.",
+        "Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame.",
+        "With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.",
+        "With propanone there is no change: the solution stays blue.",
+        "An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde; one that leaves the reagent blue is a ketone.",
+        "Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.",
+        "Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile and flammable, so keep them away from flames and use a water bath.",
+        "Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue)."
+      ]
+    },
+    {
+      "h": "Fehling's reagent as an oxidising agent (Higher Level only)",
+      "points": [
+        "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).",
+        "The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.",
+        "Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.",
+        "Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).",
+        "Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.",
+        "Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone."
+      ]
+    },
+    {
+      "h": "Showing that ethanoic acid is acidic",
+      "points": [
+        "Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.",
+        "Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).",
+        "Magnesium: add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.",
+        "The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.",
+        "Magnesium equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).",
+        "Sodium carbonate: add a little solid sodium carbonate to ethanoic acid; the mixture effervesces.",
+        "The gas turns limewater milky, so it is carbon dioxide.",
+        "Sodium carbonate equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
+        "Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).",
+        "There is no visible change in this reaction, so add phenolphthalein to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.",
+        "Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.",
+        "Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated, so its H⁺ concentration is lower.",
+        "Safety: wear goggles; concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid, and keep flames away when testing for hydrogen.",
+        "Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.",
+        "Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Aldehyde", "definition": "An organic compound with the –CHO group, in which the carbonyl carbon is bonded to a hydrogen atom." },
+    { "term": "Ketone", "definition": "An organic compound with a C=O group bonded to two carbon atoms, in which the carbonyl carbon has no hydrogen." },
+    { "term": "Carbonyl group", "definition": "The C=O double bond, present in aldehydes and ketones." },
+    { "term": "Fehling's reagent", "definition": "A blue alkaline solution of Cu²⁺ ions, used to test for aldehydes, which gives a brick-red precipitate with them." },
+    { "term": "Oxidising agent", "definition": "A substance that takes electrons from, or gains oxygen or loses hydrogen with, another substance, and is itself reduced." },
+    { "term": "Reducing agent", "definition": "A substance that gives electrons to, or gains hydrogen or loses oxygen with, another substance, and is itself oxidised." },
+    { "term": "Carboxylic acid", "definition": "An organic acid containing the –COOH group, which releases H⁺ ions in water." },
+    { "term": "Weak acid", "definition": "An acid that is only partly dissociated in water, so it gives a low concentration of H⁺ ions." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would use Fehling's reagent to show which of two unlabelled liquids is ethanal and which is propanone. State what you would observe in each case and explain the difference.",
+      "model": "Put about 2 cm³ of freshly made Fehling's reagent, made by mixing equal volumes of Fehling's A and Fehling's B to give a clear deep-blue solution, into each of two clean test tubes. Add a few drops of the first unlabelled liquid to one tube and a few drops of the second liquid to the other. Warm both tubes in a beaker of hot water for a few minutes, without a naked flame, and observe. The tube that forms a brick-red precipitate of copper(I) oxide, Cu₂O, contains ethanal. The tube that stays blue contains propanone. The difference is that an aldehyde is easily oxidised: its carbonyl carbon carries a hydrogen atom, which is replaced by –OH during oxidation, so ethanal reduces the Cu²⁺ ions in the reagent. A ketone has no hydrogen on its carbonyl carbon, so it cannot be oxidised by this mild oxidising agent and no reaction occurs."
+    },
+    {
+      "marks": 9,
+      "prompt": "Fehling's test is described as an oxidising test. Explain this statement, giving the half-equation for the change to the copper ions and naming the organic product formed from ethanal.",
+      "model": "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions in it oxidise the aldehyde and are themselves reduced. The reduction half-equation is Cu²⁺ + e⁻ → Cu⁺, with the oxidation number of copper falling from +2 to +1. In the alkaline reagent the Cu⁺ ions form brick-red copper(I) oxide: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l). The aldehyde is oxidised. Ethanal is oxidised to ethanoic acid, which in the alkaline reagent is present as ethanoate ions, CH₃COO⁻. Overall: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O. The reagent is only a weak oxidising agent, which is why ethanal, an easily oxidised aldehyde, reduces it."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe two tests that show that ethanoic acid is acidic. Give the observation and a balanced equation for each.",
+      "model": "Test 1: add magnesium ribbon to dilute ethanoic acid. Bubbles of gas form and the magnesium dissolves. The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen. Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g). Test 2: add solid sodium carbonate to dilute ethanoic acid. The mixture effervesces, and the gas turns limewater milky, showing that it is carbon dioxide. Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g)."
+    }
+  ]
+}

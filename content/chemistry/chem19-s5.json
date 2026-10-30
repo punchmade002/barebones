@@ -1,0 +1,78 @@
+{
+  "loId": "chem19-s5",
+  "chapterId": "chem19",
+  "subsection": "5. Degree of dissociation",
+  "syllabusRef": "3.4.10",
+  "notes": [
+    {
+      "h": "Degree of dissociation",
+      "points": [
+        "The degree of dissociation is the fraction of acid (or base) molecules that have dissociated into ions in solution; as a percentage, % dissociation = (concentration dissociated ÷ initial concentration) × 100.",
+        "For an acid HA, % dissociation = ([H⁺] at equilibrium ÷ initial [HA]) × 100; for a base, % dissociation = ([OH⁻] ÷ initial [base]) × 100.",
+        "Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) are essentially 100% dissociated in dilute solution, because the reaction goes to completion.",
+        "Weak acids (e.g. ethanoic acid) and weak bases (e.g. ammonia) are only slightly dissociated, typically a few per cent or less.",
+        "For example, 0.10 M ethanoic acid is about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH.",
+        "So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium; the evidence is in “Strong vs weak, concentrated vs dilute”.",
+        "In Brønsted–Lowry terms, a strong acid is a good proton donor whose conjugate base (e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.",
+        "A weak acid's conjugate base (e.g. CH₃COO⁻) readily takes the proton back, so the equilibrium lies to the left."
+      ]
+    },
+    {
+      "h": "Using Ka and Kb values (Higher Level only)",
+      "points": [
+        "At the same concentration and temperature, the acid with the larger Ka is dissociated to a greater degree and is the stronger acid; the base with the larger Kb is the stronger base.",
+        "For example, methanoic acid (Ka 1.8 × 10⁻⁴) is a stronger acid than ethanoic acid (Ka 1.8 × 10⁻⁵): at 0.10 M, methanoic acid is 4.2% dissociated and ethanoic acid 1.3%.",
+        "Formula: degree of dissociation (as a fraction) = [H⁺] ÷ c = √(Ka × c) ÷ c = √(Ka ÷ c); for a weak base, the same form is √(Kb ÷ c).",
+        "Worked example: 0.10 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.",
+        "Its % dissociation = (1.34 × 10⁻³ ÷ 0.10) × 100 = 1.34%.",
+        "Worked example: 0.10 M ammonia (Kb 1.8 × 10⁻⁵) has [OH⁻] = 1.34 × 10⁻³ mol L⁻¹, so 1.34% of the ammonia has reacted to form NH₄⁺ and OH⁻.",
+        "A very small Ka (or Kb) means a very low degree of dissociation; the Ka values of strong acids are so large that dissociation is complete, which is why Ka is used only to compare weak acids."
+      ]
+    },
+    {
+      "h": "Effect of dilution (Higher Level only)",
+      "points": [
+        "Ka is constant at a given temperature, but the degree of dissociation of a weak acid increases as the solution is diluted, because √(Ka ÷ c) gets larger as c gets smaller.",
+        "For example, ethanoic acid is 0.42% dissociated at 1.0 M, 1.34% at 0.10 M and 4.2% at 0.010 M.",
+        "By Le Châtelier's principle, dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.",
+        "Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises (see “pH and its measurement”).",
+        "A strong acid is fully dissociated at every dilute concentration, so its degree of dissociation does not change on dilution."
+      ]
+    },
+    {
+      "h": "Conjugate pairs and Ka × Kb (Higher Level only)",
+      "points": [
+        "For a conjugate acid–base pair in water, Ka (of the acid) × Kb (of its conjugate base) = Kw = 1.0 × 10⁻¹⁴ at 25 °C.",
+        "So the larger the Ka of an acid, the smaller the Kb of its conjugate base: the stronger the acid, the weaker its conjugate base.",
+        "Example: Kb of the ethanoate ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.",
+        "Example: Ka of the ammonium ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Degree of dissociation", "definition": "The fraction, or percentage, of acid or base molecules that have dissociated into ions in solution." },
+    { "term": "Strong acid", "definition": "An acid that is essentially 100% dissociated in dilute aqueous solution, e.g. HCl." },
+    { "term": "Weak acid", "definition": "An acid that is only slightly dissociated in aqueous solution, e.g. ethanoic acid." },
+    { "term": "Strong base", "definition": "A base that is essentially 100% dissociated in dilute aqueous solution, e.g. NaOH." },
+    { "term": "Weak base", "definition": "A base that is only slightly dissociated in aqueous solution, e.g. ammonia." },
+    { "term": "Conjugate base", "definition": "The species left when an acid has donated a proton, which can take a proton back." },
+    { "term": "Dilution", "definition": "Adding water to a solution, which lowers the concentration of all its species without changing the amount of solute." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Compare the degree of dissociation of 0.10 M hydrochloric acid and 0.10 M ethanoic acid, and explain, using conjugate bases, why they differ.",
+      "model": "Hydrochloric acid is a strong acid and is essentially 100% dissociated, so the reaction goes to completion. Ethanoic acid is a weak acid and is only about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH. The conjugate base of hydrochloric acid, Cl⁻, has almost no tendency to take the proton back, so the equilibrium lies completely to the right. The conjugate base of ethanoic acid, CH₃COO⁻, readily takes the proton back, so the equilibrium lies to the left."
+    },
+    {
+      "marks": 9,
+      "prompt": "Benzoic acid has Ka = 6.3 × 10⁻⁵ and propanoic acid has Ka = 1.3 × 10⁻⁵. State which is the stronger acid and calculate the percentage dissociation of each in a 0.10 M solution.",
+      "model": "Benzoic acid is the stronger acid, because it has the larger Ka. Benzoic acid: % dissociation = √(6.3 × 10⁻⁵ ÷ 0.10) × 100 = √(6.3 × 10⁻⁴) × 100 = 0.0251 × 100 = 2.5%. Propanoic acid: % dissociation = √(1.3 × 10⁻⁵ ÷ 0.10) × 100 = √(1.3 × 10⁻⁴) × 100 = 0.0114 × 100 = 1.1%."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the percentage dissociation of ethanoic acid increases when the solution is diluted, even though its Ka stays the same.",
+      "model": "Ka is constant at a given temperature, but the degree of dissociation of a weak acid is given by √(Ka ÷ c), which gets larger as c gets smaller. On dilution the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the fall in concentration, so a larger fraction dissociates. For example, ethanoic acid is 0.42% dissociated at 1.0 M and 4.2% dissociated at 0.010 M."
+    }
+  ]
+}

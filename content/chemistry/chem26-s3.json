@@ -1,0 +1,127 @@
+{
+  "loId": "chem26-s3",
+  "chapterId": "chem26",
+  "subsection": "3. Limiting reagents",
+  "syllabusRef": "1.4.7",
+  "notes": [
+    {
+      "h": "Limiting reagent and reagent in excess (Higher Level only)",
+      "points": [
+        "Limiting reagent (limiting reactant): the reactant that is completely used up first in a reaction; it decides the maximum amount of product that can form, and the reaction stops when it runs out.",
+        "Reagent in excess: a reactant present in more than the amount needed to react with all of the limiting reagent; some of it is left unreacted at the end.",
+        "The amount of product depends only on the amount of the limiting reagent, not on the amount of the reagent in excess.",
+        "Analogy: a sandwich needs 2 slices of bread and 1 slice of cheese; with 10 slices of bread and 50 slices of cheese, only 5 sandwiches can be made, so the bread is limiting and the cheese is in excess.",
+        "The limiting reagent is not necessarily the one with the smaller mass, or even the smaller number of moles: the mole ratio in the equation must be taken into account."
+      ]
+    },
+    {
+      "h": "Finding the limiting reagent (Higher Level only)",
+      "points": [
+        "Step 1: Write the balanced equation.",
+        "Step 2: Convert the amount of each reactant to moles.",
+        "Step 3 (method A): Use the mole ratio to work out how many moles of the second reactant are needed to react with all of the first. If more than that is present, the second is in excess and the first is limiting; if less is present, the second is limiting.",
+        "Step 3 (method B): Divide the moles of each reactant by its coefficient in the equation; the reactant with the smallest result is the limiting reagent.",
+        "Step 4: Calculate the amount of product from the moles of the limiting reagent only.",
+        "Step 5 (if asked): Moles of excess reagent left = moles present − moles that reacted with the limiting reagent; convert to a mass if needed."
+      ]
+    },
+    {
+      "h": "Worked example: iron and sulfur (sample data) (Higher Level only)",
+      "points": [
+        "Question: 10.0 g of iron is heated with 10.0 g of sulfur, Fe(s) + S(s) → FeS(s). Find the limiting reagent, the mass of iron(II) sulfide formed and the mass of the excess reagent left.",
+        "Moles of Fe = 10.0 ÷ 56 = 0.1786 mol.",
+        "Moles of S = 10.0 ÷ 32 = 0.3125 mol.",
+        "The ratio is 1 : 1, so 0.1786 mol of Fe needs only 0.1786 mol of S; 0.3125 mol is present, so sulfur is in excess and iron is the limiting reagent.",
+        "Moles of FeS = 0.1786 mol; mass = 0.1786 × 88 = 15.7 g.",
+        "Sulfur left = 0.3125 − 0.1786 = 0.1339 mol.",
+        "Mass of sulfur left = 0.1339 × 32 = 4.29 g.",
+        "Check by conservation of mass: 15.71 g + 4.29 g = 20.0 g, the total mass of reactants."
+      ]
+    },
+    {
+      "h": "Worked example: magnesium and hydrochloric acid (sample data) (Higher Level only)",
+      "points": [
+        "Question: 0.480 g of magnesium is added to 50.0 cm³ of 0.500 mol L⁻¹ hydrochloric acid, Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+        "Moles of Mg = 0.480 ÷ 24 = 0.0200 mol.",
+        "Moles of HCl = 0.500 × 0.0500 = 0.0250 mol.",
+        "0.0200 mol of Mg needs 2 × 0.0200 = 0.0400 mol of HCl, but only 0.0250 mol is present, so hydrochloric acid is the limiting reagent and magnesium is in excess.",
+        "There are more moles of HCl than of Mg, yet the HCl still runs out first because the equation needs two moles of HCl for each mole of Mg.",
+        "Moles of H₂ = 0.0250 ÷ 2 = 0.0125 mol.",
+        "Volume of H₂ = 0.0125 × 22.4 = 0.280 L, which is 280 cm³, at STP.",
+        "Magnesium that reacted = 0.0125 mol; magnesium left = 0.0200 − 0.0125 = 0.00750 mol.",
+        "Mass of magnesium left = 0.00750 × 24 = 0.180 g, seen as unreacted ribbon when the fizzing stops."
+      ]
+    },
+    {
+      "h": "Worked example: reacting gas volumes (sample data) (Higher Level only)",
+      "points": [
+        "Question: 50 cm³ of hydrogen is exploded with 40 cm³ of oxygen and cooled to room temperature, 2H₂(g) + O₂(g) → 2H₂O(l); all volumes are at the same temperature and pressure.",
+        "By Avogadro's law the volume ratio equals the mole ratio, so 50 cm³ of H₂ needs 25 cm³ of O₂.",
+        "40 cm³ of O₂ is present, so hydrogen is limiting and 40 − 25 = 15 cm³ of oxygen is left over.",
+        "The water is a liquid at room temperature, so the final gas volume is 15 cm³, all of it oxygen."
+      ]
+    },
+    {
+      "h": "Worked example: the divide-by-coefficient method (sample data) (Higher Level only)",
+      "points": [
+        "Question: 2.70 g of aluminium is heated in 7.10 g of chlorine, 2Al(s) + 3Cl₂(g) → 2AlCl₃(s).",
+        "Moles: Al = 2.70 ÷ 27 = 0.100 mol; Cl₂ = 7.10 ÷ 71 = 0.100 mol.",
+        "Dividing by coefficients: Al 0.100 ÷ 2 = 0.0500; Cl₂ 0.100 ÷ 3 = 0.0333.",
+        "Chlorine has the smaller value, so chlorine is limiting, even though the moles of the two reactants are equal.",
+        "Moles of AlCl₃ = 0.100 × (2 ÷ 3) = 0.0667 mol.",
+        "Mass of AlCl₃ = 0.06667 × 133.5 = 8.90 g.",
+        "Aluminium left = 0.100 − 0.0667 = 0.0333 mol = 0.900 g.",
+        "Check: 8.90 + 0.90 = 9.80 g = 2.70 + 7.10 g."
+      ]
+    },
+    {
+      "h": "Worked example: limiting reagent and percentage yield (sample data) (Higher Level only)",
+      "points": [
+        "Question: 2.00 cm³ of phenylmethanol (density 1.04 g cm⁻³) was oxidised with 6.32 g of potassium manganate(VII) under basic conditions; 1.05 g of pure benzoic acid was obtained after acidifying and recrystallising.",
+        "Equation: 3C₆H₅CH₂OH + 4KMnO₄ → 3C₆H₅COOH + 4MnO₂ + H₂O + 4KOH.",
+        "Mass of phenylmethanol = 2.00 × 1.04 = 2.08 g.",
+        "Moles of phenylmethanol = 2.08 ÷ 108 = 0.01926 mol.",
+        "Moles of KMnO₄ = 6.32 ÷ 158 = 0.0400 mol.",
+        "0.01926 mol of phenylmethanol needs 0.01926 × (4 ÷ 3) = 0.0257 mol of KMnO₄; 0.0400 mol is present, so KMnO₄ is in excess and phenylmethanol is the limiting reagent.",
+        "The ratio of phenylmethanol to benzoic acid is 3 : 3 = 1 : 1, so theoretical moles of benzoic acid = 0.01926 mol.",
+        "Theoretical yield of benzoic acid = 0.01926 × 122 = 2.35 g.",
+        "Percentage yield = (1.05 ÷ 2.35) × 100 = 44.7%; the practical itself is in “Investigation: synthesising benzoic acid”."
+      ]
+    },
+    {
+      "h": "Why a reagent is used in excess (Higher Level only)",
+      "points": [
+        "Using one reagent in excess makes sure that all of the other reagent reacts, so none of it is wasted and the yield based on it is as high as possible.",
+        "The cheaper or more easily removed reagent is chosen to be in excess; for example, excess air (oxygen) in combustion makes the fuel burn completely to carbon dioxide rather than toxic carbon monoxide.",
+        "For a reversible reaction, an excess of one reactant shifts the equilibrium to the right (Le Châtelier's principle) and increases the yield, for example excess ethanol or ethanoic acid in making ethyl ethanoate.",
+        "In analysis, the reagent is added in excess so that the substance being measured reacts completely, for example excess silver nitrate in gravimetric analysis, or the excess acid in a back titration (see “Worked acid–base volumetric problems”).",
+        "Drawback: the excess reagent is left in the product mixture and must be removed, for example excess KMnO₄ in the benzoic acid preparation, or excess NaOH which would leave a soap caustic (see “Investigation: making soap”); unless recycled, it is wasted."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Limiting reagent", "definition": "The reactant that is completely used up first, and so decides the maximum amount of product that can form." },
+    { "term": "Reagent in excess", "definition": "A reactant supplied in more than the amount needed to react with all of the limiting reagent, so some of it is left over." },
+    { "term": "Mole ratio", "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in the balanced equation." },
+    { "term": "Avogadro's law", "definition": "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules, so volume ratios equal mole ratios." },
+    { "term": "Le Châtelier's principle", "definition": "When a system at equilibrium is disturbed, it shifts in the direction that opposes the change." },
+    { "term": "Back titration", "definition": "A titration in which an excess of one reagent is added to the substance being measured, and the amount left over is then titrated." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the terms limiting reagent and reagent in excess, and give one reason why a chemist may use one reagent in excess.",
+      "model": "Limiting reagent: the reactant that is completely used up first in a reaction, so it decides the maximum amount of product that can form; the reaction stops when it runs out. Reagent in excess: a reactant present in more than the amount needed to react with all of the limiting reagent, so some of it is left unreacted at the end. Reason: using one reagent in excess makes sure that all of the other, more expensive or more important, reagent reacts, so the yield based on it is as high as possible."
+    },
+    {
+      "marks": 12,
+      "prompt": "4.00 g of sodium hydroxide is added to a solution containing 6.00 g of sulfuric acid: 2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O. (i) Identify the limiting reagent, showing your working. (ii) Calculate the mass of sodium sulfate formed. (iii) Calculate the mass of the reagent in excess left over. (NaOH = 40, H₂SO₄ = 98, Na₂SO₄ = 142)",
+      "model": "(i) Moles of NaOH = 4.00 ÷ 40 = 0.100 mol. Moles of H₂SO₄ = 6.00 ÷ 98 = 0.0612 mol. The ratio is 2 : 1, so 0.100 mol of NaOH needs 0.0500 mol of H₂SO₄; 0.0612 mol is present, so sulfuric acid is in excess and sodium hydroxide is the limiting reagent. (ii) Moles of Na₂SO₄ = 0.100 ÷ 2 = 0.0500 mol. Mass of Na₂SO₄ = 0.0500 × 142 = 7.10 g. (iii) Moles of H₂SO₄ reacted = 0.0500 mol; moles left = 0.06122 − 0.0500 = 0.01122 mol. Mass left = 0.01122 × 98 = 1.10 g."
+    },
+    {
+      "marks": 9,
+      "prompt": "2.40 g of magnesium ribbon was added to 100 cm³ of 1.00 mol L⁻¹ hydrochloric acid. Identify the limiting reagent and calculate the volume of hydrogen produced at STP and the mass of the excess reagent remaining.",
+      "model": "Moles of Mg = 2.40 ÷ 24 = 0.100 mol. Moles of HCl = 1.00 × 0.100 = 0.100 mol. Mg : HCl ratio is 1 : 2, so 0.100 mol of Mg needs 0.200 mol of HCl; only 0.100 mol is present, so HCl is the limiting reagent and Mg is in excess. Moles of H₂ = 0.100 ÷ 2 = 0.0500 mol. Volume of H₂ at STP = 0.0500 × 22.4 = 1.12 L. Mg reacted = 0.0500 mol, so Mg left = 0.100 − 0.0500 = 0.0500 mol. Mass of Mg left = 0.0500 × 24 = 1.20 g."
+    }
+  ]
+}

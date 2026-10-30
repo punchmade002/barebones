@@ -1,0 +1,83 @@
+{
+  "loId": "chem17-s1",
+  "chapterId": "chem17",
+  "subsection": "1. Rate of reaction",
+  "syllabusRef": "3.2.1",
+  "notes": [
+    {
+      "h": "What rate of reaction means",
+      "points": [
+        "Rate of reaction is the change in concentration of a reactant or product per unit time.",
+        "When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹.",
+        "When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).",
+        "Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio in the balanced equation.",
+        "In 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed.",
+        "A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.",
+        "For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time).",
+        "The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst and, for reactions of gases, pressure; the nature of the reactants also matters. These are explained in “Collision theory”."
+      ]
+    },
+    {
+      "h": "Following a reaction in the laboratory",
+      "points": [
+        "Measure the volume of gas produced at regular time intervals, collected in a gas syringe or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.",
+        "When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar.",
+        "Measure the loss in mass as a gas escapes, with the flask on an electronic balance.",
+        "A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost.",
+        "Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.",
+        "Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate to hide a cross under the flask.",
+        "Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).",
+        "The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate.",
+        "Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.",
+        "The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction."
+      ]
+    },
+    {
+      "h": "How rate changes during a reaction",
+      "points": [
+        "The rate is greatest at the start, when the concentration of reactants is highest.",
+        "As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.",
+        "The reaction stops when the limiting reactant is used up; the rate is then zero.",
+        "On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.",
+        "The gradient (steepness) of the curve at any point is the rate at that time.",
+        "On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.",
+        "The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.",
+        "Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”."
+      ]
+    },
+    {
+      "h": "Why rate matters",
+      "points": [
+        "Industry wants fast reactions, so that products are made quickly and economically.",
+        "Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.",
+        "The rates of reactions in the body are controlled by enzymes; see “Catalysis and energy profiles”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Rate of reaction", "definition": "The change in concentration of a reactant or product per unit time." },
+    { "term": "Concentration", "definition": "The amount of a substance dissolved in a given volume of solution, e.g. in mol L⁻¹." },
+    { "term": "Mole ratio", "definition": "The ratio of the amounts in moles of the substances in a balanced equation, used to link the rates of reactant use and product formation." },
+    { "term": "Limiting reactant", "definition": "The reactant that is used up first, which stops the reaction and sets the maximum amount of product formed." },
+    { "term": "Gradient", "definition": "The steepness of a graph line, found as change in y divided by change in x; on a volume–time graph it gives the rate at that time." },
+    { "term": "Gas syringe", "definition": "A calibrated syringe used to measure the volume of gas produced in a reaction." },
+    { "term": "Cotton-wool plug", "definition": "A loose plug in the neck of a flask that lets gas escape while stopping acid spray from being lost." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define rate of reaction. Describe one way of measuring the rate of the reaction between calcium carbonate and hydrochloric acid.",
+      "model": "Rate of reaction is the change in concentration of a reactant or product per unit time. Method: place marble chips in a conical flask on an electronic balance, and add hydrochloric acid from a graduated cylinder placed beside it. Put a loose cotton-wool plug in the neck of the flask, start the stopwatch, and record the total mass at regular intervals. The loss in mass is the mass of carbon dioxide given off, so a steeper fall in mass means a faster rate. Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Alternatively, collect the carbon dioxide in a gas syringe and record its volume at regular intervals."
+    },
+    {
+      "marks": 6,
+      "prompt": "A graph of the volume of oxygen produced against time when hydrogen peroxide decomposes is steepest at the start and becomes horizontal after 12 minutes. Explain both features of the graph.",
+      "model": "The graph is steepest at the start because the concentration of hydrogen peroxide is highest then, so the rate of reaction is greatest. The gradient of the curve at any point is the rate at that time. The curve becomes less steep as hydrogen peroxide is used up and its concentration falls, so the rate decreases. The curve becomes horizontal after 12 minutes because the reaction is complete: the limiting reactant has been used up, the rate is then zero, and the volume of oxygen stops increasing."
+    },
+    {
+      "marks": 3,
+      "prompt": "Explain why 1/time can be used as a measure of rate in the reaction between sodium thiosulfate and hydrochloric acid.",
+      "model": "Each run forms the same amount of sulfur, which hides the cross, so the time taken is a measure of the reaction's speed. A shorter time means a faster rate, so rate is proportional to 1/time (rate ∝ 1/time)."
+    }
+  ]
+}
