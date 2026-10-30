@@ -21,10 +21,10 @@
     biology: {
       title: "Leaving Certificate Biology Curriculum Specification",
       path: "./relevant-resources/syllabi/biology.pdf",
-      sourceUrl: "https://curriculumonline.ie/getmedia/04e86311-7225-4cf3-a723-675e33154daf/SC-BIOLOGY-Spec-ENG.pdf",
+      sourceUrl: "https://www.curriculumonline.ie/getmedia/04e86311-7225-4cf3-a723-675e33154daf/SC-BIOLOGY-Spec-ENG.pdf",
       documentType: "Curriculum specification",
       effectiveFrom: "September 2025",
-      status: "Current",
+      status: "Current; first examined June 2027",
     },
     geography: {
       title: "Leaving Certificate Geography Syllabus (Ordinary and Higher Levels)",

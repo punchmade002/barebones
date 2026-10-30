@@ -1,0 +1,328 @@
+{
+  "loId": "geo-option-geoecology-s2",
+  "chapterId": "geo-option-geoecology",
+  "subsection": "2. Soil processes and the global pattern of soils",
+  "syllabusRef": "7.2",
+  "notes": [
+    {
+      "h": "Parent material, climate and time",
+      "points": [
+        "Parent material supplies mineral matter, sets texture, base content and the starting pH (see Soil composition and characteristics).",
+        "Climate is the most important factor at a global scale.",
+        "Temperature controls the speed of weathering and decomposition.",
+        "The balance of precipitation and evapotranspiration decides whether water moves down (leaching) or up (capillary rise). This is why soil belts follow climate belts.",
+        "Time: a mature soil has had long enough to develop distinct horizons, while an immature soil has thin or missing horizons."
+      ]
+    },
+    {
+      "h": "Relief, organisms and humans",
+      "points": [
+        "Steep slopes have thin, well-drained soils, because material moves downslope.",
+        "Hollows and valley floors collect water and have deep, wet soils.",
+        "A catena is the sequence of soils down a slope developed from the same parent material.",
+        "Altitude brings cooler, wetter conditions, which mean more leaching and more peat. Aspect affects soil temperature and moisture.",
+        "Vegetation supplies litter and decides humus type: deciduous woodland gives mull, while coniferous forest and heath give mor.",
+        "Roots bind soil and recycle nutrients, and animals mix the soil.",
+        "Humans change soils (see Human interference with soils)."
+      ]
+    },
+    {
+      "h": "Soil profile and horizons",
+      "points": [
+        "O horizon: litter and humus, which may be split into L, F and H layers.",
+        "A horizon: dark topsoil, with humus mixed with minerals.",
+        "E horizon: eluvial, a pale, washed-out layer found in leached soils such as podzols.",
+        "B horizon: illuvial subsoil, where washed-down iron, aluminium, clay or humus accumulate.",
+        "C horizon: weathered parent material. R horizon: bedrock.",
+        "Eluviation is the washing out of material from an upper horizon. Illuviation is its deposition in a lower one.",
+        "Diagram: a labelled soil profile showing depth and horizon letters."
+      ]
+    },
+    {
+      "h": "Weathering",
+      "points": [
+        "Physical and chemical weathering break parent material down into mineral particles and release nutrients.",
+        "Hydrolysis forms clay, and oxidation gives red and brown colours.",
+        "The rate of weathering sets soil depth. Soils are deep in the hot, wet tropics, where chemical weathering is fastest, and thin in cold or dry regions.",
+        "The processes themselves are in Weathering processes, in Rocks, Weathering and Mass Movement."
+      ]
+    },
+    {
+      "h": "Soil erosion",
+      "points": [
+        "Soil erosion is the removal of soil, especially topsoil, faster than it forms.",
+        "Erosion by water takes the forms of rain-splash, sheet wash, and rills and gullies.",
+        "Erosion by wind is deflation of dry, loose, bare soil.",
+        "Natural geological erosion is slow and balanced by soil formation. Accelerated erosion follows the removal of vegetation.",
+        "Erosion thins the profile, removes the humus-rich A horizon and its nutrients, and exposes infertile subsoil.",
+        "It also worsens structure and water retention. The eroded material is redeposited elsewhere, as alluvium or loess.",
+        "Human causes and responses are in Human interference with soils."
+      ]
+    },
+    {
+      "h": "Leaching",
+      "points": [
+        "Leaching happens where precipitation exceeds evapotranspiration. Gravitational water moves down through the soil.",
+        "The water dissolves soluble minerals and nutrient bases (calcium, magnesium, potassium and sodium) and carries them to lower horizons or into groundwater.",
+        "The upper soil becomes more acidic and less fertile, and material may be redeposited in the B horizon.",
+        "Leaching is common in Ireland's wet climate. Mild leaching gives brown earths, and intense leaching gives podzols."
+      ]
+    },
+    {
+      "h": "Humification",
+      "points": [
+        "Humification is the decomposition of litter by bacteria, fungi and soil animals into humus.",
+        "It is fast in warm, moist, well-aerated, base-rich conditions, which produce mull.",
+        "It is slow in cold, acid or waterlogged conditions, where partly decomposed matter builds up as mor or peat.",
+        "It releases nutrients for plants, as part of the nutrient cycle."
+      ]
+    },
+    {
+      "h": "Podzolisation",
+      "b": "An intense form of leaching that produces the podzol.",
+      "points": [
+        "Conditions: a cool, wet climate where precipitation is well above evapotranspiration; acid parent material such as granite or sandstone; coniferous forest or heath vegetation giving acid mor humus.",
+        "1. Acid litter releases organic acids into percolating water.",
+        "2. The acids combine with iron and aluminium (chelation, or cheluviation) and carry them down, along with bases and humus.",
+        "3. The A/E horizon is left as a bleached, ash-grey, sandy layer of quartz.",
+        "4. Iron, aluminium and humus are deposited in the B horizon, which turns dark reddish-brown.",
+        "5. A thin, hard iron pan may form in the B horizon. It blocks drainage and roots, so water lies above it and peat may form on top.",
+        "Result: the podzol, which is acidic and infertile, with sharply defined horizons."
+      ]
+    },
+    {
+      "h": "Laterisation",
+      "b": "Laterisation occurs in hot, wet tropical climates.",
+      "points": [
+        "1. High temperatures and heavy rain cause intense chemical weathering to great depth.",
+        "2. Silica and bases are leached out, since silica is soluble in warm water under these conditions.",
+        "3. Insoluble iron and aluminium oxides (sesquioxides) are left behind and concentrated, giving a deep red or yellow colour.",
+        "4. Litter decomposes so quickly that little humus accumulates.",
+        "5. Where the forest is removed and the soil dries out, the iron-rich layer can harden into a brick-like crust called laterite. A laterite crust forms only when the soil is exposed and dries out, not under intact forest.",
+        "Extreme laterisation of aluminium-rich rock forms bauxite, the ore of aluminium.",
+        "Bauxite is mined from laterised rock in tropical countries such as Guinea, Jamaica and Australia (north Queensland).",
+        "Result: latosols (oxisols)."
+      ]
+    },
+    {
+      "h": "Calcification",
+      "b": "Calcification occurs in dry continental climates where evapotranspiration roughly equals or exceeds precipitation, as in temperate grasslands and semi-arid areas.",
+      "points": [
+        "1. Rain penetrates only part of the way down, so leaching is weak.",
+        "2. Calcium carbonate is dissolved and carried a short distance down, then deposited in the B horizon as nodules or a lime-rich layer.",
+        "3. In dry periods, capillary action draws water and calcium back up.",
+        "4. Deep grass roots take up calcium and return it to the surface in litter.",
+        "Result: an alkaline or neutral, base-rich, fertile soil with a thick, humus-rich A horizon, the chernozem."
+      ]
+    },
+    {
+      "h": "Gleying",
+      "points": [
+        "Gleying happens in waterlogged soils: heavy clay, impermeable till, a high water table, hollows, or soils above an iron pan.",
+        "Pores fill with water, air is excluded, and conditions become anaerobic.",
+        "Bacteria reduce iron from its red ferric form to its grey or blue-grey ferrous form.",
+        "Where air enters along roots or cracks, iron is re-oxidised and forms orange or rusty mottles.",
+        "Result: a gley soil, which is grey, mottled, sticky and cold, slow to warm, and slow to decompose."
+      ]
+    },
+    {
+      "h": "Salinisation",
+      "points": [
+        "In hot, dry areas, evaporation draws water up by capillary action and leaves soluble salts at or near the surface, sometimes as a white crust.",
+        "Poor irrigation makes salinisation worse (see Human interference with soils).",
+        "Salt crusts link this process to desert soils."
+      ]
+    },
+    {
+      "h": "Zonal, intrazonal and azonal soils",
+      "points": [
+        "Zonal soils are mature soils whose character is set by climate and vegetation. They form broad belts matching the world's climate and biome belts.",
+        "Intrazonal soils are dominated by one local factor, such as drainage (gley, peat) or parent material (rendzina on limestone).",
+        "Azonal soils are immature, with poorly developed horizons. Examples are alluvium, scree, sand dunes, fresh volcanic ash and recent glacial deposits."
+      ]
+    },
+    {
+      "h": "World soil belts, from pole to equator",
+      "points": [
+        "Tundra soils are thin and gleyed, with permafrost below.",
+        "Podzols lie in the boreal (taiga) coniferous forest belt of northern Canada, Scandinavia, Finland and Siberia (Russia).",
+        "Brown earths lie under temperate deciduous forest in Ireland, Britain, much of western and central Europe (e.g. France and Germany), and the eastern USA.",
+        "Chernozems and chestnut soils lie under temperate grassland. Chestnut soils form on the drier margins of the grasslands.",
+        "Red Mediterranean soils, called terra rossa, form on limestone in Mediterranean lands, e.g. southern Italy (see A Peripheral European Region: the Mezzogiorno).",
+        "Aridisols, or desert soils, lie in the hot desert belt, including the Sahara, Arabian, Australian and south-western USA deserts.",
+        "Latosols lie under the tropical rainforest of the Amazon Basin, the Congo Basin and South-East Asia (e.g. Indonesia, Malaysia).",
+        "Diagram: a world map of soil belts, or a pole-to-equator transect."
+      ]
+    },
+    {
+      "h": "Mountains",
+      "points": [
+        "Soils change with altitude as climate does. Upslope they become thinner, more leached and peatier."
+      ]
+    },
+    {
+      "h": "Irish soil pattern",
+      "points": [
+        "Brown earths and grey-brown podzolics dominate the lowlands.",
+        "Podzols and peaty podzols occur on the uplands.",
+        "Gleys are found on poorly drained clay till, especially in the drumlin belt.",
+        "Peatland covers about a fifth of Ireland's land area. Peat is intrazonal: blanket bog lies in the west and on mountains, such as Co. Mayo and Connemara, and raised bog lies in the Midlands, such as Co. Offaly.",
+        "Thin rendzinas, which are dark and lime-rich, occur on the limestone of the Burren."
+      ]
+    },
+    {
+      "h": "Brown earth: location and formation",
+      "points": [
+        "Brown earth is Ireland's main lowland soil, and the most widespread soil of the Irish lowlands, especially in the south, east and Midlands.",
+        "Fertile grassland and tillage soils of the Golden Vale (Co. Tipperary and Co. Limerick) and the south-east are brown earths.",
+        "Grey-brown podzolics, which are slightly more leached relatives with clay washed into the B horizon, are typical of the limestone-rich till of the east Midlands, e.g. Co. Meath and Co. Kildare.",
+        "It formed under Ireland's mild, wet, cool temperate oceanic climate (see Physical regions) and the deciduous woodland of oak, ash, elm and hazel that covered most of Ireland after the Ice Age.",
+        "Annual rainfall is roughly 750 to 1,000 mm in the east and over 1,200 mm in much of the west.",
+        "Parent material is usually glacial till, and the soil is slightly acidic, at roughly pH 5.5 to 6.5.",
+        "Processes: mild leaching carries some iron and clay down, and mull humus is mixed into the soil by earthworms."
+      ]
+    },
+    {
+      "h": "Brown earth: profile, characteristics and use",
+      "points": [
+        "O: a thin mull humus layer.",
+        "A: dark brown, loamy, with crumb structure, roughly 20 to 30 cm deep.",
+        "B: lighter brown, with some iron and clay washed in. The boundary with A is gradual because earthworms mix the soil.",
+        "C: weathered till or rock.",
+        "There is no bleached E horizon. Depths are rough illustrative values only.",
+        "Characteristics: loamy texture, crumb structure, slightly acidic and fertile.",
+        "Uses: grassland and tillage in the Golden Vale and the south-east.",
+        "Improvement: lime is applied where pH falls below the Teagasc targets (see Fertility and nutrients in Soil composition and characteristics)."
+      ]
+    },
+    {
+      "h": "Podzol: location and formation",
+      "points": [
+        "Podzols occur on Irish uplands such as the Wicklow Mountains, which are granite, and on other mountains with heather moorland and high rainfall.",
+        "Many lie under conifer plantations, notably Sitka spruce.",
+        "Many Irish upland podzols are peaty podzols, with a peaty O horizon above an iron pan.",
+        "Formation follows the podzolisation steps described above, under acid mor humus from heather or conifers in a cool, wet climate."
+      ]
+    },
+    {
+      "h": "Podzol: profile, characteristics and use",
+      "points": [
+        "O: thick mor or peat.",
+        "A/E: ash-grey, bleached sand.",
+        "A thin, black iron pan.",
+        "B: reddish-brown, enriched with iron and humus.",
+        "C: parent material below.",
+        "Characteristics: strongly acidic, at about pH 4 to 4.5.",
+        "Uses: rough grazing for sheep, and forestry.",
+        "Improvement: deep ploughing to break the iron pan, heavy liming and fertiliser."
+      ]
+    },
+    {
+      "h": "Gley: location and formation",
+      "points": [
+        "Gleys occur in the drumlin belt of Co. Cavan, Co. Monaghan and Co. Leitrim, on impermeable boulder clay in the wet hollows between drumlins.",
+        "Heavy clay soils of the north Midlands and Co. Clare are also gleys.",
+        "Formation follows the gleying steps described above: waterlogging, reduction of iron, and grey, mottled colours."
+      ]
+    },
+    {
+      "h": "Gley: profile, characteristics and use",
+      "points": [
+        "Profile: a waterlogged upper layer that is grey or blue-grey with orange mottles, sitting on impermeable clay.",
+        "Characteristics: wet, sticky and cold, with a short grazing season because wet ground is easily poached.",
+        "Uses: mainly grass for cattle.",
+        "Improvement: field drains and arterial drainage (see Human interference with soils)."
+      ]
+    },
+    {
+      "h": "Latosol: location, climate and formation",
+      "points": [
+        "Latosols form under the tropical rainforest of the Amazon Basin, the Congo Basin and South-East Asia (e.g. Indonesia, Malaysia).",
+        "The climate is hot, about 27 °C all year round, with over 2,000 mm of rain (see One major biome in detail).",
+        "Formation is laterisation, as described above."
+      ]
+    },
+    {
+      "h": "Latosol: profile, characteristics and use",
+      "points": [
+        "Latosols are deep, often many metres, much deeper than Irish soils.",
+        "Profile: a thin O layer; a thin, leached A horizon; a very deep red B horizon of sesquioxides; deep weathered rock below (C).",
+        "They are red or yellow from iron and aluminium oxides, clay-rich, acidic, and have very little humus.",
+        "They are low in nutrients. Nearly all nutrients are held in the living vegetation and recycled quickly from the thin litter layer.",
+        "Shifting cultivation (slash and burn) traditionally used the soil for a few years before moving on.",
+        "When the forest is cleared, the soil loses fertility within a few years, erodes under heavy rain, and can bake into laterite crust."
+      ]
+    },
+    {
+      "h": "Chernozem: location, climate and vegetation",
+      "points": [
+        "Chernozem is the Russian name for black earth.",
+        "It lies on the steppes of Ukraine and southern Russia, the Prairies of North America (the Great Plains of the USA and Canada), and the Pampas of Argentina.",
+        "The climate is continental, with hot summers, very cold winters and low rainfall of roughly 250 to 500 mm a year, mostly in late spring and summer.",
+        "The natural grassland of steppe or prairie has dense, deep roots that die back each year, supplying large amounts of organic matter."
+      ]
+    },
+    {
+      "h": "Chernozem: processes and profile",
+      "points": [
+        "Snow melt in spring gives a short burst of downward water movement. Calcium is moved within the soil as described under Calcification.",
+        "Burrowing animals mix the soil: ground squirrels, called susliks in the steppe, and prairie dogs in North America.",
+        "Their filled-in burrows show as darker patches called krotovinas.",
+        "A: very thick, black, humus-rich topsoil, commonly about 1 m deep, with crumb structure.",
+        "B: calcium-rich, with white lime nodules.",
+        "C: loess, fine wind-blown silt, in much of the steppe and prairie."
+      ]
+    },
+    {
+      "h": "Chernozem: characteristics and use",
+      "points": [
+        "Neutral to slightly alkaline, and very fertile.",
+        "Uses: some of the world's main wheat and maize lands, with sunflowers in Ukraine.",
+        "Ukraine has been called the breadbasket of Europe.",
+        "Ploughing the prairie soils for wheat, followed by drought in the 1930s, caused the Dust Bowl (see Human interaction: mass movement, in Rocks, Weathering and Mass Movement)."
+      ]
+    },
+    {
+      "h": "Other continental choices",
+      "points": [
+        "India's black soil, or regur, of the Deccan is formed from Deccan Traps basalt. It is clay-rich, holds moisture, cracks when dry, and is used for cotton (see India).",
+        "The aridisol of the hot desert is covered in One major biome in detail."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Catena", "definition": "A sequence of soils down a slope that have all developed from the same parent material." },
+    { "term": "Eluviation", "definition": "The washing out of material from an upper soil horizon." },
+    { "term": "Illuviation", "definition": "The deposition in a lower soil horizon of material washed down from above." },
+    { "term": "E horizon", "definition": "The pale, leached, eluvial layer found in soils such as podzols." },
+    { "term": "Leaching", "definition": "The downward movement of water through soil, dissolving minerals and nutrient bases and carrying them to lower layers or groundwater." },
+    { "term": "Humification", "definition": "The decomposition of litter by bacteria, fungi and soil animals into humus." },
+    { "term": "Podzolisation", "definition": "Intense leaching in which iron, aluminium and humus are carried from the A/E horizon and deposited in the B horizon." },
+    { "term": "Iron pan", "definition": "A thin, hard layer of iron deposited in the B horizon of a podzol, which blocks drainage and roots." },
+    { "term": "Laterisation", "definition": "Intense weathering in hot, wet climates that removes silica and bases and leaves iron and aluminium oxides." },
+    { "term": "Sesquioxides", "definition": "Insoluble iron and aluminium oxides left behind by laterisation." },
+    { "term": "Laterite", "definition": "A brick-like crust of hardened iron-rich material that forms when laterised soil is exposed and dries out." },
+    { "term": "Calcification", "definition": "The process in dry grassland climates in which calcium carbonate is moved short distances and deposited in the B horizon." },
+    { "term": "Gleying", "definition": "The process in waterlogged soils in which iron is reduced to grey or blue-grey and orange mottles form where air enters." },
+    { "term": "Zonal soil", "definition": "A mature soil whose character is set by climate and vegetation, forming broad belts across the world." },
+    { "term": "Chernozem", "definition": "A very fertile, black, humus-rich soil of the temperate grasslands, from the Russian for black earth." },
+    { "term": "Krotovina", "definition": "A darker patch in a soil where a burrow made by an animal has been filled in." }
+  ],
+  "questions": [
+    {
+      "marks": 80,
+      "prompt": "Examine how any three soil processes affect soil characteristics.",
+      "model": "Leaching is the downward movement of water through the soil where precipitation exceeds evapotranspiration. Gravitational water dissolves soluble minerals and nutrient bases such as calcium, magnesium and potassium and carries them to lower horizons or into groundwater. The upper soil becomes more acidic and less fertile, and material may be redeposited in the B horizon. Mild leaching gives brown earths, which have a mull humus layer and a lighter brown B horizon with some iron and clay washed in, and which are fertile and slightly acidic. Podzolisation is an intense form of leaching under a cool, wet climate with acid parent material and coniferous forest or heath. Acid litter releases organic acids that combine with iron and aluminium and carry them down with bases and humus. The A/E horizon is left as a bleached, ash-grey, sandy layer of quartz, while iron, aluminium and humus are deposited in the B horizon, which turns dark reddish-brown. A thin, hard iron pan may block drainage and roots, so water lies above it and peat may form, giving an acidic, infertile podzol with sharply defined horizons. Laterisation occurs in hot, wet tropical climates, where high temperatures and heavy rain cause intense chemical weathering to great depth. Silica and bases are leached out, while insoluble iron and aluminium oxides, the sesquioxides, are left behind and concentrated, giving a deep red or yellow colour. Litter decomposes so quickly that little humus accumulates, so the soil is infertile. Where the forest is removed and the soil dries out, the iron-rich layer can harden into laterite. The Amazon Basin latosols illustrate these characteristics: deep, red, clay-rich, acidic and low in nutrients, with the nutrients held in living vegetation."
+    },
+    {
+      "marks": 80,
+      "prompt": "Describe and explain the composition and characteristics of one soil type you have studied.",
+      "model": "Brown earth is Ireland's main lowland soil, found especially in the south, east and Midlands, and it is fertile grassland and tillage land in the Golden Vale and the south-east. It formed under Ireland's mild, wet, cool temperate oceanic climate, with rainfall of roughly 750 to 1,000 mm in the east and over 1,200 mm in much of the west, under the deciduous woodland of oak, ash, elm and hazel. Its parent material is usually glacial till. Processes: mild leaching carries some iron and clay down into the B horizon, and mull humus is mixed into the soil by earthworms, which is why the boundary between A and B is gradual and there is no bleached E horizon. The profile has a thin mull humus O layer, a dark brown, loamy A horizon with crumb structure roughly 20 to 30 cm deep, a lighter brown B horizon, and weathered till or rock as the C horizon; depths are rough illustrative values. Composition: a loam, with mineral matter from the till, humus in the topsoil, and water and air sharing the pores. Characteristics: loamy texture, crumb structure, slightly acidic at roughly pH 5.5 to 6.5, and fertile. Uses: grassland and tillage. Improvement: lime is applied where pH falls below the Teagasc targets, and fertilisers supply the nutrients the crops remove."
+    },
+    {
+      "marks": 80,
+      "prompt": "Describe and explain the characteristics of one soil type from a continental region.",
+      "model": "Chernozem is a black earth of the temperate grasslands, found on the steppes of Ukraine and southern Russia, the Prairies of North America and the Pampas of Argentina. Its climate is continental, with hot summers, very cold winters and low rainfall of roughly 250 to 500 mm a year, mostly in late spring and summer. The natural steppe or prairie grassland has dense, deep roots that die back each year and supply large amounts of organic matter. Processes: calcification, in which rain penetrates only part of the way, calcium carbonate is carried a short distance down and deposited in the B horizon, and in dry periods capillary action draws calcium back up while deep grass roots return it to the surface in litter. Burrowing animals such as susliks and prairie dogs mix the soil, and their filled-in burrows appear as krotovinas. Profile: a very thick, black, humus-rich A horizon, commonly about 1 m deep, with crumb structure; a calcium-rich B horizon with white lime nodules; and a C horizon of loess, fine wind-blown silt, in much of the steppe and prairie. Characteristics: neutral to slightly alkaline, base-rich and very fertile. Use: some of the world's main wheat and maize lands, with sunflowers in Ukraine, which has been called the breadbasket of Europe. The prairie soils were damaged when they were ploughed for wheat, and the drought of the 1930s then caused the Dust Bowl."
+    }
+  ]
+}

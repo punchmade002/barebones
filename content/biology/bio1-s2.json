@@ -1,0 +1,107 @@
+{
+  "loId": "bio1-s2",
+  "chapterId": "bio1",
+  "subsection": "Science as a global enterprise",
+  "syllabusRef": "U1.1",
+  "notes": [
+    {
+      "h": "Science as a global enterprise",
+      "points": [
+        "Science is global: scientists in many countries work on the same problems, share data and build on each other’s published results. Knowledge is not owned by one country or person, and claims are tested by people with different backgrounds and assumptions.",
+        "Large problems need international teams, shared funding and shared equipment. The Human Genome Project (1990–2003) sequenced the human genome through an international consortium of 20 research groups in six countries: the USA, the UK, Japan, France, Germany and China.",
+        "Under the Bermuda Principles (1996), the Human Genome Project released its sequence data publicly within 24 hours, free for anyone to use.",
+        "Speed through sharing: in January 2020 Chinese scientists published the genome sequence of the new coronavirus (SARS-CoV-2) online. Research groups around the world used it within days to design tests and begin developing vaccines.",
+        "Funding is international too. Irish researchers are funded by Research Ireland, formed in 2024 from Science Foundation Ireland and the Irish Research Council, and by the EU research programme Horizon Europe (2021–2027), which funds teams that include several countries. Funding as a source of bias is covered in “Recognising bias and evaluating sources”.",
+        "Science needs four things to work across borders: clear communication, international conventions, peer review and reproducibility. Each is described below."
+      ]
+    },
+    {
+      "h": "Clear communication",
+      "points": [
+        "Scientists communicate mainly through papers in scientific journals, and also at conferences, in review articles and through shared online databases such as genome databases (taught in “Bioinformatics: genome databases”).",
+        "A research paper has a standard structure: title and authors; abstract (a short summary); introduction (background and the aim or hypothesis); methods (exactly what was done, with materials and conditions); results (data in tables and graphs); discussion (what the results mean, the limitations, and comparison with other work); and references to other work.",
+        "The methods section must be detailed enough for another scientist to repeat the work, which makes reproducibility possible.",
+        "Scientific language must be precise and unambiguous. Terms have one agreed meaning (e.g. “theory” in science is not “a guess”), quantities are given with units, and uncertainty is stated rather than hidden. English is the main shared language of international science.",
+        "Open access journals make papers free to read for everyone, not only subscribers.",
+        "Preprints are papers posted online before peer review, e.g. on bioRxiv, launched 2013, and medRxiv, launched 2019, for medical research. They speed up sharing, as in the COVID-19 pandemic, but readers must remember that they have not yet been checked.",
+        "Poor communication slows science. Gregor Mendel published his results on inheritance in pea plants in 1866, in the journal of the Natural History Society of Brünn (now Brno, Czech Republic). They were little read, and their importance was recognised only when other scientists reached the same conclusions independently in 1900.",
+        "Communicating with the public (news, policy and outreach) is also part of a scientist’s work. Evaluating media reports is taught in “Evaluating evidence”, and presenting students’ own findings in “Communicating results”."
+      ]
+    },
+    {
+      "h": "International conventions",
+      "points": [
+        "An international convention is a set of rules or standards agreed by scientists or governments across countries, so that results mean the same everywhere and can be compared and repeated.",
+        "SI units (Système International) are the agreed units of measurement: metre (length), kilogram (mass), second (time), mole (amount of substance) and kelvin (temperature), with degrees Celsius also widely used. Prefixes such as milli- and micro- are used, e.g. mm, and µm, the unit for cell sizes; nm is used for organelles and molecules.",
+        "Binomial nomenclature gives each species a two-part Latin name, genus then species, e.g. Homo sapiens. The genus starts with a capital letter, the species name is lower case, and the name is printed in italics or underlined when handwritten.",
+        "Carl Linnaeus established the system; the starting point for plant names is his Species Plantarum (1753). One scientific name avoids confusion between common names, which differ between languages and regions. Classification itself is taught in “Classification”.",
+        "Other naming conventions: human genes have agreed symbols, written in italics, e.g. the CFTR gene, whose faulty alleles cause cystic fibrosis. The protein is written without italics. Chemical names and formulas follow agreed rules, e.g. CO₂ and C₆H₁₂O₆.",
+        "Ethical conventions set rules for research. The Declaration of Helsinki (World Medical Association, 1964) sets out ethical principles for research on people, including informed consent and independent ethical review. It followed the Nuremberg Code (1947), which was written after the trials of Nazi doctors.",
+        "The Convention on Biological Diversity (1992, agreed at the Rio Earth Summit) commits countries to conserving biodiversity, using it sustainably and sharing fairly the benefits of genetic resources. CITES (1973) controls international trade in endangered species.",
+        "Agreed standards also cover laboratory safety signs (hazard symbols) and the depositing of data in public databases."
+      ]
+    },
+    {
+      "h": "How peer review works",
+      "points": [
+        "Peer review is the evaluation of a scientific paper by independent experts in the same field, the author’s “peers”, before it is published.",
+        "Steps 1 to 3: the scientists submit the paper to a journal; the editor checks that it suits the journal and is of reasonable quality, and may reject it straight away; if it passes, the editor sends it to usually two or three independent experts, called reviewers or referees.",
+        "Steps 4 and 5: the reviewers check whether the methods are suitable, the data support the conclusions, the analysis is sound, the work is original and important, ethical rules were followed and other work is properly referenced. They recommend accept, accept with minor revisions, revise and resubmit (major revisions), or reject.",
+        "Steps 6 and 7: the authors revise the paper and reply to each comment, and the editor makes the final decision before the paper is published.",
+        "Diagram: a flowchart of the seven steps, with a loop from “revise” back to “reviewers”.",
+        "Single-blind review: the reviewers know who the authors are, but the authors do not know the reviewers. Double-blind review: neither knows the other, which reduces bias from the authors’ reputation, gender or country. Open review: names, and sometimes reports, are published."
+      ]
+    },
+    {
+      "h": "Strengths and limits of peer review",
+      "points": [
+        "Peer review filters out poor-quality or unsupported work, improves papers before publication, and gives readers some confidence in published work. A peer-reviewed paper is a more reliable source than one that is not (see “Recognising bias and evaluating sources”).",
+        "Reviewers do not normally repeat the experiments, so they cannot detect well-hidden fraud or errors in raw data. Peer review does not guarantee that a paper is correct.",
+        "Reviewers can be biased, e.g. against ideas that challenge their own, or towards famous laboratories. The process is slow, and reviewers are usually unpaid volunteers.",
+        "Some low-quality “predatory” journals charge authors to publish while doing little or no real review.",
+        "Checking continues after publication. Other scientists read, cite and try to repeat the work; errors lead to published corrections, and serious errors or misconduct lead to retraction, when the journal withdraws the paper.",
+        "Hwang Woo-suk’s team published papers in the journal Science in 2004 and 2005 claiming to have made stem cells from cloned human embryos. The data were found to be fabricated, and the papers were retracted in 2006. Peer review had not caught the fraud; scrutiny after publication did."
+      ]
+    },
+    {
+      "h": "Reproducibility",
+      "points": [
+        "A result is reproducible if other scientists, working independently in other laboratories, get the same result when they repeat the work, using the same or different methods. The difference between repeatability and reproducibility is taught in “Objectivity and data quality”.",
+        "Science relies on reproducibility because a single result may be due to chance, error, an unusual sample, bias or fraud. Agreement between independent groups shows that the result is a real feature of nature.",
+        "Only reproduced findings become accepted knowledge and can support theories. For example, the H. pylori explanation of stomach ulcers was accepted once others reproduced the findings (see “The nature of scientific knowledge”).",
+        "Reproducibility depends on clear communication: full methods, raw data and materials must be shared so that others can repeat the work.",
+        "Not all published results reproduce. Scientists at the company Amgen reported in 2012 that they could confirm the findings of only 6 of 53 “landmark” preclinical cancer studies.",
+        "Causes of failure include small samples, selective reporting of positive results, pressure to publish, poorly described methods and, rarely, fraud. Responses include sharing data openly, registering study plans in advance and publishing replication studies."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Peer review", "definition": "The evaluation of a scientific paper by independent experts in the same field before it is published." },
+    { "term": "Referee", "definition": "An independent expert who reviews a submitted paper for a journal and recommends whether it is accepted, revised or rejected." },
+    { "term": "Single-blind review", "definition": "Peer review in which the reviewers know who the authors are but the authors do not know the reviewers." },
+    { "term": "Double-blind review", "definition": "Peer review in which neither the authors nor the reviewers know each other’s identity." },
+    { "term": "Retraction", "definition": "The withdrawal of a published paper by its journal, usually because of serious error or misconduct." },
+    { "term": "Preprint", "definition": "A paper posted online before peer review, so it has not yet been checked." },
+    { "term": "Open access", "definition": "A journal whose papers are free for everyone to read, not only subscribers." },
+    { "term": "International convention", "definition": "A set of rules or standards agreed across countries so that results can be compared and repeated." },
+    { "term": "Binomial nomenclature", "definition": "The two-part Latin name of a species, genus followed by species, e.g. Homo sapiens." },
+    { "term": "Reproducibility", "definition": "The property of a result that other scientists, working independently, obtain again when they repeat the work." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe the process of peer review and give one limitation of it.",
+      "model": "Peer review is the evaluation of a scientific paper by independent experts in the same field, the author’s peers, before it is published. First, the scientists submit the paper to a journal. Second, the editor checks that it suits the journal and is of reasonable quality, and may reject it straight away. Third, the editor sends it to usually two or three independent reviewers. Fourth, the reviewers check whether the methods are suitable, the data support the conclusions, the analysis is sound, the work is original and important, ethical rules were followed and other work is properly referenced. Fifth, they recommend accept, accept with minor revisions, revise and resubmit, or reject. Sixth, the authors revise the paper and reply to each comment. Seventh, the editor makes the final decision and the paper is published. One limitation is that reviewers do not normally repeat the experiments, so they cannot detect well-hidden fraud or errors in raw data. Peer review does not guarantee that a paper is correct."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is meant by reproducibility? Explain why scientists insist that results are reproducible.",
+      "model": "A result is reproducible if other scientists, working independently in other laboratories, get the same result when they repeat the work, using the same or different methods. Scientists insist on reproducibility because a single result may be due to chance, error, an unusual sample, bias or fraud. Agreement between independent groups shows that the result is a real feature of nature, and only reproduced findings become accepted knowledge that can support theories."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two examples of international conventions used in biology and explain why each is needed.",
+      "model": "First, SI units are the agreed units of measurement, such as the metre, kilogram, second, mole and kelvin. They are needed so that measurements mean the same thing in every country and results can be compared and repeated. Second, binomial nomenclature gives each species a two-part Latin name, genus then species, e.g. Homo sapiens. It is needed because common names differ between languages and regions, and one scientific name avoids confusion."
+    }
+  ]
+}

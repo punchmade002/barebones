@@ -1,0 +1,104 @@
+{
+  "loId": "bio14-s1",
+  "chapterId": "bio14",
+  "subsection": "Photosynthesis as an anabolic process",
+  "syllabusRef": "2.2.1",
+  "notes": [
+    {
+      "h": "What photosynthesis is",
+      "points": [
+        "Green plants, algae and some bacteria (e.g. cyanobacteria) photosynthesise: they use light energy, absorbed by chlorophyll, to make glucose from carbon dioxide and water, releasing oxygen as a by-product.",
+        "These organisms are autotrophs, so they make their own food.",
+        "Light energy is converted to chemical energy stored in the bonds of glucose. Almost all food chains, and so almost all the energy used by living things, start with this conversion.",
+        "The oxygen in the air also comes from photosynthesis.",
+        "Photosynthesis is anabolic: it builds one large molecule, glucose (C₆H₁₂O₆), from small inorganic molecules, carbon dioxide and water, and it takes in energy, supplied by light. Respiration is the matching catabolic process, explained in Respiration as a catabolic process.",
+        "Word equation: carbon dioxide + water → glucose + oxygen, with light energy and chlorophyll written above the arrow.",
+        "Balanced equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll written above the arrow.",
+        "The balanced equation has 6 carbon, 18 oxygen and 12 hydrogen atoms on each side. The six molecules of CO₂ supply the six carbon atoms of one glucose molecule."
+      ]
+    },
+    {
+      "h": "Sources of the reactants and fate of the products",
+      "points": [
+        "Carbon dioxide diffuses from the air into the leaf through the stomata, pores mainly on the lower surface, then through the air spaces to the mesophyll cells. Some carbon dioxide also comes from the plant's own respiring cells.",
+        "Aquatic plants take in carbon dioxide dissolved in the water, partly as hydrogencarbonate ions.",
+        "Water is absorbed from the soil by root hair cells, by osmosis, and carried up to the leaves in the xylem. Only a tiny fraction of the water taken up is used in photosynthesis; most is lost in transpiration. Transport in Plants explains this in full.",
+        "Light comes from the sun, or from artificial light in greenhouses and laboratories.",
+        "Chlorophyll, the green pigment in chloroplasts, absorbs mainly red and blue light and reflects green light, which is why leaves look green.",
+        "Oxygen is used by the plant's own cells in respiration. The excess diffuses out of the leaf through the stomata into the air, or out of the water in aquatic plants.",
+        "The oxygen released comes from the splitting of water, not from carbon dioxide. This was shown in the 1940s by experiments in which water labelled with the heavy oxygen isotope ¹⁸O gave labelled oxygen gas.",
+        "Glucose is used in the plant's own respiration to release energy, stored as ATP (see ATP). The rest is converted to other substances, described in the next block."
+      ]
+    },
+    {
+      "h": "Glucose converted to sucrose, starch and cellulose",
+      "points": [
+        "Sucrose: glucose is joined to fructose to form the disaccharide sucrose. Sucrose is the form in which carbohydrate is transported from the leaves, in the phloem, to growing tips, roots, fruits and storage organs.",
+        "Sucrose suits transport because it is soluble and less reactive than glucose; it is not a reducing sugar, so it is not used up on the way.",
+        "Starch: glucose is joined into the polysaccharide starch for storage. Starch grains form in the stroma of the chloroplast during the day, and long-term stores are in storage organs and seeds, such as potato tubers and cereal grains.",
+        "Starch suits storage because it is insoluble, so it does not affect osmosis, and it is compact.",
+        "Cellulose: glucose is joined into the polysaccharide cellulose, which forms plant cell walls. Cellulose is the most abundant organic compound on Earth.",
+        "Plants also convert glucose to lipids, such as oils in seeds, and, with nitrates from the soil, to amino acids. Both conversions are explained in Biomolecules and metabolism."
+      ]
+    },
+    {
+      "h": "Photosynthesis as a carbon sink",
+      "points": [
+        "A carbon sink is anything that takes in more carbon from the atmosphere than it releases, storing it. Photosynthesis is the only major biological process that removes CO₂ from the air.",
+        "The carbon is fixed into glucose, then into sucrose, starch, cellulose and the rest of the plant's biomass.",
+        "The carbon stays locked up as long as the biomass survives: in the wood of trees for decades or centuries, and in peat bogs for thousands of years, because waterlogged, acidic conditions slow decomposition.",
+        "Carbon is also locked up in ocean sediments formed from algae and phytoplankton.",
+        "Respiration, decomposition and burning return it to the air as CO₂ (see Respiration as a catabolic process).",
+        "Forests, peatlands and the algae and phytoplankton of the oceans are the main natural carbon sinks.",
+        "Cutting forests, draining or burning peat, and burning fossil fuels release stored carbon and add to the CO₂ that drives climate change. Fossil fuels hold carbon that was fixed by photosynthesis millions of years ago."
+      ]
+    },
+    {
+      "h": "Where photosynthesis happens and the two stages",
+      "b": "Photosynthesis takes place in chloroplasts, which in a leaf are mostly in the palisade mesophyll cells just below the upper surface, where light is strongest. Spongy mesophyll cells and guard cells also contain chloroplasts.",
+      "points": [
+        "Stage 1, the light-dependent stage (light stage), takes place on the thylakoid membranes, which are stacked into grana.",
+        "1. Chlorophyll absorbs light energy.",
+        "2. The energy is used to split water molecules (photolysis) into oxygen, protons (H⁺) and electrons.",
+        "3. The oxygen is released.",
+        "4. The energy is trapped in ATP, and the protons and high-energy electrons are picked up by a carrier molecule, explained in The light-dependent reactions.",
+        "Stage 2, the light-independent stage, takes place in the stroma:",
+        "1. Carbon dioxide enters the stroma.",
+        "2. It is combined with the protons and electrons (hydrogen) from stage 1.",
+        "3. Energy from the ATP made in stage 1 drives the reactions.",
+        "4. Glucose is formed.",
+        "The reactions are controlled by enzymes, so this stage is affected by temperature.",
+        "Stage 1 supplies the energy (ATP) and hydrogen that stage 2 needs. Stage 2 returns the spent carriers, ADP and the empty hydrogen carrier, to stage 1.",
+        "The light-independent stage does not use light directly, but it stops soon after dark, because stage 1 stops supplying ATP and hydrogen.",
+        "Older books call the light-independent stage the dark stage. That name is misleading, because the stage happens in the light.",
+        "Diagram: a flow diagram of a chloroplast in outline. Draw the light-dependent stage on a thylakoid stack, with inputs light and H₂O, output O₂ released from the cell, and ATP and hydrogen passed to the stroma. Draw the light-independent stage in the stroma, with inputs CO₂, ATP and hydrogen and output glucose, which is converted to sucrose, starch and cellulose. Show ADP and the empty carrier returned to the thylakoid."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Photosynthesis", "definition": "The process by which green plants, algae and some bacteria use light energy, absorbed by chlorophyll, to make glucose from carbon dioxide and water, releasing oxygen." },
+    { "term": "Carbon sink", "definition": "Anything that takes in more carbon from the atmosphere than it releases, storing it; photosynthesis is the only major biological process that removes CO₂ from the air." },
+    { "term": "Photolysis", "definition": "The splitting of water molecules using light energy, producing oxygen, protons and electrons." },
+    { "term": "Light-dependent stage", "definition": "The first stage of photosynthesis, on the thylakoid membranes, in which light energy splits water and is trapped in ATP and a hydrogen carrier." },
+    { "term": "Light-independent stage", "definition": "The second stage of photosynthesis, in the stroma, in which carbon dioxide is combined with hydrogen and energy from ATP to form glucose." },
+    { "term": "Sucrose", "definition": "A disaccharide made of glucose and fructose, which carries carbohydrate from the leaves to other parts of the plant in the phloem." },
+    { "term": "Starch", "definition": "An insoluble polysaccharide of glucose, used by plants as a compact store of glucose." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Write a balanced chemical equation for photosynthesis and explain why it is described as an anabolic process.",
+      "model": "The balanced equation is 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂, with light energy and chlorophyll written above the arrow. Photosynthesis is anabolic because it builds one large molecule, glucose, from small inorganic molecules, carbon dioxide and water, and it takes in energy, which is supplied by light."
+    },
+    {
+      "marks": 9,
+      "prompt": "State the source of each raw material for photosynthesis and what happens to the glucose a plant makes.",
+      "model": "Carbon dioxide diffuses into the leaf through the stomata, mostly on the lower surface, and some comes from the plant's own respiring cells. Water is absorbed from the soil by root hair cells, by osmosis, and carried up to the leaves in the xylem. Light comes from the sun or from artificial light, and is absorbed by chlorophyll. Glucose is used in the plant's own respiration to release energy. The rest is converted: it is joined to fructose to form sucrose, which is transported in the phloem to growing tips, roots, fruits and storage organs; it is joined into starch for storage in the chloroplast and in storage organs such as potato tubers and cereal grains; or it is joined into cellulose, which forms cell walls."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline the two stages of photosynthesis, giving the location of each stage in the chloroplast, and explain how photosynthesis acts as a carbon sink.",
+      "model": "Stage 1, the light-dependent stage, takes place on the thylakoid membranes of the grana. Chlorophyll absorbs light energy, which is used to split water molecules into oxygen, protons and electrons. The oxygen is released, the energy is trapped in ATP, and the protons and high-energy electrons are picked up by a carrier molecule. Stage 2, the light-independent stage, takes place in the stroma. Carbon dioxide is combined with the protons and electrons (hydrogen) from stage 1, energy from ATP drives the reactions, which are controlled by enzymes, and glucose is formed. Stage 1 supplies the ATP and hydrogen that stage 2 needs, and stage 2 returns the spent ADP and empty carrier to stage 1. As a carbon sink, photosynthesis takes carbon dioxide out of the atmosphere and fixes it into glucose, and then into sucrose, starch, cellulose and the rest of the plant's biomass. The carbon stays stored while the biomass survives, for example in tree wood for decades or centuries, and in peat bogs for thousands of years, because waterlogged, acidic conditions slow decomposition."
+    }
+  ]
+}

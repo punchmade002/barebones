@@ -1,0 +1,122 @@
+{
+  "loId": "bio11-s7",
+  "chapterId": "bio11",
+  "subsection": "Mendel's Laws",
+  "syllabusRef": "1.4.6",
+  "notes": [
+    {
+      "h": "Gregor Mendel and his pea experiments (Higher Level only)",
+      "points": [
+        "Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).",
+        "He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.",
+        "His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.",
+        "He worked before chromosomes, meiosis or DNA were understood, and called the units of inheritance “factors” (now genes, and their versions alleles)."
+      ]
+    },
+    {
+      "h": "Why peas suited the work (Higher Level only)",
+      "points": [
+        "Peas had many varieties with clear contrasting forms of a trait (e.g. tall or dwarf, with nothing in between).",
+        "Peas normally self-pollinate, so true-breeding lines were available.",
+        "They can be cross-pollinated by hand: the anthers of one flower are removed and its stigma is dusted with pollen from another.",
+        "They grow quickly and produce many seeds, giving large numbers to count."
+      ]
+    },
+    {
+      "h": "Mendel's seven traits and method (Higher Level only)",
+      "points": [
+        "The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).",
+        "He started with true-breeding parents and studied one trait at a time, then two.",
+        "He counted large numbers of offspring and recorded results over several generations (P, F1, F2).",
+        "He used mathematics (ratios) to analyse the results and repeated each cross for several traits."
+      ]
+    },
+    {
+      "h": "Mendel's key results (Higher Level only)",
+      "points": [
+        "Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall.",
+        "Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.",
+        "F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1).",
+        "The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.",
+        "He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive)."
+      ]
+    },
+    {
+      "h": "The Law of Segregation (Higher Level only)",
+      "points": [
+        "Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”",
+        "Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”",
+        "A heterozygous tall plant (Tt) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.",
+        "Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed; the cross is worked in full in “Monohybrid crosses”.",
+        "Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus on the two chromosomes of a homologous pair.",
+        "In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete; meiosis itself is in “Mitosis and meiosis”.",
+        "Diagram: a diploid cell with one pair of homologous chromosomes, one carrying T and the other t (same position), dividing by meiosis into gametes, half with the T chromosome and half with the t chromosome; labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid)."
+      ]
+    },
+    {
+      "h": "The Law of Independent Assortment (Higher Level only)",
+      "points": [
+        "Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”",
+        "Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”",
+        "The law applies to genes on different chromosomes (unlinked genes).",
+        "A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).",
+        "Whether a gamete gets R or r has no effect on whether it gets Y or y.",
+        "Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.",
+        "With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.",
+        "Diagram: a cell with two pairs of homologous chromosomes (one long pair carrying R and r, one short pair carrying Y and y) shown in the two possible arrangements, each arrangement leading to two kinds of gamete: arrangement 1 → RY and ry; arrangement 2 → Ry and rY. Label: the two homologous pairs, alleles, the two equally likely arrangements, the four gamete types."
+      ]
+    },
+    {
+      "h": "Evidence for independent assortment (Higher Level only)",
+      "points": [
+        "Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.",
+        "Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.",
+        "The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently.",
+        "The cross is worked in “Dihybrid crosses”."
+      ]
+    },
+    {
+      "h": "Mendel's legacy (Higher Level only)",
+      "points": [
+        "Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.",
+        "A blended trait could never reappear unchanged, as the dwarf trait did in the F2.",
+        "His laws are the basis of the predictions in “Benefits and limitations of Mendelian genetics”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Law of Segregation",
+      "definition": "The two alleles of a gene separate during gamete formation, so each gamete receives only one allele of each gene."
+    },
+    {
+      "term": "Law of Independent Assortment",
+      "definition": "Alleles of one gene separate independently of alleles of another gene during gamete formation, for genes on different chromosomes."
+    },
+    {
+      "term": "Particulate inheritance",
+      "definition": "Inheritance by separate units that stay unchanged from generation to generation, rather than by blending."
+    },
+    {
+      "term": "Factor",
+      "definition": "Mendel's name for the units of inheritance, now called genes and their alleles."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State Mendel's Law of Segregation and Mendel's Law of Independent Assortment.",
+      "model": "Law of Segregation: the two alleles of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene. Law of Independent Assortment: when gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene. This applies to genes on different chromosomes (unlinked genes)."
+    },
+    {
+      "marks": 9,
+      "prompt": "Using a labelled diagram, illustrate how Mendel's Law of Independent Assortment applies to the gametes of a plant with the genotype RrYy.",
+      "model": "Draw a cell with two pairs of homologous chromosomes: one long pair carrying R (on one chromosome) and r (on the other), and one short pair carrying Y and y. Show the two possible arrangements at metaphase of meiosis. In arrangement 1, R goes with Y and r with y, giving gametes RY and ry. In arrangement 2, R goes with y and r with Y, giving gametes Ry and rY. Both arrangements are equally likely, so the four gamete types RY, Ry, rY and ry are made in equal numbers (1/4 each). Labels: the two homologous pairs, the alleles R, r, Y and y, the two arrangements, and the four gamete types."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how Gregor Mendel's experiments on pea plants led him to the Law of Segregation.",
+      "model": "Mendel chose pea plants because they have many varieties with clear contrasting traits, normally self-pollinate to give true-breeding lines, and can be cross-pollinated by hand; they also produce many seeds. He started with true-breeding parents, counted large numbers of offspring, recorded several generations and used ratios. Crossing true-breeding tall with true-breeding dwarf gave an all-tall F1. Self-pollinating the F1 gave about 3 tall : 1 dwarf (787 : 277). The dwarf trait reappeared in the F2, so it must have been present but hidden in the F1; so each plant has two factors for each trait, one from each parent, and one can mask the other. The factors separate during gamete formation so each gamete receives one factor, which is the Law of Segregation. Crossing F1 plants (Tt × Tt) gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, matching his results."
+    }
+  ]
+}

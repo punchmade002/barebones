@@ -1,0 +1,578 @@
+{
+  "loId": "geo-mapwork-s1",
+  "chapterId": "geo-mapwork",
+  "subsection": "Map interpretation",
+  "syllabusRef": "3",
+  "notes": [
+    {
+      "h": "The Ordnance Survey map and its scale",
+      "b": "Exam maps are Ordnance Survey extracts with a legend. Every symbol, colour and road-class answer comes from the legend, so read it before answering.",
+      "points": [
+        "The exam map is a 1:50 000 Ordnance Survey (Discovery Series) extract, and questions say 'examine the map and legend'.",
+        "A ratio (representative fraction) of 1:50 000 means 1 unit on the map equals 50 000 of the same units on the ground.",
+        "A linear scale (scale bar) and a statement scale ('2 cm to 1 km') express the same scale in different forms.",
+        "On 1:50 000, 1 cm = 0.5 km and 2 cm = 1 km; a grid square of 2 cm × 2 cm is 1 km × 1 km = 1 km².",
+        "A large-scale map (e.g. 1:1 000) shows a small area in great detail; a small-scale map (e.g. 1:1 000 000) shows a large area with little detail.",
+        "1:50 000 is a medium scale, suited to a town and its surroundings."
+      ]
+    },
+    {
+      "h": "Four-figure and six-figure grid references",
+      "points": [
+        "The Irish Grid divides Ireland into 25 sub-zones, each 100 km × 100 km, lettered A to Z with I omitted; the sub-zone letter is printed on the map and starts every grid reference.",
+        "Eastings are the vertical lines, numbered along the top and bottom, increasing eastward; read them first.",
+        "Northings are the horizontal lines, numbered up the sides, increasing northward; read them second.",
+        "Memory aid: along the corridor, then up the stairs.",
+        "Four-figure reference: identifies a whole 1 km square by the easting and northing of its bottom-left (south-west) corner; used for areas such as a lake, a forest or a slope.",
+        "Six-figure reference: identifies a point to the nearest 100 m; mentally divide the square into tenths and read the tenths east of the easting line and north of the northing line.",
+        "Six-figure references locate point features such as a building symbol, a road junction, a spot height or the point where a road leaves the map; give the reference for the centre of the symbol."
+      ]
+    },
+    {
+      "h": "Locating features with grid references",
+      "points": [
+        "To name a feature at a grid reference, find the sub-zone letter, then the easting, then the northing, and name what the map or legend labels at that point exactly.",
+        "A common Ordinary task is naming the feature at three or four grid references, such as an antiquity, a Garda station, a post office or a tourist feature.",
+        "Illustrative: the bridge over the River Dallow is at six-figure reference R 268 441, so the easting 268 is read before the northing 441; the feature at R 280 436 is a motte.",
+        "Absolute location is a precise position given by a grid reference or by latitude and longitude.",
+        "Relative location describes a position against other features or directions, e.g. 'north-west of the town, beside the river'.",
+        "Exams ask which area of the map (north-west, south-east and so on) a named feature lies in."
+      ]
+    },
+    {
+      "h": "Latitude and longitude",
+      "b": "Latitude and longitude give a global position in degrees from two fixed reference lines.",
+      "points": [
+        "Latitude is the angular distance north or south of the Equator (0°), up to 90°N and 90°S at the poles. Lines of latitude (parallels) run east–west, parallel to each other.",
+        "Longitude is the angular distance east or west of the Prime Meridian (0°), which passes through Greenwich, London, up to 180°. Lines of longitude (meridians) run north–south and meet at the poles.",
+        "Each degree is divided into 60 minutes (′). Write latitude first with N or S, then longitude with E or W, e.g. 53°20′N, 6°15′W.",
+        "Key lines: the Equator (0°); the Tropics of Cancer and Capricorn at about 23.5°N and 23.5°S; the Arctic and Antarctic Circles at about 66.5°N and 66.5°S; the International Date Line roughly follows 180°.",
+        "One degree of latitude is about 111 km everywhere. One degree of longitude is about 111 km at the Equator and shrinks to zero at the poles."
+      ]
+    },
+    {
+      "h": "Time, Ireland's position and global location",
+      "points": [
+        "The earth turns 360° in 24 hours, so 15° of longitude equals 1 hour of time; places to the east are ahead.",
+        "Illustrative: a place 30° east of Greenwich is 2 hours ahead.",
+        "Ireland lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W, in the northern and western hemispheres.",
+        "Example: Dublin lies at about 53°20′N, 6°15′W, north of the Equator and west of Greenwich.",
+        "Grid references are used on OS maps because they are quicker and more precise at local scale; latitude and longitude are used for global location."
+      ]
+    },
+    {
+      "h": "Straight-line and curved distance",
+      "points": [
+        "Straight-line distance: measure with a ruler in cm and multiply by 0.5 to get km, or lay a paper edge between the two points and read it against the scale bar. Give the answer in km to one decimal place.",
+        "From two grid references: find the difference in eastings (ΔE) and northings (ΔN) in km, then distance = √(ΔE² + ΔN²).",
+        "Curved distance (a road, railway, river or walk): mark the start on the straight edge of a strip of paper, pivot the strip at each bend and mark as you go, then straighten it and measure against the scale bar. A string laid along the route also works.",
+        "Start and stop exactly at the points named, such as where the road enters the map, a junction or a roundabout.",
+        "Illustrative: the bridge at R 268 441 to the summit pillar at R 240 405 measures 9.1 cm, or 4.6 km (rounded); by grid, ΔE = 2.8 km and ΔN = 3.6 km, so √(2.8² + 3.6²) = √20.8 ≈ 4.6 km.",
+        "Illustrative: the R990 from the town to the crossroads village measures 9.0 cm along its bends, or 4.5 km."
+      ]
+    },
+    {
+      "h": "Area on the map",
+      "points": [
+        "Rectangular areas (the whole map, or the part north of a named northing or west of a named easting): count kilometres east–west × kilometres north–south; each 1 km square is 1 km².",
+        "Irregular features (a lake, a bay, land above a contour): count the full squares; count squares more than half covered as full; ignore squares less than half covered, or estimate part-squares as fractions.",
+        "Give the answer in km² and state that it is approximate.",
+        "Land on one side of a road or railway: count the squares on that side and estimate partly covered squares; exclude sea where the question asks for land.",
+        "Illustrative: the whole extract is 14 km × 8 km = 112 km²; the land north of northing 44 is 14 km × 4 km = 56 km².",
+        "Illustrative: an invented lake covering 3 full squares and 4 squares more than half covered is about 7 km²."
+      ]
+    },
+    {
+      "h": "Direction",
+      "points": [
+        "North is the top of the OS map (grid north). The eight compass points are N, NE, E, SE, S, SW, W and NW; sixteen points add NNE, ENE, ESE, SSE, SSW, WSW, WNW and NNW.",
+        "Method: draw a line from the start point to the destination, imagine a compass centred on the start, and read the direction of travel.",
+        "'From A to B' means the direction of travel, read at A. Quick check: is B above or below A (north or south), and to the left or right (west or east)?",
+        "Direction along a route (a walk, a road, a river's flow) is the overall direction from its start to its end; a river flows from its source on high ground to its mouth on low ground, which spot heights and contours show.",
+        "Bearings (optional for Higher): the angle measured clockwise from north, from 0° to 360°; E = 090°, S = 180°, W = 270°.",
+        "Illustrative: from the bridge at R 268 441 to the summit pillar at R 240 405, the pillar is 2.8 km west and 3.6 km south, so the direction of travel is south-west; from the pillar to the bridge it is north-east."
+      ]
+    },
+    {
+      "h": "Height and contours",
+      "points": [
+        "Contours are lines joining places of equal height above sea level. On the Discovery Series the vertical interval is 10 m, and some contours are numbered with their height.",
+        "Spot heights are dots with the height in metres; triangulation pillars are survey points with their height; layer colouring shows height bands, as explained in the legend.",
+        "Height of a point: read the spot height or pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each.",
+        "The highest point on the map is the highest spot height or pillar; check the upland areas."
+      ]
+    },
+    {
+      "h": "Slope steepness and slope types",
+      "points": [
+        "Contours close together mean a steep slope; contours far apart mean a gentle slope; a wide area with no contours is flat ground.",
+        "Even slope: contours are evenly spaced.",
+        "Concave slope: contours close together near the top and widely spaced near the bottom, so the slope is steep above and gentle below, and the whole slope can be seen from the top.",
+        "Convex slope: contours widely spaced near the top and close together near the bottom, so the slope is gentle above and steep below, and the foot cannot be seen from the top.",
+        "Stepped slope: alternating bands of close and wide contour spacing."
+      ]
+    },
+    {
+      "h": "Landforms read from contours",
+      "points": [
+        "Valley: contours form V or U shapes pointing upstream, towards higher ground, with a river along the floor.",
+        "Spur: contours form V shapes pointing downhill, towards lower ground.",
+        "Plateau: a high, flat or gently sloping top with steep edges; contours crowd round the edge and are few on the top.",
+        "Ridge: a long, narrow stretch of high ground, shown by elongated contours along its crest.",
+        "Col or saddle: a low pass between two summits, shown as a dip between two high points.",
+        "Escarpment: a steep slope on one side and a gentle slope on the other.",
+        "Knoll or isolated hill: a closed ring of contours."
+      ]
+    },
+    {
+      "h": "Gradient, aspect and intervisibility",
+      "points": [
+        "Gradient is the steepness of a slope: vertical interval (VI, the difference in height) ÷ horizontal equivalent (HE, the ground distance), both in the same units, written as 1 in x or 1:x. A larger x means a gentler slope.",
+        "Method: find the height of each point and subtract to get the VI; measure the distance on the map and convert it to metres for the HE; divide HE by VI. The result is an average gradient between the two points.",
+        "Aspect is the direction a slope faces, which is the direction you look when facing downhill, not the uphill direction: a slope falling towards the south is south-facing, with a southerly aspect.",
+        "In Ireland, south-facing slopes receive more sunshine and are warmer.",
+        "Intervisibility: whether one point can be seen from another; a convex slope or intervening high ground blocks the view, so check with a cross-section.",
+        "Illustrative: the summit at 512 m to the bridge at 52 m gives VI = 460 m; HE = 4.6 km = 4 600 m; gradient = 4 600 ÷ 460 = 1 in 10."
+      ]
+    },
+    {
+      "h": "Drawing a cross-section",
+      "points": [
+        "1. Join the two points with a straight line on the map.",
+        "2. Lay a straight paper edge along the line and mark where every contour crosses it, with its height, plus rivers, roads and other features.",
+        "3. Draw a horizontal axis the same length as the line (horizontal scale = map scale) and a vertical axis with a chosen height scale.",
+        "4. Plot each height above its mark and join the points with a smooth curve.",
+        "5. Label the rivers, roads, the summit, the slope types and the ends (X and Y, with grid references); give a title and both scales.",
+        "Vertical exaggeration: the vertical scale is stretched so that relief shows. It equals the horizontal scale distance ÷ the vertical scale distance for the same map length, and is stated in the title or key.",
+        "Illustrative: a cross-section north from the summit to the river uses a horizontal scale of 1:50 000 (1 cm = 500 m) and a vertical scale of 1 cm = 50 m (1:5 000); vertical exaggeration = 500 m ÷ 50 m = ×10.",
+        "Illustrative: the slope from the summit is concave, with contours crowded near the top and widely spaced near the river."
+      ]
+    },
+    {
+      "h": "Reading an elevation profile",
+      "points": [
+        "A printed profile runs along a named easting or northing between points X and Y, with features labelled A to E; match each labelled point to the map by its distance along the line and its height.",
+        "A river crossing is a dip in the profile, with a blue line on the map at that spot.",
+        "A road is identified by its number on the map.",
+        "The height at a point is read from the vertical axis or from the map.",
+        "The slope type between two points (concave, convex, even, steep, gentle, flat) is read from the profile curve and the contours.",
+        "Land use or forestry type is read from the map symbol at that point.",
+        "A named walk, cycle route or tourist attraction crossing the line, and the townland or place name at a point, are read from the map labels.",
+        "Illustrative: along northing 42 from X (R 200 420) to Y (R 300 420), point A is a dip where the River Dallow crosses, B is on the N99, C is on coniferous plantation, and the slope between D and E is concave."
+      ]
+    },
+    {
+      "h": "Map symbols and the legend",
+      "b": "Symbols are drawn or named by copying them from the legend, in proportion and in the legend's colour where colour is used.",
+      "points": [
+        "Legend groups: roads; railways and stations; water features; height; vegetation; antiquities; tourist and leisure information; public services; boundaries.",
+        "Road letters: M = motorway; N = national road (national primary and national secondary routes); R = regional road. N stands for National and R for Regional, not 'route' or 'rural'.",
+        "Vegetation: coniferous plantation (pointed, conifer-shaped tree symbols), deciduous woodland (rounded tree symbols) and mixed woodland (both); use the legend's terms.",
+        "Symbols exams have asked students to draw or name: viewpoint, picnic site, parking, boating activities, triangulation pillar, ringfort, county boundary, wind farm, post office, youth or independent holiday hostel, golf course, camping site, electricity transmission line, waymarked walk and cycle route."
+      ]
+    },
+    {
+      "h": "Antiquities and cultural areas on the map",
+      "points": [
+        "Antiquities are grouped in the legend; name one exactly as the map labels it, e.g. 'Castle (in ruins)', 'Ringfort', 'Standing Stone', 'Megalithic Tomb', 'Church (in ruins)', 'Holy Well' or 'Motte'.",
+        "Cultural areas: some maps mark a Gaeltacht (Irish-speaking area) boundary, which the legend identifies.",
+        "Irish-language place names on the map are further evidence of a cultural area."
+      ]
+    },
+    {
+      "h": "Drawing a half-scale sketch map",
+      "b": "A sketch is a ruled, labelled drawing of the features asked for, placed accurately on a frame. It is never a tracing.",
+      "points": [
+        "Higher asks for a sketch to half scale (20 marks): half the length and half the breadth of the extract. Ordinary asks for a sketch map of the area shown (30 marks); a frame of similar shape, about half size, is safest.",
+        "Measure the extract, or count squares (each 2 cm square becomes 1 cm), and draw a frame with four ruled sides.",
+        "Draw light pencil grid lines on the frame at the same eastings and northings (every 1 cm at half scale, or every second line) and label the edge numbers.",
+        "Draw a coastline as a firm line; draw a river as a line between the named grid references, or along its entire course; draw broad rivers and lakes as outlined shapes.",
+        "Draw roads and railways as lines along their entire route where asked; draw areas (land above a contour, plantation, built-up area, golf course) as shaded closed shapes; draw point features (post office, triangulation pillar, viewpoint, camping site) as a symbol or dot.",
+        "'Land above 300 m': follow the 300 m contour accurately round every part of the area asked for. 'Entire area' means all of it; 'at' or 'in the south-west of the map' means only that part.",
+        "Label every feature on the sketch or in a key; an unlabelled feature earns nothing. Add a title, a north arrow and the words 'half scale'.",
+        "Never trace the map. Draw only the features asked for, in the correct part of the frame, since a feature placed in the wrong part loses marks."
+      ]
+    },
+    {
+      "h": "Illustrative Rivertown sketch to half scale",
+      "b": "Illustrative: the extract is 28 cm × 16 cm, so the frame is 14 cm × 8 cm, with grid lines every 1 cm.",
+      "points": [
+        "River Dallow, entire course: a line from its entry at R 200 402 in the south-west to its exit at R 340 470 in the north-east, following its meanders across the floodplain east of the town; label it.",
+        "N99, entire route: a road line from the south-west to the north-east through the town; label it N99.",
+        "Railway: a line with its station at R 272 445; label it.",
+        "Built-up area of Rivertown: a shaded closed shape around the town centre and the housing estates on the northern edge, with the industrial estate on the N99 at the north-eastern edge; label it.",
+        "Area above 300 m at Slievenagh: a shaded closed shape following the 300 m contour round the summit triangulation pillar at R 240 405; label it."
+      ]
+    },
+    {
+      "h": "Drainage patterns on the map",
+      "points": [
+        "Dendritic: tree-like, with tributaries joining the main river at acute angles, on rock of uniform resistance.",
+        "Trellised: tributaries join the main river at right angles, on alternating bands of hard and soft rock.",
+        "Radial: streams flow outward in all directions from a central hill or mountain.",
+        "Centripetal: streams flow inward to a central lake or lowland.",
+        "Deranged: no clear pattern, with many small lakes and marshes, on glacial deposits.",
+        "Real examples, one clause each: trellised in the Munster ridge and valley; deranged in the Co. Cavan drumlin belt; centripetal at Lough Neagh.",
+        "Exams ask you to name two patterns or to match a pattern to a grid reference."
+      ]
+    },
+    {
+      "h": "Fluvial landforms on the map",
+      "points": [
+        "V-shaped valley: the upland valley pattern given under landforms read from contours; the river runs along the floor.",
+        "Meander: a river swinging in loops.",
+        "Oxbow lake: a crescent-shaped lake beside a meandering river.",
+        "Floodplain: wide and flat, with no contours, along a lowland river; often marshy.",
+        "Levees: embankments along the channel, where the map shows them.",
+        "Braiding: the river splits into several channels around islands.",
+        "Confluence: the point where a tributary joins the main river.",
+        "Delta: deposits where a river enters a lake or the sea.",
+        "Waterfall: shown by a symbol or name, with contours crowded across the river."
+      ]
+    },
+    {
+      "h": "Glacial landforms on the map",
+      "points": [
+        "Corrie: an armchair-shaped hollow, with contours close on three sides and open downhill.",
+        "Tarn: a small, round lake in a corrie, often high up.",
+        "Arête: a narrow ridge with very close contours on both sides.",
+        "U-shaped valley: a broad, flat floor with steep sides, and contours close together on the valley sides.",
+        "Ribbon lake: a long, narrow lake on the floor of a U-shaped valley.",
+        "Drumlins: many small oval closed contour rings, often with small lakes between them.",
+        "Esker: a long, narrow, winding ridge on lowland."
+      ]
+    },
+    {
+      "h": "Coastal and karst landforms on the map",
+      "points": [
+        "Beach: sand or shingle shading along the shore.",
+        "Cliff: a cliff symbol, or contours crowded together at the coast.",
+        "Headland: land projecting into the sea, often high.",
+        "Bay: a curved inlet of the sea.",
+        "Sand spit, tombolo and lagoon: identified by their shapes and names on the map.",
+        "Sand dunes: shown by dune shading or a name.",
+        "Swallow hole: a stream ends abruptly where it disappears underground; limestone areas have few surface streams."
+      ]
+    },
+    {
+      "h": "Lake types on the map",
+      "points": [
+        "Lake type at a grid reference: glacial (tarn or ribbon lake), fluvial (oxbow), coastal (lagoon) or artificial (reservoir, shown by a straight dam edge, a dam symbol or a 'Reservoir' label)."
+      ]
+    },
+    {
+      "h": "Steep and gentle ground on the map",
+      "points": [
+        "A very steep area is shown by crowded contours or cliffs; locate it with a six-figure grid reference.",
+        "A very gentle area is shown by widely spaced contours; locate it with a six-figure grid reference.",
+        "Mass movement on steep ground is taught in the rocks and weathering chapter."
+      ]
+    },
+    {
+      "h": "Rural settlement patterns",
+      "points": [
+        "Nucleated: buildings clustered at a crossroads, bridge, church or village.",
+        "Linear (ribbon): buildings strung along a road, sometimes a coast road or a valley floor.",
+        "Dispersed: individual farmhouses scattered across farmland, each on its own land.",
+        "Nucleated settlement forms around a route focus or a service; linear settlement forms where a road gives access to services; dispersed settlement reflects farming and land consolidation.",
+        "Ribbon development on the approach roads to a town: linear housing spreads out along the main roads, because of cheaper rural sites, road access and services along the road.",
+        "Exams ask you to name three patterns with grid references and to describe and explain them."
+      ]
+    },
+    {
+      "h": "Absence and high density of settlement",
+      "points": [
+        "Absence from high land above about 200–300 m, which is cold, wet, exposed and has thin soils; give a four-figure grid reference and the map evidence.",
+        "Absence on steep slopes, shown by crowded contours.",
+        "Absence on poorly drained land, shown by a marsh or bog symbol, and on floodplains liable to flooding.",
+        "Absence where forestry plantations cover the land, and on lakes.",
+        "High density of settlement: give a four-figure grid reference for lowland, gently sloping, well-drained land near roads, a town or the coast.",
+        "Explain each factor that favours high density: flat or gently sloping land, good drainage, road access, and nearness to a town or the coast."
+      ]
+    },
+    {
+      "h": "Comparing settlement distribution",
+      "points": [
+        "A variations question (Higher, 30 marks) usually compares two contrasting parts of the map, e.g. north and south of a named northing.",
+        "For each part, compare relief and height, drainage, the soils implied by the land use, communications (roads and rail), and the pull of a town or the coast.",
+        "State each factor with a grid reference and explain it for both areas.",
+        "Illustrative: settlement is nucleated at the crossroads village, linear along the R990 north of the town and dispersed in the north-west of the lowland; there is no settlement on Slievenagh above 300 m (R 23 40: high, steep, exposed, forestry) or on the floodplain east of the town (flood risk)."
+      ]
+    },
+    {
+      "h": "Prehistoric settlement on the map",
+      "points": [
+        "Stone Age to Iron Age sites include megalithic tombs (court, portal or dolmen, passage and wedge tombs), standing stones, stone circles and cists.",
+        "Also prehistoric: fulachta fia (Bronze Age cooking sites), promontory forts and crannógs (lake dwellings).",
+        "Who lived there: early farming communities. Why the site was chosen: defence (promontory forts) and a lake (crannógs). What it shows: farming economy, and burial and ritual sites for religion.",
+        "Illustrative: a megalithic tomb at R 225 412 and a standing stone at R 231 418."
+      ]
+    },
+    {
+      "h": "Early Christian settlement on the map",
+      "points": [
+        "Early Christian (early medieval) sites include ringforts, also named rath, lios, dún, caher or cashel on the map; souterrains; ecclesiastical sites with churches and graveyards; holy wells; round towers; and high crosses.",
+        "Ringforts were the farmsteads of the period, enclosed by an earth bank (stone in a cashel or caher).",
+        "Ringforts belong to the early Christian period, not to the prehistoric or Norman periods.",
+        "What it shows: a farming society, and the spread of Christianity, seen in churches, round towers and high crosses.",
+        "Illustrative: a ringfort at R 255 430 and a church in ruins with its graveyard at R 262 446."
+      ]
+    },
+    {
+      "h": "Norman settlement on the map",
+      "points": [
+        "Norman (medieval) sites include mottes and motte-and-bailey sites, castles, town walls, abbeys and friaries, and towns at bridging points.",
+        "Mottes are Norman sites; fulachta fia are Bronze Age, and ringforts are early Christian.",
+        "Why the site was chosen: defence, and control of a river crossing.",
+        "What it shows: Norman military control, and the religious life of the abbeys and friaries.",
+        "Illustrative: a motte at R 280 436 and a castle in ruins at R 269 439, beside the bridge."
+      ]
+    },
+    {
+      "h": "Later medieval to Plantation and 19th–20th century settlement",
+      "points": [
+        "Tower houses are fortified stone houses; planned towns have a regular layout with a square or wide main street; demesnes are large houses with estate woodland.",
+        "19th and 20th century sites include canals, railways and stations, mills, coastguard stations, later housing and industrial estates.",
+        "What it shows: the growth of planned towns and estates, and of transport and industry."
+      ]
+    },
+    {
+      "h": "Place names and townlands as evidence",
+      "points": [
+        "Irish place-name elements: baile/bally (townland or settlement), cill/kil (church), ráth/rath and lios/lis (ringfort), dún/dun (fort), cathair/caher (stone fort), áth/ath (ford), droichead (bridge), cnoc/knock (hill), sliabh/slieve (mountain), ard (height), drom/drum (ridge), gleann/glen (valley), loch/lough (lake), inis/inch (island), cluain/clon (meadow), doire (oak wood), carraig/carrick (rock), mullach/mullagh (summit), beag/beg (small), mór/more (big).",
+        "Townlands are the smallest land division in Ireland; townland names are printed on OS maps, and exams ask which townland a point lies in."
+      ]
+    },
+    {
+      "h": "Why a town developed at its location",
+      "b": "A 30-mark question asks for three reasons, each named, evidenced from the map with a grid reference and explained.",
+      "points": [
+        "Bridging point: the town grew where a river could be crossed, and bridges and roads converge on it.",
+        "Route focus: several N and R roads and a railway meet, so the town became a market and service centre.",
+        "Defence: a castle, town walls, a hill or a river bend guards the site.",
+        "River or coastal site: water supply, transport, power for mills, and a harbour or pier for trade and fishing.",
+        "Flat or gently sloping lowland: easy to build on, with widely spaced contours.",
+        "Fertile surrounding farmland: dispersed farms and no marsh, so the town serves as a market town for its hinterland.",
+        "Ecclesiastical origin: an abbey or early church site.",
+        "Tourism: a coast, beaches, lakes or uplands attract visitors to the town.",
+        "Illustrative: the bridging point is the bridge at R 268 441, with roads converging on it; the route focus is the N99, the R990 and the railway station at R 272 445; defence is the castle at R 269 439 and the motte at R 280 436, guarding the crossing."
+      ]
+    },
+    {
+      "h": "Functions of a town on the map",
+      "b": "Name each function, give the symbol or label and its grid reference, and explain it.",
+      "points": [
+        "Residential: built-up area and housing estates.",
+        "Market and retail: a route focus and a central square.",
+        "Services: hospital, Garda station, post office, schools and courthouse, where labelled.",
+        "Transport: railway station, bus routes and motorway junction.",
+        "Industrial: industrial estate or factory labels.",
+        "Tourist and recreational: tourist information office, golf course, hostels, camping and caravan sites, marinas, viewpoints and walks.",
+        "Port or fishing: pier, harbour and slipway.",
+        "Ecclesiastical: churches and abbeys.",
+        "Defensive in the past: castle."
+      ]
+    },
+    {
+      "h": "Town growth and layout on the map",
+      "points": [
+        "Old core: narrow streets, a square, and a castle or abbey near the bridge.",
+        "Newer edge: housing estates, industrial estates, a bypass or motorway with junctions, and ribbon development."
+      ]
+    },
+    {
+      "h": "Site suitability for a development",
+      "b": "Choose a site with a six-figure grid reference and give three reasons, each supported by map evidence.",
+      "points": [
+        "Flat land: widely spaced contours.",
+        "Access: an N road, a motorway junction, a railway or a port.",
+        "Nearness to a town for labour, services and markets; space to expand; a site off the floodplain and away from protected or scenic areas.",
+        "Wind farms need exposed high ground away from houses; hotels need to be near tourist attractions.",
+        "State a disadvantage when asked, e.g. visual impact, traffic, loss of farmland or conflict with residents."
+      ]
+    },
+    {
+      "h": "Economic activity and tourism on the map",
+      "points": [
+        "Primary activity: forestry plantations, farming (shown by dispersed farms and field land), quarries and fishing piers.",
+        "Secondary activity: industrial estates and factories.",
+        "Tertiary activity: services, tourism and transport.",
+        "Each activity is evidenced by a map symbol or label and its grid reference.",
+        "Tourism potential, accessibility and services: road access, parking, accommodation and tourist information.",
+        "Tourism potential, attractions: antiquities, viewpoints, walks, cycle routes, beaches, lakes and golf courses.",
+        "Each factor is evidenced with grid references and explained."
+      ]
+    },
+    {
+      "h": "Statistical mapping on the OS map",
+      "points": [
+        "Contours are isolines, the same kind of line used on isoline statistical maps.",
+        "Choropleth, dot, isoline, proportional-symbol and flow-line maps are covered in the graph skills chapter."
+      ]
+    },
+    {
+      "h": "Exam questions and marks",
+      "points": [
+        "Short questions (Higher 2 marks each; Ordinary 3–5 marks, often tick-box): a six-figure reference for a named building, road junction or exit point; the antiquity, public service or feature at a grid reference; the height of a spot height, pillar or highest point; the length of a road, motorway or railway; the straight-line distance between two points.",
+        "Short questions also ask for the area of the whole map, of a lake or bay, of land above a contour, or of land east or west or north or south of a grid line or railway; the direction of travel; the part of the map a feature lies in; the type of forestry; what N or R stands for; a legend symbol; a cultural area (Gaeltacht).",
+        "Matching questions give features (such as a meander, a drumlin or a headland) to grid references, and ask for two drainage patterns or the type of lake at a grid reference.",
+        "Aspect of a slope at a grid reference; elevation profile questions and true or false profile statements (Higher).",
+        "Sketch maps: Higher 20 marks at half scale; Ordinary 30 marks; typically four or five features.",
+        "15-mark map-and-process question (Higher): name and locate two landforms with six-figure grid references and explain one; locate a very steep and a very gentle slope.",
+        "30-mark map-evidence questions: three reasons a town developed at its location; three rural settlement patterns; variations in settlement distribution; absence and high density of settlement; three phases of historic settlement; site suitability with a six-figure reference; economic activity and tourism potential.",
+        "Each point in a 30-mark answer is named, given a grid reference and explained."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Representative fraction",
+      "definition": "A map scale written as a ratio, e.g. 1:50 000, where one unit on the map equals 50 000 of the same units on the ground."
+    },
+    {
+      "term": "Sub-zone",
+      "definition": "One of the 25 squares of 100 km × 100 km, lettered A to Z without I, into which the Irish Grid divides Ireland."
+    },
+    {
+      "term": "Easting",
+      "definition": "A grid line running north–south, numbered along the top and bottom of the map; read first in a grid reference."
+    },
+    {
+      "term": "Northing",
+      "definition": "A grid line running east–west, numbered up the sides of the map; read second in a grid reference."
+    },
+    {
+      "term": "Four-figure grid reference",
+      "definition": "A reference identifying a whole 1 km square by the bottom-left corner of that square."
+    },
+    {
+      "term": "Six-figure grid reference",
+      "definition": "A reference identifying a point to the nearest 100 m by reading tenths within a 1 km square."
+    },
+    {
+      "term": "Latitude",
+      "definition": "Angular distance north or south of the Equator, measured in degrees along meridians."
+    },
+    {
+      "term": "Longitude",
+      "definition": "Angular distance east or west of the Prime Meridian at Greenwich, measured in degrees along parallels."
+    },
+    {
+      "term": "Contour",
+      "definition": "A line on a map joining places of equal height above sea level."
+    },
+    {
+      "term": "Vertical interval",
+      "definition": "The difference in height between two points, or between two adjacent contours."
+    },
+    {
+      "term": "Horizontal equivalent",
+      "definition": "The ground distance between two points on a map, in the same units as the vertical interval."
+    },
+    {
+      "term": "Gradient",
+      "definition": "The steepness of a slope, found by dividing the horizontal equivalent by the vertical interval and written as 1 in x."
+    },
+    {
+      "term": "Aspect",
+      "definition": "The direction a slope faces, which is the direction you look when facing downhill."
+    },
+    {
+      "term": "Concave slope",
+      "definition": "A slope steep near the top and gentle near the bottom, with contours close together at the top."
+    },
+    {
+      "term": "Convex slope",
+      "definition": "A slope gentle near the top and steep near the bottom, with contours close together at the bottom."
+    },
+    {
+      "term": "Intervisibility",
+      "definition": "Whether one point on a map can be seen from another point."
+    },
+    {
+      "term": "Vertical exaggeration",
+      "definition": "The stretching of the vertical scale in a cross-section, so that relief appears more pronounced."
+    },
+    {
+      "term": "Elevation profile",
+      "definition": "A printed graph of height along a line between two points, read against the map."
+    },
+    {
+      "term": "Legend",
+      "definition": "The key on a map that explains every symbol, colour and road class used."
+    },
+    {
+      "term": "Gaeltacht",
+      "definition": "An Irish-speaking area, marked as a cultural area on some maps."
+    },
+    {
+      "term": "Nucleated settlement",
+      "definition": "Buildings clustered together at a crossroads, bridge, church or village."
+    },
+    {
+      "term": "Linear settlement",
+      "definition": "Buildings strung along a road or valley floor."
+    },
+    {
+      "term": "Dispersed settlement",
+      "definition": "Individual farmhouses scattered across farmland, each on its own land."
+    },
+    {
+      "term": "Ribbon development",
+      "definition": "Linear housing spreading out along the main roads that approach a town."
+    },
+    {
+      "term": "Bridging point",
+      "definition": "A place where a river can be crossed, a common reason for a town's location."
+    },
+    {
+      "term": "Route focus",
+      "definition": "A place where several roads and a railway meet, so that a town grows as a market and service centre."
+    },
+    {
+      "term": "Ringfort",
+      "definition": "An early Christian (early medieval) farmstead enclosed by an earth bank, also named rath, lios or dún on maps."
+    },
+    {
+      "term": "Motte",
+      "definition": "A Norman earthen mound on which a castle or tower was built."
+    },
+    {
+      "term": "Fulachta fia",
+      "definition": "Bronze Age cooking sites shown on maps as an antiquity."
+    },
+    {
+      "term": "Townland",
+      "definition": "The smallest land division in Ireland, whose name is printed on OS maps."
+    },
+    {
+      "term": "Drumlin",
+      "definition": "A small, oval hill of glacial deposits, shown on a map by closed contour rings."
+    },
+    {
+      "term": "Oxbow lake",
+      "definition": "A crescent-shaped lake formed when a meander is cut off from the river."
+    },
+    {
+      "term": "Isoline",
+      "definition": "A line joining points of equal value on a map, such as a contour."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 8,
+      "prompt": "On the illustrative Rivertown map, answer each part: (a) give the six-figure grid reference of the bridge over the River Dallow; (b) name the antiquity at R 280 436; (c) find the length of the R990 from the town to the crossroads village, which measures 9.0 cm along its bends; (d) find the area of the land north of northing 44.",
+      "model": "Illustrative answer. (a) R 268 441: read the easting 268 first, then the northing 441, to the nearest 100 m. (b) Motte: read the label at R 280 436 against the legend. (c) 4.5 km: 9.0 cm × 0.5 km per cm = 4.5 km. (d) 56 km²: the extract runs from northing 40 to northing 48, so the land north of northing 44 is 4 km high; 14 km × 4 km = 56 km²."
+    },
+    {
+      "marks": 20,
+      "prompt": "Draw a sketch map of the illustrative Rivertown map to half scale. On it, show and label: the entire course of the River Dallow; the entire route of the N99; the railway; the area of land above 300 m at Slievenagh.",
+      "model": "Illustrative answer. Draw a ruled frame 14 cm × 8 cm, half the length and breadth of the 28 cm × 16 cm extract, with light pencil grid lines every 1 cm and the edge numbers labelled. Draw the River Dallow as a line from its entry at R 200 402 to its exit at R 340 470, following its meanders across the floodplain, and label it. Draw the N99 as a road line from the south-west to the north-east through the town, and label it. Draw the railway as a line with its station at R 272 445, and label it. Shade the area above 300 m at Slievenagh as a closed shape following the 300 m contour round the summit pillar at R 240 405, and label it. Add a title, a north arrow and the words 'half scale'. Include no other features and do not trace the map."
+    },
+    {
+      "marks": 30,
+      "prompt": "Using evidence from the illustrative Rivertown map, explain three reasons why Rivertown developed at its location.",
+      "model": "Illustrative answer. Reason 1, bridging point, at the bridge at R 268 441: the town grew where the River Dallow could be crossed. The bridge and the roads converge on this point, so traffic and trade pass through it. Travellers needed a crossing, so a settlement grew up beside it. The crossing point drew people and trade to the settlement over time. Reason 2, route focus, at the N99, the R990 and the railway station at R 272 445: several roads and a railway meet here, so the town became a market and service centre. Farmers and travellers from the surrounding area came to trade. The station links the town to other places by rail. Services grew to serve these routes and their users. The meeting of routes made the town the natural centre for its hinterland. Reason 3, defence, at the castle at R 269 439 and the motte at R 280 436: both sites guard the crossing of the river. The castle beside the bridge controlled movement across the river. The motte, a Norman mound, reinforced that control. A defended site made the town safer for settlers and traders. Defence gave the early settlement a reason to stay and grow."
+    }
+  ]
+}

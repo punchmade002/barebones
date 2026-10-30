@@ -15,9 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=56" />
+    <link rel="stylesheet" href="./styles.css?v=60" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./responsive.css?v=4" />
     <script>
       (function () {
         var saved = localStorage.getItem('bare-bones-app-v4');
@@ -27,7 +28,7 @@
           location.hash.indexOf('access_token=') !== -1 ||
           location.hash === '#reset-password';
         var isLocalMathsPreview = (location.hostname === 'localhost' || location.hostname === '127.0.0.1') &&
-          ['maths', 'onboarding'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
+          ['maths', 'onboarding', 'test'].indexOf(new URLSearchParams(location.search).get('preview')) !== -1;
         var hasAuthSession = localStorage.getItem('bb_has_auth_session') === '1';
         if (!isLoggedIn && !hasAuthSession && !isLocalMathsPreview && location.hash !== '#signin' && location.hash !== '#signup' && !isAuthCallback && !sessionStorage.getItem('bb_seen_landing')) {
           location.replace('index.html');
@@ -182,7 +183,9 @@
         <section class="subject-area" id="subjectArea">
           <div class="subject-list-wrap graph-wrap">
             <div class="subject-list-scroll">
+              <h1 class="phone-home-title">What are you <span>studying</span>?</h1>
               <button id="openProgress" class="button-secondary subject-panel-btn">Progress</button>
+              <p class="phone-home-label">Subjects</p>
               <div id="subjectGraph" class="subject-graph"></div>
             </div>
           </div>
@@ -207,20 +210,16 @@
               </div>
             </div>
 
+            <div id="outcomePicker" class="outcome-picker hidden" aria-label="Choose a subsection"></div>
+
             <div id="flashcardsTab" class="tab-content active">
-              <div id="outcomeNav" class="outcome-nav hidden"></div>
               <div id="flashcardStudy" class="flashcard-study"></div>
               <ul id="flashcardList" class="resource-list"></ul>
               <div id="hierarchyPanel" class="hierarchy-panel hidden"></div>
             </div>
 
             <div id="testTab" class="tab-content">
-              <div class="toolbar test-toolbar">
-                <button id="startTest" class="button-primary">Begin test</button>
-              </div>
-              <div id="testContainer" class="test-container">
-                <p class="muted">Ready</p>
-              </div>
+              <div id="testContainer" class="test-container"></div>
             </div>
 
             <div id="examTab" class="tab-content">
@@ -246,6 +245,8 @@
       </li>
     </template>
 
+    <section id="testScreen" class="test-screen hidden" aria-label="Test"></section>
+
     <section id="progressScreen" class="progress-screen hidden">
       <div class="progress-page">
         <header class="progress-page-head">
@@ -260,9 +261,27 @@
       <div class="full-notes-card">
         <div class="toolbar">
           <h3 id="fullNotesTitle">Full Notes</h3>
-          <button id="closeFullNotes" class="button-secondary">Close</button>
+          <div class="full-notes-actions">
+            <button id="openLiveReading" class="button-primary live-reading-btn hidden" type="button">Live reading</button>
+            <button id="closeFullNotes" class="button-secondary">Close</button>
+          </div>
         </div>
         <div id="fullNotesBody" class="full-notes-body"></div>
+        <div id="liveReader" class="live-reader hidden" aria-label="Live reading">
+          <div class="live-reader-progress"><span id="liveReaderProgress"></span></div>
+          <div id="liveReaderStage" class="live-reader-stage" aria-live="off">
+            <div id="liveReaderTrack" class="live-reader-track"></div>
+          </div>
+          <div class="live-reader-controls">
+            <button id="liveReaderPrev" class="live-reader-step" type="button" aria-label="Previous line">‹</button>
+            <button id="liveReaderPlay" class="live-reader-play" type="button" aria-label="Play">Play</button>
+            <button id="liveReaderNext" class="live-reader-step" type="button" aria-label="Next line">›</button>
+            <label class="live-reader-speed" for="liveReaderWpm">
+              <input id="liveReaderWpm" type="range" min="80" max="600" step="10" value="220" />
+              <output id="liveReaderWpmLabel" for="liveReaderWpm">220 wpm</output>
+            </label>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -309,12 +328,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-    <script src="./data.js?v=44"></script>
+    <script src="./data.js?v=49"></script>
     <script src="./business-content.js?v=1"></script>
     <script src="./pe-content.js?v=1"></script>
-    <script src="./bio-content.js?v=2"></script>
-    <script src="./biology-test-questions.js?v=1"></script>
-    <!-- geo-content.js retired 2026-08-14: geography is being rebuilt by pipeline/run.py.
+    <script src="./bio-content.js?v=3"></script>
+    <script src="./biology-test-questions.js?v=2"></script>
+    <script src="./biology-notes.js?v=4"></script>
+    <!-- geo-content.js retired 2026-08-14 (archived in archive/geography-2026-10-19/): geography is being rebuilt by pipeline/run.py.
          Snapshot of what it shipped: pipeline/_data/reports/geography-preexisting-index.json -->
     <script src="./maths-content.js?v=1"></script>
     <script src="./chemistry-content.js?v=3"></script>
@@ -333,19 +353,22 @@
     <script src="./home-economics-flashcards.js?v=2"></script>
     <script src="./home-economics-test-questions.js?v=1"></script>
     <script src="./home-economics-exam-info.js?v=1"></script>
-    <script src="./geography-exam-questions.js?v=1"></script>
+    <script src="./geography-exam-questions.js?v=2"></script>
     <script src="./geography-flashcards.js?v=2"></script>
     <script src="./geography-test-questions.js?v=1"></script>
     <script src="./geography-exam-info.js?v=1"></script>
+    <script src="./geography-notes.js?v=21"></script>
     <script src="./pe-exam-questions.js?v=2"></script>
     <script src="./pe-flashcards.js?v=2"></script>
     <script src="./pe-pipeline-content.js?v=2"></script>
     <script src="./pe-test-questions.js?v=2"></script>
     <script src="./pe-exam-info.js?v=2"></script>
-    <script src="./generated-notes-content.js?v=3"></script>
+    <script src="./generated-notes-content.js?v=4"></script>
     <script src="./onboarding.js?v=3"></script>
-    <script src="./app.js?v=66"></script>
-    <script src="./timer.js?v=1"></script>
+    <script src="./flashcard-test-prompts.js?v=1"></script>
+    <script src="./test-builder.js?v=1"></script>
+    <script src="./app.js?v=71"></script>
+    <script src="./timer.js?v=2"></script>
     <script>
       if (window.location.hash === '#signin' || window.location.hash === '#signup') {
         sessionStorage.setItem('bb_seen_landing', '1');

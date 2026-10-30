@@ -1,0 +1,291 @@
+{
+  "loId": "geo-option-atmosphere-ocean-s1",
+  "chapterId": "geo-option-atmosphere-ocean",
+  "subsection": "1. The atmosphere and oceans as linked systems",
+  "syllabusRef": "9.1",
+  "notes": [
+    {
+      "h": "Linked exchanges between atmosphere and ocean",
+      "b": "The atmosphere and the oceans exchange heat, water, gases and momentum, so a change in one alters the other.",
+      "points": [
+        "Heat: the ocean warms or cools the air above it.",
+        "Water: evaporation from the sea supplies the moisture for precipitation over both sea and land.",
+        "Gases: the ocean absorbs and releases carbon dioxide and oxygen.",
+        "Momentum: wind drives surface ocean currents, and the currents in turn shift the pressure and wind patterns above them.",
+        "El Niño shows the link at work: a change in sea surface temperature across the Pacific alters atmospheric circulation there (see Climatic environments and climate change)."
+      ]
+    },
+    {
+      "h": "Water's heat capacity",
+      "points": [
+        "Water has a high specific heat capacity, so the ocean heats and cools far more slowly than land and stores very large amounts of heat.",
+        "Because the ocean responds slowly, maritime climates have small temperature ranges.",
+        "The ocean has absorbed over 90% of the extra heat trapped by global warming, according to the IPCC."
+      ]
+    },
+    {
+      "h": "Permanent gases of dry air",
+      "points": [
+        "By volume, dry air is about 78% nitrogen and about 21% oxygen.",
+        "Argon makes up about 0.9% and carbon dioxide about 0.04%.",
+        "Traces of neon, helium, methane, ozone and other gases make up the rest."
+      ]
+    },
+    {
+      "h": "Variable components of the air",
+      "points": [
+        "Water vapour ranges from almost 0% of the air over deserts and the poles to about 4% in hot, humid tropical air.",
+        "Aerosols, including dust, sea salt, smoke, volcanic ash and pollen, act as condensation nuclei and scatter sunlight.",
+        "Ozone is concentrated in the stratosphere."
+      ]
+    },
+    {
+      "h": "Why the small gases matter",
+      "points": [
+        "Water vapour, carbon dioxide, methane and nitrous oxide are greenhouse gases: they absorb long-wave radiation (see Solar energy and its redistribution).",
+        "Ozone absorbs harmful ultraviolet radiation.",
+        "Atmospheric carbon dioxide was about 280 ppm before the Industrial Revolution and was over 420 ppm by the mid-2020s, because of human activity.",
+        "Carbon dioxide has been measured continuously at Mauna Loa, Hawaii, since 1958. The record, known as the Keeling Curve, was begun by Charles David Keeling."
+      ]
+    },
+    {
+      "h": "Gravity and pressure with height",
+      "points": [
+        "Gravity holds the atmosphere, so it is densest at the surface and thins rapidly with height.",
+        "Pressure therefore falls with altitude; about half the mass of the atmosphere lies below about 5.5 km."
+      ]
+    },
+    {
+      "h": "Layers of the atmosphere",
+      "b": "The atmosphere has four layers, separated by three pauses. Each layer is defined by how its temperature changes with height.",
+      "points": [
+        "Diagram: a vertical profile with height in km, the four layers, the three pauses and the temperature line."
+      ]
+    },
+    {
+      "h": "Troposphere",
+      "points": [
+        "It extends from the surface to about 8 km over the poles and about 16–18 km over the equator, being thicker where warm air expands and convection is strongest.",
+        "Temperature falls with height at an average of about 6.5 °C per 1,000 m (the environmental lapse rate), because the air is heated from below by the ground.",
+        "It contains most of the atmosphere's mass and nearly all its water vapour, so nearly all weather and clouds occur here.",
+        "Its top is the tropopause, where the temperature stops falling; jet streams blow near it."
+      ]
+    },
+    {
+      "h": "Stratosphere",
+      "points": [
+        "It extends from the tropopause to about 50 km.",
+        "Temperature rises with height because ozone absorbs ultraviolet radiation; the ozone layer is concentrated at about 15–35 km.",
+        "It is very dry and stable, so few clouds form, but the anvils of cumulonimbus clouds spread out at its base.",
+        "Long-haul jets cruise near the tropopause to avoid turbulence.",
+        "Its top is the stratopause."
+      ]
+    },
+    {
+      "h": "Mesosphere",
+      "points": [
+        "It extends from about 50 km to about 80–85 km.",
+        "Temperature falls again with height, reaching about −90 °C at its top, the coldest point in the atmosphere.",
+        "Most meteors burn up here. Its top is the mesopause."
+      ]
+    },
+    {
+      "h": "Thermosphere and exosphere",
+      "points": [
+        "Above about 85 km the air is very thin and its temperature rises sharply, because the few molecules absorb high-energy solar radiation; there are too few molecules for it to feel hot.",
+        "Auroras (northern lights) occur here, and the International Space Station orbits within it at about 400 km.",
+        "The exosphere is the outermost fringe, merging into space."
+      ]
+    },
+    {
+      "h": "Extent and depth of the oceans",
+      "points": [
+        "The oceans cover about 71% of the earth's surface and hold about 97% of its water.",
+        "The five oceans are the Pacific (the largest and deepest), Atlantic, Indian, Southern and Arctic; the Pacific covers about a third of the earth's surface.",
+        "Average ocean depth is about 3.7 km. The deepest point is the Challenger Deep in the Mariana Trench, in the western Pacific, at about 11,000 m."
+      ]
+    },
+    {
+      "h": "Salinity",
+      "points": [
+        "Salinity is the dissolved salt content of seawater: about 35 parts per thousand on average, or 35 g of salt per kg.",
+        "Sodium chloride is the main salt, with magnesium, sulphate, calcium and potassium also present; the salts come from rocks weathered and carried by rivers and from volcanic gases and vents."
+      ]
+    },
+    {
+      "h": "Variations in salinity",
+      "points": [
+        "Salinity is higher where evaporation exceeds precipitation, as in the subtropical oceans and in nearly enclosed seas in hot, dry areas.",
+        "The Red Sea, at about 40 parts per thousand, is among the saltiest open seas, and the Mediterranean is saltier than the Atlantic.",
+        "Salinity is lower where rainfall is heavy (the equatorial belt), where large rivers enter the sea and where ice melts (polar seas).",
+        "The Baltic Sea is brackish, well under 10 parts per thousand in much of it, because of heavy river inflow and little evaporation.",
+        "When sea ice forms it leaves its salt behind, so the water beneath becomes saltier and denser; this feeds the thermohaline circulation (see Atmospheric and oceanic circulation)."
+      ]
+    },
+    {
+      "h": "Temperature layers of the ocean",
+      "points": [
+        "A warm, well-mixed surface layer, heated by the sun and stirred by wind, lies at the top of the tropical ocean.",
+        "The thermocline is the layer where temperature falls rapidly with depth.",
+        "The deep ocean is cold (about 0–4 °C) and dark, and is the largest part of the ocean by volume.",
+        "In polar waters there is little difference between the surface and the deep.",
+        "Diagram: temperature against depth for a tropical ocean, showing the three layers."
+      ]
+    },
+    {
+      "h": "Density and surface temperature",
+      "points": [
+        "Seawater is denser when it is colder and saltier; differences in density make water sink or rise and drive deep ocean circulation (see Atmospheric and oceanic circulation).",
+        "Surface temperature varies with latitude, from about 28–30 °C in the tropics to about −2 °C at the poles, which is the freezing point of seawater; ocean currents shift these patterns."
+      ]
+    },
+    {
+      "h": "Gases in the ocean",
+      "points": [
+        "The ocean dissolves oxygen, from the air and from phytoplankton, and carbon dioxide.",
+        "It has absorbed roughly a quarter of the carbon dioxide released by human activity. This slows global warming but makes the water more acidic (ocean acidification), which harms corals and shellfish.",
+        "Average surface ocean pH has fallen from about 8.2 to about 8.1 since pre-industrial times."
+      ]
+    },
+    {
+      "h": "Synoptic observing networks",
+      "points": [
+        "Synoptic weather stations, staffed or automatic, record at fixed times in UTC to World Meteorological Organization (WMO) standards, so that readings can be compared worldwide.",
+        "Other sources include ships, buoys, aircraft, weather balloons, radar and satellites.",
+        "Met Éireann collects the Irish data (see Weather maps and weather data)."
+      ]
+    },
+    {
+      "h": "Measuring air temperature",
+      "points": [
+        "A liquid-in-glass thermometer uses mercury or alcohol, which expands and rises up a narrow tube as it warms.",
+        "A maximum-minimum thermometer, Six's thermometer, uses small metal indexes that are pushed up to the highest and lowest points reached and stay there until reset with a magnet; it is read once a day and then reset. James Six invented it in 1782.",
+        "Electronic thermometers in automatic stations use sensors whose electrical resistance changes with temperature; a thermograph gives a continuous trace.",
+        "Thermometers sit in a Stevenson screen about 1.25 m above the ground. It is white to reflect sunlight, louvred to let air circulate, mounted on legs above grass, with its door facing away from direct sun (north in Ireland), so readings are true shade air temperatures.",
+        "A grass minimum thermometer, laid just above short grass, measures ground frost.",
+        "Daily mean, daily range and annual range are derived from these readings (the calculation method is in Weather maps and weather data)."
+      ]
+    },
+    {
+      "h": "Measuring air pressure",
+      "points": [
+        "A mercury barometer: the weight of the atmosphere supports a column of mercury in a glass tube, and the column rises as pressure rises. Evangelista Torricelli invented it in 1643.",
+        "An aneroid barometer (aneroid means without liquid) uses a sealed, partly emptied metal capsule that is squeezed in as pressure rises and expands as it falls; levers move a needle on a dial. It is portable, so it is used in homes and on ships.",
+        "A barograph links an aneroid to a pen that draws a continuous record on a rotating drum; the trend of rising or falling pressure matters most in forecasting.",
+        "Electronic pressure sensors are used in automatic stations.",
+        "Readings are corrected to mean sea level so that stations at different heights can be compared and isobars drawn. Pressure is measured in hPa (equal to mb), with an average of about 1013 hPa."
+      ]
+    },
+    {
+      "h": "Measuring wind speed",
+      "points": [
+        "A cup anemometer has three or four cups on arms that spin faster as wind speed rises; the turns are counted electrically and converted to speed.",
+        "Sonic anemometers, which have no moving parts, are used on some modern stations.",
+        "The WMO standard height for surface wind is 10 m above open ground, away from buildings and trees.",
+        "Speed is given in km/h, knots or m/s, and gusts are recorded separately from mean speed. Without instruments, speed is estimated using the Beaufort scale."
+      ]
+    },
+    {
+      "h": "Measuring wind direction",
+      "points": [
+        "A wind vane has a large tail that is pushed downwind, so its pointer faces the direction the wind blows from; direction is read against compass points or degrees.",
+        "Windsocks show wind direction and strength at airports.",
+        "Wind is always named from the direction it comes from."
+      ]
+    },
+    {
+      "h": "Measuring humidity",
+      "points": [
+        "A wet-and-dry bulb hygrometer (psychrometer) has two thermometers side by side. The wet bulb is wrapped in muslin kept wet from a water reservoir; evaporation from the muslin cools it, so it reads lower than the dry bulb.",
+        "The drier the air, the faster the evaporation and the bigger the difference, called the wet bulb depression. If both thermometers read the same, the air is saturated.",
+        "Relative humidity, given as a percentage, is read from tables using the dry bulb reading and the difference between the two readings.",
+        "A hair hygrometer uses human hair, which lengthens in humid air and shortens in dry air, to move a pointer.",
+        "Automatic stations use electronic (capacitance) sensors."
+      ]
+    },
+    {
+      "h": "Other ground instruments",
+      "points": [
+        "Rain gauge: a funnel of standard size, set in open ground with its rim raised above the surface to avoid splash, collects rain into a measuring cylinder that is read in mm each day; tipping-bucket gauges record automatically.",
+        "Campbell–Stokes sunshine recorder: a glass sphere focuses the sun's rays and burns a trace on a card; the length of the burn gives hours of bright sunshine.",
+        "Evaporation pan: measures the water lost from an open water surface by evaporation.",
+        "Cloud cover is estimated in oktas by observers or measured by ceilometers."
+      ]
+    },
+    {
+      "h": "Upper-air measurement",
+      "points": [
+        "Weather balloons carry radiosondes, small instrument packs that measure temperature, humidity and pressure and radio them back; tracking the balloon gives the upper winds.",
+        "Balloons are launched on a fixed daily schedule from stations worldwide, including Valentia Observatory, Co. Kerry, which has one of the longest weather records in Ireland, dating from the 19th century.",
+        "Aircraft also report temperature and wind automatically."
+      ]
+    },
+    {
+      "h": "Remote sensing",
+      "points": [
+        "Geostationary and polar-orbiting weather satellites measure cloud, sea-surface temperature, water vapour and ice (satellite images are covered in Satellite imagery).",
+        "Rainfall radar detects precipitation from the echo returned by raindrops."
+      ]
+    },
+    {
+      "h": "Measuring the oceans",
+      "points": [
+        "Moored weather buoys record air pressure, air and sea temperature, wind, wave height and humidity, and transmit the readings. The Irish Marine Data Buoy Observation Network, run by the Marine Institute with Met Éireann, moors such buoys off the Irish coast.",
+        "Drifting buoys follow ocean currents, and voluntary observing ships report weather at sea.",
+        "Argo floats drift at depth, rise periodically to the surface, and measure temperature and salinity down to about 2,000 m before transmitting by satellite. The Argo programme began in 2000, and about 4,000 floats now drift in the world's oceans.",
+        "Tide gauges and satellite altimeters measure sea level; satellites also measure sea-surface temperature and sea ice.",
+        "Research ships lower CTD instruments (conductivity, temperature, depth) to sample salinity and temperature at depth.",
+        "The TAO array, a line of moored buoys across the equatorial Pacific, monitors the ocean to give warning of El Niño."
+      ]
+    },
+    {
+      "h": "Accuracy of records",
+      "points": [
+        "Instruments must be correctly sited: in an open place, at the standard height, shaded for thermometers and away from buildings and heated surfaces.",
+        "Instruments must be regularly calibrated, read at the same times each day, and long records kept at the same site.",
+        "Urban growth around a station (the urban heat island) can bias its records upward."
+      ]
+    },
+    {
+      "h": "Why the measurements matter",
+      "points": [
+        "Forecasting: observations are the starting point (initial conditions) for computer forecast models, and more and better observations give better forecasts.",
+        "Warnings: storm, rain, snow and heat warnings, including Met Éireann's colour codes (see Weather maps and weather data), save lives and property; storm surge and flood warnings are issued; tropical cyclones are tracked (see Atmospheric and oceanic circulation); a falling barograph trace warns of an approaching depression.",
+        "Aviation needs wind, visibility, icing and pressure for altimeter settings; shipping and fishing need sea area forecasts and wave heights from buoys; offshore work depends on the same data.",
+        "Farming: the timing of silage and hay making, spraying, sowing and harvesting depends on forecasts; frost warnings protect crops; soil temperature and moisture show when grass starts to grow; drought monitoring is covered in Climate and economic development.",
+        "Energy and the economy: wind measurements are used to site wind farms and predict their output; temperature forecasts predict electricity and gas demand; construction, retail, insurance, sport and tourism planning all use weather data.",
+        "Climate records: long, consistent records, such as the Mauna Loa carbon dioxide record and Valentia's long weather record, show trends including global warming, sea-level rise and ocean warming; they are the evidence used by the IPCC and by governments (see Climatic environments and climate change).",
+        "Ocean-atmosphere link: buoy and Argo data on sea temperature and salinity track El Niño, ocean heat content and the Atlantic circulation, and they improve seasonal forecasts."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Specific heat capacity", "definition": "The amount of heat needed to raise the temperature of a unit mass of a substance by one degree; water's high value means the ocean heats and cools slowly." },
+    { "term": "Environmental lapse rate", "definition": "The average rate at which air temperature falls with height in the troposphere, about 6.5 °C per 1,000 m." },
+    { "term": "Tropopause", "definition": "The boundary at the top of the troposphere, where temperature stops falling with height." },
+    { "term": "Thermocline", "definition": "The layer of the ocean where temperature falls rapidly with depth, between the warm surface layer and the cold deep ocean." },
+    { "term": "Salinity", "definition": "The amount of dissolved salt in seawater, measured in parts per thousand." },
+    { "term": "Aneroid barometer", "definition": "A pressure instrument with a sealed, partly emptied metal capsule that changes shape as pressure changes, moving a needle on a dial." },
+    { "term": "Wet bulb depression", "definition": "The difference between the dry bulb and wet bulb readings; the bigger it is, the drier the air." },
+    { "term": "Stevenson screen", "definition": "A white, louvred shelter that holds thermometers in true shade air, with its door facing away from direct sun." },
+    { "term": "Radiosonde", "definition": "A small instrument pack carried by a weather balloon that measures temperature, humidity and pressure and radios the readings back." },
+    { "term": "Argo float", "definition": "A drifting instrument that rises and sinks in the ocean, measuring temperature and salinity to about 2,000 m and transmitting the data by satellite." }
+  ],
+  "questions": [
+    {
+      "marks": 80,
+      "prompt": "Give an account of how atmosphere–ocean phenomena (pressure, temperature, wind and humidity) are measured and examine the importance of such measurements.",
+      "model": "Pressure: a mercury barometer, invented by Evangelista Torricelli in 1643, balances the weight of the atmosphere against a column of mercury; an aneroid barometer uses a sealed, partly emptied metal capsule linked to a dial; a barograph draws a continuous record. Readings are in hPa, corrected to mean sea level, with an average of about 1013 hPa, and are taken in open sites away from buildings. Temperature: liquid-in-glass and electronic thermometers, a maximum-minimum (Six's) thermometer and a grass minimum thermometer, all sheltered in a Stevenson screen about 1.25 m above grass with its door facing north in Ireland, so that readings are true shade air temperatures in degrees Celsius (°C). Wind: a cup anemometer whose turns are counted electrically gives speed, and a wind vane whose pointer faces the direction the wind blows from gives direction; both are sited at the WMO standard height of 10 m above open ground, with speed in km/h, knots or m/s and gusts recorded separately. Humidity: a wet-and-dry bulb hygrometer, where evaporation from the wet muslin cools the wet bulb, and the difference between the two readings is used with a table to find relative humidity as a percentage; a hair hygrometer and electronic sensors are alternatives. Importance: observations start computer forecasts, and warnings of storms, floods, heat and cold save lives and property; aviation, shipping and fishing need wind, visibility and wave data from buoys; farmers use frost, soil and drought information; energy planners use wind data for wind farms and temperature forecasts for electricity and gas demand. Over the oceans, moored buoys, drifting buoys, voluntary ships, Argo floats (about 4,000 floats measuring temperature and salinity to about 2,000 m), tide gauges, satellites and research ships with CTD instruments supply the data, and the TAO array gives warning of El Niño. Long, consistent records show global warming, sea-level rise and ocean warming, and provide the evidence the IPCC and governments use."
+    },
+    {
+      "marks": 80,
+      "prompt": "The atmosphere and the oceans are linked systems with distinctive physical and chemical characteristics. Discuss.",
+      "model": "Composition: dry air is about 78% nitrogen and about 21% oxygen, with argon about 0.9% and carbon dioxide about 0.04%; water vapour varies from almost 0% to about 4%; aerosols act as condensation nuclei; ozone is concentrated in the stratosphere and absorbs ultraviolet radiation. Layers: the troposphere, up to about 8 km over the poles and 16–18 km over the equator, cools with height at about 6.5 °C per 1,000 m and holds nearly all the weather; the stratosphere, to about 50 km, warms with height because of ozone at about 15–35 km; the mesosphere, to about 80–85 km, cools to about −90 °C; the thermosphere above warms because its few molecules absorb solar radiation, and the International Space Station orbits in it at about 400 km. Oceans: salinity averages about 35 parts per thousand, mostly sodium chloride, and is higher where evaporation exceeds precipitation (the Red Sea at about 40 parts per thousand, the Mediterranean) and lower in the equatorial belt, at river mouths and in polar seas, while the Baltic is brackish. Temperature layers: a warm, mixed surface layer, a thermocline where temperature falls rapidly, and a cold deep ocean at about 0–4 °C that makes up most of its volume. Density: seawater is denser when colder and saltier, so cold, salty water sinks and drives deep circulation; surface temperature runs from about 28–30 °C in the tropics to about −2 °C, the freezing point of seawater, at the poles. Links: heat is exchanged, since the ocean has absorbed over 90% of the extra heat from global warming; water is exchanged through evaporation and precipitation; gases are exchanged, since the ocean has absorbed roughly a quarter of human carbon dioxide emissions, lowering surface pH from about 8.2 to about 8.1 and causing acidification; momentum is exchanged, since wind drives currents that shift pressure and wind patterns. El Niño shows the systems changing together."
+    },
+    {
+      "marks": 20,
+      "prompt": "Explain how a wet-and-dry bulb hygrometer is used to find relative humidity.",
+      "model": "1. Read the dry bulb thermometer, which records the true air temperature. 2. Read the wet bulb thermometer, whose bulb is wrapped in muslin kept wet from a water reservoir; evaporation from the muslin cools it, so it reads lower than the dry bulb. 3. Subtract the wet bulb reading from the dry bulb reading to find the wet bulb depression; the drier the air, the bigger the difference, and two equal readings mean saturated air. 4. Use the dry bulb reading and the difference in a humidity table to read the relative humidity as a percentage. Illustrative example: dry bulb 15 °C, wet bulb 12 °C, a 3 °C difference; the table converts this into a relative humidity well below 100%, showing the air is not saturated."
+    }
+  ]
+}
