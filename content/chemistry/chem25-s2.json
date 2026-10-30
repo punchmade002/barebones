@@ -1,0 +1,111 @@
+{
+  "loId": "chem25-s2",
+  "chapterId": "chem25",
+  "subsection": "2. Five types of organic reaction",
+  "syllabusRef": "4.2.6",
+  "notes": [
+    {
+      "h": "Addition reactions",
+      "points": [
+        "An addition reaction is one in which two or more molecules react to form a single molecule.",
+        "Atoms add across a double (or triple) bond, so an unsaturated compound becomes saturated and there is only one product.",
+        "Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane.",
+        "Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.",
+        "Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
+        "Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
+        "Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.",
+        "Ethene and hydrogen with a nickel catalyst: CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.",
+        "Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions; see \"Addition polymers\"."
+      ]
+    },
+    {
+      "h": "Substitution reactions",
+      "points": [
+        "A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.",
+        "Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.",
+        "Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.",
+        "Esterification: a carboxylic acid and an alcohol give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+        "In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol.",
+        "Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.",
+        "Hydrolysis of an ester is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
+        "Alkanes react by substitution, not addition, because they have no double bond to add across."
+      ]
+    },
+    {
+      "h": "Elimination reactions",
+      "points": [
+        "An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
+        "Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.",
+        "Water is the small molecule removed, so this elimination is also called a dehydration.",
+        "Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.",
+        "A haloalkane can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.",
+        "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC.",
+        "Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated."
+      ]
+    },
+    {
+      "h": "Redox reactions",
+      "points": [
+        "In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.",
+        "Reduction is the gain of hydrogen or the loss of oxygen.",
+        "Oxidation is also the loss of electrons and an increase in oxidation number; see \"Oxidation and reduction\".",
+        "Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate.",
+        "Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH.",
+        "Combustion is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O."
+      ]
+    },
+    {
+      "h": "Acid–base reactions",
+      "points": [
+        "An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.",
+        "Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
+        "Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
+        "Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.",
+        "Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.",
+        "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; see \"Acidity of carboxylic acids and alcohols\"."
+      ]
+    },
+    {
+      "h": "Analysing a given reaction (Higher Level only)",
+      "points": [
+        "Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.",
+        "Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.",
+        "One reaction can be of more than one type: hydrogenation of ethene is addition and reduction; esterification is substitution and condensation; base hydrolysis of an ester is substitution and acid–base.",
+        "Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.",
+        "Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.",
+        "Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.",
+        "Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.",
+        "Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.",
+        "The reaction of sodium with ethanol is likewise a redox reaction."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Addition reaction", "definition": "A reaction in which two or more molecules combine to form one molecule, with atoms adding across a double or triple bond." },
+    { "term": "Substitution reaction", "definition": "A reaction in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms." },
+    { "term": "Elimination reaction", "definition": "A reaction in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule." },
+    { "term": "Dehydration", "definition": "An elimination reaction in which water is removed from a molecule, such as ethanol to ethene." },
+    { "term": "Hydrogenation", "definition": "The addition of hydrogen across a C=C bond, usually with a nickel catalyst." },
+    { "term": "Esterification", "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by H⁺, to give an ester and water." },
+    { "term": "Condensation reaction", "definition": "A reaction in which two molecules join with the loss of a small molecule such as water." },
+    { "term": "Saturated compound", "definition": "A compound whose carbon atoms are joined only by single bonds." },
+    { "term": "Unsaturated compound", "definition": "A compound containing at least one C=C or C≡C multiple bond." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Define (i) an addition reaction, (ii) an elimination reaction, (iii) a substitution reaction, giving an example of each with a balanced equation.",
+      "model": "(i) An addition reaction is one in which two or more molecules react to form a single molecule, with atoms adding across a double bond. Example: ethene and bromine, CH₂=CH₂ + Br₂ → CH₂BrCH₂Br. (ii) An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule. Example: dehydration of ethanol, CH₃CH₂OH → CH₂=CH₂ + H₂O. (iii) A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group. Example: chlorination of methane in ultraviolet light, CH₄ + Cl₂ → CH₃Cl + HCl."
+    },
+    {
+      "marks": 9,
+      "prompt": "Classify each reaction by type, explaining your answer: (a) CH₂=CH₂ + H₂ → CH₃CH₃; (b) CH₃COOH + CH₃OH → CH₃COOCH₃ + H₂O; (c) CH₃COOCH₃ + NaOH → CH₃COONa + CH₃OH.",
+      "model": "(a) Addition, because two molecules combine to form one across the C=C bond. It is also reduction, because hydrogen is gained. (b) Substitution: the –OH of the acid is replaced by the –OCH₃ group of the alcohol, so it is also a condensation reaction because water is lost. (c) Substitution, because the –OCH₃ group of the ester is replaced by –OH, giving methanol. It is also an acid–base reaction: the hydroxide ion acts as the base, and the acid formed ends up as its salt, sodium ethanoate."
+    },
+    {
+      "marks": 6,
+      "prompt": "List the bonds broken and the bonds formed when ethanol is converted to ethene, and name the type of reaction.",
+      "model": "Bonds broken: a C–H bond and a C–O bond. Bonds formed: an O–H bond in the water molecule, and a C=C double bond, in which a pi bond is added to the existing C–C sigma bond. The reaction is elimination (dehydration), because a small molecule, water, is removed from ethanol, leaving a double bond."
+    }
+  ]
+}
