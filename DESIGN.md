@@ -140,7 +140,8 @@ Lives in `responsive.css`, loaded after `styles.css`, and follows the landing-pa
 - **One screen at a time.** `app.js` sets `data-screen` on `#subjectArea` (`phoneHome` + `viewMode`), and only that screen shows:
   1. `home`: "What are you studying?", a Progress row, then the subject list (the sidebar, restyled).
   2. `subject`: "‹ Subjects" back and a Paper guide pill (`.overview-nav`), then the subject overview's chapter list.
-  3. `chapter`: "‹ Biology" back, the chapter title and the study tabs. Opening a chapter lands on Learn.
+  3. `chapter`: "‹ Biology" back and the chapter title. A chapter with subsections shows its subsection grid; one without goes straight to the study tabs. Opening a chapter lands on Learn.
+  4. `study` (chapters with subsections only): "‹ Biology · 13. Enzymes" back to the grid, the subsection title and the study tabs.
 
   Each step down (and Progress / Full notes) is a `history.pushState` entry, so the back gesture or button steps up a level instead of leaving the app. A reload starts at `home`; a running test ignores back.
 - **Top bar** (`--phone-bar`, 3.6rem): 22px wordmark left; timer and 38px avatar right. The level % rides on the avatar as a small badge. The timer's menu drops downward, and the timer hides on Progress, Full notes and Paper guide, whose Close button sits in the same corner.
