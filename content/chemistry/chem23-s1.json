@@ -1,0 +1,107 @@
+{
+  "loId": "chem23-s1",
+  "chapterId": "chem23",
+  "subsection": "1. Hydrocarbons: sources and uses",
+  "syllabusRef": "2.4.1",
+  "notes": [
+    {
+      "h": "Organic compounds and hydrocarbons",
+      "b": "Organic chemistry is the study of the compounds of carbon, and hydrocarbons are the simplest of them.",
+      "points": [
+        "Carbon monoxide, carbon dioxide, carbonates and hydrogencarbonates contain carbon but are classed as inorganic.",
+        "Each carbon atom forms four covalent bonds and carbon atoms bond strongly to each other, giving stable chains, straight or branched, and rings of almost any length.",
+        "Organic compounds are divided into many groups, or homologous series, each with its own characteristic structure and reactions (see “Groups of hydrocarbons”).",
+        "A hydrocarbon is a compound containing carbon and hydrogen only.",
+        "Other organic families, such as alcohols and carboxylic acids, can be thought of as hydrocarbons with one or more hydrogen atoms replaced by other atoms or groups, so hydrocarbons are the basis for understanding other organic compounds."
+      ]
+    },
+    {
+      "h": "Fossil fuels",
+      "b": "Crude oil, natural gas and coal are the main sources of hydrocarbons, and all three are fossil fuels.",
+      "points": [
+        "Fossil fuels formed over millions of years from the remains of plants and animals, buried under sediment and changed by heat and pressure in the absence of air; crude oil and natural gas formed mainly from tiny marine organisms.",
+        "Fossil fuels are finite (non-renewable): they are being used far faster than they form.",
+        "Natural gas is mainly methane (CH₄), typically over 80%, with small amounts of ethane, propane and butane.",
+        "Crude oil is a mixture of many hydrocarbons, mostly alkanes in chain and ring form, with some aromatic hydrocarbons such as benzene.",
+        "Crude oil is separated by fractional distillation into fractions, each a mixture of hydrocarbons with a similar range of boiling points and so of similar molecular size.",
+        "The smallest molecules, with the lowest boiling points, are collected at the top of the column and the largest at the bottom (see “Separation techniques”)."
+      ]
+    },
+    {
+      "h": "Living matter and synthesis",
+      "points": [
+        "Methane forms when bacteria break down plant and animal material in the absence of air, a process called anaerobic decomposition.",
+        "This methane is found in landfill sites (refuse dumps), slurry pits, marshes and the digestive systems of cattle and sheep.",
+        "Biogas, made deliberately by anaerobic digestion of farm slurry, food waste or crops, is mainly methane and is a renewable fuel.",
+        "Plants also make hydrocarbons, e.g. natural rubber, which is poly(isoprene) from the rubber tree, and limonene (C₁₀H₁₆) in citrus-fruit peel oil.",
+        "Hydrocarbons can be synthesised from other substances, e.g. ethene is made by dehydrating ethanol (see “Investigation: preparing ethene”).",
+        "Ethanol made by fermenting sugar cane gives a plant-based, or “bio”, ethene.",
+        "The Fischer–Tropsch process makes liquid hydrocarbons from carbon monoxide and hydrogen, so synthetic fuels can be made starting from coal, natural gas or biomass."
+      ]
+    },
+    {
+      "h": "Hydrocarbons as fuels",
+      "b": "Most hydrocarbons are burned for energy, because they release a lot of energy when they burn in oxygen.",
+      "points": [
+        "Complete combustion of a hydrocarbon in oxygen gives carbon dioxide and water (see “Combustion”).",
+        "Methane (natural gas) is used for heating and cooking in homes, and for generating electricity in power stations.",
+        "Propane and butane are the main components of LPG (liquefied petroleum gas), sold in cylinders for patio heaters, camping stoves, gas barbecues and some vehicles such as forklift trucks.",
+        "Small butane canisters are used in camping stoves and lighters.",
+        "Natural gas and LPG have no smell of their own, so a small amount of a strong-smelling sulfur compound, a thiol also called a mercaptan, is added so that leaks can be detected.",
+        "Liquid fractions of crude oil are transport fuels: petrol for cars, kerosene for jet aircraft and home heating oil, and diesel (gas oil) for lorries, buses, tractors and cars.",
+        "Heavy fuel oil is used in ships and furnaces.",
+        "Ethyne (acetylene) burned in pure oxygen gives a flame above 3000 °C, used for cutting and welding metals in the oxyacetylene torch."
+      ]
+    },
+    {
+      "h": "Hydrocarbons as raw materials",
+      "b": "A smaller share of hydrocarbons is used as raw materials, or feedstocks, for the chemical industry rather than being burned.",
+      "points": [
+        "Ethene and propene are made into the plastics poly(ethene) and poly(propene) (see “Addition polymers”).",
+        "Ethene is also used to make ethanol and ethane-1,2-diol, the antifreeze, and to ripen fruit, because it is a plant hormone.",
+        "Benzene is a feedstock for plastics such as polystyrene, and for detergents, dyes and pharmaceuticals.",
+        "Methane is the main source of hydrogen for making ammonia, which is used to make fertilisers.",
+        "Hexane and cyclohexane are used as non-polar solvents, e.g. hexane to extract vegetable oils from seeds.",
+        "The largest molecules give lubricating oils and greases for machinery, paraffin wax for candles, and bitumen, from the residue, for surfacing roads and waterproofing roofs."
+      ]
+    },
+    {
+      "h": "How structure determines use",
+      "b": "The size and bonding of a hydrocarbon decide which use suits it.",
+      "points": [
+        "Small molecules are gases that burn easily, so they make fuels.",
+        "Unsaturated alkenes react readily, so they make feedstocks for plastics.",
+        "Large molecules are viscous or solid, so they make lubricants, waxes and bitumen."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Hydrocarbon", "definition": "A compound containing carbon and hydrogen only, the simplest kind of organic compound." },
+    { "term": "Organic compound", "definition": "A compound of carbon, excluding the simple carbon oxides, carbonates and hydrogencarbonates." },
+    { "term": "Fossil fuel", "definition": "A fuel, such as crude oil, natural gas or coal, formed from the buried remains of living things over millions of years." },
+    { "term": "Fractional distillation", "definition": "Separation of crude oil into fractions by boiling, with each fraction collected over a narrow range of boiling points." },
+    { "term": "Fraction", "definition": "A mixture of hydrocarbons with a similar range of boiling points, collected during the fractional distillation of crude oil." },
+    { "term": "Anaerobic decomposition", "definition": "The breakdown of plant and animal material by bacteria in the absence of air, producing methane." },
+    { "term": "Biogas", "definition": "A renewable gas, mainly methane, made by anaerobic digestion of waste or crops." },
+    { "term": "Feedstock", "definition": "A raw material used by the chemical industry to make other substances." },
+    { "term": "LPG", "definition": "Liquefied petroleum gas, mainly propane and butane, stored under pressure in cylinders." },
+    { "term": "Mercaptan", "definition": "A strong-smelling sulfur compound, also called a thiol, added to natural gas and LPG so that leaks can be detected." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is a hydrocarbon? Outline the three main sources of hydrocarbons, giving an example of each.",
+      "model": "A hydrocarbon is a compound containing carbon and hydrogen only. The three main sources are fossil fuels, living matter and synthesis. Fossil fuels: crude oil, natural gas or coal, formed from the buried remains of plants and animals over millions of years. Living matter: methane produced when bacteria break down plant and animal material in the absence of air, for example in slurry pits, or natural rubber from the rubber tree. Synthesis: ethene made by dehydrating ethanol."
+    },
+    {
+      "marks": 9,
+      "prompt": "Give one use of each of the following and explain why the hydrocarbon suits that use: (i) methane, (ii) a mixture of propane and butane, (iii) ethene.",
+      "model": "(i) Methane is used for heating and cooking in homes. It is a gas that burns cleanly and can be piped to homes. (ii) Propane and butane are used as LPG in cylinders for camping stoves and patio heaters. They are easily liquefied under pressure, so a large amount of fuel can be stored in a small, portable cylinder. (iii) Ethene is used to make poly(ethene). Its C=C double bond makes it reactive, so it can be polymerised by addition."
+    },
+    {
+      "marks": 6,
+      "prompt": "Natural gas is odourless. Explain why a sulfur compound is added to it, and name two sources of methane other than natural gas wells.",
+      "model": "A strong-smelling sulfur compound, a thiol or mercaptan, is added to natural gas because the gas has no smell of its own, so leaks can be detected. Two sources of methane other than natural gas wells are landfill sites (refuse dumps), slurry pits, marshes, and the digestive systems of cattle and sheep. Any two of these."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "loId": "chem25-s8",
+  "chapterId": "chem25",
+  "subsection": "8. Surfactants and soap",
+  "syllabusRef": "4.2.13",
+  "notes": [
+    {
+      "h": "What a surfactant is",
+      "points": [
+        "A surfactant (surface-active agent) is a substance whose molecules or ions have a water-attracting (hydrophilic) part and a water-repelling (hydrophobic) part.",
+        "Dissolved in water, a surfactant lowers the surface tension, helping water wet surfaces and mix with oil and grease.",
+        "Soap is a surfactant: the sodium or potassium salt of a long-chain carboxylic acid, called a fatty acid.",
+        "Sodium stearate, C₁₇H₃₅COO⁻Na⁺, is sodium octadecanoate, a typical soap.",
+        "Potassium soaps are softer and are used in liquid soaps."
+      ]
+    },
+    {
+      "h": "Structure of a soap ion",
+      "points": [
+        "The head, the carboxylate group –COO⁻, is ionic and hydrophilic: it is attracted to polar water molecules by ion–dipole attraction, and so dissolves in water.",
+        "The tail is a long hydrocarbon chain of about 12–18 carbon atoms; it is non-polar and hydrophobic, so it does not mix with water but dissolves in grease and oil through London dispersion forces.",
+        "This dual nature lets one soap ion interact with both water and grease.",
+        "Soap can dissolve the non-polar oils on skin, and through its ionic heads and the water it also removes the salts in sweat.",
+        "Diagram: a soap ion drawn as a long zig-zag tail, with a circled –COO⁻ head and a separate Na⁺ ion, labelled hydrophobic tail and hydrophilic head."
+      ]
+    },
+    {
+      "h": "How soap removes grease",
+      "points": [
+        "In water, soap lowers the surface tension, so the water spreads over and wets the greasy surface or fabric.",
+        "The hydrophobic tails dissolve in the grease or oil, while the hydrophilic heads stay in the water at the surface of the grease.",
+        "Rubbing or agitation breaks the grease into tiny droplets, each surrounded by soap ions.",
+        "Each droplet becomes a micelle: a sphere with the grease and the tails inside, and the negatively charged heads facing out into the water.",
+        "The negative surfaces of the micelles repel one another, so the droplets do not join up again and stay dispersed in the water as an emulsion; this is emulsification.",
+        "Rinsing carries the micelles away, with the dirt and microorganisms trapped in the grease.",
+        "Diagram: a micelle, with an oil droplet in the centre, soap tails pointing inward into it, and heads (–COO⁻) on the outside in water."
+      ]
+    },
+    {
+      "h": "Soap in hard water and synthetic detergents",
+      "points": [
+        "Hard water contains Ca²⁺ and Mg²⁺ ions, for example water from limestone regions.",
+        "These ions react with soap ions to form an insoluble scum: 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s).",
+        "In hard water, soap forms scum and lathers poorly until all the hardness ions have been precipitated, which wastes soap.",
+        "In deionised, soft water, soap lathers easily.",
+        "Synthetic detergents, also called soapless detergents, have a similar head-and-tail structure but a different head, e.g. a sulfonate group (–SO₃⁻) in alkylbenzene sulfonates.",
+        "Their calcium and magnesium salts are soluble, so synthetic detergents work well in hard water and form no scum.",
+        "Surfactants are grouped by their head: anionic (negative head), e.g. soaps and sulfonates in washing-up liquid and laundry detergent.",
+        "Cationic surfactants have a positive head, e.g. quaternary ammonium compounds in fabric conditioners and some disinfectants.",
+        "Non-ionic surfactants have an uncharged head and are used in many cleaning products."
+      ]
+    },
+    {
+      "h": "Applications in everyday life",
+      "points": [
+        "Cleaning: bar and liquid soaps, hand wash, shower gel, shampoo, washing-up liquid, laundry detergent, and household and industrial surface cleaners.",
+        "Personal care: toothpaste, where sodium lauryl sulfate is the foaming agent; shampoo; and cosmetics and creams, where surfactants act as emulsifiers that keep oil and water mixed.",
+        "Food: emulsifiers such as lecithin keep oil and water mixed in mayonnaise, chocolate and margarine.",
+        "Other uses: fabric conditioners; wetting agents in paints, inks and agricultural sprays, so that the spray spreads over leaves; firefighting foams; and dispersants that break up oil spills at sea."
+      ]
+    },
+    {
+      "h": "Health, sanitation and the environment",
+      "points": [
+        "Handwashing with soap removes microorganisms from the skin, trapping them in micelles that are rinsed away.",
+        "Handwashing is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza.",
+        "Soap destroys enveloped viruses, such as influenza viruses and SARS-CoV-2: the hydrophobic tails insert into the virus's fatty lipid outer membrane and break it apart.",
+        "Public-health advice during the COVID-19 pandemic was to wash hands with soap and water, scrubbing for at least 20 seconds.",
+        "Detergents used in laundry, dishwashing, hospitals and food processing remove the grease that shelters bacteria, improving hygiene in homes, hospitals and the food industry.",
+        "Early synthetic detergents with branched hydrocarbon chains were not biodegradable and caused foam on rivers in the 1950s and 1960s; they were replaced by biodegradable linear-chain detergents.",
+        "Phosphates added to some detergents as builders can cause eutrophication of lakes and rivers, so their use has been restricted, e.g. in laundry detergents in the EU."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Surfactant", "definition": "A substance whose molecules have a hydrophilic part and a hydrophobic part, which lowers the surface tension of water." },
+    { "term": "Soap", "definition": "The sodium or potassium salt of a long-chain carboxylic acid, which acts as a surfactant." },
+    { "term": "Hydrophilic", "definition": "Attracted to water, as in the ionic carboxylate head of a soap ion." },
+    { "term": "Hydrophobic", "definition": "Repelled by water and attracted to grease, as in the hydrocarbon tail of a soap ion." },
+    { "term": "Micelle", "definition": "A sphere of surfactant ions with their hydrophobic tails inside, holding grease or oil droplets, with their hydrophilic heads facing the water." },
+    { "term": "Emulsion", "definition": "A mixture of two liquids that do not mix, in which one liquid is dispersed as tiny droplets in the other." },
+    { "term": "Scum", "definition": "An insoluble solid formed when soap ions react with Ca²⁺ or Mg²⁺ ions in hard water." },
+    { "term": "Synthetic detergent", "definition": "A surfactant made from petrochemicals that does not form scum in hard water, because its calcium and magnesium salts are soluble." },
+    { "term": "Biodegradable", "definition": "Able to be broken down by microorganisms into simple substances." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Explain, with the aid of a labelled diagram, how soap removes grease from skin. Use the terms hydrophilic, hydrophobic and micelle.",
+      "model": "A soap ion has a hydrophilic head, the –COO⁻ group, which is ionic and attracted to water, and a hydrophobic tail, a long hydrocarbon chain that is attracted to grease. In water, soap lowers the surface tension so the water wets the greasy skin. The hydrophobic tails dissolve in the grease while the hydrophilic heads stay in the water. Rubbing breaks the grease into small droplets, each surrounded by soap ions. Each droplet becomes a micelle, with the tails pointing inwards into the grease and the negatively charged heads pointing outwards into the water. The negative charges on the micelles repel one another, so they stay dispersed as an emulsion, and rinsing carries them away. The diagram should show a micelle with an oil droplet in the centre, tails pointing inward, and heads on the outside in water."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why soap forms a scum in hard water, giving an equation, and why synthetic detergents do not. Give two everyday applications of surfactants other than washing hands.",
+      "model": "Hard water contains Ca²⁺ and Mg²⁺ ions, which react with soap ions to form an insoluble scum: 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s). Synthetic detergents have sulfonate heads, such as –SO₃⁻ in alkylbenzene sulfonates, and their calcium and magnesium salts are soluble, so no scum forms. Two applications, from any of: toothpaste, where sodium lauryl sulfate is a foaming agent; shampoo; cosmetics and creams, where surfactants are emulsifiers; lecithin in mayonnaise or margarine; fabric conditioners; paint and spray wetting agents; firefighting foams; dispersants for oil spills."
+    },
+    {
+      "marks": 6,
+      "prompt": "Outline two ways in which surfactants have contributed to the health and sanitation of society.",
+      "model": "First, handwashing with soap removes microorganisms from the skin in micelles, which are rinsed away, and it is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza. Second, soap destroys enveloped viruses such as influenza and SARS-CoV-2, because its hydrophobic tails insert into the virus's fatty outer membrane and break it apart. Detergents used in hospitals and food processing also remove grease that shelters bacteria."
+    }
+  ]
+}
