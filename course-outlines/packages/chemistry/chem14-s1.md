@@ -107,7 +107,7 @@ Assigning oxidation numbers: worked examples (Higher Level only)
 - The oxidising agent is reduced; the reducing agent is oxidised. Students often swap them.
 - Identify the species, not the element in words: in Zn + CuSO₄, the oxidising agent is Cu²⁺ (or copper(II) sulfate), not "copper".
 - An oxidation number is written +2 (sign first); an ionic charge is written 2+.
-- Oxidation numbers are required only for compounds of the first 36 elements (Ordinary level stops at 20). Iodine is element 53: I₂ (0) and I⁻ (−1) follow from rules 1 and 2, but don't assign oxidation numbers in iodine's compounds (e.g. iodates). Transition-metal chemistry and variable valency as a topic are not on the specification; Mn, Cr, Fe and Cu appear only as oxidation-number examples and in the redox titrations.
+- Oxidation numbers are required only for compounds of the first 36 elements. Iodine is element 53: I₂ (0) and I⁻ (−1) follow from rules 1 and 2, but don't assign oxidation numbers in iodine's compounds (e.g. iodates). Transition-metal chemistry and variable valency as a topic are not on the specification; Mn, Cr, Fe and Cu appear only as oxidation-number examples and in the redox titrations.
 - Hydrogen in metal hydrides is −1 and oxygen in peroxides is −1 and in OF₂ is +2; these exceptions are asked often.
 - Combustion energy belongs to "Combustion"; electrochemical cells belong to the electrochemistry chapter; don't teach cells here.
 - Metal extraction (blast furnace, thermit reaction) is not on the specification; use E3 only to explain the word "reduction".
