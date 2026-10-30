@@ -55,7 +55,6 @@ test("authored notes attach to their subsection and replace the generated chapte
   const context = load([
     "data.js",
     "geography-exam-questions.js",
-    "geography-flashcards.js",
     "geography-test-questions.js",
     out,
     "generated-notes-content.js",

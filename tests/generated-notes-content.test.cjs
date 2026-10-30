@@ -24,15 +24,13 @@ test("generated subjects receive connected exam-ready notes without losing deck 
     "pe-content.js",
     "home-economics-exam-questions.js",
     "home-economics-flashcards.js",
-    "geography-exam-questions.js",
-    "geography-flashcards.js",
     "pe-exam-questions.js",
     "pe-flashcards.js",
     "pe-pipeline-content.js",
     "generated-notes-content.js",
   ]);
 
-  for (const subject of ["geography", "home-economics", "pe"]) {
+  for (const subject of ["home-economics", "pe"]) {
     const chapters = context.__courseData.chapters.filter((chapter) => chapter.subject === subject);
     assert.ok(chapters.length > 0, `${subject} should have chapters`);
 
@@ -88,7 +86,6 @@ test("the generated adapter does not replace hand-written Chemistry notes", () =
     "data.js",
     "chemistry-content.js",
     "home-economics-flashcards.js",
-    "geography-flashcards.js",
   ]);
   const before = context.__courseData.chapters
     .filter((chapter) => chapter.subject === "chemistry")
