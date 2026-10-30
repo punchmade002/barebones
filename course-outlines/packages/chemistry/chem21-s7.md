@@ -52,7 +52,7 @@ Standard heats of combustion (one block)
 - [ ] V4 Three-carbon compounds (kJ mol⁻¹): propane −2220; propene −2058.
 
 Trend 1: chain length (Higher Level only; one block)
-- [ ] T1 [HL] In a homologous series, ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂ (alkanes about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670, 2877 − 2220 = 657; primary alcohols about 650–655, e.g. 2021 − 1367 = 654).
+- [ ] T1 [HL] In a homologous series, ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂ (alkanes about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670, 2877 − 2220 = 657; primary alcohols about 640–655, e.g. 1367 − 726 = 641, 2021 − 1367 = 654).
 - [ ] T2 [HL] Explanation: each extra CH₂ group adds one C–C and two C–H bonds to break and needs 1½ more O₂ molecules, but forms one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds); more energy is released by the new bonds formed than is needed to break the extra bonds.
 - [ ] T3 [HL] Because exactly the same extra bonds are broken and formed for every CH₂ added, the increase is nearly constant, so a graph of ΔHc against number of carbon atoms is a straight line.
 - [ ] T4 [HL] Bond enthalpy estimate per CH₂: broken 348 + 2(412) + 1½(498) = 1919 kJ; formed 2(799) + 2(463) = 2524 kJ; difference −605 kJ (an estimate for gaseous water; the measured increase is larger because the water formed is liquid).

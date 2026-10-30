@@ -1,0 +1,134 @@
+{
+  "loId": "chem20-s6",
+  "chapterId": "chem20",
+  "subsection": "6. Researching chemistry",
+  "syllabusRef": "4.3.8",
+  "notes": [
+    {
+      "h": "What the specification expects",
+      "points": [
+        "Students research one area of the course through one cross-cutting theme: health, sustainability or technology.",
+        "The research must use real chemistry from the course to explain the issue, not just describe it.",
+        "It should be personal and meaningful: a question the student cares about, often local or Irish.",
+        "It shows chemistry as a collaborative, human activity with social and global importance.",
+        "Outputs can be a presentation to the class or a short digital report.",
+        "Later research can be more detailed and may include gathering some primary data, e.g. measuring the pH of local water samples.",
+        "The written exam includes questions on applying chemistry to the cross-cutting themes, so the skills and examples are examinable."
+      ]
+    },
+    {
+      "h": "The stages of a research investigation",
+      "points": [
+        "Step 1: Choose a focused, answerable question that links course chemistry to one theme, e.g. “Should…?”, “How effective is…?” or “What are the benefits and risks of…?”",
+        "Step 2: Identify the chemistry involved, such as reactions, equations and properties, so that the research explains why and not only what.",
+        "Step 3: Find a range of sources: peer-reviewed papers and reviews, reports from scientific and government bodies (e.g. the IPCC, the EPA, the HSE, WHO and Uisce Éireann), textbooks, and reputable science journalism; include sources with different viewpoints.",
+        "Step 4: Evaluate each source: who wrote it and their expertise, when it was written, what evidence it gives (data and methods, or opinion), whether it was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
+        "Step 5: Separate measured data from claims and opinion, compare like with like, and note uncertainties and where scientists disagree.",
+        "Step 6: Weigh the evidence on each side, considering benefits, risks, costs and who is affected, locally and globally, now and in the future.",
+        "Step 7: Reach a justified conclusion that answers the question, explain the chemistry behind it, state its limitations and suggest further research.",
+        "Step 8: Reference all sources consistently and communicate clearly for the audience, using correct chemical terms, equations and units."
+      ]
+    },
+    {
+      "h": "Worked outline: health, fluoridation of drinking water",
+      "points": [
+        "Question: “Should Ireland continue to add fluoride to public drinking water?”",
+        "Chemistry: hexafluorosilicic acid (H₂SiF₆) is added to give 0.6–0.8 mg L⁻¹ of fluoride.",
+        "Chemistry: fluoride converts some hydroxyapatite in tooth enamel into fluorapatite, which resists acids made by bacteria in the mouth (see “Treating drinking water”).",
+        "Sources: Department of Health and HSE information, systematic reviews of the evidence (e.g. Cochrane reviews), dental and medical bodies, and the views of groups opposed to fluoridation.",
+        "Check the dates of sources, as older studies were done before fluoride toothpaste was common."
+      ]
+    },
+    {
+      "h": "Weighing the evidence: fluoridation",
+      "points": [
+        "Evidence for: fluoridation reduces tooth decay, with most benefit to people who can't afford dental care.",
+        "Evidence for: fluoridation is low cost per person.",
+        "Evidence and issues against: dental fluorosis occurs at higher intakes.",
+        "Evidence and issues against: the benefit may be smaller now that fluoride toothpaste is widely used.",
+        "Evidence and issues against: there are ethical objections to adding a substance to everyone's water without individual consent.",
+        "Evidence and issues against: most European countries don't fluoridate water.",
+        "Conclusion: a justified judgement weighing the size of the benefit against the risks and ethical issues, based on the most recent reviews."
+      ]
+    },
+    {
+      "h": "Worked outline: sustainability, rewetting peatlands",
+      "points": [
+        "Question: “Is rewetting drained Irish bogs an effective way to reduce greenhouse gas emissions?”",
+        "Chemistry: in waterlogged peat, decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (see “The natural greenhouse effect” and “The enhanced greenhouse effect”).",
+        "Chemistry: when bogs are drained, oxygen gets in and aerobic decay releases the stored carbon as CO₂.",
+        "Chemistry: when the peat is rewetted, the CO₂ release stops, but anaerobic microorganisms produce some methane (CH₄), which is a stronger greenhouse gas per kg.",
+        "Sources: EPA Ireland reports, and Bord na Móna and National Parks and Wildlife Service information.",
+        "Sources: peer-reviewed studies of emissions from drained and rewetted bogs, and farming organisations."
+      ]
+    },
+    {
+      "h": "Weighing the evidence: peatland rewetting",
+      "points": [
+        "The size of the CO₂ savings is set against the methane emissions, compared using GWPs and CO₂ equivalent.",
+        "Rewetting has benefits for biodiversity and flood control.",
+        "Rewetting affects landowners, jobs and communities that depended on peat.",
+        "The time scales of the carbon savings and the methane emissions must be considered.",
+        "Conclusion: a justified judgement on whether the evidence shows a net climate benefit, and under what conditions."
+      ]
+    },
+    {
+      "h": "Worked outline: technology, UV or chlorine for disinfecting water",
+      "points": [
+        "Question: “Can UV treatment replace chlorine for disinfecting public water supplies?”",
+        "Chemistry: chlorine forms hypochlorous acid (Cl₂ + H₂O ⇌ HOCl + HCl), which kills microorganisms and leaves a residual in the pipes.",
+        "Chemistry: UV damages microbial DNA and works against chlorine-resistant Cryptosporidium, but it leaves no residual.",
+        "Chemistry: chlorine can react with organic matter to form disinfection by-products, e.g. trihalomethanes (see “Treating drinking water”).",
+        "Sources: Uisce Éireann and EPA drinking-water reports, WHO guidelines, and studies of disinfection by-products.",
+        "Case study: the 2007 Galway Cryptosporidium outbreak."
+      ]
+    },
+    {
+      "h": "Weighing the evidence: UV or chlorine",
+      "points": [
+        "Issue: the effectiveness of each method against different microorganisms.",
+        "Issue: the protection each method gives in the distribution pipes.",
+        "Issue: the health risks of by-products, set against the much larger risk of water-borne disease.",
+        "Issue: the energy use of UV lamps, and cost.",
+        "Conclusion: UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes; the reasoning must be shown."
+      ]
+    },
+    {
+      "h": "Chemistry as a human, collaborative endeavour",
+      "points": [
+        "Modern chemistry is done by teams, often international, and builds on the work of others.",
+        "The lithium-ion battery came from the work of three scientists in different countries over decades (see “The lithium-ion cell”).",
+        "The IPCC reports are written by hundreds of scientists assessing thousands of studies.",
+        "Chemistry affects society globally through clean water, medicines, energy and materials, and also through pollution and climate change.",
+        "Personal research helps students judge claims and take part in public debate."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Research-based investigation (RI)", "definition": "An investigation of a question about one area of the course, through a cross-cutting theme, using evaluated sources and real chemistry." },
+    { "term": "Cross-cutting theme", "definition": "One of the three themes of health, sustainability or technology through which a research investigation is carried out." },
+    { "term": "Primary data", "definition": "Data a student gathers themselves, e.g. by measuring the pH of a water sample." },
+    { "term": "Peer review", "definition": "The checking of a study's methods and conclusions by independent experts before publication." },
+    { "term": "Systematic review", "definition": "A review that gathers and evaluates all the available studies on a question using a set method." },
+    { "term": "Bias", "definition": "A tendency of an author or source to favour one view, often because of funding, a product or a campaign." },
+    { "term": "Disinfection by-product", "definition": "A substance formed when a disinfectant reacts with organic matter in water, e.g. trihalomethanes." },
+    { "term": "Uncertainty", "definition": "The range within which a measured value is likely to lie, which must be noted when evaluating evidence." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Outline how you would carry out a research investigation into whether UV treatment could replace chlorination of drinking water. Refer to your question, the chemistry involved, the sources you would use and how you would evaluate them, and the issues you would weigh.",
+      "model": "Question: “Can UV treatment replace chlorine for disinfecting public water supplies?” Chemistry: chlorine forms hypochlorous acid, Cl₂ + H₂O ⇌ HOCl + HCl, which kills microorganisms and leaves a residual in the pipes; UV damages microbial DNA and works against chlorine-resistant Cryptosporidium but leaves no residual; chlorine can form trihalomethanes by reacting with organic matter. Sources: Uisce Éireann and EPA drinking-water reports, WHO guidelines and studies of disinfection by-products, using a range of viewpoints. Evaluation: for each source, check who wrote it and their expertise, when it was written, what evidence it gives and whether it was peer reviewed, and whether the author has a purpose or bias. Issues to weigh: effectiveness against different microorganisms, protection in the distribution pipes, the health risks of by-products against the much larger risk of water-borne disease, the energy use of UV lamps, and cost. A justified conclusion would be that UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why rewetting a drained peat bog reduces carbon dioxide emissions but may increase methane emissions, and explain how a researcher could compare these two effects.",
+      "model": "When a bog is drained, oxygen gets in and aerobic decay releases the carbon stored in the peat as CO₂. Rewetting stops this release, so carbon dioxide emissions fall. However, in waterlogged peat the decay is anaerobic, and anaerobic microorganisms produce some methane, which is a stronger greenhouse gas per kilogram. A researcher could compare the two effects by converting the methane emissions into CO₂ equivalent, multiplying the mass of methane by its GWP, and then comparing the result with the CO₂ saved, so that both are on the same scale. The comparison should also consider biodiversity, flood control and the effects on the communities that depended on peat."
+    },
+    {
+      "marks": 6,
+      "prompt": "State three questions you would ask to judge the reliability of a source you found during a research investigation.",
+      "model": "Any three of the following. Who wrote it, and what is their expertise? When was it written, and is it current? What evidence does it give, is that data and methods or opinion, and was it peer reviewed? Does the author have a purpose or bias, such as funding, selling a product or campaigning?"
+    }
+  ]
+}
