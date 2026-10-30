@@ -29,7 +29,7 @@ Race and ethnicity as classifications
 
 The impact of colonialism on racial patterns
 - [ ] C1 European colonisation of the Americas: the native population collapsed through disease, war and forced labour after 1492; Spanish and Portuguese settlers; racially mixed populations in Latin America (mestizo: European and Native American; mulatto/pardo: European and African).
-- [ ] C2 The Atlantic slave trade: the forced movement of Africans to the Americas; numbers; the main destinations (Brazil, the Caribbean, the American South); the legacy of large Black populations and racial inequality in the Americas.
+- [ ] C2 The Atlantic slave trade: the forced movement of Africans to the Americas; numbers; the main destinations (Brazil and the Caribbean; far fewer to the American South); the legacy of large Black populations and racial inequality in the Americas.
 - [ ] C3 Settler colonies: Australia (Aboriginal dispossession, the White Australia Policy, the Stolen Generations, the 2008 apology, the 2023 Voice referendum); New Zealand (Treaty of Waitangi, Māori share of population). Native Americans in the USA (removal and reservations).
 - [ ] C4 Colonial labour movements within empires: indentured Indian workers taken to the Caribbean, Fiji, South Africa (Natal) and East Africa, creating Indian communities there.
 - [ ] C5 Colonialism hardening racial categories: Belgian identity cards in Rwanda fixing Hutu/Tutsi labels (link to R12).

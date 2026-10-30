@@ -57,7 +57,7 @@ unemployment figures for any region: none are checked.
 | Item | Example(s) |
 |---|---|
 | C5 Ireland | Greater Dublin Area: Dublin, Kildare, Meath and Wicklow. Census 2022: State population about 5.1 million; County Dublin about 1.45 million. Dublin is the capital, with the seat of government, Ireland's main port (Dublin Port) and busiest airport (Dublin Airport), and the European headquarters of many technology firms, e.g. Google, in the docklands. |
-| C5 Europe | Paris Basin, France (its region, Île-de-France, has about 12 million people). The "Blue Banana": the curved belt of Europe's main core, from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan). |
+| C5 Europe | Paris Basin, France (Île-de-France, the region around Paris at its core, has about 12 million people). The "Blue Banana": the curved belt of Europe's main core, from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan). |
 | P4 Ireland | West of Ireland: the Northern and Western regional assembly area. Co. Leitrim has the smallest population of any Irish county. BMW (Border, Midland and Western) region, 2000–2006. |
 | P4 Europe | The Mezzogiorno, southern Italy. Northern Norway (Arctic, remote, fishing). North-west Scotland (Highlands and Islands). |
 | L1, L2 | EU "less developed region": GDP per head below 75% of the EU average. Ireland was a single Objective 1 region until 1999; BMW kept Objective 1 status for 2000–2006. Eastern European less-developed regions: Romania, Bulgaria. |

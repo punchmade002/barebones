@@ -18,7 +18,7 @@
 
 Language as a cultural indicator
 - [ ] I1 Why language is a key cultural indicator: it carries a group's history, literature, songs, place names and ways of thinking; it marks who belongs to a group; it is easy to map (census questions on language), so it is used to define cultural regions.
-- [ ] I2 Language and nationalism: many nation states were built around a language; language revival was part of the Irish independence movement (the Gaelic League); suppressing a language has been used to weaken a group (Franco's Spain, the "Welsh Not", Turkey's past ban on Kurdish).
+- [ ] I2 Language and nationalism: many nation states were built around a language; language revival fed the Irish independence movement (the Gaelic League, founded as non-political); suppressing a language has been used to weaken a group (Franco's Spain, the "Welsh Not", Turkey's past ban on Kurdish).
 - [ ] I3 Language and power: colonial languages became official languages of former colonies (English in India, Nigeria; French in West Africa; Spanish and Portuguese in Latin America); the language of the powerful brings jobs and status, so speakers of minority languages shift to it.
 - [ ] I4 Place names as evidence of language and history: Irish place-name elements (baile, cill, dún, inis, cluain) show the Irish-speaking past of areas that are now English-speaking.
 - [ ] I5 Language can unite (a shared national language) or divide (Belgium; language borders), and can cross borders (French in France, Belgium, Switzerland, Quebec; Basque in Spain and France).
