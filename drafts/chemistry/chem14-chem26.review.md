@@ -99,7 +99,7 @@ chem23-s9, chem24-s4, chem24-s5, chem25-s6, chem25-s7, chem26-s3.
 
 Most subsections had only 2–6 note blocks, too few to justify a heading of their own. Adjacent
 (and in chem5, chem24 and chem25, related) subsections were merged so that each has at least 8
-blocks: 137 → 67 across all 26 chapters (chem14–chem26: 72 → 35). Notes, flashcards (34 repeated
+blocks: 137 → 67 across all 26 chapters (chem14–chem26: 72 → 40). Notes, flashcards (34 repeated
 terms dropped, 1128 → 1094) and practice questions were concatenated unchanged; packages were concatenated
 as "Part" sections under the new loId. Cross-references to merged-away titles now name the new
 subsection, and references within one merged subsection became "above"/"below" or were removed.
