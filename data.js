@@ -967,143 +967,166 @@ const COURSE_DATA = {
     },
 
     /* =================== LC CHEMISTRY HL =================== */
-    /* learningOutcomes are the NCCA Senior Cycle Chemistry specification's own outcomes
-       (spec introduced Sept 2025). `code` is the spec's strand.topic.outcome reference.
-       Content currently sits on each chapter's first outcome as consolidated chapter
-       notes. The Full Notes view intentionally suppresses the remaining empty outcome
-       shells until content is authored for them individually. */
+    /* Chapters chem1-chem13 are split into the subsections of course-outlines/chemistry.md:
+       <chapter>-1 is the chapter review (it keeps the chapter's test questions) and
+       <chapter>-s<n> are the outline's subsections, whose notes come from content/chemistry/
+       via chemistry-notes.js. `syllabusRef` is the specification reference.
+       In chem14-chem26, learningOutcomes are still the NCCA specification's own outcomes
+       (spec introduced Sept 2025); `code` is the spec's strand.topic.outcome reference. */
     {
       id: "chem1", number: 1, subject: "chemistry", title: "The Nature of Science",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem1-1", code: "U1.1", title: "Appreciate how scientists work and how scientific ideas are modified over time", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-2", code: "U1.2", title: "Conduct research relevant to a scientific issue and evaluate different sources of information, including secondary data, understanding that a source may lack detail or show bias", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-3", code: "U2.1", title: "Recognise questions that are appropriate for scientific investigation in chemistry", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-4", code: "U2.2", title: "Pose testable hypotheses developed using scientific theories and explanations, and evaluate and compare strategies for investigating hypotheses", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-5", code: "U2.3", title: "Design, plan and conduct investigations; explain how reliability, validity, accuracy, precision, error, fairness, safety, integrity, and the selection of suitable equipment have been considered", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-6", code: "U2.4", title: "Produce and select data (qualitatively and quantitatively), critically analyse data to identify patterns and relationships, identify anomalous observations, draw and justify conclusions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-7", code: "U2.5", title: "Review and reflect on the skills and thinking used in carrying out investigations, and apply their learning and skills to solving problems in unfamiliar contexts", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-8", code: "U2.6", title: "Organise and communicate their research and investigative findings, using relevant scientific terminology and representations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-9", code: "U3.1", title: "Research and present information on the contribution that scientists make to scientific discovery and invention, and its impact on society", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-10", code: "U3.2", title: "Appreciate the role of chemistry in society, and its personal, social and global importance, and how society influences scientific research", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-11", code: "U3.3", title: "Evaluate media-based arguments concerning science and technology", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-12", code: "U4.1", title: "Relate observable phenomena to the chemical processes at the atomic, sub-atomic or molecular level", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-13", code: "U4.2", title: "Appreciate that models are simplified representations with underlying assumptions, can be modified as more data becomes available, and can predict the behaviour of a system", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-1", code: "CHEM1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s1", code: "CHEM1.1", syllabusRef: "U1.1", title: "How scientists work and how ideas change", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s2", code: "CHEM1.2", syllabusRef: "U1 LA", title: "Models and their limits", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s3", code: "CHEM1.3", syllabusRef: "U1 LA", title: "Science as a global enterprise", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s4", code: "CHEM1.4", syllabusRef: "U1.2", title: "Researching a scientific issue", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s5", code: "CHEM1.5", syllabusRef: "U2.1–U2.2", title: "Questions and hypotheses", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s6", code: "CHEM1.6", syllabusRef: "U2.3", title: "Designing and conducting investigations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s7", code: "CHEM1.7", syllabusRef: "U2 LA", title: "Measurement and error", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s8", code: "CHEM1.8", syllabusRef: "U2.4", title: "Producing and analysing data", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s9", code: "CHEM1.9", syllabusRef: "U2.5", title: "Reflecting and recording", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s10", code: "CHEM1.10", syllabusRef: "U2.6", title: "Communicating findings", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s11", code: "CHEM1.11", syllabusRef: "U3.1–U3.2", title: "Chemistry in society", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s12", code: "CHEM1.12", syllabusRef: "U3.3", title: "Evaluating claims in the media", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s13", code: "CHEM1.13", syllabusRef: "U4.1–U4.2", title: "Abstraction to representation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s14", code: "CHEM1.14", syllabusRef: "Assessment", title: "The Chemistry in Practice Investigation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem2", number: 2, subject: "chemistry", title: "Atomic Structure: The Nuclear Model",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem2-1", code: "1.2.1", title: "Evaluate previous models of the atom against the current model, stating assumptions and limitations in each case", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-1", code: "CHEM2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-s1", code: "CHEM2.1", syllabusRef: "1.2.1", title: "Models of the atom", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-s2", code: "CHEM2.2", syllabusRef: "1.2 LA", title: "Subatomic particles", notes: [], keyTerms: [], questions: [] },
+        { id: "chem2-s3", code: "CHEM2.3", syllabusRef: "1.2 LA", title: "Atomic number, mass number, relative atomic mass and isotopes", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem3", number: 3, subject: "chemistry", title: "Atomic Structure: The Bohr and Orbital Models",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem3-1", code: "1.2.2", title: "Describe the atom using the current orbital model of atomic theory, including subatomic particles", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-2", code: "1.2.3", title: "Describe and explain the origin of lines on the atomic emission spectrum of hydrogen", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-3", code: "1.2.4", title: "Identify an element using appropriate primary or secondary data", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-4", code: "1.2.5", title: "Describe the electronic structure of elements and associated ions, identifying stable electronic configurations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-1", code: "CHEM3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-s1", code: "CHEM3.1", syllabusRef: "1.2.2", title: "The current orbital model", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-s2", code: "CHEM3.2", syllabusRef: "1.2.3", title: "Energy levels and the hydrogen emission spectrum", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-s3", code: "CHEM3.3", syllabusRef: "1.2.4", title: "Identifying elements", notes: [], keyTerms: [], questions: [] },
+        { id: "chem3-s4", code: "CHEM3.4", syllabusRef: "1.2.5", title: "Electronic structure", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem4", number: 4, subject: "chemistry", title: "The Periodic Table: Arrangement of Electrons",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem4-1", code: "1.3.1", title: "Describe the development of the modern periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem4-2", code: "1.3.3", title: "Examine and explain the arrangement of elements in groups, periods and blocks in the periodic table of elements", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-1", code: "CHEM4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-s1", code: "CHEM4.1", syllabusRef: "1.3.1", title: "Development of the modern periodic table", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-s2", code: "CHEM4.2", syllabusRef: "1.3.3", title: "Groups, periods and blocks", notes: [], keyTerms: [], questions: [] },
+        { id: "chem4-s3", code: "CHEM4.3", syllabusRef: "1.3 LA", title: "Using the table as a predictive guide", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem5", number: 5, subject: "chemistry", title: "Chemical Bonding and Structure",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem5-1", code: "2.1.1", title: "Describe and compare different types of chemical bonding", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-2", code: "2.1.3", title: "Model different types of bonding to predict chemical formulae and outline the limitations in predicting bonding between atoms", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-3", code: "2.1.5", title: "Investigate, using primary data, the presence of ions in salts and in solutions, and identify an anion and cation in an unknown salt", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-4", code: "2.2.5", title: "Use VSEPR theory to predict and model the shapes of molecules", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-1", code: "CHEM5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s1", code: "CHEM5.1", syllabusRef: "2.1.1", title: "Types of chemical bonding", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s2", code: "CHEM5.2", syllabusRef: "2.1.3", title: "Modelling bonding and predicting formulae", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s3", code: "CHEM5.3", syllabusRef: "2.1.5", title: "Investigation: identifying ions in salts and solutions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s4", code: "CHEM5.4", syllabusRef: "2.2.5", title: "VSEPR theory", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem6", number: 6, subject: "chemistry", title: "Electronegativity and the Continuum of Chemical Bonding",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem6-1", code: "2.1.2", title: "Predict the nature of chemical bonds between atoms, using trends in electronegativity values", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-2", code: "2.1.4", title: "Relate the properties of simple compounds to the nature of bonding present", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-3", code: "2.2.1", title: "Distinguish between intramolecular bonding and a range of intermolecular forces", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-4", code: "2.2.2", title: "Relate observed physical properties for a range of compounds to the type of intermolecular forces, accounting for trends", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-5", code: "2.2.3", title: "Explain qualitatively the influence of polarity, and symmetry, on intermolecular forces", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-6", code: "2.2.4", title: "Use the shapes and polarity of molecules of simple compounds to predict physical properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-1", code: "CHEM6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s1", code: "CHEM6.1", syllabusRef: "2.1.2", title: "Electronegativity and bond type", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s2", code: "CHEM6.2", syllabusRef: "2.1.4", title: "Bonding and properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s3", code: "CHEM6.3", syllabusRef: "2.2.1", title: "Intramolecular bonding and intermolecular forces", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s4", code: "CHEM6.4", syllabusRef: "2.2.2", title: "Intermolecular forces and physical properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s5", code: "CHEM6.5", syllabusRef: "2.2.3", title: "Polarity and symmetry", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s6", code: "CHEM6.6", syllabusRef: "2.2.4", title: "Shape, polarity and properties", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem7", number: 7, subject: "chemistry", title: "Families and Trends in the Periodic Table",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem7-1", code: "1.3.2", title: "Identify specific groups of elements and relate the group properties to its position in the periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-2", code: "1.3.4", title: "Examine trends and relationships in the periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-3", code: "1.3.5", title: "Explain trends in first ionisation energies, including exceptions, and in successive ionisation energies and atomic radii", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-1", code: "CHEM7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-s1", code: "CHEM7.1", syllabusRef: "1.3.2", title: "Specific groups", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-s2", code: "CHEM7.2", syllabusRef: "1.3.4", title: "Trends and relationships", notes: [], keyTerms: [], questions: [] },
+        { id: "chem7-s3", code: "CHEM7.3", syllabusRef: "1.3.5", title: "Ionisation energies and atomic radii", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem8", number: 8, subject: "chemistry", title: "The Mole: The Chemist's Counting Unit",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem8-1", code: "1.4.1", title: "Define and explain the mole in terms of the Avogadro constant, and relate the mole to how the amount of a substance can be quantified", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-2", code: "1.4.2", title: "Solve problems involving relative atomic mass and percentage abundance of isotopes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-3", code: "1.4.3", title: "State Avogadro's law and deduce the molar volume of a gas", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-4", code: "1.4.4", title: "Conduct an experiment to determine the relative molecular mass of a gas derived from a liquid", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-5", code: "1.4.5", title: "Explain and model the concept of concentration of a solution and outline how to prepare a range of solutions of different concentrations, including primary standard solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-6", code: "1.4.6", title: "Convert between units of concentration", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-1", code: "CHEM8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s1", code: "CHEM8.1", syllabusRef: "1.4.1", title: "The mole", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s2", code: "CHEM8.2", syllabusRef: "1.4.2", title: "Relative atomic mass from isotopic abundance", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s3", code: "CHEM8.3", syllabusRef: "1.4.3", title: "Molar volume and Avogadro's law", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s4", code: "CHEM8.4", syllabusRef: "1.4.4", title: "Relative molecular mass of a volatile liquid", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s5", code: "CHEM8.5", syllabusRef: "1.4.5", title: "Solutions and concentration", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s6", code: "CHEM8.6", syllabusRef: "1.4.6", title: "Units of concentration", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem9", number: 9, subject: "chemistry", title: "Kinetic Theory of Matter and Behaviour of Gases",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem9-1", code: "1.1.1", title: "Understand experimental evidence for the kinetic theory of matter", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-2", code: "1.1.2", title: "Analyse the kinetic theory of matter to explain the nature and behaviour of matter at the particulate level and model how matter changes state", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-3", code: "1.1.3", title: "Justify the use of different separation techniques for isolating one or more components from a mixture", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-4", code: "2.3.1", title: "Explain what is meant by the ideal gas, accounting for deviations of real gases from ideal gas behaviour", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-5", code: "2.3.2", title: "Solve and interpret quantitative problems using the ideal gas equation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-1", code: "CHEM9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s1", code: "CHEM9.1", syllabusRef: "1.1 LA", title: "The particulate nature of matter", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s2", code: "CHEM9.2", syllabusRef: "1.1.1", title: "Evidence for the kinetic theory", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s3", code: "CHEM9.3", syllabusRef: "1.1.2", title: "Using the kinetic theory", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s4", code: "CHEM9.4", syllabusRef: "1.1.3", title: "Separation techniques", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s5", code: "CHEM9.5", syllabusRef: "2.3.1", title: "Gas relationships and the ideal gas", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s6", code: "CHEM9.6", syllabusRef: "2.3.2", title: "The ideal gas equation", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem10", number: 10, subject: "chemistry", title: "Law of Conservation of Mass: Introducing Stoichiometry",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem10-1", code: "1.1.4", title: "Distinguish between physical change and chemical change of matter", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-2", code: "1.1.5", title: "Verify, using primary data, the law of conservation of mass and explain through the use of models", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-3", code: "1.4.7a", title: "Use the concept of a mole to determine empirical and molecular formulae, and to balance equations for reactions where reactants and products are specified", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-1", code: "CHEM10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s1", code: "CHEM10.1", syllabusRef: "1.1.4", title: "Physical and chemical change", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s2", code: "CHEM10.2", syllabusRef: "1.1.5", title: "Investigation: conservation of mass", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s3", code: "CHEM10.3", syllabusRef: "1.4.7", title: "Empirical and molecular formulae", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s4", code: "CHEM10.4", syllabusRef: "1.4.7", title: "Balancing equations", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem11", number: 11, subject: "chemistry", title: "Acids and Bases",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem11-1", code: "3.4.2", title: "Predict the products of, and write balanced equations for, acid-base reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-2", code: "3.4.3", title: "Compare two theories of acid-base systems and justify why Brønsted-Lowry theory is a more extensive model for explaining behaviour", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-3", code: "3.4.4", title: "Apply Brønsted-Lowry theory to identify conjugate acid-base pairs and species acting as acids and bases in chemical equations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-4", code: "3.4.7", title: "Distinguish between weak and strong acids (and bases), and between concentrated and dilute acids (and bases)", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-1", code: "CHEM11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s1", code: "CHEM11.1", syllabusRef: "3.4.1", title: "Categorising acids and bases", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s2", code: "CHEM11.2", syllabusRef: "3.4.2", title: "Acid–base reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s3", code: "CHEM11.3", syllabusRef: "3.4.3", title: "Arrhenius and Brønsted–Lowry theories", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s4", code: "CHEM11.4", syllabusRef: "3.4.4", title: "Applying Brønsted–Lowry theory", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s5", code: "CHEM11.5", syllabusRef: "3.4.7", title: "Strong vs weak, concentrated vs dilute", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem12", number: 12, subject: "chemistry", title: "Volumetric Analysis: Acid–Base",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem12-1", code: "4.1.1", title: "Recognise the importance of primary standards and standard solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-2", code: "4.1.3", title: "Investigate pH titration curves, using primary data from acid-base reactions, justifying appropriate indicators for each titration", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-3", code: "4.1.4", title: "Explain how weak acid and weak base acid-base indicators function, using Le Châtelier's principle", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-4", code: "4.1.5", title: "Investigate, using primary data, how to find the concentration of ethanoic acid in vinegar", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-1", code: "CHEM12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s1", code: "CHEM12.1", syllabusRef: "4.1.1", title: "Primary standards and standard solutions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s2", code: "CHEM12.2", syllabusRef: "4.1.2", title: "Acid–base titrations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s3", code: "CHEM12.3", syllabusRef: "4.1.3", title: "pH titration curves", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s4", code: "CHEM12.4", syllabusRef: "4.1.4", title: "How indicators work", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s5", code: "CHEM12.5", syllabusRef: "4.1.5", title: "Investigation: ethanoic acid in vinegar", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
       id: "chem13", number: 13, subject: "chemistry", title: "Acid–Base Volumetric Exam-Style Questions",
       examQuestions: [],
       learningOutcomes: [
-        { id: "chem13-1", code: "4.1.7", title: "Solve volumetric problems", notes: [], keyTerms: [], questions: [] },
+        { id: "chem13-1", code: "CHEM13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
+        { id: "chem13-s1", code: "CHEM13.1", syllabusRef: "4.1.7", title: "Solving acid–base volumetric problems", notes: [], keyTerms: [], questions: [] },
+        { id: "chem13-s2", code: "CHEM13.2", syllabusRef: "4.1.7", title: "Worked acid–base volumetric problems", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {

@@ -1,0 +1,73 @@
+{
+  "loId": "chem11-s3",
+  "chapterId": "chem11",
+  "subsection": "3. Arrhenius and Brønsted–Lowry theories",
+  "syllabusRef": "3.4.3",
+  "notes": [
+    {
+      "h": "The Arrhenius theory",
+      "b": "Svante Arrhenius defined acids and bases by the ions they produce in water (1887).",
+      "points": [
+        "An Arrhenius acid is a substance that dissociates in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).",
+        "An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).",
+        "Neutralisation is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O."
+      ]
+    },
+    {
+      "h": "Limitations of the Arrhenius theory",
+      "points": [
+        "It applies only to aqueous solutions.",
+        "It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate.",
+        "It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).",
+        "It ignores the role of water: a bare hydrogen ion does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺."
+      ]
+    },
+    {
+      "h": "The Brønsted–Lowry theory",
+      "b": "Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton.",
+      "points": [
+        "A proton is the same particle as a hydrogen ion, H⁺.",
+        "A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.",
+        "An acid–base reaction is the transfer of a proton from an acid to a base.",
+        "HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.",
+        "NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid.",
+        "Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric."
+      ]
+    },
+    {
+      "h": "Why Brønsted–Lowry is more extensive",
+      "b": "A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions.",
+      "points": [
+        "It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor.",
+        "It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.",
+        "It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.",
+        "It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.",
+        "Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.",
+        "Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.",
+        "Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent and in the absence of a solvent."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Arrhenius acid", "definition": "A substance that dissociates in water to produce hydrogen ions, H⁺." },
+    { "term": "Arrhenius base", "definition": "A substance that dissociates in water to produce hydroxide ions, OH⁻." },
+    { "term": "Brønsted–Lowry acid", "definition": "A proton donor." },
+    { "term": "Brønsted–Lowry base", "definition": "A proton acceptor." },
+    { "term": "Proton", "definition": "A hydrogen ion, H⁺." },
+    { "term": "Hydronium ion", "definition": "The ion H₃O⁺, formed when a hydrogen ion bonds to a water molecule." },
+    { "term": "Amphoteric", "definition": "Describes a substance, such as water, that can act as either an acid or a base." },
+    { "term": "Hydroxide ion", "definition": "The ion OH⁻, which an Arrhenius base produces in water." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Define an acid and a base according to (i) the Arrhenius theory, (ii) the Brønsted–Lowry theory.",
+      "model": "(i) Arrhenius: an acid is a substance that dissociates in water to produce hydrogen ions, H⁺; a base is a substance that dissociates in water to produce hydroxide ions, OH⁻. (ii) Brønsted–Lowry: an acid is a proton donor; a base is a proton acceptor."
+    },
+    {
+      "marks": 9,
+      "prompt": "Justify why the Brønsted–Lowry theory is a more extensive model of acids and bases than the Arrhenius theory, using the reaction of ammonia with hydrogen chloride gas as one example.",
+      "model": "The Brønsted–Lowry theory includes every Arrhenius acid and base and explains more. It explains bases with no hydroxide ion, such as ammonia, and bases such as the carbonate ion, which accept a proton. It applies to reactions without water. In the reaction NH₃(g) + HCl(g) → NH₄Cl(s), the Arrhenius theory cannot explain the reaction because it involves no water and ammonia produces no hydroxide ion. The Brønsted–Lowry theory explains it: HCl donates a proton, the acid, and ammonia accepts it, the base. The theory also explains the role of water, which accepts a proton to form H₃O⁺ in reactions with acids. Its definitions apply in any solvent and in the absence of a solvent, while the Arrhenius theory applies only to aqueous solutions."
+    }
+  ]
+}

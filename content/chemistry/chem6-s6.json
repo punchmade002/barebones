@@ -1,0 +1,67 @@
+{
+  "loId": "chem6-s6",
+  "chapterId": "chem6",
+  "subsection": "6. Shape, polarity and properties",
+  "syllabusRef": "2.2.4",
+  "notes": [
+    {
+      "h": "Shape decides overall polarity",
+      "points": [
+        "A molecule with polar bonds is polar overall only if its shape is unsymmetrical, so that its charge is unevenly spread.",
+        "Water is V-shaped (bent), so it is polar.",
+        "Ammonia is pyramidal, so it is polar.",
+        "Carbon dioxide is linear and methane is tetrahedral: both are non-polar."
+      ]
+    },
+    {
+      "h": "Predicting physical properties",
+      "points": [
+        "Polar molecules have stronger forces between them than non-polar molecules of similar size, so they have higher boiling points.",
+        "Polar molecules tend to dissolve in polar solvents such as water; non-polar molecules dissolve in non-polar solvents such as cyclohexane.",
+        "Water is a liquid at room temperature and dissolves salts, because it is polar and forms hydrogen bonds; methane is a gas and is almost insoluble in water.",
+        "Ammonia, which is polar, is very soluble in water; carbon dioxide, which is non-polar, is only slightly soluble."
+      ]
+    },
+    {
+      "h": "Investigation: testing liquids for polarity with a charged rod",
+      "points": [
+        "Aim: to show whether a liquid is made of polar molecules.",
+        "Apparatus: a burette clamped above a beaker, a polythene (or acetate) rod, a cloth, and liquids such as water and cyclohexane.",
+        "Diagram: a burette clamped above a beaker, releasing a thin stream of liquid; label the burette, the beaker and the stream.",
+        "Diagram: a charged polythene rod held beside the stream, with the stream bending towards it; label the rod, the stream and the direction of deflection.",
+        "Independent variable: the liquid tested.",
+        "Dependent variable: whether the stream is deflected.",
+        "Controlled variables: the same rod and cloth, with the rod recharged before each test.",
+        "Step 1: Charge the rod by rubbing it with the cloth.",
+        "Step 2: Let a thin stream of the liquid run from the burette, and hold the rod close to the stream without touching it.",
+        "Step 3: Repeat with the other liquid, recharging the rod each time.",
+        "Result: the stream of water is deflected (attracted) towards the rod; the stream of cyclohexane is not deflected.",
+        "The water stream is attracted to the rod whether the rod is charged positively or negatively, because the molecules rotate.",
+        "Explanation: polar molecules turn so that their oppositely charged end faces the rod and are attracted to it; non-polar molecules are not attracted.",
+        "Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation, and collect it for disposal."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Polar molecule", "definition": "A molecule with an uneven distribution of charge, so that it has a δ+ end and a δ− end." },
+    { "term": "Non-polar molecule", "definition": "A molecule with an even distribution of charge overall, which is not attracted to a charged rod." },
+    { "term": "Polar solvent", "definition": "A solvent made of polar molecules, such as water, that dissolves ionic and polar substances." },
+    { "term": "Non-polar solvent", "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances." },
+    { "term": "V-shaped (bent) molecule", "definition": "A molecule with two bonded atoms at an angle to a central atom, such as water." },
+    { "term": "Pyramidal molecule", "definition": "A molecule with three bonded atoms arranged in a pyramid above a central atom, such as ammonia." },
+    { "term": "Tetrahedral molecule", "definition": "A molecule with four bonded atoms arranged at the corners of a tetrahedron around a central atom, such as methane." },
+    { "term": "Linear molecule", "definition": "A molecule whose atoms lie in a straight line, such as carbon dioxide." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Describe an experiment to show that water molecules are polar and cyclohexane molecules are not, and explain the results.",
+      "model": "Charge a polythene rod by rubbing it with a cloth. Let a thin stream of water run from a burette and hold the charged rod close to the stream without touching it; the water stream is deflected towards the rod. Repeat with cyclohexane, recharging the rod each time; the stream is not deflected. Explanation: water molecules are polar, with a δ+ end and a δ− end. They turn so that their oppositely charged end faces the rod and are attracted to it. Cyclohexane molecules are non-polar, so they are not attracted to the rod. Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation."
+    },
+    {
+      "marks": 6,
+      "prompt": "Methane and water have similar relative molecular masses. Use the shape and polarity of each molecule to explain why water is a liquid at room temperature and methane is a gas.",
+      "model": "Water is a V-shaped molecule with polar O–H bonds that do not cancel, so it is polar. Its polar molecules have stronger forces between them, including hydrogen bonds, so more energy is needed to overcome them and water is a liquid at room temperature. Methane is a tetrahedral, non-polar molecule, so its molecules have only weak London dispersion forces between them, and it is a gas at room temperature."
+    }
+  ]
+}

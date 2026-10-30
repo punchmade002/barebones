@@ -1,0 +1,160 @@
+{
+  "loId": "chem5-s3",
+  "chapterId": "chem5",
+  "subsection": "3. Investigation: identifying ions in salts and solutions",
+  "syllabusRef": "2.1.5",
+  "notes": [
+    {
+      "h": "General points",
+      "points": [
+        "A salt contains a cation (positive ion, usually a metal) and an anion (negative ion).",
+        "The anion tests are carried out on a solution of the salt in deionised water.",
+        "Tests work only above a certain minimum concentration of the ion; very dilute solutions may give no visible result.",
+        "Use deionised water and clean test tubes, so that ions from tap water or other samples don't give false results.",
+        "Test a blank of deionised water as a control.",
+        "A precipitate is an insoluble solid that forms when two solutions are mixed.",
+        "Effervescence is fizzing as a gas is given off."
+      ]
+    },
+    {
+      "h": "Cation: flame test",
+      "points": [
+        "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour (see \"Identifying elements\")."
+      ]
+    },
+    {
+      "h": "Chloride",
+      "points": [
+        "Add a few drops of silver nitrate solution, acidified with dilute nitric acid.",
+        "A white precipitate of silver chloride forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+        "Confirm the precipitate by showing that it dissolves in dilute ammonia solution.",
+        "Use nitric acid, not hydrochloric acid, which would add chloride ions.",
+        "Nitric acid is added first to remove carbonate ions, which would also give a precipitate with silver nitrate."
+      ]
+    },
+    {
+      "h": "Sulfate and sulfite",
+      "points": [
+        "Add barium chloride solution: sulfate and sulfite both give a white precipitate.",
+        "Sulfate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s).",
+        "Sulfite: Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).",
+        "Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves.",
+        "Barium sulfite reacts with the acid: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).",
+        "Safety: barium compounds are toxic.",
+        "Safety: sulfur dioxide is a toxic, choking gas, so use small amounts in good ventilation."
+      ]
+    },
+    {
+      "h": "Carbonate and hydrogencarbonate",
+      "points": [
+        "Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide.",
+        "Carbonate: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.",
+        "Hydrogencarbonate: HCO₃⁻ + H⁺ → CO₂ + H₂O.",
+        "Confirm the gas as carbon dioxide: it turns limewater milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
+        "To tell them apart, add magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold, Mg²⁺ + CO₃²⁻ → MgCO₃(s).",
+        "A hydrogencarbonate gives no precipitate with magnesium sulfate solution until the mixture is heated.",
+        "On heating: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l)."
+      ]
+    },
+    {
+      "h": "Nitrate: the brown ring test",
+      "points": [
+        "Add freshly made iron(II) sulfate solution to the test solution in a test tube.",
+        "Hold the tube at an angle and carefully run concentrated sulfuric acid down the side, so that it forms a dense layer at the bottom; don't shake.",
+        "A brown ring forms where the two layers meet, showing nitrate.",
+        "Iron(II) reduces nitrate to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.",
+        "Nitrogen monoxide forms a brown complex with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.",
+        "Safety: concentrated sulfuric acid is very corrosive; wear goggles and gloves, and add it slowly."
+      ]
+    },
+    {
+      "h": "Phosphate",
+      "points": [
+        "Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently.",
+        "A yellow precipitate of ammonium phosphomolybdate shows phosphate.",
+        "Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.",
+        "Safety: concentrated nitric acid is corrosive and an oxidising agent; use a fume cupboard."
+      ]
+    },
+    {
+      "h": "Links to water supplies",
+      "points": [
+        "Chlorides come from sea water and road salt; chlorination of water also gives chloride.",
+        "Nitrates and phosphates come from fertilisers, animal slurry, sewage and detergents.",
+        "Nitrates and phosphates contaminate water and cause eutrophication (taught in the environmental chemistry chapter).",
+        "Hard water contains dissolved calcium and magnesium ions.",
+        "Calcium and magnesium ions with hydrogencarbonate ions cause temporary hardness, which is removed by boiling.",
+        "Calcium and magnesium ions with sulfate or chloride ions cause permanent hardness.",
+        "Hard water forms scum with soap.",
+        "Carbonates and hydrogencarbonates come from water flowing over limestone, which is calcium carbonate."
+      ]
+    },
+    {
+      "h": "Investigation: identifying an unknown salt",
+      "points": [
+        "Aim: to identify the cation and the anion in an unknown salt, using primary data.",
+        "Step 1: Carry out a flame test on the solid to identify the cation.",
+        "Step 2: Add dilute hydrochloric acid to a little of the solid to test for carbonate and hydrogencarbonate, then dissolve a little of the salt in deionised water.",
+        "Step 3: Carry out the other anion tests on separate portions of the solution in a logical order, recording the reagent, observation and conclusion in a table.",
+        "Step 4: Run each test on a known sample of the ion alongside, as a positive control, and on deionised water as a negative control.",
+        "Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate that dissolves in ammonia indicate potassium chloride, KCl.",
+        "Diagram: the brown ring test tube, showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Cation",
+      "definition": "A positively charged ion, usually a metal ion."
+    },
+    {
+      "term": "Anion",
+      "definition": "A negatively charged ion."
+    },
+    {
+      "term": "Deionised water",
+      "definition": "Water from which dissolved ions have been removed, used so that ions in tap water don't give false results."
+    },
+    {
+      "term": "Precipitate",
+      "definition": "An insoluble solid that forms when two solutions are mixed."
+    },
+    {
+      "term": "Effervescence",
+      "definition": "Fizzing caused by a gas being given off."
+    },
+    {
+      "term": "Positive control",
+      "definition": "A test on a known sample of the ion, run alongside the unknown to check that the test works."
+    },
+    {
+      "term": "Negative control",
+      "definition": "A test on deionised water, to check that the result is not a false positive."
+    },
+    {
+      "term": "Temporary hardness",
+      "definition": "Hardness caused by calcium or magnesium hydrogencarbonate in water, which boiling removes."
+    },
+    {
+      "term": "Permanent hardness",
+      "definition": "Hardness caused by dissolved calcium or magnesium sulfate or chloride, which boiling does not remove."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would show that a solution contains (i) chloride ions, (ii) sulfate ions rather than sulfite ions. Give the observations and a balanced ionic equation for each.",
+      "model": "(i) Chloride: add a few drops of silver nitrate solution acidified with dilute nitric acid. A white precipitate of silver chloride forms, Ag⁺(aq) + Cl⁻(aq) → AgCl(s). Confirm by showing that the precipitate dissolves in dilute ammonia solution. (ii) Sulfate: add barium chloride solution; a white precipitate forms, Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). Add dilute hydrochloric acid: the precipitate does not dissolve, which shows sulfate. Sulfite also gives a white precipitate with barium chloride, Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s), but it dissolves in the acid, so a precipitate that stays undissolved shows sulfate rather than sulfite."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe the brown ring test for the nitrate ion, including one safety precaution.",
+      "model": "Add freshly made iron(II) sulfate solution to the test solution in a test tube. Hold the tube at an angle and carefully run concentrated sulfuric acid down the side so that it forms a dense bottom layer; do not shake. A brown ring forms where the two layers meet, showing nitrate. Iron(II) reduces nitrate to nitrogen monoxide, 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O, and the nitrogen monoxide forms a brown complex with iron(II), Fe²⁺ + NO → [FeNO]²⁺. Safety: concentrated sulfuric acid is very corrosive, so wear goggles and gloves and add it slowly."
+    },
+    {
+      "marks": 6,
+      "prompt": "A white salt gives a crimson flame and effervescence with dilute hydrochloric acid, and its solution gives an immediate white precipitate with magnesium sulfate solution. Identify the salt and explain each result.",
+      "model": "The crimson flame identifies lithium as the cation (see \"Identifying elements\"). Effervescence with dilute hydrochloric acid shows carbonate or hydrogencarbonate, which release carbon dioxide, e.g. CO₃²⁻ + 2H⁺ → CO₂ + H₂O. An immediate white precipitate with magnesium sulfate solution in the cold shows carbonate, Mg²⁺ + CO₃²⁻ → MgCO₃(s), because a hydrogencarbonate gives no precipitate until it is heated. The salt is lithium carbonate, Li₂CO₃."
+    }
+  ]
+}

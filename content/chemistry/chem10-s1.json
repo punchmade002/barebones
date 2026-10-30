@@ -1,0 +1,92 @@
+{
+  "loId": "chem10-s1",
+  "chapterId": "chem10",
+  "subsection": "1. Physical and chemical change",
+  "syllabusRef": "1.1.4",
+  "notes": [
+    {
+      "h": "Physical and chemical properties",
+      "points": [
+        "A physical property can be observed or measured without changing the substance into a new substance.",
+        "Physical properties include colour, state, density, melting point, boiling point, solubility, electrical conductivity and hardness.",
+        "A chemical property describes how a substance reacts to form new substances.",
+        "Chemical properties include flammability, reactivity with water, oxygen or acids, whether a substance is acidic or basic, and how it decomposes on heating."
+      ]
+    },
+    {
+      "h": "Physical change",
+      "points": [
+        "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing.",
+        "A physical change is usually easily reversed and involves only a small energy change.",
+        "A change of state is always a physical change.",
+        "Examples of physical change: melting ice, boiling water, dissolving sugar or salt in water, sublimation of iodine, crushing a solid and magnetising iron.",
+        "The mass is unchanged in a physical change."
+      ]
+    },
+    {
+      "h": "Chemical change",
+      "points": [
+        "A chemical change, or chemical reaction, is one in which one or more new substances are formed, with different properties.",
+        "In a chemical change bonds are broken and new bonds are made, so the atoms are rearranged into new particles.",
+        "A chemical change is usually difficult to reverse.",
+        "A chemical change usually involves a noticeable energy change.",
+        "Total mass is conserved in a chemical change too, if nothing escapes (see “Investigation: conservation of mass”)."
+      ]
+    },
+    {
+      "h": "Signs of a chemical change",
+      "points": [
+        "A gas is given off (effervescence).",
+        "A precipitate forms.",
+        "A permanent colour change occurs.",
+        "The temperature changes.",
+        "Light is produced.",
+        "A smell is produced.",
+        "A colour change alone is not proof of a chemical change: dissolving copper sulfate in water gives a blue solution, which is a physical change."
+      ]
+    },
+    {
+      "h": "Examples of chemical change",
+      "points": [
+        "Burning magnesium forms white magnesium oxide.",
+        "Rusting of iron.",
+        "Cooking an egg.",
+        "Magnesium fizzing in hydrochloric acid.",
+        "Heating copper(II) carbonate decomposes it: the green solid forms black copper(II) oxide and carbon dioxide.",
+        "Neutralisation of an acid by a base, with the equations given in “Balancing equations”."
+      ]
+    },
+    {
+      "h": "Comparing physical and chemical change",
+      "points": [
+        "No new substance is formed in a physical change, but a new substance is formed in a chemical change.",
+        "A physical change is easily reversed; a chemical change is usually difficult to reverse.",
+        "A physical change involves a small energy change; a chemical change usually involves a large energy change.",
+        "Particles are unchanged in a physical change, but atoms are rearranged into new particles in a chemical change.",
+        "Borderline case: dissolving salt in water is a physical change, because evaporating the water recovers the salt unchanged, even though its ions are separated."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Physical property", "definition": "A property that can be observed or measured without changing the substance into a new substance." },
+    { "term": "Chemical property", "definition": "A property that describes how a substance reacts to form new substances." },
+    { "term": "Physical change", "definition": "A change in which no new substance is formed and only the arrangement or spacing of the particles alters." },
+    { "term": "Chemical change", "definition": "A change in which one or more new substances, with different properties, are formed as bonds are broken and made." },
+    { "term": "Effervescence", "definition": "Fizzing caused by a gas being given off during a reaction." },
+    { "term": "Precipitate", "definition": "A solid that forms and separates out from a solution during a reaction." },
+    { "term": "Sublimation", "definition": "A change of state directly from solid to gas without passing through the liquid state." },
+    { "term": "Neutralisation", "definition": "A reaction between an acid and a base that forms a salt and water." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between a physical change and a chemical change, giving one example of each.",
+      "model": "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing. It is usually easily reversed and involves only a small energy change. Example: melting ice. A chemical change is one in which one or more new substances, with different properties, are formed; bonds are broken and new bonds are made, so the atoms are rearranged. It is usually difficult to reverse and usually involves a noticeable energy change. Example: burning magnesium, which forms white magnesium oxide."
+    },
+    {
+      "marks": 6,
+      "prompt": "Classify each change as physical or chemical, giving a reason: (i) iodine subliming, (ii) magnesium burning, (iii) sugar dissolving in tea.",
+      "model": "(i) Iodine subliming is a physical change: no new substance is formed, the iodine changes directly from solid to gas and can be recovered unchanged. (ii) Magnesium burning is a chemical change: a new substance, white magnesium oxide, is formed, and light and heat are produced. (iii) Sugar dissolving in tea is a physical change: no new substance is formed, and the sugar can be recovered unchanged by evaporating the water."
+    }
+  ]
+}

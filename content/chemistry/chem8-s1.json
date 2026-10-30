@@ -1,0 +1,74 @@
+{
+  "loId": "chem8-s1",
+  "chapterId": "chem8",
+  "subsection": "1. The mole",
+  "syllabusRef": "1.4.1",
+  "notes": [
+    {
+      "h": "The mole and the Avogadro constant",
+      "b": "Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.",
+      "points": [
+        "The mole (symbol mol) is the SI unit of amount of substance.",
+        "One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.",
+        "Before 2019 the mole was defined through carbon-12: the Avogadro constant was the number of atoms in 12 g of carbon-12.",
+        "Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.",
+        "Always state the particle: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.",
+        "One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms.",
+        "One mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules."
+      ]
+    },
+    {
+      "h": "Relative molecular mass, molar mass and density",
+      "points": [
+        "Relative molecular mass (Mr) is the sum of the relative atomic masses of all the atoms in a molecule (or formula unit); it has no units.",
+        "Relative atomic masses used in this section: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.",
+        "Mr(H₂O) = 2(1) + 16 = 18.",
+        "Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98.",
+        "Mr(CaCO₃) = 40 + 12 + 3(16) = 100.",
+        "Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.",
+        "Density is mass per unit volume: ρ = m ÷ V, in g cm⁻³ or kg m⁻³."
+      ]
+    },
+    {
+      "h": "Interconverting mass, moles, particles and volume",
+      "points": [
+        "Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹.",
+        "Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.",
+        "Mass from moles: m = n × M.",
+        "Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.",
+        "Number of particles from moles: N = n × NA.",
+        "Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.",
+        "Moles from number of particles: n = N ÷ NA.",
+        "Number of atoms: multiply the number of molecules by the number of atoms in each molecule.",
+        "Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.",
+        "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP (see \"Molar volume and Avogadro's law\").",
+        "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
+        "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
+        "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
+        "Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Mole", "definition": "The SI unit of amount of substance; one mole contains 6.02 × 10²³ elementary entities." },
+    { "term": "Avogadro constant", "definition": "The number of elementary entities in one mole, NA = 6.02 × 10²³ mol⁻¹." },
+    { "term": "Elementary entity", "definition": "A single atom, molecule, ion or electron, counted when stating an amount in moles." },
+    { "term": "Relative molecular mass (Mr)", "definition": "The sum of the relative atomic masses of all the atoms in a molecule or formula unit; it has no units." },
+    { "term": "Molar mass (M)", "definition": "The mass of one mole of a substance in g mol⁻¹, numerically equal to Ar or Mr." },
+    { "term": "Density", "definition": "Mass per unit volume, ρ = m ÷ V." },
+    { "term": "Formula unit", "definition": "The smallest repeating unit of an ionic compound as written in its formula, such as NaCl." },
+    { "term": "Molar volume", "definition": "The volume occupied by one mole of a gas at a stated temperature and pressure." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define the mole and calculate the number of molecules in 4.4 g of carbon dioxide.",
+      "model": "The mole is the SI unit of amount of substance; one mole contains exactly 6.02 × 10²³ elementary entities, which is the Avogadro constant. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Moles: n = m ÷ M = 4.4 ÷ 44 = 0.10 mol. Number of molecules: N = n × NA = 0.10 × 6.02 × 10²³ = 6.02 × 10²² molecules."
+    },
+    {
+      "marks": 9,
+      "prompt": "Calculate (i) the mass of 0.15 mol of calcium carbonate, (ii) the number of moles in 9.8 g of sulfuric acid, (iii) the number of oxygen atoms in 9.8 g of sulfuric acid.",
+      "model": "(i) Mr(CaCO₃) = 40 + 12 + 3(16) = 100, so M = 100 g mol⁻¹. Mass: m = n × M = 0.15 × 100 = 15 g. (ii) Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, so M = 98 g mol⁻¹. Moles: n = m ÷ M = 9.8 ÷ 98 = 0.10 mol. (iii) Each H₂SO₄ molecule contains 4 oxygen atoms, so the oxygen atoms = 0.10 × 4 = 0.40 mol of O atoms. Number of atoms: N = 0.40 × 6.02 × 10²³ = 2.41 × 10²³ oxygen atoms."
+    }
+  ]
+}

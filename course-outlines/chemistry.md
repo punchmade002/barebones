@@ -28,8 +28,11 @@
 - **Chapters** are the app's 26 chemistry chapter IDs (`data.js`, `pipeline/scaffold/chemistry.json`).
   Past exam questions, test questions and flashcards are tagged to these IDs, so keep every ID
   exactly as written. The specification doesn't follow the chapter order. Each heading below
-  lists the outcomes the chapter covers. These are the outcomes attached to it in `data.js`,
-  plus spec 3.4.1, which `data.js` lacks (Appendix B).
+  lists the outcomes the chapter covers. Chapters chem1–chem13 are split in `data.js` into a
+  chapter review (`<chapter>-1`, holding the old test questions) and one subsection per numbered
+  item below (`<chapter>-s1`, `-s2`…), whose notes are in `content/chemistry/` and whose
+  information packages are in `course-outlines/packages/chemistry/`. Chapters chem14–chem26 still
+  use the specification's outcomes as their `data.js` entries.
 - **What each subsection contains:**
   - **"Syllabus"** is what the specification says students learn about and should be able to
     do, close to its own wording. This is the required scope; every item must be covered.
@@ -356,8 +359,7 @@ gives the outcomes it covers.
 ### chem11 — Acids and Bases [3.4.1–3.4.4, 3.4.7]
 1. **Categorising acids and bases** [3.4.1; 3.4 LA]: justify categorising commonly used
    substances as acid or base, based on the properties they display; common acid–base
-   indicators; outline common everyday examples of neutralisation. (This outcome has no entry
-   in `data.js`; see Appendix B.)
+   indicators; outline common everyday examples of neutralisation.
    - Settings: vinegar, citric juices, antacids, toothpaste; the use of lime in agriculture;
      remedies for acid indigestion.
    - SimpleStudy: Acids and Bases.
@@ -752,10 +754,8 @@ gives the outcomes it covers.
 No new chapter is needed; every outcome has a home. These placements need a decision or a
 cross-reference:
 
-- **3.4.1 (categorising everyday acids and bases)** is placed in `chem11` §1, but `data.js` has
-  no learning-outcome entry for it. The app's tests require every outcome to carry authored
-  notes and a written question, so add the entry (e.g. `chem11-5`, code 3.4.1) at the same time
-  as its notes and test question.
+- **3.4.1 (categorising everyday acids and bases)** had no learning-outcome entry in `data.js`;
+  since chem11 was split into subsections (2026-10-30) it is `chem11-s1`.
 - **4.1.2 (determining concentration by titration)** covers both acid–base and redox
   titrations, but `data.js` attaches it only to `chem15`. The acid–base side is written in
   `chem12` §2.

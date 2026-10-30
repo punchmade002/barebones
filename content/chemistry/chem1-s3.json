@@ -1,0 +1,75 @@
+{
+  "loId": "chem1-s3",
+  "chapterId": "chem1",
+  "subsection": "3. Science as a global enterprise",
+  "syllabusRef": "U1 LA",
+  "notes": [
+    {
+      "h": "Science as a global enterprise",
+      "points": [
+        "Scientists work in universities, industry and government laboratories around the world, sharing results and building on each other's work.",
+        "Large problems such as climate change, new medicines and clean energy are tackled by international collaborations that share data, equipment and funding.",
+        "Scientists publish in journals and present at conferences so that results are available to everyone and can be checked.",
+        "Scientific claims must be supported by evidence that others can examine, so data, methods and conclusions are published together."
+      ]
+    },
+    {
+      "h": "Clear communication",
+      "points": [
+        "A report must describe the method in enough detail for another scientist to repeat it exactly.",
+        "Clear communication uses precise scientific terms, SI units, correct significant figures, labelled tables and graphs, and cited sources."
+      ]
+    },
+    {
+      "h": "International conventions",
+      "b": "Conventions are agreed rules that all scientists use, so that results mean the same everywhere.",
+      "points": [
+        "IUPAC (the International Union of Pure and Applied Chemistry) sets the rules for naming compounds, e.g. the systematic name but-1-ene, and agrees chemical symbols and atomic masses.",
+        "The SI (Système International) system of units has base units, including the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol).",
+        "The SI base units also include the ampere (A) and the candela (cd).",
+        "Other shared conventions are chemical symbols and formulae, standard conditions for measurements, and international hazard symbols (pictograms) on chemicals."
+      ]
+    },
+    {
+      "h": "Peer review",
+      "points": [
+        "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published.",
+        "1. The scientist submits a paper to a journal.",
+        "2. The editor sends the paper to reviewers.",
+        "3. The reviewers check the method, data, analysis and conclusions for errors and originality, and whether the conclusions are justified.",
+        "4. The paper is accepted, returned for changes, or rejected.",
+        "Peer review filters out poor or flawed work, reduces bias and gives readers confidence in published results.",
+        "Peer review does not guarantee that a result is correct; results are checked by others repeating the work."
+      ]
+    },
+    {
+      "h": "Repeatability and reproducibility",
+      "points": [
+        "Repeatable: the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated.",
+        "Reproducible: a different experimenter, using different equipment or a different method, gets the same results.",
+        "A claim is accepted only when its results are reproducible; results that no one else can reproduce are not accepted."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Peer review", "definition": "The evaluation of a scientist's work by other independent experts in the same field before it is published." },
+    { "term": "Repeatable", "definition": "Giving the same results when the same experimenter repeats the experiment using the same method and equipment." },
+    { "term": "Reproducible", "definition": "Giving the same results when a different experimenter repeats the experiment, using different equipment or a different method." },
+    { "term": "IUPAC", "definition": "The International Union of Pure and Applied Chemistry, which sets the rules for naming compounds and agrees chemical symbols and atomic masses." },
+    { "term": "SI units", "definition": "The Système International system of units, in which the base units include the metre, kilogram, second, kelvin and mole." },
+    { "term": "Convention", "definition": "An agreed rule that all scientists follow so that results mean the same everywhere." },
+    { "term": "Hazard pictogram", "definition": "A standard symbol on a chemical label that shows a hazard, such as corrosive or flammable." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by peer review and state why it is important in science.",
+      "model": "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published. The scientist submits a paper to a journal, the editor sends it to reviewers, who check the method, data, analysis and conclusions, and the paper is accepted, returned for changes or rejected. It is important because it filters out poor or flawed work, reduces bias and gives readers confidence in published results, although it does not guarantee that a result is correct."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between the repeatability and the reproducibility of an experiment, and explain why reproducibility matters.",
+      "model": "Repeatability means that the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated. Reproducibility means that a different experimenter, using different equipment or a different method, gets the same results. A claim is accepted only when its results are reproducible, because results that no one else can reproduce cannot be relied upon."
+    }
+  ]
+}

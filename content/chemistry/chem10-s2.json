@@ -1,0 +1,100 @@
+{
+  "loId": "chem10-s2",
+  "chapterId": "chem10",
+  "subsection": "2. Investigation: conservation of mass",
+  "syllabusRef": "1.1.5",
+  "notes": [
+    {
+      "h": "Law of conservation of mass",
+      "points": [
+        "Law of conservation of mass: in a chemical reaction or physical change, matter is neither created nor destroyed, so the total mass of the products equals the total mass of the reactants.",
+        "Antoine Lavoisier established the law in the late 1700s (published 1789) by careful weighing of reactions in sealed vessels.",
+        "The number of moles or molecules may change in a reaction, but the mass does not."
+      ]
+    },
+    {
+      "h": "Law of conservation of energy",
+      "points": [
+        "Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another.",
+        "When a fuel burns, chemical energy is changed to heat and light.",
+        "The total energy of a reaction and its surroundings stays the same."
+      ]
+    },
+    {
+      "h": "Why the laws matter",
+      "points": [
+        "Both laws underpin all physical and chemical changes.",
+        "Conservation of atoms, and so of mass, is why chemical equations must be balanced.",
+        "Conservation of energy is why energy changes in reactions can be measured."
+      ]
+    },
+    {
+      "h": "Investigation: aim and hypothesis",
+      "points": [
+        "Aim: to verify, using primary data, that mass is conserved in a chemical reaction.",
+        "Hypothesis: the total mass before and after the reaction will be the same, because atoms are only rearranged.",
+        "Measured variable: the total mass of the stoppered apparatus before and after the reaction; no variable is changed on purpose."
+      ]
+    },
+    {
+      "h": "Investigation: apparatus and method",
+      "points": [
+        "Apparatus: conical flask, small test tube, stopper, electronic balance (0.01 g), sodium chloride solution and silver nitrate solution.",
+        "Diagram: a stoppered conical flask on a balance, containing sodium chloride solution, with a small test tube of silver nitrate solution standing upright inside; label the flask, stopper, test tube and both solutions.",
+        "Step 1: Pour some sodium chloride solution into the conical flask.",
+        "Step 2: Half-fill the small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions don't mix.",
+        "Step 3: Stopper the flask and weigh the whole apparatus.",
+        "Step 4: Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq).",
+        "Step 5: Reweigh the stoppered flask, and repeat the investigation three times."
+      ]
+    },
+    {
+      "h": "Investigation: results and safety",
+      "points": [
+        "Results: the mass before and after the reaction is the same, within the precision of the balance, so mass is conserved.",
+        "Safety: silver nitrate stains the skin and is an irritant, so wear gloves and goggles.",
+        "Lead nitrate is not used in this method because it is toxic."
+      ]
+    },
+    {
+      "h": "Open and closed systems",
+      "points": [
+        "In an open flask, marble chips (calcium carbonate) reacting with hydrochloric acid make the mass on the balance decrease: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).",
+        "The carbon dioxide escapes, so the apparent loss of mass is gas leaving the flask, not mass being destroyed.",
+        "If the same reaction is done in a sealed flask, or with a balloon over the neck to trap the gas, the mass stays the same.",
+        "When magnesium burns in air, the product is heavier than the magnesium, because oxygen from the air has combined with it: 2Mg + O₂ → 2MgO."
+      ]
+    },
+    {
+      "h": "Explaining with models",
+      "points": [
+        "Particle model: in a reaction the atoms in the reactants are rearranged to form the products; no atoms are created or destroyed, so the total mass stays the same.",
+        "A balanced equation is a symbolic model of conservation: the silver nitrate equation has 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side.",
+        "A physical model, such as molecular model kits, shows the same idea: building the reactant molecules, taking them apart and rebuilding the product molecules uses exactly the same pieces.",
+        "Diagram: particle diagrams of 2H₂ + O₂ → 2H₂O, showing four H atoms and two O atoms before the reaction and after it."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Law of conservation of mass", "definition": "In a chemical reaction matter is neither created nor destroyed, so the products have the same total mass as the reactants." },
+    { "term": "Law of conservation of energy", "definition": "Energy cannot be created or destroyed, only changed from one form to another." },
+    { "term": "Precipitate", "definition": "A solid that forms and separates out from a solution during a reaction." },
+    { "term": "Closed system", "definition": "A sealed apparatus through which matter cannot enter or leave, so any mass change is measured within it." },
+    { "term": "Open system", "definition": "An apparatus through which gas can escape or enter, so the mass on a balance can appear to change." },
+    { "term": "Hypothesis", "definition": "A testable prediction of what an investigation will show and why." },
+    { "term": "Balanced equation", "definition": "An equation with the same number of atoms of each element on both sides." },
+    { "term": "Particle model", "definition": "The idea that matter is made of particles that are rearranged, not created or destroyed, in a reaction." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe an experiment to verify the law of conservation of mass, stating the results and explaining them in terms of particles.",
+      "model": "Method: pour sodium chloride solution into a conical flask. Half-fill a small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions do not mix. Stopper the flask and weigh the whole apparatus on an electronic balance reading to 0.01 g. Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq). Reweigh the stoppered flask. Repeat the investigation three times. Results: the mass before and after the reaction is the same within the precision of the balance, so mass is conserved. Explanation: the atoms in the reactants are only rearranged to form the products; no atoms are created or destroyed, so the total mass of the products equals the total mass of the reactants. The balanced equation shows 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side, which is a symbolic model of this conservation."
+    },
+    {
+      "marks": 6,
+      "prompt": "When calcium carbonate is added to hydrochloric acid in an open flask on a balance, the mass decreases. Explain why, and how the experiment could be changed to show that mass is conserved.",
+      "model": "The reaction forms carbon dioxide gas: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). In an open flask the carbon dioxide escapes, so the mass on the balance decreases; the mass has not been destroyed. To show that mass is conserved, carry out the reaction in a sealed flask, or put a balloon over the neck to trap the gas. The total mass then stays the same before and after the reaction."
+    }
+  ]
+}

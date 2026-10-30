@@ -1,0 +1,68 @@
+{
+  "loId": "chem1-s9",
+  "chapterId": "chem1",
+  "subsection": "9. Reflecting and recording",
+  "syllabusRef": "U2.5",
+  "notes": [
+    {
+      "h": "The investigative log",
+      "b": "The log is a portfolio of experimental and research data, kept while the work is done rather than written up afterwards.",
+      "points": [
+        "A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work.",
+        "The log records the aim and plan, any changes made to the plan and why, the raw data and observations including unexpected ones, calculations, sources consulted, problems met and reflections.",
+        "The log provides evidence of what was done and supports honesty and integrity.",
+        "The log allows the work to be repeated or written up later; the Chemistry in Practice Investigation brief asks students to keep one."
+      ]
+    },
+    {
+      "h": "Evaluating an investigation",
+      "b": "An evaluation judges the strengths and weaknesses of the method and the data; it is not a summary of what was done.",
+      "points": [
+        "Evaluate the method: was the test fair and valid, and which variables were hard to control?",
+        "Evaluate the data: was there enough of it, over a wide enough range; how much did the repeats vary; were there anomalous results?",
+        "Identify the main sources of error and their likely effect, stating whether each makes the result larger or smaller than the true value.",
+        "Human error on its own is not an acceptable source of error; name the specific mistake, such as misreading a meniscus.",
+        "Suggest specific improvements, e.g. collecting a gas in a gas syringe instead of over water, using a data-logger, or insulating a calorimeter.",
+        "Suggest further investigations that would test the conclusion more fully.",
+        "Judge how confident you can be in the conclusion."
+      ]
+    },
+    {
+      "h": "Reflecting on skills and thinking",
+      "points": [
+        "Reflection asks what went well, what did not, what would be done differently, and what was learned about investigating.",
+        "Reflection is honest about difficulties.",
+        "An investigation is valuable for the process it teaches, not only for getting a right answer."
+      ]
+    },
+    {
+      "h": "Transferring skills to unfamiliar contexts",
+      "points": [
+        "Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems.",
+        "In an unfamiliar problem, identify what is being asked, the chemistry it depends on, and the data given.",
+        "Set out a step-by-step approach to the problem.",
+        "Check that the answer is sensible."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Investigative log", "definition": "A dated, ongoing record of all experimental and research work, kept as the work happens." },
+    { "term": "Portfolio", "definition": "A collection of records of experimental and research work, used as evidence of what was done." },
+    { "term": "Evaluation of an investigation", "definition": "A judgement of the strengths and weaknesses of the method and data, with suggested improvements." },
+    { "term": "Limitation", "definition": "A restriction in the method or data that reduces how far a conclusion can be trusted." },
+    { "term": "Reflection", "definition": "An honest review of what went well, what did not, and what was learned from carrying out an investigation." },
+    { "term": "Transferable skill", "definition": "A method, such as planning, controlling variables or analysing data, that can be applied to new problems." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "State what should be recorded in an investigative log and give two reasons for keeping one.",
+      "model": "An investigative log records the aim and plan, any changes made to the plan and why, the raw data and observations including unexpected ones, calculations, sources consulted, problems met and reflections. Two reasons for keeping one: it provides evidence of what was done and supports honesty and integrity; and it allows the work to be repeated or written up later, as the Chemistry in Practice Investigation requires."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student's value for a heat of neutralisation was lower than the accepted value. Evaluate the investigation: suggest two sources of error and an improvement for each.",
+      "model": "Source of error 1: heat is lost to the surroundings and to the container during the reaction, so the temperature rise is smaller than it should be and the calculated value is lower than the accepted value. Improvement: insulate the reaction vessel, for example with a polystyrene cup and lid. Source of error 2: the resolution of the thermometer limits how accurately the temperature rise can be read, which causes imprecise results. Improvement: use a more precise thermometer, or a data-logger that records the temperature continuously so that the maximum temperature can be found."
+    }
+  ]
+}

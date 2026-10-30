@@ -1,0 +1,74 @@
+{
+  "loId": "chem4-s1",
+  "chapterId": "chem4",
+  "subsection": "1. Development of the modern periodic table",
+  "syllabusRef": "1.3.1",
+  "notes": [
+    {
+      "h": "Early attempts to find patterns among the elements",
+      "b": "By the mid-1800s over 60 elements were known, and chemists looked for relationships among their properties.",
+      "points": [
+        "An element is a substance that cannot be split into simpler substances by chemical means.",
+        "Johann Döbereiner (1829) noticed triads: groups of three elements with similar properties in which the atomic weight of the middle element is about the average of the other two.",
+        "Döbereiner's triads included lithium, sodium and potassium; calcium, strontium and barium; and chlorine, bromine and iodine.",
+        "John Newlands (1864–1865) proposed the law of octaves: when the elements were arranged by atomic weight, every eighth element had properties similar to the first.",
+        "Newlands' law worked for the lighter elements but broke down for the heavier ones, and he left no gaps in his table."
+      ]
+    },
+    {
+      "h": "Mendeleev's periodic table (1869)",
+      "points": [
+        "Dmitri Mendeleev (1869) arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group.",
+        "Mendeleev's periodic law: the properties of the elements vary periodically with their atomic weights.",
+        "He left gaps for elements not yet discovered and predicted their properties.",
+        "His predicted elements eka-aluminium and eka-silicon were matched by gallium (discovered 1875) and germanium (discovered 1886); scandium (discovered 1879) matched eka-boron.",
+        "The discovery of elements with the predicted properties convinced chemists that the table was correct.",
+        "Where atomic weight order placed an element in the wrong group, he reversed the order of the pair: tellurium (relative atomic mass 127.6) is placed before iodine (relative atomic mass 126.9) so that iodine sits with the other halogens.",
+        "The table organised all the known elements, showed relationships between them, made predictions that were confirmed, and became the basis of the modern table."
+      ]
+    },
+    {
+      "h": "Refinements leading to the modern table",
+      "points": [
+        "The noble gases helium, neon, argon, krypton and xenon were discovered in the 1890s (William Ramsay and others) and were added as a new group, now group 18.",
+        "Henry Moseley (1913) showed by experiment that each element has a whole-number atomic number, equal to the number of protons in its nucleus.",
+        "The modern periodic table is arranged in order of increasing atomic number, so tellurium (atomic number 52) naturally comes before iodine (atomic number 53) and Mendeleev's reversal is unnecessary.",
+        "Modern periodic law: the properties of the elements are a periodic function of their atomic numbers.",
+        "The repeating pattern is explained by electron arrangement: elements in the same group have the same outer-electron arrangement (see \"Groups, periods and blocks\")."
+      ]
+    },
+    {
+      "h": "Mendeleev's table compared with the modern table",
+      "points": [
+        "Order: Mendeleev ordered the elements by atomic weight; the modern table orders them by atomic number.",
+        "Gaps: Mendeleev's table had gaps for undiscovered elements; the modern table has none.",
+        "Noble gases: absent from Mendeleev's table, which was drawn up before they were discovered.",
+        "Number of elements: Mendeleev's table contained fewer elements, while the modern table contains 118.",
+        "Blocks: Mendeleev's table had no separate blocks of elements; the modern table is divided into blocks (see \"Groups, periods and blocks\")."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Element", "definition": "A substance that cannot be split into simpler substances by chemical means." },
+    { "term": "Triad", "definition": "A group of three elements with similar properties in which the middle element's atomic weight is about the average of the other two." },
+    { "term": "Law of octaves", "definition": "Newlands' observation that, arranged by atomic weight, every eighth element has properties similar to the first." },
+    { "term": "Atomic weight", "definition": "The mass of an element's atoms relative to other atoms, also called relative atomic mass." },
+    { "term": "Mendeleev's periodic law", "definition": "The properties of the elements vary periodically with their atomic weights." },
+    { "term": "Eka-element", "definition": "An element that Mendeleev predicted, by its position in his table, to exist but not yet have been discovered." },
+    { "term": "Atomic number", "definition": "The number of protons in the nucleus of an atom of an element." },
+    { "term": "Modern periodic law", "definition": "The properties of the elements are a periodic function of their atomic numbers." },
+    { "term": "Noble gases", "definition": "The unreactive elements of group 18, such as helium, neon, argon, krypton and xenon." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how Mendeleev arranged the elements in his periodic table and explain why his table was accepted by other chemists.",
+      "model": "Mendeleev arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group. Where the order of atomic weights placed an element in the wrong group, he reversed the order of the pair, as with tellurium placed before iodine so that iodine sits with the other halogens. He left gaps for elements not yet discovered and predicted their properties. The table was accepted because the predicted elements were discovered, with the properties he had predicted: eka-aluminium matched gallium (discovered 1875), eka-silicon matched germanium (discovered 1886) and eka-boron matched scandium (discovered 1879). The table also organised all the known elements, showed relationships between them, and made predictions that were confirmed, so it became the basis of the modern table."
+    },
+    {
+      "marks": 6,
+      "prompt": "State two differences between Mendeleev's periodic table and the modern periodic table and explain the contribution of Moseley.",
+      "model": "One difference is the basis of the order: Mendeleev ordered the elements by atomic weight, while the modern table orders them by atomic number. Another difference is that Mendeleev's table had gaps for undiscovered elements, whereas the modern table has no gaps because 118 elements are known. Henry Moseley showed by experiment in 1913 that each element has a whole-number atomic number equal to the number of protons in its nucleus. This allowed the table to be arranged by atomic number, which removed the anomalies in Mendeleev's order, such as tellurium before iodine."
+    }
+  ]
+}

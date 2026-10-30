@@ -1,0 +1,65 @@
+{
+  "loId": "chem11-s4",
+  "chapterId": "chem11",
+  "subsection": "4. Applying Brønsted–Lowry theory",
+  "syllabusRef": "3.4.4",
+  "notes": [
+    {
+      "h": "Conjugate acid–base pairs (Higher Level only)",
+      "points": [
+        "When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.",
+        "When a base accepts a proton, the species formed is the conjugate acid of that base.",
+        "A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.",
+        "H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.",
+        "Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁."
+      ]
+    },
+    {
+      "h": "Identifying the species in an equation (Higher Level only)",
+      "points": [
+        "Step 1: For each reactant, see whether it loses or gains a proton in going to the products.",
+        "Step 2: The reactant that loses a proton is the acid; the reactant that gains a proton is the base.",
+        "Step 3: On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.",
+        "Step 4: In a reversible reaction, the products act as an acid and a base in the reverse reaction."
+      ]
+    },
+    {
+      "h": "Worked examples (Higher Level only)",
+      "points": [
+        "HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.",
+        "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.",
+        "CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.",
+        "HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.",
+        "HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.",
+        "NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻."
+      ]
+    },
+    {
+      "h": "Strength of conjugates and amphoteric species (Higher Level only)",
+      "points": [
+        "The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.",
+        "A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.",
+        "Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the examples above."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Conjugate base", "definition": "The species left after an acid donates a proton." },
+    { "term": "Conjugate acid", "definition": "The species formed when a base accepts a proton." },
+    { "term": "Conjugate acid–base pair", "definition": "Two species that differ by exactly one proton, H⁺." },
+    { "term": "Amphoteric", "definition": "Describes a species that can act as either an acid or a base, such as water." },
+    { "term": "Reversible reaction", "definition": "A reaction that can proceed in both directions, shown by the symbol ⇌." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "In the reaction NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, identify the two species acting as acids and the two conjugate acid–base pairs, and explain why water is described as amphoteric.",
+      "model": "The species acting as acids are H₂O and NH₄⁺. The conjugate acid–base pairs are NH₄⁺/NH₃ and H₂O/OH⁻. Water is amphoteric because it can act as either an acid or a base: in this reaction it donates a proton to NH₃ and so acts as an acid, while in the reaction with HCl it accepts a proton and acts as a base."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the chloride ion is a very weak base while the ethanoate ion is a stronger base.",
+      "model": "HCl is a strong acid, so its conjugate base, the chloride ion, is very weak and barely accepts protons. Ethanoic acid is a weak acid, so its conjugate base, the ethanoate ion (CH₃COO⁻), is relatively strong and readily accepts a proton."
+    }
+  ]
+}

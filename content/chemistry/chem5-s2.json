@@ -1,0 +1,169 @@
+{
+  "loId": "chem5-s2",
+  "chapterId": "chem5",
+  "subsection": "2. Modelling bonding and predicting formulae",
+  "syllabusRef": "2.1.3",
+  "notes": [
+    {
+      "h": "Valency and the octet rule",
+      "points": [
+        "Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.",
+        "The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.",
+        "Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium.",
+        "Elements in group 1 and group 17 have a valency of 1.",
+        "Elements in group 2 and group 16 have a valency of 2.",
+        "Elements in group 13 and group 15 have a valency of 3.",
+        "Elements in group 14 have a valency of 4."
+      ]
+    },
+    {
+      "h": "Predicting ionic formulae",
+      "points": [
+        "Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.",
+        "Step 2: Combine the ions so that the total positive charge equals the total negative charge.",
+        "Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.",
+        "Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.",
+        "Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻."
+      ]
+    },
+    {
+      "h": "Compound ions",
+      "points": [
+        "Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.",
+        "Positive compound ion: ammonium NH₄⁺.",
+        "Brackets are used round a compound ion when more than one is needed, e.g. Ca(OH)₂ and (NH₄)₂SO₄."
+      ]
+    },
+    {
+      "h": "Predicting covalent formulae",
+      "points": [
+        "Covalent formulae: atoms share enough electron pairs to complete each octet.",
+        "Hydrogen (valency 1) and oxygen (valency 2) form H₂O.",
+        "Nitrogen (valency 3) and hydrogen form NH₃.",
+        "Carbon (valency 4) and hydrogen form CH₄.",
+        "Carbon and oxygen form CO₂, with two double bonds."
+      ]
+    },
+    {
+      "h": "Lewis (dot-and-cross) diagrams",
+      "points": [
+        "A Lewis diagram shows the outer electrons of each atom as dots or crosses.",
+        "Shared pairs of electrons are drawn between the atoms they join.",
+        "Lone pairs are pairs of outer electrons that are not used in bonding.",
+        "Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.",
+        "Magnesium oxide is drawn as [Mg]²⁺ [O]²⁻.",
+        "Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.",
+        "Ammonia, NH₃, has one lone pair on nitrogen.",
+        "O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.",
+        "Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled."
+      ]
+    },
+    {
+      "h": "Orbital overlap",
+      "points": [
+        "A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.",
+        "The shared pair occupies the overlap region between the two nuclei."
+      ]
+    },
+    {
+      "h": "Sigma and pi bonds (Higher Level only)",
+      "points": [
+        "A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.",
+        "Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.",
+        "A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.",
+        "Every single bond is a σ bond.",
+        "A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.",
+        "π bonds are weaker than σ bonds because sideways overlap is less effective.",
+        "π bonds prevent rotation about a double bond.",
+        "Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π)."
+      ]
+    },
+    {
+      "h": "Delocalised bonding (Higher Level only)",
+      "points": [
+        "In delocalised bonding, electrons are spread over several atoms rather than confined between two.",
+        "In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.",
+        "This forms a ring of delocalised π electrons above and below the plane of the ring.",
+        "All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds.",
+        "Benzene's structure is used again in the chapter \"Allotropes of Carbon. Hydrocarbons\"."
+      ]
+    },
+    {
+      "h": "Extending the rules to element 36 (Higher Level only)",
+      "points": [
+        "The same rules apply to elements 21–36 in the main groups.",
+        "Potassium bromide is K⁺Br⁻.",
+        "Calcium bromide is CaBr₂.",
+        "Gallium (group 13) forms Ga³⁺ ions.",
+        "Arsenic (group 15) and hydrogen form AsH₃.",
+        "Selenium (group 16) and hydrogen form H₂Se."
+      ]
+    },
+    {
+      "h": "Limitations in predicting bonding (Higher Level only)",
+      "points": [
+        "Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.",
+        "Elements in period 3 and beyond can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.",
+        "SF₆ has twelve electrons around sulfur.",
+        "The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.",
+        "They cannot show delocalised bonding, as in benzene.",
+        "Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Valency",
+      "definition": "The number of electrons an atom loses, gains or shares when it bonds."
+    },
+    {
+      "term": "Octet rule",
+      "definition": "The tendency of atoms to lose, gain or share electrons to reach eight electrons in their outer energy level."
+    },
+    {
+      "term": "Compound ion",
+      "definition": "A group of atoms that carries an overall charge, such as SO₄²⁻ or NH₄⁺."
+    },
+    {
+      "term": "Lewis diagram",
+      "definition": "A diagram that shows the outer electrons of each atom as dots or crosses to represent bonding."
+    },
+    {
+      "term": "Lone pair",
+      "definition": "A pair of outer electrons on an atom that is not used in bonding."
+    },
+    {
+      "term": "Orbital overlap",
+      "definition": "The overlap of an orbital of one atom with an orbital of another, each holding one electron, to form a covalent bond."
+    },
+    {
+      "term": "Sigma bond",
+      "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining the two nuclei."
+    },
+    {
+      "term": "Pi bond",
+      "definition": "A covalent bond formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei."
+    },
+    {
+      "term": "Delocalised electrons",
+      "definition": "Electrons spread over several atoms rather than confined between two atoms, as in benzene."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Draw dot-and-cross diagrams to show the bonding in (i) magnesium oxide, (ii) ammonia, (iii) carbon dioxide.",
+      "model": "(i) Magnesium oxide is ionic: magnesium transfers two electrons to oxygen, so the diagram shows [Mg]²⁺ and [O]²⁻, with the oxide ion drawn in square brackets with eight electrons. (ii) Ammonia has three shared pairs, one between nitrogen and each of three hydrogen atoms, and one lone pair on nitrogen. (iii) Carbon dioxide has two double bonds, O=C=O, as carbon shares two pairs of electrons with each oxygen atom."
+    },
+    {
+      "marks": 9,
+      "prompt": "Distinguish between a sigma bond and a pi bond, and state the number of each in a nitrogen molecule.",
+      "model": "A sigma bond is formed by head-on overlap of orbitals along the line joining the two nuclei. A pi bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei. Sigma bonds are stronger because head-on overlap is more effective. A nitrogen molecule, N≡N, has one sigma bond and two pi bonds."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain, with two examples, the limitations of the octet rule in predicting bonding.",
+      "model": "The octet rule fails for some molecules that are stable with fewer than eight outer electrons on the central atom: BF₃ has only six electrons around boron. It also fails for elements in period 3 and beyond, which can have more than eight outer electrons: PCl₅ has ten electrons around phosphorus and SF₆ has twelve around sulfur. The rule and Lewis diagrams also do not predict molecular shape, bond polarity, bond strength or delocalised bonding, as in benzene."
+    }
+  ]
+}

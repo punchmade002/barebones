@@ -1,0 +1,67 @@
+{
+  "loId": "chem1-s7",
+  "chapterId": "chem1",
+  "subsection": "7. Measurement and error",
+  "syllabusRef": "U2 LA",
+  "notes": [
+    {
+      "h": "SI units and conversions",
+      "points": [
+        "The SI base units used in chemistry are the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol); derived units include m³ for volume and the pascal (Pa) for pressure.",
+        "Volume: 1 dm³ = 1 L = 1000 cm³ = 1000 mL, and 1 m³ = 1000 dm³ = 1 000 000 cm³.",
+        "Mass: 1 kg = 1000 g, and 1 g = 1000 mg.",
+        "Temperature: T (K) = θ (°C) + 273.15, often rounded to 273; for example 25 °C = 298 K.",
+        "Pressure: 1 kPa = 1000 Pa; the IUPAC standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm = 101 325 Pa.",
+        "Convert by multiplying or dividing by the conversion factor and writing the unit at each step, e.g. 250 cm³ = 250 ÷ 1000 = 0.250 L."
+      ]
+    },
+    {
+      "h": "Accuracy and precision",
+      "points": [
+        "Accuracy is how close a measurement, or a mean, is to the true or accepted value.",
+        "Precision is how close repeated measurements are to each other, meaning their spread.",
+        "Precision is also used for the smallest division an instrument can read, which is its resolution.",
+        "Results can be precise but not accurate, e.g. closely grouped readings that are all off the true value because a balance has not been zeroed.",
+        "Results can be accurate on average but not precise, with readings scattered on either side of the true value.",
+        "Every instrument has an uncertainty; typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.",
+        "Volumetric glassware is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.",
+        "Significant figures (assumed knowledge): answers are reported to the same number of significant figures as the least precise measurement used, usually three in titration calculations."
+      ]
+    },
+    {
+      "h": "Errors",
+      "points": [
+        "Random error is unpredictable variation that scatters readings above and below the true value, e.g. misjudging the end point of a titration or reading a meniscus; it is reduced by repeating and averaging.",
+        "Systematic error is a consistent error that shifts all readings in the same direction, e.g. a balance that has not been zeroed, a thermometer that reads 1 °C high, or heat lost to the surroundings in a calorimetry experiment.",
+        "Repeating does not reduce systematic error; it is reduced by calibrating the equipment or improving the method.",
+        "Parallax error occurs when a scale is read from an angle; the bottom of the meniscus should be read at eye level.",
+        "Anomalous results caused by mistakes are identified and either repeated or excluded with a reason (see “Producing and analysing data”).",
+        "Percentage error = (experimental value − accepted value) ÷ accepted value × 100."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "SI units", "definition": "The internationally agreed system of units, with base units including the metre, kilogram, second, kelvin and mole." },
+    { "term": "Accuracy", "definition": "How close a measurement, or a mean, is to the true or accepted value." },
+    { "term": "Precision", "definition": "How close repeated measurements are to each other." },
+    { "term": "Resolution", "definition": "The smallest division that an instrument can read." },
+    { "term": "Random error", "definition": "Unpredictable variation that scatters readings above and below the true value, reduced by repeating and averaging." },
+    { "term": "Systematic error", "definition": "A consistent error that shifts all readings in the same direction, which is not reduced by repeating." },
+    { "term": "Parallax error", "definition": "An error caused by reading a scale from an angle rather than at eye level." },
+    { "term": "Percentage error", "definition": "The difference between the experimental and accepted values, divided by the accepted value and multiplied by 100." },
+    { "term": "Significant figures", "definition": "The digits in a number that are meaningful, used to match the precision of an answer to the measurements used." },
+    { "term": "Anomalous result", "definition": "A result that does not fit the pattern of the other results." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between random error and systematic error, giving one example of each from a titration.",
+      "model": "Random error is unpredictable variation that scatters the readings above and below the true value, for example misjudging the colour change at the end point; repeating and averaging reduces it. Systematic error is a consistent error that shifts every reading in the same direction, for example a burette that has not been rinsed with the titrant, so the solution is diluted, or always reading the top of the meniscus; repeating does not remove it, but calibrating the equipment or improving the method does."
+    },
+    {
+      "marks": 6,
+      "prompt": "Convert (i) 37 °C to kelvin, (ii) 0.150 L to cm³, (iii) 2.5 g to mg, (iv) 250 kPa to Pa.",
+      "model": "(i) 37 + 273 = 310 K. (ii) 0.150 × 1000 = 150 cm³. (iii) 2.5 × 1000 = 2500 mg. (iv) 250 × 1000 = 2.5 × 10⁵ Pa."
+    }
+  ]
+}

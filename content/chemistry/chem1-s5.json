@@ -1,0 +1,64 @@
+{
+  "loId": "chem1-s5",
+  "chapterId": "chem1",
+  "subsection": "5. Questions and hypotheses",
+  "syllabusRef": "U2.1–U2.2",
+  "notes": [
+    {
+      "h": "Questions suitable for investigation",
+      "points": [
+        "A scientific question can be answered by collecting evidence through observation or experiment.",
+        "A good question is specific and focused and names measurable quantities, e.g. “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
+        "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation.",
+        "A vague question, or one that cannot be tested with the available methods, is unsuitable, but a vague question can often be refined into a testable one."
+      ]
+    },
+    {
+      "h": "Variables",
+      "points": [
+        "The independent variable is the one the investigator deliberately changes.",
+        "The dependent variable is the one that is measured, and it may change as a result.",
+        "Controlled variables are all the other factors that could affect the result; they are kept the same so that the test is fair."
+      ]
+    },
+    {
+      "h": "Testable hypotheses",
+      "b": "A hypothesis is based on existing scientific theory rather than on a guess.",
+      "points": [
+        "A hypothesis is a proposed explanation that leads to a testable prediction.",
+        "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason, e.g. “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”, drawn from collision theory.",
+        "A hypothesis must be falsifiable: an experiment could show it to be wrong.",
+        "A prediction is the specific result expected if the hypothesis is correct, e.g. “doubling the concentration will roughly halve the time taken”."
+      ]
+    },
+    {
+      "h": "Comparing strategies for testing a hypothesis",
+      "points": [
+        "A hypothesis can often be tested in more than one way, e.g. by measuring the volume of gas collected in a gas syringe, the mass lost on a balance, or the time taken for a solid to disappear.",
+        "Strategies are compared by validity, the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
+        "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Independent variable", "definition": "The variable that the investigator deliberately changes." },
+    { "term": "Dependent variable", "definition": "The variable that is measured, and which may change as a result of changing the independent variable." },
+    { "term": "Controlled variable", "definition": "A factor, other than the independent variable, that is kept the same so that the test is fair." },
+    { "term": "Hypothesis", "definition": "A proposed explanation, based on scientific theory, that leads to a testable prediction." },
+    { "term": "Prediction", "definition": "The specific result expected if the hypothesis is correct." },
+    { "term": "Falsifiable", "definition": "Able to be shown to be wrong by an experiment." },
+    { "term": "Testable question", "definition": "A specific, focused question that can be answered by collecting evidence through observation or experiment." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Write a testable hypothesis for an investigation into the effect of temperature on the rate of reaction between sodium thiosulfate and hydrochloric acid, and identify the independent, dependent and two controlled variables.",
+      "model": "Hypothesis: increasing the temperature increases the rate of reaction, because the particles gain energy and so collide more often and more energetically, giving more frequent effective collisions (collision theory). Independent variable: the temperature of the reaction mixture. Dependent variable: the rate of reaction, measured, for example, as the time taken for a set change to occur. Controlled variables: the concentration and volume of the sodium thiosulfate solution, and the concentration and volume of the hydrochloric acid."
+    },
+    {
+      "marks": 9,
+      "prompt": "Compare two strategies for measuring the rate of reaction of calcium carbonate with hydrochloric acid, and justify which gives better evidence.",
+      "model": "The gas syringe measures the volume of gas given off directly and at regular intervals, giving quantitative data, but the syringe must be sealed and gas may leak from it. Measuring the mass lost on a balance also gives continuous data as gas escapes, but the balance must have a suitable resolution and the reaction must be contained so that spray does not affect the reading. Timing how long a solid takes to disappear is simple and cheap, but it is a less precise measure of the rate and gives fewer data points. Justification: the gas syringe is likely to give the most valid and reliable evidence, because it measures the product of the reaction directly, gives many data points over the range tested and can be made safe with a suitable set-up."
+    }
+  ]
+}

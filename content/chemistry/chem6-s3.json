@@ -1,0 +1,92 @@
+{
+  "loId": "chem6-s3",
+  "chapterId": "chem6",
+  "subsection": "3. Intramolecular bonding and intermolecular forces",
+  "syllabusRef": "2.2.1",
+  "notes": [
+    {
+      "h": "Intramolecular bonding and intermolecular forces",
+      "points": [
+        "Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.",
+        "Intermolecular forces are the weaker forces of attraction between separate molecules.",
+        "Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.",
+        "Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).",
+        "Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”."
+      ]
+    },
+    {
+      "h": "London dispersion forces",
+      "points": [
+        "London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, e.g. H₂, Cl₂, CH₄ and noble gas atoms.",
+        "They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole.",
+        "The temporary dipole induces a dipole in a neighbouring molecule, and the two attract.",
+        "London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons."
+      ]
+    },
+    {
+      "h": "Permanent dipole–dipole forces",
+      "points": [
+        "A polar molecule has a permanent dipole: a δ+ end and a δ− end; see “Electronegativity and bond type”.",
+        "Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, e.g. between HCl molecules (Hδ+–Clδ−).",
+        "Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size."
+      ]
+    },
+    {
+      "h": "Hydrogen bonding",
+      "points": [
+        "A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.",
+        "It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.",
+        "A hydrogen bond is between molecules, not a covalent bond to hydrogen.",
+        "Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.",
+        "Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.",
+        "Hydrogen bonds are the strongest intermolecular forces.",
+        "Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule."
+      ]
+    },
+    {
+      "h": "Ion–dipole forces (Higher Level only)",
+      "points": [
+        "An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.",
+        "When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.",
+        "The ions become surrounded by water molecules (hydrated).",
+        "Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.",
+        "Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it."
+      ]
+    },
+    {
+      "h": "Order of strength",
+      "points": [
+        "For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.",
+        "All intermolecular forces are much weaker than covalent and ionic bonds."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Intramolecular bonding", "definition": "The strong covalent bonds that hold the atoms of a molecule together." },
+    { "term": "Intermolecular forces", "definition": "The weaker forces of attraction between separate molecules." },
+    { "term": "Van der Waals forces", "definition": "The collective name for London dispersion forces and permanent dipole–dipole forces." },
+    { "term": "London dispersion forces", "definition": "Weak attractions between all molecules, caused by temporary dipoles that induce dipoles in neighbouring molecules." },
+    { "term": "Permanent dipole", "definition": "An uneven distribution of charge in a polar molecule, giving a δ+ end and a δ− end." },
+    { "term": "Dipole–dipole forces", "definition": "Attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring polar molecule." },
+    { "term": "Hydrogen bond", "definition": "A strong dipole–dipole attraction between a hydrogen atom bonded to F, O or N and a lone pair on an F, O or N atom of a neighbouring molecule." },
+    { "term": "Ion–dipole force", "definition": "The attraction between an ion and the oppositely charged end of a polar molecule." },
+    { "term": "Hydrated ion", "definition": "An ion surrounded by water molecules, held by ion–dipole forces." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between intramolecular bonding and intermolecular forces, and explain how London dispersion forces arise.",
+      "model": "Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together. Intermolecular forces are much weaker attractions between separate molecules: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds. London dispersion forces arise because electrons are always moving. At any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole. This temporary dipole induces a dipole in a neighbouring molecule, and the two attract."
+    },
+    {
+      "marks": 9,
+      "prompt": "What is meant by hydrogen bonding? Explain why hydrogen bonding occurs between water molecules but not between methane molecules.",
+      "model": "A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to F, O or N in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule. In water the H–O bonds are very polar, leaving each hydrogen strongly δ+, and the hydrogen atoms are attracted to lone pairs on the O atoms of neighbouring molecules. Methane has no hydrogen bonded to N, O or F, so there is no hydrogen bonding between CH₄ molecules; only London dispersion forces act between them."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain, in terms of ion–dipole forces, how sodium chloride dissolves in water.",
+      "model": "An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule. Water molecules are polar: their δ− oxygen ends are attracted to Na⁺ ions and their δ+ hydrogen ends are attracted to Cl⁻ ions. The ions become surrounded by water molecules (hydrated). Ion–dipole forces are stronger than dipole–dipole forces, so they hold the separated ions in solution."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "loId": "chem5-s1",
+  "chapterId": "chem5",
+  "subsection": "1. Types of chemical bonding",
+  "syllabusRef": "2.1.1",
+  "notes": [
+    {
+      "h": "Why atoms bond",
+      "points": [
+        "A chemical bond is a force of attraction that holds atoms or ions together in an element or compound.",
+        "Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level like the nearest noble gas (the octet rule); bonding lowers their energy.",
+        "Only the outer (valence) electrons take part in bonding."
+      ]
+    },
+    {
+      "h": "Ionic bonding",
+      "points": [
+        "An ionic bond is the electrostatic attraction between oppositely charged ions.",
+        "It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.",
+        "Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻.",
+        "Both ions have the electron arrangement of a noble gas.",
+        "Ionic compounds form a giant lattice of ions, not molecules.",
+        "In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.",
+        "The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻.",
+        "Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions."
+      ]
+    },
+    {
+      "h": "Covalent bonding",
+      "points": [
+        "A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair.",
+        "A single bond is one shared pair, as in H–H and Cl–Cl.",
+        "A double bond is two shared pairs, as in O=O and C=O in CO₂.",
+        "A triple bond is three shared pairs, as in N≡N.",
+        "Covalently bonded atoms form molecules, e.g. H₂O, CH₄ and NH₃.",
+        "A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout, e.g. diamond."
+      ]
+    },
+    {
+      "h": "Pure and polar covalent bonds",
+      "points": [
+        "A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.",
+        "The C–H bond is nearly non-polar.",
+        "A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.",
+        "The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−."
+      ]
+    },
+    {
+      "h": "The bonding continuum",
+      "points": [
+        "Bonds are not simply ionic or covalent; they lie on a continuum from pure covalent, through polar covalent, to ionic.",
+        "At one end, pure covalent bonds share electrons equally.",
+        "In the middle, polar covalent bonds share electrons unequally.",
+        "At the other end, ionic bonds involve complete transfer of electrons.",
+        "Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).",
+        "Most bonds have some ionic and some covalent character.",
+        "The difference in electronegativity between the atoms decides where a bond lies (see \"Electronegativity and bond type\").",
+        "Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end."
+      ]
+    },
+    {
+      "h": "Comparing the types",
+      "points": [
+        "Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).",
+        "Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.",
+        "Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.",
+        "Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons, which explains why metals conduct electricity."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Chemical bond",
+      "definition": "A force of attraction that holds atoms or ions together in an element or compound."
+    },
+    {
+      "term": "Valence electrons",
+      "definition": "The outer electrons of an atom, the only ones that take part in bonding."
+    },
+    {
+      "term": "Ionic bond",
+      "definition": "The electrostatic attraction between oppositely charged ions."
+    },
+    {
+      "term": "Covalent bond",
+      "definition": "A shared pair of electrons between two atoms, with both nuclei attracted to the shared pair."
+    },
+    {
+      "term": "Giant lattice",
+      "definition": "A regular, repeating three-dimensional arrangement of ions, as in sodium chloride."
+    },
+    {
+      "term": "Pure covalent bond",
+      "definition": "A covalent bond in which the shared electrons are attracted equally by both atoms, as in Cl–Cl."
+    },
+    {
+      "term": "Polar covalent bond",
+      "definition": "A covalent bond in which the shared electrons are attracted unequally, giving the atoms partial charges."
+    },
+    {
+      "term": "Partial charge (δ+ and δ−)",
+      "definition": "A small charge on an atom in a polar bond: δ− on the atom that attracts the electrons more strongly, and δ+ on the other."
+    },
+    {
+      "term": "Bonding continuum",
+      "definition": "The range of bonds from pure covalent, through polar covalent, to ionic."
+    },
+    {
+      "term": "Metallic bond",
+      "definition": "The attraction between positive metal ions and a sea of delocalised outer electrons."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between an ionic bond, a polar covalent bond and a pure covalent bond, giving one example of each.",
+      "model": "An ionic bond is the electrostatic attraction between oppositely charged ions, formed when electrons are completely transferred from a metal atom to a non-metal atom, e.g. sodium chloride, NaCl. A polar covalent bond is a shared pair of electrons that is shared unequally because one atom attracts the electrons more strongly; that atom gets a partial negative charge (δ−) and the other gets a partial positive charge (δ+), e.g. hydrogen chloride, Hδ+–Clδ−. A pure covalent bond is a shared pair of electrons that is shared equally because both atoms attract them equally, e.g. chlorine, Cl–Cl."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by saying that chemical bonds lie on a continuum.",
+      "model": "Bonds are not purely ionic or purely covalent. They range from pure covalent, where electrons are shared equally, through polar covalent, where electrons are shared unequally, to ionic, where electrons are fully transferred. Most bonds have some ionic and some covalent character, and the difference in electronegativity between the atoms decides where a bond lies. For example, Cl–Cl is pure covalent, H–Cl is polar covalent and Na⁺Cl⁻ is ionic."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "loId": "chem6-s2",
+  "chapterId": "chem6",
+  "subsection": "2. Bonding and properties",
+  "syllabusRef": "2.1.4",
+  "notes": [
+    {
+      "h": "Ionic compounds",
+      "points": [
+        "Ionic compounds are solids at room temperature, e.g. sodium chloride and magnesium oxide.",
+        "Sodium chloride melts at 801 °C and boils at 1413 °C.",
+        "The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged ions throughout the lattice.",
+        "Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions.",
+        "Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.",
+        "Many ionic compounds are soluble in water, because polar water molecules attract and surround the ions.",
+        "Ionic compounds are insoluble in non-polar solvents such as cyclohexane."
+      ]
+    },
+    {
+      "h": "Covalent (molecular) compounds",
+      "points": [
+        "Many covalent compounds are gases or liquids at room temperature, e.g. methane, carbon dioxide and water.",
+        "Some covalent compounds are solids with low melting points, e.g. iodine and sugar.",
+        "Iodine sublimes on gentle heating and melts at 114 °C.",
+        "Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.",
+        "The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.",
+        "Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.",
+        "Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.",
+        "Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.",
+        "Polar molecules such as ethanol, sugar and ammonia dissolve in water; see “Intermolecular forces and physical properties”.",
+        "“Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents."
+      ]
+    },
+    {
+      "h": "Comparing ionic and covalent compounds",
+      "points": [
+        "Melting and boiling points: ionic compounds are high; covalent compounds are low.",
+        "Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.",
+        "Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.",
+        "State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.",
+        "Step 1: Melt the substance, or dissolve it in water.",
+        "Step 2: Dip two carbon electrodes into it, connected to a battery and a bulb (or an ammeter).",
+        "Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.",
+        "Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.",
+        "Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken; see the chapter “Allotropes of Carbon. Hydrocarbons”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Ionic compound",
+      "definition": "A compound held together by electrostatic attractions between oppositely charged ions, usually a metal and a non-metal."
+    },
+    {
+      "term": "Covalent (molecular) compound",
+      "definition": "A compound made of molecules in which atoms are held together by covalent bonds, with only weak forces between molecules."
+    },
+    {
+      "term": "Electrostatic attraction",
+      "definition": "The force of attraction between oppositely charged ions."
+    },
+    {
+      "term": "Lattice",
+      "definition": "The regular three-dimensional arrangement of ions in a solid ionic compound."
+    },
+    {
+      "term": "Electrical conductivity",
+      "definition": "The ability of a substance to carry an electric current, which needs free ions or free electrons."
+    },
+    {
+      "term": "Solubility",
+      "definition": "The mass of a solute that dissolves in a given volume of solvent at a stated temperature."
+    },
+    {
+      "term": "Sublimation",
+      "definition": "The change of state from solid directly to gas on heating, without passing through the liquid state."
+    },
+    {
+      "term": "Non-polar solvent",
+      "definition": "A solvent made of non-polar molecules, such as cyclohexane, that dissolves non-polar substances."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Explain why sodium chloride (i) has a high melting point, (ii) does not conduct electricity as a solid, (iii) conducts electricity when dissolved in water.",
+      "model": "(i) Sodium chloride melts at 801 °C because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged Na⁺ and Cl⁻ ions throughout the lattice. (ii) As a solid the ions are held in fixed positions, so there are no free ions to carry charge. (iii) When dissolved in water the ions are free to move and carry charge, so the solution conducts electricity."
+    },
+    {
+      "marks": 6,
+      "prompt": "Compare the electrical conductivity and boiling points of ionic and covalent compounds, explaining each difference.",
+      "model": "Ionic compounds conduct electricity when molten or dissolved in water, because the ions are free to move and carry charge. Solid ionic compounds do not conduct, because the ions are held in fixed positions. Covalent compounds generally do not conduct, because they have no ions or free electrons to carry charge. Ionic compounds have high boiling points, e.g. sodium chloride boils at 1413 °C, because strong electrostatic attractions between ions must be overcome. Covalent compounds have low boiling points, e.g. methane boils at −162 °C, because only the weak forces between molecules must be overcome."
+    }
+  ]
+}

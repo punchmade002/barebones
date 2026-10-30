@@ -1,0 +1,97 @@
+{
+  "loId": "chem8-s4",
+  "chapterId": "chem8",
+  "subsection": "4. Relative molecular mass of a volatile liquid",
+  "syllabusRef": "1.4.4",
+  "notes": [
+    {
+      "h": "Principle",
+      "b": "Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour.",
+      "points": [
+        "A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C.",
+        "If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT.",
+        "Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.",
+        "The vapour is assumed to behave as an ideal gas."
+      ]
+    },
+    {
+      "h": "Apparatus",
+      "points": [
+        "A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.",
+        "A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.",
+        "A top-pan balance reading to 0.01 g, a barometer, a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone)."
+      ]
+    },
+    {
+      "h": "Method",
+      "points": [
+        "Weigh the dry conical flask with the foil cap and rubber band.",
+        "Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.",
+        "Clamp the flask in the boiling water bath so that as much of it as possible is immersed.",
+        "Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.",
+        "The flask is then left full of propanone vapour at the temperature of the boiling water.",
+        "Record the temperature of the water bath and the atmospheric pressure from the barometer.",
+        "Remove the flask and cool it, so the vapour condenses.",
+        "Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.",
+        "Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.",
+        "Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.",
+        "Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus on the scale."
+      ]
+    },
+    {
+      "h": "Calculation (sample data)",
+      "b": "The numbers below are sample data for illustration.",
+      "points": [
+        "Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.",
+        "Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.",
+        "Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.",
+        "Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.",
+        "Denominator: RT = 8.314 × 373 = 3101.",
+        "Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.",
+        "Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.",
+        "The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.",
+        "Propanone vapour is an irritant: work in a well-ventilated room.",
+        "Take care with boiling water and hot glassware."
+      ]
+    },
+    {
+      "h": "Sources of error and improvements",
+      "points": [
+        "If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.",
+        "Wait until no liquid is visible in the flask before removing it from the bath.",
+        "Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.",
+        "A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.",
+        "Part of the flask is above the water, so the vapour there is cooler than 373 K.",
+        "The vapour is not a perfect ideal gas, especially close to its boiling point.",
+        "The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.",
+        "Repeat the experiment and average the results."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Volatile liquid", "definition": "A liquid that evaporates easily, with a low boiling point." },
+    { "term": "Water bath", "definition": "A beaker of boiling water that heats the flask to a known temperature of 373 K." },
+    { "term": "Pinhole", "definition": "A small hole in the foil cap that lets air and excess vapour escape, so the flask fills with vapour at the bath temperature." },
+    { "term": "Condense", "definition": "To change from vapour to liquid on cooling, so the vapour's mass can be found by weighing." },
+    { "term": "Relative molecular mass (Mr)", "definition": "The sum of the relative atomic masses of all the atoms in a molecule; in this experiment Mr = m ÷ n." },
+    { "term": "Propanone", "definition": "A volatile, highly flammable liquid with Mr 58 and a boiling point of 56 °C, used in this experiment." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would determine the relative molecular mass of propanone by vaporising it in a conical flask, stating the measurements that must be made.",
+      "model": "Weigh a clean, dry conical flask with its foil cap and rubber band. Add about 2–3 cm³ of propanone, replace the cap and pierce one small pinhole in it. Clamp the flask in a large beaker of boiling water on a hotplate, so that as much of it as possible is immersed. Leave it until all the liquid has vaporised; the vapour fills the flask and excess vapour escapes through the pinhole. Measure the temperature of the water bath (373 K for boiling water) and the atmospheric pressure from a barometer. Remove the flask, cool it so the vapour condenses, dry the outside and reweigh it; the increase in mass is the mass m of vapour. Find the volume V of the flask by filling it with water and measuring the water with a graduated cylinder, and convert to m³. Calculate the moles of vapour from n = PV ÷ RT, with P in Pa, V in m³, T in K and R = 8.314 J K⁻¹ mol⁻¹. Finally calculate Mr = m ÷ n."
+    },
+    {
+      "marks": 9,
+      "prompt": "In an experiment, 0.44 g of the vapour of a volatile liquid filled a flask of volume 250 cm³ at 373 K and 101 000 Pa. Calculate the relative molecular mass of the liquid (sample data).",
+      "model": "Volume: 250 cm³ = 250 × 1 × 10⁻⁶ m³ = 2.50 × 10⁻⁴ m³. Numerator: PV = 101 000 × 2.50 × 10⁻⁴ = 25.25. Denominator: RT = 8.314 × 373 = 3101. Moles: n = PV ÷ RT = 25.25 ÷ 3101 = 8.14 × 10⁻³ mol. Relative molecular mass: Mr = m ÷ n = 0.44 ÷ (8.14 × 10⁻³) = 54."
+    }
+  ]
+}

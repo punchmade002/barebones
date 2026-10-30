@@ -1,0 +1,113 @@
+{
+  "loId": "chem3-s3",
+  "chapterId": "chem3",
+  "subsection": "3. Identifying elements",
+  "syllabusRef": "1.2.4",
+  "notes": [
+    {
+      "h": "Why elements give colours",
+      "points": [
+        "Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.",
+        "The electrons fall back to lower levels and give out the energy as light.",
+        "Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element."
+      ]
+    },
+    {
+      "h": "Flame test method (investigation)",
+      "points": [
+        "Aim: to identify the metal in a salt from the colour it gives to a flame.",
+        "Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.",
+        "Independent variable: the metal in the salt being tested.",
+        "Dependent variable: the colour of the flame.",
+        "Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.",
+        "Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.",
+        "1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.",
+        "2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile.",
+        "3. Hold the wire at the edge of the non-luminous flame and note the colour.",
+        "4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.",
+        "Repeats: repeat each test to confirm the colour observed.",
+        "Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.",
+        "Safety: wear goggles.",
+        "Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.",
+        "Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.",
+        "Safety: keep the hot wire away from the skin.",
+        "Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.",
+        "Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.",
+        "Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.",
+        "Diagram: cobalt-blue glass held between the eye and the flame; label the cobalt-blue glass."
+      ]
+    },
+    {
+      "h": "Flame colours",
+      "points": [
+        "Lithium: crimson red.",
+        "Sodium: bright yellow-orange; the colour is persistent.",
+        "Potassium: lilac (pale purple).",
+        "Copper: blue-green.",
+        "Barium: pale (apple) green.",
+        "Strontium: red (scarlet).",
+        "Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them."
+      ]
+    },
+    {
+      "h": "Line emission spectra",
+      "points": [
+        "A spectroscope splits the light from a flame or electric discharge into its separate colours.",
+        "Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.",
+        "To identify an element, compare the lines from an unknown sample, obtained as primary data from a spectroscope or as secondary data such as a published spectrum, with reference spectra of known elements.",
+        "A match of all the lines identifies the element.",
+        "Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.",
+        "Strontium: several lines, strongest in the red.",
+        "Copper: lines mainly in the green, giving its blue-green flame.",
+        "Line spectra are used to identify elements in samples and in stars.",
+        "Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Flame test",
+      "definition": "A test in which a metal salt is heated on a clean wire in a non-luminous flame, and the flame colour identifies the metal."
+    },
+    {
+      "term": "Non-luminous flame",
+      "definition": "The hot, blue Bunsen flame obtained with the air hole open, which does not add its own colour to the test."
+    },
+    {
+      "term": "Line emission spectrum",
+      "definition": "A pattern of bright lines at specific wavelengths, unique to an element."
+    },
+    {
+      "term": "Spectroscope",
+      "definition": "An instrument that splits light into its separate colours or wavelengths."
+    },
+    {
+      "term": "Primary data",
+      "definition": "Data collected directly by the investigator, such as readings from their own experiment."
+    },
+    {
+      "term": "Secondary data",
+      "definition": "Data obtained from another source, such as a published spectrum."
+    },
+    {
+      "term": "Volatile",
+      "definition": "Easily turned into a vapour, a property that makes metal chlorides suitable for flame tests."
+    },
+    {
+      "term": "Cobalt-blue glass",
+      "definition": "A filter that removes yellow light, so the lilac flame colour of potassium can be seen."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would carry out a flame test to identify the metal in an unknown salt, and state the colour you would expect if the salt contained (i) lithium, (ii) potassium, (iii) barium.",
+      "model": "Clean a wire loop by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous Bunsen flame until it gives no colour. Dip the wire in the acid, then into the salt so that a little sticks to it. Hold the wire at the edge of the non-luminous flame and note the colour. Clean the wire again before testing the next salt. Lithium gives a crimson red flame. Potassium gives a lilac flame, best seen through cobalt-blue glass. Barium gives a pale apple green flame."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why different metals give different colours in a flame and how a line emission spectrum can be used to distinguish lithium from strontium.",
+      "model": "Heating gives energy to the electrons of the metal atoms, which move up to higher energy levels. As they fall back to lower levels they give out energy as light. Each element has its own set of energy levels, so it gives out its own colours. Lithium and strontium both give a red flame that is hard to tell apart by eye. A line emission spectrum is a pattern of bright lines at specific wavelengths that is unique to each element. The spectrum of an unknown sample is compared with reference spectra of lithium and strontium, and a match of all the lines identifies the metal."
+    }
+  ]
+}

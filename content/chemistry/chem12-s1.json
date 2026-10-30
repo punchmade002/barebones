@@ -1,0 +1,67 @@
+{
+  "loId": "chem12-s1",
+  "chapterId": "chem12",
+  "subsection": "1. Primary standards and standard solutions",
+  "syllabusRef": "4.1.1",
+  "notes": [
+    {
+      "h": "Volumetric analysis",
+      "b": "Volumetric analysis uses a measured volume of reaction to find an unknown concentration.",
+      "points": [
+        "Volumetric analysis (titration) finds the concentration of a solution, the analyte, by measuring the volume that reacts exactly with a known volume of another solution of known concentration.",
+        "The calculation depends on knowing one concentration exactly, so at least one of the two solutions must be a standard solution.",
+        "Titre: the volume of solution added from the burette.",
+        "End point: the point at which the indicator changes colour.",
+        "Equivalence point: the point at which the reactants have reacted in exactly the mole ratio of the balanced equation.",
+        "A good indicator is one whose end point coincides with the equivalence point."
+      ]
+    },
+    {
+      "h": "Primary standards",
+      "points": [
+        "A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly.",
+        "Its properties and the method for making up a standard solution are covered in “Solutions and concentration”.",
+        "Acid–base primary standard: anhydrous sodium carbonate, Na₂CO₃.",
+        "Redox primary standard: ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O.",
+        "Every result in volumetric analysis is only as accurate as the standard: an impure or unstable standard gives a wrong concentration, and so a wrong answer for the analyte."
+      ]
+    },
+    {
+      "h": "Standardising solutions",
+      "b": "Some reagents cannot be made up directly as standard solutions, so their concentration must be found by titration.",
+      "points": [
+        "Sodium hydroxide absorbs water and carbon dioxide from the air.",
+        "Hydrochloric acid is volatile.",
+        "Potassium manganate(VII) solution slowly decomposes, especially in light and in the presence of organic matter, forming MnO₂.",
+        "Sodium thiosulfate crystals have an uncertain water content.",
+        "Standardisation is finding the exact concentration of such a solution by titrating it against a primary standard, or against a solution already standardised against one.",
+        "Example: hydrochloric acid is standardised by titration against a standard solution of sodium carbonate: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g).",
+        "Example: sodium hydroxide is then standardised against the standardised hydrochloric acid, and potassium manganate(VII) is standardised against ammonium iron(II) sulfate.",
+        "A solution standardised in this way is sometimes called a secondary standard."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Volumetric analysis", "definition": "A method that finds the concentration of one solution from the measured volume that reacts exactly with a known volume of another solution." },
+    { "term": "Analyte", "definition": "The solution whose concentration is being found in a titration." },
+    { "term": "Standard solution", "definition": "A solution whose concentration is known exactly." },
+    { "term": "Primary standard", "definition": "A very pure, stable substance of known formula that can be weighed accurately to make a standard solution directly." },
+    { "term": "Standardisation", "definition": "Finding the exact concentration of a solution by titrating it against a primary standard or a solution already standardised against one." },
+    { "term": "Secondary standard", "definition": "A solution whose concentration has been fixed by standardisation against a primary standard." },
+    { "term": "Titre", "definition": "The volume of solution added from the burette in a titration." },
+    { "term": "End point", "definition": "The point at which the indicator changes colour during a titration." },
+    { "term": "Equivalence point", "definition": "The point at which the reactants have reacted in exactly the mole ratio of the balanced equation." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the importance of a primary standard in volumetric analysis and name one primary standard used in acid–base titrations.",
+      "model": "Volumetric analysis finds the concentration of an analyte from the volume that reacts with a known volume of another solution, so at least one of the two solutions must be a standard solution whose concentration is known exactly. A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its importance is that every result is only as accurate as the standard: an impure or unstable standard gives a wrong concentration and therefore a wrong answer for the analyte. One primary standard used in acid–base titrations is anhydrous sodium carbonate, Na₂CO₃."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is meant by standardising a solution? Explain why hydrochloric acid must be standardised before it is used in a titration.",
+      "model": "Standardising a solution is finding its exact concentration by titrating it against a primary standard, or against a solution already standardised against one. Hydrochloric acid must be standardised because it is volatile, so it cannot be made up directly as a standard solution and its concentration is not known exactly. It is therefore titrated against a standard solution of sodium carbonate, Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), and the exact concentration found is then used in later titrations."
+    }
+  ]
+}
