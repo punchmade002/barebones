@@ -1,0 +1,106 @@
+{
+  "loId": "pe-learning-skill-technique-s2",
+  "chapterId": "pe-learning-skill-technique",
+  "subsection": "2. Analysing skill: the biomechanical perspective",
+  "syllabusRef": "1.2",
+  "notes": [
+    {
+      "h": "Biomechanics and the anatomical position",
+      "points": [
+        "Biomechanics: the study of the forces acting on and produced by the body and their effects on movement.",
+        "Uses in analysing skill: improving technique, reducing the risk of injury and informing the design of equipment.",
+        "The anatomical position is the reference for describing movement: standing upright, facing forward, arms by the sides and palms facing forward.",
+        "A plane is a flat surface passing through the body in which a movement takes place.",
+        "An axis is an imaginary line about which the body or a limb rotates. Each plane pairs with the axis at right angles to it."
+      ]
+    },
+    {
+      "h": "Joint actions used to describe movement",
+      "points": [
+        "Flexion: bending at a joint so the angle decreases, such as bending the elbow.",
+        "Extension: straightening at a joint so the angle increases, such as straightening the knee to kick.",
+        "Abduction: movement away from the midline of the body, such as raising the arm sideways.",
+        "Adduction: movement towards the midline, such as bringing the arm back to the side.",
+        "Rotation: turning a body part around its long axis, such as turning the trunk in a golf swing.",
+        "Plantar flexion: pointing the toes, as in rising onto the toes; dorsiflexion: pulling the toes up towards the shin."
+      ]
+    },
+    {
+      "h": "The three planes and their axes",
+      "points": [
+        "Sagittal plane: divides the body into left and right sides. Movements are flexion and extension. The axis is the transverse axis (also called the frontal or medial-lateral axis), which runs from side to side.",
+        "Sagittal plane examples: the leg action in running, a biceps curl, a squat, kicking a ball straight ahead, a forward roll, a front somersault.",
+        "Frontal (coronal) plane: divides the body into front and back. Movements are abduction, adduction and lateral flexion. The axis is the sagittal axis (also called the antero-posterior axis), which runs from front to back.",
+        "Frontal plane examples: a cartwheel, a star jump, a side-step, a side bend.",
+        "Transverse (horizontal) plane: divides the body into upper and lower halves. The movement is rotation. The axis is the longitudinal (vertical) axis, which runs from head to toe.",
+        "Transverse plane examples: the turns of a discus or hammer thrower, a golf swing, a pirouette, a full twist in trampolining.",
+        "The pairs never change: sagittal plane with transverse axis; frontal plane with sagittal axis; transverse plane with longitudinal axis."
+      ]
+    },
+    {
+      "h": "Applying planes and axes to a named movement",
+      "points": [
+        "Hammer throw: the thrower's turns in the circle are rotation, so they are in the transverse plane about the longitudinal axis.",
+        "Discus: the spin that builds speed before release is also rotation in the transverse plane about the longitudinal axis; a pirouette in dance occurs in the same plane and axis.",
+        "Gymnastics: a forward roll is flexion of the spine and hips, so it is in the sagittal plane about the transverse axis; a cartwheel is in the frontal plane about the sagittal axis.",
+        "To justify an answer, name the movement (flexion, abduction, rotation) and match it to its plane and axis."
+      ]
+    },
+    {
+      "h": "Levers in the body",
+      "b": "A lever is a rigid bar that turns about a fixed point. The class depends on which part is in the middle: 1st class fulcrum, 2nd class load, 3rd class effort (memory aid 1, 2, 3 = F, L, E).",
+      "points": [
+        "In the body: the bone is the lever (bar), the joint is the fulcrum (pivot), muscle contraction provides the effort, and the weight of the body part plus anything held or struck is the load (resistance).",
+        "First-class lever (fulcrum in the middle): nodding the head, with the neck joint as fulcrum, the neck muscles as effort and the weight of the head as load.",
+        "First-class lever: extension of the elbow by the triceps, with the elbow as fulcrum, the triceps pulling behind it as effort, and the forearm, hand and ball as load, as in a soccer throw-in or the follow-through of a basketball set shot.",
+        "Second-class lever (load in the middle): plantar flexion of the ankle when rising onto the toes, with the ball of the foot as fulcrum, body weight through the ankle as load, and the calf muscle (gastrocnemius) pulling on the heel through the Achilles tendon as effort.",
+        "Second-class sporting examples: the push-off in a sprint start and the take-off in a jump.",
+        "Third-class lever (effort in the middle): elbow flexion by the biceps, with the elbow as fulcrum, the biceps attached just below it as effort and the forearm, hand and any weight as load, as in a biceps curl.",
+        "Third-class lever: knee extension by the quadriceps when kicking a ball, with the knee as fulcrum, the quadriceps pulling just below the knee as effort, and the lower leg, foot and ball as load.",
+        "Most levers in the body are third class.",
+        "Diagram: draw the bar, mark the fulcrum as a triangle, the effort as an arrow showing the muscle's pull, the load as an arrow showing the weight, and the direction of movement."
+      ]
+    },
+    {
+      "h": "Mechanical advantage and applying levers to performance",
+      "points": [
+        "Effort arm: the distance from the fulcrum to the point where the effort is applied. Load arm: the distance from the fulcrum to the load.",
+        "Mechanical advantage (effort arm longer than load arm, typical of second-class levers): a large load can be moved with a small effort, but only through a small range and at low speed.",
+        "Mechanical disadvantage (load arm longer than effort arm, typical of third-class levers): more effort is needed, but the end of the lever moves through a large range at high speed, which suits throwing and striking.",
+        "First-class levers can give either advantage or disadvantage, depending on where the fulcrum lies.",
+        "Comparing second- and third-class levers: the second class has the load in the middle and favours force (rising onto the toes to push off); the third class has the effort in the middle and favours speed and range (the arm action in a throw).",
+        "Lengthening the lever, with a straight arm or by adding a racket, hurley, bat or club, increases the speed at the end of the lever and so the speed of release or impact, but needs more effort.",
+        "Using levers to improve a skill: a fuller arm extension at contact in a tennis serve, or at release in the javelin, lengthens the lever and adds speed to the ball or implement."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Biomechanics", "definition": "The study of the forces acting on and produced by the body and their effects on movement." },
+    { "term": "Plane of movement", "definition": "A flat surface passing through the body in which a movement takes place." },
+    { "term": "Axis of rotation", "definition": "An imaginary line about which the body or a limb rotates." },
+    { "term": "Sagittal plane", "definition": "The plane dividing the body into left and right; flexion and extension occur in it, about the transverse axis." },
+    { "term": "Frontal plane", "definition": "The plane dividing the body into front and back; abduction and adduction occur in it, about the sagittal axis." },
+    { "term": "Transverse plane", "definition": "The plane dividing the body into upper and lower halves; rotation occurs in it, about the longitudinal axis." },
+    { "term": "Lever", "definition": "A rigid bar that turns about a fixed point; in the body, a bone moved by muscle about a joint." },
+    { "term": "Fulcrum", "definition": "The fixed point a lever turns about; in the body, the joint." },
+    { "term": "Effort", "definition": "The force applied to move a lever; in the body, muscle contraction." },
+    { "term": "Load", "definition": "The resistance moved by a lever: the weight of the body part plus anything held or struck." },
+    { "term": "Mechanical advantage", "definition": "When the effort arm is longer than the load arm, so a large load can be moved with a small effort." },
+    { "term": "Mechanical disadvantage", "definition": "When the load arm is longer than the effort arm, so more effort is needed but the lever end moves fast through a large range." },
+    { "term": "Flexion", "definition": "Bending at a joint so the angle between the bones decreases." },
+    { "term": "Abduction", "definition": "Movement of a limb away from the midline of the body." }
+  ],
+  "factCards": [
+    { "term": "Plane and axis pairs", "definition": "Sagittal plane with transverse axis; frontal plane with sagittal axis; transverse plane with longitudinal axis." },
+    { "term": "Plane and axis of a hammer thrower's turns", "definition": "Transverse plane, longitudinal axis, because the turns are rotation." },
+    { "term": "Lever classes: which part is in the middle", "definition": "1st class fulcrum, 2nd class load, 3rd class effort (1, 2, 3 = F, L, E)." },
+    { "term": "Lever class of elbow flexion (biceps curl)", "definition": "Third class: elbow is the fulcrum, biceps the effort, forearm and hand the load." },
+    { "term": "Lever class of rising onto the toes", "definition": "Second class: ball of the foot is the fulcrum, body weight the load, calf muscle the effort." },
+    { "term": "Lever class of elbow extension by the triceps", "definition": "First class: elbow is the fulcrum between the triceps (effort) and the forearm and hand (load)." }
+  ],
+  "questions": [
+    { "marks": 10, "prompt": "Using sporting examples, examine the differences between second-class and third-class levers.", "model": "In a second-class lever the load lies between the fulcrum and the effort. Example: rising onto the toes at the push-off of a sprint start, where the ball of the foot is the fulcrum, body weight through the ankle is the load and the calf muscle pulling on the heel is the effort. Because the effort arm is longer than the load arm, it has a mechanical advantage: a large load (the whole body) is moved with relatively little effort, but through a small range and at low speed. In a third-class lever the effort lies between the fulcrum and the load. Example: elbow flexion in a biceps curl, where the elbow is the fulcrum, the biceps is the effort and the forearm and weight are the load. Because the load arm is longer, it has a mechanical disadvantage: more effort is needed, but the end of the lever moves through a large range at high speed, which is why third-class levers suit throwing and striking. Most levers in the body are third class." },
+    { "marks": 8, "prompt": "Name the plane and axis in which a discus thrower rotates, and give a movement from a different activity that occurs in the same plane and axis.", "model": "The discus thrower's spin is rotation, so it occurs in the transverse plane about the longitudinal axis, which runs vertically from head to toe. A pirouette in dance occurs in the same plane and axis: the dancer turns the whole body around the vertical line through the body, rotating in the horizontal plane. A golf swing is another example, as the trunk rotates about the longitudinal axis." },
+    { "marks": 6, "prompt": "Name the class of lever used in elbow flexion and state where the fulcrum, effort and load are.", "model": "Elbow flexion uses a third-class lever. The fulcrum is the elbow joint, the effort is provided by the biceps, which attaches just below the elbow, and the load is the forearm and hand plus anything held, such as a dumbbell." }
+  ]
+}
