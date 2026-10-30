@@ -1548,16 +1548,17 @@ function computeUserProgress(user) {
 
 
 // ── Phone navigation ─────────────────────────────
-// Phones show one screen at a time: subjects (and Progress), then chapters, then study.
-// Each step down is a history entry, so the back gesture steps up a level
-// instead of leaving the app.
+// Phones show one screen at a time: subjects (and Progress), then chapters, then a
+// chapter's subsections where it has them, then study. Each step down is a history
+// entry, so the back gesture steps up a level instead of leaving the app.
 function isPhoneLayout() {
   return window.matchMedia("(max-width: 640px)").matches;
 }
 
 function phoneScreen() {
   if (phoneHome) return "home";
-  return viewMode === "subject-overview" ? "subject" : "chapter";
+  if (viewMode === "subject-overview") return "subject";
+  return chapterHasSubsections(getSelectedChapter()) && !isPickingOutcome() ? "study" : "chapter";
 }
 
 function pushPhoneScreen(screen) {
@@ -1592,9 +1593,11 @@ function handlePhonePopState(event) {
   if (screen !== "notes" && !els.fullNotesScreen.classList.contains("hidden")) closeFullNotes();
   if (screen !== "progress" && !els.progressScreen.classList.contains("hidden")) closeProgress();
   if (screen === "home") phoneHome = true;
-  if (screen === "subject" || screen === "chapter") {
+  if (screen === "subject" || screen === "chapter" || screen === "study") {
     phoneHome = false;
     viewMode = screen === "subject" ? "subject-overview" : "chapter";
+    // Stepping back onto a chapter with subsections lands on its subsection grid
+    pickingOutcome = screen === "chapter" && chapterHasSubsections(getSelectedChapter());
   }
   renderAll();
 }
@@ -1687,8 +1690,10 @@ function renderStudyContext() {
       <strong title="${escapeHtml(compactText(outcome.title || ""))}">${escapeHtml(compactText(outcome.title || ""))}</strong>
     `;
     els.studyContext.querySelector(".study-context-back").addEventListener("click", () => {
-      pickingOutcome = true;
-      renderAll();
+      leavePhoneScreen("study", () => {
+        pickingOutcome = true;
+        renderAll();
+      });
     });
     return;
   }
@@ -1751,6 +1756,7 @@ function renderOutcomePicker() {
       pickingOutcome = false;
       studyIndex = 0;
       showAnswer = false;
+      pushPhoneScreen("study");
       renderAll();
     });
   });
