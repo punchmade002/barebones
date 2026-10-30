@@ -124,6 +124,18 @@
       "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid."
     }
   ],
+  "factCards": [
+    { "term": "Earth's layers from the surface inward, with their depths", "definition": "Crust, about 5–70 km thick; mantle, to about 2,900 km; liquid outer core, from about 2,900 to 5,150 km; solid inner core, from about 5,150 km to the centre at about 6,370 km. Density and temperature increase towards the centre." },
+    { "term": "Continental vs oceanic crust: thickness, density and rock", "definition": "Continental: about 30–70 km thick, thickest under high mountains; density about 2.7 g/cm³; granite-type, rich in silica and aluminium (sial). Oceanic: about 5–10 km thick; density about 3.0 g/cm³; basalt, rich in silica and magnesium (sima)." },
+    { "term": "Why oceanic crust is much younger than continental crust", "definition": "Oceanic crust is continually created and destroyed, so none is older than about 200 million years, while some continental rock is billions of years old." },
+    { "term": "The Moho: who identified it, when, and what happens there", "definition": "Andrija Mohorovičić, a Croatian seismologist, identified it in 1909 from earthquake records. At this boundary between the crust and the mantle, earthquake waves speed up suddenly." },
+    { "term": "Mantle: depth, rock type and the layers in its upper part", "definition": "The thickest layer, to about 2,900 km, of dense rock rich in iron and magnesium. Its upper part holds the semi-molten asthenosphere; its solid top joins the crust as the lithosphere, about 100 km thick on average." },
+    { "term": "Outer core vs inner core: state, metals and key facts", "definition": "Both are made of iron and nickel. The outer core is liquid, and movement of this liquid metal generates the earth's magnetic field. The inner core is solid, the hottest part of the earth at about 5,500 °C, kept solid by enormous pressure." },
+    { "term": "Two sources of the earth's internal heat", "definition": "The decay of radioactive elements, and heat left over from the earth's formation. This heat powers convection currents and endogenic forces." },
+    { "term": "Convection currents in the mantle: the three stages", "definition": "First, heated rock near the core becomes less dense and rises; then, near the top of the mantle, it spreads out sideways and cools; finally, the cooled, denser rock sinks again, completing the circle." },
+    { "term": "Endogenic forces: five examples, and how they differ from exogenic", "definition": "Plate movement, folding, faulting, volcanic activity and earthquakes. They come from inside the earth and are powered by its internal heat; exogenic forces, such as weathering and erosion, act at the surface." },
+    { "term": "Seismic waves: how they reveal the earth's structure", "definition": "Waves change speed and direction as they pass through layers of different density, which is how the discontinuities were found. P-waves pass through solids and liquids, S-waves only through solids, so S-waves failing to cross the outer core show it is liquid." }
+  ],
   "questions": [
     {
       "marks": 6,

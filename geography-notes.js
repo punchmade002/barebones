@@ -56,6 +56,102 @@
    {
     "definition": "Buildings built in a line along an approach road leading out of a town.",
     "term": "Ribbon development"
+   },
+   {
+    "definition": "Oblique: the sides as well as the roofs of buildings are visible, foreground features look larger than background ones, and depth or a horizon shows. Vertical: only roofs are visible, the scale looks even and the photo looks like a map.",
+    "term": "Vertical or oblique photograph: how to tell (the 2-mark question)"
+   },
+   {
+    "definition": "Oblique: no single scale, so measure distances on the OS map instead. Vertical: scale = photo distance ÷ ground distance read from the map. Illustrative: 5 cm on the photo and 2 cm on a 1:50 000 map (1 km, or 100 000 cm) give 1:20 000.",
+    "term": "Scale on aerial photographs: oblique vs vertical"
+   },
+   {
+    "definition": "Draw the grid lightly on the photo in pencil, or fold it into thirds in your head; find the feature; state its zone, across-term first, such as left foreground. The same method answers true or false zone statements and matches cropped sections to zones.",
+    "term": "Nine-area grid: method for locating a feature"
+   },
+   {
+    "definition": "Find two features common to both, such as the river, a bridge or a large church, and turn the second source mentally to match; identify each feature by a clue (spire, flat roof beside a car park, pitch markings, shopfronts); give its zone in accepted notation.",
+    "term": "Matching a street map or satellite image to the photo: three steps"
+   },
+   {
+    "definition": "Church: a spire or tower, a cross-shaped plan and a graveyard beside it. Graveyard: rows of small headstones. School: a large building with a playground, pitches and a car park. Shopping centre: a very large flat roof and an extensive car park.",
+    "term": "Photo recognition clues: church, graveyard, school, shopping centre"
+   },
+   {
+    "definition": "Factory or warehouse: a large flat or sawtooth roof, yards and lorries, no gardens. Housing estate: rows of similar houses with gardens, often in cul-de-sacs. Railway: gentle curves, no cars, bridges over roads. Waste ground: rough, unused land.",
+    "term": "Photo recognition clues: factory, housing estate, railway, waste ground"
+   },
+   {
+    "definition": "Identify a foreground feature and a background feature on the photo and find both on the OS map; the direction from the foreground one to the background one is the way the camera was pointing. Give an eight-point compass term; check with a third feature.",
+    "term": "Camera direction: how to work it out with the OS map"
+   },
+   {
+    "definition": "Find the feature on the photo, then locate it on the OS map from its position relative to roads, the river and junctions (buildings are often not drawn at 1:50 000, but churches have symbols); then give a four- or six-figure grid reference.",
+    "term": "Grid reference of a feature seen on the photo: method"
+   },
+   {
+    "definition": "Trace the road or river on the photograph, find the same route on the OS map, and read its number (N, R or M) or its name from the map.",
+    "term": "Naming a road or river seen on the photo: method"
+   },
+   {
+    "definition": "Photo only: individual buildings, land-use type, crops, building height and age, traffic and recent developments. Map only: names, road numbers, heights and contours, the grid, labelled antiquities, boundaries, and features hidden by trees or beyond the frame.",
+    "term": "Photo vs OS map: what each shows that the other does not"
+   },
+   {
+    "definition": "Draw a frame with four ruled sides, the same shape as the photo. Half the length and half the breadth means halving each side, a quarter of the area (illustrative: 22 cm by 16 cm becomes 11 cm by 8 cm). Never trace; grid photo and frame lightly in pencil.",
+    "term": "Sketch map: frame size and setting-up rules"
+   },
+   {
+    "definition": "Show only the features asked for, in roughly the right position and shape: rivers (a broad double line), roads and railways as lines; housing, industry and farmland as closed outlined shapes; single buildings as small blocks or symbols.",
+    "term": "Sketch map: how to draw lines, areas and single buildings"
+   },
+   {
+    "definition": "Label every feature on or beside it, or in a key, and give the sketch a title; a feature drawn but not labelled scores nothing. A feature asked for in a zone, such as a car park in the centre foreground, must be drawn in that zone.",
+    "term": "Sketch map: labelling and position rules"
+   },
+   {
+    "definition": "Transport: a bridge, railway station, converging roads or a harbour. Tourism: hotels, caravan parks, marinas, beaches or historic sites. Market: a square or market house. Defensive (historic): a castle or town walls.",
+    "term": "Urban functions: photo evidence for transport, tourism, market and defensive functions"
+   },
+   {
+    "definition": "Name the function; give the photo evidence; give its location in accepted notation; explain why the town performs it, using its site, situation, size or hinterland. Give several pieces of evidence for each function.",
+    "term": "Describe and explain a town function: the answer formula"
+   },
+   {
+    "definition": "A castle, tower house or abbey ruin; an old church and graveyard; town walls or gates; a market square, fair green or market house; old stone bridges, quays and mills; a railway station (19th-century growth); modern estates on the edge (recent growth).",
+    "term": "Evidence of a town's history on an aerial photograph"
+   },
+   {
+    "definition": "Narrow, winding, irregular streets, often of medieval origin, show unplanned growth. Wide, straight streets, a regular grid, a central square or diamond and uniform terraces show a planned town, so wide streets never show an unplanned one.",
+    "term": "Unplanned town: the street evidence, and the planned-town trap"
+   },
+   {
+    "definition": "Narrow streets in the old core; on-street parking narrowing the road; routes converging on one bridge or junction; through-traffic passing the centre; delivery vehicles; limited off-street parking; schools and shopping centres creating peak traffic.",
+    "term": "Causes of traffic congestion visible on a photo"
+   },
+   {
+    "definition": "Roundabouts; traffic lights; pedestrian crossings; one-way streets (parked cars all face one way); double yellow lines; bus and cycle lanes; multi-storey car parks; pedestrianised streets; bypasses and ring roads; bollards and ramps.",
+    "term": "Traffic management measures you can see on a photo"
+   },
+   {
+    "definition": "Measure: name it, locate it in accepted notation, explain how it reduces congestion or improves safety. Problem: name it, locate it, explain why it causes congestion. Solution, such as a bypass or a car park on waste ground: justify it with photo evidence.",
+    "term": "Traffic answers: formula for a measure, a problem and a solution"
+   },
+   {
+    "definition": "Find the location and identify its present use on the photo; infer the earlier use from the map or from clues such as new estates with fields beyond, cleared sites or new roads across field patterns; state the change, e.g. agricultural to residential.",
+    "term": "Land-use change from the photo and map: method"
+   },
+   {
+    "definition": "Give three reasons, each with photo evidence: available flat land; access to main roads; nearness to the population it serves; space for parking; a site away from a flood-prone river bank; for industry, a site away from housing.",
+    "term": "Site suitability for a proposed development: reasons to give"
+   },
+   {
+    "definition": "Deciduous trees in full leaf (summer) or bare (winter); ripening crops, golden fields or stubble (late summer to autumn); ploughed fields (autumn or spring); silage or hay bales (summer); cattle outdoors (not winter, when Irish cattle are housed).",
+    "term": "Time of year: evidence on an aerial photograph"
+   },
+   {
+    "definition": "Shadows point away from the sun. The midday sun is due south, so midday shadows point north and are shortest; morning shadows point west, evening shadows east; long shadows mean a low sun. Use the camera direction to turn left or right into compass points.",
+    "term": "Time of day from shadows in Ireland: the rules"
    }
   ],
   "notes": [
@@ -415,6 +511,146 @@
    {
     "definition": "Protest against so many visitors that local residents, housing and services are placed under pressure.",
     "term": "Overtourism"
+   },
+   {
+    "definition": "Protection: the Control of Manufactures Acts (1932, 1934) and high tariffs shielded Irish firms, leaving 1950s unemployment and emigration. Opening: IDA 1949; Export Profits Tax Relief 1956; Whitaker's First Programme 1958; Anglo-Irish Free Trade Agreement 1965; EEC 1973.",
+    "term": "Ireland from protection to free trade, 1932 to 1973"
+   },
+   {
+    "definition": "Free second-level education (announced 1966 by Donogh O'Malley, introduced 1967) built an educated workforce; the EU Single Market began in 1993; the euro came in 1999 (notes and coins 2002); corporation tax on trading profits was 12.5% from 2003.",
+    "term": "How Ireland built a skilled, open economy after 1966: four dated steps"
+   },
+   {
+    "definition": "Driven first by exports and FDI, especially US technology and pharmaceutical firms, then by a property and construction boom. Unemployment fell to about 4–5% by the mid-2000s; net immigration replaced emigration, with large inflows from new EU states after 2004.",
+    "term": "Celtic Tiger, mid-1990s to 2007: causes and effects"
+   },
+   {
+    "definition": "Property bubble burst 2007–2008; bank guarantee 30 September 2008; Anglo Irish Bank nationalised January 2009; NAMA set up later in 2009 to take over property loans; EU–IMF programme of €67.5 billion in external loans agreed November 2010, exited December 2013.",
+    "term": "Irish banking crash: the sequence of events, 2007 to 2013"
+   },
+   {
+    "definition": "The state borrowed heavily to rescue the banks (bank guarantee 2008, Anglo Irish Bank nationalised 2009, EU–IMF loans 2010) while its tax base collapsed with the property crash, so government debt peaked at about 120% of GDP in 2012.",
+    "term": "Why the Irish government built up such a large debt after 2008"
+   },
+   {
+    "definition": "More income-tax and VAT revenue; lower welfare spending; consumer spending that supports jobs in other sectors; less emigration, so skilled people stay; more government money to invest in infrastructure and services.",
+    "term": "Five benefits of high employment to an economy"
+   },
+   {
+    "definition": "Census of Agriculture 2020: about 135,000 farms averaging about 33 hectares; about 7 million cattle (2020s). Mild winters and reliable rain favour grass-based livestock. Barley is the largest tillage crop; tillage is concentrated in Wexford, Carlow, Kildare, Meath and Cork.",
+    "term": "Irish agriculture: key figures and where tillage is concentrated"
+   },
+   {
+    "definition": "Benefits: exports (about 90% of beef and dairy output), food-processing jobs, rural incomes; dairying grew after milk quotas ended on 1 April 2015. Problems: methane makes agriculture Ireland's largest source of greenhouse gases, about 38% (EPA, 2022 data); nitrate and phosphate runoff; ammonia.",
+    "term": "Ireland's large cattle herd: benefits and environmental problems"
+   },
+   {
+    "definition": "Food: Kerrygold butter (Ornua, launched 1962); Tayto crisps (first made 1954 by Joe 'Spud' Murphy). Drink: Guinness (brewed at St James's Gate, Dublin, since 1759); Jameson whiskey (Irish Distillers, Midleton, Co. Cork); Baileys Irish Cream (launched 1974).",
+    "term": "Name an Irish food product and an Irish drink, with their makers"
+   },
+   {
+    "definition": "Advantages: a long, indented coastline with sheltered harbours; a wide continental shelf; plankton-rich waters and the North Atlantic Drift; pelagic stocks, mackerel being the most valuable. Value: exports, jobs in remote coastal communities, fish processing.",
+    "term": "Irish fishing: natural advantages and value to the economy"
+   },
+   {
+    "definition": "Killybegs (Co. Donegal), the largest, landing mainly pelagic fish; Castletownbere (Co. Cork); Dingle (Co. Kerry); Rossaveel (Co. Galway); Dunmore East (Co. Waterford); Howth (Co. Dublin).",
+    "term": "Name Ireland's six State Fishery Harbour Centres"
+   },
+   {
+    "definition": "Pharmaceuticals and chemicals, the largest goods exports: Cork Harbour (Pfizer, Janssen, Novartis at Ringaskiddy). Medical devices: Galway (Boston Scientific 1994, Medtronic). ICT: Intel, Leixlip (1989); Apple, Cork (1980). Food and drink: Kerry Group (Tralee) and Glanbia (Kilkenny).",
+    "term": "Ireland's main manufacturing sectors: a location and firm for each"
+   },
+   {
+    "definition": "Dependence on a few US multinationals; the 15% minimum tax for very large groups (2024); US tariffs on EU goods (2025); Brexit; housing costs that deter staff; grid and water limits (EirGrid will not connect new Dublin data centres until about 2028); lower-cost rivals.",
+    "term": "Challenges facing industry in Ireland: name seven"
+   },
+   {
+    "definition": "Grand Canal Dock, south of the Liffey. Google has had its European headquarters in Dublin since 2003, now on Barrow Street; Meta and LinkedIn also have large offices in the area. Effects: high-paid jobs, rising rents, congestion.",
+    "term": "Silicon Docks, Dublin: where it is, named firms and effects"
+   },
+   {
+    "definition": "Graduates from Trinity College Dublin, UCD, DCU, TU Dublin and Maynooth University; EU-wide recruitment; Dublin Airport (over 30 million passengers, 2023) and fibre links; low tax and incentives; agglomeration, as firms share skills and suppliers.",
+    "term": "Why service and footloose firms cluster in the Dublin region"
+   },
+   {
+    "definition": "Brendan O'Regan opened the world's first duty-free airport shop at Shannon in 1947; the Shannon Free Zone (1959) gave firms tax relief and duty-free imports. Tony Ryan founded GPA at Shannon in 1975; Ireland now manages about half the world's leased aircraft.",
+    "term": "Shannon: duty-free shop, Free Zone and aircraft leasing"
+   },
+   {
+    "definition": "Stanford University encouraged spin-off firms and opened its Research Park in 1951; Hewlett-Packard began in a Palo Alto garage in 1939; Intel (founded 1968) is headquartered in Santa Clara; Apple is at Cupertino, Google at Mountain View. Problems: high house prices, congestion, homelessness.",
+    "term": "Silicon Valley, California: origins, named firms and problems"
+   },
+   {
+    "definition": "Set up in 1987 by the Charles Haughey government on the derelict Custom House Docks, north of the Liffey. Reasons: a 10% tax rate for approved firms, government incentives, an educated English-speaking workforce, EU access, the time zone, and regeneration of the docks.",
+    "term": "IFSC, Dublin: when, where and why it was set up"
+   },
+   {
+    "definition": "Irish-domiciled funds hold over €3 trillion (2020s). Effects: high-value jobs; regeneration of the north docklands, served by the Luas Red Line (2004). After the 2016 Brexit vote, Bank of America and Barclays moved their main EU operations to Dublin.",
+    "term": "IFSC: growth, effects and the Brexit opportunity"
+   },
+   {
+    "definition": "Physical attractions (climate, coast, scenery); cultural and historic attractions (heritage, music, festivals, sport); access (airports, ports, low-cost airlines); accommodation and services; marketing; cost and exchange rates; safety and political stability.",
+    "term": "Factors that influence the development of tourism in an area"
+   },
+   {
+    "definition": "About 11 million overseas visits and about a quarter of a million jobs (2019); main markets Britain, the USA, Germany and France. COVID-19 travel restrictions collapsed visits in 2020–2021, causing job losses, closed hotels and lost revenue in remote areas.",
+    "term": "Irish tourism: its importance and the COVID-19 collapse"
+   },
+   {
+    "definition": "Fáilte Ireland (2003) develops tourism in the Republic; Tourism Ireland, created under the Good Friday Agreement (1998), markets the whole island. The Wild Atlantic Way (2014) runs about 2,500 km from Inishowen to Kinsale; Ireland's Ancient East followed in 2015.",
+    "term": "Irish tourism agencies and marketing brands"
+   },
+   {
+    "definition": "Dublin Airport and Dublin Port are the main entry points; Dublin, the capital, has the most attractions, hotels and events; city breaks suit short trips; good motorway and rail links radiate from Dublin.",
+    "term": "Why Ireland's east coast attracts the most visitors"
+   },
+   {
+    "definition": "East: the Guinness Storehouse (2000), the most visited fee-paying attraction; the Book of Kells, Trinity College Dublin; Brú na Bóinne (Newgrange), UNESCO 1993; Glendalough, Co. Wicklow. West: the Cliffs of Moher, Co. Clare; Kylemore Abbey, Connemara.",
+    "term": "Irish tourist attractions: four in the east and two in the west"
+   },
+   {
+    "definition": "Killarney National Park (1932), Ireland's first, from the Muckross estate; the Lakes of Killarney, Torc Waterfall, Gap of Dunloe; Carrauntoohil (1,038 m), Ireland's highest mountain; the Ring of Kerry (about 180 km); Skellig Michael (UNESCO 1996).",
+    "term": "Co. Kerry as a mass-tourism region: main attractions"
+   },
+   {
+    "definition": "Positive: jobs and income in a peripheral region; rural services kept open; heritage protected. Negative: seasonal jobs; coach congestion on the narrow Ring of Kerry roads; erosion on Carrauntoohil paths and litter; holiday homes raising house prices for locals.",
+    "term": "Co. Kerry tourism: positive and negative impacts"
+   },
+   {
+    "definition": "From the 1960s the Franco regime promoted tourism ('Spain is different') to earn foreign currency; jet aircraft and package holidays, later cheap flights; sun and beaches; low costs; nearness to northern Europe. About 84 million tourists in 2019; about 94 million in 2024.",
+    "term": "Spain's mass tourism: causes of its growth"
+   },
+   {
+    "definition": "Benidorm, Costa Blanca: a fishing village transformed in the 1950s–60s by mayor Pedro Zaragoza's high-rise plan; the Gran Hotel Bali (186 m, 2002) was then Europe's tallest hotel. Costa del Sol: Torremolinos, Marbella. Balearics: Mallorca (Magaluf), Ibiza.",
+    "term": "Benidorm and other mass-tourism resorts in Spain"
+   },
+   {
+    "definition": "Concrete ribbon development and high-rise overbuilding on coasts; water shortages (Catalonia's drought emergency, early 2024); low-paid seasonal jobs; rents raised by short-term tourist lets, prompting 2024 protests in Barcelona, Mallorca and the Canary Islands.",
+    "term": "Spain's mass tourism: four problems"
+   },
+   {
+    "definition": "Effects: jobs, foreign earnings and infrastructure; tourism gives over a tenth of Spain's GDP (2020s). Responses: the Balearic and Catalan governments charge tourist taxes; Barcelona plans to end licences for about 10,000 tourist apartments by 2028.",
+    "term": "Spain's mass tourism: economic effects and two responses"
+   },
+   {
+    "definition": "Plant closures; derelict sites and buildings; high unemployment; emigration or out-migration; falling population in industrial towns; social problems.",
+    "term": "Evidence of industrial decline in a region: give six types"
+   },
+   {
+    "definition": "The end of protection exposed small, inefficient firms (Anglo-Irish Free Trade Agreement 1965, EEC 1973); competition from low-wage countries; recessions (1980s, 2008); new technology replacing labour; EU reform such as the sugar regime; firms moving production abroad.",
+    "term": "Causes of industrial decline in Ireland"
+   },
+   {
+    "definition": "Dunlop's tyre factory closed in 1983; Ford's Marina plant and Verolme Cork Dockyard, Rushbrooke, closed in 1984. Effects: job losses in Cork as national unemployment reached about 17% in the mid-1980s; heavy emigration; derelict docklands; lost skills and spending in local towns.",
+    "term": "Cork's 1980s closures and the effects of decline"
+   },
+   {
+    "definition": "Irish Steel, Haulbowline (2001), leaving a contaminated site; Irish Sugar's Carlow (2005) and Mallow (2006) factories after EU sugar reform; Waterford Crystal, Kilbarry (January 2009); Dell manufacturing, Limerick (2009, about 1,900 jobs); peat power stations (2020).",
+    "term": "Irish industrial closures since 2001: name five with dates"
+   },
+   {
+    "definition": "IDA and Enterprise Ireland replacement investment; regeneration of the Dublin Docklands (Docklands Development Authority 1997, IFSC 1987) and Cork Docklands; heritage reuse, like the House of Waterford Crystal on the Mall (2010); retraining; the EU Just Transition Fund.",
+    "term": "Responses to industrial decline in Ireland"
    }
   ],
   "notes": [
@@ -587,7 +823,7 @@
    {
     "h": "Mining and energy extraction",
     "points": [
-     "Tara Mines, Navan, Co. Meath, is Europe's largest zinc mine and has produced since 1977; it is owned by Boliden.",
+     "Tara Mines, Navan, Co. Meath, is Europe's largest zinc mine; it opened in 1977 and is owned by Boliden. Production was paused from July 2023 and restarted at the end of 2024.",
      "The Corrib gas field off Co. Mayo first flowed in December 2015.",
      "ESB's peat-fired power stations at Shannonbridge (West Offaly) and Lanesborough (Lough Ree) closed in December 2020.",
      "Bord na Móna's peat harvesting for electricity has ended."
@@ -701,7 +937,7 @@
     "points": [
      "It covers the Santa Clara Valley and the southern San Francisco Bay Area; the name comes from the silicon used in microchips.",
      "Stanford University at Palo Alto encouraged spin-off firms and set up Stanford Research Park in 1951.",
-     "Hewlett-Packard was founded in a Palo Alto garage in 1939; Intel was founded in Santa Clara in 1968.",
+     "Hewlett-Packard was founded in a Palo Alto garage in 1939; Intel was founded in Mountain View in 1968 and is now headquartered in Santa Clara.",
      "Apple is based in Cupertino and Google in Mountain View.",
      "Problems: very high house prices and rents, traffic congestion, and homelessness alongside great wealth."
     ]
@@ -1047,6 +1283,94 @@
    {
     "definition": "A significant relevant point: one distinct, specific, examinable fact or explained point in an answer.",
     "term": "SRP"
+   },
+   {
+    "definition": "Europe's largest alumina refinery, opened 1983 on Aughinish Island near Askeaton, Co. Limerick, on the Shannon Estuary. It refines imported bauxite into alumina for smelters elsewhere (not aluminium). Problems: red mud stored on site; owned by Russia's Rusal since 2007.",
+    "term": "Aughinish Alumina: what it makes, where, when and two problems"
+   },
+   {
+    "definition": "Bulk-reducing: two to three tonnes of bauxite make one tonne of alumina, so it sits at the port where bauxite arrives from Guinea and Brazil; deep, sheltered water for large bulk carriers; a flat island site away from towns; energy supply; government support.",
+    "term": "Aughinish Alumina: why it is located on the Shannon Estuary"
+   },
+   {
+    "definition": "Opened 1989. Skilled graduates, with Maynooth University nearby; IDA support and low corporation tax; access to the EU market from an English-speaking base; beside the M4 and close to Dublin Airport; a large greenfield site with electricity and water.",
+    "term": "Intel, Leixlip: why a footloose firm chose this site"
+   },
+   {
+    "definition": "A plant survives by moving up the value chain: Fab 34 (2023) makes advanced chips using extreme ultraviolet lithography. The huge fixed investment makes moving unlikely, but Intel's global job cuts in 2024–2025 still affected Leixlip.",
+    "term": "Intel, Leixlip: upgrading as an alternative to closure"
+   },
+   {
+    "definition": "Deep-water berths at Ringaskiddy; large flat sites zoned for industry, with water supply and waste facilities; graduates from UCC and Munster Technological University (2021); IDA support and tax; clustering of Pfizer, Janssen and Novartis.",
+    "term": "Cork Harbour pharmaceutical cluster: location factors"
+   },
+   {
+    "definition": "DEC's Galway plant closed in 1993, leaving skilled engineers; Boston Scientific opened in 1994 and Medtronic followed at Parkmore; University of Galway research and a network of suppliers reinforced the cluster.",
+    "term": "Galway medical-technology cluster: how it grew"
+   },
+   {
+    "definition": "Dairy processing is bulk-reducing: Kerry Group grew from the North Kerry Milk Products co-operative at Listowel (1972), near the milk supply, and is based in Tralee. Killybegs, the largest fishing port, processes pelagic fish such as mackerel and herring.",
+    "term": "Kerry Group and Killybegs: industries located at the raw material"
+   },
+   {
+    "definition": "Founded in 1759 by Arthur Guinness on a 9,000-year lease. Brewing is bulk-gaining because water is added, so the brewery sits near its Dublin market. It still brews there today, an example of industrial inertia.",
+    "term": "Guinness, St James's Gate: why brewing is located near the market"
+   },
+   {
+    "definition": "A cool, mild climate cuts cooling costs; fibre links to the USA and Europe; clusters of technology firms; tax. The problem is grid capacity: in 2022 EirGrid said it would not connect new Dublin data centres until about 2028, and in 2023 they used about 21% of metered electricity (CSO).",
+    "term": "Data centres in Ireland: location factors and the grid problem"
+   },
+   {
+    "definition": "Discovered in 1996, with a terminal at Bellanaboy, Co. Mayo. The Shell to Sea campaign opposed it and the Rossport Five were jailed in 2005. Opposition and planning changes meant gas did not flow until December 2015.",
+    "term": "Corrib gas: how local opposition delayed a project"
+   },
+   {
+    "definition": "Road: door-to-door flexibility over short and medium distances. Rail: heavy loads on fixed routes. Sea: cheapest for bulk over long distances. Air: fastest, suiting light, high-value goods such as medicines and microchips, but costly and a source of CO2 emissions.",
+    "term": "Freight transport modes: advantages, and one problem of air transport"
+   },
+   {
+    "definition": "IDA Ireland (1949; independent 1969) offers grants, serviced sites and advance factories; corporation tax 12.5% from 2003, 15% for very large groups from 2024; Enterprise Ireland (1998); Údarás na Gaeltachta (1980); regional policy; planning; EU state-aid rules.",
+    "term": "Government policy as a location factor in Ireland"
+   },
+   {
+    "definition": "19th century: raw materials and power, so industry clustered on coalfields. 20th century: markets and labour, as electricity grids freed most industry. Today: footloose activities chase skills, tax, connectivity and quality of life.",
+    "term": "How the importance of location factors has changed over time"
+   },
+   {
+    "definition": "Apple opened at Hollyhill, Cork, in 1980 to make computers. As its manufacturing moved to contract manufacturers in Asia, the Cork site shifted mainly to operations, support and services; it is now Apple's European headquarters, with about 6,000 staff (2020s).",
+    "term": "Apple, Cork: a location shift through the product life cycle"
+   },
+   {
+    "definition": "Attract firms early in new life cycles (pharmaceuticals, medical technology, software); invest in education and research so jobs are harder to move, e.g. Science Foundation Ireland (2000; merged into Research Ireland in 2024) and university graduates.",
+    "term": "How a host country can hold on to mobile firms: two responses"
+   },
+   {
+    "definition": "Teleservices and remote work can locate anywhere with broadband, including peripheral areas, though low-skilled work moves abroad easily. National Broadband Plan contract 2019; Connected Hubs 2021; Our Rural Future 2021. Regional broadband gaps decide which areas gain.",
+    "term": "Broadband and the future location of jobs in Ireland"
+   },
+   {
+    "definition": "Warehouses and delivery depots locate near motorways and airports; town-centre shops come under pressure; bank branches close as business moves online.",
+    "term": "E-commerce: three effects on where activities locate"
+   },
+   {
+    "definition": "Name the factor; give the evidence (a grid reference on the map, or the photo location in accepted notation such as left background); explain why it matters to the activity. Develop each reason in three to five SRPs, and use the same structure for a reason against.",
+    "term": "OS map or photo: how to write each reason for locating an activity"
+   },
+   {
+    "definition": "Flat land on the edge of a town; a national primary road or motorway, railway, port or airport; a town labour force and services such as schools, a hospital and housing; a water supply; an existing industrial estate.",
+    "term": "OS map: evidence that a site suits a factory or multinational"
+   },
+   {
+    "definition": "A pier, harbour or fishing port on the coast; roads to markets; a water supply; a labour force in a nearby town; low-lying land.",
+    "term": "OS map: evidence that a site suits a fish processing plant"
+   },
+   {
+    "definition": "Coast and beach, scenery, lakes or mountains; antiquities; a golf course and water sports; nearby town services; road access; tourist information.",
+    "term": "OS map: evidence that a site suits a hotel"
+   },
+   {
+    "definition": "Steep or high land; a floodplain; a protected or scenic area where planning conflict is likely; poor roads; remoteness from labour and services; impact on nearby residents.",
+    "term": "OS map: reasons an activity might not locate at a site"
    }
   ],
   "notes": [
@@ -1465,6 +1789,102 @@
    {
     "definition": "A country that has moved from developing to industrial economy status, sitting between developed and developing countries.",
     "term": "Newly industrialised country (NIC)"
+   },
+   {
+    "definition": "More jobs; higher incomes; more tax revenue to fund services and infrastructure; less emigration.",
+    "term": "Economic growth: four benefits for a country"
+   },
+   {
+    "definition": "It is simple, giving one comparable figure; data exist for almost every country, collected in a standard way; it lets change over time be tracked; it is closely linked to a government's ability to fund health, education and other services.",
+    "term": "GNP or GDP per head: four advantages as a measure"
+   },
+   {
+    "definition": "It hides inequality between rich and poor and between regions; it ignores the informal economy and subsistence farming, which are large in developing countries; it ignores unpaid work such as caring, housework and volunteering.",
+    "term": "GNP per head: three things the average hides or leaves out"
+   },
+   {
+    "definition": "Counts harmful spending such as pollution clean-up, disaster repair and crime as growth; ignores environmental damage and resource depletion; exchange rates distort dollar comparisons unless PPP is used; says nothing about health, education or freedom.",
+    "term": "GNP per head: four ways it misleads about well-being"
+   },
+   {
+    "definition": "Multinationals send their profits abroad, so GNP is well below GDP; Irish GDP per head is second in the EU after Luxembourg (Eurostat, early 2020s). The CSO's GNI*, published from 2017, strips this out: in the early 2020s it was a little over half of GDP.",
+    "term": "Ireland: why GDP overstates prosperity, and how GNI* corrects it"
+   },
+   {
+    "definition": "Irish GDP growth for 2015, first published in July 2016, was about 26%, mainly because multinationals moved intellectual property (patents) and aircraft-leasing assets to Ireland, not because people were richer. US economist Paul Krugman named it.",
+    "term": "Leprechaun economics: what happened to Irish GDP for 2015"
+   },
+   {
+    "definition": "The UNDP first published it in the Human Development Report in 1990. Mahbub ul Haq, a Pakistani economist, created it working with Amartya Sen, an Indian economist who won the Nobel Prize in Economics in 1998.",
+    "term": "HDI: who created it and when it was first published"
+   },
+   {
+    "definition": "A long and healthy life: life expectancy at birth. Knowledge: mean years of schooling of adults aged 25 and over, and expected years of schooling for children starting school. A decent standard of living: GNI per head in PPP dollars.",
+    "term": "HDI: the three dimensions and their four indicators"
+   },
+   {
+    "definition": "Each dimension becomes an index from 0 to 1 and the three are combined into one value between 0 and 1; closer to 1 is more developed. Very high 0.800 and above; high 0.700 to 0.799; medium 0.550 to 0.699; low below 0.550.",
+    "term": "HDI: how the value is calculated and the four categories"
+   },
+   {
+    "definition": "Human Development Report 2020 (2019 data): Norway 1st (0.957), Ireland and Switzerland joint 2nd (0.955), Niger last of 189 (0.394). Report 2023/24 (2022 data): Switzerland 1st (0.967), Ireland in the top ten, Somalia last of 193 (0.380).",
+    "term": "HDI rankings: top and bottom in the 2020 and 2023/24 reports"
+   },
+   {
+    "definition": "Highest in Europe (especially Scandinavia and Switzerland), North America, Australia and Japan. 2023/24 report: very high, Switzerland; high, Brazil (about 0.76); medium, India (134th, 0.644); low, mostly sub-Saharan Africa, e.g. Chad, Niger.",
+    "term": "HDI: where it is highest, and one example of each category"
+   },
+   {
+    "definition": "It is broader than income alone, combining health, education and income; it focuses on people and outcomes; it can be tracked over time to show progress or decline; it helps governments and aid agencies target spending on schooling or health.",
+    "term": "HDI: four advantages as a measure of development"
+   },
+   {
+    "definition": "As a national average it hides inequality between rich and poor, men and women, and regions; it leaves out freedom, human rights, gender equality and the environment; data are poor or late in some developing countries; equal weighting is a judgement.",
+    "term": "HDI: four disadvantages as a measure of development"
+   },
+   {
+    "definition": "The inequality-adjusted HDI (IHDI), the Gender Inequality Index (GII) and the Multidimensional Poverty Index (MPI), the last developed with Oxford University's Oxford Poverty and Human Development Initiative. They answer some criticisms of the HDI.",
+    "term": "Three newer UNDP measures introduced in 2010"
+   },
+   {
+    "definition": "Equatorial Guinea's oil wealth gives it a far higher GNI per head than its HDI rank suggests; oil-rich Gulf states generally rank higher on income than on HDI. Cuba ranks higher on HDI than on income because of strong public health care and education.",
+    "term": "GNP vs HDI: name countries that rank very differently on each"
+   },
+   {
+    "definition": "Social: life expectancy; infant mortality; literacy rate; doctors per 1,000 people; access to safe water and sanitation; daily calorie intake. Economic: share of workers in the primary sector; unemployment rate; energy use per head; internet access.",
+    "term": "Development indicators: social and economic examples"
+   },
+   {
+    "definition": "Scarce doctors, hospitals and clinics; lack of vaccination, clean water and sanitation; infectious disease such as malaria and HIV/AIDS; war and conflict; poverty and poor nutrition. In rich countries, diet, smoking, alcohol and obesity shorten some lives.",
+    "term": "Why life expectancy is lower in some countries: five reasons"
+   },
+   {
+    "definition": "Japan about 84 years; Ireland about 82 to 83 years, among the highest in the EU; below 60 years in several sub-Saharan African countries, such as Chad, Nigeria and Lesotho.",
+    "term": "Life expectancy at birth: three figures to quote (early 2020s)"
+   },
+   {
+    "definition": "Malaria caused about 600,000 deaths in 2022, over nine-tenths of them in Africa (WHO World Malaria Report 2023). HIV/AIDS lowered life expectancy in Botswana, Zimbabwe and South Africa in the 1990s and 2000s; it has since recovered with antiretroviral drugs.",
+    "term": "Malaria and HIV/AIDS: their effect on life expectancy"
+   },
+   {
+    "definition": "Government spending on schools and teachers; poverty forcing children to work or stay at home; distance to schools in rural areas; fees and the cost of uniforms and books; cultural attitudes to girls' education and early marriage; conflict closing schools.",
+    "term": "Why years of schooling differ between countries: six reasons"
+   },
+   {
+    "definition": "It attracts foreign investment in high-tech and service industries; higher productivity and wages raise tax revenue; it brings more innovation and new firms; educated women tend to have healthier, smaller families.",
+    "term": "Why an educated workforce benefits an economy: four reasons"
+   },
+   {
+    "definition": "Free secondary education came in 1967. Ireland has one of the EU's highest shares of 25 to 34-year-olds with third-level education (early 2020s, Eurostat), supplying graduates to multinationals in pharmaceuticals, medical devices and information technology.",
+    "term": "Ireland: how education has helped its economy"
+   },
+   {
+    "definition": "Effects: lost income and poverty; youth emigration; lower tax revenue and higher welfare costs. Remedies: attract investment; retraining; support small firms; infrastructure spending. Ireland: about 15% in 2012 after the 2008 crash, below 5% by 2022 (CSO).",
+    "term": "High unemployment: effects, remedies and Ireland's rates"
+   },
+   {
+    "definition": "A title; labelled axes with units; a suitable scale; accurate bars; a key. To find a difference, subtract the lower value from the higher and state the unit: illustrative life expectancies of 80 and 60 years differ by 20 years.",
+    "term": "Skill: what a bar chart of development data needs"
    }
   ],
   "notes": [
@@ -1696,6 +2116,106 @@
    {
     "definition": "Development strategy that builds manufacturing industries to sell goods to foreign markets.",
     "term": "Export-led industrialisation"
+   },
+   {
+    "definition": "From the 1980 Brandt Report, by a commission under former West German Chancellor Willy Brandt. It runs along about 30°N, dipping to put Australia and New Zealand in the North. A simplification: Singapore, South Korea and the Gulf states were placed in the South but are now rich.",
+    "term": "Brandt Line: who drew it, where it runs, and its weakness"
+   },
+   {
+    "definition": "Low HDI is concentrated in sub-Saharan Africa, plus Afghanistan, Yemen and Haiti, the poorest country in the Americas. The richest 10% of the world's people own about 76% of global wealth and the poorest half about 2% (World Inequality Report 2022).",
+    "term": "Global pattern: where HDI is low, and how unequal wealth is"
+   },
+   {
+    "definition": "Luxembourg highest, Ireland second, Bulgaria lowest (Eurostat, early 2020s). The richer core is the north-west Blue Banana; the periphery lies in the east and south. Romania and Bulgaria contain many of the EU's less developed regions.",
+    "term": "EU: where GDP per head is highest and lowest, and where the core is"
+   },
+   {
+    "definition": "The Dublin region has the highest disposable income per person (CSO): capital and port functions, multinational and financial jobs, universities, airport. Border and Midland regions are among the lowest: remoteness, weak infrastructure, farming, out-migration.",
+    "term": "Ireland's regional divide: richest and poorest regions, and why"
+   },
+   {
+    "definition": "Objective 1 status for the BMW region, 2000 to 2006; three regional assemblies from 2015 (Northern and Western, Southern, Eastern and Midland); Project Ireland 2040 (February 2018): the National Planning Framework plus the National Development Plan.",
+    "term": "Irish regional policy: three milestones since 2000"
+   },
+   {
+    "definition": "The Northern and Western and Southern regions together should grow as much as the Eastern and Midland region; half of future population growth should go to the five cities, Dublin, Cork, Limerick, Galway and Waterford.",
+    "term": "National Planning Framework: its two growth targets"
+   },
+   {
+    "definition": "Better access attracts firms to regional towns, cuts costs and commuting times and widens the job market; it also eases congestion. Examples: motorways and Metrolink (Swords via Dublin Airport to the city centre). The National Broadband Plan (2019) does the same for digital access.",
+    "term": "How transport investment can reduce regional income differences"
+   },
+   {
+    "definition": "Repeated droughts since the 1970s in the Sahel (Mali, Niger, Chad, Burkina Faso) limit farming and cause famine; drought, worsened by civil war, contributed to the 1984 to 1985 Ethiopian famine (Live Aid, 1985). Yet Singapore is tropical and one of the world's richest countries.",
+    "term": "Climate as a factor: the Sahel, and why climate does not decide development"
+   },
+   {
+    "definition": "Malaria and other tropical diseases cut life expectancy, workers' productivity and children's schooling. Mountains, deserts and poor soils limit farming and raise transport costs; fertile lowlands and river plains support dense populations and farm surpluses.",
+    "term": "Disease, relief and soils: how they affect development"
+   },
+   {
+    "definition": "They depend on neighbours' roads and ports, which raises trade costs, while coastal countries with good harbours trade more easily. Examples: Chad, Niger, Mali, Burkina Faso, Malawi, Uganda, Afghanistan and Bolivia.",
+    "term": "Landlocked countries: why they lag, with named examples"
+   },
+   {
+    "definition": "Norway: North Sea oil since the early 1970s; its sovereign wealth fund is among the world's largest. Nigeria: Niger Delta oil dominates exports, with spills and conflict. DR Congo: about 70% of world cobalt (early 2020s), yet one of the poorest countries.",
+    "term": "Natural resources: one success and two resource-curse examples"
+   },
+   {
+    "definition": "The earthquake of 12 January 2010, magnitude 7.0, struck near Port-au-Prince and killed over 100,000 people (estimates vary). Hazards destroy infrastructure and set poor countries back for years; rich countries recover faster.",
+    "term": "Haiti 2010: how a natural hazard set development back"
+   },
+   {
+    "definition": "Fast population growth spreads school and health spending thinly (Niger: about 6 to 7 children per woman); an educated workforce attracts investment, while low female literacy holds development back; disease and HIV/AIDS shrink the workforce; educating girls means smaller, healthier families.",
+    "term": "Social factors: population growth, education, health and gender"
+   },
+   {
+    "definition": "Early marriage cuts girls' schooling and raises fertility; caste in India and land concentration in Latin America limit opportunity; many languages in colonial borders hinder unity, though English helps India's IT sector; South Korea prizes education.",
+    "term": "Cultural factors: four that affect development, with examples"
+   },
+   {
+    "definition": "Stability: Botswana, independent in 1966, has held regular multi-party elections ever since. War destroys infrastructure and deters investors: Syria's civil war from 2011 made millions refugees; South Sudan, independent July 2011, at war from December 2013.",
+    "term": "Political stability vs war: three named examples"
+   },
+   {
+    "definition": "Corruption diverts public money and aid: the Corruption Perceptions Index puts Denmark near the top and Somalia and South Sudan near the bottom (2020s). Good policy helped South Korea, China and Ireland; mismanagement harmed Zimbabwe and Venezuela.",
+    "term": "Corruption and government policy: named examples"
+   },
+   {
+    "definition": "War, economic collapse or disease. Syria's HDI fell in the civil war that began in 2011, reversing decades of progress; Zimbabwe and Venezuela suffered economic collapse; HIV/AIDS sharply cut life expectancy in Botswana in the 1990s and 2000s.",
+    "term": "Why a country's HDI falls: three causes, with examples"
+   },
+   {
+    "definition": "The Korean War (1950 to 1953) left the South among the world's poorest countries. From the 1960s, under Park Chung-hee, the government planned export-led industrialisation: textiles first, then steel, shipbuilding, cars and electronics.",
+    "term": "South Korea: starting point and how industry was planned"
+   },
+   {
+    "definition": "Chaebol such as Samsung, Hyundai and LG, and heavy investment in education, not natural resources. Joined the OECD in 1996; hit by the 1997 Asian financial crisis, then recovered; reclassified as a developed country by UNCTAD in 2021; now very high HDI.",
+    "term": "South Korea: what drove growth, and the milestones since"
+   },
+   {
+    "definition": "Economic reforms from 1978 under Deng Xiaoping (opening up); Special Economic Zones from 1980, the first at Shenzhen beside Hong Kong; membership of the World Trade Organization in 2001.",
+    "term": "China: three reforms that opened its economy"
+   },
+   {
+    "definition": "Second-largest economy since 2010 (overtaking Japan) but upper-middle income; close to 800 million out of extreme poverty since 1978 (World Bank, 2022). Coastal provinces are far richer than the western interior and drew hundreds of millions of rural migrants.",
+    "term": "China: results of growth, and the inequality it brought"
+   },
+   {
+    "definition": "Independent in 1966, one of the world's poorest. Diamonds (Orapa, 1967), mined by Debswana (government and De Beers), paid for roads, schools and clinics; stable democracy and comparatively low corruption helped. Now upper-middle income, but diamond-dependent.",
+    "term": "Botswana: how it rose from poverty after 1966"
+   },
+   {
+    "definition": "Net emigration was about 400,000 in 1951 to 1961. T. K. Whitaker's Economic Development (1958) led to the First Programme for Economic Expansion: free trade, grants and tax breaks for foreign firms. Free secondary education, 1967; EEC entry, 1 January 1973.",
+    "term": "Ireland's rise: from 1950s emigration to EEC membership"
+   },
+   {
+    "definition": "Celtic Tiger boom, mid-1990s to 2007. Property crash and banking crisis from 2008; EU–IMF bailout of €85 billion agreed in November 2010; Ireland exited the programme in December 2013.",
+    "term": "Ireland: Celtic Tiger, crash and bailout dates"
+   },
+   {
+    "definition": "Zimbabwe: land seizures from 2000 cut farm output; hyperinflation peaked in 2008; the Zimbabwe dollar was abandoned in 2009. Venezuela: oil-dependent; after the 2014 oil price collapse the economy shrank by well over half and over 7 million emigrated (2024).",
+    "term": "Zimbabwe and Venezuela: how their economies collapsed"
    }
   ],
   "notes": [
@@ -1766,7 +2286,7 @@
     "h": "Physical factors: climate, disease, relief and soils",
     "points": [
      "The Sahel, the semi-arid belt south of the Sahara (Mali, Niger, Chad and Burkina Faso), has suffered repeated droughts since the 1970s, which limit farming and cause famine.",
-     "The 1984 to 1985 Ethiopian famine was followed by Live Aid in 1985.",
+     "In Ethiopia, outside the Sahel, drought worsened by civil war led to the 1984 to 1985 famine, followed by Live Aid in 1985.",
      "Extreme heat and tropical storms add difficulty; temperate climates suit productive farming.",
      "Climate does not decide development: Singapore is tropical, yet it is one of the world's richest countries. Botswana shows that a poor start can be overcome.",
      "Malaria and other tropical diseases reduce life expectancy, the productivity of workers and children's schooling; the malaria figure is in the Measuring economic development note.",
@@ -1883,7 +2403,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Physical factors shape development by limiting or supporting farming, health and trade. Climate matters: repeated droughts in the Sahel since the 1970s limit farming and caused famine, including the 1984 to 1985 Ethiopian famine, and malaria and other tropical diseases reduce life expectancy and workers' productivity. However, climate does not decide development, since Singapore is tropical and one of the world's richest countries. Location matters: landlocked countries such as Chad, Niger and Mali depend on neighbours' roads and ports, which raises trade costs. Resources can help or harm: Botswana's diamonds funded roads, schools and clinics, while the DR Congo produces about 70% of the world's cobalt yet is one of the poorest countries, and Nigeria's Niger Delta oil dominates exports amid spills and conflict. Hazards can set development back: the Haiti earthquake of 2010 killed over 100,000 people, and rich countries recover faster. Political factors are at least as important. Political stability and good governance attract investment: Botswana has held regular elections since its independence in 1966. War destroys infrastructure and drives away investors: Syria's civil war from 2011 displaced millions, and South Sudan entered civil war in December 2013. Corruption diverts public money and aid, with Somalia and South Sudan at or near the bottom of the Corruption Perceptions Index. Government policy can lift development: South Korea invested in education and planned export-led industry, while mismanagement in Zimbabwe and Venezuela caused collapse. Debt and trade rules also limit poor countries, but these are covered under justice. Overall, physical factors set the conditions, and political choices largely determine whether those conditions are used well.",
+    "model": "Physical factors shape development by limiting or supporting farming, health and trade. Climate matters: repeated droughts in the Sahel since the 1970s limit farming and cause famine (drought, worsened by civil war, also lay behind the 1984 to 1985 Ethiopian famine), and malaria and other tropical diseases reduce life expectancy and workers' productivity. However, climate does not decide development, since Singapore is tropical and one of the world's richest countries. Location matters: landlocked countries such as Chad, Niger and Mali depend on neighbours' roads and ports, which raises trade costs. Resources can help or harm: Botswana's diamonds funded roads, schools and clinics, while the DR Congo produces about 70% of the world's cobalt yet is one of the poorest countries, and Nigeria's Niger Delta oil dominates exports amid spills and conflict. Hazards can set development back: the Haiti earthquake of 2010 killed over 100,000 people, and rich countries recover faster. Political factors are at least as important. Political stability and good governance attract investment: Botswana has held regular elections since its independence in 1966. War destroys infrastructure and drives away investors: Syria's civil war from 2011 displaced millions, and South Sudan entered civil war in December 2013. Corruption diverts public money and aid, with Somalia and South Sudan at or near the bottom of the Corruption Perceptions Index. Government policy can lift development: South Korea invested in education and planned export-led industry, while mismanagement in Zimbabwe and Venezuela caused collapse. Debt and trade rules also limit poor countries, but these are covered under justice. Overall, physical factors set the conditions, and political choices largely determine whether those conditions are used well.",
     "prompt": "Levels of economic development show major spatial variations. Examine how physical and political factors influence levels of development, with reference to examples you have studied.",
     "type": "short"
    },
@@ -1950,6 +2470,134 @@
    {
     "definition": "British policy from the 1920s of running northern and southern Sudan as separate regions, which laid the basis for civil war.",
     "term": "Southern Policy"
+   },
+   {
+    "definition": "Colonies sent cheap raw materials (cotton, sugar, rubber, minerals) to the colonial power and bought its manufactured goods; competing local industries were destroyed; plantations and mines used forced or slave labour; export cash crops replaced food crops.",
+    "term": "The colonial economy: four typical features"
+   },
+   {
+    "definition": "Artificial borders split some ethnic groups and grouped rivals together; 'divide and rule' and weak institutions handed over at independence led to conflict and coups; education only for a small elite; land owned by a few.",
+    "term": "Colonialism: four lasting political and social legacies"
+   },
+   {
+    "definition": "East India Company chartered 31 December 1600; Battle of Plassey 1757 (Robert Clive) began Company rule in Bengal; Rebellion of 1857; Government of India Act 1858 transferred rule to the Crown (the Raj); independence and Partition, 15 August 1947.",
+    "term": "India: five dates in British colonial rule"
+   },
+   {
+    "definition": "Cheap machine-made Lancashire cloth destroyed India's handloom textiles (Bengal cottons, Dhaka muslin), while raw cotton was shipped to the mills. Angus Maddison estimated India's share of world GDP at about a quarter around 1700 and about 4% by 1950.",
+    "term": "India: how colonial rule destroyed its textile industry"
+   },
+   {
+    "definition": "Cotton, exported to Lancashire; jute, processed in mills along the Hooghly near Calcutta; indigo, a blue dye; tea from Assam plantations from the 1830s–40s; opium, exported to China. They replaced food crops.",
+    "term": "India: five cash crops grown under British rule"
+   },
+   {
+    "definition": "The Permanent Settlement of Bengal (1793, Lord Cornwallis) took heavy land revenue through zamindars, leaving peasants in debt. Famines: the Great Famine of 1876–78; the Bengal famine of 1943 (about 2 to 3 million deaths), while grain was still exported.",
+    "term": "India: land revenue and famines under British rule"
+   },
+   {
+    "definition": "Mainly to carry raw materials to the ports of Bombay and Calcutta and to move troops, though Indians came to use them heavily. First passenger train: Bombay to Thane, 16 April 1853. Calcutta was the capital until 1911, then Delhi.",
+    "term": "India: why the railways were built, and the first line"
+   },
+   {
+    "definition": "Literacy about 18% (1951 census) and life expectancy around 32 years; Partition displaced more than 10 million and killed hundreds of thousands; Kashmir disputed with Pakistan since 1947; a civil service, courts, parliament and English, now an asset for IT.",
+    "term": "India: social and political legacies at independence"
+   },
+   {
+    "definition": "First Five-Year Plan (1951) under Jawaharlal Nehru; import substitution behind high tariffs; state steel plants at Bhilai, Rourkela and Durgapur; the Licence Raj; slow growth (the Hindu rate of growth). The Green Revolution made India self-sufficient in food.",
+    "term": "India: state-led development after 1947"
+   },
+   {
+    "definition": "Reserves fell to a few weeks of imports, so India pledged gold and borrowed from the IMF. Narasimha Rao and Manmohan Singh then removed most licences, cut tariffs, welcomed foreign investment, privatised some state firms and devalued the rupee.",
+    "term": "India's 1991 crisis: what happened and the reforms that followed"
+   },
+   {
+    "definition": "Fast growth, with services over half of GDP; an IT and outsourcing industry in Bengaluru (TCS, Infosys); multinationals encouraged by Make in India (2014); among the world's five largest economies (early 2020s) and the largest recipient of remittances (2020s).",
+    "term": "India: four results of opening up to the global economy"
+   },
+   {
+    "definition": "About nine-tenths of workers in the informal sector; about 55% in agriculture (Census 2011), with low productivity; literacy about 94% in Kerala, about 62% in Bihar (Census 2011); HDI 0.644, 134th of 193, medium (2023/24 report).",
+    "term": "India: four problems that remain after liberalisation"
+   },
+   {
+    "definition": "The Treaty of Tordesillas (1494) gave the east of South America to Portugal; Pedro Álvares Cabral reached Brazil on 22 April 1500; independence came on 7 September 1822 under Dom Pedro I.",
+    "term": "Brazil: three dates in Portuguese colonisation"
+   },
+   {
+    "definition": "Brazilwood, a red dye wood (the country's name); sugar in Pernambuco and Bahia (North-East); gold in Minas Gerais; coffee in São Paulo state (19th century); rubber at Manaus until about 1912, undercut by plantations in British South-East Asia.",
+    "term": "Brazil: the colonial export cycles in order"
+   },
+   {
+    "definition": "About 4 to 5 million enslaved Africans were taken to Brazil, more than any other country in the Americas. The Lei Áurea (Golden Law) ended slavery on 13 May 1888, the last in the Americas. Afro-Brazilians are over-represented among the poor and in favelas.",
+    "term": "Brazil: slavery and its legacy"
+   },
+   {
+    "definition": "Indigenous peoples were killed by disease, war and enslavement and lost their land: about 1.7 million today, under 1% of the population (Census 2022). Latifundia from Portuguese land grants left land with a few families; the MST (1984) campaigns for land.",
+    "term": "Brazil: effects of colonisation on indigenous people and land"
+   },
+   {
+    "definition": "Sugar's decline left the North-East poor; wealth and industry moved to the South-East (São Paulo, Rio de Janeiro, Minas Gerais), drawing migrants to favelas. SUDENE (1959) was set up to develop the North-East. Coffee dominated exports after independence.",
+    "term": "Brazil: how colonialism left regional inequality"
+   },
+   {
+    "definition": "Getúlio Vargas (1930–45, 1951–54) began state-led industry; Petrobras, 1953; Juscelino Kubitschek (1956–61): fifty years of progress in five, a car industry, Brasília (inaugurated 21 April 1960); the Brazilian miracle, about 1968–73, under military rule.",
+    "term": "Brazil: import substitution and the Brazilian miracle"
+   },
+   {
+    "definition": "Heavy foreign borrowing led to the 1980s debt crisis, the lost decade, with hyperinflation and IMF programmes. The Plano Real (1994) ended hyperinflation and introduced the real as the currency.",
+    "term": "Brazil: debt crisis and stabilisation"
+   },
+   {
+    "definition": "Vale, the iron-ore miner with Carajás mines in Pará, was privatised in 1997. Mercosur was founded in 1991 by the Treaty of Asunción with Argentina, Paraguay and Uruguay. Brazil is in BRICS: Jim O'Neill of Goldman Sachs coined BRIC in 2001; first summit 2009.",
+    "term": "Brazil: privatisation and trade blocs when opening up"
+   },
+   {
+    "definition": "Soya, iron ore, oil, beef and coffee, especially to China, Brazil's largest trading partner since 2009. Brazil is the world's largest producer and exporter of soya beans and largest coffee producer (2020s). Embraer (São José dos Campos) exports aircraft.",
+    "term": "Brazil: commodity boom and a high-tech export"
+   },
+   {
+    "definition": "Bolsa Família (2003, President Lula da Silva) pays poor families if children attend school and are vaccinated; Brazil left the FAO World Hunger Map in 2014. But inequality is among the world's highest by the Gini coefficient; HDI about 0.76 (2023/24 report).",
+    "term": "Brazil: Bolsa Família and the limits of poverty reduction"
+   },
+   {
+    "definition": "Amazon deforestation, driven mainly by cattle ranching and also soya; dependence on commodity prices, bringing recession in 2015–16 when prices fell; favelas; the North-East still the poorest region.",
+    "term": "Brazil: four costs of adjusting to the global economy"
+   },
+   {
+    "definition": "Egyptian conquest 1821; Mahdist state 1885–98 (the Mahdi's forces took Khartoum and killed General Gordon in 1885); Battle of Omdurman, 2 September 1898 (Kitchener); Anglo-Egyptian Condominium 1899–1956, in practice British rule; independence 1 January 1956.",
+    "term": "Sudan: five dates in its colonial history"
+   },
+   {
+    "definition": "Between the Blue and White Niles south of Khartoum, watered by the Sennar Dam on the Blue Nile (1925); nearly 900,000 hectares. Tenant farmers grew long-staple cotton for Lancashire mills under strict control, so Sudan depended on one crop's world price.",
+    "term": "Gezira Scheme: location, size, purpose and effect"
+   },
+   {
+    "definition": "Investment went to the Nile valley around Khartoum and Gezira; the south and Darfur were neglected. The Southern Policy (1920s) and Closed District Ordinance (1922) kept the Arab, Muslim north and the African, largely Christian and animist south apart; power then went to a northern elite.",
+    "term": "Sudan: how British rule divided the country"
+   },
+   {
+    "definition": "First civil war 1955–72, ended by the Addis Ababa Agreement; second 1983–2005, about 2 million deaths, ended by the Comprehensive Peace Agreement (January 2005). About 99% voted for independence in January 2011; South Sudan became independent on 9 July 2011.",
+    "term": "Sudan: the two civil wars and South Sudan's independence"
+   },
+   {
+    "definition": "It began in 2003. The UN estimated about 300,000 deaths, and the International Criminal Court issued an arrest warrant for President al-Bashir in 2009.",
+    "term": "Darfur conflict: start date and two key facts"
+   },
+   {
+    "definition": "Continued dependence on Gezira cotton; state-led development attempts; heavy borrowing leading to debt and IMF programmes; famine in the 1980s caused by drought and war.",
+    "term": "Sudan after independence: four features of its economy before oil"
+   },
+   {
+    "definition": "Exports began in 1999 by pipeline to Port Sudan, with China the main buyer and investor; GDP grew fast in the 2000s. Most oil lay in the south, so South Sudan's independence in 2011 took about three-quarters of output, causing inflation and protests.",
+    "term": "Sudan's oil: when exports began and why the boom ended"
+   },
+   {
+    "definition": "US listing as a state sponsor of terrorism (1993–2020) cut it off from Western banks and investment; one of the world's largest debt burdens, reaching the HIPC decision point in 2021. Exports: gum arabic (world's largest producer), gold, livestock, sesame.",
+    "term": "Sudan: isolation, debt and other primary exports"
+   },
+   {
+    "definition": "Omar al-Bashir (in power 1989–2019) was removed in April 2019 after mass protests; military coup October 2021; war between the SAF and RSF since 15 April 2023; more than 10 million displaced (2024); famine confirmed in Zamzam camp, North Darfur, August 2024.",
+    "term": "Sudan today: political turmoil since 2019"
    }
   ],
   "notes": [
@@ -2327,6 +2975,106 @@
    {
     "definition": "A fund agreed at COP27 to help poor countries pay for losses and damage caused by climate change.",
     "term": "Loss and Damage Fund"
+   },
+   {
+    "definition": "About 700 million people (under $2.15 a day, 2017 prices) in 2022, mostly in sub-Saharan Africa. The share fell from over a third in 1990 to under a tenth by 2019, especially in China; COVID-19 in 2020 caused the first rise in about a generation (World Bank).",
+    "term": "Global extreme poverty: figure, trend since 1990 and setbacks"
+   },
+   {
+    "definition": "It asks whether the distribution of wealth and power is fair, who decides and who benefits, treating development as a right, not charity. The Universal Declaration of Human Rights (10 December 1948) includes rights to food, health, education and decent work.",
+    "term": "A justice perspective: what it asks, and its human-rights basis"
+   },
+   {
+    "definition": "MDGs: eight goals, 2000 to 2015; halving the extreme-poverty share (from 1990) was met by 2010, five years early, largely thanks to China. SDGs: 17 goals adopted in September 2015 for 2030, e.g. no poverty, zero hunger, climate action; the world is off track.",
+    "term": "MDGs and SDGs: number of goals, dates and progress"
+   },
+   {
+    "definition": "They depend on a few commodities (coffee, cocoa, cotton) with low, unstable prices and worsening terms of trade; growers get a small share of the final price, most going to rich-country brands and retailers; tariff escalation discourages local processing.",
+    "term": "Unfair trade: three ways poor exporters lose out"
+   },
+   {
+    "definition": "US cotton subsidies (and the EU's Common Agricultural Policy in the past) let surpluses be dumped abroad, undercutting poor farmers such as the Cotton-4: Benin, Burkina Faso, Chad and Mali. The WTO ruled for Brazil against US cotton subsidies (2004–05).",
+    "term": "Rich-country farm subsidies: the cotton example"
+   },
+   {
+    "definition": "The WTO Doha Development Round, launched in 2001, has stalled without agreement. The EU's Everything But Arms scheme (2001) gives the least developed countries duty-free, quota-free access to the EU for all products except arms and ammunition.",
+    "term": "Two trade responses: the Doha Round and Everything But Arms"
+   },
+   {
+    "definition": "A minimum price covering sustainable production (or the market price plus premium when that is higher); a premium paid to co-operatives for schools, clinics and clean water; long-term contracts; decent conditions and no child labour; environmental standards.",
+    "term": "Fair trade: five ways it helps producers"
+   },
+   {
+    "definition": "Max Havelaar, the first label, began in the Netherlands in 1988 for Mexican coffee. Products include coffee, cocoa and bananas. Fairtrade Ireland licenses the Mark; towns and schools win Fairtrade status; Fairtrade Fortnight runs late February to March.",
+    "term": "Fair trade: first label, products and Irish links"
+   },
+   {
+    "definition": "It is a tiny share of world trade; certified products can cost consumers more; certification is expensive for small producers; it does not change the trade rules that cause unfair trade.",
+    "term": "Fair trade: four limits"
+   },
+   {
+    "definition": "1970s oil price rises gave oil exporters surplus money, which banks lent to developing countries (petrodollars). Interest rates then soared and commodity prices fell. In August 1982 Mexico said it could not pay, starting the Latin American debt crisis.",
+    "term": "The debt crisis: how it arose, in order"
+   },
+   {
+    "definition": "Repayments exceeded health and education spending: a lost decade in the 1980s. Structural adjustment cut public spending, added school and health fees and removed food subsidies, hurting the poorest. Odious debts were borrowed by dictators who stole or wasted the money, yet the people repay them.",
+    "term": "Debt: effects on poor countries, and why it is unjust"
+   },
+   {
+    "definition": "Jubilee 2000 campaigned for cancellation; the IMF and World Bank launched HIPC in 1996; the Multilateral Debt Relief Initiative followed the Gleneagles G8 summit (July 2005), backed by Make Poverty History. Over 30 countries, most in Africa, got relief.",
+    "term": "Debt relief: campaigns, initiatives and results"
+   },
+   {
+    "definition": "Emergency (humanitarian) aid after disasters; long-term development aid; bilateral, government to government; multilateral, through the UN, World Bank or EU; NGO (voluntary) aid; tied aid, which must be spent on the donor's goods or services.",
+    "term": "Name six types of aid"
+   },
+   {
+    "definition": "Set in 1970: rich countries should give 0.7% of gross national income as official development aid. Norway, Sweden, Luxembourg and Denmark have reached or exceeded it in recent years; Ireland has not yet (2020s).",
+    "term": "The UN aid target: what it is and who meets it"
+   },
+   {
+    "definition": "It saves lives in emergencies; funds schools, clinics, wells and vaccination; builds roads; trains teachers, nurses and farmers; supports women's groups and small businesses. It works best untied, targeted at the poorest, locally owned and transparent.",
+    "term": "How aid helps development, and what makes it work best"
+   },
+   {
+    "definition": "Tied aid benefits donor firms and may bring unsuitable technology; corrupt elites can steal it; food aid can undercut local farmers; it can create dependency, and loans add to debt; donors' political interests, not need, can decide who gets it.",
+    "term": "How aid can hinder development: five ways"
+   },
+   {
+    "definition": "Ireland's official aid programme, in the Department of Foreign Affairs; bilateral since 1974; untied; partners include Ethiopia, Malawi, Mozambique, Tanzania, Uganda, Zambia and Vietnam; A Better World (2019) puts the furthest behind first.",
+    "term": "Irish Aid: five facts"
+   },
+   {
+    "definition": "Concern Worldwide, 1968, in response to the famine in Biafra during Nigeria's civil war; Trócaire, 1973, by the Irish Catholic bishops, known for its Lenten box and campaigns on human rights and climate; GOAL, 1977, by John O'Shea.",
+    "term": "Three Irish NGOs: when each was founded, and by whom or why"
+   },
+   {
+    "definition": "They locate labour-intensive work (clothing, electronics assembly, mining) there. Benefits: jobs, wages above farm work, new skills. Exploitation: very low wages, long hours, unsafe factories, banned trade unions and child labour.",
+    "term": "Multinationals in low-wage countries: benefits vs exploitation"
+   },
+   {
+    "definition": "An eight-storey building of garment factories in Savar, near Dhaka, Bangladesh, collapsed on 24 April 2013, killing about 1,130 people and injuring about 2,500. Cracks had appeared the day before, but workers were ordered back in.",
+    "term": "Rana Plaza, 2013: what happened"
+   },
+   {
+    "definition": "Its factories supplied Western brands, including Primark (founded in Dublin in 1969 as Penneys), which paid compensation. In May 2013 brands and unions signed the Accord on Fire and Building Safety in Bangladesh, with independent factory inspections.",
+    "term": "Rana Plaza: the brands involved and the response"
+   },
+   {
+    "definition": "About 160 million children were in child labour in 2020 (ILO and UNICEF), about 70% in agriculture. The DR Congo produces about 70% of the world's cobalt, used in batteries; Amnesty International (2016) documented child labour in its hand-dug mines.",
+    "term": "Child labour: global figure and the cobalt example"
+   },
+   {
+    "definition": "Ethical consumer campaigns; company codes of conduct; trade unions pressing for safer, better-paid work; the EU Corporate Sustainability Due Diligence Directive (2024), making very large companies address human-rights and environmental harm in supply chains.",
+    "term": "Four responses to the exploitation of workers"
+   },
+   {
+    "definition": "Bangladesh, a low-lying delta, faces cyclones, floods and sea-level rise; Tuvalu, Kiribati and the Maldives are threatened by rising seas; sub-Saharan Africa produced only a small share of historical emissions yet its dry regions suffer drought.",
+    "term": "Climate justice: who emits least but suffers most"
+   },
+   {
+    "definition": "The Loss and Damage Fund, agreed at COP27 in Sharm el-Sheikh, Egypt (2022), made operational at COP28 in Dubai (2023); the Mary Robinson Foundation – Climate Justice (2010), set up by the former President of Ireland (1990–97).",
+    "term": "Climate justice: two responses with names and dates"
    }
   ],
   "notes": [
@@ -2620,6 +3368,102 @@
    {
     "definition": "Renewable organic material, such as wood or energy crops, burned or converted to energy.",
     "term": "Biomass"
+   },
+   {
+    "definition": "Peat: a bog grows only about 1 mm a year, far slower than it is cut, so it is used up faster than it forms. Nuclear: uranium is finite, so nuclear is a low-carbon alternative to fossil fuels but not renewable.",
+    "term": "Peat and nuclear energy: why neither is renewable"
+   },
+   {
+    "definition": "Ireland imported close to 90% of its energy before Corrib gas came ashore in 2015; the share fell after Corrib began and has risen again as Corrib's output declines; in the early 2020s Ireland still imported about three-quarters (SEAI).",
+    "term": "Ireland's energy import dependence: how it has changed"
+   },
+   {
+    "definition": "Oil just under half, the largest single source (all imported, used mainly for transport and home heating, refined at Whitegate, Co. Cork, the only refinery); natural gas about a third; renewables a little over a tenth; coal and peat small and falling (SEAI).",
+    "term": "Ireland's primary energy mix in the early 2020s"
+   },
+   {
+    "definition": "Kinsale Head, off Co. Cork: discovered 1971, produced from 1978 as Ireland's first commercial gas field, ended 2020 when depleted. Corrib, off north-west Co. Mayo: discovered 1996, first gas December 2015, processed at Bellanaboy.",
+    "term": "Kinsale Head and Corrib gas fields: key dates"
+   },
+   {
+    "definition": "For a time after 2015 Corrib supplied over half of Ireland's gas, but its output is declining; most gas now comes from Britain through interconnector pipelines from Moffat, Scotland. Gas is the largest single source of Irish electricity.",
+    "term": "Natural gas in Ireland: where it comes from now"
+   },
+   {
+    "definition": "Arigna, Co. Roscommon (mining ended 1990) and Castlecomer, Co. Kilkenny are long closed. Moneypoint, Co. Clare, on the Shannon Estuary: ESB station opened 1985, Ireland's largest (about 900 MW), burned imported coal shipped to its deep-water jetty until 2025.",
+    "term": "Coal in Ireland: native coalfields and Moneypoint"
+   },
+   {
+    "definition": "Bord na Móna, the State peat company, was founded in 1946. Peat stations at Lanesborough (Lough Ree) and Shannonbridge (West Offaly) closed in December 2020; all peat harvesting ended in January 2021; Edenderry, Co. Offaly, switched to biomass.",
+    "term": "Peat power in Ireland: how it ended"
+   },
+   {
+    "definition": "Bellacorick, Co. Mayo: the peat station closed in 2003 and was replaced by wind farms on the cutaway bog, including Oweninny. Lough Boora Discovery Park, Co. Offaly: parkland, wetlands and walking and cycling trails.",
+    "term": "Cutaway bogs: two examples of reuse"
+   },
+   {
+    "definition": "Ardnacrusha on the Shannon near Limerick (Siemens, 1929; the ESB was set up in 1927 to run it); Poulaphouca on the Liffey; Inniscarra and Carrigadrohid on the Lee; Cathaleen's Fall on the Erne; Turlough Hill, Co. Wicklow (1974), pumped storage.",
+    "term": "Hydroelectric power in Ireland: name the stations and their rivers"
+   },
+   {
+    "definition": "Wind, Ireland's main renewable, supplied about a third of electricity in the early 2020s and all renewables about two-fifths (but only a little over a tenth of primary energy). Strong, frequent Atlantic winds make western coasts and uplands the best sites.",
+    "term": "Wind energy in Ireland: its share and why it suits Ireland"
+   },
+   {
+    "definition": "Bellacorick, Co. Mayo (1992), Ireland's first commercial wind farm; Galway Wind Park, Connemara (completed 2017), one of the largest onshore; Arklow Bank Wind Park, off Co. Wicklow (2004), the first offshore, with seven turbines.",
+    "term": "Name three Irish wind farms, onshore and offshore"
+   },
+   {
+    "definition": "Solar: rapid growth since the early 2020s (solar farms, rooftop panels, SEAI home grants); wave: Atlantic Marine Energy Test Site off Belmullet, Co. Mayo; geothermal: only low-temperature ground-source heat pumps; biomass: Edenderry power station, Co. Offaly, switched from peat to biomass.",
+    "term": "Solar, wave, geothermal and biomass in Ireland: one fact each"
+   },
+   {
+    "definition": "No. The target was 16% of gross final energy consumption from renewables by 2020; Ireland reached only about 13.5%, one of the furthest from target of any EU member state.",
+    "term": "Ireland's 2020 EU renewable energy target: was it met?"
+   },
+   {
+    "definition": "Climate Action Plan: 80% of electricity from renewables and at least 5 GW of offshore wind by 2030. Climate Action and Low Carbon Development (Amendment) Act 2021: cut emissions by 51% by 2030 (compared with 2018) and reach net zero by 2050.",
+    "term": "Ireland's climate and energy targets for 2030 and 2050"
+   },
+   {
+    "definition": "Heavy reliance on cars and road freight; oil home heating in a dispersed rural settlement pattern; slow planning and grid connection for wind; no large hydro potential left; a late start on offshore wind; fast economic and population growth raising demand.",
+    "term": "Why Ireland lagged behind other EU countries on renewables"
+   },
+   {
+    "definition": "East-West Interconnector, Co. Dublin to north Wales, opened 2012; Celtic Interconnector, Co. Cork to Brittany, France, under construction and due in the late 2020s to link Ireland to the EU mainland grid.",
+    "term": "Ireland's electricity interconnectors: name two"
+   },
+   {
+    "definition": "Transport is the largest energy-using sector (SEAI), then heat for homes and businesses, then electricity generation for industry and services. Data centres used about a fifth of metered electricity in 2023 (CSO), most in the Dublin region.",
+    "term": "Energy use by sector in Ireland: order and a fast-growing user"
+   },
+   {
+    "definition": "The EU imports close to three-fifths of its energy (early 2020s, Eurostat). The North Sea (UK and Norway) is the main oil and gas province; Norway, outside the EU, pipes gas to it. Core Germany and France consume most; peripheral Ireland imports.",
+    "term": "European energy supply: imports and the main suppliers"
+   },
+   {
+    "definition": "Before 2022 Russia supplied about two-fifths of the EU's imported gas. Russia invaded Ukraine in February 2022 and gas and electricity prices soared. REPowerEU (May 2022): save energy, import more LNG (much from the USA), speed up renewables.",
+    "term": "Russia, Ukraine and REPowerEU: what happened in 2022"
+   },
+   {
+    "definition": "France: nuclear power supplies about two-thirds of its electricity. Poland: coal generates well over half of its electricity (early 2020s).",
+    "term": "France and Poland: contrasting electricity mixes"
+   },
+   {
+    "definition": "A long-term switch to renewables. After Fukushima (March 2011) Germany phased out nuclear; its last three reactors closed on 15 April 2023. It still burns lignite from open-cast mines in the Rhineland; a 2020 law ends coal power by 2038 at the latest.",
+    "term": "Germany's Energiewende: three key facts"
+   },
+   {
+    "definition": "Denmark: wind about half, an early leader and home of turbine maker Vestas. Norway: hydro about 90% (mountains, high rainfall, glacial lakes). Iceland: geothermal and hydro almost all; about 9 in 10 homes heated geothermally.",
+    "term": "Denmark, Norway and Iceland: how each makes its electricity"
+   },
+   {
+    "definition": "The 20% target for 2020 was achieved, at about 22%; the revised Renewable Energy Directive (2023) requires at least 42.5% by 2030; renewables supplied about a quarter of EU gross final energy consumption in 2023.",
+    "term": "EU renewable energy targets: 2020 and 2030"
+   },
+   {
+    "definition": "Fossil fuels still supply most of the EU's energy, and oil is the largest single source, mainly for transport. Transport, households and industry each take roughly a quarter to a third of final energy; services take less.",
+    "term": "EU energy consumption: by fuel and by sector"
    }
   ],
   "notes": [
@@ -2839,7 +3683,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "A resource is anything people use to meet their needs. Non-renewable resources such as coal, oil, natural gas and peat formed over millions of years and will run out, whereas renewable resources such as wind, solar, hydro, wave, tidal and geothermal are replaced naturally. Ireland has few fossil fuels of its own and imported close to 90% of its energy before Corrib gas came ashore in 2015, and it still imported about three-quarters of its energy in the early 2020s. Oil is the largest single source of primary energy, used mainly for transport and home heating, and all of it is imported through Whitegate, Co. Cork, Ireland's only refinery. Natural gas is about a third of primary energy: Kinsale Head, off Co. Cork, was Ireland's first commercial gas field from 1978 until production ended in 2020, and Corrib, off Co. Mayo, supplied over half of Irish gas for a time after 2015 before its output began to decline; most gas now comes from Britain by pipeline from Moffat, Scotland, and gas is the largest source of electricity. Coal is small and falling: Moneypoint, Co. Clare, opened in 1985 and burned imported coal until it stopped in 2025. Peat is non-renewable and is being phased out: Bord na Móna's peat-fired stations at Lanesborough and Shannonbridge closed in December 2020, harvesting ended in January 2021, and Edenderry switched to biomass. Renewables supply a little over a tenth of primary energy but about two-fifths of electricity. Hydro's major scheme is Ardnacrusha on the Shannon, opened in 1929, and Turlough Hill is a pumped-storage station, though little potential is left for large new schemes. Wind is the main renewable, supplying about a third of electricity, with Bellacorick, Co. Mayo, as the first commercial wind farm in 1992 and Arklow Bank, off Co. Wicklow, as the first offshore farm in 2004. Solar is growing rapidly, while wave energy is at the Belmullet test site. Ireland missed its 2020 target of 16% renewables, reaching about 13.5%, and its Climate Action Plan aims for 80% renewable electricity by 2030. Interconnectors to Wales (2012) and France (due in the late 2020s) improve energy security.",
+    "model": "A resource is anything people use to meet their needs. Non-renewable resources such as coal, oil, natural gas and peat formed over millions of years and will run out, whereas renewable resources such as wind, solar, hydro, wave, tidal and geothermal are replaced naturally. Ireland has few fossil fuels of its own and imported close to 90% of its energy before Corrib gas came ashore in 2015, and it still imported about three-quarters of its energy in the early 2020s. Oil is the largest single source of primary energy, used mainly for transport and home heating, and all of it is imported through Whitegate, Co. Cork, Ireland's only refinery. Natural gas is about a third of primary energy: Kinsale Head, off Co. Cork, was Ireland's first commercial gas field from 1978 until production ended in 2020, and Corrib, off Co. Mayo, supplied over half of Irish gas for a time after 2015 before its output began to decline; most gas now comes from Britain by pipeline from Moffat, Scotland, and gas is the largest source of electricity. Coal is small and falling: Moneypoint, Co. Clare, opened in 1985 and burned imported coal until it stopped in 2025. Peat is non-renewable and is being phased out: the ESB's peat-fired stations at Lanesborough and Shannonbridge, supplied by Bord na Móna, closed in December 2020, harvesting ended in January 2021, and Edenderry switched to biomass. Renewables supply a little over a tenth of primary energy but about two-fifths of electricity. Hydro's major scheme is Ardnacrusha on the Shannon, opened in 1929, and Turlough Hill is a pumped-storage station, though little potential is left for large new schemes. Wind is the main renewable, supplying about a third of electricity, with Bellacorick, Co. Mayo, as the first commercial wind farm in 1992 and Arklow Bank, off Co. Wicklow, as the first offshore farm in 2004. Solar is growing rapidly, while wave energy is at the Belmullet test site. Ireland missed its 2020 target of 16% renewables, reaching about 13.5%, and its Climate Action Plan aims for 80% renewable electricity by 2030. Interconnectors to Wales (2012) and France (due in the late 2020s) improve energy security.",
     "prompt": "Examine the use of renewable and non-renewable energy resources in Ireland.",
     "type": "short"
    },
@@ -2898,6 +3742,106 @@
    {
     "definition": "The breakdown of organic waste without oxygen, which produces biogas.",
     "term": "Anaerobic digestion"
+   },
+   {
+    "definition": "Middle East (e.g. Saudi Arabia, Iran, Iraq): about half of proven oil reserves; Venezuela: the most of any one country; USA: top oil producer since the late 2010s (fracking); Russia and Qatar (LNG): leading gas exporters; China: about half the world's coal.",
+    "term": "World fossil fuels: where oil, gas and coal are produced"
+   },
+   {
+    "definition": "Fossil fuels give about four-fifths of world primary energy. The USA, Canada and Australia use many times more energy per person than India or most of sub-Saharan Africa; demand grows fastest in Asia; China emits most CO2 in total, the USA far more per person.",
+    "term": "World fossil fuels: share of energy and who consumes them"
+   },
+   {
+    "definition": "Carbon dioxide, the main greenhouse gas; sulphur dioxide, mainly from coal and heavy oil; nitrogen oxides, mainly from vehicles and power stations; smoke and fine particles (soot); carbon monoxide.",
+    "term": "Burning fossil fuels: name five pollutants released"
+   },
+   {
+    "definition": "Coal-fired power stations, heavy industry and vehicles emit SO2 and NOx; these dissolve in water vapour to form sulphuric and nitric acids; the acids fall as wet deposition in rain or as dry deposition of acidic particles and gases.",
+    "term": "Acid rain: how it forms, step by step"
+   },
+   {
+    "definition": "Emissions from Britain and Germany were carried by the prevailing south-westerly winds to Norway and Sweden. In the Black Triangle (former East Germany, Poland, Czechia) lignite-burning power stations caused severe forest death in the 1970s and 1980s.",
+    "term": "Acid rain in Europe: where it came from and where it fell"
+   },
+   {
+    "definition": "Forests lose needles and leaves as nutrients are leached (Waldsterben, Black Forest, 1980s); thousands of Scandinavian lakes acidified as aluminium from the soil killed fish; limestone and marble buildings dissolve; metal corrodes; respiratory illness.",
+    "term": "Acid rain: five effects to describe"
+   },
+   {
+    "definition": "The 1979 Convention on Long-Range Transboundary Air Pollution (UNECE, Geneva); EU limits on large power stations; flue-gas desulphurisation, fitted at Moneypoint in the late 2000s; catalytic converters, compulsory on new EU petrol cars from 1993.",
+    "term": "Acid rain: four responses that cut emissions"
+   },
+   {
+    "definition": "Low-sulphur fuels; switching from coal to gas and renewables; Sweden and Norway have limed acidified lakes since the 1970s and 1980s. European SO2 emissions have fallen by well over three-quarters since 1990 (EEA), and many lakes are recovering.",
+    "term": "Acid rain: other responses and the outcome"
+   },
+   {
+    "definition": "Homes burning coal and turf release smoke and fine particles; in calm, cold winter weather an anticyclone creates a temperature inversion that traps the smoke near the ground as smog, causing bronchitis, asthma, heart and lung disease and extra deaths.",
+    "term": "Smog: how it forms and its health effects"
+   },
+   {
+    "definition": "London's Great Smog (December 1952, about 4,000 deaths at the time) led to the UK Clean Air Act 1956 and smokeless zones. Severe winter smogs in the early 1980s led Dublin to ban the sale of smoky (bituminous) coal from 1 September 1990.",
+    "term": "London 1952 and Dublin 1990: smoke-control laws and their causes"
+   },
+   {
+    "definition": "Black smoke fell by about 70%; a Lancet study (2002) linked the ban to about 350 fewer deaths a year from respiratory and heart disease. Extended to Cork in 1995, then to other large towns as low-smoke zones; 2022 rules restrict smoky fuels and wet wood.",
+    "term": "Dublin smoky-coal ban: results and extension"
+   },
+   {
+    "definition": "Strong, frequent Atlantic winds make wind Ireland's main renewable, about a third of electricity in the early 2020s (Galway Wind Park onshore, Arklow Bank offshore). But output varies, and residents object to noise, shadow flicker and visual impact.",
+    "term": "Wind energy in Ireland: an advantage, drawbacks and examples"
+   },
+   {
+    "definition": "On 16 October 2003, during construction of a wind farm on bog, a peat slide of about 450,000 m³ occurred. In 2019 the EU Court of Justice fined Ireland for the lack of a proper environmental impact assessment.",
+    "term": "Derrybrien wind farm, Co. Galway: what went wrong"
+   },
+   {
+    "definition": "Dams and reservoirs; run-of-river schemes; pumped storage, as at Turlough Hill, Co. Wicklow (1974), whose output can be raised quickly at peak times. Ireland has little potential left for large new schemes; Norway gets about 90% of its electricity from hydro.",
+    "term": "Hydroelectric power: methods, an advantage and a drawback in Ireland"
+   },
+   {
+    "definition": "Photovoltaic panels make electricity and solar thermal panels heat water. Solar has grown rapidly in Ireland since the early 2020s (solar farms on farmland, rooftop panels, SEAI grants), but cloud cover and short winter days limit output.",
+    "term": "Solar energy: two types and its limit in Ireland"
+   },
+   {
+    "definition": "Wave: Atlantic Marine Energy Test Site off Belmullet, Co. Mayo. Tidal barrage: La Rance estuary, Brittany, France (1966). Tidal stream: SeaGen, Strangford Lough, Co. Down (2008), first commercial-scale turbine, since removed. Tides are predictable but costly.",
+    "term": "Wave and tidal energy: name three sites and their technology"
+   },
+   {
+    "definition": "Wood chip, energy crops (willow, miscanthus) and biogas from slurry and food waste; biofuels blended into Irish road fuels by law; Edenderry, Co. Offaly, converted from peat. Carbon-neutral in principle, but energy crops compete with food for land.",
+    "term": "Biomass and biofuels: sources, an Irish example and one drawback"
+   },
+   {
+    "definition": "Fission (splitting uranium atoms) releases heat to make steam for turbines; France gets about two-thirds of its electricity this way. For: low carbon, reliable, large output. Against: radioactive waste, accident risk, very high cost, decommissioning.",
+    "term": "Nuclear power: how it works, advantages and disadvantages"
+   },
+   {
+    "definition": "Chernobyl, Ukraine (then USSR), 26 April 1986: a reactor exploded and fallout spread across Europe, including Ireland; a 30 km exclusion zone remains. Fukushima Daiichi, Japan, 11 March 2011: an earthquake and tsunami cut cooling, causing meltdowns.",
+    "term": "Chernobyl and Fukushima: what happened"
+   },
+   {
+    "definition": "Banned by the Electricity Regulation Act 1999; public protests stopped the ESB's 1970s plan for Carnsore Point, Co. Wexford; a small grid; high cost and waste disposal; fears raised by Chernobyl and by Sellafield's discharges into the Irish Sea.",
+    "term": "Why Ireland has no nuclear power station: five reasons"
+   },
+   {
+    "definition": "Inexhaustible; little or no CO2, SO2 or NOx; a smaller fossil-fuel import bill and better energy security; jobs, often in rural areas; free fuel once built; help to meet EU and national targets and avoid penalties.",
+    "term": "Renewable energy: six general advantages"
+   },
+   {
+    "definition": "Intermittent, so backup or storage is needed; high initial cost; visual impact, noise and local objections; remote sites need grid connections; habitat damage, such as birds killed by turbines, valleys flooded by dams and peat slides at wind farms on bog.",
+    "term": "Renewable energy: five general disadvantages"
+   },
+   {
+    "definition": "Ireland imported about three-quarters of its energy in the early 2020s at a cost of billions of euro a year, so renewables cut the import bill and price shocks; interconnectors allow exports; rural jobs and income; green power attracts multinationals.",
+    "term": "Renewable energy in Ireland: economic reasons it is crucial"
+   },
+   {
+    "definition": "Renewables help meet the Climate Action Plan target of 80% renewable electricity by 2030 and avoid the cost of buying compliance when EU targets are missed; cutting CO2, SO2 and NOx gives cleaner air and water.",
+    "term": "Renewable energy in Ireland: environmental and target reasons"
+   },
+   {
+    "definition": "A high, exposed upland or coastal site with strong winds; away from houses (noise, shadow flicker); near an access road for construction; close to the grid (a transmission line); not in a protected area or on deep peat, ideally on land of low farming value.",
+    "term": "Siting a wind farm on an OS map: five factors to check"
    }
   ],
   "notes": [
@@ -3177,6 +4121,106 @@
    {
     "definition": "Polluted liquid that drains from landfill and can contaminate water.",
     "term": "Leachate"
+   },
+   {
+    "definition": "CO2: burning fossil fuels, deforestation and cement. Methane: cattle and sheep, rice paddies, landfill and gas leaks. Nitrous oxide: nitrogen fertilisers and slurry. CFCs and other fluorinated gases: fridges, air conditioning and aerosols.",
+    "term": "Greenhouse gases: name each gas and its main sources"
+   },
+   {
+    "definition": "About 280 ppm before the Industrial Revolution; passed 400 ppm in the mid-2010s; over 420 ppm by the mid-2020s. Measured at Mauna Loa, Hawaii, since 1958.",
+    "term": "Global warming evidence: how CO2 levels have changed"
+   },
+   {
+    "definition": "Global surface temperature up about 1.1 to 1.2 °C since the late 1800s (IPCC); 2024 the warmest year on record and the first above 1.5 °C (Copernicus); Arctic summer sea ice down about 13% per decade since 1979; sea level up about 20 cm, 1901 to 2018.",
+    "term": "Global warming evidence: temperature, ice and sea level"
+   },
+   {
+    "definition": "Sea-level rise threatens Bangladesh (Ganges-Brahmaputra delta), the Maldives, Tuvalu and Kiribati; worse heatwaves, floods and droughts (the Sahel); coral bleaching on the Great Barrier Reef since the late 1990s; retreating glaciers threaten water supplies.",
+    "term": "Global warming: global effects, with named places"
+   },
+   {
+    "definition": "Average temperature up about 0.9 °C since 1900 (EPA, Met Éireann); wetter winters and more flooding; risk of summer drought; stronger storms and coastal erosion (Storm Éowyn, January 2025, record damage and power cuts); changes to farming and marine species.",
+    "term": "Global warming: effects on Ireland"
+   },
+   {
+    "definition": "Agriculture over a third, the largest share (methane and nitrous oxide from cattle, slurry and fertiliser); transport next, about a fifth (EPA, early 2020s); then energy. Ireland's emissions per person are high for an EU country.",
+    "term": "Ireland's greenhouse gas emissions: the main sources"
+   },
+   {
+    "definition": "UNFCCC: Earth Summit, Rio de Janeiro, 1992. Kyoto Protocol (1997, in force 2005): binding cuts for developed countries only; the USA never ratified it. Paris Agreement (2015): warming well below 2 °C, aiming for 1.5 °C; each country sets its own plan.",
+    "term": "Global climate agreements: Rio, Kyoto and Paris"
+   },
+   {
+    "definition": "EU Emissions Trading System (2005): power stations and heavy industry must hold an allowance for each tonne of CO2. European Green Deal (2019): climate neutral by 2050; Fit for 55: cut net emissions by at least 55% by 2030 compared with 1990.",
+    "term": "EU responses to global warming: ETS and the Green Deal"
+   },
+   {
+    "definition": "Climate Act 2021: 51% cut by 2030 (vs 2018), net zero by 2050; sectoral ceilings (2022): agriculture to cut 25% by 2030; carbon tax since 2010, rising towards €100 a tonne by 2030; Climate Action Plan: retrofit 500,000 homes to B2 by 2030.",
+    "term": "Ireland's responses to global warming: law, tax and plan"
+   },
+   {
+    "definition": "Improve energy efficiency and insulate homes; use public transport, cycling and walking instead of the car; reduce food waste; switch to renewable heating.",
+    "term": "Reducing emissions: four things individuals and communities can do"
+   },
+   {
+    "definition": "Nitrogen and phosphorus from slurry, manure and chemical fertilisers wash off fields into rivers and lakes, especially after heavy rain or when spread on wet or frozen ground; silage effluent, and sewage from towns and septic tanks, add more.",
+    "term": "Agricultural water pollution in Ireland: causes"
+   },
+   {
+    "definition": "Nutrients feed rapid growth of algae (algal blooms); when the algae die, bacteria decomposing them use up the dissolved oxygen; fish and other life suffocate; the water turns green and smells, and some blue-green algae are toxic.",
+    "term": "Eutrophication: the sequence from fertiliser to fish kill"
+   },
+   {
+    "definition": "Loss of fish and other wildlife; damage to angling and tourism; drinking water needs costly treatment and nitrates contaminate groundwater; algal mats in estuaries and coastal waters.",
+    "term": "Agricultural water pollution: four effects"
+   },
+   {
+    "definition": "EPA (2016 to 2021): only about half of rivers, lakes and estuaries in good or high ecological status; agriculture the main pressure, then urban wastewater. After milk quotas ended on 1 April 2015 the dairy herd grew, raising nitrogen in the south and east.",
+    "term": "Irish water quality: EPA findings and the dairy expansion"
+   },
+   {
+    "definition": "Summer 2023: a huge toxic blue-green algal bloom covered much of Lough Neagh, Northern Ireland, the island's largest lake. Causes: farm runoff, sewage, septic tanks, warm weather and invasive zebra mussels clearing the water. A major drinking-water source.",
+    "term": "Lough Neagh algal bloom, 2023: what happened and why"
+   },
+   {
+    "definition": "Nitrates Directive (EU, 1991) and Nitrates Action Programme: winter closed periods for spreading, nitrogen limits per hectare, slurry storage, buffer strips. Water Framework Directive (EU, 2000): good status for all waters. Upgraded urban wastewater treatment.",
+    "term": "Agricultural water pollution: how it is being reduced"
+   },
+   {
+    "definition": "Tanker accidents; drilling blow-outs, such as Deepwater Horizon (BP), Gulf of Mexico, 20 April 2010, which killed 11 workers and spilled about 4.9 million barrels; illegal tank washing at sea; pipeline leaks.",
+    "term": "Marine oil pollution: four causes, with a drilling example"
+   },
+   {
+    "definition": "The tanker ran aground on Bligh Reef, Prince William Sound, Alaska, on 24 March 1989, spilling about 11 million US gallons (about 37,000 tonnes) of crude oil and oiling about 2,000 km of coastline.",
+    "term": "Exxon Valdez, 1989: where, when and how much oil"
+   },
+   {
+    "definition": "Hundreds of thousands of seabirds and thousands of sea otters were killed, and the herring fishery collapsed. The US Oil Pollution Act 1990 then required double-hulled tankers in US waters.",
+    "term": "Exxon Valdez: effects on wildlife and the legal response"
+   },
+   {
+    "definition": "The single-hulled tanker broke in two and sank off Galicia, Spain, in November 2002, spilling tens of thousands of tonnes of heavy fuel oil on coasts of Spain, Portugal and France; Galician fishing shut for months; the EU sped up its single-hull phase-out.",
+    "term": "Prestige oil spill, 2002: what happened and the effects"
+   },
+   {
+    "definition": "Effects: oiled seabirds and mammals, smothered shorelines, fishing bans, lost tourism. Clean-up: booms contain the oil, skimmers remove it, dispersants break it up. Prevention: double-hulled tankers and routing ships away from coasts.",
+    "term": "Oil spills: effects, clean-up methods and prevention"
+   },
+   {
+    "definition": "Causes: single-use packaging, litter, illegal dumping, landfill; plastic takes hundreds of years to break down. Effects: wildlife entanglement and ingestion; the Great Pacific Garbage Patch; microplastics in food chains; landfill leachate and methane.",
+    "term": "Plastic and waste pollution: causes and effects"
+   },
+   {
+    "definition": "Plastic bag levy (March 2002, 15 cent; 22 cent from 2007) cut bag use by over 90% almost at once; Deposit Return Scheme (Re-turn) since 1 February 2024 for drinks bottles and cans; the waste hierarchy; Poolbeg Waste-to-Energy incinerator, Dublin, since 2017.",
+    "term": "Irish responses to plastic and waste pollution"
+   },
+   {
+    "definition": "CFCs from aerosols, fridges and air conditioning destroy stratospheric ozone, which absorbs ultraviolet radiation. The Antarctic ozone hole was reported in 1985 (British Antarctic Survey). More UV causes skin cancer and cataracts and harms plankton and crops.",
+    "term": "Ozone depletion: cause, discovery and effects"
+   },
+   {
+    "definition": "Agreed in 1987, it phased out CFCs, and every UN member state has ratified it. The Antarctic ozone layer should recover to 1980 levels around the 2060s (UN, 2023). It is often called the most successful global environmental agreement.",
+    "term": "Montreal Protocol: what it did and the outcome"
    }
   ],
   "notes": [
@@ -3458,6 +4502,102 @@
    {
     "definition": "An economic model that keeps products and materials in use for as long as possible through reuse, repair and recycling.",
     "term": "Circular economy"
+   },
+   {
+    "definition": "Defined in the Brundtland Report, Our Common Future (1987); it balances environmental protection, economic growth and social fairness. The later Rio Earth Summit (1992) produced Agenda 21; the UN Sustainable Development Goals (2015) set 17 goals for 2030.",
+    "term": "Sustainable development: who defined it, its pillars and global framework"
+   },
+   {
+    "definition": "Set up under the Environmental Protection Agency Act 1992 and began work in 1993; an independent public body with its headquarters at Johnstown Castle, Co. Wexford.",
+    "term": "The EPA: when and how it was set up"
+   },
+   {
+    "definition": "Large industries (pharmaceutical and chemical plants, power stations, intensive pig and poultry farms, cement works, mines) and waste facilities; the licence sets emission limits, and one licence covers air, water, waste and noise.",
+    "term": "EPA licensing: who needs a licence and what it covers"
+   },
+   {
+    "definition": "Monitors rivers, lakes, estuaries, groundwater and bathing waters; runs the national air quality network and greenhouse gas inventory; publishes a State of the Environment report every four years; radiological protection, including radon, since 2014.",
+    "term": "EPA monitoring and reporting: four roles"
+   },
+   {
+    "definition": "Inspections; the Office of Environmental Enforcement (2003) prosecutes polluters; oversight of local authorities. Limits: it cannot inspect everywhere, diffuse pollution from thousands of farms is hard to police, and local authorities share responsibility.",
+    "term": "EPA enforcement and the limits of its control"
+   },
+   {
+    "definition": "The EU Environmental Impact Assessment Directive (1985), applied in Irish planning law, requires one for projects above set sizes: motorways, power stations, wind farms, mines and quarries, large intensive farms, pipelines, ports and airports.",
+    "term": "Environmental impact assessment: legal basis and projects covered"
+   },
+   {
+    "definition": "A description of the project; the existing environment (baseline); likely effects on people, wildlife, soil, water, air, climate, landscape, heritage, traffic and noise; alternatives considered; mitigation measures; a non-technical summary for the public.",
+    "term": "EIAR: what the report must contain"
+   },
+   {
+    "definition": "First the developer, often with consultants, prepares the EIAR; then the public and bodies such as the National Parks and Wildlife Service make submissions; finally the planning authority or An Coimisiún Pleanála (An Bord Pleanála until 2025) decides.",
+    "term": "Environmental impact assessment: the three-step process"
+   },
+   {
+    "definition": "They prevent damage before it happens, which is cheaper than clean-up; they make developers consider alternatives; they give the public a say; they are legally required, as the Derrybrien case shows.",
+    "term": "Why environmental impact studies are necessary: four reasons"
+   },
+   {
+    "definition": "A peat slide occurred on 16 October 2003 during wind-farm construction on bog. In 2019 the EU Court of Justice fined Ireland a lump sum of €5 million plus €15,000 a day because no proper environmental impact assessment had been carried out.",
+    "term": "Derrybrien, Co. Galway: the cost of no proper EIA"
+   },
+   {
+    "definition": "Modern technology (sonar, satellite navigation, factory ships, huge nets); too many boats chasing the same stock; subsidies that keep fleets fishing; young fish caught before they breed; discards; illegal fishing outside the quota system.",
+    "term": "Overfishing: six causes"
+   },
+   {
+    "definition": "Catches rose sharply with factory trawlers from the 1960s and the stock collapsed; Canada banned northern cod fishing on 2 July 1992; about 30,000 people lost their jobs, the largest single lay-off in Canadian history; recovery has been slow and partial.",
+    "term": "Grand Banks cod collapse, Newfoundland: what happened and the effects"
+   },
+   {
+    "definition": "Overfished in the 1960s and 1970s; the fishery was closed from 1977 to the early 1980s; the stock recovered after the fishery reopened under strict quotas.",
+    "term": "North Sea herring: collapse and recovery"
+   },
+   {
+    "definition": "CFP (1983): total allowable catches divided into national quotas; minimum mesh and landing sizes; closed areas and seasons; vessel decommissioning; marine protected areas, with aquaculture as an alternative to wild catch.",
+    "term": "Common Fisheries Policy: five conservation measures"
+   },
+   {
+    "definition": "The 2013 reform: fish at maximum sustainable yield and a landing obligation ending discards, phased in 2015 to 2019. Monitoring by satellite, the Sea-Fisheries Protection Authority (2007) and Naval Service patrols within the 200-nautical-mile zone.",
+    "term": "CFP 2013 reform and monitoring in Irish waters"
+   },
+   {
+    "definition": "Mackerel is the most valuable Irish catch, landed mainly at Killybegs, Co. Donegal, Ireland's largest fishing port and base of the pelagic fleet. Conservation limits cause hardship for fishing communities that depend on the stocks.",
+    "term": "Irish fishing: most valuable catch and main port"
+   },
+   {
+    "definition": "Avoca, Co. Wicklow: centuries of copper mining left acid mine drainage that still pollutes the Avoca River. Tara Mines, Navan, Co. Meath, Europe's largest zinc mine: EPA licence, lined tailings facility, water monitoring, restoration plans.",
+    "term": "Mining past and present: Avoca compared with Tara Mines"
+   },
+   {
+    "definition": "Lisheen, Co. Tipperary, a zinc and lead mine, closed in 2015 and its site was rehabilitated. A new mine needs an EIAR and a closure and restoration plan backed by a financial bond before it opens.",
+    "term": "Mine rehabilitation: Lisheen and the rules for new mines"
+   },
+   {
+    "definition": "Bord na Móna (1946) harvesting removed raised bogs, released stored carbon and destroyed habitats. Harvesting ended in January 2021; cutaway bogs are rewetted or reused (Lough Boora parkland, Bellacorick wind farms); Midland workers need a just transition.",
+    "term": "Peatlands: from industrial harvesting to restoration"
+   },
+   {
+    "definition": "From the 1960s the Amu Darya and Syr Darya, which feed the Aral Sea (Kazakhstan and Uzbekistan), were diverted to irrigate cotton in the Soviet Union; the sea shrank to a fraction of its size, split into separate lakes and grew saltier.",
+    "term": "Aral Sea: what was done and what happened to the sea"
+   },
+   {
+    "definition": "Fishing collapsed; ports such as Moynaq (Uzbekistan) were stranded far from the water; dust storms spread salt and pesticides, harming health. The Kok-Aral dam (Kazakhstan, 2005) raised the small northern sea, and fishing there has partly revived.",
+    "term": "Aral Sea: effects on people and the partial recovery"
+   },
+   {
+    "definition": "REPS (Rural Environment Protection Scheme, 1994), now ACRES; Origin Green, Bord Bia's sustainability programme (2012); BurrenLIFE (2005 to 2010), which paid Burren farmers to manage limestone grassland by winter grazing, now the Burren Programme.",
+    "term": "Sustainable farming in Ireland: name three schemes"
+   },
+   {
+    "definition": "The Irish carbon tax (2010); the plastic bag levy (March 2002); the landfill levy on waste sent to landfill; the EU Emissions Trading System (2005), under which companies pay for the emissions they release.",
+    "term": "The polluter pays: four examples in Ireland"
+   },
+   {
+    "definition": "Cost: clean technology, retrofitting and rehabilitation are expensive; short-term economic pressure favours quick profit; jobs in traditional industries such as peat and fishing are at risk; global cooperation is needed because pollution crosses borders.",
+    "term": "Sustainable development: four obstacles"
    }
   ],
   "notes": [
@@ -3791,6 +4931,102 @@
    {
     "definition": "A visitor building that explains a site's natural or historic features, such as the one planned near Mullaghmore.",
     "term": "Interpretative centre"
+   },
+   {
+    "definition": "About 80 km off north-west Co. Mayo; discovered 1996; gas first flowed December 2015, processed at Bellanaboy; for a time over half of Ireland's gas. Arguments for: energy security, a domestic supply, revenue for the State and companies, construction jobs.",
+    "term": "Corrib gas, Co. Mayo: the economic case"
+   },
+   {
+    "definition": "The plan piped high-pressure, unprocessed gas onshore near homes at Rossport, a safety risk for residents; Shell to Sea (from 2005) argued it should be processed at sea; the pipeline route crossed Sruwaddacon Bay, a protected estuary (SAC).",
+    "term": "Corrib gas: local objections and the Shell to Sea campaign"
+   },
+   {
+    "definition": "The Rossport Five were jailed in June 2005 for defying a court order not to obstruct pipeline work, freed after 94 days; policing was heavy and the community divided; the route moved away from homes, with a tunnel under Sruwaddacon Bay; Shell sold out in 2018.",
+    "term": "Corrib gas: protests and outcome"
+   },
+   {
+    "definition": "Fishermen and coastal communities such as Killybegs need catches for jobs; the CFP (1983) conserves stocks by dividing EU total allowable catches into national quotas. Irish fishermen argue Ireland's share of its own rich waters is too small, with much taken by other EU fleets.",
+    "term": "Irish fish stocks: the conflict over EU quotas"
+   },
+   {
+    "definition": "The Brexit deal (December 2020) cut Irish quotas and a scheme paid owners to scrap vessels. From 2010 Iceland and the Faroes set themselves large mackerel quotas; the EU, backed by Irish fishermen, imposed trade measures on the Faroes over herring and mackerel in 2013; the dispute eased in 2014.",
+    "term": "Irish fish stocks: Brexit, decommissioning and the mackerel dispute"
+   },
+   {
+    "definition": "Ireland banned drift-net fishing for wild salmon at sea from 2007 because returning salmon had fallen sharply. Commercial salmon fishermen were compensated; anglers and conservation groups backed the ban, as wild salmon sustain angling tourism.",
+    "term": "Wild salmon drift-net ban: the two sides"
+   },
+   {
+    "definition": "In the early 1990s the OPW began building an interpretative centre and car park near Mullaghmore, Co. Clare, a hill of folded, terraced limestone in the Burren National Park, with rare plants such as spring gentian and mountain avens.",
+    "term": "Mullaghmore, the Burren: what was planned and why the site matters"
+   },
+   {
+    "definition": "Supporters: tourism jobs and visitor spending in a poor rural area, and better visitor management. The Burren Action Group: traffic, sewage and visitor pressure would damage a fragile, unspoilt landscape, and any centre should be in nearby villages.",
+    "term": "Mullaghmore: the two sides of the conflict"
+   },
+   {
+    "definition": "In 1993 the Supreme Court ruled that the State had to obtain planning permission like any other developer, and work stopped. In 2000 An Bord Pleanála refused permission, and the partly built site was cleared and restored.",
+    "term": "Mullaghmore: legal challenge and outcome"
+   },
+   {
+    "definition": "UNESCO World Heritage monastic site (1996) run by the OPW; Star Wars filming (from 2014) boosted demand. Boat operators want more access; conservationists fear for the site and its seabirds. Access is by licensed boats in summer, about 180 visitors a day.",
+    "term": "Skellig Michael, Co. Kerry: the conflict and how it is managed"
+   },
+   {
+    "definition": "The M3 (Clonee to north of Kells) relieves congestion on the N3 for fast-growing Meath commuter towns such as Navan and Kells and cuts journey times to Dublin. It runs through the Tara–Skryne valley, about 2 km from the Hill of Tara.",
+    "term": "M3 and the Hill of Tara: the economic case for the road"
+   },
+   {
+    "definition": "Campaign groups, archaeologists and protesters camped on the route said it would destroy an archaeological landscape. In 2007 a prehistoric enclosure at Lismullin was declared a national monument, excavated and recorded, then built over. The M3 opened in 2010.",
+    "term": "M3 and the Hill of Tara: objections and outcome"
+   },
+   {
+    "definition": "Rural families: a traditional right and cheap fuel. Conservation: rare raised bogs that store carbon. Under the Habitats Directive (1992), cutting was banned on 53 raised-bog SACs from 2011; compensation: about €1,500 a year for 15 years; cutters protested.",
+    "term": "Turf cutting on protected raised bogs: the conflict and outcome"
+   },
+   {
+    "definition": "For: renewable targets (at least 5 GW offshore wind by 2030), landowner income, community funds. Against: visual impact, noise, shadow flicker, property values, birds, peat stability (the 2003 Derrybrien slide, Co. Galway); offshore, fishing grounds.",
+    "term": "Wind farms: the two sides of the conflict"
+   },
+   {
+    "definition": "After milk quotas ended on 1 April 2015 the herd grew strongly, raising farm incomes and food exports; however, nitrates harm water quality, agriculture produces over a third of Irish emissions, and sectoral ceilings (2022) require a 25% cut by 2030.",
+    "term": "Dairy expansion since 2015: economic vs environmental interests"
+   },
+   {
+    "definition": "For: investment, multinational jobs, the tech economy. Against: they used about a fifth of metered electricity in 2023 (CSO), mostly in the Dublin region, straining the grid and climate targets; in 2022 EirGrid paused new Dublin connections until about 2028.",
+    "term": "Data centres in Ireland: the conflict over electricity"
+   },
+   {
+    "definition": "Cattle ranching (most cleared land becomes pasture); soya in the south; logging; the Trans-Amazonian Highway (begun 1970) with fishbone clearings, as in Rondônia; the Carajás iron-ore mine, Pará (Vale); the Belo Monte dam on the Xingu (2019).",
+    "term": "Amazon rainforest: the economic drivers of clearing"
+   },
+   {
+    "definition": "About 60% of the world's largest tropical rainforest is in Brazil. It holds biodiversity, stores carbon, recycles rainfall and is home to indigenous peoples such as the Kayapó. Clearing adds to climate change, yet Brazil wants development.",
+    "term": "Amazon rainforest: environmental and global interests"
+   },
+   {
+    "definition": "About 27,800 km² cleared in 2004; cut by over 80% to about 4,600 km² by 2012; rose again to about 13,000 km² in 2021; fell sharply from 2023.",
+    "term": "Brazilian Amazon deforestation: the PRODES trend"
+   },
+   {
+    "definition": "Forest Code: landowners must keep 80% of their Amazon land as forest (often not enforced); soy moratorium (2006): traders refuse soya from newly cleared land; Amazon Fund (2008): Norway and Germany pay for reduced clearing; indigenous reserves.",
+    "term": "Amazon rainforest: four protection measures"
+   },
+   {
+    "definition": "Chico Mendes, a rubber tapper and union leader who campaigned to protect the forest, was murdered at Xapuri, Acre, on 22 December 1988. Clearing fell under President Lula (2003 to 2010, again from 2023) and rose under Bolsonaro (2019 to 2022).",
+    "term": "Amazon rainforest: Chico Mendes and the policy swings"
+   },
+   {
+    "definition": "RWE's Hambach open-cast mine, North Rhine-Westphalia, expanded into the ancient Hambach Forest; protesters occupied tree houses for years; in October 2018 a court halted clearing and the rest was spared. Lützerath was cleared in January 2023 for the Garzweiler mine. Coal power ends by 2038.",
+    "term": "Lignite mining in Germany: Hambach Forest and Lützerath"
+   },
+   {
+    "definition": "Benefits: clean electricity from the world's largest power station, flood control downstream, better navigation. Costs: over one million people relocated; farmland, towns and archaeological sites flooded; sediment trapped; river ecology changed.",
+    "term": "Three Gorges Dam, China: benefits vs costs"
+   },
+   {
+    "definition": "Identify what the site needs (e.g. high open ground for a wind farm); read contours, settlements, roads, rivers and protected areas; name the groups for (developers, landowners) and against (residents, environmental groups, tourism firms), with reasons.",
+    "term": "Map question: explaining conflict over a development site"
    }
   ],
   "notes": [
@@ -3873,7 +5109,7 @@
     "h": "Irish fish stocks: mackerel dispute and fish farming",
     "points": [
      "From 2010 Iceland and the Faroe Islands set large mackerel quotas as mackerel moved north-west into their waters.",
-     "The EU, with strong support from Irish fishermen, protested and imposed trade measures on the Faroe Islands in 2013; the dispute eased in 2014.",
+     "The EU, with strong support from Irish fishermen, protested; in 2013 it imposed trade measures on the Faroe Islands over its herring catches, banning imports of Faroese herring and mackerel; the dispute eased in 2014.",
      "Salmon farms in western bays: anglers blame sea lice from the farms for harming wild salmon and sea trout."
     ]
    },
@@ -4079,7 +5315,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Corrib gas, Co. Mayo: the economic case was a domestic gas supply from the field about 80 km off north-west Co. Mayo, which for a time supplied over half of Ireland's gas, with revenue and construction jobs. The local and environmental case objected to piping high-pressure, unprocessed gas onshore near homes at Rossport, and to the risk to Sruwaddacon Bay, a protected estuary. The Shell to Sea campaign from 2005 argued the gas should be processed at sea. The Rossport Five were jailed in June 2005 for defying a court order and were released after 94 days, and protests were heavily policed for years, dividing the community. The onshore route was changed and a tunnel was bored under Sruwaddacon Bay; gas first flowed in December 2015, and Shell sold its share in 2018. Irish fish stocks: fishing communities at ports such as Killybegs depend on quotas set under the Common Fisheries Policy, and Irish fishermen argue Ireland's share of its own rich waters is too small. Brexit reduced Irish quotas and led to vessel decommissioning. Conservation measures, such as the 2007 ban on wild salmon drift-netting, cost commercial fishermen compensation, while anglers and conservationists supported it. The mackerel dispute with Iceland and the Faroe Islands led to trade measures against the Faroes in 2013, and sea lice from salmon farms harm wild salmon and sea trout.",
+    "model": "Corrib gas, Co. Mayo: the economic case was a domestic gas supply from the field about 80 km off north-west Co. Mayo, which for a time supplied over half of Ireland's gas, with revenue and construction jobs. The local and environmental case objected to piping high-pressure, unprocessed gas onshore near homes at Rossport, and to the risk to Sruwaddacon Bay, a protected estuary. The Shell to Sea campaign from 2005 argued the gas should be processed at sea. The Rossport Five were jailed in June 2005 for defying a court order and were released after 94 days, and protests were heavily policed for years, dividing the community. The onshore route was changed and a tunnel was bored under Sruwaddacon Bay; gas first flowed in December 2015, and Shell sold its share in 2018. Irish fish stocks: fishing communities at ports such as Killybegs depend on quotas set under the Common Fisheries Policy, and Irish fishermen argue Ireland's share of its own rich waters is too small. Brexit reduced Irish quotas and led to vessel decommissioning. Conservation measures, such as the 2007 ban on wild salmon drift-netting, cost commercial fishermen compensation, while anglers and conservationists supported it. The mackerel and herring disputes with Iceland and the Faroe Islands led to EU trade measures against the Faroes in 2013, and sea lice from salmon farms harm wild salmon and sea trout.",
     "prompt": "Discuss how conflict may develop between economic interests and environmental interests, with reference to two examples that you have studied.",
     "type": "short"
    },
@@ -4150,6 +5386,94 @@
    {
     "definition": "Higher tariffs on processed goods than on raw materials, which discourages developing countries from processing their own exports.",
     "term": "Tariff escalation"
+   },
+   {
+    "definition": "About 13% of world goods trade in 2024, second to China in goods, and the largest trader counting goods and services. The customs union was completed on 1 July 1968; the single market began on 1 January 1993, set up by the Single European Act (1986).",
+    "term": "EU trade: its world share and the dates of its two big steps"
+   },
+   {
+    "definition": "Border checks; different national product standards; national preference in public contracts. Common standards such as the CE mark replaced them, on top of the four freedoms of goods, services, capital and people.",
+    "term": "Single market: which non-tariff barriers it removed"
+   },
+   {
+    "definition": "Norway, Iceland and Liechtenstein through the European Economic Area (EEA). Switzerland is in neither the EU nor the EEA but trades through bilateral agreements.",
+    "term": "Which non-EU countries are in the single market, and how"
+   },
+   {
+    "definition": "Intra-EU goods exports were about €4.0 trillion against about €2.6 trillion of extra-EU goods exports, so about three-fifths (about 60%) of members' goods exports stayed inside the EU.",
+    "term": "Intra-EU trade: its scale in 2024"
+   },
+   {
+    "definition": "Germany is by far the largest (about €845 billion of intra-EU goods exports, 2024); Cyprus the smallest (about €1 billion). Intra-EU trade ran from about 30% (Cyprus) to about 81% (Czechia) of goods trade, as eastern members sit in Germany's supply chains.",
+    "term": "Intra-EU trade: biggest and smallest traders, and who depends most"
+   },
+   {
+    "definition": "Mainly manufactured goods (machinery, vehicles and parts, chemicals and pharmaceuticals), then food, plus services such as finance and tourism. Complementary trade: greenhouse vegetables from Almería, Spain, go north; manufactures go south and east.",
+    "term": "What is traded within the EU, with a complementary-trade example"
+   },
+   {
+    "definition": "Since the 2004 enlargement car plants in Slovakia, Czechia, Hungary and Poland supply the German-centred industry. Volkswagen took over Škoda in stages from 1991, fully owning it since 2000. Slovakia makes more cars per head than any other country.",
+    "term": "EU car supply chains: the eastern example"
+   },
+   {
+    "definition": "Rotterdam (Europe's largest port) and Antwerp (second) at the Rhine-Meuse-Scheldt delta handle goods entering and leaving the single market, so the Netherlands and Belgium show huge trade totals; goods recorded as Netherlands trade may go elsewhere.",
+    "term": "Gateway ports and the Rotterdam effect"
+   },
+   {
+    "definition": "The customs union, single market and Schengen border-free travel cut costs and delays. The euro, used by 21 countries from 1 January 2026 (Bulgaria the newest), removes exchange costs and exchange-rate risk and makes prices easy to compare.",
+    "term": "Internal trade factors: barrier removal and the euro"
+   },
+   {
+    "definition": "Short distances; dense motorways and rail; the Rhine, navigable to Basel; the Channel Tunnel (1994); the Øresund Bridge, Copenhagen to Malmö (2000); EU-funded TEN-T networks. About 450 million people (2024) with high incomes and similar tastes.",
+    "term": "Internal trade factors: transport links and a wealthy market"
+   },
+   {
+    "definition": "Ten countries joined in 2004, Bulgaria and Romania in 2007 and Croatia in 2013. Each widened the single market, opening new markets and lower-cost production sites in the east, such as car assembly linked to Germany.",
+    "term": "How EU enlargement changed internal trade"
+   },
+   {
+    "definition": "The UK left on 31 January 2020; transition ended 31 December 2020. The Trade and Cooperation Agreement (from 1 January 2021) has zero tariffs and quotas on qualifying goods, but customs declarations, checks and rules-of-origin paperwork make trade costlier.",
+    "term": "How Brexit changed EU–UK trade"
+   },
+   {
+    "definition": "Exports: USA about 21%, UK about 13%, China about 8%, Switzerland about 7–8%, Turkey about 4%. Imports: China about a fifth (20–21%), USA about 13–14%, UK about 7%, Switzerland about 6%, Turkey about 4%.",
+    "term": "EU's top five export and import partners for goods (2024)"
+   },
+   {
+    "definition": "Extra-EU exports about €2.58 trillion and imports about €2.43 trillion, a surplus of about €150 billion. The EU had a surplus with the USA and a large deficit with China.",
+    "term": "EU balance of trade in goods (2024)"
+   },
+   {
+    "definition": "Machinery and vehicles about €1.0 trillion (about 39% of extra-EU exports); chemicals including pharmaceuticals about €560 billion (about 22%); also food, drink and services. High-tech, high-value industry explains this pattern.",
+    "term": "What the EU exports outside the EU (2024)"
+   },
+   {
+    "definition": "Energy, mainly oil and gas, about 15% of imports by value in 2024 (about 23% in 2022), because the EU lacks fuels and some raw materials; also raw materials, electronics from China and Asia, and tropical foods such as coffee, cocoa and bananas.",
+    "term": "What the EU imports, and why it depends on energy imports"
+   },
+   {
+    "definition": "Russia invaded Ukraine on 24 February 2022; sanctions and REPowerEU (May 2022) cut Russian gas from about 45% of EU gas imports (2021) to about 19% (2024). The USA supplied almost half of EU LNG in 2024. The EU plans to end Russian gas by the end of 2027.",
+    "term": "Russia and EU energy imports since 2022"
+   },
+   {
+    "definition": "CETA with Canada, provisionally applied from September 2017; EU–Japan agreement in force from February 2019; EU–South Korea from 2011; EU–Mercosur talks concluded December 2024, strongly opposed by Irish farm organisations over South American beef.",
+    "term": "EU trade agreements: four named examples with dates"
+   },
+   {
+    "definition": "Lomé Convention (1975) with ACP countries; Cotonou Agreement (2000); Everything But Arms (2001), duty-free and quota-free for the least developed countries. Critics say tariff escalation and past subsidised farm exports harmed developing-world producers.",
+    "term": "EU trade deals with developing countries, and a justice criticism"
+   },
+   {
+    "definition": "The EU–USA deal of July 2025 capped US tariffs on most EU goods, including pharmaceuticals, at 15%; steel and aluminium stayed at 50%. EU definitive duties on Chinese-made electric cars from October 2024 reached up to about 35%.",
+    "term": "Two recent EU trade disputes acting as one bloc"
+   },
+   {
+    "definition": "Market size gives bargaining power; high-tech industry makes manufactures the main exports; lack of energy forces fuel imports; colonial links (Africa, Caribbean, Pacific) shaped preferential deals; sanctions, tariffs and Brexit redirect trade.",
+    "term": "Factors shaping the EU's external trade: name five"
+   },
+   {
+    "definition": "Identify the largest partner (biggest slice); calculate a missing share by subtracting the others from 100 (illustrative: 25% and 15% leave 60%); compare exports and imports with one partner: more sent than received is a surplus, less is a deficit.",
+    "term": "Skill: reading a trade pie chart or table"
    }
   ],
   "notes": [
@@ -4354,6 +5678,82 @@
    {
     "definition": "Exports of food, drink and horticultural products, mainly beef and dairy for Ireland.",
     "term": "Agri-food exports"
+   },
+   {
+    "definition": "In 1960 about three-quarters (74%) of Irish exports went to the UK, mainly live cattle and other farm produce. Trade with the UK was governed by the Anglo-Irish Free Trade Agreement (1965); protectionism was dismantled from the late 1950s.",
+    "term": "Irish trade before 1973: main market, main exports and the key agreement"
+   },
+   {
+    "definition": "Ireland joined on 1 January 1973, together with the UK and Denmark, after a referendum on 10 May 1972 returned about 83% Yes.",
+    "term": "Ireland joining the EEC: date, partners and referendum result"
+   },
+   {
+    "definition": "The UK's share fell from about three-quarters in 1960 to a small fraction today (Great Britain took under a tenth of goods exports in February 2024), while the rest of the EU and the USA became far more important.",
+    "term": "Irish export markets since 1973: how they diversified"
+   },
+   {
+    "definition": "From mainly farm goods and live animals to high-value manufactures: pharmaceuticals and chemicals, medical devices, and computers and electronics, which grew strongly in the 1990s and 2000s. Processed food and drink replaced live animals, and services grew.",
+    "term": "Irish exports since 1973: how the products changed"
+   },
+   {
+    "definition": "Goods exports about €224 billion, a record, up about 14% on 2023; imports about €135 billion; a surplus of about €89 billion (CSO). The surplus is large mainly because foreign multinationals export most of what they make in Ireland.",
+    "term": "Ireland's goods trade totals and surplus (2024)"
+   },
+   {
+    "definition": "The EU 27 is the largest bloc, about €88 billion (about 40%); the USA is the largest single country, about €73 billion (about one-third). Main EU markets: the Netherlands about €23 billion, Germany about €20 billion, Belgium about €17 billion, then France.",
+    "term": "Ireland's main goods export markets (2024)"
+   },
+   {
+    "definition": "The EU 27 is the largest bloc, about €50 billion (about 37%); then Asia about €31 billion, the USA about €23 billion and the UK about €22 billion. Asia, especially China, is a growing source.",
+    "term": "Ireland's main sources of goods imports (2024)"
+   },
+   {
+    "definition": "Medical and pharmaceutical products are the largest group, about €100 billion (about 45% of goods exports); then organic chemicals, medical devices, and food and drink.",
+    "term": "Ireland's main goods exports (2024)"
+   },
+   {
+    "definition": "Fuels, because Ireland imports most of its energy; machinery and transport equipment, including aircraft for the leasing industry; chemicals; consumer goods; food.",
+    "term": "Ireland's main goods imports, and why fuels are one"
+   },
+   {
+    "definition": "Pharmaceuticals were rushed to the USA before threatened tariffs: goods exports about €260 billion (up about 16%), pharma about €139 billion (53%), the USA about 43% (CSO, preliminary). It shows reliance on a few firms, one sector and one market.",
+    "term": "The 2025 Irish export surge: what happened and the risk it shows"
+   },
+   {
+    "definition": "Software and computer services from multinationals such as Google, Meta and Microsoft, with European headquarters in Dublin; financial services at the IFSC, Dublin Docklands (set up 1987); aircraft leasing. Much is sold into EU markets.",
+    "term": "Ireland's services exports: the three main types"
+   },
+   {
+    "definition": "About 90% of beef and dairy output is exported. Food, drink and horticulture exports were a record €17 billion (Bord Bia): about 35% (€5.9 billion) to the EU, €5.2 billion to international markets, about a third to the UK. Dairy (€6.3 billion) leads.",
+    "term": "Irish agri-food exports (2024): value, markets and largest category"
+   },
+   {
+    "definition": "The UK is still the largest single market for Irish food; meat and livestock went about 44% to the EU and 42% to the UK (2024). Brands: Kerrygold butter (marketed by Ornua, formerly the Irish Dairy Board) in Germany and other EU markets, and Baileys.",
+    "term": "Irish food exports: the UK's role, meat markets and named brands"
+   },
+   {
+    "definition": "Tariff-free access to about 450 million consumers (2024); the euro (adopted 1999, notes 2002) removes exchange-rate risk, while sterling's fall after the June 2016 referendum hurt food exporters to the UK; CAP and common standards open EU food markets.",
+    "term": "Why Ireland trades heavily with the EU: single market, euro and CAP"
+   },
+   {
+    "definition": "Multinationals locate in Ireland to supply the EU from inside: Intel at Leixlip (since 1989), Apple in Cork (since 1980), Pfizer. They come for an English-speaking, educated workforce, 12.5% corporation tax (15% for the largest from 2024) and IDA Ireland.",
+    "term": "Foreign direct investment as a reason for Irish trade with the EU"
+   },
+   {
+    "definition": "As an island on the periphery, Ireland sends most trade by sea: Dublin Port (the largest), Rosslare Europort (direct ferries to the continent), Cork and Shannon Foynes. Light, high-value pharmaceuticals and electronics go by air; distance adds costs.",
+    "term": "How Irish goods reach the EU: ports, air freight and the periphery"
+   },
+   {
+    "definition": "The UK left on 31 January 2020; transition ended 31 December 2020; the Trade and Cooperation Agreement applied from 1 January 2021. Trade with Great Britain now crosses an EU external border, with customs declarations and checks on food and animals.",
+    "term": "Brexit: dates, and the new costs for Irish trade with Great Britain"
+   },
+   {
+    "definition": "DFDS began a direct Rosslare–Dunkirk freight ferry on 2 January 2021, six times a week, to avoid the UK landbridge; by April 2021 there were about 36 direct weekly sailings to the continent. Rosslare also sails direct to Cherbourg, Saint-Malo, Roscoff and Bilbao.",
+    "term": "Brexit: the growth of direct ferries from Rosslare"
+   },
+   {
+    "definition": "Imports from Great Britain fell as some importers switched to EU suppliers; cross-border trade with Northern Ireland grew, as the Windsor Framework (February 2023) keeps it in the single market for goods; the rest of the EU's share of Irish trade rose.",
+    "term": "Brexit: three effects on the pattern of Irish trade"
    }
   ],
   "notes": [
@@ -4572,6 +5972,110 @@
    {
     "definition": "An EU fund, set up in 2007, that retrains workers made redundant by shifts in global trade.",
     "term": "European Globalisation Adjustment Fund (EGF)"
+   },
+   {
+    "definition": "Advantages: single market access, FDI, CAP payments, structural funds, equality laws, free movement. Costs: lost control of fishing and farm prices; lower-cost competitors; net contributor since 2014, after over €40 billion net received from 1973.",
+    "term": "EU membership for Ireland: advantages, costs and budget position"
+   },
+   {
+    "definition": "Launched in 1962. Treaty of Rome aims: raise farm productivity; a fair standard of living for farmers; stable markets; secure food supplies; reasonable prices for consumers. It still takes about a third of the EU budget (2021–27).",
+    "term": "CAP: launch date, five aims and share of the EU budget"
+   },
+   {
+    "definition": "Intervention prices above world levels, intervention buying of surpluses, export subsidies and import levies. Results: overproduction (butter mountains and wine lakes in the 1970s and 1980s), high cost, and surpluses dumped on world markets.",
+    "term": "The early CAP (1962–1992): how it worked and what went wrong"
+   },
+   {
+    "definition": "Prices and incomes rose sharply in the 1970s golden age; a guaranteed market for beef and dairy; modernisation (machinery, fertiliser, silage, drainage, farm buildings); food quality standards; environmental schemes; support for rural communities.",
+    "term": "CAP: positive effects on Irish farming since 1973"
+   },
+   {
+    "definition": "In force from 1984 to 1 April 2015, they held back dairying for 30 years. Milk output then rose from about 5.5 billion litres (2014) to about 8.3 billion (2020); over 2013–2023 cows rose about 41% and milk about 56% (EPA), especially in Munster.",
+    "term": "Milk quotas: dates, and what happened after abolition"
+   },
+   {
+    "definition": "MacSharry 1992 (Ray MacSharry, from Sligo): direct payments in place of price support, plus set-aside. Agenda 2000: rural development became the second pillar. Fischler 2003: decoupling; Single Farm Payment 2005; Basic Payment Scheme 2015.",
+    "term": "CAP reforms in order, from MacSharry to the Basic Payment Scheme"
+   },
+   {
+    "definition": "About €9.8 billion (EU and national), about 45% for environment and climate; BISS about €3.6 billion; eco-scheme about €1.5 billion (25% of direct payments); convergence to at least 85% of the national average; ACRES; young farmer and ANC payments.",
+    "term": "Ireland's CAP Strategic Plan 2023–2027: key figures and schemes"
+   },
+   {
+    "definition": "REPS (Rural Environment Protection Scheme), 1994 to 2009, an agri-environment scheme; LEADER, from 1991, funding local rural enterprise such as farm diversification, rural tourism and crafts. Grants also support forestry and young farmers.",
+    "term": "CAP rural development: two named Irish schemes"
+   },
+   {
+    "definition": "135,037 farms, down about 3% on 2010; average size about 33 hectares; on 33% of farms the holder was 65 or over and only 7% were under 35. Farm types: dairy, cattle (beef) rearing, sheep, tillage and mixed; specialist beef is the most common.",
+    "term": "Irish farms in the Census of Agriculture 2020"
+   },
+   {
+    "definition": "Payments favoured bigger farmers; subsidy dependence, bureaucracy and inspections; intensification harmed water (the 1991 Nitrates Directive caps organic nitrogen per hectare) and raised emissions; fewer, older farmers; Mercosur fears for beef.",
+    "term": "CAP: five negative effects on Ireland"
+   },
+   {
+    "definition": "Agreed in full in 1983, it makes EU waters a common pond, open to all fleets beyond coastal limits, and conserves stocks. Ireland had to share its rich waters with larger fleets from Spain, France and the Netherlands; Spain and Portugal joined in 1986.",
+    "term": "CFP: when agreed, its main principle, and why Ireland lost out"
+   },
+   {
+    "definition": "TACs set each December by fisheries ministers, split into national quotas by fixed shares; a 12-nautical-mile band mainly for local boats; days-at-sea limits; mesh sizes; closed areas and seasons. The Hague Preferences (1976) protect Ireland when TACs fall.",
+    "term": "How the CFP controls fishing: five tools, and the Hague Preferences"
+   },
+   {
+    "definition": "Killybegs, Co. Donegal, is the largest by volume and value, landing pelagic mackerel, herring and blue whiting. Other Fishery Harbour Centres: Castletownbere, Ros an Mhíl, Dingle, Howth and Dunmore East. BIM is the state seafood development agency.",
+    "term": "Ireland's fishing ports: the largest and the other harbour centres"
+   },
+   {
+    "definition": "EU funding for boats, harbours and processing plants, now through the European Maritime, Fisheries and Aquaculture Fund; conservation to protect stocks long-term; access to EU seafood markets; the Hague Preferences protect Ireland's share when quotas are cut.",
+    "term": "CFP: four positive effects on Ireland"
+   },
+   {
+    "definition": "Ireland's quota share is small relative to its rich waters; overfishing and stock collapses; decommissioning and lost coastal jobs; discards, until the 2013 reform's landing obligation (phased in 2015–2019) and maximum sustainable yield goal.",
+    "term": "CFP: negative effects on Ireland, and the 2013 reform"
+   },
+   {
+    "definition": "The Trade and Cooperation Agreement (2021) moved quota to the UK: Ireland lost about 26% of its mackerel quota, and the Seafood Task Force valued its annual quota loss at about €43 million by 2026. Irish ministers said Ireland's losses were about double other EU fleets' in proportion.",
+    "term": "Brexit and Irish fishing: what Ireland lost"
+   },
+   {
+    "definition": "Ireland received about €1 billion, the largest share of the EU-wide reserve. It funded a €25.6 million pelagic support scheme and a voluntary permanent cessation (decommissioning) scheme in 2022–23.",
+    "term": "Brexit Adjustment Reserve: how it helped Irish fishing"
+   },
+   {
+    "definition": "Set up in 1975 to cut regional inequality by funding infrastructure, enterprise, research and innovation in poorer regions. The Structural Funds (ERDF, ESF, farm guidance fund) doubled after the 1988–89 reform to prepare poorer regions for the single market.",
+    "term": "ERDF: when it began, its purposes, and the 1988–89 reform"
+   },
+   {
+    "definition": "All of Ireland was one Objective 1 region, 1989–1999 (income below 75% of the EU average). The Cohesion Fund (1993/94, Maastricht) funded transport and environment in Ireland, Spain, Portugal and Greece (below 90%); Ireland stopped qualifying in the 2000s.",
+    "term": "Objective 1 and the Cohesion Fund: Ireland's qualification"
+   },
+   {
+    "definition": "2000–06: the BMW region kept Objective 1 status; Southern and Eastern was in transition. 2021–27: Northern and Western became a transition region as its relative income fell; two ERDF programmes, about €853 million (€396 million EU), run by the assemblies.",
+    "term": "Ireland's EU regional status in 2000–2006 and 2021–2027"
+   },
+   {
+    "definition": "Inter-urban motorways and bypasses, public transport, water treatment, ports, airports, broadband, research centres. They opened up the periphery, drew FDI and fed the Celtic Tiger, but the east–west gap persists and funds now go mainly to eastern Europe.",
+    "term": "What EU regional funds built in Ireland, and their mixed results"
+   },
+   {
+    "definition": "PEACE PLUS (2021–27) and INTERREG support the border region; the Just Transition Fund (2021–27) targets the Midlands peat region after Bord na Móna ended peat harvesting for electricity.",
+    "term": "Three other EU funds for Irish regions"
+   },
+   {
+    "definition": "Set up by the Treaty of Rome (1957), the oldest structural fund. In Ireland it co-financed FÁS training (1988–2013; then SOLAS and 16 Education and Training Boards), Youthreach (from 1989), Post-Leaving Cert courses and apprenticeships.",
+    "term": "European Social Fund: origin and what it funded in Ireland"
+   },
+   {
+    "definition": "About €1.08 billion (about €508 million EU, €573 million national), launched March 2023: about €500 million for social inclusion, €280 million for upskilling and lifelong learning, over €180 million for jobs for young and long-term unemployed people.",
+    "term": "ESF+ EIST programme 2021–2027: value and priorities"
+   },
+   {
+    "definition": "Set up in 2007. After Dell announced in January 2009 that it was moving manufacturing from Limerick to Łódź, Poland, the EU approved about €14.8 million in 2009 to retrain about 2,400 Dell and supplier workers. Waterford Crystal workers were also helped.",
+    "term": "Globalisation Adjustment Fund: the Dell Limerick example"
+   },
+   {
+    "definition": "Civil service marriage bar ended 1973; Anti-Discrimination (Pay) Act 1974 and Employment Equality Act 1977 followed EEC directives; Organisation of Working Time Act 1997: average 48-hour maximum week; also maternity leave and part-time workers' rights.",
+    "term": "EU social laws that changed Irish workplaces"
    }
   ],
   "notes": [
@@ -4920,6 +6424,78 @@
    {
     "definition": "A company that assembles products for other companies, such as Foxconn for Apple.",
     "term": "Contract manufacturer"
+   },
+   {
+    "definition": "Headquarters, R&D and top management stay in the home country (the core); branch plants, regional headquarters and sales offices are abroad. Decisions are made at headquarters, and branch plants compete with each other inside the company for investment.",
+    "term": "Typical structure and organisation of a multinational company"
+   },
+   {
+    "definition": "Design and R&D; basic processing of raw materials and components; assembly and testing; distribution and sales. Each stage is placed wherever it is cheapest or most efficient, which spreads sourcing, processing and markets across the world.",
+    "term": "MNC production stages: what they are and how they are spread"
+   },
+   {
+    "definition": "Low corporation tax (12.5%; 15% for very large groups from 2024); a young, educated, English-speaking workforce; EU single market access, and since Brexit the only mainly English-speaking euro country; IDA grants; ports, airports and broadband; clusters; universities; stability.",
+    "term": "Why multinationals choose Ireland: give eight advantages"
+   },
+   {
+    "definition": "Set up in 1949 to attract and keep foreign direct investment. Client firms employ about 300,000 people in about 1,800 companies (2023–24), concentrated in Dublin and the Mid-East: the largest labour pool, universities, Dublin Port and Airport, services and existing clusters.",
+    "term": "IDA Ireland: role, size and why FDI concentrates around Dublin"
+   },
+   {
+    "definition": "Founded in 1968 in California by Robert Noyce and Gordon Moore; headquarters Santa Clara, in Silicon Valley. It made the first commercial microprocessor, the Intel 4004, in 1971, and makes the x86 processors in most personal computers (Pentium, Core; Xeon for servers).",
+    "term": "Intel: founding, founders, headquarters and products"
+   },
+   {
+    "definition": "Came in 1989; Ireland's largest private-sector investment (over €30 billion by 2023), with several fabs and several thousand staff. Fab 34 (2023) was Europe's first high-volume EUV chip fab. In 2024 Intel sold 49% of the Fab 34 venture to Apollo for about $11 billion.",
+    "term": "Intel in Leixlip, Co. Kildare: key facts"
+   },
+   {
+    "definition": "On the M4 west of Dublin, within reach of Dublin Airport and Port; a large, flat greenfield site; Maynooth University nearby, with Trinity College Dublin and University College Dublin in the city; a large Dublin labour pool; water and electricity, used in huge amounts.",
+    "term": "Why Intel chose Leixlip: local site factors"
+   },
+   {
+    "definition": "Silicon wafers (silicon refined from quartz sand) bought from specialist wafer makers; chemicals, specialty gases and metals; huge volumes of ultra-pure water and electricity; machines, especially EUV lithography machines from ASML of Veldhoven, Netherlands, the only maker.",
+    "term": "Intel microprocessor: sourcing of raw materials and components"
+   },
+   {
+    "definition": "Wafers are processed in fabs at Leixlip, Hillsboro (Oregon), Chandler (Arizona) and Kiryat Gat (Israel), then flown to Penang and Kulim (Malaysia), Ho Chi Minh City (Vietnam) and Chengdu (China) to be cut, packaged and tested. Chips are light and valuable, so they go by air.",
+    "term": "Intel microprocessor: location of basic processing units"
+   },
+   {
+    "definition": "Computer makers such as Lenovo (China), HP and Dell (USA); makers of servers for data centres and cloud computing; governments and businesses worldwide. Markets are in North America, Europe and Asia, with China one of the largest.",
+    "term": "Intel microprocessor: location of its markets"
+   },
+   {
+    "definition": "Competition from AMD, TSMC, Samsung and Nvidia; Apple switched Macs to its own M1 chip from 2020; very costly new fabs; falling profits and about 15,000 global job cuts (2024); a narrowing Irish tax advantage; high energy costs; reliance on Asian supply chains (2021 chip shortage).",
+    "term": "Difficulties facing Intel: give seven"
+   },
+   {
+    "definition": "Direct jobs on the Leixlip campus and spin-off jobs with local suppliers and services; corporation tax paid to the State; exports; skills development and research links with universities.",
+    "term": "Intel: benefits of its Leixlip plant to Ireland"
+   },
+   {
+    "definition": "Founded in 1976 by Steve Jobs and Steve Wozniak; headquarters Apple Park, Cupertino, California (opened 2017). Products: iPhone (2007), iPad (2010), Mac, Apple Watch (2015) and services such as the App Store and iCloud. Design, software and management stay in California.",
+    "term": "Apple: founding, founders, headquarters and products"
+   },
+   {
+    "definition": "Opened in 1980 as Apple's first European manufacturing plant; now its European headquarters with about 6,000 staff. It runs operations and supply chain, finance and multilingual AppleCare support, and assembles some built-to-order iMacs. It does not make iPhones.",
+    "term": "Apple in Cork: what the Hollyhill campus does"
+   },
+   {
+    "definition": "Chips designed by Apple and made by TSMC in Taiwan; screens from Samsung and LG (South Korea); memory from other Asian suppliers; aluminium, lithium and cobalt for batteries (most cobalt comes from the Democratic Republic of the Congo), rare earth metals and gold.",
+    "term": "iPhone: sourcing of components and raw materials"
+   },
+   {
+    "definition": "Apple outsources assembly to Foxconn, a Taiwanese contract manufacturer, at Zhengzhou ('iPhone City') and Shenzhen in China; a growing share is assembled near Chennai and Bengaluru, India (Foxconn, Tata). Largest markets: the Americas, Europe and China.",
+    "term": "iPhone: basic processing units and markets"
+   },
+   {
+    "definition": "2016: the European Commission ruled Ireland had given Apple illegal tax benefits worth €13 billion. 2020: the EU General Court overturned this. September 2024: the EU Court of Justice reinstated it; Ireland received about €14 billion with interest. Unpaid tax, not a fine.",
+    "term": "Apple and the EU state-aid tax case: the timeline"
+   },
+   {
+    "definition": "Dependence on China for assembly amid US–China trade tensions; competition from Samsung and Chinese phone makers; criticism of supplier working conditions; the Athenry data centre (about €850 million), announced 2015, abandoned 2018 after planning delays.",
+    "term": "Apple: other difficulties and issues it faces"
    }
   ],
   "notes": [
@@ -4949,7 +6525,7 @@
     "points": [
      "Low corporation tax of 12.5%, rising to 15% for very large multinational groups (turnover over €750 million) from 2024 under the OECD global minimum tax agreement.",
      "A young, educated, English-speaking workforce.",
-     "EU membership, which Ireland joined in 1973 as the EEC (now the EU), gives access to the single market. Since the UK left the EU on 31 January 2020, Ireland is the only English-speaking country in the euro area.",
+     "EU membership, which Ireland joined in 1973 as the EEC (now the EU), gives access to the single market. Since the UK left the EU on 31 January 2020, Ireland is the only euro-area country where English is the main language (Malta also has English as an official language).",
      "IDA grants and support for companies that invest here.",
      "Good international links, including ports, airports and broadband.",
      "Clusters of similar firms and suppliers already in the country.",
@@ -5188,6 +6764,82 @@
    {
     "definition": "The EU fund that paid for retraining and support for workers who lost jobs through globalisation, such as the former Dell workers in Limerick.",
     "term": "Globalisation Adjustment Fund"
+   },
+   {
+    "definition": "Light, high-value goods (chips, medicines, software) are cheap to fly; containerisation; ICT lets headquarters run branches anywhere; free movement of capital and lower trade barriers (WTO, EU single market); governments compete with grants and low taxes.",
+    "term": "Why modern economic activities are mobile: give five reasons"
+   },
+   {
+    "definition": "Lower labour and land costs; tax advantages and grants; getting inside a trade bloc to avoid tariffs; nearness to growing markets; skills; political and economic stability. Moves go both ways: into Ireland (Intel 1989, Dell 1990) and out of it (Dell's manufacturing, 2009).",
+    "term": "What drives a multinational to move production to another country"
+   },
+   {
+    "definition": "Nissan's car plant at Sunderland, north-east England (1986), inside the EEC market; call centres and IT services moving to Bengaluru, India (Infosys, Wipro); Apple shifting iPhone assembly to India; Intel's planned Magdeburg fab cancelled in 2025.",
+    "term": "Mobility of economic activity: four examples beyond Dell"
+   },
+   {
+    "definition": "Receiving regions gain jobs, skills and exports. Losing regions suffer unemployment, the loss of spin-off jobs and emigration. Branch-plant economies are vulnerable because decisions about their plants are taken abroad.",
+    "term": "Effects of mobility on receiving and losing regions"
+   },
+   {
+    "definition": "Expansion into new markets; locating inside a trade bloc; following tax incentives and grants; mergers and takeovers; joint ventures to share huge costs; government subsidies, such as the US CHIPS and Science Act (2022, about $50 billion) and the EU Chips Act (2023).",
+    "term": "Corporate strategies that open branch plants"
+   },
+   {
+    "definition": "Rationalisation into fewer, larger plants; relocation to cheaper countries; outsourcing to contract manufacturers; falling demand for a mature product; mergers that leave duplicate plants; reshoring production to the home country for security of supply.",
+    "term": "Corporate strategies that close branch plants"
+   },
+   {
+    "definition": "Founded in 1984 by Michael Dell in Austin, Texas (headquarters Round Rock). It sold direct, building computers to order and selling by phone and, from the mid-1990s, online. Dell came to Raheen, Limerick, in 1990: its European manufacturing base and a top Irish exporter.",
+    "term": "Dell: the company, its business model and its role in Limerick"
+   },
+   {
+    "definition": "In January 2009 Dell announced its Limerick manufacturing would move to Łódź, Poland. Reasons: lower wages and costs; Polish government aid, approved by the EU; nearness to growing Central and Eastern European markets; falling computer prices; the 2008–09 recession.",
+    "term": "Dell, 2009: the move from Limerick and the reasons for it"
+   },
+   {
+    "definition": "About 1,900 direct jobs were lost, plus jobs at local suppliers, along with one of Ireland's largest exporters. The EU Globalisation Adjustment Fund paid for retraining. Dell kept sales and support offices, and buying EMC in 2016 gave it a large site at Ovens, Co. Cork.",
+    "term": "Dell, 2009: effects on Limerick and what Dell kept in Ireland"
+   },
+   {
+    "definition": "Over €30 billion invested in Leixlip by 2023; 49% of the Fab 34 venture sold to Apollo for about $11 billion (2024) to raise cash; about 15,000 global job cuts (August 2024) as profits fell; Magdeburg fab cancelled (2025); US government stake of about 10% (2025).",
+    "term": "Intel's corporate strategy, 2023 to 2025"
+   },
+   {
+    "definition": "Introduction and growth: in the core, near headquarters, R&D, skilled staff and rich early customers. Maturity: the standardised product gets cheaper, so production moves to low-cost places (once Ireland, now Eastern Europe and Asia). Decline: closure or upgrading.",
+    "term": "Product life cycle: how production location changes at each stage"
+   },
+   {
+    "definition": "The personal computer became a mature, standardised product with falling prices, so in 2009 Dell moved assembly from Limerick to cheaper Łódź, Poland, while keeping sales and support in Ireland: the mature-stage pattern.",
+    "term": "Product life cycle applied to Dell in Limerick"
+   },
+   {
+    "definition": "Each chip generation lasts a few years. Processes developed at Hillsboro, Oregon, are copied exactly into fabs such as Leixlip (Copy Exactly!); older fabs are upgraded or closed. Leixlip survives by winning new generations (Fab 34). Intel missed the smartphone and AI cycles.",
+    "term": "Product life cycle applied to Intel"
+   },
+   {
+    "definition": "Computer-aided design and automation in fabs; global communication lets one headquarters run plants on several continents; real-time stock control and just-in-time supply; online sales (Dell's direct model); demand shifting from PCs to smartphones, cloud and AI.",
+    "term": "Information technology: five impacts on an MNC's operations"
+   },
+   {
+    "definition": "An English-speaking, multilingual workforce (e.g. AppleCare support in Cork), a time zone between the USA and Europe, good broadband and IDA support. Risks: routine work moving to cheaper India (Bengaluru) and the Philippines (Manila); automation and AI chatbots.",
+    "term": "Teleservices: why Ireland attracted them and the threats they face"
+   },
+   {
+    "definition": "Google's European headquarters is at Barrow Street, Grand Canal Dock, Dublin (Silicon Docks); Meta (Facebook) has its international headquarters in Dublin; Ireland is one of the world's largest exporters of computer services.",
+    "term": "Ireland's information technology sector: three key facts"
+   },
+   {
+    "definition": "Server buildings for cloud computing (Amazon Web Services, Microsoft, Google), drawn by the cool climate, connectivity and firms already here. Their share of metered electricity rose from 5% (2015), so EirGrid restricted new Dublin connections from 2022; by 2023 the share was about 21%.",
+    "term": "Data centres in Ireland: why they came and their electricity demand"
+   },
+   {
+    "definition": "Amazon (1994, Jeff Bezos, Seattle); Alibaba (1999, Hangzhou). Effects: online-only firms; decline of some high-street shops; growth of warehouses and delivery services; more parcels from Asia. Dell was an early online seller; lockdowns from March 2020 sped up online buying.",
+    "term": "E-commerce: named firms and effects on economic activity"
+   },
+   {
+    "definition": "Remote and hybrid working after COVID-19; artificial intelligence and automation cutting routine jobs; reshoring and friend-shoring of strategic industries such as chips; risks for Ireland from the 15% global minimum tax and from US tariffs.",
+    "term": "Future trends for economic activities, and risks for Ireland"
    }
   ],
   "notes": [
@@ -5427,6 +7079,82 @@
    {
     "definition": "Trade that guarantees producers in developing countries a minimum price and a premium, shown by the Fairtrade mark.",
     "term": "Fair trade"
+   },
+   {
+    "definition": "Money flows out of the country to pay for the extra imports; the country must borrow or sell assets to pay for them; cheaper imports replace home industries and jobs; the currency may weaken.",
+    "term": "Persistent trade deficit: four disadvantages"
+   },
+   {
+    "definition": "Exports bring jobs, tax revenue, foreign earnings and growth. Many partners mean less dependence on one market, so a recession, tariff or crisis in one country, such as the 2025 US tariffs, does less damage.",
+    "term": "Exports and many export partners: the advantages"
+   },
+   {
+    "definition": "Barriers: tariffs, quotas, subsidies to home producers and regulations; trade blocs remove them between members. GATT was signed in 1947. The WTO, set up on 1 January 1995 and based in Geneva, now has over 160 members; it sets trade rules and settles disputes.",
+    "term": "Barriers to trade, and the GATT and WTO dates"
+   },
+   {
+    "definition": "Falling trade barriers (GATT, WTO); containerisation, from Malcolm McLean's Ideal X (1956), and bigger ships; air freight and ICT; MNCs trading components between their own plants; China and Eastern Europe entering world trade.",
+    "term": "Why world trade has grown faster than output since 1950"
+   },
+   {
+    "definition": "The Suez (1869) and Panama (1914) canals link the triad. The Ever Given blocked Suez for about six days (March 2021); Red Sea attacks from late 2023 sent ships round the Cape of Good Hope; the 2008–09 financial crisis cut trade sharply in 2009; COVID-19 caused the 2021 chip shortage.",
+    "term": "Global trade linkages: chokepoints and disruptions to know"
+   },
+   {
+    "definition": "North America, Europe and the Pacific Rim produce most of the world's manufactured goods, hold the headquarters of most MNCs, and carry most world trade and foreign direct investment among themselves.",
+    "term": "The trading triad: three ways it dominates the world economy"
+   },
+   {
+    "definition": "The largest economy and largest importer, with a goods deficit every year since the mid-1970s. NAFTA (1 January 1994) was replaced by USMCA (1 July 2020); Mexico overtook China as top source of US imports in 2023. Tariffs on China from 2018; wider tariffs in 2025.",
+    "term": "The USA in world trade: key facts"
+   },
+   {
+    "definition": "The single market began on 1 January 1993; 27 member states since 2020. The largest trading bloc by value, trading strongly with the USA and China. The euro came in 1999 (notes and coins 2002). In July 2025 the EU and USA agreed a 15% US tariff on most EU goods.",
+    "term": "The EU as a triad area: key facts"
+   },
+   {
+    "definition": "Mainly East and South-East Asia plus Australia: Japan, China, South Korea, Taiwan, Hong Kong, Singapore and the ASEAN states, not India. ASEAN 1967; APEC 1989; RCEP (signed November 2020, in force 2022) has 15 members with about 30% of world population and GDP.",
+    "term": "The Pacific Rim: members and trade organisations"
+   },
+   {
+    "definition": "Post-war growth on car and electronics exports (Toyota, Honda, Sony, Nissan); few raw materials, so it imports most oil, coal and iron ore. Toyota uses just-in-time production. Firms built plants inside the EEC, e.g. Nissan, Sunderland (1986). Slower growth since the 1990s.",
+    "term": "Japan's role in world trade: key facts"
+   },
+   {
+    "definition": "Deng Xiaoping's reforms from 1978; Special Economic Zones from 1980, including Shenzhen (over 17 million people by 2020); WTO entry on 11 December 2001; largest goods exporter since 2009, with a huge surplus; Belt and Road Initiative 2013; US trade war from 2018.",
+    "term": "China: from closed economy to workshop of the world"
+   },
+   {
+    "definition": "War-damaged (1950–53) and among the poorest countries in the early 1960s, it grew by export-led industry under Park Chung-hee (1961–79). Chaebol such as Samsung (1938), Hyundai, LG and SK lead in ships (Ulsan), cars, memory chips and phones. OECD member from 1996.",
+    "term": "South Korea: how it became a newly industrialised country"
+   },
+   {
+    "definition": "Colonies exported raw materials and food; Europe made goods and sold them back. Sudan's Gezira Scheme (from 1925) grew cotton for Lancashire mills; India sent raw cotton and tea to Britain; the Gold Coast (Ghana) exported cocoa, still mostly shipped unprocessed.",
+    "term": "Old international division of labour: colonial examples"
+   },
+   {
+    "definition": "From the 1960s–70s MNCs moved assembly to NICs and low-wage countries; the core kept headquarters, R&D, design, finance and marketing. Apple: 'Designed by Apple in California. Assembled in China.' Intel: R&D in Oregon, fabs at Leixlip, assembly in Malaysia and Vietnam.",
+    "term": "New international division of labour: what changed, with examples"
+   },
+   {
+    "definition": "Services are now divided too (IT and call centres in Bengaluru); China is moving into high-value products; cheap assembly is spreading to Vietnam, Bangladesh and India. Ireland went from exporting food to the UK to hosting high-value MNC manufacturing and services.",
+    "term": "The changing division of labour, and Ireland's place in it"
+   },
+   {
+    "definition": "Goods (over €200 billion in 2024, a record): pharmaceuticals and chemicals (largest), medical devices (Galway), chips and electronics, food and drink (beef, dairy, whiskey). Services: computer services, financial services, aircraft leasing, tourism.",
+    "term": "Ireland's main goods and services exports"
+   },
+   {
+    "definition": "The USA takes about a third of Irish goods exports, then Belgium, Germany, the Netherlands, the UK and China. US pharmaceutical and technology MNCs export from Irish plants back to the USA. Risks: dependence on a few US firms and exposure to US tariffs (2025).",
+    "term": "Irish export destinations, and why the USA dominates"
+   },
+   {
+    "definition": "The UK left the EU on 31 January 2020 (transition ended 31 December 2020), bringing customs checks and taking the UK out of the single market; a weaker pound made Irish goods dearer; Irish firms diversified into other markets.",
+    "term": "Why Irish exports to the UK changed after Brexit"
+   },
+   {
+    "definition": "Balance of trade = exports minus imports; a negative result is a deficit. Difference: subtract the smaller value from the larger. Total: add every partner's value. State units. Use a bar chart to compare countries and a line graph to show change over time.",
+    "term": "Trade data questions: how to calculate and present the figures"
    }
   ],
   "notes": [
@@ -5665,7 +7393,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "The trading triad of North America, Europe and the Pacific Rim is the three core economic areas of the world. Together they produce most of the world's manufactured goods, hold the headquarters of most multinational companies, and carry most world trade among themselves, with most foreign direct investment flowing between them. The USA is the world's largest economy and largest importer, and it has run a trade deficit in goods every year since the mid-1970s. Its trade bloc, NAFTA, took effect on 1 January 1994 and was replaced by USMCA on 1 July 2020, and its trade is shaped by tariffs, including the trade war with China from 2018 and the wider tariffs of 2025. Mexico overtook China in 2023 as the largest source of US imports. The EU is a single market of 27 member states, created on 1 January 1993 and using the euro since 1999. It is the largest trading bloc by value and trades strongly with the USA and China, although the July 2025 agreement set a 15% US tariff on most EU goods. The Pacific Rim, mainly East and South-East Asia with Australia, includes Japan, which was the second-largest economy until China overtook it in 2010 and which exports cars and electronics while importing most of its oil, coal and iron ore. China has become the world's largest exporter of goods since 2009, with a huge trade surplus, after its reforms from 1978 and its WTO entry in 2001. South Korea, one of the Asian Tigers, grew from war-damaged poverty through export-led industrialisation under Park Chung-hee, and its chaebol such as Samsung and Hyundai dominate shipbuilding, cars, electronics and memory chips. Regional bodies such as ASEAN, APEC and RCEP (in force from 2022, with about 30% of world population and GDP) strengthen the Pacific Rim's position. Despite this, Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials, so world trade is concentrated in the triad rather than shared across the world.",
+    "model": "The trading triad of North America, Europe and the Pacific Rim is the three core economic areas of the world. Together they produce most of the world's manufactured goods, hold the headquarters of most multinational companies, and carry most world trade among themselves, with most foreign direct investment flowing between them. The USA is the world's largest economy and largest importer, and it has run a trade deficit in goods every year since the mid-1970s. Its trade bloc, NAFTA, took effect on 1 January 1994 and was replaced by USMCA on 1 July 2020, and its trade is shaped by tariffs, including the trade war with China from 2018 and the wider tariffs of 2025. Mexico overtook China in 2023 as the largest source of US imports. The EU single market, created on 1 January 1993, now has 27 member states, and the euro came in 1999. It is the largest trading bloc by value and trades strongly with the USA and China, although the July 2025 agreement set a 15% US tariff on most EU goods. The Pacific Rim, mainly East and South-East Asia with Australia, includes Japan, which was the second-largest economy until China overtook it in 2010 and which exports cars and electronics while importing most of its oil, coal and iron ore. China has become the world's largest exporter of goods since 2009, with a huge trade surplus, after its reforms from 1978 and its WTO entry in 2001. South Korea, one of the Asian Tigers, grew from war-damaged poverty through export-led industrialisation under Park Chung-hee, and its chaebol such as Samsung and Hyundai dominate shipbuilding, cars, electronics and memory chips. Regional bodies such as ASEAN, APEC and RCEP (in force from 2022, with about 30% of world population and GDP) strengthen the Pacific Rim's position. Despite this, Africa, much of Latin America and South Asia hold only a small share of world trade, mostly in raw materials, so world trade is concentrated in the triad rather than shared across the world.",
     "prompt": "Examine how world trade is dominated by the USA, Europe and the Pacific Rim.",
     "type": "short"
    },
@@ -5732,6 +7460,94 @@
    {
     "definition": "The growing integration of the world's economies through trade, investment, MNCs, technology and the movement of people and ideas.",
     "term": "Globalisation"
+   },
+   {
+    "definition": "Cheap labour for labour-intensive assembly; nearness to raw materials or markets; getting inside trade blocs; tax breaks, grants and export processing zones; falling transport and communication costs; spreading risk, so one disaster or strike cannot stop all production.",
+    "term": "Why basic processing units are spread across many countries"
+   },
+   {
+    "definition": "Founded as Blue Ribbon Sports (1964) by Phil Knight and Bill Bowerman; renamed Nike in 1971. Design and marketing stay in Beaverton, Oregon; contract factories in Vietnam (the largest), China and Indonesia make its shoes. 1990s sweatshop criticism led to factory monitoring.",
+    "term": "Nike: how a manufacturer without factories spreads production"
+   },
+   {
+    "definition": "Shannon Free Zone, Co. Clare (1959), one of the world's first; Shenzhen, China, a Special Economic Zone from 1980 (over 17 million people by 2020); maquiladoras along Mexico's border with the USA, such as at Tijuana and Ciudad Juárez, from 1965.",
+    "term": "Export processing zones: three named examples with dates"
+   },
+   {
+    "definition": "Long supply chains are easily disrupted (2021 chip shortage, Ever Given, Red Sea attacks); branch plants close when costs change; some plants pay low wages with poor conditions; long-distance transport harms the environment. Responses: reshoring and friend-shoring.",
+    "term": "Disadvantages of a spread-out production system"
+   },
+   {
+    "definition": "Britain industrialised first (late 18th century), then western Europe and the USA; colonies supplied raw materials and markets, and profits were reinvested at home; cumulative causation (Myrdal, 1957) drew in more investment and people; backwash drained the periphery.",
+    "term": "How the global core developed"
+   },
+   {
+    "definition": "Colonial economies were built to export one or two raw materials; railways ran from mines and plantations to ports, not between regions; colonisers drew the borders; after independence, falling commodity prices, debt and conflict held them back.",
+    "term": "How the global periphery developed, or failed to"
+   },
+   {
+    "definition": "Core: the USA, western Europe's Blue Banana and Japan. Semi-periphery: South Korea earlier; China, India, Brazil and Mexico now. Periphery: most of sub-Saharan Africa, parts of Latin America and South Asia. Ireland became core-like through MNC investment.",
+    "term": "Global core, semi-periphery and periphery: named examples"
+   },
+   {
+    "definition": "Mostly unprocessed raw-material exports: Côte d'Ivoire and Ghana grow over half the world's cocoa, mostly sold as beans; oil is most of Nigeria's exports and copper most of Zambia's; the Democratic Republic of the Congo mines most of the world's cobalt but exports it raw.",
+    "term": "Sub-Saharan Africa: evidence of exclusion from world manufacturing"
+   },
+   {
+    "definition": "Poor roads and ports and unreliable electricity; 16 landlocked countries, such as Chad, Niger, Mali and South Sudan, facing high transport costs to reach ports; climate hazards such as drought disrupting farming and production.",
+    "term": "Why sub-Saharan Africa is excluded: infrastructure and physical reasons"
+   },
+   {
+    "definition": "Political instability, conflict and corruption scare off investors; low levels of education and skills, and poor health, limit the workforce; small, poor home markets give firms little reason to produce locally; heavy debt absorbs money for development.",
+    "term": "Why sub-Saharan Africa is excluded: political and human reasons"
+   },
+   {
+    "definition": "A colonial legacy of economies built to export raw materials; tariff escalation, as coffee beans enter rich markets at low tariffs while roasted coffee faces higher ones, so processing at home does not pay; competition from established Asian manufacturers.",
+    "term": "Why sub-Saharan Africa is excluded: trade and historical reasons"
+   },
+   {
+    "definition": "Civil war between the Sudanese Armed Forces and the Rapid Support Forces since April 2023 has caused one of the world's largest displacement crises. South Sudan's independence in 2011 took most of the oil fields, Sudan's main export base.",
+    "term": "Sudan: a named example of a country excluded from manufacturing"
+   },
+   {
+    "definition": "Debt relief through the Heavily Indebted Poor Countries initiative (World Bank and IMF, 1996); the African Continental Free Trade Area, trading from 1 January 2021; Chinese and other foreign investment in infrastructure; fair trade.",
+    "term": "Attempts to reduce Africa's exclusion from world trade"
+   },
+   {
+    "definition": "About 80% of world trade is linked to MNC production networks (UNCTAD, 2013), much of it intra-firm; more trade in components; fast-growing services and digital trade; new powers led by China; lower barriers (WTO, trade blocs); containerisation; e-commerce.",
+    "term": "Globalisation's effects on world trade: give seven"
+   },
+   {
+    "definition": "Winners: consumers (cheaper goods); NICs and China (jobs and growth). Losers: core manufacturing regions (lost jobs); excluded regions (falling further behind); low-wage assembly workers in unsafe conditions (Rana Plaza). Transport also adds environmental costs.",
+    "term": "Globalisation: winners and losers"
+   },
+   {
+    "definition": "The US–China trade war (from 2018), US tariffs (2025) and Brexit raised barriers between major economies; governments are reshoring strategic industries such as chips; supply-chain worries grew after COVID-19.",
+    "term": "Reaction against globalisation: recent examples"
+   },
+   {
+    "definition": "Five-year plans (from 1951), protection and the Licence Raj (permits to produce or expand) held back growth. After a 1991 balance-of-payments crisis, P. V. Narasimha Rao and Manmohan Singh removed most licences, cut tariffs and opened India to foreign investment.",
+    "term": "India before 1991, and the 1991 reforms"
+   },
+   {
+    "definition": "Bengaluru became the 'Silicon Valley of India'; IT and business-process outsourcing grew, led by Tata Consultancy Services (1968), Infosys (1981) and Wipro; Texas Instruments opened a Bengaluru design centre in 1985. Services now give over half of India's GDP.",
+    "term": "India: positive impacts of globalisation on IT and services"
+   },
+   {
+    "definition": "Maruti Suzuki, a joint venture with Japan's Suzuki, made its first car in 1983; India is the 'pharmacy of the world' for generic medicines; Make in India (2014) and iPhone assembly near Chennai; a growing middle class; hundreds of millions lifted out of extreme poverty.",
+    "term": "India: positive impacts of globalisation on industry and living standards"
+   },
+   {
+    "definition": "Inequality between cities and rural areas and between states; small farmers exposed to world prices (2020–21 protests against three farm laws, repealed November 2021); most workers still informal; MNC accidents such as the Bhopal gas leak at Union Carbide's plant (1984).",
+    "term": "India: negative impacts of globalisation"
+   },
+   {
+    "definition": "Reforms from 1978, SEZs from 1980 and WTO entry (2001) made China the largest goods exporter (since 2009) and lifted about 800 million people out of extreme poverty (World Bank). Costs: inequality between coast and interior, pollution, dependence on exports.",
+    "term": "China since 1978: positive and negative impacts of globalisation"
+   },
+   {
+    "definition": "Garments are most of its exports; it is the world's second-largest garment exporter after China, with jobs especially for women. On 24 April 2013 Rana Plaza at Savar, near Dhaka, collapsed, killing over 1,100 garment workers; the 2013 Accord on Fire and Building Safety brought factory inspections.",
+    "term": "Bangladesh: garment exports, Rana Plaza and the Accord"
    }
   ],
   "notes": [
@@ -6100,6 +7916,74 @@
    {
     "definition": "A hollow left where a buried block of ice melts out of outwash.",
     "term": "Kettle hole"
+   },
+   {
+    "definition": "The older Munsterian ice covered almost all of the island. The more recent Midlandian ice did not cover the far south; the Southern Irish End Moraine marks its southern limit. The Midlandian glaciation ended about 10,000 years ago.",
+    "term": "Ireland's two glacial cold stages: names and extent of the ice"
+   },
+   {
+    "definition": "It advances when more ice arrives from the accumulation zone than melts, e.g. after heavier snowfall or cooler summers. It retreats when melting exceeds the ice arriving, e.g. with less snowfall or warmer summers, even though the ice still flows forward.",
+    "term": "Glacier snout: what makes it advance or retreat"
+   },
+   {
+    "definition": "Average rate = distance moved ÷ number of years, given in metres per year. Illustrative example with invented figures: a snout that retreats 600 m over 20 years moves 600 ÷ 20 = 30 m per year.",
+    "term": "Skill: how to work out the average rate of snout movement"
+   },
+   {
+    "definition": "First, nivation and freeze-thaw enlarge a snow-filled mountain hollow; then the snow turns to ice and the rotating glacier plucks and abrades the back wall and floor, leaving a steep back wall and rock lip; finally, meltwater held behind the lip forms a tarn.",
+    "term": "Corrie and tarn: how they form, in stages"
+   },
+   {
+    "definition": "Corries: Coumshingaun, Comeragh Mountains, Co. Waterford; the Devil's Punchbowl, Mangerton, Co. Kerry. Pyramidal peaks: Carrauntoohil, Macgillycuddy's Reeks, Co. Kerry; the Matterhorn. Arête: Striding Edge, Helvellyn, Lake District, England.",
+    "term": "Name examples of corries, pyramidal peaks and an arête"
+   },
+   {
+    "definition": "A river first cuts a V-shaped valley with interlocking spurs. A glacier then deepens and widens it by plucking and abrasion and cuts off the spurs as truncated spurs, leaving a steep-sided, flat-floored trough, e.g. Glendalough and Glenmalure, Co. Wicklow.",
+    "term": "U-shaped valley: how it forms from a river valley, with an example"
+   },
+   {
+    "definition": "A tributary glacier is smaller than the main one and erodes less deeply, so when the ice melts its valley is left high above the main valley floor and its stream falls over the edge as a waterfall, e.g. Poulanass Waterfall, Glendalough, Co. Wicklow.",
+    "term": "Hanging valley and waterfall: how they form, with an example"
+   },
+   {
+    "definition": "Plucking and abrasion overdeepen one section of a glacial valley floor more than the rest, leaving a rock basin; when the ice melts, the basin fills with water as a long, narrow lake, e.g. the Upper Lake, Glendalough, Co. Wicklow.",
+    "term": "Ribbon lake: how it forms, with an Irish example"
+   },
+   {
+    "definition": "A glacier overdeepens a coastal valley so that its floor lies well below sea level; when the ice melts, the sea floods the valley, leaving a steep-sided inlet, e.g. Killary Harbour on the Co. Galway–Co. Mayo border, and Sognefjord, Norway.",
+    "term": "Fjord: how it forms, with an Irish and a foreign example"
+   },
+   {
+    "definition": "Ice flows over a bedrock outcrop: abrasion smooths and polishes the upstream (stoss) side, while plucking tears blocks from the downstream (lee) side, leaving a steep, rough face. Example: Lembert Dome, Yosemite, California, USA.",
+    "term": "Roche moutonnée: how each side forms, with an example"
+   },
+   {
+    "definition": "First, ice deposits or overrides a mass of till on its bed; then the moving ice moulds it into a streamlined hill parallel to the ice flow, with a blunt up-ice end and a tapered down-ice end; drumlins lie in aligned swarms, a basket of eggs landscape.",
+    "term": "Drumlin: how it forms, in stages"
+   },
+   {
+    "definition": "The drumlin belt across Co. Cavan, Co. Monaghan and Co. Leitrim. Drowned drumlins, islands formed where the sea flooded the low ground between drumlins: Clew Bay, Co. Mayo, and Strangford Lough, Co. Down.",
+    "term": "Name an Irish drumlin belt and two places with drowned drumlins"
+   },
+   {
+    "definition": "Meltwater flowing in a tunnel within or beneath the glacier deposits sorted sand and gravel on the tunnel floor as its velocity falls; when the ice melts, a long, winding ridge is left, e.g. Esker Riada across the Midlands, the ancient Slí Mhór routeway.",
+    "term": "Esker: how it forms, with an Irish example"
+   },
+   {
+    "definition": "Meltwater spreads sorted sand and gravel beyond the terminal moraine onto flat ground, building a flat plain. Example: the Curragh, Co. Kildare, well-drained grassland used for horse training and an army camp.",
+    "term": "Outwash plain: how it forms, with an Irish example and its uses"
+   },
+   {
+    "definition": "Till is dropped directly by ice, so it is unsorted, unstratified and angular, ranging from clay to boulders. Fluvio-glacial material is laid down by meltwater, which sorts it by size and lays it in stratified layers.",
+    "term": "Glacial till vs fluvio-glacial deposits: how they differ"
+   },
+   {
+    "definition": "Glacial erosion: corrie, arête, pyramidal peak, U-shaped valley, hanging valley, ribbon lake, fjord, roche moutonnée, striations. Glacial deposition: till, moraines, drumlins, erratics. Fluvio-glacial: eskers, outwash plains, kames, kettle holes.",
+    "term": "Classify glacial landforms as erosion, deposition or fluvio-glacial"
+   },
+   {
+    "definition": "Granite erratics carried by ice from Connemara rest on the limestone of the Burren, Co. Clare; their rock type is unlike the bedrock beneath them.",
+    "term": "Name an Irish example of glacial erratics"
    }
   ],
   "notes": [
@@ -6414,6 +8298,46 @@
    {
     "definition": "A step on a valley side marking an old valley floor, left above the present channel after rejuvenation.",
     "term": "River terrace"
+   },
+   {
+    "definition": "Isostatic change: the land moves, a local change in its height relative to the sea, e.g. rebound after an ice sheet melts. Eustatic change: the sea moves, a worldwide change in sea level, e.g. falling as water is locked in ice sheets and rising as it melts.",
+    "term": "Isostatic vs eustatic change: what is the difference?"
+   },
+   {
+    "definition": "Rebound lags far behind melting, so land can still be rising long after the ice has gone. It continues in Scandinavia around the Gulf of Bothnia, around Hudson Bay in Canada, and in Scotland.",
+    "term": "Isostatic rebound: why it continues today, and three places where it does"
+   },
+   {
+    "definition": "Erosion removes weight from the land, so the crust rises. Heavy deposition adds weight, so the crust sinks; a delta is one place where a large load builds up.",
+    "term": "Denudation and deposition: how they change the load on the crust"
+   },
+   {
+    "definition": "Where uplift is faster than denudation, features such as raised beaches are left above the present sea. Where sea level rises faster than the land, the sea floods valleys cut when it stood lower, forming rias, fjords and drowned drumlins. Either way the features don't match present conditions.",
+    "term": "Landscapes temporarily out of balance: the two situations"
+   },
+   {
+    "definition": "An old cliff line inland of the sea; a wave-cut notch at the former sea level; sea caves and stacks above the present tide reach; beach shingle; a flat former wave-cut platform. Examples: Malin Head, Inishowen, Co. Donegal; the Isle of Jura, Scotland.",
+    "term": "Raised beaches: five features found on them, and two examples"
+   },
+   {
+    "definition": "Rias (drowned river valleys), e.g. Bantry Bay; fjords (drowned glacial troughs), e.g. Killary Harbour on the Co. Galway–Co. Mayo border; drowned drumlins, e.g. Clew Bay, Co. Mayo, and Strangford Lough, Co. Down.",
+    "term": "Submergent coast: three features, with an example of each"
+   },
+   {
+    "definition": "Bantry Bay, the Kenmare River, Dingle Bay and Cork Harbour are drowned river valleys of the Munster ridge-and-valley landscape, flooded as the sea rose relative to the land.",
+    "term": "Name four rias in the south-west and the landscape they drowned"
+   },
+   {
+    "definition": "The north had thicker ice, so it was depressed more and has rebounded more: its coast shows raised beaches, as in Donegal. The south-west shows the opposite pattern: a drowned coast with rias, as in Cork and Kerry.",
+    "term": "North vs south-west of Ireland: how isostasy shaped each coast"
+   },
+   {
+    "definition": "The land rises relative to the sea, giving the river renewed erosive power (rejuvenation); it cuts down again, working upstream from the mouth. Landforms: a knickpoint (often with a waterfall), incised meanders and river terraces.",
+    "term": "Fall in base level: effect on a river, and three landforms it leaves"
+   },
+   {
+    "definition": "When the sea rises relative to the land, the lower course of the river is drowned and becomes an estuary or a ria.",
+    "term": "Rise in base level: effect on a river's lower course"
    }
   ],
   "notes": [
@@ -6621,6 +8545,102 @@
    {
     "definition": "A line on a map joining places of equal value.",
     "term": "Isoline"
+   },
+   {
+    "definition": "Read the title, both axis labels, the key or legend, the units (%, thousands, €m, mm, °C, per 1,000), the years shown and the source line. Most lost marks come from a misread unit, year or column.",
+    "term": "Reading any figure: what to check before reading a value"
+   },
+   {
+    "definition": "Run a ruler from the top of the bar or point across to the vertical axis, estimate between gridlines and quote the value with its unit. In a table, find the row and column headings and read the cell where they meet; don't confuse a totals row or the wrong year's column with the value asked for.",
+    "term": "Reading a value from a bar chart, line graph or table: the method"
+   },
+   {
+    "definition": "Twice as much: double the smaller value and look for the value that matches it. Above the average line: count the bars or points whose tops lie above it. Highest or lowest: scan every value, not just the first and last.",
+    "term": "Short data questions: how to find 'twice as much' and 'above the average line'"
+   },
+   {
+    "definition": "Read each panel's own label and unit: headline figures are often totals, while small charts and panels may show percentages. In a pictogram, check the key for what one icon stands for; a part-icon is a fraction of it.",
+    "term": "Infographics and pictograms: how to read them without losing marks"
+   },
+   {
+    "definition": "State the overall direction; give the start and end values with years and units; name the period of fastest change and any peak, trough or reversal; quantify the change (difference and/or percentage change); point out anomalies.",
+    "term": "Describing a trend in an answer: what to include"
+   },
+   {
+    "definition": "Which series is higher; when the lines cross; whether the gap widens or narrows; the difference in a given year, for example net migration = immigration minus emigration.",
+    "term": "Comparing two series on one graph: what to say"
+   },
+   {
+    "definition": "An axis that does not start at zero or has uneven intervals; dates far apart or unevenly spaced; a small sample; a source that is unreliable or out of date; percentages hiding small totals; treating correlation as proof of cause.",
+    "term": "Evaluating a figure (Higher): weaknesses to look for"
+   },
+   {
+    "definition": "Percentage change = (new value − old value) ÷ old value × 100; a positive result is an increase and a negative result a decrease. Always divide by the old (earlier) value, never the new one.",
+    "term": "Percentage change: the formula and the common mistake"
+   },
+   {
+    "definition": "Subtract to give the change in percentage points, and add the percentage change if unsure. Illustrative: 20% rising to 90% is +70 percentage points but a 350% percentage change, (90 − 20) ÷ 20 × 100.",
+    "term": "Percentage points vs percentage change: how to answer when both values are percentages"
+   },
+   {
+    "definition": "Percentage of a total = part ÷ total × 100; rate per 1,000 = number ÷ population × 1,000 (e.g. birth rate = births ÷ population × 1,000); density = number ÷ area, given as people per km².",
+    "term": "Percentage of a total, rate per 1,000 and density: the three formulas"
+   },
+   {
+    "definition": "Parts of a whole add to 100% (pie chart, percentage table) or to a stated total (stacked bar, total row), so X = total minus the sum of the known parts. To find a number from a percentage: number = percentage ÷ 100 × total.",
+    "term": "Calculating a missing value X: the method"
+   },
+   {
+    "definition": "Round to the precision the data uses, or one decimal place; keep the unit and the multiplier (thousands, millions) in every answer; for a difference, say which is larger; show the working, which can earn marks if the answer slips.",
+    "term": "Calculation questions: rules on rounding, units and working"
+   },
+   {
+    "definition": "Use graph paper, a pencil and a ruler, and fill most of the space. The title says what the data is, where and when, in the question's wording. Categories or time go on the x-axis and values on the y-axis; label both with units.",
+    "term": "Drawing a graph: rules for the paper, title and axes"
+   },
+   {
+    "definition": "The scale starts at zero, is evenly divided and fits the largest value (e.g. steps of 5 or 10). Plot every value accurately; bars of equal width with equal gaps; join points with ruled straight lines; a key if more than one shading is used.",
+    "term": "Drawing a graph: rules for the scale, plotting and key"
+   },
+   {
+    "definition": "Space the years in proportion to the time between them: for data for 1990, 2000, 2010 and 2015, the last gap is half the others. Plot each point at its correct year and join the points with ruled lines; a steeper line means faster change.",
+    "term": "Line graph: how to space the time axis"
+   },
+   {
+    "definition": "One value for separate categories: bar chart. Change over time: line graph. Shares of a whole adding to 100%: pie chart or divided bar. Two related variables for the same places: scatter graph. Three components adding to 100%: triangular graph.",
+    "term": "'Draw a suitable graph': which graph suits which data"
+   },
+   {
+    "definition": "Take the top of its segment minus the bottom of its segment; the top of the whole bar is the total. In a percentage compound bar every bar reaches 100%, so the segments show shares rather than totals.",
+    "term": "Compound bar chart: how to read one component"
+   },
+   {
+    "definition": "Degrees = percentage × 3.6 (360° ÷ 100), or value ÷ total × 360 for raw numbers; angles must total 360°. Draw a circle with a compass and a radius to 12 o'clock, measure each angle clockwise with a protractor, largest first, and label each segment.",
+    "term": "Pie chart: calculating the angles and drawing it"
+   },
+   {
+    "definition": "Age groups in 5-year bands on the central vertical axis, 0–4 at the bottom and the oldest at the top; males on the left, females on the right; the horizontal axis shows % of the population (or number), scaled outward from zero on both sides.",
+    "term": "Population pyramid: how to draw the axes and bars"
+   },
+   {
+    "definition": "A wide base means a high birth rate; a narrow top means low life expectancy; a narrowing base means a falling birth rate; bulges and indentations suggest baby booms, migration, war or famine.",
+    "term": "Population pyramid: what four features of the shape tell you"
+   },
+   {
+    "definition": "Annual temperature range = maximum minus minimum mean monthly temperature; mean annual temperature = sum of the 12 monthly means ÷ 12; total annual rainfall = sum of the 12 bars. Also read the wettest and driest months.",
+    "term": "Climate graph: the calculations examiners ask for"
+   },
+   {
+    "definition": "Put the independent variable on the x-axis; plot each place as a point and do not join the points; draw a line of best fit by eye. Describe the correlation (positive, negative or none; strong or weak) and any outliers. Correlation does not prove cause.",
+    "term": "Scatter graph: drawing rules and how to describe it"
+   },
+   {
+    "definition": "Read each component along the gridlines parallel to the side where its 0 is, following the direction its numbers run. To plot: find the first value on its scale, follow its gridline in to where it meets the second value's gridline, and check with the third. The three always total 100%.",
+    "term": "Triangular graph: how to read and plot a point"
+   },
+   {
+    "definition": "Classes must not overlap and must cover every value (e.g. 0–49, 50–99, 100–149, 150+); darker = higher; a key is essential. But it implies the value is even across each area, hides variation inside it and makes boundaries look like sudden changes.",
+    "term": "Choropleth map: rules for the classes and its weaknesses"
    }
   ],
   "notes": [
@@ -6895,6 +8915,78 @@
    {
     "definition": "A geographical unit for which census results are published, larger than a Small Area.",
     "term": "Electoral Division"
+   },
+   {
+    "definition": "Run by the Central Statistics Office (CSO), and taking part is required by law. Normally held every five years on a Sunday night in April; traditionally in years ending in 1 and 6, but since the 2022 census the next is 2027. The first census of the Irish Free State was in 1926.",
+    "term": "Irish census: who runs it, how often and on what night"
+   },
+   {
+    "definition": "The 2001 census was postponed to 2002 because of foot-and-mouth disease; the 2021 census was postponed to 2022 because of COVID-19. The next census is planned for 2027.",
+    "term": "Which two Irish censuses were postponed, and why?"
+   },
+   {
+    "definition": "Census 2011: about 4.59 million. Census 2016 (24 April 2016): about 4.76 million. Census 2022 (3 April 2022): 5,149,139, about 5.15 million, a rise of about 387,000 (about 8%) on 2016.",
+    "term": "Census 2011, 2016 and 2022: the population totals"
+   },
+   {
+    "definition": "It asked for the first time about working from home and about renewable energy sources at the home, such as solar panels, and included an optional time capsule page whose contents will be released after 100 years.",
+    "term": "Census 2022: what it asked for the first time"
+   },
+   {
+    "definition": "Enumerators deliver a household form to every dwelling before census night and collect it afterwards; one form per household, with a page for each person; hotels, hospitals and prisons are covered separately; vacant dwellings are recorded.",
+    "term": "How the census forms are delivered and collected"
+   },
+   {
+    "definition": "Information is used only for statistics, and personal forms are kept closed for 100 years before becoming historical records. The 1901 and 1911 returns are free online from the National Archives of Ireland and are used for family history.",
+    "term": "Census confidentiality: the 100-year rule and the oldest returns online"
+   },
+   {
+    "definition": "Schools (number of young children); healthcare and nursing homes (size of the older population); housing (household numbers and vacancy); transport (commuting flows). Also pensions and welfare, and targeting resources at disadvantaged areas.",
+    "term": "Census data: six ways governments and planners use it"
+   },
+   {
+    "definition": "Constituencies are reviewed after each census by the Electoral Commission (An Coimisiún Toghcháin). The Constitution requires one TD for every 20,000 to 30,000 people and a revision at least once every 12 years.",
+    "term": "Census data and Dáil constituencies: the rules"
+   },
+   {
+    "definition": "Businesses use it to choose where to locate shops and services; researchers and students use it, including to track the Irish language; old returns are used for historical and genealogical research.",
+    "term": "Census data: three uses outside government"
+   },
+   {
+    "definition": "It is a snapshot of one night, out of date between censuses, with a long wait for detailed results; homeless people and people avoiding the count may be missed; self-reported answers may be inaccurate; it is very expensive; area boundaries change over time.",
+    "term": "Limitations of census data: name seven"
+   },
+   {
+    "definition": "Population change = natural increase + net migration, so net migration = total change minus natural increase (births minus deaths from civil registration). Illustrative Rivertown ED: change +630, natural increase 170, so net migration +460.",
+    "term": "Net migration from two censuses: how to estimate it"
+   },
+   {
+    "definition": "Young dependents 0–14, working age 15–64, old dependents 65 and over. A high young dependency ratio means more schools are needed; a high old one means more pensions and healthcare. Divide by the 15–64 group, not the total.",
+    "term": "Age structure: the three groups and what a high dependency ratio means"
+   },
+   {
+    "definition": "Women outnumber men in the older age groups because of longer life expectancy. Local imbalances arise from migration, for example young women moving to cities for work.",
+    "term": "Sex structure: why the balance of males and females varies"
+   },
+   {
+    "definition": "The whole island had about 8.2 million people in 1841. After a steep fall following the Great Famine, the State was at its lowest in the 1961 census, about 2.8 million. Census 2022 was the first to pass 5 million since the 1851 census.",
+    "term": "Ireland's long-term population trend: three census figures"
+   },
+   {
+    "definition": "Growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
+    "term": "Ireland's population today: three features shown by the census"
+   },
+   {
+    "definition": "Irish census figures cover the State, not the island. Northern Ireland has its own census, run by NISRA; its latest, on 21 March 2021, counted about 1.9 million. The Republic's latest was 2022, so the two must not be merged.",
+    "term": "Why Irish census figures do not include Northern Ireland"
+   },
+   {
+    "definition": "Choose the area (ED, Small Area, town or county); find its tables for two or more censuses on the CSO website; record population, age, sex, households, nationality, commuting; calculate changes and ratios; graph them; describe; explain; note limitations.",
+    "term": "Local-area census study: the eight steps"
+   },
+   {
+    "definition": "New housing estates and commuter growth near cities and motorways bring rising population, young families and high young dependency; rural decline in remote areas brings a falling, ageing population; also immigration, or a major employer closing or opening.",
+    "term": "Local population trends: typical explanations"
    }
   ],
   "notes": [
@@ -6904,7 +8996,7 @@
     "points": [
      "In Ireland the census is carried out by the Central Statistics Office (CSO), and taking part is required by law.",
      "Ireland's census is de facto: it counts everyone present in the State on census night, including visitors, wherever they usually live. The form also records each person's usual residence, so results can be given both ways.",
-     "The census is normally held every five years, in years ending in 1 and 6, on a Sunday night in April.",
+     "The census is normally held every five years on a Sunday night in April. It used to fall in years ending in 1 and 6, but the 2021 census was postponed to 2022 because of COVID-19, so the next is in 2027.",
      "The 2001 census was postponed to 2002 because of foot-and-mouth disease.",
      "The 2021 census was postponed to 2022 because of COVID-19.",
      "The next census is planned for 2027.",
@@ -7035,7 +9127,7 @@
      "For comparison, the population of the whole island was about 8.2 million in 1841.",
      "After 1961 the population grew, and Census 2022 was the first to show it passing 5 million since the 1851 census.",
      "Present features: growth driven by both natural increase and immigration; an ageing population, with a growing share aged 65 and over; rising cultural diversity, with many non-Irish citizens.",
-     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the notes on Changing migration patterns in Ireland to s6."
+     "Demographic transition, fertility and mortality change and Ireland's twentieth-century history are in the notes on Changing population characteristics and the notes on Changing migration patterns in Ireland; migration patterns, policy and reasons are in the migration notes, from Changing migration patterns in Ireland to Rural-to-urban migration."
     ]
    },
    {
@@ -7222,6 +9314,106 @@
    {
     "definition": "A line joining points of equal value on a map, such as a contour.",
     "term": "Isoline"
+   },
+   {
+    "definition": "1 cm on the map = 500 m (0.5 km) on the ground; 2 cm = 1 km; each grid square is 2 cm × 2 cm, which is 1 km × 1 km = 1 km². Give distances in km and areas in km².",
+    "term": "1:50 000 OS map: the scale conversions to know"
+   },
+   {
+    "definition": "Start with the sub-zone letter; read eastings (numbered along the top and bottom) first, then northings (up the sides): along the corridor, then up the stairs. A four-figure reference uses the bottom-left (south-west) corner of the square.",
+    "term": "Grid references: the order and the rules that lose marks"
+   },
+   {
+    "definition": "Read the easting to the west of the point and estimate tenths east of it, then the northing below and tenths north of it; give the centre of the symbol. Use it for points (a building, junction, spot height); use four figures for areas.",
+    "term": "Six-figure grid reference: how to give one, and when to use it"
+   },
+   {
+    "definition": "Each degree has 60 minutes; write latitude first with N or S, then longitude with E or W, e.g. Dublin about 53°20′N, 6°15′W. Ireland lies between about 51.5°N and 55.5°N and about 5.5°W and 10.5°W.",
+    "term": "Latitude and longitude: how to write a position, and Ireland's range"
+   },
+   {
+    "definition": "Measure in cm with a ruler and multiply by 0.5 to get km, or mark a paper edge and read it against the scale bar; answer in km to one decimal place. From two grid references: distance = √(ΔE² + ΔN²).",
+    "term": "Straight-line distance on the OS map: the method"
+   },
+   {
+    "definition": "Mark the start on the straight edge of a strip of paper, pivot it at each bend and mark as you go (or lay string along the route), then straighten it and measure against the scale bar. Start and stop exactly at the points named.",
+    "term": "Curved distance along a road, railway or river: the method"
+   },
+   {
+    "definition": "Rectangular area: km east–west × km north–south, each square 1 km². Irregular feature (lake, bay, land above a contour): count full squares, count squares more than half covered as full, ignore those less than half covered; answer in km², approximately.",
+    "term": "Area on the OS map: regular and irregular shapes"
+   },
+   {
+    "definition": "North is the top of the map. Draw a line from the start to the destination, imagine a compass centred on the start and read the direction of travel; 'from A to B' is read at A. A river flows from high ground to low ground, shown by spot heights and contours.",
+    "term": "Direction on the OS map: the method"
+   },
+   {
+    "definition": "Read the spot height or triangulation pillar beside it, or the nearest numbered contour, and count contours up or down at 10 m each (the Discovery Series interval). The highest point on the map is the highest spot height or pillar.",
+    "term": "Finding the height of a point on an OS map"
+   },
+   {
+    "definition": "Concave: contours close near the top, so steep above and gentle below; convex is the reverse. Students often swap them. In a valley the contour Vs point upstream, towards higher ground; on a spur they point downhill.",
+    "term": "Contour patterns: concave vs convex, and valley vs spur"
+   },
+   {
+    "definition": "Find each point's height and subtract for the VI; measure the distance and convert to metres for the HE; divide HE by VI and write 1 in x. Illustrative: summit 512 m to bridge 52 m gives VI 460 m; HE 4 600 m; gradient 1 in 10.",
+    "term": "Gradient: the method, with an illustrative example"
+   },
+   {
+    "definition": "Match the point to the map by its distance along the line and its height. A river is a dip with a blue line on the map; read a road's number, the forestry type or land use, a walk or the townland from the map there; read slope type from the curve.",
+    "term": "Elevation profile questions: how to identify each labelled point"
+   },
+   {
+    "definition": "M = motorway; N = national road (national primary and secondary routes); R = regional road. Coniferous plantation has pointed tree symbols; deciduous woodland rounded ones; mixed woodland both. Use the legend's terms.",
+    "term": "Short legend questions: road letters and forestry types"
+   },
+   {
+    "definition": "Halve the length and breadth of the extract (each 2 cm square becomes 1 cm) and draw a frame with four ruled sides; add light pencil grid lines at the same eastings and northings and label the edge numbers. Illustrative: 28 cm × 16 cm becomes 14 cm × 8 cm.",
+    "term": "Half-scale sketch map: how to draw the frame"
+   },
+   {
+    "definition": "Tracing the map; adding features not asked for; placing a feature in the wrong part of the frame; leaving a feature unlabelled (it earns nothing); not following a contour round every part asked for; no title or north arrow.",
+    "term": "Sketch map: the mistakes that lose marks"
+   },
+   {
+    "definition": "Dendritic: tree-like, tributaries meet at acute angles; trellised: tributaries meet at right angles; radial: streams flow out from a central hill; centripetal: streams flow in to a lake or lowland; deranged: no clear pattern, many small lakes and marshes.",
+    "term": "Name and describe five drainage patterns as seen on a map"
+   },
+   {
+    "definition": "Corrie: armchair hollow, contours close on three sides; tarn: round lake in a corrie; arête: narrow ridge, close contours on both sides; U-shaped valley: flat floor, steep sides; ribbon lake: long narrow lake on its floor; drumlins: small oval contour rings.",
+    "term": "Glacial landforms: how to recognise them on an OS map"
+   },
+   {
+    "definition": "Meander: river swinging in loops; oxbow lake: crescent lake beside a meander; floodplain: wide, flat, no contours, often marshy; braiding: river split into channels round islands; confluence: where a tributary joins; waterfall: contours crowded across a river.",
+    "term": "Fluvial landforms: how to recognise them on an OS map"
+   },
+   {
+    "definition": "Beach: sand or shingle shading along the shore; cliff: cliff symbol or contours crowded at the coast; headland: land projecting into the sea; bay: curved inlet; sand dunes: dune shading; swallow hole: a stream ending abruptly where it goes underground.",
+    "term": "Coastal and karst landforms: how to recognise them on an OS map"
+   },
+   {
+    "definition": "Nucleated settlement clusters at a route focus or service, such as a crossroads, bridge or church; linear settlement forms along a road that gives access to services; dispersed settlement reflects farming and land consolidation. Give a grid reference for each.",
+    "term": "Rural settlement patterns: why each forms where it does"
+   },
+   {
+    "definition": "High land above about 200–300 m (cold, wet, exposed, thin soils); steep slopes (crowded contours); poorly drained land (marsh or bog symbol, floodplain liable to flooding); forestry plantations; lakes. Give a four-figure grid reference.",
+    "term": "Absence of settlement: reasons with their map evidence"
+   },
+   {
+    "definition": "Prehistoric: megalithic tombs, standing stones, fulachta fia, promontory forts, crannógs. Early Christian: ringforts, souterrains, churches, holy wells, round towers, high crosses. Norman: mottes, castles, town walls, abbeys and friaries.",
+    "term": "Historic settlement: map evidence for three phases"
+   },
+   {
+    "definition": "Bridging point (bridge, converging roads); route focus (N and R roads and a railway meet); defence (castle, town walls, hill, river bend); river or coastal site (pier, harbour, mills); flat lowland (wide contours); fertile farmland; an early church or abbey.",
+    "term": "Why a town developed at its location: reasons and map evidence"
+   },
+   {
+    "definition": "Give a six-figure reference. Flat land (widely spaced contours); access (N road, motorway junction, railway, port); near a town for labour and markets; space to expand; off the floodplain, away from scenic areas. Wind farms need exposed high ground.",
+    "term": "Site suitability for a development: reasons to give with map evidence"
+   },
+   {
+    "definition": "Accessibility (road access, parking); services (hostels, hotels, camping sites, tourist information); attractions (antiquities, viewpoints, walks, cycle routes, beaches, lakes, golf courses). Evidence each with a grid reference and explain it.",
+    "term": "Tourism potential from the OS map: what to cite"
    }
   ],
   "notes": [
@@ -7703,6 +9895,50 @@
    {
     "definition": "The text, table, cartoon or extract given in an exam question, from which the answer is drawn.",
     "term": "Stimulus material"
+   },
+   {
+    "definition": "A questionnaire the student designs and carries out is primary; a published survey is secondary; old maps and the census are secondary. Secondary does not mean less useful: it gives background, past data and comparisons fieldwork cannot.",
+    "term": "Primary or secondary? How to classify questionnaires, old maps and the census"
+   },
+   {
+    "definition": "Present: textbooks; newspapers; official reports; development plans; tourist brochures; websites. Past: historical maps (old OS editions, town plans, estate maps); old photographs and postcards; old newspapers; earlier census returns; parish records.",
+    "term": "Name six present-day and five past secondary sources"
+   },
+   {
+    "definition": "CSO: census and official statistics; Met Éireann: weather and climate data; EPA: water and air quality reports; Tailte Éireann: national mapping and OS maps (Ordnance Survey Ireland joined it in 2023); local authorities: development plans.",
+    "term": "Who produces official data in Ireland? Name five bodies and what each supplies"
+   },
+   {
+    "definition": "Ask who wrote it and why: a developer's brochure, a campaign group's leaflet, a political leaflet or an advertisement may be one-sided. Bias shows in one-sided arguments, emotive language and selective figures.",
+    "term": "How to spot bias in a source"
+   },
+   {
+    "definition": "Author (official body, expert or anonymous); date (current, or past for comparison); purpose (inform, persuade or sell); evidence (sources cited, data given); scale (national figures may not fit the local area); agreement with other sources.",
+    "term": "Reliability checklist for a secondary source: six checks"
+   },
+   {
+    "definition": "It may be out of date; it was collected for another purpose; it may not cover the exact study area; definitions may differ between sources or dates; online sources may be unverified.",
+    "term": "Limitations of secondary data: name five"
+   },
+   {
+    "definition": "Illustrative newsletter: 'Traffic on Main Street has doubled since the new industrial estate opened' is a fact, checkable with traffic counts or council data; 'the relief road is a disaster for the town' is an opinion, shown by the emotive word 'disaster'.",
+    "term": "Fact vs opinion: identify each in a passage (illustrative)"
+   },
+   {
+    "definition": "Match scale and orientation; find fixed points on both (bridge, church, castle, main street); list what has appeared, disappeared and stayed; describe the change (e.g. a new bypass, loss of a mill, a straightened river); explain each change.",
+    "term": "Comparing an old map with a present-day map: the five steps"
+   },
+   {
+    "definition": "It mapped the whole country at six inches to one mile in the 1830s and 1840s. Old maps may use different scales, symbols and place-name spellings and can be inaccurate; old photographs and accounts show a single moment, a chosen viewpoint or one writer's view.",
+    "term": "First Ordnance Survey of Ireland: its scale and date, and the limits of old sources"
+   },
+   {
+    "definition": "Rule a frame of the same shape. Old maps usually have no grid, so divide map and frame into a light pencil grid of equal sections; place and label only the features asked (e.g. shoreline, two streets drawn meeting, a named building); add title and north arrow.",
+    "term": "Sketch map of a historical map (Higher, 20 marks): the method"
+   },
+   {
+    "definition": "Read the question first; underline key terms and figures in the text; answer using the text's evidence plus your own knowledge, in correct geographical terms. For a cartoon, identify the message, the issue, who is shown and the viewpoint.",
+    "term": "Stimulus text or cartoon questions: how to answer them"
    }
   ],
   "notes": [
@@ -7892,6 +10128,74 @@
    {
     "definition": "A model of how a river's discharge, width, depth and velocity tend to change downstream.",
     "term": "Bradshaw model"
+   },
+   {
+    "definition": "Worth 20% of the total mark (written exam 80%) and compulsory at Higher and Ordinary level. The topic comes from the SEC's annual list issued in Leaving Certificate Year 1; the report is due at the end of term one in Year 2, on a date the SEC sets.",
+    "term": "Geographical Investigation: weighting, topic list and deadline"
+   },
+   {
+    "definition": "A class may collect data together, but each student writes a full report of their own; group reports are not accepted. Sources are about 60% primary and 40% secondary. The geography teacher and school principal verify it is the candidate's own work.",
+    "term": "Geographical Investigation: rules on group work, sources and authenticity"
+   },
+   {
+    "definition": "A precise, testable statement, not a question or topic title; narrow enough to test in a day or two; no vague words such as 'better'; the place named. Illustrative: 'The velocity of the River Dallow increases downstream.'",
+    "term": "Investigation hypothesis: the rules, with an illustrative example"
+   },
+   {
+    "definition": "Three to five specific, measurable tasks that together test the hypothesis, each naming what will be measured and where; each later gets its own results. Illustrative: measure width, average depth and velocity at five sites 500 m apart.",
+    "term": "Investigation objectives: how many, and what each must state"
+   },
+   {
+    "definition": "Study OS maps and aerial photographs; choose and justify sites (e.g. evenly spaced along a river); choose the date and time; gather equipment; divide tasks in the group; arrange landowner permission; prepare a recording sheet with columns for repeat readings.",
+    "term": "Investigation planning: tasks to complete before fieldwork"
+   },
+   {
+    "definition": "Keep it short; mostly closed questions (tick boxes, yes/no, rating scales) for easy analysis, plus a few open ones; neutral, unbiased wording; no unnecessary personal questions; pilot it first; plan who, where, when and how many to ask.",
+    "term": "Questionnaire design for an investigation: the rules"
+   },
+   {
+    "definition": "Complete a risk assessment; never work alone; supervision near water or traffic; suitable clothing and footwear; check the weather and river level; respect property and the environment; questionnaires anonymous and voluntary.",
+    "term": "Fieldwork safety and ethics: precautions to state"
+   },
+   {
+    "definition": "Measuring tape or ranging poles: channel width; metre stick: depth at regular intervals across the channel; float and stopwatch, or a flow meter: velocity; clinometer: slope angle; callipers or ruler: pebble size; roundness chart: pebble shape.",
+    "term": "River study instruments: what each one measures"
+   },
+   {
+    "definition": "Time a float over a measured distance, such as 10 m, repeat the timing and average it; velocity = distance ÷ time. A surface float overestimates average velocity, so the results are estimates, not exact values.",
+    "term": "Measuring velocity with a float: the method and its limitation"
+   },
+   {
+    "definition": "Illustrative site 5: width 6.0 m × average depth 0.40 m = cross-sectional area 2.4 m²; a float takes 10 s over 10 m, so velocity is 1.0 m/s; discharge = 2.4 × 1.0 = 2.4 m³/s.",
+    "term": "Discharge calculation: an illustrative worked example"
+   },
+   {
+    "definition": "Take repeat readings and average them; use the same method and the same people at every site; record the units; note the conditions, such as the weather, time and river level.",
+    "term": "Accuracy in data collection: four good practices"
+   },
+   {
+    "definition": "For each problem, state the problem, its effect on the data and the solution. Illustrative: at site 3 the float snagged on reeds twice, so those runs were discarded and three clean timings taken.",
+    "term": "Problems encountered: what the report must say, with an example"
+   },
+   {
+    "definition": "Go objective by objective: state the finding in words with its key figures; support it with a titled, labelled illustration with units, referred to in the text; describe trends with figures; note anomalies; keep results separate from conclusions.",
+    "term": "Investigation results: how to present each finding"
+   },
+   {
+    "definition": "State whether the hypothesis is accepted, rejected or partly accepted, using each objective's evidence; explain the pattern geographically; compare with established theory (Bradshaw model for rivers, Burgess for urban land use) and explain differences.",
+    "term": "Investigation conclusion: three things it must do"
+   },
+   {
+    "definition": "Downstream, a river's discharge, channel width, depth and velocity tend to increase, while gradient and load particle size decrease.",
+    "term": "Bradshaw model: what changes downstream"
+   },
+   {
+    "definition": "Limits: one day's data, few sites, a small sample, measurement error, the weather on the day, a float measuring surface velocity only. Improvements: more sites, repeat visits in other seasons, a flow meter, larger samples, a longer stretch of river.",
+    "term": "Investigation evaluation: limitations and improvements to give"
+   },
+   {
+    "definition": "Vague or untestable hypotheses; methods listed without explanation; results without figures; unlabelled or irrelevant illustrations; conclusions not linked to results; generic evaluations ('it went well'); writing outside the booklet's space; copied material.",
+    "term": "Investigation report: what loses marks"
    }
   ],
   "notes": [
@@ -8095,6 +10399,106 @@
    {
     "definition": "A drifting instrument that rises and sinks in the ocean, measuring temperature and salinity to about 2,000 m and transmitting the data by satellite.",
     "term": "Argo float"
+   },
+   {
+    "definition": "Heat (the ocean warms or cools the air above it); water (evaporation and precipitation); gases (the ocean absorbs and releases carbon dioxide and oxygen); momentum (wind drives surface currents, and currents shift pressure and wind patterns).",
+    "term": "Atmosphere and oceans: the four things they exchange as one linked system"
+   },
+   {
+    "definition": "Nitrogen about 78%; oxygen about 21%; argon about 0.9%; carbon dioxide about 0.04%. Traces of neon, helium, methane, ozone and other gases make up the rest.",
+    "term": "Dry air: the four main gases and their share by volume"
+   },
+   {
+    "definition": "Water vapour, from almost 0% over deserts and the poles to about 4% in hot, humid tropical air; aerosols (dust, sea salt, smoke, volcanic ash, pollen) that act as condensation nuclei and scatter sunlight; ozone, concentrated in the stratosphere.",
+    "term": "Name three variable components of the atmosphere"
+   },
+   {
+    "definition": "About 280 ppm before the Industrial Revolution and over 420 ppm by the mid-2020s, because of human activity. Measured continuously at Mauna Loa, Hawaii, since 1958: the Keeling Curve, begun by Charles David Keeling.",
+    "term": "Atmospheric carbon dioxide: key figures and where it is measured"
+   },
+   {
+    "definition": "Up to about 8 km over the poles and 16 to 18 km over the equator. Temperature falls with height because the air is heated from below by the ground. It holds most of the atmosphere's mass and nearly all its water vapour, so nearly all weather occurs here.",
+    "term": "Troposphere: height, temperature trend and why weather happens there"
+   },
+   {
+    "definition": "From the tropopause to about 50 km. Temperature rises with height because ozone absorbs ultraviolet radiation; the ozone layer is at about 15 to 35 km. Very dry and stable, so few clouds form, but cumulonimbus anvils spread out at its base.",
+    "term": "Stratosphere: height, temperature trend and key features"
+   },
+   {
+    "definition": "Mesosphere (about 50 to 80-85 km): temperature falls to about −90 °C, the coldest point; most meteors burn up here. Thermosphere (above about 85 km): temperature rises sharply as its few molecules absorb high-energy solar radiation; auroras occur here.",
+    "term": "Mesosphere and thermosphere: temperature trend and one feature of each"
+   },
+   {
+    "definition": "Cover about 71% of the earth's surface and hold about 97% of its water; average depth about 3.7 km. Deepest point: the Challenger Deep, Mariana Trench, western Pacific, about 11,000 m. The Pacific covers about a third of the earth's surface.",
+    "term": "Oceans: key figures for extent and depth"
+   },
+   {
+    "definition": "About 35 parts per thousand (35 g of salt per kg) on average, mostly sodium chloride, with magnesium, sulphate, calcium and potassium. The salts come from rocks weathered and carried by rivers and from volcanic gases and vents.",
+    "term": "Seawater salinity: average figure and where the salts come from"
+   },
+   {
+    "definition": "Higher where evaporation exceeds precipitation: subtropical oceans, the Red Sea (about 40 parts per thousand) and the Mediterranean. Lower where rain is heavy, large rivers enter or ice melts: the Baltic is brackish, well under 10 parts per thousand.",
+    "term": "Salinity: why it varies, with named seas"
+   },
+   {
+    "definition": "A warm, well-mixed surface layer heated by the sun and stirred by wind; the thermocline, where temperature falls rapidly with depth; the cold (about 0 to 4 °C), dark deep ocean, the largest part by volume. Polar waters change little with depth.",
+    "term": "Ocean temperature layers: the three layers from the surface down"
+   },
+   {
+    "definition": "Water is denser when colder and saltier. When sea ice forms it leaves its salt behind, so the water beneath becomes saltier and denser and sinks; these density differences drive the deep ocean circulation.",
+    "term": "Seawater density: what makes water sink and why it matters"
+   },
+   {
+    "definition": "It has taken up over 90% of the extra heat from global warming (IPCC) and roughly a quarter of human carbon dioxide emissions. This slows warming but acidifies the water: surface pH has fallen from about 8.2 to about 8.1, harming corals and shellfish.",
+    "term": "The ocean as a store of heat and carbon: key figures and one effect"
+   },
+   {
+    "definition": "Liquid-in-glass: mercury or alcohol expands up a narrow tube. Six's maximum-minimum (invented by James Six): metal indexes are pushed to the highest and lowest points, read daily and reset with a magnet. Electronic: a sensor's resistance changes with temperature.",
+    "term": "Measuring temperature: how three thermometers work"
+   },
+   {
+    "definition": "Mercury barometer (Torricelli, 1643): the atmosphere's weight holds up a mercury column that rises as pressure rises. Barograph: an aneroid drives a pen on a rotating drum, giving a continuous trace. Readings are corrected to mean sea level for comparison.",
+    "term": "Measuring pressure: mercury barometer, barograph and sea-level correction"
+   },
+   {
+    "definition": "A cup anemometer's three or four cups spin faster as wind rises; turns are counted electrically and converted to speed. A wind vane's large tail is pushed downwind, so its pointer faces where the wind comes from. Standard height: 10 m above open ground.",
+    "term": "Wind: how speed and direction are measured and the standard height"
+   },
+   {
+    "definition": "Read the dry bulb; read the wet bulb, whose wet muslin is cooled by evaporation so it reads lower; subtract to get the difference; look up relative humidity in tables using the dry bulb reading and the difference. Equal readings mean saturated air.",
+    "term": "Wet-and-dry bulb hygrometer: steps to find relative humidity"
+   },
+   {
+    "definition": "Rain gauge: a standard funnel, rim raised above open ground to avoid splash, drains into a measuring cylinder read in mm daily. Campbell–Stokes: a glass sphere focuses the sun's rays to burn a trace on a card; the burn length gives hours of sunshine.",
+    "term": "Rain gauge and Campbell–Stokes sunshine recorder: how each works"
+   },
+   {
+    "definition": "It launches weather balloons carrying radiosondes, and tracking the balloons gives upper winds; it has one of the longest weather records in Ireland, from the 19th century, used to show climate trends.",
+    "term": "Valentia Observatory, Co. Kerry: two reasons it matters"
+   },
+   {
+    "definition": "Moored buoys of the Irish Marine Data Buoy Observation Network (Marine Institute with Met Éireann) record pressure, temperature, wind and waves; drifting buoys follow currents; altimeters and tide gauges measure sea level; research ships lower CTD instruments.",
+    "term": "Measuring the oceans: four methods besides Argo floats"
+   },
+   {
+    "definition": "Buoy and Argo data on sea temperature and salinity track El Niño, ocean heat content and the Atlantic circulation, improving seasonal forecasts; the TAO array of moored buoys across the equatorial Pacific gives warning of El Niño.",
+    "term": "Ocean data: how they help explain the ocean–atmosphere link"
+   },
+   {
+    "definition": "Site instruments correctly (open ground, standard height, thermometers shaded, away from buildings); calibrate them regularly; read them at the same times each day; keep long records at one site, as urban growth can bias readings upward.",
+    "term": "Weather records: four rules for accurate readings"
+   },
+   {
+    "definition": "Observations are the initial conditions for computer forecast models, so more and better data give better forecasts; they support storm, rain, snow, heat, storm-surge and flood warnings; a falling barograph trace warns of an approaching depression.",
+    "term": "Weather measurements: importance for forecasts and warnings"
+   },
+   {
+    "definition": "Aviation (wind, visibility, icing, altimeter settings); shipping and fishing (sea area forecasts, wave heights from buoys); farming (timing silage, spraying and harvesting, frost warnings); energy (siting wind farms, predicting electricity and gas demand).",
+    "term": "Weather measurements: four economic uses"
+   },
+   {
+    "definition": "Long, consistent records such as Mauna Loa's carbon dioxide record and Valentia's weather record show global warming, sea-level rise and ocean warming; they are evidence for governments and the IPCC (set up in 1988 by the WMO and UN Environment Programme).",
+    "term": "Climate records: why long measurement records matter"
    }
   ],
   "notes": [
@@ -8423,6 +10827,82 @@
    {
     "definition": "The extension of the Gulf Stream that carries warm water across the Atlantic to the coasts of north-west Europe.",
     "term": "North Atlantic Drift"
+   },
+   {
+    "definition": "The sun's short-wave radiation passes through water vapour, carbon dioxide and methane; the cooler earth emits long-wave radiation, which these gases absorb and re-radiate back down, keeping the surface at about 15 °C, not about −18 °C.",
+    "term": "Natural greenhouse effect: how it works and the temperatures it explains"
+   },
+   {
+    "definition": "Absorbed radiation becomes sensible heat; evaporation stores latent heat, released on condensation to power storms; heat differences create pressure differences, giving the kinetic energy of wind, waves and currents; photosynthesis makes chemical energy.",
+    "term": "Solar energy: four ways it is transformed"
+   },
+   {
+    "definition": "About 30 units are reflected back to space, mainly by clouds, so the earth's albedo is about 30%; about 20 are absorbed by the atmosphere and clouds (ozone, water vapour, dust); about 50 are absorbed by the land and ocean surface.",
+    "term": "Heat budget: what happens to 100 units of incoming solar radiation"
+   },
+   {
+    "definition": "Fresh snow about 80–90%; thick cloud up to about 80%; sea ice about 50–70%; desert sand about 30–40%; grassland about 25%; forest about 10–20%; open ocean under 10% when the sun is high.",
+    "term": "Albedo: approximate values for named surfaces"
+   },
+   {
+    "definition": "Long-wave radiation; latent heat transfer by evaporation, the largest non-radiative loss, especially from oceans; sensible heat transfer by conduction to the air touching the ground, which then rises by convection.",
+    "term": "Three ways the earth's surface loses energy"
+   },
+   {
+    "definition": "Between the equator and about 35–40° N and S more energy is received than radiated away (surplus); poleward of that more is lost (deficit). The tropics do not keep heating nor the poles keep cooling, so energy must be moved poleward.",
+    "term": "Heat budget by latitude: where the surplus and deficit lie and what follows"
+   },
+   {
+    "definition": "At the equator the rays strike nearly vertically, concentrating energy on a small area; towards the poles the same beam strikes at a low angle, spreading over a larger area and passing through more atmosphere, so more is absorbed, scattered and reflected.",
+    "term": "Uneven insolation: how the angle of the sun's rays matters"
+   },
+   {
+    "definition": "The axis is tilted about 23.5°, so the overhead sun migrates: over the Tropic of Cancer about 21 June, the Tropic of Capricorn about 21 December, and the equator at the equinoxes (about 21 March and 23 September), changing day length.",
+    "term": "Earth's tilt: how it causes seasons, with the key dates"
+   },
+   {
+    "definition": "Long summer days at high latitudes partly offset the low sun; cloud over the equatorial belt and mid-latitude west coasts reflects much insolation, so clear subtropical deserts, not the equator, are hottest; polar snow reflects most of what arrives.",
+    "term": "Uneven insolation: effects of day length, cloud and snow"
+   },
+   {
+    "definition": "Ireland about 10 °C (January 4–7 °C, July 14–16 °C); Verkhoyansk, north-east Siberia, over 60 °C (January about −45 °C, July about +15 °C). Land heats and cools quickly; the sea slowly, as water has a high specific heat, mixes, is transparent and evaporates.",
+    "term": "Continentality: compare the annual temperature ranges of Ireland and Verkhoyansk"
+   },
+   {
+    "definition": "The North Atlantic Drift keeps Norway's coast ice-free north of the Arctic Circle (Hammerfest) and Murmansk an ice-free port. Labrador, Canada, at Ireland's latitude, has freezing winters and sea ice because the cold Labrador Current flows past it.",
+    "term": "North Atlantic Drift and Labrador Current: evidence that currents move heat"
+   },
+   {
+    "definition": "Temperature falls by about 6.5 °C per 1,000 m, so mountains are cooler than lowlands at the same latitude: Mount Kilimanjaro, Tanzania, about 5,900 m high and only about 3° south of the equator, is snow-capped.",
+    "term": "Altitude and temperature: rate of fall and a named example"
+   },
+   {
+    "definition": "Onshore westerlies bring ocean warmth in winter and coolness in summer to mid-latitude west coasts; winds from cold interiors, such as polar continental air reaching Ireland, bring cold spells; south-facing slopes in the northern hemisphere are warmer.",
+    "term": "Prevailing winds and aspect: how each affects temperature"
+   },
+   {
+    "definition": "Highest (WMO): 56.7 °C at Furnace Creek, Death Valley, California, 10 July 1913. Lowest: −89.2 °C at Vostok Station, Antarctica, 21 July 1983. Northern hemisphere lowest: about −68 °C at Verkhoyansk and Oymyakon. Arctic highest: 38 °C at Verkhoyansk, 20 June 2020.",
+    "term": "Temperature extremes: the world and northern hemisphere records"
+   },
+   {
+    "definition": "Intense equatorial heating makes air rise (low pressure, the ITCZ), cool and release latent heat as convectional rain; at height it flows poleward, sinks at about 30° (subtropical high, deserts) and returns as the trade winds. Named after George Hadley, 1735.",
+    "term": "Hadley cell: how it moves heat, step by step"
+   },
+   {
+    "definition": "Ferrel cell (30–60°): surface westerlies carry warm air poleward to meet cold polar air at the polar front (about 60°). Polar cell: air sinks at the poles and flows out as polar easterlies. Depressions along the polar front do most mid-latitude transfer.",
+    "term": "Ferrel and polar cells: how they move heat poleward"
+   },
+   {
+    "definition": "Water evaporated over warm tropical oceans carries latent heat, released where it condenses, as in a depression over Ireland. Hurricanes carry tropical heat and moisture poleward: ex-hurricane Ophelia reached Ireland on 16 October 2017.",
+    "term": "Latent heat and hurricanes: how they carry heat poleward"
+   },
+   {
+    "definition": "Warm, on the western sides of ocean basins: Gulf Stream, Kuroshio, Brazil, East Australian. Cold, on the eastern sides: Canary, Benguela, Humboldt (Peru), California. Off Europe the Gulf Stream becomes the North Atlantic Drift.",
+    "term": "Ocean currents: name four warm and four cold currents and where each kind flows"
+   },
+   {
+    "definition": "Melting Arctic ice lowers albedo, so more heat is absorbed; a weaker Atlantic circulation could change Europe's climate; El Niño shifts heat across the Pacific.",
+    "term": "Three changes that could alter how heat is redistributed"
    }
   ],
   "notes": [
@@ -8716,6 +11196,102 @@
    {
     "definition": "Fog formed when warm, moist air moves over a colder surface, such as a cold sea.",
     "term": "Advection fog"
+   },
+   {
+    "definition": "Oceans about 97%; ice sheets and glaciers about 2%, most of it in Antarctica; groundwater under 1%; the atmosphere only about 0.001%. Only about 2.5–3% of all water is fresh, and most of that is frozen.",
+    "term": "Hydrological cycle: share of the earth's water in each main store"
+   },
+   {
+    "definition": "About 85–90% of evaporation is from the oceans and about three-quarters of precipitation falls on them; wind carries the surplus over land and rivers return it. Vapour stays about 9 days in the atmosphere, but water stays thousands of years in the ocean.",
+    "term": "Ocean–atmosphere water exchange: key shares and residence time"
+   },
+   {
+    "definition": "Warm air can hold about 7% more water vapour for each 1 °C rise. Cooling air raises its relative humidity without adding water and warming lowers it, so humidity peaks in the cool of dawn and falls in the afternoon heat.",
+    "term": "Why relative humidity is usually highest at dawn and lowest in mid-afternoon"
+   },
+   {
+    "definition": "Higher temperature and strong sunshine (more energy); dry air with low relative humidity; wind, which replaces moist air with drier air; a large supply of water such as oceans, lakes or wet ground; low air pressure.",
+    "term": "Evaporation: five factors that increase its rate"
+   },
+   {
+    "definition": "Adiabatic cooling of rising air, the main cause of cloud; contact cooling when air touches ground that has lost heat at night; advection cooling when warm, moist air moves over a cold surface; mixing of air masses of different temperature.",
+    "term": "Four ways air is cooled to its dew point"
+   },
+   {
+    "definition": "Unsaturated rising air cools at the dry adiabatic rate, about 10 °C per 1,000 m; once condensation begins, released latent heat slows cooling to the saturated rate, about 5–7 °C per 1,000 m. The environmental lapse rate averages about 6.5 °C per 1,000 m.",
+    "term": "Adiabatic lapse rates: the dry, saturated and environmental figures"
+   },
+   {
+    "definition": "Unstable: rising air stays warmer than its surroundings and keeps rising, giving towering cumulus, showers and thunderstorms. Stable: rising air turns cooler than its surroundings and sinks back, giving layer cloud or clear skies. An inversion traps fog.",
+    "term": "Stable and unstable air: what happens and the weather each gives"
+   },
+   {
+    "definition": "On clear, calm nights, usually under anticyclones in autumn and winter, the ground loses heat and cools the air touching it to dew point; fog gathers in valleys and hollows and burns off in the morning sun. Cloud or wind would prevent it.",
+    "term": "Radiation fog: conditions and how it forms"
+   },
+   {
+    "definition": "The Grand Banks off Newfoundland, Canada, among the foggiest places on earth, where warm moist air from over the Gulf Stream crosses the cold Labrador Current; San Francisco's summer fogs, where moist Pacific air crosses the cold California Current.",
+    "term": "Advection fog: two named examples and why they form"
+   },
+   {
+    "definition": "Luke Howard, an English pharmacist and amateur meteorologist, in 1803: cirrus (wispy, a curl of hair), cumulus (a heap), stratus (a layer), nimbus (rain-bearing). Alto- means middle level. The WMO sets ten main cloud types.",
+    "term": "Cloud names: who devised them and what the Latin words mean"
+   },
+   {
+    "definition": "Above about 6,000 m, of ice crystals: cirrus (wisps, mares' tails; fair, but may herald a warm front); cirrostratus (a milky veil with a halo round the sun or moon; rain likely within hours); cirrocumulus (small ripples, a mackerel sky).",
+    "term": "High clouds: three types with their appearance and weather"
+   },
+   {
+    "definition": "Altocumulus (patches in rolls); altostratus (sun as if through frosted glass, thickening ahead of a warm front); stratus (drizzle, hill fog); stratocumulus (commonest over Ireland, dry or light drizzle); nimbostratus (long, steady rain or snow at warm fronts).",
+    "term": "Middle and low clouds: five types, their appearance and weather"
+   },
+   {
+    "definition": "A towering cloud with an anvil top spreading at the tropopause, giving heavy showers, thunder, lightning and squalls. Hail forms when strong updrafts carry frozen drops up and down repeatedly, adding layers of ice until they are too heavy.",
+    "term": "Cumulonimbus: appearance, weather and how hail forms in it"
+   },
+   {
+    "definition": "First the ground is heated strongly, warming the air above; the air expands, rises and cools adiabatically; at dew point cumulus and then cumulonimbus form; finally heavy showers, often with thunder, fall in the afternoon. Daily in the equatorial belt.",
+    "term": "Convectional rainfall: the four stages"
+   },
+   {
+    "definition": "Moist sea air is forced to rise over the mountains; it cools, condenses and rains heavily on the windward slope; on the leeward side it descends, is compressed and warms, so clouds evaporate, leaving a rain shadow. Ireland's western mountains get this rain.",
+    "term": "Relief rainfall: the stages on each side of a mountain barrier"
+   },
+   {
+    "definition": "The Western Ghats force the Arabian Sea branch of the monsoon to rise, giving heavy rain on the Konkan and Malabar coasts, with the Deccan in rain shadow. Mawsynram and Cherrapunji in the Khasi Hills, Meghalaya, are among the wettest places on earth.",
+    "term": "Relief rainfall in India: name the mountains, wet coasts and rain shadow"
+   },
+   {
+    "definition": "At the warm front, warm, moist tropical air rises gently over cold polar air, giving long, steady rain; at the cold front the warm air is undercut, rising sharply to give short, heavy showers. This is Ireland's main source of rain.",
+    "term": "Frontal rainfall: what happens at the warm front and the cold front"
+   },
+   {
+    "definition": "Equatorial (0–10°): over 2,000 mm (Manaus about 2,300 mm) from low pressure, convergence at the ITCZ and convection. Subtropical high (20–30°): sinking, warming, stable air and clear skies give hot deserts, worst on west coasts beside cold currents.",
+    "term": "World rainfall: why the equatorial belt is wet and subtropical belts dry"
+   },
+   {
+    "definition": "About 10–20°: rain in summer when the ITCZ moves over, dry winters. About 40–60°: rain from depressions in the westerlies, wettest on west coasts such as Ireland's. Polar: very little, as cold air holds little vapour; Antarctica is the driest continent.",
+    "term": "World rainfall: the pattern in the tropics, mid-latitudes and polar regions"
+   },
+   {
+    "definition": "Cold currents chill the air above them and make it stable, so rain is rare though fog is common: the Atacama, Chile, is the driest non-polar desert, and the Namib gets much of its moisture as fog from the cold Benguela Current. Warm currents add moisture.",
+    "term": "Cold ocean currents: effect on coastal rainfall, with two deserts"
+   },
+   {
+    "definition": "About 750 mm a year in the driest parts of the east, around Dublin; about 1,000–1,250 mm across much of the west; over 2,000 mm on many western mountains. Wet days: about 150 a year on east and south-east coasts, up to about 225 in parts of the west.",
+    "term": "Ireland's rainfall: key figures for east and west"
+   },
+   {
+    "definition": "Prevailing south-westerly winds come off the Atlantic; Atlantic depressions reach the west first; the western mountains force relief uplift; the east lies in their rain shadow.",
+    "term": "Ireland's rainfall: four reasons the west is wetter than the east"
+   },
+   {
+    "definition": "Roughly 200–600 mm a year, falling in one short summer wet season when the ITCZ moves north, and varying greatly from year to year. Rainfall is least reliable where totals are lowest, so drought risk is greatest there.",
+    "term": "Sahel: rainfall figures and why drought risk is high"
+   },
+   {
+    "definition": "The equatorial daily cycle of morning heating and afternoon storms; the Indian monsoon's reversal of moist sea air and dry land air; fog deserts on cold-current coasts; Ireland's cool, cloudy, wet regime fed by Atlantic moisture and the North Atlantic Drift.",
+    "term": "Distinctive weather regimes: four produced by ocean–atmosphere exchanges"
    }
   ],
   "notes": [
@@ -9133,6 +11709,118 @@
    {
     "definition": "A rise in sea level along a coast caused by the low pressure and strong winds of a storm.",
     "term": "Storm surge"
+   },
+   {
+    "definition": "The Coriolis effect deflects moving air to the right in the northern hemisphere and to the left in the southern; it is zero at the equator, strongest at the poles, and changes direction, not speed. Near the ground, friction slows the wind and weakens it, so winds cross the isobars into lows.",
+    "term": "Coriolis effect and friction: how they shape surface winds"
+   },
+   {
+    "definition": "Equatorial low (ITCZ, doldrums): calm, rising air, heavy rain; subtropical highs at about 30° (horse latitudes): sinking, dry air, deserts; subpolar lows at about 60°: the polar front, where depressions form; polar highs: cold, sinking air.",
+    "term": "Pressure belts: the four belts and the weather each brings"
+   },
+   {
+    "definition": "At about 9–12 km, near the tropopause, often over 150 km/h and faster in winter. The polar front jet meanders in Rossby waves and steers depressions: a strong, straight jet brings stormy winters; a slow, looping jet can block weather systems for weeks.",
+    "term": "Jet streams: height, speed and effect on Ireland's weather"
+   },
+   {
+    "definition": "The see-saw of pressure between the Icelandic Low and the Azores High. Positive phase (large difference): strong westerlies, mild, wet, stormy Irish winters. Negative phase (small difference): weaker westerlies, more blocking highs, colder, drier winters.",
+    "term": "North Atlantic Oscillation: what it is and its two phases"
+   },
+   {
+    "definition": "Tropical maritime: from the Atlantic near the Azores; warm, moist and mild, with cloud and drizzle. Polar maritime: from the North Atlantic near Greenland and Iceland; cool, moist and showery; Ireland's most frequent air mass.",
+    "term": "Tropical maritime and polar maritime air masses: source and weather"
+   },
+   {
+    "definition": "Arctic maritime: from the Arctic; cold, with winter snow showers in the north and west. Polar continental: from Russia and Scandinavia in winter; very cold, dry, east-coast snow. Tropical continental: from North Africa in summer; hot, dry, heatwaves.",
+    "term": "Arctic maritime and the two continental air masses: source and weather"
+   },
+   {
+    "definition": "The North Equatorial Current flows west with the trade winds and turns north as the Gulf Stream; the westerlies carry it north-east as the North Atlantic Drift to Ireland; part returns south as the cold Canary Current. The calm Sargasso Sea lies at the centre.",
+    "term": "North Atlantic gyre: trace the currents in order"
+   },
+   {
+    "definition": "Mild Irish winters and ice-free ports such as Hammerfest and Murmansk; warm sea feeds depressions with moisture and energy; fog on the Grand Banks where the Gulf Stream meets the Labrador Current, which carries icebergs south (the Titanic, 15 April 1912).",
+    "term": "North Atlantic circulation: four effects on weather and climate"
+   },
+   {
+    "definition": "Plankton thrive in the nutrient-rich water, supporting fisheries off Peru, south-west Africa, California and north-west Africa; the Peruvian anchoveta is the world's largest single-species fishery. The cold water chills the air, giving coastal fog and aridity.",
+    "term": "Upwelling: effects on fishing and coastal climate, with named coasts"
+   },
+   {
+    "definition": "Water made cold and salty (by evaporation and sea-ice formation) in the Greenland, Norwegian and Labrador Seas and off Antarctica sinks; it flows slowly south through the Atlantic to the Indian and Pacific Oceans, rises and returns as warm surface currents. A circuit takes about 1,000 years.",
+    "term": "Thermohaline circulation: the conveyor belt in stages"
+   },
+   {
+    "definition": "Cold polar maritime air from the north meets warm, moist tropical maritime air from the south-west at the polar front; a wave forms, often under a diverging jet stream; warm air rises over the cold, pressure falls and air spirals in anticlockwise.",
+    "term": "Depression formation: the first three stages"
+   },
+   {
+    "definition": "A warm front forms ahead and a cold front behind, with the warm sector between, and the low deepens as latent heat is released; the faster cold front catches the warm front, lifting the warm sector (occlusion); the low then fills and dies within about a week.",
+    "term": "Depression formation: the last three stages"
+   },
+   {
+    "definition": "Approach: pressure falls; cirrus, then cirrostratus with a halo; the wind backs and strengthens. Warm front: cloud thickens and lowers to altostratus and nimbostratus; long, steady rain for several hours; pressure keeps falling; temperature rises slightly.",
+    "term": "Depression passing Ireland: weather on approach and at the warm front"
+   },
+   {
+    "definition": "Warm sector: drizzle or dry, low stratus, mild, humid; wind veers south-westerly. Cold front: cumulonimbus, short heavy showers, hail, thunder, squalls; temperature falls sharply; wind veers westerly or north-westerly; pressure rises. Then clearer, colder air.",
+    "term": "Depression passing Ireland: weather in the warm sector and at the cold front"
+   },
+   {
+    "definition": "Changeable weather with rain in every month; a wetter west, as depressions arrive there first; storms in autumn and winter, when temperature contrasts and the jet stream are strongest; coastal storm surges; floods when depressions follow in quick succession.",
+    "term": "Depressions: five impacts on Ireland's weather"
+   },
+   {
+    "definition": "Air converging aloft sinks, is compressed and warms, so relative humidity falls and clouds evaporate. Dynamic (warm) highs come from sinking air in the general circulation (the Azores High); thermal (cold) highs from intense winter cooling (the Siberian High).",
+    "term": "Anticyclone formation: how sinking air clears the sky, and two origins"
+   },
+   {
+    "definition": "Clear skies, strong sunshine, high daytime temperatures and light winds; cool nights with dew and sometimes morning mist; occasional heat-triggered thunderstorms at the edges; sea breezes on coasts. Prolonged highs bring heatwaves and drought.",
+    "term": "Anticyclone: typical summer weather in Ireland"
+   },
+   {
+    "definition": "Clear nights let the ground lose heat fast, giving hard frost and freezing fog in valleys that may last all day; cold, crisp, sunny days; or anticyclonic gloom when stratocumulus is trapped under the inversion; smog in towns where pollution is trapped.",
+    "term": "Anticyclone: typical winter weather in Ireland"
+   },
+   {
+    "definition": "A stationary high blocks the westerlies and diverts depressions. In late February 2018 a block over Scandinavia drew polar continental air from Russia (the Beast from the East); Storm Emma brought heavy snow on 1–2 March and the first nationwide Red warning.",
+    "term": "Blocking anticyclone: effect, with the 2018 Irish example"
+   },
+   {
+    "definition": "By day land heats faster than the sea; air over the land warms, expands and rises, lowering pressure; cool air flows onshore from the higher pressure over the sea; the risen air returns seaward aloft and sinks. Strongest on hot, calm summer afternoons.",
+    "term": "Sea breeze: how it forms, step by step"
+   },
+   {
+    "definition": "After sunset the land loses heat faster than the sea; air over the land cools, becomes denser and forms higher pressure, so it flows offshore to the lower pressure over the warmer sea. It is weaker because the night-time temperature difference is smaller.",
+    "term": "Land breeze: how it forms and why it is weaker than a sea breeze"
+   },
+   {
+    "definition": "Sea breezes lower afternoon temperatures and raise humidity; a sea-breeze front can trigger showers inland; sea breezes carry sea fog onshore and trap urban pollution; land breezes clear coastal fog; fishermen sailed out at dawn on the land breeze and back on the sea breeze.",
+    "term": "Land and sea breezes: five effects on coasts"
+   },
+   {
+    "definition": "Cold, dense air pooling on valley floors creates frost hollows and temperature inversions; orchards and vineyards are planted on slopes above the frost line; radiation fog forms in valleys; off the Antarctic and Greenland ice sheets they reach gale force.",
+    "term": "Katabatic (mountain) winds: four effects"
+   },
+   {
+    "definition": "Rising air cools at the slower saturated rate after condensation; descending the lee side it warms at the faster dry rate. Effects: rapid snowmelt, avalanche and fire risk. Föhn in the Alps; Chinook (the snow eater) on the lee side of the Rocky Mountains.",
+    "term": "Föhn winds: why the air arrives warm and dry, effects and two names"
+   },
+   {
+    "definition": "Cumulus stage: strong updrafts, latent heat keeps air rising, no rain. Mature: falling drops and ice create downdrafts; heavy rain, hail, lightning, thunder, an anvil top. Dissipating: downdrafts cut off the warm, moist air and the cloud breaks up. A single cell lasts about an hour.",
+    "term": "Thunderstorm: the three stages of a cell"
+   },
+   {
+    "definition": "Collisions between ice crystals, hailstones and supercooled droplets separate charges; a discharge heats the air to around 30,000 °C, and its explosive expansion is thunder. Light travels faster than sound: about 3 seconds from flash to thunder per km.",
+    "term": "Lightning and thunder: how they form and how to judge distance"
+   },
+   {
+    "definition": "Sea at about 26–27 °C or more over deep water, at least about 5° from the equator (Coriolis), low wind shear and moist, unstable air. Latent heat lowers pressure; air spirals into the eyewall; the calm eye has sinking air. They weaken over land or cold water.",
+    "term": "Tropical cyclones: conditions needed and structure"
+   },
+   {
+    "definition": "Haiyan (Yolanda), November 2013: one of the strongest at landfall; its storm surge devastated Tacloban on Leyte and over 6,000 died in the Philippines. Katrina, August 2005: levee failures flooded about 80% of New Orleans and about 1,800 died.",
+    "term": "Typhoon Haiyan and Hurricane Katrina: key impacts"
    }
   ],
   "notes": [
@@ -9614,6 +12302,154 @@
    {
     "definition": "The opposite phase of ENSO, with stronger trade winds and a cooler than normal eastern Pacific.",
     "term": "La Niña"
+   },
+   {
+    "definition": "The Amazon Basin, Congo Basin and South-East Asia (Indonesia, Malaysia). Monthly means about 26–28 °C, annual range only about 2–3 °C, because the sun is always high and overhead at the equinoxes; cloud stops maxima rising much above the low 30s °C.",
+    "term": "Equatorial climate: location and temperature, with reasons"
+   },
+   {
+    "definition": "Over 2,000 mm a year (Manaus, Brazil, about 2,300 mm), in every month, peaking after the equinoxes as the overhead sun and ITCZ pass. It is convectional: intense heating of very moist air, with the trade winds converging at the ITCZ in permanent low pressure.",
+    "term": "Equatorial climate: rainfall amount, timing and causes"
+   },
+   {
+    "definition": "A clear, calm, humid morning; cumulus building by late morning; cumulonimbus and torrential rain with thunder in the afternoon; clearing in the evening. Highs about 30–32 °C, night lows about 22–24 °C, so the daily range exceeds the annual range.",
+    "term": "Equatorial climate: the daily weather cycle"
+   },
+   {
+    "definition": "The hot season (March–May), often over 40 °C on the northern plains before the rains; the wet south-west monsoon (June–September), slightly cooler under cloud and rain; the cool dry season (October–February), when dry north-east winds blow off the cooled land.",
+    "term": "Indian monsoon climate: the three seasons"
+   },
+   {
+    "definition": "Land heating creates low pressure over north-west India; the ITCZ moves north; south-east trades cross the equator and Coriolis turns them into moist south-west winds; the subtropical jet shifts north and the monsoon bursts, reaching Kerala around 1 June.",
+    "term": "Summer monsoon over India: how it forms, in four steps"
+   },
+   {
+    "definition": "Relief rain on the Western Ghats (Konkan and Malabar coasts) and the Khasi Hills, where Mawsynram and Cherrapunji are among the wettest places on earth; the Deccan is in rain shadow; rain decreases north-west to the Thar Desert; Kolkata is wetter than Delhi.",
+    "term": "Indian monsoon: rainfall pattern with named places"
+   },
+   {
+    "definition": "Late, weak or broken monsoons bring drought, heavy ones floods; El Niño years often weaken the monsoon; the Odisha super cyclone of October 1999 killed about 10,000. Kharif crops such as rice are sown with the rains; rabi crops such as wheat need irrigation.",
+    "term": "Indian monsoon: hazards and human response"
+   },
+   {
+    "definition": "West coasts at about 40° to 60° in the westerlies: north-west Europe including Ireland, British Columbia and the US Pacific north-west, southern Chile, New Zealand, Tasmania. Ireland: January about 4–7 °C, July about 14–16 °C, annual range about 10 °C; frost and snow infrequent on low ground.",
+    "term": "Cool temperate oceanic climate: location and temperature figures"
+   },
+   {
+    "definition": "Prevailing south-westerlies bring maritime Atlantic air; the North Atlantic Drift warms winter air and seas; the sea heats and cools slowly; frequent depressions steered by the jet stream make weather changeable; occasional anticyclones give dry spells.",
+    "term": "Cool temperate oceanic climate: five reasons for its character"
+   },
+   {
+    "definition": "On the west sides of continents: the Mediterranean Basin (e.g. southern Italy), central and southern California, central Chile, the Cape Town area of South Africa, and south-western and southern Australia around Perth and Adelaide.",
+    "term": "Mediterranean climate: where it is found"
+   },
+   {
+    "definition": "Lowland July means about 25 °C or more; coastal January about 9–12 °C, with frost rare. Most rain falls from October to March, under 600 mm a year on parts of the Puglia lowlands and Sicily; summers have months of drought, and downpours cause flash floods.",
+    "term": "Mediterranean climate: temperature and rainfall figures"
+   },
+   {
+    "definition": "In summer the subtropical high moves poleward over the region, bringing sinking, warming air and clear skies. In winter the belts shift towards the equator, so westerly depressions bring rain; the warm Mediterranean Sea also spawns winter depressions.",
+    "term": "Mediterranean climate: why summers are dry and winters wet"
+   },
+   {
+    "definition": "Summer water shortage; wildfires in hot, dry, windy summers, such as the Mati fire near Athens in July 2018, which killed about 100 people. Responses: drought-tolerant olives, vines, cork oak and maquis; irrigated citrus; water storage; tourism.",
+    "term": "Mediterranean climate: hazards and human response, with a named wildfire"
+   },
+   {
+    "definition": "Interiors of northern-hemisphere continents far from the sea: central and eastern Europe, Russia, the Canadian Prairies, the Great Plains. Moscow about −7 °C in January and 19 °C in July; Winnipeg about −16 °C and 20 °C. The range grows inland.",
+    "term": "Continental climate: location and temperature figures"
+   },
+   {
+    "definition": "Low to moderate (Moscow about 600–700 mm), with a summer maximum from convection and winter snow that lies for months. Causes: continentality; westerlies have lost moisture crossing the land; the cold, dry winter Siberian High; summer low pressure.",
+    "term": "Continental climate: precipitation and its four causes"
+   },
+   {
+    "definition": "Blizzards and cold waves of arctic air; summer heatwaves, drought and dust storms, as in the Dust Bowl of the 1930s on the Great Plains; spring snowmelt floods. Temperate grassland on chernozems supports wheat and maize belts; boreal forest lies further north.",
+    "term": "Continental climate: hazards and human response"
+   },
+   {
+    "definition": "Little, unreliable rain (subtropical high, offshore trades, cold currents, rain shadow); the highest temperatures on earth (56.7 °C, Death Valley, 10 July 1913) under clear skies and a high sun; a daily range of 20–30 °C as clear, dry air loses heat at night; fog where cold currents chill the coast.",
+    "term": "Hot desert climate: four characteristics and their reasons"
+   },
+   {
+    "definition": "Latitude (hot equatorial Amazon, cold poles); distance from the sea (Ireland's range about 10 °C, Verkhoyansk's over 60 °C); currents (cold Benguela: foggy Namib coast; North Atlantic Drift: mild Ireland); altitude (snow on Kilimanjaro near the equator); rain shadow (Western Ghats vs the Deccan).",
+    "term": "Climate change over space: five controls with an example of each"
+   },
+   {
+    "definition": "Milankovitch orbital cycles; changes in solar output; volcanic eruptions, whose sulphate aerosols reflect sunlight and cool the earth for a year or two; plate tectonics changing ocean currents; feedbacks such as ice–albedo and greenhouse gas release.",
+    "term": "Natural causes of climate change: five to name"
+   },
+   {
+    "definition": "Tambora, Indonesia, April 1815: 1816 became the year without a summer, with harvest failures across Europe and north-eastern North America. Mount Pinatubo, Philippines, June 1991: global temperature fell about 0.5 °C for about a year (1992).",
+    "term": "Volcanoes and climate: Tambora and Pinatubo"
+   },
+   {
+    "definition": "Ice cores (air bubbles give past CO2, oxygen isotopes past temperature; EPICA Dome C covers about 800,000 years); ocean-floor sediments; tree rings; pollen in Irish bogs and lake muds; historical records such as harvest dates, frost fairs and ships' logs.",
+    "term": "How past climates are known: five sources of evidence"
+   },
+   {
+    "definition": "Began about 2.6 million years ago; glacial cycles of about 100,000 years over the last 800,000; we live in an interglacial. Last Glacial Maximum, about 20,000 years ago: ice over much of North America and northern Europe; sea level about 120 m lower.",
+    "term": "Ice Ages: the Quaternary glaciation and Last Glacial Maximum figures"
+   },
+   {
+    "definition": "The Munsterian ice covered almost all of Ireland; the later Midlandian ice had gone by about 10,000 years ago. The evidence is drumlins, eskers, corries and U-shaped valleys; isostatic rebound and raised beaches are after-effects.",
+    "term": "Ice Ages in Ireland: the two cold stages and their evidence"
+   },
+   {
+    "definition": "Eccentricity (shape of the orbit), about 100,000 years; obliquity (tilt, between about 22° and 24.5°), about 41,000 years; precession (wobble of the axis), roughly 19,000–26,000 years. Calculated by the Serbian scientist Milutin Milanković.",
+    "term": "Milankovitch cycles: the three cycles and their periods"
+   },
+   {
+    "definition": "Orbital cycles change where and when sunlight falls; when northern summers are cool, winter snow survives and ice sheets grow. More ice raises albedo, and colder oceans absorb more CO2 (about 180 ppm in glacials, 280 ppm in interglacials), cooling further.",
+    "term": "Ice Ages: how a small orbital change becomes a glaciation"
+   },
+   {
+    "definition": "Roughly AD 950–1250, mainly in the North Atlantic and Europe. Vines were grown further north in England than in the colder centuries that followed; Norse settlers led by Erik the Red settled Greenland from about AD 985, abandoning it in the 15th century as the climate cooled.",
+    "term": "Medieval Warm Period: dates and evidence"
+   },
+   {
+    "definition": "Roughly the 14th to mid-19th century, coldest in the 17th. Evidence: Alpine glaciers advanced; frost fairs on the frozen Thames, the last in 1814; Ireland's Great Frost of 1739–40, then famine. Possible cause: the Maunder Minimum of few sunspots (about 1645–1715).",
+    "term": "Little Ice Age: dates, three pieces of evidence and a possible cause"
+   },
+   {
+    "definition": "CO2 rose from about 280 ppm before the Industrial Revolution to over 420 ppm by the mid-2020s (Mauna Loa, since 1958); global temperature is up about 1.1–1.2 °C since the late 1800s; 2024 was the first year more than 1.5 °C above pre-industrial.",
+    "term": "Global warming: evidence from CO2 and global temperature"
+   },
+   {
+    "definition": "Arctic summer sea ice has shrunk about 13% per decade since satellite records began in 1979; glaciers are retreating; global sea level rose about 20 cm between 1901 and 2018; Ireland's average temperature is up about 0.9 °C since 1900.",
+    "term": "Global warming: evidence from ice, sea level and Ireland"
+   },
+   {
+    "definition": "More CO2, methane and nitrous oxide absorb more outgoing long-wave radiation, so the heat budget is out of balance. Feedbacks: ice–albedo (why the Arctic warms fastest); water vapour; permafrost thaw releasing methane; less ocean CO2 uptake as water warms.",
+    "term": "Global warming: the mechanism and four feedbacks"
+   },
+   {
+    "definition": "A more intense water cycle, with heavier downpours and worse droughts; more intense heatwaves (Europe 2003, about 70,000 extra deaths, estimated); climate belts and storm tracks shifting poleward; stronger tropical cyclones; sea-level rise.",
+    "term": "Global warming: effects on world climate patterns"
+   },
+   {
+    "definition": "Warmer temperatures; wetter winters and more flooding; summer drought risk, as in 2018; stronger storms and coastal erosion. The IPCC (2021) called human influence on warming unequivocal; the Paris Agreement (2015) aims for well below 2 °C, pursuing 1.5 °C.",
+    "term": "Global warming: effects on Ireland and the scientific verdict"
+   },
+   {
+    "definition": "Strong south-east trades push warm surface water west to a warm pool near Indonesia, where moist air rises (low pressure, heavy rain); the air returns east aloft and sinks over the cool east, keeping Peru dry; cold upwelling off Peru feeds the anchoveta.",
+    "term": "Pacific in a normal year (Walker circulation): how it works"
+   },
+   {
+    "definition": "Every 2–7 years the trade winds weaken or reverse; warm water flows back east towards South America; the thermocline deepens and upwelling stops; the central and eastern Pacific warm well above normal and the rain zone shifts east.",
+    "term": "El Niño: how it develops"
+   },
+   {
+    "definition": "Floods in normally dry coastal Peru and Ecuador; collapse of the anchoveta catch and fishmeal industry, with seabird deaths; drought and forest fires in Indonesia and the Philippines; often a weaker Indian monsoon; fewer Atlantic hurricanes.",
+    "term": "El Niño: five effects around the world"
+   },
+   {
+    "definition": "1972–73, with overfishing, collapsed the Peruvian anchoveta fishery; 1997–98 brought floods to Peru and Ecuador and forest fires and haze in Indonesia; it, 1982–83 and 2015–16 were the three strongest; 2023–24 helped make 2023 and 2024 the warmest years.",
+    "term": "El Niño: five named events and what each did"
+   },
+   {
+    "definition": "Stronger trades, a cooler eastern Pacific and stronger upwelling; heavier rain in Indonesia and Queensland, drought in Peru, more Atlantic hurricanes. The strong 2010–11 La Niña brought record floods to Queensland, including the Brisbane flood of January 2011.",
+    "term": "La Niña: conditions, effects and a named event"
    }
   ],
   "notes": [
@@ -9867,7 +12703,7 @@
    {
     "h": "Shorter cold and warm periods in historical times",
     "points": [
-     "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north than today.",
+     "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north in England than in the colder centuries that followed.",
      "Norse settlers led by Erik the Red settled Greenland from about AD 985; the settlements were abandoned in the 15th century as the climate cooled.",
      "Little Ice Age, roughly the 14th to the mid-19th century, coldest in the 17th century: a regional cold phase mainly in the North Atlantic and Europe, with Alpine glaciers advancing.",
      "The River Thames in London froze in severe winters, and frost fairs were held on the ice, the last in 1814.",
@@ -10034,6 +12870,110 @@
    {
     "definition": "A line of trees planted to reduce wind erosion and protect crops and soil.",
     "term": "Shelter belt"
+   },
+   {
+    "definition": "Ireland's rain and mild temperatures give a long growing season: grass grows when soil temperature is above about 6 °C, which is most of the year, longest in the south and south-west. So most farmland is grassland for dairy, beef and sheep.",
+    "term": "Irish agriculture: why grass is Ireland's most important crop"
+   },
+   {
+    "definition": "Drier, sunnier south and east: tillage of barley, wheat, oats and potatoes (Co. Wexford, Carlow, Kildare). Golden Vale: moderate rain and brown earths suit intensive dairying. Very wet west and north-west: beef and sheep on rough grazing, small farms.",
+    "term": "Irish farming: how rainfall shapes three farming regions"
+   },
+   {
+    "definition": "Cattle poach waterlogged soils, shortening the grazing season, so animals are housed and fed silage for longer, raising costs; silage, hay and cereal harvests are disrupted; nutrients leach and slurry runs off; damp favours potato blight and liver fluke.",
+    "term": "Irish farming: four problems caused by too much rain"
+   },
+   {
+    "definition": "The exceptionally wet summer of 2012 gave poor silage and hay harvests, and a cold, late spring in 2013 followed, so farmers ran out of feed. Fodder was imported, including from Britain and France, and the Government funded a fodder transport subsidy.",
+    "term": "Fodder crisis of spring 2013: causes and response"
+   },
+   {
+    "definition": "A long anticyclonic spell from late May to mid-July gave absolute drought at many stations. Grass almost stopped growing, so farmers fed winter fodder in summer and milk yields fell; Teagasc and the Government organised fodder imports for the following winter.",
+    "term": "Summer 2018 drought: effects on Irish farming"
+   },
+   {
+    "definition": "Egypt is almost rainless, so farming relies on Nile irrigation. The dam (1970) and Lake Nasser ended the flood's uncertainty, giving perennial irrigation, more than one crop a year and hydroelectricity; but silt is trapped, land salinised and the delta erodes.",
+    "term": "Egypt and the Nile: how the Aswan High Dam changed farming"
+   },
+   {
+    "definition": "Dry summers mean fruit, nuts and vegetables need irrigation from state and federal water projects and groundwater. In the drought, land lay fallow and over-pumping caused land subsidence; Governor Jerry Brown ordered a 25% urban water cut in April 2015.",
+    "term": "California's Central Valley: irrigation and the 2012–2016 drought"
+   },
+   {
+    "definition": "Most rain falls in the west but most people live in the east, where rain is lowest (about 750 mm around Dublin); Dublin county had about 1.45 million of Ireland's 5.1 million people in 2022. Leaking pipes waste treated water; treatment capacity is tight.",
+    "term": "Ireland's water paradox: why Dublin is short of water"
+   },
+   {
+    "definition": "Mainly the River Liffey via the Poulaphouca reservoir (Blessington lakes) and the Vartry reservoir at Roundwood, Co. Wicklow. The planned, unbuilt Water Supply Project would pipe water about 170 km from the Shannon at Parteen Basin, south of Lough Derg.",
+    "term": "Dublin's water supply: present sources and the planned project"
+   },
+   {
+    "definition": "Irish Water imposed a hosepipe ban (Water Conservation Order) in the Greater Dublin Area in early July 2018, later extended nationwide. Rural homes on private wells and group schemes face wells running dry in drought and contamination after heavy rain.",
+    "term": "Drought and household water in Ireland: the 2018 hosepipe ban and rural wells"
+   },
+   {
+    "definition": "Three dry winters (about 2015–2017) left reservoirs very low, and in early 2018 the city warned taps would be shut off. From 1 February 2018 use was capped at 50 litres per person per day; use roughly halved and Day Zero was avoided when the 2018 rains came.",
+    "term": "Cape Town Day Zero: causes, measures and outcome"
+   },
+   {
+    "definition": "Crop failure and livestock losses; higher food prices; lost farm income and rural jobs; famine and migration in poor countries; less hydroelectricity and cooling water for power stations; disrupted river transport; wildfires; government relief spending.",
+    "term": "Drought: economic effects to list"
+   },
+   {
+    "definition": "South-eastern Australia, roughly the late 1990s to 2009: farming in the Murray–Darling Basin was hit and towns faced water restrictions. Insurance, aid, water trading and technology absorbed losses; cities including Melbourne built desalination plants.",
+    "term": "Millennium Drought, Australia: impacts and responses"
+   },
+   {
+    "definition": "Two failed rainy seasons, linked to La Niña, brought drought across the Horn of Africa; crops failed, livestock died and food prices soared. The UN declared famine in parts of southern Somalia in July 2011.",
+    "term": "Horn of Africa drought, 2011: causes and first effects"
+   },
+   {
+    "definition": "Conflict (al-Shabaab) blocked food aid. A later UN-backed study estimated about 260,000 deaths in Somalia, about half of them children under five; large numbers fled to the Dadaab camps in Kenya and to camps in Ethiopia.",
+    "term": "Somalia famine, 2011: why it was so deadly and its toll"
+   },
+   {
+    "definition": "It followed drought and was worsened by civil war. It led to Band Aid (1984) and the Live Aid concerts (July 1985), organised by Bob Geldof.",
+    "term": "Ethiopian famine of 1983–85: causes and the world's response"
+   },
+   {
+    "definition": "Early warning systems using rainfall, satellite and market data; water storage in dams, tanks and rainwater harvesting; drought-tolerant crop varieties; drip irrigation; food aid, cash transfers and insurance; restrictions such as hosepipe bans; desalination.",
+    "term": "Responses to drought: seven to name"
+   },
+   {
+    "definition": "Droughts in the 1970s and 1980s brought failed harvests and livestock deaths; pastoralists lost livelihoods; food imports grew; people migrated to cities and abroad; herders and farmers clashed; Lake Chad has shrunk about 90% (widely quoted) since the 1960s.",
+    "term": "Sahel: economic effects of drought and desertification"
+   },
+   {
+    "definition": "Hot, dry, sunny summers; mass package tourism grew from the 1960s with cheap jet flights. Spain had about 85 million international tourists in 2023, a record, second only to France, and is the most popular foreign holiday destination for Irish people.",
+    "term": "Mediterranean sun tourism: why it grew and Spain's key figures"
+   },
+   {
+    "definition": "Tourists come in the driest season, so water demand from hotels, pools and golf courses peaks when supply is lowest; jobs are seasonal; coasts are overdeveloped. In 2024 there were large protests against mass tourism in the Canary Islands and Barcelona.",
+    "term": "Sun tourism in Spain: problems linked to climate and overtourism"
+   },
+   {
+    "definition": "They lie off north-west Africa at about 28° N; mild, dry winters and the cooling Canary Current attract northern Europeans in winter as well as summer.",
+    "term": "Canary Islands: why they have a year-round tourist season"
+   },
+   {
+    "definition": "It depends on reliable snow, but the snow line is rising and seasons are shortening, so lower resorts struggle or close. Resorts invest in snow-making, which needs water, energy and cold nights, and diversify into summer walking and cycling.",
+    "term": "Alpine ski tourism: how climate change threatens it and the responses"
+   },
+   {
+    "definition": "Irma, a Category 5 hurricane in September 2017, damaged or destroyed almost every building on Barbuda, whose population was evacuated to Antigua. Maria, September 2017, devastated Puerto Rico, with about 3,000 deaths (official study).",
+    "term": "Hurricanes Irma and Maria (2017): the damage each caused"
+   },
+   {
+    "definition": "Cool, cloudy, wet, unreliable summers limit beach tourism and send Irish people abroad. Ireland markets green scenery, culture, golf, walking and surfing, e.g. the Wild Atlantic Way, about 2,500 km from Inishowen to Kinsale, launched by Fáilte Ireland in 2014.",
+    "term": "Ireland's climate and tourism: limits and what Ireland markets instead"
+   },
+   {
+    "definition": "Hotter summers bring heatwaves and wildfires that deter or endanger tourists: in July 2023 wildfires on Rhodes forced thousands of tourists to be evacuated. Visits may shift to spring and autumn or to northern destinations, possibly including Ireland.",
+    "term": "Climate change and Mediterranean tourism: heat and wildfire"
+   },
+   {
+    "definition": "Climate influences development but does not decide it alone: rich countries with harsh climates, such as Israel, the Gulf states and Australia, overcome limits with capital and technology such as desalination, while poor rain-fed economies are most exposed.",
+    "term": "Climate and development: the judgement for an 'assess' question"
    }
   ],
   "notes": [
@@ -10415,6 +13355,110 @@
    {
     "definition": "The South African system, 1948–1994, of legally classifying people by race and separating them in residence, education and public life.",
     "term": "Apartheid"
+   },
+   {
+    "definition": "Humans share about 99.9% of their DNA, vary more within so-called races than between them, and traits change gradually across space. Melanin rises towards the tropics, where ultraviolet radiation is strongest; pale skin at high latitudes helps make vitamin D.",
+    "term": "Race today: why it is seen as social, and why skin colour varies"
+   },
+   {
+    "definition": "Outdated textbook scheme: Caucasoid in Europe, North Africa, the Middle East and South Asia; Mongoloid in East and Central Asia, the Arctic and the Americas; Negroid in sub-Saharan Africa; Australoid in Australia and Melanesia; kept apart by oceans, deserts and mountains.",
+    "term": "Traditional (now rejected) racial groupings: where each lived before 1500"
+   },
+   {
+    "definition": "After Columbus reached the Americas in 1492, smallpox and other disease, war and forced labour made the native population collapse within a century. Settlement produced mestizo (European and Native American) and, in the colonial term, mulatto (European and African) populations.",
+    "term": "Colonisation of the Americas: effect on native peoples and racial mixing"
+   },
+   {
+    "definition": "About 12.5 million Africans were shipped in the 16th–19th centuries, mostly to Brazil (about 4–5 million, the most of any country) and the Caribbean; far fewer went to the American South. The USA abolished slavery in 1865 (13th Amendment); Brazil on 13 May 1888, last in the Americas.",
+    "term": "Atlantic slave trade: numbers, destinations and abolition dates"
+   },
+   {
+    "definition": "First Fleet at Sydney Cove, 26 January 1788; the Immigration Restriction Act 1901 began the White Australia Policy, dismantled 1966–1973; Stolen Generations, roughly 1910 to the 1970s; 1967 referendum, about 91% Yes to count Aboriginal people in the census.",
+    "term": "Australia: colonisation and the White Australia Policy, with dates"
+   },
+   {
+    "definition": "Prime Minister Kevin Rudd's national apology, 13 February 2008; the Voice to Parliament referendum, 14 October 2023, rejected with about 60% No. Census 2021: about 3.2% Aboriginal and/or Torres Strait Islander; over a quarter born overseas.",
+    "term": "Australia today: apology, Voice referendum and census figures"
+   },
+   {
+    "definition": "Treaty of Waitangi between the British Crown and Māori chiefs, 6 February 1840; Māori are about one in six of the population. USA: Indian Removal Act 1830; forced removal of the Cherokee in 1838, the Trail of Tears; many Native Americans live on reservations.",
+    "term": "New Zealand and Native Americans: settler-colony facts with dates"
+   },
+   {
+    "definition": "After slavery was abolished, Britain shipped Indian labourers to sugar colonies: Trinidad and Guyana, Fiji (1879–1916), Mauritius and Natal (from 1860). People of Indian descent are now a large share of the population in Trinidad, Guyana, Fiji and Mauritius.",
+    "term": "Indentured Indian labour: destinations, dates and legacy"
+   },
+   {
+    "definition": "Nuremberg Laws (1935) stripped Jews of citizenship; about 6 million Jews were murdered; Roma were also targeted. Rwanda: Belgian identity cards (1933) fixed Hutu, Tutsi or Twa labels; from 7 April 1994 Hutu extremists killed about 800,000, mostly Tutsi, in about 100 days.",
+    "term": "Genocide and racial classification: Nazi Germany and Rwanda"
+   },
+   {
+    "definition": "Caribbean migrants to Britain (the Empire Windrush reached Tilbury on 22 June 1948), then people from India, Pakistan and Bangladesh; Algerians and other North and West Africans to France; Indonesians and Surinamese to the Netherlands.",
+    "term": "Post-colonial migration to Europe: who moved where after 1945"
+   },
+   {
+    "definition": "About 6 million African Americans moved from the rural South to cities such as Chicago, Detroit and New York, about 1910–1970, pushed by segregation and poverty and pulled by industrial jobs. It changed the racial make-up of both regions and created segregated inner-city neighbourhoods.",
+    "term": "The Great Migration in the USA: numbers, dates and effects"
+   },
+   {
+    "definition": "West Germany's recruitment agreement with Turkey, 30 October 1961; Belgium's agreements with Morocco and Turkey, 1964. Guest workers were expected to go home, but many settled with their families, so Germany now has a large population of Turkish origin.",
+    "term": "Guest workers: the West German and Belgian recruitment agreements, and the result"
+   },
+   {
+    "definition": "Over 120 million forcibly displaced (2024). Syria, from 2011: over 6 million refugees, about 3.5 million in Turkey. In 2015 over 1 million refugees and migrants reached Europe; Germany took about 1 million asylum seekers, 2015–16. Over 700,000 Rohingya fled to Bangladesh from 2017.",
+    "term": "Refugees: the UNHCR total, Syria and Europe in 2015, the Rohingya"
+   },
+   {
+    "definition": "About 5.15 million people; about 20% born abroad; about 12% non-Irish citizens, the largest groups Polish and UK; about three-quarters White Irish; Polish the top home language after English and Irish; about 33,000 Travellers, recognised by the State as an ethnic minority on 1 March 2017.",
+    "term": "Ireland's ethnic make-up: Census 2022 figures"
+   },
+   {
+    "definition": "Direct Provision from 2000, criticised for long stays in shared centres; limited right to work from 2018, after a 2017 Supreme Court ruling; over 13,000 protection claims in each of 2022 and 2023; over 100,000 Ukrainians under EU temporary protection.",
+    "term": "Asylum seekers and Ukrainians in Ireland: key facts with dates"
+   },
+   {
+    "definition": "Receiving area: more diversity, new places of worship and shops; ethnic neighbourhoods; labour supply; also discrimination and tension, e.g. the Dublin riot of 23 November 2023, fed by anti-immigrant agitation. Source area: loss of young adults; remittances.",
+    "term": "Effects of migration on racial patterns in receiving and source areas"
+   },
+   {
+    "definition": "White (alone) about 62%; Hispanic or Latino (of any race) about 19%, the largest minority; Black about 12%; Asian about 6%; about 10% identified with two or more races, more than double the 2010 figure.",
+    "term": "USA Census 2020: racial and ethnic composition"
+   },
+   {
+    "definition": "Census 2022: pardo (mixed race) about 45%, the largest group for the first time since 1991; White about 44%; Black about 10%; Indigenous under 1%. Origins: Portuguese, African, Indigenous. Racial democracy is a claim: White Brazilians remain wealthier on average.",
+    "term": "Brazil: racial mixing, Census 2022 figures and inequality"
+   },
+   {
+    "definition": "England and Wales, 2021: White about 82%, Asian or Asian British about 9%, Black about 4%, Mixed about 3%. Windrush scandal, 2018: long-settled Caribbean-born residents were wrongly detained, denied services or deported because they lacked documents.",
+    "term": "UK as a multi-racial society: Census 2021 and the Windrush scandal"
+   },
+   {
+    "definition": "Multiculturalism: Canada (official policy, 1971) and Australia; for: enrichment, labour, tolerance; against: segregation, parallel societies, far-right backlash. Assimilation: France expects one secular French identity and keeps no ethnic census statistics.",
+    "term": "Multiculturalism versus assimilation: examples and arguments"
+   },
+   {
+    "definition": "Competition for jobs and housing; segregation, which limits contact between groups; unequal power inherited from colonialism and slavery; racist ideologies; fear of newcomers.",
+    "term": "Racial conflict: five causes"
+   },
+   {
+    "definition": "The National Party won in 1948; the Population Registration Act 1950 classed people as White, Black, Coloured or Indian/Asian; the Group Areas Act 1950 zoned areas by race; Bantustans; District Six declared White in 1966, about 60,000 removed.",
+    "term": "Apartheid South Africa: the laws and forced removals"
+   },
+   {
+    "definition": "Sharpeville, 21 March 1960: police killed 69; Soweto, 16 June 1976: students protested against being taught through Afrikaans; Mandela freed 11 February 1990 after 27 years; first all-race election 27 April 1994; Truth and Reconciliation Commission from 1996.",
+    "term": "Apartheid South Africa: resistance and the end, with dates"
+   },
+   {
+    "definition": "Black African about 81%, Coloured about 8%, White about 7%, Indian/Asian about 3%. Wealth and land ownership remain highly unequal by race.",
+    "term": "South Africa today: Census 2022 composition and inequality"
+   },
+   {
+    "definition": "Jim Crow segregation in the South after the Civil War; Brown v Board of Education, 1954; Montgomery bus boycott, 1955 (Rosa Parks); Civil Rights Act 1964; Voting Rights Act 1965; Martin Luther King killed 4 April 1968; George Floyd killed 25 May 2020.",
+    "term": "USA: segregation and civil rights, key events with dates"
+   },
+   {
+    "definition": "Notting Hill, London, 1958: white mobs attacked Caribbean residents; Brixton, April 1981: mainly Black youths and police; French banlieues, 2005, after two teenagers died fleeing police in Clichy-sous-Bois; Nanterre, June 2023, after police shot Nahel Merzouk.",
+    "term": "European urban unrest: four riots with dates"
    }
   ],
   "notes": [
@@ -10472,7 +13516,7 @@
      "Columbus reached the Americas in 1492. Disease (e.g. smallpox), war and forced labour caused the native population to collapse in the following century.",
      "Spanish and Portuguese settlers produced racially mixed populations. Mestizo means European and Native American ancestry; mulatto means European and African ancestry. Mexico's population is mainly mestizo.",
      "About 12.5 million Africans were shipped across the Atlantic as slaves between the 16th and 19th centuries.",
-     "The main destinations were Brazil, the Caribbean and the American South. Brazil received about 4–5 million Africans, more than any other country.",
+     "Most went to Brazil and the Caribbean; far fewer went to the American South. Brazil received about 4–5 million Africans, more than any other country.",
      "Brazil abolished slavery on 13 May 1888, the last country in the Americas to do so. The USA abolished it by the 13th Amendment (1865), after the Civil War (1861–65).",
      "The legacy is large Black populations and racial inequality across the Americas."
     ]
@@ -10780,6 +13824,110 @@
    {
     "definition": "A language with no known relatives, such as Basque.",
     "term": "Isolate"
+   },
+   {
+    "definition": "It carries a group's history, literature, songs, place names and ways of thinking; it marks who belongs to a group; it is easy to map from census questions on language, so it is used to define cultural regions.",
+    "term": "Language as a cultural indicator: three reasons it matters"
+   },
+   {
+    "definition": "The Gaelic League (1893, Douglas Hyde and Eoin MacNeill) led a language revival that fed the Irish independence movement. Suppression: Basque and Catalan banned under Franco (1939–1975); the Welsh Not in some 19th-century schools; Kurdish banned in Turkey until the early 1990s.",
+    "term": "Language and nationalism: one revival movement and three cases of suppression"
+   },
+   {
+    "definition": "English in India and Nigeria; French in Senegal and Côte d'Ivoire; Spanish in most of Latin America; Portuguese in Brazil. The language of power brings jobs and status, so minority speakers shift to it. The Francophonie (1970) links French-speaking states.",
+    "term": "Language and colonial power: colonial languages that are still official"
+   },
+   {
+    "definition": "Baile (townland), cill (church), dún (fort), inis (island), cluain (meadow): Clonmel (Cluain Meala), Kilkenny (Cill Chainnigh), Dundalk (Dún Dealgan), Ennis (Inis). They show the Irish-speaking past of areas that now speak English.",
+    "term": "Irish place names: five elements and four examples"
+   },
+   {
+    "definition": "Indo-European, the largest, spoken by nearly half the world; Sino-Tibetan (Mandarin, Tibetan, Burmese); Afro-Asiatic (Arabic, Hebrew, Amharic, Hausa); Niger-Congo (Swahili, Yoruba, Zulu); Austronesian (Malay, Filipino, Māori); Dravidian (Tamil, Telugu).",
+    "term": "World language families: the main families with example languages"
+   },
+   {
+    "definition": "Mandarin has the most native speakers, Spanish the second-most; English the most speakers overall (about 1.5 billion). Languages spread through conquest and empire (Latin; English, Spanish, French, Portuguese), trade, religion (Arabic with Islam) and media.",
+    "term": "The most spoken languages and how languages spread"
+   },
+   {
+    "definition": "Germanic (English, German, Dutch, Swedish); Romance (French, Spanish, Italian, Romanian); Slavic (Russian, Polish, Czech); Celtic (Irish, Welsh, Breton); Hellenic; Baltic. Not Indo-European: Finnish, Estonian, Hungarian; Turkish; Maltese; Basque (an isolate).",
+    "term": "European languages: Indo-European branches and the languages outside them"
+   },
+   {
+    "definition": "About half of all websites are in English; film, music and streaming are dominated by Hollywood and US and UK music; loanwords such as le weekend enter other languages; English dominates business and science, pressing small national and minority languages.",
+    "term": "Mass media and English: effects on other European languages"
+   },
+   {
+    "definition": "France: Académie française (1635); Toubon Law (1994) requires French in advertising, labels and signage; radio must play at least 40% French songs. Quebec: Bill 101 (1977) made French the sole official language. Iceland coins new words, e.g. tölva (computer).",
+    "term": "France, Quebec and Iceland: protecting a language against English"
+   },
+   {
+    "definition": "Raidió na Gaeltachta, 1972; TG4, 31 October 1996, based in Baile na hAbhann, Conamara; S4C, 1 November 1982, after Gwynfor Evans threatened a hunger strike in 1980; BBC Alba (Scottish Gaelic), 2008; EITB Basque television, 1982.",
+    "term": "Minority-language broadcasters: names and launch dates"
+   },
+   {
+    "definition": "Conquest and official suppression; a dominant language needed for jobs, education and emigration; famine and emigration; in-migration of majority-language speakers; urbanisation; mass media and globalisation; parents no longer passing the language on.",
+    "term": "Why minority languages decline: causes"
+   },
+   {
+    "definition": "Official status in law; education through the language and compulsory study; media and online content; jobs in the heartland; planning and housing controls; language commissioners; community, family, culture and festivals; EU recognition.",
+    "term": "Strategies for the survival of minority languages: the main headings"
+   },
+   {
+    "definition": "Article 8 of the 1937 Constitution makes Irish the national language and the first official language, with English second. Irish became an official EU language in 2007, with full working-language status from 1 January 2022; the EU has 24 official languages.",
+    "term": "Irish: status in the Constitution and in the EU, with dates"
+   },
+   {
+    "definition": "1851, the first count: about 1.5 million Irish speakers (about 23%). 2022: about 1.87 million (about 40%) said they could speak Irish, but only about 72,000 spoke it daily outside the education system.",
+    "term": "Irish speakers: Census 1851 and Census 2022 figures"
+   },
+   {
+    "definition": "Seven counties: Donegal, Mayo, Galway, Kerry, Cork, Waterford, Meath. Areas include Gaoth Dobhair, Conamara and the Aran Islands (largest), Corca Dhuibhne, Múscraí, An Rinn, Ráth Chairn. About 106,000 people; about 20,000 speak Irish daily outside education.",
+    "term": "The Gaeltacht: counties, main areas and Census 2022 figures"
+   },
+   {
+    "definition": "Department of the Gaeltacht and Gaeltacht Areas Order, 1956; Údarás na Gaeltachta, 1980, grant-aids firms (e.g. Gaoth Dobhair industrial estate) and community projects; Foras na Gaeilge, 1999, all-island; An Coimisinéir Teanga, 2004, enforces language rights.",
+    "term": "Irish: State bodies for the language, with dates"
+   },
+   {
+    "definition": "Official Languages Act 2003 (2021 target: 20% of new public-service recruits competent in Irish by 2030); 20-Year Strategy 2010–2030: 250,000 daily speakers; Gaeltacht Act 2012: 26 language planning areas with plans; 2022 Act recognised Irish in the North.",
+    "term": "Irish: laws and strategies with their targets"
+   },
+   {
+    "definition": "Irish compulsory through primary and post-primary school, with exemptions; Gaelscoileanna (umbrella body 1973); Gaeltacht summer colleges with Irish-speaking families; Seachtain na Gaeilge; Oireachtas na Gaeilge (first held 1897); TG4 programmes.",
+    "term": "Irish: education and culture measures"
+   },
+   {
+    "definition": "The 2007 Comprehensive Linguistic Study: Irish is viable as a community language only where at least 67% speak it daily. A 2015 update warned it could cease to be the community language in most Gaeltacht districts within about ten years. High ability, low use.",
+    "term": "Irish in the Gaeltacht: how successful has policy been?"
+   },
+   {
+    "definition": "Laws in Wales Acts 1535 and 1542 barred Welsh speakers from public office unless they used English; the 1847 Blue Books blamed Welsh for backwardness; the Welsh Not; 19th-century coal and iron drew English and Irish workers into south Wales, spreading English.",
+    "term": "Welsh: suppression and decline, with dates"
+   },
+   {
+    "definition": "Cymdeithas yr Iaith Gymraeg (1962), inspired by Saunders Lewis's Tynged yr Iaith, painted over English-only signs; the 1965 flooding of Capel Celyn (Tryweryn) for Liverpool's water became a symbol of powerlessness; S4C came after Gwynfor Evans's 1980 threat.",
+    "term": "Welsh: activism, Tryweryn and the S4C campaign"
+   },
+   {
+    "definition": "Welsh Language Act 1967 (limited equal validity); 1993 Act (equal treatment in the public sector; Welsh Language Board); 2011 Measure (official status; Commissioner from 2012); Senedd laws in both languages; Cymraeg 2050 (2017): 1 million speakers by 2050.",
+    "term": "Welsh: laws and strategy with dates"
+   },
+   {
+    "definition": "Compulsory in schools to age 16, with Welsh-medium schools; the Urdd (1922) and the Eisteddfod. Census 2021: about 538,000 (17.8%), down from 19.0% in 2011; highest in Gwynedd (about 64%). Second homes: up to a 300% council-tax premium from April 2023.",
+    "term": "Welsh: education, Census 2021 figures and threats"
+   },
+   {
+    "definition": "Statute of Gernika, 1979: co-official with Spanish in the Basque Autonomous Community; school models A, B and D, with all-Basque model D now chosen by most; ikastolak, begun under Franco; standard Batua from 1968; EITB television. Use rising among the young.",
+    "term": "Basque: survival measures and how successful they are"
+   },
+   {
+    "definition": "Article 2 of the French Constitution (added 1992): the language of the Republic is French; France signed the 1992 European Charter on minority languages in 1999 but has not ratified it; Diwan schools (from 1977) rely on volunteers; parts of the Molac Law were struck down in 2021.",
+    "term": "Breton: why it has declined despite local effort"
+   },
+   {
+    "definition": "Te reo Māori became an official language of New Zealand in 1987 (Māori Language Act); kōhanga reo language nests began in 1982. Hebrew was revived as an everyday language from the late 19th century (Eliezer Ben-Yehuda) and is now Israel's main language.",
+    "term": "Māori and Hebrew: two language revivals outside Europe"
    }
   ],
   "notes": [
@@ -10795,7 +13943,7 @@
     "h": "Language and nationalism",
     "points": [
      "Many nation states were built around a single language.",
-     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led the language revival that was part of the Irish independence movement.",
+     "The Gaelic League (Conradh na Gaeilge), founded in 1893 by Douglas Hyde and Eoin MacNeill, led a language revival that fed the Irish independence movement, though it was founded as a non-political body.",
      "Suppressing a language has been used to weaken a group. Basque and Catalan were banned from public life and schools under Franco (1939–1975).",
      "The Welsh Not was a wooden board hung round the neck of children caught speaking Welsh in some 19th-century schools.",
      "Kurdish was banned in public life and broadcasting in Turkey until the early 1990s."
@@ -11105,7 +14253,7 @@
    },
    {
     "marks": 80,
-    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove the Irish revival that was part of the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
+    "model": "Language is an identity marker: it carries a group's history, literature and ways of thinking, and it shows belonging. Irish place-name elements such as baile, cill, dún, inis and cluain record the Irish-speaking past of areas that are now English-speaking. Language is tied to nationalism: many nation states were built around one language, and the Gaelic League, founded in 1893, drove a language revival that fed the independence movement. Suppression shows how much language matters to power: Basque and Catalan were banned under Franco from 1939 to 1975, the Welsh Not punished children in some 19th-century schools for speaking Welsh, and Kurdish was banned in Turkey until the early 1990s. Language and colonialism are linked. English is an official language of India and Nigeria, French of Senegal and Côte d'Ivoire, Spanish across most of Latin America, and Portuguese in Brazil. Within Indo-European, Europe's Germanic, Romance, Slavic and Celtic branches show how Latin and other languages spread. The mass media is a modern force: about half of all websites are in English, young people adopt English words, and states such as France have responded with laws such as the Toubon Law of 1994. Language can also unite or divide, as Belgium's language border shows. Revival of minority languages is an assertion of identity: Irish and Welsh have been revived through law, schooling and broadcasting, so that language is both a marker of identity and a target of policy.",
     "prompt": "Examine the importance of language as a cultural indicator.",
     "type": "short"
    },
@@ -11166,6 +14314,106 @@
    {
     "definition": "A school educating Catholic and Protestant pupils together in Northern Ireland.",
     "term": "Integrated school"
+   },
+   {
+    "definition": "Beliefs, values and moral codes; group identity, often stronger than nationality; landscape (churches, mosques, temples, synagogues, holy wells); diet (halal, kosher); dress (headscarf, turban, kippah); festivals (Eid, Diwali, Yom Kippur); education and law.",
+    "term": "Religion as a cultural indicator: how it shows in identity, life and landscape"
+   },
+   {
+    "definition": "Language: Arabic and the Qur'an; Latin and the Catholic Church in the past; Hebrew and Judaism. Nationality: Catholicism with Irish and Polish identity; Orthodoxy with Serbian identity. Secularisation is weakening religious practice in Ireland and France.",
+    "term": "Religion linked to language and nationality: examples, and the trend in Ireland and France"
+   },
+   {
+    "definition": "Christians about 2.3 billion (about 29%); Muslims about 2 billion (about 26%); Hindus about 1.2 billion (about 15%); Buddhists about 320 million (about 4%); Jews about 15 million. Not a religion: about 1.9 billion (about 24%) unaffiliated. Islam grew fastest, 2010–2020.",
+    "term": "World religions by number of followers: Pew figures for 2020"
+   },
+   {
+    "definition": "Judaism: Jerusalem, oldest Abrahamic faith. Christianity: Jesus, Roman Palestine. Islam: Muhammad, Mecca, early 7th century (Hijra 622). Hinduism: India, no founder. Buddhism: Siddhartha Gautama, north-east India. Sikhism: Guru Nanak, Punjab, 15th century.",
+    "term": "Hearths of the world religions: founders, places and dates"
+   },
+   {
+    "definition": "Empire: Christianity via Rome (official, 4th century); Islam via Arab conquests from the 7th century. Missionaries: St Columba (Iona), St Columbanus. Trade: Islam to Indonesia, West Africa. Colonialism: Christianity to the Americas. Migration: Islam, Hinduism, Sikhism to Europe.",
+    "term": "How religions spread: five processes with examples"
+   },
+   {
+    "definition": "Catholic: southern Europe, Ireland, Poland, Latin America, the Philippines. Protestant: northern Europe, the UK, the USA. Orthodox: eastern Europe, Russia, Greece, Serbia. Divided by the Great Schism (1054) and the Reformation (from 1517; Calvinism, Geneva).",
+    "term": "Christianity's three branches: where each dominates and how they split"
+   },
+   {
+    "definition": "Middle East, North Africa, Central Asia, Pakistan, Bangladesh, Indonesia (largest Muslim population), parts of West and East Africa. Sunnis about 85–90%; Shias the majority in Iran and Iraq. Holiest cities Mecca and Medina; the Hajj to Mecca is a duty.",
+    "term": "Islam's distribution: key regions, branches and holy cities"
+   },
+   {
+    "definition": "Hinduism: India (about four in five Indians) and Nepal, pilgrimage city Varanasi. Buddhism: Thailand, Myanmar, Sri Lanka, Tibet, Japan, Vietnam. Judaism: mainly Israel and the USA. Sikhism: Punjab (Golden Temple, Amritsar), diaspora in the UK and Canada.",
+    "term": "Hinduism, Buddhism, Judaism and Sikhism: where each is found"
+   },
+   {
+    "definition": "Republic, Census 2022: about 69% Catholic (about 78% in 2016); about 14% no religion; Orthodox and Muslim numbers growing. Northern Ireland, Census 2021: Catholic about 46%, Protestant and other Christian about 43%, so Catholics lead but are no majority.",
+    "term": "Religion in Ireland and Northern Ireland: latest census figures"
+   },
+   {
+    "definition": "Theocracy: Iran; Vatican City (Lateran Treaty, 1929). Established church: Church of England (monarch is Supreme Governor; 26 bishops in the Lords). Separation: France's laïcité; US First Amendment (1791). Dominant church: 20th-century Ireland, Poland.",
+    "term": "Church and state: four types of relationship with examples"
+   },
+   {
+    "definition": "Preamble: In the Name of the Most Holy Trinity. Article 44: special position of the Catholic Church (not a state church; removed 1972); other named churches and Jewish congregations recognised; freedom of conscience; no endowment. Article 41 banned divorce.",
+    "term": "Irish Constitution 1937: its religious content"
+   },
+   {
+    "definition": "About nine in ten primary schools under Catholic patronage, and many hospitals; influence on censorship and contraception; the Mother and Child Scheme (1950–51) dropped after opposition from bishops and doctors, so Noel Browne resigned; papal visit, 1979.",
+    "term": "Catholic Church influence in 20th-century Ireland: examples"
+   },
+   {
+    "definition": "December 1972: special position removed (about 84% Yes); November 1995: divorce (about 50.3% to 49.7%); 22 May 2015: marriage equality (about 62% Yes); 25 May 2018: Eighth Amendment (1983) repealed (about 66%); October 2018: blasphemy removed (about 65%).",
+    "term": "Irish referendums that reduced religious influence: dates and results"
+   },
+   {
+    "definition": "Ryan Report (May 2009) on abuse in institutions run by religious orders; Murphy Report (November 2009) on the Dublin archdiocese; Educate Together, a multi-denominational patron, founded 1984 (first school 1978); the State aims to divest some Catholic schools.",
+    "term": "Decline of Church authority in Ireland: reports and school patronage"
+   },
+   {
+    "definition": "The 1905 law separated the churches and the state; a 2004 law banned conspicuous religious symbols, including the Islamic headscarf, in state schools; a 2010 law banned face coverings such as the burqa and niqab in public places.",
+    "term": "France's laïcité: three laws with dates"
+   },
+   {
+    "definition": "Iran: Islamic Republic since 1979, with a senior cleric as Supreme Leader. Saudi Arabia: Sharia-based law; no public practice of other religions. India: secular republic by its constitution, but Hindu nationalism has grown since the 1990s.",
+    "term": "Iran, Saudi Arabia and India: religion and the state"
+   },
+   {
+    "definition": "Competing claims to holy sites and territory; religion overlapping with national identity and political power; discrimination against religious minorities; extremist interpretations of religion.",
+    "term": "Why religion causes or feeds conflict: four reasons"
+   },
+   {
+    "definition": "Plantation of Ulster, 1609: English and Scottish Protestants settled on confiscated land; Battle of the Boyne, 1690, marked by Orange Order parades on 12 July (order founded 1795); Northern Ireland set up in 1921: six counties, unionist majority.",
+    "term": "Northern Ireland: origins of the conflict, 1609 to 1921"
+   },
+   {
+    "definition": "Discrimination against Catholics in housing, jobs and voting (gerrymandering in Derry); civil rights from 1968; troops 1969; internment 1971; Bloody Sunday, 30 January 1972: British paratroopers shot dead 13 civil-rights marchers, a 14th died later; 1981 hunger strikes: ten died. Over 3,500 killed.",
+    "term": "Northern Ireland: discrimination and the Troubles, key events"
+   },
+   {
+    "definition": "Good Friday Agreement, 10 April 1998: power-sharing, North–South bodies, consent principle. Omagh bomb, 15 August 1998: Real IRA killed 29. Peace walls (first 1969) still stand; integrated schools (first, Lagan College, 1981) teach under one in ten pupils.",
+    "term": "Northern Ireland: the peace settlement and lasting segregation"
+   },
+   {
+    "definition": "August 1947: Hindu-majority India and Muslim-majority Pakistan, including East Pakistan (now Bangladesh); around 15 million displaced, hundreds of thousands killed. Kashmir: Muslim-majority, claimed by both, split by a Line of Control; wars fought over it.",
+    "term": "Partition of India and the Kashmir dispute"
+   },
+   {
+    "definition": "Babri Mosque, Ayodhya: demolished by Hindu nationalists, 6 December 1992; riots killed about 2,000; Ram temple consecrated there, January 2024. Operation Blue Star, June 1984: army stormed the Golden Temple; Sikh bodyguards killed Indira Gandhi that October; anti-Sikh riots in Delhi followed.",
+    "term": "India: Ayodhya and Operation Blue Star, with dates"
+   },
+   {
+    "definition": "Western Wall (Jewish), Al-Aqsa Mosque and Dome of the Rock (Muslim), Church of the Holy Sepulchre (Christian). Israel declared 14 May 1948; about 700,000 Palestinians fled or were expelled (Nakba); 1967: West Bank, East Jerusalem, Gaza occupied.",
+    "term": "Israel and Palestine: Jerusalem's holy sites and the events of 1948 and 1967"
+   },
+   {
+    "definition": "Oslo Accords, 1993: mutual recognition, limited self-rule. West Bank settlements are illegal in the view of the UN and most states. 7 October 2023: Hamas-led attack killed about 1,200 in Israel; Israel's war killed tens of thousands in Gaza; ceasefire 2025.",
+    "term": "Israel and Palestine: Oslo, settlements and the war since 2023"
+   },
+   {
+    "definition": "Lebanon: power shared by community (Maronite President, Sunni Prime Minister, Shia Speaker); civil war 1975–1990. Nigeria: mainly Muslim north, Christian south; Boko Haram (from 2009) took 276 Chibok schoolgirls, 2014. Iraq and Syria: Sunni–Shia violence after 2003; Islamic State caliphate, 2014.",
+    "term": "Other religious conflicts: Lebanon, Nigeria and Iraq–Syria"
    }
   ],
   "notes": [
@@ -11467,6 +14715,102 @@
    {
     "definition": "A people living outside their homeland who keep their cultural identity, for example through St Patrick’s Day parades.",
     "term": "Diaspora"
+   },
+   {
+    "definition": "They mark belonging; they pass culture between generations; they assert identity under pressure, as Irish games and music did in the Gaelic Revival; they attract tourists and income; they can mark division (Northern Ireland parades, football rivalries).",
+    "term": "Everyday expressions of culture: five reasons they matter"
+   },
+   {
+    "definition": "Fast food, Hollywood, global sports and brands make cultures alike: McDonald's opened on Grafton Street in 1977; Halloween customs returned from the USA in commercial form. Responses: revival movements, State support, UNESCO's intangible heritage list.",
+    "term": "Globalisation and everyday culture: pressures and responses"
+   },
+   {
+    "definition": "Uilleann piping (2017), hurling (2018) and Irish harping (2019), recorded as living traditions under UNESCO's 2003 convention on the Intangible Cultural Heritage of Humanity.",
+    "term": "Name three Irish entries on UNESCO's intangible heritage list, with years"
+   },
+   {
+    "definition": "Migrants bring food, festivals, religious celebrations and sports that blend with local ones in multicultural festivals and fusion food: Polish shops and food are now common in Irish towns; the döner kebab spread in Germany through Turkish immigrants.",
+    "term": "Migration and everyday culture: effects with two examples"
+   },
+   {
+    "definition": "Founded 1 November 1884 at Hayes' Hotel, Thurles, by Michael Cusack and others (first president Maurice Davin) to preserve native games. Amateur; parish clubs and county teams build local identity; all-island, with diaspora clubs; Camogie Association, 1904.",
+    "term": "The GAA: founding, aims and structure"
+   },
+   {
+    "definition": "Holds about 82,300, one of Europe's largest stadiums. 21 November 1920: British forces fired on a Gaelic football match, killing 14. From 2007 it hosted rugby and soccer while Lansdowne Road was rebuilt; England played Ireland at rugby there in February 2007.",
+    "term": "Croke Park: capacity, Bloody Sunday 1920 and the 2007 opening"
+   },
+   {
+    "definition": "The ban on foreign games (soccer, rugby, cricket, hockey) was lifted in 1971; the rule barring British security forces in 2001. The Ireland rugby team represents the whole island; in Northern Ireland, backing Irish or British teams can express identity.",
+    "term": "GAA rule changes and sporting identity beyond the GAA"
+   },
+   {
+    "definition": "Fiddle, uilleann pipes, tin whistle, flute, concertina, accordion, bodhrán and harp (the national symbol). Comhaltas Ceoltóirí Éireann, 1951; first Fleadh Cheoil, Mullingar, 1951, now in a different town each August. Sean-nós singing is strongest in Conamara.",
+    "term": "Irish traditional music: instruments, organisations and the Fleadh"
+   },
+   {
+    "definition": "Riverdance began as the interval act of the Eurovision Song Contest in Dublin on 30 April 1994 and became a worldwide touring show, spreading Irish dance. Ireland has won Eurovision seven times, including three in a row, 1992–94.",
+    "term": "Riverdance and Eurovision: Ireland on the European stage"
+   },
+   {
+    "definition": "St Patrick's Day, 17 March: parades worldwide (e.g. New York), landmarks lit green, Dublin festival since 1996. St Brigid's Day (around 1 February): public holiday from 2023, the first named after a woman. Samhain (31 October–1 November): origin of Halloween.",
+    "term": "Irish national festivals: St Patrick's Day, St Brigid's Day and Samhain"
+   },
+   {
+    "definition": "Puck Fair, Killorglin, Co. Kerry, 10–12 August, when a wild goat is crowned king; Lisdoonvarna Matchmaking Festival, Co. Clare, each September; Ballinasloe Horse Fair, each October, one of Europe's oldest. Older traditions: wakes, holy wells, pattern days.",
+    "term": "Irish fairs and older traditions: places and timing"
+   },
+   {
+    "definition": "Rose of Tralee, since 1959, open to women of Irish birth or descent worldwide; Bloomsday, 16 June, for Joyce's Ulysses (set on 16 June 1904); Galway International Arts Festival, since 1978; Wexford Festival Opera, since 1951.",
+    "term": "Irish diaspora, literary and arts festivals with dates"
+   },
+   {
+    "definition": "Aran sweater from the Aran Islands; Claddagh ring (hands, heart, crown) from Galway's Claddagh; dancing costumes; county GAA jerseys. Food: soda bread, Irish stew, colcannon, boxty, Dublin coddle, full Irish breakfast; Guinness at St James's Gate since 1759.",
+    "term": "Irish costume, craft and food as expressions of identity"
+   },
+   {
+    "definition": "Book of Kells (around 800, Trinity College Dublin); high crosses such as Muiredach's Cross, Monasterboice; Newgrange (around 3200 BC), lit at the winter solstice. Nobel Prize for Literature: Yeats 1923, Shaw 1925, Beckett 1969, Heaney 1995.",
+    "term": "Irish art and literature: Newgrange, early Christian art and Nobel laureates"
+   },
+   {
+    "definition": "Traditionally nomadic, with strong extended family ties; horse fairs such as Ballinasloe; their own language, Cant, Gammon or Shelta; about 33,000 people (Census 2022), recognised as an ethnic minority on 1 March 2017.",
+    "term": "Irish Travellers: features of their everyday culture"
+   },
+   {
+    "definition": "Orange Order parades on 12 July mark the Battle of the Boyne (1690), with loyalist bonfires on 11 July; murals in Belfast and Derry show loyalist and republican identities; kerbstones painted red, white and blue or green, white and orange mark territory.",
+    "term": "Northern Ireland: parades, murals and territorial markers"
+   },
+   {
+    "definition": "San Fermín, Pamplona, 6–14 July, with the running of the bulls; La Tomatina, Buñol, last Wednesday of August, since 1945; Semana Santa processions, especially in Seville; flamenco (Andalusia) and Catalan castells, both on UNESCO's list since 2010.",
+    "term": "Spain: festivals with places and dates"
+   },
+   {
+    "definition": "FC Barcelona's motto Més que un club reflects its role as a symbol of Catalan identity, especially under Franco; Athletic Bilbao fields only players born, raised or trained in the Basque Country; Catalonia banned bullfighting in 2010 (in force 2012), overturned in 2016.",
+    "term": "Spain: football, bullfighting and regional identity"
+   },
+   {
+    "definition": "Kilt and tartan; bagpipes; Highland Games (caber toss, hammer throw, piping, Highland dancing); Burns Night, 25 January, celebrating Robert Burns with haggis, whisky and poetry; Hogmanay, the Scottish New Year.",
+    "term": "Scotland: dress, music and festivals"
+   },
+   {
+    "definition": "Celtic was founded in 1887 in Glasgow's East End by Brother Walfrid to raise money for poor Irish Catholic immigrants; Rangers (1872) was traditionally backed by Protestants and unionists. The Old Firm rivalry carries religious and Irish or British identity.",
+    "term": "Celtic and Rangers: football as religious and national identity"
+   },
+   {
+    "definition": "Oktoberfest, Munich, Bavaria, held since 1810, when it began with a royal wedding; visitors wear lederhosen and dirndl; Christmas markets in German cities; the döner kebab, popularised by Turkish immigrants, shows migration changing everyday food.",
+    "term": "Germany: everyday expressions of culture with dates"
+   },
+   {
+    "definition": "Bastille Day, 14 July, marks the storming of the Bastille (1789) with a military parade in Paris; the Tour de France, first held 1903, each July; the gastronomic meal of the French, on UNESCO's list since 2010; the Cannes Film Festival each May.",
+    "term": "France: everyday expressions of culture with dates"
+   },
+   {
+    "definition": "Palio di Siena: a horse race around the Piazza del Campo between the city's contrade, on 2 July and 16 August; Venice Carnival, with masks, before Lent; Neapolitan pizza-making on UNESCO's list since 2017; regional food and football.",
+    "term": "Italy: festivals and food as expressions of identity"
+   },
+   {
+    "definition": "Norway: Constitution Day, 17 May (1814 constitution), with children's parades and the bunad. Netherlands: King's Day, 27 April, when people wear orange. Brittany: Festival Interceltique de Lorient each August since 1971; fest-noz on UNESCO's list since 2012.",
+    "term": "Norway, the Netherlands and Brittany: national and regional festivals"
    }
   ],
   "notes": [
@@ -11814,6 +15158,106 @@
    {
     "definition": "The Good Friday Agreement principle that Northern Ireland remains in the UK unless a majority of its people choose otherwise.",
     "term": "Consent principle"
+   },
+   {
+    "definition": "Montevideo Convention (1933): a permanent population, a defined territory, a government and the capacity to deal with other states. The UN has 193 members. Nation states: Iceland, Portugal, Japan; multinational: the UK, Belgium, Switzerland, Spain.",
+    "term": "States: the Montevideo criteria, UN membership and examples of state types"
+   },
+   {
+    "definition": "Form: physical (mountains, rivers, lakes, seas); geometric (straight lines, often latitude); cultural (language or religion). Origin: antecedent (before settlement); subsequent (following cultural divides); superimposed (colonial Africa); relict (Berlin Wall).",
+    "term": "Boundary types by form and by origin"
+   },
+   {
+    "definition": "The Pyrenees (much of the France–Spain border since the Treaty of the Pyrenees, 1659); the Rhine (part of France–Germany); the Rio Grande (USA–Mexico); the Alps and Himalayas. They can split a cultural group: Basques live on both sides of the Pyrenees.",
+    "term": "Physical boundaries: examples and a group one splits"
+   },
+   {
+    "definition": "The 49th parallel forms most of the western USA–Canada border (agreed 1818, extended 1846). The Berlin Conference (1884–85) set rules for dividing Africa; straight colonial borders ignored ethnic territories, splitting some groups and joining rivals.",
+    "term": "Geometric and colonial boundaries: two examples with dates"
+   },
+   {
+    "definition": "They build shared identity (citizenship, schools, sport); split groups (partition, Kurds, Basques); harden into barriers (Berlin Wall, 1961–1989; Cyprus Green Line, 1974); or soften (Schengen, 1985; Ireland stays out because of the Common Travel Area, 1923).",
+    "term": "How boundaries affect identity: effects with examples"
+   },
+   {
+    "definition": "Government of Ireland Act 1920; Northern Ireland, 1921: Antrim, Armagh, Down, Fermanagh, Londonderry/Derry, Tyrone; Treaty, December 1921; Cavan, Donegal, Monaghan to the Free State; the 1925 Boundary Commission left the border unchanged: about 499 km on old county lines.",
+    "term": "Partition of Ireland: Acts, treaty and the border"
+   },
+   {
+    "definition": "Two states, two majorities, two minorities; Articles 2 and 3 changed after the May 1998 vote to unity by consent; people in Northern Ireland may be Irish, British or both; it voted about 56% Remain (2016); the Windsor Framework (2023) keeps the border open.",
+    "term": "Partition and identity: constitution, citizenship and Brexit"
+   },
+   {
+    "definition": "Causes: conquest and union, borders ignoring culture, migration. Responses: federalism and autonomy (Belgium, Switzerland, Spain); devolution (UK, 1999); power-sharing (Northern Ireland, Lebanon); multiculturalism (Canada); assimilation (France); suppression.",
+    "term": "Cultural groups within states: why they exist and six ways states respond"
+   },
+   {
+    "definition": "The 1978 constitution created 17 autonomous communities; the Basque Autonomous Community (Statute of Gernika, 1979) and Navarre collect their own taxes; Catalonia's statute dates from 1979, revised 2006. Both languages were suppressed under Franco.",
+    "term": "Spain: autonomy for Basques and Catalans, with dates"
+   },
+   {
+    "definition": "Devolution, 1999: Scottish Parliament, National Assembly for Wales, Northern Ireland Assembly. Scotland, 18 September 2014: about 55% No to independence. EU vote, 2016: UK about 52% Leave; Scotland about 62% and Northern Ireland about 56% Remain.",
+    "term": "The UK: devolution, the 2014 Scottish vote and the 2016 EU vote by nation"
+   },
+   {
+    "definition": "Bill 101 (1977) made French the sole official language of Quebec; sovereignty referendums in 1980 (about 60% No) and 1995 (about 50.6% No); in 2006 Canada's House of Commons recognised that the Québécois form a nation within a united Canada.",
+    "term": "Quebec: language law, sovereignty referendums and recognition"
+   },
+   {
+    "definition": "Indigenous people, traditionally reindeer herders, of the far north of Norway, Sweden, Finland and Russia's Kola Peninsula (Sápmi), with elected Sámi parliaments in Norway (1989), Sweden (1993) and Finland (1996).",
+    "term": "The Sámi: an indigenous people within four states"
+   },
+   {
+    "definition": "30 million or more, the largest ethnic group without a state, in Kurdistan across Turkey (most), Iran, Iraq and Syria; Kurdish is Indo-European; Newroz, 21 March. Sèvres (1920) allowed a possible Kurdish state; Lausanne (1923) drew Turkey without one.",
+    "term": "Kurds: numbers, homeland and the treaties that denied them a state"
+   },
+   {
+    "definition": "Turkey long denied a Kurdish identity and banned Kurdish in public life and broadcasting until the early 1990s. The PKK, founded 1978, began an armed campaign in 1984; the conflict cost about 40,000 lives; the PKK announced its dissolution in May 2025.",
+    "term": "Kurds in Turkey: suppression and the PKK conflict"
+   },
+   {
+    "definition": "Halabja, 16 March 1988: Saddam Hussein's forces killed about 5,000 with chemical weapons; no-fly zone after 1991; autonomy in Iraq's 2005 constitution (Erbil); 2017: about 93% voted for independence, rejected by Iraq. Syria: Kurdish-led forces held Kobani against Islamic State, 2014–15.",
+    "term": "Kurds in Iraq and Syria: key events with dates"
+   },
+   {
+    "definition": "About 700,000 fled or were expelled in 1948; refugees live in Jordan, Lebanon, Syria, the West Bank and Gaza. Oslo (1993) created the Palestinian Authority. Recognised by Ireland, Spain, Norway (28 May 2024) and by the UK, Canada, Australia and France (2025).",
+    "term": "Palestinians: refugees, self-rule and recognition of a state"
+   },
+   {
+    "definition": "About 10–12 million in Europe, its largest ethnic minority, with no territory; Romani is related to languages of northern India; in south-eastern Europe by the 14th century; targeted in the Holocaust; Czech special schooling of Roma ruled discriminatory, 2007.",
+    "term": "Roma: numbers, origins and discrimination"
+   },
+   {
+    "definition": "China's army entered Tibet in 1950; after a failed 1959 uprising the Dalai Lama fled to India (exile government in Dharamsala); Tibet Autonomous Region, 1965. Tibetans see Han migration, controls on monasteries and Mandarin-medium schooling as threats to their culture.",
+    "term": "Tibetans: Chinese control and threats to their culture"
+   },
+   {
+    "definition": "A Turkic-speaking, mainly Muslim people of Xinjiang, north-west China. Since 2017 an estimated one million or more held in detention camps; a UN human rights office report (August 2022) found serious violations that may amount to crimes against humanity.",
+    "term": "Uyghurs: who they are and what has happened since 2017"
+   },
+   {
+    "definition": "They keep identity through language, festivals and diaspora groups, and use peaceful campaigns, autonomy demands or armed struggle. Outcomes range from autonomy (Iraqi Kurdistan; Basques and Catalans, far beyond the Kurds) to repression (Tibet, Xinjiang).",
+    "term": "Stateless groups: how they respond and the range of outcomes"
+   },
+   {
+    "definition": "Boundaries that cut across cultural groups; a dominant group controlling the state; suppression of a group's language and religion; economic inequality between regions or groups; competing claims to the same territory.",
+    "term": "Conflict between states and cultural groups: five general causes"
+   },
+   {
+    "definition": "A state built around a unionist majority; discrimination led to civil rights protest (1968) and the Troubles (over 3,500 killed). Good Friday Agreement, 10 April 1998 (about 71% Yes North, 94% South): power-sharing, North/South Council, consent principle.",
+    "term": "Northern Ireland: a political structure redesigned for two groups"
+   },
+   {
+    "definition": "ETA (Basque Homeland and Freedom), founded in 1959, killed over 800 people in its campaign for an independent Basque state; it declared a definitive end to violence in 2011 and dissolved in 2018. Spain's response included autonomy under the 1978 constitution.",
+    "term": "ETA and the Basque conflict: key dates and figures"
+   },
+   {
+    "definition": "2010: court struck down parts of the 2006 statute, including Catalonia as a nation; 1 October 2017: referendum ruled illegal by Spain's courts, about 90% Yes on about 43% turnout; direct rule (Article 155); Puigdemont fled to Belgium; leaders jailed 2019, pardoned 2021; amnesty 2024.",
+    "term": "Catalonia's independence crisis: events from 2010 to 2024"
+   },
+   {
+    "definition": "Sri Lanka: civil war 1983–2009 between a government led by the Sinhalese majority and the Tamil Tigers (LTTE), seeking a Tamil state in the north and east; LTTE defeated May 2009. Chechnya (Russia): wars 1994–96 and 1999–2009; Grozny largely destroyed.",
+    "term": "Sri Lanka and Chechnya: states against cultural groups"
    }
   ],
   "notes": [
@@ -12214,6 +15658,114 @@
    {
     "definition": "Government in which parties share power and decisions are reached by agreement, as in Switzerland’s Federal Council.",
     "term": "Consensus government"
+   },
+   {
+    "definition": "About 60% lies in the Alps, the Jura in the north-west, and most people live on the Swiss Plateau; the Rhine and Rhône rise in the Swiss Alps; Lake Geneva and Lake Constance form borders. Mountains isolated valleys, preserving dialects and Romansh.",
+    "term": "Switzerland: physical geography and how it shaped identity"
+   },
+   {
+    "definition": "Federal Charter, 1 August 1291 (Uri, Schwyz, Unterwalden); independence recognised in 1648 (Westphalia); neutrality recognised in 1815 (Vienna), when Geneva, Valais and Neuchâtel joined; Sonderbund War, 1847; federal constitution, 1848.",
+    "term": "Switzerland: formation of the Confederation, 1291 to 1848"
+   },
+   {
+    "definition": "26 cantons run schools, police, taxes and churches; referendums several times a year (an initiative needs 100,000 signatures); a seven-member Federal Council, language regions represented by custom; not in the EU; UN only from 2002; Schengen 2008.",
+    "term": "Switzerland's political system: cantons, direct democracy and neutrality"
+   },
+   {
+    "definition": "German about 62%, French about 23%, Italian about 8%, Romansh about 0.5%. 17 German-speaking cantons; 4 French (Geneva, Vaud, Neuchâtel, Jura); 1 Italian (Ticino); 3 bilingual (Bern, Fribourg, Valais); 1 trilingual (Graubünden).",
+    "term": "Switzerland's languages: shares and the canton pattern"
+   },
+   {
+    "definition": "Swiss German is spoken but Standard German written; Romansh a national language from 1938 (Rumantsch Grischun, 1982); the Röstigraben runs roughly along the River Sarine; SRG SSR broadcasts in all four languages; pupils learn a second national language.",
+    "term": "Switzerland: how language diversity is managed"
+   },
+   {
+    "definition": "Reformation: Zwingli (Zurich, from 1519), Calvin (Geneva). Protestant: Zurich, Bern, Basel, Geneva, Vaud; Catholic: central cantons, Fribourg, Valais, Ticino, Jura, so both language regions mix the two. Minaret ban 2009 (about 57.5%); face-covering ban 2021.",
+    "term": "Switzerland: religion, and how it cuts across language"
+   },
+   {
+    "definition": "Yodelling and the alphorn; Schwingen; national day, 1 August; Basel Fasnacht (UNESCO 2017); Zurich's Sechseläuten burns the Böögg; Fête des Vignerons, Vevey (2019); Montreux Jazz (since 1967); fondue, rösti, chocolate; Red Cross founded in Geneva, 1863.",
+    "term": "Switzerland: music, festivals and symbols of identity"
+   },
+   {
+    "definition": "Foreign nationals about 27% (2023), largely Italians, Germans, Portuguese, French and people from Kosovo; post-war Italian seasonal workers; EU free movement from 2002; Schwarzenbach Initiative rejected (1970); against mass immigration passed 9 February 2014.",
+    "term": "Switzerland: migration and immigration referendums"
+   },
+   {
+    "definition": "Canton of Jura created 1 January 1979, after French-speaking Catholic districts voted to leave Protestant Bern; Moutier voted in 2021 and moved on 1 January 2026; EEA membership rejected, 6 December 1992 (about 50.3% No); women's federal vote only in 1971.",
+    "term": "Switzerland: new boundaries and changes in who belongs"
+   },
+   {
+    "definition": "The Great Schism line (1054) and the Ottoman–Habsburg frontier crossed the region. Battle of Kosovo, 1389; Ottomans ruled Serbia, Bosnia, Macedonia, Kosovo; Austria-Hungary ruled Slovenia and Croatia, annexed Bosnia 1908; Sarajevo assassination, 28 June 1914.",
+    "term": "Balkans: historic frontiers and empires"
+   },
+   {
+    "definition": "Kingdom of Serbs, Croats and Slovenes, 1 December 1918, renamed Yugoslavia 1929; in the Second World War the Ustaše killed Serbs, Jews and Roma at Jasenovac and Chetniks also killed civilians; Tito (1945–1980): six republics, two provinces; Milošević rose from 1987; Kosovo's autonomy removed 1989.",
+    "term": "Yugoslavia from 1918 to 1989: key events"
+   },
+   {
+    "definition": "South Slavs largely share one language but differ in script (Serbs Cyrillic and Latin, Croats Latin) and faith: Catholic Slovenes, Croats; Orthodox Serbs, Montenegrins, Macedonians; Muslim Bosniaks. Non-Slav Albanians are mostly Muslim. Bosnia 1991: Muslims about 44%, Serbs 31%, Croats 17%.",
+    "term": "Balkans: ethnicity, language and religion"
+   },
+   {
+    "definition": "Slovenia and Croatia declared independence on 25 June 1991; ten-day war in Slovenia; Croatia 1991–95: Vukovar destroyed 1991; Operation Storm (August 1995): about 200,000 Serbs fled. Kosovo 1998–99: NATO bombed Serbia for 78 days; about 800,000 Albanians fled or were expelled.",
+    "term": "Wars of the 1990s: Slovenia, Croatia and Kosovo"
+   },
+   {
+    "definition": "About 100,000 killed; half the population forced out by ethnic cleansing; Sarajevo besieged April 1992 to February 1996; Mostar's Old Bridge destroyed 9 November 1993, rebuilt 2004; Srebrenica, July 1995: about 8,000 Bosniak men and boys killed (genocide).",
+    "term": "The Bosnian war, 1992–95: key facts"
+   },
+   {
+    "definition": "EXIT festival, Novi Sad (2000, begun against Milošević); Guča Trumpet Festival (1961); Sarajevo Film Festival (1995, during the siege); sevdalinka; kolo (UNESCO 2017); Mostar bridge diving; Maksimir riot, 13 May 1990; Eurovision wins 1989 and 2007.",
+    "term": "Balkans: festivals, music and sport as identity"
+   },
+   {
+    "definition": "Guest-worker agreement with West Germany, 1968, plus migration to Austria and Switzerland; 1990s wars displaced millions, leaving areas ethnically uniform; 2015 refugees crossed North Macedonia and Serbia on the Western Balkans route; young people emigrate.",
+    "term": "Balkans: the role of migration"
+   },
+   {
+    "definition": "Slovenia, Croatia, Macedonia 1991 (North Macedonia 2019); Bosnia 1992; Montenegro 2006; Kosovo 17 February 2008, not recognised by Serbia or five EU states. Dayton (1995): Federation and Republika Srpska, plus Brčko. EU: Slovenia 2004, Croatia 2013.",
+    "term": "Balkans: new states and boundaries since 1991"
+   },
+   {
+    "definition": "Goidelic: Ireland, Scotland, the Isle of Man (Irish, Scottish Gaelic, Manx). Brythonic: Wales, Cornwall, Brittany. Britons migrated to Armorica (Brittany) in the 5th–6th centuries as Anglo-Saxons settled eastern Britain; remoteness helped the Celtic languages survive.",
+    "term": "Celtic regions: the six regions and their language branches"
+   },
+   {
+    "definition": "Offa's Dyke (8th century); Edward I's conquest, 1282–83, and castles such as Caernarfon and Conwy; Laws in Wales Acts 1535 and 1542; devolution referendum, 18 September 1997 (about 50.3% Yes); Assembly 1999; Senedd 2020, with 96 members from 2026.",
+    "term": "Wales: history, boundary and devolution with dates"
+   },
+   {
+    "definition": "The 1851 religious census showed most worshippers in Wales attended Nonconformist chapels rather than the Anglican church. Chapels were centres of Welsh-language education, singing and community life. The Church in Wales was disestablished in 1920.",
+    "term": "Wales: religion and the Nonconformist chapels"
+   },
+   {
+    "definition": "National Eisteddfod, in Welsh, alternating north and south; the Urdd Eisteddfod; male voice choirs; Welsh Rugby Union 1881, Principality Stadium (1999); St David's Day, 1 March; anthem Hen Wlad Fy Nhadau (1856); red dragon, daffodil, leek; cawl, Welsh cakes.",
+    "term": "Wales: music, festivals, sport and national symbols"
+   },
+   {
+    "definition": "19th-century coal and iron drew English and Irish workers into south Wales, spreading English; the Mimosa took settlers to Patagonia in 1865; second-home buyers now enter Welsh-speaking areas: arson campaign from 1979; 300% council-tax premium from April 2023.",
+    "term": "Wales: migration in and out, and its effect on identity"
+   },
+   {
+    "definition": "United with France in 1532 and centralised after 1789; Loire-Atlantique (Nantes) separated in 1941; Catholic pardons; bagadoù, biniou and bombarde, fest-noz, Alan Stivell; Lorient festival since 1971; Bigouden coiffe; crêpes and cider; Gwenn-ha-Du flag (1923).",
+    "term": "Brittany: boundaries, religion and culture"
+   },
+   {
+    "definition": "Independence 1830; French long dominant in government; language border fixed by laws of 1962 and 1963 across flat, open land; first state reform 1970; federal state 1993, with three regions (Flanders, Wallonia, Brussels-Capital) and three language communities.",
+    "term": "Belgium: history, language border and federal structure"
+   },
+   {
+    "definition": "About 11.8 million (2024): Flanders 6.8 million, Wallonia 3.7 million, Brussels 1.2 million; Dutch speakers about 6 in 10; German speakers under 80,000; Leuven university split in 1968; no nationwide parties; 541 days without a government, 2010–11.",
+    "term": "Belgium: population and language divisions"
+   },
+   {
+    "definition": "Catholic in both Flanders and Wallonia, so religion did not deepen the divide; Islam grew through Moroccan and Turkish migration. Ghent Altarpiece (van Eyck, 1432); Bruegel, Rubens; Tintin (1929); Carnival of Binche; Tomorrowland; 11 July Golden Spurs holiday.",
+    "term": "Belgium: religion, art and festivals"
+   },
+   {
+    "definition": "Italian miners from 1946 (Marcinelle disaster, 8 August 1956: 262 died, 136 Italian); Moroccan and Turkish agreements, 1964; Brussels hosts the EU and NATO; Islamic State bombings of 22 March 2016 killed 32. Wallonia's coal and steel declined; Flanders grew via Antwerp.",
+    "term": "Belgium: migration and economic reversal"
    }
   ],
   "notes": [
@@ -12832,6 +16384,66 @@
    {
     "definition": "Damage to wet ground, and the destruction of soil structure, by trampling livestock.",
     "term": "Poaching"
+   },
+   {
+    "definition": "By volume, about 45% mineral matter, 5% organic matter, 25% water and 25% air; typical of a well-structured loam, not fixed for every soil. Water and air share the pore spaces, so when one rises the other falls.",
+    "term": "Soil composition: the four components of a typical good loam"
+   },
+   {
+    "definition": "Residual: thin soils on the limestone of the Burren; soils on the granite of the Wicklow Mountains, which are acidic and sandy. Transported: boulder clay (till) of the Irish Midlands; alluvium of the Shannon Callows; loess (limon) on the Beauce in the Paris Basin.",
+    "term": "Parent material: name residual and transported examples"
+   },
+   {
+    "definition": "Most formed on glacial deposits of the Midlandian glaciation, which ended about 10,000 years ago, so they have developed for about 10,000 years or less and often differ from the solid rock beneath them.",
+    "term": "Why Irish soils are young"
+   },
+   {
+    "definition": "Limestone gives base-rich, less acidic soils; granite gives sandy, acidic soils with quartz grains and clay from weathered feldspar; sandstone gives sandy, acidic, free-draining soils. As it weathers, mineral matter releases calcium, magnesium and potassium.",
+    "term": "Mineral matter: how the parent rock affects the soil"
+   },
+   {
+    "definition": "It darkens the soil; binds particles into crumbs; holds water; holds nutrients and releases them slowly; and is the main store of nitrogen in the soil.",
+    "term": "Humus: five ways it improves a soil"
+   },
+   {
+    "definition": "Earthworms mix and aerate the soil, drag litter down and improve structure with their casts, as Charles Darwin's last book (1881) showed. Nitrogen-fixing bacteria in the root nodules of legumes, such as clover, add nitrogen.",
+    "term": "Soil organisms: what earthworms and nitrogen-fixing bacteria contribute"
+   },
+   {
+    "definition": "Where precipitation exceeds evapotranspiration, water moves down and leaches the soil, as in Ireland; where evaporation exceeds precipitation, capillary rise leaves salts and lime near the surface (deserts, grasslands); too much water causes waterlogging.",
+    "term": "Water movement: how the balance of rain and evaporation shapes a soil"
+   },
+   {
+    "definition": "Oxygen for roots and aerobic decomposers; nitrogen for nitrogen-fixing bacteria; extra carbon dioxide, forming weak carbonic acid that aids weathering. In anaerobic soils decomposition is slow, so peat builds up, and reduced iron turns the soil grey.",
+    "term": "Soil air: what it supplies and what happens when it is lacking"
+   },
+   {
+    "definition": "Sand 2–0.05 mm (gritty); silt 0.05–0.002 mm (smooth, silky); clay under 0.002 mm (sticky, rolls into a ribbon when moist); over 2 mm is gravel. A loam is roughly 40% sand, 40% silt and 20% clay.",
+    "term": "Soil texture: particle sizes and the feel test"
+   },
+   {
+    "definition": "Sandy: free-draining, aerated, warm quickly and easy to plough, but hold little water or nutrients and leach easily. Clay: hold water and nutrients, but drain slowly (tiny pores), become waterlogged and cold, crack when dry and are hard to work.",
+    "term": "Sandy and clay soils: advantages and disadvantages"
+   },
+   {
+    "definition": "Humus, clay, earthworms, roots and freeze-thaw build peds; compaction by heavy machinery and poaching by livestock on wet ground destroy them. Structure controls the pores, so it decides drainage, aeration and root penetration.",
+    "term": "Soil structure: what builds peds, what destroys them and why it matters"
+   },
+   {
+    "definition": "Black or dark brown: humus (chernozem, peat). Brown: humus and iron (brown earth). Red or yellow: iron oxides, well aerated (latosol, terra rossa). Ash-grey: leached (podzol). Grey with rusty mottles: waterlogged (gley). White: lime or salt (desert soils).",
+    "term": "Soil colour: what each colour tells you, with soil types"
+   },
+   {
+    "definition": "High in chernozems and peat; moderate in brown earths; low in desert soils (little vegetation) and, surprisingly, in tropical latosols, where litter decays so fast that little humus builds up.",
+    "term": "Organic content: which soils have high and low humus, and why"
+   },
+   {
+    "definition": "Acidic where heavy rain leaches out bases or acid litter (conifer needles, heather) builds up; alkaline on limestone and chalk and in dry climates. Teagasc advises about pH 6.3 for grassland and 6.5 for tillage; spreading lime raises pH.",
+    "term": "Soil pH: causes of acidity and alkalinity, and Teagasc's targets"
+   },
+   {
+    "definition": "Texture and structure control drainage, deciding whether leaching, gleying or capillary rise dominates; pH decides which organisms live there, so mull or mor humus; organic content drives structure and fertility; aeration decides aerobic or anaerobic decay.",
+    "term": "How soil characteristics influence soil development: four links"
    }
   ],
   "notes": [
@@ -12849,7 +16461,7 @@
    {
     "h": "Residual and transported parent material in Ireland and Europe",
     "points": [
-     "Residual examples: the limestone of the Irish Midlands and the Burren, and the granite of the Wicklow Mountains, which gives acidic, sandy soils.",
+     "Residual examples: the limestone of the Burren and the granite of the Wicklow Mountains, which gives acidic, sandy soils. Most Midland soils formed on boulder clay over the limestone, so they are transported.",
      "Transported examples: the boulder clay (till) plains of the Irish Midlands, and alluvium on the floodplain of the Shannon Callows, meadows beside the River Shannon that flood in winter.",
      "Loess, called limon in France, covers plateaux of the Paris Basin, such as the Beauce (see A Core European Region: the Paris Basin)."
     ]
@@ -13135,6 +16747,106 @@
    {
     "definition": "A darker patch in a soil where a burrow made by an animal has been filled in.",
     "term": "Krotovina"
+   },
+   {
+    "definition": "Temperature controls the speed of weathering and decomposition; the balance of precipitation and evapotranspiration decides whether water moves down (leaching) or up (capillary rise). This is why soil belts follow climate belts.",
+    "term": "Climate as a soil-forming factor: the two ways it works"
+   },
+   {
+    "definition": "Water: rain-splash, sheet wash, rills and gullies; wind: deflation of dry, loose, bare soil. It thins the profile, strips the humus-rich A horizon and its nutrients, exposes infertile subsoil and worsens structure; the soil is redeposited as alluvium or loess.",
+    "term": "Soil erosion: forms by water and wind, and effects on the soil"
+   },
+   {
+    "definition": "Where precipitation exceeds evapotranspiration, as in Ireland, water carries bases (calcium, magnesium, potassium, sodium) down, so the upper soil becomes more acidic and less fertile. Mild leaching gives brown earths; intense leaching gives podzols.",
+    "term": "Leaching: conditions and effects on the soil"
+   },
+   {
+    "definition": "Fast in warm, moist, well-aerated, base-rich conditions, producing mull; slow in cold, acid or waterlogged conditions, where partly decomposed matter builds up as mor or peat. It releases nutrients for plants as part of the nutrient cycle.",
+    "term": "Humification: conditions that make it fast or slow"
+   },
+   {
+    "definition": "A cool, wet climate where precipitation is well above evapotranspiration; acid parent material such as granite or sandstone; coniferous forest or heath vegetation giving acid mor humus.",
+    "term": "Podzolisation: the three conditions it needs"
+   },
+   {
+    "definition": "Acid litter releases organic acids into percolating water; they bind iron and aluminium (chelation) and carry them down with bases and humus, leaving a bleached, sandy A/E horizon; iron, aluminium and humus build up in the B horizon, often forming an iron pan.",
+    "term": "Podzolisation: the steps in order"
+   },
+   {
+    "definition": "Heat and heavy rain cause deep chemical weathering; silica and bases are leached out; insoluble iron and aluminium oxides are left, giving a deep red or yellow colour; litter decays so fast that little humus forms; if exposed and dried, a laterite crust forms.",
+    "term": "Laterisation: the steps in order"
+   },
+   {
+    "definition": "Extreme laterisation of aluminium-rich rock forms bauxite, the ore of aluminium. It is mined from laterised rock in tropical countries such as Guinea, Jamaica and Australia (north Queensland).",
+    "term": "Bauxite: how it forms and where it is mined"
+   },
+   {
+    "definition": "Rain penetrates only part of the way, so leaching is weak; calcium carbonate is carried a short way down and deposited in the B horizon as nodules; in dry periods capillary action draws water and calcium back up; deep grass roots return calcium in litter.",
+    "term": "Calcification: the steps in order"
+   },
+   {
+    "definition": "In heavy clay, impermeable till, hollows or above an iron pan, water fills the pores and air is excluded; bacteria reduce red ferric iron to grey ferrous iron; where air enters along roots or cracks, iron re-oxidises as orange mottles.",
+    "term": "Gleying: where it happens and the steps"
+   },
+   {
+    "definition": "Zonal, set by climate and vegetation: brown earth, podzol, chernozem, latosol. Intrazonal, set by one local factor: gley and peat (drainage), rendzina (limestone). Azonal, immature: alluvium, scree, sand dunes, fresh volcanic ash, recent glacial deposits.",
+    "term": "Zonal, intrazonal and azonal soils: examples of each"
+   },
+   {
+    "definition": "Podzols: boreal forest of northern Canada, Scandinavia, Finland, Siberia. Brown earths: Ireland, Britain, France, Germany, the eastern USA. Chernozems: steppes of Ukraine and southern Russia, the Prairies, the Pampas. Latosols: Amazon, Congo, South-East Asia.",
+    "term": "World soil belts: name the regions for four zonal soils"
+   },
+   {
+    "definition": "Brown earths and grey-brown podzolics on the lowlands; podzols and peaty podzols on the uplands; gleys on poorly drained clay till, especially the drumlin belt; thin rendzinas on the limestone of the Burren; peat in bogs.",
+    "term": "Ireland's soil pattern: where each soil type is found"
+   },
+   {
+    "definition": "Peatland covers about a fifth of Ireland's land area. Blanket bog lies in the west (e.g. Co. Mayo, Connemara) and on mountains; raised bog lies in the Midlands (e.g. Co. Offaly). Peat is an intrazonal soil.",
+    "term": "Irish peatland: extent and the two types of bog"
+   },
+   {
+    "definition": "Ireland's main lowland soil, e.g. the Golden Vale (Co. Tipperary, Co. Limerick) and the south-east. Formed on glacial till under a mild, wet climate and deciduous woodland of oak, ash, elm and hazel, by mild leaching and earthworm mixing of mull humus.",
+    "term": "Brown earth: location and formation"
+   },
+   {
+    "definition": "O: thin mull. A: dark brown, loamy crumb, roughly 20–30 cm. B: lighter brown, some iron and clay washed in, gradual boundary and no bleached E horizon. Slightly acidic (roughly pH 5.5–6.5) and fertile: grassland and tillage; limed if pH falls.",
+    "term": "Brown earth: profile, characteristics and uses"
+   },
+   {
+    "definition": "A slightly more leached relative of the brown earth, with clay washed into the B horizon; typical of the limestone-rich till of the east Midlands, e.g. Co. Meath and Co. Kildare.",
+    "term": "Grey-brown podzolic: how it differs from a brown earth and where it is found"
+   },
+   {
+    "definition": "Uplands such as the granite Wicklow Mountains, under heather moorland or Sitka spruce; often peaty podzols. Strongly acid, about pH 4 to 4.5. Used for sheep grazing and forestry; improved by deep ploughing to break the iron pan, heavy liming and fertiliser.",
+    "term": "Podzol in Ireland: location, acidity, uses and improvement"
+   },
+   {
+    "definition": "O: thick mor or peat; A/E: ash-grey, bleached sand; a thin, black iron pan; B: reddish-brown, enriched with iron and humus; C: parent material. Horizons are sharply defined.",
+    "term": "Podzol: the profile horizon by horizon"
+   },
+   {
+    "definition": "Drumlin belt of Co. Cavan, Monaghan and Leitrim (impermeable boulder clay, wet hollows), the north Midlands and Co. Clare. Grey with orange mottles, wet, sticky and cold; grass for cattle, with a short grazing season; improved by field and arterial drainage.",
+    "term": "Gley in Ireland: location, characteristics, use and improvement"
+   },
+   {
+    "definition": "Amazon Basin, Congo Basin and South-East Asia; about 27 °C all year, over 2,000 mm of rain. Many metres deep: thin O, thin leached A, very deep red B of sesquioxides. Red or yellow, clay-rich, acidic, with very little humus.",
+    "term": "Latosol: location, climate, profile and characteristics"
+   },
+   {
+    "definition": "Nearly all nutrients are held in the living vegetation and recycled fast from the thin litter layer. Shifting cultivation used it for only a few years; once cleared, it loses fertility within a few years, erodes under heavy rain and can bake into laterite.",
+    "term": "Latosol: why it is infertile and what happens when the forest is cleared"
+   },
+   {
+    "definition": "Steppes of Ukraine and southern Russia, the Prairies (Great Plains of the USA and Canada) and the Pampas of Argentina. Continental: hot summers, very cold winters, about 250–500 mm of rain. Dense grass roots die back each year, adding much organic matter.",
+    "term": "Chernozem: location, climate and vegetation"
+   },
+   {
+    "definition": "A: very thick, black, humus-rich, about 1 m deep, crumb structure. B: calcium-rich with white lime nodules. C: loess. Susliks (steppe) and prairie dogs mix the soil; their filled burrows show as krotovinas.",
+    "term": "Chernozem: the profile and the role of burrowing animals"
+   },
+   {
+    "definition": "Neutral to slightly alkaline and very fertile: among the world's main wheat and maize lands, with sunflowers in Ukraine, the breadbasket of Europe. Ploughing the prairie for wheat, then 1930s drought, caused the Dust Bowl.",
+    "term": "Chernozem: characteristics and uses"
    }
   ],
   "notes": [
@@ -13518,6 +17230,106 @@
    {
     "definition": "A steep bank of soil being eaten away from its edges by erosion.",
     "term": "Erosion escarpment"
+   },
+   {
+    "definition": "Soil forms very slowly but can be lost quickly: the FAO has stated that it can take up to 1,000 years to form 1 cm of soil (quoted for the International Year of Soils, 2015).",
+    "term": "Why soil is a non-renewable resource: the FAO figure"
+   },
+   {
+    "definition": "Nutrients are removed faster than they are replaced; humus falls; crumb structure breaks down; the soil becomes dusty or compacted, holds less water and erodes easily, so yields fall. Monoculture takes the same nutrients each year and encourages pests.",
+    "term": "Overcropping: effects on soil characteristics"
+   },
+   {
+    "definition": "Vegetation is eaten down and roots die, exposing soil to rain-splash and wind; trampling compacts it (poaching), cutting infiltration and raising runoff; sheet, rill and gully erosion remove topsoil and humus; bare peat erodes fast.",
+    "term": "Overgrazing: effects on soil characteristics"
+   },
+   {
+    "definition": "From the 1980s EU headage payments paid per animal, so sheep numbers rose sharply in Connemara and the mountains of Co. Mayo, Donegal and Kerry. Heather and grass were stripped, blanket peat eroded, and silt harmed salmon and trout spawning grounds.",
+    "term": "West of Ireland hill commonage: why overgrazing happened and its effects"
+   },
+   {
+    "definition": "Payments changed from per-head to per-area; Commonage Framework Plans (from the early 2000s) set lower stocking rates; REPS (the Rural Environment Protection Scheme, 1994) paid farmers to farm in environmentally friendly ways.",
+    "term": "Hill commonage overgrazing: three responses"
+   },
+   {
+    "definition": "Physical: drought, unreliable rainfall, high temperatures and evaporation. Human: population growth, overgrazing, overcropping, fuelwood cutting, poorly managed irrigation. Usually together: human pressure leaves soil bare, then drought and storms remove it.",
+    "term": "Desertification: physical and human causes"
+   },
+   {
+    "definition": "Loss of topsoil and humus; lower fertility; surface crusting, so rain runs off instead of soaking in; reduced water retention; wind-blown sand and dust; salt crusts where irrigation is poorly managed; in extreme cases bare, sterile ground.",
+    "term": "Desertification: effects on soil characteristics"
+   },
+   {
+    "definition": "The semi-arid belt along the southern edge of the Sahara, from Senegal and Mauritania through Mali, Burkina Faso, Niger and Chad to Sudan. Roughly 200–600 mm of rain in one short summer wet season when the ITCZ moves north; highly unreliable from year to year.",
+    "term": "Sahel: location and climate"
+   },
+   {
+    "definition": "Population growth meant more livestock around wells and boreholes, shorter fallow and more fuelwood cutting; cash crops (groundnuts in Senegal, cotton) pushed food crops and herders onto marginal land; nomads settled. In the droughts of the 1970s and 1980s, wind and rain eroded the bare soil.",
+    "term": "Sahel: human causes of desertification"
+   },
+   {
+    "definition": "On the Sahel's border of Chad, Niger, Nigeria and Cameroon, it has shrunk dramatically since the 1960s (by about 90%, a widely quoted UN figure) through drought and water use for irrigation.",
+    "term": "Lake Chad: what has happened and why"
+   },
+   {
+    "definition": "UNCCD adopted 1994 (17 June is World Day to Combat Desertification). Great Green Wall: launched by the African Union in 2007, about 8,000 km from Senegal to Djibouti, aiming to restore 100 million hectares by 2030; progress is slow and well short of target.",
+    "term": "International responses to desertification: UNCCD and the Great Green Wall"
+   },
+   {
+    "definition": "In the Yatenga region of northern Burkina Faso, farmers such as Yacouba Sawadogo revived zaï: pits in crusted soil, filled with manure, that catch rain and concentrate nutrients. Stone lines along the contours slow runoff and trap soil.",
+    "term": "Zaï pits and stone lines: where they were revived and how they work"
+   },
+   {
+    "definition": "Farmers protect and prune shoots regrowing from old stumps and roots; about 5 million hectares regreened since the 1980s, especially in Maradi and Zinder. Trees shade the soil, cut wind and add litter; Faidherbia albida adds nitrogen.",
+    "term": "Farmer-managed natural regeneration in Niger: method and results"
+   },
+   {
+    "definition": "Deforestation exposes soil and stops litter; machinery and livestock on wet ground compact it; excess fertiliser and slurry wash nitrates and phosphates into water (eutrophication); bad irrigation salinises and waterlogs it (Punjab, Haryana); roads seal it.",
+    "term": "Other negative human impacts on soil: five to name"
+   },
+   {
+    "definition": "Steep slopes are cut into level steps that hold soil and water instead of letting them run downhill; the rice terraces of Banaue, Luzon, Philippines, are over 2,000 years old.",
+    "term": "Terracing: how it conserves soil and a named example"
+   },
+   {
+    "definition": "Crop rotation, fallow, cover crops and green manure such as clover restore nutrients and humus; manure and compost build humus; zero tillage and mulching leave residue on the surface; controlled stocking, rotational grazing and afforestation let cover recover.",
+    "term": "Soil conservation on farmland: methods that restore fertility and protect soil cover"
+   },
+   {
+    "definition": "Liming raises the pH of acid soils; field and arterial drainage improve gleys (Arterial Drainage Act, 1945); deep ploughing breaks a podzol's iron pan; on the Aran Islands soil was made by layering sand and seaweed on bare limestone inside stone walls.",
+    "term": "Improving Irish soils: four methods with examples"
+   },
+   {
+    "definition": "REPS from 1994; GLAS (Green, Low-Carbon, Agri-Environment Scheme) from 2015; ACRES (Agri-Climate Rural Environment Scheme) from 2023. The EU Nitrates Directive (1991) limits organic nitrogen per hectare and bans slurry spreading in a closed winter period.",
+    "term": "Irish agri-environment schemes and EU rules: names and dates"
+   },
+   {
+    "definition": "North-west Co. Clare, on Carboniferous limestone with extensive pavement of clints and grikes; thin, dark, lime-rich rendzinas mainly in grikes and hollows; Arctic-alpine and Mediterranean plants such as spring gentian and mountain avens grow side by side.",
+    "term": "The Burren: setting, soils and plants"
+   },
+   {
+    "definition": "Poulnabrone portal tomb, over 5,000 years old, shows early farming. It is thought the Burren once had thicker soil and woodland; clearance and grazing, then erosion of soil into the grikes and underground, helped expose the bare pavement.",
+    "term": "The Burren: how early farming is thought to have exposed the pavement"
+   },
+   {
+    "definition": "Winterage keeps grass and scrub down, as the rock stores heat and the ground is dry. From the late 20th century fewer farmers grazed the uplands in winter (farm changes, supplementary feeding, labour shortage), so hazel and blackthorn scrub spread.",
+    "term": "The Burren: why undergrazing is now the main threat"
+   },
+   {
+    "definition": "BurrenLIFE (2005–2010), an EU project led by Dr Brendan Dunford with local farmers and Teagasc, tested scrub removal and grazing plans. The Burren Programme (from 2016) scores each field for habitat quality, e.g. 1 to 10, and pays more for higher scores.",
+    "term": "BurrenLIFE and the Burren Programme: how results-based payments work"
+   },
+   {
+    "definition": "Settled by Norse people from about AD 874, when birch woodland covered about a quarter or more of the island; today about 1–2%. Settlers cut birch for fuel, charcoal and grazing, and year-round sheep grazing prevented regrowth.",
+    "term": "Iceland: how settlement started soil erosion"
+   },
+   {
+    "definition": "They are andosols from volcanic ash: light, loose and low in clay, so once vegetation is broken wind and rain strip them, leaving erosion escarpments (rofabörð). Eruptions smother vegetation with ash, and the cold climate means slow recovery.",
+    "term": "Iceland's soils: why they erode so easily"
+   },
+   {
+    "definition": "Founded 1907 (Landgræðslan), one of the oldest services. Fencing out sheep; lyme grass on drifting sand; aerial sowing of grass with fertiliser; replanting birch; Farmers Heal the Land from 1990; Nootka lupin fixes nitrogen but is invasive.",
+    "term": "Iceland's soil conservation: the service and its methods"
    }
   ],
   "notes": [
@@ -13888,6 +17700,114 @@
    {
     "definition": "A relationship in which two species each gain from the other.",
     "term": "Mutualism"
+   },
+   {
+    "definition": "Under 250 mm of rain a year, about 15–30° N and S, mainly on west sides and in continental interiors. The Sahara (about 9 million km²) is the largest; others are the Arabian, Thar, Namib, Atacama, Sonoran, Mojave, Great Victoria and Simpson Deserts.",
+    "term": "Hot desert biome: location and named deserts"
+   },
+   {
+    "definition": "Subtropical high pressure, where sinking air warms so clouds cannot form; offshore trade winds from the dry interior; cold ocean currents that make the air stable, giving fog not rain; rain shadow behind mountains; continentality, far from the sea.",
+    "term": "Hot desert: five causes of aridity"
+   },
+   {
+    "definition": "Canary Current: western Sahara. Benguela Current: Namib. Humboldt Current: Atacama. California Current: Baja California and the Sonoran coast. The Andes shelter the Atacama; the Sierra Nevada shelters the Mojave, including Death Valley.",
+    "term": "Hot deserts: match each to its cold current or rain shadow"
+   },
+   {
+    "definition": "Summer days often exceed 40 °C; clear, dry air gives a diurnal range of 20–30 °C or more, with winter nights near freezing. Record: 56.7 °C at Furnace Creek, Death Valley, 10 July 1913 (WMO); the 58 °C El Azizia reading was rejected in 2012.",
+    "term": "Hot desert temperature: characteristics and the world record"
+   },
+   {
+    "definition": "Rain is scarce and unreliable, often in short, intense convectional downpours causing flash floods; evaporation far exceeds rainfall. The Atacama is the driest non-polar desert; the Namib gets much of its moisture as fog from the cold Benguela Current.",
+    "term": "Hot desert rainfall: characteristics and two extreme deserts"
+   },
+   {
+    "definition": "Thin and immature (slow, mainly physical weathering); coarse, with little humus, so pale grey, yellow or red; little leaching, so capillary rise leaves salt crusts and calcrete; alkaline. Fertile when irrigated, as in the Nile valley and the Imperial Valley.",
+    "term": "Aridisols: characteristics and when they become fertile"
+   },
+   {
+    "definition": "Only in the Sonoran Desert (Arizona and Sonora, Mexico). Its pleated stem expands to store water after rain; spines replace leaves; shallow roots spread widely just below the surface; it can grow over 12 m tall and live over 150 years.",
+    "term": "Saguaro cactus: where it grows, three adaptations and its size and age"
+   },
+   {
+    "definition": "Spines in place of leaves, which also deter animals; a thick, waxy cuticle; few, sunken stomata that in many succulents open only at night (CAM photosynthesis); small or light-coloured leaves, or leaves shed in drought.",
+    "term": "Desert plants: four ways leaves and stems cut water loss"
+   },
+   {
+    "definition": "Mesquite tap roots reach tens of metres to groundwater; acacias have deep roots, small leaves and thorns; ephemerals bloom within weeks of rain, as in the Atacama's flowering desert in wet El Niño years and Death Valley's superbloom of 2016.",
+    "term": "Desert plants: root and life-cycle strategies, with named plants"
+   },
+   {
+    "definition": "Welwitschia mirabilis (Namib): only two leaves, which grow throughout its life; absorbs fog moisture; some are thought to be over 1,000 years old. Creosote bush (Mojave, Sonoran): evenly spaced plants whose roots and chemicals limit competitors.",
+    "term": "Welwitschia and creosote bush: what makes each special"
+   },
+   {
+    "definition": "Its hump stores fat, not water; it can go days without drinking, then drink over 100 litres in minutes; its body temperature rises by day to save sweat; long eyelashes and closable nostrils keep out sand; broad, padded feet spread its weight.",
+    "term": "Dromedary camel: five adaptations to the desert"
+   },
+   {
+    "definition": "Fennec fox (Sahara): the smallest fox; very large ears radiate heat; nocturnal; burrows; furry soles for hot sand. Kangaroo rat (North America): gets water from seeds and its metabolism, has very concentrated urine, and seals its burrow by day.",
+    "term": "Fennec fox and kangaroo rat: how each survives the desert"
+   },
+   {
+    "definition": "The Namib fog-basking beetle stands head-down on dunes at dawn so fog runs to its mouth; the thorny devil lizard's skin grooves channel water to its mouth; the spadefoot toad estivates underground and its tadpoles develop before pools dry up.",
+    "term": "Desert animals: three ways to get or save water"
+   },
+   {
+    "definition": "Lesser long-nosed bats pollinate saguaro and agave flowers at night; Gila woodpeckers dig nest holes in saguaros that elf owls later use; food chains are short, and seed-eating rodents are prey for snakes, owls and foxes.",
+    "term": "Hot desert: biotic inter-relationships with named species"
+   },
+   {
+    "definition": "In Almería province, Andalusia, south-east Spain: semi-arid badlands in the rain shadow of surrounding mountains, often called Europe's only desert; a film set for spaghetti westerns in the 1960s and 1970s.",
+    "term": "Tabernas Desert: Europe's example of a desert"
+   },
+   {
+    "definition": "Mainly within about 10° of the equator. The Amazon Basin is largest (about 5.5 million km², roughly 60% in Brazil); then the Congo Basin; then South-East Asia (Indonesia, Malaysia, Papua New Guinea); smaller areas include the Daintree, Queensland.",
+    "term": "Tropical rainforest biome: location and main regions"
+   },
+   {
+    "definition": "Rainforests cover only about 6% of the earth's land but are widely estimated to hold over half of its land plant and animal species. Hundreds of tree species can grow in one hectare of Amazon forest, against a handful in an Irish wood.",
+    "term": "Rainforest biodiversity: key figures"
+   },
+   {
+    "definition": "Monthly means about 26–28 °C, an annual range of only about 2–3 °C, because the sun is always high (overhead at the equinoxes in March and September) and day length barely changes. The daily range exceeds the annual range; there is no summer or winter season.",
+    "term": "Rainforest temperature: figures and why it barely changes"
+   },
+   {
+    "definition": "Over 2,000 mm a year (Manaus about 2,300 mm). Morning heating makes moist air rise; it cools and cumulonimbus build; heavy afternoon thunderstorms follow almost daily, driven by the ITCZ. Humidity is often over 80% and much rain is recycled from the forest.",
+    "term": "Rainforest rainfall: amount and the daily convection cycle"
+   },
+   {
+    "definition": "Latosols are acidic with little humus, but litter decomposes within weeks, and shallow roots and mycorrhizal fungi take up nutrients almost at once. Most nutrients are held in the living vegetation, so the cycle is rapid and closed.",
+    "term": "Rainforest nutrient cycle: how lush forest grows on infertile soil"
+   },
+   {
+    "definition": "Emergents about 45–60 m or more (kapok, Brazil nut, dipterocarps); dense canopy about 25–40 m, holding most animal life; understorey up to about 15 m; shrub layer; dark forest floor getting about 2% of the sunlight that reaches the canopy.",
+    "term": "Rainforest layers: heights and features of each"
+   },
+   {
+    "definition": "Buttress roots support tall, shallow-rooted trees such as kapok and Brazil nut; shallow roots catch nutrients from litter; drip tips and waxy leaves shed heavy rain; large understorey leaves catch dim light; thin, smooth bark, as no insulation is needed.",
+    "term": "Rainforest trees: five adaptations to the climate and soil"
+   },
+   {
+    "definition": "Lianas climb trees to the light; epiphytes such as orchids and bromeliads grow on branches; strangler figs enclose their host; pitcher plants (Nepenthes) digest insects; Rafflesia arnoldii, a parasite, has the largest flower, about 1 m across.",
+    "term": "Rainforest climbers, epiphytes and plants of poor soils: named examples"
+   },
+   {
+    "definition": "Spider and howler monkeys: prehensile tails as a fifth limb. Three-toed sloth: slow metabolism suits a leaf diet; algae in its fur camouflage it. Toucan: large, light bill reaches fruit. Orangutan (Borneo, Sumatra only): largest tree-living mammal, long arms.",
+    "term": "Rainforest canopy animals: adaptations of five named species"
+   },
+   {
+    "definition": "Poison dart frogs' bright colours warn of toxic skin; the jaguar, the largest cat in the Americas, has a spotted, camouflaged coat and swims strongly; the okapi of the Congo has striped legs for camouflage; the harpy eagle hunts monkeys and sloths.",
+    "term": "Rainforest animals: camouflage, warning colours and predators"
+   },
+   {
+    "definition": "Azteca ants live in Cecropia trees, which give shelter and food, and attack herbivores and climbers; leafcutter ants grow the fungus they eat; the Brazil nut needs orchid bees to pollinate it and agoutis to bury its nuts, so it yields poorly in plantations.",
+    "term": "Rainforest mutualism: three named examples"
+   },
+   {
+    "definition": "The Yanomami (Brazil–Venezuela border), Kayapó (Brazilian Amazon) and Mbuti (Ituri forest, Democratic Republic of the Congo). Hunting, gathering and shifting cultivation at low density let the forest and soil recover.",
+    "term": "Rainforest peoples: three named groups and how they used the forest"
    }
   ],
   "notes": [
@@ -14234,6 +18154,118 @@
    {
     "definition": "A protected area where local people harvest forest products such as rubber and nuts sustainably.",
     "term": "Extractive reserve"
+   },
+   {
+    "definition": "By about 6,000 years ago forest covered almost all of Ireland. Farming arrived then (about 4000 BC), clearing forest with stone axes and fire for crops and grazing. The elm decline in pollen dates from this time (farmers and elm disease both played a part).",
+    "term": "Neolithic farmers: how they began altering Ireland's forest"
+   },
+   {
+    "definition": "North Co. Mayo: stone-walled Neolithic fields about 5,500 years old, among the oldest known field systems, later buried as clearance, a wetter climate and leaching turned forest soil to blanket bog. Patrick Caulfield found the walls cutting turf in the 1930s.",
+    "term": "Céide Fields: what they show and how they were found"
+   },
+   {
+    "definition": "In the 16th and 17th centuries (Tudor conquest and plantations), woods were felled for timber exports, shipbuilding, barrel staves and charcoal for ironworks, and to remove cover for Irish resistance. About 1% of Ireland was forested by 1900; now about 11%.",
+    "term": "Ireland's great forest clearance: when, why and the result"
+   },
+   {
+    "definition": "Native deciduous forest was replaced by farmland, hedgerows, bog and grassland; woodland species declined, and the wolf was hunted to extinction (the last in the late 1700s); soils under heath were leached and podzolised, and blanket bog spread on the uplands.",
+    "term": "Forest clearance in Ireland: three results for the biome"
+   },
+   {
+    "definition": "State afforestation mostly uses Sitka spruce, native to western North America, giving species-poor plantations that acidify soils and water. Native remnants include the oakwoods of Killarney National Park and the Reenadinna yew wood on the Muckross peninsula.",
+    "term": "Irish forests today: conifer plantations and native remnants"
+   },
+   {
+    "definition": "Since ancient times, felling for shipbuilding, fuel and farming, plus goat grazing, degraded evergreen oak and pine forest to maquis and garrigue, with soil erosion. The cedars of Lebanon survive only in small groves such as the Cedars of God (UNESCO).",
+    "term": "Mediterranean forest clearance: causes and results"
+   },
+   {
+    "definition": "Measured by satellite (PRODES): a peak of about 27,800 km² in 2004; a fall to about 4,600 km² in 2012; a rise to about 13,000 km² in 2021; a fall again from 2023 under renewed enforcement. Close to a fifth of the original forest has been cleared.",
+    "term": "Amazon deforestation: INPE's figures and their trend"
+   },
+   {
+    "definition": "Cattle ranching is the largest single cause, accounting for most cleared land; soya spread north from Mato Grosso, much of it exported as animal feed to Europe and China; selective logging of hardwoods opens roads and canopy gaps that lead to more clearance.",
+    "term": "Amazon clearance: cattle, soya and logging"
+   },
+   {
+    "definition": "The Trans-Amazonian Highway (BR-230), begun in the early 1970s by the military government, brought settlers from the drought-prone north-east. BR-364 into Rondônia, paved in the 1980s with World Bank support, left a fishbone pattern of clearings.",
+    "term": "Amazon roads: two named roads and their effects"
+   },
+   {
+    "definition": "Carajás, Pará: a huge iron-ore mine (Vale, 1980s) whose pig-iron smelters burned forest charcoal; illegal gold mining (garimpo) on Yanomami land pollutes rivers with mercury; the Belo Monte dam on the Xingu (2019) flooded forest and displaced thousands.",
+    "term": "Amazon mining and dams: three named examples"
+   },
+   {
+    "definition": "Loss of habitat and many endemic species; fragmentation, with drier, hotter edge effects; the nutrient cycle breaks, so cleared latosols lose fertility within a few years and pasture is abandoned; soil erosion and laterite crust; rivers silt up.",
+    "term": "Rainforest felling: impacts on plants, animals and soils"
+   },
+   {
+    "definition": "Less evapotranspiration means less rain downwind, longer dry seasons and more fires; burning and decay release stored carbon as carbon dioxide. Carlos Nobre and Thomas Lovejoy warn that losing about 20–25% could tip parts of the forest to degraded savanna.",
+    "term": "Amazon felling: effects on climate and the tipping point"
+   },
+   {
+    "definition": "Loss of land, disease, and violence from ranchers and miners. Chico Mendes, a rubber tapper and union leader, was murdered at Xapuri, Acre, on 22 December 1988; in 2023 Brazil declared a health emergency in Yanomami territory after illegal gold mining.",
+    "term": "Amazon felling: impacts on indigenous and forest peoples"
+   },
+   {
+    "definition": "The Forest Code (keep 80% of land as forest; revised 2012); the Soy Moratorium (2006); the Amazon Fund (2008; Norway the largest donor); INPE satellite alerts guiding IBAMA; extractive reserves. Changing clearance rates show success depends on enforcement.",
+    "term": "Amazon protection: five responses and the lesson they teach"
+   },
+   {
+    "definition": "Indonesia and Malaysia produce about 85% of the world's palm oil. Rainforest and peat swamp in Borneo and Sumatra are cleared; burning drained peat caused haze in 1997 and 2015 over Singapore and Malaysia; the Bornean orangutan is Critically Endangered (2016).",
+    "term": "South-East Asia: palm oil and its impacts on the rainforest"
+   },
+   {
+    "definition": "European demand for beef, soya as animal feed, timber and palm oil drives felling. The EU Deforestation Regulation (adopted 2023) will make firms prove such products were not grown on land deforested after 2020; its application has been delayed.",
+    "term": "Europe's link to rainforest felling"
+   },
+   {
+    "definition": "After milk quotas ended (1 April 2015) herds grew; hedgerows were removed, wetlands and callows drained, meadows reseeded with ryegrass; slurry and fertiliser raise river nitrates; silage cutting destroys corncrake nests; bees and farmland birds decline.",
+    "term": "Intensive dairying and tillage in Ireland: impacts on the biome"
+   },
+   {
+    "definition": "Begun in 1962, its guaranteed prices encouraged hedgerow removal, larger fields and wetland drainage, notably in East Anglia; food surpluses (butter mountains, wine lakes) followed in the 1980s; reforms from 1992 began paying for environmental farming.",
+    "term": "Common Agricultural Policy: how it intensified farming"
+   },
+   {
+    "definition": "On the Kazakhstan–Uzbekistan border; the world's fourth-largest lake in 1960. From the 1960s Soviet planners diverted its feeder rivers, the Amu Darya and Syr Darya, to irrigate cotton and rice, so it shrank and split: irrigation, not climate change.",
+    "term": "Aral Sea: why it shrank"
+   },
+   {
+    "definition": "Salinity rose and fishing collapsed, leaving Moynaq far from shore with ships stranded; dust storms carry salt and pesticides onto farms and people; irrigated soils were salinised. The Kok-Aral Dam (2005) raised the North Aral Sea; fishing partly revived.",
+    "term": "Aral Sea: effects and a partial recovery"
+   },
+   {
+    "definition": "Sulphur dioxide and nitrogen oxides from British and Central European industry were carried across borders; from the 1960s to the 1980s thousands of lakes in southern Norway and Sweden were acidified, aluminium was released and fish died out in many.",
+    "term": "Acid rain in Scandinavia: cause and effects on lakes"
+   },
+   {
+    "definition": "Where Germany, Poland and the Czech Republic meet, lignite-burning power stations caused acid rain; large areas of spruce forest in the Ore Mountains (Erzgebirge) died in the 1970s and 1980s (Waldsterben), with needle loss, dieback and soil leaching.",
+    "term": "Black Triangle: where it is and what happened to its forests"
+   },
+   {
+    "definition": "The Convention on Long-Range Transboundary Air Pollution (1979); EU power-station emission limits; flue-gas desulphurisation; liming of lakes in Sweden and Norway. Sulphur dioxide emissions fell by well over half; many forests and lakes partly recovered.",
+    "term": "Acid rain in Europe: responses and results"
+   },
+   {
+    "definition": "A state company set up in 1946, it harvested milled peat on a large scale for power stations and briquettes. The Shannonbridge and Lanesborough peat stations closed in December 2020, and peat harvesting ended in 2021 under its Brown to Green plan.",
+    "term": "Bord na Móna: its industrial peat harvesting and how it ended"
+   },
+   {
+    "definition": "Cutaway bogs are being rehabilitated and rewetted: Lough Boora Discovery Park, Co. Offaly, is cutaway bog turned into wetland, woodland and amenity land. Clara Bog, Co. Offaly, is one of the largest relatively intact raised bogs, now a nature reserve.",
+    "term": "Irish bogs after industrial peat cutting: two named sites"
+   },
+   {
+    "definition": "Around Fort McMurray, northern Alberta, Canada, open-pit mining strips away boreal forest and muskeg (peatland) to reach bitumen-soaked sand, leaving large tailings ponds and high emissions per barrel; little mined land has been certified as reclaimed.",
+    "term": "Athabasca oil sands: impacts on the boreal biome"
+   },
+   {
+    "definition": "Oil has been produced since the late 1950s (Shell and others); pipeline spills and theft polluted creeks, mangroves and farmland. A 2011 UNEP study of Ogoniland said a clean-up could take 25 to 30 years. Campaigner Ken Saro-Wiwa was executed in 1995.",
+    "term": "Niger Delta: how oil has damaged the biome"
+   },
+   {
+    "definition": "The nuclear plant in Ukraine (then the USSR) exploded on 26 April 1986; radiation killed a pine forest, the Red Forest. A 30 km exclusion zone was evacuated; without people, wolves, elk, wild boar and reintroduced Przewalski's horses have become common.",
+    "term": "Chernobyl: how the 1986 accident altered the biome"
    }
   ],
   "notes": [
@@ -14590,6 +18622,106 @@
    {
     "definition": "A term for the countries where most of the world's people live, popularised by Shahidul Alam as an alternative to the 'developing world'.",
     "term": "Majority world"
+   },
+   {
+    "definition": "Colonial civilising mission; 1950s–60s modernisation (Rostow); 1960s–70s dependency theory; 1970s basic needs; 1980s–90s Washington Consensus (Williamson, 1989); sustainable development from 1987; human development from 1990; then goal- and rights-based views.",
+    "term": "How views of development have changed: the eras in order"
+   },
+   {
+    "definition": "In the modernisation view it means 'not yet developed', a country behind on the same path. In the dependency view it means 'made poor by others', the result of being drained by the rich core.",
+    "term": "Underdevelopment: its two opposite meanings"
+   },
+   {
+    "definition": "It claimed that climate decides how far a society can develop: temperate climates were said to make 'advanced' peoples, tropical ones poor. Ellen Churchill Semple (1911) and Ellsworth Huntington, Civilization and Climate (1915). It justified colonialism and racial hierarchies; now discredited.",
+    "term": "Environmental determinism: what it claimed, who argued it, how it was used"
+   },
+   {
+    "definition": "It ignores colonialism, slavery, trade rules and choice; tropical Singapore is rich, and landlocked Botswana reached upper-middle income through diamonds and stable government; temperate places can be poor; it is racist. Possibilism (Paul Vidal de la Blache): the environment offers choices.",
+    "term": "Environmental determinism: four criticisms and the possibilist reply"
+   },
+   {
+    "definition": "Traditional society (subsistence farming); preconditions for take-off (transport, education, trade); take-off (investment over 10% of national income, a few leading industries); drive to maturity; high mass consumption. Rostow, 1960.",
+    "term": "Rostow's five stages of growth in order"
+   },
+   {
+    "definition": "Traditional: net emigration about 400,000 in 1951 to 1961. Preconditions: IDA (1949), Whitaker's programme (1958). Take-off: 1960s–70s industry, free secondary education (1967), EEC (1973). Maturity: MNC growth. Mass consumption: Celtic Tiger. 2008: reversal.",
+    "term": "Rostow's model applied to Ireland: a textbook reading"
+   },
+   {
+    "definition": "The Korean War (1950–53) left it among the poorest countries; Park Chung-hee planned export-led industry from the 1960s; chaebol such as Samsung, Hyundai and LG and heavy education spending drove growth; OECD 1996; UNCTAD reclassified it as developed in 2021.",
+    "term": "Rostow's model applied to South Korea"
+   },
+   {
+    "definition": "Eurocentric, treating the Western path as the only one; linear, yet countries slip back (Zimbabwe's hyperinflation peaked in 2008; Syria's war from 2011); ignores colonialism and unequal trade; wealth often does not trickle down; mass consumption is unsustainable.",
+    "term": "Modernisation theory: five criticisms"
+   },
+   {
+    "definition": "Raúl Prebisch, head of ECLA (set up 1948), argued with Hans Singer (1950) that primary exporters' terms of trade decline. Andre Gunder Frank (1966): Latin America was underdeveloped by metropolis–satellite links to the core.",
+    "term": "Dependency theory: who developed it and their key arguments"
+   },
+   {
+    "definition": "Colonial extraction and slavery; dependence on one or two low-priced, unstable primary exports; tariff escalation and rich-country subsidies; multinationals sending profits home; debt repayments; brain drain; local elites who gain from the link.",
+    "term": "Dependency theory: seven ways the core drains the periphery"
+   },
+   {
+    "definition": "Brazil's colonial export cycles (brazilwood, sugar, gold, coffee, rubber); Côte d'Ivoire and Ghana grow over half the world's cocoa, mostly sold as beans; Zambia relies on copper; Sudan's Gezira Scheme (from 1925) grew cotton for Lancashire.",
+    "term": "Dependency theory: four examples of dependent economies"
+   },
+   {
+    "definition": "Wallerstein, The Modern World-System (1974): the core controls high-value production and finance; the periphery supplies cheap materials and labour; the semi-periphery lies between. Countries move up: South Korea; China (reforms 1978, WTO 2001).",
+    "term": "Wallerstein's world-systems theory: three zones and movement"
+   },
+   {
+    "definition": "It cannot explain how the Asian Tigers and China grew by trading with the core; some countries that cut links through self-reliance stayed poor; it blames outside forces and can excuse corruption and poor government; withdrawal from world trade has rarely worked.",
+    "term": "Dependency theory: four criticisms"
+   },
+   {
+    "definition": "Basic needs (1970s): food, water, shelter, health and education before GNP, made central by the ILO World Employment Conference (1976). E. F. Schumacher (Small Is Beautiful, 1973) founded what is now Practical Action in 1966, for appropriate technology.",
+    "term": "Basic needs and appropriate technology: names and dates"
+   },
+   {
+    "definition": "Amartya Sen, Development as Freedom (1999): development widens choices and capabilities; first Human Development Report, 1990. Bhutan's Gross National Happiness (1970s). Hans Rosling's Factfulness (2018): four income levels, not developed/developing.",
+    "term": "Human development and other measures of well-being"
+   },
+   {
+    "definition": "Famine, war and helpless victims dominate. Effects: stereotypes such as 'Africa is a country'; donors see themselves as saviours; the people shown may see themselves as helpless; investors and tourists lose confidence; audiences tire, causing donor fatigue.",
+    "term": "Negative media images of Africa: five effects"
+   },
+   {
+    "definition": "Michael Buerk's BBC report (October 1984) led to Band Aid's single (1984) and Live Aid (July 1985), organised by Bob Geldof, raising huge sums. But it fixed an image of a helpless Africa and hid the causes: civil war in the north and government policy.",
+    "term": "Ethiopian famine 1984–85: how coverage shaped views of Africa"
+   },
+   {
+    "definition": "The Dóchas Code of Conduct on Images and Messages, signed by Irish NGOs: respect dignity, avoid stereotypes, give context. Binyavanga Wainaina's satire How to Write About Africa (2005). Chimamanda Ngozi Adichie's talk The Danger of a Single Story (2009).",
+    "term": "Three responses that challenge negative images of Africa"
+   },
+   {
+    "definition": "Rwanda rebuilt after the 1994 genocide (about 800,000 people, mostly Tutsi, killed in about 100 days): since 2013 women have held over 60% of lower-house seats, the world's highest share. Kenya's M-Pesa (2007, Safaricom) lets people bank by text. Botswana: stable, diamond-funded growth.",
+    "term": "Three counter-images from sub-Saharan Africa"
+   },
+   {
+    "definition": "Alfred Sauvy (1952), after the Third Estate: non-aligned former colonies outside the USA-led First and Soviet Second World (Bandung 1955; Non-Aligned Movement 1961). Outdated: the Soviet Union ended in 1991; it became a ranking; it lumps Singapore with Niger.",
+    "term": "Third World: who coined it, its Cold War meaning, why it is outdated"
+   },
+   {
+    "definition": "The Asian Tigers (South Korea, Taiwan, Hong Kong, Singapore) are rich; China is second-largest, India top five. BRIC, coined in 2001 (summit 2009), added South Africa (2011), then Egypt, Ethiopia, Iran and the United Arab Emirates (2024) and Indonesia (2025).",
+    "term": "North–South divide: how the South has risen"
+   },
+   {
+    "definition": "The G20 (1999) includes China, India, Brazil, South Africa, Indonesia, Mexico and Saudi Arabia; most people now live in middle-income countries (Rosling); in 2016 the World Bank stopped dividing countries into developing and developed in its main data tables.",
+    "term": "North–South divide: three more reasons it is outdated"
+   },
+   {
+    "definition": "The income, health and power gap between most of Africa and Europe remains huge. Global wealth is very unequal: the richest 10% of people own about 76%, the poorest half about 2% (World Inequality Report 2022). Four of the five permanent Security Council seats are Northern: USA, UK, France, Russia.",
+    "term": "North–South divide: why the idea is still partly valid"
+   },
+   {
+    "definition": "Mercator's 1569 projection, made for navigation, puts Europe top centre; Africa is about 14 times Greenland's area yet looks similar. Greenwich became the prime meridian (1884); 'Middle East' and 'Far East' are named from Europe. Challenge: Peters' equal-area projection (1973).",
+    "term": "Eurocentric maps: three examples and one challenge"
+   },
+   {
+    "definition": "Columbus's 1492 'discovery' of inhabited lands; European powers set the rules for claiming Africa at the Berlin Conference (1884–85); Said's Orientalism (1978) on the East shown as backward; 'developed' meant becoming like Western Europe. China's Belt and Road (2013) marks a shift.",
+    "term": "Eurocentric thinking in history and development: examples"
    }
   ],
   "notes": [
@@ -14877,7 +19009,7 @@
     "h": "Eurocentric thinking: history and development",
     "points": [
      "Christopher Columbus reached the Caribbean in 1492. Describing the Americas as discovered treats lands that were already inhabited as if they were empty.",
-     "The Berlin Conference of 1884–85 divided Africa among European powers. By 1914 only Ethiopia and Liberia were independent.",
+     "At the Berlin Conference of 1884–85 European powers set the rules for claiming Africa, which they then divided among themselves. By 1914 only Ethiopia and Liberia were independent.",
      "African and Asian achievements are ignored in European histories.",
      "Edward Said's Orientalism (1978) showed how Western writing portrayed the East as exotic, backward and inferior.",
      "'Developed' was defined as becoming like Western Europe, with industry, urbanisation and mass consumption.",
@@ -14998,6 +19130,98 @@
    {
     "definition": "The Irish system of housing asylum seekers in state-run accommodation while their applications are processed.",
     "term": "Direct provision"
+   },
+   {
+    "definition": "Designed in Cupertino, California; chips from TSMC (Taiwan); screens from Samsung and LG (South Korea); cobalt mostly from the DR Congo; assembly mainly by Taiwanese Foxconn at Zhengzhou and Shenzhen, China, and by Foxconn and Tata in India.",
+    "term": "Apple's iPhone chain: where each stage takes place"
+   },
+   {
+    "definition": "A 2011 study (Kraemer, Linden, Dedrick) estimated Apple kept about 58% of the 2010 iPhone's price as profit, Chinese assembly labour under 2%. Profits and design and marketing jobs stay in the USA; consumers get new technology; e-waste goes to poorer countries.",
+    "term": "Apple: who gains most, and how consumer regions are affected"
+   },
+   {
+    "definition": "Assembly and supplier firms employ millions of people; China gains skills, industrial growth and export earnings; supplier firms such as TSMC and Foxconn grow on the strength of Apple's orders.",
+    "term": "Apple: three benefits for producer regions"
+   },
+   {
+    "definition": "Foxconn worker suicides in Shenzhen (2010) exposed long hours and pressure; Zhengzhou workers protested over pay and lockdown (November 2022), delaying iPhones worldwide; orders can move to India; child labour in the DR Congo's cobalt mines (Amnesty, 2016).",
+    "term": "Apple: four problems for producer regions"
+   },
+   {
+    "definition": "Apple, founded in 1976 by Steve Jobs and Steve Wozniak, opened at Hollyhill, Cork, in 1980, its first manufacturing plant in Europe. About 6,000 now work there in its European headquarters and support centre; Cork does not assemble iPhones.",
+    "term": "Apple in Cork: when it came and what it does there"
+   },
+   {
+    "definition": "In 2016 the European Commission ruled Ireland gave Apple €13 billion in illegal State aid (not a fine); overturned in 2020, it was reinstated in September 2024, so Ireland got about €14 billion. US tariffs (2018, 2025) pushed Apple to assemble more in India.",
+    "term": "Apple: two decisions elsewhere that affected Ireland and Apple"
+   },
+   {
+    "definition": "Founded by John Cadbury in Birmingham in 1824; bought by Kraft Foods in 2010; part of Mondelēz International, Chicago, since 2012. Irish plants: Coolock, Dublin (chocolate) and Rathmore, Co. Kerry (crumb from local milk for factories in Britain).",
+    "term": "Cadbury and Mondelēz: ownership history and Irish plants"
+   },
+   {
+    "definition": "Côte d'Ivoire grows about two-fifths of world cocoa and Ghana is second: together over half, mostly on small family farms, exported as beans. The value is added mostly outside Africa: the Netherlands (Amsterdam) is the world's largest cocoa-processing centre.",
+    "term": "Cocoa producer regions: where cocoa grows and who adds the value"
+   },
+   {
+    "definition": "A 2020 NORC study for the US Department of Labor found about 1.56 million children in cocoa child labour in Côte d'Ivoire and Ghana; Harkin–Engel Protocol (2001) deadlines were missed. Côte d'Ivoire has lost most of its forest since 1960, much to cocoa.",
+    "term": "Cocoa: child labour and deforestation in producer regions"
+   },
+   {
+    "definition": "Poor West African harvests, from bad weather and the cocoa swollen shoot virus, pushed prices to a record above $10,000 a tonne. Farmers in Côte d'Ivoire and Ghana gained far less, because their governments fix farm-gate prices in advance.",
+    "term": "Cocoa's record price in 2024: why farmers gained little"
+   },
+   {
+    "definition": "Cadbury Dairy Milk carried the Fairtrade Mark from 2009. Mondelēz began its own Cocoa Life programme in 2012 (about $400 million over ten years); in 2017 Dairy Milk in Britain and Ireland swapped Fairtrade for the Cocoa Life logo, criticised by campaigners.",
+    "term": "Cadbury's responses to cocoa problems, and the criticism"
+   },
+   {
+    "definition": "Europe and North America eat most chocolate; brands, marketing and retail take most of the price. The EU Deforestation Regulation (2023, delayed) will make firms prove cocoa, soya, palm oil and similar goods were not grown on land deforested after 2020.",
+    "term": "Chocolate: consumer regions and how they pressure producers"
+   },
+   {
+    "definition": "Forest covers about two-thirds of Sweden and three-quarters of Finland. Sweden's 1903 Forestry Act made owners replant; the 1993 Act balanced timber and nature. Growth exceeds felling, so standing volume has doubled since the 1920s. Buyers demand FSC or PEFC.",
+    "term": "Managed forests in Sweden and Finland: how they stay sustainable"
+   },
+   {
+    "definition": "Sweden and Finland are among the leading exporters of pulp, paper and sawn timber (UPM, Stora Enso); Swedish IKEA is a major wood buyer. Critics: clear-felling and replanting with Norway spruce and Scots pine creates monocultures, removes old-growth forest and destroys lichen Sámi reindeer graze.",
+    "term": "Scandinavian forestry: exports and criticisms"
+   },
+   {
+    "definition": "Extreme monsoon rains and glacier melt flooded about a third of the country; over 1,700 people died and about 33 million were affected. Pakistan produces under 1% of global greenhouse gas emissions, so it suffers from emissions made elsewhere.",
+    "term": "Pakistan floods 2022: global warming's unequal impact"
+   },
+   {
+    "definition": "Myanmar's 1982 Citizenship Law left most stateless; a 2017 army campaign drove about 740,000 into Bangladesh, where about 1 million live around Cox's Bazar. The Gambia sued Myanmar at the International Court of Justice (2019); the 2021 coup ended return hopes.",
+    "term": "The Rohingya: how political decisions made them stateless refugees"
+   },
+   {
+    "definition": "After Russia invaded (24 February 2022) the EU activated its Temporary Protection Directive for the first time, on 4 March 2022. Over 4 million held it in the EU and over 100,000 came to Ireland (2024). Asylum seekers from Africa and the Middle East get no such status: an equality question.",
+    "term": "Ukraine 2022: the EU decision on temporary protection"
+   },
+   {
+    "definition": "About 281 million international migrants in 2020, 3.6% of the world's people, most within their own region. Corridors: Mexico–USA; North and West Africa–Europe; South Asia–the Gulf; East to West Europe after 2004, when Ireland opened its labour market at once.",
+    "term": "Global migration: scale and four main corridors"
+   },
+   {
+    "definition": "Migrants, mainly from India, Nepal, Bangladesh, Pakistan and the Philippines, make up most of the people of Qatar and the United Arab Emirates; kafala ties them to an employer. Qatar's 2020 reforms (minimum wage, job mobility) followed World Cup criticism, but enforcement is criticised.",
+    "term": "Gulf migration: who goes, the kafala system and Qatar's reforms"
+   },
+   {
+    "definition": "Migrants from Senegal, Mauritania and Mali sail to the Canary Islands, with record arrivals in 2024; Senegalese fishermen blame foreign trawlers and fishmeal plants for falling catches (a reported cause). Over 360 drowned off Lampedusa in October 2013.",
+    "term": "Atlantic and Mediterranean migration routes: key facts"
+   },
+   {
+    "definition": "Source: about $650 billion in remittances to low- and middle-income countries (2023), India the largest recipient and Mexico second; brain drain of doctors and nurses. Receiving: workers for health care, building and farming; younger populations; housing pressure; anti-immigration parties.",
+    "term": "Migration: effects on source and receiving regions"
+   },
+   {
+    "definition": "UN Human Rights Office (2022): serious violations against Uyghurs, including mass detention. There is also evidence of forced labour in cotton; Xinjiang grows about a fifth of world cotton. The US Uyghur Forced Labor Prevention Act (in force June 2022) bans Xinjiang goods unless proven clean.",
+    "term": "Xinjiang: forced labour and the US import ban"
+   },
+   {
+    "definition": "In July 1984 Mary Manning, at Dunnes Stores, Henry Street, Dublin, refused to handle South African grapes in protest at apartheid; she and a few colleagues struck for almost three years. In 1987 Ireland banned South African fruit and vegetable imports.",
+    "term": "Dunnes Stores strike: one worker's decision and its effect"
    }
   ],
   "notes": [
@@ -15103,7 +19327,7 @@
    {
     "h": "Intel: a short case study",
     "points": [
-     "Intel was founded in 1968 in Santa Clara, California. Research and design are based in Oregon and California.",
+     "Intel was founded in 1968 in Mountain View, California, and is headquartered in Santa Clara. Research and design are based in Oregon and California.",
      "Wafers are made in fabs at Hillsboro (Oregon), Chandler (Arizona), Leixlip and Kiryat Gat (Israel). Leixlip makes processor wafers, not computers.",
      "Assembly and test take place in Penang and Kulim (Malaysia), Ho Chi Minh City (Vietnam) and Chengdu (China).",
      "Customers are computer makers, including Lenovo, HP and Dell, which sell worldwide.",
@@ -15514,6 +19738,126 @@
    {
     "definition": "Small loans, usually without collateral, made to poor people, mostly women, to start or grow small businesses.",
     "term": "Microfinance"
+   },
+   {
+    "definition": "Copper is most of its exports; its state mines (ZCCM) were privatised in the late 1990s under reform conditions. HIPC completion point 2005; rural health fees abolished 2006. It defaulted in November 2020 and restructured under the G20 Common Framework.",
+    "term": "Zambia's debt story: adjustment, relief and default"
+   },
+   {
+    "definition": "Uganda introduced Universal Primary Education in 1997 and in 1998 became the first country to receive HIPC relief, spending the savings on schools, health and water. Tanzania abolished primary school fees in 2001.",
+    "term": "HIPC debt relief: results in Uganda and Tanzania"
+   },
+   {
+    "definition": "Sri Lanka defaulted in 2022; amid shortages and protests President Gotabaya Rajapaksa fled (July); IMF help (about $2.9 billion) followed. Ghana defaulted in December 2022. UNCTAD: 3.3 billion people live where interest exceeds health or education spending.",
+    "term": "Debt crises of the 2020s: Sri Lanka, Ghana and the UNCTAD figure"
+   },
+   {
+    "definition": "Built in Sri Lanka with Chinese loans, it was leased to a Chinese state company for 99 years in 2017. Critics call it a Belt and Road (2013) debt trap; others argue Sri Lanka's debts were mostly owed to Western lenders and bondholders.",
+    "term": "Hambantota port and the debt-trap debate"
+   },
+   {
+    "definition": "The UK cut aid from 0.7% to 0.5% of GNI in 2021 and in 2025 announced a cut to 0.3% by 2027. In 2025 the USA, until then the largest single donor by volume, cancelled most USAID programmes and folded the agency into the State Department.",
+    "term": "Aid cuts by big donors: two recent examples"
+   },
+   {
+    "definition": "Emergency relief saves lives; schools, clinics, wells and vaccination; training; support for women's groups and small businesses; infrastructure.",
+    "term": "How aid benefits recipients: five ways"
+   },
+   {
+    "definition": "Tied aid returns money to donor firms: UK aid for Malaysia's Pergau Dam, linked to an arms deal, was ruled unlawful by the High Court in 1994 as not for sound development. US food aid must largely be bought from US farmers and shipped on US ships. Aid also wins allies.",
+    "term": "Who benefits from aid: three ways donors gain"
+   },
+   {
+    "definition": "In the mid-1990s Haiti cut its rice tariff under lender pressure; cheap subsidised US rice ruined many Haitian farmers, and in 2010 Bill Clinton apologised for the policy. Aid can also be captured by elites, breed dependency, add to debt and displace people.",
+    "term": "How aid can harm recipients: the Haiti rice example and others"
+   },
+   {
+    "definition": "Jeffrey Sachs, The End of Poverty (2005): more aid can end extreme poverty. Dambisa Moyo, Dead Aid (2009): aid breeds corruption and dependency in Africa. William Easterly, The White Man's Burden (2006): top-down planners fail; bottom-up searchers succeed.",
+    "term": "The aid debate: three named authors and their arguments"
+   },
+   {
+    "definition": "Team Europe gives over two-fifths of world aid; Lomé (1975), Cotonou (2000) and Samoa (2023) deals with African, Caribbean and Pacific states; ECHO (1992); Global Gateway (2021), a rival to China's Belt and Road. EU farm and fishing policies have at times harmed the same states.",
+    "term": "EU aid programmes: named parts and one criticism"
+   },
+   {
+    "definition": "Irish Aid (Department of Foreign Affairs) began bilateral aid in 1974; its aid is untied. Partners are mainly in sub-Saharan Africa, e.g. Ethiopia, Malawi, Uganda. A Better World (2019) priorities: furthest behind first, gender equality, climate, governance. Ireland has not reached 0.7%.",
+    "term": "Irish aid programme: who runs it, since when, and its priorities"
+   },
+   {
+    "definition": "Concern Worldwide (1968, Biafra famine); Trócaire (1973, Irish Catholic bishops, Lenten box); GOAL (1977, John O'Shea); Gorta (1965), merged with Self Help Africa (1984, Ethiopian famine) in 2014; Bóthar (1991, Limerick), whose donated animals are passed on.",
+    "term": "Irish NGOs: six, with founding dates and founders or causes"
+   },
+   {
+    "definition": "Oxfam: Oxford, 1942, as the Oxford Committee for Famine Relief. Médecins Sans Frontières: France, 1971; Nobel Peace Prize 1999. Amnesty International: 1961, Peter Benenson; Nobel Peace Prize 1977. International Committee of the Red Cross: Geneva, 1863.",
+    "term": "Four international NGOs: origins and awards"
+   },
+   {
+    "definition": "Advantages: close to communities and bottom-up; fast in emergencies; not tied to donor trade interests. Limits: donors' priorities shape their work; they can duplicate or replace state services; scandal, as when misconduct by some Oxfam staff in Haiti emerged in 2018.",
+    "term": "NGOs: three advantages and three limits"
+   },
+   {
+    "definition": "A small, mainly Protestant landlord class, many absentee, created after the plantations; tenants-at-will with no security, facing rack-rents and eviction; holdings subdivided into tiny plots under conacre and rundale; dependence on the potato.",
+    "term": "Nineteenth-century Ireland: four features of the land system"
+   },
+   {
+    "definition": "1845–49: about 1 million died and about 1 million emigrated. Causes included blight, potato dependence, the land system and government policy. The Encumbered Estates Act (1849) let bankrupt estates be sold, often to new landlords who cleared tenants.",
+    "term": "The Great Famine and the land: toll, causes and aftermath"
+   },
+   {
+    "definition": "The Irish National Land League (1879), led by Michael Davitt of Co. Mayo and Charles Stewart Parnell, demanded fair rent, fixity of tenure and free sale. In 1880 Captain Charles Boycott, a land agent at Lough Mask, Co. Mayo, was ostracised: hence boycott.",
+    "term": "The Land League and the Land War: names, dates and demands"
+   },
+   {
+    "definition": "1870 and 1881 Land Acts (the 1881 Act gave the Three Fs and the Land Commission); Ashbourne (1885) and Wyndham (1903) Acts let tenants buy with loans repaid by annuities; Congested Districts Board (1891) for the west. Most farmers came to own their land.",
+    "term": "Irish land reform: the Land Acts in order and the outcome"
+   },
+   {
+    "definition": "South Africa's Natives Land Act (1913) limited Black ownership to reserves of about 7% of the land (later 13%); reform since 1994 has been slow. Kenya's White Highlands were kept for European settlers. Zimbabwe's seizures from 2000 cut farm output.",
+    "term": "Land ownership in Africa: three contrasting examples"
+   },
+   {
+    "definition": "South Korea (from 1950) and Taiwan's land to the tiller programme (1953) gave tenants ownership and raised rural incomes before industrialisation; Kerala abolished landlord tenancy from 1970 and has about 94% literacy against about 62% in Bihar (Census 2011).",
+    "term": "Land reform that helped development: three examples"
+   },
+   {
+    "definition": "First co-operative creamery at Dromcollogher, Co. Limerick (1889); Horace Plunkett's IAOS (1894); dairy co-ops grew into Kerry Group (from Listowel, 1972), Glanbia (Kilkenny) and Ornua (Kerrygold, 1962); first credit unions, Dublin 1958, with Nora Herlihy.",
+    "term": "Irish co-operatives: four milestones"
+   },
+   {
+    "definition": "Rochdale Pioneers, England (1844); Denmark's first co-operative dairy, Hjedding (1882); Mondragon, Basque Country (1956), about 70,000 workers; Amul, Anand (1946), spread across India by Operation Flood (1970); SEWA, Ahmedabad (1972), a women workers' union with a co-operative bank.",
+    "term": "Co-operatives in Europe and India: five named examples"
+   },
+   {
+    "definition": "The ladder runs from being informed, to consulted, to sharing decisions, to controlling them. Participation uses local knowledge; projects people own are maintained; it builds skills and confidence; it reduces corruption; it gives women and minorities a voice.",
+    "term": "Participation: the ladder and five reasons it matters"
+   },
+   {
+    "definition": "County Enterprise Boards (1993) were replaced in 2014 by 31 Local Enterprise Offices in the local authorities, giving small firms grants, training and mentoring; LEADER groups (from 1991); Údarás na Gaeltachta (1980). Critique: Ireland is highly centralised.",
+    "term": "Participation in Ireland: local enterprise and its limits"
+   },
+   {
+    "definition": "Porto Alegre, Brazil, began participatory budgeting in 1989; India's 73rd Amendment (1992) created village panchayats with a third of seats for women; Medha Patkar's Narmada Bachao Andolan opposed the Sardar Sarovar dam, and the World Bank withdrew in 1993.",
+    "term": "Participation in the developing world: three examples"
+   },
+   {
+    "definition": "Modern slavery (2021): about 50 million (28 million forced labour, 22 million forced marriage). Bonded labour, banned in India in 1976, persists in brick kilns. Ireland's Atypical Working Scheme (2016), set up after exploitation reports, is criticised for tying non-EEA fishing crew to one employer.",
+    "term": "Modern slavery and local exploitation: figures and examples"
+   },
+   {
+    "definition": "Women do about three-quarters of unpaid care work (ILO, 2018) and are about 43% of farm labour in developing countries but under one in five landholders (FAO). Barriers: less schooling, credit and pay. Afghanistan banned girls from secondary school in 2022.",
+    "term": "Women's work and the barriers they face"
+   },
+   {
+    "definition": "Educated, earning women have fewer, healthier, better-educated children; income spent by women goes more on food, health and schooling; more women working and running businesses raises GDP. Kerala shows women's education going with human development.",
+    "term": "Why empowering women links growth to development"
+   },
+   {
+    "definition": "Muhammad Yunus began Grameen in Bangladesh in 1976 (a bank from 1983), lending small sums without collateral, mostly to poor women in groups; Nobel Peace Prize 2006. Limit: in Andhra Pradesh, India (2010), borrowers were trapped in multiple loans.",
+    "term": "Microfinance: the Grameen Bank and its limits"
+   },
+   {
+    "definition": "The public service marriage bar ended in 1973; a 2012 Act cut State funding to parties with under 30% women candidates (from 2016), then 40% (from 2023); a record 44 women won seats in the 174-seat Dáil (November 2024). Iceland tops the gender gap index.",
+    "term": "Gender roles in Ireland: three changes, and the world's most equal country"
    }
   ],
   "notes": [
@@ -16065,6 +20409,106 @@
    {
     "definition": "A protected area in which forest is harvested sustainably by the people who live in it.",
     "term": "Extractive reserve"
+   },
+   {
+    "definition": "The Limits to Growth (1972, Club of Rome) warned growth would exhaust resources within about a century; Brundtland's Our Common Future (1987); the Rio Earth Summit (1992) and Agenda 21; the MDGs (2000–2015); the 17 SDGs and the Paris Agreement (2015).",
+    "term": "Sustainable development: how the idea developed, in order"
+   },
+   {
+    "definition": "Environmental, economic and social pillars must be balanced. It is a priority because resources are finite and overused; climate change and biodiversity loss threaten the future; the poorest suffer first; growth that destroys resources cannot last.",
+    "term": "Sustainable development: the three pillars and why it is a priority"
+   },
+   {
+    "definition": "It is vague and open to greenwashing; its pillars conflict, as when jobs clash with protecting the environment; poorer countries argue that rich ones grew without limits and now ask them to slow down; progress on the SDGs is off track.",
+    "term": "Sustainable development: four problems with the model"
+   },
+   {
+    "definition": "Bord na Móna (1946) ended peat harvesting in January 2021, after the Lanesborough and Shannonbridge peat-burning power stations closed in December 2020. Cutaway bogs are rewetted to store carbon, as at Lough Boora, Co. Offaly; Bellacorick, Co. Mayo, has wind farms.",
+    "term": "Irish peatlands: Bord na Móna's shift from brown to green"
+   },
+   {
+    "definition": "Wind gives about a third of Irish electricity, renewables about two-fifths (early 2020s). 2030 targets: 80% renewable electricity, at least 5 GW offshore wind, a 51% emissions cut; net zero by 2050. East–West Interconnector (2012); Celtic Interconnector due.",
+    "term": "Irish renewable energy: current share and targets"
+   },
+   {
+    "definition": "BurrenLIFE (2005–2010) led to the Burren Programme, paying farmers by habitat scores; REPS (1994), GLAS (2015), ACRES (2023); Origin Green (2012). But dairy grew strongly after quotas ended in 2015; only about half of Irish waters are in good or high status.",
+    "term": "Sustainable farming in Ireland: schemes and the dairy tension"
+   },
+   {
+    "definition": "The plastic bag levy (March 2002, 15 cent) cut bag use by over 90%; the Deposit Return Scheme began on 1 February 2024. Forest cover is only about 11%, mostly Sitka spruce (Coillte, 1988); more native broadleaf woodland, like the Killarney oakwoods, is needed.",
+    "term": "Irish waste and forestry: two successes and one gap"
+   },
+   {
+    "definition": "Clearing for cattle pasture in the 1970s–80s cut forest to about a fifth of the land. The Payment for Environmental Services programme (1997, FONAFIFO), funded largely by a fuel tax, pays landowners to protect and replant; forest now covers over half.",
+    "term": "Costa Rica: how it reversed deforestation"
+   },
+   {
+    "definition": "Almost all electricity renewable since 2015 (mainly hydro, plus geothermal and wind); ecotourism a top earner; army abolished in 1948, its budget going to education and health; first Earthshot Prize (2021). Limits: transport runs on imported oil; tourism pressure.",
+    "term": "Costa Rica: energy, spending choices, recognition and limits"
+   },
+   {
+    "definition": "Low, unstable commodity prices; small farmers' tiny share of the final price; middlemen taking much of the value; poor conditions and child labour; tariff escalation, as when coffee beans face low tariffs but roasted coffee faces higher ones.",
+    "term": "The problem fair trade addresses: five features of unfair trade"
+   },
+   {
+    "definition": "A minimum price covering sustainable production (or market price plus premium if higher); a premium spent on projects members choose; long-term contracts and pre-harvest credit; democratic co-ops; no forced or child labour; restricted pesticides, no GM crops.",
+    "term": "How fair trade works: six features"
+   },
+   {
+    "definition": "Max Havelaar, the first label, began in the Netherlands in 1988 for Mexican coffee; Garstang, England, was the first Fairtrade town (2000). Close to 2 million farmers and workers in about 70 countries are certified, growing coffee, cocoa, tea and bananas.",
+    "term": "Fair trade: origins, scale and products"
+   },
+   {
+    "definition": "A Fairtrade cocoa co-operative founded in 1993 (good cocoa farmer in Twi). It is a part-owner of Divine Chocolate (Britain, 1998), so farmers share brand profits as well as the Fairtrade price and premium. The premium paid for wells, schools and mobile clinics; women are urged to lead.",
+    "term": "Kuapa Kokoo and Divine Chocolate, Ghana: key facts"
+   },
+   {
+    "definition": "Founded in 1999 and led by Tadesse Meskela, it sells members' coffee directly to buyers, cutting out middlemen; its premium paid for schools, clinics and water. Its story is told in the film Black Gold (2006). Ethiopia is arabica coffee's original home.",
+    "term": "Oromia Coffee Farmers Co-operative Union, Ethiopia: key facts"
+   },
+   {
+    "definition": "Higher, steadier income to invest; premium-funded schools, clinics and water; democratic co-ops empower members; women gain voice and income; organic farming and less clearing; less child labour; processing and marketing skills; consumer pressure on big firms.",
+    "term": "Fair trade's potential impact on development: eight points"
+   },
+   {
+    "definition": "Fairtrade Ireland licenses the Fairtrade Mark; Clonakilty, Co. Cork, became Ireland's first Fairtrade town in 2003; towns, schools and universities can apply for Fairtrade status; Fairtrade Fortnight runs in late February and March; supermarkets stock ranges.",
+    "term": "Fair trade in Ireland: named examples"
+   },
+   {
+    "definition": "Limits: tiny share of world trade; higher prices deter some buyers; certification costs exclude the poorest; trade rules unchanged; value added in rich countries. SOAS (2014): some hired labourers on certified farms in Ethiopia and Uganda earned less than on similar uncertified ones (disputed).",
+    "term": "Fair trade: limits and the SOAS criticism"
+   },
+   {
+    "definition": "Indigenous peoples have lost Amazon land to ranching, soya, mining and dams (Brazil has about 1.7 million indigenous people, Census 2022). Brazil declared a Yanomami health emergency in 2023 over illegal gold mining; the Belo Monte dam (2019), opposed by the Kayapó, displaced thousands.",
+    "term": "Amazon indigenous peoples: land loss and two justice cases"
+   },
+   {
+    "definition": "About 33,000 (2022), formally recognised as an ethnic minority in 2017. AITHS (2010): men live about 15 years less, women 11.5; male suicide about six times the general rate. About 80% in the labour force unemployed (2016). Responses: Equal Status Acts (2000); Traveller and Roma Inclusion Strategy.",
+    "term": "Irish Travellers: recognition, inequality figures and responses"
+   },
+   {
+    "definition": "Europe's largest ethnic minority, about 10–12 million, many in Romania, Bulgaria, Hungary, Slovakia and Spain; poverty and segregated schools. D.H. v Czech Republic (2007) ruled their placement in special schools unlawful. EU frameworks: 2011, 2020–2030.",
+    "term": "The Roma: size, problems and legal responses"
+   },
+   {
+    "definition": "On 11 October 2021 Norway's Supreme Court ruled that Fosen turbines on reindeer grazing land violated Sámi herders' right to their culture. They kept running, so in 2023 activists, with Greta Thunberg, blocked buildings in Oslo; agreements followed in 2023–24.",
+    "term": "The Sámi and the Fosen wind farm: green but unjust?"
+   },
+   {
+    "definition": "Tanganyika (independent 1961) joined Zanzibar as Tanzania in 1964. The Arusha Declaration (1967) set out Ujamaa: villages, collective farming, education for self-reliance. Gains: Kiswahili as national language, unity, peace, more literacy and schooling.",
+    "term": "Nyerere's Tanzania: what self-reliance achieved"
+   },
+   {
+    "definition": "Villagisation in 1973–76 moved millions, often by force, into planned villages; food and export output fell and the economy went into crisis. Nyerere stepped down in 1985 and in 1986 Tanzania agreed an IMF programme: social gains, economic failure.",
+    "term": "Nyerere's Tanzania: where self-reliance failed"
+   },
+   {
+    "definition": "The Green Belt Movement (Kenya, 1977, Wangari Maathai, Nobel Peace Prize 2004): women planting tens of millions of trees; zaï pits (Yacouba Sawadogo, Burkina Faso); farmer-managed regreening of about 5 million hectares in Niger; La Via Campesina (1993).",
+    "term": "Community self-help: three African examples and a global movement"
+   },
+   {
+    "definition": "Muintir na Tíre, founded in 1937 by Fr John Hayes in Co. Tipperary; co-operative creameries (from 1889) and credit unions (from 1958); LEADER (from 1991); NGOs that help people help themselves, such as Self Help Africa (1984) and Bóthar (1991).",
+    "term": "Irish self-help: four examples"
    }
   ],
   "notes": [
@@ -16198,7 +20642,7 @@
    {
     "h": "Costa Rica: renewable energy, defence and spending",
     "points": [
-     "Since 2015 almost all (over 98%) of Costa Rica’s electricity has come from renewable sources, mainly hydroelectric, with geothermal and wind.",
+     "Since 2015 almost all of Costa Rica’s electricity has come from renewable sources (over 98% in most years, but about 95% in 2023, when drought cut hydropower), mainly hydroelectric, with geothermal and wind.",
      "Costa Rica abolished its army in 1948 and spends instead on education and health.",
      "In 2021 Costa Rica won the first Earthshot Prize (Protect and Restore Nature) for its forest recovery."
     ]
@@ -16262,7 +20706,7 @@
     "h": "Case study: Kuapa Kokoo and Divine Chocolate, Ghana",
     "points": [
      "Kuapa Kokoo, meaning “good cocoa farmer” in Twi, was founded in 1993.",
-     "Divine Chocolate was set up in Britain in 1998, and Kuapa Kokoo holds 44% of its shares and has seats on its board.",
+     "Divine Chocolate was set up in Britain in 1998, part-owned by Kuapa Kokoo. Since 2020 the German chocolate maker Ludwig Weinrich has held the majority; Kuapa Kokoo kept about 20% of the shares and seats on the board.",
      "Farmers receive a share of Divine’s profits as well as the Fairtrade price and premium.",
      "Premium spending has included wells for clean water, school buildings and mobile health clinics.",
      "Kuapa Kokoo encourages women to take leadership roles in its village societies.",
@@ -16472,7 +20916,7 @@
   "questions": [
    {
     "marks": 80,
-    "model": "The problem: low and unstable prices, middlemen, poor working conditions and child labour, and declining terms of trade, with tariff escalation on processed goods. How fair trade works: the Fairtrade Minimum Price as a floor, the Fairtrade Premium spent on projects chosen by members, pre-finance and long-term contracts, democratic co-operatives, labour and environmental standards, and the Fairtrade Mark. Case studies: Kuapa Kokoo and Divine Chocolate in Ghana, with a 44% shareholding, the premium spent on wells, schools and clinics, and women in leadership; the Oromia union in Ethiopia, selling directly to buyers. Impact on development: stable income, investment, community projects, co-operative empowerment, women’s participation, environmental gains, less child labour, skills and consumer pressure. Fair trade in Ireland: Clonakilty, Fairtrade Fortnight, and retail ranges. Limits and evaluation: a tiny share of trade, costs that exclude the poorest, the 2014 SOAS findings on hired labourers, benefits limited to members, no change to trade rules, and brands leaving for their own schemes. Conclusion: fair trade is a model of just trade that improves lives, but its impact depends on scale and wider trade reform.",
+    "model": "The problem: low and unstable prices, middlemen, poor working conditions and child labour, and declining terms of trade, with tariff escalation on processed goods. How fair trade works: the Fairtrade Minimum Price as a floor, the Fairtrade Premium spent on projects chosen by members, pre-finance and long-term contracts, democratic co-operatives, labour and environmental standards, and the Fairtrade Mark. Case studies: Kuapa Kokoo and Divine Chocolate in Ghana, with the farmers part-owning the brand, the premium spent on wells, schools and clinics, and women in leadership; the Oromia union in Ethiopia, selling directly to buyers. Impact on development: stable income, investment, community projects, co-operative empowerment, women’s participation, environmental gains, less child labour, skills and consumer pressure. Fair trade in Ireland: Clonakilty, Fairtrade Fortnight, and retail ranges. Limits and evaluation: a tiny share of trade, costs that exclude the poorest, the 2014 SOAS findings on hired labourers, benefits limited to members, no change to trade rules, and brands leaving for their own schemes. Conclusion: fair trade is a model of just trade that improves lives, but its impact depends on scale and wider trade reform.",
     "prompt": "Examine the contribution that fair trade can make to sustainable development.",
     "type": "short"
    },
@@ -16527,6 +20971,46 @@
    {
     "definition": "The area on the far side of the earth from an earthquake where S-waves do not arrive, showing that the outer core is liquid.",
     "term": "S-wave shadow zone"
+   },
+   {
+    "definition": "Crust, about 5–70 km thick; mantle, to about 2,900 km; liquid outer core, from about 2,900 to 5,150 km; solid inner core, from about 5,150 km to the centre at about 6,370 km. Density and temperature increase towards the centre.",
+    "term": "Earth's layers from the surface inward, with their depths"
+   },
+   {
+    "definition": "Continental: about 30–70 km thick, thickest under high mountains; density about 2.7 g/cm³; granite-type, rich in silica and aluminium (sial). Oceanic: about 5–10 km thick; density about 3.0 g/cm³; basalt, rich in silica and magnesium (sima).",
+    "term": "Continental vs oceanic crust: thickness, density and rock"
+   },
+   {
+    "definition": "Oceanic crust is continually created and destroyed, so none is older than about 200 million years, while some continental rock is billions of years old.",
+    "term": "Why oceanic crust is much younger than continental crust"
+   },
+   {
+    "definition": "Andrija Mohorovičić, a Croatian seismologist, identified it in 1909 from earthquake records. At this boundary between the crust and the mantle, earthquake waves speed up suddenly.",
+    "term": "The Moho: who identified it, when, and what happens there"
+   },
+   {
+    "definition": "The thickest layer, to about 2,900 km, of dense rock rich in iron and magnesium. Its upper part holds the semi-molten asthenosphere; its solid top joins the crust as the lithosphere, about 100 km thick on average.",
+    "term": "Mantle: depth, rock type and the layers in its upper part"
+   },
+   {
+    "definition": "Both are made of iron and nickel. The outer core is liquid, and movement of this liquid metal generates the earth's magnetic field. The inner core is solid, the hottest part of the earth at about 5,500 °C, kept solid by enormous pressure.",
+    "term": "Outer core vs inner core: state, metals and key facts"
+   },
+   {
+    "definition": "The decay of radioactive elements, and heat left over from the earth's formation. This heat powers convection currents and endogenic forces.",
+    "term": "Two sources of the earth's internal heat"
+   },
+   {
+    "definition": "First, heated rock near the core becomes less dense and rises; then, near the top of the mantle, it spreads out sideways and cools; finally, the cooled, denser rock sinks again, completing the circle.",
+    "term": "Convection currents in the mantle: the three stages"
+   },
+   {
+    "definition": "Plate movement, folding, faulting, volcanic activity and earthquakes. They come from inside the earth and are powered by its internal heat; exogenic forces, such as weathering and erosion, act at the surface.",
+    "term": "Endogenic forces: five examples, and how they differ from exogenic"
+   },
+   {
+    "definition": "Waves change speed and direction as they pass through layers of different density, which is how the discontinuities were found. P-waves pass through solids and liquids, S-waves only through solids, so S-waves failing to cross the outer core show it is liquid.",
+    "term": "Seismic waves: how they reveal the earth's structure"
    }
   ],
   "notes": [
@@ -16674,6 +21158,82 @@
    {
     "definition": "Fold mountain building caused by the collision of Africa with Europe, producing east-west mountains across the south of Ireland.",
     "term": "Armorican folding"
+   },
+   {
+    "definition": "Alfred Wegener, a German meteorologist: continental drift, 1912. Arthur Holmes, a British geologist: in the late 1920s, that mantle convection could move continents. Harry Hess, an American geologist: sea-floor spreading, early 1960s.",
+    "term": "Plate tectonics theory: three scientists and their ideas"
+   },
+   {
+    "definition": "Wegener published The Origin of Continents and Oceans in 1915. Pangaea began to break up about 200 million years ago into Laurasia in the north and Gondwanaland in the south, separated by the Tethys Sea; these broke up into today's continents.",
+    "term": "Continental drift: Wegener's book and how Pangaea broke up"
+   },
+   {
+    "definition": "South America and Africa fit together, best at the edge of the continental shelves. Mesosaurus, a freshwater reptile, is found in Brazil and southern Africa; Glossopteris, a fern-like plant, in South America, Africa, India, Antarctica and Australia.",
+    "term": "Continental drift evidence: jigsaw fit and fossils"
+   },
+   {
+    "definition": "The Appalachians of eastern North America match the Caledonian mountains of Ireland, Scotland and Norway in rock type, age and structure. Glacial deposits about 300 million years old occur in India, Africa, South America and Australia; coal in Antarctica.",
+    "term": "Continental drift evidence: matching mountains and past climates"
+   },
+   {
+    "definition": "Wegener could not explain what force moved the continents. Sea-floor spreading later supplied the missing mechanism and turned continental drift into the theory of plate tectonics.",
+    "term": "Why continental drift was rejected at first, and what rescued it"
+   },
+   {
+    "definition": "Detailed sonar mapping after the Second World War revealed long mid-ocean ridges with a central rift valley, and deep ocean trenches. The Mid-Atlantic Ridge is about 16,000 km long.",
+    "term": "Mapping the ocean floor: what echo-sounding revealed"
+   },
+   {
+    "definition": "Harry Hess, an American geologist, early 1960s: magma rises at mid-ocean ridges and cools to form new basalt crust, which pushes older crust away on both sides; crust is destroyed again at ocean trenches.",
+    "term": "Sea-floor spreading: who proposed it, and what happens at ridges and trenches"
+   },
+   {
+    "definition": "Oceanic rocks are youngest at the ridge and get progressively older with distance from it, symmetrically on both sides. Ocean-floor sediment is thin or absent at the ridge and thicker further away.",
+    "term": "Sea-floor spreading evidence: age of rocks and sediment"
+   },
+   {
+    "definition": "The magnetic field reverses from time to time; iron minerals in cooling basalt line up with it, so the ocean floor holds stripes of normal and reversed magnetism mirrored either side of the ridge. Fred Vine and Drummond Matthews explained this in 1963.",
+    "term": "Magnetic striping: how it proves sea-floor spreading"
+   },
+   {
+    "definition": "Major: Pacific (the largest), North American, South American, Eurasian, African, Indo-Australian (or Indian and Australian) and Antarctic. Smaller: any four of Nazca, Cocos, Caribbean, Juan de Fuca, Philippine, Arabian and Scotia.",
+    "term": "Name the seven major lithospheric plates and four smaller ones"
+   },
+   {
+    "definition": "Convection currents in the mantle drag the plates; ridge push, as new, hot crust slides away from the ridge under gravity; slab pull, as the cold, dense subducting edge of a plate pulls the rest of the plate after it.",
+    "term": "How plates move: three driving forces"
+   },
+   {
+    "definition": "Plates move a few centimetres a year; the Atlantic is widening by about 2.5 cm a year, roughly the rate a fingernail grows, so the map of continents and oceans changes over geological time.",
+    "term": "How fast plates move: the Atlantic figure"
+   },
+   {
+    "definition": "Ireland is on the Eurasian plate, near its western edge and far from any boundary; the nearest is the Mid-Atlantic Ridge to the west, so Ireland moves slowly away from North America. It has no active volcanoes and only rare, minor earthquakes.",
+    "term": "Ireland's plate position today and its consequences"
+   },
+   {
+    "definition": "About 500 million years ago north-west Ireland lay on the North American (Laurentian) side of the Iapetus Ocean and the south-east on the European side. As it closed they joined along the Iapetus suture, roughly Shannon Estuary to Clogherhead, Co. Louth.",
+    "term": "Iapetus Ocean: Ireland's two halves and where they joined"
+   },
+   {
+    "definition": "About 400 million years ago, as the Iapetus Ocean closed. It built north-east to south-west mountains: those of Donegal, Mayo and Connemara, and the Wicklow Mountains; the Leinster granite batholith was intruded in this period.",
+    "term": "Caledonian folding: date and named Irish mountains"
+   },
+   {
+    "definition": "About 300 million years ago, when Africa (part of Gondwanaland) collided with Europe as Pangaea came together. It built east–west ridges across the south: Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdowns and the Caha Mountains.",
+    "term": "Armorican folding: date, cause and named Irish mountains"
+   },
+   {
+    "definition": "Old Red Sandstone formed in hot, dry conditions after the Caledonian folding; Carboniferous limestone formed about 350 million years ago, when Ireland lay near the equator under a warm, shallow tropical sea.",
+    "term": "Ireland's drift north: what two rock types record"
+   },
+   {
+    "definition": "As North America and Greenland separated from Europe after Pangaea split, magma rose through cracks in north-east Ireland and formed the Antrim basalts about 60 million years ago.",
+    "term": "Antrim basalts: link to the opening of the Atlantic"
+   },
+   {
+    "definition": "The most recent period of fold mountain building, producing the Alps (the African plate colliding with the Eurasian plate) and the Himalayas. It did not build Ireland's mountains; the two Irish periods are Caledonian and Armorican.",
+    "term": "Alpine folding: what it built, and why it is not Irish"
    }
   ],
   "notes": [
@@ -16845,6 +21405,74 @@
    {
     "definition": "The belt of plate boundaries around the edge of the Pacific plate, containing most of the world's active volcanoes and earthquakes.",
     "term": "Ring of Fire"
+   },
+   {
+    "definition": "First, convection currents carry the plates apart; then pressure drops as they separate, so the mantle partly melts; finally, magma rises into the gap and cools to form new basaltic oceanic crust.",
+    "term": "Constructive boundary: how new crust forms, in three steps"
+   },
+   {
+    "definition": "It separates the North American and Eurasian plates in the North Atlantic and the South American and African plates in the South Atlantic. Iceland and the Azores lie on it; in Iceland the rift is visible on land at Þingvellir (Thingvellir).",
+    "term": "Mid-Atlantic Ridge: the plates either side and the islands on it"
+   },
+   {
+    "definition": "A mid-ocean ridge with a rift valley along its crest; transform faults offsetting the ridge; volcanic islands where it rises above sea level, such as Surtsey off Iceland, formed from 1963; fissure eruptions of runny basalt lava; shallow earthquakes.",
+    "term": "Constructive boundaries: five features to name"
+   },
+   {
+    "definition": "The crust stretches and a block drops between parallel faults to form a rift valley with volcanoes nearby, as in the East African Rift Valley (Mount Kilimanjaro, Tanzania). If spreading continues the sea floods in, as in the Red Sea.",
+    "term": "Continental rifting: the process and two African examples"
+   },
+   {
+    "definition": "The denser oceanic plate is subducted, forming an ocean trench; scraped-off sediments are crumpled into fold mountains; the sinking plate melts and magma rises to form volcanoes on the continent; earthquakes occur along the sinking plate.",
+    "term": "Oceanic–continental boundary: what happens and what forms"
+   },
+   {
+    "definition": "The Nazca plate subducts beneath the South American plate: the Peru-Chile Trench offshore and the Andes, with many volcanoes, on land. The Juan de Fuca plate subducts beneath the North American plate: the Cascade Range volcanoes, including Mount St Helens.",
+    "term": "Oceanic–continental boundary: two named examples"
+   },
+   {
+    "definition": "The older, denser plate subducts, forming a trench and an island arc, with frequent earthquakes. The Pacific plate subducts beneath the Philippine plate at the Mariana Trench, about 11 km deep, the deepest place on earth; the Aleutian Islands are another arc.",
+    "term": "Oceanic–oceanic boundary: what forms, with two examples"
+   },
+   {
+    "definition": "Both plates are too light to subduct, so the crust and old ocean sediments between them are crushed, folded and pushed up into high fold mountains, such as the Alps. Crust is modified, not destroyed; earthquakes are common but volcanoes are few or absent.",
+    "term": "Continental–continental collision: what happens to the crust"
+   },
+   {
+    "definition": "The Indo-Australian (Indian) plate has been colliding with the Eurasian plate since about 50 million years ago, forming the Himalayas and the Tibetan Plateau. Mount Everest, 8,849 m, has marine fossils in limestone near its summit, from the Tethys Sea floor.",
+    "term": "Himalayas: the plates, the timing and the fossil evidence"
+   },
+   {
+    "definition": "Tōhoku, Japan, 11 March 2011: magnitude 9.0; the tsunami killed about 18,000 (dead and missing) and caused the Fukushima Daiichi nuclear disaster. Indian Ocean, 26 December 2004: magnitude 9.1 off Sumatra; the tsunami killed about 230,000 in 14 countries.",
+    "term": "Destructive boundaries: two tsunami disasters"
+   },
+   {
+    "definition": "Nepal, 25 April 2015: a magnitude 7.8 earthquake on the Himalayan collision boundary killed about 9,000 people. Mount St Helens, on the Juan de Fuca subduction zone, erupted on 18 May 1980, killing 57 people.",
+    "term": "Destructive boundaries: a named earthquake and a named eruption"
+   },
+   {
+    "definition": "Two plates slide past horizontally along a transform fault, in opposite directions or one way at different speeds; friction locks them until stress is released suddenly as an earthquake. No magma forms, and crust is neither created nor destroyed.",
+    "term": "Transform boundary: how earthquakes happen and why no volcanoes"
+   },
+   {
+    "definition": "The Pacific plate moves north-west relative to the North American plate. The San Francisco earthquake of 18 April 1906, magnitude about 7.8, was followed by great fires; the Loma Prieta earthquake of 1989, magnitude 6.9, struck near San Francisco.",
+    "term": "San Andreas Fault: plate movement and two earthquakes"
+   },
+   {
+    "definition": "On 6 February 2023 a magnitude 7.8 earthquake on the East Anatolian Fault, a transform fault in Turkey, killed over 50,000 people in Turkey and Syria.",
+    "term": "Turkey–Syria earthquake, 2023: boundary type and impact"
+   },
+   {
+    "definition": "Constructive (divergent): plates move apart and crust is created. Destructive (convergent): plates move together and crust is destroyed, or modified where two continents collide. Transform (passive, conservative): plates slide past and crust is conserved.",
+    "term": "What happens to crust at each type of plate boundary"
+   },
+   {
+    "definition": "A belt of destructive and some transform boundaries around the edge of the Pacific plate and its neighbours, with about 75% of the world's active volcanoes and about 90% of its earthquakes.",
+    "term": "Pacific Ring of Fire: boundary types and share of activity"
+   },
+   {
+    "definition": "All three are concentrated in narrow belts along plate boundaries (ridges, subduction zones, collision zones and transform faults), with very few in plate interiors. Fold mountains form only at convergent boundaries, as long chains along the plate edge.",
+    "term": "How plate tectonics explains where earthquakes, volcanoes and fold mountains occur"
    }
   ],
   "notes": [
@@ -17050,6 +21678,106 @@
    {
     "definition": "A model showing how birth and death rates, and so population growth, change in five stages as a country develops.",
     "term": "Demographic Transition Model"
+   },
+   {
+    "definition": "Population change = natural change + net migration. Between 2016 and 2022 the population grew by about 360,000 (about 7.6%): natural increase about 170,000 and net migration about 190,000, so net migration was slightly larger.",
+    "term": "Census 2016 to 2022: natural increase or net migration?"
+   },
+   {
+    "definition": "Planning schools, hospitals and housing; pensions (the State pension age has been 66 since 2014); transport and infrastructure; constituency boundaries, as population sets the number of TDs; funding for regions and workforce planning.",
+    "term": "How governments use population statistics: name six uses"
+   },
+   {
+    "definition": "High, steep or cold land is hard to farm, build on and reach; deserts and dense forest offer little water, farmland or access; poor soils and remoteness; few jobs, so young people leave and density drops.",
+    "term": "Low population density: four reasons"
+   },
+   {
+    "definition": "State about 5.15 million, about 73 people per km²; Greater Dublin Area (Dublin, Meath, Kildare, Wicklow) about 2.1 million, about 40% of the total; Co. Dublin about 1,600 per km²; Mayo about 25 per km²; Leitrim and Roscommon also sparse.",
+    "term": "Ireland's population distribution: Census 2022 figures"
+   },
+   {
+    "definition": "Before the Famine the population was rural and weighted to the west; now it is eastern and urban, with fast growth in Meath, Kildare and Wicklow. Density rises because natural increase and net immigration since the 1990s add people to a fixed area.",
+    "term": "Ireland's distribution over time, and why density is rising"
+   },
+   {
+    "definition": "Slow until about 1800 (about 1 billion), then a J-curve driven by falling death rates, reaching 8 billion on 15 November 2022; now slowing. Global fertility about 2.3 (early 2020s), down from about 5 in the 1950s. Growth is fastest in sub-Saharan Africa.",
+    "term": "World population growth: the pattern and the contrast"
+   },
+   {
+    "definition": "Stage 1 high stationary: pre-industrial societies (no country today). Stage 2 early expanding, when the death rate falls most: Niger. Stage 3 late expanding: India. Stage 4 low stationary: Ireland, USA. Stage 5 declining: Germany, Italy, Japan.",
+    "term": "Demographic Transition Model: the five stages with examples"
+   },
+   {
+    "definition": "Clean water and sanitation; vaccination; a better food supply; medical care. The death rate falls fastest in stage 2 while the birth rate stays high, so growth is rapid.",
+    "term": "DTM stage 2: why the death rate falls"
+   },
+   {
+    "definition": "Female education and paid work; contraception; falling infant mortality, so fewer insurance births; urbanisation, as children cost more and earn less; pensions replace children as old-age security; later marriage; weaker religious influence.",
+    "term": "DTM: why the birth rate falls after stage 2"
+   },
+   {
+    "definition": "Challenges: a shrinking workforce, labour shortages, rising pension and health costs, closing schools, rural depopulation. Responses: immigration, pro-natalist incentives to raise birth rates, later retirement.",
+    "term": "DTM stage 5 countries: challenges and responses"
+   },
+   {
+    "definition": "Uses: planning services, forecasting needs, comparing countries, showing past events. Reading: bulges show baby booms or immigration of young adults; notches show emigration, low birth years or war; more women than men at the oldest ages.",
+    "term": "Population pyramids: uses and how to read them"
+   },
+   {
+    "definition": "Wide base, narrow top: high fertility and short life expectancy (Niger). Straight sides: stable, low birth and death rates. Narrow base, wide top: ageing (Japan). Falling fertility narrows the base and longer lives widen the top.",
+    "term": "Pyramid shapes: developing vs developed countries"
+   },
+   {
+    "definition": "Young working adults migrate to cities for jobs and college, leaving older people, and sometimes children, behind in rural areas, so rural areas have more dependants for every person of working age.",
+    "term": "Why urban dependency ratios are lower than rural ones"
+   },
+   {
+    "definition": "Effects: higher pension costs; more demand for health care, nursing homes and carers; a smaller tax base; pressure to raise the pension age. Responses: home-care supports, pension reform, geriatric services, immigrant workers, age-friendly towns.",
+    "term": "Ageing population: effects and planning responses in Ireland"
+   },
+   {
+    "definition": "Income and economic development; the status and education of women; religion and culture; access to contraception; government policy; infant mortality, as high rates encourage larger families; urban or rural living.",
+    "term": "Birth rates: factors that influence them"
+   },
+   {
+    "definition": "Medical technology (vaccines, antibiotics), sanitation, diet, income and health services. Rich countries: lifestyle diseases such as heart disease and cancer. Poor countries: conflict, famine and disease such as malaria and HIV/AIDS.",
+    "term": "Death rates: factors in rich and poor countries"
+   },
+   {
+    "definition": "Ireland (about 82–83 years): good diet and housing, health services, vaccination, clean water, fewer smokers, safer work. Niger: clean water and sanitation, vaccination, mosquito nets and malaria treatment, more clinics, better nutrition, female education.",
+    "term": "Life expectancy: why it is long in Ireland and how to raise it in Niger"
+   },
+   {
+    "definition": "1841: about 6.5 million; 1851: 5.1 million; 1926: 3.0 million; 1961: 2.8 million, the lowest ever; 1981: 3.4 million; a small fall 1986 to 1991; 2002: 3.9 million; 2016: 4.76 million; 2022: about 5.15 million, the first time over 5 million since 1851.",
+    "term": "Ireland's census population, 1841 to 2022: key figures"
+   },
+   {
+    "definition": "Fertility about 4 in the early 1970s; births peaked at about 74,000 in 1980; fertility fell below replacement around 1990 and was about 1.5 in 2023, with about 55,000 births and 35,000 deaths (natural increase about 20,000).",
+    "term": "Irish births and fertility since the 1970s: key figures"
+   },
+   {
+    "definition": "Free secondary education (1967, Donogh O'Malley) and more women at third level; marriage bar removed (1973); contraception legalised (Health (Family Planning) Act 1979); more women in paid work and later marriage; secularisation; housing and childcare costs.",
+    "term": "Why Irish fertility fell: six reasons (three with dates)"
+   },
+   {
+    "definition": "Heavy net emigration in the 1950s (about 400,000 between 1951 and 1961) and again in the 1980s; net immigration in the 1970s, from the mid-1990s to 2008 and from the mid-2010s. Census 1971 was the first with a town majority; about 63% urban by 2016. Households are smaller.",
+    "term": "Ireland since the 1950s: migration and urbanisation in brief"
+   },
+   {
+    "definition": "About 776,000 aged 65 and over (about 15%), up about 22% since 2016; average age 38.8, up from 37.4 in 2016; about one-fifth under 15; about one in five people (just over 1 million) born outside Ireland.",
+    "term": "Ireland's changing age structure: Census 2022"
+   },
+   {
+    "definition": "EU (2023): fertility about 1.4, median age about 44.5, about 21% aged 65+, so immigration supplies most growth. Germany: deaths above births every year since 1972. Italy: fertility about 1.2. Bulgaria: about 9 million (1989) to 6.5 million (2021).",
+    "term": "Europe's ageing population: the EU, Germany, Italy and Bulgaria"
+   },
+   {
+    "definition": "Landlocked West Africa, in the Sahel and Sahara; about 27 million (2023), growing over 3% a year; fertility about 6 and median age about 15, among the most extreme in the world; a very wide-based pyramid; most people live in the rainier south.",
+    "term": "Niger: a young, fast-growing population (DTM stage 2)"
+   },
+   {
+    "definition": "About 29% aged 65 or over (2023), the world's highest share; population peaked at about 128 million around 2008–2010 and was about 124 million in 2024; fertility about 1.2; few immigrants; a top-heavy pyramid.",
+    "term": "Japan: an old, shrinking population (DTM stage 5)"
    }
   ],
   "notes": [
@@ -17570,6 +22298,82 @@
    {
     "definition": "China's policy from 1979–80 limiting most families to one child, enforced through fines, loss of benefits and in places forced abortion and sterilisation.",
     "term": "One-child policy"
+   },
+   {
+    "definition": "The Netherlands has over 500 people per km² but is not overpopulated, thanks to wealth, technology and trade. The Sahel is thinly populated but overpopulated, because its fragile resources, drought and poverty cannot support its people.",
+    "term": "Density is not overpopulation: two contrasting examples"
+   },
+   {
+    "definition": "Malthus (1798): population grows geometrically and food arithmetically, so famine, disease and war check growth. Boserup (1965): population pressure drives farming innovation, so food supply can rise. Club of Rome, The Limits to Growth (1972).",
+    "term": "Population theories: Malthus, Boserup and the Club of Rome"
+   },
+   {
+    "definition": "Overgrazing, overcultivation as fallow periods are abandoned, and cutting trees and shrubs for fuelwood strip the land; drought dries it out; wind and rain then erode the bare soil. Lake Chad has shrunk by about 90% since the 1960s.",
+    "term": "Sahel desertification: how it happens"
+   },
+   {
+    "definition": "The Great Green Wall, an African Union initiative launched in 2007, to restore a belt of land across the Sahel; stone lines (diguettes) along contours and zaï planting pits in Burkina Faso to trap water and soil; farmer-managed regeneration of trees in Niger.",
+    "term": "Sahel: four responses to desertification"
+   },
+   {
+    "definition": "Early marriage of girls is common, female literacy is low and large families carry prestige. Fertility is about 6 children per woman, growth over 3% a year and median age about 15; Niger is among the lowest-ranked in the UN Human Development Index.",
+    "term": "Niger: how society and culture keep growth high"
+   },
+   {
+    "definition": "About 8.2 million people on the whole island in 1841; the rural poor depended heavily on one resource, the potato; holdings were subdivided among sons into ever-smaller plots; landlords were often absent; conacre rented small plots for one season.",
+    "term": "Pre-Famine Ireland: why it was overpopulated"
+   },
+   {
+    "definition": "Potato blight (Phytophthora infestans) struck in 1845; about 1 million people died and about 1 million emigrated, and the island's population fell to about 6.6 million by 1851. It is often cited in support of Malthus.",
+    "term": "The Great Famine, 1845–49: what happened"
+   },
+   {
+    "definition": "Food shortages and famine (Sahel: late 1960s–1970s, early-to-mid 1980s); soil erosion, desertification and water shortages; unemployment and poverty; pressure on schools, hospitals and housing; migration to cities and abroad; conflict over land and water.",
+    "term": "Effects of overpopulation: six to name"
+   },
+   {
+    "definition": "Kerala: fertility about 1.8 (2019–21), literacy about 94% (2011), the highest of any state, with high female literacy and good health care. Bihar: fertility about 3.0 and literacy about 62%, the lowest. India as a whole: 943 females per 1,000 males (2011).",
+    "term": "India: Kerala and Bihar compared"
+   },
+   {
+    "definition": "In low-income countries children are economic assets, infant mortality is high and there are no pensions. As incomes rise, children cost more and women work and study, so fertility falls: Niger about 6, Ireland about 1.5, the EU about 1.4 (2023).",
+    "term": "Income levels: why poor countries have high birth rates"
+   },
+   {
+    "definition": "Fertility fell from about 6–7 in the early 1970s to about 2 in the 2020s through a national family planning programme with community health workers visiting homes, NGOs, girls' education, and millions of women employed in the garment industry.",
+    "term": "Bangladesh: how fertility fell while the country was still poor"
+   },
+   {
+    "definition": "Medical technology (vaccines, antibiotics, clean water; penicillin 1928; smallpox eradicated 1980) cut death rates faster than birth rates; the Green Revolution raised carrying capacity; contraception cut birth rates; subsistence farming limits the Sahel.",
+    "term": "Technology and population growth: four impacts"
+   },
+   {
+    "definition": "From the mid-1960s, high-yield seeds (wheat bred by Norman Borlaug, introduced under M. S. Swaminathan), irrigation and fertilisers raised yields; food-grain output rose from about 51 million tonnes (1950–51) to about 330 million (2022–23). Side effects: lower water tables, soil damage, debt.",
+    "term": "India's Green Revolution: what it achieved and its side effects"
+   },
+   {
+    "definition": "India launched the world's first national family planning programme in 1952. Forced sterilisations during the Emergency (1975–77) caused a backlash. Fertility has fallen from about 6 in the 1950s to about 2.0 (2019–21).",
+    "term": "India's family planning: two key events"
+   },
+   {
+    "definition": "Introduced in 1979–80, with exceptions for many rural families whose first child was a girl and for ethnic minorities. Replaced by a two-child policy from 2016 and a three-child policy in 2021; China's population fell in 2022, the first fall since 1961.",
+    "term": "China's one-child policy: exceptions and later changes"
+   },
+   {
+    "definition": "Fertility fell well below replacement; son preference and sex-selective abortion pushed the sex ratio at birth above 115 boys per 100 girls in the 2000s, leaving millions more men; the 4-2-1 family (four grandparents, two parents, one child); rapid ageing.",
+    "term": "China's one-child policy: four effects"
+   },
+   {
+    "definition": "Savings go on feeding and educating more people instead of investment; per-capita income gains are cancelled out; jobs cannot keep up; the environment is degraded; high fertility traps families and countries in poverty.",
+    "term": "How rapid population growth slows development"
+   },
+   {
+    "definition": "East Asian economies such as South Korea and China; Ireland from the 1990s, when the large generation born around 1980 (births peaked at about 74,000) entered the workforce in the late 1990s and 2000s, helping the Celtic Tiger.",
+    "term": "Demographic dividend: examples, including Ireland"
+   },
+   {
+    "definition": "Ageing, labour shortages, a shrinking tax base and high pension and health costs, as in Japan, Italy (fertility about 1.2, 2023) and South Korea (fertility about 0.7, 2023, the lowest in the world).",
+    "term": "Very slow or negative growth: effects on development"
    }
   ],
   "notes": [
@@ -17839,6 +22643,74 @@
    {
     "definition": "People living outside their country of origin, and their descendants.",
     "term": "Diaspora"
+   },
+   {
+    "definition": "Push: unemployment, low wages, recession and the decline of farm labouring. Pull: jobs in the Celtic Tiger economy; high wages in the UK, the USA and Australia; the availability of work permits.",
+    "term": "Push and pull factors associated with migration in Ireland"
+   },
+   {
+    "definition": "Distance and the cost of travel; immigration laws, visas and quotas; language; family ties and age; lack of information; cultural difference.",
+    "term": "Barriers (intervening obstacles) to migration: name six"
+   },
+   {
+    "definition": "Ravenstein: most migrants move short distances, in steps; each stream has a counter-stream; young adults are most likely to migrate; cities attract migrants. Lee: push and pull factors drive migration, and intervening obstacles reduce it.",
+    "term": "Ravenstein's laws of migration and Lee's model"
+   },
+   {
+    "definition": "The Great Famine (1845–49): about 1 million died and about 1 million emigrated. The State fell from about 6.5 million (1841) to about 2.8 million (1961), the lowest, with only a slight rise from 1946 to 1951. Over 30 million Americans report Irish ancestry.",
+    "term": "From the Famine to 1961: emigration and population decline"
+   },
+   {
+    "definition": "Net emigration of about 400,000 between 1951 and 1961, the highest since the 1880s; most went to Britain (London, Birmingham, Manchester, Coventry, Liverpool); more women than men left some rural areas. A Commission on Emigration reported in 1954.",
+    "term": "1950s emigration: how many and where they went"
+   },
+   {
+    "definition": "Stagnation and protectionism; unemployment; the decline of small farms and farm labouring as farming mechanised; Britain's post-war demand for workers in building, factories, nursing and transport; low fares and the Common Travel Area; chain migration.",
+    "term": "1950s emigration: causes"
+   },
+   {
+    "definition": "Whitaker's Economic Development and the First Programme for Economic Expansion (1958); the IDA attracting foreign investment from 1969; EEC entry on 1 January 1973. The 1970s were the first decade of net immigration since the Famine, with emigrants returning.",
+    "term": "1960s and 1970s: why emigration fell and immigration began"
+   },
+   {
+    "definition": "Recession, high unemployment and high taxes drove net emigration of over 200,000 between 1981 and 1991, including many graduates (brain drain). They went to Britain and the USA, where many were undocumented until the Donnelly and Morrison visas.",
+    "term": "1980s emigration: causes, numbers and destinations"
+   },
+   {
+    "definition": "EU migrants after enlargement on 1 May 2004, when only Ireland, the UK and Sweden opened their labour markets at once; returning Irish; non-EU workers on permits; asylum seekers. Census 2006: about 420,000 non-Irish nationals (about 10%), Polish about 63,000.",
+    "term": "Celtic Tiger immigration, 1996 to 2008: who came"
+   },
+   {
+    "definition": "The property crash, banking crisis (2008), unemployment and the EU–IMF bailout (November 2010). Emigration peaked at about 89,000 in the year to April 2013, about half Irish, many young graduates; mainly to Australia, the UK, Canada and the USA.",
+    "term": "Post-2008 emigration: causes, peak and destinations"
+   },
+   {
+    "definition": "Economic recovery; job growth in multinationals and services; returning Irish; non-EU skilled workers; international protection applicants; over 100,000 Ukrainians under EU temporary protection by 2024, after Russia's invasion on 24 February 2022.",
+    "term": "Immigration since the mid-2010s: causes"
+   },
+   {
+    "definition": "About 630,000 non-Irish nationals (about 12%) plus about 170,000 dual citizens; just over 1 million born abroad. Largest groups: Polish about 94,000, UK 83,000, Indian 45,000, Romanian 43,000, Lithuanian 31,000, Brazilian 27,000.",
+    "term": "Ireland's immigrant population: Census 2022"
+   },
+   {
+    "definition": "Loss of young workers and skills, and of the State's investment in their education; an ageing rural population and imbalanced age structure; rural decline, with closed schools, fewer marriages and depopulated parishes; lower birth rates; family separation.",
+    "term": "Ireland as a donor region: negative impacts"
+   },
+   {
+    "definition": "Emigrant remittances; less pressure on jobs and welfare; emigrants returned with skills, capital and experience in the 1970s and 1990s; diaspora links support trade, tourism and investment.",
+    "term": "Ireland as a donor region: positive impacts"
+   },
+   {
+    "definition": "Fills labour shortages in construction, health care, hospitality and technology; young workers pay taxes and offset ageing; new skills and enterprise; cultural diversity in food, sport, languages and religions; keeps rural schools and parishes open.",
+    "term": "Ireland as a receiver region: positive impacts"
+   },
+   {
+    "definition": "Pressure on housing, schools and health services; exploitation of some migrant workers; language barriers in schools; integration challenges and racism; remittances leave Ireland.",
+    "term": "Ireland as a receiver region: negative impacts"
+   },
+   {
+    "definition": "Fell: the recession, the collapse of construction and rising unemployment; many EU accession migrants returned home. Rose: economic recovery and job creation, multinational investment, EU free movement, returning Irish, an English-speaking EU country.",
+    "term": "Why immigration fell from 2007 to 2010 and rose after 2010"
    }
   ],
   "notes": [
@@ -18104,6 +22976,90 @@
    {
     "definition": "The 2024 Pact approach under which each state either accepts relocated asylum seekers or pays into a fund.",
     "term": "Mandatory solidarity"
+   },
+   {
+    "definition": "War and conflict force people to flee; persecution for religion, ethnicity, political opinion or sexuality; human rights abuses by the state against its own people.",
+    "term": "Why people seek asylum: three reasons"
+   },
+   {
+    "definition": "Safety, the rule of law and respect for human rights; high living standards, jobs and welfare; existing family and diaspora communities; nearness to conflict zones in the Middle East and Africa.",
+    "term": "Why EU states attract asylum seekers and migrants: four pull factors"
+   },
+   {
+    "definition": "Race, religion, nationality, membership of a particular social group or political opinion. Signed in Geneva in 1951; its 1967 Protocol removed the geographic and time limits. UNHCR is the UN refugee agency.",
+    "term": "1951 Refugee Convention: the five grounds of persecution"
+   },
+   {
+    "definition": "EU, EEA and Swiss citizens may live and work in Ireland without permits. On 1 May 2004 only Ireland, the UK and Sweden gave the new member states immediate access to their labour markets; Bulgaria and Romania followed after a delay.",
+    "term": "EU free movement in Ireland: the 2004 and later openings"
+   },
+   {
+    "definition": "Issued by the Department of Enterprise: the Critical Skills Employment Permit (e.g. ICT, engineering, medicine) and the General Employment Permit. A list of ineligible occupations and a labour-market test protect Irish and EU workers from displacement.",
+    "term": "Irish employment permits: two types and how the system works"
+   },
+   {
+    "definition": "Refugee Act 1996; International Protection Act 2015, with a single application procedure; the International Protection Office decides first-instance claims. Over 13,000 applications in 2022, a record at the time, and comparable numbers in 2023.",
+    "term": "Ireland's asylum system: the laws and recent numbers"
+   },
+   {
+    "definition": "Introduced in 2000: accommodation and meals in centres plus a small weekly allowance, now run by IPAS. Criticised, including by the McMahon Report (2015), for long stays, lack of privacy, unsuitability for children, rural isolation and poor mental health.",
+    "term": "Direct provision: what it is and its criticisms"
+   },
+   {
+    "definition": "A 2017 Supreme Court ruling led to a right to work after a waiting period from 2018. The February 2021 White Paper planned to end direct provision by the end of 2024, but the plan was abandoned as numbers rose; some applicants went unaccommodated.",
+    "term": "Direct provision: reforms since 2017"
+   },
+   {
+    "definition": "The 27th Amendment, passed by about 79%, ended the automatic right to citizenship for children born in Ireland to non-national parents. Non-nationals may naturalise after a period of residence and attend a citizenship ceremony.",
+    "term": "Citizenship referendum, June 2004: what changed"
+   },
+   {
+    "definition": "Irish Refugee Protection Programme (September 2015): up to 4,000 people, including refugees from Syria, through EU relocation and UNHCR resettlement. Over 100,000 Ukrainians came by 2024 under temporary protection, with an immediate right to live and work.",
+    "term": "Ireland's refugee programmes: resettlement and Ukrainians"
+   },
+   {
+    "definition": "Open to EU citizens and skilled workers but restrictive for low-skilled non-EU workers; the asylum system is slow and relies on direct provision; labour needs clash with housing pressure; anti-immigration protests show public opposition.",
+    "term": "Irish migration policy: evaluation"
+   },
+   {
+    "definition": "Free movement of workers: Treaty of Rome (1957); EU citizenship: Maastricht (1992). Schengen: signed 1985, in force 1995, 29 countries from 2025. Ireland (because of the Common Travel Area, kept after Brexit) and Cyprus are EU members outside it.",
+    "term": "EU free movement and Schengen: key dates"
+   },
+   {
+    "definition": "Dublin Convention 1990, then Dublin II (2003) and Dublin III (2013). Making the state of first entry responsible put most pressure on frontier states such as Italy, Greece, Spain and Malta, and the rule broke down in 2015.",
+    "term": "Dublin system: dates and why it broke down"
+   },
+   {
+    "definition": "Frontex, the EU border and coast guard agency, set up in 2004 with headquarters in Warsaw, runs patrols and returns. The EU Blue Card (2009) admits highly skilled non-EU workers to ease labour shortages in ageing populations.",
+    "term": "Frontex and the EU Blue Card: border control and legal migration"
+   },
+   {
+    "definition": "War in Syria from 2011, plus conflict in Afghanistan, Iraq and Eritrea. About 1.3 million EU asylum applications in 2015; over 1 million crossed the Mediterranean, most from Turkey to the Greek islands (Lesbos), others from Libya to Italy (Lampedusa).",
+    "term": "The 2015–16 migration crisis: causes and routes"
+   },
+   {
+    "definition": "Over 360 people died off Lampedusa, south of Sicily, a main landing point on the Central Mediterranean route. Italy responded with the Mare Nostrum search-and-rescue operation (2013 to 2014).",
+    "term": "Lampedusa shipwreck, October 2013: what happened and the response"
+   },
+   {
+    "definition": "Merkel's Wir schaffen das (August 2015): Germany took the most asylum seekers. The EU agreed to relocate 160,000 from Italy and Greece; Hungary, Poland and the Czech Republic refused (ruled illegal in 2020). Hungary built a fence on its border with Serbia.",
+    "term": "EU responses in 2015: Germany, relocation and Hungary"
+   },
+   {
+    "definition": "Irregular migrants reaching the Greek islands were to be returned to Turkey; the EU was to provide €6 billion for refugees in Turkey; arrivals in Greece fell sharply. It is an example of externalisation, as are deals with Libya and other North African states.",
+    "term": "EU–Turkey statement, March 2016: terms and result"
+   },
+   {
+    "definition": "The Temporary Protection Directive (2001) was first activated on 4 March 2022; over 4 million held it in 2024. Pact on Migration and Asylum (May 2024, applies from mid-2026): faster border procedures and mandatory solidarity. Ireland opted in.",
+    "term": "EU responses since 2022: temporary protection and the 2024 Pact"
+   },
+   {
+    "definition": "Cost of reception and housing; slow processing and backlogs; integration (language, jobs, schooling); an unequal burden on frontier states; political division and anti-immigration parties; security screening; deaths at sea and smuggling gangs.",
+    "term": "Challenges for EU states from large numbers of asylum seekers"
+   },
+   {
+    "definition": "Humanitarian duty against border control; solidarity between member states against national sovereignty, as the relocation dispute showed; Europe's need for workers against public opposition to immigration.",
+    "term": "EU migration policy: three tensions to evaluate"
    }
   ],
   "notes": [
@@ -18360,6 +23316,82 @@
    {
     "definition": "Europe's largest ethnic minority, originating in northern India and historically migratory.",
     "term": "Roma"
+   },
+   {
+    "definition": "Competition for jobs, housing and services; visible difference (skin colour, hijab); religious practice (dress, halal food, faith schools); segregated poor areas; language barriers; far-right politics and misinformation; bias against migrants' children.",
+    "term": "How ethnic and religious issues arise from migration: seven ways"
+   },
+   {
+    "definition": "Cultural enrichment through food, music, sport and festivals; new places of worship; intercultural schools; mixed marriages.",
+    "term": "Migration: positive cultural outcomes"
+   },
+   {
+    "definition": "About 69% Roman Catholic (about 78% in 2016); about 14% no religion (about 10% in 2016); about 100,000 Orthodox Christians, 82,000 Muslims and 33,000 Hindus. The Islamic Cultural Centre of Ireland is in Clonskeagh, Dublin.",
+    "term": "Ireland's religious change: Census 2022 figures"
+   },
+   {
+    "definition": "Census 2022: just over 1 million people (about one in five) born abroad and about 630,000 non-Irish nationals. About 9 in 10 primary schools are under Catholic patronage, so religion once decided many admissions (the baptism barrier).",
+    "term": "Ireland's growing diversity and the schools issue"
+   },
+   {
+    "definition": "East Wall, Dublin: protests from November 2022 against housing protection applicants in a former office building. Dublin riot, 23 November 2023: after a knife attack on children on Parnell Square, buses, a Luas tram and shops were burned and looted.",
+    "term": "Ireland: anti-immigration protests and the Dublin riot"
+   },
+   {
+    "definition": "Prohibition of Incitement to Hatred Act 1989; Employment Equality Act 1998 and Equal Status Act 2000 (nine grounds, including race, religion, Traveller community); Irish Human Rights and Equality Commission (2014); Criminal Justice (Hate Offences) Act 2024.",
+    "term": "Irish equality and anti-hatred laws"
+   },
+   {
+    "definition": "Migrant Integration Strategy 2017–2020; National Action Plan Against Racism (March 2023); the Education (Admission to Schools) Act 2018 removed the baptism barrier in most Catholic primary schools; Educate Together, a multi-denominational body founded in 1984.",
+    "term": "Irish integration and school policies"
+   },
+   {
+    "definition": "An indigenous Irish ethnic minority, not a migrant group; formally recognised by the State as an ethnic minority on 1 March 2017; about 33,000 Travellers were counted in Census 2022.",
+    "term": "Irish Travellers: ethnic status and recognition"
+   },
+   {
+    "definition": "The legal framework is strong, but protests from November 2022, the Dublin riot of November 2023 and arson attacks on buildings proposed for asylum accommodation (2023–24) show hostility persists; direct provision isolates applicants in rural centres and works against integration.",
+    "term": "Irish policy on ethnic issues: evaluation"
+   },
+   {
+    "definition": "Post-war immigrant labour came from Algeria, Morocco, Tunisia and Portugal; large-scale Algerian migration followed the war of independence (1954–62) and independence in 1962. France has the largest Muslim population in western Europe.",
+    "term": "France: where its post-war immigrants came from"
+   },
+   {
+    "definition": "1905: laïcité, the strict separation of church and state; 2004: conspicuous religious symbols, including the Islamic headscarf, banned in state schools; 2010: face coverings such as the burqa and niqab banned in public places, from 2011.",
+    "term": "France: three laws on religion in public life"
+   },
+   {
+    "definition": "Banlieues are segregated high-rise estates with high unemployment. In October–November 2005 riots began in Clichy-sous-Bois after two teenagers died fleeing police and spread nationwide; June 2023 riots followed a police shooting of a 17-year-old in Nanterre.",
+    "term": "France: the banlieues and the riots of 2005 and 2023"
+   },
+   {
+    "definition": "The Charlie Hebdo attack (January 2015) and the Paris attacks of 13 November 2015 (130 killed) were followed by rising Islamophobia. The National Front, founded 1972 by Jean-Marie Le Pen, became the National Rally in 2018 under Marine Le Pen.",
+    "term": "France: terrorism, Islamophobia and the far right"
+   },
+   {
+    "definition": "A 1961 agreement with Turkey brought guest workers until recruitment stopped in 1973. Many stayed, brought families and long lacked citizenship; segregated districts formed, such as Kreuzberg, Berlin. About 3 million people of Turkish origin live in Germany.",
+    "term": "Germany: Turkish guest workers"
+   },
+   {
+    "definition": "2000 law: citizenship for children born in Germany to long-resident foreign parents; 2024 reform: dual citizenship generally allowed, shorter residence requirement. The AfD (founded 2013) grew after the 2015 refugee arrivals on an anti-immigration platform.",
+    "term": "Germany: citizenship reforms and the AfD"
+   },
+   {
+    "definition": "The Empire Windrush reached Tilbury in June 1948 with Caribbean passengers, who met racism in housing and work; Notting Hill riots, 1958; Race Relations Act 1965, the first such UK law; 2018 Windrush scandal: settled residents wrongly detained or deported.",
+    "term": "Britain: the Windrush generation and its legacy"
+   },
+   {
+    "definition": "From 1609, after the Flight of the Earls (1607), Protestant settlers from Scotland and England took land confiscated from Catholic Irish. Division led to the Troubles (late 1960s to 1998, about 3,500 killed) and the Good Friday Agreement (10 April 1998).",
+    "term": "Plantation of Ulster: the migration and its religious legacy"
+   },
+   {
+    "definition": "Census 2021: about 46% Catholic and about 43% Protestant and other Christian. Most children attend schools of their own community, and peace walls still divide some Belfast neighbourhoods.",
+    "term": "Northern Ireland today: religious balance and division"
+   },
+   {
+    "definition": "About 10–12 million in Europe, its largest ethnic minority; came from northern India about 1,000 years ago; face discrimination in housing, education and jobs; France expelled Roma to Romania and Bulgaria in 2010, drawing EU criticism.",
+    "term": "The Roma: key facts"
    }
   ],
   "notes": [
@@ -18569,6 +23601,78 @@
    {
     "definition": "The poorer south of Italy, with about 20 million people.",
     "term": "Mezzogiorno"
+   },
+   {
+    "definition": "Lack of jobs and low farm incomes; mechanisation of farming; small, subdivided holdings; poor services (schools, hospitals, broadband, transport); drought, famine and land degradation in the developing world; isolation and lack of social life.",
+    "term": "Rural-to-urban migration: push factors from rural areas"
+   },
+   {
+    "definition": "Jobs in industry and services; higher wages; third-level education; better health care and services; entertainment and the bright lights of the city; family already there, creating chain migration.",
+    "term": "Rural-to-urban migration: pull factors to cities"
+   },
+   {
+    "definition": "Census 1971 was the first with more people in towns than rural areas; about 63% were urban by 2016. Farming mechanised and small farms became unviable, while industrial and service jobs concentrated in Dublin and the other cities.",
+    "term": "Ireland's urbanisation: when it happened and why"
+   },
+   {
+    "definition": "Dublin city and suburbs about 1.26 million; Co. Dublin about 1.46 million; Greater Dublin Area about 2.1 million (about 40% of the State). Cork about 220,000; Limerick about 100,000; Galway city about 85,000; Waterford about 60,000.",
+    "term": "Growth in Irish cities: Census 2022 figures"
+   },
+   {
+    "definition": "A large labour pool attracts multinationals and service firms; economies of scale support transport, universities and hospitals; a rich cultural life.",
+    "term": "Dublin as a receiver region: positive impacts"
+   },
+   {
+    "definition": "Housing shortages, high rents and prices, and homelessness; sprawl into Meath, Kildare and Wicklow and commuter towns such as Navan, Drogheda, Naas and Newbridge; long commutes and congestion; pressure on water supply and services.",
+    "term": "Dublin as a receiver region: negative impacts"
+   },
+   {
+    "definition": "An ageing population and higher dependency ratios; fewer young adults and births; closed schools, post offices, Garda stations, shops and pubs; derelict houses; GAA teams amalgamating; farms with no successor; Gaeltacht decline.",
+    "term": "The West and North-West as a donor region: negative impacts"
+   },
+   {
+    "definition": "Leitrim fell from about 155,000 people (1841) to about 35,000 (2022), the least populous county; Mayo has about 25 people per km², against about 1,600 in Co. Dublin. Every county grew from 2016 to 2022, so decline is now local, in remote areas.",
+    "term": "Rural decline in Ireland: Leitrim, Mayo and Census 2022"
+   },
+   {
+    "definition": "National Spatial Strategy (2002): gateways and hubs; Western Development Commission (from 1999); CLÁR (2001) for depopulated rural areas; decentralisation of public service jobs (2003); Údarás na Gaeltachta (1980); rural broadband and remote working hubs.",
+    "term": "Irish responses to rural decline: name six"
+   },
+   {
+    "definition": "Published February 2018: plans for about 1 million more people by 2040, with about half of the growth in the five cities (Dublin, Cork, Limerick, Galway, Waterford) and their suburbs, and the four cities other than Dublin growing faster than Dublin.",
+    "term": "National Planning Framework (Project Ireland 2040): its aims"
+   },
+   {
+    "definition": "Italy: post-war migration from the Mezzogiorno to Turin and Milan; €1 house schemes in depopulating villages such as Sambuca di Sicilia. France: Gravier's Paris et le désert français (1947); Île-de-France holds about 18% of France's people.",
+    "term": "Italy and France: European examples of rural-to-urban migration"
+   },
+   {
+    "definition": "Migrants leave poorer rural states, Bihar (the densest, about 1,100 per km²) and Uttar Pradesh, for Mumbai, Delhi and Kolkata, pushed by small holdings, debt, landlessness and drought, and pulled by jobs in construction, factories and the informal sector.",
+    "term": "India: why people migrate from rural to urban areas"
+   },
+   {
+    "definition": "About 65 million people lived in slums (2011): Dharavi, Mumbai, about 2 km² near the centre, with small industries (recycling, leather, pottery, garments); bustees in Kolkata. Water, sanitation and transport are strained, but cities gain cheap labour.",
+    "term": "India: impacts on the receiver cities"
+   },
+   {
+    "definition": "Male out-migration leaves women, children and the old to farm; remittances fund houses, education and farm inputs; working-age labour is lost. In the March 2020 COVID-19 lockdown, millions of migrant workers walked or travelled home.",
+    "term": "India: impacts on the donor villages"
+   },
+   {
+    "definition": "Nordestinos left the sertão, the drought-prone semi-arid interior of the North-East, for São Paulo and Rio de Janeiro, and some helped build Brasília (capital from 1960). Brazil is now about 87% urban (2020s).",
+    "term": "Brazil: migration from the North-East, from where to where"
+   },
+   {
+    "definition": "São Paulo city reached about 11.5 million (Census 2022), over 20 million in its metropolitan region; favelas grew on hillsides and at the urban edge, such as Rocinha in Rio; informal work, and gang crime in some favelas; the North-East loses young people.",
+    "term": "Brazil: impacts on the cities and on the North-East"
+   },
+   {
+    "definition": "Nearly 300 million rural migrant workers (2023), many in coastal cities such as Shenzhen, which grew to over 17 million after becoming the first Special Economic Zone (1980). Under hukou (1958) they lack full urban services; children and elderly are left behind.",
+    "term": "China: rural migrant workers and the hukou system"
+   },
+   {
+    "definition": "Developed: slower migration, absorbed by planned housing and services; the donor problem is ageing rural decline. Developing: fast, huge migration; cities lack housing, jobs and services, so slums and informal work grow; villages rely on remittances.",
+    "term": "Rural-to-urban migration: developed and developing regions contrasted"
    }
   ],
   "notes": [
@@ -18718,7 +23822,7 @@
     "h": "Developing region: China",
     "points": [
      "The hukou (household registration) system, introduced in 1958, ties public services to a person's registered home.",
-     "Nearly 300 million rural migrant workers (2023) work in coastal cities such as Shenzhen, Guangzhou and Shanghai.",
+     "Nearly 300 million rural migrant workers (2023), many of them in coastal cities such as Shenzhen, Guangzhou and Shanghai.",
      "Shenzhen grew from a small town to a city of over 17 million after becoming China's first Special Economic Zone in 1980.",
      "China's urban share passed 50% in 2011.",
      "Rural villages are left with 'left-behind' children and elderly people.",
@@ -18828,6 +23932,82 @@
    {
     "definition": "Land reclaimed from the sea and protected from flooding by embankments.",
     "term": "Polder"
+   },
+   {
+    "definition": "Local: Co. Clare (or a city's hinterland); national: the West of Ireland; continental: North West Europe; global: the Islamic world.",
+    "term": "Regions at different scales: give one example at each scale"
+   },
+   {
+    "definition": "Cool temperate oceanic: Ireland and North West Europe. Warm temperate oceanic: the Mediterranean type, with hot, dry summers and mild, wet winters. Hot desert: e.g. the Sahara.",
+    "term": "Climatic regions in matching questions: three types and their examples"
+   },
+   {
+    "definition": "Met Éireann long-term averages: mean January (coldest month) about 4–7°C; mean July (warmest month) about 14–16°C; so the annual range is only about 10°C. Snow is rare on low ground; rain falls in every month.",
+    "term": "Cool temperate oceanic climate: Ireland's temperature figures"
+   },
+   {
+    "definition": "About 1,000–1,250 mm a year across much of the west and over 2,000 mm on many western mountains, but only about 750 mm in the driest parts of the east, around Dublin, which lies in a rain shadow.",
+    "term": "Annual rainfall across Ireland: the west–east figures"
+   },
+   {
+    "definition": "About 150 wet days (days with measurable rain) a year on the east and south-east coasts, rising to about 225 a year in parts of the west. The south-east is the sunniest region.",
+    "term": "Wet days and sunshine in Ireland: the west–east contrast"
+   },
+   {
+    "definition": "Latitude (about 51.5°N to 55.5°N, moderate sun angle); the North Atlantic Drift (mild winters, ice-free coasts); maritime influence (small range); prevailing south-westerlies off the Atlantic; frequent Atlantic depressions; relief rain on western mountains.",
+    "term": "Why Ireland has a cool temperate oceanic climate: six controls"
+   },
+   {
+    "definition": "Ireland, Britain, north-west France (Brittany), Belgium, the Netherlands, Denmark and coastal Norway. All face the Atlantic, share the North Atlantic Drift and lie in the path of westerly depressions.",
+    "term": "North West Europe: which countries share Ireland's climate, and why"
+   },
+   {
+    "definition": "Away from the Atlantic, winters get colder, summers warmer, the annual range larger and rainfall lower, with a summer maximum (continental influence). The change is gradual, so the region's boundary is a transition zone, not a line.",
+    "term": "Cool temperate oceanic region: how the climate changes moving east across Europe"
+   },
+   {
+    "definition": "Deciduous forest, mainly oak and ash; brown earth soils; grass grows for most of the year, which favours pastoral farming in Ireland, mainly cattle and dairying.",
+    "term": "Cool temperate oceanic region: natural vegetation, soils and farming"
+   },
+   {
+    "definition": "North-west Co. Clare, on Carboniferous limestone; the name comes from the Irish Boireann, meaning rocky place. Granite erratics from Connemara rest on the limestone, showing that ice scraped off the soil and exposed the pavement.",
+    "term": "The Burren: location, rock, name and evidence of glaciation"
+   },
+   {
+    "definition": "Limestone pavement of clints and grikes; turloughs; Aillwee Cave and Doolin Cave, which holds the Great Stalactite, about 7.3 m long; Mullaghmore, a hill of folded, terraced limestone; very few surface rivers, as drainage is underground.",
+    "term": "The Burren: five karst features, naming the caves and the hill"
+   },
+   {
+    "definition": "Arctic-alpine and Mediterranean plants side by side (spring gentian, mountain avens); winterage cattle grazing; Poulnabrone, a Neolithic portal tomb on the pavement; Burren National Park near Mullaghmore; the Burren and Cliffs of Moher UNESCO Global Geopark.",
+    "term": "The Burren: plant life, farming, heritage and protection"
+   },
+   {
+    "definition": "Armorican folding about 300 million years ago (east–west) made anticlines and synclines; differential erosion left the harder Old Red Sandstone as ridges and wore the Carboniferous limestone into valleys, which hold the towns, routes and best farmland.",
+    "term": "Munster ridge and valley: how the landscape formed"
+   },
+   {
+    "definition": "Sandstone ridges (anticlines): Macgillycuddy's Reeks, the Galtee, Knockmealdown and Caha Mountains. Limestone valleys (synclines): the Blackwater and Lee valleys. Rias: Bantry Bay, Dingle Bay and the Kenmare River.",
+    "term": "Munster ridge and valley: named ridges, valleys and rias"
+   },
+   {
+    "definition": "It flows east along its limestone valley between parallel sandstone ridges, through Mallow, Fermoy and Lismore, with tributaries flowing off the ridges at right angles; then it turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal.",
+    "term": "River Blackwater: how its course shows trellised drainage"
+   },
+   {
+    "definition": "A vast, low, flat to gently rolling lowland from northern France through Belgium, the Netherlands, northern Germany, Denmark and Poland into Russia. The Rhine and Elbe flow north to the North Sea; the Oder and Vistula flow north to the Baltic.",
+    "term": "Northern European Plain: extent and rivers"
+   },
+   {
+    "definition": "Glacial deposits (moraines, outwash sands and lakes) shape the north; a belt of fertile loess, a wind-blown silt, along the southern edge grows wheat and sugar beet.",
+    "term": "Northern European Plain: surface deposits and farming"
+   },
+   {
+    "definition": "Polders are reclaimed from the sea in the Netherlands: the Afsluitdijk, completed 1932, closed off the Zuiderzee. Flat, fertile land gives easy transport, a dense population and major cities such as Berlin, Warsaw, Hamburg and Amsterdam.",
+    "term": "Northern European Plain: polders and human consequences"
+   },
+   {
+    "definition": "The Burren: rock type (Carboniferous limestone). Munster ridge and valley: geological structure (folded sandstone and limestone). Northern European Plain: relief and surface deposits (glacial, loess).",
+    "term": "Three geomorphological regions: the criterion that defines each"
    }
   ],
   "notes": [
@@ -19036,6 +24216,62 @@
    {
     "definition": "The main town of a French département.",
     "term": "Chef-lieu"
+   },
+   {
+    "definition": "Townland and electoral division; local authority area (county or city council); Dáil constituency; regional assembly area; the State; the European Union, a supranational scale of 27 member states since the United Kingdom left in 2020.",
+    "term": "Administrative regions in Ireland: the hierarchy of scales, smallest to largest"
+   },
+   {
+    "definition": "There are 26 counties in the Republic and 32 on the island. The four provinces (Leinster, Munster, Connacht, Ulster) are historic and have no administrative function today.",
+    "term": "Irish counties and provinces: the numbers and their status today"
+   },
+   {
+    "definition": "In 1994 County Dublin was divided into Fingal, South Dublin and Dún Laoghaire–Rathdown county councils, alongside Dublin City Council. Dublin Corporation became Dublin City Council in 2002 under the Local Government Act 2001.",
+    "term": "County Dublin: two changes to its local government"
+   },
+   {
+    "definition": "26 county councils, 3 city councils (Dublin, Cork, Galway) and 2 city and county councils (Limerick, Waterford); 949 councillors. Town councils were replaced by municipal districts, and North and South Tipperary merged into Tipperary County Council.",
+    "term": "Local Government Reform Act 2014: the 31 local authorities and other changes"
+   },
+   {
+    "definition": "Housing; roads and traffic; planning permission and development plans; libraries; the fire service; environment and waste; parks and amenities. Funded partly by the Local Property Tax and commercial rates; elections every five years (2019, 2024).",
+    "term": "Irish local councils: functions and funding"
+   },
+   {
+    "definition": "The boundary was extended in 2019 to take in the growing suburbs of Ballincollig, Blarney and Glanmire, and Cork Airport: an administrative boundary changing as population grows.",
+    "term": "Cork City boundary extension, 2019: what it took in"
+   },
+   {
+    "definition": "Three regional assemblies since 2015 (Northern and Western; Southern; Eastern and Midland) prepare regional plans and manage EU funds. From 2000 to 2006 the BMW region held Objective 1 status, the highest EU aid; the rest was the Southern and Eastern region.",
+    "term": "Irish regional assemblies and the 2000–2006 EU funding regions"
+   },
+   {
+    "definition": "Each constituency elects 3 to 5 TDs by PR-STV. The Constitution requires one TD for every 20,000 to 30,000 people, so boundaries are redrawn as population shifts between censuses.",
+    "term": "Dáil constituencies: the rules on seats and representation"
+   },
+   {
+    "definition": "The Electoral Commission, established in 2023 to replace constituency commissions, created 43 constituencies electing 174 TDs, first used in the 2024 general election.",
+    "term": "Electoral Commission's 2023 review: the outcome"
+   },
+   {
+    "definition": "A county's population may not fit a 3-to-5-seat constituency, so some combine counties, e.g. Sligo–Leitrim. Growing areas such as Dublin and its commuter belt gain seats; declining areas lose them.",
+    "term": "Why constituencies cross county boundaries and change over time"
+   },
+   {
+    "definition": "Created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris. Each was drawn so every place could reach its chef-lieu within about a day's ride on horseback.",
+    "term": "French départements: when and why they were created"
+   },
+   {
+    "definition": "101 départements: 96 metropolitan and 5 overseas. Each has a number, used for example as the first two digits of postcodes (Paris is 75). Corsica is split into two départements, numbered 2A and 2B. Many are named after rivers or mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Pyrénées-Atlantiques.",
+    "term": "French départements: the numbers to know, with named examples"
+   },
+   {
+    "definition": "A prefect (préfet) appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges).",
+    "term": "French département: who governs it and what it is responsible for"
+   },
+   {
+    "definition": "About 35,000 communes (each with a mayor), départements and regions. In 2016 metropolitan regions were cut from 22 to 13 by merging, to compete in Europe; regions handle economic development, regional transport and lycées. Ireland is far more centralised.",
+    "term": "France's three tiers of government and the 2016 regional reform"
    }
   ],
   "notes": [
@@ -19120,7 +24356,7 @@
      "Origin: created in 1790 during the French Revolution to replace the old provinces, weaken regional loyalties and centralise power in Paris.",
      "Each was drawn so that every place could reach its main town (chef-lieu) within about a day's ride on horseback.",
      "There are 101 départements: 96 in metropolitan France and 5 overseas.",
-     "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes. Paris is 75, and Corsica has two, numbered 2A and 2B.",
+     "Each has a number, originally allocated alphabetically, which forms the first two digits of its postcodes; Paris is 75. Corsica has two départements, numbered 2A and 2B, though its postcodes begin with 20.",
      "Many are named after natural features such as rivers and mountains, e.g. Bouches-du-Rhône, Haute-Garonne, Seine-Maritime and Pyrénées-Atlantiques.",
      "Government: each has a prefect (préfet), appointed by the national government, and an elected departmental council responsible for social welfare, roads and lower secondary schools (collèges)."
     ]
@@ -19191,6 +24427,86 @@
    {
     "definition": "Barriers separating Catholic and Protestant neighbourhoods in Belfast.",
     "term": "Peace walls"
+   },
+   {
+    "definition": "Scattered pockets in Donegal, Mayo, Galway, Kerry, Cork, Waterford and Meath, mainly along the western seaboard. Irish survived in remote, mountainous areas with poor farmland and communications, which had least contact with English-speaking trade and towns.",
+    "term": "The Gaeltacht: its seven counties and why Irish survived there"
+   },
+   {
+    "definition": "Gaoth Dobhair (Gweedore), Co. Donegal; Conamara and the Aran Islands, Co. Galway, the largest; Corca Dhuibhne (the Dingle Peninsula), Co. Kerry; Múscraí and Oileán Chléire, Co. Cork; An Rinn (Ring), Co. Waterford; Ráth Chairn and Baile Ghib, Co. Meath.",
+    "term": "Name the main Gaeltacht areas and their counties"
+   },
+   {
+    "definition": "In the 1930s the State resettled Irish-speaking families from Connemara in Co. Meath, forming the two Meath Gaeltachtaí, Ráth Chairn and Baile Ghib: a cultural region created deliberately.",
+    "term": "Meath Gaeltacht: how the State created a cultural region"
+   },
+   {
+    "definition": "Irish is the first official language (Article 8, 1937 Constitution); Údarás na Gaeltachta (1980) promotes jobs and Irish; Raidió na Gaeltachta (1972); TG4 (1996, as Teilifís na Gaeilge); Official Languages Act 2003; Irish-medium schools and summer colleges.",
+    "term": "State support for the Irish language and the Gaeltacht: six measures"
+   },
+   {
+    "definition": "Out-migration of young people; in-migration of English speakers and holiday homes; English-language media and tourism. Census 2022: about 1.9 million said they could speak Irish, but only about 72,000 spoke it daily outside the education system.",
+    "term": "Threats to the Gaeltacht, and the Census 2022 speaker gap"
+   },
+   {
+    "definition": "Flanders (north): Dutch (Flemish), with more than half of Belgians; Wallonia (south): French; a German-speaking community in the east, around Eupen; Brussels-Capital: officially bilingual, inside Flanders but mostly French-speaking.",
+    "term": "Belgium: its language regions and where each lies"
+   },
+   {
+    "definition": "The border marks the old boundary between Germanic- and Latin-speaking peoples and was fixed by law in 1962–63. Belgium became a federal state in 1993, with three regions and three language communities, each with its own parliament.",
+    "term": "Belgium's language border and federal state: origin and dates"
+   },
+   {
+    "definition": "In 1968 Leuven university split, and its French-speaking section moved to a new town, Louvain-la-Neuve, in Wallonia. After the 2010 election Belgium went 541 days without a government because Flemish and French-speaking parties could not agree.",
+    "term": "Belgium: two examples of tension between the language groups"
+   },
+   {
+    "definition": "Wallonia's coal and steel industries in the Sambre–Meuse valley (Charleroi, Liège) declined, while Flanders, with the port of Antwerp and newer industries, became the wealthier region; many Flemish people resent money transferred to Wallonia.",
+    "term": "Belgium: how the language divide matches an economic divide"
+   },
+   {
+    "definition": "Basque Country: Basque (Euskara) is unrelated to any other European language, and the region crosses the border of Spain and France. Catalonia, north-east Spain: Catalan language, capital Barcelona, an unofficial independence referendum on 1 October 2017.",
+    "term": "Basque Country and Catalonia: the key facts for each"
+   },
+   {
+    "definition": "About 69% Roman Catholic, down from about 78% in Census 2016; about 14% said they had no religion, a rising share. Immigration has added other religions, such as Orthodox Christians and Muslims.",
+    "term": "Religion in the Republic of Ireland: Census 2022 figures"
+   },
+   {
+    "definition": "Begun in 1609, it brought Protestant settlers from Britain and created a Protestant majority in much of the north-east of Ulster. Religion became tied to political identity: mostly Catholic nationalists and mostly Protestant unionists.",
+    "term": "Plantation of Ulster: how it created a religious region"
+   },
+   {
+    "definition": "In Belfast, religion defines segregated residential areas, separated in places by peace walls (peace lines). Census 2021 showed, for the first time, more Catholics than Protestants in Northern Ireland.",
+    "term": "Northern Ireland: religion at the local scale, and the Census 2021 change"
+   },
+   {
+    "definition": "Founded by the Prophet Muhammad in Arabia in the 7th century. Mecca and Medina, in present-day Saudi Arabia, are its holiest cities. The Islamic calendar begins with the Hijra, Muhammad's move from Mecca to Medina, in 622.",
+    "term": "Islam: founder, holiest cities and the start of its calendar"
+   },
+   {
+    "definition": "From Morocco in North Africa through the Middle East and Central Asia to Pakistan, Bangladesh and Indonesia, the country with the largest Muslim population. Muslims are almost a quarter of the world's population, so Islam is second only to Christianity.",
+    "term": "The Islamic world: its extent and size"
+   },
+   {
+    "definition": "Arab conquest across North Africa and into Spain from 711 (Moorish rule until Granada fell in 1492); trade routes to South and South-East Asia; the Ottoman Turks into the Balkans, leaving Muslim communities in Bosnia and Herzegovina, Albania and Kosovo.",
+    "term": "How Islam spread, and its legacy in southern and south-eastern Europe"
+   },
+   {
+    "definition": "A shared faith built on the Five Pillars, including prayer facing Mecca and the Hajj; Arabic as the language of the Qur'an; mosques and minarets in the landscape; Islamic law (Sharia) in some states; shared customs of dress, food and calendar.",
+    "term": "What makes the Islamic world a region: traits to name"
+   },
+   {
+    "definition": "Sunni Muslims are the large majority; Shia are the majority in Iran and Iraq, and their rivalry adds to Middle East conflict. Migration has brought North Africans to France, Turks to Germany, and Pakistanis and Bangladeshis to Britain.",
+    "term": "Divisions and migration in the Islamic world: Sunni, Shia and western Europe"
+   },
+   {
+    "definition": "Roman Catholic south and centre: Italy, Spain, Portugal, Poland, Ireland, southern Germany. Protestant north: Scandinavia, northern Germany, Britain. Orthodox east and south-east: Greece, Russia, Romania, Serbia.",
+    "term": "Europe's three Christian regions: name the countries in each"
+   },
+   {
+    "definition": "The Catholic and Orthodox churches split (Rome and Constantinople); Martin Luther began the Protestant Reformation in Germany in 1517. In the 1990s the break-up of Yugoslavia set Orthodox Serbs, Catholic Croats and Muslim Bosniaks at war in Bosnia.",
+    "term": "Europe's religious divisions: origins and one conflict"
    }
   ],
   "notes": [
@@ -19366,6 +24682,74 @@
    {
     "definition": "The clustering of firms in one place, which attracts more firms because of shared markets, labour and services.",
     "term": "Agglomeration"
+   },
+   {
+    "definition": "Core: the Paris Basin, the Greater Dublin Area. Peripheral: the West of Ireland, the BMW region, the Mezzogiorno, northern Norway. Industrial decline: the Sambre–Meuse valley, the Ruhr, the South Wales coalfield.",
+    "term": "Region types in matching questions: core, peripheral or industrial decline?"
+   },
+   {
+    "definition": "High GDP per head, low unemployment; a large tertiary sector (finance, headquarters, high-tech); most foreign investment; net in-migration of young, educated workers; dense infrastructure (motorways, airports, ports, rail); universities; usually the capital.",
+    "term": "Core regions: seven characteristics"
+   },
+   {
+    "definition": "Causes: accessibility; a large market and labour force; an early start; government and capital functions; agglomeration, as firms attract more firms. Problems of success: congestion, high house prices, urban sprawl and pressure on services.",
+    "term": "Core regions: why they develop, and the problems of success"
+   },
+   {
+    "definition": "Dublin, Kildare, Meath and Wicklow. County Dublin: about 1.45 million in Census 2022 (State about 5.1 million). Dublin has the seat of government, Dublin Port, Dublin Airport and European headquarters of technology firms such as Google in the docklands.",
+    "term": "Greater Dublin Area as a core region: key facts"
+   },
+   {
+    "definition": "Île-de-France, the region around Paris at the heart of the Paris Basin, has about 12 million people. The Blue Banana is the curved belt of Europe's main core, from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan).",
+    "term": "Paris Basin and the Blue Banana: core region facts"
+   },
+   {
+    "definition": "Remoteness and poor access; mountains, high rainfall, poor soils, short growing season; small farms, fishing, forestry; low incomes, underemployment; out-migration of young adults, leaving an ageing population; fewer services; scattered settlements.",
+    "term": "Peripheral regions: characteristics"
+   },
+   {
+    "definition": "EU regional and cohesion funds; state agencies channelling investment; better roads and broadband; decentralisation of government offices; tourism built on scenery and culture.",
+    "term": "Peripheral regions: how governments and the EU respond"
+   },
+   {
+    "definition": "West of Ireland: the Northern and Western regional assembly area, where Co. Leitrim has the smallest population of any county. The Mezzogiorno, southern Italy. Northern Norway: Arctic, remote, reliant on fishing. North-west Scotland: the Highlands and Islands.",
+    "term": "Name four peripheral regions, with one fact about each"
+   },
+   {
+    "definition": "Most less-developed regions in Europe are also peripheral, such as the Mezzogiorno and much of eastern Europe (Romania, Bulgaria). A peripheral region can still lie in a rich country, such as the West of Ireland or northern Norway.",
+    "term": "Peripheral vs less-developed regions: the overlap and the difference"
+   },
+   {
+    "definition": "Ireland was a single Objective 1 region, receiving the highest level of EU aid, until 1999. From 2000 to 2006 only the BMW (Border, Midland and Western) region kept Objective 1 status.",
+    "term": "Ireland and EU Objective 1 status: what changed in 2000"
+   },
+   {
+    "definition": "Coal seams exhausted or too costly to work; cheaper imports and competition from newly industrialised countries; coal replaced by oil and gas; out-of-date plant; automation needing fewer workers.",
+    "term": "Regions of industrial decline: five causes"
+   },
+   {
+    "definition": "High unemployment, especially among older male workers; derelict factories, mines and spoil heaps; polluted land; out-migration; falling services; a poor image that deters new investment.",
+    "term": "Regions of industrial decline: effects"
+   },
+   {
+    "definition": "Retraining workers; clearing and cleaning derelict land; attracting new light industry and services; universities and technology parks; reusing industrial heritage for tourism and culture; EU funds.",
+    "term": "Regions of industrial decline: responses"
+   },
+   {
+    "definition": "North Rhine-Westphalia, Germany: Europe's largest coal and steel region (Essen, Dortmund, Duisburg). Germany's last hard-coal mine, Prosper-Haniel in Bottrop, closed in 2018; Essen's Zollverein coal mine complex became a UNESCO World Heritage Site in 2001.",
+    "term": "The Ruhr: key facts as a region of industrial decline"
+   },
+   {
+    "definition": "Sambre–Meuse, Wallonia, Belgium: coal mining and steel along the Sambre and Meuse, e.g. Charleroi and Liège, in contrast to prosperous Flanders. South Wales coalfield, including the Rhondda valleys: coal mining collapsed in the late 20th century.",
+    "term": "Sambre–Meuse valley and South Wales coalfield: industrial decline facts"
+   },
+   {
+    "definition": "Belfast: the Harland and Wolff shipyard, which built the Titanic (launched 1911), declined greatly in the late 20th century. Dublin docklands: port jobs fell with containerisation; the IFSC, set up in 1987 on derelict dockland, regenerated the area.",
+    "term": "Industrial decline in Ireland: two examples"
+   },
+   {
+    "definition": "Primary: large commercial farms on good land vs small, fragmented farms on poor land. Secondary: manufacturing and multinational investment vs few small, often grant-aided factories. Tertiary: finance, headquarters, government vs tourism, public services.",
+    "term": "Core vs peripheral regions: how economic activity differs"
    }
   ],
   "notes": [
@@ -19398,7 +24782,7 @@
     "points": [
      "Greater Dublin Area: Dublin, Kildare, Meath and Wicklow. County Dublin had about 1.45 million people in Census 2022.",
      "Dublin, the capital, has the seat of government, and its docklands host the European headquarters of many technology firms, e.g. Google. The Irish core is covered in the Irish Regions chapter.",
-     "Paris Basin, France: its region, Île-de-France, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
+     "Paris Basin, France: Île-de-France, the region around Paris at the basin's core, has about 12 million people. The Paris Basin is covered in the European Regions chapter.",
      "The Blue Banana: the curved belt of Europe's main core, running from south-east England and London through the Benelux countries and the Rhine valley to northern Italy (Milan)."
     ]
    },
@@ -19527,6 +24911,62 @@
    {
     "definition": "A city region with several centres of similar size rather than one dominant city.",
     "term": "Polycentric region"
+   },
+   {
+    "definition": "Jobs: commuters travel in daily. Services: shops, hospitals, third-level colleges, entertainment, offices. Goods: the hinterland supplies food, water, raw materials and labour; the city supplies manufactured goods. Information: local newspapers, radio and TV.",
+    "term": "City and hinterland: four flows that link them"
+   },
+   {
+    "definition": "Census commuting data; the catchment area of a hospital, college or secondary school; the circulation area of a local newspaper or reach of a local radio station; bus and rail routes and timetables; business delivery areas; home addresses of shoppers.",
+    "term": "Measuring a city's hinterland: methods to name"
+   },
+   {
+    "definition": "Neighbouring hinterlands overlap and different services give different edges; bigger cities have bigger hinterlands. Motorways, car ownership, faster rail and remote working extend commuter belts; new services in smaller towns can shrink a city's hinterland.",
+    "term": "Hinterland boundaries: why they are not sharp lines, and how they change"
+   },
+   {
+    "definition": "Dublin is the focus of the national motorway network, with radial routes meeting the M50 ring road, and of the main rail lines; it also has Dublin Port and Dublin Airport, Ireland's busiest airport. Problems: urban sprawl, long commutes and congestion, high house prices.",
+    "term": "Dublin as a nodal region: its transport focus and problems"
+   },
+   {
+    "definition": "Navan (Co. Meath), Naas and Newbridge (Co. Kildare), Bray (Co. Wicklow) and Drogheda (Co. Louth). For government, national media, specialist hospitals and the main airport, Dublin's hinterland is the whole country.",
+    "term": "Dublin's hinterland: name its commuter towns, and its national reach"
+   },
+   {
+    "definition": "Ireland's second city, on the River Lee at the head of Cork Harbour; pharmaceutical plants at Ringaskiddy; commuter towns Carrigaline, Midleton and Cobh; its hinterland covers much of Munster.",
+    "term": "Cork as a city region: key facts"
+   },
+   {
+    "definition": "The main city of the West, serving a large rural hinterland that includes Connemara; a centre of the medical devices industry and of higher education, with the University of Galway.",
+    "term": "Galway as a city region: key facts"
+   },
+   {
+    "definition": "Part of Project Ireland 2040, published in 2018, it aims to direct more growth to Cork, Limerick, Galway and Waterford to counterbalance Dublin.",
+    "term": "National Planning Framework: its aim for Irish city regions"
+   },
+   {
+    "definition": "France's primate city, at the centre of the Paris Basin; Île-de-France has about 12 million people. Radial motorways and TGV lines meet there (the first, Paris to Lyon, opened 1981), so its hinterland reaches across France; Charles de Gaulle Airport.",
+    "term": "Paris as a nodal region: key facts"
+   },
+   {
+    "definition": "Capital of the United Kingdom; Greater London has about 9 million people (Census 2021); the City of London is a global financial centre; its commuter belt covers much of south-east England.",
+    "term": "London as an urban region: key facts"
+   },
+   {
+    "definition": "Capital of Belgium and seat of the European Commission and the Council of the EU; the European Parliament meets both there and in Strasbourg. NATO headquarters is in Brussels too.",
+    "term": "Brussels: why its influence extends across the EU"
+   },
+   {
+    "definition": "Europe's largest port, at the mouth of the Rhine (Europoort). Its hinterland is the whole Rhine basin, linked by river barges, rail and pipelines, so it crosses national borders.",
+    "term": "Rotterdam: an example of a port hinterland crossing borders"
+   },
+   {
+    "definition": "A ring of cities in the Netherlands (Amsterdam, Rotterdam, The Hague, Utrecht) forming one large urban region around a rural Green Heart (Groene Hart), unlike the single-centre Paris and Dublin regions.",
+    "term": "The Randstad: a polycentric city region"
+   },
+   {
+    "definition": "Milan: main city of Lombardy, northern Italy's core, and Italy's financial centre (Borsa Italiana). Also matched as urban regions: Munich (capital of Bavaria), Berlin, Rome, London, Brussels and Limerick.",
+    "term": "Milan and other cities named as urban regions in matching questions"
    }
   ],
   "notes": [
@@ -19604,7 +25044,7 @@
      "Paris is the primate city of France, at the centre of the Paris Basin. Radial motorways and TGV high-speed lines meet there, so its hinterland reaches across France.",
      "The first TGV line, Paris to Lyon, opened in 1981. Charles de Gaulle Airport serves the city.",
      "London is the capital of the United Kingdom and a global financial centre, through the City of London. Greater London has about 9 million people (Census 2021), and its commuter belt covers much of south-east England.",
-     "Brussels is the capital of Belgium and seat of the main EU institutions: the European Commission, the Council of the EU and the European Parliament, which also meets in Strasbourg. NATO headquarters is also in Brussels.",
+     "Brussels is the capital of Belgium and seat of the European Commission and the Council of the EU; the European Parliament meets both in Brussels and in Strasbourg, its official seat. NATO headquarters is also in Brussels.",
      "Rotterdam is Europe's largest port, at the mouth of the Rhine (Europoort). Its hinterland is the whole Rhine basin, linked by river barges, rail and pipelines, so it crosses national borders.",
      "Milan is the main city of Lombardy, the core of northern Italy, and Italy's financial centre, home to the Borsa Italiana stock exchange.",
      "Other urban regions named in exam matching include Munich (capital of Bavaria), Berlin (capital of Germany) and Rome (capital of Italy)."
@@ -19752,6 +25192,150 @@
    {
     "definition": "A pattern in which a developed core region dominates and a poorer periphery is less developed.",
     "term": "Core–periphery"
+   },
+   {
+    "definition": "Relief: outline the Himalayas as a band along the northern border, or the Deccan south of the Narmada. River: the Ganges from Uttarakhand south-east past Varanasi to its delta. Cities as dots: Mumbai (west coast), Kolkata (on the Hooghly). Farming region: outline Punjab.",
+    "term": "Sketch map of India: recommended features and how to place them"
+   },
+   {
+    "definition": "Heating of the land in early summer creates low pressure over north-west India and Tibet; the ITCZ moves north; south-east trades cross the equator and turn (Coriolis force) into moist south-west winds; the jet stream shifts north of the Himalayas and the monsoon bursts.",
+    "term": "South-west monsoon: how it forms, in sequence"
+   },
+   {
+    "definition": "Hot season, March–May; wet south-west monsoon, June–September, reaching Kerala about 1 June and all India by mid-July and bringing about three-quarters of the year's rain; cool dry season, October–February, when north-east winds blow off the land.",
+    "term": "India's three seasons and the timing of the monsoon"
+   },
+   {
+    "definition": "The Arabian Sea branch rises over the Western Ghats, soaking the Konkan and Malabar coasts; the Deccan lies in rain shadow. The Bay of Bengal branch hits the north-east hills (Mawsynram, Cherrapunji), then turns west along the Ganges plain, drier westwards.",
+    "term": "Monsoon branches: where the heaviest rain falls and why"
+   },
+   {
+    "definition": "A late or weak monsoon brings drought, a heavy one floods; cyclones strike the east coast (Odisha super cyclone, October 1999, about 10,000 deaths); climate change makes it more erratic. It sets the farming calendar, refills reservoirs and groundwater, and affects GDP.",
+    "term": "Monsoon hazards, and why the monsoon matters to India"
+   },
+   {
+    "definition": "Alluvial: Indo-Gangetic Plain, most extensive and fertile. Black (regur): Deccan Traps, cotton. Red: south and east Deccan, millets, groundnuts, pulses. Laterite: Western Ghats and Kerala, tea, coffee, cashew with fertiliser. Desert: Thar, productive only where irrigated.",
+    "term": "India's main soil types: where they are found and what they grow"
+   },
+   {
+    "definition": "Young fold mountains formed as the Indian plate collides with the Eurasian plate (from about 50 million years ago); Kangchenjunga (8,586 m) is India's highest peak. Effects: block cold Central Asian air; trigger monsoon rain; feed snow-fed rivers; earthquakes; sparse settlement.",
+    "term": "The Himalayas: formation, highest peak and effects on India"
+   },
+   {
+    "definition": "An ancient, stable shield of crystalline rock, once part of Gondwanaland, tilting west to east so most rivers flow east; minerals on the Chota Nagpur Plateau; Deccan Traps basalt in the north-west; the steep Western Ghats (UNESCO 2012) and lower, broken Eastern Ghats.",
+    "term": "The Deccan Plateau and the Ghats: key features"
+   },
+   {
+    "definition": "Rises as the Bhagirathi at Gaumukh (Gangotri Glacier, Uttarakhand) and becomes the Ganga at Devprayag; flows about 2,500 km past Haridwar, Kanpur, Prayagraj (where the Yamuna joins), Varanasi and Patna to the Ganges–Brahmaputra delta, the world's largest.",
+    "term": "The Ganges: source, course, cities and delta"
+   },
+   {
+    "definition": "About 55% of workers farmed (Census 2011), yet farming gives under a fifth of GDP: low productivity. Holdings average about 1.1 hectares, 86% under 2 hectares (2015–16), subdivided at inheritance; landless labourers; little credit, so debt; middlemen; post-harvest losses.",
+    "term": "Indian agriculture: importance and human problems"
+   },
+   {
+    "definition": "Subsistence farming on small plots; wet-rice (paddy) in the wet east, south and deltas; irrigated commercial wheat in Punjab and Haryana; tea plantations in Assam, Darjeeling and the Nilgiri Hills; coffee in Karnataka; cotton on black soils; jute in West Bengal; dairying.",
+    "term": "Types of agriculture in India and where they are found"
+   },
+   {
+    "definition": "Advantages: heat allows two or three crops a year; monsoon rain; fertile alluvium and black soil; flat plains; perennial Himalayan rivers for irrigation. Problems: unreliable monsoon; poor laterite and desert soils; steep slopes; erosion; salinisation; falling water tables.",
+    "term": "Physical advantages and problems for farming in India"
+   },
+   {
+    "definition": "From the mid-1960s: high-yielding wheat (Borlaug; brought in by M. S. Swaminathan) and rice, fertilisers and irrigation. Grain output rose from about 51 million tonnes (1950–51) to about 330 million (2022–23). Gains went mainly to Punjab and Haryana; costs: groundwater loss, debt.",
+    "term": "Green Revolution: methods, results and costs"
+   },
+   {
+    "definition": "Operation Flood (1970), run by the National Dairy Development Board under Verghese Kurien, spread co-operative dairying on the Amul model (Anand, Gujarat). Religion helps: the cow is sacred to Hindus, so cattle are kept for milk and draught, not beef.",
+    "term": "White Revolution: how India became the largest milk producer"
+   },
+   {
+    "definition": "Minimum support prices, with grain bought by the Food Corporation of India; PM-KISAN (2019) pays ₹6,000 a year to landholding farm families. Conflict: the 2020–21 farmers' protests against three farm laws, repealed in November 2021; stubble burning worsening Delhi's smog.",
+    "term": "Indian farming: government support and recent conflict"
+   },
+   {
+    "definition": "The Chota Nagpur Plateau (Jharkhand, Odisha, Chhattisgarh) holds most coal and iron ore. India is the second-largest coal producer; coal gives about 70% of electricity. Mumbai High oilfield (1974). Bhadla Solar Park; target of 500 GW non-fossil capacity by 2030.",
+    "term": "India's mining and energy: named examples"
+   },
+   {
+    "definition": "Tata Iron and Steel (1907) at Jamshedpur used Chota Nagpur coal and iron ore; cotton from black soils fed mills in Mumbai and Ahmedabad, the 'Manchester of India'; jute from the Ganges delta fed mills along the Hooghly near Kolkata.",
+    "term": "Raw materials and the location of Indian industry: three examples"
+   },
+   {
+    "definition": "1951–1991: five-year plans, state steel plants (Bhilai, Rourkela, Durgapur), protection, the Licence Raj. 1991: Narasimha Rao and Manmohan Singh scrapped most licences, cut tariffs and opened to foreign investment. Later: SEZ Act 2005, Make in India 2014, incentives from 2020.",
+    "term": "Government policy and Indian manufacturing, 1951 to today"
+   },
+   {
+    "definition": "Labour: a huge, young, low-cost workforce and engineers from the IITs (first at Kharagpur, 1951). Markets: over 1.4 billion people and a growing middle class. Infrastructure: ports, railways, the Golden Quadrilateral, but power cuts and congestion raise costs.",
+    "term": "Labour, markets and infrastructure as factors for Indian industry"
+   },
+   {
+    "definition": "Mumbai–Pune; Ahmedabad–Vadodara (Gujarat); the Hooghly belt round Kolkata; Chota Nagpur and the Damodar valley (Jamshedpur); the Delhi National Capital Region (Gurugram, Noida); Bengaluru, Chennai, Coimbatore. Bihar, Uttar Pradesh and Odisha have less industry.",
+    "term": "India's main manufacturing regions"
+   },
+   {
+    "definition": "Steel: second-largest producer. Cars: Maruti Suzuki (1983) at Gurugram and Manesar; Hyundai at Chennai. Medicines: Hyderabad; the Serum Institute, Pune, the largest vaccine maker. Electronics: Foxconn iPhones at Sriperumbudur. Aerospace: HAL and ISRO in Bengaluru.",
+    "term": "Key Indian industries with named examples"
+   },
+   {
+    "definition": "Poor infrastructure and power; land conflicts (at Singur in 2008 protests forced Tata to move its Nano plant to Sanand, Gujarat); bureaucracy; competition from China; accidents (Bhopal gas leak, 1984); old industries declining, as Mumbai's mills closed after the 1982 strike.",
+    "term": "Challenges facing manufacturing in India"
+   },
+   {
+    "definition": "Centres: Bengaluru ('Silicon Valley of India'), Hyderabad, Pune, Chennai, Gurugram, Noida. Reasons: many English-speaking graduates; the IITs; low wages; a time difference allowing round-the-clock work for the USA; 1991 liberalisation and software technology parks.",
+    "term": "India's IT industry: centres and reasons for growth"
+   },
+   {
+    "definition": "The Taj Mahal, Agra, built by Shah Jahan for Mumtaz Mahal (UNESCO 1983); the Golden Triangle of Delhi, Agra and Jaipur; Goa's beaches; Kerala's backwaters at Alappuzha; Varanasi's ghats; Jim Corbett National Park (1936) and Kaziranga; the Golden Temple, Amritsar.",
+    "term": "Tourism in India: name eight attractions"
+   },
+   {
+    "definition": "Mughal and Hindu monuments and festivals; varied landscapes; a warm, dry winter (October–March) matching Europe's; low costs; yoga, Ayurveda and medical tourism. Support: 'Incredible India' (2002); e-visas (2014); low-cost airlines. About 11 million foreign arrivals in 2019.",
+    "term": "Tourism in India: why tourists come, and government support"
+   },
+   {
+    "definition": "Positive: jobs in hotels, guiding, crafts and transport; foreign currency; infrastructure; protection of heritage and wildlife. Negative: crowding and pollution (air pollution yellows the Taj Mahal's marble); water shortages and waste in Goa; cultural erosion; seasonality.",
+    "term": "Tourism in India: positive and negative impacts"
+   },
+   {
+    "definition": "Rail: first train Bombay–Thane, 16 April 1853; Indian Railways runs about 68,000 km and employs over 1 million; Vande Bharat trains (2019); Mumbai–Ahmedabad high-speed line being built. Road: the Golden Quadrilateral (from 2001) links Delhi, Mumbai, Chennai and Kolkata.",
+    "term": "Transport in India: two named types with facts"
+   },
+   {
+    "definition": "Census 1951 about 361 million; Census 2011 about 1.21 billion; India passed China in 2023 (UN). Death rates fell first (medicine, vaccination, Green Revolution food) while births stayed high; fertility was 2.0 in 2019–21 (NFHS-5), below replacement: late stage 3.",
+    "term": "India's population: size, growth and demographic transition"
+   },
+   {
+    "definition": "First national family-planning programme in the world (1952); forced sterilisation in the Emergency (1975–77) caused a backlash. Census 2011: 943 females per 1,000 males (918 aged 0–6), due to son preference; sex determination banned 1994; 'Beti Bachao Beti Padhao' (2015).",
+    "term": "India's population policy and sex ratio"
+   },
+   {
+    "definition": "Dense: the Ganges plain (fertile alluvium, water, flat land), deltas, the Kerala and West Bengal coasts, big cities. Sparse: the Thar (aridity), the Himalayas (cold, steep, thin soils), north-east hills. Census 2011: Bihar about 1,100 per km², Arunachal Pradesh about 17.",
+    "term": "Population distribution in India: dense and sparse areas, with reasons"
+   },
+   {
+    "definition": "22 languages in the Eighth Schedule; 121 spoken by 10,000 or more (Census 2011). Indo-Aryan in the north (Hindi, Bengali), Dravidian in the south (Tamil, Telugu). Hindi, mother tongue of about 44%, is the Union's official language; states were redrawn by language in 1956.",
+    "term": "Languages in India: diversity, families and official status"
+   },
+   {
+    "definition": "Census 2011: Hindu about 80%; Muslim about 14% (about 172 million); Christian 2.3%; Sikh 1.7%; Buddhist 0.7%; Jain 0.4%. Sikhs are concentrated in Punjab; Christians are the majority in Nagaland, Mizoram and Meghalaya; Muslims in Jammu and Kashmir.",
+    "term": "Religion in India: composition and distribution"
+   },
+   {
+    "definition": "A hereditary social system linked to Hinduism, not a religion. The Constitution (1950) abolished untouchability; Scheduled Castes (about 17%) and Scheduled Tribes (about 9%) have reserved places in education, government jobs and parliament. Caste still shapes rural life.",
+    "term": "The caste system in India today"
+   },
+   {
+    "definition": "Seven islands joined by reclamation round a deep, sheltered harbour; a port built up by the East India Company; 19th-century cotton mills; the financial capital (Reserve Bank, Bombay Stock Exchange 1875); Bollywood; rural migrants. Greater Mumbai: about 18.4 million (2011).",
+    "term": "Mumbai: factors in its growth"
+   },
+   {
+    "definition": "Dharavi, one of Asia's largest slums; overcrowding, high housing costs, packed suburban trains; the 26 July 2005 flood (about 944 mm in a day at Santacruz); poor water and sanitation. Responses: Navi Mumbai twin city (from the 1970s), slum redevelopment, metro lines.",
+    "term": "Mumbai: urban problems and responses"
+   },
+   {
+    "definition": "About 833 million rural people (69%, 2011) face poverty, debt, tiny holdings and poor services. Policies: Panchayati Raj (1992, a third of seats for women); MGNREGA (2005, 100 days' paid work); rural roads (2000); Swachh Bharat (2014); village electrification (2018).",
+    "term": "Rural India: problems and development policies"
    }
   ],
   "notes": [
@@ -20905,6 +26489,110 @@
    {
     "definition": "A suburb around a French city, often with large social housing estates.",
     "term": "Banlieue"
+   },
+   {
+    "definition": "River: the Seine, with Paris, Rouen and Le Havre (at its mouth) on it. Cities: Paris plus Rouen, Le Havre or Reims. Relief: the Beauce lowland, with rim uplands drawn as its edge. Farming: the Beauce (cereals) or Champagne (vines). Industry: the Lower Seine.",
+    "term": "Sketch map of the Paris Basin: what to show and where"
+   },
+   {
+    "definition": "A low sedimentary basin in northern France, open to the English Channel, ringed by the Armorican Massif, Massif Central, Vosges and Ardennes. Core: the capital; France's largest concentration of people, wealth, industry and services; fertile farmland; the transport hub.",
+    "term": "Paris Basin: location, boundaries and why it is a core region"
+   },
+   {
+    "definition": "Paris: January about 5°C, July about 20°C, about 600–650 mm of rain spread through the year. Oceanic in the west, more continental eastwards, with colder winters and warmer summers inland. Champagne lies near the northern limit of commercial vine growing.",
+    "term": "Paris Basin climate: figures and the west–east change"
+   },
+   {
+    "definition": "A saucer of limestone, chalk, clay and sand layers dipping towards Paris, mostly below 300 m, with outward-facing escarpments and clay vales in the east. Deep, fertile limon covers the Beauce, Brie and Picardy plateaux; Champagne has thin chalk soils; clay suits grass.",
+    "term": "Paris Basin relief and soils"
+   },
+   {
+    "definition": "About 775 km from the Langres plateau through Troyes, Paris and Rouen to Le Havre; the Aube, Yonne, Marne and Oise converge on Paris; gentle gradients make it navigable. It flooded in January 1910 and June 2016; upstream reservoirs such as Lac du Der-Chantecoq regulate it.",
+    "term": "The Seine: course, tributaries and flooding"
+   },
+   {
+    "definition": "Low, gently rolling relief suits large mechanised fields; limon soils are fertile and easily worked; warm summers ripen cereals and grapes over a long growing season; dry weather at harvest. France is the EU's largest farm and wheat producer.",
+    "term": "Paris Basin agriculture: physical advantages"
+   },
+   {
+    "definition": "South-west of Paris around Chartres. Wheat, barley and maize, with sugar beet and oilseed rape; many farms exceed 100 hectares; large, highly mechanised farms on flat limon land give high yields.",
+    "term": "The Beauce: cereal farming in the 'granary of France'"
+   },
+   {
+    "definition": "Vines grow on chalk escarpment slopes around Reims and Épernay (on the Marne). Only sparkling wine from this AOC area may be called Champagne; houses such as Moët & Chandon age it in chalk cellars, adding value. UNESCO World Heritage Site since 2015.",
+    "term": "Champagne: how and where its vines are grown"
+   },
+   {
+    "definition": "Wetter clay grassland supports dairying in Normandy (Camembert) and Brie (Brie cheese). Market gardening of vegetables and flowers on the edge of Paris gets fresh produce quickly to a huge urban market.",
+    "term": "Dairying and market gardening in the Paris Basin"
+   },
+   {
+    "definition": "Remembrement consolidated scattered plots after the Second World War; mechanisation; co-operatives and agribusiness; France gets the largest share of CAP spending; the Paris market, served by Rungis (1969, replacing Les Halles); rural depopulation as farms mechanised.",
+    "term": "Human and economic factors in Paris Basin farming"
+   },
+   {
+    "definition": "Nuclear power gives about two-thirds of France's electricity, from stations by cooling water: Nogent-sur-Seine (Seine), Dampierre and Saint-Laurent (Loire), Paluel and Penly (Normandy coast). Imported crude is refined at Gonfreville-l'Orcher near Le Havre.",
+    "term": "Energy in the Paris Basin: nuclear power and oil refining"
+   },
+   {
+    "definition": "France's largest market and labour force; head offices and capital; universities and research; the hub of road, rail, river and air transport; government. Food processing uses local sugar beet, cereals and Champagne grapes, saving the cost of moving bulky crops.",
+    "term": "Why manufacturing concentrated in and around Paris"
+   },
+   {
+    "definition": "Renault at Flins and PSA (now Stellantis) at Poissy, both west of Paris. Renault's Boulogne-Billancourt plant on Île Seguin closed in 1992 as industry moved from the inner city to suburban and provincial sites.",
+    "term": "Paris Basin car industry and industry leaving the inner city"
+   },
+   {
+    "definition": "Le Havre, France's largest container port, and Rouen, its main grain-exporting port, have oil refining and petrochemicals; with Paris they form HAROPA (2021). Paris-Saclay, south-west of Paris, is a research and high-technology cluster.",
+    "term": "Lower Seine industrial axis and Paris-Saclay"
+   },
+   {
+    "definition": "From the 1950s–60s new industry in Paris was restricted and steered to the provinces: DATAR (1963); eight métropoles d'équilibre (1964), such as Lyon, Marseille and Lille; the 1965 plan's new towns. Paris lost manufacturing but kept head offices and research.",
+    "term": "Decentralisation policy and its effect on Paris industry"
+   },
+   {
+    "definition": "Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines, created under the 1965 regional plan (schéma directeur) for Paris.",
+    "term": "Name the five new towns built around Paris"
+   },
+   {
+    "definition": "Government, finance, head offices and universities; OECD and UNESCO headquarters; La Défense, one of Europe's largest business districts. Île-de-France has about 12 million people (about 18% of France) and produces about 30% of French GDP.",
+    "term": "Paris as a primate city and service centre: key facts"
+   },
+   {
+    "definition": "Eiffel Tower (1889); the Louvre, the most visited art museum; Notre-Dame (fire 2019, reopened 2024); Versailles; Disneyland Paris, Marne-la-Vallée (1992); the 2024 Olympic Games; Champagne cellar tours. Problems: congestion, seasonal pressure, wear on sites.",
+    "term": "Paris Basin tourism: named attractions and problems"
+   },
+   {
+    "definition": "Radial network centred on Paris; Périphérique (1973); TGV Paris–Lyon (1981); Channel Tunnel and Eurostar (1994); RER; Grand Paris Express (about 200 km, 68 stations); Charles de Gaulle (1974), France's busiest airport, and Orly; river port at Gennevilliers.",
+    "term": "Paris Basin transport: road, rail, air and river"
+   },
+   {
+    "definition": "Île-de-France about 1,000 per km²; City of Paris about 2.1 million on 105 km², about 20,000 per km²; far lower in rural Champagne and the outer basin. Reasons: jobs, services and transport concentrate in Paris; mechanised farms need few workers.",
+    "term": "Population distribution in the Paris Basin, with reasons"
+   },
+   {
+    "definition": "Gravier's 'Paris and the French desert' (1947) argued Paris drained France; rural-to-urban migration gave the region a young age structure; retirees move out; post-war immigrants came from Algeria, Morocco, Tunisia and Portugal.",
+    "term": "Population dynamics and migration in the Paris Basin"
+   },
+   {
+    "definition": "Standard French grew from the Paris dialect; traditionally Catholic, with low attendance, laïcité (1905) and a large North African Muslim minority; a centralised state; Paris Saint-Germain, Roland-Garros, the Tour de France finish, Stade de France (1998).",
+    "term": "Culture of the Paris Basin: language, religion, politics and sport"
+   },
+   {
+    "definition": "Site: the Île de la Cité, a Seine crossing. Situation: centre of the basin, where the Seine's tributaries converge (the Marne joins just upstream, the Oise just downstream). Capital of a centralised state; hub of radial transport; rich limon farmland; France's largest market and labour force.",
+    "term": "Factors in the growth of Paris as an urban area"
+   },
+   {
+    "definition": "Haussmann rebuilt the centre (1853–1870) with boulevards, apartment blocks, parks and sewers; grands ensembles such as Sarcelles (1950s–70s); the Périphérique; new towns (1965 plan); La Défense; Métropole du Grand Paris (2016, about 130 communes); Grand Paris Express.",
+    "term": "Urban development of Paris: main planning stages"
+   },
+   {
+    "definition": "Congestion; high housing costs; segregation and deprivation in the banlieues, where Seine-Saint-Denis is the poorest département in mainland France; riots that began in Clichy-sous-Bois in October 2005; urban sprawl.",
+    "term": "Urban problems of Paris"
+   },
+   {
+    "definition": "Fewer farmers on larger holdings; depopulation of the outer basin, part of the 'diagonale du vide'; commuter villages growing near Paris; second homes and rural tourism bringing visitors and money.",
+    "term": "Rural development in the Paris Basin"
    }
   ],
   "notes": [
@@ -21200,7 +26888,7 @@
     "h": "Urban growth: factors for Paris",
     "points": [
      "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine.",
-     "Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne.",
+     "Situation: Paris lies near the centre of the Paris Basin, where the Seine's main tributaries, the Marne, Oise, Aube and Yonne, converge (the Marne joins just upstream of the city and the Oise just downstream).",
      "Transport: the city is the hub of a radial road and rail network and of the river port at Gennevilliers.",
      "Administration: as capital and seat of a centralised state, Paris concentrates government, finance and head offices.",
      "Primary activity: the rich limon plateaux around the city supplied food to a growing population.",
@@ -21273,7 +26961,7 @@
    },
    {
     "marks": 30,
-    "model": "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine. Situation: Paris lies near the centre of the Paris Basin, where the Seine is joined by the Marne, Oise, Aube and Yonne. Transport: the city is the hub of a radial road and rail network, and the Port of Paris at Gennevilliers is one of Europe's largest river ports. Administration: as the capital of a highly centralised state, Paris concentrates government, finance and head offices, and it is home to the OECD and UNESCO. Primary activity: the fertile limon plateaux around the city supplied food to a growing population, and Rungis now distributes fresh produce to it. Industry and services: the largest market and labour force attracted manufacturing and services, and La Défense became one of Europe's largest purpose-built business districts. Growth and planning: Haussmann rebuilt central Paris between 1853 and 1870 with wide boulevards, parks and sewers; post-war grands ensembles housed workers in the suburbs; the 1965 plan created five new towns; the Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 communes; and the Grand Paris Express is extending the metro network.",
+    "model": "Site: Paris began on the Île de la Cité, an island at a crossing point of the Seine. Situation: Paris lies near the centre of the Paris Basin, where the Seine's main tributaries, the Marne, Oise, Aube and Yonne, converge (the Marne joins just upstream of the city and the Oise just downstream). Transport: the city is the hub of a radial road and rail network, and the Port of Paris at Gennevilliers is one of Europe's largest river ports. Administration: as the capital of a highly centralised state, Paris concentrates government, finance and head offices, and it is home to the OECD and UNESCO. Primary activity: the fertile limon plateaux around the city supplied food to a growing population, and Rungis now distributes fresh produce to it. Industry and services: the largest market and labour force attracted manufacturing and services, and La Défense became one of Europe's largest purpose-built business districts. Growth and planning: Haussmann rebuilt central Paris between 1853 and 1870 with wide boulevards, parks and sewers; post-war grands ensembles housed workers in the suburbs; the 1965 plan created five new towns; the Métropole du Grand Paris was created on 1 January 2016, joining Paris with about 130 communes; and the Grand Paris Express is extending the metro network.",
     "prompt": "Discuss the factors which influenced the development of one urban area in a European region (not in Ireland).",
     "type": "short"
    }
@@ -21364,6 +27052,110 @@
    {
     "definition": "Cave dwellings in Matera, whose residents were moved to new housing in the 1950s.",
     "term": "Sassi"
+   },
+   {
+    "definition": "Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicily and Sardinia (not Rome or Lazio). About 40% of Italy's area and about a third of its people: about 20 million of 59 million. 'Mezzogiorno' means midday.",
+    "term": "The Mezzogiorno: its eight regions and its share of Italy"
+   },
+   {
+    "definition": "Far from the EU core and northern Italian markets; mountainous land and dry summers; history (joined united Italy in 1861, with land held in large estates); organised crime; emigration. It makes about 22% of Italy's GDP; unemployment is two to three times the North's.",
+    "term": "Why the Mezzogiorno is a peripheral region"
+   },
+   {
+    "definition": "Rivers: Volturno (Campania), Ofanto (Puglia), Basento (Basilicata). Cities: Naples, Bari, Taranto, Palermo, Catania. Relief: the Apennines, the Sila, Etna, Vesuvius; the Tavoliere lowland. Areas: the Tavoliere (durum wheat); the Bari–Brindisi–Taranto industrial triangle.",
+    "term": "Sketch map of the Mezzogiorno: features to name"
+   },
+   {
+    "definition": "Hot, dry summers as subtropical high pressure moves north (July 25°C or more); mild, wet winters from Atlantic depressions (January 9–12°C), most rain October–March. Under 600 mm on parts of Puglia and Sicily, more on the Apennines. Sirocco: hot, dusty wind from the Sahara.",
+    "term": "Mezzogiorno climate: causes and figures"
+   },
+   {
+    "definition": "Summer drought causes water shortage, so farmers grow drought-tolerant olives, vines and durum wheat and irrigate citrus; winter downpours cause flash floods and soil erosion; summer wildfires destroy woodland. The Apulian Aqueduct carries water to dry Puglia.",
+    "term": "Impact of climate on primary activity in the Mezzogiorno"
+   },
+   {
+    "definition": "The Apennines form the spine (Corno Grande, 2,912 m), with the Calabrian uplands and the Sila; lowlands are small and coastal: the Tavoliere di Puglia, the Campanian plain, the plain of Catania. Steep slopes limit farming and transport and push villages onto hilltops.",
+    "term": "Relief of the Mezzogiorno and its effects on people"
+   },
+   {
+    "definition": "Where the African and Eurasian plates meet. Earthquakes: Messina (28 December 1908, tens of thousands killed), Irpinia (1980), L'Aquila (2009, magnitude 6.3). Volcanoes: Vesuvius (AD 79; last erupted 1944), Etna (about 3,300 m), Stromboli; Campi Flegrei near Naples.",
+    "term": "Earthquakes and volcanoes in the Mezzogiorno: named examples"
+   },
+   {
+    "definition": "Thin, stony upland soils; terra rossa on limestone (Puglia); fertile volcanic soils on Vesuvius and Etna; alluvial lowland soils. Problems: erosion from deforestation, overgrazing and downpours (calanchi in Basilicata); Sarno mudflows (1998, about 160 killed).",
+    "term": "Soils of the Mezzogiorno: types and problems"
+   },
+   {
+    "definition": "Latifundia of absentee landlords, worked by braccianti, grew wheat extensively and grazed sheep; hill farms were small and fragmented; productivity was low. Land reform laws in 1950 took parts of the large estates and gave plots to peasants.",
+    "term": "Traditional farming in the Mezzogiorno and the 1950 land reform"
+   },
+   {
+    "definition": "The Fund for the South (1950–1984) paid for land reclamation, drainage, irrigation dams, aqueducts and roads, and new farmhouses and villages on lowlands made safe once malaria was eradicated; it reafforested the Sila. From the late 1950s it also funded industry.",
+    "term": "Cassa per il Mezzogiorno: what it did for the land"
+   },
+   {
+    "definition": "Durum wheat for pasta on the Tavoliere around Foggia; olive oil in Puglia, Italy's leading region; blood oranges on the plain of Catania; lemons on the Amalfi coast and around Sorrento; San Marzano tomatoes near Vesuvius; wine in Puglia and Sicily.",
+    "term": "Modern agriculture in the Mezzogiorno: crops and where they grow"
+   },
+   {
+    "definition": "Drought and water shortage; soil erosion; Xylella fastidiosa, found in the Salento in 2013, has killed millions of olive trees; ageing farmers and rural depopulation; caporalato, the exploitation of migrant farm workers; dependence on CAP support.",
+    "term": "Problems facing agriculture in the Mezzogiorno"
+   },
+   {
+    "definition": "Distance from markets; poor roads, railways and ports; a small local market with low incomes; little capital or enterprise; organised crime demanding extortion (pizzo); few raw materials.",
+    "term": "Why industry is weak in the Mezzogiorno"
+   },
+   {
+    "definition": "State plants backed by the Cassa: the Taranto steelworks (Italsider, 1960s), one of Europe's largest; petrochemicals at Brindisi and Priolo–Augusta (Sicily); a refinery at Gela; the Bari–Brindisi–Taranto triangle. 'Cathedrals in the desert': few jobs or spin-offs.",
+    "term": "Growth poles in the Mezzogiorno: named examples and criticism"
+   },
+   {
+    "definition": "Alfasud at Pomigliano d'Arco near Naples (1972), now building the Fiat Panda; Fiat's Melfi plant, Basilicata (early 1990s, now Stellantis); Fiat's Termini Imerese plant, Sicily, closed in 2011. Leonardo builds Boeing 787 fuselage sections at Grottaglie, near Taranto.",
+    "term": "Car and aerospace plants in the Mezzogiorno"
+   },
+   {
+    "definition": "In 2012 a court seized parts of the Taranto steelworks over pollution linked to illness; Cosa Nostra, the 'Ndrangheta, the Camorra and Sacra Corona Unita demand pizzo, deterring investment; lavoro nero (undeclared work) is widespread.",
+    "term": "Problems for Mezzogiorno industry: pollution, crime, black economy"
+   },
+   {
+    "definition": "Most of the South is an EU 'less developed region' for 2021–27; the single Special Economic Zone for the South (ZES Unica) began in January 2024 with tax credits and simpler permits; Italy's post-Covid recovery plan reserves at least 40% of allocated funds for the South.",
+    "term": "Recent policy to develop the Mezzogiorno"
+   },
+   {
+    "definition": "Climate, coast, volcanoes and food; UNESCO sites: Pompeii and Herculaneum, the Amalfi Coast, Agrigento's Valley of the Temples (all 1997), Alberobello's trulli (1996), Matera's sassi (1993). Problems: seasonality, abusivismo on coasts, crime, slow transport.",
+    "term": "Tourism in the Mezzogiorno: attractions and problems"
+   },
+   {
+    "definition": "Autostrada del Sole (A1, Milan–Naples, 1964); decades of slow upgrading on the A2 to Reggio Calabria; high-speed rail only to Naples and Salerno; Gioia Tauro, Italy's largest transhipment port; ferries to Sicily, Greece and Albania. Poor links keep the region remote.",
+    "term": "Transport in the Mezzogiorno and its importance"
+   },
+   {
+    "definition": "Dense coastal lowlands and cities: Campania has about 400 people per km². Sparse interior uplands: Basilicata has about 55 per km² and only about 540,000 people. Fertile volcanic lowlands, water and city jobs attract people; thin soils and steep, dry uplands do not.",
+    "term": "Population distribution in the Mezzogiorno, with reasons"
+   },
+   {
+    "definition": "From the late 19th century to the USA and Argentina; after the Second World War to Turin and Milan and to Germany, Switzerland and Belgium; today young graduates still leave for northern Italy and abroad.",
+    "term": "Emigration from the Mezzogiorno: when and where"
+   },
+   {
+    "definition": "Italy's fertility is about 1.2 children per woman (2023), Sardinia's among the lowest; inland villages age and empty, some selling €1 houses (Sambuca di Sicilia); Lampedusa, south of Sicily, is a main landing point for migrants crossing the Mediterranean.",
+    "term": "Fertility, ageing and immigration in the Mezzogiorno"
+   },
+   {
+    "definition": "Neapolitan and Sicilian dialects; Arbëreshë, Griko, Sardinian and Catalan (Alghero) minorities; strong Catholic practice, as at the Feast of San Gennaro, Naples; the tarantella; 'O sole mio'; SSC Napoli (Serie A 2023, 2025); Neapolitan pizza (UNESCO 2017).",
+    "term": "Culture of the Mezzogiorno: language, religion, music and sport"
+   },
+   {
+    "definition": "A site on the Bay of Naples beside Vesuvius; a port for sea trade; capital of the Kingdom of the Two Sicilies until 1861; a fertile volcanic hinterland; rural in-migration. About 900,000 people in the city and about 3 million in the metropolitan city.",
+    "term": "Factors in the growth of Naples"
+   },
+   {
+    "definition": "Overcrowding in the Spanish Quarter; the Vele di Scampia estates, linked to Camorra drug dealing (several demolished); the 2007–08 waste crisis; illegal dumping and burning in the Terra dei Fuochi; unplanned growth and illegal building.",
+    "term": "Urban problems of Naples"
+   },
+   {
+    "definition": "Hilltop villages were built for defence and to escape malarial lowlands; land-reform farmhouses dot the plains; Matera's sassi were evacuated in the 1950s, became a UNESCO site (1993), and Matera was European Capital of Culture (2019); interior villages are emptying.",
+    "term": "Rural settlement and development in the Mezzogiorno"
    }
   ],
   "notes": [
@@ -21790,6 +27582,86 @@
    {
     "definition": "The admission of new member states to the EU.",
     "term": "Enlargement"
+   },
+   {
+    "definition": "Northern Ireland (1921): six counties, Antrim, Armagh, Down, Fermanagh, Londonderry (Derry) and Tyrone, part of the UK. The Irish Free State (1922) became a republic in 1949. Population: Republic about 5.15 million (2022); Northern Ireland about 1.9 million (2021).",
+    "term": "Northern Ireland and the Republic: two political regions, key facts"
+   },
+   {
+    "definition": "Nationalists, mostly Catholic, identify as Irish; unionists, mostly Protestant, as British; some as Northern Irish. Census 2021: Catholic about 46%, Protestant and other Christian about 43%, the first Catholic plurality. Schools are largely segregated.",
+    "term": "Cultural groups in Northern Ireland: identity, religion and schooling"
+   },
+   {
+    "definition": "Signed 10 April 1998; passed by referendum on 22 May 1998 (about 71% Yes in Northern Ireland, 94% in the Republic). It set up a power-sharing Assembly and the North/South Ministerial Council, the consent principle, and the right to Irish or British citizenship or both.",
+    "term": "Good Friday Agreement: what it set up and how it was approved"
+   },
+   {
+    "definition": "The Troubles (late 1960s to 1998) killed over 3,500 people. Under the Agreement the Republic changed Articles 2 and 3 of its Constitution. The Assembly has often been suspended; restored in February 2024, it has Michelle O'Neill as first nationalist First Minister.",
+    "term": "The Troubles and the Northern Ireland Assembly since 1998"
+   },
+   {
+    "definition": "Conflict deterred investment and tourism until 1998. Cross-border bodies: InterTradeIreland, Waterways Ireland, Tourism Ireland. Single Electricity Market (2007); Enterprise rail and the M1/A1. International Fund for Ireland (1986); EU PEACE (from 1995; now PEACE PLUS).",
+    "term": "Economic links between the Republic and Northern Ireland"
+   },
+   {
+    "definition": "The GAA, the Irish rugby team, the Catholic Church and the Church of Ireland are all-island bodies; each church's Archbishop of Armagh is Primate of All Ireland. The Identity and Language Act 2022 recognised Irish and Ulster-Scots; parades and flags still cause tension.",
+    "term": "Cultural interaction across the Irish border"
+   },
+   {
+    "definition": "Referendum, 23 June 2016: UK about 52% Leave; Northern Ireland about 56% Remain. The UK left on 31 January 2020, so the 499 km border became a UK–EU land border. The Protocol, revised by the Windsor Framework (2023), avoids border checks; Irish passports keep EU rights.",
+    "term": "Brexit and the Irish border: key facts"
+   },
+   {
+    "definition": "Independent 1830; about 11.8 million people (2024). Flanders (Dutch, about 6.8 million) in the north; Wallonia (French, about 3.7 million) in the south; bilingual Brussels (about 1.2 million); German speakers under 80,000. French long dominated government.",
+    "term": "Belgium: language groups and regions"
+   },
+   {
+    "definition": "Wallonia's coal and steel (Liège, Charleroi, Sambre–Meuse) declined as Flanders grew through Antwerp, Europe's second-largest port. Leuven university split (1968); no nationwide parties; 541 days without a government (2010–11); N-VA's Bart De Wever became Prime Minister.",
+    "term": "Belgium: economic reversal and political consequences"
+   },
+   {
+    "definition": "Basque (Euskara) is unrelated to other European languages; ETA ended violence in 2011 and dissolved in 2018. Catalonia's 1 October 2017 referendum was ruled illegal and Spain imposed direct rule (Article 155). Scotland voted about 55% No to independence in 2014.",
+    "term": "Spain and Scotland: cultural groups seeking independence"
+   },
+   {
+    "definition": "French and Dutch voters rejected the draft EU Constitution in 2005. The Lisbon Treaty (2009) created a permanent European Council President and a High Representative for Foreign Affairs and extended qualified majority voting. Parliament: 720 MEPs, 14 from Ireland.",
+    "term": "EU political union: the Constitution, Lisbon and Parliament"
+   },
+   {
+    "definition": "Launched 1 January 1999 for banks; notes and coins from 1 January 2002. 21 members in 2026: Croatia joined in 2023 and Bulgaria on 1 January 2026, replacing the lev. The European Central Bank in Frankfurt sets one interest rate for the euro area.",
+    "term": "The euro: key dates, members and the European Central Bank"
+   },
+   {
+    "definition": "Denmark has a legal opt-out; Sweden voted No in a 2003 referendum and stays out by not joining the exchange-rate mechanism; Poland, Czechia, Hungary and Romania have not adopted it, by choice or because they have not met the convergence criteria.",
+    "term": "Why some EU states do not use the euro"
+   },
+   {
+    "definition": "Low inflation; a government deficit no more than 3% of GDP; government debt no more than 60% of GDP; a stable exchange rate, held for two years in ERM II; low long-term interest rates.",
+    "term": "Euro convergence criteria: the five conditions, with figures"
+   },
+   {
+    "definition": "No currency exchange costs; easy price comparison between countries; no exchange-rate risk in trade and travel; generally low interest rates and inflation.",
+    "term": "Benefits of the euro for people living in the eurozone"
+   },
+   {
+    "definition": "Ireland's EU/IMF bailout of about €85 billion (November 2010, exited December 2013); Greece had three bailouts (2010, 2012, 2015), ending in 2018. Banking union: ECB supervision of big banks from November 2014. NextGenerationEU (2020): about €750 billion of joint EU borrowing for recovery.",
+    "term": "Economic union: the debt crisis, banking union and joint borrowing"
+   },
+   {
+    "definition": "Crotty v An Taoiseach (1987): major EU treaty changes need a referendum. Ireland rejected Nice (2001), then passed it (2002); rejected Lisbon (2008), then passed it (2009). Ireland is militarily neutral, outside NATO, and outside Schengen because of the Common Travel Area.",
+    "term": "Sovereignty: Ireland and EU treaty referendums"
+   },
+   {
+    "definition": "Tax, defence and foreign policy stay largely national, decided by unanimity. Ireland's 12.5% rate now has a 15% minimum for large firms (2024); in September 2024 the EU Court of Justice ruled Ireland must recover €13 billion from Apple. Brexit reasserted UK sovereignty.",
+    "term": "Sovereignty: tax, Brexit and rule-of-law disputes"
+   },
+   {
+    "definition": "Social: an ageing population; migration and asylum pressure; youth unemployment; populism and euroscepticism; regional inequality. Economic: public debt; competitiveness; energy security after Russia invaded Ukraine (24 February 2022); the cost of enlargement; Brexit.",
+    "term": "Social and economic challenges facing the EU"
+   },
+   {
+    "definition": "Candidates: Ukraine and Moldova (June 2022), Bosnia and Herzegovina (December 2022), Georgia (December 2023), Albania, Montenegro, North Macedonia, Serbia, Turkey (since 1999, talks frozen). Against: accession and funding costs, slower decisions, doubts about readiness.",
+    "term": "Future EU enlargement: candidates and arguments against"
    }
   ],
   "notes": [
@@ -21937,7 +27809,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Political union: the EU has moved from economic co-operation towards shared political institutions, since the Maastricht Treaty created the EU and planned the single currency. The draft Constitution was rejected by French and Dutch voters in 2005, and the Lisbon Treaty (2009) created a permanent President of the European Council and a High Representative for Foreign Affairs. Challenges: member states disagree over how far to deepen integration, and rising eurosceptic parties oppose further integration; decisions needing unanimity are slow to reach. Economic union: the single market and the euro, with 21 euro countries in 2026 after Bulgaria joined on 1 January 2026. The convergence criteria (inflation, a 3% deficit limit, a 60% debt limit, a stable exchange rate and low interest rates) must be met first, and Denmark and Sweden remain outside. The eurozone debt crisis showed the risks: Ireland's bailout of about €85 billion (2010 to 2013) and three Greek bailouts (2010, 2012 and 2015). The EU responded with NextGenerationEU, a fund of about €750 billion financed by joint borrowing (2020). Sovereignty: membership pools decisions on trade and the single market, but taxation, defence and foreign policy stay largely national. Ireland's referendums on Nice and Lisbon, and the constitutional requirement under Crotty (1987), show that treaty changes touch sovereignty. Corporation tax and the 15% minimum rate from 2024 limit national tax choices, and the Apple ruling (2024) showed the EU can override a member's tax arrangements. Brexit reasserted national sovereignty, and the rule-of-law disputes with Poland and Hungary show how sovereignty can be contested within the EU.",
+    "model": "Political union: the EU has moved from economic co-operation towards shared political institutions, since the Maastricht Treaty created the EU and planned the single currency. The draft Constitution was rejected by French and Dutch voters in 2005, and the Lisbon Treaty (2009) created a permanent President of the European Council and a High Representative for Foreign Affairs. Challenges: member states disagree over how far to deepen integration, and rising eurosceptic parties oppose further integration; decisions needing unanimity are slow to reach. Economic union: the single market and the euro, with 21 euro countries in 2026 after Bulgaria joined on 1 January 2026. The convergence criteria (inflation, a 3% deficit limit, a 60% debt limit, a stable exchange rate and low interest rates) must be met first, and Denmark and Sweden remain outside. The eurozone debt crisis showed the risks: Ireland's bailout of about €85 billion (2010 to 2013) and three Greek bailouts (2010, 2012 and 2015). Later, in 2020, the EU agreed NextGenerationEU, a COVID-19 recovery fund of about €750 billion financed by joint borrowing. Sovereignty: membership pools decisions on trade and the single market, but taxation, defence and foreign policy stay largely national. Ireland's referendums on Nice and Lisbon, and the constitutional requirement under Crotty (1987), show that treaty changes touch sovereignty. Corporation tax and the 15% minimum rate from 2024 limit national tax choices, and the Apple ruling (2024) showed the EU can override a member's tax arrangements. Brexit reasserted national sovereignty, and the rule-of-law disputes with Poland and Hungary show how sovereignty can be contested within the EU.",
     "prompt": "Discuss the potential challenges facing the future development of the European Union with reference to political union, economic union and sovereignty.",
     "type": "short"
    },
@@ -22008,6 +27880,106 @@
    {
     "definition": "A neutral strip between opposing forces, such as the Green Line through Nicosia.",
     "term": "Buffer zone"
+   },
+   {
+    "definition": "Census 1851: about 1.5 million Irish speakers (23%); 1891: about 680,000 (14%). Causes: the Famine (1845–49) and emigration hit poor western Irish-speaking areas hardest; national schools (1831) taught through English; English was the language of law, trade and emigration.",
+    "term": "Irish speakers 1851 to 1891, and why the language declined"
+   },
+   {
+    "definition": "1926: Coimisiún na Gaeltachta drew a large Gaeltacht across many western and southern counties. 1956: the Gaeltacht Areas Order shrank it to where Irish was still the community language. 2012: the Gaeltacht Act based it on language use, with 26 Language Planning Areas.",
+    "term": "Gaeltacht boundaries: how they were drawn and redrawn, 1926 to 2012"
+   },
+   {
+    "definition": "Gaelic League (1893, Douglas Hyde, Eoin MacNeill); Department of the Gaeltacht (1956); Údarás na Gaeltachta (1980), e.g. Gaoth Dobhair estate; Raidió na Gaeltachta (1972); TG4 (1996); Official Languages Act 2003; full EU working language (2022); 20-Year Strategy 2010–2030.",
+    "term": "Supports for the Irish language and the Gaeltacht since 1893"
+   },
+   {
+    "definition": "Seven counties: Donegal, Mayo, Galway, Kerry, Cork, Waterford and Meath (colonies at Ráth Chairn, 1935, and Baile Ghib, 1937). Galway has the largest Gaeltacht population, then Donegal. Census 2022: about 106,000 people, about 20,000 speaking Irish daily outside education.",
+    "term": "The Gaeltacht today: counties and Census 2022 figures"
+   },
+   {
+    "definition": "The 2007 study found Irish survives as a community language only where 67% or more speak it daily; its 2015 update warned most districts could lose it within about ten years. Pressures: in-migrants who speak English, Galway's spread west, tourism, youth emigration.",
+    "term": "Continuing decline of Irish in the Gaeltacht: evidence and pressures"
+   },
+   {
+    "definition": "Housing with language conditions; jobs through Údarás na Gaeltachta; Irish-medium schools and preschools; a language plan for each Language Planning Area; family supports and Irish-language media such as TG4 and Raidió na Gaeltachta.",
+    "term": "Strategies to address the decline of Irish in the Gaeltacht"
+   },
+   {
+    "definition": "The border between Dutch- and French-speaking areas was fixed by laws of 1962 and 1963. The first state reform came in 1970, and Belgium became a federal state in 1993, with three regions: Flanders, Wallonia and bilingual Brussels-Capital.",
+    "term": "Belgium: how a language boundary was made official"
+   },
+   {
+    "definition": "Myles Wright's plan (1967) proposed new towns at Tallaght, Clondalkin, Lucan and Blanchardstown. Ballymun's seven 15-storey towers (1966–69) were demolished 2004–2015. Census 2022: County Dublin about 1.46 million; Greater Dublin Area about 2.1 million (about 40%).",
+    "term": "Dublin's urban growth and the Greater Dublin Area"
+   },
+   {
+    "definition": "Rathmines and Pembroke were added to the city in 1930. On 1 January 1994 Dublin County Council was split into Fingal, South Dublin and Dún Laoghaire–Rathdown, because the county was too big to govern as one; Dublin Corporation became Dublin City Council in 2002.",
+    "term": "Dublin council structures: how and why they changed"
+   },
+   {
+    "definition": "In 2015 the Dublin Regional Authority (1994) was replaced by the Eastern and Midland Regional Assembly, one of three (with Northern and Western, and Southern). Limerick and Waterford city and county councils merged (2014); Cork city took in Ballincollig, Glanmire and Blarney (31 May 2019).",
+    "term": "Regional assemblies and other Irish boundary changes"
+   },
+   {
+    "definition": "Problems: sprawl, long commutes, congestion, housing costs, dormitory towns. Responses: National Planning Framework (2018), half of growth in five cities; M50 (from 1990), Luas (2004), DART; Docklands and Ballymun regeneration; a directly elected mayor recommended in 2023.",
+    "term": "Dublin city region: problems and planning responses"
+   },
+   {
+    "definition": "Reasons: peace after two world wars, rebuilding, shared control of coal and steel, growth, the Cold War. Schuman Declaration (9 May 1950); ECSC (1951); EEC and Euratom (Treaty of Rome, 1957). The Six: Belgium, France, West Germany, Italy, Luxembourg, the Netherlands.",
+    "term": "Origins of the EU: reasons and founding steps"
+   },
+   {
+    "definition": "Single European Act 1986; single market from 1 January 1993; Maastricht Treaty signed 7 February 1992, creating the EU (in force 1 November 1993); euro 1999, with notes and coins in 2002; Lisbon Treaty in force 1 December 2009.",
+    "term": "Deepening of the EU: key treaty and market dates"
+   },
+   {
+    "definition": "1973: Ireland, the UK and Denmark. 1981: Greece. 1986: Spain and Portugal. 1990: East Germany, through German reunification. 1995: Austria, Finland and Sweden.",
+    "term": "EU enlargement, 1973 to 1995: who joined when"
+   },
+   {
+    "definition": "2004: Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Malta, Poland, Slovakia and Slovenia. 2007: Bulgaria and Romania. 2013: Croatia, the most recent member. The UK left on 31 January 2020, leaving 27 members.",
+    "term": "EU enlargement since 2004: who joined, and who left"
+   },
+   {
+    "definition": "After the Berlin Wall fell (9 November 1989), ex-communist states sought entry under the Copenhagen criteria (1993); most 2004 entrants and both 2007 entrants were ex-communist. New members gained growth and EU funds but lost emigrants; older members faced competition.",
+    "term": "Eastern European expansion: background and effects"
+   },
+   {
+    "definition": "Advantages: a larger market; workers for the Celtic Tiger (Ireland opened its labour market at once in 2004); diversity, with Polish the main other home language. Disadvantages: competition for FDI (Dell to Łódź, 2009); less EU regional funding; pressure on services.",
+    "term": "Impact of EU enlargement on Ireland: advantages and disadvantages"
+   },
+   {
+    "definition": "For the EU: a larger single market with more consumers, and greater stability on its borders. For candidate countries: access to the single market and EU funding, and reforms to meet the Copenhagen criteria.",
+    "term": "Benefits of further EU expansion"
+   },
+   {
+    "definition": "The Government of Ireland Act 1920 partitioned the island; Northern Ireland (1921) took six of Ulster's nine counties, leaving Cavan, Donegal and Monaghan to the Free State. The Anglo-Irish Treaty followed (1921); the Boundary Commission (1925) left the border unchanged.",
+    "term": "Partition of Ireland: how the border was drawn"
+   },
+   {
+    "definition": "It left a nationalist minority in the north and a small Protestant minority in the south. Discrimination against northern nationalists fuelled the civil rights movement (1968) and the Troubles (over 3,500 killed); the border divided communities, parishes and farms.",
+    "term": "Partition of Ireland: impact on cultural groups"
+   },
+   {
+    "definition": "Borders followed old republic lines, so the independence of Slovenia and Croatia (1991) and Bosnia and Herzegovina (1992) stranded Serb, Croat and Bosniak minorities. War and ethnic cleansing followed: Srebrenica (July 1995, about 8,000 killed); Dayton (1995) split Bosnia in two.",
+    "term": "Break-up of Yugoslavia: boundary changes and impact on cultural groups"
+   },
+   {
+    "definition": "In 1945 Poland's western border moved to the Oder–Neisse line and the USSR took its eastern lands; millions of Germans were expelled westwards and Poles resettled from the east. Germany was divided (Berlin Wall 1961–1989) and reunified on 3 October 1990.",
+    "term": "Post-war Poland and Germany: boundary changes and their impact"
+   },
+   {
+    "definition": "The USSR split into 15 states in 1991, leaving ethnic Russians as minorities, about a fifth to a quarter of the people in Estonia and Latvia. Czechoslovakia split peacefully into the Czech Republic and Slovakia on 1 January 1993: the Velvet Divorce.",
+    "term": "Break-up of the USSR and Czechoslovakia: impact on cultural groups"
+   },
+   {
+    "definition": "Divided since the Turkish invasion of July 1974, with the UN Green Line through Nicosia; only Turkey recognises the north. In the 2004 Annan Plan vote about 65% of Turkish Cypriots said Yes, 76% of Greek Cypriots No. Cyprus joined the EU in 2004; EU law is suspended in the north.",
+    "term": "Cyprus: a divided island inside the EU"
+   },
+   {
+    "definition": "In August 1947 India and Pakistan (including East Pakistan, now Bangladesh) were created along religious lines; around 15 million people were displaced and hundreds of thousands were killed in communal violence.",
+    "term": "Partition of India, 1947: impact on cultural groups"
    }
   ],
   "notes": [
@@ -22116,7 +28088,7 @@
      "Problems: urban sprawl, long commutes, congestion, housing costs, one-off housing and dormitory growth.",
      "The National Planning Framework (Project Ireland 2040), published in 2018, aims for half of future population growth in the five cities (Dublin, Cork, Limerick, Galway and Waterford) and to limit sprawl.",
      "Transport: the M50 orbital motorway was built in stages from 1990, the Luas light rail opened in 2004, and DART serves the suburbs by rail.",
-     "Regeneration: the IFSC opened in the Docklands in 1987; the Docklands and Ballymun are regeneration areas.",
+     "Regeneration: the IFSC was set up in the Docklands in 1987; the Docklands and Ballymun are regeneration areas.",
      "The Citizens' Assembly reported in 2023, recommending a directly elected mayor for Dublin.",
      "Limerick elected Ireland's first directly elected mayor in June 2024, after a plebiscite in 2019."
     ]
@@ -22354,6 +28326,106 @@
    {
     "definition": "The decline in the influence of religion on social life and institutions.",
     "term": "Secularisation"
+   },
+   {
+    "definition": "The four counties (Dublin and Wicklow on the coast, Meath to the north with a short coastline, Kildare to the west); the Liffey from the Wicklow Mountains to Dublin Bay; the Boyne through Trim and Navan; Dublin, Navan, Naas and Bray; the Wicklow Mountains and the Meath–Kildare lowland.",
+    "term": "Greater Dublin Area sketch map: what to draw"
+   },
+   {
+    "definition": "Prevailing south-westerlies drop their rain on the Wicklow Mountains and uplands to the west, so the east is in a rain shadow: about 750–1,000 mm a year (Dublin Airport about 750 mm) vs 1,000–1,250 mm in the west. The south-east is Ireland's sunniest part.",
+    "term": "Greater Dublin Area climate: why the east is the driest part of Ireland"
+   },
+   {
+    "definition": "Most of Meath, Kildare and north Co. Dublin is low, gently undulating lowland of Carboniferous limestone under glacial deposits. The Wicklow and Dublin Mountains have a Leinster granite core; Lugnaquilla (925 m) is Leinster's highest peak; Kippure about 757 m.",
+    "term": "Greater Dublin Area relief: lowland and uplands, with named peaks"
+   },
+   {
+    "definition": "Brown earths on limestone boulder clay in Meath, Kildare and north Co. Dublin: top farmland. Free-draining sand and gravel on the Curragh: horse training. Raised bog: the Bog of Allen. Acidic podzols and blanket bog (Sally Gap) on Wicklow granite: forestry.",
+    "term": "Greater Dublin Area soils: types, locations and land use"
+   },
+   {
+    "definition": "The Liffey rises in the Wicklow Mountains and enters Dublin Bay; its Poulaphouca dam formed the Blessington Lakes (hydro-electricity, drinking water). The Vartry Reservoir at Roundwood also supplies Dublin; Uisce Éireann has proposed a Shannon pipeline.",
+    "term": "Greater Dublin Area drainage and Dublin's water supply"
+   },
+   {
+    "definition": "A dry, relatively sunny climate for tillage and horticulture; flat lowland for large, mechanised fields; deep, fertile brown earths; the huge Dublin market on the doorstep; Dublin Port and Airport for exports; EU and Irish policy and modern technology.",
+    "term": "Greater Dublin Area agriculture: factors that favour farming"
+   },
+   {
+    "definition": "Meath: beef fattening and tillage on large farms. Kildare: bloodstock, with the Curragh racecourse and the Irish National Stud at Tully. Fingal: horticulture (field vegetables, glasshouse crops) around Rush and Lusk. Wicklow: sheep on upland pasture.",
+    "term": "Greater Dublin Area agriculture: farm types and where they are"
+   },
+   {
+    "definition": "Urban sprawl takes farmland; high land prices push farmers to sell to developers; part-time farming near the city; costly and scarce seasonal labour for horticulture; competition from imported vegetables; changes to the CAP.",
+    "term": "Greater Dublin Area agriculture: problems farmers face"
+   },
+   {
+    "definition": "Tara Mines, Navan: underground zinc and lead mine, opened in 1977, Europe's largest zinc mine, owned by Boliden. Sand and gravel from glacial deposits; granite at Ballyknockan, Co. Wicklow. Bord na Móna has ended peat harvesting in the Bog of Allen.",
+    "term": "Tara Mines and other mining and quarrying in the Greater Dublin Area"
+   },
+   {
+    "definition": "Poolbeg, Ringsend: gas-fired power and the Dublin Waste-to-Energy incinerator (since 2017). Turlough Hill: ESB pumped storage (1974). Arklow Bank: Ireland's first offshore wind farm. Data centres used about a fifth of Ireland's metered electricity in 2023.",
+    "term": "Greater Dublin Area energy: named sites and facts"
+   },
+   {
+    "definition": "Older brewing, food and port industries near Dublin Port and the inner city declined; newer high-tech and pharmaceutical plants are in suburban business parks and towns near the M50 and motorways, such as Grange Castle, Leixlip and Blanchardstown.",
+    "term": "Greater Dublin Area manufacturing: how its location pattern changed"
+   },
+   {
+    "definition": "Intel, Leixlip, Co. Kildare: opened 1989, Ireland's largest private-sector investment (billions of euro), near the M4. Pfizer: biopharmaceuticals at Grange Castle Business Park, Clondalkin. Guinness: St James's Gate Brewery, founded 1759 on a 9,000-year lease.",
+    "term": "Intel, Pfizer and Guinness: Greater Dublin Area manufacturing examples"
+   },
+   {
+    "definition": "About 2.1 million people, the largest concentration of consumers in the State; Dublin Port and Dublin Airport give access to the EU single market; ferries to Holyhead reach Britain; high-value products are flown out quickly.",
+    "term": "Greater Dublin Area manufacturing: markets as a factor"
+   },
+   {
+    "definition": "A large, young, educated workforce; graduates from Trinity College Dublin, UCD, DCU, TU Dublin and Maynooth University; immigrant workers add skills and languages; commuters from Meath, Kildare and Wicklow widen the pool.",
+    "term": "Greater Dublin Area manufacturing: labour as a factor"
+   },
+   {
+    "definition": "IDA Ireland promotes the region to multinationals with sites and grants; corporation tax is 12.5%, rising to 15% from 2024 for very large groups (turnover over €750 million) under the OECD agreement; EEC membership since 1973 opened European markets.",
+    "term": "Greater Dublin Area manufacturing: government policy as a factor"
+   },
+   {
+    "definition": "High costs of land, housing and wages; traffic congestion; a housing shortage for workers; competition from lower-cost countries; dependence on multinationals that can relocate; global corporation tax changes; strain on electricity and water supply.",
+    "term": "Greater Dublin Area manufacturing: problems and challenges"
+   },
+   {
+    "definition": "Guinness Storehouse (2000), Ireland's most visited fee-paying attraction; Book of Kells, Trinity College; Convention Centre Dublin (2010); Brú na Bóinne (UNESCO, 1993; Newgrange about 5,000 years old); Glendalough, founded by St Kevin in the 6th century.",
+    "term": "Greater Dublin Area tourism: named attractions with dates"
+   },
+   {
+    "definition": "Dublin Port, Ireland's busiest, with ferries to Holyhead; Dublin Airport, Ireland's busiest, over 30 million passengers in 2023, north runway 2022; radial M1, M3, M4, M7 and M11 joined by the M50; the Dublin Port Tunnel (2006).",
+    "term": "Greater Dublin Area transport: port, airport and roads"
+   },
+   {
+    "definition": "Congestion on the M50 and radial roads, long commutes from the commuter counties and car dependence from sprawl. Responses: DART (1984), Luas (2004), BusConnects, the planned MetroLink to the airport and Swords, cycle lanes, the NTA's 2022–2042 strategy.",
+    "term": "Greater Dublin Area transport: problems and public transport responses"
+   },
+   {
+    "definition": "The International Financial Services Centre was set up in 1987 at Custom House Docks; the Dublin Docklands Development Authority (1997) regenerated the docklands; Google's European headquarters is on Barrow Street, Grand Canal Dock, in 'Silicon Docks'.",
+    "term": "IFSC and Silicon Docks: Dublin's financial and technology services"
+   },
+   {
+    "definition": "About 2.1 million, about 40% of the State's 5.1 million. Co. Dublin about 1.45 million; Kildare about 250,000; Meath about 220,000; Wicklow about 156,000. Dublin city and suburbs about 1.26 million.",
+    "term": "Greater Dublin Area population: Census 2022 figures"
+   },
+   {
+    "definition": "Highest densities in Dublin city and suburbs (jobs), about 1,600 people per km² in Co. Dublin against a State average of about 73; then commuter towns along motorways and rail lines; lowest on the Wicklow uplands (steep relief, poor soils).",
+    "term": "Greater Dublin Area: account for the distribution of population"
+   },
+   {
+    "definition": "Founded as a Viking settlement in 841 at the lowest bridging point of the Liffey, sheltered by Dublin Bay; Norman rule expanded it; the Wide Streets Commissioners (1757) laid out Georgian streets. Port, route focus and capital functions drove growth.",
+    "term": "Dublin's development: site and early growth"
+   },
+   {
+    "definition": "Wright Report (1967): new towns at Tallaght, Clondalkin and Lucan. Ballymun flats (1960s) demolished in regeneration from the 2000s. Temple Bar regenerated in the 1990s; IFSC and Docklands renewal; commuter towns: Navan, Naas, Maynooth, Bray, Greystones.",
+    "term": "Dublin's development: 20th-century expansion and renewal"
+   },
+   {
+    "definition": "English-dominant, made multilingual by immigration; growing Gaelscoileanna; the Ráth Chairn Gaeltacht, Co. Meath (1935, Connemara families). Catholic share below the State's 69%; Christ Church and St Patrick's cathedrals; Islamic Cultural Centre, Clonskeagh.",
+    "term": "Language and religion in the Greater Dublin Area"
    }
   ],
   "notes": [
@@ -22379,7 +28451,7 @@
    {
     "h": "Sketch map: what to draw",
     "points": [
-     "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north, Kildare to the west.",
+     "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north (with a short coastline south of the Boyne estuary), Kildare to the west.",
      "Draw the River Liffey from the Wicklow Mountains, through Kildare, to Dublin Bay.",
      "Draw the River Boyne through Trim and Navan, reaching the sea at Drogheda, just outside the GDA.",
      "Mark Dublin city, and the towns of Navan, Naas and Bray.",
@@ -22505,7 +28577,7 @@
    {
     "h": "Mining and quarrying",
     "points": [
-     "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine producing since 1977.",
+     "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine, opened in 1977 (paused from July 2023, restarted at the end of 2024).",
      "Tara Mines is Europe's largest zinc mine and is owned by Boliden.",
      "Sand and gravel are quarried from glacial deposits for construction.",
      "Granite is quarried at Ballyknockan, Co. Wicklow.",
@@ -22704,7 +28776,7 @@
     "points": [
      "Dublin was founded as a Viking settlement in 841.",
      "Norman rule expanded the town in medieval times.",
-     "The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares.",
+     "The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets; squares such as Merrion Square were developed by private estates.",
      "Georgian Dublin grew into a planned capital with wide streets and squares."
     ]
    },
@@ -22781,7 +28853,7 @@
    },
    {
     "marks": 30,
-    "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion.",
+    "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion.",
     "prompt": "Examine the factors that have influenced the development of Dublin as an urban area.",
     "type": "short"
    },
@@ -22854,6 +28926,110 @@
    {
     "definition": "The design and manufacture of medical devices and equipment.",
     "term": "Medical technology (medtech)"
+   },
+   {
+    "definition": "Remote from Dublin and European markets; high rainfall, poor soils, rugged relief; a small, scattered, ageing population after long out-migration; dependence on primary activities and the public sector; weaker infrastructure. Galway city is the exception.",
+    "term": "West of Ireland (Galway, Mayo, Roscommon): why it is a peripheral region"
+   },
+   {
+    "definition": "The outline of Galway, Mayo and Roscommon; the River Corrib (or the Moy, or the Shannon on the eastern edge); Galway city and Castlebar; an upland such as the Twelve Bens, Croagh Patrick or Mweelrea; the limestone lowland of east Galway and Roscommon.",
+    "term": "West of Ireland sketch map: what to draw"
+   },
+   {
+    "definition": "Prevailing south-westerlies bring Atlantic depressions and relief rain on western mountains: about 1,000–1,250 mm a year on lowlands, over 2,000 mm on some mountains. The North Atlantic Drift keeps winters mild; frequent gales (Storm Éowyn, January 2025).",
+    "term": "West of Ireland climate: why it is so wet and windy"
+   },
+   {
+    "definition": "Mweelrea (814 m), Connacht's highest peak; Nephin (806 m); Croagh Patrick (764 m, quartzite); the quartzite Twelve Bens and the Maumturks in Connemara, with marble and mica schist. East Galway and Roscommon are low limestone lowland.",
+    "term": "West of Ireland relief: named uplands and their rocks"
+   },
+   {
+    "definition": "Blanket bog over much of west Mayo (Erris, Bellacorick) and Connemara; acidic, leached podzols on uplands; poorly drained gleys on drumlins; better brown earths on limestone in east Galway and Roscommon; Aran Islands soil made from sand and seaweed.",
+    "term": "West of Ireland soils: types and where they are found"
+   },
+   {
+    "definition": "The short Corrib flows from Lough Corrib, the Republic's largest lake, through Galway to the sea; Lough Mask drains underground to Lough Corrib near Cong; Rahasane turlough; the Moy reaches Killala Bay at Ballina; the Shannon and Lough Ree edge Roscommon.",
+    "term": "West of Ireland drainage: named lakes, rivers and turloughs"
+   },
+   {
+    "definition": "Heavy rain waterlogs the land, making tillage and hay saving difficult; leached, acidic soils, steep uplands and exposure shorten the effective grazing season, so most land suits only grazing. Better land lies on the limestone of east Galway and Roscommon.",
+    "term": "West of Ireland agriculture: physical factors that limit it"
+   },
+   {
+    "definition": "Small, fragmented farms, a rundale legacy, partly consolidated by the Congested Districts Board (1891); older farmers, low incomes, part-time farming, reliance on CAP; overgrazed commonage after 1980s headage payments. Responses: REPS (1994), diversification.",
+    "term": "West of Ireland agriculture: farm structure, problems and responses"
+   },
+   {
+    "definition": "Cattle rearing with suckler herds, selling store cattle at local marts to eastern farmers for fattening; sheep on hill commonage in Connemara and Mayo; little tillage or dairying; Connemara ponies; the Ballinasloe October Fair, an ancient horse fair.",
+    "term": "West of Ireland farm types"
+   },
+   {
+    "definition": "Rossaveel: a State Fishery Harbour Centre and the Aran Islands ferry port. Rope-grown mussels in Killary Harbour; salmon farms in Connemara bays; seaweed processing at Kilkieran (Arramara Teoranta); salmon angling on the Moy at Ballina.",
+    "term": "Fishing and aquaculture in the West: named places"
+   },
+   {
+    "definition": "Off north-west Mayo: discovered in 1996; gas first flowed in December 2015 to the Bellanaboy terminal. The 'Shell to Sea' campaign opposed it, and the 'Rossport Five' were jailed in 2005.",
+    "term": "Corrib gas field: key facts"
+   },
+   {
+    "definition": "Bellacorick's peat-fired station closed in 2003; Bellacorick wind farm (1992) was Ireland's first commercial wind farm, and Oweninny wind farm is on nearby cutaway bog. The Atlantic Marine Energy Test Site off Belmullet tests wave energy.",
+    "term": "Energy in the West: from peat to wind and waves"
+   },
+   {
+    "definition": "Digital Equipment Corporation closed its Galway plant in 1993, leaving skilled workers; Boston Scientific opened in 1994, then Medtronic (Parkmore); suppliers and start-ups clustered, linked to the University of Galway: now a leading European medtech cluster.",
+    "term": "Galway medical devices cluster: how it developed"
+   },
+   {
+    "definition": "Outside Galway city, manufacturing is limited to a few towns: Baxter Healthcare, Castlebar; Allergan (now part of AbbVie), Westport, making Botox; Hollister, Ballina; Coca-Cola concentrate plant, Ballina.",
+    "term": "Manufacturing outside Galway city: name four Mayo multinationals"
+   },
+   {
+    "definition": "IDA Ireland; Údarás na Gaeltachta grants; EU Structural Funds for roads and broadband; the Western Development Commission (1998); Galway a gateway in the National Spatial Strategy (2002), to grow at least 50% by 2040 (National Planning Framework, 2018).",
+    "term": "West of Ireland manufacturing: government policy as a factor"
+   },
+   {
+    "definition": "Peripheral location and high transport costs; small, scattered markets; a small labour pool outside Galway and out-migration of skilled young people; dependence on a few multinationals; closures such as DEC; poor rural infrastructure.",
+    "term": "West of Ireland manufacturing: problems"
+   },
+   {
+    "definition": "Connemara National Park (Letterfrack), Killary Harbour fjord, Croagh Patrick, Achill Island, Clew Bay, Dún Aonghasa on Inis Mór; the Wild Atlantic Way (2014, about 2,500 km); the Great Western Greenway (about 42 km, Westport to Achill, 2010).",
+    "term": "West of Ireland tourism: landscape attractions and routes"
+   },
+   {
+    "definition": "Céide Fields (Neolithic fields over 5,000 years old under bog); Kylemore Abbey; Westport House; Strokestown Park and the National Famine Museum; Rathcroghan; Knock Shrine; Gaeltacht culture; Galway's Arts Festival, Races and 2020 European Capital of Culture.",
+    "term": "West of Ireland tourism: culture and heritage attractions"
+   },
+   {
+    "definition": "M6 Dublin–Galway (2009); M17/M18 Galway–Tuam (2017); Ireland West Airport Knock (1986, promoted by Monsignor James Horan); rail to Dublin from Galway, Westport and Ballina; Western Rail Corridor reopened Ennis–Athenry (2010), but not north of Athenry.",
+    "term": "West of Ireland transport: improvements, with dates"
+   },
+   {
+    "definition": "About 486,000, about 9% of the State. Co. Galway including the city about 278,000 (Galway City Council area about 85,000); Mayo about 138,000; Roscommon about 70,000. Mayo has about 25 people per km², against a State average of about 73.",
+    "term": "West of Ireland population: Census 2022 figures and density"
+   },
+   {
+    "definition": "Highest in Galway city and its suburbs (jobs, services, transport); moderate on the east Galway, Roscommon and east Mayo lowlands (better land, roads); very low on the uplands and bogs of west Mayo and Connemara (poor soils, steep slopes, exposure).",
+    "term": "West of Ireland: account for the distribution of population"
+   },
+   {
+    "definition": "The Great Famine (late 1840s) hit the West hardest; long emigration left populations far below pre-Famine levels. Young adults still leave (brain drain), so it is ageing, but every county grew 2016–2022 with return migration, immigration and Galway's growth.",
+    "term": "West of Ireland population dynamics"
+   },
+   {
+    "definition": "Lowest crossing of the Corrib on Galway Bay; 13th-century Anglo-Norman walled town; trading port, 'City of the Tribes' (14 merchant families), Spanish Arch; university since 1845; DEC then medtech. Problems: congestion, housing costs, no ring road.",
+    "term": "Galway city: factors in its development, and its problems"
+   },
+   {
+    "definition": "Galway (Connemara, Cois Fharraige, the Aran Islands: the largest Gaeltacht) and Mayo (Erris, Achill, Tourmakeady); Roscommon has none. Decline: emigration, English-language media, tourism, in-migration of English speakers, English in the home.",
+    "term": "Gaeltacht areas in the West, and why daily Irish speaking is declining"
+   },
+   {
+    "definition": "Language-planning areas under the Gaeltacht Act 2012; the 20-Year Strategy 2010–2030; Údarás na Gaeltachta jobs for young people; Irish-medium schools and summer colleges; housing reserved for Irish speakers; TG4 and Raidió na Gaeltachta.",
+    "term": "Strategies to address the decline in daily Irish speakers in the Gaeltacht"
+   },
+   {
+    "definition": "Higher Catholic share than Dublin. Knock Shrine: apparition reported 1879; papal visits 1979 and 2018. Croagh Patrick: Reek Sunday pilgrimage, last Sunday in July. Ballintubber Abbey (1216): Mass celebrated continuously. Tuam: Catholic archdiocese seat.",
+    "term": "Religion in the West: named sites and facts"
    }
   ],
   "notes": [
@@ -23078,7 +29254,7 @@
    {
     "h": "Factors: labour",
     "points": [
-     "The University of Galway, founded in 1845 as Queen's College Galway and renamed in 2022, supplies graduates.",
+     "The University of Galway, founded in 1845 as Queen's College Galway and given its present name in 2022, supplies graduates.",
      "Atlantic Technological University (ATU), with campuses in Galway and Mayo, supplies graduates and skilled workers.",
      "Outside Galway, the pool of skilled workers is small, because skilled young people leave the region."
     ]
@@ -23476,6 +29652,74 @@
    {
     "definition": "A river split into several channels around islands of deposited sand and gravel.",
     "term": "Braided channel"
+   },
+   {
+    "definition": "Ireland's longest river rises at the Shannon Pot, Co. Cavan, and enters the Atlantic through the Shannon Estuary below Limerick, where fresh and salt water meet and deposition builds mudflats and salt marsh.",
+    "term": "River Shannon: where it rises and where it reaches the sea"
+   },
+   {
+    "definition": "Upper (youthful) course: V-shaped valleys, interlocking spurs, waterfalls, rapids, potholes; vertical erosion dominates. Middle (mature): meanders as the valley widens. Lower (old): wide floodplain, levees, meanders with oxbow lakes, a delta or estuary.",
+    "term": "Long profile: which landforms belong to each course"
+   },
+   {
+    "definition": "Energy depends on volume (discharge) and gradient. Energy left after overcoming friction is used for erosion and transport. Volume increases downstream as tributaries join.",
+    "term": "River energy: what it depends on and what it is used for"
+   },
+   {
+    "definition": "Velocity falls when the river enters a lake or the sea, on the inside of a bend, as floodwater recedes, or on a gentler gradient; deposition also happens when the load is too great for the river's energy. Heaviest material is dropped first, finest last.",
+    "term": "River deposition: five situations in which it happens"
+   },
+   {
+    "definition": "A steep gradient gives the river energy to cut down by hydraulic action and abrasion; weathering and mass movement widen the valley top into a V; the river winds around harder rock, leaving interlocking spurs, e.g. the upper River Liffey, Wicklow Mountains.",
+    "term": "V-shaped valley and interlocking spurs: how they form, with an example"
+   },
+   {
+    "definition": "Hard rock lies over softer rock; hydraulic action and abrasion erode the soft rock faster, undercutting the hard rock into an overhang; falling water and load scour a plunge pool; the overhang collapses and the falls retreat upstream, leaving a gorge.",
+    "term": "Waterfall and gorge: how they form, naming the erosion processes"
+   },
+   {
+    "definition": "Niagara Falls, USA–Canada border: a dolomite cap over weaker shale; its retreat has cut the Niagara Gorge. Powerscourt Waterfall, River Dargle, Co. Wicklow: Ireland's highest, about 121 m. Torc Waterfall, near Killarney, Co. Kerry.",
+    "term": "Name three waterfalls, one abroad and two Irish, with a fact about each"
+   },
+   {
+    "definition": "Water flows fastest on the outside of a bend, eroding a river cliff by hydraulic action and abrasion; on the slow inside it deposits a point bar (slip-off slope); helicoidal flow carries material across, and lateral erosion makes the bends more pronounced.",
+    "term": "Meander: how erosion and deposition shape it"
+   },
+   {
+    "definition": "The Shannon Callows, between Athlone and Portumna: meanders on a wide floodplain of seasonally flooded meadows.",
+    "term": "Name an Irish example of meanders on a floodplain"
+   },
+   {
+    "definition": "Meanders grow until only a narrow neck separates them; in a flood the river cuts through the neck and takes the shorter course; deposition seals off the old bend as an oxbow lake, which later silts up into a meander scar. Example: the lower Mississippi.",
+    "term": "Oxbow lake: how it forms, with an example"
+   },
+   {
+    "definition": "Migrating meanders widen the valley floor. In flood the river spreads out, slows and drops alluvium, building a flat floodplain; the coarsest material drops first beside the channel, raising the banks into levees, and the bed may rise above the floodplain.",
+    "term": "Floodplain and levees: how floods build them"
+   },
+   {
+    "definition": "A river carrying a large load enters calm water with a small tidal range and weak currents, and slows sharply; in salt water, clay flocculates and sinks; deposits block the channel, so it splits into distributaries; topset, foreset and bottomset beds build up.",
+    "term": "Delta: conditions needed and how it forms"
+   },
+   {
+    "definition": "Arcuate (fan-shaped): the Nile delta, Egypt. Bird's-foot: the Mississippi delta, USA. Estuarine: fills a drowned river mouth. Lake delta: between the Upper and Lower Lakes at Glendalough, Co. Wicklow, which divided a single lake.",
+    "term": "Delta types: describe each, with examples where checked"
+   },
+   {
+    "definition": "Trellised: the ridge-and-valley landscape of Munster, where rivers follow the limestone valleys and tributaries flow off the sandstone ridges at right angles. Deranged: the drumlin belt of Co. Cavan. Centripetal: Lough Neagh.",
+    "term": "Drainage patterns: Irish examples of trellised, deranged and centripetal"
+   },
+   {
+    "definition": "Dendritic: branching like a tree, joining at acute angles; trellised: parallel streams with tributaries joining at right angles; radial: spreading out from a high point; centripetal: converging on a lake; deranged: no clear pattern, between many small lakes and marshes.",
+    "term": "OS map skill: how to recognise each drainage pattern"
+   },
+   {
+    "definition": "In a V-shaped valley the contours form a V that points upstream. On a floodplain the contours are widely spaced.",
+    "term": "OS map skill: how to spot a V-shaped valley and a floodplain"
+   },
+   {
+    "definition": "Erosion: V-shaped valley, interlocking spurs, waterfall, gorge, potholes, rapids. Both erosion and deposition: meander, oxbow lake. Deposition: floodplain, levee, delta, point bar, estuary mudflats.",
+    "term": "Classify river landforms: erosion, deposition or both"
    }
   ],
   "notes": [
@@ -23730,6 +29974,50 @@
    {
     "definition": "A drowned river valley formed by a rise in base level, with the lower course flooded by the sea.",
     "term": "Ria"
+   },
+   {
+    "definition": "Sea level is the ultimate base level. A lake, a band of resistant rock, or the main river (for its tributary) acts as a temporary, local base level.",
+    "term": "Base level: ultimate vs temporary, with three temporary examples"
+   },
+   {
+    "definition": "A eustatic fall in sea level, as water is locked in ice sheets in a glacial period; isostatic uplift, as land pressed down by ice rises after it melts; tectonic uplift by earth movements; less commonly, more discharge from a wetter climate or river capture.",
+    "term": "Rejuvenation: four causes"
+   },
+   {
+    "definition": "It begins at the mouth and works upstream by headward erosion. For a long time the river has two graded sections, a new, steeper lower one and the old, gentler upper one, reflecting two base levels: a landscape temporarily out of balance.",
+    "term": "Rejuvenation: how it spreads along a river"
+   },
+   {
+    "definition": "Rejuvenation cuts down from the mouth, making a new graded section below the old one; where they meet, a break of slope forms, often with a waterfall or rapids; it retreats upstream over time and disappears once the whole river grades to the new base level.",
+    "term": "Knickpoint: how it forms and changes over time"
+   },
+   {
+    "definition": "Renewed vertical erosion after base level falls cuts existing meanders down into the land, leaving them in steep-sided valleys with no floodplain. Examples: the River Wye, Wales–England border; the Goosenecks of the San Juan River, Utah, USA (entrenched).",
+    "term": "Incised meanders: how they form, with two examples"
+   },
+   {
+    "definition": "First, base level falls and the river cuts down into its own floodplain; then it forms a new floodplain at the lower level; remnants of the old floodplain are left as flat steps above it. Example: the River Thames in and around London, England.",
+    "term": "River terraces: how they form, with an example"
+   },
+   {
+    "definition": "The Grand Canyon, Arizona, USA, cut by deep incision of the Colorado River as the Colorado Plateau was uplifted.",
+    "term": "Gorge from uplift: name an example and how it formed"
+   },
+   {
+    "definition": "On a long profile, count the knickpoints: one per rejuvenation. On a valley cross-section, count the terrace levels above the present floodplain: one per rejuvenation.",
+    "term": "Rejuvenation diagram: how to count the number of rejuvenations"
+   },
+   {
+    "definition": "Knickpoint; a waterfall or rapids at the knickpoint; incised meanders; river terraces (e.g. paired terraces); gorge.",
+    "term": "Name five rejuvenation features to give when asked for features not shown"
+   },
+   {
+    "definition": "Sea level rising, or land sinking, reduces the river's energy; the lower course is drowned, deposition increases and the mouth becomes a ria or an estuary. Coastal landforms from changes in base level: raised beaches (a fall) and rias (a rise).",
+    "term": "Rise in base level: effects on a river and its mouth"
+   },
+   {
+    "definition": "The land rose isostatically after the Midlandian ice melted about 10,000 years ago. The north, under thicker ice, rose more, as shown by raised beaches at Malin Head, Co. Donegal.",
+    "term": "Rivers of north-west Ireland: why they were rejuvenated"
    }
   ],
   "notes": [
@@ -23879,6 +30167,50 @@
    {
     "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below.",
     "term": "Superimposed drainage"
+   },
+   {
+    "definition": "William Morris Davis, an American geographer, published the geographical cycle in 1899. It assumes rapid uplift followed by a long period of stability while rivers and weathering wear the land down; landscape depends on structure, process and stage (time).",
+    "term": "Davis's cycle of erosion: who, when and its key assumption"
+   },
+   {
+    "definition": "An uplifted plateau with high relief; steep gradients and vertical erosion; deep V-shaped valleys with waterfalls and rapids; wide, flat interfluves not yet eroded; few tributaries.",
+    "term": "Davis's youth stage: what the landscape looks like"
+   },
+   {
+    "definition": "Maximum relief; valleys widen by lateral erosion; meanders and floodplains develop; the drainage network is fully developed; interfluves are reduced to ridges.",
+    "term": "Davis's maturity stage: what the landscape looks like"
+   },
+   {
+    "definition": "Low relief; very wide floodplains, large meanders, oxbow lakes and levees; rivers flow sluggishly close to base level; divides are lowered to gentle rises. The end product is a peneplain, with monadnocks of resistant rock rising above it.",
+    "term": "Davis's old age stage: what the landscape looks like"
+   },
+   {
+    "definition": "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished. A landscape with remnants of more than one cycle is polycyclic.",
+    "term": "Cycle of erosion: what interrupts it and what results"
+   },
+   {
+    "definition": "Walther Penck: uplift and denudation act together, not in turn; the cycle is too slow to observe; it ignores climate change, glaciation and the isostatic response to erosion; few true peneplains exist at sea level. Strength: a simple framework by stage.",
+    "term": "Davis's model: four criticisms and one strength"
+   },
+   {
+    "definition": "Folding about 300 million years ago (Variscan, also called Armorican) formed east–west ridges of resistant Old Red Sandstone (anticlines) and valleys of softer Carboniferous limestone (synclines).",
+    "term": "Munster: how folding created its rock structure"
+   },
+   {
+    "definition": "Over a very long period of denudation the region was worn down towards a near-level surface cutting across the folds. Evidence: flat or gently sloping upland surfaces and summit levels at similar heights that cut across folded rocks of different types.",
+    "term": "Munster planation surface: how it formed and the evidence for it"
+   },
+   {
+    "definition": "Uplift raised the planation surface and rejuvenated the rivers, which cut down again; renewed erosion removed the softer limestone faster than the sandstone, so the ridge-and-valley relief was re-exposed by differential erosion.",
+    "term": "Munster: how later uplift re-exposed the ridges and valleys"
+   },
+   {
+    "definition": "It flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to the sea at Youghal. The usual explanation is superimposed drainage: it first flowed south across an older surface and kept that course as it cut down.",
+    "term": "Munster Blackwater: its course and the usual explanation for its turn"
+   },
+   {
+    "definition": "Uplift has outpaced denudation, so an old, uplifted erosion surface survives at height while the rivers are still adjusting by cutting down.",
+    "term": "Munster: why its landscape is temporarily out of balance"
    }
   ],
   "notes": [
@@ -24044,6 +30376,62 @@
    {
     "definition": "The OPW's Catchment Flood Risk Assessment and Management programme.",
     "term": "CFRAM"
+   },
+   {
+    "definition": "Parteen Weir diverts most of the Shannon's water into a headrace canal to the power station at Ardnacrusha, near Limerick; a tailrace returns it to the river. Lough Derg acts as the reservoir.",
+    "term": "Shannon Scheme: how the water reaches Ardnacrusha"
+   },
+   {
+    "definition": "The Old River Shannon between Parteen and Limerick now carries much less water. Salmon and eel stocks declined, so the ESB built a fish pass and traps silver eels and transports them past the dam.",
+    "term": "Shannon Scheme: effects on the river and its fish"
+   },
+   {
+    "definition": "Built 1925 to 1929 by the German firm Siemens for the Irish Free State; Ireland's first large hydro-electric station.",
+    "term": "Shannon Scheme: who built it and when"
+   },
+   {
+    "definition": "Poulaphouca on the Liffey (Blessington Lakes, Co. Wicklow); Inniscarra and Carrigadrohid on the Lee (Co. Cork); Cathaleen's Fall on the Erne at Ballyshannon, Co. Donegal.",
+    "term": "Name four other Irish hydro-electric dams and their rivers"
+   },
+   {
+    "definition": "Flood control; year-round irrigation, allowing more than one crop a year; hydro-electricity; protection from drought. Completed 1970; its reservoir, Lake Nasser, extends into Sudan.",
+    "term": "Aswan High Dam: when completed, its reservoir, and four benefits"
+   },
+   {
+    "definition": "Silt is trapped in Lake Nasser, so farmers downstream rely on artificial fertilisers; clear water scours the bed below the dam; the Nile delta coast is eroding, for example at the Rosetta promontory.",
+    "term": "Aswan High Dam: impacts on river processes"
+   },
+   {
+    "definition": "Waterlogging and salinisation of irrigated land; schistosomiasis (bilharzia) spread through irrigation canals; the delta sardine fishery declined; Nubian people were displaced and Abu Simbel's temples moved.",
+    "term": "Aswan High Dam: impacts on people and land"
+   },
+   {
+    "definition": "On the Yangtze in Hubei, China; the world's largest power station by installed capacity; completed 2006, fully operational 2012; over one million people relocated; aims to cut downstream flood peaks like the 1998 Yangtze floods, which killed thousands.",
+    "term": "Three Gorges Dam: key facts"
+   },
+   {
+    "definition": "A straighter, shorter channel has a steeper gradient and less friction, so velocity rises and floodwater is passed downstream faster, giving higher flood peaks that arrive sooner.",
+    "term": "Canalisation: why floods downstream get worse"
+   },
+   {
+    "definition": "Irish arterial drainage by the OPW under the Arterial Drainage Act 1945 (Moy and Boyne schemes); Mississippi cut-offs by the US Army Corps of Engineers; the Upper Rhine straightened in the 19th century under Tulla.",
+    "term": "Canalisation: one Irish and two international examples"
+   },
+   {
+    "definition": "Flow is confined to the channel, so deposition raises the bed and the banks must be raised again; the floodplain gets no silt; if a levee fails the flood is sudden and severe.",
+    "term": "Embankments and levees: effect on river processes"
+   },
+   {
+    "definition": "During very heavy rain the ESB released large volumes from the full Inniscarra dam on the Lee; University College Cork and the city water treatment works flooded and many homes lost their water supply.",
+    "term": "Cork flood, November 2009: what happened"
+   },
+   {
+    "definition": "The 1927 flood led to the federal levee and floodway system; the 1993 flood breached many levees on the upper Mississippi and Missouri; in August 2005 Hurricane Katrina caused levee and floodwall failures in New Orleans, and about 80% of the city flooded.",
+    "term": "Mississippi levee system: three floods to know"
+   },
+   {
+    "definition": "Begun after near-disastrous high water on the Rhine and Maas in 1993 and 1995: dykes moved back, floodplains lowered and side channels dug so the river can spread out safely.",
+    "term": "Room for the River (Netherlands): what it does"
    }
   ],
   "notes": [
@@ -24298,6 +30686,82 @@
    {
     "definition": "A ring of altered rock surrounding an igneous intrusion.",
     "term": "Metamorphic aureole"
+   },
+   {
+    "definition": "Magma crystallises into igneous rock; weathering and erosion make sediment; deposition, compaction and cementation make sedimentary rock; heat and pressure make metamorphic rock; melting makes magma again. Any rock can be weathered, metamorphosed or melted.",
+    "term": "Rock cycle: the processes that link the three rock types"
+   },
+   {
+    "definition": "Basalt forms at constructive (divergent) boundaries and hotspots; andesite and granite batholiths form above subduction zones at destructive boundaries. Rock is metamorphosed at collision zones and destroyed or recycled at subduction zones.",
+    "term": "Plate settings: where igneous rocks form and where rock is recycled"
+   },
+   {
+    "definition": "The Leinster batholith, the granite core of the Wicklow Mountains, about 400 million years old and the largest granite mass in Ireland and Britain; the Derryveagh Mountains, Donegal; the Mourne Mountains, Co. Down, much younger at about 56 million years.",
+    "term": "Irish granite: three locations, and the ages of two"
+   },
+   {
+    "definition": "The Antrim plateau, Co. Antrim, was built by lava flows about 60 million years ago as the Atlantic began to open; the Giant's Causeway shows basalt columns. Basalt forms when runny lava cools quickly, so its crystals are small.",
+    "term": "Irish basalt: where it is found and how it formed"
+   },
+   {
+    "definition": "Granite: building stone, kerbs, worktops and headstones. Basalt: crushed for road chippings and aggregate.",
+    "term": "Rock uses: what granite and basalt are used for"
+   },
+   {
+    "definition": "Older rock is weathered and eroded; the sediment, plant and animal remains, or minerals from water are laid down in layers in seas, lakes, river basins or deserts; compaction squeezes out water and air; silica, calcite or iron oxide cement the grains.",
+    "term": "Sedimentary rock: how it forms, from weathering to solid rock"
+   },
+   {
+    "definition": "Clastic, from broken fragments: sandstone from sand, shale from mud and clay. Organic, from living things: limestone from shells and skeletons of sea creatures, coal from swamp plants. Chemical: rock salt and other evaporites from evaporating seawater.",
+    "term": "Sedimentary rock: three groups, with examples of each"
+   },
+   {
+    "definition": "About 360 to 300 million years ago Ireland lay near the equator under a warm, shallow, clear sea, where shells and skeletons built up the deposit. It floors most of the central lowland and forms the Burren, Co. Clare.",
+    "term": "Carboniferous limestone: when and how it formed, and where it is found"
+   },
+   {
+    "definition": "In the Devonian period, in hot, semi-arid conditions, rivers laid down sand and pebbles; iron oxide gives the red colour. It forms the Macgillycuddy's Reeks, the Galtees and the Comeraghs, and the ridges of Munster.",
+    "term": "Old Red Sandstone: how it formed, and three places it forms mountains"
+   },
+   {
+    "definition": "Shale, with siltstone and sandstone: the Cliffs of Moher, Co. Clare. Chalk: beneath the basalt along the Antrim coast. Coal, from swamp plants: Arigna, Co. Roscommon, and Castlecomer, Co. Kilkenny. Rock salt: Kilroot mine, near Carrickfergus, Co. Antrim.",
+    "term": "Name Irish locations for shale, chalk, coal and rock salt"
+   },
+   {
+    "definition": "Existing rock is changed without melting: its minerals recrystallise while it stays solid, so it usually becomes harder and denser, and it may develop banding or cleavage. The two causes are heat and pressure.",
+    "term": "Metamorphism: what heat and pressure do to a rock"
+   },
+   {
+    "definition": "Limestone becomes marble; sandstone becomes quartzite; shale (mudstone) becomes slate, and with more heat and pressure schist; granite becomes gneiss.",
+    "term": "Name the metamorphic rock formed from limestone, sandstone, shale and granite"
+   },
+   {
+    "definition": "Marble: green Connemara marble, Co. Galway. Quartzite: Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow; the Twelve Bens, Connemara. Slate: Valentia Island, Co. Kerry.",
+    "term": "Name Irish locations for marble, quartzite and slate"
+   },
+   {
+    "definition": "Mica schist occurs in Donegal and Connemara, and as a metamorphic aureole around the Leinster granite. Gneiss on Inishtrahull, off Co. Donegal, is about 1.7 billion years old, the oldest rock in Ireland.",
+    "term": "Schist and gneiss: where they are found in Ireland"
+   },
+   {
+    "definition": "Limestone floors the central lowland; Old Red Sandstone forms the ridges of Munster; granite in Wicklow, Donegal and the Mournes; basalt in Co. Antrim; metamorphic rocks in Donegal, Connemara and Mayo.",
+    "term": "Map of Ireland: where each main rock type is found"
+   },
+   {
+    "definition": "Pacific plates subduct beneath it or slide past it. Volcanic: Cascade volcanoes, e.g. Mount St Helens (erupted 1980). Plutonic: the Sierra Nevada batholith. Regional metamorphism: western mountain belts. Transform boundary: the San Andreas Fault, California.",
+    "term": "North America's active western margin: rocks and features formed"
+   },
+   {
+    "definition": "No plate boundary at the coast, so no active volcanoes. Thick sediments build up on the Atlantic coastal plain, on the continental shelf and in the Mississippi delta. The Appalachians are old, worn-down fold mountains of sedimentary and metamorphic rock.",
+    "term": "North America's trailing eastern margin: what forms there"
+   },
+   {
+    "definition": "Granite: speckled, with large interlocking crystals. Basalt: dark and fine-grained, and may form columns. Sandstone: gritty grains, often reddish or buff, and layered. Limestone: pale grey, and may show fossils.",
+    "term": "Photo skill: how to identify granite, basalt, sandstone and limestone"
+   },
+   {
+    "definition": "Marble: white or coloured, with sparkling crystals and no fossils. Quartzite: pale, very hard and glassy. Slate: dark grey, and splits into thin sheets.",
+    "term": "Photo skill: how to identify marble, quartzite and slate"
    }
   ],
   "notes": [
@@ -24498,6 +30962,106 @@
    {
     "definition": "A small earthquake triggered by human activity, such as fluid injection into rock.",
     "term": "Induced earthquake"
+   },
+   {
+    "definition": "It removes rock far faster than natural weathering and erosion; it exposes fresh rock to weathering; it creates new deposits of waste on the surface. Removal is the human equivalent of erosion, dumping the equivalent of deposition.",
+    "term": "Human interaction with the rock cycle: three ways extraction changes it"
+   },
+   {
+    "definition": "Ore bodies form where igneous activity or hot fluids moving through rock concentrate minerals. Tara Mines, Navan, Co. Meath: underground zinc and lead mine in Carboniferous limestone; Europe's largest zinc mine; opened in 1977; owned by Swedish firm Boliden.",
+    "term": "Mining: how ore bodies form, and Tara Mines as an Irish example"
+   },
+   {
+    "definition": "Surveys and test drilling find the ore; open-cast mining strips the overburden to reach shallow ore (e.g. Bingham Canyon copper mine, Utah); underground mining uses shafts and tunnels; ore is crushed and separated; waste goes to spoil heaps and tailings ponds.",
+    "term": "Mining: the stages from exploration to waste disposal"
+   },
+   {
+    "definition": "On 21 October 1966 a colliery spoil tip built over springs on a hillside above Aberfan, south Wales, collapsed after heavy rain as a flow slide of saturated waste, burying Pantglas Junior School; 144 people were killed, 116 of them children.",
+    "term": "Aberfan disaster, 1966: what happened"
+   },
+   {
+    "definition": "Landscape scars and subsidence; spoil heaps and tailings taking up land; acid mine drainage and heavy-metal pollution, as copper mining left in the Avoca River, Co. Wicklow; dust, noise and heavy traffic. Positive: jobs, exports and local spending.",
+    "term": "Mining: four negative impacts and three positive ones"
+   },
+   {
+    "definition": "Environmental licensing and monitoring of waste and water leaving the site; lining tailings ponds to stop seepage and capping them at closure; rehabilitation after closure, as at Lisheen, Co. Tipperary, a zinc and lead mine that closed in 2015.",
+    "term": "Mining: how its impacts are managed, with an Irish example"
+   },
+   {
+    "definition": "Limestone: cement, aggregate and agricultural lime. Sand and gravel from glacial and fluvio-glacial deposits: concrete. Granite and other dimension stone: building, kerbs, headstones. Slate: roofing. Marble: decoration.",
+    "term": "Quarrying: five materials and what each is used for"
+   },
+   {
+    "definition": "First, the overburden of soil and glacial till is removed; then benches are cut into the rock face; the rock is drilled and blasted; finally it is crushed and screened (graded by size). Dimension stone is cut rather than blasted.",
+    "term": "Quarrying: the stages of working a quarry"
+   },
+   {
+    "definition": "Limestone is crushed, mixed with shale and heated in a kiln to make clinker, which is ground with gypsum. Heating turns calcium carbonate into lime and carbon dioxide, returning to the air carbon locked in rock for hundreds of millions of years.",
+    "term": "Cement: how it is made and why it releases carbon dioxide"
+   },
+   {
+    "definition": "Cement: Irish Cement at Platin, near Drogheda, Co. Meath, and Castlemungret, Co. Limerick (Carboniferous limestone). Sand and gravel: Blessington, Co. Wicklow. Granite: Ballyknockan, Co. Wicklow. Marble: Connemara. Slate: Valentia Island, Co. Kerry.",
+    "term": "Name an Irish quarry site for cement, sand and gravel, granite, marble and slate"
+   },
+   {
+    "definition": "Permanent scars; loss of farmland and habitat; dust, noise and blasting vibration; heavy lorries on rural roads; a lowered local water table. Positive: jobs, and the materials needed for housing and roads.",
+    "term": "Quarrying: five negative impacts and two positive ones"
+   },
+   {
+    "definition": "Planning permission with conditions on working hours and limits on dust and noise; earth banks and trees to screen the quarry; rehabilitation of worked-out quarries as lakes, wildlife habitats, landfill or amenity areas.",
+    "term": "Quarrying: how its impacts are managed"
+   },
+   {
+    "definition": "Remains of tiny marine organisms are buried in sea-floor sediment; over millions of years heat and pressure make oil and gas, which rise through porous, permeable reservoir rock (e.g. sandstone) until trapped under cap rock in an anticline, fault or salt dome.",
+    "term": "Oil and gas: how they form and become trapped"
+   },
+   {
+    "definition": "Seismic surveys locate possible traps; exploratory wells test them; production platforms or subsea wells bring up the oil or gas; pipelines carry it to an onshore terminal.",
+    "term": "Oil and gas: the stages of exploitation"
+   },
+   {
+    "definition": "Kinsale Head, off Co. Cork: discovered 1971, produced from 1978 until depleted in 2020; Ireland's first commercial gas field. Corrib, off north-west Co. Mayo: discovered 1996, first gas December 2015, piped to Bellanaboy terminal, originally run by Shell.",
+    "term": "Kinsale Head and Corrib gas fields: locations and key dates"
+   },
+   {
+    "definition": "The Shell to Sea campaign objected to a high-pressure raw-gas pipeline near homes. In 2005 five local men, the Rossport Five, were jailed for refusing to obey a court order not to obstruct the pipeline work.",
+    "term": "Corrib gas: why local people opposed it"
+   },
+   {
+    "definition": "The oil rig, leased by BP in the Gulf of Mexico, exploded on 20 April 2010, killing 11 workers. About 4.9 million barrels of oil spilled before the well was sealed, damaging fishing, tourism and wildlife along the US Gulf coast.",
+    "term": "Deepwater Horizon: what happened and its effects"
+   },
+   {
+    "definition": "Hydraulic fracturing of shale releases gas, but raises concerns over groundwater pollution and induced earthquakes. Ireland banned onshore fracking by law in 2017.",
+    "term": "Fracking: two concerns, and Ireland's response"
+   },
+   {
+    "definition": "Positive: energy supply and security, revenue, jobs. Negative: oil spills; damage to marine life and fishing; conflict with local communities; burning fossil fuels returns stored carbon to the atmosphere, adding to climate change.",
+    "term": "Oil and gas: positive and negative impacts"
+   },
+   {
+    "definition": "Heat comes from the earth's interior, from radioactive decay and residual heat; temperature rises with depth by about 25 to 30 °C per kilometre. Heat is greatest near plate boundaries and hotspots, where magma lies close to the surface.",
+    "term": "Geothermal energy: where the heat comes from and where it is greatest"
+   },
+   {
+    "definition": "Groundwater is heated by hot rock near magma; production wells bring steam and hot water to the surface; steam drives turbines to generate electricity and hot water heats buildings (district heating); cooled water is pumped back down a reinjection well.",
+    "term": "High-temperature geothermal plant: how it works, in stages"
+   },
+   {
+    "definition": "On the Mid-Atlantic Ridge above a hotspot. About 9 out of 10 homes use geothermal heat; it gives a quarter to a third of the electricity. Hellisheiði is the largest power station; Reykjavík has district heating; the Blue Lagoon uses Svartsengi's waste water.",
+    "term": "Iceland: why it has geothermal energy and how it uses it"
+   },
+   {
+    "definition": "Larderello, Tuscany, Italy: the world's first geothermal electricity (1904) and first commercial geothermal power station (1913). Wairakei, New Zealand: a geothermal power station opened in 1958.",
+    "term": "Larderello and Wairakei: why each is significant"
+   },
+   {
+    "definition": "Ireland is far from a plate boundary, so it has only low-temperature potential; warm springs at Mallow, Co. Cork, show heated groundwater exists. Ground-source heat pumps, using the steady warmth of shallow ground, are the main use.",
+    "term": "Geothermal energy in Ireland: its potential and main use"
+   },
+   {
+    "definition": "Advantages: renewable, low carbon, reliable, cheap once built. Disadvantages: few suitable places; costly drilling; hydrogen sulphide smell; minerals clog pipes; induced earthquakes, e.g. Basel, Switzerland (2006), where an enhanced project was abandoned.",
+    "term": "Geothermal energy: advantages and disadvantages"
    }
   ],
   "notes": [
@@ -24702,7 +31266,7 @@
   "questions": [
    {
     "marks": 30,
-    "model": "Mining removes metal ores, coal and salt from the crust, and so acts as a human form of erosion. Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock. Exploration uses geological surveys and test drilling. Where ore lies near the surface, open-pit mining removes the overburden; where it lies deep, underground shaft mining reaches it through shafts and tunnels. Processing crushes and grinds the ore and separates the mineral from the waste rock. Waste rock is stored in spoil heaps and fine tailings in tailings ponds. Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, in production since 1977; the ore lies in Carboniferous limestone. Impacts include landscape scars and subsidence, spoil heaps and tailings that take up land, and acid mine drainage: at Avoca, Co. Wicklow, centuries of copper mining left acid drainage that polluted the Avoca River. Dust, noise and heavy traffic affect nearby people. Positive impacts are jobs, exports and local spending. Management includes environmental licensing and monitoring, lined and capped tailings ponds, and rehabilitation after closure, as at Lisheen, Co. Tipperary, which closed in 2015. Internationally, Bingham Canyon, Utah, USA, is one of the largest open-pit mines in the world. The Aberfan disaster in south Wales on 21 October 1966 shows the danger of mining waste: a colliery spoil tip built over springs collapsed into the village after heavy rain, killing 144 people, 116 of them children.",
+    "model": "Mining removes metal ores, coal and salt from the crust, and so acts as a human form of erosion. Ore bodies form where minerals are concentrated by igneous activity or by hot fluids moving through rock. Exploration uses geological surveys and test drilling. Where ore lies near the surface, open-pit mining removes the overburden; where it lies deep, underground shaft mining reaches it through shafts and tunnels. Processing crushes and grinds the ore and separates the mineral from the waste rock. Waste rock is stored in spoil heaps and fine tailings in tailings ponds. Tara Mines, Navan, Co. Meath, is an underground zinc and lead mine, Europe's largest zinc mine, opened in 1977 (production paused from July 2023, restarted at the end of 2024); the ore lies in Carboniferous limestone. Impacts include landscape scars and subsidence, spoil heaps and tailings that take up land, and acid mine drainage: at Avoca, Co. Wicklow, centuries of copper mining left acid drainage that polluted the Avoca River. Dust, noise and heavy traffic affect nearby people. Positive impacts are jobs, exports and local spending. Management includes environmental licensing and monitoring, lined and capped tailings ponds, and rehabilitation after closure, as at Lisheen, Co. Tipperary, which closed in 2015. Internationally, Bingham Canyon, Utah, USA, is one of the largest open-pit mines in the world. The Aberfan disaster in south Wales on 21 October 1966 shows the danger of mining waste: a colliery spoil tip built over springs collapsed into the village after heavy rain, killing 144 people, 116 of them children.",
     "prompt": "Examine how humans interact with the rock cycle, with reference to mining.",
     "type": "short"
    },
@@ -24777,6 +31341,50 @@
    {
     "definition": "A slope of angular rock fragments at the foot of a cliff, produced by freeze-thaw action.",
     "term": "Scree"
+   },
+   {
+    "definition": "Physical: freeze-thaw, exfoliation, granular disintegration, pressure release, salt crystallisation. Chemical: carbonation, hydrolysis, oxidation, hydration, solution. Biological weathering works both ways.",
+    "term": "Weathering: name five physical and five chemical processes"
+   },
+   {
+    "definition": "Temperatures that move above and below 0 °C often, water, and jointed rock. It is most effective on mountains in upland Ireland, such as the summit of Carrauntoohil, Co. Kerry, on high mountains and in periglacial areas.",
+    "term": "Freeze-thaw action: the conditions it needs and where it is active"
+   },
+   {
+    "definition": "First, water enters cracks and joints; at night it freezes and expands by about 9%, widening the crack; by day the ice thaws and water seeps deeper; repeated cycles split off angular fragments, which build scree slopes at the foot of mountain cliffs.",
+    "term": "Freeze-thaw action: the process step by step, and its result"
+   },
+   {
+    "definition": "In hot deserts such as the Sahara, with a large daily range, the outer rock heats and expands by day and cools and contracts at night more than the interior, as rock conducts heat poorly; stress builds and curved sheets peel off, leaving rounded boulders.",
+    "term": "Exfoliation (onion weathering): how it works, step by step"
+   },
+   {
+    "definition": "When overlying rock is eroded, buried rock such as granite expands upward and cracks into sheets parallel to the surface; the sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA.",
+    "term": "Pressure release: how it forms domes, with an example"
+   },
+   {
+    "definition": "Physical: plant roots grow into cracks and widen them; burrowing animals expose fresh rock. Chemical: decaying plants produce humic acids; lichens and mosses release acids that attack rock surfaces.",
+    "term": "Biological weathering: two physical and two chemical ways"
+   },
+   {
+    "definition": "Rainwater absorbs carbon dioxide from the air and soil, forming weak carbonic acid, which reacts with calcium carbonate in limestone to form soluble calcium bicarbonate, carried away in solution along joints and bedding planes, e.g. on the Burren, Co. Clare.",
+    "term": "Carbonation: the process step by step, and where it operates"
+   },
+   {
+    "definition": "Water reacts with the feldspar in granite and turns it into clay (kaolin, or china clay); the quartz grains are left as sand, and the granite crumbles. China clay is quarried around St Austell, Cornwall, and on the edge of Dartmoor.",
+    "term": "Hydrolysis of granite: what it produces, with an example"
+   },
+   {
+    "definition": "Climate (temperature and rainfall); rock type, e.g. limestone is vulnerable to carbonation, granite to hydrolysis, while quartzite resists both; rock structure, as joints, bedding planes and faults let water in; vegetation and soil; time, relief and aspect.",
+    "term": "Weathering: five factors that influence it"
+   },
+   {
+    "definition": "Warm, wet: fast chemical weathering, as reaction rates roughly double for every 10 °C rise (Van 't Hoff's rule). Cold, around freezing: freeze-thaw. Hot deserts: exfoliation and salt crystallisation. Ireland's mild, wet climate favours chemical weathering.",
+    "term": "Climate: which type of weathering each climate favours"
+   },
+   {
+    "definition": "Freeze-thaw needs temperatures crossing the freezing point; exfoliation and granular disintegration need a large daily range, as rock and its minerals expand and contract unevenly. In each, temperature change, not just warmth, causes the stress.",
+    "term": "Role of temperature in physical weathering: the three processes and why"
    }
   ],
   "notes": [
@@ -24960,6 +31568,86 @@
    {
     "definition": "Chemical weathering in which water reacts with minerals such as feldspar, forming clay.",
     "term": "Hydrolysis"
+   },
+   {
+    "definition": "It is calcium carbonate, which dissolves in weak carbonic acid by carbonation. It is permeable: water passes along its bedding planes (horizontal) and joints (vertical), not through the solid rock, so drainage goes underground.",
+    "term": "Limestone: two reasons it develops karst landforms"
+   },
+   {
+    "definition": "Permeable rock lets water pass through it, mainly along cracks such as joints and bedding planes. Porous rock holds water in tiny spaces between its grains. Impermeable rock lets no water pass through.",
+    "term": "Permeable, porous and impermeable rock: the difference"
+   },
+   {
+    "definition": "First, glacial ice scrapes away the soil, exposing the jointed, bedded limestone to rain; then carbonation widens the joints into grikes; the blocks left standing between them are clints. Example: the Burren, Co. Clare.",
+    "term": "Limestone pavement: how it forms, in stages"
+   },
+   {
+    "definition": "Karren (runnels) are small grooves cut into clint surfaces by rainwater running across them. Solution hollows (kamenitza) are small enclosed hollows where rainwater collects on a clint and dissolves the rock.",
+    "term": "Limestone pavement: how karren and solution hollows form on clints"
+   },
+   {
+    "definition": "Ireland's best-known karst landscape, in Co. Clare, of Carboniferous limestone with extensive pavement of clints and grikes. Its name comes from the Irish Boireann, meaning rocky place. Mullaghmore is a Burren hill of folded, terraced limestone.",
+    "term": "The Burren: key facts for a karst answer"
+   },
+   {
+    "definition": "A stream flowing off impermeable rock reaches limestone and sinks down a swallow hole widened by carbonation along a joint; it flows underground through caves and re-emerges as a river of resurgence, usually where limestone meets impermeable rock below.",
+    "term": "Swallow hole to river of resurgence: what happens to a stream"
+   },
+   {
+    "definition": "In winter the water table rises and floods a hollow in the limestone, forming a seasonal lake; in summer it drains away through the floor. Turloughs are common in the Burren and east Co. Galway; Rahasane, near Craughwell, is one of the largest.",
+    "term": "Turlough: how it fills and empties, with an Irish example"
+   },
+   {
+    "definition": "Doline: a hollow formed by solution of the surface or collapse of a cave roof. Uvala: several merged dolines. Polje: a large, flat-floored, seasonally flooded depression (Slovenia). Dry valley: cut by a river when the ground was frozen or water table higher.",
+    "term": "Doline, uvala, polje and dry valley: what each is"
+   },
+   {
+    "definition": "Water dripping from a cave roof carries dissolved calcium bicarbonate; as it loses carbon dioxide and evaporates it deposits calcite. Stalactites grow down from the roof, stalagmites up from the floor beneath, and a pillar forms where the two join.",
+    "term": "Stalactites, stalagmites and pillars: how they form"
+   },
+   {
+    "definition": "Water dissolves passages along bedding planes and joints, and underground rivers enlarge them by erosion. Examples: Aillwee Cave, Co. Clare; Doolin Cave, Co. Clare, with the Great Stalactite, about 7.3 m long; Mitchelstown Cave, Co. Tipperary.",
+    "term": "Caves: how they form, with three Irish examples"
+   },
+   {
+    "definition": "Youth: surface drainage begins to sink and swallow holes form. Maturity: most drainage goes underground, with caves, dolines and uvalas. Old age: cave roofs collapse, the limestone is mostly removed and isolated residual hills remain.",
+    "term": "Karst cycle: the three stages"
+   },
+   {
+    "definition": "On Cuilcagh Mountain, Co. Fermanagh, streams flow off impermeable shale and sandstone and sink into swallow holes at the limestone, flow through the Marble Arch Caves and re-emerge as the Cladagh River; the Marble Arch is a natural limestone arch over it.",
+    "term": "Marble Arch upland: how its drainage works"
+   },
+   {
+    "definition": "Water from Lough Mask flows underground through the limestone to Lough Corrib near Cong, Co. Mayo. The Cong Canal, built in the mid-1800s to link the two lakes, never held water because it leaked into the permeable limestone: the dry canal.",
+    "term": "Mask–Corrib lowland: two signs of underground karst drainage"
+   },
+   {
+    "definition": "Slovenia: the Kras plateau, which gives karst its name, with Postojna Cave and the Škocjan Caves. S.W. China: tower karst at Guilin and the Li River. Kentucky: Mammoth Cave, the world's longest known cave system. Jamaica: cockpit karst in Cockpit Country.",
+    "term": "Name four international karst areas and a feature of each"
+   },
+   {
+    "definition": "Hard, crystalline and resistant to erosion; impermeable, so water runs off, giving many surface streams and boggy ground; jointed; weathers mainly by hydrolysis of its feldspar, which forms clay (china clay).",
+    "term": "Granite landscapes: four characteristics of granite that shape them"
+   },
+   {
+    "definition": "The Leinster batholith, the largest granite mass in Ireland and Britain, forms rounded, dome-shaped uplands, worn down from rock that once covered it; impermeable rock and high rainfall give thin, acidic soils and blanket bog, e.g. around the Sally Gap.",
+    "term": "Wicklow granite landscape: its main features"
+   },
+   {
+    "definition": "First, under warm, wet conditions, hydrolysis rotted the granite deep along its joints, most where they were close together; later, mass movement under periglacial conditions stripped the rotted rock, leaving widely jointed blocks as tors (D. L. Linton, 1955).",
+    "term": "Tors: the two-stage (deep weathering) theory of formation"
+   },
+   {
+    "definition": "A granite upland in Devon, England, with tors such as Haytor and Hound Tor, clitter (boulder fields) on the slopes below them, blanket bog, and china clay quarried at Lee Moor on its south-west edge.",
+    "term": "Dartmoor: four granite landscape features with examples"
+   },
+   {
+    "definition": "A low central lowland of Carboniferous limestone is ringed by uplands of harder rock (granite, quartzite, sandstone). By differential erosion, resistant rock forms uplands and peaks, e.g. the quartzite peaks of Errigal, Croagh Patrick and the Great Sugar Loaf.",
+    "term": "Rock type and the Irish landscape: saucer shape and quartzite peaks"
+   },
+   {
+    "definition": "East of Lough Corrib lies the limestone lowland of east Co. Galway, with underground drainage, few rivers and dry surfaces; to the west lie the granite and metamorphic uplands of Connemara, with many surface streams and bog.",
+    "term": "Two contrasting landscapes either side of Lough Corrib"
    }
   ],
   "notes": [
@@ -25138,6 +31826,82 @@
    {
     "definition": "The force that holds particles of soil or rock together, resisting movement.",
     "term": "Cohesion"
+   },
+   {
+    "definition": "Gravity pulls material downslope; friction, cohesion and plant roots resist it. Movement happens when the downslope force exceeds the resistance. Weathering supplies the material, and no transporting agent is needed.",
+    "term": "Mass movement: the forces on a slope and when material moves"
+   },
+   {
+    "definition": "Slow: soil creep and solifluction. Fast: rockfall, landslide, slump, mudflow, lahar, bog burst and avalanche. Movements are also classed by water content (dry or wet) and type of movement (heave, slide, flow or fall).",
+    "term": "Mass movements: which are fast and which are slow"
+   },
+   {
+    "definition": "In space: most intense on steep, wet and unvegetated slopes. In time: more frequent after heavy rain, snowmelt, earthquakes and seasonal freeze-thaw.",
+    "term": "Mass movement: where and when it is most active"
+   },
+   {
+    "definition": "Terracettes (small steps on grassy slopes); bent tree trunks; tilted fences, walls and poles; soil piled up behind walls; cracked roads.",
+    "term": "Soil creep: five pieces of evidence on a slope"
+   },
+   {
+    "definition": "Blocks loosened by freeze-thaw, or undercut by the sea or a river, fall freely from a steep cliff and collect as scree (talus) at its foot.",
+    "term": "Rockfall: what causes it and what it leaves"
+   },
+   {
+    "definition": "Landslide: rock or debris slides suddenly along a flat plane, such as a bedding plane or joint dipping with the slope. Slump: saturated material rotates backward on a curved slip plane, leaving a crescent-shaped scarp, a back-tilted block and a bulging toe.",
+    "term": "Landslide vs slump: how the movement differs"
+   },
+   {
+    "definition": "Prolonged or intense rain saturates sloping blanket bog; the peat gains weight and its base loses grip on the mineral soil or rock below, so it bursts and flows downhill as a black slurry, blocking rivers, killing fish and wrecking roads, bridges and land.",
+    "term": "Bog burst: how it happens and its effects"
+   },
+   {
+    "definition": "On 19 September 2003 an intense thunderstorm with very heavy rain triggered about 40 landslides and peat slides on Dooncarton Mountain in a few hours; houses, roads, a bridge and a graveyard were damaged and several families were evacuated.",
+    "term": "Pollatomish, Co. Mayo, 2003: what happened"
+   },
+   {
+    "definition": "In December 1896, near Rathmore, Co. Kerry, a bog burst swept away a house, killing a family of eight.",
+    "term": "Knocknageeha, Co. Kerry: the classic Irish bog burst"
+   },
+   {
+    "definition": "Between Larne and Cushendall, hard basalt lies on chalk over soft Lias clay. Rain soaks through the jointed basalt and chalk into the clay, which turns slippery and plastic; the rock above slumps seaward in rotational slides and clay flows out as mudflows.",
+    "term": "Antrim coast landslides: the geology and the process"
+   },
+   {
+    "definition": "Mudflows have repeatedly blocked the Antrim Coast Road (A2); Garron Point is a classic landslip site. Engineers have built retaining walls and drainage, and fitted rock-catch fences and netting to protect the road.",
+    "term": "Antrim Coast Road: effects of the landslides and the responses"
+   },
+   {
+    "definition": "On 5–6 May 1998, after prolonged heavy rain, loose volcanic ash and soil on steep limestone slopes in Campania became saturated and slid off as fast mudflows into Sarno and neighbouring towns; about 160 people were killed.",
+    "term": "Sarno, southern Italy, 1998: what happened"
+   },
+   {
+    "definition": "On 9 October 1963 a landslide from Monte Toc fell into the reservoir; the wave over the dam destroyed Longarone, killing about 2,000 people, though the dam survived. Causes: weak clay layers in the valley side, and filling the reservoir saturated the slope.",
+    "term": "Vajont Dam, Italy, 1963: what happened and why"
+   },
+   {
+    "definition": "On 13 November 1985 a small eruption of Nevado del Ruiz melted part of its summit ice cap; lahars rushed down river valleys and buried the town of Armero, killing about 23,000 people. Warnings had been given, but the town was not evacuated.",
+    "term": "Armero, Colombia, 1985: what happened"
+   },
+   {
+    "definition": "In December 1999 days of torrential rain triggered mudslides and debris flows on the steep mountains above coastal towns in Vargas state, killing thousands of people.",
+    "term": "Vargas, Venezuela, 1999: what happened"
+   },
+   {
+    "definition": "On 28 May 2025 the Birch Glacier collapsed, burying most of Blatten in ice, rock and mud. Rockfalls onto the glacier had been detected, so the village was evacuated days earlier. The debris dammed the River Lonza, forming a lake upstream and a flood risk.",
+    "term": "Blatten, Switzerland, 2025: what happened"
+   },
+   {
+    "definition": "On 3 July 2022, during a heatwave, a large section of the Marmolada glacier in the Dolomites collapsed as an ice avalanche, killing 11 people: glacier retreat as a new cause of mass movement.",
+    "term": "Marmolada glacier, Italy, 2022: what happened"
+   },
+   {
+    "definition": "The steeper the slope, the stronger the downslope pull of gravity: gentle slopes favour creep, steep slopes falls and slides. Some water adds cohesion, but saturation fills pores, adds weight, reduces friction and lubricates, so material flows.",
+    "term": "Mass movement factors: how gradient and water affect it"
+   },
+   {
+    "definition": "Wet clay turns slippery and plastic, and rock dipping towards the slope slides; roots bind soil and plants absorb water, so bare slopes move more easily; erosion at the base removes support and weight at the top adds force; earthquakes shake material loose.",
+    "term": "Mass movement factors: rock type, vegetation, undercutting and tectonics"
    }
   ],
   "notes": [
@@ -25338,6 +32102,42 @@
    {
     "definition": "Thick deposits of fine wind-blown dust, which form very fertile soils.",
     "term": "Loess"
+   },
+   {
+    "definition": "In hot and cold deserts, such as the Sahara, and on coasts, with loose, dry, fine material, sparse vegetation and strong winds. Air is far less dense than water or ice, so wind moves only sand and finer particles, mostly near the ground.",
+    "term": "Wind erosion: where it works best, and why it is weaker than water"
+   },
+   {
+    "definition": "Deflation: wind lifts and blows away loose, dry, fine particles, lowering the surface. Abrasion (sandblasting): wind-blown sand wears rock away, mostly within a metre or two of the ground. Attrition: grains collide and become smaller, rounder and frosted.",
+    "term": "Wind erosion: three processes and what each does"
+   },
+   {
+    "definition": "Suspension: fine dust is carried high, sometimes thousands of kilometres in dust storms. Saltation: sand grains bounce along in short hops; most sand moves this way. Surface creep: larger grains are pushed and rolled along by the impact of saltating grains.",
+    "term": "Wind transport: three methods"
+   },
+   {
+    "definition": "First, a pillar of rock stands on the desert floor; then sandblasting, which is concentrated near the ground, undercuts its base; finally the top, above the zone of abrasion, stays wide, leaving a mushroom shape.",
+    "term": "Mushroom (pedestal) rock: how it forms, in stages"
+   },
+   {
+    "definition": "Where horizontal layers of hard cap rock lie over softer rock and joints run across the wind: first, abrasion cuts down along joints in the cap rock; then the soft rock beneath is undercut; finally a flat-topped ridge is left.",
+    "term": "Zeugen: how it forms, in stages"
+   },
+   {
+    "definition": "Deflation removes loose material until it reaches the water table or a resistant layer, leaving a depression. The Qattara Depression, Egypt, below sea level, is attributed mainly to deflation down to the water table.",
+    "term": "Deflation hollow: how it forms, with an example"
+   },
+   {
+    "definition": "Erg: a sand sea. Reg: stony desert. Hamada: bare rock. The Sahara Desert, North Africa, has all three.",
+    "term": "Desert landscapes: erg, reg and hamada"
+   },
+   {
+    "definition": "Barchan: crescent-shaped, horns pointing downwind, gentle windward slope and steep slip face on the lee side; it migrates downwind. Seif (linear): a long ridge roughly parallel to the dominant wind, formed where winds blow from two directions.",
+    "term": "Barchan vs seif dunes: shape and the winds that form them"
+   },
+   {
+    "definition": "On the Great Plains of the USA, including Oklahoma and Kansas, in the 1930s, bare, dry soil was blown away in huge dust storms, known as black blizzards.",
+    "term": "Dust Bowl: where and when it happened, and what the wind did"
    }
   ],
   "notes": [
@@ -25460,6 +32260,82 @@
    {
     "definition": "Waterlogged peat that covers upland slopes and can burst or slide when saturated.",
     "term": "Blanket bog"
+   },
+   {
+    "definition": "Removing the vegetation that binds soil and absorbs water; adding water or weight to slopes; removing the support at the base of slopes. Bare soil is also stripped by rain splash, sheet wash, gullying and wind.",
+    "term": "Human activity: three ways it makes mass movement more frequent"
+   },
+   {
+    "definition": "Too many animals for the carrying capacity eat vegetation to the roots and trample the ground, compacting soil and breaking the peat; without roots, soil and peat lose cohesion, rain runs off or saturates the peat, creep speeds up and peat slides occur.",
+    "term": "Overgrazing: how it leads to soil erosion and mass movement"
+   },
+   {
+    "definition": "From the 1980s, EU (CAP) headage payments paid per animal, so sheep numbers rose sharply on western hill commonage (Connemara; the Mayo, Donegal and Kerry mountains). Heather and grass were stripped, peat eroded and silt hurt salmon and trout spawning grounds.",
+    "term": "Western Irish commonage: how overgrazing happened and its effects"
+   },
+   {
+    "definition": "Payments changed from per-head to per-area; Commonage Framework Plans (from the early 2000s) set lower stocking rates; REPS, introduced in 1994, paid farmers to farm in environmentally friendly ways. Also destocking, rotational grazing and fencing.",
+    "term": "Overgrazing: how it has been managed, with Irish measures"
+   },
+   {
+    "definition": "Population growth brought more cattle, goats and sheep around wells and boreholes, shorter fallow periods, more cash crops and more fuelwood cutting; in droughts, notably in the 1970s and 1980s, wind and the short wet season's heavy rain eroded the bare soil.",
+    "term": "The Sahel: how overgrazing and overcropping led to desertification"
+   },
+   {
+    "definition": "Cropping land every year without fallow or fertiliser uses up nutrients, so soil structure breaks down and ground lies bare; loose, dry soil is washed downslope into rills and gullies or blown away; ploughing up and down slopes channels water and soil down.",
+    "term": "Overcropping: how it leads to soil erosion on slopes"
+   },
+   {
+    "definition": "On the Great Plains of the USA, including Oklahoma and Kansas, natural grassland was ploughed up for wheat; severe drought then left bare, dry soil that strong winds blew away in huge dust storms; many farming families were forced to leave.",
+    "term": "Dust Bowl, 1930s: how overcropping caused it and its effects"
+   },
+   {
+    "definition": "The US Soil Conservation Service was set up in 1935, and shelter belts of trees, contour ploughing and crop rotation were promoted.",
+    "term": "Dust Bowl: how the USA responded"
+   },
+   {
+    "definition": "Crop rotation; fallow periods; contour ploughing along the slope, not up and down; strip cropping; terracing of steep slopes, e.g. the rice terraces of Banaue, Luzon, Philippines, over 2,000 years old.",
+    "term": "Overcropping: five management methods, with an example"
+   },
+   {
+    "definition": "Roots bind soil to bedrock, the canopy breaks the force of rain, and trees take up water. Without trees, more rain reaches and saturates the soil and rotting roots no longer hold the slope, so landslides and mudflows become more frequent.",
+    "term": "Deforestation: how it increases landslides and mudflows"
+   },
+   {
+    "definition": "Haiti has lost almost all its natural forest, mainly for farmland and charcoal, unlike the neighbouring Dominican Republic. In September 2004 Tropical Storm Jeanne caused floods and mudslides off the bare hills around Gonaïves, killing about 3,000 people.",
+    "term": "Haiti, 2004: how deforestation worsened a disaster"
+   },
+   {
+    "definition": "In October 1998 torrential rain over Honduras and Nicaragua caused floods and landslides, made worse by deforested slopes; about 11,000 people were killed. A mudflow from the Casita volcano, Nicaragua, buried villages.",
+    "term": "Hurricane Mitch, 1998: what happened"
+   },
+   {
+    "definition": "About 1% of Ireland was forested around 1900; forest cover is now about 11%, mostly conifer plantations. Clear-felling plantations on upland peat, and building forestry and wind-farm roads, can destabilise peat slopes.",
+    "term": "Ireland's forests: two figures and a modern risk to peat slopes"
+   },
+   {
+    "definition": "Afforestation and reforestation of steep slopes; buffer strips of trees beside rivers; selective felling instead of clear-felling; restricting felling on steep or peaty slopes.",
+    "term": "Deforestation: four ways to manage its effect on slopes"
+   },
+   {
+    "definition": "On 16 October 2003, during construction of a wind farm on a forested blanket-bog hillside in the Slieve Aughty Mountains, about 450,000 cubic metres of peat slid down the slope into the Owendalulleegh River, killing large numbers of fish.",
+    "term": "Derrybrien, Co. Galway, 2003: what happened"
+   },
+   {
+    "definition": "In 2019 the EU Court of Justice fined Ireland a lump sum of €5 million plus €15,000 a day, because no proper environmental impact assessment had been carried out for the wind farm.",
+    "term": "Derrybrien: why the EU fined Ireland"
+   },
+   {
+    "definition": "In November 2020 a peat slide during construction of the Meenbog wind farm, near Ballybofey, flowed into the Mourne Beg River and crossed into Northern Ireland, polluting a river system important for salmon.",
+    "term": "Meenbog, Co. Donegal, 2020: what happened"
+   },
+   {
+    "definition": "Road and rail cuttings that steepen slopes or remove their support; buildings adding weight at the top of slopes; leaking pipes, drainage and irrigation saturating slopes; reservoirs saturating valley sides (Vajont); unstable mining spoil heaps (Aberfan).",
+    "term": "Other human causes of mass movement: name five"
+   },
+   {
+    "definition": "Engineering: retaining walls, gabions, rock bolts, netting and rock-catch fences, regrading slopes, drainage pipes. Planning: hazard mapping, avoiding unstable slopes, environmental impact assessments before building on peat, monitoring and warning systems.",
+    "term": "Reducing the risk of mass movement: engineering and planning"
    }
   ],
   "notes": [
@@ -25675,6 +32551,98 @@
    {
     "definition": "A dune grass whose long roots bind the sand, allowing sand dunes to form and grow.",
     "term": "Marram grass"
+   },
+   {
+    "definition": "Wind speed, how long the wind blows, and fetch. In shallow water, friction with the sea bed slows the base of the wave while the crest keeps moving, so the crest topples forward and the wave breaks.",
+    "term": "Waves: three factors that control their size, and why they break"
+   },
+   {
+    "definition": "Constructive: low, long wavelength, low frequency; they spill, swash is stronger than backwash, so they build the beach up (calm weather). Destructive: high, steep, short wavelength, high frequency; they plunge, backwash is stronger, so they erode it (storms).",
+    "term": "Constructive vs destructive waves: how each affects a beach"
+   },
+   {
+    "definition": "Waves slow first in the shallow water off headlands, so the wave fronts bend; energy converges on headlands, causing more erosion, and spreads out in bays, where it is weaker and deposition is favoured. Wave fronts end up roughly parallel to the shore.",
+    "term": "Wave refraction: what happens to wave energy at headlands and bays"
+   },
+   {
+    "definition": "Where bands of hard and soft rock meet the coast at right angles (a discordant coast), the soft rock is eroded back into bays and the hard rock is left as headlands. Example: the chalk headland of Handfast Point, Dorset, between Studland Bay and Swanage Bay.",
+    "term": "Headlands and bays: how differential erosion forms them, with an example"
+   },
+   {
+    "definition": "West: the long Atlantic fetch and prevailing south-westerly winds give high-energy waves and rugged, cliffed, erosional coasts. East: the narrow Irish Sea gives a short fetch and weaker waves, and soft glacial deposits favour beaches, spits, lagoons and dunes.",
+    "term": "West vs east coast of Ireland: why they differ"
+   },
+   {
+    "definition": "Rock type, as soft boulder clay erodes fastest, e.g. the Holderness coast, Yorkshire; rock structure (joints, faults, bedding); wave energy (fetch, storms, refraction); whether a beach protects the cliff foot; human activity, such as removing beach material.",
+    "term": "Rate of coastal erosion: five factors that control it"
+   },
+   {
+    "definition": "Above the waves, freeze-thaw and salt crystallisation weather the cliff face, and rockfalls and slumping on soft clay cliffs bring material down; the waves then remove the fallen debris.",
+    "term": "Cliffs: how weathering and mass movement help wear them back"
+   },
+   {
+    "definition": "First, waves cut a notch between high and low tide by hydraulic action and abrasion; then the overhang collapses and waves remove the debris, so the cliff retreats, staying steep; the platform left at its foot widens until waves lose energy crossing it.",
+    "term": "Cliff and wave-cut platform: how they form, in stages"
+   },
+   {
+    "definition": "The Cliffs of Moher, Co. Clare, rise to 214 m at their highest and are made of layers of shale and sandstone, not limestone.",
+    "term": "Cliffs of Moher: their height and rock type"
+   },
+   {
+    "definition": "Waves exploit a joint or fault at the base of a headland, enlarging it into a cave by hydraulic action and abrasion; caves meet through the headland as an arch; waves and weathering bring down the roof, leaving a stack; the stack is undercut to a low stump.",
+    "term": "Cave, arch, stack and stump: how the sequence forms"
+   },
+   {
+    "definition": "Arches: the Bridges of Ross, Co. Clare (originally three, now one); Durdle Door, Dorset, England. Stacks: Dún Briste, off Downpatrick Head, Co. Mayo; Old Harry Rocks, chalk stacks off Handfast Point, Dorset.",
+    "term": "Name examples of sea arches and sea stacks"
+   },
+   {
+    "definition": "Hydraulic action, with compressed air, enlarges a cave upward along a vertical joint until it breaks through to the cliff top; storm spray is forced up through the hole; if the roof between the blowhole and the sea collapses, a narrow inlet (a geo) forms.",
+    "term": "Blowhole and geo: how they form"
+   },
+   {
+    "definition": "Waves approach at an angle set by the prevailing wind; swash carries material up the beach at that angle and backwash drags it straight down, moving it along in a zigzag. It builds spits, bars, lagoons and tombolos, e.g. Spurn Head from Holderness sediment.",
+    "term": "Longshore drift: how it works and the landforms it builds"
+   },
+   {
+    "definition": "Waves lose energy (constructive waves, sheltered bays, shallow water, or after refraction); the coast changes direction, e.g. at a river mouth or bay; and there is a large supply of sediment from rivers, cliff erosion or glacial deposits offshore.",
+    "term": "Coastal deposition: three conditions that cause it"
+   },
+   {
+    "definition": "Finer sand lies lower down the beach and coarser shingle higher up; a storm beach is a ridge of large shingle thrown above normal high tide; berms are ridges marking successive high-tide levels. Examples: Tramore, Co. Waterford; Curracloe, Co. Wexford.",
+    "term": "Beach: how its material is sorted, two features on it, and two Irish examples"
+   },
+   {
+    "definition": "Longshore drift carries material past a point where the coast changes direction and drops it in calmer, deeper water, building a ridge attached to land at one end; refraction or a wind shift curves the tip; silt fills the sheltered water behind as salt marsh.",
+    "term": "Sand spit: how it forms, in stages"
+   },
+   {
+    "definition": "Inch and Rossbeigh, Co. Kerry, growing out from opposite sides of Dingle Bay; Tramore, Co. Waterford, a spit with dunes and the Back Strand lagoon behind it; Spurn Head, at the mouth of the Humber estuary, England.",
+    "term": "Name four sand spits, three of them Irish"
+   },
+   {
+    "definition": "A spit grows right across the mouth of a bay, joining two headlands as a sand bar; the water trapped behind it is a lagoon, which slowly fills with sediment and may become marsh. Examples: Lady's Island Lake and Tacumshin Lake, Co. Wexford.",
+    "term": "Sand bar and lagoon: how they form, with Irish examples"
+   },
+   {
+    "definition": "Longshore drift, and waves refracting around an island and meeting in its shelter, build a ridge of sand or shingle that joins the island to the mainland. Example: Sutton, Co. Dublin, joining Howth Head, once an island.",
+    "term": "Tombolo: how it forms, with an Irish example"
+   },
+   {
+    "definition": "First, wind blows dry sand from a wide beach at low tide inland, piling it against obstacles above high tide; then marram grass colonises it, its roots binding the sand; embryo dunes grow into fore dunes, and grey (fixed) dunes form inland as soil develops.",
+    "term": "Sand dunes: how they form, in stages"
+   },
+   {
+    "definition": "Brittas Bay, Co. Wicklow; Curracloe, Co. Wexford; Inch, Co. Kerry; North Bull Island, Dublin Bay.",
+    "term": "Name four Irish sand dune systems"
+   },
+   {
+    "definition": "Erosional: cliff, wave-cut notch, wave-cut platform, cave, sea arch, sea stack, sea stump, blowhole, headland. Depositional: beach, storm beach, sand spit, sand bar, lagoon, tombolo, sand dunes, salt marsh.",
+    "term": "Classify coastal features as erosional or depositional"
+   },
+   {
+    "definition": "Subtract the earlier year from the later to get the number of years, then divide the distance retreated by it. Illustrative, invented figures: a cliff retreats 50 m between 1990 and 2015, so 50 ÷ 25 = 2 m per year.",
+    "term": "Skill: how to work out the average annual rate of coastal erosion"
    }
   ],
   "notes": [
@@ -25944,6 +32912,94 @@
    {
     "definition": "An international beach award for water quality, environmental management, education and safety.",
     "term": "Blue Flag"
+   },
+   {
+    "definition": "It interrupts longshore drift; removes sediment; destroys the vegetation that holds dunes together; reflects wave energy. The effects often appear further along the coast, downdrift, rather than where the work was done.",
+    "term": "Human activity on coasts: four ways it upsets coastal processes"
+   },
+   {
+    "definition": "Walkers and sunbathers kill the marram grass; with no roots binding it, wind removes the sand and cuts blowouts into the dunes; a blowout can breach the dune ridge and let the sea reach the land behind.",
+    "term": "Trampling of sand dunes: how it leads to blowouts"
+   },
+   {
+    "definition": "Vehicles, parking, caravan parks and holiday homes on dunes kill plants and compact sand; golf links stabilise some dunes but replace habitats and bring demands for defences; footpath and cliff-edge erosion at busy viewpoints; litter and disturbance of birds.",
+    "term": "Recreation: other pressures on dunes, cliffs and birds"
+   },
+   {
+    "definition": "Since mass tourism grew in the 1960s, high-rise resorts on the Costa del Sol and at Benidorm, Costa Blanca, were built on the beach and dune line, removing the sediment store and blocking landward movement, so beaches narrowed and defences were needed.",
+    "term": "Spanish Mediterranean coast: how resorts caused coastal squeeze"
+   },
+   {
+    "definition": "Spain passed its Coastal Law (Ley de Costas) in 1988 in response to overdevelopment; it restricts building on the shore zone.",
+    "term": "Ley de Costas, 1988: what Spain did and why"
+   },
+   {
+    "definition": "Hard engineering builds structures to resist the sea; it is usually expensive, effective locally, and can increase erosion elsewhere. Soft engineering works with natural processes; it is cheaper and more sustainable, but slower and less certain.",
+    "term": "Hard vs soft engineering: how they differ in approach and effect"
+   },
+   {
+    "definition": "Often curved to throw waves back, they protect the land behind but reflect wave energy, so backwash scours the beach in front, lowering it and undermining the wall; erosion often increases at its ends. They are expensive to build and maintain.",
+    "term": "Sea walls: how they work, their effects on the coast and their cost"
+   },
+   {
+    "definition": "Large boulders are piled at the foot of a cliff or in front of a sea wall, and the gaps absorb and break up wave energy. It is cheaper than a sea wall and quick to place, but it can be unsightly and hard to walk over, and big storms may move the boulders.",
+    "term": "Rock armour: how it works, two advantages and three disadvantages"
+   },
+   {
+    "definition": "Built across the beach at right angles to the shore, groynes trap sand moving by longshore drift on their updrift side, widening the beach so it absorbs wave energy; downdrift, the beach is starved of sediment and erosion increases.",
+    "term": "Groynes: effect on longshore drift updrift and downdrift"
+   },
+   {
+    "definition": "Rock armour is a pile of loose boulders lying along the foot of a cliff or wall. Groynes are low barriers running out across the beach at right angles to the shore. Rosslare Strand, Co. Wexford, an eroding sandy resort coast, is protected by both.",
+    "term": "Rock armour vs groynes: how to tell them apart in a photo"
+   },
+   {
+    "definition": "Nourishment widens a beach with sand or shingle: it looks natural and keeps the beach for tourism, but must be repeated, and dredging can harm the sea bed. Dune regeneration (sand fencing, marram replanting, fencing off): cheap and natural, but slow.",
+    "term": "Beach nourishment and dune regeneration: pros and cons"
+   },
+   {
+    "definition": "Defences are removed or not replaced and the sea floods low-value land, creating salt marsh that absorbs wave energy and gives habitat: cheap and sustainable, but landowners lose land. Medmerry, West Sussex (2013): a new embankment inland, the sea let in.",
+    "term": "Managed retreat: how it works, with an example"
+   },
+   {
+    "definition": "In 1991 two rock groynes and rock armour at the cliff foot, costing about £2 million, protected the village and the main coast road. The beach built up between the groynes, but cliffs just south of the scheme, starved of sediment, eroded faster than before.",
+    "term": "Mappleton, Holderness: what was built and what happened"
+   },
+   {
+    "definition": "The North Bull Wall was built in the 1820s to stop sand silting up the entrance to Dublin Port. Sand built up against and beside it, and North Bull Island grew from a sandbank into an island with dunes, salt marsh and mudflats.",
+    "term": "North Bull Wall: how a human structure created North Bull Island"
+   },
+   {
+    "definition": "The 1953 North Sea storm surge flooded the south-west of the Netherlands and killed about 1,800 people there. The Delta Works followed: dams, sluices and storm-surge barriers that shortened and sealed the coast of Zeeland.",
+    "term": "Netherlands, 1953: the flood and the Delta Works"
+   },
+   {
+    "definition": "Completed in 1986, this storm-surge barrier has movable gates that stay open in normal weather, so the tides still flow in and the estuary's ecosystem and shellfish industry are kept.",
+    "term": "Oosterschelde barrier: why it balances defence with conservation"
+   },
+   {
+    "definition": "Work in one place affects places downdrift, so integrated coastal zone management plans a whole stretch of coast together, balancing defence, tourism, development and conservation.",
+    "term": "ICZM: why a whole sediment cell is managed as one unit"
+   },
+   {
+    "definition": "The EU Habitats and Birds Directives create Special Areas of Conservation and Special Protection Areas (birds), forming the Natura 2000 network, overseen in Ireland by the National Parks and Wildlife Service. Planning controls limit building near the shore.",
+    "term": "Legal protection of coasts: EU and Irish measures"
+   },
+   {
+    "definition": "Run by the Foundation for Environmental Education and administered in Ireland by An Taisce. Criteria: water quality; environmental education and information; environmental management; safety and services. It encourages councils to manage beaches well.",
+    "term": "Blue Flag beaches: who runs the award and its four criteria"
+   },
+   {
+    "definition": "A dune system heavily used by day-trippers from Dublin in summer; trampling and parking damaged the dunes, part of a protected Special Area of Conservation. Managed with fencing, boardwalks and car parks set back from the dunes.",
+    "term": "Brittas Bay, Co. Wicklow: the pressures and how they are managed"
+   },
+   {
+    "definition": "A visitor centre built into the hillside opened in 2007; paths and a wall or barrier set back from the cliff edge control trampling and keep people safe.",
+    "term": "Cliffs of Moher: how a busy cliff site is managed"
+   },
+   {
+    "definition": "A UNESCO Biosphere Reserve since 1981, extended in 2015 as the Dublin Bay Biosphere; its salt marsh and mudflats are a major wintering ground for Brent geese. Pressures: the Royal Dublin and St Anne's golf courses, cars on the beach and many visitors.",
+    "term": "North Bull Island as a conservation site: designations and pressures"
    }
   ],
   "notes": [
@@ -26207,6 +33263,82 @@
    {
     "definition": "A planned town with a central square or diamond, a wide main street, a market house and an Established church.",
     "term": "Plantation town"
+   },
+   {
+    "definition": "Water supply; defence (hills, cliffs, river loops, islands); fertile, well-drained land; shelter in valleys, bays and estuaries; routeways, fords and bridging points; resources such as fish, timber and stone; religious or political importance.",
+    "term": "Locational factors that settlers used in every period"
+   },
+   {
+    "definition": "Near Coleraine, Co. Derry, on a bluff above the River Bann: the earliest known house site in Ireland, Mesolithic and over 9,000 years old. Its hunter-gatherers fished for salmon and eels and gathered hazelnuts.",
+    "term": "Mount Sandel: location, age and how its people lived"
+   },
+   {
+    "definition": "Farmers cleared forest for fields and lived in permanent farmsteads; megalithic tombs stood on high, visible ground. Céide Fields, near Ballycastle, Co. Mayo: stone-walled fields under blanket bog, over 5,000 years old, evidence of organised farming.",
+    "term": "Neolithic farmers: how settlement changed, with the Céide Fields"
+   },
+   {
+    "definition": "In a bend of the River Boyne, Co. Meath: the passage tombs of Newgrange, Knowth and Dowth. Newgrange is about 5,000 years old (about 3200 BC). A UNESCO World Heritage Site since 1993.",
+    "term": "Brú na Bóinne: location, tombs and two dates"
+   },
+   {
+    "definition": "Standing stones and stone circles; fulachta fia beside streams; hillforts and promontory forts, e.g. Dún Aonghasa, a stone fort on a sheer sea cliff on Inis Mór; crannógs; royal sites at Tara (High Kings) and Navan Fort (Ulster), not towns.",
+    "term": "Bronze Age and Iron Age: settlement features and named sites"
+   },
+   {
+    "definition": "Early Christian farmsteads, from the 5th century, dispersed on well-drained hillsides. Over 40,000 survive in Ireland. Place names with rath, lios or lis and dun mark ringforts; kil or cill marks a church.",
+    "term": "Ringforts: where they were built, how many survive, place-name clues"
+   },
+   {
+    "definition": "On routeways, rivers, eskers or remote islands: Glendalough (St Kevin, 6th century, glaciated valley); Clonmacnoise (St Ciarán, where the Esker Riada crosses the Shannon); Skellig Michael (island). Kells and Armagh grew into towns from monasteries.",
+    "term": "Early Christian monasteries: where they were sited, three examples"
+   },
+   {
+    "definition": "From the 9th century, raids gave way to longphorts on sheltered estuaries and harbours at river mouths, for trade and access by sea; they became the first true towns. Norse names: Wexford, Waterford, Wicklow, Arklow, Leixlip (salmon leap).",
+    "term": "Viking settlement: site factors and Norse place names"
+   },
+   {
+    "definition": "Dublin, 841, on the Liffey near its mouth; Waterford, 914, on the Suir estuary; Limerick, from about 922, on an island in the Shannon. Wexford and Cork were also Viking towns.",
+    "term": "Viking towns: three foundation dates and their sites"
+   },
+   {
+    "definition": "Landed at Bannow Bay, Co. Wexford, 1169; Strongbow took Waterford, 1170. Motte and bailey first, then stone castles: Trim, on the Boyne, the largest Anglo-Norman castle in Ireland, begun by Hugh de Lacy in the 1170s; Carrickfergus, by John de Courcy from 1177.",
+    "term": "Normans: arrival dates and two named castles"
+   },
+   {
+    "definition": "Sited at bridging points and on navigable rivers in fertile lowlands, for defence and control of land and trade. Walls and gates, market square, charter, burgage plots, parish church, abbeys. Athenry and Fethard: among the most complete town walls.",
+    "term": "Norman walled towns: site factors, features and two examples"
+   },
+   {
+    "definition": "A Norman town on the River Nore, with a stone castle built by William Marshal around 1200; the Statutes of Kilkenny, 1366, tried to stop the Normans adopting Irish language and customs; the Confederation of Kilkenny was formed in 1642.",
+    "term": "Norman Kilkenny: three facts with dates"
+   },
+   {
+    "definition": "St Canice's Cathedral and its round tower mark the early Christian monastery that named the city, Cill Chainnigh (church of Canice); Kilkenny Castle and the Norman core on the Nore; the street plan linking castle and cathedral is the Medieval Mile.",
+    "term": "Kilkenny today: how its historic phases show in the city"
+   },
+   {
+    "definition": "Laois and Offaly, 1556: Maryborough (Portlaoise), Philipstown (Daingean). Munster, from the 1580s: Bandon. Ulster, from 1609: Donegal town around a diamond; Derry, renamed Londonderry in 1613, whose walls (1613–1618) are Ireland's only complete city walls.",
+    "term": "Plantation towns: three plantations with a named town from each"
+   },
+   {
+    "definition": "Westport, Co. Mayo: Browne family of Westport House; the Octagon and a tree-lined Mall on the Carrowbeg River. Birr, Co. Offaly: Parsons family (Earls of Rosse), beside Birr Castle. Kenmare, Co. Kerry: first Marquess of Lansdowne, 1775.",
+    "term": "Name three 18th-century landlord towns and who laid them out"
+   },
+   {
+    "definition": "Dublin's Wide Streets Commissioners, set up in 1757, widened and laid out the city's streets; Georgian Dublin also has squares such as Merrion Square and Fitzwilliam Square, and red-brick terraces. Limerick's Newtown Pery was laid out in the late 18th century on land of Edmund Sexton Pery.",
+    "term": "Georgian Dublin and Limerick: who shaped them and when"
+   },
+   {
+    "definition": "Canals and railways created junction towns and resorts (first railway, Dublin–Kingstown, 1834); the 1838 Poor Law Act built a workhouse in each union; the Famine (1845–49) and emigration emptied much of the rural west; Belfast grew on linen and shipbuilding.",
+    "term": "19th-century settlement: four changes"
+   },
+   {
+    "definition": "Shannon, Co. Clare: Ireland's first planned new town, built from the 1960s for workers at the Shannon Free Zone (set up 1959) beside Shannon Airport. The Wright Report, 1967, planned new towns at Tallaght, Clondalkin, Lucan and Blanchardstown.",
+    "term": "20th-century planned settlement: Shannon and Dublin's new towns"
+   },
+   {
+    "definition": "Round tower and church on a monastic site: early Christian; walls, gates and castle: Norman; central square or diamond and market house: plantation and landlord towns; Georgian terraces: 18th century; mills and railway station: 19th century.",
+    "term": "Modern Irish town: which period each historic feature dates from"
    }
   ],
   "notes": [
@@ -26455,6 +33587,74 @@
    {
     "definition": "A plot with services such as water, sewers and electricity provided, where new housing is directed.",
     "term": "Serviced site"
+   },
+   {
+    "definition": "About 63% of Ireland's population lived in urban areas and about 37% in rural areas.",
+    "term": "Census 2016: share of Ireland's population living in urban and rural areas"
+   },
+   {
+    "definition": "Family-owned farms, each family living on its holding; Land Act consolidation moved houses out of clusters onto single farms; fertile, well-drained lowland with plentiful water allows houses almost anywhere; pastoral farmers live near their animals.",
+    "term": "Dispersed settlement: four reasons it dominates in rural Ireland"
+   },
+   {
+    "definition": "Land Commission, 1881 (Land Law (Ireland) Act 1881); Congested Districts Board, 1891, for the poor west: consolidated holdings, built roads and piers, rehoused families on separate farms; Wyndham Land Act, 1903, helped tenants buy their holdings.",
+    "term": "Land reform that spread farmhouses out: three bodies or Acts with dates"
+   },
+   {
+    "definition": "Route focus at a crossroads; a bridging point or ford; a church, castle or estate gates; defence on a hill; a spring or well (wet point) or a dry point above flood land; a harbour for a fishing village; services such as a shop, pub, school and Garda station.",
+    "term": "Clustered settlement: reasons buildings group at one place"
+   },
+   {
+    "definition": "Adare, Co. Limerick, on the Dunraven estate, with thatched cottages; Enniskerry, Co. Wicklow, at the gates of the Powerscourt estate.",
+    "term": "Name two Irish estate villages and the estates they grew beside"
+   },
+   {
+    "definition": "Common in the west before the Famine, with land worked in rundale. The Famine (1845–49) hit clachan districts hardest; as population fell, the Congested Districts Board and Land Commission consolidated holdings and moved houses onto separate farms.",
+    "term": "Clachans: where they were common and why most broke up"
+   },
+   {
+    "definition": "It follows roads, coast roads, valley floors, rivers and raised ridges such as an esker or the edge of a drumlin, and avoids marshy or steep land.",
+    "term": "Linear settlement: lines it follows and land it avoids"
+   },
+   {
+    "definition": "Uplands are steep, exposed and have poor soils; bogs are wet and poorly drained; flood plains flood; lakes take up the land; forestry plantations are large areas of planted trees with no houses.",
+    "term": "Absence of settlement on a map: five reasons"
+   },
+   {
+    "definition": "Cheaper sites than in towns; road frontage gives access to electricity, water mains and broadband; farmers sell roadside sites; demand for rural living near towns; car ownership; weak planning control in the past; tax incentives and the Celtic Tiger boom.",
+    "term": "Ribbon development: causes"
+   },
+   {
+    "definition": "Traffic hazards from many entrances onto fast roads; costly to service (school buses, post, waste, water, sewers); septic tanks pollute groundwater and private wells; loss of scenic landscape; car dependence; town centres decline; town and country blur.",
+    "term": "Ribbon development: problems"
+   },
+   {
+    "definition": "It keeps rural populations, schools, GAA clubs and shops alive; it lets families live near relatives and farms; housing is cheaper than in towns.",
+    "term": "Ribbon development: three advantages from the rural point of view"
+   },
+   {
+    "definition": "The local authority grants planning permission; appeals go to An Bord Pleanála (set up 1977, renamed An Coimisiún Pleanála in 2025); under the Planning and Development Act 2000 each authority makes a County Development Plan every six years.",
+    "term": "Irish planning system: who decides, who hears appeals, which plan applies"
+   },
+   {
+    "definition": "Areas under strong urban influence: rural houses limited to people with a local economic or social need. Structurally weak areas: rural housing is encouraged to keep the population.",
+    "term": "Sustainable Rural Housing Guidelines 2005: two area types and the policy for each"
+   },
+   {
+    "definition": "Local-needs criteria; fewer new entrances onto national and regional roads; housing directed into villages and serviced sites; design rules on siting, materials and hedgerows; minimum septic-tank site sizes; protected scenic views; zoning around towns.",
+    "term": "County Development Plan: typical rural housing policies"
+   },
+   {
+    "definition": "Water Services (Amendment) Act 2012: domestic septic tanks must be registered and are inspected under an EPA plan. Ireland has about half a million domestic wastewater treatment systems, mostly septic tanks (EPA estimate).",
+    "term": "Septic tanks: the law that regulates them and how many Ireland has"
+   },
+   {
+    "definition": "LEADER (EU), from 1991; CLÁR, for areas suffering depopulation, from 2001; Town and Village Renewal Scheme, from 2016; Our Rural Future, 2021–2025, which backs remote working hubs. All respond to depopulation and lost post offices, Garda stations and pubs.",
+    "term": "Rural development programmes: four schemes with dates"
+   },
+   {
+    "definition": "Keeping rural communities alive conflicts with preventing sprawl; local-needs conditions are called unfair, and a 2013 EU Court of Justice ruling against a Flemish rule raised doubts; ribbon development reduced, not stopped; villages need sewage treatment.",
+    "term": "Rural planning in Ireland: four evaluation points"
    }
   ],
   "notes": [
@@ -26687,6 +33887,82 @@
    {
     "definition": "A town whose residents travel out to work, and whose services increasingly serve commuters.",
     "term": "Commuter town"
+   },
+   {
+    "definition": "Bridging point: Dublin, lowest on the Liffey. Island: Limerick, King's Island in the Shannon. Estuary or harbour: Waterford, Suir estuary; Galway, mouth of the Corrib. Route focus: Athlone, a Shannon crossing in the centre of Ireland.",
+    "term": "Name an Irish town on each site: bridging point, island, estuary, route focus"
+   },
+   {
+    "definition": "Dublin about 1.26 million; Cork about 222,000; Limerick about 102,000; Galway about 86,000; Waterford about 60,000 (cities and suburbs). Largest towns: Drogheda about 44,000, Dundalk about 43,000, Swords about 41,000. State: about 5.1 million.",
+    "term": "Ireland's urban hierarchy, Census 2022: cities and largest towns"
+   },
+   {
+    "definition": "Dublin is about six times the size of Cork (Census 2022) and the GDA holds about 40% of the State's population. Causes: capital city, port, routeway focus, colonial administration, multinational firms and services. The rank-size rule does not fit Ireland.",
+    "term": "Dublin as a primate city: size compared with Cork and causes"
+   },
+   {
+    "definition": "Measured by newspaper circulation, bus routes, school and hospital catchments, shop surveys, commuter flows and sports clubs. Size depends on functions, transport and competition; cars, motorways and online shopping widen it, e.g. Galway's across the West.",
+    "term": "Hinterland: how it is measured and what changes its size"
+   },
+   {
+    "definition": "Walter Christaller, a German geographer, in 1933, from a study of southern Germany. A service locates where its threshold (a number of people) falls within its range (a distance).",
+    "term": "Central place theory: who published it, when, and the location rule"
+   },
+   {
+    "definition": "A flat, uniform (isotropic) plain; an evenly spread population with equal purchasing power; equal ease of transport in all directions; consumers buy at the nearest centre; no excess profits.",
+    "term": "Central place theory: five assumptions"
+   },
+   {
+    "definition": "Hexagonal market areas (circles overlap or leave gaps); many small, closely spaced low-order centres and fewer, widely spaced high-order ones, each also supplying all lower-order goods. Nesting: k = 3 marketing, k = 4 transport, k = 7 administrative.",
+    "term": "Central place theory: three predictions"
+   },
+   {
+    "definition": "Noordoostpolder, Netherlands, drained 1942: Emmeloord planned as the central town with ten villages around it (including Marknesse, Ens, Kraggenburg, Bant), spaced so farmers could cycle to one. Market towns in parts of the Irish Midlands are regularly spaced.",
+    "term": "Central place theory: evidence from the Noordoostpolder and Ireland"
+   },
+   {
+    "definition": "Relief, coasts and population are uneven; transport routes are linear; people make multi-purpose trips; cars, motorways, out-of-town centres and online shopping alter ranges and thresholds; government and history fix locations; it suits only market towns.",
+    "term": "Central place theory: limitations"
+   },
+   {
+    "definition": "Dublin at the top, then the regional cities, county and market towns, then villages: broadly hierarchical, but distorted by Dublin's primacy and by the coastline.",
+    "term": "Central place theory applied to Ireland: how well it fits"
+   },
+   {
+    "definition": "Defence functions lost; markets and fairs declined as marts and supermarkets took over; industry left the inner city or closed; services grew (offices, tourism, education, health); towns near cities became commuter towns; village services closed.",
+    "term": "How urban functions have changed over time: general trends"
+   },
+   {
+    "definition": "Norman town founded by the de Burgo family in the 13th century; governed by 14 merchant families (the Tribes); royal charter 1484; wine trade with Spain and France; Spanish Arch, 1584; surrendered to Cromwellian forces in 1652, then a long decline.",
+    "term": "Galway: early functions, from Norman port to decline"
+   },
+   {
+    "definition": "Queen's College Galway, founded 1845 (now the University of Galway, its name since 2022); Digital Equipment Corporation opened a plant in 1971 and closed its manufacturing in 1993; now a medical devices centre, with multinationals such as Medtronic and Boston Scientific.",
+    "term": "Galway: education and industry functions with dates"
+   },
+   {
+    "definition": "European Capital of Culture 2020, with Rijeka, Croatia; the Galway Arts Festival and the Galway Races at Ballybrit draw visitors; a gateway in the NSS 2002; the NPF 2018 aims for at least 50% growth by 2040; regional capital of the West.",
+    "term": "Galway: tourism, culture and planning status"
+   },
+   {
+    "definition": "Viking settlement from about 922; King John's Castle built in the early 13th century on King's Island; Treaty of Limerick, 1691; a Georgian commercial port with Newtown Pery; then an industrial city based on its port and flour milling.",
+    "term": "Limerick: early functions with dates"
+   },
+   {
+    "definition": "Dell opened in Limerick in 1990. In January 2009 it announced that it would move manufacturing to Łódź, Poland, with the loss of about 1,900 jobs.",
+    "term": "Limerick: the Dell plant, opening and closure"
+   },
+   {
+    "definition": "University of Limerick founded in 1972 as the National Institute for Higher Education, a university since 1989; Ireland's first National City of Culture, 2014; City and County Councils merged, 2014; Ireland's first directly elected mayor, 2024.",
+    "term": "Limerick: education, culture and local government changes"
+   },
+   {
+    "definition": "The mart and shops serving farmers decline; housing, services and shops shift to serve commuters who work in a larger city. Greater Dublin Area examples: Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray, Greystones.",
+    "term": "Market town to commuter town: how functions change, with GDA examples"
+   },
+   {
+    "definition": "Site and situation (bridging point, island, estuary, harbour); route focus and port; administrative role; industry and multinationals; services and education; tourism and culture; government policy (gateways, growth targets); in-migration for work and study.",
+    "term": "Reasons for the growth of an urban area: checklist"
    }
   ],
   "notes": [
@@ -26998,6 +34274,86 @@
    {
     "definition": "A protected ring of open land around a city, used to prevent its outward spread.",
     "term": "Green belt"
+   },
+   {
+    "definition": "Highest land values; tall buildings; department and specialist stores; offices, banks and head offices; government and cultural buildings; few residents, so busy by day and quiet at night; pedestrian streets; vertical zoning: shops below, offices above.",
+    "term": "The CBD: characteristics to describe"
+   },
+   {
+    "definition": "Burgess: shows land value and density falling outwards, but ignores transport routes. Hoyt: explains sectors along roads, rail and rivers, but misses suburban centres. Multiple nuclei: explains suburban centres, but gives no simple pattern.",
+    "term": "Urban land-use models: one strength and one limitation of each"
+   },
+   {
+    "definition": "Dublin fits the multiple nuclei and sector models better than concentric rings: the CBD is one nucleus, suburban shopping centres and business parks are others, and growth follows the main roads out of the city.",
+    "term": "How Dublin fits the three urban land-use models"
+   },
+   {
+    "definition": "CBD on both sides of the Liffey: Grafton Street (south) and Henry Street (north), both pedestrianised, and O'Connell Street. Georgian core of Merrion and Fitzwilliam Squares now largely offices. Docklands and north inner city in transition and renewal.",
+    "term": "Dublin's land-use zones: CBD and inner city"
+   },
+   {
+    "definition": "Western new towns Tallaght, Clondalkin, Lucan, Blanchardstown (Wright Report 1967); business parks near the M50 and N7: Grange Castle, Citywest, Park West, Sandyford; Dublin Port and Airport; Phoenix Park (about 700 hectares, 1662).",
+    "term": "Dublin's land-use zones: outer city, industry and open space"
+   },
+   {
+    "definition": "City of Paris: about 2.1 million on about 105 km², 20 arrondissements, CBD and government in the inner ones; Haussmann's boulevards (1853–1870); La Défense offices to the west; Périphérique (1973) rings the inner city; banlieues with grands ensembles.",
+    "term": "Paris: size and the pattern of its land-use zones"
+   },
+   {
+    "definition": "Lack of space to expand; cheaper land on the edge; road access for lorries; less congestion; planning policy; new industries need clean, modern sites. The vacated inner-city sites become brownfield land for redevelopment.",
+    "term": "Industry moving out of the inner city: reasons"
+   },
+   {
+    "definition": "Jacob's biscuit factory moved from Bishop Street to Tallaght in the 1970s; its old factory houses the National Archives. Guinness, an exception, has stayed at St James's Gate since 1759. Paris: Renault's Boulogne-Billancourt plant closed in 1992.",
+    "term": "Industrial land-use change: Jacob's, Guinness and Renault"
+   },
+   {
+    "definition": "Inner-city tenements were cleared in the 20th century and residents moved to new suburbs and new towns; suburbs sprawled into commuter counties; now a return to inner-city apartments in areas such as the Docklands. Issues: density, height, social mix.",
+    "term": "Residential land use: three stages of change in Dublin"
+   },
+   {
+    "definition": "The Square, Tallaght, 1990; Blanchardstown Centre, 1996; Liffey Valley, 1998; Dundrum Town Centre, 2005. All are beside major roads or the M50, for car access, free parking and cheaper land.",
+    "term": "Dublin's suburban shopping centres: names and opening dates"
+   },
+   {
+    "definition": "Effects: vacant units and lost trade as shoppers move to the edge. Responses: pedestrianisation, regeneration of central streets and limits on the size of retail parks. Offices also move to out-of-town office parks and, in Paris, to La Défense.",
+    "term": "Commercial land use moving out: effects on the city centre and responses"
+   },
+   {
+    "definition": "Zoning through development plans; brownfield versus greenfield development; building height and density; linking new zones to public transport; mixing land uses; conflict between business, residents and heritage.",
+    "term": "Planning issues raised by land-use change"
+   },
+   {
+    "definition": "Land is dearest at the most accessible point, the PLVI, and falls with distance; commerce outbids industry, which outbids housing; secondary peaks at suburban centres, ring-road junctions and main roads; tall buildings at the centre, low density at the edge.",
+    "term": "Bid-rent theory: how land values and uses change across a city"
+   },
+   {
+    "definition": "Causes: land and house prices, social housing allocation, planning decisions, transport access, household choice and discrimination. Results: affluent areas set against areas of concentrated disadvantage; gated developments; gentrification of inner-city areas.",
+    "term": "Social segregation in cities: causes and results"
+   },
+   {
+    "definition": "Affluent south-east suburbs (Ballsbridge, Donnybrook, Dalkey, Foxrock) versus lower-income parts of the north inner city and some outer estates; Ballymun's seven 15-storey towers (1966–69), concentrated social housing; gentrification in the Docklands, with Google at Grand Canal Dock.",
+    "term": "Social stratification in Dublin: three examples"
+   },
+   {
+    "definition": "Wealthy western districts against the poorer north-eastern banlieues of Seine-Saint-Denis, the poorest département in mainland France; immigrants concentrated in grands ensembles; riots began in Clichy-sous-Bois in October 2005.",
+    "term": "Social stratification in Paris: contrasts and the 2005 riots"
+   },
+   {
+    "definition": "Population growth and in-migration; demand for cheaper, larger houses; car ownership and motorways; high house prices in the city; jobs moving to the suburbs.",
+    "term": "Urban expansion: five causes"
+   },
+   {
+    "definition": "Farmland lost as rising prices push farmers to sell; hobby farms and horse paddocks; commuter villages gain estates and lose character; retail and business parks, data centres, landfill, quarries, golf courses; lost hedgerows and habitats; flooding.",
+    "term": "Pressures on rural land at the rural-urban fringe"
+   },
+   {
+    "definition": "Sprawl into Meath, Kildare and Wicklow; GDA about 2.1 million in 2022, about 40% of the State; commuter towns Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray, Greystones; data centres used about a fifth of Ireland's metered electricity in 2023.",
+    "term": "Dublin's expansion: sprawl, commuter towns and data centres"
+   },
+   {
+    "definition": "London's Metropolitan Green Belt, protected from the 1940s–50s; Britain's New Towns Act 1946: Stevenage first (1946), Milton Keynes (1967); Paris's five new towns from the 1965 plan; Dublin's western new towns; compact growth and brownfield targets in the NPF.",
+    "term": "Responses to urban expansion: green belts and new towns, with dates"
    }
   ],
   "notes": [
@@ -27247,6 +34603,106 @@
    {
     "definition": "The effect by which built-up areas are warmer than the surrounding countryside.",
     "term": "Urban heat island"
+   },
+   {
+    "definition": "More cars; low-density suburbs poorly served by public transport; radial roads into a historic centre with narrow streets and few river crossings; work and school trips at one peak; delivery lorries; car-only suburban jobs and shops; weak rail investment.",
+    "term": "Traffic congestion in cities: causes"
+   },
+   {
+    "definition": "Lost time and productivity; stress; air and noise pollution and carbon emissions; road accidents; slower buses, which pushes more people into cars; businesses and tourism harmed; less space for pedestrians and cyclists.",
+    "term": "Traffic congestion in cities: effects"
+   },
+   {
+    "definition": "Sprawl and car dependence bring commuters in by car; radial routes converge on the centre and there are few Liffey crossings; light rail arrived late (Luas, 2004); port traffic ran through the city centre until the Port Tunnel opened in 2006.",
+    "term": "Why Dublin has high traffic congestion: four reasons"
+   },
+   {
+    "definition": "DART, 1984; Luas, 2004, with Luas Cross City linking the Red and Green lines in December 2017; Dublin Bikes, 2009; Leap card integrated ticketing, 2011; BusConnects redesigning the bus network; MetroLink planned.",
+    "term": "Dublin public transport measures with dates"
+   },
+   {
+    "definition": "M50 orbital motorway, built in stages from 1990; Port Tunnel, 2006, then a 2007 ban on most five-axle heavy goods vehicles in the centre; bus lanes and quality bus corridors; park and ride; pedestrianisation; parking charges; remote working.",
+    "term": "Road, freight and demand measures to cut congestion in Dublin"
+   },
+   {
+    "definition": "The Congestion Charge, from February 2003, a daily charge to drive into central London on weekdays; traffic in the zone fell in its early years. The Ultra Low Emission Zone, from 2019, extended London-wide in August 2023.",
+    "term": "London: two charges used to cut traffic and emissions"
+   },
+   {
+    "definition": "Old industries and port jobs close; better-off residents move to the suburbs; buildings, especially social housing, are left derelict or poorly maintained; reduced rates income; dereliction attracts crime and vandalism; road schemes cause planning blight.",
+    "term": "Urban decay: causes"
+   },
+   {
+    "definition": "Unemployment and poverty; derelict sites standing empty for years; population decline; drug and crime problems; poor services; stigma that deters investment and visitors; a cycle of decline in which each problem worsens the others.",
+    "term": "Urban decay: effects"
+   },
+   {
+    "definition": "The docks lost most of their jobs with containerisation from the 1960s and 1970s; inner-city tenements were cleared and residents moved to the suburbs; dereliction of streets and buildings followed.",
+    "term": "Dublin's inner city in the 1970s and 1980s: how it decayed"
+   },
+   {
+    "definition": "Concentrated disadvantage in Moyross, Southill, St Mary's Park and Ballinacurra Weston. After an arson attack on two children in Moyross in 2006, John Fitzgerald's 2007 report led to the Limerick Regeneration programme.",
+    "term": "Limerick: decay in social-housing estates and the response"
+   },
+   {
+    "definition": "Known as Motor City, home of Ford, General Motors and Chrysler. Middle-class, largely white families moved to the suburbs from the 1950s, helped by freeways; car-industry jobs moved out or were automated; tens of thousands of houses were abandoned.",
+    "term": "Detroit: why the city decayed"
+   },
+   {
+    "definition": "Population peaked at about 1.85 million (1950 US census) and fell to about 640,000 (2020). Filed for bankruptcy in July 2013, the largest municipal bankruptcy in US history, and exited in December 2014. Downtown and Midtown have since seen new investment.",
+    "term": "Detroit: population figures, bankruptcy and recovery"
+   },
+   {
+    "definition": "Causes: population growth, high inner-city prices, demand for gardens, cars and motorways, greenfield zoning, Celtic Tiger tax incentives. Effects: long commutes, car dependence, lost farmland, thinly spread services, dormitory towns, city-centre decline.",
+    "term": "Urban sprawl: causes and effects"
+   },
+   {
+    "definition": "Into the commuter counties, to towns such as Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones. A Government survey in 2010 found almost 3,000 unfinished housing estates (ghost estates) after the 2008 property crash.",
+    "term": "Dublin's sprawl: where it spread and the ghost estates"
+   },
+   {
+    "definition": "Green belts; compact growth and brownfield development under the National Planning Framework; higher housing densities near public transport; new towns with their own services; regeneration of vacant or derelict inner-city sites.",
+    "term": "Urban sprawl: five solutions"
+   },
+   {
+    "definition": "Estates built quickly without schools, shops, community centres or public transport; high-rise flats with no shared space; long commutes; transient renting populations; old inner-city communities broken up by tenement clearance; social segregation.",
+    "term": "Absence of community: causes"
+   },
+   {
+    "definition": "Ballymun, Dublin: seven 15-storey towers built 1966–69, demolished 2004–2015. Commuter and ghost estates in Dublin's commuter counties. Paris banlieues: grands ensembles such as Sarcelles, high unemployment, and riots from Clichy-sous-Bois in October 2005.",
+    "term": "Absence of community: three examples"
+   },
+   {
+    "definition": "Effects: isolation, loneliness, anti-social behaviour, little sense of belonging. Responses: community facilities built with housing (phasing conditions); regeneration with resident participation; mixed tenure; sports clubs and family resource centres.",
+    "term": "Absence of community: effects and responses"
+   },
+   {
+    "definition": "Value: a sense of identity; tourism income; economic reuse for shops, hotels and venues. Threats: demolition for offices and roads; neglect and dereliction; out-of-scale new buildings; traffic vibration and pollution; tourist pressure.",
+    "term": "Urban heritage: three benefits and five threats"
+   },
+   {
+    "definition": "Lower Fitzwilliam Street: the ESB demolished a row of 16 Georgian houses in 1965 for its head office. Wood Quay, one of Europe's largest Viking-age sites: despite protests and court cases in the late 1970s, Dublin Corporation built its civic offices there.",
+    "term": "Dublin heritage losses: Fitzwilliam Street and Wood Quay"
+   },
+   {
+    "definition": "14–17 Moore Street, where the 1916 leaders spent their last hours before surrender, was declared a national monument in 2007. Positive reuse: Temple Bar regenerated as a cultural quarter in the 1990s; Docklands warehouses reused.",
+    "term": "Dublin heritage: Moore Street and two cases of positive reuse"
+   },
+   {
+    "definition": "Record of Protected Structures and Architectural Conservation Areas (Planning and Development Act 2000); national monuments; An Taisce, founded 1948; UNESCO listing, e.g. Edinburgh's Old and New Towns (1995) and Rome's Historic Centre (1980).",
+    "term": "Urban heritage protection: four methods with examples"
+   },
+   {
+    "definition": "Smoky coal was banned in Dublin from 1 September 1990 after severe winter smog in the 1980s; black smoke levels and winter death rates fell afterwards. The ban was extended nationwide in October 2022.",
+    "term": "Dublin's smoky coal ban: dates and results"
+   },
+   {
+    "definition": "Ringsend wastewater treatment plant treats most of Dublin's sewage, discharging into Dublin Bay, and is being upgraded; the plastic bag levy, March 2002, at 15 cent, cut bag use sharply; the Poolbeg waste-to-energy incinerator has operated since 2017.",
+    "term": "Water and waste in Dublin: three named responses"
+   },
+   {
+    "definition": "Phoenix Park (about 700 hectares, 1662), the Royal and Grand Canals and North Bull Island give green space, but small gaps are lost to infill. Paved surfaces speed runoff into rivers and drains; rivers also flood, as when Hurricane Charley, August 1986, caused severe flooding of the River Dodder.",
+    "term": "Urban green space and flooding: Dublin examples"
    }
   ],
   "notes": [
@@ -27575,6 +35031,86 @@
    {
     "definition": "A rail line planned to Dublin Airport and Swords, shelved in 2011.",
     "term": "Metro North"
+   },
+   {
+    "definition": "Planned the western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown, housing rapid growth. But homes came before services, jobs and transport (The Square, Tallaght, opened in 1990; the Luas in 2004), causing sprawl and absence of community.",
+    "term": "Wright Report 1967: what it did and how effective it was"
+   },
+   {
+    "definition": "It named gateways, including Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk and Sligo, and hubs to balance growth. Weakened by too many centres, the 2003 decentralisation to towns not in the plan and the property boom; Dublin kept sprawling; replaced in 2018.",
+    "term": "National Spatial Strategy 2002: aims and why it fell short"
+   },
+   {
+    "definition": "About 1 million more people by 2040; half of growth in Dublin, Cork, Limerick, Galway and Waterford; Galway, Cork, Limerick and Waterford each to grow by at least 50%; 40% of new homes within the built-up footprint of existing settlements.",
+    "term": "National Planning Framework 2018: four key targets"
+   },
+   {
+    "definition": "Regional Spatial and Economic Strategies prepared by the three regional assemblies; the Urban Regeneration and Development Fund, set up in 2018. It is too early to judge fully, but housing supply has lagged behind the targets.",
+    "term": "National Planning Framework: delivery tools and effectiveness so far"
+   },
+   {
+    "definition": "Housing for All (2021): about 33,000 new homes a year to 2030; Rent Pressure Zones from December 2016, first in Dublin and Cork; Part V. Completions rose but stayed below need; over 15,000 people in emergency accommodation in 2025; high rents.",
+    "term": "Housing strategies: what they are and how effective they have been"
+   },
+   {
+    "definition": "Success: the Luas (2004) and Luas Cross City (2017); the Port Tunnel (2006) and 2007 lorry restriction; Dublin Bikes (2009). Limits: Metro North shelved in 2011 and MetroLink repeatedly delayed; congestion persists as land use is still dispersed.",
+    "term": "Transport strategies in Dublin: successes and failures"
+   },
+   {
+    "definition": "The smoky coal ban (Dublin 1990, nationwide 2022) largely removed smoke and smog; plastic bag levy (2002); Ringsend upgrade for Dublin Bay; Clean Air Strategy (2023). Still problems: traffic nitrogen dioxide and particulates from solid fuel.",
+    "term": "Pollution strategies: what worked and what problems remain"
+   },
+   {
+    "definition": "Urban Renewal Act 1986 tax incentives; Custom House Docks Development Authority, 1986; IFSC set up 1987; Dublin Docklands Development Authority, 1997–2016; North Lotts and Grand Canal Dock Strategic Development Zone, 2014.",
+    "term": "Dublin Docklands: redevelopment actions with dates"
+   },
+   {
+    "definition": "Samuel Beckett Bridge and the Luas extension to The Point (2009); Convention Centre Dublin and Bord Gáis Energy Theatre (2010); new offices, homes and culture venues; tech firms in Silicon Docks, including Google's European headquarters at Grand Canal Dock.",
+    "term": "Dublin Docklands: flagship projects and results"
+   },
+   {
+    "definition": "Offices and costly apartments came first; locals got few jobs; social housing was slow; gentrification raised prices; the DDDA was damaged by its role in buying the Irish Glass Bottle site, Ringsend, in 2006 for about €412 million, at the peak of the bubble.",
+    "term": "Dublin Docklands: criticisms"
+   },
+   {
+    "definition": "CIÉ bought property in the 1980s for a bus station; artists moved in on short leases; the plan was dropped and Temple Bar Properties (1991) made a cultural quarter (Irish Film Institute, Project Arts Centre). Criticism: pubs, night-time tourism, few residents.",
+    "term": "Temple Bar: how it was renewed, and criticisms"
+   },
+   {
+    "definition": "Ballymun Regeneration Ltd was set up by Dublin Corporation in 1997; the seven 15-storey towers (1966–69) were demolished 2004–2015; new low-rise homes, Main Street, the Axis arts and community centre, and IKEA's first Republic of Ireland store (2009).",
+    "term": "Ballymun regeneration: actions with dates"
+   },
+   {
+    "definition": "Success: housing quality improved and residents were involved in the regeneration. Limits: the recession stalled the town centre; the promised Metro North rail link was shelved in 2011 and never built; unemployment stayed high.",
+    "term": "Ballymun regeneration: how effective was it?"
+   },
+   {
+    "definition": "Agencies set up in 2007 after the Fitzgerald report demolished and rebuilt housing in Moyross, Southill, St Mary's Park and Ballinacurra Weston, with social and economic programmes. Criticism: slow; demolition outpaced rebuilding; estate populations fell.",
+    "term": "Limerick Regeneration: actions and criticisms"
+   },
+   {
+    "definition": "Near Lucan, South Dublin: a Strategic Development Zone from 2001 with its own station on the Kildare line, and schools and services phased in alongside housing. Building stalled after the 2008 crash and resumed in the late 2010s.",
+    "term": "Adamstown: why it is a model and what went wrong"
+   },
+   {
+    "definition": "Living City Initiative, 2015: tax relief to refurbish older buildings in Dublin, Cork, Limerick, Galway, Waterford and Kilkenny. Cork: Area Strategic Plan 2001; boundary extended 2019; Luas Cork proposed (2020 strategy); Cork Docklands the next big scheme.",
+    "term": "Smaller-city renewal: the Living City Initiative and Cork"
+   },
+   {
+    "definition": "London Docklands Development Corporation, 1981–1998, an unelected body with planning powers; Enterprise Zone on the Isle of Dogs; Docklands Light Railway and London City Airport, 1987; One Canada Square, Canary Wharf, 1991; Jubilee Line extension, 1999.",
+    "term": "London Docklands: redevelopment actions with dates"
+   },
+   {
+    "definition": "Results: a second financial centre, jobs and housing. Criticisms: the corporation was top-down and bypassed local councils; jobs went to commuters from outside the area; local residents were priced out; transport came late.",
+    "term": "London Docklands: results and criticisms"
+   },
+   {
+    "definition": "Five new towns from the 1965 plan took growth from the city; the grands ensembles in the banlieues became problem estates; the Grand Paris Express, about 200 km of new automatic metro lines with 68 stations, aims to link the banlieues.",
+    "term": "Paris planning: three responses and their outcomes"
+   },
+   {
+    "definition": "Planning works best when housing, jobs, services and transport arrive together and residents are involved; flagship property-led schemes bring jobs and buildings but not always local benefits; national plans fail when other policies pull against them.",
+    "term": "Urban planning and renewal: three conclusions on effectiveness"
    }
   ],
   "notes": [
@@ -27615,7 +35151,7 @@
    {
     "h": "National strategic plans: National Spatial Strategy (2002)",
     "points": [
-     "What it did: named gateways (Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk and Sligo) and hubs, to balance growth away from Dublin.",
+     "What it did: named nine gateways (Dublin, Cork, Limerick/Shannon, Galway, Waterford, Dundalk, Sligo, Letterkenny with Derry, and Athlone–Tullamore–Mullingar) and nine hubs, to balance growth away from Dublin.",
      "The 2003 Budget announced a decentralisation programme that moved civil servants to dozens of towns.",
      "Effectiveness: weakened by too many designated centres, by decentralisation to towns not named in the plan, and by the property boom.",
      "Dublin continued to sprawl, so the plan did not achieve its aim of balancing growth.",
@@ -27676,7 +35212,7 @@
     "h": "Case study: Dublin Docklands",
     "points": [
      "Actions: the Urban Renewal Act 1986 gave tax incentives in the designated area.",
-     "The Custom House Docks Development Authority was set up in 1986, and the International Financial Services Centre (IFSC) opened in 1987.",
+     "The Custom House Docks Development Authority was set up in 1986, and the International Financial Services Centre (IFSC) was set up in 1987.",
      "The Dublin Docklands Development Authority was set up in 1997, and was wound up in 2016 with its functions passing to Dublin City Council.",
      "Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010), the Bord Gáis Energy Theatre (2010) and the Luas Red Line extension to The Point (2009).",
      "A Strategic Development Zone covering North Lotts and Grand Canal Dock was designated in 2014.",
@@ -27781,7 +35317,7 @@
    },
    {
     "marks": 30,
-    "model": "Dublin Docklands: 1. Problem: derelict docks after containerisation. 2. Action: the Urban Renewal Act 1986 gave tax incentives, the IFSC opened in 1987, and the DDDA was set up in 1997. 3. Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010) and the Luas Red Line extension to The Point (2009). 4. Results: new offices, homes, culture venues and tech firms, including Google's European headquarters at Grand Canal Dock. 5. Criticism: early schemes favoured offices and expensive apartments, local residents got few jobs, social housing was slow, and gentrification pushed up prices. 6. The DDDA's role in the purchase of the Irish Glass Bottle site in 2006, for about 412 million euro at the peak of the bubble, damaged its reputation after the land value collapsed. Ballymun: 7. Problems in the 1960s towers were isolation, poor maintenance, unemployment and drugs. 8. Action: the towers, built 1966 to 1969, were demolished 2004 to 2015 and replaced with low-rise homes, Main Street and the Axis centre. 9. Results: housing quality improved and residents were involved. 10. Criticism: the recession stalled the town centre, Metro North was shelved in 2011, and unemployment stayed high. Evaluation: renewal has been effective in physical improvement and the creation of jobs, but less effective in helping existing residents, because property-led schemes bring benefits unevenly and leave some problems unsolved.",
+    "model": "Dublin Docklands: 1. Problem: derelict docks after containerisation. 2. Action: the Urban Renewal Act 1986 gave tax incentives, the IFSC was set up in 1987, and the DDDA was set up in 1997. 3. Flagship projects: the Samuel Beckett Bridge (2009), the Convention Centre Dublin (2010) and the Luas Red Line extension to The Point (2009). 4. Results: new offices, homes, culture venues and tech firms, including Google's European headquarters at Grand Canal Dock. 5. Criticism: early schemes favoured offices and expensive apartments, local residents got few jobs, social housing was slow, and gentrification pushed up prices. 6. The DDDA's role in the purchase of the Irish Glass Bottle site in 2006, for about 412 million euro at the peak of the bubble, damaged its reputation after the land value collapsed. Ballymun: 7. Problems in the 1960s towers were isolation, poor maintenance, unemployment and drugs. 8. Action: the towers, built 1966 to 1969, were demolished 2004 to 2015 and replaced with low-rise homes, Main Street and the Axis centre. 9. Results: housing quality improved and residents were involved. 10. Criticism: the recession stalled the town centre, Metro North was shelved in 2011, and unemployment stayed high. Evaluation: renewal has been effective in physical improvement and the creation of jobs, but less effective in helping existing residents, because property-led schemes bring benefits unevenly and leave some problems unsolved.",
     "prompt": "Assess the effectiveness of urban renewal in solving urban problems, with reference to examples you have studied.",
     "type": "short"
    },
@@ -27838,6 +35374,90 @@
    {
     "definition": "The São Paulo scheme banning cars from central streets at rush hours by number-plate digit.",
     "term": "Rodízio"
+   },
+   {
+    "definition": "About 30% of the world's population was urban in 1950 and about 55% in 2018, projected about 68% by 2050; over half urban since about 2007. Close to 90% of the increase to 2050 is expected in Asia and Africa. Over 1 billion people live in slums (UN-Habitat).",
+    "term": "World urbanisation: UN figures for 1950, 2018 and 2050"
+   },
+   {
+    "definition": "Natural increase: a young population, high birth rates, falling death rates. Push: rural poverty, landlessness, mechanisation, drought, conflict. Pull: jobs, higher wages, schools, hospitals, family in the city. Primate cities draw investment.",
+    "term": "Developing-world cities: reasons for rapid growth"
+   },
+   {
+    "definition": "Slums on marginal land: river banks, steep slopes, beside railways, rubbish dumps and floodplains; insecure tenure, so residents can be evicted; severe overcrowding; homeless pavement dwellers.",
+    "term": "Developing-world cities: housing problems"
+   },
+   {
+    "definition": "No piped water or sewers, so open drains spread cholera, typhoid and dysentery; informal work (vendors, rickshaw pullers, waste pickers) with low pay, no security, child labour and underemployment; overcrowded trains and buses; congestion; road deaths.",
+    "term": "Developing-world cities: health, employment and transport problems"
+   },
+   {
+    "definition": "Air pollution from traffic, industry and cooking fuels; untreated sewage in rivers; uncollected rubbish; floods on low, badly drained land, landslides on hillside slums, fires; crime, drugs, street children, visible inequality, weak local government.",
+    "term": "Developing-world cities: pollution, hazards and social problems"
+   },
+   {
+    "definition": "Clearance by demolition and eviction usually fails, moving people further out or into new slums. Site-and-service schemes and upgrading in place (paving, taps, toilets, drains, power, secure tenure) keep people housed and let them improve their own homes.",
+    "term": "Slum solutions: why clearance fails and what works better"
+   },
+   {
+    "definition": "Satellite and new towns divert growth (Navi Mumbai; Kolkata's Salt Lake and New Town); metros, suburban rail and bus rapid transit (Curitiba); rural development, land reform and jobs in smaller cities slow migration; NGOs and community groups help.",
+    "term": "Developing-world cities: other solutions with named examples"
+   },
+   {
+    "definition": "Begun in 1974 under architect-mayor Jaime Lerner with dedicated bus lanes; raised tube stations for fast boarding were added later; the system cut car use and was copied by Bogotá's TransMilenio (2000). Recyclable waste could be exchanged for food or bus tokens.",
+    "term": "Curitiba: how its bus rapid transit works and who copied it"
+   },
+   {
+    "definition": "On the Hooghly near the Bay of Bengal, on low-lying delta land; founded in 1690 by the British East India Company (Job Charnock); capital of British India until 1911; a port with jute mills; Howrah Bridge opened 1943; renamed from Calcutta in 2001.",
+    "term": "Kolkata: site and history with dates"
+   },
+   {
+    "definition": "Colonial port and capital; jute and engineering jobs drew migrants from Bihar, Odisha and rural Bengal; the 1943 Bengal famine; refugees after Partition (1947) and the 1971 Bangladesh war; natural increase. About 14.1 million in Census 2011.",
+    "term": "Kolkata: reasons for growth"
+   },
+   {
+    "definition": "Bustees and pavement dwellers; overcrowding; poor water and sewerage; monsoon flooding of low-lying streets; air pollution and congestion; Partition cut off the jute lands, so jobs lagged and many rely on informal work, including hand-pulled rickshaws.",
+    "term": "Kolkata: problems of rapid growth"
+   },
+   {
+    "definition": "Calcutta Metropolitan Development Authority, 1970: bustee improvement with taps, toilets, paved lanes and drains; India's first metro, 1984; Salt Lake City (Bidhannagar) from the 1960s, with the Sector V IT hub; New Town (Rajarhat) from the late 1990s.",
+    "term": "Kolkata: planning responses with dates"
+   },
+   {
+    "definition": "East Kolkata Wetlands, a Ramsar site since 2002, naturally treat much of the city's sewage; Mother Teresa's Missionaries of Charity (1950; Nobel Peace Prize 1979). Upgrading improved conditions, but slums remain and the new towns serve the middle classes.",
+    "term": "Kolkata: wetlands, NGOs and how effective the responses were"
+   },
+   {
+    "definition": "Seven islands joined by reclamation, with a deep sheltered harbour; British East India Company port; cotton mills from the 19th century; financial capital (Reserve Bank of India, Bombay Stock Exchange 1875); Bollywood; migrants from Bihar and Uttar Pradesh.",
+    "term": "Mumbai: site and reasons for growth"
+   },
+   {
+    "definition": "Dharavi, one of Asia's largest slums, with home-based recycling, leather and pottery; high land costs on a narrow peninsula; overcrowded suburban trains; congestion; the flood of 26 July 2005, after about 944 mm of rain in one day at Santacruz; mill closures after the 1982 strike.",
+    "term": "Mumbai: problems of rapid growth"
+   },
+   {
+    "definition": "Navi Mumbai twin city, begun in the 1970s by CIDCO; Slum Rehabilitation Authority (1995): developers rehouse slum dwellers free, then sell other flats; Dharavi project awarded to Adani, 2022. Flats criticised for poor design and breaking up home industries.",
+    "term": "Mumbai: housing responses and their criticisms"
+   },
+   {
+    "definition": "Bandra–Worli Sea Link, 2009; Mumbai Metro Line 1, 2014; Mumbai Trans Harbour Link (Atal Setu), January 2024, India's longest sea bridge, linking Mumbai to Navi Mumbai.",
+    "term": "Mumbai: transport responses with dates"
+   },
+   {
+    "definition": "On a plateau inland from its port, Santos; founded by Jesuits on 25 January 1554; 19th-century coffee wealth carried on the Santos–Jundiaí railway (1867); Italian immigration; Japanese immigration from 1908 (Kasato Maru), centred on Liberdade.",
+    "term": "São Paulo: site and early growth with dates"
+   },
+   {
+    "definition": "Brazil's industrial heartland from the 1950s, with car plants such as Volkswagen in the ABC region; nordestinos came from the drought-prone North-East. Census 2022: city about 11.5 million, metropolitan region about 21 million; South America's largest city.",
+    "term": "São Paulo: industrial growth, migration and size today"
+   },
+   {
+    "definition": "Favelas: Paraisópolis beside wealthy Morumbi, and Heliópolis, the largest; extreme inequality; severe congestion and air pollution; the Tietê floods in summer rain; the 2014–2015 drought drained the Cantareira reservoirs, causing rationing; crime.",
+    "term": "São Paulo: problems of rapid growth"
+   },
+   {
+    "definition": "Rodízio from 1997 bans cars at rush hour on one weekday by plate digit; metro from 1974; Rodoanel ring road from 2002; Projeto Cingapura flats on favela sites (1990s); Minha Casa, Minha Vida (2009). These helped, but favelas and congestion persist.",
+    "term": "São Paulo: responses and how effective they were"
    }
   ],
   "notes": [
@@ -28217,6 +35837,70 @@
    {
     "definition": "An area where rent increases are limited by law.",
     "term": "Rent Pressure Zone"
+   },
+   {
+    "definition": "There were 33 megacities of over 10 million in 2018. Tokyo was the largest urban agglomeration, about 37 million; the UN projected Delhi to overtake it around 2028. Close to 90% of urban growth to 2050 is expected in Asia and Africa.",
+    "term": "Megacities in 2018: how many, the largest, its successor, and where growth to 2050 lies"
+   },
+   {
+    "definition": "Demand rises with population growth, smaller households and migration; Dublin rents and prices are high; nationally, over 15,000 people were in emergency accommodation in 2025. Responses: Housing for All (about 33,000 homes a year to 2030), homes near transport, cost-rental.",
+    "term": "Housing as an issue for cities of the future: causes and responses"
+   },
+   {
+    "definition": "Dublin: MetroLink planned, BusConnects; Paris: Grand Paris Express, about 200 km of new automatic metro lines and 68 stations; London: ULEZ from 2019, extended London-wide in August 2023; Copenhagen: cycling is the most common way to commute.",
+    "term": "Future urban transport: named responses in four cities"
+   },
+   {
+    "definition": "Paris: everyday needs within 15 minutes on foot or by bike, an idea of Carlos Moreno promoted by Mayor Anne Hidalgo in 2020, not yet fully built. Vauban, Freiburg: a low-car eco-district from the late 1990s on a former barracks, built to high energy standards.",
+    "term": "The 15-minute city and Vauban: two low-car neighbourhood designs"
+   },
+   {
+    "definition": "Cities produce most emissions and face sea-level rise, flooding and heat waves made worse by the urban heat island; Cork's low-lying centre suffers repeated tidal flooding. Climate Act 2021: emissions cut 51% by 2030 from 2018 levels, net zero by 2050.",
+    "term": "Climate change and cities: risks and Ireland's legal targets"
+   },
+   {
+    "definition": "Adaptation: flood defences, green roofs, green infrastructure. Mitigation: energy-efficient buildings, district heating, renewable energy. Masdar City, Abu Dhabi, was begun in 2006 as a planned low-carbon city; its zero-carbon target has been scaled back.",
+    "term": "Climate responses in cities: adaptation, mitigation and Masdar City"
+   },
+   {
+    "definition": "Sprawl wastes land and energy. Responses: compact growth under the NPF (40% of new homes within existing built-up footprints; half of growth in the five cities); brownfield regeneration; higher buildings, though height and density are debated; green belts.",
+    "term": "Sprawl versus compact cities: the issue and the responses"
+   },
+   {
+    "definition": "More older residents need accessible housing, accessible transport and health care close to home; age-friendly design of streets, buildings and services keeps them independent; fewer workers paying taxes puts pressure on the funding of services.",
+    "term": "Ageing populations in developed cities: needs and problems"
+   },
+   {
+    "definition": "Sensors and data manage traffic, energy and waste. Songdo, South Korea, built from the 2000s on land reclaimed from the Yellow Sea near Incheon; Smart Dublin, a programme of the four Dublin councils. Risks: high cost, privacy and a digital divide.",
+    "term": "Smart cities: what they do, two examples and three risks"
+   },
+   {
+    "definition": "After the COVID-19 pandemic began in 2020, remote and hybrid working cut commuting, leaving offices and shops empty; city centres are converting offices to homes and leisure; remote-working hubs in towns are backed by Our Rural Future (2021–2025).",
+    "term": "City centres after COVID-19: how changing work affects them"
+   },
+   {
+    "definition": "Deindustrialised cities lose people and jobs: Detroit fell from about 1.85 million (1950) to about 640,000 (2020) and filed for bankruptcy in 2013. Responses: vacant land reused for parks and urban farming; managed decline that plans for a smaller population.",
+    "term": "Shrinking cities: Detroit and the responses"
+   },
+   {
+    "definition": "Rich and poor areas drift apart: gentrification displaces lower-income residents; gated communities separate the wealthy; immigrants concentrate in districts such as the Paris banlieues (Seine-Saint-Denis riots, 2005). Response: social mix, inclusive planning.",
+    "term": "Social inequality as an issue for cities of the future"
+   },
+   {
+    "definition": "Dublin is split between four councils (Dublin City, Fingal, South Dublin, Dún Laoghaire–Rathdown); a 2023 Citizens' Assembly recommended a directly elected mayor, not yet in place. Limerick elected its first in June 2024. Métropole du Grand Paris, 2016.",
+    "term": "Governance of city regions: Dublin, Limerick and Paris"
+   },
+   {
+    "definition": "Water: Uisce Éireann's proposed pipeline from the River Shannon to the Dublin region; São Paulo's 2014–2015 Cantareira drought. Energy: data centres used about a fifth of Ireland's metered electricity in 2023 (CSO). Waste services must keep pace with growth.",
+    "term": "Resources for future cities: water, energy and waste"
+   },
+   {
+    "definition": "Megacities grow fastest in Asia and Africa, with slums, informal work and poor sanitation; low-lying Kolkata (Hooghly delta) and Mumbai (about 944 mm of rain in one day, 2005) face climate risk; Curitiba's bus rapid transit (1974) is a cheap solution.",
+    "term": "Developing-world cities of the future: challenges and one solution"
+   },
+   {
+    "definition": "About 1 million more people by 2040 (NPF 2018); Galway, Cork, Limerick and Waterford each to grow by at least 50%; Housing for All targets; Dublin's MetroLink planned and Cork light rail proposed (2020 strategy); data centres raising electricity demand.",
+    "term": "Irish cities to 2040: key planned changes"
    }
   ],
   "notes": [
@@ -28450,6 +36134,82 @@
    {
     "definition": "An eruption of lava from a long crack in the crust, as in the Antrim basalts.",
     "term": "Fissure eruption"
+   },
+   {
+    "definition": "Magma chamber; main vent (pipe or conduit); secondary (parasitic) vent on the flank; crater at the top of the main vent; cone of alternating layers of lava and ash; lava flow; ash cloud; volcanic bombs.",
+    "term": "Volcano diagram: the parts to label"
+   },
+   {
+    "definition": "Water vapour, carbon dioxide and sulphur dioxide. They escape easily from runny basic lava, but viscous acidic lava traps them, which makes eruptions explosive.",
+    "term": "Name three gases released in a volcanic eruption"
+   },
+   {
+    "definition": "Active: Mount Etna, Sicily; Kilauea, Hawaii; Stromboli, Italy. Dormant: Mount Fuji, Japan, which last erupted in 1707. Extinct: Slemish, Co. Antrim, the hill linked with St Patrick.",
+    "term": "Active, dormant and extinct volcanoes: an example of each"
+   },
+   {
+    "definition": "Constructive: basic magma rises where plates separate, mostly along mid-ocean ridges under the sea. Destructive: subducted oceanic crust melts and acidic magma rises to form explosive volcanoes in fold mountains (the Andes) or island arcs (Japan, Indonesia).",
+    "term": "Why volcanoes form at constructive and destructive boundaries"
+   },
+   {
+    "definition": "Continental–continental collision boundaries and transform (conservative) boundaries have few or no volcanoes. Ireland lies in the middle of the Eurasian plate, far from any boundary, so it has no active volcanoes.",
+    "term": "Volcanoes: which boundaries have few, and why Ireland has none today"
+   },
+   {
+    "definition": "Iceland is where the Mid-Atlantic Ridge rises above sea level, with the North American and Eurasian plates moving apart; it also lies over a hot spot. Its volcanoes include Hekla and Eyjafjallajökull.",
+    "term": "Iceland: plate setting and two named volcanoes"
+   },
+   {
+    "definition": "A belt, mainly of destructive boundaries, around the edges of the Pacific with about three-quarters of the world's active volcanoes, including Mount St Helens, USA; Mount Fuji, Japan; Mount Pinatubo, the Philippines; and Krakatoa, Indonesia.",
+    "term": "Ring of Fire volcanoes: share and four named examples"
+   },
+   {
+    "definition": "Hawaii sits mid-Pacific plate over a stationary hot spot. The plate moves north-west, so the islands get older to the north-west; the active volcanoes, Kilauea and Mauna Loa, are on the Big Island in the south-east. Other hot spots: Yellowstone, Iceland.",
+    "term": "Hawaii hot spot: how the island chain forms"
+   },
+   {
+    "definition": "As North America and Greenland separated from Europe with the opening of the Atlantic, the crust stretched and cracked; basic lava poured out of long fissures in north-east Ireland, flow upon flow, about 60 million years ago.",
+    "term": "Antrim basalts: cause, type of eruption and date"
+   },
+   {
+    "definition": "Cascade Range, Washington State, USA, where the Juan de Fuca plate subducts beneath the North American plate. For weeks magma bulged the north flank; on 18 May a magnitude 5.1 earthquake collapsed it in a huge landslide, releasing a sideways blast.",
+    "term": "Mount St Helens, 1980: setting and sequence of events"
+   },
+   {
+    "definition": "The sideways blast flattened forests; the summit lost about 400 m, leaving a horseshoe-shaped crater; ash fell across several US states; lahars down the Toutle River destroyed bridges and homes. 57 died; most people had been kept out of a restricted zone.",
+    "term": "Mount St Helens, 1980: effects and why few died"
+   },
+   {
+    "definition": "Vesuvius, AD 79, buried Pompeii and Herculaneum under ash and pyroclastic flows. Krakatoa, 1883: tsunamis killed about 36,000 people. Eyjafjallajökull, April 2010: an ash cloud closed much of European airspace for about a week; about 100,000 flights cancelled.",
+    "term": "Negative effects of volcanoes: three named examples"
+   },
+   {
+    "definition": "Sulphur dioxide from the eruption in the Philippines reached the upper atmosphere and cooled global average temperatures by about 0.5°C over the following year or so.",
+    "term": "Mount Pinatubo, 1991: effect on global climate"
+   },
+   {
+    "definition": "Fertile soils (vineyards and orchards on Etna and Vesuvius); geothermal energy, which heats about nine in ten homes in Iceland; tourism (the Blue Lagoon, Geysir); new land (Surtsey, 1963); minerals and building materials such as sulphur, pumice and basalt.",
+    "term": "Positive effects of volcanoes: five, with examples"
+   },
+   {
+    "definition": "Seismometers record swarms of small earthquakes as magma rises; tiltmeters, GPS and satellite radar measure swelling of the cone; gas monitoring tracks changes, especially in sulphur dioxide; thermal imaging detects heating of the ground or crater lakes.",
+    "term": "Predicting eruptions: four monitoring methods"
+   },
+   {
+    "definition": "Deposits and records of past eruptions show how often a volcano erupts and which areas are at risk, shown on hazard maps. Scientists can often forecast that an eruption is likely, but not its exact time, size or style.",
+    "term": "Eruption prediction: the use of past eruptions, and the limits"
+   },
+   {
+    "definition": "Monitoring by volcano observatories; hazard zoning to keep settlement out of high-risk zones; evacuation plans, warning systems and public education; diverting or slowing lava with barriers and channels, or cooling it with water.",
+    "term": "Reducing the effects of eruptions: four methods"
+   },
+   {
+    "definition": "During the Eldfell eruption on Heimaey, Westman Islands, Iceland, about 5,000 residents were evacuated overnight, mostly by the fishing fleet, and sea water was pumped onto the advancing lava to cool and halt it.",
+    "term": "Heimaey, 1973: how the harbour was saved"
+   },
+   {
+    "definition": "Scientists from the US Geological Survey and the Philippine volcano institute monitored earthquakes, gas emissions and swelling and forecast the eruption; tens of thousands were evacuated, including from the US Clark Air Base, saving thousands of lives.",
+    "term": "Pinatubo, 1991: a successful eruption forecast"
    }
   ],
   "notes": [
@@ -28682,6 +36442,94 @@
    {
     "definition": "A heavy counterweight in a tall building that moves to offset sway.",
     "term": "Tuned mass damper"
+   },
+   {
+    "definition": "First, plates moving past, towards or away from each other lock by friction; then stress builds up in the rocks; when it exceeds the rock's strength, the rock fractures or slips suddenly along a fault; finally, the stored energy is released as seismic waves.",
+    "term": "How an earthquake happens: the four stages"
+   },
+   {
+    "definition": "P (primary) waves are fastest and arrive first; S (secondary) waves are slower and arrive second; surface waves travel along the surface, arrive last and cause most of the damage.",
+    "term": "Seismic waves: order of arrival and which cause most damage"
+   },
+   {
+    "definition": "Its seismograph records the arrival times of P and S waves; the gap between them shows the distance to the earthquake, and three or more stations locate the epicentre by triangulation.",
+    "term": "Seismic station: what it records and how it locates an epicentre"
+   },
+   {
+    "definition": "Richter and moment magnitude measure magnitude (energy released), the same everywhere; each whole Richter number up is ten times the wave amplitude and about 30 times the energy. Modified Mercalli (I to XII) measures intensity (effects), which varies by place.",
+    "term": "Richter, moment magnitude and Mercalli scales: what each measures"
+   },
+   {
+    "definition": "Constructive: frequent, shallow, generally weaker earthquakes along mid-ocean ridges and in Iceland. Destructive: the most powerful, with foci from shallow to very deep along the sinking plate; undersea ones cause tsunamis (Japan, Chile, Sumatra).",
+    "term": "Earthquakes at constructive and destructive boundaries"
+   },
+   {
+    "definition": "Collision: powerful, shallow earthquakes in fold-mountain belts such as the Himalayas. Transform: plates stick, then slip, giving shallow and often very damaging earthquakes, as on the San Andreas Fault and the East Anatolian Fault, Turkey.",
+    "term": "Earthquakes at collision and transform boundaries"
+   },
+   {
+    "definition": "On 25 April 2015 a magnitude 7.8 earthquake from the collision of the Indian and Eurasian plates killed about 9,000 people, severely damaged Kathmandu and triggered avalanches on Mount Everest.",
+    "term": "Nepal, 2015: plate setting and effects"
+   },
+   {
+    "definition": "On 18 April 1906 an earthquake of magnitude about 7.8 on the San Andreas Fault killed about 3,000 people; fires from broken gas mains burned for days and destroyed much of the city.",
+    "term": "San Francisco, 1906: magnitude, deaths and secondary effect"
+   },
+   {
+    "definition": "Primary (direct from shaking): building and bridge collapse; deaths and injuries; ground rupture; broken gas, water and power lines; damaged roads. Secondary: fires; tsunamis; landslides; liquefaction; disease from contaminated water; homelessness.",
+    "term": "Primary and secondary effects of earthquakes"
+   },
+   {
+    "definition": "Magnitude; depth of focus (a shallow focus causes more surface damage); distance from the epicentre; rock and soil type (soft sediment shakes more and can liquefy); population density; time of day; building quality and building codes; level of development and preparedness.",
+    "term": "Factors affecting earthquake damage: name eight"
+   },
+   {
+    "definition": "On 12 January 2010 a magnitude 7.0 earthquake struck near Port-au-Prince; poorly built concrete buildings collapsed and the poor country had little capacity to respond. Death-toll estimates vary widely, all over 100,000.",
+    "term": "Haiti, 2010: why the damage was so severe"
+   },
+   {
+    "definition": "The Great Hanshin earthquake, 17 January 1995: magnitude 6.9 on the moment magnitude scale; shallow focus, epicentre near the northern tip of Awaji Island. Kobe lies near where the Philippine Sea plate subducts beneath the Eurasian plate.",
+    "term": "Kobe, 1995: date, magnitude and plate setting"
+   },
+   {
+    "definition": "Elevated sections of the Hanshin Expressway toppled over; many older wooden houses with heavy tiled roofs collapsed; fires from broken gas mains burned large areas; liquefaction badly damaged the port, which was built on reclaimed land.",
+    "term": "Kobe, 1995: four effects"
+   },
+   {
+    "definition": "About 6,400 people died and about 300,000 were left homeless. The government was criticised for a slow response; stricter building codes and retrofitting followed.",
+    "term": "Kobe, 1995: death toll, homelessness and response"
+   },
+   {
+    "definition": "On 26 December 2004 a magnitude 9.1 earthquake struck off the west coast of northern Sumatra, Indonesia, where the Indo-Australian plate subducts beneath the Burma plate; the seabed was thrust upwards, displacing the ocean.",
+    "term": "Indian Ocean, 2004: what caused the tsunami"
+   },
+   {
+    "definition": "About 230,000 people died in 14 countries; Banda Aceh, Sumatra, was worst hit, and Sri Lanka, India and Thailand were badly hit. There was no tsunami warning system in the Indian Ocean; one was set up afterwards, operational from 2006.",
+    "term": "Indian Ocean, 2004: effects and response"
+   },
+   {
+    "definition": "Mapping active faults and plate boundaries; studying the history and frequency of past earthquakes; seismic gap theory; monitoring foreshocks, ground deformation, radon gas and well-water levels. The exact time, place and size cannot be predicted.",
+    "term": "Earthquake prediction: four methods"
+   },
+   {
+    "definition": "Haicheng, China, 4 February 1975: after foreshocks the city was evacuated hours before a magnitude 7.3 earthquake, saving many lives. Tangshan, China, 28 July 1976: no warning was given; the official death toll was about 240,000.",
+    "term": "Haicheng 1975 and Tangshan 1976: prediction success and failure"
+   },
+   {
+    "definition": "On 6 April 2009 a magnitude 6.3 earthquake killed about 300 people in L'Aquila, Italy. In 2012 six scientists and an official were convicted of manslaughter for reassuring the public; the scientists were acquitted on appeal in 2014.",
+    "term": "L'Aquila, 2009: the earthquake and the scientists' trial"
+   },
+   {
+    "definition": "Detecting the fast P waves gives seconds of warning before the destructive waves arrive, enough to stop trains, shut off gas and take cover; Japan has a national system. Tsunami warning systems use seabed pressure sensors and buoys.",
+    "term": "Earthquake early warning: how it works and what it allows"
+   },
+   {
+    "definition": "Deep foundations anchored to bedrock; base isolation on rubber and steel bearings; flexible steel or reinforced-concrete frames with cross-bracing and shear walls; tuned mass dampers, such as the giant steel ball near the top of Taipei 101, Taiwan.",
+    "term": "Earthquake-proof buildings: four design features"
+   },
+   {
+    "definition": "Automatic shut-off valves on gas mains and flexible pipe joints; retrofitting older buildings; strict building codes and planning that avoids soft ground and fault lines; drills, such as Japan's Disaster Prevention Day each 1 September.",
+    "term": "Reducing earthquake damage: infrastructure and preparedness"
    }
   ],
   "notes": [
@@ -28985,6 +36833,74 @@
    {
     "definition": "A vertical or near-vertical sheet of magma that cuts across the layers of rock.",
     "term": "Dyke"
+   },
+   {
+    "definition": "Endogenic: magma intrudes and cools slowly underground. Exogenic erosion only reveals them later, when the rock above is removed, so the statement that plutonic features are formed by exogenic processes is false.",
+    "term": "Plutonic features: formed by endogenic or exogenic processes?"
+   },
+   {
+    "definition": "By contraction as the rock cools; in granite also by expansion when the overlying rock is removed and pressure is released. Weathering and erosion work along joints, so the joint pattern shapes the landform.",
+    "term": "Joints in igneous rock: two ways they form and why they matter"
+   },
+   {
+    "definition": "First, runny basic lava pours out of long fissures rather than a single vent; each flow spreads widely before it cools; repeated flows build up one on top of another; finally a high, flat-topped plateau with steep edges forms, such as the Antrim plateau.",
+    "term": "Lava plateau: formation in four stages"
+   },
+   {
+    "definition": "Layers of basalt from fissure eruptions about 60 million years ago, linked to the opening of the North Atlantic. Along the Antrim coast dark basalt lies on top of white chalk, which the basalt protected from erosion.",
+    "term": "Antrim plateau: age, cause and the basalt-over-chalk coast"
+   },
+   {
+    "definition": "A thick lava flow cooled slowly and evenly and contracted; cracks formed at about 120° to each other, giving mainly six-sided columns at right angles to the cooling surface; sea erosion exposed about 40,000 such columns on the north Antrim coast.",
+    "term": "Giant's Causeway: how the basalt columns formed"
+   },
+   {
+    "definition": "Runny basic lava flows a long way before cooling, and mostly effusive eruptions spread successive flows from the central vent, building a broad cone with gentle slopes. Examples: Mauna Loa, the largest active volcano on Earth by volume, and Kilauea.",
+    "term": "Shield volcano: formation and Hawaiian examples"
+   },
+   {
+    "definition": "Viscous acidic or intermediate magma cannot flow far; explosive eruptions alternate with lava flows, laying down layers of ash and lava that build a steep cone with a crater, main vent and secondary vents. Examples: Fuji, Vesuvius, Etna, Mount St Helens.",
+    "term": "Composite volcano: formation and four examples"
+   },
+   {
+    "definition": "A huge eruption empties the magma chamber and the summit collapses into it, leaving a basin much larger than a crater, which may fill with water. Crater Lake, Oregon, formed when Mount Mazama collapsed about 7,700 years ago; others: Santorini, Krakatoa.",
+    "term": "Caldera: how it forms and a named example"
+   },
+   {
+    "definition": "First, magma solidifies in the vent of a volcano; then the softer cone around it is eroded away; finally the resistant plug is left as a steep-sided hill. Examples: Slemish, Co. Antrim; Castle Rock, Edinburgh, later shaped by ice into a crag-and-tail.",
+    "term": "Volcanic plug: formation in three stages and two examples"
+   },
+   {
+    "definition": "The Laki fissure eruption of 1783 poured out huge lava flows, and its gases caused crop failure and famine; Geysir and Strokkur are geysers; Surtsey, a new island, formed off southern Iceland from 1963; Hekla and Eyjafjallajökull are volcanoes.",
+    "term": "Iceland: four kinds of volcanic feature, with named examples"
+   },
+   {
+    "definition": "Magma cools slowly deep underground into granite, and its heat alters the surrounding rock into a metamorphic aureole. Granite is usually more resistant than the rock around it, so when the overlying rock is eroded it is left standing as upland.",
+    "term": "Batholith: formation and effect on the landscape"
+   },
+   {
+    "definition": "Granite intruded about 400 million years ago in the Caledonian period: Ireland's largest granite mass, from south Co. Dublin through Wicklow and Carlow. Erosion of the overlying slate exposed the Wicklow Mountains, ringed by mica schist; Lugnaquilla is 925 m.",
+    "term": "Leinster batholith: age, extent and landforms"
+   },
+   {
+    "definition": "Granite intrusions in Co. Down from the same period as the Antrim basalts, much younger than the Leinster granite, so they are not Caledonian. Slieve Donard is the highest peak.",
+    "term": "Mourne Mountains: type of structure and age"
+   },
+   {
+    "definition": "A horizontal sheet along the rock layers; when exposed, a resistant sill forms cliffs, ledges and waterfalls. Fair Head, Co. Antrim, is a dolerite sill with columnar jointing; the Great Whin Sill, northern England, carries part of Hadrian's Wall on its crest.",
+    "term": "Sill: landscape effects and two examples"
+   },
+   {
+    "definition": "A dyke harder than the surrounding rock stands up as a wall-like ridge; a softer dyke is eroded into a trench. The Isle of Arran, Scotland, has a dyke swarm.",
+    "term": "Dyke: two possible landscape effects and an example"
+   },
+   {
+    "definition": "Batholith (huge granite dome); laccolith (bulges layers up, as in the Henry Mountains, Utah); lopolith (sags down in the centre); sill (along the layers); dyke (across the layers); with a volcanic plug in the old vent.",
+    "term": "Plutonic features on a labelled diagram: name and tell apart"
+   },
+   {
+    "definition": "Dartmoor and Bodmin Moor are granite uplands, parts of one large batholith exposed by erosion; Haytor, Dartmoor, is a tor; at St Austell, Cornwall, china clay (kaolin) is quarried from decomposed granite.",
+    "term": "Devon and Cornwall: granite landscape facts"
    }
   ],
   "notes": [
@@ -29254,6 +37170,54 @@
    {
     "definition": "The blocks of limestone pavement (clints) separated by the cracks between them (grikes).",
     "term": "Clint and grike"
+   },
+   {
+    "definition": "They form as sediment dries and shrinks, and by stress and the removal of overlying rock. They run at right angles to the bedding planes, so together the two divide the rock into blocks.",
+    "term": "Joints in sedimentary rock: how they form and what they do"
+   },
+   {
+    "definition": "Water, ice and weathering exploit bedding planes and joints, so rock breaks into blocks and erosion is concentrated there. Where resistant sandstone or limestone alternates with weak shale or clay, the weak layers wear faster, leaving cliffs and caps.",
+    "term": "How bedding planes and joints guide erosion of layered rock"
+   },
+   {
+    "definition": "First, a resistant cap rock lies above weaker horizontal layers; then erosion strips the weaker layers beneath the cap and wears back the edges; finally, the cap protects the layers beneath, so the top stays flat and the edges stay steep.",
+    "term": "Plateau on horizontal strata: formation in three stages"
+   },
+   {
+    "definition": "Hard and soft horizontal layers erode at different rates: hard layers form cliffs and soft layers form gentler slopes, often covered by scree, so the cliff-and-slope profile repeats for each pair of layers.",
+    "term": "Stepped slopes: how alternating layers produce them"
+   },
+   {
+    "definition": "Benbulben, Co. Sligo (526 m), in the Dartry Mountains: near-horizontal strata with a resistant limestone cap forming vertical cliffs over weaker shale, which forms gentler lower slopes partly covered in scree. Ice later steepened its sides.",
+    "term": "Benbulben: height, structure and slopes"
+   },
+   {
+    "definition": "At 665 m it is the highest point in Co. Cavan and Co. Fermanagh: a resistant sandstone cap over shale over limestone gives a stepped profile and a flat summit ridge. The Shannon Pot lies at its foot and the Marble Arch Caves in the limestone beneath.",
+    "term": "Cuilcagh: height, structure and features at its foot"
+   },
+   {
+    "definition": "Weathering and erosion work back the edges of a plateau, breaking it into flat-topped remnants capped by resistant rock: a mesa is wider than it is high; a butte is a smaller, narrower remnant. Example: Monument Valley, on the Arizona–Utah border, USA.",
+    "term": "Mesa and butte: formation and a named example"
+   },
+   {
+    "definition": "First, a resistant layer is exposed on gently dipping strata; then erosion cuts a steep scarp slope across the edges of the layers; the layer continues along the tilt as a long, gentle dip slope; finally the weaker rock between cuestas is eroded into a vale.",
+    "term": "Escarpment (cuesta): formation in four stages"
+   },
+   {
+    "definition": "Cuesta: the Cotswolds, England, a limestone ridge with a steep west-facing scarp and a long dip slope to the east. Hogback: the Hog's Back, Surrey, England, a narrow chalk ridge on steeply dipping strata.",
+    "term": "Name an example of a cuesta and of a hogback"
+   },
+   {
+    "definition": "A saucer-shaped basin of limestone, chalk and clay layers dipping gently in towards Paris, near its centre. On the eastern side resistant layers form escarpments facing outwards (east), with dip slopes facing in towards Paris and clay vales between them.",
+    "term": "Paris Basin: structure and landforms"
+   },
+   {
+    "definition": "Gently dipping Old Red Sandstone forms flat-topped summits with steep north-facing escarpments and gentle south-facing dip slopes. Pen y Fan (886 m) is the highest peak in southern Britain. The area was renamed Bannau Brycheiniog National Park in 2023.",
+    "term": "Brecon Beacons: rock, landforms and highest peak"
+   },
+   {
+    "definition": "Limestone pavement, with clints separated by grikes; caves along bedding planes in limestone; waterfalls over horizontal cap rock; sea caves and arches along joints on the coast.",
+    "term": "Bedding planes and joints: four smaller landforms they produce"
    }
   ],
   "notes": [
@@ -29490,6 +37454,74 @@
    {
     "definition": "A block of land that sinks between two parallel normal faults, forming a rift valley.",
     "term": "Graben"
+   },
+   {
+    "definition": "Converging plates cause compression, giving folds and reverse or thrust faults; diverging plates cause tension, giving normal faults; plates sliding past cause shearing, giving tear (strike-slip) faults.",
+    "term": "Stress types: the plate movement behind each and the structure it makes"
+   },
+   {
+    "definition": "Rock bends into folds when compressed slowly, especially when deep, hot and under pressure; it breaks into faults when the stress is sudden or the rock is brittle.",
+    "term": "When rock folds and when it faults"
+   },
+   {
+    "definition": "Simple (symmetrical): limbs dip equally; asymmetrical: one limb steeper; overfold: one limb pushed over the other; recumbent: layers lie almost flat; overthrust fold or nappe: broken along a thrust fault and pushed far forward over other rocks.",
+    "term": "Five types of fold, in order of increasing compression"
+   },
+   {
+    "definition": "Sediments are deposited in a sea between two plates; the plates converge and compress them; they fold into anticlines and synclines; continued pressure makes overfolds, recumbent folds and nappes; the crust thickens and is uplifted into long, high ranges.",
+    "term": "How fold mountains form: five stages"
+   },
+   {
+    "definition": "Young ranges are high and steep: the Alps, Himalayas, Andes, Rockies and Atlas Mountains. Old ranges, worn down by hundreds of millions of years of weathering and erosion, are lower and rounded, like Macgillycuddy's Reeks and the Appalachians.",
+    "term": "Young vs old fold mountains: appearance and named ranges"
+   },
+   {
+    "definition": "Armorican folding made east–west anticlines and synclines. Erosion left resistant Old Red Sandstone on anticlines as ridges (Macgillycuddy's Reeks, Galtee, Knockmealdown and Caha Mountains) and weaker limestone in synclines as valleys (Blackwater, Lee).",
+    "term": "Munster ridge-and-valley: why ridges and valleys alternate"
+   },
+   {
+    "definition": "It flows east along a limestone valley, then turns sharply south at Cappoquin, Co. Waterford, cutting across the ridges to reach the sea at Youghal. Rivers following synclines and breaking through ridges give trellised drainage with right-angled bends.",
+    "term": "River Blackwater: how folding shaped its course"
+   },
+   {
+    "definition": "The northern limit of strong Armorican folding, running east–west across Munster. South of it rocks were intensely folded and thrust northwards; north of it folding is gentle.",
+    "term": "Armorican front: what it is and the contrast either side"
+   },
+   {
+    "definition": "Young fold mountains from Alpine folding, as the African plate collided with the Eurasian plate. Recumbent folds and nappes are characteristic, and Mont Blanc is the highest peak.",
+    "term": "The Alps: cause, typical folds and highest peak"
+   },
+   {
+    "definition": "Old fold mountains of eastern North America, folded in the same mountain-building episodes as Ireland's older mountains when the two continents were joined. The Ridge-and-Valley Appalachians show long, parallel folded ridges and valleys.",
+    "term": "The Appalachians: why they are linked to Ireland's mountains"
+   },
+   {
+    "definition": "Erosion removes the top first, exposing older rocks in the centre; resistant layers form rings of inward-facing escarpments; drainage flows outwards in a radial pattern, as in the Lake District, England.",
+    "term": "Eroded dome: three resulting features and an example"
+   },
+   {
+    "definition": "Rocks in Kent, Surrey and Sussex were pushed up into a dome (an elongated anticline). Erosion removed the top chalk, exposing older sandstones and clays; the chalk forms the inward-facing North and South Downs, with clay vales and the High Weald inside.",
+    "term": "The Weald: structure and landforms"
+   },
+   {
+    "definition": "Normal: tension; one block slides down the fault plane relative to the other, so the crust is lengthened. Reverse: compression; one block is pushed up over the other, so the crust is shortened. A thrust fault is a low-angle reverse fault, linked to nappes.",
+    "term": "Normal vs reverse fault: stress, movement and effect on the crust"
+   },
+   {
+    "definition": "First, tension stretches the crust, producing parallel normal faults either side of a block; then the central block sinks, forming a graben (rift valley) with a flat floor and steep walls, often holding lakes; the blocks either side stand higher as horsts.",
+    "term": "Horst and graben: formation in three stages"
+   },
+   {
+    "definition": "The Rhine rift valley, a graben between the Vosges (France) and Black Forest (Germany) horsts; the East African Rift Valley, with Lake Tanganyika in a graben; the Central Lowlands of Scotland, between the Highland Boundary and Southern Uplands Faults.",
+    "term": "Horst and graben: three named examples"
+   },
+   {
+    "definition": "The shattered rock of the fault zone is eroded into a straight valley, and ridges and rivers are offset sideways across the fault. The Great Glen Fault, Scotland, is a tear fault; Loch Ness lies in the straight valley eroded along it.",
+    "term": "Tear faults: two landforms and a named example"
+   },
+   {
+    "definition": "They run north-east to south-west, and rivers and glaciers have eroded long, straight valleys along them. Examples: the Gweebarra Fault, followed by the Gweebarra River valley, and the Leannan Fault.",
+    "term": "Donegal tear faults: trend, names and landforms"
    }
   ],
   "notes": [
@@ -29769,6 +37801,98 @@
    {
     "definition": "A front formed when a cold front catches up with a warm front, lifting the warm air off the ground; its symbols alternate on the same side.",
     "term": "Occluded front"
+   },
+   {
+    "definition": "Valentia Observatory, Co. Kerry; Malin Head, Co. Donegal; Belmullet, Co. Mayo; Dublin Airport; Shannon Airport. Met Éireann combines their observations with satellite and radar data to produce Irish weather maps.",
+    "term": "Name five Met Éireann weather stations"
+   },
+   {
+    "definition": "Pressure in hectopascals (1 hPa = 1 mb, so never convert); temperature in °C; rainfall in mm; wind speed in km/h or knots; sunshine in hours; cloud cover in oktas. Average sea-level pressure is about 1013 hPa.",
+    "term": "Weather map units, and average sea-level pressure"
+   },
+   {
+    "definition": "Find the isobars either side of the point, note their values and the interval (read the labels; commonly 4 hPa), then estimate in proportion to distance. Illustrative: midway between the 988 and 992 hPa isobars is about 990 hPa.",
+    "term": "Reading the pressure between two isobars: method"
+   },
+   {
+    "definition": "Read the class from the key and give the range it states, such as 50–74 mm, when the map shows a band rather than a single value. UV and other isoline maps are read the same way.",
+    "term": "Reading a shaded rainfall, sunshine or UV map with a colour key"
+   },
+   {
+    "definition": "In a depression air rises, cools and condenses, giving cloud, rain and strong winds. In an anticyclone air sinks and warms, so clouds rarely form: warm, sunny days in summer; cold, clear nights with frost and fog in winter.",
+    "term": "Depression vs anticyclone: why one brings rain and the other doesn't"
+   },
+   {
+    "definition": "Trough: an elongated low, often unsettled, sometimes drawn as a line. Ridge: an elongated extension of high pressure, bringing a short settled spell. Col: a slack area between two highs and two lows, with light winds and possible fog or thunderstorms.",
+    "term": "Trough, ridge and col: the weather each brings"
+   },
+   {
+    "definition": "Anticlockwise around a depression and clockwise around an anticyclone, nearly parallel to the isobars but angled slightly in towards a low and out from a high. Buys Ballot's law: with your back to the wind, low pressure is on your left.",
+    "term": "Wind direction around lows and highs in the northern hemisphere"
+   },
+   {
+    "definition": "Direction is named from where the wind blows from, so a westerly blows from the west; Ireland's prevailing wind is south-westerly. Force is rated on the Beaufort scale from 0 (calm) to 12 (hurricane force), based on observed effects.",
+    "term": "Wind: how direction is named and how force is rated"
+   },
+   {
+    "definition": "Warm: a line with semicircles (red). Cold: a line with triangles (blue). Occluded: triangles and semicircles alternating on the same side (purple). Stationary: alternating on opposite sides. The symbols sit on the side the front is moving towards.",
+    "term": "Front symbols: how to draw the four types"
+   },
+   {
+    "definition": "Warm: warm air rises gently over cold air, giving thickening cloud and long steady rain, then rising temperature. Cold: cold air undercuts warm air, giving short heavy showers, possible thunder and falling temperature, then brighter showery weather.",
+    "term": "Warm front vs cold front: the weather each brings"
+   },
+   {
+    "definition": "The warm front lies ahead, the warm sector between the fronts and the cold front behind; the occluded front lies near the centre of a mature depression; isobars kink where they cross the fronts.",
+    "term": "Depression on a synoptic chart: where the fronts lie"
+   },
+   {
+    "definition": "The shaft points from the station towards where the wind comes from. Half barb 5 knots, full barb 10, pennant 50: add them; a circle with no shaft means calm. Illustrative: shaft to the south-west, two full barbs and a half = south-westerly 25 knots.",
+    "term": "Station model: reading the wind arrow"
+   },
+   {
+    "definition": "Compare the rain band's position on successive timed maps; heavier rain shows in darker or warmer colours. Illustrative: Munster and Connacht at 06:00, the midlands at 12:00, Leinster at 18:00, so the rain moves west to east and reaches Leinster last.",
+    "term": "Rainfall forecast sequence: how to find the direction of movement"
+   },
+   {
+    "definition": "Yellow, Orange and Red, by expected impact; Red is the most severe, when people should act to protect themselves and property. Types: wind, rain, snow-ice, low temperature, high temperature, fog and thunderstorm.",
+    "term": "Met Éireann weather warnings: colours and types"
+   },
+   {
+    "definition": "Met Éireann and the UK Met Office since 2015, joined by the Dutch service KNMI in 2019; names make warnings easier to communicate. Storm Éowyn crossed Ireland on 24 January 2025, with Red wind warnings.",
+    "term": "Storm naming: who names storms, since when, and a recent example"
+   },
+   {
+    "definition": "It reached Ireland on 16 October 2017 as a post-tropical storm, after being a major hurricane south of the Azores, unusually far east for an Atlantic hurricane. Met Éireann issued Red warnings; three people died in Ireland.",
+    "term": "Ex-hurricane Ophelia, 2017: key facts"
+   },
+   {
+    "definition": "Low 1–2; Moderate 3–5; High 6–7; Very high 8–10; Extreme 11 and above. The index measures the strength of the sun's ultraviolet radiation.",
+    "term": "UV index: the five World Health Organization categories"
+   },
+   {
+    "definition": "Rain gauge: rainfall. Thermometer: temperature. Barometer: pressure (barograph: continuous record). Anemometer: wind speed. Wind vane: wind direction. Hygrometer: humidity. Sunshine recorder: hours of sunshine.",
+    "term": "Weather instruments: name the instrument for each element"
+   },
+   {
+    "definition": "Total: add the values. Mean: total ÷ number of values. Mean daily temperature = (maximum + minimum) ÷ 2. Range = highest − lowest. Illustrative: maximum 14 °C, minimum 6 °C gives a mean of 10 °C and a range of 8 °C. Always give units.",
+    "term": "Weather data calculations: total, mean, mean daily temperature, range"
+   },
+   {
+    "definition": "Hourly: read times carefully (00:00 is midnight), read the value at the given hour and count the hours with rain. An Irish climate graph shows mild winters, cool summers and rain all year, wettest usually in autumn and winter.",
+    "term": "Reading hourly graphs and Irish climate graphs"
+   },
+   {
+    "definition": "Moist south-westerly winds from the Atlantic are forced to rise over the western mountains, where the air cools and condenses, giving relief (orographic) rain.",
+    "term": "Why the west of Ireland is wetter than the east"
+   },
+   {
+    "definition": "They lie in the rain shadow of the western and central uplands: the descending air warms and its cloud evaporates, so there is less cloud and more sunshine. The south-east is the sunniest part of Ireland.",
+    "term": "Why the east and south-east of Ireland are sunnier and drier"
+   },
+   {
+    "definition": "Met Éireann long-term averages: most of the east gets about 750–1,000 mm a year, the west about 1,000–1,250 mm, and many mountain areas over 2,000 mm. The lowest totals are around Dublin and the east.",
+    "term": "Annual rainfall in Ireland: east, west and mountains"
    }
   ],
   "notes": [
@@ -29994,6 +38118,82 @@
    {
     "definition": "A narrow sand or shingle ridge joining an island to the mainland or to another island, seen as a pale strip.",
     "term": "Tombolo"
+   },
+   {
+    "definition": "A satellite image is taken from far higher, in space, covers a much larger area, is repeated on a schedule and can record wavebands the eye cannot see. An aerial photograph shows more detail of a small area and is vertical or oblique.",
+    "term": "Satellite image vs aerial photograph: the differences"
+   },
+   {
+    "definition": "Meteosat weather satellites are geostationary, about 36,000 km above the equator, viewing a whole hemisphere continuously in low detail. They are operated by EUMETSAT, of which Ireland is a member state.",
+    "term": "Meteosat: type of satellite, operator and Ireland's link"
+   },
+   {
+    "definition": "Both are polar-orbiting: low orbits near both poles cover the earth strip by strip in high detail, for land use, mapping and environmental monitoring. Landsat (USA) has imaged the earth since 1972; Sentinel belongs to the EU's Copernicus programme.",
+    "term": "Landsat and Sentinel: type of satellite and main uses"
+   },
+   {
+    "definition": "Visible: reflected sunlight, daytime only, thick cloud bright white. Infrared: heat, day and night, cold high cloud tops white. False-colour: near-infrared shown red, so healthy vegetation is red. Radar: microwave echoes that see through cloud; maps floods.",
+    "term": "Four types of satellite image and what each shows"
+   },
+   {
+    "definition": "Read the caption, date, scale and image type (true colour, false colour or infrared); find north and a coastline or river to orient yourself; identify features by colour, texture, shape, size, pattern and association; describe the pattern; explain it.",
+    "term": "Reading a satellite image: the five method steps"
+   },
+   {
+    "definition": "Water dark blue to black (muddy or shallow water brown or turquoise); forest dark green, crops and grass lighter; bare ground and desert yellow, brown, orange or red; urban areas grey; snow, ice, cloud and salt flats white.",
+    "term": "Satellite image in true colour: what each colour usually shows"
+   },
+   {
+    "definition": "Cloud is fluffy, streaky or swirling, casts shadows and changes position between images. Snow and ice follow the shape of the land, filling valleys and lying along mountain ridges and the coastline.",
+    "term": "Satellite image: how to tell cloud from snow and ice"
+   },
+   {
+    "definition": "Depression: a large comma-shaped or spiral band of white cloud with a long trailing cloud band (the front). Hurricane: a huge circular spiral of thick white cloud with a clear, dark eye, over the ocean. Anticyclone: a large cloud-free area.",
+    "term": "Recognition clues: depression, hurricane and anticyclone"
+   },
+   {
+    "definition": "Glacier: a long white or grey-blue river of ice in a valley between dark mountains, with dark stripes of moraine and a cracked (crevassed) texture; it may end in the sea or a lake with icebergs. Ice sheet: a vast, smooth white surface with no land visible.",
+    "term": "Recognition clues: glacier and ice sheet"
+   },
+   {
+    "definition": "Volcano: a circular cone with a summit crater and radial gullies; a grey or white ash plume blown one way, and dark lava flows downslope. Wildfire: grey or brown smoke drifting from red-orange fire fronts; afterwards a dark burn scar among green vegetation.",
+    "term": "Recognition clues: erupting volcano and wildfire"
+   },
+   {
+    "definition": "Flood: brown, muddy water spread over fields and roads outside the river channel; compare with a before image. Hot desert: a yellow, orange or red-brown surface with no vegetation, sand-dune ripples or ridges, and dry river beds.",
+    "term": "Recognition clues: flood and hot desert"
+   },
+   {
+    "definition": "Irrigated farming: bright green centre-pivot circles (Saudi Arabia, the Great Plains) or rectangles against brown desert, or a green strip like the Nile valley. Crop farming: a chequerboard of differently coloured rectangular fields with straight grid roads.",
+    "term": "Recognition clues: irrigated farming and temperate crop farming"
+   },
+   {
+    "definition": "Forest: uniform dark green. Deforestation: light-brown clearings in a fishbone pattern along new roads, as in Rondônia, Brazil. Urban area: grey or purple-grey, fine texture, street grid, converging roads. Airport: long straight runways, often crossing.",
+    "term": "Recognition clues: forest, deforestation, urban area and airport"
+   },
+   {
+    "definition": "Spits, tombolos and sandbars: narrow pale strips of sand from the coast. Deltas: fan-shaped land with branching channels and sediment plumes. Canyons: deep, branching, steep-sided valleys in bare rock. Salt pans: dazzling white geometric patches in deserts.",
+    "term": "Recognition clues: coastal features, canyons and salt pans"
+   },
+   {
+    "definition": "Tracking depressions, fronts and hurricanes to issue storm warnings and evacuate coasts (ex-hurricane Ophelia was tracked as it neared Ireland); tracking volcanic ash plumes; mapping earthquake and flood damage to direct relief; monitoring wildfires.",
+    "term": "Uses of satellite images: weather forecasting and hazards"
+   },
+   {
+    "definition": "Mapping remote areas and updating maps with new roads and housing; monitoring crop health, yields and irrigation, and checking farm area claims; detecting oil spills, smog and algal blooms; measuring urban sprawl over time.",
+    "term": "Uses of satellite images: mapping, farming, pollution and cities"
+   },
+   {
+    "definition": "Deforestation, desertification, shrinking lakes, glacier and ice-sheet retreat, sea ice and sea temperature. Images from different decades show the Aral Sea shrinking since the 1960s, as its rivers, the Amu Darya and Syr Darya, were diverted for irrigation.",
+    "term": "Satellites and environmental change: what they track, with an example"
+   },
+   {
+    "definition": "One image covers a very large area; repeat coverage shows change over time, with archives going back decades; remote and dangerous areas are reached without a visit; infrared and radar are recorded; images are produced fast in emergencies.",
+    "term": "Satellite imagery: five advantages"
+   },
+   {
+    "definition": "Cloud blocks visible and infrared images; many images have limited resolution; interpretation needs skill and software; images carry no names or labels, and relief is hard to judge unless shadows show it; high-resolution imagery can be costly.",
+    "term": "Satellite imagery: its main limitations"
    }
   ],
   "notes": [
@@ -30189,6 +38389,102 @@
    {
     "definition": "Laser scanning from an aircraft that reveals earthworks under trees.",
     "term": "LiDAR"
+   },
+   {
+    "definition": "Overlay combines layers to show where things coincide; buffering draws a zone of set distance around a feature; querying selects features meeting a condition; change detection compares a layer at different dates; network analysis finds the shortest route.",
+    "term": "GIS analysis: five operations and what each does"
+   },
+   {
+    "definition": "Define the problem and area; collect the data layers; tie them by coordinates to one base map; overlay and analyse; map and present the results; draw conclusions and recommend planning action.",
+    "term": "Steps in a GIS study: the six stages"
+   },
+   {
+    "definition": "Advantages: handles very large data sets from many sources; fast analysis and easy updating; models 'what if' scenarios. Limitations: costly software and data needing training; results only as good as the data; layers at different scales may not match.",
+    "term": "GIS: three advantages and three limitations"
+   },
+   {
+    "definition": "Tailte Éireann, set up in 2023 from Ordnance Survey Ireland, the Property Registration Authority and the Valuation Office, supplies maps and aerial photography. The CSO supplies census data, published for Small Areas of generally 50–200 dwellings.",
+    "term": "Irish GIS data sources: who supplies maps and census data"
+   },
+   {
+    "definition": "Aerial photographs of different dates show farmland replaced by estates, roads and business parks. Census data by small area show where population grew and how people commute. Old and new maps show the built-up area spreading and land zoned for housing.",
+    "term": "Urban sprawl study: what each data source shows"
+   },
+   {
+    "definition": "Overlay the built-up area at each date to measure how much land was urbanised; overlay census population growth on it; buffer motorways and rail stations to test whether growth followed transport; link commuting data to show dependence on the car.",
+    "term": "Urban sprawl study: the GIS analysis"
+   },
+   {
+    "definition": "The city and suburbs spread into the surrounding counties of the Greater Dublin Area (Dublin, Meath, Kildare, Wicklow); commuter towns such as Navan, Drogheda, Naas, Newbridge and Portlaoise grew rapidly, and many residents commute long distances.",
+    "term": "Dublin sprawl: findings and named commuter towns"
+   },
+   {
+    "definition": "Loss of farmland and green space; car dependence, long commutes and congestion; services lagging behind new housing; the high cost of extending water, sewerage and public transport to low-density areas; weakened community life in dormitory settlements.",
+    "term": "Problems of urban sprawl shown by a GIS study"
+   },
+   {
+    "definition": "Compact growth and higher density near public transport, promoted by the National Planning Framework (2018, part of Project Ireland 2040); planned communities with services built alongside housing, such as the Adamstown SDZ, Co. Dublin; greenbelts.",
+    "term": "Planning responses to urban sprawl, with examples"
+   },
+   {
+    "definition": "Satellite images from different years show changes in crops, grassland and field size; CORINE land cover maps Ireland for 1990, 2000, 2006, 2012 and 2018; the CSO Census of Agriculture (about 135,000 farms in 2020) gives farm and crop figures by county.",
+    "term": "Agricultural land-use study: data sources and what they show"
+   },
+   {
+    "definition": "Overlay satellite-derived land use from two dates to map where tillage, grassland, forestry and built land changed; join county statistics; relate change to soil, relief and rainfall layers, e.g. tillage on the drier, flatter land of the east and south-east.",
+    "term": "Agricultural land-use study: the GIS analysis"
+   },
+   {
+    "definition": "Most farmland is grassland for cattle and sheep, with tillage mainly in the east and south-east; dairy farming expanded after EU milk quotas ended in 2015; some marginal western land was planted with forestry; city-edge farmland was lost to urban growth.",
+    "term": "Changing Irish farmland: four findings"
+   },
+   {
+    "definition": "Photos of different dates show new plantations as dark, uniform, straight-edged blocks with firebreaks and clear-felled areas as bare brown patches. OS maps of different editions show forest by symbol; soil and peat maps show planting on marginal land.",
+    "term": "Forestry study: what aerial photographs and maps show"
+   },
+   {
+    "definition": "Overlay forest cover at successive dates to map expansion; overlay soils, slope and altitude to explain where planting happened; buffer protected sites, rivers and archaeological sites to find conflicts; query which counties had the largest increase.",
+    "term": "Forestry study: the GIS analysis"
+   },
+   {
+    "definition": "Forest cover was about 1% of Ireland at the start of the 20th century and is about 11% today (National Forest Inventory, 2022). Sitka spruce makes up about half of all forest area. Coillte, the state forestry company set up in 1988, manages most public forest.",
+    "term": "Irish forestry: key figures and the state company"
+   },
+   {
+    "definition": "Dense conifer blocks change the landscape and reduce biodiversity; acidification and sediment in streams harm fish and the freshwater pearl mussel; open upland habitat for the hen harrier is lost; planting on peat releases carbon; clear-felling causes erosion.",
+    "term": "Forestry development: environmental problems"
+   },
+   {
+    "definition": "Benefits: timber and jobs, farm income, carbon storage, recreation. Issues: local opposition in Co. Leitrim; ash dieback, first found in Ireland in 2012. Management: broadleaf planting, river buffer zones, environmental assessment, continuous-cover forestry.",
+    "term": "Forestry development: benefits, local issues and management"
+   },
+   {
+    "definition": "Set up under section 12 of the National Monuments (Amendment) Act 1994: a written county list with OS maps on which each site is circled. Its database, the Sites and Monuments Record, is in the National Monuments Service's online Historic Environment Viewer.",
+    "term": "Record of Monuments and Places: the Act, the format and the database"
+   },
+   {
+    "definition": "First edition OS six-inch maps of the 1830s–1840s record sites such as ringforts, drawn as circles; comparing them with modern maps and the RMP shows which have disappeared. Ringforts, about 45,000 in Ireland, are the most common field monument.",
+    "term": "Archaeological sites: how old maps reveal destruction"
+   },
+   {
+    "definition": "Cropmarks (crops taller and greener over buried ditches, stunted over walls); parchmarks in dry summers; soil marks in ploughed fields; shadow marks in low sun. In the July 2018 drought a henge at Brú na Bóinne, Co. Meath, was spotted from the air by drone.",
+    "term": "Aerial photographs: marks that reveal buried archaeological sites"
+   },
+   {
+    "definition": "Overlay the RMP point layer on old and new maps and aerial photographs to record which sites survive, are damaged or destroyed; overlay development layers (roads, housing, quarries, forestry), buffer each monument to predict threats; map destruction by area.",
+    "term": "Archaeology study: the GIS analysis"
+   },
+   {
+    "definition": "Agricultural improvement (reclamation, drainage, ploughing, removing field boundaries); road building and infrastructure; urban and housing development; quarrying; afforestation (ploughing, drains, tree roots); coastal erosion of promontory forts and middens.",
+    "term": "Causes of destruction of archaeological sites"
+   },
+   {
+    "definition": "Wood Quay, Dublin: a Viking-age site largely removed for civic offices after protests in the late 1970s. M3 through the Tara–Skryne valley, Co. Meath: opened 2010; Lismullin henge found in 2007. Carrickmines Castle, M50 route: a dispute in the early 2000s.",
+    "term": "Archaeological destruction: three Irish case studies"
+   },
+   {
+    "definition": "The RMP and its notification system; archaeological assessment and excavation before development (preservation by record or in situ); planning conditions; rerouting roads; public awareness; farm schemes that protect monuments.",
+    "term": "Archaeological sites: protection measures a GIS study supports"
    }
   ],
   "notes": [

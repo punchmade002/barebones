@@ -146,6 +146,19 @@
       "definition": "A drowned river valley formed by a rise in base level, with the lower course flooded by the sea."
     }
   ],
+  "factCards": [
+    { "term": "Base level: ultimate vs temporary, with three temporary examples", "definition": "Sea level is the ultimate base level. A lake, a band of resistant rock, or the main river (for its tributary) acts as a temporary, local base level." },
+    { "term": "Rejuvenation: four causes", "definition": "A eustatic fall in sea level, as water is locked in ice sheets in a glacial period; isostatic uplift, as land pressed down by ice rises after it melts; tectonic uplift by earth movements; less commonly, more discharge from a wetter climate or river capture." },
+    { "term": "Rejuvenation: how it spreads along a river", "definition": "It begins at the mouth and works upstream by headward erosion. For a long time the river has two graded sections, a new, steeper lower one and the old, gentler upper one, reflecting two base levels: a landscape temporarily out of balance." },
+    { "term": "Knickpoint: how it forms and changes over time", "definition": "Rejuvenation cuts down from the mouth, making a new graded section below the old one; where they meet, a break of slope forms, often with a waterfall or rapids; it retreats upstream over time and disappears once the whole river grades to the new base level." },
+    { "term": "Incised meanders: how they form, with two examples", "definition": "Renewed vertical erosion after base level falls cuts existing meanders down into the land, leaving them in steep-sided valleys with no floodplain. Examples: the River Wye, Wales–England border; the Goosenecks of the San Juan River, Utah, USA (entrenched)." },
+    { "term": "River terraces: how they form, with an example", "definition": "First, base level falls and the river cuts down into its own floodplain; then it forms a new floodplain at the lower level; remnants of the old floodplain are left as flat steps above it. Example: the River Thames in and around London, England." },
+    { "term": "Gorge from uplift: name an example and how it formed", "definition": "The Grand Canyon, Arizona, USA, cut by deep incision of the Colorado River as the Colorado Plateau was uplifted." },
+    { "term": "Rejuvenation diagram: how to count the number of rejuvenations", "definition": "On a long profile, count the knickpoints: one per rejuvenation. On a valley cross-section, count the terrace levels above the present floodplain: one per rejuvenation." },
+    { "term": "Name five rejuvenation features to give when asked for features not shown", "definition": "Knickpoint; a waterfall or rapids at the knickpoint; incised meanders; river terraces (e.g. paired terraces); gorge." },
+    { "term": "Rise in base level: effects on a river and its mouth", "definition": "Sea level rising, or land sinking, reduces the river's energy; the lower course is drowned, deposition increases and the mouth becomes a ria or an estuary. Coastal landforms from changes in base level: raised beaches (a fall) and rias (a rise)." },
+    { "term": "Rivers of north-west Ireland: why they were rejuvenated", "definition": "The land rose isostatically after the Midlandian ice melted about 10,000 years ago. The north, under thicker ice, rose more, as shown by raised beaches at Malin Head, Co. Donegal." }
+  ],
   "questions": [
     {
       "marks": 30,

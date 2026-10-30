@@ -85,6 +85,16 @@ test("every written-recall prompt belongs to a real flashcard", () => {
   });
 });
 
+test("biology has a written-recall prompt for every flashcard", () => {
+  const missing = chaptersFor("biology").flatMap((chapter) =>
+    chapter.learningOutcomes.flatMap((lo) => lo.keyTerms)
+      .filter((kt) => !context.FLASHCARD_TEST_PROMPTS[chapter.id]?.[kt.term])
+      .map((kt) => `${chapter.id}: ${kt.term}`)
+  );
+  // Arrays from the vm context have their own prototype, so compare a copy.
+  assert.deepEqual([...missing], []);
+});
+
 for (const subject of SUBJECTS) {
   test(`${subject}: a whole-subject test fills the time asked for`, () => {
     const pool = poolFor(subject);
@@ -133,7 +143,7 @@ test("flashcard questions quote the card's own content", () => {
   const pool = poolFor("biology");
   const built = TB.assembleTest(pool, { minutes: 45, mix: "flashcards", random: seeded(9) });
   const byKind = (kind) => built.items.filter((i) => i.kind === kind);
-  ["pick-term", "pick-definition", "cloze"].forEach((kind) => {
+  ["pick-term", "pick-definition", "cloze", "recall"].forEach((kind) => {
     assert.ok(byKind(kind).length > 0, `a long biology test should include ${kind}`);
   });
   byKind("pick-term").forEach((item) => {

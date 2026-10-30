@@ -138,6 +138,19 @@
       "definition": "Rivers that keep courses cut across older rocks as they cut down into the folded rocks below."
     }
   ],
+  "factCards": [
+    { "term": "Davis's cycle of erosion: who, when and its key assumption", "definition": "William Morris Davis, an American geographer, published the geographical cycle in 1899. It assumes rapid uplift followed by a long period of stability while rivers and weathering wear the land down; landscape depends on structure, process and stage (time)." },
+    { "term": "Davis's youth stage: what the landscape looks like", "definition": "An uplifted plateau with high relief; steep gradients and vertical erosion; deep V-shaped valleys with waterfalls and rapids; wide, flat interfluves not yet eroded; few tributaries." },
+    { "term": "Davis's maturity stage: what the landscape looks like", "definition": "Maximum relief; valleys widen by lateral erosion; meanders and floodplains develop; the drainage network is fully developed; interfluves are reduced to ridges." },
+    { "term": "Davis's old age stage: what the landscape looks like", "definition": "Low relief; very wide floodplains, large meanders, oxbow lakes and levees; rivers flow sluggishly close to base level; divides are lowered to gentle rises. The end product is a peneplain, with monadnocks of resistant rock rising above it." },
+    { "term": "Cycle of erosion: what interrupts it and what results", "definition": "Uplift, isostatic rebound or a fall in sea level rejuvenates the rivers and starts a new cycle before the old one is finished. A landscape with remnants of more than one cycle is polycyclic." },
+    { "term": "Davis's model: four criticisms and one strength", "definition": "Walther Penck: uplift and denudation act together, not in turn; the cycle is too slow to observe; it ignores climate change, glaciation and the isostatic response to erosion; few true peneplains exist at sea level. Strength: a simple framework by stage." },
+    { "term": "Munster: how folding created its rock structure", "definition": "Folding about 300 million years ago (Variscan, also called Armorican) formed east–west ridges of resistant Old Red Sandstone (anticlines) and valleys of softer Carboniferous limestone (synclines)." },
+    { "term": "Munster planation surface: how it formed and the evidence for it", "definition": "Over a very long period of denudation the region was worn down towards a near-level surface cutting across the folds. Evidence: flat or gently sloping upland surfaces and summit levels at similar heights that cut across folded rocks of different types." },
+    { "term": "Munster: how later uplift re-exposed the ridges and valleys", "definition": "Uplift raised the planation surface and rejuvenated the rivers, which cut down again; renewed erosion removed the softer limestone faster than the sandstone, so the ridge-and-valley relief was re-exposed by differential erosion." },
+    { "term": "Munster Blackwater: its course and the usual explanation for its turn", "definition": "It flows east through Mallow, Fermoy and Lismore, then turns sharply south at Cappoquin, Co. Waterford, to the sea at Youghal. The usual explanation is superimposed drainage: it first flowed south across an older surface and kept that course as it cut down." },
+    { "term": "Munster: why its landscape is temporarily out of balance", "definition": "Uplift has outpaced denudation, so an old, uplifted erosion surface survives at height while the rivers are still adjusting by cutting down." }
+  ],
   "questions": [
     {
       "marks": 30,

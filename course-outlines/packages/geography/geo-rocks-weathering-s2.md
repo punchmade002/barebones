@@ -60,7 +60,7 @@ numbers, reserves or prices: none are checked.
 
 | Item | Example(s) |
 |---|---|
-| M4 | Tara Mines, Navan, Co. Meath: an underground zinc and lead mine, Europe's largest zinc mine, in production since 1977, owned by the Swedish company Boliden. The ore lies in Carboniferous limestone. |
+| M4 | Tara Mines, Navan, Co. Meath: an underground zinc and lead mine, Europe's largest zinc mine, opened in 1977 (production paused July 2023, restarted at the end of 2024), owned by the Swedish company Boliden. The ore lies in Carboniferous limestone. |
 | M6 | Avoca, Co. Wicklow: centuries of copper mining (now closed) left acid mine drainage that discolours and pollutes the Avoca River. |
 | M7 | Lisheen, Co. Tipperary: zinc and lead mine that closed in 2015; the site was rehabilitated. |
 | M5 open pit | Bingham Canyon copper mine, Utah, USA, one of the largest open-pit mines in the world; the Super Pit gold mine, Kalgoorlie, Western Australia. |

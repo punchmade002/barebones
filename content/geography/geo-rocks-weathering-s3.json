@@ -160,6 +160,19 @@
       "definition": "A slope of angular rock fragments at the foot of a cliff, produced by freeze-thaw action."
     }
   ],
+  "factCards": [
+    { "term": "Weathering: name five physical and five chemical processes", "definition": "Physical: freeze-thaw, exfoliation, granular disintegration, pressure release, salt crystallisation. Chemical: carbonation, hydrolysis, oxidation, hydration, solution. Biological weathering works both ways." },
+    { "term": "Freeze-thaw action: the conditions it needs and where it is active", "definition": "Temperatures that move above and below 0 °C often, water, and jointed rock. It is most effective on mountains in upland Ireland, such as the summit of Carrauntoohil, Co. Kerry, on high mountains and in periglacial areas." },
+    { "term": "Freeze-thaw action: the process step by step, and its result", "definition": "First, water enters cracks and joints; at night it freezes and expands by about 9%, widening the crack; by day the ice thaws and water seeps deeper; repeated cycles split off angular fragments, which build scree slopes at the foot of mountain cliffs." },
+    { "term": "Exfoliation (onion weathering): how it works, step by step", "definition": "In hot deserts such as the Sahara, with a large daily range, the outer rock heats and expands by day and cools and contracts at night more than the interior, as rock conducts heat poorly; stress builds and curved sheets peel off, leaving rounded boulders." },
+    { "term": "Pressure release: how it forms domes, with an example", "definition": "When overlying rock is eroded, buried rock such as granite expands upward and cracks into sheets parallel to the surface; the sheets peel off to leave domes, such as Half Dome, Yosemite, California, USA." },
+    { "term": "Biological weathering: two physical and two chemical ways", "definition": "Physical: plant roots grow into cracks and widen them; burrowing animals expose fresh rock. Chemical: decaying plants produce humic acids; lichens and mosses release acids that attack rock surfaces." },
+    { "term": "Carbonation: the process step by step, and where it operates", "definition": "Rainwater absorbs carbon dioxide from the air and soil, forming weak carbonic acid, which reacts with calcium carbonate in limestone to form soluble calcium bicarbonate, carried away in solution along joints and bedding planes, e.g. on the Burren, Co. Clare." },
+    { "term": "Hydrolysis of granite: what it produces, with an example", "definition": "Water reacts with the feldspar in granite and turns it into clay (kaolin, or china clay); the quartz grains are left as sand, and the granite crumbles. China clay is quarried around St Austell, Cornwall, and on the edge of Dartmoor." },
+    { "term": "Weathering: five factors that influence it", "definition": "Climate (temperature and rainfall); rock type, e.g. limestone is vulnerable to carbonation, granite to hydrolysis, while quartzite resists both; rock structure, as joints, bedding planes and faults let water in; vegetation and soil; time, relief and aspect." },
+    { "term": "Climate: which type of weathering each climate favours", "definition": "Warm, wet: fast chemical weathering, as reaction rates roughly double for every 10 °C rise (Van 't Hoff's rule). Cold, around freezing: freeze-thaw. Hot deserts: exfoliation and salt crystallisation. Ireland's mild, wet climate favours chemical weathering." },
+    { "term": "Role of temperature in physical weathering: the three processes and why", "definition": "Freeze-thaw needs temperatures crossing the freezing point; exfoliation and granular disintegration need a large daily range, as rock and its minerals expand and contract unevenly. In each, temperature change, not just warmth, causes the stress." }
+  ],
   "questions": [
     {
       "marks": 30,
