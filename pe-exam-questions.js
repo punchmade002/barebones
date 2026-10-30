@@ -9,7 +9,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectiona-learningskilltechnique-Q1",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-technology-media-sport",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2024 — Q1",
     "year": 2024,
@@ -28,7 +28,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectiona-businessenterprisesport-Q2",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2024 — Q2",
     "year": 2024,
@@ -75,7 +75,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectiona-learningskilltechnique-Q5",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2024 — Q5",
     "year": 2024,
@@ -361,7 +361,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectionc-learningskilltechnique-Q15",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-technology-media-sport",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q15",
     "year": 2024,
@@ -416,7 +416,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectionc-performancedemands-Q16",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q16",
     "year": 2024,
@@ -562,7 +562,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-OR-sectionc-performancedemands-Q18",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2024 — Q18",
     "year": 2024,
@@ -635,7 +635,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionb-structuresstrategiesrolesconventions-Q13",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2023 — Q13",
     "year": 2023,
@@ -690,7 +690,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q1",
     "year": 2023,
@@ -737,7 +737,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-physicalactivityinclusion-Q3",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q3",
     "year": 2023,
@@ -765,7 +765,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q4",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q4",
     "year": 2023,
@@ -793,7 +793,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q5",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q5",
     "year": 2023,
@@ -812,7 +812,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q6",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q6",
     "year": 2023,
@@ -831,7 +831,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-structuresstrategiesrolesconventions-Q7",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q7",
     "year": 2023,
@@ -887,7 +887,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-athletics-Q9",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q9",
     "year": 2023,
@@ -925,7 +925,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-promotingphysicalactivity-Q11",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q11",
     "year": 2023,
@@ -944,7 +944,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectiona-promotingphysicalactivity-Q12",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2023 — Q12",
     "year": 2023,
@@ -972,7 +972,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-learningskilltechnique-Q14",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q14",
     "year": 2023,
@@ -1036,7 +1036,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q15",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q15",
     "year": 2023,
@@ -1118,7 +1118,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q16",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q16",
     "year": 2023,
@@ -1164,7 +1164,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-businessenterprisesport-Q17",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q17",
     "year": 2023,
@@ -1228,7 +1228,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-HI-sectionc-ethicsfairplay-Q18",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2023 — Q18",
     "year": 2023,
@@ -1301,7 +1301,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionb-structuresstrategiesrolesconventions-Q13",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Ordinary 2023 — Q13",
     "year": 2023,
@@ -1477,7 +1477,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2023 — Q8",
     "year": 2023,
@@ -1515,7 +1515,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectiona-businessenterprisesport-Q11",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2023 — Q11",
     "year": 2023,
@@ -1598,7 +1598,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionc-promotingphysicalactivity-Q15",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2023 — Q15",
     "year": 2023,
@@ -1781,7 +1781,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2023-OR-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2023 — Q18",
     "year": 2023,
@@ -1854,7 +1854,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q1",
     "year": 2025,
@@ -1873,7 +1873,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-learningskilltechnique-Q2",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q2",
     "year": 2025,
@@ -1920,7 +1920,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-ethicsfairplay-Q4",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q4",
     "year": 2025,
@@ -2004,7 +2004,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-learningskilltechnique-Q8",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q8",
     "year": 2025,
@@ -2069,7 +2069,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectiona-structuresstrategiesrolesconventions-Q10",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2025 — Q10",
     "year": 2025,
@@ -2144,7 +2144,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionb-ethicsfairplay-Q13",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2025 — Q13",
     "year": 2025,
@@ -2244,7 +2244,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionc-ethicsfairplay-Q14",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-physical-activity-inclusion",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q14",
     "year": 2025,
@@ -2308,7 +2308,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionc-learningskilltechnique-Q15",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q15",
     "year": 2025,
@@ -2427,7 +2427,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-HI-sectionc-physicalactivityinclusion-Q17",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2025 — Q17",
     "year": 2025,
@@ -2621,7 +2621,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-learningskilltechnique-Q4",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q4",
     "year": 2022,
@@ -2659,7 +2659,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-structuresstrategiesrolesconventions-Q6",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q6",
     "year": 2022,
@@ -2678,7 +2678,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-artisticaestheticmovement-Q7",
     "subject": "pe",
-    "chapterId": "pe-artistic-aesthetic-movement",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q7",
     "year": 2022,
@@ -2706,7 +2706,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-athletics-Q8",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q8",
     "year": 2022,
@@ -2818,7 +2818,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectiona-businessenterprisesport-Q12",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2022 — Q12",
     "year": 2022,
@@ -2855,7 +2855,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2022 — Q13",
     "year": 2022,
@@ -2928,7 +2928,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-physicalactivityinclusion-Q14",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q14",
     "year": 2022,
@@ -3129,7 +3129,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-promotingphysicalactivity-Q17",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q17",
     "year": 2022,
@@ -3202,7 +3202,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-HI-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2022 — Q18",
     "year": 2022,
@@ -3284,7 +3284,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-structuresstrategiesrolesconventions-Q1",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q1",
     "year": 2025,
@@ -3303,7 +3303,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-technologymediasport-Q3",
     "subject": "pe",
-    "chapterId": "pe-technology-media-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q3",
     "year": 2025,
@@ -3341,7 +3341,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-ethicsfairplay-Q7",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-physical-activity-inclusion",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q7",
     "year": 2025,
@@ -3369,7 +3369,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-learningskilltechnique-Q9",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-ethics-fair-play",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q9",
     "year": 2025,
@@ -3397,7 +3397,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-learningskilltechnique-Q11",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q11",
     "year": 2025,
@@ -3416,7 +3416,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectiona-physicalactivityinclusion-Q12",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-technology-media-sport",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2025 — Q12",
     "year": 2025,
@@ -3526,7 +3526,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-structuresstrategiesrolesconventions-Q14",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q14",
     "year": 2025,
@@ -3654,7 +3654,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-physicalactivityinclusion-Q16",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q16",
     "year": 2025,
@@ -3727,7 +3727,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-physicalactivityinclusion-Q17",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q17",
     "year": 2025,
@@ -3809,7 +3809,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2025-OR-sectionc-ethicsfairplay-Q18",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2025 — Q18",
     "year": 2025,
@@ -3864,7 +3864,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-learningskilltechnique-Q1",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q1",
     "year": 2026,
@@ -4014,7 +4014,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-promotingphysicalactivity-Q7",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q7",
     "year": 2026,
@@ -4033,7 +4033,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q8",
     "year": 2026,
@@ -4127,7 +4127,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectiona-ethicsfairplay-Q12",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2026 — Q12",
     "year": 2026,
@@ -4256,7 +4256,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectionc-promotingphysicalactivity-Q15",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2026 — Q15",
     "year": 2026,
@@ -4412,7 +4412,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-HI-sectionc-physicalactivityinclusion-Q18",
     "subject": "pe",
-    "chapterId": "pe-physical-activity-inclusion",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2026 — Q18",
     "year": 2026,
@@ -4458,7 +4458,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q1",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q1",
     "year": 2026,
@@ -4524,7 +4524,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q6",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q6",
     "year": 2026,
@@ -4562,7 +4562,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-learningskilltechnique-Q10",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q10",
     "year": 2026,
@@ -4590,7 +4590,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectiona-ethicsfairplay-Q12",
     "subject": "pe",
-    "chapterId": "pe-ethics-fair-play",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2026 — Q12",
     "year": 2026,
@@ -4874,7 +4874,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectionc-athletics-Q17",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2026 — Q17",
     "year": 2026,
@@ -4929,7 +4929,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2026-OR-sectionc-promotingphysicalactivity-Q18",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-gender-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2026 — Q18",
     "year": 2026,
@@ -4984,7 +4984,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-promotingphysicalactivity-Q1",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q1",
     "year": 2022,
@@ -5069,7 +5069,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-structuresstrategiesrolesconventions-Q5",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q5",
     "year": 2022,
@@ -5199,7 +5199,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-learningskilltechnique-Q9",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q9",
     "year": 2022,
@@ -5255,7 +5255,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectiona-structuresstrategiesrolesconventions-Q11",
     "subject": "pe",
-    "chapterId": "pe-structures-strategies-roles-conventions",
+    "chapterId": "pe-learning-skill-technique",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Ordinary 2022 — Q11",
     "year": 2022,
@@ -5320,7 +5320,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Ordinary 2022 — Q13",
     "year": 2022,
@@ -5593,7 +5593,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectionc-businessenterprisesport-Q16",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2022 — Q16",
     "year": 2022,
@@ -5730,7 +5730,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2022-OR-sectionc-promotingphysicalactivity-Q18",
     "subject": "pe",
-    "chapterId": "pe-promoting-physical-activity",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Ordinary 2022 — Q18",
     "year": 2022,
@@ -5821,7 +5821,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-artisticaestheticmovement-Q1",
     "subject": "pe",
-    "chapterId": "pe-artistic-aesthetic-movement",
+    "chapterId": "pe-planning-optimum-performance",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q1",
     "year": 2024,
@@ -5877,7 +5877,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-athletics-Q3",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q3",
     "year": 2024,
@@ -5980,7 +5980,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-performancedemands-Q8",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q8",
     "year": 2024,
@@ -6045,7 +6045,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-athletics-Q10",
     "subject": "pe",
-    "chapterId": "pe-athletics",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q10",
     "year": 2024,
@@ -6064,7 +6064,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-performancedemands-Q11",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-structures-strategies-roles-conventions",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q11",
     "year": 2024,
@@ -6101,7 +6101,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectiona-learningskilltechnique-Q12",
     "subject": "pe",
-    "chapterId": "pe-learning-skill-technique",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-a",
     "source": "LC Physical Education Higher 2024 — Q12",
     "year": 2024,
@@ -6129,7 +6129,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionb-businessenterprisesport-Q13",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-b",
     "source": "LC Physical Education Higher 2024 — Q13",
     "year": 2024,
@@ -6257,7 +6257,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-performancedemands-Q15",
     "subject": "pe",
-    "chapterId": "pe-performance-demands",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q15",
     "year": 2024,
@@ -6376,7 +6376,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-businessenterprisesport-Q17",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-promoting-physical-activity",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q17",
     "year": 2024,
@@ -6431,7 +6431,7 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
   {
     "id": "pe-pp-2024-HI-sectionc-businessenterprisesport-Q18",
     "subject": "pe",
-    "chapterId": "pe-business-enterprise-sport",
+    "chapterId": "pe-performance-demands",
     "sectionId": "pe-section-c",
     "source": "LC Physical Education Higher 2024 — Q18",
     "year": 2024,
