@@ -1,0 +1,108 @@
+{
+  "loId": "chem16-s2",
+  "chapterId": "chem16",
+  "subsection": "2. Worked redox volumetric problems",
+  "syllabusRef": "4.1.7",
+  "notes": [
+    {
+      "h": "Problem 1: standardising potassium manganate(VII)",
+      "b": "Each problem follows the method in “Solving redox volumetric problems”. All data are sample data.",
+      "points": [
+        "Data: 9.80 g of ammonium iron(II) sulfate, (NH₄)₂SO₄·FeSO₄·6H₂O (M = 392), was dissolved in dilute sulfuric acid and made up to 250 cm³.",
+        "Data: 25.0 cm³ portions needed a mean titre of 24.0 cm³ of KMnO₄.",
+        "Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, a 1 : 5 ratio.",
+        "Moles of salt = 9.80 g ÷ 392 g mol⁻¹ = 0.0250 mol, in 250 cm³.",
+        "Concentration of Fe²⁺ = 0.0250 mol ÷ 0.250 L = 0.100 mol L⁻¹.",
+        "Moles Fe²⁺ in 25.0 cm³ = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol.",
+        "Moles MnO₄⁻ = 2.50 × 10⁻³ mol ÷ 5 = 5.00 × 10⁻⁴ mol.",
+        "Concentration of KMnO₄ = 5.00 × 10⁻⁴ mol ÷ 0.0240 L = 0.0208 mol L⁻¹.",
+        "In g L⁻¹: 0.0208 mol L⁻¹ × 158 g mol⁻¹ = 3.29 g L⁻¹."
+      ]
+    },
+    {
+      "h": "Problem 2: iron(II) sulfate in tablets compared with the label",
+      "points": [
+        "Data: five tablets, each labelled “200 mg iron(II) sulfate”, were dissolved in dilute sulfuric acid and made up to 250 cm³.",
+        "Data: 25.0 cm³ portions needed a mean titre of 12.9 cm³ of 0.0100 M KMnO₄.",
+        "Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0129 L = 1.29 × 10⁻⁴ mol.",
+        "Moles Fe²⁺ in 25.0 cm³ = 5 × 1.29 × 10⁻⁴ mol = 6.45 × 10⁻⁴ mol, using MnO₄⁻ : Fe²⁺ = 1 : 5.",
+        "Moles Fe²⁺ in 250 cm³ = 6.45 × 10⁻⁴ mol × 10 = 6.45 × 10⁻³ mol.",
+        "Moles Fe²⁺ per tablet = 6.45 × 10⁻³ mol ÷ 5 = 1.29 × 10⁻³ mol.",
+        "Mass of FeSO₄ per tablet = 1.29 × 10⁻³ mol × 152 g mol⁻¹ = 0.196 g = 196 mg.",
+        "As a percentage of the label value: 196 mg ÷ 200 mg × 100 = 98.0%.",
+        "Mass of elemental iron per tablet = 1.29 × 10⁻³ mol × 56 g mol⁻¹ = 0.0722 g = 72.2 mg."
+      ]
+    },
+    {
+      "h": "Problem 3: standardising sodium thiosulfate through iodine",
+      "points": [
+        "Data: 25.0 cm³ of 0.0200 M KMnO₄ was acidified and excess KI added; the iodine liberated needed a mean titre of 25.0 cm³ of sodium thiosulfate solution, using starch near the end point.",
+        "Equation: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
+        "Equation: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
+        "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.",
+        "Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol.",
+        "Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, the same as 5 × the moles of MnO₄⁻.",
+        "Concentration of S₂O₃²⁻ = 2.50 × 10⁻³ mol ÷ 0.0250 L = 0.100 mol L⁻¹.",
+        "In g L⁻¹ of Na₂S₂O₃·5H₂O: 0.100 mol L⁻¹ × 248 g mol⁻¹ = 24.8 g L⁻¹."
+      ]
+    },
+    {
+      "h": "Problem 4: hypochlorite in household bleach (Higher Level only)",
+      "points": [
+        "Data: 25.0 cm³ of bleach was diluted to 250 cm³.",
+        "Data: 25.0 cm³ of the diluted bleach was added to excess KI and dilute sulfuric acid; the iodine liberated needed a mean titre of 18.4 cm³ of 0.100 M sodium thiosulfate.",
+        "Equation: ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, so ClO⁻ : I₂ = 1 : 1.",
+        "Moles S₂O₃²⁻ = 0.100 mol L⁻¹ × 0.0184 L = 1.84 × 10⁻³ mol.",
+        "Moles I₂ = 1.84 × 10⁻³ mol ÷ 2 = 9.20 × 10⁻⁴ mol, using I₂ : S₂O₃²⁻ = 1 : 2; this equals the moles of ClO⁻ in 25.0 cm³ of diluted bleach.",
+        "Diluted concentration = 9.20 × 10⁻⁴ mol ÷ 0.0250 L = 0.0368 mol L⁻¹.",
+        "Original bleach = 0.0368 mol L⁻¹ × 10 = 0.368 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.",
+        "As sodium hypochlorite (NaOCl, M = 74.5): 0.368 mol L⁻¹ × 74.5 g mol⁻¹ = 27.4 g L⁻¹.",
+        "As %w/v: 27.4 g L⁻¹ ÷ 10 = 2.74% w/v."
+      ]
+    },
+    {
+      "h": "Problem 5: hydrogen peroxide solution (Higher Level only)",
+      "points": [
+        "Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³.",
+        "Data: 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.",
+        "Equation: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, so MnO₄⁻ : H₂O₂ = 2 : 5.",
+        "Here H₂O₂ is the reducing agent, with oxygen changing from −1 to 0.",
+        "The permanganate is still the oxidising agent.",
+        "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0200 L = 4.00 × 10⁻⁴ mol.",
+        "Moles H₂O₂ = 4.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.00 × 10⁻³ mol in 25.0 cm³.",
+        "Diluted concentration = 1.00 × 10⁻³ mol ÷ 0.0250 L = 0.0400 mol L⁻¹.",
+        "Dilution factor = 250 ÷ 10.0 = 25, so the original concentration = 0.0400 mol L⁻¹ × 25 = 1.00 mol L⁻¹.",
+        "In g L⁻¹ (H₂O₂ = 34 g mol⁻¹): 1.00 mol L⁻¹ × 34 g mol⁻¹ = 34.0 g L⁻¹.",
+        "As %w/v: 34.0 g L⁻¹ ÷ 10 = 3.40% w/v."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Standardise", "definition": "To find the exact concentration of a solution by titrating it against a solution of known concentration." },
+    { "term": "Ammonium iron(II) sulfate", "definition": "The double salt (NH₄)₂SO₄·FeSO₄·6H₂O, which supplies a known amount of Fe²⁺ and is used to standardise potassium manganate(VII)." },
+    { "term": "Potassium manganate(VII)", "definition": "The oxidising agent KMnO₄, whose deep purple solution is used to titrate reducing agents such as Fe²⁺." },
+    { "term": "Indirect titration", "definition": "A titration in which the substance analysed first reacts to release a product, such as iodine, and that product is then titrated." },
+    { "term": "Starch indicator", "definition": "An indicator added near the end point of an iodine titration, which gives a blue colour with iodine." },
+    { "term": "Hypochlorite", "definition": "The ClO⁻ ion in bleach, which oxidises iodide to iodine in acid solution." },
+    { "term": "Vitamin C", "definition": "Ascorbic acid, C₆H₈O₆, which is oxidised by iodine to dehydroascorbic acid, C₆H₆O₆." },
+    { "term": "Dilution factor", "definition": "The number of times a solution is diluted, found as the final volume divided by the volume of the original solution taken." },
+    { "term": "Percentage of label value", "definition": "The measured mass of a substance as a percentage of the mass stated on the label." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "3.81 g of iodine was dissolved in potassium iodide solution and made up to 500 cm³. 25.0 cm³ portions needed 15.0 cm³ of sodium thiosulfate solution. Calculate (i) the moles of iodine in each 25.0 cm³ portion, (ii) the concentration of the thiosulfate (I₂ = 254).",
+      "model": "(i) Moles I₂ in 500 cm³ = 3.81 g ÷ 254 g mol⁻¹ = 0.0150 mol. Each 25.0 cm³ portion is one twentieth of the solution, so moles I₂ per portion = 0.0150 mol ÷ 20 = 7.50 × 10⁻⁴ mol. (ii) Equation I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻, so moles S₂O₃²⁻ = 2 × 7.50 × 10⁻⁴ mol = 1.50 × 10⁻³ mol in 15.0 cm³. Concentration of thiosulfate = 1.50 × 10⁻³ mol ÷ 0.0150 L = 0.100 mol L⁻¹."
+    },
+    {
+      "marks": 12,
+      "prompt": "7.84 g of ammonium iron(II) sulfate, (NH₄)₂SO₄·FeSO₄·6H₂O, was dissolved in dilute sulfuric acid and made up to 250 cm³. 25.0 cm³ portions needed 20.4 cm³ of KMnO₄. Calculate (i) the concentration of the ammonium iron(II) sulfate solution, (ii) the moles of Fe²⁺ in 25.0 cm³, (iii) the concentration of the KMnO₄.",
+      "model": "(i) Moles of salt = 7.84 g ÷ 392 g mol⁻¹ = 0.0200 mol, in 250 cm³. Concentration = 0.0200 mol ÷ 0.250 L = 0.0800 mol L⁻¹ of Fe²⁺. (ii) Moles Fe²⁺ in 25.0 cm³ = 0.0800 mol L⁻¹ × 0.0250 L = 2.00 × 10⁻³ mol. (iii) Equation MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, so moles MnO₄⁻ = 2.00 × 10⁻³ mol ÷ 5 = 4.00 × 10⁻⁴ mol. Concentration of KMnO₄ = 4.00 × 10⁻⁴ mol ÷ 0.0204 L = 0.0196 mol L⁻¹."
+    },
+    {
+      "marks": 12,
+      "prompt": "A vitamin C tablet was dissolved and made up to 250 cm³. 25.0 cm³ portions needed 22.8 cm³ of 0.0125 M iodine solution, using starch as indicator: C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻. Calculate the mass of vitamin C in the tablet in mg (C₆H₈O₆ = 176).",
+      "model": "Moles I₂ = 0.0125 mol L⁻¹ × 0.0228 L = 2.85 × 10⁻⁴ mol. The ratio C₆H₈O₆ : I₂ = 1 : 1, so moles vitamin C in 25.0 cm³ = 2.85 × 10⁻⁴ mol. Moles in 250 cm³ = 2.85 × 10⁻⁴ mol × 10 = 2.85 × 10⁻³ mol. Mass = 2.85 × 10⁻³ mol × 176 g mol⁻¹ = 0.502 g = 502 mg."
+    }
+  ]
+}

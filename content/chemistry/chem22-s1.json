@@ -1,0 +1,93 @@
+{
+  "loId": "chem22-s1",
+  "chapterId": "chem22",
+  "subsection": "1. Primary and secondary cells",
+  "syllabusRef": "3.5.4",
+  "notes": [
+    {
+      "h": "Electrochemical cells: the terms",
+      "b": "Electrochemistry is the study of the link between chemical reactions and electricity. Redox reactions can produce electricity, and electricity can drive redox reactions.",
+      "points": [
+        "A galvanic (voltaic) cell, also called a chemical cell, converts chemical energy into electrical energy using a spontaneous redox reaction.",
+        "A battery is strictly two or more cells joined together, e.g. a 12 V car battery made of six 2 V cells, though the word is also used for a single cell.",
+        "An electrode is a solid electrical conductor, a metal or graphite, through which electrons enter or leave the cell.",
+        "Anode: the electrode at which oxidation (loss of electrons) happens. In a galvanic cell it is the negative terminal and the source of the electrons that flow out into the external circuit.",
+        "Cathode: the electrode at which reduction (gain of electrons) happens. In a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted.",
+        "Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis, see \"The electrolytic cell\".",
+        "Electrolyte: a substance that conducts electricity by the movement of ions, as a solution, a molten compound, a paste or a gel.",
+        "The electrolyte carries ions between the electrodes, completing the circuit inside the cell.",
+        "Electrons cannot pass through the electrolyte, so they travel through the external circuit from anode to cathode, while inside the cell the charge is carried by ions."
+      ]
+    },
+    {
+      "h": "Primary cells",
+      "b": "A primary cell is a galvanic cell that can be used only once.",
+      "points": [
+        "Its redox reaction cannot be readily reversed, so when the reactants are used up the cell is “flat” and must be discarded and recycled.",
+        "Zinc–carbon cell (1.5 V): the zinc case is the anode (negative), where it is oxidised: Zn(s) → Zn²⁺(aq) + 2e⁻.",
+        "Zinc–carbon cell: a central carbon (graphite) rod surrounded by manganese(IV) oxide is the cathode (positive), where MnO₂ is reduced.",
+        "Zinc–carbon cell: the electrolyte is a moist paste of ammonium chloride, with zinc chloride.",
+        "Alkaline cell (1.5 V): a powdered zinc anode and a manganese(IV) oxide cathode, with potassium hydroxide, an alkali, as the electrolyte.",
+        "An alkaline cell lasts longer and gives a steadier voltage than a zinc–carbon cell.",
+        "Lithium primary cells (about 3 V) are small button or coin cells used in watches, calculators and car keys, with lithium metal as the anode.",
+        "Primary cells suit low-power or occasional devices that must work for a long time without attention, e.g. remote controls, clocks, smoke alarms and torches."
+      ]
+    },
+    {
+      "h": "Secondary cells",
+      "b": "A secondary cell is a galvanic cell that can be recharged.",
+      "points": [
+        "Connecting it to an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants, so it can be used many times.",
+        "During discharge it works as a galvanic cell, converting chemical energy to electrical energy.",
+        "During recharging it works as an electrolytic cell, converting electrical energy to chemical energy.",
+        "The electrode that is the anode on discharge becomes the cathode on charge, and vice versa.",
+        "Lead–acid cell (2 V per cell; six in a 12 V car battery): lead plates (negative) and lead(IV) oxide plates (positive) in sulfuric acid.",
+        "On discharge both plates become coated with lead(II) sulfate and the acid becomes more dilute; recharging by the car's alternator reverses this.",
+        "Nickel–metal hydride (NiMH) cell (1.2 V): rechargeable AA and AAA cells used in place of alkaline cells.",
+        "Lithium-ion cell (about 3.6–3.7 V): used in phones, laptops and electric vehicles; see \"The lithium-ion cell\".",
+        "Recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge a cell can hold.",
+        "Secondary cells therefore wear out after many cycles, typically hundreds to thousands."
+      ]
+    },
+    {
+      "h": "Comparing primary and secondary cells",
+      "points": [
+        "Rechargeable: a primary cell cannot be; a secondary cell can.",
+        "Reaction: in a primary cell it is not readily reversible; in a secondary cell it is reversed by an external current.",
+        "Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.",
+        "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy (see \"Electrochemistry and sustainability\").",
+        "Storage: primary cells keep their charge for years on the shelf (low self-discharge), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.",
+        "Uses: primary cells suit low-drain or occasional devices; secondary cells suit high-drain devices used daily, such as phones, laptops, power tools, electric vehicles and car starter batteries.",
+        "Similarities: both are galvanic cells when supplying electricity, and both have an anode (oxidation), a cathode (reduction) and an electrolyte.",
+        "Both should be returned for recycling rather than put in household waste, because they contain metals that can pollute soil and water."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Galvanic cell", "definition": "A cell that converts chemical energy into electrical energy using a spontaneous redox reaction, also called a voltaic or chemical cell." },
+    { "term": "Battery", "definition": "Two or more cells joined together to supply electricity, though the word is often used for a single cell." },
+    { "term": "Electrode", "definition": "A solid electrical conductor, such as a metal or graphite, through which electrons enter or leave a cell." },
+    { "term": "Anode", "definition": "The electrode at which oxidation (loss of electrons) happens; in a galvanic cell it is the negative terminal." },
+    { "term": "Cathode", "definition": "The electrode at which reduction (gain of electrons) happens; in a galvanic cell it is the positive terminal." },
+    { "term": "Electrolyte", "definition": "A substance that conducts electricity by the movement of ions, carrying ions between the electrodes inside a cell." },
+    { "term": "Primary cell", "definition": "A galvanic cell that cannot be recharged, because its redox reaction is not readily reversible, so it is discarded when flat." },
+    { "term": "Secondary cell", "definition": "A rechargeable galvanic cell whose redox reaction is reversed by an external electrical supply." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between a primary cell and a secondary cell, giving one example of each, and state one advantage of each type.",
+      "model": "A primary cell is a galvanic cell that cannot be recharged: its redox reaction is not readily reversible, so it is discarded when the reactants are used up. A secondary cell is a rechargeable galvanic cell: an external electrical supply reverses its redox reaction, regenerating the reactants, so it can be used many times. Example of a primary cell: the zinc–carbon cell (1.5 V), the alkaline cell (1.5 V) or the lithium coin cell (about 3 V), used in watches, calculators and car keys. Example of a secondary cell: the lead–acid cell (2 V), the nickel–metal hydride cell (1.2 V) or the lithium-ion cell (about 3.6–3.7 V), used in phones, laptops and electric vehicles. Advantage of a primary cell: it keeps its charge for years on the shelf, so it suits emergency and low-drain devices. Advantage of a secondary cell: it is cheaper per use over its life and reduces waste and the mining of raw materials, so it is more sustainable."
+    },
+    {
+      "marks": 9,
+      "prompt": "State the function of (i) the anode, (ii) the cathode, (iii) the electrolyte in a cell, and explain why the electrons must travel through the external circuit.",
+      "model": "(i) The anode is the electrode at which oxidation happens, losing electrons; in a galvanic cell it is the negative terminal and the source of electrons for the external circuit. (ii) The cathode is the electrode at which reduction happens, gaining electrons; in a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted. (iii) The electrolyte is a substance, a solution, molten compound, paste or gel, that conducts electricity by the movement of ions; it carries ions between the electrodes, completing the circuit inside the cell. The electrons must travel through the external circuit because the electrolyte does not let electrons through: the electrons are released at the anode and must reach the cathode by a wire, while the charge inside the cell is carried by ions."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain what happens to a secondary cell when it is recharged, and why it eventually wears out.",
+      "model": "When a secondary cell is recharged, an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants. The cell then works as an electrolytic cell, converting electrical energy into chemical energy, and the electrode that was the anode on discharge becomes the cathode, and vice versa. It eventually wears out because recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge the cell can hold. This happens over many cycles, typically hundreds to thousands."
+    }
+  ]
+}
