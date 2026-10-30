@@ -1,0 +1,124 @@
+{
+  "loId": "chem21-s7",
+  "chapterId": "chem21",
+  "subsection": "7. Combustion",
+  "syllabusRef": "3.1.7",
+  "notes": [
+    {
+      "h": "Combustion and heat of combustion",
+      "points": [
+        "Combustion is the reaction of a substance with oxygen, giving out heat (and usually light); it is always exothermic.",
+        "Complete combustion, in plenty of oxygen: all the carbon becomes carbon dioxide and all the hydrogen becomes water; for hydrocarbons and alcohols the only products are CO₂ and H₂O.",
+        "Incomplete combustion, in limited oxygen, also gives carbon monoxide (a toxic gas) and soot (carbon), and releases less energy, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).",
+        "Standard heat of combustion, ΔHc°: the enthalpy change when one mole of a substance is completely burned in excess oxygen under standard conditions (25 °C, 101.3 kPa); it is always negative.",
+        "Because it is per mole of the substance burned, the equation for a heat of combustion has 1 mol of fuel, so fractions of O₂ may be needed, e.g. C₂H₆(g) + 3½O₂(g) → 2CO₂(g) + 3H₂O(l), ΔHc = −1560 kJ mol⁻¹.",
+        "The same equation doubled, 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, has ΔH = −3120 kJ."
+      ]
+    },
+    {
+      "h": "Balancing combustion equations",
+      "points": [
+        "Step 1: write the formula of the fuel and the products CO₂ and H₂O.",
+        "Step 2: balance carbon: the number of CO₂ equals the number of C atoms in the fuel.",
+        "Step 3: balance hydrogen: the number of H₂O equals half the number of H atoms in the fuel.",
+        "Step 4: balance oxygen last: count the O atoms in the products, subtract any O already in the fuel (one for an alcohol), and divide by two for the number of O₂.",
+        "Step 5: double everything if you want whole numbers.",
+        "Check: count each type of atom on both sides, and add state symbols (fuel, O₂(g), CO₂(g), H₂O(l) under standard conditions)."
+      ]
+    },
+    {
+      "h": "General equations",
+      "points": [
+        "Alkanes: CₙH₂ₙ₊₂ + ((3n + 1)/2) O₂ → nCO₂ + (n + 1)H₂O.",
+        "Alkenes (one C=C): CₙH₂ₙ + (3n/2) O₂ → nCO₂ + nH₂O.",
+        "Alkynes (one C≡C): CₙH₂ₙ₋₂ + ((3n − 1)/2) O₂ → nCO₂ + (n − 1)H₂O.",
+        "Primary alcohols: CₙH₂ₙ₊₁OH + (3n/2) O₂ → nCO₂ + (n + 1)H₂O."
+      ]
+    },
+    {
+      "h": "Worked equations",
+      "points": [
+        "Methane: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).",
+        "Propane: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).",
+        "Butane: C₄H₁₀(g) + 6½O₂(g) → 4CO₂(g) + 5H₂O(l), or 2C₄H₁₀(g) + 13O₂(g) → 8CO₂(g) + 10H₂O(l).",
+        "Ethene: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).",
+        "Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).",
+        "Ethyne: C₂H₂(g) + 2½O₂(g) → 2CO₂(g) + H₂O(l), or 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).",
+        "Methanol: CH₃OH(l) + 1½O₂(g) → CO₂(g) + 2H₂O(l), or 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l).",
+        "Ethanol: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l).",
+        "Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l).",
+        "Butan-1-ol: C₄H₉OH(l) + 6O₂(g) → 4CO₂(g) + 5H₂O(l).",
+        "Pentan-1-ol: C₅H₁₁OH(l) + 7½O₂(g) → 5CO₂(g) + 6H₂O(l).",
+        "Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l)."
+      ]
+    },
+    {
+      "h": "Standard heats of combustion",
+      "b": "Values are in kJ mol⁻¹ at 25 °C, with water as a liquid.",
+      "points": [
+        "Alkanes: methane −890; ethane −1560; propane −2220; butane −2877.",
+        "Primary alcohols: methanol −726; ethanol −1367; propan-1-ol −2021; butan-1-ol −2676; pentan-1-ol −3331; hexan-1-ol −3984.",
+        "Two-carbon compounds: ethane −1560; ethene −1411; ethyne −1300; ethanol −1367.",
+        "Three-carbon compounds: propane −2220; propene −2058."
+      ]
+    },
+    {
+      "h": "Trend 1: chain length (Higher Level only)",
+      "points": [
+        "In a homologous series, ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂.",
+        "For alkanes the increase is about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670 and 2877 − 2220 = 657.",
+        "For primary alcohols the increase is about 640–655 kJ mol⁻¹, e.g. 2021 − 1367 = 654.",
+        "Each extra CH₂ group adds one C–C and two C–H bonds to break, and needs 1½ more O₂ molecules; it forms one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds).",
+        "More energy is released by the new bonds formed than is needed to break the extra bonds.",
+        "Because exactly the same extra bonds are broken and formed for every CH₂ added, the increase is nearly constant, so a graph of ΔHc against number of carbon atoms is a straight line.",
+        "Bond enthalpy estimate per CH₂: broken 348 + 2(412) + 1½(498) = 1919 kJ; formed 2(799) + 2(463) = 2524 kJ; difference −605 kJ.",
+        "This estimate is for gaseous water; the measured increase is larger because the water formed is liquid.",
+        "The straight-line trend can be used to predict values: e.g. hexan-1-ol ≈ −3331 − 655 = −3986 kJ mol⁻¹, close to the data value of −3984 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Trend 2: alcohols compared with alkanes (Higher Level only)",
+      "points": [
+        "A primary alcohol has a less negative ΔHc than the alkane with the same number of carbon atoms, e.g. ethanol −1367 against ethane −1560 kJ mol⁻¹, and methanol −726 against methane −890 kJ mol⁻¹.",
+        "The alcohol molecule already contains an oxygen atom bonded to carbon and hydrogen (C–O–H), so it is already partly oxidised.",
+        "It therefore needs less oxygen (ethanol 3 O₂, ethane 3½ O₂), and less energy is released on complete oxidation, although the same numbers of CO₂ and H₂O are formed."
+      ]
+    },
+    {
+      "h": "Trend 3: alkenes and alkynes compared with alkanes (Higher Level only)",
+      "points": [
+        "For the same number of carbon atoms, ΔHc becomes less negative in the order alkane, then alkene, then alkyne: ethane −1560, ethene −1411, ethyne −1300 kJ mol⁻¹.",
+        "The alkene has two fewer hydrogen atoms than the alkane, and the alkyne four fewer, so fewer water molecules (fewer O–H bonds) are formed and less energy is released.",
+        "The main reason is the fewer O–H bonds formed, not the C=C bond being harder to break."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Combustion", "definition": "The reaction of a substance with oxygen, giving out heat and usually light." },
+    { "term": "Complete combustion", "definition": "Burning in plenty of oxygen, so that all the carbon becomes CO₂ and all the hydrogen becomes H₂O." },
+    { "term": "Incomplete combustion", "definition": "Burning in limited oxygen, which forms carbon monoxide and soot and releases less energy." },
+    { "term": "Standard heat of combustion (ΔHc°)", "definition": "The enthalpy change when one mole of a substance is completely burned in excess oxygen under standard conditions." },
+    { "term": "Homologous series", "definition": "A family of compounds with the same general formula, in which each member differs from the next by one CH₂ group." },
+    { "term": "Primary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to only one other carbon atom, such as ethanol." },
+    { "term": "Alkane", "definition": "A hydrocarbon containing only single C–C and C–H bonds." },
+    { "term": "Alkene", "definition": "A hydrocarbon containing one C=C double bond." },
+    { "term": "Alkyne", "definition": "A hydrocarbon containing one C≡C triple bond." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Write balanced equations for the complete combustion of (i) propene, (ii) propan-1-ol, (iii) hexan-1-ol.",
+      "model": "(i) Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l), or 2C₃H₆(g) + 9O₂(g) → 6CO₂(g) + 6H₂O(l). (ii) Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l). (iii) Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l). Each equation was balanced by balancing carbon, then hydrogen, then oxygen last, counting the O atom in the alcohol."
+    },
+    {
+      "marks": 9,
+      "prompt": "The standard heats of combustion of methanol, ethanol and propan-1-ol are −726, −1367 and −2021 kJ mol⁻¹. Explain the trend and use it to predict the heat of combustion of butan-1-ol.",
+      "model": "Each extra CH₂ group makes ΔHc more negative by an almost constant amount, about 640–655 kJ mol⁻¹. The extra CH₂ adds one C–C and two C–H bonds to break, and one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds) form. More energy is released by the new bonds formed than is needed to break the extra bonds, so the value becomes more negative. Ethanol to propan-1-ol changes by −2021 − (−1367) = −654 kJ mol⁻¹. Predicted ΔHc of butan-1-ol = −2021 − 654 ≈ −2675 kJ mol⁻¹; the data value is −2676 kJ mol⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the heat of combustion of ethanol (−1367 kJ mol⁻¹) is less negative than that of ethane (−1560 kJ mol⁻¹), and why that of ethene (−1411 kJ mol⁻¹) is less negative than that of ethane.",
+      "model": "Ethanol is already partly oxidised, because its molecule contains a C–O–H group. It therefore needs less oxygen (3 mol O₂, against 3½ mol for ethane) and less energy is released on complete oxidation, although both form 2 mol CO₂ and 3 mol H₂O. Ethene has two fewer hydrogen atoms than ethane, so fewer water molecules, and fewer O–H bonds, are formed on combustion. Less energy is released, so its heat of combustion is less negative than that of ethane."
+    }
+  ]
+}
