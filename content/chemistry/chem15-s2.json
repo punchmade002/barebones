@@ -1,0 +1,115 @@
+{
+  "loId": "chem15-s2",
+  "chapterId": "chem15",
+  "subsection": "2. Investigation: iron in iron tablets",
+  "syllabusRef": "4.1.6",
+  "notes": [
+    {
+      "h": "Aim, hypothesis and chemistry",
+      "points": [
+        "Aim: to find the mass of iron in an iron tablet, and the percentage of elemental iron by mass in the tablet, by titration with a standard solution of potassium manganate(VII).",
+        "Iron tablets contain iron as iron(II), commonly as iron(II) sulfate (iron(II) fumarate and iron(II) gluconate are also used), and are prescribed to treat iron-deficiency anaemia.",
+        "The label usually gives the mass of the iron compound or of iron per tablet.",
+        "Equation: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.",
+        "The KMnO₄ solution is first standardised against ammonium iron(II) sulfate, just before use, as described in “Redox titrations”.",
+        "Hypothesis (example): the tablet contains the mass of iron stated on the label, within a few percent."
+      ]
+    },
+    {
+      "h": "Making the tablet solution",
+      "points": [
+        "Weigh five tablets together accurately and record the mass; dividing by five gives the mean mass of one tablet.",
+        "Grind the tablets to a fine powder in a mortar and pestle, adding a little dilute sulfuric acid.",
+        "Transfer the paste to a beaker with dilute sulfuric acid and deionised water, rinsing the mortar and pestle into the beaker, and stir to dissolve.",
+        "Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinsing the beaker, glass rod and funnel into the flask with deionised water.",
+        "Make up to the mark with deionised water, with the bottom of the meniscus on the mark at eye level and the last drops added with a dropper; stopper and invert about 20 times.",
+        "Diagram: mortar and pestle holding the tablet powder, labelled with the pestle and the mortar bowl.",
+        "Diagram: 250 cm³ volumetric flask with a funnel in its neck, labelled with the graduation mark.",
+        "Diagram: beaker with a glass rod stirring the solution, labelled with the glass rod."
+      ]
+    },
+    {
+      "h": "Titration of the tablet solution",
+      "points": [
+        "Rinse the pipette with deionised water and then with the tablet solution; pipette 25.0 cm³ into a conical flask.",
+        "Add about 20 cm³ of dilute sulfuric acid (an excess) to the flask.",
+        "Rinse the burette with deionised water and then with the standard KMnO₄ solution; fill it and read the top of the meniscus.",
+        "Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is added.",
+        "Do a rough titration, then accurate titrations until two agree within 0.1 cm³; titrate soon after making the solution.",
+        "Diagram: burette of purple KMnO₄ above a conical flask of tablet solution on a white tile, labelled with the burette tap and the top of the meniscus."
+      ]
+    },
+    {
+      "h": "Why each choice is made",
+      "points": [
+        "Dilute sulfuric acid is used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen; this would make the result too low, because Fe³⁺ does not react with MnO₄⁻.",
+        "More dilute sulfuric acid is added before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds.",
+        "Several tablets are used: the result is an average over tablets that vary slightly in mass and iron content, a larger mass gives a smaller percentage error in weighing, and the solution is concentrated enough to give a reasonable titre.",
+        "Grinding increases the surface area so that the tablets dissolve fully and all the iron(II) is extracted.",
+        "The solution may be cloudy from the insoluble coating and binder (filler); this does not affect the result, because those substances do not react with the permanganate.",
+        "A volumetric flask and pipette are used because the 25.0 cm³ portion must be exactly one-tenth of the total.",
+        "No indicator is needed because KMnO₄ is self-indicating: the first excess drop colours the solution pink."
+      ]
+    },
+    {
+      "h": "Sample calculation (sample data)",
+      "b": "The steps convert the titre into the mass of iron in one tablet, then into a percentage of the tablet's mass.",
+      "points": [
+        "Data: five tablets have a total mass of 1.80 g, a mean of 0.360 g per tablet; 25.0 cm³ portions of the 250 cm³ tablet solution need a mean titre of 11.6 cm³ of 0.0100 mol L⁻¹ KMnO₄.",
+        "Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0116 L = 1.16 × 10⁻⁴ mol.",
+        "Moles Fe²⁺ in 25.0 cm³ = 5 × 1.16 × 10⁻⁴ mol = 5.80 × 10⁻⁴ mol.",
+        "Moles Fe²⁺ in 250 cm³ (five tablets) = 5.80 × 10⁻⁴ mol × 10 = 5.80 × 10⁻³ mol; per tablet = 5.80 × 10⁻³ mol ÷ 5 = 1.16 × 10⁻³ mol.",
+        "Mass of iron per tablet = 1.16 × 10⁻³ mol × 56 g mol⁻¹ = 0.06496 g = 65.0 mg.",
+        "Percentage of iron by mass = 0.06496 g ÷ 0.360 g × 100 = 18.0%.",
+        "If the label gives the iron(II) sulfate content instead: mass of FeSO₄ per tablet = 1.16 × 10⁻³ mol × 152 g mol⁻¹ = 0.176 g = 176 mg; iron is 56 ÷ 152 = 36.8% of the mass of FeSO₄.",
+        "Conclusion: compare the result with the label value, calculate the percentage difference, and comment on whether the hypothesis is supported."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear goggles: dilute sulfuric acid is an irritant, and KMnO₄ is an oxidising agent that stains skin and clothes.",
+        "Iron tablets are dangerous if swallowed by young children: keep them secure and do not eat them in the laboratory."
+      ]
+    },
+    {
+      "h": "Sources of error",
+      "points": [
+        "Result too low: Fe²⁺ is oxidised to Fe³⁺ by air before titration, because the solution was not acidified or was left standing too long.",
+        "Result too low: tablet material is lost while grinding or transferring.",
+        "Result too high: overshooting the end point, taking a deep purple colour instead of the first permanent pale pink.",
+        "Result too high: tablets that also contain vitamin C or another reducing agent, which also reacts with MnO₄⁻.",
+        "Other error: too little acid gives brown MnO₂ and an unclear end point.",
+        "Other error: KMnO₄ that has partly decomposed since it was standardised.",
+        "Other error: a burette or pipette not rinsed with its own solution, as described in “Acid–base titrations”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Elemental iron", "definition": "Iron in its free metallic form, Fe, as opposed to iron combined in a compound such as iron(II) sulfate." },
+    { "term": "Percentage by mass", "definition": "The mass of an element in a sample divided by the mass of the sample, multiplied by 100." },
+    { "term": "Iron(II) sulfate", "definition": "The salt FeSO₄, which contains iron in the +2 oxidation state and is commonly used in iron tablets." },
+    { "term": "Iron-deficiency anaemia", "definition": "A condition in which the blood has too little haemoglobin because the body lacks iron." },
+    { "term": "Mean mass", "definition": "The average mass of one tablet, found by weighing several tablets together and dividing by their number." },
+    { "term": "Scale factor", "definition": "The total volume divided by the volume titrated, used to scale the moles in the portion up to the whole sample." },
+    { "term": "Volumetric flask", "definition": "A flask that holds one fixed volume, such as 250 cm³, when filled to its mark." },
+    { "term": "Hypothesis", "definition": "A testable prediction about the result that the investigation is designed to support or reject." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would prepare 250 cm³ of solution from five iron tablets and use it to find the mass of iron in one tablet by titration with standard potassium manganate(VII). Explain why dilute sulfuric acid is used at two stages.",
+      "model": "Weigh five tablets together accurately and record the mass. Grind them to a fine powder in a mortar and pestle with a little dilute sulfuric acid. Transfer the paste with dilute sulfuric acid and deionised water to a beaker, rinsing the mortar and pestle into it, and stir to dissolve. Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinse the beaker, glass rod and funnel into the flask with deionised water, and make up to the mark. Stopper the flask and invert it about 20 times. Rinse the pipette with deionised water and then with the tablet solution, and pipette 25.0 cm³ into a conical flask. Add about 20 cm³ of dilute sulfuric acid. Rinse the burette with deionised water and then with the standard KMnO₄ solution, fill it and read the top of the meniscus. Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is needed. Do a rough titration, then accurate titrations until two agree within 0.1 cm³. Dilute sulfuric acid is first used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen, which would make the result too low. It is added again before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds."
+    },
+    {
+      "marks": 12,
+      "prompt": "Four iron tablets with a total mass of 1.52 g were dissolved and made up to 250 cm³. 25.0 cm³ portions needed a mean titre of 14.2 cm³ of 0.0100 mol L⁻¹ KMnO₄. Calculate (i) the moles of Fe²⁺ in 25.0 cm³, (ii) the mass of iron in one tablet in mg, (iii) the percentage of iron by mass in a tablet (sample data).",
+      "model": "(i) Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0142 L = 1.42 × 10⁻⁴ mol. Since MnO₄⁻ : Fe²⁺ = 1 : 5, moles Fe²⁺ in 25.0 cm³ = 5 × 1.42 × 10⁻⁴ mol = 7.10 × 10⁻⁴ mol. (ii) Moles Fe²⁺ in 250 cm³ = 7.10 × 10⁻⁴ mol × 10 = 7.10 × 10⁻³ mol; per tablet = 7.10 × 10⁻³ mol ÷ 4 = 1.775 × 10⁻³ mol. Mass of iron per tablet = 1.775 × 10⁻³ mol × 56 g mol⁻¹ = 0.0994 g = 99.4 mg. (iii) Mean mass of one tablet = 1.52 g ÷ 4 = 0.380 g. Percentage of iron by mass = 0.0994 g ÷ 0.380 g × 100 = 26.2%."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two reasons why several tablets are used rather than one, and one error that would make the result too high.",
+      "model": "Several tablets are used because the result is an average over tablets that vary slightly in mass and iron content, and because a larger mass gives a smaller percentage error in weighing. One error that would make the result too high is overshooting the end point, taking a deep purple colour instead of the first permanent pale pink colour."
+    }
+  ]
+}

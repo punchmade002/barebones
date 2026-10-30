@@ -8,8 +8,11 @@
   only)".
 - **Prepared by:** a higher model, 2026-10-30. The method, four worked examples, why the
   answers are estimates, and trends in bond enthalpies. Bond enthalpy is defined in "Bond
-  enthalpy and energy change" (refer, don't re-define at length). Average bond enthalpies are
-  the SEC Formulae and Tables values; the table below lists the values used.
+  enthalpy and energy change" (refer, don't re-define at length). The average bond enthalpies
+  are the standard Leaving Certificate values (the set in the old notes and used in past
+  papers, e.g. C–C 348, C≡C 839); the SEC Formulae and Tables booklet could not be consulted
+  when this package was written, so a reviewer should confirm the table against it. The notes
+  must use only the values in the table.
 
 ## 1. Must cover
 
@@ -60,7 +63,7 @@ Trends in bond enthalpies (Higher Level only; one block)
 
 ## 2. Checked facts and examples
 
-| Item | Average bond enthalpies used (kJ mol⁻¹), as in the SEC Formulae and Tables |
+| Item | Average bond enthalpies used (kJ mol⁻¹) |
 |---|---|
 | All | C–H 412; C–C 348; C=C 614; C≡C 839; C=O 799 (in CO₂); O–H 463; O=O 498; H–H 436; Cl–Cl 242; H–Cl 431; C–Cl 338; C–Br 276; C–I 238; N≡N 945. |
 | A5 | CH₄ + 2O₂ → CO₂ + 2H₂O(g): −802 kJ mol⁻¹; with H₂O(l): −890 kJ mol⁻¹; ΔH(vaporisation) of water at 25 °C about 44 kJ mol⁻¹. |
