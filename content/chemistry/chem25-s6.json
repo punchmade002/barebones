@@ -1,0 +1,122 @@
+{
+  "loId": "chem25-s6",
+  "chapterId": "chem25",
+  "subsection": "6. Reaction mechanisms",
+  "syllabusRef": "4.2.10",
+  "notes": [
+    {
+      "h": "Key ideas and curved arrows (Higher Level only)",
+      "points": [
+        "A reaction mechanism is the step-by-step description of how a reaction happens: which bonds break, which form, and how the electrons move.",
+        "Homolytic fission: a covalent bond breaks so that each atom keeps one of the two bonding electrons, forming two free radicals, e.g. Cl–Cl → Cl• + Cl•.",
+        "Heterolytic fission: a covalent bond breaks so that one atom takes both bonding electrons, forming a positive and a negative ion, e.g. Cl–Cl → Cl⁺ + Cl⁻.",
+        "A free radical is an atom or group of atoms with an unpaired electron, shown by a dot, e.g. Cl• or •CH₃; free radicals are very reactive and short-lived.",
+        "A curved arrow with a full arrowhead shows the movement of a pair of electrons, drawn from where the pair starts (a bond or a lone pair) to where it ends up.",
+        "A fishhook arrow, with a half arrowhead, shows the movement of a single electron; two fishhooks from one bond show homolytic fission.",
+        "A carbocation (carbonium ion) is an ion with a positive charge on a carbon atom, e.g. CH₃CH₂⁺ or CH₂ClCH₂⁺.",
+        "A chain reaction is one in which a product of one step is a reactant in another step, so the reaction keeps itself going."
+      ]
+    },
+    {
+      "h": "Free radical substitution of methane (Higher Level only)",
+      "points": [
+        "Overall: CH₄ + Cl₂ → CH₃Cl + HCl, in ultraviolet light (monochlorination).",
+        "Initiation: UV light causes homolytic fission of chlorine molecules, Cl₂ → 2Cl•; draw two fishhooks from the Cl–Cl bond, one to each chlorine atom.",
+        "Propagation step 1: a chlorine radical takes a hydrogen atom from methane, Cl• + CH₄ → HCl + •CH₃, forming a methyl radical.",
+        "Propagation step 2: the methyl radical takes a chlorine atom from a chlorine molecule, •CH₃ + Cl₂ → CH₃Cl + Cl•.",
+        "The Cl• formed in step 2 starts step 1 again, so the two propagation steps form a chain reaction.",
+        "Termination: two radicals combine, removing radicals and ending a chain: Cl• + Cl• → Cl₂; •CH₃ + Cl• → CH₃Cl; •CH₃ + •CH₃ → C₂H₆ (ethane).",
+        "With more chlorine, further substitution gives dichloromethane, trichloromethane and tetrachloromethane, so a mixture of products is formed."
+      ]
+    },
+    {
+      "h": "Free radical substitution of ethane (Higher Level only)",
+      "points": [
+        "Overall: C₂H₆ + Cl₂ → C₂H₅Cl + HCl, giving chloroethane, in ultraviolet light.",
+        "Initiation: Cl₂ → 2Cl•.",
+        "Propagation: Cl• + C₂H₆ → HCl + •C₂H₅, forming an ethyl radical; then •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•.",
+        "Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀ (butane)."
+      ]
+    },
+    {
+      "h": "Evidence for the free radical mechanism (Higher Level only)",
+      "points": [
+        "The reaction does not happen in the dark at room temperature but starts in UV light, which supplies the energy to split Cl₂ into radicals in initiation.",
+        "Thousands of molecules of product form for every photon of light absorbed, because one radical starts a long chain of propagation steps.",
+        "Traces of ethane form in the chlorination of methane, and traces of butane in the chlorination of ethane; these can only come from two methyl or two ethyl radicals joining in termination, so the radicals must exist.",
+        "Termination is rare, because radicals are present at very low concentration; a radical is far more likely to collide with a CH₄ or Cl₂ molecule than with another radical, so the ethane or butane is only a trace.",
+        "Adding a substance that produces free radicals, such as tetramethyl lead, Pb(CH₃)₄, speeds up the reaction, which shows that radicals are involved.",
+        "Adding oxygen, which combines with free radicals, slows the reaction, which shows that a radical chain is being broken."
+      ]
+    },
+    {
+      "h": "Ionic addition of chlorine to ethene (Higher Level only)",
+      "points": [
+        "Overall: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
+        "Step 1, polarisation: the C=C double bond is a region of high electron density from its pi electrons; as a Cl₂ molecule approaches, these electrons repel the electrons of the Cl–Cl bond, inducing a dipole Clδ⁺–Clδ⁻.",
+        "Step 2, heterolytic fission: the Cl–Cl bond breaks with both electrons going to the further chlorine atom, giving Cl⁺ and Cl⁻; draw a curved arrow from the Cl–Cl bond to the Clδ⁻ atom.",
+        "Step 3, carbocation formation: the pair of pi electrons forms a bond to Cl⁺, so one carbon bonds to Cl while the other, having lost its share of the pi pair, carries a positive charge, giving CH₂ClCH₂⁺; draw a curved arrow from the C=C pi bond to Cl⁺.",
+        "Step 4, attack by the negative ion: Cl⁻ uses a lone pair to bond to the positive carbon, giving 1,2-dichloroethane; draw a curved arrow from a lone pair on Cl⁻ to the C⁺.",
+        "It is called ionic addition because the two parts add as ions, one after the other."
+      ]
+    },
+    {
+      "h": "Ionic addition of hydrogen chloride to ethene (Higher Level only)",
+      "points": [
+        "Overall: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
+        "The H–Cl bond is already polar, Hδ⁺–Clδ⁻, because chlorine is more electronegative, so no dipole needs to be induced.",
+        "Step 1: the pi electrons of C=C form a bond to the Hδ⁺ atom, and the H–Cl bond breaks heterolytically, giving Cl⁻ and the carbocation CH₃CH₂⁺; draw a curved arrow from the pi bond to H, and one from the H–Cl bond to Cl.",
+        "Step 2: Cl⁻ bonds to the positive carbon, giving chloroethane; draw a curved arrow from a lone pair on Cl⁻ to C⁺.",
+        "Evidence that the H–X bond breaks in the mechanism: the rate of addition to ethene increases in the order HF < HCl < HBr < HI, the order in which the H–X bond gets weaker."
+      ]
+    },
+    {
+      "h": "Evidence for the ionic addition mechanism (Higher Level only)",
+      "points": [
+        "When ethene reacts with chlorine water, the products include 2-chloroethanol, CH₂ClCH₂OH, as well as 1,2-dichloroethane.",
+        "2-chloroethanol forms because a water molecule, using a lone pair on its oxygen, attacks the carbocation instead of Cl⁻, and then loses H⁺.",
+        "This shows the reaction happens in steps through a positively charged intermediate: if both chlorine atoms added at the same moment, no 2-chloroethanol could form.",
+        "With bromine water containing sodium chloride, ethene gives 1-bromo-2-chloroethane, CH₂BrCH₂Cl, as well as 1,2-dibromoethane.",
+        "The Cl⁻ ions attack the carbocation, but no 1,2-dichloroethane forms, because the first atom to add is always from Br₂."
+      ]
+    },
+    {
+      "h": "Comparing the two mechanisms (Higher Level only)",
+      "points": [
+        "Free radical substitution is shown by alkanes, involves homolytic fission, needs UV light, has radical intermediates and uses fishhook arrows.",
+        "Ionic addition is shown by alkenes, involves heterolytic fission, needs no light, has a carbocation intermediate and uses curved arrows.",
+        "Diagram: the four steps of ionic addition of Cl₂ to ethene, with the δ⁺ and δ⁻ charges, the carbocation and every curved arrow, and the initiation step of chlorination with its two fishhooks."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Reaction mechanism", "definition": "A step-by-step description of how a reaction happens, showing which bonds break and form and how the electrons move." },
+    { "term": "Homolytic fission", "definition": "The breaking of a covalent bond so that each atom takes one of the bonding electrons, forming free radicals." },
+    { "term": "Heterolytic fission", "definition": "The breaking of a covalent bond so that one atom takes both bonding electrons, forming ions." },
+    { "term": "Free radical", "definition": "An atom or group of atoms with an unpaired electron, which is very reactive." },
+    { "term": "Curved arrow", "definition": "An arrow with a full arrowhead, showing the movement of a pair of electrons in a mechanism." },
+    { "term": "Fishhook arrow", "definition": "An arrow with a half arrowhead, showing the movement of a single electron in a mechanism." },
+    { "term": "Carbocation", "definition": "An ion with a positive charge on a carbon atom, formed as an intermediate in ionic addition." },
+    { "term": "Chain reaction", "definition": "A reaction in which a product of one step is a reactant in the next, so the reaction is self-sustaining." },
+    { "term": "Initiation", "definition": "The first step of a radical chain reaction, in which radicals are first formed, usually by UV light." },
+    { "term": "Propagation", "definition": "The steps of a radical chain reaction in which a radical reacts and a new radical is formed." },
+    { "term": "Termination", "definition": "The step of a radical chain reaction in which two radicals combine and the chain ends." }
+  ],
+  "questions": [
+    {
+      "marks": 15,
+      "prompt": "Describe the mechanism of the reaction between ethane and chlorine in ultraviolet light to form chloroethane. State two pieces of evidence for the mechanism and explain how each supports it.",
+      "model": "Initiation: Cl₂ → 2Cl•, drawn with two fishhooks from the Cl–Cl bond. Propagation: Cl• + C₂H₆ → HCl + •C₂H₅, then •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•; the Cl• regenerated starts the next propagation step, so the steps form a chain. Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀. Evidence 1: the reaction does not occur in the dark at room temperature but starts in UV light, which supplies the energy to split Cl₂ into radicals. Evidence 2: thousands of molecules of product form for each photon absorbed, which shows a chain reaction in which one radical starts many propagation steps. Evidence 3, if a third is given: traces of butane form, which can only come from two ethyl radicals joining, so the radicals must exist; the butane is only a trace because termination is rare, since radicals are at very low concentration and mostly collide with C₂H₆ or Cl₂ molecules."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe, using curved arrows, the mechanism of the addition of chlorine to ethene. Explain how the formation of 2-chloroethanol when ethene reacts with chlorine water supports this mechanism.",
+      "model": "Step 1: the pi electrons of the C=C bond repel the electrons of the Cl–Cl bond, polarising it to Clδ⁺–Clδ⁻. Step 2: a curved arrow from the Cl–Cl bond to the Clδ⁻ atom shows heterolytic fission, giving Cl⁺ and Cl⁻. Step 3: a curved arrow from the C=C pi bond to Cl⁺ forms a C–Cl bond, leaving a carbocation, CH₂ClCH₂⁺. Step 4: a curved arrow from a lone pair on Cl⁻ to the positive carbon forms 1,2-dichloroethane. In chlorine water, a water molecule can attack the carbocation instead of Cl⁻, giving 2-chloroethanol, CH₂ClCH₂OH, after loss of H⁺. Because 2-chloroethanol forms, the reaction must proceed through a positively charged carbocation intermediate: if both chlorine atoms added at the same moment, no 2-chloroethanol could be formed."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between homolytic and heterolytic fission, giving an example of each from the reactions of chlorine.",
+      "model": "Homolytic fission is the breaking of a covalent bond so that each atom keeps one of the two bonding electrons, forming two free radicals. Example: in the initiation step of chlorination, Cl–Cl → Cl• + Cl•, drawn with two fishhooks. Heterolytic fission is the breaking of a covalent bond so that one atom takes both bonding electrons, forming a positive and a negative ion. Example: in the addition of chlorine to ethene, Cl–Cl → Cl⁺ + Cl⁻, drawn with a curved arrow."
+    }
+  ]
+}
