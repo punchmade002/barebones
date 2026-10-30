@@ -1,0 +1,171 @@
+{
+  "loId": "chem24-s2",
+  "chapterId": "chem24",
+  "subsection": "2. Functional groups and nomenclature",
+  "syllabusRef": "4.2.2",
+  "notes": [
+    {
+      "h": "Functional groups and homologous series",
+      "points": [
+        "A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule, that is responsible for the characteristic chemical properties of a family of organic compounds.",
+        "Examples of functional groups: –OH in alcohols and –COOH in carboxylic acids.",
+        "The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive.",
+        "Reactions take place mainly at the functional group.",
+        "Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.",
+        "A homologous series is a family of compounds with the same general formula and the same functional group.",
+        "Each member of a homologous series differs from the next by CH₂, a mass of 14.",
+        "Members of a homologous series have similar chemical properties and a gradual change in physical properties, such as boiling point rising with chain length.",
+        "Each family can be written with R for the hydrocarbon part, e.g. R–OH; see \"Representing organic molecules\"."
+      ]
+    },
+    {
+      "h": "Classification table of families",
+      "b": "Each family is listed with its general formula, ending and first member. Naming of alkanes, alkenes, alkynes and benzene is in \"Groups of hydrocarbons\".",
+      "points": [
+        "Alkanes have C–C single bonds only, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.",
+        "Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂.",
+        "Cyclohexane is named with the prefix cyclo-.",
+        "Cyclohexane is a saturated, non-polar liquid with a boiling point of 81 °C, used as a solvent.",
+        "Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes.",
+        "Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.",
+        "Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.",
+        "Aromatics are limited to benzene, C₆H₆, a planar ring of six carbons with delocalised electrons.",
+        "Haloalkanes have a halogen atom, –X (F, Cl, Br, I), in place of H, general formula CₙH₂ₙ₊₁X, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.",
+        "Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.",
+        "Aldehydes have a carbonyl group at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.",
+        "Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.",
+        "Carboxylic acids (monocarboxylic, with one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.",
+        "Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.",
+        "Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O."
+      ]
+    },
+    {
+      "h": "General IUPAC naming rules",
+      "b": "Name a compound by working through the steps in order.",
+      "points": [
+        "Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.",
+        "Step 2: add the ending for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).",
+        "Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).",
+        "Step 4: name and number branches (methyl-, ethyl-) and halogen substituents as prefixes, in alphabetical order.",
+        "Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.",
+        "Numbers are separated from each other by commas and from words by hyphens.",
+        "No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.",
+        "There is only one propanone and only one butanone, so no number is needed for them."
+      ]
+    },
+    {
+      "h": "Haloalkanes",
+      "points": [
+        "A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms.",
+        "A chloroalkane is a haloalkane that contains chlorine.",
+        "Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples.",
+        "Chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.",
+        "1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.",
+        "Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.",
+        "Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.",
+        "Trichloromethane (chloroform) was first used as an anaesthetic in 1847 by James Young Simpson in Edinburgh, but it is toxic.",
+        "Chloroethene is the monomer of PVC."
+      ]
+    },
+    {
+      "h": "Alcohols",
+      "points": [
+        "Methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.",
+        "Butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.",
+        "Pentan-1-ol and hexan-1-ol are members too.",
+        "Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.",
+        "With more than one –OH, keep the -e and add -diol or -triol.",
+        "Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups.",
+        "Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.",
+        "Methanol, with no other carbon attached, is also treated as primary.",
+        "Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH), e.g. propan-2-ol and butan-2-ol.",
+        "Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.",
+        "The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.",
+        "Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v in spirits such as whiskey.",
+        "Ethanol is a fuel and a solvent for perfumes, deodorants, hairsprays and varnishes.",
+        "Methanol is toxic.",
+        "Propan-2-ol is used in hand sanitisers and as a cleaning solvent."
+      ]
+    },
+    {
+      "h": "Aldehydes and ketones",
+      "points": [
+        "Aldehydes include methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.",
+        "The –CHO group is always at the end of the chain, and its carbon is carbon 1.",
+        "Ketones include propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.",
+        "The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.",
+        "Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.",
+        "The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.",
+        "Methanal in water, called formalin, preserves biological specimens.",
+        "Ethanal is the first product formed when the body breaks down ethanol.",
+        "Propanone is a solvent, e.g. in nail varnish remover.",
+        "Benzaldehyde gives the flavour of almonds."
+      ]
+    },
+    {
+      "h": "Carboxylic acids",
+      "points": [
+        "Members include methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.",
+        "Pentanoic acid and hexanoic acid are also members.",
+        "Naming: replace the -e of the alkane by -oic acid.",
+        "The carbon of the –COOH group is counted in the chain as carbon 1, and substituents are numbered from it.",
+        "CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid.",
+        "The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.",
+        "Carboxylic acids are acidic; see \"Acidity of carboxylic acids and alcohols\".",
+        "Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.",
+        "Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.",
+        "Ethanoic acid is used as a food flavouring and preservative.",
+        "Benzoic acid and sodium benzoate are food preservatives."
+      ]
+    },
+    {
+      "h": "Esters",
+      "points": [
+        "Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water.",
+        "The reaction is described in \"Investigation: preparing an ester\".",
+        "Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.",
+        "Step 2: name the alcohol part as an alkyl group (methyl, ethyl, propyl and so on) and write it first.",
+        "Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.",
+        "Esters of methanoic acid are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.",
+        "Esters of ethanoic acid are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.",
+        "Esters of propanoic acid are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.",
+        "The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.",
+        "HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.",
+        "Only esters made from monocarboxylic acids and primary alcohols are required.",
+        "Esters have sweet, fruity smells and give many fruits and flowers their scent.",
+        "Esters are used as food flavourings and in perfumes.",
+        "Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.",
+        "Fats and oils are esters of propane-1,2,3-triol; see \"Redox and acid–base reactions of organic compounds\"."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Functional group", "definition": "An atom or group of atoms, attached to a hydrocarbon part, that gives a family of compounds its characteristic chemical properties." },
+    { "term": "Homologous series", "definition": "A family of compounds with the same general formula and functional group, each member differing from the next by CH₂." },
+    { "term": "Carbonyl group", "definition": "The C=O group, found in aldehydes, ketones, carboxylic acids and esters." },
+    { "term": "Stem", "definition": "The part of a systematic name that gives the number of carbons in the longest chain, e.g. prop- for three carbons." },
+    { "term": "Primary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to at most one other carbon." },
+    { "term": "Secondary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to two other carbons." },
+    { "term": "Tertiary alcohol", "definition": "An alcohol in which the carbon bearing the –OH is attached to three other carbons." },
+    { "term": "Haloalkane", "definition": "An alkane in which one or more hydrogen atoms have been replaced by halogen atoms." },
+    { "term": "Carboxyl group", "definition": "The –COOH group that gives carboxylic acids their acidic character." },
+    { "term": "Ester", "definition": "A compound formed from a carboxylic acid and an alcohol, with loss of water, containing the –COO– group." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "Give the IUPAC name of each compound: (i) CH₃CH₂CHO, (ii) CH₃COCH₂CH₃, (iii) CH₃CH₂COOH, (iv) CH₃CH₂COOCH₃, (v) CH₃CH₂CH₂Cl.",
+      "model": "(i) CH₃CH₂CHO is propanal: a three-carbon chain with the –CHO carbon as carbon 1 and the -al ending. (ii) CH₃COCH₂CH₃ is butanone: a four-carbon chain with the C=O inside the chain; no number is needed because there is only one butanone. (iii) CH₃CH₂COOH is propanoic acid: a three-carbon chain with the -oic acid ending, and the –COOH carbon as carbon 1. (iv) CH₃CH₂COOCH₃ is methyl propanoate: the alcohol part, methyl, is named first, and the acid part, propanoic acid, becomes propanoate. (v) CH₃CH₂CH₂Cl is 1-chloropropane: a three-carbon chain with the chlorine on carbon 1."
+    },
+    {
+      "marks": 9,
+      "prompt": "Define primary, secondary and tertiary alcohols, and give the name and condensed formula of one example of each.",
+      "model": "A primary alcohol has the carbon bearing the –OH attached to at most one other carbon atom, for example ethanol, CH₃CH₂OH. A secondary alcohol has the carbon bearing the –OH attached to two other carbon atoms, for example propan-2-ol, CH₃CH(OH)CH₃. A tertiary alcohol has the carbon bearing the –OH attached to three other carbon atoms, for example 2-methylpropan-2-ol, (CH₃)₃COH."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is meant by a homologous series? Give two characteristics of a homologous series.",
+      "model": "A homologous series is a family of compounds with the same general formula and the same functional group, in which each member differs from the next by CH₂. Two characteristics are: the members have the same general formula, and the members have similar chemical properties. A third is a gradual trend in physical properties, such as boiling point rising with chain length."
+    }
+  ]
+}
