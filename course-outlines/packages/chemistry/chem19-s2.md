@@ -57,7 +57,7 @@ Factors that affect pH (Higher Level only; one block)
 - [ ] F2 [HL] Tendency to dissociate: at the same concentration, a strong acid has a lower pH than a weak acid; 0.10 M HCl has pH 1.00 but 0.10 M ethanoic acid (Ka 1.8 × 10⁻⁵) has pH 2.87, because the weak acid is only about 1% dissociated.
 - [ ] F3 [HL] Concentration: diluting an acid lowers [H⁺] and raises the pH. Diluting a strong acid ten times raises its pH by 1 (0.10 M HCl pH 1.00; 0.010 M HCl pH 2.00).
 - [ ] F4 [HL] Diluting a weak acid ten times raises its pH by only about 0.5 (0.10 M ethanoic acid pH 2.87; 0.010 M pH 3.37), because [H⁺] depends on the square root of its concentration and dilution makes it dissociate a larger fraction (see "Degree of dissociation").
-- [ ] F5 [HL] Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls (pH 6.14 at 100 °C; see "Self-ionisation of water"). Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.
+- [ ] F5 [HL] Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls (pH 6.15 at 100 °C; see "Self-ionisation of water"). Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.
 - [ ] F6 [HL] For a base, the pH also changes with temperature at fixed [OH⁻], because [H⁺] = Kw ÷ [OH⁻] and Kw changes: 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C.
 - [ ] F7 [HL] pH measures acidity (the [H⁺] in the solution), not the strength of the acid: a very dilute strong acid can have a higher pH than a concentrated weak acid (1.0 × 10⁻⁵ M HCl has pH 5.00; 1.0 M ethanoic acid has pH 2.37).
 

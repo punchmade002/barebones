@@ -1,0 +1,122 @@
+{
+  "loId": "chem17-s4",
+  "chapterId": "chem17",
+  "subsection": "4. Catalysis and energy profiles",
+  "syllabusRef": "3.2.4",
+  "notes": [
+    {
+      "h": "Catalysts",
+      "points": [
+        "A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.",
+        "A catalyst works by providing an alternative reaction pathway with a lower activation energy.",
+        "Only a small amount of catalyst is needed, because it is not used up.",
+        "Catalysts tend to be specific: a catalyst speeds up one reaction or one type of reaction.",
+        "A catalyst's physical form can change, e.g. a powder may become finer, but it is chemically unchanged and can be recovered.",
+        "Manganese(IV) oxide filtered off after decomposing hydrogen peroxide has the same mass as it had at the start.",
+        "A catalyst does not change ΔH or the amount of product formed; it speeds up the forward and reverse reactions equally (see “Le Châtelier's principle”).",
+        "Without a catalyst, hydrogen peroxide decomposes very slowly on its own at room temperature.",
+        "With manganese(IV) oxide added, hydrogen peroxide decomposes rapidly, with vigorous fizzing of oxygen."
+      ]
+    },
+    {
+      "h": "Types of catalysis",
+      "points": [
+        "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them.",
+        "Homogeneous example: iodide ions, from potassium iodide solution, catalyse the decomposition of hydrogen peroxide solution.",
+        "Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them.",
+        "Heterogeneous example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide.",
+        "Heterogeneous example: solid iron catalyses the Haber process for ammonia, in which the reactants are gases.",
+        "Heterogeneous example: a hot platinum wire held above methanol catalyses its oxidation by air: 2CH₃OH(g) + O₂(g) → 2HCHO(g) + 2H₂O(g).",
+        "The platinum wire keeps glowing red because the reaction on its surface is exothermic.",
+        "The products are methanal and water; methanol and methanal are toxic, and methanol is flammable.",
+        "“Phase” means solid, liquid, gas or solution; solid MnO₂ in aqueous H₂O₂ is heterogeneous even though both are in one flask.",
+        "Autocatalysis: a product of the reaction is a catalyst for it, so the reaction starts slowly and speeds up as the product builds up.",
+        "Autocatalysis example: Mn²⁺ ions are formed when potassium permanganate reacts with iron(II) or ethanedioate ions (see “Redox titrations”)."
+      ]
+    },
+    {
+      "h": "Catalytic converters",
+      "points": [
+        "A catalytic converter in a car exhaust uses the metals platinum, palladium and rhodium.",
+        "The metals are spread thinly on a ceramic honeycomb, giving a very large surface area, inside a steel case.",
+        "It converts harmful exhaust gases (carbon monoxide, nitrogen oxides and unburnt hydrocarbons) into carbon dioxide, nitrogen and water.",
+        "Example: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).",
+        "It is heterogeneous catalysis: a solid catalyst acting on gaseous reactants.",
+        "Environmental benefit: it reduces carbon monoxide, which is toxic, nitrogen oxides, which cause acid rain and smog, and unburnt hydrocarbons in the air.",
+        "Poisoning of its catalysts is explained in “Collision theory”."
+      ]
+    },
+    {
+      "h": "Enzymes: biological catalysts",
+      "points": [
+        "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things.",
+        "Catalase, found in liver and potato, catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).",
+        "Catalase is one of the fastest-acting enzymes known: a piece of liver added to hydrogen peroxide fizzes vigorously.",
+        "Amylase, in saliva, catalyses the breakdown of starch into the sugar maltose.",
+        "Enzymes in yeast, called zymase, catalyse the fermentation of glucose: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).",
+        "Enzymes are very specific: each acts on one substance, its substrate, or one type of reaction, because the substrate must fit the enzyme's active site.",
+        "Enzymes work best at an optimum temperature, about 37 °C (body temperature) for human enzymes, and at an optimum pH.",
+        "High temperatures and extreme pH denature enzymes by changing the shape of the active site, so they stop working.",
+        "Biological washing powders contain enzymes, such as proteases for protein stains and lipases for fats, that clean at lower wash temperatures, saving energy."
+      ]
+    },
+    {
+      "h": "Energy profile diagrams",
+      "points": [
+        "An energy profile diagram plots energy on the y-axis against progress of reaction on the x-axis.",
+        "For an exothermic reaction the products are lower than the reactants and ΔH is negative; for an endothermic reaction the products are higher and ΔH is positive.",
+        "The curve rises from the reactants to a peak and falls to the products.",
+        "The peak is the activated complex (transition state): the high-energy arrangement of atoms in which old bonds are partly broken and new bonds partly formed; it cannot be isolated.",
+        "The activated complex is not an intermediate: an intermediate sits in a dip between two peaks and can sometimes be detected.",
+        "Activation energy (Ea) is the height from the reactant level up to the peak.",
+        "ΔH is the difference between the reactant and product levels.",
+        "For an endothermic reaction Ea is always greater than ΔH, since the peak is above the products.",
+        "The activation energy of the reverse reaction is the height from the product level up to the peak, so Ea(reverse) = Ea(forward) − ΔH.",
+        "Sample data: a forward Ea of 100 kJ mol⁻¹ and ΔH of −60 kJ mol⁻¹ give a reverse Ea of 100 − (−60) = 160 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Catalysed and uncatalysed profiles compared",
+      "points": [
+        "On the same axes, the catalysed pathway is drawn as a lower peak between the same reactant and product levels.",
+        "The catalyst lowers the activation energy; the reactant and product energy levels, and so ΔH, are unchanged.",
+        "Exothermic reaction: both curves start at the reactant level and end at the lower product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is negative and the same for both.",
+        "Endothermic reaction: both curves start at the reactant level and end at the higher product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is positive and the same for both.",
+        "The catalyst lowers the activation energy of the reverse reaction by the same amount as the forward one.",
+        "The catalysed pathway may show two or more smaller humps with a dip between them when it goes through an intermediate (see “Catalytic mechanisms”).",
+        "With a lower Ea, a much greater fraction of collisions have enough energy to react; on the energy-distribution curve (see “Collision theory”), the Ea line moves to the left and the area beyond it increases, at the same temperature.",
+        "Arrows for Ea start at the reactant level, not the axis; the ΔH arrow runs from the reactants to the products.",
+        "Diagram: two energy profile diagrams, exothermic and endothermic, each with axes “energy” and “progress of reaction”, reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower dashed peak, and Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Catalyst", "definition": "A substance that alters the rate of a chemical reaction but is chemically unchanged at the end of it." },
+    { "term": "Homogeneous catalysis", "definition": "Catalysis in which the catalyst and the reactants are in the same phase, with no boundary between them." },
+    { "term": "Heterogeneous catalysis", "definition": "Catalysis in which the catalyst and the reactants are in different phases, with a boundary between them." },
+    { "term": "Autocatalysis", "definition": "Catalysis in which a product of the reaction is a catalyst for it, so the reaction speeds up as the product builds up." },
+    { "term": "Enzyme", "definition": "A protein produced by living cells that acts as a biological catalyst." },
+    { "term": "Active site", "definition": "The part of an enzyme where the substrate binds and the reaction takes place." },
+    { "term": "Denature", "definition": "To change the shape of an enzyme's active site, usually by high temperature or extreme pH, so that it stops working." },
+    { "term": "Activated complex", "definition": "The high-energy arrangement of atoms at the peak of an energy profile, in which old bonds are partly broken and new bonds partly formed." },
+    { "term": "Energy profile diagram", "definition": "A graph of energy against progress of reaction showing the reactant and product levels, ΔH and the activation energy." },
+    { "term": "Optimum temperature", "definition": "The temperature at which an enzyme works fastest, about 37 °C for human enzymes." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Draw labelled energy profile diagrams for an endothermic reaction (i) without a catalyst and (ii) with a catalyst, on the same axes. Mark the activation energies and ΔH, and explain how the catalyst increases the rate.",
+      "model": "Diagram: axes labelled energy (y-axis) and progress of reaction (x-axis). The reactants are at a lower level and the products at a higher level, since the reaction is endothermic with ΔH positive. The uncatalysed curve rises to a high peak; Ea (uncatalysed) is the height from the reactant level to that peak. The catalysed curve, drawn dashed, rises to a lower peak between the same reactant and product levels; Ea (catalysed) is the height from the reactant level to this lower peak. ΔH is marked with an arrow from the reactant level to the product level. Explanation: the catalyst provides an alternative pathway with a lower activation energy, so a greater fraction of collisions have enough energy to react and the rate increases. The reactant and product levels are unchanged, so ΔH is the same for both curves. For an endothermic reaction Ea is greater than ΔH."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between homogeneous and heterogeneous catalysis, giving one example of each and naming the catalyst.",
+      "model": "Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them. Example: iodide ions catalyse the decomposition of hydrogen peroxide solution, 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them. Example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide; solid iron catalyses the Haber process for ammonia, in which the reactants are gases."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is an enzyme? Name one enzyme and the reaction it catalyses, and explain why enzymes stop working at high temperature.",
+      "model": "An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things. Example: catalase catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism, into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Enzymes stop working at high temperature because the heat denatures them: it changes the shape of the active site, so the substrate no longer fits and cannot be catalysed."
+    }
+  ]
+}

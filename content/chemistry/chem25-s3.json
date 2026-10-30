@@ -1,0 +1,120 @@
+{
+  "loId": "chem25-s3",
+  "chapterId": "chem25",
+  "subsection": "3. Reaction schemes",
+  "syllabusRef": "4.2.7",
+  "notes": [
+    {
+      "h": "What a reaction scheme shows",
+      "points": [
+        "A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.",
+        "A scheme shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps; this is organic synthesis.",
+        "To read a scheme, name each compound and its functional group, then for each arrow compare the formulae before and after.",
+        "Decide what has been added, removed or swapped at each arrow, then name the reaction type and the reagent.",
+        "A formula change of +H₂ across C=C or C=O is addition or reduction; a change of −2H is oxidation; a change of +O is oxidation.",
+        "A change of −H₂O or −HCl with a new C=C bond is elimination; one atom swapped for another is substitution.",
+        "A carboxylic acid converted to its sodium salt is an acid–base reaction."
+      ]
+    },
+    {
+      "h": "The two-carbon scheme",
+      "points": [
+        "Ethane to chloroethane: chlorine in ultraviolet light (substitution).",
+        "Ethene to ethane: hydrogen with a nickel catalyst (addition; reduction).",
+        "Ethene to chloroethane: hydrogen chloride (addition).",
+        "Ethene to 1,2-dichloroethane: chlorine (addition).",
+        "Ethene to 1,2-dibromoethane: bromine (addition).",
+        "Ethene to ethanol: water (addition).",
+        "Ethanol to ethene: heated aluminium oxide (elimination).",
+        "Chloroethane to ethene: loss of HCl (elimination).",
+        "Ethanol to ethanal to ethanoic acid: acidified potassium permanganate, as two oxidation steps.",
+        "Ethanal to ethanol: hydrogen with a nickel catalyst (reduction).",
+        "Ethanoic acid and ethanol give ethyl ethanoate and water, with concentrated sulfuric acid as catalyst (substitution, esterification).",
+        "Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis).",
+        "Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).",
+        "Ethene to poly(ethene) by addition polymerisation.",
+        "1,2-dichloroethane to chloroethene by elimination of HCl, then polymerisation to poly(chloroethene), PVC.",
+        "Diagram: the two-carbon scheme as a map, with ethene at the centre and arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with its reagent and reaction type."
+      ]
+    },
+    {
+      "h": "Three-carbon and other examples",
+      "points": [
+        "Propan-1-ol (a primary alcohol) to propanal to propanoic acid: acidified potassium permanganate (oxidation).",
+        "Propan-2-ol (a secondary alcohol) to propanone: acidified potassium permanganate (oxidation).",
+        "Propanone to propan-2-ol: hydrogen with nickel (reduction).",
+        "Propan-2-ol to propene and water (elimination).",
+        "Propene to propane: hydrogen with nickel (addition).",
+        "Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation); see \"Investigation: synthesising benzoic acid\".",
+        "Working backwards: a scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.",
+        "An alkene can come from an alcohol by elimination, or go to an alcohol by addition of water.",
+        "Carbon atoms are neither gained nor lost in these steps, except in esterification, which joins two molecules, and hydrolysis, which splits them, so the carbon skeleton checks each answer."
+      ]
+    },
+    {
+      "h": "Predicting reactions and products (Higher Level only)",
+      "points": [
+        "To predict a product, identify the functional group and apply its typical reaction.",
+        "An alkene with X₂, HX, H₂O or H₂ gives an addition product.",
+        "A primary alcohol with an oxidising agent gives an aldehyde, then a carboxylic acid; a carboxylic acid with an alcohol gives an ester; an ester with NaOH gives a salt and an alcohol.",
+        "Example: ethene to ethanoic acid in two steps, by adding water to give ethanol (addition), then oxidising with excess acidified potassium permanganate (oxidation).",
+        "Example: ethanal to ethyl ethanoate, by reducing part of the ethanal to ethanol with H₂ and nickel, oxidising another part to ethanoic acid with acidified KMnO₄, then esterifying the two with concentrated H₂SO₄.",
+        "Example: chloroethane to ethanol in two steps, by eliminating HCl to give ethene, then adding water.",
+        "Example: heating propan-1-ol with methanoic acid gives propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol supplies the propyl part and the acid supplies the methanoate part."
+      ]
+    },
+    {
+      "h": "Changes in geometry (Higher Level only)",
+      "points": [
+        "A carbon atom with four single bonds is tetrahedral, with bond angles of about 109.5°.",
+        "A carbon atom in a C=C or C=O double bond is planar (trigonal planar), with bond angles of about 120°.",
+        "Addition to C=C, as in ethene to ethane, ethene to ethanol or polymerisation, changes the two carbon atoms from planar to tetrahedral.",
+        "Elimination, as in ethanol to ethene, changes the two carbon atoms from tetrahedral to planar.",
+        "Oxidising an alcohol to an aldehyde or ketone changes the carbon bearing the oxygen from tetrahedral to planar.",
+        "Reducing an aldehyde or ketone to an alcohol changes that carbon from planar to tetrahedral.",
+        "Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry.",
+        "Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.",
+        "Ethanol and ethane have only tetrahedral carbon atoms."
+      ]
+    },
+    {
+      "h": "Why some reactions are not possible (Higher Level only)",
+      "points": [
+        "Tertiary alcohols, such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.",
+        "The carbon bearing the –OH group of a tertiary alcohol has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.",
+        "Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.",
+        "Alkanes and poly(ethene) cannot undergo addition, because they are saturated and have no pi bond, so they do not decolourise bromine water.",
+        "Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.",
+        "Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons make the ring unusually stable, so it resists addition; see \"Shapes: sigma and pi bonds\".",
+        "Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Reaction scheme", "definition": "A diagram linking organic compounds by arrows, each labelled with the reagent and, where useful, the reaction type." },
+    { "term": "Organic synthesis", "definition": "The making of a target organic compound from simpler starting materials, usually in several steps." },
+    { "term": "Primary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to one other carbon atom." },
+    { "term": "Secondary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to two other carbon atoms." },
+    { "term": "Tertiary alcohol", "definition": "An alcohol in which the carbon bearing the –OH group is bonded to three other carbon atoms." },
+    { "term": "Tetrahedral carbon", "definition": "A carbon atom bonded to four atoms by single bonds, with bond angles of about 109.5°." },
+    { "term": "Planar carbon", "definition": "A carbon atom in a C=C or C=O double bond, with bond angles of about 120°." },
+    { "term": "Functional group", "definition": "The atom or group of atoms in an organic molecule that determines its typical reactions." }
+  ],
+  "questions": [
+    {
+      "marks": 10,
+      "prompt": "In the scheme ethene → ethanol → ethanal → ethanoic acid, name the reagent and the type of reaction for each step.",
+      "model": "Step 1, ethene to ethanol: water is added across the double bond, so the reagent is water and the reaction is addition. Step 2, ethanol to ethanal: acidified potassium permanganate is the reagent, and the reaction is oxidation (loss of two H atoms). Step 3, ethanal to ethanoic acid: acidified potassium permanganate is the reagent, and the reaction is oxidation (gain of an O atom)."
+    },
+    {
+      "marks": 12,
+      "prompt": "(a) State how the geometry around the carbon atoms changes when ethene is converted to ethanol. (b) Explain why 2-methylpropan-2-ol cannot be oxidised to an aldehyde or ketone. (c) Suggest a two-step route from chloroethane to ethanol, naming the type of each step.",
+      "model": "(a) Each carbon atom of the C=C bond in ethene is planar, with bond angles of about 120°. In ethanol both carbons are tetrahedral, with bond angles of about 109.5°, so the carbons change from planar to tetrahedral. (b) 2-methylpropan-2-ol is a tertiary alcohol. The carbon bearing the –OH group has no hydrogen atom to lose, and oxidation would have to break a C–C bond, so no oxidation occurs with acidified permanganate. (c) Step 1: chloroethane loses HCl to form ethene, CH₃CH₂Cl → CH₂=CH₂ + HCl, an elimination reaction. Step 2: ethene adds water to form ethanol, CH₂=CH₂ + H₂O → CH₃CH₂OH, an addition reaction."
+    },
+    {
+      "marks": 6,
+      "prompt": "Which of the compounds ethene, ethanal and ethanol has no tetrahedral carbon atom, and which has exactly one planar carbon atom? Explain.",
+      "model": "Ethene has no tetrahedral carbon atom, because both of its carbon atoms are in the C=C double bond and are planar, with bond angles of about 120°. Ethanal has exactly one planar carbon atom, the C=O carbon with bond angles of about 120°, and one tetrahedral carbon, the CH₃ carbon with bond angles of about 109.5°. Ethanol has only tetrahedral carbon atoms, so it has no planar carbon."
+    }
+  ]
+}

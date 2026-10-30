@@ -40,7 +40,7 @@ Temperature dependence of Kw (Higher Level only; one block)
 - [ ] T1 [HL] Self-ionisation is endothermic in the forward direction (ΔH about +56 kJ mol⁻¹): it is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic.
 - [ ] T2 [HL] By Le Châtelier's principle, raising the temperature shifts the equilibrium to the right (the endothermic direction), producing more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.
 - [ ] T3 [HL] Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.
-- [ ] T4 [HL] Values: 0 °C, 1.1 × 10⁻¹⁵ (neutral pH 7.47); 25 °C, 1.0 × 10⁻¹⁴ (pH 7.00); 50 °C, 5.5 × 10⁻¹⁴ (pH 6.63); 100 °C, 5.1 × 10⁻¹³ (pH 6.14).
+- [ ] T4 [HL] Values: 0 °C, 1.1 × 10⁻¹⁵ (neutral pH 7.48); 25 °C, 1.0 × 10⁻¹⁴ (pH 7.00); 50 °C, 5.5 × 10⁻¹⁴ (pH 6.63); 100 °C, 5.1 × 10⁻¹³ (pH 6.15).
 - [ ] T5 [HL] Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.
 - [ ] T6 [HL] So pH 7 is the neutral point only at 25 °C; at higher temperatures the neutral pH is lower, at lower temperatures higher.
 
@@ -50,7 +50,7 @@ Temperature dependence of Kw (Higher Level only; one block)
 |---|---|
 | K2 | [H₂O] in pure water = 1000 ÷ 18 = 55.6 mol L⁻¹ (density 1.00 g cm⁻³). |
 | S4 | Fraction ionised at 25 °C = 1.0 × 10⁻⁷ ÷ 55.6 = 1.8 × 10⁻⁹. |
-| K5, T4 | Kw: 0 °C 1.1 × 10⁻¹⁵; 25 °C 1.0 × 10⁻¹⁴; 50 °C 5.5 × 10⁻¹⁴; 100 °C 5.1 × 10⁻¹³. Neutral pH from √Kw: 7.47, 7.00, 6.63, 6.14 (checked). |
+| K5, T4 | Kw: 0 °C 1.1 × 10⁻¹⁵; 25 °C 1.0 × 10⁻¹⁴; 50 °C 5.5 × 10⁻¹⁴; 100 °C 5.1 × 10⁻¹³. Neutral pH from √Kw: 7.48, 7.00, 6.63, 6.15 (checked). |
 | T1 | ΔH for H₂O(l) → H⁺(aq) + OH⁻(aq) ≈ +56 kJ mol⁻¹ at 25 °C. |
 
 ## 3. Traps

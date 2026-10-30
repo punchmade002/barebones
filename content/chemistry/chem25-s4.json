@@ -1,0 +1,99 @@
+{
+  "loId": "chem25-s4",
+  "chapterId": "chem25",
+  "subsection": "4. Investigation: preparing an ester",
+  "syllabusRef": "4.2.8",
+  "notes": [
+    {
+      "h": "Aim and chemistry",
+      "points": [
+        "Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux.",
+        "Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.",
+        "Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.",
+        "The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.",
+        "Esterification is slow and reversible: it reaches an equilibrium with only part of the acid and alcohol converted.",
+        "The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.",
+        "Isotope evidence: when the alcohol is labelled with oxygen-18, the ¹⁸O is found in the ester, not in the water.",
+        "So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.",
+        "The specification needs only esters made from monocarboxylic acids and primary alcohols."
+      ]
+    },
+    {
+      "h": "Method: heating under reflux",
+      "points": [
+        "In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.",
+        "Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic.",
+        "Add a few anti-bumping granules.",
+        "Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.",
+        "Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.",
+        "Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top."
+      ]
+    },
+    {
+      "h": "Isolating and purifying the ester",
+      "points": [
+        "Cool the flask, then pour the mixture into a separating funnel with some water and shake.",
+        "The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.",
+        "Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.",
+        "Run off the lower aqueous layer.",
+        "Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride to remove water; swirl until the liquid is clear, then decant or filter it.",
+        "Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.",
+        "Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.",
+        "Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap."
+      ]
+    },
+    {
+      "h": "Why each step is needed",
+      "points": [
+        "Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.",
+        "Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.",
+        "A water bath or heating mantle is used rather than a Bunsen burner, because methanol and the ester are flammable; it also gives gentle, even heating.",
+        "Anti-bumping granules give smooth boiling by providing sites for small bubbles to form, which prevents sudden violent boiling (bumping).",
+        "The condenser is never stoppered, because heating a closed system would build up pressure.",
+        "Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.",
+        "The pressure in the separating funnel must be released because carbon dioxide is produced.",
+        "Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product."
+      ]
+    },
+    {
+      "h": "Safety, yield and errors",
+      "points": [
+        "Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.",
+        "Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.",
+        "The yield is well below 100%, because the reaction is an equilibrium.",
+        "Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.",
+        "Percentage yield = actual mass ÷ theoretical mass × 100; see \"Theoretical, actual and percentage yield\".",
+        "Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.",
+        "Not releasing the pressure in the separating funnel can blow out the stopper and lose product.",
+        "Heating too strongly lets vapour escape from the top of the condenser."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Esterification", "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by concentrated sulfuric acid, to give an ester and water." },
+    { "term": "Ester", "definition": "An organic compound with the –COO– group linking two carbon chains, formed from a carboxylic acid and an alcohol." },
+    { "term": "Reflux", "definition": "Heating a reaction mixture with a vertical condenser, so that vapour condenses and returns to the flask." },
+    { "term": "Equilibrium", "definition": "The state of a reversible reaction in which the forward and back reactions proceed at equal rates, so the concentrations stop changing." },
+    { "term": "Anti-bumping granules", "definition": "Small pieces of inert material added to a liquid to give smooth boiling." },
+    { "term": "Anhydrous calcium chloride", "definition": "A drying agent that removes water from an organic liquid." },
+    { "term": "Separating funnel", "definition": "A funnel with a tap, used to separate two immiscible liquids by their densities." },
+    { "term": "Monocarboxylic acid", "definition": "A carboxylic acid with one –COOH group in each molecule." }
+  ],
+  "questions": [
+    {
+      "marks": 15,
+      "prompt": "Describe, with the aid of a labelled diagram, how you would prepare a sample of methyl propanoate using a reflux method, and how you would obtain a pure, dry sample of the ester.",
+      "model": "Equation: CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O. Put about 10 cm³ each of propanoic acid and methanol into a round-bottomed flask in a fume cupboard, add about 1 cm³ of concentrated sulfuric acid slowly with swirling and cooling, and add anti-bumping granules. Fit a vertical Liebig condenser with cold water entering at the bottom, leave the top open, and heat in a water bath so that the mixture boils gently under reflux for 20 to 30 minutes. The diagram should show the flask in the water bath, the condenser and the open top. Cool the flask and pour the mixture into a separating funnel with water. Shake, and run off the lower aqueous layer, keeping the upper ester layer. Shake the ester with sodium carbonate solution, opening the tap to release carbon dioxide, and run off the lower layer. Run the ester into a dry conical flask, add anhydrous calcium chloride, swirl until clear and decant or filter. Distil the dry ester, collecting the fraction at about 80 °C. The reflux stage prevents loss of volatile material, and the distillation separates the pure ester by boiling point."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain the purpose of (i) refluxing, (ii) the concentrated sulfuric acid, (iii) washing with sodium carbonate solution, (iv) anhydrous calcium chloride, in the preparation of an ester.",
+      "model": "(i) Refluxing allows the mixture to be heated for a long time without losing volatile reactants and product, because vapour condenses in the condenser and drips back into the flask. (ii) Concentrated sulfuric acid is the catalyst, providing H⁺ ions, and it absorbs water, which shifts the equilibrium towards the ester. (iii) Sodium carbonate solution neutralises the remaining acid, forming carbon dioxide, Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂, without destroying the ester. (iv) Anhydrous calcium chloride removes water from the ester, so the ester is dry before distillation."
+    },
+    {
+      "marks": 6,
+      "prompt": "Ethanol containing the isotope oxygen-18 was heated with ethanoic acid and a little sulfuric acid. Name the ester formed and state where the oxygen-18 is found in the products.",
+      "model": "The ester formed is ethyl ethanoate, CH₃COOC₂H₅. The oxygen-18 is found in the ester, specifically in the oxygen that joins the two parts of the ester, because that oxygen comes from the alcohol. None of the oxygen-18 is found in the water, which takes its oxygen from the acid."
+    }
+  ]
+}
