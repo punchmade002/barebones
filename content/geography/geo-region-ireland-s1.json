@@ -26,7 +26,7 @@
     {
       "h": "Sketch map: what to draw",
       "points": [
-        "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north, Kildare to the west.",
+        "Outline the four counties: Dublin and Wicklow on the coast, Meath to the north (with a short coastline south of the Boyne estuary), Kildare to the west.",
         "Draw the River Liffey from the Wicklow Mountains, through Kildare, to Dublin Bay.",
         "Draw the River Boyne through Trim and Navan, reaching the sea at Drogheda, just outside the GDA.",
         "Mark Dublin city, and the towns of Navan, Naas and Bray.",
@@ -152,7 +152,7 @@
     {
       "h": "Mining and quarrying",
       "points": [
-        "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine producing since 1977.",
+        "Tara Mines at Navan, Co. Meath, is an underground zinc and lead mine, opened in 1977 (paused from July 2023, restarted at the end of 2024).",
         "Tara Mines is Europe's largest zinc mine and is owned by Boliden.",
         "Sand and gravel are quarried from glacial deposits for construction.",
         "Granite is quarried at Ballyknockan, Co. Wicklow.",
@@ -351,7 +351,7 @@
       "points": [
         "Dublin was founded as a Viking settlement in 841.",
         "Norman rule expanded the town in medieval times.",
-        "The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares.",
+        "The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets; squares such as Merrion Square were developed by private estates.",
         "Georgian Dublin grew into a planned capital with wide streets and squares."
       ]
     },
@@ -502,7 +502,7 @@
     { "term": "Greater Dublin Area agriculture: factors that favour farming", "definition": "A dry, relatively sunny climate for tillage and horticulture; flat lowland for large, mechanised fields; deep, fertile brown earths; the huge Dublin market on the doorstep; Dublin Port and Airport for exports; EU and Irish policy and modern technology." },
     { "term": "Greater Dublin Area agriculture: farm types and where they are", "definition": "Meath: beef fattening and tillage on large farms. Kildare: bloodstock, with the Curragh racecourse and the Irish National Stud at Tully. Fingal: horticulture (field vegetables, glasshouse crops) around Rush and Lusk. Wicklow: sheep on upland pasture." },
     { "term": "Greater Dublin Area agriculture: problems farmers face", "definition": "Urban sprawl takes farmland; high land prices push farmers to sell to developers; part-time farming near the city; costly and scarce seasonal labour for horticulture; competition from imported vegetables; changes to the CAP." },
-    { "term": "Tara Mines and other mining and quarrying in the Greater Dublin Area", "definition": "Tara Mines, Navan: underground zinc and lead mine, producing since 1977, Europe's largest zinc mine, owned by Boliden. Sand and gravel from glacial deposits; granite at Ballyknockan, Co. Wicklow. Bord na Móna has ended peat harvesting in the Bog of Allen." },
+    { "term": "Tara Mines and other mining and quarrying in the Greater Dublin Area", "definition": "Tara Mines, Navan: underground zinc and lead mine, opened in 1977, Europe's largest zinc mine, owned by Boliden. Sand and gravel from glacial deposits; granite at Ballyknockan, Co. Wicklow. Bord na Móna has ended peat harvesting in the Bog of Allen." },
     { "term": "Greater Dublin Area energy: named sites and facts", "definition": "Poolbeg, Ringsend: gas-fired power and the Dublin Waste-to-Energy incinerator (since 2017). Turlough Hill: ESB pumped storage (1974). Arklow Bank: Ireland's first offshore wind farm. Data centres used about a fifth of Ireland's metered electricity in 2023." },
     { "term": "Greater Dublin Area manufacturing: how its location pattern changed", "definition": "Older brewing, food and port industries near Dublin Port and the inner city declined; newer high-tech and pharmaceutical plants are in suburban business parks and towns near the M50 and motorways, such as Grange Castle, Leixlip and Blanchardstown." },
     { "term": "Intel, Pfizer and Guinness: Greater Dublin Area manufacturing examples", "definition": "Intel, Leixlip, Co. Kildare: opened 1989, Ireland's largest private-sector investment (billions of euro), near the M4. Pfizer: biopharmaceuticals at Grange Castle Business Park, Clondalkin. Guinness: St James's Gate Brewery, founded 1759 on a 9,000-year lease." },
@@ -531,7 +531,7 @@
       "type": "short",
       "marks": 30,
       "prompt": "Examine the factors that have influenced the development of Dublin as an urban area.",
-      "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, laid out Georgian streets and squares. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion."
+      "model": "Site: 1) Dublin grew at the lowest bridging point of the Liffey. 2) The city is sheltered by Dublin Bay. Route focus and port: 3) Roads and routeways radiate from the city, linking it to the rest of the region. 4) The harbour on the Liffey gave the Viking settlement, founded in 841, a trading role. Capital-city functions: 5) National government, administration and services concentrate in the city. Industry and services: 6) Brewing and food processing grew near the port; Guinness's St James's Gate Brewery was founded in 1759. 7) The IFSC, set up in 1987, brought financial services to the Custom House Docks. 8) Google's European headquarters on Barrow Street is part of Silicon Docks. Planning: 9) The Wide Streets Commissioners, set up in 1757, widened and laid out Georgian streets. 10) The Wright Report, 1967, proposed new towns at Tallaght, Clondalkin and Lucan. 11) Ballymun high-rise flats, built in the 1960s, were demolished during regeneration from the 2000s. 12) Temple Bar was regenerated in the 1990s as a cultural quarter. 13) The Dublin Docklands Development Authority, set up in 1997, regenerated the docklands. 14) Commuter towns such as Navan, Naas and Bray have grown with the city's expansion."
     },
     {
       "type": "short",

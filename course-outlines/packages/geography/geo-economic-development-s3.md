@@ -78,7 +78,7 @@ Do not name any place, date or figure that is not on this list. Every figure is 
 
 | Item | Example(s) |
 |---|---|
-| K2 | Berlin Conference, 1884–85, divided Africa among European powers. By 1914 only Ethiopia and Liberia in Africa were independent of European rule. |
+| K2 | Berlin Conference, 1884–85, set the rules for European claims in Africa; the powers then divided Africa among themselves. By 1914 only Ethiopia and Liberia in Africa were independent of European rule. |
 | K9 | Structural adjustment programmes: conditions attached to IMF and World Bank loans in the 1980s–90s (cut government spending, privatise, open to trade, devalue the currency). |
 | I1 | East India Company chartered 31 December 1600. Battle of Plassey, 1757 (Robert Clive). Rebellion of 1857; Government of India Act 1858 transferred rule to the British Crown. Independence and Partition, 15 August 1947. |
 | I2 | Economic historian Angus Maddison estimated India's share of world GDP at about a quarter around 1700 and about 4% by 1950. Lancashire (north-west England) cotton mills. Dhaka (now in Bangladesh) muslin. Give these as estimates. |
