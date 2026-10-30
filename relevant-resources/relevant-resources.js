@@ -11,12 +11,12 @@
       status: "Current",
     },
     pe: {
-      title: "Leaving Certificate Physical Education Curriculum Specification",
+      title: "Leaving Certificate Physical Education (2018) Curriculum Specification",
       path: "./relevant-resources/syllabi/pe.pdf",
       sourceUrl: "https://www.curriculumonline.ie/getmedia/41817053-8f40-4365-8893-dba1a68508f3/LCPE_Specification_en.pdf",
       documentType: "Curriculum specification",
-      effectiveFrom: "2018",
-      status: "Current",
+      effectiveFrom: "September 2018; first examined 2020",
+      status: "Current; examined to June 2027. Topics 9 and 10 prescribed for 2027 (SEC S51/25)",
     },
     biology: {
       title: "Leaving Certificate Biology Curriculum Specification",
