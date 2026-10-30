@@ -1,0 +1,77 @@
+{
+  "loId": "chem9-s3",
+  "chapterId": "chem9",
+  "subsection": "3. Using the kinetic theory",
+  "syllabusRef": "1.1.2",
+  "notes": [
+    {
+      "h": "Explaining the properties of the states",
+      "points": [
+        "Solids have a fixed shape and volume and cannot be compressed: the particles are held tightly in fixed positions by strong forces and only vibrate.",
+        "Liquids have a fixed volume but take the shape of their container and flow: the particles are close together but can slide past one another.",
+        "Gases fill their container and are easily compressed: the particles are far apart, with weak forces between them, and move rapidly and randomly.",
+        "Gas pressure is caused by gas particles colliding with the walls of the container."
+      ]
+    },
+    {
+      "h": "Changes of state",
+      "b": "Each change of state is explained by the energy of the particles and the forces between them.",
+      "points": [
+        "Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another; this happens at the melting point.",
+        "Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.",
+        "Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and the remaining liquid cools.",
+        "Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour form within the liquid.",
+        "Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.",
+        "Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.",
+        "Deposition (gas to solid directly), the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.",
+        "Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition."
+      ]
+    },
+    {
+      "h": "Heating curve",
+      "points": [
+        "When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.",
+        "During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy, so the temperature does not rise.",
+        "The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.",
+        "The boiling plateau is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.",
+        "Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C."
+      ]
+    },
+    {
+      "h": "Assumptions of the model (Higher Level only)",
+      "b": "The kinetic theory is a model. Its assumptions and limitations show when it explains behaviour well and when it does not.",
+      "points": [
+        "Assumption: the particles are tiny spheres in constant, random motion.",
+        "Assumption: the higher the temperature, the greater the average kinetic energy of the particles.",
+        "Assumption: collisions between particles are perfectly elastic, so no kinetic energy is lost.",
+        "Assumption: in a gas the volume of the particles themselves is negligible, and there are no forces between the particles except during collisions.",
+        "Limitation: real particles are not hard spheres, and they do attract one another; the forces between particles are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.",
+        "Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points; that needs the types of bonding and intermolecular forces (see “Intermolecular forces and physical properties”).",
+        "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative, giving no values.",
+        "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, so gases deviate from the model (see “Gas relationships and the ideal gas”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Melting", "definition": "The change of state from solid to liquid when the particles gain enough energy to move past one another." },
+    { "term": "Freezing", "definition": "The change of state from liquid to solid as the particles lose energy and are pulled into fixed positions." },
+    { "term": "Evaporation", "definition": "The escape of the fastest-moving particles from the surface of a liquid at any temperature below the boiling point." },
+    { "term": "Boiling", "definition": "The change of state from liquid to gas throughout the liquid, at the boiling point, with bubbles of vapour forming within it." },
+    { "term": "Condensation", "definition": "The change of state from gas to liquid as the particles are cooled and pulled close together." },
+    { "term": "Sublimation", "definition": "The change of state from solid directly to gas, without melting." },
+    { "term": "Deposition", "definition": "The change of state from gas directly to solid, without becoming a liquid." },
+    { "term": "Heating curve", "definition": "A graph of temperature against time for a substance heated at a steady rate, with flat sections at its melting and boiling points." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Use the kinetic theory to explain what happens to the particles when ice melts and when water boils, and why the temperature remains constant during each change.",
+      "model": "When ice melts at 0 °C, heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in fixed positions, so they move past one another as a liquid. When water boils at 100 °C, particles throughout the liquid gain enough energy to overcome the forces between them, so they separate and form bubbles of vapour within the liquid. During each change the temperature stays constant because the energy supplied is used to overcome the forces between the particles, not to increase their kinetic energy."
+    },
+    {
+      "marks": 6,
+      "prompt": "State two assumptions of the kinetic theory and one limitation of the model.",
+      "model": "Assumption 1: the particles are tiny spheres in constant, random motion. Assumption 2: collisions between particles are perfectly elastic, so no kinetic energy is lost. Limitation: real particles are not hard spheres and they do attract one another; the forces between particles, which decide melting and boiling points, are ignored by the simple gas model."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "loId": "chem4-s2",
+  "chapterId": "chem4",
+  "subsection": "2. Groups, periods and blocks",
+  "syllabusRef": "1.3.3",
+  "notes": [
+    {
+      "h": "Groups: vertical columns",
+      "b": "The table is arranged so that elements with the same outer electrons fall in the same column.",
+      "points": [
+        "A group is a vertical column of elements; using IUPAC numbering there are 18 groups, numbered 1 to 18.",
+        "Elements in the same group have the same number of electrons in their outer energy level, so they have similar chemical properties.",
+        "For groups 1 and 2, the group number equals the number of outer electrons.",
+        "For groups 13 to 18, the number of outer electrons is the group number minus 10, so group 17 has 7 outer electrons; helium, in group 18, is the exception with 2 outer electrons.",
+        "Group 1 elements are the alkali metals and group 2 elements are the alkaline earth metals.",
+        "Group 17 elements are the halogens and group 18 elements are the noble gases."
+      ]
+    },
+    {
+      "h": "Periods: horizontal rows",
+      "points": [
+        "A period is a horizontal row of elements; there are 7 periods.",
+        "The period number equals the number of occupied main energy levels; sodium, with electron arrangement 2,8,1, is in period 3.",
+        "Across a period, one proton and one electron are added at each step.",
+        "Period 1 has 2 elements (hydrogen and helium); periods 2 and 3 have 8 each; period 4 has 18."
+      ]
+    },
+    {
+      "h": "Metals, non-metals and metalloids",
+      "points": [
+        "About three-quarters of the elements are metals, found on the left and in the centre of the table.",
+        "Non-metals are found on the right of the table; hydrogen is also a non-metal.",
+        "A staircase line running from boron to astatine separates metals from non-metals.",
+        "Metalloids (semi-metals) lie next to the staircase line, including boron, silicon, germanium, arsenic, antimony and tellurium; they have some properties of metals and some of non-metals.",
+        "Metals are shiny, good conductors of heat and electricity, malleable and ductile, and form positive ions.",
+        "Non-metals are dull, poor conductors of electricity (graphite is an exception), brittle as solids, and often form negative ions or share electrons."
+      ]
+    },
+    {
+      "h": "Blocks of the periodic table (Higher Level only)",
+      "b": "A block is the set of elements whose highest-energy electron enters the same type of sublevel.",
+      "points": [
+        "The s-block is groups 1 and 2, together with helium; its highest-energy electron is in an s sublevel.",
+        "The p-block is groups 13 to 18, except helium; its highest-energy electron is in a p sublevel.",
+        "The d-block is groups 3 to 12, in the middle of periods 4 to 7; its electrons fill a d sublevel.",
+        "The f-block is the lanthanides and actinides, usually shown below the main table; its electrons fill an f sublevel.",
+        "The shape of the table follows from sublevel capacities: 2 columns for s, 6 for p, 10 for d and 14 for f.",
+        "Diagram: an outline of the periodic table with the s, p, d and f blocks shaded and labelled, and group and period numbers marked."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Group", "definition": "A vertical column of elements in the periodic table whose members have the same number of outer electrons." },
+    { "term": "Period", "definition": "A horizontal row of elements in the periodic table; the period number equals the number of occupied main energy levels." },
+    { "term": "Outer electrons", "definition": "The electrons in the highest occupied energy level of an atom, which determine its chemical properties." },
+    { "term": "Alkali metals", "definition": "The group 1 elements, which have one outer electron each." },
+    { "term": "Alkaline earth metals", "definition": "The group 2 elements, which have two outer electrons each." },
+    { "term": "Halogens", "definition": "The group 17 non-metals, which have seven outer electrons each." },
+    { "term": "Noble gases", "definition": "The group 18 elements, which have full outer energy levels and are very unreactive." },
+    { "term": "Metalloid", "definition": "An element lying along the staircase line, with some properties of metals and some of non-metals." },
+    { "term": "Block", "definition": "A set of elements whose highest-energy electron enters the same type of sublevel: s, p, d or f." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the terms group and period, and state the group and period of an element with the electron arrangement 2,8,6.",
+      "model": "A group is a vertical column of elements whose members have the same number of outer electrons, so they have similar chemical properties. A period is a horizontal row of elements; each element in a period has the same number of occupied main energy levels. An element with electron arrangement 2,8,6 has 6 outer electrons, so it is in group 16, since for groups 13 to 18 the number of outer electrons is the group number minus 10. It has 3 occupied energy levels, so it is in period 3. The element is sulfur."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name the four blocks of the periodic table and explain why the d-block is ten elements wide.",
+      "model": "The four blocks are the s-block, p-block, d-block and f-block, named after the sublevel into which their highest-energy electron enters. The s-block is groups 1 and 2 (with helium) and the p-block is groups 13 to 18 except helium. The d-block is groups 3 to 12, and its electrons fill d sublevels, which hold a maximum of 10 electrons. Each group in the d-block corresponds to one of the ten places available in a d sublevel, so the d-block is ten columns wide."
+    }
+  ]
+}

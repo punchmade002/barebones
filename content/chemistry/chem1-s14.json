@@ -1,0 +1,76 @@
+{
+  "loId": "chem1-s14",
+  "chapterId": "chem1",
+  "subsection": "14. The Chemistry in Practice Investigation",
+  "syllabusRef": "Assessment",
+  "notes": [
+    {
+      "h": "Assessment structure",
+      "points": [
+        "Leaving Certificate Chemistry has two assessment components, both set and marked by the State Examinations Commission (SEC).",
+        "The written examination is worth 60% and is taken at Higher or Ordinary level.",
+        "The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels.",
+        "Grades are H1 to H8 at Higher level and O1 to O8 at Ordinary level, in bands of 10% from 30% to 100%; below 30% is grade 8.",
+        "The written examination uses a range of question types and assesses all four contextual strands, the unifying strand, and the application of chemistry to the cross-cutting themes of sustainability, health and technology."
+      ]
+    },
+    {
+      "h": "The brief",
+      "points": [
+        "The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year).",
+        "The brief sets out the requirements and includes stimulus material that sets a context.",
+        "The brief allows students to develop their own ideas related to that context, and helps teachers and students to plan.",
+        "Students keep an investigative log that they draw on to write the report."
+      ]
+    },
+    {
+      "h": "What students do",
+      "points": [
+        "Scientific research: students gather, process and evaluate information from secondary sources on an issue related to the brief; this may inform the experimental work.",
+        "Experiment: students generate a hypothesis for an issue related to the brief, then plan and design the experiment.",
+        "Experiment: students carry out laboratory work to gather primary data, then analyse the data and form conclusions.",
+        "Students develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year), in a format prescribed by the SEC.",
+        "The specification envisages up to 20 hours of work; a separate document, “Guidelines to support the Chemistry in Practice Investigation”, covers organisation.",
+        "Experimental design, safety and measurement are covered in “Designing and conducting investigations” and “Measurement and error”.",
+        "Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process."
+      ]
+    },
+    {
+      "h": "How the investigation is judged",
+      "b": "Four areas are judged: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.",
+      "points": [
+        "High achievement in knowledge and understanding shows considerable understanding of the brief, a clearly described purpose, and relevant research that evaluates a wide range of appropriate sources.",
+        "High achievement in knowledge and understanding also shows thorough engagement with the chemical concepts, explaining the phenomena clearly and accurately.",
+        "High achievement in design and method has a probing research question and a testable hypothesis underpinned by chemical concepts.",
+        "High achievement in design and method has a thorough investigative design, with appropriate methods collecting high-quality primary data.",
+        "High achievement in analysis and conclusions has clear, appropriate data and analysis, and valid conclusions justified by the data and related to the hypotheses.",
+        "High achievement in analysis and conclusions has a thorough evaluation that acknowledges limitations in the research, design and data gathering.",
+        "High achievement in analysis and conclusions has a summary of key areas and a coherent, consistent report with supporting references and reflections.",
+        "High achievement in relation to the work of scientists in society has a considered reflection that locates the outcomes within broader societal and scientific issues relating to the brief.",
+        "Lower achievement shows limited understanding of the brief, an unclear purpose, little research and a simple design.",
+        "Lower achievement shows conclusions not linked to the data, no limitations identified, and few references or reflections."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Chemistry in Practice Investigation", "definition": "The assessment component, worth 40%, in which students research an issue and carry out an experiment related to a common brief." },
+    { "term": "Investigation Brief", "definition": "The document published each year by the SEC that sets the requirements and context for the Chemistry in Practice Investigation." },
+    { "term": "Stimulus material", "definition": "Material included in the brief to set a context for the investigation." },
+    { "term": "Investigative log", "definition": "A dated, ongoing record of all experimental and research work that students draw on to write their report." },
+    { "term": "Secondary source", "definition": "A source of information, such as a published article or database, that contains data collected by someone else." },
+    { "term": "Descriptors of quality", "definition": "The SEC statements of what high and lower achievement look like in each of the four areas judged." },
+    { "term": "Common level", "definition": "The level at which the Chemistry in Practice Investigation is taken, the same for Higher and Ordinary level students." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe the two main parts of the work a student carries out for the Chemistry in Practice Investigation.",
+      "model": "The first part is scientific research on an issue related to the brief: the student gathers, processes and evaluates information from secondary sources, which may inform the experimental work. The second part is an experiment related to an issue in the brief: the student generates a hypothesis, plans and designs the experiment, carries out laboratory work to gather primary data, and analyses the data to form conclusions."
+    },
+    {
+      "marks": 6,
+      "prompt": "State the weighting of each assessment component in Leaving Certificate Chemistry and the level at which each is taken.",
+      "model": "The written examination is worth 60% and is taken at Higher or Ordinary level. The Chemistry in Practice Investigation is worth 40% and is taken at a common level, on a common brief for both levels."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "loId": "chem1-s8",
+  "chapterId": "chem1",
+  "subsection": "8. Producing and analysing data",
+  "syllabusRef": "U2.4",
+  "notes": [
+    {
+      "h": "Qualitative and quantitative data",
+      "points": [
+        "Qualitative data are descriptions without numbers, such as a colour change, effervescence or a precipitate forming.",
+        "Quantitative data are measurements with numbers and units.",
+        "Select the data that answer the question; record the raw data first, then the processed data, such as means and rates."
+      ]
+    },
+    {
+      "h": "Results tables",
+      "points": [
+        "The independent variable goes in the first column, and the dependent variable and its repeats go in the following columns, with a mean column.",
+        "Each column heading gives the quantity and its unit, e.g. “Time / s”, so units are not written in the body of the table.",
+        "All readings are recorded to the same number of decimal places, matching the resolution of the instrument."
+      ]
+    },
+    {
+      "h": "Drawing graphs",
+      "points": [
+        "The independent variable is plotted on the x-axis and the dependent variable on the y-axis, and both axes are labelled with the quantity and its unit.",
+        "Scales are chosen so that the points fill more than half of the grid, with even and sensible intervals.",
+        "Points are plotted accurately as small crosses.",
+        "A line or smooth curve of best fit is drawn through the general trend; the points are not joined dot to dot.",
+        "The line is not forced through the origin unless the origin is a real data point.",
+        "A line graph is used when both variables are continuous; a bar chart is used for categories."
+      ]
+    },
+    {
+      "h": "Analysing data",
+      "points": [
+        "Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin) or are inversely proportional.",
+        "The gradient of a straight line is the change in y divided by the change in x.",
+        "For a curve, the gradient at a point is found from a tangent drawn at that point; this gives a rate.",
+        "Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable.",
+        "Both interpolation and extrapolation are predictions.",
+        "Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane can be predicted from the trend in the series.",
+        "Mathematical representations are rearranged and used, e.g. PV = nRT, and means, percentages and rates are calculated."
+      ]
+    },
+    {
+      "h": "Scientific notation (assumed knowledge)",
+      "points": [
+        "Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10.",
+        "The Avogadro constant is 6.02 × 10²³ mol⁻¹.",
+        "0.00050 = 5.0 × 10⁻⁴: the decimal point moves four places to the right, so the power of ten is −4."
+      ]
+    },
+    {
+      "h": "Anomalous results and conclusions",
+      "points": [
+        "An anomalous result does not fit the pattern of the other results; it is identified on the graph or in the table and a reason is suggested, such as a misreading.",
+        "An anomalous result is left out of the mean and of the line of best fit, and this is stated.",
+        "A conclusion states the relationship shown by the data and says whether it supports the hypothesis.",
+        "A conclusion explains the relationship using scientific theory or a model, e.g. collision theory.",
+        "The conclusion is justified by reference to the data and states its limits: the range tested, the amount of data and the size of the errors.",
+        "Correlation does not prove causation: a link between two variables may be due to a third factor."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Qualitative data", "definition": "Descriptions of observations that do not involve numbers." },
+    { "term": "Quantitative data", "definition": "Measurements recorded as numbers with units." },
+    { "term": "Gradient", "definition": "For a straight line, the change in y divided by the change in x; for a curve, the gradient of the tangent at a point." },
+    { "term": "Line of best fit", "definition": "A straight line or smooth curve drawn through the general trend of plotted points, not joining them point to point." },
+    { "term": "Interpolation", "definition": "Estimating a value within the range of the data from a graph." },
+    { "term": "Extrapolation", "definition": "Estimating a value beyond the range of the data by extending a graph, which is less reliable." },
+    { "term": "Directly proportional", "definition": "Describes two variables whose graph is a straight line through the origin, so that one doubles when the other doubles." },
+    { "term": "Scientific notation", "definition": "A way of writing a number as A × 10ⁿ, where A is between 1 and 10." },
+    { "term": "Correlation", "definition": "A relationship between two variables in which one tends to change with the other." },
+    { "term": "Anomalous result", "definition": "A result that does not fit the pattern of the other results and is identified, explained and left out of the mean." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "A student measured the volume of gas produced every 30 s in a reaction. Describe how she should draw a graph of the results and how she could use the graph to find the rate of reaction at 60 s.",
+      "model": "Volume of gas is plotted on the y-axis and time on the x-axis, with both axes labelled with the quantity and unit, for example cm³ and s. The scales are chosen so that the points fill more than half of the grid, the points are plotted as small crosses, and a smooth curve of best fit is drawn through the general trend, not joining the points dot to dot. Any anomalous result is identified, left out of the line of best fit, and this is stated. To find the rate at 60 s, a tangent is drawn to the curve at the point where time is 60 s, and its gradient is calculated as the change in volume divided by the change in time, giving the rate with units of cm³ s⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "Express in scientific notation: (i) 602 000 000 000 000 000 000 000, (ii) 0.00034, (iii) 101 325.",
+      "model": "(i) 6.02 × 10²³. (ii) 3.4 × 10⁻⁴. (iii) 1.01325 × 10⁵."
+    }
+  ]
+}

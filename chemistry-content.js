@@ -4,862 +4,912 @@
   if (typeof COURSE_DATA === 'undefined') return;
   function ch(id) { return COURSE_DATA.chapters.find(function (c) { return c.id === id; }); }
 
-  // ── chem1: The Nature of Science ─────────────────────────────────────────
+  // ── chem1–chem13: chapter review questions ──
+  // These chapters are split into outline subsections whose notes and flashcards come from
+  // content/chemistry/ (chemistry-notes.js). Their earlier test questions are kept here, on
+  // each chapter's review outcome (<chapter>-1).
   (function () {
-    var c = ch('chem1');
-    c.learningOutcomes[0].notes = [
-      // 1.1 The Nature of Science
-      { h: "Science", b: "The word science comes from the Latin scientia, meaning 'knowledge'. The scientific method is a systematic, evidence-based approach that scientists use to gather, analyse and interpret data. At its core lies the testing of theories." },
-      { h: "Scientific Theory", b: "A hypothesis that has been verified by many different experiments and is widely accepted as the correct explanation. Examples: the Big Bang, theory of evolution, particle theory, collision theory. Theories explain why/how something occurs and are always provisional — refined as new evidence emerges." },
-      { h: "Scientific Law", b: "A statement deduced from empirical evidence that describes what always happens under certain circumstances (e.g. law of conservation of mass; Boyle's law). Laws describe what happens; theories explain why. Laws change little once established." },
-      // 1.2 How scientific ideas change
-      { h: "How scientific ideas change", b: "Scientific knowledge is always evolving. Ancient Greek philosophers believed in four elements (fire, air, earth, water) with no experimental evidence. As new evidence is gathered, theories are altered. Example: the model of the atom has been revised multiple times as new evidence emerged (see Chapter 6). New technology also makes new types of experiments possible." },
-      // 1.3 Scientific method
-      { h: "Steps of the scientific method", b: "1. Observation 2. Question 3. Research 4. Hypothesis 5. Prediction 6. Experiment 7. Data analysis 8. Conclusion 9. Accept or reject hypothesis (form new hypothesis if rejected) 10. Report results. The process is rarely linear — scientists often troubleshoot, redesign methods and repeat experiments." },
-      { h: "Peer review", b: "Peer review is the process by which scholarly work is evaluated by other scientists in the same field before publication. Scientists submit to a journal; editors send to peers who assess whether it is original, methodical and well-argued. An important safeguard ensuring validity and reliability of research and protecting against inaccurate information." },
-    ];
-    c.learningOutcomes[1].notes = [
-      // 1.5 Conducting scientific research
-      { h: "CARDS framework for evaluating sources", b: "C — Credibility: Is the source trustworthy? From a reputable journal or institution? Expert authors?\nA — Accuracy: Are the claims backed by evidence? Is the data reliable and free from errors?\nR — Relevance: Is the information directly related to your question or research?\nD — Date: When was it published? Science evolves quickly, so older sources may be outdated.\nS — Sources: Are references provided? Reliable information cites evidence to back up claims." },
-      { h: "Bias in science", b: "Scientific bias refers to a lack of objectivity or a tendency to interpret evidence in ways that do not match what can be observed or concluded scientifically. Bias can be intentional or unintentional.\nReporting bias: certain evidence is ignored or not reported.\nSelection bias: sample doesn't represent the target population.\nConfirmation bias: researchers focus only on information that supports their beliefs.\nResearcher bias: personal views or interests influence the outcome.\nSocial/cultural bias: bias due to the researcher's social or cultural points of view." },
-    ];
-    c.learningOutcomes[4].notes = [
-      { h: "Repeatability and Reproducibility", b: "Repeatable: the same scientist repeats the experiment in the same conditions and gets the same (or very similar) result. Reproducible: other independent scientists reproduce the entire experiment and obtain the same results. Both are essential for the scientific community to trust a finding." },
-    ];
-    c.learningOutcomes[7].notes = [
-      { h: "International conventions", b: "1. Internationally agreed systems/standards — e.g. SI units allow results from different countries to be compared; IUPAC provides an international naming system for organic compounds. 2. International agreements on specific issues — e.g. the 2015 Paris Agreement aims to keep global temperature increase below 2°C above pre-industrial levels." },
-      { h: "Scientific communication", b: "Scientists communicate through: academic journals (e.g. Nature, Science, NEJM), science conferences, media (including social media). More journals are becoming open-access (free, not behind a paywall). CORE and ScienceOpen are databases of open-access journal articles." },
-    ];
-    c.learningOutcomes[8].notes = [
-      // 1.4 Science as a global enterprise
-      { h: "Science as a global enterprise", b: "Science is a global enterprise where scientists worldwide collaborate to share knowledge and solve problems. Scientific discoveries build on the work of others — e.g. scientists worldwide worked together to develop Covid-19 vaccines. Evidence must be the basis of all hypotheses, experiments and conclusions. Gathering data selectively to suit a hypothesis is not science." },
-    ];
-    c.learningOutcomes[9].notes = [
-      // 1.7 Impact of science on society
-      { h: "Impact of science on society — Health", b: "Chemistry has had a huge impact on human health. Chemists develop and synthesise new drugs, study how they act in the body and develop diagnostic techniques. Pharmaceuticals — many derived from organic compounds — have revolutionised medicine (e.g. aspirin, antibiotics, morphine; Chapter 27). Water treatment (Chapter 29) provides clean, potable water. Surfactants (soaps) have improved sanitation." },
-      { h: "Impact of science on society — Technology & Sustainability", b: "Technology: lithium-ion batteries — crucial for renewable energy, portable devices and electric vehicles; new materials (fullerenes and carbon nanotubes) have enabled nanotechnology and electronics (Chapter 30). Sustainability: renewable fuels from biomass (Chapter 22), hydrogen fuel cells (Chapter 19), biodegradable plastics (Chapter 27), carbon capture and storage (Chapter 28). Negative impacts: CO₂ emissions cause global warming; chemicals in plastics and pesticides affect health; fertilisers cause eutrophication (Chapter 29); microplastics cause habitat loss and ocean acidification." },
-      // 1.8 Impact of society on science
-      { h: "Impact of society on science", b: "Society directly influences scientific research — scientists engage in research that reflects societal needs, challenges and priorities. Example: the Covid-19 pandemic drove rapid vaccine development; Zhang Yongzhen and Edward Holmes published the SARS-CoV-2 genome in January 2020 on Virological, enabling rapid vaccine development. Climate change drives research into alternative fuels, carbon capture and new biodegradable materials. Personal responsibility: stay informed, be aware of ethical implications of advances in science and technology." },
-    ];
-    c.learningOutcomes[10].notes = [
-      // 1.6 Science in the media
-      { h: "Science in the media and pseudoscience", b: "Most people hear about scientific breakthroughs through the media, not journals. Apply CARDS to critically evaluate media claims. Pseudoscience: claims presented as scientific but not backed by rigorous research — often based on anecdotal evidence. Ask whether someone or some organisation stands to benefit from a claim (e.g. the tobacco industry funded research into the benefits of smoking)." },
-    ];
-    c.learningOutcomes[11].notes = [
-      // 1.10 Chemical phenomena
-      { h: "Macroscopic and microscopic levels", b: "Chemists must relate observable (macroscopic) phenomena to chemical processes at the atomic/subatomic/molecular (microscopic) level.\nBrownian motion: (macro) pollen seems to move → (micro) water molecules collide with pollen grains, causing random movement.\nEvaporation: (macro) water 'disappears' → (micro) water molecules gain enough energy to change state (liquid → gas).\nFiltration: (macro) residue caught on filter paper, filtrate passes through → (micro) insoluble solid particles cannot pass through; liquid particles can.\nChemical reactions: (macro) a product is formed → (micro) particles collide with sufficient energy and proper orientation, leading to effective collisions and reactions." },
-    ];
-    c.learningOutcomes[12].notes = [
-      // 1.9 Models
-      { h: "Models in chemistry", b: "A model is a simplified representation of reality used to understand, explain or predict phenomena. Types: diagrams (e.g. dot-and-cross diagrams), equations (e.g. ideal gas equation), simulations, physical models (e.g. molymod kits), conceptual models (e.g. Bohr's model of the atom). The periodic table is also a model — predicts trends in reactivity, ionisation energy and atomic radius based on position." },
-      { h: "Limitations of models", b: "All models are approximations with limitations:\nOversimplification: models leave out details to make them easier to understand, making them less accurate (e.g. dot-and-cross diagrams suggest electrons are static).\nAssumptions: many models make assumptions that don't hold in reality (e.g. ideal gas model assumes no intermolecular forces — breaks down at high pressure/low temperature).\nStatic vs dynamic: diagrams and physical models cannot capture the dynamic, 3D nature of molecules." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is a scientific theory?", definition: "A hypothesis verified by many different experiments and widely accepted as the correct explanation for an observed phenomenon. Theories are provisional and refined as new evidence emerges.", section: "1.1" },
-      { term: "What is a scientific law?", definition: "A concise statement deduced from empirical evidence that describes what always happens under certain circumstances (e.g. law of conservation of mass). Laws describe what; theories explain why.", section: "1.1" },
-      { term: "What is empirical evidence?", definition: "Evidence gathered through first-hand observation, measurement or experimentation rather than through abstract reasoning or theorising.", section: "1.1" },
-      { term: "What is the scientific method?", definition: "A systematic, evidence-based approach involving: observation → question → research → hypothesis → prediction → experiment → data analysis → conclusion → report results.", section: "1.3" },
-      { term: "What is peer review?", definition: "The process by which scholarly work is evaluated by other scientists in the same field before publication. An important safeguard ensuring validity and reliability of research.", section: "1.4" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is CARDS?", definition: "Framework for evaluating secondary sources: Credibility (trustworthy source?), Accuracy (backed by evidence?), Relevance (related to your question?), Date (recently published?), Sources (references provided?).", section: "1.5" },
-      { term: "What is scientific bias?", definition: "A lack of objectivity or tendency to interpret evidence in ways that do not match what can be observed scientifically. Can be intentional or unintentional.", section: "1.5" },
-      { term: "What is confirmation bias?", definition: "A type of bias where researchers focus only on evidence that supports their existing beliefs or hypothesis, and ignore contradictory information.", section: "1.5" },
-      { term: "What is selection bias?", definition: "A type of bias where the sample chosen does not represent the target population, leading to inaccurate conclusions.", section: "1.5" },
-    ];
-    c.learningOutcomes[3].keyTerms = [
-      { term: "What is a hypothesis?", definition: "A testable, provisional explanation proposed to account for an observation. Must be stated in a way that allows it to be supported or rejected through experimental evidence.", section: "1.3" },
-    ];
-    c.learningOutcomes[4].keyTerms = [
-      { term: "What is repeatability?", definition: "When the same scientist repeats the same experiment in the same location and conditions and produces the exact (or very similar) result.", section: "1.4" },
-      { term: "What is reproducibility?", definition: "When other independent scientists reproduce an entire experiment and obtain the same results as the original scientists.", section: "1.4" },
-    ];
-    c.learningOutcomes[7].keyTerms = [
-      { term: "What is an international convention?", definition: "Either (1) internationally agreed systems or standards (e.g. SI units, IUPAC naming) or (2) international agreements on a specific issue (e.g. the 2015 Paris Agreement).", section: "1.4" },
-    ];
-    c.learningOutcomes[10].keyTerms = [
-      { term: "What is pseudoscience?", definition: "Claims presented as scientific but not backed by rigorous scientific research. Often based on anecdotal evidence rather than controlled experimentation and peer review.", section: "1.6" },
-    ];
-    c.learningOutcomes[11].keyTerms = [
-      { term: "What does 'macroscopic' mean?", definition: "Observable at a scale visible to the naked eye — what we can see, measure and experience directly in the laboratory (e.g. a colour change, a precipitate forming).", section: "1.10" },
-      { term: "What does 'microscopic' mean?", definition: "At the level of atoms, molecules, ions or subatomic particles — the underlying chemical or physical process that explains the macroscopic observation.", section: "1.10" },
-      { term: "What is Brownian motion?", definition: "The random movement of small particles (e.g. pollen) suspended in a fluid, caused by collisions with much smaller, fast-moving fluid molecules.", section: "1.10" },
-    ];
-    c.learningOutcomes[12].keyTerms = [
-      { term: "What is a model?", definition: "A simplified representation of reality used to understand, explain or predict phenomena. Models are always approximations and have limitations.", section: "1.9" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 4, prompt: "Distinguish between a scientific theory and a scientific law.", model: "A scientific theory is a hypothesis verified by many experiments and widely accepted as the correct explanation for a phenomenon; it explains why/how something occurs and is provisional. A scientific law is a statement deduced from empirical evidence that describes what always happens under certain conditions; it does not explain why. Laws change little once established; theories are always refined as new evidence emerges." },
-      { type: "short", marks: 5, prompt: "List the steps of the scientific method in the correct order.", model: "1. Observation 2. Question 3. Research 4. Hypothesis 5. Prediction 6. Experiment 7. Data Analysis 8. Conclusion 9. Accept or Reject Hypothesis (form new hypothesis if rejected) 10. Report Results." },
-      { type: "short", marks: 4, prompt: "Explain why peer review is an important part of science.", model: "Peer review requires that research is evaluated by independent experts in the same field before publication. It checks that methods are sound, data is correctly interpreted and conclusions are supported by evidence. This process helps to catch errors and fraud, and ensures only reliable and valid findings are published and built upon by the wider scientific community." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 5, prompt: "Name and explain each letter of the CARDS framework for evaluating sources.", model: "C — Credibility: Is the source trustworthy and from a reputable organisation or journal with expert authors? A — Accuracy: Are the claims backed by reliable, consistent evidence free from errors? R — Relevance: Is the information directly related to your research question? D — Date: Is it recently published? Science evolves rapidly so older sources may be outdated. S — Sources: Are references and citations provided to back up the claims made?" },
-    ];
-    c.learningOutcomes[4].questions = [
-      { type: "short", marks: 4, prompt: "Distinguish between repeatability and reproducibility of an experiment.", model: "Repeatability: the same scientist repeats the experiment in the same conditions and location and gets the same or very similar result. Reproducibility: other independent scientists reproduce the entire experiment and obtain the same results as the original scientists. Both are required for the scientific community to trust a result." },
-    ];
-    c.learningOutcomes[11].questions = [
-      { type: "short", marks: 4, prompt: "For the process of evaporation, describe what is observed at the macroscopic level and explain what is happening at the microscopic level.", model: "Macroscopic: the volume of liquid water decreases over time without being heated to boiling point — the water appears to 'disappear'. Microscopic: at the surface of the liquid, some water molecules have enough kinetic energy to overcome the intermolecular attractions holding them in the liquid phase and escape into the gas phase." },
-    ];
-    c.learningOutcomes[12].questions = [
-      { type: "short", marks: 4, prompt: "Describe two limitations of models used in chemistry.", model: "1. Oversimplification: models leave out details to make them easier to understand, but this means they do not accurately represent the real system — e.g. dot-and-cross diagrams suggest electrons are static fixed points. 2. Assumptions: many models make assumptions that do not hold in reality — e.g. the ideal gas model assumes gas particles have no volume and no intermolecular forces, which breaks down at high pressures or low temperatures." },
-    ];
-  })();
-
-  // ── chem2: Atomic Structure: The Nuclear Model ───────────────────────────
-  (function () {
-    var c = ch('chem2');
-    c.learningOutcomes[0].notes = [
-      // 2.1 Introduction
-      { h: "Particulate nature of matter", b: "Many observations in chemistry suggest that materials around us are made up of small particles. The scientific name for materials is matter. The idea that all substances are made up of tiny, invisible particles is called the particulate nature of matter. These particles can be atoms, molecules or ions. Evidence: when cotton wool soaked in concentrated ammonia (NH₃) and cotton wool soaked in hydrochloric acid (HCl) are placed at opposite ends of a sealed tube, particles of NH₃ and HCl move towards each other and form a white ring of ammonium chloride where they meet — this is diffusion, showing gases are made of moving particles." },
-      // 2.2 Development of the nuclear model — Greek philosophers + Dalton
-      { h: "Greek philosophers and Dalton's atomic theory", b: "Greek philosophers (~400 BC) were the first to propose that matter is composed of small particles so tiny they could not be broken down further — they called them 'atomos' (Greek for indivisible), giving us the word atom. An atom is the smallest particle of an element that still has the properties of that element.\n\nDalton's Atomic Theory (1808): English chemist John Dalton (1766–1844) wrote a book putting forward two key assumptions:\n1. All matter is made up of very small particles called atoms.\n2. All atoms are indivisible — they cannot be broken down into simpler particles.\nDalton's idea began to be questioned as a result of experiments carried out towards the end of the 19th century." },
-      // 2.2 Cathode rays — Crookes
-      { h: "Discovery of cathode rays: William Crookes", b: "In 1875, English chemist William Crookes (1832–1919) passed an electric current through gases at low pressure in a vacuum tube. He found that rays were coming from the negative electrode (cathode) and that these rays cast a shadow of a Maltese cross at the far end of the tube. He used the name cathode rays to describe the rays coming from the cathode. Cathode rays are invisible themselves but cause glass to glow (fluoresce) when they strike it. Crookes did not know that cathode rays consisted of charged particles — this was discovered by J.J. Thomson." },
-      // 2.2 Discovery of electron — Thomson + Millikan
-      { h: "Discovery of the electron: J.J. Thomson and Millikan", b: "In 1897, J.J. Thomson (1856–1940) at Cambridge University devised an experiment to investigate whether cathode rays consisted of charged particles:\n• He produced a narrow beam of cathode rays and passed it between two parallel plates.\n• When there was no charge on the plates, the beam passed straight down the tube.\n• When a positive charge was placed on the top plate, the beam was deflected upwards → cathode rays are negatively charged particles.\n• Cathode rays are streams of negatively charged electrons.\nThomson measured the charge/mass ratio of the electron.\n\nIn 1909, American scientist Robert Millikan (1868–1953) carried out his famous 'oil drop' experiment at the University of Chicago. He found the charge on the electron was 1.6 × 10⁻¹⁹ coulomb. Using Thomson's charge/mass ratio, the mass of the electron was calculated as 9.1 × 10⁻³¹ kg — very small compared to a proton." },
-      // 2.3 Plum pudding model
-      { h: "Thomson's 'plum pudding' model of the atom", b: "In 1898, J.J. Thomson proposed the 'plum pudding' model of the atom. His assumptions:\n• An atom is like a sphere of positive charge.\n• Electrons are embedded in the sphere at random.\nThis model resembled a pudding with raisins (electrons) in it. Thomson's model explained why atoms were neutral overall, but he had no experimental evidence to back it up. Rutherford's experiment later showed this model was not correct." },
-      // 2.4 Rutherford's nuclear model — gold foil experiment
-      { h: "Rutherford's gold foil experiment", b: "In 1909, Ernest Rutherford (1871–1937), working at Manchester University, carried out a famous experiment. He bombarded a very thin sheet of gold foil with alpha particles using a radioactive source. Alpha particles are positively charged particles consisting of 2 protons and 2 neutrons (the nucleus of a helium atom). A phosphorescent screen was used to detect the alpha particles.\n\nObservations:\n1. Most alpha particles passed straight through the gold foil undeflected.\n2. Some alpha particles were deflected at large angles as they passed through the foil.\n3. A very small number were reflected back along their original paths.\n\nConclusions (Table 2.1):\n1. Most alpha particles pass straight through → most of the atom is empty space.\n2. Some particles are deflected at large angles → alpha particles are repelled when they pass near the small positive nucleus.\n3. A small number are reflected back → a small number of alpha particles collide head-on with the nucleus.\nRutherford concluded that the positive charge and most of the mass of the atom are concentrated in a small dense core — the nucleus. The nucleus has a diameter of approximately 1/100,000 of the size of the atom." },
-      // 2.6 Assumptions and limitations of Rutherford's model
-      { h: "Assumptions and limitations of Rutherford's nuclear model", b: "Assumptions of Rutherford's nuclear model:\n1. Atoms contain a small, dense positive core called the nucleus. Most of the mass is concentrated there.\n2. Positive particles called protons are located in the nucleus.\n3. The atom is mostly empty space.\n4. Electrons are scattered in the space surrounding the nucleus (called the electron cloud). Rutherford proposed electrons were moving around the nucleus but did not describe their exact motion.\n\nLimitations:\n1. Since like charges repel, why does the nucleus not fly apart due to the repulsion between the protons?\n2. Since opposite charges attract, the model could not explain why electrons don't spiral into the nucleus. Electrons would lose energy and crash into the nucleus — yet most atoms are stable." },
-      // 2.5 Discovery of the proton
-      { h: "Discovery of the proton", b: "Rutherford's research team continued bombarding various substances with alpha particles. They found that when lighter atoms (e.g. oxygen and nitrogen) were bombarded, small positively charged particles were given off — Rutherford named these protons. This did not occur with heavier atoms (e.g. gold) because the large positive nuclear charge repelled the alpha particles before they could break up the nucleus. Rutherford explained that alpha particles were breaking up the nuclei of the lighter atoms to release these positively charged protons." },
-      // 2.7 Discovery of the neutron + updated nuclear model
-      { h: "Discovery of the neutron: James Chadwick", b: "In 1932, James Chadwick (1891–1974), a student of Rutherford, bombarded beryllium with alpha particles. He found that some type of radiation consisting of particles with no charge came from the beryllium. Because these neutral particles were difficult to detect, Chadwick used paraffin wax — the neutral particles knocked protons out of the paraffin wax, helping to detect them. He found these particles had about the same mass as the proton; because they were neutral, he called them neutrons. Chadwick received the Nobel Prize in Physics in 1935 for discovering the neutron." },
-      { h: "Updated nuclear model of the atom", b: "After the discovery of the neutron, the nuclear model was much more complete. If it were only protons in the nucleus, it would fly apart due to repulsion between the positive charges. Neutrons help to 'cement' the protons together. The updated model's assumptions:\n1. Atoms consist of a small, dense positive core called the nucleus; most of the mass is concentrated there.\n2. Positive particles called protons and neutral particles called neutrons are located in the nucleus.\n3. The atom is mostly empty space.\n4. Electrons are scattered around the space surrounding the nucleus (the electron cloud).\n\nLimitation of the updated nuclear model: the model cannot explain how electrons stay in motion around the nucleus without spiralling towards it and crashing into it. (This is addressed in Chapter 3.)" },
-      // 2.8 Properties of sub-atomic particles
-      { h: "Properties of the proton, neutron and electron", b: "The three sub-atomic particles and their properties:\n\n| Particle | Relative charge | Relative mass | Location |\n|----------|----------------|---------------|----------|\n| Proton   | +1             | 1             | Nucleus  |\n| Neutron  | 0              | 1             | Nucleus  |\n| Electron | −1             | 1/1838        | Outside nucleus |\n\nThe actual charge on the electron is −1.6 × 10⁻¹⁹ coulomb; on the proton it is +1.6 × 10⁻¹⁹ coulomb; the neutron has no charge. The mass of the proton is 1.67 × 10⁻²⁷ kg. The mass of the electron is 9.1 × 10⁻³¹ kg — much smaller than the proton. You are not required to remember the actual values, only the relative values." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is the particulate nature of matter?", definition: "The idea that all substances (matter) are made up of tiny, invisible particles (atoms, molecules or ions) that are too small to see with the naked eye.", section: "2.1" },
-      { term: "What is matter?", definition: "The scientific name for materials — all physical substances are matter. All matter is made up of small particles.", section: "2.1" },
-      { term: "What is an atom?", definition: "The smallest particle of an element that still has the properties of that element. The word comes from the Greek 'atomos' meaning indivisible.", section: "2.2" },
-      { term: "What are cathode rays?", definition: "Streams of negatively charged electrons, produced from the cathode (negative electrode) in a discharge tube when an electric current is passed through a gas at low pressure. Discovered by William Crookes (1875).", section: "2.2" },
-      { term: "What is an electron?", definition: "A negatively charged sub-atomic particle with relative charge −1 and relative mass 1/1838. Found outside the nucleus. Discovered by J.J. Thomson (1897). Charge = −1.6 × 10⁻¹⁹ C; mass = 9.1 × 10⁻³¹ kg.", section: "2.2" },
-      { term: "What is a plum pudding model?", definition: "J.J. Thomson's model of the atom (1898): the atom is a sphere of positive charge with electrons embedded at random — like raisins in a pudding. This model was disproved by Rutherford's gold foil experiment.", section: "2.3" },
-      { term: "What are alpha particles?", definition: "Positively charged particles produced by certain radioactive substances. Each consists of 2 protons and 2 neutrons (the nucleus of a helium atom). Used by Rutherford in his gold foil experiment.", section: "2.4" },
-      { term: "What is a nucleus?", definition: "The small, dense, positively charged core at the centre of an atom. Contains protons (and neutrons). Most of the atom's mass is concentrated here. Has a diameter approximately 1/100,000 of the size of the atom.", section: "2.4" },
-      { term: "What is an electron cloud?", definition: "The region of space surrounding the nucleus where electrons are located. The electrons move around the nucleus but (in Rutherford's model) their exact motion is not described.", section: "2.4" },
-      { term: "What is a proton?", definition: "A positively charged sub-atomic particle with relative charge +1 and relative mass 1. Found in the nucleus. Named by Rutherford, who showed lighter atoms produce protons when bombarded with alpha particles.", section: "2.5" },
-      { term: "What is a neutron?", definition: "A neutral sub-atomic particle with no charge and relative mass 1. Found in the nucleus. Discovered by James Chadwick in 1932 by bombarding beryllium with alpha particles.", section: "2.7" },
-      { term: "What are sub-atomic particles?", definition: "Particles found inside an atom: protons, neutrons and electrons. Protons and neutrons are located in the nucleus; electrons are located outside the nucleus in the electron cloud.", section: "2.8" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 4, prompt: "Explain what is meant by the term particulate nature of matter and describe a laboratory experiment that demonstrates it.", model: "The particulate nature of matter refers to the idea that all substances are made up of tiny, invisible particles. Experiment: place cotton wool soaked in concentrated ammonia at one end of a sealed tube and cotton wool soaked in hydrochloric acid at the other end. A white ring of ammonium chloride forms inside the tube where the particles of ammonia and hydrogen chloride gas meet. This shows that both gases are made up of tiny moving particles (diffusion)." },
-      { type: "short", marks: 4, prompt: "State the two main assumptions of Dalton's atomic theory.", model: "1. All matter is made up of very small particles called atoms. 2. All atoms are indivisible — they cannot be broken down into simpler particles." },
-      { type: "short", marks: 4, prompt: "Describe J.J. Thomson's experiment that led to the discovery of the electron.", model: "Thomson produced a narrow beam of cathode rays and passed it between two parallel metal plates in a vacuum tube. When there was no charge on the plates, the beam passed straight down the tube. When a positive charge was applied to the top plate, the beam was deflected upwards (towards the positive plate). Since unlike charges attract, Thomson concluded that cathode rays consist of negatively charged particles, which he called electrons. Thomson also measured the charge-to-mass ratio of the electron." },
-      { type: "short", marks: 4, prompt: "Describe Rutherford's gold foil experiment, including his three observations and what conclusions he drew from each.", model: "Rutherford bombarded a thin sheet of gold foil with alpha particles from a radioactive source and used a phosphorescent screen to detect them.\nObservations and conclusions:\n1. Most alpha particles passed straight through undeflected → most of the atom is empty space.\n2. Some alpha particles were deflected at large angles → the positive charge and mass are concentrated in a small dense core (nucleus) that repels the positive alpha particles.\n3. A very small number were reflected back along their original paths → some alpha particles collide head-on with the dense positive nucleus." },
-      { type: "short", marks: 4, prompt: "State the two limitations of Rutherford's original nuclear model of the atom.", model: "1. Since like charges repel, the model could not explain why the nucleus does not fly apart due to the repulsion between the protons in it. 2. Since opposite charges attract, electrons should lose energy and spiral into the nucleus — yet most atoms are stable. The model could not explain why electrons remain in motion around the nucleus." },
-      { type: "short", marks: 4, prompt: "Describe how James Chadwick discovered the neutron and explain its importance for the nuclear model of the atom.", model: "Chadwick (1932) bombarded beryllium with alpha particles. He detected neutral radiation coming from the beryllium — these neutral particles were difficult to detect directly, so he used paraffin wax, which the particles knocked protons out of. He found these particles had the same mass as a proton but no charge, and called them neutrons. The discovery of the neutron completed the nuclear model: neutrons help to 'cement' protons together in the nucleus, explaining why the nucleus does not fly apart due to proton–proton repulsion." },
-      { type: "short", marks: 4, prompt: "Give the relative charge, relative mass and location for each of the three sub-atomic particles.", model: "Proton: relative charge +1, relative mass 1, located in the nucleus.\nNeutron: relative charge 0, relative mass 1, located in the nucleus.\nElectron: relative charge −1, relative mass 1/1838, located outside the nucleus (in the electron cloud)." },
-      { type: "short", marks: 4, prompt: "Describe the nuclear model of the atom as proposed after the discovery of the neutron (updated nuclear model).", model: "1. Atoms consist of a small, dense positive core called the nucleus; most of the mass of the atom is concentrated there. 2. Positive particles called protons and neutral particles called neutrons are located in the nucleus. 3. The atom is mostly empty space. 4. Electrons are scattered around in the space surrounding the nucleus — this space is called the electron cloud. Limitation: the model cannot explain how electrons stay in motion around the nucleus without spiralling towards it and crashing into it." },
-    ];
-  })();
-
-  // ── chem4: The Periodic Table: Arrangement of Electrons ──────────────────
-  (function () {
-    var c = ch('chem4');
-    c.learningOutcomes[0].notes = [
-      // 4.1–4.2 Introduction and The Elements
-      { h: "Definition of an element and early discoveries", b: "Robert Boyle (1627–1691), an Irish chemist, was the first to properly define the meaning of the term element. In his book The Sceptical Chemist (1661), he described an element as a simple substance that cannot be broken into anything simpler — broadly similar to the modern definition. An element is a substance that cannot be split into simpler substances by chemical means.\n\nHumphry Davy (1778–1829) made some of the most important element discoveries by passing electricity through compounds. In 1807 he discovered potassium, and later discovered sodium, calcium, barium, strontium and magnesium. After 1807 many new elements were discovered; over 100 elements are now known." },
-      // 4.3 Mendeleev
-      { h: "Mendeleev's Periodic Table", b: "By 1800, approximately 35 elements had been discovered. In 1869, Dmitri Mendeleev (1834–1907), professor of chemistry at the University of St Petersburg, wrote the properties of the 63 known elements on separate cards. He arranged them in order of increasing atomic weight (relative atomic mass) and placed elements with similar properties under each other in groups. He noticed a periodic repetition of properties — the word periodic means 'recurring at regular intervals'.\n\nMendeleev's Periodic Law: when elements are arranged in order of increasing atomic weight (relative atomic mass), the properties of the elements are repeated at regular intervals in other elements.\n\nMendeleev placed all elements with similar properties in the same vertical column (group) in a table — called the Periodic Table of the Elements. He left gaps for undiscovered elements." },
-      { h: "Mendeleev's predictions and limitations", b: "Mendeleev predicted the properties of undiscovered elements from gaps in his table:\n• He predicted an element below silicon in Group IV — he called it 'eka-silicon'. It was discovered 17 years later and named germanium (discovered in Germany).\n• He predicted an element below aluminium in Group III — 'eka-aluminium'. Discovered six years later and named gallium (from Gallia, old Latin for France).\nWhen these elements were discovered, their properties were almost identical to his predictions — strong evidence that Mendeleev's Periodic Law was correct.\n\nLimitation: Mendeleev had to reverse the order of some elements so they fell into correct groups (e.g. tellurium before iodine). The 1869 table also did not include noble gases, as they had not yet been discovered." },
-      // 4.4 Henry Moseley + Modern Periodic Table
-      { h: "Henry Moseley and the modern Periodic Table", b: "English scientist Henry Moseley (1887–1915) used X-rays to study the elements (1913). He found that the frequencies of X-rays emitted varied with the quantity of positive charge in the nucleus — i.e. the number of protons. He called this the atomic number. This allowed him to determine the atomic number of any element without knowing its mass.\n\nThe atomic number of an atom is the number of protons in the nucleus of that atom.\n\nMoseley showed that by arranging elements in order of atomic number, it was no longer necessary to reverse the order of any elements. The modern Periodic Table is an arrangement of elements in order of increasing atomic number.\n\nModern Periodic Law: when elements are arranged in order of increasing atomic number, the properties of the elements are repeated at regular intervals in other elements." },
-      { h: "Differences between Mendeleev's table and the modern Periodic Table", b: "1. Mendeleev's table: elements in order of increasing atomic weight. Modern table: elements in order of increasing atomic number.\n2. Mendeleev's table: contained gaps for undiscovered elements. Modern table: no gaps (all elements to atomic number 118 are known).\n3. Mendeleev's table: approximately 60 elements. Modern table: over 100 elements.\n4. Mendeleev's table: transition elements not in a separate block. Modern table: transition elements are listed in a separate block in the middle.\n\nAdvantages of ordering by atomic number: no need to reverse elements to force them into correct groups; no gaps; all elements placed in groups with similar properties." },
-      // 4.5 Atomic number and mass number
-      { h: "Atomic number, mass number and the nuclear formula", b: "Atomic number (Z): the number of protons in the nucleus. Since atoms are neutral, the number of protons = number of electrons.\n\nMass number (A): the sum of the number of protons and neutrons in the nucleus of an atom. Mass number = protons + neutrons.\nNumber of neutrons = A − Z.\n\nThe nuclear formula is a way of summarising information about an element: the mass number is written as a superscript (top-left) and the atomic number as a subscript (bottom-left) of the element symbol. Example: ²³₁₁Na tells us sodium has mass number 23, atomic number 11, and therefore 23 − 11 = 12 neutrons.\n\nNote: the smaller number (bottom) is always the atomic number. Mass numbers must always be whole numbers. Atomic mass unit: 1 u = 1.66 × 10⁻²⁴ gram." },
-      // 4.6 Isotopes and relative atomic mass
-      { h: "Isotopes", b: "In 1919, English chemist Francis Aston built an instrument called a mass spectrometer to measure the masses of atoms. He found that a sample of neon gas consisted of two varieties of neon: ²⁰Ne (10 neutrons) and ²²Ne (12 neutrons). These two varieties are called isotopes of neon.\n\nIsotopes are atoms of the same element (same atomic number) which have different mass numbers due to a different number of neutrons in their nuclei.\n\nExamples:\n• Chlorine: ³⁵Cl (17 protons, 18 neutrons) and ³⁷Cl (17 protons, 20 neutrons)\n• Carbon: ¹²C, ¹³C, ¹⁴C (commonly called carbon-12, carbon-13, carbon-14)\n• Hydrogen: ¹H (protium), ²H (deuterium), ³H (tritium)\nAston received the Nobel Prize in chemistry in 1922 for the discovery of isotopes." },
-      { h: "Relative atomic mass", b: "Relative atomic mass (atomic weight): the average of the mass numbers of the isotopes of an element, as they occur naturally, taking their abundances into account and expressed on a scale in which the atoms of carbon-12 have a mass of exactly 12 units. Symbol: Aᵣ.\n\nRelative atomic mass = mass of one atom of an element / (1/12 × mass of one atom of carbon-12).\n\nExample: chlorine is found as 75% ³⁵Cl and 25% ³⁷Cl. Average mass = (75 × 35 + 25 × 37) / 100 = 35.5. So the relative atomic mass of chlorine is 35.5." },
-    ];
-    c.learningOutcomes[1].notes = [
-      // 4.7 Arrangement of electrons in atoms — electron configuration
-      { h: "Electron configuration — Bohr model", b: "The electron configuration of an element shows the arrangement of electrons in an atom of that element. There are two ways of writing electron configurations: in terms of the simple Bohr model (electrons in main energy levels) or in terms of energy sublevels.\n\nBohr model configurations of the first 20 elements:\nH=1, He=2, Li=2,1, Be=2,2, B=2,3, C=2,4, N=2,5, O=2,6, F=2,7, Ne=2,8, Na=2,8,1, Mg=2,8,2, Al=2,8,3, Si=2,8,4, P=2,8,5, S=2,8,6, Cl=2,8,7, Ar=2,8,8, K=2,8,8,1, Ca=2,8,8,2.\n\nNote: the number of electrons in the outer orbit is often the same as the group number (e.g. lithium Group I has 1 outer electron; beryllium Group II has 2)." },
-      { h: "Writing electron configurations using sublevels", b: "Number of orbitals and electrons per sublevel:\n• s sublevel: 1 orbital, holds maximum 2 electrons\n• p sublevel: 3 orbitals, holds maximum 6 electrons\n• d sublevel: 5 orbitals, holds maximum 10 electrons\n\nAufbau Principle: when building up the electron configuration of an atom in its ground state, the electrons occupy the lowest available energy levels. Order of filling: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, … (Note: 4s fills before 3d as it is lower in energy.)\n\nNumber of electrons any main energy level can hold = 2n². So n=1 holds 2, n=2 holds 8, n=3 holds 18.\n\nNotation: a number = main energy level, a letter = type of sublevel, superscript = number of electrons in sublevel. E.g. 2p⁴ = 4 electrons in the 2p sublevel.\n\nExample: oxygen (atomic number 8) = 1s², 2s², 2p⁴." },
-      { h: "Electron configurations of d-block elements and exceptions", b: "The electron configurations of all 36 elements can be deduced from the Periodic Table. The 4s sublevel is always filled before the 3d sublevel — simply count along from the start of the d-block.\n\nException 1 — Chromium: you might expect Cr = 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁴. However, sublevels that are exactly half-filled or completely filled have extra stability. One 4s electron flips into 3d to give two exactly half-filled sublevels. Therefore Cr = 1s², 2s², 2p⁶, 3s², 3p⁶, 3d⁵, 4s¹.\n\nException 2 — Copper: expected Cu = 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁹. But the completely filled 3d and half-filled 4s both have extra stability. One 4s electron flips into 3d. Therefore Cu = 1s², 2s², 2p⁶, 3s², 3p⁶, 3d¹⁰, 4s¹." },
-      // 4.8 Electron configurations of ions
-      { h: "Electron configurations of ions", b: "An ion is an atom that has lost or gained electrons. Since electrons are negatively charged:\n• An atom that gains electrons becomes a negatively charged ion (anion).\n• An atom that loses electrons becomes a positively charged ion (cation).\n\nTo write the electron configuration of an ion, first find the neutral atom's electron configuration, then add or remove electrons as indicated by the charge.\n\nExample: Al³⁺ ion — aluminium is element 13, so a neutral Al atom has 13 electrons. Al³⁺ has lost 3 electrons, leaving 10 electrons. Al³⁺ = 1s², 2s², 2p⁶ (same as neon).\n\nNote: ions with the same electron configuration are called isoelectronic. For example, O²⁻, F⁻, Ne, Na⁺, Mg²⁺ all have the configuration 1s², 2s², 2p⁶ (10 electrons)." },
-      // 4.9 Hund's Rule + Pauli Exclusion Principle
-      { h: "Hund's Rule and the Pauli Exclusion Principle", b: "Hund's Rule of Maximum Multiplicity (Friedrich Hund, 1927): when two or more orbitals of equal energy are available, the electrons occupy them singly before filling them in pairs. This gives the maximum number of unpaired electrons.\n\nExample: nitrogen has three electrons in its 2p sublevel. The three p orbitals (pₓ, pᵧ, p_z) are occupied one electron each — never two in one and one empty.\nN = 1s², 2s², 2pₓ¹, 2pᵧ¹, 2p_z¹\n\nPauli Exclusion Principle (Wolfgang Pauli, 1925): no more than two electrons may occupy an orbital and they must have opposite spin. In 'electrons-in-boxes' diagrams, ↑ represents one spin direction and ↓ represents the opposite. Two electrons in the same orbital must have opposite spins (↑↓)." },
-      // Blocks of the Periodic Table
-      { h: "Blocks of the Periodic Table", b: "The Periodic Table may be divided into four blocks based on which type of sublevel the outer electrons are in:\n• s-block: all elements whose outer electrons are in an s sublevel (Groups I and II).\n• p-block: all elements whose outer electrons are in a p sublevel (Groups III–VIII, excluding noble gases where p is full).\n• d-block: all elements whose outer electrons are in a d sublevel (transition metals).\n• f-block: all elements whose outer electrons are in an f sublevel (lanthanides and actinides).\n\nThis block structure explains why there are 2 elements in period 1 (s-block only), 8 in periods 2 and 3 (s + p blocks), and 18 in periods 4 and 5 (s + p + d blocks)." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is an element?", definition: "A substance that cannot be split into simpler substances by chemical means (Robert Boyle's definition, 1661). The smallest particle of an element that still has its properties is an atom.", section: "4.2" },
-      { term: "What is the periodic system?", definition: "The observation that when elements are arranged in order, certain properties repeat at regular (periodic) intervals. The basis for the Periodic Table.", section: "4.3" },
-      { term: "What is Mendeleev's periodic law?", definition: "When elements are arranged in order of increasing atomic weight (relative atomic mass), the properties of the elements are repeated at regular intervals in other elements.", section: "4.3" },
-      { term: "What is an atomic number (z)?", definition: "The number of protons in the nucleus of an atom. Determines the element's identity. In a neutral atom, atomic number = number of electrons. Discovered by Henry Moseley using X-rays (1913).", section: "4.4" },
-      { term: "What is a modern periodic law?", definition: "When elements are arranged in order of increasing atomic number, the properties of the elements are repeated at regular intervals in other elements.", section: "4.4" },
-      { term: "What is the modern periodic table?", definition: "An arrangement of elements in order of increasing atomic number. Has over 100 elements, no gaps, and transition elements in a separate d-block.", section: "4.4" },
-      { term: "What is mass number (A)?", definition: "The sum of the number of protons and neutrons in the nucleus of an atom. Always a whole number. Number of neutrons = mass number − atomic number.", section: "4.5" },
-      { term: "What is a nuclear formula?", definition: "A notation summarising information about an atom: mass number written as superscript (top-left) and atomic number as subscript (bottom-left) of the element symbol. E.g. ²³₁₁Na.", section: "4.5" },
-      { term: "What are isotopes?", definition: "Atoms of the same element (same atomic number) which have different mass numbers due to a different number of neutrons in their nuclei.", section: "4.6" },
-      { term: "What is a relative atomic mass (aᵣ)?", definition: "The average of the mass numbers of the isotopes of an element, as they occur naturally, taking their abundances into account and expressed on a scale where carbon-12 = exactly 12 units. (Old name: atomic weight.)", section: "4.6" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is electron configuration?", definition: "A notation showing the arrangement of electrons in an atom of an element. Can be written in terms of the Bohr model (electrons in shells) or in terms of energy sublevels (e.g. 1s², 2s², 2p⁴ for oxygen).", section: "4.7" },
-      { term: "What is the Aufbau principle?", definition: "When building up the electron configuration of an atom in its ground state, the electrons occupy the lowest available energy levels first. Order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, …", section: "4.7" },
-      { term: "What is Hund's rule of maximum multiplicity?", definition: "When two or more orbitals of equal energy are available, the electrons occupy them singly before filling them in pairs. This gives the maximum number of unpaired electrons.", section: "4.9" },
-      { term: "What is the Pauli exclusion principle?", definition: "No more than two electrons may occupy an orbital and they must have opposite spin. In electrons-in-boxes diagrams, ↑ and ↓ represent opposite spins.", section: "4.9" },
-      { term: "What is an ion?", definition: "An atom that has lost or gained electrons. An atom that gains electrons becomes a negatively charged anion; an atom that loses electrons becomes a positively charged cation.", section: "4.8" },
-      { term: "What does 'isoelectronic' mean?", definition: "Atoms or ions that have the same number of electrons (same electron configuration). Example: O²⁻, F⁻, Ne, Na⁺, Mg²⁺ all have 10 electrons with configuration 1s², 2s², 2p⁶.", section: "4.8" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 4, prompt: "State Mendeleev's Periodic Law and name two differences between Mendeleev's Periodic Table and the modern Periodic Table.", model: "Mendeleev's Periodic Law: when elements are arranged in order of increasing atomic weight (relative atomic mass), the properties of the elements are repeated at regular intervals in other elements.\nDifferences (any two): (1) Mendeleev's table arranged by atomic weight; modern table by atomic number. (2) Mendeleev's table had gaps for undiscovered elements; modern table has no gaps. (3) Mendeleev's table had ~60 elements; modern table has over 100. (4) Transition elements are in a separate block in the modern table but were not in Mendeleev's." },
-      { type: "short", marks: 4, prompt: "Describe how Henry Moseley's work led to the development of the modern Periodic Table.", model: "Henry Moseley (1913) used X-rays to study different elements. He found that the frequencies of the X-rays emitted varied with the quantity of positive charge in the nucleus, i.e. the number of protons (atomic number). This allowed him to determine the atomic number of each element. He found that arranging elements by atomic number (rather than atomic weight) removed the need to reverse the order of any elements. The modern Periodic Table is therefore an arrangement of elements in order of increasing atomic number." },
-      { type: "short", marks: 4, prompt: "Define the terms (i) atomic number, (ii) mass number, and (iii) isotopes. Give an example of isotopes.", model: "(i) Atomic number (Z): the number of protons in the nucleus of an atom. (ii) Mass number (A): the sum of the number of protons and neutrons in the nucleus of an atom. (iii) Isotopes: atoms of the same element (same atomic number) which have different mass numbers due to a different number of neutrons in their nuclei. Example: chlorine has two isotopes, ³⁵Cl (17 protons, 18 neutrons) and ³⁷Cl (17 protons, 20 neutrons)." },
-      { type: "short", marks: 3, prompt: "Define relative atomic mass and calculate the relative atomic mass of chlorine, which is 75% chlorine-35 and 25% chlorine-37.", model: "Relative atomic mass is the average of the mass numbers of the isotopes of an element, as they occur naturally, taking their abundances into account, expressed on a scale where carbon-12 = exactly 12 units. Multiply each mass number by its percentage abundance, add the products and divide by 100: relative atomic mass = (75×35 + 25×37)/100 = 35.5." },
-      { type: "short", marks: 3, prompt: "How many (i) neutrons and (ii) electrons are in the ion ³⁵Cl⁻?", model: "(i) Number of neutrons = mass number − atomic number = 35 − 17 = 18 neutrons.\n(ii) Cl⁻ has gained one electron, so number of electrons = 17 + 1 = 18 electrons." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "Write the electron configuration (s, p notation) for (i) oxygen, (ii) potassium, (iii) calcium ion (Ca²⁺).", model: "(i) Oxygen (Z=8): 1s², 2s², 2p⁴.\n(ii) Potassium (Z=19): 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹.\n(iii) Ca²⁺ (Z=20, lost 2 electrons → 18 electrons): 1s², 2s², 2p⁶, 3s², 3p⁶." },
-      { type: "short", marks: 4, prompt: "State the Aufbau Principle, Hund's Rule of Maximum Multiplicity, and the Pauli Exclusion Principle.", model: "Aufbau Principle: when building up the electron configuration of an atom in its ground state, electrons occupy the lowest available energy levels first.\nHund's Rule of Maximum Multiplicity: when two or more orbitals of equal energy are available, electrons occupy them singly before filling them in pairs (maximising unpaired electrons).\nPauli Exclusion Principle: no more than two electrons may occupy an orbital and they must have opposite spin." },
-      { type: "short", marks: 4, prompt: "Write the s, p, d electron configuration for (i) chromium and (ii) copper, and explain why these are exceptions to what would normally be expected.", model: "(i) Cr (Z=24): expected 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁴. Actual: 1s², 2s², 2p⁶, 3s², 3p⁶, 3d⁵, 4s¹. One 4s electron moves to 3d because sublevels that are exactly half-filled have extra stability — this gives two half-filled sublevels (3d⁵ and 4s¹).\n(ii) Cu (Z=29): expected 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁹. Actual: 1s², 2s², 2p⁶, 3s², 3p⁶, 3d¹⁰, 4s¹. One 4s electron moves to 3d because a completely filled 3d sublevel has extra stability." },
-      { type: "short", marks: 3, prompt: "What do the ions O²⁻, F⁻, Na⁺ and Mg²⁺ have in common? Write their common electron configuration.", model: "All four ions are isoelectronic — they each have 10 electrons and therefore the same electron configuration: 1s², 2s², 2p⁶. Although they have the same number of electrons, they have different numbers of protons and therefore different nuclear charges, which affects their ionic radii." },
-    ];
-  })();
-
-  // ── chem5: Chemical Bonding and Structure ────────────────────────────────
-  (function () {
-    var c = ch('chem5');
-    c.learningOutcomes[0].notes = [
-      // 5.1–5.2 Introduction + Octet Rule
-      { h: "Compounds and the Octet Rule", b: "A compound is a substance that is made up of two or more different elements combined chemically. The attractive forces holding atoms together in a compound are called chemical bonds.\n\nThe Octet Rule: when bonding occurs, atoms tend to reach an electron arrangement with eight electrons in the outermost energy level. Noble gases (Group 18) are very unreactive because they already have stable electron configurations (8 outer electrons, except helium which has 2). Elements tend to gain, lose or share electrons to achieve this stable arrangement.\n\nLimitations of the octet rule:\n• Transition metals do not usually obey the octet rule — they can have more or fewer than 8 outer electrons.\n• Helium is unreactive because it has a full outer energy level of two electrons. Elements near helium (H, Li, Be) tend to achieve an arrangement of 2 outer electrons rather than 8." },
-      // 5.3 Ionic bonding
-      { h: "Ionic bonding — transfer of electrons", b: "Atoms can obtain a noble gas electron configuration by gaining or losing electrons, forming ions. A charged atom (or group of atoms) is called an ion.\n• Group I elements tend to lose 1 electron → ion with one positive charge (e.g. Na → Na⁺ + e⁻)\n• Group II elements tend to lose 2 electrons → ion with two positive charges (e.g. Ca → Ca²⁺ + 2e⁻)\n• Group VII (17) elements tend to gain 1 electron → e.g. Cl + e⁻ → Cl⁻\n• Group VI (16) elements tend to gain 2 electrons → e.g. O + 2e⁻ → O²⁻\n\nA positive ion is called a cation. A negative ion is called an anion.\n\nAn ionic bond is the force of attraction between oppositely charged ions in a compound. Ionic bonds are always formed by the complete transfer of electrons from one atom to another. Common table salt (NaCl) is an ionic substance." },
-      // 5.6 Covalent bonding
-      { h: "Covalent bonding — sharing of electrons", b: "A covalent bond is a chemical bond formed when two atoms share one or more pairs of electrons. Covalent bonding usually occurs between non-metal atoms.\n\nA molecule is a group of atoms joined together. It is the smallest particle of an element or compound that can exist independently. A compound consists of two or more different elements combined (H₂O is a compound; H₂ is a molecule but not a compound).\n\nNoble gases (He, Ne, Ar) are monatomic — they exist as single atoms.\n\nH₂ molecule formation: each H atom has 1 electron and needs 1 more. Each shares its single electron with the other → a shared pair of electrons = a covalent bond. Each H achieves helium's electron configuration (2 electrons).\n\nCovalent bonding in Cl₂: the chlorine atom has a half-filled 3p orbital. Two half-filled 3p orbitals (one from each atom) overlap head-on to form a covalent bond (sigma bond)." },
-      { h: "Covalent molecules — lone pairs, bond pairs and valency", b: "In covalent molecules, pairs of electrons involved in bonding are called bond pairs. Pairs of electrons on an atom NOT involved in bonding are called lone pairs.\n\nExamples:\n• Cl₂: each Cl has 7 outer electrons; shares 1 pair → each Cl achieves 8 outer electrons.\n• H₂O: O has 6 outer electrons; needs 2 more → 2 covalent bonds with 2H; 2 lone pairs remain on O.\n• NH₃: N has 5 outer electrons; needs 3 more → 3 covalent bonds; 1 lone pair remains on N.\n• CH₄: C has 4 outer electrons; needs 4 more → 4 covalent bonds; no lone pairs.\n\nBonds formed: H = 1 bond; O = 2 bonds; N = 3 bonds; C = 4 bonds.\n\nValency: the number of atoms of hydrogen (or any other monovalent element) with which each atom of the element combines. Cl: 1 (HCl); O: 2 (H₂O); N: 3 (NH₃); C: 4 (CH₄)." },
-      // Double/triple bonds
-      { h: "Double bonds, triple bonds, and sigma/pi bonding", b: "A single bond is formed when one pair of electrons is shared. A double bond forms when two pairs are shared (e.g. O₂, CO₂). A triple bond forms when three pairs are shared (e.g. N₂).\n\nSigma (σ) bond: formed by the head-on overlap of two orbitals. Can involve any orbital type (s, p, d). More orbital overlap → stronger bond. All single bonds are sigma bonds. In multiple bonds, the sigma bond forms first.\n\nPi (π) bond: formed by the sideways overlap of p orbitals (or d orbitals). Less orbital overlap → weaker bond. Pi bonds are only found in double and triple bonds. A double bond = one sigma + one pi. A triple bond = one sigma + two pi bonds.\n\nExample: N₂ triple bond — N = 1s², 2s², 2p², 2p¹ₓ, 2p¹ᵧ (three half-filled p orbitals). Two N atoms approach: 2pₓ orbitals overlap head-on (sigma); two 2pᵧ orbitals overlap sideways (pi); two 2p_z orbitals overlap sideways (second pi). N₂ = one sigma + two pi bonds." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "Lewis diagrams and the NaCl crystal structure", b: "Two ways to show ionic bond formation: Bohr diagram (circles) or Lewis diagram (dot-and-cross). In Lewis diagrams, the outer electrons of one atom are shown as dots and the other atom's as crosses — only valence electrons (outer electrons) are involved in bonding.\n\nExample: MgF₂ — each Mg atom loses 2 electrons (one to each F atom), forming Mg²⁺ and 2F⁻.\n\nSodium chloride crystal structure: NaCl has a cubic crystal lattice — a three-dimensional arrangement of millions of ions. Each Na⁺ is surrounded by 6 Cl⁻ ions and each Cl⁻ is surrounded by 6 Na⁺ ions. The repeating unit is called the unit cell. It is incorrect to refer to a 'molecule' of an ionic compound." },
-      // 5.4 Writing formulas of ionic compounds
-      { h: "Writing formulas of ionic compounds", b: "A chemical formula uses element symbols and numbers to show how many atoms of each element are present. Rules for ionic compound formulas:\n• Ionic compounds are neutral overall → the total positive charges must equal total negative charges.\n• Bring charges to their lowest common denominator. E.g. Al³⁺ + O²⁻: to balance, use 2 Al³⁺ (6+) and 3 O²⁻ (6−) → Al₂O₃.\n• Ionic compounds with names ending in -ide contain just two elements (e.g. NaCl, CaCl₂).\n• Those ending in -ate contain oxygen plus another element (e.g. MgSO₄, Na₂CO₃).\n\nCommon group ions to learn (Table 5.1):\nOH⁻ (hydroxide), NO₃⁻ (nitrate), HCO₃⁻ (hydrogencarbonate), MnO₄⁻ (permanganate)\nCO₃²⁻ (carbonate), SO₄²⁻ (sulfate), SO₃²⁻ (sulfite), CrO₄²⁻ (chromate), Cr₂O₇²⁻ (dichromate), S₂O₃²⁻ (thiosulfate)\nPO₄³⁻ (phosphate), NH₄⁺ (ammonium)" },
-    ];
-    c.learningOutcomes[2].notes = [
-      // 5.8 Tests for anions
-      { h: "Tests for anions — introduction and chloride test", b: "Qualitative analysis: detecting the presence of a particular substance (not how much). An aqueous solution is a substance dissolved in water (aqua = water). A precipitation reaction is one where an insoluble substance is produced from soluble substances in solution. The insoluble substance formed is called the precipitate.\n\nTest for chloride ion (Cl⁻) — Experiment 5.1A:\n1. Dissolve a chloride salt in deionised water.\n2. Add a few drops of silver nitrate (AgNO₃) solution.\n3. Observation: clear solution turns cloudy; white precipitate of silver chloride forms. Ag⁺ + Cl⁻ → AgCl↓\n4. Confirmatory test: add dilute ammonia solution — the cloudiness disappears (AgCl dissolves in dilute ammonia).\n5. Conclusion: chloride ions are present." },
-      { h: "Tests for sulfate and sulfite ions", b: "Test for sulfate (SO₄²⁻) and sulfite (SO₃²⁻) — Experiment 5.1B:\n1. Dissolve the salt in deionised water in a test-tube.\n2. Add a few drops of barium chloride (BaCl₂) solution.\n3. Observation: clear solution turns cloudy; white precipitate forms. Ba²⁺ + SO₄²⁻ → BaSO₄↓ or Ba²⁺ + SO₃²⁻ → BaSO₃↓\n\nTo distinguish between sulfate and sulfite:\n4. Add dilute hydrochloric acid (HCl) to the white precipitate.\n5. If precipitate remains → sulfate (BaSO₄ is insoluble in dilute HCl).\n6. If precipitate dissolves → sulfite (BaSO₃ is soluble in dilute HCl). SO₃²⁻ + 2H⁺ → SO₂ + H₂O" },
-      { h: "Tests for carbonate and hydrogencarbonate ions", b: "Test for carbonate (CO₃²⁻) and hydrogencarbonate (HCO₃⁻) — Experiment 5.1C:\n1. Add dilute hydrochloric acid to the solid.\n2. Observation: brisk effervescence (fizzing); gas given off turns limewater milky.\n3. CO₂ gas is produced: CO₃²⁻ + 2H⁺ → CO₂ + H₂O; HCO₃⁻ + H⁺ → CO₂ + H₂O\n4. Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O (calcium carbonate is the white precipitate — chalk/limestone)\n\nTo distinguish carbonate from hydrogencarbonate:\n5. Add magnesium sulfate (MgSO₄) solution to each.\n6. Carbonate: white precipitate (MgCO₃ is insoluble). Mg²⁺ + CO₃²⁻ → MgCO₃↓\n7. Hydrogencarbonate: no precipitate (Mg(HCO₃)₂ is soluble). Mg²⁺ + 2HCO₃⁻ → Mg(HCO₃)₂\n8. If boiling hydrogencarbonate solution: white precipitate eventually appears. Mg(HCO₃)₂ → MgCO₃↓ + CO₂ + H₂O" },
-      { h: "Test for nitrate ion (Brown Ring test) and phosphate ion", b: "Test for nitrate ion (NO₃⁻) — Experiment 5.1D — Brown Ring Test:\n1. Dissolve a nitrate salt in deionised water.\n2. Add freshly prepared iron(II) sulfate (FeSO₄) solution.\n3. Using a dropper, carefully add concentrated sulfuric acid (H₂SO₄) down the inside of the test-tube (it settles at the bottom as it is denser).\n4. Observation: a brown ring forms at the junction of the two liquid layers.\n5. The brown ring is due to formation of FeSO₄·NO. Conclusion: nitrate ions present.\nIMPORTANT: must use concentrated H₂SO₄ (not dilute — this test does not work with dilute H₂SO₄).\n\nTest for phosphate ion (PO₄³⁻) — Experiment 5.1E:\n1. Dissolve phosphate salt in deionised water.\n2. Add ammonium molybdate solution.\n3. Add a few drops of concentrated nitric acid (HNO₃).\n4. Place test-tube in warm water.\n5. Observation: yellow precipitate (ammonium phosphomolybdate) forms.\n6. Conclusion: phosphate ions present." },
-    ];
-    c.learningOutcomes[3].notes = [
-      // 5.7 VSEPR theory + shapes
-      { h: "VSEPR theory and shapes of molecules", b: "VSEPR Theory (Valence Shell Electron Pair Repulsion Theory): the shape of a molecule depends on the number of pairs of electrons around the central atom. Since electron pairs are negatively charged, they repel each other and arrange themselves in space so that they are as far apart as possible.\n\nRepulsion order: lone pair/lone pair > lone pair/bond pair > bond pair/bond pair.\nLone pairs are closer to the nucleus (not shared) and exert greater repulsion → they push bond pairs closer together, reducing bond angles.\n\nShapes:\n• 2 bond pairs, 0 lone pairs → linear, bond angle 180° (e.g. BeCl₂)\n• 3 bond pairs, 0 lone pairs → triangular planar, bond angle 120° (e.g. BCl₃)\n• 4 bond pairs, 0 lone pairs → tetrahedral, bond angle 109.5° (e.g. CH₄)\n• 4 pairs, 1 lone pair → pyramidal, bond angle ~107° (e.g. NH₃) — lone pair reduces angle from 109.5°\n• 4 pairs, 2 lone pairs → V-shaped (bent), bond angle ~104.5° (e.g. H₂O) — 2 lone pairs reduce angle further" },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is a compound?", definition: "A substance that is made up of two or more different elements combined chemically. Compounds have different properties from the elements that form them.", section: "5.1" },
-      { term: "What is a chemical bond?", definition: "An attractive force that holds atoms together in a compound. The two main types are ionic bonds and covalent bonds.", section: "5.1" },
-      { term: "What is the octet rule?", definition: "When bonding occurs, atoms tend to reach an electron arrangement with eight electrons in the outermost energy level (achieving a noble gas configuration).", section: "5.2" },
-      { term: "What is an ionic bond?", definition: "The force of attraction between oppositely charged ions in a compound. Always formed by the complete transfer of electrons from one atom to another.", section: "5.3" },
-      { term: "What is a cation?", definition: "A positive ion — formed when an atom loses one or more electrons. E.g. Na⁺, Ca²⁺, Fe³⁺.", section: "5.3" },
-      { term: "What is an anion?", definition: "A negative ion — formed when an atom gains one or more electrons. E.g. Cl⁻, O²⁻, SO₄²⁻.", section: "5.3" },
-      { term: "What is a crystal lattice?", definition: "A three-dimensional arrangement of ions in a regular pattern. In the NaCl crystal lattice, each Na⁺ is surrounded by 6 Cl⁻ and vice versa.", section: "5.3" },
-      { term: "What are valence electrons?", definition: "The electrons in the outermost energy level (orbit) of an atom. Only valence electrons are involved in chemical bonding.", section: "5.3" },
-      { term: "What is a covalent bond?", definition: "A chemical bond formed when two atoms share one or more pairs of electrons. Usually occurs between non-metal atoms.", section: "5.6" },
-      { term: "What is a molecule?", definition: "A group of atoms joined together. The smallest particle of an element or compound that can exist independently. Only used for covalent compounds — ionic compounds form crystal lattices, not molecules.", section: "5.6" },
-      { term: "What is a lone pair?", definition: "A pair of electrons on an atom that is NOT involved in bonding (not shared with another atom). Example: O in H₂O has 2 lone pairs.", section: "5.6" },
-      { term: "What is a bond pair?", definition: "A pair of electrons that IS involved in a covalent bond (shared between two atoms).", section: "5.6" },
-      { term: "What is valency?", definition: "The number of atoms of hydrogen (or any other monovalent element) with which each atom of the element combines. H=1, O=2, N=3, C=4.", section: "5.6" },
-      { term: "What is a sigma (σ) bond?", definition: "A covalent bond formed by the head-on overlap of two orbitals. Can involve any orbital type (s, p, d). More overlap = stronger bond. All single bonds are sigma bonds; always the first bond formed in a multiple bond.", section: "5.6" },
-      { term: "What is a pi (π) bond?", definition: "A covalent bond formed by the sideways overlap of p orbitals. Less overlap = weaker bond. Only found in double and triple bonds (cannot exist without a sigma bond). A double bond = 1σ + 1π; a triple bond = 1σ + 2π.", section: "5.6" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is a precipitation reaction?", definition: "A chemical reaction in which an insoluble substance (precipitate) is produced from soluble substances in solution. Example: Ag⁺ + Cl⁻ → AgCl↓", section: "5.8" },
-      { term: "What is qualitative analysis?", definition: "A type of analysis where the presence of a particular substance is detected (not the amount). For example, testing whether a solution contains chloride ions using silver nitrate.", section: "5.8" },
-    ];
-    c.learningOutcomes[3].keyTerms = [
-      { term: "What is VSEPR theory?", definition: "Valence Shell Electron Pair Repulsion Theory: the shape of a molecule depends on the number of pairs of electrons around the central atom. Electron pairs repel each other and arrange themselves to be as far apart as possible.", section: "5.7" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 3, prompt: "State the Octet Rule and give one exception to it.", model: "Octet Rule: when bonding occurs, atoms tend to reach an electron arrangement with eight electrons in the outermost energy level. Exception (any one): transition metals do not usually obey the octet rule — they can have more or fewer than eight electrons in their outermost energy level. Also, helium and elements near helium (H, Li, Be) tend to achieve an arrangement of two outer electrons rather than eight." },
-      { type: "short", marks: 4, prompt: "Explain, using an example, the difference between ionic bonding and covalent bonding.", model: "Ionic bonding involves the complete transfer of electrons from one atom to another, forming oppositely charged ions. The ionic bond is the force of attraction between these ions. Example: in NaCl, sodium loses one electron to chlorine → Na⁺ and Cl⁻ attract each other. Covalent bonding involves the sharing of electron pairs between atoms. No ions are formed. Example: in Cl₂, each chlorine atom shares one electron with the other to form a shared pair — a covalent bond." },
-      { type: "short", marks: 4, prompt: "Distinguish between a sigma bond and a pi bond. Give two differences.", model: "1. A sigma bond is formed by the head-on overlap of two orbitals; a pi bond is formed by the sideways overlap of p orbitals. 2. Sigma bonds involve more orbital overlap and are therefore stronger; pi bonds involve less overlap and are weaker. 3. All single covalent bonds are sigma bonds; pi bonds are only found in double and triple bonds. 4. A sigma bond can involve any orbital type (s, p, d); a pi bond only involves p (or d) orbitals." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 6, prompt: "Use the octet rule to predict the formula of the compound formed between magnesium and nitrogen, and draw a Lewis (dot-and-cross) diagram for it. State one limitation of the octet rule in predicting bonding.", model: "Magnesium (2, 8, 2) loses two electrons to form Mg²⁺; nitrogen (2, 5) gains three electrons to form N³⁻. Both ions then have the stable neon configuration (2, 8). Charges must balance: 3 × (+2) = +6 and 2 × (−3) = −6, so the formula is Mg₃N₂. Lewis diagram: three [Mg]²⁺ ions with no outer electrons shown and two [N]³⁻ ions each with eight outer electrons (five dots and three crosses) in square brackets. Limitation (any one): some molecules are stable with fewer than eight outer electrons on the central atom (e.g. BF₃) or with more than eight (e.g. PCl₅ or SF₆); the rule says nothing about the shape of the molecule or whether the bonding is ionic or covalent." },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Describe the laboratory test for the chloride ion in aqueous solution, including the confirmatory test.", model: "1. Dissolve the chloride salt in deionised water. 2. Add a few drops of silver nitrate (AgNO₃) solution. 3. Observation: clear solution turns cloudy; a white precipitate of silver chloride forms. Equation: Ag⁺ + Cl⁻ → AgCl↓. 4. Confirmatory test: add dilute ammonia solution to the cloudy solution. The cloudiness disappears — silver chloride dissolves in dilute ammonia. Conclusion: chloride ions are present." },
-      { type: "short", marks: 4, prompt: "Describe how you would detect sulfate ions in aqueous solution and how you would distinguish them from sulfite ions.", model: "To detect: dissolve the salt in deionised water. Add a few drops of barium chloride solution. A white precipitate forms for both sulfate (BaSO₄) and sulfite (BaSO₃). Ba²⁺ + SO₄²⁻ → BaSO₄↓; Ba²⁺ + SO₃²⁻ → BaSO₃↓.\nTo distinguish: add dilute hydrochloric acid to each white precipitate. The sulfate precipitate (BaSO₄) remains (insoluble in dilute HCl). The sulfite precipitate (BaSO₃) dissolves: SO₃²⁻ + 2H⁺ → SO₂ + H₂O." },
-      { type: "short", marks: 4, prompt: "Describe the Brown Ring test for the nitrate ion.", model: "1. Dissolve the nitrate salt in deionised water. 2. Add freshly prepared iron(II) sulfate (FeSO₄) solution. 3. Using a dropper, carefully add concentrated sulfuric acid (H₂SO₄) down the inside wall of the test-tube — it forms a layer at the bottom due to its density. 4. Observation: a brown ring forms at the junction of the two liquid layers. 5. The brown ring is due to the formation of the substance FeSO₄·NO. Conclusion: nitrate ions are present. Note: concentrated H₂SO₄ must be used — dilute H₂SO₄ does not work." },
-      { type: "short", marks: 3, prompt: "How would you test for the presence of carbonate ions in a solid sample and confirm your result?", model: "1. Add dilute hydrochloric acid to the solid. 2. Observation: brisk effervescence (fizzing) is observed; a gas is given off. 3. Pass the gas through limewater. 4. The limewater turns milky (cloudy). This confirms the gas is carbon dioxide, produced by: CO₃²⁻ + 2H⁺ → CO₂ + H₂O; Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O. Conclusion: carbonate ions are present." },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 4, prompt: "State the VSEPR theory and use it to predict the shapes of (i) methane and (ii) ammonia.", model: "VSEPR Theory: the shape of a molecule depends on the number of pairs of electrons around the central atom. Since electron pairs are negatively charged, they repel each other and arrange themselves to be as far apart as possible.\n(i) Methane (CH₄): carbon has 4 bond pairs and 0 lone pairs. Four pairs as far apart as possible → tetrahedral shape; bond angle = 109.5°.\n(ii) Ammonia (NH₃): nitrogen has 4 pairs total (3 bond pairs + 1 lone pair). The lone pair exerts greater repulsion than a bond pair, reducing the bond angle from 109.5° to about 107°. Shape = pyramidal." },
-    ];
-  })();
-
-  // ── chem6: Electronegativity and the Continuum of Chemical Bonding ───────
-  (function () {
-    var c = ch('chem6');
-    c.learningOutcomes[0].notes = [
-      // 6.2 Electronegativity
-      { h: "Electronegativity", b: "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. In bonds between different atoms, one atom attracts the shared electrons more strongly. In HCl, the electrons are more attracted to Cl than to H → Cl gets a slight negative charge (δ-) and H gets a slight positive charge (δ+). This small partial charge is indicated by the Greek letter δ (delta).\n\nLinus Pauling (American chemist, 1939) established a scale of relative electronegativity values by studying the energies needed to break bonds. He found fluorine has the highest electronegativity (4.0); calcium's electronegativity is 1.0. The most electronegative elements are the very reactive non-metals (F, Cl, O, N). The least electronegative elements (also called electropositive) are the very reactive metals (K, Na, Ca)." },
-      // 6.2 Pure covalent vs polar covalent
-      { h: "Pure covalent bonds vs polar covalent bonds", b: "Pure covalent bond: a bond in which there is EQUAL sharing of the pair(s) of electrons. The atoms bonded together have identical or very similar electronegativity values (neither exerts a significantly stronger pull). Examples: H−H, Cl−Cl, P−H.\n\nPolar covalent bond: a bond in which there is UNEQUAL sharing of the electron pair. One end of the bond is slightly positive (δ+) and the other slightly negative (δ−). The more electronegative atom carries the δ− charge; the less electronegative carries the δ+.\n\nUses of electronegativity values:\n1. To predict the polarity of covalent bonds.\n2. To predict whether a compound is ionic or covalent." },
-      // 6.3 Continuum of chemical bonding
-      { h: "The continuum of chemical bonding", b: "Chemical bonds lie on a continuum from pure covalent to polar covalent to ionic. The electronegativity DIFFERENCE between the two atoms involved in the bond determines its position on the continuum:\n• E.N. difference = 0 → pure covalent (non-polar), e.g. H−H\n• E.N. difference > 0 and ≤ 0.4 → slightly polar covalent (treated as non-polar in practice)\n• E.N. difference > 0.4 and ≤ 1.7 → polar covalent\n• E.N. difference > 1.7 → ionic\n\nThis is a rule of thumb (not a strict law) — exceptions exist. Notable exceptions:\n• LiH, NaH, KH: rule predicts covalent but these are ionic (contain the hydride ion H⁻).\n• HF: E.N. difference = 1.78 but HF is a covalent compound.\n• BF₃: rule predicts ionic but is covalent.\n\nExample: KF — K (0.82) and F (3.98) → E.N. difference = 3.16 > 1.7 → ionic. CH₄ — C (2.55) and H (2.20) → difference = 0.35 ≤ 0.4 → non-polar covalent." },
-    ];
-    c.learningOutcomes[1].notes = [
-      // 6.5 Physical properties of ionic and covalent compounds
-      { h: "Physical properties — state and melting/boiling points", b: "State at room temperature:\n• Ionic compounds: most are solid (strong attractions between oppositely charged ions require much energy to break).\n• Covalent substances: most are liquids or gases (only weak intermolecular forces between molecules).\n\nMelting and boiling points:\n• Ionic: ions can only vibrate about fixed positions; heating gives them more energy until they break away from the crystal → high m.p. and b.p. Example: NaCl m.p. = 801°C, b.p. = 1413°C.\n• Covalent: only weak intermolecular forces to overcome → much lower m.p. and b.p. Example: iodine m.p. = 114°C, b.p. = 184°C; water m.p. = 0°C, b.p. = 100°C; CO₂ m.p. = -182°C, b.p. = -164°C." },
-      { h: "Physical properties — conductivity and solubility (ionic vs covalent)", b: "Electrical conductivity:\n• Ionic: solid state — does NOT conduct (ions locked in fixed positions). Molten or dissolved in water — DOES conduct (ions free to move). Note: HCl is covalent but dissolves to give ions (HCl → H⁺ + Cl⁻), so its solution conducts electricity.\n• Covalent: does NOT usually conduct (no ions).\n\nSolubility in water:\n• Ionic: usually soluble (ion-dipole interactions with polar water molecules pull ions from lattice).\n• Covalent — polar (e.g. HCl, NH₃): highly soluble in water (dipole-dipole interactions with water). Non-polar (e.g. O₂, CH₄): only sparingly soluble.\n\nSummary comparison:\n| Property | Ionic | Covalent |\n|---|---|---|\n| Structure | Network of ions | Individual molecules |\n| Hardness | Hard and brittle | Usually soft |\n| M.p./B.p. | High | Low |\n| State at RT | Solid | Liquid, gas, or soft solid |\n| Electrical conductivity | Molten/dissolved only | Does not conduct |\n| Solubility in water | Usually soluble | Polar: soluble; Non-polar: insoluble |" },
-    ];
-    c.learningOutcomes[2].notes = [
-      // 6.4 Intramolecular vs intermolecular / Van der Waals
-      { h: "Intramolecular and intermolecular forces; van der Waals forces", b: "Intramolecular bonding: bonding that takes place WITHIN a molecule — the bonds holding atoms together (e.g. covalent bonds within H₂O).\n\nIntermolecular forces: forces of attraction that exist BETWEEN molecules. These are collectively called van der Waals forces after Dutch scientist Johannes van der Waals (Nobel Prize 1910). Note: intermolecular forces do NOT apply to ionic compounds, which consist of ions in a crystal lattice.\n\nVan der Waals forces are weak intermolecular forces of attraction that exist between ALL molecules. Characteristics:\n• Weaker than covalent or ionic bonds.\n• Occur between all molecules regardless of polarity.\n• Strength decreases greatly as distance between molecules increases.\n• Despite being weak, they play an important role in determining physical properties (b.p., m.p., solubility) because so many are present.\n\nThree types of van der Waals forces studied at LC: (1) London dispersion forces, (2) dipole-dipole forces (including hydrogen bonding), (3) ion-dipole forces." },
-      // London dispersion forces
-      { h: "London dispersion forces", b: "London dispersion forces are weak forces of attraction between molecules resulting from the formation of temporary dipoles. They are the ONLY forces of attraction between non-polar molecules.\n\nCause: electrons are in constant motion within molecules. At any given instant, both electrons may be closer to one end of the molecule → a temporary (instantaneous) dipole forms (δ+ on one side, δ− on the other). This temporary dipole can induce a dipole in a nearby molecule (induction). The attraction between opposite charges is called a London dispersion force (named after Fritz London).\n\nKey points:\n• London dispersion forces occur between ALL atoms and molecules — polar and non-polar.\n• They are very weak (estimated ~one-thousandth of a covalent bond).\n• They are the only attractive forces between non-polar molecules (e.g. H₂, O₂, N₂, noble gases, Cl₂)." },
-      // Dipole-dipole forces
-      { h: "Dipole-dipole forces", b: "Dipole-dipole forces are forces of attraction between the negative pole (δ−) of one polar molecule and the positive pole (δ+) of another polar molecule. In polar molecules, these forces exist permanently (hence 'permanent dipole-dipole forces').\n\nKey points:\n• Dipole-dipole forces only exist between molecules with a permanent dipole (polar molecules).\n• They are caused by the partially negative end of one molecule attracting the partially positive end of a neighbouring molecule.\n• Molecules align so that oppositely charged ends face each other.\n• Dipole-dipole forces are stronger than London dispersion forces.\n• They give rise to higher boiling points than similar non-polar molecules.\n• Example: HCl (b.p. = -85°C) vs H₂ (b.p. = -253°C) — HCl is polar (dipole-dipole forces), H₂ is non-polar (only London forces).\n• Example: methanal (HCHO, b.p. = -21°C) vs ethene (C₂H₄, b.p. = -104°C) — methanal is polar (dipole-dipole forces), ethene is non-polar." },
-      // Hydrogen bonding
-      { h: "Hydrogen bonding", b: "H₂O (b.p. 100°C) vs H₂S (b.p. -60°C); NH₃ (b.p. -33°C) vs PH₃ (b.p. -88°C); HF (b.p. 20°C) vs HCl (b.p. -85°C). These anomalously high boiling points are caused by hydrogen bonding.\n\nHydrogen bonds are a particular type of dipole-dipole attraction between molecules in which hydrogen atoms are bonded to nitrogen, oxygen or fluorine. (Remember: NOF)\n\nHydrogen bonding arises when H is bonded to N, O or F — the three most electronegative elements. The H atom carries a strong partial positive charge (δ+) because it is bonded to a very electronegative atom. This H atom is attracted to the lone pair on a N, O or F atom of a neighbouring molecule.\n\nKey points:\n• Hydrogen bonds are much stronger than London dispersion forces or ordinary dipole-dipole forces — but much weaker than covalent bonds (strength ≈ 10% that of a covalent bond).\n• Despite being weaker than covalent bonds, their effect is significant because so many are present." },
-    ];
-    c.learningOutcomes[3].notes = [
-      { h: "Effect of London dispersion forces on physical properties", b: "Strength of London dispersion forces increases as molecules get larger (more electrons → larger electron cloud → higher polarisability → temporary dipoles form more easily → stronger London forces).\n\nExamples:\n• Halogens: Cl₂ is a gas (b.p. = -34°C), Br₂ is a liquid (b.p. = 59°C), I₂ is a solid (b.p. = 184°C) — increasing molecular mass → stronger London forces.\n• Noble gases: boiling points increase down Group 18 (He < Ne < Ar < Kr < Xe) — atoms get bigger, stronger London forces.\n• Propane (C₃H₈, b.p. = -42°C) vs butane (C₄H₁₀, b.p. = -1°C) — butane is larger, stronger London forces.\n• CO₂ is more easily liquefied than helium — CO₂ is larger with more electrons.\n• O₂ has higher b.p. than H₂ (-183°C vs -253°C) — O₂ is larger, stronger London forces." },
-      { h: "Comparing H₂O, NH₃ and HF boiling points using hydrogen bonding", b: "Why H₂O (b.p. 100°C) has a higher boiling point than NH₃ (b.p. -33°C):\nThe electronegativity of oxygen (3.44) is higher than nitrogen (3.04). Therefore the O−H bond is more polar than N−H. The hydrogen bonding in H₂O is stronger than in NH₃. More energy is needed to break the hydrogen bonds in H₂O.\n\nWhy H₂O (b.p. 100°C) has a higher boiling point than HF (b.p. 20°C), even though F is more electronegative than O:\nEach H₂O molecule can form TWICE as many hydrogen bonds as each HF molecule (O has two lone pairs and two O−H bonds; F has only one H−F bond per molecule). Even though individual H bonds in HF are stronger (F is more electronegative), there are twice as many hydrogen bonds per molecule of H₂O. Therefore more energy is needed to separate H₂O molecules.\n\nProperties of water explained by hydrogen bonding:\n• High boiling/melting point: extra energy needed to overcome H bonds.\n• Excellent solvent ('universal solvent'): polarity + H bonding dissolves ionic (ion-dipole) and polar covalent compounds.\n• High surface tension: H bonds pull surface water molecules together." },
-    ];
-    c.learningOutcomes[4].notes = [
-      // 6.2 Polar vs non-polar molecules
-      { h: "Polar molecules and non-polar molecules", b: "A polar molecule is one that has an uneven distribution of electrical charges — regions/poles with partial positive and partial negative charges SEPARATED BY A DISTANCE. For a molecule to be polar, two conditions must both be met:\n1. One or more bonds must be polar covalent.\n2. The molecule must be asymmetric so that the centres of partial positive and negative charge are separated (the bond dipoles do not cancel out).\nExamples of polar molecules: HF, H₂O, NH₃.\n\nA non-polar molecule is one that has an EVEN distribution of electrical charges — partial positive and negative charges that are NOT separated by a distance but coincide with each other. Examples: CO₂ (linear — two equal C=O bond dipoles point in exactly opposite directions and cancel), CCl₄ (tetrahedral symmetry — four C−Cl dipoles cancel), H₂, N₂, O₂.\n\nIf there are NO polar bonds in a molecule, the molecule MUST be non-polar. If there ARE polar bonds, the shape determines whether the molecule is polar or non-polar." },
-    ];
-    c.learningOutcomes[5].notes = [
-      // Ion-dipole forces + like dissolves like
-      { h: "Ion-dipole forces and 'like dissolves like'", b: "An ion-dipole force is the force of attraction between an ion and a polar molecule. This is how ionic compounds dissolve in water — ion-dipole forces between the water molecules and the ions overcome the ionic bonding in the crystal lattice. The ions are dragged away and surrounded by water molecules (the negative end of water is attracted to cations; the positive end is attracted to anions).\n\n'Like dissolves like' rule:\n• Polar substances dissolve in polar solvents (e.g. HCl, NH₃ dissolve readily in water).\n• Non-polar substances do NOT dissolve in polar solvents (e.g. methane, oils and fats are insoluble in water).\n• Non-polar substances DO dissolve in non-polar solvents (e.g. iodine crystals dissolve in hexane — London dispersion forces between iodine and hexane molecules).\n• PH₃ is non-polar (electronegativity of P and H are 2.19 and 2.20 — almost identical) → virtually insoluble in water; dissolves in hexane." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is electronegativity?", definition: "The relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the electronegativity, the more strongly an atom attracts the shared electrons. Measured on the Pauling scale (F = 4.0).", section: "6.2" },
-      { term: "What is a partial charge (δ)?", definition: "A small charge (less than a full ionic charge) on an atom in a polar covalent bond. The more electronegative atom carries a partial negative charge (δ−) and the less electronegative atom carries a partial positive charge (δ+).", section: "6.2" },
-      { term: "What is a pure covalent bond?", definition: "A covalent bond in which there is EQUAL sharing of the electron pair(s). The bonded atoms have identical or very similar electronegativity values (E.N. difference = 0 or ≤ 0.4). Examples: H−H, Cl−Cl.", section: "6.2" },
-      { term: "What is a polar covalent bond?", definition: "A covalent bond in which there is UNEQUAL sharing of the electron pair. One end is slightly positive (δ+) and the other slightly negative (δ−), due to a difference in electronegativity (E.N. diff > 0.4).", section: "6.2" },
-      { term: "What is the continuum of chemical bonding?", definition: "The idea that bonding exists on a spectrum from pure covalent (E.N. diff = 0) through polar covalent (E.N. diff 0–1.7) to ionic (E.N. diff > 1.7). Electronegativity differences are used to predict where a bond lies on this continuum.", section: "6.3" },
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is intramolecular bonding?", definition: "Bonding that takes place WITHIN a molecule — the covalent bonds holding atoms together inside the molecule.", section: "6.4" },
-      { term: "What are intermolecular forces?", definition: "Forces of attraction that exist BETWEEN molecules. Also called van der Waals forces. Much weaker than covalent or ionic bonds. Include: London dispersion forces, dipole-dipole forces (+ hydrogen bonding), and ion-dipole forces.", section: "6.4" },
-      { term: "What are van der Waals forces?", definition: "Weak intermolecular forces of attraction that exist between ALL molecules, regardless of polarity. Named after Johannes van der Waals. Include London dispersion forces, dipole-dipole forces, and hydrogen bonds.", section: "6.4" },
-      { term: "What are London dispersion forces?", definition: "Weak forces of attraction between molecules resulting from the formation of temporary (instantaneous) dipoles. The ONLY intermolecular forces between non-polar molecules. Increase in strength as molecular size (number of electrons) increases.", section: "6.4" },
-      { term: "What is a temporary (instantaneous) dipole?", definition: "A short-lived dipole set up when the electrons in a non-polar molecule are, at a given instant, unevenly distributed. This can induce a dipole in a nearby molecule (induction), leading to a London dispersion force.", section: "6.4" },
-      { term: "What is polarisability?", definition: "The ease with which a temporary dipole can be formed in an atom or molecule. Increases with the size of the electron cloud (number of electrons). Greater polarisability → stronger London dispersion forces.", section: "6.4" },
-      { term: "What are dipole-dipole forces?", definition: "Forces of attraction between the negative pole (δ−) of one polar molecule and the positive pole (δ+) of another polar molecule. Only exist between molecules with a permanent dipole. Stronger than London dispersion forces.", section: "6.4" },
-      { term: "What is a hydrogen bond?", definition: "A particular type of dipole-dipole attraction between molecules in which a hydrogen atom bonded to N, O or F is attracted to a lone pair on a N, O or F atom of a neighbouring molecule. Stronger than ordinary dipole-dipole forces but much weaker than covalent bonds (~10% of covalent bond strength).", section: "6.4" },
-    ];
-    c.learningOutcomes[4].keyTerms = [
-      { term: "What is a polar molecule?", definition: "A molecule that has an uneven distribution of electrical charges — regions with partial positive and partial negative charges separated by a distance. Requires: (1) polar bonds AND (2) an asymmetric shape so bond dipoles do not cancel. Examples: HF, H₂O, NH₃, HCl.", section: "6.2" },
-      { term: "What is a non-polar molecule?", definition: "A molecule that has an even distribution of electrical charges. Either has no polar bonds, OR has polar bonds that cancel out due to molecular symmetry. Examples: H₂, CO₂, CCl₄, BCl₃.", section: "6.2" },
-    ];
-    c.learningOutcomes[5].keyTerms = [
-      { term: "What is an ion-dipole force?", definition: "The force of attraction between an ion and a polar molecule. Responsible for the dissolution of ionic compounds in water — polar water molecules surround and stabilise the ions, overcoming the crystal lattice forces.", section: "6.4" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 3, prompt: "Define electronegativity and explain how it leads to the formation of a polar covalent bond.", model: "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. In a polar covalent bond, the two atoms have different electronegativity values — the more electronegative atom attracts the shared electron pair more strongly. This results in an unequal sharing: the more electronegative atom carries a partial negative charge (δ−) and the less electronegative atom carries a partial positive charge (δ+)." },
-      { type: "short", marks: 3, prompt: "Distinguish between a pure covalent bond and a polar covalent bond. Give one example of each.", model: "A pure covalent bond involves equal sharing of the electron pair between two atoms with the same or very similar electronegativity values (E.N. difference ≈ 0), e.g. H−H or Cl−Cl. A polar covalent bond involves unequal sharing of the electron pair — the more electronegative atom attracts the pair more strongly, creating partial charges (δ+ and δ−), e.g. H−Cl or H−F." },
-      { type: "short", marks: 3, prompt: "Use electronegativity differences to predict the type of bonding in (i) NaCl and (ii) CH₄.", model: "(i) NaCl: Na electronegativity = 0.93; Cl = 3.16. E.N. difference = 3.16 − 0.93 = 2.23 > 1.7 → ionic bonding.\n(ii) CH₄: C electronegativity = 2.55; H = 2.20. E.N. difference = 2.55 − 2.20 = 0.35 ≤ 0.4 → pure (non-polar) covalent bonding." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "Compare the physical properties (state at room temperature, melting/boiling point, electrical conductivity, solubility in water) of ionic and covalent compounds.", model: "State: ionic compounds are usually solids at room temperature (strong ionic bonds require much energy to break); most covalent compounds are liquids or gases (only weak intermolecular forces).\nM.p./B.p.: ionic have high m.p. and b.p. (e.g. NaCl m.p. = 801°C); covalent have low m.p. and b.p. (e.g. I₂ m.p. = 114°C).\nElectrical conductivity: ionic conduct when molten or dissolved in water (ions free to move); covalent do not usually conduct (no ions).\nSolubility: ionic are usually soluble in water (ion-dipole forces); polar covalent compounds are usually soluble; non-polar covalent compounds are usually insoluble in water ('like dissolves like')." },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Explain how London dispersion forces arise and describe how molecular size affects their strength.", model: "London dispersion forces arise because electrons are in constant motion within molecules. At any given instant, the electrons may be unevenly distributed, creating a temporary (instantaneous) dipole (δ+ on one side, δ− on the other). This temporary dipole can induce a dipole in a neighbouring molecule, leading to an attractive force between opposite charges — a London dispersion force.\n\nStrength increases with molecular size: larger molecules have more electrons and larger electron clouds. This gives them greater polarisability — temporary dipoles form more easily and are stronger. Therefore London dispersion forces increase in strength as molecular mass increases (e.g. F₂ < Cl₂ < Br₂ < I₂)." },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 4, prompt: "Define hydrogen bonding and state the three elements that hydrogen must be bonded to for hydrogen bonding to occur. Explain why H₂O has a higher boiling point than H₂S.", model: "Hydrogen bonds are a particular type of dipole-dipole attraction between molecules in which hydrogen atoms bonded to N, O or F are attracted to a lone pair on a N, O or F atom in a neighbouring molecule. Hydrogen must be bonded to nitrogen, oxygen or fluorine (the three most electronegative elements — remember NOF).\n\nH₂O (b.p. = 100°C) has a much higher boiling point than H₂S (b.p. = -60°C) because hydrogen bonding exists in H₂O. Oxygen is electronegative enough to form hydrogen bonds with the H atoms; sulfur is not (smaller electronegativity difference between S and H). The hydrogen bonds between water molecules are much stronger than the dipole-dipole forces between H₂S molecules. Therefore more energy is required to separate H₂O molecules → higher boiling point." },
-      { type: "short", marks: 3, prompt: "Explain why water has a higher boiling point than hydrogen fluoride (HF), even though F is more electronegative than O.", model: "Although fluorine is more electronegative than oxygen (so individual H bonds in HF are stronger), each water molecule can form TWICE as many hydrogen bonds as each HF molecule. This is because each O atom has two O−H bonds and two lone pairs, whereas each HF molecule has only one H−F bond. Therefore, overall, more energy is required to break the hydrogen bonds between water molecules than between HF molecules, giving water the higher boiling point." },
-    ];
-    c.learningOutcomes[4].questions = [
-      { type: "short", marks: 4, prompt: "Explain why carbon dioxide (CO₂) has two polar bonds but is a non-polar molecule overall.", model: "The C=O bond is polar covalent because oxygen is more electronegative than carbon, so each oxygen carries a δ− charge and the carbon carries a δ+ charge. However, the CO₂ molecule is linear (bond angle = 180°). Because the molecule is symmetrical, the two C=O bond dipoles point in exactly opposite directions and cancel each other out. The centres of the partial positive and partial negative charges coincide — they are not separated by a distance. Therefore, there is an even distribution of charge overall and CO₂ is a non-polar molecule." },
-    ];
-    c.learningOutcomes[5].questions = [
-      { type: "short", marks: 3, prompt: "Explain what an ion-dipole force is and how it accounts for the solubility of NaCl in water.", model: "An ion-dipole force is the force of attraction between an ion and a polar molecule. When NaCl is placed in water, the polar water molecules are attracted to the Na⁺ and Cl⁻ ions. The negative end (O atom) of water is attracted to Na⁺; the positive end (H atoms) is attracted to Cl⁻. These ion-dipole forces overcome the ionic bonding between the ions in the crystal lattice, pulling the ions away from the lattice and surrounding them with water molecules. The ions are said to dissolve." },
-    ];
-  })();
-
-  // ── chem3: Atomic Structure: The Bohr and Orbital Models ─────────────────
-  (function () {
-    var c = ch('chem3');
-    c.learningOutcomes[0].notes = [
-      // 3.5 Developments leading to changes in Bohr's model
-      { h: "De Broglie and wave-particle duality", b: "In 1924, French scientist Louis de Broglie challenged Bohr's model. He proposed that all moving particles have a wave motion associated with them. His calculations showed that for large objects (e.g. a tennis ball), the wave motion would be too small to detect, but for an electron the wave should be detectable. De Broglie was proved correct in 1927 when it was discovered that moving electrons have a wave motion associated with them — this idea is called wave-particle duality. If an electron has a wave motion, it cannot be travelling in a precise, fixed path around the nucleus, so Bohr's idea of electrons in fixed orbits cannot be correct." },
-      { h: "Heisenberg's Uncertainty Principle", b: "German physicist Werner Heisenberg (1901–1976) put forward his Uncertainty Principle: it is impossible to measure at the same time both the velocity and the position of an electron. This is because to detect an electron, a beam of light is used — but the beam changes the electron's velocity when it strikes it. Since the electron has such a small mass, its velocity is immediately and significantly altered by the act of measurement. Therefore, the idea of an electron moving in a fixed orbit at a precise, constant distance from the nucleus cannot be true." },
-      { h: "Limitations of Bohr's model", b: "1. Bohr's theory worked for hydrogen, but failed for atoms with more than one electron — it could not explain many lines in their emission spectra.\n2. Bohr's theory did not account for De Broglie's finding that electrons have a wave motion. If the electron has a wave motion, it cannot travel in a fixed orbit.\n3. Bohr's model assumes the position and velocity of an electron (in an orbit) can be known precisely — this directly conflicts with Heisenberg's Uncertainty Principle.\n4. Bohr's theory could not explain the splitting of certain lines in emission spectra (could not account for the presence of sublevels)." },
-      // 3.6 The orbital model of atomic structure
-      { h: "The orbital model of atomic structure", b: "Austrian physicist Erwin Schrödinger (1887–1961) devised mathematical equations to work out the probability of finding an electron in any particular sublevel in an atom. The solutions were plotted in three dimensions to give the shapes of the four types of orbitals: s, p, d and f. An orbital can also be described as a pictorial representation of the solution of the Schrödinger wave equation for a particular electron. An orbital is a region in space within which there is a high probability of finding an electron (approximately 95% chance within the boundary)." },
-      { h: "s orbitals and p orbitals", b: "s orbitals: all s orbitals are spherical in shape and differ only in size. The probability of finding an electron in an s sublevel is identical in all directions at a fixed radius from the nucleus. All s orbitals of the same sublevel are spherical and grow larger with increasing n (1s < 2s < 3s).\n\np orbitals: when Schrödinger's equations were solved for the p sublevel, the resulting shapes resembled dumbbells — p orbitals are dumbbell-shaped. Each p sublevel consists of three p orbitals (pₓ, pᵧ, p_z). The three p orbitals are at right angles to each other, each aligned along one of the three main axes (x, y or z). The three p orbitals are of equal energy and differ only in orientation." },
-    ];
-    c.learningOutcomes[1].notes = [
-      // 3.2 Bohr's study of spectra
-      { h: "Continuous spectrum vs line emission spectrum", b: "When white light (e.g. sunlight) passes through a glass prism, it splits into a continuous spread of colours from red to violet — this is a continuous spectrum with no gaps. When the light from a hydrogen discharge tube (a glass tube filled with hydrogen gas at low pressure, through which an electric current is passed) is passed through a prism, a series of narrow coloured lines is seen — this is a line emission spectrum (also called a line spectrum). Because the spectrum consists of lines, it is called a line spectrum to distinguish it from a continuous spectrum." },
-      // 3.3 The Bohr model of the atom
-      { h: "The Bohr model of the atom", b: "Niels Bohr (1885–1962), a Danish physicist at the University of Copenhagen, proposed his Theory of Atomic Structure in 1913. Bohr realised that any model of the atom must explain: (1) why the emission spectra of elements are line spectra rather than continuous spectra, and (2) why the emission spectrum of each element is unique. Bohr introduced the concept of quantisation of energy: an electron in an atom can only have certain fixed (quantised) values of energy. A fixed amount of energy is called a quantum. (It's like steps on a staircase rather than a ramp — only fixed values are possible.)" },
-      { h: "Assumptions of Bohr's theory", b: "1. Electrons revolve around the nucleus in fixed paths called orbits (also called energy levels or shells).\n2. Electrons in any one orbit have a fixed amount of energy. Orbits are also called energy levels.\n3. The energy of the electron in a particular orbit or energy level is quantised, i.e. fixed at a definite value.\n4. Atoms normally exist in the ground state — electrons occupy the lowest available energy levels.\n5. When energy is absorbed, electrons jump from lower to higher energy levels (excited state).\n6. Electrons in the excited state are unstable and fall back to lower levels after a short time.\n7. As an electron falls to a lower energy level, the excess energy is released as a photon of light of a definite frequency given by E₂ − E₁ = hf." },
-      { h: "Quantisation and ground/excited states", b: "Ground state: all electrons occupy the lowest available energy levels. Excited state: one or more electrons occupy higher energy levels than those available in the ground state. Photon: a fixed amount (quantum) of light energy or other forms of electromagnetic radiation. When an electron absorbs energy, it jumps from a lower energy level to a higher energy level. When it falls back, it releases a photon of light. Since only definite amounts of energy are emitted, only light of definite frequencies can be emitted, giving rise to a line spectrum." },
-      { h: "Bohr's equation and spectral lines", b: "Bohr showed mathematically that the energy of each energy level in hydrogen could be calculated. The energy difference between levels is given by E₂ − E₁ = hf, where E₂ is the higher energy level, E₁ is the lower energy level, h is Planck's constant, and f is the frequency of the emitted light. This equation means the energy difference is proportional to the frequency of light emitted, giving rise to a line of that colour in the emission spectrum. Example: the transition from n=3 to n=2 gives a red colour in hydrogen's emission spectrum." },
-      { h: "Lyman, Balmer and Paschen series", b: "When electrons in hydrogen fall to different energy levels, they produce different series of spectral lines:\n• Lyman series: electrons fall to the n=1 energy level → lines in the ultraviolet region (invisible).\n• Balmer series: electrons fall to the n=2 energy level → lines in the visible region.\n• Paschen series: electrons fall to the n=3 energy level → lines in the infrared region (invisible).\nThese series are named after the scientists who first discovered or studied them. Although hydrogen has only one electron, in a sample there are millions of atoms. When energy is supplied, different atoms may have their electron promoted to different energy levels (n=2, n=3, etc.), so many different transitions are possible." },
-    ];
-    c.learningOutcomes[2].notes = [
-      { h: "Spectrometer vs Spectroscope", b: "Spectrometer: an instrument used to carry out measurements on spectra (measures wavelengths of light). Spectroscope: an instrument used simply to observe spectra. Spectra are more easily studied in a darkened room. Each element has a unique line emission spectrum — a 'fingerprint' used to identify elements (e.g. to detect metals present in steel)." },
-      { h: "Flame tests", b: "Flame tests use the characteristic colour given off when metal salts are heated. A damp wooden splint is held in a sample of salt in the blue flame of a Bunsen burner. Colours:\n• Sodium (Na) — Yellow\n• Potassium (K) — Lilac\n• Copper (Cu) — Blue-green\n• Lithium (Li) — Crimson\n• Barium (Ba) — Green\n• Strontium (Sr) — Red\nIdentifying elements from their line emission spectra: sodium, strontium and copper can be identified for your exam." },
-      { h: "Identifying elements from line emission spectra", b: "Each element has a unique line emission spectrum because each element has a different number of electrons and its own arrangement of electrons in energy levels. This gives different types and numbers of electron transitions for each element. Example: sodium street lamps give off yellow light; mercury vapour lamps give off blue light; neon signs give off red light. The colours in fireworks are obtained by adding salts of various metals to the explosive mixture." },
-    ];
-    c.learningOutcomes[3].notes = [
-      // 3.4 Energy sublevels
-      { h: "Energy sublevels", b: "As spectrometers became more sophisticated, scientists found that what appeared to be a single line actually consisted of multiple lines very close together. To explain this, it was proposed that each main energy level (except the first) consists of a number of sublevels close in energy. The number of sublevels in a main energy level equals the value of n: n=1 has 1 sublevel (1s), n=2 has 2 sublevels (2s, 2p), n=3 has 3 sublevels (3s, 3p, 3d), n=4 has 4 sublevels (4s, 4p, 4d, 4f). Sublevels are labelled with the letters s, p, d and f (originally from words used to describe lines in spectra: sharp, principal, diffuse, fundamental). Note: the 4s sublevel is lower in energy than the 3d sublevel." },
-      { h: "Sublevels and orbitals", b: "A sublevel is a subdivision of a main energy level and consists of one or more orbitals of the same energy. The 2s sublevel has one orbital (the 2s orbital). The 2p sublevel has three p orbitals (2pₓ, 2pᵧ, 2p_z), all of equal energy. The second energy level (n=2) is divided into two sublevels (2s and 2p), giving four orbitals overall. Note: the term orbital must not be confused with Bohr's orbit — orbit was used to describe a fixed path of an electron, while orbital describes the probability picture. The most modern model is called the orbital model (or Quantum Mechanical model)." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is wave-particle duality?", definition: "The idea that moving particles (including electrons) have both particle and wave properties. Proposed by Louis de Broglie in 1924 and experimentally confirmed in 1927. This contradicts Bohr's model of fixed electron orbits.", section: "3.5" },
-      { term: "What is Heisenberg's uncertainty principle?", definition: "It is impossible to measure at the same time both the velocity and the position of an electron. This is because the act of measuring one property disturbs the other. This principle disproves the concept of a fixed electron orbit.", section: "3.5" },
-      { term: "What is an orbital?", definition: "A region in space within which there is a high probability (approximately 95%) of finding an electron. Orbitals are not the same as Bohr's orbits — they describe probability regions, not fixed paths. s orbitals are spherical; p orbitals are dumbbell-shaped.", section: "3.6" },
-      { term: "What is quantum mechanics?", definition: "The branch of science that explains how small objects such as atoms and electrons behave. These objects do not behave the same way as large objects such as footballs or cars. The orbital model is also called the Quantum Mechanical model.", section: "3.6" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is a continuous spectrum?", definition: "A spread of colours from red to violet with no gaps, produced when white light passes through a prism. Contains all wavelengths/frequencies of visible light.", section: "3.2" },
-      { term: "What is a line emission spectrum?", definition: "A series of narrow coloured lines against a dark background, produced when light emitted by an excited element (e.g. from a discharge tube) is passed through a prism. Also called a line spectrum or emission line spectrum.", section: "3.2" },
-      { term: "What is quantisation?", definition: "The property of having only certain fixed (discrete) values. In Bohr's model, an electron can only have fixed, quantised amounts of energy — like steps on a staircase rather than a continuous ramp.", section: "3.3" },
-      { term: "What is a quantum?", definition: "A fixed (definite) amount of energy. An electron can only absorb or emit energy in fixed 'chunks' called quanta.", section: "3.3" },
-      { term: "What is the ground state?", definition: "The state of an atom in which the electrons occupy the lowest available energy levels.", section: "3.3" },
-      { term: "What is an excited state?", definition: "The state of an atom in which one or more electrons occupy higher energy levels than those available in the ground state, having absorbed energy.", section: "3.3" },
-      { term: "What is a photon?", definition: "A fixed amount (quantum) of light energy or other electromagnetic radiation. When an electron falls from a higher to a lower energy level, a photon of light of definite frequency is emitted.", section: "3.3" },
-      { term: "What is Planck's constant (h)?", definition: "A fundamental constant in physics, appearing in the equation E₂ − E₁ = hf. It relates the energy of a photon to the frequency of the emitted light.", section: "3.3" },
-      { term: "What is the Lyman series?", definition: "The series of lines in the emission spectrum of hydrogen produced when electrons fall to the n=1 energy level. Lines are in the ultraviolet (invisible) region.", section: "3.3" },
-      { term: "What is the Balmer series?", definition: "The series of lines in the emission spectrum of hydrogen produced when electrons fall to the n=2 energy level. Lines are in the visible region.", section: "3.3" },
-      { term: "What is the Paschen series?", definition: "The series of lines in the emission spectrum of hydrogen produced when electrons fall to the n=3 energy level. Lines are in the infrared (invisible) region.", section: "3.3" },
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is a spectrometer?", definition: "An instrument used to carry out measurements on spectra, e.g. to measure the wavelengths of light.", section: "3.2" },
-      { term: "What is a spectroscope?", definition: "An instrument used simply to observe (not measure) spectra.", section: "3.2" },
-    ];
-    c.learningOutcomes[3].keyTerms = [
-      { term: "What is a sublevel?", definition: "A subdivision of a main energy level, consisting of one or more orbitals of the same energy. Labelled s, p, d or f. The number of sublevels in an energy level equals the value of n.", section: "3.4" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 4, prompt: "State Heisenberg's Uncertainty Principle and explain how it undermines Bohr's model of the atom.", model: "Heisenberg's Uncertainty Principle states that it is impossible to measure at the same time both the velocity and the position of an electron. Bohr's model assumes electrons travel in fixed orbits at a precise, constant distance from the nucleus — this implies both the position and velocity of the electron are known precisely. Heisenberg's principle shows this is impossible, so Bohr's model of fixed orbits cannot be correct." },
-      { type: "short", marks: 4, prompt: "State four limitations of Bohr's model of the atom.", model: "1. Bohr's theory worked for hydrogen but failed to explain the emission spectra of atoms with more than one electron. 2. Bohr's model did not account for De Broglie's finding that electrons have wave-particle duality — if the electron has a wave motion, it cannot travel in a fixed orbit. 3. Bohr's model is in conflict with Heisenberg's Uncertainty Principle, which states that both the position and velocity of an electron cannot be known simultaneously. 4. Bohr's theory could not explain the splitting of certain spectral lines and did not account for the existence of energy sublevels." },
-      { type: "short", marks: 4, prompt: "Define the term orbital and describe the shapes of s and p orbitals.", model: "An orbital is a region in space within which there is a high probability (approximately 95%) of finding an electron. s orbitals are spherical in shape; all s orbitals differ only in size (1s < 2s < 3s). p orbitals are dumbbell-shaped. Each p sublevel consists of three dumbbell-shaped orbitals (pₓ, pᵧ, p_z) arranged at right angles to each other along the x, y and z axes. The three p orbitals in a sublevel are of equal energy and differ only in orientation." },
-      { type: "short", marks: 4, prompt: "Distinguish between the terms orbit and orbital.", model: "An orbit (used by Bohr) describes a fixed path in which an electron travels around the nucleus at a certain velocity and a precise, constant distance from the nucleus — both position and velocity are known. An orbital (used in the quantum mechanical model) is a region in space within which there is a high probability of finding an electron; it does not describe a fixed path but a probability distribution. Orbitals arise from Schrödinger's wave equations and are consistent with Heisenberg's Uncertainty Principle." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "Distinguish between a continuous spectrum and a line emission spectrum.", model: "A continuous spectrum is a spread of all colours from red to violet with no gaps, produced when white light is passed through a prism. A line emission spectrum consists of a series of narrow coloured lines against a dark background, produced when light emitted by excited atoms of an element is passed through a prism. Each element has its own unique line emission spectrum." },
-      { type: "short", marks: 4, prompt: "Explain, using Bohr's theory, why the emission spectrum of hydrogen consists of lines rather than a continuous spectrum.", model: "According to Bohr's theory, electrons can only exist in certain fixed energy levels (quantisation of energy). When an electron falls from a higher energy level to a lower one, it emits a photon of light with a definite frequency (E₂ − E₁ = hf). Since only definite amounts of energy can be emitted, only light of definite frequencies is given off. This produces specific coloured lines rather than a continuous spread of all colours." },
-      { type: "short", marks: 3, prompt: "Name the series of spectral lines in hydrogen that appear in the visible region, and state which energy level the electrons fall to in this series.", model: "The Balmer series. Electrons fall to the n = 2 energy level. (The transition from n = 3 to n = 2 gives rise to a red coloured line.)" },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Describe the flame test experiment and state the colour produced by three different metals.", model: "Using a damp wooden splint, hold a sample of a metal salt in the blue flame of a Bunsen burner. Repeat with different metal salts. Each metal gives a characteristic colour: Sodium — yellow; Potassium — lilac; Copper — blue-green; Lithium — crimson; Barium — green; Strontium — red. The colours can be used to identify the metal present in an unknown compound. (Any three metals + colours accepted for 4 marks.)" },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 3, prompt: "How many sublevels are present in the n=3 main energy level? Name them and state the number of orbitals in each.", model: "The n=3 main energy level contains 3 sublevels: 3s (1 orbital), 3p (3 orbitals), and 3d (5 orbitals). The number of sublevels in a main energy level is equal to the value of n." },
-    ];
-  })();
-
-  // ── chem7: Families and Trends in the Periodic Table ──────────────────────
-  (function () {
-    var c = ch('chem7');
-    c.learningOutcomes[0].notes = [
-      { h: "Group 1: Alkali Metals — Properties and Reactions", b: "The alkali metals (Li, Na, K on LC course) are in Group 1. Named 'alkali' because they form alkaline (basic) solutions when added to water. All are shiny solids stored under oil to prevent reaction with air. Properties: very reactive (low first IE → readily lose single outer electron); not found free in nature; form ionic +1 compounds; reactivity increases down the group. Reactions — with oxygen: 4Li + O₂ → 2Li₂O; 4Na + O₂ → 2Na₂O; 4K + O₂ → 2K₂O. With water: 2M + 2H₂O → 2MOH + H₂↑ (e.g. 2Na + 2H₂O → 2NaOH + H₂↑). Reactivity order: Li (quiet) < Na (vigorous) < K (very vigorous — H₂ ignites). NEVER react alkali metals with dilute acid (explosion risk)." },
-      { h: "Why Alkali Metal Reactivity Increases Down Group 1", b: "Reactivity of alkali metals increases down Group 1 because the first ionisation energy decreases down the group. As atomic radius increases down the group, the outer electron is further from the nucleus, and the screening effect of inner energy levels increases — both factors reduce the attractive force of the nucleus on the outer electron. Therefore it becomes progressively easier to lose the outer electron, making each element more reactive. Li reacts quietly with water; Na more vigorously; K very vigorously (H₂ ignites); Rb and Cs react explosively (not demonstrated in school)." },
-      { h: "Group 2: Alkaline Earth Metals — Properties and Reactions", b: "The alkaline earth metals (Be, Mg, Ca on LC course) are in Group 2. Named 'alkaline' because their compounds form alkaline solutions, 'earth' because compounds occur naturally in the earth (e.g. MgO = 'Milk of Magnesia', CaO = lime). All are shiny silvery solids (Be is toxic — not in school lab). Properties: reactive (low IE, readily lose two outer electrons to form +2 ions); less reactive than Group 1; form ionic compounds; reactivity increases down the group. Reactions — with O₂: 2M + O₂ → 2MO (e.g. 2Mg + O₂ → 2MgO; 2Ca + O₂ → 2CaO). With water: Mg + 2H₂O → Mg(OH)₂ + H₂↑ (slow with cold water, faster with steam); Ca + 2H₂O → Ca(OH)₂ + H₂↑ (reacts quickly with cold water). Note: Be is unique — forms both ionic bonds (BeO, E.N. diff. = 1.87) and covalent bonds (BeCl₂, E.N. diff. = 1.59)." },
-      { h: "Group 17: Halogens — Properties and Reactions", b: "The halogens (F, Cl, Br, I) are in Group 17. Name from Greek 'halos' = 'producer of salt' (all react with metals to produce salts). Properties: highly electronegative; very reactive non-metals; not found free in nature; poor conductors of electricity. States: F₂ (colourless gas), Cl₂ (pale green/yellow gas), Br₂ (dark red volatile liquid), I₂ (purple solid — sublimes on heating). Iodine sublimation: changes directly from solid to gas without passing through the liquid phase. Reactions with Na: 2Na + X₂ → 2NaX. With H₂: H₂ + X₂ → 2HX. Reactivity INCREASES UP the group. Fluorine is the most reactive and most electronegative element in the Periodic Table (far too reactive for school lab)." },
-      { h: "Halogen Displacement Reactions and Why Reactivity Increases Up Group 17", b: "Halogen reactivity increases up Group 17 because electronegativity increases up the group. Going up the group, atomic radius decreases and the screening effect decreases (fewer inner energy levels) — outermost electrons are held more tightly, so the halogen attracts electrons more readily. Displacement reactions: the more reactive (more electronegative) halogen displaces a less reactive halogen from solution of its ions. Examples: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂ (colourless solution turns red/orange; Cl E.N. = 3.16 > Br E.N. = 2.96); Br₂ + 2I⁻ → 2Br⁻ + I₂ (colourless → purple; Br E.N. = 2.96 > I E.N. = 2.66). Rule: the more reactive halogen always displaces the less reactive halogen from a solution of its ions." },
-      { h: "Group 18: Noble (Inert) Gases", b: "The noble gases (He, Ne, Ar, Kr on LC course) are in Group 18. Very unreactive because they have completely full outer energy levels (8 electrons for Ne/Ar/Kr; He = 1s² — full first energy level with 2 electrons). No tendency to gain or lose electrons → chemically inert. Exist as single atoms (no covalent radii quoted). All are gases at room temperature, poor conductors of electricity and heat. Used in plasma balls (when high voltage passes through, different colours are given off with no unwanted side reactions). Helium is used in balloons. Boiling points increase from He to Rn because atomic radius increases down the group → stronger London dispersion forces → more energy needed to separate atoms." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "Introduction: Periodic Trends", b: "When elements are arranged in order of increasing atomic number, the properties displayed by an element are repeated in other elements within the same group or family in the Periodic Table. Chapter 7 examines four specific trends — atomic radius, ionisation energy, electronegativity, and the chemical/physical properties of Groups 1, 2, 17, and 18. These four groups are the ones specified on the Leaving Certificate Chemistry course." },
-      { h: "Trends in Electronegativity", b: "Electronegativity decreases down the groups for two reasons: (1) increasing atomic radius — the shared pair of electrons in the bond is further from the nucleus, so the attractive force on it decreases; (2) screening effect of inner electrons — inner shells partially shield the nucleus from the shared pair, reducing the attraction. Electronegativity increases along the periods for two reasons: (1) increasing effective nuclear charge — stronger attraction on the shared pair of electrons; (2) decreasing atomic radius — the shared pair is closer to the nucleus and held more tightly. Note: electronegativity trends follow the same pattern as ionisation energy trends." },
-    ];
-    c.learningOutcomes[2].notes = [
-      { h: "Atomic Radius (Covalent Radius) — Definition", b: "The atomic radius (covalent radius) of an atom is defined as half the distance between the nuclei of two atoms of the same element that are joined together by a single covalent bond. This distance is also called the bond length. Because electron positions cannot be precisely determined (Heisenberg), atomic radius is measured experimentally by X-ray diffraction or electron diffraction. Note: no covalent radii are quoted for noble gases because they exist as single atoms and do not form covalent bonds. Example: H–H bond length = 0.074 nm → atomic radius of H = 0.037 nm." },
-      { h: "Trends in Atomic Radius", b: "General trends: atomic radius DECREASES across a period (left to right) and INCREASES down a group. Down a group — two reasons: (1) New energy level: each additional period places electrons in a new, higher energy level further from the nucleus, so atomic radius increases. (2) Screening effect: inner electrons shield (screen) outer electrons from the full nuclear charge, so even though the nuclear charge increases, the outer electrons are not pulled in. Across a period — two reasons: (1) Increasing effective nuclear charge: more protons attract outer electrons more strongly, pulling them closer to the nucleus. (2) No increase in screening: all new electrons enter the same outer energy level, providing no additional shielding." },
-      { h: "Effective Nuclear Charge", b: "Effective nuclear charge is the net positive charge experienced by an outer electron after accounting for the shielding provided by inner electrons. It equals the nuclear charge minus the screening effect. Across a period, the nuclear charge increases but screening does not (electrons added to the same energy level) — so the effective nuclear charge increases, pulling outer electrons closer and shrinking atomic radius. Down a group, any increase in nuclear charge is counteracted by the increase in the screening effect of extra inner energy levels, so atomic radius increases." },
-      { h: "First Ionisation Energy — Definition and Trends", b: "The first ionisation energy of an atom is the minimum energy required to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state. Equation: Na(g) → Na⁺(g) + e⁻. Units: kJ mol⁻¹. The state symbol (g) is essential. General trends: IE DECREASES down a group — (1) increasing atomic radius means outer electrons are further from the nucleus and more weakly attracted; (2) screening effect of inner electrons further reduces the nuclear attraction. IE INCREASES across a period — (1) increasing effective nuclear charge makes it harder to remove an electron; (2) decreasing atomic radius means electrons are closer to the nucleus and more strongly held. Alkali metals have the lowest first IE values (very reactive). Noble gases have the highest (very unreactive)." },
-      { h: "Exceptions to the Ionisation Energy Trend Across a Period", b: "In period 2, beryllium (Be) and nitrogen (N) have higher first IE values than expected from the general trend. In period 3, magnesium (Mg) and phosphorus (P) also show unexpectedly high values. The reason is that completely filled or exactly half-filled sublevels have extra stability, requiring more energy to remove an electron. Completely filled sublevels: Be = 1s², 2s² (full 2s sublevel); Mg = 1s², 2s², 2p⁶, 3s² (full 3s sublevel). Half-filled sublevels: N = 1s², 2s², 2p³ (exactly half-filled 2p sublevel); P = 1s², 2s², 2p⁶, 3s², 3p³ (exactly half-filled 3p sublevel)." },
-      { h: "Second Ionisation Energy and Successive Ionisation Energies", b: "Second ionisation energy is the energy required to remove an electron from an ion with one positive charge in the gaseous state: X⁺(g) → X²⁺(g) + e⁻. Successive ionisation energies provide evidence for the existence of electron energy levels. For potassium (K = 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹): 1st IE = 418 kJ mol⁻¹; 2nd IE = 3050 kJ mol⁻¹. The huge jump from 1st to 2nd IE proves the 2nd electron is removed from the closer n = 3 level, not n = 4. A graph of log(IE) vs number of electrons removed shows clusters corresponding to each energy level, with large jumps between clusters. Two general rules: (1) IE increases steadily as each electron is removed (positive charge on the ion increases, remaining electrons held more tightly); (2) large jumps occur whenever an electron is removed from a new inner energy level, especially from a filled sublevel." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What are alkali metals?", definition: "The reactive metals of Group 1 (Li, Na, K on LC course). Named because they form alkaline solutions in water. Low first IE → readily lose one outer electron to form +1 ions. Reactivity increases down the group.", section: "7.5" },
-      { term: "What are alkaline earth metals?", definition: "The reactive metals of Group 2 (Be, Mg, Ca on LC course). Readily lose two outer electrons to form +2 ions. Less reactive than Group 1; reactivity increases down the group.", section: "7.5" },
-      { term: "What are halogens?", definition: "The highly electronegative non-metals of Group 17 (F, Cl, Br, I). From Greek 'halos' = 'producer of salt'. Very reactive; reactivity increases UP the group. Fluorine is the most electronegative and most reactive element.", section: "7.5" },
-      { term: "What is sublimation?", definition: "The change of a substance directly from the solid state to the gaseous state on heating, without passing through the liquid phase. Iodine sublimes — it does not melt to a liquid first.", section: "7.5" },
-      { term: "What is a displacement reaction (halogens)?", definition: "A reaction in which a more reactive (more electronegative) halogen displaces a less reactive halogen from a solution of its ions. E.g. Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. The more reactive halogen always wins.", section: "7.5" },
-      { term: "What are noble (inert) gases?", definition: "The unreactive elements of Group 18 (He, Ne, Ar, Kr on LC course). Have completely full outer energy levels, giving them no tendency to react. Exist as monatomic gases. Used in plasma balls.", section: "7.5" },
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is an atomic radius (covalent radius)?", definition: "Half the distance between the nuclei of two atoms of the same element that are joined together by a single covalent bond (i.e. half the bond length). Measured by X-ray diffraction or electron diffraction. Noble gases have no covalent radii.", section: "7.2" },
-      { term: "What is bond length?", definition: "The distance between the nuclei of two atoms joined by a covalent bond. The atomic (covalent) radius is half the bond length.", section: "7.2" },
-      { term: "What is the screening effect (shielding)?", definition: "The reduction in the attractive force experienced by outer electrons, caused by inner electrons partially blocking the positive charge of the nucleus. It causes atomic radius and IE to increase down a group.", section: "7.2" },
-      { term: "What is effective nuclear charge?", definition: "The net positive charge experienced by an outer electron, equal to the nuclear charge minus the screening effect of inner electrons. It increases across a period (no extra shielding added) and is relatively constant down a group.", section: "7.2" },
-      { term: "What is first ionisation energy?", definition: "The minimum energy required to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state. Units: kJ mol⁻¹. Equation: X(g) → X⁺(g) + e⁻. State symbol (g) is essential.", section: "7.3" },
-      { term: "What is second ionisation energy?", definition: "The energy required to remove an electron from a +1 ion in the gaseous state: X⁺(g) → X²⁺(g) + e⁻. Always greater than the first IE. A very large jump from 1st to 2nd IE indicates the element is in Group 1.", section: "7.3" },
-      { term: "What is a completely filled sublevel?", definition: "A sublevel in which every orbital holds two electrons (e.g. 2s² in Be, 3s² in Mg). Extra stability means more energy is needed to remove an electron → higher-than-expected first IE.", section: "7.3" },
-      { term: "What is a half-filled sublevel?", definition: "A sublevel in which each orbital holds exactly one electron (e.g. 2p³ in N, 3p³ in P). Extra stability means more energy is needed to remove an electron → higher-than-expected first IE.", section: "7.3" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 5, prompt: "Describe the properties of the halogens (Group 17) and explain why their reactivity increases up the group.", model: "Properties of halogens: highly electronegative non-metals; very reactive; do not exist free in nature; poor conductors of electricity. States: F₂ is a colourless gas, Cl₂ is a pale green/yellow gas, Br₂ is a dark red volatile liquid, I₂ is a purple solid (sublimes on heating). Reactivity increases up Group 17 for two reasons: 1. Atomic radius decreases going up the group — the outermost electrons are closer to the nucleus and held more tightly. 2. Screening effect decreases going up — fewer inner energy levels. These two factors increase the electronegativity going up the group, so the halogen has a greater ability to attract electrons from other atoms, making it more reactive. Fluorine at the top is the most electronegative and most reactive halogen." },
-      { type: "short", marks: 4, prompt: "Describe what is observed when chlorine gas is bubbled through a solution containing bromide ions. Write a balanced equation for the reaction and explain why it occurs.", model: "Observation: the colourless solution turns red/orange (red-brown), indicating the formation of bromine. Equation: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Explanation: chlorine is more electronegative than bromine (E.N. of Cl = 3.16 vs Br = 2.96). Because of its greater electronegativity, chlorine has a greater attraction for electrons and removes them from the bromide ions in solution, converting them to bromine molecules. This is a halogen displacement reaction — the more reactive halogen (chlorine) displaces the less reactive halogen (bromine) from a solution of its ions." },
-      { type: "short", marks: 4, prompt: "State four properties of the alkali metals and give two reasons why their reactivity increases down Group 1.", model: "Properties of alkali metals: (1) shiny, silvery solids; (2) stored under oil to prevent reaction with air and moisture; (3) low first ionisation energies — readily lose their single outer electron to form +1 ions; (4) not found free in nature; reactivity increases down the group. Why reactivity increases down Group 1: 1. Atomic radius increases — the outer electron is further from the nucleus and less strongly attracted, so it is easier to remove. 2. Screening effect increases — more inner energy levels shield the outer electron from the nucleus, further reducing the attractive force. Both factors cause the first ionisation energy to decrease down the group, making it progressively easier to lose the outer electron and increasing reactivity." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "Outline the trends in electronegativity in the Periodic Table and explain the reasons for the trend down a group.", model: "Electronegativity decreases down the groups and increases along the periods. Down a group, two reasons explain the decrease: 1. Increasing atomic radius — as atomic radius increases down a group, the shared pair of electrons in the covalent bond is further from the nucleus, so the attractive force on the shared pair decreases and electronegativity decreases. 2. Screening effect of inner electrons — the increasing number of inner energy levels screens the nucleus from the shared pair of electrons, reducing the attractive force and decreasing the electronegativity." },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Define atomic radius (covalent radius) and state the general trends in atomic radius across a period and down a group in the Periodic Table.", model: "The atomic radius (covalent radius) of an atom is defined as half the distance between the nuclei of two atoms of the same element that are joined together by a single covalent bond (i.e. half the bond length). General trends: atomic radius decreases from left to right across a period (due to increasing effective nuclear charge with no increase in screening). Atomic radius increases down a group (due to the addition of new energy levels and the screening effect of inner electrons)." },
-      { type: "short", marks: 4, prompt: "Give two reasons why atomic radius increases down a group in the Periodic Table.", model: "1. New energy level: as you move down a group, electrons are added to new, higher energy levels (orbitals) that are further from the nucleus, increasing the atomic radius. 2. Screening effect: the inner electrons in lower energy levels shield (screen) the outer electrons from the attractive force of the nucleus. Although nuclear charge increases going down a group, the increase is counteracted by the greater screening effect of the additional inner energy levels, so the outer electrons are not pulled in and atomic radius increases." },
-      { type: "short", marks: 4, prompt: "Give two reasons why atomic radius decreases across a period in the Periodic Table.", model: "1. Increasing effective nuclear charge: as you move from left to right across a period, the number of protons increases. There is no corresponding increase in screening (all new electrons enter the same outer energy level). Therefore the effective nuclear charge increases, pulling outer electrons closer to the nucleus and decreasing atomic radius. 2. No increase in the screening effect: since there is no increase in the number of inner energy levels across a period, there is no additional shielding to counteract the increasing nuclear charge, so the outer electrons are pulled progressively closer." },
-      { type: "short", marks: 3, prompt: "Define first ionisation energy and write an equation to represent the first ionisation energy of potassium.", model: "The first ionisation energy of an atom is the minimum energy required to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state. Equation: K(g) → K⁺(g) + e⁻. (Units: kJ mol⁻¹; the state symbol (g) is essential.)" },
-      { type: "short", marks: 4, prompt: "In period 2, beryllium (Be) has a higher first ionisation energy than boron (B), and nitrogen (N) has a higher first ionisation energy than oxygen (O). Explain these observations.", model: "Beryllium (Be = 1s², 2s²) has a higher IE than boron (B = 1s², 2s², 2p¹) because beryllium has a completely filled 2s sublevel. A completely filled sublevel has extra stability, so more energy is required to remove an electron from it than from the singly-occupied 2p sublevel of boron. Nitrogen (N = 1s², 2s², 2p³) has a higher IE than oxygen (O = 1s², 2s², 2p⁴) because nitrogen has an exactly half-filled 2p sublevel. A half-filled sublevel has extra stability, so more energy is required to remove an electron from it than from oxygen's 2p⁴ configuration (where one orbital is doubly occupied and gives an easier-to-remove electron)." },
-      { type: "short", marks: 4, prompt: "The successive ionisation energies (kJ mol⁻¹) of an element are: 1st = 496; 2nd = 4563; 3rd = 6913. Identify the group of this element in the Periodic Table and explain your reasoning.", model: "The element is in Group 1. There is a very large increase in ionisation energy between the 1st IE (496 kJ mol⁻¹) and the 2nd IE (4563 kJ mol⁻¹). This large jump indicates that the second electron is being removed from a different, closer (lower) energy level than the first electron. This means the first electron was in an outer energy level on its own — consistent with a Group 1 element that has one electron in its outermost energy level. The relatively small increase from 2nd to 3rd IE confirms that both the 2nd and 3rd electrons come from the same inner energy level." },
-    ];
-  })();
-
-  // ── chem8: The Mole: The Chemist's Counting Unit ──────────────────────────
-  (function () {
-    var c = ch('chem8');
-    c.learningOutcomes[0].notes = [
-      { h: "The Mole — Definition and the Avogadro Constant", b: "The mole is the SI unit of amount of substance. Symbol: mol. Just as a dozen = 12 and a ream = 500, the mole is the chemist's counting unit for extremely tiny particles (atoms, molecules, ions). IUPAC definition (2018): one mole of a substance contains 6.02 × 10²³ elementary entities of the substance. The word 'entity' simply means something that exists as its own single and separate unit — atoms, molecules, or ions. The number 6.02 × 10²³ is called the Avogadro constant, symbol Nₐ, named after Italian chemist Amedeo Avogadro (1776–1856). It is an enormous number — greater than the entire population of the Earth and greater than the number of grains of sand on Earth. Important: always specify the entity when referring to a mole (e.g. 'one mole of chlorine molecules' or 'one mole of chloride ions' — never just 'one mole of chlorine')." },
-      { h: "Why the Mole Works — Avogadro's Reasoning", b: "From the Periodic Table, Ar(Mg) = 24 and Ar(C) = 12, so one Mg atom is twice as heavy as one C atom. Therefore any equal number of Mg and C atoms will always be in the mass ratio 2:1. If we weigh out 24 g of Mg and 12 g of C (in the same ratio as their Ar values), both samples contain the same number of atoms — and that number is 6.02 × 10²³. Key principle: if we weigh out elements in the same proportions as their relative atomic masses (Ar), we will always have the same number of atoms of those elements. That amount is defined as one mole. The original definition: one mole = the amount of atoms in 12 g of carbon-12 (= 6.02 × 10²³ atoms). The IUPAC 2018 definition puts the emphasis on the Avogadro constant itself. The word 'mole' comes from the Latin 'moles' meaning 'a heap or pile'." },
-      { h: "Molar Mass and Relative Molecular Mass", b: "The molar mass of a substance is the mass of one mole of that substance expressed in grams per mole (g mol⁻¹). For an element: molar mass = relative atomic mass (Ar) expressed in grams. For a compound: molar mass = relative molecular mass (Mr) expressed in grams. The relative molecular mass (Mr) = sum of the relative atomic masses of all atoms in one molecule (also called 'relative formula mass' for ionic compounds like NaCl, because they contain formula units rather than molecules). Key equalities: mass of one mole of an element = Ar in grams (e.g. 1 mol Na = 22.99 g); mass of one mole of a compound = Mr in grams (e.g. 1 mol H₂O = 18.016 g, 1 mol NaCl = 58.44 g). Note: ionic charges do NOT affect molar mass calculations because electrons have negligible mass." },
-      { h: "Converting Moles to Grams", b: "Formula: Mass (in grams) = Number of moles × Molar mass (Mr). Steps: (1) calculate the molar mass (Mr) of the substance; (2) multiply by the number of moles. Examples: — 3 mol Al: Mr = 26.98 → mass = 3 × 26.98 = 80.94 g. — 0.125 mol CaCl₂: Mr = 40.08 + 2(35.45) = 110.98 → mass = 0.125 × 110.98 = 13.8725 g. — 1 mol CuSO₄·5H₂O: Cu(63.5) + S(32.07) + 4O(64.00) + 5H₂O(5 × 18.016 = 90.08) → Mr = 249.65 g mol⁻¹. Tip: when calculating Mr of a hydrated salt, multiply the Mr of water (18.016) by the number of water molecules and add to the anhydrous Mr." },
-      { h: "Converting Grams to Moles", b: "Formula: Number of moles = Mass (in grams) / Molar mass (Mr). For elements: n = mass / Ar. For diatomic elements (H₂, O₂, N₂ etc.), use Mr not Ar. For compounds: n = mass / Mr. General form: n = mass of substance / mass of one mole of the substance. Examples: — 36.02 g of carbon (Ar = 12.01) → n = 36.02/12.01 = 2.999 mol. — 117 g of H₂O (Mr = 18.016) → n = 117/18.016 = 6.49 mol. — 12.25 g of H₂SO₄: Mr = 2(1.008) + 32.07 + 4(16.00) = 98.086 → n = 12.25/98.086 = 0.125 mol." },
-      { h: "The Mole Triangle", b: "The mole triangle is a memory aid relating three quantities: Mass (g), Number of moles (n), and Molar mass/Mr. Place your thumb over the quantity you want to calculate: — Mass = n × Mr — n = Mass / Mr — Mr = Mass / n. All mole calculations reduce to these three rearrangements of the same equation. Mass in grams = Relative molecular mass × Number of moles. One mole of any substance = 6.02 × 10²³ entities. These are the two key facts needed for every mole calculation." },
-      { h: "Calculations Using the Avogadro Constant — Overview", b: "Key fact: one mole of any substance contains 6.02 × 10²³ particles (entities). Four types of calculation involving the Avogadro constant: (a) moles → number of atoms or molecules; (b) grams → number of atoms or molecules; (c) number of atoms or molecules → moles; (d) number of atoms or molecules → grams. All four types follow from the same relationship: n = number of entities / Nₐ, where Nₐ = 6.02 × 10²³. Keep track of the entity specified — atoms for elements, molecules for molecular substances, formula units for ionic compounds." },
-      { h: "(a) Converting Moles to Number of Atoms or Molecules", b: "Formula: Number of entities = Number of moles × 6.02 × 10²³. Example: How many atoms are in 0.25 mole of sodium? → 0.25 × 6.02 × 10²³ = 1.505 × 10²³ atoms. Note: always multiply the number of moles by Nₐ (6.02 × 10²³) to find the number of particles. Conversely, divide the number of particles by Nₐ to find moles." },
-      { h: "(b) Converting Grams to Number of Atoms or Molecules", b: "Steps: (1) calculate molar mass (Mr); (2) divide mass by Mr to get moles; (3) multiply moles by 6.02 × 10²³. Combined formula: Number of entities = (mass / Mr) × 6.02 × 10²³. Examples: — 28.75 g of Na (Ar = 22.99) → (28.75 / 22.99) × 6.02 × 10²³ = 1.25 × 6.02 × 10²³ = 7.528 × 10²³ atoms. — 150 g of CO₂ (Mr = 44.01): 1C = 12.01, 2O = 32.00 → Mr = 44.01 → (150 / 44.01) × 6.02 × 10²³ = 3.408 × 6.02 × 10²³ = 2.05 × 10²⁴ molecules." },
-      { h: "(c) and (d) Converting Atoms/Molecules to Moles and to Grams", b: "(c) Atoms/molecules → moles: n = number of entities / 6.02 × 10²³. Example: 9 × 10²² atoms of Al → 9 × 10²² / 6.02 × 10²³ = 0.15 mol. (d) Atoms/molecules → grams: mass = (number of entities / 6.02 × 10²³) × Mr. Example 1: 3 × 10²⁰ atoms of Zn (Ar = 65.41) → (3 × 10²⁰ / 6.02 × 10²³) × 65.41 = 0.0326 g. Example 2: 3 × 10²² molecules of ethanol C₂H₅OH: Mr = 2(12.01) + 5(1.008) + 16.00 + 1.008 = 46.068 → (3 × 10²² / 6.02 × 10²³) × 46.068 = 2.296 g." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is a mole (mol)?", definition: "The SI unit of amount of substance. One mole of a substance contains 6.02 × 10²³ elementary entities of that substance. Named from Latin 'moles' meaning 'a heap or pile'.", section: "8.1" },
-      { term: "What is the Avogadro constant (Nₐ)?", definition: "The number of entities in one mole of any substance: 6.02 × 10²³ (more precisely, 6.02214076 × 10²³). Named after Italian chemist Amedeo Avogadro (1776–1856). Symbol: Nₐ.", section: "8.1" },
-      { term: "What is an elementary entity?", definition: "The basic unit of a substance — an atom, molecule, ion, or formula unit. When referring to a mole, the entity must always be specified (e.g. 'one mole of Na atoms', 'one mole of Cl₂ molecules', 'one mole of Na⁺ ions').", section: "8.1" },
-      { term: "What is molar mass?", definition: "The mass of one mole of a substance, expressed in grams per mole (g mol⁻¹). For elements, molar mass = Ar in grams. For compounds, molar mass = Mr in grams. E.g. molar mass of H₂O = 18.016 g mol⁻¹.", section: "8.2" },
-      { term: "What is a relative atomic mass (ar)?", definition: "The average mass of one atom of an element compared with one-twelfth of the mass of a carbon-12 atom. Dimensionless. Used to calculate molar mass for elements. Found in the Formulae and Tables booklet.", section: "8.2" },
-      { term: "What is relative molecular mass (Mr)?", definition: "The sum of the relative atomic masses of all the atoms in one molecule of a compound. Also called 'relative formula mass' for ionic compounds. Dimensionless, but when expressed in grams it equals the mass of one mole.", section: "8.2" },
-      { term: "What is relative formula mass?", definition: "The sum of the relative atomic masses of all atoms in one formula unit of an ionic compound (e.g. NaCl = 22.99 + 35.45 = 58.44). Equivalent to relative molecular mass but used for ionic substances.", section: "8.2" },
-      { term: "What is water of crystallisation?", definition: "Water molecules that are chemically bound within the crystal structure of a hydrated salt (e.g. CuSO₄·5H₂O). When calculating Mr of a hydrated salt, include the mass of these water molecules (number × 18.016 g).", section: "8.2" },
-      { term: "What is a diatomic element?", definition: "An element that exists as molecules consisting of two atoms (e.g. H₂, O₂, N₂, F₂, Cl₂, Br₂, I₂). When calculating moles for a diatomic element, use the relative molecular mass (Mr = 2 × Ar), not the relative atomic mass alone.", section: "8.3" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 3, prompt: "Define the term mole and state the value of the Avogadro constant.", model: "The mole is the SI unit of amount of substance. One mole of a substance contains 6.02 × 10²³ elementary entities of the substance. The Avogadro constant, Nₐ, has a value of 6.02 × 10²³ mol⁻¹." },
-      { type: "short", marks: 4, prompt: "Explain, using relative atomic masses, why one mole of magnesium has a mass of 24 g and one mole of carbon has a mass of 12 g, and why both samples contain the same number of atoms.", model: "From the Periodic Table, the relative atomic mass of Mg is 24 and the relative atomic mass of C is 12. This means one Mg atom is twice as heavy as one C atom. Therefore, in any sample where Mg and C are present in the mass ratio 2:1, both elements contain the same number of atoms. When we weigh out 24 g of Mg and 12 g of C (the same ratio as their relative atomic masses), both samples must contain the same number of atoms. This number is 6.02 × 10²³ — one mole." },
-      { type: "short", marks: 3, prompt: "Calculate the relative molecular mass of sulfuric acid, H₂SO₄.", model: "H₂SO₄: 2 H = 2 × 1.008 = 2.016; 1 S = 1 × 32.07 = 32.07; 4 O = 4 × 16.00 = 64.00. Relative molecular mass = 2.016 + 32.07 + 64.00 = 98.086." },
-      { type: "short", marks: 3, prompt: "Calculate the relative molecular mass of hydrated copper(II) sulfate, CuSO₄·5H₂O.", model: "CuSO₄·5H₂O: Cu = 63.5; S = 32.07; 4 O = 4 × 16.00 = 64.00; 5 H₂O = 5 × 18.016 = 90.08. Relative molecular mass = 63.5 + 32.07 + 64.00 + 90.08 = 249.65." },
-      { type: "short", marks: 3, prompt: "Calculate the mass of 2.5 moles of water, H₂O.", model: "Mr of H₂O: 2 H = 2 × 1.008 = 2.016; 1 O = 16.00. Mr = 18.016. Mass = Number of moles × Mr = 2.5 × 18.016 = 45.04 g." },
-      { type: "short", marks: 3, prompt: "Calculate the number of moles in 49 g of sulfuric acid, H₂SO₄.", model: "Mr of H₂SO₄ = 98.086 (2 × 1.008 + 32.07 + 4 × 16.00). Number of moles = mass / Mr = 49 / 98.086 = 0.4996 ≈ 0.5 mol." },
-      { type: "short", marks: 4, prompt: "Calculate the number of molecules in 44 g of carbon dioxide, CO₂.", model: "Step 1 — calculate Mr of CO₂: 1 C = 12.01; 2 O = 32.00. Mr = 44.01. Step 2 — calculate moles: n = 44 / 44.01 = 0.9998 ≈ 1.0 mol. Step 3 — calculate number of molecules: 1.0 × 6.02 × 10²³ = 6.02 × 10²³ molecules." },
-      { type: "short", marks: 4, prompt: "How many atoms of aluminium are present in 9 × 10²² atoms of aluminium? Express your answer in moles.", model: "Number of moles = number of atoms / Avogadro constant = 9 × 10²² / 6.02 × 10²³ = 0.15 mol." },
-      { type: "short", marks: 4, prompt: "What is the mass (in grams) of 3 × 10²² molecules of ethanol, C₂H₅OH?", model: "Step 1 — calculate Mr of C₂H₅OH: 2 C = 2 × 12.01 = 24.02; 5 H = 5 × 1.008 = 5.04; 1 O = 16.00; 1 H = 1.008. Mr = 46.068. Step 2 — calculate moles: n = 3 × 10²² / 6.02 × 10²³ = 0.04983 mol. Step 3 — calculate mass: mass = n × Mr = 0.04983 × 46.068 = 2.296 g." },
-      { type: "short", marks: 4, prompt: "Calculate the number of atoms in 28.75 g of sodium.", model: "Step 1 — calculate moles of Na: Ar of Na = 22.99; n = 28.75 / 22.99 = 1.2505 mol. Step 2 — calculate number of atoms: 1.2505 × 6.02 × 10²³ = 7.528 × 10²³ atoms." },
-    ];
-  })();
-
-  // ── chem9: Kinetic Theory of Matter and Behaviour of Gases ────────────────
-  (function () {
-    var c = ch('chem9');
-    c.learningOutcomes[0].notes = [
-      { h: "Evidence for KTM — Brownian Motion", b: "Named after Robert Brown (1773–1858), who in 1827 observed pollen grains in water under a microscope moving in a random, irregular way and could not explain it. Definition: Brownian motion is the random, irregular, zig-zag, continuous movement of tiny particles (such as pollen grains or smoke particles) suspended in a liquid or gas. The movement results from the collisions of these tiny particles with the molecules of the liquid or gas. Evidence for KTM: the random movement of pollen shows that the smaller, invisible water molecules must be in continuous motion, constantly bombarding the pollen from all sides. Random collisions cause random movement — evidence that water molecules exist and are in constant motion. Lab demonstration: smoke particles in a 'smoke cell' viewed under a microscope appear as bright specks moving in a random, zig-zag fashion due to bombardment by air molecules. Brownian motion also provides evidence for the existence of atoms and molecules." },
-      { h: "Evidence for KTM — Diffusion of Gases", b: "Diffusion is the process by which small particles (atoms, molecules, or ions) move from an area of higher concentration to an area of lower concentration. Diffusion provides evidence for KTM because particles must be in constant motion, colliding and spreading out to occupy all available space. Classic experiment: cotton wool soaked in concentrated ammonia placed at one end of a glass tube; cotton wool soaked in concentrated HCl placed at the other end. A white ring of solid ammonium chloride (NH₄Cl) forms where the gases meet: NH₃(g) + HCl(g) → NH₄Cl(s). The white ring forms closer to the HCl end because NH₃ molecules (Mr = 17) are lighter than HCl molecules (Mr = 36.5) and diffuse faster. Diffusion also occurs in liquids and solids, but is much slower (rate: gases > liquids >> solids)." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "Kinetic Theory of Matter — Assumptions", b: "The Kinetic Theory of Matter (KTM) summarises ideas about the behaviour of particles (atoms, molecules, ions) in solids, liquids, and gases. Matter is anything that takes up space and has mass. All matter is made up of tiny particles invisible to the naked eye (the particulate nature of matter). The main assumptions: (1) All matter is made up of tiny particles invisible to the naked eye. (2) The particles are always in motion — the degree of motion depends on whether the substance is a solid, liquid, or gas. (3) Temperature affects movement: higher temperature → greater kinetic energy → faster movement. (4) Temperature can cause a change of state. (5) Forces exist between particles (strongest in solids, weakest in gases). (6) Pressure in gases is caused by gas particles colliding with each other and with the walls of the container." },
-      { h: "Three States of Matter — KTM Descriptions", b: "Solids: particles packed closely together in fixed positions; they vibrate about fixed positions but do not move about; cannot be compressed; strong forces hold particles together; definite shape and volume. Liquids: particles close together but not in fixed positions; can slide over each other; weaker forces than solids; cannot be compressed; definite volume, no fixed shape. Gases: particles far apart; continuously moving very fast in a random, haphazard way; very weak forces between particles; fill the entire container; can be compressed. Key: gases have much greater freedom of movement than those in a solid or liquid. The volume of a gas equals the volume of the container it is placed in." },
-      { h: "Changes of State — KTM Explanation", b: "Melting point: temperature at which a solid changes to a liquid. On heating, particles vibrate faster and faster → eventually break free → slide over each other → liquid. Boiling point: temperature at which a liquid changes to a gas throughout the liquid. Particles break away from the liquid state in all parts of the liquid (bubbles form throughout the liquid). Evaporation: changing of a liquid to a gas at the SURFACE ONLY — surface particles with enough energy escape; occurs at any temperature below the boiling point. Sublimation: a solid changes directly to a gas on heating without going through the liquid phase (e.g. dry ice/solid CO₂; iodine). Condensation: a gas changes to a liquid — particles lose energy and slow down. Freezing point: temperature at which a liquid changes to a solid. Key distinction — evaporation vs boiling: evaporation is at the surface only and can occur at any temperature; boiling occurs throughout the liquid at a fixed temperature with bubble formation throughout." },
-    ];
-    c.learningOutcomes[3].notes = [
-      { h: "KTM Applied to Gases — 5 Assumptions and the Ideal Gas", b: "The 5 assumptions of the kinetic theory as applied specifically to gases: (1) Gas molecules are in continuous rapid, random motion, colliding with each other and with the walls of the container. (2) There are NO attractive or repulsive forces between molecules (molecules are independent). (3) The actual volume of the gas molecules is negligible compared to the space they occupy (explains equal volumes/equal molecules at same T and P). (4) Collisions between molecules are perfectly elastic — no net loss of kinetic energy from the system; energy may transfer from one molecule to another. (5) The average kinetic energy of the molecules is proportional to the temperature on the Kelvin scale. An ideal gas perfectly obeys ALL five of these assumptions under all conditions of temperature and pressure." },
-      { h: "Real Gases vs Ideal Gases — Limitations of KTM", b: "Ideal gases do not exist. Real gases deviate from ideal behaviour because: (1) Contrary to assumption 2: all real gases do have small attractive or repulsive intermolecular forces (e.g. polar gases like NH₃, HCl, H₂O have hydrogen bonds or dipole-dipole forces; non-polar gases like Cl₂ and O₂ have weak London dispersion forces). (2) Contrary to assumption 3: the volume of real gas molecules is small but not negligible, especially at high pressure when molecules are forced close together. Real gases come CLOSEST to ideal behaviour at: high temperature (molecules move rapidly → intermolecular forces have little effect) AND low pressure (molecules are widely spaced → molecular volume is negligible). Real gases depart most from ideal behaviour at low temperature and high pressure." },
-    ];
-    c.learningOutcomes[4].notes = [
-      { h: "Properties of Gases — Units for Volume, Pressure, Temperature", b: "Volume: SI unit = cubic metre (m³). Lab: cm³ or litres (L). 1 litre = 1000 cm³ = 1 cubic decimetre (dm³). 1 m³ = 10⁶ cm³. Unit conversions: 1 L = 10⁻³ m³; 1 cm³ = 10⁻⁶ m³. Pressure: force exerted by gas on unit area of container. SI unit = pascal (Pa) = N m⁻². Normal atmospheric pressure ≈ 1 × 10⁵ Pa = 100 kPa. Standard temperature and pressure (s.t.p.): T = 273 K (0°C); p = 1 × 10⁵ Pa = 100 kPa. Temperature: Celsius (°C) and Kelvin (K). Kelvin = absolute scale, proposed by Lord Kelvin (William Thomson, 1824–1907, born Belfast). Absolute zero = 0 K = −273°C (lowest possible temperature; theoretically gas particles have zero kinetic energy). Conversion: T(K) = T(°C) + 273. SI unit = kelvin (K) — no degree symbol. ALWAYS convert temperature to Kelvin for all gas law calculations." },
-      { h: "Boyle's Law", b: "Robert Boyle (Irish chemist, 1662) found that at constant temperature, as pressure on a gas increases, its volume decreases. Boyle's Law states: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. Equation: V ∝ 1/p (constant T) → pV = k (constant) → p₁V₁ = p₂V₂. Graphs: V vs p → hyperbola curve; pV vs p → horizontal straight line; p vs 1/V → straight line through origin. KTM explanation: if volume decreases → same number of molecules in smaller space → collide more frequently with walls → pressure increases. If volume increases → molecules collide less frequently with walls → pressure decreases. Exam tip: if told on an exam paper to use the value of standard pressure from the Formulae and Tables booklet, use 1.01325 × 10⁵ Pa." },
-      { h: "Charles' Law", b: "Jacques Charles studied the volume–temperature relationship of gases at constant pressure (1783 — constructed first hydrogen balloon). Charles' Law states: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature measured on the Kelvin scale. Equation: V ∝ T (constant p, T in kelvin) → V/T = k (constant) → V₁/T₁ = V₂/T₂. Graphs: V vs T (in K) → straight line through origin; V vs T (in °C) → straight line extended backwards cuts x-axis at −273°C. Absolute zero (0 K = −273°C): theoretically, a gas would have zero volume here. KTM explanation: increase temperature → molecules gain KE → move faster → collide more forcefully with walls → pressure would increase; to keep pressure constant, allow volume to increase. Decrease temperature → slower collisions → volume decreases. ALWAYS convert to Kelvin." },
-      { h: "The Combined Gas Law", b: "Combining Boyle's Law (pV = k₁) and Charles' Law (V/T = k₂): Combined Gas Law (General Gas Law): p₁V₁/T₁ = p₂V₂/T₂. Used to convert between different conditions of pressure, volume, and temperature for a fixed mass of gas. Units must be consistent: pressure in the same units on both sides (e.g. both in kPa); volume in the same units; temperature ALWAYS in Kelvin. Worked example (N₂ at V₁ = 75 cm³, p₁ = 95 kPa, T₁ = 27°C = 300 K → find V₂ at s.t.p., p₂ = 100 kPa, T₂ = 0°C = 273 K): V₂ = (p₁V₁T₂)/(T₁p₂) = (95 × 75 × 273)/(300 × 100) = 64.84 cm³. Note: since the Combined Gas Law is derived from Charles' Law, do NOT forget to convert all temperatures to Kelvin." },
-      { h: "Gay-Lussac's Law of Combining Volumes", b: "Joseph Gay-Lussac (French chemist, 1808) studied reactions between gases. He found that when hydrogen reacts with oxygen: 2 volumes H₂ + 1 volume O₂ → 2 volumes steam (all measured at same T and P). All volume ratios are simple whole numbers. Gay-Lussac's Law of Combining Volumes: in a reaction between gases, the volumes of the reacting gases and the volumes of any gaseous products are in the ratio of small whole numbers, provided the volumes are measured at the same temperature and pressure. Examples: H₂ + Cl₂ → 2HCl (1:1:2); 2NO + O₂ → 2NO₂ (2:1:2). Very useful for predicting volumes of gases needed or produced in a reaction. Note: Gay-Lussac's results are fully explained by Avogadro's Law — the volume ratio equals the molecule ratio." },
-      { h: "Avogadro's Law and Molar Volume of a Gas", b: "Avogadro's Law: equal volumes of gases contain equal numbers of molecules under the same conditions of temperature and pressure. This law explains Gay-Lussac's: the ratio of volumes of reacting gases = the ratio of molecules. E.g. H₂ + Cl₂ → 2HCl means 1 molecule H₂ + 1 molecule Cl₂ → 2 molecules HCl, so 1 volume + 1 volume → 2 volumes. By experiment, 1 mole of O₂ (32 g) occupies 22.4 L at s.t.p. By Avogadro's Law: 1 mole of ANY gas occupies 22.4 L at s.t.p. (molar volume at s.t.p.). The molar volume at room temperature and pressure = 24.0 L. Important uses: density of a gas at s.t.p. = molar mass / 22.4 g L⁻¹. To find Mr from gas data: Mr = (22 400 cm³ × mass of sample in g) / (volume of sample in cm³) at s.t.p. — because 22 400 cm³ = 1 mole at s.t.p." },
-      { h: "The Ideal Gas Equation: pV = nRT", b: "Boyle's Law (V ∝ 1/p), Charles' Law (V ∝ T), and Avogadro's Law (V ∝ n) are combined to give: pV = nRT. This is the Ideal Gas Equation (or Equation of State for an Ideal Gas). Variables: p = pressure in pascals (Pa); V = volume in cubic metres (m³); n = number of moles; T = temperature in Kelvin; R = 8.31 J mol⁻¹ K⁻¹ (Universal Gas Constant — given in Formulae and Tables booklet). Unit conversions: volume in litres → ÷ 1000 to get m³; volume in cm³ → ÷ 1 000 000 to get m³; pressure in kPa → × 1000 to get Pa. R was derived: at s.t.p. (T = 273 K, p = 1.013 × 10⁵ Pa, V = 0.0224 m³ for 1 mol) → R = pV/nT = 8.31 J mol⁻¹ K⁻¹. Rearrangements: n = pV/RT; Mr = mRT/pV (where m = mass in grams)." },
-      { h: "Experiment 9.1: Measuring Mr of a Volatile Liquid", b: "A volatile liquid has a low boiling point. Its Mr is measured by filling a conical flask with its vapour and using pV = nRT. Four stages: (1) Flask (with foil cap held by rubber band and a tiny pinhole) placed in boiling water with volatile liquid inside → all liquid vaporises, air expelled through pinhole. Record: mass of empty flask+foil+band, temperature of boiling water (T), and atmospheric pressure (p). (2) Flask removed, cooled → vapour condenses. Reweigh flask → mass of condensed liquid = (mass after) − (mass before). (3) Volume of flask (= volume of vapour) found by filling with water and measuring in a graduated cylinder. (4) Calculation: n = pV/RT → Mr = mass of liquid / n. Specimen results: mass of condensed liquid = 1.09 g; V = 326 cm³ = 326 × 10⁻⁶ m³; p = 98.5 kPa = 98.5 × 10³ Pa; T = 100°C = 373 K → n = (98.5 × 10³ × 326 × 10⁻⁶)/(8.3 × 373) = 0.01 mol → Mr = 1.09/0.01 = 109." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is diffusion?", definition: "The process by which small particles (atoms, molecules, or ions) move from an area of higher concentration to an area of lower concentration. Provides evidence for KTM — particles must be in constant motion.", section: "9.3" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is a kinetic theory of matter (ktm)?", definition: "A theory that summarises the behaviour of atoms, molecules, and ions in solids, liquids, and gases. Key assumptions: particles are always in motion; temperature affects their speed; no intermolecular forces (in ideal model); perfectly elastic collisions; kinetic energy ∝ temperature (Kelvin).", section: "9.2" },
-      { term: "What is melting point?", definition: "The temperature at which a solid changes to a liquid. On heating, particles vibrate faster until they break free from fixed positions and begin to slide over each other.", section: "9.2" },
-      { term: "What is boiling point?", definition: "The temperature at which a liquid changes to a gas throughout the liquid. Bubbles of gas form throughout the liquid (not just at the surface). Distinguished from evaporation, which occurs only at the surface.", section: "9.2" },
-    ];
-    c.learningOutcomes[3].keyTerms = [
-      { term: "What is an ideal gas?", definition: "A gas that perfectly obeys all the assumptions of the kinetic theory under all conditions of temperature and pressure. Real gases approach ideal behaviour at high temperature and low pressure.", section: "9.5" },
-    ];
-    c.learningOutcomes[4].keyTerms = [
-      { term: "What is absolute zero (0 K)?", definition: "The lowest possible temperature, equal to −273°C. Theoretically, gas particles would have zero kinetic energy at this temperature, and a gas would occupy zero volume. The Kelvin scale starts at absolute zero.", section: "9.4" },
-      { term: "What is standard temperature and pressure (s.t.p.)?", definition: "The standard reference conditions for measuring gases: temperature = 273 K (0°C) and pressure = 1 × 10⁵ Pa (100 kPa).", section: "9.4" },
-      { term: "What is Boyle's law?", definition: "At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure: pV = k, or p₁V₁ = p₂V₂.", section: "9.4" },
-      { term: "What is Charles' law?", definition: "At constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature on the Kelvin scale: V/T = k, or V₁/T₁ = V₂/T₂. Temperature must be in Kelvin.", section: "9.4" },
-      { term: "What is a combined gas law?", definition: "Combines Boyle's and Charles' Laws: p₁V₁/T₁ = p₂V₂/T₂. Used to find a new pressure, volume, or temperature when conditions change. Also called the General Gas Law.", section: "9.4" },
-      { term: "What is Gay-Lussac's law of combining volumes?", definition: "In a reaction between gases, the volumes of reacting gases and gaseous products are in the ratio of small whole numbers (measured at same T and P). E.g. H₂ + Cl₂ → 2HCl (ratio 1:1:2).", section: "9.4" },
-      { term: "What is Avogadro's law?", definition: "Equal volumes of gases contain equal numbers of molecules under the same conditions of temperature and pressure. Consequence: 1 mole of any gas occupies 22.4 L at s.t.p. (24.0 L at room temperature and pressure).", section: "9.4" },
-      { term: "What is molar volume?", definition: "The volume occupied by one mole of any gas. At s.t.p.: 22.4 litres. At room temperature and pressure: 24.0 litres. Both values are given in the Formulae and Tables booklet.", section: "9.4" },
-      { term: "What is the ideal gas equation (pV = nRT)?", definition: "The equation pV = nRT relates pressure (Pa), volume (m³), moles (n), the Universal Gas Constant R = 8.31 J mol⁻¹ K⁻¹, and temperature (K). Also called the Equation of State for an Ideal Gas.", section: "9.6" },
-      { term: "What is the universal gas constant (R)?", definition: "The constant R = 8.31 J mol⁻¹ K⁻¹ (also written as 8.31 N m mol⁻¹ K⁻¹) that appears in the Ideal Gas Equation pV = nRT. Derived by substituting s.t.p. values for 1 mole into the equation.", section: "9.6" },
-      { term: "What is a volatile liquid?", definition: "A liquid with a low boiling point that evaporates easily. In the Mr experiment, a volatile liquid is used because it can be vaporised using boiling water (100°C), so its boiling point must be below 100°C.", section: "9.1" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 4, prompt: "Define Brownian motion and explain how it provides evidence for the Kinetic Theory of Matter.", model: "Brownian motion is the random, irregular, zig-zag, continuous movement of tiny particles (such as pollen grains or smoke particles) suspended in a liquid or gas. The movement results from the collisions of these tiny particles with the molecules of the liquid or gas. Evidence for KTM: the random movement of the pollen grains (visible particles) can only be explained if the smaller, invisible water molecules are in continuous, random motion, constantly bombarding the pollen from all sides. The random nature of the collisions causes the random, unpredictable movement. This directly supports the KTM assumption that all particles are in constant motion." },
-      { type: "short", marks: 4, prompt: "Describe an experiment to demonstrate diffusion of gases. What is observed and how does the result provide evidence for the Kinetic Theory of Matter?", model: "Experiment: place cotton wool soaked in concentrated ammonia at one end of a dry glass tube, and cotton wool soaked in concentrated hydrochloric acid at the other end. Seal both ends. Observation: after a short time, a white ring of solid ammonium chloride (NH₄Cl) forms inside the tube, closer to the HCl end. Equation: NH₃(g) + HCl(g) → NH₄Cl(s). Explanation: both gases diffuse (move from high to low concentration) from their respective ends towards the middle. NH₃ molecules (Mr = 17) are lighter than HCl molecules (Mr = 36.5) and diffuse faster, so the ring forms closer to the HCl end. Evidence for KTM: this result demonstrates that gas molecules are in constant motion, spontaneously spreading out to occupy the available space — consistent with the KTM assumption that particles are always in motion." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "State the Kinetic Theory of Matter and explain how it accounts for the arrangement of particles in a solid, liquid, and gas.", model: "The Kinetic Theory of Matter states that all matter is made up of tiny particles (atoms or molecules) that are in constant random motion, and that temperature affects the speed of this motion. In solids: particles are packed closely together in fixed positions; they vibrate about fixed positions but do not move freely; strong forces hold them together → definite shape and volume. In liquids: particles are close together but not in fixed positions; they slide over each other; forces weaker than in solids → definite volume, no fixed shape. In gases: particles are far apart and continuously moving very fast in random directions; very weak forces between particles → no fixed shape or volume; gas fills its container." },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 4, prompt: "Give two reasons why real gases deviate from ideal gas behaviour, and state under what conditions of temperature and pressure real gases come closest to ideal behaviour.", model: "Two reasons real gases deviate from ideal behaviour: (1) Real gases have small but significant attractive or repulsive intermolecular forces between molecules, contrary to the assumption of no intermolecular forces. Polar gases (e.g. NH₃, HCl, H₂O) have particularly strong forces (hydrogen bonds or dipole-dipole forces). (2) The volume of the molecules of a real gas is small but not negligible, especially at high pressures when molecules are forced close together. Real gases come closest to ideal behaviour at: high temperature (molecules move rapidly, so intermolecular forces have little effect) and low pressure (molecules are far apart, so molecular volume is negligible compared to the total volume)." },
-    ];
-    c.learningOutcomes[4].questions = [
-      { type: "short", marks: 3, prompt: "State Boyle's Law and write an equation to express it mathematically.", model: "Boyle's Law states: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. Mathematical expression: V ∝ 1/p (at constant temperature), or equivalently pV = k (constant), or p₁V₁ = p₂V₂." },
-      { type: "short", marks: 4, prompt: "A sample of nitrogen gas has a volume of 75 cm³ at 27 °C and a pressure of 95 kPa. Find the volume it would occupy at s.t.p. (273 K, 100 kPa).", model: "Use the Combined Gas Law: p₁V₁/T₁ = p₂V₂/T₂. Given: p₁ = 95 kPa, V₁ = 75 cm³, T₁ = 27°C + 273 = 300 K; p₂ = 100 kPa, T₂ = 273 K. V₂ = (p₁V₁T₂)/(T₁p₂) = (95 × 75 × 273)/(300 × 100) = 1 944 375 / 30 000 = 64.84 cm³." },
-      { type: "short", marks: 3, prompt: "State Gay-Lussac's Law of Combining Volumes and give one example of a reaction that illustrates this law.", model: "Gay-Lussac's Law of Combining Volumes states: in a reaction between gases, the volumes of the reacting gases and the volumes of any gaseous products are in the ratio of small whole numbers, provided the volumes are measured at the same temperature and pressure. Example: H₂(g) + Cl₂(g) → 2HCl(g) — the volumes are in the ratio 1:1:2." },
-      { type: "short", marks: 4, prompt: "State Avogadro's Law and use it to explain Gay-Lussac's Law of Combining Volumes. What volume does one mole of any gas occupy at s.t.p.?", model: "Avogadro's Law states: equal volumes of gases contain equal numbers of molecules under the same conditions of temperature and pressure. This explains Gay-Lussac's Law: the ratio of volumes equals the ratio of molecules. For H₂ + Cl₂ → 2HCl: if 1 volume H₂ contains n molecules and 1 volume Cl₂ contains n molecules, then they produce 2n molecules of HCl → 2 volumes of HCl. The molecule ratio from the equation directly gives the volume ratio. At s.t.p., one mole of any gas occupies 22.4 litres (the molar volume)." },
-      { type: "short", marks: 4, prompt: "Write the Ideal Gas Equation, identify all variables and their units, and state the value of the Universal Gas Constant R.", model: "The Ideal Gas Equation is: pV = nRT, where: p = pressure in pascals (Pa); V = volume in cubic metres (m³); n = number of moles; R = Universal Gas Constant = 8.31 J mol⁻¹ K⁻¹; T = temperature in Kelvin (K). The equation is also called the Equation of State for an Ideal Gas. Unit conversions to remember: pressure in kPa → multiply by 10³ to get Pa; volume in litres → divide by 10³ to get m³; volume in cm³ → divide by 10⁶ to get m³." },
-      { type: "short", marks: 5, prompt: "Calculate the volume occupied by 10 g of oxygen gas, O₂, at 25 °C and 200 kPa. [R = 8.31 J mol⁻¹ K⁻¹]", model: "Step 1 — calculate n: Mr of O₂ = 32; n = 10/32 = 0.3125 mol. Step 2 — convert units: p = 200 kPa = 200 × 10³ Pa = 2 × 10⁵ Pa; T = 25°C + 273 = 298 K. Step 3 — apply pV = nRT: V = nRT/p = (0.3125 × 8.31 × 298)/(2 × 10⁵) = (774.18)/(200 000) = 3.87 × 10⁻³ m³ = 3.87 L ≈ 3.8 L." },
-      { type: "short", marks: 5, prompt: "Describe the key steps in the experiment to measure the relative molecular mass of a volatile liquid using a conical flask.", model: "A volatile liquid is one with a low boiling point. Key steps: (1) Weigh a clean, dry conical flask with rubber band and aluminium foil cap (with a tiny pinhole). Pour ~10 cm³ of the volatile liquid into the flask. Clamp in boiling water until all the liquid vaporises — the vapour fills the flask and excess escapes through the pinhole. Record temperature (boiling water temperature) and atmospheric pressure. (2) Remove flask; allow to cool — vapour condenses to a liquid. Dry the outside; reweigh. Mass of condensed liquid = (mass after) − (initial mass of empty flask). (3) Find the volume of the flask by filling completely with water and measuring in a graduated cylinder. (4) Calculate: n = pV/RT (using the Ideal Gas Equation); Mr = mass of condensed liquid / n." },
-    ];
-  })();
-
-  // ── chem10: Law of Conservation of Mass: Introducing Stoichiometry ────────
-  (function () {
-    var c = ch('chem10');
-    c.learningOutcomes[0].notes = [
-      { h: "Physical and Chemical Changes", b: "A physical change is a change that does NOT result in the formation of any new substance. Examples: melting ice, boiling water, breaking glass, shredding paper. Ice, water, and steam are all H₂O — same substance, different states. Physical properties (mass, shape, volume, density, melting/boiling point) can be observed without changing the substance. Physical changes: (1) no new substance formed; (2) usually no energy changes; (3) easy to reverse. A chemical change is a change that results in the formation of one or more new substances. Examples: burning fuel, rusting iron, fireworks, baking, photosynthesis, indigestion tablets fizzing. Signs of chemical change: colour change, cloudiness, smell, gas/bubbles formed, heat/light/sound produced. Chemical properties describe how a substance reacts with other substances to form new ones. Chemical changes: (1) new substance formed; (2) energy changes (heat/light/sound); (3) difficult to reverse." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "The Law of Conservation of Mass", b: "Antoine Lavoisier (1743–1794) is considered one of the founders of modern quantitative chemistry — the branch of chemistry that focuses on amounts and quantities of substances that react. In 1774 he heated mercury in a sealed glass container (limited air) → silvery mercury changed to red mercuric oxide (HgO): Hg + ½O₂ → HgO (100 g + 8 g → 108 g). He found the total mass was unchanged before and after the reaction, and that the loss of oxygen from the container exactly equalled the gain in mass of the mercury. This led to the Law of Conservation of Mass: when a chemical reaction occurs, the total mass of the reactants is always equal to the total mass of the products. Total mass of reactants = Total mass of products. This means atoms cannot disappear — all atoms present in the reactants must also be present in the products. Example: 12 g C + 32 g O₂ → 44 g CO₂ (12 + 32 = 44)." },
-      { h: "Experiment 10.1: Verifying the Law of Conservation of Mass", b: "The LCM can be verified by the reaction between silver nitrate and chloride ions in a closed system: Ag⁺(aq) + Cl⁻(aq) → AgCl(s)↓. Before reaction: total mass of reactants and containers = 197.0 g. After mixing and forming the AgCl precipitate: total mass = 197.0 g. Important: experiments to verify the LCM must be carried out in a CLOSED SYSTEM — a sealed container that prevents gases or materials from entering or escaping. An open container will give false results because gases (e.g. CO₂) may escape or air components may enter, making it appear that mass has been lost or gained. The Law of Conservation of Mass applies to all physical and chemical changes." },
-    ];
-    c.learningOutcomes[2].notes = [
-      { h: "Balancing Chemical Equations", b: "The Law of Conservation of Mass is why chemical equations must always be balanced. A balanced chemical equation has equal numbers of each type of atom on both sides. If not balanced, atoms would appear to vanish — violating LCM. Rules: NEVER change the formula of a substance when balancing (e.g. cannot change H₂O to H₂O₂); only put whole numbers in front of formulas ('coefficients'). Method: 'balancing by inspection' (trial and error). Note: fractions are sometimes acceptable (e.g. H₂ + ½O₂ → H₂O), but fractions smaller than ½ are usually not accepted. Example: balance CH₄ + O₂ → CO₂ + H₂O. Step 1: count atoms (LHS: 1C, 4H, 2O; RHS: 1C, 2H, 3O) — unbalanced. Step 2: put 2 before H₂O → CH₄ + O₂ → CO₂ + 2H₂O (4H balanced). Step 3: now LHS 2O, RHS 4O → put 2 before O₂ → CH₄ + 2O₂ → CO₂ + 2H₂O. Check: LHS 1C, 4H, 4O = RHS 1C, 4H, 4O ✓." },
-      { h: "Stoichiometry — Applying the Mole Concept to Equations", b: "Stoichiometry is the branch of chemistry that tells us the relationship between the amounts of reactants and products in a balanced chemical equation. (From Greek 'stoicheion' = element, 'metron' = measure.) A balanced equation can be interpreted in multiple ways. Example: 2H₂ + O₂ → 2H₂O means: — 2 molecules H₂ + 1 molecule O₂ → 2 molecules H₂O — 2 × 6.02 × 10²³ molecules H₂ + 1 × 6.02 × 10²³ molecules O₂ → 2 × 6.02 × 10²³ molecules H₂O — 2 moles H₂ + 1 mole O₂ → 2 moles H₂O — 4 g H₂ + 32 g O₂ → 36 g H₂O (moles × Mr = mass in grams). Note: 4 + 32 = 36 — consistent with LCM. This means from any balanced equation, we can calculate the exact masses of reactants needed or products formed." },
-      { h: "Percentage Composition by Mass", b: "Percentage by mass of an element in a compound = (mass of that element in one mole / Mr of compound) × 100. Steps: (1) calculate Mr; (2) find mass of the element in one mole (Ar × number of atoms); (3) divide by Mr and multiply by 100. Example 1 (NH₄NO₃, ammonium nitrate): Mr = 2(14) + 4(1) + 3(16) = 80; mass of N = 2 × 14 = 28; % N = 28/80 × 100 = 35%. Example 2 (CaO): Mr = 40 + 16 = 56; % Ca = 40/56 × 100 = 71.43%; % O = 16/56 × 100 = 28.57%. Application: used in fertiliser analysis (e.g. % nitrogen), quality control, and determining which compound provides the most of a given element per gram." },
-      { h: "Molecular Formula vs Empirical Formula", b: "Molecular formula: shows the actual number and type of each atom present in one molecule of a compound. E.g. H₂O (2 H, 1 O per molecule); C₆H₁₂O₆ for glucose. Empirical formula: shows the simplest whole-number ratio of the different atoms in a molecule. E.g. H₂O (same as molecular), HO for H₂O₂, CH for C₂H₂ (acetylene) and C₆H₆ (benzene), C₂H₅ for C₄H₁₀ (butane). Key relationship: Molecular formula = Empirical formula × n (where n is a whole number). To find n: n = Mr / (Mr of empirical formula). Example: glucose empirical = CH₂O (Mr = 30); actual Mr = 180; n = 180/30 = 6; molecular formula = C₆H₁₂O₆." },
-      { h: "Empirical Formula from Percentage Composition", b: "Method: (1) Assume 100 g of compound → % by mass = mass in grams. (2) Divide mass of each element by its Ar to get moles of atoms. (3) Divide each result by the smallest value to get the simplest whole-number ratio → empirical formula. (4) If the Mr is also given, find n = Mr / (Mr of empirical formula) → molecular formula = empirical × n. Example (compound: 52.17% C, 13.04% H, 34.79% O, Mr = 92): — C: 52.17/12 = 4.35; H: 13.04/1 = 13.04; O: 34.79/16 = 2.17. — Divide by 2.17 (smallest): C = 2, H = 6, O = 1. — Empirical formula = C₂H₆O (Mr = 2×12 + 6 + 16 = 46). — n = 92/46 = 2. — Molecular formula = C₄H₁₂O₂. Note: if dividing by smallest does not give whole numbers, multiply all ratios by an appropriate factor (e.g. ×2 or ×3)." },
-      { h: "Empirical Formula from Masses of Reactants and Products (Gravimetric Analysis)", b: "In gravimetric analysis, masses of substances are carefully measured during a reaction. Using LCM, the mass of any unknown component is found by subtraction, then moles are calculated and simplified to the empirical formula. Example: 1.02 g Cu + oxygen → 1.28 g copper oxide. Mass of O in oxide = 1.28 − 1.02 = 0.26 g. Moles Cu = 1.02/63.5 = 0.016 mol; Moles O = 0.26/16 = 0.016 mol. Ratio Cu:O = 0.016:0.016 = 1:1 → empirical formula = CuO. Two common oxides of copper: CuO = copper(II) oxide (black, formula 1:1); Cu₂O = copper(I) oxide (red, formula 2:1). Note: in finding formula of hydrated salts, calculate moles of anhydrous salt and moles of water, then find ratio → gives x in MₙXₘ·xH₂O." },
-      { h: "Calculating Masses of Reactants and Products from Equations", b: "From a balanced equation, the ratio of moles of each substance is known. This allows calculation of masses. Standard method: (1) Write the equation and circle the known substance and the substance you want. (2) Write a shortened version showing only the relevant species, with mole ratios then masses. (3) Scale from the molar amount to the given amount. Example: 2Mg + O₂ → 2MgO; find mass of MgO from 9 g Mg (Mg = 24, O = 16). 2 moles Mg → 2 moles MgO; 2×24 = 48 g Mg → 2×40 = 80 g MgO. 1 g Mg → 80/48 g MgO. 9 g Mg → 9×80/48 = 15 g MgO. Example: CaCO₃ → CaO + CO₂; 5 kg limestone → mass of CaO? Mr(CaCO₃) = 100; Mr(CaO) = 56. 100 g CaCO₃ → 56 g CaO. 5000 g → 5000×56/100 = 2800 g = 2.8 kg CaO. Note: always pay attention to units (kg vs g — multiply by 1000 to convert)." },
-      { h: "Calculating Volumes of Gases from Balanced Equations", b: "At s.t.p., 1 mole of any gas occupies 22.4 litres. This fact is used to calculate volumes of gases produced or consumed in reactions. Method: same as for masses, but at the final step, multiply moles of gas by 22.4 L (if at s.t.p.) or 24.0 L (if at room temperature and pressure). Example: C + O₂ → CO₂; 30 g C burned, find volume CO₂ at s.t.p. 1 mole C → 1 mole CO₂. 12 g C → 22.4 L CO₂ at s.t.p. 1 g C → 22.4/12 L CO₂. 30 g C → 30×22.4/12 = 56 L CO₂. Answer: 56 litres. Note: read the question carefully — if asked for volume at s.t.p., use 22.4 L mol⁻¹; if at room temperature and pressure, use 24.0 L mol⁻¹ (this value is given in the Formulae and Tables booklet)." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is a physical change?", definition: "A change that does NOT result in the formation of any new substance. Examples: melting, boiling, breaking. No new substance formed, usually no energy change, easy to reverse.", section: "10.3" },
-      { term: "What is a chemical change?", definition: "A change that results in the formation of one or more new substances. Signs: colour change, gas formed, energy change (heat/light/sound), smell, cloudiness. Difficult to reverse.", section: "10.3" },
-      { term: "What are physical properties?", definition: "Properties of a substance that can be observed without changing the substance into another substance. Examples: mass, shape, volume, density, melting point, boiling point.", section: "10.3" },
-      { term: "What are chemical properties?", definition: "Properties that describe how a substance reacts with other substances to form new substances. Can only be observed when a chemical change takes place.", section: "10.3" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is the law of conservation of mass?", definition: "When a chemical reaction occurs, the total mass of the reactants is always equal to the total mass of the products. Atoms cannot be created or destroyed — they are simply rearranged. Proposed by Antoine Lavoisier (1743–1794).", section: "10.2" },
-      { term: "What is a closed system?", definition: "A system in which nothing can enter or escape (e.g. a sealed container with a rubber stopper). Required for experiments verifying the Law of Conservation of Mass, to prevent gases escaping or air entering.", section: "10.2" },
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is quantitative chemistry?", definition: "The branch of chemistry that focuses on amounts and quantities of substances that react together. Antoine Lavoisier is considered one of the founders of quantitative chemistry.", section: "10.1" },
-      { term: "What is a balanced chemical equation?", definition: "A chemical equation that has equal numbers of each type of atom on both sides of the equation, consistent with the Law of Conservation of Mass. Coefficients (numbers in front of formulas) are used to balance — formulas cannot be changed.", section: "10.4" },
-      { term: "What is stoichiometry?", definition: "The branch of chemistry that tells us the relationship between the amounts of reactants and products in a balanced chemical equation. From Greek: stoicheion (element) + metron (measure).", section: "10.5" },
-      { term: "What is a molecular formula?", definition: "A formula showing the actual number and type of each atom present in one molecule of a compound. E.g. H₂O (2 H, 1 O); C₆H₁₂O₆ (glucose, 6 C, 12 H, 6 O).", section: "10.7" },
-      { term: "What is an empirical formula?", definition: "A formula showing the simplest whole-number ratio of the numbers of different atoms present in a molecule. E.g. CH for benzene (C₆H₆), HO for hydrogen peroxide (H₂O₂), CH₂O for glucose (C₆H₁₂O₆).", section: "10.7" },
-      { term: "What is gravimetric analysis?", definition: "Analysis based on carefully measuring the masses of substances involved in a chemical reaction. Used to calculate the empirical formula of a compound from the masses of reactants and products.", section: "10.8" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 3, prompt: "Distinguish between a physical change and a chemical change. Give one example of each.", model: "A physical change is a change that does not result in the formation of any new substance; only the physical appearance or state of the substance changes. Example: melting of ice (H₂O solid → H₂O liquid — same substance, different state). A chemical change is a change that results in the formation of one or more new substances. It is usually accompanied by an energy change (heat, light, or sound) and is difficult to reverse. Example: burning of magnesium in air (Mg + O₂ → MgO — a new substance, magnesium oxide, is formed)." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 3, prompt: "State the Law of Conservation of Mass and explain what it means at the atomic level.", model: "The Law of Conservation of Mass states that when a chemical reaction occurs, the total mass of the reactants is always equal to the total mass of the products. At the atomic level, this means that atoms cannot be created or destroyed during a chemical reaction — the atoms present in the reactants are simply rearranged to form the products. The number of atoms of each element is the same before and after the reaction, so the total mass remains unchanged." },
-      { type: "short", marks: 4, prompt: "Describe an experiment to verify the Law of Conservation of Mass. Include the precaution that must be taken and explain why.", model: "Experiment: prepare two solutions — silver nitrate (AgNO₃) and sodium chloride (NaCl) — in separate containers connected so they can be mixed without opening. Weigh the entire closed system before reaction. Mix the solutions — a white precipitate of silver chloride (AgCl) forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s)↓. Weigh the system again after the reaction. Observation: the total mass is the same before and after the reaction. Precaution: the experiment must be carried out in a CLOSED SYSTEM (sealed container). This is necessary because if the container were open, gases could escape or air could enter the system during the reaction, making it appear that mass has been gained or lost, giving false results." },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Balance the following equation: CH₄ + O₂ → CO₂ + H₂O. Show your reasoning.", model: "Step 1: Count atoms — LHS: 1 C, 4 H, 2 O; RHS: 1 C, 2 H, 3 O. The equation is not balanced. Step 2: To get 4 H on the right, put a 2 before H₂O: CH₄ + O₂ → CO₂ + 2H₂O. Now count: LHS: 1 C, 4 H, 2 O; RHS: 1 C, 4 H, 4 O. H is now balanced but O is not. Step 3: To get 4 O on the left, put a 2 before O₂: CH₄ + 2O₂ → CO₂ + 2H₂O. Final check: LHS: 1 C, 4 H, 4 O; RHS: 1 C, 4 H, 4 O. The equation is now balanced." },
-      { type: "short", marks: 3, prompt: "What is meant by the term stoichiometry? Interpret the equation 2H₂ + O₂ → 2H₂O in terms of moles and grams.", model: "Stoichiometry is the branch of chemistry that tells us the relationship between the amounts of reactants and products in a balanced chemical equation. Interpreting 2H₂ + O₂ → 2H₂O: in terms of moles — 2 moles of H₂ react with 1 mole of O₂ to produce 2 moles of H₂O. In terms of grams — 4 g of H₂ (2 × 2 g mol⁻¹) react with 32 g of O₂ (1 × 32 g mol⁻¹) to produce 36 g of H₂O (2 × 18 g mol⁻¹). Note: 4 + 32 = 36, consistent with the Law of Conservation of Mass." },
-      { type: "short", marks: 3, prompt: "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃. (H = 1, N = 14, O = 16)", model: "Step 1: Calculate Mr of NH₄NO₃: 2 N = 2 × 14 = 28; 4 H = 4 × 1 = 4; 3 O = 3 × 16 = 48. Mr = 28 + 4 + 48 = 80. Step 2: Percentage of N = (mass of N / Mr) × 100 = (28/80) × 100 = 35%. Answer: 35% nitrogen by mass." },
-      { type: "short", marks: 4, prompt: "Distinguish between molecular formula and empirical formula. Give one example of a compound where they differ.", model: "The molecular formula of a compound shows the actual number and type of each atom present in one molecule of the compound. The empirical formula shows the simplest whole-number ratio of the different atoms present in the molecule. They are related by: Molecular formula = Empirical formula × n (where n is a whole number). Example where they differ: hydrogen peroxide — molecular formula H₂O₂ (2 H, 2 O per molecule); empirical formula HO (simplest ratio 1:1). Another example: benzene — molecular formula C₆H₆; empirical formula CH." },
-      { type: "short", marks: 5, prompt: "A compound contains 52.17% carbon, 13.04% hydrogen and 34.79% oxygen. The relative molecular mass of the compound is 92. Calculate the empirical formula and then determine the molecular formula. (H = 1, C = 12, O = 16)", model: "Step 1 — calculate moles of each element (assuming 100 g): C = 52.17/12 = 4.35 mol; H = 13.04/1 = 13.04 mol; O = 34.79/16 = 2.17 mol. Step 2 — divide by smallest (2.17): C = 4.35/2.17 = 2; H = 13.04/2.17 = 6; O = 2.17/2.17 = 1. Empirical formula = C₂H₆O. Mr of empirical formula = 2(12) + 6(1) + 16 = 46. Step 3 — find n: n = 92/46 = 2. Molecular formula = C₂H₆O × 2 = C₄H₁₂O₂." },
-      { type: "short", marks: 4, prompt: "In an experiment, 1.02 g of copper powder was heated in air and found to form 1.28 g of copper oxide. Calculate the empirical formula of the oxide. (Cu = 63.5, O = 16)", model: "Step 1 — apply LCM to find mass of O: mass of O = 1.28 − 1.02 = 0.26 g. Step 2 — calculate moles of each element: moles Cu = 1.02/63.5 = 0.0161 mol; moles O = 0.26/16 = 0.0163 mol. Step 3 — find simplest ratio: Cu:O = 0.0161:0.0163 ≈ 1:1. Therefore, empirical formula = CuO. (This is copper(II) oxide.)" },
-      { type: "short", marks: 4, prompt: "Magnesium burns in oxygen according to: 2Mg + O₂ → 2MgO. Calculate the mass of magnesium oxide formed when 9 g of magnesium burns completely in excess oxygen. (Mg = 24, O = 16)", model: "Write the mole relationship: 2 moles Mg → 2 moles MgO. Calculate masses: 2 × 24 = 48 g Mg → 2 × (24 + 16) = 80 g MgO. Scale to given amount: 1 g Mg → 80/48 g MgO. Therefore, 9 g Mg → 9 × 80/48 = 15 g MgO. Answer: 15 g of magnesium oxide is formed." },
-      { type: "short", marks: 4, prompt: "Carbon burns in excess oxygen: C + O₂ → CO₂. Calculate the volume of carbon dioxide produced (at s.t.p.) when 30 g of carbon is burned. (C = 12; molar volume at s.t.p. = 22.4 L)", model: "Mole relationship: 1 mole C → 1 mole CO₂. At s.t.p.: 12 g C → 22.4 L CO₂. Scale: 1 g C → 22.4/12 L CO₂. Therefore, 30 g C → 30 × 22.4/12 = 56 L CO₂. Answer: 56 litres of CO₂ at s.t.p." },
-    ];
-  })();
-
-  // ── chem11: Acids and Bases ────────────────────────────────────────────────
-  (function () {
-    var c = ch('chem11');
-    c.learningOutcomes[0].notes = [
-      { h: "Neutralisation — Definition and Examples", b: "Neutralisation is the reaction between an acid and a base to form a salt and water. The solution formed has no effect on litmus (neutral). General equation: Acid + Base → Salt + Water. A salt is the substance formed when the H⁺ ion from an acid is replaced by a metal ion or an ammonium ion. At the ionic level, neutralisation is: H⁺ + OH⁻ → H₂O (or H₃O⁺ + OH⁻ → 2H₂O). Balanced examples: HCl + NaOH → NaCl + H₂O; H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O; 2HCl + Mg(OH)₂ → MgCl₂ + 2H₂O; H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O; HNO₃ + NaOH → NaNO₃ + H₂O; H₃PO₄ + 3KOH → K₃PO₄ + 3H₂O. Note: the name of the salt is derived from the acid and the metal from the base (e.g. HCl + NaOH → NaCl = sodium chloride)." },
-      { h: "Neutralisation in Everyday Life", b: "1. Medicine: too much HCl in stomach → indigestion/ulcers → antacid (base) neutralises. NaHCO₃ (sodium hydrogencarbonate, in Alka-Seltzer): HCl + NaHCO₃ → NaCl + H₂O + CO₂. Mg(OH)₂ (Milk of Magnesia): 2HCl + Mg(OH)₂ → MgCl₂ + 2H₂O. 2. Agriculture: acidic soil → low crop yields (wheat/barley grow best at neutral/slightly basic pH). Farmers spread lime (quicklime, CaO) on soil: CaO + H₂O → Ca(OH)₂ (slaked lime), which neutralises acidity. Ground limestone (CaCO₃) also used. 3. Environmental protection: acid rain + lakes → add limestone to neutralise acidity: H₂SO₄ + CaCO₃ → CaSO₄ + H₂O + CO₂. Limestone in tall chimneys of coal power plants neutralises acid gases. 4. Miscellaneous: toothpaste (slightly basic, neutralises tooth-decay acids), baking soda (neutralises acids in food), vinegar neutralises alkaline bee stings, shampoo and conditioner." },
-      { h: "Reactions of Acids with Carbonates", b: "Carbonate ions (CO₃²⁻) are bases (proton acceptors) by Brønsted–Lowry theory. General reaction: Acid + Carbonate → Salt + Water + Carbon Dioxide. Famous examples: HCl + CaCO₃ (marble chips/limestone) → CaCl₂ + H₂O + CO₂. CO₂ bubbles form — this reaction is responsible for the damage to limestone buildings and statues by acid rain. Balanced examples: 2HCl + MgCO₃ → MgCl₂ + H₂O + CO₂; H₂SO₄ + CaCO₃ → CaSO₄ + H₂O + CO₂; H₂SO₄ + Na₂CO₃ → Na₂SO₄ + H₂O + CO₂; 2HNO₃ + Na₂CO₃ → 2NaNO₃ + H₂O + CO₂; 2HCl + Na₂CO₃ → 2NaCl + H₂O + CO₂. To test for carbonates: add acid → fizzing (CO₂ produced) → pass through limewater → turns milky." },
-      { h: "Reactions of Acids with Metals", b: "Many metals react with dilute acids to produce a salt and hydrogen gas. General reaction: Acid + Metal → Salt + Hydrogen gas. A salt is formed because the H⁺ from the acid is replaced by the metal ion. Examples: 2HCl + Mg → MgCl₂ + H₂ (magnesium chloride + hydrogen); H₂SO₄ + Mg → MgSO₄ + H₂; 2HCl + Zn → ZnCl₂ + H₂; 6HCl + 2Al → 2AlCl₃ + 3H₂; 2HNO₃ + Mg → Mg(NO₃)₂ + H₂; H₂SO₄ + Fe → FeSO₄ + H₂. Not all metals react: silver, gold, platinum are very unreactive. Acid rain reacts with iron in steel structures → corrosion. WARNING: highly reactive metals (Na, K) must NEVER be added to acids — enormous amounts of H₂ produced so quickly that a violent explosion results." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "Introduction to Acids and Bases", b: "The word 'acid' comes from Latin 'acidus' meaning 'sour'. Common everyday acids: carbonic acid in fizzy drinks, ethanoic (acetic) acid in vinegar, hydrochloric acid in stomach, citric acid in oranges and lemons, ascorbic acid (vitamin C). Bases are the chemical opposites of acids — they have the opposite effect on litmus paper. Acids turn blue litmus red; bases turn red litmus blue. Bases that dissolve in water are called alkalis. Everyday alkalis: NaOH (caustic soda) in drain cleaner; Ca(OH)₂ (lime); Mg(OH)₂ in Milk of Magnesia and Maalox; Ca(OH)₂ dissolved in water = limewater (used to test for CO₂). Many household cleaners contain bases because they convert oils and grease into soluble soaps." },
-      { h: "Arrhenius Theory — Acids and Bases", b: "Svante Arrhenius (Swedish, 1884 PhD thesis — awarded lowest possible grade; 1903 Nobel Prize). Arrhenius definition of an acid: an acid is a substance that dissociates in water to produce H⁺ ions. Examples: HCl → H⁺ + Cl⁻; HNO₃ → H⁺ + NO₃⁻; H₂SO₄ → 2H⁺ + SO₄²⁻. Arrhenius definition of a base: a base is a substance that dissociates in water to produce OH⁻ ions. Examples: NaOH → Na⁺ + OH⁻; Mg(OH)₂ → Mg²⁺ + 2OH⁻; Ca(OH)₂ → Ca²⁺ + 2OH⁻. The OH⁻ ion is called the hydroxide ion. Types of acids by number of H⁺ ions: monobasic = one H⁺ (e.g. HCl); dibasic = two H⁺ (e.g. H₂SO₄); tribasic = three H⁺ (e.g. H₃PO₄)." },
-      { h: "The Hydronium Ion (H₃O⁺)", b: "A H⁺ ion is simply a bare proton (hydrogen atom that has lost its electron). A bare proton cannot exist independently in solution — it reacts with a water molecule to form the hydronium ion (H₃O⁺), also called hydroxonium or oxonium ion. The formation involves a dative (coordinate) covalent bond: H⁺ + H₂O → H₃O⁺ (the oxygen donates both electrons of the bond to the proton). More accurate representation of acid dissociation: HA + H₂O → H₃O⁺ + A⁻ (e.g. HCl + H₂O → H₃O⁺ + Cl⁻). For simplicity, chemists often still use H⁺ in equations. The hydronium ion is present in every acidic solution. Exam note: 'hydrogen chloride' and 'hydrochloric acid' are different — hydrogen chloride is the gas; hydrochloric acid is its aqueous solution." },
-      { h: "Brønsted–Lowry Theory of Acids and Bases", b: "In 1923, Johannes Brønsted (Danish) and Thomas Lowry (English) independently proposed broader definitions. Brønsted–Lowry definition: an acid is a proton donor; a base is a proton acceptor. This is more general than Arrhenius — not limited to aqueous solutions. Example 1: HCl + H₂O → H₃O⁺ + Cl⁻. HCl donates a proton → B-L acid; H₂O accepts a proton → B-L base. Example 2: NH₃ + H₂O → NH₄⁺ + OH⁻. H₂O donates a proton → B-L acid; NH₃ accepts a proton → B-L base. Note: H₂O acts as a base in example 1 and as an acid in example 2. Example 3 (gas phase, no water): HCl(g) + NH₃(g) → NH₄Cl(s). HCl = B-L acid (proton donor); NH₃ = B-L base (proton acceptor). This reaction is classified as acid-base by B-L theory but NOT by Arrhenius (no water present). Brønsted–Lowry strength: strong acid = good proton donor; weak acid = poor proton donor; strong base = good proton acceptor; weak base = poor proton acceptor." },
-      { h: "Comparing Arrhenius and Brønsted–Lowry Theories", b: "The B-L theory is more general — it ADDS to the Arrhenius theory; the two are not in conflict. Key differences: (1) Role of water: Arrhenius = limited to reactions in water only; B-L = not limited to water, applies to reactions in gaseous state and solvents other than water. (2) Hydroxide ions: Arrhenius = only substances that produce OH⁻ classified as bases; B-L = any substance that can accept a proton (e.g. NH₃, CO₃²⁻, HCO₃⁻) is a base — broader classification. (3) Hydronium ion: Arrhenius = does not account for H₃O⁺; B-L = explains the hydronium ion. (4) Amphoteric substances: Arrhenius = cannot explain; B-L = explains as proton donor/acceptor depending on reaction. Summary: B-L improves on Arrhenius in all these respects." },
-    ];
-    c.learningOutcomes[2].notes = [
-      { h: "Amphoteric (Amphiprotic) Substances", b: "An amphoteric (or amphiprotic) substance is one that can act both as an acid AND as a base — it can either donate or accept a proton depending on what it reacts with. 'Amphi' from Greek meaning 'on both sides'; 'protic' refers to protons. Water is the most common example of an amphoteric substance: it accepts a proton from HCl (acts as B-L base) and donates a proton to NH₃ (acts as B-L acid). Other examples: HSO₄⁻ ion can donate a proton (HSO₄⁻ + H₂O → H₃O⁺ + SO₄²⁻, acting as acid) or accept a proton (acting as base). HCO₃⁻ (hydrogencarbonate) is also amphoteric. The Arrhenius theory cannot explain amphoteric behaviour, but the Brønsted–Lowry theory explains it in terms of proton transfer." },
-      { h: "Conjugate Acid–Base Pairs", b: "When an acid donates a proton, the species left behind can accept a proton (i.e. it becomes a base). This is called the conjugate base of the acid. An acid changes into its conjugate base when it donates a proton. When a base accepts a proton, it becomes an acid. A base changes into its conjugate acid when it accepts a proton. A conjugate acid–base pair (conjugate pair) is any pair consisting of an acid and a base that differ by ONE proton. Example: CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺. Conjugate pairs: (CH₃COOH / CH₃COO⁻) and (H₃O⁺ / H₂O). General notation: HA ⇌ A⁻ + H⁺ (HA = acid, A⁻ = conjugate base). Important: there is exactly ONE proton difference between the members of a conjugate pair. Exam tip: the conjugate base of H₂SO₄ is HSO₄⁻ (not SO₄²⁻) because only one proton is removed." },
-      { h: "Identifying Conjugate Pairs and the HSO₄⁻ Ion as Acid and Base", b: "To find the conjugate acid of a base: add one proton (H⁺). To find the conjugate base of an acid: remove one proton. Example: What is (i) the conjugate acid and (ii) the conjugate base of HC₂O₄⁻? (i) Conjugate acid: HC₂O₄⁻ + H⁺ → H₂C₂O₄ → conjugate acid = H₂C₂O₄. (ii) Conjugate base: HC₂O₄⁻ → H⁺ + C₂O₄²⁻ → conjugate base = C₂O₄²⁻. The HSO₄⁻ ion is itself amphoteric: (1) As an acid — donates a proton: HSO₄⁻ + H₂O → H₃O⁺ + SO₄²⁻ (conjugate base = SO₄²⁻). (2) As a base — accepts a proton: HSO₄⁻ + H⁺ → H₂SO₄ (conjugate acid = H₂SO₄). In the dissociation of sulfuric acid in water: H₂SO₄ + H₂O → H₃O⁺ + HSO₄⁻, the conjugate base of H₂SO₄ is HSO₄⁻." },
-    ];
-    c.learningOutcomes[3].notes = [
-      { h: "Strong and Weak Acids and Bases (Arrhenius)", b: "Strong acid: a substance that almost completely dissociates in water to give H⁺ ions (e.g. HCl, HNO₃, H₂SO₄). Almost every molecule breaks up. Weak acid: a substance that only slightly dissociates in water to give H⁺ ions (e.g. ethanoic/acetic acid, methanoic/formic acid). Only a small fraction of molecules dissociate. Strong base: a substance that almost completely dissociates in water to give OH⁻ ions (e.g. NaOH, KOH, Ca(OH)₂). Ca(OH)₂ has low solubility but the dissolved portion dissociates completely. Weak base: a substance that only slightly dissociates in water to give OH⁻ ions (e.g. Mg(OH)₂, Al(OH)₃). Note: acidic properties of acids only appear in solution — pure HCl dissolved in benzene (no water) shows no acidic properties as no H⁺ or H₃O⁺ ions form." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is neutralisation?", definition: "The reaction between an acid and a base to form a salt and water. Acid + Base → Salt + Water. At the ionic level: H⁺ + OH⁻ → H₂O. The solution formed has no effect on litmus.", section: "11.5" },
-      { term: "What is a salt?", definition: "The substance formed when the hydrogen ion (H⁺) from an acid is replaced by a metal ion or an ammonium ion. Named from the metal in the base and the acid (e.g. NaCl = sodium chloride, from HCl and NaOH).", section: "11.5" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is an alkali?", definition: "A base that dissolves in water. All alkalis are bases but not all bases are alkalis. Examples: NaOH (sodium hydroxide), Ca(OH)₂ (calcium hydroxide), KOH (potassium hydroxide).", section: "11.1" },
-      { term: "What is an Arrhenius acid?", definition: "A substance that dissociates in water to produce H⁺ ions. Examples: HCl → H⁺ + Cl⁻; HNO₃ → H⁺ + NO₃⁻; H₂SO₄ → 2H⁺ + SO₄²⁻.", section: "11.2" },
-      { term: "What is an Arrhenius base?", definition: "A substance that dissociates in water to produce OH⁻ ions. Examples: NaOH → Na⁺ + OH⁻; Mg(OH)₂ → Mg²⁺ + 2OH⁻.", section: "11.2" },
-      { term: "What is a monobasic acid?", definition: "An acid that can give ONE H⁺ ion per molecule in aqueous solution. Also called monoprotic. Example: HCl → H⁺ + Cl⁻.", section: "11.2" },
-      { term: "What is a dibasic acid?", definition: "An acid that can give TWO H⁺ ions per molecule in aqueous solution. Also called diprotic. Example: H₂SO₄ → 2H⁺ + SO₄²⁻.", section: "11.2" },
-      { term: "What is a tribasic acid?", definition: "An acid that can give THREE H⁺ ions per molecule in aqueous solution. Also called triprotic. Example: H₃PO₄ → 3H⁺ + PO₄³⁻.", section: "11.2" },
-      { term: "What is the hydronium ion (H₃O⁺)?", definition: "The ion formed when a bare H⁺ ion (proton) reacts with a water molecule via a dative covalent bond: H⁺ + H₂O → H₃O⁺. Also called hydroxonium or oxonium ion. Present in all acidic solutions.", section: "11.2" },
-      { term: "What is a Brønsted–Lowry acid?", definition: "A proton donor — any substance that can donate a proton (H⁺) to another substance. This definition is broader than Arrhenius — not limited to aqueous solutions.", section: "11.3" },
-      { term: "What is a Brønsted–Lowry base?", definition: "A proton acceptor — any substance that can accept a proton (H⁺) from another substance. Examples: NH₃, CO₃²⁻, HCO₃⁻, H₂O (in some reactions).", section: "11.3" },
-    ];
-    c.learningOutcomes[2].keyTerms = [
-      { term: "What is an amphoteric (amphiprotic) substance?", definition: "A substance that can act both as an acid (proton donor) and as a base (proton acceptor) depending on what it reacts with. Examples: water (H₂O), HSO₄⁻, HCO₃⁻.", section: "11.3" },
-      { term: "What is a conjugate base?", definition: "The species formed when an acid donates a proton. An acid changes into its conjugate base when it donates a proton. The conjugate base differs from the acid by one proton. Example: conjugate base of HCl = Cl⁻; conjugate base of H₂SO₄ = HSO₄⁻ (not SO₄²⁻).", section: "11.4" },
-      { term: "What is a conjugate acid?", definition: "The species formed when a base accepts a proton. A base changes into its conjugate acid when it accepts a proton. Example: conjugate acid of NH₃ = NH₄⁺; conjugate acid of H₂O = H₃O⁺.", section: "11.4" },
-      { term: "What is a conjugate acid–base pair?", definition: "Any pair consisting of an acid and a base that differ by exactly one proton. In any acid–base equation there are always two conjugate pairs. Example: CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.", section: "11.4" },
-    ];
-    c.learningOutcomes[3].keyTerms = [
-      { term: "What is a strong acid?", definition: "A substance that almost completely dissociates in water to give H⁺ ions. Examples: HCl, HNO₃, H₂SO₄. (Brønsted–Lowry: a good proton donor.)", section: "11.2" },
-      { term: "What is a weak acid?", definition: "A substance that only slightly dissociates in water to give H⁺ ions. Examples: ethanoic acid (acetic acid, CH₃COOH), methanoic acid (formic acid, HCOOH). (Brønsted–Lowry: a poor proton donor.)", section: "11.2" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 3, prompt: "Define neutralisation and write a balanced equation for the reaction between sulfuric acid and calcium hydroxide.", model: "Neutralisation is the reaction between an acid and a base to form a salt and water. The general equation is: Acid + Base → Salt + Water. Balanced equation for H₂SO₄ and Ca(OH)₂: H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O. (Sulfuric acid + calcium hydroxide → calcium sulfate + water.)" },
-      { type: "short", marks: 4, prompt: "Explain how antacid tablets work. Write a balanced chemical equation for the reaction of hydrochloric acid with sodium hydrogencarbonate.", model: "The stomach produces hydrochloric acid (HCl) for digestion. If too much HCl is produced (due to overeating or stress), it can cause indigestion or ulcers. Antacid tablets contain a base that neutralises the excess HCl. For example, Alka-Seltzer and Bisodol contain sodium hydrogencarbonate (NaHCO₃), which reacts with the excess HCl in a neutralisation reaction. Balanced equation: HCl + NaHCO₃ → NaCl + H₂O + CO₂. The CO₂ gas produced causes the fizzing observed when the tablet dissolves." },
-      { type: "short", marks: 3, prompt: "Write a balanced chemical equation for the reaction between hydrochloric acid and calcium carbonate. State two observations and explain why the reaction is relevant to environmental chemistry.", model: "Equation: 2HCl + CaCO₃ → CaCl₂ + H₂O + CO₂. Observations: (1) fizzing/effervescence (CO₂ gas is produced); (2) the calcium carbonate (marble) slowly dissolves. Environmental relevance: acid rain contains dilute sulfuric acid (H₂SO₄) and other acids. When acid rain falls on limestone buildings, bridges, and statues (all made of CaCO₃), the acid reacts with the calcium carbonate and gradually dissolves and erodes the structure: H₂SO₄ + CaCO₃ → CaSO₄ + H₂O + CO₂." },
-      { type: "short", marks: 3, prompt: "State the general word equation for the reaction of an acid with a metal and write a balanced equation for sulfuric acid reacting with zinc.", model: "General equation: Acid + Metal → Salt + Hydrogen gas. Balanced equation for H₂SO₄ and Zn: H₂SO₄ + Zn → ZnSO₄ + H₂. The hydrogen gas produced can be confirmed by holding a lit splint at the mouth of the test tube — the gas ignites with a 'pop'. Note: highly reactive metals such as sodium and potassium must never be added to acids as the reaction is dangerously violent." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "State the Arrhenius definition of an acid and a base. Give one example of each with a dissociation equation.", model: "Arrhenius acid: a substance that dissociates in water to produce H⁺ ions. Example: HCl → H⁺ + Cl⁻ (hydrochloric acid dissociates completely to give H⁺ and Cl⁻ ions). Arrhenius base: a substance that dissociates in water to produce OH⁻ ions. Example: NaOH → Na⁺ + OH⁻ (sodium hydroxide dissociates to give Na⁺ and OH⁻ ions). The OH⁻ ion is called the hydroxide ion." },
-      { type: "short", marks: 3, prompt: "What is the hydronium ion? Explain how it forms when hydrogen chloride dissolves in water.", model: "The hydronium ion (H₃O⁺) is the ion formed when a bare H⁺ ion (proton) reacts with a water molecule. A H⁺ ion is simply a bare proton and cannot exist independently in solution. When HCl dissolves in water, the H⁺ ion produced reacts with a water molecule via a dative (coordinate) covalent bond: H⁺ + H₂O → H₃O⁺. Both electrons in this bond are provided by the oxygen lone pair of the water molecule. Therefore, the dissociation of HCl in water is more accurately written as: HCl + H₂O → H₃O⁺ + Cl⁻." },
-      { type: "short", marks: 4, prompt: "State the Brønsted–Lowry definitions of an acid and a base. Give an example of a reaction that is classified as acid–base by Brønsted–Lowry but NOT by Arrhenius.", model: "Brønsted–Lowry definition: an acid is a proton donor; a base is a proton acceptor. Example of a reaction classified as acid–base by B-L but not Arrhenius: HCl(g) + NH₃(g) → NH₄Cl(s). In this reaction, HCl (the gas) donates a proton to NH₃ (the gas) — HCl is the B-L acid and NH₃ is the B-L base. However, there is no water present in this reaction, so it cannot be classified as an acid–base reaction using the Arrhenius theory, which is limited to reactions occurring in aqueous (water) solution." },
-      { type: "short", marks: 4, prompt: "Give three ways in which the Brønsted–Lowry theory is an improvement on the Arrhenius theory.", model: "1. Not limited to water: the Arrhenius theory is restricted to reactions occurring in aqueous solution, while the Brønsted–Lowry theory can be applied to reactions in the gaseous state and in solvents other than water. 2. Broader definition of bases: the Arrhenius theory classifies only substances that produce OH⁻ ions as bases. The Brønsted–Lowry theory has a more general classification — any substance that can accept a proton is a base, including carbonate (CO₃²⁻) and hydrogencarbonate (HCO₃⁻) ions. 3. Amphoteric substances: the Arrhenius theory cannot explain how a substance can act as both an acid and a base, but the Brønsted–Lowry theory explains this in terms of the ability to both donate and accept protons." },
-    ];
-    c.learningOutcomes[2].questions = [
-      { type: "short", marks: 4, prompt: "Define the terms conjugate acid, conjugate base, and conjugate acid–base pair. Identify the two conjugate acid–base pairs in the following equation: CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺", model: "Conjugate acid: the species formed when a base accepts a proton — a base changes into its conjugate acid when it accepts a proton. Conjugate base: the species formed when an acid donates a proton — an acid changes into its conjugate base when it donates a proton. Conjugate acid–base pair: any pair consisting of an acid and a base that differ by exactly one proton. In CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: Conjugate pair 1: CH₃COOH (acid) / CH₃COO⁻ (conjugate base) — they differ by one proton. Conjugate pair 2: H₃O⁺ (acid) / H₂O (conjugate base) — they differ by one proton." },
-      { type: "short", marks: 3, prompt: "What is an amphoteric (amphiprotic) substance? Explain why water is considered amphoteric.", model: "An amphoteric (or amphiprotic) substance is one that can act both as an acid (proton donor) and as a base (proton acceptor), depending on what it reacts with. Water is amphoteric because: (1) When HCl dissolves in water, H₂O accepts a proton from HCl (acts as a B-L base): HCl + H₂O → H₃O⁺ + Cl⁻. (2) When NH₃ dissolves in water, H₂O donates a proton to NH₃ (acts as a B-L acid): NH₃ + H₂O → NH₄⁺ + OH⁻. In these two reactions, water acts as a base in the first and as an acid in the second — demonstrating its amphoteric character." },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 4, prompt: "Distinguish between a strong acid and a weak acid in terms of the Arrhenius theory. Give one example of each.", model: "A strong acid is a substance that almost completely dissociates in water to give H⁺ ions — almost every molecule breaks up. Example: hydrochloric acid (HCl → H⁺ + Cl⁻; essentially all HCl molecules dissociate). A weak acid is a substance that only slightly dissociates in water to give H⁺ ions — only a small proportion of molecules break up. Example: ethanoic acid (CH₃COOH ⇌ CH₃COO⁻ + H⁺; most molecules remain undissociated in solution)." },
-    ];
-  })();
-
-  // ── chem12: Volumetric Analysis: Acid–Base ──
-  (function () {
-    var c = ch('chem12');
-    c.learningOutcomes[0].notes = [
-      { h: "Introduction: Quantitative Analysis", b: "Quantitative analysis = finding the quantities or amounts of materials present. It has two main branches: (1) Gravimetric analysis — finding quantities by weighing; (2) Volumetric analysis — finding concentrations by reacting known volumes of solutions with each other. (Do not confuse with qualitative analysis, which identifies the presence of substances without finding quantities, e.g. testing for anions.)" },
-      { h: "Solutions: Solute, Solvent, Solution", b: "Solute = the substance that dissolves; usually present in smaller amount (e.g. NaCl in saltwater). Solvent = the substance that dissolves the solute; usually present in larger amount (e.g. H₂O in saltwater). Solution = a homogeneous mixture of a solute dissolved in a solvent — particles are evenly distributed throughout. Solutions are always clear; no boundary exists between the dissolved particles. Concentrated = large amount of solute relative to solvent. Dilute = small amount of solute relative to solvent." },
-      { h: "Expressing Concentration: Percentage (w/w, w/v, v/v)", b: "Three forms of percentage concentration: (1) Weight per weight (% w/w): mass of solute / total mass of solution × 100. A 10% w/w NaCl solution has 10 g NaCl per 100 g solution — made by weighing 10 g salt, dissolving in water, adding water until total mass = 100 g. (2) Weight per volume (% w/v): mass of solute / total volume of solution × 100. A 10% w/v NaCl solution has 10 g NaCl per 100 cm³ solution. (3) Volume per volume (% v/v): volume of solute / total volume of solution × 100. A 10% v/v ethanol solution has 10 cm³ ethanol per 100 cm³ solution. Alcohol in drinks is given as % v/v (beer/cider ~4–5%, wine ~10–12%, spirits ~40%)." },
-      { h: "Expressing Concentration: Parts Per Million (ppm)", b: "ppm is used for very dilute solutions, especially in water analysis where concentrations are only a few milligrams per litre. For water (density = 1 g/cm³): 1 ppm = 1 mg per litre = 1 mg/L. Example: a chemist reports chlorine concentration in water is 2 ppm — this means 2 milligrams of chlorine per litre of water. Key equivalence: 1 mg per litre = 1 mg per 1000 g water = 1 mg per million mg = 1 ppm." },
-      { h: "Molarity — Moles of Solute Per Litre", b: "Molarity = the most important method of expressing concentration; it is the number of moles of solute per litre of solution. Symbol: M or mol/L. A 1 M NaOH solution contains 1 mole of NaOH (= 40 g) dissolved in 1 litre of solution. The S.I. unit is mol/L but M is used widely in industry and at third level — 1 M NaOH ≡ 1 mol/L NaOH. Note: a 1 M solution is made up in a volumetric flask to the 1-litre graduation mark." },
-      { h: "Concentration Conversions: mol/L ↔ g/L", b: "To convert molarity → g/L: multiply molarity by relative molecular mass (M_r). Example: 0.25 M NaCl → 58.5 × 0.25 = 14.625 g/L. To convert g/L → molarity: divide by M_r. Example: 3.68 g NaOH per litre → M_r of NaOH = 40 → 3.68 / 40 = 0.092 M. Key formula: molarity = concentration (g/L) ÷ M_r." },
-      { h: "Calculating Moles in a Volume of Solution", b: "Number of moles = (volume in cm³ × molarity) / 1000. This formula is essential for volumetric calculations. Example: moles of HCl in 30 cm³ of 0.2 M HCl = (30 × 0.2) / 1000 = 0.006 mol. Example: mass of NaOH in 25 cm³ of 0.75 M NaOH = (25 × 0.75) / 1000 × 40 = 0.75 g." },
-      { h: "Dilution of Solutions", b: "When a solution is diluted, more solvent is added but the amount of solute (moles) is unchanged. Therefore: moles in diluted solution = moles in concentrated solution. Formula: Vol_dil × M_dil = Vol_conc × M_conc (volumes in cm³). Example: volume of 12 M HCl needed to make 500 cm³ of 3 M HCl → 500 × 3 = Vol_conc × 12 → Vol_conc = 125 cm³. Common lab reagent concentrations as supplied: H₂SO₄ = 18 M, HNO₃ = 16 M, HCl = 12 M, NH₃ = 16 M, CH₃COOH = 17 M." },
-      { h: "Serial Dilution and Dilution Factor", b: "Serial dilution = a step-by-step dilution process where a solution is diluted multiple times by the same factor (commonly 1:10). Each step reduces concentration by the dilution factor. Dilution factor = total volume after dilution / volume of stock used. Example: 1:10 dilution → 1 cm³ stock added to 9 cm³ water → dilution factor = 10. Three consecutive 1:10 dilutions → dilution factor = 10 × 10 × 10 = 1000. Serial dilutions are used to calibrate instruments (colorimeters) and test drug effectiveness at a range of concentrations." },
-      { h: "Standard Solutions and Primary Standards", b: "Standard solution = a solution of accurately known concentration. A primary standard is a substance that can be obtained in a stable, pure, soluble solid form so it can be weighed and dissolved to give a solution of accurately known concentration. Criteria for a primary standard: (1) available in highly pure state; (2) stable in air — does not effloresce or absorb water (deliquesce or be hygroscopic); (3) dissolves easily in water; (4) fairly high relative molecular mass (to minimise % weighing error); (5) undergoes complete and rapid reaction; (6) if possible, anhydrous (no water of crystallisation). Examples of primary standards: anhydrous Na₂CO₃, NaCl." },
-      { h: "Substances That Are NOT Primary Standards", b: "Many common chemicals fail the criteria. H₂SO₄: hygroscopic (absorbs water from air). HCl: a gas at room temperature, difficult to weigh accurately. NaOH: deliquescent (absorbs enough water to form a solution). Hydrated Na₂CO₃: effloresces (loses water of crystallisation to air). I₂ (iodine): sublimes at close to room temperature. KMnO₄: not available in pure state and unstable (solutions deteriorate if exposed to light). Only anhydrous Na₂CO₃, NaCl, and a few others satisfy all criteria." },
-      { h: "Preparing a Standard Solution of Sodium Carbonate (Exp. No. 6)", b: "Procedure: (1) Accurately weigh known mass of anhydrous Na₂CO₃ on a clock glass using a laboratory balance. (2) Transfer Na₂CO₃ to a beaker containing deionised water; stir with glass rod until dissolved. (3) Use a wash bottle of deionised water to wash all traces from clock glass into beaker. (4) Transfer solution to a 250 cm³ volumetric flask using a funnel and glass rod. (5) Wash all traces from beaker, rod, and funnel into the flask. (6) Add deionised water slowly until the bottom of the meniscus is exactly level with the graduation mark (viewed at eye level). (7) Stopper the flask and invert about 20 times to mix. Exam tips: always say 'deionised water', state 'bottom of meniscus' at graduation mark, use the word 'inverted' not 'shaken'." },
-    ];
-    c.learningOutcomes[1].notes = [
-      { h: "Volumetric Analysis Apparatus and Titration", b: "Volumetric analysis = reacting together known volumes of solutions. A definite volume (usually 25 cm³) of one solution is taken using a pipette; the other solution is added from a burette until the reaction is complete. Titration = laboratory procedure where a measured volume of one solution is added to a known volume of another solution until the reaction is complete. Equivalence point = the stage when the two solutions have just reacted completely. End point = when the equivalence point is shown by an indicator changing colour. Analyte = the chemical species being analysed to determine concentration, identity, or properties. Apparatus: beaker, graduated cylinder, volumetric flask, pipette, burette, conical flask." },
-      { h: "Titration Procedure (AABB Rule and Key Steps)", b: "Acid Above, Base Below (AABB): acid is placed in the burette and base in the conical flask. Reason: common bases (especially NaOH) cause glass burette taps to stick; NaOH also absorbs CO₂ forming Na₂CO₃ crust on taps. Key steps: (1) Rinse pipette with solution it will contain; pipette 25 cm³ base into conical flask. (2) Rinse burette with acid; fill above zero mark; remove funnel; adjust to zero graduation. (3) Place white tile under conical flask to detect colour changes. (4) Add a small amount of indicator — acid-base indicators are themselves weak acids/bases so too much would affect the result. (5) Open tap with left hand, swirl flask with right hand — run roughly to find approximate end point. (6) Run drop-by-drop near end point until the colour changes. (7) Titre = average of two accurate titrations agreeing within 0.1 cm³. The rough titration figure is neglected in calculations. Deionised water may be added to the conical flask at any stage — it does not affect the number of moles of substance in the flask." },
-      { h: "The Titration Formula", b: "From the balanced equation, if n_a moles of acid react with n_b moles of base: (V_a × M_a) / n_a = (V_b × M_b) / n_b. Where V = volume (cm³), M = molarity (mol/L), n = moles from balanced equation. Example: for HCl + NaOH → NaCl + H₂O; n_a = 1, n_b = 1, so V_a × M_a = V_b × M_b. Example (Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂): n_a = 2, n_b = 1. If V_a = 19.55 cm³, M_a = ?, V_b = 25 cm³, M_b = 0.055 M → M_a = (25 × 0.055 × 2) / (1 × 19.55) = 0.141 mol/L." },
-      { h: "Experiments: Standardising HCl, NaOH, NH₃ Solutions", b: "Exp. 12.3 (Standardise HCl using Na₂CO₃): Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. Indicator: methyl orange (changes from yellow to red/pink at end point). Explanation: indicator changes from yellow to red because solution in conical flask becomes acidic. Exp. 12.4 (Standardise NaOH using standard HCl): HCl + NaOH → NaCl + H₂O. NaOH is deliquescent so cannot be weighed accurately — must standardise by titration against standard HCl. Indicator: methyl orange (yellow → red). Exp. 12.5 (Find concentration of NH₃ using standard HCl): HCl + NH₃ → NH₄Cl. Ammonia in water = ammonium hydroxide (NH₄⁺ + OH⁻ ions). Indicator: methyl orange (yellow → red/pink)." },
-    ];
-    c.learningOutcomes[3].notes = [
-      { h: "Determining Ethanoic Acid in Vinegar (Exp. No. 10)", b: "CH₃COOH + NaOH → CH₃COONa + H₂O (weak acid–strong base titration). Since vinegar concentration is much greater than the NaOH used (~0.1 M), the vinegar must be diluted first — otherwise only a very small volume of NaOH would be needed, giving large % error. Dilution by factor of 5: pipette 2 × 25 cm³ vinegar into 250 cm³ volumetric flask, make up to mark with deionised water. NaOH goes in conical flask (base below); diluted vinegar in burette (acid above). Indicator: phenolphthalein — pink in alkaline NaOH, changes to colourless at end point when all NaOH is neutralised. At end point: phenolphthalein changes from pink to colourless. Calculations: find [CH₃COOH] in mol/L and g/L in the diluted vinegar, then multiply by dilution factor (5) to get concentration in original vinegar; also express as % w/v." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is volumetric analysis?", definition: "A branch of quantitative analysis that involves determining concentrations by reacting together known volumes of solutions", section: "12.1" },
-      { term: "What is solute?", definition: "The substance that dissolves in a solvent to form a solution; usually present in a smaller amount", section: "12.2" },
-      { term: "What is solvent?", definition: "The substance that dissolves the solute to form a solution; usually present in a larger amount", section: "12.2" },
-      { term: "What is solution?", definition: "A homogeneous mixture of a solute dissolved in a solvent; particles are evenly distributed throughout", section: "12.2" },
-      { term: "What is concentrated?", definition: "A solution in which there is a large amount of solute relative to the quantity of solvent", section: "12.2" },
-      { term: "What is dilute?", definition: "A solution in which there is only a small amount of solute relative to the quantity of solvent", section: "12.2" },
-      { term: "What is concentration?", definition: "The precise amount of solute dissolved in a given volume (or mass) of solution", section: "12.2" },
-      { term: "What is % weight per weight?", definition: "Weight per weight: (mass of solute / total mass of solution) × 100", section: "12.2.1" },
-      { term: "What is % weight per volume?", definition: "Weight per volume: (mass of solute / total volume of solution) × 100", section: "12.2.1" },
-      { term: "What is % volume per volume?", definition: "Volume per volume: (volume of solute / total volume of solution) × 100", section: "12.2.1" },
-      { term: "What is ppm (parts per million)?", definition: "A unit of concentration for very dilute solutions; 1 ppm = 1 mg per litre of solution (for water)", section: "12.2.2" },
-      { term: "What is molarity?", definition: "The number of moles of solute per litre of solution; symbol M or mol/L", section: "12.2.3" },
-      { term: "What is standard solution?", definition: "A solution whose concentration is accurately known", section: "12.8" },
-      { term: "What is primary standard?", definition: "A substance that can be obtained in a stable, pure, soluble solid form so it can be weighed and dissolved to give a solution of accurately known concentration", section: "12.8" },
-      { term: "What are the steps of serial dilution?", definition: "A step-by-step dilution process where a solution is diluted multiple times in a systematic way, each step reducing concentration by the same dilution factor", section: "12.7" },
-      { term: "What is dilution factor?", definition: "The ratio of the total volume after dilution to the volume of stock solution used; e.g. a 1:10 dilution has dilution factor 10", section: "12.7" },
-    ];
-    c.learningOutcomes[1].keyTerms = [
-      { term: "What is titration?", definition: "A laboratory procedure where a measured volume of one solution is added to a known volume of another solution until the reaction is complete", section: "12.9" },
-      { term: "What is equivalence point?", definition: "The stage in a titration when the two solutions have just reacted completely with each other", section: "12.9" },
-      { term: "What is end point?", definition: "The point in a titration when the equivalence point is shown by a change in indicator colour", section: "12.9" },
-      { term: "What is analyte?", definition: "The chemical species being analysed in an experiment to determine its concentration, identity, or properties", section: "12.9" },
-      { term: "What is titre?", definition: "The average of two accurate titration readings that agree to within 0.1 cm³; the rough titration figure is excluded", section: "12.10" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 2, prompt: "Distinguish between qualitative analysis and quantitative analysis. Give one example of each.", model: "Qualitative analysis: identifying the presence of substances without finding the quantities present. Example: testing for anions (e.g. Experiment 5.1 testing for sulfate ions). Quantitative analysis: finding the quantities or amounts of materials present. Example: determining the concentration of ethanoic acid in vinegar by volumetric analysis." },
-      { type: "short", marks: 2, prompt: "Distinguish between a solute and a solvent. Identify the solute and solvent in a saltwater solution.", model: "Solute: the substance that dissolves in a solvent; usually present in smaller amount. Solvent: the substance that dissolves the solute; usually present in larger amount. In saltwater: the solute is sodium chloride (NaCl) and the solvent is water (H₂O)." },
-      { type: "short", marks: 3, prompt: "Explain the difference between % w/w, % w/v, and % v/v as methods of expressing concentration. Give one example of each.", model: "% w/w (weight per weight): (mass of solute / total mass of solution) × 100. Example: a 10% w/w NaCl solution contains 10 g NaCl per 100 g solution. % w/v (weight per volume): (mass of solute / total volume of solution) × 100. Example: a 10% w/v NaCl solution contains 10 g NaCl per 100 cm³ solution. % v/v (volume per volume): (volume of solute / total volume of solution) × 100. Example: a 10% v/v ethanol solution contains 10 cm³ ethanol per 100 cm³ solution. Alcohol in drinks is expressed as % v/v." },
-      { type: "short", marks: 2, prompt: "What is meant by ppm? A chemist reports the concentration of fluoride in drinking water as 1 ppm. Express this in mg/L.", model: "ppm = parts per million. It is a unit of concentration used for very dilute solutions. 1 ppm = 1 mg per litre of solution (for water, density 1 g/cm³). Therefore, 1 ppm fluoride = 1 mg/L." },
-      { type: "short", marks: 3, prompt: "Define molarity. Calculate the molarity of a solution containing 4.0 g of NaOH dissolved in 500 cm³ of solution. (H = 1, O = 16, Na = 23)", model: "Molarity = the number of moles of solute per litre of solution; symbol M or mol/L. M_r of NaOH = 23 + 16 + 1 = 40. Moles of NaOH = 4.0 / 40 = 0.1 mol. This is dissolved in 500 cm³ = 0.5 litre. Molarity = 0.1 / 0.5 = 0.2 M (0.2 mol/L)." },
-      { type: "short", marks: 3, prompt: "State six criteria that a substance must satisfy to be classified as a primary standard.", model: "(1) Available in a highly pure state. (2) Stable in air — does not effloresce (lose water of crystallisation) or absorb water from the air (deliquesce or be hygroscopic). (3) Dissolves easily in water. (4) Has a fairly high relative molecular mass to minimise the percentage error in weighing. (5) Undergoes complete and rapid reaction when used in volumetric analysis. (6) If possible, should not be hydrated (i.e. should be anhydrous, with no water of crystallisation)." },
-      { type: "short", marks: 4, prompt: "Explain why sodium hydroxide (NaOH) cannot be used as a primary standard. Describe how you would prepare an approximately 0.1 M solution of NaOH.", model: "NaOH cannot be used as a primary standard because it is deliquescent — it absorbs enough water vapour from the air to dissolve and form a solution. This means the exact mass of NaOH present cannot be known, so an accurately known concentration cannot be achieved by weighing alone. To prepare an approximately 0.1 M NaOH solution: weigh out approximately 1 g (0.1 mol × 40 g/mol = 4 g per litre → 1 g for 250 cm³) of NaOH, dissolve in deionised water, transfer to a 250 cm³ volumetric flask, make up to the graduation mark with deionised water, and invert about 20 times to mix. The concentration must then be standardised by titrating against a standard acid." },
-      { type: "short", marks: 5, prompt: "Describe the procedure for preparing a standard solution of sodium carbonate. State three important precautions.", model: "Procedure: (1) Accurately weigh out a known mass of anhydrous sodium carbonate (Na₂CO₃) on a clock glass using a laboratory balance. (2) Transfer the Na₂CO₃ to a beaker containing a small amount of deionised water. (3) Stir with a glass rod until completely dissolved. (4) Use a wash bottle of deionised water to wash all traces of Na₂CO₃ from the clock glass into the beaker. (5) Transfer the solution to a 250 cm³ volumetric flask using a funnel and glass rod. (6) Wash all traces from the beaker, rod, and funnel into the flask. (7) Add deionised water slowly until the bottom of the meniscus is exactly at the graduation mark, viewed at eye level. (8) Stopper the flask and invert about 20 times to mix. Three precautions: (1) Use deionised water (not tap water, which contains dissolved substances). (2) Add water until the bottom of the meniscus is exactly level with the graduation mark at eye level. (3) Invert the flask (do not just shake) to ensure a homogeneous mixture." },
-    ];
-    c.learningOutcomes[1].questions = [
-      { type: "short", marks: 4, prompt: "Define titration, equivalence point, and end point. Explain why the acid is usually placed in the burette (AABB rule).", model: "Titration: a laboratory procedure where a measured volume of one solution is added to a known volume of another solution until the reaction is complete. Equivalence point: the stage in a titration when the two solutions have just reacted completely with each other. End point: the point at which the equivalence point is shown by a change in indicator colour. AABB rule (Acid Above, Base Below): acid is placed in the burette, base in the conical flask. Reasons: (1) Common bases such as NaOH are deliquescent and attack glass — NaOH can cause glass burette taps to stick (seize up). (2) NaOH also absorbs CO₂ from the air, forming a crust of Na₂CO₃ on the tap, which causes it to seize up further. Both problems are especially severe with plastic taps on modern burettes." },
-      { type: "short", marks: 4, prompt: "Describe how you would standardise a solution of hydrochloric acid using a standard sodium carbonate solution. Include the equation, indicator, and key observations.", model: "Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. Indicator: methyl orange. Procedure: (1) Rinse the pipette with the sodium carbonate solution. (2) Pipette 25 cm³ of the standard Na₂CO₃ solution into a conical flask. (3) Add a few drops of methyl orange indicator. (4) Rinse the burette with the dilute HCl; fill to the zero mark; remove the funnel; adjust meniscus to zero. (5) Place the conical flask on a white tile. (6) Carry out one rough titration and two accurate titrations agreeing to within 0.1 cm³. Observation: the methyl orange changes from yellow to red (pink) at the end point. Explanation: the indicator changes colour because the solution in the conical flask becomes acidic as all the base has been neutralised. Calculation: use the titre and the titration formula (V_a × M_a / n_a = V_b × M_b / n_b) to find the molarity of HCl." },
-      { type: "short", marks: 3, prompt: "In a titration, 25 cm³ of a sodium hydroxide solution was titrated against 0.2 M hydrochloric acid. The average titration figure was 23.5 cm³. Calculate the concentration of the NaOH solution in (a) moles per litre and (b) grams per litre. (H = 1, O = 16, Na = 23)", model: "Equation: HCl + NaOH → NaCl + H₂O; n_a = 1, n_b = 1. Using V_a × M_a / n_a = V_b × M_b / n_b: (23.5 × 0.2) / 1 = (25 × M_b) / 1. M_b = (23.5 × 0.2) / 25 = 4.7 / 25 = 0.188 mol/L. (b) M_r of NaOH = 40. Concentration in g/L = 0.188 × 40 = 7.52 g/L." },
-    ];
-    c.learningOutcomes[3].questions = [
-      { type: "short", marks: 5, prompt: "Describe the experiment to determine the concentration of ethanoic acid (acetic acid) in vinegar using sodium hydroxide. Explain why the vinegar is diluted and why phenolphthalein is used.", model: "Equation: CH₃COOH + NaOH → CH₃COONa + H₂O (weak acid–strong base). Dilution: because vinegar is much more concentrated than the NaOH solution (~0.1 M), a very small volume of NaOH would be needed without dilution — this would give a large percentage error. The vinegar is diluted by a factor of 5: pipette 2 × 25 cm³ samples of vinegar into a 250 cm³ volumetric flask and make up to the mark with deionised water. Indicator: phenolphthalein is used because this is a weak acid–strong base titration. Phenolphthalein is pink in the alkaline NaOH in the conical flask. Procedure: 25 cm³ of standard NaOH solution is pipetted into the conical flask; phenolphthalein added (turns pink); diluted vinegar is titrated from the burette. End point: phenolphthalein changes from pink to colourless. Calculation: calculate the concentration of CH₃COOH in the diluted vinegar (in mol/L and g/L), then multiply by 5 (the dilution factor) to get the concentration in the original vinegar; express as % w/v." },
-    ];
-  })();
-
-  // ── chem13: Acid–Base Volumetric Exam-Style Questions ──
-  (function () {
-    var c = ch('chem13');
-    c.learningOutcomes[0].notes = [
-      { h: "Two Approaches to Volumetric Problems", b: "Volumetric problems can be solved by two methods: (1) First Principles method — start with the basic definition of a 1 M solution, work through each step based on reasoning, arrive at the answer. This approach builds deep understanding but is time-consuming in exams. (2) Formula method — start with the appropriate formula, substitute known values, solve for the unknown. This is faster in exams. Both methods give the same answer; in exams it is essential to show all working regardless of which method you use." },
-      { h: "The Four Key Volumetric Formulas", b: "Formula 1: Number of moles = Mass (g) / Relative Molecular Mass. Use when you know mass and M_r; also gives mass if you know moles and M_r. Formula 2: Number of moles = (volume* × molarity) / 1000 (*volume in cm³). Use to find moles when given volume of a solution and its molarity. Formula 3: (V_a × M_a) / n_a = (V_b × M_b) / n_b. Use to calculate an unknown concentration from titration data (V = volume in cm³, M = molarity, n = moles from balanced equation). Formula 4: Density = Mass / Volume. Use when given density and volume to find mass of a liquid. Relative atomic masses for acid-base problems: H = 1.008, C = 12.01, N = 14.01, O = 16.00, Na = 22.99, Mg = 24.31, S = 32.07, Cl = 35.45." },
-      { h: "Solving a Titration Problem: Step-by-Step Strategy", b: "For a typical exam titration problem (e.g. finding the concentration of ethanoic acid in vinegar): Step 1 — find the molarity of the standard solution used (if given as mass in a volume, use Formula 1 and then Formula 2). Step 2 — find the moles of the known substance in the volume pipetted into the conical flask (Formula 2). Step 3 — use the balanced equation to find the moles of the unknown (use the molar ratio n_a : n_b). Step 4 — find the molarity of the diluted unknown (Formula 2 rearranged). Step 5 — if the solution was diluted before titration, multiply molarity by the dilution factor to get the concentration in the original sample. Step 6 — convert to g/L by multiplying molarity by M_r. Step 7 — convert to % w/v by dividing g/L by 10 (since % w/v = g per 100 cm³)." },
-      { h: "Worked Example: Ethanoic Acid in Vinegar (Formula Method)", b: "CH₃COOH + NaOH → CH₃COONa + H₂O (n_a = n_b = 1). Given: 25 cm³ vinegar diluted to 250 cm³ (dilution factor = 10); 18.75 cm³ diluted vinegar neutralised 25 cm³ NaOH (1.20 g NaOH in 500 cm³). Step 1: M_r NaOH = 22.99 + 16 + 1.008 = 40.00; moles NaOH = 1.20 / 40.00 = 0.03 mol in 500 cm³ → 0.06 M. Step 2: using Formula 3 — (18.75 × M_a) / 1 = (25 × 0.06) / 1 → M_a = 1.5 / 18.75 = 0.08 M (diluted vinegar). Step 3: original vinegar = 0.08 × 10 = 0.8 M. Step 4: g/L = 0.8 × 60.052 = 48.04 g/L (M_r CH₃COOH = 2×12.01 + 2×16 + 4×1.008 = 60.05). Step 5: % w/v = 48.04 / 1000 × 100 = 4.80% w/v." },
-      { h: "Key Exam Tips for Vinegar Titration Questions", b: "(1) When asked why vinegar is diluted before titration: vinegar is much more concentrated than the standard NaOH (~0.1 M), so without dilution only a very small volume of NaOH would be needed — this gives a large percentage error. Diluting the vinegar increases the volume needed, making the percentage error smaller and the result more accurate. (2) Indicator for weak acid–strong base titration: phenolphthalein (not methyl orange). (3) Colour change at end point: phenolphthalein changes from pink to colourless (NOT 'clear' — that is not a colour). Always state two colours: the colour before and the colour after the end point. (4) To dilute accurately: use a pipette to measure the volume, transfer to a volumetric flask, add deionised water until the bottom of the meniscus is level with the graduation mark. (5) Rinsing the pipette: first with deionised water, then with the solution it is to contain — to avoid diluting the vinegar." },
-      { h: "Accuracy vs Precision — Definitions", b: "Accuracy = how close a measurement is to the correct (true or actual) value. Precision = how close a set of repeated measurements are to each other (i.e. the consistency or reproducibility of results). Key distinction: precision is about repeatability; accuracy is about correctness. The two are independent — results can be: (1) High accuracy + high precision: all results close to the true value and close to each other (ideal). (2) High accuracy + low precision: results correct on average but spread out. (3) Low accuracy + high precision: results consistent but consistently wrong. (4) Low accuracy + low precision: results neither correct nor consistent (worst case). Scientists always aim for results that are both accurate and precise." },
-      { h: "Accuracy vs Precision — Comparison", b: "Accuracy: (1) refers to how close individual measurements are to the correct value of the quantity being measured; (2) focuses on the correct value; (3) measurements are clustered around the correct value. Precision: (1) refers to how close the individual measurements are with each other; (2) focuses on the repeatability of measurements; (3) measurements are clustered closely together. Dart board analogy: high accuracy + high precision = all darts in the bullseye and close together. High precision but low accuracy = tight cluster of darts, but in the wrong area of the board." },
-      { h: "Why Accuracy and Precision Matter in Titrations", b: "In titrations, accuracy matters because you are using the volume of one solution to determine the concentration of another — inaccurate volume measurements lead to wrong concentration values. Precision matters because consistency (agreeing titrations within 0.1 cm³) shows that your technique is reliable. Two accurate titrations that agree to within 0.1 cm³ increase confidence in the results. This is also important in industry — e.g. pharmaceutical companies must produce each batch of a drug at exactly the same concentration to ensure consistent quality and safety. Following precise procedures ensures the effectiveness and quality of the drug is maintained from batch to batch." },
-      { h: "Precautions for Accuracy in Volumetric Analysis", b: "Five key precautions: (1) Only use equipment manufactured to a high degree of accuracy: burette, pipette, and volumetric flask (not graduated cylinder or beaker). (2) Take all volume readings at eye level to avoid parallax errors; read where the bottom of the meniscus touches the graduation mark. (3) Rinse glassware correctly: rinse burettes and pipettes first with deionised water, then with the solution they are to contain — failing to rinse with the solution would dilute it and give inaccurate results. (4) Near the end point, add solution drop-by-drop to avoid overshooting the end point. (5) Always use standard solutions (accurately known concentration) when measuring unknown concentrations." },
-      { h: "Common Error: Not Rinsing Burette with Solution", b: "If the burette is rinsed with deionised water but not with the acid solution it is to contain: the remaining water dilutes the acid → the acid solution in the burette is less concentrated than it should be → a larger volume of acid is needed to neutralise the base → an inaccurate (too high) titration figure is obtained → the calculated concentration of the acid is lower than its true value. Effect on accuracy: yes, results are inaccurate. Effect on precision: no effect on precision — all three titration results will still be close to each other (consistently wrong), so precision is maintained. This illustrates why results can be precise but not accurate." },
-    ];
-    c.learningOutcomes[0].keyTerms = [
-      { term: "What is accuracy?", definition: "How close a measurement is to the correct (true or actual) value", section: "13.4" },
-      { term: "What is precision?", definition: "How close a set of repeated measurements are to each other; a measure of consistency or reproducibility", section: "13.4" },
-      { term: "What is the first principles method?", definition: "Solving a volumetric problem by starting from the basic definition of a 1 M solution and working through each logical step without formulas", section: "13.1" },
-      { term: "What is formula method?", definition: "Solving a volumetric problem by substituting known values into the appropriate formula (e.g. V_a × M_a / n_a = V_b × M_b / n_b)", section: "13.2" },
-      { term: "What is parallax error?", definition: "An error in reading a scale (e.g. burette, pipette) caused by viewing the meniscus at an angle rather than at eye level", section: "13.4" },
-    ];
-    c.learningOutcomes[0].questions = [
-      { type: "short", marks: 2, prompt: "Distinguish between accuracy and precision. Give one example of each in the context of volumetric analysis.", model: "Accuracy: how close a measurement is to the correct (true or actual) value. Example: if the correct titration figure is 23.0 cm³ and a student gets 23.1 cm³, the result is accurate. Precision: how close a set of repeated measurements are to each other (consistency). Example: if a student's three titration results are 23.5, 23.6, and 23.7 cm³, the results are precise (close to each other) even though they are not accurate (different from the correct value of 23.0 cm³)." },
-      { type: "short", marks: 3, prompt: "A student washed the burette with deionised water before a titration but forgot to rinse it with the acid solution. Explain how this error affects (a) the accuracy and (b) the precision of the results.", model: "(a) Accuracy: this error affects accuracy. The water remaining in the burette dilutes the acid solution placed in the burette. As a result, the solution is less concentrated than intended, so a larger volume of acid is needed to reach the end point. The titration figure obtained is too large, giving an inaccurate (too low) calculated concentration of the acid. (b) Precision: this error does not affect precision. Although the results are inaccurate, all three titrations will still give similar (close) results — the error is consistent. Therefore, the results are precise (close to each other) but not accurate." },
-      { type: "short", marks: 3, prompt: "State five precautions a student should take to ensure accurate results when performing an acid-base titration.", model: "(1) Only use equipment manufactured to a high degree of accuracy in measuring volumes, such as the burette, pipette, and volumetric flask — not graduated cylinders or beakers. (2) Take all volume readings at eye level to avoid parallax errors; always read where the bottom of the meniscus touches the graduation mark. (3) Rinse glassware correctly: rinse the pipette and burette first with deionised water, then with the solutions they are to contain. (4) As you near the end point, add the solution drop-by-drop from the burette to avoid overshooting and obtain an accurate end point. (5) When measuring unknown concentrations, always use standard solutions — solutions of accurately known concentration." },
-      { type: "short", marks: 2, prompt: "State the four key formulas used in solving volumetric analysis problems.", model: "(1) Number of moles = Mass (g) / Relative Molecular Mass. (2) Number of moles = (volume in cm³ × molarity) / 1000. (3) (V_a × M_a) / n_a = (V_b × M_b) / n_b, where V = volume (cm³), M = molarity (mol/L), n = moles from balanced equation. (4) Density = Mass / Volume." },
-      { type: "short", marks: 6, prompt: "In an experiment, 25 cm³ of a sample of vinegar were diluted to 250 cm³ in a volumetric flask. The diluted solution was titrated against a sodium hydroxide solution prepared by dissolving 1.20 g of NaOH in 500 cm³ of solution. On average, 18.75 cm³ of the diluted vinegar were required to neutralise 25.0 cm³ of the NaOH solution. The equation for the reaction is: CH₃COOH + NaOH → CH₃COONa + H₂O. Calculate the concentration of ethanoic acid in the original vinegar in (a) moles per litre, (b) grams per litre, and (c) % w/v. (H = 1.008, C = 12.01, O = 16.00, Na = 22.99)", model: "Step 1 — find molarity of NaOH: M_r NaOH = 22.99 + 16.00 + 1.008 = 40.00. Moles NaOH = 1.20 / 40.00 = 0.03 mol. 0.03 mol in 500 cm³ → 0.06 mol in 1000 cm³ → [NaOH] = 0.06 M. Step 2 — use Formula 3 (n_a = n_b = 1): (18.75 × M_a) / 1 = (25 × 0.06) / 1 → M_a = (25 × 0.06) / 18.75 = 1.5 / 18.75 = 0.08 M (diluted vinegar). Step 3 — dilution factor = 250 / 25 = 10. Concentration in original vinegar = 0.08 × 10 = (a) 0.80 mol/L. Step 4 — M_r CH₃COOH = (2 × 12.01) + (2 × 16.00) + (4 × 1.008) = 24.02 + 32.00 + 4.032 = 60.05. (b) g/L = 0.80 × 60.05 = 48.04 g/L. Step 5 — (c) % w/v = 48.04 g/L = 4.804 g/100 cm³ = 4.80% w/v." },
-      { type: "short", marks: 4, prompt: "In a titration to determine the concentration of ethanoic acid in vinegar: 10.0 cm³ of the original vinegar was diluted to 50.0 cm³. On average, 12.4 cm³ of the diluted vinegar was required to neutralise 25.0 cm³ of 0.09 M NaOH. (i) Name a suitable indicator and state the colour change at the end point. (ii) Calculate the volume of undiluted vinegar that would be required to neutralise 25.0 cm³ of the NaOH solution. (iii) Calculate the concentration of ethanoic acid in the original vinegar in moles per litre.", model: "(i) Indicator: phenolphthalein. Colour change at end point: from pink to colourless. (ii) Dilution factor = 50 / 10 = 5. Therefore, 12.4 / 5 = 2.48 cm³ of undiluted vinegar would be required to neutralise 25.0 cm³ NaOH. (iii) Using formula 3 (CH₃COOH + NaOH → CH₃COONa + H₂O; n_a = n_b = 1): (12.4 × M_a) / 1 = (25 × 0.09) / 1 → M_a = (25 × 0.09) / 12.4 = 2.25 / 12.4 = 0.1815 M (diluted vinegar). Concentration in original vinegar = 0.1815 × 5 = 0.91 mol/L." },
-      { type: "short", marks: 2, prompt: "Explain why it is necessary to dilute vinegar before carrying out a titration with sodium hydroxide solution.", model: "Vinegar contains a much higher concentration of ethanoic acid than the sodium hydroxide solution used (approximately 0.1 M). If the vinegar was not diluted, only a very small volume (e.g. 2–3 cm³) would be needed to neutralise 25 cm³ of NaOH. Such a small volume gives a very large percentage error, since even a slight misreading of the volume will have a greater impact on the result. Diluting the vinegar increases the volume required in the titration, making the percentage error smaller and the final result more accurate." },
-    ];
+    var REVIEW_QUESTIONS = {
+     "chem1": [
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between a scientific theory and a scientific law.",
+       "model": "A scientific theory is a hypothesis verified by many experiments and widely accepted as the correct explanation for a phenomenon; it explains why/how something occurs and is provisional. A scientific law is a statement deduced from empirical evidence that describes what always happens under certain conditions; it does not explain why. Laws change little once established; theories are always refined as new evidence emerges."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "List the steps of the scientific method in the correct order.",
+       "model": "1. Observation 2. Question 3. Research 4. Hypothesis 5. Prediction 6. Experiment 7. Data Analysis 8. Conclusion 9. Accept or Reject Hypothesis (form new hypothesis if rejected) 10. Report Results."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain why peer review is an important part of science.",
+       "model": "Peer review requires that research is evaluated by independent experts in the same field before publication. It checks that methods are sound, data is correctly interpreted and conclusions are supported by evidence. This process helps to catch errors and fraud, and ensures only reliable and valid findings are published and built upon by the wider scientific community."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Name and explain each letter of the CARDS framework for evaluating sources.",
+       "model": "C — Credibility: Is the source trustworthy and from a reputable organisation or journal with expert authors? A — Accuracy: Are the claims backed by reliable, consistent evidence free from errors? R — Relevance: Is the information directly related to your research question? D — Date: Is it recently published? Science evolves rapidly so older sources may be outdated. S — Sources: Are references and citations provided to back up the claims made?"
+      },
+      {
+       "type": "short",
+       "marks": 6,
+       "prompt": "Which of the following is scientifically investigable: 'Is plastic bad?' or 'How does temperature affect the tensile strength of this polymer?' Justify your choice.",
+       "model": "The second question is investigable because temperature can be varied, tensile strength can be measured quantitatively and other variables can be controlled. 'Is plastic bad?' is value-laden and too broad: plastic type, meaning of harm, affected system and measurable outcome are unspecified."
+      },
+      {
+       "type": "short",
+       "marks": 6,
+       "prompt": "Rewrite the claim 'natural acids are safer than synthetic acids' as a focused question suitable for chemical investigation.",
+       "model": "A suitable question is: 'At equal molar concentration, how do the pH and skin-corrosion proxy of ethanoic acid and hydrochloric acid compare under the same conditions?' It specifies substances, concentration, measurable outcomes and controls. Safety still requires an approved laboratory method rather than testing on skin."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Form a testable hypothesis for the effect of concentration on reaction rate and outline a strategy that could test it.",
+       "model": "Hypothesis: increasing reactant concentration increases initial rate because more particles per unit volume produce more frequent effective collisions. React equal volumes at several known concentrations, measure gas volume or mass change against time, keep temperature and other reactant amounts constant, repeat trials and compare initial gradients."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Compare two strategies for investigating how surface area affects reaction rate and identify which would give stronger evidence.",
+       "model": "One strategy times disappearance of equal masses of different-sized solid; another records gas volume continuously with a gas syringe. Continuous gas data gives a rate curve and reduces subjective endpoint judgement, but both need equal moles, temperature and concentration. Precisely measured particle-size ranges strengthen validity."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between repeatability and reproducibility of an experiment.",
+       "model": "Repeatability: the same scientist repeats the experiment in the same conditions and location and gets the same or very similar result. Reproducibility: other independent scientists reproduce the entire experiment and obtain the same results as the original scientists. Both are required for the scientific community to trust a result."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "A graph contains one anomalous result but otherwise shows a linear trend. Explain how the data should be analysed and how a conclusion should be justified.",
+       "model": "Check units, transcription, apparatus and procedure, repeat the anomalous condition and retain the original value transparently. Use repeats, means, spread and an appropriate best-fit line rather than forcing the line through every point. State the supported relationship, its range and uncertainty without claiming more precision than the data allow."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Distinguish qualitative from quantitative chemical data and explain why a strong conclusion may require both.",
+       "model": "Qualitative data describe observations such as colour change, precipitate or gas, whereas quantitative data use measurements such as mass, pH, temperature or volume. Measurements allow comparison and uncertainty analysis; observations help identify the chemical event and unexpected products. Agreement between both can strengthen interpretation."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "An investigation produced inconsistent titres. Evaluate the method and propose a justified improvement sequence.",
+       "model": "Inspect technique before discarding results: condition the pipette and burette, remove the funnel and air bubble, read the meniscus at eye level, swirl continuously and approach the endpoint dropwise. Carry out a rough titre, then repeat until concordant values are obtained. Use only concordant titres for the mean and report remaining uncertainty."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Explain how skills learned in an acid-base titration could be applied to an unfamiliar redox titration.",
+       "model": "Transfer accurate volumetric technique, rinsing, meniscus reading, repeat-to-concordance and stoichiometric calculation. Then identify the new balanced redox equation, indicator or self-indicating endpoint and relevant safety controls. The general measurement strategy transfers, but chemical assumptions and endpoint conditions must be re-evaluated."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Outline how experimental findings should be communicated so another chemist can evaluate and reproduce the work.",
+       "model": "State the question and hypothesis, list materials with quantities, give a replicable method and safety controls, and identify variables. Present raw and processed data with units, uncertainty, labelled tables or graphs and sample calculations. Link the conclusion to evidence, discuss limitations and cite sources using correct chemical terminology and equations."
+      },
+      {
+       "type": "short",
+       "marks": 6,
+       "prompt": "A student graph has no units, a decorative curve and a title saying only 'Results'. Explain how it should be improved.",
+       "model": "Name both variables and include units on the axes, choose scales that use the plotting area and plot points accurately. Use a best-fit line or curve supported by the data rather than joining points decoratively. Give an informative title identifying the relationship and include uncertainty or error bars where appropriate."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "Assess the contribution of one named scientist to the development of an atomic model and explain why the model later changed.",
+       "model": "Rutherford interpreted alpha-scattering evidence to propose a tiny dense positive nucleus and mostly empty space, overturning Thomson's diffuse positive model. The nuclear model could not explain stable electron arrangements or spectra. Later evidence led to quantised Bohr levels and then orbital models, showing that contribution includes both advance and limitation."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Explain why scientific discoveries are rarely the work of one isolated individual.",
+       "model": "New work relies on earlier theories, instruments, technicians, shared data, funding and independent testing. Publication and peer review allow other scientists to challenge and reproduce claims. Credit should recognise a named contribution while also showing the collaborative and cumulative evidence that made acceptance possible."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "Evaluate one way chemistry has benefited society while also creating a social or environmental problem.",
+       "model": "Synthetic polymers provide sterile medical equipment, durable materials and low-mass transport components, but persistent waste, fossil feedstocks and microplastics create environmental costs. Chemistry also develops recycling and alternative materials. Evaluation must compare full life-cycle benefit, exposure and realistic alternatives rather than labelling the material simply good or bad."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Explain how societal priorities can influence chemical research, using one example.",
+       "model": "Public health, regulation, markets and funding direct research towards urgent needs. Climate targets, for example, increase investment in battery chemistry, catalysts, carbon capture and low-emission fuels. Society shapes which questions receive resources, while chemical evidence informs policy; transparent methods are needed so commercial or political pressure does not distort conclusions."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "Evaluate the media statement 'chemical-free cleaning products are safer for families'.",
+       "model": "All cleaning products and natural substances consist of chemicals, so 'chemical-free' has no scientific meaning. Safety depends on identity, dose, exposure route and use, not whether a substance is natural. Check ingredients, hazard evidence, comparison conditions and commercial interest; the claim needs specific measurable outcomes before it can be tested."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "What evidence would you require before accepting a headline that a household chemical causes disease?",
+       "model": "Look for peer-reviewed studies with appropriate controls, realistic exposure, adequate sample size, dose-response evidence and independent replication. Distinguish association from causation and relative from absolute risk. Consider confounding factors, mechanism, funding and whether the headline accurately represents the population and limitations of the study."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "For the process of evaporation, describe what is observed at the macroscopic level and explain what is happening at the microscopic level.",
+       "model": "Macroscopic: the volume of liquid water decreases over time without being heated to boiling point — the water appears to 'disappear'. Microscopic: at the surface of the liquid, some water molecules have enough kinetic energy to overcome the intermolecular attractions holding them in the liquid phase and escape into the gas phase."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe two limitations of models used in chemistry.",
+       "model": "1. Oversimplification: models leave out details to make them easier to understand, but this means they do not accurately represent the real system — e.g. dot-and-cross diagrams suggest electrons are static fixed points. 2. Assumptions: many models make assumptions that do not hold in reality — e.g. the ideal gas model assumes gas particles have no volume and no intermolecular forces, which breaks down at high pressures or low temperatures."
+      }
+     ],
+     "chem2": [
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain what is meant by the term particulate nature of matter and describe a laboratory experiment that demonstrates it.",
+       "model": "The particulate nature of matter refers to the idea that all substances are made up of tiny, invisible particles. Experiment: place cotton wool soaked in concentrated ammonia at one end of a sealed tube and cotton wool soaked in hydrochloric acid at the other end. A white ring of ammonium chloride forms inside the tube where the particles of ammonia and hydrogen chloride gas meet. This shows that both gases are made up of tiny moving particles (diffusion)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the two main assumptions of Dalton's atomic theory.",
+       "model": "1. All matter is made up of very small particles called atoms. 2. All atoms are indivisible — they cannot be broken down into simpler particles."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe J.J. Thomson's experiment that led to the discovery of the electron.",
+       "model": "Thomson produced a narrow beam of cathode rays and passed it between two parallel metal plates in a vacuum tube. When there was no charge on the plates, the beam passed straight down the tube. When a positive charge was applied to the top plate, the beam was deflected upwards (towards the positive plate). Since unlike charges attract, Thomson concluded that cathode rays consist of negatively charged particles, which he called electrons. Thomson also measured the charge-to-mass ratio of the electron."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe Rutherford's gold foil experiment, including his three observations and what conclusions he drew from each.",
+       "model": "Rutherford bombarded a thin sheet of gold foil with alpha particles from a radioactive source and used a phosphorescent screen to detect them.\nObservations and conclusions:\n1. Most alpha particles passed straight through undeflected → most of the atom is empty space.\n2. Some alpha particles were deflected at large angles → the positive charge and mass are concentrated in a small dense core (nucleus) that repels the positive alpha particles.\n3. A very small number were reflected back along their original paths → some alpha particles collide head-on with the dense positive nucleus."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the two limitations of Rutherford's original nuclear model of the atom.",
+       "model": "1. Since like charges repel, the model could not explain why the nucleus does not fly apart due to the repulsion between the protons in it. 2. Since opposite charges attract, electrons should lose energy and spiral into the nucleus — yet most atoms are stable. The model could not explain why electrons remain in motion around the nucleus."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe how James Chadwick discovered the neutron and explain its importance for the nuclear model of the atom.",
+       "model": "Chadwick (1932) bombarded beryllium with alpha particles. He detected neutral radiation coming from the beryllium — these neutral particles were difficult to detect directly, so he used paraffin wax, which the particles knocked protons out of. He found these particles had the same mass as a proton but no charge, and called them neutrons. The discovery of the neutron completed the nuclear model: neutrons help to 'cement' protons together in the nucleus, explaining why the nucleus does not fly apart due to proton–proton repulsion."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Give the relative charge, relative mass and location for each of the three sub-atomic particles.",
+       "model": "Proton: relative charge +1, relative mass 1, located in the nucleus.\nNeutron: relative charge 0, relative mass 1, located in the nucleus.\nElectron: relative charge −1, relative mass 1/1838, located outside the nucleus (in the electron cloud)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe the nuclear model of the atom as proposed after the discovery of the neutron (updated nuclear model).",
+       "model": "1. Atoms consist of a small, dense positive core called the nucleus; most of the mass of the atom is concentrated there. 2. Positive particles called protons and neutral particles called neutrons are located in the nucleus. 3. The atom is mostly empty space. 4. Electrons are scattered around in the space surrounding the nucleus — this space is called the electron cloud. Limitation: the model cannot explain how electrons stay in motion around the nucleus without spiralling towards it and crashing into it."
+      }
+     ],
+     "chem3": [
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State Heisenberg's Uncertainty Principle and explain how it undermines Bohr's model of the atom.",
+       "model": "Heisenberg's Uncertainty Principle states that it is impossible to measure at the same time both the velocity and the position of an electron. Bohr's model assumes electrons travel in fixed orbits at a precise, constant distance from the nucleus — this implies both the position and velocity of the electron are known precisely. Heisenberg's principle shows this is impossible, so Bohr's model of fixed orbits cannot be correct."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State four limitations of Bohr's model of the atom.",
+       "model": "1. Bohr's theory worked for hydrogen but failed to explain the emission spectra of atoms with more than one electron. 2. Bohr's model did not account for De Broglie's finding that electrons have wave-particle duality — if the electron has a wave motion, it cannot travel in a fixed orbit. 3. Bohr's model is in conflict with Heisenberg's Uncertainty Principle, which states that both the position and velocity of an electron cannot be known simultaneously. 4. Bohr's theory could not explain the splitting of certain spectral lines and did not account for the existence of energy sublevels."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define the term orbital and describe the shapes of s and p orbitals.",
+       "model": "An orbital is a region in space within which there is a high probability (approximately 95%) of finding an electron. s orbitals are spherical in shape; all s orbitals differ only in size (1s < 2s < 3s). p orbitals are dumbbell-shaped. Each p sublevel consists of three dumbbell-shaped orbitals (pₓ, pᵧ, p_z) arranged at right angles to each other along the x, y and z axes. The three p orbitals in a sublevel are of equal energy and differ only in orientation."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between the terms orbit and orbital.",
+       "model": "An orbit (used by Bohr) describes a fixed path in which an electron travels around the nucleus at a certain velocity and a precise, constant distance from the nucleus — both position and velocity are known. An orbital (used in the quantum mechanical model) is a region in space within which there is a high probability of finding an electron; it does not describe a fixed path but a probability distribution. Orbitals arise from Schrödinger's wave equations and are consistent with Heisenberg's Uncertainty Principle."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between a continuous spectrum and a line emission spectrum.",
+       "model": "A continuous spectrum is a spread of all colours from red to violet with no gaps, produced when white light is passed through a prism. A line emission spectrum consists of a series of narrow coloured lines against a dark background, produced when light emitted by excited atoms of an element is passed through a prism. Each element has its own unique line emission spectrum."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain, using Bohr's theory, why the emission spectrum of hydrogen consists of lines rather than a continuous spectrum.",
+       "model": "According to Bohr's theory, electrons can only exist in certain fixed energy levels (quantisation of energy). When an electron falls from a higher energy level to a lower one, it emits a photon of light with a definite frequency (E₂ − E₁ = hf). Since only definite amounts of energy can be emitted, only light of definite frequencies is given off. This produces specific coloured lines rather than a continuous spread of all colours."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Name the series of spectral lines in hydrogen that appear in the visible region, and state which energy level the electrons fall to in this series.",
+       "model": "The Balmer series. Electrons fall to the n = 2 energy level. (The transition from n = 3 to n = 2 gives rise to a red coloured line.)"
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe the flame test experiment and state the colour produced by three different metals.",
+       "model": "Using a damp wooden splint, hold a sample of a metal salt in the blue flame of a Bunsen burner. Repeat with different metal salts. Each metal gives a characteristic colour: Sodium — yellow; Potassium — lilac; Copper — blue-green; Lithium — crimson; Barium — green; Strontium — red. The colours can be used to identify the metal present in an unknown compound. (Any three metals + colours accepted for 4 marks.)"
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "How many sublevels are present in the n=3 main energy level? Name them and state the number of orbitals in each.",
+       "model": "The n=3 main energy level contains 3 sublevels: 3s (1 orbital), 3p (3 orbitals), and 3d (5 orbitals). The number of sublevels in a main energy level is equal to the value of n."
+      }
+     ],
+     "chem4": [
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State Mendeleev's Periodic Law and name two differences between Mendeleev's Periodic Table and the modern Periodic Table.",
+       "model": "Mendeleev's Periodic Law: when elements are arranged in order of increasing atomic weight (relative atomic mass), the properties of the elements are repeated at regular intervals in other elements.\nDifferences (any two): (1) Mendeleev's table arranged by atomic weight; modern table by atomic number. (2) Mendeleev's table had gaps for undiscovered elements; modern table has no gaps. (3) Mendeleev's table had ~60 elements; modern table has over 100. (4) Transition elements are in a separate block in the modern table but were not in Mendeleev's."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe how Henry Moseley's work led to the development of the modern Periodic Table.",
+       "model": "Henry Moseley (1913) used X-rays to study different elements. He found that the frequencies of the X-rays emitted varied with the quantity of positive charge in the nucleus, i.e. the number of protons (atomic number). This allowed him to determine the atomic number of each element. He found that arranging elements by atomic number (rather than atomic weight) removed the need to reverse the order of any elements. The modern Periodic Table is therefore an arrangement of elements in order of increasing atomic number."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define the terms (i) atomic number, (ii) mass number, and (iii) isotopes. Give an example of isotopes.",
+       "model": "(i) Atomic number (Z): the number of protons in the nucleus of an atom. (ii) Mass number (A): the sum of the number of protons and neutrons in the nucleus of an atom. (iii) Isotopes: atoms of the same element (same atomic number) which have different mass numbers due to a different number of neutrons in their nuclei. Example: chlorine has two isotopes, ³⁵Cl (17 protons, 18 neutrons) and ³⁷Cl (17 protons, 20 neutrons)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "How many (i) neutrons and (ii) electrons are in the ion ³⁵Cl⁻?",
+       "model": "(i) Number of neutrons = mass number − atomic number = 35 − 17 = 18 neutrons.\n(ii) Cl⁻ has gained one electron, so number of electrons = 17 + 1 = 18 electrons."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Write the electron configuration (s, p notation) for (i) oxygen, (ii) potassium, (iii) calcium ion (Ca²⁺).",
+       "model": "(i) Oxygen (Z=8): 1s², 2s², 2p⁴.\n(ii) Potassium (Z=19): 1s², 2s², 2p⁶, 3s², 3p⁶, 4s¹.\n(iii) Ca²⁺ (Z=20, lost 2 electrons → 18 electrons): 1s², 2s², 2p⁶, 3s², 3p⁶."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the Aufbau Principle, Hund's Rule of Maximum Multiplicity, and the Pauli Exclusion Principle.",
+       "model": "Aufbau Principle: when building up the electron configuration of an atom in its ground state, electrons occupy the lowest available energy levels first.\nHund's Rule of Maximum Multiplicity: when two or more orbitals of equal energy are available, electrons occupy them singly before filling them in pairs (maximising unpaired electrons).\nPauli Exclusion Principle: no more than two electrons may occupy an orbital and they must have opposite spin."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Write the s, p, d electron configuration for (i) chromium and (ii) copper, and explain why these are exceptions to what would normally be expected.",
+       "model": "(i) Cr (Z=24): expected 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁴. Actual: 1s², 2s², 2p⁶, 3s², 3p⁶, 3d⁵, 4s¹. One 4s electron moves to 3d because sublevels that are exactly half-filled have extra stability — this gives two half-filled sublevels (3d⁵ and 4s¹).\n(ii) Cu (Z=29): expected 1s², 2s², 2p⁶, 3s², 3p⁶, 4s², 3d⁹. Actual: 1s², 2s², 2p⁶, 3s², 3p⁶, 3d¹⁰, 4s¹. One 4s electron moves to 3d because a completely filled 3d sublevel has extra stability."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "What do the ions O²⁻, F⁻, Na⁺ and Mg²⁺ have in common? Write their common electron configuration.",
+       "model": "All four ions are isoelectronic — they each have 10 electrons and therefore the same electron configuration: 1s², 2s², 2p⁶. Although they have the same number of electrons, they have different numbers of protons and therefore different nuclear charges, which affects their ionic radii."
+      }
+     ],
+     "chem5": [
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State the Octet Rule and give one exception to it.",
+       "model": "Octet Rule: when bonding occurs, atoms tend to reach an electron arrangement with eight electrons in the outermost energy level. Exception (any one): transition metals do not usually obey the octet rule — they can have more or fewer than eight electrons in their outermost energy level. Also, helium and elements near helium (H, Li, Be) tend to achieve an arrangement of two outer electrons rather than eight."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain, using an example, the difference between ionic bonding and covalent bonding.",
+       "model": "Ionic bonding involves the complete transfer of electrons from one atom to another, forming oppositely charged ions. The ionic bond is the force of attraction between these ions. Example: in NaCl, sodium loses one electron to chlorine → Na⁺ and Cl⁻ attract each other. Covalent bonding involves the sharing of electron pairs between atoms. No ions are formed. Example: in Cl₂, each chlorine atom shares one electron with the other to form a shared pair — a covalent bond."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between a sigma bond and a pi bond. Give two differences.",
+       "model": "1. A sigma bond is formed by the head-on overlap of two orbitals; a pi bond is formed by the sideways overlap of p orbitals. 2. Sigma bonds involve more orbital overlap and are therefore stronger; pi bonds involve less overlap and are weaker. 3. All single covalent bonds are sigma bonds; pi bonds are only found in double and triple bonds. 4. A sigma bond can involve any orbital type (s, p, d); a pi bond only involves p (or d) orbitals."
+      },
+      {
+       "type": "short",
+       "marks": 6,
+       "prompt": "Use the octet rule to predict the formula of the compound formed between magnesium and nitrogen, and draw a Lewis (dot-and-cross) diagram for it. State one limitation of the octet rule in predicting bonding.",
+       "model": "Magnesium (2, 8, 2) loses two electrons to form Mg²⁺; nitrogen (2, 5) gains three electrons to form N³⁻. Both ions then have the stable neon configuration (2, 8). Charges must balance: 3 × (+2) = +6 and 2 × (−3) = −6, so the formula is Mg₃N₂. Lewis diagram: three [Mg]²⁺ ions with no outer electrons shown and two [N]³⁻ ions each with eight outer electrons (five dots and three crosses) in square brackets. Limitation (any one): some molecules are stable with fewer than eight outer electrons on the central atom (e.g. BF₃) or with more than eight (e.g. PCl₅ or SF₆); the rule says nothing about the shape of the molecule or whether the bonding is ionic or covalent."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe the laboratory test for the chloride ion in aqueous solution, including the confirmatory test.",
+       "model": "1. Dissolve the chloride salt in deionised water. 2. Add a few drops of silver nitrate (AgNO₃) solution. 3. Observation: clear solution turns cloudy; a white precipitate of silver chloride forms. Equation: Ag⁺ + Cl⁻ → AgCl↓. 4. Confirmatory test: add dilute ammonia solution to the cloudy solution. The cloudiness disappears — silver chloride dissolves in dilute ammonia. Conclusion: chloride ions are present."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe how you would detect sulfate ions in aqueous solution and how you would distinguish them from sulfite ions.",
+       "model": "To detect: dissolve the salt in deionised water. Add a few drops of barium chloride solution. A white precipitate forms for both sulfate (BaSO₄) and sulfite (BaSO₃). Ba²⁺ + SO₄²⁻ → BaSO₄↓; Ba²⁺ + SO₃²⁻ → BaSO₃↓.\nTo distinguish: add dilute hydrochloric acid to each white precipitate. The sulfate precipitate (BaSO₄) remains (insoluble in dilute HCl). The sulfite precipitate (BaSO₃) dissolves: SO₃²⁻ + 2H⁺ → SO₂ + H₂O."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe the Brown Ring test for the nitrate ion.",
+       "model": "1. Dissolve the nitrate salt in deionised water. 2. Add freshly prepared iron(II) sulfate (FeSO₄) solution. 3. Using a dropper, carefully add concentrated sulfuric acid (H₂SO₄) down the inside wall of the test-tube — it forms a layer at the bottom due to its density. 4. Observation: a brown ring forms at the junction of the two liquid layers. 5. The brown ring is due to the formation of the substance FeSO₄·NO. Conclusion: nitrate ions are present. Note: concentrated H₂SO₄ must be used — dilute H₂SO₄ does not work."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "How would you test for the presence of carbonate ions in a solid sample and confirm your result?",
+       "model": "1. Add dilute hydrochloric acid to the solid. 2. Observation: brisk effervescence (fizzing) is observed; a gas is given off. 3. Pass the gas through limewater. 4. The limewater turns milky (cloudy). This confirms the gas is carbon dioxide, produced by: CO₃²⁻ + 2H⁺ → CO₂ + H₂O; Ca(OH)₂ + CO₂ → CaCO₃↓ + H₂O. Conclusion: carbonate ions are present."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the VSEPR theory and use it to predict the shapes of (i) methane and (ii) ammonia.",
+       "model": "VSEPR Theory: the shape of a molecule depends on the number of pairs of electrons around the central atom. Since electron pairs are negatively charged, they repel each other and arrange themselves to be as far apart as possible.\n(i) Methane (CH₄): carbon has 4 bond pairs and 0 lone pairs. Four pairs as far apart as possible → tetrahedral shape; bond angle = 109.5°.\n(ii) Ammonia (NH₃): nitrogen has 4 pairs total (3 bond pairs + 1 lone pair). The lone pair exerts greater repulsion than a bond pair, reducing the bond angle from 109.5° to about 107°. Shape = pyramidal."
+      }
+     ],
+     "chem6": [
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define electronegativity and explain how it leads to the formation of a polar covalent bond.",
+       "model": "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. In a polar covalent bond, the two atoms have different electronegativity values — the more electronegative atom attracts the shared electron pair more strongly. This results in an unequal sharing: the more electronegative atom carries a partial negative charge (δ−) and the less electronegative atom carries a partial positive charge (δ+)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Distinguish between a pure covalent bond and a polar covalent bond. Give one example of each.",
+       "model": "A pure covalent bond involves equal sharing of the electron pair between two atoms with the same or very similar electronegativity values (E.N. difference ≈ 0), e.g. H−H or Cl−Cl. A polar covalent bond involves unequal sharing of the electron pair — the more electronegative atom attracts the pair more strongly, creating partial charges (δ+ and δ−), e.g. H−Cl or H−F."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Use electronegativity differences to predict the type of bonding in (i) NaCl and (ii) CH₄.",
+       "model": "(i) NaCl: Na electronegativity = 0.93; Cl = 3.16. E.N. difference = 3.16 − 0.93 = 2.23 > 1.7 → ionic bonding.\n(ii) CH₄: C electronegativity = 2.55; H = 2.20. E.N. difference = 2.55 − 2.20 = 0.35 ≤ 0.4 → pure (non-polar) covalent bonding."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Compare the physical properties (state at room temperature, melting/boiling point, electrical conductivity, solubility in water) of ionic and covalent compounds.",
+       "model": "State: ionic compounds are usually solids at room temperature (strong ionic bonds require much energy to break); most covalent compounds are liquids or gases (only weak intermolecular forces).\nM.p./B.p.: ionic have high m.p. and b.p. (e.g. NaCl m.p. = 801°C); covalent have low m.p. and b.p. (e.g. I₂ m.p. = 114°C).\nElectrical conductivity: ionic conduct when molten or dissolved in water (ions free to move); covalent do not usually conduct (no ions).\nSolubility: ionic are usually soluble in water (ion-dipole forces); polar covalent compounds are usually soluble; non-polar covalent compounds are usually insoluble in water ('like dissolves like')."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain how London dispersion forces arise and describe how molecular size affects their strength.",
+       "model": "London dispersion forces arise because electrons are in constant motion within molecules. At any given instant, the electrons may be unevenly distributed, creating a temporary (instantaneous) dipole (δ+ on one side, δ− on the other). This temporary dipole can induce a dipole in a neighbouring molecule, leading to an attractive force between opposite charges — a London dispersion force.\n\nStrength increases with molecular size: larger molecules have more electrons and larger electron clouds. This gives them greater polarisability — temporary dipoles form more easily and are stronger. Therefore London dispersion forces increase in strength as molecular mass increases (e.g. F₂ < Cl₂ < Br₂ < I₂)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define hydrogen bonding and state the three elements that hydrogen must be bonded to for hydrogen bonding to occur. Explain why H₂O has a higher boiling point than H₂S.",
+       "model": "Hydrogen bonds are a particular type of dipole-dipole attraction between molecules in which hydrogen atoms bonded to N, O or F are attracted to a lone pair on a N, O or F atom in a neighbouring molecule. Hydrogen must be bonded to nitrogen, oxygen or fluorine (the three most electronegative elements — remember NOF).\n\nH₂O (b.p. = 100°C) has a much higher boiling point than H₂S (b.p. = -60°C) because hydrogen bonding exists in H₂O. Oxygen is electronegative enough to form hydrogen bonds with the H atoms; sulfur is not (smaller electronegativity difference between S and H). The hydrogen bonds between water molecules are much stronger than the dipole-dipole forces between H₂S molecules. Therefore more energy is required to separate H₂O molecules → higher boiling point."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Explain why water has a higher boiling point than hydrogen fluoride (HF), even though F is more electronegative than O.",
+       "model": "Although fluorine is more electronegative than oxygen (so individual H bonds in HF are stronger), each water molecule can form TWICE as many hydrogen bonds as each HF molecule. This is because each O atom has two O−H bonds and two lone pairs, whereas each HF molecule has only one H−F bond. Therefore, overall, more energy is required to break the hydrogen bonds between water molecules than between HF molecules, giving water the higher boiling point."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain why carbon dioxide (CO₂) has two polar bonds but is a non-polar molecule overall.",
+       "model": "The C=O bond is polar covalent because oxygen is more electronegative than carbon, so each oxygen carries a δ− charge and the carbon carries a δ+ charge. However, the CO₂ molecule is linear (bond angle = 180°). Because the molecule is symmetrical, the two C=O bond dipoles point in exactly opposite directions and cancel each other out. The centres of the partial positive and partial negative charges coincide — they are not separated by a distance. Therefore, there is an even distribution of charge overall and CO₂ is a non-polar molecule."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Explain what an ion-dipole force is and how it accounts for the solubility of NaCl in water.",
+       "model": "An ion-dipole force is the force of attraction between an ion and a polar molecule. When NaCl is placed in water, the polar water molecules are attracted to the Na⁺ and Cl⁻ ions. The negative end (O atom) of water is attracted to Na⁺; the positive end (H atoms) is attracted to Cl⁻. These ion-dipole forces overcome the ionic bonding between the ions in the crystal lattice, pulling the ions away from the lattice and surrounding them with water molecules. The ions are said to dissolve."
+      }
+     ],
+     "chem7": [
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Describe the properties of the halogens (Group 17) and explain why their reactivity increases up the group.",
+       "model": "Properties of halogens: highly electronegative non-metals; very reactive; do not exist free in nature; poor conductors of electricity. States: F₂ is a colourless gas, Cl₂ is a pale green/yellow gas, Br₂ is a dark red volatile liquid, I₂ is a purple solid (sublimes on heating). Reactivity increases up Group 17 for two reasons: 1. Atomic radius decreases going up the group — the outermost electrons are closer to the nucleus and held more tightly. 2. Screening effect decreases going up — fewer inner energy levels. These two factors increase the electronegativity going up the group, so the halogen has a greater ability to attract electrons from other atoms, making it more reactive. Fluorine at the top is the most electronegative and most reactive halogen."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe what is observed when chlorine gas is bubbled through a solution containing bromide ions. Write a balanced equation for the reaction and explain why it occurs.",
+       "model": "Observation: the colourless solution turns red/orange (red-brown), indicating the formation of bromine. Equation: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Explanation: chlorine is more electronegative than bromine (E.N. of Cl = 3.16 vs Br = 2.96). Because of its greater electronegativity, chlorine has a greater attraction for electrons and removes them from the bromide ions in solution, converting them to bromine molecules. This is a halogen displacement reaction — the more reactive halogen (chlorine) displaces the less reactive halogen (bromine) from a solution of its ions."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State four properties of the alkali metals and give two reasons why their reactivity increases down Group 1.",
+       "model": "Properties of alkali metals: (1) shiny, silvery solids; (2) stored under oil to prevent reaction with air and moisture; (3) low first ionisation energies — readily lose their single outer electron to form +1 ions; (4) not found free in nature; reactivity increases down the group. Why reactivity increases down Group 1: 1. Atomic radius increases — the outer electron is further from the nucleus and less strongly attracted, so it is easier to remove. 2. Screening effect increases — more inner energy levels shield the outer electron from the nucleus, further reducing the attractive force. Both factors cause the first ionisation energy to decrease down the group, making it progressively easier to lose the outer electron and increasing reactivity."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Outline the trends in electronegativity in the Periodic Table and explain the reasons for the trend down a group.",
+       "model": "Electronegativity decreases down the groups and increases along the periods. Down a group, two reasons explain the decrease: 1. Increasing atomic radius — as atomic radius increases down a group, the shared pair of electrons in the covalent bond is further from the nucleus, so the attractive force on the shared pair decreases and electronegativity decreases. 2. Screening effect of inner electrons — the increasing number of inner energy levels screens the nucleus from the shared pair of electrons, reducing the attractive force and decreasing the electronegativity."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define atomic radius (covalent radius) and state the general trends in atomic radius across a period and down a group in the Periodic Table.",
+       "model": "The atomic radius (covalent radius) of an atom is defined as half the distance between the nuclei of two atoms of the same element that are joined together by a single covalent bond (i.e. half the bond length). General trends: atomic radius decreases from left to right across a period (due to increasing effective nuclear charge with no increase in screening). Atomic radius increases down a group (due to the addition of new energy levels and the screening effect of inner electrons)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Give two reasons why atomic radius increases down a group in the Periodic Table.",
+       "model": "1. New energy level: as you move down a group, electrons are added to new, higher energy levels (orbitals) that are further from the nucleus, increasing the atomic radius. 2. Screening effect: the inner electrons in lower energy levels shield (screen) the outer electrons from the attractive force of the nucleus. Although nuclear charge increases going down a group, the increase is counteracted by the greater screening effect of the additional inner energy levels, so the outer electrons are not pulled in and atomic radius increases."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Give two reasons why atomic radius decreases across a period in the Periodic Table.",
+       "model": "1. Increasing effective nuclear charge: as you move from left to right across a period, the number of protons increases. There is no corresponding increase in screening (all new electrons enter the same outer energy level). Therefore the effective nuclear charge increases, pulling outer electrons closer to the nucleus and decreasing atomic radius. 2. No increase in the screening effect: since there is no increase in the number of inner energy levels across a period, there is no additional shielding to counteract the increasing nuclear charge, so the outer electrons are pulled progressively closer."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define first ionisation energy and write an equation to represent the first ionisation energy of potassium.",
+       "model": "The first ionisation energy of an atom is the minimum energy required to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state. Equation: K(g) → K⁺(g) + e⁻. (Units: kJ mol⁻¹; the state symbol (g) is essential.)"
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "In period 2, beryllium (Be) has a higher first ionisation energy than boron (B), and nitrogen (N) has a higher first ionisation energy than oxygen (O). Explain these observations.",
+       "model": "Beryllium (Be = 1s², 2s²) has a higher IE than boron (B = 1s², 2s², 2p¹) because beryllium has a completely filled 2s sublevel. A completely filled sublevel has extra stability, so more energy is required to remove an electron from it than from the singly-occupied 2p sublevel of boron. Nitrogen (N = 1s², 2s², 2p³) has a higher IE than oxygen (O = 1s², 2s², 2p⁴) because nitrogen has an exactly half-filled 2p sublevel. A half-filled sublevel has extra stability, so more energy is required to remove an electron from it than from oxygen's 2p⁴ configuration (where one orbital is doubly occupied and gives an easier-to-remove electron)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "The successive ionisation energies (kJ mol⁻¹) of an element are: 1st = 496; 2nd = 4563; 3rd = 6913. Identify the group of this element in the Periodic Table and explain your reasoning.",
+       "model": "The element is in Group 1. There is a very large increase in ionisation energy between the 1st IE (496 kJ mol⁻¹) and the 2nd IE (4563 kJ mol⁻¹). This large jump indicates that the second electron is being removed from a different, closer (lower) energy level than the first electron. This means the first electron was in an outer energy level on its own — consistent with a Group 1 element that has one electron in its outermost energy level. The relatively small increase from 2nd to 3rd IE confirms that both the 2nd and 3rd electrons come from the same inner energy level."
+      }
+     ],
+     "chem8": [
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define the term mole and state the value of the Avogadro constant.",
+       "model": "The mole is the SI unit of amount of substance. One mole of a substance contains 6.02 × 10²³ elementary entities of the substance. The Avogadro constant, Nₐ, has a value of 6.02 × 10²³ mol⁻¹."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain, using relative atomic masses, why one mole of magnesium has a mass of 24 g and one mole of carbon has a mass of 12 g, and why both samples contain the same number of atoms.",
+       "model": "From the Periodic Table, the relative atomic mass of Mg is 24 and the relative atomic mass of C is 12. This means one Mg atom is twice as heavy as one C atom. Therefore, in any sample where Mg and C are present in the mass ratio 2:1, both elements contain the same number of atoms. When we weigh out 24 g of Mg and 12 g of C (the same ratio as their relative atomic masses), both samples must contain the same number of atoms. This number is 6.02 × 10²³ — one mole."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Calculate the relative molecular mass of sulfuric acid, H₂SO₄.",
+       "model": "H₂SO₄: 2 H = 2 × 1.008 = 2.016; 1 S = 1 × 32.07 = 32.07; 4 O = 4 × 16.00 = 64.00. Relative molecular mass = 2.016 + 32.07 + 64.00 = 98.086."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Calculate the relative molecular mass of hydrated copper(II) sulfate, CuSO₄·5H₂O.",
+       "model": "CuSO₄·5H₂O: Cu = 63.5; S = 32.07; 4 O = 4 × 16.00 = 64.00; 5 H₂O = 5 × 18.016 = 90.08. Relative molecular mass = 63.5 + 32.07 + 64.00 + 90.08 = 249.65."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Calculate the mass of 2.5 moles of water, H₂O.",
+       "model": "Mr of H₂O: 2 H = 2 × 1.008 = 2.016; 1 O = 16.00. Mr = 18.016. Mass = Number of moles × Mr = 2.5 × 18.016 = 45.04 g."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Calculate the number of moles in 49 g of sulfuric acid, H₂SO₄.",
+       "model": "Mr of H₂SO₄ = 98.086 (2 × 1.008 + 32.07 + 4 × 16.00). Number of moles = mass / Mr = 49 / 98.086 = 0.4996 ≈ 0.5 mol."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Calculate the number of molecules in 44 g of carbon dioxide, CO₂.",
+       "model": "Step 1 — calculate Mr of CO₂: 1 C = 12.01; 2 O = 32.00. Mr = 44.01. Step 2 — calculate moles: n = 44 / 44.01 = 0.9998 ≈ 1.0 mol. Step 3 — calculate number of molecules: 1.0 × 6.02 × 10²³ = 6.02 × 10²³ molecules."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "How many atoms of aluminium are present in 9 × 10²² atoms of aluminium? Express your answer in moles.",
+       "model": "Number of moles = number of atoms / Avogadro constant = 9 × 10²² / 6.02 × 10²³ = 0.15 mol."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "What is the mass (in grams) of 3 × 10²² molecules of ethanol, C₂H₅OH?",
+       "model": "Step 1 — calculate Mr of C₂H₅OH: 2 C = 2 × 12.01 = 24.02; 5 H = 5 × 1.008 = 5.04; 1 O = 16.00; 1 H = 1.008. Mr = 46.068. Step 2 — calculate moles: n = 3 × 10²² / 6.02 × 10²³ = 0.04983 mol. Step 3 — calculate mass: mass = n × Mr = 0.04983 × 46.068 = 2.296 g."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Calculate the number of atoms in 28.75 g of sodium.",
+       "model": "Step 1 — calculate moles of Na: Ar of Na = 22.99; n = 28.75 / 22.99 = 1.2505 mol. Step 2 — calculate number of atoms: 1.2505 × 6.02 × 10²³ = 7.528 × 10²³ atoms."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define relative atomic mass and calculate the relative atomic mass of chlorine, which is 75% chlorine-35 and 25% chlorine-37.",
+       "model": "Relative atomic mass is the average of the mass numbers of the isotopes of an element, as they occur naturally, taking their abundances into account, expressed on a scale where carbon-12 = exactly 12 units. Multiply each mass number by its percentage abundance, add the products and divide by 100: relative atomic mass = (75×35 + 25×37)/100 = 35.5."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State Avogadro's Law and use it to explain Gay-Lussac's Law of Combining Volumes. What volume does one mole of any gas occupy at s.t.p.?",
+       "model": "Avogadro's Law states: equal volumes of gases contain equal numbers of molecules under the same conditions of temperature and pressure. This explains Gay-Lussac's Law: the ratio of volumes equals the ratio of molecules. For H₂ + Cl₂ → 2HCl: if 1 volume H₂ contains n molecules and 1 volume Cl₂ contains n molecules, then they produce 2n molecules of HCl → 2 volumes of HCl. The molecule ratio from the equation directly gives the volume ratio. At s.t.p., one mole of any gas occupies 22.4 litres (the molar volume)."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Describe the key steps in the experiment to measure the relative molecular mass of a volatile liquid using a conical flask.",
+       "model": "A volatile liquid is one with a low boiling point. Key steps: (1) Weigh a clean, dry conical flask with rubber band and aluminium foil cap (with a tiny pinhole). Pour ~10 cm³ of the volatile liquid into the flask. Clamp in boiling water until all the liquid vaporises — the vapour fills the flask and excess escapes through the pinhole. Record temperature (boiling water temperature) and atmospheric pressure. (2) Remove flask; allow to cool — vapour condenses to a liquid. Dry the outside; reweigh. Mass of condensed liquid = (mass after) − (initial mass of empty flask). (3) Find the volume of the flask by filling completely with water and measuring in a graduated cylinder. (4) Calculate: n = pV/RT (using the Ideal Gas Equation); Mr = mass of condensed liquid / n."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "Describe how to prepare 250.0 cm³ of 0.100 mol dm⁻³ sodium carbonate solution from a pure solid.",
+       "model": "Calculate the required moles using n = cV, then mass using m = nMr. Accurately weigh the solid, dissolve it completely in deionised water, transfer quantitatively to a 250.0 cm³ volumetric flask and rinse all vessels into it. Make to the mark at eye level, stopper and invert repeatedly to mix."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Explain why a primary standard must be pure, stable and accurately weighable.",
+       "model": "Its weighed mass must correspond reliably to a known number of moles. High purity avoids unknown reacting material, stability and low hygroscopicity prevent composition changing during storage or weighing, and a reasonably high molar mass reduces percentage weighing uncertainty. Complete predictable reaction is also required."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Convert 5.85 g dm⁻³ sodium chloride to mol dm⁻³ and then to mmol dm⁻³. Use Mr(NaCl) = 58.5.",
+       "model": "Molar concentration is mass concentration divided by molar mass: 5.85 divided by 58.5 equals 0.100 mol dm⁻³. Multiplying by 1000 gives 100 mmol dm⁻³. Units must be converted explicitly; the numerical factor between mol dm⁻³ and mmol dm⁻³ is 1000."
+      }
+     ],
+     "chem9": [
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define Brownian motion and explain how it provides evidence for the Kinetic Theory of Matter.",
+       "model": "Brownian motion is the random, irregular, zig-zag, continuous movement of tiny particles (such as pollen grains or smoke particles) suspended in a liquid or gas. The movement results from the collisions of these tiny particles with the molecules of the liquid or gas. Evidence for KTM: the random movement of the pollen grains (visible particles) can only be explained if the smaller, invisible water molecules are in continuous, random motion, constantly bombarding the pollen from all sides. The random nature of the collisions causes the random, unpredictable movement. This directly supports the KTM assumption that all particles are in constant motion."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe an experiment to demonstrate diffusion of gases. What is observed and how does the result provide evidence for the Kinetic Theory of Matter?",
+       "model": "Experiment: place cotton wool soaked in concentrated ammonia at one end of a dry glass tube, and cotton wool soaked in concentrated hydrochloric acid at the other end. Seal both ends. Observation: after a short time, a white ring of solid ammonium chloride (NH₄Cl) forms inside the tube, closer to the HCl end. Equation: NH₃(g) + HCl(g) → NH₄Cl(s). Explanation: both gases diffuse (move from high to low concentration) from their respective ends towards the middle. NH₃ molecules (Mr = 17) are lighter than HCl molecules (Mr = 36.5) and diffuse faster, so the ring forms closer to the HCl end. Evidence for KTM: this result demonstrates that gas molecules are in constant motion, spontaneously spreading out to occupy the available space — consistent with the KTM assumption that particles are always in motion."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the Kinetic Theory of Matter and explain how it accounts for the arrangement of particles in a solid, liquid, and gas.",
+       "model": "The Kinetic Theory of Matter states that all matter is made up of tiny particles (atoms or molecules) that are in constant random motion, and that temperature affects the speed of this motion. In solids: particles are packed closely together in fixed positions; they vibrate about fixed positions but do not move freely; strong forces hold them together → definite shape and volume. In liquids: particles are close together but not in fixed positions; they slide over each other; forces weaker than in solids → definite volume, no fixed shape. In gases: particles are far apart and continuously moving very fast in random directions; very weak forces between particles → no fixed shape or volume; gas fills its container."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "A mixture contains iron filings, sand and dissolved sodium chloride. Justify a sequence that separates all three components.",
+       "model": "Remove iron with a magnet because it is magnetic. Add water if needed and filter: insoluble sand remains as residue while sodium chloride passes in solution. Wash and dry the sand. Evaporate some water and cool to crystallise sodium chloride, then filter and dry the crystals; simple evaporation to dryness risks impurity or spitting."
+      },
+      {
+       "type": "short",
+       "marks": 8,
+       "prompt": "Choose between filtration, distillation and chromatography for three different separation problems and justify each choice.",
+       "model": "Use filtration for an insoluble solid in a liquid because particle size prevents passage. Use distillation to recover a solvent or separate liquids with different boiling behaviour. Use chromatography for small amounts of soluble components whose different attractions to stationary and mobile phases cause different movement."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Give two reasons why real gases deviate from ideal gas behaviour, and state under what conditions of temperature and pressure real gases come closest to ideal behaviour.",
+       "model": "Two reasons real gases deviate from ideal behaviour: (1) Real gases have small but significant attractive or repulsive intermolecular forces between molecules, contrary to the assumption of no intermolecular forces. Polar gases (e.g. NH₃, HCl, H₂O) have particularly strong forces (hydrogen bonds or dipole-dipole forces). (2) The volume of the molecules of a real gas is small but not negligible, especially at high pressures when molecules are forced close together. Real gases come closest to ideal behaviour at: high temperature (molecules move rapidly, so intermolecular forces have little effect) and low pressure (molecules are far apart, so molecular volume is negligible compared to the total volume)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State Boyle's Law and write an equation to express it mathematically.",
+       "model": "Boyle's Law states: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. Mathematical expression: V ∝ 1/p (at constant temperature), or equivalently pV = k (constant), or p₁V₁ = p₂V₂."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "A sample of nitrogen gas has a volume of 75 cm³ at 27 °C and a pressure of 95 kPa. Find the volume it would occupy at s.t.p. (273 K, 100 kPa).",
+       "model": "Use the Combined Gas Law: p₁V₁/T₁ = p₂V₂/T₂. Given: p₁ = 95 kPa, V₁ = 75 cm³, T₁ = 27°C + 273 = 300 K; p₂ = 100 kPa, T₂ = 273 K. V₂ = (p₁V₁T₂)/(T₁p₂) = (95 × 75 × 273)/(300 × 100) = 1 944 375 / 30 000 = 64.84 cm³."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State Gay-Lussac's Law of Combining Volumes and give one example of a reaction that illustrates this law.",
+       "model": "Gay-Lussac's Law of Combining Volumes states: in a reaction between gases, the volumes of the reacting gases and the volumes of any gaseous products are in the ratio of small whole numbers, provided the volumes are measured at the same temperature and pressure. Example: H₂(g) + Cl₂(g) → 2HCl(g) — the volumes are in the ratio 1:1:2."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Write the Ideal Gas Equation, identify all variables and their units, and state the value of the Universal Gas Constant R.",
+       "model": "The Ideal Gas Equation is: pV = nRT, where: p = pressure in pascals (Pa); V = volume in cubic metres (m³); n = number of moles; R = Universal Gas Constant = 8.31 J mol⁻¹ K⁻¹; T = temperature in Kelvin (K). The equation is also called the Equation of State for an Ideal Gas. Unit conversions to remember: pressure in kPa → multiply by 10³ to get Pa; volume in litres → divide by 10³ to get m³; volume in cm³ → divide by 10⁶ to get m³."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Calculate the volume occupied by 10 g of oxygen gas, O₂, at 25 °C and 200 kPa. [R = 8.31 J mol⁻¹ K⁻¹]",
+       "model": "Step 1 — calculate n: Mr of O₂ = 32; n = 10/32 = 0.3125 mol. Step 2 — convert units: p = 200 kPa = 200 × 10³ Pa = 2 × 10⁵ Pa; T = 25°C + 273 = 298 K. Step 3 — apply pV = nRT: V = nRT/p = (0.3125 × 8.31 × 298)/(2 × 10⁵) = (774.18)/(200 000) = 3.87 × 10⁻³ m³ = 3.87 L ≈ 3.8 L."
+      }
+     ],
+     "chem10": [
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Distinguish between a physical change and a chemical change. Give one example of each.",
+       "model": "A physical change is a change that does not result in the formation of any new substance; only the physical appearance or state of the substance changes. Example: melting of ice (H₂O solid → H₂O liquid — same substance, different state). A chemical change is a change that results in the formation of one or more new substances. It is usually accompanied by an energy change (heat, light, or sound) and is difficult to reverse. Example: burning of magnesium in air (Mg + O₂ → MgO — a new substance, magnesium oxide, is formed)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State the Law of Conservation of Mass and explain what it means at the atomic level.",
+       "model": "The Law of Conservation of Mass states that when a chemical reaction occurs, the total mass of the reactants is always equal to the total mass of the products. At the atomic level, this means that atoms cannot be created or destroyed during a chemical reaction — the atoms present in the reactants are simply rearranged to form the products. The number of atoms of each element is the same before and after the reaction, so the total mass remains unchanged."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe an experiment to verify the Law of Conservation of Mass. Include the precaution that must be taken and explain why.",
+       "model": "Experiment: prepare two solutions — silver nitrate (AgNO₃) and sodium chloride (NaCl) — in separate containers connected so they can be mixed without opening. Weigh the entire closed system before reaction. Mix the solutions — a white precipitate of silver chloride (AgCl) forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s)↓. Weigh the system again after the reaction. Observation: the total mass is the same before and after the reaction. Precaution: the experiment must be carried out in a CLOSED SYSTEM (sealed container). This is necessary because if the container were open, gases could escape or air could enter the system during the reaction, making it appear that mass has been gained or lost, giving false results."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Balance the following equation: CH₄ + O₂ → CO₂ + H₂O. Show your reasoning.",
+       "model": "Step 1: Count atoms — LHS: 1 C, 4 H, 2 O; RHS: 1 C, 2 H, 3 O. The equation is not balanced. Step 2: To get 4 H on the right, put a 2 before H₂O: CH₄ + O₂ → CO₂ + 2H₂O. Now count: LHS: 1 C, 4 H, 2 O; RHS: 1 C, 4 H, 4 O. H is now balanced but O is not. Step 3: To get 4 O on the left, put a 2 before O₂: CH₄ + 2O₂ → CO₂ + 2H₂O. Final check: LHS: 1 C, 4 H, 4 O; RHS: 1 C, 4 H, 4 O. The equation is now balanced."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "What is meant by the term stoichiometry? Interpret the equation 2H₂ + O₂ → 2H₂O in terms of moles and grams.",
+       "model": "Stoichiometry is the branch of chemistry that tells us the relationship between the amounts of reactants and products in a balanced chemical equation. Interpreting 2H₂ + O₂ → 2H₂O: in terms of moles — 2 moles of H₂ react with 1 mole of O₂ to produce 2 moles of H₂O. In terms of grams — 4 g of H₂ (2 × 2 g mol⁻¹) react with 32 g of O₂ (1 × 32 g mol⁻¹) to produce 36 g of H₂O (2 × 18 g mol⁻¹). Note: 4 + 32 = 36, consistent with the Law of Conservation of Mass."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Calculate the percentage by mass of nitrogen in ammonium nitrate, NH₄NO₃. (H = 1, N = 14, O = 16)",
+       "model": "Step 1: Calculate Mr of NH₄NO₃: 2 N = 2 × 14 = 28; 4 H = 4 × 1 = 4; 3 O = 3 × 16 = 48. Mr = 28 + 4 + 48 = 80. Step 2: Percentage of N = (mass of N / Mr) × 100 = (28/80) × 100 = 35%. Answer: 35% nitrogen by mass."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between molecular formula and empirical formula. Give one example of a compound where they differ.",
+       "model": "The molecular formula of a compound shows the actual number and type of each atom present in one molecule of the compound. The empirical formula shows the simplest whole-number ratio of the different atoms present in the molecule. They are related by: Molecular formula = Empirical formula × n (where n is a whole number). Example where they differ: hydrogen peroxide — molecular formula H₂O₂ (2 H, 2 O per molecule); empirical formula HO (simplest ratio 1:1). Another example: benzene — molecular formula C₆H₆; empirical formula CH."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "A compound contains 52.17% carbon, 13.04% hydrogen and 34.79% oxygen. The relative molecular mass of the compound is 92. Calculate the empirical formula and then determine the molecular formula. (H = 1, C = 12, O = 16)",
+       "model": "Step 1 — calculate moles of each element (assuming 100 g): C = 52.17/12 = 4.35 mol; H = 13.04/1 = 13.04 mol; O = 34.79/16 = 2.17 mol. Step 2 — divide by smallest (2.17): C = 4.35/2.17 = 2; H = 13.04/2.17 = 6; O = 2.17/2.17 = 1. Empirical formula = C₂H₆O. Mr of empirical formula = 2(12) + 6(1) + 16 = 46. Step 3 — find n: n = 92/46 = 2. Molecular formula = C₂H₆O × 2 = C₄H₁₂O₂."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "In an experiment, 1.02 g of copper powder was heated in air and found to form 1.28 g of copper oxide. Calculate the empirical formula of the oxide. (Cu = 63.5, O = 16)",
+       "model": "Step 1 — apply LCM to find mass of O: mass of O = 1.28 − 1.02 = 0.26 g. Step 2 — calculate moles of each element: moles Cu = 1.02/63.5 = 0.0161 mol; moles O = 0.26/16 = 0.0163 mol. Step 3 — find simplest ratio: Cu:O = 0.0161:0.0163 ≈ 1:1. Therefore, empirical formula = CuO. (This is copper(II) oxide.)"
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Magnesium burns in oxygen according to: 2Mg + O₂ → 2MgO. Calculate the mass of magnesium oxide formed when 9 g of magnesium burns completely in excess oxygen. (Mg = 24, O = 16)",
+       "model": "Write the mole relationship: 2 moles Mg → 2 moles MgO. Calculate masses: 2 × 24 = 48 g Mg → 2 × (24 + 16) = 80 g MgO. Scale to given amount: 1 g Mg → 80/48 g MgO. Therefore, 9 g Mg → 9 × 80/48 = 15 g MgO. Answer: 15 g of magnesium oxide is formed."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Carbon burns in excess oxygen: C + O₂ → CO₂. Calculate the volume of carbon dioxide produced (at s.t.p.) when 30 g of carbon is burned. (C = 12; molar volume at s.t.p. = 22.4 L)",
+       "model": "Mole relationship: 1 mole C → 1 mole CO₂. At s.t.p.: 12 g C → 22.4 L CO₂. Scale: 1 g C → 22.4/12 L CO₂. Therefore, 30 g C → 30 × 22.4/12 = 56 L CO₂. Answer: 56 litres of CO₂ at s.t.p."
+      }
+     ],
+     "chem11": [
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define neutralisation and write a balanced equation for the reaction between sulfuric acid and calcium hydroxide.",
+       "model": "Neutralisation is the reaction between an acid and a base to form a salt and water. The general equation is: Acid + Base → Salt + Water. Balanced equation for H₂SO₄ and Ca(OH)₂: H₂SO₄ + Ca(OH)₂ → CaSO₄ + 2H₂O. (Sulfuric acid + calcium hydroxide → calcium sulfate + water.)"
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain how antacid tablets work. Write a balanced chemical equation for the reaction of hydrochloric acid with sodium hydrogencarbonate.",
+       "model": "The stomach produces hydrochloric acid (HCl) for digestion. If too much HCl is produced (due to overeating or stress), it can cause indigestion or ulcers. Antacid tablets contain a base that neutralises the excess HCl. For example, Alka-Seltzer and Bisodol contain sodium hydrogencarbonate (NaHCO₃), which reacts with the excess HCl in a neutralisation reaction. Balanced equation: HCl + NaHCO₃ → NaCl + H₂O + CO₂. The CO₂ gas produced causes the fizzing observed when the tablet dissolves."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Write a balanced chemical equation for the reaction between hydrochloric acid and calcium carbonate. State two observations and explain why the reaction is relevant to environmental chemistry.",
+       "model": "Equation: 2HCl + CaCO₃ → CaCl₂ + H₂O + CO₂. Observations: (1) fizzing/effervescence (CO₂ gas is produced); (2) the calcium carbonate (marble) slowly dissolves. Environmental relevance: acid rain contains dilute sulfuric acid (H₂SO₄) and other acids. When acid rain falls on limestone buildings, bridges, and statues (all made of CaCO₃), the acid reacts with the calcium carbonate and gradually dissolves and erodes the structure: H₂SO₄ + CaCO₃ → CaSO₄ + H₂O + CO₂."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State the general word equation for the reaction of an acid with a metal and write a balanced equation for sulfuric acid reacting with zinc.",
+       "model": "General equation: Acid + Metal → Salt + Hydrogen gas. Balanced equation for H₂SO₄ and Zn: H₂SO₄ + Zn → ZnSO₄ + H₂. The hydrogen gas produced can be confirmed by holding a lit splint at the mouth of the test tube — the gas ignites with a 'pop'. Note: highly reactive metals such as sodium and potassium must never be added to acids as the reaction is dangerously violent."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the Arrhenius definition of an acid and a base. Give one example of each with a dissociation equation.",
+       "model": "Arrhenius acid: a substance that dissociates in water to produce H⁺ ions. Example: HCl → H⁺ + Cl⁻ (hydrochloric acid dissociates completely to give H⁺ and Cl⁻ ions). Arrhenius base: a substance that dissociates in water to produce OH⁻ ions. Example: NaOH → Na⁺ + OH⁻ (sodium hydroxide dissociates to give Na⁺ and OH⁻ ions). The OH⁻ ion is called the hydroxide ion."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "What is the hydronium ion? Explain how it forms when hydrogen chloride dissolves in water.",
+       "model": "The hydronium ion (H₃O⁺) is the ion formed when a bare H⁺ ion (proton) reacts with a water molecule. A H⁺ ion is simply a bare proton and cannot exist independently in solution. When HCl dissolves in water, the H⁺ ion produced reacts with a water molecule via a dative (coordinate) covalent bond: H⁺ + H₂O → H₃O⁺. Both electrons in this bond are provided by the oxygen lone pair of the water molecule. Therefore, the dissociation of HCl in water is more accurately written as: HCl + H₂O → H₃O⁺ + Cl⁻."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "State the Brønsted–Lowry definitions of an acid and a base. Give an example of a reaction that is classified as acid–base by Brønsted–Lowry but NOT by Arrhenius.",
+       "model": "Brønsted–Lowry definition: an acid is a proton donor; a base is a proton acceptor. Example of a reaction classified as acid–base by B-L but not Arrhenius: HCl(g) + NH₃(g) → NH₄Cl(s). In this reaction, HCl (the gas) donates a proton to NH₃ (the gas) — HCl is the B-L acid and NH₃ is the B-L base. However, there is no water present in this reaction, so it cannot be classified as an acid–base reaction using the Arrhenius theory, which is limited to reactions occurring in aqueous (water) solution."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Give three ways in which the Brønsted–Lowry theory is an improvement on the Arrhenius theory.",
+       "model": "1. Not limited to water: the Arrhenius theory is restricted to reactions occurring in aqueous solution, while the Brønsted–Lowry theory can be applied to reactions in the gaseous state and in solvents other than water. 2. Broader definition of bases: the Arrhenius theory classifies only substances that produce OH⁻ ions as bases. The Brønsted–Lowry theory has a more general classification — any substance that can accept a proton is a base, including carbonate (CO₃²⁻) and hydrogencarbonate (HCO₃⁻) ions. 3. Amphoteric substances: the Arrhenius theory cannot explain how a substance can act as both an acid and a base, but the Brønsted–Lowry theory explains this in terms of the ability to both donate and accept protons."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define the terms conjugate acid, conjugate base, and conjugate acid–base pair. Identify the two conjugate acid–base pairs in the following equation: CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺",
+       "model": "Conjugate acid: the species formed when a base accepts a proton — a base changes into its conjugate acid when it accepts a proton. Conjugate base: the species formed when an acid donates a proton — an acid changes into its conjugate base when it donates a proton. Conjugate acid–base pair: any pair consisting of an acid and a base that differ by exactly one proton. In CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: Conjugate pair 1: CH₃COOH (acid) / CH₃COO⁻ (conjugate base) — they differ by one proton. Conjugate pair 2: H₃O⁺ (acid) / H₂O (conjugate base) — they differ by one proton."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "What is an amphoteric (amphiprotic) substance? Explain why water is considered amphoteric.",
+       "model": "An amphoteric (or amphiprotic) substance is one that can act both as an acid (proton donor) and as a base (proton acceptor), depending on what it reacts with. Water is amphoteric because: (1) When HCl dissolves in water, H₂O accepts a proton from HCl (acts as a B-L base): HCl + H₂O → H₃O⁺ + Cl⁻. (2) When NH₃ dissolves in water, H₂O donates a proton to NH₃ (acts as a B-L acid): NH₃ + H₂O → NH₄⁺ + OH⁻. In these two reactions, water acts as a base in the first and as an acid in the second — demonstrating its amphoteric character."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Distinguish between a strong acid and a weak acid in terms of the Arrhenius theory. Give one example of each.",
+       "model": "A strong acid is a substance that almost completely dissociates in water to give H⁺ ions — almost every molecule breaks up. Example: hydrochloric acid (HCl → H⁺ + Cl⁻; essentially all HCl molecules dissociate). A weak acid is a substance that only slightly dissociates in water to give H⁺ ions — only a small proportion of molecules break up. Example: ethanoic acid (CH₃COOH ⇌ CH₃COO⁻ + H⁺; most molecules remain undissociated in solution)."
+      }
+     ],
+     "chem12": [
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "Distinguish between qualitative analysis and quantitative analysis. Give one example of each.",
+       "model": "Qualitative analysis: identifying the presence of substances without finding the quantities present. Example: testing for anions (e.g. Experiment 5.1 testing for sulfate ions). Quantitative analysis: finding the quantities or amounts of materials present. Example: determining the concentration of ethanoic acid in vinegar by volumetric analysis."
+      },
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "Distinguish between a solute and a solvent. Identify the solute and solvent in a saltwater solution.",
+       "model": "Solute: the substance that dissolves in a solvent; usually present in smaller amount. Solvent: the substance that dissolves the solute; usually present in larger amount. In saltwater: the solute is sodium chloride (NaCl) and the solvent is water (H₂O)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Explain the difference between % w/w, % w/v, and % v/v as methods of expressing concentration. Give one example of each.",
+       "model": "% w/w (weight per weight): (mass of solute / total mass of solution) × 100. Example: a 10% w/w NaCl solution contains 10 g NaCl per 100 g solution. % w/v (weight per volume): (mass of solute / total volume of solution) × 100. Example: a 10% w/v NaCl solution contains 10 g NaCl per 100 cm³ solution. % v/v (volume per volume): (volume of solute / total volume of solution) × 100. Example: a 10% v/v ethanol solution contains 10 cm³ ethanol per 100 cm³ solution. Alcohol in drinks is expressed as % v/v."
+      },
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "What is meant by ppm? A chemist reports the concentration of fluoride in drinking water as 1 ppm. Express this in mg/L.",
+       "model": "ppm = parts per million. It is a unit of concentration used for very dilute solutions. 1 ppm = 1 mg per litre of solution (for water, density 1 g/cm³). Therefore, 1 ppm fluoride = 1 mg/L."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "Define molarity. Calculate the molarity of a solution containing 4.0 g of NaOH dissolved in 500 cm³ of solution. (H = 1, O = 16, Na = 23)",
+       "model": "Molarity = the number of moles of solute per litre of solution; symbol M or mol/L. M_r of NaOH = 23 + 16 + 1 = 40. Moles of NaOH = 4.0 / 40 = 0.1 mol. This is dissolved in 500 cm³ = 0.5 litre. Molarity = 0.1 / 0.5 = 0.2 M (0.2 mol/L)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State six criteria that a substance must satisfy to be classified as a primary standard.",
+       "model": "(1) Available in a highly pure state. (2) Stable in air — does not effloresce (lose water of crystallisation) or absorb water from the air (deliquesce or be hygroscopic). (3) Dissolves easily in water. (4) Has a fairly high relative molecular mass to minimise the percentage error in weighing. (5) Undergoes complete and rapid reaction when used in volumetric analysis. (6) If possible, should not be hydrated (i.e. should be anhydrous, with no water of crystallisation)."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Explain why sodium hydroxide (NaOH) cannot be used as a primary standard. Describe how you would prepare an approximately 0.1 M solution of NaOH.",
+       "model": "NaOH cannot be used as a primary standard because it is deliquescent — it absorbs enough water vapour from the air to dissolve and form a solution. This means the exact mass of NaOH present cannot be known, so an accurately known concentration cannot be achieved by weighing alone. To prepare an approximately 0.1 M NaOH solution: weigh out approximately 1 g (0.1 mol × 40 g/mol = 4 g per litre → 1 g for 250 cm³) of NaOH, dissolve in deionised water, transfer to a 250 cm³ volumetric flask, make up to the graduation mark with deionised water, and invert about 20 times to mix. The concentration must then be standardised by titrating against a standard acid."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Describe the procedure for preparing a standard solution of sodium carbonate. State three important precautions.",
+       "model": "Procedure: (1) Accurately weigh out a known mass of anhydrous sodium carbonate (Na₂CO₃) on a clock glass using a laboratory balance. (2) Transfer the Na₂CO₃ to a beaker containing a small amount of deionised water. (3) Stir with a glass rod until completely dissolved. (4) Use a wash bottle of deionised water to wash all traces of Na₂CO₃ from the clock glass into the beaker. (5) Transfer the solution to a 250 cm³ volumetric flask using a funnel and glass rod. (6) Wash all traces from the beaker, rod, and funnel into the flask. (7) Add deionised water slowly until the bottom of the meniscus is exactly at the graduation mark, viewed at eye level. (8) Stopper the flask and invert about 20 times to mix. Three precautions: (1) Use deionised water (not tap water, which contains dissolved substances). (2) Add water until the bottom of the meniscus is exactly level with the graduation mark at eye level. (3) Invert the flask (do not just shake) to ensure a homogeneous mixture."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Define titration, equivalence point, and end point. Explain why the acid is usually placed in the burette (AABB rule).",
+       "model": "Titration: a laboratory procedure where a measured volume of one solution is added to a known volume of another solution until the reaction is complete. Equivalence point: the stage in a titration when the two solutions have just reacted completely with each other. End point: the point at which the equivalence point is shown by a change in indicator colour. AABB rule (Acid Above, Base Below): acid is placed in the burette, base in the conical flask. Reasons: (1) Common bases such as NaOH are deliquescent and attack glass — NaOH can cause glass burette taps to stick (seize up). (2) NaOH also absorbs CO₂ from the air, forming a crust of Na₂CO₃ on the tap, which causes it to seize up further. Both problems are especially severe with plastic taps on modern burettes."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "Describe how you would standardise a solution of hydrochloric acid using a standard sodium carbonate solution. Include the equation, indicator, and key observations.",
+       "model": "Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. Indicator: methyl orange. Procedure: (1) Rinse the pipette with the sodium carbonate solution. (2) Pipette 25 cm³ of the standard Na₂CO₃ solution into a conical flask. (3) Add a few drops of methyl orange indicator. (4) Rinse the burette with the dilute HCl; fill to the zero mark; remove the funnel; adjust meniscus to zero. (5) Place the conical flask on a white tile. (6) Carry out one rough titration and two accurate titrations agreeing to within 0.1 cm³. Observation: the methyl orange changes from yellow to red (pink) at the end point. Explanation: the indicator changes colour because the solution in the conical flask becomes acidic as all the base has been neutralised. Calculation: use the titre and the titration formula (V_a × M_a / n_a = V_b × M_b / n_b) to find the molarity of HCl."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "In a titration, 25 cm³ of a sodium hydroxide solution was titrated against 0.2 M hydrochloric acid. The average titration figure was 23.5 cm³. Calculate the concentration of the NaOH solution in (a) moles per litre and (b) grams per litre. (H = 1, O = 16, Na = 23)",
+       "model": "Equation: HCl + NaOH → NaCl + H₂O; n_a = 1, n_b = 1. Using V_a × M_a / n_a = V_b × M_b / n_b: (23.5 × 0.2) / 1 = (25 × M_b) / 1. M_b = (23.5 × 0.2) / 25 = 4.7 / 25 = 0.188 mol/L. (b) M_r of NaOH = 40. Concentration in g/L = 0.188 × 40 = 7.52 g/L."
+      },
+      {
+       "type": "short",
+       "marks": 10,
+       "prompt": "Using HIn ⇌ H+ + In−, explain how an acid-base indicator changes colour during a titration.",
+       "model": "HIn and In− have different colours. Added acid increases H+, shifting equilibrium left towards HIn; added base removes H+, shifting it right towards In− by Le Châtelier's principle. The observed transition occurs over the pH range where the ratio changes substantially, so an indicator must match the titration's steep pH change."
+      },
+      {
+       "type": "short",
+       "marks": 5,
+       "prompt": "Describe the experiment to determine the concentration of ethanoic acid (acetic acid) in vinegar using sodium hydroxide. Explain why the vinegar is diluted and why phenolphthalein is used.",
+       "model": "Equation: CH₃COOH + NaOH → CH₃COONa + H₂O (weak acid–strong base). Dilution: because vinegar is much more concentrated than the NaOH solution (~0.1 M), a very small volume of NaOH would be needed without dilution — this would give a large percentage error. The vinegar is diluted by a factor of 5: pipette 2 × 25 cm³ samples of vinegar into a 250 cm³ volumetric flask and make up to the mark with deionised water. Indicator: phenolphthalein is used because this is a weak acid–strong base titration. Phenolphthalein is pink in the alkaline NaOH in the conical flask. Procedure: 25 cm³ of standard NaOH solution is pipetted into the conical flask; phenolphthalein added (turns pink); diluted vinegar is titrated from the burette. End point: phenolphthalein changes from pink to colourless. Calculation: calculate the concentration of CH₃COOH in the diluted vinegar (in mol/L and g/L), then multiply by 5 (the dilution factor) to get the concentration in the original vinegar; express as % w/v."
+      }
+     ],
+     "chem13": [
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "Distinguish between accuracy and precision. Give one example of each in the context of volumetric analysis.",
+       "model": "Accuracy: how close a measurement is to the correct (true or actual) value. Example: if the correct titration figure is 23.0 cm³ and a student gets 23.1 cm³, the result is accurate. Precision: how close a set of repeated measurements are to each other (consistency). Example: if a student's three titration results are 23.5, 23.6, and 23.7 cm³, the results are precise (close to each other) even though they are not accurate (different from the correct value of 23.0 cm³)."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "A student washed the burette with deionised water before a titration but forgot to rinse it with the acid solution. Explain how this error affects (a) the accuracy and (b) the precision of the results.",
+       "model": "(a) Accuracy: this error affects accuracy. The water remaining in the burette dilutes the acid solution placed in the burette. As a result, the solution is less concentrated than intended, so a larger volume of acid is needed to reach the end point. The titration figure obtained is too large, giving an inaccurate (too low) calculated concentration of the acid. (b) Precision: this error does not affect precision. Although the results are inaccurate, all three titrations will still give similar (close) results — the error is consistent. Therefore, the results are precise (close to each other) but not accurate."
+      },
+      {
+       "type": "short",
+       "marks": 3,
+       "prompt": "State five precautions a student should take to ensure accurate results when performing an acid-base titration.",
+       "model": "(1) Only use equipment manufactured to a high degree of accuracy in measuring volumes, such as the burette, pipette, and volumetric flask — not graduated cylinders or beakers. (2) Take all volume readings at eye level to avoid parallax errors; always read where the bottom of the meniscus touches the graduation mark. (3) Rinse glassware correctly: rinse the pipette and burette first with deionised water, then with the solutions they are to contain. (4) As you near the end point, add the solution drop-by-drop from the burette to avoid overshooting and obtain an accurate end point. (5) When measuring unknown concentrations, always use standard solutions — solutions of accurately known concentration."
+      },
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "State the four key formulas used in solving volumetric analysis problems.",
+       "model": "(1) Number of moles = Mass (g) / Relative Molecular Mass. (2) Number of moles = (volume in cm³ × molarity) / 1000. (3) (V_a × M_a) / n_a = (V_b × M_b) / n_b, where V = volume (cm³), M = molarity (mol/L), n = moles from balanced equation. (4) Density = Mass / Volume."
+      },
+      {
+       "type": "short",
+       "marks": 6,
+       "prompt": "In an experiment, 25 cm³ of a sample of vinegar were diluted to 250 cm³ in a volumetric flask. The diluted solution was titrated against a sodium hydroxide solution prepared by dissolving 1.20 g of NaOH in 500 cm³ of solution. On average, 18.75 cm³ of the diluted vinegar were required to neutralise 25.0 cm³ of the NaOH solution. The equation for the reaction is: CH₃COOH + NaOH → CH₃COONa + H₂O. Calculate the concentration of ethanoic acid in the original vinegar in (a) moles per litre, (b) grams per litre, and (c) % w/v. (H = 1.008, C = 12.01, O = 16.00, Na = 22.99)",
+       "model": "Step 1 — find molarity of NaOH: M_r NaOH = 22.99 + 16.00 + 1.008 = 40.00. Moles NaOH = 1.20 / 40.00 = 0.03 mol. 0.03 mol in 500 cm³ → 0.06 mol in 1000 cm³ → [NaOH] = 0.06 M. Step 2 — use Formula 3 (n_a = n_b = 1): (18.75 × M_a) / 1 = (25 × 0.06) / 1 → M_a = (25 × 0.06) / 18.75 = 1.5 / 18.75 = 0.08 M (diluted vinegar). Step 3 — dilution factor = 250 / 25 = 10. Concentration in original vinegar = 0.08 × 10 = (a) 0.80 mol/L. Step 4 — M_r CH₃COOH = (2 × 12.01) + (2 × 16.00) + (4 × 1.008) = 24.02 + 32.00 + 4.032 = 60.05. (b) g/L = 0.80 × 60.05 = 48.04 g/L. Step 5 — (c) % w/v = 48.04 g/L = 4.804 g/100 cm³ = 4.80% w/v."
+      },
+      {
+       "type": "short",
+       "marks": 4,
+       "prompt": "In a titration to determine the concentration of ethanoic acid in vinegar: 10.0 cm³ of the original vinegar was diluted to 50.0 cm³. On average, 12.4 cm³ of the diluted vinegar was required to neutralise 25.0 cm³ of 0.09 M NaOH. (i) Name a suitable indicator and state the colour change at the end point. (ii) Calculate the volume of undiluted vinegar that would be required to neutralise 25.0 cm³ of the NaOH solution. (iii) Calculate the concentration of ethanoic acid in the original vinegar in moles per litre.",
+       "model": "(i) Indicator: phenolphthalein. Colour change at end point: from pink to colourless. (ii) Dilution factor = 50 / 10 = 5. Therefore, 12.4 / 5 = 2.48 cm³ of undiluted vinegar would be required to neutralise 25.0 cm³ NaOH. (iii) Using formula 3 (CH₃COOH + NaOH → CH₃COONa + H₂O; n_a = n_b = 1): (12.4 × M_a) / 1 = (25 × 0.09) / 1 → M_a = (25 × 0.09) / 12.4 = 2.25 / 12.4 = 0.1815 M (diluted vinegar). Concentration in original vinegar = 0.1815 × 5 = 0.91 mol/L."
+      },
+      {
+       "type": "short",
+       "marks": 2,
+       "prompt": "Explain why it is necessary to dilute vinegar before carrying out a titration with sodium hydroxide solution.",
+       "model": "Vinegar contains a much higher concentration of ethanoic acid than the sodium hydroxide solution used (approximately 0.1 M). If the vinegar was not diluted, only a very small volume (e.g. 2–3 cm³) would be needed to neutralise 25 cm³ of NaOH. Such a small volume gives a very large percentage error, since even a slight misreading of the volume will have a greater impact on the result. Diluting the vinegar increases the volume required in the titration, making the percentage error smaller and the final result more accurate."
+      }
+     ]
+    };
+    Object.keys(REVIEW_QUESTIONS).forEach(function (id) {
+      ch(id).learningOutcomes[0].questions = REVIEW_QUESTIONS[id];
+    });
   })();
 
   // ── chem14: Oxidation and Reduction ──
@@ -1726,70 +1776,6 @@
       source[field] = source[field].filter(function (item) { return !predicate(item); });
       target[field] = target[field].concat(moved);
     }
-
-    // Unifying strand: these process outcomes need explicit guidance rather than
-    // being treated as chapter facts.
-    setNotes('chem1-3', [
-      { h: "Questions Suitable for Scientific Investigation", b: "A suitable scientific question is specific, testable with observations or measurements, and capable of producing evidence that could support or challenge an explanation. It should identify variables that can be changed, measured or controlled and should not depend on opinion or a value judgement. For example, ‘How does temperature affect the rate of the sodium thiosulfate–hydrochloric acid reaction?’ is investigable; ‘Is chemistry the most useful science?’ is not. Before investigating, check that the equipment can measure the expected change, the range is practical and safe, and the question asks one clear thing." }
-    ]);
-    setNotes('chem1-4', [
-      { h: "Testable Hypotheses and Investigation Strategies", b: "A hypothesis is a testable explanation, grounded in scientific theory, that predicts how the independent variable will affect the dependent variable and gives a scientific reason. A useful form is: if X changes, then Y will change in this way, because…. Compare possible strategies by asking whether each isolates the independent variable, measures the dependent variable over a suitable range, controls important variables, provides repeat data, uses suitable precision and can be completed safely. A strategy is not stronger merely because it uses more equipment; it is stronger when the evidence it produces is valid, reliable and capable of testing the hypothesis." }
-    ]);
-    setNotes('chem1-6', [
-      { h: "Selecting, Analysing and Concluding from Data", b: "Qualitative data describe properties such as colour, state or precipitate; quantitative data are numerical measurements with units. Record raw data before processing it, use an appropriate table and graph, and show calculations and uncertainties. Look for trends, proportional relationships, plateaus and anomalous points. An anomaly should be checked against the method and repeated where possible, not silently deleted. A conclusion must answer the question using the observed pattern and relevant figures, distinguish correlation from causation, state whether the hypothesis was supported, and acknowledge uncertainty or evidence that limits the claim." }
-    ]);
-    setNotes('chem1-7', [
-      { h: "Reviewing an Investigation and Transferring the Learning", b: "Reflection identifies what the evidence and method allow you to claim and what should change next time. Review planning, measurement, control of variables, safety, data handling and scientific reasoning. Name a limitation, explain its likely effect on the result, and propose a specific improvement—for example, use a gas syringe instead of counting bubbles because bubble size varies. In an unfamiliar problem, identify the underlying principle, separate known and unknown quantities, choose a related method or model, test the solution against units and chemical sense, and revise it if the evidence does not fit." }
-    ]);
-
-    // Relative atomic mass was taught in the periodic-table chapter even though
-    // the assessed outcome is in the mole chapter. Move the authored explanation,
-    // card and practice question to the outcome that owns it.
-    var relativeAtomicMass = takeNote('chem4-1', 'Relative atomic mass');
-    setNotes('chem8-2', [relativeAtomicMass || {
-      h: "Relative Atomic Mass and Isotopic Abundance",
-      b: "Relative atomic mass is the weighted mean mass of an atom of an element compared with one twelfth of carbon-12. Multiply each isotope mass by its fractional abundance and add the products: Aᵣ = Σ(isotope mass × fractional abundance). If chlorine is 75% chlorine-35 and 25% chlorine-37, Aᵣ = (35 × 75 + 37 × 25)/100 = 35.5. The same relationship can be rearranged to find an unknown percentage abundance; all abundances must total 100%."
-    }]);
-    moveItems('chem4-1', 'chem8-2', 'keyTerms', function (item) {
-      return /relative atomic mass/i.test(item.term);
-    });
-    moveItems('chem4-1', 'chem8-2', 'questions', function (item) {
-      return /relative atomic mass/i.test(item.prompt);
-    });
-
-    // Gas-law teaching was bundled with ideal-gas calculations in chem9. The
-    // specification places Avogadro's law and the volatile-liquid experiment here.
-    var avogadroNote = takeNote('chem9-5', "Avogadro's Law and Molar Volume of a Gas");
-    var volatileLiquidNote = takeNote('chem9-5', 'Experiment 9.1: Measuring Mr of a Volatile Liquid');
-    setNotes('chem8-3', [avogadroNote]);
-    setNotes('chem8-4', [volatileLiquidNote]);
-    moveItems('chem9-5', 'chem8-3', 'keyTerms', function (item) {
-      return /Avogadro|molar volume/i.test(item.term);
-    });
-    moveItems('chem9-5', 'chem8-4', 'keyTerms', function (item) {
-      return /volatile liquid/i.test(item.term);
-    });
-    moveItems('chem9-5', 'chem8-3', 'questions', function (item) {
-      return /Avogadro|molar volume/i.test(item.prompt);
-    });
-    moveItems('chem9-5', 'chem8-4', 'questions', function (item) {
-      return /volatile liquid/i.test(item.prompt);
-    });
-
-    setNotes('chem8-5', [
-      { h: "Concentration, Dilution and Preparing Solutions", b: "Concentration describes the amount of solute in a stated volume of solution. For molar concentration, c = n/V, with n in moles and V in litres. To prepare a solution, calculate the required amount, weigh or measure it accurately, dissolve it in a beaker, transfer quantitatively to a volumetric flask, rinse all material into the flask, make the meniscus up to the mark with deionised water and invert repeatedly to mix. A primary standard must be pure, stable, soluble and suitable for accurate weighing. To prepare a range, use C₁V₁ = C₂V₂ or serial dilution; use a volumetric pipette and flask so every dilution factor is known." }
-    ]);
-    setNotes('chem8-6', [
-      { h: "Converting Concentration Units", b: "Choose a common volume basis before converting. Since 1 L = 1000 cm³, mol L⁻¹ to mol cm⁻³ requires division by 1000, while mol cm⁻³ to mol L⁻¹ requires multiplication by 1000. Convert mol L⁻¹ to g L⁻¹ using mass concentration = molar concentration × Mᵣ; reverse by dividing by Mᵣ. For dilute aqueous solutions, 1 mg L⁻¹ is approximately 1 ppm. Percentage concentration states grams or cubic centimetres per 100 g or 100 cm³ as specified. Always write units through the calculation: they reveal whether the conversion direction is correct." }
-    ]);
-
-    setNotes('chem9-3', [
-      { h: "Choosing a Separation Technique", b: "Choose a method from the property in which the components differ. Filtration separates an insoluble solid from a liquid by particle size; evaporation or crystallisation recovers a dissolved solid using volatility and solubility; simple distillation recovers a solvent or separates liquids with widely different boiling points; fractional distillation separates miscible liquids with closer boiling points; a separating funnel separates immiscible liquids by density; chromatography separates soluble substances by different attraction to the stationary and mobile phases; sublimation isolates a solid that changes directly to vapour. Justification must name the relevant property and the desired component, not merely name the apparatus." }
-    ]);
-
-    setNotes('chem12-3', [
-      { h: "How Acid–Base Indicators Work", b: "An acid–base indicator is a weak acid or weak base whose conjugate forms have different colours. For a weak-acid indicator: HIn ⇌ H⁺ + In⁻, where HIn and In⁻ have different colours. Adding acid increases [H⁺], so Le Châtelier's principle shifts the equilibrium left and the HIn colour dominates. Adding base removes H⁺ as water, so the equilibrium shifts right and the In⁻ colour dominates. The visible transition occurs over a narrow pH range around the indicator's pKa. Choose an indicator whose transition range lies inside the steep pH change near the titration equivalence point; this is why not every indicator suits every acid–base titration." }
-    ]);
 
     setNotes('chem14-3', [
       { h: "Metal Displacement and the Electrochemical Series", b: "A metal higher in the electrochemical series loses electrons more readily and displaces the ions of a metal below it. For zinc placed in copper(II) sulfate: Zn(s) → Zn²⁺(aq) + 2e⁻ and Cu²⁺(aq) + 2e⁻ → Cu(s), giving Zn + Cu²⁺ → Zn²⁺ + Cu. The blue solution fades and copper coats the zinc. To investigate, place cleaned metal strips into equal volumes and concentrations of different metal-ion solutions, keep time, temperature and surface area controlled, and record colour, coating, temperature or mass changes. A reaction confirms the solid metal is above the displaced metal in the series; no visible reaction sets a limit but is not proof that no very slow reaction is possible." }

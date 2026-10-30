@@ -1,0 +1,102 @@
+{
+  "loId": "chem12-s2",
+  "chapterId": "chem12",
+  "subsection": "2. Acid–base titrations",
+  "syllabusRef": "4.1.2",
+  "notes": [
+    {
+      "h": "Apparatus",
+      "points": [
+        "Pipette, used with a pipette filler: delivers an exact volume, e.g. 25.0 cm³, of one solution into a conical flask.",
+        "Burette: delivers measured, variable volumes of the other solution, read to 0.05 cm³.",
+        "Conical flask: can be swirled without splashing, and holds the pipetted solution during the titration.",
+        "White tile: placed under the flask so that the colour change shows clearly.",
+        "Funnel: used to fill the burette and then removed.",
+        "Wash bottle of deionised water: used to rinse the apparatus and to wash down the flask.",
+        "Indicator: added to the conical flask.",
+        "Diagram: a burette clamped above a conical flask on a white tile, with the pipette and pipette filler shown separately; label burette, tap, pipette, pipette filler, conical flask and white tile."
+      ]
+    },
+    {
+      "h": "Preparing the pipette and burette",
+      "b": "Each rinse removes water or other solution that would dilute the solution it is about to hold.",
+      "points": [
+        "Rinse the pipette with deionised water, then with a little of the solution it is to measure, so that any water left in it does not dilute the solution.",
+        "Draw the solution up above the mark using a pipette filler, then let it down until the bottom of the meniscus sits on the mark at eye level.",
+        "Let the solution run into the conical flask, touching the tip against the inside of the flask at the end; do not blow out the last drop, because the pipette is calibrated to allow for it.",
+        "Rinse the burette with deionised water, then with the solution it is to contain.",
+        "Fill the burette using a funnel, then remove the funnel, because drips from it would change the reading.",
+        "Run a little solution out through the tap to fill the part below the tap and remove any air bubble.",
+        "Read the burette at eye level, from the bottom of the meniscus.",
+        "Rinsing the conical flask with deionised water is fine, because it does not change the number of moles in the pipetted volume.",
+        "The conical flask must not be rinsed with either solution."
+      ]
+    },
+    {
+      "h": "Carrying out the titration",
+      "points": [
+        "Add two or three drops of the indicator to the conical flask.",
+        "Add solution from the burette while swirling the flask; first do a rough titration to find the approximate end point.",
+        "In the accurate titrations, add the solution quickly to within about 1 cm³ of the rough titre, then add it drop by drop, swirling, until one drop gives a permanent colour change.",
+        "Wash the inside walls of the flask with deionised water near the end point, so that all the reagent reacts.",
+        "Repeat until two accurate titres agree to within 0.1 cm³, then average them, leaving out the rough titre."
+      ]
+    },
+    {
+      "h": "Strong acid–strong base: hydrochloric acid and sodium hydroxide",
+      "points": [
+        "Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), with a mole ratio of 1 : 1.",
+        "Indicator: phenolphthalein, which changes from colourless to pink as NaOH is added from the burette, or methyl orange.",
+        "Either indicator works because the pH changes sharply over a wide range at the equivalence point.",
+        "Sample data: 25.0 cm³ of NaOH needs a mean titre of 22.5 cm³ of 0.100 mol L⁻¹ HCl.",
+        "Moles HCl = 0.100 × 0.0225 = 2.25 × 10⁻³ mol.",
+        "Moles NaOH = 2.25 × 10⁻³ mol, because the mole ratio is 1 : 1.",
+        "Concentration of NaOH = 2.25 × 10⁻³ mol ÷ 0.0250 L = 0.0900 mol L⁻¹."
+      ]
+    },
+    {
+      "h": "Strong acid–weak base: hydrochloric acid and sodium carbonate",
+      "b": "Sodium carbonate is the primary standard used to standardise hydrochloric acid.",
+      "points": [
+        "Equation: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), with a mole ratio of Na₂CO₃ : HCl of 1 : 2.",
+        "Indicator: methyl orange, which is yellow in the sodium carbonate and turns orange-red at the end point as acid is added.",
+        "Phenolphthalein is unsuitable because it changes colour in alkaline solution, before the end point.",
+        "Sample data: 25.0 cm³ of 0.0500 mol L⁻¹ Na₂CO₃ needs 23.8 cm³ of HCl.",
+        "Moles Na₂CO₃ = 0.0500 × 0.0250 = 1.25 × 10⁻³ mol.",
+        "Moles HCl = 2 × 1.25 × 10⁻³ = 2.50 × 10⁻³ mol, because the mole ratio is 1 : 2.",
+        "Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0238 L = 0.105 mol L⁻¹.",
+        "Ammonia, a weak base, is titrated with hydrochloric acid in the same way, using methyl orange: NH₃(aq) + HCl(aq) → NH₄Cl(aq)."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Wear goggles: sodium hydroxide is corrosive, especially to the eyes, and hydrochloric acid is corrosive or irritant.",
+        "Use a pipette filler, never the mouth.",
+        "Fill the burette while it is below eye level, for example by lowering it or removing it from the stand."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Pipette", "definition": "Apparatus that delivers one fixed, exact volume of a solution, such as 25.0 cm³." },
+    { "term": "Burette", "definition": "A graduated tube with a tap that delivers measured, variable volumes of solution, read to 0.05 cm³." },
+    { "term": "Meniscus", "definition": "The curved upper surface of a liquid, read at its bottom edge in a burette or pipette." },
+    { "term": "Rough titration", "definition": "A quick first titration done to find the approximate end point, whose titre is left out of the mean." },
+    { "term": "Mole ratio", "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in a balanced equation." },
+    { "term": "End point", "definition": "The point at which the indicator changes colour during a titration." },
+    { "term": "Phenolphthalein", "definition": "An indicator that is colourless in acid and pink in alkaline solution, changing colour over about pH 8.3–10." },
+    { "term": "Methyl orange", "definition": "An indicator that is red in acid and yellow in alkaline solution, changing colour over about pH 3.1–4.4." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would rinse and fill a burette and a pipette, and how you would carry out a titration accurately, explaining the reason for each rinse.",
+      "model": "Rinse the pipette with deionised water, then with a little of the solution it is to measure, so that water left in it does not dilute the solution. Using a pipette filler, draw the solution up above the mark, then let it down until the bottom of the meniscus sits on the mark at eye level. Let the solution run into the conical flask, touching the tip against the inside of the flask, and do not blow out the last drop because the pipette is calibrated to allow for it. Rinse the burette with deionised water, then with the solution it is to contain, so that water left in it does not dilute the solution. Fill it using a funnel, then remove the funnel, because drips from it would change the reading. Run a little solution out through the tap to fill the part below the tap and remove any air bubble, then read the burette at eye level from the bottom of the meniscus. Rinse the conical flask with deionised water only, because this does not change the number of moles in the pipetted volume; it must not be rinsed with either solution. Add two or three drops of indicator to the flask. Add solution from the burette while swirling, doing a rough titration first to find the approximate end point. In the accurate titrations, add the solution quickly to within about 1 cm³ of the rough titre, then drop by drop, swirling, until one drop gives a permanent colour change. Wash the inside walls of the flask with deionised water near the end point so that all the reagent reacts. Repeat until two accurate titres agree to within 0.1 cm³, then average them, leaving out the rough titre."
+    },
+    {
+      "marks": 9,
+      "prompt": "25.0 cm³ of a sodium carbonate solution required 20.0 cm³ of 0.150 mol L⁻¹ hydrochloric acid for neutralisation using methyl orange. Write the balanced equation and calculate the concentration of the sodium carbonate solution in mol L⁻¹.",
+      "model": "Balanced equation: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g). Moles HCl = 0.150 × 0.0200 = 3.00 × 10⁻³ mol. The mole ratio of Na₂CO₃ : HCl is 1 : 2, so moles Na₂CO₃ = 3.00 × 10⁻³ ÷ 2 = 1.50 × 10⁻³ mol. Concentration of Na₂CO₃ = 1.50 × 10⁻³ mol ÷ 0.0250 L = 0.0600 mol L⁻¹."
+    }
+  ]
+}

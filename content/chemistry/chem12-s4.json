@@ -1,0 +1,60 @@
+{
+  "loId": "chem12-s4",
+  "chapterId": "chem12",
+  "subsection": "4. How indicators work",
+  "syllabusRef": "4.1.4",
+  "notes": [
+    {
+      "h": "Indicators as weak acids (Higher Level only)",
+      "b": "Many acid–base indicators are weak acids, so their colour depends on the position of an equilibrium.",
+      "points": [
+        "Many indicators are weak acids, written HIn, in which the undissociated molecule HIn and its conjugate base In⁻ have different colours.",
+        "In water an equilibrium is set up: HIn(aq) ⇌ H⁺(aq) + In⁻(aq).",
+        "Le Châtelier's principle: if a system at equilibrium is disturbed, it shifts to oppose the change.",
+        "Adding acid increases [H⁺], so the equilibrium shifts to the left: most of the indicator is HIn, and its colour is seen.",
+        "Adding base removes H⁺ (H⁺ + OH⁻ → H₂O), so the equilibrium shifts to the right: most of the indicator is In⁻, and its colour is seen.",
+        "Phenolphthalein: HIn is colourless and In⁻ is pink.",
+        "Methyl orange: HIn is red and In⁻ is yellow."
+      ]
+    },
+    {
+      "h": "Indicators as weak bases (Higher Level only)",
+      "points": [
+        "A weak base indicator can be written InOH, with InOH and In⁺ having different colours: InOH(aq) ⇌ In⁺(aq) + OH⁻(aq).",
+        "Adding acid removes OH⁻, so the equilibrium shifts to the right and the In⁺ colour is seen.",
+        "Adding base increases [OH⁻], so the equilibrium shifts to the left and the InOH colour is seen."
+      ]
+    },
+    {
+      "h": "The colour-change range (Higher Level only)",
+      "points": [
+        "The colour change happens over a range of about two pH units, centred on the pH at which [HIn] = [In⁻].",
+        "At the midpoint of the range both colours are present; methyl orange looks orange.",
+        "Different indicators are weak acids of different strengths, so they change colour at different pH values: phenolphthalein at pH 8.3–10 and methyl orange at pH 3.1–4.4.",
+        "This is why the indicator must be chosen to match the titration; see “pH titration curves”.",
+        "Only a few drops of indicator are used, because the indicator is itself an acid and would react with some of the titrant."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Weak acid indicator", "definition": "A weak acid, written HIn, whose undissociated form and conjugate base have different colours." },
+    { "term": "Conjugate base", "definition": "The species formed when an acid loses a proton; for an indicator, In⁻ is the conjugate base of HIn." },
+    { "term": "Undissociated form", "definition": "The molecule of a weak acid or base that has not split into ions, such as HIn." },
+    { "term": "Equilibrium (⇌)", "definition": "A state in which the forward and reverse reactions occur at equal rates, so the concentrations stay constant." },
+    { "term": "Le Châtelier's principle", "definition": "If a system at equilibrium is disturbed, it shifts to oppose the change." },
+    { "term": "Weak base indicator", "definition": "A weak base, written InOH, whose undissociated form and ion In⁺ have different colours." },
+    { "term": "Colour-change range", "definition": "The range of pH, about two pH units wide, over which an indicator changes colour." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Phenolphthalein is a weak acid, HIn; the HIn form is colourless and the In⁻ form is pink. Use Le Châtelier's principle to explain its colour in acidic and in basic solution.",
+      "model": "Phenolphthalein is set up in an equilibrium in water: HIn(aq) ⇌ H⁺(aq) + In⁻(aq). In acidic solution the concentration of H⁺ is high. By Le Châtelier's principle the equilibrium shifts to the left to oppose the increase in H⁺, so most of the indicator is present as HIn, which is colourless. In basic solution, OH⁻ removes H⁺ by the reaction H⁺ + OH⁻ → H₂O, lowering [H⁺]. The equilibrium shifts to the right to replace the H⁺ removed, so most of the indicator is present as In⁻, which is pink."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why only a few drops of indicator are used in a titration and why different indicators change colour at different pH values.",
+      "model": "Only a few drops of indicator are used because the indicator is itself a weak acid, and a large amount would react with some of the titrant, changing the volume needed to reach the end point. Different indicators are weak acids of different strengths, so they change colour over different pH ranges: phenolphthalein changes over about pH 8.3–10 and methyl orange over about pH 3.1–4.4. The indicator must therefore be chosen so that its colour-change range matches the steep section of the pH curve for the titration."
+    }
+  ]
+}

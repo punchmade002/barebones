@@ -1,0 +1,81 @@
+{
+  "loId": "chem13-s2",
+  "chapterId": "chem13",
+  "subsection": "2. Worked acid–base volumetric problems",
+  "syllabusRef": "4.1.7",
+  "notes": [
+    {
+      "h": "Problem 1: standardising hydrochloric acid",
+      "b": "Each problem follows the method in \"Solving acid–base volumetric problems\". All data are sample data.",
+      "points": [
+        "Data: 25.0 cm³ of 0.0500 M sodium carbonate was titrated with hydrochloric acid, using methyl orange.",
+        "Data: the mean titre of hydrochloric acid was 24.2 cm³.",
+        "Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂.",
+        "Moles Na₂CO₃ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.",
+        "Moles HCl = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.",
+        "Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0242 L = 0.103 mol L⁻¹."
+      ]
+    },
+    {
+      "h": "Problem 2: ammonia in a household cleaner",
+      "points": [
+        "Data: 25.0 cm³ of a cleaner was diluted to 250 cm³.",
+        "Data: 25.0 cm³ of the diluted solution needed 21.5 cm³ of 0.100 M hydrochloric acid, using methyl orange.",
+        "Equation: NH₃ + HCl → NH₄Cl, a 1 : 1 reaction.",
+        "Moles HCl = 0.100 mol L⁻¹ × 0.0215 L = 2.15 × 10⁻³ mol, which equals the moles of NH₃ in 25.0 cm³ of diluted cleaner.",
+        "Diluted concentration = 2.15 × 10⁻³ mol ÷ 0.0250 L = 0.0860 mol L⁻¹.",
+        "Original concentration = 0.0860 mol L⁻¹ × 10 = 0.860 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.",
+        "Mass concentration of ammonia = 0.860 mol L⁻¹ × 17 g mol⁻¹ = 14.6 g L⁻¹."
+      ]
+    },
+    {
+      "h": "Problem 3: water of crystallisation in washing soda (Higher Level only)",
+      "points": [
+        "Data: 3.58 g of washing soda crystals, Na₂CO₃·xH₂O, were dissolved and made up to 250 cm³.",
+        "Data: 25.0 cm³ portions needed a mean titre of 25.0 cm³ of 0.100 M hydrochloric acid.",
+        "Moles HCl = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol.",
+        "Moles Na₂CO₃ in 25.0 cm³ = 2.50 × 10⁻³ mol ÷ 2 = 1.25 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.",
+        "Moles Na₂CO₃ in 250 cm³ = 1.25 × 10⁻³ mol × 10 = 1.25 × 10⁻² mol.",
+        "Mass of Na₂CO₃ = 1.25 × 10⁻² mol × 106 g mol⁻¹ = 1.325 g.",
+        "Mass of water = 3.58 g − 1.325 g = 2.255 g.",
+        "Moles of water = 2.255 g ÷ 18 g mol⁻¹ = 0.125 mol.",
+        "Ratio of water to Na₂CO₃ = 0.125 ÷ 0.0125 = 10, so x = 10 and the formula is Na₂CO₃·10H₂O."
+      ]
+    },
+    {
+      "h": "Problem 4: a back titration of an antacid tablet (Higher Level only)",
+      "points": [
+        "Data: an antacid tablet containing calcium carbonate was added to 50.0 cm³ of 1.00 M hydrochloric acid, an excess.",
+        "Data: when the tablet had reacted, the remaining acid needed 30.0 cm³ of 0.500 M sodium hydroxide.",
+        "Moles HCl added = 1.00 mol L⁻¹ × 0.0500 L = 0.0500 mol.",
+        "Moles HCl in excess = moles NaOH, because they react 1 : 1; moles NaOH = 0.500 mol L⁻¹ × 0.0300 L = 0.0150 mol.",
+        "Moles HCl that reacted with the tablet = 0.0500 mol − 0.0150 mol = 0.0350 mol.",
+        "Equation: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.",
+        "Moles CaCO₃ = 0.0350 mol ÷ 2 = 0.0175 mol.",
+        "Mass of calcium carbonate per tablet = 0.0175 mol × 100 g mol⁻¹ = 1.75 g.",
+        "A back titration is needed because calcium carbonate is insoluble and reacts too slowly to titrate directly."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Standard solution", "definition": "A solution of accurately known concentration, prepared by weighing a pure solid and making it up to a known volume." },
+    { "term": "Standardise", "definition": "To find the exact concentration of a solution by titrating it against a standard solution." },
+    { "term": "Water of crystallisation", "definition": "Water molecules held in the crystal of a hydrated salt and written after a dot, e.g. Na₂CO₃·10H₂O." },
+    { "term": "Scale factor", "definition": "The total volume divided by the volume of the portion titrated, used to scale the moles in a portion up to the whole sample." },
+    { "term": "Excess reagent", "definition": "Reagent added in more than the amount needed, so that the sample reacts completely." },
+    { "term": "Back titration", "definition": "A titration in which an excess of known reagent reacts with the sample and the leftover reagent is titrated." },
+    { "term": "Mean titre", "definition": "The average of concordant titres, used in calculations in place of a single reading." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "2.65 g of anhydrous sodium carbonate was dissolved and made up to 500 cm³. 25.0 cm³ of this solution needed 22.0 cm³ of hydrochloric acid. Calculate (i) the concentration of the sodium carbonate solution, (ii) the concentration of the hydrochloric acid.",
+      "model": "(i) Moles Na₂CO₃ = 2.65 g ÷ 106 g mol⁻¹ = 0.0250 mol, in 0.500 L. Concentration = 0.0250 mol ÷ 0.500 L = 0.0500 mol L⁻¹. (ii) Moles Na₂CO₃ in 25.0 cm³ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol. Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂, so moles HCl = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol. Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0220 L = 0.114 mol L⁻¹."
+    },
+    {
+      "marks": 12,
+      "prompt": "An antacid tablet containing magnesium hydroxide was dissolved in 40.0 cm³ of 0.500 M hydrochloric acid (an excess). The excess acid needed 12.0 cm³ of 0.500 M sodium hydroxide. Calculate the mass of magnesium hydroxide in the tablet (Mg(OH)₂ = 58).",
+      "model": "Moles HCl added = 0.500 mol L⁻¹ × 0.0400 L = 0.0200 mol. Moles HCl in excess = moles NaOH = 0.500 mol L⁻¹ × 0.0120 L = 6.00 × 10⁻³ mol. Moles HCl that reacted with the tablet = 0.0200 mol − 0.00600 mol = 0.0140 mol. Equation: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O, so moles Mg(OH)₂ = 0.0140 mol ÷ 2 = 7.00 × 10⁻³ mol. Mass of Mg(OH)₂ = 7.00 × 10⁻³ mol × 58 g mol⁻¹ = 0.406 g."
+    }
+  ]
+}

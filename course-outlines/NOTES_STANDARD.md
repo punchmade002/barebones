@@ -110,6 +110,22 @@ at a time**; the build warns about part-written chapters.
 - **Past papers** in the app are all from the previous syllabus. Packages list only the
   question topics that are still on the specification.
 
+## Subject notes: chemistry
+
+- **Higher Level only.** As for biology: where the package marks an item [HL], put it in its
+  own block whose heading ends with " (Higher Level only)". Don't mark anything the package
+  doesn't mark. Where an outcome is partly bold, the normal part stays in an unmarked block.
+- **Formulas, equations and units** are plain Unicode: H₂SO₄, Na₂CO₃·10H₂O, Fe²⁺, SO₄²⁻, 1s² 2s²
+  2p⁶, ⇌, →, ΔH, −log₁₀[H⁺], mol L⁻¹, g mol⁻¹, cm³, 25 °C. Never use `$` or LaTeX. State symbols
+  (s), (l), (g), (aq) where they matter. Every equation is balanced.
+- **Calculations** are worked step by step, one step per bullet: the relationship used, the
+  numbers substituted with units, the answer with units and a sensible number of significant
+  figures. Label invented numbers "sample data". Use the package's relative atomic masses.
+- **Experiments and investigations** use the "Investigation" block type. Every piece of
+  apparatus the method names gets a "Diagram:" bullet saying what to draw and label.
+- **Past papers** in the app are from the previous (1999) syllabus. Packages list only the
+  question topics that are still on the 2025 specification.
+
 ## Worked example (geography)
 
 This is the target standard: dense, specific, non-repetitive and readable. It covers only the

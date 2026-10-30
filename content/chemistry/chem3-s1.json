@@ -1,0 +1,69 @@
+{
+  "loId": "chem3-s1",
+  "chapterId": "chem3",
+  "subsection": "1. The current orbital model",
+  "syllabusRef": "1.2.2",
+  "notes": [
+    {
+      "h": "The atom in the orbital model",
+      "points": [
+        "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Subatomic particles\").",
+        "Electrons surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
+        "The main energy levels increase in energy, and in average distance from the nucleus, as n increases.",
+        "Within a main energy level, electrons occupy orbitals.",
+        "An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.",
+        "Each orbital can hold a maximum of two electrons.",
+        "The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.",
+        "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered in \"Electronic structure\"."
+      ]
+    },
+    {
+      "h": "The orbital model compared with the Bohr model",
+      "points": [
+        "The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.",
+        "The orbital model gives no exact path or position for an electron, only its probability of being found in each region.",
+        "The orbital model keeps the Bohr idea of fixed energy levels.",
+        "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability.",
+        "Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Nucleus",
+      "definition": "The tiny, dense, positively charged centre of an atom, containing protons and neutrons."
+    },
+    {
+      "term": "Main energy level",
+      "definition": "A fixed energy level around the nucleus, numbered n = 1, 2, 3…, that increases in energy as n increases."
+    },
+    {
+      "term": "Orbital",
+      "definition": "A region of space around the nucleus in which there is a high probability of finding an electron."
+    },
+    {
+      "term": "Sublevel",
+      "definition": "A subdivision of a main energy level, made of orbitals."
+    },
+    {
+      "term": "Bohr model",
+      "definition": "The model in which electrons move in fixed circular paths at fixed distances from the nucleus."
+    },
+    {
+      "term": "Wave-particle duality",
+      "definition": "The idea that electrons behave both as particles and as waves."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Describe the structure of an atom according to the current orbital model, referring to the nucleus, energy levels and orbitals.",
+      "model": "The atom has a tiny, dense, positively charged nucleus containing protons and neutrons, surrounded by electrons. The electrons are arranged in main energy levels, numbered n = 1, 2, 3 and so on, which increase in energy and in average distance from the nucleus as n increases. Within a main energy level, electrons occupy orbitals. An orbital is a region of space around the nucleus in which there is a high probability of finding an electron. Each orbital holds a maximum of two electrons."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two differences between the Bohr model and the orbital model of the atom.",
+      "model": "In the Bohr model electrons move in fixed circular paths at fixed distances from the nucleus, whereas the orbital model gives no exact path or position for an electron, only the probability of finding it in a region. The orbital model also recognises that electrons behave both as particles and as waves, so their exact position and motion cannot both be known, and it describes probability instead of fixed orbits."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "loId": "chem1-s10",
+  "chapterId": "chem1",
+  "subsection": "10. Communicating findings",
+  "syllabusRef": "U2.6",
+  "notes": [
+    {
+      "h": "Structure of a scientific report",
+      "points": [
+        "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis.",
+        "The method gives the equipment, a step-by-step procedure and the safety precautions.",
+        "The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.",
+        "The report ends with a conclusion, an evaluation and references.",
+        "The report is written in the past tense and in an impersonal style."
+      ]
+    },
+    {
+      "h": "Scientific terminology and representations",
+      "points": [
+        "Precise terms are used, e.g. “dissolves”, not “melts”, for a solid going into solution, and “effervescence” for bubbles of gas.",
+        "Correct SI units and IUPAC names are used throughout.",
+        "Representations include balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs and energy profile diagrams."
+      ]
+    },
+    {
+      "h": "Communicating with different audiences",
+      "points": [
+        "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster.",
+        "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained.",
+        "The same findings may be communicated as a report, poster, presentation, infographic or article.",
+        "The format is chosen for the purpose and the audience."
+      ]
+    },
+    {
+      "h": "Justifying opinions and citing sources",
+      "points": [
+        "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.",
+        "Each source is cited in the text and listed in full in the references, so that readers can check it.",
+        "Copying someone else's work without acknowledgement is plagiarism.",
+        "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Scientific report", "definition": "A written account of an investigation giving its introduction, method, results, analysis, conclusion, evaluation and references." },
+    { "term": "Counter-argument", "definition": "A point that opposes a claim, which a well-justified argument considers and answers." },
+    { "term": "Citation", "definition": "A reference in the text to a source, matched by a full entry in the list of references." },
+    { "term": "Plagiarism", "definition": "Presenting another person's work as your own without acknowledging it." },
+    { "term": "State symbol", "definition": "A symbol in brackets, such as (s), (l), (g) or (aq), showing the physical state of a substance in an equation." },
+    { "term": "Structural formula", "definition": "A formula that shows how the atoms in a molecule are arranged and bonded." },
+    { "term": "IUPAC name", "definition": "A systematic name for a compound, set by the International Union of Pure and Applied Chemistry." },
+    { "term": "Energy profile diagram", "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "List the main sections of a scientific report of an experiment and state what each contains.",
+      "model": "The introduction gives the background research and the research question, followed by the hypothesis. The method gives the equipment, a step-by-step procedure and the safety precautions. The results are presented as tables and graphs. The analysis gives the calculations and the patterns in the data. The conclusion states what the data show about the hypothesis. The evaluation judges the method and data and suggests improvements. The references list the sources cited in the text."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe two differences between communicating the results of an investigation to other scientists and to the general public.",
+      "model": "Other scientists need full technical detail, the data and the references, as in a journal paper or conference poster. The general public needs plain language, with the key findings stated first, simple graphics, and technical terms explained."
+    }
+  ]
+}

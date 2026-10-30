@@ -1,0 +1,99 @@
+{
+  "loId": "chem10-s3",
+  "chapterId": "chem10",
+  "subsection": "3. Empirical and molecular formulae",
+  "syllabusRef": "1.4.7",
+  "notes": [
+    {
+      "h": "Definitions",
+      "points": [
+        "Empirical formula: the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O.",
+        "Molecular formula: the actual number of atoms of each element in one molecule, e.g. C₆H₁₂O₆ for glucose.",
+        "The molecular formula is a whole-number multiple of the empirical formula.",
+        "For ionic compounds the formula is always the empirical formula, e.g. NaCl and MgO."
+      ]
+    },
+    {
+      "h": "Percentage composition by mass",
+      "points": [
+        "Relative atomic masses used in this section: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.",
+        "Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100.",
+        "Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.",
+        "Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%."
+      ]
+    },
+    {
+      "h": "Finding an empirical formula",
+      "points": [
+        "Step 1: Write the mass (or percentage) of each element.",
+        "Step 2: Divide each by its relative atomic mass to get the number of moles.",
+        "Step 3: Divide each by the smallest number of moles to get the ratio.",
+        "Step 4: If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.",
+        "Do not round a ratio such as 1.5 to 2; multiply all the values up instead.",
+        "Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.",
+        "Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.",
+        "Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.",
+        "The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g.",
+        "Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol.",
+        "The ratio Mg : O is 1 : 1, so the formula is MgO."
+      ]
+    },
+    {
+      "h": "Finding a molecular formula",
+      "points": [
+        "Step 1: Divide the relative molecular mass (Mr) by the mass of the empirical formula unit.",
+        "Step 2: Multiply every number in the empirical formula by that result.",
+        "Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.",
+        "Example: a hydrocarbon of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.",
+        "Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).",
+        "56 ÷ 14 = 4, so the molecular formula is C₄H₈."
+      ]
+    },
+    {
+      "h": "Investigation: formula of magnesium oxide",
+      "points": [
+        "Step 1: Weigh a clean crucible and lid, add a coiled length of clean magnesium ribbon and reweigh.",
+        "Step 2: Heat strongly, lifting the lid slightly from time to time to let air in while keeping white smoke (magnesium oxide) from escaping.",
+        "Step 3: When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.",
+        "Step 4: Cool and reweigh, then heat, cool and reweigh again until the mass is constant.",
+        "Step 5: Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.",
+        "Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.",
+        "Diagram: a crucible with its lid on a pipeclay triangle, on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner."
+      ]
+    },
+    {
+      "h": "Water of crystallisation",
+      "points": [
+        "Water of crystallisation: water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.",
+        "Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous.",
+        "Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.",
+        "Mass of water lost: 2.50 − 1.60 = 0.90 g.",
+        "Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).",
+        "Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.",
+        "Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Empirical formula", "definition": "The simplest whole-number ratio of the atoms of each element in a compound." },
+    { "term": "Molecular formula", "definition": "The actual number of atoms of each element in one molecule of a compound." },
+    { "term": "Relative atomic mass (Ar)", "definition": "The average mass of an atom of an element compared with one twelfth of the mass of a carbon-12 atom." },
+    { "term": "Relative molecular mass (Mr)", "definition": "The sum of the relative atomic masses of all the atoms in a formula." },
+    { "term": "Mole", "definition": "The amount of a substance whose mass in grams equals its relative atomic or molecular mass." },
+    { "term": "Percentage composition", "definition": "The percentage by mass of each element in a compound." },
+    { "term": "Water of crystallisation", "definition": "Water held in a fixed ratio within the crystals of some salts, shown after a dot in the formula." },
+    { "term": "Anhydrous", "definition": "Describes a salt with no water of crystallisation." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "A compound contains 52.2% carbon, 13.0% hydrogen and 34.8% oxygen by mass, and its Mr is 46. Find its empirical and molecular formulae.",
+      "model": "Step 1: Divide each percentage by its relative atomic mass. C: 52.2 ÷ 12 = 4.35. H: 13.0 ÷ 1 = 13.0. O: 34.8 ÷ 16 = 2.175. Step 2: Divide each by the smallest value, 2.175. C: 4.35 ÷ 2.175 = 2.0. H: 13.0 ÷ 2.175 = 5.98, which is 6. O: 2.175 ÷ 2.175 = 1. The ratio C : H : O is 2 : 6 : 1, so the empirical formula is C₂H₆O. Step 3: The mass of the empirical formula unit is 2(12) + 6(1) + 16 = 46. Step 4: Mr ÷ empirical mass = 46 ÷ 46 = 1, so the molecular formula is the same as the empirical formula: C₂H₆O."
+    },
+    {
+      "marks": 6,
+      "prompt": "Calculate the percentage by mass of water in washing soda, Na₂CO₃·10H₂O (Na = 23).",
+      "model": "Step 1: Mr of Na₂CO₃·10H₂O = 2(23) + 12 + 3(16) + 10(18) = 46 + 12 + 48 + 180 = 286. Step 2: Mass of water = 10 × 18 = 180. Step 3: Percentage of water = 180 ÷ 286 × 100 = 62.9%."
+    }
+  ]
+}

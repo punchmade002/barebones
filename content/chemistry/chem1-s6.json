@@ -1,0 +1,90 @@
+{
+  "loId": "chem1-s6",
+  "chapterId": "chem1",
+  "subsection": "6. Designing and conducting investigations",
+  "syllabusRef": "U2.3",
+  "notes": [
+    {
+      "h": "Planning an investigation",
+      "points": [
+        "A plan states the aim or hypothesis, the variables, the equipment and chemicals, a step-by-step method, the measurements to be taken and how often, and the number of repeats.",
+        "A plan also includes a risk assessment and states how the data will be recorded and analysed.",
+        "Choose a suitable range and number of values for the independent variable; at least five values across a sensible range is a suggested minimum.",
+        "Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison, e.g. hydrogen peroxide with no catalyst."
+      ]
+    },
+    {
+      "h": "Design terms: fairness, validity, reliability, error and integrity",
+      "points": [
+        "Fairness (a fair test): only the independent variable is changed, and all other variables are controlled.",
+        "Validity: the investigation actually tests the hypothesis and measures what it claims to measure; it requires a fair test and suitable measurements.",
+        "Reliability: results can be trusted because they are consistent when the investigation is repeated.",
+        "Reliability is improved by repeating each measurement at least three times, calculating a mean, and comparing the results with those of other groups.",
+        "Accuracy and precision are improved by choosing suitable equipment and good technique; they are defined in “Measurement and error”.",
+        "Error: likely sources of error are identified in advance and the design is changed to reduce them, e.g. a burette rather than a measuring cylinder is used for accurate volumes.",
+        "Integrity: all results are recorded honestly, including unexpected ones; data are not invented, altered or selectively deleted; others' work is acknowledged."
+      ]
+    },
+    {
+      "h": "Selecting suitable equipment",
+      "points": [
+        "A pipette or burette is used for accurate volumes of solution.",
+        "A volumetric flask is used to make up a solution to an exact volume.",
+        "A measuring cylinder is used only where an approximate volume is enough.",
+        "A balance with a suitable resolution, e.g. 0.01 g, is used for small masses.",
+        "A thermometer or temperature probe with an appropriate range is used to measure temperature.",
+        "A gas syringe is used to measure gas volumes.",
+        "Data-loggers and sensors for pH, temperature and pressure give continuous readings.",
+        "Each choice of equipment is justified in terms of accuracy, precision and safety."
+      ]
+    },
+    {
+      "h": "Safe laboratory practice",
+      "points": [
+        "Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair.",
+        "Do not eat or drink in the laboratory, and wash hands after practical work.",
+        "Use a fume cupboard for toxic or harmful gases and for volatile, flammable or harmful liquids.",
+        "Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame.",
+        "When diluting concentrated acids, add the acid to water, never water to acid.",
+        "Use a pipette filler; never pipette by mouth.",
+        "Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed."
+      ]
+    },
+    {
+      "h": "Risk assessment",
+      "points": [
+        "A hazard is anything that could cause harm, such as a corrosive acid.",
+        "A risk is the likelihood that harm will happen and how serious it would be.",
+        "1. Identify each hazard from labels, hazard pictograms and safety data sheets.",
+        "2. Assess the risk of each hazard.",
+        "3. Decide on control measures that reduce the risk.",
+        "4. Know what to do in an emergency.",
+        "The GHS (Globally Harmonized System) uses nine hazard pictograms, each with a red diamond border: corrosive, flammable, toxic, harmful or irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive and compressed gas.",
+        "Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns; controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Fair test", "definition": "An investigation in which only the independent variable is changed and all other variables are controlled." },
+    { "term": "Validity", "definition": "The extent to which an investigation actually tests the hypothesis and measures what it claims to measure." },
+    { "term": "Reliability", "definition": "The extent to which results are consistent when an investigation is repeated, so that they can be trusted." },
+    { "term": "Control", "definition": "A set-up in which the factor being tested is absent, used for comparison." },
+    { "term": "Integrity", "definition": "Recording all results honestly, including unexpected ones, and not inventing, altering or selectively deleting data." },
+    { "term": "Hazard", "definition": "Anything that could cause harm." },
+    { "term": "Risk", "definition": "The likelihood that harm will happen, and how serious it would be." },
+    { "term": "Risk assessment", "definition": "The process of identifying hazards, assessing their risks and deciding on control measures." },
+    { "term": "Fume cupboard", "definition": "A ventilated enclosure that removes toxic or harmful fumes from the work area." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Explain how fairness, reliability and validity would be ensured in an investigation of the effect of temperature on the rate of a reaction.",
+      "model": "Fairness: only the temperature is changed, using a water bath set to each chosen value, and the concentrations and volumes of the reactants and the other conditions are kept the same. Reliability: each temperature is repeated at least three times, a mean is calculated, and the results are compared with those of other groups; any repeat that differs widely is checked. Validity: the method measures the rate directly, for example as the time taken for a set change to occur, the temperature is measured at the moment of reaction, and the hypothesis is tested across a suitable range of temperatures using at least five values."
+    },
+    {
+      "marks": 6,
+      "prompt": "Carry out a risk assessment for diluting concentrated sulfuric acid to make a dilute solution.",
+      "model": "Hazard: concentrated sulfuric acid is corrosive. Risk: the acid can cause severe burns to skin and eyes, and heat is released when it is diluted, which may cause splashing; the risk is high because the acid is concentrated. Control measures: wear goggles, a lab coat and gloves; add the acid slowly to water, never water to acid; use a small volume with a pipette filler. Emergency: if the acid touches the skin, wash it with plenty of water, and know the location of the eyewash."
+    }
+  ]
+}

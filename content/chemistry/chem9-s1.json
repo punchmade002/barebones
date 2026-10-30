@@ -1,0 +1,84 @@
+{
+  "loId": "chem9-s1",
+  "chapterId": "chem9",
+  "subsection": "1. The particulate nature of matter",
+  "syllabusRef": "1.1 LA",
+  "notes": [
+    {
+      "h": "Matter is made of particles",
+      "points": [
+        "All matter is made of tiny particles (atoms, molecules or ions) that are constantly moving, with spaces between them."
+      ]
+    },
+    {
+      "h": "The three states of matter",
+      "points": [
+        "Solid: the particles are packed closely in a fixed, regular arrangement and vibrate about fixed positions.",
+        "Liquid: the particles are close together but can move past each other.",
+        "Gas: the particles are far apart and move rapidly and randomly in all directions.",
+        "Diagram: three boxes showing the particle arrangement in a solid, a liquid and a gas."
+      ]
+    },
+    {
+      "h": "Pure substances",
+      "b": "A pure substance is made of only one kind of particle, so it has fixed properties.",
+      "points": [
+        "A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point.",
+        "An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means, e.g. iron (Fe) and oxygen (O₂).",
+        "A compound is a substance made of two or more different elements chemically combined in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).",
+        "A compound has properties that differ from those of its elements, and it can be separated into them only by a chemical reaction.",
+        "Molecules can be of elements (O₂, N₂, Cl₂) or of compounds (H₂O, CO₂)."
+      ]
+    },
+    {
+      "h": "Mixtures",
+      "b": "A mixture is two or more substances that are not chemically combined, so each keeps its own properties.",
+      "points": [
+        "A mixture can have a variable composition, and its components keep their own properties.",
+        "A mixture can be separated by physical methods (see “Separation techniques”) and has no sharp melting or boiling point.",
+        "A homogeneous mixture has a uniform composition throughout and a single phase, e.g. salt solution, air and an alloy.",
+        "A heterogeneous mixture is non-uniform, with visibly different parts or phases, e.g. sand and water, oil and water, and granite."
+      ]
+    },
+    {
+      "h": "Testing purity",
+      "points": [
+        "A pure substance has a sharp melting point that matches the data-book value.",
+        "Impurities lower the melting point and make the substance melt over a range of temperatures."
+      ]
+    },
+    {
+      "h": "Comparing compounds and mixtures",
+      "points": [
+        "A compound has a fixed composition; a mixture has a variable composition.",
+        "The elements in a compound are chemically combined; the substances in a mixture are not.",
+        "A compound has new properties; a mixture's components keep their own properties.",
+        "A compound can be separated only chemically; a mixture can be separated physically.",
+        "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
+        "Diagram: particle diagrams of an element (single atoms and diatomic molecules), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Pure substance", "definition": "A substance containing only one kind of particle, with fixed properties such as a sharp melting point." },
+    { "term": "Element", "definition": "A substance made of only one kind of atom, which cannot be split into simpler substances by chemical means." },
+    { "term": "Compound", "definition": "A substance made of two or more different elements chemically combined in a fixed ratio." },
+    { "term": "Mixture", "definition": "Two or more substances that are not chemically combined and can be separated by physical methods." },
+    { "term": "Homogeneous mixture", "definition": "A mixture with a uniform composition throughout and a single phase." },
+    { "term": "Heterogeneous mixture", "definition": "A non-uniform mixture with visibly different parts or phases." },
+    { "term": "Molecule", "definition": "A particle made of two or more atoms chemically bonded together." },
+    { "term": "Diatomic molecule", "definition": "A molecule made of two atoms of the same element, e.g. O₂, N₂ or Cl₂." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Distinguish between an element, a compound and a mixture, giving one example of each.",
+      "model": "An element is a substance made of only one kind of atom that cannot be split into simpler substances by chemical means, e.g. iron (Fe) or oxygen (O₂). A compound is a substance made of two or more different elements chemically combined in a fixed ratio, e.g. water (H₂O); its properties differ from those of its elements, and it can be separated only by a chemical reaction. A mixture contains two or more substances that are not chemically combined, so its composition can vary and its components keep their own properties, e.g. salt solution, which can be separated physically by evaporation."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two differences between a compound and a mixture, and explain how melting point can be used to test whether a substance is pure.",
+      "model": "Difference 1: a compound has a fixed composition, whereas a mixture has a variable composition. Difference 2: the elements in a compound are chemically combined and it can be separated only by a chemical reaction, whereas the substances in a mixture are not chemically combined and can be separated by physical methods. Purity test: a pure substance melts sharply at a melting point that matches the data-book value. Impurities lower the melting point and make the substance melt over a range of temperatures, so a sample that melts over a range, or below the data-book value, is impure."
+    }
+  ]
+}

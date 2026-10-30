@@ -1,0 +1,106 @@
+{
+  "loId": "chem7-s1",
+  "chapterId": "chem7",
+  "subsection": "1. Specific groups",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Position and properties",
+      "points": [
+        "Elements in the same group have the same number of outer electrons, so they undergo similar reactions.",
+        "Going down a group, atoms have more energy levels, which explains the trends in reactivity within each group.",
+        "Groups 1 and 2 are on the left of the periodic table; they are metals that lose electrons to form positive ions.",
+        "Groups 17 and 18 are on the right; the halogens (group 17) are non-metals that gain electrons, and the noble gases (group 18) neither gain nor lose electrons.",
+        "Hydrogen appears in group 1 in some tables but is not an alkali metal."
+      ]
+    },
+    {
+      "h": "Group 1: the alkali metals",
+      "points": [
+        "Members: lithium, sodium, potassium, rubidium, caesium and francium; each atom has one outer electron.",
+        "State and conductivity: soft, shiny solids when freshly cut, with low densities and low melting points for metals; good conductors of heat and electricity.",
+        "Reactivity: very reactive; they tarnish quickly in air and are stored under oil.",
+        "With water they form an alkaline hydroxide and hydrogen: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).",
+        "Lithium: 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g). Potassium: 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g).",
+        "Lithium floats and fizzes steadily on the water.",
+        "Sodium melts into a silvery ball that darts about on the surface.",
+        "Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame.",
+        "The solution formed turns universal indicator purple, showing that it is alkaline.",
+        "Reactivity increases down the group because the outer electron is further from the nucleus and more shielded, so it is lost more easily.",
+        "They form 1+ ions (Li⁺, Na⁺, K⁺) and ionic compounds such as sodium chloride.",
+        "Safety: use only small pieces, behind a safety screen and wearing goggles; never touch them with bare hands."
+      ]
+    },
+    {
+      "h": "Group 2: the alkaline earth metals",
+      "points": [
+        "Members: beryllium, magnesium, calcium, strontium, barium and radium; each atom has two outer electrons.",
+        "State and conductivity: solid metals, harder and denser than group 1 metals; good conductors.",
+        "Reactivity: reactive, but less so than group 1 metals in the same period, because two electrons must be lost.",
+        "Calcium reacts steadily with cold water: Ca(s) + 2H₂O(l) → Ca(OH)₂(aq) + H₂(g).",
+        "Magnesium reacts only very slowly with cold water but burns in air with a bright white flame: 2Mg(s) + O₂(g) → 2MgO(s).",
+        "Reactivity increases down the group, for the same reason as group 1.",
+        "They form 2+ ions (Mg²⁺, Ca²⁺)."
+      ]
+    },
+    {
+      "h": "Group 17: the halogens",
+      "points": [
+        "Members: fluorine, chlorine, bromine and iodine (astatine); each atom has seven outer electrons.",
+        "The halogens exist as diatomic molecules: F₂, Cl₂, Br₂ and I₂.",
+        "Fluorine is a pale yellow gas at room temperature.",
+        "Chlorine is a yellow-green gas at room temperature.",
+        "Bromine is a red-brown liquid at room temperature.",
+        "Iodine is a grey-black solid that forms a purple vapour when heated.",
+        "Conductivity: halogens are non-metals and do not conduct electricity.",
+        "Reactivity: very reactive non-metals that gain one electron to form 1− halide ions: F⁻, Cl⁻, Br⁻ and I⁻.",
+        "They react with metals to form salts, e.g. 2Na(s) + Cl₂(g) → 2NaCl(s).",
+        "Reactivity decreases down the group because larger atoms attract an extra electron less strongly, as it is further from the nucleus and more shielded.",
+        "Displacement: a more reactive halogen displaces a less reactive one from a solution of its salt.",
+        "Chlorine and potassium bromide: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq); the colourless solution turns orange-brown.",
+        "Chlorine and potassium iodide: Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq); the solution turns brown.",
+        "Bromine displaces iodine from a solution of its salt but does not displace chlorine.",
+        "Safety: halogens are toxic and corrosive, so they are used in a fume cupboard."
+      ]
+    },
+    {
+      "h": "Group 18: the noble gases",
+      "points": [
+        "Members: helium, neon, argon, krypton, xenon and radon.",
+        "State: colourless, odourless gases made of single atoms (monatomic).",
+        "Conductivity: non-conductors.",
+        "Reactivity: very unreactive (inert) because they have full outer energy levels, a stable arrangement: helium has 2 outer electrons and the others have 8.",
+        "Helium is used in balloons and airships because it is unreactive and has a low density.",
+        "Argon is used in filament light bulbs and as a shield gas in welding.",
+        "Neon is used in advertising signs, where it glows red in an electric discharge."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Alkali metal", "definition": "A group 1 metal, with one outer electron, that is soft, very reactive and forms 1+ ions." },
+    { "term": "Alkaline earth metal", "definition": "A group 2 metal, with two outer electrons, that forms 2+ ions." },
+    { "term": "Halogen", "definition": "A group 17 non-metal, with seven outer electrons, that gains one electron to form a 1− halide ion." },
+    { "term": "Noble gas", "definition": "A group 18 element that exists as single atoms and is unreactive because its outer energy level is full." },
+    { "term": "Monatomic", "definition": "Describes a substance whose particles are single atoms, as in the noble gases." },
+    { "term": "Displacement reaction", "definition": "A reaction in which a more reactive element takes the place of a less reactive element in a compound." },
+    { "term": "Inert", "definition": "Describes a substance that is very unreactive and does not take part in chemical reactions under normal conditions." },
+    { "term": "Diatomic molecule", "definition": "A molecule made of two atoms of the same element, such as Cl₂." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe what you would observe when a small piece of sodium is added to water containing universal indicator, write a balanced equation, and explain why potassium reacts more vigorously.",
+      "model": "Sodium melts into a silvery ball that darts about on the surface, and the hydrogen given off fizzes. The universal indicator turns purple because the solution formed is alkaline, containing sodium hydroxide. Balanced equation: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). Potassium reacts more vigorously because it is further down group 1. Its outer electron is further from the nucleus and more shielded, so it is lost more easily. Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame."
+    },
+    {
+      "marks": 9,
+      "prompt": "Chlorine gas is bubbled into a colourless solution of potassium bromide. State what you would observe, write a balanced equation and explain why the reaction occurs.",
+      "model": "The colourless solution turns orange-brown as bromine is formed. Balanced equation: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq). The reaction occurs because chlorine is more reactive than bromine. Reactivity decreases down group 17 because larger atoms attract an extra electron less strongly. Chlorine, higher in the group, gains an electron more readily than bromine, so it displaces bromine from its salt, and bromide ions lose electrons to form bromine."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the noble gases are very unreactive and give one use of argon.",
+      "model": "The noble gases have full outer energy levels, which is a stable arrangement: helium has 2 outer electrons and the others have 8. They therefore do not need to gain, lose or share electrons, so they are very unreactive. Argon is used in filament light bulbs, or as a shield gas in welding."
+    }
+  ]
+}

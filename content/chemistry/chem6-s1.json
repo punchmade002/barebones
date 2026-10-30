@@ -1,0 +1,91 @@
+{
+  "loId": "chem6-s1",
+  "chapterId": "chem6",
+  "subsection": "1. Electronegativity and bond type",
+  "syllabusRef": "2.1.2",
+  "notes": [
+    {
+      "h": "Electronegativity",
+      "b": "Electronegativity measures how strongly an atom attracts the shared pair of electrons in a covalent bond. The continuum from ionic to non-polar covalent bonding is introduced in “Types of chemical bonding”.",
+      "points": [
+        "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond.",
+        "It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4); Pauling values have no units.",
+        "Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.",
+        "Non-metals have high electronegativities and metals have low ones."
+      ]
+    },
+    {
+      "h": "Trends across periods and down groups",
+      "points": [
+        "Across a period (left to right) electronegativity increases, e.g. from Na 0.93 to Cl 3.16.",
+        "Across a period the nuclear charge increases while electrons are added to the same main energy level, so the atomic radius decreases.",
+        "Because the atomic radius decreases across a period, the nucleus attracts the bonding electrons more strongly.",
+        "Down a group electronegativity decreases, e.g. from F 3.98 to I 2.66.",
+        "Down a group each element has an extra energy level, so the atomic radius increases.",
+        "Inner electrons screen (shield) the outer electrons from the nucleus; the bonding electrons are further away and less strongly attracted, even though the nuclear charge is greater.",
+        "Noble gases are usually given no electronegativity value because they rarely form bonds."
+      ]
+    },
+    {
+      "h": "Predicting bond type: method and worked examples",
+      "b": "The difference in electronegativity between two bonded atoms predicts the bond type. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum.",
+      "points": [
+        "Step 1: Look up the Pauling electronegativity of each atom.",
+        "Step 2: Subtract the smaller value from the larger to find the difference.",
+        "Step 3: Compare the difference with the cut-offs below.",
+        "The larger the difference, the more ionic the bond.",
+        "A difference greater than 1.7 gives a mainly ionic bond, e.g. NaCl: 3.16 − 0.93 = 2.23.",
+        "A difference between about 0.4 and 1.7 gives a polar covalent bond, e.g. H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.",
+        "A difference less than about 0.4 gives a non-polar (pure) covalent bond, e.g. C–H: 2.55 − 2.20 = 0.35.",
+        "A bond between identical atoms has a difference of zero and is non-polar, e.g. Cl–Cl: 3.16 − 3.16 = 0.",
+        "In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Electronegativity",
+      "definition": "The relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond."
+    },
+    {
+      "term": "Pauling scale",
+      "definition": "The scale of electronegativity values, unitless, on which fluorine has the highest value of 3.98."
+    },
+    {
+      "term": "Screening (shielding)",
+      "definition": "The reduction in attraction between the nucleus and outer electrons caused by inner electrons."
+    },
+    {
+      "term": "Atomic radius",
+      "definition": "The size of an atom, measured from its nucleus to its outermost electrons."
+    },
+    {
+      "term": "Ionic bond",
+      "definition": "A mainly electrostatic attraction between oppositely charged ions, formed when the electronegativity difference is large."
+    },
+    {
+      "term": "Polar covalent bond",
+      "definition": "A covalent bond in which the shared electrons are drawn unevenly towards the more electronegative atom."
+    },
+    {
+      "term": "Non-polar covalent bond",
+      "definition": "A covalent bond in which the shared electrons are shared equally, because the two atoms have the same or nearly the same electronegativity."
+    },
+    {
+      "term": "Partial charge (δ+ and δ−)",
+      "definition": "A small positive (δ+) or negative (δ−) charge on an atom in a polar bond, shown with the symbol δ."
+    }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Define electronegativity and explain why electronegativity decreases down group 17.",
+      "model": "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. Down group 17 electronegativity decreases, e.g. from F 3.98 to I 2.66. Each element down the group has an extra energy level, so the atomic radius increases. The inner electrons screen (shield) the outer electrons from the nucleus, so the bonding electrons are further from the nucleus and less strongly attracted, even though the nuclear charge is greater."
+    },
+    {
+      "marks": 9,
+      "prompt": "Use electronegativity values to predict the type of bonding in (i) KBr, (ii) NH₃, (iii) Br₂, showing your working.",
+      "model": "(i) KBr: Pauling values K 0.82 and Br 2.96. Difference 2.96 − 0.82 = 2.14, which is greater than 1.7, so the bond is mainly ionic. (ii) NH₃: N–H bonds with N 3.04 and H 2.20. Difference 3.04 − 2.20 = 0.84, which is between about 0.4 and 1.7, so each N–H bond is polar covalent, with the δ− charge on nitrogen. (iii) Br₂: both atoms are Br with value 2.96. Difference 2.96 − 2.96 = 0, so the bond is pure (non-polar) covalent."
+    }
+  ]
+}

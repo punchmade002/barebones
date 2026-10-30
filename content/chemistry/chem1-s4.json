@@ -1,0 +1,68 @@
+{
+  "loId": "chem1-s4",
+  "chapterId": "chem1",
+  "subsection": "4. Researching a scientific issue",
+  "syllabusRef": "U1.2",
+  "notes": [
+    {
+      "h": "Planning the research",
+      "points": [
+        "Start with a focused research question about the issue, e.g. “What are the environmental effects of lithium mining?”",
+        "Identify keywords and search systematically rather than reading whatever appears first.",
+        "Record every source used: author, title, date, publisher or website, and the date accessed.",
+        "Take notes in your own words and keep a research log."
+      ]
+    },
+    {
+      "h": "Primary and secondary data",
+      "points": [
+        "Primary data are collected first-hand by the investigator, e.g. by experiment or measurement.",
+        "Secondary data are collected by someone else, e.g. published results, government statistics, databases or the results of other class groups.",
+        "Secondary data are used to compare with primary data, to check or support conclusions, or where an experiment cannot be done in school."
+      ]
+    },
+    {
+      "h": "Kinds of source",
+      "points": [
+        "Peer-reviewed journal articles are the most reliable sources but are often technical.",
+        "Books and textbooks, and reports from government agencies and scientific bodies, are further kinds of source.",
+        "The Environmental Protection Agency (EPA) is Ireland's environmental regulator.",
+        "The EPA publishes reports and data on air and water quality.",
+        "News media, websites, blogs and social media are accessible but of variable reliability; they may simplify, sensationalise or omit detail.",
+        "Company or campaign-group material may be written to sell a product or promote a view."
+      ]
+    },
+    {
+      "h": "Evaluating a source",
+      "points": [
+        "Authority: who wrote the source, and are they qualified and named?",
+        "Accuracy and evidence: are the claims supported by data and references, and can they be checked against other sources?",
+        "Currency: is the source up to date?",
+        "Purpose and bias: is it trying to inform, persuade or sell; who funded it; does it present only one side?",
+        "Detail: does it explain methods, sample sizes and uncertainties, or does it give only conclusions? A source may lack the detail needed to judge it.",
+        "Corroboration: a claim supported by several independent, reliable sources is more trustworthy than a claim from one source."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Research question", "definition": "A focused question about an issue that guides the search for information." },
+    { "term": "Primary data", "definition": "Data collected first-hand by the investigator, for example by experiment or measurement." },
+    { "term": "Secondary data", "definition": "Data collected by someone else, such as published results, government statistics or databases." },
+    { "term": "Peer-reviewed article", "definition": "A journal article that has been checked by independent experts before publication." },
+    { "term": "Bias", "definition": "A tendency to collect, interpret or present information so as to favour one outcome." },
+    { "term": "Corroboration", "definition": "Support for a claim from several independent and reliable sources." },
+    { "term": "Currency", "definition": "How up to date a source is, which affects how far its information can be trusted." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between primary data and secondary data, giving an example of each from a chemistry investigation.",
+      "model": "Primary data are collected first-hand by the investigator, for example by measuring the volume of gas produced in a reaction the student has carried out. Secondary data are collected by someone else, for example published results or the results of other class groups, which can be compared with the student's own primary data."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student researching the safety of a food additive finds a website run by the company that makes it. Describe three criteria the student should use to evaluate this source and other sources.",
+      "model": "Authority: the student should check who wrote the page and whether they are qualified and named. Purpose and bias: a company website is trying to sell the additive, so its claims about safety may present only one side; the student should check who funded the research and whether any limitations are mentioned. Accuracy and evidence: the student should check whether the claims are supported by data, methods and references that can be checked against independent sources. Corroboration, which also applies to other sources, means a safety claim is more trustworthy when several independent reliable sources support it."
+    }
+  ]
+}

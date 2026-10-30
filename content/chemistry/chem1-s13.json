@@ -1,0 +1,73 @@
+{
+  "loId": "chem1-s13",
+  "chapterId": "chem1",
+  "subsection": "13. Abstraction to representation",
+  "syllabusRef": "U4.1–U4.2",
+  "notes": [
+    {
+      "h": "Three levels of representation",
+      "points": [
+        "The macroscopic (observable) level is what we see, measure and handle, e.g. ice melting, a solution changing colour, or gas bubbles forming.",
+        "The sub-microscopic (particulate) level is made up of atoms, ions, molecules and electrons, and how they move and rearrange; these particles cannot be seen with a light microscope.",
+        "The sub-microscopic level explains the observations at the macroscopic level.",
+        "The symbolic level uses formulae, equations, diagrams and graphs to represent the particles and the changes.",
+        "Chemists move between the three levels: an explanation links what is seen to what the particles do, and writes it symbolically."
+      ]
+    },
+    {
+      "h": "Relating observations to particles",
+      "b": "Each example runs from the observation, to the particle explanation, to the symbolic equation.",
+      "points": [
+        "Ice melting, observed: a solid becomes a liquid at 0 °C at standard pressure.",
+        "Ice melting, particles: water molecules gain energy and partly overcome hydrogen bonds, so they move past one another.",
+        "Ice melting, symbolic: H₂O(s) → H₂O(l).",
+        "Magnesium in hydrochloric acid, observed: the solution fizzes and the magnesium disappears.",
+        "Magnesium in hydrochloric acid, particles: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions gain electrons to form H₂ molecules.",
+        "Magnesium in hydrochloric acid, symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+        "A sodium salt in a flame, observed: a yellow-orange colour.",
+        "A sodium salt in a flame, particles: electrons in sodium atoms are excited to higher energy levels, and emit light of a specific energy as they fall back.",
+        "A salt dissolving in water, observed: the solid disappears.",
+        "A salt dissolving in water, particles: water molecules surround and separate Na⁺ and Cl⁻ ions.",
+        "A salt dissolving in water, symbolic: NaCl(s) → Na⁺(aq) + Cl⁻(aq)."
+      ]
+    },
+    {
+      "h": "Visualising and generating models",
+      "points": [
+        "Chemists visualise particles they cannot see using drawings, physical models, animations and computer simulations.",
+        "Generating a model: propose a representation that fits the observations, use it to make a prediction, and test the prediction.",
+        "After testing, keep, modify or discard the model."
+      ]
+    },
+    {
+      "h": "Properties of models",
+      "b": "Models are simplified representations of complex systems or phenomena; the three properties below apply to every model.",
+      "points": [
+        "Simplified, with underlying assumptions: the kinetic theory assumes that gas particles have negligible volume and no forces between them.",
+        "Modified as more data become available: the Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron.",
+        "Predictive: VSEPR theory predicts the bond angle in a molecule before it is measured, and the ideal gas equation predicts the volume of a gas."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Macroscopic level", "definition": "The level of observable properties, which we see, measure and handle." },
+    { "term": "Sub-microscopic level", "definition": "The level of atoms, ions, molecules and electrons, and how they move and rearrange to explain observations." },
+    { "term": "Symbolic level", "definition": "The level of formulae, equations, diagrams and graphs that represent particles and changes." },
+    { "term": "Ion", "definition": "A charged particle formed when an atom or group of atoms gains or loses electrons." },
+    { "term": "Visualisation", "definition": "Using drawings, physical models, animations or simulations to represent particles that cannot be seen." },
+    { "term": "Assumption", "definition": "A condition accepted as true when building a model, which simplifies it so that it can be used." },
+    { "term": "Predictive model", "definition": "A model that allows a behaviour or value to be predicted before it is measured." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "When magnesium ribbon is added to dilute hydrochloric acid, bubbles form and the magnesium disappears. Describe this change at the macroscopic, sub-microscopic and symbolic levels.",
+      "model": "Macroscopic: bubbles form, the solution fizzes and the magnesium ribbon disappears. Sub-microscopic: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions in the acid gain electrons to form hydrogen molecules, H₂, which are the gas seen as bubbles. Symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)."
+    },
+    {
+      "marks": 6,
+      "prompt": "Using one example, explain each of the following statements about models: (i) a model is a simplified representation; (ii) a model can be modified as more data becomes available.",
+      "model": "(i) The kinetic theory is a simplified representation of a gas: it assumes that gas particles have negligible volume and no forces between them, which makes the model easy to use although real particles do have volume. (ii) The Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra of atoms with more than one electron."
+    }
+  ]
+}

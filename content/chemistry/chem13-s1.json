@@ -1,0 +1,79 @@
+{
+  "loId": "chem13-s1",
+  "chapterId": "chem13",
+  "subsection": "1. Solving acid–base volumetric problems",
+  "syllabusRef": "4.1.7",
+  "notes": [
+    {
+      "h": "The titration method",
+      "b": "Work through the steps in order; each step produces the quantity the next step needs. Units are as defined in \"Units of concentration\".",
+      "points": [
+        "Step 1: Write the balanced equation and note the mole ratio of the two reactants.",
+        "Step 2: Calculate the moles of the substance whose concentration and volume are both known, using n = c × V with V in litres (cm³ ÷ 1000).",
+        "Step 3: Use the mole ratio to find the moles of the other substance.",
+        "Step 4: Divide those moles by the volume of that solution in litres to get its concentration in mol L⁻¹.",
+        "Step 5: Convert to the units asked for: multiply the concentration in mol L⁻¹ by the molar mass in g mol⁻¹ to get g L⁻¹, then allow for any dilution.",
+        "To give %w/v, divide the value in g L⁻¹ by 10, because %w/v is grams of solute per 100 cm³ of solution."
+      ]
+    },
+    {
+      "h": "The titration formula",
+      "points": [
+        "For the reaction aA + bB → products: (cA × VA) ÷ a = (cB × VB) ÷ b, where a and b are the coefficients in the balanced equation.",
+        "The volumes can be in cm³ on both sides, because the units cancel.",
+        "Example: for Na₂CO₃ + 2HCl, (c(Na₂CO₃) × V(Na₂CO₃)) ÷ 1 = (c(HCl) × V(HCl)) ÷ 2.",
+        "The formula gives the same answer as the step-by-step method, so show the working whichever route is used."
+      ]
+    },
+    {
+      "h": "Dilution factors",
+      "points": [
+        "If a sample was diluted before titration, for example 25.0 cm³ made up to 250 cm³, the titration gives the diluted concentration.",
+        "Multiply the diluted concentration by the dilution factor to get the original concentration: 250 ÷ 25.0 = 10.",
+        "If a solid was dissolved and made up to a volume, the titration of a portion gives the moles in that portion only.",
+        "Scale up by (total volume ÷ portion volume) to get the moles in the whole sample, for example × 10 for 25.0 cm³ out of 250 cm³."
+      ]
+    },
+    {
+      "h": "Good practice in calculations",
+      "points": [
+        "Use the mean of the concordant titres, not the rough titre.",
+        "Give answers to three significant figures with units, matching the precision of the titration data.",
+        "Check the answer is sensible: a dilute laboratory solution is usually 0.01–2 M, and a % purity cannot exceed 100%."
+      ]
+    },
+    {
+      "h": "Unfamiliar contexts (Higher Level only)",
+      "points": [
+        "An unfamiliar problem may involve an unusual substance, a back titration, finding a formula or percentage purity, or a substance used in everyday life; the same method applies.",
+        "Read the question for the balanced equation, or write it yourself, then list the known quantities with units.",
+        "Plan the route through moles before calculating anything.",
+        "Back titration: an excess of a known amount of reagent is added to the sample, for example acid added to an insoluble antacid, and the excess is then titrated.",
+        "Moles that reacted with the sample = moles added − moles in excess.",
+        "Back titration is used when the sample is insoluble or reacts slowly."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Titre", "definition": "The volume of solution delivered from the burette at the end point of a titration." },
+    { "term": "Concordant titres", "definition": "Titre readings that agree closely with one another and are averaged to give the final result." },
+    { "term": "Rough titre", "definition": "A quick first titration done to find the approximate end point; it is not used in the mean." },
+    { "term": "Mole ratio", "definition": "The ratio of the amounts in moles of substances in a balanced equation, given by the coefficients." },
+    { "term": "Dilution factor", "definition": "The final volume divided by the volume of the portion taken, e.g. 250 ÷ 25.0 = 10." },
+    { "term": "Titration formula", "definition": "For aA + bB → products, (cA × VA) ÷ a = (cB × VB) ÷ b, where a and b are the coefficients." },
+    { "term": "Back titration", "definition": "A titration in which an excess of a known reagent reacts with the sample and the leftover reagent is then titrated." },
+    { "term": "%w/v", "definition": "The mass of solute in grams per 100 cm³ of solution; its value is one-tenth of the value in g L⁻¹." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "25.0 cm³ of sulfuric acid needed 20.0 cm³ of 0.150 M sodium hydroxide for neutralisation. Write the balanced equation and calculate the concentration of the sulfuric acid in (i) mol L⁻¹, (ii) g L⁻¹.",
+      "model": "Balanced equation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Moles of NaOH = 0.150 mol L⁻¹ × 0.0200 L = 3.00 × 10⁻³ mol. Mole ratio H₂SO₄ : NaOH = 1 : 2, so moles of H₂SO₄ = 3.00 × 10⁻³ ÷ 2 = 1.50 × 10⁻³ mol. (i) Concentration of H₂SO₄ = 1.50 × 10⁻³ mol ÷ 0.0250 L = 0.0600 mol L⁻¹. (ii) Mass concentration = 0.0600 mol L⁻¹ × 98 g mol⁻¹ = 5.88 g L⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain what is meant by a back titration and when it is used.",
+      "model": "A back titration is a titration in which an excess of a known amount of reagent is added to the sample, and the excess is then titrated. The moles that reacted with the sample equal the moles added minus the moles left in excess. It is used when the sample is insoluble or reacts slowly, for example acid added to an insoluble antacid."
+    }
+  ]
+}

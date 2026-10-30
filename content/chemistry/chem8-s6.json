@@ -1,0 +1,77 @@
+{
+  "loId": "chem8-s6",
+  "chapterId": "chem8",
+  "subsection": "6. Units of concentration",
+  "syllabusRef": "1.4.6",
+  "notes": [
+    {
+      "h": "Units of concentration",
+      "points": [
+        "mol L⁻¹ (molarity, M): moles of solute per litre of solution.",
+        "g L⁻¹: grams of solute per litre of solution.",
+        "%w/v (weight per volume): grams of solute per 100 cm³ of solution; e.g. 5% w/v glucose contains 5 g per 100 cm³.",
+        "%v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid; e.g. wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.",
+        "%w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams; e.g. 1% w/w hydrocortisone cream has 1 g in every 100 g."
+      ]
+    },
+    {
+      "h": "Converting between units",
+      "points": [
+        "mol L⁻¹ to g L⁻¹: multiply by the molar mass.",
+        "Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.",
+        "g L⁻¹ to mol L⁻¹: divide by the molar mass.",
+        "Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.",
+        "g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre.",
+        "Example: 4.0 g L⁻¹ = 0.40% w/v; to reverse the step, multiply %w/v by 10 to get g L⁻¹.",
+        "%w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass.",
+        "Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.",
+        "Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.",
+        "%v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.",
+        "Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.",
+        "%v/v to mass, using density: mass = volume × density.",
+        "Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.",
+        "%w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.",
+        "Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient."
+      ]
+    },
+    {
+      "h": "Parts per million (Higher Level only)",
+      "points": [
+        "p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture; it is used for very dilute solutions, such as pollutants and dissolved substances in water.",
+        "For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹).",
+        "This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.",
+        "For solids, 1 p.p.m. = 1 mg per kg.",
+        "Example: 0.0050 g of a substance in 2.5 L of water: 0.0050 g = 5.0 mg.",
+        "Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.",
+        "1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.",
+        "Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m.; fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).",
+        "p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Molarity (mol L⁻¹)", "definition": "Moles of solute per litre of solution." },
+    { "term": "g L⁻¹", "definition": "Grams of solute per litre of solution." },
+    { "term": "%w/v", "definition": "Grams of solute per 100 cm³ of solution." },
+    { "term": "%v/v", "definition": "Volume of solute in cm³ per 100 cm³ of solution, used for a liquid in a liquid." },
+    { "term": "%w/w", "definition": "Grams of solute per 100 g of the whole mixture, used for solids and creams." },
+    { "term": "Physiological saline", "definition": "A solution of 0.9% w/v sodium chloride, NaCl." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "A solution of sodium hydroxide has a concentration of 0.25 mol L⁻¹. Express its concentration in (i) g L⁻¹, (ii) %w/v.",
+      "model": "(i) M(NaOH) = 23 + 16 + 1 = 40 g mol⁻¹. Mass concentration: 0.25 mol L⁻¹ × 40 g mol⁻¹ = 10 g L⁻¹. (ii) 10 g L⁻¹ ÷ 10 = 1.0 g per 100 cm³, so the concentration is 1.0% w/v."
+    },
+    {
+      "marks": 6,
+      "prompt": "Calculate the volume of ethanol in a 500 cm³ bottle of beer that is 4.5% v/v.",
+      "model": "Volume of solute = volume of solution × %v/v ÷ 100 = 500 × 4.5 ÷ 100 = 22.5 cm³ of ethanol."
+    },
+    {
+      "marks": 6,
+      "prompt": "A 250 cm³ water sample contains 0.40 mg of nitrate ions. Express this concentration in p.p.m.",
+      "model": "Convert the volume to litres: 250 cm³ = 0.250 L. Concentration in mg L⁻¹: 0.40 mg ÷ 0.250 L = 1.6 mg L⁻¹. For a dilute aqueous solution, 1 p.p.m. = 1 mg L⁻¹, so the concentration is 1.6 p.p.m."
+    }
+  ]
+}

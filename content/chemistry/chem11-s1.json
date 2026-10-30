@@ -1,0 +1,89 @@
+{
+  "loId": "chem11-s1",
+  "chapterId": "chem11",
+  "subsection": "1. Categorising acids and bases",
+  "syllabusRef": "3.4.1",
+  "notes": [
+    {
+      "h": "Properties of acids",
+      "b": "Acids show a common set of properties that can be observed in the laboratory and at home.",
+      "points": [
+        "Acids taste sour; laboratory chemicals must never be tasted.",
+        "Acids turn blue litmus red and have a pH below 7.",
+        "Acids react with reactive metals such as magnesium and zinc to give hydrogen gas.",
+        "Acids react with carbonates to give carbon dioxide, seen as fizzing.",
+        "Acids neutralise bases.",
+        "Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits)."
+      ]
+    },
+    {
+      "h": "Properties of bases",
+      "points": [
+        "Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.",
+        "Bases turn red litmus blue and have a pH above 7.",
+        "Bases neutralise acids.",
+        "An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃).",
+        "Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.",
+        "Concentrated alkalis are corrosive: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners."
+      ]
+    },
+    {
+      "h": "Acid–base indicators",
+      "b": "An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.",
+      "points": [
+        "Litmus is red in acid and blue in base.",
+        "Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.",
+        "Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.",
+        "Universal indicator is a mixture of indicators that gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.",
+        "Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions."
+      ]
+    },
+    {
+      "h": "Everyday acids and bases",
+      "b": "Common substances are classed as acids or bases according to the properties they show.",
+      "points": [
+        "Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.",
+        "Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.",
+        "Antacids are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.",
+        "Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque produce, which would otherwise attack tooth enamel.",
+        "Baking soda (sodium hydrogencarbonate) is a weak base.",
+        "Oven cleaner (sodium hydroxide) is a strong alkali.",
+        "Lemonade and cola are acids: they contain citric, carbonic or phosphoric acid."
+      ]
+    },
+    {
+      "h": "Neutralisation in everyday life",
+      "b": "Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties.",
+      "points": [
+        "Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.",
+        "Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.",
+        "Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn.",
+        "Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.",
+        "Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.",
+        "Lime is added to acidic lakes to neutralise the acid."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Acid", "definition": "A substance with a pH below 7 that tastes sour, turns blue litmus red and neutralises bases." },
+    { "term": "Base", "definition": "A substance with a pH above 7 that turns red litmus blue, tastes bitter and neutralises acids." },
+    { "term": "Alkali", "definition": "A base that dissolves in water." },
+    { "term": "Indicator", "definition": "A substance that changes colour depending on whether it is in an acidic or a basic solution." },
+    { "term": "Universal indicator", "definition": "A mixture of indicators that gives a range of colours across the pH scale." },
+    { "term": "Neutralisation", "definition": "The reaction of an acid with a base to form a salt and water, in which the acid and base cancel out each other's properties." },
+    { "term": "Antacid", "definition": "A base that neutralises excess stomach acid, e.g. magnesium hydroxide." },
+    { "term": "Corrosive", "definition": "Able to destroy or burn skin and other materials, as concentrated acids and alkalis are." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Using two properties of each, explain why vinegar is classed as an acid and antacid tablets are classed as bases.",
+      "model": "Vinegar is an acid because it contains ethanoic acid, which turns blue litmus red, showing a pH below 7. Vinegar also reacts with carbonates: it fizzes with baking soda, giving off carbon dioxide. Antacid tablets are bases because they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, which turn red litmus blue, showing a pH above 7. Antacids also neutralise acids: they neutralise excess stomach acid."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe two everyday examples of neutralisation, and write a balanced equation for one of them.",
+      "model": "Example 1: farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) on acidic soil. The base neutralises the acid, raising the soil pH, so crops grow better. Example 2: antacid tablets neutralise excess hydrochloric acid in the stomach, relieving acid indigestion and heartburn. Balanced equation for the antacid: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "loId": "chem11-s2",
+  "chapterId": "chem11",
+  "subsection": "2. Acid–base reactions",
+  "syllabusRef": "3.4.2",
+  "notes": [
+    {
+      "h": "Salts",
+      "b": "Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal.",
+      "points": [
+        "A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion.",
+        "Hydrochloric acid gives chlorides, e.g. NaCl.",
+        "Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.",
+        "Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does."
+      ]
+    },
+    {
+      "h": "Acid + base (neutralisation)",
+      "b": "General word equation: acid + base → salt + water.",
+      "points": [
+        "HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)",
+        "H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)",
+        "With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.",
+        "With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.",
+        "Ionic equation for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).",
+        "Neutralisation is exothermic, so it releases heat."
+      ]
+    },
+    {
+      "h": "Acid + metal",
+      "b": "General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.",
+      "points": [
+        "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.",
+        "Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).",
+        "Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series.",
+        "Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop."
+      ]
+    },
+    {
+      "h": "Acid + carbonate or hydrogencarbonate",
+      "b": "General word equation: acid + carbonate → salt + water + carbon dioxide.",
+      "points": [
+        "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.",
+        "Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).",
+        "Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).",
+        "Test for carbon dioxide: it turns limewater milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l)."
+      ]
+    },
+    {
+      "h": "Predicting products",
+      "b": "Use this method to write the equation for any reaction of an acid.",
+      "points": [
+        "Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.",
+        "Step 2: Name the salt from the metal (or ammonium) ion and the acid.",
+        "Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.",
+        "Step 4: Balance the equation.",
+        "Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.",
+        "Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Salt", "definition": "A compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion." },
+    { "term": "Neutralisation", "definition": "The reaction of an acid with a base to form a salt and water." },
+    { "term": "Diprotic acid", "definition": "An acid with two replaceable hydrogen atoms, such as sulfuric acid." },
+    { "term": "Ammonium salt", "definition": "A salt containing the ammonium ion, NH₄⁺, such as ammonium chloride, formed when ammonia reacts with an acid." },
+    { "term": "Ionic equation", "definition": "An equation showing only the ions and molecules that take part in the change, e.g. H⁺(aq) + OH⁻(aq) → H₂O(l)." },
+    { "term": "Exothermic", "definition": "Describes a reaction that releases heat to the surroundings." },
+    { "term": "Limewater test", "definition": "A test for carbon dioxide: the gas turns limewater milky." },
+    { "term": "Splint test", "definition": "A test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Write balanced equations for the reactions of hydrochloric acid with (i) zinc, (ii) sodium carbonate, (iii) calcium hydroxide.",
+      "model": "(i) Zn + 2HCl → ZnCl₂ + H₂. (ii) Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. (iii) Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O."
+    },
+    {
+      "marks": 6,
+      "prompt": "Name the gas produced when magnesium reacts with dilute sulfuric acid, write the balanced equation, and describe a test for the gas.",
+      "model": "The gas is hydrogen. Mg + H₂SO₄ → MgSO₄ + H₂. Test: a lighted splint held at the mouth of the tube gives a squeaky pop."
+    }
+  ]
+}
