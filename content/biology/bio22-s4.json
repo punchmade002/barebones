@@ -1,0 +1,143 @@
+{
+  "loId": "bio22-s4",
+  "chapterId": "bio22",
+  "subsection": "Viruses: replication",
+  "syllabusRef": "2.4.13",
+  "notes": [
+    {
+      "h": "Why viruses must replicate inside cells",
+      "points": [
+        "A virus has no ribosomes, almost no enzymes and no energy supply, so it can't make anything by itself. It reproduces by delivering its nucleic acid into a host cell, which then makes new virus particles using its own ribosomes, enzymes, ATP, nucleotides and amino acids (structure is described in Viruses)."
+      ]
+    },
+    {
+      "h": "The stages of viral replication",
+      "points": [
+        "Stage 1, attachment: proteins on the capsid or envelope bind to specific receptor proteins on the host cell membrane.",
+        "HIV binds to the CD4 receptor on helper T cells, and the spike protein of SARS-CoV-2 binds to the ACE2 receptor on cells lining the airways. Receptor binding decides which cells a virus can infect.",
+        "Stage 2, entry: a bacteriophage injects only its nucleic acid through the bacterial wall, leaving the empty coat outside.",
+        "Animal viruses enter whole, either by the host membrane folding in around them (endocytosis) or, for enveloped viruses, by the envelope fusing with the host membrane.",
+        "Stage 3, uncoating: inside the cell, the capsid breaks down and releases the viral nucleic acid.",
+        "Stage 4, replication and synthesis: the viral genes take over the cell. Viral mRNA is made, and the host's ribosomes translate it into viral proteins, which are capsid proteins and viral enzymes.",
+        "In stage 4 the viral nucleic acid is copied many times, and host-cell activities are often shut down.",
+        "Stage 5, assembly: new nucleic acid and capsid proteins come together to form many new virus particles, often hundreds per cell.",
+        "Stage 6, release: either the cell bursts (lysis), releasing all the viruses at once and killing the cell, or, for enveloped viruses, each new virus pushes out through the membrane and takes a piece of it as its envelope (budding), so the cell can survive for a time.",
+        "The new viruses infect neighbouring cells, and the cycle repeats.",
+        "Diagram: the lytic cycle of a bacteriophage in five or six sketches arranged in a circle: phage attached to a bacterium by its tail fibres; DNA injected; phage DNA copied and phage proteins made; new phages assembled; cell bursting and releasing phages. Label phage, bacterial cell wall, phage DNA, bacterial chromosome and new phages.",
+        "Diagram: an enveloped animal virus, such as influenza, entering a cell by endocytosis or fusion and leaving by budding, with the host membrane forming the new envelope."
+      ]
+    },
+    {
+      "h": "Lytic and lysogenic cycles",
+      "points": [
+        "Lytic cycle: the virus replicates immediately, following the stages above, and the host cell bursts. Example: bacteriophage T4 infecting the bacterium E. coli.",
+        "Lysogenic cycle: some viruses insert their DNA into the host cell's chromosome, where it stays inactive and is copied every time the cell divides, so all daughter cells carry it.",
+        "In bacteria the inserted DNA is called a prophage. Example: bacteriophage lambda in E. coli.",
+        "A trigger, such as stress like UV light, can cut the viral DNA out of the chromosome and start the lytic cycle.",
+        "Latency in human viruses: some viruses hide in cells in an inactive state for years and reactivate later.",
+        "Herpes simplex virus stays in nerve cells after the first infection and reactivates to cause repeated cold sores.",
+        "Varicella-zoster virus causes chickenpox, stays in nerve cells, and can reactivate decades later as shingles.",
+        "A latent virus is hidden from the immune system and from antiviral drugs."
+      ]
+    },
+    {
+      "h": "How viruses harm the host",
+      "points": [
+        "Killing cells: lysis destroys infected cells. Influenza destroys cells lining the airways, causing a sore throat and cough, and the cold virus damages cells of the nose and throat.",
+        "Disrupting cell function: the virus diverts the cell's ribosomes, enzymes and energy to making viruses, so the cell stops its normal work.",
+        "Damaging the immune system: HIV infects and destroys helper T cells.",
+        "As helper T cell numbers fall over years, the immune system can no longer coordinate its responses, and the person develops AIDS (acquired immune deficiency syndrome).",
+        "People with AIDS die of opportunistic infections and cancers that a healthy immune system would control.",
+        "Causing cancer: some viruses insert genes that interfere with the control of cell division, e.g. human papillomavirus (HPV) and cervical cancer (detail in Causes, prevention and treatment of cancer).",
+        "Triggering harmful immune responses: much of the fever, aches and tissue damage in viral illness is caused by the body's own immune response (inflammation) to infected cells."
+      ]
+    },
+    {
+      "h": "DNA and RNA viruses",
+      "points": [
+        "Genetic material: a DNA virus has DNA as its genetic material; an RNA virus has RNA.",
+        "DNA viruses include herpes simplex and varicella-zoster (chickenpox) viruses, human papillomavirus (HPV), adenoviruses, the smallpox virus, and bacteriophages T4 and lambda.",
+        "RNA viruses include influenza, measles, mumps, polio, rhinoviruses (the common cold), SARS-CoV-2, HIV, Ebola and tobacco mosaic virus.",
+        "Where they replicate: most DNA viruses enter the host nucleus and use the host's own enzymes, such as DNA polymerase and RNA polymerase, to copy their DNA and make mRNA.",
+        "Poxviruses such as the smallpox virus are an exception: they replicate in the cytoplasm with their own enzymes.",
+        "Most RNA viruses replicate in the cytoplasm and must carry or code for their own enzyme, an RNA-dependent RNA polymerase, to copy RNA from RNA, because host cells have no enzyme that does this.",
+        "Mutation rate: the enzyme that copies RNA has no proofreading, so RNA viruses make many more copying errors and mutate much faster than DNA viruses, whose DNA is copied by host polymerases that proofread.",
+        "RNA viruses such as influenza and HIV change their surface antigens quickly, so new strains escape existing immunity. This is why flu vaccines are updated every year, and drug resistance appears quickly.",
+        "Mutation as a factor in disease emergence is described in Emergence and spread of infectious disease.",
+        "In some RNA viruses, such as poliovirus and SARS-CoV-2, the RNA acts directly as mRNA when it enters the cell and is translated at once.",
+        "In others, such as influenza and measles, the RNA must first be copied into a complementary strand that acts as mRNA.",
+        "DNA is a more stable molecule than RNA."
+      ]
+    },
+    {
+      "h": "Retroviruses: HIV",
+      "points": [
+        "A retrovirus is an RNA virus that makes a DNA copy of its RNA inside the host cell, using its own enzyme, reverse transcriptase, which reverses the usual direction of DNA to RNA. HIV is an example.",
+        "HIV replication, step 1: its envelope protein binds the CD4 receptor on a helper T cell.",
+        "Step 2: the envelope fuses with the cell membrane, and the capsid enters.",
+        "Step 3: reverse transcriptase makes double-stranded DNA from the viral RNA.",
+        "Step 4: a second viral enzyme, integrase, inserts this DNA into the host's chromosome, where it is called a provirus and can stay hidden for years.",
+        "Step 5: when the cell is activated, the provirus is transcribed into viral mRNA and new viral RNA, and viral proteins are made.",
+        "Step 6: new viruses assemble and bud from the cell, taking an envelope of host membrane.",
+        "Reverse transcriptase makes many errors, so HIV mutates very quickly, which is one reason there is still no effective HIV vaccine.",
+        "Diagram: an HIV particle (envelope with surface proteins, capsid, two RNA strands and reverse transcriptase), and a flow of the six steps into and out of a helper T cell. Label receptor, viral RNA, viral DNA, host chromosome (provirus) and budding virus."
+      ]
+    },
+    {
+      "h": "How antivirals act on replication",
+      "points": [
+        "Antiviral drugs block a step in the cycle that uses a viral protein, so the host cell isn't harmed.",
+        "Aciclovir blocks the DNA polymerase of herpes viruses, which treats cold sores and shingles.",
+        "Oseltamivir blocks neuraminidase, the influenza enzyme that releases new viruses from the cell surface.",
+        "HIV drugs include reverse transcriptase inhibitors, of which zidovudine (AZT), approved in 1987, was the first.",
+        "HIV drugs also include protease inhibitors, which stop new viral proteins being cut into their working form.",
+        "HIV is treated with a combination of several antiretroviral drugs at once (antiretroviral therapy).",
+        "Antiretroviral therapy keeps the virus at very low levels and lets the immune system recover, but it doesn't cure the infection, because the provirus remains in the host DNA.",
+        "Using several drugs together makes resistance much less likely, since the virus would need several mutations at once."
+      ]
+    },
+    {
+      "h": "Modelling viral replication",
+      "points": [
+        "To model the cycle, first list the stages in order: attachment, entry, uncoating, replication and synthesis, assembly and release.",
+        "Draw each stage as a labelled sketch or box, showing the host-cell part used at that stage (receptor, membrane, ribosomes, enzymes, nucleotides).",
+        "Join the stages with arrows into a cycle.",
+        "Mark how a DNA virus, an RNA virus and a retrovirus differ at stage 4.",
+        "Mark where an antiviral drug would act.",
+        "Diagram: a flow chart of the cycle, with stages as labelled boxes joined by arrows into a loop, and the host-cell part used at each stage marked on it.",
+        "A physical model can use card or modelling clay to represent viruses and cells, to show attachment and budding.",
+        "The model shows the order of events, the dependence on host machinery, and why one infected cell releases many viruses (see Models).",
+        "The model simplifies the timing (a cycle can take minutes to hours), the numbers released, the molecular steps, and the differences between viruses.",
+        "Worked prediction: if each infected cell releases 100 viruses and each of those infects a new cell, two cycles from one virus give 100 × 100 = 10,000 viruses."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Attachment", "definition": "The binding of viral capsid or envelope proteins to specific receptor proteins on the host cell membrane." },
+    { "term": "Budding", "definition": "The release of an enveloped virus through the host membrane, taking a piece of that membrane as its envelope." },
+    { "term": "Lytic cycle", "definition": "Viral replication that ends with the host cell bursting and releasing the new viruses." },
+    { "term": "Lysogenic cycle", "definition": "A cycle in which viral DNA is inserted into the host chromosome as a prophage and copied each time the cell divides." },
+    { "term": "Latency", "definition": "A state in which a virus is hidden inside host cells in an inactive form and can reactivate later." },
+    { "term": "Reverse transcriptase", "definition": "The viral enzyme that makes a DNA copy of RNA inside the host cell." },
+    { "term": "Provirus", "definition": "Viral DNA inserted into the host chromosome, where it can remain hidden for years." },
+    { "term": "Integrase", "definition": "The viral enzyme that inserts viral DNA into the host chromosome." },
+    { "term": "Neuraminidase", "definition": "The influenza enzyme that releases new viruses from the cell surface." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give two differences between DNA viruses and RNA viruses, and name one example of each.",
+      "model": "DNA viruses have DNA as their genetic material, while RNA viruses have RNA. Most DNA viruses enter the host nucleus and use host enzymes to copy their DNA and make mRNA, whereas most RNA viruses replicate in the cytoplasm and must carry their own RNA-dependent RNA polymerase. RNA viruses also mutate much faster than DNA viruses, because the enzyme that copies RNA has no proofreading. Example of a DNA virus: herpes simplex virus, or the smallpox virus. Example of an RNA virus: influenza virus, measles virus or HIV."
+    },
+    {
+      "marks": 12,
+      "prompt": "Using a labelled diagram, model how a virus replicates inside a host cell.",
+      "model": "Draw the stages as a cycle of labelled sketches. (1) Attachment: viral capsid or envelope proteins bind to receptor proteins on the host membrane. (2) Entry: a bacteriophage injects its nucleic acid, while an animal virus enters by endocytosis or by fusion of its envelope. (3) Uncoating: the capsid breaks down and releases the nucleic acid. (4) Replication and synthesis: the viral genes take over the cell, viral mRNA is translated by the host's ribosomes into viral proteins, and the viral nucleic acid is copied many times. (5) Assembly: new nucleic acid and capsid proteins come together into many new virus particles. (6) Release: the cell bursts (lysis), or the viruses bud through the membrane. Label the receptor, membrane, ribosomes, enzymes, ATP and nucleotides used. A strength of the model is that it shows the order of events and the dependence on host machinery. A limitation is that it simplifies the timing, the numbers released and the molecular steps."
+    },
+    {
+      "marks": 9,
+      "prompt": "HIV is a retrovirus. Explain what this means and describe how HIV leads to AIDS.",
+      "model": "HIV is an RNA virus that is a retrovirus: inside the host cell, its enzyme reverse transcriptase makes a DNA copy of the viral RNA, reversing the usual direction of DNA to RNA. Integrase inserts this DNA into the host chromosome as a provirus, which can remain hidden for years. The virus particle itself contains RNA, not DNA. HIV binds to the CD4 receptor on helper T cells and infects and destroys them. As helper T cell numbers fall, the immune system can no longer coordinate its responses, and the person develops AIDS, dying of opportunistic infections and cancers that a healthy immune system would control."
+    }
+  ]
+}

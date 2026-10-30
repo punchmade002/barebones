@@ -1,0 +1,96 @@
+{
+  "loId": "bio12-s4",
+  "chapterId": "bio12",
+  "subsection": "The importance of the theory",
+  "syllabusRef": "1.5.3",
+  "notes": [
+    {
+      "h": "Evolution as a scientific theory",
+      "points": [
+        "Applying the definition of a theory: evolution by natural selection is a broad explanation of a huge range of observations, including the diversity of life, adaptation, shared features, the fossil record and the distribution of species.",
+        "It is supported by evidence from many independent sources, it makes testable predictions, and it could be shown false by evidence, but no such evidence has been found.",
+        "It is falsifiable: finding fossils of mammals in rocks older than the first fish, or finding that the DNA of closely related species was no more similar than that of distant species, would contradict it.",
+        "The everyday meaning of theory (a guess or hunch) is not the scientific meaning. Saying evolution is only a theory misunderstands the word: in science, a theory is the highest status an explanation reaches.",
+        "The cell theory and the germ theory of disease are theories in the same sense.",
+        "Two parts should be distinguished: the fact of evolution (living things have changed over time and share common ancestors, which the evidence shows directly) and the theory of natural selection (the explanation of how that change happens)."
+      ]
+    },
+    {
+      "h": "Why it is so widely accepted and tested",
+      "points": [
+        "It has been tested for over 160 years, since 1859, by scientists in every field of biology, and also in geology, chemistry and physics (e.g. radiometric dating of the Earth).",
+        "Evidence that was not known to Darwin has confirmed it: genetics (Mendel's work, recognised from 1900), the structure of DNA (1953), molecular comparisons of DNA and proteins, and many transitional fossils (see Evidence for evolution).",
+        "Each new kind of evidence could have contradicted it, and did not.",
+        "Its predictions have been confirmed: Tiktaalik was found in rocks of the age the theory predicted (see Evidence for evolution); trees built from DNA match those built from anatomy; bacteria evolve resistance to new antibiotics; insects evolve resistance to pesticides.",
+        "It is accepted by almost all biologists and by scientific academies around the world, and is the framework used in all biological research. Acceptance is based on evidence, not on authority or majority opinion.",
+        "Like all theories, it has been refined: it was combined with genetics into the modern synthesis (see The theory of evolution by natural selection).",
+        "Scientists still debate details such as how fast evolution happens and the roles of chance and of epigenetics. Debate about details within the theory is normal science, not doubt about evolution itself."
+      ]
+    },
+    {
+      "h": "Why it is the best available explanation",
+      "points": [
+        "Lamarck's theory (Jean-Baptiste Lamarck, 1809): organisms change during their lives through the use or disuse of body parts, and pass these acquired characteristics to their offspring, e.g. giraffes stretching to reach leaves would have offspring with longer necks.",
+        "Acquired characteristics are not passed on through DNA. A weightlifter's children are not born with large muscles, and in the 1880s August Weismann cut off the tails of mice over several generations, yet their offspring still had normal tails.",
+        "Natural selection works with variation that already exists, explains adaptation without any need for the organism to try, and is supported by genetics.",
+        "Darwin's explanation of the giraffe: giraffes with slightly longer necks, through inherited variation, reached more food in times of shortage, survived and reproduced more, and passed on the alleles for longer necks.",
+        "Epigenetic inheritance (see Genetic and epigenetic mechanisms) is a small, limited exception and does not restore Lamarck's theory.",
+        "Special creation, the belief that species were created separately in their present forms, is a matter of religious faith rather than a scientific theory: it makes no testable predictions.",
+        "Special creation does not explain the evidence, such as homologous and vestigial structures, the order of fossils, or the pattern of DNA similarity.",
+        "Many religious people and organisations accept evolution; science and faith answer different kinds of questions.",
+        "Evolution by natural selection explains all the evidence together, with one mechanism, and makes predictions; no other explanation does this, so it is the best available explanation."
+      ]
+    },
+    {
+      "h": "Life continues to evolve",
+      "points": [
+        "Evolution is not only in the past: it is observed now, especially in organisms with short generations and large populations, e.g. antibiotic-resistant bacteria such as MRSA, the Galápagos finches' beaks after the 1977 drought, the peppered moth, and the new cordgrass species Spartina anglica.",
+        "Viruses evolve fast: new variants of the virus that causes COVID-19 (SARS-CoV-2), such as Delta and Omicron, spread because their mutations helped them spread or escape immunity, so vaccines were updated.",
+        "Flu vaccines are updated every year for the same reason.",
+        "Pests and weeds evolve resistance to the pesticides and herbicides used against them, and cancer cells in a tumour can evolve resistance to the drugs used to treat them, by the same process of selection.",
+        "Human activity is now a strong selection pressure: antibiotic and pesticide use, climate change and habitat loss. Highly specialised species with slow reproduction are least able to evolve fast enough."
+      ]
+    },
+    {
+      "h": "The importance of the theory in understanding biology",
+      "points": [
+        "Unifying idea: the geneticist Theodosius Dobzhansky wrote in 1973 that “nothing in biology makes sense except in the light of evolution”.",
+        "It explains both the unity of life (shared cells, DNA, genetic code and ATP, from common ancestry) and its diversity (adaptation and speciation); see Explaining biological phenomena.",
+        "Classification: modern classification is based on evolutionary relationships (phylogeny), and new DNA evidence keeps refining it (see Classification and Domains of life).",
+        "Form and function: it explains why structures suit their functions, since natural selection favoured individuals whose structures did the job better.",
+        "Medicine and health: it guides the responsible use of antibiotics to slow resistance (antibiotic stewardship), the yearly updating of flu vaccines, the tracking of new virus variants, and the treatment of cancers that evolve drug resistance.",
+        "Because of shared ancestry, studies of other organisms, e.g. mice, which share many genes with humans, can tell us about human biology and disease.",
+        "Agriculture and food: selective breeding of crops and animals (artificial selection), keeping varied crop genes to protect against disease (the lesson of the Irish potato, in Variation), and managing pesticide use to slow resistance.",
+        "Conservation and sustainability: it shows why genetic variation in a population matters for its survival when the environment changes, why small, inbred populations of endangered species are at risk, and why specialised species are vulnerable to climate change and habitat loss.",
+        "Genetics and technology: comparing the genomes of different species to find which genes are shared and what they do (see Bioinformatics: genome databases) depends on evolutionary relationships.",
+        "Limits of the theory: it explains how life changed and diversified once it existed. How the first living cells arose from non-living chemicals is a separate question, still being researched, and is not part of the theory of natural selection."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Scientific theory", "definition": "In science, the highest status an explanation reaches: a broad, well-tested explanation supported by many independent lines of evidence." },
+    { "term": "Falsifiable", "definition": "Able to be shown false by evidence; a scientific theory must be falsifiable." },
+    { "term": "Fact of evolution", "definition": "The observation that living things have changed over time and share common ancestors." },
+    { "term": "Acquired characteristic", "definition": "A feature gained during an organism's life through use, disuse or environment, which is not inherited through DNA." },
+    { "term": "Special creation", "definition": "The belief that species were created separately in their present forms; not a scientific theory because it is not testable." },
+    { "term": "Epigenetic inheritance", "definition": "The passing on of gene activity changes without changes to the base sequence of DNA; a limited exception to the inheritance of acquired characteristics." },
+    { "term": "Antibiotic stewardship", "definition": "The responsible use of antibiotics to slow the evolution of resistance." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain why evolution by natural selection is described as a scientific theory rather than a guess.",
+      "model": "In science, a theory is a broad explanation of many observations that is supported by evidence from many independent sources, makes testable predictions and could be shown false by evidence. Evolution by natural selection explains the diversity of life, adaptation, shared features, the fossil record and the distribution of species. Its predictions have been tested, e.g. Tiktaalik was found in rocks of the predicted age, and it has been tested for over 160 years. Everyday use of the word theory means a guess or hunch, but in science a theory is the highest status an explanation reaches, the same sense in which the cell theory and germ theory of disease are theories."
+    },
+    {
+      "marks": 9,
+      "prompt": "Compare Lamarck's explanation of the long neck of the giraffe with Darwin's, and explain why Darwin's is accepted.",
+      "model": "Lamarck's explanation: giraffes stretched their necks to reach leaves, and this acquired longer neck was passed on to their offspring. Darwin's explanation: giraffes with slightly longer necks, due to inherited variation, reached more food in times of shortage, survived and reproduced more, and passed on the alleles for longer necks. Darwin's explanation is accepted because acquired characteristics are not inherited through DNA: a weightlifter's children are not born with large muscles, and August Weismann's mice, whose tails were cut off over several generations, still had offspring with normal tails. Natural selection works with variation that already exists, explains adaptation without any need for the organism to try, and is supported by genetics. It also explains all the evidence together with one mechanism and makes predictions, so it is the best available explanation."
+    },
+    {
+      "marks": 12,
+      "prompt": "Discuss the importance of the theory of evolution in understanding biology.",
+      "model": "Evolution is a unifying idea in biology: it explains the unity of life, such as shared cells, DNA, genetic code and ATP, from common ancestry, and its diversity through adaptation and speciation. It explains classification, since modern classification is based on evolutionary relationships, and it explains why structures suit their functions, since natural selection favoured individuals whose structures did the job better. In medicine, understanding evolution guides antibiotic stewardship, which aims to slow the evolution of resistance, and it explains why flu vaccines are updated every year because the influenza virus evolves. In agriculture, selective breeding and keeping varied crop genes protect against disease, as the Irish potato showed. In conservation, it shows why genetic variation matters for survival when the environment changes and why specialised, endangered species are vulnerable. Evolution is also still happening: MRSA, the Galápagos finches' beaks after the 1977 drought and pests evolving pesticide resistance are observed directly. It is trusted because it has been tested for over 160 years, its predictions have been confirmed, and it is accepted by almost all biologists on the basis of evidence."
+    }
+  ]
+}

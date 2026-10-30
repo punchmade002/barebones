@@ -1,0 +1,122 @@
+{
+  "loId": "bio5-s2",
+  "chapterId": "bio5",
+  "subsection": "Levels of organisation",
+  "syllabusRef": "1.3.1",
+  "notes": [
+    {
+      "h": "The levels of organisation",
+      "b": "Living things are organised in levels of increasing complexity. Each level is made of units of the level below working together.",
+      "points": [
+        "Cell → tissue → organ → organ system → organism.",
+        "Below the cell, cells are built of organelles, which are built of biomolecules (e.g. proteins, lipids). Organelles are described in “Structures and organelles of animal and plant cells”.",
+        "Cell: the basic unit of life. In a multicellular organism cells are specialised (differentiated), so that the structure of each cell suits one job.",
+        "Tissue: a group of similar cells with the same structure, working together to carry out a particular function.",
+        "Organ: a structure made of several different tissues working together to carry out one or more functions.",
+        "Organ system: a group of organs working together to carry out a major function.",
+        "Organism: an individual living thing, whose organ systems work together to keep it alive.",
+        "Diagram: a five-step flow chart from cell to organism, with a human example at each level (muscle cell → muscle tissue → stomach → digestive system → human) and a plant example (xylem vessel → vascular tissue → leaf → shoot system → plant)."
+      ]
+    },
+    {
+      "h": "Specialised cells",
+      "b": "A specialised cell has a structure that suits its particular job.",
+      "points": [
+        "Unicellular organisms, e.g. Amoeba, yeast and bacteria, carry out every life process in one cell, so that cell is not specialised for a single job.",
+        "Differentiation: in a multicellular organism, all body cells contain the same DNA, but each cell type uses (expresses) only some of its genes, so cells become specialised. Unspecialised cells that can still become several cell types are called stem cells; their uses are in “Genetic Engineering”.",
+        "Red blood cell: no nucleus and a biconcave disc shape, giving more room for haemoglobin and a large surface area for carrying oxygen.",
+        "Nerve cell (neuron): long thin extensions carry impulses over long distances quickly.",
+        "Sperm cell: a tail for swimming, and many mitochondria in the middle section to release energy.",
+        "Root hair cell: a long extension gives a large surface area for absorbing water and minerals.",
+        "Palisade cell of a leaf: packed with chloroplasts for photosynthesis. Guard cells change shape to open and close the stomata."
+      ]
+    },
+    {
+      "h": "Tissues in animals",
+      "points": [
+        "Epithelial tissue lines and covers surfaces, e.g. the lining of the gut and the skin surface.",
+        "Connective tissue supports and connects, e.g. bone, cartilage and blood.",
+        "Muscle tissue contracts to cause movement. There are three types: skeletal, smooth and cardiac.",
+        "Nervous tissue carries impulses, e.g. in the brain, spinal cord and nerves."
+      ]
+    },
+    {
+      "h": "Tissues in plants",
+      "points": [
+        "Dermal tissue is the epidermis, a protective outer layer.",
+        "Vascular tissue: xylem carries water and minerals; phloem carries food.",
+        "Ground tissue makes up the bulk of the plant, carrying out photosynthesis and storage, e.g. the mesophyll of a leaf.",
+        "Meristematic tissue consists of dividing cells at root and shoot tips, where growth happens.",
+        "A leaf contains dermal, ground and vascular tissue. Plant organs are root, stem, leaf and flower."
+      ]
+    },
+    {
+      "h": "Organs and organ systems",
+      "points": [
+        "The stomach is an organ containing epithelial tissue lining it, smooth muscle that churns food, connective tissue and nervous tissue.",
+        "Other human organs include the heart, lungs, kidneys and brain.",
+        "Digestive system: breaks down and absorbs food.",
+        "Circulatory system: transports materials.",
+        "Breathing system: gas exchange.",
+        "Nervous system: fast coordination.",
+        "Endocrine system: hormonal coordination.",
+        "Musculoskeletal system: support and movement.",
+        "Urinary system: excretion and water balance.",
+        "Reproductive system: reproduction.",
+        "Immune system: defence.",
+        "Plants have two systems. The root system anchors the plant and absorbs water and minerals. The shoot system (stem, leaves and flowers) carries out photosynthesis, transport and reproduction."
+      ]
+    },
+    {
+      "h": "Surface area to volume and the need for systems",
+      "points": [
+        "As an organism gets bigger, its volume increases faster than its surface area, so its surface area to volume ratio falls.",
+        "Worked example: a 1 cm cube has a surface area of 6 cm² and a volume of 1 cm³, a ratio of 6:1. A 2 cm cube has a surface area of 24 cm² and a volume of 8 cm³, a ratio of 3:1.",
+        "A unicellular organism has a large surface area to volume ratio, so diffusion across its membrane is enough to supply oxygen and food and to remove wastes. In a large multicellular organism most cells are far from the surface, so diffusion alone is too slow.",
+        "Multicellular organisms therefore need specialised exchange surfaces (lungs, gut lining, root hairs, leaves), transport systems (blood and heart; xylem and phloem), and coordination systems (nervous and hormonal) that link all the parts and keep conditions constant (homeostasis).",
+        "Division of labour: each cell type does one job very efficiently, but no cell can survive alone, so the cells depend on each other."
+      ]
+    },
+    {
+      "h": "Advantages and disadvantages of being multicellular",
+      "points": [
+        "Advantage: a larger size, which means fewer predators and access to light or food.",
+        "Advantage: cells inside the body are protected from the environment.",
+        "Advantage: efficiency from specialisation.",
+        "Advantage: the organism can survive the death of individual cells, which are replaced.",
+        "Disadvantage: more energy and resources are needed to build and maintain the body.",
+        "Disadvantage: damage to one vital organ or system can kill the whole organism.",
+        "Disadvantage: growth to reproductive age takes longer than for unicellular organisms, which can divide within hours."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Tissue", "definition": "A group of similar cells with the same structure working together to carry out a particular function." },
+    { "term": "Organ", "definition": "A structure made of several different tissues working together to carry out one or more functions." },
+    { "term": "Organ system", "definition": "A group of organs working together to carry out a major function." },
+    { "term": "Differentiation", "definition": "The process by which cells become specialised, each type using only some of its genes." },
+    { "term": "Stem cell", "definition": "An unspecialised cell that can still develop into several cell types." },
+    { "term": "Surface area to volume ratio", "definition": "The surface area of an organism divided by its volume, which falls as the organism gets bigger." },
+    { "term": "Xylem", "definition": "Plant vascular tissue that carries water and minerals." },
+    { "term": "Phloem", "definition": "Plant vascular tissue that carries food." },
+    { "term": "Meristematic tissue", "definition": "Dividing plant cells at root and shoot tips where growth happens." },
+    { "term": "Division of labour", "definition": "Each cell type doing one job very efficiently while depending on the other cell types." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define the terms tissue and organ, and give one example of each from a flowering plant.",
+      "model": "A tissue is a group of similar cells with the same structure working together to carry out a particular function. For example, xylem vascular tissue carries water and minerals through the plant. An organ is a structure made of several different tissues working together to carry out one or more functions. For example, a leaf is an organ made of dermal, ground and vascular tissue, and it carries out photosynthesis."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why a large multicellular organism needs a transport system but a unicellular organism does not.",
+      "model": "A unicellular organism has a large surface area to volume ratio, so diffusion across its membrane is enough to supply oxygen and food and to remove wastes. As an organism gets bigger its volume increases faster than its surface area, so the ratio falls. For example, a 1 cm cube has a ratio of 6:1, while a 2 cm cube has a surface area of 24 cm² and a volume of 8 cm³, a ratio of 3:1. In a large multicellular organism most cells are far from the surface, so diffusion alone is too slow. It therefore needs a transport system, such as blood and the heart in animals or xylem and phloem in plants, to carry materials to and from all its cells."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the complexity of multicellular organisms, referring to cell specialisation and the levels of organisation.",
+      "model": "Multicellular organisms are organised in levels of increasing complexity: cells form tissues, tissues form organs, organs form organ systems, and organ systems together make up the organism. For example, a muscle cell forms muscle tissue, which with other tissues forms the stomach, which is part of the digestive system that breaks down and absorbs food in the human body. Each cell is specialised, and differentiation means that cells use only some of their genes so that their structure suits their job. A red blood cell has no nucleus and a biconcave disc shape, giving room for haemoglobin and a large surface area for carrying oxygen; a root hair cell has a long extension giving a large surface area for absorbing water and minerals. Division of labour means each cell type does one job very efficiently, but no cell can survive alone. An advantage of being multicellular is that the organism can survive the death of individual cells, which are replaced. A disadvantage is that damage to one vital organ or system can kill the whole organism."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "loId": "bio7-s2",
+  "chapterId": "bio7",
+  "subsection": "Microscopy",
+  "syllabusRef": "1.3.3",
+  "notes": [
+    {
+      "h": "Magnification and resolution",
+      "points": [
+        "Magnification: how many times larger the image is than the real object.",
+        "Resolution (resolving power): the ability to show two points that are close together as separate. It decides how much detail can be seen.",
+        "Magnifying an image beyond the resolution limit only makes it bigger and blurrier, not more detailed.",
+        "Total magnification of a light microscope = eyepiece lens magnification × objective lens magnification. For example, a ×10 eyepiece with a ×40 objective gives ×400."
+      ]
+    },
+    {
+      "h": "Parts of the light microscope",
+      "points": [
+        "Eyepiece (ocular) lens: the lens you look through. It magnifies the image from the objective, usually ×10.",
+        "Objective lenses: on a revolving nosepiece, usually ×4 (scanning), ×10 (low power) and ×40 (high power), sometimes ×100 (oil immersion). They produce the first magnified image.",
+        "Stage with clips: holds the slide over the hole through which light passes.",
+        "Coarse focus knob: moves the stage (or tube) a long way quickly, for focusing at low power only.",
+        "Fine focus knob: moves it a small distance for sharp focus. It is the only focus used at high power.",
+        "Light source: a built-in lamp, or a mirror reflecting light up through the specimen.",
+        "Condenser: a lens under the stage that focuses light onto the specimen.",
+        "Diaphragm (iris): adjusts the amount of light reaching the specimen. Less light often improves contrast for pale, unstained cells.",
+        "Arm and base: support the microscope. The arm is used for carrying it.",
+        "Diagram: a light microscope labelled eyepiece, body tube, revolving nosepiece, objective lenses, stage, clips, condenser, diaphragm, light source (or mirror), coarse focus knob, fine focus knob, arm and base."
+      ]
+    },
+    {
+      "h": "Using the light microscope",
+      "points": [
+        "1. Carry the microscope with one hand on the arm and the other under the base.",
+        "2. Switch on the light and turn the lowest-power objective into place.",
+        "3. Clip the slide on the stage with the specimen over the hole.",
+        "4. Looking from the side, use the coarse focus to bring the objective close to the slide without touching it.",
+        "5. Looking through the eyepiece, focus by moving the objective and slide apart until the image is clear.",
+        "6. Use the fine focus to sharpen the image, and the diaphragm to adjust the light.",
+        "7. Move the part to be studied to the centre of the field of view.",
+        "8. Turn the next objective into place and use only the fine focus.",
+        "9. Record the total magnification with every drawing.",
+        "The image is inverted, upside down and reversed left to right: moving the slide to the left moves the image to the right.",
+        "At higher magnification the field of view is smaller and the image is dimmer, so more light is needed. At high power the objective is very close to the slide, which is why the coarse focus must not be used.",
+        "Never use a mirror to reflect direct sunlight into the microscope, as it can damage the eye."
+      ]
+    },
+    {
+      "h": "Preparing and mounting a slide",
+      "points": [
+        "A wet mount: the specimen is placed in a drop of water or stain on a clean glass slide and covered with a coverslip.",
+        "The specimen must be very thin, ideally one layer of cells thick, so that light can pass through it and the cells do not overlap.",
+        "Stains add contrast to transparent structures by colouring some parts more than others. Iodine solution is used for plant cells: it stains the nucleus yellow-brown and turns starch blue-black. Methylene blue is used for animal cells: it stains the nucleus dark blue. The full procedures are in “Investigation: plant and animal cells”.",
+        "Lowering the coverslip: touch one edge of the coverslip to the liquid at an angle of about 45° and lower it slowly with a mounted needle. This pushes air out ahead of it and avoids air bubbles, which appear as black-edged circles and can hide cells.",
+        "The coverslip keeps the specimen flat, stops it drying out, and protects the objective lens from the liquid. Excess liquid is removed by touching filter paper or a paper towel to the edge.",
+        "Stain can also be added after the coverslip is on. Put a drop at one edge and draw it under the coverslip with filter paper held at the opposite edge (irrigation)."
+      ]
+    },
+    {
+      "h": "Electron microscopes",
+      "points": [
+        "An electron microscope uses a beam of electrons instead of light, focused by electromagnets instead of glass lenses. Electrons have a much shorter wavelength than light, so resolution is far better.",
+        "The specimen is in a vacuum, because air would scatter the electrons, so it must be dead. The image is viewed on a screen and recorded digitally. It is black and white, and colour is added afterwards (false colour).",
+        "Transmission electron microscope (TEM): electrons pass through an extremely thin, stained section of a specimen. It gives a flat (2D) image of internal structure at the highest magnifications, e.g. mitochondria, ribosomes, nuclear pores and viruses.",
+        "Scanning electron microscope (SEM): a beam of electrons scans across the surface of a specimen coated with a very thin layer of metal, e.g. gold. Electrons bouncing off it form an image. It gives a 3D image of surfaces, e.g. the surface of cells, pollen grains and insects.",
+        "The SEM has lower resolution than the TEM and shows no internal structure unless the specimen is broken open.",
+        "The first electron microscope was built in Germany in 1931 by Max Knoll and Ernst Ruska."
+      ]
+    },
+    {
+      "h": "Comparing light and electron microscopes",
+      "points": [
+        "Radiation: light for the light microscope, electrons for the electron microscope. Lenses: glass for the light microscope, electromagnets for the electron microscope.",
+        "Maximum useful magnification: about ×1000–1500 for the light microscope, compared with hundreds of thousands of times or more for electron microscopes.",
+        "Resolution: about 0.2 µm (200 nm) for the light microscope, compared with less than 1 nm for the TEM, roughly a thousand times better.",
+        "So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts. Ribosomes, nuclear pores, the inner structure of mitochondria and viruses need an electron microscope.",
+        "Specimens: the light microscope can view living or dead specimens, with colour visible. The electron microscope needs dead specimens in a vacuum, and its images are black and white.",
+        "Preparation and cost: light microscopes are simple, quick, cheap and portable. Electron microscopes need complex preparation (thin sectioning, metal coating) that can create artefacts, structures that are not really in the living cell. They are very expensive, large, and need trained operators."
+      ]
+    },
+    {
+      "h": "Existing and emerging microscopy",
+      "points": [
+        "Robert Hooke described and named “cells” from thin slices of cork in his book Micrographia (1665).",
+        "Antonie van Leeuwenhoek, using his own single-lens microscopes, was the first to see and describe bacteria and other single-celled organisms, in the 1670s.",
+        "Fluorescence microscopy: specific molecules are tagged with fluorescent dyes or fluorescent proteins that glow when lit with a particular colour of light. This shows exactly where a protein is in a living cell.",
+        "Green fluorescent protein (GFP), from a jellyfish, earned the 2008 Nobel Prize in Chemistry, awarded to Osamu Shimomura, Martin Chalfie and Roger Tsien.",
+        "Confocal laser scanning microscopy: a laser scans one thin plane of the specimen at a time, giving sharp images that a computer combines into a 3D model.",
+        "Super-resolution fluorescence microscopy overcomes the light microscope’s normal resolution limit. It earned the 2014 Nobel Prize in Chemistry, awarded to Eric Betzig, Stefan Hell and William Moerner.",
+        "Cryo-electron microscopy: samples are flash-frozen in a thin layer of ice instead of being dried and stained, so molecules keep their natural shape. It shows the structure of proteins and viruses in near-atomic detail. It earned the 2017 Nobel Prize in Chemistry, awarded to Jacques Dubochet, Joachim Frank and Richard Henderson.",
+        "Cryo-electron microscopy was used to show the structure of the SARS-CoV-2 spike protein, which helped vaccine design.",
+        "Uses in health and technology: examining blood smears and biopsies to diagnose disease, including spotting cancer cells; identifying pathogens; research into how cells and viruses work; and forensic science, e.g. comparing hairs and fibres.",
+        "Digital cameras and computer image analysis now allow images to be measured, shared and analysed automatically."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Magnification", "definition": "How many times larger the image is than the real object." },
+    { "term": "Resolution", "definition": "The ability to show two points that are close together as separate; it decides how much detail can be seen." },
+    { "term": "Eyepiece lens", "definition": "The lens you look through, which magnifies the image from the objective, usually ×10." },
+    { "term": "Objective lens", "definition": "A lens on the revolving nosepiece that produces the first magnified image of the specimen." },
+    { "term": "Fine focus", "definition": "The knob that moves the stage a small distance for sharp focus; it is the only focus used at high power." },
+    { "term": "Diaphragm", "definition": "The part of a light microscope that adjusts the amount of light reaching the specimen." },
+    { "term": "Wet mount", "definition": "A specimen in a drop of water or stain on a slide, covered with a coverslip." },
+    { "term": "Transmission electron microscope (TEM)", "definition": "An electron microscope in which electrons pass through a thin specimen, giving a 2D image of internal structure." },
+    { "term": "Scanning electron microscope (SEM)", "definition": "An electron microscope in which electrons scan a metal-coated surface, giving a 3D image of the surface." },
+    { "term": "Artefact", "definition": "A structure produced by preparation that is not really present in the living cell." },
+    { "term": "Fluorescence microscopy", "definition": "A technique that tags specific molecules with dyes or proteins that glow under light, showing where they are." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "A student uses a ×10 eyepiece and a ×40 objective. (i) Calculate the total magnification. (ii) Give the function of the diaphragm. (iii) Why should only the fine focus be used at this magnification?",
+      "model": "(i) Total magnification = eyepiece × objective = ×10 × ×40 = ×400. (ii) The diaphragm adjusts the amount of light reaching the specimen; less light often improves contrast for pale, unstained cells. (iii) At high power the objective is very close to the slide, so the coarse focus could move it into the slide and damage the specimen or the lens. Only the fine focus, which moves a small distance, should be used at high power."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how to mount a specimen on a slide for viewing with a light microscope, explaining how air bubbles are avoided and why a stain is used.",
+      "model": "Place the specimen, which must be very thin, ideally one layer of cells thick, in a drop of water or stain on a clean glass slide. Touch one edge of the coverslip to the liquid at an angle of about 45° and lower it slowly with a mounted needle, which pushes air out ahead of it and avoids air bubbles. Touch filter paper to the edge to remove excess liquid. The coverslip keeps the specimen flat, stops it drying out and protects the objective lens. A stain is used because it adds contrast to transparent structures by colouring some parts more than others; for example, iodine stains the nucleus yellow-brown and turns starch blue-black in plant cells, and methylene blue stains the nucleus dark blue in animal cells."
+    },
+    {
+      "marks": 12,
+      "prompt": "Compare the light microscope with the electron microscope, and distinguish between transmission and scanning electron microscopes.",
+      "model": "The light microscope uses light and glass lenses, with a maximum useful magnification of about ×1000–1500 and a resolution of about 0.2 µm. It can view living or dead specimens in colour, and is simple, cheap and portable. The electron microscope uses a beam of electrons focused by electromagnets, with a magnification of hundreds of thousands of times or more and a resolution below 1 nm. It needs dead specimens in a vacuum, gives black and white images, and needs complex, expensive preparation that can create artefacts. A transmission electron microscope passes electrons through an extremely thin, stained section, giving a flat 2D image of internal structure such as ribosomes and nuclear pores. A scanning electron microscope scans a metal-coated surface with electrons, giving a 3D image of the surface, but with lower resolution and no internal structure unless the specimen is broken open."
+    }
+  ]
+}

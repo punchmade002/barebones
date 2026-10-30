@@ -1,0 +1,169 @@
+{
+  "loId": "bio1-s1",
+  "chapterId": "bio1",
+  "subsection": "The nature of scientific knowledge",
+  "syllabusRef": "U1.1",
+  "notes": [
+    {
+      "h": "What scientific knowledge is",
+      "b": "Science is both a body of knowledge and a process for building it. It explains the natural world using evidence gathered by observation and experiment.",
+      "points": [
+        "A scientific claim must be testable against evidence from the natural world. Questions of value or morals, e.g. “should we clone animals?”, can be informed by science but cannot be answered by it.",
+        "Scientific knowledge is evidence-based (empirical): ideas are accepted because they agree with observations and experimental results, not because of who proposed them.",
+        "An observation is what is directly detected with the senses or instruments, e.g. “the broth went cloudy”. An inference is an explanation drawn from an observation, e.g. “microorganisms grew in the broth”. Scientists keep the two separate.",
+        "Scientific knowledge is tentative but durable: any idea can be revised if new evidence contradicts it, yet well-tested ideas survive for a long time. The cell theory has survived more than 150 years of testing.",
+        "Tentative does not mean weak or a guess.",
+        "An idea must be falsifiable: it must be possible, in principle, to imagine an observation that would show the idea is wrong. The philosopher Karl Popper made falsifiability his test of whether an idea is scientific.",
+        "Evidence can support an idea or refute it, but it can never prove an idea true for all time. One reliable contrary result can disprove an idea."
+      ]
+    },
+    {
+      "h": "How scientists work",
+      "points": [
+        "There is no single fixed scientific method. The process is often complex and iterative, following many different paths, but it usually involves the stages below.",
+        "The usual cycle runs: observation, question, hypothesis, prediction, experiment or further observation, collection and analysis of data, conclusion (hypothesis supported or rejected), repetition and checking, comparison with existing knowledge, publication in a scientific journal after peer review, testing of the findings by other scientists, and, over time, development of well-supported findings into a theory or law. A rejected hypothesis leads to a new or modified hypothesis, so the cycle starts again.",
+        "Diagram: the cycle drawn as a loop with arrows, with an arrow from “hypothesis rejected” back to “new hypothesis”, and “publish and peer review” leading out to “theory or law”.",
+        "Not all science is experimental. Some fields test ideas by observation and comparison, e.g. fossil records and comparative anatomy as evidence for evolution, or field surveys of ecosystems.",
+        "Science is creative: imagining hypotheses and designing ways to test them takes imagination, and chance observations can start new lines of work. The discovery of penicillin is the standard example, detailed in “Science, scientists and society”.",
+        "Science is collaborative and sceptical. Scientists work in teams, build on others’ published work and expect their claims to be checked and challenged. Scepticism means doubting a claim until the evidence for it is good; it is a norm, not a personal attack. How this works internationally is in “Science as a global enterprise”.",
+        "Science is done by people, so it is influenced by the society, culture, funding and technology of its time, and individual scientists can be biased. Types of bias are in “Recognising bias and evaluating sources”."
+      ]
+    },
+    {
+      "h": "Limitations of the scientific method",
+      "points": [
+        "Limited by current knowledge and technology: some questions cannot yet be investigated. Cells could not be seen until microscopes were invented, and the internal structure of organelles could not be seen until electron microscopes were available.",
+        "The basis of the investigation may be wrong: if the theory or assumption a hypothesis rests on is false, the conclusions may be false too.",
+        "Human error and interpretation: data can be misread, and scientists can interpret the same results in different ways.",
+        "Experimental design: a poorly designed experiment can give results that seem to support a hypothesis when they do not. Design is taught in “Designing and conducting investigations”.",
+        "Applying results to nature: conditions in a laboratory are simpler and more controlled than in a living organism or an ecosystem, so results may not apply outside the laboratory. A drug that works on cells in a dish may not work in a person.",
+        "Science cannot answer questions of value, ethics or the supernatural."
+      ]
+    },
+    {
+      "h": "Hypothesis",
+      "points": [
+        "A hypothesis is a proposed, testable explanation for an observation. It makes predictions that can be checked by experiment or observation.",
+        "A hypothesis may be supported or rejected; it is never proved.",
+        "Example: in the early 1980s Robin Warren and Barry Marshall proposed that stomach ulcers are caused by infection with the bacterium Helicobacter pylori, not by stress and excess acid as was then believed.",
+        "How to write a testable hypothesis and a prediction is taught in “Questioning and predicting”."
+      ]
+    },
+    {
+      "h": "Theories: the cell theory and other examples",
+      "points": [
+        "A theory is a broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources.",
+        "A theory explains why something happens and makes predictions. It is the highest status an explanation reaches in science.",
+        "A theory is not a guess, so the everyday phrase “just a theory” misuses the word.",
+        "The cell theory states that all living things are made of one or more cells, that the cell is the basic unit of structure and function of life, and that all cells come from pre-existing cells.",
+        "Matthias Schleiden proposed in 1838 that plants are made of cells. Theodor Schwann extended this to animals in 1839. Rudolf Virchow added in 1855 that all cells arise from existing cells (“omnis cellula e cellula”).",
+        "Other biological theories include the theory of evolution by natural selection, proposed by Darwin and Wallace (see “The theory of evolution by natural selection” and “The importance of the theory”), and the germ theory of disease, which holds that many diseases are caused by microorganisms."
+      ]
+    },
+    {
+      "h": "Laws",
+      "points": [
+        "A law, or principle, is a statement, often mathematical, that describes a pattern that always occurs under stated conditions. It describes what happens but does not explain why.",
+        "Biology has few laws because living systems are variable.",
+        "Mendel’s laws of segregation and independent assortment describe how alleles pass to offspring (taught in “Mendel's Laws”). They have known exceptions, e.g. linked genes.",
+        "The laws of thermodynamics apply to living things. Energy is not created or destroyed, only converted, as when light energy is converted to chemical energy in photosynthesis."
+      ]
+    },
+    {
+      "h": "Hypothesis, theory and law compared",
+      "points": [
+        "Scope: a hypothesis concerns one observation, a theory covers a wide range of observations, and a law covers one pattern.",
+        "Purpose: a hypothesis proposes an explanation, a theory gives a tested explanation, and a law describes a pattern.",
+        "Evidence: a hypothesis has little or none yet, a theory rests on a large body of evidence from many independent sources, and a law is repeated observation without exception under stated conditions.",
+        "All three can be revised or rejected if the evidence demands it.",
+        "A theory does not grow up into a law: they are different kinds of knowledge. A law describes a pattern and a theory explains it. A theory can explain a law; for example, Mendel’s laws are explained by the behaviour of chromosomes in meiosis.",
+        "A scientific fact is a repeatable observation, e.g. “DNA is found in the nucleus of eukaryotic cells”. A model is a simplified representation used to explain or predict (taught in “Models”)."
+      ]
+    },
+    {
+      "h": "Why scientific ideas change",
+      "points": [
+        "Ideas change because of new evidence that the old idea cannot explain, new technology that allows new observations (e.g. microscopes, DNA sequencing), reinterpretation of existing evidence, and replication by other scientists.",
+        "Change is usually gradual refinement. Occasionally a whole framework is replaced; the historian Thomas Kuhn called this a paradigm shift, in his book The Structure of Scientific Revolutions (1962)."
+      ]
+    },
+    {
+      "h": "Spontaneous generation gave way to biogenesis",
+      "points": [
+        "Old idea: living things such as maggots and microorganisms arise from non-living matter.",
+        "In 1668 Francesco Redi put meat in jars that were open, sealed or covered with gauze. Maggots appeared only on the meat in the open jars, which flies could reach.",
+        "In the gauze-covered jars, flies laid their eggs on the gauze, not on the meat, so no maggots appeared.",
+        "In the early 1860s Louis Pasteur boiled broth in swan-neck flasks, which have an S-shaped neck. Air could enter, but dust and microorganisms were trapped in the bend, and the broth stayed clear.",
+        "When the neck was broken off, or the broth was tipped into the bend, microorganisms grew in it.",
+        "New idea: living things come only from other living things (biogenesis), which supported the germ theory."
+      ]
+    },
+    {
+      "h": "The cell theory was built up over time",
+      "points": [
+        "The cell theory, defined under “Theories: the cell theory and other examples”, was built up by several scientists over decades as microscopes improved.",
+        "It is still being extended. Mitochondria and chloroplasts have been found to contain their own DNA."
+      ]
+    },
+    {
+      "h": "Stomach ulcers: a bacterium replaces stress as the cause",
+      "points": [
+        "Old idea: ulcers are caused by stress, spicy food and excess acid, and no bacterium could survive stomach acid.",
+        "Warren observed curved bacteria in biopsies of inflamed stomach linings. Marshall and Warren cultured Helicobacter pylori in 1982.",
+        "In 1984 Marshall drank a culture of the bacteria, developed gastritis and treated it with antibiotics.",
+        "Other scientists repeated the findings, and trials showed that antibiotics cured most ulcers.",
+        "New idea: most stomach ulcers are caused by H. pylori infection and are treated with antibiotics.",
+        "Marshall and Warren received the Nobel Prize in Physiology or Medicine in 2005.",
+        "The case shows that a new idea is often resisted at first and is accepted when the evidence is reproduced."
+      ]
+    },
+    {
+      "h": "Childbed fever and handwashing",
+      "points": [
+        "In 1847 Ignaz Semmelweis, at Vienna General Hospital, noticed that far more mothers died of childbed (puerperal) fever on the ward run by doctors than on the ward run by midwives.",
+        "The doctors who ran that ward came from dissecting corpses, while the midwives did not.",
+        "He made staff wash their hands in chlorinated lime solution, and deaths fell sharply.",
+        "Many doctors rejected his idea because it lacked an explanation. It was accepted only after the germ theory of disease explained it.",
+        "The case shows that evidence without an explanatory theory can be ignored."
+      ]
+    },
+    {
+      "h": "Other ideas that changed in the same way",
+      "points": [
+        "The five-kingdom system was replaced by three domains and six kingdoms (see “Domains of life” and “Classification”).",
+        "The lock-and-key model of enzyme action was refined to the induced-fit model, and the membrane “sandwich” model was replaced by the fluid mosaic model (see “Models”)."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Observation", "definition": "Something directly detected with the senses or with instruments." },
+    { "term": "Inference", "definition": "An explanation drawn from an observation." },
+    { "term": "Falsifiable", "definition": "Describes an idea for which it is possible, in principle, to imagine an observation that would show it is wrong." },
+    { "term": "Iterative", "definition": "Describes a process that loops back on itself, so that its stages are repeated and refined." },
+    { "term": "Hypothesis", "definition": "A proposed, testable explanation for an observation, which may be supported or rejected but never proved." },
+    { "term": "Theory", "definition": "A broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources." },
+    { "term": "Law", "definition": "A statement, often mathematical, that describes a pattern that always occurs under stated conditions, without explaining why." },
+    { "term": "Scientific fact", "definition": "A repeatable observation." },
+    { "term": "Model", "definition": "A simplified representation used to explain or predict how something behaves." },
+    { "term": "Spontaneous generation", "definition": "The old idea that living things can arise from non-living matter." },
+    { "term": "Biogenesis", "definition": "The idea that living things come only from other living things." },
+    { "term": "Paradigm shift", "definition": "A replacement of a whole scientific framework, as described by Thomas Kuhn." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between a hypothesis and a theory. Give a biological example of a theory.",
+      "model": "A hypothesis is a proposed, testable explanation for an observation. It makes predictions that can be checked by experiment or observation, and it may be supported or rejected but is never proved. A theory is a broad, well-tested explanation of a wide range of observations, supported by many confirmed hypotheses and by evidence from many independent sources. A theory explains why something happens and makes predictions, and it is not a guess. Example: the cell theory, which states that all living things are made of one or more cells, that the cell is the basic unit of structure and function of life, and that all cells come from pre-existing cells."
+    },
+    {
+      "marks": 9,
+      "prompt": "Using one named example, describe how a scientific idea in biology has been modified over time.",
+      "model": "Example: stomach ulcers. The old idea was that ulcers are caused by stress, spicy food and excess acid, and that no bacterium could survive stomach acid. Warren observed curved bacteria in biopsies of inflamed stomach linings, and Marshall and Warren cultured Helicobacter pylori in 1982. In 1984 Marshall drank a culture of the bacteria, developed gastritis and treated it with antibiotics. Other scientists repeated the findings, and trials showed that antibiotics cured most ulcers. The new idea is that most stomach ulcers are caused by H. pylori infection and are treated with antibiotics. The new idea was resisted at first and was accepted when the evidence was reproduced by others. It is supported by the evidence but, like every scientific idea, it remains open to revision if new evidence appears. Marshall and Warren received the Nobel Prize in Physiology or Medicine in 2005."
+    },
+    {
+      "marks": 9,
+      "prompt": "State three limitations of the scientific method and explain each.",
+      "model": "First, the method is limited by current knowledge and technology: some questions cannot be investigated until new tools exist, e.g. cells could not be seen until microscopes were invented and the internal structure of organelles could not be seen until electron microscopes were available. Second, human error and interpretation: data can be misread, and scientists can interpret the same results in different ways. Third, applying results to nature: laboratory conditions are simpler and more controlled than in a living organism or ecosystem, so a result found in a laboratory may not apply outside it. For example, a drug that works on cells in a dish may not work in a person. Other limitations include the possibility that the basis of an investigation is wrong, poor experimental design, and the fact that science cannot answer questions of value, ethics or the supernatural."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "loId": "bio35-s5",
+  "chapterId": "bio35",
+  "subsection": "Bioinformatics: genome databases",
+  "syllabusRef": "3.3.5",
+  "notes": [
+    {
+      "h": "Bioinformatics and the value of computers",
+      "points": [
+        "Bioinformatics is the use of computers and software to store, search, compare and analyse biological information, especially DNA, RNA and protein sequences.",
+        "A genome database is an online store of genome sequences and information about genes, their variants (alleles) and their effects, which anyone can search.",
+        "Computers are essential because one human genome is about 3 billion base pairs (see “DNA sequencing”), and sequencing machines produce data on many genomes quickly; no person could read or compare this by eye.",
+        "Computers compare sequences in seconds, store them permanently, and let scientists anywhere share them, much of it freely, as the Human Genome Project did (see “Science as a global enterprise”)."
+      ]
+    },
+    {
+      "h": "Identifying patterns and searching for anomalies",
+      "points": [
+        "Identifying patterns: software lines up (aligns) sequences to find similarities, e.g. genes shared by different species.",
+        "Shared genes show evolutionary relationships and help work out what a newly found gene does, since a gene similar to a known gene in another species often has a similar job.",
+        "The NCBI tool BLAST takes a sequence typed or pasted in and finds the most similar sequences in the database, e.g. to identify the species or gene a DNA sample came from.",
+        "Searching for anomalies: a person’s sequence is compared with a reference genome (a standard sequence), and the computer lists every difference (variant).",
+        "Most variants are harmless; the database shows which have been recorded in people with a disease, so a disease-causing allele can be recognised.",
+        "Worked example: reference beta-globin gene … CCT GAG GAG …; patient … CCT GTG GAG …; the computer flags one substitution, A to T in the codon GAG → GTG, which is the sickle-cell allele (glutamic acid replaced by valine; see “Mutations”).",
+        "Databases show the DNA strand with the same sequence as the mRNA, so GTG here matches GUG in the mRNA."
+      ]
+    },
+    {
+      "h": "Benefits for health and research",
+      "points": [
+        "Diagnosing rare genetic diseases quickly by comparing a patient’s genome with databases.",
+        "Carrier testing and genetic counselling (see “Benefits and limitations of Mendelian genetics”).",
+        "Finding which genes are mutated in a tumour, to choose a treatment (see “Causes, prevention and treatment of cancer”).",
+        "Tracking the spread and evolution of pathogens, and finding genes that raise the risk of common diseases."
+      ]
+    },
+    {
+      "h": "The main databases",
+      "points": [
+        "OMIM (Online Mendelian Inheritance in Man, omim.org) is a catalogue of human genes and genetic disorders and the relationships between them. It is written and updated by scientists at Johns Hopkins University in the USA, and was begun by the geneticist Victor McKusick.",
+        "Each OMIM entry has a six-digit MIM number. Searching OMIM is free on the website.",
+        "NCBI (the National Center for Biotechnology Information, ncbi.nlm.nih.gov) is part of the US National Library of Medicine.",
+        "NCBI hosts many linked databases, including GenBank (DNA sequences), Gene (one record per gene, with its location and a summary of its function), ClinVar (variants found in patients and their classification), and the BLAST tool.",
+        "A search box at the top of the NCBI home page searches all of them, or one chosen database.",
+        "Ensembl (ensembl.org) is a genome browser run by the European Bioinformatics Institute (EMBL-EBI) near Cambridge, UK.",
+        "Ensembl shows the genomes of humans and many other animals as maps on which genes, their structure and known variants can be viewed and compared between species."
+      ]
+    },
+    {
+      "h": "Worked method: finding disease alleles in OMIM",
+      "b": "Aim: to use a genome database to find the gene and the alleles responsible for two named genetic diseases, cystic fibrosis and Huntington’s disease, and record the gene, its chromosome location, the pattern of inheritance and the disease-causing allele.",
+      "points": [
+        "1. Go to omim.org and type the disease name (e.g. “cystic fibrosis”) in the search box.",
+        "2. The results list entries, each with a MIM number and a title. A symbol before the number shows the type of entry: # means a description of a disease or other phenotype whose molecular basis (gene) is known; * means a gene.",
+        "3. Open the disease entry (the # entry: cystic fibrosis is #219700; Huntington’s disease is #143100).",
+        "4. Near the top of the disease entry, a table of phenotype–gene relationships gives the chromosome location (cytogenetic band), the phenotype, its pattern of inheritance (e.g. “AR” for autosomal recessive, “AD” for autosomal dominant), and the gene responsible, with a link to the gene’s own (*) entry.",
+        "5. Read the text sections of the entry (e.g. clinical features, inheritance, molecular genetics) for a description of the disease and of the mutations that cause it.",
+        "6. Follow the link to the gene entry; its section on allelic variants lists selected disease-causing alleles, each with a description of the change in the DNA and the protein.",
+        "7. Record the findings in a table (columns: disease; gene; chromosome location; inheritance; disease-causing allele; protein affected).",
+        "8. Repeat for the second disease.",
+        "9. Check one result in a second database (e.g. search the gene name in NCBI Gene or Ensembl) to confirm the location (a check of reliability; see “Recognising bias and evaluating sources”).",
+        "Reading a chromosome location: 7q31.2 means chromosome 7, the long arm (q), band 31.2; 4p16.3 means chromosome 4, the short arm (p), band 16.3."
+      ]
+    },
+    {
+      "h": "Expected results for the two diseases",
+      "b": "The results table, one row per disease, with the gene, location, inheritance and disease-causing allele.",
+      "points": [
+        "Cystic fibrosis: gene CFTR (cystic fibrosis transmembrane conductance regulator), chromosome 7 (7q31.2); autosomal recessive.",
+        "The commonest disease-causing allele is F508del, a deletion of three bases that removes one phenylalanine from the CFTR protein (see “Mutations”).",
+        "Many hundreds of other disease-causing alleles are listed. The protein affected is CFTR, a channel that moves chloride ions across cell membranes.",
+        "Huntington’s disease: gene HTT (huntingtin), chromosome 4 (4p16.3); autosomal dominant.",
+        "The disease-causing allele has too many repeats of the three bases CAG near the start of the gene: 40 or more repeats cause the disease, 36 to 39 may or may not, and unaffected people usually have 26 or fewer.",
+        "Each CAG codes for the amino acid glutamine, so the huntingtin protein carries an abnormally long chain of glutamines, which damages nerve cells in the brain.",
+        "Third example (optional, may be given as a row in the table): sickle-cell anaemia; gene HBB (beta-globin), chromosome 11 (11p15.4); autosomal recessive.",
+        "The sickle-cell allele is one base substitution changing glutamic acid to valine in beta-globin (haemoglobin S; see “Mutations”)."
+      ]
+    },
+    {
+      "h": "Using NCBI and Ensembl",
+      "points": [
+        "NCBI: choose the Gene database, search the gene name with “human” (e.g. “CFTR human”), and open the human gene record.",
+        "The NCBI gene record gives the official name, the chromosome location, a summary of what the gene does, and links to OMIM and ClinVar.",
+        "In ClinVar, a search for the gene lists the variants reported in patients, each with a classification: pathogenic, likely pathogenic, uncertain significance, likely benign or benign.",
+        "A disease-causing allele is one classified as pathogenic.",
+        "Ensembl: choose the human genome, search for the gene name, and open the gene page.",
+        "The Ensembl gene page shows the gene’s position on the chromosome, its coding and non-coding sections, and a table of known variants with their consequences.",
+        "The same gene can be viewed in other species to see how similar it is."
+      ]
+    },
+    {
+      "h": "Conclusion and limitations",
+      "points": [
+        "Each disease is caused by alleles of a single gene at a known chromosome location.",
+        "Cystic fibrosis is recessive, so a person needs two disease-causing alleles, while Huntington’s disease is dominant, so one is enough (see “Monohybrid crosses”).",
+        "Databases record many different disease-causing alleles of the same gene.",
+        "Many variants are of “uncertain significance”: it is not yet known whether they cause disease.",
+        "Most common diseases (e.g. heart disease, type 2 diabetes) involve many genes and the environment, so no single allele “causes” them (see “Benefits and limitations of Mendelian genetics”).",
+        "Databases contain far more data from people of European ancestry than from other populations, so variants in other groups are less well understood.",
+        "Databases are for research and professionals, so a result should be interpreted with a doctor or genetic counsellor. Privacy of genetic data is covered in “Ethics of genetic technologies”."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Bioinformatics", "definition": "The use of computers and software to store, search, compare and analyse biological information, especially DNA, RNA and protein sequences." },
+    { "term": "Genome database", "definition": "An online store of genome sequences and information about genes, their variants and their effects, which anyone can search." },
+    { "term": "Reference genome", "definition": "A standard sequence against which a person’s genome is compared to find differences (variants)." },
+    { "term": "Variant", "definition": "A difference between a person’s sequence and the reference genome, which may or may not be harmful." },
+    { "term": "Sequence alignment", "definition": "Lining up sequences so that similarities between them can be found by software." },
+    { "term": "BLAST", "definition": "An NCBI tool that finds the most similar sequences in a database to a sequence entered by the user." },
+    { "term": "OMIM", "definition": "Online Mendelian Inheritance in Man, a catalogue of human genes and genetic disorders, with six-digit MIM numbers for each entry." },
+    { "term": "ClinVar", "definition": "An NCBI database of variants found in patients, each with a classification such as pathogenic or benign." },
+    { "term": "Pathogenic variant", "definition": "A variant classified as causing disease, which is therefore a disease-causing allele." },
+    { "term": "Chromosome location", "definition": "The position of a gene on a chromosome, given by chromosome number, arm (p or q) and band, such as 7q31.2." },
+    { "term": "Autosomal recessive", "definition": "An inheritance pattern in which a person needs two disease-causing alleles to have the condition, as in cystic fibrosis." },
+    { "term": "Autosomal dominant", "definition": "An inheritance pattern in which one disease-causing allele is enough to cause the condition, as in Huntington’s disease." },
+    { "term": "Uncertain significance", "definition": "The classification of a variant when it is not yet known whether it causes disease." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by bioinformatics? Give two reasons why computers are needed to analyse genetic information.",
+      "model": "Bioinformatics is the use of computers and software to store, search, compare and analyse biological information, especially DNA, RNA and protein sequences. Two reasons why computers are needed: one human genome is about 3 billion base pairs, and sequencing machines produce data on many genomes quickly, which no person could read or compare by eye; and computers compare sequences in seconds, store them permanently and let scientists anywhere share them."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would use a named genome database to find information about the allele that causes a named genetic disease, and state what you would expect to find.",
+      "model": "I would use OMIM (omim.org). I would type the disease name, for example cystic fibrosis, into the search box and open the disease entry, marked with a # and its six-digit MIM number. The phenotype–gene table near the top gives the chromosome location, the inheritance pattern and the gene responsible, with a link to the gene entry. In the gene entry, the section on allelic variants lists the disease-causing alleles, each with the change in the DNA and in the protein. For cystic fibrosis I would expect to find the gene CFTR on chromosome 7 (7q31.2), inherited as autosomal recessive, with the commonest disease-causing allele F508del, a deletion of three bases that removes one phenylalanine from the CFTR protein. One limitation is that many variants are of uncertain significance, so a result should be interpreted with a doctor or genetic counsellor."
+    },
+    {
+      "marks": 9,
+      "prompt": "Part of a reference sequence of a gene is CCT GAG GAG and the same part in a patient is CCT GTG GAG. Identify the type of mutation, name the condition it causes and explain how a genome database helps to show that this change causes disease.",
+      "model": "The mutation is a substitution (a point mutation): the middle base A of the codon GAG is changed to T, giving GTG. The condition is sickle-cell anaemia. The codon GAG codes for glutamic acid, which is replaced by valine in beta-globin. A genome database compares the patient’s sequence with the reference genome and lists the differences. The database records this variant in people with sickle-cell anaemia, and a variant recorded in affected people and classified as pathogenic is a disease-causing allele, so the database shows that the change is associated with the disease rather than being one of the harmless differences found in most people."
+    }
+  ]
+}

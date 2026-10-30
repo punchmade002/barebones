@@ -1,0 +1,141 @@
+{
+  "loId": "bio30-s2",
+  "chapterId": "bio30",
+  "subsection": "Transport of water and minerals",
+  "syllabusRef": "2.6.15",
+  "notes": [
+    {
+      "h": "The route water takes through the plant",
+      "b": "Water moves in one continuous flow, from the soil through the plant and out into the air. This flow is the transpiration stream.",
+      "points": [
+        "Overview: water moves from the soil into the root hairs, across the root cortex, into the xylem, up the stem, into the leaves, and out as water vapour through the stomata.",
+        "Stage 1, into the root hair by osmosis: soil water is a dilute solution with a higher water concentration, while the cell sap in the root hair's vacuole is more concentrated, with a lower water concentration. Water therefore passes in through the selectively permeable cell membrane.",
+        "Stage 2, across the cortex: water moves from cell to cell by osmosis, each cell inwards being slightly more concentrated than the one before. It also seeps along the cellulose cell walls and through the spaces between cells, and it passes through the endodermis into the xylem at the centre of the root.",
+        "Stage 3, up the xylem: water travels up the root and stem xylem as continuous columns and into the veins of the leaves.",
+        "Stage 4, into the leaf cells: water leaves the xylem in the veins and passes by osmosis into the mesophyll cells, keeping them turgid and supplying a small amount for photosynthesis.",
+        "Stage 5, out of the leaf: water evaporates from the moist walls of the mesophyll cells into the air spaces, which become saturated with water vapour. The vapour diffuses out through the open stomata into the drier air outside, from a higher to a lower concentration of water vapour.",
+        "Transpiration pull: as water evaporates from the leaves, more water is drawn out of the xylem to replace it, so the whole column of water in the xylem is pulled up from the roots, like drinking through a straw.",
+        "The energy for the transpiration pull comes from the sun's heat, which causes evaporation; the plant uses none of its own ATP to move water up.",
+        "Diagram: an outline of a whole plant with arrows showing the route soil water, root hair, cortex, root xylem, stem xylem, leaf vein, mesophyll cell, air space, stoma, air; label osmosis (root hair, cortex), evaporation (mesophyll cell walls) and diffusion (stoma)."
+      ]
+    },
+    {
+      "h": "Transpiration",
+      "points": [
+        "Transpiration is the loss of water vapour from the parts of a plant above the ground, mainly through the stomata of the leaves. Small amounts are lost through the cuticle and the lenticels.",
+        "Most of the water a plant absorbs is lost by transpiration; only a small fraction is used in photosynthesis or kept in the cells (see Photosynthesis as an anabolic process).",
+        "Transpiration benefits the plant by pulling water and dissolved minerals up from the roots to the leaves, the transpiration stream.",
+        "It keeps the leaf cells supplied with water, so they stay turgid and the leaves stay firm and spread out to the light. Evaporation also cools the leaves in strong sunlight (see Water).",
+        "Transpiration is unavoidable. The stomata must be open to let CO₂ in for photosynthesis, and water vapour escapes through the same pores.",
+        "If water is lost faster than the roots can take it in, the cells lose turgor and the plant wilts. Prolonged wilting stops photosynthesis and can kill the plant, so the plant balances gas exchange against water loss.",
+        "Conditions that increase transpiration are bright light, high temperature, wind, low humidity, a large leaf area and a thin cuticle. Each is explained and investigated in Investigation: rate of transpiration."
+      ]
+    },
+    {
+      "h": "Stomata: how they open and close",
+      "points": [
+        "Each stoma is a pore between two guard cells. The wall of a guard cell next to the pore, the inner wall, is thicker and less stretchy than the outer wall.",
+        "Opening: in the light, guard cells actively take in potassium ions (K⁺) from neighbouring epidermal cells, using ATP. This raises the solute concentration in the guard cells, so water enters them by osmosis from the surrounding cells.",
+        "The guard cells swell and become turgid. Because the thick inner wall stretches less than the thin outer wall, the cells bend outwards and curve apart, and the pore opens.",
+        "Closing: potassium ions leave the guard cells, water follows by osmosis, the guard cells become flaccid and straighten, and the pore closes.",
+        "Stomata are usually open in daylight, when CO₂ is needed for photosynthesis, and when the concentration of CO₂ inside the leaf is low (Higher Level detail is in CO₂ as a controlling factor in plant stomata).",
+        "Stomata close at night, when there is no photosynthesis and so no need for CO₂, and in very hot, dry conditions. They also close when CO₂ concentration inside the leaf is high.",
+        "When water is short and the plant begins to wilt, a chemical signal from the roots closes the stomata, saving water even though photosynthesis slows (see Structures and systems for response).",
+        "Stomata are mostly on the lower surface of a broad leaf, where it is shaded and cooler, so less water evaporates from them. Leaves floating on water, such as the water lily, have them on the upper surface instead, because the lower surface touches the water.",
+        "Diagram: a pair of guard cells drawn twice, once open (turgid, curved apart, pore open) and once closed (flaccid, straight, pore closed); label guard cell, thick inner wall, thin outer wall, chloroplast, nucleus and stoma (pore); add arrows for K⁺ and water entering when the stoma opens."
+      ]
+    },
+    {
+      "h": "Reducing water loss",
+      "points": [
+        "Leaf features that reduce water loss include a waxy, waterproof cuticle, thicker on the leaves of plants in dry or windy places; most stomata on the lower, shaded surface; and stomata that close at night and in drought.",
+        "Deciduous trees shed their leaves in autumn, so they do not lose water in winter, when cold soil water is hard to absorb.",
+        "Evergreen conifers have needle-shaped leaves with a small surface area and a thick cuticle.",
+        "Plants of dry habitats (xerophytes) have extra adaptations. Marram grass of sand dunes rolls its leaves into a tube, with the stomata on the inside surface, trapping humid air. Cacti have leaves reduced to spines and store water in a swollen green stem."
+      ]
+    },
+    {
+      "h": "Minerals: uptake and transport",
+      "points": [
+        "Plants need minerals such as nitrate, phosphate, potassium, magnesium and calcium (their uses are in Minerals). They are taken up from the soil water as dissolved ions, e.g. nitrate (NO₃⁻), potassium (K⁺) and magnesium (Mg²⁺).",
+        "Mineral ions are usually more concentrated inside the root hair cells than in the soil water, so they must be pumped in against their concentration gradient by carrier proteins in the cell membrane, using ATP from respiration.",
+        "Where the soil concentration is higher than in the cell, some ions also enter by diffusion.",
+        "Because active transport needs ATP, roots need oxygen for aerobic respiration. In waterlogged soil the air spaces fill with water, the roots get too little oxygen, mineral uptake falls and the plant grows poorly. This is one reason soil must be well drained, and why roots have air spaces in the cortex.",
+        "The ions move across the cortex to the xylem and are carried up, dissolved in the water of the transpiration stream, to the leaves, growing tips and other parts, where they are taken into cells. The faster the transpiration, the faster minerals reach the leaves.",
+        "Pumping mineral ions into the root also makes the root cells more concentrated than the soil water, which keeps water entering by osmosis."
+      ]
+    },
+    {
+      "h": "Root pressure (Higher Level only)",
+      "points": [
+        "Root pressure is a pressure in the root xylem that pushes water a short distance up the stem from below.",
+        "Living root cells actively pump mineral ions into the xylem, using ATP. This makes the xylem sap more concentrated than the surrounding cells, so water passes into the xylem by osmosis, building up a pressure that pushes the water upwards.",
+        "Evidence: when a stem is cut off near ground level, sap oozes from the cut stump for some time, pushed out by the roots. Grapevines pruned in spring bleed sap in this way.",
+        "Guttation: on cool, humid nights or early mornings, when transpiration is very slow, drops of water are forced out through special pores at the tips and edges of leaves, e.g. on grass and strawberry leaves. Guttation drops are not dew, because they appear at the leaf edges, not all over the surface.",
+        "Root pressure needs living, respiring root cells. It stops if the roots are killed, cooled or deprived of oxygen, which shows that it is an active process.",
+        "Root pressure is most significant at night and in spring, before the leaves have opened and when transpiration is low, and it can refill xylem columns that contain air bubbles.",
+        "Root pressure is far too weak to raise water to the top of a tall tree, and some plants show little or none, so it is not the main mechanism."
+      ]
+    },
+    {
+      "h": "Cohesion and tension: the cohesion–tension model (Higher Level only)",
+      "points": [
+        "The cohesion–tension model explains how water rises to the tops of the tallest trees. It was proposed in 1894 by two Irish scientists at Trinity College Dublin, the botanist Henry Dixon and the physicist John Joly.",
+        "1. Transpiration: water evaporates from the walls of the mesophyll cells and diffuses out through the stomata.",
+        "2. The mesophyll cells replace the lost water by osmosis from the cells deeper in the leaf, and these take water from the xylem in the veins.",
+        "3. Tension: removing water from the top of the xylem puts the column of water in the xylem under tension, a pulling force or negative pressure, which is passed all the way down the stem to the roots. This is the transpiration pull.",
+        "4. Cohesion: water molecules are attracted to each other by hydrogen bonds (see Water), so they stick together and the column does not break. Each molecule pulled up drags the one behind it, so the whole unbroken column moves up as one.",
+        "5. Adhesion: water molecules are also attracted to the walls of the narrow xylem vessels. This helps hold the column up against gravity and stops it pulling away from the walls.",
+        "6. At the bottom, water is drawn into the root xylem from the cortex, and into the root hairs from the soil, to replace it.",
+        "The process is passive, so the plant spends no ATP on it. The lignified walls of the xylem stop the vessels collapsing inwards under the tension.",
+        "Evidence: the trunk of a tree becomes very slightly narrower during the day, when transpiration is fastest, as the tension pulls the xylem walls inwards.",
+        "When a xylem vessel under tension is cut, air is drawn in rather than water leaking out. If air enters the xylem the column breaks and water flow in that vessel stops, which is why the stems of cut flowers should be cut again under water before being placed in a vase.",
+        "Capillarity, the rise of water up narrow tubes by adhesion, raises water only a short way and is a minor factor."
+      ]
+    },
+    {
+      "h": "Root pressure and cohesion–tension compared (Higher Level only)",
+      "points": [
+        "Root pressure pushes water from below; cohesion–tension pulls it from above.",
+        "Root pressure is active, using ATP in the root cells; cohesion–tension is passive, powered by the sun's energy.",
+        "Root pressure raises water only a short distance; cohesion–tension is the main mechanism and can lift water to the top of the tallest trees.",
+        "Root pressure is most important at night and in spring, when transpiration is low; cohesion–tension works when the stomata are open and transpiration is fast, mainly by day."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Transpiration", "definition": "The loss of water vapour from the parts of a plant above the ground, mainly through the stomata of the leaves." },
+    { "term": "Transpiration stream", "definition": "The continuous flow of water from the roots, up the xylem and out through the leaves as water vapour." },
+    { "term": "Transpiration pull", "definition": "The pulling of water up the xylem caused by evaporation from the leaves, which replaces water lost from the top of the column." },
+    { "term": "Turgid", "definition": "Describes a plant cell that is firm because water pressure presses its contents against the cell wall." },
+    { "term": "Flaccid", "definition": "Describes a plant cell that has lost turgor, so it is soft and not pressed against its cell wall." },
+    { "term": "Potassium ion (K⁺)", "definition": "The ion that guard cells take in to open a stoma and let out to close it." },
+    { "term": "Xerophyte", "definition": "A plant adapted to survive in dry habitats, for example marram grass or a cactus." },
+    { "term": "Active transport of minerals", "definition": "The pumping of mineral ions through the root cell membrane against a concentration gradient, using ATP from respiration." },
+    { "term": "Waterlogged", "definition": "Describes soil whose air spaces are full of water, so roots get too little oxygen for aerobic respiration." },
+    { "term": "Root pressure (Higher Level)", "definition": "A pressure in the root xylem, produced by active pumping of mineral ions, that pushes water a short distance up the stem from below." },
+    { "term": "Guttation (Higher Level)", "definition": "The forcing out of drops of water through pores at the tips and edges of leaves when transpiration is slow and root pressure is high." },
+    { "term": "Cohesion (Higher Level)", "definition": "The attraction between water molecules, due to hydrogen bonds, which keeps the water column in the xylem unbroken." },
+    { "term": "Adhesion (Higher Level)", "definition": "The attraction between water molecules and the walls of the xylem vessels, which helps hold the water column up." },
+    { "term": "Tension (Higher Level)", "definition": "The pulling force, or negative pressure, in the xylem water column created when water is removed from the top by transpiration." },
+    { "term": "Cohesion–tension model (Higher Level)", "definition": "The passive explanation of how water rises in the xylem, in which transpiration puts the water column under tension that is held together by cohesion." },
+    { "term": "Capillarity (Higher Level)", "definition": "The rise of water up a narrow tube by adhesion, which raises water only a short way in a plant." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define transpiration and state two ways in which it benefits a plant.",
+      "model": "Transpiration is the loss of water vapour from the parts of a plant above the ground, mainly through the stomata of the leaves. It benefits the plant by pulling water and dissolved minerals up from the roots to the leaves in the transpiration stream. It also keeps the leaf cells turgid, so the leaves stay firm and spread out to the light, and evaporation cools the leaves in strong sunlight."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how water moves from the soil to the leaves of a tall tree. Refer to root pressure and to the cohesion–tension model.",
+      "model": "Water enters the root hairs from the soil by osmosis, because the cell sap is more concentrated than the soil water. It moves across the cortex from cell to cell by osmosis, passes through the endodermis and enters the root xylem. Root pressure is produced when living root cells actively pump mineral ions into the xylem, so that water enters by osmosis and is pushed a short distance up the stem from below. It is far too weak to raise water to the top of a tall tree. The main mechanism is the cohesion–tension model, proposed by Dixon and Joly in 1894. Water evaporates from the mesophyll cells and diffuses out through the stomata, so the water column in the xylem is under tension and is pulled up from above. Cohesion, the attraction between water molecules by hydrogen bonds, keeps the column unbroken, and adhesion to the walls of the xylem vessels helps to hold it up. The process is passive, powered by the sun's energy, and the lignified walls of the xylem stop the vessels collapsing."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how a stoma opens, and explain why minerals cannot be taken up by a plant's roots when the soil is waterlogged.",
+      "model": "In the light, guard cells take in potassium ions from neighbouring epidermal cells by active transport, using ATP. This raises the solute concentration in the guard cells, so water enters them by osmosis. The guard cells become turgid, and because the thick inner wall stretches less than the thin outer wall, they curve apart and the pore opens. Mineral ions are taken up by active transport, which needs ATP from aerobic respiration. In waterlogged soil the air spaces fill with water, so the roots get too little oxygen for aerobic respiration. Less ATP is made, so mineral uptake falls and the plant grows poorly."
+    }
+  ]
+}

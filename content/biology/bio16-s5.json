@@ -1,0 +1,139 @@
+{
+  "loId": "bio16-s5",
+  "chapterId": "bio16",
+  "subsection": "Causes, prevention and treatment of cancer",
+  "syllabusRef": "2.3.8",
+  "notes": [
+    {
+      "h": "The general idea of causes",
+      "points": [
+        "Most cancers have no single cause. They result from several mutations building up in one cell (see 'Cancer'), and anything that damages DNA, makes cells divide more often or weakens the body's defences raises the risk.",
+        "A factor that increases the chance of developing a disease is a risk factor.",
+        "A carcinogen is any agent that can cause cancer. Most carcinogens are mutagens: they damage DNA, causing mutations in proto-oncogenes or tumour suppressor genes.",
+        "The three kinds of cause in the specification are infectious agents, environmental factors (including lifestyle) and genetic susceptibility. They often act together.",
+        "Risk is a probability, not a certainty. A risk factor makes cancer more likely, but not everyone exposed develops cancer, and some people with no known risk factor do."
+      ]
+    },
+    {
+      "h": "Infectious agents",
+      "points": [
+        "Human papillomavirus (HPV) is a virus spread by sexual contact. Some high-risk types infect cells of the cervix (neck of the womb). The virus's DNA enters the cells, and its proteins switch off the cell's tumour suppressor proteins, including p53, so infected cells divide without control.",
+        "Persistent HPV infection causes most cervical cancers. HPV 16 and HPV 18 cause about 70% of them. HPV also causes some cancers of the throat, anus, penis and vulva.",
+        "Most HPV infections are cleared by the immune system and cause no harm. HPV as a virus is described in 'Viruses'.",
+        "Hepatitis B and hepatitis C viruses infect liver cells. Long-term infection causes repeated liver damage and inflammation, and the repeated cell division needed to repair the liver gives more chances for mutations; they cause liver cancer.",
+        "Helicobacter pylori is a bacterium that lives in the stomach lining, causing long-term inflammation and ulcers (see 'The nature of scientific knowledge'). Long-term infection raises the risk of stomach cancer. It can be cleared with antibiotics.",
+        "Epstein–Barr virus, the virus that causes glandular fever, is linked to some lymphomas, e.g. Burkitt's lymphoma, and to cancer of the nose and throat (nasopharyngeal cancer).",
+        "Infections raise cancer risk in three ways: some viruses insert their own genes, whose proteins interfere with control of the cell cycle (HPV); long-term inflammation and repeated repair division increase the chance of mutation (hepatitis viruses, H. pylori); and infections that weaken the immune system let abnormal cells escape destruction. Cancer itself is not infectious."
+      ]
+    },
+    {
+      "h": "Environmental and lifestyle factors",
+      "points": [
+        "Tobacco smoke contains many carcinogens. Tar contains benzo[a]pyrene, a chemical that binds to DNA and causes mutations, including in TP53. Smoking is the main cause of lung cancer and also causes cancers of the mouth, throat, larynx, oesophagus, pancreas, bladder, kidney and cervix. Second-hand (passive) smoke also causes lung cancer.",
+        "The risk of smoking-related cancer rises with the number of cigarettes and the number of years of smoking, a dose–response relationship, and falls after stopping.",
+        "Ultraviolet (UV) radiation from the sun and from sunbeds is absorbed by DNA in skin cells, where it causes neighbouring thymine bases on a strand to bond together (thymine dimers). This distorts the DNA and causes mutations if not repaired.",
+        "UV causes skin cancers, including melanoma, the most dangerous type. Skin cancer is the most common cancer in Ireland. People with fair skin that burns easily are at greatest risk, and sunburn, especially in childhood, raises the risk.",
+        "Ionising radiation (X-rays, gamma rays and radioactive substances) has enough energy to break DNA strands.",
+        "Radon is a natural radioactive gas that seeps from rocks and soil, where it comes from uranium, into buildings. It is the second leading cause of lung cancer after smoking. Parts of Ireland have high radon levels, so homes can be tested and fitted with a radon sump or barrier.",
+        "After the Chernobyl nuclear accident in 1986, released radioactive iodine caused a large increase in thyroid cancer in children in the surrounding area. Medical X-rays use the lowest effective dose for this reason.",
+        "Asbestos fibres, once used in building insulation, lodge in the lungs and cause mesothelioma, a cancer of the lining of the lungs, and lung cancer. Smokers exposed to asbestos have a far greater risk than the two risks added together, because the factors multiply.",
+        "Alcohol is broken down in the body to ethanal (acetaldehyde), which damages DNA. Drinking raises the risk of cancers of the mouth, throat, oesophagus, liver, bowel and breast. The risk rises with the amount drunk, and there is no completely safe level for cancer risk.",
+        "Processed meat (e.g. bacon, ham and sausages) was classified by the World Health Organization's cancer agency, IARC, in 2015 as a cause of bowel cancer, and red meat as probably causing it. A diet high in fibre, from wholegrains, fruit and vegetables, lowers the risk of bowel cancer.",
+        "Obesity raises the risk of several cancers, e.g. bowel, breast after the menopause, womb, kidney and oesophagus, partly because fat tissue releases hormones and growth signals that stimulate cell division. Regular physical activity lowers the risk of bowel and breast cancer.",
+        "Age is the strongest single risk factor. Most cancers are diagnosed in older people, because mutations build up over a lifetime (see 'Cancer')."
+      ]
+    },
+    {
+      "h": "Genetic susceptibility",
+      "points": [
+        "Most mutations that cause cancer arise during a person's life in body cells (acquired, or somatic, mutations) and are not inherited. Only about 5–10% of cancers are strongly linked to an inherited faulty gene.",
+        "A person who inherits one faulty copy of a tumour suppressor gene has it in every cell, so only one more mutation, in the other copy, is needed in a cell to lose that brake. This is why inherited cancers often appear at a younger age, in more than one family member, and sometimes in both of a pair of organs, e.g. both breasts.",
+        "BRCA1 and BRCA2 are tumour suppressor genes whose proteins repair damaged DNA. An inherited faulty copy greatly increases the lifetime risk of breast and ovarian cancer in women, and raises the risk of prostate and breast cancer in men. Either parent can pass it on, with a 50% chance for each child, which is a dominant pattern of inheritance.",
+        "Lynch syndrome is caused by inherited faulty copies of genes that repair copying errors in DNA. It greatly raises the risk of bowel cancer and of cancer of the womb.",
+        "People with a strong family history can be tested for these faulty genes. Those who carry one can have more frequent or earlier screening, and some choose surgery to reduce risk, e.g. removal of the breasts or ovaries. The actress Angelina Jolie publicly described her choice of a preventive double mastectomy in 2013, after testing positive for a faulty BRCA1 gene; her account greatly increased the number of women seeking testing.",
+        "Genetic tests and databases are described in 'Bioinformatics: genome databases', and the ethics of DNA testing in 'Ethics of genetic technologies'."
+      ]
+    },
+    {
+      "h": "Evaluating factors that affect the development of cancers",
+      "points": [
+        "Avoidable or unavoidable: smoking, alcohol, diet, body weight, sun and sunbed exposure, radon and some infections can be changed or prevented; age and inherited genes cannot. The World Health Organization estimates that between 30% and 50% of cancers could be prevented by avoiding risk factors and using existing prevention strategies.",
+        "Size of effect: tobacco is the largest single avoidable cause of cancer. A strong effect, consistent across many studies, with a dose–response relationship and a known mechanism, is strong evidence of cause. The link between smoking and lung cancer was first shown by Richard Doll and Austin Bradford Hill in a study of lung-cancer patients in Britain, published in 1950. How correlation is judged to be causation is in 'Evaluating evidence'.",
+        "Factors interact: a person's risk depends on several factors together. Smoking and asbestos multiply each other's effects; alcohol and smoking together raise the risk of mouth and throat cancer more than either alone; an inherited BRCA mutation raises risk, but lifestyle still matters. So it is hard to say what caused any one person's cancer.",
+        "Much of the evidence is correlational. Most evidence about diet and lifestyle comes from observing large populations, which shows links but must rule out other explanations, e.g. people who eat more vegetables may also smoke less. Laboratory and animal studies can show a mechanism, but results in animals don't always apply to humans. Media reports of single studies are often unreliable (see 'Evaluating evidence').",
+        "Time lag: cancers usually appear many years or decades after exposure, e.g. mesothelioma after asbestos and lung cancer after smoking. This makes causes harder to identify and means the benefits of prevention appear only years later.",
+        "Individual or public action: individuals can change their behaviour, but laws and public-health measures often have larger effects. In 2004 Ireland became the first country in the world to ban smoking in all enclosed workplaces, including pubs and restaurants; sunbed use by under-18s is banned in Ireland; vaccination and screening programmes are free. Arguments against heavy regulation include personal freedom and cost; arguments for it include protecting others, e.g. from second-hand smoke, and reducing health-care costs."
+      ]
+    },
+    {
+      "h": "Prevention: vaccination and lifestyle changes",
+      "points": [
+        "HPV vaccine protects against infection by the HPV types that cause most cervical cancers, and some other cancers. It works best if given before any exposure to the virus, so it is offered free in Ireland to girls and boys in first year of secondary school. A large Swedish study published in 2020 found that girls vaccinated before age 17 had close to 90% lower risk of invasive cervical cancer than unvaccinated women.",
+        "The HPV vaccine does not protect against every HPV type, so cervical screening is still needed. How vaccines work is described in 'Acquired immunity, prevention and treatment'.",
+        "Hepatitis B vaccine is given to babies in Ireland as part of the 6-in-1 vaccine, and by preventing hepatitis B infection it prevents many cases of liver cancer. There is no vaccine against hepatitis C, but hepatitis C can now be cured with antiviral drugs.",
+        "Lifestyle changes that lower risk: don't smoke, and avoid second-hand smoke; keep a healthy body weight; be physically active; eat plenty of wholegrains, fibre, fruit and vegetables, and limit processed and red meat; limit alcohol; protect skin from the sun with shade, clothing, a hat and sunscreen, and don't use sunbeds; test the home for radon; take part in vaccination and screening."
+      ]
+    },
+    {
+      "h": "Early detection",
+      "points": [
+        "A cancer found early is usually small and has not spread, so it can often be removed completely and treatment is much more likely to succeed. Screening can also find pre-cancerous changes, which can be treated before cancer develops.",
+        "Screening means testing healthy people with no symptoms. Ireland's free national programmes are BreastCheck, which offers mammograms (X-rays of the breast) to women aged 50–69 every two years; CervicalCheck, which screens women and people with a cervix aged 25–65, where the sample is first tested for high-risk HPV and only HPV-positive samples are examined under the microscope for abnormal cells; and BowelScreen, a free home test kit that detects hidden traces of blood in a stool sample, followed by a colonoscopy if positive.",
+        "Self-examination and symptoms: checking breasts and testicles for lumps; checking moles using the ABCDE rule, Asymmetry, irregular Border, more than one Colour, Diameter more than 6 mm, and Evolving or changing; and seeing a doctor about warning signs such as an unexplained lump, unexplained weight loss, a persistent cough, or blood in the urine or stool.",
+        "Diagnosis: a biopsy, a small sample of tissue, is examined under the microscope for cancer cells (see 'Cancer' and 'Microscopy'). Scans (X-ray, CT, MRI and ultrasound) show where tumours are and whether they have spread. Blood tests can detect some cancers or the substances they release.",
+        "Limits of screening: no test is perfect. A false positive causes worry and unnecessary further tests; a false negative gives false reassurance; and some screening finds slow-growing cancers that would never have caused harm, a problem called overdiagnosis. So screening is offered to the age groups where the benefits are greatest."
+      ]
+    },
+    {
+      "h": "Treatments",
+      "points": [
+        "Surgery removes the tumour with a margin of surrounding normal tissue, and sometimes nearby lymph nodes. It is most effective for a solid tumour that has not spread; it is not possible for leukaemias or widespread cancer.",
+        "Radiotherapy aims beams of ionising radiation at the tumour, damaging the DNA of the cancer cells so that they die. Rapidly dividing cells with faulty repair are especially vulnerable. Side effects come from damage to nearby normal tissue, e.g. sore skin and tiredness.",
+        "Chemotherapy uses drugs carried in the blood throughout the body to kill dividing cells, usually by damaging DNA or stopping DNA replication or mitosis. Vincristine, from the Madagascar periwinkle plant, stops the spindle forming; paclitaxel (Taxol, first obtained from the bark of the Pacific yew tree) stops the spindle breaking down. Either way, chromosomes can't be separated.",
+        "Because chemotherapy also kills normal rapidly dividing cells, its side effects include hair loss (hair follicles), nausea and mouth ulcers (gut lining), and anaemia and infections (bone marrow). It is given in cycles to let normal tissues recover. Unlike surgery, it can reach cancer cells that have spread.",
+        "Hormone therapy is used for cancers that need a hormone to grow. Many breast cancers have oestrogen receptors, and the drug tamoxifen blocks the receptors, so oestrogen can't stimulate the cancer cells to divide.",
+        "A bone-marrow (stem cell) transplant is used for some leukaemias. After high-dose treatment destroys the diseased bone marrow, healthy blood-forming stem cells from a matched donor, or the patient's own cells collected earlier, are given to rebuild it."
+      ]
+    },
+    {
+      "h": "Emerging evidence in cancer research",
+      "points": [
+        "Targeted therapy uses drugs designed to act on the protein made by a particular mutated gene in the cancer, so they harm normal cells less. Imatinib (Glivec) blocks the abnormal protein made by the BCR-ABL gene in chronic myeloid leukaemia; this gene is formed by the Philadelphia translocation (see 'Mutations'). It has turned a fatal leukaemia into one most patients live with for many years. Trastuzumab (Herceptin) is an antibody that attaches to the HER2 receptor on breast cancer cells that have too many of these receptors. Targeted drugs work only for cancers with that target, and cancers can become resistant.",
+        "Immunotherapy helps the patient's own immune system destroy cancer cells. Checkpoint-inhibitor drugs release the brakes that cancer cells use to switch off T lymphocytes; the 2018 Nobel Prize in Physiology or Medicine was awarded to James Allison and Tasuku Honjo for this work. These drugs have produced long-lasting responses in some people with advanced melanoma and lung cancer. In CAR-T cell therapy, a patient's T cells are genetically modified to recognise their cancer cells, multiplied and returned to the body; it is used for some leukaemias and lymphomas. Immunotherapy works in only some patients, can cause the immune system to attack healthy organs, and is very expensive (see 'White blood cells' for T lymphocytes).",
+        "Personalised (precision) medicine: sequencing the DNA of a patient's tumour shows which genes are mutated, so doctors can choose the drug most likely to work for that tumour rather than for the organ in which it started.",
+        "Cancer vaccines that treat cancer: personalised mRNA vaccines, made to match the mutated proteins of one patient's tumour, train the immune system to attack it. They are in clinical trials, e.g. for melanoma, and are not yet routine.",
+        "Liquid biopsy: blood tests that detect small fragments of DNA released by tumours into the blood. This may allow cancers to be found earlier, and relapse to be detected, without surgery. The tests are still being evaluated for accuracy.",
+        "Real-world evidence: the fall in cervical pre-cancers and cancers in vaccinated groups (see the HPV vaccine above) shows that preventing an infection prevents a cancer."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Carcinogen", "definition": "Any agent that can cause cancer, most often by damaging DNA." },
+    { "term": "Risk factor", "definition": "A factor that increases the chance of developing a disease." },
+    { "term": "Genetic susceptibility", "definition": "An inherited tendency to develop a cancer, such as a faulty tumour suppressor gene passed from a parent." },
+    { "term": "Screening", "definition": "Testing healthy people with no symptoms in order to find cancer or pre-cancerous changes early." },
+    { "term": "Biopsy", "definition": "The removal of a small sample of tissue, which is examined under the microscope for cancer cells." },
+    { "term": "Benzo[a]pyrene", "definition": "A chemical in tobacco tar that binds to DNA and causes mutations." },
+    { "term": "Thymine dimer", "definition": "Two neighbouring thymine bases on a DNA strand bonded together by UV radiation, distorting the DNA." },
+    { "term": "Chemotherapy", "definition": "Treatment with drugs carried in the blood that kill dividing cells throughout the body." },
+    { "term": "Targeted therapy", "definition": "Treatment with drugs designed to act on the protein made by a particular mutated gene in a cancer." },
+    { "term": "Immunotherapy", "definition": "Treatment that helps the patient's own immune system destroy cancer cells." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Explain, with a named example in each case, how an infectious agent, an environmental factor and an inherited gene can each increase the risk of cancer.",
+      "model": "Infectious agent: human papillomavirus (HPV) infects cells of the cervix; its proteins switch off tumour suppressor proteins, including p53, so infected cells divide without control, and persistent infection causes most cervical cancers. Environmental factor: tobacco tar contains benzo[a]pyrene, which binds to DNA and causes mutations, so smoking causes lung cancer. Inherited gene: a person who inherits one faulty copy of BRCA1 or BRCA2 has it in every cell, so only one more mutation is needed to lose that tumour suppressor's control, greatly increasing the risk of breast and ovarian cancer."
+    },
+    {
+      "marks": 12,
+      "prompt": "Evaluate the factors that affect a person's chance of developing cancer, and discuss the role of vaccination and screening in reducing deaths from cancer.",
+      "model": "Many factors affect cancer risk, but they are not equally changeable. Smoking, alcohol, diet, body weight, sun exposure, radon and some infections can be avoided, while age and inherited genes cannot; the World Health Organization estimates that 30% to 50% of cancers could be prevented. Factors interact: smoking and asbestos multiply each other's effects, and an inherited BRCA mutation raises risk while lifestyle still matters. Much evidence is correlational, and cancers appear decades after exposure, so causes are hard to prove. Vaccination protects against infection before exposure: the HPV vaccine, given free to first-year secondary school pupils in Ireland, protects against the HPV types that cause most cervical cancers, but it does not cover every HPV type. Screening finds cancers early, when they are small and have not spread, so treatment is more likely to succeed; BowelScreen, BreastCheck and CervicalCheck are free national programmes. Screening has limits: false positives and false negatives occur, and overdiagnosis can find slow-growing cancers that would never have caused harm."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain why chemotherapy causes hair loss and anaemia, and describe one newer treatment that targets cancer cells more precisely.",
+      "model": "Chemotherapy drugs kill rapidly dividing cells throughout the body, not only cancer cells. Hair loss occurs because the hair follicles are rapidly dividing cells that are damaged. Anaemia occurs because the bone marrow, which makes new blood cells by rapid division, is damaged, so fewer red blood cells are produced. One newer treatment is targeted therapy: imatinib (Glivec) blocks the abnormal protein made by the BCR-ABL gene in chronic myeloid leukaemia, so it harms normal cells less. Its limit is that it works only for cancers with that target, and cancers can become resistant."
+    }
+  ]
+}

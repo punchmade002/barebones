@@ -1,0 +1,102 @@
+{
+  "loId": "bio16-s1",
+  "chapterId": "bio16",
+  "subsection": "The cell cycle",
+  "syllabusRef": "2.3.1",
+  "notes": [
+    {
+      "h": "Chromosomes and chromosome number",
+      "points": [
+        "A chromosome is one long DNA molecule wound around proteins, carrying many genes (see 'Chromosome structure and genes').",
+        "Between divisions the chromosomes are long, thin and spread out as chromatin. Before division they coil up (condense) and become short and thick, so they can be seen with the light microscope when stained.",
+        "Homologous chromosomes are a pair of chromosomes of the same size and shape, with the same genes at the same positions, one inherited from each parent; the alleles on them may differ. Human body cells contain 23 such pairs.",
+        "Diploid (2n): a cell or organism with two sets of chromosomes, so that its chromosomes lie in homologous pairs. Human body (somatic) cells are diploid, 2n = 46.",
+        "Haploid (n): a cell with one set of chromosomes, one chromosome from each homologous pair. Human gametes (sperm and egg cells) are haploid, n = 23.",
+        "When two haploid gametes fuse at fertilisation, the zygote is diploid again (23 + 23 = 46), so the chromosome number stays the same from generation to generation.",
+        "Haploid cells are made by meiosis; mitosis keeps the chromosome number the same (see 'Mitosis and meiosis').",
+        "Each species has its own chromosome number: human 2n = 46, the fruit fly Drosophila 2n = 8, the garden pea 2n = 14. The number does not reflect how complex an organism is."
+      ]
+    },
+    {
+      "h": "The cell cycle",
+      "points": [
+        "The cell cycle is the sequence of events in the life of a cell, from the time it is formed by division until it divides itself into two daughter cells.",
+        "It has three main activities, in this order: growth (the cell makes new proteins and organelles and gets bigger); DNA synthesis (every chromosome is copied); and division (the nucleus divides so that each new nucleus gets one copy of every chromosome, then the cytoplasm divides to give two cells).",
+        "The phase between divisions, when growth and DNA synthesis happen, is interphase. A cell spends most of its life in interphase, about 90% of the cycle; division is short.",
+        "In many human cells grown in the laboratory, one cycle takes about 24 hours.",
+        "Interphase is not a resting stage: the cell is very active, carrying out its normal functions as well as preparing to divide.",
+        "One cycle, including division, produces two daughter cells, each with the same number and type of chromosomes as the parent cell and genetically identical to it.",
+        "Not all cells keep cycling. Some leave the cycle once they are specialised and stop dividing, e.g. most mature nerve cells; mature red blood cells have no nucleus and can't divide. Others divide often throughout life, e.g. cells of the skin, the lining of the gut and the bone marrow, and in plants the cells at root and shoot tips (meristems).",
+        "The cycle is controlled. Proteins inside the cell check at several points (checkpoints) that the cell is large enough, that the DNA has been copied correctly and is undamaged, and that the chromosomes are attached correctly before the cell moves on. Signals from other cells (growth factors) tell it whether to divide.",
+        "Diagram: the cell cycle as a circle, with a large sector for interphase (labelled cell growth and DNA replication) and a small sector for division (labelled mitosis, then cytokinesis), and an arrow showing the direction of the cycle. Higher Level: also label G1, S and G2 within interphase and the four stages of mitosis within the division sector."
+      ]
+    },
+    {
+      "h": "Interphase in detail (Higher Level only)",
+      "points": [
+        "Interphase has three parts. G1 (first growth phase): the cell grows, makes proteins (including the enzymes needed to copy DNA) and organelles, and carries out its normal job.",
+        "S (synthesis) phase: DNA replication, so each chromosome now consists of two identical copies called sister chromatids, joined at the centromere.",
+        "G2 (second growth phase): further growth and more organelles, e.g. mitochondria; the proteins of the spindle are made, and ATP is stored for division.",
+        "A cell that stops dividing leaves the cycle from G1 into a non-dividing state (sometimes called G0), e.g. mature nerve cells.",
+        "Throughout interphase the nuclear membrane (envelope) is intact, the nucleolus is visible and the chromosomes are uncoiled as chromatin, so individual chromosomes can't be seen."
+      ]
+    },
+    {
+      "h": "The stages of mitosis (Higher Level only)",
+      "points": [
+        "Nuclear division (mitosis) is a continuous process, divided for convenience into four stages in this order: prophase, metaphase, anaphase and telophase. It is followed by cytokinesis.",
+        "Prophase: the chromosomes condense (shorten and thicken) and become visible, each as two sister chromatids joined at a centromere. The nucleolus disappears, the nuclear membrane breaks down, and spindle fibres (protein tubes called microtubules) begin to form.",
+        "In animal cells, two centrioles move to opposite ends (poles) of the cell and the spindle forms between them. Plant cells have no centrioles but still form a spindle.",
+        "Metaphase: the chromosomes line up singly on the equator (middle) of the spindle; each is attached by its centromere to spindle fibres from both poles.",
+        "Anaphase: the centromeres split and the spindle fibres shorten, pulling the sister chromatids apart to opposite poles, centromere first, which gives a V shape.",
+        "Once separated, each chromatid is called a chromosome, so each pole now has a full set of identical chromosomes. Energy for the movement comes from ATP (see 'ATP').",
+        "Telophase: the chromosomes reach the poles and uncoil back into chromatin; a nuclear membrane forms around each set; the nucleoli reappear; the spindle breaks down. There are now two nuclei, each genetically identical to the original.",
+        "Diagram: the four stages of mitosis in an animal cell with 2n = 4 (two homologous pairs, one pair long and one short, shaded to show the two parents' copies), labelled chromosome, sister chromatids, centromere, spindle fibres, centriole, pole, equator, nuclear membrane (breaking down, then re-forming), cell membrane and cleavage furrow at the end of telophase.",
+        "Identifying stages: in stained cells from a growing root tip (e.g. onion or garlic) viewed at ×400, most cells are in interphase, a nucleus with no visible chromosomes, because interphase is the longest part of the cycle.",
+        "Dividing cells are identified by the arrangement of their chromosomes: condensed and scattered for prophase; in a line across the middle for metaphase; two groups moving apart for anaphase; two groups at opposite ends, with new nuclei forming, for telophase.",
+        "The mitotic index is the percentage of cells in a sample that are dividing. For example, 24 dividing cells out of 200 gives (24 ÷ 200) × 100 = 12%.",
+        "A high mitotic index shows a tissue that is dividing rapidly, such as a root tip or a tumour."
+      ]
+    },
+    {
+      "h": "Cytokinesis (Higher Level only)",
+      "points": [
+        "Cytokinesis is the division of the cytoplasm to form two separate daughter cells. It usually starts during late telophase. Organelles such as mitochondria are shared between the two cells.",
+        "In animal cells the cell membrane is pulled inwards around the middle of the cell, forming a groove (cleavage furrow) that deepens until the cell pinches into two.",
+        "In plant cells the rigid cell wall can't pinch in. Instead, vesicles from the Golgi apparatus collect across the middle of the cell and fuse to form a cell plate, which grows outwards to the sides and becomes the new cell membranes and cell wall between the two cells.",
+        "Diagram: an animal cell with a cleavage furrow beside a plant cell with a cell plate forming, each labelled."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Chromosome", "definition": "One long DNA molecule wound around proteins, carrying many genes." },
+    { "term": "Homologous chromosomes", "definition": "A pair of chromosomes of the same size and shape, with the same genes at the same positions, one inherited from each parent." },
+    { "term": "Diploid (2n)", "definition": "Having two sets of chromosomes, arranged in homologous pairs." },
+    { "term": "Haploid (n)", "definition": "Having one set of chromosomes, one from each homologous pair." },
+    { "term": "Cell cycle", "definition": "The sequence of events from the formation of a cell by division until it divides into two daughter cells." },
+    { "term": "Interphase", "definition": "The phase between divisions, when the cell grows and its DNA is replicated." },
+    { "term": "Checkpoint", "definition": "A point in the cell cycle where proteins check that the cell is ready to move on." },
+    { "term": "Sister chromatids", "definition": "The two identical copies of a chromosome, joined at the centromere after DNA replication." },
+    { "term": "Mitosis", "definition": "Nuclear division in which the chromosomes are separated into two identical sets, in four stages: prophase, metaphase, anaphase and telophase." },
+    { "term": "Cleavage furrow", "definition": "The groove that forms in the membrane of an animal cell during cytokinesis and pinches it into two." },
+    { "term": "Cell plate", "definition": "The structure formed from vesicles across the middle of a plant cell, which becomes the new cell wall and membranes between two daughter cells." },
+    { "term": "Mitotic index", "definition": "The percentage of cells in a sample that are dividing." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Explain the terms haploid and diploid, giving one example of each type of cell in humans.",
+      "model": "A diploid cell has two sets of chromosomes, arranged in homologous pairs. Human body cells are diploid, 2n = 46, with 23 pairs. A haploid cell has one set of chromosomes, one from each homologous pair. Human gametes, sperm and egg cells, are haploid, n = 23. When two gametes fuse at fertilisation the zygote is diploid again (23 + 23 = 46)."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the events of interphase and of each stage of mitosis in an animal cell.",
+      "model": "Interphase has three parts. In G1 the cell grows, makes proteins and organelles, and carries out its normal job. In S phase DNA is replicated, so each chromosome consists of two identical sister chromatids joined at the centromere. In G2 the cell grows further, makes more organelles and spindle proteins, and stores ATP. Prophase: the chromosomes condense and become visible, the nucleolus disappears, the nuclear membrane breaks down, the spindle forms and the two centrioles move to opposite poles. Metaphase: the chromosomes line up singly on the equator, each attached by its centromere to spindle fibres from both poles. Anaphase: the centromeres split and the spindle fibres shorten, pulling the sister chromatids to opposite poles. Telophase: the chromosomes reach the poles and uncoil, a nuclear membrane forms around each set, the nucleoli reappear and the spindle breaks down, leaving two genetically identical nuclei. A labelled diagram of one stage can add marks."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student counted 300 cells in a stained root tip and found 36 dividing. Calculate the mitotic index, explain why most cells were in interphase, and state how cytokinesis in these cells differs from that in an animal cell.",
+      "model": "Mitotic index = (36 ÷ 300) × 100 = 12%. Most cells were in interphase because interphase is the longest part of the cycle, about 90% of it, and division is short. In plant cells the rigid cell wall can't pinch in; vesicles from the Golgi apparatus fuse across the middle of the cell to form a cell plate, which grows outwards to become the new cell wall and membranes. In animal cells the cell membrane is pulled inwards to form a cleavage furrow that pinches the cell into two."
+    }
+  ]
+}

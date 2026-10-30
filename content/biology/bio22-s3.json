@@ -1,0 +1,126 @@
+{
+  "loId": "bio22-s3",
+  "chapterId": "bio22",
+  "subsection": "Acquired immunity, prevention and treatment",
+  "syllabusRef": "2.4.12",
+  "notes": [
+    {
+      "h": "Active and passive immunity",
+      "points": [
+        "Active immunity: the person's own immune system makes antibodies and memory cells in response to an antigen.",
+        "Active immunity takes days to weeks to develop, but it is long-lasting, often for years or for life, because memory cells remain.",
+        "Passive immunity: ready-made antibodies from another person or animal are given to the person.",
+        "Passive immunity gives immediate protection but is short-lived, lasting weeks to a few months, because the antibodies are gradually broken down and no memory cells are made.",
+        "A later infection with the same pathogen triggers a primary response, as if for the first time.",
+        "Natural immunity comes from normal life events such as infection, pregnancy and breastfeeding.",
+        "Artificial immunity comes from deliberate medical intervention, such as vaccines and antibody injections."
+      ]
+    },
+    {
+      "h": "The four ways immunity is acquired",
+      "points": [
+        "Active natural immunity, by infection: catching a disease and recovering leaves memory cells against that pathogen. For example, most people who have had chickenpox or measles don't get them again.",
+        "Active artificial immunity, by vaccination: a vaccine stimulates the immune system to make antibodies and memory cells without causing the disease, for example the MMR vaccine against measles, mumps and rubella.",
+        "Passive natural immunity, from the mother: antibodies (IgG) cross the placenta into the fetus during pregnancy.",
+        "After birth, breast milk, especially the first milk (colostrum), contains antibodies, mainly IgA, that protect the baby's gut and breathing passages.",
+        "This passive protection lasts for the newborn's first few months, while its own immune system develops.",
+        "Passive artificial immunity, by donor transfer of antibodies: an injection of antibodies collected from donors (human immunoglobulin) or from immunised animals gives instant protection when there is no time for active immunity to develop.",
+        "Examples of passive artificial immunity: tetanus immunoglobulin for an unvaccinated person with a dirty wound; rabies immunoglobulin after a bite from a possibly rabid animal; hepatitis B immunoglobulin for babies born to infected mothers; antivenom, made in horses or sheep, for snake bites.",
+        "Active immunity uses the person's own antibodies and memory cells, starts slowly and lasts long. Passive immunity uses donor antibodies, starts immediately, forms no memory and is short-lived. Active immunity is used for prevention in advance; passive immunity is used for emergency protection or to protect newborns."
+      ]
+    },
+    {
+      "h": "Vaccination",
+      "points": [
+        "A vaccine contains antigens of a pathogen in a form that can't cause disease. Vaccines contain antigens, not antibodies.",
+        "Given by injection, or by mouth or nasal spray, a vaccine triggers a primary response, so memory cells form.",
+        "A later infection meets a fast, strong secondary response, and the disease doesn't develop (see Innate and adaptive immunity).",
+        "Live attenuated vaccines contain a weakened pathogen that reproduces only slightly, e.g. MMR, and BCG against TB.",
+        "Inactivated vaccines contain a killed pathogen, e.g. the injected polio vaccine and most injected flu vaccines.",
+        "Toxoid vaccines contain an inactivated toxin, e.g. tetanus and diphtheria vaccines.",
+        "Subunit vaccines contain only a purified antigen, often made by genetically modified cells, e.g. the hepatitis B and HPV vaccines.",
+        "mRNA vaccines contain the genetic instructions for a pathogen protein, which the body's cells use to make the antigen, e.g. some COVID-19 vaccines.",
+        "Viral vector vaccines use a harmless virus that carries an antigen gene (see Viruses).",
+        "Booster doses: a second or later dose of the same vaccine produces a secondary response, raising antibody levels and the number of memory cells, so immunity lasts longer, e.g. tetanus boosters.",
+        "A vaccine booster is active immunity; an injection of donor antibodies is passive.",
+        "Herd immunity: when a high enough proportion of a population is immune, a pathogen can't find enough susceptible hosts to keep spreading, so people who can't be vaccinated are protected indirectly.",
+        "People who can't be vaccinated include newborns, people with weakened immune systems and people allergic to a vaccine component.",
+        "The proportion needed depends on how infectious the disease is (calculated in Emergence and spread of infectious disease).",
+        "In 1796 Edward Jenner showed that infecting a boy, James Phipps, with cowpox, a mild disease, protected him from smallpox. The word vaccine comes from vacca, Latin for cow.",
+        "Worldwide vaccination led the World Health Organization to declare smallpox eradicated in 1980, the first human disease to be eradicated.",
+        "Benefits: vaccines prevent illness, disability and death, are cheaper than treatment, and protect others through herd immunity.",
+        "Concerns: rare side effects, most of them mild, e.g. a sore arm or a low fever. Live vaccines are not given to people with weakened immune systems.",
+        "Misinformation lowers uptake, and outbreaks follow when coverage falls (the MMR case is in Evaluating evidence)."
+      ]
+    },
+    {
+      "h": "Strategies to prevent microbial disease",
+      "points": [
+        "Hygiene: handwashing with soap removes and kills microorganisms on the hands, breaking transmission by contact (the Semmelweis case is in The nature of scientific knowledge).",
+        "Covering coughs and sneezes and cleaning surfaces also reduce transmission.",
+        "Clean water and sanitation: treating drinking water by filtering and chlorination, and safely disposing of sewage, stops the spread of waterborne diseases such as cholera.",
+        "Food safety: cooking food thoroughly kills pathogens, e.g. Salmonella in chicken.",
+        "Food safety: refrigeration slows the growth of pathogens.",
+        "Food safety: pasteurisation heats milk to about 72 °C for 15 seconds and then cools it quickly, killing pathogens without spoiling the milk.",
+        "Food safety: avoiding cross-contamination between raw and cooked food.",
+        "Vaccination: vaccines given before exposure protect the vaccinated person and, through herd immunity, others (the vaccine types are described in the Vaccination block above).",
+        "Vector control: insecticide-treated bed nets, insecticide spraying and draining standing water reduce the mosquitoes that carry malaria; controlling ticks reduces Lyme disease.",
+        "Barrier methods: condoms reduce the spread of sexually transmitted infections such as HIV.",
+        "Blood safety: donated blood is screened for HIV and hepatitis viruses, and needles are sterile and used once.",
+        "Sterilisation: autoclaving, which uses steam under pressure at 121 °C, kills microorganisms and spores on equipment.",
+        "Disinfectants and antiseptics are used on surfaces and skin.",
+        "Aseptic technique in surgery prevents wound infection.",
+        "Isolation separates people who are ill. Quarantine separates people, or animals and plants, who may have been exposed until it is clear they are not infected.",
+        "Contact tracing finds people who have been exposed to a case. Population-level use of isolation and quarantine is described in Emerging diseases and society.",
+        "In plants and farm animals: resistant varieties and breeds, certified disease-free seed and stock, crop rotation, fungicide sprays (e.g. against potato blight), and good animal housing and hygiene.",
+        "Prion diseases are prevented by keeping prions out of feed and food (see Pathogens)."
+      ]
+    },
+    {
+      "h": "Strategies to treat microbial disease",
+      "points": [
+        "Antibiotics are chemicals, originally made by microorganisms, that kill bacteria or stop them growing, without harming human cells.",
+        "Antibiotics work because they target structures that bacteria have and human cells lack.",
+        "Penicillin stops bacteria building their peptidoglycan cell wall, so growing bacteria burst.",
+        "Tetracycline and streptomycin bind to bacterial 70S ribosomes and stop protein synthesis; human cytoplasmic ribosomes are 80S.",
+        "Antibiotics have no effect on viruses.",
+        "Responsible antibiotic use: take antibiotics only when prescribed for a bacterial infection, take the full course as directed, and never share them.",
+        "Unnecessary use selects for resistant bacteria (detail in Emergence and spread of infectious disease).",
+        "Antiviral drugs interfere with a stage of virus replication inside the host cell, so each is specific to one virus or a few (examples and how they act are in Viruses: replication).",
+        "There are far fewer antivirals than antibiotics, because viruses use the host cell's own machinery, which a drug must not damage.",
+        "Antifungal drugs target structures of fungal cells, e.g. clotrimazole cream for athlete's foot and thrush.",
+        "Antiprotozoal drugs treat protist infections, e.g. artemisinin-based drugs for malaria.",
+        "Anthelmintics kill parasitic worms, e.g. ivermectin.",
+        "Monoclonal antibodies, which are identical antibodies made in the laboratory against one antigen, are used to treat some infections and cancers.",
+        "Supportive treatment: rest, fluids and rehydration, e.g. oral rehydration solution of water, salts and sugar for cholera, and reducing fever, while the immune system clears the infection."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Active immunity", "definition": "Immunity produced by the person's own immune system in response to an antigen, which is long-lasting because memory cells remain." },
+    { "term": "Passive immunity", "definition": "Immunity given by ready-made antibodies from another person or animal, which is immediate but short-lived and forms no memory cells." },
+    { "term": "Vaccine", "definition": "A preparation containing antigens of a pathogen in a form that cannot cause disease, given to trigger a primary response and memory cells." },
+    { "term": "Booster dose", "definition": "A second or later dose of a vaccine that produces a secondary response and raises immunity." },
+    { "term": "Herd immunity", "definition": "Indirect protection of people who cannot be vaccinated, because a high proportion of the population is immune and the pathogen cannot keep spreading." },
+    { "term": "Colostrum", "definition": "The first milk after birth, which contains antibodies, mainly IgA, that protect the baby's gut and breathing passages." },
+    { "term": "Antibiotic", "definition": "A chemical, originally made by microorganisms, that kills bacteria or stops them growing without harming human cells." },
+    { "term": "Monoclonal antibody", "definition": "An identical antibody made in the laboratory against one antigen, used to treat some infections and cancers." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between active and passive immunity, giving one example of each.",
+      "model": "Active immunity is produced by the person's own immune system, which makes antibodies and memory cells in response to an antigen. It takes days to weeks to develop but is long-lasting, often for years or for life. Example: most people who have had measles don't get it again. Passive immunity is given by ready-made antibodies from another person or animal. It works immediately but is short-lived, lasting weeks to a few months, because no memory cells are made. Example: tetanus immunoglobulin given to an unvaccinated person with a dirty wound."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how vaccination protects a person against a disease, and why booster doses are given.",
+      "model": "A vaccine contains antigens of a pathogen in a form that cannot cause disease, so it triggers a primary response and the person's B cells form memory cells. If the person later meets the pathogen, the memory cells produce a fast, strong secondary response, with many antibodies, so the pathogen is destroyed before the disease develops. For example, the MMR vaccine contains weakened measles virus. A booster is a second or later dose of the same vaccine. It produces a secondary response, raises antibody levels and increases the number of memory cells, so immunity lasts longer. A vaccine contains antigens, not antibodies."
+    },
+    {
+      "marks": 12,
+      "prompt": "Outline four strategies used to prevent, and two used to treat, microbial diseases.",
+      "model": "Prevention: (1) hygiene, where handwashing with soap removes microorganisms from the hands and breaks transmission by contact; (2) clean water and sanitation, where filtering and chlorination of drinking water and safe sewage disposal stop waterborne diseases such as cholera; (3) food safety, where thorough cooking, refrigeration and pasteurisation of milk at about 72 °C for 15 seconds kill or control pathogens; (4) vector control, where insecticide-treated bed nets and draining standing water reduce the mosquitoes that carry malaria. Treatment: (1) antibiotics, such as penicillin, which stops bacteria building their peptidoglycan cell wall so that growing bacteria burst, without harming human cells; (2) antiviral drugs, which interfere with a stage of virus replication inside the host cell, and are specific to one virus or a few."
+    }
+  ]
+}
