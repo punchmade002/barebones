@@ -35,11 +35,12 @@ MARKDOWN = re.compile(r"\*\*|__|^#|\n|`|\$(?!\d)|\$.*\$")  # the app renders $..
 INTERNAL_IDS: set[str] = set()
 # Ids look like geo-rivers-s2 or bio19-s2, so a token may contain digits before its first hyphen.
 ID_TOKEN = re.compile(r"\b[a-z][a-z0-9]*(?:-[a-z0-9]+)+\b")
-# Subjects whose chapter review outcome (<chapter>-1) still carries the old hand-written notes
-# and flashcards. When a chapter's authored notes arrive, those are cleared so the old content
-# (which predates the current syllabus) doesn't sit beside the new notes. The review outcome
-# keeps its test questions.
-RETIRE_REVIEW_NOTES = {"biology"}
+# Subjects whose chapter review outcome still carries the old hand-written notes and
+# flashcards, mapped to that outcome's id suffix (biology <chapter>-1; PE <chapter>-core, built
+# by pe-pipeline-content.js). When a chapter's authored notes arrive, those are cleared so the
+# old content (which predates the current syllabus or outline) doesn't sit beside the new notes.
+# The review outcome keeps its test questions.
+RETIRE_REVIEW_NOTES = {"biology": "-1", "pe": "-core"}
 
 
 def outcome_ids(subject: str) -> dict[str, str]:
@@ -245,7 +246,7 @@ def build(subject: str, check_only: bool, folder: Path | None = None, out: Path 
         "    });\n"
         + (
             "    var review = (chapter.learningOutcomes || []).find(function (outcome) {\n"
-            "      return outcome.id === chapter.id + \"-1\";\n"
+            f"      return outcome.id === chapter.id + \"{RETIRE_REVIEW_NOTES.get(subject, '')}\";\n"
             "    });\n"
             "    if (review && (chapter.learningOutcomes || []).some(function (outcome) { return outcome.authored; })) {\n"
             "      review.notes = [];\n"
