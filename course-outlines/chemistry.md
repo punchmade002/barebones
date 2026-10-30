@@ -28,11 +28,11 @@
 - **Chapters** are the app's 26 chemistry chapter IDs (`data.js`, `pipeline/scaffold/chemistry.json`).
   Past exam questions, test questions and flashcards are tagged to these IDs, so keep every ID
   exactly as written. The specification doesn't follow the chapter order. Each heading below
-  lists the outcomes the chapter covers. Chapters chem1–chem13 are split in `data.js` into a
+  lists the outcomes the chapter covers. Every chapter is split in `data.js` into a
   chapter review (`<chapter>-1`, holding the old test questions) and one subsection per numbered
   item below (`<chapter>-s1`, `-s2`…), whose notes are in `content/chemistry/` and whose
-  information packages are in `course-outlines/packages/chemistry/`. Chapters chem14–chem26 still
-  use the specification's outcomes as their `data.js` entries.
+  information packages are in `course-outlines/packages/chemistry/`. A few subsection titles in
+  `data.js` are shortened or renamed from the headings below (e.g. "Investigation: …").
 - **What each subsection contains:**
   - **"Syllabus"** is what the specification says students learn about and should be able to
     do, close to its own wording. This is the required scope; every item must be covered.
