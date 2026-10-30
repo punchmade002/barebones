@@ -213,6 +213,20 @@
       "definition": "The blocks of limestone pavement (clints) separated by the cracks between them (grikes)."
     }
   ],
+  "factCards": [
+    { "term": "Joints in sedimentary rock: how they form and what they do", "definition": "They form as sediment dries and shrinks, and by stress and the removal of overlying rock. They run at right angles to the bedding planes, so together the two divide the rock into blocks." },
+    { "term": "How bedding planes and joints guide erosion of layered rock", "definition": "Water, ice and weathering exploit bedding planes and joints, so rock breaks into blocks and erosion is concentrated there. Where resistant sandstone or limestone alternates with weak shale or clay, the weak layers wear faster, leaving cliffs and caps." },
+    { "term": "Plateau on horizontal strata: formation in three stages", "definition": "First, a resistant cap rock lies above weaker horizontal layers; then erosion strips the weaker layers beneath the cap and wears back the edges; finally, the cap protects the layers beneath, so the top stays flat and the edges stay steep." },
+    { "term": "Stepped slopes: how alternating layers produce them", "definition": "Hard and soft horizontal layers erode at different rates: hard layers form cliffs and soft layers form gentler slopes, often covered by scree, so the cliff-and-slope profile repeats for each pair of layers." },
+    { "term": "Benbulben: height, structure and slopes", "definition": "Benbulben, Co. Sligo (526 m), in the Dartry Mountains: near-horizontal strata with a resistant limestone cap forming vertical cliffs over weaker shale, which forms gentler lower slopes partly covered in scree. Ice later steepened its sides." },
+    { "term": "Cuilcagh: height, structure and features at its foot", "definition": "At 665 m it is the highest point in Co. Cavan and Co. Fermanagh: a resistant sandstone cap over shale over limestone gives a stepped profile and a flat summit ridge. The Shannon Pot lies at its foot and the Marble Arch Caves in the limestone beneath." },
+    { "term": "Mesa and butte: formation and a named example", "definition": "Weathering and erosion work back the edges of a plateau, breaking it into flat-topped remnants capped by resistant rock: a mesa is wider than it is high; a butte is a smaller, narrower remnant. Example: Monument Valley, on the Arizona–Utah border, USA." },
+    { "term": "Escarpment (cuesta): formation in four stages", "definition": "First, a resistant layer is exposed on gently dipping strata; then erosion cuts a steep scarp slope across the edges of the layers; the layer continues along the tilt as a long, gentle dip slope; finally the weaker rock between cuestas is eroded into a vale." },
+    { "term": "Name an example of a cuesta and of a hogback", "definition": "Cuesta: the Cotswolds, England, a limestone ridge with a steep west-facing scarp and a long dip slope to the east. Hogback: the Hog's Back, Surrey, England, a narrow chalk ridge on steeply dipping strata." },
+    { "term": "Paris Basin: structure and landforms", "definition": "A saucer-shaped basin of limestone, chalk and clay layers dipping gently in towards Paris, near its centre. On the eastern side resistant layers form escarpments facing outwards (east), with dip slopes facing in towards Paris and clay vales between them." },
+    { "term": "Brecon Beacons: rock, landforms and highest peak", "definition": "Gently dipping Old Red Sandstone forms flat-topped summits with steep north-facing escarpments and gentle south-facing dip slopes. Pen y Fan (886 m) is the highest peak in southern Britain. The area was renamed Bannau Brycheiniog National Park in 2023." },
+    { "term": "Bedding planes and joints: four smaller landforms they produce", "definition": "Limestone pavement, with clints separated by grikes; caves along bedding planes in limestone; waterfalls over horizontal cap rock; sea caves and arches along joints on the coast." }
+  ],
   "questions": [
     {
       "marks": 30,
