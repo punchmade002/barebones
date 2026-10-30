@@ -1,8 +1,8 @@
 {
   "loId": "chem22-s1",
   "chapterId": "chem22",
-  "subsection": "1. Primary and secondary cells",
-  "syllabusRef": "3.5.4",
+  "subsection": "1. Galvanic and electrolytic cells",
+  "syllabusRef": "3.5.4, 3.5.5, 3.5.6",
   "notes": [
     {
       "h": "Electrochemical cells: the terms",
@@ -13,7 +13,7 @@
         "An electrode is a solid electrical conductor, a metal or graphite, through which electrons enter or leave the cell.",
         "Anode: the electrode at which oxidation (loss of electrons) happens. In a galvanic cell it is the negative terminal and the source of the electrons that flow out into the external circuit.",
         "Cathode: the electrode at which reduction (gain of electrons) happens. In a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted.",
-        "Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis, see \"The electrolytic cell\".",
+        "Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis (see below).",
         "Electrolyte: a substance that conducts electricity by the movement of ions, as a solution, a molten compound, a paste or a gel.",
         "The electrolyte carries ions between the electrodes, completing the circuit inside the cell.",
         "Electrons cannot pass through the electrolyte, so they travel through the external circuit from anode to cathode, while inside the cell the charge is carried by ions."
@@ -55,23 +55,255 @@
         "Rechargeable: a primary cell cannot be; a secondary cell can.",
         "Reaction: in a primary cell it is not readily reversible; in a secondary cell it is reversed by an external current.",
         "Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.",
-        "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy (see \"Electrochemistry and sustainability\").",
+        "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy (see \"Fuel cells and sustainability\").",
         "Storage: primary cells keep their charge for years on the shelf (low self-discharge), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.",
         "Uses: primary cells suit low-drain or occasional devices; secondary cells suit high-drain devices used daily, such as phones, laptops, power tools, electric vehicles and car starter batteries.",
         "Similarities: both are galvanic cells when supplying electricity, and both have an anode (oxidation), a cathode (reduction) and an electrolyte.",
         "Both should be returned for recycling rather than put in household waste, because they contain metals that can pollute soil and water."
       ]
+    },
+    {
+      "h": "Origins of the galvanic cell",
+      "points": [
+        "Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.",
+        "Galvani believed the electricity came from the animal itself, which he called “animal electricity”.",
+        "Alessandro Volta showed that the electricity came from two different metals in contact with a conducting liquid.",
+        "In 1800 Volta built the first battery, the voltaic pile: a stack of zinc and copper (or silver) discs separated by cardboard or cloth soaked in salt water.",
+        "Galvanic cells, also called voltaic cells, are named after Galvani and Volta."
+      ]
+    },
+    {
+      "h": "How a redox reaction makes a current",
+      "points": [
+        "When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
+        "Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction.",
+        "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
+        "This flow of electrons is an electric current.",
+        "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.",
+        "The metal higher in the electrochemical series (see \"Balancing redox equations and the electrochemical series\"), the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive).",
+        "The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.",
+        "Under standard conditions (1 M solutions, 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V."
+      ]
+    },
+    {
+      "h": "The copper–zinc (Daniell) cell",
+      "b": "The copper–zinc cell is the standard galvanic cell, with the zinc and copper in separate beakers joined by wires and a salt bridge.",
+      "points": [
+        "Set-up: a zinc strip in 1 M zinc sulfate solution and a copper strip in 1 M copper(II) sulfate solution, in separate beakers.",
+        "The metals are joined by wires through a voltmeter or bulb, and the solutions by a salt bridge; the voltage is about 1.1 V.",
+        "Zinc electrode (anode, negative, oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻. Zinc atoms lose electrons and go into solution as ions.",
+        "Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.",
+        "Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.",
+        "Zinc is the reducing agent and Cu²⁺ is the oxidising agent.",
+        "Electrons flow through the external wire from the zinc to the copper.",
+        "Over time the zinc electrode wears away and loses mass, while the copper electrode gains a fresh pink-brown coating and gains mass.",
+        "The blue colour of the copper(II) sulfate solution fades as Cu²⁺ is used up, and the voltage slowly falls."
+      ]
+    },
+    {
+      "h": "The salt bridge",
+      "b": "The salt bridge connects the two solutions without letting them mix.",
+      "points": [
+        "A salt bridge is a strip of filter paper soaked in potassium nitrate (or potassium chloride) solution, or a U-tube of the salt solution set in agar gel.",
+        "It completes the circuit: ions move through it, carrying charge between the half-cells.",
+        "It keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions (NO₃⁻) move into it.",
+        "As Cu²⁺ ions are removed from the copper half-cell, positive ions (K⁺) move into it.",
+        "Without it, charge would build up in each beaker and the current would stop at once.",
+        "Potassium nitrate is used because its ions do not react with the electrode solutions; it forms no precipitate."
+      ]
+    },
+    {
+      "h": "Practical: creating a simple galvanic cell",
+      "points": [
+        "Aim: to build a copper–zinc galvanic cell, measure its voltage, and compare the voltages from different pairs of metals.",
+        "Variables: the independent variable is the pair of metals; the dependent variable is the voltage; the controlled variables are the concentration and volume of the solutions, the temperature, and the size and cleanliness of the strips.",
+        "1. Clean strips of zinc and copper with sandpaper (emery paper) to remove the oxide layer, which would otherwise reduce the voltage.",
+        "2. Half-fill one beaker with 1 M zinc sulfate solution and another with 1 M copper(II) sulfate solution; stand the zinc strip in the first and the copper strip in the second.",
+        "3. Soak a strip of filter paper in potassium nitrate solution and drape it between the two beakers, with each end in a solution.",
+        "4. Connect the metals to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage.",
+        "5. Replace the voltmeter with a small bulb or LED to show that a current flows.",
+        "6. Remove the salt bridge and record the voltage again; it falls to zero, showing the bridge is needed.",
+        "7. Repeat with other metal pairs, e.g. magnesium–copper and iron–copper, each metal in a solution of its own ions, using a fresh salt bridge each time."
+      ]
+    },
+    {
+      "h": "Practical: results, safety, errors and diagram",
+      "points": [
+        "Results: the measured voltages are usually a little lower than the standard values, and the larger the gap between the metals in the electrochemical series, the larger the voltage.",
+        "A simpler cell: zinc and copper strips pushed into a lemon, or dipped into one beaker of salt solution or dilute acid, also give a voltage, because the juice or solution is an electrolyte.",
+        "Safety: wear goggles; copper(II) sulfate is harmful, an irritant and toxic to aquatic life, so do not pour it down the sink and dispose of it as directed; zinc sulfate is an irritant; wash hands afterwards.",
+        "Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.",
+        "Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper."
+      ]
+    },
+    {
+      "h": "How an electrolytic cell works",
+      "b": "Electrolysis is the use of electricity to bring about a chemical reaction, a redox reaction, that would not happen on its own. It is carried out in an electrolytic cell.",
+      "points": [
+        "An electrolytic cell has two electrodes dipping into an electrolyte, which is a molten ionic compound or a solution of ions.",
+        "The electrodes are connected to an external source of direct current (d.c.), e.g. a battery or power pack.",
+        "The external supply pumps electrons onto one electrode, making it negative, and removes electrons from the other, making it positive.",
+        "Positive ions (cations) move to the negative electrode, the cathode, where they gain electrons (reduction).",
+        "Negative ions (anions) move to the positive electrode, the anode, where they lose electrons (oxidation).",
+        "The current is carried by electrons in the wires and by moving ions in the electrolyte.",
+        "Inert electrodes, platinum or carbon (graphite), conduct electricity but do not take part in the reaction; they ensure the products come only from the electrolyte.",
+        "Michael Faraday introduced the words electrolysis, electrode, anode, cathode and ion in 1834; electrolysis means breaking up by electricity."
+      ]
+    },
+    {
+      "h": "Galvanic and electrolytic cells compared",
+      "points": [
+        "Energy: a galvanic cell converts chemical energy to electrical energy; an electrolytic cell converts electrical energy to chemical energy.",
+        "Reaction: a galvanic cell's reaction is spontaneous; an electrolytic cell's reaction is non-spontaneous and driven by the external supply.",
+        "Signs: in a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.",
+        "In both cells oxidation happens at the anode and reduction at the cathode.",
+        "A galvanic cell needs two different electrodes in two half-cells, usually with a salt bridge; an electrolytic cell can use two identical inert electrodes in one electrolyte."
+      ]
+    },
+    {
+      "h": "Splitting water: electrolysis of acidified water",
+      "points": [
+        "Pure water conducts electricity very poorly, so a little dilute sulfuric acid is added to provide ions and let a current flow.",
+        "Apparatus: a Hofmann voltameter, or two inverted test tubes filled with the solution over the electrodes in a beaker, with platinum (or carbon) electrodes connected to a 6–12 V d.c. supply.",
+        "Bubbles of gas form at both electrodes; the volume of gas at the negative electrode is twice that at the positive electrode.",
+        "Test the gas from the negative electrode (cathode) with a lighted splint: it burns with a squeaky pop, so it is hydrogen.",
+        "Test the gas from the positive electrode (anode) with a glowing splint: it relights, so it is oxygen.",
+        "The 2 : 1 volume ratio of hydrogen to oxygen matches the formula H₂O, showing that water has been split into its elements.",
+        "In practice the oxygen volume is often slightly less than half, because oxygen is more soluble in water than hydrogen.",
+        "The sulfuric acid is not used up: only water is removed, so its concentration stays the same.",
+        "Water can also be split by electrolysing sodium sulfate solution with universal indicator added: the same gases form, and the solution turns blue-purple around the cathode (OH⁻ formed) and red around the anode (H⁺ formed).",
+        "Diagram: a Hofmann voltameter with platinum electrodes and a d.c. supply, labelled cathode (−) with hydrogen and anode (+) with oxygen, the hydrogen column twice the height of the oxygen column."
+      ]
+    },
+    {
+      "h": "Electrolysis of copper(II) chloride solution",
+      "points": [
+        "Set-up: copper(II) chloride solution in a U-tube or beaker, with two carbon (graphite) electrodes connected to a d.c. supply; carry out in a fume cupboard or for a short time only.",
+        "At the negative electrode (cathode) a pink-brown coating of copper metal forms.",
+        "At the positive electrode (anode) pale green bubbles of a gas with a sharp smell form; it turns damp blue litmus paper red and then bleaches it, so it is chlorine.",
+        "The blue-green colour of the solution fades as copper(II) ions are removed.",
+        "Safety: chlorine is toxic, so use a fume cupboard, keep the current on only briefly, and do not sniff the gas directly.",
+        "Diagram: a U-tube of copper(II) chloride solution with graphite electrodes and a d.c. supply, labelled copper at the cathode (−) and chlorine at the anode (+), with damp litmus paper at the anode."
+      ]
+    },
+    {
+      "h": "Electrolysis of potassium iodide solution",
+      "points": [
+        "Set-up: potassium iodide solution with a few drops of phenolphthalein, in a U-tube with two platinum (or carbon) electrodes connected to a d.c. supply.",
+        "At the positive electrode (anode) the solution turns brown (yellow-brown) as iodine forms; a drop of starch solution turns it blue-black, confirming iodine.",
+        "At the negative electrode (cathode) bubbles of hydrogen gas form, and the solution turns pink, showing that it has become alkaline because hydroxide ions have formed.",
+        "Potassium is not formed at the cathode: potassium is very high in the electrochemical series, so K⁺ ions are very hard to reduce and water is reduced instead.",
+        "Safety: wear goggles; iodine stains skin and is harmful.",
+        "Diagram: a U-tube of potassium iodide with phenolphthalein and platinum electrodes, labelled brown iodine at the anode (+) and pink colour with hydrogen bubbles at the cathode (−)."
+      ]
+    },
+    {
+      "h": "Reactions at the electrodes: acidified water and sodium sulfate solution (Higher Level only)",
+      "points": [
+        "Acidified water, cathode (reduction): 4H⁺(aq) + 4e⁻ → 2H₂(g), or 2H⁺ + 2e⁻ → H₂.",
+        "Acidified water, anode (oxidation): 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻.",
+        "Acidified water, overall: 2H₂O(l) → 2H₂(g) + O₂(g). The same 4 electrons give 2 H₂ and 1 O₂, which explains the 2 : 1 volume ratio; the H⁺ used at the cathode is replaced at the anode, so the acid is not used up.",
+        "Sodium sulfate solution, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq), which turns universal indicator blue-purple; the anode reaction is the same as for acidified water, and turns the indicator red."
+      ]
+    },
+    {
+      "h": "Reactions at the electrodes: copper(II) chloride and potassium iodide solutions (Higher Level only)",
+      "points": [
+        "Copper(II) chloride, cathode (reduction): Cu²⁺(aq) + 2e⁻ → Cu(s).",
+        "Copper(II) chloride, anode (oxidation): 2Cl⁻(aq) → Cl₂(g) + 2e⁻.",
+        "Copper(II) chloride, overall: Cu²⁺(aq) + 2Cl⁻(aq) → Cu(s) + Cl₂(g).",
+        "Potassium iodide, anode (oxidation): 2I⁻(aq) → I₂(aq) + 2e⁻; the iodine dissolves in the iodide solution, colouring it brown.",
+        "Potassium iodide, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq); the OH⁻ turns phenolphthalein pink.",
+        "Potassium iodide, overall: 2I⁻(aq) + 2H₂O(l) → I₂(aq) + H₂(g) + 2OH⁻(aq).",
+        "Oxidation numbers confirm each half-reaction: the oxidation number of chlorine changes from −1 to 0 (oxidation) and that of copper from +2 to 0 (reduction)."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Galvanic cell", "definition": "A cell that converts chemical energy into electrical energy using a spontaneous redox reaction, also called a voltaic or chemical cell." },
-    { "term": "Battery", "definition": "Two or more cells joined together to supply electricity, though the word is often used for a single cell." },
-    { "term": "Electrode", "definition": "A solid electrical conductor, such as a metal or graphite, through which electrons enter or leave a cell." },
-    { "term": "Anode", "definition": "The electrode at which oxidation (loss of electrons) happens; in a galvanic cell it is the negative terminal." },
-    { "term": "Cathode", "definition": "The electrode at which reduction (gain of electrons) happens; in a galvanic cell it is the positive terminal." },
-    { "term": "Electrolyte", "definition": "A substance that conducts electricity by the movement of ions, carrying ions between the electrodes inside a cell." },
-    { "term": "Primary cell", "definition": "A galvanic cell that cannot be recharged, because its redox reaction is not readily reversible, so it is discarded when flat." },
-    { "term": "Secondary cell", "definition": "A rechargeable galvanic cell whose redox reaction is reversed by an external electrical supply." }
+    {
+      "term": "Galvanic cell",
+      "definition": "A cell that converts chemical energy into electrical energy using a spontaneous redox reaction, also called a voltaic or chemical cell."
+    },
+    {
+      "term": "Battery",
+      "definition": "Two or more cells joined together to supply electricity, though the word is often used for a single cell."
+    },
+    {
+      "term": "Electrode",
+      "definition": "A solid electrical conductor, such as a metal or graphite, through which electrons enter or leave a cell."
+    },
+    {
+      "term": "Anode",
+      "definition": "The electrode at which oxidation (loss of electrons) happens; in a galvanic cell it is the negative terminal."
+    },
+    {
+      "term": "Cathode",
+      "definition": "The electrode at which reduction (gain of electrons) happens; in a galvanic cell it is the positive terminal."
+    },
+    {
+      "term": "Electrolyte",
+      "definition": "A substance that conducts electricity by the movement of ions, carrying ions between the electrodes inside a cell."
+    },
+    {
+      "term": "Primary cell",
+      "definition": "A galvanic cell that cannot be recharged, because its redox reaction is not readily reversible, so it is discarded when flat."
+    },
+    {
+      "term": "Secondary cell",
+      "definition": "A rechargeable galvanic cell whose redox reaction is reversed by an external electrical supply."
+    },
+    {
+      "term": "Half-cell",
+      "definition": "An electrode dipping into a solution of its own ions, forming one half of a galvanic cell."
+    },
+    {
+      "term": "Salt bridge",
+      "definition": "A strip of filter paper or a U-tube of salt solution that joins two half-cells, letting ions flow to complete the circuit without the solutions mixing."
+    },
+    {
+      "term": "Copper–zinc (Daniell) cell",
+      "definition": "A galvanic cell with a zinc electrode in zinc sulfate and a copper electrode in copper(II) sulfate, giving about 1.1 V."
+    },
+    {
+      "term": "Displacement reaction",
+      "definition": "A reaction in which a more reactive metal takes the place of a less reactive metal in its compound, as zinc does with copper(II) ions."
+    },
+    {
+      "term": "Voltaic pile",
+      "definition": "The first battery, built by Volta in 1800 from stacked zinc and copper discs separated by cloth soaked in salt water."
+    },
+    {
+      "term": "Oxide layer",
+      "definition": "A thin coating of oxide on a metal strip that must be removed by sanding, as it would otherwise lower the voltage of a cell."
+    },
+    {
+      "term": "Electrolysis",
+      "definition": "The use of electricity to bring about a redox reaction that would not happen on its own."
+    },
+    {
+      "term": "Electrolytic cell",
+      "definition": "A cell in which an external d.c. supply drives non-spontaneous redox reactions at two electrodes dipping into an electrolyte."
+    },
+    {
+      "term": "Inert electrode",
+      "definition": "An electrode, such as platinum or graphite, that conducts electricity but does not take part in the reaction."
+    },
+    {
+      "term": "Direct current (d.c.)",
+      "definition": "An electric current that flows in one direction only, supplied by a battery or power pack in electrolysis."
+    },
+    {
+      "term": "Cation",
+      "definition": "A positive ion, which moves to the negative electrode, the cathode, during electrolysis."
+    },
+    {
+      "term": "Anion",
+      "definition": "A negative ion, which moves to the positive electrode, the anode, during electrolysis."
+    },
+    {
+      "term": "Hofmann voltameter",
+      "definition": "Apparatus with two platinum electrodes used to collect the gases from the electrolysis of acidified water."
+    }
   ],
   "questions": [
     {
@@ -88,6 +320,36 @@
       "marks": 6,
       "prompt": "Explain what happens to a secondary cell when it is recharged, and why it eventually wears out.",
       "model": "When a secondary cell is recharged, an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants. The cell then works as an electrolytic cell, converting electrical energy into chemical energy, and the electrode that was the anode on discharge becomes the cathode, and vice versa. It eventually wears out because recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge the cell can hold. This happens over many cycles, typically hundreds to thousands."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would make a simple copper–zinc galvanic cell. Write the half-equation at each electrode, identify the anode and the cathode, and show the direction of electron flow.",
+      "model": "Clean a zinc strip and a copper strip with sandpaper to remove the oxide layer. Half-fill one beaker with 1 M zinc sulfate solution and place the zinc strip in it; half-fill a second beaker with 1 M copper(II) sulfate solution and place the copper strip in it. Soak a strip of filter paper in potassium nitrate solution to make a salt bridge, and drape it between the two beakers with each end in a solution. Connect the zinc and copper strips to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage, about 1.1 V. Zinc is oxidised at the anode, which is the negative electrode: Zn(s) → Zn²⁺(aq) + 2e⁻. Copper(II) ions are reduced at the cathode, which is the positive electrode: Cu²⁺(aq) + 2e⁻ → Cu(s). Electrons flow through the external wire from the zinc electrode to the copper electrode. Inside the cell, ions move through the salt bridge to complete the circuit."
+    },
+    {
+      "marks": 6,
+      "prompt": "State two functions of the salt bridge in a galvanic cell and name a suitable substance for it.",
+      "model": "First, it completes the circuit: ions move through the salt bridge, carrying charge between the two half-cells. Second, it keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions move into it from the bridge, and as Cu²⁺ ions are removed from the copper half-cell, positive ions move into it from the bridge. A suitable substance is potassium nitrate solution soaked into a strip of filter paper, because its ions do not react with the electrode solutions."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why no current is produced when a zinc strip is placed directly in copper(II) sulfate solution, but a current flows when the two half-reactions are separated.",
+      "model": "When zinc is placed directly in copper(II) sulfate solution, zinc atoms transfer electrons straight to Cu²⁺ ions in the same beaker: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The electrons never pass through an external wire, so there is no current; the energy is released as heat and the blue colour fades. In a galvanic cell the two half-reactions are separated into two half-cells, so the electrons lost by zinc must travel through an external wire to reach the Cu²⁺ ions at the copper electrode. This flow of electrons is an electric current."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would split water by electrolysis, naming the electrolyte and electrodes used. Identify the products at each electrode, give a test for each, and explain the ratio of their volumes. Write the half-equations at each electrode (Higher Level).",
+      "model": "Add a little dilute sulfuric acid to water, because pure water conducts electricity very poorly; the acid provides ions. Use platinum (or carbon) electrodes in a Hofmann voltameter, connected to a 6–12 V d.c. supply. Gas forms at both electrodes. At the negative electrode (cathode) the gas is hydrogen: a lighted splint burns with a squeaky pop. At the positive electrode (anode) the gas is oxygen: a glowing splint relights. The volume of hydrogen is twice the volume of oxygen, a 2 : 1 ratio, which matches the formula H₂O, because the same 4 electrons produce 2 H₂ and 1 O₂. Half-equations: at the cathode, 4H⁺(aq) + 4e⁻ → 2H₂(g); at the anode, 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻. Overall: 2H₂O(l) → 2H₂(g) + O₂(g). The sulfuric acid is not used up, because the H⁺ used at the cathode is replaced at the anode."
+    },
+    {
+      "marks": 9,
+      "prompt": "Potassium iodide solution containing phenolphthalein was electrolysed using platinum electrodes. Describe and explain what is seen at each electrode, and write the half-equation for each (Higher Level).",
+      "model": "At the positive electrode (anode) the solution turns brown as iodine forms, because iodide ions lose electrons: 2I⁻(aq) → I₂(aq) + 2e⁻. Adding a drop of starch solution turns it blue-black, confirming iodine. At the negative electrode (cathode) bubbles of hydrogen gas form and the solution turns pink. Potassium is not formed because potassium is very high in the electrochemical series, so K⁺ ions are very hard to reduce; water is reduced instead: 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq). The hydroxide ions make the solution alkaline, which turns phenolphthalein pink."
+    },
+    {
+      "marks": 6,
+      "prompt": "Compare an electrolytic cell with a galvanic cell under the headings: energy change, spontaneity, sign of the anode.",
+      "model": "Energy change: a galvanic cell converts chemical energy into electrical energy, whereas an electrolytic cell converts electrical energy into chemical energy. Spontaneity: the reaction in a galvanic cell is spontaneous, whereas the reaction in an electrolytic cell is non-spontaneous and must be driven by an external supply. Sign of the anode: the anode is negative in a galvanic cell and positive in an electrolytic cell. In both cells oxidation happens at the anode."
     }
   ]
 }

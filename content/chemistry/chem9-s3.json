@@ -1,77 +1,243 @@
 {
   "loId": "chem9-s3",
   "chapterId": "chem9",
-  "subsection": "3. Using the kinetic theory",
-  "syllabusRef": "1.1.2",
+  "subsection": "3. Gas laws and the ideal gas equation",
+  "syllabusRef": "2.3.1, 2.3.2",
   "notes": [
     {
-      "h": "Explaining the properties of the states",
+      "h": "Boyle's law (constant temperature)",
+      "b": "For a fixed mass of gas at constant temperature, the pressure and volume are linked by Boyle's law.",
       "points": [
-        "Solids have a fixed shape and volume and cannot be compressed: the particles are held tightly in fixed positions by strong forces and only vibrate.",
-        "Liquids have a fixed volume but take the shape of their container and flow: the particles are close together but can slide past one another.",
-        "Gases fill their container and are easily compressed: the particles are far apart, with weak forces between them, and move rapidly and randomly.",
-        "Gas pressure is caused by gas particles colliding with the walls of the container."
+        "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure: P₁V₁ = P₂V₂.",
+        "The law was stated by Robert Boyle in 1662, and Charles's law is named after Jacques Charles.",
+        "Particle explanation: in a smaller volume the particles hit the walls more often, so the pressure rises.",
+        "Example: 200 cm³ of gas at 100 kPa is compressed to 50 cm³ at the same temperature.",
+        "Step 1: Rearrange P₁V₁ = P₂V₂ to P₂ = P₁V₁ ÷ V₂.",
+        "Step 2: P₂ = 100 kPa × 200 cm³ ÷ 50 cm³ = 400 kPa."
       ]
     },
     {
-      "h": "Changes of state",
-      "b": "Each change of state is explained by the energy of the particles and the forces between them.",
+      "h": "Charles's law (constant pressure)",
+      "b": "For a fixed mass of gas at constant pressure, the volume and temperature are linked by Charles's law.",
       "points": [
-        "Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another; this happens at the melting point.",
-        "Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.",
-        "Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and the remaining liquid cools.",
-        "Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour form within the liquid.",
-        "Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.",
-        "Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.",
-        "Deposition (gas to solid directly), the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.",
-        "Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition."
+        "Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin: V₁/T₁ = V₂/T₂.",
+        "Particle explanation: hotter particles move faster and hit the walls harder, so the gas expands to keep the pressure the same.",
+        "Example: 300 cm³ of gas at 27 °C (300 K) is heated to 127 °C (400 K) at constant pressure.",
+        "Step 1: Rearrange V₁/T₁ = V₂/T₂ to V₂ = V₁ × T₂ ÷ T₁.",
+        "Step 2: V₂ = 300 cm³ × 400 K ÷ 300 K = 400 cm³."
       ]
     },
     {
-      "h": "Heating curve",
+      "h": "The pressure law and the combined gas law",
       "points": [
-        "When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.",
-        "During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy, so the temperature does not rise.",
-        "The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.",
-        "The boiling plateau is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.",
-        "Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C."
+        "Pressure law (Gay-Lussac's law): at constant volume, the pressure of a fixed mass of gas is directly proportional to its temperature in kelvin: P₁/T₁ = P₂/T₂.",
+        "Particle explanation: faster particles hit the walls more often and harder, so the pressure rises.",
+        "Combined gas law: P₁V₁/T₁ = P₂V₂/T₂, for a fixed mass of gas."
       ]
     },
     {
-      "h": "Assumptions of the model (Higher Level only)",
-      "b": "The kinetic theory is a model. Its assumptions and limitations show when it explains behaviour well and when it does not.",
+      "h": "Kelvin and absolute zero",
       "points": [
-        "Assumption: the particles are tiny spheres in constant, random motion.",
-        "Assumption: the higher the temperature, the greater the average kinetic energy of the particles.",
-        "Assumption: collisions between particles are perfectly elastic, so no kinetic energy is lost.",
-        "Assumption: in a gas the volume of the particles themselves is negligible, and there are no forces between the particles except during collisions.",
-        "Limitation: real particles are not hard spheres, and they do attract one another; the forces between particles are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.",
-        "Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points; that needs the types of bonding and intermolecular forces (see “Intermolecular forces and physical properties”).",
-        "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative, giving no values.",
-        "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, so gases deviate from the model (see “Gas relationships and the ideal gas”)."
+        "Temperatures in the gas laws must be in kelvin (K), not in °C; using °C gives wrong answers.",
+        "Absolute zero (0 K = −273 °C) is the temperature at which, in theory, an ideal gas would have zero volume.",
+        "At absolute zero the particles would stop moving."
+      ]
+    },
+    {
+      "h": "Graphs of the gas laws",
+      "points": [
+        "Diagram: a graph of V against 1/P, which is a straight line through the origin for Boyle's law, and a graph of V against T in K, which is a straight line through the origin for Charles's law."
+      ]
+    },
+    {
+      "h": "The ideal gas",
+      "b": "The ideal gas is a model that allows analysis and prediction of how gases behave.",
+      "points": [
+        "An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions.",
+        "The ideal gas model assumes that the gas particles are in constant random motion.",
+        "The ideal gas model assumes that the volume of the particles themselves is negligible compared with the volume of the container.",
+        "The ideal gas model assumes that there are no attractive or repulsive forces between the particles.",
+        "The ideal gas model assumes that collisions are perfectly elastic.",
+        "The ideal gas model assumes that the average kinetic energy is proportional to the kelvin temperature.",
+        "No real gas is ideal, but most gases behave nearly ideally at room temperature and pressure, so the model allows useful predictions."
+      ]
+    },
+    {
+      "h": "Deviations of real gases (Higher Level only)",
+      "points": [
+        "Real gases deviate most from ideal behaviour at high pressure and low temperature, and behave most ideally at low pressure and high temperature.",
+        "At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas.",
+        "At low temperature the particles move slowly, so the attractive forces between them become significant; this is close to the point where the gas condenses.",
+        "Small, non-polar particles with weak intermolecular forces, such as helium and hydrogen, behave most ideally.",
+        "Polar molecules with strong attractions, especially those that hydrogen bond, such as ammonia and water vapour, deviate most."
+      ]
+    },
+    {
+      "h": "The ideal gas equation",
+      "b": "The ideal gas equation combines the gas laws into one relationship between pressure, volume, amount and temperature.",
+      "points": [
+        "PV = nRT, where P is pressure in pascals (Pa), V is volume in cubic metres (m³), n is the number of moles, and T is temperature in kelvin (K).",
+        "R is the gas constant, 8.314 J K⁻¹ mol⁻¹.",
+        "The equation combines Boyle's law, Charles's law, the pressure law and Avogadro's law into one equation.",
+        "The equation applies exactly only to an ideal gas, but it gives good results for real gases at ordinary conditions."
+      ]
+    },
+    {
+      "h": "Converting units first",
+      "b": "Mixed units are the commonest error, so convert every quantity before substituting into PV = nRT.",
+      "points": [
+        "Pressure: kPa × 1000 = Pa, so 101 kPa = 101 000 Pa.",
+        "Volume: cm³ × 10⁻⁶ = m³, so 250 cm³ = 2.50 × 10⁻⁴ m³.",
+        "Volume: L × 10⁻³ = m³.",
+        "Temperature: °C + 273 = K."
+      ]
+    },
+    {
+      "h": "Finding the volume of a gas",
+      "points": [
+        "Given: 0.50 mol of nitrogen at 27 °C and 100 kPa.",
+        "Step 1: Convert the temperature: 27 °C + 273 = 300 K.",
+        "Step 2: Convert the pressure: 100 kPa = 100 000 Pa.",
+        "Step 3: Rearrange the equation to V = nRT ÷ P.",
+        "Step 4: V = 0.50 × 8.314 × 300 ÷ 100 000 = 0.0125 m³ (to 3 significant figures).",
+        "Step 5: Convert to litres: 0.0125 m³ × 1000 = 12.5 L."
+      ]
+    },
+    {
+      "h": "Finding the moles of a gas",
+      "points": [
+        "Given: 600 cm³ of oxygen at 20 °C and 101 kPa.",
+        "Step 1: Convert the volume: 600 cm³ = 6.00 × 10⁻⁴ m³; the temperature is 20 °C + 273 = 293 K.",
+        "Step 2: Rearrange the equation to n = PV ÷ RT.",
+        "Step 3: n = (101 000 × 6.00 × 10⁻⁴) ÷ (8.314 × 293) = 60.6 ÷ 2436 = 0.0249 mol."
+      ]
+    },
+    {
+      "h": "Finding relative molecular mass from mass",
+      "points": [
+        "Since n = m ÷ M, the molar mass is M = mRT ÷ PV.",
+        "Given: 1.60 g of a gas occupies 1.20 L at 27 °C and 101 kPa (sample data).",
+        "Step 1: Convert the volume to m³: 1.20 L = 1.20 × 10⁻³ m³; the temperature is 27 °C + 273 = 300 K.",
+        "Step 2: n = PV ÷ RT = (101 000 × 1.20 × 10⁻³) ÷ (8.314 × 300) = 121.2 ÷ 2494 = 0.0486 mol.",
+        "Step 3: M = m ÷ n = 1.60 g ÷ 0.0486 mol = 32.9 g mol⁻¹.",
+        "The answer is close to 32, the Mr of oxygen, so the gas could be oxygen (sample data)."
+      ]
+    },
+    {
+      "h": "Finding the pressure in a sealed container",
+      "points": [
+        "Given: 0.10 mol of gas in a 2.0 L container at 25 °C.",
+        "Step 1: Convert the volume to m³: 2.0 L = 2.0 × 10⁻³ m³; the temperature is 25 °C + 273 = 298 K.",
+        "Step 2: Rearrange the equation to P = nRT ÷ V.",
+        "Step 3: P = 0.10 × 8.314 × 298 ÷ 2.0 × 10⁻³ = 1.24 × 10⁵ Pa = 124 kPa."
+      ]
+    },
+    {
+      "h": "Checking answers",
+      "points": [
+        "Check the units of the answer, and check whether the answer is sensible.",
+        "A mole of gas at room conditions occupies about 24 L, so a volume far from this for one mole signals an error."
+      ]
+    },
+    {
+      "h": "Verifying the ideal gas equation (investigation)",
+      "b": "The equation can be verified by comparing a measured gas volume with the volume it predicts.",
+      "points": [
+        "Aim: to verify the ideal gas equation by comparing a measured gas volume with the volume it predicts.",
+        "Step 1: React a weighed piece of magnesium ribbon, e.g. 0.048 g, with excess dilute hydrochloric acid in a flask connected to a gas syringe: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+        "Step 2: When the reaction stops and the apparatus has cooled to room temperature, record the volume of hydrogen, the room temperature and the atmospheric pressure.",
+        "Step 3: Moles of hydrogen = moles of magnesium = 0.048 g ÷ 24 g mol⁻¹ = 0.0020 mol, using Ar(Mg) = 24.",
+        "Step 4: Predicted volume V = nRT ÷ P = 0.0020 × 8.314 × 293 ÷ 101 000 = 4.82 × 10⁻⁵ m³ = 48.2 cm³ (sample data).",
+        "Step 5: Compare the measured volume with the predicted volume; close agreement verifies the equation for a gas behaving nearly ideally.",
+        "Diagram: a conical flask containing acid, with the magnesium added, connected by a delivery tube to a gas syringe."
+      ]
+    },
+    {
+      "h": "Other ways to verify the equation",
+      "points": [
+        "A gas syringe connected to a pressure sensor shows that PV is constant at constant temperature.",
+        "A sealed flask in a water bath shows that P/T is constant."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Melting", "definition": "The change of state from solid to liquid when the particles gain enough energy to move past one another." },
-    { "term": "Freezing", "definition": "The change of state from liquid to solid as the particles lose energy and are pulled into fixed positions." },
-    { "term": "Evaporation", "definition": "The escape of the fastest-moving particles from the surface of a liquid at any temperature below the boiling point." },
-    { "term": "Boiling", "definition": "The change of state from liquid to gas throughout the liquid, at the boiling point, with bubbles of vapour forming within it." },
-    { "term": "Condensation", "definition": "The change of state from gas to liquid as the particles are cooled and pulled close together." },
-    { "term": "Sublimation", "definition": "The change of state from solid directly to gas, without melting." },
-    { "term": "Deposition", "definition": "The change of state from gas directly to solid, without becoming a liquid." },
-    { "term": "Heating curve", "definition": "A graph of temperature against time for a substance heated at a steady rate, with flat sections at its melting and boiling points." }
+    {
+      "term": "Boyle's law",
+      "definition": "At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure: P₁V₁ = P₂V₂."
+    },
+    {
+      "term": "Charles's law",
+      "definition": "At constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin."
+    },
+    {
+      "term": "Pressure law",
+      "definition": "At constant volume, the pressure of a fixed mass of gas is directly proportional to its temperature in kelvin."
+    },
+    {
+      "term": "Combined gas law",
+      "definition": "The relationship P₁V₁/T₁ = P₂V₂/T₂ for a fixed mass of gas."
+    },
+    {
+      "term": "Absolute zero",
+      "definition": "The lowest possible temperature, 0 K or −273 °C, at which an ideal gas would have zero volume."
+    },
+    {
+      "term": "Kelvin",
+      "definition": "The SI unit of temperature used in the gas laws, where 0 K is absolute zero."
+    },
+    {
+      "term": "Ideal gas",
+      "definition": "A gas that obeys the gas laws and PV = nRT exactly under all conditions."
+    },
+    {
+      "term": "Intermolecular forces",
+      "definition": "The attractive forces between particles that become significant for real gases at high pressure and low temperature."
+    },
+    {
+      "term": "Ideal gas equation",
+      "definition": "The relationship PV = nRT, which links the pressure, volume, amount in moles and kelvin temperature of an ideal gas."
+    },
+    {
+      "term": "Gas constant (R)",
+      "definition": "The constant 8.314 J K⁻¹ mol⁻¹ used in the ideal gas equation."
+    },
+    {
+      "term": "Pascal (Pa)",
+      "definition": "The SI unit of pressure; 1 kPa is 1000 Pa."
+    },
+    {
+      "term": "Kelvin (K)",
+      "definition": "The SI unit of temperature, found from degrees Celsius by adding 273."
+    },
+    {
+      "term": "Mole (mol)",
+      "definition": "The SI unit of amount of substance, represented by n in the ideal gas equation."
+    },
+    {
+      "term": "Molar mass (M)",
+      "definition": "The mass of one mole of a substance, in grams per mole (g mol⁻¹)."
+    }
   ],
   "questions": [
     {
       "marks": 9,
-      "prompt": "Use the kinetic theory to explain what happens to the particles when ice melts and when water boils, and why the temperature remains constant during each change.",
-      "model": "When ice melts at 0 °C, heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in fixed positions, so they move past one another as a liquid. When water boils at 100 °C, particles throughout the liquid gain enough energy to overcome the forces between them, so they separate and form bubbles of vapour within the liquid. During each change the temperature stays constant because the energy supplied is used to overcome the forces between the particles, not to increase their kinetic energy."
+      "prompt": "State Boyle's law and explain it using the kinetic theory. A gas occupies 500 cm³ at 150 kPa; calculate its volume at 75 kPa at the same temperature.",
+      "model": "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure, P₁V₁ = P₂V₂. Explanation: when the volume is smaller, the gas particles hit the walls of the container more often, so the pressure rises. Calculation: rearrange to V₂ = P₁V₁ ÷ P₂. Substitute: V₂ = 150 kPa × 500 cm³ ÷ 75 kPa. Answer: V₂ = 1000 cm³."
     },
     {
-      "marks": 6,
-      "prompt": "State two assumptions of the kinetic theory and one limitation of the model.",
-      "model": "Assumption 1: the particles are tiny spheres in constant, random motion. Assumption 2: collisions between particles are perfectly elastic, so no kinetic energy is lost. Limitation: real particles are not hard spheres and they do attract one another; the forces between particles, which decide melting and boiling points, are ignored by the simple gas model."
+      "marks": 9,
+      "prompt": "What is meant by an ideal gas? State two assumptions of the ideal gas model, and explain why real gases deviate from ideal behaviour at high pressure and low temperature.",
+      "model": "An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions. Assumption 1: the volume of the particles themselves is negligible compared with the volume of the container. Assumption 2: there are no attractive or repulsive forces between the particles. At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas. At low temperature the particles move slowly, so the attractive forces between them become significant, and the gas is close to condensing."
+    },
+    {
+      "marks": 9,
+      "prompt": "Calculate the volume, in litres, occupied by 4.4 g of carbon dioxide at 27 °C and 100 kPa.",
+      "model": "Step 1: Find the molar mass of CO₂: Mr = 12 + 2 × 16 = 44, so M = 44 g mol⁻¹. Step 2: Find the moles: n = m ÷ M = 4.4 g ÷ 44 g mol⁻¹ = 0.10 mol. Step 3: Convert the quantities: T = 27 °C + 273 = 300 K; P = 100 kPa = 100 000 Pa. Step 4: Rearrange PV = nRT to V = nRT ÷ P. Step 5: V = 0.10 × 8.314 × 300 ÷ 100 000 = 2.49 × 10⁻³ m³. Step 6: Convert to litres: 2.49 × 10⁻³ m³ × 1000 = 2.49 L."
+    },
+    {
+      "marks": 9,
+      "prompt": "0.29 g of a gas occupies 120 cm³ at 20 °C and 101 kPa. Calculate its relative molecular mass.",
+      "model": "Step 1: Convert the quantities: V = 120 cm³ = 1.20 × 10⁻⁴ m³; T = 20 °C + 273 = 293 K; P = 101 kPa = 101 000 Pa. Step 2: Rearrange PV = nRT to n = PV ÷ RT. Step 3: n = (101 000 × 1.20 × 10⁻⁴) ÷ (8.314 × 293) = 12.12 ÷ 2436 = 4.98 × 10⁻³ mol. Step 4: Molar mass M = m ÷ n = 0.29 g ÷ 4.98 × 10⁻³ mol = 58 g mol⁻¹. Step 5: The relative molecular mass is 58."
     }
   ]
 }

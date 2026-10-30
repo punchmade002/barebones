@@ -977,20 +977,13 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem1-1", code: "CHEM1", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s1", code: "CHEM1.1", syllabusRef: "U1.1", title: "How scientists work and how ideas change", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s2", code: "CHEM1.2", syllabusRef: "U1 LA", title: "Models and their limits", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s3", code: "CHEM1.3", syllabusRef: "U1 LA", title: "Science as a global enterprise", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s4", code: "CHEM1.4", syllabusRef: "U1.2", title: "Researching a scientific issue", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s5", code: "CHEM1.5", syllabusRef: "U2.1–U2.2", title: "Questions and hypotheses", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s6", code: "CHEM1.6", syllabusRef: "U2.3", title: "Designing and conducting investigations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s7", code: "CHEM1.7", syllabusRef: "U2 LA", title: "Measurement and error", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s8", code: "CHEM1.8", syllabusRef: "U2.4", title: "Producing and analysing data", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s9", code: "CHEM1.9", syllabusRef: "U2.5", title: "Reflecting and recording", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s10", code: "CHEM1.10", syllabusRef: "U2.6", title: "Communicating findings", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s11", code: "CHEM1.11", syllabusRef: "U3.1–U3.2", title: "Chemistry in society", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s12", code: "CHEM1.12", syllabusRef: "U3.3", title: "Evaluating claims in the media", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s13", code: "CHEM1.13", syllabusRef: "U4.1–U4.2", title: "Abstraction to representation", notes: [], keyTerms: [], questions: [] },
-        { id: "chem1-s14", code: "CHEM1.14", syllabusRef: "Assessment", title: "The Chemistry in Practice Investigation", notes: [], keyTerms: [], questions: [] }
+        { id: "chem1-s1", code: "CHEM1.1", syllabusRef: "U1.1, U1 LA", title: "How science works: ideas and models", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s2", code: "CHEM1.2", syllabusRef: "U1 LA, U1.2", title: "Science as a global enterprise and researching an issue", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s3", code: "CHEM1.3", syllabusRef: "U2.1–U2.2, U2.3", title: "Questions, hypotheses and designing investigations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s4", code: "CHEM1.4", syllabusRef: "U2 LA, U2.4", title: "Measurement, error and data", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s5", code: "CHEM1.5", syllabusRef: "U2.5, U2.6", title: "Reflecting, recording and communicating findings", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s6", code: "CHEM1.6", syllabusRef: "U3.1–U3.2, U3.3", title: "Chemistry in society and the media", notes: [], keyTerms: [], questions: [] },
+        { id: "chem1-s7", code: "CHEM1.7", syllabusRef: "U4.1–U4.2, Assessment", title: "Representation and the Chemistry in Practice Investigation", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -998,9 +991,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem2-1", code: "CHEM2", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem2-s1", code: "CHEM2.1", syllabusRef: "1.2.1", title: "Models of the atom", notes: [], keyTerms: [], questions: [] },
-        { id: "chem2-s2", code: "CHEM2.2", syllabusRef: "1.2 LA", title: "Subatomic particles", notes: [], keyTerms: [], questions: [] },
-        { id: "chem2-s3", code: "CHEM2.3", syllabusRef: "1.2 LA", title: "Atomic number, mass number, relative atomic mass and isotopes", notes: [], keyTerms: [], questions: [] }
+        { id: "chem2-s1", code: "CHEM2.1", syllabusRef: "1.2.1, 1.2 LA", title: "Atomic structure: the nuclear model", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1008,10 +999,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem3-1", code: "CHEM3", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-s1", code: "CHEM3.1", syllabusRef: "1.2.2", title: "The current orbital model", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-s2", code: "CHEM3.2", syllabusRef: "1.2.3", title: "Energy levels and the hydrogen emission spectrum", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-s3", code: "CHEM3.3", syllabusRef: "1.2.4", title: "Identifying elements", notes: [], keyTerms: [], questions: [] },
-        { id: "chem3-s4", code: "CHEM3.4", syllabusRef: "1.2.5", title: "Electronic structure", notes: [], keyTerms: [], questions: [] }
+        { id: "chem3-s1", code: "CHEM3.1", syllabusRef: "1.2.2, 1.2.3, 1.2.4, 1.2.5", title: "The orbital model and electronic structure", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1019,9 +1007,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem4-1", code: "CHEM4", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem4-s1", code: "CHEM4.1", syllabusRef: "1.3.1", title: "Development of the modern periodic table", notes: [], keyTerms: [], questions: [] },
-        { id: "chem4-s2", code: "CHEM4.2", syllabusRef: "1.3.3", title: "Groups, periods and blocks", notes: [], keyTerms: [], questions: [] },
-        { id: "chem4-s3", code: "CHEM4.3", syllabusRef: "1.3 LA", title: "Using the table as a predictive guide", notes: [], keyTerms: [], questions: [] }
+        { id: "chem4-s1", code: "CHEM4.1", syllabusRef: "1.3.1, 1.3.3, 1.3 LA", title: "The periodic table: arrangement and use", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1029,10 +1015,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem5-1", code: "CHEM5", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-s1", code: "CHEM5.1", syllabusRef: "2.1.1", title: "Types of chemical bonding", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-s2", code: "CHEM5.2", syllabusRef: "2.1.3", title: "Modelling bonding and predicting formulae", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-s3", code: "CHEM5.3", syllabusRef: "2.1.5", title: "Investigation: identifying ions in salts and solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem5-s4", code: "CHEM5.4", syllabusRef: "2.2.5", title: "VSEPR theory", notes: [], keyTerms: [], questions: [] }
+        { id: "chem5-s1", code: "CHEM5.1", syllabusRef: "2.1.1, 2.1.3, 2.2.5", title: "Bonding, formulae and shapes", notes: [], keyTerms: [], questions: [] },
+        { id: "chem5-s2", code: "CHEM5.2", syllabusRef: "2.1.5", title: "Investigation: identifying ions in salts and solutions", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1040,12 +1024,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem6-1", code: "CHEM6", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s1", code: "CHEM6.1", syllabusRef: "2.1.2", title: "Electronegativity and bond type", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s2", code: "CHEM6.2", syllabusRef: "2.1.4", title: "Bonding and properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s3", code: "CHEM6.3", syllabusRef: "2.2.1", title: "Intramolecular bonding and intermolecular forces", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s4", code: "CHEM6.4", syllabusRef: "2.2.2", title: "Intermolecular forces and physical properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s5", code: "CHEM6.5", syllabusRef: "2.2.3", title: "Polarity and symmetry", notes: [], keyTerms: [], questions: [] },
-        { id: "chem6-s6", code: "CHEM6.6", syllabusRef: "2.2.4", title: "Shape, polarity and properties", notes: [], keyTerms: [], questions: [] }
+        { id: "chem6-s1", code: "CHEM6.1", syllabusRef: "2.1.2, 2.1.4, 2.2.1", title: "Bond type and intermolecular forces", notes: [], keyTerms: [], questions: [] },
+        { id: "chem6-s2", code: "CHEM6.2", syllabusRef: "2.2.2, 2.2.3, 2.2.4", title: "Polarity, shape and physical properties", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1053,9 +1033,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem7-1", code: "CHEM7", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-s1", code: "CHEM7.1", syllabusRef: "1.3.2", title: "Specific groups", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-s2", code: "CHEM7.2", syllabusRef: "1.3.4", title: "Trends and relationships", notes: [], keyTerms: [], questions: [] },
-        { id: "chem7-s3", code: "CHEM7.3", syllabusRef: "1.3.5", title: "Ionisation energies and atomic radii", notes: [], keyTerms: [], questions: [] }
+        { id: "chem7-s1", code: "CHEM7.1", syllabusRef: "1.3.2, 1.3.4, 1.3.5", title: "Families and trends in the periodic table", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1063,12 +1041,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem8-1", code: "CHEM8", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s1", code: "CHEM8.1", syllabusRef: "1.4.1", title: "The mole", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s2", code: "CHEM8.2", syllabusRef: "1.4.2", title: "Relative atomic mass from isotopic abundance", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s3", code: "CHEM8.3", syllabusRef: "1.4.3", title: "Molar volume and Avogadro's law", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s4", code: "CHEM8.4", syllabusRef: "1.4.4", title: "Relative molecular mass of a volatile liquid", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s5", code: "CHEM8.5", syllabusRef: "1.4.5", title: "Solutions and concentration", notes: [], keyTerms: [], questions: [] },
-        { id: "chem8-s6", code: "CHEM8.6", syllabusRef: "1.4.6", title: "Units of concentration", notes: [], keyTerms: [], questions: [] }
+        { id: "chem8-s1", code: "CHEM8.1", syllabusRef: "1.4.1, 1.4.2, 1.4.3, 1.4.4", title: "The mole and molar volume", notes: [], keyTerms: [], questions: [] },
+        { id: "chem8-s2", code: "CHEM8.2", syllabusRef: "1.4.5, 1.4.6", title: "Solutions and concentration", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1076,12 +1050,9 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem9-1", code: "CHEM9", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s1", code: "CHEM9.1", syllabusRef: "1.1 LA", title: "The particulate nature of matter", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s2", code: "CHEM9.2", syllabusRef: "1.1.1", title: "Evidence for the kinetic theory", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s3", code: "CHEM9.3", syllabusRef: "1.1.2", title: "Using the kinetic theory", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s4", code: "CHEM9.4", syllabusRef: "1.1.3", title: "Separation techniques", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s5", code: "CHEM9.5", syllabusRef: "2.3.1", title: "Gas relationships and the ideal gas", notes: [], keyTerms: [], questions: [] },
-        { id: "chem9-s6", code: "CHEM9.6", syllabusRef: "2.3.2", title: "The ideal gas equation", notes: [], keyTerms: [], questions: [] }
+        { id: "chem9-s1", code: "CHEM9.1", syllabusRef: "1.1 LA, 1.1.1", title: "The kinetic theory and its evidence", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s2", code: "CHEM9.2", syllabusRef: "1.1.2, 1.1.3", title: "Using the kinetic theory: separation techniques", notes: [], keyTerms: [], questions: [] },
+        { id: "chem9-s3", code: "CHEM9.3", syllabusRef: "2.3.1, 2.3.2", title: "Gas laws and the ideal gas equation", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1089,10 +1060,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem10-1", code: "CHEM10", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-s1", code: "CHEM10.1", syllabusRef: "1.1.4", title: "Physical and chemical change", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-s2", code: "CHEM10.2", syllabusRef: "1.1.5", title: "Investigation: conservation of mass", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-s3", code: "CHEM10.3", syllabusRef: "1.4.7", title: "Empirical and molecular formulae", notes: [], keyTerms: [], questions: [] },
-        { id: "chem10-s4", code: "CHEM10.4", syllabusRef: "1.4.7", title: "Balancing equations", notes: [], keyTerms: [], questions: [] }
+        { id: "chem10-s1", code: "CHEM10.1", syllabusRef: "1.1.4, 1.1.5", title: "Physical and chemical change", notes: [], keyTerms: [], questions: [] },
+        { id: "chem10-s2", code: "CHEM10.2", syllabusRef: "1.4.7", title: "Formulae and balancing equations", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1100,11 +1069,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem11-1", code: "CHEM11", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-s1", code: "CHEM11.1", syllabusRef: "3.4.1", title: "Categorising acids and bases", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-s2", code: "CHEM11.2", syllabusRef: "3.4.2", title: "Acid–base reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-s3", code: "CHEM11.3", syllabusRef: "3.4.3", title: "Arrhenius and Brønsted–Lowry theories", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-s4", code: "CHEM11.4", syllabusRef: "3.4.4", title: "Applying Brønsted–Lowry theory", notes: [], keyTerms: [], questions: [] },
-        { id: "chem11-s5", code: "CHEM11.5", syllabusRef: "3.4.7", title: "Strong vs weak, concentrated vs dilute", notes: [], keyTerms: [], questions: [] }
+        { id: "chem11-s1", code: "CHEM11.1", syllabusRef: "3.4.1, 3.4.2", title: "Acids, bases and their reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem11-s2", code: "CHEM11.2", syllabusRef: "3.4.3, 3.4.4, 3.4.7", title: "Acid–base theories and strength", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1112,11 +1078,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem12-1", code: "CHEM12", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-s1", code: "CHEM12.1", syllabusRef: "4.1.1", title: "Primary standards and standard solutions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-s2", code: "CHEM12.2", syllabusRef: "4.1.2", title: "Acid–base titrations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-s3", code: "CHEM12.3", syllabusRef: "4.1.3", title: "pH titration curves", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-s4", code: "CHEM12.4", syllabusRef: "4.1.4", title: "How indicators work", notes: [], keyTerms: [], questions: [] },
-        { id: "chem12-s5", code: "CHEM12.5", syllabusRef: "4.1.5", title: "Investigation: ethanoic acid in vinegar", notes: [], keyTerms: [], questions: [] }
+        { id: "chem12-s1", code: "CHEM12.1", syllabusRef: "4.1.1, 4.1.2", title: "Standard solutions and acid–base titrations", notes: [], keyTerms: [], questions: [] },
+        { id: "chem12-s2", code: "CHEM12.2", syllabusRef: "4.1.3, 4.1.4, 4.1.5", title: "Titration curves, indicators and vinegar", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1124,8 +1087,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem13-1", code: "CHEM13", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem13-s1", code: "CHEM13.1", syllabusRef: "4.1.7", title: "Solving acid–base volumetric problems", notes: [], keyTerms: [], questions: [] },
-        { id: "chem13-s2", code: "CHEM13.2", syllabusRef: "4.1.7", title: "Worked acid–base volumetric problems", notes: [], keyTerms: [], questions: [] }
+        { id: "chem13-s1", code: "CHEM13.1", syllabusRef: "4.1.7", title: "Acid–base volumetric problems", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1134,8 +1096,7 @@ const COURSE_DATA = {
       learningOutcomes: [
         { id: "chem14-1", code: "CHEM14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
         { id: "chem14-s1", code: "CHEM14.1", syllabusRef: "3.5.1", title: "Oxidation and reduction", notes: [], keyTerms: [], questions: [] },
-        { id: "chem14-s2", code: "CHEM14.2", syllabusRef: "3.5.2", title: "Balancing redox equations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem14-s3", code: "CHEM14.3", syllabusRef: "3.5.3", title: "The electrochemical series and displacement", notes: [], keyTerms: [], questions: [] }
+        { id: "chem14-s2", code: "CHEM14.2", syllabusRef: "3.5.2, 3.5.3", title: "Balancing redox equations and the electrochemical series", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1143,8 +1104,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem15-1", code: "CHEM15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem15-s1", code: "CHEM15.1", syllabusRef: "4.1.2", title: "Redox titrations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem15-s2", code: "CHEM15.2", syllabusRef: "4.1.6", title: "Investigation: iron in iron tablets", notes: [], keyTerms: [], questions: [] }
+        { id: "chem15-s1", code: "CHEM15.1", syllabusRef: "4.1.2, 4.1.6", title: "Redox titrations and iron tablets", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1152,8 +1112,7 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem16-1", code: "CHEM16", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem16-s1", code: "CHEM16.1", syllabusRef: "4.1.7", title: "Solving redox volumetric problems", notes: [], keyTerms: [], questions: [] },
-        { id: "chem16-s2", code: "CHEM16.2", syllabusRef: "4.1.7", title: "Worked redox volumetric problems", notes: [], keyTerms: [], questions: [] }
+        { id: "chem16-s1", code: "CHEM16.1", syllabusRef: "4.1.7", title: "Redox volumetric problems", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1161,11 +1120,9 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem17-1", code: "CHEM17", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-s1", code: "CHEM17.1", syllabusRef: "3.2.1", title: "Rate of reaction", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-s2", code: "CHEM17.2", syllabusRef: "3.2.2", title: "Collision theory", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-s3", code: "CHEM17.3", syllabusRef: "3.2.3", title: "Investigation: factors affecting rate", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-s4", code: "CHEM17.4", syllabusRef: "3.2.4", title: "Catalysis and energy profiles", notes: [], keyTerms: [], questions: [] },
-        { id: "chem17-s5", code: "CHEM17.5", syllabusRef: "3.2.5", title: "Catalytic mechanisms", notes: [], keyTerms: [], questions: [] }
+        { id: "chem17-s1", code: "CHEM17.1", syllabusRef: "3.2.1, 3.2.2", title: "Rate of reaction and collision theory", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-s2", code: "CHEM17.2", syllabusRef: "3.2.3", title: "Investigation: factors affecting rate", notes: [], keyTerms: [], questions: [] },
+        { id: "chem17-s3", code: "CHEM17.3", syllabusRef: "3.2.4, 3.2.5", title: "Catalysis", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1173,11 +1130,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem18-1", code: "CHEM18", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-s1", code: "CHEM18.1", syllabusRef: "3.3.1", title: "Dynamic equilibrium", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-s2", code: "CHEM18.2", syllabusRef: "3.3.2", title: "The equilibrium constant", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-s3", code: "CHEM18.3", syllabusRef: "3.3.3", title: "Kc calculations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-s4", code: "CHEM18.4", syllabusRef: "3.3.4", title: "Le Châtelier's principle", notes: [], keyTerms: [], questions: [] },
-        { id: "chem18-s5", code: "CHEM18.5", syllabusRef: "3.3.5", title: "Investigation: disturbing an equilibrium", notes: [], keyTerms: [], questions: [] }
+        { id: "chem18-s1", code: "CHEM18.1", syllabusRef: "3.3.1, 3.3.2, 3.3.3", title: "Dynamic equilibrium and Kc", notes: [], keyTerms: [], questions: [] },
+        { id: "chem18-s2", code: "CHEM18.2", syllabusRef: "3.3.4, 3.3.5", title: "Le Châtelier's principle", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1185,11 +1139,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem19-1", code: "CHEM19", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-s1", code: "CHEM19.1", syllabusRef: "3.4.5", title: "Self-ionisation of water", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-s2", code: "CHEM19.2", syllabusRef: "3.4.6", title: "pH and its measurement", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-s3", code: "CHEM19.3", syllabusRef: "3.4.8", title: "pH calculations", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-s4", code: "CHEM19.4", syllabusRef: "3.4.9", title: "Dissociation constants", notes: [], keyTerms: [], questions: [] },
-        { id: "chem19-s5", code: "CHEM19.5", syllabusRef: "3.4.10", title: "Degree of dissociation", notes: [], keyTerms: [], questions: [] }
+        { id: "chem19-s1", code: "CHEM19.1", syllabusRef: "3.4.5, 3.4.6", title: "Self-ionisation of water and pH", notes: [], keyTerms: [], questions: [] },
+        { id: "chem19-s2", code: "CHEM19.2", syllabusRef: "3.4.8, 3.4.9, 3.4.10", title: "pH calculations and dissociation constants", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1197,12 +1148,11 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem20-1", code: "CHEM20", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s1", code: "CHEM20.1", syllabusRef: "4.3.1", title: "The natural greenhouse effect", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s2", code: "CHEM20.2", syllabusRef: "4.3.2", title: "The enhanced greenhouse effect", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s3", code: "CHEM20.3", syllabusRef: "4.3.3", title: "Water contamination", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s4", code: "CHEM20.4", syllabusRef: "4.3.4", title: "Treating drinking water", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s5", code: "CHEM20.5", syllabusRef: "4.3.5", title: "The lithium-ion cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem20-s6", code: "CHEM20.6", syllabusRef: "4.3.8", title: "Researching chemistry", notes: [], keyTerms: [], questions: [] }
+        { id: "chem20-s1", code: "CHEM20.1", syllabusRef: "4.3.1, 4.3.2", title: "The greenhouse effect", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s2", code: "CHEM20.2", syllabusRef: "4.3.3", title: "Water contamination", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s3", code: "CHEM20.3", syllabusRef: "4.3.4", title: "Treating drinking water", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s4", code: "CHEM20.4", syllabusRef: "4.3.5", title: "The lithium-ion cell", notes: [], keyTerms: [], questions: [] },
+        { id: "chem20-s5", code: "CHEM20.5", syllabusRef: "4.3.8", title: "Researching chemistry", notes: [], keyTerms: [], questions: [] }
       ],
     },
     {
@@ -1210,14 +1160,11 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem21-1", code: "CHEM21", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s1", code: "CHEM21.1", syllabusRef: "3.1.1", title: "Bond enthalpy and energy change", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s2", code: "CHEM21.2", syllabusRef: "3.1.2", title: "Exothermic and endothermic reactions", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s3", code: "CHEM21.3", syllabusRef: "3.1.3", title: "Investigation: heat of neutralisation", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s4", code: "CHEM21.4", syllabusRef: "3.1.4", title: "Calculating ΔH and energy profiles", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s5", code: "CHEM21.5", syllabusRef: "3.1.5", title: "ΔH from bond enthalpies", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s6", code: "CHEM21.6", syllabusRef: "3.1.6", title: "Hess's law", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s7", code: "CHEM21.7", syllabusRef: "3.1.7", title: "Combustion", notes: [], keyTerms: [], questions: [] },
-        { id: "chem21-s8", code: "CHEM21.8", syllabusRef: "3.1.8", title: "Investigation: heat of combustion of alcohols", notes: [], keyTerms: [], questions: [] }
+        { id: "chem21-s1", code: "CHEM21.1", syllabusRef: "3.1.1, 3.1.2", title: "Energy changes in reactions", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s2", code: "CHEM21.2", syllabusRef: "3.1.3, 3.1.4", title: "Calculating ΔH and the heat of neutralisation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s3", code: "CHEM21.3", syllabusRef: "3.1.5", title: "ΔH from bond enthalpies", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s4", code: "CHEM21.4", syllabusRef: "3.1.6", title: "Hess's law", notes: [], keyTerms: [], questions: [] },
+        { id: "chem21-s5", code: "CHEM21.5", syllabusRef: "3.1.7, 3.1.8", title: "Combustion and heats of combustion", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1225,12 +1172,8 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem22-1", code: "CHEM22", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s1", code: "CHEM22.1", syllabusRef: "3.5.4", title: "Primary and secondary cells", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s2", code: "CHEM22.2", syllabusRef: "3.5.5", title: "The galvanic cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s3", code: "CHEM22.3", syllabusRef: "3.5.6", title: "The electrolytic cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s4", code: "CHEM22.4", syllabusRef: "3.5.7", title: "Chemical cells and fuel cells", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s5", code: "CHEM22.5", syllabusRef: "3.5.8", title: "The hydrogen fuel cell", notes: [], keyTerms: [], questions: [] },
-        { id: "chem22-s6", code: "CHEM22.6", syllabusRef: "3.5.9", title: "Electrochemistry and sustainability", notes: [], keyTerms: [], questions: [] }
+        { id: "chem22-s1", code: "CHEM22.1", syllabusRef: "3.5.4, 3.5.5, 3.5.6", title: "Galvanic and electrolytic cells", notes: [], keyTerms: [], questions: [] },
+        { id: "chem22-s2", code: "CHEM22.2", syllabusRef: "3.5.7, 3.5.8, 3.5.9", title: "Fuel cells and sustainability", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1238,17 +1181,11 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem23-1", code: "CHEM23", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s1", code: "CHEM23.1", syllabusRef: "2.4.1", title: "Hydrocarbons: sources and uses", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s2", code: "CHEM23.2", syllabusRef: "2.4.2", title: "The impact of hydrocarbons", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s3", code: "CHEM23.3", syllabusRef: "2.4.3", title: "Investigation: preparing ethene", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s4", code: "CHEM23.4", syllabusRef: "2.4.4", title: "Groups of hydrocarbons", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s5", code: "CHEM23.5", syllabusRef: "2.4.5", title: "Explaining and predicting properties", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s6", code: "CHEM23.6", syllabusRef: "2.4.6", title: "Stability of alkanes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s7", code: "CHEM23.7", syllabusRef: "2.4.7", title: "3D models and formulae", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s8", code: "CHEM23.8", syllabusRef: "2.4.8", title: "Shapes: sigma and pi bonds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s9", code: "CHEM23.9", syllabusRef: "2.4.9", title: "Structural and geometric isomerism", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s10", code: "CHEM23.10", syllabusRef: "4.3.6", title: "Allotropes of carbon", notes: [], keyTerms: [], questions: [] },
-        { id: "chem23-s11", code: "CHEM23.11", syllabusRef: "4.3.7", title: "Uses of carbon allotropes", notes: [], keyTerms: [], questions: [] }
+        { id: "chem23-s1", code: "CHEM23.1", syllabusRef: "2.4.1, 2.4.2", title: "Hydrocarbons: sources, uses and impact", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s2", code: "CHEM23.2", syllabusRef: "2.4.3", title: "Investigation: preparing ethene", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s3", code: "CHEM23.3", syllabusRef: "2.4.4, 2.4.5, 2.4.6", title: "Groups of hydrocarbons and their properties", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s4", code: "CHEM23.4", syllabusRef: "2.4.7, 2.4.8, 2.4.9", title: "Shapes, bonding and isomerism", notes: [], keyTerms: [], questions: [] },
+        { id: "chem23-s5", code: "CHEM23.5", syllabusRef: "4.3.6, 4.3.7", title: "Allotropes of carbon and their uses", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1256,12 +1193,9 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem24-1", code: "CHEM24", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s1", code: "CHEM24.1", syllabusRef: "4.2.1", title: "Sources and impact of organic products", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s2", code: "CHEM24.2", syllabusRef: "4.2.2", title: "Functional groups and nomenclature", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s3", code: "CHEM24.3", syllabusRef: "4.2.3", title: "Representing organic molecules", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s4", code: "CHEM24.4", syllabusRef: "4.2.5", title: "Physical properties of organic compounds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s5", code: "CHEM24.5", syllabusRef: "4.2.12", title: "Acidity of carboxylic acids and alcohols", notes: [], keyTerms: [], questions: [] },
-        { id: "chem24-s6", code: "CHEM24.6", syllabusRef: "4.2.15", title: "Organic compounds in pharmaceuticals", notes: [], keyTerms: [], questions: [] }
+        { id: "chem24-s1", code: "CHEM24.1", syllabusRef: "4.2.2, 4.2.3", title: "Functional groups, naming and representation", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-s2", code: "CHEM24.2", syllabusRef: "4.2.5, 4.2.12", title: "Physical properties and acidity", notes: [], keyTerms: [], questions: [] },
+        { id: "chem24-s3", code: "CHEM24.3", syllabusRef: "4.2.1, 4.2.15", title: "Organic products and pharmaceuticals", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {
@@ -1269,16 +1203,12 @@ const COURSE_DATA = {
       examQuestions: [],
       learningOutcomes: [
         { id: "chem25-1", code: "CHEM25", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s1", code: "CHEM25.1", syllabusRef: "4.2.4", title: "Tests for aldehydes, ketones and carboxylic acids", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s2", code: "CHEM25.2", syllabusRef: "4.2.6", title: "Five types of organic reaction", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s3", code: "CHEM25.3", syllabusRef: "4.2.7", title: "Reaction schemes", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s4", code: "CHEM25.4", syllabusRef: "4.2.8", title: "Investigation: preparing an ester", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s5", code: "CHEM25.5", syllabusRef: "4.2.9", title: "Investigation: synthesising benzoic acid", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s6", code: "CHEM25.6", syllabusRef: "4.2.10", title: "Reaction mechanisms", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s7", code: "CHEM25.7", syllabusRef: "4.2.11", title: "Redox and acid–base reactions of organic compounds", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s8", code: "CHEM25.8", syllabusRef: "4.2.13", title: "Surfactants and soap", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s9", code: "CHEM25.9", syllabusRef: "4.2.14", title: "Investigation: making soap", notes: [], keyTerms: [], questions: [] },
-        { id: "chem25-s10", code: "CHEM25.10", syllabusRef: "4.2.16", title: "Addition polymers", notes: [], keyTerms: [], questions: [] }
+        { id: "chem25-s1", code: "CHEM25.1", syllabusRef: "4.2.6, 4.2.16", title: "Types of organic reaction and addition polymers", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s2", code: "CHEM25.2", syllabusRef: "4.2.4, 4.2.7, 4.2.8", title: "Tests, reaction schemes and preparing an ester", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s3", code: "CHEM25.3", syllabusRef: "4.2.9", title: "Investigation: synthesising benzoic acid", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s4", code: "CHEM25.4", syllabusRef: "4.2.10", title: "Reaction mechanisms", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s5", code: "CHEM25.5", syllabusRef: "4.2.11", title: "Redox and acid–base reactions of organic compounds", notes: [], keyTerms: [], questions: [] },
+        { id: "chem25-s6", code: "CHEM25.6", syllabusRef: "4.2.13, 4.2.14", title: "Surfactants and soap", notes: [], keyTerms: [], questions: [] },
       ],
     },
     {

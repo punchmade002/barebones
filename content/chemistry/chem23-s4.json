@@ -1,128 +1,348 @@
 {
   "loId": "chem23-s4",
   "chapterId": "chem23",
-  "subsection": "4. Groups of hydrocarbons",
-  "syllabusRef": "2.4.4",
+  "subsection": "4. Shapes, bonding and isomerism",
+  "syllabusRef": "2.4.7, 2.4.8, 2.4.9",
   "notes": [
     {
-      "h": "Classifying hydrocarbons",
+      "h": "Kinds of formula",
       "points": [
-        "Hydrocarbons are divided by the type of carbon–carbon bonds present into aliphatic and aromatic hydrocarbons.",
-        "Aliphatic hydrocarbons have open chains of carbon atoms, straight or branched, or rings that behave like chains, such as cyclohexane; they are the alkanes, alkenes and alkynes.",
-        "Aromatic hydrocarbons contain a benzene ring; benzene, C₆H₆, is the example given in the specification.",
-        "A saturated hydrocarbon has only carbon–carbon single bonds, as in alkanes and cycloalkanes.",
-        "An unsaturated hydrocarbon contains at least one carbon–carbon double or triple bond, as in alkenes and alkynes.",
-        "A homologous series is a family with the same general formula and similar chemical properties, a gradual change in physical properties, and each member differing from the next by CH₂."
+        "A molecular formula gives the number of atoms of each element in one molecule, e.g. C₄H₁₀, but it does not show how the atoms are joined.",
+        "An expanded, or displayed, structural formula shows every atom and every bond as a line, e.g. butane drawn with four carbon atoms in a row, each hydrogen joined by its own line.",
+        "A condensed structural formula shows the groups on each carbon in order without drawing the bonds: butane is CH₃CH₂CH₂CH₃ or CH₃(CH₂)₂CH₃, methylpropane is CH₃CH(CH₃)CH₃, and but-1-ene is CH₂=CHCH₂CH₃.",
+        "Double and triple bonds are always shown in a condensed formula.",
+        "A 3D model shows the real spatial arrangement of the atoms, which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron.",
+        "Two flat drawings can show the same molecule: a four-carbon chain drawn bent or straight is still butane, and building the model shows whether two structures are identical."
       ]
     },
     {
-      "h": "Alkanes",
-      "b": "The alkanes are saturated aliphatic hydrocarbons with single bonds only.",
+      "h": "Constructing and examining models",
+      "b": "Use a molecular model kit: black balls with four holes for carbon, white balls with one hole for hydrogen, short rigid links for single bonds, and flexible links, or springs, for double and triple bonds.",
       "points": [
-        "General formula CₙH₂ₙ₊₂; the first members are methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀, pentane C₅H₁₂ and hexane C₆H₁₄.",
-        "Bonding: only single C–C and C–H covalent bonds are present.",
-        "Structure: each carbon is tetrahedral, with bond angles of 109.5°; chains can be branched from butane onwards.",
-        "Cyclohexane, C₆H₁₂, is a ring of six CH₂ groups joined by single bonds; it is saturated and aliphatic.",
-        "Cyclohexane has two fewer hydrogens than hexane because the ends of the chain are joined to make the ring, and its ring is not flat because each carbon is tetrahedral.",
-        "Alkanes are non-polar and insoluble in water, and small members burn with a clean blue flame.",
-        "Alkanes are otherwise unreactive: they react with halogens only in ultraviolet light, by substitution, e.g. CH₄ + Cl₂ → CH₃Cl + HCl (see “Stability of alkanes”)."
+        "Build methane, ethane, propane and butane; each carbon with four single bonds is tetrahedral, so a straight chain is actually a zig-zag.",
+        "Rotate the two ends of ethane about the C–C bond: rotation is free about a single bond, and the different positions, called conformations, are still the same molecule.",
+        "Build ethene with two flexible links: the molecule is flat, and the C=C bond cannot be twisted.",
+        "Build ethyne with three flexible links: the four atoms lie in a straight line.",
+        "Build all the isomers of C₄H₁₀ and C₅H₁₂; try to build another isomer, and check by rotating it whether it is really new or the same as one already made.",
+        "Record each model as an expanded and a condensed formula, and give its IUPAC name.",
+        "Digital models, made with molecule-viewing software or apps, can be rotated on screen and show ball-and-stick and space-filling views.",
+        "Ball-and-stick models exaggerate the gaps between atoms and are not to scale; space-filling models show size and shape but hide the bonds; no model shows the electrons, and real molecules are constantly vibrating and rotating.",
+        "Diagram: ball-and-stick models of methane (tetrahedral), ethene (planar) and ethyne (linear), labelled with their bond angles."
       ]
     },
     {
-      "h": "Alkenes",
-      "b": "The alkenes are unsaturated aliphatic hydrocarbons with one carbon–carbon double bond.",
+      "h": "How bonding fixes the arrangement of atoms",
       "points": [
-        "General formula CₙH₂ₙ; the members are ethene C₂H₄, propene C₃H₆, butene C₄H₈, pentene C₅H₁₀ and hexene C₆H₁₂.",
-        "Bonding: one C=C double bond is present, so the molecule is unsaturated.",
-        "Structure: the two carbons of the double bond and the four atoms attached to them lie in one plane, with angles of about 120°, and there is no rotation about the C=C bond.",
-        "Alkenes are, like alkanes, non-polar and insoluble in water, but they are much more reactive.",
-        "Alkenes undergo addition across the double bond with bromine, which decolourises bromine water; with hydrogen over a nickel catalyst, e.g. CH₂=CH₂ + H₂ → CH₃CH₃; and with hydrogen chloride, e.g. CH₂=CH₂ + HCl → CH₃CH₂Cl.",
-        "Alkenes add to one another to form addition polymers, e.g. ethene forms poly(ethene) (see “Addition polymers”).",
-        "Alkenes burn with a more luminous, smokier flame than alkanes because of their higher carbon content."
+        "A carbon with four single bonds is tetrahedral, with bond angles of 109.5°, and the groups around it can rotate about each single bond.",
+        "A carbon in a C=C double bond is trigonal planar, with bond angles of 120°; the double bond holds the two carbons and the four atoms attached to them in one plane and prevents rotation.",
+        "A carbon in a C≡C triple bond is linear, with bond angles of 180°.",
+        "In benzene all twelve atoms lie in one flat hexagonal ring (see “Shapes: sigma and pi bonds”).",
+        "Spatial arrangement helps predict properties: branched isomers are more compact than straight chains, so they have less contact with neighbouring molecules and lower boiling points (see “Explaining and predicting properties”)."
       ]
     },
     {
-      "h": "Alkynes",
-      "b": "The alkynes are unsaturated aliphatic hydrocarbons with one carbon–carbon triple bond.",
+      "h": "Alkane isomers",
+      "b": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order.",
       "points": [
-        "General formula CₙH₂ₙ₋₂; the first member is ethyne, C₂H₂, also called acetylene.",
-        "Bonding: one C≡C triple bond is present, so the molecule is unsaturated.",
-        "Structure: the two carbons of the triple bond and the atoms attached to them lie in a straight line, with an angle of 180°, so ethyne is linear.",
-        "Alkynes undergo addition reactions; with excess bromine, ethyne gives 1,1,2,2-tetrabromoethane: C₂H₂ + 2Br₂ → CHBr₂CHBr₂.",
-        "Ethyne burns in air with a very smoky, luminous flame.",
-        "Ethyne burns in pure oxygen with a very hot flame, which is used for welding: 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l)."
+        "Isomers can differ in the carbon chain, through branching; in the position of a double bond; or in having a ring instead of a double bond, e.g. cyclohexane and hex-1-ene are both C₆H₁₂.",
+        "Methane, ethane and propane have no isomers; isomerism in alkanes starts at C₄.",
+        "C₄H₁₀ has two structural isomers: butane, CH₃CH₂CH₂CH₃, and methylpropane, CH₃CH(CH₃)CH₃.",
+        "C₅H₁₂ has three: pentane, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, C(CH₃)₄.",
+        "C₆H₁₄ has five: hexane, CH₃(CH₂)₄CH₃; 2-methylpentane, CH₃CH(CH₃)CH₂CH₂CH₃; 3-methylpentane, CH₃CH₂CH(CH₃)CH₂CH₃; 2,2-dimethylbutane, CH₃C(CH₃)₂CH₂CH₃; and 2,3-dimethylbutane, CH₃CH(CH₃)CH(CH₃)CH₃."
       ]
     },
     {
-      "h": "Aromatic hydrocarbons: benzene",
+      "h": "Alkene isomers",
       "points": [
-        "Benzene, C₆H₆, is a colourless liquid with a boiling point of 80 °C and a sweet smell.",
-        "Its structure is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°.",
-        "All six carbon–carbon bonds are identical, intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring; benzene is drawn as a hexagon with a circle inside (see “Shapes: sigma and pi bonds”).",
-        "Although benzene is unsaturated, it is very stable and resists addition: it does not decolourise bromine water or acidified potassium manganate(VII), and it reacts mainly by substitution.",
-        "Benzene burns with a very smoky, sooty flame because of its high carbon content, 92.3% by mass, the same as ethyne.",
-        "Benzene is toxic and carcinogenic, causing leukaemia, so it is not used in school laboratories, where safer solvents such as cyclohexane are used instead.",
-        "Michael Faraday isolated benzene in 1825, and August Kekulé proposed a ring of alternating single and double bonds in 1865.",
-        "The Kekulé structure cannot explain why all the carbon–carbon bonds are the same length, or why benzene does not decolourise bromine water."
+        "Isomers of alkenes also first appear at C₄, and propene's only isomer is the ring compound cyclopropane.",
+        "The C₄H₈ alkene isomers are but-1-ene, CH₂=CHCH₂CH₃; but-2-ene, CH₃CH=CHCH₃; and methylpropene, CH₂=C(CH₃)CH₃.",
+        "The C₅H₁₀ alkene isomers are pent-1-ene, CH₂=CHCH₂CH₂CH₃; pent-2-ene, CH₃CH=CHCH₂CH₃; 2-methylbut-1-ene, CH₂=C(CH₃)CH₂CH₃; 3-methylbut-1-ene, CH₂=CHCH(CH₃)CH₃; and 2-methylbut-2-ene, CH₃C(CH₃)=CHCH₃.",
+        "The straight-chain alkene isomers of C₆H₁₂ differ in the position of the double bond: hex-1-ene, hex-2-ene and hex-3-ene.",
+        "Check for repeats by numbering the chain from the other end or by rotating the model: 1-methylbutane is really pentane, and pent-4-ene is really pent-1-ene."
       ]
     },
     {
-      "h": "Comparing the groups",
+      "h": "Ethane",
       "points": [
-        "Alkanes have the general formula CₙH₂ₙ₊₂, single C–C bonds, tetrahedral shape with 109.5° angles around each carbon, and methane as the first member; bromine water shows no change.",
-        "Alkenes have the general formula CₙH₂ₙ, one double bond, planar shape with 120° angles, and ethene as the first member; bromine water is decolourised.",
-        "Alkynes have the general formula CₙH₂ₙ₋₂, one triple bond, a linear shape with 180° angles, and ethyne as the first member; bromine water is decolourised.",
-        "Benzene has the general formula C₆H₆, a delocalised ring, a planar shape with 120° angles, and benzene as the first member; bromine water shows no change.",
-        "All four groups are non-polar, with only London dispersion forces between their molecules, so all are insoluble in water and soluble in non-polar solvents; small members are gases (see “Explaining and predicting properties”).",
-        "Reactivity follows bonding: single bonds only give unreactive alkanes; a localised double or triple bond gives reactive alkenes and alkynes that undergo addition; a delocalised ring gives benzene, which is stable and undergoes substitution rather than addition."
+        "Ethane, C₂H₆, is CH₃–CH₃: each carbon forms four single bonds, three to hydrogen atoms and one to the other carbon.",
+        "The four bonds around each carbon point to the corners of a tetrahedron, with bond angles of about 109.5°, so the molecule is three-dimensional and not flat.",
+        "The two CH₃ groups can rotate freely about the C–C single bond.",
+        "Diagram: ethane drawn in 3D with wedges and dashes, with the 109.5° angle marked."
       ]
     },
     {
-      "h": "IUPAC naming up to C6",
-      "b": "Names follow the systematic IUPAC rules, and only compounds up to C6 need to be named.",
+      "h": "Ethene",
       "points": [
-        "The stem gives the number of carbons in the parent chain: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.",
-        "The ending is -ane for alkanes, -ene for alkenes and -yne for alkynes.",
-        "Find the longest continuous carbon chain, which may bend on paper; this gives the parent name.",
-        "Number the chain from the end that gives the side chains the lowest numbers.",
-        "Name side chains as alkyl groups: methyl (–CH₃) and ethyl (–C₂H₅); give each a position number, using di- and tri- for repeats.",
-        "Separate numbers from one another with commas, and separate numbers from words with hyphens; list different side chains alphabetically.",
-        "CH₃CH(CH₃)CH₃ is methylpropane, and CH₃CH(CH₃)CH₂CH₃ is 2-methylbutane, not 3-methylbutane.",
-        "C(CH₃)₄ is 2,2-dimethylpropane, CH₃CH₂CH(CH₃)CH₂CH₃ is 3-methylpentane, and (CH₃)₂CHCH(CH₃)₂ is 2,3-dimethylbutane.",
-        "For alkenes and alkynes the main chain must contain the multiple bond; number from the end nearer to it, and give the number of its first carbon before -ene or -yne.",
-        "CH₂=CHCH₂CH₃ is but-1-ene, CH₃CH=CHCH₃ is but-2-ene, CH₂=C(CH₃)CH₃ is 2-methylpropene, and CH₂=CHCH₂CH₂CH₂CH₃ is hex-1-ene.",
-        "HC≡CCH₃ is propyne, and CH₃C≡CCH₃ is but-2-yne.",
-        "Ethene, propene, ethyne and propyne need no number, because there is only one position for the multiple bond.",
-        "Rings take the prefix cyclo-, as in cyclohexane; benzene keeps its own name."
+        "Ethene, C₂H₄, is CH₂=CH₂: each carbon forms a double bond to the other carbon and single bonds to two hydrogen atoms.",
+        "Each carbon is trigonal planar, with bond angles of about 120°, so all six atoms lie in one plane and the molecule is flat.",
+        "There is no rotation about the C=C double bond.",
+        "Diagram: flat ethene molecule with the 120° angles marked."
+      ]
+    },
+    {
+      "h": "Ethyne",
+      "points": [
+        "Ethyne, C₂H₂, is HC≡CH: each carbon forms a triple bond to the other carbon and a single bond to one hydrogen atom.",
+        "The molecule is linear, with a bond angle of 180°, so all four atoms lie in a straight line.",
+        "Diagram: H–C≡C–H in a straight line, with 180° marked."
+      ]
+    },
+    {
+      "h": "Comparing the shapes",
+      "points": [
+        "As the carbon–carbon bond changes from single to double to triple, the shape around each carbon changes from tetrahedral, 109.5°, to trigonal planar, 120°, to linear, 180°.",
+        "This happens because the number of groups of electrons around each carbon falls from four to three to two, and the groups spread as far apart as possible.",
+        "The carbon–carbon bond becomes shorter and stronger from single to double to triple: C–C 0.154 nm, C=C 0.134 nm and C≡C 0.120 nm.",
+        "Ethane is three-dimensional, ethene is planar, and ethyne is linear."
+      ]
+    },
+    {
+      "h": "σ and π bonds in the shapes (Higher Level only)",
+      "points": [
+        "A σ bond is formed by head-on overlap of orbitals along the line between the nuclei; a π bond is formed by sideways overlap of parallel p orbitals above and below that line.",
+        "A single bond is σ; a double bond is σ + π; a triple bond is σ + 2π.",
+        "Only the σ bonds and any lone pairs decide the shape: the σ bonds around each carbon spread as far apart as possible (VSEPR theory), and the π bonds lie over the σ framework without changing the angles.",
+        "In ethane each carbon has four σ bonds around it, giving a tetrahedral shape, and rotation about the σ C–C bond does not change the overlap, so rotation is free.",
+        "In ethene each carbon has three σ bonds around it, giving a trigonal planar shape; the p orbital left on each carbon, at right angles to the plane, overlaps sideways with the other to form the π bond above and below the plane.",
+        "The π bond prevents rotation: twisting one CH₂ group would turn the p orbitals away from each other and break the π overlap, so the molecule is rigid and planar; this is why cis–trans isomers exist (see “Structural and geometric isomerism”).",
+        "In ethyne each carbon has two σ bonds around it, giving a linear shape, and the two p orbitals left on each carbon are at right angles to each other.",
+        "The two π bonds of ethyne together form a cylinder of electron density around the C–C axis.",
+        "Diagram: σ framework of ethene with the π cloud drawn above and below the plane; ethyne with its two π bonds at right angles around the C–C axis."
+      ]
+    },
+    {
+      "h": "Benzene: structure and bonding (Higher Level only)",
+      "points": [
+        "Benzene, C₆H₆, has each carbon forming three σ bonds, to two neighbouring carbons and to one hydrogen, so each carbon is trigonal planar with 120° angles and the molecule is a flat, regular hexagon.",
+        "Each carbon has one remaining p orbital, holding one electron, at right angles to the ring.",
+        "The six p orbitals overlap sideways all round the ring, not in three separate pairs, forming a delocalised π system: one ring of electron density above the plane and one below it, containing six electrons shared by all six carbons."
+      ]
+    },
+    {
+      "h": "Benzene: stability and evidence (Higher Level only)",
+      "points": [
+        "All six C–C bonds are identical, 0.139 nm long, between a single bond at 0.154 nm and a double bond at 0.134 nm; benzene is drawn as a hexagon with a circle inside to show the delocalised electrons.",
+        "Delocalisation makes benzene unusually stable: it does not decolourise bromine water, because addition would destroy the delocalised ring, so it reacts by substitution, keeping the ring.",
+        "The evidence against the Kekulé structure, with alternating C–C and C=C bonds, is that all the bonds are the same length and benzene does not undergo the addition reactions of alkenes.",
+        "Kathleen Lonsdale, born in Newbridge, Co. Kildare, showed in 1929, using hexamethylbenzene, that the benzene ring is flat and a regular hexagon."
+      ]
+    },
+    {
+      "h": "Benzene: counting electrons (Higher Level only)",
+      "points": [
+        "C₆H₆ has 42 electrons in total: 6 × 6 from the carbons and 6 × 1 from the hydrogens.",
+        "Of these, 12 electrons are in the six C–H bonds, 12 are in the six C–C σ bonds, and 6 are delocalised π electrons.",
+        "So 18 electrons are involved in carbon–carbon bonding, and the remaining 12 are the inner (1s) electrons of the carbons, which are not involved in bonding.",
+        "Diagram: the planar ring of six C atoms with H atoms, the σ framework, the p orbitals at right angles to the ring, the delocalised π clouds above and below the ring, and the hexagon-with-circle symbol."
+      ]
+    },
+    {
+      "h": "Summary comparison (Higher Level only)",
+      "b": "Draw a table with one row for each molecule, giving its σ bonds, π bonds, shape and rotation.",
+      "points": [
+        "Ethane: 7 σ bonds, no π bonds, tetrahedral with 109.5° angles, and free rotation about the C–C bond.",
+        "Ethene: 5 σ bonds, 1 π bond, planar with 120° angles, and no rotation about the C=C bond.",
+        "Ethyne: 3 σ bonds, 2 π bonds, and linear with 180° angles.",
+        "Benzene: 12 σ bonds and a delocalised π system of 6 electrons, planar with 120° angles, and all C–C bonds equal in length."
+      ]
+    },
+    {
+      "h": "Two kinds of isomerism (Higher Level only)",
+      "points": [
+        "Isomers are compounds with the same molecular formula but different arrangements of atoms.",
+        "Structural isomers have the same molecular formula but different structural formulae, so the atoms are joined in a different order; butane and methylpropane (C₄H₁₀), and but-1-ene and but-2-ene (C₄H₈), are examples.",
+        "Geometric, or cis–trans, isomers have the same molecular formula and the same structural formula, so the atoms are joined in the same order, but the atoms are arranged differently in space.",
+        "If converting one isomer into the other would mean breaking bonds and joining atoms in a different order, they are structural isomers.",
+        "If the order of joining is the same and only the positions in space differ, they are geometric isomers."
+      ]
+    },
+    {
+      "h": "Cis–trans isomers of butene (Higher Level only)",
+      "points": [
+        "Geometric isomerism arises in alkenes because there is no rotation about the C=C double bond, since rotation would break the π bond, so groups are fixed on one side or the other of the double bond.",
+        "Each carbon of the double bond must carry two different atoms or groups for geometric isomerism to occur.",
+        "In cis-but-2-ene the two CH₃ groups are on the same side of the double bond, and the two H atoms are on the same side.",
+        "In trans-but-2-ene the two CH₃ groups are on opposite sides of the double bond."
+      ]
+    },
+    {
+      "h": "Which alkenes show cis–trans isomerism (Higher Level only)",
+      "points": [
+        "But-1-ene, CH₂=CHCH₂CH₃, has no cis–trans isomers, because one carbon of the double bond carries two identical H atoms.",
+        "Methylpropene, CH₂=C(CH₃)₂, has none, because both carbons of the double bond carry identical pairs of groups.",
+        "Butene, C₄H₈, therefore has four alkene isomers: but-1-ene, cis-but-2-ene, trans-but-2-ene and methylpropene.",
+        "Alkanes have no geometric isomers, because groups rotate freely about C–C single bonds.",
+        "Other alkenes up to C6 with two different groups on each double-bond carbon, e.g. pent-2-ene, hex-2-ene and hex-3-ene, have cis and trans forms.",
+        "In a 3D model of but-2-ene the double bond, made of two flexible links, cannot be twisted, so the cis model cannot be turned into the trans model without taking it apart; digital models show the same when rotated.",
+        "Diagram: cis-but-2-ene and trans-but-2-ene drawn flat with 120° angles, the CH₃ groups circled on the same and on opposite sides."
+      ]
+    },
+    {
+      "h": "Structural isomers and chemical properties (Higher Level only)",
+      "points": [
+        "Structural isomers of the same family, such as butane and methylpropane, have very similar chemical properties, because they have the same types of bond.",
+        "Structural isomers in different families have different chemical properties: hex-1-ene and cyclohexane are both C₆H₁₂, but hex-1-ene, with its C=C bond, decolourises bromine water, and cyclohexane, which is saturated, does not.",
+        "cis- and trans-but-2-ene have almost the same chemical properties, with the same C=C bond, the same addition reactions and the same combustion: C₄H₈ + 6O₂ → 4CO₂ + 4H₂O."
+      ]
+    },
+    {
+      "h": "Structural isomers and boiling point (Higher Level only)",
+      "points": [
+        "Branched structural isomers have lower boiling points than unbranched ones, e.g. butane, −1 °C, and methylpropane, −12 °C.",
+        "The more compact shape of the branched isomer gives less contact and weaker London dispersion forces (see “Explaining and predicting properties”)."
+      ]
+    },
+    {
+      "h": "Cis and trans isomers: physical properties (Higher Level only)",
+      "points": [
+        "cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C.",
+        "The cis molecule is slightly polar, because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces; the symmetrical trans molecule is non-polar (see “Polarity and symmetry”).",
+        "The trans isomer has the higher melting point, −106 °C compared with −139 °C for cis, because its more symmetrical, straighter shape packs more closely in the solid."
+      ]
+    },
+    {
+      "h": "Health link (Higher Level only)",
+      "points": [
+        "Cis–trans isomerism matters in food: unsaturated fats in natural oils are mainly cis.",
+        "Trans fats are formed when vegetable oils are partly hydrogenated, and they raise the risk of heart disease."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Aliphatic hydrocarbon", "definition": "A hydrocarbon with open chains of carbon atoms, or rings that behave like chains, and no benzene ring." },
-    { "term": "Aromatic hydrocarbon", "definition": "A hydrocarbon containing a benzene ring." },
-    { "term": "Saturated", "definition": "Containing only carbon–carbon single bonds, so that no further atoms can be added to the molecule." },
-    { "term": "Unsaturated", "definition": "Containing at least one carbon–carbon double or triple bond." },
-    { "term": "Homologous series", "definition": "A family of compounds with the same general formula, similar chemical properties and a gradual change in physical properties, each member differing from the next by CH₂." },
-    { "term": "Alkyl group", "definition": "A group of carbon and hydrogen atoms derived from an alkane, such as methyl or ethyl, attached to the parent chain as a side chain." },
-    { "term": "Parent chain", "definition": "The longest continuous carbon chain in a molecule, which gives the stem of its name." },
-    { "term": "IUPAC", "definition": "The International Union of Pure and Applied Chemistry, which sets the systematic naming rules for compounds." },
-    { "term": "Cyclo-", "definition": "A prefix showing that a hydrocarbon forms a ring of carbon atoms." }
+    {
+      "term": "Molecular formula",
+      "definition": "A formula giving the number of atoms of each element in one molecule, without showing how they are joined."
+    },
+    {
+      "term": "Expanded structural formula",
+      "definition": "A structural formula that shows every atom and every bond as a line."
+    },
+    {
+      "term": "Condensed structural formula",
+      "definition": "A structural formula that lists the groups on each carbon in order without drawing the bonds."
+    },
+    {
+      "term": "Structural isomers",
+      "definition": "Compounds with the same molecular formula but different structural formulae, so that the atoms are joined in a different order."
+    },
+    {
+      "term": "Tetrahedral",
+      "definition": "The shape around a carbon with four single bonds, with bond angles of 109.5°."
+    },
+    {
+      "term": "Trigonal planar",
+      "definition": "The shape around a carbon in a double bond, with bond angles of 120° in one plane."
+    },
+    {
+      "term": "Linear",
+      "definition": "The shape around a carbon in a triple bond, with a bond angle of 180°."
+    },
+    {
+      "term": "Conformation",
+      "definition": "A shape a molecule takes up by rotation about a single bond, which does not change which molecule it is."
+    },
+    {
+      "term": "Ball-and-stick model",
+      "definition": "A molecular model in which the atoms are balls and the bonds are links, showing the shape but not the true size of the atoms."
+    },
+    {
+      "term": "Space-filling model",
+      "definition": "A molecular model that shows the relative size and shape of the atoms but hides the bonds."
+    },
+    {
+      "term": "Sigma bond",
+      "definition": "A covalent bond formed by head-on overlap of orbitals along the line between two nuclei."
+    },
+    {
+      "term": "Pi bond",
+      "definition": "A covalent bond formed by sideways overlap of parallel p orbitals above and below the line between two nuclei."
+    },
+    {
+      "term": "Delocalised π bonding",
+      "definition": "Bonding in which the π electrons are shared by several atoms, spread over the whole ring or chain rather than fixed between two."
+    },
+    {
+      "term": "VSEPR theory",
+      "definition": "Electron-pair repulsion theory, in which electron groups around an atom spread as far apart as possible to set the shape."
+    },
+    {
+      "term": "Bond length",
+      "definition": "The distance between the nuclei of two bonded atoms."
+    },
+    {
+      "term": "Isomers",
+      "definition": "Compounds with the same molecular formula but different arrangements of atoms."
+    },
+    {
+      "term": "Geometric isomers",
+      "definition": "Isomers with the same order of joining whose atoms are arranged differently in space, because of restricted rotation about a double bond."
+    },
+    {
+      "term": "Cis isomer",
+      "definition": "A geometric isomer in which the groups of interest lie on the same side of a double bond."
+    },
+    {
+      "term": "Trans isomer",
+      "definition": "A geometric isomer in which the groups of interest lie on opposite sides of a double bond."
+    },
+    {
+      "term": "Dipole–dipole attraction",
+      "definition": "The attraction between the permanent positive and negative ends of neighbouring polar molecules."
+    },
+    {
+      "term": "Hydrogenation",
+      "definition": "The addition of hydrogen across a double bond, used to partly harden vegetable oils."
+    },
+    {
+      "term": "Trans fat",
+      "definition": "An unsaturated fat with trans double bonds, formed when vegetable oils are partly hydrogenated."
+    }
   ],
   "questions": [
     {
       "marks": 9,
-      "prompt": "Compare alkanes, alkenes and alkynes in terms of general formula, the type of carbon–carbon bond, and their reaction with bromine water.",
-      "model": "Alkanes have the general formula CₙH₂ₙ₊₂ and contain only single carbon–carbon bonds, so they are saturated; they do not decolourise bromine water. Alkenes have the general formula CₙH₂ₙ and contain one carbon–carbon double bond, so they are unsaturated; they decolourise bromine water by addition. Alkynes have the general formula CₙH₂ₙ₋₂ and contain one carbon–carbon triple bond, so they are unsaturated; they decolourise bromine water by addition."
+      "prompt": "What are structural isomers? Draw the expanded structural formula and give the IUPAC name of each of the three structural isomers of C₅H₁₂.",
+      "model": "Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order. The three isomers of C₅H₁₂ are: pentane, with a chain of five carbon atoms, each bonded to the hydrogens it needs, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, with a methyl group on carbon 2 of a four-carbon chain, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, with four methyl groups bonded to one central carbon, C(CH₃)₄. In each expanded structure every bond is drawn as a line."
     },
     {
       "marks": 9,
-      "prompt": "Give the IUPAC names of: (i) CH₃CH(CH₃)CH₂CH₃, (ii) CH₃CH=CHCH₂CH₃, (iii) (CH₃)₂CHCH(CH₃)₂. Draw the structure of 2,2-dimethylbutane.",
-      "model": "(i) 2-methylbutane: the longest chain has four carbons, giving the parent butane, with a methyl group on carbon 2. (ii) pent-2-ene: a five-carbon chain with the double bond starting at carbon 2. (iii) 2,3-dimethylbutane: a four-carbon chain with methyl groups on carbons 2 and 3. 2,2-dimethylbutane is CH₃C(CH₃)₂CH₂CH₃: a four-carbon chain with two methyl groups on carbon 2, drawn with every carbon and its bonds shown."
+      "prompt": "Describe how you would use a molecular model kit to show (i) that rotation is possible about the C–C bond in ethane, (ii) that the C=C bond in ethene is rigid and planar. Give one limitation of ball-and-stick models.",
+      "model": "(i) Build ethane from two carbon balls, each with three hydrogen balls, joined by a rigid single link. Hold one CH₃ group still and turn the other about the C–C link; it moves freely through different positions, which are still the same molecule, so rotation is possible. (ii) Build ethene from two carbon balls, each with two hydrogen balls, joined by two flexible links. The model lies flat, and twisting one CH₂ group is not possible without breaking the model, so the C=C bond is rigid and planar. Limitation: ball-and-stick models exaggerate the gaps between atoms and are not to scale, and they do not show electrons."
     },
     {
       "marks": 6,
-      "prompt": "Benzene is unsaturated, yet it does not decolourise bromine water. Explain, and describe the structure of benzene.",
-      "model": "Benzene is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°. All six carbon–carbon bonds are identical and intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised around the whole ring. Kekulé's alternating-bond structure cannot explain the equal bond lengths. This delocalisation makes benzene very stable, so it resists addition, which would break up the ring; it reacts by substitution instead, and so does not decolourise bromine water."
+      "prompt": "Draw and name two alkene isomers of C₄H₈ and write the condensed structural formula of each.",
+      "model": "But-1-ene, CH₂=CHCH₂CH₃, with the double bond between carbons 1 and 2. But-2-ene, CH₃CH=CHCH₃, with the double bond between carbons 2 and 3. Methylpropene, CH₂=C(CH₃)CH₃, with a methyl group on carbon 2 of a propene chain. Each expanded structure shows every bond as a line, and each condensed formula lists the groups on each carbon in order."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe and compare the shapes of ethane, ethene and ethyne, giving the bond angle around the carbon atoms in each.",
+      "model": "Ethane is tetrahedral around each carbon, with bond angles of 109.5°, so it is three-dimensional and rotates freely about its C–C bond. Ethene is trigonal planar around each carbon, with bond angles of 120°, so all six atoms lie in one plane. Ethyne is linear, with bond angles of 180°, so all four atoms lie in a straight line. The shape changes because the number of electron groups around each carbon falls from four to three to two as the carbon–carbon bond goes from single to double to triple."
+    },
+    {
+      "marks": 9,
+      "prompt": "State the number of σ and π bonds in ethene and in ethyne, and explain in terms of σ and π bonds why ethene is planar and rigid while ethane can rotate about its C–C bond.",
+      "model": "Ethene has five σ bonds and one π bond; ethyne has three σ bonds and two π bonds. Each carbon in ethene has three σ bonds around it, so its shape is trigonal planar with 120° angles. Its p orbitals overlap sideways to form the π bond above and below the plane. Twisting one CH₂ group would break this sideways overlap, so the molecule is rigid and planar. In ethane each carbon has four σ bonds and no π bond; rotation about the σ C–C bond keeps the overlap of its orbitals unchanged, so ethane can rotate freely."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe the bonding in benzene in terms of σ and delocalised π bonds. A benzene molecule has 42 electrons: how many are involved in (i) C–H bonding, (ii) C–C σ bonding, (iii) delocalised π bonding, and how many are not involved in bonding? Explain why benzene does not decolourise bromine water.",
+      "model": "Benzene is a flat, regular hexagon of six carbon atoms. Each carbon forms three σ bonds, two to neighbouring carbons and one to hydrogen, so the molecule has twelve σ bonds. Each carbon has one remaining p orbital, and these overlap sideways all round the ring to form a delocalised π system above and below the ring, with six electrons shared by all six carbons. (i) C–H bonding: 12 electrons. (ii) C–C σ bonding: 12 electrons. (iii) Delocalised π bonding: 6 electrons. Not involved in bonding: 12 electrons, the inner 1s electrons of the carbons, since 42 − 30 = 12. Benzene does not decolourise bromine water because addition would break up the delocalised ring; the ring is stable, so benzene reacts by substitution instead."
+    },
+    {
+      "marks": 9,
+      "prompt": "Distinguish between structural isomerism and geometric isomerism, giving an example of each from the isomers of C₄H₈.",
+      "model": "Structural isomers have the same molecular formula, but their atoms are joined in a different order. An example is but-1-ene, CH₂=CHCH₂CH₃, and but-2-ene, CH₃CH=CHCH₃. Geometric isomers have the same molecular formula and the same order of joining, but a different arrangement of the atoms in space; this is possible because there is no rotation about the C=C double bond. An example is cis-but-2-ene, with both CH₃ groups on the same side of the double bond, and trans-but-2-ene, with the CH₃ groups on opposite sides."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw cis-but-2-ene and trans-but-2-ene. Explain why but-2-ene has geometric isomers but but-1-ene does not, and why butane has none.",
+      "model": "cis-but-2-ene has both CH₃ groups on the same side of the C=C double bond; trans-but-2-ene has them on opposite sides, with one H and one CH₃ group on each carbon of the double bond. But-2-ene has geometric isomers because each carbon of its double bond carries two different groups, and rotation about the C=C bond is prevented. But-1-ene does not, because one carbon of its double bond carries two identical H atoms, so the two arrangements are the same molecule. Butane has none because it has no double bond, and its groups rotate freely about the C–C single bonds."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain how isomerism can give rise to different properties, referring to (i) hex-1-ene and cyclohexane, (ii) cis- and trans-but-2-ene.",
+      "model": "(i) Hex-1-ene and cyclohexane are both C₆H₁₂ but are structural isomers in different families. Hex-1-ene has a C=C double bond and decolourises bromine water by addition; cyclohexane is saturated and does not decolourise bromine water. (ii) cis- and trans-but-2-ene have the same C=C bond and almost identical chemistry, but different physical properties. cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C, because the cis isomer is slightly polar and has dipole–dipole attractions, while the trans isomer is non-polar. The trans isomer melts at −106 °C, compared with −139 °C for cis, because its symmetrical shape packs more closely in the solid."
     }
   ]
 }

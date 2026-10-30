@@ -1,53 +1,102 @@
-# Package: chem1-s5 — Questions and hypotheses
+# Package: chem1-s5 — Reflecting, recording and communicating findings
 
-- **loId:** `chem1-s5` · **chapterId:** `chem1` · **syllabusRef:** U2.1–U2.2
-- **Syllabus:** U2.1 "recognise questions that are appropriate for scientific investigation in
-  chemistry"; U2.2 "pose testable hypotheses developed using scientific theories and
-  explanations, and evaluate and compare strategies for investigating hypotheses". No Higher
-  Level only material.
-- **Prepared by:** a higher model, 2026-10-30. Variables are introduced here because a testable
-  hypothesis needs them; how to control them in a design is "Designing and conducting
-  investigations".
+- **loId:** `chem1-s5` · **chapterId:** `chem1` · **syllabusRef:** U2.5, U2.6
+- **Merged:** this subsection combines "Reflecting and recording" (formerly `chem1-s9`), "Communicating findings" (formerly `chem1-s10`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Reflecting and recording (formerly `chem1-s9`)
 
-Questions suitable for investigation (one block)
-- [ ] Q1 A scientific question can be answered by collecting evidence through observation or experiment.
-- [ ] Q2 It is specific and focused, and names measurable quantities, e.g. "How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?"
-- [ ] Q3 Not suitable: questions of value, opinion or ethics ("Are plastics bad?"), questions that are too vague, or ones that can't be tested with available methods. A vague question can often be refined into a testable one.
+- **loId:** `chem1-s9` · **chapterId:** `chem1` · **syllabusRef:** U2.5
+- **Syllabus:** U2.5 "review and reflect on the skills and thinking used in carrying out
+  investigations, and apply their learning and skills to solving problems in unfamiliar
+  contexts". Learn about: "recording and analysing findings using appropriate methods,
+  including a portfolio/log of experimental and research data". No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30. Cover evaluation of an investigation, the
+  investigative log, and transfer of skills.
 
-Variables (one block, assumed)
-- [ ] V1 (assumed) Independent variable: the one the investigator deliberately changes.
-- [ ] V2 (assumed) Dependent variable: the one that is measured, which may change as a result.
-- [ ] V3 (assumed) Controlled variables: all other factors that could affect the result, kept the same so the test is fair.
+### 1. Must cover
 
-Testable hypotheses (one block)
-- [ ] H1 A hypothesis is a proposed explanation that leads to a testable prediction; it is based on existing scientific theory, not a guess.
-- [ ] H2 A good hypothesis states the expected relationship between the independent and dependent variables, e.g. "Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions" (from collision theory).
-- [ ] H3 It must be falsifiable: an experiment could show it to be wrong.
-- [ ] H4 A prediction is the specific result expected if the hypothesis is correct ("doubling the concentration will roughly halve the time taken").
+The investigative log or portfolio (one block)
+- [ ] L1 A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work, kept as the work happens.
+- [ ] L2 It records: the aim and plan, changes made to the plan and why, raw data and observations (including unexpected ones), calculations, sources consulted, problems met, and reflections.
+- [ ] L3 It provides evidence of what was done, supports honesty and integrity, and lets the work be repeated or written up later. The Chemistry in Practice Investigation brief asks students to keep one.
 
-Evaluating and comparing strategies (one block)
-- [ ] S1 A hypothesis can often be tested in more than one way, e.g. rate measured by gas volume collected in a gas syringe, by mass loss on a balance, or by time for a solid to disappear.
-- [ ] S2 Compare strategies by: validity (does it measure what it should?), accuracy and precision of the measurements, ease of controlling other variables, safety, cost and time, and the range and number of data points.
-- [ ] S3 Choose the strategy that gives the most reliable and valid evidence with acceptable safety; justify the choice.
+Evaluating an investigation (one block)
+- [ ] E1 Evaluate the method: was the test fair and valid; which variables were hard to control?
+- [ ] E2 Evaluate the data: was there enough of it, over a wide enough range; how much did repeats vary; were there anomalous results?
+- [ ] E3 Identify the main sources of error and their likely effect on the result (larger or smaller than the true value).
+- [ ] E4 Suggest specific improvements (e.g. use a gas syringe instead of collecting over water; use a data-logger; insulate the calorimeter) and further investigations.
+- [ ] E5 Judge how confident you are in the conclusion.
 
-## 2. Checked facts and examples
+Reflecting on skills and thinking (one block)
+- [ ] R1 Reflect on what went well, what didn't, what you would do differently, and what you learned about investigating.
+- [ ] R2 Reflection is honest about difficulties; an investigation is valuable for the process, not only for getting a "right" answer.
 
-Use only the examples above (hydrochloric acid and calcium carbonate; gas syringe; mass loss; collision theory).
+Applying learning to unfamiliar contexts (one block)
+- [ ] U1 Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems.
+- [ ] U2 In an unfamiliar problem, identify what is being asked, the chemistry it depends on, the data given, and a step-by-step approach; check the answer is sensible.
 
-## 3. Traps
+### 2. Checked facts and examples
 
-- A hypothesis is not a question; it is a statement that can be tested.
-- Keep the method and the meanings of reliability, validity, accuracy and precision in "Designing and conducting investigations" and "Measurement and error"; use the words here without defining them.
+No named facts needed.
 
-## 4. What exams ask (topics only)
+### 3. Traps
 
-- Identify the independent, dependent and controlled variables in a described experiment.
-- Write a testable hypothesis for a given investigation.
-- Compare two methods of investigating a hypothesis.
+- An evaluation is not a summary of the method; it judges strengths and weaknesses and suggests improvements.
+- "Human error" on its own is not an acceptable source of error; name the specific error.
 
-## 5. Practice questions to write
+### 4. What exams ask (topics only)
 
-1. 6 marks: "Write a testable hypothesis for an investigation into the effect of temperature on the rate of reaction between sodium thiosulfate and hydrochloric acid, and identify the independent, dependent and two controlled variables." Model answer: H2 applied to temperature; V1–V3.
-2. 9 marks: "Compare two strategies for measuring the rate of reaction of calcium carbonate with hydrochloric acid, and justify which gives better evidence." Model answer: S1, S2, S3.
+- Suggest improvements to a described experiment.
+- Identify sources of error and their effect.
+
+### 5. Practice questions to write
+
+1. 6 marks: "State what should be recorded in an investigative log and give two reasons for keeping one." Model answer: L2; two of L3.
+2. 9 marks: "A student's value for a heat of neutralisation was lower than the accepted value. Evaluate the investigation: suggest two sources of error and an improvement for each." Model answer: E3, E4 applied (heat loss to surroundings and to the container: insulate with a polystyrene cup and lid; thermometer resolution: use a more precise thermometer or data-logger).
+
+## Part: Communicating findings (formerly `chem1-s10`)
+
+- **loId:** `chem1-s10` · **chapterId:** `chem1` · **syllabusRef:** U2.6
+- **Syllabus:** U2.6 "organise and communicate their research and investigative findings, using
+  relevant scientific terminology and representations". Learn about: "communicating results
+  and findings to a range of audiences"; "justifying opinions to evaluations of other arguments,
+  citing reliable sources". No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30.
+
+### 1. Must cover
+
+Structure of a scientific report (one block)
+- [ ] S1 Title; introduction (background research and the research question); hypothesis; method (equipment, step-by-step procedure, safety); results (tables and graphs); analysis (calculations, patterns); conclusion; evaluation; references.
+- [ ] S2 Written in the past tense and impersonal style, in enough detail to be repeated.
+
+Scientific terminology and representations (one block)
+- [ ] T1 Use precise terms (e.g. "dissolves" not "melts"; "effervescence" for bubbles of gas) and correct SI units and IUPAC names.
+- [ ] T2 Representations: balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs, energy profile diagrams.
+
+Audiences (one block)
+- [ ] A1 Scientists: full technical detail, data and references, in a journal paper or conference poster.
+- [ ] A2 The public, policy-makers or a class: plain language, key findings first, simple graphics, technical terms explained.
+- [ ] A3 The same findings may be communicated as a report, poster, presentation, infographic or article; choose the format for the purpose and audience.
+
+Justifying opinions and citing sources (one block)
+- [ ] J1 An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.
+- [ ] J2 Cite each source in the text and list full references, so readers can check them; never copy without acknowledgement (plagiarism).
+- [ ] J3 When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing.
+
+### 2. Checked facts and examples
+
+No named facts needed.
+
+### 3. Traps
+
+- Don't repeat source evaluation in detail (it is in "Science as a global enterprise and researching an issue").
+
+### 4. What exams ask (topics only)
+
+- How would you present findings to a non-scientific audience?
+- List the sections of a scientific report.
+
+### 5. Practice questions to write
+
+1. 6 marks: "List the main sections of a scientific report of an experiment and state what each contains." Model answer: S1.
+2. 6 marks: "Describe two differences between communicating the results of an investigation to other scientists and to the general public." Model answer: A1, A2.

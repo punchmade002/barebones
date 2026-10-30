@@ -1,86 +1,262 @@
 {
   "loId": "chem18-s2",
   "chapterId": "chem18",
-  "subsection": "2. The equilibrium constant",
-  "syllabusRef": "3.3.2",
+  "subsection": "2. Le Châtelier's principle",
+  "syllabusRef": "3.3.4, 3.3.5",
   "notes": [
     {
-      "h": "The equilibrium law and Kc",
+      "h": "The principle",
       "points": [
-        "The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.",
-        "For aA + bB ⇌ cC + dD: Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ.",
-        "Square brackets mean the concentration in mol L⁻¹ at equilibrium.",
-        "Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.",
-        "Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³.",
-        "Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂].",
-        "Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].",
-        "Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.",
-        "Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻]."
+        "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up.",
+        "A shift to the right means more products form until equilibrium is restored; a shift to the left means more reactants form.",
+        "The principle predicts the direction of the shift, not how fast it happens or how large it is; the change is only partly reversed."
       ]
     },
     {
-      "h": "Units of Kc",
+      "h": "Changing the concentration",
       "points": [
-        "To find the units, substitute mol L⁻¹ for each concentration and cancel.",
-        "When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.",
-        "For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻².",
-        "For PCl₅ ⇌ PCl₃ + Cl₂: the units of Kc are mol L⁻¹."
+        "Adding a reactant (or removing a product) shifts the equilibrium to the right, using up some of the added reactant and forming more product.",
+        "Adding a product (or removing a reactant) shifts the equilibrium to the left.",
+        "Kc is unchanged: the concentrations adjust until the ratio in the Kc expression is back at its old value.",
+        "Removing a product as it forms keeps pulling the equilibrium to the right.",
+        "In esterification, using an excess of ethanol (the cheaper reactant) increases the yield of ester.",
+        "In Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) (red), adding either reactant deepens the red colour; details are in “Investigation: disturbing an equilibrium”."
       ]
     },
     {
-      "h": "What affects the value of Kc",
+      "h": "Changing the pressure (reactions involving gases)",
       "points": [
-        "Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.",
-        "Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.",
-        "Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.",
-        "A catalyst does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.",
-        "Exothermic forward reaction (ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc.",
-        "Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.",
-        "Endothermic forward reaction (ΔH positive): raising the temperature increases Kc; lowering it decreases Kc.",
-        "Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.",
-        "If Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic."
+        "Increasing the pressure shifts the equilibrium towards the side with fewer moles of gas, because that side exerts the lower pressure; decreasing the pressure shifts it towards the side with more moles of gas.",
+        "Count only the gas molecules, using the coefficients: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) has 4 mol of gas on the left and 2 mol on the right, so high pressure shifts it to the right, giving more ammonia.",
+        "If both sides have the same number of moles of gas, pressure has no effect on the position of equilibrium, e.g. H₂(g) + I₂(g) ⇌ 2HI(g), with 2 mol on each side.",
+        "Compressing H₂ + I₂ ⇌ 2HI makes the purple colour deeper because every concentration, including that of I₂, rises; the percentage of each substance is unchanged.",
+        "2NO₂(g) (brown) ⇌ N₂O₄(g) (colourless): compressing the mixture in a sealed syringe makes it darker at once, because the concentration rises.",
+        "The darkening then fades as the equilibrium shifts to the right, from 2 mol to 1 mol of gas, but the mixture does not become as pale as before.",
+        "A change of pressure does not change Kc."
       ]
     },
     {
-      "h": "Using Kc to describe and predict (Higher Level only)",
+      "h": "Changing the temperature",
       "points": [
-        "A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion.",
-        "A small Kc (much less than 1) means the mixture is mainly reactants: the equilibrium lies to the left and little product forms.",
-        "A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium.",
-        "Esterification has Kc ≈ 4, so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms (see “Kc calculations”).",
-        "Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.",
-        "The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.",
-        "If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.",
-        "Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.",
-        "This explains Le Châtelier’s principle mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.",
-        "Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature."
+        "Raising the temperature shifts the equilibrium in the endothermic direction, which absorbs heat; lowering it shifts the equilibrium in the exothermic direction, which releases heat.",
+        "If the forward reaction is exothermic (ΔH negative), heating shifts the equilibrium to the left and cooling shifts it to the right; the reverse is true if the forward reaction is endothermic.",
+        "Example: 2NO₂(g) ⇌ N₂O₄(g), with ΔH about −57 kJ mol⁻¹. Heating shifts the equilibrium to the left, giving a darker brown mixture with more NO₂.",
+        "Cooling the same mixture in ice-water shifts the equilibrium to the right, giving a paler mixture.",
+        "Temperature is the only one of these disturbances that changes Kc: for an exothermic forward reaction Kc falls as temperature rises; for an endothermic one it rises.",
+        "Diagram: two sealed tubes of the brown mixture, one in hot water and one in ice-water, each labelled with its colour."
+      ]
+    },
+    {
+      "h": "Catalysts",
+      "points": [
+        "A catalyst does not disturb an equilibrium or change its position, because it speeds up the forward and reverse reactions equally.",
+        "A catalyst lets equilibrium be reached more quickly, so the same yield is obtained in less time.",
+        "A catalyst does not change Kc."
+      ]
+    },
+    {
+      "h": "Everyday and environmental applications",
+      "points": [
+        "Fizzy drinks: CO₂(g) ⇌ CO₂(aq). Opening the bottle lowers the pressure of CO₂ above the drink, so the equilibrium shifts to the left and gas bubbles out.",
+        "A cold drink holds more dissolved CO₂.",
+        "Oceans: CO₂(g) ⇌ CO₂(aq); CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq); H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq).",
+        "More CO₂ in the air increases the dissolved CO₂ and carbonic acid; the third equilibrium shifts to the right, using up carbonate ions. This is ocean acidification.",
+        "With less carbonate available, shellfish and corals find it harder to build calcium carbonate shells and skeletons.",
+        "Indicators: the colour of an acid–base indicator changes because adding acid or base shifts HIn ⇌ H⁺ + In⁻ (see “How indicators work”)."
+      ]
+    },
+    {
+      "h": "Optimising yield: the Haber process (Higher Level only)",
+      "points": [
+        "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Ammonia is used mainly to make fertilisers.",
+        "Pressure: there are 4 mol of gas on the left and 2 mol on the right, so high pressure increases the yield by Le Châtelier’s principle, and also increases the rate because the concentrations are higher.",
+        "In practice a pressure of about 200 atm (range about 150–300 atm) is used as a compromise.",
+        "Higher pressures would give more ammonia, but a plant that can withstand them is very expensive to build and run, and the risk of leaks and explosions increases.",
+        "Temperature: the forward reaction is exothermic, so a low temperature gives a higher yield at equilibrium.",
+        "At low temperature the reaction is too slow to be economic.",
+        "In practice a compromise of about 400–500 °C (about 450 °C) gives a reasonable yield at a fast enough rate.",
+        "The iron catalyst does not change the yield; it lets equilibrium be approached quickly at the compromise temperature.",
+        "Ammonia is removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled through the catalyst, so the overall conversion is high."
+      ]
+    },
+    {
+      "h": "Optimising yield: other processes (Higher Level only)",
+      "points": [
+        "Contact process (sulfuric acid manufacture): 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH about −197 kJ mol⁻¹.",
+        "Le Châtelier predicts high pressure (3 mol of gas on the left, 2 mol on the right) and low temperature for the best yield.",
+        "In practice about 450 °C is used as a compromise between yield and rate, with a vanadium(V) oxide (V₂O₅) catalyst.",
+        "The pressure is only slightly above atmospheric (1–2 atm), because the yield is already very high and extra pressure would cost more than it gains.",
+        "General method for any equilibrium: for the best yield choose the temperature that favours the exothermic or endothermic direction as needed, the pressure that favours the side with fewer (or more) gas moles, and an excess of a cheap reactant or removal of product.",
+        "Then weigh these choices against rate, cost, energy use and safety.",
+        "Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature."
+      ]
+    },
+    {
+      "h": "Aim and approach",
+      "points": [
+        "Aim: to investigate how changes in concentration and temperature affect the position of an equilibrium, and to test whether the results agree with Le Châtelier’s principle.",
+        "Independent variable: the factor deliberately changed, here concentration or temperature.",
+        "Dependent variable: the colour of the equilibrium mixture, which shows the position of equilibrium; more of the coloured product gives a deeper colour.",
+        "Controlled variables: the volume of solution, the number of drops added, the observer and the white background.",
+        "Set up one equilibrium mixture and divide it into equal portions in identical test tubes; keep one tube untouched as a control and change one factor in each of the others.",
+        "Compare each tube with the control and record the colour before and after the change."
+      ]
+    },
+    {
+      "h": "Iron(III) chloride and potassium thiocyanate: concentration",
+      "points": [
+        "Equation: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Fe³⁺ (from iron(III) chloride) is yellow, SCN⁻ (from potassium thiocyanate) is colourless, and FeSCN²⁺ is blood-red.",
+        "Method: add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms. Diluting it makes the colour changes easy to see.",
+        "Pour equal portions (about 10 cm³) into four test tubes; tube 1 is the control.",
+        "Tube 2: add a few drops of iron(III) chloride solution; the red deepens, because [Fe³⁺] increases and the equilibrium shifts to the right, forming more FeSCN²⁺.",
+        "Tube 3: add a few drops of potassium thiocyanate solution; the red deepens, because [SCN⁻] increases and the equilibrium shifts to the right.",
+        "Tube 4: add a few drops of silver nitrate solution; a white precipitate forms and the red colour fades.",
+        "Silver ions remove SCN⁻ as insoluble silver thiocyanate, AgSCN, lowering [SCN⁻], so the equilibrium shifts to the left; silver chloride, also white, can form from the chloride ions in the iron(III) chloride.",
+        "Conclusion: adding a reactant shifts the equilibrium to the right; removing a reactant shifts it to the left, as Le Châtelier’s principle predicts.",
+        "Diagram: a row of four test tubes in a rack, labelled control, + FeCl₃, + KSCN and + AgNO₃, showing pale red, deep red, deep red, and pale or colourless with a white precipitate."
+      ]
+    },
+    {
+      "h": "Cobalt(II) chloride: concentration and temperature",
+      "points": [
+        "Equation: [Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l).",
+        "[Co(H₂O)₆]²⁺ is pink and [CoCl₄]²⁻ is blue; the forward reaction is endothermic.",
+        "Method: dissolve a little cobalt(II) chloride in water to give a pink solution; add concentrated hydrochloric acid drop by drop until the solution is violet, a mixture of pink and blue.",
+        "Divide the violet solution into test tubes, keeping one as a control.",
+        "Adding more concentrated hydrochloric acid adds Cl⁻ and turns the solution blue: the equilibrium shifts to the right.",
+        "Adding water turns the solution pink: water is a product, so the equilibrium shifts to the left. Dilution also favours the side with more dissolved ions, here the left, with five ions against one.",
+        "Heating: a tube placed in a beaker of hot water (about 80 °C) turns blue, because heating favours the endothermic forward reaction.",
+        "Cooling: a tube placed in ice-water turns pink, because cooling favours the exothermic reverse reaction.",
+        "The changes reverse when the tubes return to room temperature, showing that the reaction is reversible and still dynamic.",
+        "Because heating shifts this equilibrium to the right, Kc for it increases with temperature.",
+        "Safety: concentrated hydrochloric acid is corrosive and gives off choking fumes, so wear goggles and gloves and work in a fume cupboard. Cobalt(II) chloride is toxic, may cause cancer and skin allergy, and is harmful to aquatic life, so wear gloves and put waste in the residue container, not the sink.",
+        "Diagram: three test tubes of the violet mixture, one in a beaker of hot water (blue), one in a beaker of ice-water (pink) and one at room temperature as a control (violet), with a thermometer in each beaker."
+      ]
+    },
+    {
+      "h": "Nitrogen dioxide and dinitrogen tetroxide: temperature (teacher demonstration)",
+      "points": [
+        "2NO₂(g) ⇌ N₂O₄(g), with the forward reaction exothermic; NO₂ is brown and N₂O₄ is colourless.",
+        "Sealed glass tubes containing the same equilibrium mixture are placed in hot water and in ice-water.",
+        "The hot tube becomes darker brown, as the equilibrium shifts to the left, the endothermic direction, giving more NO₂.",
+        "The cold tube becomes paler, as the equilibrium shifts to the right.",
+        "Safety: NO₂ is very toxic; the tubes are sealed and the demonstration is done by the teacher.",
+        "Diagram: two sealed tubes, one in hot water and one in ice-water, each labelled with its colour."
+      ]
+    },
+    {
+      "h": "Digital simulations and secondary data",
+      "points": [
+        "A digital simulation models the particles of a reversible reaction; the user can add reactant or product, or change the temperature, and watch the numbers of each particle and the forward and reverse rates change until a new equilibrium is set up.",
+        "Simulations show what cannot be seen in the laboratory: both reactions continuing at equal rates at equilibrium, and concentration–time graphs showing the sudden change and the new constant levels.",
+        "Simulations are safe, fast and repeatable and avoid toxic chemicals, but they are models: their results depend on the rules programmed into them, so they are checked against experimental data.",
+        "Secondary data, such as a table or graph of the percentage of ammonia at equilibrium at different temperatures and pressures, can be analysed for trends.",
+        "The percentage of ammonia rises with pressure and falls with temperature, so the forward reaction reduces the number of moles of gas and is exothermic.",
+        "On a concentration–time graph, a sudden vertical jump in one line shows a substance being added; the gradual changes that follow show the shift; new horizontal lines show the new equilibrium."
+      ]
+    },
+    {
+      "h": "Evaluating the investigation",
+      "points": [
+        "Judging colour by eye is subjective: compare each tube with the control against a white background, use the same volume in identical tubes, and have the same observer.",
+        "Add the same number of drops to each tube, and allow time for the new equilibrium to set up (the colour stops changing) before recording.",
+        "Concentration changes move the position of equilibrium but do not change Kc; temperature changes both.",
+        "Adding a solution also dilutes the mixture a little, so add only a few drops, or add the same volume of water to the control."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Equilibrium constant (Kc)", "definition": "The constant ratio of product to reactant concentrations, each raised to its coefficient, at equilibrium at a fixed temperature." },
-    { "term": "Equilibrium law", "definition": "The rule that, at equilibrium at a fixed temperature, the concentrations of products and reactants are related by a constant." },
-    { "term": "Homogeneous equilibrium", "definition": "An equilibrium in which all the reactants and products are in the same phase, such as all gases or all in solution." },
-    { "term": "Exothermic reaction", "definition": "A reaction that releases heat to the surroundings and has a negative ΔH." },
-    { "term": "Endothermic reaction", "definition": "A reaction that absorbs heat from the surroundings and has a positive ΔH." },
-    { "term": "Catalyst", "definition": "A substance that speeds up a reaction without being used up, and that does not change the position of equilibrium or the value of Kc." },
-    { "term": "Reaction quotient (Q)", "definition": "The same expression as Kc, but using the concentrations at any moment, not necessarily at equilibrium." }
+    {
+      "term": "Le Châtelier’s principle",
+      "definition": "The principle that a system at equilibrium responds to a disturbance by moving in the direction that opposes the change."
+    },
+    {
+      "term": "Position of equilibrium",
+      "definition": "The relative amounts of reactants and products present at equilibrium, which move when conditions change."
+    },
+    {
+      "term": "Shift",
+      "definition": "The movement of an equilibrium to the left or to the right in response to a disturbance."
+    },
+    {
+      "term": "Exothermic",
+      "definition": "Describes a reaction that releases heat to the surroundings and has a negative ΔH."
+    },
+    {
+      "term": "Endothermic",
+      "definition": "Describes a reaction that absorbs heat from the surroundings and has a positive ΔH."
+    },
+    {
+      "term": "Yield",
+      "definition": "The amount of product obtained at equilibrium, compared with the maximum possible."
+    },
+    {
+      "term": "Compromise conditions",
+      "definition": "The temperature and pressure chosen in industry to balance yield, rate, cost and safety."
+    },
+    {
+      "term": "Control",
+      "definition": "The untouched sample kept under the same conditions, against which the changed samples are compared."
+    },
+    {
+      "term": "Independent variable",
+      "definition": "The factor deliberately changed in an investigation, here concentration or temperature."
+    },
+    {
+      "term": "Dependent variable",
+      "definition": "The quantity measured in response to the change, here the colour of the equilibrium mixture."
+    },
+    {
+      "term": "Controlled variable",
+      "definition": "A factor kept the same in every test so that it cannot affect the result."
+    },
+    {
+      "term": "Precipitate",
+      "definition": "An insoluble solid that forms when two solutions react."
+    },
+    {
+      "term": "Primary data",
+      "definition": "Data collected directly by the investigator from their own experiment."
+    },
+    {
+      "term": "Secondary data",
+      "definition": "Data collected by someone else, such as published tables or graphs, which can be analysed for trends."
+    },
+    {
+      "term": "Digital simulation",
+      "definition": "A computer model of particles that shows how a reaction system behaves under chosen conditions."
+    }
   ],
   "questions": [
     {
-      "marks": 6,
-      "prompt": "Write the equilibrium constant expression for 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), and state the effect, if any, on the value of Kc of (i) increasing the pressure, (ii) increasing the temperature, given that the forward reaction is exothermic.",
-      "model": "Kc = [SO₃]² ÷ [SO₂]²[O₂]. (i) Increasing the pressure has no effect on the value of Kc: the concentrations change and the equilibrium shifts, but the new equilibrium mixture gives the same value of Kc. (ii) Increasing the temperature decreases the value of Kc, because the forward reaction is exothermic: the equilibrium shifts towards the reactants, so less SO₃ is present at equilibrium."
+      "marks": 9,
+      "prompt": "State Le Châtelier’s principle. For 2NO₂(g) ⇌ N₂O₄(g), ΔH = −57 kJ mol⁻¹, predict and explain the effect on the colour of the mixture of (i) increasing the temperature, (ii) increasing the pressure, (iii) adding a catalyst.",
+      "model": "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up. (i) The forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left, the endothermic direction, which absorbs heat. More brown NO₂ forms, so the mixture becomes darker. (ii) Increasing the pressure shifts the equilibrium to the side with fewer moles of gas, which is N₂O₄ (1 mol, against 2 mol of NO₂). The mixture darkens at once because the concentration rises, then becomes paler as the equilibrium shifts to the right, but not as pale as before. (iii) A catalyst does not change the position of the equilibrium, so the colour does not change; it only allows equilibrium to be reached more quickly."
+    },
+    {
+      "marks": 12,
+      "prompt": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Use Le Châtelier’s principle to predict the temperature and pressure that give the greatest yield of ammonia, and explain why the conditions used industrially are a compromise. State the role of the iron catalyst.",
+      "model": "A high pressure gives the greatest yield: there are 4 mol of gas on the left and 2 mol on the right, so the equilibrium shifts to the right to reduce the pressure. A low temperature gives the greatest yield, because the forward reaction is exothermic, so the equilibrium shifts to the right to release heat. Industrially a pressure of about 200 atm and a temperature of about 450 °C are used as a compromise. A higher pressure would give more ammonia, but a plant that can withstand it is very expensive to build and run, and the risk of leaks and explosions increases. At low temperature the reaction is too slow to be economic, so a temperature in the range 400–500 °C is used to give a reasonable yield at a fast enough rate. The iron catalyst does not change the yield; it allows equilibrium to be approached quickly at the compromise temperature. Ammonia is also removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled."
     },
     {
       "marks": 6,
-      "prompt": "For CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, Kc = 4.0. A mixture contains 0.50 mol of each of the four substances. Is it at equilibrium? If not, in which direction will it react? Explain.",
-      "model": "Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]. The volume is the same for every species, so it cancels and the moles can be used directly: Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0. Q is less than Kc (4.0), so the mixture is not at equilibrium and contains too little product. The reaction proceeds in the forward direction, forming more ester and water, until Q equals Kc."
+      "prompt": "Explain, using Le Châtelier’s principle, why increasing levels of carbon dioxide in the atmosphere make it harder for shellfish to build their shells.",
+      "model": "Carbon dioxide dissolves in the sea: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq). More dissolved CO₂ increases the concentration of carbonic acid, which is a reactant in the equilibrium H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Adding this reactant shifts that equilibrium to the right, so carbonate ions are used up. With less carbonate available, shellfish cannot build calcium carbonate shells as easily."
     },
     {
-      "marks": 4,
-      "prompt": "The value of Kc for a gas-phase reaction increases as temperature increases. Is the forward reaction exothermic or endothermic? Explain.",
-      "model": "The forward reaction is endothermic. Increasing the temperature increases Kc, which means the equilibrium moves to the right and more products form at equilibrium. Raising the temperature favours the endothermic direction, so the forward reaction must absorb heat."
+      "marks": 12,
+      "prompt": "Describe how you would set up an equilibrium between iron(III) ions and thiocyanate ions, and show the effect of changing the concentration of (i) a reactant added, (ii) a reactant removed. Explain each observation using Le Châtelier’s principle.",
+      "model": "Add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms, containing the equilibrium Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Pour equal portions of about 10 cm³ into four test tubes, keeping one as a control, and compare each tube with the control against a white background. (i) Add the same small number of drops of iron(III) chloride or potassium thiocyanate solution, a reactant added: the red colour deepens. The equilibrium shifts to the right to use up the added reactant, forming more FeSCN²⁺. (ii) Add a few drops of silver nitrate solution, which removes thiocyanate ions as a white precipitate of silver thiocyanate, AgSCN: the red colour fades. Removing a reactant lowers its concentration, so the equilibrium shifts to the left, forming less FeSCN²⁺."
+    },
+    {
+      "marks": 9,
+      "prompt": "A violet solution contains the equilibrium [Co(H₂O)₆]²⁺ + 4Cl⁻ ⇌ [CoCl₄]²⁻ + 6H₂O (pink ⇌ blue), with the forward reaction endothermic. State and explain the colour change when (i) the solution is cooled in ice-water, (ii) concentrated hydrochloric acid is added, (iii) water is added.",
+      "model": "(i) The solution turns pink. Cooling favours the exothermic reverse reaction, so the equilibrium shifts to the left, forming more pink [Co(H₂O)₆]²⁺. (ii) The solution turns blue. Concentrated hydrochloric acid adds chloride ions, a reactant, so the equilibrium shifts to the right, forming more blue [CoCl₄]²⁻. (iii) The solution turns pink. Adding water adds a product, so the equilibrium shifts to the left; dilution also favours the side with more dissolved ions, which is again the left."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give two advantages and one limitation of using a digital simulation instead of a laboratory experiment to investigate an equilibrium.",
+      "model": "Two advantages: simulations are safe, because no toxic or corrosive chemicals are handled, and they are fast and repeatable. Simulations also show the particles and the forward and reverse rates, which cannot be seen in the laboratory. One limitation: a simulation is a model, so its results depend on the rules programmed into it and must be checked against experimental data."
     }
   ]
 }

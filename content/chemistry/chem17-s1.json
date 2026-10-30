@@ -1,8 +1,8 @@
 {
   "loId": "chem17-s1",
   "chapterId": "chem17",
-  "subsection": "1. Rate of reaction",
-  "syllabusRef": "3.2.1",
+  "subsection": "1. Rate of reaction and collision theory",
+  "syllabusRef": "3.2.1, 3.2.2",
   "notes": [
     {
       "h": "What rate of reaction means",
@@ -52,16 +52,158 @@
         "Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.",
         "The rates of reactions in the body are controlled by enzymes; see “Catalysis and energy profiles”."
       ]
+    },
+    {
+      "h": "The collision theory",
+      "points": [
+        "For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.",
+        "Most collisions do not lead to reaction: the particles just bounce apart.",
+        "A collision leads to reaction only if the particles collide with at least a minimum amount of energy, the activation energy, so that bonds can begin to break.",
+        "Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.",
+        "An effective collision is one that results in the formation of products.",
+        "The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate."
+      ]
+    },
+    {
+      "h": "Slow and fast reactions",
+      "points": [
+        "Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.",
+        "Ionic equation for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+        "Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.",
+        "Slow: rusting of iron takes days to years.",
+        "Fermentation of glucose by yeast takes days.",
+        "A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction.",
+        "Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.",
+        "Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.",
+        "Reactions between covalent molecules are usually slower, because covalent bonds must be broken before new bonds can form, so the activation energy is higher.",
+        "A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast."
+      ]
+    },
+    {
+      "h": "Concentration",
+      "points": [
+        "Increasing the concentration of a reactant in solution increases the number of particles per unit volume.",
+        "The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.",
+        "In many reactions the rate is directly proportional to the concentration of a reactant: a graph of rate against concentration is a straight line through the origin, as shown by the thiosulfate investigation in “Investigation: factors affecting rate”."
+      ]
+    },
+    {
+      "h": "Surface area (particle size)",
+      "points": [
+        "Only particles at the surface of a solid can collide with the other reactant.",
+        "Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.",
+        "Powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.",
+        "Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.",
+        "Dust explosions are a risk in flour mills, grain silos and coal mines.",
+        "A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame."
+      ]
+    },
+    {
+      "h": "Temperature",
+      "points": [
+        "Raising the temperature increases the rate of almost all reactions.",
+        "For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.",
+        "Reason 1: at a higher temperature particles have more kinetic energy and move faster, so they collide more often.",
+        "Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.",
+        "Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.",
+        "Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.",
+        "On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.",
+        "The area under the curve to the right of Ea is the number of particles with enough energy to react.",
+        "At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger.",
+        "Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.",
+        "Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower (see “Rate of reaction”)."
+      ]
+    },
+    {
+      "h": "Catalysts",
+      "points": [
+        "A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.",
+        "A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.",
+        "Types of catalysis, enzymes and energy profiles are covered in “Catalysis and energy profiles”."
+      ]
+    },
+    {
+      "h": "Pressure, for reactions of gases",
+      "points": [
+        "Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.",
+        "The molecules collide more often, so the rate increases.",
+        "Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids."
+      ]
+    },
+    {
+      "h": "Limitations of the simple theory (Higher Level only)",
+      "points": [
+        "Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.",
+        "Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.",
+        "Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.",
+        "An enzyme-catalysed reaction speeds up as substrate concentration rises, but levels off when all the enzyme's active sites are occupied; further substrate has no effect.",
+        "A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.",
+        "A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.",
+        "The catalysts in a car's catalytic converter are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Rate of reaction", "definition": "The change in concentration of a reactant or product per unit time." },
-    { "term": "Concentration", "definition": "The amount of a substance dissolved in a given volume of solution, e.g. in mol L⁻¹." },
-    { "term": "Mole ratio", "definition": "The ratio of the amounts in moles of the substances in a balanced equation, used to link the rates of reactant use and product formation." },
-    { "term": "Limiting reactant", "definition": "The reactant that is used up first, which stops the reaction and sets the maximum amount of product formed." },
-    { "term": "Gradient", "definition": "The steepness of a graph line, found as change in y divided by change in x; on a volume–time graph it gives the rate at that time." },
-    { "term": "Gas syringe", "definition": "A calibrated syringe used to measure the volume of gas produced in a reaction." },
-    { "term": "Cotton-wool plug", "definition": "A loose plug in the neck of a flask that lets gas escape while stopping acid spray from being lost." }
+    {
+      "term": "Rate of reaction",
+      "definition": "The change in concentration of a reactant or product per unit time."
+    },
+    {
+      "term": "Concentration",
+      "definition": "The amount of a substance dissolved in a given volume of solution, e.g. in mol L⁻¹."
+    },
+    {
+      "term": "Mole ratio",
+      "definition": "The ratio of the amounts in moles of the substances in a balanced equation, used to link the rates of reactant use and product formation."
+    },
+    {
+      "term": "Limiting reactant",
+      "definition": "The reactant that is used up first, which stops the reaction and sets the maximum amount of product formed."
+    },
+    {
+      "term": "Gradient",
+      "definition": "The steepness of a graph line, found as change in y divided by change in x; on a volume–time graph it gives the rate at that time."
+    },
+    {
+      "term": "Gas syringe",
+      "definition": "A calibrated syringe used to measure the volume of gas produced in a reaction."
+    },
+    {
+      "term": "Cotton-wool plug",
+      "definition": "A loose plug in the neck of a flask that lets gas escape while stopping acid spray from being lost."
+    },
+    {
+      "term": "Collision theory",
+      "definition": "The explanation that a reaction happens when particles collide with enough energy and in the correct orientation, so that bonds can break and products form."
+    },
+    {
+      "term": "Activation energy",
+      "definition": "The minimum energy that colliding particles must have for a reaction to occur."
+    },
+    {
+      "term": "Effective collision",
+      "definition": "A collision with at least the activation energy that results in the formation of products."
+    },
+    {
+      "term": "Maxwell–Boltzmann distribution",
+      "definition": "A graph of the number of particles against their kinetic energy, showing how the distribution shifts at a higher temperature."
+    },
+    {
+      "term": "Dust explosion",
+      "definition": "The rapid burning of a fine combustible powder dispersed in air in an enclosed space, caused by its very large surface area."
+    },
+    {
+      "term": "Active site",
+      "definition": "The part of a catalyst or enzyme surface where reactant molecules bind and react."
+    },
+    {
+      "term": "Catalyst poison",
+      "definition": "A substance that binds strongly to the active sites of a catalyst and blocks them, so the catalyst stops working."
+    },
+    {
+      "term": "Saturation",
+      "definition": "The condition in which every active site of a catalyst is occupied, so increasing the reactant concentration no longer increases the rate."
+    }
   ],
   "questions": [
     {
@@ -78,6 +220,21 @@
       "marks": 3,
       "prompt": "Explain why 1/time can be used as a measure of rate in the reaction between sodium thiosulfate and hydrochloric acid.",
       "model": "Each run forms the same amount of sulfur, which hides the cross, so the time taken is a measure of the reaction's speed. A shorter time means a faster rate, so rate is proportional to 1/time (rate ∝ 1/time)."
+    },
+    {
+      "marks": 8,
+      "prompt": "Give two reasons why the rate of a reaction increases when the temperature is raised. State which reason is more significant and explain why.",
+      "model": "Reason 1: at a higher temperature the particles have more kinetic energy and move faster, so they collide more often per second. Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective. Reason 2 is more significant: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea. Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it."
+    },
+    {
+      "marks": 6,
+      "prompt": "Use collision theory to explain why (i) powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips, (ii) the reaction between silver nitrate and sodium chloride solutions is almost instantaneous.",
+      "model": "(i) Powdered calcium carbonate has a much larger surface area for the same mass, because only particles at the surface of a solid can collide with the acid. More collisions occur per second, so more effective collisions occur per second and the rate is faster. (ii) The silver and chloride ions are already free in solution and attract each other, so no bonds need to be broken before they combine. The activation energy is very low, so a large fraction of collisions have enough energy to react and the reaction is almost instantaneous."
+    },
+    {
+      "marks": 6,
+      "prompt": "(Higher Level) Give three limitations of the simple collision theory.",
+      "model": "Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other, so only a small fraction of energetic collisions lead to reaction. A catalyst can become saturated: when all its active sites are in use, increasing the reactant concentration no longer increases the rate; an enzyme-catalysed reaction levels off in the same way when all its active sites are occupied. A catalyst can be poisoned: a poison binds strongly to the active sites and blocks them, e.g. lead compounds poison the catalysts in a car's catalytic converter."
     }
   ]
 }

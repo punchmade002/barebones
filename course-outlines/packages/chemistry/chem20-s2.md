@@ -1,111 +1,118 @@
-# Package: chem20-s2 — The enhanced greenhouse effect
+# Package: chem20-s2 — Water contamination
 
-- **loId:** `chem20-s2` · **chapterId:** `chem20` · **syllabusRef:** 4.3.2
-- **Syllabus:** 4.3.2 "discuss the evidence for the enhanced greenhouse effect and possible
-  solutions to anthropogenic influences on the atmosphere". Learn about: "greenhouse gases
-  including, but not limited to: methane, carbon dioxide, NOx, sulfur oxides, water vapour, with
-  each having different sources, abundances and greenhouse factors (represented by global
-  warming potentials); some of the effects of the enhanced greenhouse effect include, but are
-  not limited to: global warming, precipitation and ocean acidification". Normal type.
-- **Prepared by:** a higher model, 2026-10-30. Definition; each named gas (plus N₂O, which the
-  specification's "including, but not limited to" allows and which the GWP comparison needs)
-  with its sources, abundance and greenhouse factor; the evidence; the effects; solutions. The
-  mechanism of the natural effect and the carbon cycle are in "The natural greenhouse effect";
-  the lithium-ion cell is in "The lithium-ion cell"; climate change as an impact of hydrocarbons
-  is in "The impact of hydrocarbons" (refer there rather than repeating a full research brief).
-  All figures are rounded and their source basis is given in the table.
+- **loId:** `chem20-s2` · **chapterId:** `chem20` · **syllabusRef:** 4.3.3
+
+- **Syllabus:** 4.3.3 "discuss causes of water contamination and biochemical consequences".
+  Learn about: "water as a finite resource and how its processing for use has an energy and
+  environmental impact; contamination: sewage, industrial and agricultural effluent,
+  microplastics, heavy metals, acidification; consequences including, but not limited to,
+  eutrophication and increased BOD". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. Water as a finite resource; dissolved oxygen
+  and BOD; one block per cause of contamination with its biochemical consequences;
+  eutrophication. Water treatment is in "Treating drinking water"; the tests for nitrate,
+  phosphate and other anions, and water hardness, are in "Investigation: identifying ions in
+  salts and solutions"; p.p.m. is in "Solutions and concentration". Don't repeat them.
 
 ## 1. Must cover
 
-The enhanced greenhouse effect (one block)
-- [ ] E1 The enhanced greenhouse effect is the extra warming of the Earth's surface and lower atmosphere caused by increased concentrations of greenhouse gases from human (anthropogenic) activities.
-- [ ] E2 The main human activities: burning fossil fuels (power generation, transport, heating, industry), deforestation and land-use change, agriculture (livestock and fertilisers), cement-making and landfill.
-- [ ] E3 The resulting long-term rise in the Earth's average surface temperature is global warming; together with the other changes it causes it is called climate change.
+Water as a finite resource (one block)
+- [ ] R1 About 97.5% of the Earth's water is salt water in the oceans; only about 2.5% is fresh water, and most of that is frozen in ice caps and glaciers or deep underground, so well under 1% is readily available fresh water in rivers, lakes and accessible groundwater.
+- [ ] R2 Fresh water is constantly recycled by the water cycle, but the amount available in a place at a time is limited, and demand rises with population, farming and industry; contamination makes some of it unusable.
+- [ ] R3 Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it is returned to rivers.
+- [ ] R4 It also has an environmental impact: chemicals are manufactured and transported for treatment (e.g. aluminium sulfate, chlorine), sludge must be disposed of, abstraction lowers rivers and lakes, and leaking pipes waste treated water and the energy used to treat it.
+- [ ] R5 Making fresh water from sea water (desalination, e.g. by reverse osmosis) is possible but uses far more energy than treating fresh water.
+- [ ] R6 So conserving water (fixing leaks, using less) also saves energy and reduces emissions.
 
-Greenhouse factors: global warming potential (one block)
-- [ ] F1 Different greenhouse gases have different effects because they differ in (i) how strongly each molecule absorbs infrared radiation, (ii) how abundant they are in the atmosphere, and (iii) how long they stay there (atmospheric lifetime).
-- [ ] F2 The greenhouse factor of a gas is expressed as its global warming potential (GWP): the warming caused by the emission of 1 kg (or 1 tonne) of the gas over a set period, usually 100 years, compared with the warming from the same mass of carbon dioxide (GWP of CO₂ = 1).
-- [ ] F3 100-year GWPs from the IPCC Fifth Assessment Report (AR5, 2013): CO₂ 1; methane (CH₄) 28; dinitrogen oxide (N₂O) 265.
-- [ ] F4 The IPCC Sixth Assessment Report (AR6, 2021) gives slightly different values (CH₄ about 27–30, depending on whether the methane is of fossil origin; N₂O 273), because the science is refined over time; always state which source a GWP comes from.
-- [ ] F5 A high GWP does not make a gas the most important: CO₂ has the lowest GWP but causes most of the human-caused warming because far more of it is emitted and it stays in the atmosphere for centuries.
-- [ ] F6 Emissions of different gases are compared as CO₂ equivalent: mass × GWP, e.g. 5 tonnes of methane = 5 × 28 = 140 tonnes CO₂ equivalent (AR5 values).
+Dissolved oxygen and BOD (one block)
+- [ ] D1 Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m.) of dissolved oxygen, and warmer water holds less.
+- [ ] D2 When organic matter (sewage, slurry, food waste, dead plants) enters water, aerobic bacteria break it down, using up dissolved oxygen.
+- [ ] D3 Biochemical oxygen demand (BOD): the amount of dissolved oxygen consumed by biological (biochemical) action when a sample of water is kept in the dark at 20 °C for five days; measured in mg L⁻¹ (p.p.m.) of oxygen.
+- [ ] D4 Why the conditions: the dark prevents photosynthesis by algae and plants adding oxygen; the fixed temperature (20 °C) is set because the solubility of oxygen and the rate of bacterial activity both depend on temperature; the fixed time makes results comparable.
+- [ ] D5 In the BOD test, the dissolved oxygen is measured in one bottle of the sample at the start and in a second, completely filled and sealed bottle after five days; the BOD is the difference.
+- [ ] D6 A high BOD means a lot of organic pollution: the oxygen will be used up, fish die (a fish kill), and when the oxygen is gone anaerobic bacteria take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.
+- [ ] D7 Typical values: unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage a few hundred mg L⁻¹; farm wastes such as silage effluent and slurry far higher (thousands of mg L⁻¹ or more), so a small spill can kill a river.
 
-The gases: sources and abundances (one block)
-- [ ] G1 Carbon dioxide: from burning fossil fuels, deforestation and cement-making (CaCO₃ → CaO + CO₂); about 420 ppm in the mid-2020s, up from about 280 ppm before industrialisation (an increase of about 50%); much of it stays in the atmosphere for centuries, and some for thousands of years.
-- [ ] G2 Methane: from ruminant livestock (cattle and sheep, digestion in the stomach), manure, rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands; about 1.9 ppm, more than two and a half times the pre-industrial level (about 0.7 ppm); atmospheric lifetime about 12 years.
-- [ ] G3 Dinitrogen oxide (nitrous oxide, N₂O): mainly from nitrogen fertilisers and manure on soils; about 0.34 ppm, up from about 0.27 ppm; lifetime over 100 years (AR5: about 121 years).
-- [ ] G4 NOx (nitrogen monoxide, NO, and nitrogen dioxide, NO₂): formed when nitrogen and oxygen from air combine at the high temperatures in car engines and power stations: N₂(g) + O₂(g) → 2NO(g), then 2NO(g) + O₂(g) → 2NO₂(g); also formed by lightning.
-- [ ] G5 NOx are short-lived and are not important direct greenhouse gases; they act indirectly, mainly by helping to form ozone (a greenhouse gas) in the lower atmosphere; NO₂ also causes acid rain and harms health. Don't confuse NOx with N₂O.
-- [ ] G6 Sulfur oxides (SO₂ and SO₃): from burning coal and oil that contain sulfur (S(s) + O₂(g) → SO₂(g)) and from volcanoes; SO₂ forms tiny sulfate particles (aerosols) and droplets in the air that reflect sunlight, so their overall effect on climate is cooling, not warming; they also cause acid rain.
-- [ ] G7 Water vapour: the most abundant greenhouse gas; its concentration is controlled by temperature (evaporation and condensation) and it stays in the air for only days, so human emissions don't change it directly and it has no GWP.
-- [ ] G8 Water vapour acts as a feedback: warming caused by CO₂ and other gases increases evaporation, and the extra water vapour traps more heat, amplifying the warming (warmer air holds about 7% more water vapour per °C).
-- [ ] G9 In Ireland agriculture is the largest single source of greenhouse gas emissions (over a third of the total), mainly methane from cattle and N₂O from fertilisers and manure; energy, transport and heating produce most of the CO₂.
+Sewage (one block)
+- [ ] W1 Untreated or poorly treated sewage contains organic matter (high BOD, causing oxygen depletion), nitrates and phosphates (causing eutrophication) and disease-causing microorganisms (bacteria such as E. coli and those causing cholera and typhoid, viruses, parasites).
+- [ ] W2 Faecal contamination of drinking water or bathing water causes gastrointestinal illness; this is why sewage must be treated before discharge and drinking water disinfected.
 
-Evidence for the enhanced greenhouse effect (one block)
-- [ ] V1 Rising CO₂: continuous measurements at Mauna Loa, Hawaii, begun by Charles David Keeling in 1958 (the "Keeling curve"), show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm.
-- [ ] V2 Ice cores: air bubbles trapped in Antarctic ice show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation; today's level is far higher, and the rise matches the growth in fossil-fuel use.
-- [ ] V3 Rising temperatures: the global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900 (IPCC AR6), with most of the warming since the 1970s; recent years have been the warmest on record.
-- [ ] V4 Other observed changes: shrinking glaciers and Arctic sea ice, melting ice sheets, warming oceans, and sea-level rise of about 20 cm between 1901 and 2018 (IPCC AR6), from melting ice and the expansion of warmer water.
-- [ ] V5 Climate models: models that include only natural factors (changes in the Sun, volcanoes) do not reproduce the warming since the mid-twentieth century; models that also include human greenhouse gas emissions do.
-- [ ] V6 The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land.
+Agricultural effluent (one block)
+- [ ] A1 Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.
+- [ ] A2 Slurry and silage effluent have very high BOD and cause fish kills if they reach a river.
+- [ ] A3 Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.
+- [ ] A4 Nitrate in drinking water is a health concern, especially for babies (it can reduce the blood's ability to carry oxygen); the EU drinking-water limit for nitrate is 50 mg L⁻¹.
+- [ ] A5 Pesticides washed off farmland can also contaminate water and are toxic to aquatic life.
 
-Effects of the enhanced greenhouse effect (one block)
-- [ ] X1 Global warming: higher average temperatures, more frequent heatwaves, melting ice and rising sea levels that threaten low-lying coasts and countries (e.g. Bangladesh, the Netherlands, small island states).
-- [ ] X2 Precipitation: a warmer atmosphere holds more water vapour, so the water cycle intensifies: heavier rainfall and more flooding in some regions (more winter rain expected in Ireland), longer droughts in others.
-- [ ] X3 Ocean acidification: the oceans absorb about a quarter of the CO₂ emitted; CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq), so the H⁺ concentration rises and the pH falls; the average surface ocean pH has fallen by about 0.1 (from about 8.2 to about 8.1) since pre-industrial times.
-- [ ] X4 The extra H⁺ reacts with carbonate ions (H⁺ + CO₃²⁻ → HCO₃⁻), leaving less carbonate for shell-building organisms (oysters, mussels, corals, some plankton); acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq).
-- [ ] X5 Other effects: changes to ecosystems (species moving or becoming extinct, coral bleaching), threats to food and water supplies, and more extreme weather events.
+Eutrophication (one block, one step per bullet)
+- [ ] U1 Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants.
+- [ ] U2 Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.
+- [ ] U3 Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below.
+- [ ] U4 Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen (the BOD rises sharply).
+- [ ] U5 Step 4: Dissolved oxygen falls so low that fish and other animals die; anaerobic bacteria then produce foul-smelling H₂S.
+- [ ] U6 Some algal blooms (e.g. of cyanobacteria, "blue-green algae") also produce toxins harmful to animals and people.
+- [ ] U7 Prevention: controlled use of fertilisers (amount and timing, not before heavy rain), buffer strips along rivers, proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, phosphate-free detergents.
 
-Possible solutions (one block)
-- [ ] P1 Replace fossil fuels with renewable energy (wind, solar, hydroelectric, tidal), and improve energy efficiency (insulating buildings, heat pumps, efficient appliances).
-- [ ] P2 Transport: public transport, cycling and walking; electric vehicles charged from renewable electricity (see "The lithium-ion cell"); hydrogen fuel cells (see "The hydrogen fuel cell").
-- [ ] P3 Agriculture: use the right amount of fertiliser at the right time, use clover and other nitrogen-fixing crops, breed and feed livestock to produce less methane, and capture methane from manure in anaerobic digesters (biogas) for use as a fuel.
-- [ ] P4 Land use: plant forests, stop deforestation, and protect and rewet peatlands so that they act as carbon sinks again.
-- [ ] P5 Waste: reduce food waste, recycle, and capture landfill methane and burn it to generate electricity (the CO₂ produced has a much smaller warming effect than the methane would have).
-- [ ] P6 Carbon capture and storage (CCS): CO₂ is captured from power-station or factory flue gases, compressed to a liquid, piped away and injected into deep rock formations such as depleted oil and gas fields.
-- [ ] P7 Reduce sulfur and NOx emissions to cut acid rain: low-sulfur fuels, removing SO₂ from flue gases, catalytic converters on cars.
-- [ ] P8 International and national action: the Paris Agreement (2015) aims to keep the rise in global temperature well below 2 °C above pre-industrial levels and to pursue efforts to limit it to 1.5 °C; Ireland's Climate Action and Low Carbon Development (Amendment) Act 2021 sets a 51% cut in emissions by 2030 (compared with 2018) and climate neutrality by 2050.
-- [ ] P9 A carbon footprint is the total greenhouse gas emissions (as CO₂ equivalent) caused by a person, organisation, product or activity; individuals can reduce theirs by choices in travel, home heating, diet and consumption.
+Industrial effluent (one block)
+- [ ] N1 Industrial effluent can contain toxic chemicals (e.g. heavy metals, solvents, oils), acids or alkalis that change the pH, and organic waste with a high BOD (e.g. from breweries and food processing).
+- [ ] N2 Thermal pollution: warm water from power stations and factories holds less dissolved oxygen and speeds up the metabolism (and oxygen demand) of organisms, so less oxygen is available.
+- [ ] N3 Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals.
+
+Heavy metals (one block)
+- [ ] H1 Heavy metals such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations (micrograms per litre).
+- [ ] H2 Biochemical effect: heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working; they damage the nervous system, kidneys and liver.
+- [ ] H3 They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation), and their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.
+- [ ] H4 Lead: from old lead pipes in houses built before about 1970, especially in soft, acidic water; it damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺; the EU drinking-water limit is 10 µg L⁻¹ (0.010 mg L⁻¹).
+- [ ] H5 Mercury: at Minamata, Japan, a chemical factory owned by the Chisso company discharged mercury compounds into the bay; methylmercury built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths (Minamata disease, recognised in 1956).
+- [ ] H6 Cadmium: from mining and some industries; it damages the kidneys and bones (itai-itai disease in Japan was caused by cadmium from mining in river water used for rice fields).
+- [ ] H7 Removal: heavy metal ions can be removed from water by precipitation as insoluble compounds (e.g. as hydroxides or sulfides) followed by filtration, or by ion exchange.
+
+Microplastics (one block)
+- [ ] M1 Microplastics are pieces of plastic smaller than 5 mm.
+- [ ] M2 Primary microplastics are made small (e.g. microbeads once used in cosmetics, plastic pellets); secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.
+- [ ] M3 Plastics are very unreactive and not biodegradable, so they persist for hundreds of years (see "Types of organic reaction and addition polymers").
+- [ ] M4 Consequences: they are swallowed by plankton, shellfish and fish, block feeding and digestion and pass up the food chain; they can carry adsorbed toxic chemicals; they are found in drinking water and food, and their long-term effects on human health are still being researched.
+
+Acidification (one block)
+- [ ] Q1 Acid rain forms when sulfur dioxide and nitrogen oxides from burning fuels dissolve in rain: SO₂ + H₂O → H₂SO₃; 2SO₂ + O₂ + 2H₂O → 2H₂SO₄; 4NO₂ + O₂ + 2H₂O → 4HNO₃; acidic industrial and mine waste water also lowers the pH of rivers and lakes.
+- [ ] Q2 Normal rain is slightly acidic (pH about 5.6) because of dissolved CO₂; acid rain has a lower pH.
+- [ ] Q3 Biochemical consequences: enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells; fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.
+- [ ] Q4 Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so fish can't take in oxygen.
+- [ ] Q5 Acidic water dissolves the calcium carbonate shells of snails and shellfish (CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂) and, in drinking water, dissolves lead and copper from pipes.
 
 ## 2. Checked facts and examples
 
-| Item | Fact (source basis; rounded) |
+| Item | Fact |
 |---|---|
-| F3 | IPCC AR5 (2013) 100-year GWP: CO₂ 1, CH₄ 28, N₂O 265. |
-| F4 | IPCC AR6 (2021) 100-year GWP: CH₄ 27.0 (non-fossil) and 29.8 (fossil); N₂O 273. |
-| G1, V1 | CO₂: about 280 ppm pre-industrial; about 315 ppm in 1958; about 420 ppm in the mid-2020s (NOAA Mauna Loa). |
-| G2 | CH₄: about 0.72 ppm pre-industrial; about 1.9 ppm in the 2020s; lifetime about 12 years (AR5: 12.4). |
-| G3 | N₂O: about 0.27 ppm pre-industrial; about 0.34 ppm in the 2020s; lifetime AR5 about 121 years. |
-| G8 | About 7% more water vapour per °C of warming (Clausius–Clapeyron relation). |
-| G9 | Ireland: agriculture the largest sector, over a third of national greenhouse gas emissions (EPA Ireland inventories, early 2020s). |
-| V2 | Ice cores: CO₂ about 180–300 ppm over the 800,000 years before industrialisation. |
-| V3 | AR6: 2011–2020 about 1.1 °C above 1850–1900. |
-| V4 | AR6: global mean sea level rose about 0.20 m between 1901 and 2018. |
-| X3 | Oceans take up about a quarter of human CO₂ emissions; surface pH fallen by about 0.1, from about 8.2 to about 8.1. |
-| P8 | Paris Agreement 2015 (well below 2 °C; pursue 1.5 °C). Ireland: Climate Action and Low Carbon Development (Amendment) Act 2021: 51% reduction by 2030 relative to 2018; climate neutrality by 2050. |
-| V1 | Mauna Loa record started by Charles David Keeling, 1958. |
+| R1 | About 97.5% of Earth's water is saline; about 2.5% fresh, mostly as ice and groundwater; under 1% readily accessible. |
+| D1 | Oxygen solubility in fresh water at 20 °C about 9 mg L⁻¹ (9.1). |
+| D3 | BOD: 5 days, 20 °C, in the dark. |
+| D7 | Clean rivers: a few mg L⁻¹; raw domestic sewage: a few hundred mg L⁻¹ (about 300); silage effluent and slurries: thousands to tens of thousands of mg L⁻¹. Give these orders of magnitude only. |
+| A4 | EU Drinking Water Directive: nitrate 50 mg L⁻¹. |
+| H4 | EU Drinking Water Directive: lead 10 µg L⁻¹. |
+| H5 | Minamata disease, Japan; Chisso Corporation; methylmercury; officially recognised 1956. |
+| H6 | Itai-itai disease, Japan; cadmium. |
+| M1 | Microplastics: < 5 mm. |
+| Q2 | Unpolluted rain pH about 5.6. |
 
 ## 3. Traps
 
-- NOx (NO, NO₂) is not the same as N₂O; N₂O is the potent long-lived greenhouse gas from fertilisers.
-- Sulfur oxides have a cooling effect on climate overall (aerosols reflect sunlight); their main harm is acid rain. Don't call them strong greenhouse gases.
-- Water vapour has no GWP; explain why rather than inventing a value.
-- GWP is per unit mass compared with CO₂; it is not the total contribution of a gas.
-- Always state the IPCC report a GWP is taken from; values differ between reports.
-- CFCs and the ozone layer are not on the specification.
-- Ocean acidification doesn't make the sea acidic (pH stays above 7); it lowers the pH.
-- Fuels and octane numbers are not on the specification.
+- BOD is not the amount of oxygen in the water; it is the amount used up by microorganisms over five days. A high BOD means polluted water.
+- The methods of measuring dissolved oxygen (Winkler titration), suspended and dissolved solids, and the stages of sewage treatment are not on the specification; give BOD as a concept and the principle of the test only.
+- Water hardness and the anion tests belong to "Investigation: identifying ions in salts and solutions".
+- Instrumental analysis (e.g. AAS for heavy metals) is not on the specification.
+- Algae don't use up the oxygen while alive and growing in light; the oxygen is used by bacteria decomposing them when they die.
+- Don't present unverified BOD figures for particular wastes as exact.
 
 ## 4. What exams ask (topics only)
 
-- Name two human activities that have enhanced the greenhouse effect.
-- Give two reasons why different gases have different impacts on the greenhouse effect.
-- Name a greenhouse gas and a human activity that has raised its level; consequences of an increased greenhouse effect.
-- Methane: its environmental effect and sources apart from leaking gas pipes.
-- Ways humans could reduce atmospheric CO₂.
+- Define BOD; the conditions under which the sample is stored and why.
+- Define eutrophication, state a cause and a harmful effect; the ions responsible and their sources.
+- Why heavy metal ions such as Pb²⁺ and Hg²⁺ in water are a cause for concern; how lead can be removed from water.
+- Problems caused by discharging untreated sewage into a river.
+- Effects of acidification on aquatic life.
 
 ## 5. Practice questions to write
 
-1. 12 marks: "Discuss the evidence that human activity has enhanced the greenhouse effect." Model answer: E1; V1, V2, V3, V5 (any three pieces of evidence explained), V6.
-2. 9 marks: "Methane has a 100-year global warming potential of 28 (IPCC AR5). (i) Explain what this means. (ii) Give two sources of methane. (iii) Explain why carbon dioxide is responsible for more human-caused warming than methane, even though its GWP is only 1." Model answer: F2 (28 times the warming of the same mass of CO₂ over 100 years); G2; F5.
-3. 12 marks: "Describe how the enhanced greenhouse effect leads to ocean acidification, with equations, and suggest three ways of reducing emissions of greenhouse gases from Irish agriculture and energy use." Model answer: X3, X4; any three of P1, P3, P4, P6.
+1. 12 marks: "Define eutrophication. Explain, step by step, how fertiliser run-off can lead to a fish kill in a lake, and suggest two ways of preventing it." Model answer: U1–U5; two of U7.
+2. 9 marks: "Define biochemical oxygen demand. Explain why the sample is kept in the dark and at 20 °C, and explain why a high BOD is harmful to a river." Model answer: D3, D4, D6.
+3. 9 marks: "Discuss the biochemical consequences of contamination of water by (i) heavy metals and (ii) microplastics." Model answer: H1–H4 (or H5); M1, M2, M4.

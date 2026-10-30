@@ -1,122 +1,181 @@
-# Package: chem17-s3 — Investigation: factors affecting rate
+# Package: chem17-s3 — Catalysis
 
-- **loId:** `chem17-s3` · **chapterId:** `chem17` · **syllabusRef:** 3.2.3
-- **Syllabus:** 3.2.3 "investigate, using primary data, the factors that affect rates of a
-  reaction and interpret rate of reaction graphs, using primary and secondary data" (EI:
-  Experimental Investigation). Learn about: "measuring initial, average **and instantaneous**
-  rates of reaction"; "examples of reactions that can be used to collect primary data include,
-  but are not limited to: calcium carbonate and hydrochloric acid; sodium thiosulfate and
-  hydrochloric acid; decomposition of hydrogen peroxide". Bold = Higher Level only
-  (instantaneous rate only).
-- **Prepared by:** a higher model, 2026-10-30. First the three kinds of rate and how to read
-  them from graphs (with sample-data calculations), then one investigation block per named
-  reaction, then interpreting changed curves. The collision-theory explanations of each factor
-  are in "Collision theory"; give the result and point there. General investigation design
-  (fair test, variables, reliability) is in "Designing and conducting investigations"; apply it
-  here without re-teaching it. Graph-drawing rules are in "Producing and analysing data".
+- **loId:** `chem17-s3` · **chapterId:** `chem17` · **syllabusRef:** 3.2.4, 3.2.5
+- **Merged:** this subsection combines "Catalysis and energy profiles" (formerly `chem17-s4`), "Catalytic mechanisms" (formerly `chem17-s5`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Catalysis and energy profiles (formerly `chem17-s4`)
 
-Average and initial rate (one block)
-- [ ] R1 Average rate over a time interval = change in amount (of product or reactant) ÷ time taken, e.g. total volume of gas ÷ total time.
-- [ ] R2 Initial rate is the rate at the very start (t = 0), when reactant concentrations are highest and the rate is greatest; it is the gradient of the tangent drawn to the curve at the origin.
-- [ ] R3 For a "clock" reaction timed until a fixed amount of product forms (the thiosulfate cross), 1/time measures the initial rate, because only a small fraction of the reactants has been used in that time and the rate has hardly changed.
+- **loId:** `chem17-s4` · **chapterId:** `chem17` · **syllabusRef:** 3.2.4
+- **Syllabus:** 3.2.4 "compare the energy profile diagrams of catalysed and uncatalysed
+  reactions, for both exothermic and endothermic reactions". Learn about: "catalysed and
+  uncatalysed reactions, including an enzyme as a biological catalyst, **surface adsorption and
+  formation of intermediates**". Normal type, except the two mechanisms (bold), which are in
+  "Catalytic mechanisms".
+- **Prepared by:** a higher model, 2026-10-30. What a catalyst is and does, the types of
+  catalysis with examples, enzymes, and the energy profiles. The basic exothermic and
+  endothermic profiles (ΔH only) are in "Energy changes in reactions" and "Calculating
+  ΔH and energy profiles"; recap them in one bullet and add activation energy and the catalysed
+  pathway here. Collision-theory reasoning is in "Rate of reaction and collision theory"; the mechanisms (how a
+  catalyst provides its pathway) are in "Catalytic mechanisms". The catalyst in an equilibrium
+  is in "Le Châtelier's principle".
 
-Worked example: rates from a graph (one block; sample data)
-- [ ] E1 Sample data: oxygen from hydrogen peroxide with manganese(IV) oxide; time (min) / volume (cm³): 0 / 0; 1 / 21; 2 / 36; 3 / 47; 4 / 56; 5 / 62; 6 / 67; 8 / 73; 10 / 76; 12 / 78; 14 / 79; 16 / 80; 18 / 80.
-- [ ] E2 Reaction complete: the volume stops changing at 80 cm³ at about 16 min.
-- [ ] E3 Average rate over the first 4 min = 56 cm³ ÷ 4 min = 14.0 cm³ min⁻¹.
-- [ ] E4 Average rate in the first minute = 21 cm³ min⁻¹; in the second minute = (36 − 21) ÷ 1 = 15 cm³ min⁻¹; it is lower because the concentration of H₂O₂ has fallen.
-- [ ] E5 Initial rate: the tangent at the origin passes through (1.0 min, 24 cm³), so the initial rate = 24 ÷ 1.0 = 24.0 cm³ min⁻¹.
-- [ ] E7 Rate in mol: if mass of CO₂ is lost at 0.220 g min⁻¹, the rate = 0.220 ÷ 44 = 5.00 × 10⁻³ mol CO₂ min⁻¹ (M of CO₂ = 44 g mol⁻¹).
+### 1. Must cover
 
-Instantaneous rate (Higher Level only; one block)
-- [ ] R4 [HL] Instantaneous rate is the rate at one particular moment: the gradient of the tangent drawn to the curve at that time.
-- [ ] R5 [HL] To draw the tangent: place a ruler so that it touches the curve at the chosen time without cutting it, draw a long straight line, pick two points far apart on the line, and calculate gradient = change in y ÷ change in x.
-- [ ] R6 [HL] The instantaneous rate falls during the reaction; the average rate over an interval lies between the instantaneous rates at its start and end.
-- [ ] E6 [HL] Instantaneous rate at 2.0 min, from the sample data in E1: the tangent passes through (0 min, 10 cm³) and (5.0 min, 76 cm³), so rate = (76 − 10) ÷ (5.0 − 0) = 13.2 cm³ min⁻¹.
+Catalysts (one block)
+- [ ] K1 A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.
+- [ ] K2 A catalyst works by providing an alternative reaction pathway with a lower activation energy.
+- [ ] K3 Only a small amount of catalyst is needed, because it is not used up.
+- [ ] K4 Catalysts tend to be specific: a catalyst speeds up one reaction or one type of reaction.
+- [ ] K5 A catalyst is chemically unchanged, but its physical form can change (e.g. a powder may become finer); it can be recovered, e.g. MnO₂ filtered off after decomposing hydrogen peroxide has the same mass as at the start.
+- [ ] K6 A catalyst does not change ΔH or the amount of product formed; it speeds up the forward and reverse reactions equally (see "Le Châtelier's principle").
+- [ ] K7 Uncatalysed and catalysed: hydrogen peroxide decomposes very slowly on its own at room temperature, but rapidly (vigorous fizzing of oxygen) when manganese(IV) oxide is added.
 
-Investigation 1: calcium carbonate and hydrochloric acid — surface area and concentration: method (one block)
-- [ ] C1 Aim: to investigate the effect of particle size (and of acid concentration) on the rate of reaction of calcium carbonate with hydrochloric acid. Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
-- [ ] C2 Place a conical flask containing a known mass (e.g. 10 g) of large marble chips on an electronic balance, beside a graduated cylinder holding a known volume (e.g. 50 cm³) of 1.0 M hydrochloric acid; record the total mass.
-- [ ] C3 Pour in the acid, put a loose cotton-wool plug in the neck, and start the stopwatch at once.
-- [ ] C4 Record the mass every 30 s for about 10 min, until it stops changing; loss in mass = mass of CO₂ given off.
-- [ ] C5 Repeat with the same mass of small chips (or powder), with the same volume and concentration of acid at the same temperature.
-- [ ] C6 For concentration, repeat with the same size and mass of chips and the same volume of acid at different concentrations (e.g. 0.5 M, 1.0 M, 2.0 M).
-Investigation 1: results and reasons (one block)
-- [ ] C7 Plot mass of CO₂ lost (y) against time (x) for each run on the same axes; the steeper initial curve shows the faster rate.
-- [ ] C8 Results: smaller chips give a steeper curve (faster rate), because of their greater surface area; more concentrated acid gives a faster rate (explained in "Collision theory"); because the acid is the limiting reactant, more concentrated acid (same volume) also gives more CO₂ in total.
-- [ ] C9 Why each choice: the cotton-wool plug lets CO₂ escape but stops acid spray being lost (which would add to the mass loss); the same mass of carbonate and the same acid keep the test fair; the chips are in excess so the acid is the limiting reactant.
-- [ ] C10 Alternative: collect the CO₂ in a gas syringe and record its volume every 30 s.
-- [ ] C11 Diagram: conical flask with marble chips and acid, loose cotton-wool plug, on an electronic balance; stopwatch.
+Types of catalysis (one block)
+- [ ] Y1 Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them, e.g. iodide ions (from potassium iodide solution) catalysing the decomposition of hydrogen peroxide solution.
+- [ ] Y2 Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them, e.g. solid manganese(IV) oxide catalysing the decomposition of aqueous hydrogen peroxide; solid iron in the Haber process for ammonia (gases).
+- [ ] Y3 Heterogeneous example: a hot platinum wire held above methanol catalyses its oxidation by air, 2CH₃OH(g) + O₂(g) → 2HCHO(g) + 2H₂O(g); the wire keeps glowing red because the reaction on its surface is exothermic; products: methanal and water.
+- [ ] Y4 Autocatalysis: a product of the reaction is a catalyst for it, so the reaction starts slowly and speeds up as the product builds up, e.g. Mn²⁺ ions formed when potassium permanganate reacts with iron(II) or ethanedioate ions (see "Redox titrations and iron tablets").
 
-Investigation 2: sodium thiosulfate and hydrochloric acid — concentration and temperature: method (one block)
-- [ ] T1 Aim: to investigate the effect of concentration and of temperature on rate. Equation: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l); the pale yellow sulfur precipitate makes the solution cloudy.
-- [ ] T2 Draw a dark cross on white paper and place a conical flask on it.
-- [ ] T3 Concentration: make a series of thiosulfate solutions of the same total volume, e.g. 50, 40, 30, 20 and 10 cm³ of 0.20 M Na₂S₂O₃ each made up to 50 cm³ with deionised water (0.20, 0.16, 0.12, 0.08, 0.04 M), using a burette or graduated pipette.
-- [ ] T4 Pour one solution into the flask, add a fixed volume of acid (e.g. 10 cm³ of 2.0 M HCl) quickly, swirl, and start the stopwatch at the same moment.
-- [ ] T5 Look down through the solution from above; stop the watch when the cross can no longer be seen; record the time.
-- [ ] T6 Repeat for each concentration, keeping the acid volume and concentration, total volume, temperature, flask, cross and observer the same; calculate rate = 1/time.
-- [ ] T7 Temperature: use the same concentration (e.g. 0.05 M Na₂S₂O₃) each time; warm the thiosulfate in a water bath to the chosen temperature (e.g. 20, 30, 40, 50 °C), add the acid, start timing, and record the temperature of the mixture with a thermometer; use the average of the start and end temperatures.
-Investigation 2: results, reasons, safety and errors (one block)
-- [ ] T8 Results (sample data, concentration): 0.20 M, 20 s; 0.16 M, 25 s; 0.12 M, 34 s; 0.08 M, 50 s; 0.04 M, 102 s. Rates (1/t): 0.0500, 0.0400, 0.0294, 0.0200, 0.0098 s⁻¹. A graph of rate against concentration is a straight line through the origin: rate is directly proportional to concentration.
-- [ ] T9 Results (sample data, temperature): 20 °C, 80 s; 30 °C, 41 s; 40 °C, 21 s; 50 °C, 11 s. Rates: 0.0125, 0.0244, 0.0476, 0.0909 s⁻¹. A graph of rate against temperature is a curve rising ever more steeply; the rate roughly doubles for each 10 °C rise.
-- [ ] T10 Why each choice: the same total volume means the same depth of liquid over the cross, so the same amount of sulfur hides it in each run; 1/time is used because a shorter time means a faster rate.
-- [ ] T11 Safety: sulfur dioxide is a toxic, irritating gas (dangerous for people with asthma): work in a well-ventilated room, don't heat above about 60 °C, and pour the mixture away promptly when each run ends.
-- [ ] T12 Errors: judging when the cross disappears is subjective (use the same observer and cross); delay starting the watch; the temperature falls during a warm run.
-- [ ] T13 Diagram: conical flask standing on white paper marked with a cross, eye looking down from above; thermometer and water bath for the temperature runs.
+Catalytic converters (one block)
+- [ ] V1 A catalytic converter in a car exhaust uses the metals platinum, palladium and rhodium, spread thinly on a ceramic honeycomb to give a very large surface area, inside a steel case.
+- [ ] V2 It converts harmful exhaust gases (carbon monoxide, nitrogen oxides and unburnt hydrocarbons) into carbon dioxide, nitrogen and water, e.g. 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+- [ ] V3 It is heterogeneous catalysis (solid catalyst, gaseous reactants).
+- [ ] V4 Health and sustainability link: it reduces carbon monoxide (toxic), nitrogen oxides (acid rain, smog) and hydrocarbons in the air. Poisoning of its catalysts is in "Rate of reaction and collision theory".
 
-Investigation 3: decomposition of hydrogen peroxide — catalyst and concentration: method (one block)
-- [ ] P1 Aim: to measure the rate of decomposition of hydrogen peroxide with manganese(IV) oxide catalyst, and investigate the effect of a factor (concentration of H₂O₂, form of catalyst, or temperature). Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
-- [ ] P2 Place a measured volume of dilute hydrogen peroxide (e.g. 5 cm³ of 20-volume H₂O₂ diluted to 25 cm³ with deionised water) in a conical flask.
-- [ ] P3 Put a small mass (e.g. 0.5 g) of manganese(IV) oxide, a black powder, in a small test tube and lower it into the flask on a thread so it does not touch the peroxide; stopper the flask, with a delivery tube leading to an inverted graduated cylinder full of water in a basin (or to a gas syringe).
-- [ ] P4 Tilt (or shake) the flask so the catalyst mixes with the peroxide, and start the stopwatch at the same instant; this starts the reaction without losing any oxygen.
-- [ ] P5 Record the volume of oxygen every 30 s or 1 min until no more gas is produced; swirl the flask throughout.
-Investigation 3: varying the factor, control and safety (one block)
-- [ ] P6 Repeat changing one factor: e.g. half the concentration of H₂O₂ (same total volume), or granules instead of powder (same mass), keeping everything else the same.
-- [ ] P7 A control: hydrogen peroxide without catalyst gives almost no oxygen over the same time.
-- [ ] P8 The catalyst can be filtered off, washed, dried and weighed at the end to show it is unchanged in mass.
-- [ ] P9 Safety: hydrogen peroxide is an oxidising agent and corrosive to skin and eyes in concentrated form: wear goggles and gloves; store it in a cool, dark place (it decomposes in light and heat, building up pressure).
-- [ ] P10 Diagram: conical flask with H₂O₂ and a small test tube of MnO₂ hanging on a thread, stopper and delivery tube to an inverted graduated cylinder of water in a trough (or to a gas syringe).
+Enzymes: biological catalysts (one block)
+- [ ] B1 An enzyme is a biological catalyst: a protein produced by living cells that catalyses a reaction in living things.
+- [ ] B2 Example: catalase, found in liver and potato, catalyses the decomposition of hydrogen peroxide (a toxic by-product of metabolism) into water and oxygen; it is one of the fastest-acting enzymes known: a piece of liver added to hydrogen peroxide fizzes vigorously.
+- [ ] B3 Example: amylase, in saliva, catalyses the breakdown of starch into the sugar maltose.
+- [ ] B4 Example: enzymes in yeast (zymase) catalyse the fermentation of glucose: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).
+- [ ] B5 Enzymes are very specific: each acts on one substance (its substrate) or one type of reaction, because the substrate must fit the enzyme's active site.
+- [ ] B6 Enzymes work best at an optimum temperature (about 37 °C, body temperature, for human enzymes) and an optimum pH; high temperatures and extreme pH denature them (change the shape of the active site), so they stop working.
+- [ ] B7 Technology and sustainability link: biological washing powders contain enzymes (proteases for protein stains, lipases for fats) that clean at lower wash temperatures, saving energy.
 
-Interpreting changed curves (one block)
-- [ ] G1 A faster rate (higher temperature, catalyst, powder instead of lumps, more concentrated excess reactant) gives a steeper initial curve that levels off sooner, at the same final volume if the amount of limiting reactant is unchanged.
-- [ ] G2 A slower rate (lower temperature, e.g. ice-water; larger lumps; no catalyst) gives a less steep curve that takes longer to level off, at the same final volume.
-- [ ] G3 Halving the concentration of the limiting reactant (same volume) gives a less steep curve and half the final volume, because there is half as much reactant to form product.
-- [ ] G4 The final volume of gas tells you the amount of limiting reactant; the gradient tells you the rate.
-- [ ] G5 Secondary data: read values from a given graph or table (volume at a stated time, time to reach a volume, time the reaction ended, half the final volume) and calculate rates as in R1–R3 (and R4–R6 at Higher Level).
+Energy profile diagrams (one block)
+- [ ] E1 An energy profile diagram plots energy (y-axis) against progress of reaction (x-axis); recap: products are lower than reactants for an exothermic reaction (ΔH negative) and higher for an endothermic reaction (ΔH positive).
+- [ ] E2 The curve rises from the reactants to a peak and falls to the products; the peak is the activated complex (transition state), the high-energy arrangement of atoms in which old bonds are partly broken and new bonds partly formed; it cannot be isolated.
+- [ ] E3 Activation energy (Ea) is the height from the reactant level up to the peak; ΔH is the difference between the reactant and product levels.
+- [ ] E4 For an endothermic reaction, Ea is always greater than ΔH, since the peak is above the products.
+- [ ] E5 Activation energy of the reverse reaction = height from the product level up to the peak; so Ea(reverse) = Ea(forward) − ΔH (e.g. forward Ea 100 kJ mol⁻¹ and ΔH −60 kJ mol⁻¹ give a reverse Ea of 160 kJ mol⁻¹; sample data).
 
-## 2. Checked facts and examples
+Catalysed and uncatalysed profiles compared (one block)
+- [ ] P1 On the same axes, the catalysed pathway is drawn as a lower peak between the same reactant and product levels.
+- [ ] P2 The catalyst lowers the activation energy; the reactant and product energy levels, and so ΔH, are unchanged.
+- [ ] P3 Exothermic reaction: uncatalysed and catalysed curves both start at the reactant level and end at the lower product level; Ea(catalysed) < Ea(uncatalysed); ΔH negative and the same for both.
+- [ ] P4 Endothermic reaction: both curves start at the reactant level and end at the higher product level; Ea(catalysed) < Ea(uncatalysed); ΔH positive and the same for both.
+- [ ] P5 The catalyst lowers the activation energy of the reverse reaction by the same amount as the forward one.
+- [ ] P6 The catalysed pathway may show two (or more) smaller humps with a dip between them when it goes through an intermediate.
+- [ ] P7 With a lower Ea, a much greater fraction of collisions have enough energy to react; on the energy-distribution curve (see "Rate of reaction and collision theory"), the Ea line moves to the left and the area beyond it increases, at the same temperature.
+- [ ] P8 Diagram: two energy profile diagrams (exothermic, endothermic), each with axes "energy" and "progress of reaction", reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower peak (dashed), Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows.
+
+### 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| E7 | M(CO₂) = 44 g mol⁻¹ (C 12, O 16). |
-| T1 | Sulfur precipitate: pale yellow; SO₂ is a toxic, choking gas. |
-| P3 | Manganese(IV) oxide (manganese dioxide, MnO₂) is a black powder. |
-| P2 | "20-volume" H₂O₂ gives 20 cm³ of O₂ per cm³ of solution on complete decomposition. |
+| Y3 | 2CH₃OH + O₂ → 2HCHO + 2H₂O; platinum wire glows; methanol and methanal are toxic, methanol is flammable. |
+| V1–V2 | Converter catalysts Pt, Pd, Rh on a ceramic honeycomb. |
+| B2 | Catalase: liver, potato; 2H₂O₂ → 2H₂O + O₂. |
+| B6 | Optimum for human enzymes about 37 °C. |
+| E5 | Sample data. |
 
-E1–E7, T8 and T9 are sample data; arithmetic checked.
+### 3. Traps
 
-## 3. Traps
+- The activated complex is not an intermediate: it sits at a peak and cannot be isolated; an intermediate sits in a dip between two peaks and can sometimes be detected.
+- A catalyst does not change ΔH or the reactant and product energies; don't draw the catalysed curve ending at a different level.
+- Arrows for Ea start at the reactant level (not the axis); ΔH goes from reactants to products.
+- "Phase" means solid, liquid, gas or solution; solid MnO₂ in aqueous H₂O₂ is heterogeneous even though both are in one flask.
+- Enzymes are denatured, not "killed".
+- Don't explain catalysis using transition-metal d-orbitals or variable valency (off the specification).
 
-- Initial and instantaneous rates come from tangents, not from dividing a reading by its time (that gives an average rate).
-- A catalyst or temperature change does not change the final volume of gas; changing the amount of limiting reactant does.
-- In the thiosulfate experiment keep the total volume constant when diluting; add water, not acid.
-- Start the stopwatch at the moment of mixing.
-- Instantaneous rate is Higher Level only; initial and average rates are for all students.
+### 4. What exams ask (topics only)
 
-## 4. What exams ask (topics only)
+- Define catalyst; name a catalyst for the decomposition of hydrogen peroxide.
+- Distinguish homogeneous and heterogeneous catalysis, with an example of each; classify the MnO₂ and platinum–methanol examples.
+- Catalytic converter: the metals used, one reaction, an environmental benefit.
+- What is an enzyme; name one.
+- Draw and label energy profiles for an exothermic and an endothermic reaction with and without a catalyst; mark Ea and ΔH; by how much a catalyst lowers Ea.
 
-- Draw the apparatus to measure oxygen from hydrogen peroxide; how to add the catalyst without losing gas; describe MnO₂.
-- Plot volume (or mass) against time; read off volumes and times; find when the reaction ended.
-- Calculate an average rate over an interval; compare the rate in the first and second minutes.
-- Find an instantaneous rate from a tangent (HL); convert a rate in g min⁻¹ to mol min⁻¹.
-- Describe the thiosulfate cross experiment for concentration or temperature; how to dilute the thiosulfate; why 1/time is a measure of rate; plot rate against concentration or temperature and draw a conclusion.
-- Sketch the curve for a changed condition (half concentration, powder, ice-water) and justify it.
-- Safety with hydrogen peroxide and sulfur dioxide.
+### 5. Practice questions to write
 
-## 5. Practice questions to write
+1. 9 marks: "Draw labelled energy profile diagrams for an endothermic reaction (i) without a catalyst and (ii) with a catalyst, on the same axes. Mark the activation energies and ΔH, and explain how the catalyst increases the rate." Model answer: E1–E3, P1, P2, P4, P7; diagram as P8.
+2. 6 marks: "Distinguish between homogeneous and heterogeneous catalysis, giving one example of each and naming the catalyst." Model answer: Y1 (iodide ions, H₂O₂(aq)), Y2 (MnO₂, H₂O₂(aq), or Fe in the Haber process).
+3. 6 marks: "What is an enzyme? Name one enzyme and the reaction it catalyses, and explain why enzymes stop working at high temperature." Model answer: B1, one of B2–B4, B6.
 
-1. 12 marks: "Describe how you would investigate the effect of concentration on the rate of reaction between sodium thiosulfate and hydrochloric acid. Explain how the rate is found and what the graph of rate against concentration shows." Model answer: T1–T6, T10, T8 (conclusion: rate ∝ concentration).
-2. 12 marks (sample data): "Hydrogen peroxide decomposed with a catalyst; time (min) / volume of O₂ (cm³): 0 / 0; 1 / 30; 2 / 50; 3 / 63; 4 / 71; 5 / 75. (i) Calculate the average rate over the first 3 minutes. (ii) Calculate the average rate during the second minute and explain why it differs from the first minute. (iii) (Higher Level) A tangent drawn at 2.0 min passes through (0 min, 17 cm³) and (4.0 min, 83 cm³). Calculate the instantaneous rate at 2.0 min." Model answer: (i) 63 ÷ 3 = 21.0 cm³ min⁻¹; (ii) 50 − 30 = 20 cm³ min⁻¹, less than 30 cm³ min⁻¹ in the first minute because the concentration of H₂O₂ has fallen (C2 of "Rate of reaction"); (iii) (83 − 17) ÷ 4.0 = 16.5 cm³ min⁻¹.
-3. 6 marks: "On a graph of volume of oxygen against time, sketch and explain the curves you would expect if the experiment were repeated (i) with the flask in ice-water, (ii) with the same volume of hydrogen peroxide of half the concentration." Model answer: G2, G3.
+## Part: Catalytic mechanisms (formerly `chem17-s5`)
+
+- **loId:** `chem17-s5` · **chapterId:** `chem17` · **syllabusRef:** 3.2.5
+- **Syllabus:** 3.2.5 "**model two general catalytic mechanisms**". Learn about: "**surface
+  adsorption and formation of intermediates**". All bold: the whole subsection is Higher Level
+  only. Mark every block heading " (Higher Level only)".
+- **Prepared by:** a higher model, 2026-10-30. The two mechanisms the specification names, each
+  with a general model, a worked example and evidence, then how they fit enzymes and catalyst
+  poisoning. The definition of a catalyst, the types of catalysis and the energy profiles are in
+  "Catalysis and energy profiles"; saturation and poisoning as limitations are in "Collision
+  theory". Refer, don't repeat.
+
+### 1. Must cover
+
+Intermediate formation (Higher Level only; one block)
+- [ ] I1 [HL] In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound.
+- [ ] I2 [HL] The intermediate then reacts with the other reactant (or breaks down) to form the products, and the catalyst is regenerated.
+- [ ] I3 [HL] General model: A + Cat → A–Cat (intermediate); then A–Cat + B → AB + Cat. Adding the steps, the catalyst cancels: A + B → AB.
+- [ ] I4 [HL] Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster; the energy profile shows two smaller humps with the intermediate in the dip between them.
+- [ ] I5 [HL] This mechanism usually explains homogeneous catalysis.
+- [ ] I6 [HL] Example: iodide ions catalysing the decomposition of hydrogen peroxide. Step 1: H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq) (IO⁻, the hypoiodite ion, is the intermediate).
+- [ ] I7 [HL] Step 2: H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq) (catalyst regenerated).
+- [ ] I8 [HL] Adding steps 1 and 2: 2H₂O₂(aq) → 2H₂O(l) + O₂(g); I⁻ and IO⁻ cancel.
+
+Evidence for an intermediate: the cobalt(II)–tartrate reaction (Higher Level only; one block)
+- [ ] D1 [HL] Hydrogen peroxide oxidises potassium sodium tartrate (Rochelle salt) only slowly, even when the solution is warmed (to about 70 °C).
+- [ ] D2 [HL] A little pink cobalt(II) chloride solution is added as the catalyst.
+- [ ] D3 [HL] Observations: the solution turns green and fizzes vigorously as gas (oxygen and carbon dioxide) is given off; when the reaction is over the solution turns pink again.
+- [ ] D4 [HL] Interpretation: the green colour is an intermediate formed from the cobalt catalyst; the return of the pink colour shows that the cobalt(II) catalyst is regenerated, unchanged, at the end.
+- [ ] D5 [HL] Safety: wear goggles; cobalt compounds are toxic and harmful to the environment; hydrogen peroxide is an oxidiser; the foam can overflow, so use a large beaker.
+- [ ] D6 [HL] Diagram: a beaker of warm tartrate solution with H₂O₂ on a hot plate, with a thermometer; show three colour stages: pink on adding cobalt(II) chloride, green and frothing, pink again at the end.
+
+Surface adsorption (Higher Level only; one block)
+- [ ] A1 [HL] In surface adsorption, reactant molecules are held on the surface of a solid catalyst while they react; this explains most heterogeneous catalysis.
+- [ ] A2 [HL] Stage 1, adsorption: reactant molecules diffuse to the catalyst surface and form weak temporary bonds with it at active sites.
+- [ ] A3 [HL] Stage 2, reaction: bonds within the adsorbed molecules are weakened (or broken), and the molecules are held close together and in a suitable orientation, so they react more easily with a lower activation energy.
+- [ ] A4 [HL] Stage 3, desorption: the product molecules break away from the surface and diffuse away, freeing the active sites for more reactant molecules.
+- [ ] A5 [HL] Adsorption means accumulation on a surface; absorption means taking a substance into the bulk of a material. Catalysts adsorb.
+- [ ] A6 [HL] The greater the surface area, the more active sites, so the catalyst is used as a fine powder, a thin wire or gauze, or a coating spread over a honeycomb support; powdered catalyst is more effective than the same mass of pellets.
+- [ ] A7 [HL] Example: in a catalytic converter, CO and NO are adsorbed on the platinum/rhodium surface, react, and CO₂ and N₂ desorb: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+- [ ] A8 [HL] Example: hydrogen and oxygen do not react at room temperature, but with powdered platinum the reaction is violently rapid, because H₂ and O₂ are adsorbed and their bonds weakened on the platinum surface.
+- [ ] A9 [HL] Diagram: a row of catalyst surface atoms; reactant molecules arriving and attaching (adsorption), reacting on the surface, and product molecules leaving (desorption).
+
+The models applied (Higher Level only; one block)
+- [ ] M1 [HL] Poisoning explained: a poison is adsorbed so strongly on the active sites that it does not desorb, so those sites are permanently blocked (e.g. lead or sulfur compounds on a catalytic converter).
+- [ ] M2 [HL] Saturation explained: when every active site is occupied, a higher reactant concentration cannot speed up the reaction, since molecules must wait for a free site.
+- [ ] M3 [HL] Enzymes combine both ideas: the substrate binds to the enzyme's active site (like adsorption on a surface), forming an enzyme–substrate complex (an intermediate), which breaks down to products and releases the unchanged enzyme: E + S → ES → E + P.
+- [ ] M4 [HL] Both mechanisms provide a different pathway with a lower activation energy; neither changes ΔH.
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| I6–I8 | H₂O₂ + I⁻ → H₂O + IO⁻; H₂O₂ + IO⁻ → H₂O + O₂ + I⁻. |
+| D1–D4 | Potassium sodium tartrate (Rochelle salt) + H₂O₂, cobalt(II) chloride catalyst: pink → green (with vigorous gas) → pink. |
+| A7 | Converter catalysts: platinum, palladium, rhodium. |
+| A8 | H₂ + O₂ mixture reacts violently in the presence of powdered platinum. |
+
+### 3. Traps
+
+- The intermediate is formed and then used up; it is not a product and does not appear in the overall equation. The catalyst appears at the start of step 1 and the end of step 2.
+- Don't confuse adsorption with absorption.
+- Don't call the green cobalt species a product; it is an intermediate.
+- Don't explain the cobalt colour change in terms of transition-metal chemistry or variable valency (off the specification); just interpret it as intermediate formed, catalyst regenerated.
+- Don't attribute the mechanisms to named scientists; no attribution is checked.
+
+### 4. What exams ask (topics only)
+
+- Describe the surface adsorption theory; why a powdered catalyst is better than pellets.
+- Describe the intermediate formation theory, illustrated with a named example.
+- Observations in the cobalt(II)–tartrate reaction and what they show.
+- How a catalyst speeds up the hydrogen–oxygen reaction (platinum).
+
+### 5. Practice questions to write
+
+1. 9 marks: "Describe the intermediate formation theory of catalysis, using the decomposition of hydrogen peroxide catalysed by iodide ions to illustrate your answer." Model answer: I1–I3, I6–I8.
+2. 9 marks: "Describe the surface adsorption theory of catalysis and explain why a catalyst in pellets is less effective than the same mass of powder." Model answer: A2–A4, A6.
+3. 6 marks: "Describe what is seen when cobalt(II) chloride is added to a warm mixture of potassium sodium tartrate and hydrogen peroxide, and explain how this supports the intermediate formation theory." Model answer: D2–D4.

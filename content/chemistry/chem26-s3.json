@@ -100,12 +100,30 @@
     }
   ],
   "keyTerms": [
-    { "term": "Limiting reagent", "definition": "The reactant that is completely used up first, and so decides the maximum amount of product that can form." },
-    { "term": "Reagent in excess", "definition": "A reactant supplied in more than the amount needed to react with all of the limiting reagent, so some of it is left over." },
-    { "term": "Mole ratio", "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in the balanced equation." },
-    { "term": "Avogadro's law", "definition": "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules, so volume ratios equal mole ratios." },
-    { "term": "Le Châtelier's principle", "definition": "When a system at equilibrium is disturbed, it shifts in the direction that opposes the change." },
-    { "term": "Back titration", "definition": "A titration in which an excess of one reagent is added to the substance being measured, and the amount left over is then titrated." }
+    {
+      "term": "Limiting reagent",
+      "definition": "The reactant that is completely used up first, and so decides the maximum amount of product that can form."
+    },
+    {
+      "term": "Reagent in excess",
+      "definition": "A reactant supplied in more than the amount needed to react with all of the limiting reagent, so some of it is left over."
+    },
+    {
+      "term": "Mole ratio",
+      "definition": "The ratio of the amounts, in moles, of reactants and products given by the coefficients in the balanced equation."
+    },
+    {
+      "term": "Avogadro's law",
+      "definition": "Equal volumes of gases at the same temperature and pressure contain equal numbers of molecules, so volume ratios equal mole ratios."
+    },
+    {
+      "term": "Le Châtelier's principle",
+      "definition": "When a system at equilibrium is disturbed, it shifts in the direction that opposes the change."
+    },
+    {
+      "term": "Back titration",
+      "definition": "A titration in which an excess of one reagent is added to the substance being measured, and the amount left over is then titrated."
+    }
   ],
   "questions": [
     {

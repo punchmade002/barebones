@@ -1,99 +1,155 @@
 {
   "loId": "chem25-s4",
   "chapterId": "chem25",
-  "subsection": "4. Investigation: preparing an ester",
-  "syllabusRef": "4.2.8",
+  "subsection": "4. Reaction mechanisms",
+  "syllabusRef": "4.2.10",
   "notes": [
     {
-      "h": "Aim and chemistry",
+      "h": "Key ideas and curved arrows (Higher Level only)",
       "points": [
-        "Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux.",
-        "Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.",
-        "Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.",
-        "The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.",
-        "Esterification is slow and reversible: it reaches an equilibrium with only part of the acid and alcohol converted.",
-        "The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.",
-        "Isotope evidence: when the alcohol is labelled with oxygen-18, the ¹⁸O is found in the ester, not in the water.",
-        "So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.",
-        "The specification needs only esters made from monocarboxylic acids and primary alcohols."
+        "A reaction mechanism is the step-by-step description of how a reaction happens: which bonds break, which form, and how the electrons move.",
+        "Homolytic fission: a covalent bond breaks so that each atom keeps one of the two bonding electrons, forming two free radicals, e.g. Cl–Cl → Cl• + Cl•.",
+        "Heterolytic fission: a covalent bond breaks so that one atom takes both bonding electrons, forming a positive and a negative ion, e.g. Cl–Cl → Cl⁺ + Cl⁻.",
+        "A free radical is an atom or group of atoms with an unpaired electron, shown by a dot, e.g. Cl• or •CH₃; free radicals are very reactive and short-lived.",
+        "A curved arrow with a full arrowhead shows the movement of a pair of electrons, drawn from where the pair starts (a bond or a lone pair) to where it ends up.",
+        "A fishhook arrow, with a half arrowhead, shows the movement of a single electron; two fishhooks from one bond show homolytic fission.",
+        "A carbocation (carbonium ion) is an ion with a positive charge on a carbon atom, e.g. CH₃CH₂⁺ or CH₂ClCH₂⁺.",
+        "A chain reaction is one in which a product of one step is a reactant in another step, so the reaction keeps itself going."
       ]
     },
     {
-      "h": "Method: heating under reflux",
+      "h": "Free radical substitution of methane (Higher Level only)",
       "points": [
-        "In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.",
-        "Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic.",
-        "Add a few anti-bumping granules.",
-        "Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.",
-        "Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.",
-        "Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top."
+        "Overall: CH₄ + Cl₂ → CH₃Cl + HCl, in ultraviolet light (monochlorination).",
+        "Initiation: UV light causes homolytic fission of chlorine molecules, Cl₂ → 2Cl•; draw two fishhooks from the Cl–Cl bond, one to each chlorine atom.",
+        "Propagation step 1: a chlorine radical takes a hydrogen atom from methane, Cl• + CH₄ → HCl + •CH₃, forming a methyl radical.",
+        "Propagation step 2: the methyl radical takes a chlorine atom from a chlorine molecule, •CH₃ + Cl₂ → CH₃Cl + Cl•.",
+        "The Cl• formed in step 2 starts step 1 again, so the two propagation steps form a chain reaction.",
+        "Termination: two radicals combine, removing radicals and ending a chain: Cl• + Cl• → Cl₂; •CH₃ + Cl• → CH₃Cl; •CH₃ + •CH₃ → C₂H₆ (ethane).",
+        "With more chlorine, further substitution gives dichloromethane, trichloromethane and tetrachloromethane, so a mixture of products is formed."
       ]
     },
     {
-      "h": "Isolating and purifying the ester",
+      "h": "Free radical substitution of ethane (Higher Level only)",
       "points": [
-        "Cool the flask, then pour the mixture into a separating funnel with some water and shake.",
-        "The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.",
-        "Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.",
-        "Run off the lower aqueous layer.",
-        "Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride to remove water; swirl until the liquid is clear, then decant or filter it.",
-        "Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.",
-        "Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.",
-        "Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap."
+        "Overall: C₂H₆ + Cl₂ → C₂H₅Cl + HCl, giving chloroethane, in ultraviolet light.",
+        "Initiation: Cl₂ → 2Cl•.",
+        "Propagation: Cl• + C₂H₆ → HCl + •C₂H₅, forming an ethyl radical; then •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•.",
+        "Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀ (butane)."
       ]
     },
     {
-      "h": "Why each step is needed",
+      "h": "Evidence for the free radical mechanism (Higher Level only)",
       "points": [
-        "Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.",
-        "Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.",
-        "A water bath or heating mantle is used rather than a Bunsen burner, because methanol and the ester are flammable; it also gives gentle, even heating.",
-        "Anti-bumping granules give smooth boiling by providing sites for small bubbles to form, which prevents sudden violent boiling (bumping).",
-        "The condenser is never stoppered, because heating a closed system would build up pressure.",
-        "Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.",
-        "The pressure in the separating funnel must be released because carbon dioxide is produced.",
-        "Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product."
+        "The reaction does not happen in the dark at room temperature but starts in UV light, which supplies the energy to split Cl₂ into radicals in initiation.",
+        "Thousands of molecules of product form for every photon of light absorbed, because one radical starts a long chain of propagation steps.",
+        "Traces of ethane form in the chlorination of methane, and traces of butane in the chlorination of ethane; these can only come from two methyl or two ethyl radicals joining in termination, so the radicals must exist.",
+        "Termination is rare, because radicals are present at very low concentration; a radical is far more likely to collide with a CH₄ or Cl₂ molecule than with another radical, so the ethane or butane is only a trace.",
+        "Adding a substance that produces free radicals, such as tetramethyl lead, Pb(CH₃)₄, speeds up the reaction, which shows that radicals are involved.",
+        "Adding oxygen, which combines with free radicals, slows the reaction, which shows that a radical chain is being broken."
       ]
     },
     {
-      "h": "Safety, yield and errors",
+      "h": "Ionic addition of chlorine to ethene (Higher Level only)",
       "points": [
-        "Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.",
-        "Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.",
-        "The yield is well below 100%, because the reaction is an equilibrium.",
-        "Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.",
-        "Percentage yield = actual mass ÷ theoretical mass × 100; see \"Theoretical, actual and percentage yield\".",
-        "Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.",
-        "Not releasing the pressure in the separating funnel can blow out the stopper and lose product.",
-        "Heating too strongly lets vapour escape from the top of the condenser."
+        "Overall: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
+        "Step 1, polarisation: the C=C double bond is a region of high electron density from its pi electrons; as a Cl₂ molecule approaches, these electrons repel the electrons of the Cl–Cl bond, inducing a dipole Clδ⁺–Clδ⁻.",
+        "Step 2, heterolytic fission: the Cl–Cl bond breaks with both electrons going to the further chlorine atom, giving Cl⁺ and Cl⁻; draw a curved arrow from the Cl–Cl bond to the Clδ⁻ atom.",
+        "Step 3, carbocation formation: the pair of pi electrons forms a bond to Cl⁺, so one carbon bonds to Cl while the other, having lost its share of the pi pair, carries a positive charge, giving CH₂ClCH₂⁺; draw a curved arrow from the C=C pi bond to Cl⁺.",
+        "Step 4, attack by the negative ion: Cl⁻ uses a lone pair to bond to the positive carbon, giving 1,2-dichloroethane; draw a curved arrow from a lone pair on Cl⁻ to the C⁺.",
+        "It is called ionic addition because the two parts add as ions, one after the other."
+      ]
+    },
+    {
+      "h": "Ionic addition of hydrogen chloride to ethene (Higher Level only)",
+      "points": [
+        "Overall: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
+        "The H–Cl bond is already polar, Hδ⁺–Clδ⁻, because chlorine is more electronegative, so no dipole needs to be induced.",
+        "Step 1: the pi electrons of C=C form a bond to the Hδ⁺ atom, and the H–Cl bond breaks heterolytically, giving Cl⁻ and the carbocation CH₃CH₂⁺; draw a curved arrow from the pi bond to H, and one from the H–Cl bond to Cl.",
+        "Step 2: Cl⁻ bonds to the positive carbon, giving chloroethane; draw a curved arrow from a lone pair on Cl⁻ to C⁺.",
+        "Evidence that the H–X bond breaks in the mechanism: the rate of addition to ethene increases in the order HF < HCl < HBr < HI, the order in which the H–X bond gets weaker."
+      ]
+    },
+    {
+      "h": "Evidence for the ionic addition mechanism (Higher Level only)",
+      "points": [
+        "When ethene reacts with chlorine water, the products include 2-chloroethanol, CH₂ClCH₂OH, as well as 1,2-dichloroethane.",
+        "2-chloroethanol forms because a water molecule, using a lone pair on its oxygen, attacks the carbocation instead of Cl⁻, and then loses H⁺.",
+        "This shows the reaction happens in steps through a positively charged intermediate: if both chlorine atoms added at the same moment, no 2-chloroethanol could form.",
+        "With bromine water containing sodium chloride, ethene gives 1-bromo-2-chloroethane, CH₂BrCH₂Cl, as well as 1,2-dibromoethane.",
+        "The Cl⁻ ions attack the carbocation, but no 1,2-dichloroethane forms, because the first atom to add is always from Br₂."
+      ]
+    },
+    {
+      "h": "Comparing the two mechanisms (Higher Level only)",
+      "points": [
+        "Free radical substitution is shown by alkanes, involves homolytic fission, needs UV light, has radical intermediates and uses fishhook arrows.",
+        "Ionic addition is shown by alkenes, involves heterolytic fission, needs no light, has a carbocation intermediate and uses curved arrows.",
+        "Diagram: the four steps of ionic addition of Cl₂ to ethene, with the δ⁺ and δ⁻ charges, the carbocation and every curved arrow, and the initiation step of chlorination with its two fishhooks."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Esterification", "definition": "The reaction of a carboxylic acid with an alcohol, catalysed by concentrated sulfuric acid, to give an ester and water." },
-    { "term": "Ester", "definition": "An organic compound with the –COO– group linking two carbon chains, formed from a carboxylic acid and an alcohol." },
-    { "term": "Reflux", "definition": "Heating a reaction mixture with a vertical condenser, so that vapour condenses and returns to the flask." },
-    { "term": "Equilibrium", "definition": "The state of a reversible reaction in which the forward and back reactions proceed at equal rates, so the concentrations stop changing." },
-    { "term": "Anti-bumping granules", "definition": "Small pieces of inert material added to a liquid to give smooth boiling." },
-    { "term": "Anhydrous calcium chloride", "definition": "A drying agent that removes water from an organic liquid." },
-    { "term": "Separating funnel", "definition": "A funnel with a tap, used to separate two immiscible liquids by their densities." },
-    { "term": "Monocarboxylic acid", "definition": "A carboxylic acid with one –COOH group in each molecule." }
+    {
+      "term": "Reaction mechanism",
+      "definition": "A step-by-step description of how a reaction happens, showing which bonds break and form and how the electrons move."
+    },
+    {
+      "term": "Homolytic fission",
+      "definition": "The breaking of a covalent bond so that each atom takes one of the bonding electrons, forming free radicals."
+    },
+    {
+      "term": "Heterolytic fission",
+      "definition": "The breaking of a covalent bond so that one atom takes both bonding electrons, forming ions."
+    },
+    {
+      "term": "Free radical",
+      "definition": "An atom or group of atoms with an unpaired electron, which is very reactive."
+    },
+    {
+      "term": "Curved arrow",
+      "definition": "An arrow with a full arrowhead, showing the movement of a pair of electrons in a mechanism."
+    },
+    {
+      "term": "Fishhook arrow",
+      "definition": "An arrow with a half arrowhead, showing the movement of a single electron in a mechanism."
+    },
+    {
+      "term": "Carbocation",
+      "definition": "An ion with a positive charge on a carbon atom, formed as an intermediate in ionic addition."
+    },
+    {
+      "term": "Chain reaction",
+      "definition": "A reaction in which a product of one step is a reactant in the next, so the reaction is self-sustaining."
+    },
+    {
+      "term": "Initiation",
+      "definition": "The first step of a radical chain reaction, in which radicals are first formed, usually by UV light."
+    },
+    {
+      "term": "Propagation",
+      "definition": "The steps of a radical chain reaction in which a radical reacts and a new radical is formed."
+    },
+    {
+      "term": "Termination",
+      "definition": "The step of a radical chain reaction in which two radicals combine and the chain ends."
+    }
   ],
   "questions": [
     {
       "marks": 15,
-      "prompt": "Describe, with the aid of a labelled diagram, how you would prepare a sample of methyl propanoate using a reflux method, and how you would obtain a pure, dry sample of the ester.",
-      "model": "Equation: CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O. Put about 10 cm³ each of propanoic acid and methanol into a round-bottomed flask in a fume cupboard, add about 1 cm³ of concentrated sulfuric acid slowly with swirling and cooling, and add anti-bumping granules. Fit a vertical Liebig condenser with cold water entering at the bottom, leave the top open, and heat in a water bath so that the mixture boils gently under reflux for 20 to 30 minutes. The diagram should show the flask in the water bath, the condenser and the open top. Cool the flask and pour the mixture into a separating funnel with water. Shake, and run off the lower aqueous layer, keeping the upper ester layer. Shake the ester with sodium carbonate solution, opening the tap to release carbon dioxide, and run off the lower layer. Run the ester into a dry conical flask, add anhydrous calcium chloride, swirl until clear and decant or filter. Distil the dry ester, collecting the fraction at about 80 °C. The reflux stage prevents loss of volatile material, and the distillation separates the pure ester by boiling point."
+      "prompt": "Describe the mechanism of the reaction between ethane and chlorine in ultraviolet light to form chloroethane. State two pieces of evidence for the mechanism and explain how each supports it.",
+      "model": "Initiation: Cl₂ → 2Cl•, drawn with two fishhooks from the Cl–Cl bond. Propagation: Cl• + C₂H₆ → HCl + •C₂H₅, then •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•; the Cl• regenerated starts the next propagation step, so the steps form a chain. Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀. Evidence 1: the reaction does not occur in the dark at room temperature but starts in UV light, which supplies the energy to split Cl₂ into radicals. Evidence 2: thousands of molecules of product form for each photon absorbed, which shows a chain reaction in which one radical starts many propagation steps. Evidence 3, if a third is given: traces of butane form, which can only come from two ethyl radicals joining, so the radicals must exist; the butane is only a trace because termination is rare, since radicals are at very low concentration and mostly collide with C₂H₆ or Cl₂ molecules."
     },
     {
-      "marks": 9,
-      "prompt": "Explain the purpose of (i) refluxing, (ii) the concentrated sulfuric acid, (iii) washing with sodium carbonate solution, (iv) anhydrous calcium chloride, in the preparation of an ester.",
-      "model": "(i) Refluxing allows the mixture to be heated for a long time without losing volatile reactants and product, because vapour condenses in the condenser and drips back into the flask. (ii) Concentrated sulfuric acid is the catalyst, providing H⁺ ions, and it absorbs water, which shifts the equilibrium towards the ester. (iii) Sodium carbonate solution neutralises the remaining acid, forming carbon dioxide, Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂, without destroying the ester. (iv) Anhydrous calcium chloride removes water from the ester, so the ester is dry before distillation."
+      "marks": 12,
+      "prompt": "Describe, using curved arrows, the mechanism of the addition of chlorine to ethene. Explain how the formation of 2-chloroethanol when ethene reacts with chlorine water supports this mechanism.",
+      "model": "Step 1: the pi electrons of the C=C bond repel the electrons of the Cl–Cl bond, polarising it to Clδ⁺–Clδ⁻. Step 2: a curved arrow from the Cl–Cl bond to the Clδ⁻ atom shows heterolytic fission, giving Cl⁺ and Cl⁻. Step 3: a curved arrow from the C=C pi bond to Cl⁺ forms a C–Cl bond, leaving a carbocation, CH₂ClCH₂⁺. Step 4: a curved arrow from a lone pair on Cl⁻ to the positive carbon forms 1,2-dichloroethane. In chlorine water, a water molecule can attack the carbocation instead of Cl⁻, giving 2-chloroethanol, CH₂ClCH₂OH, after loss of H⁺. Because 2-chloroethanol forms, the reaction must proceed through a positively charged carbocation intermediate: if both chlorine atoms added at the same moment, no 2-chloroethanol could be formed."
     },
     {
       "marks": 6,
-      "prompt": "Ethanol containing the isotope oxygen-18 was heated with ethanoic acid and a little sulfuric acid. Name the ester formed and state where the oxygen-18 is found in the products.",
-      "model": "The ester formed is ethyl ethanoate, CH₃COOC₂H₅. The oxygen-18 is found in the ester, specifically in the oxygen that joins the two parts of the ester, because that oxygen comes from the alcohol. None of the oxygen-18 is found in the water, which takes its oxygen from the acid."
+      "prompt": "Distinguish between homolytic and heterolytic fission, giving an example of each from the reactions of chlorine.",
+      "model": "Homolytic fission is the breaking of a covalent bond so that each atom keeps one of the two bonding electrons, forming two free radicals. Example: in the initiation step of chlorination, Cl–Cl → Cl• + Cl•, drawn with two fishhooks. Heterolytic fission is the breaking of a covalent bond so that one atom takes both bonding electrons, forming a positive and a negative ion. Example: in the addition of chlorine to ethene, Cl–Cl → Cl⁺ + Cl⁻, drawn with a curved arrow."
     }
   ]
 }

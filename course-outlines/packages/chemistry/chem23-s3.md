@@ -1,103 +1,277 @@
-# Package: chem23-s3 — Investigation: preparing ethene
+# Package: chem23-s3 — Groups of hydrocarbons and their properties
 
-- **loId:** `chem23-s3` · **chapterId:** `chem23` · **syllabusRef:** 2.4.3
-- **Syllabus:** 2.4.3 "conduct an experiment to prepare ethene, observe its physical properties,
-  and investigate some of its chemical properties". Learn about: "how to prepare ethene, using
-  ethanol; investigation includes combustion and tests for unsaturation, using bromine water
-  and acidified potassium manganate(VII)". Normal type.
-- **Prepared by:** a higher model, 2026-10-30. Full practical: dehydration of ethanol over hot
-  aluminium oxide, collection over water, physical properties, combustion and the two tests for
-  unsaturation, with a saturated hydrocarbon as a control. Why alkenes react by addition is in
-  "Groups of hydrocarbons" and "Stability of alkanes"; elimination as a reaction type is in
-  "Five types of organic reaction"; uses of ethene are in "Hydrocarbons: sources and uses".
+- **loId:** `chem23-s3` · **chapterId:** `chem23` · **syllabusRef:** 2.4.4, 2.4.5, 2.4.6
+- **Merged:** this subsection combines "Groups of hydrocarbons" (formerly `chem23-s4`), "Explaining and predicting properties" (formerly `chem23-s5`), "Stability of alkanes" (formerly `chem23-s6`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Groups of hydrocarbons (formerly `chem23-s4`)
 
-Aim and chemistry (one block)
-- [ ] A1 Aim: to prepare ethene by dehydrating ethanol, to observe its physical properties, and to investigate its combustion and show that it is unsaturated.
-- [ ] A2 Ethanol vapour passed over hot aluminium oxide loses a molecule of water: C₂H₅OH(g) → C₂H₄(g) + H₂O(g).
-- [ ] A3 This is a dehydration reaction, a type of elimination reaction (a small molecule, water, is removed and a double bond forms); aluminium oxide (Al₂O₃, a white powder) is the catalyst.
-- [ ] A4 Hypothesis for the tests: ethene contains a C=C double bond, so it will decolourise bromine water and acidified potassium manganate(VII), while a saturated hydrocarbon will not.
+- **loId:** `chem23-s4` · **chapterId:** `chem23` · **syllabusRef:** 2.4.4
+- **Syllabus:** 2.4.4 "describe and compare different groups of hydrocarbons, including
+  composition, bonding and structure, and relate these to their characteristic properties".
+  Learn about: "how based on the type of carbon-carbon bonds present, hydrocarbons can be
+  sub-divided into aliphatic (alkanes, alkenes, alkynes) and aromatic hydrocarbons (exemplified
+  by benzene)"; "the naming of hydrocarbon compounds follows systematic IUPAC rules (up to C6
+  only to be considered)". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. The four groups compared by composition, bonding,
+  structure and characteristic properties, and IUPAC naming of hydrocarbons up to C6. Trends
+  within a series (boiling points etc.) are in "Explaining and predicting properties"; drawing
+  and building isomers is in "Shapes, bonding and isomerism"; shapes and σ/π bonding are in "Shapes:
+  sigma and pi bonds"; naming other families (alcohols, acids…) is in "Functional groups and
+  nomenclature". Reaction types are described fully in "Types of organic reaction and addition polymers".
 
-Apparatus and method (one block, one step per bullet)
-- [ ] M1 Push some glass wool into the closed end of a hard-glass boiling tube and soak it with about 2 cm³ of ethanol, using a dropper.
-- [ ] M2 Place a small heap of aluminium oxide about halfway along the tube.
-- [ ] M3 Clamp the tube horizontally and fit a stopper with a delivery tube leading under water in a trough to an inverted test tube full of water (on a beehive shelf).
-- [ ] M4 Heat the aluminium oxide strongly with a Bunsen burner; do not heat the ethanol directly. Heat conducted along the tube warms the ethanol so that its vapour passes over the hot catalyst.
-- [ ] M5 Collect the gas by displacement of water; discard the first one or two tubes.
-- [ ] M6 Collect several tubes of gas, stoppering each under water and storing it mouth down.
-- [ ] M7 Before removing the heat, lift the delivery tube out of the water (to prevent suck-back).
-- [ ] M8 Diagram: horizontal boiling tube (clamped) with ethanol-soaked glass wool at the closed end and aluminium oxide in the middle, Bunsen flame under the aluminium oxide, delivery tube to an inverted water-filled test tube on a beehive shelf in a trough of water; label ethanol on glass wool, aluminium oxide, heat, ethene collecting.
+### 1. Must cover
 
-Why each choice (one block)
-- [ ] W1 Glass wool holds the liquid ethanol at the end of the tube so it doesn't run onto the hot catalyst or the hot glass.
-- [ ] W2 The catalyst is heated rather than the ethanol because aluminium oxide must be hot to work, and ethanol is flammable with a low boiling point (78 °C), so gentle conducted heat is enough to vaporise it.
-- [ ] W3 Ethene can be collected over water because it is almost insoluble in water.
-- [ ] W4 The first tubes are discarded because they contain mainly air pushed out of the apparatus.
-- [ ] W5 Suck-back: if heating stops while the delivery tube is under water, the gas in the hot tube cools and contracts and cold water is drawn back into the hot boiling tube, which can crack or shatter it.
+Classifying hydrocarbons (one block)
+- [ ] K1 Hydrocarbons are divided by the type of carbon–carbon bonds present into aliphatic and aromatic hydrocarbons.
+- [ ] K2 Aliphatic hydrocarbons have open chains of carbon atoms (straight or branched), or rings that behave like chains (e.g. cyclohexane); they are the alkanes, alkenes and alkynes.
+- [ ] K3 Aromatic hydrocarbons contain a benzene ring; the specification's example is benzene, C₆H₆.
+- [ ] K4 Saturated: all carbon–carbon bonds are single bonds (alkanes, cycloalkanes). Unsaturated: the molecule contains at least one carbon–carbon double or triple bond (alkenes, alkynes).
+- [ ] K5 A homologous series is a family of compounds with the same general formula, similar chemical properties, a gradual change (gradation) in physical properties, and in which each member differs from the next by CH₂.
 
-Physical properties (one block)
-- [ ] P1 Ethene is a colourless gas (boiling point −104 °C) with a faint sweet smell (waft, don't sniff directly).
-- [ ] P2 It is almost insoluble in water (shown by its collection over water), because ethene is non-polar and can't form hydrogen bonds with water; it dissolves readily in non-polar solvents such as cyclohexane.
-- [ ] P3 Its density is close to that of air (Mr 28; air about 29).
+Alkanes (one block)
+- [ ] L1 Composition: general formula CₙH₂ₙ₊₂; methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀, pentane C₅H₁₂, hexane C₆H₁₄.
+- [ ] L2 Bonding: only single C–C and C–H covalent bonds; saturated.
+- [ ] L3 Structure: each carbon is tetrahedral (bond angles 109.5°); chains can be branched from butane onwards.
+- [ ] L4 Cyclohexane (C₆H₁₂) is a ring of six CH₂ groups joined by single bonds; it is saturated and aliphatic, has two fewer hydrogens than hexane because the ends of the chain are joined, and its ring is not flat (each carbon is tetrahedral).
+- [ ] L5 Characteristic properties: non-polar; insoluble in water; burn well (clean blue flame for small alkanes); otherwise unreactive: they don't decolourise bromine water and react with halogens only in ultraviolet light, by substitution, e.g. CH₄ + Cl₂ → CH₃Cl + HCl.
 
-Chemical tests (one block)
-- [ ] T1 Combustion: remove the stopper and hold the mouth of the tube to a lighted taper or Bunsen flame; ethene burns with a yellow, luminous, slightly smoky flame.
-- [ ] T2 Combustion equation: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).
-- [ ] T3 Test for CO₂ produced: add limewater to the tube after burning, stopper and shake; it turns milky: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l). Droplets of water may condense on the tube.
-- [ ] T4 Bromine water: add a few drops of dilute bromine water to a tube of ethene, stopper and shake; the orange (red-brown) colour disappears and the solution becomes colourless.
-- [ ] T5 Bromine adds across the double bond (an addition reaction): CH₂=CH₂(g) + Br₂ → CH₂BrCH₂Br (1,2-dibromoethane).
-- [ ] T6 Acidified potassium manganate(VII): add a few drops of dilute KMnO₄ acidified with dilute sulfuric acid, stopper and shake; the purple colour disappears (the alkene is oxidised and MnO₄⁻ is reduced to almost colourless Mn²⁺).
-- [ ] T7 Both decolourisations are positive tests for unsaturation (a C=C or C≡C bond).
-- [ ] T8 Control: repeat T4 and T6 with a saturated hydrocarbon (e.g. a few drops of cyclohexane, or methane from the gas tap); there is no rapid colour change, so the decolourisation is due to the double bond.
-- [ ] T9 Comparison of flames: methane burns with a clean, non-luminous blue flame; ethene's flame is more luminous and smoky because ethene has a higher percentage of carbon (85.7% compared with 75.0% in methane).
+Alkenes (one block)
+- [ ] E1 Composition: general formula CₙH₂ₙ (one double bond); ethene C₂H₄, propene C₃H₆, butene C₄H₈, pentene C₅H₁₀, hexene C₆H₁₂.
+- [ ] E2 Bonding: contain one C=C double bond; unsaturated.
+- [ ] E3 Structure: the two carbons of the double bond and the four atoms attached to them lie in one plane, with angles of about 120°; there is no rotation about the C=C bond.
+- [ ] E4 Characteristic properties: non-polar and insoluble in water like alkanes, but much more reactive: they undergo addition reactions across the double bond, e.g. with bromine (decolourising bromine water), hydrogen (with a nickel catalyst) and hydrogen chloride: CH₂=CH₂ + H₂ → CH₃CH₃; CH₂=CH₂ + HCl → CH₃CH₂Cl.
+- [ ] E5 Alkenes can also add to each other to form addition polymers, e.g. ethene → poly(ethene) (see "Types of organic reaction and addition polymers").
+- [ ] E6 They burn with a more luminous, smokier flame than alkanes because of their higher carbon content.
 
-Sample calculation (one block; sample data)
-- [ ] C1 Sample data: 2.0 cm³ of ethanol (density 0.789 g cm⁻³) was used and 310 cm³ of ethene was collected (taking the volume as if at s.t.p.).
-- [ ] C2 Mass of ethanol = 2.0 × 0.789 = 1.58 g; moles = 1.58 ÷ 46 = 0.0343 mol.
-- [ ] C3 Mole ratio ethanol : ethene = 1 : 1, so the theoretical yield is 0.0343 mol of ethene = 0.0343 × 22.4 = 0.768 L = 768 cm³ at s.t.p.
-- [ ] C4 Percentage yield = 310 ÷ 768 × 100 = 40.4%.
-- [ ] C5 The yield is low because some ethanol evaporates past the catalyst unreacted (and dissolves in the trough water), some ethene is lost in the discarded tubes, and gas is left in the apparatus.
+Alkynes (one block)
+- [ ] Y1 Composition: general formula CₙH₂ₙ₋₂ (one triple bond); the first member is ethyne, C₂H₂ (common name acetylene).
+- [ ] Y2 Bonding: contain one C≡C triple bond; unsaturated.
+- [ ] Y3 Structure: the two carbons of the triple bond and the atoms attached to them are in a straight line (180°); ethyne is a linear molecule.
+- [ ] Y4 Characteristic properties: undergo addition reactions (decolourise bromine water: C₂H₂ + 2Br₂ → CHBr₂CHBr₂, 1,1,2,2-tetrabromoethane); burn in air with a very smoky, luminous flame; burn in pure oxygen with a very hot flame (welding): 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
 
-Safety, errors and conclusion (one block)
-- [ ] S1 Wear safety glasses; ethanol and ethene are highly flammable: keep the stock bottle of ethanol away from the flame and add the ethanol before lighting the Bunsen.
-- [ ] S2 Bromine water is toxic and corrosive: use dilute bromine water in small amounts in a well-ventilated room or fume cupboard and wear gloves; potassium manganate(VII) is an oxidiser and stains; dilute sulfuric acid is an irritant.
-- [ ] S3 Hot glass and suck-back: let the apparatus cool before handling; remove the delivery tube from the water before stopping heating.
-- [ ] S4 Sources of error: air in the first tubes dilutes the ethene (weak tests); unreacted ethanol vapour carried over can itself slowly decolourise acidified manganate(VII), so the bromine water test and the control are more convincing; bromine water slowly fades in bright light, so compare with a control.
-- [ ] S5 Conclusion: ethene is a colourless, almost insoluble, flammable gas that decolourises bromine water and acidified manganate(VII), confirming that it is unsaturated.
+Aromatic hydrocarbons: benzene (one block)
+- [ ] B1 Composition: benzene, C₆H₆; a colourless liquid (bp 80 °C) with a sweet smell.
+- [ ] B2 Structure: a flat (planar) hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°.
+- [ ] B3 Bonding: all six carbon–carbon bonds are identical, intermediate in length between single and double bonds; the bonding electrons beyond the single bonds are spread (delocalised) around the whole ring, so benzene is drawn as a hexagon with a circle inside (Higher Level detail in "Shapes, bonding and isomerism").
+- [ ] B4 Characteristic properties: although unsaturated, benzene is very stable and resists addition reactions: it does not decolourise bromine water or acidified potassium manganate(VII); it reacts mainly by substitution.
+- [ ] B5 It burns with a very smoky (sooty) flame because of its high carbon content (92.3% C, the same as ethyne).
+- [ ] B6 Benzene is toxic and carcinogenic (causes leukaemia), so it is not used in school laboratories; safer solvents such as cyclohexane are used instead.
+- [ ] B7 History: Michael Faraday isolated benzene in 1825; August Kekulé proposed a ring of alternating single and double bonds in 1865; this "Kekulé structure" can't explain why all the bonds are the same length or why benzene doesn't decolourise bromine water.
 
-## 2. Checked facts and examples
+Comparing the groups (one block)
+- [ ] G1 Summary table to draw: group, general formula, C–C bond type, shape around C, first member, test with bromine water — alkanes CₙH₂ₙ₊₂, single, tetrahedral 109.5°, methane, no change; alkenes CₙH₂ₙ, one double, planar 120°, ethene, decolourised; alkynes CₙH₂ₙ₋₂, one triple, linear 180°, ethyne, decolourised; benzene C₆H₆, delocalised ring, planar 120°, benzene, no change.
+- [ ] G2 All are non-polar molecules with only London dispersion forces between them, so all are insoluble in water and soluble in non-polar solvents, and small members are gases.
+- [ ] G3 Reactivity relates to bonding: single bonds only (alkanes) → unreactive; a localised double or triple bond (alkenes, alkynes) → reactive, addition; delocalised ring (benzene) → stable, substitution rather than addition.
+
+IUPAC naming up to C6 (one block, skills; one rule per bullet)
+- [ ] N1 Stem for the number of carbons in the main chain: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-; ending -ane (alkane), -ene (alkene), -yne (alkyne).
+- [ ] N2 Alkanes: find the longest continuous carbon chain (it may bend on paper); this gives the parent name.
+- [ ] N3 Number the chain from the end that gives the side chains (substituents) the lowest numbers.
+- [ ] N4 Name side chains as alkyl groups: methyl (–CH₃), ethyl (–C₂H₅); give each a position number; use di-, tri- for repeats (2,2-dimethyl…); separate numbers by commas and numbers from words by hyphens; list different groups alphabetically.
+- [ ] N5 Examples: CH₃CH(CH₃)CH₃ is methylpropane; CH₃CH(CH₃)CH₂CH₃ is 2-methylbutane (not 3-methylbutane); C(CH₃)₄ is 2,2-dimethylpropane; CH₃CH₂CH(CH₃)CH₂CH₃ is 3-methylpentane; (CH₃)₂CHCH(CH₃)₂ is 2,3-dimethylbutane.
+- [ ] N6 Alkenes and alkynes: the main chain must contain the multiple bond; number from the end nearer the multiple bond and give the number of its first carbon before -ene or -yne: CH₂=CHCH₂CH₃ is but-1-ene; CH₃CH=CHCH₃ is but-2-ene; CH₂=C(CH₃)CH₃ is methylpropene (2-methylpropene); CH₂=CHCH₂CH₂CH₂CH₃ is hex-1-ene; HC≡CCH₃ is propyne; CH₃C≡CCH₃ is but-2-yne.
+- [ ] N7 Ethene, propene, ethyne and propyne need no number (there is only one position for the multiple bond).
+- [ ] N8 Rings: prefix cyclo-, e.g. cyclohexane; benzene keeps its own name.
+
+### 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| P1 | Ethene bp −104 °C. |
-| W2 | Ethanol bp 78 °C. |
-| C2 | Density of ethanol 0.789 g cm⁻³; M(C₂H₅OH) = 46 g mol⁻¹; molar volume 22.4 L mol⁻¹ at s.t.p. |
-| T9 | % carbon by mass: CH₄ 75.0%; C₂H₄ 85.7%. |
+| B1 | Benzene bp 80 °C (80.1). |
+| B5, E6 | % C by mass: CH₄ 75.0; C₆H₁₄ 83.7; all alkenes 85.7; C₂H₂ and C₆H₆ 92.3. |
+| B7 | Faraday isolated benzene 1825; Kekulé's ring structure 1865. |
+| Y4 | Ethyne + excess bromine gives 1,1,2,2-tetrabromoethane. |
 
-C1–C4 are sample data; arithmetic checked.
+### 3. Traps
 
-## 3. Traps
+- Naming is required up to C6 only; don't name heptane or larger compounds.
+- Aromatic means containing a benzene ring, not "having a smell".
+- Benzene is unsaturated but does not decolourise bromine water; don't draw it with three fixed double bonds as if it were an alkene.
+- Methane is aliphatic (no benzene ring).
+- Cyclohexane has the same formula (C₆H₁₂) as hexene but is saturated.
+- Reaction conditions and mechanisms are not required here (mechanisms are in "Reaction mechanisms", Higher Level).
+- Naming benzene derivatives (methylbenzene etc.) is not part of this subsection.
+- Methylpropane needs no locant because the methyl group can only be on carbon 2 (2-methylpropane is also accepted).
 
-- Heat the aluminium oxide, not the ethanol.
-- Aluminium oxide is a catalyst, not a reactant; the reaction is dehydration (elimination), not decomposition of the catalyst.
-- Bromine water goes from orange to colourless, not "clear": clear means transparent and can be coloured.
-- Don't use concentrated sulfuric acid to dehydrate ethanol here; the specification's method is over aluminium oxide.
-- Ethyne preparation from calcium carbide is not on the specification.
-- Remove the delivery tube from the water before taking away the heat.
-- Don't say ethene is "insoluble" without the reason: it is non-polar.
+### 4. What exams ask (topics only)
 
-## 4. What exams ask (topics only)
+- Define hydrocarbon, saturated, unsaturated, homologous series, aliphatic, aromatic.
+- Identify the homologous series of given compounds; identify an aromatic compound; say whether methane is aliphatic or aromatic.
+- Give IUPAC names of given alkanes and alkenes (up to C6); draw the structure from a name.
+- Draw the structure of ethene, ethyne or benzene.
+- Would benzene readily undergo addition with bromine water? Explain.
+- Account for the greater reactivity of alkenes compared with alkanes.
 
-- Identify the liquid (ethanol) and the white solid (aluminium oxide) in the apparatus; draw and label the apparatus.
-- Name the reaction type (dehydration/elimination).
-- Why the first tubes are discarded; what suck-back is, why it is dangerous and how to prevent it.
-- Describe the appearance of the gas, the combustion test and flame, and write the combustion equation.
-- Describe a test for unsaturation and the colour change; what it shows about the structure of ethene.
-- What collection over water shows about ethene's solubility.
+### 5. Practice questions to write
 
-## 5. Practice questions to write
+1. 9 marks: "Compare alkanes, alkenes and alkynes in terms of general formula, the type of carbon–carbon bond, and their reaction with bromine water." Model answer: L1, L2, E1, E2, Y1, Y2, L5, E4, Y4 (or G1).
+2. 9 marks: "Give the IUPAC names of: (i) CH₃CH(CH₃)CH₂CH₃, (ii) CH₃CH=CHCH₂CH₃, (iii) (CH₃)₂CHCH(CH₃)₂. Draw the structure of 2,2-dimethylbutane." Model answer: 2-methylbutane; pent-2-ene; 2,3-dimethylbutane; CH₃C(CH₃)₂CH₂CH₃ drawn in full (N2–N6).
+3. 6 marks: "Benzene is unsaturated, yet it does not decolourise bromine water. Explain, and describe the structure of benzene." Model answer: B2–B4, B7.
 
-1. 15 marks: "Describe, with a labelled diagram, how you would prepare and collect some ethene from ethanol in the laboratory. Give the equation for the reaction and explain why the first test tubes of gas are discarded." Model answer: M1–M8, A2, A3, W4.
-2. 9 marks: "Describe how you would show that ethene is unsaturated, giving the colour change and explaining what it shows. How would you show that the result is due to the double bond?" Model answer: T4–T8.
-3. 6 marks: "What is suck-back, why is it hazardous, and how is it prevented in this preparation?" Model answer: W5, M7.
+## Part: Explaining and predicting properties (formerly `chem23-s5`)
+
+- **loId:** `chem23-s5` · **chapterId:** `chem23` · **syllabusRef:** 2.4.5
+- **Syllabus:** 2.4.5 "explain and predict differences, if any, in properties within each of the
+  following: straight chain alkanes of different carbon number; alkanes of the same carbon
+  number; monounsaturated straight chain alkenes". Learn about: "the nature of the
+  carbon-carbon bonds, the intermolecular forces and relative molecular mass that can also help
+  to explain the properties of hydrocarbons"; "the characteristic properties that include state
+  of matter, boiling point, combustion, solubility in water and non-polar solvents, and
+  reactivity (aliphatics only)"; "prediction of the behaviour for alkanes and alkenes up to
+  C6". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. For each of the three comparisons, every property
+  with its explanation, using data tables to read and predict from. London dispersion forces are
+  explained in "Bond type and intermolecular forces" and boiling-point trends in
+  "Polarity, shape and physical properties": refer to them and apply them here (the
+  effect of branching is taught only here). Combustion equations and ΔH trends are in
+  "Combustion and heats of combustion"; drawing isomers is in "Shapes, bonding and isomerism".
+
+### 1. Must cover
+
+The three factors (one block)
+- [ ] F1 Hydrocarbons are non-polar (C–H bonds have very low polarity; see "Bond type and intermolecular forces"), so the only forces between their molecules are London dispersion forces.
+- [ ] F2 London dispersion forces get stronger as the relative molecular mass increases (more electrons, larger electron clouds) and as the area of contact between molecules increases.
+- [ ] F3 The stronger the intermolecular forces, the more energy is needed to separate the molecules, so the higher the boiling point and the more likely the substance is to be a liquid or solid at room temperature.
+- [ ] F4 The nature of the carbon–carbon bonds decides chemical reactivity: single bonds only → unreactive; a C=C double bond → reactive, addition reactions.
+- [ ] F5 Boiling a hydrocarbon overcomes the forces between molecules; it does not break C–C or C–H bonds.
+
+Straight-chain alkanes of different carbon number (one block)
+- [ ] A1 Data: boiling points of methane −162 °C, ethane −89 °C, propane −42 °C, butane −1 °C, pentane 36 °C, hexane 69 °C.
+- [ ] A2 Boiling point rises with carbon number because each extra CH₂ increases the relative molecular mass (number of electrons) and the length of the molecule, so London dispersion forces get stronger.
+- [ ] A3 The rise for each extra CH₂ gets smaller (73, 47, 41, 37 and 33 °C between successive members), because each CH₂ is a smaller fraction of the molecule.
+- [ ] A4 State at room temperature (about 20 °C): methane to butane are gases; pentane and hexane are liquids (larger alkanes up to about C16 are liquids and beyond that waxy solids).
+- [ ] A5 Solubility: all are insoluble in water, because they are non-polar and cannot form hydrogen bonds with water; all dissolve in or mix with non-polar solvents such as cyclohexane ("like dissolves like"); liquid alkanes are less dense than water and float on it.
+- [ ] A6 Combustion: all burn completely to CO₂ and H₂O, e.g. C₆H₁₄(l) + 9½O₂(g) → 6CO₂(g) + 7H₂O(l); larger alkanes need more oxygen per mole and release more energy per mole.
+- [ ] A7 Larger alkanes burn with a more luminous, smokier flame and are harder to ignite (less volatile); the percentage of carbon rises from 75.0% (CH₄) to 83.7% (C₆H₁₄), making incomplete combustion (soot, CO) more likely.
+- [ ] A8 Reactivity: no difference; all are unreactive (single bonds, low polarity) and react only by combustion or by substitution with halogens in ultraviolet light.
+
+Alkanes of the same carbon number (isomers) (one block)
+- [ ] I1 Alkanes of the same carbon number but different structure are structural isomers: same molecular formula and Mr, different arrangement of the chain (branching).
+- [ ] I2 Data, C₄H₁₀: butane −1 °C; methylpropane −12 °C.
+- [ ] I3 Data, C₅H₁₂: pentane 36 °C; 2-methylbutane 28 °C; 2,2-dimethylpropane 10 °C.
+- [ ] I4 Data, C₆H₁₄: hexane 69 °C; 3-methylpentane 63 °C; 2-methylpentane 60 °C; 2,3-dimethylbutane 58 °C; 2,2-dimethylbutane 50 °C.
+- [ ] I5 Explanation: the Mr and number of electrons are the same, but the more branched the molecule, the more compact (closer to spherical) it is, so the surface area in contact between neighbouring molecules is smaller, the London dispersion forces are weaker and the boiling point is lower. Unbranched chains lie alongside each other with a large area of contact.
+- [ ] I6 Consequence for state: 2,2-dimethylpropane (bp 10 °C) is a gas at room temperature although pentane (bp 36 °C), with the same formula, is a liquid.
+- [ ] I7 Solubility, combustion and reactivity: no significant difference; isomers are all non-polar and insoluble in water, burn to the same products with the same equation (e.g. C₅H₁₂ + 8O₂ → 5CO₂ + 6H₂O) and are equally unreactive.
+- [ ] I8 Diagram: two pentane molecules lying side by side with a large contact area, beside two 2,2-dimethylpropane molecules touching at only a small area.
+
+Monounsaturated straight-chain alkenes (one block)
+- [ ] U1 Data: boiling points of ethene −104 °C, propene −48 °C, but-1-ene −6 °C, pent-1-ene 30 °C, hex-1-ene 63 °C.
+- [ ] U2 Boiling point rises with carbon number for the same reason as in alkanes: larger Mr, more electrons, stronger London dispersion forces.
+- [ ] U3 State: ethene to butene are gases at room temperature; pentene and hexene are liquids.
+- [ ] U4 Each alkene boils a little lower than the alkane with the same number of carbons (ethene −104 °C, ethane −89 °C; hex-1-ene 63 °C, hexane 69 °C), because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London forces.
+- [ ] U5 Solubility: all are insoluble in water and soluble in non-polar solvents, like alkanes.
+- [ ] U6 Combustion: all burn to CO₂ and H₂O, e.g. C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l); every alkene has the same percentage of carbon (85.7%, since all are CₙH₂ₙ), more than the alkanes, so alkenes burn with smokier flames than alkanes.
+- [ ] U7 Reactivity: all have one C=C bond, so all undergo the same addition reactions (e.g. all decolourise bromine water) and are much more reactive than alkanes; changing the chain length (or the position of the double bond) makes little difference to reactivity.
+
+Predicting behaviour up to C6 (one block, skills)
+- [ ] P1 To predict a boiling point, use the trend in a table: it lies between those of neighbouring members (or of isomers with more and less branching).
+- [ ] P2 Example: from the alkene data, predict that pent-1-ene (bp 30 °C) is a liquid at 20 °C but would boil on a warm day or in warm water.
+- [ ] P3 Example: predict that 2-methylpentane boils below hexane (both C₆H₁₄; the branched isomer has a smaller contact area).
+- [ ] P4 Example: predict that hex-1-ene will decolourise bromine water and hexane will not, and that both will float on water without dissolving.
+- [ ] P5 Example: predict that a mixture of pentane and hexane can be separated by fractional distillation, as their boiling points differ (36 °C and 69 °C).
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| A1 | bp: CH₄ −162, C₂H₆ −89, C₃H₈ −42, C₄H₁₀ −1 (−0.5), C₅H₁₂ 36, C₆H₁₄ 69 °C. |
+| I2–I4 | bp: methylpropane −12 (−11.7); 2-methylbutane 28 (27.8); 2,2-dimethylpropane 10 (9.5); 3-methylpentane 63; 2-methylpentane 60; 2,3-dimethylbutane 58; 2,2-dimethylbutane 50 °C. |
+| U1 | bp: ethene −104, propene −48 (−47.6), but-1-ene −6 (−6.3), pent-1-ene 30, hex-1-ene 63 °C. |
+| A7, U6 | % C: CH₄ 75.0; C₆H₁₄ 83.7; CₙH₂ₙ 85.7. |
+| A5 | Density of hexane about 0.66 g cm⁻³. |
+
+### 3. Traps
+
+- "Differences, if any": the honest answer for reactivity within a series and for solubility between isomers is "no significant difference"; say so and explain why.
+- Branched isomers have the same Mr; the difference is surface area (shape), not mass.
+- Reactivity is asked for aliphatics only; don't compare benzene's reactivity here.
+- Describe hydrocarbons as insoluble in water and give the reason (non-polar, no hydrogen bonding with water); the tiny solubility of methane or ethene doesn't need mentioning.
+- Boiling point rises with carbon number, but by smaller amounts each time; don't predict a straight line.
+- Combustion ΔH values and their trend (Higher Level) belong to "Combustion and heats of combustion"; don't give ΔH values here.
+
+### 4. What exams ask (topics only)
+
+- Explain why boiling points increase along the alkane series (e.g. propane −42 °C, butane −1 °C).
+- Explain why branched isomers have lower boiling points than straight-chain isomers.
+- Identify which compounds in a table are gases at room temperature.
+- Explain why ethene is insoluble in water but soluble in cyclohexane.
+- Predict the boiling point or state of a hydrocarbon from a table of data.
+
+### 5. Practice questions to write
+
+1. 9 marks: "The boiling points of pentane, 2-methylbutane and 2,2-dimethylpropane are 36 °C, 28 °C and 10 °C. All three have the formula C₅H₁₂. Explain the difference and state which is a gas at 20 °C." Model answer: I1, I3, I5, I6.
+2. 9 marks: "Explain why the boiling points of the alkenes ethene to hex-1-ene increase, why hex-1-ene boils at a lower temperature than hexane, and whether you would expect any difference in their solubility in water." Model answer: U1, U2, U4, U5 (no difference: all insoluble, non-polar).
+3. 6 marks: "Hexane and hex-1-ene are both colourless liquids. Predict and explain one way in which their chemical properties differ and one way in which their combustion differs." Model answer: U7 vs A8 (bromine water test); U6 vs A7 (smokier flame for hex-1-ene, 85.7% vs 83.7% carbon).
+
+## Part: Stability of alkanes (formerly `chem23-s6`)
+
+- **loId:** `chem23-s6` · **chapterId:** `chem23` · **syllabusRef:** 2.4.6
+- **Syllabus:** 2.4.6 "explain the relative chemical stability of alkanes". Learn about: "reasons
+  for alkane stability amongst hydrocarbons, including low polarity **and sigma bonding**".
+  Bold = Higher Level only.
+- **Prepared by:** a higher model, 2026-10-30. Ordinary part: saturation and low polarity, with
+  the evidence and the reactions alkanes still undergo. Higher Level block: sigma bonding
+  compared with pi bonding. Sigma and pi bonds are defined in "Modelling bonding and predicting
+  formulae"; the free-radical mechanism is in "Reaction mechanisms"; non-biodegradability of
+  polymers is in "Types of organic reaction and addition polymers". Don't repeat those.
+
+### 1. Must cover
+
+Alkanes are unreactive (one block)
+- [ ] S1 Alkanes are the least reactive aliphatic hydrocarbons: at room temperature they don't react with acids, bases, most oxidising agents (e.g. acidified potassium manganate(VII)) or bromine water.
+- [ ] S2 Their old name, paraffins, comes from the Latin parum affinis, "little affinity" (little reactivity).
+- [ ] S3 "Stable" means unreactive under ordinary conditions, not that they can never react: they burn readily once ignited and react with halogens in ultraviolet light.
+
+Reasons: saturation and low polarity (one block)
+- [ ] R1 Alkanes are saturated: every carbon already has four single bonds, so nothing can add to the molecule; to react, a bond must first be broken.
+- [ ] R2 C–C and C–H bonds are strong, so a lot of energy is needed to break them (a high activation energy).
+- [ ] R3 Low polarity: the electronegativities of carbon (2.55) and hydrogen (2.20) differ by only 0.35, so C–H bonds are almost non-polar, and C–C bonds are completely non-polar.
+- [ ] R4 With no significant δ+ or δ− sites, alkane molecules don't attract charged or polar reagents (ions such as OH⁻ or H⁺, or polar molecules), which react by attacking charged sites.
+- [ ] R5 Comparison: alkenes are more reactive because the C=C double bond is an electron-rich site that attracts reagents (such as bromine) and allows addition.
+
+The reactions alkanes do undergo (one block)
+- [ ] X1 Combustion: alkanes burn in oxygen once a flame or spark supplies the activation energy, releasing a lot of energy, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+- [ ] X2 Substitution with chlorine or bromine needs ultraviolet light (or sunlight) to break the halogen molecule into reactive atoms (free radicals): CH₄ + Cl₂ → CH₃Cl + HCl (mechanism in "Reaction mechanisms").
+- [ ] X3 In the dark, an alkane mixed with bromine stays orange; in sunlight the colour slowly fades as substitution happens, which is much slower than the instant decolourisation by an alkene.
+
+Why stability matters (one block)
+- [ ] M1 Alkanes are safe to store and transport as fuels (natural gas, LPG, petrol) because they don't react until ignited.
+- [ ] M2 Unreactive liquid alkanes such as hexane and cyclohexane are useful solvents, and mineral oils and paraffin wax are used as lubricants and protective coatings.
+- [ ] M3 The same chemical stability makes poly(ethene) and other addition polymers, whose chains are alkane-like, slow to break down in the environment (see "Types of organic reaction and addition polymers").
+
+Sigma bonding and stability (Higher Level only; one block)
+- [ ] H1 [HL] Every bond in an alkane is a sigma (σ) bond, formed by head-on overlap of orbitals along the line between the two nuclei.
+- [ ] H2 [HL] In a σ bond the shared electron pair is concentrated between the two nuclei, where it is held strongly by both; σ bonds are strong and the electrons are not exposed to attacking reagents.
+- [ ] H3 [HL] An alkene's double bond is one σ bond plus one pi (π) bond; the π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, and are exposed to attack by electron-seeking reagents.
+- [ ] H4 [HL] Bond enthalpies show the π bond is weaker than a σ bond: C–C is about 348 kJ mol⁻¹ and C=C about 614 kJ mol⁻¹, so the π part of the double bond adds only about 266 kJ mol⁻¹.
+- [ ] H5 [HL] So alkenes react by breaking the weaker π bond and keeping the σ bond (addition), while an alkane would have to break a strong σ bond, which needs much more energy; this is why alkanes are stable.
+- [ ] H6 [HL] Diagram: a C–C σ bond with electron density between the nuclei, beside a C=C bond showing the σ bond and the π electron cloud above and below the bond axis.
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| R3 | Pauling electronegativities: C 2.55, H 2.20 (difference 0.35). |
+| H4 | Typical average bond enthalpies: C–C 348, C=C 614 kJ mol⁻¹ (π ≈ 266 kJ mol⁻¹); C–H 412 kJ mol⁻¹. |
+| S2 | Paraffin from Latin parum affinis, "little affinity". |
+
+### 3. Traps
+
+- Use the electronegativity values 2.55 and 2.20 (as in "Bond type and intermolecular forces"), not the older 2.5 and 2.1.
+- Alkanes are not inert: they burn and undergo substitution.
+- A π bond is weaker than a σ bond, but a double bond (σ + π) is stronger than a single bond; don't say "double bonds are weak".
+- The free-radical mechanism belongs to "Reaction mechanisms" (Higher Level); name substitution here, don't describe the mechanism steps.
+- Sigma bonding is Higher Level only; the Ordinary level explanation is saturation, strong bonds and low polarity.
+
+### 4. What exams ask (topics only)
+
+- Explain why alkanes are relatively unreactive (stable).
+- Account for the greater reactivity of alkenes compared with alkanes.
+- What conditions are needed for an alkane to react with chlorine?
+
+### 5. Practice questions to write
+
+1. 6 marks: "Explain the relative chemical stability of the alkanes, using electronegativity values (C 2.55, H 2.20)." Model answer: R1–R4.
+2. 9 marks (Higher Level): "Explain, in terms of sigma and pi bonding, why ethene reacts rapidly with bromine but ethane does not." Model answer: H1–H5, R5.
+3. 6 marks: "Alkanes are described as stable, yet methane burns explosively. Explain, and give one other reaction of alkanes with its condition." Model answer: S3, R2, X1, X2.

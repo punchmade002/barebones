@@ -1,8 +1,8 @@
 {
   "loId": "chem9-s1",
   "chapterId": "chem9",
-  "subsection": "1. The particulate nature of matter",
-  "syllabusRef": "1.1 LA",
+  "subsection": "1. The kinetic theory and its evidence",
+  "syllabusRef": "1.1 LA, 1.1.1",
   "notes": [
     {
       "h": "Matter is made of particles",
@@ -57,17 +57,119 @@
         "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
         "Diagram: particle diagrams of an element (single atoms and diatomic molecules), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
       ]
+    },
+    {
+      "h": "The kinetic theory of matter",
+      "b": "The kinetic theory states that matter is particles in motion. Effects we can see provide evidence for particles we cannot see.",
+      "points": [
+        "The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.",
+        "The particles have kinetic energy, and the higher the temperature, the faster they move.",
+        "The average kinetic energy of the particles is proportional to the temperature in kelvin.",
+        "The evidence for the theory comes from effects we can see that are caused by particles we cannot see."
+      ]
+    },
+    {
+      "h": "Brownian motion (investigation)",
+      "b": "Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid.",
+      "points": [
+        "Robert Brown, a botanist, first observed Brownian motion in 1827, using pollen grains in water.",
+        "Aim: to observe the motion of smoke particles in air as evidence for the kinetic theory.",
+        "Step 1: Fill a small glass cell with smoke and cover it.",
+        "Step 2: Light the cell from the side.",
+        "Step 3: View the cell through a microscope.",
+        "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.",
+        "Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.",
+        "The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.",
+        "Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.",
+        "Diagram: a smoke cell lit from the side under a microscope, and the zig-zag path of one smoke particle."
+      ]
+    },
+    {
+      "h": "Diffusion of gases (investigation)",
+      "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion.",
+      "points": [
+        "Diffusion needs no stirring or currents; it results from the random motion of the particles alone.",
+        "Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.",
+        "The bromine jars are evenly coloured when the vapour has diffused through both jars.",
+        "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard and gloves."
+      ]
+    },
+    {
+      "h": "Ammonia and hydrogen chloride experiment",
+      "points": [
+        "Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.",
+        "Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).",
+        "The ring forms nearer the hydrochloric acid end of the tube.",
+        "Explanation: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
+        "Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.",
+        "Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end."
+      ]
+    },
+    {
+      "h": "Diffusion in liquids",
+      "points": [
+        "Diffusion also happens in liquids, e.g. a crystal of potassium manganate(VII) slowly colours still water purple.",
+        "Diffusion is much slower in liquids than in gases, because the particles are closer together and collide more often."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Pure substance", "definition": "A substance containing only one kind of particle, with fixed properties such as a sharp melting point." },
-    { "term": "Element", "definition": "A substance made of only one kind of atom, which cannot be split into simpler substances by chemical means." },
-    { "term": "Compound", "definition": "A substance made of two or more different elements chemically combined in a fixed ratio." },
-    { "term": "Mixture", "definition": "Two or more substances that are not chemically combined and can be separated by physical methods." },
-    { "term": "Homogeneous mixture", "definition": "A mixture with a uniform composition throughout and a single phase." },
-    { "term": "Heterogeneous mixture", "definition": "A non-uniform mixture with visibly different parts or phases." },
-    { "term": "Molecule", "definition": "A particle made of two or more atoms chemically bonded together." },
-    { "term": "Diatomic molecule", "definition": "A molecule made of two atoms of the same element, e.g. O₂, N₂ or Cl₂." }
+    {
+      "term": "Pure substance",
+      "definition": "A substance containing only one kind of particle, with fixed properties such as a sharp melting point."
+    },
+    {
+      "term": "Element",
+      "definition": "A substance made of only one kind of atom, which cannot be split into simpler substances by chemical means."
+    },
+    {
+      "term": "Compound",
+      "definition": "A substance made of two or more different elements chemically combined in a fixed ratio."
+    },
+    {
+      "term": "Mixture",
+      "definition": "Two or more substances that are not chemically combined and can be separated by physical methods."
+    },
+    {
+      "term": "Homogeneous mixture",
+      "definition": "A mixture with a uniform composition throughout and a single phase."
+    },
+    {
+      "term": "Heterogeneous mixture",
+      "definition": "A non-uniform mixture with visibly different parts or phases."
+    },
+    {
+      "term": "Molecule",
+      "definition": "A particle made of two or more atoms chemically bonded together."
+    },
+    {
+      "term": "Diatomic molecule",
+      "definition": "A molecule made of two atoms of the same element, e.g. O₂, N₂ or Cl₂."
+    },
+    {
+      "term": "Kinetic theory of matter",
+      "definition": "The theory that all matter is made of particles in constant, random motion, with energy that increases with temperature."
+    },
+    {
+      "term": "Brownian motion",
+      "definition": "The continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid, caused by collisions with invisible molecules."
+    },
+    {
+      "term": "Diffusion",
+      "definition": "The spreading of particles from a region of high concentration to a region of low concentration until they are evenly mixed."
+    },
+    {
+      "term": "Kinetic energy",
+      "definition": "The energy a particle has because it is moving."
+    },
+    {
+      "term": "Ammonium chloride",
+      "definition": "The white solid NH₄Cl that forms when ammonia and hydrogen chloride gases meet and react."
+    },
+    {
+      "term": "Random motion",
+      "definition": "Movement in no fixed direction, in which particles travel in all directions and collide with one another."
+    }
   ],
   "questions": [
     {
@@ -79,6 +181,16 @@
       "marks": 6,
       "prompt": "Give two differences between a compound and a mixture, and explain how melting point can be used to test whether a substance is pure.",
       "model": "Difference 1: a compound has a fixed composition, whereas a mixture has a variable composition. Difference 2: the elements in a compound are chemically combined and it can be separated only by a chemical reaction, whereas the substances in a mixture are not chemically combined and can be separated by physical methods. Purity test: a pure substance melts sharply at a melting point that matches the data-book value. Impurities lower the melting point and make the substance melt over a range of temperatures, so a sample that melts over a range, or below the data-book value, is impure."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe an experiment using ammonia and hydrogen chloride to show that gases diffuse, and explain why the white solid forms closer to one end of the tube.",
+      "model": "Method: place cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid at opposite ends of a long glass tube and seal it with stoppers. Safety: use a fume cupboard, goggles and gloves, and tongs to handle the plugs. Observation: after a few minutes a white ring of ammonium chloride forms inside the tube, where the gases meet: NH₃(g) + HCl(g) → NH₄Cl(s). Evidence for diffusion: the gases must have travelled along the tube, so the particles of each gas have spread from their source, where they are at high concentration, to the rest of the tube by their random motion. Explanation of position: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5). At the same temperature the lighter molecules move faster, so ammonia diffuses further along the tube before it meets the hydrogen chloride. The meeting point is therefore nearer the hydrochloric acid end."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is Brownian motion and how does it provide evidence for the kinetic theory of matter?",
+      "model": "Brownian motion is the continuous, random, zig-zag movement of small visible particles, such as smoke particles, suspended in a gas. The smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules. At any instant more molecules hit one side than the other, so the particle moves. This shows that the air molecules are in constant, random motion, as the kinetic theory states. The motion becomes more vigorous when the temperature is raised, which shows that higher temperature means faster particles."
     }
   ]
 }

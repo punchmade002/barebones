@@ -85,14 +85,38 @@
     }
   ],
   "keyTerms": [
-    { "term": "Yield", "definition": "The amount of a product obtained from a reaction." },
-    { "term": "Theoretical yield", "definition": "The maximum amount of product that could form from the given amounts of reactants, calculated from the balanced equation." },
-    { "term": "Actual yield", "definition": "The amount of product actually obtained in practice, in the laboratory or in industry." },
-    { "term": "Percentage yield", "definition": "The actual yield divided by the theoretical yield, multiplied by 100." },
-    { "term": "Fractional yield", "definition": "The actual yield divided by the theoretical yield, before multiplying by 100." },
-    { "term": "Overall yield", "definition": "The product of the fractional yields of each step in a multi-step synthesis." },
-    { "term": "Side reaction", "definition": "A reaction that forms unwanted products from the same reactants as the desired reaction." },
-    { "term": "Reversible reaction", "definition": "A reaction that proceeds in both directions and reaches equilibrium, so it may not go to completion." }
+    {
+      "term": "Yield",
+      "definition": "The amount of a product obtained from a reaction."
+    },
+    {
+      "term": "Theoretical yield",
+      "definition": "The maximum amount of product that could form from the given amounts of reactants, calculated from the balanced equation."
+    },
+    {
+      "term": "Actual yield",
+      "definition": "The amount of product actually obtained in practice, in the laboratory or in industry."
+    },
+    {
+      "term": "Percentage yield",
+      "definition": "The actual yield divided by the theoretical yield, multiplied by 100."
+    },
+    {
+      "term": "Fractional yield",
+      "definition": "The actual yield divided by the theoretical yield, before multiplying by 100."
+    },
+    {
+      "term": "Overall yield",
+      "definition": "The product of the fractional yields of each step in a multi-step synthesis."
+    },
+    {
+      "term": "Side reaction",
+      "definition": "A reaction that forms unwanted products from the same reactants as the desired reaction."
+    },
+    {
+      "term": "Reversible reaction",
+      "definition": "A reaction that proceeds in both directions and reaches equilibrium, so it may not go to completion."
+    }
   ],
   "questions": [
     {

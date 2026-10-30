@@ -1,64 +1,164 @@
 {
   "loId": "chem1-s5",
   "chapterId": "chem1",
-  "subsection": "5. Questions and hypotheses",
-  "syllabusRef": "U2.1–U2.2",
+  "subsection": "5. Reflecting, recording and communicating findings",
+  "syllabusRef": "U2.5, U2.6",
   "notes": [
     {
-      "h": "Questions suitable for investigation",
+      "h": "The investigative log",
+      "b": "The log is a portfolio of experimental and research data, kept while the work is done rather than written up afterwards.",
       "points": [
-        "A scientific question can be answered by collecting evidence through observation or experiment.",
-        "A good question is specific and focused and names measurable quantities, e.g. “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
-        "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation.",
-        "A vague question, or one that cannot be tested with the available methods, is unsuitable, but a vague question can often be refined into a testable one."
+        "A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work.",
+        "The log records the aim and plan, any changes made to the plan and why, the raw data and observations including unexpected ones, calculations, sources consulted, problems met and reflections.",
+        "The log provides evidence of what was done and supports honesty and integrity.",
+        "The log allows the work to be repeated or written up later; the Chemistry in Practice Investigation brief asks students to keep one."
       ]
     },
     {
-      "h": "Variables",
+      "h": "Evaluating an investigation",
+      "b": "An evaluation judges the strengths and weaknesses of the method and the data; it is not a summary of what was done.",
       "points": [
-        "The independent variable is the one the investigator deliberately changes.",
-        "The dependent variable is the one that is measured, and it may change as a result.",
-        "Controlled variables are all the other factors that could affect the result; they are kept the same so that the test is fair."
+        "Evaluate the method: was the test fair and valid, and which variables were hard to control?",
+        "Evaluate the data: was there enough of it, over a wide enough range; how much did the repeats vary; were there anomalous results?",
+        "Identify the main sources of error and their likely effect, stating whether each makes the result larger or smaller than the true value.",
+        "Human error on its own is not an acceptable source of error; name the specific mistake, such as misreading a meniscus.",
+        "Suggest specific improvements, e.g. collecting a gas in a gas syringe instead of over water, using a data-logger, or insulating a calorimeter.",
+        "Suggest further investigations that would test the conclusion more fully.",
+        "Judge how confident you can be in the conclusion."
       ]
     },
     {
-      "h": "Testable hypotheses",
-      "b": "A hypothesis is based on existing scientific theory rather than on a guess.",
+      "h": "Reflecting on skills and thinking",
       "points": [
-        "A hypothesis is a proposed explanation that leads to a testable prediction.",
-        "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason, e.g. “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”, drawn from collision theory.",
-        "A hypothesis must be falsifiable: an experiment could show it to be wrong.",
-        "A prediction is the specific result expected if the hypothesis is correct, e.g. “doubling the concentration will roughly halve the time taken”."
+        "Reflection asks what went well, what did not, what would be done differently, and what was learned about investigating.",
+        "Reflection is honest about difficulties.",
+        "An investigation is valuable for the process it teaches, not only for getting a right answer."
       ]
     },
     {
-      "h": "Comparing strategies for testing a hypothesis",
+      "h": "Transferring skills to unfamiliar contexts",
       "points": [
-        "A hypothesis can often be tested in more than one way, e.g. by measuring the volume of gas collected in a gas syringe, the mass lost on a balance, or the time taken for a solid to disappear.",
-        "Strategies are compared by validity, the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
-        "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified."
+        "Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems.",
+        "In an unfamiliar problem, identify what is being asked, the chemistry it depends on, and the data given.",
+        "Set out a step-by-step approach to the problem.",
+        "Check that the answer is sensible."
+      ]
+    },
+    {
+      "h": "Structure of a scientific report",
+      "points": [
+        "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis.",
+        "The method gives the equipment, a step-by-step procedure and the safety precautions.",
+        "The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.",
+        "The report ends with a conclusion, an evaluation and references.",
+        "The report is written in the past tense and in an impersonal style."
+      ]
+    },
+    {
+      "h": "Scientific terminology and representations",
+      "points": [
+        "Precise terms are used, e.g. “dissolves”, not “melts”, for a solid going into solution, and “effervescence” for bubbles of gas.",
+        "Correct SI units and IUPAC names are used throughout.",
+        "Representations include balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs and energy profile diagrams."
+      ]
+    },
+    {
+      "h": "Communicating with different audiences",
+      "points": [
+        "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster.",
+        "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained.",
+        "The same findings may be communicated as a report, poster, presentation, infographic or article.",
+        "The format is chosen for the purpose and the audience."
+      ]
+    },
+    {
+      "h": "Justifying opinions and citing sources",
+      "points": [
+        "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.",
+        "Each source is cited in the text and listed in full in the references, so that readers can check it.",
+        "Copying someone else's work without acknowledgement is plagiarism.",
+        "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Independent variable", "definition": "The variable that the investigator deliberately changes." },
-    { "term": "Dependent variable", "definition": "The variable that is measured, and which may change as a result of changing the independent variable." },
-    { "term": "Controlled variable", "definition": "A factor, other than the independent variable, that is kept the same so that the test is fair." },
-    { "term": "Hypothesis", "definition": "A proposed explanation, based on scientific theory, that leads to a testable prediction." },
-    { "term": "Prediction", "definition": "The specific result expected if the hypothesis is correct." },
-    { "term": "Falsifiable", "definition": "Able to be shown to be wrong by an experiment." },
-    { "term": "Testable question", "definition": "A specific, focused question that can be answered by collecting evidence through observation or experiment." }
+    {
+      "term": "Investigative log",
+      "definition": "A dated, ongoing record of all experimental and research work, kept as the work happens."
+    },
+    {
+      "term": "Portfolio",
+      "definition": "A collection of records of experimental and research work, used as evidence of what was done."
+    },
+    {
+      "term": "Evaluation of an investigation",
+      "definition": "A judgement of the strengths and weaknesses of the method and data, with suggested improvements."
+    },
+    {
+      "term": "Limitation",
+      "definition": "A restriction in the method or data that reduces how far a conclusion can be trusted."
+    },
+    {
+      "term": "Reflection",
+      "definition": "An honest review of what went well, what did not, and what was learned from carrying out an investigation."
+    },
+    {
+      "term": "Transferable skill",
+      "definition": "A method, such as planning, controlling variables or analysing data, that can be applied to new problems."
+    },
+    {
+      "term": "Scientific report",
+      "definition": "A written account of an investigation giving its introduction, method, results, analysis, conclusion, evaluation and references."
+    },
+    {
+      "term": "Counter-argument",
+      "definition": "A point that opposes a claim, which a well-justified argument considers and answers."
+    },
+    {
+      "term": "Citation",
+      "definition": "A reference in the text to a source, matched by a full entry in the list of references."
+    },
+    {
+      "term": "Plagiarism",
+      "definition": "Presenting another person's work as your own without acknowledging it."
+    },
+    {
+      "term": "State symbol",
+      "definition": "A symbol in brackets, such as (s), (l), (g) or (aq), showing the physical state of a substance in an equation."
+    },
+    {
+      "term": "Structural formula",
+      "definition": "A formula that shows how the atoms in a molecule are arranged and bonded."
+    },
+    {
+      "term": "IUPAC name",
+      "definition": "A systematic name for a compound, set by the International Union of Pure and Applied Chemistry."
+    },
+    {
+      "term": "Energy profile diagram",
+      "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds."
+    }
   ],
   "questions": [
     {
       "marks": 6,
-      "prompt": "Write a testable hypothesis for an investigation into the effect of temperature on the rate of reaction between sodium thiosulfate and hydrochloric acid, and identify the independent, dependent and two controlled variables.",
-      "model": "Hypothesis: increasing the temperature increases the rate of reaction, because the particles gain energy and so collide more often and more energetically, giving more frequent effective collisions (collision theory). Independent variable: the temperature of the reaction mixture. Dependent variable: the rate of reaction, measured, for example, as the time taken for a set change to occur. Controlled variables: the concentration and volume of the sodium thiosulfate solution, and the concentration and volume of the hydrochloric acid."
+      "prompt": "State what should be recorded in an investigative log and give two reasons for keeping one.",
+      "model": "An investigative log records the aim and plan, any changes made to the plan and why, the raw data and observations including unexpected ones, calculations, sources consulted, problems met and reflections. Two reasons for keeping one: it provides evidence of what was done and supports honesty and integrity; and it allows the work to be repeated or written up later, as the Chemistry in Practice Investigation requires."
     },
     {
       "marks": 9,
-      "prompt": "Compare two strategies for measuring the rate of reaction of calcium carbonate with hydrochloric acid, and justify which gives better evidence.",
-      "model": "The gas syringe measures the volume of gas given off directly and at regular intervals, giving quantitative data, but the syringe must be sealed and gas may leak from it. Measuring the mass lost on a balance also gives continuous data as gas escapes, but the balance must have a suitable resolution and the reaction must be contained so that spray does not affect the reading. Timing how long a solid takes to disappear is simple and cheap, but it is a less precise measure of the rate and gives fewer data points. Justification: the gas syringe is likely to give the most valid and reliable evidence, because it measures the product of the reaction directly, gives many data points over the range tested and can be made safe with a suitable set-up."
+      "prompt": "A student's value for a heat of neutralisation was lower than the accepted value. Evaluate the investigation: suggest two sources of error and an improvement for each.",
+      "model": "Source of error 1: heat is lost to the surroundings and to the container during the reaction, so the temperature rise is smaller than it should be and the calculated value is lower than the accepted value. Improvement: insulate the reaction vessel, for example with a polystyrene cup and lid. Source of error 2: the resolution of the thermometer limits how accurately the temperature rise can be read, which causes imprecise results. Improvement: use a more precise thermometer, or a data-logger that records the temperature continuously so that the maximum temperature can be found."
+    },
+    {
+      "marks": 6,
+      "prompt": "List the main sections of a scientific report of an experiment and state what each contains.",
+      "model": "The introduction gives the background research and the research question, followed by the hypothesis. The method gives the equipment, a step-by-step procedure and the safety precautions. The results are presented as tables and graphs. The analysis gives the calculations and the patterns in the data. The conclusion states what the data show about the hypothesis. The evaluation judges the method and data and suggests improvements. The references list the sources cited in the text."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe two differences between communicating the results of an investigation to other scientists and to the general public.",
+      "model": "Other scientists need full technical detail, the data and the references, as in a journal paper or conference poster. The general public needs plain language, with the key findings stated first, simple graphics, and technical terms explained."
     }
   ]
 }

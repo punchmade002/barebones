@@ -1,20 +1,20 @@
 {
   "loId": "chem3-s1",
   "chapterId": "chem3",
-  "subsection": "1. The current orbital model",
-  "syllabusRef": "1.2.2",
+  "subsection": "1. The orbital model and electronic structure",
+  "syllabusRef": "1.2.2, 1.2.3, 1.2.4, 1.2.5",
   "notes": [
     {
       "h": "The atom in the orbital model",
       "points": [
-        "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Subatomic particles\").",
+        "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Atomic structure: the nuclear model\").",
         "Electrons surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
         "The main energy levels increase in energy, and in average distance from the nucleus, as n increases.",
         "Within a main energy level, electrons occupy orbitals.",
         "An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.",
         "Each orbital can hold a maximum of two electrons.",
         "The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.",
-        "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered in \"Electronic structure\"."
+        "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered below."
       ]
     },
     {
@@ -25,6 +25,192 @@
         "The orbital model keeps the Bohr idea of fixed energy levels.",
         "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability.",
         "Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison."
+      ]
+    },
+    {
+      "h": "Energy levels and states (Higher Level only)",
+      "points": [
+        "The electron in a hydrogen atom can exist only in certain allowed energy levels, n = 1, 2, 3…, so its energy is quantised: it can take only certain fixed values.",
+        "The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen.",
+        "An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge.",
+        "Excited states are unstable, and the electron soon falls back to a lower level."
+      ]
+    },
+    {
+      "h": "Electron transitions and photons (Higher Level only)",
+      "points": [
+        "An electron transition is a jump of an electron from one energy level to another.",
+        "When an electron falls from a higher level (energy Em) to a lower level (energy En), the energy difference is emitted as a photon, a packet of light energy.",
+        "The photon's energy is related to its frequency by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).",
+        "Light is emitted when electrons fall to lower levels; when electrons jump up to higher levels they absorb energy instead.",
+        "Because the energy levels are fixed, each transition has one definite energy difference, so it emits light of one definite frequency, seen as one line of one colour.",
+        "A larger energy gap gives light of higher frequency and shorter wavelength."
+      ]
+    },
+    {
+      "h": "The hydrogen emission spectrum (Higher Level only)",
+      "points": [
+        "An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope or diffraction grating.",
+        "It is a line spectrum: separate bright coloured lines on a dark background, not the continuous band of colours produced by white light.",
+        "Each line corresponds to one transition from a higher energy level to a lower one.",
+        "The visible lines form the Balmer series, made by electrons falling to n = 2.",
+        "Red line, 656 nm: the electron falls from n = 3 to n = 2.",
+        "Blue-green line, 486 nm: the electron falls from n = 4 to n = 2.",
+        "Blue-violet line, 434 nm: the electron falls from n = 5 to n = 2.",
+        "Violet line, 410 nm: the electron falls from n = 6 to n = 2.",
+        "Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet.",
+        "Transitions down to n = 3 form the Paschen series, which lies in the infrared.",
+        "The lines get closer together at higher energy, because the energy levels themselves get closer together further from the nucleus.",
+        "A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.",
+        "Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared). Beside it, sketch the line spectrum with the four visible lines labelled."
+      ]
+    },
+    {
+      "h": "Why elements give colours",
+      "points": [
+        "Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.",
+        "The electrons fall back to lower levels and give out the energy as light.",
+        "Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element."
+      ]
+    },
+    {
+      "h": "Flame test method (investigation)",
+      "points": [
+        "Aim: to identify the metal in a salt from the colour it gives to a flame.",
+        "Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.",
+        "Independent variable: the metal in the salt being tested.",
+        "Dependent variable: the colour of the flame.",
+        "Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.",
+        "Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.",
+        "1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.",
+        "2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile.",
+        "3. Hold the wire at the edge of the non-luminous flame and note the colour.",
+        "4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.",
+        "Repeats: repeat each test to confirm the colour observed.",
+        "Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.",
+        "Safety: wear goggles.",
+        "Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.",
+        "Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.",
+        "Safety: keep the hot wire away from the skin.",
+        "Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.",
+        "Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.",
+        "Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.",
+        "Diagram: cobalt-blue glass held between the eye and the flame; label the cobalt-blue glass."
+      ]
+    },
+    {
+      "h": "Flame colours",
+      "points": [
+        "Lithium: crimson red.",
+        "Sodium: bright yellow-orange; the colour is persistent.",
+        "Potassium: lilac (pale purple).",
+        "Copper: blue-green.",
+        "Barium: pale (apple) green.",
+        "Strontium: red (scarlet).",
+        "Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them."
+      ]
+    },
+    {
+      "h": "Line emission spectra",
+      "points": [
+        "A spectroscope splits the light from a flame or electric discharge into its separate colours.",
+        "Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.",
+        "To identify an element, compare the lines from an unknown sample, obtained as primary data from a spectroscope or as secondary data such as a published spectrum, with reference spectra of known elements.",
+        "A match of all the lines identifies the element.",
+        "Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.",
+        "Strontium: several lines, strongest in the red.",
+        "Copper: lines mainly in the green, giving its blue-green flame.",
+        "Line spectra are used to identify elements in samples and in stars.",
+        "Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green."
+      ]
+    },
+    {
+      "h": "Electrons in main energy levels",
+      "points": [
+        "Electrons fill the lowest energy levels available first.",
+        "For elements 1 to 20, the first main energy level holds up to 2 electrons, the second up to 8 and the third up to 8; the fourth level starts to fill at potassium.",
+        "Hydrogen (H) 1.",
+        "Helium (He) 2.",
+        "Carbon (C) 2,4.",
+        "Oxygen (O) 2,6.",
+        "Sodium (Na) 2,8,1.",
+        "Magnesium (Mg) 2,8,2.",
+        "Chlorine (Cl) 2,8,7.",
+        "Argon (Ar) 2,8,8.",
+        "Potassium (K) 2,8,8,1.",
+        "Calcium (Ca) 2,8,8,2.",
+        "Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons.",
+        "The outer-shell (valence) electrons determine the chemical properties of an element.",
+        "Elements in the same group have the same number of outer electrons."
+      ]
+    },
+    {
+      "h": "Stable configurations and ions",
+      "points": [
+        "A stable electronic configuration has a full outer energy level, as in the noble gases: helium 2, neon 2,8 and argon 2,8,8.",
+        "Atoms usually reach a full outer level of eight electrons (an octet), or two for the first level.",
+        "Metals in groups 1, 2 and 13 lose electrons to form positive ions with a noble-gas configuration: Na⁺ 2,8; Mg²⁺ 2,8; Al³⁺ 2,8.",
+        "Potassium and calcium ions also have noble-gas configurations: K⁺ 2,8,8; Ca²⁺ 2,8,8.",
+        "Non-metals in groups 15, 16 and 17 gain electrons to form negative ions with a noble-gas configuration: N³⁻ 2,8; O²⁻ 2,8; F⁻ 2,8.",
+        "Sulfide and chloride ions have noble-gas configurations: S²⁻ 2,8,8; Cl⁻ 2,8,8.",
+        "Ions with the same electron arrangement as each other are isoelectronic; for example Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have the arrangement 2,8."
+      ]
+    },
+    {
+      "h": "Sublevels and orbitals (Higher Level only)",
+      "points": [
+        "A sublevel is a subdivision of a main energy level, made of orbitals of equal energy; the sublevels are s, p, d and f.",
+        "An s sublevel has 1 orbital, holding 2 electrons.",
+        "A p sublevel has 3 orbitals, holding 6 electrons.",
+        "A d sublevel has 5 orbitals, holding 10 electrons.",
+        "Level 1 contains 1s only.",
+        "Level 2 contains 2s and 2p.",
+        "Level 3 contains 3s, 3p and 3d.",
+        "Level 4 contains 4s, 4p, 4d and 4f.",
+        "The order of filling, from lowest to highest energy, is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+        "The 4s sublevel is lower in energy than 3d, so it fills first."
+      ]
+    },
+    {
+      "h": "Filling rules (Higher Level only)",
+      "points": [
+        "Aufbau principle: the filling rule above, applied to orbitals; electrons occupy the lowest-energy orbital available first.",
+        "Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins, shown as ↑↓.",
+        "Hund's rule: when filling orbitals of equal energy, such as the three 2p orbitals, electrons occupy them singly with parallel spins before any pairing occurs.",
+        "Orbital (box) diagrams show one box per orbital, with arrows for electrons.",
+        "Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons.",
+        "Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons."
+      ]
+    },
+    {
+      "h": "Writing configurations to element 36 (Higher Level only)",
+      "points": [
+        "Notation writes each sublevel followed by its number of electrons as a superscript: sodium 1s² 2s² 2p⁶ 3s¹.",
+        "Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵.",
+        "Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s².",
+        "Beyond calcium the 3d sublevel fills.",
+        "Iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², written in level order rather than filling order.",
+        "Bromine: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵.",
+        "Krypton, element 36, ends 3d¹⁰ 4s² 4p⁶.",
+        "Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s².",
+        "Chromium is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹.",
+        "Copper is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹.",
+        "The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable.",
+        "Ions, excluding transition metal ions, are written by removing or adding electrons from the outermost sublevel: Na⁺ 1s² 2s² 2p⁶.",
+        "Chloride ion: Cl⁻ 1s² 2s² 2p⁶ 3s² 3p⁶.",
+        "Bromide ion: Br⁻ 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶.",
+        "Calcium ion: Ca²⁺ 1s² 2s² 2p⁶ 3s² 3p⁶.",
+        "Stable configurations at this level are full sublevels (s², p⁶) and the noble-gas configuration ns² np⁶."
+      ]
+    },
+    {
+      "h": "Shapes of s and p orbitals (Higher Level only)",
+      "points": [
+        "An s orbital is spherical and centred on the nucleus.",
+        "The 2s orbital is larger than the 1s orbital.",
+        "A p orbital is dumbbell-shaped, with two lobes on either side of the nucleus.",
+        "The three p orbitals in a sublevel, px, py and pz, lie at right angles to each other along the x, y and z axes, and have equal energy.",
+        "Diagram: a sphere labelled s, and three dumbbells along the x, y and z axes labelled px, py and pz."
       ]
     }
   ],
@@ -52,6 +238,106 @@
     {
       "term": "Wave-particle duality",
       "definition": "The idea that electrons behave both as particles and as waves."
+    },
+    {
+      "term": "Electron transition",
+      "definition": "A jump of an electron between two energy levels, in which energy is absorbed or emitted."
+    },
+    {
+      "term": "Ground state",
+      "definition": "The lowest energy level available to an electron; n = 1 for hydrogen."
+    },
+    {
+      "term": "Excited state",
+      "definition": "A higher energy level that an electron occupies after absorbing energy."
+    },
+    {
+      "term": "Photon",
+      "definition": "A packet of light energy, emitted when an electron falls to a lower energy level."
+    },
+    {
+      "term": "Quantised energy",
+      "definition": "Energy that can take only certain fixed values."
+    },
+    {
+      "term": "Planck's constant (h)",
+      "definition": "The constant 6.626 × 10⁻³⁴ J s that relates a photon's energy to its frequency."
+    },
+    {
+      "term": "Frequency",
+      "definition": "The number of waves passing a point each second, measured in hertz (s⁻¹)."
+    },
+    {
+      "term": "Line spectrum",
+      "definition": "A spectrum of separate bright lines on a dark background, produced by transitions between fixed energy levels."
+    },
+    {
+      "term": "Balmer series",
+      "definition": "The visible lines of the hydrogen spectrum, produced by electrons falling to n = 2."
+    },
+    {
+      "term": "Flame test",
+      "definition": "A test in which a metal salt is heated on a clean wire in a non-luminous flame, and the flame colour identifies the metal."
+    },
+    {
+      "term": "Non-luminous flame",
+      "definition": "The hot, blue Bunsen flame obtained with the air hole open, which does not add its own colour to the test."
+    },
+    {
+      "term": "Line emission spectrum",
+      "definition": "A pattern of bright lines at specific wavelengths, unique to an element."
+    },
+    {
+      "term": "Spectroscope",
+      "definition": "An instrument that splits light into its separate colours or wavelengths."
+    },
+    {
+      "term": "Primary data",
+      "definition": "Data collected directly by the investigator, such as readings from their own experiment."
+    },
+    {
+      "term": "Secondary data",
+      "definition": "Data obtained from another source, such as a published spectrum."
+    },
+    {
+      "term": "Volatile",
+      "definition": "Easily turned into a vapour, a property that makes metal chlorides suitable for flame tests."
+    },
+    {
+      "term": "Cobalt-blue glass",
+      "definition": "A filter that removes yellow light, so the lilac flame colour of potassium can be seen."
+    },
+    {
+      "term": "Electron configuration",
+      "definition": "The arrangement of an atom's or ion's electrons in main energy levels, sublevels and orbitals."
+    },
+    {
+      "term": "Valence electrons",
+      "definition": "The electrons in the outermost energy level, which determine an element's chemical properties."
+    },
+    {
+      "term": "Noble-gas configuration",
+      "definition": "A full outer energy level, as in helium, neon and argon."
+    },
+    {
+      "term": "Isoelectronic",
+      "definition": "Having the same electron arrangement as another atom or ion."
+    },
+    {
+      "term": "Aufbau principle",
+      "definition": "The principle that electrons occupy the lowest-energy orbitals available first."
+    },
+    {
+      "term": "Pauli exclusion principle",
+      "definition": "The principle that an orbital holds at most two electrons, which must have opposite spins."
+    },
+    {
+      "term": "Hund's rule",
+      "definition": "The rule that electrons occupy orbitals of equal energy singly, with parallel spins, before any pairing occurs."
+    },
+    {
+      "term": "Octet",
+      "definition": "A full outer level of eight electrons, as in the noble gases other than helium."
     }
   ],
   "questions": [
@@ -64,6 +350,41 @@
       "marks": 6,
       "prompt": "Give two differences between the Bohr model and the orbital model of the atom.",
       "model": "In the Bohr model electrons move in fixed circular paths at fixed distances from the nucleus, whereas the orbital model gives no exact path or position for an electron, only the probability of finding it in a region. The orbital model also recognises that electrons behave both as particles and as waves, so their exact position and motion cannot both be known, and it describes probability instead of fixed orbits."
+    },
+    {
+      "marks": 12,
+      "prompt": "Explain how the lines in the emission spectrum of hydrogen arise and why each line has a definite frequency. Refer to the equation Em − En = hf.",
+      "model": "Electrons in a hydrogen atom can occupy only certain fixed energy levels, n = 1, 2, 3 and so on, so their energy is quantised. The lowest level, n = 1, is the ground state. When an atom absorbs energy, an electron is promoted to a higher level, an excited state; excited states are unstable, so the electron falls back to a lower level. When an electron falls from a higher level Em to a lower level En, the energy difference is emitted as a photon of light. The photon's frequency f is given by Em − En = hf, where h is Planck's constant. Because the energy levels are fixed, each transition has one definite energy difference and so emits light of one definite frequency. This appears as one line of one colour in the line spectrum, and each line corresponds to one transition."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between the ground state and an excited state of an electron, and state the final energy level of the transitions that produce the visible lines in the hydrogen spectrum.",
+      "model": "The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen. An excited state is any higher energy level, reached when the atom absorbs energy. The visible lines are produced by electrons falling to n = 2, the final energy level of the Balmer series."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would carry out a flame test to identify the metal in an unknown salt, and state the colour you would expect if the salt contained (i) lithium, (ii) potassium, (iii) barium.",
+      "model": "Clean a wire loop by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous Bunsen flame until it gives no colour. Dip the wire in the acid, then into the salt so that a little sticks to it. Hold the wire at the edge of the non-luminous flame and note the colour. Clean the wire again before testing the next salt. Lithium gives a crimson red flame. Potassium gives a lilac flame, best seen through cobalt-blue glass. Barium gives a pale apple green flame."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why different metals give different colours in a flame and how a line emission spectrum can be used to distinguish lithium from strontium.",
+      "model": "Heating gives energy to the electrons of the metal atoms, which move up to higher energy levels. As they fall back to lower levels they give out energy as light. Each element has its own set of energy levels, so it gives out its own colours. Lithium and strontium both give a red flame that is hard to tell apart by eye. A line emission spectrum is a pattern of bright lines at specific wavelengths that is unique to each element. The spectrum of an unknown sample is compared with reference spectra of lithium and strontium, and a match of all the lines identifies the metal."
+    },
+    {
+      "marks": 6,
+      "prompt": "Give the arrangement of electrons in main energy levels for (i) a magnesium atom, (ii) a magnesium ion, (iii) a sulfide ion, and state what is stable about the ions' arrangements.",
+      "model": "(i) Magnesium atom: 2,8,2. (ii) Magnesium ion Mg²⁺: 2,8. (iii) Sulfide ion S²⁻: 2,8,8. Both ions have a full outer energy level, a stable noble-gas configuration: the Mg²⁺ arrangement is the same as neon (2,8) and the S²⁻ arrangement is the same as argon (2,8,8)."
+    },
+    {
+      "marks": 9,
+      "prompt": "Write the s, p, d electron configuration of (i) a chromium atom, (ii) a bromide ion, and state Hund's rule.",
+      "model": "(i) Chromium: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹; this is an exception because a half-full d sublevel is especially stable. (ii) Bromide ion Br⁻: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶. Hund's rule: when filling orbitals of equal energy, electrons occupy them singly with parallel spins before any pairing occurs."
+    },
+    {
+      "marks": 6,
+      "prompt": "Draw the shapes of an s orbital and a 2px orbital, and state how many unpaired electrons there are in an atom of nitrogen in its ground state.",
+      "model": "An s orbital is a sphere centred on the nucleus. A 2px orbital is dumbbell-shaped, with its two lobes along the x axis on either side of the nucleus. Nitrogen in its ground state has three unpaired electrons, one in each 2p orbital, written 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑."
     }
   ]
 }

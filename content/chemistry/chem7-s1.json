@@ -1,8 +1,8 @@
 {
   "loId": "chem7-s1",
   "chapterId": "chem7",
-  "subsection": "1. Specific groups",
-  "syllabusRef": "1.3.2",
+  "subsection": "1. Families and trends in the periodic table",
+  "syllabusRef": "1.3.2, 1.3.4, 1.3.5",
   "notes": [
     {
       "h": "Position and properties",
@@ -74,17 +74,228 @@
         "Argon is used in filament light bulbs and as a shield gas in welding.",
         "Neon is used in advertising signs, where it glows red in an electric discharge."
       ]
+    },
+    {
+      "h": "Atomic number and relative atomic mass",
+      "points": [
+        "Atomic number increases by one from each element to the next.",
+        "Relative atomic mass generally increases with atomic number.",
+        "Relative atomic mass falls in a few places: argon (39.95) comes before potassium (39.10), and tellurium (127.6) comes before iodine (126.9).",
+        "These exceptions come from the mix of isotopes of each element, not from mistakes in the table."
+      ]
+    },
+    {
+      "h": "Electronic structure",
+      "points": [
+        "Across a period, the number of outer electrons increases by one at each step, all in the same main energy level.",
+        "Down a group, the number of outer electrons stays the same, but a new main energy level is added each time.",
+        "The repeating pattern of outer-electron arrangements causes periodicity: elements with the same outer arrangement fall in the same group."
+      ]
+    },
+    {
+      "h": "Electronegativity",
+      "b": "Electronegativity is the ability of an atom to attract bonding electrons towards itself. Values are on the Pauling scale.",
+      "points": [
+        "Electronegativity increases across a period, e.g. sodium 0.93 to chlorine 3.16 in period 3.",
+        "Electronegativity decreases down a group, e.g. fluorine 3.98 to iodine 2.66 in group 17.",
+        "The explanation for these values is in \"Bond type and intermolecular forces\"."
+      ]
+    },
+    {
+      "h": "Chemical reactivity and the octet rule",
+      "points": [
+        "Atoms react to reach a full outer level of eight electrons (the octet rule), by losing, gaining or sharing electrons.",
+        "Metals react by losing electrons: reactivity increases down group 1 and group 2.",
+        "Across a period, metal reactivity decreases from group 1 to group 2 to group 13.",
+        "Non-metals react by gaining electrons: reactivity decreases down group 17.",
+        "Across a period, non-metal reactivity generally increases towards group 17.",
+        "Noble gases already have a full outer level and are unreactive."
+      ]
+    },
+    {
+      "h": "Physical properties across period 3",
+      "points": [
+        "Sodium, magnesium and aluminium are shiny metals and good conductors.",
+        "Silicon is a metalloid and a semiconductor.",
+        "Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors.",
+        "Melting points rise across period 3 to a maximum at silicon (1414 °C), which has a giant covalent structure.",
+        "Beyond silicon, melting points fall sharply for the molecular non-metals and for argon.",
+        "Down group 1, melting points decrease: lithium 181 °C, sodium 98 °C, potassium 63 °C.",
+        "Down group 17, melting and boiling points increase, so the halogens change from gases to a liquid to a solid."
+      ]
+    },
+    {
+      "h": "Atomic radius and ionisation energy trends (Higher Level only)",
+      "b": "These trends are Higher Level only and are explained in full below.",
+      "points": [
+        "Atomic (covalent) radius decreases across a period and increases down a group.",
+        "First ionisation energy generally increases across a period and decreases down a group.",
+        "Successive ionisation energies of an element always increase.",
+        "Higher Level trends extend to the first 36 elements, to krypton; Ordinary level uses the first 20, to calcium."
+      ]
+    },
+    {
+      "h": "The three factors controlling outer electrons (Higher Level only)",
+      "points": [
+        "Effective nuclear charge: the more protons in the nucleus, the stronger the pull on the outer electrons.",
+        "Distance: the further the outer electrons are from the nucleus (more energy levels), the weaker the pull on them.",
+        "Screening (shielding): inner electrons shield the outer electrons from the full nuclear charge; electrons in the same energy level shield each other very little."
+      ]
+    },
+    {
+      "h": "Atomic (covalent) radius (Higher Level only)",
+      "points": [
+        "Atomic (covalent) radius: half the distance between the nuclei of two atoms of the same element joined by a single covalent bond.",
+        "Across a period it decreases: nuclear charge increases while electrons enter the same main energy level, with little extra screening, so the outer electrons are pulled closer.",
+        "Down a group it increases: each element has an extra energy level, and the extra inner electrons screen the outer electrons, outweighing the increase in nuclear charge.",
+        "Noble gases are not given a covalent radius because they don't form bonds."
+      ]
+    },
+    {
+      "h": "First ionisation energy (Higher Level only)",
+      "points": [
+        "First ionisation energy: the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state: X(g) → X⁺(g) + e⁻.",
+        "Period 2 first ionisation energies (kJ mol⁻¹): Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2081.",
+        "Period 3 first ionisation energies (kJ mol⁻¹): Na 496, Mg 738, Al 578, Si 787, P 1012, S 1000, Cl 1251, Ar 1521.",
+        "Values are standard data book figures, rounded.",
+        "Across a period the value generally increases, because nuclear charge increases and atomic radius decreases, so the outer electron is held more tightly.",
+        "Noble gases have the highest first ionisation energy in each period.",
+        "Down a group the value decreases, because the outer electron is further from the nucleus and more screened, despite the larger nuclear charge.",
+        "Group 1 metals have the lowest values in each period, which is why they lose electrons easily and are so reactive; the value falls to potassium at 419 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Exceptions to the trend across a period (Higher Level only)",
+      "points": [
+        "Beryllium is higher than boron (899 against 801 kJ mol⁻¹) because beryllium's 2s sublevel is full (1s² 2s²), a stable arrangement.",
+        "Boron's outer electron is alone in a 2p orbital (1s² 2s² 2p¹), which is slightly higher in energy and more screened, so it is removed more easily.",
+        "Nitrogen is higher than oxygen (1402 against 1314 kJ mol⁻¹) because nitrogen's 2p sublevel is half full, with one electron in each orbital (2p³), a stable arrangement.",
+        "In oxygen (2p⁴) one 2p orbital holds a pair of electrons, and repulsion between the paired electrons makes one of them easier to remove.",
+        "The same pattern occurs in period 3: magnesium (738) is higher than aluminium (578), and phosphorus (1012) is higher than sulfur (1000).",
+        "Diagram: a graph of first ionisation energy against atomic number for elements 1 to 20, showing peaks at the noble gases, troughs at the alkali metals and small dips after Be, N, Mg and P."
+      ]
+    },
+    {
+      "h": "Successive ionisation energies (Higher Level only)",
+      "points": [
+        "Second ionisation energy: the energy needed to remove an electron from a 1+ ion, not a second electron from the neutral atom: X⁺(g) → X²⁺(g) + e⁻; the third and later follow the same pattern.",
+        "Successive ionisation energies always increase, because each electron is removed from an increasingly positive ion, so the same nuclear charge holds fewer electrons more tightly.",
+        "A very large jump occurs when an electron is removed from a new, inner energy level, which is closer to the nucleus and less screened.",
+        "Magnesium: 738, 1451 and 7733 kJ mol⁻¹; the big jump between the second and third shows two outer electrons, so magnesium is in group 2.",
+        "Sodium: 496 then 4562 kJ mol⁻¹; the big jump after the first shows one outer electron, so sodium is in group 1.",
+        "A graph of the log of successive ionisation energies against electron number for potassium shows jumps that group its electrons into 2, 8, 8 and 1, which is evidence for main energy levels."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Alkali metal", "definition": "A group 1 metal, with one outer electron, that is soft, very reactive and forms 1+ ions." },
-    { "term": "Alkaline earth metal", "definition": "A group 2 metal, with two outer electrons, that forms 2+ ions." },
-    { "term": "Halogen", "definition": "A group 17 non-metal, with seven outer electrons, that gains one electron to form a 1− halide ion." },
-    { "term": "Noble gas", "definition": "A group 18 element that exists as single atoms and is unreactive because its outer energy level is full." },
-    { "term": "Monatomic", "definition": "Describes a substance whose particles are single atoms, as in the noble gases." },
-    { "term": "Displacement reaction", "definition": "A reaction in which a more reactive element takes the place of a less reactive element in a compound." },
-    { "term": "Inert", "definition": "Describes a substance that is very unreactive and does not take part in chemical reactions under normal conditions." },
-    { "term": "Diatomic molecule", "definition": "A molecule made of two atoms of the same element, such as Cl₂." }
+    {
+      "term": "Alkali metal",
+      "definition": "A group 1 metal, with one outer electron, that is soft, very reactive and forms 1+ ions."
+    },
+    {
+      "term": "Alkaline earth metal",
+      "definition": "A group 2 metal, with two outer electrons, that forms 2+ ions."
+    },
+    {
+      "term": "Halogen",
+      "definition": "A group 17 non-metal, with seven outer electrons, that gains one electron to form a 1− halide ion."
+    },
+    {
+      "term": "Noble gas",
+      "definition": "A group 18 element that exists as single atoms and is unreactive because its outer energy level is full."
+    },
+    {
+      "term": "Monatomic",
+      "definition": "Describes a substance whose particles are single atoms, as in the noble gases."
+    },
+    {
+      "term": "Displacement reaction",
+      "definition": "A reaction in which a more reactive element takes the place of a less reactive element in a compound."
+    },
+    {
+      "term": "Inert",
+      "definition": "Describes a substance that is very unreactive and does not take part in chemical reactions under normal conditions."
+    },
+    {
+      "term": "Diatomic molecule",
+      "definition": "A molecule made of two atoms of the same element, such as Cl₂."
+    },
+    {
+      "term": "Atomic number",
+      "definition": "The number of protons in an atom, which increases by one from each element to the next."
+    },
+    {
+      "term": "Relative atomic mass",
+      "definition": "The average mass of an atom of an element compared with one-twelfth of the mass of a carbon-12 atom."
+    },
+    {
+      "term": "Isotopes",
+      "definition": "Atoms of the same element with different numbers of neutrons, which affect the relative atomic mass."
+    },
+    {
+      "term": "Periodicity",
+      "definition": "The repeating pattern of properties across the periodic table, caused by the repeating outer-electron arrangements."
+    },
+    {
+      "term": "Octet rule",
+      "definition": "The tendency of atoms to react to reach a full outer level of eight electrons."
+    },
+    {
+      "term": "Electronegativity",
+      "definition": "The ability of an atom to attract bonding electrons towards itself in a bond."
+    },
+    {
+      "term": "Pauling scale",
+      "definition": "The scale on which electronegativity values are measured, with fluorine the highest at 3.98."
+    },
+    {
+      "term": "Metalloid",
+      "definition": "An element with properties between those of metals and non-metals, such as silicon."
+    },
+    {
+      "term": "Semiconductor",
+      "definition": "A substance whose ability to conduct electricity lies between that of a conductor and an insulator, such as silicon."
+    },
+    {
+      "term": "Giant covalent structure",
+      "definition": "A structure in which atoms are linked by covalent bonds in a continuous network, as in silicon."
+    },
+    {
+      "term": "First ionisation energy",
+      "definition": "The minimum energy needed to remove the most loosely bound electron from a neutral gaseous atom in its ground state, in kJ mol⁻¹."
+    },
+    {
+      "term": "Second ionisation energy",
+      "definition": "The energy needed to remove an electron from a 1+ gaseous ion, X⁺(g) → X²⁺(g) + e⁻."
+    },
+    {
+      "term": "Successive ionisation energies",
+      "definition": "The energies needed to remove each electron in turn from an atom or ion, each one higher than the last."
+    },
+    {
+      "term": "Atomic (covalent) radius",
+      "definition": "Half the distance between the nuclei of two atoms of the same element joined by a single covalent bond."
+    },
+    {
+      "term": "Effective nuclear charge",
+      "definition": "The net positive pull of the nucleus on the outer electrons, which increases with the number of protons."
+    },
+    {
+      "term": "Screening",
+      "definition": "The shielding of outer electrons from the full nuclear charge by inner electrons."
+    },
+    {
+      "term": "Ground state",
+      "definition": "The lowest-energy arrangement of the electrons in an atom."
+    },
+    {
+      "term": "Sublevel",
+      "definition": "A subdivision of a main energy level (s, p or d) that holds a fixed number of electrons."
+    },
+    {
+      "term": "Orbital",
+      "definition": "A region of space within a sublevel that holds at most two electrons of opposite spin."
+    }
   ],
   "questions": [
     {
@@ -101,6 +312,31 @@
       "marks": 6,
       "prompt": "Explain why the noble gases are very unreactive and give one use of argon.",
       "model": "The noble gases have full outer energy levels, which is a stable arrangement: helium has 2 outer electrons and the others have 8. They therefore do not need to gain, lose or share electrons, so they are very unreactive. Argon is used in filament light bulbs, or as a shield gas in welding."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how electronic structure changes (i) across a period, (ii) down a group, and use this to explain the trend in reactivity down group 1.",
+      "model": "(i) Across a period, the number of outer electrons increases by one at each step, all in the same main energy level. (ii) Down a group, the number of outer electrons stays the same, but a new main energy level is added each time. Explanation: elements in group 1 each have one outer electron. Going down the group, the outer electron is in a higher energy level, further from the nucleus and more shielded by inner electrons. It is therefore lost more easily, so reactivity increases down group 1 as metals lose electrons more readily."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe the change in the physical properties of the elements across period 3 from sodium to argon.",
+      "model": "Sodium, magnesium and aluminium are shiny metals and good conductors. Silicon is a metalloid and a semiconductor. Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors, so the elements change from metals through a metalloid to non-metals. Melting points rise across the period to a maximum at silicon (1414 °C), which has a giant covalent structure. Beyond silicon, melting points fall sharply for the molecular non-metals and argon."
+    },
+    {
+      "marks": 12,
+      "prompt": "Define first ionisation energy. Explain why first ionisation energy generally increases across period 2, and why the value for oxygen is lower than for nitrogen.",
+      "model": "First ionisation energy is the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state, X(g) → X⁺(g) + e⁻, measured in kJ mol⁻¹. Across period 2 the first ionisation energy generally increases because the nuclear charge increases and the atomic radius decreases, so the outer electron is held more tightly. Oxygen is lower than nitrogen because nitrogen's 2p sublevel is half full, with one electron in each orbital (2p³), a stable arrangement. In oxygen (2p⁴) one 2p orbital holds a pair of electrons, and repulsion between the paired electrons makes one of them easier to remove."
+    },
+    {
+      "marks": 9,
+      "prompt": "The first three ionisation energies of an element are 738, 1451 and 7733 kJ mol⁻¹. Explain why successive ionisation energies increase, and identify the group of the element, giving your reasoning.",
+      "model": "Successive ionisation energies increase because each electron is removed from an increasingly positive ion, so the same nuclear charge holds fewer electrons more tightly. The very large jump between the second and third values (1451 to 7733 kJ mol⁻¹) occurs when an electron is removed from a new, inner energy level, which is closer to the nucleus and less screened. The element has two outer electrons, so it is in group 2. These are the values for magnesium."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why atomic radius decreases across a period but increases down a group.",
+      "model": "Across a period, the nuclear charge increases while electrons enter the same main energy level, with little extra screening, so the outer electrons are pulled closer and the radius decreases. Down a group, each element has an extra energy level, and the extra inner electrons screen the outer electrons, outweighing the increase in nuclear charge, so the radius increases."
     }
   ]
 }

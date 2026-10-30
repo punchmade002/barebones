@@ -141,17 +141,50 @@
     }
   ],
   "keyTerms": [
-    { "term": "Oxidation", "definition": "The loss of electrons by a substance; in the early definition, the addition of oxygen." },
-    { "term": "Reduction", "definition": "The gain of electrons by a substance; in the early definition, the removal of oxygen or the addition of hydrogen." },
-    { "term": "Redox reaction", "definition": "A reaction in which oxidation and reduction take place together, so that electrons lost by one substance are gained by another." },
-    { "term": "Oxidising agent", "definition": "A substance that brings about oxidation in another by accepting its electrons, and is itself reduced." },
-    { "term": "Reducing agent", "definition": "A substance that brings about reduction in another by giving it electrons, and is itself oxidised." },
-    { "term": "Half-equation", "definition": "An equation showing one process, oxidation or reduction, with the electrons written in." },
-    { "term": "Spectator ion", "definition": "An ion that does not change during a reaction and is left out of the ionic equation." },
-    { "term": "Corrosion", "definition": "The unwanted conversion of a metal to one of its compounds by reaction with its environment." },
-    { "term": "Galvanising", "definition": "Coating iron or steel with zinc so that the zinc protects the iron from corrosion." },
-    { "term": "Sacrificial protection", "definition": "Protecting steel by attaching a more reactive metal, which is oxidised instead of the steel." },
-    { "term": "Oxidation number", "definition": "The charge an atom has, or appears to have, when its bonding electrons are assigned by a set of rules." }
+    {
+      "term": "Oxidation",
+      "definition": "The loss of electrons by a substance; in the early definition, the addition of oxygen."
+    },
+    {
+      "term": "Reduction",
+      "definition": "The gain of electrons by a substance; in the early definition, the removal of oxygen or the addition of hydrogen."
+    },
+    {
+      "term": "Redox reaction",
+      "definition": "A reaction in which oxidation and reduction take place together, so that electrons lost by one substance are gained by another."
+    },
+    {
+      "term": "Oxidising agent",
+      "definition": "A substance that brings about oxidation in another by accepting its electrons, and is itself reduced."
+    },
+    {
+      "term": "Reducing agent",
+      "definition": "A substance that brings about reduction in another by giving it electrons, and is itself oxidised."
+    },
+    {
+      "term": "Half-equation",
+      "definition": "An equation showing one process, oxidation or reduction, with the electrons written in."
+    },
+    {
+      "term": "Spectator ion",
+      "definition": "An ion that does not change during a reaction and is left out of the ionic equation."
+    },
+    {
+      "term": "Corrosion",
+      "definition": "The unwanted conversion of a metal to one of its compounds by reaction with its environment."
+    },
+    {
+      "term": "Galvanising",
+      "definition": "Coating iron or steel with zinc so that the zinc protects the iron from corrosion."
+    },
+    {
+      "term": "Sacrificial protection",
+      "definition": "Protecting steel by attaching a more reactive metal, which is oxidised instead of the steel."
+    },
+    {
+      "term": "Oxidation number",
+      "definition": "The charge an atom has, or appears to have, when its bonding electrons are assigned by a set of rules."
+    }
   ],
   "questions": [
     {

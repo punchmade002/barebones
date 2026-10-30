@@ -1,101 +1,187 @@
-# Package: chem25-s6 — Reaction mechanisms
+# Package: chem25-s6 — Surfactants and soap
 
-- **loId:** `chem25-s6` · **chapterId:** `chem25` · **syllabusRef:** 4.2.10
-- **Syllabus:** 4.2.10 "**describe reaction mechanisms involving movement of electrons,
-  including supporting evidence**". Learn about: "**how to use curved arrows or fishhooks to
-  show the movement of electrons in the following reactions: • ionic addition to ethene of
-  chlorine and hydrogen chloride • free radical substitution reactions of methane and ethane
-  with chlorine**". All bold: the whole subsection is Higher Level only. Mark every block
-  heading " (Higher Level only)".
-- **Prepared by:** a higher model, 2026-10-30. The four named mechanisms with arrow notation and
-  the evidence for each. The definitions of addition and substitution are in "Five types of
-  organic reaction"; sigma and pi bonds in "Shapes: sigma and pi bonds". Don't redefine them.
-  No other mechanisms are required.
+- **loId:** `chem25-s6` · **chapterId:** `chem25` · **syllabusRef:** 4.2.13, 4.2.14
+- **Merged:** this subsection combines "Surfactants and soap" (formerly `chem25-s8`), "Investigation: making soap" (formerly `chem25-s9`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Surfactants and soap (formerly `chem25-s8`)
 
-Key ideas and arrow notation (Higher Level only)
-- [ ] K1 [HL] A reaction mechanism is the step-by-step description of how a reaction happens: which bonds break, which form, and how the electrons move.
-- [ ] K2 [HL] Homolytic fission: a covalent bond breaks so that each atom keeps one of the two bonding electrons, forming two free radicals, e.g. Cl–Cl → Cl• + Cl•.
-- [ ] K3 [HL] Heterolytic fission: a covalent bond breaks so that one atom takes both bonding electrons, forming a positive and a negative ion, e.g. Cl–Cl → Cl⁺ + Cl⁻.
-- [ ] K4 [HL] A free radical is an atom or group of atoms with an unpaired electron, shown by a dot (Cl•, •CH₃); free radicals are very reactive and short-lived.
-- [ ] K5 [HL] A curved arrow (full arrowhead) shows the movement of a pair of electrons, drawn from where the pair starts (a bond or lone pair) to where it ends up.
-- [ ] K6 [HL] A fishhook (half-arrowhead) shows the movement of a single electron; two fishhooks from one bond show homolytic fission.
-- [ ] K7 [HL] A carbocation (carbonium ion) is an ion with a positive charge on a carbon atom, e.g. CH₂ClCH₂⁺ or CH₃CH₂⁺.
-- [ ] K8 [HL] A chain reaction is one in which a product of one step is a reactant in another, so the reaction keeps itself going.
+- **loId:** `chem25-s8` · **chapterId:** `chem25` · **syllabusRef:** 4.2.13
+- **Syllabus:** 4.2.13 "outline how a soap works, as an example of a surfactant, and the
+  applications of surfactants in everyday life". Learn about: "how the use of surfactants has
+  made significant contributions to the health and sanitisation of society". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. Structure of a soap ion, how it removes grease
+  (micelles), soap in hard water, synthetic detergents, everyday applications, and the health
+  and sanitation contribution (cross-cutting theme: Health; Sustainability for detergent
+  pollution). How soap is made from fats is in "Redox and acid–base reactions of organic
+  compounds" and "Investigation: making soap"; intermolecular forces and polarity are in
+  "Physical properties and acidity". Don't repeat the saponification equation.
 
-Free radical substitution: methane and chlorine (Higher Level only)
-- [ ] F1 [HL] Overall: CH₄ + Cl₂ → CH₃Cl + HCl, in ultraviolet light (monochlorination).
-- [ ] F2 [HL] Initiation: UV light causes homolytic fission of chlorine molecules: Cl₂ → 2Cl•. Draw two fishhooks from the Cl–Cl bond, one to each Cl atom.
-- [ ] F3 [HL] Propagation step 1: a chlorine radical takes a hydrogen atom from methane: Cl• + CH₄ → HCl + •CH₃ (methyl radical).
-- [ ] F4 [HL] Propagation step 2: the methyl radical takes a chlorine atom from a chlorine molecule: •CH₃ + Cl₂ → CH₃Cl + Cl•. The Cl• formed starts step 1 again, so the two propagation steps form a chain reaction.
-- [ ] F5 [HL] Termination: two radicals combine, removing radicals and ending a chain: Cl• + Cl• → Cl₂; •CH₃ + Cl• → CH₃Cl; •CH₃ + •CH₃ → C₂H₆ (ethane).
-- [ ] F6 [HL] With more chlorine, further substitution gives dichloromethane, trichloromethane and tetrachloromethane, so a mixture of products is formed.
+### 1. Must cover
 
-Free radical substitution: ethane and chlorine (Higher Level only)
-- [ ] E1 [HL] Overall: C₂H₆ + Cl₂ → C₂H₅Cl + HCl (chloroethane), in UV light.
-- [ ] E2 [HL] Initiation: Cl₂ → 2Cl•.
-- [ ] E3 [HL] Propagation: Cl• + C₂H₆ → HCl + •C₂H₅ (ethyl radical); •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•.
-- [ ] E4 [HL] Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀ (butane).
+What a surfactant is (one block)
+- [ ] D1 A surfactant (surface-active agent) is a substance whose molecules or ions have a water-attracting (hydrophilic) part and a water-repelling (hydrophobic) part; dissolved in water, it lowers the surface tension, helping water wet surfaces and mix with oil and grease.
+- [ ] D2 Soap is a surfactant: the sodium (or potassium) salt of a long-chain carboxylic acid (fatty acid), e.g. sodium stearate, C₁₇H₃₅COO⁻Na⁺ (sodium octadecanoate). Potassium soaps are softer and are used in liquid soaps.
 
-Evidence for the free radical mechanism (Higher Level only)
-- [ ] V1 [HL] The reaction does not happen in the dark at room temperature but starts in UV light: UV light supplies the energy to split Cl₂ into radicals (initiation).
-- [ ] V2 [HL] Thousands of molecules of product form for every photon of light absorbed: one radical starts a long chain of propagation steps (a chain reaction).
-- [ ] V3 [HL] Traces of ethane form in the chlorination of methane (and traces of butane in the chlorination of ethane): these can only come from two methyl (or two ethyl) radicals joining in termination, so the radicals must exist.
-- [ ] V4 [HL] The ethane (or butane) is only a trace because termination is rare: radicals are present at very low concentration, so a radical is far more likely to collide with a CH₄ or Cl₂ molecule than with another radical.
-- [ ] V5 [HL] Adding a substance that produces free radicals, such as tetramethyl lead, speeds up the reaction, showing radicals are involved.
-- [ ] V6 [HL] Adding oxygen, which combines with free radicals, slows the reaction, showing that a radical chain is being broken.
+Structure of a soap ion (one block)
+- [ ] S1 The head, the carboxylate group –COO⁻, is ionic and hydrophilic: it is attracted to polar water molecules (ion–dipole attraction) and dissolves in water.
+- [ ] S2 The tail, a long hydrocarbon chain (about 12–18 carbon atoms), is non-polar and hydrophobic: it does not mix with water but dissolves in grease and oil (both held by London dispersion forces).
+- [ ] S3 This dual nature lets one ion interact with both water and grease; soap can dissolve both the non-polar oils and (through its ionic heads and the water) the salts in sweat on skin.
+- [ ] S4 Diagram: a soap ion drawn as a long zig-zag tail with a circled –COO⁻ head and a separate Na⁺ ion, labelled hydrophobic tail and hydrophilic head.
 
-Ionic addition: ethene and chlorine (Higher Level only)
-- [ ] C1 [HL] Overall: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl (1,2-dichloroethane).
-- [ ] C2 [HL] Step 1, polarisation: the C=C double bond is a region of high electron density (the pi electrons); as a Cl₂ molecule approaches, these electrons repel the electrons of the Cl–Cl bond, inducing a dipole Clδ⁺–Clδ⁻.
-- [ ] C3 [HL] Step 2, heterolytic fission: the Cl–Cl bond breaks, both electrons going to the further Cl atom, giving Cl⁺ and Cl⁻. Curved arrow from the Cl–Cl bond to the Clδ⁻ atom.
-- [ ] C4 [HL] Step 3, carbocation formation: the pair of pi electrons forms a bond to Cl⁺; one carbon now bonds to Cl and the other carbon, having lost its share of the pi pair, carries a positive charge: CH₂ClCH₂⁺. Curved arrow from the C=C pi bond to the Cl⁺.
-- [ ] C5 [HL] Step 4, attack by the negative ion: Cl⁻ uses a lone pair to bond to the positive carbon, giving 1,2-dichloroethane. Curved arrow from a lone pair on Cl⁻ to the C⁺.
-- [ ] C6 [HL] It is called ionic addition because the two parts add as ions, one after the other.
+How soap removes grease (one block, in order)
+- [ ] W1 In water, the soap lowers the surface tension so the water spreads over and wets the greasy surface or fabric.
+- [ ] W2 The hydrophobic tails dissolve in the grease or oil; the hydrophilic heads stay in the water, at the surface of the grease.
+- [ ] W3 Rubbing or agitation breaks the grease into tiny droplets, each surrounded by soap ions.
+- [ ] W4 Each droplet becomes a micelle: a sphere with the grease and tails inside and the negatively charged heads facing out into the water.
+- [ ] W5 The negative surfaces of the micelles repel one another, so the droplets don't join up again and stay dispersed in the water as an emulsion (emulsification).
+- [ ] W6 Rinsing carries the micelles away, with the dirt and microorganisms trapped in the grease.
+- [ ] W7 Diagram: a micelle: oil droplet in the centre, soap tails pointing inward into it, heads (–COO⁻) on the outside in water.
 
-Ionic addition: ethene and hydrogen chloride (Higher Level only)
-- [ ] H1 [HL] Overall: CH₂=CH₂ + HCl → CH₃CH₂Cl (chloroethane).
-- [ ] H2 [HL] The H–Cl bond is already polar (Hδ⁺–Clδ⁻), because chlorine is more electronegative, so no dipole needs to be induced.
-- [ ] H3 [HL] Step 1: the pi electrons of C=C form a bond to the Hδ⁺ atom and the H–Cl bond breaks heterolytically, giving Cl⁻ and the carbocation CH₃CH₂⁺. Curved arrows: from the pi bond to H, and from the H–Cl bond to Cl.
-- [ ] H4 [HL] Step 2: Cl⁻ bonds to the positive carbon, giving chloroethane. Curved arrow from a lone pair on Cl⁻ to C⁺.
-- [ ] H5 [HL] Evidence that the H–X bond breaks in the mechanism: the rate of addition to ethene increases in the order HF < HCl < HBr < HI, the order in which the H–X bond gets weaker.
+Soap in hard water and synthetic detergents (one block)
+- [ ] H1 Hard water contains Ca²⁺ and Mg²⁺ ions (e.g. water from limestone regions); these form an insoluble scum with soap ions: 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s).
+- [ ] H2 So in hard water soap forms scum and lathers poorly until the hardness ions have all been precipitated, wasting soap; in deionised (soft) water soap lathers easily.
+- [ ] H3 Synthetic detergents (soapless detergents) have a similar head-and-tail structure but a different head, e.g. a sulfonate group (–SO₃⁻) in alkylbenzene sulfonates; their calcium and magnesium salts are soluble, so they work well in hard water and form no scum.
+- [ ] H4 Surfactants are grouped by the head: anionic (negative head, e.g. soaps and sulfonates in washing-up liquid and laundry detergent), cationic (positive head, e.g. quaternary ammonium compounds in fabric conditioners and some disinfectants) and non-ionic (uncharged head, used in many cleaning products).
 
-Evidence for the ionic addition mechanism (Higher Level only)
-- [ ] I1 [HL] When ethene reacts with chlorine water (chlorine dissolved in water), the products include 2-chloroethanol, CH₂ClCH₂OH, as well as 1,2-dichloroethane.
-- [ ] I2 [HL] The 2-chloroethanol forms because a water molecule (with lone pairs on its oxygen) attacks the carbocation instead of Cl⁻, then loses H⁺.
-- [ ] I3 [HL] This shows the reaction happens in steps through a positively charged intermediate: if both chlorine atoms added at the same moment, no 2-chloroethanol could form.
-- [ ] I4 [HL] Similarly, ethene with bromine water containing sodium chloride gives 1-bromo-2-chloroethane, CH₂BrCH₂Cl, as well as 1,2-dibromoethane: the Cl⁻ ions in the solution attack the carbocation, but no 1,2-dichloroethane forms, because the first atom to add is always from Br₂.
+Applications in everyday life (one block)
+- [ ] A1 Cleaning: bar and liquid soaps, hand wash, shower gel, shampoo, washing-up liquid, laundry detergent, household and industrial surface cleaners.
+- [ ] A2 Personal care: toothpaste (sodium lauryl sulfate is the foaming agent), shampoo, cosmetics and creams (as emulsifiers that keep oil and water mixed).
+- [ ] A3 Food: emulsifiers such as lecithin keep oil and water mixed in mayonnaise, chocolate and margarine.
+- [ ] A4 Other uses: fabric conditioners; wetting agents in paints, inks and agricultural sprays (so the spray spreads over leaves); firefighting foams; dispersants that break up oil spills at sea.
 
-Comparing the two mechanisms (Higher Level only)
-- [ ] Z1 [HL] Free radical substitution: alkanes; homolytic fission; needs UV light; radical intermediates; fishhook arrows.
-- [ ] Z2 [HL] Ionic addition: alkenes; heterolytic fission; no light needed; carbocation intermediate; curved arrows.
-- [ ] Z3 [HL] Diagram: the four steps of ionic addition of Cl₂ to ethene, with the δ⁺ and δ⁻ charges, the carbocation and every curved arrow; and the initiation step of chlorination with two fishhooks.
+Health, sanitation and the environment (one block)
+- [ ] E1 Handwashing with soap removes microorganisms from the skin in the micelles and rinse water; it is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza.
+- [ ] E2 Soap also destroys enveloped viruses (e.g. influenza viruses and the coronavirus SARS-CoV-2): the hydrophobic tails insert into the virus's fatty (lipid) outer membrane and break it apart.
+- [ ] E3 Public-health advice (e.g. during the COVID-19 pandemic) was to wash hands with soap and water, scrubbing for at least 20 seconds.
+- [ ] E4 Detergents used in laundry, dishwashing, hospitals and food processing remove grease that shelters bacteria, improving hygiene in homes, hospitals and the food industry.
+- [ ] E5 Sustainability: early synthetic detergents with branched hydrocarbon chains were not biodegradable and caused foam on rivers in the 1950s–1960s; they were replaced by biodegradable linear-chain detergents.
+- [ ] E6 Sustainability: phosphates added to some detergents (as builders) can cause eutrophication of lakes and rivers, so their use has been restricted, e.g. in laundry detergents in the EU.
 
-## 2. Checked facts and examples
+### 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| V5 | Tetramethyl lead, Pb(CH₃)₄, is a source of methyl radicals. |
-| V3 | Ethane is a trace by-product of the chlorination of methane; butane of the chlorination of ethane. |
-| I1 | Chlorine water + ethene gives 2-chloroethanol as well as 1,2-dichloroethane. |
+| D2 | Sodium stearate C₁₇H₃₅COONa (sodium octadecanoate). |
+| A2 | Sodium lauryl sulfate (sodium dodecyl sulfate) is a common foaming agent in toothpaste and shampoo. |
+| A3 | Lecithin (e.g. from soya or egg yolk) is a natural emulsifier. |
+| E2 | SARS-CoV-2, the virus that causes COVID-19, is an enveloped virus. |
+| E3 | Hand-washing advice: scrub with soap for at least 20 seconds (advice of the US Centers for Disease Control and Prevention, CDC). |
+| E6 | The EU restricted phosphates in household laundry detergents from 2013 and in household dishwasher detergents from 2017. |
 
-## 3. Traps
+### 3. Traps
 
-- Fishhooks for single electrons (radicals); full curved arrows for pairs. Arrows start at the electrons (bond or lone pair), not at an atom's symbol.
-- Initiation needs UV light, not heat in this course; the reaction does not happen in the dark at room temperature.
-- In propagation step 1 the products are HCl and •CH₃, not CH₃Cl and H•.
-- The ethane trace is evidence for the mechanism; it is only a trace because termination is rare.
-- Only the four named mechanisms are required; don't add mechanisms for other reactions.
+- The head is hydrophilic and the tail hydrophobic; don't reverse them.
+- In a micelle the tails point inward (into the grease) and the heads outward (into the water).
+- Soap doesn't "dissolve" grease in water directly; it emulsifies it into micelles that are rinsed away.
+- Hard water hardness ions are Ca²⁺ and Mg²⁺, not Na⁺. Water-hardness analysis (EDTA titration) is not on the specification.
+- Detergent pollution facts belong here only as surfactant applications and impacts; water treatment is in other notes.
 
-## 4. What exams ask (topics only)
+### 4. What exams ask (topics only)
 
-- Describe the mechanism of the monochlorination of methane or ethane, with equations for initiation, propagation and termination; explain "free radical".
-- Three pieces of evidence for the free radical mechanism, and how each supports it; why only a trace of ethane or butane forms.
-- Describe the ionic addition of chlorine or HCl to ethene; give evidence for the ionic mechanism.
+- How soap removes grease; the structure of a soap ion; hydrophilic and hydrophobic parts; micelles.
+- How soap can dissolve both the oils and the salts in sweat, with reference to its structure.
+- What is seen when soap is shaken with deionised water and with hard water.
+- Applications of surfactants; how surfactants have improved health and sanitation.
 
-## 5. Practice questions to write
+### 5. Practice questions to write
 
-1. 15 marks (Higher Level): "Describe the mechanism of the reaction between ethane and chlorine in ultraviolet light to form chloroethane. State two pieces of evidence for the mechanism and explain how each supports it." Model answer: E1–E4 (with fishhooks in initiation, K6); evidence V1 or V2, and V3 (butane); V4.
-2. 12 marks (Higher Level): "Describe, using curved arrows, the mechanism of the addition of chlorine to ethene. Explain how the formation of 2-chloroethanol when ethene reacts with chlorine water supports this mechanism." Model answer: C2–C5; I1–I3.
-3. 6 marks (Higher Level): "Distinguish between homolytic and heterolytic fission, giving an example of each from the reactions of chlorine." Model answer: K2, K3, with F2 and C3 as the examples.
+1. 12 marks: "Explain, with the aid of a labelled diagram, how soap removes grease from skin. Use the terms hydrophilic, hydrophobic and micelle." Model answer: S1, S2, W1–W6, W7 diagram.
+2. 9 marks: "Explain why soap forms a scum in hard water, giving an equation, and why synthetic detergents do not. Give two everyday applications of surfactants other than washing hands." Model answer: H1, H2, H3; any two of A1–A4.
+3. 6 marks: "Outline two ways in which surfactants have contributed to the health and sanitation of society." Model answer: any two of E1, E2, E4.
+
+## Part: Investigation: making soap (formerly `chem25-s9`)
+
+- **loId:** `chem25-s9` · **chapterId:** `chem25` · **syllabusRef:** 4.2.14
+- **Syllabus:** 4.2.14 "conduct an activity to prepare soap, with NaOH either limiting or in
+  excess". Learn about: "a simple activity, using household reactants, to manufacture soap on a
+  small scale **and the consequences of having limiting or excess NaOH for the manufacture of
+  soap** (reflux method not required)". The activity is for everyone; the consequences of
+  limiting or excess NaOH are Higher Level only.
+- **Prepared by:** a higher model, 2026-10-30. A small-scale activity with vegetable oil and
+  sodium hydroxide, salting out, washing and testing, run once with NaOH in excess and once
+  with NaOH limiting; then a Higher Level block on the consequences, with a sample calculation.
+  The saponification equation and the tri-ester structure of fats are in "Redox and acid–base
+  reactions of organic compounds"; how soap works and hard water are in "Surfactants and soap";
+  limiting-reagent method in "Limiting reagents". Refer to them; don't repeat them.
+
+### 1. Must cover
+
+Aim and chemistry (one block)
+- [ ] A1 Aim: to make soap on a small scale from household reactants by base hydrolysis (saponification) of a fat or oil with sodium hydroxide, and to compare the product when sodium hydroxide is limiting and when it is in excess.
+- [ ] A2 Word equation: fat or oil + sodium hydroxide → soap (sodium salts of fatty acids) + glycerol; 1 mol of fat reacts with 3 mol of NaOH.
+- [ ] A3 Household reactants: a vegetable oil or fat (e.g. olive, sunflower or coconut oil, or lard), sodium hydroxide (sold as caustic soda), water and table salt (for brine).
+- [ ] A4 A reflux method is not required: the mixture is heated gently in an open container in a water bath.
+
+Method (Investigation block, one step per bullet)
+- [ ] M1 Weigh a known mass of oil (e.g. 10 g) into a beaker or evaporating basin.
+- [ ] M2 Add a measured volume of sodium hydroxide solution of known concentration (with a little ethanol, if available, as a solvent in which both the oil and the sodium hydroxide dissolve, so they mix and react faster).
+- [ ] M3 Heat gently in a water bath, stirring continuously, for about 20–30 minutes, adding a little water if the mixture dries out; it becomes thick and creamy as soap forms.
+- [ ] M4 Pour the mixture into a beaker of saturated salt solution (brine) and stir; the soap separates as solid curds ("salting out"), because soap is much less soluble in concentrated salt solution than in water.
+- [ ] M5 Collect the soap by filtration (or skim it off), and wash it with a little ice-cold water; warm water would dissolve the soap.
+- [ ] M6 Press the soap dry between filter papers, leave it to dry and weigh it.
+- [ ] M7 Repeat with the same mass of oil but a different amount of sodium hydroxide, so that one batch has NaOH in excess and the other has NaOH limiting (see the calculation block).
+
+Testing the soap (one block)
+- [ ] T1 Shake a little soap with deionised water: it forms a lather (and the solution is slightly alkaline, about pH 9–10).
+- [ ] T2 Shake a little soap with hard water (e.g. mineral water from a limestone region): a scum forms and there is little lather.
+- [ ] T3 Test a solution of each batch with universal indicator or a pH meter: soap made with excess NaOH has a much higher pH unless the NaOH has been washed out.
+- [ ] T4 Look and feel (with gloves): soap from a batch with limiting NaOH is greasy and soft, with an oily layer of unreacted oil.
+- [ ] T5 Where things end up: the glycerol co-product and any excess sodium hydroxide are dissolved in the brine filtrate, not in the soap (once the soap is washed).
+
+Why each choice (one block)
+- [ ] W1 Heating speeds up the hydrolysis, which is slow at room temperature; a water bath gives gentle, even heat and avoids a flame (ethanol, if used, is flammable).
+- [ ] W2 Stirring mixes the oil with the aqueous sodium hydroxide, which don't mix by themselves, so they keep reacting.
+- [ ] W3 Brine separates the soap from glycerol, water and excess NaOH, all of which stay in solution.
+- [ ] W4 Washing with ice-cold water removes NaOH and glycerol from the soap surface without dissolving much soap.
+
+Safety and errors (one block)
+- [ ] S1 Sodium hydroxide is corrosive and especially harmful to the eyes: wear goggles and gloves; add it carefully, as dissolving NaOH in water is exothermic.
+- [ ] S2 Don't use the product on skin: it may contain unreacted sodium hydroxide.
+- [ ] S3 Sources of error: soap lost in the brine and washings; wet soap weighed (mass too high); reaction not complete in the time allowed; household oils are mixtures, so the mass of NaOH needed can only be estimated.
+- [ ] S4 Diagram: beaker of oil and sodium hydroxide solution in a water bath, with a stirring rod and a thermometer; and a filter funnel collecting the soap from the brine.
+
+Consequences of limiting or excess NaOH (Higher Level only)
+- [ ] L1 [HL] If NaOH is limiting, not all the fat is hydrolysed: the yield of soap is set by the moles of NaOH, and unreacted fat or oil remains, making the soap greasy, soft and wasteful of oil (and the leftover oil can go rancid).
+- [ ] L2 [HL] If NaOH is in excess, all the fat is converted, giving the maximum yield of soap from the fat, but the product contains free NaOH: it is caustic, has a high pH and irritates or burns skin.
+- [ ] L3 [HL] So excess NaOH must be removed, by washing the soap with brine or water, or by neutralisation; excess NaOH is also wasted reagent and makes the waste liquid strongly alkaline.
+- [ ] L4 [HL] Manufacturers calculate the exact amount of NaOH for the fat used, then wash the soap with brine to remove any excess; small-scale soap makers often use slightly less NaOH than needed (leaving a little unreacted oil, called superfatting) so that no free NaOH remains and the soap is gentler.
+- [ ] L5 [HL] The amount needed follows from the 1 : 3 ratio fat : NaOH; for a real oil it is estimated, because oils are mixtures of different tri-esters.
+
+Sample calculation (Higher Level only; one step per bullet; sample data)
+- [ ] C1 [HL] Model fat: glyceryl tristearate, M = 890 g mol⁻¹; sodium stearate (soap), M = 306 g mol⁻¹; NaOH, M = 40 g mol⁻¹. 8.90 g of fat = 8.90 ÷ 890 = 0.0100 mol, which needs 3 × 0.0100 = 0.0300 mol NaOH = 1.20 g.
+- [ ] C2 [HL] Batch 1, NaOH in excess: 2.00 g NaOH = 0.0500 mol; 0.0300 mol reacts, 0.0200 mol (0.800 g) is left over. Fat is limiting: soap = 3 × 0.0100 = 0.0300 mol × 306 = 9.18 g.
+- [ ] C3 [HL] Batch 2, NaOH limiting: 1.00 g NaOH = 0.0250 mol, less than the 0.0300 mol needed. Soap = 0.0250 mol × 306 = 7.65 g.
+- [ ] C4 [HL] In batch 2, fat used = 0.0250 ÷ 3 = 0.00833 mol; fat left unreacted = 0.0100 − 0.00833 = 0.001667 mol (keep the extra figure until the end); 0.001667 × 890 = 1.48 g.
+- [ ] C5 [HL] Conclusion: batch 1 gives more soap (9.18 g) but contains 0.800 g of corrosive NaOH to be washed out; batch 2 gives less soap (7.65 g) mixed with 1.48 g of unreacted fat.
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| C1 | M(glyceryl tristearate, C₅₇H₁₁₀O₆) = 890; M(sodium stearate, C₁₈H₃₅O₂Na) = 306; M(NaOH) = 40; M(glycerol) = 92 g mol⁻¹. |
+| T1 | A solution of pure soap is mildly alkaline, about pH 9–10. |
+| A3 | Caustic soda is the common name for sodium hydroxide. |
+
+C1–C5 are sample data; arithmetic checked.
+
+### 3. Traps
+
+- Reflux is not required by this specification (older papers used reflux with ethanol and then distilled off the ethanol); don't present reflux as the required method.
+- Excess NaOH means maximum soap from the fat but caustic soap; limiting NaOH means less soap and leftover fat. Don't say excess NaOH gives "more soap than the fat allows".
+- Wash with ice-cold water, not warm.
+- The co-product glycerol stays in the filtrate, not in the soap.
+- Limiting-reagent calculations in general are in "Limiting reagents"; here only the soap example is worked.
+
+### 4. What exams ask (topics only)
+
+- The reactants and the co-product of soap-making; the structure of glycerol.
+- Why brine is added; why the soap is washed and with what.
+- Where the co-product and excess NaOH are at the end.
+- What is seen when the soap is shaken with deionised water and with hard water.
+- Maximum mass of soap from a given mass of fat (with NaOH in excess); consequences of limiting or excess NaOH (Higher Level).
+
+### 5. Practice questions to write
+
+1. 12 marks: "Describe a simple activity to make a small sample of soap from vegetable oil and sodium hydroxide, explaining the purpose of the brine and of washing the soap with ice-cold water." Model answer: M1–M6, W3, W4, S1.
+2. 9 marks (Higher Level): "Explain the consequences for the soap produced of using (i) too little sodium hydroxide, (ii) too much sodium hydroxide, and state how manufacturers deal with this." Model answer: L1, L2, L3, L4.
+3. 9 marks (Higher Level): "4.45 g of glyceryl tristearate (M = 890) was heated with 0.400 g of sodium hydroxide. Show which reagent is limiting and calculate the maximum mass of sodium stearate (M = 306) that could form (sample data)." Model answer: fat = 0.00500 mol, needs 0.0150 mol NaOH; NaOH = 0.400 ÷ 40 = 0.0100 mol, so NaOH is limiting; soap = 0.0100 × 306 = 3.06 g; unreacted fat = (0.005000 − 0.003333) × 890 = 0.001667 × 890 = 1.48 g.

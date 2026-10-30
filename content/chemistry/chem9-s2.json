@@ -1,82 +1,225 @@
 {
   "loId": "chem9-s2",
   "chapterId": "chem9",
-  "subsection": "2. Evidence for the kinetic theory",
-  "syllabusRef": "1.1.1",
+  "subsection": "2. Using the kinetic theory: separation techniques",
+  "syllabusRef": "1.1.2, 1.1.3",
   "notes": [
     {
-      "h": "The kinetic theory of matter",
-      "b": "The kinetic theory states that matter is particles in motion. Effects we can see provide evidence for particles we cannot see.",
+      "h": "Explaining the properties of the states",
       "points": [
-        "The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.",
-        "The particles have kinetic energy, and the higher the temperature, the faster they move.",
-        "The average kinetic energy of the particles is proportional to the temperature in kelvin.",
-        "The evidence for the theory comes from effects we can see that are caused by particles we cannot see."
+        "Solids have a fixed shape and volume and cannot be compressed: the particles are held tightly in fixed positions by strong forces and only vibrate.",
+        "Liquids have a fixed volume but take the shape of their container and flow: the particles are close together but can slide past one another.",
+        "Gases fill their container and are easily compressed: the particles are far apart, with weak forces between them, and move rapidly and randomly.",
+        "Gas pressure is caused by gas particles colliding with the walls of the container."
       ]
     },
     {
-      "h": "Brownian motion (investigation)",
-      "b": "Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid.",
+      "h": "Changes of state",
+      "b": "Each change of state is explained by the energy of the particles and the forces between them.",
       "points": [
-        "Robert Brown, a botanist, first observed Brownian motion in 1827, using pollen grains in water.",
-        "Aim: to observe the motion of smoke particles in air as evidence for the kinetic theory.",
-        "Step 1: Fill a small glass cell with smoke and cover it.",
-        "Step 2: Light the cell from the side.",
-        "Step 3: View the cell through a microscope.",
-        "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.",
-        "Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.",
-        "The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.",
-        "Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.",
-        "Diagram: a smoke cell lit from the side under a microscope, and the zig-zag path of one smoke particle."
+        "Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another; this happens at the melting point.",
+        "Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.",
+        "Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and the remaining liquid cools.",
+        "Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour form within the liquid.",
+        "Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.",
+        "Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.",
+        "Deposition (gas to solid directly), the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.",
+        "Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition."
       ]
     },
     {
-      "h": "Diffusion of gases (investigation)",
-      "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion.",
+      "h": "Heating curve",
       "points": [
-        "Diffusion needs no stirring or currents; it results from the random motion of the particles alone.",
-        "Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.",
-        "The bromine jars are evenly coloured when the vapour has diffused through both jars.",
-        "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard and gloves."
+        "When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.",
+        "During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy, so the temperature does not rise.",
+        "The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.",
+        "The boiling plateau is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.",
+        "Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C."
       ]
     },
     {
-      "h": "Ammonia and hydrogen chloride experiment",
+      "h": "Assumptions of the model (Higher Level only)",
+      "b": "The kinetic theory is a model. Its assumptions and limitations show when it explains behaviour well and when it does not.",
       "points": [
-        "Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.",
-        "Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).",
-        "The ring forms nearer the hydrochloric acid end of the tube.",
-        "Explanation: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
-        "Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.",
-        "Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end."
+        "Assumption: the particles are tiny spheres in constant, random motion.",
+        "Assumption: the higher the temperature, the greater the average kinetic energy of the particles.",
+        "Assumption: collisions between particles are perfectly elastic, so no kinetic energy is lost.",
+        "Assumption: in a gas the volume of the particles themselves is negligible, and there are no forces between the particles except during collisions.",
+        "Limitation: real particles are not hard spheres, and they do attract one another; the forces between particles are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.",
+        "Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points; that needs the types of bonding and intermolecular forces (see “Intermolecular forces and physical properties”).",
+        "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative, giving no values.",
+        "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, so gases deviate from the model (see “Gas relationships and the ideal gas”)."
       ]
     },
     {
-      "h": "Diffusion in liquids",
+      "h": "Choosing a technique",
+      "b": "Choose the technique from the physical property in which the components differ.",
       "points": [
-        "Diffusion also happens in liquids, e.g. a crystal of potassium manganate(VII) slowly colours still water purple.",
-        "Diffusion is much slower in liquids than in gases, because the particles are closer together and collide more often."
+        "Particle size and solubility separate by filtration; solubility and volatility by evaporation and crystallisation; boiling point by distillation; solubility in a solvent and attraction to paper by chromatography; immiscibility and density by a separating funnel.",
+        "Heterogeneous mixtures, such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting or a separating funnel.",
+        "Homogeneous mixtures, such as solutions and miscible liquids, need evaporation, crystallisation, distillation or chromatography."
+      ]
+    },
+    {
+      "h": "Filtration",
+      "b": "Filtration separates an insoluble solid from a liquid.",
+      "points": [
+        "Example: sand is separated from salt solution by filtration.",
+        "Step 1: Fold filter paper into a cone and place it in a funnel.",
+        "Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.",
+        "Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate."
+      ]
+    },
+    {
+      "h": "Evaporation and crystallisation",
+      "points": [
+        "Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water; it is used when the solid does not decompose on heating.",
+        "Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated; a drop on a cold glass rod forms crystals when it is saturated.",
+        "Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.",
+        "Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.",
+        "Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution."
+      ]
+    },
+    {
+      "h": "Distillation",
+      "b": "Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour.",
+      "points": [
+        "Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.",
+        "Step 1: Heat the mixture in a flask containing anti-bumping granules.",
+        "Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser.",
+        "Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.",
+        "Step 4: The distillate is collected in a receiving flask.",
+        "Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.",
+        "Fractional distillation separates miscible liquids with close boiling points, using a fractionating column, e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).",
+        "Crude oil is separated into fractions by fractional distillation.",
+        "Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, and a closed system is never heated.",
+        "Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser with water flow, and a receiving flask."
+      ]
+    },
+    {
+      "h": "Paper chromatography",
+      "b": "Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators.",
+      "points": [
+        "Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.",
+        "Step 2: Put small spots of the mixture and of known substances on the line.",
+        "Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots.",
+        "Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front.",
+        "Principle: components that are more soluble in the solvent (the mobile phase) and less attracted to the paper (the stationary phase) travel further.",
+        "Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.",
+        "Components are identified by matching their spots and Rf values with those of known substances.",
+        "Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots."
+      ]
+    },
+    {
+      "h": "Separating funnel",
+      "b": "A separating funnel separates two immiscible liquids of different density.",
+      "points": [
+        "Examples: oil and water, or an organic layer from an aqueous layer, which is used to purify an ester.",
+        "Step 1: Pour the mixture into the separating funnel and let the layers settle.",
+        "Step 2: Remove the stopper and run off the lower, denser layer through the tap.",
+        "Step 3: Collect the upper layer separately.",
+        "Diagram: a separating funnel with two layers, the stopper and the tap labelled."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Kinetic theory of matter", "definition": "The theory that all matter is made of particles in constant, random motion, with energy that increases with temperature." },
-    { "term": "Brownian motion", "definition": "The continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid, caused by collisions with invisible molecules." },
-    { "term": "Diffusion", "definition": "The spreading of particles from a region of high concentration to a region of low concentration until they are evenly mixed." },
-    { "term": "Kinetic energy", "definition": "The energy a particle has because it is moving." },
-    { "term": "Ammonium chloride", "definition": "The white solid NH₄Cl that forms when ammonia and hydrogen chloride gases meet and react." },
-    { "term": "Random motion", "definition": "Movement in no fixed direction, in which particles travel in all directions and collide with one another." }
+    {
+      "term": "Melting",
+      "definition": "The change of state from solid to liquid when the particles gain enough energy to move past one another."
+    },
+    {
+      "term": "Freezing",
+      "definition": "The change of state from liquid to solid as the particles lose energy and are pulled into fixed positions."
+    },
+    {
+      "term": "Evaporation",
+      "definition": "The escape of the fastest-moving particles from the surface of a liquid at any temperature below the boiling point."
+    },
+    {
+      "term": "Boiling",
+      "definition": "The change of state from liquid to gas throughout the liquid, at the boiling point, with bubbles of vapour forming within it."
+    },
+    {
+      "term": "Condensation",
+      "definition": "The change of state from gas to liquid as the particles are cooled and pulled close together."
+    },
+    {
+      "term": "Sublimation",
+      "definition": "The change of state from solid directly to gas, without melting."
+    },
+    {
+      "term": "Deposition",
+      "definition": "The change of state from gas directly to solid, without becoming a liquid."
+    },
+    {
+      "term": "Heating curve",
+      "definition": "A graph of temperature against time for a substance heated at a steady rate, with flat sections at its melting and boiling points."
+    },
+    {
+      "term": "Filtration",
+      "definition": "A technique that separates an insoluble solid from a liquid by passing the mixture through filter paper."
+    },
+    {
+      "term": "Residue",
+      "definition": "The solid that remains on the filter paper after filtration."
+    },
+    {
+      "term": "Filtrate",
+      "definition": "The liquid that passes through the filter paper during filtration."
+    },
+    {
+      "term": "Crystallisation",
+      "definition": "A technique that forms pure crystals by evaporating some solvent from a solution, then cooling it slowly."
+    },
+    {
+      "term": "Distillation",
+      "definition": "A technique that separates liquids by boiling the mixture and condensing the vapour that is given off."
+    },
+    {
+      "term": "Fractional distillation",
+      "definition": "Distillation using a fractionating column to separate miscible liquids with close boiling points."
+    },
+    {
+      "term": "Immiscible",
+      "definition": "Describes liquids that do not mix, forming two separate layers."
+    },
+    {
+      "term": "Paper chromatography",
+      "definition": "A technique that separates soluble substances by the different rates at which they travel up paper in a solvent."
+    },
+    {
+      "term": "Mobile phase",
+      "definition": "The solvent that carries the components up the chromatography paper."
+    },
+    {
+      "term": "Stationary phase",
+      "definition": "The paper, which holds back the components according to how strongly they are attracted to it."
+    },
+    {
+      "term": "Retention factor (Rf)",
+      "definition": "The distance moved by a spot divided by the distance moved by the solvent front."
+    }
   ],
   "questions": [
     {
-      "marks": 12,
-      "prompt": "Describe an experiment using ammonia and hydrogen chloride to show that gases diffuse, and explain why the white solid forms closer to one end of the tube.",
-      "model": "Method: place cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid at opposite ends of a long glass tube and seal it with stoppers. Safety: use a fume cupboard, goggles and gloves, and tongs to handle the plugs. Observation: after a few minutes a white ring of ammonium chloride forms inside the tube, where the gases meet: NH₃(g) + HCl(g) → NH₄Cl(s). Evidence for diffusion: the gases must have travelled along the tube, so the particles of each gas have spread from their source, where they are at high concentration, to the rest of the tube by their random motion. Explanation of position: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5). At the same temperature the lighter molecules move faster, so ammonia diffuses further along the tube before it meets the hydrogen chloride. The meeting point is therefore nearer the hydrochloric acid end."
+      "marks": 9,
+      "prompt": "Use the kinetic theory to explain what happens to the particles when ice melts and when water boils, and why the temperature remains constant during each change.",
+      "model": "When ice melts at 0 °C, heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in fixed positions, so they move past one another as a liquid. When water boils at 100 °C, particles throughout the liquid gain enough energy to overcome the forces between them, so they separate and form bubbles of vapour within the liquid. During each change the temperature stays constant because the energy supplied is used to overcome the forces between the particles, not to increase their kinetic energy."
     },
     {
       "marks": 6,
-      "prompt": "What is Brownian motion and how does it provide evidence for the kinetic theory of matter?",
-      "model": "Brownian motion is the continuous, random, zig-zag movement of small visible particles, such as smoke particles, suspended in a gas. The smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules. At any instant more molecules hit one side than the other, so the particle moves. This shows that the air molecules are in constant, random motion, as the kinetic theory states. The motion becomes more vigorous when the temperature is raised, which shows that higher temperature means faster particles."
+      "prompt": "State two assumptions of the kinetic theory and one limitation of the model.",
+      "model": "Assumption 1: the particles are tiny spheres in constant, random motion. Assumption 2: collisions between particles are perfectly elastic, so no kinetic energy is lost. Limitation: real particles are not hard spheres and they do attract one another; the forces between particles, which decide melting and boiling points, are ignored by the simple gas model."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would obtain pure, dry salt crystals from a mixture of sand and salt, justifying each technique you use.",
+      "model": "Step 1: Add water to the mixture and stir until the salt has dissolved; sand is insoluble, so it remains as a solid. Step 2: Filter the mixture, folding filter paper into a cone in a funnel and pouring the mixture through; the sand is the residue on the paper and the salt solution is the filtrate. This technique is justified because it separates an insoluble solid from a liquid. Step 3: Heat the filtrate to evaporate the water until the salt is left; this technique is justified because the salt is soluble and does not decompose on heating. Each technique is chosen because it uses the property in which the components differ: solubility in water for the first step and insolubility for the filtration."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe how paper chromatography can be used to separate the dyes in a food colouring and identify one of them, and state the principle on which it works.",
+      "model": "Step 1: Draw a pencil line near the bottom of chromatography paper. Step 2: Put a small spot of the food colouring and spots of known dyes on the line. Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, and let the solvent rise. Step 4: Remove the paper and mark the solvent front. Identification: calculate the Rf of each spot as the distance moved by the spot divided by the distance moved by the solvent; a dye is identified when its spot and Rf value match those of a known dye. Principle: the components that are more soluble in the solvent (the mobile phase) and less attracted to the paper (the stationary phase) travel further up the paper, so the dyes separate."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "loId": "chem1-s1",
   "chapterId": "chem1",
-  "subsection": "1. How scientists work and how ideas change",
-  "syllabusRef": "U1.1",
+  "subsection": "1. How science works: ideas and models",
+  "syllabusRef": "U1.1, U1 LA",
   "notes": [
     {
       "h": "Scientific vocabulary",
@@ -65,17 +65,105 @@
         "Scientists reduce bias with fair tests that use controls, repeats and random sampling, and with blind trials where possible.",
         "Scientists also publish all results, including negative ones, declare funding and conflicts of interest, and invite independent checks by other scientists (see “Science as a global enterprise”)."
       ]
+    },
+    {
+      "h": "What a model is",
+      "points": [
+        "A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly, such as atoms and molecules.",
+        "Physical models include ball-and-stick and space-filling molecular models.",
+        "Diagrams used as models include dot-and-cross diagrams, energy-level diagrams and energy profile diagrams.",
+        "Mathematical models are equations, such as PV = nRT.",
+        "Symbolic models are chemical formulae and equations.",
+        "Computer or digital simulations show particles and processes moving and changing.",
+        "A theory can also act as a model: the kinetic theory models matter as moving particles, and collision theory models how reactions happen."
+      ]
+    },
+    {
+      "h": "The power of models",
+      "points": [
+        "Models make the very small, the very large and the invisible understandable; a molecular model shows the shape of a molecule that is far too small to see.",
+        "Models explain observations: the particle model explains why gases can be compressed but liquids cannot be compressed much.",
+        "Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory predicts molecular shapes.",
+        "Models help scientists communicate ideas to each other and to the public."
+      ]
+    },
+    {
+      "h": "Limitations of models",
+      "points": [
+        "Every model is a simplification: it leaves out detail and rests on assumptions, so it is never a perfect copy of reality.",
+        "A model works only within a range of conditions; the ideal gas model fails at high pressure and low temperature, where real gases deviate from it.",
+        "Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances.",
+        "Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question.",
+        "The Bohr model explains flame colours and line spectra but not the shapes of orbitals.",
+        "Models are tested against evidence and are modified or replaced when they fail to explain new observations."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Observation", "definition": "Information gathered with the senses or with instruments, either qualitative (descriptive) or quantitative (measured with numbers and units)." },
-    { "term": "Hypothesis", "definition": "A testable, tentative explanation or prediction that evidence from an experiment can support or contradict." },
-    { "term": "Theory", "definition": "A well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations." },
-    { "term": "Law", "definition": "A statement, often mathematical, that describes what always happens under stated conditions, without explaining why." },
-    { "term": "Evidence", "definition": "Data from observation and experiment used to support or reject a hypothesis or theory." },
-    { "term": "Tentative knowledge", "definition": "Scientific knowledge that is the best explanation of the available evidence and can change when new evidence appears." },
-    { "term": "Bias", "definition": "A tendency to collect, interpret or present information so as to favour one outcome." },
-    { "term": "Confirmation bias", "definition": "The tendency to expect a particular result and to notice only the data that appear to support it." }
+    {
+      "term": "Observation",
+      "definition": "Information gathered with the senses or with instruments, either qualitative (descriptive) or quantitative (measured with numbers and units)."
+    },
+    {
+      "term": "Hypothesis",
+      "definition": "A testable, tentative explanation or prediction that evidence from an experiment can support or contradict."
+    },
+    {
+      "term": "Theory",
+      "definition": "A well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations."
+    },
+    {
+      "term": "Law",
+      "definition": "A statement, often mathematical, that describes what always happens under stated conditions, without explaining why."
+    },
+    {
+      "term": "Evidence",
+      "definition": "Data from observation and experiment used to support or reject a hypothesis or theory."
+    },
+    {
+      "term": "Tentative knowledge",
+      "definition": "Scientific knowledge that is the best explanation of the available evidence and can change when new evidence appears."
+    },
+    {
+      "term": "Bias",
+      "definition": "A tendency to collect, interpret or present information so as to favour one outcome."
+    },
+    {
+      "term": "Confirmation bias",
+      "definition": "The tendency to expect a particular result and to notice only the data that appear to support it."
+    },
+    {
+      "term": "Model",
+      "definition": "A representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly."
+    },
+    {
+      "term": "Physical model",
+      "definition": "A three-dimensional object, such as a molecular model, that represents the arrangement of atoms in a substance."
+    },
+    {
+      "term": "Mathematical model",
+      "definition": "An equation that describes how quantities are related, such as PV = nRT for a gas."
+    },
+    {
+      "term": "Symbolic model",
+      "definition": "A representation using chemical formulae, equations or symbols to describe particles and changes."
+    },
+    {
+      "term": "Ball-and-stick model",
+      "definition": "A physical model in which atoms are shown as coloured balls and bonds as sticks."
+    },
+    {
+      "term": "Space-filling model",
+      "definition": "A physical model in which atoms are shown as overlapping spheres that give a sense of the molecule's overall size."
+    },
+    {
+      "term": "Dot-and-cross diagram",
+      "definition": "A diagram showing how the outer electrons of atoms are shared or transferred in bonding."
+    },
+    {
+      "term": "Energy profile diagram",
+      "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds."
+    }
   ],
   "questions": [
     {
@@ -87,6 +175,16 @@
       "marks": 9,
       "prompt": "Using the development of the model of the atom as an example, explain how and why scientific ideas are modified over time.",
       "model": "Scientific ideas change because they are tentative: they are the best explanation of the evidence available, and they are modified when new evidence does not fit or when new instruments allow new measurements. Dalton's indivisible atom was modified when Thomson discovered the electron in 1897, showing that atoms can be divided; Thomson proposed the plum pudding model. Rutherford's gold-foil experiment, carried out by Geiger and Marsden, led to the nuclear model in 1911, with a tiny dense positive nucleus replacing the plum pudding model. Bohr proposed fixed energy levels in 1913 to explain line emission spectra. The current orbital model was adopted because it explains evidence that earlier models could not. A new idea is accepted only when it explains all the old evidence as well as the new evidence."
+    },
+    {
+      "marks": 6,
+      "prompt": "What is a scientific model? Give two different kinds of model used in chemistry, with an example of each.",
+      "model": "A scientific model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly. Two kinds are physical models, such as ball-and-stick molecular models that show the shape of a molecule, and mathematical models, such as the equation PV = nRT, which relates the pressure, volume, amount and temperature of a gas. Other kinds include symbolic models (formulae and equations), diagrams and computer simulations."
+    },
+    {
+      "marks": 6,
+      "prompt": "Describe two limitations of using a ball-and-stick model to represent a molecule.",
+      "model": "A ball-and-stick model is a simplification that rests on assumptions, so it does not copy the molecule exactly. It shows atoms as hard coloured balls joined by rigid sticks, which gives the wrong relative sizes of atoms and the wrong distances between them."
     }
   ]
 }

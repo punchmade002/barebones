@@ -1,8 +1,8 @@
 {
   "loId": "chem8-s1",
   "chapterId": "chem8",
-  "subsection": "1. The mole",
-  "syllabusRef": "1.4.1",
+  "subsection": "1. The mole and molar volume",
+  "syllabusRef": "1.4.1, 1.4.2, 1.4.3, 1.4.4",
   "notes": [
     {
       "h": "The mole and the Avogadro constant",
@@ -41,23 +41,266 @@
         "Moles from number of particles: n = N ÷ NA.",
         "Number of atoms: multiply the number of molecules by the number of atoms in each molecule.",
         "Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.",
-        "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP (see \"Molar volume and Avogadro's law\").",
+        "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP.",
         "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
         "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
         "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
         "Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles."
       ]
+    },
+    {
+      "h": "Isotopes and relative atomic mass",
+      "points": [
+        "Isotopes are atoms of the same element with different mass numbers.",
+        "The mass number of an isotope is the total number of protons and neutrons in its nucleus.",
+        "Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances, relative to one-twelfth of the mass of a carbon-12 atom."
+      ]
+    },
+    {
+      "h": "Calculating Ar from percentage abundances",
+      "b": "Each isotope contributes to the average in proportion to how abundant it is.",
+      "points": [
+        "Step 1: multiply each isotope's mass number by its percentage abundance.",
+        "Step 2: add the products together.",
+        "Step 3: divide the total by 100, so Ar = Σ(mass number × % abundance) ÷ 100.",
+        "Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.",
+        "Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5.",
+        "Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.",
+        "Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.",
+        "Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.",
+        "Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.",
+        "Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope."
+      ]
+    },
+    {
+      "h": "Calculating percentage abundances from Ar",
+      "points": [
+        "For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%.",
+        "Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.",
+        "Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.",
+        "Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.",
+        "The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.",
+        "Using whole mass numbers is an approximation; data-book isotope masses give more accurate abundances."
+      ]
+    },
+    {
+      "h": "Avogadro's law and combining volumes",
+      "points": [
+        "Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.",
+        "So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n.",
+        "Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.",
+        "Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.",
+        "Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation.",
+        "Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia."
+      ]
+    },
+    {
+      "h": "STP and molar volume",
+      "points": [
+        "Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).",
+        "Temperature in gas calculations must be in kelvin.",
+        "Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.",
+        "At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).",
+        "At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹.",
+        "IUPAC now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.",
+        "Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.",
+        "Molar volume applies to gases only, not to liquids or solids."
+      ]
+    },
+    {
+      "h": "Deducing the molar volume",
+      "points": [
+        "From the ideal gas equation PV = nRT (see \"Gas laws and the ideal gas equation\"), the volume of n moles is V = nRT ÷ P.",
+        "For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.",
+        "This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.",
+        "Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe.",
+        "Find the number of moles of gas released from the mass lost, using n = m ÷ M.",
+        "Scale the volume to one mole and correct it to STP to obtain the molar volume.",
+        "Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe."
+      ]
+    },
+    {
+      "h": "Calculations with molar volume",
+      "points": [
+        "Moles from gas volume at STP: n = V ÷ 22.4, with V in L.",
+        "Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.",
+        "Volume from moles at STP: V = n × 22.4 L.",
+        "Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.",
+        "Mass to volume goes through moles: first n = m ÷ M.",
+        "Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.",
+        "Then V = 0.50 × 22.4 = 11.2 L at STP.",
+        "Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.",
+        "The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.",
+        "So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure."
+      ]
+    },
+    {
+      "h": "Principle",
+      "b": "Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour.",
+      "points": [
+        "A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C.",
+        "If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT.",
+        "Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.",
+        "The vapour is assumed to behave as an ideal gas."
+      ]
+    },
+    {
+      "h": "Apparatus",
+      "points": [
+        "A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.",
+        "A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.",
+        "A top-pan balance reading to 0.01 g, a barometer, a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone)."
+      ]
+    },
+    {
+      "h": "Method",
+      "points": [
+        "Weigh the dry conical flask with the foil cap and rubber band.",
+        "Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.",
+        "Clamp the flask in the boiling water bath so that as much of it as possible is immersed.",
+        "Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.",
+        "The flask is then left full of propanone vapour at the temperature of the boiling water.",
+        "Record the temperature of the water bath and the atmospheric pressure from the barometer.",
+        "Remove the flask and cool it, so the vapour condenses.",
+        "Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.",
+        "Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.",
+        "Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.",
+        "Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus on the scale."
+      ]
+    },
+    {
+      "h": "Calculation (sample data)",
+      "b": "The numbers below are sample data for illustration.",
+      "points": [
+        "Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.",
+        "Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.",
+        "Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.",
+        "Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.",
+        "Denominator: RT = 8.314 × 373 = 3101.",
+        "Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.",
+        "Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.",
+        "The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it."
+      ]
+    },
+    {
+      "h": "Safety",
+      "points": [
+        "Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.",
+        "Propanone vapour is an irritant: work in a well-ventilated room.",
+        "Take care with boiling water and hot glassware."
+      ]
+    },
+    {
+      "h": "Sources of error and improvements",
+      "points": [
+        "If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.",
+        "Wait until no liquid is visible in the flask before removing it from the bath.",
+        "Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.",
+        "A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.",
+        "Part of the flask is above the water, so the vapour there is cooler than 373 K.",
+        "The vapour is not a perfect ideal gas, especially close to its boiling point.",
+        "The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.",
+        "Repeat the experiment and average the results."
+      ]
     }
   ],
   "keyTerms": [
-    { "term": "Mole", "definition": "The SI unit of amount of substance; one mole contains 6.02 × 10²³ elementary entities." },
-    { "term": "Avogadro constant", "definition": "The number of elementary entities in one mole, NA = 6.02 × 10²³ mol⁻¹." },
-    { "term": "Elementary entity", "definition": "A single atom, molecule, ion or electron, counted when stating an amount in moles." },
-    { "term": "Relative molecular mass (Mr)", "definition": "The sum of the relative atomic masses of all the atoms in a molecule or formula unit; it has no units." },
-    { "term": "Molar mass (M)", "definition": "The mass of one mole of a substance in g mol⁻¹, numerically equal to Ar or Mr." },
-    { "term": "Density", "definition": "Mass per unit volume, ρ = m ÷ V." },
-    { "term": "Formula unit", "definition": "The smallest repeating unit of an ionic compound as written in its formula, such as NaCl." },
-    { "term": "Molar volume", "definition": "The volume occupied by one mole of a gas at a stated temperature and pressure." }
+    {
+      "term": "Mole",
+      "definition": "The SI unit of amount of substance; one mole contains 6.02 × 10²³ elementary entities."
+    },
+    {
+      "term": "Avogadro constant",
+      "definition": "The number of elementary entities in one mole, NA = 6.02 × 10²³ mol⁻¹."
+    },
+    {
+      "term": "Elementary entity",
+      "definition": "A single atom, molecule, ion or electron, counted when stating an amount in moles."
+    },
+    {
+      "term": "Relative molecular mass (Mr)",
+      "definition": "The sum of the relative atomic masses of all the atoms in a molecule or formula unit; it has no units."
+    },
+    {
+      "term": "Molar mass (M)",
+      "definition": "The mass of one mole of a substance in g mol⁻¹, numerically equal to Ar or Mr."
+    },
+    {
+      "term": "Density",
+      "definition": "Mass per unit volume, ρ = m ÷ V."
+    },
+    {
+      "term": "Formula unit",
+      "definition": "The smallest repeating unit of an ionic compound as written in its formula, such as NaCl."
+    },
+    {
+      "term": "Molar volume",
+      "definition": "The volume occupied by one mole of a gas at a stated temperature and pressure."
+    },
+    {
+      "term": "Isotopes",
+      "definition": "Atoms of the same element that have different mass numbers."
+    },
+    {
+      "term": "Mass number",
+      "definition": "The total number of protons and neutrons in the nucleus of an atom."
+    },
+    {
+      "term": "Relative atomic mass (Ar)",
+      "definition": "The weighted average mass of an element's isotopes, relative to one-twelfth of the mass of a carbon-12 atom."
+    },
+    {
+      "term": "Percentage abundance",
+      "definition": "The percentage of atoms of an element that are a particular isotope."
+    },
+    {
+      "term": "Weighted average",
+      "definition": "An average in which each value is multiplied by how much it contributes before the total is divided by the sum of the weights."
+    },
+    {
+      "term": "Carbon-12 scale",
+      "definition": "The standard against which relative atomic masses are measured: one-twelfth of the mass of a carbon-12 atom."
+    },
+    {
+      "term": "Avogadro's law",
+      "definition": "Equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules."
+    },
+    {
+      "term": "Gay-Lussac's law of combining volumes",
+      "definition": "Gases react in simple whole-number ratios by volume, at the same temperature and pressure."
+    },
+    {
+      "term": "Standard temperature and pressure (STP)",
+      "definition": "0 °C (273 K) and 101.3 kPa, the conditions for the molar volume of 22.4 L mol⁻¹."
+    },
+    {
+      "term": "Kelvin",
+      "definition": "The unit of temperature used in gas calculations; 0 °C is 273 K."
+    },
+    {
+      "term": "Ideal gas equation",
+      "definition": "PV = nRT, where P is pressure in Pa, V is volume in m³, n is moles, R = 8.314 J K⁻¹ mol⁻¹ and T is temperature in K."
+    },
+    {
+      "term": "Volatile liquid",
+      "definition": "A liquid that evaporates easily, with a low boiling point."
+    },
+    {
+      "term": "Water bath",
+      "definition": "A beaker of boiling water that heats the flask to a known temperature of 373 K."
+    },
+    {
+      "term": "Pinhole",
+      "definition": "A small hole in the foil cap that lets air and excess vapour escape, so the flask fills with vapour at the bath temperature."
+    },
+    {
+      "term": "Condense",
+      "definition": "To change from vapour to liquid on cooling, so the vapour's mass can be found by weighing."
+    },
+    {
+      "term": "Propanone",
+      "definition": "A volatile, highly flammable liquid with Mr 58 and a boiling point of 56 °C, used in this experiment."
+    }
   ],
   "questions": [
     {
@@ -69,6 +312,36 @@
       "marks": 9,
       "prompt": "Calculate (i) the mass of 0.15 mol of calcium carbonate, (ii) the number of moles in 9.8 g of sulfuric acid, (iii) the number of oxygen atoms in 9.8 g of sulfuric acid.",
       "model": "(i) Mr(CaCO₃) = 40 + 12 + 3(16) = 100, so M = 100 g mol⁻¹. Mass: m = n × M = 0.15 × 100 = 15 g. (ii) Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, so M = 98 g mol⁻¹. Moles: n = m ÷ M = 9.8 ÷ 98 = 0.10 mol. (iii) Each H₂SO₄ molecule contains 4 oxygen atoms, so the oxygen atoms = 0.10 × 4 = 0.40 mol of O atoms. Number of atoms: N = 0.40 × 6.02 × 10²³ = 2.41 × 10²³ oxygen atoms."
+    },
+    {
+      "marks": 6,
+      "prompt": "Gallium consists of 60.1% gallium-69 and 39.9% gallium-71. Calculate the relative atomic mass of gallium to one decimal place.",
+      "model": "Ar(Ga) = (mass number × % abundance summed over both isotopes) ÷ 100. Gallium-69 contributes 69 × 60.1 = 4146.9. Gallium-71 contributes 71 × 39.9 = 2832.9. Total: 4146.9 + 2832.9 = 6979.8. Divide by 100: 6979.8 ÷ 100 = 69.798, so Ar(Ga) = 69.8 to one decimal place."
+    },
+    {
+      "marks": 6,
+      "prompt": "Lithium has isotopes of mass numbers 6 and 7 and a relative atomic mass of 6.94. Calculate the percentage abundance of each isotope (sample data).",
+      "model": "Let the abundance of lithium-6 be x%, so the abundance of lithium-7 is (100 − x)%. Set up 6x + 7(100 − x) = 694. Expanding: 6x + 700 − 7x = 694, so 700 − x = 694 and x = 6. Lithium-6 is 6% and lithium-7 is 94%. Check: (6 × 6 + 7 × 94) ÷ 100 = (36 + 658) ÷ 100 = 6.94."
+    },
+    {
+      "marks": 6,
+      "prompt": "State Avogadro's law and calculate the volume, at STP, occupied by 3.2 g of oxygen gas.",
+      "model": "Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules. Mr(O₂) = 2 × 16 = 32, so M = 32 g mol⁻¹. Moles: n = m ÷ M = 3.2 ÷ 32 = 0.10 mol. Volume at STP: V = n × 22.4 = 0.10 × 22.4 = 2.24 L."
+    },
+    {
+      "marks": 9,
+      "prompt": "Show, using the ideal gas equation, that one mole of gas occupies 22.4 L at STP, and calculate the mass of 1.12 L of carbon dioxide at STP.",
+      "model": "From PV = nRT, V = nRT ÷ P. For n = 1 mol, T = 273 K, P = 101 325 Pa and R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325 = 0.0224 m³ = 22.4 L. Moles of CO₂: n = V ÷ 22.4 = 1.12 ÷ 22.4 = 0.050 mol. Mr(CO₂) = 12 + 2(16) = 44, so M = 44 g mol⁻¹. Mass: m = n × M = 0.050 × 44 = 2.2 g."
+    },
+    {
+      "marks": 12,
+      "prompt": "Describe how you would determine the relative molecular mass of propanone by vaporising it in a conical flask, stating the measurements that must be made.",
+      "model": "Weigh a clean, dry conical flask with its foil cap and rubber band. Add about 2–3 cm³ of propanone, replace the cap and pierce one small pinhole in it. Clamp the flask in a large beaker of boiling water on a hotplate, so that as much of it as possible is immersed. Leave it until all the liquid has vaporised; the vapour fills the flask and excess vapour escapes through the pinhole. Measure the temperature of the water bath (373 K for boiling water) and the atmospheric pressure from a barometer. Remove the flask, cool it so the vapour condenses, dry the outside and reweigh it; the increase in mass is the mass m of vapour. Find the volume V of the flask by filling it with water and measuring the water with a graduated cylinder, and convert to m³. Calculate the moles of vapour from n = PV ÷ RT, with P in Pa, V in m³, T in K and R = 8.314 J K⁻¹ mol⁻¹. Finally calculate Mr = m ÷ n."
+    },
+    {
+      "marks": 9,
+      "prompt": "In an experiment, 0.44 g of the vapour of a volatile liquid filled a flask of volume 250 cm³ at 373 K and 101 000 Pa. Calculate the relative molecular mass of the liquid (sample data).",
+      "model": "Volume: 250 cm³ = 250 × 1 × 10⁻⁶ m³ = 2.50 × 10⁻⁴ m³. Numerator: PV = 101 000 × 2.50 × 10⁻⁴ = 25.25. Denominator: RT = 8.314 × 373 = 3101. Moles: n = PV ÷ RT = 25.25 ÷ 3101 = 8.14 × 10⁻³ mol. Relative molecular mass: Mr = m ÷ n = 0.44 ÷ (8.14 × 10⁻³) = 54."
     }
   ]
 }

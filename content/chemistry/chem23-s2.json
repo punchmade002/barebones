@@ -1,163 +1,151 @@
 {
   "loId": "chem23-s2",
   "chapterId": "chem23",
-  "subsection": "2. The impact of hydrocarbons",
-  "syllabusRef": "2.4.2",
+  "subsection": "2. Investigation: preparing ethene",
+  "syllabusRef": "2.4.3",
   "notes": [
     {
-      "h": "The research investigation",
-      "b": "The investigation asks for one major impact on society of the extensive use of hydrocarbons, researched from secondary sources and judged on the evidence.",
+      "h": "Aim and chemistry",
       "points": [
-        "Choose one impact and set a focused question, often about one sector or one country.",
-        "Use several reliable sources that agree, judging each for authority, evidence, date and bias, since oil companies and campaign groups may each present one side.",
-        "Reliable sources for these topics include peer-reviewed papers and reports of the IPCC (Intergovernmental Panel on Climate Change), the WHO, the EPA (Environmental Protection Agency, Ireland) and the SEAI (Sustainable Energy Authority of Ireland).",
-        "Explain the chemistry with balanced equations, and consider solutions and their limits.",
-        "Set every impact against the benefits: hydrocarbons are cheap, energy-dense and easily transported fuels and raw materials that made modern transport, heating, electricity, plastics and medicines possible.",
-        "Justify the conclusion from the evidence, and acknowledge uncertainty and what the sources could not show."
+        "Aim: to prepare ethene by dehydrating ethanol, to observe its physical properties, and to investigate its combustion and show that it is unsaturated.",
+        "Hypothesis: ethene contains a C=C double bond, so it will decolourise bromine water and acidified potassium manganate(VII), while a saturated hydrocarbon will not.",
+        "Ethanol vapour passed over hot aluminium oxide loses a molecule of water: C₂H₅OH(g) → C₂H₄(g) + H₂O(g).",
+        "This is a dehydration reaction, a type of elimination reaction in which a small molecule, water, is removed and a double bond forms (see “Five types of organic reaction”).",
+        "Aluminium oxide, Al₂O₃, a white powder, is the catalyst and is not used up in the reaction."
       ]
     },
     {
-      "h": "Option 1: climate change, chemistry and scale",
-      "b": "Research question, e.g. “How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced?”",
+      "h": "Apparatus and method",
+      "b": "Heat the aluminium oxide, not the ethanol. The method runs in the order below.",
       "points": [
-        "Complete combustion of every hydrocarbon releases carbon dioxide: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l); 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l).",
-        "Burning 1.00 kg of methane: 1000 g ÷ 16 g mol⁻¹ = 62.5 mol CH₄, which gives 62.5 mol CO₂ × 44 g mol⁻¹ = 2750 g, so 2.75 kg of CO₂ is released.",
-        "Burning 1.00 kg of octane: 1000 g ÷ 114 g mol⁻¹ = 8.77 mol C₈H₁₈, which gives 8.77 mol × 8 × 44 g mol⁻¹ = 3088 g, so 3.09 kg of CO₂ is released."
+        "1. Push some glass wool into the closed end of a hard-glass boiling tube and soak it with about 2 cm³ of ethanol, using a dropper.",
+        "2. Place a small heap of aluminium oxide about halfway along the tube.",
+        "3. Clamp the tube horizontally and fit a stopper with a delivery tube that leads under water in a trough to an inverted test tube full of water, standing on a beehive shelf.",
+        "4. Heat the aluminium oxide strongly with a Bunsen burner; heat conducted along the tube warms the ethanol so that its vapour passes over the hot catalyst.",
+        "5. Collect the gas by displacement of water, and discard the first one or two tubes.",
+        "6. Collect several tubes of gas, stoppering each under water and storing it mouth down.",
+        "7. Before removing the heat, lift the delivery tube out of the water.",
+        "Diagram: a horizontal boiling tube, clamped, with ethanol-soaked glass wool at the closed end and aluminium oxide in the middle; a Bunsen flame under the aluminium oxide; a delivery tube to an inverted water-filled test tube on a beehive shelf in a trough of water. Label the ethanol on the glass wool, the aluminium oxide, the heat and the ethene collecting."
       ]
     },
     {
-      "h": "Option 1: climate change, evidence and effects",
+      "h": "Why each choice is made",
       "points": [
-        "Fossil carbon was locked away for millions of years; burning it moves that carbon into the atmosphere far faster than the carbon cycle removes it, so atmospheric CO₂ rises.",
-        "CO₂ and methane are greenhouse gases that absorb infrared radiation emitted by the Earth and so trap heat (see “The enhanced greenhouse effect”).",
-        "Methane escapes from gas wells, pipelines and coal mines.",
-        "Atmospheric CO₂ has risen from about 280 ppm before the Industrial Revolution to over 420 ppm today, and global average temperature has risen by more than 1 °C since pre-industrial times.",
-        "Consequences include rising sea levels, more extreme weather such as storms, floods and droughts, and ocean acidification as CO₂ dissolves: CO₂(g) + H₂O(l) ⇌ H₂CO₃(aq)."
+        "Glass wool holds the liquid ethanol at the end of the tube, so it doesn't run onto the hot catalyst or the hot glass.",
+        "The catalyst is heated rather than the ethanol, because aluminium oxide must be hot to work, and ethanol is flammable with a low boiling point of 78 °C, so gentle conducted heat is enough to vaporise it.",
+        "Ethene can be collected over water because it is almost insoluble in water.",
+        "The first tubes are discarded because they contain mainly air pushed out of the apparatus.",
+        "Suck-back happens if heating stops while the delivery tube is under water: the gas in the hot tube cools and contracts, cold water is drawn back into the hot boiling tube, and the tube can crack or shatter."
       ]
     },
     {
-      "h": "Option 1: climate change, solutions and limits",
+      "h": "Physical properties of ethene",
       "points": [
-        "Solutions include renewable electricity from wind and solar, electric vehicles and heat pumps, energy efficiency, biofuels, hydrogen, and carbon capture and storage.",
-        "The limits of these solutions include cost, the supply of materials such as those for batteries, the intermittency of renewables, and the time needed to change infrastructure."
+        "Ethene is a colourless gas with a boiling point of −104 °C and a faint sweet smell, which should be wafted towards the nose, not sniffed directly.",
+        "It is almost insoluble in water, because it is non-polar and cannot form hydrogen bonds with water, but it dissolves readily in non-polar solvents such as cyclohexane.",
+        "Its density is close to that of air: its relative molecular mass is 28, compared with about 29 for air."
       ]
     },
     {
-      "h": "Option 2: air quality, the chemistry",
-      "b": "Research question, e.g. “How has burning solid fuel and road fuels affected air quality and health in Irish towns?”",
+      "h": "Combustion and the limewater test",
       "points": [
-        "Incomplete combustion, with too little oxygen, produces carbon monoxide and soot, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).",
-        "Nitrogen and oxygen from the air combine at the high temperatures in engines: N₂(g) + O₂(g) → 2NO(g); 2NO(g) + O₂(g) → 2NO₂(g).",
-        "Sulfur impurities in coal and heavy oils burn to sulfur dioxide: S(s) + O₂(g) → SO₂(g).",
-        "Unburned hydrocarbons such as benzene, a carcinogen, are released from fuel evaporation and exhausts."
+        "Remove the stopper and hold the mouth of the tube to a lighted taper or Bunsen flame: ethene burns with a yellow, luminous, slightly smoky flame.",
+        "Combustion equation: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).",
+        "Add limewater to the tube after burning, stopper and shake; it turns milky, showing that carbon dioxide was produced: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
+        "Droplets of water may condense on the inside of the tube.",
+        "Methane burns with a clean, non-luminous blue flame, whereas ethene's flame is more luminous and smoky, because ethene has a higher percentage of carbon, 85.7% compared with 75.0% in methane."
       ]
     },
     {
-      "h": "Option 2: air quality, effects on health",
+      "h": "Tests for unsaturation",
       "points": [
-        "Carbon monoxide is toxic: it binds to haemoglobin in the blood more strongly than oxygen does, reducing the blood's ability to carry oxygen.",
-        "Particulate matter, such as PM2.5 (particles with a diameter below 2.5 μm), from diesel engines and from burning coal and wood is breathed deep into the lungs and is linked to asthma, lung disease and heart disease.",
-        "Nitrogen dioxide irritates the lungs and contributes to acid rain and smog.",
-        "Sulfur dioxide irritates the airways and causes acid rain."
+        "Bromine water: add a few drops of dilute bromine water to a tube of ethene, stopper and shake; the orange, or red-brown, colour disappears and the solution becomes colourless.",
+        "Bromine adds across the double bond in an addition reaction: CH₂=CH₂(g) + Br₂ → CH₂BrCH₂Br, which is 1,2-dibromoethane.",
+        "Acidified potassium manganate(VII): add a few drops of dilute KMnO₄ acidified with dilute sulfuric acid, stopper and shake; the purple colour disappears.",
+        "In the manganate(VII) test the alkene is oxidised, and MnO₄⁻ is reduced to almost colourless Mn²⁺.",
+        "Both decolourisations are positive tests for unsaturation, meaning a C=C or C≡C bond is present.",
+        "Control: repeat both tests with a saturated hydrocarbon, e.g. a few drops of cyclohexane or methane from the gas tap; there is no rapid colour change, so the decolourisation is due to the double bond."
       ]
     },
     {
-      "h": "Option 2: evidence and solutions",
+      "h": "Sample calculation (sample data)",
+      "b": "Sample data: 2.0 cm³ of ethanol, with a density of 0.789 g cm⁻³, was used, and 310 cm³ of ethene was collected, taken as if at s.t.p.",
       "points": [
-        "Dublin banned the sale of smoky (bituminous) coal in 1990; black smoke fell sharply, and later studies linked the ban to fewer deaths from respiratory and heart disease.",
-        "The ban on smoky coal was extended to the whole country in October 2022.",
-        "Catalytic converters, low-sulfur fuels, particulate filters and electric transport also reduce emissions."
+        "Mass of ethanol = 2.0 cm³ × 0.789 g cm⁻³ = 1.58 g.",
+        "Moles of ethanol = 1.58 g ÷ 46 g mol⁻¹ = 0.0343 mol.",
+        "The mole ratio of ethanol to ethene is 1 : 1, so the theoretical yield is 0.0343 mol of ethene.",
+        "Theoretical volume = 0.0343 mol × 22.4 L mol⁻¹ = 0.768 L = 768 cm³ at s.t.p.",
+        "Percentage yield = 310 cm³ ÷ 768 cm³ × 100 = 40.4%.",
+        "The yield is low because some ethanol evaporates past the catalyst unreacted and dissolves in the trough water, some ethene is lost in the discarded tubes, and gas is left in the apparatus."
       ]
     },
     {
-      "h": "Option 3: plastic waste, the chemistry",
-      "b": "Research question, e.g. “What happens to single-use plastic packaging in Ireland, and how could its impact be reduced?”",
+      "h": "Safety, errors and conclusion",
       "points": [
-        "Most plastics are made from hydrocarbon feedstocks: ethene and propene are polymerised to poly(ethene) and poly(propene) (see “Addition polymers”).",
-        "Addition polymers are long chains held by strong, non-polar C–C and C–H bonds, so microorganisms cannot break them down.",
-        "Plastics are non-biodegradable and can persist for hundreds of years."
-      ]
-    },
-    {
-      "h": "Option 3: plastic waste, impacts",
-      "points": [
-        "Plastic waste causes litter and fills landfill sites.",
-        "Plastic in the sea entangles or is swallowed by marine animals.",
-        "Plastics break into microplastics, pieces smaller than 5 mm, which are found in water, food and living things.",
-        "Burning plastics recovers energy but releases CO₂, and burning some plastics, such as PVC (poly(chloroethene)), releases toxic gases such as hydrogen chloride unless done in controlled incinerators."
-      ]
-    },
-    {
-      "h": "Option 3: plastic waste, solutions and limits",
-      "points": [
-        "Reducing and reusing plastics avoids the waste altogether.",
-        "Recycling involves sorting, washing, shredding, melting and remoulding, but only some plastics can be recycled and only for a limited number of cycles.",
-        "Biodegradable and bio-based plastics, deposit-return schemes, bans and levies are other responses; Ireland introduced a plastic bag levy in March 2002."
-      ]
-    },
-    {
-      "h": "Option 4: energy dependence, the research question",
-      "b": "Research question, e.g. “How does Ireland's dependence on imported oil and gas affect energy prices and security?”",
-      "points": [
-        "Modern economies depend on hydrocarbons for transport, heating, electricity generation, farming, where fuel and fertiliser are made from natural gas, and plastics.",
-        "Jobs and government revenue depend on the industry.",
-        "Fossil fuels are finite and unevenly spread, so countries without their own reserves must import them and are exposed to price shocks and supply cuts.",
-        "The 1973 oil crisis was an oil embargo by Arab oil-producing countries, and in 2022 gas and electricity prices rose sharply after Russia invaded Ukraine in February 2022.",
-        "Ireland imports most of its energy.",
-        "Ireland's own natural gas has come from the Kinsale Head gas field, off Co. Cork, which stopped producing in 2020, and from the Corrib gas field off Co. Mayo."
-      ]
-    },
-    {
-      "h": "Option 4: energy dependence, risks",
-      "points": [
-        "Extraction and transport carry risks with economic costs.",
-        "Oil spills such as the Exxon Valdez (Alaska, 1989), the Prestige (off Galicia, Spain, 2002) and Deepwater Horizon (Gulf of Mexico, 2010) damaged fisheries, tourism and wildlife."
-      ]
-    },
-    {
-      "h": "Option 4: energy dependence, solutions and limits",
-      "points": [
-        "Home-produced renewable energy, energy efficiency and electrification reduce imports.",
-        "The transition needs investment and takes time.",
-        "Hydrocarbons are still needed as feedstocks for plastics, medicines and fertilisers, so some argue they should be conserved for these uses rather than burned."
-      ]
-    },
-    {
-      "h": "Writing the conclusion",
-      "points": [
-        "State the answer to the research question in one or two sentences.",
-        "Support the answer with the strongest evidence and the chemistry, using equations and data.",
-        "Weigh the benefits against the harms, and assess the proposed solutions for cost, practicality and who is affected.",
-        "Note the limitations of the sources used and what further research would help."
+        "Wear safety glasses; ethanol and ethene are highly flammable, so keep the stock bottle of ethanol away from the flame and add the ethanol before lighting the Bunsen burner.",
+        "Bromine water is toxic and corrosive: use small amounts of dilute bromine water in a well-ventilated room or a fume cupboard, and wear gloves.",
+        "Potassium manganate(VII) is an oxidiser that stains, and dilute sulfuric acid is an irritant.",
+        "Let the apparatus cool before handling it, and remove the delivery tube from the water before stopping the heating.",
+        "Air in the first tubes dilutes the ethene and weakens the tests.",
+        "Unreacted ethanol vapour carried over can slowly decolourise acidified manganate(VII) by itself, so the bromine water test and its control are the more convincing evidence.",
+        "Bromine water slowly fades in bright light, so the result must be compared with a control.",
+        "Ethene is a colourless, almost insoluble, flammable gas that decolourises bromine water and acidified manganate(VII), so it is unsaturated."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Incomplete combustion", "definition": "Burning in too little oxygen, which produces carbon monoxide and soot instead of carbon dioxide alone." },
-    { "term": "Greenhouse gas", "definition": "A gas, such as carbon dioxide or methane, that absorbs infrared radiation emitted by the Earth and so traps heat." },
-    { "term": "Ocean acidification", "definition": "The lowering of seawater pH as carbon dioxide dissolves in the sea to form carbonic acid." },
-    { "term": "Acid rain", "definition": "Rain made acidic by sulfur dioxide and nitrogen oxides reacting with water in the atmosphere." },
-    { "term": "Particulate matter", "definition": "Fine solid particles in the air, such as soot, that can be breathed deep into the lungs." },
-    { "term": "Carcinogen", "definition": "A substance that can cause cancer." },
-    { "term": "Microplastic", "definition": "A piece of plastic smaller than 5 mm that persists in water, food and living things." },
-    { "term": "Biodegradable", "definition": "Able to be broken down by microorganisms into natural substances." },
-    { "term": "Energy security", "definition": "A reliable supply of energy at affordable prices." }
+    {
+      "term": "Dehydration",
+      "definition": "A reaction in which water is removed from a molecule, as when ethanol forms ethene."
+    },
+    {
+      "term": "Catalyst",
+      "definition": "A substance that speeds up a reaction and is chemically unchanged at the end."
+    },
+    {
+      "term": "Unsaturated hydrocarbon",
+      "definition": "A hydrocarbon containing at least one carbon–carbon double or triple bond."
+    },
+    {
+      "term": "Addition reaction",
+      "definition": "A reaction in which atoms add across a double or triple bond, leaving a single-bonded product."
+    },
+    {
+      "term": "Limewater",
+      "definition": "A solution of calcium hydroxide, which turns milky in the presence of carbon dioxide."
+    },
+    {
+      "term": "Suck-back",
+      "definition": "The drawing of cold liquid back into a hot apparatus when the gas inside cools and contracts."
+    },
+    {
+      "term": "Displacement of water",
+      "definition": "Collecting a gas that is almost insoluble by letting it push water out of an inverted container."
+    },
+    {
+      "term": "Percentage yield",
+      "definition": "The actual yield expressed as a percentage of the theoretical yield."
+    },
+    {
+      "term": "Control",
+      "definition": "A test run alongside the main test, using a substance expected not to react, to show that the result is due to the feature being tested."
+    }
   ],
   "questions": [
     {
-      "marks": 12,
-      "prompt": "Outline a research investigation into one major impact on society of the extensive use of hydrocarbons. Include your research question, two suitable sources and how you would judge them, the chemistry involved and a conclusion.",
-      "model": "Research question: for example, How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced? Two suitable sources: a report of the IPCC and a peer-reviewed paper, each judged for its authority, the evidence it gives, its date and any bias. Chemistry: complete combustion of octane, 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l), and of methane, CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), releases carbon dioxide. The carbon was locked away for millions of years, so burning it raises atmospheric CO₂, which absorbs infrared radiation and traps heat. Conclusion: state the answer in one or two sentences and support it with the evidence, such as CO₂ above 420 ppm and warming of more than 1 °C. Weigh the benefits of hydrocarbons against the harms, assess solutions such as renewable electricity and electric vehicles for cost and limits, and note the limitations of the sources used."
+      "marks": 15,
+      "prompt": "Describe, with a labelled diagram, how you would prepare and collect some ethene from ethanol in the laboratory. Give the equation for the reaction and explain why the first test tubes of gas are discarded.",
+      "model": "Apparatus: a hard-glass boiling tube, clamped horizontally, with ethanol-soaked glass wool at the closed end and aluminium oxide in the middle; a Bunsen burner heats the aluminium oxide strongly; a delivery tube leads under water in a trough to an inverted water-filled test tube on a beehive shelf. Method: soak the glass wool with about 2 cm³ of ethanol; heat the aluminium oxide, not the ethanol, so that the ethanol vapour passes over the hot catalyst; collect the gas by displacement of water, discarding the first one or two tubes; remove the delivery tube from the water before removing the heat. Equation: C₂H₅OH(g) → C₂H₄(g) + H₂O(g), with hot aluminium oxide as catalyst; this is a dehydration reaction. The first tubes are discarded because they contain mainly air from the apparatus, which would dilute the ethene."
     },
     {
       "marks": 9,
-      "prompt": "Calculate the mass of carbon dioxide produced when 1.00 kg of methane burns completely, and explain why this contributes to climate change.",
-      "model": "CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Moles CH₄ = 1000 g ÷ 16 g mol⁻¹ = 62.5 mol. The mole ratio CH₄ : CO₂ is 1 : 1, so moles CO₂ = 62.5 mol. Mass of CO₂ = 62.5 mol × 44 g mol⁻¹ = 2750 g = 2.75 kg. Explanation: the carbon in methane from fossil fuels was locked away for millions of years; burning it moves that carbon into the atmosphere faster than the carbon cycle removes it, so atmospheric CO₂ rises. CO₂ absorbs infrared radiation emitted by the Earth and traps heat, which enhances the greenhouse effect. Methane is also a greenhouse gas."
+      "prompt": "Describe how you would show that ethene is unsaturated, giving the colour change and explaining what it shows. How would you show that the result is due to the double bond?",
+      "model": "Add a few drops of dilute bromine water to a tube of ethene, stopper and shake. The orange, or red-brown, colour disappears and the solution becomes colourless, because bromine adds across the C=C double bond: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br. This shows that ethene is unsaturated. Repeat with acidified potassium manganate(VII): the purple colour disappears. To show that the result is due to the double bond, repeat both tests with a saturated hydrocarbon such as cyclohexane or methane; there is no rapid colour change, so the decolourisation is due to the double bond."
     },
     {
-      "marks": 9,
-      "prompt": "Explain how burning hydrocarbon fuels can harm human health. Refer to two pollutants and give an equation for the formation of one of them.",
-      "model": "Carbon monoxide is formed by incomplete combustion, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l). It binds to haemoglobin more strongly than oxygen, so the blood carries less oxygen. Particulate matter, such as PM2.5 soot particles, is breathed deep into the lungs and is linked to asthma, lung disease and heart disease. Nitrogen oxides form when N₂(g) + O₂(g) → 2NO(g) at the high temperatures in engines; NO₂ irritates the lungs, and sulfur dioxide from sulfur impurities irritates the airways."
+      "marks": 6,
+      "prompt": "What is suck-back, why is it hazardous, and how is it prevented in this preparation?",
+      "model": "Suck-back is the drawing of cold water back into the hot boiling tube when heating stops while the delivery tube is still under water, because the gas in the tube cools and contracts. It is hazardous because the hot glass can crack or shatter. It is prevented by lifting the delivery tube out of the water before the heat is removed."
     }
   ]
 }

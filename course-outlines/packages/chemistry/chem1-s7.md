@@ -1,60 +1,114 @@
-# Package: chem1-s7 — Measurement and error
+# Package: chem1-s7 — Representation and the Chemistry in Practice Investigation
 
-- **loId:** `chem1-s7` · **chapterId:** `chem1` · **syllabusRef:** U2 LA
-- **Syllabus:** U2 learn about: "using SI units for measurement and conversion to and from
-  commonly used units, identifying potential sources of random and systematic error, and giving
-  due consideration to the limits of the precision and accuracy of measurement". No Higher
-  Level only material.
-- **Prepared by:** a higher model, 2026-10-30. Include unit conversions used throughout the
-  course (volume, mass, temperature, pressure) and significant figures (assumed knowledge).
+- **loId:** `chem1-s7` · **chapterId:** `chem1` · **syllabusRef:** U4.1–U4.2, Assessment
+- **Merged:** this subsection combines "Abstraction to representation" (formerly `chem1-s13`), "The Chemistry in Practice Investigation" (formerly `chem1-s14`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Abstraction to representation (formerly `chem1-s13`)
 
-SI units and conversions (one block)
-- [ ] U1 SI base units used in chemistry: metre (m), kilogram (kg), second (s), kelvin (K), mole (mol); derived units include m³ for volume and pascal (Pa) for pressure.
-- [ ] U2 Volume: 1 dm³ = 1 L = 1000 cm³ = 1000 mL; 1 m³ = 1000 dm³ = 1 000 000 cm³.
-- [ ] U3 Mass: 1 kg = 1000 g; 1 g = 1000 mg.
-- [ ] U4 Temperature: T (K) = θ (°C) + 273 (more exactly 273.15); e.g. 25 °C = 298 K.
-- [ ] U5 Pressure: 1 kPa = 1000 Pa; standard pressure 100 kPa = 1 × 10⁵ Pa (1 atm = 101.325 kPa).
-- [ ] U6 (assumed) Convert by multiplying or dividing by the conversion factor, writing the unit at each step; e.g. 250 cm³ = 250 ÷ 1000 = 0.250 L.
+- **loId:** `chem1-s13` · **chapterId:** `chem1` · **syllabusRef:** U4.1–U4.2
+- **Syllabus:** U4.1 "relate observable phenomena to the chemical processes at the atomic,
+  sub-atomic or molecular level". U4.2 "appreciate that models: are simplified representations
+  of complex systems or phenomena with underlying assumptions; can be modified as more data
+  becomes available from the system/phenomenon; can predict the behaviour of a
+  system/phenomenon". Learn about: "visualisation as a key aspect of understanding core
+  concepts; generating and using models; the evolving nature of models". No Higher Level only
+  material.
+- **Prepared by:** a higher model, 2026-10-30. The kinds of model and their power and
+  limitations are in "How science works: ideas and models"; here teach the three levels of chemistry, how
+  to relate them, and the three U4.2 properties with one example each.
 
-Accuracy and precision (one block)
-- [ ] A1 Accuracy: how close a measurement (or mean) is to the true or accepted value.
-- [ ] A2 Precision: how close repeated measurements are to each other (their spread); also used for the smallest division a piece of equipment can read (its resolution).
-- [ ] A3 Results can be precise but not accurate (closely grouped but all off the true value, e.g. a balance that isn't zeroed) or accurate on average but not precise.
-- [ ] A4 Limits of equipment: every instrument has an uncertainty; typical school values: 25 cm³ pipette ±0.06 cm³, burette reading ±0.05 cm³, 250 cm³ volumetric flask ±0.3 cm³, a 100 cm³ measuring cylinder ±1 cm³. Volumetric glassware is far more accurate than a measuring cylinder.
-- [ ] A5 Significant figures (assumed): report answers to the same number of significant figures as the least precise measurement used (usually three in titration calculations).
+### 1. Must cover
 
-Errors (one block)
-- [ ] E1 Random error: unpredictable variation that scatters readings above and below the true value (e.g. judging an end point, reading a meniscus, temperature fluctuations); reduced by repeating and averaging.
-- [ ] E2 Systematic error: a consistent error that shifts all readings in the same direction (e.g. a balance not zeroed, a thermometer that reads 1 °C high, heat loss to the surroundings in a calorimetry experiment, parallax always from the same angle); not reduced by repeating; reduced by calibrating equipment or improving the method.
-- [ ] E3 Parallax error: reading a scale from an angle; read the bottom of the meniscus at eye level.
-- [ ] E4 Anomalous results (outliers) caused by mistakes are identified and repeated or excluded with a reason (see "Producing and analysing data").
-- [ ] E5 Percentage error = (experimental value − accepted value) ÷ accepted value × 100.
+Three levels of representation (one block)
+- [ ] L1 Macroscopic (observable) level: what we see, measure and handle, e.g. ice melting, a solution changing colour, gas bubbles.
+- [ ] L2 Sub-microscopic (particulate) level: atoms, ions, molecules and electrons and how they move and rearrange, which explain the observations.
+- [ ] L3 Symbolic level: formulae, equations, diagrams and graphs that represent the particles and changes.
+- [ ] L4 Chemists move between the three levels: an explanation links what is seen to what the particles do and writes it symbolically.
 
-## 2. Checked facts and examples
+Relating observations to particles (one block, worked examples)
+- [ ] E1 Ice melting: observed solid becoming liquid at 0 °C; particle level: water molecules gain energy and partly overcome hydrogen bonds, moving past one another; symbolic: H₂O(s) → H₂O(l).
+- [ ] E2 Magnesium in hydrochloric acid: observed fizzing and the metal disappearing; particle level: magnesium atoms lose electrons to form Mg²⁺ ions and hydrogen ions gain electrons to form H₂ molecules; symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).
+- [ ] E3 A sodium salt in a flame gives a yellow-orange colour; particle level: electrons in sodium atoms are excited to higher energy levels and emit light of a specific energy when they fall back.
+- [ ] E4 Salt dissolving in water: observed solid disappearing; particle level: water molecules surround and separate Na⁺ and Cl⁻ ions; symbolic: NaCl(s) → Na⁺(aq) + Cl⁻(aq).
 
-| Item | Fact |
-|---|---|
-| U4 | 0 °C = 273.15 K. |
-| U5 | 1 atm = 101 325 Pa; IUPAC standard pressure 100 kPa (10⁵ Pa). |
-| A4 | Class B/typical school tolerances: 25 cm³ pipette ±0.06 cm³; 50 cm³ burette ±0.05 cm³ per reading; 250 cm³ volumetric flask ±0.3 cm³; 100 cm³ measuring cylinder about ±1 cm³. |
+Visualisation and generating models (one block)
+- [ ] V1 Chemists visualise particles they cannot see using drawings, physical models, animations and computer simulations.
+- [ ] V2 Generating a model: propose a representation that fits the observations, use it to make a prediction, test it, then keep, modify or discard it.
 
-Present A4 values as "typical", not exact.
+The three properties of models (one block)
+- [ ] P1 Simplified with assumptions: e.g. the kinetic theory assumes gas particles have negligible volume and no forces between them.
+- [ ] P2 Modified as more data becomes available: e.g. the Bohr model of fixed electron orbits was modified to the orbital model when it could not explain the spectra of atoms with more than one electron.
+- [ ] P3 Predict behaviour: e.g. VSEPR predicts the bond angle in a molecule before it is measured; the ideal gas equation predicts a gas volume.
 
-## 3. Traps
+### 2. Checked facts and examples
 
-- "Precise" does not mean "accurate".
-- Repeating reduces random error only; systematic error needs a better method or calibration.
-- STP conditions are taught in "Molar volume and Avogadro's law"; don't define STP here.
+Only the examples above. Ice melts at 0 °C at standard pressure.
 
-## 4. What exams ask (topics only)
+### 3. Traps
 
-- Convert units (cm³ to L, °C to K, g to mg).
-- Distinguish random and systematic error with examples; distinguish accuracy and precision.
-- Explain why a pipette is used rather than a measuring cylinder.
+- Don't call the sub-microscopic level "microscopic": particles can't be seen with a light microscope.
+- Hydrogen bonding and flame-test detail are taught later; give them only as one-line examples here.
 
-## 5. Practice questions to write
+### 4. What exams ask (topics only)
 
-1. 6 marks: "Distinguish between random error and systematic error, giving one example of each from a titration." Model answer: E1, E2 applied (end-point judgement; burette not rinsed with solution, or always reading the top of the meniscus).
-2. 6 marks: "Convert (i) 37 °C to kelvin, (ii) 0.150 L to cm³, (iii) 2.5 g to mg, (iv) 250 kPa to Pa." Model answer: 310 K; 150 cm³; 2500 mg; 2.5 × 10⁵ Pa.
+- Explain an observation in terms of particles and write the equation.
+
+### 5. Practice questions to write
+
+1. 9 marks: "When magnesium ribbon is added to dilute hydrochloric acid, bubbles form and the magnesium disappears. Describe this change at the macroscopic, sub-microscopic and symbolic levels." Model answer: E2 with L1–L3.
+2. 6 marks: "Using one example, explain each of the following statements about models: (i) a model is a simplified representation; (ii) a model can be modified as more data becomes available." Model answer: P1, P2.
+
+## Part: The Chemistry in Practice Investigation (formerly `chem1-s14`)
+
+- **loId:** `chem1-s14` · **chapterId:** `chem1` · **syllabusRef:** Assessment
+- **Syllabus:** the specification's assessment section (pages 37–40): the Chemistry in Practice
+  Investigation (40%). Not a learning outcome; common level.
+- **Prepared by:** a higher model, 2026-10-30. Describe the component from the specification
+  only. Don't invent the year's brief, word limits, marking breakdowns or deadlines: the SEC
+  sets those each year.
+
+### 1. Must cover
+
+The assessment structure (one block)
+- [ ] A1 Leaving Certificate Chemistry has two assessment components set and marked by the State Examinations Commission (SEC): a written examination worth 60%, at Higher and Ordinary level, and the Chemistry in Practice Investigation worth 40%, set on a common brief (the same for both levels).
+- [ ] A2 Grades: H1–H8 at Higher level and O1–O8 at Ordinary level, in bands of 10% from 30% to 100% (below 30% is grade 8).
+- [ ] A3 The written examination uses a range of question types and assesses all four contextual strands, the unifying strand and the application of chemistry to the cross-cutting themes (sustainability, health and technology).
+
+The brief (one block)
+- [ ] B1 The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year).
+- [ ] B2 The brief sets out the requirements, includes stimulus material to set a context, allows students to develop their own ideas related to it, and helps teachers and students to plan.
+- [ ] B3 Students keep an investigative log that they draw on to write the report.
+
+What students do (one block)
+- [ ] D1 Scientific research on an issue related to the brief: gather, process and evaluate information from secondary sources; this may inform the experimental work.
+- [ ] D2 An experiment related to an issue in the brief: generate a hypothesis; plan and design the experiment; carry out laboratory work and gather primary data; analyse the data and form conclusions.
+- [ ] D3 Develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year) in a format prescribed by the SEC.
+- [ ] D4 The specification envisages up to 20 hours of work. A separate document, "Guidelines to support the Chemistry in Practice Investigation", covers organisation.
+- [ ] D5 Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process; engaging with the process matters more than a perfect answer.
+
+How it is judged: descriptors of quality (one block)
+- [ ] Q1 Four areas: knowledge and understanding; investigative skills (design and method); investigative skills (analysis and conclusions); relation to the work of scientists in society.
+- [ ] Q2 High achievement in knowledge and understanding: considerable understanding of the brief; a clearly described purpose; relevant research evaluating a wide range of appropriate sources; thorough engagement with the chemical concepts, explaining the phenomena clearly and accurately.
+- [ ] Q3 High achievement in design and method: a probing research question and testable hypothesis underpinned by chemical concepts; a thorough investigative design with appropriate methods collecting high-quality primary data.
+- [ ] Q4 High achievement in analysis and conclusions: clear, appropriate data and analysis; valid conclusions justified by the data and related to the hypotheses; a thorough evaluation acknowledging limitations in research, design and data gathering; a summary of key areas; a coherent, consistent report with supporting references and reflections.
+- [ ] Q5 High achievement in relation to the work of scientists in society: a considered reflection locating the outcomes within broader societal and scientific issues relating to the brief.
+- [ ] Q6 Lower achievement shows limited understanding of the brief, an unclear purpose, little research, a simple design, conclusions not linked to the data, no limitations identified, and few references or reflections.
+
+### 2. Checked facts and examples
+
+All facts above are from the specification (pages 37–40). No other figures.
+
+### 3. Traps
+
+- The investigation is at a common level, not Higher and Ordinary.
+- Don't invent word counts, section marks, submission dates or the topic of any year's brief.
+- Experimental design detail is in "Questions, hypotheses and designing investigations"; refer to it by name.
+
+### 4. What exams ask (topics only)
+
+- Not examined in the written paper as a topic; students need to know what the component requires.
+
+### 5. Practice questions to write
+
+1. 6 marks: "Describe the two main parts of the work a student carries out for the Chemistry in Practice Investigation." Model answer: D1, D2.
+2. 6 marks: "State the weighting of each assessment component in Leaving Certificate Chemistry and the level at which each is taken." Model answer: A1.

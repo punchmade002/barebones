@@ -76,3 +76,9 @@ chem5-s4, chem6-s5, chem7-s3, chem11-s4, chem12-s3, chem12-s4).
   guesses.
 - **Past papers:** the app's chemistry past papers are from the 1999 syllabus; packages list
   only question topics still on the 2025 specification.
+
+## Later change: subsections merged (2026-10-30)
+
+The 65 subsections of chem1–chem13 were merged to 27 so that each has at least 8 note blocks.
+See "Later change" in `chem14-chem26.review.md` and "Subsections in the app" in
+`course-outlines/chemistry.md`. Subsection ids above refer to the old numbering.

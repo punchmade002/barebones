@@ -1,62 +1,173 @@
 {
   "loId": "chem1-s2",
   "chapterId": "chem1",
-  "subsection": "2. Models and their limits",
-  "syllabusRef": "U1 LA",
+  "subsection": "2. Science as a global enterprise and researching an issue",
+  "syllabusRef": "U1 LA, U1.2",
   "notes": [
     {
-      "h": "What a model is",
+      "h": "Science as a global enterprise",
       "points": [
-        "A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly, such as atoms and molecules.",
-        "Physical models include ball-and-stick and space-filling molecular models.",
-        "Diagrams used as models include dot-and-cross diagrams, energy-level diagrams and energy profile diagrams.",
-        "Mathematical models are equations, such as PV = nRT.",
-        "Symbolic models are chemical formulae and equations.",
-        "Computer or digital simulations show particles and processes moving and changing.",
-        "A theory can also act as a model: the kinetic theory models matter as moving particles, and collision theory models how reactions happen."
+        "Scientists work in universities, industry and government laboratories around the world, sharing results and building on each other's work.",
+        "Large problems such as climate change, new medicines and clean energy are tackled by international collaborations that share data, equipment and funding.",
+        "Scientists publish in journals and present at conferences so that results are available to everyone and can be checked.",
+        "Scientific claims must be supported by evidence that others can examine, so data, methods and conclusions are published together."
       ]
     },
     {
-      "h": "The power of models",
+      "h": "Clear communication",
       "points": [
-        "Models make the very small, the very large and the invisible understandable; a molecular model shows the shape of a molecule that is far too small to see.",
-        "Models explain observations: the particle model explains why gases can be compressed but liquids cannot be compressed much.",
-        "Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory predicts molecular shapes.",
-        "Models help scientists communicate ideas to each other and to the public."
+        "A report must describe the method in enough detail for another scientist to repeat it exactly.",
+        "Clear communication uses precise scientific terms, SI units, correct significant figures, labelled tables and graphs, and cited sources."
       ]
     },
     {
-      "h": "Limitations of models",
+      "h": "International conventions",
+      "b": "Conventions are agreed rules that all scientists use, so that results mean the same everywhere.",
       "points": [
-        "Every model is a simplification: it leaves out detail and rests on assumptions, so it is never a perfect copy of reality.",
-        "A model works only within a range of conditions; the ideal gas model fails at high pressure and low temperature, where real gases deviate from it.",
-        "Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances.",
-        "Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question.",
-        "The Bohr model explains flame colours and line spectra but not the shapes of orbitals.",
-        "Models are tested against evidence and are modified or replaced when they fail to explain new observations."
+        "IUPAC (the International Union of Pure and Applied Chemistry) sets the rules for naming compounds, e.g. the systematic name but-1-ene, and agrees chemical symbols and atomic masses.",
+        "The SI (Système International) system of units has base units, including the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol).",
+        "The SI base units also include the ampere (A) and the candela (cd).",
+        "Other shared conventions are chemical symbols and formulae, standard conditions for measurements, and international hazard symbols (pictograms) on chemicals."
+      ]
+    },
+    {
+      "h": "Peer review",
+      "points": [
+        "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published.",
+        "1. The scientist submits a paper to a journal.",
+        "2. The editor sends the paper to reviewers.",
+        "3. The reviewers check the method, data, analysis and conclusions for errors and originality, and whether the conclusions are justified.",
+        "4. The paper is accepted, returned for changes, or rejected.",
+        "Peer review filters out poor or flawed work, reduces bias and gives readers confidence in published results.",
+        "Peer review does not guarantee that a result is correct; results are checked by others repeating the work."
+      ]
+    },
+    {
+      "h": "Repeatability and reproducibility",
+      "points": [
+        "Repeatable: the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated.",
+        "Reproducible: a different experimenter, using different equipment or a different method, gets the same results.",
+        "A claim is accepted only when its results are reproducible; results that no one else can reproduce are not accepted."
+      ]
+    },
+    {
+      "h": "Planning the research",
+      "points": [
+        "Start with a focused research question about the issue, e.g. “What are the environmental effects of lithium mining?”",
+        "Identify keywords and search systematically rather than reading whatever appears first.",
+        "Record every source used: author, title, date, publisher or website, and the date accessed.",
+        "Take notes in your own words and keep a research log."
+      ]
+    },
+    {
+      "h": "Primary and secondary data",
+      "points": [
+        "Primary data are collected first-hand by the investigator, e.g. by experiment or measurement.",
+        "Secondary data are collected by someone else, e.g. published results, government statistics, databases or the results of other class groups.",
+        "Secondary data are used to compare with primary data, to check or support conclusions, or where an experiment cannot be done in school."
+      ]
+    },
+    {
+      "h": "Kinds of source",
+      "points": [
+        "Peer-reviewed journal articles are the most reliable sources but are often technical.",
+        "Books and textbooks, and reports from government agencies and scientific bodies, are further kinds of source.",
+        "The Environmental Protection Agency (EPA) is Ireland's environmental regulator.",
+        "The EPA publishes reports and data on air and water quality.",
+        "News media, websites, blogs and social media are accessible but of variable reliability; they may simplify, sensationalise or omit detail.",
+        "Company or campaign-group material may be written to sell a product or promote a view."
+      ]
+    },
+    {
+      "h": "Evaluating a source",
+      "points": [
+        "Authority: who wrote the source, and are they qualified and named?",
+        "Accuracy and evidence: are the claims supported by data and references, and can they be checked against other sources?",
+        "Currency: is the source up to date?",
+        "Purpose and bias: is it trying to inform, persuade or sell; who funded it; does it present only one side?",
+        "Detail: does it explain methods, sample sizes and uncertainties, or does it give only conclusions? A source may lack the detail needed to judge it.",
+        "Corroboration: a claim supported by several independent, reliable sources is more trustworthy than a claim from one source."
       ]
     }
   ],
   "keyTerms": [
-    { "term": "Model", "definition": "A representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly." },
-    { "term": "Physical model", "definition": "A three-dimensional object, such as a molecular model, that represents the arrangement of atoms in a substance." },
-    { "term": "Mathematical model", "definition": "An equation that describes how quantities are related, such as PV = nRT for a gas." },
-    { "term": "Symbolic model", "definition": "A representation using chemical formulae, equations or symbols to describe particles and changes." },
-    { "term": "Ball-and-stick model", "definition": "A physical model in which atoms are shown as coloured balls and bonds as sticks." },
-    { "term": "Space-filling model", "definition": "A physical model in which atoms are shown as overlapping spheres that give a sense of the molecule's overall size." },
-    { "term": "Dot-and-cross diagram", "definition": "A diagram showing how the outer electrons of atoms are shared or transferred in bonding." },
-    { "term": "Energy profile diagram", "definition": "A graph showing how the energy of a chemical system changes as a reaction proceeds." }
+    {
+      "term": "Peer review",
+      "definition": "The evaluation of a scientist's work by other independent experts in the same field before it is published."
+    },
+    {
+      "term": "Repeatable",
+      "definition": "Giving the same results when the same experimenter repeats the experiment using the same method and equipment."
+    },
+    {
+      "term": "Reproducible",
+      "definition": "Giving the same results when a different experimenter repeats the experiment, using different equipment or a different method."
+    },
+    {
+      "term": "IUPAC",
+      "definition": "The International Union of Pure and Applied Chemistry, which sets the rules for naming compounds and agrees chemical symbols and atomic masses."
+    },
+    {
+      "term": "SI units",
+      "definition": "The Système International system of units, in which the base units include the metre, kilogram, second, kelvin and mole."
+    },
+    {
+      "term": "Convention",
+      "definition": "An agreed rule that all scientists follow so that results mean the same everywhere."
+    },
+    {
+      "term": "Hazard pictogram",
+      "definition": "A standard symbol on a chemical label that shows a hazard, such as corrosive or flammable."
+    },
+    {
+      "term": "Research question",
+      "definition": "A focused question about an issue that guides the search for information."
+    },
+    {
+      "term": "Primary data",
+      "definition": "Data collected first-hand by the investigator, for example by experiment or measurement."
+    },
+    {
+      "term": "Secondary data",
+      "definition": "Data collected by someone else, such as published results, government statistics or databases."
+    },
+    {
+      "term": "Peer-reviewed article",
+      "definition": "A journal article that has been checked by independent experts before publication."
+    },
+    {
+      "term": "Bias",
+      "definition": "A tendency to collect, interpret or present information so as to favour one outcome."
+    },
+    {
+      "term": "Corroboration",
+      "definition": "Support for a claim from several independent and reliable sources."
+    },
+    {
+      "term": "Currency",
+      "definition": "How up to date a source is, which affects how far its information can be trusted."
+    }
   ],
   "questions": [
     {
       "marks": 6,
-      "prompt": "What is a scientific model? Give two different kinds of model used in chemistry, with an example of each.",
-      "model": "A scientific model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly. Two kinds are physical models, such as ball-and-stick molecular models that show the shape of a molecule, and mathematical models, such as the equation PV = nRT, which relates the pressure, volume, amount and temperature of a gas. Other kinds include symbolic models (formulae and equations), diagrams and computer simulations."
+      "prompt": "Explain what is meant by peer review and state why it is important in science.",
+      "model": "Peer review is the evaluation of a scientist's work by other independent experts in the same field before it is published. The scientist submits a paper to a journal, the editor sends it to reviewers, who check the method, data, analysis and conclusions, and the paper is accepted, returned for changes or rejected. It is important because it filters out poor or flawed work, reduces bias and gives readers confidence in published results, although it does not guarantee that a result is correct."
     },
     {
       "marks": 6,
-      "prompt": "Describe two limitations of using a ball-and-stick model to represent a molecule.",
-      "model": "A ball-and-stick model is a simplification that rests on assumptions, so it does not copy the molecule exactly. It shows atoms as hard coloured balls joined by rigid sticks, which gives the wrong relative sizes of atoms and the wrong distances between them."
+      "prompt": "Distinguish between the repeatability and the reproducibility of an experiment, and explain why reproducibility matters.",
+      "model": "Repeatability means that the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated. Reproducibility means that a different experimenter, using different equipment or a different method, gets the same results. A claim is accepted only when its results are reproducible, because results that no one else can reproduce cannot be relied upon."
+    },
+    {
+      "marks": 6,
+      "prompt": "Distinguish between primary data and secondary data, giving an example of each from a chemistry investigation.",
+      "model": "Primary data are collected first-hand by the investigator, for example by measuring the volume of gas produced in a reaction the student has carried out. Secondary data are collected by someone else, for example published results or the results of other class groups, which can be compared with the student's own primary data."
+    },
+    {
+      "marks": 9,
+      "prompt": "A student researching the safety of a food additive finds a website run by the company that makes it. Describe three criteria the student should use to evaluate this source and other sources.",
+      "model": "Authority: the student should check who wrote the page and whether they are qualified and named. Purpose and bias: a company website is trying to sell the additive, so its claims about safety may present only one side; the student should check who funded the research and whether any limitations are mentioned. Accuracy and evidence: the student should check whether the claims are supported by data, methods and references that can be checked against independent sources. Corroboration, which also applies to other sources, means a safety claim is more trustworthy when several independent reliable sources support it."
     }
   ]
 }

@@ -1,69 +1,127 @@
-# Package: chem1-s6 — Designing and conducting investigations
+# Package: chem1-s6 — Chemistry in society and the media
 
-- **loId:** `chem1-s6` · **chapterId:** `chem1` · **syllabusRef:** U2.3
-- **Syllabus:** U2.3 "design, plan and conduct investigations; explain how reliability,
-  validity, accuracy, precision, error, fairness, safety, integrity, and the selection of
-  suitable equipment have been considered". Learn about: "safe laboratory practice and
-  appropriate risk assessment". No Higher Level only material.
-- **Prepared by:** a higher model, 2026-10-30. Define each of the U2.3 terms once, with a
-  chemistry example. Accuracy, precision and error are defined in "Measurement and error"; here
-  say how a design deals with them and refer to that subsection by name.
+- **loId:** `chem1-s6` · **chapterId:** `chem1` · **syllabusRef:** U3.1–U3.2, U3.3
+- **Merged:** this subsection combines "Chemistry in society" (formerly `chem1-s11`), "Evaluating claims in the media" (formerly `chem1-s12`). Each part below is the package for one of them; write the notes as one subsection, in this order.
 
-## 1. Must cover
+## Part: Chemistry in society (formerly `chem1-s11`)
 
-Planning (one block)
-- [ ] D1 A plan states the aim or hypothesis, the variables, a list of equipment and chemicals, a step-by-step method, the measurements to be taken and how often, the number of repeats, a risk assessment and how the data will be recorded and analysed.
-- [ ] D2 Choose a suitable range and number of values for the independent variable (at least five values across a sensible range).
-- [ ] D3 Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison (e.g. hydrogen peroxide with no catalyst).
+- **loId:** `chem1-s11` · **chapterId:** `chem1` · **syllabusRef:** U3.1–U3.2
+- **Syllabus:** U3.1 "research and present information on the contribution that scientists make
+  to scientific discovery and invention, and its impact on society"; U3.2 "appreciate the role
+  of chemistry in society, and its personal, social and global importance, and how society
+  influences scientific research". Learn about: "being more personally effective in addressing
+  the impact of science and technology on society". The strand overview: applying chemistry to
+  real-world issues "can be influenced by considerations such as economic, social,
+  sustainability and ethical factors". No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30. Give a short set of checked case studies of
+  scientists' contributions (one bullet each with impact), then the role of chemistry, then how
+  society shapes research, then the four kinds of factor, then the cross-cutting themes.
 
-The design terms (one block)
-- [ ] T1 Fairness (a fair test): only the independent variable is changed; all other variables are controlled.
-- [ ] T2 Validity: the investigation actually tests the hypothesis and measures what it claims to measure; it requires a fair test and suitable measurements.
-- [ ] T3 Reliability: results can be trusted because they are consistent when repeated; improved by repeating measurements (at least three times), calculating a mean and comparing with other groups.
-- [ ] T4 Accuracy and precision are improved by choosing suitable equipment and good technique (see "Measurement and error").
-- [ ] T5 Error: identify likely sources of error in advance and design to reduce them (e.g. use a burette rather than a measuring cylinder for accurate volumes).
-- [ ] T6 Integrity: recording all results honestly, including unexpected ones; not inventing, altering or selectively deleting data; acknowledging others' work.
+### 1. Must cover
 
-Selecting suitable equipment (one block)
-- [ ] E1 Choose equipment of the right range and resolution: a pipette or burette for accurate volumes of solution, a volumetric flask for making up a solution to an exact volume, a measuring cylinder only where an approximate volume is enough.
-- [ ] E2 Use a balance with a suitable resolution (e.g. 0.01 g) for small masses; a thermometer or temperature probe with an appropriate range; a gas syringe for gas volumes; data-loggers and sensors (pH, temperature, pressure) for continuous readings.
-- [ ] E3 Justify each choice in terms of accuracy, precision and safety.
+Contributions of scientists (one block; one bullet per scientist with discovery and impact)
+- [ ] C1 Robert Boyle (born Lismore, Co. Waterford, 1627): pioneered experimental chemistry; Boyle's law (1662) relating pressure and volume of a gas; argued that knowledge should come from experiment.
+- [ ] C2 Dmitri Mendeleev (1869): arranged the elements in a periodic table and left gaps for undiscovered elements, predicting their properties; the periodic table organises all of chemistry.
+- [ ] C3 Alexander Fleming (1928): discovered penicillin, the first antibiotic; mass-produced from the 1940s, antibiotics have saved millions of lives. (Penicillin is named again in the pharmaceuticals subsection of a later chapter.)
+- [ ] C4 Fritz Haber and Carl Bosch (early 1900s): made ammonia from nitrogen and hydrogen; ammonia-based fertilisers now help feed a large share of the world's population, but the same chemistry was used for explosives: a discovery's impact can be both positive and negative.
+- [ ] C5 John Goodenough, Stanley Whittingham and Akira Yoshino: developed the lithium-ion battery (Nobel Prize in Chemistry 2019), which powers phones, laptops and electric vehicles.
 
-Safe laboratory practice (one block)
-- [ ] L1 Wear eye protection (safety glasses or goggles) and a lab coat; tie back long hair.
-- [ ] L2 No eating or drinking in the laboratory; wash hands after practical work.
-- [ ] L3 Use a fume cupboard for toxic or harmful gases and volatile, flammable or harmful liquids.
-- [ ] L4 Heat flammable liquids (e.g. ethanol) with a water bath or electric heater, never a naked flame.
-- [ ] L5 Add acid to water, not water to acid, when diluting concentrated acids; use a pipette filler, never mouth pipetting.
-- [ ] L6 Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed.
+The role and importance of chemistry (one block)
+- [ ] R1 Personal: medicines, clean water, food, cleaning products, cosmetics, materials for clothing and phones; understanding chemical labels and hazards.
+- [ ] R2 Social: public health (water treatment, vaccines and medicines), agriculture (fertilisers, pesticides), jobs in the chemical and pharmaceutical industry. Ireland has a large pharmaceutical industry.
+- [ ] R3 Global: tackling climate change (cleaner fuels, batteries, carbon capture), pollution, food security and resource use.
 
-Risk assessment (one block)
-- [ ] R1 A hazard is anything that could cause harm (e.g. a corrosive acid); a risk is the likelihood that harm will happen and how serious it would be.
-- [ ] R2 Steps: identify each hazard (from labels, hazard pictograms and safety data sheets); assess the risk; decide on control measures to reduce it; know what to do in an emergency.
-- [ ] R3 The common GHS hazard pictograms: corrosive, flammable, toxic, harmful/irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive, compressed gas.
-- [ ] R4 Example: concentrated sodium hydroxide is corrosive; risk of skin and eye burns; control: goggles, gloves, small volumes, dilute solutions where possible; if spilled on skin, wash with plenty of water.
+How society influences research (one block)
+- [ ] S1 Funding: governments, companies and charities decide what research is funded, often according to social needs or profit.
+- [ ] S2 Public concern and urgent problems drive research, e.g. the search for vaccines during a pandemic, or for alternatives to fossil fuels.
+- [ ] S3 Laws and regulations (e.g. on chemicals safety, emissions and animal testing) limit or direct research.
+- [ ] S4 Ethical values of society decide what research is acceptable.
 
-## 2. Checked facts and examples
+Factors in applying chemistry to real issues (one block)
+- [ ] F1 Economic: cost of development, production and disposal; jobs; profit.
+- [ ] F2 Social: effects on health, safety, communities and quality of life.
+- [ ] F3 Sustainability: meeting present needs without compromising future generations; use of renewable resources, energy and waste.
+- [ ] F4 Ethical: whether it is right, e.g. fairness, risks to people or the environment, informed consent.
+- [ ] F5 Being personally effective: making informed choices (e.g. recycling, energy use, interpreting product claims) and taking part in public debate using evidence.
+
+Cross-cutting themes (one block)
+- [ ] X1 The specification's three cross-cutting themes are Health, Sustainability and Technology; they are lenses for looking at how chemistry applies to real life, and the written exam includes questions on them.
+
+### 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| R3 | The GHS (Globally Harmonized System) uses nine hazard pictograms in red diamond borders. |
+| C1 | Robert Boyle, born 25 January 1627 at Lismore Castle, Co. Waterford; Boyle's law published 1662. |
+| C2 | Mendeleev published his periodic table in 1869. |
+| C3 | Fleming discovered penicillin in 1928 (Nobel Prize 1945 with Florey and Chain). |
+| C4 | Haber developed the ammonia synthesis (Nobel Prize 1918); Bosch scaled it up industrially. |
+| C5 | 2019 Nobel Prize in Chemistry: Goodenough, Whittingham, Yoshino, for lithium-ion batteries. |
 
-The balance resolution (0.01 g) and "five values" are suggested settings, not facts.
+No figures for the population fed by fertilisers, lives saved, or the size of Ireland's pharmaceutical industry.
 
-## 3. Traps
+### 3. Traps
 
-- Reliable is not the same as valid: a test can give consistent results that measure the wrong thing.
-- Repeating improves reliability; it does not remove systematic error.
-- Don't define accuracy, precision, random error and systematic error here in full; they belong to "Measurement and error".
+- The Haber process detail (conditions, Le Châtelier) is not needed here; it is an example of impact.
+- Don't add Marie Curie or radioactivity: radioactivity is not on the specification.
+- The ozone layer and CFCs are not on the specification; don't use them as an example.
 
-## 4. What exams ask (topics only)
+### 4. What exams ask (topics only)
 
-- Explain the terms fair test, reliable, valid.
-- Name a piece of equipment suitable for a stated measurement and justify it.
-- State safety precautions for a described experiment; carry out a simple risk assessment.
+- Describe the contribution of a named scientist and its impact on society.
+- Discuss economic, social, ethical or sustainability factors in a chemical application.
 
-## 5. Practice questions to write
+### 5. Practice questions to write
 
-1. 9 marks: "Explain how fairness, reliability and validity would be ensured in an investigation of the effect of temperature on the rate of a reaction." Model answer: T1–T3 applied.
-2. 6 marks: "Carry out a risk assessment for diluting concentrated sulfuric acid to make a dilute solution." Model answer: R1, R2 applied: hazard corrosive; risk burns and heat released; controls goggles, gloves, add acid slowly to water, small volumes.
+1. 9 marks: "Describe the contribution of one named scientist to chemistry and evaluate its impact on society." Model answer: one of C1–C5 with discovery, date, positive and negative impact.
+2. 6 marks: "Give two ways in which society influences scientific research." Model answer: two of S1–S4.
+
+## Part: Evaluating claims in the media (formerly `chem1-s12`)
+
+- **loId:** `chem1-s12` · **chapterId:** `chem1` · **syllabusRef:** U3.3
+- **Syllabus:** U3.3 "evaluate media-based arguments concerning science and technology". Learn
+  about: "how to discuss scientific claims". No Higher Level only material.
+- **Prepared by:** a higher model, 2026-10-30.
+
+### 1. Must cover
+
+Why media reports need evaluating (one block)
+- [ ] W1 News, advertising and social media may simplify, exaggerate or sensationalise science, report a single study as settled fact, or leave out uncertainty and context.
+- [ ] W2 Headlines are written to attract attention and may not match the findings of the study.
+
+Questions to ask of a media claim (one block)
+- [ ] Q1 What exactly is being claimed, and is it a scientific claim (testable with evidence)?
+- [ ] Q2 Where does it come from: is the original study named, peer-reviewed and available?
+- [ ] Q3 How strong is the evidence: sample size, controls, whether the results have been reproduced, and whether the study was in people, animals or cells.
+- [ ] Q4 Is cause confused with correlation?
+- [ ] Q5 Who benefits: is the source selling a product or promoting a view; who funded the research?
+- [ ] Q6 Do other independent experts and sources agree?
+- [ ] Q7 Are scientific words used correctly, or misused to sound convincing (e.g. "chemical-free", "natural means safe")?
+
+Discussing scientific claims (one block)
+- [ ] D1 Separate evidence from opinion; base conclusions on the weight of evidence.
+- [ ] D2 Acknowledge uncertainty and the limits of current knowledge.
+- [ ] D3 Consider different perspectives (economic, social, ethical, environmental) while keeping the scientific evidence separate.
+
+Common misleading claims, with the chemistry (one block)
+- [ ] M1 "Chemical-free": everything, including water and food, is made of chemicals.
+- [ ] M2 "Natural is always safe; synthetic is dangerous": toxicity depends on the substance and the dose, not on whether it is natural; some natural substances are highly toxic and a synthetic substance can be identical to the natural one.
+- [ ] M3 Alkaline-water and detox claims: the body controls its own pH and the stomach is strongly acidic, so drinking alkaline water doesn't change blood pH.
+
+### 2. Checked facts and examples
+
+| Item | Fact |
+|---|---|
+| M3 | Human blood pH is kept between about 7.35 and 7.45; stomach acid has a pH of about 1.5–3.5. |
+
+### 3. Traps
+
+- Don't name real newspapers, companies or products.
+
+### 4. What exams ask (topics only)
+
+- Evaluate a given media claim about a chemical product.
+
+### 5. Practice questions to write
+
+1. 9 marks: "An advertisement claims a shampoo is 'chemical-free and 100% natural, so it is completely safe'. Evaluate this claim." Model answer: M1, M2, Q2, Q5.
+2. 6 marks: "State three questions you would ask to evaluate a newspaper report of a new scientific discovery." Model answer: three of Q1–Q6.

@@ -1,95 +1,102 @@
-# Package: chem25-s3 — Reaction schemes
+# Package: chem25-s3 — Investigation: synthesising benzoic acid
 
-- **loId:** `chem25-s3` · **chapterId:** `chem25` · **syllabusRef:** 4.2.7
-- **Syllabus:** 4.2.7 "analyse an organic reaction scheme and predict possible reactions and
-  reaction products". Learn about: "reactions include, but not limited to, the examples
-  specified in reaction mechanisms below"; "reaction schemes that can be used to: • describe the
-  relationships between compounds • **predict reactions** • **explain behaviour (changes in
-  geometry, why some reactions are not possible)**". The outcome is normal type; in the "learn
-  about" list, describing relationships is for everyone, while predicting reactions and
-  explaining behaviour are Higher Level only.
-- **Prepared by:** a higher model, 2026-10-30. The two-carbon scheme (ethane, ethene,
-  chloroethane, ethanol, ethanal, ethanoic acid, ethyl ethanoate, poly(ethene)) as the core
-  map, the matching three-carbon conversions, a method for reading a scheme, and HL blocks on
-  predicting products, geometry changes and impossible reactions. Each reaction type is defined
-  in "Five types of organic reaction" and each redox reagent in "Redox and acid–base reactions
-  of organic compounds"; here, use the types and reagents without redefining them. Tetrahedral
-  and planar geometry is taught in "Representing organic molecules".
+- **loId:** `chem25-s3` · **chapterId:** `chem25` · **syllabusRef:** 4.2.9
+
+- **Syllabus:** 4.2.9 "conduct an experiment to synthesise benzoic acid, determining purity,
+  melting point and yield". Learn about: "synthesis of benzoic acid by oxidation of
+  phenylmethanol using KMnO₄ under basic conditions, including crystallisation". Normal type.
+- **Prepared by:** a higher model, 2026-10-30. Full investigation: oxidation, isolation,
+  recrystallisation, melting point and a sample yield calculation; one short Higher Level block
+  checking that the permanganate is in excess (limiting reagents are Higher Level). The
+  general crystallisation and filtration techniques are in "Using the kinetic theory: separation techniques"; yield and
+  limiting reagent methods are in "Theoretical, actual and percentage yield" and "Limiting
+  reagents"; basic permanganate as a reagent is in "Redox and acid–base reactions of organic
+  compounds". Don't repeat their general methods.
 
 ## 1. Must cover
 
-What a reaction scheme is (one block)
-- [ ] A1 A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.
-- [ ] A2 It shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps (organic synthesis).
-- [ ] A3 Reading a scheme: name each compound and its functional group; for each arrow, compare the formulae before and after and decide what has been added, removed or swapped; then name the reaction type and reagent.
-- [ ] A4 Clues from the formulae: +H₂ across C=C or C=O is addition/reduction; −2H is oxidation; +O is oxidation; −H₂O or −HCl with a new C=C is elimination; one atom swapped for another is substitution; a carboxylic acid → its sodium salt is acid–base.
+Aim and chemistry (one block)
+- [ ] A1 Aim: to prepare benzoic acid by oxidising phenylmethanol (benzyl alcohol, C₆H₅CH₂OH) with potassium permanganate under basic conditions, to purify it by recrystallisation, and to find its melting point and percentage yield.
+- [ ] A2 Phenylmethanol is a primary alcohol, so it is oxidised to the carboxylic acid; in the basic solution the acid is present as the benzoate ion, C₆H₅COO⁻.
+- [ ] A3 Equation (basic conditions): 3C₆H₅CH₂OH + 4MnO₄⁻ → 3C₆H₅COO⁻ + 4MnO₂ + OH⁻ + 4H₂O. With potassium shown: 3C₆H₅CH₂OH + 4KMnO₄ → 3C₆H₅COOK + 4MnO₂ + KOH + 4H₂O.
+- [ ] A4 The permanganate is reduced to manganese(IV) oxide, MnO₂, a brown solid: the purple solution turns brown.
+- [ ] A5 Mole ratio phenylmethanol : benzoic acid = 1 : 1 (3 : 3).
+- [ ] A6 Appearance: phenylmethanol is a colourless liquid; benzoic acid is a white crystalline solid. Benzoic acid and sodium benzoate (E211) are used as food preservatives.
 
-The two-carbon scheme (one block)
-- [ ] B1 Ethane → chloroethane: chlorine in UV light (substitution).
-- [ ] B2 Ethene → ethane: hydrogen with a nickel catalyst (addition; reduction).
-- [ ] B3 Ethene → chloroethane: hydrogen chloride (addition); ethene → 1,2-dichloroethane: chlorine (addition); ethene → 1,2-dibromoethane: bromine (addition).
-- [ ] B4 Ethene → ethanol: water (addition); ethanol → ethene: heated aluminium oxide (elimination).
-- [ ] B5 Chloroethane → ethene: loss of HCl (elimination).
-- [ ] B6 Ethanol → ethanal → ethanoic acid: acidified potassium permanganate (oxidation, two steps); ethanal → ethanol: hydrogen with a nickel catalyst (reduction).
-- [ ] B7 Ethanoic acid + ethanol → ethyl ethanoate + water: concentrated sulfuric acid catalyst (substitution/esterification); ethyl ethanoate + sodium hydroxide → sodium ethanoate + ethanol (base hydrolysis).
-- [ ] B8 Ethanoic acid → sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).
-- [ ] B9 Ethene → poly(ethene) (addition polymerisation); 1,2-dichloroethane → chloroethene (elimination of HCl) → poly(chloroethene), PVC.
-- [ ] B10 Diagram: the two-carbon scheme drawn as a map with ethene at the centre, arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with reagent and type.
+Method: oxidation and isolation (Investigation block, one step per bullet)
+- [ ] M1 Measure 2.0 cm³ of phenylmethanol with a graduated pipette (or burette) into a flask; its mass = volume × density (1.04 g cm⁻³).
+- [ ] M2 Add potassium permanganate solution (in excess) and some sodium carbonate solution, which makes the mixture basic.
+- [ ] M3 Heat under reflux, or in a boiling water bath, for about 20 minutes, swirling; the purple colour fades and a brown precipitate of MnO₂ forms.
+- [ ] M4 Cool the flask. In a fume cupboard, add concentrated hydrochloric acid and sodium sulfite solution with swirling until the brown precipitate has dissolved and the mixture is acidic; the mixture becomes colourless and white crystals of benzoic acid appear.
+- [ ] M5 Cool the flask in an ice-water bath so that as much benzoic acid as possible crystallises.
+- [ ] M6 Collect the crystals by suction (vacuum) filtration with a Büchner funnel and flask, and wash them with a little ice-cold water.
 
-Three-carbon and other examples (one block)
-- [ ] C1 Propan-1-ol (primary) → propanal → propanoic acid: acidified potassium permanganate (oxidation).
-- [ ] C2 Propan-2-ol (secondary) → propanone: acidified potassium permanganate (oxidation); propanone → propan-2-ol: hydrogen with nickel (reduction).
-- [ ] C3 Propan-2-ol → propene + water (elimination); propene → propane: hydrogen with nickel (addition).
-- [ ] C4 Phenylmethanol → benzoic acid: potassium permanganate under basic conditions (oxidation); see "Investigation: synthesising benzoic acid".
-- [ ] C5 Working backwards: if a scheme ends in an aldehyde, the compound before it is probably a primary alcohol; a ketone comes from a secondary alcohol; an alkene can come from an alcohol (elimination) or go to an alcohol (addition of water).
-- [ ] C6 Carbon atoms are neither gained nor lost in these steps (except esterification, which joins two molecules, and hydrolysis, which splits them), so the carbon skeleton is a check on each answer.
+What happens at the acidification stage (one block)
+- [ ] H1 The hydrochloric acid converts the soluble benzoate into benzoic acid, which is only slightly soluble in cold water and so precipitates: C₆H₅COO⁻(aq) + H⁺(aq) → C₆H₅COOH(s). It also neutralises the excess sodium carbonate.
+- [ ] H2 Sodium sulfite, in acid, reduces the brown MnO₂ to soluble, almost colourless Mn²⁺ ions, so the white benzoic acid is not mixed with brown solid: MnO₂ + SO₃²⁻ + 2H⁺ → Mn²⁺ + SO₄²⁻ + H₂O.
+- [ ] H3 The fume cupboard is needed because concentrated hydrochloric acid gives off HCl fumes and sulfite in acid can release sulfur dioxide.
 
-Predicting reactions and products (Higher Level only)
-- [ ] P1 [HL] To predict a product, identify the functional group and apply its typical reaction: alkene + X₂ or HX or H₂O or H₂ → addition product; primary alcohol + oxidising agent → aldehyde then carboxylic acid; carboxylic acid + alcohol → ester; ester + NaOH → salt + alcohol.
-- [ ] P2 [HL] Example: ethene to ethanoic acid in two steps: add water to give ethanol (addition), then oxidise with excess acidified potassium permanganate (oxidation).
-- [ ] P3 [HL] Example: ethanal to ethyl ethanoate: reduce part of the ethanal to ethanol (H₂, Ni), oxidise another part to ethanoic acid (acidified KMnO₄), then esterify the two (concentrated H₂SO₄).
-- [ ] P4 [HL] Example: chloroethane to ethanol in two steps: eliminate HCl to give ethene, then add water.
-- [ ] P5 [HL] Example: the ester formed when propan-1-ol is heated with methanoic acid is propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol gives the "propyl" part and the acid the "methanoate" part.
+Recrystallisation (Investigation block)
+- [ ] R1 Purpose: to remove impurities (soluble salts such as KCl, NaCl and MnCl₂, and any insoluble matter) from the crude benzoic acid.
+- [ ] R2 Water is a suitable solvent because benzoic acid is very soluble in hot water but only slightly soluble in cold water, while the salt impurities are soluble in both hot and cold water.
+- [ ] R3 Dissolve the crude crystals in the minimum volume of boiling water (so the solution is saturated and as much as possible crystallises on cooling).
+- [ ] R4 Filter the hot solution quickly through fluted filter paper in a warmed (stemless) funnel to remove insoluble impurities: the fluted paper filters fast and the warm funnel stops benzoic acid crystallising in the funnel.
+- [ ] R5 Leave the filtrate to cool slowly to room temperature, then in ice; pure benzoic acid crystallises and the soluble impurities stay in solution. Wait until cooling is complete before filtering, or crystals still dissolved are lost.
+- [ ] R6 Collect the crystals by suction filtration, wash with a little ice-cold water (warm water would dissolve them), and dry them on a clock glass in air, in a desiccator or in a low oven; weigh them.
 
-Explaining behaviour: changes in geometry (Higher Level only)
-- [ ] G1 [HL] A carbon atom with four single bonds is tetrahedral (bond angles about 109.5°); a carbon atom in a C=C or C=O double bond is planar (trigonal planar, about 120°).
-- [ ] G2 [HL] Addition to C=C (e.g. ethene → ethane, ethene → ethanol, polymerisation): the two carbon atoms change from planar to tetrahedral.
-- [ ] G3 [HL] Elimination (e.g. ethanol → ethene): the two carbon atoms change from tetrahedral to planar.
-- [ ] G4 [HL] Oxidising an alcohol to an aldehyde or ketone: the carbon bearing the oxygen changes from tetrahedral to planar; reducing an aldehyde or ketone to an alcohol changes it from planar to tetrahedral.
-- [ ] G5 [HL] Aldehyde → carboxylic acid and acid → ester: the carbonyl carbon stays planar, so there is no change in geometry.
-- [ ] G6 [HL] Counting geometry in a molecule: ethene has no tetrahedral carbon; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon; ethanol and ethane have only tetrahedral carbons.
+Melting point and purity (Investigation block)
+- [ ] P1 Seal one end of a capillary tube, push the open end into the dry crystals and tap it down so the solid packs at the sealed end.
+- [ ] P2 Place the tube in a melting-point apparatus (an electrically heated metal block with a thermometer); a water bath cannot be used because benzoic acid melts above 100 °C.
+- [ ] P3 Heat slowly near the expected melting point and record the temperature at which melting starts and the temperature at which it is complete (the melting range).
+- [ ] P4 Pure benzoic acid melts sharply at about 122 °C (a narrow range of 1–2 °C).
+- [ ] P5 Impurities lower the melting point and widen the range (e.g. crude crystals melting over 116–119 °C), so a sharp melting point close to 122 °C shows the recrystallised sample is pure.
+- [ ] P6 Diagram: capillary tube of benzoic acid in a heated melting-point block with a thermometer (or digital probe) beside it.
 
-Explaining behaviour: why some reactions are not possible (Higher Level only)
-- [ ] N1 [HL] Tertiary alcohols (e.g. 2-methylpropan-2-ol) are not oxidised by acidified potassium permanganate: the carbon bearing –OH has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.
-- [ ] N2 [HL] Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason (no H on the carbonyl carbon).
-- [ ] N3 [HL] Alkanes and poly(ethene) cannot undergo addition (they are saturated; no pi bond), so they do not decolourise bromine water.
-- [ ] N4 [HL] Methanol cannot be dehydrated to an alkene: it has only one carbon atom, and a C=C needs two.
-- [ ] N5 [HL] Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons make the ring unusually stable, so it resists addition (see "Shapes: sigma and pi bonds").
-- [ ] N6 [HL] A carboxylic acid such as ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol.
+Sample yield calculation (one block, one step per bullet; sample data)
+- [ ] Y1 Data: 2.0 cm³ of phenylmethanol (density 1.04 g cm⁻³) gave 1.65 g of dry recrystallised benzoic acid.
+- [ ] Y2 Mass of phenylmethanol = 2.00 × 1.04 = 2.08 g; M(C₆H₅CH₂OH) = 108 g mol⁻¹; moles = 2.08 ÷ 108 = 0.0193 mol.
+- [ ] Y3 Moles of benzoic acid expected = 0.0193 mol (1 : 1); M(C₆H₅COOH) = 122 g mol⁻¹; theoretical yield = 0.0193 × 122 = 2.35 g.
+- [ ] Y4 Percentage yield = 1.65 ÷ 2.35 × 100 = 70.2%.
+- [ ] Y5 Reasons the yield is below 100%: some benzoic acid stays dissolved in the cold filtrates; crystals are lost in transfers and on filter papers; too much water used in recrystallisation; oxidation incomplete.
+
+Checking the permanganate is in excess (Higher Level only)
+- [ ] L1 [HL] From the equation, 3 mol phenylmethanol need 4 mol KMnO₄: for 0.0193 mol phenylmethanol, KMnO₄ needed = 0.0193 × 4 ÷ 3 = 0.0257 mol.
+- [ ] L2 [HL] M(KMnO₄) = 158 g mol⁻¹, so 0.0257 mol = 4.06 g; using 5.00 g (0.0316 mol) means KMnO₄ is in excess and phenylmethanol is the limiting reagent, so the yield is calculated from phenylmethanol (see "Limiting reagents").
+
+Safety (one block)
+- [ ] S1 Goggles and gloves: concentrated hydrochloric acid is corrosive; potassium permanganate is an oxidising agent and stains skin; phenylmethanol is harmful.
+- [ ] S2 Diagram: Büchner funnel on a Büchner (side-arm) flask connected to a vacuum pump, with filter paper and crystals.
 
 ## 2. Checked facts and examples
 
 | Item | Fact |
 |---|---|
-| G1 | Tetrahedral angle 109.5°; trigonal planar 120°. |
-| P5 | Propyl methanoate, HCOOC₃H₇, is C₄H₈O₂. |
+| P4 | Benzoic acid mp 122 °C. |
+| M1 | Phenylmethanol density 1.04 g cm⁻³; M = 108 g mol⁻¹. |
+| Y3 | M(benzoic acid) = 122 g mol⁻¹. |
+| L2 | M(KMnO₄) = 158 g mol⁻¹. |
+| A6 | E211 is sodium benzoate; E210 is benzoic acid. |
+
+Y1–Y4 and L1–L2 are sample data; arithmetic checked.
 
 ## 3. Traps
 
-- Reaction conditions are not required unless the specification names them; give the reagent (e.g. hydrogen with nickel, acidified potassium permanganate).
-- Oxidising a primary alcohol gives the aldehyde first and then the acid; a secondary alcohol gives a ketone, never an acid.
-- When drawing geometry, the carbon of an –OH group in an alcohol is tetrahedral; only carbons in double bonds (or benzene rings) are planar.
-- Don't let a proposed product gain or lose carbon atoms in a single step except by esterification or hydrolysis.
+- The specification says basic conditions: sodium carbonate is the base added; the oxidation does not use acidified permanganate, and the brown product is MnO₂, not Mn²⁺.
+- Percentage yield uses moles (theoretical mass from the 1 : 1 ratio), not the mass of benzoic acid ÷ mass of phenylmethanol.
+- Wash crystals with ice-cold water, never warm.
+- Use the minimum of hot water in recrystallisation; extra water lowers the yield.
+- Impurities lower the melting point; they don't raise it.
 
 ## 4. What exams ask (topics only)
 
-- Name the compounds in a given scheme; identify an addition, a substitution, an elimination, an oxidation and a reduction in it.
-- Reagents for given conversions (H₂/Ni; acidified KMnO₄; Al₂O₃; Cl₂ in UV light).
-- How the geometry around the carbon atoms changes in a given conversion; which compound has no tetrahedral carbon, or only one planar carbon.
-- Intermediates in a multi-step synthesis.
+- Appearance of phenylmethanol and benzoic acid; apparatus to measure 1–2 cm³ of phenylmethanol.
+- Colour changes during oxidation (purple → brown) and when MnO₂ is converted to Mn²⁺ (brown → colourless); which reagent is the base and which reduces MnO₂.
+- The steps of recrystallisation and the reason for each (minimum hot solvent, hot filtration through fluted paper, slow cooling, cold washing, drying).
+- How to measure the melting point; how the melting point shows purity.
+- Percentage yield from a volume and density of phenylmethanol; whether enough KMnO₄ was used (Higher Level).
 
 ## 5. Practice questions to write
 
-1. 10 marks: "In the scheme ethene → ethanol → ethanal → ethanoic acid, name the reagent and the type of reaction for each step." Model answer: B4 (water; addition); B6 (acidified KMnO₄; oxidation, twice).
-2. 12 marks (Higher Level): "(a) State how the geometry around the carbon atoms changes when ethene is converted to ethanol. (b) Explain why 2-methylpropan-2-ol cannot be oxidised to an aldehyde or ketone. (c) Suggest a two-step route from chloroethane to ethanol, naming the type of each step." Model answer: (a) G2, planar to tetrahedral, G1; (b) N1; (c) P4: elimination of HCl, then addition of water.
-3. 6 marks (Higher Level): "Which of the compounds ethene, ethanal, ethanol has no tetrahedral carbon atom, and which has exactly one planar carbon atom? Explain." Model answer: G6, G1.
+1. 15 marks: "Describe how crude benzoic acid is purified by recrystallisation, and how its melting point is used to show that the recrystallised sample is pure." Model answer: R2–R6, P1–P5.
+2. 12 marks: "A student oxidised 1.60 cm³ of phenylmethanol (density 1.04 g cm⁻³) and obtained 1.40 g of benzoic acid. Calculate the percentage yield (sample data)." Model answer: mass = 1.60 × 1.04 = 1.66 g; moles = 1.664 ÷ 108 = 0.0154 mol; theoretical = 0.0154 × 122 = 1.88 g; yield = 1.40 ÷ 1.88 × 100 = 74.5%.
+3. 6 marks (Higher Level): "In the same experiment the student used 3.50 g of KMnO₄. Show whether this was enough to oxidise all the phenylmethanol." Model answer: KMnO₄ available = 3.50 ÷ 158 = 0.0222 mol; needed = 0.0154 × 4 ÷ 3 = 0.0205 mol (3.25 g); 0.0222 > 0.0205, so KMnO₄ is in excess and phenylmethanol is limiting (L1–L2).
