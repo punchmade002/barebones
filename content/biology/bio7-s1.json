@@ -1,0 +1,80 @@
+{
+  "loId": "bio7-s1",
+  "chapterId": "bio7",
+  "subsection": "Prokaryotic and eukaryotic cells",
+  "syllabusRef": "1.3.2",
+  "notes": [
+    {
+      "h": "Definitions and units",
+      "points": [
+        "Prokaryotic cell: a cell with no nucleus and no membrane-bound organelles. Its DNA lies free in the cytoplasm. “Pro” means before and “karyon” means kernel or nucleus. Bacteria and archaea are prokaryotes.",
+        "Eukaryotic cell: a cell whose DNA is enclosed in a nucleus surrounded by a double membrane (the nuclear envelope), and which has membrane-bound organelles such as mitochondria. “Eu” means true. Protists, fungi, plants and animals are eukaryotes.",
+        "Units: 1 mm = 1000 µm (micrometres); 1 µm = 1000 nm (nanometres). Cell sizes are given in µm."
+      ]
+    },
+    {
+      "h": "Features the two cell types share",
+      "points": [
+        "Both have a cell membrane that controls what enters and leaves the cell, and cytoplasm where many reactions take place.",
+        "Both have ribosomes for making proteins, and DNA as the genetic material, using the same genetic code.",
+        "Both respire and use ATP.",
+        "These shared features suggest that all cells evolved from a common ancestor."
+      ]
+    },
+    {
+      "h": "Comparing the structure of the two cell types",
+      "points": [
+        "Nucleus: prokaryotes have none. Their DNA is concentrated in a region of the cytoplasm called the nucleoid. Eukaryotes have a nucleus with a nuclear envelope and nuclear pores.",
+        "DNA: prokaryotes have one circular chromosome, which in bacteria is not wound around histone proteins. They often also have small extra rings of DNA called plasmids, which can carry genes such as antibiotic resistance. Eukaryotes have several linear chromosomes made of DNA wound around histone proteins.",
+        "Plasmids are found in prokaryotes (and in yeast), not in all eukaryotes.",
+        "Membrane-bound organelles: prokaryotes have none, so no mitochondria, no chloroplasts and no other membrane-bound organelles. Respiration and, in photosynthetic bacteria, photosynthesis take place on the cell membrane or on infoldings of it. Eukaryotes have mitochondria, and plants and algae also have chloroplasts.",
+        "Mitochondria and chloroplasts contain their own small circular DNA and 70S ribosomes, like a prokaryote.",
+        "Ribosomes: both have them, but prokaryotic ribosomes are smaller (70S) than those in eukaryotic cytoplasm (80S). Many antibiotics work by blocking 70S ribosomes, so they harm bacteria and not human cells.",
+        "Size: prokaryotic cells are small, most about 1–10 µm long. Eukaryotic cells are usually about 10–100 µm, so they are roughly ten times larger in length.",
+        "Cell wall: almost all prokaryotes have one, made of peptidoglycan in bacteria. Among eukaryotes, plant cells have cellulose walls, fungal cells have chitin walls, and animal cells have none.",
+        "Some prokaryotes have extra outer structures: a capsule (slime layer) for protection, and a flagellum for movement. The full bacterial cell is in “Microorganisms”.",
+        "Organisation: prokaryotes are almost all unicellular and divide by binary fission. Eukaryotes can be unicellular or multicellular and divide by mitosis, detail in “Cell Division and Cancer”.",
+        "Examples: prokaryotes are bacteria and archaea. Eukaryotes are protists, fungi, plants and animals."
+      ]
+    },
+    {
+      "h": "Seeing the cells with light and electron microscopes",
+      "points": [
+        "Under a light microscope at ×400, a bacterium appears as a tiny dot, rod or spiral with no visible internal structure. It is too small (about 1–10 µm) for the light microscope to show its parts.",
+        "Under a light microscope, eukaryotic cells show the nucleus (especially when stained), the cytoplasm and the cell membrane as a line. Plant cells also show the cell wall, a large vacuole and chloroplasts.",
+        "Electron micrographs show what the light microscope cannot. In prokaryotes they show the nucleoid, ribosomes as tiny dots, plasmids and the layers of the wall. In eukaryotes they show the double nuclear envelope and its pores, the internal membranes of mitochondria and chloroplasts, and ribosomes.",
+        "To tell the cell type from a micrograph, check for a nucleus: if present, the cell is eukaryotic. Check the scale bar or stated magnification to estimate size: about 1–10 µm suggests prokaryotic.",
+        "For a eukaryote, look for membrane-bound organelles, then for a cell wall, large vacuole and chloroplasts (plant) or their absence (animal). Plant and animal cells are compared in “Structures and organelles of animal and plant cells”.",
+        "Diagram: side-by-side labelled diagrams of a generalised prokaryotic cell (cell wall, cell membrane, cytoplasm, nucleoid with circular DNA, plasmid, ribosomes, capsule and flagellum) and a eukaryotic animal cell (cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, mitochondria, ribosomes), drawn to show the eukaryotic cell much larger."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Prokaryotic cell", "definition": "A cell with no nucleus and no membrane-bound organelles, whose DNA lies free in the cytoplasm." },
+    { "term": "Eukaryotic cell", "definition": "A cell whose DNA is enclosed in a nucleus with a double membrane, and which has membrane-bound organelles." },
+    { "term": "Nucleoid", "definition": "The region of the cytoplasm of a prokaryotic cell where its DNA is concentrated; it is not a nucleus." },
+    { "term": "Plasmid", "definition": "A small extra ring of DNA found in prokaryotes, which can carry genes such as antibiotic resistance." },
+    { "term": "Nuclear envelope", "definition": "The double membrane surrounding the nucleus of a eukaryotic cell." },
+    { "term": "Nuclear pore", "definition": "An opening through the nuclear envelope that controls what passes in and out of the nucleus." },
+    { "term": "70S and 80S ribosomes", "definition": "Prokaryotic ribosomes are 70S and eukaryotic cytoplasmic ribosomes are 80S; many antibiotics block 70S ribosomes." },
+    { "term": "Binary fission", "definition": "Division of a prokaryotic cell into two identical cells." },
+    { "term": "Capsule", "definition": "A slime layer outside some prokaryotic cells that gives protection." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Give three differences between prokaryotic and eukaryotic cells.",
+      "model": "First, prokaryotic cells have no nucleus, with their DNA concentrated in the nucleoid, whereas eukaryotic cells have a nucleus enclosed by a nuclear envelope. Second, prokaryotes have no membrane-bound organelles such as mitochondria or chloroplasts, whereas eukaryotes have mitochondria, and plants and algae also have chloroplasts. Third, prokaryotic ribosomes are 70S, smaller than the 80S ribosomes in eukaryotic cytoplasm. Prokaryotic cells are also much smaller, about 1–10 µm long, compared with about 10–100 µm for most eukaryotic cells."
+    },
+    {
+      "marks": 9,
+      "prompt": "Draw a labelled diagram of a prokaryotic cell. State one feature it shares with all eukaryotic cells and one feature it lacks.",
+      "model": "The diagram labels the cell wall, cell membrane, cytoplasm, nucleoid containing circular DNA, plasmid and ribosomes, and may add a capsule and flagellum. One feature it shares with all eukaryotic cells is a cell membrane, or cytoplasm, or ribosomes, or DNA as its genetic material. One feature it lacks is a nucleus enclosed by a nuclear envelope, or membrane-bound organelles such as mitochondria."
+    },
+    {
+      "marks": 9,
+      "prompt": "An electron micrograph shows a cell 2 µm long with no nucleus and many small dots in its cytoplasm. Identify the type of cell, name the dots, and explain your reasoning.",
+      "model": "The cell is prokaryotic. It has no nucleus, and it is about 2 µm long, which lies in the range of 1–10 µm for prokaryotes, whereas most eukaryotic cells are about 10–100 µm. The small dots are ribosomes, which are 70S in prokaryotes. The reasoning is that a cell with no nucleus, and a size of 1–10 µm, is a prokaryote; to tell the cell type, check for a nucleus first, then the size from the scale bar or magnification."
+    }
+  ]
+}

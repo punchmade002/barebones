@@ -1,0 +1,115 @@
+{
+  "loId": "bio9-s1",
+  "chapterId": "bio9",
+  "subsection": "ATP",
+  "syllabusRef": "1.2.8",
+  "notes": [
+    {
+      "h": "Transfer molecules and metabolism",
+      "b": "A transfer molecule carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them.",
+      "points": [
+        "A transfer molecule is not used up: after handing on its load it returns to be recharged, so a cell needs only a small amount of each one, recycled continuously.",
+        "ATP is the main energy-transfer molecule in all living cells, from bacteria to humans, which is why it is called the energy currency of the cell.",
+        "Metabolism is all the chemical reactions in a cell.",
+        "Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration.",
+        "Anabolic reactions build large molecules from smaller ones and need energy, e.g. protein synthesis and photosynthesis.",
+        "ATP links the two: catabolic reactions make ATP, and anabolic reactions and other cell work use it. The reactions themselves are covered in Biomolecules and metabolism."
+      ]
+    },
+    {
+      "h": "Structure of ATP",
+      "points": [
+        "ATP stands for adenosine triphosphate. It is made of three parts: the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose.",
+        "Adenine joined to ribose is called adenosine; tri means three phosphates.",
+        "ATP is a modified nucleotide, built to the same plan of base, sugar and phosphate as an RNA nucleotide (see Nucleotides, DNA and RNA).",
+        "ADP (adenosine diphosphate) has only two phosphate groups.",
+        "Pi (inorganic phosphate) is a single free phosphate group.",
+        "Diagram: ATP drawn as a box labelled adenine, joined to a pentagon labelled ribose, joined to a chain of three circles labelled phosphate, with the bond to the third (end) phosphate marked as the one broken to release energy; a second sketch showing ADP + Pi."
+      ]
+    },
+    {
+      "h": "Releasing energy: hydrolysis of ATP",
+      "points": [
+        "Energy is released when the end phosphate is removed: ATP + H₂O → ADP + Pi + energy.",
+        "The reaction uses water, so it is a hydrolysis reaction. It is catalysed by an enzyme called ATPase.",
+        "The bond to the end phosphate is often called a high-energy bond: it is easily broken, and the reaction releases about 30 kJ per mole of ATP (30.5 kJ/mol) under standard conditions.",
+        "The energy is released in one quick step, in a small packet that suits a single reaction and is available right where the cell needs it.",
+        "Often the released phosphate is attached to another molecule, such as a carrier protein or a reactant, which makes it more reactive or changes its shape so that it can do work."
+      ]
+    },
+    {
+      "h": "Remaking ATP: phosphorylation",
+      "points": [
+        "ATP is remade by adding a phosphate group back on to ADP: ADP + Pi + energy → ATP + H₂O.",
+        "Adding phosphate is called phosphorylation. It is catalysed by enzymes, mainly ATP synthase, the enzyme that makes most of the cell's ATP.",
+        "In all living cells, the energy to make ATP comes from respiration, the breakdown of food such as glucose: some ATP is made in the cytoplasm and most in the mitochondria. The stages are covered in Respiration.",
+        "In plants and algae, ATP is also made in the light-dependent stage of photosynthesis in the chloroplasts, using light energy; this ATP is used inside the chloroplast to make glucose. The stages are covered in Photosynthesis."
+      ]
+    },
+    {
+      "h": "The ATP/ADP cycle",
+      "points": [
+        "ATP is continuously broken down to ADP + Pi to release energy for cell work, and ADP + Pi are continuously rebuilt into ATP using energy from respiration (or light). This loop is the ATP/ADP cycle.",
+        "Cells hold only a small store of ATP at any time. Each molecule is recycled many times, so ATP must be made constantly while a cell is alive.",
+        "When respiration stops, for example after a long time without oxygen or in the presence of a poison that blocks respiration, ATP runs out within minutes and cell processes fail.",
+        "Diagram: the ATP/ADP cycle as a circle, with ATP at the top and ADP + Pi at the bottom; one arrow down labelled energy released for cell work: muscle contraction, active transport, synthesis; one arrow up labelled energy in from respiration (and light in photosynthesis)."
+      ]
+    },
+    {
+      "h": "Roles of ATP in the cell",
+      "points": [
+        "Muscle contraction: ATP provides the energy for protein filaments in muscle fibres to slide past each other, shortening the muscle. Very active muscle cells therefore contain many mitochondria. Muscle structure is covered in The Musculoskeletal System.",
+        "Active transport: carrier proteins in the cell membrane use energy from ATP to pump substances against their concentration gradient, e.g. root hair cells taking in mineral ions from dilute soil water.",
+        "The sodium–potassium pump in nerve cells uses ATP to restore the ion balance after an impulse. Details are in Transport Across Membranes.",
+        "Synthesis (anabolic reactions): ATP is needed to join amino acids into proteins at ribosomes, to make DNA when it is copied before cell division, and to make glycogen and starch from glucose.",
+        "The light-independent stage of photosynthesis uses ATP to build glucose from carbon dioxide.",
+        "Other uses: cell division (moving chromosomes), movement of cilia and flagella, and the light produced by fireflies (bioluminescence), where the enzyme luciferase uses ATP."
+      ]
+    },
+    {
+      "h": "Why cells use ATP instead of glucose directly",
+      "points": [
+        "Breaking down one glucose molecule releases far more energy than any single reaction needs, and it does so over many steps.",
+        "ATP releases a small, manageable amount, matched to one reaction, in a single step, so less energy is wasted as heat.",
+        "ATP is available instantly where it is needed and is easily recycled. One type of molecule can supply energy to every kind of reaction in the cell.",
+        "ATP is a short-term energy carrier, not a store. Long-term energy is stored in starch (plants), glycogen (animals and fungi) and fats and oils, which respiration uses to make ATP when needed."
+      ]
+    },
+    {
+      "h": "ATP in hygiene testing",
+      "points": [
+        "Because every living cell contains ATP, hygiene tests in food factories and hospitals swab a surface and add luciferase.",
+        "Light given off shows that ATP is present, and therefore that living or recently living material, such as bacteria or food residue, is on the surface."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "ATP", "definition": "Adenosine triphosphate: the main energy-transfer molecule in cells, made of adenine, ribose and three phosphate groups." },
+    { "term": "ADP", "definition": "Adenosine diphosphate: the molecule left when ATP loses its end phosphate, with two phosphate groups." },
+    { "term": "Pi", "definition": "Inorganic phosphate: a single free phosphate group released in ATP hydrolysis and added back in phosphorylation." },
+    { "term": "Hydrolysis", "definition": "A reaction in which a molecule is split by adding water, such as ATP + H₂O → ADP + Pi + energy." },
+    { "term": "Phosphorylation", "definition": "Adding a phosphate group to a molecule, such as ADP becoming ATP." },
+    { "term": "ATP/ADP cycle", "definition": "The continuous breakdown of ATP to release energy and rebuilding of ATP from ADP and Pi." },
+    { "term": "Transfer molecule", "definition": "A molecule that carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them." },
+    { "term": "Catabolic reaction", "definition": "A reaction that breaks large molecules into smaller ones and releases energy, such as respiration." },
+    { "term": "Anabolic reaction", "definition": "A reaction that builds large molecules from smaller ones and needs energy, such as protein synthesis." },
+    { "term": "ATP synthase", "definition": "The enzyme that makes most of the ATP in a cell by adding phosphate to ADP." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Name the three components of an ATP molecule and state what happens to ATP when it releases energy.",
+      "model": "The three components are the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose. When ATP releases energy, its end phosphate is removed by hydrolysis: ATP + H₂O → ADP + Pi + energy. ATP becomes ADP and inorganic phosphate (Pi), and the energy released is used for cell work."
+    },
+    {
+      "marks": 9,
+      "prompt": "Describe the ATP/ADP cycle, naming one process that makes ATP and two cell activities that use it.",
+      "model": "ATP is continuously broken down to ADP and Pi, releasing energy for cell work, and ADP and Pi are continuously rebuilt into ATP using energy from respiration (or light). One process that makes ATP is respiration, which takes place in the cytoplasm and mitochondria; the light-dependent stage of photosynthesis in the chloroplasts is another. Two cell activities that use ATP are muscle contraction, where ATP powers protein filaments sliding past each other, and active transport, where carrier proteins use ATP to pump substances against their concentration gradient."
+    },
+    {
+      "marks": 9,
+      "prompt": "Suggest two advantages to a cell of using ATP as an energy source rather than breaking down glucose every time energy is needed.",
+      "model": "First, ATP releases energy in small, manageable amounts matched to a single reaction, in one step, so less energy is wasted as heat; breaking down glucose releases far more energy than one reaction needs, over many steps. Second, ATP is available instantly where it is needed and is easily recycled, and one type of molecule can supply energy to every kind of reaction in the cell."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "loId": "bio2-s3",
+  "chapterId": "bio2",
+  "subsection": "Objectivity and data quality",
+  "syllabusRef": "U2.3–U2.4",
+  "notes": [
+    {
+      "h": "Objectivity",
+      "b": "Results and conclusions should depend on the evidence, not on the investigator’s opinions, expectations or wishes. A subjective judgement depends on the person making it.",
+      "points": [
+        "Investigators can unconsciously influence results, e.g. by reading a scale generously, deciding later which results “count”, or judging a colour change sooner when they expect it. This is experimenter (observer) bias.",
+        "Measure with instruments and record numbers rather than judging by eye. For example, use a colorimeter instead of deciding when a blue-black starch–iodine colour has gone.",
+        "Iodine turns blue-black with starch, and the colour disappears as amylase digests the starch, so the end-point can be recorded as a number.",
+        "Decide the method, the end-point and how results will be analysed before collecting data, and record all results.",
+        "Allocate samples or participants to groups at random, and sample at random, e.g. using random coordinates for quadrats (see Investigating an Ecosystem).",
+        "Random allocation and random sampling mean every individual has an equal chance of being chosen or placed in a group, so the investigator’s choices cannot make one group different from another.",
+        "A single-blind trial hides the group from the participants: they do not know whether they are in the treatment group or the control group.",
+        "A double-blind trial hides the group from both the participants and the researchers who give the treatment and record the results, until the results are analysed. Double-blinding removes bias from the expectations of both.",
+        "A placebo is a dummy treatment with no active ingredient that looks the same as the real one, e.g. a sugar pill, given to the control group in a trial on people.",
+        "People given a placebo sometimes improve because they expect to (the placebo effect), so the real treatment must do better than the placebo to show that it works.",
+        "A placebo is a form of the control described in Designing and conducting investigations."
+      ]
+    },
+    {
+      "h": "Random error",
+      "b": "Random error is unpredictable variation in measurements. It cannot be removed completely, but its effect can be reduced.",
+      "points": [
+        "Random error makes repeated measurements scatter on both sides of the true value, by different amounts each time.",
+        "Sources in biology investigations include human reaction time when starting and stopping a stopwatch, judging an end-point colour by eye, and reading a scale between divisions.",
+        "Other sources include small fluctuations in water-bath temperature, and natural variation between biological samples: cylinders cut from different parts of a potato, leaves of different ages, or individuals of different fitness.",
+        "Random error reduces precision, so repeat readings spread out.",
+        "Random error is reduced by taking repeats and replicates and calculating a mean, because random errors partly cancel out.",
+        "Random error is also reduced by increasing the sample size, using more precise instruments or automatic measurement such as a data logger or colorimeter, and controlling the variables more tightly."
+      ]
+    },
+    {
+      "h": "Systematic error",
+      "b": "Systematic error is a consistent error that affects every measurement in the same way, so it cannot be seen by repeating the measurement.",
+      "points": [
+        "Systematic error shifts every measurement in the same direction by the same amount or proportion, so results are all too high or all too low.",
+        "An instrument that is not calibrated, or has a zero error, causes systematic error: e.g. a balance that reads 0.05 g with nothing on it, or a thermometer that reads 2 °C too high.",
+        "Reading a scale from the same wrong angle every time causes a parallax error.",
+        "A flaw in the method that is repeated every time also causes systematic error: e.g. never blotting potato cylinders dry, so every mass includes surface solution, or a leaking delivery tube, so some gas is never collected.",
+        "Systematic error reduces accuracy but not precision: repeats can agree closely and still all be wrong.",
+        "Repeating the measurement does not reduce systematic error, because the same error occurs every time.",
+        "Systematic error is reduced by calibrating instruments against a known standard, zeroing (taring) the balance before use, reading scales at eye level, and improving the method.",
+        "Comparing results with another method or with published values can reveal systematic error.",
+        "Random and systematic error compared: random error is unpredictable, occurs in both directions, affects precision, and is reduced by repeats and means; systematic error is consistent, occurs in one direction, affects accuracy, is not reduced by repeats, and is reduced by calibration and a better method.",
+        "Mistakes, such as spilling a sample, misreading a number or using the wrong solution, are neither random nor systematic error. The result is discarded and the measurement repeated.",
+        "Avoid the vague phrase “human error” in answers: name the specific source and its effect.",
+        "Diagram: a number line or target showing a true value, with (a) readings scattered on both sides (random error) and (b) readings clustered together but all displaced to one side (systematic error)."
+      ]
+    },
+    {
+      "h": "Repeatability and reproducibility",
+      "b": "Repeatability and reproducibility are two tests of whether data can be trusted, and they differ in who repeats the investigation and how.",
+      "points": [
+        "Repeatable: the same investigator, using the same method and equipment under the same conditions, repeats the investigation and gets the same or very similar results.",
+        "Reproducible: a different person or group repeats the investigation, or uses different equipment or a different method, and obtains similar results.",
+        "To evaluate data for repeatability, compare the repeats or replicates for each value of the independent variable. A small range (spread) means the data are repeatable and precise; a large range shows high random error or an uncontrolled variable.",
+        "To evaluate data for reproducibility, compare the class’s results with other groups’ results, or with secondary data from a textbook or published source. Agreement increases confidence that the results are reliable and not due to one person’s error or equipment.",
+        "Results that are repeatable but not reproducible point to a systematic error or a feature of one set-up, e.g. one group’s balance or one batch of potatoes.",
+        "Repeatable and reproducible data increase confidence in a conclusion but do not make it certain."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Objectivity", "definition": "Results and conclusions that depend on the evidence rather than on the investigator’s opinions, expectations or wishes." },
+    { "term": "Experimenter bias", "definition": "The unconscious influence of an investigator’s expectations on how results are measured, recorded or selected." },
+    { "term": "Random allocation", "definition": "Placing participants or samples into groups by chance, so that every individual has an equal chance of being in each group." },
+    { "term": "Single-blind trial", "definition": "A trial in which the participants do not know whether they are in the treatment group or the control group." },
+    { "term": "Double-blind trial", "definition": "A trial in which neither the participants nor the researchers giving the treatment and recording results know who is in which group until the results are analysed." },
+    { "term": "Placebo", "definition": "A dummy treatment with no active ingredient that looks the same as the real treatment." },
+    { "term": "Placebo effect", "definition": "An improvement that occurs because a person expects a treatment to work." },
+    { "term": "Random error", "definition": "Unpredictable variation that makes repeated measurements scatter on both sides of the true value." },
+    { "term": "Systematic error", "definition": "A consistent error that shifts every measurement in the same direction, so results are all too high or all too low." },
+    { "term": "Zero error", "definition": "An instrument reading that is not zero when nothing is measured, which causes systematic error." },
+    { "term": "Parallax error", "definition": "A systematic error caused by reading a scale from the same wrong angle every time." },
+    { "term": "Repeatable", "definition": "Describes results obtained when the same investigator repeats the investigation with the same method and equipment." },
+    { "term": "Reproducible", "definition": "Describes results obtained when a different person, or a different method or equipment, repeats the investigation and gets similar results." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Distinguish between random error and systematic error. Give a biological example of each.",
+      "model": "Random error is unpredictable variation that makes repeated measurements scatter on both sides of the true value, by different amounts each time. It reduces precision and is reduced by taking repeats and calculating a mean. An example is natural variation between potato cylinders cut from different parts of a potato, so their masses differ. Systematic error is a consistent error that shifts every measurement in the same direction by the same amount or proportion. It reduces accuracy and is not reduced by repeats. An example is never blotting the potato cylinders dry, so every mass includes surface solution and all the results are too high."
+    },
+    {
+      "marks": 9,
+      "prompt": "Explain what is meant by a double-blind trial and why a placebo is used when testing a new medicine.",
+      "model": "A double-blind trial is one in which neither the participants nor the researchers who give the treatment and record the results know who is in the treatment group or the control group until the results are analysed. This removes bias from the expectations of both participants and researchers. A placebo is a dummy treatment with no active ingredient that looks the same as the real medicine, and it is given to the control group. It acts as a control, because people given a placebo sometimes improve because they expect to, which is the placebo effect. The new medicine must therefore do better than the placebo to show that its active ingredient works. The placebo is not the treatment itself."
+    },
+    {
+      "marks": 12,
+      "prompt": "Two groups measured the change in mass of potato cylinders in the same sucrose solutions. Group A’s three replicates were very close to each other but all higher than Group B’s and the textbook values. Evaluate Group A’s data in terms of repeatability and reproducibility and suggest a cause.",
+      "model": "Group A’s data are repeatable, because the three replicates were very close together, showing a small range and high precision, and the same group repeating the investigation with the same method would get similar results. The data are not reproducible, because they disagree with Group B’s results and the textbook values, so a different group using a different set-up did not obtain similar results. Because the readings agree closely but are all displaced in one direction, the cause is most likely a systematic error, such as not blotting the cylinders dry so every mass includes surface solution, or a balance with a zero error. Repeating the measurements would not remove this error, because the same error occurs each time. It should be found and fixed by calibrating the balance against a known standard, zeroing it before use, or improving the method, and then the investigation should be repeated to check reproducibility."
+    }
+  ]
+}

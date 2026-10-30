@@ -8,6 +8,9 @@ const isLocalMathsPreview = ["localhost", "127.0.0.1"].includes(window.location.
 // Localhost-only: ?preview=onboarding opens the first-run questionnaire without an account.
 const isLocalOnboardingPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
   && new URLSearchParams(window.location.search).get("preview") === "onboarding";
+// Localhost-only: ?preview=test opens the Test tab with a throwaway profile.
+const isLocalTestPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  && new URLSearchParams(window.location.search).get("preview") === "test";
 
 const FALLBACK_CHAPTERS = [
   { id: "ch1", title: "1. Key Stakeholders", learningOutcomes: buildOutcomes("1") },
@@ -448,8 +451,8 @@ const els = {
   fullNotesBody: document.getElementById("fullNotesBody"),
   closeFullNotes: document.getElementById("closeFullNotes"),
   hierarchyPanel: document.getElementById("hierarchyPanel"),
-  startTest: document.getElementById("startTest"),
   testContainer: document.getElementById("testContainer"),
+  testScreen: document.getElementById("testScreen"),
   tabs: Array.from(document.querySelectorAll(".tab")),
   flashcardsTab: document.getElementById("flashcardsTab"),
   testTab: document.getElementById("testTab"),
@@ -474,6 +477,7 @@ let selectedOutcomeId = SUBJECTS[0].chapters[0].learningOutcomes[0].id;
 let studyIndex = 0;
 let showAnswer = false;
 let viewMode = 'chapter';
+let phoneHome = true; // phones open on the subject list; see "Phone navigation"
 // True while a freshly opened chapter is showing its full-screen subsection picker.
 let pickingOutcome = false;
 // Live reading state lives up here because bindEvents() runs before the reader's code below.
@@ -483,6 +487,29 @@ const LIVE_READER_WPM_KEY = "bb-live-reader-wpm";
 const LIVE_READER_CHARS_PER_WORD = 5;
 const liveReader = { lines: [], index: 0, pos: 0, playing: false, raf: 0, lastTs: 0, wpm: 220 };
 const mathsSolutionStore = new Map();
+
+// Test state. Declared up here because renderAll() runs before the Test section below.
+const TEST_HISTORY_LIMIT = 30;
+const TEST_SETTINGS_KEY = "bb-test-settings-v1";
+const TEST_LENGTHS = [5, 10, 15, 20, 30, 45];
+const TEST_MIXES = [
+  { id: "flashcards", label: "Mostly flashcards" },
+  { id: "balanced", label: "Balanced" },
+  { id: "exam", label: "Mostly exam" },
+];
+const TEST_PASS_PERCENT = 70;
+const TEST_KIND_LABELS = {
+  "pick-term": "Name the term",
+  "pick-definition": "Pick the description",
+  cloze: "Fill the gap",
+  recall: "Written recall",
+  mcq: "Multiple choice",
+  tf: "True or false",
+  written: "Written answer",
+};
+const TEST_CHOICE_KINDS = new Set(["pick-term", "pick-definition", "mcq", "tf"]);
+const testPoolCache = new Map();
+let activeTest = null;
 
 if (isLocalMathsPreview) {
   const previewUsername = "maths-preview";
@@ -501,10 +528,22 @@ if (isLocalOnboardingPreview) {
   state.session.currentUser = previewUsername;
 }
 
+if (isLocalTestPreview) {
+  const previewUsername = "test-preview";
+  state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
+  state.session.currentUser = previewUsername;
+  const previewSubject = SUBJECTS.find((s) => s.id === "biology") || SUBJECTS[0];
+  selectedSubjectId = previewSubject.id;
+  selectedChapterId = previewSubject.chapters[0]?.id || "";
+  selectedOutcomeId = previewSubject.chapters[0]?.learningOutcomes[0]?.id || "";
+}
+
 bindEvents();
 renderAll();
 if (isLocalOnboardingPreview) {
   showOnboarding(getCurrentUser());
+} else if (isLocalTestPreview) {
+  switchTab("test");
 } else if (!isLocalMathsPreview) {
   initializeAccounts();
 }
@@ -550,12 +589,24 @@ function bindEvents() {
     persist({ sync: false });
     els.legacyUsername.textContent = username;
   });
-  els.startTest.addEventListener("click", startTest);
+  els.testContainer.addEventListener("click", handleTestSetupClick);
+  els.testContainer.addEventListener("change", handleTestSetupChange);
+  els.testScreen.addEventListener("click", handleTestScreenClick);
+  els.testScreen.addEventListener("input", handleTestScreenInput);
+  document.addEventListener("keydown", handleTestKeyboard);
   els.openFullNotes.addEventListener("click", openFullNotes);
-  els.closeFullNotes.addEventListener("click", closeFullNotes);
+  els.closeFullNotes.addEventListener("click", () => leavePhoneScreen("notes", closeFullNotes));
   bindLiveReader();
   els.openProgress.addEventListener("click", openProgress);
-  els.closeProgress.addEventListener("click", closeProgress);
+  document.addEventListener("click", (event) => {
+    if (!expandedSubjectId || !isCompactLayout() || event.target.closest(".graph-subject")) return;
+    expandedSubjectId = "";
+    renderGraph();
+  });
+  els.closeProgress.addEventListener("click", () => leavePhoneScreen("progress", closeProgress));
+  // A reload starts again from the subject list, so drop any phone screen entry it restored
+  if (history.state?.bbScreen) history.replaceState(null, "", location.href);
+  window.addEventListener("popstate", handlePhonePopState);
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
     const openMathsPanel = document.querySelector(".maths-explanation-panel.is-open");
@@ -566,9 +617,9 @@ function bindEvents() {
     } else if (!document.getElementById("examBreakdownModal").classList.contains("hidden")) {
       closeExamBreakdown();
     } else if (!els.fullNotesScreen.classList.contains("hidden")) {
-      closeFullNotes();
+      leavePhoneScreen("notes", closeFullNotes);
     } else if (!els.progressScreen.classList.contains("hidden")) {
-      closeProgress();
+      leavePhoneScreen("progress", closeProgress);
     }
   });
   els.tabs.forEach((tab) => tab.addEventListener("click", () => switchTab(tab.dataset.tab)));
@@ -1202,7 +1253,18 @@ function createEmptyStudyUser(username = "") {
     progressByOutcome: {},
     learnedByOutcome: {},
     disabledSubjects: [],
+    testHistory: [],
   };
+}
+
+function mergeTestHistory(...lists) {
+  const byId = new Map();
+  lists.flat().forEach((entry) => {
+    if (entry?.id && !byId.has(entry.id)) byId.set(entry.id, entry);
+  });
+  return Array.from(byId.values())
+    .sort((a, b) => (b.at || 0) - (a.at || 0))
+    .slice(0, TEST_HISTORY_LIMIT);
 }
 
 function mergeStudyUser(localValue, remoteValue, preferLocal) {
@@ -1244,6 +1306,7 @@ function mergeStudyUser(localValue, remoteValue, preferLocal) {
     progressByOutcome,
     learnedByOutcome,
     viewedNotesByChapter,
+    testHistory: mergeTestHistory(local.testHistory || [], remote.testHistory || []),
     disabledSubjects: preferLocal
       ? [...(local.disabledSubjects || [])]
       : [...(remote.disabledSubjects?.length ? remote.disabledSubjects : local.disabledSubjects || [])],
@@ -1259,6 +1322,7 @@ function serializeStudyUser(user) {
     learnedByOutcome: user?.learnedByOutcome || {},
     disabledSubjects: Array.isArray(user?.disabledSubjects) ? user.disabledSubjects : [],
     onboarding: user?.onboarding || null,
+    testHistory: Array.isArray(user?.testHistory) ? user.testHistory : [],
   };
 }
 
@@ -1335,6 +1399,8 @@ function renderAll() {
   if (els.examTab?.classList.contains("active")) renderExamSection();
   const timerWidget = document.getElementById("timerWidget");
   if (timerWidget) timerWidget.classList.toggle("hidden", !getCurrentUser());
+  // responsive.css shows only this screen on phones
+  els.subjectArea.dataset.screen = phoneScreen();
 }
 
 function getEnabledSubjectIds(user) {
@@ -1481,6 +1547,65 @@ function computeUserProgress(user) {
 }
 
 
+// ── Phone navigation ─────────────────────────────
+// Phones show one screen at a time: subjects (and Progress), then chapters, then a
+// chapter's subsections where it has them, then study. Each step down is a history
+// entry, so the back gesture steps up a level instead of leaving the app.
+function isPhoneLayout() {
+  return window.matchMedia("(max-width: 640px)").matches;
+}
+
+function phoneScreen() {
+  if (phoneHome) return "home";
+  if (viewMode === "subject-overview") return "subject";
+  return chapterHasSubsections(getSelectedChapter()) && !isPickingOutcome() ? "study" : "chapter";
+}
+
+function pushPhoneScreen(screen) {
+  if (!isPhoneLayout() || history.state?.bbScreen === screen) return;
+  history.pushState({ bbScreen: screen }, "", location.href);
+}
+
+// A screen that was pushed is left through history, so its entry doesn't linger
+function leavePhoneScreen(screen, close) {
+  if (history.state?.bbScreen === screen) history.back();
+  else close();
+}
+
+function navigateUp() {
+  if (isPhoneLayout() && history.state?.bbScreen) {
+    history.back();
+    return;
+  }
+  if (viewMode === "chapter") viewMode = "subject-overview";
+  else phoneHome = true;
+  renderAll();
+}
+
+function handlePhonePopState(event) {
+  if (!isPhoneLayout()) return;
+  // A running test sits on top of everything; keep the screen under it and restore the entry
+  if (document.body.classList.contains("test-open")) {
+    if (phoneScreen() !== "home") history.pushState({ bbScreen: phoneScreen() }, "", location.href);
+    return;
+  }
+  const screen = event.state?.bbScreen || "home";
+  if (screen !== "notes" && !els.fullNotesScreen.classList.contains("hidden")) closeFullNotes();
+  if (screen !== "progress" && !els.progressScreen.classList.contains("hidden")) closeProgress();
+  if (screen === "home") phoneHome = true;
+  if (screen === "subject" || screen === "chapter" || screen === "study") {
+    phoneHome = false;
+    viewMode = screen === "subject" ? "subject-overview" : "chapter";
+    // Stepping back onto a chapter with subsections lands on its subsection grid
+    pickingOutcome = screen === "chapter" && chapterHasSubsections(getSelectedChapter());
+  }
+  renderAll();
+}
+
+function isCompactLayout() {
+  return window.matchMedia("(max-width: 980px)").matches;
+}
+
 function renderGraph() {
   els.subjectGraph.innerHTML = "";
   getEnabledSubjects().forEach((subject) => {
@@ -1502,9 +1627,12 @@ function renderGraph() {
       <div class="graph-chapters ${expanded ? "" : "hidden"}" aria-label="${escapeHtml(subject.title)} chapters"></div>
     `;
     const openSubject = () => {
-      expandedSubjectId = expandedSubjectId === subject.id ? "" : subject.id;
+      // Phones show the chapter list as its own screen rather than the overlay sheet
+      expandedSubjectId = isPhoneLayout() || expandedSubjectId === subject.id ? "" : subject.id;
       selectedSubjectId = subject.id;
       viewMode = 'subject-overview';
+      phoneHome = false;
+      pushPhoneScreen("subject");
       renderAll();
     };
     block.querySelector(".graph-subject-name").addEventListener("click", openSubject);
@@ -1521,7 +1649,8 @@ function renderGraph() {
         selectedSubjectId = subject.id;
         selectedChapterId = chapter.id;
         selectedOutcomeId = chapter.learningOutcomes[0].id;
-        expandedSubjectId = subject.id;
+        // Below 980px the chapter list is an overlay, so picking a chapter closes it
+        expandedSubjectId = isCompactLayout() ? "" : subject.id;
         studyIndex = 0;
         showAnswer = false;
         viewMode = 'chapter';
@@ -1532,7 +1661,7 @@ function renderGraph() {
     });
     els.subjectGraph.appendChild(block);
   });
-  if (window.matchMedia("(max-width: 980px)").matches) {
+  if (isCompactLayout()) {
     requestAnimationFrame(() => {
       els.subjectGraph.scrollLeft = 0;
     });
@@ -1561,14 +1690,16 @@ function renderStudyContext() {
       <strong title="${escapeHtml(compactText(outcome.title || ""))}">${escapeHtml(compactText(outcome.title || ""))}</strong>
     `;
     els.studyContext.querySelector(".study-context-back").addEventListener("click", () => {
-      pickingOutcome = true;
-      renderAll();
+      leavePhoneScreen("study", () => {
+        pickingOutcome = true;
+        renderAll();
+      });
     });
     return;
   }
 
   els.studyContext.innerHTML = `
-    <span>${escapeHtml(subject.title)}</span>
+    <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to ${escapeHtml(subject.title)} chapters">${escapeHtml(subject.title)}</button>
     <strong title="${escapeHtml(chapter?.title || "")}">${escapeHtml(chapter?.title || "")}</strong>
   `;
 }
@@ -1625,6 +1756,7 @@ function renderOutcomePicker() {
       pickingOutcome = false;
       studyIndex = 0;
       showAnswer = false;
+      pushPhoneScreen("study");
       renderAll();
     });
   });
@@ -1659,7 +1791,12 @@ function renderSubjectOverview() {
       </button>`;
   }).join('');
 
+  const hasBreakdown = !!window.EXAM_BREAKDOWN?.[ss.subject.id];
   overviewEl.innerHTML = `
+    <div class="overview-nav">
+      <button class="nav-up" type="button" onclick="navigateUp()" aria-label="Back to subjects">Subjects</button>
+      ${hasBreakdown ? `<button class="overview-paper-guide" type="button" onclick="openExamBreakdown('${escapeHtml(ss.subject.id)}')">Paper guide</button>` : ""}
+    </div>
     <div class="overview-header">
       <div class="overview-header-text">
         <h3>${escapeHtml(ss.subject.title)}</h3>
@@ -1684,6 +1821,9 @@ function selectChapterFromOverview(chapterId) {
   showAnswer = false;
   viewMode = 'chapter';
   pickingOutcome = chapterHasSubsections(chapter);
+  // On phones a chapter opens on its flashcards (Maths has none; renderTabVisibility moves it to Exam)
+  if (isPhoneLayout()) switchTab("flashcards");
+  pushPhoneScreen("chapter");
   renderAll();
 }
 
@@ -1749,7 +1889,7 @@ function renderOutcomes() {
           <summary>Key words</summary>
           <div class="study-keywords-panel">
             ${renderKeywordRow(card.keywords)}
-            <p>Use these in your test answer for bonus marks.</p>
+            <p>Worth using in a written answer.</p>
           </div>
         </details>` : ""}
     </div>
@@ -1766,6 +1906,11 @@ function renderOutcomes() {
     renderOutcomes();
   });
   document.getElementById("flipCard").addEventListener("click", () => {
+    showAnswer = !showAnswer;
+    renderOutcomes();
+  });
+  els.flashcardStudy.querySelector(".study-face").addEventListener("click", () => {
+    if (window.getSelection()?.toString()) return;
     showAnswer = !showAnswer;
     renderOutcomes();
   });
@@ -1797,90 +1942,940 @@ function renderHierarchy(chapter) {
   `;
 }
 
-function startTest() {
-  if (!getCurrentUser()) {
-    els.testContainer.innerHTML = "<p class='muted'>Log in to track tests and progress.</p>";
-    return;
+// ── Test ──────────────────────────────────────────────────────
+// A test is a scope (this chapter, the whole subject, or chosen chapters), a
+// length in minutes and a mix of flashcard and exam questions. test-builder.js
+// picks the questions; this section renders setup, the timed run, marking and
+// results on the full-screen #testScreen. Its constants and state live up with
+// the other top-level state (search "Test state").
+
+function getTestSettings() {
+  let saved = {};
+  try {
+    saved = JSON.parse(localStorage.getItem(TEST_SETTINGS_KEY) || "{}") || {};
+  } catch (error) {
+    saved = {};
+  }
+  return {
+    scope: ["chapter", "subject", "custom"].includes(saved.scope) ? saved.scope : "chapter",
+    minutes: TEST_LENGTHS.includes(saved.minutes) ? saved.minutes : 10,
+    mix: TEST_MIXES.some((mix) => mix.id === saved.mix) ? saved.mix : "balanced",
+    customChapters: saved.customChapters && typeof saved.customChapters === "object" ? saved.customChapters : {},
+  };
+}
+
+function saveTestSettings(settings) {
+  try {
+    localStorage.setItem(TEST_SETTINGS_KEY, JSON.stringify(settings));
+  } catch (error) {
+    // Settings are a per-device convenience; the defaults are fine without them.
+  }
+}
+
+function getTestScope(settings = getTestSettings()) {
+  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  if (!subject) return { subject: null, chapters: [], label: "" };
+  if (settings.scope === "subject") {
+    return { subject, chapters: subject.chapters, label: `All of ${subject.title}` };
+  }
+  if (settings.scope === "custom") {
+    const ids = new Set(settings.customChapters[subject.id] || []);
+    const chapters = subject.chapters.filter((c) => ids.has(c.id));
+    const label = chapters.length === 1 ? chapters[0].title : `${chapters.length} ${subject.title} chapters`;
+    return { subject, chapters, label };
   }
   const chapter = getSelectedChapter();
-  const outcome = getSelectedOutcome();
-  if (!outcome) return;
-  const pool = questionsForChapter(chapter, outcome);
-  const sample = shuffleArray(pool).slice(0, 3);
-
-  els.testContainer.innerHTML = "";
-  sample.forEach((card, idx) => {
-    const div = document.createElement("div");
-    div.className = "test-card";
-    const marksLabel = Number.isFinite(card.marks)
-      ? ` <span class="muted small">(${card.marks} marks)</span>`
-      : "";
-    div.innerHTML = `
-      <p><strong>Q${idx + 1}:</strong>${marksLabel} ${escapeHtml(card.term)}</p>
-      <textarea data-id="${card.id}" placeholder="Write your answer..."></textarea>
-    `;
-    els.testContainer.appendChild(div);
-  });
-
-  const btn = document.createElement("button");
-  btn.className = "button-primary";
-  btn.textContent = "Submit Test";
-  btn.addEventListener("click", () => submitTest(sample, outcome.id));
-  els.testContainer.appendChild(btn);
+  return { subject, chapters: chapter ? [chapter] : [], label: chapter?.title || "" };
 }
 
-function submitTest(sample, outcomeId) {
-  if (!getCurrentUser()) return;
-  const answers = Array.from(els.testContainer.querySelectorAll("textarea"));
-  const review = sample.map((card) => {
-    const text = answers.find((a) => a.dataset.id === card.id)?.value?.trim() || "";
-    const detail = evaluateAnswerDetailed(text, card.answer);
-    const hits = findKeywordHits(text, card.keywords);
-    const totalKw = (card.keywords || []).length;
-    detail.keywordHits = hits;
-    detail.keywordTotal = totalKw;
-    const bonus = hits.length * 5;
-    detail.bonus = bonus;
-    detail.finalScore = Math.min(100, detail.score + bonus);
-    return detail;
-  });
-  const avg = Math.round(review.reduce((a, b) => a + b.finalScore, 0) / review.length);
-
-  if (avg >= 70) {
-    const progressByOutcome = getProgressByOutcome();
-    progressByOutcome[outcomeId] = Math.min(3, (progressByOutcome[outcomeId] || 0) + 1);
-    const current = getCurrentUser();
-    if (current) current.testsCompleted = (current.testsCompleted || 0) + 1;
+function getTestPool(subject, chapters) {
+  const key = `${subject.id}|${chapters.map((c) => c.id).join(",")}`;
+  if (!testPoolCache.has(key)) {
+    testPoolCache.set(key, TestBuilder.buildPool({
+      subjectId: subject.id,
+      breakdown: window.EXAM_BREAKDOWN?.[subject.id],
+      chapters,
+      subjectChapters: subject.chapters,
+      examGroupsFor: getExamQuestionsForChapter,
+      authoredFor: authoredQuestionsForChapter,
+      prompts: window.FLASHCARD_TEST_PROMPTS || {},
+    }));
   }
-  persist();
-  renderOutcomes();
-  renderTestOverview(avg);
-  renderDetailedReview(sample, review);
-  renderProfileLevel();
+  return testPoolCache.get(key);
 }
 
-function renderTestOverview(latestScore) {
-  const outcome = getSelectedOutcome();
-  if (!outcome) return;
-  const step = getProgressByOutcome()[outcome.id] || 0;
-  const current = getCurrentUser();
-  const score = typeof latestScore === "number" ? `${latestScore}%` : "No score";
+// Hand-written outcome questions (the *-test-questions.js packs), tagged with
+// the outcome id the flashcard view uses for the same content.
+function authoredQuestionsForChapter(chapter) {
+  const source = getOriginalChapter(chapter.id);
+  if (!source) return [];
+  const outcomeIds = new Set(chapter.learningOutcomes.map((lo) => lo.id));
+  const fallbackId = chapter.learningOutcomes[0]?.id || "";
+  return (source.learningOutcomes || []).flatMap((lo) => {
+    const outcomeId = outcomeIds.has(`${lo.id}-core`) ? `${lo.id}-core` : fallbackId;
+    return (lo.questions || []).map((question) => ({ outcomeId, question }));
+  });
+}
+
+// Deterministic random so the setup preview does not reshuffle on every render.
+function seededRandom(seed) {
+  let t = seed >>> 0;
+  return () => {
+    t += 0x6d2b79f5;
+    let r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function plural(count, word, pluralWord = `${word}s`) {
+  return `${count} ${count === 1 ? word : pluralWord}`;
+}
+
+function formatClock(ms) {
+  const total = Math.max(0, Math.ceil(ms / 1000));
+  return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, "0")}`;
+}
+
+function formatRelativeDay(timestamp) {
+  const days = Math.floor((Date.now() - timestamp) / 86400000);
+  if (days <= 0) return "Today";
+  if (days === 1) return "Yesterday";
+  if (days < 7) return `${days} days ago`;
+  return new Date(timestamp).toLocaleDateString(undefined, { day: "numeric", month: "short" });
+}
+
+function testSourceTag(item) {
+  const source = String(item.source || "");
+  const level = /ordinary/i.test(source) ? "Ordinary" : /higher/i.test(source) ? "Higher" : "";
+  const oldSyllabus = /\[(?:LEGACY|REFERENCE)\b/i.test(source) ? "old syllabus" : "";
+  // Undated chapter questions ("LC Biology Past Paper — Q2 (Scientific Method)")
+  // carry their topic in the source, so keep it rather than truncating.
+  const tag = item.year || /\b(?:19|20)\d{2}\b/.test(source)
+    ? compactExamSource({ source, year: item.year, id: item.groupId })
+    : source.replace(/\[.*?\]/g, "").replace(/^LC\s+.+?\s+(?=Past Paper)/i, "").replace(/\s*[—–]\s*/g, " · ").trim();
+  return [tag, level, oldSyllabus].filter(Boolean).join(" · ");
+}
+
+function testMultiline(text) {
+  return escapeHtml(String(text || "").trim()).replace(/\n/g, "<br>");
+}
+
+// ── Setup (inside the Test tab) ──
+
+function renderTestOverview() {
+  if (!els.testContainer) return;
+  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  if (!subject) return;
+  const settings = getTestSettings();
+  const scope = getTestScope(settings);
+  const pool = scope.chapters.length ? getTestPool(subject, scope.chapters) : null;
+  const preview = pool
+    ? TestBuilder.assembleTest(pool, { minutes: settings.minutes, mix: settings.mix, random: seededRandom(7) })
+    : null;
+  const chosen = new Set(settings.customChapters[subject.id] || []);
+
+  const choice = (attr, value, label, active) => `
+    <button type="button" class="test-choice${active ? " is-active" : ""}" role="radio" aria-checked="${active}" ${attr}="${escapeHtml(value)}">${label}</button>`;
+
+  const chapterPicker = settings.scope === "custom" ? `
+    <div class="test-chapter-picker">
+      <div class="test-chapter-picker-head">
+        <span>${plural(chosen.size, "chapter")} chosen</span>
+        <button type="button" class="test-link" data-test-chapters="all">Select all</button>
+        <button type="button" class="test-link" data-test-chapters="none">Clear</button>
+      </div>
+      <ul class="test-chapter-list">
+        ${subject.chapters.map((chapter) => `
+          <li>
+            <label class="test-chapter-option">
+              <input type="checkbox" data-test-chapter="${escapeHtml(chapter.id)}" ${chosen.has(chapter.id) ? "checked" : ""} />
+              <span>${escapeHtml(chapter.title)}</span>
+            </label>
+          </li>`).join("")}
+      </ul>
+    </div>` : "";
+
   els.testContainer.innerHTML = `
-    <div class="test-ready">
-      <div class="test-ready-primary">
-        <span>${escapeHtml(outcome.code || "Outcome")}</span>
-        <strong>${escapeHtml(score)}</strong>
+    <div class="test-setup">
+      <div class="test-setup-row">
+        <span class="test-setup-label" id="testScopeLabel">Cover</span>
+        <div class="test-choices" role="radiogroup" aria-labelledby="testScopeLabel">
+          ${choice("data-test-scope", "chapter", "This chapter", settings.scope === "chapter")}
+          ${choice("data-test-scope", "subject", `All of ${escapeHtml(subject.title)}`, settings.scope === "subject")}
+          ${choice("data-test-scope", "custom", "Choose chapters", settings.scope === "custom")}
+        </div>
       </div>
-      <div class="test-ready-stats" aria-label="Test progress">
-        <span title="Tests completed">${current?.testsCompleted || 0} tests</span>
-        <span title="Outcome goal">${step}/3 goal</span>
+      ${chapterPicker}
+      <div class="test-setup-row">
+        <span class="test-setup-label" id="testLengthLabel">Time</span>
+        <div class="test-choices" role="radiogroup" aria-labelledby="testLengthLabel">
+          ${TEST_LENGTHS.map((m) => choice("data-test-minutes", m, `${m} min`, settings.minutes === m)).join("")}
+        </div>
       </div>
-      <details class="test-scoring">
-        <summary>Scoring</summary>
-        <p>Pass at 70%. Each key word adds 5%.</p>
-      </details>
+      <div class="test-setup-row">
+        <span class="test-setup-label" id="testMixLabel">Mix</span>
+        <div class="test-choices" role="radiogroup" aria-labelledby="testMixLabel">
+          ${TEST_MIXES.map((mix) => choice("data-test-mix", mix.id, mix.label, settings.mix === mix.id)).join("")}
+        </div>
+      </div>
+      ${renderTestPreview(scope, preview, settings)}
+      ${renderTestHistory(subject)}
     </div>
   `;
+}
+
+function renderTestPreview(scope, preview, settings) {
+  const signedIn = Boolean(getCurrentUser());
+  let summary;
+  let canStart = signedIn;
+  if (!scope.chapters.length) {
+    summary = "Choose at least one chapter.";
+    canStart = false;
+  } else if (!preview?.items.length) {
+    summary = "There is nothing to test in this scope yet.";
+    canStart = false;
+  } else {
+    const flashcards = preview.items.filter((i) => i.bucket === "flashcard").length;
+    const exam = preview.items.length - flashcards;
+    const parts = [
+      flashcards ? plural(flashcards, "flashcard question") : "",
+      exam ? plural(exam, "exam question") : "",
+    ].filter(Boolean).join(" and ");
+    const spread = preview.chapterIds.length > 1 ? `, drawn from ${plural(preview.chapterIds.length, "chapter")}` : "";
+    const plannedMinutes = Math.ceil(preview.plannedSeconds / 60);
+    const shortfall = plannedMinutes < settings.minutes - 1
+      ? `<span class="test-preview-note">That fills about ${plannedMinutes} of your ${settings.minutes} minutes. Cover more chapters for a longer test.</span>`
+      : "";
+    summary = `About <strong>${plural(preview.items.length, "question")}</strong>: ${parts}${spread}. ${shortfall}`;
+  }
+  const minutesLabel = preview?.items.length
+    ? Math.min(settings.minutes, Math.ceil(preview.plannedSeconds / 60))
+    : settings.minutes;
+  return `
+    <div class="test-setup-start">
+      <p class="test-preview">${summary}</p>
+      <button type="button" class="button-primary test-start" data-test-action="start" ${canStart ? "" : "disabled"}>
+        Start ${minutesLabel} minute test
+      </button>
+      ${signedIn ? "" : `<p class="test-preview-note">Log in to take tests and track your progress.</p>`}
+    </div>`;
+}
+
+function renderTestHistory(subject) {
+  const history = (getCurrentUser()?.testHistory || []).filter((entry) => entry.subjectId === subject.id).slice(0, 5);
+  if (!history.length) return "";
+  return `
+    <section class="test-history" aria-label="Recent tests">
+      <h4>Recent</h4>
+      <ol>
+        ${history.map((entry) => `
+          <li>
+            <strong class="${entry.percent >= TEST_PASS_PERCENT ? "is-pass" : ""}">${entry.percent}%</strong>
+            <span>${escapeHtml(entry.label || "")} · ${entry.minutes} min</span>
+            <time datetime="${new Date(entry.at).toISOString()}">${formatRelativeDay(entry.at)}</time>
+          </li>`).join("")}
+      </ol>
+    </section>`;
+}
+
+function handleTestSetupClick(event) {
+  const target = event.target.closest("button");
+  if (!target || !els.testContainer.contains(target)) return;
+  const settings = getTestSettings();
+  if (target.dataset.testScope) {
+    settings.scope = target.dataset.testScope;
+    if (settings.scope === "custom" && !(settings.customChapters[selectedSubjectId] || []).length && selectedChapterId) {
+      settings.customChapters[selectedSubjectId] = [selectedChapterId];
+    }
+  } else if (target.dataset.testMinutes) {
+    settings.minutes = Number(target.dataset.testMinutes);
+  } else if (target.dataset.testMix) {
+    settings.mix = target.dataset.testMix;
+  } else if (target.dataset.testChapters) {
+    const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+    settings.customChapters[selectedSubjectId] = target.dataset.testChapters === "all"
+      ? subject.chapters.map((c) => c.id)
+      : [];
+  } else if (target.dataset.testAction === "start") {
+    startTest();
+    return;
+  } else {
+    return;
+  }
+  saveTestSettings(settings);
+  renderTestOverview();
+}
+
+function handleTestSetupChange(event) {
+  const box = event.target.closest("[data-test-chapter]");
+  if (!box) return;
+  const settings = getTestSettings();
+  const chosen = new Set(settings.customChapters[selectedSubjectId] || []);
+  if (box.checked) chosen.add(box.dataset.testChapter);
+  else chosen.delete(box.dataset.testChapter);
+  const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
+  settings.customChapters[selectedSubjectId] = subject.chapters.map((c) => c.id).filter((id) => chosen.has(id));
+  saveTestSettings(settings);
+  renderTestOverview();
+}
+
+// ── Running a test ──
+
+function startTest(retestItems) {
+  if (!getCurrentUser()) return;
+  const settings = getTestSettings();
+  const scope = getTestScope(settings);
+  if (!scope.subject || !scope.chapters.length) return;
+  const pool = getTestPool(scope.subject, scope.chapters);
+  const test = retestItems
+    ? { items: retestItems, plannedSeconds: retestItems.reduce((s, i) => s + i.seconds, 0) }
+    : TestBuilder.assembleTest(pool, { minutes: settings.minutes, mix: settings.mix });
+  if (!test.items.length) return;
+
+  // The clock is the chosen length, unless the scope cannot fill it.
+  const budgetSeconds = Math.max(60, Math.min(settings.minutes * 60, Math.ceil(test.plannedSeconds / 60) * 60));
+  activeTest = {
+    id: `t${Date.now().toString(36)}`,
+    subjectId: scope.subject.id,
+    subjectTitle: scope.subject.title,
+    label: retestItems ? `Retest: ${String(activeTest?.label || scope.label).replace(/^Retest: /, "")}` : scope.label,
+    chapterTitles: { ...pool.chapterTitles, ...(activeTest?.chapterTitles || {}) },
+    items: test.items,
+    responses: {},
+    index: 0,
+    budgetSeconds,
+    startedAt: Date.now(),
+    endsAt: Date.now() + budgetSeconds * 1000,
+    phase: "run",
+    timeUp: false,
+    confirmQuit: false,
+    clock: null,
+  };
+  els.testScreen.classList.remove("hidden");
+  document.body.classList.add("test-open");
+  renderTestScreen();
+  startTestClock();
+}
+
+function startTestClock() {
+  stopTestClock();
+  activeTest.clock = window.setInterval(tickTestClock, 250);
+  tickTestClock();
+}
+
+function stopTestClock() {
+  if (activeTest?.clock) window.clearInterval(activeTest.clock);
+  if (activeTest) activeTest.clock = null;
+}
+
+function tickTestClock() {
+  if (!activeTest || activeTest.phase !== "run") {
+    stopTestClock();
+    return;
+  }
+  const left = Math.max(0, activeTest.endsAt - Date.now());
+  const clock = els.testScreen.querySelector("[data-test-clock]");
+  if (clock) {
+    clock.textContent = formatClock(left);
+    clock.classList.toggle("is-low", left <= 60000);
+  }
+  const fill = els.testScreen.querySelector("[data-test-time-fill]");
+  if (fill) fill.style.transform = `scaleX(${1 - left / (activeTest.budgetSeconds * 1000)})`;
+  if (left <= 0) finishTest(true);
+}
+
+function renderTestScreen() {
+  if (!activeTest) return;
+  if (activeTest.phase === "run") {
+    els.testScreen.innerHTML = renderTestRun();
+    // Keep the current question in view on a long, horizontally scrolling map.
+    const map = els.testScreen.querySelector(".test-map");
+    const dot = map?.querySelector(".is-current");
+    if (map && dot) {
+      const mapBox = map.getBoundingClientRect();
+      const dotBox = dot.getBoundingClientRect();
+      map.scrollLeft += dotBox.left - mapBox.left - (mapBox.width - dotBox.width) / 2;
+    }
+  } else if (activeTest.phase === "review") {
+    els.testScreen.innerHTML = renderTestReview();
+  } else {
+    els.testScreen.innerHTML = renderTestResults();
+  }
+  if (typeof renderMathInElement !== "undefined") {
+    renderMathInElement(els.testScreen, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+      ],
+      throwOnError: false,
+    });
+  }
+}
+
+function renderTestBar(right, extra = "") {
+  return `
+    <header class="test-bar">
+      <div class="test-bar-context">
+        <span>${escapeHtml(activeTest.subjectTitle)}</span>
+        <strong title="${escapeHtml(activeTest.label)}">${escapeHtml(activeTest.label)}</strong>
+      </div>
+      <div class="test-bar-actions">${right}</div>
+      ${extra}
+    </header>`;
+}
+
+function isItemAnswered(item) {
+  const response = activeTest.responses[item.id];
+  if (!response) return false;
+  if (TEST_CHOICE_KINDS.has(item.kind)) return Number.isInteger(response.choice);
+  if (item.kind === "cloze") return (response.blanks || []).some((b) => String(b || "").trim());
+  return Boolean(String(response.text || "").trim());
+}
+
+function renderTestRun() {
+  const { items, index } = activeTest;
+  const item = items[index];
+  const isLast = index === items.length - 1;
+  const barActions = activeTest.confirmQuit
+    ? `<span class="test-quit-ask">Quit without saving?</span>
+       <button type="button" class="button-secondary" data-test-action="quit-confirm">Quit</button>
+       <button type="button" class="button-primary" data-test-action="quit-cancel">Keep going</button>`
+    : `<button type="button" class="test-link" data-test-action="quit">Quit</button>
+       <span class="test-clock" data-test-clock role="timer" aria-label="Time left">${formatClock(activeTest.endsAt - Date.now())}</span>
+       <button type="button" class="button-secondary" data-test-action="finish">Finish</button>`;
+  const map = items.map((entry, i) => `
+    <button type="button" class="test-map-dot${i === index ? " is-current" : ""}${isItemAnswered(entry) ? " is-answered" : ""}"
+      data-test-goto="${i}" aria-label="Question ${i + 1}${isItemAnswered(entry) ? ", answered" : ""}"${i === index ? ' aria-current="step"' : ""}>${i + 1}</button>`).join("");
+
+  return `
+    <div class="test-run">
+      ${renderTestBar(barActions, `<div class="test-time-track" aria-hidden="true"><span data-test-time-fill></span></div>`)}
+      <main class="test-stage">
+        <p class="test-question-meta">
+          <span class="test-kind">${TEST_KIND_LABELS[item.kind]}</span>
+          <span>Question ${index + 1} of ${items.length}</span>
+          <span>${escapeHtml(activeTest.chapterTitles[item.chapterId] || "")}</span>
+        </p>
+        ${renderTestQuestion(item)}
+      </main>
+      <footer class="test-foot">
+        <button type="button" class="button-secondary test-step" data-test-action="prev" ${index === 0 ? "disabled" : ""}>Back</button>
+        <nav class="test-map" aria-label="Questions">${map}</nav>
+        <button type="button" class="button-primary test-step" data-test-action="${isLast ? "finish" : "next"}">${isLast ? "Finish" : "Next"}</button>
+      </footer>
+    </div>`;
+}
+
+function renderTestOptions(item, response) {
+  const keys = ["A", "B", "C", "D", "E", "F"];
+  return `
+    <div class="test-options" role="radiogroup" aria-label="Answers">
+      ${item.options.map((option, i) => {
+        const picked = response?.choice === i;
+        return `
+          <button type="button" class="test-option${picked ? " is-picked" : ""}" role="radio" aria-checked="${picked}" data-test-choice="${i}">
+            <kbd>${keys[i]}</kbd><span>${escapeHtml(option)}</span>
+          </button>`;
+      }).join("")}
+    </div>`;
+}
+
+function renderTestQuestion(item) {
+  const response = activeTest.responses[item.id] || {};
+  if (item.kind === "pick-term") {
+    return `
+      <p class="test-instruction">Which term does this describe?</p>
+      <blockquote class="test-description">${escapeHtml(item.prompt)}</blockquote>
+      ${renderTestOptions(item, response)}`;
+  }
+  if (item.kind === "pick-definition") {
+    return `
+      <p class="test-instruction">Choose the description that fits.</p>
+      <h2 class="test-prompt">${escapeHtml(item.prompt)}</h2>
+      ${renderTestOptions(item, response)}`;
+  }
+  if (item.kind === "mcq" || item.kind === "tf") {
+    return `
+      <h2 class="test-prompt">${testMultiline(item.prompt)}</h2>
+      ${renderTestOptions(item, response)}`;
+  }
+  if (item.kind === "cloze") {
+    const blanks = response.blanks || [];
+    const sentence = item.segments.map((segment) => {
+      if (segment.blank === undefined) return escapeHtml(segment.text);
+      return `<input class="test-blank" type="text" autocomplete="off" autocapitalize="off" spellcheck="false"
+        data-test-blank="${segment.blank}" value="${escapeHtml(blanks[segment.blank] || "")}"
+        aria-label="Missing word ${segment.blank + 1}" />`;
+    }).join("");
+    return `
+      <p class="test-instruction">Fill in the missing ${item.answers.length === 1 ? "word" : "words"}.</p>
+      <h2 class="test-prompt">${escapeHtml(item.prompt)}</h2>
+      <p class="test-cloze">${sentence}</p>`;
+  }
+  if (item.kind === "recall") {
+    return `
+      <p class="test-instruction">Answer from memory. You will check it against the flashcard at the end.</p>
+      <h2 class="test-prompt">${escapeHtml(item.prompt)}</h2>
+      <textarea class="test-answer" data-test-text rows="4" placeholder="Your answer">${escapeHtml(response.text || "")}</textarea>`;
+  }
+  // Exam part or exam-style written question.
+  const minutes = Math.max(1, Math.round(item.seconds / 60));
+  const source = item.groupId ? testSourceTag(item) : item.source;
+  return `
+    <p class="test-instruction test-exam-meta">
+      <span class="test-source">${escapeHtml(source)}${item.label ? ` · ${escapeHtml(item.label)}` : ""}${item.continuation ? " (continued)" : ""}</span>
+      <span>${plural(item.marks, "mark")} · about ${minutes} min</span>
+    </p>
+    ${item.context ? `<div class="test-context">${testMultiline(item.context)}</div>` : ""}
+    <h2 class="test-prompt test-prompt--exam">${testMultiline(item.prompt)}</h2>
+    ${item.diagram ? `<button type="button" class="button-secondary test-diagram" data-test-diagram="${escapeHtml(item.diagram)}">Show diagram</button>` : ""}
+    <textarea class="test-answer" data-test-text rows="${item.marks >= 20 ? 10 : 6}" placeholder="Your answer">${escapeHtml(response.text || "")}</textarea>`;
+}
+
+function goToTestQuestion(index) {
+  if (!activeTest || index < 0 || index >= activeTest.items.length) return;
+  activeTest.index = index;
+  renderTestScreen();
+  tickTestClock();
+  // Only text fields take focus; a focus ring on an option would read as a pick.
+  const field = els.testScreen.querySelector(".test-blank, .test-answer");
+  if (field) field.focus({ preventScroll: true });
+  else if (els.testScreen.contains(document.activeElement)) document.activeElement.blur();
+  els.testScreen.scrollTop = 0;
+}
+
+function finishTest(timeUp = false) {
+  if (!activeTest || activeTest.phase !== "run") return;
+  stopTestClock();
+  activeTest.phase = "review";
+  activeTest.timeUp = timeUp;
+  activeTest.finishedAt = Date.now();
+  renderTestScreen();
+  els.testScreen.scrollTop = 0;
+}
+
+function closeTestScreen() {
+  stopTestClock();
+  activeTest = null;
+  els.testScreen.classList.add("hidden");
+  els.testScreen.innerHTML = "";
+  document.body.classList.remove("test-open");
+  renderTestOverview();
+}
+
+// ── Marking ──
+
+function renderTestReview() {
+  const summary = TestBuilder.scoreTest(activeTest, activeTest.responses);
+  const pending = summary.pendingSelfMarks;
+  const saveLabel = pending ? `Save result (${plural(pending, "answer")} unmarked)` : "Save result";
+  const used = formatClock((activeTest.finishedAt - activeTest.startedAt));
+  const intro = activeTest.timeUp
+    ? "Time ran out. Anything you left blank scores zero."
+    : `You finished in ${used}.`;
+  const hasSelfMarked = activeTest.items.some((item) => item.kind === "recall" || item.kind === "written");
+
+  return `
+    <div class="test-review">
+      ${renderTestBar(`
+        <span class="test-live-score">${summary.percent}% so far</span>
+        <button type="button" class="button-primary" data-test-action="save">${saveLabel}</button>`)}
+      <main class="test-sheet">
+        <header class="test-sheet-head">
+          <h1>Mark your answers</h1>
+          <p>${intro} ${hasSelfMarked ? "Quick questions are marked for you. For written answers, compare yours with the answer shown and give yourself the marks an examiner would." : "Every answer here was marked for you."}</p>
+        </header>
+        <ol class="test-review-list">
+          ${activeTest.items.map((item, i) => renderTestReviewItem(item, i)).join("")}
+        </ol>
+        <div class="test-sheet-foot">
+          <button type="button" class="button-primary" data-test-action="save">${saveLabel}</button>
+          <button type="button" class="test-link" data-test-action="quit-confirm">Discard this test</button>
+        </div>
+      </main>
+    </div>`;
+}
+
+function renderTestReviewItem(item, index) {
+  const response = activeTest.responses[item.id] || {};
+  const result = TestBuilder.markItem(item, response);
+  let verdict;
+  if (result.needsSelfMark) verdict = `<span class="test-verdict is-pending">To mark</span>`;
+  else if (item.kind === "recall" || item.kind === "written" || item.kind === "cloze") {
+    verdict = `<span class="test-verdict${result.earned === item.marks ? " is-right" : result.earned ? " is-part" : " is-wrong"}">${result.earned}/${plural(item.marks, "mark")}</span>`;
+  } else {
+    verdict = `<span class="test-verdict ${result.correct ? "is-right" : "is-wrong"}">${result.correct ? "Right" : "Wrong"}</span>`;
+  }
+
+  return `
+    <li class="test-review-item" id="review-${escapeHtml(item.id)}">
+      <div class="test-review-head">
+        <span class="test-review-num">${index + 1}</span>
+        <span class="test-kind">${TEST_KIND_LABELS[item.kind]}</span>
+        <span class="test-review-chapter">${escapeHtml(activeTest.chapterTitles[item.chapterId] || "")}</span>
+        ${verdict}
+      </div>
+      ${renderTestReviewBody(item, response, result)}
+    </li>`;
+}
+
+function renderTestReviewBody(item, response, result) {
+  if (TEST_CHOICE_KINDS.has(item.kind)) {
+    const given = Number.isInteger(response.choice) ? item.options[response.choice] : null;
+    const prompt = item.kind === "pick-term"
+      ? `<p class="test-review-prompt test-review-prompt--quote">${escapeHtml(item.prompt)}</p>`
+      : `<p class="test-review-prompt">${testMultiline(item.prompt)}</p>`;
+    return `
+      ${prompt}
+      <dl class="test-review-answers">
+        <dt>You said</dt>${given === null ? `<dd class="is-empty">No answer</dd>` : `<dd class="${result.correct ? "is-right" : "is-wrong"}">${escapeHtml(given)}</dd>`}
+        ${result.correct ? "" : `<dt>Answer</dt><dd class="is-right">${escapeHtml(item.options[item.correctIndex])}</dd>`}
+      </dl>
+      ${item.model && !result.correct ? `<p class="test-review-why">${escapeHtml(compactText(item.model))}</p>` : ""}`;
+  }
+
+  if (item.kind === "cloze") {
+    const blanks = response.blanks || [];
+    const sentence = item.segments.map((segment) => {
+      if (segment.blank === undefined) return escapeHtml(segment.text);
+      const i = segment.blank;
+      const given = String(blanks[i] || "").trim();
+      const answer = item.answers[i];
+      if (result.blanks[i]) return `<mark class="test-fill is-right">${escapeHtml(given || answer)}</mark>`;
+      const countIt = given
+        ? `<button type="button" class="test-link test-count-it" data-test-override="${i}">I was right</button>`
+        : "";
+      return `<span class="test-fill-wrong">${given ? `<s>${escapeHtml(given)}</s> ` : ""}<mark class="test-fill">${escapeHtml(answer)}</mark>${countIt}</span>`;
+    }).join("");
+    return `
+      <p class="test-review-prompt"><strong>${escapeHtml(item.prompt)}</strong></p>
+      <p class="test-cloze test-cloze--review">${sentence}</p>`;
+  }
+
+  const answerBox = `
+    <div class="test-review-yours">
+      <span class="test-review-label">Your answer</span>
+      <p>${response.text?.trim() ? testMultiline(response.text) : `<em>No answer</em>`}</p>
+    </div>`;
+
+  if (item.kind === "recall") {
+    const marks = response.selfMarks;
+    const choices = [
+      { value: 0, label: "Missed it" },
+      { value: 1, label: "Partly" },
+      { value: 2, label: "Got it" },
+    ];
+    return `
+      <p class="test-review-prompt">${escapeHtml(item.prompt)}</p>
+      ${answerBox}
+      <div class="test-review-model">
+        <span class="test-review-label">The flashcard</span>
+        <p><strong>${escapeHtml(item.term)}</strong> ${escapeHtml(item.definition)}</p>
+      </div>
+      <div class="test-selfmark" role="radiogroup" aria-label="How did you do?">
+        ${choices.map((c) => `<button type="button" class="test-choice${marks === c.value ? " is-active" : ""}" role="radio" aria-checked="${marks === c.value}" data-test-selfmark="${c.value}">${c.label}</button>`).join("")}
+      </div>`;
+  }
+
+  // Written exam answer: model answer plus a marks picker.
+  const marks = response.selfMarks;
+  const picker = item.marks <= 12
+    ? `<div class="test-selfmark test-selfmark--marks" role="radiogroup" aria-label="Marks out of ${item.marks}">
+        ${Array.from({ length: item.marks + 1 }, (_, m) => `<button type="button" class="test-choice${marks === m ? " is-active" : ""}" role="radio" aria-checked="${marks === m}" data-test-selfmark="${m}">${m}</button>`).join("")}
+       </div>`
+    : `<label class="test-selfmark test-selfmark--range">
+        <input type="range" min="0" max="${item.marks}" step="1" value="${Number.isFinite(marks) ? marks : 0}" data-test-selfmark-range />
+        <output>${Number.isFinite(marks) ? `${marks} / ${item.marks}` : "Drag to mark"}</output>
+       </label>`;
+  const scheme = item.schemePoints ? `<span class="test-review-hint">The marking scheme looks for ${plural(item.schemePoints, "point")}.</span>` : "";
+  return `
+    <p class="test-review-prompt">${testMultiline(item.prompt)}</p>
+    ${answerBox}
+    <div class="test-review-model">
+      <span class="test-review-label">${item.groupId ? "Marking scheme answer" : "Model answer"}</span>
+      <div class="exam-answer-text">${item.groupId ? formatModelAnswer(item.model) : formatAuthoredModel(item.model)}</div>
+      ${scheme}
+    </div>
+    <div class="test-selfmark-row">
+      <span class="test-review-label">Your marks</span>
+      ${picker}
+    </div>`;
+}
+
+// Hand-written outcome questions write model answers in light Markdown
+// (**bold** labels, one point per line); past-paper answers use formatModelAnswer.
+function formatAuthoredModel(text) {
+  return String(text || "")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => `<p class="model-srp">${escapeHtml(line).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")}</p>`)
+    .join("");
+}
+
+// ── Saving and results ──
+
+function findOutcomeById(outcomeId) {
+  for (const subject of SUBJECTS) {
+    for (const chapter of subject.chapters || []) {
+      const outcome = chapter.learningOutcomes.find((lo) => lo.id === outcomeId);
+      if (outcome) return outcome;
+    }
+  }
+  return null;
+}
+
+// A right answer in a test is proof the card is known, so it counts as learned.
+// An outcome moves up a step only when the test covered a fair share of it.
+function applyTestProgress(summary) {
+  const user = getCurrentUser();
+  const learned = getLearnedByOutcome();
+  const progress = getProgressByOutcome();
+  let newlyLearned = 0;
+  Object.entries(summary.byOutcome).forEach(([outcomeId, stats]) => {
+    if (!stats.correctCards.length) return;
+    const known = new Set(learned[outcomeId] || []);
+    stats.correctCards.forEach((cardId) => {
+      if (!known.has(cardId)) newlyLearned += 1;
+      known.add(cardId);
+    });
+    learned[outcomeId] = Array.from(known);
+    const size = findOutcomeById(outcomeId)?.keyTerms?.length || 0;
+    const coveredEnough = stats.count >= Math.max(3, Math.ceil(size / 2));
+    if (coveredEnough && stats.correct / stats.count >= TEST_PASS_PERCENT / 100) {
+      progress[outcomeId] = Math.min(3, (progress[outcomeId] || 0) + 1);
+    }
+  });
+  if (summary.percent >= TEST_PASS_PERCENT && user) user.testsCompleted = (user.testsCompleted || 0) + 1;
+  return newlyLearned;
+}
+
+function saveTestResult() {
+  if (!activeTest || activeTest.phase !== "review") return;
+  const summary = TestBuilder.scoreTest(activeTest, activeTest.responses);
+  const user = getCurrentUser();
+  const newlyLearned = applyTestProgress(summary);
+  if (user) {
+    user.testHistory = mergeTestHistory([{
+      id: activeTest.id,
+      at: Date.now(),
+      subjectId: activeTest.subjectId,
+      label: activeTest.label,
+      minutes: Math.round(activeTest.budgetSeconds / 60),
+      usedSeconds: Math.round((activeTest.finishedAt - activeTest.startedAt) / 1000),
+      percent: summary.percent,
+      flashcards: { correct: summary.buckets.flashcard.correct, count: summary.buckets.flashcard.count },
+      exam: { earned: summary.buckets.exam.earned, total: summary.buckets.exam.total },
+    }], user.testHistory || []);
+  }
+  // The preview profile is throwaway; saving it would surface as a legacy account.
+  if (!isLocalTestPreview) persist();
+  activeTest.phase = "results";
+  activeTest.summary = summary;
+  activeTest.newlyLearned = newlyLearned;
+  renderOutcomes();
+  renderProfileLevel();
+  renderTestScreen();
+  els.testScreen.scrollTop = 0;
+}
+
+function missedTestItems() {
+  return activeTest.items.filter((item) => !TestBuilder.markItem(item, activeTest.responses[item.id]).correct);
+}
+
+function renderTestResults() {
+  const { summary } = activeTest;
+  const { flashcard, exam } = summary.buckets;
+  const passed = summary.percent >= TEST_PASS_PERCENT;
+  const facts = [
+    flashcard.count ? `${flashcard.correct} of ${plural(flashcard.count, "flashcard question")} right` : "",
+    exam.count ? `${exam.earned} of ${plural(exam.total, "exam mark")}` : "",
+    `${formatClock(activeTest.finishedAt - activeTest.startedAt)} taken`,
+  ].filter(Boolean).join(" · ");
+
+  const chapters = Object.entries(summary.byChapter)
+    .map(([chapterId, stats]) => ({ title: activeTest.chapterTitles[chapterId] || chapterId, ...stats }))
+    .sort((a, b) => a.percent - b.percent);
+  const chapterRows = chapters.length > 1 ? `
+    <section class="test-results-section">
+      <h2>By chapter, weakest first</h2>
+      <ul class="test-chapter-scores">
+        ${chapters.map((ch) => `
+          <li>
+            <span class="test-chapter-scores-title">${escapeHtml(ch.title)}</span>
+            <span class="test-chapter-scores-bar" aria-hidden="true"><span style="transform:scaleX(${ch.percent / 100})"></span></span>
+            <span class="test-chapter-scores-value">${ch.percent}%</span>
+          </li>`).join("")}
+      </ul>
+    </section>` : "";
+
+  const missedCards = activeTest.items.filter((item) =>
+    item.bucket === "flashcard" && !TestBuilder.markItem(item, activeTest.responses[item.id]).correct
+  );
+  const missedList = missedCards.length ? `
+    <section class="test-results-section">
+      <h2>Flashcards to go back over</h2>
+      <ul class="test-missed">
+        ${missedCards.map((item) => `<li><strong>${escapeHtml(item.term)}</strong><span>${escapeHtml(item.definition)}</span></li>`).join("")}
+      </ul>
+    </section>` : "";
+
+  const missed = missedTestItems();
+  const learnedNote = activeTest.newlyLearned
+    ? `<p class="test-results-note">${plural(activeTest.newlyLearned, "flashcard")} newly marked as learned.</p>`
+    : "";
+
+  return `
+    <div class="test-results">
+      ${renderTestBar(`<button type="button" class="button-secondary" data-test-action="close">Back to studying</button>`)}
+      <main class="test-sheet">
+        <header class="test-results-head">
+          <p class="test-results-score${passed ? " is-pass" : ""}">${summary.percent}%</p>
+          <div>
+            <h1>${passed ? "Passed." : summary.percent >= 40 ? "Getting there." : "Keep at it."}</h1>
+            <p>${facts}</p>
+            ${learnedNote}
+          </div>
+        </header>
+        <div class="test-results-actions">
+          ${missed.length ? `<button type="button" class="button-primary" data-test-action="retest">${missed.length === 1 ? "Retest the one I missed" : `Retest the ${missed.length} I missed`}</button>` : ""}
+          <button type="button" class="${missed.length ? "button-secondary" : "button-primary"}" data-test-action="again">New test</button>
+        </div>
+        ${chapterRows}
+        ${missedList}
+      </main>
+    </div>`;
+}
+
+// ── Test screen events ──
+
+function setTestResponse(item, patch) {
+  activeTest.responses[item.id] = { ...(activeTest.responses[item.id] || {}), ...patch };
+}
+
+function rerenderReviewKeepingScroll() {
+  const scroll = els.testScreen.scrollTop;
+  renderTestScreen();
+  els.testScreen.scrollTop = scroll;
+}
+
+function handleTestScreenClick(event) {
+  if (!activeTest) return;
+  const target = event.target.closest("button");
+  if (!target) return;
+  const item = activeTest.items[activeTest.index];
+  const reviewItem = target.closest(".test-review-item");
+  const reviewed = reviewItem ? activeTest.items.find((i) => `review-${i.id}` === reviewItem.id) : null;
+  const action = target.dataset.testAction;
+
+  if (target.dataset.testChoice !== undefined && activeTest.phase === "run") {
+    setTestResponse(item, { choice: Number(target.dataset.testChoice) });
+    renderTestScreen();
+    tickTestClock();
+    els.testScreen.querySelector(".test-option.is-picked")?.focus({ preventScroll: true });
+  } else if (target.dataset.testGoto !== undefined) {
+    goToTestQuestion(Number(target.dataset.testGoto));
+  } else if (target.dataset.testDiagram) {
+    openDiagramModal(target.dataset.testDiagram);
+  } else if (target.dataset.testSelfmark !== undefined && reviewed) {
+    setTestResponse(reviewed, { selfMarks: Number(target.dataset.testSelfmark) });
+    rerenderReviewKeepingScroll();
+  } else if (target.dataset.testOverride !== undefined && reviewed) {
+    const overrides = [...(activeTest.responses[reviewed.id]?.overrides || [])];
+    overrides[Number(target.dataset.testOverride)] = true;
+    setTestResponse(reviewed, { overrides });
+    rerenderReviewKeepingScroll();
+  } else if (action === "prev") {
+    goToTestQuestion(activeTest.index - 1);
+  } else if (action === "next") {
+    goToTestQuestion(activeTest.index + 1);
+  } else if (action === "finish") {
+    finishTest(false);
+  } else if (action === "quit") {
+    activeTest.confirmQuit = true;
+    renderTestScreen();
+    tickTestClock();
+  } else if (action === "quit-cancel") {
+    activeTest.confirmQuit = false;
+    renderTestScreen();
+    tickTestClock();
+  } else if (action === "quit-confirm" || action === "close") {
+    closeTestScreen();
+  } else if (action === "save") {
+    saveTestResult();
+  } else if (action === "retest") {
+    const missed = missedTestItems().map((i) => ({ ...i, continuation: false }));
+    startTest(missed);
+  } else if (action === "again") {
+    closeTestScreen();
+    startTest();
+  }
+}
+
+function handleTestScreenInput(event) {
+  if (!activeTest) return;
+  const target = event.target;
+  if (activeTest.phase === "run") {
+    const item = activeTest.items[activeTest.index];
+    if (target.matches("[data-test-text]")) {
+      setTestResponse(item, { text: target.value });
+    } else if (target.matches("[data-test-blank]")) {
+      const blanks = [...(activeTest.responses[item.id]?.blanks || [])];
+      blanks[Number(target.dataset.testBlank)] = target.value;
+      setTestResponse(item, { blanks });
+    } else {
+      return;
+    }
+    // Keep the question map honest without re-rendering the field being typed in.
+    const dot = els.testScreen.querySelector(`[data-test-goto="${activeTest.index}"]`);
+    dot?.classList.toggle("is-answered", isItemAnswered(item));
+  } else if (activeTest.phase === "review" && target.matches("[data-test-selfmark-range]")) {
+    const reviewItem = target.closest(".test-review-item");
+    const reviewed = activeTest.items.find((i) => `review-${i.id}` === reviewItem?.id);
+    if (!reviewed) return;
+    setTestResponse(reviewed, { selfMarks: Number(target.value) });
+    const output = target.parentElement.querySelector("output");
+    if (output) output.textContent = `${target.value} / ${reviewed.marks}`;
+    // Update the score without a full re-render, which would drop the slider mid-drag.
+    const summary = TestBuilder.scoreTest(activeTest, activeTest.responses);
+    const live = els.testScreen.querySelector(".test-live-score");
+    if (live) live.textContent = `${summary.percent}% so far`;
+    const verdict = reviewItem.querySelector(".test-verdict");
+    if (verdict) {
+      verdict.className = `test-verdict${Number(target.value) === reviewed.marks ? " is-right" : Number(target.value) ? " is-part" : " is-wrong"}`;
+      verdict.textContent = `${target.value}/${plural(reviewed.marks, "mark")}`;
+    }
+    const pending = summary.pendingSelfMarks;
+    els.testScreen.querySelectorAll('[data-test-action="save"]').forEach((button) => {
+      button.textContent = pending ? `Save result (${plural(pending, "answer")} unmarked)` : "Save result";
+    });
+  }
+}
+
+function handleTestKeyboard(event) {
+  if (!activeTest || activeTest.phase !== "run" || els.testScreen.classList.contains("hidden")) return;
+  if (document.getElementById("diagramModal")?.classList.contains("open")) return;
+  const item = activeTest.items[activeTest.index];
+  const typing = event.target.matches?.("textarea, input");
+  if (event.key === "Enter" && !event.shiftKey && (!typing || event.target.matches("[data-test-blank]"))) {
+    event.preventDefault();
+    if (activeTest.index < activeTest.items.length - 1) goToTestQuestion(activeTest.index + 1);
+    else finishTest(false);
+    return;
+  }
+  if (typing || event.metaKey || event.ctrlKey || event.altKey) return;
+  if (event.key === "ArrowRight") goToTestQuestion(activeTest.index + 1);
+  else if (event.key === "ArrowLeft") goToTestQuestion(activeTest.index - 1);
+  else if (TEST_CHOICE_KINDS.has(item.kind)) {
+    const key = event.key.toLowerCase();
+    const index = /^[1-6]$/.test(key) ? Number(key) - 1 : "abcdef".indexOf(key);
+    if (index >= 0 && index < item.options.length) {
+      setTestResponse(item, { choice: index });
+      renderTestScreen();
+      tickTestClock();
+    }
+  }
 }
 
 function cardsForOutcome(outcome, subjectId) {
@@ -2555,14 +3550,6 @@ function renderKeywordRow(keywords, hits) {
   return `<div class="keyword-row"><span class="kw-label">Key words</span>${chips}</div>`;
 }
 
-function findKeywordHits(answer, keywords) {
-  const text = sanitize(compactText(answer));
-  return (keywords || []).filter((kw) => {
-    const k = sanitize(kw);
-    return k && text.includes(k);
-  });
-}
-
 function buildPrompt(term, index, kt) {
   const cleanTerm = compactText(term);
   const type = kt && kt.type;
@@ -2619,184 +3606,6 @@ function compactText(text) {
     .trim();
 }
 
-function questionsForOutcome(outcome, subjectId) {
-  // DISABLED AUTO-GENERATION: biology uses hand-authored questions from bio-content.js
-  // const fallback = SUBJECT_FALLBACK_QUESTION[subjectId] || SUBJECT_FALLBACK_QUESTION.business;
-  return (outcome.keyTerms || []).map((kt, idx) => ({
-    id: `${outcome.id}-q-${idx + 1}`,
-    term: kt.term,
-    answer: kt.definition,
-    keywords: extractKeywords(kt),
-  }));
-}
-
-function questionsForChapter(chapter, selectedOutcome) {
-  const subjectId = chapter.subject || "business";
-  const source = getOriginalChapter(chapter.id);
-  if (source && Array.isArray(source.learningOutcomes)) {
-    const all = [];
-    // Multi-outcome subjects such as Chemistry expose source outcome IDs with a
-    // display-only "-core" suffix. Keep the Test pool scoped to the outcome the
-    // learner selected; merged single-outcome chapters continue to use all source LOs.
-    const sourceOutcomeId = String(selectedOutcome?.id || "").replace(/-core$/, "");
-    const matchingOutcome = source.learningOutcomes.find((lo) => lo.id === sourceOutcomeId);
-    const outcomesToTest = matchingOutcome ? [matchingOutcome] : source.learningOutcomes;
-    outcomesToTest.forEach((lo) => {
-      (lo.questions || []).forEach((q, idx) => {
-        if (q.type !== "short" || !q.prompt) return;
-        const promptText = compactText(q.prompt);
-        const modelText = compactText(q.model || "");
-        all.push({
-          id: `${lo.id}-q-${idx + 1}`,
-          term: promptText,
-          answer: modelText || promptText,
-          marks: Number.isFinite(q.marks) ? q.marks : null,
-          keywords: extractKeywords({ term: promptText, definition: modelText }),
-        });
-      });
-    });
-    if (all.length) return all;
-  }
-  return (chapter.learningOutcomes || []).flatMap((lo) =>
-    questionsForOutcome(lo, subjectId)
-  );
-}
-
-function shuffleArray(arr) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const tmp = a[i];
-    a[i] = a[j];
-    a[j] = tmp;
-  }
-  return a;
-}
-
-function evaluateAnswerDetailed(answer, expected) {
-  if (!answer) return { score: 0, parts: splitExpectedParts(expected).map((text) => ({ text, hit: false })) };
-  const answerTokens = tokenize(answer);
-  const parts = splitExpectedParts(expected).map((part) => {
-    const partTokens = tokenize(part);
-    const overlap = partTokens.filter((t) => matchesToken(answerTokens, t)).length;
-    const ratio = partTokens.length ? overlap / partTokens.length : 0;
-    return { text: part, hit: ratio >= 0.35 || (overlap >= 2 && partTokens.length >= 3) };
-  });
-  const matched = parts.filter((p) => p.hit).length;
-  let score;
-  if (parts.length) {
-    score = Math.round((matched / parts.length) * 100);
-  } else {
-    const eTokens = [...new Set(tokenize(expected))];
-    const hits = eTokens.filter((t) => matchesToken(answerTokens, t)).length;
-    score = Math.min(100, Math.round((hits / Math.max(1, eTokens.length)) * 100));
-  }
-  return { score, parts };
-}
-
-function renderDetailedReview(sample, review) {
-  const blocks = sample
-    .map((card, idx) => {
-      const r = review[idx];
-      const chips = r.parts
-        .map((p) => `<div class="${p.hit ? "mark-right" : "mark-wrong"}">${escapeHtml(compactText(p.text))}</div>`)
-        .join("");
-      const kwRow = renderKeywordRow(card.keywords, r.keywordHits || []);
-      let bonusLine = "";
-      if (r.keywordTotal) {
-        bonusLine = `<p class="bonus-line"><strong>Key words:</strong> ${r.keywordHits.length}/${r.keywordTotal} matched · +${r.bonus}% (5% each)</p>`;
-      }
-      return `
-        <div class="feedback-block">
-          <p><strong>Q${idx + 1}</strong> Base: <strong>${r.score}%</strong> · Final: <strong>${r.finalScore}%</strong></p>
-          <p class="muted small">Orange = concept covered. Grey = concept missing or unclear.</p>
-          ${chips}
-          ${bonusLine}
-          ${kwRow}
-        </div>
-      `;
-    })
-    .join("");
-  els.testContainer.insertAdjacentHTML("beforeend", blocks);
-}
-
-function splitExpectedParts(text) {
-  return compactText(text)
-    .split(/(?:\.\s+|\;\s+|\?\s+|\!\s+|\s\-\s)/)
-    .map((p) => p.trim())
-    .filter((p) => p.length > 6);
-}
-
-function tokenize(text) {
-  return sanitize(compactText(text))
-    .split(" ")
-    .filter(Boolean)
-    .map(stemToken);
-}
-
-function stemToken(token) {
-  if (token.length <= 4) return token;
-  for (const suffix of ["tion", "ing", "ed", "ly", "s"]) {
-    if (token.endsWith(suffix)) {
-      const stem = token.slice(0, token.length - suffix.length);
-      if (stem.length >= 4) return stem;
-    }
-  }
-  return token;
-}
-
-function matchesToken(answerTokens, token) {
-  const groups = synonymGroup(token);
-  return answerTokens.some((a) => groups.some((g) => a === g || a.startsWith(g) || g.startsWith(a)));
-}
-
-function synonymGroup(token) {
-  const map = {
-    // Business
-    customer: ["customer", "consumer", "buyer", "client"],
-    employee: ["employee", "staff", "worker", "team"],
-    profit: ["profit", "earn", "income", "revenue", "return"],
-    marketing: ["marketing", "promotion", "advertising", "brand"],
-    risk: ["risk", "threat", "uncertainty", "hazard"],
-    legal: ["legal", "law", "regulation", "compliance"],
-    money: ["money", "cash", "finance", "funding", "capital"],
-    // PE
-    exercise: ["exercise", "workout", "training", "activity", "practice"],
-    aerobic: ["aerobic", "cardiovascular", "cardio"],
-    flexibility: ["flexibility", "mobility"],
-    endurance: ["endurance", "stamina"],
-    fitness: ["fitness", "health", "wellbeing", "wellness"],
-    injury: ["injury", "damage", "strain"],
-    // Biology
-    enzyme: ["enzyme", "catalyst"],
-    respiration: ["respiration", "breathing"],
-    nucleus: ["nucleus", "nuclei"],
-    autotroph: ["autotroph", "producer"],
-    heterotroph: ["heterotroph", "consumer", "buyer", "client", "customer"],
-    protein: ["protein", "polypeptide"],
-    chromosome: ["chromosome", "chromatid"],
-    photosynthesis: ["photosynthesis", "photosynthesize"],
-    // Geography
-    tectonic: ["tectonic", "plate", "crust", "lithosphere"],
-    erosion: ["erosion", "abrasion", "hydraulic", "attrition"],
-    deposition: ["deposition", "sediment", "accumulation"],
-    carbonation: ["carbonation", "dissolution", "dissolve", "carbonic"],
-    weathering: ["weathering", "freeze", "frost", "haloclasty"],
-    orogeny: ["orogeny", "folding", "compression", "collision"],
-    subduction: ["subduction", "convergent", "destructive"],
-    volcanic: ["volcanic", "magma", "lava", "eruption"],
-    divergent: ["divergent", "constructive", "rift", "spreading"],
-  };
-  for (const v of Object.values(map)) {
-    if (v.includes(token)) return v.map(stemToken);
-  }
-  return [token];
-}
-
-function sanitize(text) {
-  return text.toLowerCase().replace(/[^a-z0-9\s]/g, "");
-}
-
 function getSelectedChapter() {
   const subject = SUBJECTS.find((s) => s.id === selectedSubjectId);
   return subject?.chapters.find((c) => c.id === selectedChapterId) || null;
@@ -2821,6 +3630,7 @@ function openFullNotes() {
   els.fullNotesScreen.classList.remove("hidden");
   els.fullNotesBody.scrollTop = 0;
   document.body.style.overflow = "hidden";
+  pushPhoneScreen("notes");
   markNotesViewed(chapter.id);
 }
 
@@ -3261,6 +4071,7 @@ function openProgress() {
   renderProgressOverview();
   els.progressScreen.classList.remove("hidden");
   document.body.style.overflow = "hidden";
+  pushPhoneScreen("progress");
 }
 
 function closeProgress() {
