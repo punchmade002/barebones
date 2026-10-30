@@ -1,0 +1,113 @@
+{
+  "loId": "chem21-s5",
+  "chapterId": "chem21",
+  "subsection": "5. ΔH from bond enthalpies",
+  "syllabusRef": "3.1.5",
+  "notes": [
+    {
+      "h": "Average bond enthalpies used (Higher Level only)",
+      "b": "These are the only values to use in this subsection. Bond enthalpy itself is defined in “Bond enthalpy and energy change”.",
+      "points": [
+        "Single bonds (kJ mol⁻¹): C–H 412, C–C 348, O–H 463, H–H 436, Cl–Cl 242, H–Cl 431, C–Cl 338, C–Br 276, C–I 238.",
+        "Multiple bonds (kJ mol⁻¹): C=C 614, C≡C 839, O=O 498.",
+        "Bonds in carbon dioxide and nitrogen (kJ mol⁻¹): C=O 799 (in CO₂), N≡N 945."
+      ]
+    },
+    {
+      "h": "Method (Higher Level only)",
+      "points": [
+        "Step 1: write the balanced equation and draw the full structural formula of every reactant and product, so that every bond can be seen.",
+        "Step 2: list the bonds broken in the reactants, multiplying by the coefficients in the equation, and add up their bond enthalpies (energy taken in).",
+        "Step 3: list the bonds formed in the products in the same way and add up their bond enthalpies (energy released).",
+        "Step 4: ΔH = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed).",
+        "Step 5: a negative answer predicts an exothermic reaction, and a positive answer an endothermic one.",
+        "Shortcut: bonds that are unchanged, present in both reactants and products, can be left out of both sums; the answer is the same."
+      ]
+    },
+    {
+      "h": "Worked example 1: combustion of methane (Higher Level only)",
+      "points": [
+        "Equation: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g); CH₄ has four C–H bonds, each O₂ has one O=O, each CO₂ has two C=O, and each H₂O has two O–H.",
+        "Bonds broken: 4 × C–H = 4 × 412 = 1648 kJ; 2 × O=O = 2 × 498 = 996 kJ; total 2644 kJ.",
+        "Bonds formed: 2 × C=O = 2 × 799 = 1598 kJ; 4 × O–H = 4 × 463 = 1852 kJ; total 3450 kJ.",
+        "ΔH = 2644 − 3450 = −806 kJ mol⁻¹: exothermic.",
+        "Comparison: the measured value for gaseous water is −802 kJ mol⁻¹, and the standard value (liquid water) is −890 kJ mol⁻¹.",
+        "The extra 88 kJ is released when 2 mol of steam condense (2 × 44 kJ), which is why the standard value is more negative."
+      ]
+    },
+    {
+      "h": "Worked example 2: hydrogenation of ethene (Higher Level only)",
+      "points": [
+        "Equation: CH₂=CH₂(g) + H₂(g) → CH₃–CH₃(g).",
+        "Bonds broken: C=C 614 + H–H 436 = 1050 kJ; the four C–H bonds of ethene are unchanged and are left out.",
+        "Bonds formed: C–C 348 + 2 × C–H 412 = 348 + 824 = 1172 kJ.",
+        "ΔH = 1050 − 1172 = −122 kJ mol⁻¹; the value from heats of formation is −137 kJ mol⁻¹ (see “Hess's law”)."
+      ]
+    },
+    {
+      "h": "Worked example 3: hydrogen and chlorine (Higher Level only)",
+      "points": [
+        "Equation: H₂(g) + Cl₂(g) → 2HCl(g).",
+        "Bonds broken: H–H 436 + Cl–Cl 242 = 678 kJ.",
+        "Bonds formed: 2 × H–Cl = 2 × 431 = 862 kJ.",
+        "ΔH = 678 − 862 = −184 kJ for 2 mol HCl.",
+        "This is very close to the measured value of about −185 kJ (2 × −92.3), because these diatomic molecules' bond enthalpies are exact values, not averages."
+      ]
+    },
+    {
+      "h": "Worked example 4: chlorination of methane (Higher Level only)",
+      "points": [
+        "Equation: CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g).",
+        "Bonds broken (only those that change): C–H 412 + Cl–Cl 242 = 654 kJ.",
+        "Bonds formed: C–Cl 338 + H–Cl 431 = 769 kJ.",
+        "ΔH = 654 − 769 = −115 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Why the answers are estimates (Higher Level only)",
+      "points": [
+        "Average bond enthalpies are averages over many different molecules; the actual strength of a bond in a particular molecule is a little different, so the calculated ΔH is only an estimate.",
+        "Bond enthalpies apply to substances in the gaseous state; if a reactant or product is a liquid or solid (e.g. liquid water), the enthalpy change of the change of state is not included, so the estimate differs from the standard value.",
+        "Values from heats of formation or careful measurement are more accurate; bond enthalpies are useful for predicting ΔH for reactions that haven't been measured and for explaining where the energy comes from.",
+        "A reaction is exothermic when the bonds formed are stronger in total than the bonds broken, e.g. combustion forms the very strong C=O and O–H bonds."
+      ]
+    },
+    {
+      "h": "Trends in bond enthalpies (Higher Level only)",
+      "points": [
+        "Multiple bonds are stronger and shorter than single bonds between the same atoms: C–C 348 < C=C 614 < C≡C 839 kJ mol⁻¹.",
+        "A C=C bond is less than twice as strong as C–C, and C≡C less than three times as strong, because the second and third bonds are pi bonds.",
+        "Pi bonds are weaker than the sigma bond because sideways overlap of p orbitals is less effective than head-on overlap; see “Shapes: sigma and pi bonds”.",
+        "For bonds from carbon to the halogens, bond enthalpy falls down the group: C–Cl 338 > C–Br 276 > C–I 238 kJ mol⁻¹.",
+        "The halogen atom is larger for each step down the group, so the bond is longer and the shared electrons are further from the nuclei.",
+        "The N≡N bond (945 kJ mol⁻¹) is one of the strongest, explaining why N₂ is very unreactive."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Average bond enthalpy", "definition": "The mean of the bond enthalpies of a particular bond type taken over many different compounds." },
+    { "term": "Bond enthalpy", "definition": "The energy needed to break one mole of a particular covalent bond with all substances in the gaseous state." },
+    { "term": "Structural formula", "definition": "A formula that shows every atom and every bond in a molecule, so the bonds can be counted." },
+    { "term": "Sigma bond", "definition": "A covalent bond formed by head-on overlap of orbitals along the line joining the two atoms." },
+    { "term": "Pi bond", "definition": "A covalent bond formed by sideways overlap of p orbitals, which is weaker than a sigma bond." },
+    { "term": "Multiple bond", "definition": "A double or triple covalent bond, made of a sigma bond with one or two pi bonds." },
+    { "term": "Halogen", "definition": "A non-metal element such as chlorine, bromine or iodine." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Use average bond enthalpies to estimate ΔH for CH₂=CH₂(g) + Cl₂(g) → CH₂Cl–CH₂Cl(g). (C=C 614; Cl–Cl 242; C–C 348; C–Cl 338 kJ mol⁻¹.)",
+      "model": "Bonds broken: C=C 614 + Cl–Cl 242 = 856 kJ mol⁻¹. Bonds formed: C–C 348 + 2 × C–Cl 338 = 348 + 676 = 1024 kJ mol⁻¹. ΔH = 856 − 1024 = −168 kJ mol⁻¹. The answer is negative, so the reaction is predicted to be exothermic."
+    },
+    {
+      "marks": 9,
+      "prompt": "Estimate ΔH for the combustion of methane from average bond enthalpies, and explain why the answer differs from the standard heat of combustion, −890 kJ mol⁻¹.",
+      "model": "Bonds broken: 4 × C–H 412 + 2 × O=O 498 = 1648 + 996 = 2644 kJ. Bonds formed: 2 × C=O 799 + 4 × O–H 463 = 1598 + 1852 = 3450 kJ. ΔH = 2644 − 3450 = −806 kJ mol⁻¹. The estimate differs from −890 kJ mol⁻¹ because average bond enthalpies are only averages for the bonds in particular molecules, so the calculated value is an estimate. Also, bond enthalpies apply to gaseous substances, but the standard value uses liquid water. About 88 kJ is released when 2 mol of steam condense (2 × 44 kJ), which accounts for the difference from the standard value."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain why the bond enthalpy of C≡C (839 kJ mol⁻¹) is less than three times that of C–C (348 kJ mol⁻¹), and why C–I is weaker than C–Cl.",
+      "model": "The triple bond in C≡C has one sigma bond and two pi bonds, while C–C has only one sigma bond. A pi bond is formed by sideways overlap of p orbitals, which is less effective than head-on overlap, so each pi bond is weaker than a sigma bond. Therefore the C≡C bond (839 kJ mol⁻¹) is less than three times the C–C bond (348 kJ mol⁻¹). For carbon to halogens, bond enthalpy falls down the group: C–Cl 338 kJ mol⁻¹, C–I 238 kJ mol⁻¹. Iodine is a larger atom than chlorine, so the C–I bond is longer and the shared electrons are further from the nuclei, making the bond weaker."
+    }
+  ]
+}

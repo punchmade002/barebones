@@ -86,7 +86,7 @@ IUPAC naming up to C6 (one block, skills; one rule per bullet)
 - Cyclohexane has the same formula (C₆H₁₂) as hexene but is saturated.
 - Reaction conditions and mechanisms are not required here (mechanisms are in "Reaction mechanisms", Higher Level).
 - Naming benzene derivatives (methylbenzene etc.) is not part of this subsection.
-- Don't write 2-methylpropane as needing a number: methylpropane is unambiguous (2-methylpropane is also accepted).
+- Methylpropane needs no locant because the methyl group can only be on carbon 2 (2-methylpropane is also accepted).
 
 ## 4. What exams ask (topics only)
 

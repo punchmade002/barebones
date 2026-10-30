@@ -1,0 +1,94 @@
+{
+  "loId": "chem21-s4",
+  "chapterId": "chem21",
+  "subsection": "4. Calculating ΔH and energy profiles",
+  "syllabusRef": "3.1.4",
+  "notes": [
+    {
+      "h": "Standard conditions",
+      "points": [
+        "Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.",
+        "Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa).",
+        "Solutions have a concentration of 1 mol L⁻¹, and each substance is in its standard state, its normal physical state under these conditions, e.g. water as a liquid and carbon as graphite.",
+        "A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °).",
+        "IUPAC now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.",
+        "Standard conditions are not s.t.p. (0 °C, 273 K and 101.3 kPa), which is used for gas volumes; see “Molar volume and Avogadro's law”."
+      ]
+    },
+    {
+      "h": "Calculating ΔH by measurement",
+      "points": [
+        "Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.",
+        "Step 2: calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution in kg, c is its specific heat capacity (4.18 kJ kg⁻¹ K⁻¹ for water) and ΔT is the temperature change in K or °C.",
+        "Step 3: calculate the moles of the reactant that reacted completely (the limiting reactant), using n = concentration × V (in L) for solutions or n = m ÷ M for solids and liquids.",
+        "Step 4: heat per mole = Q ÷ n, in kJ mol⁻¹, scaled to the moles in the balanced equation if the heat of reaction is asked for.",
+        "Step 5: give ΔH a sign: negative if the temperature rose (exothermic), positive if it fell (endothermic).",
+        "Q is always positive; the sign of ΔH comes only from whether the temperature rose or fell.",
+        "Specific heat capacity, c, is the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water it is 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹).",
+        "Dilute solutions are assumed to have the same specific heat capacity as water and a density of 1.00 g cm⁻³.",
+        "If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead."
+      ]
+    },
+    {
+      "h": "Worked example: zinc and copper(II) sulfate (sample data)",
+      "points": [
+        "Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.",
+        "Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s); ionic equation: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
+        "Zinc is in excess, so the copper(II) sulfate is the limiting reactant.",
+        "Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.",
+        "Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.",
+        "Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.",
+        "The value is a little less negative than the accepted value because of heat losses; see “Investigation: heat of neutralisation” for errors and improvements."
+      ]
+    },
+    {
+      "h": "Using ΔH to find heat for a given amount",
+      "points": [
+        "ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.",
+        "Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; M(CH₄) = 16 g mol⁻¹, so 8.0 g of methane is 8.0 ÷ 16 = 0.50 mol.",
+        "Burning 0.50 mol of methane releases 0.50 × 890 = 445 kJ.",
+        "Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹."
+      ]
+    },
+    {
+      "h": "Energy profile diagrams",
+      "points": [
+        "An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction, with energy on the vertical axis and progress of reaction (reaction pathway) on the horizontal axis.",
+        "It shows the reactants' level, a hump rising to a maximum, and the products' level; unlike an enthalpy level diagram, it shows this hump.",
+        "The height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen; see “Catalysis and energy profiles”.",
+        "ΔH is the vertical difference between the reactants' and products' levels and does not depend on the height of the hump.",
+        "Exothermic profile: products below reactants, ΔH is negative, and the energy released as bonds form is greater than the activation energy taken in.",
+        "Endothermic profile: products above reactants, ΔH is positive, and the activation energy is larger than ΔH.",
+        "Energy transfer: the energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making; the net difference is transferred as heat to the surroundings (exothermic) or from them (endothermic).",
+        "Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Standard conditions", "definition": "A temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa), used to quote enthalpy changes for comparison." },
+    { "term": "Standard state", "definition": "The normal physical state of a substance under standard conditions, such as water as a liquid." },
+    { "term": "Standard enthalpy change (ΔH°)", "definition": "An enthalpy change measured under standard conditions, with solutions at 1 mol L⁻¹." },
+    { "term": "Specific heat capacity", "definition": "The heat needed to raise the temperature of 1 kg of a substance by 1 K." },
+    { "term": "Limiting reactant", "definition": "The reactant that is used up first and so determines the amount of product and heat." },
+    { "term": "Activation energy", "definition": "The minimum energy needed for a reaction to happen, shown as the height of the hump on an energy profile." },
+    { "term": "Energy profile diagram", "definition": "A graph of energy against progress of reaction showing the reactants, the activation energy, the products and ΔH." },
+    { "term": "Reaction pathway", "definition": "The route of the reaction from reactants to products, shown on the horizontal axis of an energy profile." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "Excess zinc was added to 100 cm³ of 0.100 M copper(II) sulfate solution and the temperature rose by 4.8 °C. Calculate ΔH for Zn + CuSO₄ → ZnSO₄ + Cu, taking the specific heat capacity of the solution as 4.18 kJ kg⁻¹ K⁻¹ and its density as 1.00 g cm⁻³ (sample data).",
+      "model": "Mass of solution = 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg. Heat produced Q = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 4.8 K = 2.01 kJ. Moles of CuSO₄ = 0.100 mol L⁻¹ × 0.100 L = 0.0100 mol, and zinc is in excess, so CuSO₄ is the limiting reactant. Heat per mole = 2.01 kJ ÷ 0.0100 mol = 201 kJ mol⁻¹. The temperature rose, so ΔH = −201 kJ mol⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "Draw a labelled energy profile diagram for an exothermic reaction, marking the activation energy and ΔH, and explain what the diagram shows about the energy transfer.",
+      "model": "Draw axes: energy on the vertical axis and progress of reaction on the horizontal axis. Draw a reactants level, a hump rising to a maximum, and a products level below the reactants level. Mark the activation energy Ea with an arrow from the reactants to the top of the hump, and mark ΔH with an arrow from the reactants level down to the products level. The energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making. The products are at lower energy, so the net energy difference is transferred as heat to the surroundings, and ΔH is negative. The energy released as bonds form is greater than the activation energy taken in."
+    },
+    {
+      "marks": 3,
+      "prompt": "State the standard conditions for enthalpy changes and explain why they are needed.",
+      "model": "The standard conditions are a temperature of 25 °C (298 K), a pressure of 1 atmosphere (101.3 kPa), solutions at a concentration of 1 mol L⁻¹, and each substance in its standard state. They are needed because enthalpy changes depend on temperature, pressure and the physical states of the substances, so quoting values under the same conditions allows them to be compared."
+    }
+  ]
+}
