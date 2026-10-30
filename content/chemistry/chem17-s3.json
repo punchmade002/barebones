@@ -1,0 +1,165 @@
+{
+  "loId": "chem17-s3",
+  "chapterId": "chem17",
+  "subsection": "3. Investigation: factors affecting rate",
+  "syllabusRef": "3.2.3",
+  "notes": [
+    {
+      "h": "Average and initial rate",
+      "points": [
+        "Average rate over a time interval is the change in amount of product or reactant divided by the time taken, e.g. total volume of gas divided by total time.",
+        "Initial rate is the rate at the very start (t = 0), when reactant concentrations are highest and the rate is greatest.",
+        "The initial rate is the gradient of the tangent drawn to the curve at the origin.",
+        "For a clock reaction timed until a fixed amount of product forms, such as the sulfur cross, 1/time measures the initial rate.",
+        "In a clock reaction only a small fraction of the reactants has been used in the time taken, so the rate has hardly changed."
+      ]
+    },
+    {
+      "h": "Worked example: rates from a graph (sample data)",
+      "points": [
+        "Sample data: oxygen from hydrogen peroxide with manganese(IV) oxide. Time (min) and volume (cm³): 0, 0; 1, 21; 2, 36; 3, 47; 4, 56; 5, 62; 6, 67; 8, 73; 10, 76; 12, 78; 14, 79; 16, 80; 18, 80.",
+        "Reaction complete: the volume stops changing at 80 cm³, at about 16 min.",
+        "Average rate over the first 4 min = 56 cm³ ÷ 4 min = 14.0 cm³ min⁻¹.",
+        "Average rate in the first minute = 21 cm³ min⁻¹.",
+        "Average rate in the second minute = (36 − 21) cm³ ÷ 1 min = 15 cm³ min⁻¹.",
+        "The rate in the second minute is lower because the concentration of H₂O₂ has fallen.",
+        "Initial rate: the tangent at the origin passes through (1.0 min, 24 cm³), so the initial rate = 24 cm³ ÷ 1.0 min = 24.0 cm³ min⁻¹.",
+        "Converting to moles, using M(CO₂) = 44 g mol⁻¹ (C 12, O 16): if the mass of CO₂ lost is 0.220 g min⁻¹ (sample data), the rate = 0.220 g min⁻¹ ÷ 44 g mol⁻¹ = 5.00 × 10⁻³ mol CO₂ min⁻¹."
+      ]
+    },
+    {
+      "h": "Instantaneous rate (Higher Level only)",
+      "points": [
+        "Instantaneous rate is the rate at one particular moment: the gradient of the tangent drawn to the curve at that time.",
+        "To draw the tangent, place a ruler so that it touches the curve at the chosen time without cutting it, and draw a long straight line.",
+        "Pick two points far apart on the tangent line and calculate gradient = change in y ÷ change in x.",
+        "The instantaneous rate falls during the reaction; the average rate over an interval lies between the instantaneous rates at its start and end.",
+        "Instantaneous rate at 2.0 min, from the sample data above: the tangent passes through (0 min, 10 cm³) and (5.0 min, 76 cm³), so the rate = (76 − 10) cm³ ÷ (5.0 − 0) min = 13.2 cm³ min⁻¹."
+      ]
+    },
+    {
+      "h": "Investigation 1: calcium carbonate and hydrochloric acid, surface area and concentration: method",
+      "points": [
+        "Aim: to investigate the effect of particle size (and of acid concentration) on the rate of reaction of calcium carbonate with hydrochloric acid.",
+        "Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).",
+        "Place a conical flask containing a known mass, e.g. 10 g, of large marble chips on an electronic balance, beside a graduated cylinder holding a known volume, e.g. 50 cm³, of 1.0 M hydrochloric acid; record the total mass.",
+        "Pour in the acid, put a loose cotton-wool plug in the neck, and start the stopwatch at once.",
+        "Record the mass every 30 s for about 10 min, until it stops changing; the loss in mass is the mass of CO₂ given off.",
+        "Repeat with the same mass of small chips or powder, with the same volume and concentration of acid at the same temperature.",
+        "For concentration, repeat with the same size and mass of chips and the same volume of acid at different concentrations, e.g. 0.5 M, 1.0 M and 2.0 M.",
+        "Alternative: collect the CO₂ in a gas syringe and record its volume every 30 s.",
+        "Diagram: conical flask with marble chips and acid, loose cotton-wool plug, on an electronic balance; a graduated cylinder of acid beside it; a stopwatch."
+      ]
+    },
+    {
+      "h": "Investigation 1: results and reasons",
+      "points": [
+        "Plot mass of CO₂ lost (y-axis) against time (x-axis) for each run on the same axes; the steeper initial curve shows the faster rate.",
+        "Smaller chips give a steeper curve, a faster rate, because of their greater surface area.",
+        "More concentrated acid gives a faster rate, as explained in “Collision theory”.",
+        "Because the acid is the limiting reactant, more concentrated acid of the same volume also gives more CO₂ in total.",
+        "The cotton-wool plug lets CO₂ escape but stops acid spray being lost, which would otherwise add to the mass loss.",
+        "The same mass of carbonate and the same acid keep the test fair.",
+        "The chips are in excess, so the acid is the limiting reactant."
+      ]
+    },
+    {
+      "h": "Investigation 2: sodium thiosulfate and hydrochloric acid, concentration and temperature: method",
+      "points": [
+        "Aim: to investigate the effect of concentration and of temperature on rate.",
+        "Equation: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).",
+        "The pale yellow sulfur precipitate makes the solution cloudy until it hides the cross.",
+        "Draw a dark cross on white paper and place a conical flask on it.",
+        "Concentration: make a series of thiosulfate solutions of the same total volume, e.g. 50, 40, 30, 20 and 10 cm³ of 0.20 M Na₂S₂O₃, each made up to 50 cm³ with deionised water, giving 0.20, 0.16, 0.12, 0.08 and 0.04 M.",
+        "Dilute with water only, using a burette or graduated pipette; keep the total volume constant.",
+        "Pour one solution into the flask, add a fixed volume of acid, e.g. 10 cm³ of 2.0 M hydrochloric acid, quickly, swirl, and start the stopwatch at the same moment.",
+        "Look down through the solution from above; stop the watch when the cross can no longer be seen; record the time.",
+        "Repeat for each concentration, keeping the acid volume and concentration, total volume, temperature, flask, cross and observer the same; calculate rate = 1/time.",
+        "Temperature: use the same concentration each time, e.g. 0.05 M Na₂S₂O₃.",
+        "Warm the thiosulfate in a water bath to the chosen temperature, e.g. 20, 30, 40 or 50 °C, add the acid, start timing, and record the temperature of the mixture with a thermometer.",
+        "Use the average of the start and end temperatures."
+      ]
+    },
+    {
+      "h": "Investigation 2: results, reasons, safety and errors",
+      "points": [
+        "Sample data, concentration: 0.20 M, 20 s; 0.16 M, 25 s; 0.12 M, 34 s; 0.08 M, 50 s; 0.04 M, 102 s.",
+        "Rates (1/time) for those concentrations: 0.0500, 0.0400, 0.0294, 0.0200 and 0.0098 s⁻¹.",
+        "A graph of rate against concentration is a straight line through the origin, so rate is directly proportional to concentration.",
+        "Sample data, temperature: 20 °C, 80 s; 30 °C, 41 s; 40 °C, 21 s; 50 °C, 11 s.",
+        "Rates (1/time) for those temperatures: 0.0125, 0.0244, 0.0476 and 0.0909 s⁻¹.",
+        "A graph of rate against temperature is a curve rising ever more steeply; the rate roughly doubles for each 10 °C rise.",
+        "The same total volume means the same depth of liquid over the cross, so the same amount of sulfur hides it in each run.",
+        "1/time is used as the measure of rate because a shorter time means a faster rate.",
+        "Safety: sulfur dioxide is a toxic, choking gas that is dangerous for people with asthma; work in a well-ventilated room, do not heat above about 60 °C, and pour the mixture away promptly when each run ends.",
+        "Judging when the cross disappears is subjective; use the same observer and the same cross.",
+        "A delay in starting the stopwatch affects the time recorded.",
+        "The temperature falls during a warm run.",
+        "Diagram: conical flask standing on white paper marked with a cross, eye looking down from above; thermometer and water bath for the temperature runs."
+      ]
+    },
+    {
+      "h": "Investigation 3: decomposition of hydrogen peroxide, catalyst and concentration: method",
+      "points": [
+        "Aim: to measure the rate of decomposition of hydrogen peroxide with manganese(IV) oxide catalyst, and to investigate the effect of one factor: the concentration of H₂O₂, the form of the catalyst, or the temperature.",
+        "Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).",
+        "Place a measured volume of dilute hydrogen peroxide, e.g. 5 cm³ of 20-volume H₂O₂ diluted to 25 cm³ with deionised water, in a conical flask.",
+        "20-volume hydrogen peroxide gives 20 cm³ of oxygen per cm³ of solution on complete decomposition.",
+        "Put a small mass, e.g. 0.5 g, of manganese(IV) oxide (manganese dioxide, MnO₂), a black powder, in a small test tube and lower it into the flask on a thread so that it does not touch the peroxide.",
+        "Stopper the flask, with a delivery tube leading to an inverted graduated cylinder full of water in a basin, or to a gas syringe.",
+        "Tilt or shake the flask so the catalyst mixes with the peroxide, and start the stopwatch at the same instant; this starts the reaction without losing any oxygen.",
+        "Record the volume of oxygen every 30 s or 1 min until no more gas is produced; swirl the flask throughout."
+      ]
+    },
+    {
+      "h": "Investigation 3: varying the factor, control and safety",
+      "points": [
+        "Repeat, changing one factor: e.g. half the concentration of H₂O₂ with the same total volume, or granules instead of powder with the same mass, keeping everything else the same.",
+        "A control: hydrogen peroxide without catalyst gives almost no oxygen over the same time.",
+        "The catalyst can be filtered off, washed, dried and weighed at the end to show it is unchanged in mass.",
+        "Safety: hydrogen peroxide is an oxidising agent and, in concentrated form, is corrosive to skin and eyes; wear goggles and gloves.",
+        "Store hydrogen peroxide in a cool, dark place, because it decomposes in light and heat, building up pressure.",
+        "Diagram: conical flask with H₂O₂ and a small test tube of MnO₂ hanging on a thread; stopper and delivery tube to an inverted graduated cylinder of water in a trough, or to a gas syringe."
+      ]
+    },
+    {
+      "h": "Interpreting changed curves",
+      "points": [
+        "A faster rate gives a steeper initial curve that levels off sooner; the causes are a higher temperature, a catalyst, powder instead of lumps, or a more concentrated excess reactant.",
+        "A faster rate gives the same final volume if the amount of limiting reactant is unchanged.",
+        "A slower rate, from a lower temperature (e.g. ice-water), larger lumps or no catalyst, gives a less steep curve that takes longer to level off.",
+        "A slower rate also gives the same final volume if the amount of limiting reactant is unchanged.",
+        "Halving the concentration of the limiting reactant, at the same volume, gives a less steep curve and half the final volume, because there is half as much reactant to form product.",
+        "The final volume of gas tells you the amount of limiting reactant; the gradient tells you the rate.",
+        "Secondary data: values read from a given graph or table, such as the volume at a stated time, the time to reach a volume, the time the reaction ended or half the final volume, can be used to calculate rates as above, and instantaneous rates at Higher Level."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Average rate", "definition": "The change in amount of product or reactant divided by the time taken over a stated interval." },
+    { "term": "Initial rate", "definition": "The rate at the very start of a reaction (t = 0), given by the gradient of the tangent to the curve at the origin." },
+    { "term": "Instantaneous rate", "definition": "The rate at one particular moment, given by the gradient of the tangent to the curve at that time." },
+    { "term": "Tangent", "definition": "A straight line that touches a curve at one point without cutting it, used to find the gradient and so the rate at that point." },
+    { "term": "Clock reaction", "definition": "A reaction timed until a fixed amount of product forms, so that 1/time gives a measure of the initial rate." },
+    { "term": "Control", "definition": "A repeat of the experiment without the factor being tested, used to show that the factor causes the change observed." },
+    { "term": "Secondary data", "definition": "Data taken from a given graph or table rather than measured in the experiment itself." },
+    { "term": "Deionised water", "definition": "Water from which dissolved ions have been removed, used to dilute solutions without adding unwanted ions." }
+  ],
+  "questions": [
+    {
+      "marks": 12,
+      "prompt": "Describe how you would investigate the effect of concentration on the rate of reaction between sodium thiosulfate and hydrochloric acid. Explain how the rate is found and what the graph of rate against concentration shows.",
+      "model": "Make a series of sodium thiosulfate solutions of the same total volume by diluting 50, 40, 30, 20 and 10 cm³ of 0.20 M Na₂S₂O₃ each to 50 cm³ with deionised water, giving 0.20, 0.16, 0.12, 0.08 and 0.04 M. Draw a dark cross on white paper and place a conical flask on it. Pour one solution into the flask, add a fixed volume of 2.0 M hydrochloric acid, e.g. 10 cm³, quickly, swirl, and start the stopwatch at the same moment. Look down through the solution from above and stop the watch when the cross can no longer be seen. Keep the acid volume and concentration, total volume, temperature, flask, cross and observer the same for each run. The rate is 1/time, because a shorter time means a faster rate and the same amount of sulfur hides the cross each time. Plotting rate against concentration gives a straight line through the origin, showing that rate is directly proportional to concentration. Sample data: at 0.20 M the time is 20 s, a rate of 1/20 s = 0.0500 s⁻¹; at 0.04 M the time is 102 s, a rate of 1/102 s = 0.0098 s⁻¹."
+    },
+    {
+      "marks": 12,
+      "prompt": "(Sample data) Hydrogen peroxide was decomposed with a catalyst. Time (min) and volume of O₂ (cm³): 0, 0; 1, 30; 2, 50; 3, 63; 4, 71; 5, 75. (i) Calculate the average rate over the first 3 minutes. (ii) Calculate the average rate during the second minute and explain why it differs from the rate in the first minute. (iii) (Higher Level) A tangent drawn at 2.0 min passes through (0 min, 17 cm³) and (4.0 min, 83 cm³). Calculate the instantaneous rate at 2.0 min.",
+      "model": "(i) Average rate = 63 cm³ ÷ 3 min = 21.0 cm³ min⁻¹. (ii) Rate in the second minute = (50 − 30) cm³ ÷ 1 min = 20 cm³ min⁻¹. This is lower than the 30 cm³ min⁻¹ in the first minute because the concentration of H₂O₂ has fallen as it is used up. (iii) Instantaneous rate = (83 − 17) cm³ ÷ (4.0 − 0) min = 66 ÷ 4.0 = 16.5 cm³ min⁻¹."
+    },
+    {
+      "marks": 6,
+      "prompt": "On a graph of volume of oxygen against time, sketch and explain the curves you would expect if the experiment were repeated (i) with the flask in ice-water, (ii) with the same volume of hydrogen peroxide of half the concentration.",
+      "model": "(i) In ice-water the rate is lower: the particles have less kinetic energy, so fewer collisions have energy at or above the activation energy. The curve is less steep at the start and takes longer to level off, but it reaches the same final volume, because the amount of limiting reactant is unchanged. (ii) Half the concentration gives a less steep curve, because there are fewer particles per unit volume and fewer collisions per second. The final volume is half as large, because there is half as much hydrogen peroxide to form oxygen."
+    }
+  ]
+}

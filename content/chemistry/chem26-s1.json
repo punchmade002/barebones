@@ -1,0 +1,203 @@
+{
+  "loId": "chem26-s1",
+  "chapterId": "chem26",
+  "subsection": "1. Quantitative problems from balanced equations",
+  "syllabusRef": "1.4.7",
+  "notes": [
+    {
+      "h": "Stoichiometry and the mole",
+      "points": [
+        "Stoichiometry is the study of the quantitative relationships between the amounts of reactants and products in a chemical reaction, given by the balanced equation.",
+        "The coefficients in a balanced equation give the ratio of moles, not of masses; masses must always be converted to moles before the ratio is used."
+      ]
+    },
+    {
+      "h": "Method for calculations from an equation (skills)",
+      "points": [
+        "Step 1: Write the balanced equation (see “Balancing equations”).",
+        "Step 2: Convert the quantity you are given into moles. For a mass, n = m ÷ M.",
+        "Step 2 for a gas: n = V ÷ 22.4, with V in litres at STP.",
+        "Step 2 for a solution: n = c × V, with V in litres.",
+        "Step 3: Use the mole ratio from the equation to find the moles of the substance asked for: moles wanted = moles known × (coefficient of wanted ÷ coefficient of known).",
+        "Step 4: Convert those moles into the quantity asked for. For a mass, m = n × M.",
+        "Step 4 for a gas: V = n × 22.4 L at STP.",
+        "Step 4 for particles: number of particles = n × 6.02 × 10²³.",
+        "Step 5: Give the answer with units and to a sensible number of significant figures, usually 3, and check that it is reasonable."
+      ]
+    },
+    {
+      "h": "Worked example: mass to mass",
+      "points": [
+        "Question: what masses of carbon dioxide and calcium oxide are produced when 25.0 g of calcium carbonate is heated strongly until it decomposes completely?",
+        "Equation: CaCO₃(s) → CaO(s) + CO₂(g); the ratio CaCO₃ : CaO : CO₂ is 1 : 1 : 1.",
+        "Moles of CaCO₃ = 25.0 ÷ 100 = 0.250 mol, using M = 100 g mol⁻¹.",
+        "Moles of CO₂ = moles of CaO = 0.250 mol.",
+        "Mass of CO₂ = 0.250 × 44 = 11.0 g.",
+        "Mass of CaO = 0.250 × 56 = 14.0 g.",
+        "Check by conservation of mass: 11.0 + 14.0 = 25.0 g, the mass of calcium carbonate."
+      ]
+    },
+    {
+      "h": "Worked example: mass to gas volume",
+      "points": [
+        "Question: what volume of hydrogen, measured at STP, is produced when 1.20 g of magnesium reacts with excess hydrochloric acid?",
+        "Equation: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g); the ratio Mg : H₂ is 1 : 1.",
+        "Moles of Mg = 1.20 ÷ 24 = 0.0500 mol.",
+        "Moles of H₂ = moles of Mg = 0.0500 mol.",
+        "Volume of H₂ = 0.0500 × 22.4 = 1.12 L, which is 1120 cm³, at STP.",
+        "“Excess” acid means there is more than enough acid, so all the magnesium reacts and the magnesium decides the amount of hydrogen."
+      ]
+    },
+    {
+      "h": "Worked example: gas volume to mass",
+      "points": [
+        "Question: what mass of hydrogen peroxide must decompose to give 560 cm³ of oxygen at STP?",
+        "Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g); the ratio H₂O₂ : O₂ is 2 : 1.",
+        "Convert the volume first: 560 cm³ = 0.560 L.",
+        "Moles of O₂ = 0.560 L ÷ 22.4 L mol⁻¹ = 0.0250 mol.",
+        "Moles of H₂O₂ = 2 × 0.0250 = 0.0500 mol.",
+        "Mass of H₂O₂ = 0.0500 × 34 = 1.70 g."
+      ]
+    },
+    {
+      "h": "Worked example: a reactant needed and two products",
+      "points": [
+        "Question: 8.80 g of propane burns completely in oxygen; calculate the mass of oxygen needed and the volume of carbon dioxide formed at STP.",
+        "Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).",
+        "Moles of C₃H₈ = 8.80 ÷ 44 = 0.200 mol.",
+        "Moles of O₂ = 5 × 0.200 = 1.00 mol.",
+        "Mass of O₂ = 1.00 × 32 = 32.0 g.",
+        "Moles of CO₂ = 3 × 0.200 = 0.600 mol.",
+        "Volume of CO₂ = 0.600 × 22.4 = 13.4 L at STP.",
+        "Reacting gas volumes alone, all measured at the same temperature and pressure, can be found directly from the mole ratio without converting to moles (see “Molar volume and Avogadro's law”)."
+      ]
+    },
+    {
+      "h": "Worked example: liquids by density",
+      "points": [
+        "For a liquid, find the mass from its volume and density first: m = ρ × V.",
+        "Question: 5.00 cm³ of ethanol (density 0.789 g cm⁻³) burns completely; what mass of carbon dioxide forms?",
+        "Mass of ethanol = 5.00 × 0.789 = 3.945 g.",
+        "Moles of ethanol = 3.945 ÷ 46 = 0.08576 mol.",
+        "Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), so moles of CO₂ = 2 × 0.08576 = 0.1715 mol.",
+        "Mass of CO₂ = 0.1715 × 44 = 7.55 g.",
+        "Keep an extra figure in intermediate values and round only at the end."
+      ]
+    },
+    {
+      "h": "Worked example: thermal decomposition",
+      "points": [
+        "Question: 8.40 g of sodium hydrogencarbonate is heated until no more gas is given off; equation 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).",
+        "Moles of NaHCO₃ = 8.40 ÷ 84 = 0.100 mol.",
+        "Moles of Na₂CO₃ = 0.100 ÷ 2 = 0.0500 mol.",
+        "Mass of solid residue = 0.0500 × 106 = 5.30 g.",
+        "Moles of CO₂ = 0.0500 mol.",
+        "Volume of CO₂ = 0.0500 × 22.4 = 1.12 L at STP."
+      ]
+    },
+    {
+      "h": "Simple unit analysis",
+      "points": [
+        "Unit analysis (dimensional analysis): write the units with every number and multiply by conversion factors so that unwanted units cancel, leaving the unit asked for; if the units do not come out right, the method is wrong.",
+        "3.945 g × (1 mol ÷ 46 g) = 0.08576 mol of ethanol.",
+        "0.08576 mol ethanol × (2 mol CO₂ ÷ 1 mol ethanol) × (44 g ÷ 1 mol CO₂) = 7.55 g of CO₂.",
+        "Volume conversions: 1 L = 1000 cm³ = 1 dm³; 1 m³ = 1000 L.",
+        "Mass conversions: 1 kg = 1000 g; 1 tonne = 1000 kg = 10⁶ g.",
+        "Because the mole ratio is a ratio, masses can be scaled in any consistent unit: 100 g of CaCO₃ gives 56 g of CaO, so 1.00 tonne of CaCO₃ gives 0.560 tonnes of CaO.",
+        "Common slip: using cm³ in n = V ÷ 22.4; the volume must be in litres.",
+        "Common slip: using the Mr of the wrong substance.",
+        "Common slip: forgetting the mole ratio in step 3."
+      ]
+    },
+    {
+      "h": "Gravimetric analysis: definition and method",
+      "points": [
+        "Gravimetric analysis is quantitative analysis by mass: the substance being measured is converted into a pure solid, usually an insoluble precipitate, of known formula, which is separated, dried and weighed.",
+        "Step 1: Weigh the sample accurately and dissolve it in deionised water.",
+        "Step 2: Add an excess of the precipitating reagent, e.g. silver nitrate solution for chloride ions or barium chloride solution for sulfate ions, so that all of the ion is precipitated.",
+        "Silver chloride forms by Ag⁺(aq) + Cl⁻(aq) → AgCl(s), a white precipitate.",
+        "Barium sulfate forms by Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s), a white precipitate.",
+        "Step 3: Check that precipitation is complete by adding a drop more reagent to the clear liquid above the settled precipitate; no further cloudiness should appear.",
+        "Step 4: Filter through a weighed filter paper or weighed sintered-glass crucible, and wash the precipitate with deionised water to remove soluble impurities, which would otherwise add to the mass.",
+        "Step 5: Dry the precipitate in an oven, cool and weigh; repeat drying and weighing until the mass is constant, so that all water is removed.",
+        "Diagram: filter funnel with folded filter paper in a conical flask, the precipitate on the paper and a wash bottle of deionised water beside it."
+      ]
+    },
+    {
+      "h": "Gravimetric analysis: calculation, safety and errors",
+      "points": [
+        "Calculation: moles of precipitate → moles of the ion (from the formula) → mass of the ion or of the original compound → percentage of the sample.",
+        "Safety: silver nitrate stains skin and barium compounds are toxic, so wear gloves and goggles.",
+        "Silver chloride darkens in bright light, so keep it out of direct sunlight.",
+        "Losing precipitate through the filter paper gives a low result.",
+        "Not washing the precipitate, or not drying it to constant mass, gives a high result."
+      ]
+    },
+    {
+      "h": "Gravimetric worked example: chloride (sample data)",
+      "points": [
+        "Question: 0.500 g of impure sodium chloride was dissolved and treated with excess silver nitrate solution; the dry silver chloride weighed 1.148 g, with M of AgCl = 143.5 g mol⁻¹.",
+        "Moles of AgCl = 1.148 ÷ 143.5 = 0.00800 mol.",
+        "Moles of Cl⁻ = moles of NaCl = 0.00800 mol, because AgCl and NaCl each contain one Cl.",
+        "Mass of chlorine = 0.00800 × 35.5 = 0.284 g.",
+        "Chlorine in the sample = (0.284 ÷ 0.500) × 100 = 56.8% by mass.",
+        "Mass of NaCl = 0.00800 × 58.5 = 0.468 g.",
+        "Purity = (0.468 ÷ 0.500) × 100 = 93.6%."
+      ]
+    },
+    {
+      "h": "Gravimetric worked example: sulfate (sample data)",
+      "points": [
+        "Question: 1.00 g of a fertiliser containing ammonium sulfate, (NH₄)₂SO₄, gave 1.60 g of dry barium sulfate, with M of BaSO₄ = 233 g mol⁻¹.",
+        "Moles of BaSO₄ = 1.60 ÷ 233 = 6.867 × 10⁻³ mol.",
+        "Moles of (NH₄)₂SO₄ = moles of BaSO₄ = 6.867 × 10⁻³ mol.",
+        "Mass of (NH₄)₂SO₄ = 6.867 × 10⁻³ × 132 = 0.906 g.",
+        "Percentage of (NH₄)₂SO₄ in the fertiliser = 90.6%."
+      ]
+    },
+    {
+      "h": "Combustion analysis (sample data)",
+      "points": [
+        "When an organic compound of C, H and O burns completely, all its carbon ends up in CO₂ and all its hydrogen in H₂O.",
+        "The masses of these products give the masses of C and H in the sample, and the oxygen is found by difference.",
+        "The empirical formula is then found as in “Empirical and molecular formulae”.",
+        "Data: 0.290 g of a compound containing only C, H and O burned completely to give 0.660 g of CO₂ and 0.270 g of H₂O; its Mr is 58.",
+        "Moles of C = moles of CO₂ = 0.660 ÷ 44 = 0.0150 mol.",
+        "Mass of C = 0.0150 × 12 = 0.180 g.",
+        "Moles of H = 2 × moles of H₂O = 2 × (0.270 ÷ 18) = 0.0300 mol.",
+        "Mass of H = 0.0300 g.",
+        "Mass of O = 0.290 − 0.180 − 0.0300 = 0.0800 g.",
+        "Moles of O = 0.0800 ÷ 16 = 0.00500 mol.",
+        "Ratio C : H : O = 0.0150 : 0.0300 : 0.00500 = 3 : 6 : 1, so the empirical formula is C₃H₆O, with mass 58.",
+        "Since Mr = 58, the molecular formula is also C₃H₆O, for example propanone."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Stoichiometry", "definition": "The study of the quantitative relationships between the amounts of reactants and products, given by the balanced equation." },
+    { "term": "Mole ratio", "definition": "The ratio of the amounts, in moles, of substances in a reaction, given by the coefficients in the balanced equation." },
+    { "term": "Unit analysis", "definition": "A method of multiplying by conversion factors so that unwanted units cancel and the answer comes out in the unit asked for." },
+    { "term": "Density", "definition": "The mass of a substance per unit volume, so that mass equals density multiplied by volume." },
+    { "term": "Gravimetric analysis", "definition": "Quantitative analysis by mass, in which the substance is converted into a pure solid of known formula that is weighed." },
+    { "term": "Precipitate", "definition": "An insoluble solid that forms when two solutions react and is separated by filtration." },
+    { "term": "Precipitating reagent", "definition": "A solution added in excess to convert the substance being measured into an insoluble precipitate, such as silver nitrate for chloride ions." },
+    { "term": "Deionised water", "definition": "Water from which dissolved ions have been removed, used to dissolve samples and wash precipitates." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "12.0 g of magnesium carbonate is heated until it decomposes completely: MgCO₃(s) → MgO(s) + CO₂(g). Calculate (i) the moles of magnesium carbonate, (ii) the mass of magnesium oxide formed, (iii) the volume of carbon dioxide formed at STP. (MgCO₃ = 84)",
+      "model": "(i) Moles of MgCO₃ = 12.0 g ÷ 84 g mol⁻¹ = 0.1429 mol, which is 0.143 mol to 3 significant figures. (ii) The ratio MgCO₃ : MgO is 1 : 1, so moles of MgO = 0.14286 mol. Mass of MgO = 0.14286 × 40 = 5.71 g, using M(MgO) = 40 g mol⁻¹. (iii) The ratio MgCO₃ : CO₂ is 1 : 1, so moles of CO₂ = 0.14286 mol. Volume of CO₂ at STP = 0.14286 × 22.4 = 3.20 L."
+    },
+    {
+      "marks": 9,
+      "prompt": "0.750 g of impure potassium chloride was dissolved in water and excess silver nitrate solution was added. The dry precipitate of silver chloride weighed 1.35 g. Name this method of analysis, state why excess silver nitrate was used, and calculate the percentage purity of the potassium chloride. (AgCl = 143.5, KCl = 74.5)",
+      "model": "The method is gravimetric analysis: the chloride is converted into a precipitate of known formula, which is filtered, dried and weighed. Excess silver nitrate was used so that all of the chloride ions were precipitated, so the mass of silver chloride gives the full amount of chloride. Moles of AgCl = 1.35 ÷ 143.5 = 9.408 × 10⁻³ mol. The ratio AgCl : KCl is 1 : 1, so moles of KCl = 9.408 × 10⁻³ mol. Mass of KCl = 9.408 × 10⁻³ × 74.5 = 0.70087 g, which is 0.701 g to 3 significant figures. Percentage purity = (0.70087 ÷ 0.750) × 100 = 93.4%."
+    },
+    {
+      "marks": 9,
+      "prompt": "1.16 g of a compound containing only carbon, hydrogen and oxygen burned completely to give 2.64 g of carbon dioxide and 1.08 g of water. Its relative molecular mass is 58. Find its empirical and molecular formulae.",
+      "model": "Carbon: moles of CO₂ = 2.64 ÷ 44 = 0.0600 mol, so moles of C = 0.0600 mol and mass of C = 0.0600 × 12 = 0.720 g. Hydrogen: moles of H₂O = 1.08 ÷ 18 = 0.0600 mol, so moles of H = 2 × 0.0600 = 0.120 mol and mass of H = 0.120 g. Oxygen: mass of O = 1.16 − 0.720 − 0.120 = 0.320 g, so moles of O = 0.320 ÷ 16 = 0.0200 mol. Ratio C : H : O = 0.0600 : 0.120 : 0.0200 = 3 : 6 : 1, so the empirical formula is C₃H₆O. Empirical mass = 58, which equals Mr, so the molecular formula is C₃H₆O."
+    }
+  ]
+}

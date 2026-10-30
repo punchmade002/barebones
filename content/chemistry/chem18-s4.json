@@ -1,0 +1,121 @@
+{
+  "loId": "chem18-s4",
+  "chapterId": "chem18",
+  "subsection": "4. Le Châtelier's principle",
+  "syllabusRef": "3.3.4",
+  "notes": [
+    {
+      "h": "The principle",
+      "points": [
+        "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up.",
+        "A shift to the right means more products form until equilibrium is restored; a shift to the left means more reactants form.",
+        "The principle predicts the direction of the shift, not how fast it happens or how large it is; the change is only partly reversed."
+      ]
+    },
+    {
+      "h": "Changing the concentration",
+      "points": [
+        "Adding a reactant (or removing a product) shifts the equilibrium to the right, using up some of the added reactant and forming more product.",
+        "Adding a product (or removing a reactant) shifts the equilibrium to the left.",
+        "Kc is unchanged: the concentrations adjust until the ratio in the Kc expression is back at its old value.",
+        "Removing a product as it forms keeps pulling the equilibrium to the right.",
+        "In esterification, using an excess of ethanol (the cheaper reactant) increases the yield of ester.",
+        "In Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) (red), adding either reactant deepens the red colour; details are in “Investigation: disturbing an equilibrium”."
+      ]
+    },
+    {
+      "h": "Changing the pressure (reactions involving gases)",
+      "points": [
+        "Increasing the pressure shifts the equilibrium towards the side with fewer moles of gas, because that side exerts the lower pressure; decreasing the pressure shifts it towards the side with more moles of gas.",
+        "Count only the gas molecules, using the coefficients: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) has 4 mol of gas on the left and 2 mol on the right, so high pressure shifts it to the right, giving more ammonia.",
+        "If both sides have the same number of moles of gas, pressure has no effect on the position of equilibrium, e.g. H₂(g) + I₂(g) ⇌ 2HI(g), with 2 mol on each side.",
+        "Compressing H₂ + I₂ ⇌ 2HI makes the purple colour deeper because every concentration, including that of I₂, rises; the percentage of each substance is unchanged.",
+        "2NO₂(g) (brown) ⇌ N₂O₄(g) (colourless): compressing the mixture in a sealed syringe makes it darker at once, because the concentration rises.",
+        "The darkening then fades as the equilibrium shifts to the right, from 2 mol to 1 mol of gas, but the mixture does not become as pale as before.",
+        "A change of pressure does not change Kc."
+      ]
+    },
+    {
+      "h": "Changing the temperature",
+      "points": [
+        "Raising the temperature shifts the equilibrium in the endothermic direction, which absorbs heat; lowering it shifts the equilibrium in the exothermic direction, which releases heat.",
+        "If the forward reaction is exothermic (ΔH negative), heating shifts the equilibrium to the left and cooling shifts it to the right; the reverse is true if the forward reaction is endothermic.",
+        "Example: 2NO₂(g) ⇌ N₂O₄(g), with ΔH about −57 kJ mol⁻¹. Heating shifts the equilibrium to the left, giving a darker brown mixture with more NO₂.",
+        "Cooling the same mixture in ice-water shifts the equilibrium to the right, giving a paler mixture.",
+        "Temperature is the only one of these disturbances that changes Kc: for an exothermic forward reaction Kc falls as temperature rises; for an endothermic one it rises.",
+        "Diagram: two sealed tubes of the brown mixture, one in hot water and one in ice-water, each labelled with its colour."
+      ]
+    },
+    {
+      "h": "Catalysts",
+      "points": [
+        "A catalyst does not disturb an equilibrium or change its position, because it speeds up the forward and reverse reactions equally.",
+        "A catalyst lets equilibrium be reached more quickly, so the same yield is obtained in less time.",
+        "A catalyst does not change Kc."
+      ]
+    },
+    {
+      "h": "Everyday and environmental applications",
+      "points": [
+        "Fizzy drinks: CO₂(g) ⇌ CO₂(aq). Opening the bottle lowers the pressure of CO₂ above the drink, so the equilibrium shifts to the left and gas bubbles out.",
+        "A cold drink holds more dissolved CO₂.",
+        "Oceans: CO₂(g) ⇌ CO₂(aq); CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq); H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq).",
+        "More CO₂ in the air increases the dissolved CO₂ and carbonic acid; the third equilibrium shifts to the right, using up carbonate ions. This is ocean acidification.",
+        "With less carbonate available, shellfish and corals find it harder to build calcium carbonate shells and skeletons.",
+        "Indicators: the colour of an acid–base indicator changes because adding acid or base shifts HIn ⇌ H⁺ + In⁻ (see “How indicators work”)."
+      ]
+    },
+    {
+      "h": "Optimising yield: the Haber process (Higher Level only)",
+      "points": [
+        "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Ammonia is used mainly to make fertilisers.",
+        "Pressure: there are 4 mol of gas on the left and 2 mol on the right, so high pressure increases the yield by Le Châtelier’s principle, and also increases the rate because the concentrations are higher.",
+        "In practice a pressure of about 200 atm (range about 150–300 atm) is used as a compromise.",
+        "Higher pressures would give more ammonia, but a plant that can withstand them is very expensive to build and run, and the risk of leaks and explosions increases.",
+        "Temperature: the forward reaction is exothermic, so a low temperature gives a higher yield at equilibrium.",
+        "At low temperature the reaction is too slow to be economic.",
+        "In practice a compromise of about 400–500 °C (about 450 °C) gives a reasonable yield at a fast enough rate.",
+        "The iron catalyst does not change the yield; it lets equilibrium be approached quickly at the compromise temperature.",
+        "Ammonia is removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled through the catalyst, so the overall conversion is high."
+      ]
+    },
+    {
+      "h": "Optimising yield: other processes (Higher Level only)",
+      "points": [
+        "Contact process (sulfuric acid manufacture): 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH about −197 kJ mol⁻¹.",
+        "Le Châtelier predicts high pressure (3 mol of gas on the left, 2 mol on the right) and low temperature for the best yield.",
+        "In practice about 450 °C is used as a compromise between yield and rate, with a vanadium(V) oxide (V₂O₅) catalyst.",
+        "The pressure is only slightly above atmospheric (1–2 atm), because the yield is already very high and extra pressure would cost more than it gains.",
+        "General method for any equilibrium: for the best yield choose the temperature that favours the exothermic or endothermic direction as needed, the pressure that favours the side with fewer (or more) gas moles, and an excess of a cheap reactant or removal of product.",
+        "Then weigh these choices against rate, cost, energy use and safety.",
+        "Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Le Châtelier’s principle", "definition": "The principle that a system at equilibrium responds to a disturbance by moving in the direction that opposes the change." },
+    { "term": "Position of equilibrium", "definition": "The relative amounts of reactants and products present at equilibrium, which move when conditions change." },
+    { "term": "Shift", "definition": "The movement of an equilibrium to the left or to the right in response to a disturbance." },
+    { "term": "Exothermic", "definition": "Describes a reaction that releases heat to the surroundings and has a negative ΔH." },
+    { "term": "Endothermic", "definition": "Describes a reaction that absorbs heat from the surroundings and has a positive ΔH." },
+    { "term": "Yield", "definition": "The amount of product obtained at equilibrium, compared with the maximum possible." },
+    { "term": "Compromise conditions", "definition": "The temperature and pressure chosen in industry to balance yield, rate, cost and safety." }
+  ],
+  "questions": [
+    {
+      "marks": 9,
+      "prompt": "State Le Châtelier’s principle. For 2NO₂(g) ⇌ N₂O₄(g), ΔH = −57 kJ mol⁻¹, predict and explain the effect on the colour of the mixture of (i) increasing the temperature, (ii) increasing the pressure, (iii) adding a catalyst.",
+      "model": "Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up. (i) The forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left, the endothermic direction, which absorbs heat. More brown NO₂ forms, so the mixture becomes darker. (ii) Increasing the pressure shifts the equilibrium to the side with fewer moles of gas, which is N₂O₄ (1 mol, against 2 mol of NO₂). The mixture darkens at once because the concentration rises, then becomes paler as the equilibrium shifts to the right, but not as pale as before. (iii) A catalyst does not change the position of the equilibrium, so the colour does not change; it only allows equilibrium to be reached more quickly."
+    },
+    {
+      "marks": 12,
+      "prompt": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Use Le Châtelier’s principle to predict the temperature and pressure that give the greatest yield of ammonia, and explain why the conditions used industrially are a compromise. State the role of the iron catalyst.",
+      "model": "A high pressure gives the greatest yield: there are 4 mol of gas on the left and 2 mol on the right, so the equilibrium shifts to the right to reduce the pressure. A low temperature gives the greatest yield, because the forward reaction is exothermic, so the equilibrium shifts to the right to release heat. Industrially a pressure of about 200 atm and a temperature of about 450 °C are used as a compromise. A higher pressure would give more ammonia, but a plant that can withstand it is very expensive to build and run, and the risk of leaks and explosions increases. At low temperature the reaction is too slow to be economic, so a temperature in the range 400–500 °C is used to give a reasonable yield at a fast enough rate. The iron catalyst does not change the yield; it allows equilibrium to be approached quickly at the compromise temperature. Ammonia is also removed by cooling and liquefying it, and unreacted nitrogen and hydrogen are recycled."
+    },
+    {
+      "marks": 6,
+      "prompt": "Explain, using Le Châtelier’s principle, why increasing levels of carbon dioxide in the atmosphere make it harder for shellfish to build their shells.",
+      "model": "Carbon dioxide dissolves in the sea: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq). More dissolved CO₂ increases the concentration of carbonic acid, which is a reactant in the equilibrium H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Adding this reactant shifts that equilibrium to the right, so carbonate ions are used up. With less carbonate available, shellfish cannot build calcium carbonate shells as easily."
+    }
+  ]
+}

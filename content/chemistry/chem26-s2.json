@@ -1,0 +1,114 @@
+{
+  "loId": "chem26-s2",
+  "chapterId": "chem26",
+  "subsection": "2. Theoretical, actual and percentage yield",
+  "syllabusRef": "1.4.7",
+  "notes": [
+    {
+      "h": "Definitions of yield",
+      "points": [
+        "Yield: the amount of a product obtained from a reaction.",
+        "Theoretical yield: the maximum amount of product that could be formed from the given amounts of reactants, calculated from the balanced equation, assuming the reaction goes to completion and all of the limiting reactant becomes the desired product.",
+        "Actual yield: the amount of product actually obtained, measured in practice, in the laboratory or in industry.",
+        "Percentage yield = (actual yield ÷ theoretical yield) × 100; it measures how efficiently reactants are converted into the desired product.",
+        "The actual and theoretical yields must be in the same units: both grams, both moles, or both gas volumes at the same temperature and pressure."
+      ]
+    },
+    {
+      "h": "Method for theoretical and percentage yield (skills)",
+      "points": [
+        "Step 1: Write the balanced equation.",
+        "Step 2: Find the moles of the reactant that decides the amount of product, the one not in excess.",
+        "Step 3: Use the mole ratio to find the moles of product, then convert to grams or a gas volume: this is the theoretical yield.",
+        "Step 4: Percentage yield = actual ÷ theoretical × 100."
+      ]
+    },
+    {
+      "h": "Worked example: preparing ethene (sample data)",
+      "points": [
+        "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected.",
+        "Equation: C₂H₅OH → C₂H₄ + H₂O; the preparation is in “Investigation: preparing ethene”.",
+        "Moles of ethanol = 4.60 ÷ 46 = 0.100 mol; the ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.",
+        "Theoretical mass of ethene = 0.100 × 28 = 2.80 g.",
+        "Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.",
+        "A gas yield can also be compared by volume: 0.100 mol of ethene is 2.24 L at STP.",
+        "If 1.50 L of ethene (at STP) were collected, the percentage yield would be (1.50 ÷ 2.24) × 100 = 67.0%."
+      ]
+    },
+    {
+      "h": "Worked example: preparing an ester (sample data)",
+      "points": [
+        "Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained.",
+        "Equation: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+        "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate.",
+        "Theoretical mass = 0.100 × 88 = 8.80 g.",
+        "Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.",
+        "The yield is well below 100% mainly because esterification is reversible and reaches equilibrium; the preparation is in “Investigation: preparing an ester”."
+      ]
+    },
+    {
+      "h": "Worked example: making aspirin (sample data)",
+      "points": [
+        "Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138); one mole of salicylic acid gives one mole of aspirin.",
+        "Moles of salicylic acid = 2.76 ÷ 138 = 0.0200 mol, so the theoretical yield is 0.0200 mol of aspirin.",
+        "Theoretical mass of aspirin = 0.0200 × 180 = 3.60 g.",
+        "2.52 g of dry, recrystallised aspirin was obtained, so the percentage yield = (2.52 ÷ 3.60) × 100 = 70.0%."
+      ]
+    },
+    {
+      "h": "Working back from a yield (sample data)",
+      "points": [
+        "Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?",
+        "Theoretical yield needed = 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.",
+        "Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.",
+        "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g.",
+        "Actual yield = theoretical yield × (percentage ÷ 100); for example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³."
+      ]
+    },
+    {
+      "h": "Why the actual yield is less than the theoretical yield",
+      "points": [
+        "The reaction may not go to completion: many organic reactions are slow or reversible and reach equilibrium, e.g. esterification, so some reactant is left unconverted.",
+        "Side reactions form other, unwanted products from the same reactants; for example, some ethanol forms other products instead of ethene.",
+        "Product is lost during transfer, filtration, separation and purification; for example, some product stays dissolved in the solvent after recrystallisation, or sticks to glassware and filter paper.",
+        "The reactants may be impure, or a volatile product or reactant may evaporate.",
+        "A percentage yield above 100% means the product is impure or not fully dry, for example still containing water or solvent; the true yield can never exceed 100%."
+      ]
+    },
+    {
+      "h": "Why yield matters",
+      "points": [
+        "In industry, a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of; this links yield to sustainability.",
+        "Pharmaceuticals are made in many steps from simpler precursors, so a low yield at each step makes the overall yield very small (see “Organic compounds in pharmaceuticals”).",
+        "Overall yield of a multi-step synthesis = the product of the fractional yields of the steps; for example, two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Yield", "definition": "The amount of a product obtained from a reaction." },
+    { "term": "Theoretical yield", "definition": "The maximum amount of product that could form from the given amounts of reactants, calculated from the balanced equation." },
+    { "term": "Actual yield", "definition": "The amount of product actually obtained in practice, in the laboratory or in industry." },
+    { "term": "Percentage yield", "definition": "The actual yield divided by the theoretical yield, multiplied by 100." },
+    { "term": "Fractional yield", "definition": "The actual yield divided by the theoretical yield, before multiplying by 100." },
+    { "term": "Overall yield", "definition": "The product of the fractional yields of each step in a multi-step synthesis." },
+    { "term": "Side reaction", "definition": "A reaction that forms unwanted products from the same reactants as the desired reaction." },
+    { "term": "Reversible reaction", "definition": "A reaction that proceeds in both directions and reaches equilibrium, so it may not go to completion." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Define theoretical yield and percentage yield, and give two reasons why the actual yield of a product is usually less than the theoretical yield.",
+      "model": "Theoretical yield is the maximum amount of product that could be formed from the given amounts of reactants, calculated from the balanced equation, assuming the reaction goes to completion. Percentage yield = (actual yield ÷ theoretical yield) × 100. Two reasons: the reaction may be reversible and reach equilibrium, so some reactant is left unconverted; and product is lost during transfer, filtration and purification. A side reaction forming unwanted products is also a valid reason."
+    },
+    {
+      "marks": 9,
+      "prompt": "9.20 g of ethanol was dehydrated to ethene: C₂H₅OH → C₂H₄ + H₂O. 3.36 L of ethene, measured at STP, was collected. Calculate the theoretical volume of ethene at STP and the percentage yield.",
+      "model": "Moles of ethanol = 9.20 ÷ 46 = 0.200 mol. The ratio is 1 : 1, so moles of ethene = 0.200 mol. Theoretical volume of ethene = 0.200 × 22.4 = 4.48 L at STP. Percentage yield = (3.36 ÷ 4.48) × 100 = 75.0%."
+    },
+    {
+      "marks": 9,
+      "prompt": "3.00 g of ethanoic acid was heated under reflux with excess methanol and a few drops of concentrated sulfuric acid; 2.59 g of methyl ethanoate (M = 74) was obtained: CH₃COOH + CH₃OH ⇌ CH₃COOCH₃ + H₂O. Calculate the percentage yield and suggest why it is less than 100%.",
+      "model": "Moles of ethanoic acid = 3.00 ÷ 60 = 0.0500 mol. The ratio is 1 : 1, so theoretical moles of methyl ethanoate = 0.0500 mol. Theoretical mass = 0.0500 × 74 = 3.70 g. Percentage yield = (2.59 ÷ 3.70) × 100 = 70.0%. The yield is less than 100% because the reaction is reversible and reaches equilibrium, so some reactant is left unconverted; and some product is lost during separation and purification."
+    }
+  ]
+}

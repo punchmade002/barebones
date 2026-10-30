@@ -1,0 +1,81 @@
+{
+  "loId": "chem19-s1",
+  "chapterId": "chem19",
+  "subsection": "1. Self-ionisation of water",
+  "syllabusRef": "3.4.5",
+  "notes": [
+    {
+      "h": "Self-ionisation of water",
+      "b": "Pure water contains a very small number of ions, produced when water molecules transfer protons to each other.",
+      "points": [
+        "Pure water conducts electricity very slightly, so it must contain a small number of ions.",
+        "These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another; this is a Brønsted–Lowry acid–base reaction: H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).",
+        "In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq).",
+        "The equilibrium lies very far to the left: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.",
+        "In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻].",
+        "A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]; even acidic solutions contain some OH⁻ and basic solutions contain some H⁺."
+      ]
+    },
+    {
+      "h": "Deducing Kw (Higher Level only)",
+      "points": [
+        "Step 1: Write the equilibrium constant for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].",
+        "Step 2: So little water ionises that [H₂O] is effectively constant: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.",
+        "Step 3: Combine the two constants: Kc × [H₂O] = [H⁺][OH⁻]. This new constant is the ionic product of water, Kw.",
+        "Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations.",
+        "At 25 °C, Kw = 1.0 × 10⁻¹⁴ (units mol² L⁻², often omitted)."
+      ]
+    },
+    {
+      "h": "Using Kw (Higher Level only)",
+      "points": [
+        "Pure water at 25 °C has [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴.",
+        "Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹.",
+        "So pH = −log₁₀(1.0 × 10⁻⁷) = 7.0, which is why pH 7 is neutral at 25 °C.",
+        "Kw applies to every dilute aqueous solution, not just pure water: if [H⁺] rises, [OH⁻] falls so that the product stays 1.0 × 10⁻¹⁴ at 25 °C.",
+        "Example: a solution with [H⁺] = 1.0 × 10⁻² mol L⁻¹ (pH 2) has [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² = 1.0 × 10⁻¹² mol L⁻¹.",
+        "Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases in “pH calculations”."
+      ]
+    },
+    {
+      "h": "Temperature dependence of Kw (Higher Level only)",
+      "points": [
+        "Self-ionisation is endothermic in the forward direction (ΔH about +56 kJ mol⁻¹); it is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic.",
+        "By Le Châtelier's principle, raising the temperature shifts the equilibrium to the right, the endothermic direction, producing more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.",
+        "Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.",
+        "Kw at 0 °C is 1.1 × 10⁻¹⁵, giving a neutral pH of 7.47.",
+        "Kw at 25 °C is 1.0 × 10⁻¹⁴, giving a neutral pH of 7.00.",
+        "Kw at 50 °C is 5.5 × 10⁻¹⁴, giving a neutral pH of 6.63.",
+        "Kw at 100 °C is 5.1 × 10⁻¹³, giving a neutral pH of 6.14.",
+        "Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.",
+        "The neutral pH is therefore lower at higher temperatures and higher at lower temperatures."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Self-ionisation", "definition": "The reaction in which one water molecule transfers a proton to another, producing a very small amount of H₃O⁺ and OH⁻ ions." },
+    { "term": "Hydronium ion", "definition": "The H₃O⁺ ion formed when a water molecule accepts a proton; it is often written simply as H⁺(aq) in equations." },
+    { "term": "Ionic product of water (Kw)", "definition": "The constant Kw = [H⁺][OH⁻] for water and dilute aqueous solutions, equal to 1.0 × 10⁻¹⁴ at 25 °C." },
+    { "term": "Neutral solution", "definition": "A solution in which [H⁺] = [OH⁻]." },
+    { "term": "Acidic solution", "definition": "A solution in which [H⁺] is greater than [OH⁻]." },
+    { "term": "Basic solution", "definition": "A solution in which [H⁺] is less than [OH⁻]; also called alkaline." },
+    { "term": "Endothermic reaction", "definition": "A reaction that takes in heat energy from its surroundings." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "Write an equation for the self-ionisation of water and explain why pure water is described as neutral.",
+      "model": "The self-ionisation of water is H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq), or simply H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). Each ionisation produces one H₃O⁺ and one OH⁻, so in pure water [H₃O⁺] = [OH⁻]. A solution is neutral when [H⁺] = [OH⁻]; it is acidic when [H⁺] > [OH⁻] and basic when [H⁺] < [OH⁻]. Pure water is therefore neutral, even though only about 1.8 × 10⁻⁹ of its molecules are ionised at 25 °C."
+    },
+    {
+      "marks": 9,
+      "prompt": "Define the ionic product of water, Kw. Kw at 25 °C is 1.0 × 10⁻¹⁴. Show that the pH of pure water at 25 °C is 7.0, and calculate [OH⁻] in a solution with [H⁺] = 1.0 × 10⁻³ mol L⁻¹.",
+      "model": "Kw is the ionic product of water, the product of the hydrogen ion and hydroxide ion concentrations: Kw = [H₃O⁺][OH⁻] = [H⁺][OH⁻]. In pure water [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴. Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹, and pH = −log₁₀(1.0 × 10⁻⁷) = 7.0. For [H⁺] = 1.0 × 10⁻³ mol L⁻¹: [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻³ = 1.0 × 10⁻¹¹ mol L⁻¹."
+    },
+    {
+      "marks": 9,
+      "prompt": "Kw is 5.5 × 10⁻¹⁴ at 50 °C. Explain why Kw increases with temperature, calculate the pH of pure water at 50 °C, and explain whether this water is acidic.",
+      "model": "Self-ionisation is endothermic in the forward direction, so by Le Châtelier's principle a rise in temperature shifts the equilibrium to the right, producing more H⁺ and OH⁻ and increasing Kw. In pure water [H⁺] = [OH⁻], so [H⁺] = √(5.5 × 10⁻¹⁴) = 2.35 × 10⁻⁷ mol L⁻¹. pH = −log₁₀(2.35 × 10⁻⁷) = 6.63. The water is not acidic: [H⁺] = [OH⁻], so it is neutral, even though its pH is below 7."
+    }
+  ]
+}

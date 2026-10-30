@@ -1,0 +1,86 @@
+{
+  "loId": "chem18-s1",
+  "chapterId": "chem18",
+  "subsection": "1. Dynamic equilibrium",
+  "syllabusRef": "3.3.1",
+  "notes": [
+    {
+      "h": "Reversible and non-reversible reactions",
+      "b": "Some reactions run to completion; others reach a balance in which the forward and reverse reactions both continue.",
+      "points": [
+        "Some reactions go to completion: the reactants are converted completely into products and the reaction cannot easily be reversed, e.g. burning magnesium, 2Mg(s) + O₂(g) → 2MgO(s).",
+        "A reversible reaction is one in which the products can react to form the reactants again, so both the forward and the reverse reactions take place.",
+        "Reversible reactions are shown with the sign ⇌.",
+        "The forward reaction is the one from left to right as written; the reverse (back) reaction is from right to left.",
+        "The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), is named after Fritz Haber (1868–1934); Carl Bosch (1874–1940) developed it industrially.",
+        "Hydrogen and iodine: H₂(g) + I₂(g) ⇌ 2HI(g).",
+        "Esterification: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+        "Nitrogen dioxide and dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). NO₂ is brown and N₂O₄ is colourless, so the colour of the mixture shows how far the reaction has moved.",
+        "Weak acids and acid–base indicators are also reversible, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq) and HIn ⇌ H⁺ + In⁻; see “Strong vs weak, concentrated vs dilute” and “How indicators work”."
+      ]
+    },
+    {
+      "h": "Dynamic equilibrium",
+      "b": "At chemical equilibrium both reactions continue, and their rates are equal.",
+      "points": [
+        "Chemical equilibrium is a state of dynamic balance in a reversible reaction in which the rate of the forward reaction equals the rate of the reverse reaction.",
+        "It is called dynamic because both reactions are still happening: reactant particles are still forming products and product particles are still forming reactants, at the same rate.",
+        "Because substances are formed and used up at the same rate, their concentrations stay constant at equilibrium, so observable properties such as colour, pressure and density stop changing.",
+        "The concentrations are constant but not equal: at equilibrium there may be much more product than reactant, or the reverse.",
+        "Static equilibrium is different: nothing moves, e.g. a metre stick balanced at its centre.",
+        "Analogy: a person walking up a down-escalator at the same speed it moves stays in the same place, although both movements continue."
+      ]
+    },
+    {
+      "h": "The closed system",
+      "points": [
+        "Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave; energy such as heat can still pass to and from the surroundings.",
+        "Heating calcium carbonate in a sealed container, CaCO₃(s) ⇌ CaO(s) + CO₂(g): the CO₂ builds up and equilibrium is reached.",
+        "Heating calcium carbonate in an open container: the CO₂ escapes, the reverse reaction cannot happen, and the calcium carbonate decomposes completely.",
+        "A fizzy drink in a closed bottle contains CO₂(g) ⇌ CO₂(aq) at equilibrium; once the bottle is opened the gas escapes and the drink goes flat."
+      ]
+    },
+    {
+      "h": "Reaching equilibrium",
+      "points": [
+        "At the start, when only reactants are present, the forward rate is high and the reverse rate is zero.",
+        "As reactants are used up the forward rate falls; as products build up the reverse rate rises.",
+        "Equilibrium is reached when the two rates become equal; from then on all concentrations are constant.",
+        "The same equilibrium is reached from either direction: starting with 1 mol of H₂ and 1 mol of I₂, or with 2 mol of HI only, in the same sealed flask at the same temperature, gives the same equilibrium mixture.",
+        "Concentration–time graph for N₂ + 3H₂ ⇌ 2NH₃ starting with N₂ and H₂: the reactant curves fall and the product curve rises from zero, each changing quickly at first.",
+        "All three curves level off at the same moment, when equilibrium is reached.",
+        "H₂ falls three times as fast as N₂, and NH₃ rises twice as fast as N₂ falls.",
+        "Rate–time graph: the forward-rate curve falls and the reverse-rate curve rises from zero until they meet and continue as one horizontal line at equilibrium.",
+        "Diagram (a): concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked.",
+        "Diagram (b): forward and reverse rates against time, meeting at equilibrium."
+      ]
+    }
+  ],
+  "keyTerms": [
+    { "term": "Reversible reaction", "definition": "A reaction in which the products can react to form the reactants again, so both directions take place." },
+    { "term": "Chemical equilibrium", "definition": "The state of a reversible reaction in which the forward and reverse rates are equal and the concentrations are constant." },
+    { "term": "Dynamic equilibrium", "definition": "An equilibrium in which the forward and reverse reactions continue at equal rates." },
+    { "term": "Closed system", "definition": "A system in which no reactants or products can enter or leave." },
+    { "term": "Forward reaction", "definition": "The reaction proceeding from left to right as written in the equation." },
+    { "term": "Reverse reaction", "definition": "The reaction proceeding from right to left, forming the reactants again." },
+    { "term": "Reaction going to completion", "definition": "A reaction in which the reactants are converted completely into products, which cannot easily be reversed." },
+    { "term": "Static equilibrium", "definition": "A state in which nothing is moving, such as a metre stick balanced at its centre." }
+  ],
+  "questions": [
+    {
+      "marks": 6,
+      "prompt": "What is meant by dynamic chemical equilibrium? Why is the word ‘dynamic’ used?",
+      "model": "Dynamic chemical equilibrium is a state of balance in a reversible reaction in which the rate of the forward reaction equals the rate of the reverse reaction. The word dynamic is used because both reactions are still taking place: reactant particles continue to form products and product particles continue to form reactants, at the same rate. Because substances are formed and used up at equal rates, the concentrations of reactants and products stay constant and the observable properties stop changing."
+    },
+    {
+      "marks": 6,
+      "prompt": "A mixture of hydrogen and iodine vapour is sealed in a flask and heated; the purple colour fades and then stays constant. Explain, in terms of the rates of the forward and reverse reactions, why the colour stops changing, and state whether the reaction has stopped.",
+      "model": "The reaction is H₂(g) + I₂(g) ⇌ 2HI(g), and the purple colour is due to the iodine. At the start only hydrogen and iodine are present, so the forward rate is high and the reverse rate is zero. As hydrogen and iodine are used up the forward rate falls, and as hydrogen iodide builds up the reverse rate rises. When the two rates become equal, the concentration of iodine stops changing, so the colour stays constant. The reaction has not stopped: it is dynamic, with H₂ and I₂ forming HI and HI forming H₂ and I₂ at the same rate."
+    },
+    {
+      "marks": 3,
+      "prompt": "Explain why heating calcium carbonate in an open crucible does not set up an equilibrium.",
+      "model": "Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave. In an open crucible the carbon dioxide escapes as it forms, so the reverse reaction, CaO(s) + CO₂(g) → CaCO₃(s), cannot occur, and the calcium carbonate decomposes completely."
+    }
+  ]
+}
