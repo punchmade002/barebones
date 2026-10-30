@@ -15,7 +15,7 @@
 
 Pathways
 - [ ] P1 A pathway to excellence: the route and supports by which a participant progresses from first involvement to high-level performance (school/club → development squads → national/international).
-- [ ] P2 Long-term athlete development (LTAD, Balyi): age- and stage-appropriate development, from fundamental movement skills and fun, through learning and training to train, to training to compete and to win, with "active for life" for everyone. Early specialisation can cause drop-out and injury.
+- [ ] P2 Long-term athlete development (LTAD, Balyi): age- and stage-appropriate development through the stages FUNdamentals, Learn to Train, Train to Train, Train to Compete and Train to Win, with Active for Life for everyone. Early specialisation can cause drop-out and injury.
 
 Strengthening school–community pathways
 - [ ] S1 Club coaches running sessions in schools, and teachers coaching in clubs.
@@ -37,7 +37,7 @@ Provision and support for excellence
 
 | Item | Fact |
 |---|---|
-| P2 | Long-Term Athlete Development model associated with Istvan Balyi. |
+| P2 | Long-Term Athlete Development model associated with Istvan Balyi; stage names FUNdamentals, Learn to Train, Train to Train, Train to Compete, Train to Win, Active for Life. |
 | E2 | Sport Ireland's International Carding Scheme gives direct funding to high-performing athletes. |
 | E3 | The Sport Ireland Institute provides high-performance support services to athletes and NGBs. |
 | E4 | The Sport Ireland Campus is at Abbotstown, Dublin; the National Aquatic Centre is on that campus. |
